@@ -96,6 +96,8 @@ $\subseteq$ discrete.
 
 ### 2.6 Key Relationships
 
+<div class="table-wrap">
+
 | Topology       | Basis                              | Separation        | Properties                                |
 | -------------- | ---------------------------------- | ----------------- | ----------------------------------------- |
 | Discrete       | $\{\{x\} : x \in X\}$              | Completely normal | Every function from $X$ is continuous     |
@@ -103,6 +105,8 @@ $\subseteq$ discrete.
 | Cofinite       | $\{X \setminus F : F\text{ finite}\}$ | $T_1$ but not $T_2$ | Compact (any $X$)                         |
 | Standard ($\mathbb{R}$) | $\{(a,b) : a<b\}$        | $T_4$ (normal)    | Connected, separable, Lindelöf            |
 | Subspace       | $\{B \cap Y : B \in \mathcal{B}_X\}$ | Inherits $T_0,T_1,T_2$ | Open sets = intersections with $Y$        |
+
+</div>
 
 These examples span the spectrum from finest (discrete, many open sets) to coarsest (indiscrete, few open sets).
 
@@ -139,11 +143,15 @@ $\blacksquare$
 
 ### 2.10 Summary Table
 
+<div class="table-wrap">
+
 | Axiom                | Requirement                                      | Why finite matters                     |
 | -------------------- | ------------------------------------------------ | -------------------------------------- |
 | $\emptyset, X \in \tau$ | The empty set and whole space are open       | Provides base and top elements          |
 | Arbitrary unions     | Any union of open sets is open                   | Ensures topology is closed under "or"   |
 | Finite intersections | Finite intersections of open sets are open       | Prevents pathological singleton limits  |
+
+</div>
 
 ## Cross-References
 

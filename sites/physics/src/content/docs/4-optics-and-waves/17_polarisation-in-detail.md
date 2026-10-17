@@ -98,6 +98,8 @@ $\blacksquare$
 
 A systematic reference for standard Jones matrices:
 
+<div class="table-wrap">
+
 | Element | Jones Matrix |
 | --------- | ------------- |
 | Linear polariser ($x$-axis) | $\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}$ |
@@ -105,6 +107,8 @@ A systematic reference for standard Jones matrices:
 | Quarter-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}$ |
 | Half-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$ |
 | Rotator (angle $\theta$) | $\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$ |
+
+</div>
 
 ### 13.5 Poincaré Sphere
 
@@ -187,7 +191,7 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition

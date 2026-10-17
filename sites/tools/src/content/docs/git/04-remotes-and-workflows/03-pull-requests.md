@@ -105,11 +105,15 @@ Why this change is needed. Reference to issue: Closes #42.
 
 Small PRs are easier to review, faster to merge, and safer to revert. Aim for:
 
+<div class="table-wrap">
+
 | Metric        | Target   | Maximum  |
 | ------------- | -------- | -------- |
 | Lines changed | < 200    | < 400    |
 | Files changed | < 10     | < 20     |
 | Review time   | < 30 min | < 1 hour |
+
+</div>
 
 If a PR exceeds these limits, consider splitting it into multiple smaller PRs.
 
@@ -118,6 +122,8 @@ If a PR exceeds these limits, consider splitting it into multiple smaller PRs.
 ### Reviewing PRs
 
 When reviewing a PR, focus on:
+
+<div class="table-wrap">
 
 | Category        | What to Check                                                                           |
 | --------------- | --------------------------------------------------------------------------------------- |
@@ -128,15 +134,21 @@ When reviewing a PR, focus on:
 | **Security**    | Does the change introduce any vulnerabilities? (Input validation, authentication, etc.) |
 | **Performance** | Does the change introduce any regressions? (N+1 queries, unnecessary copies, etc.)      |
 
+</div>
+
 ### Writing Review Comments
 
 **Be constructive and specific:**
+
+<div class="table-wrap">
 
 | Bad                      | Good                                                                   |
 | ------------------------ | ---------------------------------------------------------------------- |
 | "This is wrong"          | "This condition is inverted, `x < 0` should be `x >= 0`"              |
 | "Use a better algorithm" | "A binary search would reduce this from $O(n)$ to $O(\log n)$"         |
 | "This is hard to read"   | "Extract this into a named function `is_valid_email` with a docstring" |
+
+</div>
 
 **Distinguish blocking from non-blocking comments:**
 
@@ -170,6 +182,8 @@ Configure GitHub to require certain checks before a PR can be merged:
 
 For the `main` branch, configure:
 
+<div class="table-wrap">
+
 | Rule                      | Purpose                                            |
 | ------------------------- | -------------------------------------------------- |
 | Require PR before merging | All changes must be reviewed                       |
@@ -179,6 +193,8 @@ For the `main` branch, configure:
 | Require signed commits    | Commits must be GPG/SSH signed                     |
 | Require linear history    | No merge commits (force rebase)                    |
 | Restrict who can push     | Only authorized users can bypass PRs               |
+
+</div>
 
 ### Auto-Merge
 
@@ -191,11 +207,15 @@ $ gh pr merge 42 --auto --squash
 
 ## Merging Strategies on Platforms
 
+<div class="table-wrap">
+
 | Strategy                  | Git Command                          | When to Use                                  |
 | ------------------------- | ------------------------------------ | -------------------------------------------- |
 | **Create a merge commit** | `git merge --no-ff`                  | Preserves full history; good for large teams |
 | **Squash and merge**      | `git merge --squash`                 | Linear history; one commit per PR            |
 | **Rebase and merge**      | `git rebase` + `git merge --ff-only` | Linear history; preserves individual commits |
+
+</div>
 
 ### Squash and Merge: Implications
 

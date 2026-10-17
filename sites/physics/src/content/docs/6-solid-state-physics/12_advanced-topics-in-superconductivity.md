@@ -205,6 +205,8 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 
 ### 12.6 Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Key Parameters |
 | --- | --- | --- |
 | MRI magnets | Persistent supercurrents in Type II Nb-Ti coils | $B \approx 1.5$--$7$ T; $\lambda \approx 90$ nm |
@@ -212,6 +214,8 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 | Josephson voltage standard | AC Josephson effect: $\nu = 2eV/h$ | Accuracy $\sim 10^{-10}$ |
 | Particle accelerator dipoles | Type II Nb$_3$Sn for high-field confinement | $B \approx 8$--$16$ T |
 | Quantum computing (transmons) | Josephson junction as non-linear inductor | $E_J/E_C \sim 50$--$100$ |
+
+</div>
 
 The GL theory underpins the design of all these devices. For MRI and accelerator magnets, the
 critical current density $J_c$ (determined by vortex pinning) is the key engineering parameter.
@@ -223,7 +227,7 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 - **[Topological Insulators and Semimetals](/6-solid-state-physics/13_topological-insulators-and-semimetals/)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -232,6 +236,8 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons pair up into Cooper pairs through lattice vibrations, forming a macroscopic quantum state that flows without scattering. Type I superconductors expel all magnetic flux (Meissner effect), while Type II superconductors allow flux to penetrate in quantized vortices. The Ginzburg-Landau theory describes the superconducting order parameter as a complex field whose magnitude squared gives the density of superconducting electrons. The coherence length and penetration depth compete: when the penetration depth exceeds the coherence length, the material becomes Type II. Josephson junctions exploit the phase sensitivity of the supercurrent to create ultra-sensitive magnetometers and voltage standards.
 
 ### 12.7 Key Relationships Summary
+
+<div class="table-wrap">
 
 | Quantity | Expression | Notes |
 | --- | --- | --- |
@@ -243,3 +249,5 @@ Superconductivity is the complete disappearance of electrical resistance below a
 | Lower critical field | $B_{c1} = (\Phi_0/4\pi\lambda^2)\ln\kappa$ | GL result |
 | DC Josephson | $I = I_c \sin\delta$ | Phase-dependent supercurrent |
 | AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
+
+</div>

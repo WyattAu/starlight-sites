@@ -500,6 +500,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 
 **Frameworks by language:**
 
+<div class="table-wrap">
+
 | Language | Framework | Assertion Library |
 | ---------- | ----------- | ------------------- |
 | JavaScript/TypeScript | Jest, Vitest, Mocha | Jest assertions, Chai |
@@ -508,6 +510,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 | Go | testing (stdlib) | testify |
 | Rust | built-in (#[test]) | assert!, assert_eq! |
 | C++ | Google Test, Catch2 | built-in assertions |
+
+</div>
 
 **Writing good unit tests:**
 
@@ -578,6 +582,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 
 ### Common Bug Categories
 
+<div class="table-wrap">
+
 | Category | Symptoms | Tools |
 | ---------- | ---------- | ------- |
 | Logic errors | Wrong output, no crash | Debugger, unit tests |
@@ -586,6 +592,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 | Memory issues | Leaks, out-of-memory | Memory profilers |
 | Concurrency issues | Race conditions, deadlocks | Thread sanitisers, debuggers |
 | Configuration issues | Works locally, fails in production | Environment comparison tools |
+
+</div>
 
 ---
 
@@ -659,6 +667,8 @@ Code quality tools enforce standards, catch bugs early, and maintain consistency
 
 Linters analyse code for errors, style violations, and potential bugs.
 
+<div class="table-wrap">
+
 | Language | Linter | Configuration |
 | ---------- | -------- | --------------- |
 | JavaScript/TypeScript | ESLint | .eslintrc.json |
@@ -666,6 +676,8 @@ Linters analyse code for errors, style violations, and potential bugs.
 | Go | golangci-lint | .golangci.yml |
 | Rust | Clippy | built-in with Cargo |
 | Java | Checkstyle, SpotBugs | checkstyle.xml |
+
+</div>
 
 ### Formatters
 
@@ -2401,6 +2413,8 @@ A way that preserves locality better than block-based sorting.
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Data Structure          | Build         | Query                   | Update         | Notes                                         |
 | ----------------------- | ------------- | ----------------------- | -------------- | --------------------------------------------- |
 | Segment tree            | $O(n)$        | $O(\log n)$             | $O(\log n)$    | Flexible, lazy propagation                    |
@@ -2413,6 +2427,8 @@ A way that preserves locality better than block-based sorting.
 | Merge sort tree         | $O(n \log n)$ | $O(\log^2 n)$           | N/A            | Static, sorted subarrays                      |
 | Persistent segment tree | $O(n \log n)$ | $O(\log n)$             | $O(\log n)$    | Version history, $O(\log n)$ space per update |
 | Mo's algorithm          | N/A           | $O(\sqrt{n})$ amortised | N/A            | Offline only                                  |
+
+</div>
 
 ## Common Pitfalls
 
@@ -3028,6 +3044,8 @@ class Dinic:
 
 ### Max-Flow Algorithms Comparison
 
+<div class="table-wrap">
+
 | Algorithm        | Time Complexity  | Best For                             |
 | ---------------- | ---------------- | ------------------------------------ |
 | Ford-Fulkerson   | $O(E \cdot f^*)$ | Small flow values                    |
@@ -3035,6 +3053,8 @@ class Dinic:
 | Dinic's          | $O(V^2 E)$       | General purpose, fast in practice    |
 | Capacity scaling | $O(E^2 \log U)$  | Large capacities                     |
 | Push-relabel     | $O(V^3)$         | Dense graphs                         |
+
+</div>
 
 Where $f^*$ is the max flow value and $U$ is the maximum edge capacity.
 
@@ -3236,11 +3256,15 @@ An **Eulerian circuit** visits every edge exactly once and returns to the starti
 
 ### Conditions
 
+<div class="table-wrap">
+
 | Property    | Eulerian Circuit | Eulerian Path           |
 | ----------- | ---------------- | ----------------------- |
 | Connected   | Yes              | Yes (ignoring isolated) |
 | Even degree | All vertices     | All except exactly 2    |
 | Odd degree  | None             | Exactly 2               |
+
+</div>
 
 ### Hierholzer's Algorithm
 
@@ -3572,6 +3596,8 @@ into L1 cache, so accessing `arr[i+1]`, `arr[i+2]`. Etc. Hits cache. This is why
 an array is 10-100x faster than following pointers through a linked list, Even though both are
 $O(n)$ in theory.
 
+<div class="table-wrap">
+
 | Property         | Array                       | Linked List              |
 | ---------------- | --------------------------- | ------------------------ |
 | Access by index  | $O(1)$                      | $O(n)$                   |
@@ -3580,6 +3606,8 @@ $O(n)$ in theory.
 | Insert in middle | $O(n)$                      | $O(1)$ with pointer      |
 | Cache behaviour  | Excellent (contiguous)      | Poor (pointer chasing)   |
 | Memory overhead  | None (or small for dynamic) | One pointer per element  |
+
+</div>
 
 ### Dynamic Arrays
 
@@ -3639,12 +3667,16 @@ Numbering over 149,000 characters across code points 0x0000 to 0x10FFFF.
 
 UTF-8 is a variable-width encoding of Unicode:
 
+<div class="table-wrap">
+
 | Code Point Range    | Byte Pattern | Binary Representation                 |
 | ------------------- | ------------ | ------------------------------------- |
 | U+0000 to U+007F    | 1 byte       | `0xxxxxxx`                            |
 | U+0080 to U+07FF    | 2 bytes      | `110xxxxx 10xxxxxx`                   |
 | U+0800 to U+FFFF    | 3 bytes      | `1110xxxx 10xxxxxx 10xxxxxx`          |
 | U+10000 to U+10FFFF | 4 bytes      | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` |
+
+</div>
 
 Key properties of UTF-8:
 
@@ -3660,6 +3692,8 @@ UTF-8 (in CPython 3.3+, PEP 393).
 
 ### String Complexity
 
+<div class="table-wrap">
+
 | Operation        | Python `str`        | C `char[]`             | Notes                     |
 | ---------------- | ------------------- | ---------------------- | ------------------------- |
 | Length           | $O(1)$              | $O(n)$ (with `strlen`) | Python stores length      |
@@ -3668,6 +3702,8 @@ UTF-8 (in CPython 3.3+, PEP 393).
 | Substring        | $O(k)$              | $O(k)$                 | $k$ = length of substring |
 | Split            | $O(n)$              | $O(n)$                 | Scans entire string       |
 | Find (substring) | $O(nm)$ to $O(n+m)$ | $O(nm)$ to $O(n+m)$    | Depends on algorithm      |
+
+</div>
 
 ## Two-Pointer Technique
 
@@ -3960,11 +3996,15 @@ class HashMapChaining:
 **Open addressing:** All elements are stored in the array itself. When a collision occurs, probe for
 The next empty slot using a deterministic sequence.
 
+<div class="table-wrap">
+
 | Strategy          | Probe Sequence                          | Clustering           |
 | ----------------- | --------------------------------------- | -------------------- |
 | Linear probing    | $h(k), h(k)+1, h(k)+2, \ldots$          | Primary clustering   |
 | Quadratic probing | $h(k), h(k)+1^2, h(k)+2^2, \ldots$      | Secondary clustering |
 | Double hashing    | $h(k), h(k)+h'(k), h(k)+2h'(k), \ldots$ | No clustering        |
+
+</div>
 
 **Robin Hood hashing:** A variant of open addressing where elements with shorter probe distances are
 Favoured. When inserting, if the new element has a longer probe distance than the existing element,
@@ -4587,11 +4627,15 @@ graph TD
 
 ### BST Height
 
+<div class="table-wrap">
+
 | Shape      | Height               | Search/Insert/Delete |
 | ---------- | -------------------- | -------------------- |
 | Balanced   | $O(\log n)$          | $O(\log n)$          |
 | Degenerate | $O(n)$               | $O(n)$               |
 | Random     | $O(\log n)$ expected | $O(\log n)$ expected |
+
+</div>
 
 For $n$ distinct keys inserted in random order, the expected height of a BST is approximately
 $2 \ln n \approx 1.39 \log_2 n$. This is only about 39% taller than a perfectly balanced tree, but
@@ -4851,11 +4895,15 @@ Number of nodes in an AVL tree of height $h$ is $N(h) = N(h-1) + N(h-2) + 1$ wit
 $N(1) = 2$. This is closely related to the Fibonacci sequence, giving $N(h) = F_{h+3} - 1$. Since
 $F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant $c$.
 
+<div class="table-wrap">
+
 | Operation | Worst Case  | Rotations per Insert | Rotations per Delete |
 | --------- | ----------- | -------------------- | -------------------- |
 | Search    | $O(\log n)$ | 0                    | 0                    |
 | Insert    | $O(\log n)$ | $\le 2$              | 0                    |
 | Delete    | $O(\log n)$ | 0                    | $O(\log n)$          |
+
+</div>
 
 :::note
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
@@ -5007,6 +5055,8 @@ class RBTree:
 
 ### AVL vs Red-Black Trees
 
+<div class="table-wrap">
+
 | Property             | AVL Tree                | Red-Black Tree             |
 | -------------------- | ----------------------- | -------------------------- |
 | Height bound         | $\le 1.44 \log_2 n$     | $\le 2 \log_2(n+1)$        |
@@ -5017,6 +5067,8 @@ class RBTree:
 | Insert performance   | Slightly slower         | Slightly faster            |
 | Delete performance   | Slower (more rotations) | Faster                     |
 | Standard library use | `std::map` (GCC)        | Java `TreeMap`Linux kernel |
+
+</div>
 :::
 
 :::tip
@@ -5045,6 +5097,8 @@ A B-tree of minimum degree $t \ge 2$ has these properties:
 4. A non-leaf node with $k$ keys has $k + 1$ children
 5. All leaves are at the same depth
 
+<div class="table-wrap">
+
 | Parameter         | Value              |
 | ----------------- | ------------------ |
 | Max keys per node | $2t - 1$           |
@@ -5052,6 +5106,8 @@ A B-tree of minimum degree $t \ge 2$ has these properties:
 | Max children      | $2t$               |
 | Min children      | $t$ (non-root)     |
 | Height            | $O(\log_t n)$      |
+
+</div>
 
 ### Search
 
@@ -5145,6 +5201,8 @@ in the leaf nodes, and internal nodes contain only keys for navigation.
 
 ### Differences from B-Trees
 
+<div class="table-wrap">
+
 | Property        | B-Tree               | B+ Tree                     |
 | --------------- | -------------------- | --------------------------- |
 | Data storage    | Every node           | Leaf nodes only             |
@@ -5152,6 +5210,8 @@ in the leaf nodes, and internal nodes contain only keys for navigation.
 | Leaf linkage    | None                 | Linked list (next pointers) |
 | Key duplication | No                   | Keys duplicated in leaves   |
 | Range queries   | Requires traversal   | Sequential scan of leaves   |
+
+</div>
 
 ```mermaid
 graph TD
@@ -5500,6 +5560,8 @@ class SkipList:
 
 ### Skip List vs Balanced Tree
 
+<div class="table-wrap">
+
 | Property          | Skip List              | Balanced Tree            |
 | ----------------- | ---------------------- | ------------------------ |
 | Search            | $O(\log n)$ expected   | $O(\log n)$ worst        |
@@ -5508,6 +5570,8 @@ class SkipList:
 | Implementation    | Simple                 | Complex (rotations)      |
 | Memory            | $O(n \log n)$ expected | $O(n)$                   |
 | Cache performance | Poor (pointer chasing) | Moderate                 |
+
+</div>
 
 Skip lists are used in Redis (for sorted sets), Apache Lucene, and LevelDB's memtable. Their
 Simplicity and lock-friendliness make them popular in concurrent systems.
@@ -5682,6 +5746,8 @@ $$
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
 Big-O and Big-Omega respectively, they exclude the equality case.
 
+<div class="table-wrap">
+
 | Notation       | Meaning                                      | Intuition          |
 | -------------- | -------------------------------------------- | ------------------ |
 | $O(g(n))$      | $f(n) \le c \cdot g(n)$                      | At most this fast  |
@@ -5689,6 +5755,8 @@ Big-O and Big-Omega respectively, they exclude the equality case.
 | $\Theta(g(n))$ | $c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)$ | Exactly this fast  |
 | $o(g(n))$      | $f(n) / g(n) \to 0$                          | Strictly slower    |
 | $\omega(g(n))$ | $f(n) / g(n) \to \infty$                     | Strictly faster    |
+
+</div>
 
 ## Common Complexity Classes
 
@@ -5721,6 +5789,8 @@ graph TD
     style Onf fill:#2c3e50,color:#fff
 ```
 
+<div class="table-wrap">
+
 | Class         | Name         | Example                     | Practical at $n = 10^6$                |
 | ------------- | ------------ | --------------------------- | -------------------------------------- |
 | $O(1)$        | Constant     | Hash table lookup           | Instantaneous                          |
@@ -5731,6 +5801,8 @@ graph TD
 | $O(n^3)$      | Cubic        | Naive matrix multiplication | $10^{18}$ operations (infeasible)      |
 | $O(2^n)$      | Exponential  | Subset enumeration          | $10^{301,029}$ operations (impossible) |
 | $O(n!)$       | Factorial    | Permutation generation      | Beyond astronomical                    |
+
+</div>
 
 ### What "Practical" Actually Means
 
@@ -5865,11 +5937,15 @@ An algorithm"s complexity can vary depending on the input. Quicksort runs in $O(
 Average but $O(n^2)$ in the worst case. Linear search is $O(1)$ in the best case (element is first)
 And $O(n)$ in the worst case.
 
+<div class="table-wrap">
+
 | Case         | Definition                                   | When it matters                         |
 | ------------ | -------------------------------------------- | --------------------------------------- |
 | Best case    | Minimum over all inputs of size $n$          | Rarely useful in practice               |
 | Average case | Expected value over a distribution of inputs | Useful when input distribution is known |
 | Worst case   | Maximum over all inputs of size $n$          | The standard for guarantees             |
+
+</div>
 
 ### Why Worst Case is the Default
 
@@ -5968,6 +6044,8 @@ class DynamicArray:
 Space complexity measures the additional memory an algorithm uses beyond the input. Like time
 Complexity, it is expressed in asymptotic notation.
 
+<div class="table-wrap">
+
 | Algorithm                | Time              | Space           | Notes                            |
 | ------------------------ | ----------------- | --------------- | -------------------------------- |
 | In-place quicksort       | $O(n \log n)$ avg | $O(\log n)$     | Stack depth for recursion        |
@@ -5977,6 +6055,8 @@ Complexity, it is expressed in asymptotic notation.
 | BFS                      | $O(V + E)$        | $O(V)$          | Queue for frontier               |
 | Dynamic programming (2D) | Varies            | $O(n \cdot m)$  | Full table                       |
 | DP with rolling array    | Same time         | $O(\min(n, m))$ | Space-optimised                  |
+
+</div>
 
 ### Space-Time Trade-offs
 
@@ -6029,12 +6109,16 @@ Becomes "Is there a tour of length at most $k$?" (binary search on $k$).
 
 ### P, NP, and NP-Completeness
 
+<div class="table-wrap">
+
 | Class           | Definition                                         | Example Problems                          |
 | --------------- | -------------------------------------------------- | ----------------------------------------- |
 | **P**           | Solvable in polynomial time                        | Sorting, shortest path, MST               |
 | **NP**          | Verifiable in polynomial time                      | SAT, travelling salesman, graph colouring |
 | **NP-Complete** | In NP, and every NP problem reduces to it          | SAT, 3-SAT, vertex cover                  |
 | **NP-Hard**     | At least as hard as NP-complete (may not be in NP) | Halting problem, TSP optimisation         |
+
+</div>
 
 ```mermaid
 graph TD
@@ -6064,6 +6148,8 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 
 ### Common NP-Complete Problems
 
+<div class="table-wrap">
+
 | Problem             | Input                           | Question                                 | Practical Significance               |
 | ------------------- | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | SAT                 | Boolean formula                 | Is there a satisfying assignment?        | Basis for all NP-completeness proofs |
@@ -6073,6 +6159,8 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 | Subset Sum          | Set of integers, target $t$     | Is there a subset summing to $t$?        | Knapsack variants                    |
 | Graph Colouring     | Graph $G$ Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
 | Clique              | Graph $G$ Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+
+</div>
 
 ### Dealing with NP-Hardness in Practice
 
@@ -6250,6 +6338,8 @@ For online algorithms (where future input is unknown), competitive analysis comp
 Performance to the optimal offline algorithm. An algorithm is $c$-competitive if its cost is at most
 $c$ times the optimal cost for every input sequence.
 
+<div class="table-wrap">
+
 | Online Problem   | Algorithm               | Competitive Ratio            |
 | ---------------- | ----------------------- | ---------------------------- |
 | Paging (caching) | LRU                     | $k$ (where $k$ = cache size) |
@@ -6257,6 +6347,8 @@ $c$ times the optimal cost for every input sequence.
 | K-server         | Work function algorithm | $2k - 1$                     |
 | Load balancing   | Greedy                  | $O(\log n)$                  |
 | Ski rental       | Buy after $n$ rentals   | 2                            |
+
+</div>
 
 ### I/O Complexity and External Memory Model
 
@@ -6267,12 +6359,16 @@ Vitter, 1988) counts:
 - **Memory size:** $M$ words available in internal memory
 - **Disk size:** $N$ words on disk
 
+<div class="table-wrap">
+
 | Algorithm     | Internal Memory    | External Memory (I/Os)          |
 | ------------- | ------------------ | ------------------------------- |
 | Scanning      | $O(N)$ time        | $O(N/B)$ I/Os                   |
 | Sorting       | $O(N \log N)$ time | $O((N/B) \log_{M/B}(N/B))$ I/Os |
 | BST search    | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 | B-tree search | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
+
+</div>
 
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
 does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
@@ -6502,6 +6598,8 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation       | Description          | Array-backed | Linked-list |
 | --------------- | -------------------- | ------------ | ----------- |
 | `push_front(x)` | Insert at front      | $O(1)$       | $O(1)$      |
@@ -6512,6 +6610,8 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 | `back()`        | Access back element  | $O(1)$       | $O(1)$      |
 | `is_empty()`    | Check if empty       | $O(1)$       | $O(1)$      |
 | `size()`        | Number of elements   | $O(1)$       | $O(1)$      |
+
+</div>
 
 ### Circular Buffer Implementation
 
@@ -6651,6 +6751,8 @@ class LinkedListDeque:
 
 ### Standard Library Support
 
+<div class="table-wrap">
+
 | Language | Type                | Implementation  | Notes                        |
 | -------- | ------------------- | --------------- | ---------------------------- |
 | Python   | `collections.deque` | Circular buffer | $O(1)$ all operations        |
@@ -6658,6 +6760,8 @@ class LinkedListDeque:
 | Java     | `ArrayDeque`        | Circular buffer | $O(1)$ all operations        |
 | Rust     | `VecDeque`          | Ring buffer     | $O(1)$ all operations        |
 | Go       | None (use slice)    | N/A             | Manual implementation needed |
+
+</div>
 
 :::note
 Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality, much
@@ -6671,6 +6775,8 @@ with the highest (or lowest) priority.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation            | Description                       | Binary Heap | Binomial Heap | Fibonacci Heap     |
 | -------------------- | --------------------------------- | ----------- | ------------- | ------------------ |
 | `insert(x)`          | Insert element with priority      | $O(\log n)$ | $O(\log n)$   | $O(1)$ amort.      |
@@ -6679,6 +6785,8 @@ with the highest (or lowest) priority.
 | `find_min()`         | Return minimum without removing   | $O(1)$      | $O(1)$        | $O(1)$             |
 | `delete(x)`          | Remove arbitrary element          | $O(\log n)$ | $O(\log n)$   | $O(\log n)$ amort. |
 | `merge(q1, q2)`      | Merge two priority queues         | $O(n)$      | $O(\log n)$   | $O(1)$ amort.      |
+
+</div>
 
 ## Binary Heap
 
@@ -6689,11 +6797,15 @@ A binary heap is a complete binary tree that satisfies the heap property: each n
 
 For a node at index $i$ (0-based):
 
+<div class="table-wrap">
+
 | Relationship | Formula                       |
 | ------------ | ----------------------------- |
 | Parent       | $\lfloor (i - 1) / 2 \rfloor$ |
 | Left child   | $2i + 1$                      |
 | Right child  | $2i + 2$                      |
+
+</div>
 
 ```mermaid
 graph TD
@@ -6850,16 +6962,24 @@ def heap_sort(arr):
 A d-ary heap is a generalisation where each node has up to $d$ children. For a node at index $i$
 (0-based):
 
+<div class="table-wrap">
+
 | Relationship | Formula                                 |
 | ------------ | --------------------------------------- |
 | Parent       | $\lfloor (i - 1) / d \rfloor$           |
 | Child $j$    | $d \cdot i + j + 1$ for $0 \le j \lt d$ |
+
+</div>
+
+<div class="table-wrap">
 
 | Metric         | Binary ($d=2$)  | 4-ary ($d=4$)   | Choice of $d$                               |
 | -------------- | --------------- | --------------- | ------------------------------------------- |
 | Height         | $O(\log_2 n)$   | $O(\log_4 n)$   | $d = E/V + 1$ optimises Dijkstra            |
 | Sift-down cost | $O(d \log_d n)$ | $O(d \log_d n)$ | Larger $d$ = fewer levels but more compares |
 | Sift-up cost   | $O(\log_d n)$   | $O(\log_d n)$   | Smaller $d$ = cheaper sift-up               |
+
+</div>
 
 For Dijkstra's algorithm on sparse graphs ($E = O(V)$), $d = 2$ is optimal. For dense graphs
 ($E = O(V^2)$), $d \approx V/2$ gives the best performance because sift-down is called more often
@@ -6879,12 +6999,16 @@ A binomial tree $B_k$ is defined recursively:
 
 Properties of $B_k$:
 
+<div class="table-wrap">
+
 | Property         | Value                           |
 | ---------------- | ------------------------------- |
 | Number of nodes  | $2^k$                           |
 | Height           | $k$                             |
 | Root degree      | $k$                             |
 | Children of root | $B_{k-1}, B_{k-2}, \ldots, B_0$ |
+
+</div>
 
 ### Merge Operation
 
@@ -7011,6 +7135,8 @@ Perform consolidation only during `extract_min`. This laziness is what gives amo
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation    | Amortised Time | Worst Case  | Mechanism                                  |
 | ------------ | -------------- | ----------- | ------------------------------------------ |
 | Insert       | $O(1)$         | $O(1)$      | Add tree to root list                      |
@@ -7019,6 +7145,8 @@ Perform consolidation only during `extract_min`. This laziness is what gives amo
 | Decrease-key | $O(1)$         | $O(\log n)$ | Cut and cascade if parent marked           |
 | Delete       | $O(\log n)$    | $O(n)$      | Decrease-key to $-\infty$ then extract-min |
 | Merge        | $O(1)$         | $O(1)$      | Concatenate root lists                     |
+
+</div>
 
 ### Marking and Cascading Cuts
 
@@ -7170,12 +7298,16 @@ Fibonacci heaps have high constant factors (due to the complex pointer manipulat
 Structure). They are asymptotically better than binary heaps only when `decrease_key` is called many
 Times relative to `extract_min`. In practice:
 
+<div class="table-wrap">
+
 | Algorithm         | Binary Heap Time  | Fibonacci Heap Time | Practical Winner |
 | ----------------- | ----------------- | ------------------- | ---------------- |
 | Dijkstra (sparse) | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Dijkstra (dense)  | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
+
+</div>
 :::
 
 :::caution
@@ -7456,6 +7588,8 @@ Framework.
 
 ### Decision Tree
 
+<div class="table-wrap">
+
 | Signal                                | Pattern             | Example                      |
 | ------------------------------------- | ------------------- | ---------------------------- |
 | Choose items with capacity constraint | Knapsack            | 0/1 knapsack, subset sum     |
@@ -7466,6 +7600,8 @@ Framework.
 | Optimise over subsequences/strings    | String DP           | Edit distance, LCS           |
 | Two players taking turns              | Game theory DP      | Nim, coin game               |
 | Greedy seems to work                  | Greedy-reducible DP | Activity selection           |
+
+</div>
 
 ## Knapsack Family
 
@@ -8197,6 +8333,8 @@ the locally optimal choice always lead to the globally optimal solution?
 
 ### When Greedy Works Instead of DP
 
+<div class="table-wrap">
+
 | Problem                    | Greedy Works? | Greedy Strategy                |
 | -------------------------- | ------------- | ------------------------------ |
 | Fractional knapsack        | Yes           | Sort by value/weight ratio     |
@@ -8208,9 +8346,13 @@ the locally optimal choice always lead to the globally optimal solution?
 | Partition equal subset sum | No            | DP required                    |
 | Edit distance              | No            | DP required                    |
 
+</div>
+
 ## State Compression Techniques
 
 ### Reducing State Space
+
+<div class="table-wrap">
 
 | Technique              | When to Use                         | Example                                |
 | ---------------------- | ----------------------------------- | -------------------------------------- |
@@ -8219,6 +8361,8 @@ the locally optimal choice always lead to the globally optimal solution?
 | Rolling array          | Only previous row/column needed     | `prev` and `curr` arrays               |
 | Bitmask                | Small set of choices (n &lt;= 20)   | TSP, assignment                        |
 | Sparse DP              | Many states unreachable             | Dictionary instead of array            |
+
+</div>
 
 ## Common Pitfalls
 
@@ -8331,6 +8475,8 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 
 ### Top-Down (Memoisation) vs Bottom-Up (Tabulation)
 
+<div class="table-wrap">
+
 | Aspect        | Top-Down (Memoisation)           | Bottom-Up (Tabulation)                      |
 | ------------- | -------------------------------- | ------------------------------------------- |
 | Approach      | Recursive with caching           | Iterative, fill table from base cases       |
@@ -8339,6 +8485,8 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 | Cache control | Only computes needed subproblems | Computes all subproblems                    |
 | Debugging     | Easier to reason about           | Harder to see the recurrence                |
 | Performance   | Slight overhead from recursion   | Slightly faster (no function call overhead) |
+
+</div>
 
 ## 1D DP
 
@@ -8549,12 +8697,16 @@ def edit_distance(s1, s2):
     return dp[n][m]
 ```
 
+<div class="table-wrap">
+
 | Operation                    | Cost               | Intuition                |
 | ---------------------------- | ------------------ | ------------------------ |
 | Delete `s1[i]`               | $dp[i-1][j] + 1$   | Remove character from s1 |
 | Insert `s2[j]`               | $dp[i][j-1] + 1$   | Add character to s1      |
 | Replace `s1[i]` with `s2[j]` | $dp[i-1][j-1] + 1$ | Change one character     |
 | Match `s1[i] == s2[j]`       | $dp[i-1][j-1]$     | No operation needed      |
+
+</div>
 
 ### Knapsack Problem
 
@@ -8942,6 +9094,8 @@ Solution. DP considers all possibilities and chooses the globally optimal one.
 Greedy works when the problem has the **greedy-choice property**, a locally optimal choice leads to
 A globally optimal solution. This holds for matroid structures.
 
+<div class="table-wrap">
+
 | Problem                    | Greedy?            | DP?                | Greedy Complexity |
 | -------------------------- | ------------------ | ------------------ | ----------------- |
 | Activity selection         | Yes                | Yes                | $O(n \log n)$     |
@@ -8951,6 +9105,8 @@ A globally optimal solution. This holds for matroid structures.
 | 0/1 knapsack               | **No**             | Yes                |,                 |
 | Longest common subsequence | **No**             | Yes                |,                 |
 | Edit distance              | **No**             | Yes                |,                 |
+
+</div>
 
 ### Activity Selection (Greedy Works)
 
@@ -9359,12 +9515,16 @@ def reconstruct_path(prev, target):
 Processed, its distance is final. With negative edges, a shorter path may be discovered later
 through a vertex that has already been processed.
 
+<div class="table-wrap">
+
 | Graph Type                   | Dijkstra                         | Bellman-Ford              | Floyd-Warshall |
 | ---------------------------- | -------------------------------- | ------------------------- | -------------- |
 | Non-negative, single source  | $O((V+E) \log V)$                | $O(VE)$                   | $O(V^3)$       |
 | Negative, no negative cycles | Fails                            | $O(VE)$                   | $O(V^3)$       |
 | Negative cycle detection     | Cannot                           | Yes                       | Yes            |
 | All-pairs                    | Run $V$ times: $O(V(V+E)\log V)$ | Run $V$ times: $O(V^2 E)$ | $O(V^3)$       |
+
+</div>
 
 ### Bellman-Ford Algorithm
 
@@ -9521,12 +9681,16 @@ def a_star(graph, source, target, heuristic):
 $h(v) \le \mathrm{actual distance from  v
 \mathrm{ to target$. Common heuristics:
 
+<div class="table-wrap">
+
 | Problem              | Heuristic                            | Admissible?    |
 | -------------------- | ------------------------------------ | -------------- |
 | Grid (4-directional) | Manhattan distance                   | Yes            |
 | Grid (8-directional) | Chebyshev distance                   | Yes            |
 | Euclidean space      | Euclidean distance                   | Yes            |
 | Road networks        | Euclidean or precomputed lower bound | If well-chosen |
+
+</div>
 
 A*with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
 Suboptimal path but will be faster. If $h(v) = 0$ for all $v$ A\* degrades to Dijkstra.
@@ -9623,11 +9787,15 @@ def prim(n, graph):
     return mst, total_weight
 ```
 
+<div class="table-wrap">
+
 | Algorithm             | Time              | Best When         | Data Structure |
 | --------------------- | ----------------- | ----------------- | -------------- |
 | Kruskal               | $O(E \log E)$     | Sparse graphs     | Union-Find     |
 | Prim                  | $O((V+E) \log V)$ | Dense graphs      | Priority queue |
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
+
+</div>
 :::
 
 :::note
@@ -9832,6 +10000,8 @@ def min_cut(n, capacity, source, sink):
 
 ### Applications of Max-Flow
 
+<div class="table-wrap">
+
 | Application          | How to Model                                                |
 | -------------------- | ----------------------------------------------------------- |
 | Bipartite matching   | Source to left set, right set to sink, all edges capacity 1 |
@@ -9840,6 +10010,8 @@ def min_cut(n, capacity, source, sink):
 | Baseball elimination | Teams as vertices, remaining games as edges                 |
 | Network reliability  | Edge connectivity via min-cut                               |
 
+</div>
+
 ## Eulerian Paths and Circuits
 
 An **Eulerian circuit** visits every edge exactly once and returns to the start. An **Eulerian
@@ -9847,12 +10019,16 @@ Path** visits every edge exactly once (may start and end at different vertices).
 
 ### Existence Conditions
 
+<div class="table-wrap">
+
 | Property                      | Eulerian Circuit | Eulerian Path                   |
 | ----------------------------- | ---------------- | ------------------------------- |
 | Connected                     | Yes              | Yes                             |
 | All vertices even degree      | Yes              | No                              |
 | Exactly 2 vertices odd degree | No               | Yes (start/end at odd vertices) |
 | Other                         | No               | No                              |
+
+</div>
 
 ```python
 def hierholzer(n, graph):
@@ -9923,12 +10099,16 @@ is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \
 
 ### Approximation Algorithms
 
+<div class="table-wrap">
+
 | Algorithm         | Approximation Ratio | Time                   | Notes                     |
 | ----------------- | ------------------- | ---------------------- | ------------------------- |
 | Nearest neighbour | $O(\log n)$         | $O(n^2)$               | Simple, no guarantee      |
 | Christofides      | 1.5                 | $O(n^3)$               | Best known for metric TSP |
 | 2-opt improvement | Empirical           | $O(n^2)$ per iteration | Local search              |
 | Held-Karp (DP)    | Exact               | $O(2^n \cdot n^2)$     | Exact, $n \le 20$         |
+
+</div>
 
 **Metric TSP:** When the triangle inequality holds ($d(u, w) \le d(u, v) + d(v, w)$), Christofides'
 Algorithm guarantees a solution within 1.5 times optimal.
@@ -10114,6 +10294,8 @@ def dinic(n, capacity, source, sink):
     return max_flow
 ```
 
+<div class="table-wrap">
+
 | Algorithm                    | Time Complexity   | Best For                               |
 | ---------------------------- | ----------------- | -------------------------------------- |
 | Edmonds-Karp                 | $O(VE^2)$         | Simple implementation, small graphs    |
@@ -10121,6 +10303,8 @@ def dinic(n, capacity, source, sink):
 | Dinic's (bipartite)          | $O(E \sqrt{V})$   | Bipartite matching                     |
 | Push-relabel                 | $O(V^3)$          | Dense graphs                           |
 | Push-relabel (highest label) | $O(V^2 \sqrt{E})$ | General purpose                        |
+
+</div>
 
 ## Bipartite Matching
 
@@ -10192,6 +10376,8 @@ def hopcroft_karp(n_left, n_right, edges):
 
 **Applications of bipartite matching:**
 
+<div class="table-wrap">
+
 | Application                  | Left Set  | Right Set   | Edge Meaning              |
 | ---------------------------- | --------- | ----------- | ------------------------- |
 | Job assignment               | Workers   | Jobs        | Worker can do job         |
@@ -10199,6 +10385,8 @@ def hopcroft_karp(n_left, n_right, edges):
 | Hall's marriage              | People    | Preferences | Acceptable pairing        |
 | Image segmentation           | Pixels    | Labels      | Pixel can have label      |
 | Compiler register allocation | Variables | Registers   | Variable can use register |
+
+</div>
 
 ## Minimum Vertex Cover (Konig's Theorem)
 
@@ -10333,6 +10521,8 @@ Subproblems, they commit to a choice and never reconsider.
 
 ### When to Consider Greedy
 
+<div class="table-wrap">
+
 | Signal                                                         | Try Greedy First? |
 | -------------------------------------------------------------- | ----------------- |
 | Problem has a matroid structure                                | Yes               |
@@ -10343,6 +10533,8 @@ Subproblems, they commit to a choice and never reconsider.
 | 0/1 knapsack, partition, edit distance                         | No (use DP)       |
 | TSP                                                            | No (NP-hard)      |
 | Problem requires "try all possibilities" to verify correctness | Probably No       |
+
+</div>
 
 ## The Exchange Argument
 
@@ -10719,6 +10911,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 
 ### Examples of Matroids
 
+<div class="table-wrap">
+
 | Matroid             | Set $S$          | Independent Sets $\mathcal{I}$     | Greedy Problem     |
 | ------------------- | ---------------- | ---------------------------------- | ------------------ |
 | Graphic matroid     | Edges of a graph | Acyclic subsets (forests)          | MST (Kruskal)      |
@@ -10726,6 +10920,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 | Linear matroid      | Vectors          | Linearly independent sets          | Max weight basis   |
 | Uniform matroid     | Elements         | Subsets of size $\le k$            | Top-k selection    |
 | Transversal matroid | Elements         | System of distinct representatives | Bipartite matching |
+
+</div>
 
 ```mermaid
 graph TD
@@ -10921,6 +11117,8 @@ of it.
 
 ### Desirable Properties
 
+<div class="table-wrap">
+
 | Property          | Definition                                                                            | Why It Matters                                           |
 | ----------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | **Deterministic** | Same input always produces same output                                                | Lookups must find the same bucket as inserts             |
@@ -10928,6 +11126,8 @@ of it.
 | **Avalanche**     | Flipping any input bit changes each output bit with probability $\approx 0.5$         | Small input changes produce unpredictable output changes |
 | **Efficient**     | Computable in $O(k)$ where $k$ is the key length                                      | Hash computation should not dominate lookup cost         |
 | **Reversible**    | (For non-cryptographic use) Given a hash value, finding a preimage should not be easy | Prevents intentional collision attacks                   |
+
+</div>
 
 ### Avalanche Criterion
 
@@ -11063,11 +11263,15 @@ When the universe of keys $U$ is small, we can use an array of size $|U|$ where 
 Element with key $k$. This gives $O(1)$ worst-case insert, delete, and lookup, but wastes memory
 when $|U|$ is much larger than the actual number of keys $n$.
 
+<div class="table-wrap">
+
 | Operation | Time   | Space      |
 | --------- | ------ | ---------- |
 | Insert    | $O(1)$ | $O(\|U\|)$ |
 | Delete    | $O(1)$ | $O(\|U\|)$ |
 | Lookup    | $O(1)$ | $O(\|U\|)$ |
+
+</div>
 
 ### Hash Tables
 
@@ -11139,12 +11343,16 @@ A lookup, compute the hash, then scan the chain for the key.
 
 The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ is the table size.
 
+<div class="table-wrap">
+
 | Statistic                         | Value                           |
 | --------------------------------- | ------------------------------- |
 | Expected chain length             | $\alpha$                        |
 | Unsuccessful search (average)     | $O(\alpha)$ comparisons         |
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
+
+</div>
 :::
 
 :::caution
@@ -11314,11 +11522,15 @@ class DoubleHashingHashTable:
                 return True
 ```
 
+<div class="table-wrap">
+
 | Probe Method   | Clustering | Expected Probes (unsuccessful)            | Cache Performance |
 | -------------- | ---------- | ----------------------------------------- | ----------------- |
 | Linear         | Primary    | $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$ | Best              |
 | Quadratic      | Secondary  | $\frac{1}{1-\alpha}$                      | Good              |
 | Double hashing | None       | $\frac{1}{1-\alpha}$                      | Moderate          |
+
+</div>
 
 ### Robin Hood Hashing
 
@@ -11360,6 +11572,8 @@ Alternative position. If a cycle is detected, the table is rebuilt with new hash
 
 **Properties:**
 
+<div class="table-wrap">
+
 | Property            | Value                             |
 | ------------------- | --------------------------------- |
 | Lookup              | $O(1)$ worst-case (2 probes)      |
@@ -11367,6 +11581,8 @@ Alternative position. If a cycle is detected, the table is rebuilt with new hash
 | Insert (worst case) | $O(n)$ during rehash              |
 | Space overhead      | Maximum load factor $\approx 0.5$ |
 | Cache performance   | Moderate (two memory accesses)    |
+
+</div>
 
 ```python
 class CuckooHashTable:
@@ -11494,11 +11710,15 @@ Occupies a large arc of the ring). Virtual nodes (replicas) solve this: each phy
 Placed on the ring multiple times ( 100-200 virtual nodes per physical server). This Smooths out the
 distribution and reduces the variance in key assignment.
 
+<div class="table-wrap">
+
 | Physical servers | Virtual nodes per server | Keys per server (std dev / mean) |
 | ---------------- | ------------------------ | -------------------------------- |
 | 10               | 1                        | $\approx 0.39$                   |
 | 10               | 100                      | $\approx 0.04$                   |
 | 10               | 1000                     | $\approx 0.01$                   |
+
+</div>
 
 ### Load Balancing Properties
 
@@ -11525,11 +11745,15 @@ Functions $h_1, h_2, \ldots, h_k$.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation           | Algorithm                                                     | Time   |
 | ------------------- | ------------------------------------------------------------- | ------ |
 | Add                 | Set bits at positions $h_1(x), h_2(x), \ldots, h_k(x)$        | $O(k)$ |
 | Query               | Check if all bits at $h_1(x), h_2(x), \ldots, h_k(x)$ are set | $O(k)$ |
 | False positive prob | $(1 - e^{-kn/m})^k$                                           | N/A    |
+
+</div>
 
 ```python
 import mmh3
@@ -11576,11 +11800,15 @@ $$
 m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2
 $$
 
+<div class="table-wrap">
+
 | False positive rate | Bits per element | Hash functions |
 | ------------------- | ---------------- | -------------- |
 | 1%                  | 9.6              | 7              |
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
+
+</div>
 :::
 
 :::caution
@@ -11607,11 +11835,15 @@ Function $h_i$ maps an element to a row and column.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation | Algorithm                                 | Time   | Error                    |
 | --------- | ----------------------------------------- | ------ | ------------------------ |
 | Increment | For each row $i$: `count[i][h_i(x)] += 1` | $O(d)$ | N/A                      |
 | Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]$  | $O(d)$ | $\le \mathrm{true count$ |
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
+
+</div>
 
 The estimate is always an **overestimate**: $\hat{f}(x) \ge f(x)$ with high probability. The error
 is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
@@ -11717,6 +11949,8 @@ class HyperLogLog:
         return int(estimate)
 ```
 
+<div class="table-wrap">
+
 | Registers ($m$) | Memory | Standard error  |
 | --------------- | ------ | --------------- |
 | 64              | 64 B   | $\approx 13\%$  |
@@ -11724,7 +11958,11 @@ class HyperLogLog:
 | 4096            | 4 KB   | $\approx 1.6\%$ |
 | 16384           | 16 KB  | $\approx 0.8\%$ |
 
+</div>
+
 ## Cryptographic vs Non-Cryptographic Hashing
+
+<div class="table-wrap">
 
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
@@ -11734,6 +11972,8 @@ class HyperLogLog:
 | Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
+
+</div>
 :::
 
 :::note
@@ -11962,6 +12202,8 @@ This subject assumes familiarity with:
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Chapter                      | Focus                                                                    | Key Algorithms                    |
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
 | Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness |,                                 |
@@ -11971,6 +12213,8 @@ This subject assumes familiarity with:
 | Sorting                      | Comparison and non-comparison sorting, stability, adaptive behaviour     | Merge sort, quicksort, radix sort |
 | Dynamic Programming          | Memoisation, tabulation, state space reduction, common DP patterns       | Knapsack, LCS, edit distance      |
 | Graph Algorithms             | Shortest paths, MSTs, network flow, strong connectivity                  | Dijkstra, Kruskal, Ford-Fulkerson |
+
+</div>
 
 ## How to Use These Notes
 
@@ -12578,12 +12822,16 @@ class MinHeap:
             self._sift_down(i)
 ```
 
+<div class="table-wrap">
+
 | Operation        | Binary Heap | Sorted Array  | Unsorted Array |
 | ---------------- | ----------- | ------------- | -------------- |
 | Insert           | $O(\log n)$ | $O(n)$        | $O(1)$         |
 | Extract min      | $O(\log n)$ | $O(1)$        | $O(n)$         |
 | Peek             | $O(1)$      | $O(1)$        | $O(n)$         |
 | Build from array | $O(n)$      | $O(n \log n)$ | $O(1)$         |
+
+</div>
 
 ## Monotonic Stack
 
@@ -12855,12 +13103,16 @@ URL: https://tools.wyattau.com/algorithms/05-sorting/sorting/
 
 ### Properties
 
+<div class="table-wrap">
+
 | Property     | Definition                                              | Why It Matters                                               |
 | ------------ | ------------------------------------------------------- | ------------------------------------------------------------ |
 | **Stable**   | Equal elements retain their relative order              | Preserves secondary sort keys, needed for multi-key sorting  |
 | **In-place** | Uses $O(1)$ extra memory (or $O(\log n)$ for recursion) | Critical when memory is constrained                          |
 | **Adaptive** | Runs faster on partially sorted input                   | Common in practice, incremental updates, nearly-sorted logs |
 | **Online**   | Can sort elements as they arrive                        | Streaming scenarios where the full input is not available    |
+
+</div>
 
 ### Comparison Model
 
@@ -13052,6 +13304,8 @@ def _partition_lomuto(arr, low, high):
 
 **Pivot selection strategies:**
 
+<div class="table-wrap">
+
 | Strategy           | Average                  | Worst Case                           | Notes                                  |
 | ------------------ | ------------------------ | ------------------------------------ | -------------------------------------- |
 | First/last element | $O(n \log n)$            | $O(n^2)$ on sorted input             | exploitable                            |
@@ -13059,6 +13313,8 @@ def _partition_lomuto(arr, low, high):
 | Random element     | $O(n \log n)$ expected   | $O(n^2)$ with negligible probability | Requires RNG                           |
 | Median of three    | $O(n \log n)$            | $O(n \log n)$ typical                | Samples first, middle, last            |
 | Median of medians  | $O(n \log n)$ guaranteed | $O(n \log n)$ guaranteed             | High constant, rarely used in practice |
+
+</div>
 
 ### Heapsort
 
@@ -13335,6 +13591,8 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
   the other, reducing the number of comparisons from $O(n)$ to $O(n \log m)$ where $m$ is the
   smaller run length.
 
+<div class="table-wrap">
+
 | Input Pattern  | TimSort Time      | Quicksort Time       | Merge Sort Time |
 | -------------- | ----------------- | -------------------- | --------------- |
 | Already sorted | $O(n)$            | $O(n^2)$ (bad pivot) | $O(n \log n)$   |
@@ -13342,7 +13600,11 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 | Random         | $O(n \log n)$     | $O(n \log n)$        | $O(n \log n)$   |
 | Mostly sorted  | $O(n + k \log k)$ | $O(n \log n)$        | $O(n \log n)$   |
 
+</div>
+
 ## Sorting Complexity Summary
+
+<div class="table-wrap">
 
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable | Adaptive  |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ | --------- |
@@ -13357,6 +13619,8 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 | Radix sort     | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n+b)$    | Yes    | No        |
 | Bucket sort    | $O(n+k)$      | $O(n)$        | $O(n^2)$      | $O(n+k)$    | Yes    | Partially |
 | TimSort        | $O(n)$        | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    | Yes       |
+
+</div>
 
 ## When to Use Which Sort
 
@@ -13510,6 +13774,8 @@ Sample sort is a parallel generalisation of quicksort:
 
 ### Comparison of Parallel Sorts
 
+<div class="table-wrap">
+
 | Algorithm           | Parallel Time              | Work Efficiency | Notes                              |
 | ------------------- | -------------------------- | --------------- | ---------------------------------- |
 | Parallel merge sort | $O(\log n)$ depth          | Yes             | Merge is sequential bottleneck     |
@@ -13517,9 +13783,13 @@ Sample sort is a parallel generalisation of quicksort:
 | Sample sort         | $O(n/p + \log p)$ expected | Mostly          | Communication overhead             |
 | Bitonic sort        | $O(\log^2 n)$              | No              | Good for GPU, poor work efficiency |
 
+</div>
+
 ## Sorting in Practice
 
 ### Standard Library Sorts
+
+<div class="table-wrap">
 
 | Language                | Algorithm                   | Stable   | Notes                              |
 | ----------------------- | --------------------------- | -------- | ---------------------------------- |
@@ -13532,6 +13802,8 @@ Sample sort is a parallel generalisation of quicksort:
 | Rust `sort_unstable`    | Pattern-defeating quicksort | No       | PDQSort                            |
 | Go `sort`               | Pattern-defeating quicksort | No       | Since Go 1.19                      |
 | JavaScript `Array.sort` | TimSort (V8)                | Yes (V8) | Implementation varies by engine    |
+
+</div>
 
 ### PDQSort (Pattern-Defeating Quicksort)
 
@@ -13592,12 +13864,16 @@ the left side of the pivot may pass over an equal element on the right side.
 A sorting network is a fixed sequence of compare-and-swap operations that sorts any input. The depth
 of a sorting network is the minimum number of parallel steps needed. Known bounds:
 
+<div class="table-wrap">
+
 | Network             | Depth         | Comparators     | Notes                              |
 | ------------------- | ------------- | --------------- | ---------------------------------- |
 | Bubble sort network | $O(n^2)$      | $O(n^2)$        | Trivial                            |
 | Bitonic sort        | $O(\log^2 n)$ | $O(n \log^2 n)$ | Good for hardware                  |
 | Odd-even mergesort  | $O(\log^2 n)$ | $O(n \log^2 n)$ | Practical                          |
 | AKS network         | $O(\log n)$   | $O(n \log n)$   | Theoretical, impractical constants |
+
+</div>
 
 Sorting networks are used in GPU sorting (where the compare-and-swap operations can be executed in
 Parallel by many threads) and in hardware sorters (e.g., in network switches for packet
@@ -13663,6 +13939,8 @@ This uses $O(n)$ extra space and adds a comparison, but guarantees stability.
 
 ### MSD vs LSD Radix Sort
 
+<div class="table-wrap">
+
 | Property                  | LSD (Least Significant Digit)   | MSD (Most Significant Digit) |
 | ------------------------- | ------------------------------- | ---------------------------- |
 | Pass order                | Least to most significant       | Most to least significant    |
@@ -13671,6 +13949,8 @@ This uses $O(n)$ extra space and adds a comparison, but guarantees stability.
 | Character strings         | Cannot skip trailing characters | Can skip common prefixes     |
 | Cache behaviour           | Excellent (sequential passes)   | Poor (random bucket access)  |
 | Implementation complexity | Simple                          | More complex                 |
+
+</div>
 
 ### Radix Sort for Strings
 
@@ -13835,6 +14115,8 @@ URL: https://tools.wyattau.com/algorithms/04-trees-graphs/trees-and-graphs/
 A tree is a connected, acyclic, undirected graph. In computer science, trees are rooted and Directed
 (parent to child).
 
+<div class="table-wrap">
+
 | Term        | Definition                                                         |
 | ----------- | ------------------------------------------------------------------ |
 | **Root**    | The topmost node, with no parent                                   |
@@ -13846,11 +14128,15 @@ A tree is a connected, acyclic, undirected graph. In computer science, trees are
 | **Degree**  | Number of children of a node                                       |
 | **Path**    | Sequence of nodes from one node to another                         |
 
+</div>
+
 ## Binary Trees
 
 A binary tree is a tree where each node has at most two children: left and right.
 
 ### Classifications
+
+<div class="table-wrap">
 
 | Type         | Property                                                                  | Nodes in tree of height $h$ |
 | ------------ | ------------------------------------------------------------------------- | --------------------------- |
@@ -13858,6 +14144,8 @@ A binary tree is a tree where each node has at most two children: left and right
 | **Complete** | All levels filled except possibly the last, which is filled left to right | $2^h$ to $2^{h+1} - 1$      |
 | **Perfect**  | All internal nodes have 2 children, all leaves at same depth              | $2^{h+1} - 1$               |
 | **Balanced** | Height is $O(\log n)$                                                     | Varies                      |
+
+</div>
 
 ### Node Definition
 
@@ -14084,6 +14372,8 @@ def bst_delete(root, val):
 
 ### BST Complexity
 
+<div class="table-wrap">
+
 | Operation          | Average (balanced) | Worst (degenerate) |
 | ------------------ | ------------------ | ------------------ |
 | Search             | $O(\log n)$        | $O(n)$             |
@@ -14091,6 +14381,8 @@ def bst_delete(root, val):
 | Delete             | $O(\log n)$        | $O(n)$             |
 | Min/Max            | $O(\log n)$        | $O(n)$             |
 | In-order traversal | $O(n)$             | $O(n)$             |
+
+</div>
 
 ### Validate BST
 
@@ -14164,6 +14456,8 @@ def rotate_left(x):
     return y
 ```
 
+<div class="table-wrap">
+
 | Imbalance Case | Condition                     | Fix                                             |
 | -------------- | ----------------------------- | ----------------------------------------------- |
 | Left-Left      | bf(node) = 2, bf(left) = 1    | Right rotate at node                            |
@@ -14171,7 +14465,11 @@ def rotate_left(x):
 | Left-Right     | bf(node) = 2, bf(left) = -1   | Left rotate at left, then right rotate at node  |
 | Right-Left     | bf(node) = -2, bf(right) = 1  | Right rotate at right, then left rotate at node |
 
+</div>
+
 ### Complexity
+
+<div class="table-wrap">
 
 | Operation               | Time        |
 | ----------------------- | ----------- |
@@ -14179,6 +14477,8 @@ def rotate_left(x):
 | Insert                  | $O(\log n)$ |
 | Delete                  | $O(\log n)$ |
 | Rotations per operation | At most 2   |
+
+</div>
 
 AVL trees guarantee $O(\log n)$ height, which is at most $1.44 \log_2(n+2) - 0.328$. In practice,
 AVL trees are taller and require more rotations than red-black trees, but provide faster lookups
@@ -14225,12 +14525,16 @@ Access is a disk seek (~10ms), so a lookup costs ~240ms. A B-tree with order $m 
 4KB disk page) has height $\approx 3$ So a lookup costs ~30ms. This 8x improvement is why every Major
 database uses B-tree variants (B+ trees) for indexing.
 
+<div class="table-wrap">
+
 | Structure          | Height for $n = 10^7$ | Disk seeks |
 | ------------------ | --------------------- | ---------- |
 | Binary tree        | ~24                   | ~24        |
 | AVL tree           | ~24                   | ~24        |
 | B-tree (order 100) | ~3                    | ~3         |
 | B-tree (order 400) | ~2                    | ~2         |
+
+</div>
 
 ## Heaps
 
@@ -14271,6 +14575,8 @@ def _sift_down(arr, n, i):
 
 ### Applications of Heaps
 
+<div class="table-wrap">
+
 | Application          | Heap Type             | Key Idea                      |
 | -------------------- | --------------------- | ----------------------------- |
 | Priority queue       | Min-heap or max-heap  | Extract min/max efficiently   |
@@ -14279,6 +14585,8 @@ def _sift_down(arr, n, i):
 | K largest elements   | Min-heap of size $k$  | Keep smallest of the top $k$  |
 | Dijkstra's algorithm | Min-heap              | Always process closest vertex |
 | Huffman coding       | Min-heap              | Build optimal prefix code     |
+
+</div>
 
 ## Tries (Prefix Trees)
 
@@ -14347,6 +14655,8 @@ class Trie:
 
 ### Trie vs Hash Set for Strings
 
+<div class="table-wrap">
+
 | Operation             | Trie                     | Hash Set               |
 | --------------------- | ------------------------ | ---------------------- |
 | Insert                | $O(k)$                   | $O(k)$                 |
@@ -14355,6 +14665,8 @@ class Trie:
 | Space                 | $O(\mathrm{total chars)$ | $O(n \cdot k)$         |
 | Min string prefix     | $O(k)$                   | Not supported          |
 | Longest common prefix | $O(k)$                   | Not directly supported |
+
+</div>
 
 Tries are the right choice when you need prefix-based operations: autocomplete, spell checking, IP
 Routing (longest prefix match), and word games.
@@ -14412,10 +14724,14 @@ class GraphMatrix:
             self.matrix[v][u] = weight
 ```
 
+<div class="table-wrap">
+
 | Representation   | Space      | Check edge $u$-$v$     | Iterate neighbours     | Sparse graph |
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
+
+</div>
 :::
 
 :::note
@@ -14536,6 +14852,8 @@ def dfs_iterative(graph, start):
 
 ### BFS vs DFS
 
+<div class="table-wrap">
+
 | Property               | BFS                       | DFS                  |
 | ---------------------- | ------------------------- | -------------------- |
 | Data structure         | Queue                     | Stack / recursion    |
@@ -14545,6 +14863,8 @@ def dfs_iterative(graph, start):
 | Topological sort       | With Kahn's algorithm     | With post-order      |
 | Cycle detection        | Yes                       | Yes                  |
 | Connected components   | Yes                       | Yes                  |
+
+</div>
 
 ## Topological Sort
 
@@ -14903,6 +15223,8 @@ graph TD
 
 ### Complexity Analysis
 
+<div class="table-wrap">
+
 | Operation     | Time        | Space                   |
 | ------------- | ----------- | ----------------------- |
 | Insert        | $O(m)$      | $O(1)$ additional nodes |
@@ -14910,6 +15232,8 @@ graph TD
 | Delete        | $O(m)$      | $O(1)$ freed nodes      |
 | StartsWith    | $O(m)$      | $O(1)$                  |
 | Prefix search | $O(m + kL)$ | $O(kL)$ for results     |
+
+</div>
 
 Where $m$ is the word length, $k$ is the number of results, and $L$ is the average result length.
 
@@ -15040,6 +15364,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 
 ### Properties
 
+<div class="table-wrap">
+
 | Property                   | Value                             |
 | -------------------------- | --------------------------------- |
 | Number of nodes            | $O(n)$                            |
@@ -15048,6 +15374,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 | Substring search           | $O(m)$ where $m$ = pattern length |
 | Longest repeated substring | Find deepest internal node        |
 | Longest common substring   | Generalised suffix tree           |
+
+</div>
 
 ### Ukkonen's Algorithm (Conceptual)
 
@@ -15783,6 +16111,8 @@ URL: https://tools.wyattau.com/diagnostics/diag-algorithms/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | C             |
@@ -15795,6 +16125,8 @@ URL: https://tools.wyattau.com/diagnostics/diag-algorithms/
 | 8        | B             |
 | 9        | B             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of algorithms and data structures. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -15854,6 +16186,8 @@ Basic principles:
 
 ## The Complete Structure
 
+<div class="table-wrap">
+
 | Phase & Exercise                    | Sets | Repetitions / Duration | Rest      |
 | ----------------------------------- | :--: | :--------------------: | --------- |
 | Phase 1: Activation & Stability     |      |                        |           |
@@ -15874,6 +16208,8 @@ Basic principles:
 | Cat-Cow Stretch                     |  1   |    8-10 slow cycles    | -         |
 | Kneeling Hip Flexor Stretch         |  2   |  30-45 sec hold/side   | 15 sec    |
 | Supine Hamstring Stretch            |  2   |  30-45 sec hold/side   | 15 sec    |
+
+</div>
 
 ## Procedure
 
@@ -16200,12 +16536,16 @@ For systems engineering roles, coding interviews focus on practical programming 
 
 The STAR method structures your answers:
 
+<div class="table-wrap">
+
 | Component     | Description           | Example                                                                                                     |
 | ------------- | --------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **S**ituation | Set the context       | "We were running a database with 500 GB of data on a single node."                                          |
 | **T**ask      | What you needed to do | "I was tasked with migrating to a sharded setup to handle 10x growth."                                      |
 | **A**ction    | What you did          | "I designed a consistent hashing scheme, implemented the sharding layer in Go, and ran a canary migration." |
 | **R**esult    | What happened         | "The migration completed in 2 weeks with zero downtime. Query latency improved by 60%."                     |
+
+</div>
 
 **Common behavioral questions:**
 
@@ -16290,6 +16630,8 @@ B.S. Computer Science, University (2019)
 
 ### Conferences and Meetups
 
+<div class="table-wrap">
+
 | Conference  | Focus                        | Location            |
 | ----------- | ---------------------------- | ------------------- |
 | KubeCon     | Cloud native, Kubernetes     | Rotating global     |
@@ -16298,6 +16640,8 @@ B.S. Computer Science, University (2019)
 | DevOps Days | DevOps culture and practices | Global, many cities |
 | Ceph Day    | Distributed storage          | Various             |
 | LinuxCon    | Linux kernel and ecosystem   | Rotating            |
+
+</div>
 
 ### Online Communities
 
@@ -16343,6 +16687,8 @@ B.S. Computer Science, University (2019)
 
 ### Compensation Structure
 
+<div class="table-wrap">
+
 | Component             | Negotiable | Typical Range                 |
 | --------------------- | ---------- | ----------------------------- |
 | Base salary           | Yes        | 70–80% of total compensation  |
@@ -16351,6 +16697,8 @@ B.S. Computer Science, University (2019)
 | Annual bonus          | Sometimes  | 5–20% of base                 |
 | Relocation            | Yes        | If applicable                 |
 | Title                 | Yes        | May affect future comp        |
+
+</div>
 
 ---
 
@@ -16365,6 +16713,8 @@ B.S. Computer Science, University (2019)
 
 ## Startups vs. Big Tech
 
+<div class="table-wrap">
+
 | Factor            | Startup                            | Big Tech                           |
 | ----------------- | ---------------------------------- | ---------------------------------- |
 | Scope             | Broad (wear many hats)             | Narrow (deep specialization)       |
@@ -16374,6 +16724,8 @@ B.S. Computer Science, University (2019)
 | Compensation      | Lower base, higher equity upside   | Higher base, predictable equity    |
 | Career growth     | Title inflation, but fewer mentors | Clear ladder, extensive mentorship |
 | Work-life balance | Often poor                         | Varies (some teams are good)       |
+
+</div>
 
 **Recommendation:** Start in big tech if possible to learn best practices, then move to a startup
 For broader experience, or vice versa. The ideal path depends on your risk tolerance, career goals,
@@ -16420,6 +16772,8 @@ And life stage.
 
 ### Certifications
 
+<div class="table-wrap">
+
 | Certification                                     | Provider                     | Focus                 | Difficulty | Industry Recognition |
 | ------------------------------------------------- | ---------------------------- | --------------------- | ---------- | -------------------- |
 | AWS Solutions Architect (Professional)            | Amazon                       | Cloud architecture    | High       | Very High            |
@@ -16430,6 +16784,8 @@ And life stage.
 | LPIC-2                                            | Linux Professional Institute | Linux engineering     | Moderate   | Moderate             |
 | CompTIA Security+                                 | CompTIA                      | Security fundamentals | Low        | Moderate             |
 | OCP (Oracle Certified Professional)               | Oracle                       | Oracle database       | High       | High                 |
+
+</div>
 
 Certifications are most valuable early in your career (they signal baseline knowledge to recruiters)
 Or when transitioning to a new domain. They are less valuable than demonstrated experience.
@@ -16554,12 +16910,16 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 
 ### SRE Daily Responsibilities
 
+<div class="table-wrap">
+
 | Activity    | Time Allocation | Description                                |
 | ----------- | --------------- | ------------------------------------------ |
 | On-call     | 20–30%          | Incident response, paging, post-mortems    |
 | Engineering | 40–50%          | Writing automation, improving reliability  |
 | Design      | 10–15%          | System architecture, capacity planning     |
 | Reviews     | 10–15%          | Code review, design review, runbook review |
+
+</div>
 
 ### SRE Skills Progression
 
@@ -16617,6 +16977,8 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 
 ### Platform Engineering vs. DevOps vs. SRE
 
+<div class="table-wrap">
+
 | Aspect   | DevOps                | SRE                | Platform Engineering                    |
 | -------- | --------------------- | ------------------ | --------------------------------------- |
 | Focus    | CI/CD pipelines       | Reliability        | Developer experience                    |
@@ -16624,6 +16986,8 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 | Output   | Deployment automation | SLOs, monitoring   | Internal developer platform             |
 | Metric   | Deployment frequency  | Error budget, MTTR | Developer satisfaction, deployment time |
 | Scope    | Single application    | All services       | All developers                          |
+
+</div>
 
 ### Platform Engineering Skills
 
@@ -16678,6 +17042,8 @@ The maintenance window."
 
 ### Researching Market Rates
 
+<div class="table-wrap">
+
 | Source           | URL           | Accuracy                           |
 | ---------------- | ------------- | ---------------------------------- |
 | Levels.fyi       | levels.fyi    | High (self-reported, verified)     |
@@ -16685,6 +17051,8 @@ The maintenance window."
 | Blind            | teamblind.com | High (verified employees)          |
 | BuiltIn          | builtin.com   | Medium                             |
 | Industry surveys | Various       | Medium                             |
+
+</div>
 
 ### Negotiation Tactics
 
@@ -16698,12 +17066,16 @@ The maintenance window."
 
 ### Equity Evaluation
 
+<div class="table-wrap">
+
 | Component                     | How to Evaluate                  | Risk                            |
 | ----------------------------- | -------------------------------- | ------------------------------- |
 | RSUs (Restricted Stock Units) | Number of shares x current price | Price can go down               |
 | Stock options                 | Strike price vs. Exercise price  | May never be in the money       |
 | Vesting schedule              | 4-year cliff vs. Graded vesting  | Company may not survive 4 years |
 | Liquidity                     | Public vs. Private company       | Private equity is illiquid      |
+
+</div>
 
 ## Continuous Learning Paths
 
@@ -16778,6 +17150,8 @@ Before making the transition:
 
 ### Startup to Big Tech
 
+<div class="table-wrap">
+
 | Factor               | Startup                | Big Tech            |
 | -------------------- | ---------------------- | ------------------- |
 | Role breadth         | Very broad             | Narrow              |
@@ -16787,6 +17161,8 @@ Before making the transition:
 | Learning             | Fast, breadth-heavy    | Slow, depth-focused |
 | Brand recognition    | Low                    | High                |
 | Resume value         | Project-based          | Company-based       |
+
+</div>
 
 ### Remote Work Best Practices
 
@@ -16824,6 +17200,8 @@ it is the right career path and prepare accordingly.
 
 ### A Typical SRE Day
 
+<div class="table-wrap">
+
 | Time Block            | Activity                                                   | Percentage of Day |
 | --------------------- | ---------------------------------------------------------- | ----------------- |
 | Morning (1-2h)        | Incident review, triage overnight alerts, check dashboards | 15%               |
@@ -16832,7 +17210,11 @@ it is the right career path and prepare accordingly.
 | Late afternoon (1-2h) | On-call preparation, runbook updates, documentation        | 15%               |
 | Ad-hoc (variable)     | Incident response, debugging production issues             | 20%               |
 
+</div>
+
 ### SRE vs DevOps vs Platform Engineering
+
+<div class="table-wrap">
 
 | Dimension    | SRE                               | DevOps                           | Platform Engineering               |
 | ------------ | --------------------------------- | -------------------------------- | ---------------------------------- |
@@ -16842,6 +17224,8 @@ it is the right career path and prepare accordingly.
 | On-call      | Yes, primary responsibility       | Shared with dev teams            | Rarely (focus on building)         |
 | Key skills   | Capacity planning, postmortems    | Automation, monitoring           | API design, developer portals      |
 | Career path  | Senior SRE, Staff SRE, Principal  | DevOps Engineer, Lead            | Platform Engineer, Architect       |
+
+</div>
 
 ### Key SRE Skills to Develop
 
@@ -16870,6 +17254,8 @@ graph LR
 
 ### Competency Matrix
 
+<div class="table-wrap">
+
 | Competency      | Junior                       | Mid                                  | Senior                                | Staff                                   |
 | --------------- | ---------------------------- | ------------------------------------ | ------------------------------------- | --------------------------------------- |
 | Technical scope | Single component             | Multiple components                  | System-wide                           | Organization-wide                       |
@@ -16877,6 +17263,8 @@ graph LR
 | Communication   | Updates status when asked    | Proactively communicates blockers    | Drives cross-team alignment           | Influences org-wide technical direction |
 | Mentorship      | Receives mentorship          | Mentors juniors on technical tasks   | Mentors mid-level engineers on career | Mentors senior engineers and leads      |
 | Decision making | Follows established patterns | Evaluates options within known space | Makes architectural decisions         | Makes strategic technology bets         |
+
+</div>
 
 ### Demonstrating Seniority Without Title
 
@@ -16979,6 +17367,8 @@ Structured learning paths.
 
 ### Linux and Infrastructure
 
+<div class="table-wrap">
+
 | Certification | Issuer                       | Difficulty   | Value                  |
 | ------------- | ---------------------------- | ------------ | ---------------------- |
 | LPIC-1        | Linux Professional Institute | Beginner     | Foundation             |
@@ -16990,7 +17380,11 @@ Structured learning paths.
 | CKAD          | CNCF/Kubernetes              | Intermediate | Kubernetes developer   |
 | CKS           | CNCF/Kubernetes              | Advanced     | Kubernetes security    |
 
+</div>
+
 ### Cloud
+
+<div class="table-wrap">
 
 | Certification                     | Issuer    | Difficulty   | Value                  |
 | --------------------------------- | --------- | ------------ | ---------------------- |
@@ -16999,6 +17393,8 @@ Structured learning paths.
 | GCP Cloud Engineer                | Google    | Intermediate | GCP roles              |
 | Azure Administrator               | Microsoft | Intermediate | Enterprise/Azure roles |
 | Terraform Associate               | HashiCorp | Intermediate | IaC roles              |
+
+</div>
 
 ### Study Approach
 
@@ -17139,11 +17535,15 @@ import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 ## Ingredients & Tools
 
+<div class="table-wrap">
+
 | Component | Recommendation                                                                                                                             | Reason                                                                                           |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | Butter    | Grass-fed, unsalted, cultured butter (e.g., Kerrygold, Yeo Valley, or Bord Bia).                                                           | Grass-fed: $3-5\times$ more CLA & beta-carotene. Culturing adds depth and lowers lactose.        |
 | Equipment | Stainless steel saucepan, digital thermometer ($\pm 1 \degree C$), fine-mesh strainer + unbleached coffee filter/muslin, amber glass jars. | Prevents scorching. Precision avoids overcooking. Removes all solids. Blocks UV light oxidation. |
 | Water     | Filtered water (if washing butter)                                                                                                         | Removes residual lactose/proteins without chlorine interference.                                 |
+
+</div>
 
 <Aside type="note">
 Washing butter (optional but recommended for purity) - melt butter with $20%$ water, cool, solidify,
@@ -17196,6 +17596,8 @@ discard water layer. Removes water-soluble impurities.
 
 ### Troubleshooting Guide
 
+<div class="table-wrap">
+
 | Issue            | Cause                               | Solution                                |
 | ---------------- | ----------------------------------- | --------------------------------------- |
 | Grainy Texture   | Rapid cooling; impurities           | Strain twice. Cool slowly at room temp. |
@@ -17203,17 +17605,23 @@ discard water layer. Removes water-soluble impurities.
 | Cloudy Ghee      | Incomplete straining; moisture      | Re-melt, re-strain with finer filter.   |
 | Short Shelf Life | Moisture $>0.1%$                    | Simmer longer after foam subsides.      |
 
+</div>
+
 ## Conditional Flavouring
 
 - add 1 tsp dried organic rose petals or curry leaves during Phase 2 - strain out before jarring.
 
 ### Storage and Shelf Life
 
+<div class="table-wrap">
+
 | Condition         | Expected Shelf Life | Notes                                                  |
 | ----------------- | ------------------- | ------------------------------------------------------ |
 | Room temp, sealed | 3--6 months         | Dark cupboard, away from heat sources.                 |
 | Refrigerated      | 6--12 months        | Ghee solidifies; re-liquefy by gentle warming.         |
 | Frozen            | Up to 18 months     | Portion into small jars to avoid repeated freeze-thaw. |
+
+</div>
 
 ### Quality Indicators
 
@@ -17287,6 +17695,8 @@ URL: https://tools.wyattau.com/general/dev-environment/dev-environment/
 Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode
 Support, and fast image rendering:
 
+<div class="table-wrap">
+
 | Terminal  | Renderer     | Platform              | Key Features                                             |
 | --------- | ------------ | --------------------- | -------------------------------------------------------- |
 | Alacritty | Vulkan/Metal | Linux, macOS, Windows | Fastest, minimal config (YAML), GPU-first                |
@@ -17294,6 +17704,8 @@ Support, and fast image rendering:
 | WezTerm   | WebGL/Metal  | Linux, macOS, Windows | Built-in multiplexer, Lua config, image protocol         |
 | Ghostty   | Vulkan/Metal | Linux, macOS          | New, fast, system-native font rendering                  |
 | iTerm2    | Metal        | macOS                 | macOS-only, extensive features, splits, tmux integration |
+
+</div>
 
 ### Terminal Configuration
 
@@ -17327,6 +17739,8 @@ bindings = [
 
 A good programming font is critical for long coding sessions:
 
+<div class="table-wrap">
+
 | Font           | Ligatures    | Nerd Font | Notes                                        |
 | -------------- | ------------ | --------- | -------------------------------------------- |
 | JetBrains Mono | Yes          | Yes       | Excellent readability, designed for code     |
@@ -17334,6 +17748,8 @@ A good programming font is critical for long coding sessions:
 | Cascadia Code  | Yes          | Yes       | Microsoft's coding font, great for terminals |
 | Iosevka        | Customizable | Yes       | Highly customizable, many variants           |
 | Monaco         | No           | No        | Classic macOS font, no ligatures             |
+
+</div>
 
 Install a Nerd Font variant for proper icon rendering in terminal prompts and file managers.
 
@@ -17352,6 +17768,8 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 ### Shell Comparison
 
+<div class="table-wrap">
+
 | Feature              | Bash                                            | Zsh                           | Fish                    |
 | -------------------- | ----------------------------------------------- | ----------------------------- | ----------------------- |
 | POSIX compliance     | Full                                            | Partial                       | No                      |
@@ -17363,6 +17781,8 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 | Autosuggestions      | No (external)                                   | Yes (zsh-autosuggestions)     | Yes (built-in)          |
 | Performance          | Fast                                            | Moderate (depends on plugins) | Fast                    |
 | Learning curve       | Low                                             | Moderate                      | Low                     |
+
+</div>
 
 ### Recommendation
 
@@ -17442,6 +17862,8 @@ disabled = false
 
 ### Essential Zsh Plugins
 
+<div class="table-wrap">
+
 | Plugin                  | Function                            | Startup Cost |
 | ----------------------- | ----------------------------------- | ------------ |
 | zsh-autosuggestions     | Gray suggestions from history       | ~5 ms        |
@@ -17449,6 +17871,8 @@ disabled = false
 | zsh-completions         | Additional completion definitions   | ~5 ms        |
 | fzf-tab                 | Fuzzy completion menus              | ~2 ms        |
 | z                       | Directory jumping based on frecency | ~1 ms        |
+
+</div>
 
 ---
 
@@ -17554,6 +17978,8 @@ Terminal, debugger, and Git integration.
 
 Essential extensions:
 
+<div class="table-wrap">
+
 | Extension     | Function                                |
 | ------------- | --------------------------------------- |
 | GitLens       | Git blame, history, and comparison      |
@@ -17566,9 +17992,13 @@ Essential extensions:
 | Prettier      | Code formatting                         |
 | ESLint        | JavaScript/TypeScript linting           |
 
+</div>
+
 ### Key Bindings Worth Learning
 
 Regardless of editor, these keybindings improve productivity:
+
+<div class="table-wrap">
 
 | Action           | Vim            | VS Code        | General Benefit        |
 | ---------------- | -------------- | -------------- | ---------------------- |
@@ -17578,6 +18008,8 @@ Regardless of editor, these keybindings improve productivity:
 | Find references  | `gr`           | Shift+F12      | Refactoring            |
 | Quick fix        | `:cw`          | `Ctrl+Shift+M` | Error navigation       |
 | Search in files  | `:Ag` / `:Rg`  | `Ctrl+Shift+F` | Code search            |
+
+</div>
 
 ---
 
@@ -17719,6 +18151,8 @@ ssh-copy-id user@remote-host
 
 ### Modern Coreutils Replacements
 
+<div class="table-wrap">
+
 | Tool           | Replaces                     | Key Feature                                 |
 | -------------- | ---------------------------- | ------------------------------------------- |
 | `fzf`          | `Ctrl+R``Ctrl+T`File finding | Fuzzy finder with preview                   |
@@ -17733,6 +18167,8 @@ ssh-copy-id user@remote-host
 | `httpie`       | `curl`                       | Human-friendly HTTP client                  |
 | `tokei`        | `cloc`                       | Fast code line counter                      |
 | `bottom (btm)` | `htop`                       | Modern system monitor with GPU support      |
+
+</div>
 
 ### fzf Integration
 
@@ -18254,6 +18690,8 @@ URL: https://tools.wyattau.com/general/testing/iframe-integration/
 The `sandbox` attribute restricts what an iframe is allowed to do. Always use it, omitting it
 Grants the embedded page the same privileges as the parent page.
 
+<div class="table-wrap">
+
 | Token                  | Effect                                                                 |
 | ---------------------- | ---------------------------------------------------------------------- |
 | (empty)                | Most restrictive: no scripts, no forms, no same-origin, no popups      |
@@ -18263,6 +18701,8 @@ Grants the embedded page the same privileges as the parent page.
 | `allow-forms`          | Allows form submission                                                 |
 | `allow-downloads`      | Allows downloading files                                               |
 | `allow-top-navigation` | Allows the iframe to navigate the top-level page (avoid this)          |
+
+</div>
 
 :::caution
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
@@ -18537,11 +18977,15 @@ https://godbolt.org/e#<encoded-state>
 
 Godbolt supports additional embed parameters:
 
+<div class="table-wrap">
+
 | Parameter     | Description                          |
 | ------------- | ------------------------------------ |
 | `#z:...`      | Compressed source and compiler state |
 | `&hideEditor` | Hides the source editor panel        |
 | `&hideOutput` | Hides the compiler output panel      |
+
+</div>
 
 ### Dartpad URL Construction
 
@@ -18551,11 +18995,15 @@ Dartpad embed URLs follow this pattern:
 https://dartpad.dev/embed-inline.html?id=<gist-id>&split=<ratio>&theme=<dark|light>
 ```
 
+<div class="table-wrap">
+
 | Parameter | Description                                    |
 | --------- | ---------------------------------------------- |
 | `id`      | GitHub Gist ID containing the Dart source      |
 | `split`   | Editor/preview split ratio (0–100)             |
 | `theme`   | `dark` or `light`must match the parent site |
+
+</div>
 
 Note that Dartpad's theme does not inherit from the parent page. It must be set explicitly in the
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without
@@ -18666,6 +19114,8 @@ docs_general-notes/
 
 ### Writing Conventions
 
+<div class="table-wrap">
+
 | Convention                 | Detail                                                                               |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | No inline comments         | Code blocks are self-documenting; comments added only when the intent is non-obvious |
@@ -18673,6 +19123,8 @@ docs_general-notes/
 | Admonitions over bold      | Use Docusaurus `:::note` / `:::caution` instead of **Note:**                         |
 | Tables for structured data | Prefer tables over bulleted lists when comparing attributes                          |
 | KaTeX for math             | Inline with `$...$`, block with `$$...$$`                                            |
+
+</div>
 
 ### Adding a New Page
 
@@ -18798,6 +19250,8 @@ Seems to be broken at the moment, the following does not seem to work:
 | spans  +---------:+------+
 | rows   |   normal | cell |
 +---v----+:---------------:+
+<div class="table-wrap">
+
 |        | cells can be    |
 | --- | --- |
 |        | *formatted*     |
@@ -18806,6 +19260,8 @@ Seems to be broken at the moment, the following does not seem to work:
 | multi  | and contain     |
 | line   | blocks          |
 | cells  | ```             |
+
+</div>
 +========+=========:+======+
 | footer |    cells |      |
 +--------+----------+------+
@@ -18849,11 +19305,15 @@ Custom titles are supported: `:::info[Custom Title]`
 
 Standard markdown tables use pipe-delimited rows with a header separator:
 
+<div class="table-wrap">
+
 | Feature   | Supported | Notes                                         |
 | --------- | --------- | --------------------------------------------- |
 | Basic     | Yes       | Pipe-delimited with `---` separator           |
 | Alignment | Yes       | `:---, :---:, ---:` for left/center/right |
 | Colspan   | No        | Not supported in standard markdown; use HTML  |
+
+</div>
 
 ### Nested Lists and Checklists
 
@@ -18999,6 +19459,8 @@ Open source contribution benefits you as a systems engineer in several ways:
 
 Many projects label beginner-friendly issues:
 
+<div class="table-wrap">
+
 | Label               | Meaning                           | Where to Find                 |
 | ------------------- | --------------------------------- | ----------------------------- |
 | `good first issue`  | Suitable for new contributors     | GitHub issue filters          |
@@ -19006,6 +19468,8 @@ Many projects label beginner-friendly issues:
 | `help wanted`       | Maintainers actively seeking help | GitHub issue filters          |
 | `easy`              | Low complexity                    | Project-specific              |
 | `documentation`     | Docs need improvement             | Often overlooked, high impact |
+
+</div>
 
 ### Choosing a Project
 
@@ -19025,6 +19489,8 @@ Criteria for selecting a project to contribute to:
 
 ### Sources for Finding Projects
 
+<div class="table-wrap">
+
 | Source            | URL                 | Best For                      |
 | ----------------- | ------------------- | ----------------------------- |
 | GitHub Explore    | github.com/explore  | Trending projects             |
@@ -19033,6 +19499,8 @@ Criteria for selecting a project to contribute to:
 | Up For Grabs      | up-for-grabs.net    | Projects seeking contributors |
 | CodeTriage        | codetriage.com      | Projects needing issue triage |
 | 24 Pull Requests  | 24pullrequests.com  | Holiday contribution drive    |
+
+</div>
 
 ---
 
@@ -19277,6 +19745,8 @@ Any caveats, follow-up work, or questions for reviewers
 
 ### Common Open Source Licenses
 
+<div class="table-wrap">
+
 | License      | Copyleft | Patent Grant | Commercial Use | Distribution Requirement |
 | ------------ | -------- | ------------ | -------------- | ------------------------ |
 | MIT          | No       | No           | Yes            | Include license          |
@@ -19284,6 +19754,8 @@ Any caveats, follow-up work, or questions for reviewers
 | GPL v3       | Yes      | No           | Yes            | Source code disclosure   |
 | BSD 2-Clause | No       | No           | Yes            | Include license          |
 | Unlicense    | No       | No           | Yes            | None                     |
+
+</div>
 
 ### CLA vs. DCO
 
@@ -19330,11 +19802,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ### Semantic Versioning
 
+<div class="table-wrap">
+
 | Change Type                       | Version Bump | Example        |
 | --------------------------------- | ------------ | -------------- |
 | Breaking API change               | MAJOR        | 1.x.x to 2.0.0 |
 | New feature (backward compatible) | MINOR        | 1.0.x to 1.1.0 |
 | Bug fix (backward compatible)     | PATCH        | 1.0.0 to 1.0.1 |
+
+</div>
 
 ---
 
@@ -19383,6 +19859,8 @@ git commit -s -m "Fix memory leak in parser"
 
 ## Popular Communities
 
+<div class="table-wrap">
+
 | Platform                   | Focus                      | Notable Projects                       |
 | -------------------------- | -------------------------- | -------------------------------------- |
 | GitHub                     | General                    | Most major open source projects        |
@@ -19391,6 +19869,8 @@ git commit -s -m "Fix memory leak in parser"
 | Apache Software Foundation | Enterprise software        | Kafka, Spark, Lucene                   |
 | CNCF                       | Cloud native               | Kubernetes, Prometheus, Envoy          |
 | Linux Foundation           | Infrastructure             | Linux kernel, Node.js, PyTorch         |
+
+</div>
 
 ---
 
@@ -19671,6 +20151,8 @@ Dependency management. Understanding the trade-offs helps you navigate different
 
 ### Monorepo Characteristics
 
+<div class="table-wrap">
+
 | Aspect                | Monorepo                                 | Polyrepo                               |
 | --------------------- | ---------------------------------------- | -------------------------------------- |
 | Examples              | Google, Meta, Babel, React               | Linux kernel, most npm packages        |
@@ -19679,6 +20161,8 @@ Dependency management. Understanding the trade-offs helps you navigate different
 | Code reuse            | Trivial (same repo)                      | Requires published packages            |
 | Onboarding            | Larger clone, but single source of truth | Smaller clones, but more repos to find |
 | Branching model       | Feature branches across all packages     | Independent per-package branches       |
+
+</div>
 
 ### Build Systems for Monorepos
 
@@ -19777,6 +20261,8 @@ jobs:
 
 ### Test Categories for Systems Software
 
+<div class="table-wrap">
+
 | Test Type        | Scope                         | Tools                          | Examples                                  |
 | ---------------- | ----------------------------- | ------------------------------ | ----------------------------------------- |
 | Unit             | Single function/module        | pytest, jest, go test          | Testing a hash function                   |
@@ -19786,10 +20272,14 @@ jobs:
 | Fuzzing          | Security and crash resistance | libFuzzer, AFL                 | Finding buffer overflows                  |
 | Load/Performance | Under stress                  | k6, wrk, locust                | Verifying latency under 10k RPS           |
 
+</div>
+
 ## License Compatibility Matrix
 
 When contributing to open source, understanding license compatibility prevents legal issues for both
 you and the project. The most common licenses in systems software:
+
+<div class="table-wrap">
 
 | License        | Commercial Use | Modify | Distribute               | Patent Grant | Copyleft     |
 | -------------- | -------------- | ------ | ------------------------ | ------------ | ------------ |
@@ -19802,6 +20292,8 @@ you and the project. The most common licenses in systems software:
 | AGPL 3.0       | Yes            | Yes    | Yes (network use counts) | Yes          | Network      |
 | BSL 1.1        | Varies         | Varies | Varies                   | Yes          | No (delayed) |
 | Unlicense      | Yes            | Yes    | Yes                      | No           | No           |
+
+</div>
 
 ### Key Compatibility Rules
 
@@ -19879,6 +20371,8 @@ Culture, responsiveness, and newcomer friendliness.
 
 ### Community Comparison
 
+<div class="table-wrap">
+
 | Community         | Primary Language | Culture                        | Newcomer Friendliness                         |
 | ----------------- | ---------------- | ------------------------------ | --------------------------------------------- |
 | Kubernetes (CNCF) | Go               | Formal, governance-heavy       | Good docs, steep learning curve               |
@@ -19889,6 +20383,8 @@ Culture, responsiveness, and newcomer friendliness.
 | Linux Kernel      | C                | Meritocratic, strict           | Challenging, requires patch submission        |
 | PostgreSQL        | C                | Professional, consensus-driven | Good contribution guide, mailing list culture |
 | Home Assistant    | Python           | Community-focused              | Very welcoming, active Discord                |
+
+</div>
 
 ### Finding Your Niche
 
@@ -20008,6 +20504,8 @@ you spend the entire day responding to Slack messages and pull request reviews.
 
 **Daily template for a systems engineer:**
 
+<div class="table-wrap">
+
 | Time Block  | Activity                              | Duration |
 | ----------- | ------------------------------------- | -------- |
 | 8:00–9:00   | Planning, email, Slack triage         | 60 min   |
@@ -20017,6 +20515,8 @@ you spend the entire day responding to Slack messages and pull request reviews.
 | 13:00–15:00 | Deep work (continued)                 | 120 min  |
 | 15:00–15:30 | Break, walk                           | 30 min   |
 | 15:30–17:00 | Meetings, documentation, planning     | 90 min   |
+
+</div>
 
 ### Deep Work
 
@@ -20062,12 +20562,16 @@ Unexpected connections and generates new insights.
 
 Tiago Forte's PARA method organizes digital information into four categories:
 
+<div class="table-wrap">
+
 | Category  | Description                   | Lifespan   |
 | --------- | ----------------------------- | ---------- |
 | Projects  | Active goals with a deadline  | Short-term |
 | Areas     | Ongoing responsibilities      | Long-term  |
 | Resources | Topics of interest            | Ongoing    |
 | Archives  | Inactive items from the above | Reference  |
+
+</div>
 
 Apply PARA to your note-taking system, file system, and task management. The key insight is that
 Everything is either active (Projects, Areas) or reference (Resources, Archives).
@@ -20077,6 +20581,8 @@ Everything is either active (Projects, Areas) or reference (Resources, Archives)
 A "second brain" is an external system for capturing, organizing, and retrieving information. The
 Tool matters less than the system. Options include:
 
+<div class="table-wrap">
+
 | Tool     | Strengths                                         | Best For                       |
 | -------- | ------------------------------------------------- | ------------------------------ |
 | Obsidian | Local-first, bidirectional links, plugins         | Zettelkasten, technical notes  |
@@ -20084,6 +20590,8 @@ Tool matters less than the system. Options include:
 | Notion   | Database-backed, collaboration, templates         | Team wikis, project management |
 | Org-mode | Emacs-native, literate programming, TODO tracking | Emacs users, developers        |
 | Joplin   | Open source, Markdown, E2EE                       | Privacy-focused users          |
+
+</div>
 
 ---
 
@@ -20453,10 +20961,14 @@ Fixed, designs completed) not input (hours, lines of code, commits).
 
 Dwight Eisenhower's decision matrix categorizes tasks by urgency and importance:
 
+<div class="table-wrap">
+
 |                   | Urgent                                  | Not Urgent                              |
 | ----------------- | --------------------------------------- | --------------------------------------- |
 | **Important**     | Do (crises, deadlines)                  | Schedule (strategic planning, learning) |
 | **Not Important** | Delegate (interruptions, some meetings) | Eliminate (time wasters, busywork)      |
+
+</div>
 
 Most knowledge workers spend the majority of their time on urgent-not-important tasks (responding to
 Slack, attending unnecessary meetings). The goal is to shift time toward important-not-urgent tasks
@@ -20497,6 +21009,8 @@ for atomic notes:
 
 ### Link Types in Knowledge Graphs
 
+<div class="table-wrap">
+
 | Link Type      | Syntax                       | Purpose                                |
 | -------------- | ---------------------------- | -------------------------------------- |
 | Unidirectional | `[[note-id]]`                | Simple reference                       |
@@ -20504,6 +21018,8 @@ for atomic notes:
 | Contextual     | `[[note-id#section]]`        | Reference to a specific section        |
 | Embed          | `![[note-id]]`               | Transclude content inline              |
 | Tag            | `#tag`                       | Categorization                         |
+
+</div>
 
 ### Building a Second Brain Workflow
 
@@ -20604,6 +21120,8 @@ ADR template:
 
 The ideal monitor setup for long coding sessions:
 
+<div class="table-wrap">
+
 | Configuration                | Recommendation                                         |
 | ---------------------------- | ------------------------------------------------------ |
 | Primary monitor              | 27–32 inch, 4K, IPS, 60 Hz+                            |
@@ -20612,6 +21130,8 @@ The ideal monitor setup for long coding sessions:
 | Monitor height               | Top of screen at or slightly below eye level           |
 | Monitor arm                  | Adjustable height, tilt, and rotation                  |
 | Brightness                   | Match ambient light (use bias lighting behind monitor) |
+
+</div>
 
 ### Keyboard Ergonomics
 
@@ -20639,12 +21159,16 @@ A simple routine for desk workers (15 minutes, no equipment):
 
 ### Monthly Learning Plan Template
 
+<div class="table-wrap">
+
 | Week   | Topic            | Resource                   | Output            |
 | ------ | ---------------- | -------------------------- | ----------------- |
 | Week 1 | ZFS architecture | Documentation + blog posts | Lab setup         |
 | Week 2 | ZFS in practice  | TrueNAS setup              | Pool design doc   |
 | Week 3 | ZFS performance  | ARC tuning guide           | Benchmark results |
 | Week 4 | ZFS recovery     | Scrub/repair procedures    | Runbook           |
+
+</div>
 
 ### Quarterly Review
 
@@ -20869,6 +21393,8 @@ delayed segment reassembly attacks.
 
 Use typed links to distinguish different relationships:
 
+<div class="table-wrap">
+
 | Link Type                  | Meaning                                 | Example             |
 | -------------------------- | --------------------------------------- | ------------------- |
 | `[[note-id]]`              | General reference                       | Related concept     |
@@ -20876,6 +21402,8 @@ Use typed links to distinguish different relationships:
 | `[[note-id\|contradicts]]` | Opposite or conflicting idea            | Alternative view    |
 | `[[note-id\|example-of]]`  | Concrete example of an abstract concept | Implementation      |
 | `[[note-id\|causes]]`      | Causal relationship                     | Root cause analysis |
+
+</div>
 
 ### Tools for Zettelkasten
 
@@ -20937,6 +21465,8 @@ Schedules reviews at increasing intervals.
 
 ### Card Types for Engineers
 
+<div class="table-wrap">
+
 | Card Type  | Use Case             | Example                                                                               |
 | ---------- | -------------------- | ------------------------------------------------------------------------------------- |
 | Definition | Core concepts        | "What is the difference between throughput and bandwidth?"                            |
@@ -20944,6 +21474,8 @@ Schedules reviews at increasing intervals.
 | Command    | CLI reference        | "What zfs command shows the deduplication ratio for a pool?"                          |
 | Comparison | Technology decisions | "What are the trade-offs between ext4 and XFS for a database workload?"               |
 | Threshold  | Performance tuning   | "At what CPU steal time percentage should you investigate noisy neighbors?"           |
+
+</div>
 
 ### Integration with Learning Workflow
 
@@ -21000,6 +21532,8 @@ that encourage presenteeism over effectiveness.
 
 ### Better Metrics
 
+<div class="table-wrap">
+
 | Metric                         | How to Measure                    | Why It Matters                           |
 | ------------------------------ | --------------------------------- | ---------------------------------------- |
 | Sprint goal completion rate    | Goals completed / Goals committed | Measures planning accuracy and execution |
@@ -21007,6 +21541,8 @@ that encourage presenteeism over effectiveness.
 | Review turnaround time         | Average time to review a PR       | Measures team velocity                   |
 | Documentation coverage         | % of systems with runbooks        | Measures operational maturity            |
 | Learning hours per week        | Time spent on deliberate learning | Measures long-term investment            |
+
+</div>
 
 ### Tracking Without Micromanagement
 
@@ -21419,6 +21955,8 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 Common `@theme` imports:
 
+<div class="table-wrap">
+
 | Component          | Purpose                               |
 | ------------------ | ------------------------------------- |
 | `CodeBlock`        | Render a code block from a file path  |
@@ -21426,6 +21964,8 @@ Common `@theme` imports:
 | `Details`          | Collapsible sections with React state |
 | `Admonition`       | Programmatic admonition rendering     |
 | `Head`             | Inject elements into `<head>`         |
+
+</div>
 
 Custom components from `@site/src/components/` are also importable:
 
@@ -21544,6 +22084,8 @@ are generally fine.
 
 ## Common Pitfalls in Markdown and MDX
 
+<div class="table-wrap">
+
 | Pitfall | Symptom | Fix |
 | ------- | ------- | --- |
 | Nested blockquotes | Incorrect nesting breaks rendering | Use `>` for level 1, `> >` for level 2 |
@@ -21556,6 +22098,8 @@ are generally fine.
 | Double blank lines | Unnecessary vertical space in output | Use single blank lines between sections |
 | Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
 | Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
+
+</div>
 
 :::tip
 For a complete syntax reference, consult the
@@ -21762,6 +22306,8 @@ your team before pushing replacement refs.
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Operation             | Mechanism                 | Permanence        | Pushes by default |
 | --------------------- | ------------------------- | ----------------- | ----------------- |
 | `git replace`         | Ref under `refs/replace/` | Transient (local) | No                |
@@ -21769,6 +22315,8 @@ your team before pushing replacement refs.
 | `~/.git/info/grafts`  | Grafts file (legacy)      | Local only        | No                |
 | `git rebase`          | New commit objects        | Permanent         | Yes               |
 | `git filter-branch`   | Rewrites object store     | Permanent         | Yes               |
+
+</div>
 
 ---
 
@@ -21896,12 +22444,16 @@ $ git notes merge -s cat-sort-uniq refs/notes/commits-from-other-branch
 
 Available merge strategies:
 
+<div class="table-wrap">
+
 | Strategy        | Behavior                                   |
 | --------------- | ------------------------------------------ |
 | `ours`          | Discard incoming notes, keep local         |
 | `theirs`        | Discard local notes, take incoming         |
 | `manual`        | Leave conflicts for manual resolution      |
 | `cat-sort-uniq` | Concatenate, sort lines, remove duplicates |
+
+</div>
 
 ### Note Namespaces
 
@@ -22077,12 +22629,16 @@ v2.3.1-14-ga3f2b1c
 
 Breakdown:
 
+<div class="table-wrap">
+
 | Component | Meaning                                                     |
 | --------- | ----------------------------------------------------------- |
 | `v2.3.1`  | The nearest annotated tag that is an ancestor of the commit |
 | `-14`     | 14 commits after the tag                                    |
 | `-g`      | Literal "g" (for "git")                                     |
 | `a3f2b1c` | Abbreviated commit hash                                     |
+
+</div>
 
 If the commit itself is tagged, `git describe` outputs just the tag name:
 
@@ -22091,6 +22647,8 @@ v2.3.1
 ```
 
 ### Flags Reference
+
+<div class="table-wrap">
 
 | Flag                  | Effect                                                      |
 | --------------------- | ----------------------------------------------------------- |
@@ -22106,6 +22664,8 @@ v2.3.1
 | `--exclude=<pattern>` | Exclude tags matching the glob pattern                      |
 | `--contains`          | Find the tag that contains the commit (tag is a descendant) |
 | `--first-parent`      | Follow only the first parent when traversing                |
+
+</div>
 
 ### Using in Build Versioning
 
@@ -22218,6 +22778,8 @@ repo/
 
 Git also reads from:
 
+<div class="table-wrap">
+
 | Location                           | Scope                     |
 | ---------------------------------- | ------------------------- |
 | `.gitattributes` in repo root      | All files in the repo     |
@@ -22225,6 +22787,8 @@ Git also reads from:
 | `$GIT_DIR/info/attributes`         | Local repo, not committed |
 | `~/.gitattributes`                 | User-global, all repos    |
 | `/etc/gitattributes`               | System-wide               |
+
+</div>
 
 ### Syntax
 
@@ -22272,6 +22836,8 @@ docs/_build/* linguist-generated
 
 Attributes can be set, unset, or set to a value:
 
+<div class="table-wrap">
+
 | Syntax                 | Meaning                           |
 | ---------------------- | --------------------------------- |
 | `text`                 | Set the attribute                 |
@@ -22279,9 +22845,13 @@ Attributes can be set, unset, or set to a value:
 | `text` (after `!text`) | Unset the attribute (explicitly)  |
 | `diff=markdown`        | Set attribute to value `markdown` |
 
+</div>
+
 ### Line Ending Normalization
 
 The `text` attribute controls CRLF/LF conversion:
+
+<div class="table-wrap">
 
 | Setting         | Behavior                                                               |
 | --------------- | ---------------------------------------------------------------------- |
@@ -22290,6 +22860,8 @@ The `text` attribute controls CRLF/LF conversion:
 | `text eol=crlf` | Convert LF to CRLF on checkout (force Windows line endings)            |
 | `-text`         | No conversion at all (binary-like)                                     |
 | `binary`        | Equivalent to `-text -diff`                                            |
+
+</div>
 
 ```gitattributes
 # Force LF for everything (recommended for cross-platform projects)
@@ -22371,10 +22943,14 @@ $ git config merge.json.recursive binary
 
 Available built-in merge strategies:
 
+<div class="table-wrap">
+
 | Driver         | Behavior                                 |
 | -------------- | ---------------------------------------- |
 | `merge=ours`   | Keep our version, ignore theirs entirely |
 | `merge=binary` | No merging; conflict on any modification |
+
+</div>
 
 ### Export-Subst
 
@@ -22404,6 +22980,8 @@ $ git archive --format=tar.gz HEAD > release.tar.gz
 
 Available format specifiers:
 
+<div class="table-wrap">
+
 | Specifier | Expands to                             |
 | --------- | -------------------------------------- |
 | `%H`      | Full commit hash                       |
@@ -22416,6 +22994,8 @@ Available format specifiers:
 | `%ce`     | Committer email                        |
 | `%s`      | Subject (first line of commit message) |
 | `%b`      | Body (rest of commit message)          |
+
+</div>
 
 ### Whitespace Rules
 
@@ -22433,6 +23013,8 @@ Available format specifiers:
 Makefile whitespace=indent-with-non-tab
 ```
 
+<div class="table-wrap">
+
 | Whitespace Attribute  | Error Detected                                                |
 | --------------------- | ------------------------------------------------------------- |
 | `trailing-space`      | Trailing whitespace, blank lines with whitespace              |
@@ -22441,6 +23023,8 @@ Makefile whitespace=indent-with-non-tab
 | `cr-at-eol`           | Carriage return at end of line (not an error, just detection) |
 | `blank-at-eol`        | Trailing whitespace at end of line                            |
 | `blank-at-eof`        | Blank lines at end of file                                    |
+
+</div>
 
 ### Linguist-Generated (GitHub Specific)
 
@@ -22593,6 +23177,8 @@ Repository. Always follow the full removal procedure.
 
 ### Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                          | Solution                                                                              |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | Submodule directory empty after clone            | Run `git submodule update --init --recursive`                                         |
@@ -22600,6 +23186,8 @@ Repository. Always follow the full removal procedure.
 | Forgot to commit `.gitmodules` changes           | Stage `.gitmodules` and the submodule path before committing                          |
 | Stale submodule in `.git/modules/` after removal | Manually remove `.git/modules/<name>`                                                 |
 | Submodule at wrong commit                        | `cd libs/repo && git checkout <commit>` then `cd ../.. && git add libs/repo`          |
+
+</div>
 
 ---
 
@@ -22922,12 +23510,16 @@ $ make -C ../build-v2.4 release
 
 ### Limitations and Constraints
 
+<div class="table-wrap">
+
 | Constraint                                          | Details                                                         |
 | --------------------------------------------------- | --------------------------------------------------------------- |
 | Branch can only be checked out in one worktree      | Git prevents checking out the same branch in multiple worktrees |
 | No nested worktrees                                 | You cannot create a worktree inside another worktree            |
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
+
+</div>
 :::
 
 :::caution
@@ -23136,6 +23728,8 @@ git fsck --no-reflogs
 
 ### What It Checks
 
+<div class="table-wrap">
+
 | Check                | Description                                     |
 | -------------------- | ----------------------------------------------- |
 | Missing objects      | References point to objects that do not exist   |
@@ -23147,6 +23741,8 @@ git fsck --no-reflogs
 | Invalid tree entries | Tree entries with invalid mode or filename      |
 | Invalid parent links | Commits referencing non-existent parent commits |
 | Tag signature        | Verification of signed tags (with `--tag`)      |
+
+</div>
 
 ### Common Output
 
@@ -23338,11 +23934,15 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 
 ### Configuration Options
 
+<div class="table-wrap">
+
 | Option              | Default | Description                                 |
 | ------------------- | ------- | ------------------------------------------- |
 | `rerere.enabled`    | `false` | Enable rerere                               |
 | `rerere.autoupdate` | `false` | Automatically stage the recorded resolution |
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
+
+</div>
 :::
 
 :::note
@@ -23625,6 +24225,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 
 ### Cc Suppression Options
 
+<div class="table-wrap">
+
 | Flag                     | Suppresses Cc from                 |
 | ------------------------ | ---------------------------------- |
 | `--suppress-cc=author`   | Patch author                       |
@@ -23634,6 +24236,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 | `--suppress-cc=body`     | Entire patch body                  |
 | `--suppress-cc=misc-cmd` | Output of --cc-cmd                 |
 | `--suppress-cc=all`      | All of the above                   |
+
+</div>
 
 ### Common Workflow
 
@@ -23666,6 +24270,8 @@ $ git send-email --to maintainer@project.org \
 
 ### Configuration Reference
 
+<div class="table-wrap">
+
 | Config Key                 | Description                              |
 | -------------------------- | ---------------------------------------- |
 | `sendemail.from`           | Default From address                     |
@@ -23678,6 +24284,8 @@ $ git send-email --to maintainer@project.org \
 | `sendemail.chainReplyTo`   | Chain emails as replies to cover letter  |
 | `sendemail.thread`         | Enable threading                         |
 | `sendemail.confirm`        | `auto``always``never``cc``compose`       |
+
+</div>
 
 :::caution
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
@@ -23834,11 +24442,15 @@ $ git push --force origin feature
 $ git push --force-with-lease origin feature
 ```
 
+<div class="table-wrap">
+
 | Command                        | Behavior                                                                              |
 | ------------------------------ | ------------------------------------------------------------------------------------- |
 | `git push --force`             | Unconditionally overwrites the remote branch                                          |
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
+
+</div>
 :::
 
 :::caution
@@ -24091,6 +24703,8 @@ git commit -m "docs: update installation instructions"
 
 ### Why Atomic Commits Matter
 
+<div class="table-wrap">
+
 | Reason                  | Explanation                                                             |
 | ----------------------- | ----------------------------------------------------------------------- |
 | **Bisectability**       | `git bisect` can pinpoint the exact commit that introduced a bug        |
@@ -24098,6 +24712,8 @@ git commit -m "docs: update installation instructions"
 | **Reviewability**       | Reviewers can understand each change in isolation                       |
 | **Cherry-picking**      | Individual fixes can be cherry-picked to release branches               |
 | **History archaeology** | Future developers can understand _why_ each change was made             |
+
+</div>
 
 ### Staging Partial Changes
 
@@ -24356,12 +24972,16 @@ When a bug is discovered in production, you may need to search through hundreds 
 commits to find when it was introduced. Linear search (checking each commit one by one) has $O(n)$
 time complexity. Binary search reduces this to $O(\log_2 n)$:
 
+<div class="table-wrap">
+
 | Commits to search | Linear steps | Binary steps |
 | ----------------- | ------------ | ------------ |
 | 100               | 100          | 7            |
 | 1,000             | 1,000        | 10           |
 | 10,000            | 10,000       | 14           |
 | 100,000           | 100,000      | 17           |
+
+</div>
 
 ## Basic Usage
 
@@ -24634,6 +25254,8 @@ $ git push origin --delete feature-auth
 
 Consistent branch naming is essential for project hygiene. Common conventions:
 
+<div class="table-wrap">
+
 | Pattern                          | Purpose                                            |
 | -------------------------------- | -------------------------------------------------- |
 | `main``master`                   | Production-ready code                              |
@@ -24644,6 +25266,8 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `hotfix/<description>`           | Urgent production fixes                            |
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
+
+</div>
 :::
 
 :::tip
@@ -24838,11 +25462,15 @@ Commits and () different committer timestamps. They are distinct objects in the 
 
 ### How It Differs from Merge and Rebase
 
+<div class="table-wrap">
+
 | Operation     | What it does                                                 | Commit topology change                      |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | `merge`       | Creates a merge commit joining two branch histories          | New merge commit, preserves both histories  |
 | `rebase`      | Replays a sequence of commits onto a new base                | Rewrites all replayed commits with new SHAs |
 | `cherry-pick` | Applies one or more specific commits onto the current branch | New commits with new SHAs, no merge commit  |
+
+</div>
 
 Merge preserves the full topological relationship between branches. Rebase rewrites an entire
 Sequence linearly. Cherry-pick is surgical, it extracts individual commits without regard to branch
@@ -24891,10 +25519,14 @@ $ git cherry-pick A^..B
 
 The difference between `A..B` and `A^..B` is a common source of confusion:
 
+<div class="table-wrap">
+
 | Syntax  | Meaning                                        | Includes A? |
 | ------- | ---------------------------------------------- | ----------- |
 | `A..B`  | Commits reachable from B, not reachable from A | No          |
 | `A^..B` | Commits from A"s parent through B              | Yes         |
+
+</div>
 
 ```bash
 # Practical example: cherry-pick everything from commit X through Y, inclusive
@@ -25093,6 +25725,8 @@ $ git cherry-pick b1c2d3e c4d5e6f
 
 ### Decision Framework
 
+<div class="table-wrap">
+
 | Factor              | Use Cherry-Pick                               | Use Rebase                             |
 | ------------------- | --------------------------------------------- | -------------------------------------- |
 | Scope               | One or a few specific commits                 | Entire branch or large sequence        |
@@ -25101,6 +25735,8 @@ $ git cherry-pick b1c2d3e c4d5e6f
 | History cleanliness | Can create a messy DAG with scattered commits | Produces a clean linear history        |
 | Merge conflicts     | Resolve per commit                            | Resolve once per conflicting commit    |
 | Traceability        | Needs `-x` for provenance tracking            | Branch topology provides context       |
+
+</div>
 
 ### When to Cherry-Pick
 
@@ -25779,6 +26415,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 
 ### SSH vs GPG: Practical Comparison
 
+<div class="table-wrap">
+
 | Aspect             | GPG                                    | SSH                                       |
 | ------------------ | -------------------------------------- | ----------------------------------------- |
 | Key format         | OpenPGP (pubring, secring)             | SSH keypair (ed25519, rsa)                |
@@ -25790,6 +26428,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 | Multiple keys      | Keyring supports many                  | Configure per-repo or use `~/.ssh/config` |
 | Subkey support     | Yes (separate signing/encryption/auth) | No (each key is a single key pair)        |
 | Revocation         | Revocation certificates                | Remove public key from server             |
+
+</div>
 
 For new setups, SSH signing is recommended. It eliminates the entire `gpg-agent` complexity layer
 and works with infrastructure you already have.
@@ -26471,11 +27111,15 @@ int authenticate(User *user) {
 >>>>>>> feature-auth
 ```
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of conflict region. Our version begins.    |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of conflict region. Their version ends.      |
+
+</div>
 
 The text after `>>>>>>>` identifies the branch being merged.
 
@@ -26880,6 +27524,8 @@ $ which git-filter-repo
 
 ### Operation Reference Table
 
+<div class="table-wrap">
+
 | Operation                        | Command                                                      | Effect                                                                 |
 | -------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | Remove a file from all history   | `git filter-repo --path path/to/file --invert-paths`         | Deletes the file and all commits that only touched that file           |
@@ -26892,6 +27538,8 @@ $ which git-filter-repo
 | Replace blob content             | `git filter-repo --blob-callback 'return blob.replace(...)'` | Python callback for arbitrary blob modifications                       |
 | Rename files                     | `git filter-repo --path-rename old/path:new/path`            | Renames files/directories across all history                           |
 | Add a prefix to all paths        | `git filter-repo --prefix new-prefix/`                       | Prepends a directory prefix to all file paths                          |
+
+</div>
 
 ### Removing a File from All History
 
@@ -27074,6 +27722,8 @@ $ git filter-repo --replace-text expressions.txt
 
 ### Feature Comparison
 
+<div class="table-wrap">
+
 | Feature                    | `filter-branch`                          | `filter-repo`                                 |
 | -------------------------- | ---------------------------------------- | --------------------------------------------- |
 | Speed                      | Slow (shell-based, sequential)           | Fast (Python, streaming via fast-export)      |
@@ -27087,9 +27737,13 @@ $ git filter-repo --replace-text expressions.txt
 | Maintenance status         | Deprecated since Git 2.24                | Actively maintained                           |
 | Repository state after run | Dirty (needs manual cleanup)             | Clean (fully gc'd)                            |
 
+</div>
+
 ### Performance Comparison
 
 On a repository with 50,000 commits and 10,000 files:
+
+<div class="table-wrap">
 
 | Operation            | `filter-branch` | `filter-repo` |
 | -------------------- | --------------- | ------------- |
@@ -27097,6 +27751,8 @@ On a repository with 50,000 commits and 10,000 files:
 | Rewrite author info  | 30 minutes      | 90 seconds    |
 | Remove large blobs   | 60 minutes      | 3 minutes     |
 | Extract subdirectory | 50 minutes      | 2.5 minutes   |
+
+</div>
 
 These numbers are approximate and depend on hardware, but the order-of-magnitude difference is
 Consistent. `filter-repo` is 15-30x faster because it avoids creating intermediate Git objects, it
@@ -27758,6 +28414,8 @@ in `.git/hooks/` and must be executable.
 
 ### Available Hooks
 
+<div class="table-wrap">
+
 | Hook                 | Trigger                        | Use Case                           |
 | -------------------- | ------------------------------ | ---------------------------------- |
 | `pre-commit`         | Before commit is created       | Linting, formatting, running tests |
@@ -27769,6 +28427,8 @@ in `.git/hooks/` and must be executable.
 | `post-checkout`      | After checkout                 | Rebuild generated files            |
 | `post-merge`         | After merge                    | Rebuild generated files            |
 | `prepare-commit-msg` | Before message editor opens    | Template commit messages           |
+
+</div>
 
 ### Hook Script Template
 
@@ -27860,12 +28520,16 @@ storage mechanism. Version control is built on top of it.
 
 There are four types of Git objects:
 
+<div class="table-wrap">
+
 | Type       | Purpose           | Contains                                                               |
 | ---------- | ----------------- | ---------------------------------------------------------------------- |
 | **blob**   | File content      | Raw file bytes (no filename, no metadata)                              |
 | **tree**   | Directory listing | List of `(mode, name, SHA-1)` entries (blobs or subtrees)              |
 | **commit** | Snapshot metadata | Tree SHA-1, parent commit(s), author, committer, message, timestamp    |
 | **tag**    | Annotated tag     | Tag name, tagger, message, target commit SHA-1, optional GPG signature |
+
+</div>
 
 Every object is stored as a compressed file under `.git/objects/`Named by its SHA-1 hash. For
 example, an object with hash `a3f2b1c...` is stored at `.git/objects/a3/f2b1c...`.
@@ -27951,11 +28615,15 @@ copied configurations), identical content is stored exactly once.
 
 A tree object represents a **directory listing**. Each entry in a tree is a triple:
 
+<div class="table-wrap">
+
 | Field     | Description                                                                                                                |
 | --------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **mode**  | File type and permissions (e.g., `100644` = regular file, `100755` = executable, `040000` = directory, `120000` = symlink) |
 | **name**  | Filename or directory name                                                                                                 |
 | **SHA-1** | Hash of the blob (for files) or subtree (for directories)                                                                  |
+
+</div>
 
 ### Tree Structure
 
@@ -28016,6 +28684,8 @@ if you are manually constructing tree objects.
 
 A commit object is a **snapshot of the project at a point in time**, plus metadata. It contains:
 
+<div class="table-wrap">
+
 | Field         | Description                                                                                                          |
 | ------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **tree**      | SHA-1 of the root tree object (the directory listing)                                                                |
@@ -28023,6 +28693,8 @@ A commit object is a **snapshot of the project at a point in time**, plus metada
 | **author**    | Name, email, timestamp of the person who wrote the changes                                                           |
 | **committer** | Name, email, timestamp of the person who created the commit (may differ from author during `git rebase` or `git am`) |
 | **message**   | Commit message (includes optional trailers like `Co-authored-by:`)                                                   |
+
+</div>
 
 ### Commit Structure
 
@@ -28069,12 +28741,16 @@ In this graph:
 
 The distinction between author and committer is important in workflows where commits are rewritten:
 
+<div class="table-wrap">
+
 | Scenario                 | Author             | Committer          |
 | ------------------------ | ------------------ | ------------------ |
 | Normal commit            | Original developer | Original developer |
 | `git rebase`             | Original developer | Person who rebased |
 | `git am` (apply mailbox) | Patch sender       | Person who applied |
 | `git commit --amend`     | Original developer | Person who amended |
+
+</div>
 
 This separation preserves attribution while allowing history to be rewritten. `git log` shows both
 fields.
@@ -28132,12 +28808,16 @@ Release version 1.0
 
 ### When to Use Which
 
+<div class="table-wrap">
+
 | Use lightweight    | Use annotated                         |
 | ------------------ | ------------------------------------- |
 | Private bookmarks  | Public releases                       |
 | Temporary pointers | Signed releases (GPG)                 |
 | Personal workflow  | Semantic versioning milestones        |
 |                    | When you need metadata (date, tagger) |
+
+</div>
 :::
 
 :::tip
@@ -28429,6 +29109,8 @@ Comments, scheduled cron expressions, and manual dispatches.
 
 ### Core Concepts
 
+<div class="table-wrap">
+
 | Concept      | Description                                                                                                          |
 | ------------ | -------------------------------------------------------------------------------------------------------------------- |
 | **Workflow** | An automated process defined in a YAML file under `.github/workflows/`                                               |
@@ -28440,10 +29122,14 @@ Comments, scheduled cron expressions, and manual dispatches.
 | **Artifact** | A file or collection of files produced during a workflow run, persisted after the run completes                      |
 | **Secret**   | An encrypted environment variable accessible only within the workflow context                                        |
 
+</div>
+
 ### Runner Taxonomy
 
 GitHub-hosted runners are ephemeral virtual machines provisioned per job and destroyed after
 Completion. They come in three operating system families:
+
+<div class="table-wrap">
 
 | Runner identifier  | OS                  | Architecture | Notes                            |
 | ------------------ | ------------------- | ------------ | -------------------------------- |
@@ -28452,6 +29138,8 @@ Completion. They come in three operating system families:
 | `windows-latest`   | Windows Server 2022 | x64          | Uses PowerShell as default shell |
 | `macos-latest`     | macOS 14 (Sonoma)   | arm64 (M1)   | 10× billing multiplier vs ubuntu |
 | `macos-13`         | macOS Ventura       | x64          | Intel-based macOS                |
+
+</div>
 
 Self-hosted runners allow execution on custom infrastructure and are not subject to the 6-hour job
 Timeout or IP egress restrictions, but require the operator to manage security, isolation, and
@@ -28502,6 +29190,8 @@ jobs:
 A step is either an action reference (`uses`) or a shell command (`run`). The two are mutually
 Exclusive within a single step.
 
+<div class="table-wrap">
+
 | Key                 | Purpose                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------ |
 | `name`              | Human-readable label displayed in the workflow run log                                     |
@@ -28513,6 +29203,8 @@ Exclusive within a single step.
 | `id`                | Unique identifier so subsequent steps can reference outputs via `steps.&lt;id&gt;.outputs` |
 | `timeout-minutes`   | Maximum time before the step is killed (overrides job-level timeout)                       |
 | `continue-on-error` | If `true`The workflow treats a failure in this step as a success                           |
+
+</div>
 
 ### Environment Variables
 
@@ -28806,12 +29498,16 @@ jobs:
       - run: echo "This always runs"
 ```
 
+<div class="table-wrap">
+
 | Condition function | Meaning                                   |
 | ------------------ | ----------------------------------------- |
 | `success()`        | All dependency jobs succeeded (default)   |
 | `failure()`        | At least one dependency job failed        |
 | `always()`         | Run regardless of dependency job outcomes |
 | `cancelled()`      | The workflow was cancelled                |
+
+</div>
 
 ### Concurrency Control
 
@@ -28873,11 +29569,15 @@ Purpose.
       pip-
 ```
 
+<div class="table-wrap">
+
 | Key component  | Purpose                                                |
 | -------------- | ------------------------------------------------------ |
 | `key`          | Primary cache key; exact match required                |
 | `restore-keys` | Fallback prefix keys used when no exact match is found |
 | `path`         | File or directory to cache                             |
+
+</div>
 
 Cache lookup proceeds as follows:
 
@@ -28989,6 +29689,8 @@ for human consumption or cross-job data transfer and are retained after the run 
     compression-level: 6
 ```
 
+<div class="table-wrap">
+
 | Parameter           | Description                                         |
 | ------------------- | --------------------------------------------------- |
 | `name`              | Artifact name (unique within the run)               |
@@ -28996,6 +29698,8 @@ for human consumption or cross-job data transfer and are retained after the run 
 | `retention-days`    | Days to retain (default 90, max 90 on free plans)   |
 | `if-no-files-found` | Behavior when no files match: `warn``error``ignore` |
 | `compression-level` | 0 (none) to 9 (max); default 6                      |
+
+</div>
 
 ### Downloading Artifacts
 
@@ -29047,11 +29751,15 @@ jobs:
 
 ### Artifact Size Limits
 
+<div class="table-wrap">
+
 | Limit                           | Value                                 |
 | ------------------------------- | ------------------------------------- |
 | Single artifact max size        | 5 GB                                  |
 | Total artifacts per run         | No hard cap (storage billing applies) |
 | Max number of artifacts per run | 500                                   |
+
+</div>
 
 ---
 
@@ -29200,12 +29908,16 @@ jobs:
       - run: python --version
 ```
 
+<div class="table-wrap">
+
 | Matrix option  | Purpose                                                           |
 | -------------- | ----------------------------------------------------------------- |
 | `fail-fast`    | If `true` (default), cancel all in-progress jobs on first failure |
 | `exclude`      | Remove specific combinations from the matrix                      |
 | `include`      | Add specific combinations to the matrix                           |
 | `max-parallel` | Limit the number of concurrent matrix job runs                    |
+
+</div>
 
 ---
 
@@ -29549,11 +30261,15 @@ jobs:
 
 ### Secret Scoping
 
+<div class="table-wrap">
+
 | Scope        | Visibility                           | Use case                                  |
 | ------------ | ------------------------------------ | ----------------------------------------- |
 | Repository   | All workflows in the repository      | Deploy credentials, API tokens            |
 | Environment  | Workflows using that environment     | Per-environment secrets (staging vs prod) |
 | Organization | All repositories in the organization | Shared SSO tokens, registry credentials   |
+
+</div>
 
 Environment-level secrets require the job to specify the `environment` key:
 
@@ -29592,6 +30308,8 @@ jobs:
 Default `GITHUB_TOKEN` permissions are read-only. To grant write access, declare `permissions` at
 the workflow or job level:
 
+<div class="table-wrap">
+
 | Permission      | Scope                                  |
 | --------------- | -------------------------------------- |
 | `contents`      | Repository content (commits, releases) |
@@ -29601,6 +30319,8 @@ the workflow or job level:
 | `id-token`      | OIDC token generation (for cloud auth) |
 | `actions`       | Workflow operations                    |
 | `pages`         | GitHub Pages deployment                |
+
+</div>
 
 ### Variables vs Secrets
 
@@ -29830,12 +30550,16 @@ jobs:
 
 GitHub-hosted runners have finite resources:
 
+<div class="table-wrap">
+
 | Resource       | Limit (2-core runner) | Limit (larger runners) |
 | -------------- | --------------------- | ---------------------- |
 | CPU            | 2 cores               | Up to 64 cores         |
 | Memory         | 7 GB RAM              | Up to 512 GB RAM       |
 | Disk (SSD)     | 14 GB free            | Up to 32 TB            |
 | Network egress | ~250 Mbps             | Same                   |
+
+</div>
 
 Long-running builds that compile large codebases, run heavy test suites, or process large datasets
 should consider self-hosted runners or larger runner types.
@@ -29844,11 +30568,15 @@ should consider self-hosted runners or larger runner types.
 
 GitHub Actions bills per minute of runner usage, with multipliers per OS:
 
+<div class="table-wrap">
+
 | Runner  | Multiplier |
 | ------- | ---------- |
 | Linux   | 1×         |
 | Windows | 2×         |
 | macOS   | 10×        |
+
+</div>
 
 Cost optimization strategies:
 
@@ -29950,12 +30678,16 @@ Hash, producing a $2^{160}$ address space.
 
 ### SHA-1 Properties
 
+<div class="table-wrap">
+
 | Property             | Value                                       |
 | -------------------- | ------------------------------------------- |
 | Output size          | 160 bits (20 bytes, 40 hex characters)      |
 | Collision resistance | $2^{80}$ (theoretical), broken in practice |
 | Preimage resistance  | $2^{160}$ (unbroken)                        |
 | Speed                | Fast (hardware-accelerated on modern CPUs)  |
+
+</div>
 
 ### The SHA-1 Collision Problem
 
@@ -29998,6 +30730,8 @@ $ git config core.repositoryFormatVersion
 
 ### SHA-256 Properties
 
+<div class="table-wrap">
+
 | Property             | SHA-1              | SHA-256                     |
 | -------------------- | ------------------ | --------------------------- |
 | Output size          | 160 bits           | 256 bits                    |
@@ -30005,6 +30739,8 @@ $ git config core.repositoryFormatVersion
 | Preimage resistance  | $2^{160}$ (secure) | $2^{256}$ (secure)          |
 | Hash length          | 40 hex chars       | 64 hex chars                |
 | Speed                | Faster             | $\sim$20% slower (software) |
+
+</div>
 
 ### Migration Challenges
 
@@ -30070,6 +30806,8 @@ If you are concerned about collision attacks:
 Git's choice of content-addressable storage (CAS) is fundamental to its design. The implications are
 Far-reaching:
 
+<div class="table-wrap">
+
 | Property                  | Benefit                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------- |
 | **Deduplication**         | Identical files across commits produce one blob object                        |
@@ -30077,6 +30815,8 @@ Far-reaching:
 | **Distributed consensus** | Two developers can independently verify they have the same object             |
 | **Deterministic builds**  | A commit hash uniquely identifies a project state                             |
 | **Garbage collection**    | Unreachable objects can be safely deleted without affecting reachable objects |
+
+</div>
 
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
 Large binary files, databases). This is why Git LFS exists, it stores the large file content
@@ -30182,6 +30922,8 @@ does not error).
 Every hook has a fixed name. Git iterates through the hooks directory and matches filenames against
 A hardcoded list. The naming is not configurable:
 
+<div class="table-wrap">
+
 | Hook Name            | Type   | Trigger Point                   |
 | -------------------- | ------ | ------------------------------- |
 | `pre-commit`         | Client | Before commit, after staging    |
@@ -30195,6 +30937,8 @@ A hardcoded list. The naming is not configurable:
 | `pre-receive`        | Server | Before refs are updated         |
 | `update`             | Server | Once per ref being updated      |
 | `post-receive`       | Server | After refs are updated          |
+
+</div>
 
 ### What Happens When a Hook Fails
 
@@ -30214,6 +30958,8 @@ warning but does **not** abort the operation, the commit or push has already suc
 
 ### Full Reference Table
 
+<div class="table-wrap">
+
 | Hook                 | Arguments                                                                                        | stdin                                                                                | Fail Aborts? | Typical Use                                |
 | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------ | ------------------------------------------ |
 | `pre-commit`         | None                                                                                             | None                                                                                 | Yes          | Linting, formatting, tests on staged files |
@@ -30225,6 +30971,8 @@ warning but does **not** abort the operation, the commit or push has already suc
 | `post-merge`         | `$1`=flag (1=squash merge)                                                                       | None                                                                                 | No           | Submodule update, dependency install       |
 | `pre-push`           | None                                                                                             | Lines: `&lt;local ref&gt; &lt;local sha1&gt; &lt;remote ref&gt; &lt;remote sha1&gt;` | Yes          | Test suite, prevent force-push to main     |
 | `pre-auto-gc`        | None                                                                                             | None                                                                                 | Yes          | Prevent automatic garbage collection       |
+
+</div>
 
 ### pre-commit
 
@@ -30640,6 +31388,8 @@ chmod +x .githooks/pre-commit
 Git sets several environment variables before invoking a hook. These provide context about the
 Repository and the operation in progress:
 
+<div class="table-wrap">
+
 | Variable              | Available In    | Description                                 |
 | --------------------- | --------------- | ------------------------------------------- |
 | `GIT_DIR`             | All hooks       | Path to the `.git` directory                |
@@ -30652,6 +31402,8 @@ Repository and the operation in progress:
 | `GIT_COMMIT`          | `post-commit`   | SHA of the newly created commit             |
 | `GIT_PREFIX`          | `post-checkout` | The path to the worktree root (for subdirs) |
 | `GIT_REFLOG_ACTION`   | All hooks       | The operation being performed               |
+
+</div>
 
 **Important**: the `PATH` environment variable in hooks is often minimal. If your hook invokes tools
 Like `eslint`, `shellcheck` or custom binaries, they may not be found. Either use absolute paths or
@@ -30793,6 +31545,8 @@ repos:
 
 The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 
+<div class="table-wrap">
+
 | Hook ID                                | What It Does                                     | Fix? |
 | -------------------------------------- | ------------------------------------------------ | ---- |
 | `trailing-whitespace`                  | Removes trailing whitespace from all lines       | Yes  |
@@ -30805,6 +31559,8 @@ The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 | `check-case-conflict`                  | Detects filename case conflicts (Linux vs macOS) | No   |
 | `check-executables-have-shebangs`      | Ensures executable files have shebangs           | No   |
 | `check-shebang-scripts-are-executable` | Ensures files with shebangs are executable       | No   |
+
+</div>
 
 ### Running in CI
 
@@ -31253,6 +32009,8 @@ Contributors on dial-up connections needed to work efficiently.
 
 ## How Git Compares to Other VCS
 
+<div class="table-wrap">
+
 | Feature              | Git                                | Mercurial (Hg)                | Subversion (SVN)          | Perforce (P4)             |
 | -------------------- | ---------------------------------- | ----------------------------- | ------------------------- | ------------------------- |
 | Architecture         | Distributed                        | Distributed                   | Centralized               | Centralized               |
@@ -31262,6 +32020,8 @@ Contributors on dial-up connections needed to work efficiently.
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
+
+</div>
 :::
 
 :::tip
@@ -31272,12 +32032,16 @@ Git is optimized for text files.
 
 ### Installation
 
+<div class="table-wrap">
+
 | Platform              | Method                                                          |
 | --------------------- | --------------------------------------------------------------- |
 | Linux (Debian/Ubuntu) | `sudo apt install git`                                          |
 | Linux (Fedora)        | `sudo dnf install git`                                          |
 | macOS                 | `brew install git` (preferred over Xcode's bundled Git)         |
 | Windows               | [git-scm.com](https://git-scm.com/) or `winget install Git.Git` |
+
+</div>
 
 ### Essential Configuration
 
@@ -31358,6 +32122,8 @@ every Git operation. Understanding the transitions between them is essential. Se
 
 This guide is organized into the following sections:
 
+<div class="table-wrap">
+
 | Section                                                                     | Content                                                   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------- |
 | [Fundamentals](/git/02-fundamentals/01-the-three-trees/)                     | Three-tree architecture, Git objects, references          |
@@ -31366,6 +32132,8 @@ This guide is organized into the following sections:
 | [Advanced Topics](/git/05-advanced-topics/01-reflog/)                        | Reflog, stash, bisect, submodules, worktrees              |
 | [Internals](/git/06-internals/01-git-directory-structure/)                   | `.git` directory layout, pack files, hashing algorithm    |
 | [Others](/git/Others/gitea-on-truenas/)                                      | Self-hosting, commit history removal                      |
+
+</div>
 
 ## Common Pitfalls
 
@@ -31475,12 +32243,16 @@ flowchart TD
 
 The algorithm works **file by file, hunk by hunk**:
 
+<div class="table-wrap">
+
 | Base | Ours | Theirs | Result       | Explanation                                           |
 | ---- | ---- | ------ | ------------ | ----------------------------------------------------- |
 | `x`  | `x`  | `x`    | `x`          | No change, keep as-is                                |
 | `x`  | `y`  | `x`    | `y`          | Only we changed, take ours                           |
 | `x`  | `x`  | `y`    | `y`          | Only they changed, take theirs                       |
 | `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
+
+</div>
 
 The critical case is the last row: when both branches modify the same region of the same file. This
 is a **merge conflict**.
@@ -31568,6 +32340,8 @@ It easy to see when a feature was merged, revert the entire feature with one com
 
 Git supports several merge strategies, selectable with `-s`:
 
+<div class="table-wrap">
+
 | Strategy                       | Description                                                              | When to Use                                  |
 | ------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------- |
 | `recursive` (default)          | Three-way merge with recursive base resolution                           | General purpose, handles criss-cross merges  |
@@ -31576,6 +32350,8 @@ Git supports several merge strategies, selectable with `-s`:
 | `octopus`                      | Merge more than two branches at once                                     | Very rare; most merge tools handle only two  |
 | `ours`                         | Discard all changes from the other branch, keep ours                     | Rare; `git merge -s ours` is an anti-pattern |
 | `subtree`                      | Adjust subtree merge paths                                               | When managing subtree merges                 |
+
+</div>
 
 ### The `ort` Strategy (Git 2.34+)
 
@@ -31615,11 +32391,15 @@ function authenticate(user) {
 
 The markers are:
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of the conflict. Our version begins here.  |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of the conflict. Their version ends here.    |
+
+</div>
 
 ### Resolving Conflicts
 
@@ -31666,6 +32446,8 @@ $ git merge --abort
 
 ### Conflict Scenarios and Solutions
 
+<div class="table-wrap">
+
 | Scenario                                                   | Recommended Resolution                                            |
 | ---------------------------------------------------------- | ----------------------------------------------------------------- |
 | One side added a feature, other side refactored            | Manually integrate the feature into the refactored code           |
@@ -31673,6 +32455,8 @@ $ git merge --abort
 | One side deleted a file, other side modified it            | Discuss with the team: delete or keep with modifications          |
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
+
+</div>
 :::
 
 :::tip
@@ -31865,11 +32649,15 @@ $ git gc --aggressive
 
 A packfile (`.git/objects/pack/pack-<hash>.pack`) contains:
 
+<div class="table-wrap">
+
 | Section | Description                                                 |
 | ------- | ----------------------------------------------------------- |
 | Header  | Magic bytes (`PACK`), version (2), number of objects        |
 | Objects | Compressed objects (delta-compressed against other objects) |
 | Trailer | SHA-1 checksum of all preceding content                     |
+
+</div>
 
 #### Delta Compression
 
@@ -31906,11 +32694,15 @@ access the final object. `git gc` limits delta depth to `pack.depth` (default: 5
 Each packfile has a corresponding `.idx` (index) file that enables $O(1)$ lookup of objects by SHA-1
 hash. The index is a sorted binary table:
 
+<div class="table-wrap">
+
 | Offset | SHA-1      | CRC32     |
 | ------ | ---------- | --------- |
 | 0      | a3f2b1c... | 0x8a7f... |
 | 234    | b7e9d4f... | 0x3c2d... |
 | 567    | c1d2e3f... | 0x9e1b... |
+
+</div>
 
 ### 3. Unreachable and Pruned Objects
 
@@ -32088,13 +32880,19 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 
 ### Per-Repo Fields
 
+<div class="table-wrap">
+
 | Field   | Required | Description                                      |
 | ------- | -------- | ------------------------------------------------ |
 | `repo`  | Yes      | URL of the hook repository (HTTPS or local path) |
 | `rev`   | Yes      | Git ref to checkout (tag, branch, or SHA)        |
 | `hooks` | Yes      | Array of hook definitions from this repo         |
 
+</div>
+
 ### Per-Hook Fields
+
+<div class="table-wrap">
 
 | Field            | Required | Description                                                                  |
 | ---------------- | -------- | ---------------------------------------------------------------------------- |
@@ -32114,6 +32912,8 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 | `verbose`        | No       | Print more output (default: `false`)                                         |
 | `log_file`       | No       | Write hook output to this file                                               |
 | `require_serial` | No       | Do not run this hook in parallel with other hooks (default: `false`)         |
+
+</div>
 
 ### File Type Matching
 
@@ -32206,6 +33006,8 @@ repos:
 
 ### Reference Table
 
+<div class="table-wrap">
+
 | Hook ID                                | What It Checks                                                | Auto-Fix? | Common Arguments                            |
 | -------------------------------------- | ------------------------------------------------------------- | --------- | ------------------------------------------- |
 | `trailing-whitespace`                  | Trailing whitespace on any line                               | Yes       |                                             |
@@ -32228,6 +33030,8 @@ repos:
 | `fix-byte-order-marker`                | Removes BOM from UTF-8 files                                  | Yes       |                                             |
 | `fix-encoding-pragma`                  | Adds `# -*- coding: utf-8 -*-` to Python files if needed      | Yes       |                                             |
 | `name-tests-test`                      | Python test files follow naming convention                    | No        | `--pytest` to only match pytest-style names |
+
+</div>
 
 ### Practical Configuration
 
@@ -33025,11 +33829,15 @@ Why this change is needed. Reference to issue: Closes #42.
 
 Small PRs are easier to review, faster to merge, and safer to revert. Aim for:
 
+<div class="table-wrap">
+
 | Metric        | Target   | Maximum  |
 | ------------- | -------- | -------- |
 | Lines changed | < 200    | < 400    |
 | Files changed | < 10     | < 20     |
 | Review time   | < 30 min | < 1 hour |
+
+</div>
 
 If a PR exceeds these limits, consider splitting it into multiple smaller PRs.
 
@@ -33038,6 +33846,8 @@ If a PR exceeds these limits, consider splitting it into multiple smaller PRs.
 ### Reviewing PRs
 
 When reviewing a PR, focus on:
+
+<div class="table-wrap">
 
 | Category        | What to Check                                                                           |
 | --------------- | --------------------------------------------------------------------------------------- |
@@ -33048,15 +33858,21 @@ When reviewing a PR, focus on:
 | **Security**    | Does the change introduce any vulnerabilities? (Input validation, authentication, etc.) |
 | **Performance** | Does the change introduce any regressions? (N+1 queries, unnecessary copies, etc.)      |
 
+</div>
+
 ### Writing Review Comments
 
 **Be constructive and specific:**
+
+<div class="table-wrap">
 
 | Bad                      | Good                                                                   |
 | ------------------------ | ---------------------------------------------------------------------- |
 | "This is wrong"          | "This condition is inverted, `x < 0` should be `x >= 0`"              |
 | "Use a better algorithm" | "A binary search would reduce this from $O(n)$ to $O(\log n)$"         |
 | "This is hard to read"   | "Extract this into a named function `is_valid_email` with a docstring" |
+
+</div>
 
 **Distinguish blocking from non-blocking comments:**
 
@@ -33090,6 +33906,8 @@ Configure GitHub to require certain checks before a PR can be merged:
 
 For the `main` branch, configure:
 
+<div class="table-wrap">
+
 | Rule                      | Purpose                                            |
 | ------------------------- | -------------------------------------------------- |
 | Require PR before merging | All changes must be reviewed                       |
@@ -33099,6 +33917,8 @@ For the `main` branch, configure:
 | Require signed commits    | Commits must be GPG/SSH signed                     |
 | Require linear history    | No merge commits (force rebase)                    |
 | Restrict who can push     | Only authorized users can bypass PRs               |
+
+</div>
 
 ### Auto-Merge
 
@@ -33111,11 +33931,15 @@ $ gh pr merge 42 --auto --squash
 
 ## Merging Strategies on Platforms
 
+<div class="table-wrap">
+
 | Strategy                  | Git Command                          | When to Use                                  |
 | ------------------------- | ------------------------------------ | -------------------------------------------- |
 | **Create a merge commit** | `git merge --no-ff`                  | Preserves full history; good for large teams |
 | **Squash and merge**      | `git merge --squash`                 | Linear history; one commit per PR            |
 | **Rebase and merge**      | `git rebase` + `git merge --ff-only` | Linear history; preserves individual commits |
+
+</div>
 
 ### Squash and Merge: Implications
 
@@ -33495,6 +34319,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 
 ### Arguments for Rebase
 
+<div class="table-wrap">
+
 | Argument             | Explanation                                                      |
 | -------------------- | ---------------------------------------------------------------- |
 | **Clean history**    | Linear history is easier to read with `git log` and `git bisect` |
@@ -33502,7 +34328,11 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Easier bisect**    | `git bisect` works more reliably on linear history               |
 | **Smaller diff**     | Pull requests contain only feature changes, not merge noise      |
 
+</div>
+
 ### Arguments for Merge
+
+<div class="table-wrap">
 
 | Argument              | Explanation                                                          |
 | --------------------- | -------------------------------------------------------------------- |
@@ -33510,6 +34340,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Safe**              | Merge never rewrites history; rebase does                            |
 | **Preserves context** | Merge commits show when and why features were integrated             |
 | **Easier to revert**  | `git revert -m 1 <merge>` undoes an entire feature in one operation  |
+
+</div>
 
 ### The Golden Rule of Rebasing
 
@@ -33787,6 +34619,8 @@ $ git log HEAD..origin/main
 
 ### Special References
 
+<div class="table-wrap">
+
 | Ref                | Location                | Purpose                                             |
 | ------------------ | ----------------------- | --------------------------------------------------- |
 | `HEAD`             | `.git/HEAD`             | Current branch/commit                               |
@@ -33796,6 +34630,8 @@ $ git log HEAD..origin/main
 | `FETCH_HEAD`       | `.git/FETCH_HEAD`       | Last fetched refs (from `git fetch`)                |
 | `ORIG_HEAD`        | `.git/ORIG_HEAD`        | Previous value of HEAD before a rebase/reset        |
 | `REBASE_HEAD`      | `.git/REBASE_HEAD`      | Current commit during interactive rebase            |
+
+</div>
 
 These are transient references that exist only during specific operations and are cleaned up
 Afterward.
@@ -33834,12 +34670,16 @@ References. The general form is:
 <+?><src>:<dst>
 ```
 
+<div class="table-wrap">
+
 | Component | Meaning                                                       |
 | --------- | ------------------------------------------------------------- |
 | `src`     | The source ref (on the remote for fetch, local for push)      |
 | `dst`     | The destination ref (local for fetch, on the remote for push) |
 | `+`       | Force update even if not fast-forward                         |
 | `:` alone | Delete the ref (push only)                                    |
+
+</div>
 
 ```bash
 # Default fetch refspec for origin
@@ -34020,6 +34860,8 @@ a3f2b1c0 HEAD@{3}: checkout: moving from main to feature
 
 Each entry contains:
 
+<div class="table-wrap">
+
 | Field                             | Meaning                                    |
 | --------------------------------- | ------------------------------------------ |
 | `a3f2b1c0`                        | The commit hash the reference moved **to** |
@@ -34027,15 +34869,21 @@ Each entry contains:
 | `rebase -i (finish)`              | The operation that caused the move         |
 | `returning to refs/heads/feature` | Additional context                         |
 
+</div>
+
 ### Reflog Storage
 
 The reflog is stored as plain text files:
+
+<div class="table-wrap">
 
 | File                           | Records movements of              |
 | ------------------------------ | --------------------------------- |
 | `.git/logs/HEAD`               | HEAD (covers all branch switches) |
 | `.git/logs/refs/heads/main`    | The `main` branch                 |
 | `.git/logs/refs/heads/feature` | The `feature` branch              |
+
+</div>
 
 ```bash
 ## View the raw reflog file
@@ -34146,11 +34994,15 @@ $ git branch recovered-work b7e9d4f5
 
 Reflog entries do not persist forever. By default:
 
+<div class="table-wrap">
+
 | Setting                      | Default | Meaning                                               |
 | ---------------------------- | ------- | ----------------------------------------------------- |
 | `gc.reflogExpire`            | 90 days | Reflog entries older than this are expired            |
 | `gc.reflogExpireUnreachable` | 30 days | Entries pointing to unreachable commits expire sooner |
 | `gc.pruneExpire`             | 2 weeks | Unreachable objects are pruned                        |
+
+</div>
 
 ### When Objects Are Actually Deleted
 
@@ -34223,10 +35075,14 @@ flowchart LR
 
 ### Bare vs Non-Bare Repositories
 
+<div class="table-wrap">
+
 | Type                   | Working Directory | Purpose                                       |
 | ---------------------- | ----------------- | --------------------------------------------- |
 | **Non-bare** (default) | Yes               | Developer workstation, edit, commit, push    |
 | **Bare** (`--bare`)    | No                | Server-side repository, receives pushes only |
+
+</div>
 
 A bare repository is just the `.git/` directory without a working tree. It is the standard format
 for remote servers (GitHub, GitLab, Gitea):
@@ -34284,10 +35140,14 @@ $ git remote set-url origin git@github.com:user/repo.git
 
 ### URLs: HTTPS vs SSH
 
+<div class="table-wrap">
+
 | Protocol  | URL Format                         | Authentication   | Use Case                                     |
 | --------- | ---------------------------------- | ---------------- | -------------------------------------------- |
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
+
+</div>
 :::
 
 :::tip
@@ -34509,6 +35369,8 @@ git checkout -b main origin/main  # or whatever the default branch is
 
 The clone creates:
 
+<div class="table-wrap">
+
 | Component              | Description                                     |
 | ---------------------- | ----------------------------------------------- |
 | `.git/`                | Full local repository with all objects and refs |
@@ -34516,7 +35378,11 @@ The clone creates:
 | `origin` remote        | Points to the source URL                        |
 | `main` tracking branch | Tracks `origin/main`                            |
 
+</div>
+
 ### Clone Variants
+
+<div class="table-wrap">
 
 | Variant     | Command               | Use Case                                       |
 | ----------- | --------------------- | ---------------------------------------------- |
@@ -34525,6 +35391,8 @@ The clone creates:
 | **Sparse**  | `git clone --sparse`  | Monorepos, only specific directories          |
 | **Mirror**  | `git clone --mirror`  | Backup/migration, all refs, bare repository   |
 | **Bare**    | `git clone --bare`    | Server setup, no working directory            |
+
+</div>
 
 ## Remote-Tracking Branches
 
@@ -34838,6 +35706,8 @@ As repositories grow into monorepos containing hundreds of thousands of files, t
 Clone becomes prohibitive. The problem manifests in three dimensions: **time**, **disk space**, and
 **bandwidth**.
 
+<div class="table-wrap">
+
 | Repository                 | Size (Full Clone) | Files | Build Time (Full Clone)             |
 | -------------------------- | ----------------- | ----- | ----------------------------------- |
 | Android (AOSP)             | 300+ GB           | 5M+   | N/A (not practical for individuals) |
@@ -34845,6 +35715,8 @@ Clone becomes prohibitive. The problem manifests in three dimensions: **time**, 
 | Google (internal monorepo) | 80+ TB (shared)   | 1B+   | N/A                                 |
 | Meta (Buck2)               | 70+ GB            | 500K+ | 20+ min                             |
 | Microsoft (Windows)        | 300+ GB           | 4M+   | N/A                                 |
+
+</div>
 
 A frontend developer working on the Chromium monorepo does not need the `chrome/browser/`
 `chrome/test/`Or `third_party/ffmpeg/` directories. A backend developer does not need `ui/` or
@@ -35088,6 +35960,8 @@ $ git fetch --filter=blob:none origin feature-branch
 
 These two features solve different problems and can be used independently or together.
 
+<div class="table-wrap">
+
 | Aspect                  | Sparse Checkout                     | Partial Clone                                  |
 | ----------------------- | ----------------------------------- | ---------------------------------------------- |
 | What it controls        | Working tree contents               | Object database contents                       |
@@ -35097,6 +35971,8 @@ These two features solve different problems and can be used independently or tog
 | Network usage           | Full download                       | Partial download (fetch on demand)             |
 | Requires server support | No (client-side only)               | Yes (Git protocol v2)                          |
 | Offline behavior        | Full (all objects are local)        | Limited (missing objects cause fetch failures) |
+
+</div>
 
 ### Sparse Checkout Only
 
@@ -35279,6 +36155,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                   | Shallow Clone (`--depth=1`)                         | Partial Clone (`--filter=blob:none`) |
 | ------------------------- | --------------------------------------------------- | ------------------------------------ |
 | What is omitted           | Ancestral commits                                   | File contents (blobs)                |
@@ -35291,6 +36169,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 | Git bisect                | No (not enough history)                             | Yes                                  |
 | Server requirements       | None (works with any Git server)                    | Protocol v2                          |
 | Best for                  | CI/CD checkouts, one-off scripts                    | Long-lived development, monorepos    |
+
+</div>
 
 ### Combining Shallow + Partial
 
@@ -35316,6 +36196,8 @@ And `clone`.
 
 ### Hosting Platform Support
 
+<div class="table-wrap">
+
 | Platform                  | Partial Clone Support | Protocol v2 Default | Notes                                                         |
 | ------------------------- | --------------------- | ------------------- | ------------------------------------------------------------- |
 | GitHub.com                | Yes (since 2020)      | Yes                 | `--filter=blob:none` and `--filter=tree:0` supported          |
@@ -35327,6 +36209,8 @@ And `clone`.
 | Gitea                     | Yes (1.16+)           | Yes (default 1.21+) |                                                               |
 | Gerrit                    | Yes                   | Yes                 |                                                               |
 | Custom (git-http-backend) | Yes (Git 2.22+)       | Configurable        | Requires `http.receivepack=true` and protocol v2              |
+
+</div>
 
 ### Self-Hosted Server Configuration
 
@@ -36112,6 +36996,8 @@ History instead.
 
 ### Detailed Comparison
 
+<div class="table-wrap">
+
 | Dimension                | Submodules                                                    | Subtrees                                                  |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------------------------- |
 | **Storage model**        | Parent stores a commit reference (mode 160000)                | Parent stores the actual files as regular blobs           |
@@ -36128,6 +37014,8 @@ History instead.
 | **Contributor friction** | High, new contributors forget submodule init                 | Low, clone and go                                        |
 | **Removing**             | `git rm` + `git submodule deinit` + clean `.git/modules`      | `git rm -rf <prefix>` + `git remote rm`                   |
 | **Best for**             | Large, independently-developed dependencies                   | Vendor libraries, shared code, small dependencies         |
+
+</div>
 
 ### When to Use Subtrees
 
@@ -36546,10 +37434,14 @@ to disk.
 
 Git classifies files in the working directory into two categories:
 
+<div class="table-wrap">
+
 | State         | Definition                                                                         | Shown by                                      |
 | ------------- | ---------------------------------------------------------------------------------- | --------------------------------------------- |
 | **Tracked**   | File is in the index (either as a new addition or inherited from the last commit). | `git diff` (modified), `git status` (deleted) |
 | **Untracked** | File is not in the index and not in `.gitignore`.                                  | `git status` (untracked files)                |
+
+</div>
 
 Files listed in `.gitignore` are **ignored**, they are not tracked and `git status` will not
 mention them.
@@ -36569,12 +37461,16 @@ record "file.txt was modified"; it computes the SHA-1 hash of the file's current
 The index is stored as a binary file at `.git/index`. Its structure (version 4, as of Git 2.x)
 contains:
 
+<div class="table-wrap">
+
 | Section    | Purpose                                                     |
 | ---------- | ----------------------------------------------------------- |
 | Header     | Signature (`DIRC`), version (2, 3, or 4), number of entries |
 | Entries    | Sorted list of `(pathname, stat info, SHA-1, stage)` tuples |
 | Extensions | Optional: tree cache, untracked cache, conflict markers     |
 | Checksum   | SHA-1 of all preceding content                              |
+
+</div>
 
 Each entry contains:
 
@@ -36619,6 +37515,8 @@ directory and index are derived from it; they are caches that can be reconstruct
 Every common Git command can be understood as a transformation between the three trees. This table
 is the most important reference in this guide:
 
+<div class="table-wrap">
+
 | Command                       | From → To                                     | Effect                                                                        |
 | ----------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
 | `git init`                    |, → Repository + Working Directory            | Creates empty repository and working directory                                |
@@ -36642,6 +37540,8 @@ is the most important reference in this guide:
 | `git stash`                   | Working Directory + Index → Stash stack       | Temporarily saves changes; resets to HEAD                                     |
 | `git stash pop`               | Stash stack → Working Directory + Index       | Restores most recent stash                                                    |
 | `git merge <branch>`          | Repository + Working Directory + Index        | Three-way merge into current branch                                           |
+
+</div>
 
 ### Visualizing `git reset` Variants
 
@@ -36729,10 +37629,14 @@ Understanding these states is critical for using Git safely:
 
 Git commands are divided into two categories:
 
+<div class="table-wrap">
+
 | Category      | Purpose                   | Examples                                                             |
 | ------------- | ------------------------- | -------------------------------------------------------------------- |
 | **Porcelain** | User-facing, high-level   | `git add``git commit``git checkout``git merge`                       |
 | **Plumbing**  | Low-level building blocks | `git hash-object``git update-index``git write-tree``git commit-tree` |
+
+</div>
 
 The three-tree model is implemented entirely by plumbing commands. `git add file.txt` is equivalent
 to:
@@ -36826,6 +37730,8 @@ Git also supports a third protocol, the unauthenticated `git://` protocol, but i
 Default on all major hosting platforms due to its lack of authentication (it was the vector for
 CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 
+<div class="table-wrap">
+
 | Aspect                | HTTPS                                      | SSH                                       |
 | --------------------- | ------------------------------------------ | ----------------------------------------- |
 | Default port          | 443                                        | 22                                        |
@@ -36836,6 +37742,8 @@ CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 | CI/CD suitability     | Excellent (token as env var)               | Good (deploy key)                         |
 | Enterprise proxy      | Works through HTTP(S) proxies              | Requires ProxyCommand or jump hosts       |
 | Performance           | Slightly slower (TLS overhead per request) | Slightly faster (persistent multiplexing) |
+
+</div>
 
 Git does not enforce a single protocol for a repository. You can fetch over HTTPS and push over SSH,
 Or use different protocols for different remotes. The choice is per-remote URL, not per-repository.
@@ -36870,12 +37778,16 @@ Your public key has been saved in /home/user/.ssh/id_ed25519.pub
 
 ### Key Type Comparison
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Security Level | Speed (sign) | Speed (verify) | Recommendation |
 | --------- | -------- | -------------- | ------------ | -------------- | -------------- |
 | Ed25519   | 256 bit  | ~128 bit       | Very fast    | Very fast      | Default choice |
 | RSA       | 2048 bit | ~112 bit       | Slow         | Moderate       | Legacy minimum |
 | RSA       | 4096 bit | ~140 bit       | Very slow    | Moderate       | Overkill       |
 | ECDSA     | 256 bit  | ~128 bit       | Moderate     | Moderate       | Avoid (NIST)   |
+
+</div>
 
 **Ed25519** is the default choice for all new keys. Use RSA-4096 only if you must interoperate with
 Systems that do not support Ed25519 (rare, but some older enterprise SSH servers and FIPS-140-2
@@ -37050,6 +37962,8 @@ Host gitea.internal
 
 ### Key Directives
 
+<div class="table-wrap">
+
 | Directive        | Purpose                                                        | Example                          |
 | ---------------- | -------------------------------------------------------------- | -------------------------------- |
 | `Host`           | Pattern-matching alias for the host                            | `Host github-work`               |
@@ -37061,6 +37975,8 @@ Host gitea.internal
 | `ForwardAgent`   | Forward the local ssh-agent to the remote host                 | `ForwardAgent yes`               |
 | `AddKeysToAgent` | Automatically add the key to ssh-agent on first use            | `AddKeysToAgent yes`             |
 | `Compression`    | Enable compression for slow connections                        | `Compression yes`                |
+
+</div>
 
 ### IdentitiesOnly
 
@@ -37128,11 +38044,15 @@ Host *
     ControlPersist 600
 ```
 
+<div class="table-wrap">
+
 | Directive            | Purpose                                                                  |
 | -------------------- | ------------------------------------------------------------------------ |
 | `ControlMaster auto` | Enable multiplexing; auto-create a master connection if none exists      |
 | `ControlPath`        | Path to the control socket file (`%r` = user, `%h` = host, `%p` = port)  |
 | `ControlPersist 600` | Keep the master connection alive for 600 seconds (10 min) after last use |
+
+</div>
 
 The socket directory must exist:
 
@@ -37174,10 +38094,14 @@ Operations. It can be scoped to limit its permissions.
 # Classic tokens: scoped by permission categories (repo, admin, etc.)
 ```
 
+<div class="table-wrap">
+
 | Token Type   | Scope Granularity        | Repository-Level | Expiry       | Recommended For      |
 | ------------ | ------------------------ | ---------------- | ------------ | -------------------- |
 | Fine-grained | Per-repo, per-permission | Yes              | Configurable | New projects         |
 | Classic      | Permission categories    | No (global)      | Configurable | Legacy compatibility |
+
+</div>
 
 #### Creating a GitLab PAT
 
@@ -37377,6 +38301,8 @@ $ git config --global credential.helper osxkeychain
 
 ### Choosing a Helper
 
+<div class="table-wrap">
+
 | Platform | Recommended Helper                            | Security                           |
 | -------- | --------------------------------------------- | ---------------------------------- |
 | Linux    | `libsecret` or `manager-core`                 | Encrypted at rest (keyring)        |
@@ -37384,6 +38310,8 @@ $ git config --global credential.helper osxkeychain
 | Windows  | `manager-core` (default with Git for Windows) | Encrypted at rest (Credential Mgr) |
 | CI/CD    | `cache` (short timeout) or env variable       | Ephemeral / job-scoped             |
 | Docker   | `store` (in container) or `cache`             | Container-isolated                 |
+
+</div>
 
 ### Per-Remote Credential Configuration
 
@@ -37418,6 +38346,8 @@ Enables new features like partial clone.
 
 **Protocol v2** addresses these:
 
+<div class="table-wrap">
+
 | Feature                | Protocol v1            | Protocol v2                           |
 | ---------------------- | ---------------------- | ------------------------------------- |
 | Ref advertisement      | All refs, uncompressed | Filtered, can use packfile URIs       |
@@ -37426,6 +38356,8 @@ Enables new features like partial clone.
 | Filter support         | Not supported          | `--filter=blob:none``--filter=tree:0` |
 | Symref support         | Implicit               | Explicit `symref` capability          |
 | Packfile URIs          | Not supported          | Offload packfile downloads to CDN     |
+
+</div>
 
 ### Verifying Protocol Version
 
@@ -37457,6 +38389,8 @@ the Git server directly. This is used by GitHub and GitLab to reduce load on the
 
 ### Decision Matrix
 
+<div class="table-wrap">
+
 | Factor                     | SSH Wins                                 | HTTPS Wins                                  |
 | -------------------------- | ---------------------------------------- | ------------------------------------------- |
 | Auth convenience           | Key-based, no prompts after setup        | Token required, but credential helpers help |
@@ -37469,6 +38403,8 @@ the Git server directly. This is used by GitHub and GitLab to reduce load on the
 | Security (credential leak) | Private key never transmitted            | Token transmitted on every request          |
 | Performance                | Faster with multiplexing (ControlMaster) | Slightly slower (TLS per-request)           |
 | Self-hosted server         | Simple (add key to authorized_keys)      | Requires TLS cert + PAT or LDAP setup       |
+
+</div>
 
 ### Practical Recommendations
 
@@ -37800,6 +38736,8 @@ gitGraph
 
 ### Advantages
 
+<div class="table-wrap">
+
 | Advantage               | Explanation                                                     |
 | ----------------------- | --------------------------------------------------------------- |
 | **No merge hell**       | No large, complex merges, changes are integrated incrementally |
@@ -37807,7 +38745,11 @@ gitGraph
 | **Easy rollback**       | `git revert <hash>` undoes a single commit                      |
 | **Simplified workflow** | No branch management overhead                                   |
 
+</div>
+
 ### Disadvantages
+
+<div class="table-wrap">
 
 | Disadvantage                    | Mitigation                                  |
 | ------------------------------- | ------------------------------------------- |
@@ -37815,6 +38757,8 @@ gitGraph
 | Feature flags add complexity    | Use a feature flag management system        |
 | Large teams may have contention | Use short-lived feature branches (< 1 day)  |
 | Requires disciplined commits    | Commit frequently, keep commits atomic      |
+
+</div>
 
 ### When to Use
 
@@ -37913,6 +38857,8 @@ flowchart TD
 
 ### Branch Types
 
+<div class="table-wrap">
+
 | Branch      | Purpose                 | Lifetime  | Created From | Merges Into        |
 | ----------- | ----------------------- | --------- | ------------ | ------------------ |
 | `main`      | Production releases     | Permanent |,            |,                  |
@@ -37920,6 +38866,8 @@ flowchart TD
 | `feature/*` | Feature development     | Short     | `develop`    | `develop`          |
 | `release/*` | Release preparation     | Short     | `develop`    | `main` + `develop` |
 | `hotfix/*`  | Urgent production fixes | Short     | `main`       | `main` + `develop` |
+
+</div>
 
 ### Workflow
 
@@ -37954,6 +38902,8 @@ $ git branch -d hotfix/fix-crash
 
 ### Advantages
 
+<div class="table-wrap">
+
 | Advantage                | Explanation                                                |
 | ------------------------ | ---------------------------------------------------------- |
 | **Clear separation**     | Features, releases, and hotfixes have distinct branches    |
@@ -37961,7 +38911,11 @@ $ git branch -d hotfix/fix-crash
 | **Release isolation**    | Release branches allow bug fixes without blocking features |
 | **Well-documented**      | Widely understood, many tools support it natively          |
 
+</div>
+
 ### Disadvantages
+
+<div class="table-wrap">
 
 | Disadvantage            | Explanation                                                                  |
 | ----------------------- | ---------------------------------------------------------------------------- |
@@ -37969,6 +38923,8 @@ $ git branch -d hotfix/fix-crash
 | **Merge-heavy**         | Every feature requires a merge commit into `develop`Then another into `main` |
 | **Slow feedback**       | Features can live in isolation for weeks, accumulating conflicts             |
 | **Not ideal for CI/CD** | The `develop` branch creates an unnecessary integration step                 |
+
+</div>
 
 ### When to Use
 
@@ -38017,6 +38973,8 @@ flowchart LR
 
 ## Comparison Matrix
 
+<div class="table-wrap">
+
 | Criterion               | Trunk-Based   | GitHub Flow          | Git Flow                    |
 | ----------------------- | ------------- | -------------------- | --------------------------- |
 | **Complexity**          | Low           | Low                  | High                        |
@@ -38028,6 +38986,8 @@ flowchart LR
 | **History cleanliness** | Linear        | Mostly linear        | Complex merge graph         |
 | **Team size**           | Small–medium  | Any                  | Any                         |
 | **Learning curve**      | Low           | Low                  | Moderate                    |
+
+</div>
 
 ## Commit Message Conventions
 
@@ -38042,6 +39002,8 @@ Convention is **Conventional Commits**:
 [optional footer(s)]
 ```
 
+<div class="table-wrap">
+
 | Type       | Purpose                                    |
 | ---------- | ------------------------------------------ |
 | `feat`     | New feature                                |
@@ -38053,6 +39015,8 @@ Convention is **Conventional Commits**:
 | `test`     | Adding or updating tests                   |
 | `chore`    | Build process, dependencies, tooling       |
 | `ci`       | CI/CD configuration changes                |
+
+</div>
 
 Examples:
 
@@ -38357,6 +39321,8 @@ $ git submodule update --init --recursive
 
 ## Worktree vs Stash vs Branch
 
+<div class="table-wrap">
+
 | Feature           | Worktree               | Stash                | Branch            |
 | ----------------- | ---------------------- | -------------------- | ----------------- |
 | Parallel work     | Yes                    | No                   | No (must switch)  |
@@ -38364,6 +39330,8 @@ $ git submodule update --init --recursive
 | Independent index | Yes                    | No (single index)    | No (single index) |
 | Disk usage        | Higher (full checkout) | Minimal              | Minimal           |
 | Setup cost        | `git worktree add`     | `git stash push`     | `git switch`      |
+
+</div>
 
 **Rule of thumb**: Use worktrees when you need to work on two things simultaneously for more than a
 few minutes. Use stash for brief interruptions. Use branches for sequential work.
@@ -39505,6 +40473,8 @@ Project, or an incompatible license combination), you have several options, in o
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | License      | Copyleft Strength         | Patent Grant                 | Trademark               | Attribution       | Distribution Trigger   | SaaS Trigger   | OSI Approved | GPL Compatible     |
 | ------------ | ------------------------- | ---------------------------- | ----------------------- | ----------------- | ---------------------- | -------------- | ------------ | ------------------ |
 | AGPLv3       | Strong + Network          | Implied (Sec 11)             | Not granted             | Yes               | Convey (Sec 4)         | Yes (Sec 13)   | Yes          | GPLv3 only         |
@@ -39525,6 +40495,8 @@ Project, or an incompatible license combination), you have several options, in o
 | WTFPL        | None                      | No                           | No                      | No                | N/A                    | No             | No           | No                 |
 | BSL          | Restricted (time-limited) | Varies                       | Varies                  | Yes               | Yes                    | No             | No           | No                 |
 | SSPL         | Strong + Server-side      | No explicit                  | No                      | Yes               | Distribution (Sec 13)  | Yes (de facto) | No           | No                 |
+
+</div>
 
 ## Common Pitfalls
 
@@ -41831,6 +42803,8 @@ predictions and parameters. This distinction has several practical consequences:
 
 ### Probabilistic vs Deterministic Models
 
+<div class="table-wrap">
+
 | Aspect          | Deterministic                         | Probabilistic                                         |
 | --------------- | ------------------------------------- | ----------------------------------------------------- |
 | Output          | Point estimate $\hat{y}$              | Distribution $p(y \mid x, \mathcal{D})$               |
@@ -41840,6 +42814,8 @@ predictions and parameters. This distinction has several practical consequences:
 | Model selection | Cross-validation, AIC/BIC             | Marginal likelihood, Bayes factors                    |
 | Small data      | Prone to overfitting                  | Priors stabilize estimates                            |
 | Computation     | Often cheaper                         | Often more expensive (integration over parameters)    |
+
+</div>
 
 ### Real-World Applications
 
@@ -41926,12 +42902,16 @@ machine learning:
 
 ### Software Stack
 
+<div class="table-wrap">
+
 | Component     | Tool       | Purpose                                   |
 | ------------- | ---------- | ----------------------------------------- |
 | Array compute | JAX        | Differentiable NumPy with GPU/TPU support |
 | Probabilistic | NumPyro    | Probabilistic programming on JAX          |
 | Visualization | Matplotlib | Plots and figures                         |
 | Formalization | Lean 4     | Proof verification of key theorems        |
+
+</div>
 
 ### Notation Conventions
 
@@ -42080,12 +43060,16 @@ from market indicators.
 The choice of loss function encodes assumptions about the data-generating process and the cost of
 prediction errors:
 
+<div class="table-wrap">
+
 | Loss Function | Formula                              | Sensitivity          | Use Case                       |
 | ------------- | ------------------------------------ | -------------------- | ------------------------------ |
 | Squared (L2)  | $\sum (y_n - \hat{y}_n)^2$           | High to outliers     | Gaussian noise assumption      |
 | Absolute (L1) | $\sum                                \| y_n - \hat{y}\_n     \| $                              | Robust to outliers | Laplacian noise assumption |
 | Huber         | Hybrid L1/L2 with threshold $\delta$ | Tunable              | Balanced robustness/smoothness |
 | Cross-entropy | $-\sum y_n \log \hat{y}_n$           | N/A (classification) | Probabilistic classification   |
+
+</div>
 
 The squared error loss is the negative log-likelihood of a Gaussian likelihood:
 $p(y \mid x, \theta) = \mathcal{N}(y; f(x; \theta), \sigma^2)$. The absolute error corresponds to a
@@ -42251,6 +43235,8 @@ URL: https://tools.wyattau.com/zh/algorithms/intro/
 
 时间复杂度用大 O 符号表示算法在最坏情况下的运行时间增长率：
 
+<div class="table-wrap">
+
 | 符号 | 名称 | 示例 |
 | ------ | ------ | ------ |
 | $O(1)$ | 常数 | 数组索引、哈希表查找 |
@@ -42260,15 +43246,21 @@ URL: https://tools.wyattau.com/zh/algorithms/intro/
 | $O(n^2)$ | 二次 | 冒泡排序、选择排序 |
 | $O(2^n)$ | 指数 | 递归斐波那契（无记忆化） |
 
+</div>
+
 ### 空间复杂度
 
 空间复杂度衡量算法在执行过程中使用的额外内存：
+
+<div class="table-wrap">
 
 | 符号 | 含义 | 示例 |
 | ------ | ------ | ------ |
 | $O(1)$ | 常数额外空间 | 原地交换 |
 | $O(n)$ | 线性额外空间 | 创建新数组 |
 | $O(n^2)$ | 二次额外空间 | 二维矩阵 |
+
+</div>
 
 ## 基本数据结构
 

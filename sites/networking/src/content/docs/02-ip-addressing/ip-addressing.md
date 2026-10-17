@@ -55,12 +55,18 @@ Working with IP addresses in binary is essential for understanding subnetting. C
 
 Quick reference for binary-to-decimal conversion:
 
+<div class="table-wrap">
+
 | Bit | Value | Bit | Value | Bit | Value | Bit | Value |
 | --- | ----- | --- | ----- | --- | ----- | --- | ----- |
 | 7   | 128   | 6   | 64    | 5   | 32    | 4   | 16    |
 | 3   | 8     | 2   | 4     | 1   | 2     | 0   | 1     |
 
+</div>
+
 ### Special IPv4 Addresses
+
+<div class="table-wrap">
 
 | Address         | Purpose                                                   |
 | --------------- | --------------------------------------------------------- |
@@ -75,9 +81,13 @@ Quick reference for binary-to-decimal conversion:
 | 198.51.100.0/24 | Documentation (RFC 5737, TEST-NET-2)                      |
 | 203.0.113.0/24  | Documentation (RFC 5737, TEST-NET-3)                      |
 
+</div>
+
 ### Address Classes (Historical)
 
 Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into five classes:
+
+<div class="table-wrap">
 
 | Class | First Octet Range | Network Bits | Host Bits | Default Subnet Mask | Usable Hosts |
 | ----- | ----------------- | ------------ | --------- | ------------------- | ------------ |
@@ -86,6 +96,8 @@ Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into f
 | C     | 192-223           | 24           | 8         | 255.255.255.0 (/24) | 254          |
 | D     | 224-239           | N/A          | N/A       | N/A (multicast)     | N/A          |
 | E     | 240-255           | N/A          | N/A       | N/A (reserved)      | N/A          |
+
+</div>
 
 The class was determined by the first few bits of the first octet:
 
@@ -124,6 +136,8 @@ Address. The subnet mask is the binary representation of this boundary.
 A /24 prefix means the first 24 bits are network bits. In binary:
 `11111111.11111111.11111111.00000000` = `255.255.255.0`.
 
+<div class="table-wrap">
+
 | CIDR | Subnet Mask     | Binary                              |
 | ---- | --------------- | ----------------------------------- |
 | /8   | 255.0.0.0       | 11111111.00000000.00000000.00000000 |
@@ -135,6 +149,8 @@ A /24 prefix means the first 24 bits are network bits. In binary:
 | /28  | 255.255.255.240 | 11111111.11111111.11111111.11110000 |
 | /30  | 255.255.255.252 | 11111111.11111111.11111111.11111100 |
 | /32  | 255.255.255.255 | 11111111.11111111.11111111.11111111 |
+
+</div>
 
 ### Number of Hosts Formula
 
@@ -209,6 +225,8 @@ Memory allocation -- first-fit with largest-first ordering.
 
 The "magic number" method for /24 and larger subnets:
 
+<div class="table-wrap">
+
 | Prefix | Block Size | Usable Hosts | Subnets from /24 |
 | ------ | ---------- | ------------ | ---------------- |
 | /25    | 128        | 126          | 2                |
@@ -219,6 +237,8 @@ The "magic number" method for /24 and larger subnets:
 | /30    | 4          | 2            | 64               |
 | /31    | 2          | 2\*          | 128              |
 | /32    | 1          | 1            | 256              |
+
+</div>
 
 \*A /31 (RFC 3021) is used for point-to-point links where the network and broadcast addresses are
 not needed. Both addresses are usable as host addresses.
@@ -288,11 +308,15 @@ The summarized route covers all four /24 networks. Traffic destined for any addr
 RFC 1918 defines three ranges of private IPv4 addresses that are not routable on the public
 Internet:
 
+<div class="table-wrap">
+
 | Range                         | CIDR           | Block Size           | Class |
 | ----------------------------- | -------------- | -------------------- | ----- |
 | 10.0.0.0 - 10.255.255.255     | 10.0.0.0/8     | 16,777,216 addresses | A     |
 | 172.16.0.0 - 172.31.255.255   | 172.16.0.0/12  | 1,048,576 addresses  | B     |
 | 192.168.0.0 - 192.168.255.255 | 192.168.0.0/16 | 65,536 addresses     | C     |
+
+</div>
 
 These addresses are used for internal networks. Traffic from private addresses must pass through a
 NAT device (or a proxy) to reach the public Internet. Multiple organizations can use the same
@@ -457,6 +481,8 @@ apt install isc-dhcp-relay
 
 DHCP options carry configuration parameters beyond the IP address:
 
+<div class="table-wrap">
+
 | Option Code | Name                     | Example                           |
 | ----------- | ------------------------ | --------------------------------- |
 | 1           | Subnet Mask              | 255.255.255.0                     |
@@ -472,6 +498,8 @@ DHCP options carry configuration parameters beyond the IP address:
 | 81          | Client FQDN              | client01.example.com              |
 | 119         | Domain Search List       | example.com, corp.example.com     |
 | 252         | WPAD URL                 | <http://proxy.example.com/wpad.dat> |
+
+</div>
 
 ### DHCP Servers
 
@@ -570,6 +598,8 @@ ip neigh add 192.168.1.20 lladdr aa:bb:cc:dd:ee:ff dev eth0 nud permanent
 
 Cache states (Linux `ip neigh`):
 
+<div class="table-wrap">
+
 | State      | Meaning                                                     |
 | ---------- | ----------------------------------------------------------- |
 | REACHABLE  | Entry is valid and reachable                                |
@@ -579,6 +609,8 @@ Cache states (Linux `ip neigh`):
 | INCOMPLETE | ARP request sent, no reply received yet                     |
 | FAILED     | ARP resolution failed                                       |
 | PERMANENT  | Static entry, never expires                                 |
+
+</div>
 
 Cache timers vary by OS:
 
@@ -652,6 +684,8 @@ would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
 **Unicast:** Identifies a single interface. Packets sent to a unicast address are delivered to that
 Specific interface.
 
+<div class="table-wrap">
+
 | Prefix      | Scope            | Purpose                                                   |
 | ----------- | ---------------- | --------------------------------------------------------- |
 | `::1/128`   | Link-local       | Loopback                                                  |
@@ -659,8 +693,12 @@ Specific interface.
 | `fc00::/7`  | Site-local (ULA) | Unique Local Addresses (RFC 4193), equivalent to RFC 1918 |
 | `2000::/3`  | Global           | Globally routable addresses                               |
 
+</div>
+
 **Multicast:** Identifies a group of interfaces. Packets sent to a multicast address are delivered
 To all members of the group. IPv6 has no broadcast -- multicast replaces it.
+
+<div class="table-wrap">
 
 | Prefix     | Purpose                       |
 | ---------- | ----------------------------- |
@@ -668,6 +706,8 @@ To all members of the group. IPv6 has no broadcast -- multicast replaces it.
 | `ff02::1`  | All nodes on the local link   |
 | `ff02::2`  | All routers on the local link |
 | `ff05::1`  | All nodes in the site         |
+
+</div>
 
 **Anycast:** Assigned to multiple interfaces. Packets are routed to the "nearest" interface (by
 Routing protocol metric). Used for DNS anycast (e.g., `8.8.8.8` and `8.8.4.4` are anycast addresses

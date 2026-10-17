@@ -36,12 +36,16 @@ the **least significant digit** (LSD) is $d_0$.
 
 The bases relevant to A Level Computer Science are:
 
+<div class="table-wrap">
+
 | Base | Name   | Digits Used           |
 | ---- | ------ | --------------------- |
 | 10   | Denary | 0, 1, 2, ..., 9       |
 | 2    | Binary | 0, 1                  |
 | 8    | Octal  | 0, 1, 2, ..., 7       |
 | 16   | Hex    | 0–9, A, B, C, D, E, F |
+
+</div>
 
 We use subscript notation to denote the base: $1011_2 = 11_{10}$.
 
@@ -97,6 +101,8 @@ This maintains the invariant. When $N_k = 0$ The representation is complete.
 <details>
 <summary>Example: Convert $156_{10}$ to binary</summary>
 
+<div class="table-wrap">
+
 | Step | $N$ | $N \bmod 2$ | $\lfloor N/2 \rfloor$ |
 | ---- | --- | ----------- | --------------------- |
 | 1    | 156 | 0           | 78                    |
@@ -107,6 +113,8 @@ This maintains the invariant. When $N_k = 0$ The representation is complete.
 | 6    | 4   | 0           | 2                     |
 | 7    | 2   | 0           | 1                     |
 | 8    | 1   | 1           | 0                     |
+
+</div>
 
 Reading bottom to top: $156_{10} = 10011100_2$
 
@@ -154,6 +162,8 @@ Multiplying/dividing by 8).
 
 We add bitwise from right to left, with carries:
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
 | 0   | 0   | 0        | 0   | 0         |
@@ -164,6 +174,8 @@ We add bitwise from right to left, with carries:
 | 1   | 0   | 1        | 0   | 1         |
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
+
+</div>
 
 **Proposition (Carry propagation).** The carry into bit position $i$ depends only on bits $0$
 Through $i-1$.
@@ -255,12 +267,16 @@ if no overflow occurs.
 
 **Overflow detection rules:**
 
+<div class="table-wrap">
+
 | Condition                           | Overflow? |
 | ----------------------------------- | --------- |
 | Positive + Positive = Negative      | Yes       |
 | Negative + Negative = Positive      | Yes       |
 | Positive + Negative                 | Never     |
 | Same signs produce same sign result | No        |
+
+</div>
 
 **Formally:** overflow occurs if and only if the carry into the MSB differs from the carry out of
 The MSB.
@@ -359,6 +375,8 @@ Range: $[0,\ 31.875]$ Precision: $0.125$
 In **Binary Coded Decimal (BCD)**, each decimal digit (0–9) is represented by its 4-bit binary
 Equivalent.
 
+<div class="table-wrap">
+
 | Decimal | BCD  |
 | ------- | ---- |
 | 0       | 0000 |
@@ -366,6 +384,8 @@ Equivalent.
 | 2       | 0010 |
 | ...     | ...  |
 | 9       | 1001 |
+
+</div>
 
 The codes $1010$ through $1111$ are **invalid** in BCD.
 
@@ -418,12 +438,16 @@ With ASCII.
 
 **Encoding rules:**
 
+<div class="table-wrap">
+
 | Code Point Range       | Binary Pattern                        | Bytes |
 | ---------------------- | ------------------------------------- | ----- |
 | `U+0000` – `U+007F`    | `0xxxxxxx`                            | 1     |
 | `U+0080` – `U+07FF`    | `110xxxxx 10xxxxxx`                   | 2     |
 | `U+0800` – `U+FFFF`    | `1110xxxx 10xxxxxx 10xxxxxx`          | 3     |
 | `U+10000` – `U+10FFFF` | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` | 4     |
+
+</div>
 
 **Properties of UTF-8:**
 

@@ -42,14 +42,20 @@ $$
 \mathrm{HA} + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{H}_3\mathrm{O}^+ + \mathrm{A}^-
 $$
 
+<div class="table-wrap">
+
 | Left side     | Right side                  |
 | ------------- | --------------------------- |
 | HA (acid)     | A$^-$ (conjugate base)      |
 | H$_2$O (base) | H$_3$O$^+$ (conjugate acid) |
 
+</div>
+
 **Key relationship:** The stronger the acid, the weaker its conjugate base, and vice versa.
 
 ### Strong vs Weak Acids and Bases
+
+<div class="table-wrap">
 
 | Property                  | Strong Acid/Base                | Weak Acid/Base                   |
 | ------------------------- | ------------------------------- | -------------------------------- |
@@ -60,6 +66,8 @@ $$
 | Reaction rate with metals | Faster                          | Slower                           |
 | Examples (acids)          | HCl, HNO$_3$H$_2$SO$_4$HClO$_4$ | CH$_3$COOH, HF, HCN, H$_2$CO$_3$ |
 | Examples (bases)          | NaOH, KOH, Ba(OH)$_2$           | NH$_3$CH$_3$COO$^-$CO$_3^{2-}$   |
+
+</div>
 
 :::caution
 Exam Tip H$_2$SO$_4$ is a diprotic acid. The first dissociation is complete (strong),
@@ -105,6 +113,8 @@ $$
 
 ### pH Scale
 
+<div class="table-wrap">
+
 | pH  | Nature          | [H$^+$] (mol/L)       |
 | --- | --------------- | --------------------- |
 | 0   | Strongly acidic | $1.0 \times 10^0$     |
@@ -113,6 +123,8 @@ $$
 | 7   | Neutral         | $1.0 \times 10^{-7}$  |
 | 11  |                 | $1.0 \times 10^{-11}$ |
 | 14  | Strongly basic  | $1.0 \times 10^{-14}$ |
+
+</div>
 
 <details>
 <summary>Worked Example 1: pH of a Strong Acid</summary>
@@ -240,6 +252,8 @@ Where $\mathrm{p}K_a = -\log K_a$.
 
 ### Common Ka Values at $25\degree\mathrm{C}$
 
+<div class="table-wrap">
+
 | Acid           | Ka                    | pKa  |
 | -------------- | --------------------- | ---- |
 | CH$_3$COOH     | $1.8 \times 10^{-5}$  | 4.74 |
@@ -248,6 +262,8 @@ Where $\mathrm{p}K_a = -\log K_a$.
 | HF             | $6.8 \times 10^{-4}$  | 3.17 |
 | HNO$_2$        | $4.5 \times 10^{-4}$  | 3.35 |
 | NH$_4^+$       | $5.6 \times 10^{-10}$ | 9.25 |
+
+</div>
 
 <details>
 <summary>Worked Example 4: pH of a Weak Acid</summary>
@@ -260,11 +276,15 @@ $$
 
 ICE table (initial, change, equilibrium):
 
+<div class="table-wrap">
+
 | Species       | [Initial] | Change | [Equilibrium] |
 | ------------- | --------- | ------ | ------------- |
 | CH$_3$COOH    | 0.100     | $-x$   | $0.100 - x$   |
 | H$^+$         | 0         | $+x$   | $x$           |
 | CH$_3$COO$^-$ | 0         | $+x$   | $x$           |
+
+</div>
 
 $$
 K_a = \frac{x^2}{0.100 - x} = 1.8 \times 10^{-5}
@@ -298,11 +318,15 @@ $$
 \mathrm{NH}_3 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{NH}_4^+ + \mathrm{OH}^-
 $$
 
+<div class="table-wrap">
+
 | Species  | [Initial] | Change | [Equilibrium] |
 | -------- | --------- | ------ | ------------- |
 | NH$_3$   | 0.150     | $-x$   | $0.150 - x$   |
 | NH$_4^+$ | 0         | $+x$   | $x$           |
 | OH$^-$   | 0         | $+x$   | $x$           |
+
+</div>
 
 $$
 K_b = \frac{x^2}{0.150 - x} = 1.8 \times 10^{-5}
@@ -355,12 +379,16 @@ At $25\degree\mathrm{C}$: $K_w = 1.0 \times 10^{-14}$ (mol$^2$/L$^2$).
 
 $K_w$ is **temperature dependent**:
 
+<div class="table-wrap">
+
 | Temperature ($\degree$ C) | $K_w$                  |
 | ------------------------ | ---------------------- |
 | 0                        | $1.14 \times 10^{-15}$ |
 | 25                       | $1.00 \times 10^{-14}$ |
 | 50                       | $5.48 \times 10^{-14}$ |
 | 100                      | $5.13 \times 10^{-13}$ |
+
+</div>
 
 :::caution
 Exam Tip At $50\degree\mathrm{C}$ Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
@@ -426,12 +454,16 @@ Removing a proton from an increasingly negative ion requires more energy.
 
 ### Common Acid-Base Indicators
 
+<div class="table-wrap">
+
 | Indicator           | Colour (Acid) | Transition pH Range | Colour (Base)  |
 | ------------------- | ------------- | ------------------- | -------------- |
 | Methyl orange       | Red           | 3.1 -- 4.4          | Yellow         |
 | Bromothymol blue    | Yellow        | 6.0 -- 7.6          | Blue           |
 | Phenolphthalein     | Colourless    | 8.3 -- 10.0         | Pink/Magenta   |
 | Universal indicator | Red (pH 1)    | Full range 1--14    | Violet (pH 14) |
+
+</div>
 
 ### How Indicators Work
 
@@ -450,11 +482,15 @@ The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$ Which 
 An indicator is suitable when its transition range overlaps with the **equivalence point** of the
 Titration (where pH changes most steeply).
 
+<div class="table-wrap">
+
 | Titration Type             | Equivalence Point pH | Suitable Indicator                               |
 | -------------------------- | -------------------- | ------------------------------------------------ |
 | Strong acid -- strong base | pH = 7               | Bromothymol blue, phenolphthalein, methyl orange |
 | Weak acid -- strong base   | pH \gt 7             | Phenolphthalein                                  |
 | Strong acid -- weak base   | pH \lt 7             | Methyl orange                                    |
+
+</div>
 
 ---
 
@@ -1144,11 +1180,15 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Acids and Bases] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/acids-bases)                       |
 | [Acids and Bases] | IB      | [View](https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases/)                |
 | [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
 

@@ -150,6 +150,8 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 
 ### 1.2 Common Complexity Classes
 
+<div class="table-wrap">
+
 | Class         | Name        | Example                          |
 | ------------- | ----------- | -------------------------------- |
 | $O(1)$        | Constant    | Array access by index            |
@@ -160,6 +162,8 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n^3)$      | Cubic       | Naive matrix multiplication      |
 | $O(2^n)$      | Exponential | Naive Fibonacci, subset problems |
 | $O(n!)$       | Factorial   | Generating all permutations      |
+
+</div>
 
 **Proposition 1.6.** These classes form a strict hierarchy:
 $$

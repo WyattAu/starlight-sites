@@ -1110,6 +1110,8 @@ URL: https://rust.wyattau.com/01-fundamentals/types-and-variables/
 Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus
 Platform-dependent `isize` and `usize`:
 
+<div class="table-wrap">
+
 | Type              | Size (bytes) | Range (signed)                                                                                              | Range (unsigned)                                         |
 | ----------------- | ------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | `i8` / `u8`       | 1            | -128 to 127                                                                                                 | 0 to 255                                                 |
@@ -1118,6 +1120,8 @@ Platform-dependent `isize` and `usize`:
 | `i64` / `u64`     | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807                                                     | 0 to 18,446,744,073,709,551,615                          |
 | `i128` / `u128`   | 16           | -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727 | 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455 |
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
+
+</div>
 
 The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
 as fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
@@ -1175,10 +1179,14 @@ ARM without unaligned access support, it traps.
 
 Rust has two floating-point types conforming to IEEE 754-2008:
 
+<div class="table-wrap">
+
 | Type  | Size    | Precision             | Range (approximate) |
 | ----- | ------- | --------------------- | ------------------- |
 | `f32` | 4 bytes | ~6-7 decimal digits   | plus/minus 3.4e38   |
 | `f64` | 8 bytes | ~15-16 decimal digits | plus/minus 1.8e308  |
+
+</div>
 
 The default is `f64`. On modern x86-64 hardware, `f64` operations are as fast as `f32`there is no
 Performance penalty for using the larger type. Use `f32` only when you need to reduce memory
@@ -1436,10 +1444,14 @@ Removes elements that do not satisfy the predicate in-place.
 This is one of the most common sources of confusion for new Rust programmers. Rust has two string
 Types:
 
+<div class="table-wrap">
+
 | Type     | Ownership | Location                       | Size                                 | Growable |
 | -------- | --------- | ------------------------------ | ------------------------------------ | -------- |
 | `String` | Owned     | Heap                           | 24 bytes (ptr + len + cap on 64-bit) | Yes      |
 | `&str`   | Borrowed  | Anywhere (stack, heap, static) | 16 bytes (ptr + len)                 | No       |
+
+</div>
 
 `String` is a `Vec<u8>` guaranteed to hold valid UTF-8. `&str` is a slice of UTF-8 bytes. Every
 `String` can be dereferenced to `&str`. But not vice versa.
@@ -2081,6 +2093,8 @@ assert_eq!(counter.get(), 43);
 
 ### `Cell` API
 
+<div class="table-wrap">
+
 | Method           | Description                                        |
 | ---------------- | -------------------------------------------------- |
 | `new(value)`     | Creates a new `Cell` containing `value`            |
@@ -2089,6 +2103,8 @@ assert_eq!(counter.get(), 43);
 | `replace(value)` | Replaces and returns the old value (any `T`)       |
 | `take()`         | Replaces with `Default::default()` and returns old |
 | `into_inner()`   | Consumes the `Cell` and returns the inner value    |
+
+</div>
 
 ### `Cell` with Non-Copy Types
 
@@ -2201,6 +2217,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 
 ### `RefCell` API
 
+<div class="table-wrap">
+
 | Method             | Returns          | Description                                    |
 | ------------------ | ---------------- | ---------------------------------------------- |
 | `new(value)`       | `RefCell<T>`     | Creates a new `RefCell`                        |
@@ -2209,6 +2227,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 | `try_borrow()`     | `Result<Ref>`    | Non-panicking immutable borrow                 |
 | `try_borrow_mut()` | `Result<RefMut>` | Non-panicking mutable borrow                   |
 | `into_inner()`     | `T`              | Consumes the `RefCell` and returns inner value |
+
+</div>
 
 ### `Ref` and `RefMut` Guards
 
@@ -2329,6 +2349,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 
 ### `Mutex` vs `RefCell`
 
+<div class="table-wrap">
+
 | Property      | `RefCell<T>`         | `Mutex<T>`                |
 | ------------- | -------------------- | ------------------------- |
 | Thread safety | Single-threaded only | Multi-threaded            |
@@ -2336,6 +2358,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 | Overhead      | Minimal (counters)   | System call on contention |
 | Poisoning     | No                   | Yes (panic while locked)  |
 | `Send + Sync` | Neither              | Both (when `T: Send`)     |
+
+</div>
 
 ### `RwLock<T>`
 
@@ -2430,11 +2454,15 @@ Access the value concurrently.
 
 ## `OnceCell` vs `OnceLock` vs `LazyLock`
 
+<div class="table-wrap">
+
 | Type          | Thread-safe | Lazy init | Set once |
 | ------------- | ----------- | --------- | -------- |
 | `OnceCell<T>` | No          | No        | Yes      |
 | `OnceLock<T>` | Yes         | No        | Yes      |
 | `LazyLock<T>` | Yes         | Yes       | Yes      |
+
+</div>
 
 Use `OnceCell` in single-threaded contexts, `OnceLock` for thread-safe one-time initialization with
 Manual set, and `LazyLock` for thread-safe lazy initialization with a closure.
@@ -2939,10 +2967,14 @@ And capacity (24 bytes for `String` on 64-bit) are copied. The original binding 
 
 Types are divided into two categories based on whether assignment copies or moves:
 
+<div class="table-wrap">
+
 | Category     | Examples                                                           | Behavior                       |
 | ------------ | ------------------------------------------------------------------ | ------------------------------ |
 | `Copy` types | `i32``f64``bool``char``(i32, i32)``&T`                             | Assignment copies the value    |
 | Move types   | `String``Vec<T>``Box<T>``File`User-defined structs (unless `Copy`) | Assignment transfers ownership |
+
+</div>
 
 A type implements `Copy` if and only if every bit pattern of its memory representation is a valid
 Value. This is why types containing heap pointers (like `String`) cannot be `Copy`a bitwise copy
@@ -4252,6 +4284,8 @@ impl Shape {
 
 ### Enum Dispatch vs Trait Objects
 
+<div class="table-wrap">
+
 | Property           | Enum Dispatch               | Trait Objects (`dyn Trait`)  |
 | ------------------ | --------------------------- | ---------------------------- |
 | Dispatch mechanism | Static (branch table)       | Dynamic (vtable indirection) |
@@ -4259,6 +4293,8 @@ impl Shape {
 | Extensibility      | Closed (all variants known) | Open (any implementor)       |
 | Performance        | Predictable, inlinable      | Indirect call, not inlinable |
 | Type information   | Full at compile time        | Erased at runtime            |
+
+</div>
 
 ### When to Use Each
 
@@ -5020,6 +5056,8 @@ struct User {
 }
 ```
 
+<div class="table-wrap">
+
 | Trait        | What it generates                                              |
 | ------------ | -------------------------------------------------------------- |
 | `Debug`      | `fmt::Debug` for `{:?}` formatting                             |
@@ -5031,6 +5069,8 @@ struct User {
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
+
+</div>
 :::
 ## See also
 
@@ -5551,12 +5591,16 @@ fn read_config(path: &str) -> Result<Config> {
 
 ### `anyhow` vs `thiserror`
 
+<div class="table-wrap">
+
 | Use `anyhow` for                  | Use `thiserror` for                              |
 | --------------------------------- | ------------------------------------------------ |
 | Application binaries              | Library crates                                   |
 | Quick prototyping                 | Public APIs with typed errors                    |
 | Functions with many error sources | Error types that callers need to match on        |
 | Scripts and CLIs                  | When the caller needs to distinguish error kinds |
+
+</div>
 
 A common pattern: use `thiserror` in your library crate to define precise error types, and use
 `anyhow` in the application crate that consumes the library.
@@ -7284,6 +7328,8 @@ fn process_dyn(item: &dyn Display) {
 }
 ```
 
+<div class="table-wrap">
+
 | Property       | Static Dispatch        | Dynamic Dispatch       |
 | -------------- | ---------------------- | ---------------------- |
 | Overhead       | None (after inlining)  | Vtable lookup per call |
@@ -7291,6 +7337,8 @@ fn process_dyn(item: &dyn Display) {
 | Inlining       | Yes                    | No (indirect call)     |
 | Flexibility    | Compile-time only      | Runtime polymorphism   |
 | Cache behavior | Better (direct call)   | Worse (indirect call)  |
+
+</div>
 
 ## Trait Objects
 
@@ -8114,6 +8162,8 @@ impl SelfReferential {
 
 ### `Pin<P>` API
 
+<div class="table-wrap">
+
 | Method         | Description                                            |
 | -------------- | ------------------------------------------------------ |
 | `new(pointer)` | Creates a `Pin` from a pointer (requires `Unpin`)      |
@@ -8122,6 +8172,8 @@ impl SelfReferential {
 | `get_ref()`    | Returns `&T`                                           |
 | `get_mut()`    | Returns `&mut T` (requires `Unpin`)                    |
 | `into_inner()` | Unwraps and returns the inner value (requires `Unpin`) |
+
+</div>
 
 ### `Unpin`
 
@@ -8231,12 +8283,16 @@ Control at `.await` points.
 
 Tokio's reactor maps to the OS's native async I/O mechanism:
 
+<div class="table-wrap">
+
 | Platform | Mechanism | Description                             |
 | -------- | --------- | --------------------------------------- |
 | Linux    | `epoll`   | Event notification for file descriptors |
 | macOS    | `kqueue`  | Event notification for file descriptors |
 | Windows  | IOCP      | I/O Completion Ports                    |
 | FreeBSD  | `kqueue`  | Event notification for file descriptors |
+
+</div>
 
 The reactor registers file descriptors with the OS and receives notifications when they become
 Readable, writable, or error. When a notification arrives, the reactor wakes the corresponding
@@ -8901,6 +8957,8 @@ Receiver, transferring ownership.
 
 ### Channel Categories
 
+<div class="table-wrap">
+
 | Type                | Producers | Consumers | Buffering         | Use Case                 |
 | ------------------- | --------- | --------- | ----------------- | ------------------------ |
 | `std::sync::mpsc`   | Multiple  | Single    | Bounded/Unbounded | Simple work distribution |
@@ -8908,6 +8966,8 @@ Receiver, transferring ownership.
 | `oneshot`           | Single    | Single    | None              | Single response          |
 | `broadcast`         | Single    | Multiple  | Bounded           | Pub/sub notifications    |
 | `watch`             | Single    | Multiple  | Single value      | Configuration updates    |
+
+</div>
 
 ## `std::sync::mpsc`
 
@@ -8970,12 +9030,16 @@ let (tx, rx) = mpsc::sync_channel(10);   // bounded, capacity 10
 
 ### Send and Recv Semantics
 
+<div class="table-wrap">
+
 | Method                 | Blocking?                        | Returns                       |
 | ---------------------- | -------------------------------- | ----------------------------- |
 | `tx.send(val)`         | Yes (if bounded and full)        | `Result<(), SendError<T>>`    |
 | `rx.recv()`            | Yes (if empty and senders exist) | `Result<T, RecvError>`        |
 | `rx.try_recv()`        | No                               | `Result<T, TryRecvError>`     |
 | `rx.recv_timeout(dur)` | Yes (with timeout)               | `Result<T, RecvTimeoutError>` |
+
+</div>
 
 ## `tokio::sync::mpsc`
 
@@ -9179,12 +9243,16 @@ async fn main() {
 
 ### Watch vs Broadcast
 
+<div class="table-wrap">
+
 | Property     | `watch`                | `broadcast`             |
 | ------------ | ---------------------- | ----------------------- |
 | Messages     | Single latest value    | All messages in a queue |
 | Buffer       | 1 (always)             | Configurable            |
 | Lag handling | No lag, always latest | `RecvError::Lagged`     |
 | Use case     | Configuration updates  | Event streams, logs     |
+
+</div>
 
 ## Channel Patterns
 
@@ -9442,6 +9510,8 @@ match rx.try_recv() {
 
 ### Buffer Size Selection
 
+<div class="table-wrap">
+
 | Buffer Size | Behavior                                          |
 | ----------- | ------------------------------------------------- |
 | 0           | Synchronous handoff, sender waits for receiver   |
@@ -9449,6 +9519,8 @@ match rx.try_recv() {
 | 10-100      | General purpose, balances throughput and latency |
 | 1000+       | High throughput, producers rarely block          |
 | Unbounded   | No backpressure, risk of memory exhaustion       |
+
+</div>
 
 ### Throughput Considerations
 
@@ -10070,12 +10142,16 @@ tx.send(1).unwrap();  // OK, buffer not full
 
 ### `send` and `recv` Semantics
 
+<div class="table-wrap">
+
 | Method                 | Behavior                                                         |
 | ---------------------- | ---------------------------------------------------------------- |
 | `tx.send(val)`         | Blocks if bounded channel is full. Moves `val` into the channel. |
 | `rx.recv()`            | Blocks until a message is available or all senders are dropped.  |
 | `rx.try_recv()`        | Non-blocking. Returns `Ok(val)` or `Err(TryRecvError)`.          |
 | `rx.recv_timeout(dur)` | Blocks with timeout. Returns `Err(RecvTimeoutError)` on timeout. |
+
+</div>
 
 ## Shared State
 
@@ -10153,11 +10229,15 @@ let lock = RwLock::new(5);
 
 #### When to Use `RwLock` vs `Mutex`
 
+<div class="table-wrap">
+
 | Condition                       | Use                                               |
 | ------------------------------- | ------------------------------------------------- |
 | Mostly writes, low contention   | `Mutex`simpler, lower overhead                 |
 | Mostly reads, occasional writes | `RwLock`allows concurrent reads                |
 | Very high contention            | Reconsider your design, locks are the bottleneck |
+
+</div>
 
 ### `Arc<T>`Atomic Reference Counting
 
@@ -10220,6 +10300,8 @@ loop {
 
 ### Memory Orderings
 
+<div class="table-wrap">
+
 | Ordering  | Guarantee                                                              |
 | --------- | ---------------------------------------------------------------------- |
 | `Relaxed` | No ordering, only atomicity guaranteed                                |
@@ -10227,6 +10309,8 @@ loop {
 | `Acquire` | All subsequent reads see writes from the last release on this location |
 | `AcqRel`  | Both acquire and release semantics                                     |
 | `SeqCst`  | Sequentially consistent, total ordering across all threads            |
+
+</div>
 
 ```rust
 use std::sync::atomic::{AtomicBool, Ordering};
@@ -10256,12 +10340,16 @@ Option.
 
 ### Available Atomic Types
 
+<div class="table-wrap">
+
 | Type                                | Operations                                                                          |
 | ----------------------------------- | ----------------------------------------------------------------------------------- |
 | `AtomicBool`                        | `load``store``swap``compare_exchange``fetch_and``fetch_or``fetch_xor`               |
 | `AtomicU8`–`AtomicU64``AtomicUsize` | All integer atomics: `fetch_add``fetch_sub``fetch_max``fetch_min``compare_exchange` |
 | `AtomicI8`–`AtomicI64``AtomicIsize` | Same as unsigned, with signed comparison                                            |
 | `AtomicPtr<T>`                      | Pointer-sized atomic operations                                                     |
+
+</div>
 
 ## Deadlock Prevention
 
@@ -10722,6 +10810,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 - A type is `Send` if all its members are `Send`.
 - A type is `Sync` if all its members are `Sync` (equivalently, if `&T` is `Send`).
 
+<div class="table-wrap">
+
 | Type                                    | `Send` | `Sync`                |
 | --------------------------------------- | ------ | --------------------- |
 | `i32``f64``bool`                        | Yes    | Yes                   |
@@ -10732,6 +10822,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 | `&T` where `T: Sync`                    | Yes    | Yes                   |
 | `&mut T` where `T: Send`                | Yes    | No                    |
 | `Mutex<T>` where `T: Send`              | Yes    | Yes                   |
+
+</div>
 
 ### Manual Implementation
 
@@ -10909,6 +11001,8 @@ debug = true
 
 ### Package Metadata Fields
 
+<div class="table-wrap">
+
 | Field          | Purpose                                              |
 | -------------- | ---------------------------------------------------- |
 | `name`         | Crate name (must match `^[a-zA-Z0-9_-]+$`)           |
@@ -10919,6 +11013,8 @@ debug = true
 | `repository`   | Source code URL                                      |
 | `readme`       | Path to README file                                  |
 | `categories`   | crates.io categories (max 5)                         |
+
+</div>
 
 ## Workspace Management
 
@@ -11744,6 +11840,8 @@ async fn main() {
 
 Before adding a dependency, evaluate it:
 
+<div class="table-wrap">
+
 | Criterion                 | How to Check                                                |
 | ------------------------- | ----------------------------------------------------------- |
 | **Downloads**             | crates.io page, monthly downloads                          |
@@ -11755,6 +11853,8 @@ Before adding a dependency, evaluate it:
 | **License compatibility** | crates.io, license field                                   |
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit`known CVEs                                  |
+
+</div>
 :::
 
 :::caution
@@ -14085,6 +14185,8 @@ Borrow checker operates. MIR is also used for:
 
 Rust uses a unified toolchain managed by `rustup`:
 
+<div class="table-wrap">
+
 | Component       | Purpose                                                    |
 | --------------- | ---------------------------------------------------------- |
 | `rustup`        | Toolchain installer and version manager                    |
@@ -14093,6 +14195,8 @@ Rust uses a unified toolchain managed by `rustup`:
 | `rustfmt`       | Code formatter                                             |
 | `clippy`        | Lint checker (catches common mistakes beyond the compiler) |
 | `rust-analyzer` | LSP implementation for IDE support                         |
+
+</div>
 
 Install the toolchain:
 
@@ -14143,6 +14247,8 @@ Key changes in Rust 2024:
 
 ## Where Rust Runs
 
+<div class="table-wrap">
+
 | Target                                        | Use Case                             |
 | --------------------------------------------- | ------------------------------------ |
 | **Embedded** (`thumbv7m-none-eabi``cortex-m`) | Microcontrollers, real-time systems  |
@@ -14150,6 +14256,8 @@ Key changes in Rust 2024:
 | **WebAssembly** (`wasm32-unknown-unknown`)    | Browser, edge computing              |
 | **Bare metal** (`x86_64-unknown-none`)        | OS kernels, bootloaders, hypervisors |
 | **Android/iOS**                               | Mobile via FFI or native modules     |
+
+</div>
 
 ## Common Pitfalls
 
@@ -14216,6 +14324,8 @@ Rust macros solve problems that the type system and generics cannot:
 
 ### Macros vs Functions vs Traits vs Generics
 
+<div class="table-wrap">
+
 | Mechanism         | Operates on           | Evaluated at | When to use                                     |
 | ----------------- | --------------------- | ------------ | ----------------------------------------------- |
 | Function          | Values                | Runtime      | Logic on concrete values                        |
@@ -14223,6 +14333,8 @@ Rust macros solve problems that the type system and generics cannot:
 | Trait             | Behavior contracts    | Compile time | Shared behavior across types                    |
 | Declarative macro | Token trees           | Compile time | Pattern-matching on syntax, variable-arity      |
 | Proc macro        | AST / TokenStream     | Compile time | Code generation requiring full type information |
+
+</div>
 
 ### Two Kinds of Macros
 
@@ -14273,6 +14385,8 @@ my_func();
 
 ### Fragment Specifiers
 
+<div class="table-wrap">
+
 | Specifier  | Matches                                         | Example input               |
 | ---------- | ----------------------------------------------- | --------------------------- |
 | `ident`    | Identifier                                      | `foo``MyType``_tmp`         |
@@ -14288,6 +14402,8 @@ my_func();
 | `vis`      | Visibility modifier                             | `pub``pub(crate)`(none)     |
 | `lifetime` | Lifetime                                        | `"a``'static`               |
 | `tt`       | Token tree (single token or matched delimiters) | `=>``(a, b)``[]`            |
+
+</div>
 
 The `tt` specifier is the most flexible -- it matches any single token or any pair of matched
 Delimiters (parentheses, brackets, or braces). It is the "wildcard" of fragment specifiers.
@@ -14626,11 +14742,15 @@ Means they can use arbitrary Rust code for parsing and generation.
 
 ### Three Types of Procedural Macros
 
+<div class="table-wrap">
+
 | Type           | Syntax               | Applied to                  |
 | -------------- | -------------------- | --------------------------- |
 | Derive         | `#[derive(MyTrait)]` | Struct, enum, union         |
 | Attribute-like | `#[my_attr(args)]`   | Any item (fn, struct, etc.) |
 | Function-like  | `my_macro!(tokens)`  | Arbitrary token sequences   |
+
+</div>
 
 ### Project Structure
 
@@ -15295,6 +15415,8 @@ Emits a compile error on parse failure.
 
 ### Key `syn` Types
 
+<div class="table-wrap">
+
 | Type           | Represents                                   |
 | -------------- | -------------------------------------------- |
 | `DeriveInput`  | A struct, enum, or union (for derive macros) |
@@ -15320,6 +15442,8 @@ Emits a compile error on parse failure.
 | `GenericParam` | A generic type or lifetime parameter         |
 | `WhereClause`  | A where clause                               |
 | `Path`         | A path like `std::collections::HashMap`      |
+
+</div>
 
 ### Iterating Over Struct Fields
 
@@ -15759,6 +15883,8 @@ Names that include parts of the input.
 
 ### Standard Library Macros
 
+<div class="table-wrap">
+
 | Macro            | Purpose                                                       |
 | ---------------- | ------------------------------------------------------------- |
 | `println!`       | Print to stdout with formatting                               |
@@ -15789,7 +15915,11 @@ Names that include parts of the input.
 | `thread_local!`  | Declare a thread-local static                                 |
 | `matches!`       | Match an expression against a pattern                         |
 
+</div>
+
 ### Useful Proc-Macro Crates
+
+<div class="table-wrap">
 
 | Crate                   | Purpose                                                    |
 | ----------------------- | ---------------------------------------------------------- |
@@ -15807,6 +15937,8 @@ Names that include parts of the input.
 | `cargo-expand`          | Tool to view macro expansions                              |
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
+
+</div>
 
 ```mermaid
 flowchart TD

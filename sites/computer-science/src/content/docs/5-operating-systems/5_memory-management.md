@@ -33,12 +33,16 @@ Memory management answers: **how do you give every process its own address space
 
 **Allocation strategies:**
 
+<div class="table-wrap">
+
 | Strategy  | Description                                 |
 | --------- | ------------------------------------------- |
 | First-fit | Allocate the first hole large enough        |
 | Best-fit  | Allocate the smallest hole large enough     |
 | Worst-fit | Allocate the largest hole                   |
 | Next-fit  | Continue searching from the last allocation |
+
+</div>
 
 **Theorem 5.1.** First-fit and best-fit have roughly equivalent utilisation; first-fit is faster.
 
@@ -55,6 +59,8 @@ Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame siz
 
 **Page table entry fields:**
 
+<div class="table-wrap">
+
 | Field         | Purpose                             |
 | ------------- | ----------------------------------- |
 | Frame number  | Physical frame containing this page |
@@ -62,6 +68,8 @@ Where $\mathrm{PT}[p]$ is the frame number for page $p$ and $F$ is the frame siz
 | Dirty bit     | Page has been modified              |
 | Reference bit | Page accessed recently              |
 | Protection    | Read/write/execute permissions      |
+
+</div>
 
 **Multi-level page tables.** A single page table for a 64-bit address space is infeasible. A
 Two-level scheme uses a **page directory** indexed by the outer page number, pointing to inner Page
@@ -93,11 +101,15 @@ External fragmentation (variable-size segments).
 
 A process has three segments with the following segment table:
 
+<div class="table-wrap">
+
 | Segment | Base  | Limit |
 | ------- | ----- | ----- |
 | Code    | 4096  | 2048  |
 | Data    | 12288 | 4096  |
 | Stack   | 20480 | 2048  |
+
+</div>
 
 Translate logical address (segment = 1, offset = 1500):
 
@@ -249,6 +261,8 @@ not accessed are demoted to the inactive list; eviction targets the inactive lis
 
 Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Three frames.
 
+<div class="table-wrap">
+
 | Ref | Frame 1 | Frame 2 | Frame 3 | Fault? | Victim                       |
 | --- | ------- | ------- | ------- | ------ | ---------------------------- |
 | 7   | 7       |         |         | Yes    |,                            |
@@ -272,6 +286,8 @@ Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Th
 | 0   | 7       | 1       | 0       | No     |,                            |
 | 1   | 7       | 1       | 0       | No     |,                            |
 
+</div>
+
 Total page faults: **9**. This is the theoretical minimum.
 
 </details>
@@ -280,6 +296,8 @@ Total page faults: **9**. This is the theoretical minimum.
 <summary>Worked Example 5.4, LRU Page Replacement</summary>
 
 Same reference string, three frames. LRU replaces the page whose last use was furthest in the past.
+
+<div class="table-wrap">
 
 | Ref | F1  | F2  | F3  | Fault? | Victim (least recent) |
 | --- | --- | --- | --- | ------ | --------------------- |
@@ -304,6 +322,8 @@ Same reference string, three frames. LRU replaces the page whose last use was fu
 | 0   | 1   | 0   | 7   | No     |,                     |
 | 1   | 1   | 0   | 7   | No     |,                     |
 
+</div>
+
 Total page faults: **12**. LRU produces 33% more faults than optimal, but does not require future
 Knowledge.
 
@@ -313,6 +333,8 @@ Knowledge.
 <summary>Worked Example 5.5, Clock (Second Chance) Replacement</summary>
 
 Same reference string, three frames. Clock hand starts at frame 0. R = reference bit.
+
+<div class="table-wrap">
 
 | Ref | State (R bits)    | Fault? | Action                                                                                             |
 | --- | ----------------- | ------ | -------------------------------------------------------------------------------------------------- |
@@ -336,6 +358,8 @@ Same reference string, three frames. Clock hand starts at frame 0. R = reference
 | 7   | [7,R] [1,R] [1,R] | Yes    | F0: R=0, replace with 7                                                                            |
 | 0   | [7,R] [0,R] [1,R] | Yes    | F0: R=1, clear, advance; F1: R=0, replace with 0                                                   |
 | 1   | [7,R] [0,R] [1,R] | No     | Set R on F2                                                                                        |
+
+</div>
 
 Total page faults: **15**. Clock performs worse than LRU here but requires only $O(1)$ per operation
 and no global ordering of references.
@@ -365,6 +389,8 @@ references. If $\sum W_i \gt$ available frames, thrashing occurs.
 A system has 64 frames of physical memory. Four processes with the following working set sizes
 ($\Delta = 5$ references):
 
+<div class="table-wrap">
+
 | Process   | Working Set Size |
 | --------- | ---------------- |
 | $P_1$     | 15               |
@@ -372,6 +398,8 @@ A system has 64 frames of physical memory. Four processes with the following wor
 | $P_3$     | 18               |
 | $P_4$     | 25               |
 | **Total** | **78**           |
+
+</div>
 
 Total working set = 78 frames, but only 64 available. Thrashing occurs.
 

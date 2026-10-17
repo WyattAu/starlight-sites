@@ -113,15 +113,21 @@ For recurrences of the form $T(n) = aT(n/b) + f(n)$ where $a \geq 1$, $b > 1$:
 
 Compare $f(n)$ with $n^{\log_b a}$:
 
+<div class="table-wrap">
+
 | Case | Condition                                          | Solution                        |
 | ---- | -------------------------------------------------- | ------------------------------- |
 | 1    | $f(n) = O(n^{\log_b a - \epsilon})$ for $\epsilon > 0$ | $T(n) = \Theta(n^{\log_b a})$ |
 | 2    | $f(n) = \Theta(n^{\log_b a} \log^k n)$, $k \geq 0$ | $T(n) = \Theta(n^{\log_b a} \log^{k+1} n)$ |
 | 3    | $f(n) = \Omega(n^{\log_b a + \epsilon})$ and regularity | $T(n) = \Theta(f(n))$         |
 
+</div>
+
 **Regularity condition (Case 3):** $a f(n/b) \leq c f(n)$ for some $c < 1$.
 
 **Examples:**
+
+<div class="table-wrap">
 
 | Recurrence | $a$ | $b$ | $n^{\log_b a}$ | $f(n)$ | Case | Result |
 | ----------------------------------- | --- | --- | -------------- | --------- | ---- | ------------------ |
@@ -129,6 +135,8 @@ Compare $f(n)$ with $n^{\log_b a}$:
 | $T(n) = 4T(n/2) + n$ | 4 | 2 | $n^2$ | $n$ | 1 | $\Theta(n^2)$ |
 | $T(n) = 4T(n/2) + n^2 \log n$ | 4 | 2 | $n^2$ | $n^2 \log n$ | 2 (k=1) | $\Theta(n^2 \log^2 n)$ |
 | $T(n) = 2T(n/2) + n^2$ | 2 | 2 | $n$ | $n^2$ | 3 | $\Theta(n^2)$ |
+
+</div>
 
 ## 2. Greedy Algorithms
 
@@ -552,11 +560,15 @@ Algorithm design is the art of solving problems efficiently. Divide and conquer 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Data Structures | [View](/1-algorithms/data-structures/) |
 | Algorithms Overview | View |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

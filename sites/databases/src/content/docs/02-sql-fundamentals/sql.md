@@ -61,6 +61,8 @@ Key elements:
 
 ### Column Data Types
 
+<div class="table-wrap">
+
 | Type Category   | PostgreSQL Types                     | Notes                                                                           |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------- |
 | Integers        | `SMALLINT``INTEGER``BIGINT`          | `INTEGER` is 4 bytes, `BIGINT` is 8 bytes                                       |
@@ -75,6 +77,8 @@ Key elements:
 | UUID            | `UUID`                               | Requires the `uuid-ossp` or `pgcrypto` extension                                |
 | Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
 | Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
+
+</div>
 
 :::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
@@ -615,6 +619,8 @@ SELECT emp_id, department_id, salary,
 FROM employees;
 ```
 
+<div class="table-wrap">
+
 | salary | ROW_NUMBER | RANK | DENSE_RANK |
 | ------ | ---------- | ---- | ---------- |
 | 150000 | 1          | 1    | 1          |
@@ -622,6 +628,8 @@ FROM employees;
 | 140000 | 3          | 3    | 2          |
 | 140000 | 4          | 3    | 2          |
 | 130000 | 5          | 5    | 3          |
+
+</div>
 
 - `ROW_NUMBER`: assigns a unique sequential integer to each row within the partition
 - `RANK`: ties get the same rank; next rank skips (1, 1, 3, 3, 5)

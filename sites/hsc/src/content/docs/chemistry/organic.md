@@ -22,6 +22,8 @@ HSC chemistry study notes - Organic
 
 ### Functional Groups
 
+<div class="table-wrap">
+
 | Functional Group | Formula | Suffix |
 | ----------------- | --------- | -------- |
 | Alkane | C-C | -ane |
@@ -30,6 +32,8 @@ HSC chemistry study notes - Organic
 | Aldehyde | -CHO | -al |
 | Carboxylic acid | -COOH | -oic acid |
 | Ester | -COO- | -oate |
+
+</div>
 
 ### Naming Conventions
 

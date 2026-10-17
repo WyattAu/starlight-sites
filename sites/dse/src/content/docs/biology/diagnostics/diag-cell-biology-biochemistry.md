@@ -159,6 +159,8 @@ The membrane is partially permeable because:
 An experiment was conducted to investigate the effect of substrate concentration on the rate of an
 enzyme-catalysed reaction. The results are shown below:
 
+<div class="table-wrap">
+
 | Substrate concentration (mmol/dm$^{3}$) | Rate of reaction (arbitrary units) |
 | :-------------------------------------: | :--------------------------------: |
 |                    2                    |                 8                  |
@@ -168,6 +170,8 @@ enzyme-catalysed reaction. The results are shown below:
 |                   10                    |                 24                 |
 |                   12                    |                24.5                |
 |                   14                    |                24.8                |
+
+</div>
 
 (a) Explain why the rate of reaction increases at low substrate concentrations but plateaus at high
 substrate concentrations. [3 marks]
@@ -249,12 +253,16 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
 A student is given four unknown solutions (W, X, Y, Z) and asked to identify the biological
 molecules they contain. The student performs the following tests:
 
+<div class="table-wrap">
+
 | Test                 | Result                              |
 | -------------------- | ----------------------------------- |
 | Benedict's test on W | Brick-red precipitate after heating |
 | Biuret test on X     | Violet/purple colour                |
 | Emulsion test on Y   | White emulsion forms                |
 | Iodine test on Z     | Blue-black colour                   |
+
+</div>
 
 (a) Identify the biological molecule present in each solution. For W, explain the chemical basis of
 the colour change. [4 marks]

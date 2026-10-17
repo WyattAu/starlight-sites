@@ -31,6 +31,8 @@ Dynamic programming (DP) solves problems by:
 
 ### 5.2 Memoisation vs. Tabulation
 
+<div class="table-wrap">
+
 | Aspect      | Memoisation (Top-Down)          | Tabulation (Bottom-Up) |
 | ----------- | ------------------------------- | ---------------------- |
 | Approach    | Recursive with cache            | Iterative table fill   |
@@ -39,6 +41,8 @@ Dynamic programming (DP) solves problems by:
 | Overhead    | Function call overhead          | Minimal                |
 | Subproblems | Computes only needed            | Computes all           |
 | Best for    | When not all subproblems needed | When all needed        |
+
+</div>
 
 **When to use which:**
 

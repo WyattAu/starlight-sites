@@ -190,6 +190,8 @@ $$
 
 ### The Electromagnetic Spectrum
 
+<div class="table-wrap">
+
 | Region      | Wavelength Range                     | Typical Source    |
 | ----------- | ------------------------------------ | ----------------- |
 | Radio       | $> 0.1 \mathrm{ m$                   | Transmitters      |
@@ -199,6 +201,8 @@ $$
 | Ultraviolet | $10 - 400 \mathrm{ nm$               | UV lamps          |
 | X-ray       | $0.01 - 10 \mathrm{ nm$              | X-ray tubes       |
 | Gamma       | $< 0.01 \mathrm{ nm$                 | Radioactive decay |
+
+</div>
 
 All EM waves travel at $c = 3 \times 10^8 \mathrm{ m/s$ in a vacuum.
 
@@ -566,6 +570,8 @@ Source of equal intensity adds 3 dB.
 
 ## 15. Summary Table: Wave and Radiation Formulas
 
+<div class="table-wrap">
+
 | Topic               | Formula                             | Variables            | Notes                     |
 | ------------------- | ----------------------------------- | -------------------- | ------------------------- |
 | Wave speed          | $v = f\lambda$                      | $f$, $\lambda$       | Exact for periodic waves  |
@@ -578,6 +584,8 @@ Source of equal intensity adds 3 dB.
 | Half-life           | $t_{1/2} = \ln 2/\lambda$           | $\lambda$            | Constant for each isotope |
 | Activity            | $A = \lambda N$                     | $\lambda$$N$         | In becquerels (Bq)        |
 | Mass-energy         | $E = mc^2$                          | $m$$c$               | Binding energy            |
+
+</div>
 
 ## 16. Practice Questions (Additional)
 

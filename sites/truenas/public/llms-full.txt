@@ -74,6 +74,8 @@ When ZFS reads a block, it:
 
 ### Checksum Algorithms
 
+<div class="table-wrap">
+
 | Algorithm | Speed     | Collision Resistance | Recommendation                     |
 | --------- | --------- | -------------------- | ---------------------------------- |
 | fletcher2 | Fast      | Low                  | Legacy only                        |
@@ -82,6 +84,8 @@ When ZFS reads a block, it:
 | sha512    | Slow      | Very High            | Security-sensitive environments    |
 | edonr     | Very Fast | Very High            | Best for modern hardware (SSE4.2+) |
 | blake3    | Very Fast | Very High            | Available on newer ZFS versions    |
+
+</div>
 
 :::note
 Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
@@ -118,6 +122,8 @@ graph TD
     C --> I[disk6]
 ```
 
+<div class="table-wrap">
+
 | vdev Type     | Min Drives | Fault Tolerance  | Capacity Efficiency | Write Performance | Read Performance |
 | ------------- | ---------- | ---------------- | ------------------- | ----------------- | ---------------- |
 | stripe (none) | 1          | None             | 100%                | N ×               | N ×              |
@@ -127,6 +133,8 @@ graph TD
 | raidz3        | 5          | 3 drives         | (N-3)/N ×           | Moderate          | Good             |
 | draid1        | 3          | 1 drive + spare  | Similar to raidz1   | Good              | Good             |
 | draid2        | 4          | 2 drives + spare | Similar to raidz2   | Good              | Good             |
+
+</div>
 
 ### RAIDZ Dynamic Striping
 
@@ -147,12 +155,16 @@ Parity count. The actual usable capacity depends on the recordsize and write pat
 The `ashift` property controls the physical sector size that ZFS assumes for the drives. It must be
 Set at pool creation time and cannot be changed afterward.
 
+<div class="table-wrap">
+
 | ashift | Sector Size | When to Use                                 |
 | ------ | ----------- | ------------------------------------------- |
 | 9      | 512 bytes   | Legacy drives only                          |
 | 12     | 4 KB        | Most modern HDDs and SSDs                   |
 | 13     | 8 KB        | Some modern SSDs with 8 KB physical sectors |
 | 14     | 16 KB       | Advanced-format SMR drives                  |
+
+</div>
 
 :::caution
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
@@ -208,6 +220,8 @@ zfs get all tank/data
 
 ### Key Dataset Properties
 
+<div class="table-wrap">
+
 | Property       | Default                 | Description                        | Recommendation                                        |
 | -------------- | ----------------------- | ---------------------------------- | ----------------------------------------------------- |
 | compression    | off (on), lz4 (TrueNAS) | Compress data before writing       | Always `lz4` (fast, low CPU) or `zstd` (better ratio) |
@@ -219,10 +233,14 @@ zfs get all tank/data
 | primarycache   | all                     | What to store in ARC               | `all` for most workloads                              |
 | secondarycache | all                     | What to store in L2ARC             | `all` if L2ARC present                                |
 
+</div>
+
 ### recordsize Selection
 
 The `recordsize` property determines the maximum block size ZFS uses for a file. ZFS uses
 Variable-size blocks up to this maximum. The optimal recordsize depends on the workload:
+
+<div class="table-wrap">
 
 | Workload                           | Recommended recordsize | Rationale                                        |
 | ---------------------------------- | ---------------------- | ------------------------------------------------ |
@@ -231,6 +249,8 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 | Databases (MySQL, PostgreSQL)      | 8K or 16K              | Match the database page size                     |
 | General file storage               | 128K                   | Good balance for mixed workloads                 |
 | NFS home directories               | 128K                   | Mixed workload, default is fine                  |
+
+</div>
 
 :::caution
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
@@ -293,6 +313,8 @@ zfs promote tank/data-restore
 
 ### Clones vs. Snapshots
 
+<div class="table-wrap">
+
 | Feature        | Snapshot                       | Clone                           |
 | -------------- | ------------------------------ | ------------------------------- |
 | Writable       | No                             | Yes                             |
@@ -300,6 +322,8 @@ zfs promote tank/data-restore
 | Can be mounted | No                             | Yes                             |
 | Dependencies   | Cannot destroy if clone exists | Independent after promotion     |
 | Use case       | Backup points, rollback        | Testing, temporary environments |
+
+</div>
 
 ---
 
@@ -464,12 +488,16 @@ zfs send -w tank/data@snapshot1 | zfs recv backup/data
 
 ### Replication Strategies
 
+<div class="table-wrap">
+
 | Strategy                              | Bandwidth | Storage | Complexity |
 | ------------------------------------- | --------- | ------- | ---------- |
 | Full periodic                         | High      | High    | Low        |
 | Incremental periodic                  | Low       | Medium  | Medium     |
 | Continuous (zfs-auto-snapshot + cron) | Low       | Medium  | Medium     |
 | TrueNAS replication task              | Low       | Medium  | Low (GUI)  |
+
+</div>
 
 ---
 
@@ -492,6 +520,8 @@ zpool status -v tank
 
 Key fields to understand:
 
+<div class="table-wrap">
+
 | Field  | Meaning                                                 |
 | ------ | ------------------------------------------------------- |
 | state  | Overall pool state (ONLINE, DEGRADED, FAULTED, UNAVAIL) |
@@ -501,7 +531,11 @@ Key fields to understand:
 | config | Detailed vdev and disk status                           |
 | errors | Read, write, and checksum error counts per disk         |
 
+</div>
+
 ### Drive Status Values
+
+<div class="table-wrap">
 
 | Status   | Meaning                                             | Action                     |
 | -------- | --------------------------------------------------- | -------------------------- |
@@ -511,6 +545,8 @@ Key fields to understand:
 | FAULTED  | Drive has been marked as failed                     | Replace immediately        |
 | UNAVAIL  | Drive cannot be opened or accessed                  | Check connections, replace |
 | REMOVED  | Drive has been physically removed                   | Reinsert or replace        |
+
+</div>
 
 ---
 
@@ -642,6 +678,8 @@ HDD vdev, dramatically improving directory listing performance.
 
 ### Compression Ratio by Data Type
 
+<div class="table-wrap">
+
 | Data Type                         | lz4 Ratio | zstd-3 Ratio | Compressible |
 | --------------------------------- | --------- | ------------ | ------------ |
 | Text files (source code, docs)    | 2.0–3.0x  | 2.5–4.0x     | Yes          |
@@ -653,7 +691,11 @@ HDD vdev, dramatically improving directory listing performance.
 | Compressed archives (ZIP, tar.gz) | 1.0x      | 1.0x         | No           |
 | Logs (server, application)        | 5.0–10.0x | 8.0–15.0x    | Yes          |
 
+</div>
+
 ### CPU Overhead of Compression
+
+<div class="table-wrap">
 
 | Algorithm | Compression Throughput | Decompression Throughput | CPU Overhead |
 | --------- | ---------------------- | ------------------------ | ------------ |
@@ -661,6 +703,8 @@ HDD vdev, dramatically improving directory listing performance.
 | zstd-1    | 1–2 GB/s per core      | 4–6 GB/s per core        | Low          |
 | zstd-3    | 500 MB–1 GB/s per core | 3–5 GB/s per core        | Moderate     |
 | zstd-10   | 100–200 MB/s per core  | 2–3 GB/s per core        | High         |
+
+</div>
 
 On modern CPUs (8+ cores), lz4 compression overhead is negligible for most workloads. The I/O time
 Saved by writing less data to disk exceeds the CPU time spent compressing.
@@ -718,12 +762,18 @@ kstat -p zfs:0:arcstats:arc_meta_max
 
 ### Compression Properties
 
+<div class="table-wrap">
+
 | Property      | Values                               | Default       | Description                  |
 | ------------- | ------------------------------------ | ------------- | ---------------------------- |
 | compression   | off, lz4, lzjb, zstd, gzip-1..9, zle | lz4 (TrueNAS) | Compress data before writing |
 | compressratio | Read-only                            | 1.00x         | Current compression ratio    |
 
+</div>
+
 ### Access Time Properties
+
+<div class="table-wrap">
 
 | Property | Values  | Default | Description                                   |
 | -------- | ------- | ------- | --------------------------------------------- |
@@ -731,7 +781,11 @@ kstat -p zfs:0:arcstats:arc_meta_max
 | relatime | on, off | off     | Update atime only if modified since last read |
 | xattr    | on, off | on      | Enable extended attributes                    |
 
+</div>
+
 ### Quota and Reservation Properties
+
+<div class="table-wrap">
 
 | Property       | Values       | Default | Description                                   |
 | -------------- | ------------ | ------- | --------------------------------------------- |
@@ -740,12 +794,18 @@ kstat -p zfs:0:arcstats:arc_meta_max
 | reservation    | Size or none | none    | Minimum space guaranteed for dataset          |
 | refreservation | Size or none | none    | Minimum space for dataset only                |
 
+</div>
+
 ### Sync Properties
+
+<div class="table-wrap">
 
 | Property | Values                     | Default  | Description                        |
 | -------- | -------------------------- | -------- | ---------------------------------- |
 | sync     | standard, always, disabled | standard | Synchronous write behavior         |
 | logbias  | latency, throughput        | latency  | Optimize for latency or throughput |
+
+</div>
 
 ## ZFS Snapshot Advanced Usage
 
@@ -872,6 +932,8 @@ Force export if necessary.
 
 ### Pool Degradation Scenarios
 
+<div class="table-wrap">
+
 | Scenario                      | Impact                           | Recovery                     |
 | ----------------------------- | -------------------------------- | ---------------------------- |
 | Single disk failure in mirror | No data loss, reduced redundancy | Replace disk, resilver       |
@@ -880,6 +942,8 @@ Force export if necessary.
 | Two disk failures in RAIDZ1   | **Total data loss**              | Restore from backup          |
 | Cache device failure          | Performance degradation only     | Remove and replace cache     |
 | SLOG device failure           | Sync writes fall back to pool    | Remove and replace SLOG      |
+
+</div>
 
 ## ZFS Internals: The DMU Transaction Model
 
@@ -951,10 +1015,14 @@ zfs create -o special_small_blocks=32K tank/data
 # while regular data goes to the main vdev (HDD)
 ```
 
+<div class="table-wrap">
+
 | Special Vdev   | Stores                                       | Benefit                          |
 | -------------- | -------------------------------------------- | -------------------------------- |
 | `special_vdev` | Metadata (dnode, directories) + small blocks | Faster directory listing         |
 | `dedup_vdev`   | Dedup table                                  | Offloads dedup metadata from ARC |
+
+</div>
 
 ### ZFS Bookmarks
 
@@ -974,12 +1042,16 @@ zfs send -i tank/data#bm_snap1 tank/data@snap2 | zfs recv backup/data
 
 The dedup DDT (Dedup Table) stores a hash entry for every unique block:
 
+<div class="table-wrap">
+
 | Field           | Size     | Description                             |
 | --------------- | -------- | --------------------------------------- |
 | Hash            | 32 bytes | SHA-256 hash of block contents          |
 | Reference count | 8 bytes  | Number of blocks pointing to this entry |
 | First LBLK      | 8 bytes  | First logical block reference           |
 | Disk address    | 8 bytes  | Physical location on disk               |
+
+</div>
 
 Memory per DDT entry: approximately 320 bytes.
 
@@ -1000,12 +1072,16 @@ GB of RAM just for the DDT.
 
 ### Scrub Scheduling Best Practices
 
+<div class="table-wrap">
+
 | Pool Type     | Scrub Frequency | Time of Day     | Reason                        |
 | ------------- | --------------- | --------------- | ----------------------------- |
 | All-SSD       | Weekly          | Weekend morning | Fast completion (1–4 hours)   |
 | All-HDD       | Monthly         | Weekend morning | Slow completion (12–48 hours) |
 | Hybrid        | Monthly         | Weekend morning | Focus on HDD vdevs            |
 | Critical data | Bi-weekly       | Off-peak        | More frequent verification    |
+
+</div>
 
 ### Resilver Performance Optimization
 
@@ -1067,6 +1143,8 @@ zpool iostat -v tank 5
 
 ### Common Performance Issues
 
+<div class="table-wrap">
+
 | Symptom                             | Likely Cause                   | Diagnostic                              |
 | ----------------------------------- | ------------------------------ | --------------------------------------- |
 | Low ARC hit ratio                   | Working set exceeds RAM        | Increase RAM or add L2ARC               |
@@ -1075,6 +1153,8 @@ zpool iostat -v tank 5
 | Inconsistent I/O                    | Mixed vdev types (HDD + SSD)   | Separate hot/cold data                  |
 | High metadata latency               | Many small files               | Add special vdev with SSD               |
 | Pool performance degrades over time | Fragmentation                  | Copy data to a new pool                 |
+
+</div>
 
 ## Summary
 
@@ -1129,6 +1209,8 @@ Server Message Block (SMB) is the primary file sharing protocol for Windows envi
 Uses Samba to provide SMB sharing. Modern versions support SMB 3.1.1, which includes encryption,
 Compression, and continuous availability.
 
+<div class="table-wrap">
+
 | SMB Version | Features                            | Security          | Recommendation       |
 | ----------- | ----------------------------------- | ----------------- | -------------------- |
 | SMB1        | Legacy, no encryption               | Broken (WannaCry) | Disable always       |
@@ -1137,6 +1219,8 @@ Compression, and continuous availability.
 | SMB3        | Encryption, continuous availability | Strong            | Recommended minimum  |
 | SMB3.0.2    | Offload data transfer               | Strong            | Recommended          |
 | SMB3.1.1    | Pre-authentication integrity        | Strongest         | Recommended          |
+
+</div>
 
 ### SMB Dialect Negotiation
 
@@ -1188,6 +1272,8 @@ TrueNAS offers two approaches to SMB permissions:
 
 ### SMB Share Configuration Options
 
+<div class="table-wrap">
+
 | Option                         | Default             | Description                                   |
 | ------------------------------ | ------------------- | --------------------------------------------- |
 | Name                           | Dataset name        | Share name visible to clients                 |
@@ -1201,6 +1287,8 @@ TrueNAS offers two approaches to SMB permissions:
 | Shadow Copy                    | Disabled            | Enables previous versions (Windows)           |
 | Access Based Share Enumeration | No                  | Only show shares the user has access to       |
 | macOS Streaming                | No                  | Optimize for macOS streaming workloads        |
+
+</div>
 
 ### macOS Compatibility
 
@@ -1245,12 +1333,16 @@ TrueNAS can act as a Time Machine backup target for macOS:
 OpLocks allow a client to cache file data locally, improving performance. However, they can cause
 Issues with database files and applications that require strict file consistency:
 
+<div class="table-wrap">
+
 | OpLock Type         | Description                       | Risk                                       |
 | ------------------- | --------------------------------- | ------------------------------------------ |
 | Level 1 (Exclusive) | Client caches reads and writes    | Data corruption if multiple clients access |
 | Level 2 (Shared)    | Client caches reads only          | Lower risk                                 |
 | Batch               | Client can defer close operations | Database corruption risk                   |
 | Lease (SMB2+)       | Extended oplock with durability   | Same risks as Level 1                      |
+
+</div>
 
 For database files (SQLite, Microsoft Access), disable oplocks on the share:
 
@@ -1266,11 +1358,15 @@ vfs objects = no
 SMB signing adds a cryptographic signature to every SMB message, preventing man-in-the-middle
 Attacks. It is required for SMB3 encryption.
 
+<div class="table-wrap">
+
 | Setting              | Performance Impact | Security |
 | -------------------- | ------------------ | -------- |
 | Disabled             | None               | Low      |
 | Required (auto)      | 5–10%              | Medium   |
 | Required (mandatory) | 10–15%             | High     |
+
+</div>
 
 ### SMB Logging and Debugging
 
@@ -1303,6 +1399,8 @@ smbstatus
 
 ### NFSv3 vs NFSv4
 
+<div class="table-wrap">
+
 | Feature            | NFSv3                       | NFSv4                       |
 | ------------------ | --------------------------- | --------------------------- |
 | Stateful           | No                          | Yes (leases, delegations)   |
@@ -1313,6 +1411,8 @@ smbstatus
 | Caching            | Client-side caching limited | Delegations improve caching |
 | Character encoding | Not specified               | UTF-8 required              |
 | Pseudo-filesystem  | Not supported               | Referrals and pseudo-fs     |
+
+</div>
 
 NFSv4 is recommended for all new deployments. It simplifies firewall configuration (single port),
 Provides better security, and supports more robust locking.
@@ -1344,6 +1444,8 @@ NFSv4.2 added:
 
 ### NFS Export Configuration
 
+<div class="table-wrap">
+
 | Option              | Description                | Recommended Setting               |
 | ------------------- | -------------------------- | --------------------------------- |
 | Authorized Networks | IP ranges allowed to mount | Restrict to known client networks |
@@ -1352,17 +1454,23 @@ NFSv4.2 added:
 | Security            | Authentication flavor      | `krb5p` for security-sensitive    |
 | Enabled             | Activate the export        | Yes                               |
 
+</div>
+
 ### Squashing
 
 Root squashing maps `root` (UID 0) to an unprivileged user ( `nobody`) to prevent a remote Root user
 from having root access to exported files. This is enabled by default and should be left On unless
 you have a specific need for no_root_squash.
 
+<div class="table-wrap">
+
 | Squash Setting    | Behavior                    |
 | ----------------- | --------------------------- |
 | Root Squashing    | UID 0 mapped to `nobody`    |
 | No Root Squashing | UID 0 retains root access   |
 | All Squashing     | All UIDs mapped to `nobody` |
+
+</div>
 
 ### NFSv4 ID Mapping
 
@@ -1429,10 +1537,14 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 ### async vs. Sync NFS
 
+<div class="table-wrap">
+
 | Mode  | Behavior                                             | Safety | Performance |
 | ----- | ---------------------------------------------------- | ------ | ----------- |
 | sync  | Server acknowledges write only after data is on disk | High   | Lower       |
 | async | Server acknowledges write before data is on disk     | Lower  | Higher      |
+
+</div>
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
@@ -1471,6 +1583,8 @@ ISCSI (Internet Small Computer System Interface) encapsulates SCSI commands over
 Allowing remote access to block devices. This is used for VM storage, database storage, and any
 Workload that requires raw block access rather than file-level access.
 
+<div class="table-wrap">
+
 | Component | Role                                                              |
 | --------- | ----------------------------------------------------------------- |
 | Target    | The storage server (TrueNAS) that provides block devices          |
@@ -1478,6 +1592,8 @@ Workload that requires raw block access rather than file-level access.
 | Initiator | The client that connects to the target and accesses the LUN       |
 | Portal    | The IP address and port the target listens on                     |
 | IQN       | iSCSI Qualified Name, unique identifier for target and initiator |
+
+</div>
 
 ### iSCSI Discovery and Login
 
@@ -1523,12 +1639,16 @@ zfs create -V 100G -b 64K -o compression=lz4 tank/iscsi/lun0
 
 Key zvol properties:
 
+<div class="table-wrap">
+
 | Property     | Recommended Value | Rationale                                               |
 | ------------ | ----------------- | ------------------------------------------------------- |
 | volblocksize | 64K or 128K       | Match the VM filesystem block size                      |
 | compression  | lz4               | Reduces storage usage and improves performance          |
 | sync         | always            | Required for data integrity on block devices            |
 | primarycache | metadata          | For VM workloads, caching metadata in ARC is sufficient |
+
+</div>
 
 ### Zvol Sizing Considerations
 
@@ -1631,6 +1751,8 @@ chmod -R 750 /mnt/pool/dataset
 
 ### Permission Bits Explained
 
+<div class="table-wrap">
+
 | Bit | Octal    | Meaning (File)        | Meaning (Directory)              |
 | --- | -------- | --------------------- | -------------------------------- |
 | r   | 4        | Read file contents    | List directory entries           |
@@ -1639,6 +1761,8 @@ chmod -R 750 /mnt/pool/dataset
 | s   | (setuid) | Execute as file owner | N/A                              |
 | s   | (setgid) | Execute as file group | New files inherit group          |
 | t   | (sticky) | N/A                   | Only owner can delete files      |
+
+</div>
 
 ### NFS4 ACLs
 
@@ -1666,6 +1790,8 @@ A:fd:group@domain.com:RX:fd
 D::user@domain.com:W
 ```
 
+<div class="table-wrap">
+
 | Component | Meaning                                            |
 | --------- | -------------------------------------------------- |
 | A or D    | Allow or Deny                                      |
@@ -1674,6 +1800,8 @@ D::user@domain.com:W
 | fd        | File and directory (default for new entries)       |
 | RWX       | Permissions (read, write, execute)                 |
 | /ad       | Inheritance flags (apply to this, directory, file) |
+
+</div>
 
 ### Windows ACLs via SMB
 
@@ -1719,6 +1847,8 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 
 ### User and Group ID Planning
 
+<div class="table-wrap">
+
 | ID Range    | Purpose         | Example                       |
 | ----------- | --------------- | ----------------------------- |
 | 0           | root            | System                        |
@@ -1726,6 +1856,8 @@ For environments using LDAP (OpenLDAP, 389 Directory Server):
 | 1000–59999  | Local users     | Regular NAS users             |
 | 60000–65533 | LDAP/AD users   | Mapped from directory service |
 | 65534       | nobody          | Unmapped/anonymous            |
+
+</div>
 
 Ensure UIDs and GIDs are consistent across the NAS and all client systems. If the NAS assigns UID
 1001 to user "alice" but a client system assigns UID 1001 to user "bob", permissions will be wrong
@@ -1793,10 +1925,14 @@ For user home directories:
 
 ### Guest Access vs. Authenticated
 
+<div class="table-wrap">
+
 | Mode              | Configuration          | Security | Use Case                 |
 | ----------------- | ---------------------- | -------- | ------------------------ |
 | Authenticated     | User accounts required | High     | Production environments  |
 | Guest (anonymous) | No credentials needed  | Low      | Public file sharing only |
+
+</div>
 
 :::caution
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
@@ -1897,11 +2033,15 @@ midclt call smb.get_share sensitive-data | jq '.encrypt'
 
 ### Performance Impact
 
+<div class="table-wrap">
+
 | Cipher                    | AES-128-GCM | AES-256-GCM | ChaCha20-Poly1305       |
 | ------------------------- | ----------- | ----------- | ----------------------- |
 | CPU Overhead (AES-NI)     | 5-10%       | 8-15%       | 10-20%                  |
 | CPU Overhead (no AES-NI)  | 30-50%      | 35-55%      | 15-25%                  |
 | Throughput Impact (10GbE) | Minimal     | Minimal     | Noticeable on &lt;10GbE |
+
+</div>
 
 Modern Intel and AMD CPUs with AES-NI instructions handle AES-128-GCM with minimal overhead. If your
 CPU lacks AES-NI (rare on anything newer than 2013), the performance penalty is significant.
@@ -2026,6 +2166,8 @@ zfs list -o name,volsize,volblocksize,compression,logbias tank/iscsi/esxi-datast
 
 Key zvol properties for iSCSI:
 
+<div class="table-wrap">
+
 | Property       | Recommended Value                              | Rationale                           |
 | -------------- | ---------------------------------------------- | ----------------------------------- |
 | `volblocksize` | `64K` for VMs, `128K` for databases            | Match guest I/O size                |
@@ -2033,6 +2175,8 @@ Key zvol properties for iSCSI:
 | `logbias`      | `latency` for databases, `throughput` for bulk | Controls sync write behavior        |
 | `sync`         | `standard` (default)                           | Ensures data integrity              |
 | `primarycache` | `metadata` if using host caching               | Avoids double-caching               |
+
+</div>
 
 ### CHAP Authentication
 
@@ -2247,6 +2391,8 @@ graph LR
 
 ### Snapshot Types
 
+<div class="table-wrap">
+
 | Type             | Trigger            | Retention                   | Use Case                |
 | ---------------- | ------------------ | --------------------------- | ----------------------- |
 | Periodic         | Cron schedule      | Configured policy           | Day-to-day protection   |
@@ -2254,9 +2400,13 @@ graph LR
 | Manual           | Administrator      | Manual                      | Before risky operations |
 | Boot environment | System update      | Until rollback needed       | System recovery         |
 
+</div>
+
 ### Snapshot Retention Policies
 
 TrueNAS provides built-in snapshot task scheduling with configurable retention:
+
+<div class="table-wrap">
 
 | Schedule         | Naming Pattern     | Retention | Typical Use            |
 | ---------------- | ------------------ | --------- | ---------------------- |
@@ -2265,6 +2415,8 @@ TrueNAS provides built-in snapshot task scheduling with configurable retention:
 | Daily            | `autosnap_daily`   | 2 weeks   | File servers           |
 | Weekly           | `autosnap_weekly`  | 1 month   | Media, archives        |
 | Monthly          | `autosnap_monthly` | 1 year    | Long-term retention    |
+
+</div>
 
 ### Snapshot Space Management
 
@@ -2331,6 +2483,8 @@ zfs send -Rcv tank/data@snapshot2 | \
 
 ### Send Flags
 
+<div class="table-wrap">
+
 | Flag | Meaning                                     | When to Use                    |
 | ---- | ------------------------------------------- | ------------------------------ |
 | `-R` | Recursive, send all child datasets         | Replicating entire hierarchies |
@@ -2340,6 +2494,8 @@ zfs send -Rcv tank/data@snapshot2 | \
 | `-i` | Incremental (from snapshot)                 | All subsequent replications    |
 | `-w` | Raw send (preserves encryption)             | Encrypted datasets             |
 | `-L` | Large block send (for recordsize &gt; 128K) | Large recordsize datasets      |
+
+</div>
 
 ### Bandwidth Limiting
 
@@ -2369,6 +2525,8 @@ zfs send -Rv tank/data@snapshot2 | \
 
 TrueNAS Cloud Sync supports:
 
+<div class="table-wrap">
+
 | Provider             | Protocol      | Encryption        | Notes                |
 | -------------------- | ------------- | ----------------- | -------------------- |
 | Amazon S3            | S3 API        | TLS + server-side | Most common          |
@@ -2377,6 +2535,8 @@ TrueNAS Cloud Sync supports:
 | Microsoft Azure Blob | Azure API     | TLS               | Good for Azure users |
 | Wasabi               | S3-compatible | TLS               | No egress fees       |
 | MinIO                | S3-compatible | TLS               | Self-hosted S3       |
+
+</div>
 
 ### Cloud Sync Configuration
 
@@ -2464,6 +2624,8 @@ Set up monitoring and alerting to detect backup failures:
 RPO defines the maximum acceptable data loss measured in time. If your RPO is 1 hour, your backup
 Strategy must ensure that no more than 1 hour of data can be lost.
 
+<div class="table-wrap">
+
 | RPO                | Strategy                              | TrueNAS Configuration                        |
 | ------------------ | ------------------------------------- | -------------------------------------------- |
 | 0 (zero data loss) | Synchronous replication               | Active-passive cluster with shared storage   |
@@ -2472,16 +2634,22 @@ Strategy must ensure that no more than 1 hour of data can be lost.
 | 24 hours           | Daily snapshots + daily replication   | Snapshot daily, replicate daily              |
 | 1 week             | Weekly snapshots + weekly replication | Snapshot weekly, replicate weekly            |
 
+</div>
+
 ### Recovery Time Objective (RTO)
 
 RTO defines the maximum acceptable downtime after a disaster. If your RTO is 4 hours, you must be
 Able to restore service within 4 hours.
+
+<div class="table-wrap">
 
 | RTO     | Strategy                                              |
 | ------- | ----------------------------------------------------- |
 | Minutes | Active-passive cluster with automatic failover        |
 | Hours   | Standby hardware + ZFS replication + scripted restore |
 | Days    | New hardware + cloud backup restore                   |
+
+</div>
 
 ---
 
@@ -2662,11 +2830,15 @@ $$
 Where `Effective_Bandwidth` accounts for compression, deduplication, and network overhead ( 50–80%
 of raw bandwidth).
 
+<div class="table-wrap">
+
 | Backup Type      | Data Size | Network Bandwidth | Effective Bandwidth | Time        |
 | ---------------- | --------- | ----------------- | ------------------- | ----------- |
 | Full (1 TB)      | 1 TB      | 1 Gbps            | 80 MB/s             | ~3.5 hours  |
 | Incremental (5%) | 50 GB     | 1 Gbps            | 80 MB/s             | ~10 minutes |
 | Full (1 TB)      | 1 TB      | 100 Mbps          | 8 MB/s              | ~35 hours   |
+
+</div>
 
 ## ZFS Snapshot Advanced Configuration
 
@@ -2748,12 +2920,16 @@ Backblaze B2 is a cost-effective alternative to AWS S3 for backup storage:
 
 ### RPO/RTO Matrix
 
+<div class="table-wrap">
+
 | Data Category        | RPO    | RTO      | Backup Method                   | Recovery Procedure         |
 | -------------------- | ------ | -------- | ------------------------------- | -------------------------- |
 | Critical databases   | 15 min | 1 hour   | ZFS replication + snapshots     | Failover to replica        |
 | User files           | 1 day  | 4 hours  | Daily snapshots + cloud sync    | Restore from snapshot      |
 | Media library        | 1 week | 24 hours | Weekly snapshots + cloud sync   | Restore from cloud         |
 | System configuration | 1 day  | 2 hours  | Daily snapshots + config export | Reinstall + restore config |
+
+</div>
 
 ### Disaster Recovery Runbook
 
@@ -2802,12 +2978,16 @@ zfs get encryption tank/encrypted
 
 Encryption keys can be managed in several ways:
 
+<div class="table-wrap">
+
 | Method     | Storage            | Security         | Convenience |
 | ---------- | ------------------ | ---------------- | ----------- |
 | Passphrase | Human memory       | High (if strong) | Medium      |
 | Key file   | File on disk/USB   | Medium           | High        |
 | Hex key    | Configuration file | Medium           | High        |
 | PKCS#11    | Hardware token     | Very High        | Low         |
+
+</div>
 
 ### Key Escrow
 
@@ -2827,6 +3007,8 @@ Irrecoverable. There is no backdoor. Always have a verified backup of the key.
 
 Configure alerts under **System** → **Alert Settings** → **Advanced**:
 
+<div class="table-wrap">
+
 | Alert Condition                  | Severity | Action                             |
 | -------------------------------- | -------- | ---------------------------------- |
 | Snapshot task failed             | Critical | Investigate immediately            |
@@ -2835,6 +3017,8 @@ Configure alerts under **System** → **Alert Settings** → **Advanced**:
 | Pool capacity above 80%          | Warning  | Plan expansion                     |
 | SMART predictive failure         | Critical | Replace drive immediately          |
 | Scrub errors found               | Critical | Investigate and repair             |
+
+</div>
 
 ### Backup Health Dashboard
 
@@ -3088,6 +3272,8 @@ graph LR
 
 ### RPO/RTO Matrix by Workload
 
+<div class="table-wrap">
+
 | Workload                | Acceptable RPO     | Acceptable RTO | Recommended Strategy                            |
 | ----------------------- | ------------------ | -------------- | ----------------------------------------------- |
 | Production database     | 0 (zero data loss) | 15-30 min      | Synchronous replication + streaming replication |
@@ -3095,6 +3281,8 @@ graph LR
 | Media library           | 24 hours           | 24 hours       | Daily snapshots + daily replication             |
 | Development environment | 24 hours           | 48 hours       | Daily snapshots + weekly replication            |
 | Archive/cold storage    | 7 days             | 72 hours       | Weekly snapshots + monthly cloud sync           |
+
+</div>
 
 ## Cloud Sync Error Handling and Retention
 
@@ -3132,11 +3320,15 @@ midclt call cloudsync.update 1 '{
 
 Retention strategies:
 
+<div class="table-wrap">
+
 | Strategy                      | When to Use                  | Trade-offs                            |
 | ----------------------------- | ---------------------------- | ------------------------------------- |
 | Count-based (keep last N)     | Unpredictable snapshot sizes | May keep too much or too little data  |
 | Time-based (keep last N days) | Predictable recovery window  | Storage usage varies with change rate |
 | Custom (count + lifetime)     | Balanced approach            | More complex to reason about          |
+
+</div>
 
 ### Handling Rate Limits
 
@@ -3379,11 +3571,15 @@ Lightweight Kubernetes cluster managed by TrueNAS. This provides:
 
 TrueNAS SCALE provides two app catalogs:
 
+<div class="table-wrap">
+
 | Catalog   | Source                | Update Frequency | Trust Level                      |
 | --------- | --------------------- | ---------------- | -------------------------------- |
 | Official  | TrueNAS/iXsystems     | Regular          | High, tested by iXsystems       |
 | Community | Community-contributed | Variable         | Medium, review before deploying |
 | Custom    | Your own charts       | Manual           | Depends on source                |
+
+</div>
 
 ### Installing Apps
 
@@ -3522,6 +3718,8 @@ TrueNAS SCALE supports KVM-based virtual machines with full hardware virtualizat
 
 **Key settings:**
 
+<div class="table-wrap">
+
 | Setting       | Recommendation | Notes                                             |
 | ------------- | -------------- | ------------------------------------------------- |
 | CPU           | 2+ vCPUs       | Pin to specific cores for performance             |
@@ -3530,6 +3728,8 @@ TrueNAS SCALE supports KVM-based virtual machines with full hardware virtualizat
 | Network       | VirtIO         | VirtIO is fastest; use `e1000` only for legacy OS |
 | Boot firmware | UEFI           | Required for modern OS (Windows 11, Linux)        |
 | Graphics      | VNC or SPICE   | SPICE provides better performance                 |
+
+</div>
 
 ### GPU Passthrough
 
@@ -3567,6 +3767,8 @@ find /sys/kernel/iommu_groups/ -type l | sort
 VirtIO is the paravirtualized I/O framework for KVM. It provides near-native I/O performance by
 Eliminating the overhead of emulating hardware devices.
 
+<div class="table-wrap">
+
 | Device  | VirtIO Driver               | Windows Driver Source        |
 | ------- | --------------------------- | ---------------------------- |
 | Network | VirtIO Network              | virtio-win ISO from Fedora   |
@@ -3574,6 +3776,8 @@ Eliminating the overhead of emulating hardware devices.
 | Balloon | VirtIO Balloon              | virtio-win ISO               |
 | RNG     | VirtIO RNG                  | Built-in                     |
 | GPU     | VirtIO GPU                  | Built-in (Spice Guest Tools) |
+
+</div>
 
 :::note
 CD-ROM drive during installation. Install the VirtIO drivers before installing Windows, or use the
@@ -3595,6 +3799,8 @@ CD-ROM drive during installation. Install the VirtIO drivers before installing W
 
 ### Network Modes
 
+<div class="table-wrap">
+
 | Mode   | Behavior                                    | Use Case                         |
 | ------ | ------------------------------------------- | -------------------------------- |
 | Bridge | App gets its own IP on a virtual network    | Most apps, isolation             |
@@ -3602,6 +3808,8 @@ CD-ROM drive during installation. Install the VirtIO drivers before installing W
 | Custom | User-defined network with specific subnet   | Multi-app communication          |
 | DHCP   | App gets an IP from the network DHCP server | Most apps                        |
 | Static | App gets a manually assigned IP             | Apps accessed by fixed address   |
+
+</div>
 
 ### Port Management
 
@@ -3675,6 +3883,8 @@ Host path volumes mount an existing ZFS dataset directly into the container. Thi
 
 ### What Needs to Be Persistent
 
+<div class="table-wrap">
+
 | Data Type           | Persistence Required | Backup Strategy               |
 | ------------------- | -------------------- | ----------------------------- |
 | Configuration files | Yes                  | Snapshot or file backup       |
@@ -3683,6 +3893,8 @@ Host path volumes mount an existing ZFS dataset directly into the container. Thi
 | Application logs    | Optional             | Log rotation, short retention |
 | Cache/temp data     | No                   | Use ephemeral storage         |
 | Container images    | No                   | Re-downloaded on deploy       |
+
+</div>
 
 ### Backup App Data
 
@@ -3712,6 +3924,8 @@ zfs rollback tank/apps/nextcloud/data@pre-update-20240101
 
 ### Common Issues
 
+<div class="table-wrap">
+
 | Issue                         | Likely Cause                                       | Solution                          |
 | ----------------------------- | -------------------------------------------------- | --------------------------------- |
 | App won't start               | Port conflict, missing storage, image pull failure | Check logs, verify config         |
@@ -3719,6 +3933,8 @@ zfs rollback tank/apps/nextcloud/data@pre-update-20240101
 | App crashes after update      | Data migration issue, config change                | Check logs, rollback snapshot     |
 | Slow performance              | Storage on HDD, insufficient resources             | Move to SSD, increase CPU/RAM     |
 | Cannot connect to database    | Database not ready, wrong credentials              | Wait for DB to initialize, verify |
+
+</div>
 
 ### Checking Logs
 
@@ -3841,12 +4057,16 @@ resources:
     memory: "2048Mi'
 ```
 
+<div class="table-wrap">
+
 | Resource       | Request vs Limit                  | Recommendation                    |
 | -------------- | --------------------------------- | --------------------------------- |
 | CPU request    | Guaranteed minimum                | 10–25% of typical usage           |
 | CPU limit      | Maximum allowed                   | 2–4x typical usage (allow bursts) |
 | Memory request | Guaranteed minimum                | Match typical usage               |
 | Memory limit   | Maximum allowed (OOM if exceeded) | 1.5–2x typical usage              |
+
+</div>
 
 ## Detailed App Configurations
 
@@ -3893,11 +4113,15 @@ hostGPU: true
 
 **Database selection:**
 
+<div class="table-wrap">
+
 | Database          | Performance             | Complexity | Recommendation      |
 | ----------------- | ----------------------- | ---------- | ------------------- |
 | SQLite (built-in) | Poor for large installs | None       | Small/personal only |
 | MariaDB           | Good                    | Moderate   | Medium installs     |
 | PostgreSQL        | Best                    | Moderate   | Large installs      |
+
+</div>
 
 **PostgreSQL tuning for Nextcloud:**
 
@@ -4005,6 +4229,8 @@ extraEnv:
 
 ### VM Creation Best Practices
 
+<div class="table-wrap">
+
 | Setting  | Recommendation             | Notes                                    |
 | -------- | -------------------------- | ---------------------------------------- |
 | CPU      | Pin to specific cores      | Reduces latency from scheduler migration |
@@ -4015,7 +4241,11 @@ extraEnv:
 | Graphics | QXL or VirtIO-GPU          | Use SPICE for best remote display        |
 | TPM      | Software TPM (swtpm)       | Required for Windows 11                  |
 
+</div>
+
 ### VM Storage Options
+
+<div class="table-wrap">
 
 | Option                 | Performance           | Flexibility           | Use Case                        |
 | ---------------------- | --------------------- | --------------------- | ------------------------------- |
@@ -4023,13 +4253,19 @@ extraEnv:
 | File-backed disk image | Good                  | High (thin provision) | Development VMs                 |
 | Virtio-FS              | Best for shared files | Medium                | Shared data between host and VM |
 
+</div>
+
 ### VM Network Configuration
+
+<div class="table-wrap">
 
 | Mode   | Behavior                                | Use Case                    |
 | ------ | --------------------------------------- | --------------------------- |
 | VirtIO | Paravirtualized NIC, best performance   | Most VMs                    |
 | E1000  | Emulated Intel NIC, broad compatibility | Legacy OS, PXE boot         |
 | SR-IOV | Direct PCI passthrough of VF            | High-performance networking |
+
+</div>
 
 ### VM Backup Strategy
 
@@ -4425,6 +4661,8 @@ URL: https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alert
 
 The TrueNAS dashboard provides a real-time overview of system health:
 
+<div class="table-wrap">
+
 | Widget             | Information                                  |
 | ------------------ | -------------------------------------------- |
 | CPU Usage          | Per-core utilization percentage              |
@@ -4434,6 +4672,8 @@ The TrueNAS dashboard provides a real-time overview of system health:
 | Disk I/O           | Read/write throughput per pool or disk       |
 | System Temperature | CPU, disk, and enclosure temperatures        |
 | System Load        | 1, 5, and 15 minute load averages            |
+
+</div>
 
 ### System Information
 
@@ -4459,11 +4699,15 @@ Navigate to **System** → **Advanced** for detailed system information:
 
 ### SMART Test Types
 
+<div class="table-wrap">
+
 | Test Type       | Duration    | What It Tests                               | Recommended Frequency |
 | --------------- | ----------- | ------------------------------------------- | --------------------- |
 | Short           | 2–5 minutes | Basic electrical and mechanical tests       | Daily                 |
 | Long (Extended) | 2–6 hours   | Full surface scan, complete mechanical test | Weekly                |
 | Conveyance      | 5 minutes   | Vendor-specific (transport damage check)    | After shipping        |
+
+</div>
 
 ### Configuring SMART Tests on TrueNAS
 
@@ -4488,6 +4732,8 @@ smartctl -l selftest /dev/sda
 
 Critical attributes to monitor:
 
+<div class="table-wrap">
+
 | Attribute                | HDD | SSD | Warning Threshold                         |
 | ------------------------ | --- | --- | ----------------------------------------- |
 | Reallocated Sector Count | Yes | N/A | Any increase                              |
@@ -4499,6 +4745,8 @@ Critical attributes to monitor:
 | Power-On Hours           | Yes | Yes | Compare against MTBF (HDD: ~50,000 hours) |
 | Command Timeout          | Yes | Yes | Any non-zero value                        |
 | UDMA CRC Error Count     | Yes | Yes | Any non-zero value (cable issue)          |
+
+</div>
 
 ---
 
@@ -4523,12 +4771,16 @@ Critical attributes to monitor:
 
 ### Scrub Scheduling Best Practices
 
+<div class="table-wrap">
+
 | Pool Type                  | Scrub Frequency | Rationale                                    |
 | -------------------------- | --------------- | -------------------------------------------- |
 | All-HDD                    | Monthly         | HDD scrub is slow (1–3 days for large pools) |
 | All-SSD                    | Weekly          | SSD scrub is fast (1–4 hours)                |
 | Hybrid (SSD special + HDD) | Monthly         | Scrub the entire pool monthly                |
 | Critical data              | Bi-weekly       | Trade I/O impact for earlier detection       |
+
+</div>
 
 ### Monitoring Scrub Progress
 
@@ -4572,11 +4824,15 @@ zpool status tank
 
 TrueNAS classifies alerts into severity levels:
 
+<div class="table-wrap">
+
 | Level       | Meaning                   | Example                               |
 | ----------- | ------------------------- | ------------------------------------- |
 | Critical    | Immediate action required | Pool degraded, disk failure           |
 | Warning     | Attention needed          | SMART predictive failure, temperature |
 | Information | Informational             | Scrub completed, snapshot created     |
+
+</div>
 
 ### Common Alert Triggers
 
@@ -4622,12 +4878,16 @@ NUT provides UPS monitoring and automated shutdown for TrueNAS:
 
 ### UPS Configuration Parameters
 
+<div class="table-wrap">
+
 | Setting                | Value        | Rationale                                    |
 | ---------------------- | ------------ | -------------------------------------------- |
 | Shutdown timer         | 5–10 minutes | Enough time for clean shutdown, not too long |
 | Low battery threshold  | 20–30%       | Prevents battery exhaustion                  |
 | Extra delay            | 30 seconds   | Allows other systems to shut down first      |
 | No communication grace | 60 seconds   | Tolerates brief USB disconnects              |
+
+</div>
 
 ### Multi-System UPS Monitoring
 
@@ -4708,6 +4968,8 @@ TrueNAS can export metrics to Prometheus for visualization in Grafana:
 
 ### Key Metrics to Monitor
 
+<div class="table-wrap">
+
 | Metric             | Source    | Alert Threshold                       |
 | ------------------ | --------- | ------------------------------------- |
 | Pool capacity      | ZFS       | &gt; 80% warning, &gt; 90% critical   |
@@ -4720,6 +4982,8 @@ TrueNAS can export metrics to Prometheus for visualization in Grafana:
 | Replication lag    | ZFS       | &gt; 24 hours behind                  |
 | UPS battery        | NUT       | On battery, low battery               |
 | Network errors     | Interface | Any CRC, frame, or drop errors        |
+
+</div>
 
 ### Grafana Dashboard Examples
 
@@ -4767,6 +5031,8 @@ journalctl -b
 
 ### Common Log Patterns to Monitor
 
+<div class="table-wrap">
+
 | Pattern                     | Severity    | Action                                      |
 | --------------------------- | ----------- | ------------------------------------------- |
 | `zfs: checksum error`       | Critical    | Check pool health, scrub, replace disk      |
@@ -4775,6 +5041,8 @@ journalctl -b
 | `smbd: connection denied`   | Information | Check authentication configuration          |
 | `kernel: out of memory`     | Critical    | Add RAM, check for memory leaks             |
 | `UPS: on battery`           | Warning     | Monitor battery level, prepare for shutdown |
+
+</div>
 
 ---
 
@@ -4805,12 +5073,16 @@ TB/month will fill a 20 TB pool in approximately 20 months (accounting for RAIDZ
 
 ### Planning Guidelines
 
+<div class="table-wrap">
+
 | Metric              | Action Threshold                                   |
 | ------------------- | -------------------------------------------------- |
 | Pool usage &gt; 70% | Plan expansion within 6 months                     |
 | Pool usage &gt; 80% | Order drives immediately                           |
 | Pool usage &gt; 90% | Critical, expand or delete data                   |
 | Pool usage &gt; 95% | Emergency, ZFS performance degrades significantly |
+
+</div>
 
 ---
 
@@ -4895,6 +5167,8 @@ the team understands what each alert means and what action to take.
 
 The TrueNAS dashboard provides real-time metrics for:
 
+<div class="table-wrap">
+
 | Category | Metrics                                       | Refresh Rate |
 | -------- | --------------------------------------------- | ------------ |
 | CPU      | Per-core utilization, temperature, frequency  | 2 seconds    |
@@ -4903,6 +5177,8 @@ The TrueNAS dashboard provides real-time metrics for:
 | Disk     | Per-disk I/O throughput, latency, queue depth | 2 seconds    |
 | Pool     | Per-pool I/O throughput, capacity, ARC stats  | 5 seconds    |
 | UPS      | Battery level, load, estimated runtime        | 5 seconds    |
+
+</div>
 
 ### Historical Metrics
 
@@ -5017,12 +5293,16 @@ During a scrub, ZFS reads every block in the pool and verifies its checksum:
 
 ### Scrub Performance Impact
 
+<div class="table-wrap">
+
 | Pool Type    | Scrub Speed       | I/O Impact                                       |
 | ------------ | ----------------- | ------------------------------------------------ |
 | All-SSD      | 500 MB/s – 2 GB/s | Low (SSDs handle concurrent scrub + workload)    |
 | All-HDD      | 50–150 MB/s       | High (scrub consumes significant read bandwidth) |
 | Mirror (SSD) | 1–2 GB/s          | Low                                              |
 | RAIDZ2 (HDD) | 50–100 MB/s       | High                                             |
+
+</div>
 
 During a scrub of an HDD pool, normal I/O performance can degrade by 30–50%. Schedule scrubs during
 off-peak hours.
@@ -5092,11 +5372,15 @@ To: admin@example.com
 
 For environments with multiple administrators, route alerts based on severity:
 
+<div class="table-wrap">
+
 | Severity    | Notification Method                  | Response Time     |
 | ----------- | ------------------------------------ | ----------------- |
 | Critical    | Email + SMS (via PagerDuty/Opsgenie) | Immediate         |
 | Warning     | Email                                | Within 4 hours    |
 | Information | Email (daily digest)                 | Next business day |
+
+</div>
 
 ## Prometheus Integration for TrueNAS
 
@@ -5115,6 +5399,8 @@ sudo cp node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
 
 ### Key Metrics to Export
 
+<div class="table-wrap">
+
 | Metric                           | Source                         | Description                   |
 | -------------------------------- | ------------------------------ | ----------------------------- |
 | `zfs_arc_stats`                  | `/proc/spl/kstat/zfs/arcstats` | ARC hit ratio, size, metadata |
@@ -5123,6 +5409,8 @@ sudo cp node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
 | `node_cpu_seconds_total`         | `/proc/stat`                   | CPU utilization               |
 | `node_memory_MemAvailable_bytes` | `/proc/meminfo`                | Available memory              |
 | `node_filesystem_avail_bytes`    | `statvfs`                      | Filesystem free space         |
+
+</div>
 
 ### Grafana Dashboard JSON
 
@@ -5216,6 +5504,8 @@ For environments with multiple systems, centralize logs using:
 
 TrueNAS retains logs according to:
 
+<div class="table-wrap">
+
 | Log Type        | Default Retention | Location           |
 | --------------- | ----------------- | ------------------ |
 | System logs     | 1 week            | `/var/log/`        |
@@ -5223,6 +5513,8 @@ TrueNAS retains logs according to:
 | SMB logs        | Configurable      | `/var/log/samba4/` |
 | App logs        | Configurable      | Per-app            |
 | Middleware logs | Configurable      | Per-app            |
+
+</div>
 
 ### Log Analysis Scripts
 
@@ -5278,11 +5570,15 @@ Where:
 
 ### Alert Tiers
 
+<div class="table-wrap">
+
 | Tier | Severity                      | Response          | Channel        |
 | ---- | ----------------------------- | ----------------- | -------------- |
 | P0   | Critical, data at risk        | Immediate         | PagerDuty, SMS |
 | P1   | Warning, performance degraded | Within 1 hour     | Email, Slack   |
 | P2   | Informational, non-urgent     | Next business day | Daily digest   |
+
+</div>
 
 ### Alert Suppression
 
@@ -5402,13 +5698,19 @@ tail -30 "$LOG" | awk -F',' '
 
 ### Capacity Planning Spreadsheet
 
+<div class="table-wrap">
+
 | Dataset      | Current Usage | Monthly Growth | Months to 80% | Action Date |
 | ------------ | ------------- | -------------- | ------------- | ----------- |
 | tank/data    | 4.2 TB        | 50 GB          | 12            | 2026-04     |
 | tank/media   | 8.7 TB        | 100 GB         | 3             | 2025-07     |
 | tank/backups | 2.1 TB        | 30 GB          | 18            | 2027-08     |
 
+</div>
+
 ### When to Expand
+
+<div class="table-wrap">
 
 | Current Usage | Recommended Action                |
 | ------------- | --------------------------------- |
@@ -5417,6 +5719,8 @@ tail -30 "$LOG" | awk -F',' '
 | 70–80%        | Order drives, schedule expansion  |
 | 80–90%        | Urgent: expand within 2 weeks     |
 | &gt; 90%      | Critical: expand immediately      |
+
+</div>
 
 ### Expansion Methods
 
@@ -5509,6 +5813,8 @@ echo 51539607552 | sudo tee /sys/module/zfs/parameters/zfs_arc_max
 
 ### ARC Hit Ratio Targets
 
+<div class="table-wrap">
+
 | Hit Ratio | Interpretation                            |
 | --------- | ----------------------------------------- |
 | &gt; 95%  | Excellent, working set fits in ARC       |
@@ -5516,14 +5822,20 @@ echo 51539607552 | sudo tee /sys/module/zfs/parameters/zfs_arc_max
 | 70–85%    | Acceptable, consider adding RAM or L2ARC |
 | &lt; 70%  | Poor, working set exceeds ARC, add RAM   |
 
+</div>
+
 ### primarycache and secondarycache
 
 These dataset properties control what data is cached:
+
+<div class="table-wrap">
 
 | Property         | Values              | Effect                       |
 | ---------------- | ------------------- | ---------------------------- |
 | `primarycache`   | all, metadata, none | What to store in ARC (RAM)   |
 | `secondarycache` | all, metadata, none | What to store in L2ARC (SSD) |
+
+</div>
 
 For most workloads, `primarycache=all` is correct. For workloads where the working set is much
 Larger than RAM (e.g., media streaming), setting `primarycache=metadata` caches only file metadata
@@ -5551,6 +5863,8 @@ Write time and cannot be changed afterward.
 
 ### Choosing the Right recordsize
 
+<div class="table-wrap">
+
 | Workload                            | recordsize     | Rationale                                            |
 | ----------------------------------- | -------------- | ---------------------------------------------------- |
 | General file storage                | 128K (default) | Good balance for mixed workloads                     |
@@ -5561,6 +5875,8 @@ Write time and cannot be changed afterward.
 | NFS home directories                | 128K           | Mixed workload, default is fine                      |
 | Photo libraries (many small files)  | 128K           | Large enough for most image files                    |
 | Source code repositories            | 128K           | Many small reads, metadata caching is more important |
+
+</div>
 
 :::caution
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
@@ -5591,6 +5907,8 @@ Incorrect recordsize causes read amplification:
 
 ### Compression Algorithms
 
+<div class="table-wrap">
+
 | Algorithm            | Ratio                | CPU Cost | Speed     | Recommendation                         |
 | -------------------- | -------------------- | -------- | --------- | -------------------------------------- |
 | lz4                  | Good (1.3–1.5x)      | Very Low | Very Fast | Default for all workloads              |
@@ -5599,6 +5917,8 @@ Incorrect recordsize causes read amplification:
 | gzip-1 to gzip-9     | Variable             | Moderate | Moderate  | Legacy; zstd is better                 |
 | lzjb                 | Poor                 | Low      | Fast      | Legacy; avoid                          |
 | zle                  | None                 | None     | Fast      | Incompressible data (encrypted, media) |
+
+</div>
 
 ### When to Use Compression
 
@@ -5650,13 +5970,19 @@ $$
 DDT\_RAM = Unique\_Blocks \times 320 \mathrm{ bytes
 $$
 
+<div class="table-wrap">
+
 | Pool Size | Unique Data | DDT RAM Required |
 | --------- | ----------- | ---------------- |
 | 1 TB      | 500 GB      | ~160 GB          |
 | 5 TB      | 2.5 TB      | ~800 GB          |
 | 10 TB     | 5 TB        | ~1.6 TB          |
 
+</div>
+
 ### When to Use Dedup
+
+<div class="table-wrap">
 
 | Scenario                           | Use Dedup? | Rationale                             |
 | ---------------------------------- | ---------- | ------------------------------------- |
@@ -5665,6 +5991,8 @@ $$
 | General file storage               | No         | Low dedup ratio, high memory cost     |
 | Backup storage                     | No         | Most data is unique                   |
 | Database storage                   | No         | Low dedup ratio, performance impact   |
+
+</div>
 
 :::caution
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead, it provides
@@ -5688,6 +6016,8 @@ Meaningful space savings with no memory cost.
 
 TrueNAS uses Samba's `smbd` daemon for SMB file sharing. Tuning options include:
 
+<div class="table-wrap">
+
 | Setting          | Default | Recommended         | Effect                            |
 | ---------------- | ------- | ------------------- | --------------------------------- |
 | `min protocol`   | SMB1    | SMB3                | Security                          |
@@ -5696,6 +6026,8 @@ TrueNAS uses Samba's `smbd` daemon for SMB file sharing. Tuning options include:
 | `strict locking` | Auto    | No                  | Reduce lock contention            |
 | `strict sync`    | Auto    | No                  | Skip fsync on close (performance) |
 | `cache size`     | Auto    | Adjust based on RAM | Directory metadata cache          |
+
+</div>
 
 ### SMB Auxiliary Parameters
 
@@ -5766,10 +6098,14 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 ### async vs. Sync NFS
 
+<div class="table-wrap">
+
 | Mode  | Behavior                                             | Safety | Performance |
 | ----- | ---------------------------------------------------- | ------ | ----------- |
 | sync  | Server acknowledges write only after data is on disk | High   | Lower       |
 | async | Server acknowledges write before data is on disk     | Lower  | Higher      |
+
+</div>
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
@@ -5811,12 +6147,16 @@ Standard frames. Only enable jumbo frames if you control the entire network path
 Link aggregation (LACP, IEEE 802.3ad) bonds multiple network interfaces into a single logical
 Interface for increased throughput and redundancy:
 
+<div class="table-wrap">
+
 | Mode           | Throughput           | Failover | Requirements            |
 | -------------- | -------------------- | -------- | ----------------------- |
 | LACP (802.3ad) | Aggregate (per-flow) | Yes      | Switch support required |
 | Balance-XOR    | Aggregate (per-flow) | Yes      | No switch configuration |
 | Active-Backup  | Single link          | Yes      | No switch configuration |
 | Balance-ALB    | Aggregate (per-flow) | Yes      | No switch configuration |
+
+</div>
 
 **Important:** LACP aggregates bandwidth per-flow, not per-connection. A single SMB or NFS transfer
 Will use only one link. Aggregation benefits multi-client or multi-stream workloads.
@@ -5867,12 +6207,16 @@ For ZFS:
 
 A dedicated SLOG device accelerates synchronous writes:
 
+<div class="table-wrap">
+
 | Device Type            | Write Latency | Endurance | Cost                         |
 | ---------------------- | ------------- | --------- | ---------------------------- |
 | Intel Optane P5800X    | ~10 $\mu$ S    | Very High | Very High                    |
 | Enterprise NVMe (PLP)  | ~50 $\mu$ S    | High      | High                         |
 | Consumer NVMe (no PLP) | ~30 $\mu$ S    | Moderate  | Low (unsafe for sync writes) |
 | SATA SSD               | ~100 $\mu$ S   | Moderate  | Low                          |
+
+</div>
 
 ### L2ARC Devices
 
@@ -5885,6 +6229,8 @@ L2ARC extends the ARC to SSD storage:
 
 ### HBA vs. RAID Controller
 
+<div class="table-wrap">
+
 | Feature             | HBA (IT Mode)             | RAID Controller              |
 | ------------------- | ------------------------- | ---------------------------- |
 | ZFS compatibility   | Full (direct disk access) | Limited (virtual disks only) |
@@ -5893,6 +6239,8 @@ L2ARC extends the ARC to SSD storage:
 | Performance         | Native                    | May add overhead             |
 | Cost                | Low                       | High                         |
 | Boot support        | Sometimes                 |                              |
+
+</div>
 
 :::caution
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
@@ -5949,6 +6297,8 @@ kstat -p zfs:0:arcstats:l2_misses
 
 ### Common Performance Bottlenecks
 
+<div class="table-wrap">
+
 | Symptom               | Likely Cause                      | Diagnostic                                             |
 | --------------------- | --------------------------------- | ------------------------------------------------------ |
 | Slow random reads     | HDD pool, insufficient ARC        | Check ARC hit ratio, consider SSD L2ARC                |
@@ -5958,6 +6308,8 @@ kstat -p zfs:0:arcstats:l2_misses
 | Slow NFS access       | NFS mount options, network        | Check rsize/wsize, network MTU                         |
 | High CPU usage        | Compression, dedup, encryption    | Check compression algorithm, disable dedup             |
 | Low write throughput  | Insufficient vdevs, slow disks    | Add vdevs (striping across vdevs increases throughput) |
+
+</div>
 
 ---
 
@@ -6011,6 +6363,8 @@ Recordsize. Create separate datasets with appropriate recordsize for different w
 
 The ARC is a slab allocator that manages memory in several categories:
 
+<div class="table-wrap">
+
 | Category   | Description                                    | Typical Size  |
 | ---------- | ---------------------------------------------- | ------------- |
 | `arc_meta` | Metadata (dnode structures, directory entries) | 25–50% of ARC |
@@ -6018,6 +6372,8 @@ The ARC is a slab allocator that manages memory in several categories:
 | `arc_mfu`  | Most Frequently Used data                      | 40–60% of ARC |
 | `arc_mru`  | Most Recently Used data                        | 20–30% of ARC |
 | `arc_l2c`  | Pointers to L2ARC entries                      | 1–5% of ARC   |
+
+</div>
 
 ### ARC Hit Ratio Analysis
 
@@ -6116,6 +6472,8 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 
 ### Real-World Compression Ratios
 
+<div class="table-wrap">
+
 | Data Type      | lz4  | zstd-1 | zstd-3 | zstd-10 | zstd-19 |
 | -------------- | ---- | ------ | ------ | ------- | ------- |
 | Source code    | 2.1x | 2.4x   | 2.8x   | 3.5x    | 3.8x    |
@@ -6125,7 +6483,11 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 | Encrypted data | 1.0x | 1.0x   | 1.0x   | 1.0x    | 1.0x    |
 | JPEG images    | 1.0x | 1.0x   | 1.0x   | 1.0x    | 1.0x    |
 
+</div>
+
 ### zstd Compression Levels
+
+<div class="table-wrap">
 
 | Level | Speed (comp/decomp MB/s) | Ratio | Recommendation                             |
 | ----- | ------------------------ | ----- | ------------------------------------------ |
@@ -6133,6 +6495,8 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 | 3     | 200/800                  | 1.5x  | Good for compressible data                 |
 | 10    | 50/500                   | 1.7x  | Archive/compressible data, low CPU systems |
 | 19    | 10/300                   | 1.8x  | Maximum compression, very slow             |
+
+</div>
 
 ## SMB Tuning Deep Dive
 
@@ -6255,6 +6619,8 @@ ECC RAM detects and corrects single-bit errors in real time, preventing this sce
 
 ### SSD SLOG Selection Guide
 
+<div class="table-wrap">
+
 | Use Case              | Minimum SLOG      | Recommended SLOG      | Budget SLOG     |
 | --------------------- | ----------------- | --------------------- | --------------- |
 | NFS home directories  | Any SSD           | Enterprise NVMe (PLP) | Consumer NVMe   |
@@ -6263,9 +6629,13 @@ ECC RAM detects and corrects single-bit errors in real time, preventing this sce
 | Backup server         | Any SSD           | Consumer NVMe         | SATA SSD        |
 | File server           | None (ZIL in RAM) | None                  | None            |
 
+</div>
+
 ### HBA Configuration
 
 Popular HBAs for ZFS:
+
+<div class="table-wrap">
 
 | HBA Model         | Ports | Speed             | Firmware      | Notes                         |
 | ----------------- | ----- | ----------------- | ------------- | ----------------------------- |
@@ -6273,6 +6643,8 @@ Popular HBAs for ZFS:
 | LSI 9300-8i       | 8     | 12 Gbps (SAS3)    | IT mode (P16) | Modern, supports SAS3 drives  |
 | Broadcom 9500-16i | 16    | 12 Gbps (SAS3)    | IT mode       | High port count               |
 | LSI 9207-8i       | 8     | 6 Gbps            | IT mode       | Low-profile, rackmount        |
+
+</div>
 
 Flashing LSI cards to IT mode:
 
@@ -6375,6 +6747,8 @@ Write volume.
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
 your workload's typical I/O size is critical:
 
+<div class="table-wrap">
+
 | Workload                 | Recommended recordsize | Rationale                                               |
 | ------------------------ | ---------------------- | ------------------------------------------------------- |
 | Database (8K pages)      | 8K or 16K              | Matches database page size, reduces write amplification |
@@ -6382,6 +6756,8 @@ your workload's typical I/O size is critical:
 | Media files (video)      | 1M (default)           | Large sequential reads benefit from large blocks        |
 | Source code repositories | 128K                   | Many small files with varied access patterns            |
 | Photo libraries          | 128K or 256K           | Mixed file sizes, moderate random access                |
+
+</div>
 
 ```bash
 # Set recordsize for a PostgreSQL dataset
@@ -6416,6 +6792,8 @@ cat /proc/spl/kstat/zfs/arcstats | grep -E \
   "^hits|^misses|^size|^c_max|^deleted|^evict|^mfu|^mru|^prefetch|^demand"
 ```
 
+<div class="table-wrap">
+
 | Metric          | Meaning                        | Target                                                               |
 | --------------- | ------------------------------ | -------------------------------------------------------------------- |
 | `hits`          | ARC hit count                  | Should be &gt; 90% of total accesses                                 |
@@ -6425,6 +6803,8 @@ cat /proc/spl/kstat/zfs/arcstats | grep -E \
 | `mfu_hits`      | Most Frequently Used hits      | High values indicate working set fits in ARC                         |
 | `mru_hits`      | Most Recently Used hits        | High values indicate streaming access pattern                        |
 | `prefetch_hits` | Prefetch hits                  | Should be low to moderate; high means ZFS is prefetching effectively |
+
+</div>
 
 ### Calculating Hit Rate
 
@@ -6954,6 +7334,8 @@ TrueNAS is available in two main variants:
 
 ### Which Should You Choose?
 
+<div class="table-wrap">
+
 | Factor | Choose CORE | Choose SCALE |
 | -------- | ------------- | -------------- |
 | Existing CORE deployment | Keep it | Migrate when ready |
@@ -6961,6 +7343,8 @@ TrueNAS is available in two main variants:
 | Docker/Kubernetes apps | Not supported | Native support |
 | Enterprise features | Mature | Rapidly improving |
 | Community plugins | Large library | Growing library |
+
+</div>
 
 ---
 
@@ -6991,6 +7375,8 @@ Stripe of Mirrors, mirrors striped together; excellent performance and redundanc
 
 ### Recommended Layouts
 
+<div class="table-wrap">
+
 | Use Case | Recommended Layout | Reasoning |
 | ---------- | ------------------- | ----------- |
 | Home media server | RAIDZ2 | Good balance of capacity and redundancy |
@@ -6998,6 +7384,8 @@ Stripe of Mirrors, mirrors striped together; excellent performance and redundanc
 | Backup target | RAIDZ2 | Data integrity is paramount |
 | Virtual machine storage | Mirror or RAIDZ1 | IOPS performance matters |
 | Cold archive | RAIDZ3 | Maximum redundancy for irreplaceable data |
+
+</div>
 
 ### ZFS Datasets and Properties
 
@@ -7485,6 +7873,8 @@ This reference covers the operational knowledge needed to design, deploy, and ma
 System in a homelab or small-to-medium business environment. It is organized into the following
 Sections:
 
+<div class="table-wrap">
+
 | Section                 | Content                                                        |
 | ----------------------- | -------------------------------------------------------------- |
 | ZFS Deep Dive           | Pool architecture, vdev types, datasets, snapshots, ARC, scrub |
@@ -7494,6 +7884,8 @@ Sections:
 | Monitoring and Alerting | Grafana, Prometheus, SMART monitoring, alert configuration     |
 | Performance Tuning      | ARC sizing, recordsize, compression, SMB/NFS tuning, hardware  |
 | ZFS Encryption          | Native encryption, key management, raw send, security          |
+
+</div>
 
 The focus is on TrueNAS SCALE (Linux-based), but most ZFS concepts, CLI commands, and best practices
 Apply equally to TrueNAS CORE. Where there are platform-specific differences, they are noted.
@@ -7698,6 +8090,8 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 
 ### Why Native ZFS Encryption Over dm-crypt/LUKS
 
+<div class="table-wrap">
+
 | Feature                  | ZFS Native Encryption     | dm-crypt / LUKS          |
 | ------------------------ | ------------------------- | ------------------------ |
 | Encryption granularity   | Per-dataset               | Per-block device         |
@@ -7709,6 +8103,8 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 | TrueNAS integration      | Full GUI support          | Manual setup             |
 | Boot from encrypted pool | Supported (with key load) | Supported                |
 | Multiple encryption keys | Different keys per child  | Single key per volume    |
+
+</div>
 
 Native ZFS encryption provides the critical advantage of per-dataset key granularity. You can
 Encrypt one dataset with one passphrase and a sibling dataset with a different passphrase, all
@@ -7758,6 +8154,8 @@ For network protection, use SMB3 encryption, NFS with Kerberos (krb5p), or a VPN
 ZFS exposes encryption configuration through dataset properties. These properties control how
 Encryption operates, what keys are used, and where keys are stored.
 
+<div class="table-wrap">
+
 | Property         | Values                                                                         | Default | Set At                | Description                                 |
 | ---------------- | ------------------------------------------------------------------------------ | ------- | --------------------- | ------------------------------------------- |
 | `encryption`     | on, off, aes-256-gcm, aes-128-gcm, aes-256-ccm, chacha20-poly1305, aes-256-xts | off     | Dataset creation only | Encryption algorithm or on/off toggle       |
@@ -7766,6 +8164,8 @@ Encryption operates, what keys are used, and where keys are stored.
 | `pbkdf2iters`    | Integer (iterations)                                                           | 350000  | Dataset creation only | PBKDF2 iterations for passphrase stretching |
 | `encryptionroot` | Read-only (dataset path)                                                       | -       | Inherited             | The root dataset that holds the master key  |
 | `keystatus`      | Read-only (available, unavailable, none)                                       | -       | Read-only             | Whether the encryption key is loaded        |
+
+</div>
 
 ### Setting Encryption Properties
 
@@ -7848,6 +8248,8 @@ Now `tank/secret/separate-vault` requires its own key, independent of `tank/secr
 
 ### Encryption Algorithm Selection
 
+<div class="table-wrap">
+
 | Algorithm         | Key Size | Mode       | Performance (AES-NI) | Use Case                            |
 | ----------------- | -------- | ---------- | -------------------- | ----------------------------------- |
 | aes-256-gcm       | 256 bit  | GCM (AEAD) | Fastest              | Default, general purpose            |
@@ -7855,6 +8257,8 @@ Now `tank/secret/separate-vault` requires its own key, independent of `tank/secr
 | aes-256-ccm       | 256 bit  | CCM (AEAD) | Moderate             | Legacy hardware without GCM support |
 | chacha20-poly1305 | 256 bit  | Stream     | Moderate             | CPUs without AES-NI instructions    |
 | aes-256-xts       | 256 bit  | XTS        | Fast                 | Block device encryption (zvols)     |
+
+</div>
 
 **Definition.** AEAD (Authenticated Encryption with Associated Data) modes such as GCM and CCM
 Combine encryption and authentication in a single operation. This means every encrypted block has an
@@ -7872,12 +8276,16 @@ The `pbkdf2iters` property controls the number of PBKDF2 (Password-Based Key Der
 Iterations used to stretch a user passphrase into a cryptographic key. Higher values make
 Brute-force attacks on weak passphrases more expensive.
 
+<div class="table-wrap">
+
 | Iterations | Key Derivation Time (approx.) | Recommendation             |
 | ---------- | ----------------------------- | -------------------------- |
 | 100000     | ~50 ms                        | Legacy default, too low    |
 | 350000     | ~150 ms                       | Current default, minimum   |
 | 500000     | ~200 ms                       | Good for sensitive data    |
 | 1000000    | ~400 ms                       | High-security environments |
+
+</div>
 
 :::caution
 Set `pbkdf2iters=1000000`. Every boot (or key load) will take an additional ~400 ms per dataset. This
@@ -7902,12 +8310,16 @@ which use the raw key material directly.
 
 ZFS supports four key formats, each with different security and usability characteristics:
 
+<div class="table-wrap">
+
 | Key Format | Source                 | Key Length      | Security         | Convenience | Use Case                 |
 | ---------- | ---------------------- | --------------- | ---------------- | ----------- | ------------------------ |
 | passphrase | User-entered at prompt | Variable        | High (if strong) | Low         | Interactive use, laptops |
 | hex        | Hexadecimal string     | 64 chars (256b) | Medium           | High        | Automated key loading    |
 | raw        | Raw binary key file    | 32 bytes (256b) | Medium           | High        | Automated, key files     |
 | none       | No encryption          | N/A             | N/A              | N/A         | Unencrypted datasets     |
+
+</div>
 
 ### passphrase Format
 
@@ -7927,6 +8339,8 @@ zfs load-key tank/docs
 
 Passphrase strengths:
 
+<div class="table-wrap">
+
 | Type        | Example                      | Entropy (approx.) | Security  |
 | ----------- | ---------------------------- | ----------------- | --------- |
 | Weak        | password123                  | ~10 bits          | Broken    |
@@ -7934,6 +8348,8 @@ Passphrase strengths:
 | Strong      | correct horse battery staple | ~60 bits          | Moderate  |
 | Very strong | 7 random words (Diceware)    | ~90 bits          | Good      |
 | Excellent   | 16+ random ASCII characters  | ~105+ bits        | Excellent |
+
+</div>
 
 :::note
 Of 20+ characters. Store the passphrase in a password manager and write it down on paper stored in a
@@ -7986,12 +8402,16 @@ zfs load-key -L file:///root/keys/tank_docs.raw tank/docs
 
 The `keylocation` property specifies where ZFS finds the encryption key:
 
+<div class="table-wrap">
+
 | keylocation                 | Behavior                                  | Use Case                     |
 | --------------------------- | ----------------------------------------- | ---------------------------- |
 | `prompt`                    | Prompts on stdin at key load time         | Passphrase, interactive use  |
 | `file:///absolute/path`     | Reads key from a local file               | Automated key loading        |
 | `file:///path/to/directory` | For encryptionroot: reads child key files | Multi-dataset key management |
 | `https://server/path`       | Fetches key from an HTTPS URL             | Remote key server            |
+
+</div>
 
 ### Key Location Inheritance
 
@@ -8361,12 +8781,16 @@ zfs change-key -o encryption=aes-256-xts tank/secret
 The performance impact of ZFS encryption depends primarily on whether the CPU supports AES-NI (AES
 New Instructions) hardware acceleration:
 
+<div class="table-wrap">
+
 | CPU Feature  | Encryption Overhead (AES-256-GCM) | Notes                       |
 | ------------ | --------------------------------- | --------------------------- |
 | AES-NI       | 1-5%                              | Negligible on modern CPUs   |
 | No AES-NI    | 20-40%                            | Significant; use ChaCha20   |
 | AES-NI + AVX | 1-3%                              | Best case, modern Intel/AMD |
 | ARM crypto   | 3-10%                             | ARMv8 AES instructions      |
+
+</div>
 
 Most Intel CPUs since Westmere (2010) and AMD CPUs since Bulldozer (2011) support AES-NI. Check
 with:
@@ -8420,6 +8844,8 @@ Compression is always applied before encryption in the ZFS pipeline. This is cri
 zfs set compression=zstd tank/encrypted/docs
 ```
 
+<div class="table-wrap">
+
 | Data Type              | Compression | Encryption | Combined Effect                     |
 | ---------------------- | ----------- | ---------- | ----------------------------------- |
 | Text, code, logs       | 3-5x        | 1-5%       | Less data encrypted, net benefit    |
@@ -8427,6 +8853,8 @@ zfs set compression=zstd tank/encrypted/docs
 | Already-encrypted data | 1.0x        | 1-5%       | Disable compression, encrypt only   |
 | Media (JPEG, MP4, MKV) | 1.0x        | 1-5%       | Disable compression, encrypt only   |
 | Virtual machine images | 1.3-2.0x    | 1-5%       | Moderate compression before encrypt |
+
+</div>
 
 ### Encryption and Deduplication
 
@@ -8536,6 +8964,8 @@ on the special vdev is also inaccessible.
 
 Some ZFS properties interact with encryption in specific ways:
 
+<div class="table-wrap">
+
 | Property      | Interaction with Encryption                        |
 | ------------- | -------------------------------------------------- |
 | `compression` | Applied before encryption. Recommended to keep on. |
@@ -8545,6 +8975,8 @@ Some ZFS properties interact with encryption in specific ways:
 | `atime`       | No interaction. Set independently.                 |
 | `copies`      | Additional copies are encrypted with the same key. |
 | `xattr`       | Extended attributes are encrypted with the data.   |
+
+</div>
 
 ---
 
@@ -8579,6 +9011,8 @@ zfs send -Rw tank/encrypted@snap1 | ssh remote-nas zfs recv -F backup/encrypted
 
 ### Normal Send vs. Raw Send
 
+<div class="table-wrap">
+
 | Aspect          | Normal Send (`zfs send`)        | Raw Send (`zfs send -w`)                |
 | --------------- | ------------------------------- | --------------------------------------- |
 | Data form       | Plaintext (decrypted on source) | Ciphertext (encrypted)                  |
@@ -8588,6 +9022,8 @@ zfs send -Rw tank/encrypted@snap1 | ssh remote-nas zfs recv -F backup/encrypted
 | Properties      | Sent as plaintext values        | Preserved including encryption settings |
 | Cross-algorithm | Can change encryption algorithm | Preserves original algorithm            |
 | Use case        | Trusted destination             | Untrusted destination                   |
+
+</div>
 
 ### Raw Incremental Send
 
@@ -8643,6 +9079,8 @@ ssh backup-server "zfs send -Rw backup/offsite@monthly-2026-04" | \
 
 ### Send Flags for Encrypted Datasets
 
+<div class="table-wrap">
+
 | Flag | Effect on Encrypted Datasets                      |
 | ---- | ------------------------------------------------- |
 | `-w` | Raw mode: send encrypted blocks                   |
@@ -8652,6 +9090,8 @@ ssh backup-server "zfs send -Rw backup/offsite@monthly-2026-04" | \
 | `-L` | Large block send                                  |
 | `-v` | Verbose output                                    |
 | `-i` | Incremental between two snapshots                 |
+
+</div>
 
 ### Limitations of Raw Send
 
@@ -8768,6 +9208,8 @@ find /mnt/test/encrypted -type f -exec md5sum {} \; > /tmp/backup_checksums.txt
 The encryption key is the single point of failure for encrypted datasets. Protect the key with the
 Same rigor as the data it protects:
 
+<div class="table-wrap">
+
 | Threat                 | Mitigation                                     |
 | ---------------------- | ---------------------------------------------- |
 | Key file on same pool  | Store key file on separate media               |
@@ -8776,6 +9218,8 @@ Same rigor as the data it protects:
 | Passphrase forgotten   | Store in password manager + physical backup    |
 | Key file deleted       | Keep multiple backups of key files             |
 | Memory dump attack     | See RAM security below                         |
+
+</div>
 
 ### RAM (Memory) Security
 
@@ -8800,6 +9244,8 @@ Mitigations:
 
 ### Algorithm Choices
 
+<div class="table-wrap">
+
 | Algorithm         | Security Level | Performance   | Recommendation              |
 | ----------------- | -------------- | ------------- | --------------------------- |
 | aes-256-gcm       | Excellent      | Best (AES-NI) | Default, use for everything |
@@ -8808,14 +9254,20 @@ Mitigations:
 | chacha20-poly1305 | Good           | Good          | CPUs without AES-NI         |
 | aes-256-xts       | Good           | Good          | zvols / block devices only  |
 
+</div>
+
 ### crypt vs. Crypt2 Format
 
 ZFS encryption has two internal key wrapping formats: `crypt` (legacy) and `crypt2` (current):
+
+<div class="table-wrap">
 
 | Format | Key Wrapping Algorithm | Key Length Support | Recommendation |
 | ------ | ---------------------- | ------------------ | -------------- |
 | crypt  | PBKDF2-SHA512          | 256-bit only       | Legacy         |
 | crypt2 | HKDF-SHA512            | 128-bit, 256-bit   | Use this       |
+
+</div>
 
 The `crypt2` format (available since OpenZFS 2.1 / TrueNAS SCALE 22.02) supports both 128-bit and
 256-bit key lengths and uses HKDF (HMAC-based Key Derivation Function) for key wrapping, which is
@@ -9411,6 +9863,8 @@ URL: https://truenas.wyattau.com/diagnostics/diag-truenas/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -9423,6 +9877,8 @@ URL: https://truenas.wyattau.com/diagnostics/diag-truenas/
 | 8        | B             |
 | 9        | B             |
 | 10       | D             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of TrueNAS administration fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -9497,12 +9953,16 @@ Level.
 Use NAS-grade or enterprise drives. Consumer desktop drives (WD Blue, Seagate Barracuda) have
 Aggressive head-parking and shorter warranties.
 
+<div class="table-wrap">
+
 | Tier            | Example Drives                       | Use Case                             |
 | --------------- | ------------------------------------ | ------------------------------------ |
 | NAS             | WD Red Plus, Seagate IronWolf        | Primary storage pools                |
 | Enterprise      | WD Gold, HGST Ultrastar, Toshiba MG  | Heavy write workloads, critical data |
 | SSD (SATA/NVMe) | Samsung 870 EVO, WD Red SA500        | SLOG (ZIL), L2ARC, metadata vdev     |
 | Boot            | Any 32 GB+ SATA SSD or USB 3.0 flash | OS install only                      |
+
+</div>
 
 Key considerations:
 
@@ -9621,6 +10081,8 @@ tank/
 
 Key dataset options:
 
+<div class="table-wrap">
+
 | Setting     | Recommended Value | Notes                                                                        |
 | ----------- | ----------------- | ---------------------------------------------------------------------------- |
 | Compression | zstd              | Excellent compression ratio, fast. Set on the pool or per-dataset.           |
@@ -9628,6 +10090,8 @@ Key dataset options:
 | Sync        | standard          | Default. Set to `always` for NFS sync writes, `disabled` for disposable data |
 | Quota       | Set as needed     | Prevents a runaway process from filling the pool                             |
 | Recordsize  | 128K              | Default. Use 1M for large media files, 16K or 8K for databases               |
+
+</div>
 
 ```bash
 ## Verify compression savings from the CLI
@@ -9746,12 +10210,16 @@ Sane backup strategy.
 
 ### Recommended Snapshot Schedule
 
+<div class="table-wrap">
+
 | Dataset       | Frequency     | Retention |
 | ------------- | ------------- | --------- |
 | `tank/apps`   | Hourly        | 3 days    |
 | `tank/share`  | Every 6 hours | 2 weeks   |
 | `tank/media`  | Daily         | 30 days   |
 | `tank/backup` | Daily         | 90 days   |
+
+</div>
 
 ### Manual Snapshots and Rollback
 
@@ -10153,6 +10621,8 @@ URL: https://truenas.wyattau.com/setup/traefik/
 Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and
 Containerized environments. Key advantages over alternatives:
 
+<div class="table-wrap">
+
 | Feature                           | Traefik                            | Nginx Proxy Manager   | Caddy            |
 | --------------------------------- | ---------------------------------- | --------------------- | ---------------- |
 | Auto-discovery from Docker labels | Yes (native)                       | No (manual UI)        | Yes (via plugin) |
@@ -10162,6 +10632,8 @@ Containerized environments. Key advantages over alternatives:
 | Learning curve                    | Medium                             | Low                   | Low              |
 | Dashboard                         | Built-in                           | Built-in              | No               |
 | Docker Compose integration        | Excellent (labels on each service) | Separate container    | Good             |
+
+</div>
 
 Traefik shines in a homelab because it eliminates manual proxy configuration. When you start a new
 Container with the right labels, Traefik picks it up and routes traffic immediately, no restart, no

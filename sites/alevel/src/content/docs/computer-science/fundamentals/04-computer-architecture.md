@@ -52,6 +52,8 @@ its own bus.
 
 ### Comparison: Von Neumann vs Harvard
 
+<div class="table-wrap">
+
 | Property            | Von Neumann               | Harvard                               |
 | ------------------- | ------------------------- | ------------------------------------- |
 | Memory              | Single unified memory     | Separate instruction and data memory  |
@@ -60,6 +62,8 @@ its own bus.
 | Complexity          | Simpler hardware          | More complex hardware                 |
 | Self-modifying code | Possible (in theory)      | Not possible                          |
 | Modern usage        | General-purpose computers | DSPs, microcontrollers, cache systems |
+
+</div>
 
 :::note
 Cache is split into instruction cache and data cache (Harvard), while main memory is unified (Von
@@ -93,6 +97,8 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 
 ### Registers
 
+<div class="table-wrap">
+
 | Register | Full Name                    | Purpose                                            |
 | -------- | ---------------------------- | -------------------------------------------------- |
 | **PC**   | Program Counter              | Holds the address of the next instruction to fetch |
@@ -101,6 +107,8 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 | **ACC**  | Accumulator                  | Stores results of ALU operations                   |
 | **CIR**  | Current Instruction Register | Holds the instruction currently being decoded      |
 | **IR**   | Instruction Register         | Synonym for CIR (board-dependent naming)           |
+
+</div>
 
 :::note
 - **AQA** uses: PC, MAR, MDR, ACC, CIR
@@ -200,11 +208,15 @@ Components.
 
 ### Types
 
+<div class="table-wrap">
+
 | Bus         | Width (typical) | Purpose                                                 | Direction                   |
 | ----------- | --------------- | ------------------------------------------------------- | --------------------------- |
 | Data bus    | 8, 16, 32, 64   | Carries data between CPU, memory, and I/O               | Bidirectional               |
 | Address bus | 16, 32, 64      | Carries memory addresses                                | Unidirectional (CPU→memory) |
 | Control bus | Variable        | Carries control signals (read, write, clock, interrupt) | Mostly CPU→devices          |
+
+</div>
 
 **Key relationships:**
 
@@ -231,11 +243,15 @@ Soon (e.g., sequential array access, instruction stream).
 
 ### Cache Levels
 
+<div class="table-wrap">
+
 | Level | Location           | Size          | Speed     | Purpose                            |
 | ----- | ------------------ | ------------- | --------- | ---------------------------------- |
 | L1    | Inside CPU core    | 32–64 KiB     | ~1 ns     | Hottest data, split I/D            |
 | L2    | Inside CPU         | 256 KiB–1 MiB | ~3–10 ns  | Backup for L1                      |
 | L3    | Shared among cores | 4–64 MiB      | ~10–30 ns | Shared cache, reduces L1/L2 misses |
+
+</div>
 
 ### Cache Mapping Techniques
 
@@ -293,8 +309,12 @@ addresses using a **page table**.
 
 **Virtual address structure (32-bit, 4 KiB pages):**
 
+<div class="table-wrap">
+
 | Offset (12 bits) | Page number (20 bits) |
 | ---------------- | --------------------- |
+
+</div>
 
 **Page table entry (PTE):**
 
@@ -379,6 +399,8 @@ Cycles. Emphasis on hardware complexity.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property           | RISC                      | CISC                          |
 | ------------------ | ------------------------- | ----------------------------- |
 | Instruction count  | Small (50–100)            | Large (200–500+)              |
@@ -391,6 +413,8 @@ Cycles. Emphasis on hardware complexity.
 | Examples           | ARM, MIPS, RISC-V         | x86/x86-64                    |
 | Code density       | Lower (more instructions) | Higher (fewer instructions)   |
 | Power consumption  | Lower                     | Higher                        |
+
+</div>
 
 :::note
 RISC-like Internal micro-operations).

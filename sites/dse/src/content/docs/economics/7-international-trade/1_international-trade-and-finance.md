@@ -25,10 +25,14 @@ Country.
 
 ### Example
 
+<div class="table-wrap">
+
 | Country   | Rice (units/labour hour) | Cloth (units/labour hour) |
 | --------- | ------------------------ | ------------------------- |
 | Country A | 10                       | 5                         |
 | Country B | 4                        | 8                         |
+
+</div>
 
 Country A has an absolute advantage in producing rice (10 > 4). Country B has an absolute advantage
 in producing cloth (8 > 5).
@@ -65,10 +69,14 @@ Higher opportunity cost.
 
 ### Example
 
+<div class="table-wrap">
+
 | Country   | Rice (units/labour hour) | Cloth (units/labour hour) |
 | --------- | ------------------------ | ------------------------- |
 | Country A | 10                       | 5                         |
 | Country B | 4                        | 8                         |
+
+</div>
 
 **Opportunity costs:**
 
@@ -181,10 +189,14 @@ $$
 
 ### Interpretation
 
+<div class="table-wrap">
+
 | Terms of Trade          | Interpretation                                                                                                              |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Improving (rising)      | A country can buy more imports for the same quantity of exports. Its purchasing power in international trade has increased. |
 | Deteriorating (falling) | A country must export more to buy the same quantity of imports. Its purchasing power has decreased.                         |
+
+</div>
 
 ### Example
 
@@ -291,6 +303,8 @@ Production and allowing them to sell at a lower price.
 
 ### Comparison of Trade Barriers
 
+<div class="table-wrap">
+
 | Feature                   | Tariff                             | Quota                              | Subsidy                       |
 | ------------------------- | ---------------------------------- | ---------------------------------- | ----------------------------- |
 | Form                      | Tax on imports                     | Limit on import quantity           | Payment to domestic producers |
@@ -300,6 +314,8 @@ Production and allowing them to sell at a lower price.
 | Effect on domestic output | Increases                          | Increases                          | Increases                     |
 | Consumer effect           | Higher prices, less choice         | Higher prices, less choice         | Lower prices                  |
 | Producer effect           | Protected from foreign competition | Protected from foreign competition | Supported financially         |
+
+</div>
 
 ---
 
@@ -388,12 +404,16 @@ The BOP consists of three main accounts:
 
 The current account records trade in goods and services, income flows, and current transfers.
 
+<div class="table-wrap">
+
 | Component                            | Description                                                                                       |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------- |
 | Trade in goods (visible trade)       | Exports minus imports of physical goods                                                           |
 | Trade in services (invisible trade)  | Exports minus imports of services (e.g., banking, tourism, transport)                             |
 | Primary income                       | Income from investments abroad minus income paid to foreign investors (e.g., dividends, interest) |
 | Secondary income (current transfers) | One-way transfers with nothing received in return (e.g., remittances, foreign aid)                |
+
+</div>
 
 $$
 \mathrm{Current Account Balance} = \mathrm{(X - M)}_{\mathrm{goods}} + \mathrm{(X - M)}_{\mathrm{services}} + \mathrm{Primary Income} + \mathrm{Secondary Income}
@@ -414,12 +434,16 @@ Non-financial assets (e.g., patents, copyrights, land). This account is small.
 
 The financial account records cross-border investments in financial assets.
 
+<div class="table-wrap">
+
 | Component            | Description                                                                          |
 | -------------------- | ------------------------------------------------------------------------------------ |
 | Direct investment    | Long-term investment in enterprises (e.g., FDI -- setting up factories abroad)       |
 | Portfolio investment | Investment in shares, bonds, and other securities                                    |
 | Other investment     | Trade credits, loans, currency and deposits                                          |
 | Reserve assets       | Changes in the country's official foreign exchange reserves held by the central bank |
+
+</div>
 
 ### BOP Identity
 
@@ -500,6 +524,8 @@ the fixed rate) and **revaluation** (upward adjustment of the fixed rate).
 
 **Factors causing DEPRECIATION of a currency:**
 
+<div class="table-wrap">
+
 | Factor                  | Mechanism                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Higher inflation        | Domestic goods become relatively more expensive; demand for exports falls; demand for imports rises; demand for domestic currency falls |
@@ -509,6 +535,8 @@ the fixed rate) and **revaluation** (upward adjustment of the fixed rate).
 | Lower economic growth   | Less attractive for foreign investment; lower demand for currency                                                                       |
 | Speculation             | If traders expect depreciation, they sell the currency, causing it to depreciate (self-fulfilling)                                      |
 
+</div>
+
 **Factors causing APPRECIATION of a currency:**
 
 The reverse of the above factors.
@@ -517,6 +545,8 @@ The reverse of the above factors.
 
 **Effects of DEPRECIATION:**
 
+<div class="table-wrap">
+
 | Effect                              | Explanation                                                                                  |
 | ----------------------------------- | -------------------------------------------------------------------------------------------- |
 | Exports become cheaper              | Foreign buyers need less of their currency to buy domestic goods; export demand increases    |
@@ -524,6 +554,8 @@ The reverse of the above factors.
 | Current account may improve         | Higher export revenue and lower import spending (if the Marshall-Lerner condition holds)     |
 | Imported inflation                  | More expensive imports raise the cost of imported raw materials and consumer goods           |
 | Foreign debt becomes more expensive | If debt is denominated in foreign currency, more domestic currency is needed to repay        |
+
+</div>
 
 **Effects of APPRECIATION:**
 
@@ -579,6 +611,8 @@ Appreciates or depreciates together with the USD.
 
 ### When the USD/HKD Appreciates
 
+<div class="table-wrap">
+
 | Effect                        | Impact on Hong Kong Economy                                                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Exports become more expensive | Hong Kong's exports (goods and services) become more expensive for foreign buyers; export demand falls; tourism from abroad decreases |
@@ -587,6 +621,8 @@ Appreciates or depreciates together with the USD.
 | Tourism                       | Fewer tourists (Hong Kong becomes more expensive for visitors); tourism revenue falls                                                 |
 | Investment                    | Foreign investment may decrease (higher costs); outward investment may increase (cheaper to invest abroad)                            |
 | Current account               | May deteriorate (lower export revenue, though import costs also fall)                                                                 |
+
+</div>
 
 ### When the USD/HKD Depreciates
 
@@ -770,10 +806,14 @@ If X exports 20 wheat to Y at the rate 1 wheat = 1.2 cloth:
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Country | Before Trade (Wheat, Cloth) | After Trade (Wheat, Cloth) | Gains               |
 | ------- | --------------------------- | -------------------------- | ------------------- |
 | X       | 30, 15                      | 40, 24                     | +10 wheat, +9 cloth |
 | Y       | 20, 20                      | 20, 16                     | 0 wheat, -4 cloth   |
+
+</div>
 
 Wait -- Country Y is worse off. Let me recalculate with a different exchange rate.
 
@@ -1404,11 +1444,15 @@ If you get this wrong, revise: [Trade Barriers](#trade-barriers)
 Three countries can produce computers and textiles with the following labour requirements (hours per
 unit):
 
+<div class="table-wrap">
+
 |                | Computers | Textiles |
 | -------------- | --------- | -------- |
 | Hong Kong      | 10        | 5        |
 | Mainland China | 30        | 3        |
 | Vietnam        | 50        | 2        |
+
+</div>
 
 (a) Which country has an absolute advantage in each good? (b) Calculate the opportunity cost of 1
 computer in each country. (c) If each country has 1000 labour hours, calculate the production

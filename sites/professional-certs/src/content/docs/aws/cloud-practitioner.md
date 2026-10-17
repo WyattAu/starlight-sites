@@ -22,12 +22,16 @@ The AWS Cloud Practitioner certification is an entry-level certification that va
 
 ### Domains Covered
 
+<div class="table-wrap">
+
 | Domain | Weight | Questions |
 | -------- | -------- | ----------- |
 | Cloud Concepts | 24-30% | 16-20 |
 | Security and Compliance | 30-36% | 20-24 |
 | Cloud Technology and Services | 34-40% | 22-26 |
 | Billing, Pricing, and Support | 8-12% | 5-8 |
+
+</div>
 
 ---
 

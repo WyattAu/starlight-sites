@@ -304,6 +304,8 @@ Unnecessary and potentially harmful.
 
 ### Comprehensive List of AD Shift Factors
 
+<div class="table-wrap">
+
 | Factor                                  | Direction of AD Shift | Mechanism                                 |
 | --------------------------------------- | --------------------- | ----------------------------------------- |
 | Consumer confidence rises               | Rightward             | $C \uparrow$                              |
@@ -319,7 +321,11 @@ Unnecessary and potentially harmful.
 | Business confidence falls               | Leftward              | $I \downarrow$                            |
 | Corporation tax rises                   | Leftward              | $I \downarrow$ (lower after-tax returns)  |
 
+</div>
+
 ### Comprehensive List of SRAS Shift Factors
+
+<div class="table-wrap">
 
 | Factor                                 | Direction of SRAS Shift        | Mechanism                           |
 | -------------------------------------- | ------------------------------ | ----------------------------------- |
@@ -333,6 +339,8 @@ Unnecessary and potentially harmful.
 | Indirect tax (VAT) increases           | Leftward                       | Higher costs passed to prices       |
 | Good harvest                           | Rightward                      | Lower food costs                    |
 | Natural disaster                       | Leftward                       | Supply disruption                   |
+
+</div>
 
 ### AD-AS Diagram Analysis Framework
 
@@ -469,6 +477,8 @@ these extremes, there is a revenue-maximising tax rate $t^*$.
 
 ### Market-Based vs. Interventionist Supply-Side Policies: Evaluation
 
+<div class="table-wrap">
+
 | Criterion                  | Market-Based                                          | Interventionist                               |
 | -------------------------- | ----------------------------------------------------- | --------------------------------------------- |
 | Speed of impact            | Faster (tax cuts work quickly)                        | Slower (education, infrastructure take years) |
@@ -477,6 +487,8 @@ these extremes, there is a revenue-maximising tax rate $t^*$.
 | Risk of government failure | Lower (less direct intervention)                      | Higher (inefficient allocation, corruption)   |
 | Risk of market failure     | Higher (deregulation may cause externalities)         | Lower (government can correct failures)       |
 | Political feasibility      | Varies (tax cuts popular, deregulation controversial) | Varies (spending popular, taxes unpopular)    |
+
+</div>
 
 ## Economic Growth Models (HL Extension)
 
@@ -852,11 +864,15 @@ A country cannot simultaneously maintain all three of:
 
 It must choose two of the three.
 
+<div class="table-wrap">
+
 | Choice                                     | Examples                           | Implications                   |
 | ------------------------------------------ | ---------------------------------- | ------------------------------ |
 | Fixed rate + Free capital                  | Hong Kong (USD peg), Eurozone      | No independent monetary policy |
 | Fixed rate + Independent monetary policy   | China (pre-2005, capital controls) | Must restrict capital flows    |
 | Free capital + Independent monetary policy | US, UK, Australia, Canada          | Floating exchange rate         |
+
+</div>
 
 ### Floating Exchange Rate: Advantages and Disadvantages
 
@@ -1298,10 +1314,14 @@ The slope of the BP curve depends on capital mobility:
 
 ### Policy Effectiveness under Different Exchange Rate Regimes
 
+<div class="table-wrap">
+
 | Policy             | Fixed rates                                    | Floating rates                           |
 | ------------------ | ---------------------------------------------- | ---------------------------------------- |
 | Fiscal expansion   | Effective (no crowding out from capital flows) | Ineffective (appreciation crowds out NX) |
 | Monetary expansion | Ineffective (capital outflows force reversal)  | Effective (depreciation stimulates NX)   |
+
+</div>
 
 ### Numerical Example: IS-LM-BP
 

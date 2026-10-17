@@ -147,6 +147,8 @@ Certification preparation for language proficiency and professional IT qualifica
 
 ## All Sites at a Glance
 
+<div class="table-wrap">
+
 | # | Site | Domain | Focus |
 | --- | ------ | -------- | ------- |
 | 1 | Main | wyattsnotes.wyattau.com | Network hub and navigation |
@@ -195,6 +197,8 @@ Certification preparation for language proficiency and professional IT qualifica
 | 44 | Language Tests | language-tests.wyattau.com | IELTS, TOEFL, and more |
 | 45 | Professional Certs | professional-certs.wyattau.com | IT certifications |
 | 46 | Civics Tests | civics-tests.wyattau.com | US citizenship test |
+
+</div>
 
 ---
 

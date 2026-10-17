@@ -91,6 +91,8 @@ development on platforms beyond Apple, including Linux and Windows.
 
 ## Swift vs Other Languages
 
+<div class="table-wrap">
+
 | Feature           | Swift        | Python      | TypeScript    | Rust        |
 | ----------------- | ------------ | ----------- | ------------- | ----------- |
 | Type system       | Strong, safe | Dynamic     | Gradual       | Strong      |
@@ -99,6 +101,8 @@ development on platforms beyond Apple, including Linux and Windows.
 | Concurrency       | async/await  | async/await | async/await   | async/await |
 | Primary domain    | Apple        | General     | Web           | Systems     |
 | Null safety       | Optionals    | None        | Union/null    | Option      |
+
+</div>
 
 ## Setting Up the Development Environment
 
@@ -455,6 +459,8 @@ func greet(_ subject: Identifiable) {
 
 ### Popular Third-Party Libraries
 
+<div class="table-wrap">
+
 | Library                     | Purpose                       |
 | --------------------------- | ----------------------------- |
 | Alamofire                   | HTTP networking               |
@@ -465,6 +471,8 @@ func greet(_ subject: Identifiable) {
 | RxSwift                     | Reactive extensions           |
 | The Composable Architecture | State management architecture |
 | Alamofire                   | HTTP networking               |
+
+</div>
 
 ### Server-Side Swift
 

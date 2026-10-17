@@ -66,6 +66,8 @@ Higher melting points, and lower volatility.
 
 The first four members of each homologous series have historical names:
 
+<div class="table-wrap">
+
 | Number of carbons | Prefix |
 | ----------------- | ------ |
 | 1                 | Meth-  |
@@ -76,6 +78,8 @@ The first four members of each homologous series have historical names:
 | 6                 | Hex-   |
 | 7                 | Hept-  |
 | 8                 | Oct-   |
+
+</div>
 
 These prefixes are combined with the suffix that identifies the homologous series: -ane for alkanes,
 -ene for alkenes, -ol for alcohols, -oic acid for carboxylic acids.
@@ -95,6 +99,8 @@ The formula is derived from the fact that each carbon atom forms four bonds. In 
 The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
 to two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
 
+<div class="table-wrap">
+
 | Name    | Formula       | Structure | Boiling Point ($^{\circ}$ C) |
 | ------- | ------------- | --------- | --------------------------- |
 | Methane | CH$_4$        | 1 carbon  | -162                        |
@@ -105,6 +111,8 @@ to two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 
 | Hexane  | C$_6$H$_{14}$ | 6 carbons | 69                          |
 | Heptane | C$_7$H$_{16}$ | 7 carbons | 98                          |
 | Octane  | C$_8$H$_{18}$ | 8 carbons | 126                         |
+
+</div>
 
 **Trend:** Boiling point increases with chain length due to stronger London forces (more surface
 Area for intermolecular attraction, more electrons to polarise).
@@ -219,11 +227,15 @@ $$
 \mathrm{C_n\mathrm{H_{2n}
 $$
 
+<div class="table-wrap">
+
 | Name    | Formula    |
 | ------- | ---------- |
 | Ethene  | C$_2$H$_4$ |
 | Propene | C$_3$H$_6$ |
 | Butene  | C$_4$H$_8$ |
+
+</div>
 
 The double bond consists of one sigma bond and one pi bond. The pi bond is formed by the sideways
 Overlap of p orbitals above and below the plane of the molecule. This pi bond is weaker than the
@@ -304,6 +316,8 @@ PVC) are burned.
 
 ### 3.6 Summary: Alkanes vs. Alkenes
 
+<div class="table-wrap">
+
 | Property           | Alkanes                 | Alkenes                  |
 | ------------------ | ----------------------- | ------------------------ |
 | General formula    | C$_n$H$_{2n+2}$         | C$_n$H$_{2n}$            |
@@ -311,6 +325,8 @@ PVC) are burned.
 | Reactivity         | Less reactive           | More reactive            |
 | Bromine water test | No reaction             | Decolourises             |
 | Combustion         | Complete and incomplete | Same                     |
+
+</div>
 
 ## 4. Alcohols
 
@@ -322,12 +338,16 @@ $$
 \mathrm{C_n\mathrm{H_{2n+1}\mathrm{OH
 $$
 
+<div class="table-wrap">
+
 | Name     | Formula      | Boiling Point ($^{\circ}$ C) |
 | -------- | ------------ | --------------------------- |
 | Methanol | CH$_3$OH     | 65                          |
 | Ethanol  | C$_2$H$_5$OH | 78                          |
 | Propanol | C$_3$H$_7$OH | 97                          |
 | Butanol  | C$_4$H$_9$OH | 118                         |
+
+</div>
 
 **Physical properties:**
 
@@ -419,12 +439,16 @@ $$
 \mathrm{C_n\mathrm{H_{2n+1}\mathrm{COOH
 $$
 
+<div class="table-wrap">
+
 | Name           | Formula        |
 | -------------- | -------------- |
 | Methanoic acid | HCOOH          |
 | Ethanoic acid  | CH$_3$COOH     |
 | Propanoic acid | C$_2$H$_5$COOH |
 | Butanoic acid  | C$_3$H$_7$COOH |
+
+</div>
 
 ### 5.2 Properties
 
@@ -497,6 +521,8 @@ Crude oil is a mixture of hydrocarbons with different chain lengths. These are s
 
 **Fractions and their uses:**
 
+<div class="table-wrap">
+
 | Fraction          | Carbon Chain   | Use                       |
 | ----------------- | -------------- | ------------------------- |
 | Refinery gas      | C$_1$--C$_4$   | Bottled gas, fuel         |
@@ -506,6 +532,8 @@ Crude oil is a mixture of hydrocarbons with different chain lengths. These are s
 | Diesel oil        | C$_15$--C$_19$ | Diesel engines            |
 | Fuel oil          | C$_20$--C$_30$ | Ship fuel, power stations |
 | Bitumen           | C$_{30+}$      | Road surfacing            |
+
+</div>
 
 The trend in properties down the fractionating column: shorter chains are more volatile, have lower
 Boiling points, are less viscous, and burn more cleanly. Longer chains are less volatile, have
@@ -549,12 +577,16 @@ $$
 
 ### 7.1 Natural Polymers
 
+<div class="table-wrap">
+
 | Polymer   | Monomer     | Links                |
 | --------- | ----------- | -------------------- |
 | Starch    | Glucose     | Glycosidic bonds     |
 | Cellulose | Glucose     | Glycosidic bonds     |
 | Protein   | Amino acids | Peptide bonds        |
 | DNA       | Nucleotides | Phosphodiester bonds |
+
+</div>
 
 Natural polymers are formed by condensation polymerisation, where monomers join with the elimination
 of a small molecule ( water).
@@ -571,6 +603,8 @@ Conditions, may contaminate recycling streams if mixed with conventional plastic
 
 ### 7.3 Addition vs. Condensation Polymerisation
 
+<div class="table-wrap">
+
 | Feature             | Addition Polymerisation | Condensation Polymerisation     |
 | ------------------- | ----------------------- | ------------------------------- |
 | Monomer type        | Alkene (C=C)            | Two different functional groups |
@@ -578,7 +612,11 @@ Conditions, may contaminate recycling streams if mixed with conventional plastic
 | Example             | Poly(ethene)            | Nylon, polyester                |
 | By-products         | None                    | Water                           |
 
+</div>
+
 ## 8. Alcohols vs. Carboxylic Acids vs. Esters: A Comparison
+
+<div class="table-wrap">
 
 | Property            | Alcohols               | Carboxylic Acids       | Esters                   |
 | ------------------- | ---------------------- | ---------------------- | ------------------------ |
@@ -589,9 +627,13 @@ Conditions, may contaminate recycling streams if mixed with conventional plastic
 | Typical reaction    | Oxidation, dehydration | Esterification         | Hydrolysis               |
 | Odour               | Characteristic         | Pungent                | Sweet/fruity             |
 
+</div>
+
 ## 9. Summary of Organic Reactions
 
 ### 9.1 Reaction Types Summary
+
+<div class="table-wrap">
 
 | Reaction Type  | Description                          | Example                                                                                                |
 | -------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -601,6 +643,8 @@ Conditions, may contaminate recycling streams if mixed with conventional plastic
 | Polymerisation | Monomers join to form long chains    | $n\mathrm{C_2\mathrm{H_4 \to \mathrm{poly(ethene)$                                                     |
 | Esterification | Acid + alcohol $\to$ ester + water   | $\mathrm{CH_3\mathrm{COOH + \mathrm{C_2\mathrm{H_5\mathrm{OH \to \mathrm{ester + \mathrm{H_2\mathrm{O$ |
 | Fermentation   | Sugar $\to$ ethanol + carbon dioxide | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \to 2\mathrm{C_2\mathrm{H_5\mathrm{OH + 2\mathrm{CO_2$           |
+
+</div>
 
 ## Common Pitfalls
 
@@ -684,6 +728,8 @@ Conditions, may contaminate recycling streams if mixed with conventional plastic
 
 To identify the monomer, remove the brackets and the subscript $n$:
 
+<div class="table-wrap">
+
 | Polymer                 | Repeating Unit               | Monomer                        |
 | ----------------------- | ---------------------------- | ------------------------------ |
 | Poly(ethene)            | $-$ CH$_2$-CH$_2$-$-$\_n$     | Ethene (C$_2$H$_4$)            |
@@ -691,13 +737,19 @@ To identify the monomer, remove the brackets and the subscript $n$:
 | PVC                     | $-$ CH$_2$-CHCl-$-$\_n$       | Chloroethene (C$_2$H$_3$Cl)    |
 | Poly(tetrafluoroethene) | $-$ CF$_2$-CF$_2$-$-$\_n$     | Tetrafluoroethene (C$_2$F$_4$) |
 
+</div>
+
 ### 10.2 Problems with Disposal
+
+<div class="table-wrap">
 
 | Disposal Method | Advantages          | Disadvantages                               |
 | --------------- | ------------------- | ------------------------------------------- |
 | Landfill        | Cheap, simple       | Leaches chemicals, never decomposes         |
 | Incineration    | Energy recovery     | Can release toxic gases (e.g. HCl from PVC) |
 | Recycling       | Conserves resources | Sorting is difficult and expensive          |
+
+</div>
 
 ### 10.3 Biodegradable Alternatives
 
@@ -734,10 +786,14 @@ Valuable shorter-chain alkanes and alkenes.
 
 ### 11.2 Types of Cracking
 
+<div class="table-wrap">
+
 | Type               | Conditions                                            | Products                                             |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------- |
 | Thermal cracking   | High temperature (400--900$^{\circ}$C), high pressure | Shorter alkanes + alkenes                            |
 | Catalytic cracking | Moderate temperature, zeolite catalyst                | Branched alkanes + cycloalkanes + aromatic compounds |
+
+</div>
 
 ### 11.3 Worked Examples
 

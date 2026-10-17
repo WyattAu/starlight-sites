@@ -25,6 +25,8 @@ Scheduler, which requires an I/O event, and which is initiated by the process it
 
 **Solution.** (Revision: §2.1)
 
+<div class="table-wrap">
+
 | Transition           | Trigger              |
 | -------------------- | -------------------- |
 | New → Ready          | OS admission         |
@@ -33,6 +35,8 @@ Scheduler, which requires an I/O event, and which is initiated by the process it
 | Running → Blocked    | I/O or wait request  |
 | Blocked → Ready      | I/O completion       |
 | Running → Terminated | `exit()` system call |
+
+</div>
 
 The scheduler triggers Ready → Running and Running → Ready (preemption). I/O events trigger Running
 → Blocked and Blocked → Ready. The process itself initiates Running → Terminated.
@@ -64,12 +68,16 @@ Processes arrive in the order $P_1$ (burst 10, arrival 0), $P_2$ (burst 5, arriv
 
 Gantt: $\lvert P_1(10) \rvert P_2(5) \rvert P_3(2) \rvert$ at times 0, 10, 15, 17.
 
+<div class="table-wrap">
+
 | Process | Waiting  | Turnaround |
 | ------- | -------- | ---------- |
 | $P_1$   | 0        | 10         |
 | $P_2$   | 9        | 14         |
 | $P_3$   | 13       | 15         |
 | **Avg** | **7.33** | **13**     |
+
+</div>
 
 $P_3$ waits the longest despite having the shortest burst, the convoy effect.
 
@@ -87,12 +95,16 @@ At $t = 0$ Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 
 
 Gantt: $\lvert P_1(10) \rvert P_3(2) \rvert P_2(5) \rvert$ at times 0, 10, 12, 17.
 
+<div class="table-wrap">
+
 | Process | Waiting | Turnaround |
 | ------- | ------- | ---------- |
 | $P_1$   | 0       | 10         |
 | $P_2$   | 10      | 15         |
 | $P_3$   | 8       | 10         |
 | **Avg** | **6**   | **11.67**  |
+
+</div>
 
 Average waiting time improves from 7.33 to 6 compared to FCFS.
 
@@ -112,12 +124,16 @@ $\lvert P_1(2) \rvert P_2(2) \rvert P_3(2) \rvert P_1(2) \rvert P_2(2) \rvert P_
 
 Times: 0, 2, 4, 6, 8, 10, 12, 13, 15, 17.
 
+<div class="table-wrap">
+
 | Process | Completion | Turnaround |
 | ------- | ---------- | ---------- |
 | $P_1$   | 17         | 17         |
 | $P_2$   | 13         | 12         |
 | $P_3$   | 6          | 4          |
 | **Avg** |            | **11**     |
+
+</div>
 
 Round Robin gives the fastest turnaround for $P_3$ (4 vs 10 under SJF) at the cost of slower Average
 turnaround.
@@ -139,12 +155,16 @@ $P_2$ completes. $P_1$ resumes (remaining 6). $t=14$: $P_1$ completes.
 
 Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \rvert$
 
+<div class="table-wrap">
+
 | Process | Completion | Turnaround | Waiting |
 | ------- | ---------- | ---------- | ------- |
 | $P_1$   | 14         | 14         | 6       |
 | $P_2$   | 8          | 7          | 3       |
 | $P_3$   | 4          | 2          | 0       |
 | **Avg** |            | **7.67**   | **3**   |
+
+</div>
 
 </details>
 
@@ -241,11 +261,15 @@ $R_2$ and requests $R_1$ The same circular wait exists.
 
 Three processes, three resource types. Available = $(3, 2, 1)$.
 
+<div class="table-wrap">
+
 | Process | Allocation | Max       | Need      |
 | ------- | ---------- | --------- | --------- |
 | $P_0$   | (1, 0, 0)  | (3, 2, 1) | (2, 2, 1) |
 | $P_1$   | (1, 0, 1)  | (2, 1, 2) | (1, 1, 1) |
 | $P_2$   | (1, 1, 0)  | (2, 1, 1) | (1, 0, 1) |
+
+</div>
 
 Determine if the system is in a safe state.
 
@@ -345,6 +369,8 @@ under LRU and under FIFO. Does Belady's anomaly occur?
 
 _FIFO (4 frames):_
 
+<div class="table-wrap">
+
 | Ref | F1  | F2  | F3  | F4  | Fault?                     |
 | --- | --- | --- | --- | --- | -------------------------- |
 | 1   | 1   |     |     |     | Yes                        |
@@ -359,9 +385,13 @@ _FIFO (4 frames):_
 | 3   | 5   | 1   | 2   | 3   | Yes                        |
 | 4   | 5   | 1   | 2   | 3   | No (wait, 4 not in frames) |
 
+</div>
+
 Let me redo FIFO more carefully. FIFO replaces the oldest page in memory.
 
 Frames after each reference (FIFO queue, front = oldest):
+
+<div class="table-wrap">
 
 | Ref | Queue (oldest→newest) | Fault? |
 | --- | --------------------- | ------ |
@@ -378,12 +408,16 @@ Frames after each reference (FIFO queue, front = oldest):
 | 4   | [1, 2, 3, 4]          | Yes    |
 | 5   | [2, 3, 4, 5]          | Yes    |
 
+</div>
+
 FIFO faults: **10**.
 
 With 3 frames: faults = **9** (from Belady's anomaly example in the text). With 4 frames: faults =
 **10**. Belady's anomaly occurs: more frames produce more faults.
 
 _LRU (4 frames):_ LRU replaces the least recently used page.
+
+<div class="table-wrap">
 
 | Ref | Frames       | Fault? |
 | --- | ------------ | ------ |
@@ -399,6 +433,8 @@ _LRU (4 frames):_ LRU replaces the least recently used page.
 | 3   | [5, 1, 2, 3] | Yes    |
 | 4   | [4, 1, 2, 3] | Yes    |
 | 5   | [4, 5, 2, 3] | Yes    |
+
+</div>
 
 LRU faults: **10**. LRU does not exhibit Belady's anomaly (it is a stack algorithm), but in this
 Particular reference string, 3 and 4 frames happen to produce the same count under LRU.
@@ -581,10 +617,14 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Site       | Link                                                                                                       |
 | ------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Operating Systems] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/05-operating-systems) |
 | [Operating Systems] | University | [View](https://computer-science.wyattau.com/)              |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

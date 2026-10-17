@@ -129,6 +129,8 @@ After the handshake, communication uses a binary frame format:
 
 ### Frame Fields
 
+<div class="table-wrap">
+
 | Field                   | Bits  | Description                                                                      |
 | ----------------------- | ----- | -------------------------------------------------------------------------------- |
 | FIN                     | 1     | 1 = final frame of message, 0 = more frames follow                               |
@@ -139,6 +141,8 @@ After the handshake, communication uses a binary frame format:
 | Extended payload length | 16/64 | Actual payload length when payload length is 126 or 127                          |
 | Masking key             | 32    | 4-byte key used to unmask the payload (if MASK=1)                                |
 | Payload data            | var   | The actual data                                                                  |
+
+</div>
 
 ### Fragmentation
 
@@ -197,6 +201,8 @@ On modern hardware, this is negligible even at high throughput.
 
 ## Opcodes
 
+<div class="table-wrap">
+
 | Opcode | Meaning          | Description                          |
 | ------ | ---------------- | ------------------------------------ |
 | 0x0    | Continuation     | Continuation of a fragmented message |
@@ -207,6 +213,8 @@ On modern hardware, this is negligible even at high throughput.
 | 0x9    | Ping             | Keepalive ping                       |
 | 0xA    | Pong             | Response to a ping                   |
 | 0xB-F  | Reserved         | For future use                       |
+
+</div>
 
 ### Text vs Binary
 
@@ -232,6 +240,8 @@ The close frame begins the WebSocket closing handshake. The payload contains:
 
 Standard close codes:
 
+<div class="table-wrap">
+
 | Code | Meaning                    | Description                                        |
 | ---- | -------------------------- | -------------------------------------------------- |
 | 1000 | Normal Closure             | Purpose fulfilled, connection closing              |
@@ -249,6 +259,8 @@ Standard close codes:
 | 1013 | Try Again Later            | Server temporarily overloaded                      |
 | 1014 | Bad Gateway                | Server acting as gateway received invalid response |
 | 1015 | TLS Handshake Failure      | Reserved (must not be sent by endpoints)           |
+
+</div>
 
 ### Ping/Pong (0x9/0xA)
 
@@ -402,6 +414,8 @@ function createWebSocket(url, protocols) {
 
 ## WebSocket vs HTTP vs SSE
 
+<div class="table-wrap">
+
 | Feature        | WebSocket     | HTTP (polling)   | SSE              |
 | -------------- | ------------- | ---------------- | ---------------- |
 | Direction      | Bidirectional | Request-response | Server-to-client |
@@ -414,6 +428,8 @@ function createWebSocket(url, protocols) {
 | Auto-reconnect | Manual        | N/A              | Built-in         |
 | Proxy/firewall | May block     | Works            | Works            |
 | Scalability    | Challenging   | Easy             | Moderate         |
+
+</div>
 
 ### When to Choose WebSocket
 
@@ -630,12 +646,16 @@ State from previous messages.
 
 Compression negotiation parameters:
 
+<div class="table-wrap">
+
 | Parameter                  | Description                                             |
 | -------------------------- | ------------------------------------------------------- |
 | server_no_context_takeover | Server creates a new zlib context for each message      |
 | client_no_context_takeover | Client creates a new zlib context for each message      |
 | server_max_window_bits     | Server's LZ77 sliding window size (8-15, 15 is default) |
 | client_max_window_bits     | Client's LZ77 window size limit (8-15, 15 is default)   |
+
+</div>
 
 Smaller window sizes reduce memory usage but also reduce compression ratio. For most server
 Applications, the default window size (15) is appropriate.

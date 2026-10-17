@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                                            |
 | ---------- | ---------- | ---------------------------------------------------------------- |
 | AQA        | Paper 1, 2 | Binomial theorem for positive integer $n$; P2: general expansion |
 | Edexcel    | P1, P2     | P1: positive integer; P2: negative/fractional                    |
 | OCR (A)    | Paper 1, 2 | Similar split                                                    |
 | CIE (9709) | P1, P3     | P1: positive integer; P3: general                                |
+
+</div>
 
 :::note
 Memorise it.

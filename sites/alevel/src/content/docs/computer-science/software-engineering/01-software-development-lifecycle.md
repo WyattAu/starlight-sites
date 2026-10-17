@@ -51,6 +51,8 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 
 ### Characteristics
 
+<div class="table-wrap">
+
 | Property             | Value                                |
 | -------------------- | ------------------------------------ |
 | Type                 | Plan-driven                          |
@@ -59,6 +61,8 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 | Documentation        | Extensive                            |
 | Risk                 | High, issues found late are costly  |
 | Best for             | Well-understood, stable requirements |
+
+</div>
 
 ### Advantages
 
@@ -113,6 +117,8 @@ A specific Agile methodology with defined roles, events, and artefacts.
 
 ### Characteristics
 
+<div class="table-wrap">
+
 | Property             | Value                                      |
 | -------------------- | ------------------------------------------ |
 | Type                 | Change-driven                              |
@@ -121,6 +127,8 @@ A specific Agile methodology with defined roles, events, and artefacts.
 | Documentation        | Minimal, working software is priority     |
 | Risk                 | Low, issues found early                   |
 | Best for             | Evolving requirements, innovative projects |
+
+</div>
 
 <hr />
 
@@ -146,11 +154,15 @@ Objectives          Development
 
 ### Characteristics
 
+<div class="table-wrap">
+
 | Property    | Value                                           |
 | ----------- | ----------------------------------------------- |
 | Risk focus  | High, explicit risk analysis at each iteration |
 | Flexibility | Medium                                          |
 | Best for    | Large, complex, high-risk projects              |
+
+</div>
 
 ### Advantages
 
@@ -190,6 +202,8 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 
 ## 6. Comparison of Methodologies
 
+<div class="table-wrap">
+
 | Feature          | Waterfall  | Agile     | Spiral    | RAD       |
 | ---------------- | ---------- | --------- | --------- | --------- |
 | Approach         | Linear     | Iterative | Iterative | Iterative |
@@ -199,6 +213,8 @@ Speed. Uses workshops, focus groups, and iterative user testing.
 | Documentation    | High       | Low       | High      | Low       |
 | Cost of change   | High       | Low       | Medium    | Low       |
 | Best for         | Stable req | Evolving  | High-risk | Fast dev  |
+
+</div>
 
 :::note
 - **AQA** requires understanding of waterfall, agile, spiral, and rapid application development
@@ -249,12 +265,16 @@ Show interactions between actors (users) and the system.
 
 ### Other UML Diagrams
 
+<div class="table-wrap">
+
 | Diagram Type      | Purpose                                     |
 | ----------------- | ------------------------------------------- |
 | Sequence diagram  | Show message flow between objects over time |
 | Activity diagram  | Model workflow / business processes         |
 | State diagram     | Show states and transitions of an object    |
 | Component diagram | Show system components and dependencies     |
+
+</div>
 
 <hr />
 
@@ -529,6 +549,8 @@ Feedback.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Factor                     | Waterfall                               | Agile                                        |
 | -------------------------- | --------------------------------------- | -------------------------------------------- |
 | Timeline to first delivery | 16 months                               | 5 weeks (MVP)                                |
@@ -537,6 +559,8 @@ Feedback.
 | Regulatory compliance      | Designed upfront, audited once          | Continuous compliance, tested each sprint    |
 | Staff feedback             | Only at deployment                      | Every 2 weeks                                |
 | Best fit if...             | Requirements are fully known and stable | Requirements are partially known or evolving |
+
+</div>
 
 <hr />
 
@@ -552,13 +576,19 @@ Feedback.
 
 ### Risk Analysis Matrix
 
+<div class="table-wrap">
+
 |                       | Low Impact      | Medium Impact   | High Impact     |
 | --------------------- | --------------- | --------------- | --------------- |
 | **High Likelihood**   | Medium priority | High priority   | Critical        |
 | **Medium Likelihood** | Low priority    | Medium priority | High priority   |
 | **Low Likelihood**    | Accept          | Low priority    | Medium priority |
 
+</div>
+
 ### Risk Mitigation Strategies
+
+<div class="table-wrap">
 
 | Strategy | Description                             | Example                                       |
 | -------- | --------------------------------------- | --------------------------------------------- |
@@ -567,7 +597,11 @@ Feedback.
 | Mitigate | Reduce likelihood or impact             | Write automated tests to catch bugs early     |
 | Accept   | Acknowledge the risk and plan for it    | Budget contingency for unexpected issues      |
 
+</div>
+
 ### Example: Risks in a School Management System
+
+<div class="table-wrap">
 
 | Risk                            | Likelihood | Impact | Mitigation                                      |
 | ------------------------------- | ---------- | ------ | ----------------------------------------------- |
@@ -577,9 +611,13 @@ Feedback.
 | Performance issues at scale     | Low        | High   | Load testing in each sprint                     |
 | Third-party API downtime        | Medium     | Medium | Implement caching and fallback mechanisms       |
 
+</div>
+
 <hr />
 
 ## 10. Common Pitfalls
+
+<div class="table-wrap">
 
 | Pitfall                                      | Explanation                                       | Avoidance                                                             |
 | -------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
@@ -590,6 +628,8 @@ Feedback.
 | Ignoring technical debt                      | Accumulated shortcuts make future changes harder  | Schedule refactoring time in each sprint                              |
 | Scope creep                                  | Uncontrolled addition of features delays delivery | Use a prioritised backlog, freeze scope for each sprint               |
 | Poor documentation                           | Knowledge lost when team members leave            | Maintain essential docs (architecture, API, deployment) even in Agile |
+
+</div>
 
 <hr />
 
@@ -673,6 +713,8 @@ Identify at least four risks and classify them.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Risk                                     | Likelihood | Impact   | Priority | Mitigation                                                |
 | ---------------------------------------- | ---------- | -------- | -------- | --------------------------------------------------------- |
 | Payment gateway integration fails        | Medium     | High     | High     | Early prototyping of payment flow, have a backup provider |
@@ -681,6 +723,8 @@ Identify at least four risks and classify them.
 | Project team lacks e-commerce experience | High       | Medium   | High     | Hire experienced developer, use proven framework          |
 | Third-party shipping API changes         | Medium     | Low      | Low      | Abstract API behind an interface, monitor for deprecation |
 | Customer requirements change             | High       | Medium   | High     | Use Agile, prioritise backlog, freeze scope per sprint    |
+
+</div>
 
 </details>
 

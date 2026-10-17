@@ -54,12 +54,16 @@ Something.
 
 ### Types of Testing
 
+<div class="table-wrap">
+
 | Type        | Scope                    | Speed      | What It Validates                               |
 | ----------- | ------------------------ | ---------- | ----------------------------------------------- |
 | Unit        | Single function or class | Millis     | Isolated logic correctness                      |
 | Widget      | Single Flutter widget    | 10-100ms   | Rendering, interaction, lifecycle               |
 | Integration | Multiple units together  | 100-1000ms | Unit interactions, data flow across boundaries  |
 | End-to-End  | Full application flow    | Seconds    | User-visible behavior from launch to completion |
+
+</div>
 
 Unit tests are the foundation. They are fast, deterministic, and cheap to maintain. Widget tests add
 Coverage for the UI layer. Integration tests validate that units compose correctly. End-to-end tests
@@ -746,6 +750,8 @@ void main() {
 
 ### mockito vs mocktail
 
+<div class="table-wrap">
+
 | Factor        | mockito                               | mocktail                         |
 | ------------- | ------------------------------------- | -------------------------------- |
 | Code gen      | Required (`build_runner`)             | None                             |
@@ -754,6 +760,8 @@ void main() {
 | API           | `when(mock.method()).thenReturn(...)` | `when(() => mock.method())...`   |
 | Ecosystem     | Larger, more mature                   | Lighter, simpler                 |
 | Type safety   | Strong (generated stubs)              | Weaker (manual `implements`)     |
+
+</div>
 
 Use `mocktail` for small projects or when you want zero build-time overhead. Use `mockito` for
 Larger projects where generated mocks provide stronger type guarantees and better IDE support.

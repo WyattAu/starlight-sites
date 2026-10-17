@@ -84,6 +84,8 @@ change versus collectivist values) are frequently assessed points.
 
 ## Essential Studies
 
+<div class="table-wrap">
+
 | Study                            | Researcher(s)      | Year    | Key Finding                                                                                                            | Evaluation Point                                                                         |
 | -------------------------------- | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Minimal Group Paradigm           | Tajfel et al.      | 1971    | Arbitrary group categorisation produced in-group favouritism in reward allocation even without conflict                | Artificial groups lack ecological validity of real-world intergroup relations            |
@@ -93,6 +95,8 @@ change versus collectivist values) are frequently assessed points.
 | Stereotype Threat                | Steele and Aronson | 1995    | African American students underperformed on a diagnostic test but performed equally on a non-diagnostic test           | Some meta-analyses show smaller effect sizes than original; publication bias debated     |
 | Doll Studies                     | Clark and Clark    | 1939/47 | African American children attributed positive traits to white dolls and negative traits to brown dolls                 | Small samples; doll preference may reflect social awareness rather than self-esteem      |
 | Self-Enhancement Across Cultures | Heine et al.       | 1999    | Canadians showed self-enhancement bias; Japanese showed self-criticism bias                                            | University student samples; cultural dimensions may not capture within-culture variation |
+
+</div>
 
 ## Worked Examples
 
@@ -134,11 +138,15 @@ superordinate goals, and recategorisation.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
 | Social Identity Theory       | [View](/psychology/sociocultural/social-identity-theory/)        |
 | Cultural Norms and Attitudes | [View](/psychology/sociocultural/cultural-norms-and-attritudes/) |
 | Prejudice and Discrimination | [View](/psychology/sociocultural/prejudice-and-discrimination/)  |
+
+</div>
 
 ## Intuition
 

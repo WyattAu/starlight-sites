@@ -972,6 +972,8 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 
 ## Quick Reference Table
 
+<div class="table-wrap">
+
 | Term | Meaning |
 |------|---------|
 | SPDX | Standardised license identifier system (SPDX-License-Identifier: MIT) |
@@ -995,7 +997,11 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 | Tivoization | Hardware refusing modified GPL software; restricted by GPLv3 |
 | for prod | Non- OSI-approved licenses fail the open-source definition |
 
+</div>
+
 ## Decision Guide
+
+<div class="table-wrap">
 
 | If you want | Use | Avoid |
 |-------------|-----|-------|
@@ -1005,6 +1011,8 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 | Force SaaS sources open | AGPL-3.0 | Permissive licenses |
 | Delay-then-open commercial | BSL 1.1 | SSPL (never converts) |
 | Creative works | CC BY / CC BY-SA | Software-specific licenses |
+
+</div>
 
 ---
 
@@ -1389,6 +1397,8 @@ Permissive licenses grant broad freedoms with minimal restrictions. Users can do
 
 ### Choosing Between Them
 
+<div class="table-wrap">
+
 | Priority | Recommended License Type |
 | ---------- | ------------------------ |
 | Maximum adoption | Permissive (MIT, Apache 2.0) |
@@ -1397,6 +1407,8 @@ Permissive licenses grant broad freedoms with minimal restrictions. Users can do
 | Community-driven project | Copyleft (GPL) |
 | Library for wide use | Weak copyleft (LGPL) or permissive |
 | SaaS protection | AGPL |
+
+</div>
 
 ---
 
@@ -1718,6 +1730,8 @@ Every piece of software has a license, even if you did not choose one. Without a
 
 ## Common License Families
 
+<div class="table-wrap">
+
 | License | Type | Key Requirement |
 | --------- | ------ | ----------------- |
 | MIT | Permissive | Include copyright notice |
@@ -1726,6 +1740,8 @@ Every piece of software has a license, even if you did not choose one. Without a
 | GPL v3 | Copyleft | Derivative works must be GPL |
 | AGPL v3 | Strong Copyleft | Network use triggers copyleft |
 | MPL 2.0 | Weak Copyleft | File-level copyleft |
+
+</div>
 
 ## Why This Matters
 
@@ -2211,12 +2227,16 @@ requires that the license comply with the Open Source Definition: free redistrib
 source code, allowance for modifications, no discrimination against persons or fields of endeavor,
 and no restriction on other software distributed alongside the licensed code.
 
+<div class="table-wrap">
+
 | Category         | Mechanism                       | Examples                  |
 | ---------------- | ------------------------------- | ------------------------- |
 | Permissive       | Attribution only                | MIT, Apache 2.0, BSD, ISC |
 | Weak copyleft    | Same license for modified files | LGPL v3, MPL 2.0          |
 | Strong copyleft  | Same license for the whole work | GPL v3                    |
 | Network copyleft | Extends strong copyleft to SaaS | AGPL v3                   |
+
+</div>
 
 The practical difference matters most when you combine code from multiple projects. Permissive code
 can be incorporated into proprietary software. Copyleft code forces openness. The wrong choice of
@@ -2456,6 +2476,8 @@ License compatibility determines which licenses can be combined in a single proj
 include code under different licenses, the result must satisfy all license requirements
 simultaneously. Some combinations are impossible.
 
+<div class="table-wrap">
+
 | Downstream \ Dependency | MIT | Apache 2.0 | BSD | LGPL v3 | MPL 2.0 | GPL v3 | AGPL v3 |
 | ----------------------- | --- | ---------- | --- | ------- | ------- | ------ | ------- |
 | **Proprietary**         | Yes | Yes        | Yes | Yes¹    | Yes²    | No     | No      |
@@ -2463,6 +2485,8 @@ simultaneously. Some combinations are impossible.
 | **Apache 2.0**          | Yes | Yes        | Yes | No³     | No³     | No     | No      |
 | **GPL v3**              | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
 | **AGPL v3**             | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
+
+</div>
 
 ¹ Via dynamic linking only; static linking may trigger copyleft. ² MPL copyleft applies only to
 modified MPL files; the larger work can be proprietary. ³ Apache 2.0 and GPL v3 are incompatible in
@@ -2495,6 +2519,8 @@ LGPL v3
 
 ### Common Scenarios
 
+<div class="table-wrap">
+
 | Scenario                                        | Recommended License |
 | ----------------------------------------------- | ------------------- |
 | Developer tool or CLI utility                   | MIT or Apache 2.0   |
@@ -2504,6 +2530,8 @@ LGPL v3
 | Standalone application, free software ideology  | GPL v3              |
 | Web service / SaaS, want to prevent enclosure   | AGPL v3             |
 | Corporate open-source project                   | Apache 2.0          |
+
+</div>
 
 ### One License Per File
 
@@ -3286,6 +3314,8 @@ licence terms, ensuring software remains free.
 
 ## Comparing Licences
 
+<div class="table-wrap">
+
 | Feature | MIT | Apache 2.0 | BSD 3 | GPL | LGPL | AGPL |
 |---------|-----|------------|-------|-----|------|------|
 | Commercial use | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -3296,6 +3326,8 @@ licence terms, ensuring software remains free.
 | Same licence | No | No | No | Yes | Yes* | Yes |
 | Source code | No | No | No | Yes | Yes | Yes |
 | Network use | No | No | No | No | No | Yes |
+
+</div>
 
 *LGPL: Only for modifications to the library itself
 

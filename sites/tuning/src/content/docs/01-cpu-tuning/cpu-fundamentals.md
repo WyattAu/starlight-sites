@@ -99,6 +99,8 @@ can perform significantly worse than expected.
 Modern CPUs have multiple execution ports that can process $\mu$ Ops in parallel. Intel Golden Cove
 has 12 execution ports:
 
+<div class="table-wrap">
+
 | Ports | Function                         |
 | ----- | -------------------------------- |
 | 0     | ALU, MUL, DIV, JMP, LEA          |
@@ -113,6 +115,8 @@ has 12 execution ports:
 | 9     | ALU                              |
 | 10    | Store address (AGU)              |
 | 11    | Load (AGU)                       |
+
+</div>
 
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
 your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
@@ -136,6 +140,8 @@ Latency gap drives every architectural decision in cache design.
 
 ### Latency Comparison
 
+<div class="table-wrap">
+
 | Level          | Size (Typical) | Latency (Cycles) | Latency (ns at 5 GHz) |
 | -------------- | -------------- | ---------------- | --------------------- |
 | L1 Data        | 32–48 KB       | 4–5              | ~1.0                  |
@@ -144,6 +150,8 @@ Latency gap drives every architectural decision in cache design.
 | L3 (Shared)    | 16–64 MB       | 35–50            | ~8.0                  |
 | DRAM (DDR5)    | Variable       | 200–400+         | ~60–80                |
 | NVMe SSD       | Variable       | ~10,000          | ~2,000                |
+
+</div>
 
 ### Cache Lines and Spatial Locality
 
@@ -162,15 +170,21 @@ Each cache level uses set-associative mapping. An N-way set-associative cache me
 Address can map to N different cache lines within a set. Higher associativity reduces conflict
 Misses but increases lookup latency and power consumption.
 
+<div class="table-wrap">
+
 | CPU                     | L1 Data      | L2           | L3                 |
 | ----------------------- | ------------ | ------------ | ------------------ |
 | Intel 12th Gen (P-core) | 8-way, 48 KB | 12-way, 2 MB | 16-way (per slice) |
 | AMD Zen 4               | 8-way, 32 KB | 16-way, 1 MB | 16-way (per CCD)   |
 
+</div>
+
 ### MESI Protocol
 
 Multi-core systems use a cache coherence protocol to ensure all cores see consistent data. The MESI
 Protocol defines four states for each cache line:
+
+<div class="table-wrap">
 
 | State             | Meaning                                          |
 | ----------------- | ------------------------------------------------ |
@@ -178,6 +192,8 @@ Protocol defines four states for each cache line:
 | **E** (Exclusive) | Line is clean and present only in this cache     |
 | **S** (Shared)    | Line is clean and may be present in other caches |
 | **I** (Invalid)   | Line is not valid in this cache                  |
+
+</div>
 
 When Core A modifies a line in Shared state, it must issue a RFO (Read For Ownership) request to
 Invalidate all other copies. This is why false sharing, where unrelated variables share a cache
@@ -243,6 +259,8 @@ P-states" or HWP (Hardware P-States) on Intel.
 C-States are idle power-saving states. When a core has no work to do, it can enter progressively
 Deeper C-states:
 
+<div class="table-wrap">
+
 | State     | Description                      | Exit Latency    | Power Savings |
 | --------- | -------------------------------- | --------------- | ------------- |
 | C0        | Active execution                 | 0               | None          |
@@ -251,6 +269,8 @@ Deeper C-states:
 | C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$ S      | Significant   |
 | C6        | Deep power down, core state lost | ~100–200 $\mu$ S | Very high     |
 | C8/C9/C10 | Package-level idle               | ~1–2 ms         | Maximum       |
+
+</div>
 
 Deeper C-states save more power but have higher exit latencies. For latency-sensitive workloads
 (e.g., audio processing, real-time trading), you may want to limit C-states to C1 or C1E to avoid
@@ -338,11 +358,15 @@ Directly attached DRAM. Accessing local memory is fast; accessing remote memory 
 Socket) traverses an interconnect (UPI on Intel, Infinity Fabric on AMD) and is significantly
 Slower.
 
+<div class="table-wrap">
+
 | Access Type           | Latency     | Bandwidth         |
 | --------------------- | ----------- | ----------------- |
 | Local DRAM            | ~80 ns      | Full              |
 | Remote DRAM (1 hop)   | ~120–140 ns | Reduced (~60–70%) |
 | Remote DRAM (2+ hops) | ~160–200 ns | Further reduced   |
+
+</div>
 
 On NUMA systems, the OS NUMA scheduler attempts to allocate memory local to the process's current
 CPU. However, this can be suboptimal for workloads with specific memory access patterns. Use
@@ -365,10 +389,14 @@ CPU. However, this can be suboptimal for workloads with specific memory access p
 
 Linux offers two primary CPU frequency scaling drivers for Intel CPUs:
 
+<div class="table-wrap">
+
 | Driver         | Description                         | Recommended For              |
 | -------------- | ----------------------------------- | ---------------------------- |
 | `intel_pstate` | Hardware-managed P-states via HWP   | Modern Intel (Sandy Bridge+) |
 | `acpi-cpufreq` | OS-managed P-states via ACPI tables | Legacy hardware, VMs         |
+
+</div>
 
 The `intel_pstate` driver operates in two modes:
 
@@ -387,6 +415,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_driver
 
 The CPU frequency governor determines the policy for frequency scaling:
 
+<div class="table-wrap">
+
 | Governor       | Behavior                                             | Use Case                                |
 | -------------- | ---------------------------------------------------- | --------------------------------------- |
 | `performance`  | Always at maximum frequency                          | Benchmarks, latency-sensitive workloads |
@@ -394,6 +424,8 @@ The CPU frequency governor determines the policy for frequency scaling:
 | `ondemand`     | Increases frequency when load exceeds threshold      | Legacy driver (not used with HWP)       |
 | `schedutil`    | Frequency driven by scheduler utilization data       | Works with passive mode                 |
 | `conservative` | Gradually increases frequency                        | Legacy, rarely used                     |
+
+</div>
 
 With `intel_pstate` in active mode, the governor has limited effect because HWP manages frequency
 Autonomously. The `performance` governor sets the HWP minimum to maximum, preventing any frequency
@@ -774,6 +806,8 @@ Scheduling technology that communicates per-thread classification to the operati
 and MSR interfaces. ITD classifies each instruction stream as belonging to one of several
 Categories:
 
+<div class="table-wrap">
+
 | Class ID | Category          | Typical Use Case              |
 | -------- | ----------------- | ----------------------------- |
 | 0        | None              | Idle or unknown               |
@@ -783,6 +817,8 @@ Categories:
 | 4        | Non-Turbo         | Thermal-constrained workloads |
 | 5        | Throughput        | Parallel compute              |
 | 6        | Latency-sensitive | Real-time audio, game logic   |
+
+</div>
 
 ### Monitoring Thread Director
 
@@ -911,6 +947,8 @@ turbostat ./my_benchmark
 
 ### Key Columns Explained
 
+<div class="table-wrap">
+
 | Column    | Meaning                              | What to Look For                                      |
 | --------- | ------------------------------------ | ----------------------------------------------------- |
 | `Bzy_MHz` | Average frequency while busy         | Should be close to max turbo during load              |
@@ -922,6 +960,8 @@ turbostat ./my_benchmark
 | `SMI`     | System Management Interrupts         | Should be near zero; high values indicate BIOS issues |
 | `CORE%c1` | Core C1 residency                    | Higher means more idle time                           |
 | `POLL%`   | Polling idle time                    | Should be low unless using `idle=poll`                |
+
+</div>
 
 ### Example: Detecting Thermal Throttling
 
@@ -990,6 +1030,8 @@ Tuning change.
 
 ### Benchmark Categories
 
+<div class="table-wrap">
+
 | Category      | Tools                                    | What It Measures                    |
 | ------------- | ---------------------------------------- | ----------------------------------- |
 | Single-thread | Cinebench R23 ST, Geekbench 6 ST         | Max turbo frequency, IPC            |
@@ -997,6 +1039,8 @@ Tuning change.
 | Memory-bound  | STREAM, memcpy benchmarks                | Memory subsystem, cache performance |
 | I/O-bound     | fio, sysbench fileio                     | CPU impact on storage throughput    |
 | Real-world    | Application-specific (compile, database) | Actual workload performance         |
+
+</div>
 
 ### Running Controlled Benchmarks
 

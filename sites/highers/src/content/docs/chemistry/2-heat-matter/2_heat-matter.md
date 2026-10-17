@@ -37,12 +37,16 @@ Quantities of reactants as stated in the equation react under standard condition
 
 ### Types of Enthalpy Change
 
+<div class="table-wrap">
+
 | Symbol                          | Name                                | Definition                                                                        |
 | ------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------- |
 | $\Delta H_f^\circ$              | Standard enthalpy of formation      | Enthalpy change when 1 mol of compound forms from its elements in standard states |
 | $\Delta H_c^\circ$              | Standard enthalpy of combustion     | Enthalpy change when 1 mol of substance burns completely in oxygen                |
 | $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
 | $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
+
+</div>
 
 ### Hess's Law
 
@@ -207,12 +211,16 @@ $$
 
 If a system at equilibrium is subjected to a change, the system adjusts to **oppose** that change.
 
+<div class="table-wrap">
+
 | Change                             | Effect                                                            |
 | ---------------------------------- | ----------------------------------------------------------------- |
 | Increase concentration of reactant | Equilibrium shifts right (products)                               |
 | Increase pressure                  | Shifts towards fewer gas moles                                    |
 | Increase temperature               | Shifts in the endothermic direction                               |
 | Add catalyst                       | No effect on position; increases rate of both forward and reverse |
+
+</div>
 
 **Example:** For the Haber process:
 $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3 \quad \Delta H = -92 \mathrm{ kJ/mol$.
@@ -257,11 +265,15 @@ $$
 are Placed in a $1.0 \mathrm{ L$ flask at equilibrium. If $1.4 \mathrm{ mol$ of $\mathrm{SO_3$
 forms, find $K_c$ for $\mathrm{2SO_2 + \mathrm{O_2 \rightleftharpoons 2\mathrm{SO_3$.
 
+<div class="table-wrap">
+
 |             | $\mathrm{SO_2$ | $\mathrm{O_2$ | $\mathrm{SO_3$ |
 | ----------- | -------------- | ------------- | -------------- |
 | Initial     | 2.0            | 1.0           | 0              |
 | Change      | -1.4           | -0.7          | +1.4           |
 | Equilibrium | 0.6            | 0.3           | 1.4            |
+
+</div>
 
 $$
 K_c = \frac{[\mathrm{SO_3]^2}{[\mathrm{SO_2]^2[\mathrm{O_2]} = \frac{(1.4)^2}{(0.6)^2(0.3)} = \frac{1.96}{0.108} = 18.15
@@ -271,11 +283,15 @@ $$
 container. At equilibrium, $0.3 \mathrm{ mol$ has dissociated:
 $\mathrm{PCl_5 \rightleftharpoons \mathrm{PCl_3 + \mathrm{Cl_2$. Find $K_c$.
 
+<div class="table-wrap">
+
 |             | $\mathrm{PCl_5$ | $\mathrm{PCl_3$ | $\mathrm{Cl_2$ |
 | ----------- | --------------- | --------------- | -------------- |
 | Initial     | 1.0             | 0               | 0              |
 | Change      | -0.3            | +0.3            | +0.3           |
 | Equilibrium | 0.7             | 0.3             | 0.3            |
+
+</div>
 
 Concentrations (divide by $V = 5.0$ L): $[\mathrm{PCl_5] = 0.14$, $[\mathrm{PCl_3] = 0.06$
 $[\mathrm{Cl_2] = 0.06 \mathrm{ mol/L$.
@@ -407,12 +423,16 @@ Threshold, meaning more molecules have sufficient energy to react.
 
 ### Factors Affecting Rate
 
+<div class="table-wrap">
+
 | Factor        | Effect         | Explanation                                              |
 | ------------- | -------------- | -------------------------------------------------------- |
 | Concentration | Increases rate | More particles per unit volume, more frequent collisions |
 | Temperature   | Increases rate | More particles have energy $\geq E_a$                    |
 | Surface area  | Increases rate | More particles exposed for collision                     |
 | Catalyst      | Increases rate | Provides alternative pathway with lower $E_a$            |
+
+</div>
 
 ### Rate Equation
 
@@ -429,11 +449,15 @@ The overall order is $m + n$.
 
 **Units of $k$:** Depend on the overall order.
 
+<div class="table-wrap">
+
 | Overall order | Units of $k$                       |
 | ------------- | ---------------------------------- |
 | 0             | $\mathrm{mol L^{-1}\mathrm{s^{-1}$ |
 | 1             | $\mathrm{s^{-1}$                   |
 | 2             | $\mathrm{L mol^{-1}\mathrm{s^{-1}$ |
+
+</div>
 
 **Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
 $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples, by
@@ -452,11 +476,15 @@ Measure the initial rate and determine the order with respect to each reactant.
 **Worked Example 12:** Given the following data for the reaction
 $\mathrm{A + \mathrm{B \to \mathrm{products$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial rate (M/s)   |
 | ---------- | ----------------- | ----------------- | -------------------- |
 | 1          | 0.10              | 0.10              | $1.2 \times 10^{-3}$ |
 | 2          | 0.20              | 0.10              | $2.4 \times 10^{-3}$ |
 | 3          | 0.10              | 0.20              | $4.8 \times 10^{-3}$ |
+
+</div>
 
 From experiments 1 and 2: doubling $[\mathrm{A]$ doubles the rate, so order with respect to
 $\mathrm{A$ is 1. From experiments 1 and 3: doubling $[\mathrm{B]$ quadruples the rate, so order
@@ -546,11 +574,15 @@ $$
 
 ### Types of Catalysts
 
+<div class="table-wrap">
+
 | Type          | Description                    | Example                                            |
 | ------------- | ------------------------------ | -------------------------------------------------- |
 | Homogeneous   | Same phase as reactants        | $\mathrm{H_2\mathrm{SO_4$ in esterification        |
 | Heterogeneous | Different phase from reactants | Fe in Haber process, V$_2$O$_5$ in Contact process |
 | Enzyme        | Biological catalysts           | Catalase, amylase                                  |
+
+</div>
 
 ### How Catalysts Work
 
@@ -594,6 +626,8 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 
 ## Summary Table: Energetics and Kinetics
 
+<div class="table-wrap">
+
 | Concept              | Symbol/Formula                                                            | Notes                                 |
 | -------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
 | Hess's Law           | $\Delta H_{\mathrm{total} = \Sigma \Delta H_{\mathrm{steps}$              | State function principle              |
@@ -603,6 +637,8 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 | Rate equation        | $\mathrm{Rate = k[A]^m[B]^n$                                              | Orders determined experimentally      |
 | Arrhenius equation   | $k = Ae^{-E_a/RT}$                                                        | Plot $\ln k$ vs. $1/T$                |
 | van't Hoff equation  | $\ln(K_2/K_1) = -\frac{\Delta H^\circ}{R}(\frac{1}{T_2} - \frac{1}{T_1})$ | Relates $K$ at two temperatures       |
+
+</div>
 
 ---
 
@@ -684,12 +720,16 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 
 8. Using the following data, determine the rate equation and the value of $k$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{P]$ (M) | $[\mathrm{Q]$ (M) | Initial rate (M/s)   |
 | ---------- | ----------------- | ----------------- | -------------------- |
 | 1          | 0.20              | 0.10              | $4.0 \times 10^{-4}$ |
 | 2          | 0.40              | 0.10              | $8.0 \times 10^{-4}$ |
 | 3          | 0.20              | 0.20              | $4.0 \times 10^{-4}$ |
 | 4          | 0.40              | 0.20              | $8.0 \times 10^{-4}$ |
+
+</div>
 
 1. Sketch an energy profile diagram for an endothermic reaction, showing the effect of adding a
     catalyst. Label the activation energies, $\Delta H$ And the transition state.
@@ -846,6 +886,8 @@ Rate order cannot be predicted from the stoichiometry.
 
 ## Comparison Table: Thermodynamics vs. Kinetics
 
+<div class="table-wrap">
+
 | Aspect             | Thermodynamics (Equilibrium)           | Kinetics (Rate)                       |
 | ------------------ | -------------------------------------- | ------------------------------------- |
 | What it predicts   | Whether a reaction CAN occur           | How FAST a reaction occurs            |
@@ -854,6 +896,8 @@ Rate order cannot be predicted from the stoichiometry.
 | Catalyst effect    | No effect on $K$ or position           | Increases $k$ (lowers $E_a$)          |
 | Time dependence    | System reaches equilibrium eventually  | Describes the approach to equilibrium |
 | Spontaneity        | $\Delta G^\circ < 0$ means spontaneous | No concept of spontaneity             |
+
+</div>
 
 ---
 
@@ -887,11 +931,15 @@ Rate order cannot be predicted from the stoichiometry.
 
 5. The following data were obtained for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ at 25°C:
 
+<div class="table-wrap">
+
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial rate (M/s)   |
 | ----------------- | ----------------- | -------------------- |
 | 0.10              | 0.10              | $2.0 \times 10^{-3}$ |
 | 0.20              | 0.10              | $4.0 \times 10^{-3}$ |
 | 0.20              | 0.20              | $1.6 \times 10^{-2}$ |
+
+</div>
 
 Determine the rate equation, the value of $k$ with units, and the overall order.
 
@@ -935,12 +983,16 @@ $$
 \Delta G^\circ = \Delta H^\circ - T\Delta S^\circ
 $$
 
+<div class="table-wrap">
+
 | $\Delta H^\circ$ | $\Delta S^\circ$ | $\Delta G^\circ$   | Spontaneity           |
 | ---------------- | ---------------- | ------------------ | --------------------- |
 | Negative         | Positive         | Always negative    | Always spontaneous    |
 | Positive         | Negative         | Always positive    | Never spontaneous     |
 | Negative         | Negative         | Negative at low T  | Spontaneous at low T  |
 | Positive         | Positive         | Negative at high T | Spontaneous at high T |
+
+</div>
 
 **Worked Example 19:** For the reaction
 $\mathrm{CaCO_3\mathrm{(s) \to \mathrm{CaO(s) + \mathrm{CO_2\mathrm{(g)$

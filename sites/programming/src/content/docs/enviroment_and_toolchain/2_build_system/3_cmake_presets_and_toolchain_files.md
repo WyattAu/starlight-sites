@@ -82,11 +82,15 @@ This is the only way to force compiler selection before CMake auto-detects compi
 When cross-compiling, `find_package` and `find_library` search the target sysroot, not the host
 Filesystem. The mode variables control this:
 
+<div class="table-wrap">
+
 | Variable                            | Value   | Behavior                                                         |
 | :---------------------------------- | :------ | :--------------------------------------------------------------- |
 | `CMAKE_FIND_ROOT_PATH_MODE_PROGRAM` | `NEVER` | Always searches the host (programs run on the host during build) |
 | `CMAKE_FIND_ROOT_PATH_MODE_LIBRARY` | `ONLY`  | Only searches the sysroot (libraries are for the target)         |
 | `CMAKE_FIND_ROOT_PATH_MODE_INCLUDE` | `ONLY`  | Only searches the sysroot (headers are for the target)           |
+
+</div>
 
 ---
 
@@ -362,6 +366,8 @@ Different platforms by selectively enabling or disabling presets:
 
 ### Condition Types
 
+<div class="table-wrap">
+
 | Type        | Description        | Example                    |
 | :---------- | :----------------- | :------------------------- |
 | `equals`    | String equality    | lhs equals rhs             |
@@ -372,6 +378,8 @@ Different platforms by selectively enabling or disabling presets:
 | `allOf`     | Logical AND        | All nested conditions true |
 | `anyOf`     | Logical OR         | Any nested condition true  |
 | `not`       | Logical NOT        | Negated condition          |
+
+</div>
 
 ## 7. Environment Variables in Presets
 
@@ -405,6 +413,8 @@ Shell or into subsequent build steps (unless the build system propagates them).
 
 Preset files support variable expansion using `${}`:
 
+<div class="table-wrap">
+
 | Variable             | Description                                          |
 | :------------------- | :--------------------------------------------------- |
 | `${sourceDir}`       | Path to the directory containing `CMakePresets.json` |
@@ -413,6 +423,8 @@ Preset files support variable expansion using `${}`:
 | `${hostSystemName}`  | OS name (Linux, Windows, Darwin)                     |
 | `${fileDir}`         | Directory of the preset file                         |
 | `$env{VAR}`          | Environment variable from the host                   |
+
+</div>
 
 ## 8. Install and Package Presets
 
@@ -459,6 +471,8 @@ cpack --preset tgz
 
 The `version` field in `CMakePresets.json` determines which features are available:
 
+<div class="table-wrap">
+
 | Version | Minimum CMake | Key Features                                               |
 | :------ | :------------ | :--------------------------------------------------------- |
 | 1       | 3.19          | Basic configure presets                                    |
@@ -467,6 +481,8 @@ The `version` field in `CMakePresets.json` determines which features are availab
 | 4       | 3.21          | Include files                                              |
 | 5       | 3.24          | Conditions, install presets                                |
 | 6       | 3.25          | Package presets, configure preset `inherits` from multiple |
+
+</div>
 
 ### Preset Include Files
 

@@ -518,6 +518,8 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Deleter Type                    | State     | `sizeof(unique_ptr&lt;int, D&gt;)` | EBO |
 | ------------------------------- | --------- | ---------------------------------- | --- |
 | Default (`std::default_delete`) | Empty     | 8                                  | Yes |
@@ -525,6 +527,8 @@ int main() {
 | Lambda with 0 captures          | Empty     | 8                                  | Yes |
 | Lambda with 1 `int` capture     | 4 bytes   | 16 (aligned)                       | No  |
 | `std::function`                 | ~40 bytes | ~48                                | No  |
+
+</div>
 
 ## 2.11 `make_unique` vs Raw `new`
 

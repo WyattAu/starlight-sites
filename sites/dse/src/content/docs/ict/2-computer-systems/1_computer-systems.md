@@ -22,13 +22,19 @@ categories: [DSE, ICT]
 The CPU is the primary component that executes instructions. It consists of three main
 Sub-components:
 
+<div class="table-wrap">
+
 | Component                       | Function                                                                                                |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Arithmetic Logic Unit (ALU)** | Performs arithmetic (add, subtract, multiply, divide) and logical (AND, OR, NOT, XOR) operations        |
 | **Control Unit (CU)**           | Coordinates all activities: fetches instructions, decodes them, and signals other components to execute |
 | **Registers**                   | Small, extremely fast storage locations inside the CPU used for temporary data during processing        |
 
+</div>
+
 ### Registers
+
+<div class="table-wrap">
 
 | Register                          | Purpose                                                                  |
 | --------------------------------- | ------------------------------------------------------------------------ |
@@ -39,16 +45,22 @@ Sub-components:
 | **Instruction Register (IR)**     | Holds the current instruction being decoded and executed                 |
 | **Status Register (Flags)**       | Stores flags such as Zero, Carry, Negative, Overflow from ALU operations |
 
+</div>
+
 :::note
 A typical CPU has a small number of general-purpose registers (8--32 in most architectures).
 :::
 
 ### Memory Types
 
+<div class="table-wrap">
+
 | Type    | Full Name            | Volatile? | Read/Write | Speed           | Typical Use                                |
 | ------- | -------------------- | --------- | ---------- | --------------- | ------------------------------------------ |
 | **RAM** | Random Access Memory | Yes       | Both       | Fast            | Main memory, running programs              |
 | **ROM** | Read Only Memory     | No        | Read only  | Slower than RAM | Boot-up instructions (BIOS/UEFI), firmware |
+
+</div>
 
 **RAM types:**
 
@@ -64,11 +76,15 @@ A typical CPU has a small number of general-purpose registers (8--32 in most arc
 
 ### Secondary Storage
 
+<div class="table-wrap">
+
 | Storage Type     | Technology                                        | Speed                     | Capacity        | Cost        | Volatility   |
 | ---------------- | ------------------------------------------------- | ------------------------- | --------------- | ----------- | ------------ |
 | **HDD**          | Magnetic platters spinning at 5400/7200/10000 RPM | 80--160 MB/s              | 500 GB -- 20 TB | Low         | Non-volatile |
 | **SSD**          | NAND flash memory via SATA/NVMe                   | 500 MB/s -- 7 GB/s (NVMe) | 256 GB -- 4 TB  | Medium-High | Non-volatile |
 | **Flash Memory** | NAND flash (USB drives, SD cards)                 | 10--300 MB/s              | 1 GB -- 1 TB    | Medium      | Non-volatile |
+
+</div>
 
 :::caution
 Exam Tip When comparing storage, consider all five criteria: speed, capacity, cost per
@@ -89,6 +105,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 
 ## Input Devices
 
+<div class="table-wrap">
+
 | Device              | Input Type               | Common Use Case                                        |
 | ------------------- | ------------------------ | ------------------------------------------------------ |
 | **Keyboard**        | Text, commands           | Typing documents, entering data                        |
@@ -100,7 +118,11 @@ SSDs are faster with no moving parts but more expensive per GB.
 | **Barcode Reader**  | Light reflection pattern | Retail checkout, inventory management                  |
 | **RFID Reader**     | Radio frequency signal   | Access control, toll collection, tracking              |
 
+</div>
+
 **Barcode Reader vs RFID:**
+
+<div class="table-wrap">
 
 | Feature                | Barcode Reader            | RFID Reader          |
 | ---------------------- | ------------------------- | -------------------- |
@@ -109,6 +131,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 | Data capacity          | Limited ( a number)       | Can store more data  |
 | Cost                   | Lower                     | Higher               |
 | Read multiple at once  | No                        | Yes                  |
+
+</div>
 
 ---
 
@@ -123,6 +147,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 
 ## Output Devices
 
+<div class="table-wrap">
+
 | Device        | Output Type          | Common Use Case                                   |
 | ------------- | -------------------- | ------------------------------------------------- |
 | **Monitor**   | Visual display       | Primary output for desktops/laptops               |
@@ -130,7 +156,11 @@ SSDs are faster with no moving parts but more expensive per GB.
 | **Speaker**   | Audio output         | Music, alerts, multimedia                         |
 | **Projector** | Large visual display | Presentations, classrooms, cinemas                |
 
+</div>
+
 **Inkjet vs Laser Printer:**
+
+<div class="table-wrap">
 
 | Feature                | Inkjet            | Laser                   |
 | ---------------------- | ----------------- | ----------------------- |
@@ -140,6 +170,8 @@ SSDs are faster with no moving parts but more expensive per GB.
 | Cost per page          | Higher            | Lower                   |
 | Initial cost           | Lower             | Higher                  |
 | Mechanism              | Sprays liquid ink | Uses toner powder, heat |
+
+</div>
 
 ---
 
@@ -196,6 +228,8 @@ The Von Neumann architecture defines a computer system with:
 
 ### Harvard Architecture (Comparison)
 
+<div class="table-wrap">
+
 | Feature          | Von Neumann               | Harvard                                     |
 | ---------------- | ------------------------- | ------------------------------------------- |
 | Memory bus       | Single shared bus         | Separate instruction and data buses         |
@@ -204,11 +238,15 @@ The Von Neumann architecture defines a computer system with:
 | Complexity       | Simpler                   | More complex                                |
 | Modern usage     | Most general-purpose CPUs | DSPs, microcontrollers, CPU caches          |
 
+</div>
+
 The Von Neumann **bottleneck** arises because the CPU and memory share a single bus. The CPU is
 Often much faster than memory, so it spends time waiting for instructions and data to be fetched.
 This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of the bottleneck.
 
 **Cache memory** is a small, fast memory between the CPU registers and main memory (RAM):
+
+<div class="table-wrap">
 
 | Cache Level | Location                            | Size           | Speed                  |
 | ----------- | ----------------------------------- | -------------- | ---------------------- |
@@ -216,6 +254,8 @@ This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of th
 | L2          | Inside CPU (per core or shared)     | 256 KB -- 1 MB | Fast (~10 cycles)      |
 | L3          | Inside CPU (shared among all cores) | 2--64 MB       | Moderate (~40 cycles)  |
 | RAM         | Outside CPU on motherboard          | 4--128 GB      | Slowest (~100+ cycles) |
+
+</div>
 
 When the CPU needs data, it checks L1 first, then L2, then L3, then RAM. If the data is found in
 Cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
@@ -269,13 +309,19 @@ This is the fundamental cycle by which the CPU processes every instruction.
 
 Given memory starting at address 100:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | ------- | ----------- |
 | 100     | LOAD 5      |
 | 101     | ADD 3       |
 | 102     | STORE 6     |
 
+</div>
+
 **Execution trace:**
+
+<div class="table-wrap">
 
 | Step    | Action                                               | PC  | MAR | MDR     | IR      | ACC       |
 | ------- | ---------------------------------------------------- | --- | --- | ------- | ------- | --------- |
@@ -288,6 +334,8 @@ Given memory starting at address 100:
 | Fetch   | PC(102) -> MAR; Mem[MAR] -> MDR; PC = 103; MDR -> IR | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
 | Decode  | CU decodes STORE 6                                   | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
 | Execute | ACC -> Mem[6]                                        | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
+
+</div>
 
 ---
 
@@ -306,14 +354,20 @@ Given memory starting at address 100:
 
 Software that manages and controls hardware and provides a platform for application software.
 
+<div class="table-wrap">
+
 | Type                      | Description                                 | Examples                                                |
 | ------------------------- | ------------------------------------------- | ------------------------------------------------------- |
 | **Operating System (OS)** | Manages all hardware and software resources | Windows, macOS, Linux, Android, iOS                     |
 | **Utility Programs**      | Perform specific maintenance tasks          | Disk defragmenter, antivirus, file manager, backup tool |
 
+</div>
+
 ### Application Software
 
 Software designed for end-users to perform specific tasks.
+
+<div class="table-wrap">
 
 | Type                | Description                         | Examples                                    |
 | ------------------- | ----------------------------------- | ------------------------------------------- |
@@ -321,7 +375,11 @@ Software designed for end-users to perform specific tasks.
 | **Special-purpose** | Designed for a specific field       | Accounting software, CAD, medical imaging   |
 | **Custom/bespoke**  | Written for a specific organisation | A company"s payroll system                  |
 
+</div>
+
 ### Operating System Functions
+
+<div class="table-wrap">
 
 | Function               | Description                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -331,6 +389,8 @@ Software designed for end-users to perform specific tasks.
 | **User Interface**     | Provides CLI (Command Line Interface) or GUI (Graphical User Interface) for user interaction                                    |
 | **Device Management**  | Uses device drivers to communicate with hardware, manages I/O operations                                                        |
 | **Security**           | User authentication, access control, firewall integration                                                                       |
+
+</div>
 
 ### Types of User Interfaces
 
@@ -362,11 +422,15 @@ Extension of RAM. When physical RAM is full, the operating system moves less fre
 (data blocks, 4 KB) from RAM to a designated area on disk called the **swap space** or **page
 file**. When those pages are needed again, they are swapped back into RAM.
 
+<div class="table-wrap">
+
 | Aspect         | Advantage                                                   | Disadvantage                                                    |
 | -------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
 | Capacity       | Allows running more/larger programs than physical RAM alone | Disk access is much slower than RAM (thousands of times slower) |
 | Cost           | Effectively increases memory without buying more RAM        | Excessive swapping (thrashing) severely degrades performance    |
 | Implementation | Transparent to the user and applications                    | Requires disk space to be reserved                              |
+
+</div>
 
 **Thrashing** occurs when the system spends more time swapping pages in and out of memory than
 Executing actual instructions. This happens when the system is overloaded with too many processes
@@ -389,6 +453,8 @@ Competing for insufficient RAM.
 
 Digits: 0, 1. Each digit is a **bit**. 8 bits = 1 **byte**.
 
+<div class="table-wrap">
+
 | Decimal | Binary    |
 | ------- | --------- |
 | 0       | 0000 0000 |
@@ -398,9 +464,13 @@ Digits: 0, 1. Each digit is a **bit**. 8 bits = 1 **byte**.
 | 10      | 0000 1010 |
 | 255     | 1111 1111 |
 
+</div>
+
 ### Hexadecimal (Base 16)
 
 Digits: 0--9, A(10), B(11), C(12), D(13), E(14), F(15). Each hex digit represents exactly 4 bits.
+
+<div class="table-wrap">
 
 | Hex | Binary         | Decimal |
 | --- | -------------- | ------- |
@@ -413,9 +483,13 @@ Digits: 0--9, A(10), B(11), C(12), D(13), E(14), F(15). Each hex digit represent
 | FF  | 1111 1111      | 255     |
 | 100 | 0001 0000 0000 | 256     |
 
+</div>
+
 ### Binary-Coded Decimal (BCD)
 
 Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
+
+<div class="table-wrap">
 
 | Decimal | BCD            |
 | ------- | -------------- |
@@ -423,6 +497,8 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 | 9       | 1001           |
 | 15      | 0001 0101      |
 | 127     | 0001 0010 0111 |
+
+</div>
 
 :::caution
 Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is
@@ -487,6 +563,8 @@ $185_{10} = 000110000101_{BCD}$
   digits (48--57), control characters (0--31), symbols.
 - Each character stored as 1 byte (8 bits) with the MSB unused or used for parity.
 
+<div class="table-wrap">
+
 | Character | ASCII (decimal) | ASCII (binary) |
 | --------- | --------------- | -------------- |
 | 'A'       | 65              | 0100 0001      |
@@ -494,6 +572,8 @@ $185_{10} = 000110000101_{BCD}$
 | 'a'       | 97              | 0110 0001      |
 | '0'       | 48              | 0011 0000      |
 | Space     | 32              | 0010 0000      |
+
+</div>
 
 #### Unicode
 
@@ -515,12 +595,16 @@ A bitmap image is a grid of **pixels** (picture elements). Each pixel is assigne
 
 **Colour depth:** Number of bits used to represent each pixel's colour.
 
+<div class="table-wrap">
+
 | Colour Depth | Number of Colours        | Calculation |
 | ------------ | ------------------------ | ----------- |
 | 1 bit        | 2 (black and white)      | $2^1$       |
 | 8 bits       | 256                      | $2^8$       |
 | 16 bits      | 65 536 (High Colour)     | $2^{16}$    |
 | 24 bits      | 16 777 216 (True Colour) | $2^{24}$    |
+
+</div>
 
 **Image file size (uncompressed):**
 
@@ -559,6 +643,8 @@ $$
 
 **Bitmap vs Vector Graphics:**
 
+<div class="table-wrap">
+
 | Feature                        | Bitmap                      | Vector                              |
 | ------------------------------ | --------------------------- | ----------------------------------- |
 | Storage method                 | Grid of pixels              | Mathematical descriptions of shapes |
@@ -569,12 +655,18 @@ $$
 | Examples                       | JPEG, PNG, BMP              | SVG, EPS                            |
 | Editing                        | Pixel-level editing         | Shape and path editing              |
 
+</div>
+
 **Image compression:**
+
+<div class="table-wrap">
 
 | Type     | Method                                                  | Quality Loss       | Example       |
 | -------- | ------------------------------------------------------- | ------------------ | ------------- |
 | Lossless | Reduces redundancy without discarding data              | None               | PNG, GIF, BMP |
 | Lossy    | Discards data that is less perceptible to the human eye | Yes (irreversible) | JPEG, WebP    |
+
+</div>
 
 JPEG compression works by dividing the image into $8 \times 8$ pixel blocks, applying a Discrete
 Cosine Transform (DCT), and then quantising (rounding) the frequency coefficients. Higher
@@ -715,12 +807,16 @@ With wear levelling).
 
 Given the following program in memory:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | ------- | ----------- |
 | 200     | LOAD 10     |
 | 201     | ADD 11      |
 | 202     | SUB 12      |
 | 203     | STORE 13    |
+
+</div>
 
 Memory values: M[10] = 25, M[11] = 17, M[12] = 8, M[13] = 0.
 
@@ -731,19 +827,27 @@ Answer:
 
 **Instruction 1: LOAD 10**
 
+<div class="table-wrap">
+
 | Phase   | PC  | MAR | MDR     | IR      | ACC |
 | ------- | --- | --- | ------- | ------- | --- |
 | Fetch   | 201 | 200 | LOAD 10 | LOAD 10 | ?   |
 | Decode  | 201 | 200 | LOAD 10 | LOAD 10 | ?   |
 | Execute | 201 | 200 | LOAD 10 | LOAD 10 | 25  |
 
+</div>
+
 **Instruction 2: ADD 11**
+
+<div class="table-wrap">
 
 | Phase   | PC  | MAR | MDR    | IR     | ACC |
 | ------- | --- | --- | ------ | ------ | --- |
 | Fetch   | 202 | 201 | ADD 11 | ADD 11 | 25  |
 | Decode  | 202 | 201 | ADD 11 | ADD 11 | 25  |
 | Execute | 202 | 201 | ADD 11 | ADD 11 | 42  |
+
+</div>
 
 ACC = 25 + 17 = 42.
 

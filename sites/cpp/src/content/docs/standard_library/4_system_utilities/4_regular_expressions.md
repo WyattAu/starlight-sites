@@ -37,11 +37,15 @@ It is declared in `<regex>` and uses the ECMAScript regex grammar by default.
 
 The library provides three main operations:
 
+<div class="table-wrap">
+
 | Function                              | Behavior                                                  |
 | :------------------------------------ | :-------------------------------------------------------- |
 | `std::regex_match(str, regex)`        | Returns `true` if the **entire** string matches the regex |
 | `std::regex_search(str, regex)`       | Returns `true` if **any part** of the string matches      |
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
+
+</div>
 
 :::caution
 GCC's libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
@@ -238,6 +242,8 @@ Library with guaranteed linear-time matching (RE2, hyperscan).
 `std::regex` supports multiple regex grammars selectable via the `std::regex::flag_type` bitmask
 [N4950 §30.9.1]:
 
+<div class="table-wrap">
+
 | Flag         | Grammar     | Description                                               |
 | ------------ | ----------- | --------------------------------------------------------- |
 | `ECMAScript` | ECMAScript  | Default. JavaScript-like syntax. Supports backreferences. |
@@ -247,7 +253,11 @@ Library with guaranteed linear-time matching (RE2, hyperscan).
 | `grep`       | POSIX grep  | Like BRE but newline handling differs.                    |
 | `egrep`      | POSIX egrep | Like ERE but newline handling differs.                    |
 
+</div>
+
 Additional flags that can be combined with the grammar:
+
+<div class="table-wrap">
 
 | Flag       | Description                                                                |
 | ---------- | -------------------------------------------------------------------------- |
@@ -255,6 +265,8 @@ Additional flags that can be combined with the grammar:
 | `nosubs`   | Do not track capture groups (faster when groups are not needed)            |
 | `optimize` | Hint to the implementation to favor faster matching over construction time |
 | `collate`  | Locale-sensitive character ranges like `[a-z]`                             |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -372,6 +384,8 @@ int main() {
 
 `std::regex_match` and `std::regex_search` accept `std::regex_constants::match_flag_type` flags:
 
+<div class="table-wrap">
+
 | Flag               | Description                                         |
 | ------------------ | --------------------------------------------------- |
 | `match_default`    | Default behavior                                    |
@@ -383,6 +397,8 @@ int main() {
 | `match_not_null`   | Do not match empty sequences                        |
 | `match_continuous` | Only match at the beginning (like anchored match)   |
 | `match_prev_avail` | The first position is not the start of the sequence |
+
+</div>
 
 ```cpp
 #include <iostream>

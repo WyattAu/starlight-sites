@@ -89,12 +89,16 @@ Substantia nigra, the ventral tegmental area (VTA), and the hypothalamus. Dopami
 
 **Disorders associated with dopamine dysfunction:**
 
+<div class="table-wrap">
+
 | Disorder            | Dopamine Involvement                                                                                          |
 | ------------------- | ------------------------------------------------------------------------------------------------------------- |
 | Parkinson's disease | Degeneration of dopaminergic neurons in the substantia nigra leads to dopamine deficiency                     |
 | Schizophrenia       | Excess dopamine activity, particularly in the mesolimbic pathway (the dopamine hypothesis)                    |
 | ADHD                | Insufficient dopamine activity in the prefrontal cortex, leading to deficits in attention and impulse control |
 | Addiction           | Chronic drug use causes downregulation of dopamine receptors, reducing natural reward sensitivity             |
+
+</div>
 
 ### Serotonin (5-Hydroxytryptamine, 5-HT)
 
@@ -160,21 +164,29 @@ An agonist is a substance that binds to a receptor and activates it, mimicking t
 Natural neurotransmitter. Agonists can be direct (binding directly to the receptor) or indirect
 (increasing the amount of neurotransmitter available).
 
+<div class="table-wrap">
+
 | Type               | Mechanism                                                           | Example                                                              |
 | ------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Direct agonist     | Binds to the receptor and activates it                              | Morphine (binds to opioid receptors)                                 |
 | Indirect agonist   | Increases neurotransmitter release or inhibits reuptake             | Cocaine (blocks dopamine reuptake), SSRIs (block serotonin reuptake) |
 | Reuptake inhibitor | Blocks the presynaptic neuron from reabsorbing the neurotransmitter | Fluoxetine (Prozac) blocks serotonin reuptake                        |
 
+</div>
+
 ### Antagonists
 
 An antagonist is a substance that binds to a receptor but does not activate it, blocking the natural
 Neurotransmitter from binding. Antagonists reduce or block the effect of the neurotransmitter.
 
+<div class="table-wrap">
+
 | Type                | Mechanism                                                 | Example                                                                               |
 | ------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | Receptor antagonist | Binds to the receptor without activating it               | Propranolol (blocks beta-adrenergic receptors), clozapine (blocks dopamine receptors) |
 | Enzyme inhibitor    | Inhibits the enzyme that breaks down the neurotransmitter | MAO inhibitors (prevent breakdown of monoamine neurotransmitters)                     |
+
+</div>
 
 Understanding agonists and antagonists is essential for understanding the mechanisms of psychoactive
 Drugs and their therapeutic applications. For example, the effectiveness of antipsychotic medication

@@ -20,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File                           | Topics Covered                                                                       | Source File                          |
 | ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------ |
 | `diag-cell-biology.md`                    | Cell structure, specialised cells, microscopy, cell division, osmosis, diffusion     | `cell-biology.md`                    |
@@ -27,6 +29,8 @@ tableOfContents: false
 | `diag-bioenergetics.md`                   | Photosynthesis, respiration, limiting factors, anaerobic respiration, metabolic rate | `bioenergetics.md`                   |
 | `diag-ecology.md`                         | Ecosystems, food chains, nutrient cycles, biodiversity, human impacts, fieldwork     | `ecology.md`                         |
 | `diag-inheritance-variation-evolution.md` | DNA, genetics, natural selection, evolution, genetic engineering, selective breeding | `inheritance-variation-evolution.md` |
+
+</div>
 
 ## Grading Rubric
 
@@ -77,6 +81,8 @@ Cell Biology (cell division)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                             | Recommended Time | Notes                                        |
 | -------------------------------------- | ---------------- | -------------------------------------------- |
 | `diag-cell-biology`                    | 35 minutes       | Includes calculation questions on microscopy |
@@ -84,6 +90,8 @@ Cell Biology (cell division)
 | `diag-bioenergetics`                   | 35 minutes       | Requires recall of equations and processes   |
 | `diag-ecology`                         | 35 minutes       | Quantitative and fieldwork questions         |
 | `diag-inheritance-variation-evolution` | 40 minutes       | Genetic crosses and extended writing         |
+
+</div>
 
 **Total recommended time:** approximately 3 hours (spread across 2 sessions).
 

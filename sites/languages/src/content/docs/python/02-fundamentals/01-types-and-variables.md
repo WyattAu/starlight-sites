@@ -486,6 +486,8 @@ print(sum([True, False, True])) # 2
 In boolean contexts (`if`, `while`, `and`, `or`, `not`, `bool()`), Python applies a well-defined set Of rules
 to determine the truth value of any object:
 
+<div class="table-wrap">
+
 | Value                     | Truth Value | Reason                                           |
 | ------------------------- | :---------: | ------------------------------------------------ |
 | `None`                    |    False    | Explicit absence                                 |
@@ -493,6 +495,8 @@ to determine the truth value of any object:
 | Zero of any numeric type  |    False    | `0``0.0``0j``Decimal(0)``Fraction(0, 1)`         |
 | Empty sequence/collection |    False    | `""``()``[]``{}``set()``range(0)`                |
 | Everything else           |    True     | Including objects with `__bool__` returning True |
+
+</div>
 
 This behavior is governed by two dunder methods on every object:
 
@@ -793,6 +797,8 @@ mypy my_module.py
 
 ### Key `mypy` Flags
 
+<div class="table-wrap">
+
 | Flag                       | Purpose                                                 |
 | -------------------------- | ------------------------------------------------------- |
 | `--strict`                 | Enable all optional checks                              |
@@ -800,6 +806,8 @@ mypy my_module.py
 | `--no-implicit-optional`   | Do not treat `None` as compatible with untyped defaults |
 | `--warn-return-any`        | Warn when a function returns `Any`                      |
 | `--ignore-missing-imports` | Suppress errors for untyped third-party libraries       |
+
+</div>
 
 ### Configuration (`pyproject.toml`)
 

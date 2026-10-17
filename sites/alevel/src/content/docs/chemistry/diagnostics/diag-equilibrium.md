@@ -576,11 +576,15 @@ $$
 
 (c) ICE table (pressures in atm):
 
+<div class="table-wrap">
+
 |             | $\mathrm{CO}$ | $\mathrm{H}_2\mathrm{O}$ | $\mathrm{CO}_2$ | $\mathrm{H}_2$ |
 | ----------- | ------------- | ------------------------ | --------------- | -------------- |
 | Initial     | 1.00          | 1.00                     | 0               | 0              |
 | Change      | $-x$          | $-x$                     | $+x$            | $+x$           |
 | Equilibrium | $1-x$         | $1-x$                    | $x$             | $x$            |
+
+</div>
 
 $$
 K_p = \frac{x^2}{(1-x)^2} = 9.89 \times 10^4

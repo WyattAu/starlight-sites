@@ -19,12 +19,16 @@ description: "Algorithms Sorting Algorithms notes covering key definitions, core
 
 ### Properties
 
+<div class="table-wrap">
+
 | Property     | Definition                                              | Why It Matters                                               |
 | ------------ | ------------------------------------------------------- | ------------------------------------------------------------ |
 | **Stable**   | Equal elements retain their relative order              | Preserves secondary sort keys, needed for multi-key sorting  |
 | **In-place** | Uses $O(1)$ extra memory (or $O(\log n)$ for recursion) | Critical when memory is constrained                          |
 | **Adaptive** | Runs faster on partially sorted input                   | Common in practice, incremental updates, nearly-sorted logs |
 | **Online**   | Can sort elements as they arrive                        | Streaming scenarios where the full input is not available    |
+
+</div>
 
 ### Comparison Model
 
@@ -216,6 +220,8 @@ def _partition_lomuto(arr, low, high):
 
 **Pivot selection strategies:**
 
+<div class="table-wrap">
+
 | Strategy           | Average                  | Worst Case                           | Notes                                  |
 | ------------------ | ------------------------ | ------------------------------------ | -------------------------------------- |
 | First/last element | $O(n \log n)$            | $O(n^2)$ on sorted input             | exploitable                            |
@@ -223,6 +229,8 @@ def _partition_lomuto(arr, low, high):
 | Random element     | $O(n \log n)$ expected   | $O(n^2)$ with negligible probability | Requires RNG                           |
 | Median of three    | $O(n \log n)$            | $O(n \log n)$ typical                | Samples first, middle, last            |
 | Median of medians  | $O(n \log n)$ guaranteed | $O(n \log n)$ guaranteed             | High constant, rarely used in practice |
+
+</div>
 
 ### Heapsort
 
@@ -499,6 +507,8 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
   the other, reducing the number of comparisons from $O(n)$ to $O(n \log m)$ where $m$ is the
   smaller run length.
 
+<div class="table-wrap">
+
 | Input Pattern  | TimSort Time      | Quicksort Time       | Merge Sort Time |
 | -------------- | ----------------- | -------------------- | --------------- |
 | Already sorted | $O(n)$            | $O(n^2)$ (bad pivot) | $O(n \log n)$   |
@@ -506,7 +516,11 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 | Random         | $O(n \log n)$     | $O(n \log n)$        | $O(n \log n)$   |
 | Mostly sorted  | $O(n + k \log k)$ | $O(n \log n)$        | $O(n \log n)$   |
 
+</div>
+
 ## Sorting Complexity Summary
+
+<div class="table-wrap">
 
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable | Adaptive  |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ | --------- |
@@ -521,6 +535,8 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 | Radix sort     | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n+b)$    | Yes    | No        |
 | Bucket sort    | $O(n+k)$      | $O(n)$        | $O(n^2)$      | $O(n+k)$    | Yes    | Partially |
 | TimSort        | $O(n)$        | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    | Yes       |
+
+</div>
 
 ## When to Use Which Sort
 
@@ -674,6 +690,8 @@ Sample sort is a parallel generalisation of quicksort:
 
 ### Comparison of Parallel Sorts
 
+<div class="table-wrap">
+
 | Algorithm           | Parallel Time              | Work Efficiency | Notes                              |
 | ------------------- | -------------------------- | --------------- | ---------------------------------- |
 | Parallel merge sort | $O(\log n)$ depth          | Yes             | Merge is sequential bottleneck     |
@@ -681,9 +699,13 @@ Sample sort is a parallel generalisation of quicksort:
 | Sample sort         | $O(n/p + \log p)$ expected | Mostly          | Communication overhead             |
 | Bitonic sort        | $O(\log^2 n)$              | No              | Good for GPU, poor work efficiency |
 
+</div>
+
 ## Sorting in Practice
 
 ### Standard Library Sorts
+
+<div class="table-wrap">
 
 | Language                | Algorithm                   | Stable   | Notes                              |
 | ----------------------- | --------------------------- | -------- | ---------------------------------- |
@@ -696,6 +718,8 @@ Sample sort is a parallel generalisation of quicksort:
 | Rust `sort_unstable`    | Pattern-defeating quicksort | No       | PDQSort                            |
 | Go `sort`               | Pattern-defeating quicksort | No       | Since Go 1.19                      |
 | JavaScript `Array.sort` | TimSort (V8)                | Yes (V8) | Implementation varies by engine    |
+
+</div>
 
 ### PDQSort (Pattern-Defeating Quicksort)
 
@@ -756,12 +780,16 @@ the left side of the pivot may pass over an equal element on the right side.
 A sorting network is a fixed sequence of compare-and-swap operations that sorts any input. The depth
 of a sorting network is the minimum number of parallel steps needed. Known bounds:
 
+<div class="table-wrap">
+
 | Network             | Depth         | Comparators     | Notes                              |
 | ------------------- | ------------- | --------------- | ---------------------------------- |
 | Bubble sort network | $O(n^2)$      | $O(n^2)$        | Trivial                            |
 | Bitonic sort        | $O(\log^2 n)$ | $O(n \log^2 n)$ | Good for hardware                  |
 | Odd-even mergesort  | $O(\log^2 n)$ | $O(n \log^2 n)$ | Practical                          |
 | AKS network         | $O(\log n)$   | $O(n \log n)$   | Theoretical, impractical constants |
+
+</div>
 
 Sorting networks are used in GPU sorting (where the compare-and-swap operations can be executed in
 Parallel by many threads) and in hardware sorters (e.g., in network switches for packet
@@ -827,6 +855,8 @@ This uses $O(n)$ extra space and adds a comparison, but guarantees stability.
 
 ### MSD vs LSD Radix Sort
 
+<div class="table-wrap">
+
 | Property                  | LSD (Least Significant Digit)   | MSD (Most Significant Digit) |
 | ------------------------- | ------------------------------- | ---------------------------- |
 | Pass order                | Least to most significant       | Most to least significant    |
@@ -835,6 +865,8 @@ This uses $O(n)$ extra space and adds a comparison, but guarantees stability.
 | Character strings         | Cannot skip trailing characters | Can skip common prefixes     |
 | Cache behaviour           | Excellent (sequential passes)   | Poor (random bucket access)  |
 | Implementation complexity | Simple                          | More complex                 |
+
+</div>
 
 ### Radix Sort for Strings
 

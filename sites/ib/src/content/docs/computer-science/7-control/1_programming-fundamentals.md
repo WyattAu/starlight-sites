@@ -48,6 +48,8 @@ Languages with constant enforcement).
 
 ### Primitive Data Types
 
+<div class="table-wrap">
+
 | Data Type | Description                                 | Typical Size | Example Values        |
 | --------- | ------------------------------------------- | ------------ | --------------------- |
 | INTEGER   | Whole numbers (positive, negative, or zero) | 4 bytes      | -42, 0, 1024          |
@@ -55,6 +57,8 @@ Languages with constant enforcement).
 | CHAR      | A single character                          | 1 byte       | "A', 'z', '9', '?'    |
 | STRING    | A sequence of characters                    | Variable     | "Hello", "IB CS 2025" |
 | BOOLEAN   | Logical values                              | 1 byte       | TRUE, FALSE           |
+
+</div>
 
 **INTEGER vs FLOAT:** Integers are exact; floating-point numbers have limited precision due to their
 Binary representation. This matters for comparison. The expression `0.1 + 0.2 = 0.3` may evaluate to
@@ -72,6 +76,8 @@ Comparisons.
 A school management system needs to store the following data. Choose the most appropriate data type
 for each.
 
+<div class="table-wrap">
+
 | Data Item                           | Appropriate Data Type | Justification                                     |
 | ----------------------------------- | --------------------- | ------------------------------------------------- |
 | Number of students in a class       | INTEGER               | Whole number, no fractional part needed           |
@@ -82,6 +88,8 @@ for each.
 | Maximum allowed absences (fixed)    | CONSTANT INTEGER      | Known at design time, never changes               |
 | School name                         | CONSTANT STRING       | Known at design time, never changes               |
 | Pi (3.14159...)                     | CONSTANT FLOAT        | Mathematical constant used throughout the program |
+
+</div>
 
 <details>
 <summary>Solution</summary>
@@ -100,6 +108,8 @@ Another mistake is using STRING when CHAR suffices (like grade letters).
 
 ### Arithmetic Operators
 
+<div class="table-wrap">
+
 | Operator | Description        | Example   | Result |
 | -------- | ------------------ | --------- | ------ |
 | `+`      | Addition           | `7 + 3`   | 10     |
@@ -109,6 +119,8 @@ Another mistake is using STRING when CHAR suffices (like grade letters).
 | DIV      | Integer division   | `7 DIV 3` | 2      |
 | MOD      | Modulo (remainder) | `7 MOD 3` | 1      |
 | `^`      | Exponentiation     | `2 ^ 10`  | 1024   |
+
+</div>
 
 **DIV vs `/`:** DIV discards the fractional part (truncates toward zero in most IB pseudocode
 Contexts). `/` produces a floating-point result. For `7 / 3`DIV gives 2 and `/` gives 2.333...
@@ -142,6 +154,8 @@ This pattern generalizes: to extract digit at position $p$ (0-indexed from the r
 
 ### Relational (Comparison) Operators
 
+<div class="table-wrap">
+
 | Operator | Description              | Example     | Result |
 | -------- | ------------------------ | ----------- | ------ |
 | `=`      | Equal to                 | `5 = 5`     | TRUE   |
@@ -151,10 +165,14 @@ This pattern generalizes: to extract digit at position $p$ (0-indexed from the r
 | `$\le$`  | Less than or equal to    | `5 $\le$` 5 | TRUE   |
 | `$\ge$`  | Greater than or equal to | `5 $\ge$` 3 | TRUE   |
 
+</div>
+
 Relational operators always produce a BOOLEAN result. They can be applied to numeric types
 (comparing magnitude) and string types (comparing lexicographically based on character codes).
 
 ### Logical Operators
+
+<div class="table-wrap">
 
 | Operator | Description | Truth Table Rule                       |
 | -------- | ----------- | -------------------------------------- |
@@ -162,6 +180,8 @@ Relational operators always produce a BOOLEAN result. They can be applied to num
 | AND      | Conjunction | TRUE only when both operands are TRUE  |
 | OR       | Disjunction | TRUE when at least one operand is TRUE |
 | XOR      | Exclusive   | TRUE when operands differ              |
+
+</div>
 
 **Operator precedence** (highest to lowest): NOT, AND, OR. This matters in expressions like:
 
@@ -181,6 +201,8 @@ Right and stores the result in the variable on the left. Assignment is not equal
 
 ### Bitwise Operators
 
+<div class="table-wrap">
+
 | Operator | Description                           | Example (binary) | Result |
 | -------- | ------------------------------------- | ---------------- | ------ |
 | AND      | Bitwise AND                           | `1100 AND 1010`  | 1000   |
@@ -189,6 +211,8 @@ Right and stores the result in the variable on the left. Assignment is not equal
 | NOT      | Bitwise complement (one's complement) | `NOT 1100`       | 0011   |
 | `<<`     | Left shift                            | `1100 << 1`      | 1000   |
 | `>>`     | Right shift                           | `1100 >> 1`      | 0110   |
+
+</div>
 
 Bitwise operators operate on the binary representation of integers. Each bit position is treated
 Independently. Bitwise AND is used for masking (extracting specific bits), bitwise OR is used for
@@ -293,6 +317,8 @@ OUTPUT grade
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Condition Tested     | Result | Action        |
 | ---- | -------------------- | ------ | ------------- |
 | 1    | `75 $\ge$` 90`       | FALSE  | Skip to ELSE  |
@@ -300,6 +326,8 @@ OUTPUT grade
 | 3    | `75 $\ge$` 70`       | TRUE   | `Grade ← "C"` |
 | 4    | (inner ELSE skipped) | --     | --            |
 | 5    | Output `grade`       | --     | Outputs "C"   |
+
+</div>
 
 Output: **C**
 
@@ -354,6 +382,8 @@ must be validated).
 
 ### Comparison of Loop Constructs
 
+<div class="table-wrap">
+
 | Feature          | FOR              | WHILE         | REPEAT...UNTIL   |
 | ---------------- | ---------------- | ------------- | ---------------- |
 | Test position    | Pre-test         | Pre-test      | Post-test        |
@@ -361,6 +391,8 @@ must be validated).
 | Known iterations | Yes              | No            | No               |
 | Use case         | Counting         | Unknown count | Input validation |
 | Risk             | Off-by-one error | Infinite loop | Always runs once |
+
+</div>
 
 ### Nested Loops
 
@@ -570,6 +602,8 @@ The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect            | By Value                           | By Reference                     |
 | ----------------- | ---------------------------------- | -------------------------------- |
 | What is passed    | Copy of the value                  | Address of the original variable |
@@ -578,6 +612,8 @@ The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x
 | Safety            | High (original cannot be modified) | Lower (original can be modified) |
 | Use case          | Input-only parameters              | Output parameters, large objects |
 | Default in IB     | Default                            | Must specify `REF` keyword       |
+
+</div>
 
 ### Worked Example: Tracing By-Value vs By-Reference
 
@@ -612,6 +648,8 @@ OUTPUT x, y
 
 **`swapByValue(x, y)` call:**
 
+<div class="table-wrap">
+
 | Variable | Before Call | Inside Procedure | After Call |
 | -------- | ----------- | ---------------- | ---------- |
 | `x`      | 10          | 10 (unchanged)   | 10         |
@@ -620,9 +658,13 @@ OUTPUT x, y
 | `b`      | --          | 10               | --         |
 | `temp`   | --          | 10               | --         |
 
+</div>
+
 Inside `swapByValue`: outputs 20, 10. After call: `x = 10`, `y = 20` (unchanged).
 
 **`swapByRef(x, y)` call:**
+
+<div class="table-wrap">
 
 | Variable | Before Call | Inside Procedure | After Call |
 | -------- | ----------- | ---------------- | ---------- |
@@ -630,6 +672,8 @@ Inside `swapByValue`: outputs 20, 10. After call: `x = 10`, `y = 20` (unchanged)
 | `y`      | 20          | 10               | 10         |
 | `a`      | --          | 20 (alias for x) | --         |
 | `b`      | --          | 10 (alias for y) | --         |
+
+</div>
 
 Inside `swapByRef`: outputs 20, 10. After call: `x = 20`, `y = 10` (swapped!).
 
@@ -665,12 +709,16 @@ END FUNCTION
 
 **Call stack trace for `factorial(4)`:**
 
+<div class="table-wrap">
+
 | Call Stack Frame | Action                | Return Value      |
 | ---------------- | --------------------- | ----------------- |
 | `factorial(4)`   | Calls `factorial(3)`  | $4 \times 6 = 24$ |
 | `factorial(3)`   | Calls `factorial(2)`  | $3 \times 2 = 6$  |
 | `factorial(2)`   | Calls `factorial(1)`  | $2 \times 1 = 2$  |
 | `factorial(1)`   | Returns 1 (base case) | 1                 |
+
+</div>
 
 ### Worked Example: Fibonacci
 
@@ -704,6 +752,8 @@ Recursion into iteration to avoid stack growth.
 
 ### When to Use Recursion vs Iteration
 
+<div class="table-wrap">
+
 | Criterion   | Recursion                                            | Iteration                   |
 | ----------- | ---------------------------------------------------- | --------------------------- |
 | Readability | Clearer for tree/graph traversal, divide and conquer | Clearer for simple loops    |
@@ -711,6 +761,8 @@ Recursion into iteration to avoid stack growth.
 | Performance | Function call overhead                               | Generally faster            |
 | Risk        | Stack overflow for deep recursion                    | No stack overflow risk      |
 | Natural fit | Tree traversal, fractals, backtracking               | Linear processing, counting |
+
+</div>
 
 ### Worked Example: Tracing a Recursive Function
 
@@ -728,12 +780,16 @@ END FUNCTION
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Call Stack Frame | Action                | Return Value |
 | ---------------- | --------------------- | ------------ |
 | `mystery(4)`     | Calls `mystery(3)`    | $4 + 6 = 10$ |
 | `mystery(3)`     | Calls `mystery(2)`    | $3 + 3 = 6$  |
 | `mystery(2)`     | Calls `mystery(1)`    | $2 + 1 = 3$  |
 | `mystery(1)`     | Returns 1 (base case) | 1            |
+
+</div>
 
 Result: **10**
 
@@ -811,6 +867,8 @@ Overhead (creating new copies of data structures), steep learning curve for impe
 
 ### Paradigm Comparison
 
+<div class="table-wrap">
+
 | Aspect       | Procedural          | OOP                         | Functional             |
 | ------------ | ------------------- | --------------------------- | ---------------------- |
 | Primary unit | Procedure/function  | Object/class                | Function               |
@@ -819,6 +877,8 @@ Overhead (creating new copies of data structures), steep learning curve for impe
 | Reuse        | Libraries           | Inheritance, composition    | Higher-order functions |
 | Side effects | Common              | Controlled by encapsulation | Avoided                |
 | Parallelism  | Manual              | Manual                      | Natural                |
+
+</div>
 
 ### Worked Example: Identifying Programming Paradigms
 
@@ -1011,12 +1071,16 @@ END FUNCTION
 
 Trace with `n = 3`:
 
+<div class="table-wrap">
+
 | Step | i   | n   | result | i `$\le$` n | result + i \* i |
 | ---- | --- | --- | ------ | ----------- | --------------- |
 | 1    | 1   | 3   | 0      | True        | 0 + 1 = 1       |
 | 2    | 2   | 3   | 1      | True        | 1 + 4 = 5       |
 | 3    | 3   | 3   | 5      | True        | 5 + 9 = 14      |
 | 4    | 4   | 3   | 14     | False       | --              |
+
+</div>
 
 The function returns 14, which is $1^2 + 2^2 + 3^2 = 14$. It computes the sum of squares.
 
@@ -1028,6 +1092,8 @@ Category.
 
 <details>
 <summary>Solution</summary>
+
+<div class="table-wrap">
 
 | Category  | Test Input | Expected Output | Rationale                                            |
 | --------- | ---------- | --------------- | ---------------------------------------------------- |
@@ -1041,6 +1107,8 @@ Category.
 | Erroneous | -5         | Error message   | Below valid range                                    |
 | Erroneous | 105        | Error message   | Above valid range                                    |
 | Erroneous | "abc"      | Error message   | Wrong data type (string instead of integer)          |
+
+</div>
 
 Boundary values are the most likely to reveal off-by-one errors. Always test the exact boundary and
 one value on each side.
@@ -1075,12 +1143,16 @@ Specific paths, branches, and conditions in the code.
 
 ### Test Data Categories
 
+<div class="table-wrap">
+
 | Category  | Description                              | Example (function: `isEven(n)`)   |
 | --------- | ---------------------------------------- | --------------------------------- |
 | Normal    | Typical inputs within the expected range | `isEven(4)` returns TRUE          |
 | Boundary  | Values at the edge of valid ranges       | `isEven(0)` returns TRUE          |
 | Erroneous | Invalid inputs that should be rejected   | `isEven(-1)` returns FALSE        |
 | Extreme   | Very large or very small values          | `isEven(2147483646)` returns TRUE |
+
+</div>
 
 ### Worked Example: Constructing an Advanced Trace Table
 
@@ -1109,6 +1181,8 @@ END FUNCTION
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | `i` | `arr[i]` | `arr[i] = target` | `count` | `firstIndex` | `firstIndex = -1` |
 | ---- | --- | -------- | ----------------- | ------- | ------------ | ----------------- |
 | Init | 0   | --       | --                | 0       | -1           | --                |
@@ -1119,6 +1193,8 @@ END FUNCTION
 | 5    | 4   | 8        | TRUE              | 2       | 2            | FALSE (not -1)    |
 | 6    | 5   | 3        | FALSE             | 2       | 2            | --                |
 | 7    | 6   | --       | --                | 2       | 2            | -- (loop ends)    |
+
+</div>
 
 Output: **First at: 2, Count: 2**
 
@@ -1286,6 +1362,8 @@ result ← (17 DIV 4) + (17 MOD 4) * 2 ^ 3 - 1
 Following operator precedence (parentheses first, then exponentiation, then multiplication, then
 Addition/subtraction):
 
+<div class="table-wrap">
+
 | Step | Expression                        | Result |
 | ---- | --------------------------------- | ------ |
 | 1    | `17 DIV 4`                        | 4      |
@@ -1294,6 +1372,8 @@ Addition/subtraction):
 | 4    | `1 * 8` (MOD result times power)  | 8      |
 | 5    | `4 + 8` (DIV result plus product) | 12     |
 | 6    | `12 - 1`                          | 11     |
+
+</div>
 
 `result = 11`
 
@@ -1364,6 +1444,8 @@ OUTPUT grade
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Condition      | Result | Action        |
 | ---- | -------------- | ------ | ------------- |
 | 1    | `55 $\ge$` 90` | FALSE  | Check next    |
@@ -1372,6 +1454,8 @@ OUTPUT grade
 | 4    | `55 $\ge$` 60` | FALSE  | Check next    |
 | 5    | (else branch)  | --     | `grade ← "F"` |
 | 6    | --             | --     | OUTPUT "F"    |
+
+</div>
 
 Output: **F**
 
@@ -1443,12 +1527,16 @@ END FOR
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Outer `i` | Inner `j` range | `output` built | OUTPUT |
 | --------- | --------------- | -------------- | ------ |
 | 1         | 1 to 1          | `*`            | `*`    |
 | 2         | 1 to 2          | `**`           | `**`   |
 | 3         | 1 to 3          | `***`          | `***`  |
 | 4         | 1 to 4          | `****`         | `****` |
+
+</div>
 
 Output:
 
@@ -1544,6 +1632,8 @@ END FOR
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Outer `i` | Inner `j` values | Inner iterations |
 | --------- | ---------------- | ---------------- |
 | 0         | 0, 1, 2, 3, 4    | 5                |
@@ -1551,6 +1641,8 @@ END FOR
 | 2         | 2, 3, 4          | 3                |
 | 3         | 3, 4             | 2                |
 | 4         | 4                | 1                |
+
+</div>
 
 Total: $5 + 4 + 3 + 2 + 1 = 15$ times.
 
@@ -1620,6 +1712,8 @@ OUTPUT a, b, c
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Action                    | `a` | `b` | `c` | `x` | `y` | `z` |
 | ---- | ------------------------- | --- | --- | --- | --- | --- | --- |
 | 1    | Initialize                | 5   | 3   | 10  | --  | --  | --  |
@@ -1628,6 +1722,8 @@ OUTPUT a, b, c
 | 4    | `y ← y * 2` (copy of `b`) | 8   | 3   | 10  | 8   | 6   | 10  |
 | 5    | `z ← x + z` (REF to `c`)  | 8   | 3   | 18  | 8   | 6   | 18  |
 | 6    | Procedure returns         | 8   | 3   | 18  | --  | --  | --  |
+
+</div>
 
 Final values: **a = 8, b = 3, c = 18**
 
@@ -1653,6 +1749,8 @@ FUNCTION factorial(n) RETURNS INTEGER
 END FUNCTION
 ```
 
+<div class="table-wrap">
+
 | Call           | `n` | Base case? | Action                | Return value        |
 | -------------- | --- | ---------- | --------------------- | ------------------- |
 | `factorial(5)` | 5   | No         | Calls `factorial(4)`  | $5 \times 24 = 120$ |
@@ -1660,6 +1758,8 @@ END FUNCTION
 | `factorial(3)` | 3   | No         | Calls `factorial(2)`  | $3 \times 2 = 6$    |
 | `factorial(2)` | 2   | No         | Calls `factorial(1)`  | $2 \times 1 = 2$    |
 | `factorial(1)` | 1   | Yes        | Returns 1 (base case) | 1                   |
+
+</div>
 
 **Stack frames created:** 5 (one for each call from `factorial(5)` down to `factorial(1)`)
 
@@ -1785,11 +1885,15 @@ END IF
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site    | Link                                                                                                           |
 | ------------------------ | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Programming Constructs] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/01-programming-constructs) |
 | [Programming Constructs] | IB      | [View](https://ib.wyattau.com/computer-science/7-control/1_programming-fundamentals/)                   |
 | [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/)            |
+
+</div>
 
 ## Summary
 

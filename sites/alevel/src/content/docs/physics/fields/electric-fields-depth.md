@@ -49,6 +49,8 @@ This linearity is fundamental: each pair of charges interacts independently of a
 
 ### Comparison with Gravitational Force
 
+<div class="table-wrap">
+
 | Property          | Gravitational              | Electrostatic           |
 | ----------------- | -------------------------- | ----------------------- |
 | Law               | $F = Gm_1m_2/r^2$          | $F = kq_1q_2/r^2$       |
@@ -56,6 +58,8 @@ This linearity is fundamental: each pair of charges interacts independently of a
 | Nature            | Always attractive          | Attractive or repulsive |
 | Acts on           | Mass                       | Charge                  |
 | Relative strength | Very weak                  | Very strong             |
+
+</div>
 
 The electrostatic force is approximately $10^{36}$ times stronger than gravity for proton--proton
 Interactions. This enormous ratio explains why atomic and molecular structure is governed entirely

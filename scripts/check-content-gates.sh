@@ -44,6 +44,7 @@ run 'glued code spans'        python3 scripts/fix-glued-code-spans.py --check
 run 'duplicate sections'      node --max-old-space-size=1024 scripts/fix-duplicate-blocks.mjs --check
 run 'latex parseability'      node --max-old-space-size=2048 scripts/fix-latex-braces.mjs --check
 run 'table shape'             node --max-old-space-size=2048 scripts/lint-tables.mjs --check
+run 'responsive tables'       python3 scripts/wrap-tables.py --check
 run 'llms.txt freshness'      node scripts/generate-llms-txt.js --check
 run 'content depth'           node scripts/lint-depth.js
 run 'content validation'      node scripts/lint-content.js

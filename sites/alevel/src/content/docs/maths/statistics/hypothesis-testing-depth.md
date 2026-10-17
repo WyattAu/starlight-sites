@@ -82,10 +82,14 @@ carefully.
 
 ### 2.1 Definitions
 
+<div class="table-wrap">
+
 | Decision      | $H_0$ true       | $H_0$ false      |
 | ------------- | ---------------- | ---------------- |
 | Reject $H_0$  | Type I error     | Correct decision |
 | Do not reject | Correct decision | Type II error    |
+
+</div>
 
 **Type I error:** Rejecting $H_0$ when it is true (false positive).
 
@@ -181,11 +185,15 @@ A **two-tailed test** is used when $H_1$ does not specify a direction:
 
 For a standard normal test at significance level $\alpha$:
 
+<div class="table-wrap">
+
 | Test type    | $\alpha = 0.10$ | $\alpha = 0.05$ | $\alpha = 0.01$ |
 | ------------ | --------------- | --------------- | --------------- |
 | Two-tailed   | $\pm 1.645$     | $\pm 1.960$     | $\pm 2.576$     |
 | Upper-tailed | $1.282$         | $1.645$         | $2.326$         |
 | Lower-tailed | $-1.282$        | $-1.645$        | $-2.326$        |
+
+</div>
 
 <hr />
 

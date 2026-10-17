@@ -260,6 +260,8 @@ Ms, no requests can be served during that time.
 Modern collectors (G1, ZGC, Shenandoah) perform significant work concurrently with the application.
 Only specific phases require STW pauses:
 
+<div class="table-wrap">
+
 | Collector  | STW Phases                          | Concurrent Phases                  |
 | ---------- | ----------------------------------- | ---------------------------------- |
 | Serial     | All                                 | None                               |
@@ -267,6 +269,8 @@ Only specific phases require STW pauses:
 | G1         | Root scanning, evacuation (partial) | Marking, remembered set processing |
 | ZGC        | Root scanning (sub-ms)              | Marking, relocation, compaction    |
 | Shenandoah | Root scanning (sub-ms)              | Marking, evacuation, compaction    |
+
+</div>
 
 ## GC Tuning Flags
 
@@ -622,6 +626,8 @@ jcmd <pid> VM.native_memory detail scale=MB
 
 A typical memory breakdown for a JVM process:
 
+<div class="table-wrap">
+
 | Component      | Typical Allocation                 |
 | -------------- | ---------------------------------- |
 | Java heap      | 60-75% of container memory         |
@@ -630,6 +636,8 @@ A typical memory breakdown for a JVM process:
 | Code cache     | 128-256 MB                         |
 | Direct buffers | Application-dependent              |
 | GC overhead    | 10-20% of heap                     |
+
+</div>
 
 ## GC Troubleshooting Workflow
 
@@ -725,12 +733,16 @@ ZGC's design is fundamentally different from G1 and Parallel:
 **Colored pointers:** On 64-bit platforms, ZGC uses the high bits of each reference (which are
 Normally unused because no system has 2^48 bytes of addressable memory) to store metadata bits:
 
+<div class="table-wrap">
+
 | Bits  | Usage                                              |
 | ----- | -------------------------------------------------- |
 | 0-41  | Object address (4 TB addressable)                  |
 | 42-43 | Metadata (Finalizable, Remapped, Marked1, Marked0) |
 | 44-62 | Unused (reserved for future use)                   |
 | 63    | Unused                                             |
+
+</div>
 
 The metadata bits encode the state of the object: whether it has been marked, relocated, or
 Finalized. No per-object header space is needed for GC metadata.

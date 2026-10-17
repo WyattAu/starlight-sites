@@ -23,11 +23,15 @@ derivative of the Gibbs free energy is discontinuous.
 
 ### 10.1 Classification of Phase Transitions
 
+<div class="table-wrap">
+
 | Order              | Definition                                                                       | Example                        |
 | ------------------ | -------------------------------------------------------------------------------- | ------------------------------ |
 | First order        | $G$ continuous; $\partial G/\partial T$ or $\partial G/\partial P$ discontinuous | Boiling of water               |
 | Second order       | First derivatives continuous; second derivatives discontinuous                   | Superconducting transition     |
 | Lambda ($\lambda$) | Divergent second derivatives                                                     | Helium-4 superfluid transition |
+
+</div>
 
 For a first-order transition at temperature $T_c$ The **latent heat** is:
 
@@ -84,12 +88,16 @@ Where $\beta = 1/2$ is the **mean-field critical exponent** (van der Waals predi
 Near a second-order phase transition, thermodynamic quantities follow power laws characterized by
 **critical exponents**:
 
+<div class="table-wrap">
+
 | Exponent | Definition                           | Mean-field | 2D Ising | 3D Ising (numerical) |
 | -------- | ------------------------------------ | ---------- | -------- | -------------------- |
 | $\alpha$ | $C \propto \|t\|^{-\alpha}$          | 0 (jump)   | 0 (log)  |
 | $\beta$  | $\phi \propto (-t)^\beta$            | $1/2$      | $1/8$    | $\approx 0.326$      |
 | $\gamma$ | $\chi \propto \|t\|^{-\gamma}$       | $1$        | $7/4$    |
 | $\delta$ | $\phi \propto h^{1/\delta}$ at $t=0$ | $3$        | $15$     | $\approx 4.789$      |
+
+</div>
 
 Where $t = (T - T_c)/T_c$ is the reduced temperature and $h$ is the conjugate field.
 
@@ -198,7 +206,7 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

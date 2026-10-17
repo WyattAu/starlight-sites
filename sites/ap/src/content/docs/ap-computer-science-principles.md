@@ -20,6 +20,8 @@ AP Computer Science Principles introduces students to the foundational concepts 
 
 ### Big Ideas
 
+<div class="table-wrap">
+
 | Big Idea | Weight | Description |
 | ---------- | -------- | ------------- |
 | Creative Development | 10-15% | Collaboration, program design, abstraction |
@@ -28,6 +30,8 @@ AP Computer Science Principles introduces students to the foundational concepts 
 | Programming | 30-35% | Variables, control structures, procedures |
 | Computing Systems and Networks | 10-15% | Internet, cybersecurity, parallel computing |
 | Impact of Computing | 10-15% | Beneficial/harmful effects, digital divide |
+
+</div>
 
 ---
 

@@ -181,13 +181,17 @@ Precision tests of the Standard Model are like checking a clock against atomic t
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                                  |
 | ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Particle Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/04-particle-physics)              |
 | [Particle Physics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## See Also
 

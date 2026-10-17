@@ -255,6 +255,8 @@ and cannot sort arbitrary objects.
 
 ### 3.8 Comparison of Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
 | ------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Merge Sort    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
@@ -262,6 +264,8 @@ and cannot sort arbitrary objects.
 | Heapsort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
+
+</div>
 :::
 
 ## Intuition

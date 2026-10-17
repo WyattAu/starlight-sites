@@ -171,6 +171,8 @@ Addresses (symbols) that are outside the current TU.
 An object file is divided into **Sections**. Understanding these is essential for systems
 Programming and embedded work.
 
+<div class="table-wrap">
+
 | Section       | Description        | Content                                                                                                     |
 | :------------ | :----------------- | :---------------------------------------------------------------------------------------------------------- |
 | **`.text`**   | Executable Code    | The actual machine instructions (read-only, executable).                                                    |
@@ -178,6 +180,8 @@ Programming and embedded work.
 | **`.bss`**    | Uninitialized Data | Global/Static variables initialized to zero. Does not take space on disk; allocated at runtime.             |
 | **`.rodata`** | Read-Only Data     | String literals, constants, switch tables (`const static`).                                                 |
 | **`.symtab`** | Symbol Table       | List of functions/variables defined in this file (exported) and required by this file (imported/undefined). |
+
+</div>
 
 ### Inspection Tools
 
@@ -235,6 +239,8 @@ The C++ standard [N4950 §5.1.1] defines the translation of a source file into a
 Sequence of **translation phases** (also called "phases of translation"). These are numbered 1
 through 9:
 
+<div class="table-wrap">
+
 | Phase | Description                                                                                                  |
 | :---- | :----------------------------------------------------------------------------------------------------------- |
 | 1     | Physical source file characters are mapped to the source character set                                       |
@@ -246,6 +252,8 @@ through 9:
 | 7     | Whitespace and comment removal (except within `preprocessing` directives), token conversion                 |
 | 8     | Each preprocessing token is converted to a regular token (the compiler proper begins)                        |
 | 9     | Linkage: all external references are resolved, program image is generated                                    |
+
+</div>
 Phases 1-4 constitute preprocessing. Phase 8 is where the compiler frontend performs semantic
 Analysis and builds the AST. Phase 9 is linking.
 
@@ -468,6 +476,8 @@ clang++ -S -emit-llvm -O2 sum.cpp -o sum.ll
 
 Key IR concepts visible in the output:
 
+<div class="table-wrap">
+
 | Concept      | IR Representation                                     |
 | :----------- | :---------------------------------------------------- |
 | Function     | `define i32 @sum(i32 %n)`                             |
@@ -475,6 +485,8 @@ Key IR concepts visible in the output:
 | Basic block  | `entry:, for.body:, for.end:`                         |
 | PHI node     | `%total.0 = phi i32 [ 0, %entry ], [ %1, %for.body ]` |
 | Branch       | `br i1 %cmp, label %for.body, label %for.end`         |
+
+</div>
 At `-O2`. The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
 of a loop:
 

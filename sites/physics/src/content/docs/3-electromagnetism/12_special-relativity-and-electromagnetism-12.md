@@ -82,6 +82,8 @@ charge quantisation condition $eg = n\hbar/2$.
 
 ### 12.4 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity              | 3-vector form              | 4-vector / tensor form              |
 | --------------------- | -------------------------- | ----------------------------------- |
 | Potential             | $\phi$, $\mathbf{A}$       | $A^\mu = (\phi/c, \mathbf{A})$      |
@@ -89,6 +91,8 @@ charge quantisation condition $eg = n\hbar/2$.
 | Charge-current        | $\rho$, $\mathbf{J}$       | $J^\mu = (c\rho, \mathbf{J})$       |
 | Force density         | $\rho\mathbf{E} + \mathbf{J}\times\mathbf{B}$ | $f^\mu = F^{\mu\nu}J_\nu$ |
 | Energy-momentum       | $u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$, $\mathbf{S}$ | $T^{\mu\nu}$ |
+
+</div>
 
 ## Intuition
 
@@ -169,7 +173,7 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The synchrotron radiation patterns arise from the field configurations of ultrarelativistic charges treated here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

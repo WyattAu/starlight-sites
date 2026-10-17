@@ -24,11 +24,15 @@ categories:
 
 ### Types of Bonds
 
+<div class="table-wrap">
+
 | Bond Type         | Description                             | Electronegativity Difference |
 | ----------------- | --------------------------------------- | ---------------------------- |
 | Ionic             | Transfer of electrons; metal + nonmetal | $\gt 1.7$                    |
 | Polar Covalent    | Unequal sharing of electrons            | $0.4$ -- $1.7$               |
 | Nonpolar Covalent | Equal sharing of electrons              | $\lt 0.4$                    |
+
+</div>
 
 The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
 Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
@@ -87,11 +91,15 @@ Together.
 - Bond length decreases as bond order increases (more shared electrons pull nuclei closer).
 - Bond energy increases as bond order increases (more shared electrons = stronger bond).
 
+<div class="table-wrap">
+
 | Bond Type  | Typical Length (pm) | Typical Energy (kJ/mol) |
 | ---------- | ------------------- | ----------------------- |
 | C--C       | 154                 | 347                     |
 | C=C        | 134                 | 614                     |
 | C$\equiv$C | 120                 | 839                     |
+
+</div>
 
 The trend is consistent: as bond order increases, the nuclei are pulled closer together (shorter
 Bond) and the bond becomes stronger (higher energy). This is because each additional shared pair
@@ -194,6 +202,8 @@ Themselves to be as far apart as possible.
 
 ### Electron Domain Geometry
 
+<div class="table-wrap">
+
 | Electron Domains | Geometry             | Bond Angles           |
 | ---------------- | -------------------- | --------------------- |
 | 2                | Linear               | $180^\circ$           |
@@ -202,7 +212,11 @@ Themselves to be as far apart as possible.
 | 5                | Trigonal bipyramidal | $90^\circ$$120^\circ$ |
 | 6                | Octahedral           | $90^\circ$            |
 
+</div>
+
 ### Molecular Geometry (Accounting for Lone Pairs)
+
+<div class="table-wrap">
 
 | Domains | Bonding | Lone | Shape                | Example                |
 | ------- | ------- | ---- | -------------------- | ---------------------- |
@@ -219,6 +233,8 @@ Themselves to be as far apart as possible.
 | 6       | 6       | 0    | Octahedral           | $\mathrm{SF_6$         |
 | 6       | 5       | 1    | Square pyramidal     | $\mathrm{BrF_5$        |
 | 6       | 4       | 2    | Square planar        | $\mathrm{XeF_4$        |
+
+</div>
 
 ### Lone Pair Repulsion Order
 
@@ -260,6 +276,8 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 
 ### Examples
 
+<div class="table-wrap">
+
 | Molecule                   | Polar Bonds? | Symmetric?                        | Polar? |
 | -------------------------- | ------------ | --------------------------------- | ------ |
 | $\mathrm{CO_2$             | Yes (C=O)    | Yes (linear)                      | No     |
@@ -268,6 +286,8 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 | $\mathrm{NH_3$             | Yes (N--H)   | No (trigonal pyramidal)           | Yes    |
 | $\mathrm{BF_3$             | Yes (B--F)   | Yes (trigonal planar)             | No     |
 | $\mathrm{CH_2\mathrm{Cl_2$ | Yes          | No (tetrahedral, not symmetrical) | Yes    |
+
+</div>
 
 ## Intermolecular Forces (CED Unit 3)
 
@@ -335,12 +355,16 @@ Interactions is insufficient to overcome the lattice energy.
 
 ### Summary: IMF Types and Properties
 
+<div class="table-wrap">
+
 | IMF Type         | Present In             | Strength Order | Effect on Boiling Point |
 | ---------------- | ---------------------- | -------------- | ----------------------- |
 | London (LDF)     | All molecules          | Weakest        | Increases with size     |
 | Dipole-dipole    | Polar molecules        | Moderate       | Moderate increase       |
 | Hydrogen bonding | H bonded to N, O, or F | Strongest      | Large increase          |
 | Ion-dipole       | Ionic + polar solvent  | Strongest IMF  | Dissolution             |
+
+</div>
 
 ## Hybridization (CED Unit 2)
 
@@ -409,6 +433,8 @@ $$
 \%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
 $$
 
+<div class="table-wrap">
+
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
 | 0.0          | 0%                | H-H          |
@@ -417,6 +443,8 @@ $$
 | 1.7          | 51%               | Na-Cl        |
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
+
+</div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
 Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
@@ -518,6 +546,8 @@ $$
 \%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
 $$
 
+<div class="table-wrap">
+
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
 | 0.0          | 0%                | H-H          |
@@ -526,6 +556,8 @@ $$
 | 1.7          | 51%               | Na-Cl        |
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
+
+</div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
 Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
@@ -566,6 +598,8 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 
 ## Comparison Table: IMF Types and Boiling Points
 
+<div class="table-wrap">
+
 | Substance              | Molar Mass | IMF Types          | Boiling Point ($^{\circ}\mathrm{C$) |
 | ---------------------- | ---------- | ------------------ | ----------------------------------- |
 | $\mathrm{CH_4$         | 16         | LDF only           | -161                                |
@@ -577,10 +611,14 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 | $\mathrm{HCl$          | 36.5       | Dipole-dipole, LDF | -85                                 |
 | $\mathrm{H_2\mathrm{S$ | 34         | Dipole-dipole, LDF | -60                                 |
 
+</div>
+
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
 
 ## Summary Table: Types of Chemical Bonds Compared
+
+<div class="table-wrap">
 
 | Property                     | Ionic              | Nonpolar Covalent     | Polar Covalent  | Metallic                |
 | ---------------------------- | ------------------ | --------------------- | --------------- | ----------------------- |
@@ -592,7 +630,11 @@ types for similar molar masses.
 | Solubility                   | Polar solvents     | Nonpolar solvents     | Both            | Insoluble               |
 | Example                      | NaCl               | $\mathrm{O_2$         | HCl             | Cu, Fe                  |
 
+</div>
+
 ## Summary Table: Hybridization Quick Reference
+
+<div class="table-wrap">
 
 | Electron Domains | Hybridization | Geometry             | Bond Angles           | Examples                                           |
 | ---------------- | ------------- | -------------------- | --------------------- | -------------------------------------------------- |
@@ -601,6 +643,8 @@ types for similar molar masses.
 | 4                | sp$^3$        | Tetrahedral          | 109.5$^\circ$         | $\mathrm{CH_4$$\mathrm{NH_3$$\mathrm{H_2\mathrm{O$ |
 | 5                | sp$^3$D       | Trigonal bipyramidal | 90$^\circ$120$^\circ$ | $\mathrm{PCl_5$                                    |
 | 6                | sp$^3$D$^2$   | Octahedral           | 90$^\circ$            | $\mathrm{SF_6$$\mathrm{XeF_4$                      |
+
+</div>
 
 ## Practice Questions
 

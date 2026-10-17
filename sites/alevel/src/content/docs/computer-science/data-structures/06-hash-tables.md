@@ -148,11 +148,15 @@ $\alpha = n/m$ (the **load factor**).
 **Proof.** By linearity of expectation, the expected number of keys in any particular bucket is
 $n \cdot (1/m) = n/m$. $\square$
 
+<div class="table-wrap">
+
 | Operation | Average case    | Worst case |
 | --------- | --------------- | ---------- |
 | Search    | $O(1 + \alpha)$ | $O(n)$     |
 | Insert    | $O(1)$          | $O(1)$     |
 | Delete    | $O(1 + \alpha)$ | $O(n)$     |
+
+</div>
 
 **Theorem.** Chaining requires $O(n + m)$ total memory.
 
@@ -283,6 +287,8 @@ per insertion: $O(1)$. $\square$
 
 ## 7. Comparison of Collision Resolution Methods
 
+<div class="table-wrap">
+
 | Property          | Chaining        | Linear Probing    | Double Hashing |
 | ----------------- | --------------- | ----------------- | -------------- |
 | Memory            | $O(n + m)$      | $O(m)$            | $O(m)$         |
@@ -290,6 +296,8 @@ per insertion: $O(1)$. $\square$
 | Clustering        | None            | Primary           | None           |
 | Delete            | $O(1)$          | Lazy deletion     | Lazy deletion  |
 | Load factor limit | No hard limit   | $\alpha \lt 1$    | $\alpha \lt 1$ |
+
+</div>
 
 :::note
 - **AQA** requires understanding of hash functions, collision resolution (linear probing, quadratic
@@ -331,6 +339,8 @@ Probing. Show the table after each insertion.
 
 $h(k) = k \bmod 11$
 
+<div class="table-wrap">
+
 | Key | Hash | Probe sequence | Final index |
 | --- | ---- | -------------- | ----------- |
 | 10  | 10   | 10             | 10          |
@@ -341,11 +351,17 @@ $h(k) = k \bmod 11$
 | 28  | 6    | 6              | 6           |
 | 17  | 6    | 6, 7           | 7           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 22  |,   |,   |,   | 4   | 15  | 28  | 17  |,   | 31  | 10  |
+
+</div>
 
 </details>
 
@@ -357,6 +373,8 @@ $m = 5$. Show each bucket.
 
 $h(k) = k \bmod 5$
 
+<div class="table-wrap">
+
 | Bucket | Keys (chain) |
 | ------ | ------------ |
 | 0      | 10 → 15 → 28 |
@@ -364,6 +382,8 @@ $h(k) = k \bmod 5$
 | 2      | 22 → 17      |
 | 3      |              |
 | 4      | 4            |
+
+</div>
 
 Load factor: $\alpha = 7/5 = 1.4$.
 
@@ -497,6 +517,8 @@ Division.
 
 $h(k) = k \bmod 13$:
 
+<div class="table-wrap">
+
 | Key | Calculation      | Hash value |
 | --- | ---------------- | ---------- |
 | 26  | 26 ÷ 13 = 2 r 0  | 0          |
@@ -507,6 +529,8 @@ $h(k) = k \bmod 13$:
 | 31  | 31 ÷ 13 = 2 r 5  | 5          |
 | 55  | 55 ÷ 13 = 4 r 3  | 3          |
 | 20  | 20 ÷ 13 = 1 r 7  | 7          |
+
+</div>
 
 Note: 42 and 55 both hash to index 3, a collision occurs.
 
@@ -560,6 +584,8 @@ Using modulo 7.
 
 $h(k) = k \bmod 7$
 
+<div class="table-wrap">
+
 | Key | $h(k)$ | Probe sequence  | Final index |
 | --- | ------ | --------------- | ----------- |
 | 44  | 2      | 2               | 2           |
@@ -570,6 +596,8 @@ $h(k) = k \bmod 7$
 | 5   | 5      | 5, 6, 0         | 0           |
 | 22  | 1      | 1               | 1           |
 
+</div>
+
 Step-by-step table states:
 
 After inserting 44: `[-, -, 44, -, -, -, -]` After inserting 17: `[-, -, 44, 17, -, -, -]` After
@@ -579,9 +607,13 @@ Inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
 
 Final table:
 
+<div class="table-wrap">
+
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   |
 | ----- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 5   | 22  | 44  | 17  | 31  | 88  | 61  |
+
+</div>
 
 </details>
 
@@ -632,6 +664,8 @@ $i = 0, 1, 2, 3, \ldots$). If the target index is occupied, try $(h'(k) + i^2) \
 
 $h'(k) = k \bmod 11$, $h(k, i) = (h'(k) + i^2) \bmod 11$
 
+<div class="table-wrap">
+
 | Key | $h'(k)$ | Probe sequence ($i=0, 1, 2, \ldots$)              | Final index |
 | --- | ------- | ------------------------------------------------- | ----------- |
 | 19  | 8       | $(8+0)=8$                                         | 8           |
@@ -642,11 +676,17 @@ $h'(k) = k \bmod 11$, $h(k, i) = (h'(k) + i^2) \bmod 11$
 | 14  | 3       | $(3+0)=3$ occupied, $(3+1)=4$ occupied, $(3+4)=7$ | 7           |
 | 75  | 9       | $(9+0)=9$                                         | 9           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   |,   |,   |,   | 36  | 69  | 5   | 50  | 14  | 19  | 75  |,   |
+
+</div>
 
 Load factor: $\alpha = 7/11 \approx 0.636$
 
@@ -677,6 +717,8 @@ Prime. Nearest prime ≥ 14 is 17. New $m = 17$.
 
 **Step 2: Rehash all keys using $h(k) = k \bmod 17$.**
 
+<div class="table-wrap">
+
 | Key | $k \bmod 17$ | Index |
 | --- | ------------ | ----- |
 | 14  | 14           | 14    |
@@ -686,13 +728,19 @@ Prime. Nearest prime ≥ 14 is 17. New $m = 17$.
 | 35  | 1            | 1     |
 | 42  | 8            | 8     |
 
+</div>
+
 No collisions occur with the new table size.
 
 **Final table (size 17):**
 
+<div class="table-wrap">
+
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 16  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   |,   | 35  |,   |,   | 21  |,   |,   | 7   | 42  |,   |,   | 28  |,   |,   | 14  |,   |
+
+</div>
 
 New load factor: $\alpha = 6/17 \approx 0.353 < 0.7$ ✓
 
@@ -746,6 +794,8 @@ Probe sequences, memory usage, and deletion.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Aspect                 | Linear Probing                                                                                                                   | Chaining                                                                                                                                  |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Best-case search**   | $O(1)$, key at its hash index                                                                                                   | $O(1)$, key is alone in its bucket                                                                                                       |
@@ -754,6 +804,8 @@ Probe sequences, memory usage, and deletion.
 | **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$ Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
 | **Memory**             | $O(m)$, fixed array size                                                                                                        | $O(n + m)$, array + linked list nodes                                                                                                    |
 | **Cache performance**  | Good, contiguous memory access                                                                                                  | Poor, following pointers to scattered nodes                                                                                              |
+
+</div>
 
 **Key trade-off:** Linear probing has better cache performance but suffers from clustering and
 Requires careful load factor management. Chaining is simpler to implement and handles deletion
@@ -795,11 +847,15 @@ $$
 
 **Worked examples:**
 
+<div class="table-wrap">
+
 | ISBN          | Last 5 digits | $\bmod 100000$ | $\bmod 10007$                                                | Hash |
 | ------------- | ------------- | -------------- | ------------------------------------------------------------ | ---- |
 | 9780132350884 | 50884         | 50884          | 50884 mod 10007 = 50884 − 5×10007 = 50884 − 50035 = **849**  | 849  |
 | 9780596007126 | 07126         | 7126           | 7126 mod 10007 = **7126**                                    | 7126 |
 | 9780201896831 | 96831         | 96831          | 96831 mod 10007 = 96831 − 9×10007 = 96831 − 90063 = **6768** | 6768 |
+
+</div>
 
 This gives good distribution across the table. With $m = 10007$ and a load factor target of 0.7, the
 Table can hold approximately 7000 books before needing resizing.
@@ -831,6 +887,8 @@ First, then trace the probe sequence.
 
 $h_1(k) = k \bmod 11$, $h_2(k) = 1 + (k \bmod 9)$
 
+<div class="table-wrap">
+
 | Key | $h_1(k)$ | $h_2(k)$                   | Probe sequence ($h_1 + i \cdot h_2$) mod 11 | Final index |
 | --- | -------- | -------------------------- | ------------------------------------------- | ----------- |
 | 47  | 3        | $1+(47 \bmod 9) = 1+2 = 3$ | $(3+0)=3$                                   | 3           |
@@ -841,11 +899,17 @@ $h_1(k) = k \bmod 11$, $h_2(k) = 1 + (k \bmod 9)$
 | 36  | 3        | $1+(36 \bmod 9) = 1+0 = 1$ | $(3+0)=3$ occ, $(3+1)=4$                    | 4           |
 | 52  | 8        | $1+(52 \bmod 9) = 1+7 = 8$ | $(8+0)=8$ occ, $(8+8)=5$                    | 5           |
 
+</div>
+
 Final table:
+
+<div class="table-wrap">
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Key   | 25  | 80  |,   | 47  | 36  | 52  |,   |,   | 63  | 14  |,   |
+
+</div>
 
 **(b) Load factor:**
 

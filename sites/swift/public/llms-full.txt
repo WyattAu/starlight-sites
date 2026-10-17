@@ -91,6 +91,8 @@ development on platforms beyond Apple, including Linux and Windows.
 
 ## Swift vs Other Languages
 
+<div class="table-wrap">
+
 | Feature           | Swift        | Python      | TypeScript    | Rust        |
 | ----------------- | ------------ | ----------- | ------------- | ----------- |
 | Type system       | Strong, safe | Dynamic     | Gradual       | Strong      |
@@ -99,6 +101,8 @@ development on platforms beyond Apple, including Linux and Windows.
 | Concurrency       | async/await  | async/await | async/await   | async/await |
 | Primary domain    | Apple        | General     | Web           | Systems     |
 | Null safety       | Optionals    | None        | Union/null    | Option      |
+
+</div>
 
 ## Setting Up the Development Environment
 
@@ -455,6 +459,8 @@ func greet(_ subject: Identifiable) {
 
 ### Popular Third-Party Libraries
 
+<div class="table-wrap">
+
 | Library                     | Purpose                       |
 | --------------------------- | ----------------------------- |
 | Alamofire                   | HTTP networking               |
@@ -465,6 +471,8 @@ func greet(_ subject: Identifiable) {
 | RxSwift                     | Reactive extensions           |
 | The Composable Architecture | State management architecture |
 | Alamofire                   | HTTP networking               |
+
+</div>
 
 ### Server-Side Swift
 
@@ -732,6 +740,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 
 ### Numeric Types
 
+<div class="table-wrap">
+
 | Type     | Size (bits) | Range                                        |
 | -------- | ----------- | -------------------------------------------- |
 | `Int8`   | 8           | -128 to 127                                  |
@@ -742,6 +752,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 | `UInt`   | Platform    | Unsigned equivalent of `Int`                 |
 | `Float`  | 32          | 6 decimal digits precision                   |
 | `Double` | 64          | 15 decimal digits precision                  |
+
+</div>
 
 ```swift
 // Type conversion -- must be explicit
@@ -2376,6 +2388,8 @@ URL: https://swift.wyattau.com/03-oop/1_classes-and-structs/
 Swift provides both **classes** (reference types) and **structs** (value types). The choice between
 them is a fundamental design decision.
 
+<div class="table-wrap">
+
 | Feature         | Struct                      | Class                           |
 | --------------- | --------------------------- | ------------------------------- |
 | Type            | Value type                  | Reference type                  |
@@ -2386,6 +2400,8 @@ them is a fundamental design decision.
 | Memory          | Stack (in most cases)             | Heap (ARC)                      |
 | Identity        | No (`==` compares values)   | Yes (`===` compares references) |
 | Implicit `init` | Yes (memberwise)            | No                              |
+
+</div>
 
 ### Choosing Between Struct and Class
 
@@ -3086,6 +3102,8 @@ class CreditCard {
 
 ## Access Control
 
+<div class="table-wrap">
+
 | Level         | Same module              | Different module         |
 | ------------- | ------------------------ | ------------------------ |
 | `open`        | Yes (subclass, override) | Yes (subclass, override) |
@@ -3093,6 +3111,8 @@ class CreditCard {
 | `internal`    | Yes                      | No                       |
 | `fileprivate` | Same file                | No                       |
 | `private`     | Same scope               | No                       |
+
+</div>
 
 ```swift
 open class PublicClass {

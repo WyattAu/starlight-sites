@@ -96,6 +96,8 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
@@ -103,11 +105,15 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 13.3 Key Relationships
+
+<div class="table-wrap">
 
 | Quantity              | Formula                                    | Physical role                                            |
 | --------------------- | ------------------------------------------ | -------------------------------------------------------- |
@@ -116,6 +122,8 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | Langmuir wave         | $\omega^2 = \omega_p^2 + 3k^2 v_{\rm th}^2$       | Electrostatic wave in unmagnetised plasma                |
 | Ion-acoustic wave     | $\omega^2 = k^2 c_s^2 / (1 + k^2\lambda_D^2)$     | Low-frequency wave with ion inertia and electron pressure |
 | Electron gyrofrequency| $\omega_{ce} = eB/m_e$                            | Cyclotron frequency in magnetised plasma                 |
+
+</div>
 
 ### 13.4 Common Pitfalls
 
@@ -151,6 +159,8 @@ $\blacksquare$
 
 ### 13.7 Summary Table
 
+<div class="table-wrap">
+
 | Regime               | Condition                 | Key behaviour                              |
 | -------------------- | ------------------------- | ------------------------------------------ |
 | Debye shielding      | $r > \lambda_D$           | Electric fields screened out               |
@@ -158,6 +168,8 @@ $\blacksquare$
 | EM wave propagation  | $\omega > \omega_p$       | Wave propagates through plasma             |
 | EM wave cut-off      | $\omega < \omega_p$       | Wave is evanescent, reflected              |
 | Ion-acoustic waves   | $T_e \gg T_i$             | Sound-like waves with $c_s = \sqrt{k_BT_e/m_i}$ |
+
+</div>
 
 ## See Also
 

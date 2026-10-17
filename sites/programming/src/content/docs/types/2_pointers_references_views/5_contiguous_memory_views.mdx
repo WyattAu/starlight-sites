@@ -40,6 +40,8 @@ On 64-bit systems:
 
 ## 2. Relationship to `std::string_view`
 
+<div class="table-wrap">
+
 | Property             | `std::span<const char>`     | `std::string_view`                        |
 | :------------------- | :-------------------------- | :---------------------------------------- |
 | Null-termination     | Not assumed                 | Partially (implementation detail)         |
@@ -47,6 +49,8 @@ On 64-bit systems:
 | Stream output        | No `operator<<`             | Yes                                       |
 | Hash                 | `std::hash` not specialized | `std::hash<std::string_view>` specialized |
 | General element type | Any `T`                     | `char`-like only                          |
+
+</div>
 
 `std::string_view` is a domain-specific specialization. Prefer `std::string_view` for text. Prefer
 `std::span` for everything else.
@@ -246,6 +250,8 @@ ssize_t read_into(int fd, std::span<std::byte> buf) \{
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Feature                    | C array `T[N]` | `std::array<T, N>` | `std::span<T>`                          |
 | :------------------------- | :------------- | :----------------- | :-------------------------------------- |
 | Owns data                  | Yes (stack)    | Yes (stack)        | **No**                                  |
@@ -254,6 +260,8 @@ ssize_t read_into(int fd, std::span<std::byte> buf) \{
 | Dynamic sizing             | No             | No                 | Yes                                     |
 | Bounds checking            | No             | `.at()`            | `.at()` (C++26 `operator[]` is checked) |
 | Slicing                    | No             | No                 | Yes (`first, last, subspan`)            |
+
+</div>
 
 ## 8. Range-For Integration
 

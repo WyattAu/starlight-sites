@@ -41,6 +41,8 @@ governed.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                              | Definition                                                                                                                         |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | **Urbanisation**                  | The increase in the proportion of a population living in urban areas, and the physical growth of urban areas                       |
@@ -59,6 +61,8 @@ governed.
 | **Dereliction**                   | Abandoned, unused, or neglected urban land and buildings                                                                           |
 | **Deprivation**                   | A lack of resources (income, housing, services, opportunities) relative to the wider society                                       |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -76,6 +80,8 @@ governed.
 
 Urbanisation rates vary significantly between regions:
 
+<div class="table-wrap">
+
 | Region            | Urban Population (%, 2023) | Key Features                                                         |
 | ----------------- | --------------------------- | -------------------------------------------------------------------- |
 | **North America** | ~83%                        | Highly urbanised; suburban sprawl dominant                           |
@@ -84,6 +90,8 @@ Urbanisation rates vary significantly between regions:
 | **Asia**          | ~52%                        | Most rapidly urbanising region; massive megacity growth              |
 | **Africa**        | ~44%                        | Fastest current rate of urbanisation; significant informal economies |
 | **Oceania**       | ~68%                        | Concentrated in coastal cities (Sydney, Melbourne, Auckland)         |
+
+</div>
 
 **Emerging megacities**: In 1950, there were only 2 megacities (New York and Tokyo). By 2030, the UN
 projects there will be approximately 43 megacities, with the majority in Asia and Africa. Delhi,
@@ -127,6 +135,8 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
 
 ### Models of Urban Structure
 
+<div class="table-wrap">
+
 | Model                                              | Description                                                                                                                                               | Applicability                                                                                 |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Burgess Concentric Zone Model (1925)**           | City grows outward in concentric rings from the CBD: CBD → transition zone → working-class homes → middle-class homes → commuter zone                     | Based on Chicago; less applicable to modern cities with multiple nuclei                       |
@@ -134,6 +144,8 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
 | **Harris and Ullman Multiple Nuclei Model (1945)** | Cities have multiple centres of activity (CBD, out-of-town retail, business parks, industrial estates) rather than a single core                          | Most applicable to modern, polycentric cities                                                 |
 | **Latin American City Model (Griffin-Ford)**       | Elite sector extends from CBD along a spine of quality housing and services, with concentric zones of decreasing quality; peripheral squatter settlements | Reflects the extreme inequality of Latin American urbanisation                                |
 | **African City Model (de Blij)**                   | Multiple informal and formal commercial nodes; colonial CBD alongside traditional market areas; extensive peri-urban informal settlements                 | Reflects the colonial legacy and rapid, unplanned growth of African cities                    |
+
+</div>
 
 ### Factors Influencing Urban Form
 
@@ -330,11 +342,15 @@ Bank).
 A sustainable city meets the needs of its current residents without compromising the ability of
 future generations to meet their own needs. Key dimensions:
 
+<div class="table-wrap">
+
 | Dimension         | Principles                                                                                                      |
 | ----------------- | --------------------------------------------------------------------------------------------------------------- |
 | **Environmental** | Reduce carbon emissions, protect green spaces, manage waste sustainably, improve air quality, conserve water    |
 | **Social**        | Ensure equitable access to housing, services, and opportunities; promote community cohesion; reduce segregation |
 | **Economic**      | Support diverse local economy; provide employment; ensure fiscal sustainability; attract investment             |
+
+</div>
 
 ### Sustainable Urban Strategies
 

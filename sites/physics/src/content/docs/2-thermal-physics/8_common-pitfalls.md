@@ -112,6 +112,8 @@ is a key signature of a Fermi liquid. $\blacksquare$
 
 ### Summary of Key Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential | Symbol | Natural Variables | Differential |
 | ----------- | -------- | ------------------- | -------------- |
 | Internal energy | $U$ | $S, V, N$ | $dU = TdS - PdV + \mu dN$ |
@@ -119,6 +121,8 @@ is a key signature of a Fermi liquid. $\blacksquare$
 | Helmholtz free energy | $F$ | $T, V, N$ | $dF = -SdT - PdV + \mu dN$ |
 | Gibbs free energy | $G$ | $T, P, N$ | $dG = -SdT + VdP + \mu dN$ |
 | Grand potential | $\Phi$ | $T, V, \mu$ | $d\Phi = -SdT - PdV - Nd\mu$ |
+
+</div>
 
 ### Additional Pitfalls
 
@@ -173,6 +177,6 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

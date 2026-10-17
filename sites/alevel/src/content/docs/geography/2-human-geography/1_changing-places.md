@@ -40,6 +40,8 @@ regeneration strategies and their impacts on different social groups.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                     | Definition                                                                                                                                         |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Place**                | A specific location with meaning and identity attached to it by people, more than just a physical space                                           |
@@ -57,6 +59,8 @@ regeneration strategies and their impacts on different social groups.
 | **Re-imaging**           | Changing the reputation and perception of a place, often through marketing, branding, and flagship developments                                    |
 | **Deindustrialisation**  | The decline of manufacturing industry in a region or country, often resulting in job losses and economic decline                                   |
 | **Stakeholder**          | Any individual, group, or organisation with an interest in a place or development                                                                  |
+
+</div>
 
 ---
 
@@ -84,10 +88,14 @@ different meanings to the same space.
 
 ### Insider and Outsider Perspectives
 
+<div class="table-wrap">
+
 | Perspective  | Characteristics                                                                                                                                                            |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Insider**  | Lived experience, emotional attachment, detailed local knowledge, sense of belonging, personal memories, may be biased by familiarity                                      |
 | **Outsider** | External, often economic or administrative viewpoint, may rely on statistics and media representations, may miss nuances of local experience, may bring useful objectivity |
+
+</div>
 
 Media representations significantly shape outsider perceptions. A place portrayed negatively in the
 media (e.g., as crime-ridden or economically depressed) may deter investment and visitors,
@@ -128,6 +136,8 @@ ideas, and goods.
 
 These are the internal characteristics that shape the identity and development of a place:
 
+<div class="table-wrap">
+
 | Factor                          | Examples                                                                  |
 | ------------------------------- | ------------------------------------------------------------------------- |
 | **Physical geography**          | Location, topography, climate, natural resources, drainage, geology       |
@@ -137,9 +147,13 @@ These are the internal characteristics that shape the identity and development o
 | **Historical development**      | Past uses of land, historical buildings, heritage, industrial legacy      |
 | **Local culture and identity**  | Traditions, dialects, community organisations, religious institutions     |
 
+</div>
+
 ### Exogenous Factors (External)
 
 These are external forces that drive change in a place:
+
+<div class="table-wrap">
 
 | Factor                         | Examples                                                                                                                             |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -150,6 +164,8 @@ These are external forces that drive change in a place:
 | **Technological change**       | Digital connectivity, remote working, automation of local industries                                                                 |
 | **Environmental change**       | Climate change impacts, flood risk, environmental degradation                                                                        |
 | **Media representation**       | National media coverage, social media trends, tourism marketing                                                                      |
+
+</div>
 
 ### Relationships Between Endogenous and Exogenous Factors
 
@@ -260,6 +276,8 @@ Economic change does not affect all residents equally:
 Regeneration aims to reverse economic, social, and physical decline. Approaches can be categorised
 as:
 
+<div class="table-wrap">
+
 | Approach                    | Description                                                                           | Example                                                                                    |
 | --------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Property-led**            | Focus on physical redevelopment, flagship buildings, housing renewal, business parks | London Docklands (Canary Wharf); Salford Quays (MediaCityUK)                               |
@@ -269,6 +287,8 @@ as:
 | **Creative/cultural-led**   | Attracting artists, creative industries, and cultural institutions to create a "buzz" | Northern Quarter, Manchester; Digbeth, Birmingham                                          |
 | **Community-led**           | Grassroots initiatives driven by local residents and organisations                    | Incredible Edible Todmorden; community land trusts                                         |
 | **Infrastructure-led**      | Major transport investment to improve connectivity and attract investment             | HS2 (planned); Kings Cross/St Pancras regeneration                                         |
+
+</div>
 
 ### Evaluating Regeneration
 

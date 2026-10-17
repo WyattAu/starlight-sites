@@ -20,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File       | Topics Covered                                                                                  | Source File                         |
 | --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- |
 | `diag-energy.md`      | Energy stores, transfers, conservation, efficiency, specific heat capacity, work and power      | `energy.md`                         |
@@ -27,6 +29,8 @@ tableOfContents: false
 | `diag-forces.md`      | Newton's laws, weight/mass, Hooke's law, momentum, pressure, circular motion, terminal velocity | `forces.md`                         |
 | `diag-waves.md`       | Wave properties, EM spectrum, reflection, refraction, sound waves, interference                 | `waves.md`                          |
 | `diag-magnetism.md`   | Magnetic fields, electromagnets, motor effect, electromagnetic induction, transformers          | `magnetism-and-electromagnetism.md` |
+
+</div>
 
 ## Grading Rubric
 
@@ -81,6 +85,8 @@ Waves (wave properties, speed, frequency)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic         | Recommended Time | Notes                                        |
 | ------------------ | ---------------- | -------------------------------------------- |
 | `diag-energy`      | 35 minutes       | Includes specific heat capacity calculations |
@@ -88,6 +94,8 @@ Waves (wave properties, speed, frequency)
 | `diag-electricity` | 40 minutes       | Circuit analysis requires careful working    |
 | `diag-waves`       | 30 minutes       | Mix of recall and calculation                |
 | `diag-magnetism`   | 35 minutes       | Induction problems can be complex            |
+
+</div>
 
 **Total recommended time:** approximately 3 hours (spread across 2 sessions).
 

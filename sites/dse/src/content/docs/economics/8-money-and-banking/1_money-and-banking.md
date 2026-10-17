@@ -67,6 +67,8 @@ the value of the debt because it is denominated in money.
 
 For a substance to function effectively as money, it should possess the following characteristics:
 
+<div class="table-wrap">
+
 | Characteristic     | Description                                                                  | Example                                             |
 | ------------------ | ---------------------------------------------------------------------------- | --------------------------------------------------- |
 | Acceptability      | Generally accepted by all as a medium of exchange                            | Legal tender status, government backing             |
@@ -76,6 +78,8 @@ For a substance to function effectively as money, it should possess the followin
 | Homogeneity        | Each unit is identical in value to every other unit of the same denomination | Each HKD 100 note is worth the same                 |
 | Scarcity           | Supply is limited relative to demand; maintains value                        | Limited money supply by central bank                |
 | Stability of value | Relatively stable purchasing power over time                                 | Low inflation preserves value                       |
+
+</div>
 
 ### Types of Money
 
@@ -170,6 +174,8 @@ In Hong Kong, the de facto central bank is the **Hong Kong Monetary Authority (H
 
 ### Central Bank vs Commercial Bank
 
+<div class="table-wrap">
+
 | Feature                | Central Bank                              | Commercial Bank                                        |
 | ---------------------- | ----------------------------------------- | ------------------------------------------------------ |
 | Objective              | Public interest (stability, policy)       | Profit maximisation                                    |
@@ -179,6 +185,8 @@ In Hong Kong, the de facto central bank is the **Hong Kong Monetary Authority (H
 | Accepts deposits?      | Only from government and commercial banks | From the public and businesses                         |
 | Lender of last resort? | Yes                                       | No                                                     |
 | Sets monetary policy?  | Yes                                       | No                                                     |
+
+</div>
 
 ---
 
@@ -239,6 +247,8 @@ $$
 
 **Step-by-step process:**
 
+<div class="table-wrap">
+
 | Round | New Deposit | Reserves (10%) | Loans (90%) |
 | ----- | ----------- | -------------- | ----------- |
 | 1     | 1,000       | 100            | 900         |
@@ -247,6 +257,8 @@ $$
 | 4     | 729         | 72.9           | 656.1       |
 | ...   | ...         | ...            | ...         |
 | Total | 10,000      | 1,000          | 9,000       |
+
+</div>
 
 The total increase in deposits forms a geometric series:
 
@@ -343,6 +355,8 @@ $$
 Liquidity refers to the ease with which an asset can be converted into cash without significant loss
 of value.
 
+<div class="table-wrap">
+
 | Asset            | Liquidity  |
 | ---------------- | ---------- |
 | Cash             | Highest    |
@@ -352,6 +366,8 @@ of value.
 | Government bonds | Medium     |
 | Stocks/shares    | Medium-low |
 | Real estate      | Low        |
+
+</div>
 
 M1 contains the most liquid assets; M2 includes less liquid assets as well.
 
@@ -476,6 +492,8 @@ the open market.
 
 ### Expansionary vs Contractionary Monetary Policy
 
+<div class="table-wrap">
+
 |                | Expansionary Monetary Policy | Contractionary Monetary Policy      |
 | -------------- | ---------------------------- | ----------------------------------- |
 | Objective      | Stimulate the economy        | Reduce inflation                    |
@@ -486,6 +504,8 @@ the open market.
 | Interest rates | Fall                         | Rise                                |
 | Effect on AD   | Increases                    | Decreases                           |
 | When used      | Recession, high unemployment | High inflation, overheating economy |
+
+</div>
 
 ---
 
@@ -597,10 +617,14 @@ Real interest rate $\approx 5\% - 2\% = 3\%$
 
 ### Effects of Interest Rate Changes
 
+<div class="table-wrap">
+
 | Interest Rate Change | Effect on Borrowers                                       | Effect on Savers                       | Effect on Exchange Rate                |
 | -------------------- | --------------------------------------------------------- | -------------------------------------- | -------------------------------------- |
 | Increase             | Borrowing more expensive; less consumption and investment | Higher returns on savings; more saving | Capital inflows; currency appreciates  |
 | Decrease             | Borrowing cheaper; more consumption and investment        | Lower returns; less saving             | Capital outflows; currency depreciates |
+
+</div>
 
 ---
 
@@ -686,6 +710,8 @@ To borrowers (those who need funds).
 
 ### The Balance Sheet of a Bank
 
+<div class="table-wrap">
+
 | Assets (Uses of Funds)                     | Liabilities (Sources of Funds)     |
 | ------------------------------------------ | ---------------------------------- |
 | Reserves (cash + deposits at central bank) | Demand deposits (current accounts) |
@@ -693,6 +719,8 @@ To borrowers (those who need funds).
 | Government securities                      | Time deposits                      |
 | Other securities                           | Borrowing from central bank        |
 | Physical assets (buildings, equipment)     | Shareholders' equity               |
+
+</div>
 
 ### Bank Runs and Deposit Insurance
 
@@ -1409,11 +1437,15 @@ If you get this wrong, revise: [Banking System Stability](/economics/8-money-and
 
 A bank has the following balance sheet (in HK$ billion):
 
+<div class="table-wrap">
+
 | Assets                                | Liabilities                                |
 | ------------------------------------- | ------------------------------------------ |
 | Fixed-rate loans (5 years, 4%): 400   | Fixed-rate deposits (1 year, 2%): 300      |
 | Floating-rate loans (HIBOR + 2%): 200 | Floating-rate deposits (HIBOR + 0.5%): 250 |
 | Reserves (0%): 50                     | Equity: 100                                |
+
+</div>
 
 HIBOR is currently 3%. The bank expects HIBOR to rise to 5% over the next year.
 
@@ -1617,12 +1649,16 @@ maximum.
 
 (a) Money multiplier $= 1/0.10 = 10$. Required bond sale $= 400/10 = \text{HK}\$40$ billion.
 
+<div class="table-wrap">
+
 | (b) | Round | Deposits | Reserves | Loans |
 | --- | ----- | -------- | -------- | ----- |
 |  | 0   | -40   | -40      | 0        |
 |  | 1   | 0     | -36      | -36      |
 |  | 2   | -36   | -32.4    | -32.4    |
 |  | 3   | -32.4 | -29.16   | -29.16   |
+
+</div>
 
 Total after 3 rounds: Deposits reduced by $40 + 36 + 32.4 = 108.4$ billion (of 400 total).
 

@@ -64,12 +64,16 @@ disorders.
 
 ## Assessment Structure
 
+<div class="table-wrap">
+
 | Component           | SL                                                                                                  | HL                                                                                                                          |
 | ------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Paper 1             | 2 hours. Three extended-response questions, one per core LOA. Each question is worth 22 marks.      | 2 hours. Three extended-response questions, one per core LOA. Each question is worth 22 marks.                              |
 | Paper 2             | 1 hour. One extended-response question from a choice of three options. Worth 22 marks.              | 2 hours. Two extended-response questions from a choice of four options. Each worth 22 marks.                                |
 | Paper 3             | Not assessed.                                                                                       | 1 hour. Three short-answer questions based on a research scenario. Tests understanding of research methods. Worth 24 marks. |
 | Internal Assessment | Experimental study. Replication of a simple experiment with a written report (maximum 1,800 words). | Experimental study. Replication of a simple experiment with a written report (maximum 2,200 words).                         |
+
+</div>
 
 ### Paper 1, Core
 

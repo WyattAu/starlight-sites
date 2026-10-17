@@ -117,6 +117,8 @@ statistical property -- it applies to large numbers of atoms, not to individual 
 
 The following data are given:
 
+<div class="table-wrap">
+
 | Nucleus                 | Mass (u)  |
 | ----------------------- | --------- |
 | $^{1}\text{H}$ (proton) | 1.00728   |
@@ -125,6 +127,8 @@ The following data are given:
 | $^{235}\text{U}$        | 235.04393 |
 | $^{141}\text{Ba}$       | 140.91390 |
 | $^{92}\text{Kr}$        | 91.92620  |
+
+</div>
 
 $1 \text{ u} = 931.5 \text{ MeV}/c^2$, $1 \text{ eV} = 1.6 \times 10^{-19}$ J.
 

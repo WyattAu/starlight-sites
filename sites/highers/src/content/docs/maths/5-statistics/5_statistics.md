@@ -61,9 +61,13 @@ $$
 
 **Example:** Calculate the mean and standard deviation of the following data:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 6   | 8   | 10  |
 | --- | --- | --- | --- | --- | --- |
 | $f$ | 3   | 5   | 8   | 4   | 2   |
+
+</div>
 
 $$
 \bar{x} = \frac{3(2) + 5(4) + 8(6) + 4(8) + 2(10)}{3 + 5 + 8 + 4 + 2} = \frac{6 + 20 + 48 + 32 + 20}{22} = \frac{126}{22} \approx 5.73
@@ -289,6 +293,8 @@ Phenomena (heights, blood pressure, measurement errors) tend to be normally dist
 
 **Key standard normal values:**
 
+<div class="table-wrap">
+
 | $z$   | $P(Z \lt z)$ |
 | ----- | ------------ |
 | 1.00  | 0.8413       |
@@ -297,6 +303,8 @@ Phenomena (heights, blood pressure, measurement errors) tend to be normally dist
 | 2.00  | 0.9772       |
 | 2.326 | 0.9900       |
 | 2.576 | 0.9950       |
+
+</div>
 
 **Example:** The heights of Scottish men are normally distributed with mean 175 cm and standard
 Deviation 8 cm. Find the probability that a randomly chosen man is taller than 185 cm.
@@ -388,9 +396,13 @@ may not hold.
 
 **Example:** Calculate the PMCC for the following data:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 2   | 5   | 6   | 9   | 11  |
+
+</div>
 
 $\bar{x} = 3$, $\bar{y} = 6.6$.
 
@@ -595,11 +607,15 @@ Where $O_i$ is the observed frequency and $E_i$ is the expected frequency.
 **Example:** A survey investigates whether there is an association between gender and preferred
 Subject among 200 students:
 
+<div class="table-wrap">
+
 |        | Maths | Science | English | Total |
 | ------ | ----- | ------- | ------- | ----- |
 | Male   | 40    | 35      | 15      | 90    |
 | Female | 30    | 25      | 55      | 110   |
 | Total  | 70    | 60      | 70      | 200   |
+
+</div>
 
 Expected frequencies:
 $E_{ij} = \dfrac{\mathrm{row total \times \mathrm{column total}{\mathrm{grand total}$.
@@ -743,9 +759,13 @@ See the examples integrated throughout the sections above.
 
 4. Calculate the PMCC for the following data and interpret the result:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 2   | 5   | 6   | 9   | 11  |
+
+</div>
 
 1. In a group of 100 students, 55 study Maths, 40 study Chemistry, and 20 study both. A student is
    selected at random. Find the probability that they study neither subject.
@@ -774,9 +794,13 @@ See the examples integrated throughout the sections above.
 
 9. Find $E(X)$ and $\mathrm{Var(X)$ for the probability distribution:
 
+<div class="table-wrap">
+
 | $x$      | 0   | 1   | 2   | 3   |
 | -------- | --- | --- | --- | --- |
 | $P(X=x)$ | 0.1 | 0.3 | 0.4 | 0.2 |
+
+</div>
 
 1. Two dice are rolled. Let $X$ be the sum. Find $E(X)$ and $\mathrm{Var(X)$.
 

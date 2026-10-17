@@ -30,6 +30,8 @@ Nucleophile.
 
 ## Aldehydes vs Ketones
 
+<div class="table-wrap">
+
 | Property              | Aldehyde                                                            | Ketone                                                          |
 | --------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
 | General formula       | $\mathrm{RCHO}$                                                     | $\mathrm{RCOR}"$                                                |
@@ -39,6 +41,8 @@ Nucleophile.
 | Fehling's/Benedict's  | Brick-red precipitate                                               | No reaction                                                     |
 | Boiling point         | Lower (no intermolecular H-bonding between aldehydes)               | Higher than comparable aldehyde                                 |
 | Nucleophilic addition | More reactive (less steric hindrance, +I from only one alkyl group) | Less reactive (more steric hindrance, +I from two alkyl groups) |
+
+</div>
 
 The greater reactivity of aldehydes toward nucleophilic addition is explained by two factors:
 
@@ -457,6 +461,8 @@ compound. This is a standard qualitative organic analysis technique.
 
 ### IR Spectroscopy
 
+<div class="table-wrap">
+
 | Bond                  | Absorption range                                                     |
 | --------------------- | -------------------------------------------------------------------- |
 | C=O (aldehyde)        | $1720$--$1740\,\mathrm{cm}^{-1}$                                     |
@@ -466,6 +472,8 @@ compound. This is a standard qualitative organic analysis technique.
 | C=O (amide)           | $1680$--$1700\,\mathrm{cm}^{-1}$                                     |
 | C=O (acyl chloride)   | $1770$--$1810\,\mathrm{cm}^{-1}$                                     |
 | Aldehyde C--H stretch | $2820$--$2720\,\mathrm{cm}^{-1}$ (two weak bands, diagnostic)        |
+
+</div>
 
 ### NMR Spectroscopy
 
@@ -911,6 +919,8 @@ unless excess reagent is used or water is removed (1 mark).
 
 ### Key Disconnections
 
+<div class="table-wrap">
+
 | Target                              | Disconnection                 | Forward reagents                      |
 | ----------------------------------- | ----------------------------- | ------------------------------------- |
 | Primary alcohol                     | $\mathrm{C-OH}$ from aldehyde | Aldehyde + $\mathrm{NaBH}_4$          |
@@ -920,6 +930,8 @@ unless excess reagent is used or water is removed (1 mark).
 | Amide                               | $\mathrm{C-NH}$               | $\mathrm{RCOCl} + \mathrm{NH}_3$      |
 | Cyanohydrin                         | $\mathrm{C(CN)(OH)}$          | Aldehyde/ketone + $\mathrm{HCN}$      |
 | $\alpha,\beta$-unsaturated carbonyl | Aldol dehydration             | 2 aldehydes + $\mathrm{NaOH}$$\Delta$ |
+
+</div>
 
 ### Worked Retrosynthesis
 

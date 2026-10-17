@@ -34,6 +34,8 @@ endoplasmic reticulum.
 **Plant cell (additional structures):** cell wall, chloroplasts, permanent vacuole, all the above
 structures.
 
+<div class="table-wrap">
+
 | (b)               | Feature                   | Animal Cell                          | Plant Cell |
 | ----------------- | ------------------------- | ------------------------------------ | ---------- |
 |  | Cell wall         | Absent                    | Present (made of cellulose)          |
@@ -43,6 +45,8 @@ structures.
 |  | Nucleus           | Present                   | Present                              |
 |  | Mitochondria      | Present                   | Present                              |
 |  | Cell membrane     | Present                   | Present (inside cell wall)           |
+
+</div>
 
 (c) **Mitochondria:** Site of aerobic respiration, where glucose and oxygen are converted to ATP
 (energy). They have a double membrane with folds (cristae) to increase surface area for the chemical

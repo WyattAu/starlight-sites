@@ -271,9 +271,13 @@ Where $p_0 = 0$ and $L_0 = 0$.
 
 **Worked example:**
 
+<div class="table-wrap">
+
 | Cumulative population share ($p_i$) | 0.20 | 0.40 | 0.60 | 0.80 | 1.00 |
 | ----------------------------------- | ---- | ---- | ---- | ---- | ---- |
 | Cumulative income share ($L_i$)     | 0.05 | 0.15 | 0.30 | 0.50 | 1.00 |
+
+</div>
 
 $$
 G = 1 - [(0.2 - 0)(0.05 + 0) + (0.4 - 0.2)(0.15 + 0.05) + (0.6 - 0.4)(0.30 + 0.15) + (0.8 - 0.6)(0.50 + 0.30) + (1.0 - 0.8)(1.00 + 0.50)]
@@ -374,12 +378,16 @@ $$
 
 **Goalposts:**
 
+<div class="table-wrap">
+
 | Dimension          | Indicator                   | Minimum | Maximum |
 | ------------------ | --------------------------- | ------- | ------- |
 | Long and healthy   | Life expectancy at birth    | 20      | 85      |
 | Knowledge          | Mean years of schooling     | 0       | 15      |
 | Knowledge          | Expected years of schooling | 0       | 18      |
 | Standard of living | GNI per capita (PPP, USD)   | 100     | 75000   |
+
+</div>
 
 The education index is the arithmetic mean of the two education indicators:
 
@@ -785,11 +793,15 @@ economy.
 
 A country's nominal GDP and GDP deflator are as follows:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (billion USD) | GDP Deflator (base year 2015 = 100) |
 | ---- | ------------------------- | ----------------------------------- |
 | 2018 | 1200                      | 110                                 |
 | 2019 | 1350                      | 118                                 |
 | 2020 | 1280                      | 125                                 |
+
+</div>
 
 (a) Calculate real GDP for each year.
 
@@ -817,6 +829,8 @@ Growth 2019--2020: $\frac{1024.0 - 1144.1}{1144.1} \times 100 = -10.49\%$
 A government is evaluating a infrastructure project with the following expected costs and benefits
 (all in millions of USD):
 
+<div class="table-wrap">
+
 | Year | Costs | Benefits |
 | ---- | ----- | -------- |
 | 0    | 500   | 0        |
@@ -825,6 +839,8 @@ A government is evaluating a infrastructure project with the following expected 
 | 3    | 50    | 200      |
 | 4    | 50    | 250      |
 | 5    | 50    | 300      |
+
+</div>
 
 The social discount rate is $8\%$.
 
@@ -877,6 +893,8 @@ sensitivity analysis in CBA.
 
 A country's income distribution is as follows:
 
+<div class="table-wrap">
+
 | Income quintile (bottom to top) | Share of total income (%) |
 | ------------------------------- | ------------------------- |
 | Bottom 20%                      | 5                         |
@@ -884,6 +902,8 @@ A country's income distribution is as follows:
 | Third 20%                       | 15                        |
 | Fourth 20%                      | 20                        |
 | Top 20%                         | 50                        |
+
+</div>
 
 (a) Plot the Lorenz curve data points.
 
@@ -894,6 +914,8 @@ Recalculate The Gini coefficient and comment.
 
 (a) Cumulative population and income shares:
 
+<div class="table-wrap">
+
 | Cumulative population (%) | Cumulative income (%) |
 | ------------------------- | --------------------- |
 | 0                         | 0                     |
@@ -902,6 +924,8 @@ Recalculate The Gini coefficient and comment.
 | 60                        | 30                    |
 | 80                        | 50                    |
 | 100                       | 100                   |
+
+</div>
 
 (b) Using the trapezoidal method:
 
@@ -1082,11 +1106,15 @@ Relatively flat (responsive to output).
 
 ### Real GDP with Chain Weighting
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (bn) | GDP Deflator |
 | ---- | ---------------- | ------------ |
 | 2018 | 500              | 100          |
 | 2019 | 550              | 105          |
 | 2020 | 540              | 112          |
+
+</div>
 
 **Real GDP:**
 
@@ -1122,12 +1150,16 @@ wealth from lenders to borrowers.
 
 A worker's nominal wage and CPI over four years:
 
+<div class="table-wrap">
+
 | Year | Nominal Wage | CPI (base 2018 = 100) | Real Wage |
 | ---- | ------------ | --------------------- | --------- |
 | 2018 | 40,000       | 100                   | 40,000    |
 | 2019 | 42,000       | 106                   | 39,623    |
 | 2020 | 44,000       | 112                   | 39,286    |
 | 2021 | 48,000       | 120                   | 40,000    |
+
+</div>
 
 Despite nominal wage increases every year, the worker's purchasing power fell from 2018 to 2020 And
 only returned to the 2018 level by 2021. The cumulative nominal increase was 20%, but the Real wage
@@ -1202,6 +1234,8 @@ Acceptable if IRR $>$ the required rate of return (cost of capital).
 
 Given the following income distribution data:
 
+<div class="table-wrap">
+
 | Quintile (bottom to top) | Share of Income |
 | ------------------------ | --------------- |
 | Bottom 20%               | 3%              |
@@ -1210,7 +1244,11 @@ Given the following income distribution data:
 | Fourth 20%               | 22%             |
 | Top 20%                  | 53%             |
 
+</div>
+
 **Step 1: Calculate cumulative shares**
+
+<div class="table-wrap">
 
 | Cumulative Population | Cumulative Income |
 | --------------------- | ----------------- |
@@ -1220,6 +1258,8 @@ Given the following income distribution data:
 | 60%                   | 25%               |
 | 80%                   | 47%               |
 | 100%                  | 100%              |
+
+</div>
 
 **Step 2: Calculate the Gini coefficient using the trapezoidal method**
 
@@ -1241,12 +1281,16 @@ A Gini coefficient of 0.456 indicates moderate-to-high inequality.
 
 ### Interpreting Gini Coefficients
 
+<div class="table-wrap">
+
 | Gini Range | Inequality Level | Typical Countries                                      |
 | ---------- | ---------------- | ------------------------------------------------------ |
 | Below 0.30 | Low              | Nordic countries (Denmark ~0.25, Norway ~0.27)         |
 | 0.30--0.40 | Moderate         | Germany (~0.31), France (~0.32), Japan (~0.33)         |
 | 0.40--0.50 | High             | USA (~0.41), China (~0.47), Mexico (~0.46)             |
 | Above 0.50 | Very high        | Brazil (~0.53), South Africa (~0.63), Colombia (~0.54) |
+
+</div>
 
 ## Cost-Benefit Analysis: Methodology (HL Extension)
 
@@ -1264,6 +1308,8 @@ Sensitivity analysis tests how the NPV changes when key assumptions are varied:
 **Worked example:** A project has base-case NPV of `USD 50` million. Sensitivity to the discount
 rate:
 
+<div class="table-wrap">
+
 | Discount Rate | NPV (USD million) |
 | ------------- | ----------------- |
 | 5%            | 85                |
@@ -1271,6 +1317,8 @@ rate:
 | 10%           | 28                |
 | 12%           | 10                |
 | 15%           | -15               |
+
+</div>
 
 The project is viable for discount rates up to approximately 14%. The IRR is approximately 14%.
 
@@ -1710,11 +1758,15 @@ If actual output is 3000 units: margin of safety $= (3000 - 2500)/3000 \times 10
 
 A small island economy produces three goods. The following data are available:
 
+<div class="table-wrap">
+
 | Good  | $P_0$ | $Q_0$ | $P_1$ | $Q_1$ |
 | ----- | ----- | ----- | ----- | ----- |
 | Fish  | 5     | 200   | 7     | 180   |
 | Bread | 2     | 500   | 3     | 480   |
 | Cloth | 10    | 100   | 12    | 120   |
+
+</div>
 
 (a) Calculate the Laspeyres, Paasche, and Fisher price indices.
 
@@ -1769,6 +1821,8 @@ Policy:
 
 **Before policy:**
 
+<div class="table-wrap">
+
 | Quintile   | Income Share |
 | ---------- | ------------ |
 | Bottom 20% | 4%           |
@@ -1777,7 +1831,11 @@ Policy:
 | Fourth 20% | 22%          |
 | Top 20%    | 50%          |
 
+</div>
+
 **After policy:**
+
+<div class="table-wrap">
 
 | Quintile   | Income Share |
 | ---------- | ------------ |
@@ -1786,6 +1844,8 @@ Policy:
 | Third 20%  | 17%          |
 | Fourth 20% | 24%          |
 | Top 20%    | 39%          |
+
+</div>
 
 (a) Calculate the Gini coefficient before and after the policy.
 
@@ -2053,11 +2113,15 @@ contribution than the person earning $800).
 
 A country's nominal data and CPI are:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP ($bn) | CPI (2015 = 100) | Population (m) |
 | ---- | ----------------- | ---------------- | -------------- |
 | 2015 | 800               | 100              | 40             |
 | 2018 | 1000              | 115              | 42             |
 | 2021 | 1200              | 130              | 45             |
+
+</div>
 
 (a) Calculate real GDP, real GDP per capita, and GDP growth for each year.
 
@@ -2067,11 +2131,15 @@ A country's nominal data and CPI are:
 
 (a)
 
+<div class="table-wrap">
+
 | Year | Real GDP ($bn)    | Real GDP per capita ($) |
 | ---- | ----------------- |
 | 2015 | 800/1.00 = 800.0  | 800,000/40 = 20,000     |
 | 2018 | 1000/1.15 = 869.6 | 869,600/42 = 20,705     |
 | 2021 | 1200/1.30 = 923.1 | 923,100/45 = 20,513     |
+
+</div>
 
 Real GDP growth 2015--2018: $(869.6 - 800)/800 \times 100 = 8.7\%$
 
@@ -2107,11 +2175,15 @@ real GDP in the later period, reducing per capita gains.
 
 A consumer buys three goods. The data are:
 
+<div class="table-wrap">
+
 | Good | $P_0$ | $Q_0$ | $P_1$ | $Q_1$ |
 | ---- | ----- | ----- | ----- | ----- |
 | Rice | 2     | 100   | 3     | 80    |
 | Milk | 3     | 50    | 4     | 45    |
 | Eggs | 5     | 30    | 6     | 35    |
+
+</div>
 
 (a) Calculate the Laspeyres and Paasche price indices.
 
@@ -2243,6 +2315,8 @@ in a sensitivity table or tornado diagram.
 - Annual benefit (base case: USD 50 million)
 - Project life (base case: 10 years)
 
+<div class="table-wrap">
+
 | Variable                 | Pessimistic | Base      | Optimistic |
 | ------------------------ | ----------- | --------- | ---------- |
 | Discount rate = 5%       | --          | USD 68.4m | --         |
@@ -2252,6 +2326,8 @@ in a sensitivity table or tornado diagram.
 | Annual benefit = USD 60m | --          | --        | --         |
 | Project life = 5 years   | USD 20.0m   | USD 68.4m | USD 102.6m |
 | Project life = 15 years  | --          | --        | --         |
+
+</div>
 
 Recalculating with each variable changed to pessimistic and optimistic values:
 
@@ -2279,11 +2355,15 @@ The project is most sensitive to the project life assumption.
 Scenario analysis changes multiple variables simultaneously to reflect coherent "stories" about the
 Future:
 
+<div class="table-wrap">
+
 | Scenario    | Discount rate | Annual benefit | Project life | NPV    |
 | ----------- | ------------- | -------------- | ------------ | ------ |
 | Pessimistic | 12%           | USD 40m        | 5 years      | -48.0m |
 | Base        | 8%            | USD 50m        | 10 years     | 68.4m  |
 | Optimistic  | 5%            | USD 60m        | 15 years     | 363.1m |
+
+</div>
 
 The pessimistic scenario yields a negative NPV, suggesting the project is risky.
 
@@ -2454,6 +2534,8 @@ Where $k$ is the number of independent variables and $n$ is the sample size.
 An economist estimates the consumption function $C = \beta_0 + \beta_1 Y_d + \epsilon$ using The
 following data:
 
+<div class="table-wrap">
+
 | Observation | Disposable income ($Y_d$ USD thousands) | Consumption ($C$ USD thousands) |
 | ----------- | -------------------------------------- | ------------------------------ |
 | 1           | 10                                     | 8                              |
@@ -2461,6 +2543,8 @@ following data:
 | 3           | 30                                     | 22                             |
 | 4           | 40                                     | 28                             |
 | 5           | 50                                     | 35                             |
+
+</div>
 
 $\bar{X} = 30$$\bar{Y} = 21.6$
 
@@ -2482,6 +2566,8 @@ $R^2$ calculation:
 
 Predicted values: $\hat{Y} = 1.5 + 0.67X$
 
+<div class="table-wrap">
+
 | $X$ | $Y$ | $\hat{Y}$ | $(Y - \hat{Y})^2$ | $(Y - \bar{Y})^2$ |
 | --- | --- | --------- | ----------------- | ----------------- |
 | 10  | 8   | 8.2       | 0.04              | 184.96            |
@@ -2489,6 +2575,8 @@ Predicted values: $\hat{Y} = 1.5 + 0.67X$
 | 30  | 22  | 21.6      | 0.16              | 0.16              |
 | 40  | 28  | 28.3      | 0.09              | 40.96             |
 | 50  | 35  | 35.0      | 0.00              | 179.56            |
+
+</div>
 
 $\text{SSR} = 0.30$$\text{SST} = 449.20$
 
@@ -2643,6 +2731,8 @@ Where $Q$ = quantity of coffee demanded, $P$ = price, $I$ = income.
 
 Data:
 
+<div class="table-wrap">
+
 | Observation | $Q$ | $P$ | $I$ |
 | ----------- | --- | --- | --- |
 | 1           | 100 | 5   | 50  |
@@ -2650,6 +2740,8 @@ Data:
 | 3           | 120 | 3   | 60  |
 | 4           | 90  | 7   | 55  |
 | 5           | 110 | 4   | 65  |
+
+</div>
 
 Using OLS (via matrix algebra or software), the estimated regression is:
 

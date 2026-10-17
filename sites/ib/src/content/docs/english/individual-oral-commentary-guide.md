@@ -41,6 +41,8 @@ The IOC is an oral examination in which the student receives a previously unseen
 studied in Part 2 (Detailed Study) of the syllabus and delivers a 10-minute commentary on that
 extract. The commentary is delivered to the teacher (and may be recorded for external moderation).
 
+<div class="table-wrap">
+
 | Component        | Detail                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------- |
 | Duration         | 10 minutes commentary (+ 5 minutes teacher questions at HL, + 5 minutes at SL)              |
@@ -51,10 +53,14 @@ extract. The commentary is delivered to the teacher (and may be recorded for ext
 | Assistance       | No notes during the commentary; 10 lines of the extract may be annotated during preparation |
 | Assessment       | Internally assessed by the teacher; externally moderated by the IB                          |
 
+</div>
+
 ### 1.2 HL vs SL
 
 At both levels, the student receives a 20-minute preparation period and delivers a 10-minute
 commentary. The key differences lie in the expected depth and sophistication of analysis:
+
+<div class="table-wrap">
 
 | Dimension         | SL                                                               | HL                                                                         |
 | ----------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -62,6 +68,8 @@ commentary. The key differences lie in the expected depth and sophistication of 
 | Contextual range  | Basic awareness of the text's context                            | Integration of contextual knowledge where it illuminates the extract       |
 | Critical language | Appropriate use of literary terminology                          | Precise, fluent deployment of terminology as part of argument              |
 | Teacher questions | 5 minutes of guided questions                                    | 5 minutes of probing questions that may challenge or extend the commentary |
+
+</div>
 
 ### 1.3 Extract Selection Rules
 
@@ -129,6 +137,8 @@ a single, obvious meaning does not provide sufficient material for 10 minutes of
 
 ### 2.2 Extracts to Avoid
 
+<div class="table-wrap">
+
 | Problem            | Why It Fails                                                                                         |
 | ------------------ | ---------------------------------------------------------------------------------------------------- |
 | Too short          | Insufficient material for 10 minutes; the commentary becomes padded or repetitive                    |
@@ -136,6 +146,8 @@ a single, obvious meaning does not provide sufficient material for 10 minutes of
 | Thin (few devices) | The commentary runs out of analytical material and defaults to paraphrase                            |
 | Purely narrative   | Plot-heavy passages with minimal figurative language or stylistic interest                           |
 | No clear shape     | Passages without internal progression, shift, or pattern are difficult to organise commentary around |
+
+</div>
 
 ### 2.3 Form-Specific Considerations
 
@@ -171,6 +183,8 @@ allow the commentator to analyse the relationship between what is said and what 
 The 20-minute preparation period is the most time-pressured element of the IOC. It must be used with
 maximum efficiency. The following allocation is recommended:
 
+<div class="table-wrap">
+
 | Time       | Activity                                   | Outcome                                                 |
 | ---------- | ------------------------------------------ | ------------------------------------------------------- |
 | 0--3 min   | Read the extract twice, without annotating | Establish overall sense, tone, and major features       |
@@ -178,6 +192,8 @@ maximum efficiency. The following allocation is recommended:
 | 8--12 min  | Plan commentary structure                  | Thesis statement, main points, evidence selection       |
 | 12--15 min | Practise opening sentences aloud           | Calibrate register, test thesis, warm up vocal delivery |
 | 15--20 min | Review and refine                          | Final check of structure, timing mental model           |
+
+</div>
 
 ### 3.2 Systematic Annotation Method
 
@@ -253,11 +269,15 @@ management within this structure is critical.
 
 ### 4.1 Time Allocation
 
+<div class="table-wrap">
+
 | Section      | Duration   | Function                                                                       |
 | ------------ | ---------- | ------------------------------------------------------------------------------ |
 | Introduction | ~2 minutes | Establish context, state thesis, outline approach                              |
 | Body         | ~7 minutes | Technique-by-technique analysis with evidence, organised by interpretive claim |
 | Conclusion   | ~1 minute  | Synthesise findings, articulate authorial effect and broader significance      |
+
+</div>
 
 These are approximate targets, not rigid prescriptions. The body will always be the longest section.
 The introduction should never exceed 2.5 minutes; the conclusion should never exceed 1.5 minutes. A
@@ -364,6 +384,8 @@ reliability. Narrative voice determines how the reader receives every other feat
 Imagery is descriptive language that appeals to the senses. Analyse imagery by identifying which
 senses are invoked and explaining why the author has chosen those particular sensory modes.
 
+<div class="table-wrap">
+
 | Type        | Function                                                         |
 | ----------- | ---------------------------------------------------------------- |
 | Visual      | Creates vivid mental pictures; constructs setting and atmosphere |
@@ -372,6 +394,8 @@ senses are invoked and explaining why the author has chosen those particular sen
 | Olfactory   | Connects to memory and emotion; often used for visceral effect   |
 | Gustatory   | Rare but powerful; used for intimacy or disgust                  |
 | Kinesthetic | Suggests movement, energy, or physical constraint                |
+
+</div>
 
 A shift from one sensory mode to another within an extract is interpretively significant. A passage
 that moves from visual to auditory imagery, for example, may mark a shift from external observation
@@ -395,6 +419,8 @@ When analysing symbolism in an IOC extract:
 Structural analysis examines how the extract is organised and how that organisation produces
 meaning.
 
+<div class="table-wrap">
+
 | Feature                 | Analytical Question                                                               |
 | ----------------------- | --------------------------------------------------------------------------------- |
 | Sentence/line length    | Does the extract move between short and long sentences/lines? What is the effect? |
@@ -403,6 +429,8 @@ meaning.
 | Shifts in perspective   | Does the extract move between different narrative positions or speakers?          |
 | Parallelism             | Are there repeated structural patterns? What do they reinforce or complicate?     |
 | Opening and closing     | How do the first and last lines frame the extract's meaning?                      |
+
+</div>
 
 ### 5.5 Tone and Mood
 
@@ -423,12 +451,16 @@ The following devices are the most commonly encountered in IOC extracts. For eac
 requirement is the same: identify the device, cite the evidence, and explain its specific effect in
 context.
 
+<div class="table-wrap">
+
 | Category   | Devices                                                                                                      |
 | ---------- | ------------------------------------------------------------------------------------------------------------ |
 | Figurative | Metaphor, simile, personification, metonymy, synecdoche, hyperbole, litotes, paradox, oxymoron, apostrophe   |
 | Sound      | Alliteration, assonance, consonance, onomatopoeia, sibilance                                                 |
 | Rhetorical | Anaphora, epistrophe, chiasmus, antithesis, zeugma, polysyndeton, asyndeton, rhetorical question, repetition |
 | Syntactic  | Inversion, parallelism, periodic sentences, fragments, loose sentences                                       |
+
+</div>
 
 **The critical rule:** A device is only worth mentioning if you can explain its specific effect in
 this specific extract. "The author uses a metaphor" is not analysis. "The metaphor of the 'cracked
@@ -459,11 +491,15 @@ contributes to the extract's meaning.
 
 ### 5.9 Form-Specific Features
 
+<div class="table-wrap">
+
 | Form   | Additional Features to Analyse                                                                               |
 | ------ | ------------------------------------------------------------------------------------------------------------ |
 | Poetry | Meter, rhyme scheme, enjambment, caesura, volta, stanza form, line breaks, sound patterns, visual layout     |
 | Prose  | Sentence structure and variation, paragraph structure, narrative perspective, temporal manipulation, diction |
 | Drama  | Stage directions, dramatic irony, soliloquy, aside, dialogue register, lighting/sound cues, spatial dynamics |
+
+</div>
 
 ---
 
@@ -483,11 +519,15 @@ contributes to the extract's meaning.
 This criterion assesses the depth and precision of the student's knowledge of the extract and its
 relationship to the work as a whole.
 
+<div class="table-wrap">
+
 | Level | Descriptor                                                                                                                                                          |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | High  | Demonstrates precise, detailed knowledge of the extract and its significance within the work. Contextual understanding is integrated organically into the analysis. |
 | Mid   | Shows adequate knowledge of the extract but tends toward generalisation. Contextual references are present but not fully integrated.                                |
 | Low   | Shows limited knowledge of the extract or the work. Contextual information is absent, inaccurate, or treated as background rather than evidence.                    |
+
+</div>
 
 **What examiners look for:** Specific references to the extract (quotations, line numbers), accurate
 knowledge of the work's content and themes, and the ability to connect the extract to the wider text
@@ -499,11 +539,15 @@ This criterion assesses the quality of the student's interpretive engagement wit
 not about personal feelings or opinions; it is about the depth and originality of the student's
 analytical insight.
 
+<div class="table-wrap">
+
 | Level | Descriptor                                                                                                                                                       |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | High  | Offers a sustained, nuanced interpretation of the extract. The commentary goes beyond the obvious to reveal insights that demonstrate genuine critical thinking. |
 | Mid   | Offers a competent interpretation that identifies key features and their effects but does not develop beyond conventional readings.                              |
 | Low   | Offers limited or superficial interpretation. The commentary remains at the level of identification or paraphrase.                                               |
+
+</div>
 
 **What examiners look for:** An arguable thesis, interpretive claims that go beyond description,
 evidence of independent thinking, and the ability to sustain an argument throughout the 10 minutes.
@@ -512,11 +556,15 @@ evidence of independent thinking, and the ability to sustain an argument through
 
 This criterion assesses the structural quality, fluency, and register of the commentary.
 
+<div class="table-wrap">
+
 | Level | Descriptor                                                                                                                                                                |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | High  | The commentary is well-organised, fluently delivered, and uses precise literary terminology by definition. Transitions between points are smooth and logical.             |
 | Mid   | The commentary is adequately organised but may have moments of uncertainty, hesitation, or structural awkwardness. Literary terminology is used but not always precisely. |
 | Low   | The commentary lacks clear structure. Delivery is hesitant or disorganised. Literary terminology is absent or misused.                                                    |
+
+</div>
 
 **What examiners look for:** A clear introduction-body-conclusion structure, smooth transitions
 between analytical points, confident oral delivery (appropriate pace, clarity of articulation), and

@@ -450,5 +450,5 @@ The action-reaction pair in Newton's third law always acts on different objects.
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Statistical mechanics provides the microscopic foundation for thermodynamic laws by averaging over particle dynamics.
 - **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Electromagnetic forces between charged particles are described by Maxwell's equations, extending Newtonian mechanics to electrodynamics.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

@@ -92,6 +92,8 @@ Based on the official California Driver Handbook:
 
 ## CA Fees and Milestones Quick Table
 
+<div class="table-wrap">
+
 | Milestone | Age | Requirement | Notes |
 |-----------|-----|-------------|-------|
 | Driver ed | 15-15.5 | 30-hour course | DMV-approved providers |
@@ -101,7 +103,11 @@ Based on the official California Driver Handbook:
 | Provisional | 16+ | Road test | 11pm-5am curfew, no under-20 passengers |
 | Full license | 17-18 | Restrictions lapse | Clean record holds |
 
+</div>
+
 ## Numeric Facts to Memorize
+
+<div class="table-wrap">
 
 | Fact | Value |
 |------|-------|
@@ -116,8 +122,12 @@ Based on the official California Driver Handbook:
 | School zone | 25 mph |
 | Vision standard | 20/40 |
 
+</div>
+
 
 ## Test-Day Checklist for CA
+
+<div class="table-wrap">
 
 | Item | Why |
 |------|-----|
@@ -127,3 +137,5 @@ Based on the official California Driver Handbook:
 | Parent signature (under 18) | Consent + liability |
 | Driver ed completion certificate | Under 17.5 applicants |
 | Appointment number | Skip the stand-by line |
+
+</div>

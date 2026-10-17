@@ -266,12 +266,16 @@ transformer ($N_s \lt N_p$) decreases voltage but increases current.
 
 ### Energy Losses in Real Transformers
 
+<div class="table-wrap">
+
 | Loss mechanism             | Cause                                          | Mitigation                             |
 | -------------------------- | ---------------------------------------------- | -------------------------------------- |
 | Eddy currents              | Changing flux induces currents in the core     | Laminated core (thin insulated sheets) |
 | Hysteresis                 | Repeated magnetisation/demagnetisation of core | Soft iron core (low coercivity)        |
 | Resistive ($I^2R$) heating | Current in windings                            | Thick copper wire                      |
 | Flux leakage               | Not all flux links both coils                  | Efficient core geometry                |
+
+</div>
 
 ### Transformer Efficiency
 

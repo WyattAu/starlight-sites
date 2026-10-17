@@ -865,6 +865,8 @@ Project, or an incompatible license combination), you have several options, in o
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | License      | Copyleft Strength         | Patent Grant                 | Trademark               | Attribution       | Distribution Trigger   | SaaS Trigger   | OSI Approved | GPL Compatible     |
 | ------------ | ------------------------- | ---------------------------- | ----------------------- | ----------------- | ---------------------- | -------------- | ------------ | ------------------ |
 | AGPLv3       | Strong + Network          | Implied (Sec 11)             | Not granted             | Yes               | Convey (Sec 4)         | Yes (Sec 13)   | Yes          | GPLv3 only         |
@@ -885,6 +887,8 @@ Project, or an incompatible license combination), you have several options, in o
 | WTFPL        | None                      | No                           | No                      | No                | N/A                    | No             | No           | No                 |
 | BSL          | Restricted (time-limited) | Varies                       | Varies                  | Yes               | Yes                    | No             | No           | No                 |
 | SSPL         | Strong + Server-side      | No explicit                  | No                      | Yes               | Distribution (Sec 13)  | Yes (de facto) | No           | No                 |
+
+</div>
 
 ## Common Pitfalls
 

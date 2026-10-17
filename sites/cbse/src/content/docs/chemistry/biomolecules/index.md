@@ -105,6 +105,8 @@ Product: glycylalanine (Gly-Ala)
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature | DNA | RNA |
 | --------- | ----- | ----- |
 | Sugar | Deoxyribose | Ribose |
@@ -113,6 +115,8 @@ Product: glycylalanine (Gly-Ala)
 | Function | Stores genetic information | Protein synthesis |
 | Location | Nucleus | Nucleus and cytoplasm |
 | Stability | Very stable | Less stable |
+
+</div>
 
 Key difference: DNA has thymine (T) while RNA has uracil (U). The double-stranded structure of DNA makes it more stable for long-term genetic storage.
 

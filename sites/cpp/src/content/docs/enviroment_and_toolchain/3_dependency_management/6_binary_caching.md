@@ -399,12 +399,16 @@ This action automatically caches `~/.cache/ccache` between workflow runs using G
 
 Typical cache hit rates in real-world C++ CI pipelines:
 
+<div class="table-wrap">
+
 | Scenario                    | First Build (cold) | Incremental Build | Cache Hit Rate |
 | --------------------------- | ------------------ | ----------------- | -------------- |
 | Small project (10 files)    | 30s                | 2s                | 95%+           |
 | Medium project (500 files)  | 8min               | 45s               | 85-90%         |
 | Large project (5000+ files) | 45min              | 5min              | 70-80%         |
 | Header-heavy (Boost, Qt)    | 90min              | 15min             | 60-75%         |
+
+</div>
 
 **Key observation:** Header-heavy codebases see lower hit rates because changing a widely-included
 Header invalidates all translation units that include it. This is a fundamental property of the C++

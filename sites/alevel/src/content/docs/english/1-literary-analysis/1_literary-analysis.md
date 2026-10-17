@@ -109,6 +109,8 @@ Key thinkers: Sigmund Freud, Jacques Lacan, Carl Jung, Julia Kristeva.
 
 ### Other Important Approaches
 
+<div class="table-wrap">
+
 | Approach        | Focus                                               | Key Question                                                |
 | --------------- | --------------------------------------------------- | ----------------------------------------------------------- |
 | Eco-criticism   | Relationship between literature and the environment | How does the text represent the natural world?              |
@@ -117,11 +119,15 @@ Key thinkers: Sigmund Freud, Jacques Lacan, Carl Jung, Julia Kristeva.
 | Reader-response | The role of the reader in creating meaning          | How does the reader"s experience shape interpretation?      |
 | Structuralism   | Underlying systems and codes in texts               | What deep structures organise the text's meaning?           |
 
+</div>
+
 ## Analytical Frameworks
 
 ### FLIRTS
 
 A practical framework for organising analytical paragraphs:
+
+<div class="table-wrap">
 
 | Letter | Element         | Question                                          |
 | ------ | --------------- | ------------------------------------------------- |
@@ -132,9 +138,13 @@ A practical framework for organising analytical paragraphs:
 | **T**  | Tone            | What is the writer's attitude?                    |
 | **S**  | Structure       | How is the passage organised and why?             |
 
+</div>
+
 ### SMILE
 
 Useful for poetry and prose analysis:
+
+<div class="table-wrap">
 
 | Letter | Element   | Focus                                                     |
 | ------ | --------- | --------------------------------------------------------- |
@@ -143,6 +153,8 @@ Useful for poetry and prose analysis:
 | **I**  | Imagery   | Metaphor, simile, symbolism, visual language              |
 | **L**  | Language  | Diction, register, figurative language, connotation       |
 | **E**  | Effect    | Impact on the reader; emotional and intellectual response |
+
+</div>
 
 ### Building an Analytical Paragraph
 
@@ -156,6 +168,8 @@ A strong analytical paragraph follows this structure:
 6. **Link**. Return to the question or transition to the next point
 
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                    | Definition                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------- |
@@ -179,6 +193,8 @@ A strong analytical paragraph follows this structure:
 | Semantic field          | A group of words related by theme or topic                                                |
 | Symbolism               | The use of objects, characters, or actions to represent abstract ideas                    |
 | Unreliable narrator     | A narrator whose account cannot be fully trusted                                          |
+
+</div>
 
 ## Exam Technique
 

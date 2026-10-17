@@ -48,11 +48,15 @@ log_message("Error: " + std::to_string(code));
 
 A typical libstdc++ `std::string` contains three fields:
 
+<div class="table-wrap">
+
 | Field                   | Type     | Purpose                                    |
 | :---------------------- | :------- | :----------------------------------------- |
 | `_M_dataplus._M_p`      | `char*`  | Pointer to character data                  |
 | `_M_string_length`      | `size_t` | Current length (excluding null terminator) |
 | `_M_allocated_capacity` | `size_t` | Capacity of the heap buffer                |
+
+</div>
 
 Total metadata: 32 bytes on 64-bit systems (pointer + two `size_t`).
 
@@ -95,11 +99,15 @@ Aligned to at least 16 bytes, so the LSB of a valid pointer is always 0.
 
 ### SSO Thresholds by Implementation
 
+<div class="table-wrap">
+
 | Implementation  | Object Size (64-bit) | SSO Threshold | Detection Method         |
 | :-------------- | :------------------- | :------------ | :----------------------- |
 | libstdc++ (GCC) | 32 bytes             | 15 chars      | First byte LSB = 1       |
 | libc++ (Clang)  | 24 bytes             | 22 chars      | Size stored in last byte |
 | MSVC STL        | 32 bytes             | 15 chars      | Capacity bit in union    |
+
+</div>
 
 <Tabs>
 <TabItem label="libstdc++ (GCC)">
@@ -342,6 +350,8 @@ But this is **not a guarantee of the type**. Relying on it is a latent bug.
 
 ### As Function Parameters
 
+<div class="table-wrap">
+
 | Criterion                 | `const std::string&`                        | `std::string_view`        |
 | :------------------------ | :------------------------------------------ | :------------------------ |
 | Accepts `std::string`     | Yes (reference)                             | Yes (implicit conversion) |
@@ -350,6 +360,8 @@ But this is **not a guarantee of the type**. Relying on it is a latent bug.
 | Accepts substring         | No (requires explicit `string`)             | Yes (`substr` is free)    |
 | Null-terminated guarantee | Yes                                         | **No**                    |
 | Owns data                 | No                                          | No                        |
+
+</div>
 
 ### Recommendation
 
@@ -528,6 +540,8 @@ int main() \{
 
 ## 8. `std::string_view` vs `std::span<const char>`
 
+<div class="table-wrap">
+
 | Property                        | `std::string_view`  | `std::span<const char>` |
 | :------------------------------ | :------------------ | :---------------------- |
 | Character trait support         | Yes (`char_traits`) | No                      |
@@ -536,6 +550,8 @@ int main() \{
 | Null-termination assumption     | Sometimes           | Never                   |
 | Generalizes to other types      | No (char-only)      | Yes (any `T`)           |
 | Available since                 | C++17               | C++20                   |
+
+</div>
 
 `std::string_view` is the correct choice when working with text. `std::span<const char>` is
 Appropriate when treating character data as a generic byte buffer (e.g., binary data that happens to

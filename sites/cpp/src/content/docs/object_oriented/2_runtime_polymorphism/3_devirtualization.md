@@ -382,6 +382,8 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 
 ### LTO Trade-offs
 
+<div class="table-wrap">
+
 | Aspect           | Without LTO | With LTO                              |
 | :--------------- | :---------- | :------------------------------------ |
 | Compile time     | Fast        | Slow (full-program analysis)          |
@@ -390,6 +392,8 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 | Devirtualization | Limited     | Cross-TU devirtualization enabled     |
 | Binary size      | Normal      | Often smaller (dead code elimination) |
 | Debugging        | Easy        | Harder (optimized code at link time)  |
+
+</div>
 
 :::caution
 For CI builds, consider using ThinLTO (`-flto=thin` on Clang), which performs parallel LTO with

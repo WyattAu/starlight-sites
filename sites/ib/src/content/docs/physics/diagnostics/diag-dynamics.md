@@ -55,11 +55,15 @@ any new forces appear.
 
 (b) Newton's third law pairs:
 
+<div class="table-wrap">
+
 | Force on $1.5\,\text{kg}$ book                                         | Pair force (on other body)                                              |
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Weight: Earth pulls $1.5\,\text{kg}$ book down ($14.7\,\text{N}$)      | The $1.5\,\text{kg}$ book pulls the Earth upward ($14.7\,\text{N}$)     |
 | Normal reaction: table pushes $1.5\,\text{kg}$ book up ($R$)           | The $1.5\,\text{kg}$ book pushes the table downward ($R$)               |
 | Contact: $2.0\,\text{kg}$ book pushes $1.5\,\text{kg}$ book down ($C$) | The $1.5\,\text{kg}$ book pushes the $2.0\,\text{kg}$ book upward ($C$) |
+
+</div>
 
 Common misconception: the weight of the $2.0\,\text{kg}$ book ($19.6\,\text{N}$) is NOT a force on
 the $1.5\,\text{kg}$ book. The weight acts on the $2.0\,\text{kg}$ book itself. The contact force

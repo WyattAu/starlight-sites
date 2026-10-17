@@ -108,12 +108,16 @@ completion, dialogue, code generation. It is pretrained with causal language mod
 next token given all previous tokens). Scaling up GPT models produced the large language model
 family that underpins modern generative AI.
 
+<div class="table-wrap">
+
 | Model | Architecture    | Training Objective | Primary Use   |
 | ----- | --------------- | ------------------ | ------------- |
 | BERT  | Encoder         | MLM + NSP          | Understanding |
 | GPT   | Decoder         | Causal LM          | Generation    |
 | T5    | Encoder-Decoder | Text-to-text       | Both          |
 | BART  | Encoder-Decoder | Denoising          | Both          |
+
+</div>
 
 ## Generative Models
 
@@ -179,6 +183,8 @@ outputs 0.5 for everything.
 
 **Architectures:**
 
+<div class="table-wrap">
+
 | Variant  | Contribution                  | Key Innovation                          |
 | -------- | ----------------------------- | --------------------------------------- |
 | DCGAN    | Deep convolutional GANs       | Batch norm, transposed convs            |
@@ -186,6 +192,8 @@ outputs 0.5 for everything.
 | WGAN     | Wasserstein distance training | Weight clipping / gradient penalty      |
 | CycleGAN | Unpaired image translation    | Cycle consistency loss                  |
 | Pix2Pix  | Paired image translation      | Conditional GAN with L1 loss            |
+
+</div>
 
 StyleGAN progressively generates images through a series of style injections at different
 resolutions, enabling fine-grained control over coarse attributes (pose, face shape) and fine
@@ -283,6 +291,8 @@ experience in multiple environments simultaneously.
 
 ### Applications
 
+<div class="table-wrap">
+
 | Domain    | Application                     | Key Challenge               |
 | --------- | ------------------------------- | --------------------------- |
 | Games     | Go (AlphaGo), Atari, Dota 2     | Massive state/action spaces |
@@ -290,6 +300,8 @@ experience in multiple environments simultaneously.
 | RLHF      | LLM alignment                   | Reward model accuracy       |
 | Finance   | Trading, portfolio optimization | Non-stationarity            |
 | Logistics | Routing, scheduling             | Combinatorial complexity    |
+
+</div>
 
 RLHF (Reinforcement Learning from Human Feedback) applies RL to align language models with human
 preferences. A reward model trained on human comparisons of model outputs provides the reward signal
@@ -361,12 +373,16 @@ share the task. Techniques include:
 Few-shot learning trains models to generalize from very few examples, often 1 to 5 per class.
 Approaches:
 
+<div class="table-wrap">
+
 | Approach              | Mechanism                                             | Example              |
 | --------------------- | ----------------------------------------------------- | -------------------- |
 | Meta-learning         | Learn to learn, train across many tasks              | MAML, Reptile        |
 | Prototypical networks | Compare to class prototypes in embedding space        | N-way K-shot         |
 | Prompt tuning         | Adapt pretrained models with text prompts             | GPT-3 in-context     |
 | LoRA                  | Low-rank adapters for parameter-efficient fine-tuning | Rank-4 decomposition |
+
+</div>
 
 ## Model Deployment
 
@@ -415,6 +431,8 @@ engine = builder.build_serialized_network(network, config)
 
 Production models run behind an API that handles request routing, batching, and scaling.
 
+<div class="table-wrap">
+
 | Framework               | Strength                          | Use Case              |
 | ----------------------- | --------------------------------- | --------------------- |
 | TorchServe              | Native PyTorch, multi-model       | PyTorch-centric teams |
@@ -422,6 +440,8 @@ Production models run behind an API that handles request routing, batching, and 
 | Triton Inference Server | Multi-framework, dynamic batching | Heterogeneous fleets  |
 | BentoML                 | Python-native, easy packaging     | Rapid prototyping     |
 | vLLM                    | Optimized LLM serving             | Large language models |
+
+</div>
 
 Key operational concerns: cold start latency (loading model weights into GPU memory), request
 batching (combining concurrent requests into a single forward pass), and hardware utilization

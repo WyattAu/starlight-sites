@@ -147,12 +147,16 @@ ping -c 4 -s 1400 example.com
 The TTL field in the IP header is decremented by each router. When TTL reaches 0, the router sends
 an ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
 
+<div class="table-wrap">
+
 | Initial TTL | OS                           |
 | ----------- | ---------------------------- |
 | 64          | Linux, macOS, Android, iOS   |
 | 128         | Windows                      |
 | 255         | Cisco IOS, network equipment |
 | 254         | Some Solaris versions        |
+
+</div>
 
 ```bash
 # See TTL in ping output

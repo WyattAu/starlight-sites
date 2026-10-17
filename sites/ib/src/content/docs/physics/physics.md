@@ -40,6 +40,8 @@ Material studied at both SL and HL, with additional AHL (Additional Higher Level
 for HL students. The course also includes a practical programme culminating in the Internal
 Assessment (IA).
 
+<div class="table-wrap">
+
 | Theme | Title                            | SL Sub-topics | AHL Sub-topics |
 | :---- | :------------------------------- | :------------ | :------------- |
 | A     | Space, Time and Motion           | A.1--A.3      | A.4--A.5       |
@@ -47,6 +49,8 @@ Assessment (IA).
 | C     | Wave Behaviour                   | C.1--C.4      | C.5            |
 | D     | Fields                           | D.1--D.4      | D.5            |
 | E     | Nuclear and Quantum Physics      | E.1--E.2      | E.3--E.4       |
+
+</div>
 
 ---
 
@@ -830,12 +834,16 @@ The key differences between SL and HL are:
 
 ## Assessment Overview
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                       | Weighting          |
 | :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------- |
 | **Paper 1** | Multiple-choice questions (MCQ) covering the full syllabus. Duration: 45 min (SL), 1h (HL).                                                       | 30% (SL), 20% (HL) |
 | **Paper 2** | Structured and extended-response questions covering the full syllabus. Data-based questions are included. Duration: 1h 15min (SL), 2h 15min (HL). | 50% (SL), 36% (HL) |
 | **Paper 3** | HL only. Data-based and extended-response questions on AHL content. Duration: 1h.                                                                 | 24% (HL)           |
 | **IA**      | Internal Assessment -- an individual investigation of a physics topic, with a report of up to 3,000 words.                                        | 20% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -868,11 +876,15 @@ Carry significant marks:
 
 ### Topic Weighting by Paper
 
+<div class="table-wrap">
+
 | Paper        | Focus                     | Typical Question Style                                             |
 | :----------- | :------------------------ | :----------------------------------------------------------------- |
 | Paper 1      | Breadth across all themes | Quick MCQ, ~1--2 min each, many formula-recall questions           |
 | Paper 2      | Depth on core + AHL       | Multi-part structured questions, data analysis, 10--20 marks each  |
 | Paper 3 (HL) | AHL content only          | Data-based question + extended response on D.5, E.3, E.4, B.5, B.7 |
+
+</div>
 
 ---
 
@@ -905,6 +917,8 @@ several weeks:
 
 IB Physics exams use specific command terms that indicate the expected depth of response:
 
+<div class="table-wrap">
+
 | Command Term  | What it Means                                                   |
 | :------------ | :-------------------------------------------------------------- |
 | **Define**    | Give the precise meaning of a term                              |
@@ -917,6 +931,8 @@ IB Physics exams use specific command terms that indicate the expected depth of 
 | **Justify**   | Give valid reasons or evidence to support an answer             |
 | **Sketch**    | Draw approximately, showing key features (not to scale)         |
 | **State**     | Give a specific name, value, or brief answer                    |
+
+</div>
 
 > **Exam Tip:** An "Explain" question requires a chain of reasoning with 2--3 linked statements. An
 > answer that just states a formula will not earn full marks for "Explain."
@@ -951,11 +967,15 @@ Calculator is essential.
 
 ### Recommended Calculators
 
+<div class="table-wrap">
+
 | Calculator                               | Notes                                      |
 | :--------------------------------------- | :----------------------------------------- |
 | Texas Instruments TI-84 Plus CE          | Most popular; widely supported             |
 | Texas Instruments TI-Nspire CX (non-CAS) | More powerful; excellent for data analysis |
 | Casio fx-CG50                            | Good alternative; colour display           |
+
+</div>
 
 **Note:** CAS (Computer Algebra System) calculators are **not permitted** in IB exams. Ensure your
 Calculator mode is correct.
@@ -1007,11 +1027,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 1: Multiple Choice
 
+<div class="table-wrap">
+
 |                   | SL     | HL     |
 | :---------------- | :----- | :----- |
 | Duration          | 45 min | 60 min |
 | Marks             | 30     | 40     |
 | Time per question | ~90 s  | ~90 s  |
+
+</div>
 
 **Strategy:**
 
@@ -1023,11 +1047,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 2: Structured and Extended Response
 
+<div class="table-wrap">
+
 |           | SL                                         | HL                                          |
 | :-------- | :----------------------------------------- | :------------------------------------------ |
 | Duration  | 1h 15min                                   | 2h 15min                                    |
 | Section A | Data-based question + short response       | Data-based question + short response        |
 | Section B | One extended response (from choice of two) | Two extended response (from choice of four) |
+
+</div>
 
 **Time management:**
 
@@ -1038,11 +1066,15 @@ This avoids transcription errors and preserves precision.
 
 ### Paper 3 (HL Only)
 
+<div class="table-wrap">
+
 |           | HL                                                    |
 | :-------- | :---------------------------------------------------- |
 | Duration  | 1h                                                    |
 | Section A | Data-based question on AHL content (practical skills) |
 | Section B | Extended response from AHL topics                     |
+
+</div>
 
 **Strategy:**
 
@@ -1083,19 +1115,27 @@ This avoids transcription errors and preserves precision.
 
 ### Official IB Resources
 
+<div class="table-wrap">
+
 | Resource                    | Description                                                                                    |
 | :-------------------------- | :--------------------------------------------------------------------------------------------- |
 | **IB Physics Data Booklet** | Contains all formulas, constants, and tables. You must be thoroughly familiar with its layout. |
 | **IB Subject Guide (2025)** | The official syllabus document with aims, assessment objectives, and the full topic list.      |
 | **Past Papers**             | Available from your teacher or the IB store. The single best preparation resource.             |
 
+</div>
+
 ### Textbooks
+
+<div class="table-wrap">
 
 | Textbook                                        | Level   | Notes                                                             |
 | :---------------------------------------------- | :------ | :---------------------------------------------------------------- |
 | _Physics for the IB Diploma_ (K. A. Tsokos)     | SL + HL | Comprehensive, well-explained theory with worked examples         |
 | _IB Physics Course Book_ (Oxford, 2025 edition) | SL + HL | Aligned with the new syllabus; strong on conceptual understanding |
 | _Pearson Baccalaureate Physics_                 | SL + HL | Good practice questions and exam-style problems                   |
+
+</div>
 
 ### Online Resources
 

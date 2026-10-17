@@ -233,7 +233,7 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 - **[Diffraction](/4-optics-and-waves/4_diffraction/)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

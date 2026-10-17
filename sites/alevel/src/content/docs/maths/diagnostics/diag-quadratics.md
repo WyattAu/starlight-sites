@@ -438,12 +438,16 @@ adjust the problem to use the correct circle:
 **(b)** The four $x$-values are $x = 0, 1, 3, 4$ with corresponding $y$-values from
 $y = x^2 - 4x + 1$:
 
+<div class="table-wrap">
+
 | $x$ | $y$ |
 | --- | --- |
 | 0   | 1   |
 | 1   | -2  |
 | 3   | -2  |
 | 4   | 1   |
+
+</div>
 
 Points of intersection: $(0, 1)$$(1, -2)$$(3, -2)$$(4, 1)$.
 

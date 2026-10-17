@@ -20,11 +20,15 @@ description: "Study notes for I/O Systems | Computer Science with worked example
 
 ### 7.1 I/O Hardware
 
+<div class="table-wrap">
+
 | Category         | Examples                   | Data rate      |
 | ---------------- | -------------------------- | -------------- |
 | Human-readable   | Keyboard, screen, printer  | Low            |
 | Machine-readable | Disk, tape, sensors        | Medium to high |
 | Communication    | Network interfaces, modems | Variable       |
+
+</div>
 
 ### 7.2 Device Drivers
 
@@ -95,6 +99,8 @@ $12 + 2 + 31 + 24 + 2 + 59 + 16 + 199 + 14 + 23 = 382$ cylinders.
 _LOOK (stops at last request):_ 53 → 65 → 67 → 98 → 122 → 124 → 183 → 37 → 14. Total seek =
 $12 + 2 + 31 + 24 + 2 + 59 + 146 + 23 = 299$ cylinders.
 
+<div class="table-wrap">
+
 | Algorithm | Total Seek | Max Wait | Fairness |
 | --------- | ---------- | -------- | -------- |
 | FCFS      | 640        | 335      | Fair     |
@@ -102,6 +108,8 @@ $12 + 2 + 31 + 24 + 2 + 59 + 146 + 23 = 299$ cylinders.
 | SCAN      | 331        | 313      | Good     |
 | C-SCAN    | 382        | 329      | Best     |
 | LOOK      | 299        | 299      | Good     |
+
+</div>
 
 SSTF minimises total seek but starves requests at the extremes. C-SCAN provides the most uniform
 Wait time at the cost of higher total seek.

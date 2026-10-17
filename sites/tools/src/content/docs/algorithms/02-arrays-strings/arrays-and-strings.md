@@ -37,6 +37,8 @@ into L1 cache, so accessing `arr[i+1]`, `arr[i+2]`. Etc. Hits cache. This is why
 an array is 10-100x faster than following pointers through a linked list, Even though both are
 $O(n)$ in theory.
 
+<div class="table-wrap">
+
 | Property         | Array                       | Linked List              |
 | ---------------- | --------------------------- | ------------------------ |
 | Access by index  | $O(1)$                      | $O(n)$                   |
@@ -45,6 +47,8 @@ $O(n)$ in theory.
 | Insert in middle | $O(n)$                      | $O(1)$ with pointer      |
 | Cache behaviour  | Excellent (contiguous)      | Poor (pointer chasing)   |
 | Memory overhead  | None (or small for dynamic) | One pointer per element  |
+
+</div>
 
 ### Dynamic Arrays
 
@@ -104,12 +108,16 @@ Numbering over 149,000 characters across code points 0x0000 to 0x10FFFF.
 
 UTF-8 is a variable-width encoding of Unicode:
 
+<div class="table-wrap">
+
 | Code Point Range    | Byte Pattern | Binary Representation                 |
 | ------------------- | ------------ | ------------------------------------- |
 | U+0000 to U+007F    | 1 byte       | `0xxxxxxx`                            |
 | U+0080 to U+07FF    | 2 bytes      | `110xxxxx 10xxxxxx`                   |
 | U+0800 to U+FFFF    | 3 bytes      | `1110xxxx 10xxxxxx 10xxxxxx`          |
 | U+10000 to U+10FFFF | 4 bytes      | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` |
+
+</div>
 
 Key properties of UTF-8:
 
@@ -125,6 +133,8 @@ UTF-8 (in CPython 3.3+, PEP 393).
 
 ### String Complexity
 
+<div class="table-wrap">
+
 | Operation        | Python `str`        | C `char[]`             | Notes                     |
 | ---------------- | ------------------- | ---------------------- | ------------------------- |
 | Length           | $O(1)$              | $O(n)$ (with `strlen`) | Python stores length      |
@@ -133,6 +143,8 @@ UTF-8 (in CPython 3.3+, PEP 393).
 | Substring        | $O(k)$              | $O(k)$                 | $k$ = length of substring |
 | Split            | $O(n)$              | $O(n)$                 | Scans entire string       |
 | Find (substring) | $O(nm)$ to $O(n+m)$ | $O(nm)$ to $O(n+m)$    | Depends on algorithm      |
+
+</div>
 
 ## Two-Pointer Technique
 
@@ -425,11 +437,15 @@ class HashMapChaining:
 **Open addressing:** All elements are stored in the array itself. When a collision occurs, probe for
 The next empty slot using a deterministic sequence.
 
+<div class="table-wrap">
+
 | Strategy          | Probe Sequence                          | Clustering           |
 | ----------------- | --------------------------------------- | -------------------- |
 | Linear probing    | $h(k), h(k)+1, h(k)+2, \ldots$          | Primary clustering   |
 | Quadratic probing | $h(k), h(k)+1^2, h(k)+2^2, \ldots$      | Secondary clustering |
 | Double hashing    | $h(k), h(k)+h'(k), h(k)+2h'(k), \ldots$ | No clustering        |
+
+</div>
 
 **Robin Hood hashing:** A variant of open addressing where elements with shorter probe distances are
 Favoured. When inserting, if the new element has a longer probe distance than the existing element,

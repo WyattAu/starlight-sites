@@ -389,6 +389,8 @@ $\blacksquare$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Any set of vectors that spans is a basis | no | it may not be independent; $\{(1,0),(0,1),(1,1)\}$ spans $\mathbb{R}^2$ and is not a basis |
@@ -399,6 +401,8 @@ $\blacksquare$
 | Rank-nullity applies to any function | no | it needs linearity; a general function has neither a kernel that is a subspace nor an image that is one |
 | An infinite-dimensional space can have a finite basis | no | the existence of a finite basis is the definition of finite-dimensional |
 | Two subspaces of dimensions $p$ and $q$ span a space of dimension $p+q$ | no | they may overlap; $\dim(U+W) = \dim U + \dim V - \dim(U\cap V)$ |
+
+</div>
 
 The first four rows are all the same trap from different angles: a basis needs
 *two* properties, and each is easy to satisfy on its own. The definition is

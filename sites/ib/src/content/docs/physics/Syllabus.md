@@ -18,6 +18,8 @@ description: "Syllabus: comprehensive educational content notes with precise def
 
 This is based on the 2025 syllabus.
 
+<div class="table-wrap">
+
 | Theme                               | Topic                                | Level   | Key Understanding                                                                                                                                   | Relevant Equations & Data (from Data Booklet)                                                                                                                     |
 | :---------------------------------- | :----------------------------------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A. Space, Time and Motion           | A.1 Kinematics                       | SL & HL | Motion analysis using position, displacement, distance, velocity, speed, and acceleration. Difference between instantaneous and average values.     | `s``u``v``a``t`                                                                                                                                                   |
@@ -116,6 +118,8 @@ This is based on the 2025 syllabus.
 |                                     |                                      | SL & HL | Stellar equilibrium (radiation pressure vs. Gravitational forces).                                                                                  | N/A                                                                                                                                                               |
 |                                     |                                      | SL & HL | Hertzsprung-Russell (HR) diagram and main stellar regions.                                                                                          | N/A                                                                                                                                                               |
 |                                     |                                      | SL & HL | Stellar parallax method for determining distance to stars.                                                                                          | `d(parsec) = 1 / p(arc-second)`                                                                                                                                   |
+
+</div>
 
 ---
 
@@ -228,17 +232,25 @@ This theme introduces the quantum nature of matter and energy.
 
 ### Standard Level (SL)
 
+<div class="table-wrap">
+
 | Component | Paper 1                            | Paper 2 | IA  |
 | :-------- | :--------------------------------- | :------ | :-- |
 | Duration  | 45 min (MCQ) + 75 min (structured) | 75 min  |,   |
 | Weighting | 30% (MCQ) + 20% (structured) = 50% | 25%     | 25% |
 
+</div>
+
 ### Higher Level (HL)
+
+<div class="table-wrap">
 
 | Component | Paper 1                            | Paper 2 | Paper 3 | IA  |
 | :-------- | :--------------------------------- | :------ | :------ | :-- |
 | Duration  | 60 min (MCQ) + 90 min (structured) | 90 min  | 60 min  |,   |
 | Weighting | 36% (MCQ) + 24% (structured) = 60% | 20%     | 20%     | 20% |
+
+</div>
 
 **Paper 1** consists of multiple-choice questions (Section A) followed by structured/data-based
 Questions (Section B). No calculator is permitted for Section A; a calculator is permitted for

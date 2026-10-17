@@ -92,6 +92,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 
 ### Old vs New Immigration
 
+<div class="table-wrap">
+
 | Factor     | Old Immigration (pre-1880)              | New Immigration (1880-1920)                |
 | ---------- | --------------------------------------- | ------------------------------------------ |
 | Origin     | Northern and Western Europe             | Southern and Eastern Europe                |
@@ -99,6 +101,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 | Religion   | Protestant                              | Catholic, Jewish, Orthodox                 |
 | Reason     | Economic opportunity, religious freedom | Economic opportunity, escaping persecution |
 | Settlement | Rural areas, small towns                | Urban industrial centres                   |
+
+</div>
 
 ### Nativism and Restriction
 

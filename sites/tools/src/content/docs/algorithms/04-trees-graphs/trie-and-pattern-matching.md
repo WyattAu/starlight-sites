@@ -136,6 +136,8 @@ graph TD
 
 ### Complexity Analysis
 
+<div class="table-wrap">
+
 | Operation     | Time        | Space                   |
 | ------------- | ----------- | ----------------------- |
 | Insert        | $O(m)$      | $O(1)$ additional nodes |
@@ -143,6 +145,8 @@ graph TD
 | Delete        | $O(m)$      | $O(1)$ freed nodes      |
 | StartsWith    | $O(m)$      | $O(1)$                  |
 | Prefix search | $O(m + kL)$ | $O(kL)$ for results     |
+
+</div>
 
 Where $m$ is the word length, $k$ is the number of results, and $L$ is the average result length.
 
@@ -273,6 +277,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 
 ### Properties
 
+<div class="table-wrap">
+
 | Property                   | Value                             |
 | -------------------------- | --------------------------------- |
 | Number of nodes            | $O(n)$                            |
@@ -281,6 +287,8 @@ A suffix tree is a compressed suffix trie. It has at most $2n - 1$ nodes for a s
 | Substring search           | $O(m)$ where $m$ = pattern length |
 | Longest repeated substring | Find deepest internal node        |
 | Longest common substring   | Generalised suffix tree           |
+
+</div>
 
 ### Ukkonen's Algorithm (Conceptual)
 

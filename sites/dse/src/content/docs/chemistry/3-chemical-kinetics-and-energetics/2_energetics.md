@@ -119,6 +119,8 @@ This is always endothermic (bonds must be broken).
 
 ### Key Reference Values
 
+<div class="table-wrap">
+
 | Substance                                     | $\Delta H_f^\circ$ (kJ/mol) | $\Delta H_c^\circ$ (kJ/mol) |
 | --------------------------------------------- | --------------------------- | --------------------------- |
 | $\mathrm{CO}_{2(g)}$                          | $-393.5$                    | --                          |
@@ -129,6 +131,8 @@ This is always endothermic (bonds must be broken).
 | $\mathrm{C}_3\mathrm{H}_{8(g)}$               | $-103.8$                    | $-2220$                     |
 | $\mathrm{NH}_{3(g)}$                          | $-46.0$                     | $-383$                      |
 | $\mathrm{NaOH}_{(aq)}$                        | $-470.1$                    | --                          |
+
+</div>
 
 ---
 
@@ -294,6 +298,8 @@ $$
 
 ### Common Bond Enthalpies
 
+<div class="table-wrap">
+
 | Bond       | Enthalpy (kJ/mol)          | Bond       | Enthalpy (kJ/mol) |
 | ---------- | -------------------------- | ---------- | ----------------- |
 | C--C       | 347                        | C--H       | 413               |
@@ -304,6 +310,8 @@ $$
 | C=O        | 743 (in aldehydes/ketones) | N--H       | 391               |
 | C--Cl      | 346                        | F--F       | 158               |
 | O--O       | 146                        | Cl--Cl     | 243               |
+
+</div>
 
 :::caution
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
@@ -467,12 +475,16 @@ to heat losses to the surroundings and incomplete combustion.
 
 ### Sources of Error in Calorimetry
 
+<div class="table-wrap">
+
 | Error                               | Effect                                         | Minimisation                           |
 | ----------------------------------- | ---------------------------------------------- | -------------------------------------- |
 | Heat loss to surroundings           | $\Delta T$ too small; $\Delta H$ less negative | Use a polystyrene cup (good insulator) |
 | Incomplete combustion               | Less heat released                             | Ensure good air supply                 |
 | Evaporation of fuel during weighing | Apparent mass too low                          | Weigh quickly; use a cap               |
 | Heat absorbed by calorimeter        | $\Delta T$ too small                           | Account for calorimeter heat capacity  |
+
+</div>
 
 ---
 
@@ -609,6 +621,8 @@ $$
 
 Typical values (J mol$^{-1}$ K$^{-1}$):
 
+<div class="table-wrap">
+
 | Substance                      | $S^\circ$ (J mol$^{-1}$ K$^{-1}$) |
 | ------------------------------ | --------------------------------- |
 | $\mathrm{C}_{(s)}$             | 5.7                               |
@@ -618,6 +632,8 @@ Typical values (J mol$^{-1}$ K$^{-1}$):
 | $\mathrm{CO}_{2(g)}$           | 213.6                             |
 | $\mathrm{N}_{2(g)}$            | 191.5                             |
 | $\mathrm{NH}_{3(g)}$           | 192.3                             |
+
+</div>
 
 ---
 
@@ -650,15 +666,21 @@ K$^{-1}$Convert $\Delta S$ to kJ mol$^{-1}$ K$^{-1}$ by dividing by 1000.
 
 ### Feasibility of Reactions
 
+<div class="table-wrap">
+
 | $\Delta G$       | Reaction                                                  |
 | ---------------- | --------------------------------------------------------- |
 | $\Delta G \lt 0$ | Feasible (spontaneous) under the given conditions         |
 | $\Delta G = 0$   | At equilibrium                                            |
 | $\Delta G \gt 0$ | Not feasible (non-spontaneous) under the given conditions |
 
+</div>
+
 ### Effect of Temperature on Feasibility
 
 The table below shows when $\Delta G \lt 0$ depending on the signs of $\Delta H$ and $\Delta S$:
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | $\Delta G = \Delta H - T\Delta S$     | Feasibility             |
 | ---------- | ---------- | ------------------------------------- | ----------------------- |
@@ -666,6 +688,8 @@ The table below shows when $\Delta G \lt 0$ depending on the signs of $\Delta H$
 | $+$        | $-$        | Always positive                       | Never feasible          |
 | $-$        | $-$        | Negative at low T, positive at high T | Feasible at low T only  |
 | $+$        | $+$        | Positive at low T, negative at high T | Feasible at high T only |
+
+</div>
 
 ### Temperature of Equilibrium
 
@@ -1105,6 +1129,8 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 
 ## Summary of Key Equations
 
+<div class="table-wrap">
+
 | Equation                                                                                          | Use                                |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | $\Delta H = \sum \Delta H_f^\circ(\mathrm{products}) - \sum \Delta H_f^\circ(\mathrm{reactants})$ | Hess's Law (formation)             |
@@ -1115,6 +1141,8 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 | $\Delta G = \Delta H - T\Delta S$                                                                 | Gibbs free energy                  |
 | $T = \Delta H / \Delta S$ (when $\Delta G = 0$)                                                   | Feasibility temperature            |
 | $\Delta H_{\mathrm{sol}} = \Delta H_{\mathrm{latt}} + \Delta H_{\mathrm{hyd}}$                    | Solution enthalpy                  |
+
+</div>
 
 ## Worked Examples
 

@@ -68,12 +68,16 @@ Critical sections is the fundamental goal of synchronization primitives such as 
 
 These terms are often confused but have distinct meanings:
 
+<div class="table-wrap">
+
 | Property                    | Data Race                    | Race Condition       |
 | --------------------------- | ---------------------------- | -------------------- |
 | Defined by the C++ standard | Yes [N4950 §6.9.4.2]         | No (informal)        |
 | Results in UB               | Always                       | Not necessarily      |
 | Related to memory model     | Yes                          | No                   |
 | Fix mechanism               | Atomic operations or mutexes | Depends on the logic |
+
+</div>
 
 A **data race** is a formal term in the C++ memory model. A **race condition** is a broader,
 Informal term for any situation where the program"s outcome depends on the relative timing of
@@ -129,12 +133,16 @@ The expected result is $10 \times 100\,000 = 1\,000\,000$ But the actual result 
 
 Two threads can interleave these steps such that one increment is lost. For example:
 
+<div class="table-wrap">
+
 | Thread A          | Thread B          |
 | ----------------- | ----------------- |
 | load counter (0)  |                   |
 | increment (1)     | load counter (0)  |
 | store counter (1) | increment (1)     |
 |                   | store counter (1) |
+
+</div>
 
 After both threads complete, `counter` is 1 instead of 2. This is a **lost update**.
 
@@ -205,12 +213,16 @@ Conflicting access without a happens-before edge, it reports a data race.
 
 **Other tools:**
 
+<div class="table-wrap">
+
 | Tool                         | Method                         | Strengths                                  |
 | ---------------------------- | ------------------------------ | ------------------------------------------ |
 | ThreadSanitizer (TSan)       | Compile-time instrumentation   | Precise, low false-positive rate           |
 | Helgrind (Valgrind)          | Dynamic binary instrumentation | No recompilation needed, works on binaries |
 | Intel Inspector              | Hardware-based sampling        | Low overhead, production-capable           |
 | Clang Thread Safety Analysis | Static analysis (annotations)  | Catches races at compile time              |
+
+</div>
 
 ## The Cost of Synchronization
 
@@ -357,6 +369,8 @@ int main() {
 - Reference counting (must use `memory_order_acq_rel` to prevent use-after-free).
 - Any pattern where one thread's write must be visible to another thread before a flag is checked.
 
+<div class="table-wrap">
+
 | Memory Order           | Guarantees                                | Overhead (x86)                  | Use Case                      |
 | ---------------------- | ----------------------------------------- | ------------------------------- | ----------------------------- |
 | `memory_order_relaxed` | Atomicity only                            | Minimal (no fence)              | Simple counters, statistics   |
@@ -364,6 +378,8 @@ int main() {
 | `memory_order_release` | No reads/writes reordered after the store | Minimal (compiler fence on x86) | Guard writes, publishing data |
 | `memory_order_acq_rel` | Both acquire and release                  | Moderate                        | Reference counting            |
 | `memory_order_seq_cst` | Total order across all threads            | Full memory fence               | Default, when in doubt        |
+
+</div>
 
 :::caution
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real

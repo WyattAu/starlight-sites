@@ -143,11 +143,15 @@ Parabola lies **below** the $x$-axis.
 The discriminant $\Delta = b^2 - 4ac$ determines the number of
 Intersections with the $x$-axis:
 
+<div class="table-wrap">
+
 | Condition    | Parabola and $x$-axis                             | $ax^2 + bx + c > 0$ (for $a > 0$)              |
 | ------------ | ------------------------------------------------- | ---------------------------------------------- |
 | $\Delta > 0$ | Two distinct intersections at $x = \alpha, \beta$ | $x < \alpha$ or $x > \beta$                    |
 | $\Delta = 0$ | One intersection at $x = \alpha$                  | $x \neq \alpha$ (all real $x$ except $\alpha$) |
 | $\Delta < 0$ | No intersection                                   | All real $x$ (always true)                     |
+
+</div>
 
 ### Solving Method
 
@@ -621,9 +625,13 @@ Factor: $\dfrac{(x - 1)(x + 2)}{x + 1} \leq 0$.
 
 Critical points: $x = -2$$x = -1$$x = 1$. Note $x \neq -1$.
 
+<div class="table-wrap">
+
 | Interval | $(-\infty, -2)$ | $(-2, -1)$ | $(-1, 1)$ | $(1, \infty)$ |
 | -------- | --------------- | ---------- | --------- | ------------- |
 | Sign     | $-$             | $+$        | $-$       | $+$           |
+
+</div>
 
 The expression is $\leq 0$ when $x \leq -2$ or $-1 < x \leq 1$.
 
@@ -781,9 +789,13 @@ $$
 
 Critical points: $x = -3$ (excluded) and $x = 4$ (included).
 
+<div class="table-wrap">
+
 | Interval | $(-\infty, -3)$ | $(-3, 4)$ | $(4, \infty)$ |
 | -------- | --------------- | --------- | ------------- |
 | Sign     | $+$             | $-$       | $+$           |
+
+</div>
 
 Solution: $(-\infty, -3) \cup [4, \infty)$.
 
@@ -911,11 +923,15 @@ Critical values: $x = -2,\; 1,\; 2$.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | $(-\infty, -2)$ | $(-2, 1)$ | $(1, 2)$ | $(2, \infty)$ |
 | ------------ | :-------------: | :-------: | :------: | :-----------: |
 | $x - 1$      |       $-$       |    $-$    |   $+$    |      $+$      |
 | $(x-2)(x+2)$ |       $+$       |    $-$    |   $-$    |      $+$      |
 | Quotient     |       $-$       |    $+$    |   $-$    |      $+$      |
+
+</div>
 
 The quotient $\leq 0$ on $(-\infty, -2) \cup [1, 2)$. Note $x = 1$ is included (numerator $= 0$),
 but $x = \pm 2$ are excluded.
@@ -924,10 +940,14 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site    | Link                                                                                                              |
 | ---------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
 | [Equations and Inequalities] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/03-equations-and-inequalities) |
 | [Equations and Inequalities] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/5_inequalities/)                                          |
+
+</div>
 
 ======= 3. Misreading the question, particularly with "hence' vs 'hence or otherwise', the former
 requires using previous work.

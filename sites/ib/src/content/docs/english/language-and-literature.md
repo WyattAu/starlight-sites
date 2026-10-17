@@ -73,6 +73,8 @@ Students study a body of literary works connected by a specific theme, genre, or
 
 ### 2.1 Paper 1: Textual Analysis
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Duration | SL: 75 minutes; HL: 135 minutes |
@@ -80,11 +82,15 @@ Students study a body of literary works connected by a specific theme, genre, or
 | Weighting | 25% of final grade |
 | Marking criteria | Knowledge, understanding, and interpretation; Analysis and evaluation; Focus and organisation; Language |
 
+</div>
+
 Paper 1 presents students with unseen texts -- literary or non-literary -- and requires a guided analytical essay in response to a guiding question. At SL, students analyse one text; at HL, students analyse two texts comparatively.
 
 #### Text Types
 
 The following text types may appear on Paper 1:
+
+<div class="table-wrap">
 
 | Category | Examples |
 | ---------- | ---------- |
@@ -92,7 +98,11 @@ The following text types may appear on Paper 1:
 | Non-literary | Speeches, editorials, advertisements, letters, blogs |
 | Visual | Photographs, posters, infographics, advertisements |
 
+</div>
+
 #### Guiding Question Types
+
+<div class="table-wrap">
 
 | Type | Example |
 | ------ | --------- |
@@ -100,6 +110,8 @@ The following text types may appear on Paper 1:
 | Structural analysis | "Analyse the ways in which the structure of this passage shapes its meaning." |
 | Audience and purpose | "Explore how this text positions its intended reader." |
 | Comparative (HL only) | "Compare and contrast how the two texts present the relationship between the individual and society." |
+
+</div>
 
 #### Key Requirements
 
@@ -110,12 +122,16 @@ The following text types may appear on Paper 1:
 
 ### 2.2 Paper 2: Comparative Essay
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Duration | SL: 75 minutes; HL: 90 minutes |
 | Texts | One question from a choice, relating to the works studied in the course |
 | Weighting | 35% of final grade |
 | Marking criteria | Knowledge, understanding, and interpretation; Analysis and evaluation; Focus and organisation; Language |
+
+</div>
 
 Paper 2 requires students to write a comparative essay on two or more works studied during the course. The question is general enough to allow multiple approaches but specific enough to require engagement with the particular texts.
 
@@ -128,11 +144,15 @@ Paper 2 requires students to write a comparative essay on two or more works stud
 
 ### 2.3 HL Essay
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Length | 1,200--1,500 words |
 | Weighting | 20% of final grade (HL only) |
 | Marking criteria | Focus and organisation; Knowledge, understanding, and interpretation; Analysis and evaluation; Language |
+
+</div>
 
 The HL Essay is an independent, formal essay on a question or statement of the student's choice. It must relate to one of the four parts of the course and must be based on material studied during the course.
 
@@ -145,12 +165,16 @@ The HL Essay is an independent, formal essay on a question or statement of the s
 
 ### 2.4 Individual Oral (IOC)
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Duration | SL: 15 minutes (10-minute preparation, 5-minute oral); HL: 20 minutes (20-minute preparation, 10-minute oral) |
 | Text | One passage from a literary work studied in Part 3 or 4 |
 | Weighting | SL: 30% of final grade; HL: 20% of final grade |
 | Marking criteria | Knowledge, understanding, and interpretation; Analysis and evaluation; Focus and organisation; Language |
+
+</div>
 
 The IOC is a prepared oral commentary on a passage from a literary text studied during the course. The passage is selected by the teacher from a selection provided by the IB.
 
@@ -163,12 +187,16 @@ The IOC is a prepared oral commentary on a passage from a literary text studied 
 
 ### 2.5 Assessment Weightings Summary
 
+<div class="table-wrap">
+
 | Component | SL Weighting | HL Weighting |
 | ----------- | ------------- | ------------- |
 | Paper 1 | 25% | 25% |
 | Paper 2 | 35% | 35% |
 | HL Essay | -- | 20% |
 | IOC | 30% | 20% |
+
+</div>
 
 ---
 
@@ -185,6 +213,8 @@ The IOC is a prepared oral commentary on a passage from a literary text studied 
 
 Students choosing between Language and Literature and Literature should understand the fundamental differences between the two courses:
 
+<div class="table-wrap">
+
 | Feature | Language and Literature | Literature |
 | --------- | ------------------------ | ------------ |
 | Text types | Literary and non-literary | Literary only |
@@ -194,6 +224,8 @@ Students choosing between Language and Literature and Literature should understa
 | Analytical focus | How language constructs meaning in all texts | How literary conventions produce meaning |
 | HL Essay | Required (20%) | Required (20%) |
 | IOC | Required (30% SL / 20% HL) | Required (35% SL / 20% HL) |
+
+</div>
 
 The most significant difference is the scope of text types. Language and Literature students must be able to analyse advertisements, speeches, editorials, and visual texts with the same rigour they apply to poetry and prose. This requires a broader analytical toolkit, including knowledge of media conventions, rhetorical strategies, and visual grammar.
 
@@ -303,6 +335,8 @@ The most significant difference is the scope of text types. Language and Literat
 
 ## 6. Glossary of Key Terms
 
+<div class="table-wrap">
+
 | Term | Definition |
 | ------ | ----------- |
 | **Anaphora** | The repetition of a word or phrase at the beginning of successive clauses or lines |
@@ -318,6 +352,8 @@ The most significant difference is the scope of text types. Language and Literat
 | **Rhetoric** | The art of persuasive language; the strategic use of linguistic choices to influence an audience |
 | **Semantic field** | A group of words related by meaning that creates a particular tone or atmosphere |
 | **Tone** | The attitude of a text toward its subject or audience, conveyed through linguistic choices |
+
+</div>
 
 ---
 

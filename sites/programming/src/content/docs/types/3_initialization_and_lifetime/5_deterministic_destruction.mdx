@@ -475,6 +475,8 @@ See **Module 10 (Ownership and RAII)** for comprehensive coverage of this patter
 Java `finalize()` (deprecated in Java 9, removed in Java 18) and C# finalizers are fundamentally
 Different from C++ destructors:
 
+<div class="table-wrap">
+
 | Property              | C++ Destructor                       | Java Finalizer                 | C# Finalizer                   |
 | :-------------------- | :----------------------------------- | :----------------------------- | :----------------------------- |
 | **When called**       | Deterministic (scope exit, `delete`) | Non-deterministic (GC decides) | Non-deterministic (GC decides) |
@@ -482,6 +484,8 @@ Different from C++ destructors:
 | **Exception safety**  | Terminates if throws during unwind   | Ignored                        | Ignored                        |
 | **Performance**       | Zero overhead (same as scope exit)   | Significant GC overhead        | Significant GC overhead        |
 | **Guaranteed to run** | Yes (for automatic/static storage)   | No (GC may never run)          | No (GC may never run)          |
+
+</div>
 
 ### Why Java/C# Need `using` / `try-with-resources`
 

@@ -25,21 +25,29 @@ categories:
 
 A distributed system can guarantee at most **two** of the following three properties simultaneously:
 
+<div class="table-wrap">
+
 | Property                | Definition                                  |
 | ----------------------- | ------------------------------------------- |
 | **Consistency**         | Every read receives the most recent write   |
 | **Availability**        | Every request receives a non-error response |
 | **Partition tolerance** | System operates despite network partitions  |
 
+</div>
+
 **Since network partitions are inevitable in practice, the real choice is between C and A during a
 partition.**
 
 ### 1.2 CP vs AP Systems
 
+<div class="table-wrap">
+
 | Type | Consistency   | Availability          | Partition | Examples                  |
 | ---- | ------------- | --------------------- | --------- | ------------------------- |
 | CP   | Yes           | No (during partition) | Yes       | HBase, MongoDB, ZooKeeper |
 | AP   | No (eventual) | Yes                   | Yes       | Cassandra, DynamoDB, Riak |
+
+</div>
 
 ### 1.3 PACELC Theorem
 
@@ -96,12 +104,16 @@ long "eventually" takes.
 
 ### 2.5 Comparison
 
+<div class="table-wrap">
+
 | Model        | Guarantees                 | Latency | Use Case                    |
 | ------------ | -------------------------- | ------- | --------------------------- |
 | Linearizable | Real-time order            | High    | Banking, leader election    |
 | Sequential   | Program order, total order | Medium  | Shared memory simulation    |
 | Causal       | Causal order               | Low     | Collaborative editing       |
 | Eventual     | Converges if no updates    | Lowest  | Caching, social media feeds |
+
+</div>
 
 ## 3. Consensus
 
@@ -215,12 +227,16 @@ FOLLOWER:
 
 ### 3.4 Comparison
 
+<div class="table-wrap">
+
 | Property          | Paxos                 | Raft                      |
 | ----------------- | --------------------- | ------------------------- |
 | Understandability | Hard                  | Designed for clarity      |
 | Leader            | Not required          | Required                  |
 | Membership change | Complex               | Joint consensus           |
 | Implementation    | Used in Google Chubby | Used in etcd, CockroachDB |
+
+</div>
 
 ## 4. Replication
 
@@ -261,19 +277,27 @@ $$
 
 where $W$ = write quorum, $R$ = read quorum, $N$ = total replicas.
 
+<div class="table-wrap">
+
 | $W$                 | $R$                 | Trade-off                   |
 | ------------------- | ------------------- | --------------------------- |
 | $N$                 | 1                   | Fastest reads, most writes  |
 | $\lceil N/2 \rceil$ | $\lceil N/2 \rceil$ | Balanced read/write latency |
 | 1                   | $N$                 | Fastest writes, most reads  |
 
+</div>
+
 ### 4.4 Synchronous vs Asynchronous Replication
+
+<div class="table-wrap">
 
 | Type         | Latency | Durability | Consistency |
 | ------------ | ------- | ---------- | ----------- |
 | Synchronous  | High    | Strong     | Strong      |
 | Asynchronous | Low     | Risky      | Eventual    |
 | Semi-sync    | Medium  | Moderate   | Moderate    |
+
+</div>
 
 ## 5. Partitioning (Sharding)
 
@@ -325,6 +349,8 @@ CONSISTENT_HASH(key, nodes):
 
 ### 6.1 Failure Models
 
+<div class="table-wrap">
+
 | Failure Type      | Behavior                                  |
 | ----------------- | ----------------------------------------- |
 | Crash failure     | Process stops and does not recover        |
@@ -332,6 +358,8 @@ CONSISTENT_HASH(key, nodes):
 | Byzantine failure | Arbitrary behavior (including malicious)  |
 | Omission failure  | Fails to send/receive messages            |
 | Timing failure    | Responds outside specified timing bounds  |
+
+</div>
 
 ### 6.2 Crash Fault Tolerance
 
@@ -437,11 +465,15 @@ intermediate state).
 
 ### 7.4 Comparison
 
+<div class="table-wrap">
+
 | Method | Atomicity | Blocking | Consistency | Complexity |
 | ------ | --------- | -------- | ----------- | ---------- |
 | 2PC    | Strong    | Yes      | Strong      | Medium     |
 | 3PC    | Strong    | No\*     | Strong      | High       |
 | Saga   | Eventual  | No       | Eventual    | Low        |
+
+</div>
 
 \*Non-blocking only under synchrony assumptions.
 
@@ -519,11 +551,15 @@ $$
 
 ### 8.4 Ordering Comparison
 
+<div class="table-wrap">
+
 | Method        | Causality detection | Concurrent detection | Space per event |
 | ------------- | ------------------- | -------------------- | --------------- |
 | Physical time | No                  | No                   | Constant        |
 | Lamport       | Yes (one direction) | No                   | Constant        |
 | Vector clock  | Yes                 | Yes                  | $O(n)$          |
+
+</div>
 
 ## 9. Common Pitfalls
 
@@ -593,11 +629,15 @@ Distributed systems face fundamental challenges: the CAP theorem states you can 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
 | Databases         | [View](/2-systems/databases/)         |
 | Networking        | [View](/2-systems/networking/)        |
 | Operating Systems | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

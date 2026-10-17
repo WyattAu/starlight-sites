@@ -40,6 +40,8 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 
 ## Core Concepts
 
+<div class="table-wrap">
+
 | Branch | Core Idea | Key Equations | Common Pitfall |
 | -------- | ----------- | --------------- | ---------------- |
 | Thermodynamics | Energy conservation and spontaneity | $\Delta G = \Delta H - T\Delta S$ | Assuming $\Delta H < 0$ guarantees spontaneity |
@@ -47,6 +49,8 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 | Quantum Chemistry | Wave-particle duality and orbitals | $\hat{H}\psi = E\psi$ | Treating electrons as particles in orbitals |
 | Organic Mechanisms | Electron flow from nucleophile to electrophile | Arrow pushing: $\text{Nu}^- \rightarrow \text{E}^+$ | Memorising mechanisms without understanding electron sources/sinks |
 | Coordination Chemistry | Metal-ligand bonding and geometry | $\Delta = \frac{10\,Dq}{...}$ (crystal field) | Assuming all octahedral complexes are low-spin |
+
+</div>
 
 ## Exam Strategy
 
@@ -74,7 +78,7 @@ Chemistry is a cumulative subject, each concept builds on previous knowledge. Wo
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Intuition
 

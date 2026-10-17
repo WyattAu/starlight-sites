@@ -46,6 +46,8 @@ Maximum possible number of hydrogen atoms per carbon atom.
 
 ### Naming (IUPAC)
 
+<div class="table-wrap">
+
 | Carbon Atoms | Name    | Formula              |
 | ------------ | ------- | -------------------- |
 | 1            | Methane | $\mathrm{CH_4}$      |
@@ -56,6 +58,8 @@ Maximum possible number of hydrogen atoms per carbon atom.
 | 6            | Hexane  | $\mathrm{C_6H_{14}}$ |
 | 7            | Heptane | $\mathrm{C_7H_{16}}$ |
 | 8            | Octane  | $\mathrm{C_8H_{18}}$ |
+
+</div>
 
 ### Properties of Alkanes
 
@@ -133,11 +137,15 @@ Alkenes are **unsaturated hydrocarbons**: they contain at least one carbon-carbo
 
 ### Naming
 
+<div class="table-wrap">
+
 | Carbon Atoms | Name    | Formula           |
 | ------------ | ------- | ----------------- |
 | 2            | Ethene  | $\mathrm{C_2H_4}$ |
 | 3            | Propene | $\mathrm{C_3H_6}$ |
 | 4            | Butene  | $\mathrm{C_4H_8}$ |
+
+</div>
 
 ### Properties of Alkenes
 
@@ -247,6 +255,8 @@ A homologous series is a family of organic compounds with:
 
 ## Functional Groups
 
+<div class="table-wrap">
+
 | Functional Group             | Class           | Suffix / Prefix | Example                 |
 | ---------------------------- | --------------- | --------------- | ----------------------- |
 | $\mathrm{C = C}$             | Alkene          | -ene            | $\mathrm{CH_2 = CH_2}$  |
@@ -258,6 +268,8 @@ A homologous series is a family of organic compounds with:
 | $-\mathrm{COO}-$             | Ester           | -oate           | $\mathrm{CH_3COOCH_3}$  |
 | $-\mathrm{NH_2}$             | Amine           | -amine          | $\mathrm{CH_3NH_2}$     |
 | $-\mathrm{Cl}$, $-\mathrm{Br}$ | Halide          | chloro-, bromo- | $\mathrm{CH_3Cl}$       |
+
+</div>
 
 ---
 
@@ -553,6 +565,8 @@ Formed from a diol and a dicarboxylic acid.
 
 ### Environmental Impact of Plastics
 
+<div class="table-wrap">
+
 | Issue                      | Description                                                    |
 | -------------------------- | -------------------------------------------------------------- |
 | Non-biodegradability       | Most plastics persist in the environment for hundreds of years |
@@ -560,6 +574,8 @@ Formed from a diol and a dicarboxylic acid.
 | Microplastics              | Small plastic fragments pollute waterways and oceans           |
 | Recycling                  | Not all plastics are recyclable                                |
 | Biodegradable alternatives | Biopolymers (e.g., from starch, cellulose) offer solutions     |
+
+</div>
 
 ---
 
@@ -679,6 +695,8 @@ Undigested and acts as dietary fibre.
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Concept              | Key Point                                                          |
 | -------------------- | ------------------------------------------------------------------ |
 | Alkanes              | $\mathrm{C_nH_{2n+2}}$ Saturated, substitution                      |
@@ -691,6 +709,8 @@ Undigested and acts as dietary fibre.
 | Condensation polymer | Monomers join; small molecule (e.g., water) eliminated             |
 | Protein monomer      | Amino acids, linked by peptide bonds                               |
 | DNA base pairing     | A-T, G-C                                                           |
+
+</div>
 
 ---
 

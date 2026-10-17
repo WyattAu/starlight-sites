@@ -101,11 +101,15 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 - **Joinable**: The thread has not yet been joined or detached.
 - **Not joinable**: The thread has been joined, detached, or was default-constructed.
 
+<div class="table-wrap">
+
 | Operation             | Effect                                                                            | Post-state         |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------ |
 | `join()`              | Blocks until the thread finishes                                                  | Not joinable       |
 | `detach()`            | Separates the thread from the `std::thread` object; the thread runs independently | Not joinable       |
 | Destructor (joinable) | Calls `std::terminate()`                                                          | Program terminates |
+
+</div>
 
 :::caution
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
@@ -156,11 +160,15 @@ Periodically check whether a stop has been requested and exit cooperatively.
 
 Key types in the stop-token mechanism [N4950 §31.4.4.6]:
 
+<div class="table-wrap">
+
 | Type                 | Role                                                |
 | -------------------- | --------------------------------------------------- |
 | `std::stop_token`    | Query-only handle; passed to worker threads         |
 | `std::stop_source`   | Ownership handle; used to request stop              |
 | `std::stop_callback` | Registers a callback invoked when stop is requested |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -474,11 +482,15 @@ synchronously from the Thread that calls `request_stop()`. Not from the worker t
 
 Each OS thread has a stack with a default size that varies by platform:
 
+<div class="table-wrap">
+
 | Platform      | Default Stack Size              | Configuration Method                       |
 | :------------ | :------------------------------ | :----------------------------------------- |
 | Linux (glibc) | 8 MB                            | `pthread_attr_setstacksize` or `ulimit -s` |
 | macOS         | 8 MB (main), 512 KB (secondary) | `pthread_attr_setstacksize`                |
 | Windows       | 1 MB                            | `/STACK:` linker flag or `CreateThread`    |
+
+</div>
 
 For applications that create many threads (e.g., thread pools with hundreds of workers), the default
 Stack size can exhaust virtual memory. On Linux, you can check and adjust the stack size:

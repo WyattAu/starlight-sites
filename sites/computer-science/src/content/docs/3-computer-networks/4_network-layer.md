@@ -27,6 +27,8 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 
 **IPv4 header format (20 bytes minimum):**
 
+<div class="table-wrap">
+
 | Field          | Size    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | Version        | 4 bits  | Always 4                                      |
@@ -42,7 +44,11 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 | Src Address    | 32 bits | Source IPv4 address                           |
 | Dst Address    | 32 bits | Destination IPv4 address                      |
 
+</div>
+
 **Address classes:**
+
+<div class="table-wrap">
 
 | Class | Range                        | Default Mask  | First Bits |
 | ----- | ---------------------------- | ------------- | ---------- |
@@ -51,6 +57,8 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0 | 110        |
 | D     | 224.0.0.0 -- 239.255.255.255 | Multicast     | 1110       |
 | E     | 240.0.0.0 -- 255.255.255.255 | Reserved      | 1111       |
+
+</div>
 
 **Special addresses:** `127.0.0.0/8` (loopback), `0.0.0.0` (this network), `255.255.255.255`
 (broadcast).
@@ -61,12 +69,16 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 
 **Example.** Network `192.168.1.0/24` with `/26` mask (borrow 2 bits):
 
+<div class="table-wrap">
+
 | Subnet           | Range                          | Broadcast     |
 | ---------------- | ------------------------------ | ------------- |
 | 192.168.1.0/26   | 192.168.1.1 -- 192.168.1.62    | 192.168.1.63  |
 | 192.168.1.64/26  | 192.168.1.65 -- 192.168.1.126  | 192.168.1.127 |
 | 192.168.1.128/26 | 192.168.1.129 -- 192.168.1.190 | 192.168.1.191 |
 | 192.168.1.192/26 | 192.168.1.193 -- 192.168.1.254 | 192.168.1.255 |
+
+</div>
 
 Each subnet has $2^6 - 2 = 62$ usable hosts.
 
@@ -89,6 +101,8 @@ Subnet `192.168.10.0/24` to accommodate:
 **Strategy:** Allocate largest subnets first. For each subnet, find the smallest power of 2 that
 Provides enough addresses (including network and broadcast).
 
+<div class="table-wrap">
+
 | Subnet     | Hosts needed | $2^n$ | Prefix | Network           | Range        | Broadcast      |
 | ---------- | ------------ | ----- | ------ | ----------------- | ------------ | -------------- |
 | LAN A      | 60           | 64    | /26    | 192.168.10.0/26   | .1 -- .62    | 192.168.10.63  |
@@ -98,6 +112,8 @@ Provides enough addresses (including network and broadcast).
 | P2P Link 1 | 2            | 4     | /30    | 192.168.10.120/30 | .121 -- .122 | 192.168.10.123 |
 | P2P Link 2 | 2            | 4     | /30    | 192.168.10.124/30 | .125 -- .126 | 192.168.10.127 |
 | P2P Link 3 | 2            | 4     | /30    | 192.168.10.128/30 | .129 -- .130 | 192.168.10.131 |
+
+</div>
 
 **Remaining space:** 192.168.10.132/24 -- 192.168.10.255 (124 addresses for future use).
 
@@ -121,6 +137,8 @@ Group may be omitted; one consecutive group of all-zeros may be replaced with `:
 
 **IPv6 header format (40 bytes fixed):**
 
+<div class="table-wrap">
+
 | Field         | Size    | Description                 |
 | ------------- | ------- | --------------------------- |
 | Version       | 4 bits  | Always 6                    |
@@ -130,11 +148,15 @@ Group may be omitted; one consecutive group of all-zeros may be replaced with `:
 | Next Header   | 8 bits  | Type of extension header    |
 | Hop Limit     | 8 bits  | Replaces IPv4 TTL           |
 
+</div>
+
 **IPv6 header analysis.** The fixed 40-byte header with no options field is a deliberate
 simplification Over IPv4 (whose header ranges from 20 to 60 bytes). Every field is either fixed-size
 or has a defined offset. This allows routers to process IPv6 packets faster because they never need
 to Parse variable-length options. Optional functionality is moved to **extension headers**, which
 are Chained via the Next Header field:
+
+<div class="table-wrap">
 
 | Extension Header       | Next Header Value | Purpose                           |
 | ---------------------- | ----------------- | --------------------------------- |
@@ -144,6 +166,8 @@ are Chained via the Next Header field:
 | Destination Options    | 60                | Options for destination only      |
 | Authentication Header  | 51                | Integrity and authentication      |
 | Encapsulating Security | 50                | Confidentiality and integrity     |
+
+</div>
 
 **Transition mechanisms:** Dual stack, tunnelling (encapsulate IPv6 in IPv4), translation (NAT64).
 
@@ -214,6 +238,8 @@ Route to A goes through A).
 
 **OSPF packet fields:**
 
+<div class="table-wrap">
+
 | Field              | Description                           |
 | ------------------ | ------------------------------------- |
 | Header             | Version, area ID, router ID, checksum |
@@ -222,6 +248,8 @@ Route to A goes through A).
 | Advertising router | Router originating the LSA            |
 | Sequence number    | Detects stale or duplicate LSAs       |
 | Age                | Time since LSA originated (seconds)   |
+
+</div>
 
 **Path Vector Routing (BGP).** Used for inter-domain routing. Carries the full AS path to each
 Destination, not just the distance.
@@ -255,6 +283,8 @@ This prevents routing loops within the AS.
 
 **Routing protocol comparison:**
 
+<div class="table-wrap">
+
 | Feature      | RIP                | OSPF                   | BGP                  |
 | ------------ | ------------------ | ---------------------- | -------------------- |
 | Type         | Distance Vector    | Link State             | Path Vector          |
@@ -266,6 +296,8 @@ This prevents routing loops within the AS.
 | Scalability  | Small networks     | Large networks         | Internet-scale       |
 | Hierarchy    | Flat               | Areas                  | AS-based             |
 | VLSM support | RIPv2 only         | Yes                    | Yes                  |
+
+</div>
 
 <details>
 <summary>Worked Example: Routing Table Construction with Dijkstra's Algorithm</summary>
@@ -302,6 +334,8 @@ $d(F) = 7$ Prev$(F) = E$.
 
 **Routing table at A:**
 
+<div class="table-wrap">
+
 | Destination | Next Hop | Cost | Path             |
 | ----------- | -------- | ---- | ---------------- |
 | B           | B        | 3    | A -- B           |
@@ -310,6 +344,8 @@ $d(F) = 7$ Prev$(F) = E$.
 | E           | B        | 4    | A -- B -- E      |
 | F           | B        | 7    | A -- B -- E -- F |
 
+</div>
+
 </details>
 
 ### 4.7 ICMP
@@ -317,12 +353,16 @@ $d(F) = 7$ Prev$(F) = E$.
 **Internet Control Message Protocol** provides error reporting and diagnostics. Encapsulated in IP
 (protocol number 1).
 
+<div class="table-wrap">
+
 | Type | Code | Meaning                    |
 | ---- | ---- | -------------------------- |
 | 0    | 0    | Echo reply                 |
 | 3    | 0-15 | Destination unreachable    |
 | 8    | 0    | Echo request (ping)        |
 | 11   | 0-1  | Time exceeded (TTL expiry) |
+
+</div>
 
 **Traceroute.** Sends packets with incrementing TTL. When TTL expires, the router returns an ICMP
 Time Exceeded message, revealing intermediate hops.
@@ -354,11 +394,15 @@ cleanly.
 
 Number of fragments: $\lceil 3980 / 1480 \rceil = 3$.
 
+<div class="table-wrap">
+
 | Fragment | Header | Data   | MF  | Offset | Total  |
 | -------- | ------ | ------ | --- | ------ | ------ |
 | 1        | 20 B   | 1480 B | 1   | 0      | 1500 B |
 | 2        | 20 B   | 1480 B | 1   | 185    | 1500 B |
 | 3        | 20 B   | 1020 B | 0   | 370    | 1040 B |
+
+</div>
 
 Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentation).
 

@@ -95,6 +95,8 @@ Project and its potential is carried out based on:
 Requirements elicitation is the process of gathering system requirements from stakeholders. Common
 Techniques include:
 
+<div class="table-wrap">
+
 | Technique       | Description                                                              | Advantages                                          | Disadvantages                                         |
 | --------------- | ------------------------------------------------------------------------ | --------------------------------------------------- | ----------------------------------------------------- |
 | Interviews      | One-on-one structured or semi-structured conversations with stakeholders | In-depth responses; follow-up questions possible    | Time-consuming; may be influenced by interviewer bias |
@@ -102,9 +104,13 @@ Techniques include:
 | Observation     | Watching users perform their current tasks in their normal environment   | Reveals actual workflow issues users may not report | Users may change behaviour when observed              |
 | Document review | Analysing existing documentation, reports, forms, and procedures         | Non-intrusive; provides objective baseline          | Documents may be outdated or incomplete               |
 
+</div>
+
 ### Stakeholder Analysis Matrix
 
 A stakeholder analysis matrix helps prioritise stakeholder engagement during planning:
+
+<div class="table-wrap">
 
 | Stakeholder       | Interest level | Influence level | Engagement strategy                |
 | ----------------- | -------------- | --------------- | ---------------------------------- |
@@ -113,6 +119,8 @@ A stakeholder analysis matrix helps prioritise stakeholder engagement during pla
 | IT department     | Medium         | High            | Consult early; involve in design   |
 | External vendors  | Low            | Medium          | Monitor; contractual communication |
 | Regulators        | Low            | High            | Satisfy through compliance checks  |
+
+</div>
 
 ### Gantt Chart Concepts
 
@@ -153,6 +161,8 @@ Replace by change, examples being:
 Employees often resist new systems. Understanding the reasons allows management to plan mitigation
 Strategies:
 
+<div class="table-wrap">
+
 | Reason for resistance | Description                                              | Mitigation strategy                                                                                     |
 | --------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Fear of redundancy    | Employees worry the new system will eliminate their jobs | Communicate that the system augments rather than replaces roles; retrain staff for new responsibilities |
@@ -160,6 +170,8 @@ Strategies:
 | Disruption of routine | The new system changes familiar workflows                | Use phased changeover to allow gradual adaptation                                                       |
 | Lack of involvement   | Staff feel the change was imposed without consultation   | Involve employees early in requirements elicitation and pilot testing                                   |
 | Past failures         | Previous system changes failed, reducing trust           | Acknowledge past issues, explain what will be different, and provide evidence of thorough planning      |
+
+</div>
 
 ### Lewin's Change Management Model
 
@@ -179,6 +191,8 @@ Lewin's model describes change in three stages:
 Before deploying a new system, a training needs analysis (TNA) identifies the gap between current
 Skills and required skills:
 
+<div class="table-wrap">
+
 | Step                        | Action                                               | Example                                                                                                  |
 | --------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1. Identify required skills | Determine what the new system demands of users       | The new ERP system requires users to navigate a multi-module dashboard and generate reports              |
@@ -187,10 +201,14 @@ Skills and required skills:
 | 4. Design training          | Plan training methods, duration, and materials       | Three-day instructor-led workshop, followed by online refresher modules and a help desk                  |
 | 5. Evaluate training        | Measure whether the training achieved its objectives | Post-training assessment shows 85% of staff can independently perform core tasks                         |
 
+</div>
+
 ### Impact Assessment Framework
 
 An impact assessment evaluates how the new system will affect the organisation across multiple
 Dimensions:
+
+<div class="table-wrap">
 
 | Dimension   | Questions to ask                                  | Example findings                                                                   |
 | ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -199,6 +217,8 @@ Dimensions:
 | Technical   | What infrastructure changes are needed?           | Server upgrade required; new network switches for increased bandwidth              |
 | Human       | How will staff roles and responsibilities change? | Three data entry clerks will be retrained as system analysts                       |
 | Legal       | Are there compliance implications?                | New data retention policies must align with GDPR Article 5                         |
+
+</div>
 
 ### Worked Example: Planning a System Migration for a School Library
 
@@ -239,11 +259,15 @@ Library management system (CloudLib).
 
 **Step 5 -- Risk register**:
 
+<div class="table-wrap">
+
 | Risk                        | Likelihood | Impact | Mitigation                                                                        |
 | --------------------------- | ---------- | ------ | --------------------------------------------------------------------------------- |
 | Data loss during migration  | Low        | High   | Full backup of LibrarySoft database before migration; validation of record counts |
 | Librarian unable to adapt   | Medium     | Medium | Extended training period; option to revert during parallel run                    |
 | Internet outage during term | Low        | High   | Maintain a cached local copy of the catalogue for offline browsing                |
+
+</div>
 
 ## Business Merger
 
@@ -254,12 +278,16 @@ be compatible.
 
 System integration is the process of combining subsystems, where there are four strategies:
 
+<div class="table-wrap">
+
 | Strategy                     | Description                                                                 | Advantages                                                        | Disadvantages                                                                              |
 | ---------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Operate in redundancy        | Run both systems simultaneously; each system handles its original user base | Lowest short-term risk; no data migration required immediately    | High ongoing cost; data inconsistency between systems; duplicated effort                   |
 | Replace both with new system | Build an entirely new system that replaces both legacy systems              | Opportunity to modernise; eliminates legacy technical debt        | Highest cost and risk; longest timeline; requires full requirements gathering from scratch |
 | Best-of-breed selection      | Select the strongest subsystems from each company and combine them          | Leverages existing strengths; may produce the best overall system | Complex integration between heterogeneous subsystems; compatibility issues                 |
 | Single system adoption       | Choose one company's system and terminate the other                         | Simplest integration; lower cost than replacement                 | Users of the discontinued system must adapt; some functionality may be lost                |
+
+</div>
 
 **Real-world examples**:
 
@@ -386,6 +414,8 @@ Risk, common strategies include:
 
 ### Comparison: Alpha vs Beta vs UAT
 
+<div class="table-wrap">
+
 | Criterion     | Alpha testing                      | Beta testing                    | User acceptance testing               |
 | ------------- | ---------------------------------- | ------------------------------- | ------------------------------------- |
 | Who tests     | Development team                   | Selected end-users              | Client or business stakeholders       |
@@ -393,6 +423,8 @@ Risk, common strategies include:
 | Goal          | Identify bugs before wider release | Test in real-world conditions   | Confirm business requirements are met |
 | System state  | Not yet feature-complete           | Feature-complete                | Feature-complete and stable           |
 | Bug reporting | Internal bug tracker               | Feedback forms or issue tracker | Formal sign-off process               |
+
+</div>
 
 ### Test Case Design Techniques
 
@@ -404,11 +436,15 @@ is tested.
 
 **Example**: A registration form requires the user's age to be between 18 and 65.
 
+<div class="table-wrap">
+
 | Partition       | Range           | Test value |
 | --------------- | --------------- | ---------- |
 | Valid           | 18 to 65        | 30         |
 | Invalid (below) | less than 18    | 15         |
 | Invalid (above) | greater than 65 | 70         |
+
+</div>
 
 Only three test cases are needed to cover all equivalence classes.
 
@@ -419,6 +455,8 @@ Frequently occur at boundaries.
 
 Using the same age example (valid range 18 to 65):
 
+<div class="table-wrap">
+
 | Boundary               | Test value | Expected result |
 | ---------------------- | ---------- | --------------- |
 | Just below lower bound | 17         | Rejected        |
@@ -428,19 +466,27 @@ Using the same age example (valid range 18 to 65):
 | Upper bound            | 65         | Accepted        |
 | Just above upper bound | 66         | Rejected        |
 
+</div>
+
 ### Stubs and Drivers
 
 When testing individual modules that depend on other modules not yet developed, stubs and drivers
 are used as substitutes:
+
+<div class="table-wrap">
 
 | Component | Definition                                      | When used         | Example                                                                                                                                                                         |
 | --------- | ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stub      | A dummy module that simulates a called module   | Bottom-up testing | A stub that returns a fixed value when the `getCustomerName()` function is called, allowing the calling module to be tested without the real database module                    |
 | Driver    | A dummy module that calls a module being tested | Top-down testing  | A driver that passes a series of test inputs to the `calculateDiscount()` function and displays the results, allowing the function to be tested without the full user interface |
 
+</div>
+
 ### Traceability Matrix
 
 A traceability matrix maps requirements to test cases to ensure complete test coverage:
+
+<div class="table-wrap">
 
 | Requirement ID | Requirement description             | Test case ID | Test case description           | Status |
 | -------------- | ----------------------------------- | ------------ | ------------------------------- | ------ |
@@ -448,6 +494,8 @@ A traceability matrix maps requirements to test cases to ensure complete test co
 | R02            | Maximum 5 loans per member          | TC02         | Attempt 6th loan                | Pass   |
 | R03            | Overdue books flagged after 14 days | TC03         | Check book status at day 15     | Pass   |
 | R04            | Daily overdue report generated      | TC04         | Verify report contents          | Fail   |
+
+</div>
 
 If any test case fails or a requirement has no corresponding test case, the matrix highlights the
 Gap.
@@ -468,6 +516,8 @@ Failed attempts, the account is locked for 15 minutes.
 
 **Test cases using equivalence partitioning and boundary value analysis**:
 
+<div class="table-wrap">
+
 | Test ID | Test description                    | Input                                                   | Expected result                         | Technique   |
 | ------- | ----------------------------------- | ------------------------------------------------------- | --------------------------------------- | ----------- |
 | TC01    | Valid login                         | Username: "student01", Password: "Pass1234"             | Login successful                        | Normal data |
@@ -480,6 +530,8 @@ Failed attempts, the account is locked for 15 minutes.
 | TC08    | Password exactly 8 characters       | Username: "student01", Password: "Passw0r"              | Login successful                        | Boundary    |
 | TC09    | Third failed attempt locks account  | Username: "student01", 3 incorrect passwords            | Account locked for 15 minutes           | Boundary    |
 | TC10    | Second failed attempt does not lock | Username: "student01", 2 incorrect passwords            | Error message; account not locked       | Boundary    |
+
+</div>
 
 ## User Documentation
 
@@ -547,11 +599,15 @@ Off-site).
 
 RAID (Redundant Array of Independent Disks) provides data redundancy and performance improvements:
 
+<div class="table-wrap">
+
 | RAID level | Description                                              | Minimum disks | Redundancy             | Use case                                                            |
 | ---------- | -------------------------------------------------------- | ------------- | ---------------------- | ------------------------------------------------------------------- |
 | RAID 0     | Data is striped across disks for performance             | 2             | None                   | Temporary data, gaming systems where speed matters more than safety |
 | RAID 1     | Data is mirrored identically on each disk                | 2             | Full (1 disk can fail) | Critical databases where uptime is essential                        |
 | RAID 5     | Data is striped with distributed parity across all disks | 3             | Single disk tolerance  | File servers balancing performance, capacity, and redundancy        |
+
+</div>
 
 ### Disaster Recovery Plan
 
@@ -575,11 +631,15 @@ Catastrophic event. Key components include:
 
 ### Hot, Warm, and Cold Standby
 
+<div class="table-wrap">
+
 | Standby type | Description                                                                                 | Recovery time                     | Cost    | Use case                                      |
 | ------------ | ------------------------------------------------------------------------------------------- | --------------------------------- | ------- | --------------------------------------------- |
 | Hot standby  | A fully operational duplicate system running in real-time synchronisation with the primary  | Near-instant (seconds to minutes) | Highest | Core banking systems, emergency services      |
 | Warm standby | A system with hardware provisioned and data periodically synchronised, but not running live | Minutes to hours                  | Medium  | E-commerce platforms, corporate email         |
 | Cold standby | An empty or minimally configured system that must be set up from scratch or from backups    | Hours to days                     | Lowest  | Archival systems, non-critical internal tools |
+
+</div>
 
 ## Software Deployment
 
@@ -599,16 +659,22 @@ The versioning system of a system is divided by:
 
 Semantic versioning (SemVer) uses a three-part version number in the format **major.minor.patch**:
 
+<div class="table-wrap">
+
 | Component | Incremented when                                              | Example                                                                       |
 | --------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Major     | Breaking changes that are incompatible with previous versions | `2.0.0` when the API requires all clients to be updated                       |
 | Minor     | New features added in a backward-compatible way               | `1.5.0` when a new search filter is added without changing existing endpoints |
 | Patch     | Bug fixes that do not change functionality                    | `1.5.1` when a calculation error in the search filter is corrected            |
 
+</div>
+
 **Pre-release and build metadata**: Versions may include labels such as `1.0.0-alpha.1`
 `1.0.0-beta.2`Or `1.0.0-rc.1` to indicate pre-release versions.
 
 ### Continuous Delivery vs Continuous Deployment
+
+<div class="table-wrap">
 
 | Aspect             | Continuous delivery                                                                               | Continuous deployment                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -616,6 +682,8 @@ Semantic versioning (SemVer) uses a three-part version number in the format **ma
 | Human intervention | Yes -- a person approves the deployment                                                           | No -- fully automated pipeline                                                        |
 | Risk               | Lower than continuous deployment; humans can catch issues automation misses                       | Higher; requires extremely thorough automated testing                                 |
 | Speed              | Slower; depends on approval process                                                               | Fastest; changes reach users as soon as they are ready                                |
+
+</div>
 
 ### Rollback Strategies
 
@@ -774,12 +842,16 @@ Form. [4 marks]
 
 (a)
 
+<div class="table-wrap">
+
 | Test value | Expected result | Reason                        |
 | ---------- | --------------- | ----------------------------- |
 | 17         | Rejected        | Just below the lower boundary |
 | 18         | Accepted        | At the lower boundary         |
 | 120        | Accepted        | At the upper boundary         |
 | 121        | Rejected        | Just above the upper boundary |
+
+</div>
 
 (b)
 
@@ -872,12 +944,16 @@ Survives.
 
 (b)
 
+<div class="table-wrap">
+
 | Aspect        | Hot standby                                                                                 | Warm standby                                                                                                            |
 | ------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Setup         | A duplicate server runs continuously, receiving real-time data replication from the primary | A server is provisioned with compatible hardware and software, but data is synchronised periodically (e.g., every hour) |
 | Recovery time | Near-instant; traffic can be redirected to the standby within seconds                       | Slower; the standby must be brought online and data must be synchronised from the last backup                           |
 | Cost          | Highest -- requires a fully operational duplicate server running at all times               | Medium -- the standby server exists but does not consume resources until needed                                         |
 | Data currency | Fully up to date; no data loss                                                              | May lose data changes made since the last synchronisation                                                               |
+
+</div>
 
 (c)
 

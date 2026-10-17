@@ -28,12 +28,16 @@ basin is an open system: energy and matter enter, are transformed within the sys
 
 ### System Components
 
+<div class="table-wrap">
+
 | Component             | Description                      | Examples                                                                                                                                                                        |
 | --------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Inputs**            | Water entering the system        | Precipitation (rainfall, snow, hail, sleet), intercepted water, groundwater inflow from adjacent basins                                                                         |
 | **Outputs**           | Water leaving the system         | Evaporation, transpiration, river discharge to the sea, groundwater outflow                                                                                                     |
 | **Stores**            | Water held within the system     | Vegetation canopy interception, surface storage (puddles, lakes, ponds), soil moisture, groundwater (aquifers, unconfined and confined), channel storage, snowpack and glaciers |
 | **Transfers (flows)** | Movement of water between stores | Throughfall, stemflow, overland flow (Hortonian flow), infiltration, percolation, throughflow (interflow), pipeflow, groundwater flow (baseflow), channel flow                  |
+
+</div>
 
 ### The Hydrological Cycle at Basin Scale
 
@@ -110,6 +114,8 @@ Scaled and combined to predict the hydrograph for any storm.
 
 ### Physical Factors
 
+<div class="table-wrap">
+
 | Factor                       | Effect on Hydrograph                                                                                      | Mechanism                                                                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Rainfall intensity**       | Shorter lag time, steeper rising limb, higher peak discharge                                              | Intense rainfall exceeds infiltration capacity rapidly, generating overland flow (Hortonian overland flow)               |
@@ -121,6 +127,8 @@ Scaled and combined to predict the hydrograph for any storm.
 | **Drainage density**         | High density: short lag time, flashy response                                                             | A dense network of channels collects water rapidly and delivers it to the main channel                                   |
 | **Basin size and shape**     | Large basin: longer lag time; elongated basin: longer lag time; circular basin: shorter lag time          | Water from distant parts of large or elongated basins takes longer to reach the outlet                                   |
 | **Vegetation cover**         | Dense vegetation: long lag time, lower peak discharge                                                     | Interception reduces effective rainfall; root systems increase infiltration; transpiration reduces soil moisture         |
+
+</div>
 
 ### Human Factors
 

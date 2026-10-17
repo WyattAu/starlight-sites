@@ -44,6 +44,8 @@ introduces the octal system and binary arithmetic.
 Octal uses digits 0--7. Each octal digit represents exactly 3 bits, making conversion between octal
 and binary trivial.
 
+<div class="table-wrap">
+
 | Octal | Binary | Decimal |
 | ----- | ------ | ------- |
 | 0     | 000    | 0       |
@@ -53,6 +55,8 @@ and binary trivial.
 | 10    | 001000 | 8       |
 | 17    | 001111 | 15      |
 | 20    | 010000 | 16      |
+
+</div>
 
 **Binary to octal:** Group bits in groups of 3 from the right, convert each group.
 
@@ -88,6 +92,8 @@ $3 \times 8^2 + 7 \times 8^1 + 2 \times 8^0 = 3 \times 64 + 7 \times 8 + 2 \time
 Binary addition follows the same principles as decimal addition, with carries propagating when the
 Sum of a column exceeds 1.
 
+<div class="table-wrap">
+
 | Operation | Result | Carry |
 | --------- | ------ | ----- |
 | 0 + 0     | 0      | 0     |
@@ -95,6 +101,8 @@ Sum of a column exceeds 1.
 | 1 + 0     | 1      | 0     |
 | 1 + 1     | 0      | 1     |
 | 1 + 1 + 1 | 1      | 1     |
+
+</div>
 
 <details>
 <summary>Worked Example: Add 0110 1011 and 0101 1101</summary>
@@ -201,11 +209,15 @@ Standard defines single precision (32-bit) and double precision (64-bit).
 
 **Single precision (32-bit) layout:**
 
+<div class="table-wrap">
+
 | Bit range | Component | Bits |
 | --------- | --------- | ---- |
 | 31        | Sign      | 1    |
 | 30--23    | Exponent  | 8    |
 | 22--0     | Mantissa  | 23   |
+
+</div>
 
 **Value calculation:**
 
@@ -246,6 +258,8 @@ In hex: $1\ 1000\ 0001\ 1010\ 1000\ 0000\ 0000\ 0000\ 0000 = \mathrm{C0D40000}_{
 
 </details>
 
+<div class="table-wrap">
+
 | Feature           | Single Precision (32-bit)                             | Double Precision (64-bit)                               |
 | ----------------- | ----------------------------------------------------- | ------------------------------------------------------- |
 | Sign bit          | 1                                                     | 1                                                       |
@@ -254,6 +268,8 @@ In hex: $1\ 1000\ 0001\ 1010\ 1000\ 0000\ 0000\ 0000\ 0000 = \mathrm{C0D40000}_{
 | Exponent bias     | 127                                                   | 1023                                                    |
 | Approx. Precision | 7 decimal digits                                      | 15--16 decimal digits                                   |
 | Range (approx.)   | $\pm 1.2 \times 10^{-38}$ to $\pm 3.4 \times 10^{38}$ | $\pm 2.2 \times 10^{-308}$ to $\pm 1.8 \times 10^{308}$ |
+
+</div>
 
 ---
 
@@ -279,6 +295,8 @@ Characters or parity checking.
 
 Key structural properties of the ASCII table:
 
+<div class="table-wrap">
+
 | Range (decimal) | Content                                     |
 | --------------- | ------------------------------------------- |
 | 0--31           | Control characters (NUL, CR, LF, TAB, etc.) |
@@ -286,6 +304,8 @@ Key structural properties of the ASCII table:
 | 48--57          | Digits '0'--'9'                             |
 | 65--90          | Uppercase 'A'--'Z'                          |
 | 97--122         | Lowercase 'a'--'z'                          |
+
+</div>
 
 **Conversion between uppercase and lowercase:** XOR with $32$ (bit 5). This works because the only
 Difference between uppercase and lowercase letters in ASCII is bit 5: uppercase has it clear (0),
@@ -296,6 +316,8 @@ Lowercase has it set (1).
 Unicode assigns a unique code point to every character. Code points are written as `U+XXXX` where
 `XXXX` is a hexadecimal value. The Unicode space is divided into planes:
 
+<div class="table-wrap">
+
 | Plane | Range              | Name                          |
 | ----- | ------------------ | ----------------------------- |
 | 0     | U+0000 -- U+FFFF   | Basic Multilingual Plane      |
@@ -303,9 +325,13 @@ Unicode assigns a unique code point to every character. Code points are written 
 | 2     | U+20000 -- U+2FFFF | Supplementary Ideographic     |
 | 14    | U+E0000 -- U+EFFFF | Supplementary Special-purpose |
 
+</div>
+
 ### UTF-8 Encoding Mechanism
 
 UTF-8 is a variable-width encoding that uses 1 to 4 bytes. The encoding rules are deterministic:
+
+<div class="table-wrap">
 
 | Code Point Range    | Binary Pattern                        | Bytes | Hex Range          |
 | ------------------- | ------------------------------------- | ----- | ------------------ |
@@ -313,6 +339,8 @@ UTF-8 is a variable-width encoding that uses 1 to 4 bytes. The encoding rules ar
 | U+0080 -- U+07FF    | `110xxxxx 10xxxxxx`                   | 2     | C0 -- DF, 80 -- BF |
 | U+0800 -- U+FFFF    | `1110xxxx 10xxxxxx 10xxxxxx`          | 3     | E0 -- EF, 80 -- BF |
 | U+10000 -- U+10FFFF | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` | 4     | F0 -- F7, 80 -- BF |
+
+</div>
 
 The leading bits of the first byte indicate the total number of bytes in the character. All
 Continuation bytes start with `10`.
@@ -366,6 +394,8 @@ UTF-8: `E4 B8 AD`
 
 ### Encoding Comparison
 
+<div class="table-wrap">
+
 | Feature            | ASCII       | UTF-8        | UTF-16        | UTF-32              |
 | ------------------ | ----------- | ------------ | ------------- | ------------------- |
 | Code unit size     | 7 bits      | 1--4 bytes   | 2 or 4 bytes  | 4 bytes             |
@@ -375,6 +405,8 @@ UTF-8: `E4 B8 AD`
 | Storage (CJK)      | N/A         | 3 bytes/char | 2 bytes/char  | 4 bytes/char        |
 | Self-synchronising | No          | Yes          | Partially     | Yes                 |
 | Most common use    | Legacy      | Web, Linux   | Windows, Java | Internal processing |
+
+</div>
 
 ---
 
@@ -400,11 +432,15 @@ section covers colour models and file format Internals.
 Additive colour model used for screens and digital displays. Each colour channel is 8 bits (0--255),
 giving 24-bit true colour.
 
+<div class="table-wrap">
+
 | Channel | Bits | Values          |
 | ------- | ---- | --------------- |
 | Red     | 8    | 0 (none) -- 255 |
 | Green   | 8    | 0 (none) -- 255 |
 | Blue    | 8    | 0 (none) -- 255 |
+
+</div>
 
 Black = (0, 0, 0). White = (255, 255, 255). Pure red = (255, 0, 0).
 
@@ -414,12 +450,16 @@ In hex notation: #RRGGBB. For example, #FF0000 is red, #00FF00 is green, #0000FF
 
 Subtractive colour model used in printing. Each component represents the amount of ink.
 
+<div class="table-wrap">
+
 | Channel | Description                      |
 | ------- | -------------------------------- |
 | C       | Cyan (0% = none, 100% = full)    |
 | M       | Magenta                          |
 | Y       | Yellow                           |
 | K       | Key (Black) -- reduces ink usage |
+
+</div>
 
 CMYK is necessary because printing inks are subtractive (absorb light), unlike screen pixels which
 are additive (emit light). Pure CMY black is imperfect (appears muddy), so a separate black ink
@@ -441,6 +481,8 @@ Where $R' = R / 255$ Etc.
 
 #### JPEG (Joint Photographic Experts Group)
 
+<div class="table-wrap">
+
 | Property         | Value                                    |
 | ---------------- | ---------------------------------------- |
 | Compression      | Lossy                                    |
@@ -449,6 +491,8 @@ Where $R' = R / 255$ Etc.
 | Transparency     | No (JPEG does not support alpha channel) |
 | Animation        | No                                       |
 | Best for         | Photographs, complex colour images       |
+
+</div>
 
 JPEG compression pipeline:
 
@@ -469,6 +513,8 @@ Quality = larger file. At quality 75, most artefacts are imperceptible.
 
 #### PNG (Portable Network Graphics)
 
+<div class="table-wrap">
+
 | Property         | Value                                         |
 | ---------------- | --------------------------------------------- |
 | Compression      | Lossless                                      |
@@ -477,6 +523,8 @@ Quality = larger file. At quality 75, most artefacts are imperceptible.
 | Transparency     | Yes (full alpha channel support)              |
 | Animation        | Limited (APNG extension)                      |
 | Best for         | Graphics with text, sharp edges, transparency |
+
+</div>
 
 PNG compression pipeline:
 
@@ -488,6 +536,8 @@ PNG compression pipeline:
 
 #### GIF (Graphics Interchange Format)
 
+<div class="table-wrap">
+
 | Property         | Value                                 |
 | ---------------- | ------------------------------------- |
 | Compression      | Lossless (LZW)                        |
@@ -497,11 +547,15 @@ PNG compression pipeline:
 | Animation        | Yes (multiple frames, timing control) |
 | Best for         | Simple graphics, logos, animations    |
 
+</div>
+
 GIF uses LZW (Lempel-Ziv-Welch) compression, a dictionary-based lossless algorithm. The colour
 Limitation (256 colours) makes GIF unsuitable for photographs but ideal for simple graphics and
 Animations.
 
 #### SVG (Scalable Vector Graphics)
+
+<div class="table-wrap">
 
 | Property      | Value                                    |
 | ------------- | ---------------------------------------- |
@@ -511,10 +565,14 @@ Animations.
 | Interactivity | Yes (supports CSS and JavaScript)        |
 | Best for      | Logos, icons, diagrams, charts           |
 
+</div>
+
 SVG describes images using XML elements: `<circle>`, `<rect>`, `<path>`, `<polygon>`. Etc. Each Element has
 attributes for position, size, colour, and style.
 
 #### BMP (Bitmap)
+
+<div class="table-wrap">
 
 | Property     | Value                  |
 | ------------ | ---------------------- |
@@ -523,10 +581,14 @@ attributes for position, size, colour, and style.
 | Transparency | Limited (32-bit alpha) |
 | Best for     | Raw image storage      |
 
+</div>
+
 BMP stores raw pixel data with a minimal header. Files are large but lossless and universally
 Supported.
 
 ### File Format Comparison
+
+<div class="table-wrap">
 
 | Feature      | JPEG   | PNG          | GIF        | BMP      | SVG         |
 | ------------ | ------ | ------------ | ---------- | -------- | ----------- |
@@ -537,6 +599,8 @@ Supported.
 | Animation    | No     | APNG         | Yes        | No       | SMIL/CSS/JS |
 | File size    | Small  | Medium       | Small      | Large    | Small--Med  |
 | Best for     | Photos | Graphics     | Animations | Raw data | Logos/diags |
+
+</div>
 
 ---
 
@@ -557,6 +621,8 @@ Covers audio file formats and compression.
 
 ### Audio File Formats
 
+<div class="table-wrap">
+
 | Format | Compression  | Bit depth  | Sampling rate | Channels | Typical use           |
 | ------ | ------------ | ---------- | ------------- | -------- | --------------------- |
 | WAV    | Uncompressed | 8/16/24/32 | Up to 192 kHz | 1--8     | Studio, archival      |
@@ -565,6 +631,8 @@ Covers audio file formats and compression.
 | FLAC   | Lossless     | 16/24      | Up to 655 kHz | 1--8     | Archival, audiophile  |
 | OGG    | Lossy        | N/A        | Up to 192 kHz | 1--255   | Open-source streaming |
 | MIDI   | N/A          | N/A        | N/A           | 16       | Music production      |
+
+</div>
 
 ### MP3 Compression (Perceptual Coding)
 
@@ -592,6 +660,8 @@ Key psychoacoustic principles exploited:
 
 **Bitrate and quality:**
 
+<div class="table-wrap">
+
 | Bitrate (kbps) | Quality     | Approx. Compression ratio vs CD |
 | -------------- | ----------- | ------------------------------- |
 | 320            | Transparent | ~4.4 : 1                        |
@@ -600,10 +670,14 @@ Key psychoacoustic principles exploited:
 | 128            | Acceptable  | ~11 : 1                         |
 | 64             | Low         | ~22 : 1                         |
 
+</div>
+
 ### MIDI (Musical Instrument Digital Interface)
 
 MIDI does not store actual audio. Instead, it stores **instructions** that describe how to produce
 Sound: which note to play, when to play it, how loud, for how long, and which instrument to use.
+
+<div class="table-wrap">
 
 | Aspect        | Audio (WAV/MP3)       | MIDI                       |
 | ------------- | --------------------- | -------------------------- |
@@ -612,6 +686,8 @@ Sound: which note to play, when to play it, how loud, for how long, and which in
 | Sound quality | Fixed at creation     | Depends on playback device |
 | Editability   | Limited               | Fully editable (notes)     |
 | Instrument    | Fixed                 | Changeable                 |
+
+</div>
 
 A MIDI file might contain instructions like: "Play middle C on piano at velocity 80 for 500
 Milliseconds." The actual sound depends entirely on the synthesiser or sound module that plays back
@@ -632,6 +708,8 @@ the MIDI data.
 
 ### Lossy vs Lossless -- Detailed Comparison
 
+<div class="table-wrap">
+
 | Aspect             | Lossless Compression                    | Lossy Compression                    |
 | ------------------ | --------------------------------------- | ------------------------------------ |
 | Data integrity     | Fully preserved                         | Some data permanently lost           |
@@ -640,6 +718,8 @@ the MIDI data.
 | Re-compressibility | Can be recompressed losslessly          | Further compression degrades quality |
 | Suitability        | Text, code, executables, medical images | Audio, video, photos                 |
 | Algorithms         | RLE, Huffman, LZW, DEFLATE, FLAC        | JPEG, MP3, AAC, H.264                |
+
+</div>
 
 A critical constraint: lossy compression is **never** acceptable for text, source code, or
 Executable files because even a single bit error changes meaning. Lossy compression is only
@@ -706,6 +786,8 @@ Given the message `BCCABBDDAECCBBAEDDCC` (19 characters).
 
 **Step 1: Count frequencies.**
 
+<div class="table-wrap">
+
 | Symbol | Count |
 | ------ | ----- |
 | A      | 4     |
@@ -714,6 +796,8 @@ Given the message `BCCABBDDAECCBBAEDDCC` (19 characters).
 | D      | 4     |
 | E      | 2     |
 | Total  | 21    |
+
+</div>
 
 Wait, let me recount. `B C C A B B D D A E C C B B A E D D C C`
 
@@ -861,6 +945,8 @@ Space savings: $(1 - 300/3072) \times 100\% \approx 90.2\%$
 
 ## File Formats -- Comprehensive Reference
 
+<div class="table-wrap">
+
 | Format | Type     | Compression | Description                                  | Typical Use Case              |
 | ------ | -------- | ----------- | -------------------------------------------- | ----------------------------- |
 | JPEG   | Image    | Lossy       | Lossy image compression using DCT            | Photographs                   |
@@ -884,6 +970,8 @@ Space savings: $(1 - 300/3072) \times 100\% \approx 90.2\%$
 | HTML   | Markup   | None        | HyperText Markup Language                    | Web pages                     |
 | CSS    | Markup   | None        | Cascading Style Sheets                       | Web styling                   |
 | JS     | Code     | None        | JavaScript source code                       | Web interactivity             |
+
+</div>
 
 ---
 
@@ -919,12 +1007,16 @@ Even.
 
 **Encoding with even parity:**
 
+<div class="table-wrap">
+
 | Data    | Number of 1s | Parity bit | Transmitted |
 | ------- | ------------ | ---------- | ----------- |
 | 1011001 | 4            | 0          | 10110010    |
 | 1011011 | 5            | 1          | 10110111    |
 | 0000000 | 0            | 0          | 00000000    |
 | 1111111 | 7            | 1          | 11111111    |
+
+</div>
 
 **Error detection:** If the received byte `10110010` is received as `10110110`. The number of 1s is 5
 (odd), which violates even parity. An error is detected.
@@ -1030,12 +1122,16 @@ $$
 2^r \ge m + r + 1
 $$
 
+<div class="table-wrap">
+
 | Data bits (m) | Parity bits (r) | Total bits (m + r) |
 | ------------- | --------------- | ------------------ |
 | 4             | 3               | 7                  |
 | 8             | 4               | 12                 |
 | 11            | 4               | 15                 |
 | 16            | 5               | 21                 |
+
+</div>
 
 Parity bits are placed at positions 1, 2, 4, 8, 16, ... (powers of 2). Each parity bit covers
 Specific data bit positions based on the binary representation of the position number.
@@ -1092,17 +1188,23 @@ Appended to the data.
 5. The receiver divides the received data (including CRC) by the same generator polynomial. If the
    remainder is zero, no errors are detected.
 
+<div class="table-wrap">
+
 | CRC Variant | Generator Polynomial           | Bit Length | Common Use         |
 | ----------- | ------------------------------ | ---------- | ------------------ |
 | CRC-8       | Various                        | 8          | Simple protocols   |
 | CRC-16      | $x^{16} + x^{15} + x^2 + 1$    | 16         | Modbus, USB        |
 | CRC-32      | $x^{32} + \ldots$ (IEEE 802.3) | 32         | Ethernet, ZIP, PNG |
 
+</div>
+
 CRC can detect all single-bit errors, all double-bit errors, any odd number of errors, and any burst
 Error of length $\le r$ bits (where `r` is the CRC bit length). CRC-32 can detect 99.997% of all
 Possible error patterns.
 
 ### Error Detection vs Correction Comparison
+
+<div class="table-wrap">
 
 | Method       | Detection Capability      | Correction | Overhead                   |
 | ------------ | ------------------------- | ---------- | -------------------------- |
@@ -1111,6 +1213,8 @@ Possible error patterns.
 | Checksum     | Limited (collision-prone) | None       | 8/16/32 bits               |
 | CRC          | Very high (burst errors)  | None       | 8/16/32 bits               |
 | Hamming code | 2-bit errors              | Single-bit | $r$ bits for $m$ data bits |
+
+</div>
 
 ---
 
@@ -1277,12 +1381,16 @@ Viewed at different zoom levels or printed at different sizes.
 (b) Given the following frequency table, construct a Huffman tree and determine the code for each
 Symbol:
 
+<div class="table-wrap">
+
 | Symbol | Frequency |
 | ------ | --------- |
 | X      | 7         |
 | Y      | 3         |
 | Z      | 5         |
 | W      | 1         |
+
+</div>
 
 (c) Calculate the average bits per symbol for the Huffman codes in (b).
 

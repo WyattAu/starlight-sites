@@ -29,6 +29,8 @@ Cross-architecture comparison table, and fence operations.
 
 The `std::memory_order` enum [N4950 §31.7.5] defines six values:
 
+<div class="table-wrap">
+
 | Value                  | Constant               | Ordering Guarantee                            |
 | ---------------------- | ---------------------- | --------------------------------------------- |
 | `memory_order_relaxed` | $\emptyset$            | No ordering                                   |
@@ -37,6 +39,8 @@ The `std::memory_order` enum [N4950 §31.7.5] defines six values:
 | `memory_order_release` | release                | No reads/writes before can be reordered after |
 | `memory_order_acq_rel` | acquire + release      | Both acquire and release                      |
 | `memory_order_seq_cst` | sequential consistency | Total order across all seq_cst operations     |
+
+</div>
 
 ### The Memory Model Hierarchy
 
@@ -350,6 +354,8 @@ Multi-core systems.
 
 ## Memory Ordering Comparison Table
 
+<div class="table-wrap">
+
 | Operation       | x86                  | ARMv8            | POWER8                    | Compiler Barrier Only |
 | --------------- | -------------------- | ---------------- | ------------------------- | --------------------- |
 | `relaxed` load  | `mov`                | `ldar`           | `ld`                      | No                    |
@@ -359,6 +365,8 @@ Multi-core systems.
 | `seq_cst` load  | `mov`                | `ldar`           | `ld + sync`               | No                    |
 | `seq_cst` store | `MFENCE` (or `XCHG`) | `stlr + dmb ish` | `lwsync + st + sync`      | No                    |
 | `acq_rel` RMW   | `LOCK XADD`          | `ldaxr+stlxr`    | `sync + ldar + st + sync` | No                    |
+
+</div>
 
 :::tip
 require `MFENCE`). On ARM and POWER, acquire and release require explicit barrier instructions, so

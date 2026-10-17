@@ -131,12 +131,16 @@ $\blacksquare$
 
 ### 4.5 Key Relationships
 
+<div class="table-wrap">
+
 | Concept              | Relation                                                              | Physical Meaning                                          |
 | -------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
 | Sommerfeld expansion | $I = \int_0^\mu f\,d\varepsilon + \frac{\pi^2}{6}(k_BT)^2 f''(\mu)$  | Low-temperature correction to $T=0$ integrals             |
 | Chemical potential   | $\mu(T) \approx \varepsilon_F\left[1 - \frac{\pi^2}{12}(T/T_F)^2\right]$ | $\mu$ decreases quadratically with $T$                    |
 | Electronic heat cap. | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$                            | Linear in $T$, suppressed by $T/T_F \ll 1$               |
 | Fermi temperature    | $T_F = \varepsilon_F/k_B$                                             | Temperature scale where quantum effects become important |
+
+</div>
 
 ### 4.6 Common Pitfalls
 
@@ -159,7 +163,7 @@ $\blacksquare$
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation contrasts with Fermi gas behaviour, showing how quantum statistics determine low-temperature properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ### 4.8 Worked Example: Sommerfeld Correction to the Electron Density
@@ -190,11 +194,15 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
 
 ### 4.9 Summary Table
 
+<div class="table-wrap">
+
 | Quantity              | $T = 0$                  | $T \ll T_F$ (Sommerfeld)                      |
 | --------------------- | ------------------------ | --------------------------------------------- |
 | Chemical potential    | $\mu = \varepsilon_F$    | $\mu \approx \varepsilon_F[1 - \frac{\pi^2}{12}(T/T_F)^2]$ |
 | Energy density        | $U_0 = \frac{3}{5}N\varepsilon_F$ | $U \approx U_0[1 + \frac{5\pi^2}{12}(T/T_F)^2]$ |
 | Heat capacity         | 0                        | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$     |
+
+</div>
 
 ---
 

@@ -31,6 +31,8 @@ Servers, storage hardware, and the hypervisor. The customer is responsible for e
 Hypervisor: the operating system, runtime, application, data, and network configuration (security
 Groups, NACLs).
 
+<div class="table-wrap">
+
 | Responsibility                             | Provider                            | Customer        |
 | ------------------------------------------ | ----------------------------------- | --------------- |
 | Physical security                          | Yes                                 | No              |
@@ -43,10 +45,14 @@ Groups, NACLs).
 | Identity and access management             | No (they run IAM; you configure it) | Yes             |
 | Client-side encryption                     | No                                  | Yes             |
 
+</div>
+
 ### PaaS (Platform as a Service)
 
 In PaaS (e.g., Lambda, App Engine, Azure Functions), the provider also manages the operating system
 and runtime. The customer is responsible only for the application code, data, and access controls.
+
+<div class="table-wrap">
 
 | Responsibility                    | Provider              | Customer |
 | --------------------------------- | --------------------- | -------- |
@@ -56,10 +62,14 @@ and runtime. The customer is responsible only for the application code, data, an
 | Data encryption                   | Partial               | Yes      |
 | IAM configuration                 | No (runs the service) | Yes      |
 
+</div>
+
 ### SaaS (Software as a Service)
 
 In SaaS (e.g., Office 365, Salesforce, Gmail), the provider manages nearly everything. The customer
 is responsible only for data and access.
+
+<div class="table-wrap">
 
 | Responsibility                                           | Provider | Customer |
 | -------------------------------------------------------- | -------- | -------- |
@@ -67,6 +77,8 @@ is responsible only for data and access.
 | Data classification and governance                       | No       | Yes      |
 | User access management                                   | Partial  | Yes      |
 | Compliance verification                                  | No       | Yes      |
+
+</div>
 
 ### The Key Principle
 
@@ -178,6 +190,8 @@ Secure bucket policy example:
 
 ### Security Groups vs NACLs
 
+<div class="table-wrap">
+
 | Property        | Security Groups                         | NACLs                                          |
 | --------------- | --------------------------------------- | ---------------------------------------------- |
 | Layer           | Instance-level                          | Subnet-level                                   |
@@ -185,6 +199,8 @@ Secure bucket policy example:
 | Allow/Deny      | Allow only (default deny)               | Both allow and deny                            |
 | Rule evaluation | All rules evaluated (first match wins)  | Rules evaluated in order (lowest number first) |
 | Applies to      | ENI (Elastic Network Interface)         | All instances in the subnet                    |
+
+</div>
 
 Security groups are the primary defense. NACLs provide an additional layer but should not be relied
 upon as the sole defense mechanism.
@@ -558,6 +574,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 
 ### Tools
 
+<div class="table-wrap">
+
 | Tool                        | Cloud(s)    | Notes                                                 |
 | --------------------------- | ----------- | ----------------------------------------------------- |
 | AWS Security Hub            | AWS         | Aggregates findings from GuardDuty, Config, Inspector |
@@ -567,6 +585,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 | Prisma Cloud (Palo Alto)    | Multi-cloud | CSPM + CWPP + CNAPP                                   |
 | Orca Security               | Multi-cloud | Agentless, side-scanning                              |
 | Lacework                    | Multi-cloud | Polygraph data platform                               |
+
+</div>
 
 ### CSPM Implementation Strategy
 

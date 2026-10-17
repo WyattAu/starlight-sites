@@ -48,6 +48,8 @@ with minimal surplus for sale, characterised by low inputs, low outputs, and lab
 Commercial agriculture is conducted primarily for sale and profit, using higher inputs of machinery,
 fertilisers, and irrigation, producing larger quantities for domestic and export markets.
 
+<div class="table-wrap">
+
 | Feature | Subsistence | Commercial |
 | --------- | ------------ | ------------ |
 | Purpose | Feed the farmer and family | Sale and profit |
@@ -56,6 +58,8 @@ fertilisers, and irrigation, producing larger quantities for domestic and export
 | Crop type | Staple crops (rice, millet, cassava) | Cash crops (wheat, soybeans, vegetables) |
 | Surplus | Little or none | Significant; sold domestically or exported |
 | Labour | Family labour | Hired wage labour |
+
+</div>
 
 Most farmers in Southeast Asia practice a mixture of subsistence and commercial farming. The Green
 Revolution (from the 1960s) promoted the adoption of high-yielding varieties (HYVs), chemical

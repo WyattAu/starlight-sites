@@ -283,6 +283,8 @@ and whether it satisfies society's most pressing needs.
 
 We compare three systems using PPF analysis:
 
+<div class="table-wrap">
+
 | Feature      | Free Market        | Command                   | Mixed    |
 | ------------ | ------------------ | ------------------------- | -------- |
 | Ownership    | Private            | State                     | Both     |
@@ -291,6 +293,8 @@ We compare three systems using PPF analysis:
 | Efficiency   | High (competitive) | Low (information problem) | Variable |
 | Equity       | Low                | High (in theory)          | Moderate |
 | PPF position | Near frontier      | Often inside frontier     | Between  |
+
+</div>
 
 **Free market economies** tend to operate near the PPF because price signals allocate resources
 Efficiently. However, they may not achieve allocative efficiency (due to market failure, see Topic
@@ -404,12 +408,16 @@ asks students to identify the positive and normative components within a single 
 
 We define the four factors of production:
 
+<div class="table-wrap">
+
 | Factor               | Definition                                                                   | Reward   |
 | -------------------- | ---------------------------------------------------------------------------- | -------- |
 | **Land**             | All natural resources (physical space, minerals, water, forests)             | Rent     |
 | **Labour**           | The physical and mental effort contributed by humans                         | Wages    |
 | **Capital**          | Manufactured goods used to produce other goods (machinery, tools, factories) | Interest |
 | **Entrepreneurship** | The organisation of the other three factors, bearing risk                    | Profit   |
+
+</div>
 
 **Key distinction**: Capital is _produced_ (it is itself an output of the production process),
 Whereas land and labour are not. Entrepreneurship is a form of human capital but is distinguished
@@ -634,12 +642,16 @@ This is an evaluative essay question typical of AQA and Edexcel A Level papers. 
 **Problem 13.** The table below shows the maximum output of two goods that Country A can produce
 With its available resources:
 
+<div class="table-wrap">
+
 | Product | Quantity (units) |
 | ------- | ---------------: |
 | Cars    |                0 |
 | Cars    |              100 |
 | Wheat   |              200 |
 | Wheat   |                0 |
+
+</div>
 
 (a) Plot the PPF and explain its shape. (b) Calculate the opportunity cost of producing 1 additional
 Car when 50 cars are being produced. (c) If a new technology doubles wheat productivity but has no
@@ -786,6 +798,8 @@ between current consumption and future growth.
 
 The production possibilities (millions of tonnes):
 
+<div class="table-wrap">
+
 | Wheat (million tonnes) | Barley (million tonnes) | Marginal opportunity cost of wheat |
 | :--------------------: | :---------------------: | :--------------------------------: |
 |           0            |           5.0           |                 --                 |
@@ -794,6 +808,8 @@ The production possibilities (millions of tonnes):
 |          3.0           |           3.6           |             0.8 barley             |
 |          4.0           |           2.4           |             1.2 barley             |
 |          5.0           |           0.0           |             2.4 barley             |
+
+</div>
 
 **Current production:** 2 million tonnes of wheat, 4.4 million tonnes of barley.
 
@@ -834,10 +850,14 @@ price ratio ($P_w/P_b$).
 
 **Example.** Two countries, UK and Portugal, produce cloth and wine. Output per worker per day:
 
+<div class="table-wrap">
+
 |          | Cloth (metres) | Wine (litres) |
 | -------- | :------------: | :-----------: |
 | UK       |       4        |       2       |
 | Portugal |       1        |       3       |
+
+</div>
 
 **Absolute advantage:**
 
@@ -846,10 +866,14 @@ price ratio ($P_w/P_b$).
 
 **Opportunity costs:**
 
+<div class="table-wrap">
+
 |          | Opportunity cost of 1m cloth | Opportunity cost of 1L wine |
 | -------- | ---------------------------- | --------------------------- |
 | UK       | 2/4 = 0.5L wine              | 4/2 = 2m cloth              |
 | Portugal | 3/1 = 3L wine                | 1/3 = 0.33m cloth           |
+
+</div>
 
 **Comparative advantage:**
 
@@ -883,11 +907,15 @@ Suppose the terms of trade are 1m cloth = 1L wine.
 
 **Comparison with autarky:**
 
+<div class="table-wrap">
+
 |         | UK Cloth | UK Wine | Portugal Cloth | Portugal Wine |
 | ------- | :------: | :-----: | :------------: | :-----------: |
 | Autarky |   200    |   100   |       50       |      150      |
 | Trade   |   250    |   150   |      150       |      150      |
 | Gain    |   +50    |   +50   |      +100      |       0       |
+
+</div>
 
 The UK gains 50m cloth and 50L wine. Portugal gains 100m cloth (but no wine). Both are better off in
 at least one good and no worse off in the other.
@@ -926,10 +954,14 @@ Consumption: $F = 450 - 150 = 300$, $C = 100 + 150 = 250$.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 |         | Food | Clothing | Utility (assume $U = F^{0.5}C^{0.5}$) |
 | ------- | :--: | :------: | :-----------------------------------: |
 | Autarky | 300  |   200    | $\sqrt{300 \times 200} = 244.9$ |
 | Trade   | 300  |   250    | $\sqrt{300 \times 250} = 273.9$ |
+
+</div>
 
 Utility has increased by 11.8% due to trade. The economy can now consume a bundle that was
 previously unattainable (outside the PPF).

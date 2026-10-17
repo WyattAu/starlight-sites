@@ -172,16 +172,22 @@ Output.
 
 Install VS Code, then add these extensions:
 
+<div class="table-wrap">
+
 | Extension        | ID                          | Purpose                                    |
 | ---------------- | --------------------------- | ------------------------------------------ |
 | Dart             | `dart-code.dart-code`       | Syntax, analysis, debugging, pub support   |
 | Flutter          | `dart-code.flutter`         | Widget editing, DevTools, emulator control |
 | Flutter Snippets | `alexisvt.flutter-snippets` | Boilerplate code generation                |
 
+</div>
+
 After installing, open a Dart/Flutter project folder. VS Code will prompt you to select the Flutter
 SDK location if it is not already in PATH.
 
 Key VS Code shortcuts for Dart:
+
+<div class="table-wrap">
 
 | Action           | Shortcut                               |
 | ---------------- | -------------------------------------- |
@@ -191,6 +197,8 @@ Key VS Code shortcuts for Dart:
 | Rename symbol    | `F2`                                   |
 | Quick fix        | `Ctrl+.` / `Cmd+.`                     |
 | Format document  | `Shift+Alt+F` / `Shift+Option+F`       |
+
+</div>
 
 ### Android Studio
 
@@ -316,6 +324,8 @@ SDK**
 
 Required components:
 
+<div class="table-wrap">
+
 | Component                                    | Purpose                            |
 | -------------------------------------------- | ---------------------------------- |
 | Android SDK Platform 34 (or latest)          | Target API level                   |
@@ -324,6 +334,8 @@ Required components:
 | Android SDK Command-line Tools               | `sdkmanager` CLI                   |
 | Android Emulator                             | `emulator` binary                  |
 | Intel x86 Emulator Accelerator (HAXM) or KVM | Hardware acceleration for emulator |
+
+</div>
 
 ### Verifying Android setup
 

@@ -93,6 +93,8 @@ stateDiagram-v2
     Aborted --> [*]
 ```
 
+<div class="table-wrap">
+
 | State               | Description                                                    |
 | ------------------- | -------------------------------------------------------------- |
 | Active              | Transaction is executing statements                            |
@@ -100,6 +102,8 @@ stateDiagram-v2
 | Committed           | WAL flushed; changes are permanent                             |
 | Failed              | An error occurred; changes must be undone                      |
 | Aborted             | Rollback completed; database restored to pre-transaction state |
+
+</div>
 
 ## Isolation Levels
 
@@ -119,12 +123,16 @@ Matching that condition and commits. When T1 re-executes the query, it sees a ne
 
 ### Isolation Level Comparison
 
+<div class="table-wrap">
+
 | Isolation Level  | Dirty Read | Non-Repeatable Read | Phantom Read | Lock-Based Implementation                     |
 | ---------------- | ---------- | ------------------- | ------------ | --------------------------------------------- |
 | READ UNCOMMITTED | Possible   | Possible            | Possible     | None                                          |
 | READ COMMITTED   | Prevented  | Possible            | Possible     | Row-level shared locks (duration of read)     |
 | REPEATABLE READ  | Prevented  | Prevented           | Possible\*   | Row-level locks held until end of transaction |
 | SERIALIZABLE     | Prevented  | Prevented           | Prevented    | Range locks or snapshot isolation             |
+
+</div>
 
 \*PostgreSQL's REPEATABLE READ actually prevents phantom reads through its snapshot-based
 Implementation, exceeding the SQL standard's requirement.
@@ -224,12 +232,16 @@ T2: COMMIT;  -- ERROR: could not serialize access due to concurrent update
 
 ### Choosing an Isolation Level
 
+<div class="table-wrap">
+
 | Scenario                                                 | Recommended Level |
 | -------------------------------------------------------- | ----------------- |
 | Standard OLTP (most applications)                        | READ COMMITTED    |
 | Financial transfers, inventory management                | REPEATABLE READ   |
 | Booking systems, scheduling, any business rule integrity | SERIALIZABLE      |
 | Approximate analytics, reporting                         | READ UNCOMMITTED  |
+
+</div>
 
 ## Locking
 
@@ -258,12 +270,16 @@ Different guarantees at different costs.
   a table
 - Used for hierarchical locking (table-level intention locks, row-level actual locks)
 
+<div class="table-wrap">
+
 | Lock Request             | IS           | IX           | S            | X            |
 | ------------------------ | ------------ | ------------ | ------------ | ------------ |
 | IS (Intention Shared)    | Compatible   | Compatible   | Compatible   | Incompatible |
 | IX (Intention Exclusive) | Compatible   | Compatible   | Incompatible | Incompatible |
 | S (Shared)               | Compatible   | Incompatible | Compatible   | Incompatible |
 | X (Exclusive)            | Incompatible | Incompatible | Incompatible | Incompatible |
+
+</div>
 
 ### Lock Granularity
 
@@ -586,6 +602,8 @@ COMMIT;
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect                       | Pessimistic                | Optimistic                           |
 | ---------------------------- | -------------------------- | ------------------------------------ |
 | Conflict handling            | Prevented by locks         | Detected on write, resolved by retry |
@@ -595,6 +613,8 @@ COMMIT;
 | Complexity                   | Simpler logic              | Must implement retry logic           |
 | Deadlocks                    | Possible                   | Not possible                         |
 | Best for                     | Write-heavy, hot rows      | Read-heavy, cold rows                |
+
+</div>
 
 ## Intuition
 
@@ -860,6 +880,8 @@ Use `SET LOCAL` within a transaction to scope the security context correctly.
 
 ### PostgreSQL vs MySQL (InnoDB)
 
+<div class="table-wrap">
+
 | Aspect              | PostgreSQL                                   | MySQL (InnoDB)                                      |
 | ------------------- | -------------------------------------------- | --------------------------------------------------- |
 | Default level       | READ COMMITTED                               | REPEATABLE READ                                     |
@@ -868,6 +890,8 @@ Use `SET LOCAL` within a transaction to scope the security context correctly.
 | Lock escalation     | No lock escalation (always row-level)        | May escalate to table-level for certain operations  |
 | Deadlock detection  | Automatic (wait-for graph cycle detection)   | Automatic (timeout-based: innodb_lock_wait_timeout) |
 | SERIALIZABLE        | SSI (Serializable Snapshot Isolation)        | Two-Phase Locking                                   |
+
+</div>
 
 ### Oracle vs PostgreSQL
 

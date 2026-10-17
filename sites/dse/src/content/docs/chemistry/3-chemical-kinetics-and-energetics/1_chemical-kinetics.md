@@ -59,6 +59,8 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 
 ### Methods
 
+<div class="table-wrap">
+
 | Method            | Measured Quantity               | Suitable Reactions                                        |
 | ----------------- | ------------------------------- | --------------------------------------------------------- |
 | Collection of gas | Volume of gas over time         | Reactions producing gas ($\mathrm{CO}_2$, $\mathrm{H}_2$) |
@@ -67,6 +69,8 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 | Colorimetry       | Absorbance over time            | Reactions involving colour change                         |
 | Conductivity      | Conductance over time           | Reactions producing/ consuming ions                       |
 | Clock reaction    | Time for observable change      | Initial rate determination                                |
+
+</div>
 
 ### Gas Collection Methods
 
@@ -132,12 +136,16 @@ A catalyst provides an alternative reaction pathway with a lower activation ener
 Rate without being consumed. It does not affect the position of equilibrium or the equilibrium
 Yield.
 
+<div class="table-wrap">
+
 | Factor        | Effect on Rate | Effect on $E_a$ | Effect on Equilibrium |
 | ------------- | -------------- | --------------- | --------------------- |
 | Concentration | Increases      | No change       | Position may shift    |
 | Temperature   | Increases      | No change       | Position may shift    |
 | Surface area  | Increases      | No change       | No effect             |
 | Catalyst      | Increases      | Decreases       | No effect on position |
+
+</div>
 
 ---
 
@@ -455,11 +463,15 @@ Respect to A.
 
 **Worked example 1:** For the reaction $\mathrm{A} + \mathrm{B} \to \mathrm{C}$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ (mol/dm$^3$) | $[\mathrm{B}]$ (mol/dm$^3$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | --------------------------- | --------------------------- | ------------------------------------- |
 | 1          | 0.10                        | 0.10                        | $2.0 \times 10^{-4}$                  |
 | 2          | 0.20                        | 0.10                        | $4.0 \times 10^{-4}$                  |
 | 3          | 0.10                        | 0.20                        | $8.0 \times 10^{-4}$                  |
+
+</div>
 
 Determine the rate equation and the rate constant.
 
@@ -488,11 +500,15 @@ Correct.
 
 **Worked example 2:** For the reaction $\mathrm{X} + 2\mathrm{Y} \to \mathrm{Z}$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{X}]$ (mol/dm$^3$) | $[\mathrm{Y}]$ (mol/dm$^3$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | --------------------------- | --------------------------- | ------------------------------------- |
 | 1          | 0.20                        | 0.10                        | $6.0 \times 10^{-3}$                  |
 | 2          | 0.40                        | 0.10                        | $1.2 \times 10^{-2}$                  |
 | 3          | 0.20                        | 0.20                        | $6.0 \times 10^{-3}$                  |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -511,6 +527,8 @@ $k = \dfrac{6.0 \times 10^{-3}}{0.20} = 0.030 \mathrm{ s}^{-1}$
 
 The units of $k$ depend on the overall order of reaction.
 
+<div class="table-wrap">
+
 | Overall Order | Rate Equation                        | Units of $k$               |
 | ------------- | ------------------------------------ | -------------------------- |
 | 0             | Rate = $k$                           | mol dm$^{-3}$ s$^{-1}$     |
@@ -518,6 +536,8 @@ The units of $k$ depend on the overall order of reaction.
 | 2             | Rate = $k[\mathrm{A}]^2$             | dm$^3$ mol$^{-1}$ s$^{-1}$ |
 | 3             | Rate = $k[\mathrm{A}]^3$             | dm$^6$ mol$^{-2}$ s$^{-1}$ |
 | 1 + 2 = 3     | Rate = $k[\mathrm{A}][\mathrm{B}]^2$ | dm$^6$ mol$^{-2}$ s$^{-1}$ |
+
+</div>
 
 ---
 
@@ -673,11 +693,15 @@ to each reactant can be determined.
 
 ### Example Data Analysis
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{S}_2\mathrm{O}_8^{2-}]$ (mol/dm$^3$) | $[\mathrm{I}^-]$ (mol/dm$^3$) | Time (s) |
 | ---------- | ---------------------------------------------- | ----------------------------- | -------- |
 | 1          | 0.040                                          | 0.040                         | 48       |
 | 2          | 0.080                                          | 0.040                         | 24       |
 | 3          | 0.040                                          | 0.080                         | 24       |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -754,11 +778,15 @@ For the reaction
 $2\mathrm{NO}_{(g)} + 2\mathrm{H}_{2(g)} \to \mathrm{N}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$ The
 Following data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{NO}]$ (mol/dm$^3$) | $[\mathrm{H}_2]$ (mol/dm$^3$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | ---------------------------- | ----------------------------- | ------------------------------------- |
 | 1          | 0.010                        | 0.010                         | $1.2 \times 10^{-5}$                  |
 | 2          | 0.020                        | 0.010                         | $4.8 \times 10^{-5}$                  |
 | 3          | 0.010                        | 0.020                         | $2.4 \times 10^{-5}$                  |
+
+</div>
 
 Determine the rate equation, the rate constant, and the overall order.
 
@@ -809,11 +837,15 @@ $$
 
 In an iodine clock experiment, the following data were collected:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{S}_2\mathrm{O}_8^{2-}]$ (mol/dm$^3$) | $[\mathrm{I}^-]$ (mol/dm$^3$) | Time (s) |
 | ---------- | ---------------------------------------------- | ----------------------------- | -------- |
 | 1          | 0.020                                          | 0.020                         | 60       |
 | 2          | 0.040                                          | 0.020                         | 30       |
 | 3          | 0.020                                          | 0.040                         | 15       |
+
+</div>
 
 Determine the order with respect to each reactant and the overall order.
 
@@ -968,6 +1000,8 @@ A chemical that reacts with a catalyst or reactant.
 
 ### Choosing the Right Method
 
+<div class="table-wrap">
+
 | Scenario                    | Best Method                         |
 | --------------------------- | ----------------------------------- |
 | Gas-producing reaction      | Gas syringe or mass loss            |
@@ -976,6 +1010,8 @@ A chemical that reacts with a catalyst or reactant.
 | Acid-base reaction          | Titration of aliquots               |
 | Slow reaction               | Titration of aliquots               |
 | Fast reaction               | Continuous monitoring (colorimetry) |
+
+</div>
 
 ---
 
@@ -1024,11 +1060,15 @@ The half-life depends on the initial concentration. It increases as concentratio
 
 ### Using Half-Life to Determine Order
 
+<div class="table-wrap">
+
 | Order  | Effect of doubling initial concentration on $t_{1/2}$ |
 | ------ | ----------------------------------------------------- |
 | Zero   | Doubles                                               |
 | First  | No change                                             |
 | Second | Halves                                                |
+
+</div>
 
 **Worked example 8:** In a first-order decomposition, the concentration falls from 0.800 mol/dm$^3$
 To 0.200 mol/dm$^3$ in 120 s. Calculate the half-life and the rate constant.
@@ -1086,13 +1126,19 @@ $$
 
 ### Summary
 
+<div class="table-wrap">
+
 | Order  | Linear Plot              | Gradient |
 | ------ | ------------------------ | -------- |
 | Zero   | $[\mathrm{A}]$ vs $t$    | $-k$     |
 | First  | $\ln[\mathrm{A}]$ vs $t$ | $-k$     |
 | Second | $1/[\mathrm{A}]$ vs $t$  | $+k$     |
 
+</div>
+
 **Worked example 9:** The following data were collected for the decomposition of a substance X:
+
+<div class="table-wrap">
 
 | Time (s) | $[\mathrm{X}]$ (mol/dm$^3$) | $\ln[\mathrm{X}]$ | $1/[\mathrm{X}]$ |
 | -------- | --------------------------- | ----------------- | ---------------- |
@@ -1101,6 +1147,8 @@ $$
 | 60       | 0.0500                      | $-2.996$          | 20.0             |
 | 90       | 0.0354                      | $-3.340$          | 28.3             |
 | 120      | 0.0250                      | $-3.689$          | 40.0             |
+
+</div>
 
 Determine the order of reaction.
 
@@ -1172,6 +1220,8 @@ Powdering the solid increases surface area, further increasing the rate.
 
 ## Summary of Key Equations
 
+<div class="table-wrap">
+
 | Equation                                        | Use                              |
 | ----------------------------------------------- | -------------------------------- |
 | $\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$ | Rate equation                    |
@@ -1180,6 +1230,8 @@ Powdering the solid increases surface area, further increasing the rate.
 | $t_{1/2} = 0.693/k$                             | First-order half-life            |
 | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$      | First-order integrated rate law  |
 | $\mathrm{Rate} \propto 1/t$                     | Clock reaction initial rate      |
+
+</div>
 
 ## Worked Examples
 

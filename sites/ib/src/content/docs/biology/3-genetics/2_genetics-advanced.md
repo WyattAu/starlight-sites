@@ -37,6 +37,8 @@ Y-shaped Region where the two parental strands are separated.
 
 ### Key Enzymes and Proteins
 
+<div class="table-wrap">
+
 | Enzyme / Protein                                                     | Function                                                                                                                                                                                                                |
 | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Helicase**                                                         | Unwinds and separates the double helix at the origin of replication. Requires ATP hydrolysis.                                                                                                                           |
@@ -47,6 +49,8 @@ Y-shaped Region where the two parental strands are separated.
 | **DNA polymerase I**                                                 | (Prokaryotes) Removes RNA primers ($5' \to 3'$ exonuclease activity) and replaces them with DNA.                                                                                                                        |
 | **DNA ligase**                                                       | Forms phosphodiester bonds between Okazaki fragments on the lagging strand (and between primer replacements).                                                                                                           |
 | **Sliding clamp (PCNA in eukaryotes, $\beta$-clamp in prokaryotes)** | Ring-shaped protein that encircles DNA, tethering DNA polymerase to the template for processive synthesis.                                                                                                              |
+
+</div>
 
 ### Leading and Lagging Strands
 
@@ -82,6 +86,8 @@ resynthesised. MMR further reduces the error rate to approximately $10^{-9}$.
 
 ### Eukaryotic vs Prokaryotic Replication
 
+<div class="table-wrap">
+
 | Feature                     | Prokaryotes                       | Eukaryotes                                                                                    |
 | --------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------- |
 | **DNA polymerases**         | Pol I, Pol III (main replicative) | Pol $\alpha$ (primase + short extension), Pol $\delta$ (lagging), Pol $\varepsilon$ (leading) |
@@ -90,6 +96,8 @@ resynthesised. MMR further reduces the error rate to approximately $10^{-9}$.
 | **Replication rate**        | $\approx 1000\;\mathrm{nt/s}$     | $\approx 50\;\mathrm{nt/s}$ (but many forks simultaneously)                                   |
 | **Telomeres**               | Circular chromosomes (no ends)    | Linear chromosomes; telomeres protect ends                                                    |
 | **Telomerase**              | Not needed                        | Extends $3'$ ends of chromosomes; reverse transcriptase + RNA template                        |
+
+</div>
 
 ### The End Replication Problem
 
@@ -131,11 +139,15 @@ Cells, stem cells, and most cancer cells but is inactive in most somatic cells.
 Eukaryotic transcription is more complex, involving three RNA polymerases and multiple transcription
 Factors:
 
+<div class="table-wrap">
+
 | RNA polymerase | Product                         |
 | -------------- | ------------------------------- |
 | **Pol I**      | rRNA (28S, 18S, 5.8S)           |
 | **Pol II**     | mRNA, snRNA, microRNA           |
 | **Pol III**    | tRNA, 5S rRNA, other small RNAs |
+
+</div>
 
 **Pol II transcription initiation:**
 
@@ -210,6 +222,8 @@ Amino acid and recognises the corresponding codon on mRNA.
 The $5'$ base of the anticodon (which pairs with the $3'$ base of the codon) has relaxed
 base-pairing Rules ("wobble"):
 
+<div class="table-wrap">
+
 | Anticodon $5'$ base | Codon $3'$ bases recognised |
 | ------------------- | --------------------------- |
 | C                   | G                           |
@@ -218,6 +232,8 @@ base-pairing Rules ("wobble"):
 | G                   | C or U                      |
 | I (inosine)         | U, C, or A                  |
 
+</div>
+
 Wobble explains why the $61$ sense codons are read by fewer than $61$ tRNAs (humans have
 Approximately $45$ tRNA species).
 
@@ -225,10 +241,14 @@ Approximately $45$ tRNA species).
 
 Ribosomes consist of a **large subunit** and a **small subunit**, composed of rRNA and proteins.
 
+<div class="table-wrap">
+
 | Component     | Prokaryotes ($70\mathrm{S}$)              | Eukaryotes ($80\mathrm{S}$)                      |
 | ------------- | ----------------------------------------- | ------------------------------------------------ |
 | Small subunit | $30\mathrm{S}$ (16S rRNA + proteins)      | $40\mathrm{S}$ (18S rRNA + proteins)             |
 | Large subunit | $50\mathrm{S}$ (23S + 5S rRNA + proteins) | $60\mathrm{S}$ (28S + 5.8S + 5S rRNA + proteins) |
+
+</div>
 
 **Three tRNA binding sites:**
 
@@ -313,12 +333,16 @@ The **lac operon** in _E. Coli_ is subject to dual regulation:
 
 **Summary table:**
 
+<div class="table-wrap">
+
 | Glucose | Lactose | cAMP | CAP      | Repressor | lac operon       |
 | ------- | ------- | ---- | -------- | --------- | ---------------- |
 | High    | Absent  | Low  | Inactive | Bound     | OFF              |
 | High    | Present | Low  | Inactive | Unbound   | Very low (basal) |
 | Low     | Absent  | High | Active   | Bound     | OFF              |
 | Low     | Present | High | Active   | Unbound   | ON (maximal)     |
+
+</div>
 
 ### The Trp Operon (Repressible Operon)
 
@@ -386,12 +410,16 @@ Sequence.
 Bacterial enzymes that recognise specific **palindromic DNA sequences** ( $4$--$8\;\mathrm{bp}$) And
 cut both strands at specific positions within or near the recognition site.
 
+<div class="table-wrap">
+
 | Enzyme  | Recognition sequence    | Cut type                  |
 | ------- | ----------------------- | ------------------------- |
 | EcoRI   | $5'$-G$\vert$AATTC-$3'$ | Sticky ends (5' overhang) |
 | BamHI   | $5'$-G$\vert$GATCC-$3'$ | Sticky ends (5' overhang) |
 | HindIII | $5'$-A$\vert$AGCTT-$3'$ | Sticky ends (5' overhang) |
 | SmaI    | $5'$-CCC$\vert$GGG-$3'$ | Blunt ends                |
+
+</div>
 
 **Sticky ends** (cohesive ends): single-stranded overhangs that can base-pair with complementary
 Sticky ends from another DNA fragment cut with the same enzyme. This facilitates the formation of
@@ -475,6 +503,8 @@ $$
 
 ### Pedigree Analysis
 
+<div class="table-wrap">
+
 | Feature                                     | Autosomal dominant                | Autosomal recessive               | X-linked recessive                                  |
 | ------------------------------------------- | --------------------------------- | --------------------------------- | --------------------------------------------------- |
 | **Affected individuals per generation**     | every generation                  | May skip generations              | Mostly males; skips generations via carrier females |
@@ -482,6 +512,8 @@ $$
 | **Male-to-male transmission**               | Yes                               | Yes                               | No                                                  |
 | **Carrier females**                         | No                                | Yes                               | Yes                                                 |
 | **Ratio in carrier $\times$ normal mating** | $1:1$ affected:normal             | $1:2:1$ (affected:carrier:normal) | $1:1$ (affected male:normal female)                 |
+
+</div>
 
 ---
 
@@ -605,6 +637,8 @@ $v$ = vestigial) are linked on chromosome 2. A test cross between a double heter
 ($b^+ b\; v^+ v / b\; b\; v\; v$) and a double recessive ($b\; b\; v\; v / b\; b\; v\; v$) produces
 the following offspring:
 
+<div class="table-wrap">
+
 | Phenotype        | Number   |
 | ---------------- | -------- |
 | Grey, normal     | 430      |
@@ -612,6 +646,8 @@ the following offspring:
 | Grey, vestigial  | 65       |
 | Black, normal    | 60       |
 | **Total**        | **1000** |
+
+</div>
 
 (a) Calculate the recombination frequency. (b) Perform a chi-squared test to determine whether The
 data deviate from the expected ratio for linked genes at $p = 0.05$ (critical value $= 3.84$ For $1$
@@ -1067,6 +1103,8 @@ BamHI alone: $1500$ and $3500$. Double digest: $500, 1000, 1500, 2000$. All corr
 A Sanger sequencing reaction using the ddNTP chain termination method produces the following gel
 Electrophoresis results (read from bottom to top, smallest to largest fragment):
 
+<div class="table-wrap">
+
 | Fragment size (from bottom) | Lane A | Lane T | Lane C | Lane G |
 | --------------------------- | ------ | ------ | ------ | ------ |
 | 1 (shortest)                |        |        | band   |        |
@@ -1079,6 +1117,8 @@ Electrophoresis results (read from bottom to top, smallest to largest fragment):
 | 8                           |        |        |        | band   |
 | 9                           |        |        | band   |        |
 | 10                          | band   |        |        |        |
+
+</div>
 
 Determine the sequence of the template strand ($5' \to 3'$) and the complementary strand.
 
@@ -1351,6 +1391,8 @@ bilaterian Animals.
 The following table shows the codon usage frequency (per 1000 codons) for leucine in a bacterial
 genome And the corresponding tRNA gene copy number:
 
+<div class="table-wrap">
+
 | Codon | Usage (per 1000) | tRNA gene copies |
 | ----- | ---------------- | ---------------- |
 | UUA   | 12               | 1                |
@@ -1359,6 +1401,8 @@ genome And the corresponding tRNA gene copy number:
 | CUC   | 10               | 1                |
 | CUA   | 7                | 1                |
 | CUG   | 52               | 5                |
+
+</div>
 
 (a) Explain the correlation between codon usage and tRNA gene copy number. (b) A synthetic gene for
 Human insulin is to be expressed in this bacterium. The human insulin gene uses the following
@@ -1617,10 +1661,14 @@ which has multiple Isoforms with different adhesive properties.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                              |
 | ------------------- | ------- | --------------------------------------------------------------------------------- |
 | [Advanced Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-advanced) |
 | [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced/)     |
+
+</div>
 
 ## Supplementary: Genetic Engineering Applications (HL Extension)
 
@@ -1691,6 +1739,8 @@ patient's cells.
 
 Pharmacogenomics studies how genetic variation affects drug response. Examples:
 
+<div class="table-wrap">
+
 | Gene         | Variant                         | Drug affected                    | Effect                                                        |
 | ------------ | ------------------------------- | -------------------------------- | ------------------------------------------------------------- |
 | CYP2C19      | Poor metaboliser (*2,*3)       | Clopidogrel (antiplatelet)       | Reduced activation of prodrug; higher cardiovascular events   |
@@ -1698,6 +1748,8 @@ Pharmacogenomics studies how genetic variation affects drug response. Examples:
 | VKORC1       | -1639 G>A                       | Warfarin (anticoagulant)         | Reduced VKORC1 expression; lower warfarin dose needed         |
 | HLA-B\*57:01 | Present                         | Abacavir (HIV drug)              | High risk of severe hypersensitivity reaction                 |
 | TPMT         | Low activity variants           | Azathioprine (immunosuppressant) | Reduced drug inactivation; higher toxicity risk               |
+
+</div>
 
 ### DNA Fingerprinting in Forensics
 
@@ -1734,11 +1786,15 @@ DNA fingerprinting (DNA profiling) analyses short tandem repeats (STRs) at multi
 
 A forensic sample is analysed at 3 STR loci with the following results:
 
+<div class="table-wrap">
+
 | Locus   | Evidence genotype | Suspect genotype | Population allele frequencies  |
 | ------- | ----------------- | ---------------- | ------------------------------ |
 | D3S1358 | 15, 17            | 15, 17           | $p_{15} = 0.25$$p_{17} = 0.20$ |
 | vWA     | 14, 16            | 14, 16           | $p_{14} = 0.22$$p_{16} = 0.15$ |
 | FGA     | 22, 24            | 22, 24           | $p_{22} = 0.18$$p_{24} = 0.10$ |
+
+</div>
 
 (a) Calculate the match probability at each locus assuming Hardy-Weinberg equilibrium. (b) Calculate
 the combined match probability. (c) If the suspect's brother is also a potential Source of the DNA,

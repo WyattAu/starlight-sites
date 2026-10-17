@@ -342,6 +342,8 @@ int main() {
 
 ### Evolution of `constexpr`
 
+<div class="table-wrap">
+
 | Standard | Restrictions                                                                                           | Example                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | C++11    | Body must be a single `return` statement (with conditionals, loops allowed in the returned expression) | `constexpr int f(int x) { return x * x; }`                             |
@@ -349,6 +351,8 @@ int main() {
 | C++17    | `if constexpr`Inline variables, lambdas in constexpr contexts                                          | `constexpr auto f = [](int x) { return x * x; };`                      |
 | C++20    | Dynamic allocation (`new`/`delete` in constexpr), `std::vector``std::string``union``try`/`catch`       | `constexpr std::vector<int> v{1, 2, 3};`                               |
 | C++23    | `if constexpr` in more contexts, relaxed constexpr evaluation rules                                    | More non-trivial constexpr functions                                   |
+
+</div>
 
 ## `consteval` --- Immediate Functions (C++20)
 
@@ -468,11 +472,15 @@ Updated max connections: 200
 
 The difference between `const`, `constexpr` and `constinit`:
 
+<div class="table-wrap">
+
 | Specifier   | Compile-Time Init     | Runtime Modifiable | Implies `const` |
 | ----------- | --------------------- | ------------------ | --------------- |
 | `const`     | Required (for static) | No                 | Yes             |
 | `constexpr` | Required              | No                 | Yes             |
 | `constinit` | Required              | Yes                | No              |
+
+</div>
 
 ## Compile-Time Data Structures (C++20)
 

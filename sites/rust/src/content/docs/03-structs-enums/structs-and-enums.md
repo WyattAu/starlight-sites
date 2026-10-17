@@ -658,6 +658,8 @@ struct User {
 }
 ```
 
+<div class="table-wrap">
+
 | Trait        | What it generates                                              |
 | ------------ | -------------------------------------------------------------- |
 | `Debug`      | `fmt::Debug` for `{:?}` formatting                             |
@@ -669,6 +671,8 @@ struct User {
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
+
+</div>
 :::
 ## See also
 

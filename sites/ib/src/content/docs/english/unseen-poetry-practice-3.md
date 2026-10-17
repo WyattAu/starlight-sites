@@ -36,6 +36,8 @@ The poem addresses the violence of the Mau Mau Uprising, in which the Kikuyu peo
 
 ### 1.1 Key Contextual Information
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Poet | Derek Walcott (1930--2017) |
@@ -44,6 +46,8 @@ The poem addresses the violence of the Mau Mau Uprising, in which the Kikuyu peo
 | Length | Four stanzas of eight lines each |
 | Subject | The Mau Mau Uprising in Kenya |
 | Context | British colonialism, postcolonial identity |
+
+</div>
 
 ### 1.2 IB Relevance
 
@@ -224,12 +228,16 @@ The poem resists simple interpretation. It does not take a clear political posit
 
 ### 6.1 Assessment Objectives
 
+<div class="table-wrap">
+
 | Objective | How This Response Addresses It |
 | ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates comprehension of the poem's historical context, its speaker's divided identity, and its formal strategies |
 | AO2: Analysis | Explains how imagery, irony, and form produce meaning and emotional effect |
 | AO3: Evaluation | Assesses the significance of the poem's unresolved ending and its refusal to moralise |
 | AO4: Communication | Presents a coherent, well-organised argument with integrated quotations and precise terminology |
+
+</div>
 
 ### 6.2 Paper 1 Marking Criteria Alignment
 

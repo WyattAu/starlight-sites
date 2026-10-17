@@ -29,6 +29,8 @@ by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientat
 
 ### 10.3 Common Conformal Mappings
 
+<div class="table-wrap">
+
 | Mapping                          | Effect                               |
 | -------------------------------- | ------------------------------------ |
 | $w = az + b$ ($a \neq 0$)        | Translation, rotation, scaling       |
@@ -36,6 +38,8 @@ by a scaling by $r$. The Jacobian determinant is $|f'(z_0)|^2 \gt 0$ So orientat
 | $w = z^2$                        | Squaring (doubles angles)            |
 | $w = e^z$                        | Exponential (maps strips to sectors) |
 | $w = \frac{z - a}{1 - \bar{a}z}$ | Möbius (maps disk to disk)           |
+
+</div>
 
 ### 10.4 Möbius Transformations
 
@@ -164,6 +168,8 @@ to the boundary (no penetration condition). $\blacksquare$
 
 ### 10.10 Summary of Key Properties
 
+<div class="table-wrap">
+
 | Property | Statement |
 | -------- | --------- |
 | Angle preservation | Conformal maps preserve angles between intersecting curves |
@@ -172,6 +178,8 @@ to the boundary (no penetration condition). $\blacksquare$
 | Cross-ratio invariance | $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$ for any Möbius $T$ |
 | Riemann mapping | Any directly connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
 | Laplace correspondence | Solutions to $\nabla^2 u = 0$ are preserved under conformal maps |
+
+</div>
 
 ### 10.9 Common Mistakes
 

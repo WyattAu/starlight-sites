@@ -221,6 +221,8 @@ end
 
 ### spawn vs spawn_link vs spawn_monitor
 
+<div class="table-wrap">
+
 | Feature            | `spawn`         | `spawn_link`          | `spawn_monitor`          |
 | ------------------ | --------------- | --------------------- | ------------------------ |
 | Bidirectional link | No              | Yes                   | No                       |
@@ -228,6 +230,8 @@ end
 | Exit propagation   | None            | Yes (both directions) | No (message only)        |
 | Process isolation  | Yes             | No                    | Yes                      |
 | Use case           | Fire-and-forget | Paired processes      | Observe without coupling |
+
+</div>
 
 ## GenServer
 
@@ -306,6 +310,8 @@ end
 
 ### GenServer Callbacks
 
+<div class="table-wrap">
+
 | Callback        | Signature                                          | Purpose                      |
 | --------------- | -------------------------------------------------- | ---------------------------- |
 | `init/1`        | `(args) -> {:ok, state} or {:stop, reason}`        | Initialize server state      |
@@ -314,6 +320,8 @@ end
 | `handle_info/2` | `(msg, state) -> {:noreply, state}`                | Handle unexpected messages   |
 | `terminate/2`   | `(reason, state) -> :ok`                           | Cleanup on shutdown          |
 | `code_change/3` | `(old_vsn, state, extra) -> {:ok, new_state}`      | Hot code upgrade             |
+
+</div>
 
 ### call vs cast
 
@@ -428,6 +436,8 @@ Each child process has a specification that defines how it should be started and
 
 Child spec fields:
 
+<div class="table-wrap">
+
 | Field      | Values                                   | Default      | Description                     |
 | ---------- | ---------------------------------------- | ------------ | ------------------------------- |
 | `id`       | any                                      | Module name  | Unique identifier for the child |
@@ -437,13 +447,19 @@ Child spec fields:
 | `type`     | `:worker`, `:supervisor`                 | `:worker`    | Whether child is a supervisor   |
 | `modules`  | `[module]`, `:dynamic`                   | From start   | Modules for hot upgrades        |
 
+</div>
+
 ### Restart Strategies
+
+<div class="table-wrap">
 
 | Strategy        | Description                                                 | Use Case                  |
 | --------------- | ----------------------------------------------------------- | ------------------------- |
 | `:one_for_one`  | Restart only the crashed child                              | Independent workers       |
 | `:one_for_all`  | Restart ALL children when one crashes                       | Tightly coupled processes |
 | `:rest_for_one` | Restart the crashed child and all children started after it | Sequential dependencies   |
+
+</div>
 
 ```elixir
 # :one_for_one - each child is independent
@@ -464,6 +480,8 @@ Supervisor.start_link(children, strategy: :rest_for_one)
 
 ### Strategy Comparison
 
+<div class="table-wrap">
+
 | Scenario                     | Recommended Strategy | Reason                         |
 | ---------------------------- | -------------------- | ------------------------------ |
 | Web server workers           | `:one_for_one`       | Workers are independent        |
@@ -471,6 +489,8 @@ Supervisor.start_link(children, strategy: :rest_for_one)
 | Cache + CacheWarmer          | `:rest_for_one`      | CacheWarmer depends on Cache   |
 | Socket manager + handlers    | `:rest_for_one`      | Handlers depend on manager     |
 | All services tightly coupled | `:one_for_all`       | Cannot function partially      |
+
+</div>
 
 ### Nested Supervisors
 

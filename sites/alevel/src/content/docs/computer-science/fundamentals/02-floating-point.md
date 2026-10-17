@@ -37,11 +37,15 @@ An IEEE 754 single-precision number uses 32 bits partitioned as follows:
 | Sign S | Exponent E |    Mantissa/Fraction M |
 ```
 
+<div class="table-wrap">
+
 | Field          | Bits | Purpose                                                |
 | -------------- | ---- | ------------------------------------------------------ |
 | Sign ($S$)     | 1    | 0 = positive, 1 = negative                             |
 | Exponent ($E$) | 8    | Biased exponent: stored as $E = e + 127$               |
 | Mantissa ($M$) | 23   | Fractional part of the significand; implicit leading 1 |
+
+</div>
 
 ### Decoding the Value
 
@@ -84,12 +88,16 @@ Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of prec
 
 ### Special Values
 
+<div class="table-wrap">
+
 | Exponent $E$ | Mantissa $M$ | Meaning               |
 | ------------ | ------------ | --------------------- |
 | 0            | 0            | $\pm 0$ (signed zero) |
 | 0            | $\neq 0$     | Denormalised number   |
 | 255          | 0            | $\pm \infty$          |
 | 255          | $\neq 0$     | NaN (Not a Number)    |
+
+</div>
 
 ### Denormalised Numbers
 
@@ -271,6 +279,8 @@ Result: `1 1011 101`
 
 ## 6. Fixed-Point vs Floating-Point Comparison
 
+<div class="table-wrap">
+
 | Property        | Fixed-Point                 | Floating-Point                          |
 | --------------- | --------------------------- | --------------------------------------- |
 | Range           | Limited by bit allocation   | Very large ($\sim 10^{\pm38}$)          |
@@ -280,6 +290,8 @@ Result: `1 1011 101`
 | Representation  | Simple to understand        | Complex (normalisation, special values) |
 | Rounding errors | Predictable                 | Less predictable near boundaries        |
 | Use case        | Financial, embedded systems | Scientific computing, graphics          |
+
+</div>
 
 <hr />
 
@@ -509,11 +521,15 @@ $\frac{3.33 \times 10^{-7}}{1/3} = 3.33 \times 10^{-7} \times 3 = 10^{-6} = 0.00
 | Sign S | Exponent E |    Mantissa M        |
 ```
 
+<div class="table-wrap">
+
 | Field          | Bits | Purpose                             |
 | -------------- | ---- | ----------------------------------- |
 | Sign ($S$)     | 1    | 0 = positive, 1 = negative          |
 | Exponent ($E$) | 11   | Biased exponent: $E = e + 1023$     |
 | Mantissa ($M$) | 52   | Fractional part; implicit leading 1 |
+
+</div>
 
 ### Decoding
 
@@ -529,6 +545,8 @@ $$
 
 ### Comparison: Single vs Double
 
+<div class="table-wrap">
+
 | Property        | Single (32-bit)                       | Double (64-bit)                        |
 | --------------- | ------------------------------------- | -------------------------------------- |
 | Sign            | 1 bit                                 | 1 bit                                  |
@@ -538,6 +556,8 @@ $$
 | Max value       | ~$3.4 \times 10^{38}$                 | ~$1.8 \times 10^{308}$                 |
 | Min normal      | ~$1.2 \times 10^{-38}$                | ~$2.2 \times 10^{-308}$                |
 | Machine epsilon | $2^{-23} \approx 1.19 \times 10^{-7}$ | $2^{-52} \approx 2.22 \times 10^{-16}$ |
+
+</div>
 
 <hr />
 
@@ -565,6 +585,8 @@ Represents overflow or division by zero:
 
 Arithmetic rules:
 
+<div class="table-wrap">
+
 | Operation               | Result    |
 | ----------------------- | --------- |
 | $x / 0$ (for $x \gt 0$) | $+\infty$ |
@@ -574,6 +596,8 @@ Arithmetic rules:
 | $\infty \times \infty$  | $+\infty$ |
 | $0 \times \infty$       | NaN       |
 | $\infty / \infty$       | NaN       |
+
+</div>
 
 ### NaN (Not a Number)
 
@@ -585,12 +609,16 @@ Represents undefined or indeterminate results:
 
 NaN is produced by:
 
+<div class="table-wrap">
+
 | Operation         | Result |
 | ----------------- | ------ |
 | $0 / 0$           | NaN    |
 | $\infty - \infty$ | NaN    |
 | $\sqrt{-1}$       | NaN    |
 | $\infty \times 0$ | NaN    |
+
+</div>
 
 Key property: **NaN is not equal to anything, including itself.**
 
@@ -651,6 +679,8 @@ print(abs(x - y) < epsilon)  # True
 
 ## 10. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                            | Explanation                                            | Solution                                                       |
 | ---------------------------------- | ------------------------------------------------------ | -------------------------------------------------------------- |
 | Using `==` for float comparison    | Rounding errors mean exact equality rarely holds       | Compare with tolerance: `abs(a - b) &lt; epsilon`              |
@@ -660,6 +690,8 @@ print(abs(x - y) < epsilon)  # True
 | Checking `x == float('nan')`       | NaN is not equal to itself by definition               | Use `math.isnan(x)`                                            |
 | Ignoring denormalised numbers      | Assuming all numbers have 24-bit precision             | Denormalised numbers near zero have fewer significant bits     |
 | Mixing single and double precision | Implicit conversions can lose precision                | Be consistent with precision throughout the calculation        |
+
+</div>
 
 <hr />
 

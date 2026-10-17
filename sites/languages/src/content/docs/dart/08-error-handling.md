@@ -333,12 +333,16 @@ the `rethrow` line.
 
 ### When to Use Each
 
+<div class="table-wrap">
+
 | Situation                                                            | Use                                      |
 | -------------------------------------------------------------------- | ---------------------------------------- |
 | You want to log/wrap and continue propagating the original exception | `rethrow`                                |
 | You want to wrap the exception in a new type (exception chaining)    | `throw MyException(..., cause: e)`       |
 | You want to convert one exception type to another                    | `throw newException` (intentional reset) |
 | You want to suppress and throw something entirely different          | `throw` (new object)                     |
+
+</div>
 
 ### Exception Wrapping vs Rethrow
 
@@ -742,12 +746,16 @@ Alternative with similar capabilities.
 
 ### When to Use Result vs Exceptions
 
+<div class="table-wrap">
+
 | Scenario                                                 | Use                                     |
 | -------------------------------------------------------- | --------------------------------------- |
 | Validation, parsing, expected business rule violations   | `Result`/`Either`                       |
 | I/O failures (network, filesystem)                       | `Exception` (or `Result` if you prefer) |
 | Programming bugs (null dereference, index out of bounds) | Let `Error` propagate                   |
 | Library boundary where you want explicit failure types   | `Result`/`Either`                       |
+
+</div>
 
 ## Flutter Error Boundaries
 

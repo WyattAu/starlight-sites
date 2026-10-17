@@ -110,6 +110,8 @@ $\square$
 
 ## 5.2 Core API
 
+<div class="table-wrap">
+
 | Member                  | Description                                 |
 | ----------------------- | ------------------------------------------- |
 | `has_value()`           | Returns `true` if a value is held           |
@@ -123,6 +125,8 @@ $\square$
 | `and_then(F)`           | Monadic bind: `F(T) -> expected<U, E>`      |
 | `or_else(F)`            | Monadic recovery: `F(E) -> expected<T, F>`  |
 | `error_or(E)`           | Returns the error, or `E` if value is held  |
+
+</div>
 
 ### `std::unexpected` and Error Construction
 
@@ -202,12 +206,16 @@ int main() {
 
 ### Monadic Operation Semantics
 
+<div class="table-wrap">
+
 | Operation            | If value held                      | If error held                      |
 | :------------------- | :--------------------------------- | :--------------------------------- |
 | `and_then(f)`        | Apply `f(value)`Return result      | Propagate error unchanged          |
 | `or_else(f)`         | Propagate value unchanged          | Apply `f(error)`Return result      |
 | `transform(f)`       | Apply `f(value)`Wrap in `expected` | Propagate error unchanged          |
 | `transform_error(f)` | Propagate value unchanged          | Apply `f(error)`Wrap in `expected` |
+
+</div>
 
 The monadic operations compose , forming a pipeline:
 
@@ -219,6 +227,8 @@ Each operation short-circuits on error: once an error enters the pipeline, it pr
 Subsequent `and_then` and `transform` calls without executing their callbacks.
 
 ## 5.4 Comparison with Rust's `Result<T, E>`
+
+<div class="table-wrap">
 
 | C++ `std::expected`  | Rust `Result`            | Purpose                          |
 | -------------------- | ------------------------ | -------------------------------- |
@@ -232,7 +242,11 @@ Subsequent `and_then` and `transform` calls without executing their callbacks.
 | `transform_error(f)` | `.map_err(f)`            | Map the error                    |
 | `or_else(f)`         | `.or(f)` / `.or_else(f)` | Monadic recovery                 |
 
+</div>
+
 ### Comparison with Other Languages' Error Types
+
+<div class="table-wrap">
 
 | Language | Type                  | Error Handling Style                      |
 | :------- | :-------------------- | :---------------------------------------- |
@@ -242,6 +256,8 @@ Subsequent `and_then` and `transform` calls without executing their callbacks.
 | Swift    | `Result<T, E>`        | Monadic, forced handling                  |
 | Zig      | `E!T`                 | Infix error union, forced handling        |
 | C++23    | `std::expected<T, E>` | Monadic, easy to ignore (no forced check) |
+
+</div>
 
 Unlike Rust, C++ does not force you to handle the error case. Calling `.value()` on an error-holding
 `expected` is undefined behavior, not a panic. This is consistent with C++'s philosophy of trusting
@@ -392,6 +408,8 @@ Is the error truly exceptional (should rarely happen)?
 
 ### Formal Comparison
 
+<div class="table-wrap">
+
 | Criterion               | Exceptions                        | `std::expected`                 | Error Codes                    |
 | :---------------------- | :-------------------------------- | :------------------------------ | :----------------------------- |
 | Normal-path overhead    | ~0 (no branch)                    | 1 branch (check `has_value()`)  | 1 branch + compare             |
@@ -404,9 +422,13 @@ Is the error truly exceptional (should rarely happen)?
 | Binary size             | +5-15% (LSDA tables)              | 0                               | 0                              |
 | Destructor safety       | Must be `noexcept`                | No special requirement          | No special requirement         |
 
+</div>
+
 ## Error Handling Best Practices
 
 ### When to Use Each Mechanism
+
+<div class="table-wrap">
 
 | Situation                               | Recommended Mechanism                            |
 | --------------------------------------- | ------------------------------------------------ |
@@ -418,9 +440,13 @@ Is the error truly exceptional (should rarely happen)?
 | Performance-critical hot path           | `noexcept` functions + error codes or `expected` |
 | Destructor cleanup                      | Never throw (see below)                          |
 
+</div>
+
 ### C++ Core Guidelines
 
 Key guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/):
+
+<div class="table-wrap">
 
 | Guideline | Summary                                                                         |
 | --------- | ------------------------------------------------------------------------------- |
@@ -433,6 +459,8 @@ Key guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidel
 | **E.16**  | Destructors, deallocation, and `swap` must never fail.                          |
 | **E.25**  | If you can't throw, consider `std::expected` for reporting errors.              |
 | **I.7**   | State preconditions (and prefer `Expects` / `Ensures` contracts).               |
+
+</div>
 
 ### Exception Safety in Constructors
 
@@ -593,6 +621,8 @@ Wrappers that handle errors internally rather than propagating them from destruc
 
 ### Summary
 
+<div class="table-wrap">
+
 | Mechanism       | C++ Version | Error Richness    | Overhead (no error) | Composability            |
 | --------------- | ----------- | ----------------- | ------------------: | ------------------------ |
 | Exceptions      | C++98       | Any type          |                  ~0 | Implicit (unwinding)     |
@@ -600,6 +630,8 @@ Wrappers that handle errors internally rather than propagating them from destruc
 | `std::optional` | C++17       | `nullopt` only    |                   0 | Check required           |
 | `std::variant`  | C++17       | User-defined      |                   0 | `visit` / `get_if`       |
 | `std::expected` | C++23       | Single error type |                   0 | Monadic (`and_then`Etc.) |
+
+</div>
 
 **Relevance:** Modern C++ increasingly favors **explicit, algebraic error handling**
 (`std::expected`) for expected failure modes and reserves **exceptions** for truly exceptional

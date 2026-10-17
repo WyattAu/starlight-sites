@@ -458,6 +458,8 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The wave function can be measured | no | $|\psi|^2$ is measurable; $\psi$ itself is not, and multiplying by a global phase leaves every observable unchanged |
@@ -468,6 +470,8 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 | Stationary states have a constant probability density | only for real $V$ | with a time-dependent or complex potential the density moves; and even for real $V$, a superposition of eigenstates is not stationary |
 | Perturbation theory works for any perturbation | no | the expansion is in powers of a small parameter and diverges once the perturbation is comparable to the level spacing |
 | Probability is conserved because the wave function is normalised | no | conservation is a separate theorem: it follows from $\partial_t \rho = -\nabla\cdot \mathbf{j}$ with $\mathbf{j}$ vanishing at infinity |
+
+</div>
 
 The first row is the most important, and the global-phase version is worth
 sitting with. Multiply $\psi$ by $e^{i\theta}$ and nothing measurable changes,
@@ -553,7 +557,7 @@ Theory](https://mathematics.wyattau.com/10-measure-theory/7_l-p-spaces/).
 - **[One-Dimensional Problems](/5-quantum-mechanics/5_one-dimensional-problems/)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

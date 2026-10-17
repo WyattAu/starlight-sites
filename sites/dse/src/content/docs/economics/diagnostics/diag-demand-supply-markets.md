@@ -172,6 +172,8 @@ Correcting the externality. This is an example of a Pigouvian tax.
 **Question:** The market for public transport in Hong Kong has the following demand and supply
 Schedules:
 
+<div class="table-wrap">
+
 | Price (HKD) | $Q_d$ (thousand rides/day) | $Q_s$ (thousand rides/day) |
 | ----------- | -------------------------- | -------------------------- |
 | 10          | 600                        | 200                        |
@@ -179,6 +181,8 @@ Schedules:
 | 30          | 400                        | 400                        |
 | 40          | 300                        | 500                        |
 | 50          | 200                        | 600                        |
+
+</div>
 
 (a) Determine equilibrium price and quantity. (b) If the MTR extends a new line, causing supply to
 Increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
@@ -191,6 +195,8 @@ of opportunity cost for commuters who switch from taxis to MTR.
 
 (b) New supply schedule adds 100 to each $Q_s$:
 
+<div class="table-wrap">
+
 | Price | $Q_d$ | $Q_s$ (new) |
 | ----- | ----- | ----------- |
 | 10    | 600   | 300         |
@@ -198,6 +204,8 @@ of opportunity cost for commuters who switch from taxis to MTR.
 | 30    | 400   | 500         |
 | 40    | 300   | 600         |
 | 50    | 200   | 700         |
+
+</div>
 
 New equilibrium: Between $P = 20$ ($Q_d = 500$$Q_s = 400$) and $P = 30$ ($Q_d = 400$ $Q_s = 500$).
 At equilibrium: $Q_d = Q_s$. Interpolating: $Q = 450$ at $P = 25$.

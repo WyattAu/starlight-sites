@@ -136,9 +136,13 @@ moisture before diffusing.
 **Question:** An experiment investigates the effect of temperature on the activity of amylase. The
 time taken for starch to be completely digested is recorded:
 
+<div class="table-wrap">
+
 | Temperature ($^\circ$ C) | 10  | 20  | 30  | 40  | 50  | 60  | 70          |
 | ----------------------- | --- | --- | --- | --- | --- | --- | ----------- |
 | Time (seconds)          | 300 | 180 | 90  | 45  | 60  | 240 | No reaction |
+
+</div>
 
 (a) Calculate the rate of reaction (1/time) at each temperature. (b) Plot a graph of rate against
 temperature and identify the optimum temperature. (c) Explain why the rate decreases above

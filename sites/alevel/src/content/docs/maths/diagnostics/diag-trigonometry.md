@@ -237,11 +237,15 @@ $\theta = \frac{5\pi}{3} + 2n\pi$ for $n \in \mathbb{Z}$.
 
 Systematically listing all $\theta \in [0, 6\pi)$:
 
+<div class="table-wrap">
+
 | $n$ | $\theta = \frac{\pi}{3} + 2n\pi$ | $\theta = \frac{5\pi}{3} + 2n\pi$ |
 | --- | -------------------------------------------- | --------------------------------------------- |
 | 0   | $\frac{\pi}{3}$                  | $\frac{5\pi}{3}$                  |
 | 1   | $\frac{7\pi}{3}$                 | $\frac{11\pi}{3}$                 |
 | 2   | $\frac{13\pi}{3}$                | $\frac{17\pi}{3}$                 |
+
+</div>
 
 All six values are in $[0, 6\pi)$ since $\frac{17\pi}{3} = 5\frac{2}{3}\pi \lt 6\pi$.
 

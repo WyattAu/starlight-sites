@@ -33,12 +33,16 @@ Determined.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                          |
 | ---------- | ------- | ---------------------------------------------- |
 | AQA        | Paper 2 | Basic projectiles; limited inclined plane work |
 | Edexcel    | M2      | Full coverage including inclined planes        |
 | OCR (A)    | Paper 2 | Projectiles on inclined planes                 |
 | CIE (9231) | M2      | Full coverage including inclined planes        |
+
+</div>
 
 :::note
 Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
@@ -993,12 +997,16 @@ $\blacksquare$
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                                      | Correct Approach                                                                                      |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Using $45°$ for maximum range without checking if the target is above or below launch height | Maximum range at $45°$ only applies when launch and landing are at the same height                    |
 | Forgetting that $g$ acts downward in all projectile problems                                 | Decompose $g$ into components along your chosen axes                                                  |
 | Assuming air resistance is negligible when the question does not specify                     | In A-Level Further Maths, always state "assuming no air resistance" unless told otherwise             |
 | Confusing the angle to the horizontal with the angle to the inclined plane                   | On a plane inclined at $\alpha$: angle to the plane $= \theta - \alpha$ Angle to horizontal $= \theta$ |
+
+</div>
 
 ---
 
@@ -1128,6 +1136,8 @@ Work-energy principle.
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Quantity                                 | Formula                                                                    |
 | ---------------------------------------- | -------------------------------------------------------------------------- |
 | Horizontal range (same height)           | $R = \dfrac{u^2\sin 2\theta}{g}$                               |
@@ -1137,6 +1147,8 @@ Work-energy principle.
 | Maximum range angle                      | $\theta = 45°$ (same height)                                               |
 | Range on inclined plane (angle $\alpha$) | $R = \dfrac{2u^2\cos\theta\sin(\theta-\alpha)}{g\cos^2\alpha}$ |
 | Speed at any point                       | $v = \sqrt{u^2 - 2gy}$ (energy conservation)                               |
+
+</div>
 
 ---
 

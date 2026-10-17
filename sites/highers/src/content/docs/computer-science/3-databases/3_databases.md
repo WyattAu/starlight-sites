@@ -40,6 +40,8 @@ categories:
 - Support concurrent access, security, integrity
 - Query using SQL (Structured Query Language)
 
+<div class="table-wrap">
+
 | Feature           | Flat File           | Relational Database         |
 | ----------------- | ------------------- | --------------------------- |
 | Tables            | Single              | Multiple, related           |
@@ -49,6 +51,8 @@ categories:
 | Querying          | Manual (sequential) | SQL (declarative, powerful) |
 | Scalability       | Poor                | Good                        |
 | Security          | Limited             | User accounts, permissions  |
+
+</div>
 
 ### Relational Database Concepts
 
@@ -119,11 +123,15 @@ Another non-key attribute).
 
 **UNF:**
 
+<div class="table-wrap">
+
 | OrderID | CustomerName | CustomerCity | ProductCode | ProductName | Quantity |
 | ------- | ------------ | ------------ | ----------- | ----------- | -------- |
 | 001     | J. Smith     | Edinburgh    | P01         | Widget      | 5        |
 | 001     | J. Smith     | Edinburgh    | P02         | Gadget      | 3        |
 | 002     | A. Jones     | Glasgow      | P01         | Widget      | 2        |
+
+</div>
 
 **1NF (remove repeating groups):** Already in 1NF (each cell has a single value).
 
@@ -166,6 +174,8 @@ Delete the enrolments).
 
 ### Data Types in SQL
 
+<div class="table-wrap">
+
 | SQL Data Type | Description            | Example          |
 | ------------- | ---------------------- | ---------------- |
 | INT / INTEGER | Whole number           | 42               |
@@ -176,6 +186,8 @@ Delete the enrolments).
 | DATE          | Date (YYYY-MM-DD)      | "2026-04-14'     |
 | BOOLEAN       | True/False             | TRUE             |
 | TEXT          | Long text              | 'Description...' |
+
+</div>
 
 ---
 
@@ -450,6 +462,8 @@ FROM Students;
 
 **Common window functions:**
 
+<div class="table-wrap">
+
 | Function   | Purpose                             |
 | ---------- | ----------------------------------- |
 | ROW_NUMBER | Sequential number (no ties)         |
@@ -457,6 +471,8 @@ FROM Students;
 | DENSE_RANK | Rank without gaps for ties          |
 | LAG / LEAD | Access value from previous/next row |
 | SUM / AVG  | Running total / running average     |
+
+</div>
 
 ### Common Table Expressions (CTEs)
 
@@ -521,11 +537,15 @@ This returns all users, bypassing authentication.
 
 **Worked Example.** Normalise the following table to 3NF.
 
+<div class="table-wrap">
+
 | PlayerID | Name     | TeamName | TeamCity | Sport    |
 | -------- | -------- | -------- | -------- | -------- |
 | 1        | J. Smith | Rangers  | Glasgow  | Football |
 | 2        | A. Jones | Celtic   | Glasgow  | Football |
 | 3        | M. Brown | Rangers  | Glasgow  | Football |
+
+</div>
 
 **1NF:** Already in 1NF (single values per cell).
 
@@ -604,12 +624,16 @@ job. A librarian who only needs to search for books should not have DELETE permi
 
 ### Backup Strategies
 
+<div class="table-wrap">
+
 | Strategy            | Description                                         | Recovery Point Objective |
 | ------------------- | --------------------------------------------------- | ------------------------ |
 | Full backup         | Complete copy of the entire database                | Last backup              |
 | Differential backup | All changes since the last full backup              | Last full backup         |
 | Incremental backup  | All changes since the last backup (any type)        | Last backup              |
 | Transaction log     | Records all transactions for point-in-time recovery | Any point in time        |
+
+</div>
 
 **Worked Example.** A database is backed up fully on Sunday. Differential backups run Monday to
 Saturday. The database crashes on Thursday. What backups are needed to restore?
@@ -621,12 +645,16 @@ Differential before the crash).
 
 **Isolation levels:**
 
+<div class="table-wrap">
+
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
 | Read Uncommitted | Yes        | Yes                 | Yes          |
 | Read Committed   | No         | Yes                 | Yes          |
 | Repeatable Read  | No         | No                  | Yes          |
 | Serializable     | No         | No                  | No           |
+
+</div>
 
 **Deadlocks:** Occur when two transactions each hold a lock that the other needs.
 
@@ -642,6 +670,8 @@ Data from multiple sources.
 
 **Data warehouse vs operational database:**
 
+<div class="table-wrap">
+
 | Feature         | Operational Database    | Data Warehouse             |
 | --------------- | ----------------------- | -------------------------- |
 | Purpose         | Day-to-day transactions | Reporting and analysis     |
@@ -649,6 +679,8 @@ Data from multiple sources.
 | Data structure  | Normalised (3NF)        | Denormalised (star schema) |
 | Query pattern   | Many small reads/writes | Few large, complex reads   |
 | Historical data | Current state           | Years of historical data   |
+
+</div>
 
 **Star schema:** A central fact table surrounded by dimension tables.
 
@@ -720,11 +752,15 @@ See the examples integrated throughout the sections above.
 
 1. Normalise the following data to 3NF:
 
+<div class="table-wrap">
+
 | InvoiceNo | CustomerName | CustomerAddress | ProductCode | ProductName | Quantity | Price |
 | --------- | ------------ | --------------- | ----------- | ----------- | -------- | ----- |
 | 1001      | J. Brown     | 5 High St       | P01         | Pen         | 10       | 2.00  |
 | 1001      | J. Brown     | 5 High St       | P02         | Pencil      | 20       | 1.50  |
 | 1002      | M. Wilson    | 12 Main Rd      | P01         | Pen         | 5        | 2.00  |
+
+</div>
 
 1. Write SQL to create the tables for your normalised schema from question 1, including primary and
    foreign keys.

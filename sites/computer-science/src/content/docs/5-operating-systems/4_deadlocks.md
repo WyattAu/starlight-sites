@@ -42,12 +42,16 @@ Held by another process in the set.
 
 Eliminate one of the four Coffman conditions:
 
+<div class="table-wrap">
+
 | Condition        | Prevention strategy                                               |
 | ---------------- | ----------------------------------------------------------------- |
 | Mutual exclusion | Generally not feasible for non-sharable resources                 |
 | Hold and wait    | Require all resources upfront before execution                    |
 | No preemption    | Release held resources if a new request cannot be granted         |
 | Circular wait    | Impose a total ordering on resources; request in increasing order |
+
+</div>
 
 ### 4.3 Deadlock Avoidance: Banker's Algorithm
 
@@ -88,6 +92,8 @@ State.
 
 **Example.** Five processes, three resource types, $A = (3, 3, 2)$:
 
+<div class="table-wrap">
+
 | Process | Allocation | Max     | Need    |
 | ------- | ---------- | ------- | ------- |
 | $P_0$   | (0,1,0)    | (7,5,3) | (7,4,3) |
@@ -95,6 +101,8 @@ State.
 | $P_2$   | (3,0,2)    | (9,0,2) | (6,0,0) |
 | $P_3$   | (2,1,1)    | (2,2,2) | (0,1,1) |
 | $P_4$   | (0,0,2)    | (4,3,3) | (4,3,1) |
+
+</div>
 
 Safety check: $P_1$ has $\mathrm{Need} = (1,2,2) \leq (3,3,2) = A$. Execute $P_1$ Release
 $(2,0,0)$ New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Continuing, All
@@ -111,6 +119,8 @@ Given the state above, suppose $P_1$ requests $(1,0,2)$.
 
 *Step 3:* Pretend to allocate:
 
+<div class="table-wrap">
+
 | Process | Allocation | Max     | Need    |
 | ------- | ---------- | ------- | ------- |
 | $P_0$   | (0,1,0)    | (7,5,3) | (7,4,3) |
@@ -118,6 +128,8 @@ Given the state above, suppose $P_1$ requests $(1,0,2)$.
 | $P_2$   | (3,0,2)    | (9,0,2) | (6,0,0) |
 | $P_3$   | (2,1,1)    | (2,2,2) | (0,1,1) |
 | $P_4$   | (0,0,2)    | (4,3,3) | (4,3,1) |
+
+</div>
 
 $A = (3,3,2) - (1,0,2) = (2,3,0)$.
 
@@ -189,11 +201,15 @@ Allow deadlocks to occur, then detect and recover.
 
 Three processes and one resource type with 10 instances:
 
+<div class="table-wrap">
+
 | Process | Allocation | Maximum |
 | ------- | ---------- | ------- |
 | $P_0$   | 5          | 9       |
 | $P_1$   | 2          | 4       |
 | $P_2$   | 2          | 7       |
+
+</div>
 
 Available = $10 - (5 + 2 + 2) = 1$.
 

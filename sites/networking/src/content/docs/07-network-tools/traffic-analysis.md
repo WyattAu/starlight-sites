@@ -76,6 +76,8 @@ before libpcap sees it.
 
 ### Capture Point Selection Guide
 
+<div class="table-wrap">
+
 | Scenario                         | Best Capture Point                                     |
 | -------------------------------- | ------------------------------------------------------ |
 | Troubleshoot server connectivity | On the server (tcpdump)                                |
@@ -84,6 +86,8 @@ before libpcap sees it.
 | Multi-point analysis             | SPAN + server capture, correlated                      |
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
+
+</div>
 
 :::caution
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
@@ -415,6 +419,8 @@ Destination IP, source port, destination port, protocol).
 
 **What NetFlow records:**
 
+<div class="table-wrap">
+
 | Field            | Description                          |
 | ---------------- | ------------------------------------ |
 | src_addr         | Source IP address                    |
@@ -434,13 +440,19 @@ Destination IP, source port, destination port, protocol).
 | output_interface | SNMP index of egress interface       |
 | nexthop          | Next-hop IP address                  |
 
+</div>
+
 **NetFlow versions:**
+
+<div class="table-wrap">
 
 | Version | Description                                  |
 | ------- | -------------------------------------------- |
 | v5      | Original format, fixed fields                |
 | v9      | Template-based, extensible (RFC 3954)        |
 | IPFIX   | IETF standard based on NetFlow v9 (RFC 7011) |
+
+</div>
 
 ### sFlow
 
@@ -654,6 +666,8 @@ Operation.
 
 ### What to Measure
 
+<div class="table-wrap">
+
 | Metric               | Tool            | Frequency |
 | -------------------- | --------------- | --------- |
 | Interface throughput | SNMP / iftop    | 5 minutes |
@@ -664,6 +678,8 @@ Operation.
 | HTTP request rate    | access logs     | 1 minute  |
 | Packet loss          | ping / SLA      | 1 minute  |
 | Latency (RTT)        | ping / SLA      | 1 minute  |
+
+</div>
 
 ### Baseline Duration
 

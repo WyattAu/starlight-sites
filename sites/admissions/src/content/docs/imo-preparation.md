@@ -32,6 +32,8 @@ six students.
 The competition spans two days, each with a 4.5-hour session containing 3 problems. The six problems
 are divided by convention:
 
+<div class="table-wrap">
+
 | Problem | Typical Topic                                    | Difficulty  |
 | ------- | ------------------------------------------------ | ----------- |
 | 1       | Accessible; often combinatorics or number theory | Easiest     |
@@ -40,6 +42,8 @@ are divided by convention:
 | 4       | Accessible; often geometry or number theory      | Easier      |
 | 5       | Medium; often combinatorics or algebra           | Medium-Hard |
 | 6       | Very hard; any topic                             | Hardest     |
+
+</div>
 
 Each problem is worth 7 marks, for a maximum of 42. A gold medal requires approximately 29+, silver
 Approximately 22+, and bronze approximately 16+ (thresholds vary by year).
@@ -840,6 +844,8 @@ A complete IMO solution has the following structure:
 
 ### 8.4 Time Management Strategy
 
+<div class="table-wrap">
+
 | Time         | Activity                                        |
 | ------------ | ----------------------------------------------- |
 | 0--15 min    | Read all problems, identify the most accessible |
@@ -848,6 +854,8 @@ A complete IMO solution has the following structure:
 | 120--210 min | Work on Problem 2                               |
 | 210--240 min | Return to Problem 3 or polish Problems 1 and 2  |
 | 240--270 min | Final review of all solutions                   |
+
+</div>
 
 ### 8.5 Advanced Preparation
 
@@ -890,11 +898,15 @@ When working with imo preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                      |
 | --------------------------------- | ----------- | --------------------------------------------------------- |
 | IMO Official Problems & Solutions | IMO         | [View](https://www.imo-official.org/problems.aspx)        |
 | AoPS IMO Forum                    | AoPS        | [View](<https://artofproblemsolving.com/community/c6h> IMO) |
 | BMO Preparation                   | WyattsNotes | [View](/bmo-preparation/)       |
 | STEP Preparation                  | WyattsNotes | [View](/step-preparation/)      |
-| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)     |
-| Real Analysis                     | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)        |
+| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)     |
+| Real Analysis                     | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)        |
+
+</div>

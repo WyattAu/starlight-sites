@@ -63,12 +63,16 @@ Examples: Mg, Zn, Ti, Co, Cd.
 
 ### 1.4 Relationship Between Lattice Parameters and Atomic Radius
 
+<div class="table-wrap">
+
 | Structure | Relationship                | Radius in Terms of $a$  |
 | --------- | --------------------------- | ------------------------ |
 | SC        | $a = 2r$                     | $r = a/2$                |
 | BCC       | $4r = \sqrt{3}\,a$          | $r = \sqrt{3}\,a/4$     |
 | FCC       | $4r = \sqrt{2}\,a$          | $r = \sqrt{2}\,a/4 = a/(2\sqrt{2})$ |
 | HCP       | $a = 2r$, $c/a = 1.633$ (ideal) | $r = a/2$            |
+
+</div>
 
 **Example 1:** Iron has a BCC structure with $a = 286.6$ pm. Calculate the atomic radius.
 
@@ -112,11 +116,15 @@ $\blacksquare$
 
 **Theorem 2 (Radius Ratio Rules):** The ratio $r_+/r_-$ determines the coordination geometry:
 
+<div class="table-wrap">
+
 | $r_+/r_-$       | Coordination | Structure           |
 | --------------- | ------------ | -------------------- |
 | 0.225–0.414     | 4 (tetrahedral) | ZnS (zinc blende) |
 | 0.414–0.732     | 6 (octahedral)  | NaCl (rock salt)  |
 | 0.732–1.0       | 8 (cubic)       | CsCl              |
+
+</div>
 
 ## 3. Born-Haber Cycle
 
@@ -177,11 +185,15 @@ overlap and split into $N$ closely spaced energy levels forming a continuous ban
 
 ### 4.2 Classification of Materials
 
+<div class="table-wrap">
+
 | Type          | Band Gap     | Conductivity ($T$) | Examples                    |
 | ------------- | ------------ | ------------------ | --------------------------- |
 | Conductor     | $E_g = 0$    | Decreases          | Cu, Al, Na, Au             |
 | Semiconductor | $E_g \sim 0.1$–$4$ eV | Increases exponentially | Si (1.1 eV), Ge (0.67 eV) |
 | Insulator     | $E_g > 4$ eV | Very low            | Diamond (5.5 eV), SiO$_2$  |
+
+</div>
 
 ### 4.3 Semiconductor Physics
 
@@ -311,11 +323,15 @@ $\blacksquare$
 **Theorem 7 (Systematic Absences):** Certain reflections are absent due to the symmetry of the unit
 cell (glide planes, screw axes, centering).
 
+<div class="table-wrap">
+
 | Lattice Type | Absent When               |
 | ------------- | ------------------------ |
 | SC            | None                     |
 | BCC           | $h + k + l$ = odd        |
 | FCC           | $h, k, l$ mixed (not all odd or all even) |
+
+</div>
 
 ## 7. Phase Diagrams of Solids
 
@@ -365,6 +381,8 @@ As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 
 ### 8.3 Types of Nanomaterials
 
+<div class="table-wrap">
+
 | Type              | Dimensions | Example                     |
 | ----------------- | ---------- | --------------------------- |
 | Nanoparticles     | 0D         | Au, Ag, CdSe quantum dots   |
@@ -372,6 +390,8 @@ As $R \to 0$, surface atoms become a larger fraction of total atoms, leading to:
 | Nanowires         | 1D         | Si nanowires, Ag nanowires  |
 | Nanosheets        | 2D         | Graphene, MoS$_2$           |
 | Nanocomposites    | 3D         | Nanoparticle-polymer blends |
+
+</div>
 
 ## 9. Zeolites
 
@@ -502,6 +522,8 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Atomic Structure         | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)    |
@@ -509,6 +531,8 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 | Statistical Mechanics    | WyattsNotes | [View](/1-physical-chemistry/statistical-mechanics/)              |
 | Solid-State Physics      | WyattsNotes | [View](https://physics.wyattau.com/6-solid-state-physics/17_practice-solid-state-physics/)                  |
 | Solid-State Chemistry, MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
+
+</div>
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

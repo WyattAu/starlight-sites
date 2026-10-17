@@ -382,6 +382,8 @@ Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimen
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The empty set is a vector space | no | the axioms require a zero vector, so no vector space is empty |
@@ -392,6 +394,8 @@ Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimen
 | The solution set of $Ax = b$ is a subspace | no | unless $b = 0$; it does not contain the zero vector |
 | A vector space needs an order on its vectors | no | the axioms never mention one; imposing one is an extra structure, not part of the space |
 | Functions form a vector space only if they are continuous | no | *all* functions from a set to a field form a vector space; continuity is extra structure |
+
+</div>
 
 The third row is the classic, and it is worth seeing why: the union of the
 $x$-axis and the $y$-axis contains $(1,0)$ and $(0,1)$ but not their sum. The

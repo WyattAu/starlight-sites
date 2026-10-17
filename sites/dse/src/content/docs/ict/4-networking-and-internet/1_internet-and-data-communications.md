@@ -19,11 +19,15 @@ categories: [DSE, ICT]
 
 ### Types of Networks
 
+<div class="table-wrap">
+
 | Type    | Full Name             | Range                     | Example                                           |
 | ------- | --------------------- | ------------------------- | ------------------------------------------------- |
 | **LAN** | Local Area Network    | A building or campus      | School computer lab, office network               |
 | **WAN** | Wide Area Network     | Cities, countries, global | The Internet, a company"s offices across cities   |
 | **PAN** | Personal Area Network | Within ~10 m              | Bluetooth connection between phone and headphones |
+
+</div>
 
 ### Network Topologies
 
@@ -39,11 +43,15 @@ All devices connect to a central hub or switch.
          [Device]
 ```
 
+<div class="table-wrap">
+
 | Aspect         | Detail                                                                                                   |
 | -------------- | -------------------------------------------------------------------------------------------------------- |
 | Advantages     | Easy to install and manage; if one cable fails, only that device is affected; easy to add/remove devices |
 | Disadvantages  | If the central hub/switch fails, the entire network goes down; requires more cabling than bus topology   |
 | Failure impact | Single device failure: no impact on others. Central node failure: total network failure                  |
+
+</div>
 
 #### Bus Topology
 
@@ -53,11 +61,15 @@ All devices share a single backbone cable.
 [Device] ---[Device] ---[Device] ---[Device] ---[Terminator]
 ```
 
+<div class="table-wrap">
+
 | Aspect         | Detail                                                                                                                                         |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Advantages     | Simple and cheap; requires less cabling; easy to set up for small networks                                                                     |
 | Disadvantages  | If the backbone cable breaks, the entire network fails; performance degrades as more devices are added (collisions); difficult to troubleshoot |
 | Failure impact | Backbone failure: total network failure. Single device failure: network continues but that device is disconnected                              |
+
+</div>
 
 #### Ring Topology
 
@@ -71,11 +83,15 @@ Each device connects to exactly two others, forming a closed loop.
          +--- [Device] <--+
 ```
 
+<div class="table-wrap">
+
 | Aspect         | Detail                                                                                                                                    |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Advantages     | Data travels in one direction, reducing collisions; equal access for all devices; suitable for token ring networks                        |
 | Disadvantages  | If one device or cable fails, the entire network can fail; adding/removing devices disrupts the ring; slower than star for large networks |
 | Failure impact | Single failure can bring down the entire ring (unless using a dual ring)                                                                  |
+
+</div>
 
 #### Mesh Topology
 
@@ -88,11 +104,15 @@ Every device is connected to every other device (full mesh) or to multiple devic
   [Device] --- [Device]
 ```
 
+<div class="table-wrap">
+
 | Aspect         | Detail                                                                                                     |
 | -------------- | ---------------------------------------------------------------------------------------------------------- |
 | Advantages     | High redundancy and reliability; multiple paths for data; no single point of failure (full mesh)           |
 | Disadvantages  | Expensive and complex cabling; difficult to set up and manage; not scalable for large networks (full mesh) |
 | Failure impact | High fault tolerance; data can route around failed connections                                             |
+
+</div>
 
 :::caution
 Exam Tip In exam questions, always discuss both advantages AND disadvantages of each
@@ -112,6 +132,8 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 
 ## Networking Hardware
 
+<div class="table-wrap">
+
 | Device                | Function                                                                                                                         | OSI Layer |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | **Router**            | Connects different networks; routes packets between them using IP addresses; operates at Network layer                           | Layer 3   |
@@ -121,7 +143,11 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 | **Modem**             | Modulator-Demodulator; converts digital signals to analogue (and vice versa) for transmission over telephone lines               | Layer 1   |
 | **Access Point (AP)** | Allows wireless devices to connect to a wired network; acts as a bridge between wireless and wired segments                      | Layer 2   |
 
+</div>
+
 ### Hub vs Switch
+
+<div class="table-wrap">
 
 | Feature           | Hub                            | Switch                                  |
 | ----------------- | ------------------------------ | --------------------------------------- |
@@ -130,6 +156,8 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 | Bandwidth         | Shared among all devices       | Dedicated bandwidth per port            |
 | MAC address table | No                             | Yes (learns and stores MAC addresses)   |
 | Intelligence      | None                           | Uses MAC addresses for smart forwarding |
+
+</div>
 
 ---
 
@@ -144,6 +172,8 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 
 ## Internet Services
 
+<div class="table-wrap">
+
 | Service                          | Description                                                        | Protocol(s)      |
 | -------------------------------- | ------------------------------------------------------------------ | ---------------- |
 | **World Wide Web (WWW)**         | Access and navigate web pages using hyperlinks                     | HTTP, HTTPS      |
@@ -153,13 +183,19 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 | **Streaming**                    | Real-time audio/video delivery (e.g., YouTube, Netflix)            | HTTP, RTSP, HLS  |
 | **Cloud Computing**              | On-demand computing resources over the internet (IaaS, PaaS, SaaS) | Various          |
 
+</div>
+
 ### Email Protocols
+
+<div class="table-wrap">
 
 | Protocol | Port     | Purpose       | Direction                                                             |
 | -------- | -------- | ------------- | --------------------------------------------------------------------- |
 | **SMTP** | 25 / 587 | Send email    | Client to server, server to server                                    |
 | **POP3** | 110      | Receive email | Downloads messages to local device, often deletes from server         |
 | **IMAP** | 143      | Receive email | Accesses messages on server without downloading; syncs across devices |
+
+</div>
 
 ---
 
@@ -210,6 +246,8 @@ HTML defines the **structure** and **content** of a web page.
 
 Key HTML tags:
 
+<div class="table-wrap">
+
 | Tag                          | Purpose                                 |
 | ---------------------------- | --------------------------------------- |
 | `<html>`                     | Root element                            |
@@ -222,6 +260,8 @@ Key HTML tags:
 | `<ul>``<ol>``<li>`           | Unordered list, ordered list, list item |
 | `<table>``<tr>``<th>``<td>`  | Table, row, header cell, data cell      |
 | `<form>``<input>``<button>`  | Form elements                           |
+
+</div>
 
 ### CSS (Cascading Style Sheets)
 
@@ -258,11 +298,15 @@ p {
 
 **CSS selectors:**
 
+<div class="table-wrap">
+
 | Selector | Selects                   | Example             |
 | -------- | ------------------------- | ------------------- |
 | Element  | All elements of that type | `p { }`             |
 | Class    | Elements with that class  | `.highlight { }`    |
 | ID       | The element with that ID  | `#main-content { }` |
+
+</div>
 
 ### JavaScript
 
@@ -314,11 +358,15 @@ Fundamental principle of web development.
 
 **IPv4 address classes:**
 
+<div class="table-wrap">
+
 | Class | First Octet Range | Network Bits | Host Bits | Default Subnet Mask |
 | ----- | ----------------- | ------------ | --------- | ------------------- |
 | A     | 1 -- 126          | 8            | 24        | 255.0.0.0           |
 | B     | 128 -- 191        | 16           | 16        | 255.255.0.0         |
 | C     | 192 -- 223        | 24           | 8         | 255.255.255.0       |
+
+</div>
 
 Special addresses:
 
@@ -337,6 +385,8 @@ Special addresses:
 
 **IPv4 vs IPv6:**
 
+<div class="table-wrap">
+
 | Feature             | IPv4                               | IPv6                                        |
 | ------------------- | ---------------------------------- | ------------------------------------------- |
 | Address length      | 32 bits                            | 128 bits                                    |
@@ -346,6 +396,8 @@ Special addresses:
 | Security            | Optional (IPsec add-on)            | Built-in IPsec support                      |
 | NAT                 | Required (due to address shortage) | Not required                                |
 | Auto-configuration  | Limited                            | SLAAC (Stateless Address Autoconfiguration) |
+
+</div>
 
 ### Subnet Masks
 
@@ -425,19 +477,27 @@ To register a domain:
 
 ### Wired Media
 
+<div class="table-wrap">
+
 | Type              | Description                                                   | Speed          | Max Distance | Cost   | Interference         |
 | ----------------- | ------------------------------------------------------------- | -------------- | ------------ | ------ | -------------------- |
 | **Twisted Pair**  | Pairs of copper wires twisted together; UTP or STP            | 1 Gbps (Cat 6) | 100 m        | Low    | Moderate (EMI)       |
 | **Coaxial Cable** | Central copper conductor with insulating and shielding layers | 10 Gbps        | 500 m        | Medium | Low                  |
 | **Fibre Optic**   | Thin glass/plastic fibres transmitting light pulses           | 100+ Gbps      | 100+ km      | High   | None (immune to EMI) |
 
+</div>
+
 ### Wireless Media
+
+<div class="table-wrap">
 
 | Type                 | Description                           | Speed                             | Range            | Frequency             |
 | -------------------- | ------------------------------------- | --------------------------------- | ---------------- | --------------------- |
 | **Wi-Fi**            | IEEE 802.11 standards (a/b/g/n/ac/ax) | Up to ~10 Gbps (Wi-Fi 6)          | 30--100 m indoor | 2.4 GHz, 5 GHz, 6 GHz |
 | **Bluetooth**        | Short-range wireless for peripherals  | 1--2 Mbps (Classic) / 2 Mbps (LE) | ~10 m            | 2.4 GHz               |
 | **Cellular** (4G/5G) | Mobile network                        | 100 Mbps (4G) -- 10 Gbps (5G)     | km-scale         | Various               |
+
+</div>
 
 :::caution
 Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the
@@ -460,25 +520,37 @@ Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 
 ### Serial vs Parallel
 
+<div class="table-wrap">
+
 | Mode         | Description                                              | Advantages                                                  | Disadvantages                                                               |
 | ------------ | -------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------- |
 | **Serial**   | Data sent one bit at a time over a single channel        | Fewer wires, cheaper, longer distances, higher clock speeds | Slower for short distances                                                  |
 | **Parallel** | Multiple bits sent simultaneously over multiple channels | Faster for short distances                                  | More wires, more expensive, signal skew over distance, limited cable length |
 
+</div>
+
 ### Synchronous vs Asynchronous
+
+<div class="table-wrap">
 
 | Mode             | Description                                                    | Features                                                  |
 | ---------------- | -------------------------------------------------------------- | --------------------------------------------------------- |
 | **Synchronous**  | Data sent in continuous stream, synchronised by a clock signal | No start/stop bits; faster; used for large data transfers |
 | **Asynchronous** | Data sent one byte at a time with start and stop bits          | No shared clock; uses start/stop bits; simpler but slower |
 
+</div>
+
 ### Simplex, Half-Duplex, Full-Duplex
+
+<div class="table-wrap">
 
 | Mode            | Description                                           | Example                       |
 | --------------- | ----------------------------------------------------- | ----------------------------- |
 | **Simplex**     | Data flows in one direction only                      | TV broadcast, keyboard to CPU |
 | **Half-Duplex** | Data flows in both directions, but only one at a time | Walkie-talkie                 |
 | **Full-Duplex** | Data flows in both directions simultaneously          | Telephone, modern Ethernet    |
+
+</div>
 
 ---
 
@@ -508,11 +580,15 @@ Include:
 
 **Baseband vs Broadband transmission:**
 
+<div class="table-wrap">
+
 | Feature      | Baseband                    | Broadband                                          |
 | ------------ | --------------------------- | -------------------------------------------------- |
 | Signal type  | Digital                     | Analogue                                           |
 | Transmission | Single signal on the medium | Multiple signals (frequency division multiplexing) |
 | Example      | Ethernet LAN                | Cable TV, ADSL                                     |
+
+</div>
 
 ---
 
@@ -529,6 +605,8 @@ Include:
 
 A protocol is a set of rules governing data communication between devices.
 
+<div class="table-wrap">
+
 | Protocol  | Layer       | Purpose                                                                                                           |
 | --------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
 | **TCP**   | Transport   | Reliable, connection-oriented delivery; ensures packets arrive in order; uses acknowledgements and retransmission |
@@ -540,7 +618,11 @@ A protocol is a set of rules governing data communication between devices.
 | **FTP**   | Application | Transfer files (ports 20/21)                                                                                      |
 | **UDP**   | Transport   | Fast, connectionless delivery; no error checking; used for streaming, gaming                                      |
 
+</div>
+
 ### TCP vs UDP
+
+<div class="table-wrap">
 
 | Feature     | TCP                                         | UDP                                  |
 | ----------- | ------------------------------------------- | ------------------------------------ |
@@ -549,6 +631,8 @@ A protocol is a set of rules governing data communication between devices.
 | Ordering    | Packets arrive in order                     | No guarantee of order                |
 | Speed       | Slower due to overhead                      | Faster, less overhead                |
 | Use cases   | Web browsing, email, file transfer          | Video streaming, online gaming, VoIP |
+
+</div>
 
 ---
 
@@ -565,6 +649,8 @@ A protocol is a set of rules governing data communication between devices.
 
 The OSI (Open Systems Interconnection) model has 7 layers:
 
+<div class="table-wrap">
+
 | Layer | Name             | Function                                          | Example Protocols/Devices        |
 | ----- | ---------------- | ------------------------------------------------- | -------------------------------- |
 | 7     | **Application**  | Provides network services to user applications    | HTTP, FTP, SMTP, DNS             |
@@ -575,7 +661,11 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 | 2     | **Data Link**    | Frame formatting, MAC addressing, error detection | Ethernet, Wi-Fi, switches        |
 | 1     | **Physical**     | Physical transmission of raw bits                 | Cables, hubs, electrical signals |
 
+</div>
+
 ### OSI vs TCP/IP Model
+
+<div class="table-wrap">
 
 | OSI Layer                          | TCP/IP Layer          |
 | ---------------------------------- | --------------------- |
@@ -583,6 +673,8 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 | Transport                          | Transport             |
 | Network                            | Internet              |
 | Data Link, Physical                | Network Access (Link) |
+
+</div>
 
 :::caution
 Exam Tip Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll
@@ -683,6 +775,8 @@ Ethical principles guiding computer use:
 
 ### Computer Crimes
 
+<div class="table-wrap">
+
 | Crime                    | Description                                                                                  |
 | ------------------------ | -------------------------------------------------------------------------------------------- |
 | **Hacking**              | Unauthorised access to a computer system                                                     |
@@ -692,7 +786,11 @@ Ethical principles guiding computer use:
 | **Software piracy**      | Unauthorised copying and distribution of copyrighted software                                |
 | **DDoS attacks**         | Flooding a server with traffic to make it unavailable                                        |
 
+</div>
+
 ### Health Issues
+
+<div class="table-wrap">
 
 | Issue                              | Cause                                           | Prevention                                                                          |
 | ---------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -700,6 +798,8 @@ Ethical principles guiding computer use:
 | **Eye strain**                     | Staring at screens for long periods             | 20-20-20 rule, proper lighting, screen distance                                     |
 | **Back/neck pain**                 | Poor posture at workstation                     | Ergonomic chair, correct monitor height, regular movement                           |
 | **Radiation concern**              | Proximity to wireless devices                   | Maintain distance; current evidence shows no significant harm from typical exposure |
+
+</div>
 
 ### Digital Divide
 
@@ -1017,12 +1117,16 @@ Answer:
 
 (a)
 
+<div class="table-wrap">
+
 | Criterion    | Twisted Pair (Cat 6) | Fibre Optic   |
 | ------------ | -------------------- | ------------- |
 | Speed        | Up to 10 Gbps        | 100+ Gbps     |
 | Max distance | 100 m                | 100+ km       |
 | Cost         | Low                  | High          |
 | Interference | Susceptible to EMI   | Immune to EMI |
+
+</div>
 
 (b) (i) **Twisted pair (Cat 6):** Sufficient for classroom distances (well under 100 m), lower cost,
 And easy to install and terminate. The bandwidth of Cat 6 is more than adequate for classroom use.

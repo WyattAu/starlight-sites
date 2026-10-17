@@ -25,6 +25,8 @@ As repositories grow into monorepos containing hundreds of thousands of files, t
 Clone becomes prohibitive. The problem manifests in three dimensions: **time**, **disk space**, and
 **bandwidth**.
 
+<div class="table-wrap">
+
 | Repository                 | Size (Full Clone) | Files | Build Time (Full Clone)             |
 | -------------------------- | ----------------- | ----- | ----------------------------------- |
 | Android (AOSP)             | 300+ GB           | 5M+   | N/A (not practical for individuals) |
@@ -32,6 +34,8 @@ Clone becomes prohibitive. The problem manifests in three dimensions: **time**, 
 | Google (internal monorepo) | 80+ TB (shared)   | 1B+   | N/A                                 |
 | Meta (Buck2)               | 70+ GB            | 500K+ | 20+ min                             |
 | Microsoft (Windows)        | 300+ GB           | 4M+   | N/A                                 |
+
+</div>
 
 A frontend developer working on the Chromium monorepo does not need the `chrome/browser/`
 `chrome/test/`Or `third_party/ffmpeg/` directories. A backend developer does not need `ui/` or
@@ -275,6 +279,8 @@ $ git fetch --filter=blob:none origin feature-branch
 
 These two features solve different problems and can be used independently or together.
 
+<div class="table-wrap">
+
 | Aspect                  | Sparse Checkout                     | Partial Clone                                  |
 | ----------------------- | ----------------------------------- | ---------------------------------------------- |
 | What it controls        | Working tree contents               | Object database contents                       |
@@ -284,6 +290,8 @@ These two features solve different problems and can be used independently or tog
 | Network usage           | Full download                       | Partial download (fetch on demand)             |
 | Requires server support | No (client-side only)               | Yes (Git protocol v2)                          |
 | Offline behavior        | Full (all objects are local)        | Limited (missing objects cause fetch failures) |
+
+</div>
 
 ### Sparse Checkout Only
 
@@ -466,6 +474,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                   | Shallow Clone (`--depth=1`)                         | Partial Clone (`--filter=blob:none`) |
 | ------------------------- | --------------------------------------------------- | ------------------------------------ |
 | What is omitted           | Ancestral commits                                   | File contents (blobs)                |
@@ -478,6 +488,8 @@ So a shallow clone saves history but downloads all file content. A partial clone
 | Git bisect                | No (not enough history)                             | Yes                                  |
 | Server requirements       | None (works with any Git server)                    | Protocol v2                          |
 | Best for                  | CI/CD checkouts, one-off scripts                    | Long-lived development, monorepos    |
+
+</div>
 
 ### Combining Shallow + Partial
 
@@ -503,6 +515,8 @@ And `clone`.
 
 ### Hosting Platform Support
 
+<div class="table-wrap">
+
 | Platform                  | Partial Clone Support | Protocol v2 Default | Notes                                                         |
 | ------------------------- | --------------------- | ------------------- | ------------------------------------------------------------- |
 | GitHub.com                | Yes (since 2020)      | Yes                 | `--filter=blob:none` and `--filter=tree:0` supported          |
@@ -514,6 +528,8 @@ And `clone`.
 | Gitea                     | Yes (1.16+)           | Yes (default 1.21+) |                                                               |
 | Gerrit                    | Yes                   | Yes                 |                                                               |
 | Custom (git-http-backend) | Yes (Git 2.22+)       | Configurable        | Requires `http.receivepack=true` and protocol v2              |
+
+</div>
 
 ### Self-Hosted Server Configuration
 

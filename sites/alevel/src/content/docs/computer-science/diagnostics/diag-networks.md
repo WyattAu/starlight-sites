@@ -38,6 +38,8 @@ Link, 1. Physical.
 
 (b) **Mapping:**
 
+<div class="table-wrap">
+
 | TCP/IP Layer   | OSI Layers                                     |
 | -------------- | ---------------------------------------------- |
 | Application    | Application (7), Presentation (6), Session (5) |
@@ -45,7 +47,11 @@ Link, 1. Physical.
 | Internet       | Network (3)                                    |
 | Network Access | Data Link (2), Physical (1)                    |
 
+</div>
+
 (c) **Protocol mapping:**
+
+<div class="table-wrap">
 
 | Protocol       | Layer                                                | Model |
 | -------------- | ---------------------------------------------------- | ----- |
@@ -56,6 +62,8 @@ Link, 1. Physical.
 | MAC addressing | Data Link (2)                                        | OSI   |
 | DNS            | Application (7)                                      | OSI   |
 | TLS            | Presentation (6) / between Transport and Application | OSI   |
+
+</div>
 
 In the TCP/IP model: HTTP, DNS, and TLS are all at the Application layer. TCP is at the Transport
 layer. IP is at the Internet layer. Ethernet and MAC addressing are at the Network Access layer.
@@ -97,12 +105,16 @@ Total bits: $s + h = 2 + 6 = 8$ (matches the 8 available host bits). Subnet mask
 
 Subnet ranges (block size $= 256 - 192 = 64$):
 
+<div class="table-wrap">
+
 | Subnet | Network Address   | Usable Range | Broadcast |
 | ------ | ----------------- | ------------ | --------- |
 | 1      | 192.168.10.0/26   | .1 -- .62    | .63       |
 | 2      | 192.168.10.64/26  | .65 -- .126  | .127      |
 | 3      | 192.168.10.128/26 | .129 -- .190 | .191      |
 | 4      | 192.168.10.192/26 | .193 -- .254 | .255      |
+
+</div>
 
 Each subnet supports 62 usable hosts.
 
@@ -291,6 +303,8 @@ lookups.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature      | TCP                                        | UDP                        |
 | ------------ | ------------------------------------------ | -------------------------- |
 | Connection   | Connection-oriented (3-way handshake)      | Connectionless             |
@@ -299,6 +313,8 @@ lookups.
 | Flow control | Sliding window, congestion control         | None                       |
 | Overhead     | Higher (20+ byte header)                   | Lower (8 byte header)      |
 | Speed        | Slower due to reliability mechanisms       | Faster (minimal overhead)  |
+
+</div>
 
 (a) **Online gaming (real-time position):** UDP is preferred. In a fast-paced game, a position
 update that arrives late is worse than one that never arrives -- the game state has already moved

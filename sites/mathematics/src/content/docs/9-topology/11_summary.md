@@ -17,6 +17,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 }
 </script>
 
+<div class="table-wrap">
+
 | Concept                       | Key Idea                                                                                             |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Topological space             | Set + open sets satisfying the three axioms                                                          |
@@ -38,7 +40,11 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 | Product topology              | Basis of $\prod U_i$ where each $U_i$ is open and $U_i = X_i$ for all but finitely many $i$ |
 | Quotient topology             | $U \subseteq X/{\sim}$ is open iff $q^{-1}(U)$ is open in $X$ |
 
+</div>
+
 ## Quick Reference: Key Theorems
+
+<div class="table-wrap">
 
 | Theorem | Statement |
 | ------- | --------- |
@@ -50,6 +56,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 | Urysohn Lemma | In normal space, disjoint closed sets are separated by a continuous function |
 | Tietze Extension | Continuous functions on closed subsets of normal spaces extend to the whole space |
 | Seifert-van Kampen | $\pi_1(X \cup Y) \cong \pi_1(X) * \pi_1(Y) / \langle \text{relations} \rangle$ |
+
+</div>
 
 ## Worked Examples
 
@@ -117,6 +125,8 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 
 ### Summary of Key Properties by Space
 
+<div class="table-wrap">
+
 | Property | $\mathbb{R}^n$ | Metric space | General topological space |
 | ---------- | --------------- | -------------- | -------------------------- |
 | Compact $\Leftrightarrow$ closed + bounded | Yes (Heine-Borel) | No | No |
@@ -126,7 +136,11 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | Completeness defined | Yes | Yes | No |
 | Separable $\Rightarrow$ second countable | Yes | No (Sorgenfrey line) | No |
 
+</div>
+
 ### Quick Reference: Separation Axioms
+
+<div class="table-wrap">
 
 | Axiom | Name | Condition | Example |
 | ------- | ------ | ----------- | --------- |
@@ -136,6 +150,8 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | $T_3$ | Regular | $T_1$ + closed set and point separated by open sets | $\mathbb{R}$ standard |
 | $T_4$ | Normal | $T_1$ + disjoint closed sets separated by open sets | $\mathbb{R}$ standard |
 | $T_{3\frac12}$ | Tychonoff | $T_1$ + continuous function separates point from closed set | $\mathbb{R}$ standard |
+
+</div>
 
 ## Intuition
 
@@ -154,6 +170,8 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 
 ### Key Counterexamples Reference
 
+<div class="table-wrap">
+
 | Claim | Counterexample | Explanation |
 | ------- | --------------- | ------------- |
 | Compact $\Rightarrow$ sequentially compact | $[0,\omega_1)$ in order topology | Compact but sequence $\alpha_n$ has no convergent subsequence |
@@ -161,6 +179,8 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 | Closure of interior = interior of closure | $\mathbb{Q} \cap (0,1)$ in $\mathbb{R}$ | One side gives $(0,1)$, other gives $\emptyset$ |
 | Product of $T_3$ spaces is $T_3$ | Sorgenfrey plane | Product of Sorgenfrey lines is regular but not normal |
 | Continuous bijection is homeomorphism | $[0,2\pi) \to S^1$ | Inverse not continuous (domain not compact) |
+
+</div>
 
 ### Further Practice Problems
 
@@ -187,9 +207,13 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic            | Link                                                  |
 | ---------------- | ----------------------------------------------------- |
-| Abstract Algebra | [View](/abstract-algebra/) |
+| Abstract Algebra | [View](/1-abstract-algebra/) |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

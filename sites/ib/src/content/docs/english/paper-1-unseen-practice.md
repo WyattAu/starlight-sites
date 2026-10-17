@@ -41,10 +41,14 @@ Paper 1 is the only component of the IB English assessment that deals with unsee
 are presented with one or more passages they have not studied and must produce a guided analytical
 essay in response.
 
+<div class="table-wrap">
+
 | Level | Duration    | Texts           | Weighting |
 | ----- | ----------- | --------------- | --------- |
 | SL    | 75 minutes  | 1               | 25%       |
 | HL    | 135 minutes | 2 (comparative) | 25%       |
+
+</div>
 
 At SL, students write a single analytical essay on one passage. At HL, students analyse two passages
 and must produce a comparative essay that addresses similarities and differences between the texts.
@@ -53,11 +57,15 @@ and must produce a comparative essay that addresses similarities and differences
 
 Paper 1 passages may be drawn from the following categories:
 
+<div class="table-wrap">
+
 | Category     | Examples                                              |
 | ------------ | ----------------------------------------------------- |
 | Literary     | Prose fiction, poetry, drama excerpts                 |
 | Non-literary | Advertisements, speeches, editorials, opinion columns |
 | Visual       | Photographs, posters, infographics, visual texts      |
+
+</div>
 
 Students must be prepared to encounter any of these text types. The guiding question will direct
 attention to specific features of the text, and the essay must develop a coherent argument in

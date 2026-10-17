@@ -71,12 +71,16 @@ Exactly once.
 
 ### Visibility Modifiers
 
+<div class="table-wrap">
+
 | Modifier    | Class Member                 | Top-Level Declaration        |
 | ----------- | ---------------------------- | ---------------------------- |
 | `public`    | Visible everywhere (default) | Visible everywhere (default) |
 | `private`   | Inside class only            | Inside file only             |
 | `protected` | Inside class + subclasses    | N/A                          |
 | `internal`  | Inside module                | Inside module                |
+
+</div>
 
 A module is a set of Kotlin files compiled together -- a Gradle project, a Maven project, or an
 IntelliJ module.

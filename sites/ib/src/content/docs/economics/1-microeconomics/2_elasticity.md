@@ -44,6 +44,8 @@ $$
 \mathrm{PED} = \frac{\frac{Q_2 - Q_1}{(Q_1 + Q_2)/2}}{\frac{P_2 - P_1}{(P_1 + P_2)/2}}
 $$
 
+<div class="table-wrap">
+
 | PED Value                     | Classification      | Characteristics               |
 | ----------------------------- | ------------------- | ----------------------------- |
 | $\|\mathrm{PED}\| > 1$        | Elastic             | $\% \Delta Q_d > \% \Delta P$ |
@@ -51,6 +53,8 @@ $$
 | $\|\mathrm{PED}\| < 1$        | Inelastic           | $\% \Delta Q_d < \% \Delta P$ |
 | $\|\mathrm{PED}\| = 0$        | Perfectly inelastic | Vertical demand curve         |
 | $\|\mathrm{PED}\| \to \infty$ | Perfectly elastic   | Horizontal demand curve       |
+
+</div>
 
 **Determinants of PED:**
 
@@ -83,12 +87,16 @@ $$
 \mathrm{YED} = \frac{\% \Delta Q_d}{\% \Delta Y}
 $$
 
+<div class="table-wrap">
+
 | YED Value       | Classification               | Example                            |
 | --------------- | ---------------------------- | ---------------------------------- |
 | YED $> 0$       | Normal good                  | Organic food, restaurant meals     |
 | $0 <$ YED $< 1$ | Necessity (income inelastic) | Bread, basic clothing              |
 | YED $> 1$       | Luxury (income elastic)      | Designer goods, holidays           |
 | YED $< 0$       | Inferior good                | Instant noodles, second-hand goods |
+
+</div>
 
 YED is important for understanding how demand changes as an economy grows. In a booming economy,
 Demand for luxuries rises disproportionately, while demand for inferior goods falls.

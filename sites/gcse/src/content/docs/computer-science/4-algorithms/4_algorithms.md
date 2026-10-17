@@ -56,6 +56,8 @@ Specific programming language.
 
 ### 1.2 Standard Flowchart Symbols
 
+<div class="table-wrap">
+
 | Symbol     | Shape                  | Purpose                                |
 | ---------- | ---------------------- | -------------------------------------- |
 | Terminator | Oval/rounded rectangle | Start/Stop                             |
@@ -63,6 +65,8 @@ Specific programming language.
 | Decision   | Diamond                | A yes/no question or condition         |
 | I/O        | Parallelogram          | Input or output                        |
 | Connector  | Circle                 | Links to another part of the flowchart |
+
+</div>
 
 ### 1.3 Why Algorithms Matter
 
@@ -199,12 +203,16 @@ print(f"Found at index: {result}")
 
 ### 2.3 Comparing Search Algorithms
 
+<div class="table-wrap">
+
 | Feature              | Linear Search | Binary Search |
 | -------------------- | ------------- | ------------- |
 | Data must be sorted? | No            | Yes           |
 | Best case            | $O(1)$        | $O(1)$        |
 | Average case         | $O(n)$        | $O(\log n)$   |
 | Worst case           | $O(n)$        | $O(\log n)$   |
+
+</div>
 
 **How big is the difference?** For an array of 1,048,576 ($= 2^{20}$) elements:
 
@@ -410,6 +418,8 @@ Split: [38, 27] and [43, 3] Split: [38], [27] and [43], [3] Merge: [27, 38] and 
 
 ### 3.4 Comparing Sorts
 
+<div class="table-wrap">
+
 | Feature      | Bubble Sort | Insertion Sort | Merge Sort (Higher)           |
 | ------------ | ----------- | -------------- | ----------------------------- |
 | Best case    | $O(n)$      | $O(n)$         | $O(n \log n)$                 |
@@ -417,6 +427,8 @@ Split: [38, 27] and [43, 3] Split: [38], [27] and [43], [3] Merge: [27, 38] and 
 | Worst case   | $O(n^2)$    | $O(n^2)$       | $O(n \log n)$                 |
 | Stable?      | Yes         | Yes            | Yes                           |
 | In-place?    | Yes         | Yes            | No (needs $O(n)$ extra space) |
+
+</div>
 
 **Stable sort:** Equal elements maintain their relative order. Both bubble and insertion sort are
 Stable because they only swap when `array[j] > array[j+1]` (strictly greater), never when equal.
@@ -480,6 +492,8 @@ OUTPUT max
 
 **Trace table for input [3, 7, 2, 9, 5]:**
 
+<div class="table-wrap">
+
 | element | max |
 | ------- | --- |
 | 3       | 3   |
@@ -487,6 +501,8 @@ OUTPUT max
 | 2       | 7   |
 | 9       | 9   |
 | 5       | 9   |
+
+</div>
 
 Output: 9
 
@@ -555,6 +571,8 @@ FOR i = 1 TO 5:
 OUTPUT total / count
 ```
 
+<div class="table-wrap">
+
 | i   | num | num > 2 | total | count | Output |
 | --- | --- | ------- | ----- | ----- | ------ |
 | 1   | 3   | Yes     | 3     | 1     |        |
@@ -562,6 +580,8 @@ OUTPUT total / count
 | 3   | 4   | Yes     | 7     | 2     |        |
 | 4   | 1   | No      | 7     | 2     |        |
 | 5   | 5   | Yes     | 12    | 3     | 4      |
+
+</div>
 
 Output: 12 / 3 = 4.
 
@@ -573,6 +593,8 @@ FOR i = 0 TO 3:
         IF array[j] > array[j + 1] THEN
             SWAP array[j] AND array[j + 1]
 ```
+
+<div class="table-wrap">
 
 | i   | j   | array[j] | array[j+1] | Swap? | Array after     |
 | --- | --- | -------- | ---------- | ----- | --------------- |
@@ -587,6 +609,8 @@ FOR i = 0 TO 3:
 | 2   | 1   | 2        | 3          | No    | [1, 2, 3, 4, 7] |
 | 3   | 0   | 1        | 2          | No    | [1, 2, 3, 4, 7] |
 
+</div>
+
 Final array: [1, 2, 3, 4, 7]
 
 ## 7. Big-O Notation (Higher Tier)
@@ -595,6 +619,8 @@ Big-O notation describes how the running time of an algorithm scales with the si
 
 ### 7.1 Common Complexities
 
+<div class="table-wrap">
+
 | Complexity    | Name         | Meaning                                                |
 | ------------- | ------------ | ------------------------------------------------------ |
 | $O(1)$        | Constant     | Same time regardless of input size                     |
@@ -602,6 +628,8 @@ Big-O notation describes how the running time of an algorithm scales with the si
 | $O(n)$        | Linear       | Time grows proportionally with input size              |
 | $O(n \log n)$ | Linearithmic | Slightly worse than linear; typical of efficient sorts |
 | $O(n^2)$      | Quadratic    | Time grows with the square of input size               |
+
+</div>
 
 ### 7.2 Why Big-O Matters
 

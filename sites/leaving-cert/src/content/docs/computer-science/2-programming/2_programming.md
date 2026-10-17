@@ -42,12 +42,16 @@ An algorithm is a step-by-step procedure for solving a problem. It must:
 
 **Choosing a representation:**
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
 | Pseudocode       | Medium    | Medium      | No         |
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
+
+</div>
 
 ## Programming Constructs (OL/HL)
 
@@ -175,12 +179,16 @@ print(f"Stack: {stack}")  # [10, 20]
 
 **Stack complexity:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
 | pop       | $O(1)$          |
 | peek      | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Queues (HL)
 
@@ -324,6 +332,8 @@ print(quick_sort(numbers))
 
 ### Sorting Algorithm Comparison (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
@@ -331,9 +341,13 @@ print(quick_sort(numbers))
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 
+</div>
+
 ## Big O Notation (HL)
 
 Big O notation describes the worst-case time complexity of an algorithm.
+
+<div class="table-wrap">
 
 | Complexity    | Name         | Example                             |
 | ------------- | ------------ | ----------------------------------- |
@@ -343,6 +357,8 @@ Big O notation describes the worst-case time complexity of an algorithm.
 | $O(n \log n)$ | Linearithmic | Merge sort, quick sort (average)    |
 | $O(n^2)$      | Quadratic    | Bubble sort, insertion sort         |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci                 |
+
+</div>
 
 **Rules for analysing code:**
 
@@ -473,12 +489,16 @@ def quick_sort(arr):
 
 ### Sorting Algorithm Comparison Table (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
+
+</div>
 
 ### Recursion in Detail (HL)
 
@@ -564,12 +584,16 @@ class LinkedList:
 
 **Linked list complexity:**
 
+<div class="table-wrap">
+
 | Operation   | Time Complexity |
 | ----------- | --------------- |
 | Append      | $O(n)$          |
 | Delete      | $O(n)$          |
 | Search      | $O(n)$          |
 | Insert head | $O(1)$          |
+
+</div>
 
 ## Additional Practice Questions
 
@@ -658,6 +682,8 @@ print(binary_search_string(words, "date"))  # 3
 
 **Trace on [5, 2, 4, 6, 1, 3]:**
 
+<div class="table-wrap">
+
 | Step | Array State        | Key | Shifts | Comparisons |
 | ---- | ------------------ | --- | ------ | ----------- |
 | 1    | [5, 2, 4, 6, 1, 3] | 2   | 1      | 1           |
@@ -665,6 +691,8 @@ print(binary_search_string(words, "date"))  # 3
 | 3    | [2, 4, 5, 6, 1, 3] | 6   | 0      | 1           |
 | 4    | [2, 4, 5, 6, 1, 3] | 1   | 4      | 4           |
 | 5    | [1, 2, 4, 5, 6, 3] | 3   | 2      | 3           |
+
+</div>
 
 Final: [1, 2, 3, 4, 5, 6]. Total comparisons: $1 + 2 + 1 + 4 + 3 = 11$.
 

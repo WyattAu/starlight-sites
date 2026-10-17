@@ -138,11 +138,15 @@ $$
 
 **Classification of orbits:**
 
+<div class="table-wrap">
+
 | Energy    | Eccentricity | Orbit Type                  |
 | --------- | ------------ | --------------------------- |
 | $E \lt 0$ | $e \lt 1$    | Ellipse (bound)             |
 | $E = 0$   | $e = 1$      | Parabola (marginally bound) |
 | $E \gt 0$ | $e \gt 1$    | Hyperbola (unbound)         |
+
+</div>
 
 **Bertrand's Theorem:** The only central potentials that give closed orbits for all bound states are
 $V(r) \propto 1/r$ (Kepler/Coulomb) and $V(r) \propto r^2$ (harmonic oscillator).
@@ -293,12 +297,16 @@ $$
 \partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}
 $$
 
+<div class="table-wrap">
+
 | Symmetry                                    | Conserved Quantity                                                         |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
 | Time translation                            | Energy $E = \int\mathcal{H}\,d^3x$                                         |
 | Space translation                           | Momentum $\mathbf{P} = \int\boldsymbol{\pi}\,d^3x$                         |
 | Rotation                                    | Angular momentum $\mathbf{L} = \int\mathbf{r}\times\boldsymbol{\pi}\,d^3x$ |
 | Phase rotation ($\phi \to e^{i\alpha}\phi$) | Charge $Q$                                                                 |
+
+</div>
 
 For the complex Klein--Gordon field, the conserved current is:
 
@@ -414,6 +422,8 @@ Classical field theory extends mechanics from particles to continuous media. A f
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                                      |
 | ------------------------------ | ----------- | ------------------------------------------------------------------------- |
 | Classical Mechanics (Overview) | WyattsNotes | [View](/1-classical-mechanics/14_flashcards-classical-mechanics/)                      |
@@ -421,8 +431,10 @@ Classical field theory extends mechanics from particles to continuous media. A f
 | Quantum Mechanics              | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                        |
 | Classical Mechanics, MIT 8.01 | MIT OCW     | [View](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -684,7 +696,7 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space representations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -999,6 +1011,8 @@ $$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The Hamiltonian always equals $T + V$ | no | a charged particle in an EM field, or any rheonomic constraint: $H = \sum p_j\dot q_j - L$ comes from the Legendre transform, not from $T + V$ |
@@ -1006,6 +1020,8 @@ $$
 | A Hamiltonian system always reaches equilibrium | no | Liouville forbids attractors entirely |
 | Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
 | Poisson brackets are invariant under any coordinate change | no | only under *canonical* transformations |
+
+</div>
 
 The relativistic row is the one to remember. It shows that the Legendre
 transform is a hypothesis about the Lagrangian, not a formality, and that the
@@ -1136,7 +1152,7 @@ the Hamiltonian formulation requires special treatment (Dirac brackets or Constr
 - **[Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -1388,7 +1404,7 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 - **[Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)**: The Hamiltonian becomes an operator in quantum mechanics, and the correspondence principle connects classical and quantum descriptions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -1508,7 +1524,7 @@ Each section includes:
 - **Mathematics:** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -2028,6 +2044,8 @@ natural before identifying $h$ With the total energy.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | $L = T - V$ always gives correct equations | no | a charged particle in an electromagnetic field needs $L = T - q\phi + q\,\mathbf{v}\cdot\mathbf{A}$ |
@@ -2035,6 +2053,8 @@ natural before identifying $h$ With the total energy.
 | The action is minimised | no | it is stationary; a saddle point is enough |
 | Constraint forces appear in the equations | no | they are eliminated by generalised coordinates |
 | Cyclic coordinates always exist | no | the double pendulum has none |
+
+</div>
 
 The electromagnetic Lagrangian is the one to remember. It shows that $T - V$ is
 not the definition of a Lagrangian but a special case, and that the general
@@ -2069,7 +2089,7 @@ practice never trains.
 - **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 3.11 Common Mistakes
 
@@ -2530,7 +2550,7 @@ The action-reaction pair in Newton's third law always acts on different objects.
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Statistical mechanics provides the microscopic foundation for thermodynamic laws by averaging over particle dynamics.
 - **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Electromagnetic forces between charged particles are described by Maxwell's equations, extending Newtonian mechanics to electrodynamics.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -2567,12 +2587,16 @@ Noether's theorem says they are all the same phenomenon. A continuous symmetry
 of the action produces a conserved quantity, and each familiar conservation law
 is the conserved quantity for one particular symmetry:
 
+<div class="table-wrap">
+
 | Symmetry of the Lagrangian | Conserved quantity |
 | -------------------------- | ------------------ |
 | translation in $x$         | linear momentum $p_x$ |
 | translation in $t$         | energy $H$ |
 | rotation about $z$         | angular momentum $L_z$ |
 | Galilean boost             | centre-of-mass motion |
+
+</div>
 
 Reading the table backwards is the useful direction. If you can *guess* a
 symmetry, you get a conservation law without solving anything. That is how
@@ -2720,12 +2744,16 @@ This is the energy function, which equals $T + V$ for natural systems. $\blacksq
 
 ### 5.6 Summary: Symmetry-Conservation Correspondence
 
+<div class="table-wrap">
+
 | Symmetry            | Transformation             | Conserved Quantity     |
 | ------------------- | -------------------------- | ---------------------- |
 | Time translation    | $t \to t + \epsilon$       | Energy $H$             |
 | Spatial translation | $x \to x + \epsilon$       | Linear momentum $p_x$  |
 | Rotation about $z$  | $\phi \to \phi + \epsilon$ | Angular momentum $L_z$ |
 | Galilean boost      | $x \to x + \epsilon t$     | Centre-of-mass motion  |
+
+</div>
 
 ## Intuition
 
@@ -2786,12 +2814,16 @@ transformation -- is the standard error.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Discrete symmetries give conserved quantities | no | parity is a symmetry of electromagnetism but nothing is conserved by it |
 | Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
 | Symmetry of the *equations* is enough | no | the theorem needs symmetry of the *action* |
 | Noether's theorem applies to dissipative systems | no | friction is not derivable from a Lagrangian |
+
+</div>
 
 The first row is the one most often asserted wrongly. It is *continuous*
 symmetries only, because the proof differentiates with respect to the
@@ -2837,7 +2869,7 @@ the symplectic structure page.
 - **[Central Force Problems](/1-classical-mechanics/6_central-force-problems/)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -3069,7 +3101,7 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 - **[Small Oscillations and Normal Modes](/1-classical-mechanics/7_small-oscillations-and-normal-modes/)**: Linear stability analysis near equilibrium points provides the foundation for understanding chaotic behavior.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -3888,7 +3920,7 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Common Mistakes
@@ -4213,7 +4245,7 @@ The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{
 - **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -4444,12 +4476,16 @@ Rigid body dynamics describes how extended objects rotate, where the distributio
 
 ### Key Relationships Summary
 
+<div class="table-wrap">
+
 | Quantity | Expression | Notes |
 | --- | --- | --- |
 | Euler's equations | $I_1\dot{\omega}_1 = (I_2 - I_3)\omega_2\omega_3$ | Body frame, no external torque |
 | Tilted top precession | $\dot{\phi} = I_3\omega_3/(I_1\omega_1)$ | Angle between $\mathbf{L}$ and symmetry axis |
 | Fast-top precession | $\dot{\phi} \approx Mgd/(I_3\omega_3)$ | Independent of $\theta$ to leading order |
 | Nutation frequency | $\dot{\theta}$ oscillates in $V_{\text{eff}}$ | Looping/cusped/smooth types |
+
+</div>
 
 These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
 coupled or driven systems, numerical integration of the full Euler equations is required.
@@ -4461,7 +4497,7 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism provides phase space representation of rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -4641,6 +4677,8 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 
 ### 7.8 Key Results Summary
 
+<div class="table-wrap">
+
 | Result | Statement |
 | --- | --- |
 | Secular equation | $\det(\mathbf{V} - \omega^2\mathbf{T}) = 0$ gives normal mode frequencies |
@@ -4649,6 +4687,8 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 | Beat phenomenon | Two pendulums with close frequencies exchange energy periodically |
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
 
+</div>
+
 ## Cross-References
 
 - **[Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)**: The Lagrangian formulation provides the foundation for analyzing small oscillations and normal modes.
@@ -4656,7 +4696,7 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - **[Rigid Body Dynamics](/1-classical-mechanics/8_rigid-body-dynamics/)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -5093,6 +5133,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Meaning |
 | ---------- | ------------ | ------------------ |
 | Critical temperature | $T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ | Onset of macroscopic occupation |
@@ -5100,6 +5142,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Energy below $T_c$ | $U \propto Nk_B T_c (T/T_c)^{5/2}$ | Deviates from equipartition |
 | Heat capacity | $C_V \propto T^{3/2}$ below $T_c$ | Signature of BEC phase |
 | de Broglie wavelength | $\lambda_{\text{th}} = h/\sqrt{2\pi m k_B T}$ | BEC occurs when $n\lambda_{\text{th}}^3 \approx 2.612$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -5124,6 +5168,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 ### Summary Table: Ideal Bose Gas vs Ideal Fermi Gas
 
+<div class="table-wrap">
+
 | Property | Bose Gas | Fermi Gas |
 | ---------- | ---------- | ----------- |
 | Statistics | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} - 1)^{-1}$ | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} + 1)^{-1}$ |
@@ -5132,6 +5178,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Low-$T$ heat capacity | $C_V \propto T^{3/2}$ | $C_V \propto T$ |
 | Phase transition | BEC at $T_c$ | No phase transition |
 | High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
+
+</div>
 
 ## Intuition
 
@@ -5144,7 +5192,7 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - **[Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)**: The contrast between Bose and Fermi statistics leads to fundamentally different low-temperature behaviours.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -5387,7 +5435,7 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 - **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -5500,6 +5548,8 @@ is a key signature of a Fermi liquid. $\blacksquare$
 
 ### Summary of Key Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential | Symbol | Natural Variables | Differential |
 | ----------- | -------- | ------------------- | -------------- |
 | Internal energy | $U$ | $S, V, N$ | $dU = TdS - PdV + \mu dN$ |
@@ -5507,6 +5557,8 @@ is a key signature of a Fermi liquid. $\blacksquare$
 | Helmholtz free energy | $F$ | $T, V, N$ | $dF = -SdT - PdV + \mu dN$ |
 | Gibbs free energy | $G$ | $T, P, N$ | $dG = -SdT + VdP + \mu dN$ |
 | Grand potential | $\Phi$ | $T, V, \mu$ | $d\Phi = -SdT - PdV - Nd\mu$ |
+
+</div>
 
 ### Additional Pitfalls
 
@@ -5561,7 +5613,7 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -5693,12 +5745,16 @@ $\blacksquare$
 
 ### 4.5 Key Relationships
 
+<div class="table-wrap">
+
 | Concept              | Relation                                                              | Physical Meaning                                          |
 | -------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
 | Sommerfeld expansion | $I = \int_0^\mu f\,d\varepsilon + \frac{\pi^2}{6}(k_BT)^2 f''(\mu)$  | Low-temperature correction to $T=0$ integrals             |
 | Chemical potential   | $\mu(T) \approx \varepsilon_F\left[1 - \frac{\pi^2}{12}(T/T_F)^2\right]$ | $\mu$ decreases quadratically with $T$                    |
 | Electronic heat cap. | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$                            | Linear in $T$, suppressed by $T/T_F \ll 1$               |
 | Fermi temperature    | $T_F = \varepsilon_F/k_B$                                             | Temperature scale where quantum effects become important |
+
+</div>
 
 ### 4.6 Common Pitfalls
 
@@ -5721,7 +5777,7 @@ $\blacksquare$
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation contrasts with Fermi gas behaviour, showing how quantum statistics determine low-temperature properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ### 4.8 Worked Example: Sommerfeld Correction to the Electron Density
@@ -5752,11 +5808,15 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
 
 ### 4.9 Summary Table
 
+<div class="table-wrap">
+
 | Quantity              | $T = 0$                  | $T \ll T_F$ (Sommerfeld)                      |
 | --------------------- | ------------------------ | --------------------------------------------- |
 | Chemical potential    | $\mu = \varepsilon_F$    | $\mu \approx \varepsilon_F[1 - \frac{\pi^2}{12}(T/T_F)^2]$ |
 | Energy density        | $U_0 = \frac{3}{5}N\varepsilon_F$ | $U \approx U_0[1 + \frac{5\pi^2}{12}(T/T_F)^2]$ |
 | Heat capacity         | 0                        | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$     |
+
+</div>
 
 ---
 
@@ -5897,6 +5957,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Content |
 | ---------- | ------------ | ------------------ |
 | Response function | $\chi_{AA}(t) = \frac{i}{\hbar}\theta(t)\langle[A(t), A(0)]\rangle_0$ | Causal linear response |
@@ -5904,6 +5966,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 | Johnson--Nyquist | $\langle V^2 \rangle = 4k_B T R \Delta f$ | Voltage noise in resistor |
 | Einstein relation | $D = \mu k_B T$ | Diffusion $\leftrightarrow$ mobility |
 | Nyquist formula | $S_V(\omega) = 2k_B T R(\omega)$ | Generalised impedance noise |
+
+</div>
 
 ### Common Pitfalls
 
@@ -5929,6 +5993,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 
 ### Summary Table: FDT in Different Contexts
 
+<div class="table-wrap">
+
 | System | Fluctuation | Dissipation | FDT Relation |
 | -------- | ------------- | ------------- | -------------- |
 | Resistor | Voltage noise $\langle V^2 \rangle$ | Resistance $R$ | $\langle V^2 \rangle = 4k_B T R \Delta f$ |
@@ -5936,6 +6002,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 | Harmonic oscillator | Amplitude fluctuations | Damping rate $\Gamma$ | $S_x(\omega) = \frac{2k_B T}{\omega}\,\chi''(\omega)$ |
 | Blackbody radiation | Field fluctuations | Absorption cross section | Planck spectrum $S(\omega) = \frac{\hbar\omega^3}{\pi^2 c^2}(e^{\hbar\omega/k_BT} - 1)^{-1}$ |
 | Magnetic system | Magnetisation noise | Magnetic susceptibility | $\chi''(\omega) = \frac{\omega}{2k_B T} S_M(\omega)$ |
+
+</div>
 
 ### Additional Worked Example: Fluctuation-Dissipation in an RLC Circuit
 
@@ -5956,7 +6024,7 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - **[Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -6083,7 +6151,7 @@ Each section includes:
 - **Mathematics:** Probability theory and combinatorics underpin statistical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -6216,6 +6284,8 @@ from equilibrium (sudden quench).
 
 ### 19.5 Key Relationships
 
+<div class="table-wrap">
+
 | Theorem              | Statement                                                                     | Connection to equilibrium                      |
 | -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------- |
 | Fluctuation-dissip.  | $\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$                 | Response $\leftrightarrow$ equilibrium fluctuations |
@@ -6223,6 +6293,8 @@ from equilibrium (sudden quench).
 | Einstein relation    | $D = \mu k_BT$                                                                | Diffusion $\leftrightarrow$ mobility            |
 | Jarzynski equality   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$                            | Non-equilibrium work $\leftrightarrow$ free energy |
 | Crooks theorem       | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$                                    | Forward/reverse work distributions              |
+
+</div>
 
 The fluctuation-dissipation theorem unifies these: the Einstein relation and Johnson-Nyquist formula are special cases of the FDT applied to Brownian motion and electrical circuits, respectively.
 
@@ -6243,6 +6315,8 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 
 ### 19.8 Summary Table
 
+<div class="table-wrap">
+
 | Concept                 | Type                | Domain                 | Key formula                                    |
 | ----------------------- | ------------------- | ---------------------- | ---------------------------------------------- |
 | Fluctuation-dissipation | General theorem     | Near equilibrium       | $\chi''(\omega) = \frac{\omega}{2k_BT}S_A(\omega)$ |
@@ -6250,6 +6324,8 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Einstein relation       | Specific application | Brownian motion        | $D = \mu k_BT$                                 |
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
+
+</div>
 
 ## Intuition
 
@@ -6280,7 +6356,7 @@ $\blacksquare$
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -6394,6 +6470,8 @@ $$
 
 For $J = 1$ (in units of $k_B$):
 
+<div class="table-wrap">
+
 | Lattice      | $z$ | $T_c^{\text{MF}}$ |
 | ------------ | --- | ----------------- |
 | Linear chain | 2   | 2                 |
@@ -6401,6 +6479,8 @@ For $J = 1$ (in units of $k_B$):
 | Simple cubic | 6   | 6                 |
 | BCC          | 8   | 8                 |
 | FCC          | 12  | 12                |
+
+</div>
 
 Compare with the exact $T_c$: 1D has no transition, 2D square has
 $T_c \approx 2.269$3D (numerical) $T_c \approx 4.51$. Mean-field overestimates $T_c$ in all cases,
@@ -6467,6 +6547,8 @@ for $d < 4$. The exponents depend only on dimensionality and symmetry, not on mi
 
 ### 12.5 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Mean-Field Theory | 2D Ising (Exact) | 3D Ising (Numerical) |
 | -------- | ----------------- | ------------------ | ---------------------- |
 | $T_c$ (square lattice, $J=1$) | 4 | 2.269 | ~4.51 |
@@ -6474,6 +6556,8 @@ for $d < 4$. The exponents depend only on dimensionality and symmetry, not on mi
 | $\gamma$ | 1 | 7/4 | ~1.237 |
 | $\alpha$ | 0 (jump) | 0 (log) | ~0.110 |
 | $\nu$ | 1/2 | 1 | ~0.630 |
+
+</div>
 
 ### 12.6 Applications
 
@@ -6514,7 +6598,7 @@ Critical exponents are universal: they depend only on the dimensionality of the 
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -6712,7 +6796,7 @@ Landau theory is a mathematical framework for understanding how systems choose b
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Landau theory connects the microscopic partition function to macroscopic thermodynamic behaviour through the free energy expansion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -6927,6 +7011,8 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 
 ### 14.9 Summary of Key Formulas
 
+<div class="table-wrap">
+
 | Quantity | Expression |
 | ---------- | ----------- |
 | Microcanonical partition function | $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} d^{3N}q\,d^{3N}p / (N! h^{3N})$ |
@@ -6935,6 +7021,8 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 | Pressure | $P = T\,\partial S/\partial V$ |
 | Chemical potential | $\mu = -T\,\partial S/\partial N$ |
 | Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
+
+</div>
 
 ## Intuition
 
@@ -6958,7 +7046,7 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -6981,11 +7069,15 @@ derivative of the Gibbs free energy is discontinuous.
 
 ### 10.1 Classification of Phase Transitions
 
+<div class="table-wrap">
+
 | Order              | Definition                                                                       | Example                        |
 | ------------------ | -------------------------------------------------------------------------------- | ------------------------------ |
 | First order        | $G$ continuous; $\partial G/\partial T$ or $\partial G/\partial P$ discontinuous | Boiling of water               |
 | Second order       | First derivatives continuous; second derivatives discontinuous                   | Superconducting transition     |
 | Lambda ($\lambda$) | Divergent second derivatives                                                     | Helium-4 superfluid transition |
+
+</div>
 
 For a first-order transition at temperature $T_c$ The **latent heat** is:
 
@@ -7042,12 +7134,16 @@ Where $\beta = 1/2$ is the **mean-field critical exponent** (van der Waals predi
 Near a second-order phase transition, thermodynamic quantities follow power laws characterized by
 **critical exponents**:
 
+<div class="table-wrap">
+
 | Exponent | Definition                           | Mean-field | 2D Ising | 3D Ising (numerical) |
 | -------- | ------------------------------------ | ---------- | -------- | -------------------- |
 | $\alpha$ | $C \propto \|t\|^{-\alpha}$          | 0 (jump)   | 0 (log)  |
 | $\beta$  | $\phi \propto (-t)^\beta$            | $1/2$      | $1/8$    | $\approx 0.326$      |
 | $\gamma$ | $\chi \propto \|t\|^{-\gamma}$       | $1$        | $7/4$    |
 | $\delta$ | $\phi \propto h^{1/\delta}$ at $t=0$ | $3$        | $15$     | $\approx 4.789$      |
+
+</div>
 
 Where $t = (T - T_c)/T_c$ is the reduced temperature and $h$ is the conjugate field.
 
@@ -7156,7 +7252,7 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -7538,7 +7634,7 @@ Thermal physics connects the microscopic world of individual particles to the ma
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -7836,7 +7932,7 @@ $C/A = (2\pi^2 k_B^4)/(15\hbar^3 c^2)\,T^3 \propto T^3$ (Debye $T^3$ in 2D).
 - **[The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/)**: Phonon quantisation in the Debye model uses the same Bose-Einstein occupation statistics developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -7980,6 +8076,8 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Relation | Significance |
 | --------- | ---------- | -------------- |
 | Distribution function | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} \pm 1)^{-1}$ | Unified form for FD/BE |
@@ -7987,6 +8085,8 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | BEC critical temperature | $T_c = 2\pi\hbar^2 n^{2/3}/(mk_B \zeta(3/2)^{2/3})$ | Phase transition temperature |
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
+
+</div>
 
 ## Intuition
 
@@ -8018,6 +8118,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 
 ### Summary Table: Comparison of Quantum and Classical Gases
 
+<div class="table-wrap">
+
 | Property | Maxwell--Boltzmann | Fermi--Dirac | Bose--Einstein |
 | ---------- | ------------------- | ------------- | ---------------- |
 | Particles | Distinguishable | Indistinguishable fermions | Indistinguishable bosons |
@@ -8027,6 +8129,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 | Validity condition | $n\lambda_{\text{th}}^3 \ll 1$ | $n\lambda_{\text{th}}^3 \gtrsim 1$ | $n\lambda_{\text{th}}^3 \gtrsim 2.612$ |
 | Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
 
+</div>
+
 ## Cross-References
 
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
@@ -8034,7 +8138,7 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - **[Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -8327,7 +8431,7 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 - **[The Ising Model](/2-thermal-physics/6_the-ising-model/)**: The Ising model is a foundational statistical mechanics model for studying phase transitions and magnetic ordering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -8539,7 +8643,7 @@ The average sound speed $v_s$ used in the Debye model must account for both long
 - [Irreversible Thermodynamics and Fluctuations](/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/) -- Phonon transport and thermal conductivity connect the equilibrium Debye model to irreversible thermodynamic processes.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -8730,7 +8834,7 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Applications
@@ -8861,11 +8965,15 @@ These are the **classical** critical exponents. They are independent of the spat
 and the lattice structure --- a deficiency of mean field theory. Exact results and renormalisation
 group calculations give dimension-dependent exponents that agree with experiment.
 
+<div class="table-wrap">
+
 | Exponent | Mean Field | 2D Ising | 3D Ising |
 | -------- | ---------- | -------- | -------- |
 | $\alpha$ | 0 (jump)   | 0 (log)  | 0.110    |
 | $\beta$  | 1/2        | 1/8      | 0.326    |
 | $\gamma$ | 1          | 7/4      | 1.237    |
+
+</div>
 
 ### 6.5 Worked Example: Mean Field Theory for the 2D Square Lattice
 
@@ -8946,7 +9054,7 @@ The Ising model is the simplest system showing how local interactions create glo
 </script>
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -9063,12 +9171,16 @@ $$
 
 ### 1.5 Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential    | Natural Variables | Differential      | Name                  |
 | ------------ | ----------------- | ----------------- | --------------------- |
 | $U$          | $S, V$            | $dU = TdS - PdV$  | Internal Energy       |
 | $H = U + PV$ | $S, P$            | $dH = TdS + VdP$  | Enthalpy              |
 | $F = U - TS$ | $T, V$            | $dF = -SdT - PdV$ | Helmholtz Free Energy |
 | $G = H - TS$ | $T, P$            | $dG = -SdT + VdP$ | Gibbs Free Energy     |
+
+</div>
 
 **Theorem 1.5.** At equilibrium for a system in contact with a heat bath at temperature $T$: $F$ is
 minimised at constant $T, V$; $G$ is minimised at constant $T, P$.
@@ -9143,7 +9255,7 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -9185,12 +9297,16 @@ $$
 
 From the exact differentials of thermodynamic potentials:
 
+<div class="table-wrap">
+
 | Potential | Differential     | Maxwell Relation                                        |
 | --------- | ---------------- | ------------------------------------------------------- |
 | $U(S,V)$  | $dU = TdS - PdV$ | $\left(\dfrac{\partial T}{\partial V}\right)_S = -\left(\dfrac{\partial P}{\partial S}\right)_V$ |
 | $H(S,P)$  | $dH = TdS + VdP$ | $\left(\dfrac{\partial T}{\partial P}\right)_S = +\left(\dfrac{\partial V}{\partial S}\right)_P$ |
 | $F(T,V)$  | $dF = -SdT - PdV$ | $\left(\dfrac{\partial S}{\partial V}\right)_T = \left(\dfrac{\partial P}{\partial T}\right)_V$ |
 | $G(T,P)$  | $dG = -SdT + VdP$ | $\left(\dfrac{\partial S}{\partial P}\right)_T = -\left(\dfrac{\partial V}{\partial T}\right)_P$ |
+
+</div>
 
 ### 17.3 Jacobian Formalism
 
@@ -9521,7 +9637,7 @@ Thermodynamic response functions measure how a system reacts to small changes in
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- The Debye $T^3$ law for heat capacity is a specific example of the general heat capacity theory developed here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -9807,12 +9923,16 @@ Equipartition.
 The internal energy $U$ is the fundamental thermodynamic potential. By performing Legendre
 Transformations on $U(S, V, N)$ We obtain the other potentials:
 
+<div class="table-wrap">
+
 | Potential             | Symbol | Natural Variables | Differential                    |
 | --------------------- | ------ | ----------------- | ------------------------------- |
 | Internal energy       | $U$    | $S, V, N$         | $dU = T\,dS - P\,dV + \mu\,dN$  |
 | Enthalpy              | $H$    | $S, P, N$         | $dH = T\,dS + V\,dP + \mu\,dN$  |
 | Helmholtz free energy | $F$    | $T, V, N$         | $dF = -S\,dT - P\,dV + \mu\,dN$ |
 | Gibbs free energy     | $G$    | $T, P, N$         | $dG = -S\,dT + V\,dP + \mu\,dN$ |
+
+</div>
 
 The Legendre transforms are:
 
@@ -9865,12 +9985,16 @@ Since each thermodynamic potential is a state function, its differential is exac
 Reciprocity, mixed second partial derivatives are equal. This yields the four Maxwell relations
 Directly:
 
+<div class="table-wrap">
+
 | From potential | Exact differential    | Maxwell relation                                         |
 | -------------- | --------------------- | -------------------------------------------------------- |
 | $U(S,V)$       | $dU = T\,dS - P\,dV$  | $(\partial T/\partial V)_S = -(\partial P/\partial S)_V$ |
 | $H(S,P)$       | $dH = T\,dS + V\,dP$  | $(\partial T/\partial P)_S = (\partial V/\partial S)_P$  |
 | $F(T,V)$       | $dF = -S\,dT - P\,dV$ | $(\partial S/\partial V)_T = (\partial P/\partial T)_V$  |
 | $G(T,P)$       | $dG = -S\,dT + V\,dP$ | $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$ |
+
+</div>
 
 These relations allow us to express unmeasurable quantities (entropy changes) in terms of Measurable
 ones (equations of state).
@@ -10166,6 +10290,8 @@ J.
 
 **Summary:**
 
+<div class="table-wrap">
+
 | Quantity                               | Value  |
 | -------------------------------------- | ------ |
 | $Q_h$ (absorbed)                       | 6915 J |
@@ -10173,6 +10299,8 @@ J.
 | $W_{\mathrm{net} = Q_h - Q_c}$         | 3457 J |
 | $\eta = W_{\mathrm{net}/Q_h}$          | 0.500  |
 | $\eta_{\mathrm{Carnot} = 1 - T_c/T_h}$ | 0.500  |
+
+</div>
 
 The efficiency matches the Carnot prediction exactly, as expected for a reversible cycle.
 
@@ -11272,12 +11400,16 @@ $d_u = 4$.
 
 Near a critical point, thermodynamic quantities follow power laws:
 
+<div class="table-wrap">
+
 | Quantity                      | Power law                                      | Exponent |
 | ----------------------------- | ---------------------------------------------- | -------- |
 | Order parameter ($T \lt T_c$) | $\phi \propto (T_c - T)^\beta$                 | $\beta$  |
 | Susceptibility                | $\chi \propto \lvert T - T_c \rvert^{-\gamma}$ | $\gamma$ |
 | Specific heat                 | $C \propto \lvert T - T_c \rvert^{-\alpha}$    | $\alpha$ |
 | Correlation length            | $\xi \propto \lvert T - T_c \rvert^{-\nu}$     | $\nu$    |
+
+</div>
 
 The **scaling relations** (from the homogeneity hypothesis):
 
@@ -11443,6 +11575,8 @@ For a classical system.
 
 **Theorem 16.1.** All thermodynamic quantities follow from $\ln Z$:
 
+<div class="table-wrap">
+
 | Quantity              | Formula                                                       |
 | --------------------- | ------------------------------------------------------------- |
 | Internal energy       | $U = -\partial \ln Z / \partial \beta$                        |
@@ -11451,6 +11585,8 @@ For a classical system.
 | Pressure              | $P = k_B T\,(\partial \ln Z/\partial V)_{\beta,N}$            |
 | Chemical potential    | $\mu = -k_B T\,(\partial \ln Z/\partial N)_{\beta,V}$         |
 | Heat capacity         | $C_V = k_B\beta^2(\langle E^2 \rangle - \langle E \rangle^2)$ |
+
+</div>
 
 **Proof (energy and heat capacity).**
 
@@ -12708,6 +12844,8 @@ import { Citation } from "@components/Citations.astro"
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Energy conservation implies heat flows from hot to cold | no | all four laws together forbid it; a cup of tea cooling does not violate the first law, it violates the second |
@@ -12719,6 +12857,8 @@ import { Citation } from "@components/Citations.astro"
 | $dS = \delta Q/T$ for any process | no | only for reversible paths; the entropy change of a state function is path independent, the heat is not |
 | Phase transitions are first order | no | the critical point is second order, and third-order and higher transitions exist |
 | The canonical and microcanonical ensembles give the same answer | no | they agree only in the thermodynamic limit; finite systems differ, and the difference is measurable |
+
+</div>
 
 The first row is the one worth internalising: every one of the four laws is
 consistent with the others in isolation, and the second law cannot be derived
@@ -12786,14 +12926,18 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic            | Site       | Link                                                                                                             |
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Thermodynamics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
 | [Thermodynamics] | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)                   |
 | [Thermodynamics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -12901,6 +13045,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Formula | Significance |
 | --------- | --------- | -------------- |
 | Landauer bound | $E_{\min} = k_B T \ln 2$ | Minimum heat per erased bit |
@@ -12908,6 +13054,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Free energy change | $\Delta F = \Delta U - T\Delta S$ | Reversible work available |
 | Second law with info | $\Delta S_{\text{univ}} = \Delta S_{\text{sys}} + \Delta S_{\text{bath}} - \Delta I \geq 0$ | Information as negative entropy |
 | Bennett's reversible computing | $W_{\text{rev}} = \Delta F$ | No energy dissipated per logical step |
+
+</div>
 
 ### Common Pitfalls
 
@@ -12918,6 +13066,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Process | Information Change | Minimum Heat Dissipation |
 | --------- | ------------------- | ------------------------- |
 | Bit erasure (reset) | $1$ bit $\to$ $0$ (known) | $k_B T \ln 2$ |
@@ -12925,6 +13075,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Measurement | Unknown $\to$ known | $\geq k_B T \ln 2$ (for resetting meter) |
 | Logical AND (irreversible) | $2$ bits $\to$ $1$ bit | $k_B T \ln 2$ |
 | Reversible gate (CNOT, Toffoli) | $n$ bits $\to$ $n$ bits | $0$ (in principle) |
+
+</div>
 
 ### Connections to Other Topics
 
@@ -12956,6 +13108,8 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Thermal Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/01-thermal-properties) |
@@ -12963,8 +13117,10 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 | [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/)                        |
 | [Thermal Physics] | University | [View](https://physics.wyattau.com/)                    |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -13022,11 +13178,15 @@ Leaves $\mathbf{E}$ and $\mathbf{B}$ unchanged for any scalar function $\chi(\ma
 
 **Common gauges:**
 
+<div class="table-wrap">
+
 | Gauge    | Condition                                                                    | Use                                |
 | -------- | ---------------------------------------------------------------------------- | ---------------------------------- |
 | Coulomb  | $\nabla \cdot \mathbf{A} = 0$                                                | Static problems, quantum mechanics |
 | Lorenz   | $\nabla \cdot \mathbf{A} + \frac{1}{c^2}\frac{\partial\phi}{\partial t} = 0$ | Relativistic problems, radiation   |
 | Temporal | $\phi = 0$                                                                   | Some scattering problems           |
+
+</div>
 
 In the Lorenz gauge, both $\mathbf{A}$ and $\phi$ satisfy wave equations with sources:
 
@@ -13248,7 +13408,7 @@ dipole ($D = 1.5$).
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -13477,7 +13637,7 @@ Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applie
 - **[The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)**: The wave equation for electromagnetic fields follows from Maxwell's equations and describes light propagation.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -13836,7 +13996,7 @@ The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the 
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Larmor formula and dipole radiation patterns extend the plane-wave analysis to realistic sources.
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Laser cavity modes are solutions of the wave equation with boundary conditions, connecting EM wave theory to laser physics.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -14412,7 +14572,7 @@ Each section includes:
 - **Particle Physics:** The photon is the gauge boson of electromagnetism in the Standard Model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -14732,7 +14892,7 @@ In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are paralle
 - **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: Electrodynamics extends magnetostatics to include time-varying fields and induction effects.
 - **[Solid State Physics: Electronic Band Structure](/6-solid-state-physics/5_electronic-band-structure/)**: Magnetic properties of materials arise from electron band structure and exchange interactions.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -14878,12 +15038,16 @@ Where $\mathbf{K}_f$ is the free surface current density.
 
 **Summary** (no free charges or currents, $\sigma_f = 0$, $\mathbf{K}_f = \mathbf{0}$):
 
+<div class="table-wrap">
+
 | Field        | Normal component                              | Tangential component                          |
 | ------------ | --------------------------------------------- | --------------------------------------------- |
 | $\mathbf{E}$ | $\varepsilon_1 E_{1n} = \varepsilon_2 E_{2n}$ | $E_{1t} = E_{2t}$                             |
 | $\mathbf{D}$ | $D_{1n} = D_{2n}$                             | $D_{1t}/\varepsilon_1 = D_{2t}/\varepsilon_2$ |
 | $\mathbf{B}$ | $\mu_1 B_{1n} = \mu_2 B_{2n}$                 | $B_{1t}/\mu_1 = B_{2t}/\mu_2$                 |
 | $\mathbf{H}$ | $\mu_2 H_{1n} = \mu_1 H_{2n}$                 | $H_{1t} = H_{2t}$                             |
+
+</div>
 
 ### Intuition
 
@@ -15069,7 +15233,7 @@ The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{
 - **[The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)**: Electromagnetic waves are solutions to Maxwell's equations in free space, with speed $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -15165,6 +15329,8 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
@@ -15172,11 +15338,15 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 13.3 Key Relationships
+
+<div class="table-wrap">
 
 | Quantity              | Formula                                    | Physical role                                            |
 | --------------------- | ------------------------------------------ | -------------------------------------------------------- |
@@ -15185,6 +15355,8 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | Langmuir wave         | $\omega^2 = \omega_p^2 + 3k^2 v_{\rm th}^2$       | Electrostatic wave in unmagnetised plasma                |
 | Ion-acoustic wave     | $\omega^2 = k^2 c_s^2 / (1 + k^2\lambda_D^2)$     | Low-frequency wave with ion inertia and electron pressure |
 | Electron gyrofrequency| $\omega_{ce} = eB/m_e$                            | Cyclotron frequency in magnetised plasma                 |
+
+</div>
 
 ### 13.4 Common Pitfalls
 
@@ -15220,6 +15392,8 @@ $\blacksquare$
 
 ### 13.7 Summary Table
 
+<div class="table-wrap">
+
 | Regime               | Condition                 | Key behaviour                              |
 | -------------------- | ------------------------- | ------------------------------------------ |
 | Debye shielding      | $r > \lambda_D$           | Electric fields screened out               |
@@ -15227,6 +15401,8 @@ $\blacksquare$
 | EM wave propagation  | $\omega > \omega_p$       | Wave propagates through plasma             |
 | EM wave cut-off      | $\omega < \omega_p$       | Wave is evanescent, reflected              |
 | Ion-acoustic waves   | $T_e \gg T_i$             | Sound-like waves with $c_s = \sqrt{k_BT_e/m_i}$ |
+
+</div>
 
 ## See Also
 
@@ -15450,7 +15626,7 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Common Mistakes
@@ -16348,7 +16524,7 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 - **[Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Common Mistakes
@@ -16553,7 +16729,7 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 - [Potentials and Gauge Transformations](/3-electromagnetism/6_potentials-and-gauge-transformations/) -- The Liénard-Wiechert potentials are the retarded solutions to the wave equations for potentials derived in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Intuition
@@ -16765,7 +16941,7 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The relativistic Larmor formula and Liénard-Wiechert fields extend the dipole radiation analysis to moving charges.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -16847,6 +17023,8 @@ charge quantisation condition $eg = n\hbar/2$.
 
 ### 12.4 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity              | 3-vector form              | 4-vector / tensor form              |
 | --------------------- | -------------------------- | ----------------------------------- |
 | Potential             | $\phi$, $\mathbf{A}$       | $A^\mu = (\phi/c, \mathbf{A})$      |
@@ -16854,6 +17032,8 @@ charge quantisation condition $eg = n\hbar/2$.
 | Charge-current        | $\rho$, $\mathbf{J}$       | $J^\mu = (c\rho, \mathbf{J})$       |
 | Force density         | $\rho\mathbf{E} + \mathbf{J}\times\mathbf{B}$ | $f^\mu = F^{\mu\nu}J_\nu$ |
 | Energy-momentum       | $u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$, $\mathbf{S}$ | $T^{\mu\nu}$ |
+
+</div>
 
 ## Intuition
 
@@ -16934,7 +17114,7 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The synchrotron radiation patterns arise from the field configurations of ultrarelativistic charges treated here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -17089,11 +17269,15 @@ Check: $v_p \times v_g = 1.32c \times 0.756c = c^2$. $\checkmark$
 
 For a circular waveguide of radius $R$, the TE modes have cutoff wavenumbers $k_c = p'_{mn}/R$ where $p'_{mn}$ is the $n$-th root of $J'_m(x) = 0$. The TM modes have $k_c = p_{mn}/R$ where $p_{mn}$ is the $n$-th root of $J_m(x) = 0$.
 
+<div class="table-wrap">
+
 | Mode | Cutoff condition | Lowest root | $f_c$ for $R = 1$ cm |
 | ------ | ----------------- | ------------- | --------------------- |
 | TE$_{11}$ | $J'_1(p'_{11}) = 0$ | $p'_{11} = 1.841$ | 8.79 GHz |
 | TM$_{01}$ | $J_0(p_{01}) = 0$ | $p_{01} = 2.405$ | 11.48 GHz |
 | TE$_{21}$ | $J'_2(p'_{21}) = 0$ | $p'_{21} = 3.054$ | 14.58 GHz |
+
+</div>
 
 The dominant mode in a circular waveguide is TE$_{11}$, with cutoff $f_c = \frac{cp'_{11}}{2\pi R} = \frac{1.841c}{2\pi R}$. Circular waveguides are used in rotating joints and polarisation-sensitive applications because TE$_{11}$ maintains polarisation orientation.
 
@@ -17118,7 +17302,7 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Key Relationships
@@ -17302,6 +17486,8 @@ $\theta_s = 1.22\lambda/d$.
 
 ### 8.9 Coherence of Laser Light vs Thermal Light
 
+<div class="table-wrap">
+
 | Property | Laser | Thermal source |
 | ---------- | ------- | ---------------- |
 | Spectral width $\Delta\nu$ | $\sim 1$ MHz or less | $\sim 10^{14}$ Hz |
@@ -17309,6 +17495,8 @@ $\theta_s = 1.22\lambda/d$.
 | Coherence length $L_c$ | $\sim 300$ m or more | $\sim 1\ \mu$m |
 | Spatial coherence | Full (across beam) | Limited by van Cittert-Zernike |
 | $g^{(2)}(0)$ | $1$ (coherent) | $2$ (chaotic) |
+
+</div>
 
 ### 8.10 Worked Example: Spatial Coherence of Sunlight
 
@@ -17577,7 +17765,7 @@ Fringe visibility also depends on the intensity ratio of the two beams. For equa
 
 Coherence measures how predictable the phase relationship is between different points on a wave. Temporal coherence tells you how long you can trust the phase before it wanders randomly, like how long a tuning fork stays in tune. Spatial coherence tells you how far apart two points can be while still maintaining a fixed phase relationship, like how many people in a crowd are clapping in sync. The van Cittert-Zernike theorem connects source size to coherence: a smaller source produces more coherent light. Thermal light has short coherence because atoms emit independently.
 
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -17607,12 +17795,16 @@ $$
 
 The **coherence length**: $l_c = c\tau_c = \lambda^2/\Delta\lambda$.
 
+<div class="table-wrap">
+
 | Source           | $\Delta\lambda$   | $l_c$            |
 | ---------------- | ----------------- | ---------------- |
 | White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$ M |
 | Na D line        | $\sim 0.6$ nm     | $\sim 0.5$ mm    |
 | He-Ne laser      | $\sim 0.002$ nm   | $\sim 20$ cm     |
 | Stabilised laser | $\sim 10^{-6}$ nm | $\sim 400$ km    |
+
+</div>
 
 ### 16.2 Spatial Coherence
 
@@ -17653,12 +17845,16 @@ $$
 
 ### 16.4 Key Relationships
 
+<div class="table-wrap">
+
 | Coherence property | Measured by                 | Determined by               | Typical value                |
 | ------------------ | --------------------------- | --------------------------- | ---------------------------- |
 | Temporal           | Coherence time $\tau_c$     | Source bandwidth $\Delta\nu$ | $10^{-9}$ s (white light)    |
 | Temporal           | Coherence length $l_c$      | Source bandwidth $\Delta\lambda$ | $1.5\ \mu$m (white light) |
 | Spatial            | Coherence area $A_c$        | Source size and distance    | $(\lambda R / w)^2$          |
 | Mutual coherence   | $\Gamma_{12}(\tau)$         | Both spatial and temporal   | Depends on source geometry   |
+
+</div>
 
 ### 16.5 Common Pitfalls
 
@@ -17748,7 +17944,7 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Common Pitfalls in Optics](/4-optics-and-waves/18_common-pitfalls/) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -17915,7 +18111,7 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -18007,16 +18203,22 @@ Computational imaging combines optical hardware with algorithmic processing to o
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Site       | Link                                                                                                                   |
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
 | [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/)                                            |
 | [Refraction and Optics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 19.3 Key Relationships
+
+<div class="table-wrap">
 
 | Concept               | Formula                                                               | Meaning                                                 |
 | --------------------- | --------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -18025,6 +18227,8 @@ Computational imaging combines optical hardware with algorithmic processing to o
 | Strehl ratio          | $S = \exp[-(2\pi/\lambda)^2\langle\Delta\phi^2\rangle]$               | Measure of image quality after AO correction            |
 | Greenwood frequency   | $f_G = 0.427\,(v_w/r_0)$                                             | Required AO update rate for given wind speed $v_w$      |
 | Fried parameter       | $r_0 \propto \lambda^{6/5}(\cos\gamma)^{3/5}$                        | Coherence length of atmospheric turbulence              |
+
+</div>
 
 ### 19.4 Common Pitfalls
 
@@ -18043,12 +18247,16 @@ Computational imaging combines optical hardware with algorithmic processing to o
 
 ### 19.6 Summary Table
 
+<div class="table-wrap">
+
 | Technique            | Problem addressed                     | Key mathematics                      | Typical hardware              |
 | -------------------- | ------------------------------------- | ------------------------------------ | ----------------------------- |
 | Compressed sensing   | Sub-Nyquist sampling                  | $\ell_1$-minimisation, RIP           | Single-pixel camera, sparse arrays |
 | Adaptive optics      | Atmospheric turbulence                | Zernike modes, wavefront sensing     | Deformable mirror, Shack-Hartmann sensor |
 | Deconvolution        | Blur from PSF                         | Wiener filter, Richardson-Lucy       | Post-processing (software)    |
 | Synthetic aperture   | Limited aperture size                 | Fourier-domain interpolation         | Antenna array, telescope array |
+
+</div>
 
 ### 19.7 Worked Example: Strehl Ratio and Wavefront Error
 
@@ -18291,7 +18499,7 @@ The Cornu spiral is a parametric plot of $(C(u), S(u))$ whose arc length and tan
 Fresnel diffraction is the transition zone between near-field and far-field behavior. Close to an aperture, wavefront curvature matters and the pattern changes with distance. Fresnel zones divide the aperture into rings where contributions alternate in phase, like concentric ripples on a pond. Zone plates exploit this by blocking every other ring, focusing light like a lens. The straight-edge diffraction pattern shows light bending into the shadow, demonstrating that geometric optics is an approximation. Fraunhofer diffraction emerges when the screen is far enough that wavefronts appear flat.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -18813,7 +19021,7 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Chromatic aberration in lenses arises from wavelength-dependent refraction, requiring achromatic doublets for correction.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Intuition
@@ -19124,7 +19332,7 @@ m$^{-1}$.
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Takes the high-frequency limit of electromagnetic wave propagation, reducing wave equations to ray tracing.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -19639,6 +19847,8 @@ mask (spatial filter) in this plane modifies the image:
 
 ### 15.4 Key Relationships
 
+<div class="table-wrap">
+
 | Optical concept        | Fourier correspondence                    | Application              |
 | ---------------------- | ----------------------------------------- | ------------------------ |
 | Aperture function      | Input signal $t(x,y)$                    | Diffraction pattern      |
@@ -19646,6 +19856,8 @@ mask (spatial filter) in this plane modifies the image:
 | Lens back focal plane  | Fourier plane                             | Spatial filtering        |
 | Image plane            | Inverse Fourier transform                 | 4f imaging system        |
 | Optical transfer func  | Normalised FT of PSF                      | Resolution characterisation |
+
+</div>
 
 ### 15.5 Common Pitfalls
 
@@ -19965,7 +20177,7 @@ For external reflection ($n_1 < n_2$), $r_s < 0$ at all angles, meaning the refl
 Fresnel equations describe how light splits at an interface between two media. At normal incidence, reflection and transmission depend only on the refractive index mismatch. As the angle of incidence increases, the two polarisations behave differently: s-polarised light reflects more strongly, while p-polarised light can reach zero reflection at Brewster's angle. Total internal reflection occurs beyond the critical angle, where the transmitted wave becomes evanescent. The Fresnel coefficients encode both amplitude and phase changes, which is essential for understanding thin-film coatings and anti-reflection layers. The key physical picture is that the boundary conditions for the electric and magnetic fields force the reflected and transmitted amplitudes to adjust continuously with angle.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -20304,7 +20516,7 @@ Each section includes:
 - **Mathematics:** Fourier analysis and complex numbers are essential mathematical tools for optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -20600,7 +20812,7 @@ Interference can occur with a single source split and recombined (as in Young's 
 - **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Electromagnetic waves obey Maxwell's equations, and interference patterns are observed in their superposition.
 - **[Coherence Theory](/4-optics-and-waves/8_coherence/)**: Coherence theory explains the conditions under which stable interference patterns can be observed.
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -20805,7 +21017,7 @@ The spontaneous emission factor $\beta$ distributes a small fraction of spontane
 - [Nonlinear Optics](/4-optics-and-waves/22_nonlinear-optics/) -- High peak powers from mode-locked and Q-switched lasers drive the nonlinear optical effects treated in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -20851,6 +21063,8 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 
 ### 17.2 Laser Types
 
+<div class="table-wrap">
+
 | Type        | Gain medium   | Wavelength      | Characteristics                            |
 | ----------- | ------------- | --------------- | ------------------------------------------ |
 | He-Ne       | Gas           | 632.8 nm        | CW, low power ($\sim$1 mW), high coherence |
@@ -20860,6 +21074,8 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 | Ti:Sapphire | Solid state   | 700--1000 nm    | Tunable, femtosecond pulses                |
 | GaAs/InP    | Semiconductor | 0.8--1.6 $\mu$ M | Compact, efficient, diode laser            |
 | Dye         | Liquid        | Tunable         | Wide tuning range                          |
+
+</div>
 
 ### 17.3 Gaussian Beam Optics
 
@@ -20935,7 +21151,7 @@ Lasers produce coherent light through stimulated emission, where an incoming pho
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Gaussian beam optics and the Abbe limit relate laser beam quality to diffraction-limited resolution.
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and Poynting vector provide the electromagnetic foundation for laser cavity mode analysis.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Problems (Additional)
@@ -21048,6 +21264,8 @@ Techniques:
 
 ### 18.3 Other Nonlinear Processes
 
+<div class="table-wrap">
+
 | Process                    | Order        | Description                                              |
 | -------------------------- | ------------ | -------------------------------------------------------- |
 | SHG                        | $\chi^{(2)}$ | $\omega + \omega \to 2\omega$                            |
@@ -21057,6 +21275,8 @@ Techniques:
 | Self-focusing              | $\chi^{(3)}$ | Beam collapses when $P > P_{\text{cr}}$                  |
 | Two-photon absorption      | $\chi^{(3)}$ | Simultaneous absorption of two photons                   |
 | Stimulated Raman/Brillouin | $\chi^{(3)}$ | Inelastic scattering amplification                       |
+
+</div>
 
 **Self-phase modulation:** The Kerr effect causes $\Delta n = n_2 I$ which broadens the spectrum of
 ultrashort pulses. Combined with dispersion, this leads to **soliton** formation in optical fibres
@@ -21098,6 +21318,8 @@ $$
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Effect | Susceptibility | Key Formula | Condition |
 | -------- | --------------- | ------------- | ----------- |
 | Linear optics | $\chi^{(1)}$ | $P = \varepsilon_0 \chi^{(1)} E$ | Weak fields |
@@ -21105,6 +21327,8 @@ $$
 | Pockels effect | $\chi^{(2)}$ | $\Delta n = n_0^3 r E / 2$ | Non-centrosymmetric |
 | Kerr effect | $\chi^{(3)}$ | $n = n_0 + n_2 I$ | All media |
 | Self-focusing | $\chi^{(3)}$ | $P_{\text{cr}} = \pi(0.61)^2 \lambda^2/(8n_0 n_2)$ | $P > P_{\text{cr}}$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -21130,6 +21354,8 @@ $$
 
 ### Summary Table: Nonlinear Processes by Order
 
+<div class="table-wrap">
+
 | Order | Process | Application | Crystal Requirement |
 | ------- | --------- | ------------- | ------------------- |
 | $\chi^{(1)}$ | Linear refraction/absorption | Ordinary optics | Any |
@@ -21139,6 +21365,8 @@ $$
 | $\chi^{(3)}$ | SRS, SBS | Amplifiers, lasers | All media |
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
+
+</div>
 
 ## Intuition
 
@@ -21151,7 +21379,7 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -21425,6 +21653,8 @@ $\blacksquare$
 
 A systematic reference for standard Jones matrices:
 
+<div class="table-wrap">
+
 | Element | Jones Matrix |
 | --------- | ------------- |
 | Linear polariser ($x$-axis) | $\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}$ |
@@ -21432,6 +21662,8 @@ A systematic reference for standard Jones matrices:
 | Quarter-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & i\end{pmatrix}$ |
 | Half-wave plate (fast axis $x$) | $\begin{pmatrix}1 & 0 \\ 0 & -1\end{pmatrix}$ |
 | Rotator (angle $\theta$) | $\begin{pmatrix}\cos\theta & -\sin\theta \\ \sin\theta & \cos\theta\end{pmatrix}$ |
+
+</div>
 
 ### 13.5 Poincaré Sphere
 
@@ -21514,7 +21746,7 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
@@ -22085,7 +22317,7 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 - **[Diffraction](/4-optics-and-waves/4_diffraction/)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -22453,7 +22685,7 @@ The superposition principle applies only to linear media. In non-linear optics (
 - **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: Electrodynamics provides the foundation for understanding how changing electric and magnetic fields propagate as waves.
 - **[Interference](/4-optics-and-waves/3_interference/)**: The superposition of wave solutions to the wave equation produces interference patterns used in Young's double slit and Fabry-Perot interferometers.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -22674,12 +22906,16 @@ Where $P_l^m$ are the associated Legendre functions.
 
 **First few spherical harmonics:**
 
+<div class="table-wrap">
+
 | $(l, m)$     | $Y_l^m(\theta,\phi)$                                 |
 | ------------ | ---------------------------------------------------- |
 | $(0, 0)$     | $\dfrac{1}{\sqrt{4\pi}}$                             |
 | $(1, 0)$     | $\sqrt{\dfrac{3}{4\pi}}\cos\theta$                   |
 | $(1, \pm 1)$ | $\mp\sqrt{\dfrac{3}{8\pi}}\sin\theta\,e^{\pm i\phi}$ |
 | $(2, 0)$     | $\sqrt{\dfrac{5}{16\pi}}(3\cos^2\theta - 1)$         |
+
+</div>
 
 ### 6.5 The Hydrogen Atom
 
@@ -22827,6 +23063,8 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The Bohr model gives the right angular momentum | no | it predicts $L = n\hbar$, so the ground state has $L = \hbar$; quantum mechanics gives $l = 0$ and $L = 0$, and this is measured |
@@ -22837,6 +23075,8 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 | $n$ determines $l$ | no | it only bounds it, $l \le n-1$; for $n = 2$ both $l = 0$ and $l = 1$ occur at the same energy |
 | Angular momentum is conserved because the state is an eigenstate of $L^2$ | no | conservation is about commuting with $\hat{H}$; a state can be an $L^2$ eigenstate and still not be stationary |
 | The energy depends on $l$ | no | for the Coulomb potential the energy depends only on $n$, which is why there are degeneracies to break |
+
+</div>
 
 The first row is the most important and the most under-appreciated. The Bohr
 model is usually presented as "right but incomplete", and for the energy
@@ -22908,7 +23148,7 @@ and [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/).
 - **[Scattering Theory](/5-quantum-mechanics/13_scattering-theory/)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -23244,6 +23484,8 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Perturbation theory always converges | no | the series is asymptotic; for most potentials it diverges for *every* nonzero coupling, and is still useful |
@@ -23254,6 +23496,8 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 | The variational principle works for excited states | no, not directly | any trial function orthogonal to the exact ground state bounds the first excited state; but you do not know the exact ground state |
 | First-order perturbation theory is always the dominant correction | no | if the matrix element vanishes by symmetry, second order dominates |
 | WKB counts bound states | yes | $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ reproduces the harmonic oscillator and square-well spectra exactly |
+
+</div>
 
 The first row is the one that generalises furthest and surprises people most.
 Asymptotic series get *better* for the first few terms and then diverge, and
@@ -23323,7 +23567,7 @@ Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
 - **[Variational Methods](/5-quantum-mechanics/11_variational-methods/)**: The variational principle provides a systematic approach to estimating ground state energies.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
@@ -23470,14 +23714,18 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Quantum Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/03-quantum-physics)    |
 | [Quantum Physics] | IB         | [View](https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
 | [Quantum Physics] | University | [View](https://physics.wyattau.com/)                |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
@@ -23817,7 +24065,7 @@ Quantum mechanics emerged because classical physics kept hitting walls. Imagine 
 - **[Electromagnetism](/3-electromagnetism/1_maxwell-s-equations/)**: Maxwell's equations describe classical electromagnetism, which fails to explain blackbody radiation and the photoelectric effect.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -24053,6 +24301,8 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Exchanging two identical particles is a physical operation | no | it is unobservable by definition; that is the reason the postulate exists |
@@ -24063,6 +24313,8 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 | A Slater determinant of $N$ electrons is just a compact notation | no | it *enforces* antisymmetry automatically, and expanding it is how the Pauli principle appears |
 | The exchange energy is small | no | it is the binding energy of the hydrogen molecule, and the origin of ferromagnetism |
 | Identical-particle statistics is a choice | no, in 3D | in two dimensions it is not, and anyons interpolate continuously between the two |
+
+</div>
 
 The first two rows are the same fact from different angles, and both are
 frequently stated wrongly. The exchange interaction is the best example in
@@ -24134,7 +24386,7 @@ Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-
 - **[Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)**: Perturbation theory and variational methods are essential for solving many-body quantum problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -24256,7 +24508,7 @@ Each section includes:
 - **Thermal Physics:** Statistical mechanics uses quantum theory to explain thermodynamic properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -24767,6 +25019,8 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | A particle in a box can have zero energy | no | $E_1 = \pi^2\hbar^2/2mL^2 > 0$; zero energy would need zero momentum and a position known to width $L$, violating the uncertainty principle |
@@ -24777,6 +25031,8 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 | The harmonic oscillator states are evenly spaced by $\hbar\omega$ | yes | this is special and is why it is exactly soluble; anharmonic terms split the spacing |
 | Higher-energy states have more nodes | yes | and this is not a coincidence: $n-1$ nodes is what makes the states orthogonal |
 | Wave functions must be continuous | no | $\psi$ is continuous only where $V$ is finite; at an infinite wall it is zero, and at a delta potential $\psi$ is continuous but $\psi'$ is not |
+
+</div>
 
 The first row is the one that generalises furthest. The zero-point energy is
 not a curiosity of the square well -- it is why atoms do not collapse, why
@@ -24847,7 +25103,7 @@ methods](https://mathematics.wyattau.com/6-ordinary-differential-equations/1_int
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -25166,6 +25422,8 @@ Quantum operators are the machinery that extracts measurable information from a 
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Hermitian is the same as self-adjoint | no | $\hat{p} = -i\hbar\,\mathrm{d}/\mathrm{d}x$ on the half-line is Hermitian on its natural domain and admits no self-adjoint extension without a boundary condition added |
@@ -25176,6 +25434,8 @@ Quantum operators are the machinery that extracts measurable information from a 
 | The uncertainty principle limits how well instruments can measure | no | it bounds the spread of a *state*, and is attained by minimum-uncertainty Gaussians, so it is not an instrumental error |
 | Every observable has a discrete spectrum | no | $\hat{x}$ and $\hat{p}$ have continuous spectra; the generalised eigenfunctions are distributions, not vectors |
 | An operator is defined by its formula | no | it is defined by its formula *and* its domain; the same formula on different domains is a different operator |
+
+</div>
 
 The first row is the one that matters most, and it is also the one that feels
 like pedantry until you meet an example. The last row is its general form and
@@ -25459,6 +25719,8 @@ After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rang
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | A measurement outcome is determined by the state | no | Bell's theorem: no local hidden variable theory reproduces the QM predictions, and experiments close the loopholes |
@@ -25468,6 +25730,8 @@ After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rang
 | Decoherence solves the measurement problem | no | it explains the appearance of classicality but produces an improper mixture, not a single outcome |
 | Quantum mechanics is merely a classical statistical theory | no | Bell inequalities, and Kochen-Specker, rule out both hidden-variable and noncontextual classical reconstructions |
 | The postulates are the only consistent formulation | no | they are one presentation; the algebraic, operational and categorical approaches are known to be equivalent, and the choices encode interpretation rather than prediction |
+
+</div>
 
 The first two rows are the ones that matter most. The projector row in
 particular kills a very common confusion: $\lvert\psi\rangle$ is a state, not
@@ -25765,7 +26029,7 @@ Working through quantum mechanics problems builds physical intuition about the c
 - **[Operators and Observables](/5-quantum-mechanics/4_operators-and-observables/)**: Operators represent physical observables and their properties are tested in these problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -26672,6 +26936,8 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                               | Link                                                                      |
 | ----------------------------------- | ------------------------------------------------------------------------- |
 | Quantum Mechanics I (Prerequisites) | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                        |
@@ -26681,8 +26947,10 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 | MIT 8.05 Quantum Physics II         | [View](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/)    |
 | MIT 8.06 Quantum Physics III        | [View](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -26710,10 +26978,14 @@ Perturbation theory is like adding small corrections to a solution you already k
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                               |
 | ------------------- | -------------------------------------------------- |
 | Quantum Mechanics I | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/) |
 | Thermodynamics      | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)    |
+
+</div>
 
 ---
 
@@ -27035,6 +27307,8 @@ Scattering theory extracts information about forces by firing particles at targe
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The quantum cross-section of a hard sphere matches the classical one | no | low-energy $s$-wave scattering gives $\sigma = 4\pi a^2$, four times the classical $\pi a^2$, because the wave diffracts around the sphere |
@@ -27044,6 +27318,8 @@ Scattering theory extracts information about forces by firing particles at targe
 | Phase shifts are small for weak scattering | not necessarily | a resonance makes $\delta_l$ swing through $\pi$ rapidly even for a weak potential |
 | Cross-sections cannot exceed the geometric size | no | the hard-sphere result above is *larger*, and a resonance can exceed it by orders of magnitude |
 | Scattering conserves probability, so $S$ is unitary | yes | and this is the constraint that makes the phase shifts real for real potentials |
+
+</div>
 
 The first row is the one that most strongly marks the difference between
 classical and quantum intuition. A classical ball bearing thrown at a
@@ -27114,7 +27390,7 @@ Equations](https://mathematics.wyattau.com/5-ordinary-differential-equations/1_i
 - **[Time-Dependent Perturbation Theory](/5-quantum-mechanics/12_time-dependent-perturbation-theory/)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -27466,12 +27742,16 @@ Clebsch-Gordan coefficients are the transformation matrix between these two base
 
 **Clebsch-Gordan table for $j_1 = j_2 = 1/2$:**
 
+<div class="table-wrap">
+
 | $m_1$  | $m_2$  | $j=1,\,m$    | $j=0,\,m$     |
 | ------ | ------ | ------------ | ------------- |
 | $+1/2$ | $+1/2$ | $1$          | $0$           |
 | $+1/2$ | $-1/2$ | $1/\sqrt{2}$ | $1/\sqrt{2}$  |
 | $-1/2$ | $+1/2$ | $1/\sqrt{2}$ | $-1/\sqrt{2}$ |
 | $-1/2$ | $-1/2$ | $1$          | $0$           |
+
+</div>
 
 **Example 7.3.** Two electrons are in the singlet state. If electron 1 is measured to have
 $S_z = +\hbar/2$ What is the state of electron 2 immediately after? What is the probability of
@@ -27513,6 +27793,8 @@ A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\r
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Spin is the electron rotating about its axis | no | a classical sphere of the electron's mass and charge spinning fast enough to give the observed moment has a surface speed far beyond $c$, and the electron is a point particle anyway |
@@ -27523,6 +27805,8 @@ A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\r
 | $\sigma_x\sigma_y$ is Hermitian | no | the product of two Hermitian matrices is Hermitian only if they commute, and $\sigma_x$ and $\sigma_y$ do not |
 | Spin adds to orbital angular momentum by simple addition | no | total angular momentum is built from Clebsch-Gordan coefficients, and $l = 1$ with $s = 1/2$ gives $j = 3/2$ *or* $j = 1/2$, not $3/2$ alone |
 | Spin-half particles are fermions because they are spin-half | that is the theorem | the spin-statistics connection is not derivable from non-relativistic QM and requires relativity |
+
+</div>
 
 The second row is the one to internalise, because it is the difference between
 spin-1/2 and everything classical. The $720^\circ$ requirement is not a
@@ -27591,7 +27875,7 @@ Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/).
 - **[Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)**: Spin statistics connect spin to particle exchange symmetry and quantum statistics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -27756,12 +28040,16 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Formula | Name | Application |
 |---------|------|-------------|
 | $\Gamma_{i\to f} = \frac{2\pi}{\hbar}\|\langle f\|\hat{V}\|i\rangle\|^2\rho(E_f)$ | Fermi's Golden Rule | Transition rate to continuum |
 | $\Delta l = \pm 1$, $\Delta m = 0, \pm 1$ | E1 selection rules | Electric dipole transitions |
 | $A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}$ | Einstein relation | Connects spontaneous/stimulated rates |
 | $\|c_f\|^2 = \frac{\|\langle f\|\hat{V}\|i\rangle\|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi}-\omega)t/2]}{(\omega_{fi}-\omega)^2/4}$ | Rabi formula | Transition probability for discrete states |
+
+</div>
 
 ### Common Pitfalls
 
@@ -27798,6 +28086,8 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 
 ### Summary Table: Transition Types
 
+<div class="table-wrap">
+
 | Transition | Selection Rules | Rate | Typical Timescale |
 | ------------ | ---------------- | ------ | ------------------- |
 | Electric dipole (E1) | $\Delta l = \pm 1$, $\Delta m = 0,\pm 1$ | $A \sim 10^7$--$10^9$ s$^{-1}$ | ns |
@@ -27806,11 +28096,15 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
+</div>
+
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
 
 ## Counterexamples worth knowing by name
+
+<div class="table-wrap">
 
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
@@ -27821,6 +28115,8 @@ Time-dependent perturbation theory treats external influences as small disturban
 | Selection rules are absolute | no | they are selection rules for the dipole approximation; electric quadrupole and magnetic dipole transitions are weaker but real, and "forbidden" lines are observed in astrophysics |
 | Energy conservation is exact in a finite process | no | it holds to within $\Delta E \sim \hbar/t$; short pulses drive off-resonant transitions routinely |
 | Stronger perturbation always gives a larger transition rate | no | beyond the perturbative regime the population oscillates (Rabi) and the rate concept stops applying |
+
+</div>
 
 The fourth row is the most important and is usually glossed. Spontaneous
 emission cannot be derived from a classical field coupled to a quantum atom --
@@ -27891,7 +28187,7 @@ Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/).
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: Angular momentum theory provides the selection rules for electric dipole transitions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -27958,12 +28254,16 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.4 Key Relationships
 
+<div class="table-wrap">
+
 | Method               | Type                | Guarantee                       | Accuracy                  |
 | -------------------- | ------------------- | ------------------------------- | ------------------------- |
 | Variational          | Ground state        | Upper bound $E_{\text{trial}} \geq E_0$ | Depends on trial function |
 | Perturbation theory  | Any state           | No bound (asymptotic series)    | Depends on smallness      |
 | WKB                  | Semiclassical       | Leading order in $\hbar$        | Good for large $n$        |
 | Hartree-Fock         | Many-body           | Variational (single determinant) | 99% of energy             |
+
+</div>
 
 ### 10.5 Common Pitfalls
 
@@ -27980,11 +28280,15 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.6 Summary Table
 
+<div class="table-wrap">
+
 | System          | Trial function                           | Variational parameter | Energy (theory) | Energy (exact) |
 | --------------- | ---------------------------------------- | --------------------- | --------------- | -------------- |
 | He atom         | $e^{-Z_{\text{eff}} r_1/a_0} e^{-Z_{\text{eff}} r_2/a_0}$ | $Z_{\text{eff}}$      | $-77.5$ eV      | $-79.0$ eV     |
 | $H_2^+$         | LCAO $\psi_{1s}(r_A) \pm \psi_{1s}(r_B)$ | $R$                   | $-1.8$ eV binding | $-2.8$ eV    |
 | $H_2$           | Singlet Heitler-London                    | $R$                   | $-3.5$ eV binding | $-4.75$ eV   |
+
+</div>
 
 ### 10.7 Applications
 
@@ -28058,7 +28362,7 @@ The variational principle states that any trial wavefunction gives an energy est
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: The hydrogen atom provides exact solutions that test variational methods.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -28517,6 +28821,8 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The wave function can be measured | no | $|\psi|^2$ is measurable; $\psi$ itself is not, and multiplying by a global phase leaves every observable unchanged |
@@ -28527,6 +28833,8 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 | Stationary states have a constant probability density | only for real $V$ | with a time-dependent or complex potential the density moves; and even for real $V$, a superposition of eigenstates is not stationary |
 | Perturbation theory works for any perturbation | no | the expansion is in powers of a small parameter and diverges once the perturbation is comparable to the level spacing |
 | Probability is conserved because the wave function is normalised | no | conservation is a separate theorem: it follows from $\partial_t \rho = -\nabla\cdot \mathbf{j}$ with $\mathbf{j}$ vanishing at infinity |
+
+</div>
 
 The first row is the most important, and the global-phase version is worth
 sitting with. Multiply $\psi$ by $e^{i\theta}$ and nothing measurable changes,
@@ -28612,7 +28920,7 @@ Theory](https://mathematics.wyattau.com/10-measure-theory/7_l-p-spaces/).
 - **[One-Dimensional Problems](/5-quantum-mechanics/5_one-dimensional-problems/)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -28705,12 +29013,16 @@ $$
 
 ### 13.4 Key Relationships
 
+<div class="table-wrap">
+
 | Method                | Validity                    | Accuracy                      | Use case                        |
 | --------------------- | --------------------------- | ----------------------------- | ------------------------------- |
 | WKB                   | Slowly varying $V(x)$       | Leading order in $\hbar$      | Semiclassical tunnelling        |
 | Exact solution        | All potentials              | Exact                         | Solvable potentials (HO, Coulomb) |
 | Perturbation theory   | Small $V'$ relative to $V$  | $\sim \epsilon^2$ error       | Weak anharmonic corrections     |
 | Variational method    | Any (with trial function)   | Upper bound, depends on trial | Ground state energies           |
+
+</div>
 
 ### 13.5 Common Pitfalls
 
@@ -28725,6 +29037,8 @@ $$
 
 ### 13.6 Summary Table
 
+<div class="table-wrap">
+
 | Potential type         | Turning points | Quantisation condition       | WKB exact? |
 | ---------------------- | -------------- | ---------------------------- | ---------- |
 | Harmonic oscillator    | 2 (smooth)     | $n + 1/2$                    | Yes        |
@@ -28732,6 +29046,8 @@ $$
 | Linear potential       | 1 (smooth)     | Airy zeros                   | No         |
 | Coulomb                | 2 (smooth)     | $n - 1/2$ for $l=0$         | Approx.    |
 | Quartic double well    | 4 (smooth)     | Splitting via instantons     | No         |
+
+</div>
 
 ### 13.7 Applications
 
@@ -28818,7 +29134,7 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - **[Wave Functions and the Schrodinger Equation](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/)**: The Schrodinger equation provides the foundation for WKB analysis.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -29149,7 +29465,7 @@ Advanced semiconductor physics goes beyond the simple pn junction to describe ho
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: The quantum Hall effect involves Landau levels formed by electrons in magnetic fields, connecting to the magnetic properties of solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -29323,6 +29639,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 
 ## Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Key Material |
 | --- | --- | --- |
 | Solar cells | Photons with $E > E_g$ create electron-hole pairs | Si ($E_g = 1.1$ eV), GaAs ($1.4$ eV) |
@@ -29332,6 +29650,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 | Thermoelectric coolers | Peltier effect from $n$- and $p$-type junctions | Bi$_2$Te$_3$ ($ZT \approx 1$) |
 | Quantum Hall resistance standard | $R_K = h/e^2 = 25812.807\,\Omega$ | GaAs 2DEG at $T < 4$ K |
 
+</div>
+
 The IQHE is used to define the ohm internationally; $R_K$ is exact by definition since 2019.
 
 ## Intuition
@@ -29340,11 +29660,15 @@ The quantum Hall effect reveals that in a strong magnetic field at low temperatu
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Site        | Link                                                                                       |
 | ------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
 | Solid State Physics (Overview)  | WyattsNotes | [View](/6-solid-state-physics/17_practice-solid-state-physics/)                                       |
 | Quantum Mechanics               | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                                         |
 | Thermal Physics                 | WyattsNotes | [View](https://ib.wyattau.com/physics/flashcards-thermal-physics/)                                           |
+
+</div>
 
 These topics are closely related: quantum mechanics provides the foundation for band theory,
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
@@ -29352,7 +29676,7 @@ provides the crystal structure context.
 | Solid State Physics, MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -29558,6 +29882,8 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 
 ### 12.6 Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Key Parameters |
 | --- | --- | --- |
 | MRI magnets | Persistent supercurrents in Type II Nb-Ti coils | $B \approx 1.5$--$7$ T; $\lambda \approx 90$ nm |
@@ -29565,6 +29891,8 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 | Josephson voltage standard | AC Josephson effect: $\nu = 2eV/h$ | Accuracy $\sim 10^{-10}$ |
 | Particle accelerator dipoles | Type II Nb$_3$Sn for high-field confinement | $B \approx 8$--$16$ T |
 | Quantum computing (transmons) | Josephson junction as non-linear inductor | $E_J/E_C \sim 50$--$100$ |
+
+</div>
 
 The GL theory underpins the design of all these devices. For MRI and accelerator magnets, the
 critical current density $J_c$ (determined by vortex pinning) is the key engineering parameter.
@@ -29576,7 +29904,7 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 - **[Topological Insulators and Semimetals](/6-solid-state-physics/13_topological-insulators-and-semimetals/)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -29585,6 +29913,8 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons pair up into Cooper pairs through lattice vibrations, forming a macroscopic quantum state that flows without scattering. Type I superconductors expel all magnetic flux (Meissner effect), while Type II superconductors allow flux to penetrate in quantized vortices. The Ginzburg-Landau theory describes the superconducting order parameter as a complex field whose magnitude squared gives the density of superconducting electrons. The coherence length and penetration depth compete: when the penetration depth exceeds the coherence length, the material becomes Type II. Josephson junctions exploit the phase sensitivity of the supercurrent to create ultra-sensitive magnetometers and voltage standards.
 
 ### 12.7 Key Relationships Summary
+
+<div class="table-wrap">
 
 | Quantity | Expression | Notes |
 | --- | --- | --- |
@@ -29596,6 +29926,8 @@ Superconductivity is the complete disappearance of electrical resistance below a
 | Lower critical field | $B_{c1} = (\Phi_0/4\pi\lambda^2)\ln\kappa$ | GL result |
 | DC Josephson | $I = I_c \sin\delta$ | Phase-dependent supercurrent |
 | AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
+
+</div>
 
 ---
 
@@ -29627,6 +29959,8 @@ $$
 
 There are **14 Bravais lattices** in three dimensions, classified into 7 crystal systems:
 
+<div class="table-wrap">
+
 | System       | Lattices     | Constraints                                                       |
 | ------------ | ------------ | ----------------------------------------------------------------- |
 | Cubic        | SC, BCC, FCC | $a = b = c$, $\alpha = \beta = \gamma = 90^\circ$                 |
@@ -29636,6 +29970,8 @@ There are **14 Bravais lattices** in three dimensions, classified into 7 crystal
 | Triclinic    | P            | $a \neq b \neq c$, $\alpha \neq \beta \neq \gamma$                |
 | Hexagonal    | P            | $a = b \neq c$, $\alpha = \beta = 90^\circ$, $\gamma = 120^\circ$ |
 | Trigonal     | R            | $a = b = c$, $\alpha = \beta = \gamma \neq 90^\circ$              |
+
+</div>
 
 **Notation:** P = primitive, I = body-centred, F = face-centred, C = base-centred, R = rhombohedral.
 
@@ -29830,6 +30166,8 @@ For FCC, only all-even or all-odd $(hkl)$ are present.
 
 The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm, aluminium):
 
+<div class="table-wrap">
+
 | $(hkl)$ | $h^2+k^2+l^2$ | $d$ (nm) | $2\theta$ (Cu $K_\alpha$) |
 | ------- | ------------- | -------- | ------------------------- |
 | (111)   | 3             | 0.2338   | 38.5°                     |
@@ -29837,6 +30175,8 @@ The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm
 | (220)   | 8             | 0.1432   | 65.1°                     |
 | (311)   | 11            | 0.1221   | 78.2°                     |
 | (222)   | 12            | 0.1169   | 82.4°                     |
+
+</div>
 
 Note that (100) is absent in FCC (since 1+0+0 = 1 is odd but not all odd). The sequence of Allowed
 $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
@@ -29872,7 +30212,7 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -30058,7 +30398,7 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Intuition
 
@@ -30220,6 +30560,8 @@ $2h + k = 3n \pm 1$: both even and odd $l$ give reflections but with different i
 Systematic absences arise from lattice centring and glide planes/screw axes, and are summarised by
 the structure factor:
 
+<div class="table-wrap">
+
 | Structure | Condition for reflection                | Systematic absence         |
 | --------- | --------------------------------------- | -------------------------- |
 | SC        | All $(hkl)$                             | None                       |
@@ -30227,6 +30569,8 @@ the structure factor:
 | FCC       | $h,k,l$ all even or all odd             | Mixed even/odd             |
 | Diamond   | $h,k,l$ all even/odd, $h+k+l \neq 4n+2$ | $h+k+l = 4n+2$ (and mixed) |
 | HCP       | $l$ even when $2h+k=3n$                 | $l$ odd when $2h+k=3n$     |
+
+</div>
 
 Systematic absences allow unambiguous identification of the Bravais lattice from a diffraction
 pattern. The presence of a $(100)$ reflection rules out BCC; the presence of $(200)$ but absence of
@@ -30287,7 +30631,7 @@ Diffraction occurs when waves encounter obstacles or periodic structures compara
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: Inelastic neutron scattering extends diffraction to measure phonon dispersion relations.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -30717,7 +31061,7 @@ Band structure is like a highway system for electrons. In free space, electrons 
 - **[Topological Insulators and Semimetals](/6-solid-state-physics/13_topological-insulators-and-semimetals/)**: Extends band theory to include topological invariants that classify insulating and semimetallic phases.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 5.12 Common Mistakes
@@ -30849,7 +31193,7 @@ Each section includes:
 - **Mathematics:** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -31033,12 +31377,16 @@ Where $\ell_{\mathrm{ph}}$ is the phonon mean free path.
 
 ### 4.7 Specific Heat: Debye vs Einstein vs Experiment
 
+<div class="table-wrap">
+
 | Feature          | Debye            | Einstein                  | Experiment      |
 | ---------------- | ---------------- | ------------------------- | --------------- |
 | High $T$         | $3Nk_B$          | $3Nk_B$                   | $3Nk_B$         |
 | Low $T$          | $\propto T^3$    | $\propto e^{-\Theta_E/T}$ | $\propto T^3$   |
 | Single parameter | $\Theta_D$       | $\Theta_E$                | ---             |
 | Physical basis   | Acoustic phonons | Optical phonons           | Both contribute |
+
+</div>
 
 The Debye model captures the correct low-$T$ behaviour because long-wavelength acoustic phonons
 Dominate the specific heat at low temperatures. The Einstein model is more appropriate for
@@ -31169,7 +31517,7 @@ Phonons are confined to the Brillouin zone and have frequencies bounded by the m
 - **[Diffraction](/6-solid-state-physics/3_diffraction/)**: Inelastic neutron scattering measures phonon dispersion relations using the same diffraction framework.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Phonon scattering limits carrier mobility and affects thermal conductivity in semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -31442,7 +31790,7 @@ Most materials are not ferromagnetic; they are diamagnetic, paramagnetic, antife
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Diluted magnetic semiconductors and spintronics combine semiconductor physics with magnetic ordering.
 - **[Many-Body Physics in Solids](/6-solid-state-physics/14_many-body-physics-in-solids/)**: Exchange interactions and magnetic ordering arise from the many-body physics of interacting electrons.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -31583,6 +31931,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 
 ### 14.5 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Meaning |
 | --- | --- | --- |
 | Thomas-Fermi wavevector | $q_{\text{TF}}^2 = e^2 g(\varepsilon_F)/\varepsilon_0$ | Inverse screening length |
@@ -31590,6 +31940,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 | Kondo temperature | $k_B T_K \sim D\,e^{-1/(N(E_F)J)}$ | Energy scale for impurity spin screening |
 | Fermi liquid lifetime | $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$ | Quasiparticle decay rate near Fermi surface |
 | Mott criterion | $U_c \sim W$ (bandwidth) | Onset of Mott insulating state |
+
+</div>
 
 ### 14.6 Common Pitfalls
 
@@ -31611,7 +31963,7 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -31844,7 +32196,7 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -31919,11 +32271,15 @@ octahedron. For BCC (real space), the reciprocal lattice is FCC.
 
 **Important volumes:**
 
+<div class="table-wrap">
+
 | Real space | Reciprocal space | BZ volume     |
 | ---------- | ---------------- | ------------- |
 | SC ($a$)   | SC ($2\pi/a$)    | $(2\pi/a)^3$  |
 | BCC ($a$)  | FCC ($4\pi/a$)   | $2(2\pi/a)^3$ |
 | FCC ($a$)  | BCC ($4\pi/a$)   | $4(2\pi/a)^3$ |
+
+</div>
 
 $V_{\mathrm{BZ} = (2\pi)^3 / V_{\mathrm{cell}}}$.
 
@@ -32094,7 +32450,7 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Electronic band structures are computed in the Brillouin zone of the reciprocal lattice.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -32355,7 +32711,7 @@ Doping increases conductivity only if the doping concentration is high enough to
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: Magnetic semiconductors and spin-dependent transport connect semiconductor physics to magnetic ordering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -32513,7 +32869,7 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 - **[Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)**: Develops the Ginzburg-Landau phenomenological theory and Abrikosov vortex physics beyond the basic BCS framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -32599,12 +32955,16 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
 ### 13.4 Key Relationships
 
+<div class="table-wrap">
+
 | Material class        | Bulk gap | Surface states | Topological invariant |
 | --------------------- | -------- | -------------- | --------------------- |
 | Trivial insulator     | Yes      | None           | $\nu = 0$             |
 | Topological insulator | Yes      | Gapless Dirac  | $\nu = 1$             |
 | Weyl semimetal        | No       | Fermi arcs     | Chern number          |
 | Dirac semimetal       | No       | Bulk Dirac pts | None (protected by symmetry) |
+
+</div>
 
 ### 13.5 Common Pitfalls
 
@@ -32675,7 +33035,7 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 - **[Transport Properties](/6-solid-state-physics/8_transport-properties/)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -32849,6 +33209,8 @@ $\blacksquare$
 
 ### 8.7 Summary of Key Transport Relationships
 
+<div class="table-wrap">
+
 | Property | Formula | Key Dependencies |
 | -------- | ------- | ----------------- |
 | Drude conductivity | $\sigma = ne^2\tau/m_e$ | Carrier density, scattering time |
@@ -32858,6 +33220,8 @@ $\blacksquare$
 | Effective mass | $m^* = \hbar^2/(d^2\varepsilon/dk^2)$ | Band curvature |
 | Matthiessen's rule | $\rho = \rho_0 + \rho_{\mathrm{ph}}(T)$ | Impurity + phonon scattering |
 | Bloch-Gruneisen | $\rho_{\mathrm{ph}} \propto T^5$ at low $T$ | Phonon population, Umklapp |
+
+</div>
 
 ### 8.7 Common Mistakes
 
@@ -32883,7 +33247,7 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -32975,12 +33339,16 @@ neutrino species). Any deviation would indicate new light particles.
 
 Phase transitions in the early universe can produce **topological defects**:
 
+<div class="table-wrap">
+
 | Symmetry broken | Defect                 | Dimension |
 | --------------- | ---------------------- | --------- |
 | U(1)            | Global string/monopole | 2D/1D     |
 | U(1) (gauge)    | Local string           | 2D        |
 | SU(2)           | Monopole               | 1D        |
 | SU(3)           | Texture                | 3D        |
+
+</div>
 
 **Cosmic strings** are line-like defects with mass per unit length $\mu \sim \eta^2$ where $\eta$ is
 the symmetry-breaking scale. Their gravitational effects include:
@@ -33229,7 +33597,7 @@ The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out
 - **[Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -33322,10 +33690,14 @@ At temperatures above $T_c \approx 170$ MeV ($\sim 2 \times 10^{12}$ K), hadrons
 
 **Phase diagram of QCD:**
 
+<div class="table-wrap">
+
 | Axis       | Variable                          |
 | ---------- | --------------------------------- |
 | Horizontal | Baryon chemical potential $\mu_B$ |
 | Vertical   | Temperature $T$                   |
+
+</div>
 
 - Low $T$ Low $\mu_B$: Hadronic phase (confined)
 - High $T$ Low $\mu_B$: QGP (deconfined, crossover transition)
@@ -33449,12 +33821,16 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 
 ### Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Experiment |
 | --- | --- | --- |
 | CP violation measurement | Compare $B^0 \to f$ vs $\bar{B}^0 \to \bar{f}$ rates | LHCb, Belle II |
 | CKM unitarity test | Measure all triangle angles independently | B factories, LHCb |
 | $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
 | Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
+
+</div>
 
 ## Intuition
 
@@ -33468,7 +33844,7 @@ Advanced particle physics explores the frontier where the Standard Model meets u
 - **[Group Theory in Particle Physics](/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/)**: Anomalies and the strong CP problem involve the group-theoretic structure of SU(3) colour.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -33630,6 +34006,8 @@ No approach has been experimentally verified or gained universal acceptance.
 
 Several experiments are probing physics beyond the Standard Model:
 
+<div class="table-wrap">
+
 | Experiment               | Facility           | Goal                                    |
 | ------------------------ | ------------------ | --------------------------------------- |
 | ATLAS/CMS                | LHC (CERN)         | Direct production of BSM particles      |
@@ -33641,6 +34019,8 @@ Several experiments are probing physics beyond the Standard Model:
 | CMB-S4                   | Atacama/South Pole | CMB $B$-mode polarisation               |
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
+
+</div>
 
 ## Intuition
 
@@ -33671,7 +34051,7 @@ String theory is one approach to quantum gravity, but there are other approaches
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -33771,11 +34151,15 @@ $$
 \rho \propto a^{-3(1+w)}
 $$
 
+<div class="table-wrap">
+
 | Component                           | $w$   | $\rho(a)$ |
 | ----------------------------------- | ----- | --------- |
 | Matter                              | $0$   | $a^{-3}$  |
 | Radiation                           | $1/3$ | $a^{-4}$  |
 | Dark energy (cosmological constant) | $-1$  | constant  |
+
+</div>
 
 **Derivation.** From the fluid equation with $P = w\rho c^2$:
 
@@ -33904,12 +34288,16 @@ years.
 In the first few minutes after the Big Bang, the universe was hot and dense enough for nuclear
 Reactions to occur. The main products were:
 
+<div class="table-wrap">
+
 | Nucleus   | Mass fraction   |
 | --------- | --------------- |
 | $^1$ H     | $\sim 75\%$     |
 | $^4$ He    | $\sim 25\%$     |
 | D, $^3$ He | $\sim 10^{-5}$  |
 | $^7$ Li    | $\sim 10^{-10}$ |
+
+</div>
 
 The nuclear reaction chain starts at $T \sim 0.1$ MeV ($t \sim 1$ s):
 
@@ -34275,6 +34663,8 @@ involved.
 
 ### 7.11 Timeline of the Universe
 
+<div class="table-wrap">
+
 | Time           | Temperature    | Event                                 |
 | -------------- | -------------- | ------------------------------------- |
 | $0$            | $\infty$       | Big Bang                              |
@@ -34289,6 +34679,8 @@ involved.
 | $\sim 1$ Gyr   | $\sim 10$ K    | Galaxy formation                      |
 | 9.2 Gyr        | $\sim 5$ K     | Solar system forms                    |
 | 13.8 Gyr       | 2.725 K        | Present day                           |
+
+</div>
 :::
 
 ## Intuition
@@ -34320,7 +34712,7 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 - **[Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---
@@ -34437,11 +34829,15 @@ Consider the decay $\Sigma^+ \to p + \pi^0$. Is this allowed?
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Particle   | $Q$  | $B$ | $S$  | $I_3$  |
 | ---------- | ---- | --- | ---- | ------ |
 | $\Sigma^+$ | $+1$ | $1$ | $-1$ | $+1$   |
 | $p$        | $+1$ | $1$ | $0$  | $+1/2$ |
 | $\pi^0$    | $0$  | $0$ | $0$  | $0$    |
+
+</div>
 
 **Conservation checks:**
 
@@ -34477,6 +34873,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 
 **Noether's Theorem:** Every continuous symmetry of the action corresponds to a conserved quantity.
 
+<div class="table-wrap">
+
 | Symmetry          | Conserved Quantity |
 | ----------------- | ------------------ |
 | Time translation  | Energy             |
@@ -34484,6 +34882,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 | Rotation          | Angular momentum   |
 | U(1) gauge        | Electric charge    |
 | SU(3) gauge       | Colour charge      |
+
+</div>
 
 **Proof (sketch).** Consider an infinitesimal transformation $x^\mu \to x^\mu + \delta x^\mu$
 $\phi \to \phi + \delta\phi$. If the action $S = \int \mathcal{L}\,d^4x$ is invariant, then the
@@ -34525,7 +34925,7 @@ Noether's theorem relates continuous symmetries to conserved quantities. Discret
 - **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: CP violation in the quark and lepton sectors is a manifestation of the symmetry properties studied here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -34771,7 +35171,7 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
@@ -35081,7 +35481,7 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 - **[The Higgs Mechanism](/7-particle-physics-and-cosmology/4_the-higgs-mechanism/)**: The electroweak symmetry breaking pattern is determined by the SU(2) x U(1) group structure.
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The beta functions of the gauge couplings depend on the group-theoretic factors of SU(3), SU(2), and U(1).
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -35197,7 +35597,7 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 - **Thermal Physics:** Thermodynamics of the early universe.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -35325,6 +35725,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.3 Key Relationships
 
+<div class="table-wrap">
+
 | Parameter | Value (best fit) | Experiment | Role |
 | ------------------ | ---------------------- | ------------------------------- | --------------------------------------- |
 | $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino) | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
@@ -35332,6 +35734,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 | $\sin^2(2\theta_{12})$ | 0.86 | Solar (SNO) | Solar mixing angle |
 | $\sin^2(2\theta_{23})$ | 1.0 (maximal) | Atmospheric (Super-K) | Atmospheric mixing angle |
 | $\sin^2(2\theta_{13})$ | 0.092 | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation |
+
+</div>
 
 ### 8.4 Common Pitfalls
 
@@ -35350,12 +35754,16 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.6 Summary Table
 
+<div class="table-wrap">
+
 | Neutrino source  | Typical energy | Baseline $L$      | Oscillation probed      | Key experiment        |
 | ---------------- | -------------- | ----------------- | ----------------------- | --------------------- |
 | Solar            | 0.1-10 MeV     | $1.5 \times 10^8$ km | $\Delta m^2_{21}$   | SNO, Borexino, Super-K |
 | Atmospheric      | 0.1-100 GeV    | 10-10$^4$ km      | $\Delta m^2_{32}$       | Super-Kamiokande      |
 | Reactor          | 1-10 MeV       | 0.1-100 km        | $\theta_{13}$, $\Delta m^2_{21}$ | Daya Bay, RENO, KamLAND |
 | Accelerator      | 0.1-10 GeV     | 100-1000 km       | $\delta_{\rm CP}$       | T2K, NO$\nu$A, DUNE   |
+
+</div>
 
 ### 8.7 Open Questions
 
@@ -35376,7 +35784,7 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -35623,13 +36031,17 @@ Precision tests of the Standard Model are like checking a clock against atomic t
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                                  |
 | ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Particle Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/04-particle-physics)              |
 | [Particle Physics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## See Also
 
@@ -35794,7 +36206,7 @@ Particle physics seeks the fundamental building blocks of matter and the forces 
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: Problems on the QCD running coupling and unification require understanding beta functions and the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Common Mistakes
 
@@ -35984,7 +36396,7 @@ Coupling constants are not truly constant: they change with energy scale through
 - **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: Deep inelastic scattering and the DGLAP equations measure the running of the strong coupling constant.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ---
@@ -36207,7 +36619,7 @@ The Higgs mechanism in particle physics is a relativistic generalisation of the 
 - **[Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)**: Extensions to the Higgs sector, such as supersymmetry and two-Higgs-doublet models, address the hierarchy problem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ---
 
@@ -36243,11 +36655,15 @@ The fundamental particles are:
 
 **Forces and their gauge bosons:**
 
+<div class="table-wrap">
+
 | Interaction     | Gauge boson    | Acts on         | Relative strength                             |
 | --------------- | -------------- | --------------- | --------------------------------------------- |
 | Electromagnetic | $\gamma$       | Electric charge | $\alpha \approx 1/137$                        |
 | Weak            | $W^\pm, Z^0$   | Weak isospin    | $G_F \approx 1.166 \times 10^{-5}$ GeV$^{-2}$ |
 | Strong          | $g$ (8 gluons) | Colour charge   | $\alpha_s \approx 0.118$ (at $m_Z$)           |
+
+</div>
 
 ### 1.2 Gauge Symmetry
 
@@ -36303,11 +36719,15 @@ to high precision at LEP and SLC.
 The fermions are organised into three **generations**, each with identical quantum numbers but
 Increasing mass:
 
+<div class="table-wrap">
+
 | Generation | Quarks                     | Charge         | Leptons            | Charge    |
 | ---------- | -------------------------- | -------------- | ------------------ | --------- |
 | I          | up ($u$), down ($d$)       | $+2/3$, $-1/3$ | $e$, $\nu_e$       | $-1$, $0$ |
 | II         | charm ($c$), strange ($s$) | $+2/3$, $-1/3$ | $\mu$, $\nu_\mu$   | $-1$, $0$ |
 | III        | top ($t$), bottom ($b$)    | $+2/3$, $-1/3$ | $\tau$, $\nu_\tau$ | $-1$, $0$ |
+
+</div>
 
 Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry anticolours.
 
@@ -36320,6 +36740,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 
 **Quark masses (at the $\overline{\mathrm{MS}}$ scale $\mu = m_q$):**
 
+<div class="table-wrap">
+
 | Quark | Mass (MeV/$c^2$)    | $I$   | $I_3$  | $S$  | $C$  | $B'$ | $T$  |
 | ----- | ------------------- | ----- | ------ | ---- | ---- | ---- | ---- |
 | $u$   | $2.16$              | $1/2$ | $+1/2$ | $0$  | $0$  | $0$  | $0$  |
@@ -36329,7 +36751,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $b$   | $4.18 \times 10^3$  | $0$   | $0$    | $0$  | $0$  | $-1$ | $0$  |
 | $t$   | $1.732 \times 10^5$ | $0$   | $0$    | $0$  | $0$  | $0$  | $+1$ |
 
+</div>
+
 **Charged lepton masses:**
+
+<div class="table-wrap">
 
 | Lepton | Mass (MeV/$c^2$) | Mean lifetime             |
 | ------ | ---------------- | ------------------------- |
@@ -36337,7 +36763,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $\mu$  | $105.66$         | $2.197 \times 10^{-6}$ s  |
 | $\tau$ | $1776.86$        | $2.903 \times 10^{-13}$ s |
 
+</div>
+
 **Gauge boson properties:**
+
+<div class="table-wrap">
 
 | Boson    | Mass (GeV/$c^2$) | Width (GeV) | Electric charge |
 | -------- | ---------------- | ----------- | --------------- |
@@ -36346,6 +36776,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $W^+$    | $80.379$         | $2.085$     | $+1$            |
 | $Z^0$    | $91.1876$        | $2.4952$    | $0$             |
 | $H$      | $125.10$         | $0.00407$   | $0$             |
+
+</div>
 
 ### 1.6 Worked Example: Particle Identification
 
@@ -36463,7 +36895,7 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -36926,12 +37358,16 @@ Sections are marked so you can see how deep a given page goes. A fresh
 undergraduate should read every F and U on a topic, then the A sections of the
 topics they intend to specialise in.
 
+<div class="table-wrap">
+
 | Mark | Meaning |
 | ---- | ------- |
 | **F** Foundation | Definitions and first examples. Assumed later. |
 | **U** Undergraduate | The standard degree-level treatment, with proofs. |
 | **A** Advanced | Graduate-level: the machinery needed for research. |
 | **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
 
 ## Recommended Study Order
 
@@ -37189,9 +37625,13 @@ The classical mechanics track continues past the undergraduate treatment into
 research-level material. These pages assume the mechanics and Hamiltonian
 content above and go further:
 
+<div class="table-wrap">
+
 | Module | Builds on | Tier |
 | ------ | --------- | ---- |
 | [Symplectic Structure and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) | Hamiltonian mechanics, Noether's theorem | R |
+
+</div>
 
 Covers the symplectic form, Liouville's theorem, integrable systems and
 action-angle variables, the KAM theorem and the Diophantine condition on
@@ -37323,6 +37763,8 @@ The tracks are ordered by dependency, not by interest. Classical mechanics
 needs calculus; electromagnetism needs vector calculus; thermal physics needs
 the first law and linear algebra; quantum mechanics needs all of the above.
 
+<div class="table-wrap">
+
 | Track | Needs first | Start here |
 | ----- | ----------- | ---------- |
 | Classical Mechanics | Calculus, vectors | [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/) |
@@ -37332,6 +37774,8 @@ the first law and linear algebra; quantum mechanics needs all of the above.
 | Quantum Mechanics | Mechanics, EM, linear algebra | [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/) |
 | Solid State Physics | Quantum mechanics, EM | [Solid State Physics](/6-solid-state-physics/) |
 | Particle Physics and Cosmology | Quantum mechanics, relativity | [Particle Physics and Cosmology](/7-particle-physics-and-cosmology/) |
+
+</div>
 
 **Beyond the degree.** [Symplectic Structure and KAM
 Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) is the
@@ -37428,11 +37872,13 @@ Physics describes the fundamental laws governing the universe, from the motion o
 - **[Quantum Mechanics](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Core Concepts
+
+<div class="table-wrap">
 
 | Domain | Core Principle | Key Equations | Connection to Other Branches |
 | -------- | --------------- | --------------- | ------------------------------ |
@@ -37443,6 +37889,8 @@ Physics describes the fundamental laws governing the universe, from the motion o
 | Statistical Mechanics | Microstates determine macrostates | $S = k_B \ln \Omega$ | Derives thermodynamics from particles |
 | Optics | Light behaves as a wave | $I = I_0 \cos^2\theta$ (Malus) | Applications in lasers, fibre optics |
 | Solid State | Periodic potentials create band gaps | $E(k) = E_0 + 2t\cos(ka)$ | Explains conductors, insulators, semiconductors |
+
+</div>
 
 ## Exam Strategy
 
@@ -38124,12 +38572,16 @@ variables, making analysis of equilibrium and spontaneity purely in terms of sta
 
 ### 4.2 The Four Potentials
 
+<div class="table-wrap">
+
 | Potential             | Symbol       | Natural Variables | Differential          |
 | --------------------- | ------------ | ----------------- | --------------------- |
 | Internal energy       | $U$          | $S, V$            | $dU = T\,dS - p\,dV$  |
 | Enthalpy              | $H = U + pV$ | $S, p$            | $dH = T\,dS + V\,dp$  |
 | Helmholtz free energy | $F = U - TS$ | $T, V$            | $dF = -S\,dT - p\,dV$ |
 | Gibbs free energy     | $G = H - TS$ | $T, p$            | $dG = -S\,dT + V\,dp$ |
+
+</div>
 
 **Physical meaning:**
 
@@ -38573,6 +39025,8 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Link                                                                        |
 | ------------------------------ | --------------------------------------------------------------------------- |
 | Classical Mechanics            | [View](/1-classical-mechanics/14_flashcards-classical-mechanics/)                        |
@@ -38582,8 +39036,10 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 | MIT 5.60 Thermodynamics        | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-fall-2008/) |
 | Stanford Statistical Mechanics | [View](https://web.stanford.edu/~peastwood/statmech/)                       |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -38605,10 +39061,14 @@ mol^-1. The entropy increases because the solid (ordered) becomes liquid (more d
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                | Link                                                  |
 | -------------------- | ----------------------------------------------------- |
 | Quantum Mechanics II | [View](/5-quantum-mechanics/18_quantum-mechanics-ii/) |
 | Kinetic Theory       | View       |
+
+</div>
 
 ---
 
@@ -40272,6 +40732,8 @@ URL: https://physics.wyattau.com/diagnostics/diag-mechanics/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -40284,6 +40746,8 @@ URL: https://physics.wyattau.com/diagnostics/diag-mechanics/
 | 8        | C             |
 | 9        | A             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of classical mechanics. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -40301,7 +40765,7 @@ URL: https://physics.wyattau.com/diagnostics/diag-mechanics/
 - **Practice:** Practice problems for revision.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ---

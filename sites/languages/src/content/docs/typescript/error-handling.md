@@ -89,10 +89,14 @@ assignable to `never`.
 
 ### Precise Semantics
 
+<div class="table-wrap">
+
 | Type      | Assignable to everything? | Everything assignable to it?  | Type narrowing required? |
 | --------- | ------------------------- | ----------------------------- | ------------------------ |
 | `any`     | Yes                       | Yes                           | No                       |
 | `unknown` | Yes                       | No (only `any` and `unknown`) | Yes                      |
+
+</div>
 
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
@@ -153,6 +157,8 @@ Runtime, and the `any` type prevents the compiler from catching this.
 
 JavaScript provides several built-in error classes, all of which TypeScript types natively:
 
+<div class="table-wrap">
+
 | Error Class      | Purpose                    |
 | ---------------- | -------------------------- |
 | `Error`          | Generic error              |
@@ -162,6 +168,8 @@ JavaScript provides several built-in error classes, all of which TypeScript type
 | `ReferenceError` | Undefined variable access  |
 | `URIError`       | Invalid URI operation      |
 | `EvalError`      | Error in `eval()` (legacy) |
+
+</div>
 
 All built-in error classes inherit from `Error`. Which provides the `message`, `name` and `stack`
 Properties.
@@ -638,11 +646,15 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
 
 These three concepts are often conflated but have distinct meanings in TypeScript:
 
+<div class="table-wrap">
+
 | Concept           | Type       | Meaning                                |
 | ----------------- | ---------- | -------------------------------------- |
 | Optional property | `prop?: T` | Property may be absent from the object |
 | Nullable          | `T         | null`                                  | Value may be explicitly `null` |
 | Undefined         | `T         | undefined`                             | Value may be `undefined`       |
+
+</div>
 
 ### Optional Properties
 

@@ -19,6 +19,8 @@ description: 'The following table summarizes the classification of groups of sma
 
 The following table summarizes the classification of groups of small order:
 
+<div class="table-wrap">
+
 | Order | Groups                                                                                                                                                   |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1     | $\{e\}$                                                                                                                                                  |
@@ -33,6 +35,8 @@ The following table summarizes the classification of groups of small order:
 | 10    | $\mathbb{Z}/10\mathbb{Z}$, $D_5$                                                                                                                         |
 | 11    | $\mathbb{Z}/11\mathbb{Z}$                                                                                                                                |
 | 12    | $\mathbb{Z}/12\mathbb{Z}$, $\mathbb{Z}/6\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$, $A_4$, $D_6$, $\mathbb{Z}/3\mathbb{Z} \rtimes \mathbb{Z}/4\mathbb{Z}$ |
+
+</div>
 
 **Proposition 16.1.** Every group of prime order is cyclic, and every group of order $p^2$ (where
 $p$ Is prime) is abelian (hence isomorphic to $\mathbb{Z}/p^2\mathbb{Z}$ or

@@ -503,6 +503,8 @@ natural before identifying $h$ With the total energy.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | $L = T - V$ always gives correct equations | no | a charged particle in an electromagnetic field needs $L = T - q\phi + q\,\mathbf{v}\cdot\mathbf{A}$ |
@@ -510,6 +512,8 @@ natural before identifying $h$ With the total energy.
 | The action is minimised | no | it is stationary; a saddle point is enough |
 | Constraint forces appear in the equations | no | they are eliminated by generalised coordinates |
 | Cyclic coordinates always exist | no | the double pendulum has none |
+
+</div>
 
 The electromagnetic Lagrangian is the one to remember. It shows that $T - V$ is
 not the definition of a Lagrangian but a special case, and that the general
@@ -544,7 +548,7 @@ practice never trains.
 - **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 3.11 Common Mistakes
 

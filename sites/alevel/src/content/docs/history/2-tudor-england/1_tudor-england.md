@@ -38,6 +38,8 @@ Religious Settlement that sought a middle way.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Reign       | Dates     | Key Themes                                                       |
 | ----------- | --------- | ---------------------------------------------------------------- |
 | Henry VII   | 1485-1509 | Consolidation, financial stability, foreign diplomacy            |
@@ -45,6 +47,8 @@ Religious Settlement that sought a middle way.
 | Edward VI   | 1547-1553 | Protestant reform, Somerset and Northumberland protectorates     |
 | Mary I      | 1553-1558 | Catholic restoration, burnings, war with France, loss of Calais  |
 | Elizabeth I | 1558-1603 | Religious settlement, foreign policy, Spanish Armada, succession |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -125,6 +129,8 @@ Religious Settlement that sought a middle way.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure              | Role                         | Significance                                                                             |
 | ------------------- | ---------------------------- | ---------------------------------------------------------------------------------------- |
 | Henry VII           | First Tudor king             | Established dynastic stability through financial prudence and diplomatic marriages       |
@@ -137,6 +143,8 @@ Religious Settlement that sought a middle way.
 | Elizabeth I         | Virgin Queen                 | Maintained Protestant settlement; navigated foreign threats; skillful political operator |
 | Mary Queen of Scots | Catholic claimant            | Alternative queen for English Catholics; execution triggered Spanish hostility           |
 | William Cecil       | Elizabeth's chief advisor    | Served for 40 years; architect of Elizabethan domestic and foreign policy                |
+
+</div>
 
 ## Historiographical Debates
 

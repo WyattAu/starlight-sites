@@ -34,6 +34,8 @@ Purposes of classification include:
 
 Proposed by Robert Whittaker (1969), this system classifies organisms into five kingdoms:
 
+<div class="table-wrap">
+
 | Kingdom     | Cell Type   | Nuclear Envelope | Cell Wall           | Nutrition                    | Examples                        |
 | ----------- | ----------- | ---------------- | ------------------- | ---------------------------- | ------------------------------- |
 | Prokaryotae | Prokaryotic | Absent           | Peptidoglycan       | Heterotrophic/autotrophic    | Bacteria, cyanobacteria         |
@@ -42,16 +44,22 @@ Proposed by Robert Whittaker (1969), this system classifies organisms into five 
 | Plantae     | Eukaryotic  | Present          | Cellulose           | Autotrophic (photosynthetic) | Flowering plants, mosses, ferns |
 | Animalia    | Eukaryotic  | Present          | Absent              | Heterotrophic (ingestive)    | Insects, mammals, birds, fish   |
 
+</div>
+
 ### The Three-Domain System
 
 Proposed by Carl Woese (1990) based on ribosomal RNA (rRNA) sequencing. This system recognises three
 Domains above the kingdom level:
+
+<div class="table-wrap">
 
 | Domain   | Description                                                                                     | Kingdoms Included                     | Cell Type   |
 | -------- | ----------------------------------------------------------------------------------------------- | ------------------------------------- | ----------- |
 | Bacteria | Prokaryotic; single circular chromosome; peptidoglycan cell wall; unbranched lipids in membrane | Eubacteria (true bacteria)            | Prokaryotic |
 | Archaea  | Prokaryotic; no peptidoglycan; branched lipids in membrane; often extremophiles                 | Archaebacteria                        | Prokaryotic |
 | Eukarya  | Eukaryotic; true nucleus; membrane-bound organelles; linear chromosomes                         | Protoctista, Fungi, Plantae, Animalia | Eukaryotic  |
+
+</div>
 
 **Key distinction between Bacteria and Archaea:**
 
@@ -79,6 +87,8 @@ Names: the genus name and the specific epithet.
 
 **Examples:**
 
+<div class="table-wrap">
+
 | Organism           | Full Name                | Meaning                                           |
 | ------------------ | ------------------------ | ------------------------------------------------- |
 | Human              | _Homo sapiens_           | "Wise man"                                        |
@@ -86,6 +96,8 @@ Names: the genus name and the specific epithet.
 | Common housefly    | _Musca domestica_        | "Domestic fly"                                    |
 | Rice               | _Oryza sativa_           | "Cultivated rice"                                 |
 | _Escherichia coli_ | _Escherichia coli_       | Named after Theodor Escherich; found in the colon |
+
+</div>
 
 **Taxonomic hierarchy:**
 
@@ -235,6 +247,8 @@ which lowers its diversity index despite having the same richness.
 
 ### Types of Evidence for Evolution
 
+<div class="table-wrap">
+
 | Type of Evidence    | Description                                                                                    | Example                                                                                          |
 | ------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Fossil record       | Sequential appearance of organisms in rock layers; transitional forms show intermediate traits | Archaeopteryx (reptile-bird transition); Tiktaalik (fish-tetrapod transition)                    |
@@ -243,12 +257,16 @@ which lowers its diversity index despite having the same richness.
 | Biogeography        | Geographic distribution of species matches continental drift patterns                          | Marsupials in Australia vs placentals elsewhere                                                  |
 | Embryology          | Embryos of related species resemble each other in early developmental stages                   | Pharyngeal pouches in fish, chick, and human embryos                                             |
 
+</div>
+
 ### The Fossil Record
 
 Fossils are the preserved remains or traces of organisms that lived in the past. They form when
 Organisms are buried rapidly under sediment, preventing decomposition and scavenging.
 
 **Types of fossils:**
+
+<div class="table-wrap">
 
 | Type              | Description                                                                                  |
 | ----------------- | -------------------------------------------------------------------------------------------- |
@@ -257,6 +275,8 @@ Organisms are buried rapidly under sediment, preventing decomposition and scaven
 | Casts and moulds  | Impressions left in sediment when the organism decays; mineral-filled impressions form casts |
 | Amber fossils     | Organisms trapped and preserved in tree resin                                                |
 | Permineralisation | Minerals fill the pores of bones and shells, preserving the structure                        |
+
+</div>
 
 **Limitations of the fossil record:**
 
@@ -352,11 +372,15 @@ Function.
 
 ### Types of Natural Selection
 
+<div class="table-wrap">
+
 | Type                  | Description                                                  | Effect on Population                      | Example                                                                                  |
 | --------------------- | ------------------------------------------------------------ | ----------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Stabilising selection | Favouring intermediate phenotypes; extremes selected against | Reduced variation; mean unchanged         | Human birth weight (very low and very high have higher mortality)                        |
 | Directional selection | Favouring one extreme phenotype                              | Mean shifts in one direction              | Peppered moth (dark form favoured during industrial pollution)                           |
 | Disruptive selection  | Favouring both extremes; intermediate selected against       | Bimodal distribution; increased variation | African seedcracker finch (large and small beaks favoured, intermediate disadvantageous) |
+
+</div>
 
 ### Speciation
 
@@ -365,10 +389,14 @@ Isolation between populations.
 
 **Reproductive isolation mechanisms:**
 
+<div class="table-wrap">
+
 | Type        | Examples                                                                                                                                                                                                                                                      |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Prezygotic  | Geographical isolation, habitat isolation, temporal isolation (different breeding seasons), behavioural isolation (different courtship displays), mechanical isolation (incompatible reproductive structures), gametic isolation (sperm cannot fertilise egg) |
 | Postzygotic | Hybrid inviability (offspring do not survive), hybrid sterility (offspring are sterile, e.g., mules), hybrid breakdown (first-generation hybrids are fertile but subsequent generations are not)                                                              |
+
+</div>
 
 **Allopatric speciation (geographic isolation):**
 
@@ -536,6 +564,8 @@ In situ conservation means protecting species in their natural habitats. This is
 Preferred approach because it preserves the entire ecosystem, including ecological interactions and
 Evolutionary processes.
 
+<div class="table-wrap">
+
 | Strategy                      | Description                                                                                                                       |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | National parks                | Large areas designated for the protection of ecosystems and wildlife; restricted human activities                                 |
@@ -543,6 +573,8 @@ Evolutionary processes.
 | Marine protected areas (MPAs) | Designated ocean areas where extractive activities are restricted or prohibited                                                   |
 | Wildlife corridors            | Strips of habitat connecting isolated habitat patches; allow gene flow and migration between populations                          |
 | Legal protection              | Laws protecting endangered species from hunting, trade, or habitat destruction (e.g., Wildlife Protection Ordinance in Hong Kong) |
+
+</div>
 
 **Advantages of in situ conservation:**
 
@@ -557,6 +589,8 @@ Ex situ conservation means protecting species outside their natural habitats. Us
 Conservation is not possible (e.g., species is critically endangered in the wild, habitat is
 Destroyed).
 
+<div class="table-wrap">
+
 | Strategy                  | Description                                                                                                                        |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Zoos and captive breeding | Breeding endangered species in captivity; maintaining genetic diversity; reintroduction programmes                                 |
@@ -564,6 +598,8 @@ Destroyed).
 | Seed banks                | Storing seeds of plant species at low temperatures and low humidity for long-term preservation (e.g., Millennium Seed Bank at Kew) |
 | Cryopreservation          | Freezing gametes, embryos, or tissues at ultra-low temperatures (liquid nitrogen, -196 degrees C) for long-term storage            |
 | Tissue culture            | Growing plant tissue in vitro for conservation and mass propagation                                                                |
+
+</div>
 
 **Advantages of ex situ conservation:**
 
@@ -582,12 +618,16 @@ Destroyed).
 
 ### International Agreements
 
+<div class="table-wrap">
+
 | Agreement                                      | Description                                                                                                                                                                |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CITES (1975)                                   | Convention on International Trade in Endangered Species of Wild Fauna and Flora; regulates international trade in species listed in three appendices based on threat level |
 | CBD (1992)                                     | Convention on Biological Diversity; three goals: conservation, sustainable use, fair sharing of benefits from genetic resources                                            |
 | Ramsar Convention (1971)                       | Protection of wetlands of international importance, especially as waterfowl habitat                                                                                        |
 | Kyoto Protocol (1997) / Paris Agreement (2015) | International agreements to reduce greenhouse gas emissions and combat climate change                                                                                      |
+
+</div>
 
 ---
 
@@ -664,6 +704,8 @@ But soil remains intact.
 
 ### Comparison of Primary and Secondary Succession
 
+<div class="table-wrap">
+
 | Feature            | Primary Succession                                 | Secondary Succession                             |
 | ------------------ | -------------------------------------------------- | ------------------------------------------------ |
 | Starting substrate | Bare rock, sand, lava (no soil)                    | Previously occupied land with intact soil        |
@@ -671,6 +713,8 @@ But soil remains intact.
 | Soil at start      | Absent                                             | Present                                          |
 | Speed              | Very slow (centuries to millennia)                 | Faster (decades to centuries)                    |
 | Example            | Colonisation of volcanic island (Surtsey, Iceland) | Regrowth after forest fire or abandoned farmland |
+
+</div>
 
 ---
 
@@ -692,6 +736,8 @@ of carbon between the atmosphere, biosphere, oceans, and geosphere.
 
 **Key processes:**
 
+<div class="table-wrap">
+
 | Process          | Description                                                                                                              | Carbon Flux                                 |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
 | Photosynthesis   | Plants, algae, and cyanobacteria convert atmospheric $\mathrm{CO}_2$ into organic compounds (glucose) using light energy | Removes $\mathrm{CO}_2$ from the atmosphere |
@@ -703,7 +749,11 @@ of carbon between the atmosphere, biosphere, oceans, and geosphere.
 | Fossilisation    | Organic matter is buried and compressed over millions of years, forming fossil fuels (coal, oil, natural gas)            | Stores carbon long-term                     |
 | Deforestation    | Removal of trees reduces photosynthesis; burning releases stored carbon                                                  | Returns $\mathrm{CO}_2$ to the atmosphere   |
 
+</div>
+
 **Carbon reservoirs:**
+
+<div class="table-wrap">
 
 | Reservoir             | Approximate Amount (GtC) |
 | --------------------- | ------------------------ |
@@ -713,6 +763,8 @@ of carbon between the atmosphere, biosphere, oceans, and geosphere.
 | Fossil fuels          | Approximately 4,000      |
 | Sedimentary rocks     | Approximately 75,000,000 |
 
+</div>
+
 ### The Nitrogen Cycle
 
 Nitrogen is essential for amino acids, proteins, nucleic acids, and ATP. The atmosphere is
@@ -720,6 +772,8 @@ Approximately 78% $\mathrm{N}_2$ gas, but this form is unavailable to most organ
 Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to break.
 
 **Key processes:**
+
+<div class="table-wrap">
 
 | Process                        | Description                                                                                               | Organisms Involved                                                                                               |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -730,6 +784,8 @@ Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to 
 | Feeding                        | Animals obtain nitrogen by eating plants or other animals                                                 | Animals                                                                                                          |
 | Decomposition / ammonification | Decomposers break down dead organisms and urea/excreted waste, releasing ammonia ($\mathrm{NH}_3$)        | Decomposer bacteria and fungi                                                                                    |
 | Denitrification                | Nitrate ($\mathrm{NO}_3^-$) is converted back to $\mathrm{N}_2$ gas, returning it to the atmosphere       | Denitrifying bacteria (e.g., _Pseudomonas_, _Paracoccus_)                                                        |
+
+</div>
 
 :::caution
 nitrogen in the Form of nitrate ($\mathrm{NO}_3^-$) or ammonium ($\mathrm{NH}_4^+$) ions through
@@ -772,6 +828,8 @@ and nucleic acids in dead organisms and urea in waste, releasing ammonia into th
 
 **Key processes:**
 
+<div class="table-wrap">
+
 | Process          | Description                                                                                                                                |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Evaporation      | Water changes from liquid to vapour from oceans, lakes, rivers, and soil                                                                   |
@@ -782,6 +840,8 @@ and nucleic acids in dead organisms and urea in waste, releasing ammonia into th
 | Infiltration     | Water soaks into the ground surface, moving downwards through soil and rock                                                                |
 | Percolation      | Water moves deeper through permeable rocks to become groundwater                                                                           |
 | Groundwater flow | Groundwater moves slowly through aquifers (permeable rock layers) and eventually reaches the surface via springs or into rivers and oceans |
+
+</div>
 
 **Human impacts on the water cycle:**
 
@@ -1125,6 +1185,8 @@ invasive -- many fail to establish, and some integrate without causing significa
 
 ### Impact of Invasive Species
 
+<div class="table-wrap">
+
 | Impact Type        | Description                                                                                                    | Example                                                                                          |
 | ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Predation          | Invasive predators can devastate native wildlife populations that have evolved without such predation pressure | Cats and rats in New Zealand; brown tree snake in Guam (eliminated 10 of 12 native bird species) |
@@ -1133,7 +1195,11 @@ invasive -- many fail to establish, and some integrate without causing significa
 | Habitat alteration | Invasive plants can change soil chemistry, fire regimes, and water cycles                                      | Water hyacinth blocking waterways; kudzu smothering native vegetation in the southeastern US     |
 | Hybridisation      | Invasive species can hybridise with native species, reducing genetic purity of native populations              | Introduced mallard ducks hybridising with native duck species                                    |
 
+</div>
+
 ### Case Study: Water Hyacinth (_Eichhornia crassipes_)
+
+<div class="table-wrap">
 
 | Feature         | Detail                                                                                                                                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1142,6 +1208,8 @@ invasive -- many fail to establish, and some integrate without causing significa
 | Growth rate     | Extremely rapid; can double in population size in approximately 2 weeks under optimal conditions                                                                                                       |
 | Problems caused | Blocks waterways; reduces light and oxygen for aquatic life; interferes with fishing and transport; increases water loss through transpiration; creates breeding grounds for mosquitoes (malaria risk) |
 | Control methods | Physical removal; biological control (weevils _Neochetina eichhorniae_ and _N. Bruchi_); herbicides (limited effectiveness)                                                                            |
+
+</div>
 
 ### Case Study: Cane Toad (_Rhinella marina_) in Australia
 
@@ -1187,10 +1255,14 @@ significant portion of its genetic diversity.
 
 ### The 50/500 Rule
 
+<div class="table-wrap">
+
 | Number | Purpose                                              |
 | ------ | ---------------------------------------------------- |
 | 50     | Minimum to prevent short-term inbreeding depression  |
 | 500    | Minimum to maintain long-term evolutionary potential |
+
+</div>
 
 ### Genetic Rescue
 
@@ -1217,6 +1289,8 @@ diversity in a small, inbred population.
 
 ### Effects of Climate Change on Biodiversity
 
+<div class="table-wrap">
+
 | Effect                     | Mechanism                                                                                                      | Affected Species/Ecosystems                                             |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Range shifts               | Species move towards poles or to higher elevations to track suitable temperature conditions                    | Arctic species; alpine plants; montane amphibians                       |
@@ -1226,7 +1300,11 @@ diversity in a small, inbred population.
 | Sea level rise             | Coastal habitats are inundated; saltwater intrusion into freshwater ecosystems                                 | Mangroves; salt marshes; low-lying islands                              |
 | Changing rainfall patterns | Altered distribution of freshwater and food resources                                                          | Savanna ecosystems; wetlands; migratory species                         |
 
+</div>
+
 ### Conservation Strategies for Climate Change
+
+<div class="table-wrap">
 
 | Strategy                      | Description                                                                                                         |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -1235,6 +1313,8 @@ diversity in a small, inbred population.
 | Ex situ conservation          | Captive breeding programmes, seed banks, and gene banks as a safety net for species that cannot survive in the wild |
 | Habitat restoration           | Restoring degraded ecosystems to increase resilience and absorb climate refugees                                    |
 | Reducing greenhouse emissions | The most important long-term strategy; transitioning to renewable energy; reducing deforestation                    |
+
+</div>
 
 :::tip
 questions within the DSE specification for this topic, each with a full worked solution.
@@ -1260,6 +1340,8 @@ Biodiversity and Conservation with other biology topics to test synthesis under 
 Primary succession occurs on **bare, lifeless substrate** where no soil exists -- for example, on
 newly formed volcanic rock, sand dunes, or land exposed by retreating glaciers.
 
+<div class="table-wrap">
+
 | Stage            | Description                                                                                                                                                     | Pioneer Species / Key Features                        |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | Bare substrate   | No soil; rock, sand, or ash surface; hostile environment (no organic matter, no water retention, extreme temperatures)                                          | None initially                                        |
@@ -1269,10 +1351,14 @@ newly formed volcanic rock, sand dunes, or land exposed by retreating glaciers.
 | Shrub stage      | Shrubs and small woody plants appear. They outcompete the grasses for light and nutrients                                                                       | Shrubs (e.g., gorse, bramble), small trees            |
 | Climax community | A stable, self-sustaining community dominated by large trees. The community remains relatively stable unless disrupted by a major disturbance                   | Oak forest, tropical rainforest, depending on climate |
 
+</div>
+
 ### Secondary Succession
 
 Secondary succession occurs on **previously occupied land** where the existing community has been
 disturbed or destroyed, but the soil remains intact.
+
+<div class="table-wrap">
 
 | Feature              | Description                                                                                                    |
 | -------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -1283,10 +1369,14 @@ disturbed or destroyed, but the soil remains intact.
 | Climax community     | Slower-growing, shade-tolerant trees eventually dominate (e.g., oak, beech)                                    |
 | Time scale           | 50-200 years to reach climax community (compared to hundreds to thousands of years for primary succession)     |
 
+</div>
+
 ### Plagioclimax
 
 A plagioclimax is a stable community that is prevented from reaching its natural climax community by
 **human activity** or other persistent factors.
+
+<div class="table-wrap">
 
 | Example                                  | Description                                                                                                        |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -1295,7 +1385,11 @@ A plagioclimax is a stable community that is prevented from reaching its natural
 | Managed forest / plantation              | Regular harvesting and replanting prevents natural succession from occurring                                       |
 | Mown lawns and parks                     | Regular mowing prevents the natural succession to scrub and woodland                                               |
 
+</div>
+
 ### Key Terms
+
+<div class="table-wrap">
 
 | Term                 | Definition                                                                                                                                      |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1303,6 +1397,8 @@ A plagioclimax is a stable community that is prevented from reaching its natural
 | Climax community     | The final, stable community in succession; dominated by slow-growing, long-lived species; relatively self-sustaining                            |
 | Sere                 | The sequence of stages in succession from pioneer to climax                                                                                     |
 | Deflected succession | Succession that is diverted from its natural course by human activity or other factors (producing a plagioclimax)                               |
+
+</div>
 
 ---
 
@@ -1322,6 +1418,8 @@ A plagioclimax is a stable community that is prevented from reaching its natural
 The theory of continental drift (proposed by Alfred Wegener, 1912; confirmed by plate tectonics in
 the 1960s) explains many patterns in species distribution.
 
+<div class="table-wrap">
+
 | Evidence from Biogeography | Description                                                                                                                                                                                                                                                        |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Matching fossils           | Identical fossil species (e.g., _Mesosaurus_, _Glossopteris_) found on continents now separated by oceans (South America, Africa, India, Antarctica, Australia) -- these organisms could not have crossed the oceans, so the continents must have once been joined |
@@ -1329,15 +1427,21 @@ the 1960s) explains many patterns in species distribution.
 | Australian fauna           | Australia has been isolated for ~30-40 million years; its unique marsupial fauna (kangaroos, koalas, wombats, platypus) evolved in the absence of placental mammal competition                                                                                     |
 | Convergent evolution       | Similar habitats on different continents have produced ecologically equivalent but evolutionarily unrelated species (e.g., cacti in Americas vs. Euphorbias in Africa; marsupial moles in Australia vs. Placental moles elsewhere)                                 |
 
+</div>
+
 ### Island Biogeography (MacArthur and Wilson, 1967)
 
 The theory of island biogeography predicts species richness on islands based on two opposing
 processes:
 
+<div class="table-wrap">
+
 | Factor                 | Effect on Species Richness                                                                                                                 |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Island size (area)     | Larger islands have higher species richness (more habitats, larger populations less prone to extinction, larger "target" for colonisation) |
 | Distance from mainland | Islands closer to the mainland have higher species richness (easier for species to colonise)                                               |
+
+</div>
 
 $$
 S = cA^z
@@ -1383,12 +1487,16 @@ remains relatively stable.
 
 ### Quadrat Size Guidelines
 
+<div class="table-wrap">
+
 | Habitat                       | Recommended Quadrat Size                 |
 | ----------------------------- | ---------------------------------------- |
 | Grassland                     | 0.5 m $\times$ 0.5 m or 1 m $\times$ 1 m |
 | Heathland / moorland          | 1 m $\times$ 1 m or 2 m $\times$ 2 m     |
 | Woodland (ground flora)       | 1 m $\times$ 1 m                         |
 | Rocky shore (small organisms) | 0.25 m $\times$ 0.25 m                   |
+
+</div>
 
 ### Calculating Species Diversity
 
@@ -1467,13 +1575,19 @@ Where:
 
 Based on molecular evidence (rRNA sequencing), Woese proposed three domains above the kingdom level:
 
+<div class="table-wrap">
+
 | Domain       | Cell Type   | Description                                                                                                                                                                                                                      | Examples                                            |
 | ------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **Bacteria** | Prokaryotic | Unicellular; no nucleus; no membrane-bound organelles; cell wall contains peptidoglycan; circular DNA; 70S ribosomes                                                                                                             | _E. Coli_, _Staphylococcus_, _Cyanobacteria_        |
 | **Archaea**  | Prokaryotic | Unicellular; no nucleus; no membrane-bound organelles; cell wall does NOT contain peptidoglycan (contains pseudopeptidoglycan or other polymers); often found in extreme environments; some genes have introns (like eukaryotes) | Methanogens; halophiles; thermophiles; _Sulfolobus_ |
 | **Eukarya**  | Eukaryotic  | Unicellular or multicellular; nucleus and membrane-bound organelles; linear DNA with introns; 80S ribosomes; cytoskeleton; sexual reproduction common                                                                            | Animals, plants, fungi, protists                    |
 
+</div>
+
 ### The Five-Kingdom System (Whittaker, 1969)
+
+<div class="table-wrap">
 
 | Kingdom                    | Cell Type   | Cell Wall           | Nutrition                                          | Examples                                            |
 | -------------------------- | ----------- | ------------------- | -------------------------------------------------- | --------------------------------------------------- |
@@ -1482,6 +1596,8 @@ Based on molecular evidence (rRNA sequencing), Woese proposed three domains abov
 | **Fungi**                  | Eukaryotic  | Chitin              | Saprotrophic (extracellular digestion)             | Mushrooms, yeasts, moulds, _Penicillium_            |
 | **Plantae**                | Eukaryotic  | Cellulose           | Autotrophic (photosynthesis)                       | Mosses, ferns, conifers, flowering plants           |
 | **Animalia**               | Eukaryotic  | No cell wall        | Heterotrophic (ingestion)                          | Insects, fish, amphibians, reptiles, birds, mammals |
+
+</div>
 
 ### Binomial Nomenclature
 
@@ -1509,6 +1625,8 @@ than those in different families, and so on.
 
 Viruses are NOT classified in any of the three domains because:
 
+<div class="table-wrap">
+
 | Feature             | Living Organisms                                             | Viruses                                                                                                                                 |
 | ------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Cell structure      | Have cells (prokaryotic or eukaryotic)                       | Acellular (no cell structure); consist of genetic material (DNA or RNA) enclosed in a protein coat (capsid); some have a lipid envelope |
@@ -1517,9 +1635,13 @@ Viruses are NOT classified in any of the three domains because:
 | Response to stimuli | Can respond to environmental stimuli                         | No response to stimuli                                                                                                                  |
 | Homeostasis         | Maintain a stable internal environment                       | No homeostasis                                                                                                                          |
 
+</div>
+
 ### Extremophiles
 
 Extremophiles are organisms, predominantly archaea, that thrive in extreme environments:
+
+<div class="table-wrap">
 
 | Type                     | Environment                                  | Example                                                                                          |
 | ------------------------ | -------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -1529,6 +1651,8 @@ Extremophiles are organisms, predominantly archaea, that thrive in extreme envir
 | Acidophiles              | Low pH (acidic environments, pH < 3)         | _Acidithiobacillus ferrooxidans_ (lives in acid mine drainage, pH ~1.5)                          |
 | Alkaliphiles             | High pH (alkaline environments, pH > 9)      | _Natronomonas_ (lives in soda lakes)                                                             |
 | Barophiles (piezophiles) | High pressure                                | Archaea and bacteria in deep ocean trenches (>1000 atmospheres)                                  |
+
+</div>
 
 ---
 

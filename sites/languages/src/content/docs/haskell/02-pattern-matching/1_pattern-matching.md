@@ -569,6 +569,8 @@ newtype NewWrapper a = NewWrapper a
 
 Key differences:
 
+<div class="table-wrap">
+
 | Property         | `data`                | `newtype`                                 |
 | ---------------- | --------------------- | ----------------------------------------- |
 | Constructors     | One or more           | Exactly one                               |
@@ -577,6 +579,8 @@ Key differences:
 | Strictness       | Lazy by default       | Lazy by default                           |
 | Matching         | Always matches        | Always matches                            |
 | deriving         | Full support          | Full support + GeneralizedNewtypeDeriving |
+
+</div>
 
 ### GeneralizedNewtypeDeriving
 

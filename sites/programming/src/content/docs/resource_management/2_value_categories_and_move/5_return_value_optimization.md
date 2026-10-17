@@ -133,6 +133,8 @@ Provided by the caller. This is not an optimization, it is the ABI contract for 
 The difference between URVO and NRVO is a difference between a language rule and a compiler
 Optimization:
 
+<div class="table-wrap">
+
 | Property           | URVO (Unnamed RVO)            | NRVO (Named RVO)                                   |
 | :----------------- | :---------------------------- | :------------------------------------------------- |
 | Standard status    | **Guaranteed** (C++17+)       | Optional optimization                              |
@@ -141,6 +143,8 @@ Optimization:
 | Can be disabled    | No (not an optimization)      | Yes (`-fno-elide-constructors`)                    |
 | Requires move ctor | No (not needed)               | As fallback if NRVO fails                          |
 | Standard reference | [N4950 S8.4.4]                | [N4950 S11.9.6] (implicit move rule)               |
+
+</div>
 
 ## 8.2 When NRVO Applies
 
@@ -371,6 +375,8 @@ of `std::move` in a return statement is when returning a member variable or a fu
 
 ### Decision Table: RVO Applicability
 
+<div class="table-wrap">
+
 | Return Expression                           | Type Match? | RVO (Guaranteed)? | NRVO (Optional)? | Fallback       |
 | :------------------------------------------ | :---------- | :---------------- | :--------------- | :------------- |
 | `return T{args};`                           | Yes         | Yes               | N/A              | None needed    |
@@ -382,6 +388,8 @@ of `std::move` in a return statement is when returning a member variable or a fu
 | `return member_;` (data member)             | Yes         | N/A               | No               | Implicit move  |
 | `return Derived{};` (function returns Base) | No          | No                | N/A              | Move (slicing) |
 | `return std::move(local);`                  | Yes         | No                | No               | Explicit move  |
+
+</div>
 
 ## 8.5 Anti-Pattern: `return std::move(local)`
 

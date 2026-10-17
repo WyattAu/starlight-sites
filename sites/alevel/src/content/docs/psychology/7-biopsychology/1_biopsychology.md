@@ -117,6 +117,8 @@ cleft**. Neurons do not physically touch, signals are transmitted chemically acr
 
 **Key neurotransmitters:**
 
+<div class="table-wrap">
+
 | Neurotransmitter    | Function                               | Effect                                                                         |
 | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------ |
 | Serotonin           | Mood regulation, sleep, appetite       | Generally inhibitory, low levels associated with depression                   |
@@ -124,6 +126,8 @@ cleft**. Neurons do not physically touch, signals are transmitted chemically acr
 | Acetylcholine (ACh) | Muscle contraction, memory, attention  | Excitatory, involved in the neuromuscular junction; low levels in Alzheimer's |
 | Noradrenaline       | Arousal, alertness, fight or flight    | Excitatory, involved in stress response                                       |
 | GABA                | Anxiety reduction, relaxation          | Inhibitory, the brain's main inhibitory neurotransmitter                      |
+
+</div>
 
 **Excitatory and inhibitory neurotransmitters:** Excitatory neurotransmitters (e.g., glutamate)
 increase the likelihood that the postsynaptic neuron will fire. Inhibitory neurotransmitters (e.g.,
@@ -235,6 +239,8 @@ individuals. However, the capacity for recovery is limited, and not all function
 
 ### Ways of Studying the Brain
 
+<div class="table-wrap">
+
 | Method                                       | How it works                                                             | What it measures                   | Strengths                                                         | Limitations                                                                          |
 | -------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | fMRI (functional Magnetic Resonance Imaging) | Detects changes in blood oxygenation; active brain areas use more oxygen | Brain activity in real time        | Non-invasive; high spatial resolution; no radiation               | Expensive; poor temporal resolution; cannot establish causation                      |
@@ -242,6 +248,8 @@ individuals. However, the capacity for recovery is limited, and not all function
 | ERP (Event-Related Potentials)               | EEG data filtered to show responses to specific stimuli                  | Brain responses to specific events | High temporal resolution; useful for studying cognitive processes | Requires many trials; background noise; poor spatial resolution                      |
 | Post-mortem examination                      | Physical examination of the brain after death                            | Brain structure and abnormalities  | Detailed anatomical analysis; can study areas deep in the brain   | Cannot study living brain function; cause of death may affect results; retrospective |
 | CAT (Computerised Axial Tomography)          | X-rays taken from multiple angles to create cross-sectional images       | Brain structure                    | Good for identifying tumours, lesions, and structural damage      | Involves radiation; only shows structure, not function                               |
+
+</div>
 
 ### Biological Rhythms
 
@@ -292,6 +300,8 @@ exposure), supporting the role of the zeitgeber light in regulating mood and cir
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                        | Researcher(s)    | Year | Method                       | Key Findings                                                                             | Evaluation                                                                 |
 | ---------------------------- | ---------------- | ---- | ---------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Taxi drivers                 | Maguire et al.   | 2000 | Natural experiment (MRI)     | Taxi drivers had larger posterior hippocampi; size correlated with driving experience    | Supports plasticity; correlational; small sample; individual differences   |
@@ -301,7 +311,11 @@ exposure), supporting the role of the zeitgeber light in regulating mood and cir
 | Kennard principle            | Kennard          | 1938 | Case studies (monkeys)       | Younger monkeys recovered more function after brain damage                               | Supports age-dependent recovery; animal research; limited generalisability |
 | SCN and circadian rhythms    | Morgan           | 1995 | Animal experiment            | SCN-lesioned hamsters lost circadian rhythms; transplanted SCN from donors restored them | Strong evidence for SCN as master clock; animal research; ethical concerns |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                           | Definition                                                                     |
 | ------------------------------ | ------------------------------------------------------------------------------ |
@@ -325,6 +339,8 @@ exposure), supporting the role of the zeitgeber light in regulating mood and cir
 | Exogenous zeitgeber            | An external cue that synchronises biological rhythms (e.g., light)             |
 | SCN (suprachiasmatic nucleus)  | The master biological clock in the hypothalamus                                |
 | Melatonin                      | A hormone that promotes sleepiness, produced by the pineal gland               |
+
+</div>
 
 ## Evaluation Points
 

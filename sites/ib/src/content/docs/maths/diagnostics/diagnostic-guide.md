@@ -79,11 +79,15 @@ Follow these steps in order. Do not skip steps.
 All diagnostic questions are graded on a three-tier system. There is no Numerical score. The tiers
 are mutually exclusive and collectively exhaustive.
 
+<div class="table-wrap">
+
 | Grade       | Definition                                                                                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **PASS**    | Correct method, correct answer, no errors in working. The solution demonstrates full procedural fluency and conceptual understanding.                                                    |
 | **PARTIAL** | Correct method initiated but an error in execution (arithmetic, algebraic, or notational); OR correct final answer arrived at through insufficient, incomplete, or non-rigorous working. |
 | **FAIL**    | Incorrect method, no meaningful attempt, or fundamentally wrong approach. This includes cases where the student could not identify which technique to apply.                             |
+
+</div>
 
 ### Grading discipline
 
@@ -115,6 +119,8 @@ Single-source-of-truth view of your strengths and weaknesses across all 14 IB Ma
 
 Each row represents one topic. Each row contains:
 
+<div class="table-wrap">
+
 | Column                 | Description                                                                                    |
 | ---------------------- | ---------------------------------------------------------------------------------------------- |
 | Topic                  | The name of the topic                                                                          |
@@ -123,7 +129,11 @@ Each row represents one topic. Each row contains:
 | Notes                  | Free-text observations (e.g., "forgot +C on definite integral", "confused scalar with vector") |
 | Date                   | Date the diagnostic was last attempted                                                         |
 
+</div>
+
 ### 4.3 Example matrix
+
+<div class="table-wrap">
 
 | Topic                     | Unit Test | Integration Test | Notes                                     | Date |
 | ------------------------- | --------- | ---------------- | ----------------------------------------- | ---- |
@@ -142,7 +152,11 @@ Each row represents one topic. Each row contains:
 | Integration               | PARTIAL   | FAIL             | Integration by parts selection wrong      |      |
 | Differential Equations    | FAIL      | FAIL             |                                           |      |
 
+</div>
+
 ### 4.4 Matrix interpretation
+
+<div class="table-wrap">
 
 | Unit Test | Integration Test | Diagnosis               | Action                                                                                                                                           |
 | --------- | ---------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -151,6 +165,8 @@ Each row represents one topic. Each row contains:
 | FAIL      | PASS             | Intuition-based solving | Unlikely but possible. The student has strong pattern-matching intuition but lacks procedural rigour. Review fundamentals to close the gap.      |
 | PARTIAL   | PARTIAL          | Partial understanding   | Review notes, re-attempt, then re-test.                                                                                                          |
 | FAIL      | FAIL             | Fundamental gap         | Return to reference notes. Re-learn the topic from first principles. Do not attempt integration tests until unit test achieves at least PARTIAL. |
+
+</div>
 
 ---
 
@@ -227,6 +243,8 @@ told which techniques to use. Identifying the correct approach Is part of the te
 
 ## 7. Coverage Map
 
+<div class="table-wrap">
+
 | #   | Topic                     | Diagnostic File                     | Key Syllabus Points                                                                           |
 | --- | ------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------- |
 | 1   | Number and Algebra        | `diag-number-algebra.md`            | Sigma notation, binomial theorem, proof by induction, permutations and combinations           |
@@ -243,6 +261,8 @@ told which techniques to use. Identifying the correct approach Is part of the te
 | 12  | Differentiation           | `diag-differentiation.md`           | Chain/product/quotient rules, implicit differentiation, L'Hopital, optimisation               |
 | 13  | Integration               | `diag-integration.md`               | By parts, by substitution, partial fractions, improper integrals, area and volume             |
 | 14  | Differential Equations    | `diag-differential-equations.md`    | Separable, integrating factor, second order, Euler's method, applications                     |
+
+</div>
 
 ---
 
@@ -261,12 +281,16 @@ The following time allocations are guidelines. Adjust based on personal pace, Bu
 them. If a question takes significantly longer than the upper Bound, that is itself diagnostic
 information.
 
+<div class="table-wrap">
+
 | Task                                | Time Allocation                                  |
 | ----------------------------------- | ------------------------------------------------ |
 | Single unit test question           | 5 -- 10 minutes                                  |
 | Single integration test question    | 15 -- 25 minutes                                 |
 | Full topic set (unit + integration) | 30 -- 45 minutes                                 |
 | Full diagnostic (all 14 topics)     | 7 -- 10.5 hours (split across multiple sessions) |
+
+</div>
 
 ### Session planning
 

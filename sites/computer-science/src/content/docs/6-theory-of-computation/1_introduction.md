@@ -127,12 +127,16 @@ string. Then $D$ is not in the list, contradiction. This technique reappears in 
 
 ### 1.6 Hierarchy Summary Table
 
+<div class="table-wrap">
+
 | Class | Machine | Decidable? | Recognisable? | Closure (complement) |
 | --- | --- | --- | --- | --- |
 | Regular | Finite automaton | Yes | Yes | Closed |
 | Context-free | Pushdown automaton | Yes | Yes | Not closed |
 | Decidable (REC) | Turing machine (halts always) | Yes | Yes | Closed |
 | Turing-recognisable (RE) | Turing machine (may loop) | No | Yes | Not closed |
+
+</div>
 
 ### 1.7 Practical Applications
 

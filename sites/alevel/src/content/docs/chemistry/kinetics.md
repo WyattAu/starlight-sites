@@ -47,6 +47,8 @@ Units of rate: $\mathrm{mol\,dm^{-3}\,s^{-1}}$.
 
 ### Methods of Measuring Rate
 
+<div class="table-wrap">
+
 | Method          | Observable                  | Suitable Reactions                                                     |
 | --------------- | --------------------------- | ---------------------------------------------------------------------- |
 | Gas collection  | Volume of gas vs time       | Reactions producing gaseous products ($\mathrm{CO}_2$, $\mathrm{H}_2$) |
@@ -55,6 +57,8 @@ Units of rate: $\mathrm{mol\,dm^{-3}\,s^{-1}}$.
 | Titration       | Concentration by quenching  | Slow reactions; samples withdrawn and quenched                         |
 | Conductivity    | Conductance vs time         | Reactions changing the number or type of ions                          |
 | Clock reactions | Time to reach a fixed point | Initial rate determination (e.g. Iodine clock)                         |
+
+</div>
 
 ## Collision Theory
 
@@ -155,12 +159,16 @@ mechanism, not from the overall equation.
 
 The units of $k$ depend on the overall order of reaction:
 
+<div class="table-wrap">
+
 | Overall order | Rate equation                     | Units of $k$                      |
 | ------------- | --------------------------------- | --------------------------------- |
 | 0             | $\mathrm{Rate} = k$               | $\mathrm{mol\,dm^{-3}\,s^{-1}}$   |
 | 1             | $\mathrm{Rate} = k[\mathrm{A}]$   | $\mathrm{s^{-1}}$                 |
 | 2             | $\mathrm{Rate} = k[\mathrm{A}]^2$ | $\mathrm{mol^{-1}\,dm^3\,s^{-1}}$ |
 | 3             | $\mathrm{Rate} = k[\mathrm{A}]^3$ | $\mathrm{mol^{-2}\,dm^6\,s^{-1}}$ |
+
+</div>
 
 : $\mathrm{Units of } k = (\mathrm{mol\,dm^{-3}})^{1-\mathrm{order}} \times \mathrm{s^{-1}}$.
 
@@ -213,11 +221,15 @@ Measure the initial rate for each experiment. Compare rates to determine orders.
 
 **Worked Example.** For the reaction between $\mathrm{A}$ and $\mathrm{B}$:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{B}]$ ($\mathrm{mol/dm}^3$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------- |
 | 1          | 0.10                                 | 0.10                                 | $1.2 \times 10^{-3}$                           |
 | 2          | 0.20                                 | 0.10                                 | $2.4 \times 10^{-3}$                           |
 | 3          | 0.10                                 | 0.20                                 | $4.8 \times 10^{-3}$                           |
+
+</div>
 
 Comparing 1 and 2: $[\mathrm{A}]$ doubles, rate doubles. Order with respect to A: $m = 1$.
 
@@ -463,11 +475,15 @@ amount constant, the orders of reaction with respect to each reactant can be det
 **Worked Example.** In an iodine clock experiment, the following data were obtained at constant
 temperature:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{S}_2\mathrm{O}_8^{2-}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{I}^-]$ ($\mathrm{mol/dm}^3$) | Time for colour change (s) |
 | ---------- | ------------------------------------------------------- | -------------------------------------- | -------------------------- |
 | 1          | 0.040                                                   | 0.040                                  | 52                         |
 | 2          | 0.080                                                   | 0.040                                  | 26                         |
 | 3          | 0.040                                                   | 0.080                                  | 26                         |
+
+</div>
 
 Determine the rate equation.
 
@@ -664,11 +680,15 @@ Conductivity increases as $\mathrm{H}^+$ and $\mathrm{Br}^-$ are produced.
 
 ### Determining the Order from Concentration-Time Graphs
 
+<div class="table-wrap">
+
 | Order | Plot of [A] vs t                  | Linearised plot | Half-life behaviour   |
 | ----- | --------------------------------- | --------------- | --------------------- |
 | 0     | Straight line (negative gradient) | [A] vs t        | Decreases with [A]\_0 |
 | 1     | Exponential decay                 | ln[A] vs t      | Constant              |
 | 2     | Curved, steeper at start          | 1/[A] vs t      | Decreases with [A]\_0 |
+
+</div>
 
 To determine the order experimentally: plot the data in all three linearised forms. The one that
 gives the best straight line (highest $R^2$ value) indicates the order.
@@ -677,6 +697,8 @@ gives the best straight line (highest $R^2$ value) indicates the order.
 
 The hydrolysis of a halogenoalkane $\mathrm{R-X}$ was monitored by measuring conductivity. The
 following data were obtained:
+
+<div class="table-wrap">
 
 | Time (s) | Conductivity ($\mu\mathrm{S/cm}$) |
 | -------- | --------------------------------- |
@@ -687,11 +709,15 @@ following data were obtained:
 | 240      | 49.8                              |
 | $\infty$ | 64.0                              |
 
+</div>
+
 The conductivity at $t = \infty$ (complete reaction) is $64.0$. The conductivity is proportional to
 the concentration of product.
 
 $[\mathrm{P}] \propto (\kappa_t - \kappa_0) = (\kappa_t - 12.0)$ And
 $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
+
+<div class="table-wrap">
 
 | Time (s) | $[\mathrm{R-X}]$ (arb. Units) | $\ln[\mathrm{R-X}]$ | $1/[\mathrm{R-X}]$ |
 | -------- | ----------------------------- | ------------------- | ------------------ |
@@ -700,6 +726,8 @@ $[\mathrm{R-X}] \propto (\kappa_\infty - \kappa_t) = (64.0 - \kappa_t)$.
 | 120      | 27.6                          | 3.318               | 0.0362             |
 | 180      | 19.8                          | 2.986               | 0.0505             |
 | 240      | 14.2                          | 2.653               | 0.0704             |
+
+</div>
 
 Plotting $\ln[\mathrm{R-X}]$ vs $t$: the points (0, 3.951), (60, 3.643), (120, 3.318), (180, 2.986),
 (240, 2.653) give an approximately straight line. The gradient is approximately
@@ -765,12 +793,16 @@ $$
 The rate of the reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ was studied at $298\,\mathrm{K}$.
 The following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ ($\mathrm{mol/dm}^3$) | $[\mathrm{B}]$ ($\mathrm{mol/dm}^3$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------- | ------------------------------------ | ------------------------------------ | ---------------------------------------------- |
 | 1          | 0.10                                 | 0.10                                 | $1.2 \times 10^{-3}$                           |
 | 2          | 0.20                                 | 0.10                                 | $2.4 \times 10^{-3}$                           |
 | 3          | 0.10                                 | 0.20                                 | $4.8 \times 10^{-3}$                           |
 | 4          | 0.20                                 | 0.20                                 | $9.6 \times 10^{-3}$                           |
+
+</div>
 
 (a) Determine the order with respect to $\mathrm{A}$ and $\mathrm{B}$. (b) Write the rate equation
 and calculate the rate constant. (c) Calculate the initial rate when $[\mathrm{A}] = 0.15$ and
@@ -982,11 +1014,15 @@ The catalyst increases the rate by a factor of approximately 24,000 at $298\,\ma
 The reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ was studied at $298\,\mathrm{K}$. The
 following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | $[\mathrm{A}]$ ($\mathrm{mol\,dm^{-3}}$) | $[\mathrm{B}]$ ($\mathrm{mol\,dm^{-3}}$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------------- |
 | 0.10                                     | 0.10                                     | $1.2 \times 10^{-4}$                           |
 | 0.20                                     | 0.10                                     | $2.4 \times 10^{-4}$                           |
 | 0.10                                     | 0.20                                     | $4.8 \times 10^{-4}$                           |
+
+</div>
 
 (a) Deduce the rate equation. (3 marks)
 

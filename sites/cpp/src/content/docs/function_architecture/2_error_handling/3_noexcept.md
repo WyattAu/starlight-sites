@@ -347,6 +347,8 @@ int main() {
 
 The relevant type traits for querying noexcept properties:
 
+<div class="table-wrap">
+
 | Trait                                | Meaning                                          |
 | ------------------------------------ | ------------------------------------------------ |
 | `std::is_nothrow_constructible`      | Can be constructed without throwing              |
@@ -354,6 +356,8 @@ The relevant type traits for querying noexcept properties:
 | `std::is_nothrow_copy_constructible` | Copy constructor is noexcept                     |
 | `std::is_nothrow_move_assignable`    | Move assignment operator is noexcept             |
 | `std::is_nothrow_destructible`       | Destructor is noexcept (always true since C++11) |
+
+</div>
 
 ## 3.8 `noexcept` Function Overloading
 

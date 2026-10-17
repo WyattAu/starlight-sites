@@ -62,11 +62,15 @@ Insertion follows the standard BST insert, then colours the new node red. This m
 **Cases after insertion** (let $z$ be the newly inserted red node, $p$ its parent, $u$ its uncle,
 and $g$ its grandparent):
 
+<div class="table-wrap">
+
 | Case | Uncle colour | Configuration                                              | Fix                                                                   |
 | ---- | ------------ | ---------------------------------------------------------- | --------------------------------------------------------------------- |
 | 1    | Red          | Any                                                        | Recolour $p$ and $u$ black, $g$ red; push problem up to $g$           |
 | 2    | Black        | $z$ and $p$ same direction (left-left or right-right)      | Single rotation at $g$; recolour $p$ black, $g$ red                   |
 | 3    | Black        | $z$ and $p$ opposite directions (left-right or right-left) | Double rotation: first at $p$ Then at $g$; recolour $z$ black, $g$ red |
+
+</div>
 
 **Theorem 1.2.** Insertion into a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
 at most 2 rotations.
@@ -188,12 +192,16 @@ changes the black-height of paths.
 
 **Fix-up cases** (let $w$ be the sibling of $x$):
 
+<div class="table-wrap">
+
 | Case | Sibling $w$ | $w$'s children                    | Fix                                                                |
 | ---- | ----------- | --------------------------------- | ------------------------------------------------------------------ |
 | 1    | Red         | Any                               | Left-rotate at parent, recolour; reduces to cases 2--4             |
 | 2    | Black       | Both black                        | Recolour $w$ red; push double-black up to parent                   |
 | 3    | Black       | Left child red, right child black | Right-rotate at $w$ Recolour children; reduces to case 4            |
 | 4    | Black       | Right child red                   | Left-rotate at parent, recolour $w$ and parent's parent; terminate |
+
+</div>
 
 **Theorem 1.3.** Deletion from a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
 at most 3 rotations.
@@ -427,6 +435,8 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 
 #### 1.2.4 B+ Tree vs B-Tree Comparison
 
+<div class="table-wrap">
+
 | Property              | B-Tree                   | B+ Tree                      |
 | --------------------- | ------------------------ | ---------------------------- |
 | Data storage          | All nodes                | Leaf nodes only              |
@@ -436,6 +446,8 @@ height $h \leq \lceil \log_d(n) \rceil + 1$.
 | Fan-out               | Lower                    | Higher                       |
 | Height                | Higher                   | Lower                        |
 | Use case              | General-purpose          | Databases, file systems      |
+
+</div>
 
 :::caution
 A B-tree of order $m$ has maximum $m$ children per internal node, which means
@@ -457,12 +469,16 @@ prefix, and edges are labelled with characters.
 
 **Operations:**
 
+<div class="table-wrap">
+
 | Operation     | Time Complexity | Notes                         |
 | ------------- | --------------- | ----------------------------- |
 | Insert        | $O(L)$          | $L$ = length of string        |
 | Search        | $O(L)$          | Exact match                   |
 | Prefix search | $O(L + k)$      | $k$ = number of matches       |
 | Delete        | $O(L)$          | May need to prune empty nodes |
+
+</div>
 
 **Space.** A trie storing $n$ strings of total length $N$ uses $O(N)$ nodes. Each node has up to
 $|\Sigma|$ children pointers.
@@ -842,12 +858,16 @@ $B_{k-1}$ trees, making one the leftmost child of the other's root.
 
 **Properties of $B_k$:**
 
+<div class="table-wrap">
+
 | Property                             | Value          |
 | ------------------------------------ | -------------- |
 | Number of nodes                      | $2^k$          |
 | Height                               | $k$            |
 | Number of children of root           | $k$            |
 | Minimum number of nodes at depth $d$ | $\binom{k}{d}$ |
+
+</div>
 
 **Theorem 2.1.** A binomial heap with $n$ nodes contains at most $\lfloor \log_2 n \rfloor + 1$
 binomial trees.
@@ -901,6 +921,8 @@ Extract-min: remove $B_0: 1$. Remaining: $\{B_2: 2, \ldots\}$. Minimum is now 2.
 
 A **Fibonacci heap** is a collection of min-heap-ordered trees supporting:
 
+<div class="table-wrap">
+
 | Operation    | Amortised Cost | Note                                      |
 | ------------ | -------------- | ----------------------------------------- |
 | Insert       | $O(1)$         | Add tree to root list                     |
@@ -909,6 +931,8 @@ A **Fibonacci heap** is a collection of min-heap-ordered trees supporting:
 | Decrease-key | $O(1)$         | Cut and cascade                           |
 | Delete       | $O(\log n)$    | Decrease-key to $-\infty$ Then extract-min |
 | Union        | $O(1)$         | Concatenate root lists                    |
+
+</div>
 
 **Key difference from binomial heaps:** Fibonacci heaps allow trees to have any structure (not just
 binomial trees). Trees are only restructured during extract-min (consolidation). Decrease-key may
@@ -1247,12 +1271,16 @@ $2n - 1$ edges.
 
 **Applications:**
 
+<div class="table-wrap">
+
 | Problem                    | Suffix tree solution              | Time       |
 | -------------------------- | --------------------------------- | ---------- |
 | Exact pattern matching     | Traverse from root                | $O(m + k)$ |
 | Longest repeated substring | Find deepest internal node        | $O(n)$     |
 | Longest common substring   | Generalised suffix tree           | $O(n + m)$ |
 | Longest palindrome         | Suffix tree of $S$ + reverse($S$) | $O(n)$     |
+
+</div>
 
 ### 6.3 LCP Arrays
 
@@ -1298,11 +1326,15 @@ Longest repeated substring: The maximum LCP value is 3, between "ana$" and "anan
 
 ### 7.1 The Three Methods Compared
 
+<div class="table-wrap">
+
 | Method     | Key idea                                 | When to use                                         |
 | ---------- | ---------------------------------------- | --------------------------------------------------- |
 | Aggregate  | Total cost / number of operations        | Simple cases where total cost is easy to compute    |
 | Accounting | Assign amortised cost, accumulate credit | When you can identify a "credit" scheme             |
 | Potential  | Define potential function $\Phi$         | Most general; works when credit is hard to localise |
+
+</div>
 
 **Equivalence.** All three methods give the same amortised bounds when applied correctly. The
 accounting method is a special case of the potential method where $\Phi$ is the total credit.
@@ -1317,6 +1349,8 @@ A good potential function satisfies:
 
 **Common potential functions:**
 
+<div class="table-wrap">
+
 | Data structure | Potential function $\Phi$                                          |
 | -------------- | ------------------------------------------------------------------ |
 | Dynamic array  | $\Phi = 2 \cdot \mathrm{num} - \mathrm{size}$ (credit per element) |
@@ -1324,6 +1358,8 @@ A good potential function satisfies:
 | Stack          | $\Phi =$ number of elements                                        |
 | Splay tree     | $\Phi = \sum_x \log(\mathrm{size}(x))$                             |
 | Union-Find     | $\Phi$ based on node levels                                        |
+
+</div>
 
 ### 7.3 Limitations of Amortised Analysis
 
@@ -1886,11 +1922,15 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                                 |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
 | [Data Structures] | IB         | [View](https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/) |
 | [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

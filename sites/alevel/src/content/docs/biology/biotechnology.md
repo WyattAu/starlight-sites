@@ -38,12 +38,16 @@ engineering** and **genetic modification (GM)**.
 sequences are 4--8 base pairs long and palindromic (the sequence reads the same on both strands in
 the 5" to 3' direction).
 
+<div class="table-wrap">
+
 | Enzyme  | Recognition Sequence | Cut Type  | Sticky Ends |
 | ------- | -------------------- | --------- | ----------- |
 | EcoRI   | 5'-GAATTC-3'         | Staggered | AATT        |
 | BamHI   | 5'-GGATCC-3'         | Staggered | GATC        |
 | HindIII | 5'-AAGCTT-3'         | Staggered | AGCT        |
 | SmaI    | 5'-CCCGGG-3'         | Blunt     | None        |
+
+</div>
 
 Staggered cuts produce **sticky ends** (single-stranded overhangs) that are complementary and can
 base-pair with any DNA cut with the same enzyme. Blunt cuts produce flat ends that can be joined to
@@ -55,12 +59,16 @@ and blunt-end fragments.
 
 **Vectors** are DNA molecules used to carry foreign DNA into host cells:
 
+<div class="table-wrap">
+
 | Vector Type                           | Capacity                   | Advantages                                | Disadvantages         |
 | ------------------------------------- | -------------------------- | ----------------------------------------- | --------------------- |
 | Plasmid                               | $< 10\ \mathrm{kb}$        | Easy to manipulate; high copy number      | Limited capacity      |
 | Bacteriophage ($\lambda$)             | $< 25\ \mathrm{kb}$        | Efficient delivery to E. Coli             | More complex handling |
 | BAC (bacterial artificial chromosome) | $100$--$300\ \mathrm{kb}$  | Large inserts                             | Low copy number       |
 | YAC (yeast artificial chromosome)     | $100$--$2000\ \mathrm{kb}$ | Very large inserts; eukaryotic processing | Unstable; low yield   |
+
+</div>
 
 ### 1.3 Procedure for Producing Recombinant DNA
 
@@ -160,11 +168,15 @@ molecular mass:
 
 ### 3.3 Southern, Northern, and Western Blotting
 
+<div class="table-wrap">
+
 | Technique     | Target        | Probe/Antibody        | Purpose                               |
 | ------------- | ------------- | --------------------- | ------------------------------------- |
 | Southern blot | DNA fragments | Radioactive DNA probe | Identify specific DNA sequences       |
 | Northern blot | RNA fragments | Radioactive DNA probe | Measure gene expression (mRNA levels) |
 | Western blot  | Proteins      | Specific antibody     | Detect specific proteins              |
+
+</div>
 
 ## 4. DNA Sequencing
 
@@ -222,11 +234,15 @@ countries due to ethical concerns and the risk of unintended consequences.
 **Stem cells** are undifferentiated cells with the capacity for self-renewal (mitosis producing
 identical stem cells) and differentiation into specialised cell types.
 
+<div class="table-wrap">
+
 | Type                       | Source                                                                        | Potency                | Ethical Issues                      |
 | -------------------------- | ----------------------------------------------------------------------------- | ---------------------- | ----------------------------------- |
 | Embryonic (ESC)            | Inner cell mass of blastocyst (5--7 days)                                     | Totipotent/pluripotent | Significant (destruction of embryo) |
 | Adult                      | Bone marrow, adipose tissue, brain                                            | Multipotent            | Fewer                               |
 | Induced pluripotent (iPSC) | Adult cells reprogrammed with transcription factors (Oct4, Sox2, Klf4, c-Myc) | Pluripotent            | Minimal (no embryos)                |
+
+</div>
 
 **Therapeutic cloning** (somatic cell nuclear transfer, SCNT): the nucleus from a patient's somatic
 cell is transferred into an enucleated egg cell. The resulting embryo is allowed to develop to the
@@ -317,6 +333,8 @@ data, particularly DNA and protein sequences.
 
 ### 7.3 Databases
 
+<div class="table-wrap">
+
 | Database | Content                           |
 | -------- | --------------------------------- |
 | GenBank  | Nucleotide sequences              |
@@ -324,6 +342,8 @@ data, particularly DNA and protein sequences.
 | OMIM     | Human genes and genetic disorders |
 | Ensembl  | Vertebrate genomes                |
 | PDB      | Protein 3D structures             |
+
+</div>
 
 ## 8. The Microbiome
 
@@ -536,6 +556,8 @@ rice.
 
 ### 10.4 Ethical and Practical Considerations
 
+<div class="table-wrap">
+
 | Argument For                                                                         | Argument Against                                                                                                      |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 | Addresses a major public health problem (VAD blindness)                              | Concerns about corporate control of food supply (patents on GM crops)                                                 |
@@ -543,6 +565,8 @@ rice.
 | Golden Rice seeds are distributed free to subsistence farmers (humanitarian licence) | Some argue that VAD is better addressed by dietary diversification (eating more vegetables) rather than GM technology |
 | Reduces reliance on vitamin A supplements (cost, distribution logistics)             | Long-term health effects of consuming GM foods are unknown (though no evidence of harm to date)                       |
 | Could be combined with other traits (drought resistance, pest resistance)            | Public opposition to GM food may prevent adoption                                                                     |
+
+</div>
 
 ## 11. Gene Therapy
 
@@ -554,6 +578,8 @@ by offspring.
 
 **Vectors for gene delivery:**
 
+<div class="table-wrap">
+
 | Vector                          | Advantages                                                     | Disadvantages                                                                       |
 | ------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | Retrovirus (e.g., lentivirus)   | Integrates into host genome, providing permanent expression    | Risk of insertional mutagenesis (activating oncogenes); only infects dividing cells |
@@ -561,6 +587,8 @@ by offspring.
 | Adeno-associated virus (AAV)    | Low immunogenicity; long-term expression in non-dividing cells | Small capacity ($< 5\ \mathrm{kb}$); expensive to produce                           |
 | Liposomes (lipid nanoparticles) | Non-viral; no risk of viral infection; can carry larger DNA    | Low transfection efficiency; transient expression                                   |
 | Naked DNA injection             | Simple; no vector needed                                       | Very low efficiency                                                                 |
+
+</div>
 
 ### 11.2 Germline Gene Therapy
 
@@ -614,6 +642,8 @@ sequences are then used to construct a phylogenetic tree.
 
 **Tree-building methods:**
 
+<div class="table-wrap">
+
 | Method                                                    | Principle                                                                 | Speed     | Accuracy                    |
 | --------------------------------------------------------- | ------------------------------------------------------------------------- | --------- | --------------------------- |
 | UPGMA (unweighted pair group method with arithmetic mean) | Clusters sequences by pairwise similarity; assumes a molecular clock      | Fast      | Lower (assumes equal rates) |
@@ -621,6 +651,8 @@ sequences are then used to construct a phylogenetic tree.
 | Maximum parsimony                                         | Chooses the tree requiring the fewest evolutionary changes                | Slow      | Moderate                    |
 | Maximum likelihood                                        | Chooses the tree with the highest probability given an evolutionary model | Very slow | High                        |
 | Bayesian inference                                        | Uses probability distributions to estimate the most likely tree           | Very slow | Highest                     |
+
+</div>
 
 ### 12.3 Worked Example: Calculating Genetic Distance
 
@@ -640,12 +672,16 @@ Counting differences:
 
 **Genetic distance matrix:**
 
+<div class="table-wrap">
+
 |     | A   | B    | C    | D    |
 | --- | --- | ---- | ---- | ---- |
 | A   | 0   | 0.00 | 0.05 | 0.10 |
 | B   |     | 0    | 0.05 | 0.10 |
 | C   |     |      | 0    | 0.05 |
 | D   |     |      |      | 0    |
+
+</div>
 
 Species A and B are most closely related (identical in this region). Species C is equally distant
 from A and B. Species D is the most divergent.
@@ -697,6 +733,8 @@ property of **totipotency**: the ability of any plant cell to develop into a com
 
 ### 13.4 Advantages and Disadvantages
 
+<div class="table-wrap">
+
 | Advantages                                                  | Disadvantages                                                                   |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Large numbers of identical plants (clones) produced rapidly | Genetic uniformity makes all plants equally susceptible to the same disease     |
@@ -705,9 +743,13 @@ property of **totipotency**: the ability of any plant cell to develop into a com
 | Enables conservation of rare species                        | Somaclonal variation (genetic changes during tissue culture) can reduce quality |
 | Small amount of parent tissue needed                        | Some species are difficult to culture                                           |
 
+</div>
+
 ## 14. Fermentation and Bioreactors
 
 ### 14.1 Types of Fermentation
+
+<div class="table-wrap">
 
 | Type       | Organism                           | Conditions                           | Products                 |
 | ---------- | ---------------------------------- | ------------------------------------ | ------------------------ |
@@ -715,7 +757,11 @@ property of **totipotency**: the ability of any plant cell to develop into a com
 | Anaerobic  | _Saccharomyces cerevisiae_ (yeast) | No aeration, $30$ degrees C, pH 4--6 | Ethanol, $\mathrm{CO_2}$ |
 | Continuous | _Escherichia coli_ (bacterium)     | Continuous nutrient supply           | Insulin, growth hormone  |
 
+</div>
+
 ### 14.2 Batch vs Continuous Fermentation
+
+<div class="table-wrap">
 
 | Feature            | Batch Fermentation                                                      | Continuous Fermentation                                                 |
 | ------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -725,6 +771,8 @@ property of **totipotency**: the ability of any plant cell to develop into a com
 | Contamination risk | Lower (sealed vessel)                                                   | Higher (open system for extended periods)                               |
 | Cost               | Lower initial cost; labour-intensive                                    | Higher initial cost; automated                                          |
 | Best for           | Secondary metabolites (e.g., antibiotics, produced in stationary phase) | Primary metabolites (e.g., insulin, produced during exponential growth) |
+
+</div>
 
 ### 14.3 Optimising Fermentation Conditions
 
@@ -757,6 +805,8 @@ After fermentation, the product must be extracted and purified:
 
 ### 15.1 Key Ethical Principles
 
+<div class="table-wrap">
+
 | Principle                   | Description                                                                                        |
 | --------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Beneficence**             | Technology should benefit humanity (e.g., curing disease, feeding the hungry)                      |
@@ -764,6 +814,8 @@ After fermentation, the product must be extracted and purified:
 | **Autonomy**                | Individuals have the right to make informed choices (e.g., informed consent for genetic testing)   |
 | **Justice**                 | Benefits and risks should be distributed fairly (avoiding "genetic divide" between rich and poor)  |
 | **Precautionary principle** | Where there is scientific uncertainty about potential harm, precautionary measures should be taken |
+
+</div>
 
 ### 15.2 Genetic Testing and Screening
 
@@ -816,6 +868,8 @@ environment.
 
 ### 16.2 Functions of the Gut Microbiome
 
+<div class="table-wrap">
+
 | Function                      | Mechanism                                                                                                                                                                    |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Fermentation of dietary fibre | Bacteria produce short-chain fatty acids (SCFAs): butyrate, propionate, acetate. Butyrate is the primary energy source for colonocytes and has anti-inflammatory properties. |
@@ -823,6 +877,8 @@ environment.
 | Immune system development     | Bacterial antigens stimulate the development of gut-associated lymphoid tissue (GALT) and regulatory T cells.                                                                |
 | Protection against pathogens  | Commensal bacteria compete with pathogens for nutrients and adhesion sites; they produce antimicrobial peptides (bacteriocins).                                              |
 | Metabolism of xenobiotics     | Bacteria modify drugs and toxins, affecting their absorption, efficacy, and toxicity.                                                                                        |
+
+</div>
 
 ### 16.3 Dysbiosis
 
@@ -921,10 +977,14 @@ measuring the increase in fluorescence during the amplification reaction.
 
 Two main methods:
 
+<div class="table-wrap">
+
 | Method        | Principle                                                                                                                                                                                  | Advantages                                                         |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | SYBR Green    | A fluorescent dye that binds to double-stranded DNA. Fluorescence increases as more dsDNA is produced.                                                                                     | Simple, cheap                                                      |
 | TaqMan probes | A fluorescent probe with a reporter dye and a quencher. When the probe binds to the target sequence and is degraded by Taq polymerase's 5' exonuclease activity, fluorescence is released. | Highly specific; can distinguish between closely related sequences |
+
+</div>
 
 The **threshold cycle** ($C_t$) is the cycle number at which the fluorescence exceeds a set
 threshold. A lower $C_t$ value indicates a higher starting concentration of the target DNA.
@@ -952,6 +1012,8 @@ expression (by quantifying mRNA levels).
 
 Good PCR primers must:
 
+<div class="table-wrap">
+
 | Criterion                   | Optimal Value              | Reason                                                            |
 | --------------------------- | -------------------------- | ----------------------------------------------------------------- |
 | Length                      | 18--25 bases               | Long enough for specificity, short enough for efficient binding   |
@@ -960,6 +1022,8 @@ Good PCR primers must:
 | 3' end                      | End in G or C ("GC clamp") | Increases binding stability at the 3' end where extension begins  |
 | Self-complementarity        | Avoid                      | Prevents primer-dimer formation (primers annealing to each other) |
 | Repeated sequences          | Avoid                      | Reduces non-specific binding                                      |
+
+</div>
 
 ## 19. DNA Fingerprinting: Advanced Applications
 
@@ -985,6 +1049,8 @@ PCR is essential in forensic DNA analysis because:
 A suspect's DNA profile matches the crime scene sample at 10 STR loci. The frequency of each allele
 in the population is:
 
+<div class="table-wrap">
+
 | Locus   | Genotype | Population Frequency        |
 | ------- | -------- | --------------------------- |
 | D3S1358 | 15, 16   | 0.08 $\times$ 0.06 = 0.0048 |
@@ -992,6 +1058,8 @@ in the population is:
 | FGA     | 22, 24   | 0.15 $\times$ 0.04 = 0.006  |
 | ...     | ...      | ...                         |
 | D18S51  | 13, 16   | 0.07 $\times$ 0.09 = 0.0063 |
+
+</div>
 
 The match probability is the product of the frequencies at all 10 loci. If the average frequency per
 locus is approximately $0.005$ Then:
@@ -1025,6 +1093,8 @@ they would not be rejected by the immune system.
 
 Plants can reproduce asexually (vegetatively) by various methods:
 
+<div class="table-wrap">
+
 | Method            | Description                                                                          | Examples                 |
 | ----------------- | ------------------------------------------------------------------------------------ | ------------------------ |
 | Runners (stolons) | Horizontal stems growing along the ground that produce new roots and shoots at nodes | Strawberry, spider plant |
@@ -1033,6 +1103,8 @@ Plants can reproduce asexually (vegetatively) by various methods:
 | Corms             | Swollen underground stem bases                                                       | Crocus, gladiolus        |
 | Cuttings          | Pieces of stem or leaf that develop roots when placed in moist conditions            | Geranium, sugar cane     |
 | Grafting          | Joining a scion (shoot) to a rootstock of another plant                              | Apple, rose, citrus      |
+
+</div>
 
 All of these methods produce **clones** -- genetically identical offspring. This is advantageous
 because:
@@ -1057,12 +1129,16 @@ differential gene expression.
 
 Techniques used in proteomics:
 
+<div class="table-wrap">
+
 | Technique              | Purpose                                                                                 |
 | ---------------------- | --------------------------------------------------------------------------------------- |
 | 2D gel electrophoresis | Separates proteins by charge (first dimension) and by molecular mass (second dimension) |
 | Mass spectrometry      | Identifies proteins by measuring the mass-to-charge ratio of peptide fragments          |
 | Protein microarrays    | Detect protein-protein interactions and measure protein expression levels               |
 | X-ray crystallography  | Determines the 3D structure of proteins                                                 |
+
+</div>
 
 ### 21.2 Metabolomics
 
@@ -1126,6 +1202,8 @@ selection programmes) produce over $50\ \mathrm{g\ L^{-1}}$.
 
 **Bioremediation** uses microorganisms to clean up pollution:
 
+<div class="table-wrap">
+
 | Pollutant         | Microorganism                     | Mechanism                                                                                 |
 | ----------------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
 | Oil spills        | _Pseudomonas_ spp., _Alcanivorax_ | Degrade hydrocarbons in crude oil into $\mathrm{CO_2}$ and water                          |
@@ -1133,6 +1211,8 @@ selection programmes) produce over $50\ \mathrm{g\ L^{-1}}$.
 | Pesticides        | _Bacillus_ spp.                   | Produce enzymes that break down organophosphate pesticides                                |
 | Sewage            | Mixed microbial communities       | Degrade organic matter in primary and secondary treatment                                 |
 | Plastic pollution | _Ideonella sakaiensis_            | Produces PETase enzyme that breaks down PET plastic                                       |
+
+</div>
 
 **Advantages of bioremediation:** relatively cheap; environmentally friendly (compared to physical
 or chemical methods); can be used in situ (at the contaminated site).
@@ -1159,6 +1239,8 @@ degradation may produce toxic intermediates; may be slower than physical removal
 
 **Case 1: Using CRISPR to edit human embryos.**
 
+<div class="table-wrap">
+
 | Principle       | Analysis                                                                             |
 | --------------- | ------------------------------------------------------------------------------------ |
 | Beneficence     | Could eliminate devastating genetic diseases (cystic fibrosis, Huntington's disease) |
@@ -1166,7 +1248,11 @@ degradation may produce toxic intermediates; may be slower than physical removal
 | Autonomy        | The embryo cannot consent; future generations cannot consent to heritable changes    |
 | Justice         | Initially only available to the wealthy; could exacerbate health inequalities        |
 
+</div>
+
 **Case 2: Genetically modified mosquitoes to eliminate malaria.**
+
+<div class="table-wrap">
 
 | Principle       | Analysis                                                                                                                                      |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1174,6 +1260,8 @@ degradation may produce toxic intermediates; may be slower than physical removal
 | Non-maleficence | Gene drives could have unintended ecological consequences; eliminating a species could affect food webs                                       |
 | Autonomy        | People in affected areas may not have been consulted                                                                                          |
 | Justice         | Benefits and risks are distributed unevenly (people in Africa bear the ecological risk; people in developed countries develop the technology) |
+
+</div>
 
 ### 25.2 The Precautionary Principle in Practice
 
@@ -1248,15 +1336,21 @@ system that has been repurposed as a genome editing tool. The system has two key
 
 After Cas9 creates a DSB, the cell repairs it using one of two mechanisms:
 
+<div class="table-wrap">
+
 | Repair Mechanism                  | Outcome                                                                                    | Use in Gene Editing                                                                                            |
 | --------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | Non-homologous end joining (NHEJ) | The broken ends are rejoined, often with small insertions or deletions (indels)            | **Gene knockout**: the indels cause a frameshift, producing a non-functional protein                           |
 | Homology-directed repair (HDR)    | A DNA template with homology to the sequences flanking the break is used as a repair guide | **Gene knock-in**: a specific sequence (e.g., a corrected gene, a reporter gene) is inserted at the break site |
 
+</div>
+
 HDR is less efficient than NHEJ and requires a donor DNA template. It occurs during the S and G2
 phases of the cell cycle (when sister chromatids are available as templates).
 
 ### 22.3 Applications
+
+<div class="table-wrap">
 
 | Application                     | Description                                                                                        | Status                                   |
 | ------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -1265,6 +1359,8 @@ phases of the cell cycle (when sister chromatids are available as templates).
 | Diagnostics (SHERLOCK, DETECTR) | Using Cas12/Cas13 collateral cleavage activity to detect specific RNA/DNA sequences                | Rapid COVID-19 tests developed           |
 | Gene drives                     | Spreading a gene through a wild population (e.g., making malaria mosquitoes sterile)               | Proof of concept; controversial          |
 | Agriculture                     | Drought-resistant wheat, disease-resistant rice, non-browning mushrooms                            | Approved in USA (2022)                   |
+
+</div>
 
 ### 22.4 Off-Target Effects and Ethical Concerns
 
@@ -1336,6 +1432,8 @@ Mitigation strategies:
 
 ### 23.2 Advantages of Recombinant Human Insulin over Animal Insulin
 
+<div class="table-wrap">
+
 | Feature             | Recombinant Human Insulin           | Animal Insulin (pig/cow)                          |
 | ------------------- | ----------------------------------- | ------------------------------------------------- |
 | Amino acid sequence | Identical to human insulin          | Slightly different (1--3 amino acid differences)  |
@@ -1344,6 +1442,8 @@ Mitigation strategies:
 | Consistency         | Uniform product from batch to batch | Variable (depends on source animal)               |
 | Cost                | Lower (once established)            | Higher (animal farming costs)                     |
 | Ethical concerns    | Fewer (no animal slaughter)         | Animal welfare concerns                           |
+
+</div>
 
 ## 24. Bioinformatics: Worked Examples
 
@@ -1372,6 +1472,8 @@ Given the DNA sequence: 5'-ATG CCA AGG TCA GCT AGA TCC TAA-3'
 
 Translate in the correct reading frame:
 
+<div class="table-wrap">
+
 | Codon | Amino Acid  |
 | ----- | ----------- |
 | ATG   | Met (start) |
@@ -1383,12 +1485,16 @@ Translate in the correct reading frame:
 | TCC   | Ser         |
 | TAA   | Stop        |
 
+</div>
+
 The protein is: Met-Pro-Arg-Ser-Ala-Arg-Ser (7 amino acids, 21 nucleotides of coding sequence plus 3
 for the stop codon $= 24$ nucleotides).
 
 ## 28. Antibiotic Resistance: Detailed Analysis
 
 ### 28.1 Mechanisms of Resistance
+
+<div class="table-wrap">
 
 | Mechanism             | Genetic Basis                            | Example                                          |
 | --------------------- | ---------------------------------------- | ------------------------------------------------ |
@@ -1398,13 +1504,19 @@ for the stop codon $= 24$ nucleotides).
 | Active efflux         | Overexpression of efflux pump genes      | _E. Coli_ (multidrug resistance)                 |
 | Alternative pathway   | Mutation in target enzyme                | _M. Tuberculosis_ (rifampicin resistance)        |
 
+</div>
+
 ### 28.2 Horizontal Gene Transfer of Resistance
+
+<div class="table-wrap">
 
 | Method         | Description                                      | Example                                                  |
 | -------------- | ------------------------------------------------ | -------------------------------------------------------- |
 | Conjugation    | Cell-to-cell contact via pilus; plasmid transfer | R plasmid transferred between _E. Coli_ and _Klebsiella_ |
 | Transformation | Uptake of free DNA from environment              | _S. Pneumoniae_ acquiring penicillin resistance          |
 | Transduction   | Bacteriophage transfers bacterial DNA            | Phage-mediated toxin gene transfer in _C. Diphtheriae_   |
+
+</div>
 
 ### 28.3 The Antibiotic Resistance Crisis
 
@@ -1421,12 +1533,16 @@ The human microbiome consists of approximately $10^{13}$--$10^{14}$ microorganis
 archaea, fungi, viruses) residing on and in the human body. The gut microbiome alone contains
 approximately 3 million unique genes (150 times the human genome).
 
+<div class="table-wrap">
+
 | Body Site       | Dominant Organisms                                | Functions                                                                   |
 | --------------- | ------------------------------------------------- | --------------------------------------------------------------------------- |
 | Large intestine | _Bacteroidetes_, _Firmicutes_, _Actinobacteria_   | Fermentation of dietary fibre; vitamin K and B synthesis; immune modulation |
 | Skin            | _Staphylococcus_, _Corynebacterium_, _Malassezia_ | Pathogen colonisation resistance; wound healing                             |
 | Oral cavity     | _Streptococcus_, _Veillonella_, _Fusobacterium_   | Biofilm formation; pH regulation                                            |
 | Vagina          | _Lactobacillus_ spp.                              | Lactic acid production (low pH inhibits pathogens)                          |
+
+</div>
 
 ### 29.2 Faecal Microbiota Transplantation (FMT)
 
@@ -1481,6 +1597,8 @@ into any cell type, offering potential for:
 Synthetic biology involves designing and constructing new biological parts, devices, and systems, or
 redesigning existing natural biological systems:
 
+<div class="table-wrap">
+
 | Application           | Description                                                                                        | Status                                   |
 | --------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Synthetic genomes     | Complete chemical synthesis of bacterial genomes (_Mycoplasma mycoides_ JCVI-syn3.0, 473 genes)    | Proof of concept (2010)                  |
@@ -1489,9 +1607,13 @@ redesigning existing natural biological systems:
 | Biosensors            | Engineered organisms that detect environmental pollutants or disease biomarkers                    | Research/clinical trials                 |
 | Xenobiology           | Using alternative nucleotides (XNA) or amino acids to create organisms with expanded genetic codes | Research                                 |
 
+</div>
+
 ## 31. Environmental Biotechnology
 
 ### 31.1 Bioremediation Techniques
+
+<div class="table-wrap">
 
 | Technique              | Description                                                   | Application                                                            |
 | ---------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -1501,15 +1623,21 @@ redesigning existing natural biological systems:
 | Biostimulation         | Adding nutrients or oxygen to stimulate native microorganisms | Adding nitrates and phosphates to oil-contaminated soil                |
 | Phytoremediation       | Using plants to absorb, accumulate, or degrade pollutants     | Sunflowers for uranium absorption; willow trees for organic pollutants |
 
+</div>
+
 ### 31.2 Biosensors
 
 Biosensors use biological components to detect specific substances:
+
+<div class="table-wrap">
 
 | Component                      | Function                                                     | Example                                                                          |
 | ------------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Biological recognition element | Binds specifically to the target analyte                     | Enzyme (glucose oxidase for blood glucose); antibody; DNA probe; whole cell      |
 | Transducer                     | Converts the biological interaction into a measurable signal | Electrode (electrochemical); optical fibre (fluorescence); piezoelectric crystal |
 | Detector                       | Amplifies and displays the signal                            | Digital readout; computer interface                                              |
+
+</div>
 
 **Applications:**
 
@@ -1524,6 +1652,8 @@ Biosensors use biological components to detect specific substances:
 
 After fermentation, the desired product must be extracted and purified:
 
+<div class="table-wrap">
+
 | Step             | Purpose                              | Methods                                                                  |
 | ---------------- | ------------------------------------ | ------------------------------------------------------------------------ |
 | Cell separation  | Remove cells from fermentation broth | Centrifugation; filtration (microfiltration, ultrafiltration)            |
@@ -1532,7 +1662,11 @@ After fermentation, the desired product must be extracted and purified:
 | Purification     | Remove impurities                    | Chromatography (affinity, ion exchange, size exclusion); electrophoresis |
 | Polishing        | Achieve final product quality        | Ultrafiltration; crystallisation; lyophilisation (freeze-drying)         |
 
+</div>
+
 ### 31.4 Scaling Up: From Lab to Industrial Fermenter
+
+<div class="table-wrap">
 
 | Factor              | Lab Scale                  | Industrial Scale                                              |
 | ------------------- | -------------------------- | ------------------------------------------------------------- |
@@ -1542,6 +1676,8 @@ After fermentation, the desired product must be extracted and purified:
 | pH control          | Manual or simple buffer    | Automated acid/base addition                                  |
 | Sterilisation       | Autoclave                  | Steam-in-place (SIP) at 121 degrees C for 30+ minutes         |
 | Monitoring          | Manual sampling            | Online probes (pH, dissolved $\mathrm{O_2}$ Temperature, foam) |
+
+</div>
 
 ## 32. Genomics and Personalised Medicine
 
@@ -1560,6 +1696,8 @@ The Human Genome Project (HGP, 1990--2003) sequenced the entire human genome:
 
 Pharmacogenomics uses genetic information to predict an individual's response to drugs:
 
+<div class="table-wrap">
+
 | Drug                       | Genetic Factor                      | Effect                                                                                            | Clinical Application                                          |
 | -------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | Warfarin (anticoagulant)   | Variants in CYP2C9 and VKORC1 genes | Affects dose required; some individuals metabolise warfarin more slowly, increasing bleeding risk | Genotype-guided dosing improves safety                        |
@@ -1567,6 +1705,8 @@ Pharmacogenomics uses genetic information to predict an individual's response to
 | Codeine                    | CYP2D6 polymorphism                 | Poor metabolisers get no pain relief; ultra-rapid metabolisers may experience toxicity            | Genetic testing guides opioid selection                       |
 | Clopidogrel (antiplatelet) | CYP2C19 loss-of-function alleles    | Reduced activation of prodrug; increased risk of cardiovascular events                            | Alternative antiplatelet drugs for poor metabolisers          |
 | Herceptin (breast cancer)  | HER2 gene amplification             | Drug is only effective in tumours with HER2 overexpression                                        | HER2 testing selects patients who will benefit                |
+
+</div>
 
 ### 32.3 Personalised Medicine: Benefits and Challenges
 
@@ -1592,6 +1732,8 @@ Pharmacogenomics uses genetic information to predict an individual's response to
 
 ### 32.4 Bioinformatics Tools
 
+<div class="table-wrap">
+
 | Tool/Database | Purpose                                                                       | URL                    |
 | ------------- | ----------------------------------------------------------------------------- | ---------------------- |
 | BLAST         | Compare a DNA or protein sequence against databases to find similar sequences | blast.ncbi.nlm.nih.gov |
@@ -1600,6 +1742,8 @@ Pharmacogenomics uses genetic information to predict an individual's response to
 | UniProt       | Protein sequences, function, and structure information                        | uniprot.org            |
 | PDB           | 3D structures of proteins, nucleic acids, and complexes                       | rcsb.org               |
 | Gene Ontology | Standardised vocabulary for gene and protein function                         | geneontology.org       |
+
+</div>
 
 ## 33. Tissue Culture and Micropropagation
 
@@ -1634,6 +1778,8 @@ medium under aseptic (sterile) conditions:
 
 Animal cells are grown in vitro for research, drug testing, and biotechnology:
 
+<div class="table-wrap">
+
 | Requirement              | Description                                                                                                                                   |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Growth medium            | Contains amino acids, vitamins, glucose, salts, and 5--10% foetal bovine serum (FBS, provides growth factors and hormones)                    |
@@ -1641,6 +1787,8 @@ Animal cells are grown in vitro for research, drug testing, and biotechnology:
 | Sterile conditions       | Laminar flow cabinet; antibiotics/antimycotics in medium                                                                                      |
 | Substrate                | Most animal cells are anchorage-dependent (must attach to a surface to divide); tissue culture flasks are coated with collagen or poly-lysine |
 | Subculturing (passaging) | When cells reach confluence (cover the entire surface), they are detached using trypsin and transferred to a new flask                        |
+
+</div>
 
 **Cell line types:**
 
@@ -1677,12 +1825,18 @@ Animal cells are grown in vitro for research, drug testing, and biotechnology:
 
 ### 34.1 Types of Gene Therapy
 
+<div class="table-wrap">
+
 | Type                   | Description                                                            | Advantages                                                                   | Disadvantages                                                                                                            |
 | ---------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Somatic gene therapy   | Correcting the gene in body (somatic) cells; changes are not inherited | Treats the individual; does not affect germ cells; more ethically acceptable | Does not prevent transmission to offspring; may require repeated treatment (if corrected cells are not stem cells)       |
 | Germ line gene therapy | Correcting the gene in sperm, eggs, or embryos; changes are inherited  | Would permanently eliminate the disease from the family line                 | Ethically controversial; currently illegal in most countries; unknown long-term consequences; risk of off-target effects |
 
+</div>
+
 ### 34.2 Gene Therapy Methods
+
+<div class="table-wrap">
 
 | Method                       | Description                                                                                                                 | Example                                                                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -1690,6 +1844,8 @@ Animal cells are grown in vitro for research, drug testing, and biotechnology:
 | Gene addition (non-viral)    | A functional gene is delivered using liposomes, nanoparticles, or naked DNA                                                 | Less immunogenic than viral vectors but less efficient                                                                 |
 | Gene editing (CRISPR-Cas9)   | The defective gene is directly corrected in situ                                                                            | Ex vivo editing of haematopoietic stem cells for sickle cell disease and $\beta$-thalassaemia (Casgevy, approved 2023) |
 | RNA interference             | Silencing a harmful gene using siRNA or shRNA                                                                               | Patisiran for hereditary transthyretin amyloidosis                                                                     |
+
+</div>
 
 ### 34.3 Successes and Challenges
 
@@ -1752,6 +1908,8 @@ Animal cells are grown in vitro for research, drug testing, and biotechnology:
 
 ### 35.4 Ethical Considerations of GM Crops
 
+<div class="table-wrap">
+
 | Argument For                                                         | Argument Against                                            |
 | -------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Feeding a growing world population (9.7 billion by 2050)             | Long-term ecological effects are unknown                    |
@@ -1759,6 +1917,8 @@ Animal cells are grown in vitro for research, drug testing, and biotechnology:
 | Improving nutritional quality (Golden Rice)                          | "Playing God" / unnatural                                   |
 | Reducing food waste (delayed-ripening tomatoes, non-browning apples) | Potential for allergens from transgenes                     |
 | Drought- and disease-resistant crops for climate change adaptation   | Cross-contamination with non-GM crops; loss of biodiversity |
+
+</div>
 
 ## 36. Cloning: Organismal Cloning Techniques
 
@@ -1810,6 +1970,8 @@ for:
 
 ### 36.5 Natural Cloning
 
+<div class="table-wrap">
+
 | Organism | Method                                                                             | Example                                                                                         |
 | -------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Bacteria | Binary fission (asexual reproduction)                                              | _E. Coli_ divides every 20 minutes under optimal conditions                                     |
@@ -1817,9 +1979,13 @@ for:
 | Plants   | Runners (strawberry), tubers (potato), bulbs (daffodil), vegetative propagation    | Gardeners take cuttings, divide bulbs, or separate runners                                      |
 | Animals  | Parthenogenesis (some insects, reptiles, fish): egg develops without fertilisation | Aphids reproduce parthenogenetically in summer; Komodo dragons can reproduce by parthenogenesis |
 
+</div>
+
 ## 37. DNA Fingerprinting: Detailed Analysis
 
 ### 37.1 Minisatellites vs Microsatellites (STRs)
+
+<div class="table-wrap">
 
 | Feature            | Minisatellites (VNTRs)                  | Microsatellites (STRs)                   |
 | ------------------ | --------------------------------------- | ---------------------------------------- |
@@ -1829,6 +1995,8 @@ for:
 | Mutation rate      | High ($\approx 10^{-4}$ per generation) | Lower ($\approx 10^{-3}$ per generation) |
 | Method of analysis | Southern blotting (radioactive probes)  | PCR and capillary electrophoresis        |
 | Current use        | Largely replaced by STRs                | Standard in forensic DNA profiling       |
+
+</div>
 
 ### 37.2 DNA Fingerprinting in Forensics
 
@@ -1867,10 +2035,14 @@ father's and the mother's:
 Sequence alignment compares two or more DNA, RNA, or protein sequences to identify regions of
 similarity:
 
+<div class="table-wrap">
+
 | Type                        | Description                                      | Use                                                                                           |
 | --------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | Pairwise alignment          | Comparing two sequences                          | Finding conserved regions between two species; identifying orthologous genes                  |
 | Multiple sequence alignment | Comparing three or more sequences simultaneously | Identifying conserved domains; constructing phylogenetic trees; identifying functional motifs |
+
+</div>
 
 **Scoring alignments:**
 
@@ -1939,13 +2111,19 @@ then orangutans and gibbons.
 Golden rice is a genetically engineered variety of rice that produces $\beta$-carotene (provitamin
 A) in the endosperm:
 
+<div class="table-wrap">
+
 | Gene                              | Source                                                            | Enzyme Produced          | Step in Pathway                                       |
 | --------------------------------- | ----------------------------------------------------------------- | ------------------------ | ----------------------------------------------------- |
 | _psy_ (phytoene synthase)         | Daffodil (_Narcissus pseudonarcissus_)                            | Phytoene synthase        | Geranylgeranyl diphosphate $\to$ phytoene             |
 | _crtI_ (phytoene desaturase)      | Soil bacterium (_Pantoea ananatis_, formerly _Erwinia uredovora_) | Phytoene desaturase      | Phytoene $\to$ lycopene (multiple desaturation steps) |
 | _lcyl_ (lycopene $\beta$-cyclase) | Daffodil                                                          | Lycopene $\beta$-cyclase | Lycopene $\to$ $\beta$-carotene                       |
 
+</div>
+
 ### 39.3 Biofortification Approaches
+
+<div class="table-wrap">
 
 | Approach                | Description                                                        | Examples                                                                               |
 | ----------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
@@ -1953,9 +2131,13 @@ A) in the endosperm:
 | Genetic engineering     | Introduce genes that increase nutrient content or bioavailability  | Golden rice ($\beta$-carotene); iron-biofortified cassava (ferritin gene from soybean) |
 | Agronomic fortification | Apply mineral fertilisers to soil to increase crop mineral content | Selenium-biofortified wheat; iodine-biofortified cereals                               |
 
+</div>
+
 ## 40. Biofuels
 
 ### 40.1 Types of Biofuels
+
+<div class="table-wrap">
 
 | Biofuel Type                        | Source                                                      | Process                                                                           | Energy Density                             | Advantages                                                            | Disadvantages                                                                        |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -1964,7 +2146,11 @@ A) in the endosperm:
 | Cellulosic ethanol (2nd generation) | Lignocellulosic biomass (wood chips, straw, grasses)        | Pretreatment + enzymatic hydrolysis + fermentation                                | ~23 MJ/kg                                  | Does not compete with food; uses agricultural waste                   | Expensive; complex pretreatment required; not yet commercially viable at scale       |
 | Biogas (anaerobic digestion)        | Animal manure, food waste, sewage sludge                    | Anaerobic bacteria break down organic matter; produce methane (~60%) + CO2 (~40%) | ~21 MJ/m3                                  | Uses waste materials; produces fertiliser as by-product               | Lower energy density; requires large digesters; methane leaks potent greenhouse gas  |
 
+</div>
+
 ### 40.2 Bioethanol Production from Yeast
+
+<div class="table-wrap">
 
 | Step              | Process                                                                                                                    | Conditions                                    |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -1974,9 +2160,13 @@ A) in the endosperm:
 | 4. Fermentation   | Yeast (_Saccharomyces cerevisiae_) anaerobically respires glucose to ethanol + CO2                                         | 30--35$\degree\mathrm{C}$; anaerobic; pH 4--5 |
 | 5. Distillation   | Ethanol is separated from the fermentation mixture (ethanol boils at 78$\degree\mathrm{C}$Water at 100$\degree\mathrm{C}$) | Fractional distillation                       |
 
+</div>
+
 ## 41. Tissue Culture and Micropropagation
 
 ### 41.1 Plant Tissue Culture
+
+<div class="table-wrap">
 
 | Step                     | Description                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -1986,7 +2176,11 @@ A) in the endosperm:
 | 4. Organogenesis         | The medium is adjusted (different auxin:cytokinin ratio) to stimulate shoot or root formation                                    |
 | 5. Acclimatisation       | Plantlets are transferred from sterile conditions to soil (gradual exposure to normal environment)                               |
 
+</div>
+
 ### 41.2 Growth Substances in Tissue Culture
+
+<div class="table-wrap">
 
 | Substance                              | Role                                                                                              |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -1997,7 +2191,11 @@ A) in the endosperm:
 | Agar                                   | Solid medium to support the tissue                                                                |
 | Vitamins and minerals                  | Essential for growth (Murashige and Skoog medium is standard)                                     |
 
+</div>
+
 ### 41.3 Applications
+
+<div class="table-wrap">
 
 | Application                     | Description                                                                                                          |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -2007,9 +2205,13 @@ A) in the endosperm:
 | Genetic engineering             | Tissue culture is used to regenerate whole plants from genetically modified cells                                    |
 | Secondary metabolite production | Plant cell cultures can produce valuable compounds (e.g., taxol from yew, shikonin from _Lithospermum_)              |
 
+</div>
+
 ## 42. Genetic Modification of Animals
 
 ### 42.1 Methods
+
+<div class="table-wrap">
 
 | Method                               | Description                                                                                                                                                 | Example                                                                                                 |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -2018,7 +2220,11 @@ A) in the endosperm:
 | CRISPR-Cas9                          | Guide RNA directs Cas9 nuclease to a specific DNA sequence; creates a double-strand break; DNA repair machinery inserts the new gene (or knocks out a gene) | Gene editing in livestock (e.g., hornless cattle); disease-resistant pigs; correcting genetic disorders |
 | Somatic cell nuclear transfer (SCNT) | Nucleus from a genetically modified somatic cell is transferred into an enucleated egg; the egg develops into a cloned organism                             | Dolly the sheep (first cloned mammal, 1996)                                                             |
 
+</div>
+
 ### 42.2 Applications of Transgenic Animals
+
+<div class="table-wrap">
 
 | Application               | Description                                                                   | Example                                                                                                                                         |
 | ------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2027,9 +2233,13 @@ A) in the endosperm:
 | Disease models            | Animals engineered to carry human disease genes for research                  | Oncomouse (carries human oncogene; develops cancer); Huntington's disease mice; Alzheimer's mice                                                |
 | Agriculture               | Animals with improved traits                                                  | Fast-growing salmon (AquaBounty; engineered with growth hormone gene); disease-resistant livestock                                              |
 
+</div>
+
 ## 43. Cloning Animals
 
 ### 43.1 Reproductive Cloning (Somatic Cell Nuclear Transfer)
+
+<div class="table-wrap">
 
 | Step | Description                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------------- |
@@ -2042,7 +2252,11 @@ A) in the endosperm:
 | 7    | The embryo is implanted into a surrogate mother                                                   |
 | 8    | The surrogate gives birth to the cloned animal (genetically identical to the somatic cell donor)  |
 
+</div>
+
 ### 43.2 Advantages and Disadvantages of Animal Cloning
+
+<div class="table-wrap">
 
 | Advantages                                                               | Disadvantages                                                                                          |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
@@ -2051,9 +2265,13 @@ A) in the endosperm:
 | Potential for therapeutic cloning (patient-specific stem cells)          | Ethical concerns (especially about human cloning)                                                      |
 | Reproduces transgenic animals efficiently                                | Reduced genetic diversity                                                                              |
 
+</div>
+
 ## 44. Ethical Issues in Biotechnology
 
 ### 44.1 GM Crops: Arguments For and Against
+
+<div class="table-wrap">
 
 | Arguments For                                                             | Arguments Against                                                                      |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -2064,7 +2282,11 @@ A) in the endosperm:
 | Reduced post-harvest losses (delayed ripening, disease resistance)        | Ethical concerns about "playing God" with nature                                       |
 | Lower food prices (increased supply)                                      | Loss of biodiversity (monocultures of GM crops)                                        |
 
+</div>
+
 ### 44.2 Genetic Testing: Ethical Considerations
+
+<div class="table-wrap">
 
 | Issue                       | Description                                                                                              |
 | --------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -2075,16 +2297,24 @@ A) in the endosperm:
 | Reproductive choices        | Prenatal genetic testing raises questions about selective termination (abortion based on genetic traits) |
 | Incidental findings         | Genetic testing may reveal unexpected information (e.g., non-paternity, risk of unrelated diseases)      |
 
+</div>
+
 ## 45. Gene Therapy
 
 ### 45.1 Somatic vs Germ-Line Gene Therapy
+
+<div class="table-wrap">
 
 | Type                   | Description                                                                                              | Ethical Status                                                                                           |
 | ---------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Somatic gene therapy   | Genes are introduced into body cells (somatic cells) of the patient; changes are NOT passed to offspring | Generally accepted (treats disease in the individual)                                                    |
 | Germ-line gene therapy | Genes are introduced into germ cells (sperm, egg, zygote); changes ARE passed to offspring               | Currently banned in most countries (ethical concerns; unknown long-term consequences; "designer babies") |
 
+</div>
+
 ### 45.2 Methods of Delivering Genes
+
+<div class="table-wrap">
 
 | Vector                                                        | Description                                                                | Advantages                                                      | Disadvantages                                                                                                                 |
 | ------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -2093,7 +2323,11 @@ A) in the endosperm:
 | Naked DNA                                                     | Direct injection of plasmid DNA                                            | Simple; safe                                                    | Very low efficiency                                                                                                           |
 | CRISPR-Cas9                                                   | Direct gene editing (correct the mutation in situ)                         | Precise; permanent correction                                   | Off-target effects; delivery challenges; ethical concerns                                                                     |
 
+</div>
+
 ### 45.3 Gene Therapy Successes and Challenges
+
+<div class="table-wrap">
 
 | Disease                                    | Gene Therapy Status           | Details                                                                                                                                      |
 | ------------------------------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2103,11 +2337,15 @@ A) in the endosperm:
 | Cystic fibrosis                            | Clinical trials ongoing       | Liposome and viral delivery to airway epithelial cells; limited success so far (delivery barriers)                                           |
 | Haemophilia                                | Clinical trials ongoing       | AAV vectors delivering factor VIII or IX genes; promising early results                                                                      |
 
+</div>
+
 ## 46. Environmental Biotechnology
 
 ### 46.1 Bioremediation
 
 Bioremediation uses living organisms ( microorganisms) to clean up polluted environments:
+
+<div class="table-wrap">
 
 | Type                   | Description                                                  | Example                                                                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2116,7 +2354,11 @@ Bioremediation uses living organisms ( microorganisms) to clean up polluted envi
 | Phytoremediation       | Plants are used to absorb, accumulate, or degrade pollutants | _Helianthus_ (sunflower) absorbs heavy metals (lead, uranium) from soil; _Thlaspi caerulescens_ (alpine pennycress) hyperaccumulates zinc and cadmium                       |
 | Mycoremediation        | Fungi are used to break down pollutants                      | White-rot fungi (_Phanerochaete chrysosporium_) produce lignin peroxidase enzymes that degrade organic pollutants (PCBs, PAHs, dioxins)                                     |
 
+</div>
+
 ### 46.2 Wastewater Treatment
+
+<div class="table-wrap">
 
 | Stage               | Process                                                                                               | What Is Removed                                                                     |
 | ------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -2124,9 +2366,13 @@ Bioremediation uses living organisms ( microorganisms) to clean up polluted envi
 | Secondary treatment | Biological: activated sludge (aerobic bacteria break down organic matter); trickling filter           | Dissolved organic matter; ~90% of organic matter removed                            |
 | Tertiary treatment  | Chemical/physical: sand filtration; UV disinfection; nutrient removal (nitrification/denitrification) | Remaining pathogens; phosphates and nitrates (prevent eutrophication); heavy metals |
 
+</div>
+
 ## 47. Bioinformatics and Genomics
 
 ### 47.1 Applications of Bioinformatics
+
+<div class="table-wrap">
 
 | Application           | Description                                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -2137,7 +2383,11 @@ Bioremediation uses living organisms ( microorganisms) to clean up polluted envi
 | Agriculture           | Identifying genes for disease resistance, drought tolerance, and nutritional quality in crops                |
 | Epidemiology          | Tracking the spread of infectious diseases by sequencing pathogen genomes (e.g., tracking COVID-19 variants) |
 
+</div>
+
 ### 47.2 DNA Profiling (DNA Fingerprinting)
+
+<div class="table-wrap">
 
 | Step                   | Description                                                                           |
 | ---------------------- | ------------------------------------------------------------------------------------- |
@@ -2146,11 +2396,17 @@ Bioremediation uses living organisms ( microorganisms) to clean up polluted envi
 | 3. Gel electrophoresis | DNA fragments are separated by size on an agarose gel; smaller fragments move further |
 | 4. Comparison          | The pattern of bands is compared between samples (e.g., suspect vs crime scene)       |
 
+</div>
+
+<div class="table-wrap">
+
 | Feature                     | Description                                                                                                                                                                    |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | STRs (short tandem repeats) | Short sequences (2--6 base pairs) that are repeated in tandem; the number of repeats varies between individuals; highly polymorphic (many different alleles in the population) |
 | Probability of match        | The probability of two unrelated individuals having the same DNA profile is extremely low (< 1 in a billion if enough loci are tested)                                         |
 | Uses                        | Criminal identification; paternity testing; identifying disaster victims; immigration disputes                                                                                 |
+
+</div>
 
 ## 48. Induced Pluripotent Stem Cells (iPSCs)
 
@@ -2161,6 +2417,8 @@ embryonic stem cells) by introducing specific transcription factors.
 
 ### 48.2 Yamanaka Factors
 
+<div class="table-wrap">
+
 | Factor | Gene     | Role                                                                  |
 | ------ | -------- | --------------------------------------------------------------------- |
 | Oct4   | _POU5F1_ | Maintains pluripotency; activates pluripotency genes                  |
@@ -2168,7 +2426,11 @@ embryonic stem cells) by introducing specific transcription factors.
 | Klf4   | _KLF4_   | Involved in cell proliferation; helps repress differentiation genes   |
 | c-Myc  | _MYC_    | Promotes cell division; opens chromatin (makes genes more accessible) |
 
+</div>
+
 ### 48.3 Advantages of iPSCs over Embryonic Stem Cells
+
+<div class="table-wrap">
 
 | Advantage              | Description                                                                                           |
 | ---------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -2177,7 +2439,11 @@ embryonic stem cells) by introducing specific transcription factors.
 | Disease modelling      | iPSCs from patients with genetic diseases can be differentiated into the affected cell type for study |
 | Drug screening         | Patient-derived cells can be used to test drug responses in vitro                                     |
 
+</div>
+
 ### 48.4 Limitations
+
+<div class="table-wrap">
 
 | Limitation           | Description                                                           |
 | -------------------- | --------------------------------------------------------------------- |
@@ -2185,6 +2451,8 @@ embryonic stem cells) by introducing specific transcription factors.
 | Tumour risk          | c-Myc is an oncogene; iPSC-derived cells may form teratomas           |
 | Not fully equivalent | iPSCs may retain some epigenetic memory of their cell of origin       |
 | Efficiency           | Low efficiency (only ~0.1--1% of cells are successfully reprogrammed) |
+
+</div>
 
 ## 49. RNA Interference (RNAi)
 
@@ -2195,6 +2463,8 @@ It uses small RNA molecules to target and destroy mRNA molecules.
 
 ### 49.2 Mechanism
 
+<div class="table-wrap">
+
 | Step | What Happens                                                                                                               |
 | ---- | -------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Double-stranded RNA (dsRNA) is introduced into the cell or produced endogenously                                           |
@@ -2203,7 +2473,11 @@ It uses small RNA molecules to target and destroy mRNA molecules.
 | 4    | The guide strand binds to a complementary mRNA sequence by base pairing                                                    |
 | 5    | RISC cleaves the target mRNA; the mRNA is degraded; the gene is effectively silenced (no protein produced)                 |
 
+</div>
+
 ### 49.3 Applications
+
+<div class="table-wrap">
 
 | Application         | Description                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -2211,6 +2485,8 @@ It uses small RNA molecules to target and destroy mRNA molecules.
 | Therapeutics        | siRNA drugs to silence disease-causing genes (e.g., patisiran for hereditary transthyretin amyloidosis) |
 | Agriculture         | RNAi sprays to protect crops from viruses (e.g., against Colorado potato beetle)                        |
 | Pest control        | Developing RNAi-based insecticides that silence essential genes in pest species                         |
+
+</div>
 
 ## 50. Synthetic Biology
 
@@ -2222,6 +2498,8 @@ biological systems for useful purposes.
 
 ### 50.2 Key Achievements
 
+<div class="table-wrap">
+
 | Achievement      | Description                                                                                                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Synthetic genome | Craig Venter's team created a synthetic bacterial chromosome (M. Mycoides JCVI-syn1.0) and transplanted it into a recipient cell; the synthetic genome took over the cell and the cell reproduced |
@@ -2229,7 +2507,11 @@ biological systems for useful purposes.
 | BioBricks        | Standardised, interchangeable DNA parts (promoters, ribosome binding sites, coding sequences, terminators) that can be assembled into genetic circuits                                            |
 | Genetic circuits | Synthetic gene networks that perform logic functions (AND gates, NOT gates, oscillators) -- the basis of biological computing                                                                     |
 
+</div>
+
 ### 50.3 Applications
+
+<div class="table-wrap">
 
 | Application       | Description                                                                                                                               |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2239,6 +2521,8 @@ biological systems for useful purposes.
 | Gene drives       | Engineering genes that spread rapidly through wild populations (e.g., to make malaria mosquitoes sterile; controversial ecological risks) |
 | Cell-free systems | Using cell-free transcription-translation systems (extracted from bacteria) to produce proteins without living cells                      |
 
+</div>
+
 ## 51. Bioinformatics
 
 ### 51.1 What Is Bioinformatics?
@@ -2247,6 +2531,8 @@ Bioinformatics is the application of computing and statistical techniques to the
 biological data, especially large datasets from genome sequencing projects.
 
 ### 51.2 Key Tools and Databases
+
+<div class="table-wrap">
 
 | Tool/Database                             | Purpose                                                                                                                  |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -2258,7 +2544,11 @@ biological data, especially large datasets from genome sequencing projects.
 | Clustal Omega                             | Multiple sequence alignment tool; aligns three or more sequences to identify conserved regions                           |
 | PhyML / MEGA                              | Software for constructing phylogenetic trees from sequence data                                                          |
 
+</div>
+
 ### 51.3 Applications of Bioinformatics
+
+<div class="table-wrap">
 
 | Application                  | Description                                                                                    |
 | ---------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -2267,6 +2557,8 @@ biological data, especially large datasets from genome sequencing projects.
 | Drug target identification   | Identifying pathogen proteins that could be targeted by new drugs                              |
 | Evolutionary studies         | Constructing phylogenetic trees; estimating divergence times                                   |
 | Personalised medicine        | Analysing an individual's genome to predict disease risk and drug response                     |
+
+</div>
 
 ## 52. Tissue Culture and Micropropagation
 
@@ -2277,6 +2569,8 @@ sterile conditions.
 
 ### 52.2 Steps in Micropropagation
 
+<div class="table-wrap">
+
 | Step                | Description                                                                                                                                                     |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Selection        | A small piece of tissue (explant) is taken from the parent plant (e.g., from the shoot tip or leaf bud)                                                         |
@@ -2286,7 +2580,11 @@ sterile conditions.
 | 5. Differentiation  | By adjusting the ratio of auxin to cytokinin, the callus can be induced to develop shoots and roots                                                             |
 | 6. Acclimatisation  | The plantlets are transferred from the agar to soil; they must be gradually hardened off (reducing humidity) before being moved to normal greenhouse conditions |
 
+</div>
+
 ### 52.3 Advantages and Disadvantages
+
+<div class="table-wrap">
 
 | Advantages                                                              | Disadvantages                                                                                |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -2294,6 +2592,8 @@ sterile conditions.
 | Disease-free stock (meristem tissue culture produces virus-free plants) | All plants are genetically identical (no genetic variation; vulnerable to the same diseases) |
 | Can propagate plants that do not produce viable seeds (e.g., bananas)   | Somaclonal variation may occur (mutations during tissue culture)                             |
 | Year-round production (independent of seasons)                          | Not all species respond well to tissue culture                                               |
+
+</div>
 
 ## 53. Golden Rice and Biofortification
 
@@ -2305,19 +2605,27 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 
 ### 53.2 How It Was Made
 
+<div class="table-wrap">
+
 | Step        | Description                                                                                                                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Genes added | Two genes from daffodil (_psy_) and one gene from a soil bacterium (_crtI_) were inserted into the rice genome; these genes enable the rice endosperm to produce beta-carotene (which normal rice cannot do) |
 | Mechanism   | The added genes encode enzymes in the carotenoid biosynthesis pathway: phytoene synthase and phytoene desaturase                                                                                             |
 | Result      | The rice grains have a characteristic golden-yellow colour due to the beta-carotene content                                                                                                                  |
 
+</div>
+
 ### 53.3 Biofortification
+
+<div class="table-wrap">
 
 | Feature    | Description                                                                                                                                                       |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | What it is | Increasing the nutritional value of crops through genetic modification or conventional breeding                                                                   |
 | Examples   | Golden rice (beta-carotene); iron-rich beans; zinc-enhanced wheat; vitamin-enriched sweet potato (orange-fleshed sweet potato, achieved by conventional breeding) |
 | Advantages | Addresses micronutrient deficiencies in populations that rely on a limited number of staple crops; does not require changes to diet or supplementation programmes |
+
+</div>
 
 ---
 

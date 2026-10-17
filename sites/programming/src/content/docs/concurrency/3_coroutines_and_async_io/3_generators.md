@@ -67,6 +67,8 @@ produced.
 
 ## Comparison with Python Generators
 
+<div class="table-wrap">
+
 | Feature                     | Python `generator`                        | C++ `std::generator<T>` (C++23)                |
 | :-------------------------- | :---------------------------------------- | :--------------------------------------------- |
 | Syntax                      | `yield expr`                              | `co_yield expr`                                |
@@ -76,6 +78,8 @@ produced.
 | Composable via `yield from` | Yes (`yield from gen`)                    | Via nested coroutine calls or range adapters   |
 | Exception propagation       | `throw` inside generator caught by caller | Same, exceptions propagate through `co_await` |
 | Standard library support    | Built-in since Python 2.2                 | C++23 (`<generator>`)                          |
+
+</div>
 
 ## Complete Example: Fibonacci Generator with `std::generator`
 
@@ -280,6 +284,8 @@ int main() {
 
 ## Generator vs Iterator
 
+<div class="table-wrap">
+
 | Aspect             | Manual Iterator                                         | `std::generator`                          |
 | :----------------- | :------------------------------------------------------ | :---------------------------------------- |
 | State storage      | Manual (member variables)                               | Automatic (coroutine frame)               |
@@ -289,6 +295,8 @@ int main() {
 | Exception safety   | Manual                                                  | Stack unwinding on unhandled exception    |
 | Composability      | Limited                                                 | Nest coroutines, use range adaptors       |
 | Memory overhead    | `sizeof(iterator)`                                      | Coroutine frame ( ~100-300 bytes)         |
+
+</div>
 
 ## Recursive Generators
 
@@ -431,6 +439,8 @@ int main() {
 
 ## Generator Performance Characteristics
 
+<div class="table-wrap">
+
 | Metric                     | Typical Value                                    |
 | :------------------------- | :----------------------------------------------- |
 | Coroutine frame allocation | 1 heap allocation per `std::generator` creation  |
@@ -438,6 +448,8 @@ int main() {
 | Resume/suspend overhead    | ~10–50ns (comparable to a virtual function call) |
 | Memory usage (per element) | $\mathcal{O}(1)$, no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
+
+</div>
 
 :::caution
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with

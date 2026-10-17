@@ -181,6 +181,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property      | B+ Tree                 | Hash Index               |
 | ------------- | ----------------------- | ------------------------ |
 | Point query   | $O(\log_m n)$           | $O(1)$ average           |
@@ -188,6 +190,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 | Insert/Delete | $O(\log_m n)$           | $O(1)$ average           |
 | Space         | Nodes may be half-empty | May have overflow chains |
 | Order         | Maintains key order     | No ordering              |
+
+</div>
 
 ### 5.3 Bitmap Indexes
 
@@ -200,11 +204,15 @@ AND/OR for multi-criteria queries.
 
 **Bitwise operations for query evaluation:**
 
+<div class="table-wrap">
+
 | Query                   | Bitmap operation                                        |
 | ----------------------- | ------------------------------------------------------- |
 | $A = v_1$ AND $B = v_2$ | $\mathrm{bitmap_}{A,v_1}$ AND $\mathrm{bitmap_}{B,v_2}$ |
 | $A = v_1$ OR $A = v_2$  | $\mathrm{bitmap_}{A,v_1}$ OR $\mathrm{bitmap_}{A,v_2}$  |
 | $A \neq v_1$            | NOT $\mathrm{bitmap_}{A,v_1}$                           |
+
+</div>
 
 **Compression.** For columns with many distinct values, run-length encoding (WAH or BBC) compresses
 Bitmaps effectively while still supporting bitwise operations.
@@ -216,6 +224,8 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 
 **Selection cost estimation:**
 
+<div class="table-wrap">
+
 | Access method           | Cost (I/Os)                                               |
 | ----------------------- | --------------------------------------------------------- |
 | Full table scan         | $\lceil n_R / B \rceil$ (or $n_R$ if $B$ pages available) |
@@ -223,15 +233,21 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 | B+ tree range search    | $\log_f(n_R)$ leaf + $\lvert\mathrm{range} pages\rvert$   |
 | Hash equality search    | 1 (ideal)                                                 |
 
+</div>
+
 Where $f$ is the fanout (average number of children per internal node).
 
 **Join cost estimation (from Section 7):**
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                      |
 | ----------------- | --------------------------------------------------------- |
 | Block nested-loop | $n_R + \lceil n_R/(B-2)\rceil \cdot n_S$                  |
 | Sort-merge        | $2n_R \log_{B-1}(n_R) + 2n_S \log_{B-1}(n_S) + n_R + n_S$ |
 | Hash join         | $3(n_R + n_S)$ (if build relation fits in $B$ pages)      |
+
+</div>
 
 <details>
 <summary>Worked Example 5.3: Comparing Access Methods</summary>

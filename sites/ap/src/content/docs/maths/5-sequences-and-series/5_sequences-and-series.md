@@ -55,6 +55,8 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 
 ### Common Sequences
 
+<div class="table-wrap">
+
 | Sequence                               | Convergence | Limit   |
 | -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
@@ -65,6 +67,8 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 | $a_n = (-1)^n$                         | Diverges    | --      |
 | $a_n = \sqrt{n+1} - \sqrt{n}$          | Converges   | $0$     |
 | $a_n = \frac{\ln n}{n}$                | Converges   | $0$     |
+
+</div>
 
 ### Proof: $\frac{n!}{n^n} \to 0$
 
@@ -453,11 +457,15 @@ Convergence**:
 - Use the ratio test to find $R$: $\displaystyle R = \frac{1}{\lim_{n \to \infty} |c_{n+1}/c_n|}$.
 - Check the endpoints separately (the ratio test is inconclusive when $L = 1$).
 
+<div class="table-wrap">
+
 | Case                 | Interval of Convergence             |
 | -------------------- | ----------------------------------- |
 | $R = 0$              | Single point $\{a\}$                |
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
+
+</div>
 :::
 
 :::note[Example]

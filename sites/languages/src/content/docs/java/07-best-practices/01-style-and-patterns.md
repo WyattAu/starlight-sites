@@ -91,6 +91,8 @@ Accessors, or the object itself should be wrapped in an unmodifiable view.
 
 Type parameters use a single uppercase letter. The standard letters carry domain-specific meaning:
 
+<div class="table-wrap">
+
 | Letter | Meaning             | Example                        |
 | ------ | ------------------- | ------------------------------ |
 | `T`    | Type                | `Box<T>`                       |
@@ -100,6 +102,8 @@ Type parameters use a single uppercase letter. The standard letters carry domain
 | `S``U` | Second, third types | `Pair<S, U>`                   |
 | `R`    | Return type         | `Function<T, R>`               |
 | `N`    | Number              | `Calculator<N extends Number>` |
+
+</div>
 
 When a single letter is insufficient, use a descriptive name prefixed with `T`:
 
@@ -300,12 +304,16 @@ Enterprise infrastructure that requires it, or when team familiarity makes the t
 Both Maven and Gradle categorize dependencies by scope, controlling when a dependency is available
 on the classpath:
 
+<div class="table-wrap">
+
 | Scope                | Available During  | Packaged Into | Purpose                        |
 | -------------------- | ----------------- | ------------- | ------------------------------ |
 | `compile` / `api`    | compile + runtime | yes           | Required at all phases         |
 | `runtimeOnly`        | runtime only      | yes           | JDBC drivers, logging backends |
 | `provided`           | compile only      | no            | Servlet API, JPA API           |
 | `testImplementation` | test compile+run  | no            | JUnit, Mockito, testcontainers |
+
+</div>
 
 The distinction between `api` and `implementation` in Gradle is critical. A dependency declared as
 `api` is transitively exposed to consumers of your library. A dependency declared as
@@ -1218,12 +1226,16 @@ The count is correct.
 The principle of information hiding states that a module should hide its implementation details
 behind a well-defined interface. In Java, this is enforced through access modifiers:
 
+<div class="table-wrap">
+
 | Modifier        | Class | Package | Subclass | World |
 | --------------- | ----- | ------- | -------- | ----- |
 | `public`        | yes   | yes     | yes      | yes   |
 | `protected`     | yes   | yes     | yes      | no    |
 | package-private | yes   | yes     | no       | no    |
 | `private`       | yes   | no      | no       | no    |
+
+</div>
 
 The rule is simple: make every field and method as inaccessible as possible. If a method is only
 Used within its own class, make it `private`. If it is used by other classes in the same package,

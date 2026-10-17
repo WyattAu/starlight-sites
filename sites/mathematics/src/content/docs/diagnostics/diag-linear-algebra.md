@@ -221,6 +221,8 @@ tableOfContents: false
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | C             |
@@ -233,6 +235,8 @@ tableOfContents: false
 | 8        | B             |
 | 9        | C             |
 | 10       | B             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of linear algebra fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

@@ -40,11 +40,15 @@ $GDP = C + I + G + (X - M) = 800 + 300 + 250 + (400 - 350) = HK\$1400$ billion.
 
 **Question:** Country X has the following data:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (billion) | GDP Deflator (base year = 2015) |
 | ---- | --------------------- | ------------------------------- |
 | 2015 | 500                   | 100                             |
 | 2020 | 700                   | 125                             |
 | 2025 | 900                   | 150                             |
+
+</div>
 
 (a) Calculate real GDP for each year. (b) Calculate the real GDP growth rate from 2020 to 2025. (c)
 A student claims "Nominal GDP rose 80% from 2015 to 2025, so the economy grew 80%." Explain why this
@@ -156,6 +160,8 @@ close the output gap, and reduce unemployment towards the natural rate.
 
 **Question:** Two economies, A and B, have the following data:
 
+<div class="table-wrap">
+
 | Indicator                     | Country A | Country B |
 | ----------------------------- | --------- | --------- |
 | Nominal GDP (USD billion)     | 2000      | 500       |
@@ -163,6 +169,8 @@ close the output gap, and reduce unemployment towards the natural rate.
 | GDP growth rate (%)           | 2.5       | 7.0       |
 | Inflation rate (%)            | 1.5       | 5.0       |
 | Current account (USD billion) | -100      | +50       |
+
+</div>
 
 (a) Calculate GDP per capita for each country. (b) Which economy is "larger" and which is "growing
 faster"? (c) Explain the significance of the current account figures. (d) Country A's government

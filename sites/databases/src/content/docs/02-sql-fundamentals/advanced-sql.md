@@ -127,12 +127,16 @@ SUM(amount) OVER (
 ) AS sum_excluding_ties_and_current
 ```
 
+<div class="table-wrap">
+
 | EXCLUDE Option | What It Removes                                 |
 | -------------- | ----------------------------------------------- |
 | `CURRENT ROW`  | Only the current row                            |
 | `GROUP`        | Current row and all peers (same ORDER BY value) |
 | `TIES`         | Only the peers, keeps the current row           |
 | `NO OTHERS`    | Nothing (default)                               |
+
+</div>
 
 ### WINDOW Clause (Window Chains)
 
@@ -187,6 +191,8 @@ SELECT emp_id, salary,
 FROM employees;
 ```
 
+<div class="table-wrap">
+
 | Function       | Ties at 150k, 150k, 140k, 130k | Range      |
 | -------------- | ------------------------------ | ---------- |
 | `ROW_NUMBER`   | 1, 2, 3, 4                     | N/A        |
@@ -195,6 +201,8 @@ FROM employees;
 | `NTILE(2)`     | 1, 1, 2, 2                     | 1 to n     |
 | `PERCENT_RANK` | 0.0, 0.0, 0.667, 1.0           | 0.0 to 1.0 |
 | `CUME_DIST`    | 0.5, 0.5, 0.75, 1.0            | 0.0 to 1.0 |
+
+</div>
 
 ## Advanced Common Table Expressions
 
@@ -257,11 +265,15 @@ SELECT
     (SELECT COUNT(*) FROM active_users WHERE email LIKE '%@company.com') AS company_users;
 ```
 
+<div class="table-wrap">
+
 | Strategy               | When to Use                        | Trade-off                                  |
 | ---------------------- | ---------------------------------- | ------------------------------------------ |
 | Inlined                | CTE referenced once, simple filter | Planner can push predicates, use indexes   |
 | Materialized           | CTE referenced multiple times      | Computed once but cannot use outer indexes |
 | `MATERIALIZED` keyword | Explicit control over inlining     | Overrides the planner's decision           |
+
+</div>
 
 ### Recursive CTEs for Tree Traversal
 
@@ -461,6 +473,8 @@ ORDER BY normalized_rank DESC;
 
 The normalization flags for `ts_rank` and `ts_rank_cd`:
 
+<div class="table-wrap">
+
 | Flag | Meaning                                     |
 | ---- | ------------------------------------------- |
 | 0    | No normalization                            |
@@ -469,6 +483,8 @@ The normalization flags for `ts_rank` and `ts_rank_cd`:
 | 4    | Normalize by both length and unique terms   |
 | 8    | Normalize by document length + unique terms |
 | 16   | Normalize by log of document length         |
+
+</div>
 
 ### Highlighting Results
 
@@ -500,10 +516,14 @@ WHERE body % 'database performance tuning'
 ORDER BY sim DESC;
 ```
 
+<div class="table-wrap">
+
 | Method           | Best For                  | Index Type  |
 | ---------------- | ------------------------- | ----------- |
 | tsvector/tsquery | Full-word search, ranking | GIN         |
 | pg_trgm          | Substring, fuzzy, ILIKE   | GIN or GiST |
+
+</div>
 
 ## Materialized Views
 
@@ -560,12 +580,16 @@ ON CONFLICT (order_date) DO UPDATE SET
 
 ### When to Use Materialized Views
 
+<div class="table-wrap">
+
 | Scenario                              | Recommendation                         |
 | ------------------------------------- | -------------------------------------- |
 | Dashboard aggregates (updated hourly) | Materialized view, scheduled refresh   |
 | Real-time analytics                   | Regular view or live aggregate         |
 | Pre-join denormalized read model      | Materialized view, concurrent refresh  |
 | ETL staging                           | Temporary table, not materialized view |
+
+</div>
 
 ## UPSERT Patterns
 
@@ -623,6 +647,8 @@ flowchart TD
 
 ### ON CONFLICT vs MERGE
 
+<div class="table-wrap">
+
 | Feature                    | ON CONFLICT             | MERGE                           |
 | -------------------------- | ----------------------- | ------------------------------- |
 | Unique constraint required | Yes                     | No                              |
@@ -630,6 +656,8 @@ flowchart TD
 | Multiple actions           | One (UPDATE or NOTHING) | Multiple (INSERT/UPDATE/DELETE) |
 | Source                     | VALUES or subquery      | Table, subquery, or CTE         |
 | Standard                   | PostgreSQL extension    | SQL:2003 standard               |
+
+</div>
 
 ## Advanced Aggregation
 
@@ -874,12 +902,16 @@ WHERE a.descendant_id = 10  -- new parent
   AND d.ancestor_id = 5;    -- moved node
 ```
 
+<div class="table-wrap">
+
 | Approach          | Read Performance | Write Performance | Storage  | Best For                   |
 | ----------------- | ---------------- | ----------------- | -------- | -------------------------- |
 | Adjacency List    | O(depth)         | O(1)              | Minimal  | Write-heavy, shallow trees |
 | Nested Sets       | O(1)             | O(n)              | Minimal  | Read-heavy, no updates     |
 | Materialized Path | O(1) for prefix  | O(1)              | Path col | Deep trees, sortable       |
 | Closure Table     | O(depth)         | O(n\*depth)       | O(n^2)   | Frequent subtree queries   |
+
+</div>
 
 ## Query Optimization
 
@@ -919,6 +951,8 @@ LIMIT 50;
 
 Key fields in `EXPLAIN ANALYZE` output:
 
+<div class="table-wrap">
+
 | Field              | Meaning                                          |
 | ------------------ | ------------------------------------------------ |
 | `Seq Scan`         | Full table scan                                  |
@@ -932,6 +966,8 @@ Key fields in `EXPLAIN ANALYZE` output:
 | `rows`             | Actual number of rows produced                   |
 | `loops`            | Number of times the node was executed            |
 | `Shared Hit/Read`  | Buffer cache hits vs disk reads (BUFFERS option) |
+
+</div>
 
 ### Planner Hints (pg_hint_plan)
 
@@ -1046,11 +1082,15 @@ ALTER TABLE measurements DETACH PARTITION measurements_2024_q1;
 CREATE INDEX idx_measurements_sensor ON measurements (sensor_id, recorded_at);
 ```
 
+<div class="table-wrap">
+
 | Partition Type | Best For                   | Data Distribution |
 | -------------- | -------------------------- | ----------------- |
 | Range          | Time-series, date ranges   | Uneven (natural)  |
 | List           | Categorical (region, type) | Defined by you    |
 | Hash           | Even distribution needed   | Uniform           |
+
+</div>
 
 ## Generated Columns
 
@@ -1078,10 +1118,14 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 -- INSERT INTO products (name, price, price_with_tax) VALUES (...)  -- ERROR
 ```
 
+<div class="table-wrap">
+
 | Type    | Storage  | Read Cost | Write Cost | Indexable |
 | ------- | -------- | --------- | ---------- | --------- |
 | Stored  | On disk  | Low       | Higher     | Yes       |
 | Virtual | Computed | Higher    | Low        | No        |
+
+</div>
 :::
 
 :::note

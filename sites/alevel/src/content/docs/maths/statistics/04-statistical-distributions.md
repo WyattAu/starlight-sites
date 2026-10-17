@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                    |
 | ---------- | ---------- | ---------------------------------------- |
 | AQA        | Paper 1, 2 | Binomial and normal in P1; Poisson in P2 |
 | Edexcel    | P1, P2     | Similar                                  |
 | OCR (A)    | Paper 1, 2 | Binomial in P1; normal and Poisson in P2 |
 | CIE (9709) | P1, P6     | Binomial in P1; normal and Poisson in P6 |
+
+</div>
 
 :::note
 Distributions, and the normal distribution function. You must know when to use each distribution and
@@ -331,11 +335,15 @@ normal handles the Case of many trials with moderate success probability.
 
 ## 5. Choosing the Right Distribution
 
+<div class="table-wrap">
+
 | Situation                                  | Distribution                   |
 | ------------------------------------------ | ------------------------------ |
 | Fixed $n$ trials, success/failure          | Binomial $B(n,p)$              |
 | Events in continuous interval, rare events | Poisson $\mathrm{Po}(\lambda)$ |
 | Continuous, bell-shaped                    | Normal $N(\mu,\sigma^2)$       |
+
+</div>
 
 <hr />
 

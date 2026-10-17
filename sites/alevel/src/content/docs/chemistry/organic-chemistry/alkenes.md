@@ -167,6 +167,8 @@ the polymerisation.
 
 ### Key Polymers
 
+<div class="table-wrap">
+
 | Monomer                                           | Polymer                          | Uses                  |
 | ------------------------------------------------- | -------------------------------- | --------------------- |
 | Ethene ($\mathrm{CH}_2=\mathrm{CH}_2$)            | Poly(ethene) (PE)                | Plastic bags, bottles |
@@ -174,6 +176,8 @@ the polymerisation.
 | Chloroethene ($\mathrm{CH}_2=\mathrm{CHCl}$)      | Poly(chloroethene) (PVC)         | Pipes, window frames  |
 | Tetrafluoroethene ($\mathrm{CF}_2=\mathrm{CF}_2$) | PTFE                             | Non-stick coatings    |
 | Phenylethene (styrene)                            | Poly(phenylethene) (polystyrene) | Packaging, insulation |
+
+</div>
 
 ### Properties and Structure
 
@@ -273,12 +277,16 @@ producing the alkane. For cyclic alkenes, both hydrogens end up on the same face
 
 The enthalpy of hydrogenation provides a quantitative measure of alkene stability:
 
+<div class="table-wrap">
+
 | Alkene                             | $\Delta H_\mathrm{hydrogenation}$ ($\mathrm{kJ/mol}$) |
 | ---------------------------------- | ----------------------------------------------------- |
 | Ethene                             | $-137$                                                |
 | (Z)-but-2-ene                      | $-120$                                                |
 | (E)-but-2-ene                      | $-116$                                                |
 | 2-methylpropene (tetrasubstituted) | $-119$                                                |
+
+</div>
 
 More substituted alkenes are more stable and have less negative (less exothermic) hydrogenation
 enthalpies. (E)-but-2-ene is more stable than (Z)-but-2-ene because the two methyl groups are on
@@ -329,11 +337,15 @@ unsaturation alongside bromine water.
 Hot concentrated $\mathrm{KMnO}_4$ cleaves the double bond, converting each carbon to its highest
 oxidation state:
 
+<div class="table-wrap">
+
 | Alkene type                             | Product(s)                                                               |
 | --------------------------------------- | ------------------------------------------------------------------------ |
 | $\mathrm{RCH}=\mathrm{CH}_2$            | $\mathrm{RCOOH} + \mathrm{CO}_2$                                         |
 | $\mathrm{RCH}=\mathrm{CHR}'$            | $\mathrm{RCOOH} + \mathrm{R}'\mathrm{COOH}$                              |
 | $\mathrm{R}_2\mathrm{C}=\mathrm{CR}'_2$ | $\mathrm{R}_2\mathrm{C}=\mathrm{O} + \mathrm{R}'_2\mathrm{C}=\mathrm{O}$ |
+
+</div>
 
 This reaction can be used to determine the position of the double bond in an unknown alkene by
 identifying the carbonyl products.

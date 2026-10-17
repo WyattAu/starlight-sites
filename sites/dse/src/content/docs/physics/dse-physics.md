@@ -42,11 +42,15 @@ Topic from the four available options.
 
 ## Examination Structure
 
+<div class="table-wrap">
+
 | Paper | Component                                  | Duration | Weighting |
 | ----- | ------------------------------------------ | -------- | --------- |
 | 1A    | Compulsory Part -- Multiple-Choice Section | 1 h 30 m | 30%       |
 | 1B    | Compulsory Part -- Structured Questions    | 2 h      | 50%       |
 | 2     | Elective -- Structured Questions           | 1 h      | 20%       |
+
+</div>
 
 **Total: 100%**
 
@@ -154,12 +158,16 @@ notes.
 
 ## Elective Topics (Choose One)
 
+<div class="table-wrap">
+
 | Elective | Topic                       |
 | -------- | --------------------------- |
 | E1       | Astronomy and Space Science |
 | E2       | Atomic Physics (extended)   |
 | E3       | Energy and Use of Energy    |
 | E4       | Medical Physics             |
+
+</div>
 
 Paper 2 consists of structured questions based on the chosen elective. Each elective carries equal
 Weighting (20% of the total mark).
@@ -198,6 +206,8 @@ Candidates are expected to demonstrate the ability to:
 
 ## Key Quantities and Units
 
+<div class="table-wrap">
+
 | Quantity             | Symbol | SI Unit  |
 | -------------------- | ------ | -------- |
 | Length               | $l$    | m        |
@@ -214,6 +224,8 @@ Candidates are expected to demonstrate the ability to:
 | Electric charge      | $Q$    | C        |
 | Potential difference | $V$    | V        |
 | Resistance           | $R$    | $\Omega$ |
+
+</div>
 
 ---
 
@@ -536,11 +548,15 @@ All final answers should be given to an appropriate number of significant figure
 
 **Examples:**
 
+<div class="table-wrap">
+
 | Measurement           | Significant Figures                                                         |
 | --------------------- | --------------------------------------------------------------------------- |
 | $12.5 \mathrm{ cm}$   | 3                                                                           |
 | $0.0040 \mathrm{ kg}$ | 2 (leading zeros are not significant)                                       |
 | $1500 \mathrm{ m}$    | Ambiguous (2, 3, or 4). Use scientific notation: $1.5 \times 10^3$ (2 s.f.) |
+
+</div>
 
 ### Uncertainty and Error Analysis
 
@@ -596,6 +612,8 @@ approximately equal numbers of points above and below the line.
 **Linearising data:** Many physical relationships are not linear. Plot transformed variables to
 Obtain a straight line:
 
+<div class="table-wrap">
+
 | Relationship              | Plot (y vs x)     | Gradient           | Intercept |
 | ------------------------- | ----------------- | ------------------ | --------- |
 | $y = ax + b$              | $y$ vs $x$        | $a$                | $b$       |
@@ -604,6 +622,8 @@ Obtain a straight line:
 | $y = a\sqrt{x}$           | $y$ vs $\sqrt{x}$ | $a$                | $0$       |
 | $v^2 = u^2 + 2as$         | $v^2$ vs $s$      | $2a$               | $u^2$     |
 | $T^2 = \frac{4\pi^2}{g}L$ | $T^2$ vs $L$      | $\frac{4\pi^2}{g}$ | $0$       |
+
+</div>
 
 ---
 
@@ -620,6 +640,8 @@ Obtain a straight line:
 
 ### Measuring Instruments
 
+<div class="table-wrap">
+
 | Instrument             | Precision                    | Notes                                   |
 | ---------------------- | ---------------------------- | --------------------------------------- |
 | Metre rule             | $\pm 1 \mathrm{ mm}$         | Parallax error possible                 |
@@ -631,12 +653,18 @@ Obtain a straight line:
 | Voltmeter              | $\pm$ half smallest division | Connected in parallel                   |
 | Protractor             | $\pm 0.5^\circ$              | Align carefully with normal             |
 
+</div>
+
 ### Systematic vs Random Errors
+
+<div class="table-wrap">
 
 | Type       | Cause                         | Effect                          | Reduction                       |
 | ---------- | ----------------------------- | ------------------------------- | ------------------------------- |
 | Systematic | Faulty instrument, zero error | All readings shifted same way   | Calibrate, use different method |
 | Random     | Fluctuations, human judgement | Readings spread above and below | Repeat and average              |
+
+</div>
 
 ### Zero Error Correction
 
@@ -678,6 +706,8 @@ basic recall to calculation and explanation.
 
 ### Common Error Patterns in DSE Exams
 
+<div class="table-wrap">
+
 | Error Type              | Example                                   | Correction                                   |
 | ----------------------- | ----------------------------------------- | -------------------------------------------- |
 | Unit conversion         | $1 \mathrm{ cm} = 0.01 \mathrm{ m}$       | Always convert to SI before calculating      |
@@ -686,6 +716,8 @@ basic recall to calculation and explanation.
 | Confusing quantities    | Speed vs velocity, mass vs weight         | Check definitions before answering           |
 | Missing steps           | Jumping from $F = ma$ to numerical answer | Show substitution                            |
 | Incomplete explanations | "Because of gravity"                      | State the principle and link to the scenario |
+
+</div>
 
 ### Multiple Choice Strategy
 

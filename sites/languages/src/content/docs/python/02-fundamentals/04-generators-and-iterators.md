@@ -324,6 +324,8 @@ Cooperative multitasking within a single thread, controlled entirely by explicit
 
 ### How Generators Differ from Regular Functions
 
+<div class="table-wrap">
+
 | Property                   | Regular Function        | Generator Function           |
 | -------------------------- | ----------------------- | ---------------------------- |
 | Returns                    | A value (or `None`)     | A generator object           |
@@ -331,6 +333,8 @@ Cooperative multitasking within a single thread, controlled entirely by explicit
 | State                      | Lost on return          | Preserved between yields     |
 | Multiple return values     | Use tuple/list          | Multiple `yield` statements  |
 | Memory for large sequences | O(n) in caller's memory | O(1) -- one value at a time  |
+
+</div>
 
 The generator object itself is lightweight -- it holds a reference to the code object and the
 Current frame. The memory cost is proportional to the number of local variables in the generator
@@ -846,6 +850,8 @@ Benefit of lazy evaluation: **composition without materialization**.
 
 ### Tradeoffs: Lazy vs Eager
 
+<div class="table-wrap">
+
 | Aspect          | Lazy (Generator)                | Eager (List)                    |
 | --------------- | ------------------------------- | ------------------------------- |
 | Memory          | O(1) per item                   | O(n) total                      |
@@ -855,6 +861,8 @@ Benefit of lazy evaluation: **composition without materialization**.
 | Multiple passes | Requires re-creation or `tee()` | Unlimited                       |
 | Debugging       | Harder -- state is implicit     | Easier -- data is inspectable   |
 | Exceptions      | Delayed until consumption       | Immediate during construction   |
+
+</div>
 
 ## Generator-Based State Machines
 

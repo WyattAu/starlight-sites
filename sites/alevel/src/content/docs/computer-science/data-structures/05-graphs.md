@@ -33,6 +33,8 @@ $E \subseteq V \times V$.
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Term       | Definition                                                   |
 | ---------- | ------------------------------------------------------------ |
 | Adjacent   | Two vertices connected by an edge                            |
@@ -43,6 +45,8 @@ $E \subseteq V \times V$.
 | Cycle      | Path that starts and ends at the same vertex                 |
 | Connected  | There is a path between every pair of vertices               |
 | DAG        | Directed Acyclic Graph, a directed graph with no cycles     |
+
+</div>
 
 **Theorem (Handshaking Lemma).** The sum of all vertex degrees equals $2|E|$.
 
@@ -58,6 +62,8 @@ Counts each edge exactly twice. $\square$
 An $n \times n$ matrix $A$ where $A[i][j] = 1$ if edge $(i, j)$ exists (0 otherwise). For weighted
 Graphs, $A[i][j] = w(i,j)$.
 
+<div class="table-wrap">
+
 | Property          | Value    |
 | ----------------- | -------- |
 | Space             | $O(n^2)$ |
@@ -66,6 +72,8 @@ Graphs, $A[i][j] = w(i,j)$.
 | Check adjacency   | $O(1)$   |
 | List neighbours   | $O(n)$   |
 | Iterate all edges | $O(n^2)$ |
+
+</div>
 
 **Best for:** Dense graphs ($|E| \approx n^2$).
 
@@ -86,6 +94,8 @@ class Graph:
             self.adj[v].append((u, weight))
 ```
 
+<div class="table-wrap">
+
 | Property          | Value                    |
 | ----------------- | ------------------------ |
 | Space             | $O(n + \lvert E \rvert)$ |
@@ -95,9 +105,13 @@ class Graph:
 | List neighbours   | $O(\mathrm{degree})$     |
 | Iterate all edges | $O(n + \lvert E \rvert)$ |
 
+</div>
+
 **Best for:** Sparse graphs ($|E| \ll n^2$).
 
 ### Comparison
+
+<div class="table-wrap">
 
 | Property      | Adjacency Matrix | Adjacency List    |
 | ------------- | ---------------- | ----------------- |
@@ -106,6 +120,8 @@ class Graph:
 | Add edge      | $O(1)$           | $O(1)$            |
 | Sparse graphs | Wasteful         | Efficient         |
 | Dense graphs  | Efficient        | Slightly slower   |
+
+</div>
 
 :::note
 - **AQA** requires adjacency matrix and adjacency list representations; Dijkstra's algorithm for
@@ -185,6 +201,8 @@ def dfs(graph, start):
 
 ### BFS vs DFS
 
+<div class="table-wrap">
+
 | Property       | BFS                        | DFS                                                     |
 | -------------- | -------------------------- | ------------------------------------------------------- |
 | Data structure | Queue                      | Stack (recursion)                                       |
@@ -192,6 +210,8 @@ def dfs(graph, start):
 | Shortest path  | Yes (unweighted)           | No                                                      |
 | Memory         | $O(V)$ (queue)             | $O(V)$ (recursion stack)                                |
 | Use cases      | Shortest path, level order | Cycle detection, topological sort, connected components |
+
+</div>
 
 <hr />
 
@@ -415,6 +435,8 @@ Vertices are visited and their distances.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Dequeue | Visit   | Neighbours                  | Queue (front→rear) | Distances     |
 | ---- | ------- | ------- | --------------------------- | ------------------ | ------------- |
 | 0    |,       |,       |,                           | [A]                | A:0           |
@@ -422,6 +444,8 @@ Vertices are visited and their distances.
 | 2    | B       | A, C    | A (visited)                 | [C, D]             |,             |
 | 3    | C       | A, B, D | A, B (visited), D (visited) | [D]                |,             |
 | 4    | D       | C, A    | C, A (visited)              | []                 |,             |
+
+</div>
 
 Visit order: A, B, C, D. Distances: A:0, B:1, C:1, D:1.
 
@@ -433,6 +457,8 @@ Weighted graph. Edges: A→B (4), A→C (2), B→C (1), B→D (5), C→B (1), C�
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Extract | dist[A] | dist[B] | dist[C] | dist[D] | dist[E] |
 | ---- | ------- | ------- | ------- | ------- | ------- | ------- |
 | 0    |,       | 0       | ∞       | ∞       | ∞       | ∞       |
@@ -441,6 +467,8 @@ Weighted graph. Edges: A→B (4), A→C (2), B→C (1), B→D (5), C→B (1), C�
 | 3    | B (3)   | 0       | 3       | 2       | 8       | 12      |
 | 4    | D (8)   | 0       | 3       | 2       | 8       | 10      |
 | 5    | E (10)  | 0       | 3       | 2       | 8       | 10      |
+
+</div>
 
 Shortest paths: A→A: 0, A→B: 3 (A→C→B), A→C: 2, A→D: 8 (A→C→B→D), A→E: 10 (A→C→B→D→E).
 
@@ -454,6 +482,8 @@ A-B (4), A-C (2), B-C (1), B-D (5), C-D (8), D-E (3).
 
 Sorted edges: B-C (1), A-C (2), D-E (3), A-B (4), B-D (5), C-D (8)
 
+<div class="table-wrap">
+
 | Edge | Weight | Union?             | MST edges              |
 | ---- | ------ | ------------------ | ---------------------- |
 | B-C  | 1      | Yes                | `{B-C}`                |
@@ -461,6 +491,8 @@ Sorted edges: B-C (1), A-C (2), D-E (3), A-B (4), B-D (5), C-D (8)
 | D-E  | 3      | Yes                | `{B-C, A-C, D-E}`      |
 | A-B  | 4      | No (cycle A-B-C-A) |,                      |
 | B-D  | 5      | Yes                | `{B-C, A-C, D-E, B-D}` |
+
+</div>
 
 MST weight: $1 + 2 + 3 + 5 = 11$. 4 edges for 5 vertices. ✓
 
@@ -547,6 +579,8 @@ $$
 
 **Dijkstra execution:**
 
+<div class="table-wrap">
+
 | Step | Extract | dist[S] | dist[A]  | dist[B]  | dist[C]  |
 | ---- | ------- | ------- | -------- | -------- | -------- |
 | 0    |,       | 0       | $\infty$ | $\infty$ | $\infty$ |
@@ -554,6 +588,8 @@ $$
 | 2    | A (1)   | 0       | 1        | 3        | 4        |
 | 3    | B (3)   | 0       | 1        | **3**    | 4        |
 | 4    | C (4)   | 0       | 1        | 3        | **4**    |
+
+</div>
 
 Dijkstra outputs $\mathrm{dist}[B] = 3$. But the true shortest path is
 $S \to C \to B = 4 + (-3) = 1$. The algorithm fails because when $C$ is extracted at distance 4, it
@@ -590,10 +626,14 @@ And sparse graphs.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Graph type              | Kruskal         | Prim (binary heap) |
 | ----------------------- | --------------- | ------------------ |
 | Sparse ($E \approx V$)  | $O(V \log V)$   | $O(V \log V)$      |
 | Dense ($E \approx V^2$) | $O(V^2 \log V)$ | $O(V^2 \log V)$    |
+
+</div>
 
 Kruskal: $O(E \log E) = O(E \log V)$. Prim (binary heap): $O((V+E) \log V)$.
 

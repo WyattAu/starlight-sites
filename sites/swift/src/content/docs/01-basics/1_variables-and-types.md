@@ -72,6 +72,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 
 ### Numeric Types
 
+<div class="table-wrap">
+
 | Type     | Size (bits) | Range                                        |
 | -------- | ----------- | -------------------------------------------- |
 | `Int8`   | 8           | -128 to 127                                  |
@@ -82,6 +84,8 @@ let largeNumber = 1_000_000        // Underscores for readability
 | `UInt`   | Platform    | Unsigned equivalent of `Int`                 |
 | `Float`  | 32          | 6 decimal digits precision                   |
 | `Double` | 64          | 15 decimal digits precision                  |
+
+</div>
 
 ```swift
 // Type conversion -- must be explicit

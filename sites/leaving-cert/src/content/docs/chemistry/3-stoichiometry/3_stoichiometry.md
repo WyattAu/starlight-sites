@@ -855,6 +855,8 @@ Errors that vary unpredictably (e.g., reading a burette to different decimal pla
 
 ### Reducing Errors
 
+<div class="table-wrap">
+
 | Error type          | Source                          | Reduction method        |
 | ------------------- | ------------------------------- | ----------------------- |
 | Parallax            | Reading meniscus at wrong angle | Read at eye level       |
@@ -862,6 +864,8 @@ Errors that vary unpredictably (e.g., reading a burette to different decimal pla
 | Heat loss           | Calorimetry                     | Use insulated container |
 | Incomplete reaction | Not enough reagent              | Use excess              |
 | Impurities          | Sample not pure                 | Recrystallise           |
+
+</div>
 
 ### Percentage Uncertainty
 
@@ -900,6 +904,8 @@ $$
 
 ## Summary Table: Key Stoichiometric Relationships
 
+<div class="table-wrap">
+
 | Relationship             | Formula                                 | Use                      |
 | ------------------------ | --------------------------------------- | ------------------------ |
 | Moles from mass          | $n = m/M$                               | Mass to mole conversions |
@@ -912,6 +918,8 @@ $$
 | Percentage purity        | $\mathrm{pure/impure \times 100$        | Sample quality           |
 | Ideal gas law            | $pV = nRT$                              | Gas calculations         |
 | Dilution                 | $c_1 V_1 = c_2 V_2$                     | Preparing solutions      |
+
+</div>
 
 ## Worked Examples
 

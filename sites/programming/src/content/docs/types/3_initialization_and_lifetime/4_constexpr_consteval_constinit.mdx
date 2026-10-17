@@ -20,12 +20,16 @@ from runtime to compile time -- a zero-cost correctness guarantee.
 
 ## The Keyword Taxonomy
 
+<div class="table-wrap">
+
 | Keyword     | Storage             | Initialization           | Evaluation               | Can be modified? |
 | :---------- | :------------------ | :----------------------- | :----------------------- | :--------------- |
 | `const`     | Any                 | Runtime or compile-time  | Either                   | No (after init)  |
 | `constexpr` | Any                 | **Must be** compile-time | **Must be** compile-time | No (after init)  |
 | `consteval` | N/A (function only) | N/A                      | **Must be** compile-time | N/A              |
 | `constinit` | Static/Thread       | **Must be** compile-time | Runtime value OK         | Yes (after init) |
+
+</div>
 
 ## `const`: Immutability, Not Compile-Time
 
@@ -294,12 +298,16 @@ g_logger.set_level(3);        // runtime modification is fine
 
 ### When to Use `constinit` vs `constexpr`
 
+<div class="table-wrap">
+
 | Scenario                                                      | Use                                   |
 | :------------------------------------------------------------ | :------------------------------------ |
 | True constant (never changes)                                 | `constexpr`                           |
 | Global state initialized at compile time, modified at runtime | `constinit`                           |
 | Avoid static initialization order fiasco                      | `constinit` + `constexpr` constructor |
 | Performance-critical startup (avoid dynamic init)             | `constinit`                           |
+
+</div>
 
 ## `if constexpr`
 

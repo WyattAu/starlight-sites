@@ -103,12 +103,16 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Applications.** Using reductions from $A_{\mathrm{TM}$ We can prove many problems undecidable:
 
+<div class="table-wrap">
+
 | Language                       | Description                         | Reduction from   |
 | ------------------------------ | ----------------------------------- | ---------------- |
 | $\mathrm{HALT_{\mathrm{TM}$    | $\{M, w : M \mathrm{ halts on  w\}$ | $A_{\mathrm{TM}$ |
 | $E_{\mathrm{TM}$               | $\{M : L(M) = \emptyset\}$          | $A_{\mathrm{TM}$ |
 | $\mathrm{REGULAR_{\mathrm{TM}$ | $\{M : L(M) \mathrm{ is regular\}$  | $A_{\mathrm{TM}$ |
 | $\mathrm{EQ_{\mathrm{TM}$      | $\{M_1, M_2 : L(M_1) = L(M_2)\}$    | $E_{\mathrm{TM}$ |
+
+</div>
 
 **Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
 

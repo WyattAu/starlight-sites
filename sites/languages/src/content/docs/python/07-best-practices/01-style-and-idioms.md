@@ -332,11 +332,15 @@ Project's requirements. Virtual environments eliminate both problems.
 
 ### venv vs conda vs pyenv
 
+<div class="table-wrap">
+
 | Tool    | Purpose                                      | Isolation Scope                                         |
 | ------- | -------------------------------------------- | ------------------------------------------------------- |
 | `venv`  | Creates virtual environments                 | Python packages only                                    |
 | `conda` | Manages environments with multiple languages | Python + non-Python dependencies (C libraries, R, Node) |
 | `pyenv` | Installs multiple Python versions            | Python interpreters only (no package isolation)         |
+
+</div>
 
 For most Python projects, `venv` is sufficient. Use `conda` when your project depends on non-Python
 Scientific libraries (NumPy, SciPy) that need specific C/Fortran compilers. Use `pyenv` when you
@@ -418,6 +422,8 @@ addopts = "-v --tb=short"
 
 ### Poetry vs PDM vs uv
 
+<div class="table-wrap">
+
 | Feature            | Poetry                        | PDM                           | uv                   |
 | ------------------ | ----------------------------- | ----------------------------- | -------------------- |
 | Lock file          | `poetry.lock`                 | `pdm.lock`                    | `uv.lock`            |
@@ -426,6 +432,8 @@ addopts = "-v --tb=short"
 | Package manager    | pip (via virtualenv)          | pip (via virtualenv)          | Own installer (Rust) |
 | Workspace support  | Yes                           | Yes                           | Yes                  |
 | Build backend      | poetry-core                   | pdm-backend                   | hatchling (default)  |
+
+</div>
 
 ### WHY pyproject.toml Over setup.py
 
@@ -623,6 +631,8 @@ def test_user_update(db_session, sample_user):
 
 Fixtures have scopes that control when they are created and torn down:
 
+<div class="table-wrap">
+
 | Scope      | Created once per... | Common use                              |
 | ---------- | ------------------- | --------------------------------------- |
 | `function` | test function       | Database sessions, mock objects         |
@@ -630,6 +640,8 @@ Fixtures have scopes that control when they are created and torn down:
 | `module`   | test module         | Expensive resources (Docker containers) |
 | `package`  | test package        | Package-level state                     |
 | `session`  | test run            | Global services, process-level state    |
+
+</div>
 
 ### Parametrize
 
@@ -720,6 +732,8 @@ markers = [
 
 ### Comparison of Linting and Formatting Tools
 
+<div class="table-wrap">
+
 | Tool             | Language          | Checks                                  | Formatter                   | Speed                      | Notes                                               |
 | ---------------- | ----------------- | --------------------------------------- | --------------------------- | -------------------------- | --------------------------------------------------- |
 | **ruff**         | Rust              | Flake8 + isort + pydocstyle + many more | Built-in (Black-compatible) | Very fast (10-100x flake8) | Replaces flake8, isort, Black, pydocstyle, and more |
@@ -730,6 +744,8 @@ markers = [
 | **mypy**         | Python            | Static type checking                    | No                          | Medium                     | Reference type checker                              |
 | **pyright**      | TypeScript/Python | Static type checking                    | No                          | Fast                       | Microsoft's type checker; stricter by default       |
 | **basedpyright** | TypeScript/Python | Static type checking                    | No                          | Fast                       | Fork of pyright with additional features            |
+
+</div>
 
 ### WHY Ruff Over flake8/pylint
 
@@ -1217,12 +1233,16 @@ Repository = "https://github.com/janedoe/myapp"
 
 ### Build Backends
 
+<div class="table-wrap">
+
 | Backend       | Maintainer | Notes                                                         |
 | ------------- | ---------- | ------------------------------------------------------------- |
 | `hatchling`   | Hatch      | Simple, fast, good default choice                             |
 | `setuptools`  | pypa       | Legacy; still widely used, supports setup.py fallback         |
 | `flit-core`   | flit       | Minimal; for pure-Python packages with no complex build needs |
 | `pdm-backend` | PDM        | PEP 621 compliant; good for complex packages                  |
+
+</div>
 
 ### Build and Publish
 

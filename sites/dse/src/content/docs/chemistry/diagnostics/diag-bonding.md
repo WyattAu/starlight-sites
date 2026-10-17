@@ -217,12 +217,16 @@ exceptionally strong, resulting in a dramatically higher boiling point.
 
 Four substances have the following properties:
 
+<div class="table-wrap">
+
 | Substance | Melting Point ($\degree C$) | Electrical Conductivity (solid) | Electrical Conductivity (molten) | Solubility in Water |
 | --------- | --------------------------- | ------------------------------- | -------------------------------- | ------------------- |
 | $W$       | 801                         | No                              | Yes                              | High                |
 | $X$       | 170                         | No                              | No                               | Insoluble           |
 | $Y$       | $-183$                      | No                              | No                               | Slightly soluble    |
 | $Z$       | 1085                        | Yes                             | Yes                              | Insoluble           |
+
+</div>
 
 (a) Identify the type of bonding in each substance. [4 marks]
 
@@ -363,6 +367,8 @@ permanent dipole does not necessarily mean weaker overall IMF.
 
 The bond dissociation energies for selected bonds are:
 
+<div class="table-wrap">
+
 | Bond        | Bond Energy (kJ/mol) |
 | ----------- | -------------------- |
 | $C-C$       | 346                  |
@@ -373,6 +379,8 @@ The bond dissociation energies for selected bonds are:
 | $C-Cl$      | 327                  |
 | $F-F$       | 158                  |
 | $Cl-Cl$     | 242                  |
+
+</div>
 
 (a) The $C=C$ double bond is **not** exactly twice the $C-C$ single bond energy. Explain why. [2
 marks]

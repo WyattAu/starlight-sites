@@ -40,6 +40,8 @@ The IUPAC system provides an unambiguous naming convention for organic compounds
 
 ### Homologous Series
 
+<div class="table-wrap">
+
 | Series          | General formula                 | Functional group        | Suffix    | Example          |
 | --------------- | ------------------------------- | ----------------------- | --------- | ---------------- |
 | Alkane          | $\mathrm{C}_n\mathrm{H}_{2n+2}$ | C--C single bonds       | -ane      | Ethane           |
@@ -53,6 +55,8 @@ The IUPAC system provides an unambiguous naming convention for organic compounds
 | Ester           | --                              | --COO--                 | -oate     | Methyl ethanoate |
 | Amine           | --                              | --$\mathrm{NH}_2$       | -amine    | Ethanamine       |
 | Amide           | --                              | --$\mathrm{CONH}_2$     | -amide    | Ethanamide       |
+
+</div>
 
 ### Structural Isomerism
 
@@ -373,6 +377,8 @@ This is an equilibrium; excess alcohol or removal of water drives it to completi
 
 ### Aldehydes vs Ketones
 
+<div class="table-wrap">
+
 | Property        | Aldehyde                 | Ketone                 |
 | --------------- | ------------------------ | ---------------------- |
 | General formula | $\mathrm{RCHO}$          | $\mathrm{RCOR}'$       |
@@ -380,6 +386,8 @@ This is an equilibrium; excess alcohol or removal of water drives it to completi
 | Oxidation       | Yes (to carboxylic acid) | No                     |
 | Tollens' test   | Silver mirror (positive) | No reaction (negative) |
 | Fehling's test  | Brick-red precipitate    | No reaction            |
+
+</div>
 
 ### Nucleophilic Addition
 
@@ -449,6 +457,8 @@ Base hydrolysis (saponification) is irreversible. Acid hydrolysis is reversible.
 IR spectroscopy measures the absorption of infrared radiation by bonds, which vibrate at
 characteristic frequencies.
 
+<div class="table-wrap">
+
 | Bond                               | Wavenumber ($\mathrm{cm}^{-1}$) |
 | ---------------------------------- | ------------------------------- |
 | O--H (alcohol, broad)              | 3200--3600                      |
@@ -459,6 +469,8 @@ characteristic frequencies.
 | C=C                                | 1620--1680                      |
 | C--O                               | 1000--1300                      |
 
+</div>
+
 **Fingerprint region** ($1500\mathrm{--}400\,\mathrm{cm}^{-1}$): unique pattern for each compound;
 used for identification by comparison with reference spectra.
 
@@ -466,6 +478,8 @@ used for identification by comparison with reference spectra.
 
 See [Atomic Structure](/chemistry/atomic-structure/) for the general principles. In organic chemistry,
 fragmentation patterns are diagnostic:
+
+<div class="table-wrap">
 
 | Fragment                | $m/z$      | Origin                                                        |
 | ----------------------- | ---------- | ------------------------------------------------------------- |
@@ -476,6 +490,8 @@ fragmentation patterns are diagnostic:
 | 43                      | 43         | $-\mathrm{C}_3\mathrm{H}_7^+$ or $\mathrm{CH}_3\mathrm{CO}^+$ |
 | 77                      | 77         | $\mathrm{C}_6\mathrm{H}_5^+$ (phenyl)                         |
 | 91                      | 91         | $\mathrm{C}_7\mathrm{H}_7^+$ (benzyl/tropylium)               |
+
+</div>
 
 The McLafferty rearrangement is a characteristic fragmentation of carbonyl compounds that transfers
 a $\gamma$-hydrogen to the carbonyl oxygen via a six-membered transition state, producing an enol
@@ -490,6 +506,8 @@ $^1\mathrm{H}$ NMR provides information about the hydrogen environments in a mol
 **Chemical shift ($\delta$):** The position of a signal, measured in ppm relative to TMS
 (tetramethylsilane, $\delta = 0$). Higher $\delta$ means greater deshielding.
 
+<div class="table-wrap">
+
 | Proton type                        | $\delta$ range (ppm) |
 | ---------------------------------- | -------------------- |
 | $\mathrm{R}-\mathrm{CH}_3$         | 0.7--1.3             |
@@ -500,10 +518,14 @@ $^1\mathrm{H}$ NMR provides information about the hydrogen environments in a mol
 | $\mathrm{R}-\mathrm{CHO}$          | 9.0--10.0            |
 | $\mathrm{R}-\mathrm{COOH}$         | 10.0--13.0           |
 
+</div>
+
 **Integration:** The area under each peak is proportional to the number of equivalent protons.
 
 **Splitting (spin-spin coupling):** Neighbouring non-equivalent protons split signals into $n+1$
 peaks, where $n$ is the number of neighbouring protons.
+
+<div class="table-wrap">
 
 | Neighbours ($n$) | Splitting pattern |
 | ---------------- | ----------------- |
@@ -512,6 +534,8 @@ peaks, where $n$ is the number of neighbouring protons.
 | 2                | Triplet           |
 | 3                | Quartet           |
 | 4                | Quintet           |
+
+</div>
 
 The coupling constant $J$ (in Hz) is the spacing between peaks in a multiplet. Equivalent protons do
 not couple to each other.
@@ -596,6 +620,8 @@ reach the starting material.
 
 **Key interconversions:**
 
+<div class="table-wrap">
+
 | Target          | From                      | Reagents/conditions                                                      |
 | --------------- | ------------------------- | ------------------------------------------------------------------------ |
 | Alkene          | Alcohol                   | Dehydration: conc. $\mathrm{H}_2\mathrm{SO}_4$, $170^\circ\mathrm{C}$    |
@@ -613,6 +639,8 @@ reach the starting material.
 | Amide           | Acyl chloride + ammonia   | Room temperature                                                         |
 | Phenylamine     | Nitrobenzene              | $\mathrm{Sn/HCl}$ then $\mathrm{NaOH}$                                   |
 | Nitrobenzene    | Benzene                   | $\mathrm{HNO}_3 / \mathrm{H}_2\mathrm{SO}_4$50--60$^\circ\mathrm{C}$     |
+
+</div>
 
 ### Worked Example: Synthesis of Propanoic Acid from Propene
 
@@ -696,6 +724,8 @@ $\mathrm{C}_6\mathrm{H}_4(\mathrm{OH})\mathrm{COOH} + \mathrm{CH}_3\mathrm{OH} \
 
 ### Common Reagents Summary
 
+<div class="table-wrap">
+
 | Reagent                                                  | Primary function                                                            |
 | -------------------------------------------------------- | --------------------------------------------------------------------------- |
 | $\mathrm{NaBH}_4$                                        | Reduces C=O (aldehydes, ketones) to alcohols                                |
@@ -709,6 +739,8 @@ $\mathrm{C}_6\mathrm{H}_4(\mathrm{OH})\mathrm{COOH} + \mathrm{CH}_3\mathrm{OH} \
 | $\mathrm{AlCl}_3$ + $\mathrm{RCOCl}$                     | Friedel-Crafts acylation                                                    |
 | $\mathrm{NaNO}_2 / \mathrm{HCl}$0--5$^\circ\mathrm{C}$   | Diazotisation of primary aromatic amine                                     |
 | $\mathrm{Sn} / \mathrm{HCl}$                             | Reduces nitro group to amine                                                |
+
+</div>
 
 ## Required Practical Techniques in Organic Chemistry
 
@@ -744,6 +776,8 @@ electric melting point apparatus.
 
 ### Test-Tube Reactions for Functional Group Identification
 
+<div class="table-wrap">
+
 | Test                                              | Reagent                            | Observation                           | Functional group         |
 | ------------------------------------------------- | ---------------------------------- | ------------------------------------- | ------------------------ |
 | Bromine water                                     | $\mathrm{Br}_2(aq)$                | Decolourises                          | C=C                      |
@@ -755,6 +789,8 @@ electric melting point apparatus.
 | $\mathrm{PCL}_5$                                  | Phosphorus pentachloride           | White fumes ($\mathrm{HCl}$)          | Alcohol ($-\mathrm{OH}$) |
 | $\mathrm{Na}$ metal                               | Sodium                             | $\mathrm{H}_2$ bubbles                | Alcohol, carboxylic acid |
 | $\mathrm{Br}_2$ in $\mathrm{CCl}_4$               | Bromine in organic solvent         | Decolourises (under UV)               | Alkane (radical sub.)    |
+
+</div>
 
 ### Systematic Identification of an Unknown Organic Compound
 

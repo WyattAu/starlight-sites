@@ -75,6 +75,8 @@ cells more generally).
 
 **Example 9.5.**
 
+<div class="table-wrap">
+
 | Surface                          | $\chi$ |
 | -------------------------------- | ------ |
 | Sphere $S^2$                     | 2      |
@@ -82,6 +84,8 @@ cells more generally).
 | Projective plane $\mathbb{R}P^2$ | 1      |
 | Klein bottle $K$                 | 0      |
 | Double torus (genus 2)           | $-2$   |
+
+</div>
 
 For a closed orientable surface of genus $g$: $\chi = 2 - 2g$.
 

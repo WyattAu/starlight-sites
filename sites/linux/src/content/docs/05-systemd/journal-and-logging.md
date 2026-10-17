@@ -33,6 +33,8 @@ flowchart LR
 
 ### Log Sources
 
+<div class="table-wrap">
+
 | Source           | Description                                 |
 | ---------------- | ------------------------------------------- |
 | stdout/stderr    | All service output captured by systemd      |
@@ -41,6 +43,8 @@ flowchart LR
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
 | Internal journal | Journal's own diagnostic messages           |
+
+</div>
 
 ### Storage Modes
 

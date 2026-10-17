@@ -117,10 +117,14 @@ the observed value, **assuming $H_0$ is true**.
 
 ### Type I and Type II Errors
 
+<div class="table-wrap">
+
 | Decision             | $H_0$ True              | $H_0$ False                   |
 | -------------------- | ----------------------- | ----------------------------- |
 | Reject $H_0$         | Type I Error ($\alpha$) | Correct (Power = $1 - \beta$) |
 | Fail to Reject $H_0$ | Correct                 | Type II Error ($\beta$)       |
+
+</div>
 
 - **Type I Error**: Rejecting $H_0$ when it is actually true (false positive). Probability =
   $\alpha$

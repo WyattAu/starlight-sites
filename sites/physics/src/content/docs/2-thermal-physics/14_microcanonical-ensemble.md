@@ -216,6 +216,8 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 
 ### 14.9 Summary of Key Formulas
 
+<div class="table-wrap">
+
 | Quantity | Expression |
 | ---------- | ----------- |
 | Microcanonical partition function | $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} d^{3N}q\,d^{3N}p / (N! h^{3N})$ |
@@ -224,6 +226,8 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 | Pressure | $P = T\,\partial S/\partial V$ |
 | Chemical potential | $\mu = -T\,\partial S/\partial N$ |
 | Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
+
+</div>
 
 ## Intuition
 
@@ -247,5 +251,5 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

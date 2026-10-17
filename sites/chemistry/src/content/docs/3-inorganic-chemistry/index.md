@@ -120,4 +120,4 @@ The trans effect governs the rate of ligand substitution in square planar comple
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

@@ -31,12 +31,16 @@ The Standard Model classifies all known fundamental particles and their interact
 
 ### The Four Fundamental Interactions
 
+<div class="table-wrap">
+
 | Interaction     | Mediator                | Acts on           | Range             | Relative strength |
 | --------------- | ----------------------- | ----------------- | ----------------- | ----------------- |
 | Electromagnetic | Photon ($\gamma$)       | Charged particles | Infinite          | $\sim 10^{-2}$    |
 | Strong (colour) | Gluon ($g$)             | Quarks, gluons    | $\sim 10^{-15}$ m | $\sim 1$          |
 | Weak            | $W^\pm$, $Z^0$          | All fermions      | $\sim 10^{-18}$ m | $\sim 10^{-6}$    |
 | Gravitational   | Graviton (hypothetical) | All mass/energy   | Infinite          | $\sim 10^{-39}$   |
+
+</div>
 
 ## 2. Quarks
 
@@ -45,11 +49,15 @@ Charge and a colour charge (red, green, or blue).
 
 ### The Six Flavours
 
+<div class="table-wrap">
+
 | Generation | Up-type     | Charge  | Down-type     | Charge |
 | ---------- | ----------- | ------- | ------------- | ------ |
 | 1          | Up ($u$)    | $+2e/3$ | Down ($d$)    | $-e/3$ |
 | 2          | Charm ($c$) | $+2e/3$ | Strange ($s$) | $-e/3$ |
 | 3          | Top ($t$)   | $+2e/3$ | Bottom ($b$)  | $-e/3$ |
+
+</div>
 
 ### Quark Confinement
 
@@ -74,11 +82,15 @@ Leptons are fundamental particles that do **not** experience the strong force.
 
 ### The Six Leptons
 
+<div class="table-wrap">
+
 | Generation | Charged lepton   | Neutrino                    |
 | ---------- | ---------------- | --------------------------- |
 | 1          | Electron ($e^-$) | Electron neutrino ($\nu_e$) |
 | 2          | Muon ($\mu^-$)   | Muon neutrino ($\nu_\mu$)   |
 | 3          | Tau ($\tau^-$)   | Tau neutrino ($\nu_\tau$)   |
+
+</div>
 
 Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$ Etc.).
 
@@ -101,6 +113,8 @@ Hadrons are composite particles made of quarks that experience the strong force.
 
 Baryons consist of three quarks. They have baryon number $B = +1$ (antibaryons: $B = -1$).
 
+<div class="table-wrap">
+
 | Particle      | Quark content | Charge | Strangeness |
 | ------------- | ------------- | ------ | ----------- |
 | Proton ($p$)  | $uud$         | $+e$   | $0$         |
@@ -109,9 +123,13 @@ Baryons consist of three quarks. They have baryon number $B = +1$ (antibaryons: 
 | $\Xi^-$       | $dss$         | $-e$   | $-2$        |
 | $\Omega^-$    | $sss$         | $-e$   | $-3$        |
 
+</div>
+
 ### Mesons
 
 Mesons consist of a quark--antiquark pair. They have baryon number $B = 0$.
+
+<div class="table-wrap">
 
 | Particle | Quark content            | Charge | Strangeness |
 | -------- | ------------------------ | ------ | ----------- |
@@ -120,6 +138,8 @@ Mesons consist of a quark--antiquark pair. They have baryon number $B = 0$.
 | $\pi^0$  | $u\bar{u}$ or $d\bar{d}$ | $0$    | $0$         |
 | $K^+$    | $u\bar{s}$               | $+e$   | $+1$        |
 | $K^-$    | $\bar{u}s$               | $-e$   | $-1$        |
+
+</div>
 
 ### Verifying Quark Content
 
@@ -148,6 +168,8 @@ Interaction (which does not conserve strangeness).
 
 In all particle interactions, the following quantities are **always conserved**:
 
+<div class="table-wrap">
+
 | Quantity                                 | Conserved in all interactions? |
 | ---------------------------------------- | ------------------------------ |
 | Energy                                   | Yes                            |
@@ -156,6 +178,8 @@ In all particle interactions, the following quantities are **always conserved**:
 | Lepton number ($L_e$, $L_\mu$, $L_\tau$) | Yes                            |
 | Baryon number ($B$)                      | Yes                            |
 | Strangeness ($S$)                        | Strong and EM only (not weak)  |
+
+</div>
 
 :::caution
 (associated production) Via the strong interaction (conserving $S$) but decay individually via the
@@ -186,11 +210,15 @@ $\Lambda^0 = uds$$\pi^0 = u\bar{u}$ or $d\bar{d}$.
 Every particle has a corresponding antiparticle with the same mass but opposite values of all
 quantum Numbers (charge, baryon number, lepton number, strangeness).
 
+<div class="table-wrap">
+
 | Particle           | Antiparticle                 | Key difference                    |
 | ------------------ | ---------------------------- | --------------------------------- |
 | Electron ($e^-$)   | Positron ($e^+$)             | Charge reversed                   |
 | Proton ($p$)       | Antiproton ($\bar{p}$)       | Charge and baryon number reversed |
 | Neutrino ($\nu_e$) | Antineutrino ($\bar{\nu}_e$) | Lepton number reversed            |
+
+</div>
 
 ### Pair Production and Annihilation
 
@@ -366,12 +394,16 @@ This provided direct experimental confirmation of wave--particle duality for mat
 
 ### Evidence for Wave Nature of Particles
 
+<div class="table-wrap">
+
 | Phenomenon            | Particle             | Evidence of wave nature            |
 | --------------------- | -------------------- | ---------------------------------- |
 | Electron diffraction  | Electron             | Davisson--Germer (1927)            |
 | Neutron diffraction   | Neutron              | Crystal diffraction patterns       |
 | Electron interference | Electron             | Double-slit experiment             |
 | Molecular diffraction | $C_{60}$ (fullerene) | Interference fringes (Arndt, 1999) |
+
+</div>
 
 <details>
 <summary>Worked Example: de Broglie Wavelength</summary>
@@ -547,10 +579,14 @@ m). The discrepancy suggests an experimental issue or different scattering geome
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site       | Link                                                                                                                  |
 | ------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Particle Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/physics/nuclear-physics/04-particle-physics)              |
 | [Particle Physics] | University | [View](https://physics.wyattau.com/) |
+
+</div>
 
 ## Summary
 

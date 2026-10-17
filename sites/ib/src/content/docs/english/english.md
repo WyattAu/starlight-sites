@@ -67,6 +67,8 @@ in argumentation, and the ability to respond to questions about a text's broader
 
 ### Standard Level (SL)
 
+<div class="table-wrap">
+
 | Component                        | Weighting | Description                                                                                                |
 | -------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------- |
 | Paper 1                          | 25%       | Guided textual analysis of one unseen non-literary or literary passage                                     |
@@ -75,7 +77,11 @@ in argumentation, and the ability to respond to questions about a text's broader
 | Individual Oral Commentary (IOC) | 15%       | Oral commentary on an extract from a Part 2 work                                                           |
 | Further Oral Activity (FOA)      | 15%       | Oral presentation on a Part 1 or Part 2 text                                                               |
 
+</div>
+
 ### Higher Level (HL)
+
+<div class="table-wrap">
 
 | Component                                       | Weighting | Description                                                                                        |
 | ----------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------- |
@@ -84,6 +90,8 @@ in argumentation, and the ability to respond to questions about a text's broader
 | Written Task                                    | 20%       | Two written tasks (one from Parts 1 or 2, one from Parts 3 or 4), each with a rationale            |
 | Individual Oral Commentary and Discussion (IOC) | 15%       | Oral commentary on an extract from a Part 2 work, followed by a discussion on a second Part 2 work |
 | Further Oral Activity (FOA)                     | 15%       | Oral presentation on a Part 1 or Part 2 text                                                       |
+
+</div>
 
 ### Extended Essay
 

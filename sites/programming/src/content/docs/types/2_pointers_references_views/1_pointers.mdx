@@ -280,6 +280,8 @@ void process(Forward* p);  // OK: parameter declaration does not require complet
 
 ### Comparison Table of Pointer Types
 
+<div class="table-wrap">
+
 | Type                    | Arithmetic | Dereference | sizeof       | Implicitly Convertible To   |
 | :---------------------- | :--------- | :---------- | :----------- | :-------------------------- |
 | `T*` (object pointer)   | Yes        | Yes         | Platform ptr | `void*, const void*`        |
@@ -288,6 +290,8 @@ void process(Forward* p);  // OK: parameter declaration does not require complet
 | `T(*)()` (function ptr) | No         | Yes (call)  | Platform ptr | `void(*)()`                 |
 | `T C::*` (member ptr)   | No         | With object | 2x ptr size  | (none, requires object)    |
 | `nullptr_t`             | No         | No          | Platform ptr | Any object/function pointer |
+
+</div>
 
 Note: On most platforms, `sizeof(T*)` is 8 bytes (64-bit) or 4 bytes (32-bit). Pointer-to-member may
 be larger due to the need for virtual base adjustment.
@@ -434,11 +438,15 @@ func(nullptr); // Calls func(char*) unambiguously.
 
 ### `nullptr` vs `NULL` vs `0`
 
+<div class="table-wrap">
+
 | Literal   | Type                                  | Convertible to           | Recommended? |
 | --------- | ------------------------------------- | ------------------------ | ------------ |
 | `0`       | `int`                                 | Any integral type        | No           |
 | `NULL`    | Implementation-defined ( `0` or `0L`) | Pointers + integral      | No           |
 | `nullptr` | `std::nullptr_t`                      | Any pointer type, `bool` | **Yes**      |
+
+</div>
 
 `nullptr` is the only null pointer constant that cannot be confused with an integer. Modern C++ code
 should always use `nullptr`.
@@ -491,12 +499,16 @@ In modern C++23 design, raw pointers (`T*`) should **only** be used for:
 
 For non-nullable, non-owning views, use `T&` (Reference) or `std::reference_wrapper<T>`.
 
+<div class="table-wrap">
+
 | Semantics                 | Type                                         |
 | :------------------------ | :------------------------------------------- |
 | Ownership + Nullable      | `std::unique_ptr<T>`                         |
 | Ownership + Non-Nullable  | `std::unique_ptr<T>` (Assert on dereference) |
 | Non-Owning + Nullable     | `T*`                                         |
 | Non-Owning + Non-Nullable | `T&`                                         |
+
+</div>
 
 ### `std::assume` (C++23)
 
@@ -609,6 +621,8 @@ Every type `T` has an alignment requirement, `alignof(T)`. Which is a power-of-t
 
 ### Alignment Requirements by Type
 
+<div class="table-wrap">
+
 | Type                  | Typical Alignment | Notes                           |
 | :-------------------- | :---------------- | :------------------------------ |
 | `char, int8_t`        | 1                 | Any address                     |
@@ -620,6 +634,8 @@ Every type `T` has an alignment requirement, `alignof(T)`. Which is a power-of-t
 | `__m256`              | 32                | AVX requirement                 |
 | `max_align_t`         | 16 (typical)      | Maximum fundamental alignment   |
 | `std::max_align_t`    | Implementation    | Alignment of the largest scalar |
+
+</div>
 
 ### `std::aligned_alloc` for Custom Alignment
 

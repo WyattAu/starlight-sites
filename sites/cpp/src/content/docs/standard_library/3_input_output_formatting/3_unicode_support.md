@@ -35,6 +35,8 @@ Pitfalls, and practical guidance for Unicode-aware applications.
 
 C++ provides several fundamental character types to support Unicode [N4950 §6.2.5]:
 
+<div class="table-wrap">
+
 | Type               | Size (guaranteed)        | Typical Use                                                 |
 | :----------------- | :----------------------- | :---------------------------------------------------------- |
 | `char`             | 1 byte (at least 8 bits) | ASCII, UTF-8 (as byte sequence)                             |
@@ -42,6 +44,8 @@ C++ provides several fundamental character types to support Unicode [N4950 §6.2
 | `char16_t` (C++11) | at least 16 bits         | UTF-16 code units                                           |
 | `char32_t` (C++11) | at least 32 bits         | UTF-32 code units / single Unicode code point               |
 | `wchar_t`          | implementation-defined   | Platform-wide encoding (UTF-16 on Windows, UTF-32 on Linux) |
+
+</div>
 
 `char8_t` was introduced in C++20 [N4950 §6.2.5] to distinguish UTF-8 byte sequences from plain
 `char` (which may be signed or unsigned depending on the platform). `char8_t` is an unsigned type
@@ -52,12 +56,16 @@ Distinct from both `unsigned char` and `char`Preventing accidental implicit conv
 UTF-8 is a variable-width encoding that represents every Unicode code point using 1 to 4 bytes
 [Unicode Standard, §3.9]:
 
+<div class="table-wrap">
+
 | Code Point Range  | Binary Pattern                        | Bytes |
 | :---------------- | :------------------------------------ | :---- |
 | U+0000..U+007F    | `0xxxxxxx`                            | 1     |
 | U+0080..U+07FF    | `110xxxxx 10xxxxxx`                   | 2     |
 | U+0800..U+FFFF    | `1110xxxx 10xxxxxx 10xxxxxx`          | 3     |
 | U+10000..U+10FFFF | `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx` | 4     |
+
+</div>
 
 UTF-8 has several properties that make it the dominant encoding for text interchange:
 
@@ -432,6 +440,8 @@ The UTF-8 decoder shown in the code point iteration example above does **not** r
 Encodings. A rigorous decoder must check that the decoded code point is in the minimum range for the
 Number of bytes used:
 
+<div class="table-wrap">
+
 | Bytes | Minimum Code Point | Maximum Code Point |
 | :---- | :----------------- | :----------------- |
 | 1     | U+0000             | U+007F             |
@@ -439,9 +449,13 @@ Number of bytes used:
 | 3     | U+0800             | U+FFFF             |
 | 4     | U+10000            | U+10FFFF           |
 
+</div>
+
 ### Unicode Normalization
 
 Unicode defines four normalization forms [Unicode Standard, §3.11]:
+
+<div class="table-wrap">
 
 | Form | Algorithm                                     | Use Case                                             |
 | :--- | :-------------------------------------------- | :--------------------------------------------------- |
@@ -449,6 +463,8 @@ Unicode defines four normalization forms [Unicode Standard, §3.11]:
 | NFD  | Canonical Decomposition                       | Internal processing, comparison                      |
 | NFKC | Compatibility Decomposition, then Composition | Searching, indexing (strips formatting distinctions) |
 | NFKD | Compatibility Decomposition                   | Stripping all formatting (e.g., `ﬁ` → `f` + `i`)     |
+
+</div>
 
 The critical difference between canonical and compatibility normalization is that **canonical**
 Forms preserve semantic identity (NFD `U+0065 U+0301` and NFC `U+00E9` are the same character `é`),
@@ -501,11 +517,15 @@ authentication systems.
 
 The BOM is the code point `U+FEFF` encoded at the start of a text stream to signal the byte order:
 
+<div class="table-wrap">
+
 | Encoding | BOM Bytes (big-endian) | BOM Bytes (little-endian) |
 | :------- | :--------------------- | :------------------------ |
 | UTF-8    | `EF BB BF`             | `EF BB BF` (same)         |
 | UTF-16   | `FE FF`                | `FF FE`                   |
 | UTF-32   | `00 00 FE FF`          | `FF FE 00 00`             |
+
+</div>
 
 UTF-8 is byte-order-independent, so a UTF-8 BOM is unnecessary. However, some tools (notably Windows
 Notepad) prepend a UTF-8 BOM when saving. This can cause problems:

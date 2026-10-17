@@ -98,6 +98,8 @@ $\square$
 
 ### Common Complexity Classes
 
+<div class="table-wrap">
+
 | Class         | Name         | Example                         |
 | ------------- | ------------ | ------------------------------- |
 | $O(1)$        | Constant     | Array access                    |
@@ -108,6 +110,8 @@ $\square$
 | $O(n^3)$      | Cubic        | Floyd-Warshall, matrix multiply |
 | $O(2^n)$      | Exponential  | Subset enumeration, brute force |
 | $O(n!)$       | Factorial    | Permutation enumeration (TSP)   |
+
+</div>
 
 :::note
 Focuses on time complexity. **CIE (9618)** covers Big-O, Big-Theta, and Big-Omega notation; requires
@@ -132,11 +136,15 @@ Where $P(I)$ is the probability of input $I$.
 
 ### Example: Quick Sort
 
+<div class="table-wrap">
+
 | Case    | Complexity    | When                          |
 | ------- | ------------- | ----------------------------- |
 | Best    | $O(n \log n)$ | Pivot always splits in half   |
 | Average | $O(n \log n)$ | Random inputs (expected)      |
 | Worst   | $O(n^2)$      | Already sorted, min/max pivot |
+
+</div>
 
 :::caution
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
@@ -152,11 +160,15 @@ For recurrences of the form $T(n) = aT(n/b) + f(n)$ where $a \geq 1$, $b \gt 1$:
 
 Let $c = \log_b a$. Compare $f(n)$ with $n^c$:
 
+<div class="table-wrap">
+
 | Case | Condition                                                  | Solution                          |
 | ---- | ---------------------------------------------------------- | --------------------------------- |
 | 1    | $f(n) = O(n^{c - \epsilon})$                               | $T(n) = \Theta(n^c)$              |
 | 2    | $f(n) = \Theta(n^c \log^k n)$                              | $T(n) = \Theta(n^c \log^{k+1} n)$ |
 | 3    | $f(n) = \Omega(n^{c + \epsilon})$ and $af(n/b) \leq cf(n)$ | $T(n) = \Theta(f(n))$             |
+
+</div>
 
 ### Worked Examples
 
@@ -242,22 +254,30 @@ Amortised cost per operation: $O(3) = O(1)$. $\square$
 Sometimes we can reduce time complexity by using more memory, or reduce space by accepting more
 Time.
 
+<div class="table-wrap">
+
 | Tradeoff           | Example                                 |
 | ------------------ | --------------------------------------- |
 | Hash table         | $O(1)$ search vs $O(n)$ space           |
 | Memoization        | $O(1)$ repeated lookups vs $O(n)$ space |
 | Precomputed tables | $O(1)$ trig functions vs large ROM      |
 
+</div>
+
 ### Logarithmic Factors
 
 $\log n$ grows very slowly. For all practical input sizes, $O(n \log n)$ is often acceptable even
 when $O(n)$ is achievable with more complex algorithms.
+
+<div class="table-wrap">
 
 | $n$    | $\log_2 n$ | $n \log_2 n$       |
 | ------ | ---------- | ------------------ |
 | $10^3$ | 10         | $10^4$             |
 | $10^6$ | 20         | $2 \times 10^7$    |
 | $10^9$ | 30         | $3 \times 10^{10}$ |
+
+</div>
 
 <hr />
 
@@ -543,6 +563,8 @@ We need $10n \log_2 n < n^2$ Which simplifies to $10 \log_2 n < n$ (for $n > 0$)
 
 Testing values:
 
+<div class="table-wrap">
+
 | $n$ | $10 \log_2 n$ | $n$ | A faster? |
 | --- | ------------- | --- | --------- |
 | 10  | 33.2          | 10  | No        |
@@ -551,6 +573,8 @@ Testing values:
 | 40  | 53.2          | 40  | No        |
 | 50  | 56.4          | 50  | No        |
 | 60  | 59.1          | 60  | Yes       |
+
+</div>
 
 Algorithm A becomes faster at approximately **$n = 60$**.
 
@@ -677,11 +701,15 @@ the pivot is the median element, a random element, and the minimum or maximum el
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Case    | Complexity    | Input condition                        | Explanation                                                                                                                                   |
 | ------- | ------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Best    | $O(n \log n)$ | Pivot always divides array in half     | Each level processes all $n$ elements, and there are $\log n$ levels. Total: $O(n \log n)$.                                                   |
 | Average | $O(n \log n)$ | Random inputs                          | With a random pivot, the expected split ratio is balanced. The recurrence $T(n) = T(n/2) + T(n/2) + O(n)$ holds on average.                   |
 | Worst   | $O(n^2)$      | Already sorted (with first/last pivot) | If pivot is always the minimum or maximum, one partition has $n-1$ elements and the other has 0. Recurrence: $T(n) = T(n-1) + O(n) = O(n^2)$. |
+
+</div>
 
 **Mitigation:** Randomised quicksort (choosing a random pivot) or median-of-three pivot selection
 Makes the worst case extremely unlikely in practice, giving expected $O(n \log n)$ regardless of
@@ -842,10 +870,14 @@ Inversion count is accumulated during the merge step without changing the merge 
 
 **(b) Estimated operations for $n = 10\,000$:**
 
+<div class="table-wrap">
+
 | Algorithm | Formula      | Operations                                       |
 | --------- | ------------ | ------------------------------------------------ |
 | P         | $n(n-1)/2$   | $10\,000 \times 9\,999 / 2 \approx 49\,995\,000$ |
 | Q         | $n \log_2 n$ | $10\,000 \times 13.3 \approx 133\,000$           |
+
+</div>
 
 **(c) Comparison:**
 

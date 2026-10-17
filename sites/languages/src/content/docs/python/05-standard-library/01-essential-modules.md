@@ -270,6 +270,8 @@ class CustomDecoder(json.JSONDecoder):
 
 ### JSON vs Pickle
 
+<div class="table-wrap">
+
 | Property          | JSON                        | Pickle                                 |
 | ----------------- | --------------------------- | -------------------------------------- |
 | Format            | Text                        | Binary                                 |
@@ -278,6 +280,8 @@ class CustomDecoder(json.JSONDecoder):
 | Supported types   | Primitives, dict, list, str | Almost any Python object               |
 | Human-readable    | Yes                         | No                                     |
 | Version-stable    | Yes (RFC 8259)              | No (protocol changes between versions) |
+
+</div>
 
 Pickle can serialize functions, classes, and object graphs with cycles. But `pickle.loads()` on
 Untrusted data is equivalent to arbitrary code execution -- the pickled byte stream can contain
@@ -754,6 +758,8 @@ class Config:
     created_at: float = field(default_factory=time.time, repr=False, compare=False)
 ```
 
+<div class="table-wrap">
+
 | `field()` parameter | Effect                                             |
 | ------------------- | -------------------------------------------------- |
 | `default`           | Static default value (never use for mutable types) |
@@ -763,6 +769,8 @@ class Config:
 | `compare`           | Include in `__eq__`/`__hash__` (default `True`)    |
 | `hash`              | Include in `__hash__` (default `None`Inherits)     |
 | `metadata`          | Arbitrary dict for external tools                  |
+
+</div>
 
 ### Inheritance and `slots=True`
 
@@ -1059,6 +1067,8 @@ print(datetime.fromisoformat("2025-06-04T14:30:00"))  # round-trip
 
 The most commonly used format codes:
 
+<div class="table-wrap">
+
 | Code | Meaning                     | Example   |
 | ---- | --------------------------- | --------- |
 | `%Y` | Four-digit year             | 2025      |
@@ -1074,6 +1084,8 @@ The most commonly used format codes:
 | `%Z` | Timezone name               | UTC       |
 | `%A` | Full weekday name           | Wednesday |
 | `%B` | Full month name             | June      |
+
+</div>
 
 ### `datetime.fromtimestamp()` and UTC
 

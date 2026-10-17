@@ -84,11 +84,15 @@ $$
 `std::async` [N4950 §33.6.8] launches an asynchronous task and returns a `std::future`. The launch
 Policy controls execution:
 
+<div class="table-wrap">
+
 | Policy                                                  | Behavior                                                       |
 | :------------------------------------------------------ | :------------------------------------------------------------- |
 | `std::launch::async`                                    | Runs on a new thread (or thread pool); guaranteed asynchronous |
 | `std::launch::deferred`                                 | Lazy, runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
+
+</div>
 
 :::caution
 Execution. This means the task might run synchronously on the calling thread when `get()` is called,
@@ -127,6 +131,8 @@ This is why C++20 coroutines are essential for real-world asynchronous programmi
 the composability that `std::future` lacks. Libraries like `cppcoro` (now archived) and the proposed
 `std::execution` (P2300) aim to bridge this gap.
 
+<div class="table-wrap">
+
 | Feature              | `std::future` (C++11) | `std::execution::sender` (P2300) | JavaScript `Promise`    |
 | :------------------- | :-------------------- | :------------------------------- | :---------------------- |
 | Chaining (`.then()`) | No                    | Yes (via `then`)                 | Yes                     |
@@ -134,6 +140,8 @@ the composability that `std::future` lacks. Libraries like `cppcoro` (now archiv
 | `co_await`           | No (without library)  | Yes (via `awaitable`)            | Yes (native)            |
 | Error handling       | Exception propagation | Via `set_error`                  | `.catch()`              |
 | Structured conc.     | No                    | Yes (`when_all``transfer`)       | `Promise.all()`         |
+
+</div>
 
 ## Complete Example: Async File Reading with Future/Promise
 
@@ -264,11 +272,15 @@ Cancellation.
 
 The key types [N4950 §33.5]:
 
+<div class="table-wrap">
+
 | Type                 | Role                                           |
 | :------------------- | :--------------------------------------------- |
 | `std::stop_token`    | Non-owning observer; checks `stop_requested()` |
 | `std::stop_source`   | Owner; calls `request_stop()` to signal        |
 | `std::stop_callback` | Registers a callback invoked on cancellation   |
+
+</div>
 
 To integrate cancellation with coroutines, the `stop_token` is passed as a parameter to The
 coroutine or stored in the promise type. The coroutine periodically checks `stop_requested()` at
@@ -558,6 +570,8 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 ## Summary
 
+<div class="table-wrap">
+
 | Concept                          | Standard Reference | Key Feature                                          |
 | :------------------------------- | :----------------- | :--------------------------------------------------- |
 | Coroutine definition             | [N4950 §8.5]       | Stackless, compiler-transformed into state machine   |
@@ -570,6 +584,8 @@ Manual `stop_token` integration as shown above is the recommended approach.
 | `std::async`                     | [N4950 §33.6.8]    | Launches async task; returns future                  |
 | `std::stop_token`                | [N4950 §33.5.1]    | Cooperative cancellation mechanism                   |
 | P2300 `std::execution`           | N4984 proposal     | Structured concurrency with senders/receivers        |
+
+</div>
 
 ## See Also
 

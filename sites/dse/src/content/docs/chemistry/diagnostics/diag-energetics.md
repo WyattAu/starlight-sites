@@ -22,11 +22,15 @@ tableOfContents: false
 
 Given the following standard enthalpy changes:
 
+<div class="table-wrap">
+
 | Reaction                                                   | $\Delta H$ (kJ/mol) |
 | ---------------------------------------------------------- | ------------------- |
 | $C(s) + O_{2}(g) \rightarrow CO_{2}(g)$                    | $-393.5$            |
 | $H_{2}(g) + \frac{1}{2}O_{2}(g) \rightarrow H_{2}O(l)$     | $-285.8$            |
 | $CH_{4}(g) + 2O_{2}(g) \rightarrow CO_{2}(g) + 2H_{2}O(l)$ | $-890.3$            |
+
+</div>
 
 (a) Using Hess's law, calculate the standard enthalpy of formation of methane,
 $\Delta H_{f}^{\circ}(CH_{4})$. [4 marks]

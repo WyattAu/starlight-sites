@@ -53,12 +53,16 @@ Stimulus --> Receptor --> Coordinator --> Effector --> Response
 
 **Examples of negative feedback in the body:**
 
+<div class="table-wrap">
+
 | Physiological Variable | Set Point (Approximate) | Receptor                                 | Coordinator                          | Effector                  | Response                                           |
 | ---------------------- | ----------------------- | ---------------------------------------- | ------------------------------------ | ------------------------- | -------------------------------------------------- |
 | Blood glucose          | 90 mg/100 cm$^3$        | Pancreas ($\beta$/$\alpha$ cells)        | Pancreas (hormonal)                  | Liver, muscles            | Glycogenesis/glycogenolysis                        |
 | Body temperature       | 37 degrees C            | Hypothalamus (thermoreceptors)           | Hypothalamus                         | Skin, blood vessels       | Sweating, vasodilation/shivering, vasoconstriction |
 | Blood water potential  | Normal osmolarity       | Hypothalamus (osmoreceptors)             | Hypothalamus --> posterior pituitary | Kidneys (collecting duct) | ADH release; water reabsorption                    |
 | Blood pH               | 7.35-7.45               | Chemoreceptors (aorta, carotid, medulla) | Medulla (breathing centre)           | Lungs, kidneys            | Changes in breathing rate; bicarbonate excretion   |
+
+</div>
 
 ### Positive Feedback
 
@@ -68,11 +72,15 @@ is completed.
 
 **Examples of positive feedback:**
 
+<div class="table-wrap">
+
 | Process                  | Mechanism                                                                                                                                                                                                                                                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ovulation                | Rising oestrogen levels stimulate LH release (positive feedback); the LH surge triggers ovulation. After ovulation, the positive feedback loop ends.                                                                                                                                                                   |
 | Blood clotting           | When a vessel is damaged, clotting factors are activated in a cascade; each step activates more factors, amplifying the response until a clot forms.                                                                                                                                                                   |
 | Childbirth (parturition) | The baby"s head pushes against the cervix, stimulating stretch receptors. Impulses cause the posterior pituitary to release oxytocin, which causes stronger uterine contractions. Stronger contractions push the baby further against the cervix, stimulating more oxytocin release. This cycle continues until birth. |
+
+</div>
 
 :::caution
 requires knowledge of positive feedback examples (ovulation and childbirth are the most commonly
@@ -81,6 +89,8 @@ does NOT maintain a constant internal environment.
 
 ### Components of a Homeostatic Control System
 
+<div class="table-wrap">
+
 | Component   | Role                                                                                          | Example                                                                              |
 | ----------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Receptor    | Detects changes in the internal environment (stimuli)                                         | Thermoreceptors in the hypothalamus and skin detect temperature changes              |
@@ -88,6 +98,8 @@ does NOT maintain a constant internal environment.
 | Effector    | Carries out the response that restores the variable to its set point                          | Sweat glands secrete sweat; blood vessels dilate or constrict; muscles shiver        |
 | Set point   | The normal value or range of the physiological variable                                       | Body temperature: 37 degrees C; blood glucose: approximately 90 mg/100 cm$^3$        |
 | Feedback    | The output of the effector is monitored by the receptor, allowing the system to self-regulate | As body temperature falls back to normal, thermoreceptors reduce their firing rate   |
+
+</div>
 
 ---
 
@@ -146,11 +158,15 @@ and glucagon.
 The liver is the central organ in blood glucose homeostasis. It acts as a "glucose buffer," removing
 glucose from the blood when levels are high and releasing glucose when levels are low.
 
+<div class="table-wrap">
+
 | Process         | Trigger            | Description                                                                                          | Direction            |
 | --------------- | ------------------ | ---------------------------------------------------------------------------------------------------- | -------------------- |
 | Glycogenesis    | High blood glucose | Conversion of glucose to glycogen for storage                                                        | Stores glucose       |
 | Glycogenolysis  | Low blood glucose  | Breakdown of glycogen to glucose-6-phosphate, then to free glucose (liver has glucose-6-phosphatase) | Releases glucose     |
 | Gluconeogenesis | Low blood glucose  | Synthesis of glucose from non-carbohydrate sources (lactate, amino acids, glycerol)                  | Produces new glucose |
+
+</div>
 
 **Critical distinction -- liver vs muscle:**
 
@@ -202,6 +218,8 @@ degrees C) and initiates corrective responses when the temperature deviates.
 
 When the body temperature rises above the set point:
 
+<div class="table-wrap">
+
 | Response                 | Mechanism                                                                                                                                                                                                                |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Vasodilation             | Arterioles supplying the skin dilate, increasing blood flow to the skin surface. More heat is lost by radiation from the blood to the environment.                                                                       |
@@ -210,9 +228,13 @@ When the body temperature rises above the set point:
 | Behavioural changes      | Removing clothing; seeking shade; drinking cold fluids                                                                                                                                                                   |
 | Decreased metabolic rate | Cells reduce their rate of respiration, producing less heat as a by-product                                                                                                                                              |
 
+</div>
+
 ### Response to Cold (Warming Mechanisms)
 
 When the body temperature falls below the set point:
+
+<div class="table-wrap">
 
 | Response                  | Mechanism                                                                                                                                                                                                       |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -222,6 +244,8 @@ When the body temperature falls below the set point:
 | Increased metabolic rate  | Thyroid gland releases more thyroxine, increasing the basal metabolic rate of cells. Cells respire more, producing more heat. Adrenaline also increases metabolic rate.                                         |
 | Behavioural changes       | Putting on warm clothing; curling up to reduce surface area; seeking shelter; drinking hot drinks                                                                                                               |
 | Brown fat metabolism      | Brown adipose tissue (especially in newborns) contains many mitochondria that can uncouple respiration from ATP production, releasing energy directly as heat (non-shivering thermogenesis).                    |
+
+</div>
 
 ### Worked Example: Thermoregulation Calculation
 
@@ -301,6 +325,8 @@ produce a small volume of concentrated urine to conserve water. If blood water p
 The nephron is the functional unit of the kidney. Each kidney contains approximately one million
 nephrons.
 
+<div class="table-wrap">
+
 | Region                           | Function                                                                                                                                                                                                                                 |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Renal (Bowman's) capsule         | Ultrafiltration: high blood pressure in the glomerulus forces small molecules (water, glucose, urea, ions) out of the blood into the capsule                                                                                             |
@@ -308,6 +334,8 @@ nephrons.
 | Loop of Henle                    | Creates a concentration gradient in the medulla via the counter-current multiplier. Descending limb: permeable to water (water out). Ascending limb: actively transports $\mathrm{Na}^+$ and $\mathrm{Cl}^-$ out (impermeable to water). |
 | Distal convoluted tubule (DCT)   | Fine-tuning of water and ion balance; regulated by aldosterone ($\mathrm{Na}^+$ reabsorption)                                                                                                                                            |
 | Collecting duct                  | Regulated by ADH: water reabsorption depends on ADH level; permeability controlled by aquaporin channels                                                                                                                                 |
+
+</div>
 
 ### The Counter-Current Multiplier
 
@@ -412,6 +440,8 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
 
 ### Type 1 Diabetes
 
+<div class="table-wrap">
+
 | Feature   | Detail                                                                                                                                                                          |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cause     | Autoimmune destruction of $\beta$ cells in the islets of Langerhans                                                                                                             |
@@ -420,7 +450,11 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
 | Treatment | Insulin injections (lifelong); blood glucose monitoring; dietary management                                                                                                     |
 | Mechanism | Without insulin, cells cannot take up glucose; blood glucose rises; glucose appears in urine (glycosuria) when it exceeds the renal threshold (approximately 180 mg/100 cm$^3$) |
 
+</div>
+
 ### Type 2 Diabetes
+
+<div class="table-wrap">
 
 | Feature      | Detail                                                                                                                                                                                     |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -430,7 +464,11 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
 | Treatment    | Lifestyle changes (diet, exercise); oral medication (e.g., metformin, which increases insulin sensitivity and reduces hepatic glucose production); insulin may be needed in advanced cases |
 | Risk factors | Obesity, sedentary lifestyle, family history, high-calorie diet, ageing                                                                                                                    |
 
+</div>
+
 ### Symptoms of Diabetes
+
+<div class="table-wrap">
 
 | Symptom                             | Mechanism                                                                                                                              |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -443,7 +481,11 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
 | Blurred vision                      | High blood glucose causes osmotic changes in the lens of the eye                                                                       |
 | Slow wound healing                  | High glucose impairs immune function and circulation                                                                                   |
 
+</div>
+
 ### Long-Term Complications of Diabetes
+
+<div class="table-wrap">
 
 | Complication                | Mechanism                                                                                                                 |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -452,6 +494,8 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
 | Nerve damage (neuropathy)   | High glucose damages peripheral nerves, causing numbness, tingling, and pain, especially in the extremities               |
 | Retinopathy                 | Damage to blood vessels in the retina; can cause blindness                                                                |
 | Foot ulcers and amputation  | Reduced sensation (neuropathy) and poor circulation lead to undetected injuries and poor healing                          |
+
+</div>
 
 ### Worked Example: Diabetes and Kidney Function
 
@@ -609,6 +653,8 @@ If you get this wrong, revise: Diabetes Mellitus -- Type 1 Diabetes; Type 2 Diab
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Feature   | Type 1 Diabetes                                                             | Type 2 Diabetes                                                                        |
 | --------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Cause     | Autoimmune destruction of $\beta$ cells                                     | Insulin resistance (reduced receptor sensitivity); genetic and lifestyle factors       |
@@ -616,6 +662,8 @@ If you get this wrong, revise: Diabetes Mellitus -- Type 1 Diabetes; Type 2 Diab
 | Onset     | childhood/adolescence                                                       | adulthood (but increasingly in younger people)                                         |
 | Treatment | Insulin injections (lifelong)                                               | Diet, exercise, oral medication; insulin in advanced cases                             |
 | Mechanism | No insulin means cells cannot take up glucose; glucose accumulates in blood | Cells become resistant to insulin; glucose uptake is impaired despite insulin presence |
+
+</div>
 
 In both types, blood glucose rises because glucose cannot enter cells efficiently. Excess glucose is
 excreted in the urine (glycosuria), causing water loss (polyuria) and thirst (polydipsia). Long-term
@@ -627,6 +675,8 @@ hyperglycaemia damaging blood vessels and tissues.
 Gestational diabetes mellitus (GDM) is a form of diabetes that develops during pregnancy and
 resolves after childbirth.
 
+<div class="table-wrap">
+
 | Feature         | Detail                                                                                                                                                                                   |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cause           | Placental hormones (human placental lactogen, progesterone, cortisol) cause insulin resistance in maternal tissues; the pancreas may not produce enough additional insulin to compensate |
@@ -635,6 +685,8 @@ resolves after childbirth.
 | Risks to mother | Increased risk of pre-eclampsia; increased risk of developing Type 2 diabetes later in life                                                                                              |
 | Risks to foetus | Macrosomia (excessive birth weight); hypoglycaemia after birth; respiratory distress syndrome; increased risk of obesity and Type 2 diabetes in adulthood                                |
 | Management      | Dietary control; exercise; blood glucose monitoring; insulin if needed (oral hypoglycaemics are generally avoided in pregnancy)                                                          |
+
+</div>
 
 ---
 
@@ -653,6 +705,8 @@ resolves after childbirth.
 
 **Hyperthyroidism (overactive thyroid):**
 
+<div class="table-wrap">
+
 | Feature   | Detail                                                                                                                                                                             |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cause     | Graves' disease (autoimmune); thyroid nodule; excessive TSH                                                                                                                        |
@@ -660,7 +714,11 @@ resolves after childbirth.
 | Symptoms  | Increased BMR; weight loss despite increased appetite; rapid heart rate (tachycardia); anxiety; tremor; heat intolerance; sweating; exophthalmos (bulging eyes in Graves' disease) |
 | Treatment | Anti-thyroid drugs (e.g., carbimazole); radioactive iodine; surgical removal of part or all of the thyroid                                                                         |
 
+</div>
+
 **Hypothyroidism (underactive thyroid):**
+
+<div class="table-wrap">
 
 | Feature   | Detail                                                                                                                                               |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -668,6 +726,8 @@ resolves after childbirth.
 | Hormone   | Insufficient thyroxine ($\mathrm{T}_4$) and triiodothyronine ($\mathrm{T}_3$)                                                                        |
 | Symptoms  | Decreased BMR; weight gain; fatigue; cold intolerance; dry skin; slow heart rate (bradycardia); depression; myxoedema (swelling of skin and tissues) |
 | Treatment | Thyroxine replacement therapy (daily levothyroxine tablets)                                                                                          |
+
+</div>
 
 ### Adrenal Disorders
 
@@ -749,6 +809,8 @@ bradycardia.
 Ectotherms (reptiles, amphibians, fish, invertebrates) rely primarily on behavioural and
 physiological mechanisms rather than metabolic heat production to regulate their body temperature.
 
+<div class="table-wrap">
+
 | Mechanism                    | Description                                                                                        | Example                                                            |
 | ---------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Basking                      | Moving to a warm area and exposing the body surface to direct sunlight                             | Lizards on rocks; snakes in sunlight                               |
@@ -759,10 +821,14 @@ physiological mechanisms rather than metabolic heat production to regulate their
 | Adjusting heart rate         | Increasing heart rate to deliver more blood to the body surface for heat loss                      | Lizards in sun increase heart rate                                 |
 | Changing colour              | Some reptiles can darken their skin to absorb more heat                                            | Bearded dragons darken when cold                                   |
 
+</div>
+
 ### Temperature Regulation in Endotherms
 
 Birds and mammals generate heat internally through metabolism and use insulation and behavioural
 mechanisms to maintain body temperature.
+
+<div class="table-wrap">
 
 | Mechanism                   | Description                                                                                                                                       | Example                                    |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -775,10 +841,14 @@ mechanisms to maintain body temperature.
 | Nest building               | Constructing insulated structures to reduce heat loss                                                                                             | Birds building insulated nests             |
 | Countercurrent exchange     | Arterial blood flowing to limbs passes close to venous blood returning from limbs, allowing heat exchange between them                            | Dolphin flukes; wolf paws                  |
 
+</div>
+
 ### Hibernation and Aestivation
 
 **Hibernation:** A state of reduced metabolic rate and body temperature during winter, allowing
 animals to survive when food is scarce.
+
+<div class="table-wrap">
 
 | Feature                | Description                                                                                                                  |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -789,10 +859,14 @@ animals to survive when food is scarce.
 | Periodic arousal       | Animals periodically wake up to urinate, feed briefly, and restore normal body temperature                                   |
 | Animals that hibernate | Bats, hedgehogs, marmots, ground squirrels, dormice, bears (shallow hibernation)                                             |
 
+</div>
+
 **Aestivation:** A similar state of reduced metabolic rate during summer, triggered by heat and
 drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 
 ### Adaptations of Arctic Animals
+
+<div class="table-wrap">
 
 | Adaptation                    | Mechanism for Heat Conservation                                                                                                                                                      |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -801,6 +875,8 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 | Small ears and tail           | Reduced surface area to volume ratio minimises heat loss                                                                                                                             |
 | Counter-current heat exchange | Arterioles in legs are wrapped by veins, allowing heat exchange; warm arterial blood transfers heat to returning venous blood near the body, minimising heat loss at the extremities |
 | Behavioural adaptations       | Huddling; building snow dens; reducing activity; sheltering from wind                                                                                                                |
+
+</div>
 
 ---
 
@@ -820,6 +896,8 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 Ectotherms (reptiles, amphibians, fish, invertebrates) rely primarily on behavioural and
 physiological mechanisms to regulate their body temperature rather than metabolic heat production.
 
+<div class="table-wrap">
+
 | Mechanism               | Description                                                                                        | Example                                   |
 | ----------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | Basking                 | Moving to a warm area and exposing the body surface to direct sunlight                             | Lizards on rocks; snakes in sunlight      |
@@ -829,7 +907,11 @@ physiological mechanisms to regulate their body temperature rather than metaboli
 | Altering body shape     | Flattening the body to increase surface area for heat loss or reducing it to conserve heat         | Horned vipers flatten to absorb more heat |
 | Adjusting heart rate    | Increasing heart rate to deliver more blood to the body surface for heat loss                      | Lizards in sun increase heart rate        |
 
+</div>
+
 ### Temperature Regulation in Endotherms
+
+<div class="table-wrap">
 
 | Mechanism                   | Description                                                                                                                                       | Example                                    |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -840,9 +922,13 @@ physiological mechanisms to regulate their body temperature rather than metaboli
 | Insulation (fur/blubber)    | Trapped air in fur or fat provides effective insulation against heat loss                                                                         | Arctic mammals have thick blubber layers   |
 | Huddling                    | Group behaviour to reduce surface area to volume ratio; reduces heat loss per individual                                                          | Penguins in the Antarctic; macaques        |
 
+</div>
+
 ### Hibernation and Aestivation
 
 **Hibernation:** A state of reduced metabolic rate and body temperature during winter.
+
+<div class="table-wrap">
 
 | Feature                | Description                                                                                 |
 | ---------------------- | ------------------------------------------------------------------------------------------- |
@@ -853,10 +939,14 @@ physiological mechanisms to regulate their body temperature rather than metaboli
 | Periodic arousal       | Animals periodically wake to urinate, feed briefly, and restore normal body temperature     |
 | Animals that hibernate | Bats, hedgehogs, marmots, ground squirrels, dormice, bears (shallow hibernation)            |
 
+</div>
+
 **Aestivation:** Similar state of reduced metabolic rate during summer, triggered by heat and
 drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 
 ### Adaptations of Arctic Animals
+
+<div class="table-wrap">
 
 | Adaptation               | Mechanism for Heat Conservation                                                                                                                                           |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -865,6 +955,8 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 | Small ears and tail      | Reduced surface area to volume ratio minimises heat loss                                                                                                                  |
 | Counter-current exchange | Arterioles in legs wrapped by veins allows heat exchange; warm arterial blood transfers heat to returning venous blood near the body, minimising heat loss at extremities |
 | Behavioural adaptations  | Huddling; building snow dens; reducing activity; sheltering from wind                                                                                                     |
+
+</div>
 
 ---
 
@@ -881,6 +973,8 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 
 ### Structure of the Nephron
 
+<div class="table-wrap">
+
 | Component                        | Location in Kidney                                                               | Description                                                                                                                                                     |
 | -------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Renal (Bowman's) capsule         | Cortex                                                                           | Cup-shaped structure that surrounds the glomerulus; consists of an outer parietal layer (simple squamous epithelium) and an inner visceral layer (podocytes)    |
@@ -892,12 +986,16 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 | Peritubular capillaries          | Surround the PCT and DCT; arise from the efferent arteriole                      | Reabsorb water, glucose, amino acids, and ions from the tubules back into the blood; secrete waste products into the tubules                                    |
 | Vasa recta                       | Hairpin-shaped capillaries that run alongside the loop of Henle                  | Maintain the medullary concentration gradient by counter-current exchange                                                                                       |
 
+</div>
+
 ### Ultrafiltration
 
 Ultrafiltration is the process by which blood is filtered in the glomerulus to form the glomerular
 filtrate (a protein-free, cell-free fluid similar to blood plasma).
 
 **Conditions for ultrafiltration:**
+
+<div class="table-wrap">
 
 | Condition               | Description                                                                                                                                                                          |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -906,11 +1004,15 @@ filtrate (a protein-free, cell-free fluid similar to blood plasma).
 | Basement membrane       | A thick, negatively charged glycoprotein layer between the endothelium and the podocytes; acts as an additional filter; repels large proteins (which are negatively charged)         |
 | Podocytes               | Specialised epithelial cells of the renal capsule with foot processes (pedicels) that wrap around the capillaries; filtration slits between the foot processes act as a final filter |
 
+</div>
+
 **What is filtered?** Water, glucose, amino acids, urea, ions (Na$^+$K$^+$Cl$^-$Ca$^{2+}$HCO$_3^-$),
 vitamins -- everything in blood plasma EXCEPT large proteins (e.g., albumin, globulins) and blood
 cells.
 
 ### Selective Reabsorption
+
+<div class="table-wrap">
 
 | Substance                | PCT Reabsorption (approximate %) | Mechanism                                                                                                                                                        |
 | ------------------------ | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -922,6 +1024,8 @@ cells.
 | Calcium ions (Ca$^{2+}$) | ~65%                             | Active transport (regulated by parathyroid hormone)                                                                                                              |
 | Bicarbonate (HCO$_3^-$)  | ~85%                             | Reabsorbed as CO$_2$ (converted to H$_2$CO$_3$ then CO$_2$ and H$_2$O inside the cell; CO$_2$ diffuses across and is reconverted to HCO$_3^-$ on the other side) |
 | Urea                     | ~50%                             | Passive diffusion (reabsorbed along with water)                                                                                                                  |
+
+</div>
 
 ### The Countercurrent Multiplier
 
@@ -959,15 +1063,21 @@ medulla:
 
 ### Skin Structure
 
+<div class="table-wrap">
+
 | Layer      | Components                                                                                                                                                                                                 | Functions                                                                                                                                                                                    |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Epidermis  | Keratinocytes (produce keratin for water.../1-number-and-algebra/3_proof-and-logicing); melanocytes (produce melanin for UV protection); Langerhans cells (immune defence); Merkel cells (touch receptors) | Water.../1-number-and-algebra/3_proof-and-logic barrier; protection against pathogens and UV radiation; vitamin D synthesis (7-dehydrocholesterol $\rightarrow$ cholecalciferol by UV light) |
 | Dermis     | Blood vessels; nerves; hair follicles; sebaceous glands; sweat glands (eccrine and apocrine); sensory receptors (Meissner's corpuscles, Pacinian corpuscles)                                               | Nourishment; sensation; thermoregulation; lubrication of hair and skin; structural support (collagen and elastin fibres)                                                                     |
 | Hypodermis | Adipose tissue (fat); connective tissue                                                                                                                                                                    | Insulation; energy storage; cushioning                                                                                                                                                       |
 
+</div>
+
 ### Thermoregulation Pathways
 
 **When body temperature RISES (e.g., during exercise, in hot weather):**
+
+<div class="table-wrap">
 
 | Response                 | Mechanism                                                                                                                                                                                                                                        |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -976,7 +1086,11 @@ medulla:
 | Decreased metabolic rate | Cells reduce their rate of respiration, producing less heat as a by-product                                                                                                                                                                      |
 | Behavioural responses    | Removing clothing; seeking shade; drinking cold fluids; fanning                                                                                                                                                                                  |
 
+</div>
+
 **When body temperature FALLS (e.g., in cold weather):**
+
+<div class="table-wrap">
 
 | Response                 | Mechanism                                                                                                                                                                                                         |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -985,6 +1099,8 @@ medulla:
 | Piloerection             | Hair erector muscles contract; hairs stand upright, trapping a layer of still air next to the skin (insulating layer); effective in furry animals but limited effect in humans (goosebumps)                       |
 | Increased metabolic rate | Cells increase their rate of respiration; thyroid hormones (T3, T4) stimulate basal metabolic rate; brown adipose tissue (in newborns and hibernating mammals) generates heat through non-shivering thermogenesis |
 | Behavioural responses    | Adding clothing; seeking shelter; curling up (reducing surface area to volume ratio); huddling                                                                                                                    |
+
+</div>
 
 ### Negative Feedback in Thermoregulation
 
@@ -1058,6 +1174,8 @@ and death.
 
 ### Haemodialysis
 
+<div class="table-wrap">
+
 | Feature                    | Description                                                                                                                                                                                                                                       |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Principle                  | Blood is pumped out of the body, passed through a dialyser (artificial kidney), and returned. Waste products diffuse from the blood across a partially permeable membrane into the dialysis fluid                                                 |
@@ -1068,7 +1186,11 @@ and death.
 | Access                     | An arteriovenous fistula (surgical connection between an artery and vein) provides a high-flow blood vessel for repeated needle insertion                                                                                                         |
 | Anticoagulant              | Heparin is added to prevent blood clotting in the dialyser                                                                                                                                                                                        |
 
+</div>
+
 ### Peritoneal Dialysis
+
+<div class="table-wrap">
 
 | Feature       | Description                                                                                                                                                                                                                                           |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1078,7 +1200,11 @@ and death.
 | Advantages    | Can be performed at home; no need for a machine (CAPD); more gentle on the body; preserves remaining kidney function better                                                                                                                           |
 | Disadvantages | Risk of peritonitis (infection of the abdominal cavity); less efficient than haemodialysis for large patients or those with high urea levels                                                                                                          |
 
+</div>
+
 ### Haemodialysis vs Peritoneal Dialysis
+
+<div class="table-wrap">
 
 | Aspect            | Haemodialysis                        | Peritoneal Dialysis                          |
 | ----------------- | ------------------------------------ | -------------------------------------------- |
@@ -1089,6 +1215,8 @@ and death.
 | Infection risk    | Low (sterile procedure)              | Higher (peritonitis risk)                    |
 | Diet restrictions | Strict (fluid, potassium, phosphate) | Less strict                                  |
 | Suitable for      | Most patients; acute renal failure   | Patients who prefer home treatment; children |
+
+</div>
 
 ### Kidney Transplant
 
@@ -1153,11 +1281,15 @@ and death.
 
 ### ADH Levels and Urine Output
 
+<div class="table-wrap">
+
 | Condition        | Blood Osmolarity | ADH Level | Aquaporin Channels | Water Reabsorption | Urine Volume | Urine Concentration |
 | ---------------- | ---------------- | --------- | ------------------ | ------------------ | ------------ | ------------------- |
 | Dehydrated       | High             | High      | Many inserted      | High               | Low          | High (concentrated) |
 | Normal hydration | Normal           | Normal    | Moderate           | Moderate           | Normal       | Normal              |
 | Over-hydrated    | Low              | Low       | Few                | Low                | High         | Low (dilute)        |
+
+</div>
 
 ### Diabetes Insipidus
 
@@ -1188,12 +1320,18 @@ and death.
 
 The pancreas has both exocrine and endocrine functions:
 
+<div class="table-wrap">
+
 | Function  | Description                                                                                                                               |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Exocrine  | Acinar cells produce digestive enzymes (amylase, lipase, trypsinogen) and bicarbonate, secreted into the duodenum via the pancreatic duct |
 | Endocrine | Islets of Langerhans produce hormones released into the blood: $\alpha$ cells produce **glucagon**; $\beta$ cells produce **insulin**     |
 
+</div>
+
 ### Insulin and Glucagon Actions
+
+<div class="table-wrap">
 
 | Aspect                  | Insulin ($\beta$ cells)                                                                                                                | Glucagon ($\alpha$ cells)                                                                      |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1206,13 +1344,19 @@ The pancreas has both exocrine and endocrine functions:
 |                         | -- Inhibits gluconeogenesis and glycogenolysis in the liver                                                                            | -- Increases blood glucose                                                                     |
 |                         | -- Increases rate of glucose uptake and use by cells (increases respiration rate)                                                      |                                                                                                |
 
+</div>
+
 ### Glycogenesis, Glycogenolysis, and Gluconeogenesis
+
+<div class="table-wrap">
 
 | Process         | Meaning                   | Direction                                 | Stimulated By | Inhibited By |
 | --------------- | ------------------------- | ----------------------------------------- | ------------- | ------------ |
 | Glycogenesis    | Glycogen **formation**    | Glucose $\rightarrow$ Glycogen            | Insulin       | Glucagon     |
 | Glycogenolysis  | Glycogen **breakdown**    | Glycogen $\rightarrow$ Glucose            | Glucagon      | Insulin      |
 | Gluconeogenesis | New glucose **synthesis** | Amino acids/lactate $\rightarrow$ Glucose | Glucagon      | Insulin      |
+
+</div>
 
 ### Adrenaline and Blood Glucose
 

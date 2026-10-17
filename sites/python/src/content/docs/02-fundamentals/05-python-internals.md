@@ -436,6 +436,8 @@ Key attributes:
 
 ### Common Bytecode Instructions
 
+<div class="table-wrap">
+
 | Instruction                | Stack Effect                         | Description                            |
 | -------------------------- | ------------------------------------ | -------------------------------------- |
 | `LOAD_FAST name`           | push local                           | Load local variable onto stack         |
@@ -453,6 +455,8 @@ Key attributes:
 | `BUILD_LIST size`          | pop size items, push list            | Build a list from stack items          |
 | `GET_ITER`                 | pop iterable, push iterator          | Get iterator from iterable             |
 | `FOR_ITER target`          | push next or jump                    | Iterator loop                          |
+
+</div>
 
 ### Reading Bytecode for Optimization
 

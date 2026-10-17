@@ -34,6 +34,8 @@ the role of peer review.
 
 ### Experimental Methods
 
+<div class="table-wrap">
+
 | Feature                | Laboratory | Field   | Natural | Quasi             |
 | ---------------------- | ---------- | ------- | ------- | ----------------- |
 | IV manipulated?        | Yes        | Yes     | No      | No (pre-existing) |
@@ -41,6 +43,8 @@ the role of peer review.
 | Control                | High       | Low     | Low     | Variable          |
 | Ecological validity    | Low        | Higher  | Higher  | Variable          |
 | Demand characteristics | High risk  | Lower   | Low     | Variable          |
+
+</div>
 
 **Laboratory experiments** take place in a controlled environment where the researcher manipulates
 the independent variable (IV) while controlling extraneous variables. They allow precise measurement
@@ -69,6 +73,8 @@ impossible. The IV is not manipulated by the researcher.
 
 ### Sampling Methods
 
+<div class="table-wrap">
+
 | Method                    | Description                                                               | Strength                                   | Limitation                                                                    |
 | ------------------------- | ------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------- |
 | Random                    | Every member of the target population has an equal chance of selection    | Unbiased, representative                   | Difficult to obtain a full list; may still produce an unrepresentative sample |
@@ -76,6 +82,8 @@ impossible. The IV is not manipulated by the researcher.
 | Stratified                | Population divided into subgroups; proportional random sampling from each | Highly representative                      | Time-consuming; must know population proportions                              |
 | Opportunity               | Selecting whoever is available at the time                                | Quick, convenient                          | Biased towards certain types of people (e.g., students)                       |
 | Volunteer (self-selected) | Participants put themselves forward (e.g., advert)                        | Willing participants; less ethical concern | Volunteer bias, certain personality types more likely to volunteer           |
+
+</div>
 
 ### Ethics
 
@@ -119,6 +127,8 @@ The choice of statistical test depends on three factors:
 2. **Level of data:** Nominal, ordinal, or interval/ratio
 3. **Design:** Related (repeated measures / matched pairs) or unrelated (independent groups)
 
+<div class="table-wrap">
+
 | Test             | Purpose                  | Data Level | Design    |
 | ---------------- | ------------------------ | ---------- | --------- |
 | Sign test        | Difference               | Nominal    | Related   |
@@ -129,6 +139,8 @@ The choice of statistical test depends on three factors:
 | Chi-squared      | Difference / association | Nominal    | Unrelated |
 | Spearman's rho   | Correlation              | Ordinal    |,         |
 | Pearson's r      | Correlation              | Interval   |,         |
+
+</div>
 
 **Significance:** If the calculated value is equal to or more extreme than the critical value (at p
 ≤ 0.05), the result is statistically significant and the null hypothesis can be rejected. The 0.05
@@ -221,13 +233,19 @@ process; reviewer bias (institutional loyalty, gender bias).
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                          | Researcher(s) | Year | Method                         | Key Findings                                                                         | Evaluation                                                                       |
 | ------------------------------ | ------------- | ---- | ------------------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | On being sane in insane places | Rosenhan      | 1973 | Covert participant observation | Pseudopatients were not detected by staff; labels persisted despite normal behaviour | High ecological validity; ethical concerns (deception); limited generalisability |
 | The halo effect                | Thorndike     | 1920 | Correlational study            | Ratings of one positive trait correlated with ratings of unrelated traits            | Demonstrated cognitive bias; correlational, no causation                        |
 | Strange Situation              | Ainsworth     | 1978 | Controlled observation         | Identified three attachment types (secure, insecure-avoidant, insecure-resistant)    | High reliability; culturally biased; limited ecological validity                 |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                       | Definition                                                                                   |
 | -------------------------- | -------------------------------------------------------------------------------------------- |
@@ -252,6 +270,8 @@ process; reviewer bias (institutional loyalty, gender bias).
 | Ordinal data               | Data that can be ordered but intervals are not equal (e.g., rankings)                        |
 | Interval data              | Continuous data with equal intervals and a meaningful zero may not exist (e.g., temperature) |
 | Meta-analysis              | A statistical technique combining results from multiple studies                              |
+
+</div>
 
 ## Evaluation Points
 

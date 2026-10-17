@@ -166,12 +166,16 @@ Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbo
 
 ### 2.4 Competition: S$_\text{N}$2 vs E2 vs S$\_\text{N}$1 vs E1
 
+<div class="table-wrap">
+
 | Factor           | S$\_\text{N}$2     | E2                  | S$\_\text{N}$1   | E1            |
 | ---------------- | ------------------ | ------------------- | ---------------- | ------------- |
 | Substrate        | 1°, CH$_3$         | 3°, 2° (bulky base) | 3°, 2°           | 3°, 2°        |
 | Base/Nucleophile | Strong nucleophile | Strong, bulky base  | Weak nucleophile | Weak base     |
 | Solvent          | Polar aprotic      | Both                | Polar protic     | Polar protic  |
 | Stereochemistry  | Inversion          | Anti-periplanar     | Racemization     | Often Zaitsev |
+
+</div>
 
 ## 3. Addition Reactions
 
@@ -280,10 +284,14 @@ pathway. The rule depends on:
 
 **Electrocyclic reactions:**
 
+<div class="table-wrap">
+
 | $\pi$ Electrons | Thermal     | Photochemical |
 | --------------- | ----------- | ------------- |
 | $4n$            | Conrotatory | Disrotatory   |
 | $4n + 2$        | Disrotatory | Conrotatory   |
+
+</div>
 
 ### 5.3 Diels-Alder Reaction
 
@@ -348,6 +356,8 @@ $$
 
 ### 6.2 Activating and Deactivating Groups
 
+<div class="table-wrap">
+
 | Group Type           | Effect | Directing  | Examples                     |
 | -------------------- | ------ | ---------- | ---------------------------- |
 | Strong activator     | +      | ortho/para | $-$ OH, $-$ NH$_2$, $-$ OCH$_3$ |
@@ -355,6 +365,8 @@ $$
 | Weak activator       | +      | ortho/para | $-$ F, $-$ Cl, $-$ Br, $-$ I     |
 | Moderate deactivator | -      | meta       | $-$ NO$_2$, $-$ CN, $-$ SO$_3$H |
 | Strong deactivator   | -      | meta       | $-$ NR$_3^+$, $-$ CF$_3$       |
+
+</div>
 
 ### 6.3 Examples of Electrophilic Aromatic Substitution
 
@@ -392,12 +404,16 @@ No regioselectivity; products are in most cases mixtures.
 
 ## 8. Reaction Intermediates Summary
 
+<div class="table-wrap">
+
 | Intermediate | Hybridization | Geometry        | Stability Factors           |
 | ------------ | ------------- | --------------- | --------------------------- |
 | Carbocation  | sp$^2$        | Trigonal planar | Alkyl groups, resonance     |
 | Carbanion    | sp$^3$        | Pyramidal       | Inductive, resonance        |
 | Radical      | sp$^2$        | Trigonal planar | Resonance, hyperconjugation |
 | Carbene      | sp$^2$        | Trigonal planar | Singlet vs triplet          |
+
+</div>
 
 ## Common Pitfalls
 
@@ -471,12 +487,16 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
 | Structure and Bonding        | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)                |
 | Synthesis                    | WyattsNotes | [View](/2-organic-chemistry/synthesis/)                            |
 | Spectroscopy                 | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                         |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
+
+</div>
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

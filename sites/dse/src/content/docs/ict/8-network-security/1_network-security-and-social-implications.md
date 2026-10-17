@@ -44,6 +44,8 @@ considerations.
 Malware (malicious software) is software designed to damage, disrupt, or gain unauthorised access to
 A computer system.
 
+<div class="table-wrap">
+
 | Type           | Self-replicating | Requires Host | Primary Purpose                                          |
 | -------------- | ---------------- | ------------- | -------------------------------------------------------- |
 | Virus          | Yes              | Yes           | Corrupt or modify files, spread to other files           |
@@ -56,11 +58,15 @@ A computer system.
 | Keylogger      | No               | Yes           | Record keystrokes to capture passwords and personal data |
 | Botnet malware | No               | Yes           | Enrol the device in a botnet for DDoS or spam            |
 
+</div>
+
 **Virus vs Worm -- the critical distinction:**
 
 A virus attaches itself to a legitimate file and requires user action (opening a file, running a
 Program, booting from an infected disk) to execute and spread. A worm is a standalone program that
 Self-replicates over network connections without requiring any user action or host file.
+
+<div class="table-wrap">
 
 | Aspect      | Virus                 | Worm                     |
 | ----------- | --------------------- | ------------------------ |
@@ -70,10 +76,14 @@ Self-replicates over network connections without requiring any user action or ho
 | Speed       | Slower                | Can spread rapidly       |
 | Detection   | File integrity checks | Network traffic analysis |
 
+</div>
+
 ### Phishing and Social Engineering
 
 **Phishing** is a type of social engineering attack that uses fraudulent communications ( Email) to
 trick victims into revealing sensitive information or installing malware.
+
+<div class="table-wrap">
 
 | Phishing Type  | Description                                           | Target          |
 | -------------- | ----------------------------------------------------- | --------------- |
@@ -82,6 +92,8 @@ trick victims into revealing sensitive information or installing malware.
 | Whaling        | Spear phishing targeting senior executives (CEO, CFO) | C-level execs   |
 | Smishing       | Phishing via SMS/text messages                        | Mobile users    |
 | Vishing        | Phishing via voice calls (often using VoIP)           | Phone users     |
+
+</div>
 
 **Common social engineering techniques:**
 
@@ -102,6 +114,8 @@ trick victims into revealing sensitive information or installing malware.
 A DoS attack overwhelms a target system with traffic or requests, making it unavailable to
 Legitimate users.
 
+<div class="table-wrap">
+
 | Attack Type       | Description                                                         |
 | ----------------- | ------------------------------------------------------------------- |
 | **DoS**           | Single source floods the target with traffic                        |
@@ -110,7 +124,11 @@ Legitimate users.
 | **UDP flood**     | Sends massive UDP packets to random ports, consuming resources      |
 | **Amplification** | Uses third-party servers to amplify attack traffic (e.g., DNS, NTP) |
 
+</div>
+
 ### Other Attack Vectors
+
+<div class="table-wrap">
 
 | Attack                         | Description                                                                    |
 | ------------------------------ | ------------------------------------------------------------------------------ |
@@ -119,6 +137,8 @@ Legitimate users.
 | **Cross-site scripting (XSS)** | Injects malicious scripts into web pages viewed by other users                 |
 | **Brute force**                | Systematically tries all possible passwords until one works                    |
 | **Dictionary attack**          | Tries passwords from a precompiled list of common passwords                    |
+
+</div>
 
 ---
 
@@ -138,6 +158,8 @@ Legitimate users.
 Basic firewall concepts are in
 [../4-networking-and-internet/1_internet-and-data-communications](/ict/4-networking-and-internet/1_internet-and-data-communications/).
 
+<div class="table-wrap">
+
 | Type                          | OSI Layer  | Method                                                           | Speed    | Thoroughness |
 | ----------------------------- | ---------- | ---------------------------------------------------------------- | -------- | ------------ |
 | **Packet filtering**          | Layer 3    | Examines source/dest IP, port, protocol                          | Fast     | Low          |
@@ -145,9 +167,13 @@ Basic firewall concepts are in
 | **Application-level (proxy)** | Layer 7    | Inspects actual application data                                 | Slow     | High         |
 | **Next-generation (NGFW)**    | Layer 3--7 | Combines all above + IPS, deep packet inspection, TLS decryption | Variable | Very High    |
 
+</div>
+
 ### Encryption -- Algorithms and Applications
 
 **Symmetric encryption algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm | Key Length               | Speed     | Notes                                 |
 | --------- | ------------------------ | --------- | ------------------------------------- |
@@ -156,13 +182,19 @@ Basic firewall concepts are in
 | AES       | 128/192/256 bits         | Very fast | Current standard; used by governments |
 | Blowfish  | 32--448 bits             | Fast      | Used in some older applications       |
 
+</div>
+
 **Asymmetric encryption algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm | Key Length | Speed  | Notes                                          |
 | --------- | ---------- | ------ | ---------------------------------------------- |
 | RSA       | 2048+ bits | Slow   | Most widely used; based on prime factorisation |
 | ECC       | 256+ bits  | Faster | Smaller keys for equivalent security           |
 | DSA       | 2048+ bits | Slow   | Used for digital signatures                    |
+
+</div>
 
 **Key exchange problem:** Symmetric encryption is fast but requires secure key distribution.
 Asymmetric encryption solves distribution but is slow. The practical solution is **hybrid
@@ -184,15 +216,21 @@ Documents.
 5. The receiver independently hashes the received message and compares the two hashes.
 6. If they match, the message is authentic and has not been tampered with.
 
+<div class="table-wrap">
+
 | Property        | How Digital Signatures Provide It                                     |
 | --------------- | --------------------------------------------------------------------- |
 | Authentication  | Only the holder of the private key can create the signature           |
 | Integrity       | Any change to the message changes the hash, breaking verification     |
 | Non-repudiation | The sender cannot deny having signed (only they have the private key) |
 
+</div>
+
 ### Two-Factor Authentication (2FA)
 
 2FA requires two independent forms of identification before granting access.
+
+<div class="table-wrap">
 
 | Factor Type        | Examples                                   | Description       |
 | ------------------ | ------------------------------------------ | ----------------- |
@@ -200,10 +238,14 @@ Documents.
 | Something you have | Phone, hardware token, smart card          | Possession factor |
 | Something you are  | Fingerprint, facial recognition, iris scan | Biometric factor  |
 
+</div>
+
 2FA mitigates password compromise: even if an attacker obtains the password, they still need the
 Second factor (e.g., a time-based one-time password from a phone app) to gain access.
 
 ### Intrusion Detection Systems (IDS)
+
+<div class="table-wrap">
 
 | Type                | Description                                                         |
 | ------------------- | ------------------------------------------------------------------- |
@@ -212,7 +254,11 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 | **Signature-based** | Matches traffic against a database of known attack patterns         |
 | **Anomaly-based**   | Establishes a baseline of normal behaviour and flags deviations     |
 
+</div>
+
 ### Security Best Practices Summary
+
+<div class="table-wrap">
 
 | Measure                      | Purpose                                      |
 | ---------------------------- | -------------------------------------------- |
@@ -225,6 +271,8 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 | Backups                      | Enable recovery from ransomware or data loss |
 | User education               | Reduce human-factor vulnerabilities          |
 | Principle of least privilege | Users have minimum necessary permissions     |
+
+</div>
 
 ---
 
@@ -246,6 +294,8 @@ Privacy Commissioner for Personal Data.
 
 **Six Data Protection Principles (DPPs):**
 
+<div class="table-wrap">
+
 | DPP | Principle              | Requirement                                                                                                |
 | --- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 1   | Purpose and collection | Personal data must be collected for a lawful purpose; data subject should be informed of the purpose       |
@@ -254,6 +304,8 @@ Privacy Commissioner for Personal Data.
 | 4   | Security               | Appropriate security measures must be taken to protect against unauthorised access, processing, or erasure |
 | 5   | Information openness   | Data users must be open about their data handling practices                                                |
 | 6   | Access                 | Data subjects have the right to request access to their personal data and request correction               |
+
+</div>
 
 **Key provisions:**
 
@@ -268,6 +320,8 @@ Privacy Commissioner for Personal Data.
 GDPR applies to any organisation processing personal data of EU residents, regardless of where the
 Organisation is located.
 
+<div class="table-wrap">
+
 | Feature          | PDPO (Hong Kong)             | GDPR (EU)                           |
 | ---------------- | ---------------------------- | ----------------------------------- |
 | Jurisdiction     | Hong Kong only               | Global (for EU residents' data)     |
@@ -277,6 +331,8 @@ Organisation is located.
 | Data portability | Not explicitly stated        | Yes                                 |
 | Fines            | Up to HKD 1M + imprisonment  | Up to EUR 20M or 4% global turnover |
 | DPO requirement  | Case-by-case                 | Mandatory for certain organisations |
+
+</div>
 
 ### Data Protection Principles -- Comparison
 
@@ -306,6 +362,8 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 
 ### Types of Intellectual Property
 
+<div class="table-wrap">
+
 | Type             | Protects                                                    | Duration                      | Registration                         |
 | ---------------- | ----------------------------------------------------------- | ----------------------------- | ------------------------------------ |
 | **Copyright**    | Original creative works (text, software, music, art, film)  | Creator's life + 50--70 years | Automatic (no registration required) |
@@ -313,7 +371,11 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **Trademark**    | Brand identifiers (names, logos, slogans, sounds)           | Indefinite (if renewed)       | Required                             |
 | **Trade secret** | Confidential business information (formulas, algorithms)    | As long as kept secret        | No registration                      |
 
+</div>
+
 ### Software Licensing
+
+<div class="table-wrap">
 
 | License Type    | Description                                                | Source Code | Redistribution | Examples                       |
 | --------------- | ---------------------------------------------------------- | ----------- | -------------- | ------------------------------ |
@@ -322,7 +384,11 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **Shareware**   | Free trial with limited features or time; payment required | Closed      | Prohibited     | WinZIP (trial)                 |
 | **Open source** | Source code is available; specific licence terms apply     | Open        | Varies         | Linux, Apache, Python          |
 
+</div>
+
 ### Open Source Licenses
+
+<div class="table-wrap">
 
 | License                   | Copyleft | Commercial use | Modification                | Distribution     | Patent grant  |
 | ------------------------- | -------- | -------------- | --------------------------- | ---------------- | ------------- |
@@ -333,6 +399,8 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 | **BSD**                   | Minimal  | Yes            | Yes                         | Yes, with notice | No explicit   |
 | **Creative Commons (CC)** | Varies   | Varies         | Varies                      | Varies           | No            |
 
+</div>
+
 **Copyleft (viral licensing):** GPL requires that any derivative work must also be licensed under
 GPL. This means if you modify GPL software and distribute it, you must release your modifications
 under the same GPL terms. MIT and Apache are permissive licenses with no such requirement.
@@ -340,6 +408,8 @@ under the same GPL terms. MIT and Apache are permissive licenses with no such re
 ### Creative Commons Licenses
 
 Creative Commons (CC) licenses allow creators to specify how their work may be used by others.
+
+<div class="table-wrap">
 
 | License     | Commercial Use | Modification | Requirement                              |
 | ----------- | -------------- | ------------ | ---------------------------------------- |
@@ -350,6 +420,8 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 | CC BY-NC-SA | No             | Yes          | Credit + non-commercial + share alike    |
 | CC BY-NC-ND | No             | No           | Credit + non-commercial + no derivatives |
 | CC0         | Yes            | Yes          | Public domain (no restrictions)          |
+
+</div>
 
 ---
 
@@ -369,12 +441,16 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 RSI is an umbrella term for conditions caused by repetitive movements, forceful exertions, and
 Sustained or awkward postures.
 
+<div class="table-wrap">
+
 | Condition                  | Cause                                          | Symptoms                                |
 | -------------------------- | ---------------------------------------------- | --------------------------------------- |
 | **Carpal Tunnel Syndrome** | Pressure on median nerve in wrist              | Numbness, tingling in fingers, weakness |
 | **Tendonitis**             | Inflammation of tendons from repetitive motion | Pain, swelling, restricted movement     |
 | **Tenosynovitis**          | Inflammation of tendon sheath                  | Pain during movement, swelling          |
 | **De Quervain's**          | Repetitive thumb movement                      | Pain at base of thumb                   |
+
+</div>
 
 **Prevention strategies:**
 
@@ -406,6 +482,8 @@ Difficulty focusing.
 Ergonomics is the science of designing the workplace to fit the worker, reducing physical strain and
 Improving productivity.
 
+<div class="table-wrap">
+
 | Component    | Recommended Setup                                               |
 | ------------ | --------------------------------------------------------------- |
 | **Chair**    | Adjustable height, lumbar support, feet flat on floor           |
@@ -416,7 +494,11 @@ Improving productivity.
 | **Lighting** | Even ambient lighting, no direct glare on screen                |
 | **Posture**  | Back supported, shoulders relaxed, no slouching                 |
 
+</div>
+
 ### Other Health Concerns
+
+<div class="table-wrap">
 
 | Concern            | Description                                                | Mitigation                                                    |
 | ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------- |
@@ -424,6 +506,8 @@ Improving productivity.
 | **Radiation**      | Concerns about EMF from screens and Wi-Fi devices          | Evidence shows no significant harm at typical exposure levels |
 | **Stress**         | Work overload, constant connectivity, information overload | Time management, digital detox, exercise                      |
 | **Obesity**        | Sedentary lifestyle associated with heavy computer use     | Regular physical activity, movement breaks                    |
+
+</div>
 
 ---
 
@@ -445,6 +529,8 @@ Fastest-growing waste stream globally.
 
 **Composition of e-waste:**
 
+<div class="table-wrap">
+
 | Component           | Examples                   | Environmental Hazard                             |
 | ------------------- | -------------------------- | ------------------------------------------------ |
 | **Heavy metals**    | Lead, mercury, cadmium     | Toxic to nervous systems, carcinogenic           |
@@ -452,6 +538,8 @@ Fastest-growing waste stream globally.
 | **Plastics**        | PVC, ABS, flame retardants | Non-biodegradable, release toxins when burned    |
 | **Glass**           | CRT monitors, LCD panels   | Lead in CRT glass; difficult to recycle          |
 | **Batteries**       | Lithium-ion, NiCd          | Fire risk, heavy metal contamination             |
+
+</div>
 
 **Global e-waste .../4-statistics-and-probability/2_statistics (approximate):**
 
@@ -464,6 +552,8 @@ Fastest-growing waste stream globally.
 
 ICT infrastructure consumes significant energy:
 
+<div class="table-wrap">
+
 | Component                  | Energy Consumption                      |
 | -------------------------- | --------------------------------------- |
 | **Data centres**           | 1--2% of global electricity consumption |
@@ -471,7 +561,11 @@ ICT infrastructure consumes significant energy:
 | **Personal devices**       | Increasing with more powerful devices   |
 | **Bitcoin mining**         | Comparable to some small countries      |
 
+</div>
+
 ### Green Computing Strategies
+
+<div class="table-wrap">
 
 | Strategy                 | Description                                                    | Impact                                    |
 | ------------------------ | -------------------------------------------------------------- | ----------------------------------------- |
@@ -483,6 +577,8 @@ ICT infrastructure consumes significant energy:
 | **Extend device life**   | Upgrade components instead of replacing entire systems         | Reduces manufacturing and disposal impact |
 | **Renewable energy**     | Powering data centres with solar, wind, or hydroelectric       | Reduces carbon footprint                  |
 | **Responsible disposal** | Follow WEEE directive or local e-waste regulations             | Prevents environmental contamination      |
+
+</div>
 
 ---
 
@@ -502,12 +598,16 @@ Responsibly.
 
 ### Key Professional Bodies
 
+<div class="table-wrap">
+
 | Body                                                         | Jurisdiction       | Focus                   |
 | ------------------------------------------------------------ | ------------------ | ----------------------- |
 | **ACM** (Association for Computing Machinery)                | International      | Computing professionals |
 | **BCS** (British Computer Society)                           | UK / International | IT professionals        |
 | **HKCS** (Hong Kong Computer Society)                        | Hong Kong          | IT professionals in HK  |
 | **IEEE** (Institute of Electrical and Electronics Engineers) | International      | Engineering ethics      |
+
+</div>
 
 ### Core Principles (ACM Code of Ethics)
 
@@ -553,6 +653,8 @@ A computing professional confronted with an ethical dilemma should:
 
 ### Arguments for Internet Censorship
 
+<div class="table-wrap">
+
 | Argument                 | Reasoning                                                     |
 | ------------------------ | ------------------------------------------------------------- |
 | **Protect children**     | Block access to inappropriate, violent, or harmful content    |
@@ -562,7 +664,11 @@ A computing professional confronted with an ethical dilemma should:
 | **Public morality**      | Maintain community standards and social harmony               |
 | **Public health**        | Combat misinformation (e.g., false medical claims)            |
 
+</div>
+
 ### Arguments against Internet Censorship
+
+<div class="table-wrap">
 
 | Argument                  | Reasoning                                                           |
 | ------------------------- | ------------------------------------------------------------------- |
@@ -573,7 +679,11 @@ A computing professional confronted with an ethical dilemma should:
 | **Circumvention**         | Technical measures (VPNs, proxies) make censorship ineffective      |
 | **Economic impact**       | Censorship can hinder innovation and economic growth                |
 
+</div>
+
 ### Methods of Internet Censorship
+
+<div class="table-wrap">
 
 | Method                           | Description                                                      |
 | -------------------------------- | ---------------------------------------------------------------- |
@@ -583,6 +693,8 @@ A computing professional confronted with an ethical dilemma should:
 | **Deep packet inspection (DPI)** | Examine packet contents to identify and block prohibited content |
 | **Throttling**                   | Reduce bandwidth for specific services or protocols              |
 | **Firewall rules**               | Block specific ports, protocols, or network ranges               |
+
+</div>
 
 ---
 

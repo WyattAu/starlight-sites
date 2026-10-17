@@ -71,6 +71,8 @@ Three principles:
 Prokaryotes (bacteria and archaea) lack a membrane-bound nucleus. Their DNA is found as a single,
 Circular chromosome in the **nucleoid region**.
 
+<div class="table-wrap">
+
 | Feature               | Description                                                           |
 | --------------------- | --------------------------------------------------------------------- |
 | Cell wall             | Peptidoglycan (bacteria) or pseudopeptidoglycan (archaea)             |
@@ -82,9 +84,13 @@ Circular chromosome in the **nucleoid region**.
 | Pili                  | Hair-like appendages for adhesion and conjugation                     |
 | Capsule / slime layer | Polysaccharide layer for protection and adhesion                      |
 
+</div>
+
 ### Eukaryotic Cells
 
 Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus** and organelles.
+
+<div class="table-wrap">
 
 | Feature               | Animal Cell                     | Plant Cell                           |
 | --------------------- | ------------------------------- | ------------------------------------ |
@@ -95,7 +101,11 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 | Lysosomes             | Present                         | Rare or absent (vacuoles serve role) |
 | Plastids              | Absent                          | Present                              |
 
+</div>
+
 ### Comparison
+
+<div class="table-wrap">
 
 | Feature                   | Prokaryote               | Eukaryote                                        |
 | ------------------------- | ------------------------ | ------------------------------------------------ |
@@ -105,6 +115,8 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 | Ribosome size             | $70\mathrm{S}$           | $80\mathrm{S}$ ($60\mathrm{S}$ + $40\mathrm{S}$) |
 | Cell diameter             | $1$--$5\;\mathrm{\mu m}$ | $10$--$100\;\mathrm{\mu m}$                      |
 | Reproduction              | Binary fission           | Mitosis / meiosis                                |
+
+</div>
 
 ---
 
@@ -169,11 +181,15 @@ Solute concentration (lower water potential).
 **Water potential** ($\psi$) is measured in pressure units ($\mathrm{kPa}$). Pure water at standard
 Conditions has $\psi = 0\;\mathrm{kPa}$. Adding solutes decreases $\psi$ (makes it negative).
 
+<div class="table-wrap">
+
 | Solution type | Effect on animal cell                 | Effect on plant cell     |
 | ------------- | ------------------------------------- | ------------------------ |
 | Hypotonic     | Swells, may lyse (crenation opposite) | Turgid (normal, healthy) |
 | Isotonic      | No net change                         | Flaccid                  |
 | Hypertonic    | Crenates (shrinks)                    | Plasmolysed              |
+
+</div>
 
 #### Active Transport
 
@@ -295,12 +311,16 @@ The same length, centromere position, and gene loci.
 
 #### Phases of Mitosis
 
+<div class="table-wrap">
+
 | Phase         | Key Events                                                                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Prophase**  | Chromatin condenses into visible chromosomes; spindle microtubules begin to form from the centrosomes; nucleolus disappears.                           |
 | **Metaphase** | Chromosomes align at the **metaphase plate** (cell equator); spindle fibres attach to kinetochores at centromeres.                                     |
 | **Anaphase**  | Sister chromatids separate at the centromere and are pulled to opposite poles by shortening spindle fibres. Chromatids are now individual chromosomes. |
 | **Telophase** | Chromosomes decondense; nuclear envelope reforms around each set of chromosomes; nucleolus reappears.                                                  |
+
+</div>
 
 **Cytokinesis** (division of the cytoplasm) follows mitosis:
 
@@ -326,6 +346,8 @@ Parent cell. It is essential for sexual reproduction, producing **gametes** (spe
 
 #### Meiosis I (Reductional Division)
 
+<div class="table-wrap">
+
 | Phase           | Key Events                                                                                                                                                                 |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Prophase I**  | Homologous chromosomes pair up (**synapsis**) forming **bivalents**; **crossing over** occurs at **chiasmata**, exchanging genetic material between non-sister chromatids. |
@@ -333,9 +355,13 @@ Parent cell. It is essential for sexual reproduction, producing **gametes** (spe
 | **Anaphase I**  | Homologous chromosomes separate and move to opposite poles. Sister chromatids remain attached.                                                                             |
 | **Telophase I** | Two haploid cells form (each chromosome still consists of two chromatids).                                                                                                 |
 
+</div>
+
 #### Meiosis II (Equational Division)
 
 Similar to mitosis but with haploid cells:
+
+<div class="table-wrap">
 
 | Phase            | Key Events                                                   |
 | ---------------- | ------------------------------------------------------------ |
@@ -343,6 +369,8 @@ Similar to mitosis but with haploid cells:
 | **Metaphase II** | Individual chromosomes align at the metaphase plate.         |
 | **Anaphase II**  | Sister chromatids separate and move to opposite poles.       |
 | **Telophase II** | Four haploid daughter cells form, each genetically distinct. |
+
+</div>
 
 #### Sources of Genetic Variation
 
@@ -367,6 +395,8 @@ Similar to mitosis but with haploid cells:
 
 Multicellular organisms have differentiated (specialised) cell types:
 
+<div class="table-wrap">
+
 | Cell type          | Adaptation                                   | Function                 |
 | ------------------ | -------------------------------------------- | ------------------------ |
 | Red blood cell     | Biconcave disc, no nucleus, high haemoglobin | $\mathrm{O}_2$ transport |
@@ -375,6 +405,8 @@ Multicellular organisms have differentiated (specialised) cell types:
 | Muscle cell        | Many mitochondria, contractile filaments     | Contraction              |
 | Root hair cell     | Elongated projection, large surface area     | Mineral and water uptake |
 | Palisade mesophyll | Many chloroplasts, elongated shape           | Photosynthesis           |
+
+</div>
 
 ---
 
@@ -682,6 +714,8 @@ Diameter) into a series of sucrose solutions ranging from $0.0$ to $0.6\;\mathrm
 $0.1\;\mathrm{mol/L}$ intervals. After $24$ hours at $20^\circ\mathrm{C}$ The student measures the
 Mass change of each cylinder. The results are:
 
+<div class="table-wrap">
+
 | Sucrose concentration (mol/L) | Mass change (%) |
 | ----------------------------- | --------------- |
 | 0.0                           | +12.4           |
@@ -691,6 +725,8 @@ Mass change of each cylinder. The results are:
 | 0.4                           | -8.5            |
 | 0.5                           | -14.3           |
 | 0.6                           | -21.0           |
+
+</div>
 
 (a) Plot these data and estimate the water potential of the potato tissue. (b) Explain the
 biological basis for the trend observed. (c) Predict the result if the experiment were repeated at
@@ -713,6 +749,8 @@ and discuss additional evidence (e.g., molecular phylogenetics) that strengthens
 
 A researcher observes $200$ cells under a microscope and records their mitotic phases:
 
+<div class="table-wrap">
+
 | Phase      | Observed | Expected |
 | ---------- | -------- | -------- |
 | Interphase | 158      | 160      |
@@ -720,6 +758,8 @@ A researcher observes $200$ cells under a microscope and records their mitotic p
 | Metaphase  | 10       | 8        |
 | Anaphase   | 6        | 8        |
 | Telophase  | 4        | 8        |
+
+</div>
 
 The expected values assume each mitotic phase occupies equal time. Use the chi-squared test
 ($\chi^2 = \sum \frac{(O - E)^2}{E}$) at the $p = 0.05$ significance level (critical value $= 9.49$
@@ -822,12 +862,16 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 **Definition.** **Stem cells** are undifferentiated cells that have the capacity to self-renew
 (divide to produce more stem cells) and differentiate into specialised cell types.
 
+<div class="table-wrap">
+
 | Type            | Source                                                     | Potency                                                                                     | Examples of differentiation                                                                              |
 | --------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Totipotent**  | Zygote, early morula (up to 8-cell)                        | Can form any cell type, including extraembryonic tissues (placenta, yolk sac).              | All cell types + embryonic membranes.                                                                    |
 | **Pluripotent** | Inner cell mass of blastocyst; embryonic stem cells (ESCs) | Can form any cell type of the body (all three germ layers), but NOT extraembryonic tissues. | Neurones, muscle, blood, liver, pancreatic cells, etc.                                                   |
 | **Multipotent** | Adult tissues (bone marrow, skin, gut)                     | Can form multiple but limited cell types within a given lineage.                            | Haematopoietic stem cells $\to$ all blood cell types; mesenchymal stem cells $\to$ bone, cartilage, fat. |
 | **Unipotent**   | Specific adult tissues                                     | Can form only one specialised cell type.                                                    | Spermatogonia $\to$ sperm; satellite cells $\to$ skeletal muscle.                                        |
+
+</div>
 
 ### Therapeutic Potential of Stem Cells
 
@@ -854,11 +898,15 @@ patient-specific (matching the donor's genetics, reducing rejection risk).
 The cell cycle is regulated at **checkpoints** by **cyclins** and **cyclin-dependent kinases
 (CDKs)**:
 
+<div class="table-wrap">
+
 | Checkpoint                                     | Location  | Cyclin-CDK complex             | Function                                                                                                                                                                                                                                                                                                                     |
 | ---------------------------------------------- | --------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **G1/S checkpoint**                            | Late G1   | Cyclin D-CDK4/6; Cyclin E-CDK2 | Checks cell size, nutrient availability, DNA damage. If conditions are unfavourable, the cell enters G0 (quiescence). The retinoblastoma protein (Rb) is a key regulator: when hypophosphorylated, Rb binds E2F (transcription factor) and blocks S-phase gene expression; cyclin D-CDK4/6 phosphorylates Rb, releasing E2F. |
 | **G2/M checkpoint**                            | Late G2   | Cyclin B-CDK1 (CDC2)           | Checks that DNA replication is complete and no DNA damage remains. Activated by phosphorylation by CDK-activating kinase (CAK).                                                                                                                                                                                              |
 | **Spindle assembly checkpoint (M checkpoint)** | Metaphase | Mad2, BubR1 proteins           | Ensures all chromosomes are correctly attached to spindle fibres via kinetochores before anaphase begins. Unattached kinetochores generate a "wait" signal that inhibits the anaphase-promoting complex/cyclosome (APC/C).                                                                                                   |
+
+</div>
 
 ### Apoptosis (Programmed Cell Death)
 
@@ -891,10 +939,14 @@ Is associated with some cancers (cells fail to undergo apoptosis).
 Cancer is a disease of uncontrolled cell division resulting from mutations in genes that regulate
 the cell cycle.
 
+<div class="table-wrap">
+
 | Gene type                   | Normal function                                              | Mutated in cancer (oncogene / tumour suppressor)                                                                       |
 | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | **Proto-oncogenes**         | Promote cell division                                        | **Oncogenes**: gain-of-function mutations; hyperactive or overexpressed (e.g., ras, HER2/neu, myc).                    |
 | **Tumour suppressor genes** | Inhibit cell division; promote DNA repair; promote apoptosis | Loss-of-function mutations (e.g., p53, Rb, BRCA1, BRCA2). Both alleles must be mutated (Knudson's two-hit hypothesis). |
+
+</div>
 
 **p53 ("guardian of the genome"):**
 
@@ -944,12 +996,16 @@ peptidoglycan layer ($2$--$7\;\mathrm{nm}$) with an outer membrane Containing **
 
 When bacteria are inoculated into fresh medium:
 
+<div class="table-wrap">
+
 | Phase                       | Description                                                                                                |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **Lag phase**               | No immediate increase in cell number; cells are adapting, synthesising enzymes, and taking up nutrients.   |
 | **Exponential (log) phase** | Cells divide at maximum rate (binary fission); population doubles at a constant rate. $N = N_0 \times 2^n$ |
 | **Stationary phase**        | Growth rate = death rate; nutrients are depleted, waste products accumulate, and space is limited.         |
 | **Decline (death) phase**   | Death rate exceeds growth rate; cells die from nutrient starvation and toxin accumulation.                 |
+
+</div>
 
 **Growth rate**: $\mu = \frac{\ln(N_t / N_0)}{t}$ (specific growth rate, $\mathrm{h}^{-1}$).
 
@@ -1041,6 +1097,8 @@ The process of breaking open cells and separating organelles by differential cen
 
 ### Microscopy Techniques
 
+<div class="table-wrap">
+
 | Technique                     | Resolution                     | Sample preparation                                     | Information obtained                                  |
 | ----------------------------- | ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------- |
 | **Light microscopy**          | $\approx 200\;\mathrm{nm}$     | Staining; live specimens possible                      | Overall cell structure; limited detail of organelles. |
@@ -1049,6 +1107,8 @@ The process of breaking open cells and separating organelles by differential cen
 | **Fluorescence microscopy**   | $\approx 200\;\mathrm{nm}$     | Fluorescent dyes or fluorescent proteins (GFP)         | Location of specific molecules in living cells.       |
 | **Confocal microscopy**       | $\approx 200\;\mathrm{nm}$     | Same as fluorescence                                   | Optical sections; 3D reconstruction; reduced blur.    |
 | **Cryo-electron microscopy**  | $\approx 3\;\mathrm{nm}$       | Flash-frozen, no staining                              | Near-native state structure of large complexes.       |
+
+</div>
 
 **Magnification calculation:**
 
@@ -1582,11 +1642,15 @@ activation Of new transcription factors and the silencing of genes for alternati
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
 | [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
 | [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
+
+</div>
 
 ## Supplementary: Membrane Structure and Transport in Detail (HL Extension)
 
@@ -1628,6 +1692,8 @@ prenylation, Myristoylation). Examples: alkaline phosphatase (GPI-anchored), Ras
 
 ### Types of Membrane Transport
 
+<div class="table-wrap">
+
 | Type                       | Direction         | Energy         | Carrier                    | Example                                                                               |
 | -------------------------- | ----------------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------- |
 | Simple diffusion           | High to low conc. | None (passive) | None                       | $\mathrm{O}_2$, $\mathrm{CO}_2$ Ethanol, steroid hormones                                |
@@ -1635,6 +1701,8 @@ prenylation, Myristoylation). Examples: alkaline phosphatase (GPI-anchored), Ras
 | Primary active transport   | Low to high conc. | ATP            | Pump protein               | $\mathrm{Na}^+/K^+$ pump, $\mathrm{Ca}^{2+}$ pump, $\mathrm{H}^+/K^+$ pump            |
 | Secondary active transport | Low to high conc. | Ion gradient   | Symporter or antiporter    | $\mathrm{Na}^+$/glucose symporter (SGLT1), $\mathrm{Na}^+/\mathrm{Ca}^{2+}$ exchanger |
 | Bulk transport             | Variable          | ATP            | Vesicles                   | Endocytosis, exocytosis, phagocytosis                                                 |
+
+</div>
 
 ### Channel Proteins
 

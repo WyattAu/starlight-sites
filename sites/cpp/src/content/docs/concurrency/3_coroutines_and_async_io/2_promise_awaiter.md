@@ -112,11 +112,15 @@ awaiter.await_resume();
 
 The three methods that an awaiter must provide [N4950 §9.5.4.3]:
 
+<div class="table-wrap">
+
 | Method                  | Return type                          | Purpose                                                  |
 | :---------------------- | :----------------------------------- | :------------------------------------------------------- |
 | `await_ready()`         | `bool`                               | If `true`Skip suspension and proceed directly            |
 | `await_suspend(handle)` | `void``bool`Or `coroutine_handle<Z>` | Called when coroutine suspends; controls resumption      |
 | `await_resume()`        | any type                             | Produces the result of `co_await expr`; called on resume |
+
+</div>
 
 The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 
@@ -127,6 +131,8 @@ The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 
 ### Detailed `await_suspend` Return Type Semantics
 
+<div class="table-wrap">
+
 | Return Type           | Coroutine State After | What Happens                                                                                                          |
 | :-------------------- | :-------------------- | :-------------------------------------------------------------------------------------------------------------------- |
 | `void`                | Suspended             | Control returns to the caller/resumer. The coroutine is suspended until something explicitly calls `resume()`.        |
@@ -134,10 +140,14 @@ The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 | `bool` (false)        | Running               | The coroutine continues immediately from the resume point. No suspension occurs.                                      |
 | `coroutine_handle<Z>` | Suspended             | The returned handle is resumed immediately. Used for symmetric transfer (tail-call optimization of coroutine chains). |
 
+</div>
+
 ## Promise Type vs Awaiter Type
 
 The **promise type** is the bidirectional communication channel between the coroutine and its
 Caller. The **awaiter type** is the mechanism that controls individual suspension points.
+
+<div class="table-wrap">
 
 | Aspect      | Promise Type                                         | Awaiter Type                                          |
 | :---------- | :--------------------------------------------------- | :---------------------------------------------------- |
@@ -145,6 +155,8 @@ Caller. The **awaiter type** is the mechanism that controls individual suspensio
 | Purpose     | Manages coroutine state, return values, exceptions   | Controls individual suspend/resume behavior           |
 | Required by | Every coroutine (via `promise_type` alias)           | Every `co_await` expression                           |
 | Key methods | `get_return_object``initial_suspend``final_suspend`  | `await_ready``await_suspend``await_resume`            |
+
+</div>
 
 ## `promise_type::get_return_object()`
 

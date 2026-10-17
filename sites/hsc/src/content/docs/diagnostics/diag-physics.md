@@ -213,6 +213,8 @@ tableOfContents: false
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | A             |
@@ -225,6 +227,8 @@ tableOfContents: false
 | 8        | B             |
 | 9        | B             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

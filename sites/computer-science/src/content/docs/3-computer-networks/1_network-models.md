@@ -22,6 +22,8 @@ description: 'The model defines seven layers of abstraction for network Communic
 The **Open Systems Interconnection (OSI)** model defines seven layers of abstraction for network
 Communication:
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                                     | Examples                  |
 | ----- | ------------ | -------------------------------------------- | ------------------------- |
 | 7     | Application  | User-facing protocols                        | HTTP, DNS, SMTP, FTP      |
@@ -31,6 +33,8 @@ Communication:
 | 3     | Network      | Logical addressing, routing                  | IP, ICMP, ARP, OSPF       |
 | 2     | Data Link    | Framing, error detection, MAC                | Ethernet, Wi-Fi, PPP      |
 | 1     | Physical     | Bit transmission on the medium               | Cables, hubs, radio waves |
+
+</div>
 
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
@@ -43,12 +47,16 @@ $$
 
 The **TCP/IP** model is the practical standard used on the Internet, with four layers:
 
+<div class="table-wrap">
+
 | Layer          | OSI Equivalent | Protocols            |
 | -------------- | -------------- | -------------------- |
 | Application    | 5, 6, 7        | HTTP, DNS, SMTP, TLS |
 | Transport      | 4              | TCP, UDP             |
 | Internet       | 3              | IP, ICMP, ARP        |
 | Network Access | 1, 2           | Ethernet, Wi-Fi, MAC |
+
+</div>
 
 ### 1.3 Comparison
 
@@ -57,6 +65,8 @@ Actual protocol implementations. The session and presentation layers in OSI are 
 Application layer in TCP/IP.
 
 **Detailed OSI vs TCP/IP comparison:**
+
+<div class="table-wrap">
 
 | Aspect                | OSI Model                              | TCP/IP Model                        |
 | --------------------- | -------------------------------------- | ----------------------------------- |
@@ -71,10 +81,14 @@ Application layer in TCP/IP.
 | Service interface     | Precisely defined (SAPs)               | Loosely defined                     |
 | Release               | 1984                                   | Developed 1970s, formalised 1980s   |
 
+</div>
+
 ### 1.4 Protocol Data Unit Encapsulation
 
 Each layer encapsulates data from the layer above by prepending a header (and appending a trailer at
 Layer 2). The resulting data unit is named according to its layer:
+
+<div class="table-wrap">
 
 | Layer       | PDU Name | Header Added         | Trailer | Size (typical) |
 | ----------- | -------- | -------------------- | ------- | -------------- |
@@ -83,6 +97,8 @@ Layer 2). The resulting data unit is named according to its layer:
 | Network     | Packet   | IP header            | None    | 20--60 bytes   |
 | Data Link   | Frame    | MAC header           | FCS     | 14--18 + 4 B   |
 | Physical    | Bits     | None (encoding)      | None    | N/A            |
+
+</div>
 
 **Encapsulation walkthrough.** Consider sending an HTTP GET request of 500 bytes through TCP/IP over
 Ethernet:

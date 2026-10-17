@@ -62,11 +62,15 @@ process with:
 
 **Three properties worth knowing by heart.**
 
+<div class="table-wrap">
+
 | Property | Statement | Why it matters |
 | -------- | --------- | -------------- |
 | Almost sure nowhere differentiability | Paley–Wiener–Zygmund | there is no $dW/dt$ as a function |
 | Quadratic variation $[W]_t = t$ | almost surely | the source of the extra term in Itô's formula |
 | Scaling: $W_{ct} \sim \sqrt{c}\,W_t$ | in distribution | Brownian motion is its own coarse-grained limit |
+
+</div>
 
 The quadratic variation is the central object. For a differentiable function
 $f$, the sums $\sum (f(t_{i+1}) - f(t_i))^2$ over a partition tend to $0$ like
@@ -159,6 +163,8 @@ the Itô term.
 
 ## Counterexamples
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | $d(W^2) = 2W\,dW$ | no | the $+dt$ term is the quadratic variation |
@@ -166,6 +172,8 @@ the Itô term.
 | The Itô integral is pathwise defined | no | it is an $L^2$ limit over all paths |
 | Change of variables works as in ordinary calculus | no | the second-order term survives |
 | The Stratonovich and Itô integrals agree | no | they differ by half the quadratic variation of the cross term |
+
+</div>
 
 The last row is the research-level content. The **Stratonovich** integral uses
 the midpoint evaluation point instead of the left endpoint. It agrees with
@@ -194,12 +202,16 @@ and choosing the wrong one silently changes the drift.
 
 ## Counterexamples section
 
+<div class="table-wrap">
+
 | Object | Looks like | Is actually |
 | ------ | ---------- | ----------- |
 | $dW/dt$ | a derivative | does not exist; white noise is a distribution |
 | $[W]_t$ | converges to 0 like differentiable functions | converges to $t$ |
 | Itô integral for fixed $W$ | a pathwise Riemann integral | an $L^2$ limit over the probability space |
 | Stratonovich integral | the same as Itô | differs by half the cross quadratic variation |
+
+</div>
 
 ## Recall prompts — attempt after reading
 

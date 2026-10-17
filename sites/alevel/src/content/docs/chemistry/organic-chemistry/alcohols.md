@@ -49,12 +49,16 @@ Alcohols have much higher boiling points than alkanes of similar molecular mass 
 Bonding between the $-\mathrm{OH}$ groups. Each molecule can both donate and accept hydrogen bonds,
 Creating an extensive intermolecular network.
 
+<div class="table-wrap">
+
 | Compound                                | $M_r$ | Boiling Point          |
 | --------------------------------------- | ----- | ---------------------- |
 | $\mathrm{CH}_4$                         | 16    | $-162^\circ\mathrm{C}$ |
 | $\mathrm{CH}_3\mathrm{OH}$              | 32    | $65^\circ\mathrm{C}$   |
 | $\mathrm{C}_2\mathrm{H}_6$              | 30    | $-89^\circ\mathrm{C}$  |
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$ | 46    | $78^\circ\mathrm{C}$   |
+
+</div>
 
 ### Solubility
 
@@ -235,6 +239,8 @@ that escape, driving the reaction to completion and simplifying purification.
 Alcohols are central to organic synthesis because they can be converted into virtually every other
 functional class. The following summary shows the key transformations:
 
+<div class="table-wrap">
+
 | Target functional group | Reagent/conditions from alcohol                                                            |
 | ----------------------- | ------------------------------------------------------------------------------------------ |
 | Alkene                  | Dehydration with concentrated $\mathrm{H}_2\mathrm{SO}_4$ at $170^\circ\mathrm{C}$         |
@@ -244,6 +250,8 @@ functional class. The following summary shows the key transformations:
 | Halogenoalkane          | $\mathrm{PBr}_3$, $\mathrm{SOCl}_2$ Or conc. $\mathrm{HBr}$                                 |
 | Ester                   | Carboxylic acid + concentrated $\mathrm{H}_2\mathrm{SO}_4$                                 |
 | Ether                   | Williamson ether synthesis (deprotonation with Na, then $\mathrm{R}'\mathrm{Br}$)          |
+
+</div>
 
 ### Worked Example: Multi-Step Synthesis
 
@@ -310,11 +318,15 @@ The Lucas test distinguishes between primary, secondary, and tertiary alcohols:
 
 **Reagent:** Lucas reagent (anhydrous $\mathrm{ZnCl}_2$ in concentrated $\mathrm{HCl}$).
 
+<div class="table-wrap">
+
 | Alcohol type          | Observation                       | Reaction                         |
 | --------------------- | --------------------------------- | -------------------------------- |
 | Tertiary ($3^\circ$)  | Immediate cloudiness              | SN1 (fast carbocation formation) |
 | Secondary ($2^\circ$) | Cloudiness within 1--5 minutes    | SN1 (slower)                     |
 | Primary ($1^\circ$)   | No cloudiness at room temperature | Very slow; may need heating      |
+
+</div>
 
 The cloudiness is caused by the formation of an insoluble halogenoalkane. Tertiary alcohols react
 fastest because the carbocation intermediate is most stable.
@@ -422,12 +434,16 @@ ethanol (100\%) requires further drying with molecular sieves or calcium oxide.
 
 ### Advantages and Disadvantages of Bioethanol as a Fuel
 
+<div class="table-wrap">
+
 | Advantage                                                                       | Disadvantage                                       |
 | ------------------------------------------------------------------------------- | -------------------------------------------------- |
 | Carbon neutral (the $\mathrm{CO}_2$ released was recently absorbed by the crop) | Land use competition with food production          |
 | Renewable                                                                       | Lower energy density than petrol                   |
 | Biodegradable                                                                   | Engine modifications may be needed for high blends |
 | Reduces dependence on fossil fuels                                              | Fermentation is slow; limited production capacity  |
+
+</div>
 
 1. **Oxidation of tertiary alcohols.** Tertiary alcohols are not oxidised by
    $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}^+$. The absence of a colour change is the key
@@ -709,11 +725,15 @@ $\mathrm{HCl}$) to $1\,\mathrm{cm}^3$ of each alcohol at room temperature.
 
 **Results:**
 
+<div class="table-wrap">
+
 | Alcohol             | Observation          | Time                   | Mechanism                                      |
 | ------------------- | -------------------- | ---------------------- | ---------------------------------------------- |
 | 2-methylpropan-2-ol | Immediate cloudiness | $< 10\,\mathrm{s}$     | SN1 (tertiary carbocation forms rapidly)       |
 | Butan-2-ol          | Cloudiness develops  | $1$--$5\,\mathrm{min}$ | SN1 (secondary carbocation forms more slowly)  |
 | Butan-1-ol          | No cloudiness        | $> 30\,\mathrm{min}$   | SN2 is very slow in acidic, non-aqueous medium |
+
+</div>
 
 The cloudiness is caused by the formation of the insoluble chloroalkane.
 
@@ -769,10 +789,14 @@ cupboard.
 
 ### Distillation vs Reflux -- When to Use Each
 
+<div class="table-wrap">
+
 | Technique    | Purpose                                                    | Apparatus                                           |
 | ------------ | ---------------------------------------------------------- | --------------------------------------------------- |
 | Distillation | Separate a volatile product from the reaction mixture      | Round-bottom flask, still head, condenser, receiver |
 | Reflux       | Heat a reaction mixture without losing volatile components | Round-bottom flask, condenser pointing downward     |
+
+</div>
 
 **Rule of thumb:** If the product is volatile and you want to isolate it, use distillation. If the
 reaction needs prolonged heating without loss of reactants or solvent, use reflux.

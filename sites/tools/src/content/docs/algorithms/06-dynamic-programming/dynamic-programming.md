@@ -29,6 +29,8 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 
 ### Top-Down (Memoisation) vs Bottom-Up (Tabulation)
 
+<div class="table-wrap">
+
 | Aspect        | Top-Down (Memoisation)           | Bottom-Up (Tabulation)                      |
 | ------------- | -------------------------------- | ------------------------------------------- |
 | Approach      | Recursive with caching           | Iterative, fill table from base cases       |
@@ -37,6 +39,8 @@ When both hold, DP reduces an exponential-time recursive solution to polynomial 
 | Cache control | Only computes needed subproblems | Computes all subproblems                    |
 | Debugging     | Easier to reason about           | Harder to see the recurrence                |
 | Performance   | Slight overhead from recursion   | Slightly faster (no function call overhead) |
+
+</div>
 
 ## 1D DP
 
@@ -247,12 +251,16 @@ def edit_distance(s1, s2):
     return dp[n][m]
 ```
 
+<div class="table-wrap">
+
 | Operation                    | Cost               | Intuition                |
 | ---------------------------- | ------------------ | ------------------------ |
 | Delete `s1[i]`               | $dp[i-1][j] + 1$   | Remove character from s1 |
 | Insert `s2[j]`               | $dp[i][j-1] + 1$   | Add character to s1      |
 | Replace `s1[i]` with `s2[j]` | $dp[i-1][j-1] + 1$ | Change one character     |
 | Match `s1[i] == s2[j]`       | $dp[i-1][j-1]$     | No operation needed      |
+
+</div>
 
 ### Knapsack Problem
 
@@ -640,6 +648,8 @@ Solution. DP considers all possibilities and chooses the globally optimal one.
 Greedy works when the problem has the **greedy-choice property**, a locally optimal choice leads to
 A globally optimal solution. This holds for matroid structures.
 
+<div class="table-wrap">
+
 | Problem                    | Greedy?            | DP?                | Greedy Complexity |
 | -------------------------- | ------------------ | ------------------ | ----------------- |
 | Activity selection         | Yes                | Yes                | $O(n \log n)$     |
@@ -649,6 +659,8 @@ A globally optimal solution. This holds for matroid structures.
 | 0/1 knapsack               | **No**             | Yes                |,                 |
 | Longest common subsequence | **No**             | Yes                |,                 |
 | Edit distance              | **No**             | Yes                |,                 |
+
+</div>
 
 ### Activity Selection (Greedy Works)
 

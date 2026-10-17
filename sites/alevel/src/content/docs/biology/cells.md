@@ -56,6 +56,8 @@ $d \approx 200\ \mathrm{nm}$ Giving a maximum useful magnification of approximat
 Light, giving a resolving power of approximately $0.2\ \mathrm{nm}$ and effective magnifications up
 to $\times 2000000$.
 
+<div class="table-wrap">
+
 | Feature       | Light Microscope           | Electron Microscope         |
 | ------------- | -------------------------- | --------------------------- |
 | Resolution    | $\approx 200\ \mathrm{nm}$ | $\approx 0.2\ \mathrm{nm}$  |
@@ -63,6 +65,8 @@ to $\times 2000000$.
 | Specimen      | Living or dead             | Dead only (vacuum required) |
 | Contrast      | Staining (dyes)            | Heavy metal staining        |
 | Cost          | Low                        | High                        |
+
+</div>
 
 **Transmission electron microscopy (TEM)**: electrons pass through thin sections; produces 2D images
 Of internal ultrastructure.
@@ -98,11 +102,15 @@ Centrifugation:
 3. **Differential centrifugation**: the filtrate is centrifuged at increasing speeds. At each step,
    the heaviest (densest) organelles form a pellet at the bottom of the tube:
 
+<div class="table-wrap">
+
 | Centrifugation Speed               | Pellet                               | Supernatant Contains |
 | ---------------------------------- | ------------------------------------ | -------------------- |
 | Low ($1000\ \mathrm{g}$10 min)     | Nuclei                               | All other organelles |
 | Medium ($10000\ \mathrm{g}$20 min) | Mitochondria, lysosomes              | Lighter organelles   |
 | High ($100000\ \mathrm{g}$60 min)  | Ribosomes, microsomes (ER fragments) | Cytosol              |
+
+</div>
 
 ## 2. Prokaryotic and Eukaryotic Cells
 
@@ -118,6 +126,8 @@ and archaea.
 Organelles. Its DNA is organised into linear chromosomes within the nucleus. Eukaryotes include
 Animals, plants, fungi, and protists.
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryote                                     | Eukaryote                                      |
 | ------------------------- | ---------------------------------------------- | ---------------------------------------------- |
 | Nucleus                   | Absent (nucleoid region)                       | Present, with nuclear envelope                 |
@@ -128,6 +138,8 @@ Animals, plants, fungi, and protists.
 | Size                      | $1$--$5\ \mu\mathrm{m}$                        | $10$--$100\ \mu\mathrm{m}$                     |
 | Reproduction              | Binary fission (asexual)                       | Mitosis, meiosis                               |
 | Flagella                  | Simple, rotating                               | Complex, $9 + 2$ microtubule arrangement       |
+
+</div>
 
 :::caution
 Measure sedimentation rate during centrifugation -- not molecular weight. Svedberg units are not
@@ -288,6 +300,8 @@ The **fluid mosaic model** (Singer and Nicolson, 1972) describes the cell membra
 
 ### 5.2 Membrane Components
 
+<div class="table-wrap">
+
 | Component                          | Location                             | Function                                              |
 | ---------------------------------- | ------------------------------------ | ----------------------------------------------------- |
 | Phospholipids                      | Bilayer                              | Form the basic structure; partially permeable barrier |
@@ -296,6 +310,8 @@ The **fluid mosaic model** (Singer and Nicolson, 1972) describes the cell membra
 | Extrinsic (peripheral) proteins    | On one surface only                  | Enzymes; cell signalling; cytoskeleton attachment     |
 | Glycoproteins                      | Extrinsic, with carbohydrate chains  | Cell recognition; antigenic markers                   |
 | Glycolipids                        | Phospholipid with carbohydrate chain | Cell recognition; tissue compatibility                |
+
+</div>
 
 ### 5.3 Membrane Transport
 
@@ -580,11 +596,15 @@ solutions.
 The cell cycle has three major checkpoints where the progression is assessed before the cycle is
 Allowed to proceed:
 
+<div class="table-wrap">
+
 | Checkpoint           | Location            | What is Assessed                             |
 | -------------------- | ------------------- | -------------------------------------------- |
 | $\mathrm{G_1/S}$     | Late $\mathrm{G_1}$ | Cell size, nutrient availability, DNA damage |
 | $\mathrm{G_2/M}$     | Late $\mathrm{G_2}$ | DNA replication complete and accurate        |
 | M (spindle assembly) | Metaphase           | All chromosomes attached to spindle fibres   |
+
+</div>
 
 At each checkpoint, cyclin-CDK complexes phosphorylate target proteins that either promote or
 inhibit Progression. If damage is detected, the checkpoint arrests the cycle to allow repair. If
@@ -635,6 +655,8 @@ necessary but not Sufficient for malignancy.
 
 ### 11.1 Key Differences
 
+<div class="table-wrap">
+
 | Feature                | Mitosis                              | Meiosis                                       |
 | ---------------------- | ------------------------------------ | --------------------------------------------- |
 | Divisions              | One                                  | Two                                           |
@@ -644,6 +666,8 @@ necessary but not Sufficient for malignancy.
 | Metaphase alignment    | Individual chromosomes at equator    | Bivalents at equator                          |
 | Anaphase               | Sister chromatids separate           | Homologous chromosomes separate (Meiosis I)   |
 | Function               | Growth, repair, asexual reproduction | Production of gametes for sexual reproduction |
+
+</div>
 
 For a detailed treatment of meiosis with genetic cross analysis, see
 [Genetics and DNA](/biology/genetics-and-dna/).
@@ -666,6 +690,8 @@ Cell specialisation (differentiation) is the process by which cells become adapt
 specific Functions. All specialised cells develop from unspecialised stem cells through differential
 gene Expression.
 
+<div class="table-wrap">
+
 | Specialised Cell         | Adaptations                                                                | Function                       |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------------------ |
 | Red blood cell           | Biconcave disc shape; no nucleus; no mitochondria; contains haemoglobin    | $\mathrm{O_2}$ transport       |
@@ -676,6 +702,8 @@ gene Expression.
 | Neurone                  | Long axon; dendrites; myelin sheath; synaptic terminals                    | Transmission of nerve impulses |
 | Phagocyte (white blood)  | Flexible membrane; lysosomes; lobed nucleus                                | Engulfing pathogens            |
 | Squamous epithelial cell | Very thin and flat; smooth surface                                         | Gas exchange surface           |
+
+</div>
 
 ### 12.2 Stem Cells
 
@@ -916,22 +944,30 @@ or Full plasmolysis, depending on the cell wall). The cell is plasmolysed.
 The cytoskeleton is a network of protein fibres that provides structural support, enables movement,
 and organises intracellular transport.
 
+<div class="table-wrap">
+
 | Component                        | Diameter                  | Protein                        | Structure                                | Function                                                                                                      |
 | -------------------------------- | ------------------------- | ------------------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | Microfilaments (actin filaments) | $\approx 7\ \mathrm{nm}$  | Actin                          | Two intertwined helical chains           | Cell shape changes, cell division (cleavage furrow), muscle contraction                                       |
 | Intermediate filaments           | $\approx 10\ \mathrm{nm}$ | Keratin, vimentin, lamin       | Rope-like fibres of intertwined subunits | Mechanical strength (nuclear lamina, hair, nails)                                                             |
 | Microtubules                     | $\approx 25\ \mathrm{nm}$ | Tubulin ($\alpha$ and $\beta$) | Hollow cylinders of 13 protofilaments    | Chromosome movement (spindle fibres), intracellular transport (tracks for motor proteins), cilia and flagella |
 
+</div>
+
 ### 13.2 Motor Proteins
 
 Motor proteins move along cytoskeletal filaments, carrying cargo (vesicles, organelles,
 chromosomes):
+
+<div class="table-wrap">
 
 | Motor Protein | Track                  | Direction                              | Energy Source | Function                                                    |
 | ------------- | ---------------------- | -------------------------------------- | ------------- | ----------------------------------------------------------- |
 | Kinesin       | Microtubules           | Towards (+) end (away from centrosome) | ATP           | Transport of vesicles and organelles towards cell periphery |
 | Dynein        | Microtubules           | Towards (-) end (towards centrosome)   | ATP           | Retrograde transport; movement of cilia and flagella        |
 | Myosin        | Microfilaments (actin) | Towards (+) end                        | ATP           | Muscle contraction; cytokinesis; cytoplasmic streaming      |
+
+</div>
 
 ### 13.3 Cilia and Flagella
 
@@ -992,11 +1028,15 @@ pump in the lysosomal membrane).
 **Lysosomal storage diseases** result from inherited deficiencies in individual lysosomal enzymes,
 causing substrates to accumulate:
 
+<div class="table-wrap">
+
 | Disease              | Deficient Enzyme   | Accumulating Substance      | Symptoms                                                 |
 | -------------------- | ------------------ | --------------------------- | -------------------------------------------------------- |
 | Tay-Sachs disease    | Hexosaminidase A   | $\mathrm{GM_2}$ ganglioside | Progressive neurodegeneration, blindness, death by age 4 |
 | Gaucher disease      | Glucocerebrosidase | Glucocerebroside            | Enlarged liver and spleen, bone pain, anaemia            |
 | Niemann-Pick disease | Sphingomyelinase   | Sphingomyelin               | Hepatosplenomegaly, neurological deterioration           |
+
+</div>
 
 ## 15. Cell Division: Detailed Mechanisms
 
@@ -1004,12 +1044,16 @@ causing substrates to accumulate:
 
 The cell cycle is regulated by **cyclins** and **cyclin-dependent kinases (CDKs)**:
 
+<div class="table-wrap">
+
 | Cyclin   | CDK Partner | Phase Controlled | Function                                                                          |
 | -------- | ----------- | ---------------- | --------------------------------------------------------------------------------- |
 | Cyclin D | CDK4/6      | G1 $\to$ S       | Phosphorylates Rb protein, releasing E2F transcription factor to initiate S phase |
 | Cyclin E | CDK2        | G1/S transition  | Initiates DNA replication                                                         |
 | Cyclin A | CDK2        | S phase          | Maintains S phase progression                                                     |
 | Cyclin B | CDK1 (CDC2) | G2 $\to$ M       | Triggers entry into mitosis (MPF = maturation-promoting factor)                   |
+
+</div>
 
 Cyclin concentrations fluctuate throughout the cell cycle (synthesised and degraded at specific
 points), while CDKs are present at relatively constant levels. The cyclin-CDK complex is only active
@@ -1078,11 +1122,15 @@ pink/red with safranin.
 
 ### 16.2 Antibiotic Mechanisms Targeting Cell Walls
 
+<div class="table-wrap">
+
 | Antibiotic | Target                                             | Mechanism                                                                                                                          |
 | ---------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Penicillin | Transpeptidase (cross-linking enzyme)              | Binds to transpeptidase active site, preventing peptide cross-linking. Cell wall becomes weak; cell lyses due to osmotic pressure. |
 | Vancomycin | D-alanyl-D-alanine terminus of peptide side chains | Binds to D-Ala-D-Ala, blocking transpeptidase access.                                                                              |
 | Bacitracin | Dephosphorylation of bactoprenol                   | Prevents recycling of the lipid carrier needed for peptidoglycan synthesis.                                                        |
+
+</div>
 
 **Penicillin resistance** can arise through:
 
@@ -1104,11 +1152,15 @@ expanded, and the bacterium lyses due to the inward osmotic pressure (water ente
 
 Viruses are not cells. They are obligate intracellular parasites that consist of:
 
+<div class="table-wrap">
+
 | Component               | Description                                                                                                | Function                                                                            |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | Nucleic acid            | Either DNA or RNA (never both); single-stranded or double-stranded; linear or circular                     | Carries genetic information                                                         |
 | Capsid                  | Protein coat made of capsomeres (protein subunits) arranged with icosahedral, helical, or complex symmetry | Protects the nucleic acid; mediates attachment to host cell                         |
 | Envelope (some viruses) | Phospholipid bilayer derived from the host cell membrane during budding                                    | Helps the virus enter host cells; contains viral glycoproteins for receptor binding |
+
+</div>
 
 ### 18.2 Viral Replication Cycle (Generalised)
 
@@ -1128,6 +1180,8 @@ Viruses are not cells. They are obligate intracellular parasites that consist of
 Human Immunodeficiency Virus (HIV) is a retrovirus (RNA virus that reverse-transcribes its genome
 into DNA):
 
+<div class="table-wrap">
+
 | Step                     | Description                                                                                                                                                                                            |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Attachment            | gp120 glycoprotein on HIV binds to CD4 receptor and CCR5/CXCR4 co-receptor on T helper cells                                                                                                           |
@@ -1138,6 +1192,8 @@ into DNA):
 | 6. Translation           | Viral proteins (gag, pol, env) are synthesised                                                                                                                                                         |
 | 7. Assembly              | New viral particles are assembled at the host cell membrane                                                                                                                                            |
 | 8. Budding               | New virions bud from the host cell, acquiring an envelope                                                                                                                                              |
+
+</div>
 
 **Why HIV is difficult to cure:**
 
@@ -1150,6 +1206,8 @@ into DNA):
 
 ### 18.4 Antiviral Drugs
 
+<div class="table-wrap">
+
 | Drug                                              | Target                                | Mechanism                                                                                                                                                    |
 | ------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | AZT (zidovudine)                                  | Reverse transcriptase                 | Nucleoside analogue: incorporated into viral DNA by reverse transcriptase, causing chain termination (DNA synthesis stops)                                   |
@@ -1157,6 +1215,8 @@ into DNA):
 | Reverse transcriptase inhibitors (non-nucleoside) | Reverse transcriptase                 | Bind to reverse transcriptase at a site other than the active site, causing conformational changes that inactivate the enzyme                                |
 | Neuraminidase inhibitors (oseltamivir/Tamiflu)    | Influenza neuraminidase               | Prevents release of new influenza virions from infected cells                                                                                                |
 | Aciclovir                                         | Viral DNA polymerase (herpes viruses) | Nucleoside analogue; activated by viral thymidine kinase (selectively toxic to virus-infected cells); incorporated into viral DNA, causing chain termination |
+
+</div>
 
 ---
 
@@ -1174,6 +1234,8 @@ into DNA):
 
 ### 17.1 Facilitated Diffusion vs Active Transport
 
+<div class="table-wrap">
+
 | Feature          | Facilitated Diffusion                       | Active Transport                                                                             |
 | ---------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Energy required  | No (passive)                                | Yes (ATP or electrochemical gradient)                                                        |
@@ -1182,6 +1244,8 @@ into DNA):
 | Saturability     | Yes (limited number of transporters)        | Yes                                                                                          |
 | Specificity      | Specific to particular molecules            | Highly specific                                                                              |
 | Examples         | Glucose transport via GLUT4 in muscle cells | $\mathrm{Na^+/K^+}$ ATPase; $\mathrm{Ca^{2+}}$ ATPase; sodium-glucose co-transporter (SGLT1) |
+
+</div>
 
 ### 17.2 Co-Transport (Secondary Active Transport)
 
@@ -1221,6 +1285,8 @@ $$
 
 ### 18.1 Phases of the Cell Cycle
 
+<div class="table-wrap">
+
 | Phase           | Description                         | Key Events                                                                                                    |
 | --------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | G1 (Gap 1)      | Cell growth and normal metabolism   | Organelles duplicate; protein synthesis; cell grows to approximately double its original size                 |
@@ -1228,6 +1294,8 @@ $$
 | G2 (Gap 2)      | Preparation for mitosis             | Continued protein synthesis; synthesis of microtubules for spindle formation                                  |
 | M (Mitosis)     | Nuclear division                    | Prophase, metaphase, anaphase, telophase; followed by cytokinesis                                             |
 | G0 (quiescence) | Cells that have left the cell cycle | Not actively dividing; may re-enter the cycle (e.g., liver cells) or remain permanently in G0 (e.g., neurons) |
+
+</div>
 
 ### 18.2 Control of the Cell Cycle: Checkpoints
 
@@ -1252,12 +1320,16 @@ Progression through the cell cycle is controlled by **cyclins** (proteins whose 
 fluctuates during the cell cycle) and **cyclin-dependent kinases (CDKs)** (enzymes that
 phosphorylate target proteins).
 
+<div class="table-wrap">
+
 | Cyclin   | CDK Partner | Peak Concentration | Function                                  |
 | -------- | ----------- | ------------------ | ----------------------------------------- |
 | Cyclin D | CDK4/6      | G1                 | Drives cell past the G1 restriction point |
 | Cyclin E | CDK2        | G1/S transition    | Initiates DNA replication                 |
 | Cyclin A | CDK2        | S phase            | Drives DNA replication                    |
 | Cyclin B | CDK1 (CDC2) | G2/M transition    | Triggers entry into mitosis               |
+
+</div>
 
 When a cyclin binds to its CDK partner, the complex phosphorylates specific target proteins,
 activating or inhibiting them to drive the next phase of the cell cycle.
@@ -1267,11 +1339,15 @@ activating or inhibiting them to drive the next phase of the cell cycle.
 Cancer is a disease of the cell cycle. Mutations in genes that regulate the cell cycle can lead to
 uncontrolled cell division:
 
+<div class="table-wrap">
+
 | Gene Type              | Normal Function                                                                                | Effect of Mutation                                                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Proto-oncogene         | Stimulates cell division when appropriate (e.g., growth factor receptors, signalling proteins) | Becomes an **oncogene**: constitutively active, promoting uncontrolled division (e.g., RAS mutations in 25% of cancers) |
 | Tumour suppressor gene | Inhibits cell division; promotes DNA repair; promotes apoptosis (e.g., p53, Rb)                | Loss of function: cell cycle checkpoints fail, allowing damaged cells to divide                                         |
 | DNA repair gene        | Repairs DNA damage (e.g., BRCA1, BRCA2)                                                        | Loss of function: mutations accumulate more rapidly                                                                     |
+
+</div>
 
 **Tumour formation:** a single mutation is insufficient to cause cancer. Multiple mutations are
 required (the "multi-hit hypothesis"). For example, colon cancer requires mutations in at least 5--6
@@ -1308,6 +1384,8 @@ Apoptosis is a tightly regulated process of programmed cell death that:
 
 ### 19.1 Bacterial Cell Wall
 
+<div class="table-wrap">
+
 | Feature                  | Gram-Positive Bacteria                                       | Gram-Negative Bacteria                                       |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Peptidoglycan layer      | Thick (many layers)                                          | Thin (1--2 layers)                                           |
@@ -1317,6 +1395,8 @@ Apoptosis is a tightly regulated process of programmed cell death that:
 | Lipopolysaccharide (LPS) | Absent                                                       | Present (endotoxin; can cause fever, shock)                  |
 | Gram stain result        | Purple (retains crystal violet)                              | Pink/red (does not retain crystal violet; takes up safranin) |
 | Examples                 | _Staphylococcus_, _Streptococcus_, _Bacillus_, _Clostridium_ | _E. Coli_, _Salmonella_, _Pseudomonas_, _Neisseria_          |
+
+</div>
 
 **How antibiotics target the cell wall:**
 
@@ -1331,12 +1411,16 @@ Apoptosis is a tightly regulated process of programmed cell death that:
 
 When bacteria are grown in a closed batch culture:
 
+<div class="table-wrap">
+
 | Phase                   | Description                                          | Growth Rate | Why                                                         |
 | ----------------------- | ---------------------------------------------------- | ----------- | ----------------------------------------------------------- |
 | Lag phase               | Bacteria adapt to new conditions; synthesise enzymes | Zero        | Cells are not yet dividing; preparing for growth            |
 | Exponential (log) phase | Rapid division; population doubles at constant rate  | Maximum     | Nutrients are abundant; no limiting factors                 |
 | Stationary phase        | Growth rate equals death rate; population is stable  | Zero        | Nutrients are depleted; toxic waste products accumulate     |
 | Decline (death) phase   | Death rate exceeds growth rate                       | Negative    | Nutrient exhaustion; accumulation of toxic waste; pH change |
+
+</div>
 
 **Calculating the mean division time:**
 
@@ -1348,11 +1432,15 @@ Mean division time $= \frac{6.6 \times 60}{13.3} \approx 30$ minutes.
 
 ### 19.3 Bacterial Genetic Exchange
 
+<div class="table-wrap">
+
 | Method         | Mechanism                                                                     | What is Transferred                                                  | Significance                                                                                                      |
 | -------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Conjugation    | Direct contact via sex pilus (F pilus); plasmid DNA is copied and transferred | Plasmid DNA (can carry antibiotic resistance genes, e.g., R plasmid) | Major route of antibiotic resistance spread; requires F+ (donor) and F- (recipient) cells                         |
 | Transformation | Uptake of free DNA from the environment; requires competence                  | Linear DNA fragments                                                 | Griffith's experiment (1928): demonstrated transformation in _S. Pneumoniae_; basis of recombinant DNA technology |
 | Transduction   | Bacteriophage (virus) transfers bacterial DNA during infection                | Bacterial DNA (can be any part of the genome)                        | Can transfer any gene, including toxin genes (e.g., diphtheria toxin, cholera toxin)                              |
+
+</div>
 
 ## 20. Microscopy: Advanced Techniques
 
@@ -1365,11 +1453,15 @@ $$
 Where $\lambda$ = wavelength of light/electrons; $n$ = refractive index of the medium; $\theta$ =
 half-angle of the cone of light entering the objective.
 
+<div class="table-wrap">
+
 | Microscope Type                        | Resolution                 | Maximum Magnification     | Specimen Requirements                                                  |
 | -------------------------------------- | -------------------------- | ------------------------- | ---------------------------------------------------------------------- |
 | Light microscope                       | $\approx 200\ \mathrm{nm}$ | $\approx 1,500\times$     | Thin section; may be stained; can be living                            |
 | Transmission electron microscope (TEM) | $\approx 0.2\ \mathrm{nm}$ | $\approx 1,000,000\times$ | Very thin section (50--100 nm); fixed; stained with heavy metals; dead |
 | Scanning electron microscope (SEM)     | $\approx 5\ \mathrm{nm}$   | $\approx 200,000\times$   | Surface features; coated with metal (gold); dead                       |
+
+</div>
 
 ### 20.2 Cell Fractionation and Ultracentrifugation
 
@@ -1381,6 +1473,8 @@ Cell fractionation separates organelles by size and density:
    cells.
 3. **Differential centrifugation**: the filtrate is centrifuged at increasing speeds:
 
+<div class="table-wrap">
+
 | Centrifugation Speed               | Force ($\times g$) | Pellet Contains                                      |
 | ---------------------------------- | ------------------ | ---------------------------------------------------- |
 | Low speed (1,000 $g$10 min)        | Low                | Nuclei (largest organelles)                          |
@@ -1388,9 +1482,13 @@ Cell fractionation separates organelles by size and density:
 | High speed (100,000 $g$60 min)     | High               | Ribosomes, microsomes (ER fragments), small vesicles |
 | Very high speed (300,000 $g$2 hrs) | Very high          | Ribosomal subunits, viruses                          |
 
+</div>
+
 ## 21. Eukaryotic Cell Specialisation
 
 ### 21.1 Examples of Specialised Cells
+
+<div class="table-wrap">
 
 | Cell Type                    | Specialisation                   | Adaptations                                                                                                                                                                                                                                               | Function                                                                        |
 | ---------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -1403,7 +1501,11 @@ Cell fractionation separates organelles by size and density:
 | Root hair cell               | Water and mineral uptake         | Elongated projection (root hair) greatly increases surface area; thin cell wall for short diffusion distance; many mitochondria (ATP for active transport); high concentration of carrier proteins                                                        | Absorb water and minerals from soil                                             |
 | Palisade mesophyll cell      | Photosynthesis                   | Elongated and packed with chloroplasts (near top of leaf for maximum light); thin cell walls; large vacuole (pushes chloroplasts to periphery)                                                                                                            | Main site of photosynthesis in leaves                                           |
 
+</div>
+
 ### 21.2 Stem Cells
+
+<div class="table-wrap">
 
 | Type        | Source                                               | Potency                                                              | Can Differentiate Into                                     |
 | ----------- | ---------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -1411,6 +1513,8 @@ Cell fractionation separates organelles by size and density:
 | Pluripotent | Embryonic stem cells (inner cell mass of blastocyst) | Can form any cell type except extra-embryonic tissues                | All cell types of the organism                             |
 | Multipotent | Adult stem cells (bone marrow, umbilical cord blood) | Can form a limited range of cell types                               | Blood cells, bone, cartilage, fat (mesenchymal stem cells) |
 | Unipotent   | Some adult stem cells                                | Can form only one cell type                                          | Hepatocytes (liver stem cells); satellite cells (muscle)   |
+
+</div>
 
 **Therapeutic uses of stem cells:**
 
@@ -1457,6 +1561,8 @@ Plasmodesmata are channels that connect adjacent plant cells through the cell wa
 
 ### 22.3 Cell Adhesion Molecules
 
+<div class="table-wrap">
+
 | Type                                | Description                                                                   | Function                                                                                                 |
 | ----------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Cadherins                           | Calcium-dependent transmembrane proteins                                      | Cell-cell adhesion; tissue formation; maintaining tissue integrity                                       |
@@ -1464,9 +1570,13 @@ Plasmodesmata are channels that connect adjacent plant cells through the cell wa
 | Selectins                           | Carbohydrate-binding transmembrane proteins                                   | Mediate temporary cell-cell adhesion (e.g., leukocyte rolling on blood vessel walls during inflammation) |
 | Immunoglobulin superfamily (IgCAMs) | Transmembrane proteins with immunoglobulin domains                            | Cell-cell adhesion in the nervous system (e.g., NCAM, involved in axon guidance)                         |
 
+</div>
+
 ### 22.4 The Extracellular Matrix (ECM)
 
 The ECM is a complex network of proteins and polysaccharides secreted by cells:
+
+<div class="table-wrap">
 
 | Component       | Description                                    | Function                                                                                   |
 | --------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -1476,9 +1586,13 @@ The ECM is a complex network of proteins and polysaccharides secreted by cells:
 | Proteoglycans   | Core protein + glycosaminoglycan (GAG) chains  | Hydration and resistance to compression (e.g., cartilage); regulate growth factor activity |
 | Hyaluronic acid | Large GAG; not attached to a core protein      | Lubrication in joints; hydration; space-filling                                            |
 
+</div>
+
 ## 23. The Cytoskeleton
 
 ### 23.1 Components of the Cytoskeleton
+
+<div class="table-wrap">
 
 | Component                        | Protein                          | Diameter                  | Structure                                                | Functions                                                                                                            |
 | -------------------------------- | -------------------------------- | ------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -1486,7 +1600,11 @@ The ECM is a complex network of proteins and polysaccharides secreted by cells:
 | Intermediate filaments           | Keratin, vimentin, lamin, desmin | $\approx 10\ \mathrm{nm}$ | Fibrous proteins wound into ropes                        | Mechanical strength; structural support; nuclear lamina                                                              |
 | Microtubules                     | Tubulin ($\alpha$ and $\beta$)   | $\approx 25\ \mathrm{nm}$ | 13 protofilaments of tubulin dimers in a hollow cylinder | Chromosome movement during mitosis; intracellular transport (motor proteins); structural support; cilia and flagella |
 
+</div>
+
 ### 23.2 Motor Proteins
+
+<div class="table-wrap">
 
 | Motor Protein | Moves Along     | Direction                                       | Energy Source  | Function                                                                         |
 | ------------- | --------------- | ----------------------------------------------- | -------------- | -------------------------------------------------------------------------------- |
@@ -1494,10 +1612,14 @@ The ECM is a complex network of proteins and polysaccharides secreted by cells:
 | Dynein        | Microtubules    | Towards the minus end (towards the centrosome)  | ATP hydrolysis | Retrograde transport (vesicles towards cell body); beating of cilia and flagella |
 | Myosin        | Actin filaments | Towards the plus end                            | ATP hydrolysis | Muscle contraction; cytokinesis; cell crawling                                   |
 
+</div>
+
 ### 23.3 Cilia and Flagella
 
 Cilia and flagella are extensions of the cell membrane supported by microtubules arranged in a "9 +
 2" pattern (9 pairs of microtubules surrounding a central pair):
+
+<div class="table-wrap">
 
 | Feature           | Cilia                                                                                     | Flagella                         |
 | ----------------- | ----------------------------------------------------------------------------------------- | -------------------------------- |
@@ -1507,6 +1629,8 @@ Cilia and flagella are extensions of the cell membrane supported by microtubules
 | Function          | Move mucus over epithelial surfaces (respiratory tract, oviducts); move egg along oviduct | Sperm motility                   |
 | "9+2" arrangement | Yes                                                                                       | Yes                              |
 | ATP source        | Dynein arms between microtubule pairs                                                     | Dynein arms                      |
+
+</div>
 
 **Primary ciliary dyskinesia:** a genetic disorder caused by defective dynein arms, resulting in
 immotile cilia. Symptoms: chronic respiratory infections (mucus not cleared), male infertility
@@ -1541,11 +1665,15 @@ self-marking and building a personal test matrix.
 
 Viruses are not cells. They are obligate intracellular parasites consisting of:
 
+<div class="table-wrap">
+
 | Component               | Description                                                                                                                                           |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Genetic material        | Either DNA or RNA (single-stranded or double-stranded; linear or circular) -- never both                                                              |
 | Protein coat (capsid)   | Made of capsomeres (protein subunits); protects the genome; determines host cell specificity                                                          |
 | Envelope (some viruses) | Lipid bilayer derived from the host cell membrane during budding; contains viral glycoproteins (e.g., gp120/gp41 in HIV; haemagglutinin in influenza) |
+
+</div>
 
 Viruses are not considered living because they:
 
@@ -1572,10 +1700,14 @@ Viruses are not considered living because they:
 
 Bacteriophages (phages) are viruses that infect bacteria:
 
+<div class="table-wrap">
+
 | Phage Type      | Example      | Replication Strategy                                                                                                                                                                                                       |
 | --------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Lytic phage     | T4 phage     | Lytic cycle: phage attaches, injects DNA, hijacks host machinery to produce new phages, lyses the cell to release progeny (approx. 200 per infected cell)                                                                  |
 | Lysogenic phage | Lambda phage | Lysogenic cycle: phage DNA integrates into the bacterial chromosome as a prophage; the prophage is replicated along with the bacterial DNA; under stress (e.g., UV light), the prophage excises and enters the lytic cycle |
+
+</div>
 
 **Lysogenic conversion:** when a prophage carries genes that change the phenotype of the host
 bacterium. For example, the cholera toxin gene in _Vibrio cholerae_ is carried by a prophage
@@ -1583,6 +1715,8 @@ bacterium. For example, the cholera toxin gene in _Vibrio cholerae_ is carried b
 $\beta$-phage.
 
 ## 25. Prokaryotic vs Eukaryotic Cells: Summary Comparison
+
+<div class="table-wrap">
 
 | Feature                   | Prokaryotic Cell                                                           | Eukaryotic Cell                                                             |
 | ------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -1600,6 +1734,8 @@ $\beta$-phage.
 | Cytoplasm                 | No cytoskeleton (in most bacteria)                                         | Complex cytoskeleton (microfilaments, microtubules, intermediate filaments) |
 | Gene organisation         | Operons; no introns (in most)                                              | Individual genes; introns and exons; split genes                            |
 | Time to replicate         | 20--30 minutes (_E. Coli_)                                                 | 8--24 hours (human cell in culture)                                         |
+
+</div>
 
 ## 26. Practical Skills: Using a Microscope
 
@@ -1646,6 +1782,8 @@ mitotic index indicates slow division or quiescence.
 
 ### 27.1 Membrane Components
 
+<div class="table-wrap">
+
 | Component                          | Structure                                                                   | Function                                                                                                            |
 | ---------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Phospholipids                      | Hydrophilic phosphate head, hydrophobic fatty acid tails; form bilayer      | Form the basic structure; selectively permeable barrier                                                             |
@@ -1656,7 +1794,11 @@ mitotic index indicates slow division or quiescence.
 | Glycolipids                        | Lipids with carbohydrate chains                                             | Cell recognition; cell-cell signalling; tissue compatibility                                                        |
 | Cholesterol                        | See above                                                                   | See above                                                                                                           |
 
+</div>
+
 ### 27.2 Factors Affecting Membrane Fluidity
+
+<div class="table-wrap">
 
 | Factor                                     | Effect                   | Explanation                                                                           |
 | ------------------------------------------ | ------------------------ | ------------------------------------------------------------------------------------- |
@@ -1666,9 +1808,13 @@ mitotic index indicates slow division or quiescence.
 | Unsaturated fatty acids (cis double bonds) | Increases fluidity       | Kinked tails prevent tight packing                                                    |
 | Cholesterol                                | Buffers fluidity changes | Reduces fluidity at high temperature; increases fluidity at low temperature           |
 
+</div>
+
 ## 28. Prokaryotic Cells: Detailed Structure
 
 ### 28.1 Components of a Prokaryotic Cell
+
+<div class="table-wrap">
 
 | Component                    | Description                                                                                         | Function                                                                                                                    |
 | ---------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -1683,7 +1829,11 @@ mitotic index indicates slow division or quiescence.
 | Capsule (slime layer)        | Polysaccharide or polypeptide layer outside the cell wall                                           | Protection from phagocytosis; adhesion to surfaces; prevents desiccation                                                    |
 | Mesosome                     | Infolding of the plasma membrane                                                                    | May be involved in DNA replication and cell division (controversial; may be an artefact of electron microscopy preparation) |
 
+</div>
+
 ### 28.2 Gram Staining
+
+<div class="table-wrap">
 
 | Step                              | What Happens                                                                       | Result for Gram-Positive                         | Result for Gram-Negative            |
 | --------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------- |
@@ -1691,6 +1841,10 @@ mitotic index indicates slow division or quiescence.
 | 2. Iodine (mordant)               | Forms crystal violet-iodine complex                                                | Purple (trapped in thick peptidoglycan)          | Purple                              |
 | 3. Alcohol/acetone (decolouriser) | Dissolves outer membrane (Gram-negative); dehydrates peptidoglycan (Gram-positive) | Remains purple (thick peptidoglycan retains dye) | Becomes colourless (dye washed out) |
 | 4. Safranin (counterstain)        | Red dye stains decolourised cells                                                  | Purple (safranin has no visible effect)          | Pink/red (safranin stains the cell) |
+
+</div>
+
+<div class="table-wrap">
 
 | Feature             | Gram-Positive                                 | Gram-Negative                          |
 | ------------------- | --------------------------------------------- | -------------------------------------- |
@@ -1700,9 +1854,13 @@ mitotic index indicates slow division or quiescence.
 | Teichoic acids      | Present (in peptidoglycan)                    | Absent                                 |
 | Examples            | _Staphylococcus_, _Streptococcus_, _Bacillus_ | _E. Coli_, _Salmonella_, _Pseudomonas_ |
 
+</div>
+
 ## 29. Viruses: Structure and Replication
 
 ### 29.1 General Virus Structure
+
+<div class="table-wrap">
 
 | Component               | Description                                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1711,7 +1869,11 @@ mitotic index indicates slow division or quiescence.
 | Envelope (some viruses) | Lipid bilayer derived from the host cell membrane during budding; contains viral glycoproteins |
 | Attachment proteins     | Project from the capsid or envelope; bind to specific receptors on the host cell surface       |
 
+</div>
+
 ### 29.2 Examples of Viruses
+
+<div class="table-wrap">
 
 | Virus                      | Genetic Material           | Envelope? | Host Cell                                    | Disease                     |
 | -------------------------- | -------------------------- | --------- | -------------------------------------------- | --------------------------- |
@@ -1723,7 +1885,11 @@ mitotic index indicates slow division or quiescence.
 | Adenovirus                 | dsDNA                      | No        | Respiratory epithelial cells                 | Common cold, conjunctivitis |
 | Herpes simplex virus (HSV) | dsDNA                      | Yes       | Nerve cells (latent infection in ganglia)    | Cold sores, genital herpes  |
 
+</div>
+
 ### 29.3 Why Viruses Are Not Alive
+
+<div class="table-wrap">
 
 | Characteristic of Life | Do Viruses Show It?    | Explanation                                                     |
 | ---------------------- | ---------------------- | --------------------------------------------------------------- |
@@ -1733,9 +1899,13 @@ mitotic index indicates slow division or quiescence.
 | Response to stimuli    | No                     | No homeostatic mechanisms                                       |
 | Growth                 | No                     | Assembled from pre-formed components; do not grow               |
 
+</div>
+
 ## 30. Stem Cells
 
 ### 30.1 Types of Stem Cells
+
+<div class="table-wrap">
 
 | Type        | Source                                                                             | Potency                                                       | Can Differentiate Into                                                                       |
 | ----------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -1744,7 +1914,11 @@ mitotic index indicates slow division or quiescence.
 | Multipotent | Adult stem cells (bone marrow, umbilical cord blood, adipose tissue)               | Can form a limited range of cell types within one tissue type | Bone marrow: RBCs, WBCs, platelets; Neural stem cells: neurons, astrocytes, oligodendrocytes |
 | Unipotent   | Some adult stem cells                                                              | Can form only ONE cell type                                   | Satellite cells (muscle stem cells) $\to$ skeletal muscle cells only                         |
 
+</div>
+
 ### 30.2 Sources of Stem Cells
+
+<div class="table-wrap">
 
 | Source                                 | Advantages                                                                      | Disadvantages                                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -1753,7 +1927,11 @@ mitotic index indicates slow division or quiescence.
 | Induced pluripotent stem cells (iPSCs) | Pluripotent; patient's own cells (no immune rejection); no embryo destruction   | Risk of mutations from reprogramming; may not be fully equivalent to ESCs; expensive      |
 | Umbilical cord blood                   | Rich in haematopoietic stem cells; painless collection; lower immune rejection  | Limited volume; only haematopoietic stem cells (not pluripotent)                          |
 
+</div>
+
 ### 30.3 Therapeutic Uses of Stem Cells
+
+<div class="table-wrap">
 
 | Application                                  | Stem Cell Type                                           | Current Status                           |
 | -------------------------------------------- | -------------------------------------------------------- | ---------------------------------------- |
@@ -1764,9 +1942,13 @@ mitotic index indicates slow division or quiescence.
 | Parkinson's disease                          | Dopaminergic neurons derived from ESCs or iPSCs          | Clinical trials; promising early results |
 | Type 1 diabetes                              | Pancreatic $\beta$ cells derived from stem cells         | Research stage; clinical trials planned  |
 
+</div>
+
 ## 31. The Cytoskeleton
 
 ### 31.1 Components of the Cytoskeleton
+
+<div class="table-wrap">
 
 | Component                        | Protein                                                     | Diameter | Structure                                             | Function                                                                                                                                                |
 | -------------------------------- | ----------------------------------------------------------- | -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1774,7 +1956,11 @@ mitotic index indicates slow division or quiescence.
 | Intermediate filaments           | Various (keratin, vimentin, lamin, desmin, neurofilaments)  | ~10 nm   | Rope-like fibres (more stable than microfilaments)    | Mechanical strength; structural support; anchors organelles; nuclear lamina                                                                             |
 | Microtubules                     | Tubulin ($\alpha$-tubulin + $\beta$-tubulin dimers)         | ~25 nm   | Hollow tubes of 13 protofilaments (tubulin dimers)    | Cell shape; intracellular transport (motor proteins: kinesin and dynein walk along microtubules); spindle fibres in mitosis/meiosis; cilia and flagella |
 
+</div>
+
 ### 31.2 Motor Proteins
+
+<div class="table-wrap">
 
 | Motor Protein | Direction of Movement                                                | Cargo                      | Role                                                                         |
 | ------------- | -------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------- |
@@ -1782,9 +1968,13 @@ mitotic index indicates slow division or quiescence.
 | Dynein        | Moves towards the (-) end of microtubules (towards the centrosome)   | Vesicles, organelles       | Retrograde transport; drives beating of cilia and flagella                   |
 | Myosin        | Moves along actin filaments                                          | Vesicles, organelles       | Muscle contraction; cytokinesis; cell crawling                               |
 
+</div>
+
 ## 32. The Endoplasmic Reticulum and Golgi Apparatus
 
 ### 32.1 Rough Endoplasmic Reticulum (RER)
+
+<div class="table-wrap">
 
 | Feature    | Description                                                                                                                    |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -1793,7 +1983,11 @@ mitotic index indicates slow division or quiescence.
 | Transport  | Vesicles bud off from the RER and carry proteins to the Golgi apparatus                                                        |
 | Location   | Near the nucleus (continuous with the nuclear envelope)                                                                        |
 
+</div>
+
 ### 32.2 Smooth Endoplasmic Reticulum (SER)
+
+<div class="table-wrap">
 
 | Feature    | Description                                                                                                                                                                                                                                                                 |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1801,7 +1995,11 @@ mitotic index indicates slow division or quiescence.
 | Functions  | Lipid and steroid synthesis (e.g., cholesterol, steroid hormones); carbohydrate metabolism; detoxification (in liver cells, SER contains enzymes that break down drugs, alcohol, and other toxins); calcium storage (in muscle cells, SER is called sarcoplasmic reticulum) |
 | Location   | Throughout the cytoplasm                                                                                                                                                                                                                                                    |
 
+</div>
+
 ### 32.3 Golgi Apparatus
+
+<div class="table-wrap">
 
 | Feature    | Description                                                                                                                                                                      |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1810,9 +2008,13 @@ mitotic index indicates slow division or quiescence.
 | Direction  | Vesicles arrive from the RER at the cis face (receiving side); modified proteins leave from the trans face (shipping side)                                                       |
 | Transport  | Secretory vesicles carry proteins to the plasma membrane (exocytosis) or to lysosomes                                                                                            |
 
+</div>
+
 ## 33. The Extracellular Matrix (ECM)
 
 ### 33.1 Components of the ECM
+
+<div class="table-wrap">
 
 | Component       | Description                                                                                            | Function                                                                                                                  |
 | --------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -1822,7 +2024,11 @@ mitotic index indicates slow division or quiescence.
 | Proteoglycans   | Protein core with long chains of GAGs (glycosaminoglycans, e.g., chondroitin sulfate, heparan sulfate) | Fill the spaces between cells; resist compression (especially in cartilage); bind growth factors and signalling molecules |
 | Hyaluronic acid | Large GAG (not attached to a protein core)                                                             | Lubricates joints; provides hydration and turgor to tissues; component of the vitreous humour of the eye                  |
 
+</div>
+
 ### 33.2 Functions of the ECM
+
+<div class="table-wrap">
 
 | Function           | Description                                                                                                                                                          |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1832,6 +2038,8 @@ mitotic index indicates slow division or quiescence.
 | Filtration         | Basement membrane (specialised ECM) filters blood in the glomerulus (kidney)                                                                                         |
 | Wound healing      | ECM provides a framework for tissue repair; fibroblasts deposit new collagen during scar formation                                                                   |
 
+</div>
+
 ## 34. Apoptosis: Programmed Cell Death
 
 ### 34.1 What Is Apoptosis?
@@ -1840,6 +2048,8 @@ Apoptosis is an orderly, genetically programmed process of cell death that occur
 development and tissue homeostasis.
 
 ### 34.2 Process of Apoptosis
+
+<div class="table-wrap">
 
 | Step                        | Description                                                                                                                                         |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1851,7 +2061,11 @@ development and tissue homeostasis.
 | 6. Apoptotic body formation | The cell fragments into membrane-bound apoptotic bodies                                                                                             |
 | 7. Phagocytosis             | Apoptotic bodies are engulfed and digested by neighbouring cells or macrophages (no inflammatory response because cell contents are not released)   |
 
+</div>
+
 ### 34.3 Apoptosis vs Necrosis
+
+<div class="table-wrap">
 
 | Feature            | Apoptosis                                                    | Necrosis                                                            |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------- |
@@ -1862,7 +2076,11 @@ development and tissue homeostasis.
 | DNA fragmentation  | Organised (laddering pattern)                                | Random (smear pattern)                                              |
 | Role               | Essential for development; removes damaged or unwanted cells | Pathological; harmful to surrounding tissue                         |
 
+</div>
+
 ### 34.4 Examples of Apoptosis
+
+<div class="table-wrap">
 
 | Example               | Why Apoptosis Is Needed                                                                                         |
 | --------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -1872,9 +2090,13 @@ development and tissue homeostasis.
 | Menstrual cycle       | Breakdown of the endometrium if implantation does not occur                                                     |
 | DNA damage            | If DNA damage is too severe to repair, p53 triggers apoptosis (prevents cancer)                                 |
 
+</div>
+
 ## 35. Microscopy
 
 ### 35.1 Types of Microscopy
+
+<div class="table-wrap">
 
 | Type                                   | Resolution | Magnification     | Specimen Preparation                                                                                                    | What Can Be Seen                                                                               |
 | -------------------------------------- | ---------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1882,6 +2104,8 @@ development and tissue homeostasis.
 | Transmission electron microscope (TEM) | ~0.1 nm    | Up to ~1,000,000x | Specimen fixed, dehydrated, embedded in resin; ultra-thin sections (~100 nm); stained with heavy metals (uranium, lead) | Internal ultrastructure (organelles, membranes, ribosomes); very high resolution               |
 | Scanning electron microscope (SEM)     | ~10 nm     | Up to ~100,000x   | Specimen fixed, dehydrated; coated with gold/palladium                                                                  | 3D surface detail (external features of cells, pollen grains, insects); not internal structure |
 | Laser scanning confocal microscopy     | ~200 nm    | Up to ~1000x      | Fluorescent staining; optical sectioning (no physical sectioning needed)                                                | 3D images of fluorescently labelled structures inside living cells                             |
+
+</div>
 
 ### 35.2 Magnification and Scale
 
@@ -1893,6 +2117,8 @@ $$
 \text{Actual size} = \frac{\text{Image size}}{\text{Magnification}}
 $$
 
+<div class="table-wrap">
+
 | Unit       | Symbol | Conversion  |
 | ---------- | ------ | ----------- |
 | Metre      | m      | --          |
@@ -1900,9 +2126,13 @@ $$
 | Micrometre | $\mu$ M | $10^{-6}$ m |
 | Nanometre  | nm     | $10^{-9}$ m |
 
+</div>
+
 ## 36. Cell Division: Mitosis in Detail
 
 ### 36.1 The Four Stages of Mitosis
+
+<div class="table-wrap">
 
 | Stage     | What Happens                                                                                                                                                                                                          |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1911,16 +2141,24 @@ $$
 | Anaphase  | Centromeres divide; sister chromatids are pulled to opposite poles by the spindle fibres (shortening of microtubules); chromosomes are now individual chromatids (V-shaped)                                           |
 | Telophase | Chromatids arrive at the poles; they decondense (become chromatin again); nuclear envelope reforms around each set of chromosomes; nucleolus reappears; cytokinesis (cytoplasmic division) begins                     |
 
+</div>
+
 ### 36.2 Cytokinesis
+
+<div class="table-wrap">
 
 | Feature   | Animal Cells                                                                                   | Plant Cells                                                                                                                             |
 | --------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Mechanism | Cleavage furrow: contractile ring of actin and myosin pinches the cell in two from the outside | Cell plate: vesicles from the Golgi apparatus fuse at the equator; form a new cell wall (middle lamella) between the two daughter cells |
 | Result    | Two identical daughter cells                                                                   | Two identical daughter cells with new cell walls                                                                                        |
 
+</div>
+
 ## 37. Eukaryotic Cell Structure Summary
 
 ### 37.1 Organelle Functions Quick Reference
+
+<div class="table-wrap">
 
 | Organelle                  | Function                                                                          |
 | -------------------------- | --------------------------------------------------------------------------------- |
@@ -1940,7 +2178,11 @@ $$
 | Vacuole (plants)           | Storage (water, ions, pigments); maintains turgor pressure                        |
 | Peroxisomes                | Breakdown of fatty acids ($\beta$-oxidation); detoxification of hydrogen peroxide |
 
+</div>
+
 ## 38. Prokaryotic vs Eukaryotic Cells: Summary Comparison
+
+<div class="table-wrap">
 
 | Feature                   | Prokaryotic Cell                                                                  | Eukaryotic Cell                                                |
 | ------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -1957,9 +2199,13 @@ $$
 | Plasmids                  | Present                                                                           | Absent (in most eukaryotes)                                    |
 | Metabolic diversity       | Very high (chemolithoautotrophs, photoautotrophs, heterotrophs)                   | Lower (mainly heterotrophic; some photoautotrophic)            |
 
+</div>
+
 ## 39. Specialised Plant Cells
 
 ### 39.1 Palisade Mesophyll vs Spongy Mesophyll
+
+<div class="table-wrap">
 
 | Feature             | Palisade Mesophyll                                       | Spongy Mesophyll                                                                                       |
 | ------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -1968,7 +2214,11 @@ $$
 | Chloroplast density | Very high (many chloroplasts per cell)                   | Fewer chloroplasts per cell                                                                            |
 | Primary function    | Photosynthesis (light harvesting)                        | Gas exchange (air spaces allow $\mathrm{CO_2}$ to reach palisade cells; $\mathrm{O_2}$ to diffuse out) |
 
+</div>
+
 ### 39.2 Other Specialised Plant Cells
+
+<div class="table-wrap">
 
 | Cell Type             | Location                                     | Function                                                                                                    |
 | --------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -1979,12 +2229,16 @@ $$
 | Sclerenchyma (fibres) | Scattered in vascular bundles; also in stems | Lignified, dead cells that provide mechanical strength and support                                          |
 | Collenchyma           | Below the epidermis in young stems           | Living cells with unevenly thickened cellulose cell walls; provides flexible support to young growing stems |
 
+</div>
+
 ## 40. Cell Fractionation
 
 ### 40.1 Principles
 
 Cell fractionation is the process of breaking open cells and separating the organelles by
 differential centrifugation.
+
+<div class="table-wrap">
 
 | Step                           | Description                                                                                                                                 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1995,7 +2249,11 @@ differential centrifugation.
 | 5. Filtration                  | Homogenate is filtered through gauze to remove debris (unbroken cells, connective tissue)                                                   |
 | 6. Differential centrifugation | Organelles are separated by spinning at increasing speeds; heavier/larger organelles sediment first                                         |
 
+</div>
+
 ### 40.2 Centrifugation Steps
+
+<div class="table-wrap">
 
 | Centrifuge Speed         | Time   | Organelle Sedimented                        | Supernatant Contains                                         |
 | ------------------------ | ------ | ------------------------------------------- | ------------------------------------------------------------ |
@@ -2003,9 +2261,13 @@ differential centrifugation.
 | Medium speed (~10,000 g) | 20 min | Mitochondria, lysosomes                     | Microsomes (ER fragments), ribosomes (in solution)           |
 | High speed (~100,000 g)  | 60 min | Microsomes (rough ER, smooth ER), ribosomes | Soluble cytoplasm (enzymes, metabolites)                     |
 
+</div>
+
 ## 41. Mitosis in Detail
 
 ### 41.1 Interphase (Preparation for Division)
+
+<div class="table-wrap">
 
 | Phase         | Key Events                                                                                                |
 | ------------- | --------------------------------------------------------------------------------------------------------- |
@@ -2013,7 +2275,11 @@ differential centrifugation.
 | S (Synthesis) | DNA replication occurs (each chromosome is copied to form two sister chromatids joined at the centromere) |
 | G2 (Gap 2)    | Cell continues to grow; synthesises proteins needed for mitosis (e.g., tubulin for spindle fibres)        |
 
+</div>
+
 ### 41.2 Prophase
+
+<div class="table-wrap">
 
 | Event                  | Description                                                                                                                            |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2022,7 +2288,11 @@ differential centrifugation.
 | Nuclear envelope       | Breaks down and disappears                                                                                                             |
 | Nucleolus              | Disappears                                                                                                                             |
 
+</div>
+
 ### 41.3 Metaphase
+
+<div class="table-wrap">
 
 | Event      | Description                                                                                           |
 | ---------- | ----------------------------------------------------------------------------------------------------- |
@@ -2030,7 +2300,11 @@ differential centrifugation.
 | Attachment | Spindle fibres attach to the centromere of each chromosome via the kinetochore                        |
 | Checkpoint | The spindle assembly checkpoint ensures all chromosomes are correctly attached before anaphase begins |
 
+</div>
+
 ### 41.4 Anaphase and Telophase
+
+<div class="table-wrap">
 
 | Phase       | Events                                                                                                                                                                                                                                                                                                          |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2038,7 +2312,11 @@ differential centrifugation.
 | Telophase   | Chromosomes arrive at the poles and begin to decondense (uncoil back into chromatin); the nuclear envelope reforms around each set of chromosomes; the nucleolus reappears                                                                                                                                      |
 | Cytokinesis | The cytoplasm divides: in animal cells, the cell membrane is pulled inwards by a contractile ring of actin filaments (cleavage furrow); in plant cells, a cell plate forms from vesicles containing cell wall material at the equator; the cell plate grows outwards to divide the cell into two daughter cells |
 
+</div>
+
 ### 41.5 The Significance of Mitosis
+
+<div class="table-wrap">
 
 | Significance         | Description                                                                                                                                                       |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2046,6 +2324,8 @@ differential centrifugation.
 | Repair               | Replaces damaged or dead cells (e.g., skin cells, liver cells after injury)                                                                                       |
 | Asexual reproduction | Produces genetically identical offspring in organisms that reproduce asexually (e.g., binary fission in bacteria, budding in yeast, runners in strawberry plants) |
 | Genetic continuity   | Produces daughter cells that are genetically identical to the parent cell (same chromosome number and same alleles)                                               |
+
+</div>
 
 ---
 

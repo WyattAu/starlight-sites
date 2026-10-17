@@ -170,6 +170,8 @@ For moment generating functions: $M_Z(t) = M_X(t)\, M_Y(t)$.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Marginals determine the joint | no | $Y = X$ versus $Y = -X$ with $X$ standard normal |
@@ -177,6 +179,8 @@ For moment generating functions: $M_Z(t) = M_X(t)\, M_Y(t)$.
 | Correlation measures dependence strength | no | Anscombe's quartet: four datasets with identical correlation 0.816 and completely different shapes |
 | The sum of two normals is normal | no | unless they are *jointly* normal (bivariate normal) |
 | Independence is symmetric in marginals | yes | it is, but only because it is defined on the product measure |
+
+</div>
 
 **Uncorrelated does not mean independent.** The $Y = X^2$ example is the one to
 remember: $Y$ is completely determined by $X$, yet the covariance is zero by

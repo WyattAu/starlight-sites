@@ -58,6 +58,8 @@ This reference covers the operational knowledge needed to design, deploy, and ma
 System in a homelab or small-to-medium business environment. It is organized into the following
 Sections:
 
+<div class="table-wrap">
+
 | Section                 | Content                                                        |
 | ----------------------- | -------------------------------------------------------------- |
 | ZFS Deep Dive           | Pool architecture, vdev types, datasets, snapshots, ARC, scrub |
@@ -67,6 +69,8 @@ Sections:
 | Monitoring and Alerting | Grafana, Prometheus, SMART monitoring, alert configuration     |
 | Performance Tuning      | ARC sizing, recordsize, compression, SMB/NFS tuning, hardware  |
 | ZFS Encryption          | Native encryption, key management, raw send, security          |
+
+</div>
 
 The focus is on TrueNAS SCALE (Linux-based), but most ZFS concepts, CLI commands, and best practices
 Apply equally to TrueNAS CORE. Where there are platform-specific differences, they are noted.

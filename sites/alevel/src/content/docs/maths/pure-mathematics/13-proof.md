@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                                         |
 | ---------- | ---------- | ------------------------------------------------------------- |
 | AQA        | Paper 1    | Proof by deduction, contradiction, exhaustion, counterexample |
 | Edexcel    | P1, P2     | Similar; induction in P2                                      |
 | OCR (A)    | Paper 1, 2 | Proof is integrated throughout                                |
 | CIE (9709) | P1, P2, P3 | Various methods across papers                                 |
+
+</div>
 
 :::note
 Method and execute it, with every step justified.
@@ -158,6 +162,8 @@ So not all primes less than 10 are odd. The claim is **false**. The counterexamp
 
 **Proof.** Check each case:
 
+<div class="table-wrap">
+
 | $n$ | $n^2 + (n+1)^2$ | Odd? |
 | --- | --------------- | ---- |
 | 1   | 1 + 4 = 5       | Yes  |
@@ -165,6 +171,8 @@ So not all primes less than 10 are odd. The claim is **false**. The counterexamp
 | 3   | 9 + 16 = 25     | Yes  |
 | 4   | 16 + 25 = 41    | Yes  |
 | 5   | 25 + 36 = 61    | Yes  |
+
+</div>
 
 All five cases confirmed. $\blacksquare$
 

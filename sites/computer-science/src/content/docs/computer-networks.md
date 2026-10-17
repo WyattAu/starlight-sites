@@ -27,6 +27,8 @@ categories:
 The **Open Systems Interconnection (OSI)** model defines seven layers of abstraction for network
 Communication:
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                                     | Examples                  |
 | ----- | ------------ | -------------------------------------------- | ------------------------- |
 | 7     | Application  | User-facing protocols                        | HTTP, DNS, SMTP, FTP      |
@@ -36,6 +38,8 @@ Communication:
 | 3     | Network      | Logical addressing, routing                  | IP, ICMP, ARP, OSPF       |
 | 2     | Data Link    | Framing, error detection, MAC                | Ethernet, Wi-Fi, PPP      |
 | 1     | Physical     | Bit transmission on the medium               | Cables, hubs, radio waves |
+
+</div>
 
 **Encapsulation.** Each layer adds its own header (and possibly trailer) to the data from the layer
 Above, forming a **protocol data unit (PDU)**:
@@ -48,12 +52,16 @@ $$
 
 The **TCP/IP** model is the practical standard used on the Internet, with four layers:
 
+<div class="table-wrap">
+
 | Layer          | OSI Equivalent | Protocols            |
 | -------------- | -------------- | -------------------- |
 | Application    | 5, 6, 7        | HTTP, DNS, SMTP, TLS |
 | Transport      | 4              | TCP, UDP             |
 | Internet       | 3              | IP, ICMP, ARP        |
 | Network Access | 1, 2           | Ethernet, Wi-Fi, MAC |
+
+</div>
 
 ### 1.3 Comparison
 
@@ -62,6 +70,8 @@ Actual protocol implementations. The session and presentation layers in OSI are 
 Application layer in TCP/IP.
 
 **Detailed OSI vs TCP/IP comparison:**
+
+<div class="table-wrap">
 
 | Aspect                | OSI Model                              | TCP/IP Model                        |
 | --------------------- | -------------------------------------- | ----------------------------------- |
@@ -76,10 +86,14 @@ Application layer in TCP/IP.
 | Service interface     | Precisely defined (SAPs)               | Loosely defined                     |
 | Release               | 1984                                   | Developed 1970s, formalised 1980s   |
 
+</div>
+
 ### 1.4 Protocol Data Unit Encapsulation
 
 Each layer encapsulates data from the layer above by prepending a header (and appending a trailer at
 Layer 2). The resulting data unit is named according to its layer:
+
+<div class="table-wrap">
 
 | Layer       | PDU Name | Header Added         | Trailer | Size (typical) |
 | ----------- | -------- | -------------------- | ------- | -------------- |
@@ -88,6 +102,8 @@ Layer 2). The resulting data unit is named according to its layer:
 | Network     | Packet   | IP header            | None    | 20--60 bytes   |
 | Data Link   | Frame    | MAC header           | FCS     | 14--18 + 4 B   |
 | Physical    | Bits     | None (encoding)      | None    | N/A            |
+
+</div>
 
 **Encapsulation walkthrough.** Consider sending an HTTP GET request of 500 bytes through TCP/IP over
 Ethernet:
@@ -282,6 +298,8 @@ is near-optimal for this channel but has almost no margin for noise or interfere
 
 Line codes map binary data to signals suitable for the physical medium.
 
+<div class="table-wrap">
+
 | Encoding                | Description                            | Example            |
 | ----------------------- | -------------------------------------- | ------------------ |
 | NRZ (L)                 | High = 1, Low = 0                      | USB                |
@@ -291,6 +309,8 @@ Line codes map binary data to signals suitable for the physical medium.
 | 4B/5B                   | 4 data bits encoded as 5-bit codes     | 100BASE-TX         |
 | 8B/10B                  | 8 data bits encoded as 10-bit codes    | Gigabit Ethernet   |
 | 64B/66B                 | 64 data bits encoded as 66-bit codes   | 10GBASE-R          |
+
+</div>
 
 **Spectral efficiency.** Manchester encoding doubles the bandwidth requirement (two signal levels
 per Bit). 4B/5B adds 25% overhead. 8B/10B adds 25%. 64B/66B adds only 3% overhead.
@@ -485,6 +505,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 
 **Wi-Fi (IEEE 802.11).** Wireless LAN standards operating in the 2.4 GHz, 5 GHz, and 6 GHz bands.
 
+<div class="table-wrap">
+
 | Standard | Frequency | Max PHY Rate | Channel Width |
 | -------- | --------- | ------------ | ------------- |
 | 802.11a  | 5 GHz     | 54 Mbps      | 20 MHz        |
@@ -493,6 +515,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 | 802.11n  | 2.4/5 GHz | 600 Mbps     | 20/40 MHz     |
 | 802.11ac | 5 GHz     | 6.93 Gbps    | 20-160 MHz    |
 | 802.11ax | 2.4/5/6   | 9.6 Gbps     | 20-160 MHz    |
+
+</div>
 
 **Key 802.11 mechanisms:**
 
@@ -535,6 +559,8 @@ void wifi_send(frame *f) {
 
 **Frame format:**
 
+<div class="table-wrap">
+
 | Field    | Size      | Description                         |
 | -------- | --------- | ----------------------------------- |
 | Preamble | 7 bytes   | Alternating 1s and 0s for sync      |
@@ -545,11 +571,15 @@ void wifi_send(frame *f) {
 | Payload  | 46-1500 B | Data                                |
 | FCS      | 4 bytes   | Frame check sequence (CRC-32)       |
 
+</div>
+
 **MAC address:** 48-bit globally unique address. First 24 bits: OUI (organisation). Last 24 bits:
 Device-specific. Broadcast: `FF:FF:FF:FF:FF:FF`. Multicast: least significant bit of the first Octet
 is 1.
 
 **Ethernet evolution:**
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Medium            | Max Segment |
 | ------------ | -------- | ----------------- | ----------- |
@@ -561,6 +591,8 @@ is 1.
 | 10GBASE-LR   | 10 Gbps  | Single-mode fibre | 10 km       |
 | 100GBASE-SR4 | 100 Gbps | Multi-mode fibre  | 70-100 m    |
 | 400GBASE-DR4 | 400 Gbps | Single-mode fibre | 500 m       |
+
+</div>
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
@@ -586,12 +618,16 @@ A **Virtual LAN (VLAN)** logically segments a physical LAN into separate broadca
 
 **802.1Q frame tagging.** A 4-byte tag is inserted after the source MAC address:
 
+<div class="table-wrap">
+
 | Field         | Size    | Description                      |
 | ------------- | ------- | -------------------------------- |
 | TPID          | 16 bits | Tag Protocol Identifier (0x8100) |
 | PCP           | 3 bits  | Priority Code Point (802.1p)     |
 | DEI           | 1 bit   | Drop Eligible Indicator          |
 | VLAN ID (VID) | 12 bits | VLAN identifier (1-4094)         |
+
+</div>
 
 **Trunking.** Links between switches that carry traffic for multiple VLANs. Frames are tagged with
 Their VLAN ID on trunk links.
@@ -618,6 +654,8 @@ does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 
+<div class="table-wrap">
+
 | Aspect             | Store-and-Forward                 | Cut-Through                         |
 | ------------------ | --------------------------------- | ----------------------------------- |
 | Operation          | Receives entire frame first       | Reads destination MAC only          |
@@ -625,6 +663,8 @@ does not. $\blacksquare$
 | Error detection    | Can check FCS before forward      | Cannot check FCS                    |
 | Memory requirement | Must buffer full frame            | Only needs header buffer            |
 | Use case           | General-purpose switching         | Low-latency environments            |
+
+</div>
 
 Where $L$ is the full frame length, $L_h$ is the header length (14 bytes for Ethernet), $R$ is the
 Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
@@ -670,6 +710,8 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 
 **IPv4 header format (20 bytes minimum):**
 
+<div class="table-wrap">
+
 | Field          | Size    | Description                                   |
 | -------------- | ------- | --------------------------------------------- |
 | Version        | 4 bits  | Always 4                                      |
@@ -685,7 +727,11 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 | Src Address    | 32 bits | Source IPv4 address                           |
 | Dst Address    | 32 bits | Destination IPv4 address                      |
 
+</div>
+
 **Address classes:**
+
+<div class="table-wrap">
 
 | Class | Range                        | Default Mask  | First Bits |
 | ----- | ---------------------------- | ------------- | ---------- |
@@ -694,6 +740,8 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0 | 110        |
 | D     | 224.0.0.0 -- 239.255.255.255 | Multicast     | 1110       |
 | E     | 240.0.0.0 -- 255.255.255.255 | Reserved      | 1111       |
+
+</div>
 
 **Special addresses:** `127.0.0.0/8` (loopback), `0.0.0.0` (this network), `255.255.255.255`
 (broadcast).
@@ -704,12 +752,16 @@ An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.
 
 **Example.** Network `192.168.1.0/24` with `/26` mask (borrow 2 bits):
 
+<div class="table-wrap">
+
 | Subnet           | Range                          | Broadcast     |
 | ---------------- | ------------------------------ | ------------- |
 | 192.168.1.0/26   | 192.168.1.1 -- 192.168.1.62    | 192.168.1.63  |
 | 192.168.1.64/26  | 192.168.1.65 -- 192.168.1.126  | 192.168.1.127 |
 | 192.168.1.128/26 | 192.168.1.129 -- 192.168.1.190 | 192.168.1.191 |
 | 192.168.1.192/26 | 192.168.1.193 -- 192.168.1.254 | 192.168.1.255 |
+
+</div>
 
 Each subnet has $2^6 - 2 = 62$ usable hosts.
 
@@ -732,6 +784,8 @@ Subnet `192.168.10.0/24` to accommodate:
 **Strategy:** Allocate largest subnets first. For each subnet, find the smallest power of 2 that
 Provides enough addresses (including network and broadcast).
 
+<div class="table-wrap">
+
 | Subnet     | Hosts needed | $2^n$ | Prefix | Network           | Range        | Broadcast      |
 | ---------- | ------------ | ----- | ------ | ----------------- | ------------ | -------------- |
 | LAN A      | 60           | 64    | /26    | 192.168.10.0/26   | .1 -- .62    | 192.168.10.63  |
@@ -741,6 +795,8 @@ Provides enough addresses (including network and broadcast).
 | P2P Link 1 | 2            | 4     | /30    | 192.168.10.120/30 | .121 -- .122 | 192.168.10.123 |
 | P2P Link 2 | 2            | 4     | /30    | 192.168.10.124/30 | .125 -- .126 | 192.168.10.127 |
 | P2P Link 3 | 2            | 4     | /30    | 192.168.10.128/30 | .129 -- .130 | 192.168.10.131 |
+
+</div>
 
 **Remaining space:** 192.168.10.132/24 -- 192.168.10.255 (124 addresses for future use).
 
@@ -764,6 +820,8 @@ Group may be omitted; one consecutive group of all-zeros may be replaced with `:
 
 **IPv6 header format (40 bytes fixed):**
 
+<div class="table-wrap">
+
 | Field         | Size    | Description                 |
 | ------------- | ------- | --------------------------- |
 | Version       | 4 bits  | Always 6                    |
@@ -773,11 +831,15 @@ Group may be omitted; one consecutive group of all-zeros may be replaced with `:
 | Next Header   | 8 bits  | Type of extension header    |
 | Hop Limit     | 8 bits  | Replaces IPv4 TTL           |
 
+</div>
+
 **IPv6 header analysis.** The fixed 40-byte header with no options field is a deliberate
 simplification Over IPv4 (whose header ranges from 20 to 60 bytes). Every field is either fixed-size
 or has a defined offset. This allows routers to process IPv6 packets faster because they never need
 to Parse variable-length options. Optional functionality is moved to **extension headers**, which
 are Chained via the Next Header field:
+
+<div class="table-wrap">
 
 | Extension Header       | Next Header Value | Purpose                           |
 | ---------------------- | ----------------- | --------------------------------- |
@@ -787,6 +849,8 @@ are Chained via the Next Header field:
 | Destination Options    | 60                | Options for destination only      |
 | Authentication Header  | 51                | Integrity and authentication      |
 | Encapsulating Security | 50                | Confidentiality and integrity     |
+
+</div>
 
 **Transition mechanisms:** Dual stack, tunnelling (encapsulate IPv6 in IPv4), translation (NAT64).
 
@@ -857,6 +921,8 @@ Route to A goes through A).
 
 **OSPF packet fields:**
 
+<div class="table-wrap">
+
 | Field              | Description                           |
 | ------------------ | ------------------------------------- |
 | Header             | Version, area ID, router ID, checksum |
@@ -865,6 +931,8 @@ Route to A goes through A).
 | Advertising router | Router originating the LSA            |
 | Sequence number    | Detects stale or duplicate LSAs       |
 | Age                | Time since LSA originated (seconds)   |
+
+</div>
 
 **Path Vector Routing (BGP).** Used for inter-domain routing. Carries the full AS path to each
 Destination, not just the distance.
@@ -898,6 +966,8 @@ This prevents routing loops within the AS.
 
 **Routing protocol comparison:**
 
+<div class="table-wrap">
+
 | Feature      | RIP                | OSPF                   | BGP                  |
 | ------------ | ------------------ | ---------------------- | -------------------- |
 | Type         | Distance Vector    | Link State             | Path Vector          |
@@ -909,6 +979,8 @@ This prevents routing loops within the AS.
 | Scalability  | Small networks     | Large networks         | Internet-scale       |
 | Hierarchy    | Flat               | Areas                  | AS-based             |
 | VLSM support | RIPv2 only         | Yes                    | Yes                  |
+
+</div>
 
 <details>
 <summary>Worked Example: Routing Table Construction with Dijkstra's Algorithm</summary>
@@ -945,6 +1017,8 @@ $d(F) = 7$ Prev$(F) = E$.
 
 **Routing table at A:**
 
+<div class="table-wrap">
+
 | Destination | Next Hop | Cost | Path             |
 | ----------- | -------- | ---- | ---------------- |
 | B           | B        | 3    | A -- B           |
@@ -953,6 +1027,8 @@ $d(F) = 7$ Prev$(F) = E$.
 | E           | B        | 4    | A -- B -- E      |
 | F           | B        | 7    | A -- B -- E -- F |
 
+</div>
+
 </details>
 
 ### 4.7 ICMP
@@ -960,12 +1036,16 @@ $d(F) = 7$ Prev$(F) = E$.
 **Internet Control Message Protocol** provides error reporting and diagnostics. Encapsulated in IP
 (protocol number 1).
 
+<div class="table-wrap">
+
 | Type | Code | Meaning                    |
 | ---- | ---- | -------------------------- |
 | 0    | 0    | Echo reply                 |
 | 3    | 0-15 | Destination unreachable    |
 | 8    | 0    | Echo request (ping)        |
 | 11   | 0-1  | Time exceeded (TTL expiry) |
+
+</div>
 
 **Traceroute.** Sends packets with incrementing TTL. When TTL expires, the router returns an ICMP
 Time Exceeded message, revealing intermediate hops.
@@ -997,11 +1077,15 @@ cleanly.
 
 Number of fragments: $\lceil 3980 / 1480 \rceil = 3$.
 
+<div class="table-wrap">
+
 | Fragment | Header | Data   | MF  | Offset | Total  |
 | -------- | ------ | ------ | --- | ------ | ------ |
 | 1        | 20 B   | 1480 B | 1   | 0      | 1500 B |
 | 2        | 20 B   | 1480 B | 1   | 185    | 1500 B |
 | 3        | 20 B   | 1020 B | 0   | 370    | 1040 B |
+
+</div>
 
 Total transmitted: 4040 bytes (40 bytes of additional headers due to fragmentation).
 
@@ -1021,12 +1105,16 @@ single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes 
 
 **Connectionless, unreliable, message-oriented.** 8-byte header.
 
+<div class="table-wrap">
+
 | Field    | Size    | Description                       |
 | -------- | ------- | --------------------------------- |
 | Src port | 16 bits | Source port                       |
 | Dst port | 16 bits | Destination port                  |
 | Length   | 16 bits | Header + data length              |
 | Checksum | 16 bits | Optional (IPv4); mandatory (IPv6) |
+
+</div>
 
 **Use cases:** DNS, DHCP, VoIP, video streaming, gaming. Suitable when low latency matters more Than
 reliability, or when the application handles reliability itself.
@@ -1035,6 +1123,8 @@ reliability, or when the application handles reliability itself.
 
 **Connection-oriented, reliable, byte-stream.** Provides flow control, congestion control, ordered
 Delivery. Header: 20 bytes minimum.
+
+<div class="table-wrap">
 
 | Field       | Size    | Description                        |
 | ----------- | ------- | ---------------------------------- |
@@ -1048,9 +1138,13 @@ Delivery. Header: 20 bytes minimum.
 | Checksum    | 16 bits | Mandatory                          |
 | Urgent ptr  | 16 bits | Pointer to urgent data             |
 
+</div>
+
 ### 5.3 TCP Options
 
 The TCP header can include options (within the data offset space):
+
+<div class="table-wrap">
 
 | Option         | Size     | Purpose                                 |
 | -------------- | -------- | --------------------------------------- |
@@ -1059,6 +1153,8 @@ The TCP header can include options (within the data offset space):
 | SACK Permitted | 2 bytes  | Allow Selective Acknowledgements        |
 | SACK           | Variable | Specify blocks of received data         |
 | Timestamps     | 10 bytes | RTT measurement, PAWS protection        |
+
+</div>
 
 **Selective Acknowledgement (SACK).** Standard TCP only acknowledges contiguous data. If segments 3,
 4, 5 are lost but 6-10 arrive, the receiver can only ACK up to segment 2. SACK allows the Receiver
@@ -1069,6 +1165,8 @@ Paths. The window scale option shifts the window left by $S$ bits, allowing wind
 $2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 
 ### 5.4 TCP vs UDP Comparison
+
+<div class="table-wrap">
 
 | Aspect          | TCP                       | UDP                           |
 | --------------- | ------------------------- | ----------------------------- |
@@ -1082,6 +1180,8 @@ $2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 | Use cases       | Web, email, file transfer | DNS, VoIP, streaming, gaming  |
 | Broadcast       | No (point-to-point)       | Yes (broadcast and multicast) |
 | Retransmission  | Automatic                 | Application-level             |
+
+</div>
 
 **Theorem 5.1.** TCP achieves reliable ordered delivery over an unreliable network using cumulative
 Acknowledgements, sequence numbers, and retransmission timers.
@@ -1121,6 +1221,8 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 
 **TCP state diagram** (state transitions):
 
+<div class="table-wrap">
+
 | From        | Event                  | To          |
 | ----------- | ---------------------- | ----------- |
 | CLOSED      | passive open           | LISTEN      |
@@ -1138,6 +1240,8 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 | CLOSING     | recv ACK               | TIME_WAIT   |
 | LAST_ACK    | recv ACK               | CLOSED      |
 | TIME_WAIT   | 2 $\times$ MSL timeout | CLOSED      |
+
+</div>
 
 ### 5.6 Flow Control
 
@@ -1202,6 +1306,8 @@ Events:
 
 **Slow start (cwnd doubles each RTT):**
 
+<div class="table-wrap">
+
 | RTT | cwnd (MSS) | cwnd (bytes) | Phase                             |
 | --- | ---------- | ------------ | --------------------------------- |
 | 1   | 2          | 2920         | Slow start                        |
@@ -1209,13 +1315,19 @@ Events:
 | 3   | 8          | 11680        | Slow start                        |
 | 4   | 16         | 23360        | cwnd $\geq$ ssthresh $\to$ switch |
 
+</div>
+
 **Congestion avoidance (cwnd increases by ~1 MSS per RTT):**
+
+<div class="table-wrap">
 
 | RTT | cwnd (bytes) | Increment | Phase                |
 | --- | ------------ | --------- | -------------------- |
 | 5   | 24820        | +1460     | Congestion avoidance |
 | 6   | 26280        | +1460     | Congestion avoidance |
 | 7   | 27740        | +1460     | Congestion avoidance |
+
+</div>
 
 **Fast retransmit and recovery (after 3 dup ACKs):**
 
@@ -1299,6 +1411,8 @@ $\to$ subdomain (`www.example.com`).
 
 **Record types:**
 
+<div class="table-wrap">
+
 | Type  | Name  | Purpose                                  |
 | ----- | ----- | ---------------------------------------- |
 | A     | IPv4  | IPv4 address                             |
@@ -1308,6 +1422,8 @@ $\to$ subdomain (`www.example.com`).
 | NS    | Name  | Authoritative name server                |
 | SOA   | Start | Zone administration info                 |
 | TXT   | Text  | Arbitrary text (SPF, DKIM, verification) |
+
+</div>
 
 **Resolution process:**
 
@@ -1361,6 +1477,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 
 **HTTP methods:**
 
+<div class="table-wrap">
+
 | Method  | Idempotent | Safe | Purpose                        |
 | ------- | ---------- | ---- | ------------------------------ |
 | GET     | Yes        | Yes  | Retrieve a resource            |
@@ -1371,7 +1489,11 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | HEAD    | Yes        | Yes  | Like GET but no body           |
 | OPTIONS | Yes        | Yes  | Describe communication options |
 
+</div>
+
 **Status codes:**
+
+<div class="table-wrap">
 
 | Code Range | Category      | Examples                       |
 | ---------- | ------------- | ------------------------------ |
@@ -1380,6 +1502,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | 3xx        | Redirection   | 301 Moved, 304 Not Modified    |
 | 4xx        | Client Error  | 400 Bad Request, 404 Not Found |
 | 5xx        | Server Error  | 500 Internal, 503 Unavailable  |
+
+</div>
 
 ### 6.3 TLS
 
@@ -1449,6 +1573,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 (995 for POP3S). Simpler than IMAP but less flexible. Supports `TOP` (fetch headers) and `RETR`
 (fetch full message).
 
+<div class="table-wrap">
+
 | Aspect   | IMAP                  | POP3                 |
 | -------- | --------------------- | -------------------- |
 | Mode     | Remote access         | Download and delete  |
@@ -1456,6 +1582,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 | Search   | Server-side search    | No                   |
 | Sync     | Multi-device sync     | No                   |
 | Resource | Higher server storage | Lower server storage |
+
+</div>
 
 ### 6.5 Other Application Protocols
 
@@ -1533,6 +1661,8 @@ formalised in RFC 7766.
 **Symmetric encryption** uses the same secret key for both encryption and decryption. Both parties
 Must share the key securely before communication.
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Block Size | Status     |
 | --------- | -------- | ---------- | ---------- |
 | DES       | 56 bits  | 64 bits    | Insecure   |
@@ -1541,7 +1671,11 @@ Must share the key securely before communication.
 | AES-256   | 256 bits | 128 bits   | Secure     |
 | ChaCha20  | 256 bits | Stream     | Secure     |
 
+</div>
+
 **Block cipher modes of operation:**
+
+<div class="table-wrap">
 
 | Mode | Description                                   | Parallelisable  |
 | ---- | --------------------------------------------- | --------------- |
@@ -1549,6 +1683,8 @@ Must share the key securely before communication.
 | CBC  | Each block XORed with previous ciphertext     | Decryption only |
 | CTR  | Counter-based stream cipher from block cipher | Yes             |
 | GCM  | Authenticated encryption (CTR + MAC)          | Yes             |
+
+</div>
 
 **Theorem 7.1.** ECB mode is insecure for messages longer than one block because identical plaintext
 Blocks produce identical ciphertext blocks, revealing patterns.
@@ -1614,12 +1750,16 @@ A **firewall** controls network traffic based on security rules.
 
 **Types:**
 
+<div class="table-wrap">
+
 | Type                   | Layer | Mechanism                                  |
 | ---------------------- | ----- | ------------------------------------------ |
 | Packet filtering       | 3     | Permit/deny based on src, dst, port, proto |
 | Stateful inspection    | 3--4  | Tracks connection state (TCP states)       |
 | Application gateway    | 7     | Proxy for specific applications            |
 | Next-generation (NGFW) | 3--7  | Deep packet inspection, IDS/IPS, app ID    |
+
+</div>
 
 **Stateful inspection.** Unlike simple packet filtering, a stateful firewall maintains a connection
 Table. It can distinguish between a new TCP SYN (allowed) and an unsolicited SYN+ACK (blocked), And
@@ -1635,6 +1775,8 @@ Access.
 A company has a web server at `203.0.113.10`A mail server at `203.0.113.20`An internal network
 `10.0.0.0/24`And a DNS server at `10.0.0.53`.
 
+<div class="table-wrap">
+
 | #   | Dir | Src         | Dst          | Port    | Proto | Action |
 | --- | --- | ----------- | ------------ | ------- | ----- | ------ |
 | 1   | In  | Any         | 203.0.113.10 | 80, 443 | TCP   | Allow  |
@@ -1643,6 +1785,8 @@ A company has a web server at `203.0.113.10`A mail server at `203.0.113.20`An in
 | 4   | In  | Any         | 203.0.113.10 | Any     | ICMP  | Allow  |
 | 5   | In  | Any         | 10.0.0.53    | 53      | UDP   | Allow  |
 | 6   | In  | Any         | Any          | Any     | Any   | Deny   |
+
+</div>
 
 **Notes:**
 
@@ -1662,12 +1806,16 @@ Additional rules.
 
 A **Virtual Private Network** creates an encrypted tunnel over a public network.
 
+<div class="table-wrap">
+
 | Technology | Layer | Protocol      | Use Case                    |
 | ---------- | ----- | ------------- | --------------------------- |
 | IPsec      | 3     | AH, ESP       | Site-to-site, remote access |
 | SSL/TLS    | 4--7  | TLS 1.3       | Client-to-site (OpenVPN)    |
 | WireGuard  | 3     | UDP, ChaCha20 | Modern, lightweight VPN     |
 | SSH tunnel | 7     | SSH           | Ad-hoc port forwarding      |
+
+</div>
 
 **IPsec architecture (RFC 4301):**
 
@@ -1691,11 +1839,15 @@ A **Virtual Private Network** creates an encrypted tunnel over a public network.
 
 **Rule syntax (generic):**
 
+<div class="table-wrap">
+
 | Field  | Source IP  | Src Port | Dest IP    | Dst Port | Protocol | Action |
 | ------ | ---------- | -------- | ---------- | -------- | -------- | ------ |
 | Rule 1 | Any        | Any      | 10.0.0.0/8 | 22       | TCP      | Allow  |
 | Rule 2 | 10.0.0.0/8 | Any      | Any        | 80, 443  | TCP      | Allow  |
 | Rule 3 | Any        | Any      | Any        | Any      | Any      | Deny   |
+
+</div>
 
 **Key principles:**
 
@@ -1921,12 +2073,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site           | Link                                                          |
 | ------------------------------ | -------------- | ------------------------------------------------------------- |
 | Advanced Computer Networks     | WyattsNotes    | [View](/3-computer-networks/9_computer-networks-advanced/) |
 | Operating Systems              | WyattsNotes    | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/)          |
 | Databases                      | WyattsNotes    | [View](/2-systems/databases/)                  |
 | Computer Networking, Stanford | Stanford CS144 | [View](https://cs144.github.io/)                              |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -276,9 +276,13 @@ broadening reduce $k$ Providing automatic negative feedback.
 
 The following binding energies per nucleon are given:
 
+<div class="table-wrap">
+
 | Nucleus    | $^{56}\text{Fe}$ | $^{235}\text{U}$ | $^{2}\text{H}$ | $^{4}\text{He}$ | $^{12}\text{C}$ |
 | ---------- | ---------------- | ---------------- | -------------- | --------------- | --------------- |
 | BE/A (MeV) | 8.79             | 7.59             | 1.11           | 7.07            | 7.68            |
+
+</div>
 
 (a) Calculate the energy released when a $^{235}\text{U}$ nucleus splits into two $^{56}\text{Fe}$
 nuclei (approximately).

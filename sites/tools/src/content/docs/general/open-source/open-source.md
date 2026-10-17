@@ -56,6 +56,8 @@ Open source contribution benefits you as a systems engineer in several ways:
 
 Many projects label beginner-friendly issues:
 
+<div class="table-wrap">
+
 | Label               | Meaning                           | Where to Find                 |
 | ------------------- | --------------------------------- | ----------------------------- |
 | `good first issue`  | Suitable for new contributors     | GitHub issue filters          |
@@ -63,6 +65,8 @@ Many projects label beginner-friendly issues:
 | `help wanted`       | Maintainers actively seeking help | GitHub issue filters          |
 | `easy`              | Low complexity                    | Project-specific              |
 | `documentation`     | Docs need improvement             | Often overlooked, high impact |
+
+</div>
 
 ### Choosing a Project
 
@@ -82,6 +86,8 @@ Criteria for selecting a project to contribute to:
 
 ### Sources for Finding Projects
 
+<div class="table-wrap">
+
 | Source            | URL                 | Best For                      |
 | ----------------- | ------------------- | ----------------------------- |
 | GitHub Explore    | github.com/explore  | Trending projects             |
@@ -90,6 +96,8 @@ Criteria for selecting a project to contribute to:
 | Up For Grabs      | up-for-grabs.net    | Projects seeking contributors |
 | CodeTriage        | codetriage.com      | Projects needing issue triage |
 | 24 Pull Requests  | 24pullrequests.com  | Holiday contribution drive    |
+
+</div>
 
 ---
 
@@ -334,6 +342,8 @@ Any caveats, follow-up work, or questions for reviewers
 
 ### Common Open Source Licenses
 
+<div class="table-wrap">
+
 | License      | Copyleft | Patent Grant | Commercial Use | Distribution Requirement |
 | ------------ | -------- | ------------ | -------------- | ------------------------ |
 | MIT          | No       | No           | Yes            | Include license          |
@@ -341,6 +351,8 @@ Any caveats, follow-up work, or questions for reviewers
 | GPL v3       | Yes      | No           | Yes            | Source code disclosure   |
 | BSD 2-Clause | No       | No           | Yes            | Include license          |
 | Unlicense    | No       | No           | Yes            | None                     |
+
+</div>
 
 ### CLA vs. DCO
 
@@ -387,11 +399,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ### Semantic Versioning
 
+<div class="table-wrap">
+
 | Change Type                       | Version Bump | Example        |
 | --------------------------------- | ------------ | -------------- |
 | Breaking API change               | MAJOR        | 1.x.x to 2.0.0 |
 | New feature (backward compatible) | MINOR        | 1.0.x to 1.1.0 |
 | Bug fix (backward compatible)     | PATCH        | 1.0.0 to 1.0.1 |
+
+</div>
 
 ---
 
@@ -440,6 +456,8 @@ git commit -s -m "Fix memory leak in parser"
 
 ## Popular Communities
 
+<div class="table-wrap">
+
 | Platform                   | Focus                      | Notable Projects                       |
 | -------------------------- | -------------------------- | -------------------------------------- |
 | GitHub                     | General                    | Most major open source projects        |
@@ -448,6 +466,8 @@ git commit -s -m "Fix memory leak in parser"
 | Apache Software Foundation | Enterprise software        | Kafka, Spark, Lucene                   |
 | CNCF                       | Cloud native               | Kubernetes, Prometheus, Envoy          |
 | Linux Foundation           | Infrastructure             | Linux kernel, Node.js, PyTorch         |
+
+</div>
 
 ---
 
@@ -728,6 +748,8 @@ Dependency management. Understanding the trade-offs helps you navigate different
 
 ### Monorepo Characteristics
 
+<div class="table-wrap">
+
 | Aspect                | Monorepo                                 | Polyrepo                               |
 | --------------------- | ---------------------------------------- | -------------------------------------- |
 | Examples              | Google, Meta, Babel, React               | Linux kernel, most npm packages        |
@@ -736,6 +758,8 @@ Dependency management. Understanding the trade-offs helps you navigate different
 | Code reuse            | Trivial (same repo)                      | Requires published packages            |
 | Onboarding            | Larger clone, but single source of truth | Smaller clones, but more repos to find |
 | Branching model       | Feature branches across all packages     | Independent per-package branches       |
+
+</div>
 
 ### Build Systems for Monorepos
 
@@ -834,6 +858,8 @@ jobs:
 
 ### Test Categories for Systems Software
 
+<div class="table-wrap">
+
 | Test Type        | Scope                         | Tools                          | Examples                                  |
 | ---------------- | ----------------------------- | ------------------------------ | ----------------------------------------- |
 | Unit             | Single function/module        | pytest, jest, go test          | Testing a hash function                   |
@@ -843,10 +869,14 @@ jobs:
 | Fuzzing          | Security and crash resistance | libFuzzer, AFL                 | Finding buffer overflows                  |
 | Load/Performance | Under stress                  | k6, wrk, locust                | Verifying latency under 10k RPS           |
 
+</div>
+
 ## License Compatibility Matrix
 
 When contributing to open source, understanding license compatibility prevents legal issues for both
 you and the project. The most common licenses in systems software:
+
+<div class="table-wrap">
 
 | License        | Commercial Use | Modify | Distribute               | Patent Grant | Copyleft     |
 | -------------- | -------------- | ------ | ------------------------ | ------------ | ------------ |
@@ -859,6 +889,8 @@ you and the project. The most common licenses in systems software:
 | AGPL 3.0       | Yes            | Yes    | Yes (network use counts) | Yes          | Network      |
 | BSL 1.1        | Varies         | Varies | Varies                   | Yes          | No (delayed) |
 | Unlicense      | Yes            | Yes    | Yes                      | No           | No           |
+
+</div>
 
 ### Key Compatibility Rules
 
@@ -936,6 +968,8 @@ Culture, responsiveness, and newcomer friendliness.
 
 ### Community Comparison
 
+<div class="table-wrap">
+
 | Community         | Primary Language | Culture                        | Newcomer Friendliness                         |
 | ----------------- | ---------------- | ------------------------------ | --------------------------------------------- |
 | Kubernetes (CNCF) | Go               | Formal, governance-heavy       | Good docs, steep learning curve               |
@@ -946,6 +980,8 @@ Culture, responsiveness, and newcomer friendliness.
 | Linux Kernel      | C                | Meritocratic, strict           | Challenging, requires patch submission        |
 | PostgreSQL        | C                | Professional, consensus-driven | Good contribution guide, mailing list culture |
 | Home Assistant    | Python           | Community-focused              | Very welcoming, active Discord                |
+
+</div>
 
 ### Finding Your Niche
 

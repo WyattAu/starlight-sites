@@ -280,6 +280,8 @@ analytical skills needed for high-scoring essay responses.
 
 ### 3.1 Causes Compared
 
+<div class="table-wrap">
+
 | Factor           | WWI                                       | WWII                                       |
 | ---------------- | ----------------------------------------- | ------------------------------------------ |
 | Imperialism      | European competition for colonies         | Nazi Lebensraum and Japanese expansion     |
@@ -288,6 +290,8 @@ analytical skills needed for high-scoring essay responses.
 | Militarism       | Arms race and war plans                   | Massive rearmament, new technology         |
 | Economic factors | Industrial competition, trade rivalry     | Great Depression, German reparations       |
 | Trigger          | Assassination at Sarajevo                 | Invasion of Poland                         |
+
+</div>
 
 ### 3.2 Treaty Comparisons
 

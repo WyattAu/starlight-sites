@@ -272,6 +272,8 @@ Collectors (CMS) skip compaction to reduce pause times, trading pause time for f
 
 ### Collector Comparison
 
+<div class="table-wrap">
+
 | Collector  | Threads      | Generations | Compaction | Pause Goal       | Use Case                  |
 | ---------- | ------------ | ----------- | ---------- | ---------------- | ------------------------- |
 | Serial     | Single       | Both        | Yes        | Long pauses      | Client, embedded devices  |
@@ -280,6 +282,8 @@ Collectors (CMS) skip compaction to reduce pause times, trading pause time for f
 | G1         | Multiple STW | Both        | Regions    | Low pauses       | General purpose (default) |
 | ZGC        | Concurrent   | Both        | Relocating | &lt; 1 ms pauses | Low latency               |
 | Shenandoah | Concurrent   | Both        | Relocating | &lt; 1 ms pauses | Low latency               |
+
+</div>
 
 **STW** = Stop-The-World (all application threads paused during the GC phase).
 
@@ -360,6 +364,8 @@ many classes.
 
 Java 8 replaced PermGen with Metaspace:
 
+<div class="table-wrap">
+
 | Aspect      | PermGen (pre-Java 8)        | Metaspace (Java 8+)                      |
 | ----------- | --------------------------- | ---------------------------------------- |
 | Location    | Part of the Java heap       | Native memory (outside the heap)         |
@@ -367,6 +373,8 @@ Java 8 replaced PermGen with Metaspace:
 | String pool | In PermGen                  | In the regular heap                      |
 | GC          | Full GC to reclaim          | Triggered when usage exceeds threshold   |
 | OOM         | `OutOfMemoryError: PermGen` | `OutOfMemoryError: Metaspace`            |
+
+</div>
 
 ## GC Tuning
 

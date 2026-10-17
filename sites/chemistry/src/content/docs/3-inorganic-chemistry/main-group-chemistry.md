@@ -311,11 +311,15 @@ Acidity increases with oxidation state: $\text{HOCl} < \text{HClO}_2 < \text{HCl
 
 **Xenon fluorides:**
 
+<div class="table-wrap">
+
 | Compound | Geometry    | Xe Oxidation State |
 | -------- | ----------- | ------------------- |
 | XeF$_2$  | Linear      | +2                 |
 | XeF$_4$  | Square planar | +4               |
 | XeF$_6$  | Distorted octahedral | +6            |
+
+</div>
 
 XeF$_4$ has 12 valence electrons (2 lone pairs on Xe); square planar by VSEPR.
 
@@ -328,6 +332,8 @@ $\text{PF}_5$, $\text{SF}_6$, $\text{ClF}_3$, $\text{XeF}_4$.
 
 ### 9.2 VSEPR for Hypervalent Compounds
 
+<div class="table-wrap">
+
 | Steric Number | Geometry | Example |
 | ------------- | ------------------- | ---------- |
 | 5 | Trigonal bipyramidal | $\text{PF}_5$ |
@@ -337,6 +343,8 @@ $\text{PF}_5$, $\text{SF}_6$, $\text{ClF}_3$, $\text{XeF}_4$.
 | 6 | Octahedral | $\text{SF}_6$ |
 | 6 (1 lone pair) | Square pyramidal | $\text{IF}_5$ |
 | 6 (2 lone pairs) | Square planar | $\text{XeF}_4$ |
+
+</div>
 
 ### 9.3 3-Center-4-Electron Bonding Model
 
@@ -355,6 +363,8 @@ unfavorable for period 2 elements).
 
 ### 10.1 Oxidation State Trends
 
+<div class="table-wrap">
+
 | Group | Max Oxidation State | Common States  | Inert Pair Effect |
 | ----- | ------------------- | -------------- | ----------------- |
 | 13    | +3                  | +3, +1 (Tl)    | Present           |
@@ -363,6 +373,8 @@ unfavorable for period 2 elements).
 | 16    | +6                  | +6, +4, -2     | Weak              |
 | 17    | +7                  | +7, +5, +3, +1, -1 | None         |
 | 18    | +8 (Xe, Kr)        | +8, +6, +4, +2 | None             |
+
+</div>
 
 ### 10.2 Acid-Base Character of Oxides
 
@@ -436,12 +448,16 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Atomic Structure         | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)    |
 | Coordination Chemistry   | WyattsNotes | [View](/3-inorganic-chemistry/coordination-chemistry/)             |
 | Solid-State Chemistry    | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)              |
 | Main-Group Chemistry, MIT 5.04 | MIT OCW | [View](https://ocw.mit.edu/courses/5-04-principles-of-inorganic-chemistry-ii-fall-2008/) |
+
+</div>
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

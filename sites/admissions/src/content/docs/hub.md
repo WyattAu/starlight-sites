@@ -131,6 +131,8 @@ Most selective universities require additional essays. Common types include:
 
 ### Application Timeline
 
+<div class="table-wrap">
+
 | Month | Action |
 | ------- | -------- |
 | Summer before senior year | Draft personal essay, build activities list, research universities |
@@ -140,6 +142,8 @@ Most selective universities require additional essays. Common types include:
 | January | Regular Decision deadlines (typically January 1–15) |
 | March–April | Decisions released |
 | May 1 | National Decision Day, confirm your enrolment |
+
+</div>
 
 ---
 

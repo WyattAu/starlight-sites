@@ -350,12 +350,16 @@ $$
 
 The discrete spectral lines of hydrogen fall into series named after their discoverers:
 
+<div class="table-wrap">
+
 | Series   | Transition | Region      |
 | -------- | ---------- | ----------- |
 | Lyman    | $n \to 1$  | Ultraviolet |
 | Balmer   | $n \to 2$  | Visible     |
 | Paschen  | $n \to 3$  | Infrared    |
 | Brackett | $n \to 4$  | Infrared    |
+
+</div>
 
 The Balmer series is the most well-known because its lines fall in the visible range. The H-alpha
 Line ($n = 3 \to 2$) at $656\mathrm{ nm$ is a distinctive red line often observed in astrophysics.
@@ -630,11 +634,15 @@ Probability per unit time.
 
 Types of decay:
 
+<div class="table-wrap">
+
 | Type             | Symbol                         | Change                                 | Penetrating Power    |
 | ---------------- | ------------------------------ | -------------------------------------- | -------------------- |
 | Alpha decay      | $\alpha$ ($^4_2\mathrm{He$)    | $Z$ decreases by 2, $A$ decreases by 4 | Low (paper)          |
 | Beta-minus decay | $\beta^-$ ($^0_{-1}\mathrm{e$) | $Z$ increases by 1, $A$ unchanged      | Moderate (aluminium) |
 | Gamma decay      | $\gamma$                       | No change in $Z$ or $A$                | High (lead/concrete) |
+
+</div>
 
 **Alpha decay** occurs mainly in heavy nuclei ($A \gt 150$). The emitted alpha particle is a
 Helium-4 nucleus. Example: $^{238}_{92}\mathrm{U \to ^{234}_{90}\mathrm{Th + ^4_2\mathrm{He$.

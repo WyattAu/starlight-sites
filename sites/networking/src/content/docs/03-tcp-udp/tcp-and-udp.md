@@ -276,6 +276,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 
 **Key fields:**
 
+<div class="table-wrap">
+
 | Field                   | Size         | Purpose                                                       |
 | ----------------------- | ------------ | ------------------------------------------------------------- |
 | Source/Destination Port | 16 bits each | Multiplexing/demultiplexing                                   |
@@ -287,7 +289,11 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | Checksum                | 16 bits      | Covers header, data, and pseudo-header (mandatory)            |
 | Urgent Pointer          | 16 bits      | Offset from sequence number indicating urgent data            |
 
+</div>
+
 **TCP Flags:**
+
+<div class="table-wrap">
 
 | Flag | Bit  | Purpose                                        |
 | ---- | ---- | ---------------------------------------------- |
@@ -297,6 +303,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | RST  | 0x04 | Reset the connection (error, abort)            |
 | PSH  | 0x08 | Push data to the application immediately       |
 | URG  | 0x20 | Urgent pointer is valid                        |
+
+</div>
 
 ### TCP Reliability Mechanisms
 
@@ -373,10 +381,14 @@ Faster than waiting for the timeout.
 
 **RTO vs fast retransmit:**
 
+<div class="table-wrap">
+
 | Mechanism       | Trigger          | Response                                         | Latency                      |
 | --------------- | ---------------- | ------------------------------------------------ | ---------------------------- |
 | RTO             | Timer expires    | Retransmit, reset cwnd to 1 MSS, slow start      | One full RTO (200ms to 120s) |
 | Fast retransmit | 3 duplicate ACKs | Retransmit, set ssthresh = cwnd/2, fast recovery | One RTT                      |
+
+</div>
 
 ### Flow Control
 
@@ -554,6 +566,8 @@ stateDiagram-v2
 TCP options are carried in the header after the Urgent Pointer. They are negotiated during the
 Three-way handshake.
 
+<div class="table-wrap">
+
 | Option         | Kind | Purpose                                                         |
 | -------------- | ---- | --------------------------------------------------------------- |
 | MSS            | 2    | Maximum Segment Size (payload size the sender can accept)       |
@@ -562,6 +576,8 @@ Three-way handshake.
 | SACK           | 5    | Carries SACK blocks                                             |
 | Timestamps     | 8    | RTT measurement and PAWS (Protection Against Wrapped Sequences) |
 | TCP Fast Open  | 34   | Allows data in the SYN (RFC 7413)                               |
+
+</div>
 
 **MSS (Maximum Segment Size):** Advertised during the handshake. Each side announces the largest
 Segment it can receive. The effective MSS is the minimum of both ends' MSS values minus IP and TCP
@@ -578,13 +594,19 @@ Links).
 Port numbers allow TCP and UDP to multiplex multiple connections on a single IP address. They are
 16-bit values (0-65535).
 
+<div class="table-wrap">
+
 | Range       | Name                      | Assignment                                       |
 | ----------- | ------------------------- | ------------------------------------------------ |
 | 0-1023      | Well-known (system ports) | Assigned by IANA. Require root to bind on Linux. |
 | 1024-49151  | Registered (user ports)   | Assigned by IANA for specific services.          |
 | 49152-65535 | Ephemeral (dynamic ports) | Assigned by the OS for outbound connections.     |
 
+</div>
+
 Common well-known ports:
+
+<div class="table-wrap">
 
 | Port | Protocol | Service          |
 | ---- | -------- | ---------------- |
@@ -598,6 +620,8 @@ Common well-known ports:
 | 5432 | TCP      | PostgreSQL       |
 | 6379 | TCP      | Redis            |
 | 8080 | TCP      | HTTP (alternate) |
+
+</div>
 
 ```bash
 # View active TCP connections
@@ -631,6 +655,8 @@ Port 443) because the 4-tuple is unique for each client.
 
 ## TCP vs UDP: Decision Framework
 
+<div class="table-wrap">
+
 | Criterion          | TCP                                                  | UDP                                     |
 | ------------------ | ---------------------------------------------------- | --------------------------------------- |
 | Reliability        | Guaranteed delivery, ordering, duplicate suppression | Best effort, no guarantees              |
@@ -642,6 +668,8 @@ Port 443) because the 4-tuple is unique for each client.
 | Throughput         | Limited by congestion control                        | Limited only by application and network |
 | Latency            | Higher (handshake, retransmission)                   | Lower                                   |
 | Use cases          | Web, email, file transfer, databases                 | DNS, NTP, streaming, gaming, QUIC       |
+
+</div>
 
 **Use TCP when:** You need reliable, ordered delivery and the application does not want to implement
 Its own reliability layer. This covers the vast majority of applications.

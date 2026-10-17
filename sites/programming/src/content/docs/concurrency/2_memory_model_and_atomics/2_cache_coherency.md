@@ -29,12 +29,16 @@ False sharing, and padding/alignment techniques to prevent false sharing in mult
 The **MESI protocol** is a widely used cache coherence protocol that maintains consistency across
 CPU caches. Each cache line is in one of four states:
 
+<div class="table-wrap">
+
 | State             | Description                                                     | Can Read? | Can Write?                                   |
 | ----------------- | --------------------------------------------------------------- | --------- | -------------------------------------------- |
 | **M** (Modified)  | This cache has the only valid copy; it differs from main memory | Yes       | Yes                                          |
 | **E** (Exclusive) | This cache has the only valid copy; it matches main memory      | Yes       | Yes (transitions to M)                       |
 | **S** (Shared)    | Multiple caches have valid copies matching main memory          | Yes       | No (must request exclusive)                  |
 | **I** (Invalid)   | This cache line is not valid                                    | No        | No (must request from other cache or memory) |
+
+</div>
 
 The MESI protocol is a **write-invalidate** protocol: when a core wants to write to a shared line,
 It first invalidates all other copies rather than updating them. This is simpler than a write-update
@@ -83,6 +87,8 @@ $$
 
 ### Formal State Transition Table
 
+<div class="table-wrap">
+
 | Current State | Event       | Action                                | New State |
 | :------------ | :---------- | :------------------------------------ | :-------- |
 | M             | Local Read  | None                                  | M         |
@@ -102,6 +108,8 @@ $$
 | I             | Snoop Read  | None                                  | I         |
 | I             | Snoop Write | None                                  | I         |
 
+</div>
+
 ## Cache Line Structure
 
 A cache line is the minimum unit of cache coherence. On modern x86-64 processors, a cache line is
@@ -112,11 +120,15 @@ A cache line is the minimum unit of cache coherence. On modern x86-64 processors
 
 The cache hierarchy on a typical modern CPU:
 
+<div class="table-wrap">
+
 | Level  | Size          | Latency (cycles) | Associativity |
 | :----- | :------------ | :--------------- | :------------ |
 | **L1** | 32-64 KB      | 3-4              | 8-way         |
 | **L2** | 256 KB - 1 MB | 10-14            | 8-16 way      |
 | **L3** | 4-64 MB       | 30-50            | 16-64 way     |
+
+</div>
 
 ### Cache Line Addressing
 
@@ -167,11 +179,15 @@ Programs with frequent writes to shared data.
 
 The cost of an invalidation depends on the cache hierarchy level at which the line resides:
 
+<div class="table-wrap">
+
 | Scenario                          | Coherence Traffic         | Latency (approximate) |
 | :-------------------------------- | :------------------------ | :-------------------- |
 | Same core, different hyperthreads | None (shared L1)          | ~4 cycles             |
 | Same socket, different cores      | L3 snoop + invalidation   | ~40 cycles            |
 | Different sockets (NUMA)          | Inter-socket interconnect | ~100-200 cycles       |
+
+</div>
 
 ## False Sharing
 
@@ -573,6 +589,8 @@ only). On ARM/AArch64, it emits a `DMB ISH` instruction to ensure store buffer d
 
 AMD processors use a five-state extension of MESI called **MOESI**, adding an **Owned** state:
 
+<div class="table-wrap">
+
 | State | Description                                                                                                                                                    |
 | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **M** | Modified, differs from memory, no other copies exist                                                                                                          |
@@ -580,6 +598,8 @@ AMD processors use a five-state extension of MESI called **MOESI**, adding an **
 | **E** | Exclusive, matches memory, no other copies exist                                                                                                              |
 | **S** | Shared, matches memory, copies may exist in other caches                                                                                                      |
 | **I** | Invalid, not cached                                                                                                                                           |
+
+</div>
 
 The Owned state eliminates the write-back-to-memory step when a Modified line is read by another
 Core: the data is transferred cache-to-cache, reducing main memory traffic. This is particularly

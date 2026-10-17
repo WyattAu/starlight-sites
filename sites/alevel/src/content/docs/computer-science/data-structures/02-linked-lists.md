@@ -211,6 +211,8 @@ def dll_delete(node):
 
 ### Operations Summary
 
+<div class="table-wrap">
+
 | Operation                    | Singly | Doubly |
 | ---------------------------- | ------ | ------ |
 | Insert at head               | $O(1)$ | $O(1)$ |
@@ -223,6 +225,8 @@ def dll_delete(node):
 | Delete given node            | $O(n)$ | $O(1)$ |
 | Search by value              | $O(n)$ | $O(n)$ |
 | Access by index              | $O(n)$ | $O(n)$ |
+
+</div>
 
 :::note
 - **AQA** focuses on singly linked lists with pointer-based implementation (using `NULL` / `nil`
@@ -238,6 +242,8 @@ def dll_delete(node):
 
 ### Formal Comparison
 
+<div class="table-wrap">
+
 | Property          | Array                | Linked List         |
 | ----------------- | -------------------- | ------------------- |
 | Memory layout     | Contiguous           | Scattered           |
@@ -251,6 +257,8 @@ def dll_delete(node):
 | Memory overhead   | None                 | Pointer(s) per node |
 | Cache performance | Excellent            | Poor                |
 | Memory allocation | Pre-allocated        | Per-node dynamic    |
+
+</div>
 
 ### Cache Performance Analysis
 
@@ -468,6 +476,8 @@ Iterative reverse algorithm. Show the state after each iteration.
 
 Initial: `prev = None`, `current = [1] → [2] → [3] → [4] → None`
 
+<div class="table-wrap">
+
 | Iteration | prev            | current         | next_node |
 | --------- | --------------- | --------------- | --------- |
 | 1         | None            | [1] → [2] → ... | [2] → ... |
@@ -475,6 +485,8 @@ Initial: `prev = None`, `current = [1] → [2] → [3] → [4] → None`
 | (after 2) | [2]→[1]         | [3] → [4] → ... | [4] → ... |
 | (after 3) | [3]→[2]→[1]     | [4] → None      | None      |
 | (after 4) | [4]→[3]→[2]→[1] | None            | None      |
+
+</div>
 
 Result: `[4] → [3] → [2] → [1] → None`
 
@@ -487,6 +499,8 @@ Operations, and memory usage.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Property   | Array-based circular buffer    | Circular linked list             |
 | ---------- | ------------------------------ | -------------------------------- |
 | Enqueue    | $O(1)$                         | $O(1)$                           |
@@ -495,6 +509,8 @@ Operations, and memory usage.
 | Max size   | Fixed at creation              | Dynamic (until memory exhausted) |
 | Cache perf | Excellent (contiguous)         | Poor (scattered)                 |
 | Overflow   | Possible (fixed size)          | Not possible                     |
+
+</div>
 
 The array implementation is preferred when the maximum size is known and memory efficiency matters.
 The linked list is preferred when the size is highly variable.
@@ -665,12 +681,16 @@ whether you can go backwards in a singly linked list.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation                            | Singly                                          | Doubly                                   |
 | ------------------------------------ | ----------------------------------------------- | ---------------------------------------- |
 | (a) Memory per node                  | $O(d + p)$ (1 pointer)                          | $O(d + 2p)$ (2 pointers)                 |
 | (b) Insert at tail (no tail pointer) | $O(n)$, traverse to end                        | $O(n)$, must still traverse from head   |
 | (c) Insert before a given node       | $O(n)$, traverse from head to find predecessor | $O(1)$, use `node.prev`                 |
 | (d) Delete a given node (reference)  | $O(n)$, need predecessor to update its `next`  | $O(1)$, use `node.prev` and `node.next` |
+
+</div>
 
 Where $d$ is data size and $p$ is pointer size. The doubly linked list uses more memory per node (an
 Extra pointer) but provides $O(1)$ insertion before and deletion of a known node.
@@ -827,11 +847,15 @@ Data structure supports each operation most efficiently.
 
 Required operations and their complexities:
 
+<div class="table-wrap">
+
 | Operation         | Dynamic Array                                     | Singly Linked List                           |
 | ----------------- | ------------------------------------------------- | -------------------------------------------- |
 | Add to end        | $O(1)$ amortised                                  | $O(1)$ with tail pointer                     |
 | Remove from front | $O(n)$, shift all elements                       | $O(1)$, update head pointer                 |
 | Move to front     | $O(n)$, remove from middle + shift + insert at 0 | $O(n)$, find node, remove, reinsert at head |
+
+</div>
 
 **Analysis:**
 

@@ -42,6 +42,8 @@ many structures but have key differences. Understanding these differences is fun
 Explain why plants can stand upright without a skeleton, why only plant cells can photosynthesise,
 And why plant cells have a fixed, rectangular shape while animal cells are flexible and irregular.
 
+<div class="table-wrap">
+
 | Structure         | Function                                                      | Plant/Animal            |
 | ----------------- | ------------------------------------------------------------- | ----------------------- |
 | Cell membrane     | Controls what enters and leaves the cell; partially permeable | Both                    |
@@ -52,6 +54,8 @@ And why plant cells have a fixed, rectangular shape while animal cells are flexi
 | Cell wall         | Made of cellulose; provides structural support                | Plant only              |
 | Permanent vacuole | Contains cell sap; helps maintain cell shape                  | Plant only              |
 | Chloroplasts      | Site of photosynthesis; contain chlorophyll                   | Plant only (some cells) |
+
+</div>
 
 **The cell membrane as a gatekeeper.** The cell membrane is not a solid barrier; it is a dynamic
 Structure composed of a phospholipid bilayer with embedded proteins. Small, non-polar molecules
@@ -131,6 +135,8 @@ to antibiotics and why bacterial infections can spread so rapidly.
 
 **Detailed comparison:**
 
+<div class="table-wrap">
+
 | Feature                   | Eukaryotic cells                    | Prokaryotic cells         |
 | ------------------------- | ----------------------------------- | ------------------------- |
 | Nucleus                   | Yes, membrane-bound                 | No (nucleoid region only) |
@@ -143,11 +149,15 @@ to antibiotics and why bacterial infections can spread so rapidly.
 | Plasmids                  | No                                  | Yes                       |
 | Examples                  | Animals, plants, fungi, protists    | Bacteria, archaea         |
 
+</div>
+
 ### 1.3 Cell Specialisation
 
 Cells are specialised to perform specific functions. Every specialisation you encounter can be
 Understood by asking one question: what structural feature increases the rate of whatever process
 the cell needs to carry out?
+
+<div class="table-wrap">
 
 | Cell Type        | Specialisation                                   | Function                     |
 | ---------------- | ------------------------------------------------ | ---------------------------- |
@@ -160,6 +170,8 @@ the cell needs to carry out?
 | Palisade cell    | Many chloroplasts, tall and thin                 | Photosynthesis               |
 | Egg cell         | Large, contains food store, cytoplasm            | Fertilisation                |
 | Ciliated cell    | Has cilia that beat to move mucus                | Remove debris from airways   |
+
+</div>
 
 **Building intuition for specialisation.** The red blood cell is a particularly elegant example. Its
 Biconcave disc shape maximises surface area for oxygen diffusion. It has no nucleus -- this might
@@ -326,11 +338,15 @@ Cell is not the DNA but which genes are switched on (expressed) and which are sw
 Differentiation, certain genes are permanently switched off. Once a cell has differentiated, it
 cannot change back (this is called being "terminally differentiated").
 
+<div class="table-wrap">
+
 | Type                 | Source                               | Potential                                         |
 | -------------------- | ------------------------------------ | ------------------------------------------------- |
 | Embryonic stem cells | Early embryos                        | Can become any cell type (totipotent/pluripotent) |
 | Adult stem cells     | Bone marrow, brain, etc.             | Can become a limited range of cell types          |
 | Plant stem cells     | Meristems (tips of shoots and roots) | Can become any plant cell type                    |
+
+</div>
 
 **Totipotent vs. Pluripotent vs. Multipotent.** A totipotent stem cell can become any cell type,
 Including placental cells. Only the zygote and the first few cells of the early embryo (up to the
@@ -432,6 +448,8 @@ Movement in either direction.
 
 **Factors affecting the rate of diffusion:**
 
+<div class="table-wrap">
+
 | Factor                 | Effect on Rate                    | Why                                                       |
 | ---------------------- | --------------------------------- | --------------------------------------------------------- |
 | Concentration gradient | Increases rate                    | Larger difference means more net movement                 |
@@ -440,6 +458,8 @@ Movement in either direction.
 | Diffusion distance     | Decreases rate                    | Longer distance means slower transfer                     |
 | Molecular size         | Smaller molecules diffuse faster  | Less resistance; larger molecules collide more frequently |
 | Membrane permeability  | More permeable = faster diffusion | Determines which substances can cross freely              |
+
+</div>
 
 **Worked Example.** Oxygen diffuses from the alveoli (high concentration) into the blood (low
 Concentration). Carbon dioxide diffuses from the blood into the alveoli. This simultaneous exchange
@@ -469,11 +489,15 @@ Potential.
 
 **What happens to cells in different solutions:**
 
+<div class="table-wrap">
+
 | Solution   | Animal cell                  | Plant cell                                       |
 | ---------- | ---------------------------- | ------------------------------------------------ |
 | Hypotonic  | Swells and may burst (lysis) | Becomes turgid (firm, rigid)                     |
 | Isotonic   | Normal                       | Normal (slightly flaccid)                        |
 | Hypertonic | Shrinks (crenation)          | Plasmolyses (membrane pulls away from cell wall) |
+
+</div>
 
 **Why plant cells do not burst.** Plant cells have a rigid cell wall made of cellulose. When water
 Enters by osmosis in a hypotonic solution, the cell expands but the cell wall exerts an inward
@@ -549,6 +573,8 @@ Available glucose is absorbed.
 
 **Comparison of transport mechanisms:**
 
+<div class="table-wrap">
+
 | Feature           | Diffusion                 | Osmosis                     | Active Transport              |
 | ----------------- | ------------------------- | --------------------------- | ----------------------------- |
 | Direction         | High to low concentration | High to low water potential | Low to high concentration     |
@@ -556,6 +582,8 @@ Available glucose is absorbed.
 | Membrane needed?  | No                        | Yes (partially permeable)   | Yes (carrier proteins)        |
 | What moves?       | Any particles             | Water molecules only        | Specific molecules/ions       |
 | Can it reach eqm? | Yes                       | Yes                         | No (works to create gradient) |
+
+</div>
 
 ## 4. Cell Organisation
 
@@ -576,6 +604,8 @@ $$
 
 ### 4.2 Examples in the Human Body
 
+<div class="table-wrap">
+
 | Level        | Example            |
 | ------------ | ------------------ |
 | Cell         | Muscle cell        |
@@ -584,7 +614,11 @@ $$
 | Organ system | Circulatory system |
 | Organism     | Human              |
 
+</div>
+
 **Another example -- the digestive system:**
+
+<div class="table-wrap">
 
 | Level        | Example           |
 | ------------ | ----------------- |
@@ -593,6 +627,8 @@ $$
 | Organ        | Small intestine   |
 | Organ system | Digestive system  |
 | Organism     | Human             |
+
+</div>
 
 ## 5. Higher Tier: Microscopy and Cell Size Calculations
 
@@ -628,11 +664,15 @@ Surface. The specimen is coated with a thin layer of metal (e.g., gold) to make 
 Biological measurements often involve very small numbers. You must be confident converting between
 Units.
 
+<div class="table-wrap">
+
 | Unit       | Symbol | Conversion to metres |
 | ---------- | ------ | -------------------- |
 | Millimetre | mm     | $\times 10^{-3}$ m   |
 | Micrometre | $\mu$ M | $\times 10^{-6}$ m   |
 | Nanometre  | nm     | $\times 10^{-9}$ m   |
+
+</div>
 
 **Worked Example.** A mitochondrion is $5 \mu\mathrm{m$ long. Express this in nanometres.
 

@@ -59,12 +59,16 @@ $$
 
 A typical breakdown for a well-cooled desktop CPU:
 
+<div class="table-wrap">
+
 | Interface             | Thermal Resistance | Temperature Rise (at 150 W) |
 | --------------------- | ------------------ | --------------------------- |
 | Die to IHS (soldered) | 0.05–0.10 °C/W     | 7.5–15 °C                   |
 | TIM (paste)           | 0.10–0.30 °C/W     | 15–45 °C                    |
 | Heatsink (convection) | 0.05–0.15 °C/W     | 7.5–22.5 °C                 |
 | **Total**             | **0.20–0.55 °C/W** | **30–82.5 °C**              |
+
+</div>
 
 ---
 
@@ -84,6 +88,8 @@ A typical breakdown for a well-cooled desktop CPU:
 The TIM (Thermal Interface Material) between the CPU IHS and the heatsink is critical. Even the best
 Heatsink is useless if the thermal interface has high thermal resistance.
 
+<div class="table-wrap">
+
 | TIM Type                                    | Thermal Conductivity   | Longevity                | Ease of Application | Best For                     |
 | ------------------------------------------- | ---------------------- | ------------------------ | ------------------- | ---------------------------- |
 | Standard paste (NT-H2, MX-4)                | 4–8 W/m·K              | 3–5 years                | Easy                | Most users                   |
@@ -91,6 +97,8 @@ Heatsink is useless if the thermal interface has high thermal resistance.
 | Liquid metal (Thermal Grizzly Conductonaut) | 73 W/m·K               | 2–5 years (with coating) | Difficult, risky    | Extreme overclocking         |
 | Phase-change pad (PTM7950)                  | 6–8 W/m·K              | 5+ years                 | Very easy           | Low maintenance              |
 | Graphite pad                                | 15–25 W/m·K (in-plane) | Indefinite               | Easy                | Laptops (single application) |
+
+</div>
 
 ### Application Methods
 
@@ -139,6 +147,8 @@ from one or more fans pushes heat away from the fins.
 
 Key specifications to evaluate:
 
+<div class="table-wrap">
+
 | Spec        | What It Means                          | Good Value                               |
 | ----------- | -------------------------------------- | ---------------------------------------- |
 | TDP Rating  | Maximum heat dissipation               | Match or exceed CPU TDP + 50 W           |
@@ -146,6 +156,8 @@ Key specifications to evaluate:
 | Fan Size    | Larger fans move more air at lower RPM | 120 mm or 140 mm preferred               |
 | Noise Level | Measured in dBA at specified RPM       | &lt; 25 dBA at full speed                |
 | Weight      | Must be supported by the motherboard   | &lt; 1 kg without backplate              |
+
+</div>
 
 ### Heat Pipe Technology
 
@@ -170,6 +182,8 @@ The number and diameter of heat pipes matter:
 
 Understanding fan specs is critical for selecting the right fans for your build:
 
+<div class="table-wrap">
+
 | Spec            | Unit           | What It Means                                               |
 | --------------- | -------------- | ----------------------------------------------------------- |
 | Airflow         | CFM or m$^3$/h | Volume of air moved per unit time                           |
@@ -177,6 +191,8 @@ Understanding fan specs is critical for selecting the right fans for your build:
 | RPM             | rev/min        | Fan speed; higher = more airflow but more noise             |
 | Noise           | dBA            | Sound pressure level at 1 meter                             |
 | Bearing Type    |,              | Longevity and noise characteristics                         |
+
+</div>
 
 **Static pressure vs. Airflow:** Heatsinks and radiators present high airflow resistance. You need
 Fans with high static pressure to push air through them effectively. Case exhaust fans benefit more
@@ -191,12 +207,16 @@ Fan bearing types ranked by longevity:
 
 ### Top Air Coolers (Reference)
 
+<div class="table-wrap">
+
 | Cooler                                | TDP Rating | Height | Noise    | Price     |
 | ------------------------------------- | ---------- | ------ | -------- | --------- |
 | Noctua NH-D15 G2                      | 280 W      | 165 mm | Very low | Premium   |
 | Thermalright Peerless Assassin 120 SE | 260 W      | 155 mm | Low      | Budget    |
 | be quiet! Dark Rock Pro 5             | 270 W      | 168 mm | Very low | Premium   |
 | Scythe Fuma 3                         | 220 W      | 154 mm | Low      | Mid-range |
+
+</div>
 
 ---
 
@@ -224,6 +244,8 @@ An All-In-One (AIO) liquid cooler consists of:
 
 ### Radiator Size Comparison
 
+<div class="table-wrap">
+
 | Radiator Size   | Surface Area | Cooling Capacity | Typical Use                        |
 | --------------- | ------------ | ---------------- | ---------------------------------- |
 | 120 mm (single) | ~0.015 m$^2$ | 150 W            | Low-TDP CPUs, SFF builds           |
@@ -232,15 +254,21 @@ An All-In-One (AIO) liquid cooler consists of:
 | 360 mm (triple) | ~0.045 m$^2$ | 350–400 W        | High-end CPUs, overclocking        |
 | 420 mm          | ~0.053 m$^2$ | 400–450 W        | Extreme overclocking, Threadripper |
 
+</div>
+
 ### Fan Configuration on Radiators
 
 The orientation of fans on a radiator significantly affects thermals and noise:
+
+<div class="table-wrap">
 
 | Configuration                        | Thermals        | Noise          | Notes                                   |
 | ------------------------------------ | --------------- | -------------- | --------------------------------------- |
 | Push (fans outside, blowing through) | Good            | Moderate       | Most common, easier to clean            |
 | Pull (fans inside, pulling through)  | Slightly better | Slightly lower | Harder to clean dust from fins          |
 | Push-Pull (fans on both sides)       | Best            | Highest        | Doubles fan count, marginal improvement |
+
+</div>
 
 ### AIO Failure Modes
 
@@ -278,6 +306,8 @@ A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes
 Custom water cooling loops offer the best thermal performance and lowest noise but require
 Significant expertise and maintenance.
 
+<div class="table-wrap">
+
 | Component   | Function                                        | Key Considerations                                      |
 | ----------- | ----------------------------------------------- | ------------------------------------------------------- |
 | Water block | Mounts to CPU/GPU, transfers heat to coolant    | Copper or nickel-plated copper; micro-channel design    |
@@ -287,6 +317,8 @@ Significant expertise and maintenance.
 | Tubing      | Connects components                             | PETG, acrylic, or soft tubing (PTFE, PVC)               |
 | Fittings    | Connect tubing to components                    | Compression, barb, or rotary fittings                   |
 | Coolant     | Heat transfer fluid                             | Distilled water + biocide + anticorrosive, or pre-mixed |
+
+</div>
 
 ### Loop Order
 
@@ -381,6 +413,8 @@ Compared to mesh panels. For high-TDP GPUs (300+ W), a mesh front panel is stron
 
 A well-tuned fan curve keeps temperatures acceptable while minimizing noise:
 
+<div class="table-wrap">
+
 | Temperature | Fan Speed | Behavior                                       |
 | ----------- | --------- | ---------------------------------------------- |
 | Below 40 °C | 0–30%     | Near-silent, adequate for idle and light loads |
@@ -388,6 +422,8 @@ A well-tuned fan curve keeps temperatures acceptable while minimizing noise:
 | 60–75 °C    | 60–85%    | Noticeable; gaming load                        |
 | 75–85 °C    | 85–100%   | Loud; approaching thermal limits               |
 | Above 85 °C | 100%      | Maximum cooling; investigate cause             |
+
+</div>
 
 ### Fan Control Software
 
@@ -427,6 +463,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ### Hardware Monitoring Points
 
+<div class="table-wrap">
+
 | Sensor            | Location           | What It Measures           |
 | ----------------- | ------------------ | -------------------------- |
 | CPU Package Temp  | On-die             | Average CPU temperature    |
@@ -438,7 +476,11 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | NVMe Temp         | On-drive sensor    | SSD temperature            |
 | System Temp       | Motherboard sensor | Ambient case temperature   |
 
+</div>
+
 ### Safe Temperature Limits
+
+<div class="table-wrap">
 
 | Component              | Maximum Sustained | Thermal Throttling | Danger Zone            |
 | ---------------------- | ----------------- | ------------------ | ---------------------- |
@@ -448,6 +490,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | AMD GPU (RDNA 3)       | 85 °C             | 110 °C (junction)  | &gt; 115 °C (junction) |
 | NVMe SSD               | 60 °C             | 70 °C              | &gt; 75 °C             |
 | VRM                    | 80 °C             | N/A                | &gt; 100 °C            |
+
+</div>
 
 ---
 
@@ -472,6 +516,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ### Decibel Reference
 
+<div class="table-wrap">
+
 | Level  | Example             | Perceived Loudness     |
 | ------ | ------------------- | ---------------------- |
 | 10 dBA | Near-silent room    | Barely audible         |
@@ -480,6 +526,8 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 | 40 dBA | Quiet office        | Quiet, noticeable      |
 | 50 dBA | Normal conversation | Moderate               |
 | 60 dBA | Busy restaurant     | Loud, tiring over time |
+
+</div>
 
 ### Strategies for Quiet Operation
 
@@ -624,6 +672,8 @@ Wide heatsinks (140 mm+ width). Marginally better than single fan due to higher 
 
 Fan blade design affects airflow, static pressure, and noise:
 
+<div class="table-wrap">
+
 | Design                | Airflow  | Static Pressure | Noise        | Use Case             |
 | --------------------- | -------- | --------------- | ------------ | -------------------- |
 | Standard              | Good     | Moderate        | Moderate     | Case exhaust         |
@@ -631,6 +681,8 @@ Fan blade design affects airflow, static pressure, and noise:
 | High airflow          | High     | Low             | Low-Moderate | Case intake          |
 | Silent (FDB, low RPM) | Low      | Low             | Very Low     | Quiet builds         |
 | PWM-controlled        | Variable | Variable        | Variable     | All scenarios        |
+
+</div>
 
 Key blade parameters:
 
@@ -643,11 +695,15 @@ Key blade parameters:
 
 ### Pump Types
 
+<div class="table-wrap">
+
 | Pump Type                 | Location   | Noise        | Reliability | Flow Rate  |
 | ------------------------- | ---------- | ------------ | ----------- | ---------- |
 | Centrifugal (most common) | Cold plate | Low-Moderate | High        | 60–120 L/h |
 | Peristaltic               | External   | High         | Moderate    | 30–80 L/h  |
 | Axial                     | Cold plate | Moderate     | Moderate    | 80–150 L/h |
+
+</div>
 
 Centrifugal pumps are the most common in AIO coolers. They use an impeller to push coolant radially
 Outward, creating pressure that drives flow through the loop. The pump is integrated into The cold
@@ -669,11 +725,15 @@ AIO coolant is a mixture of:
 
 FPI (Fins Per Inch) determines the balance between surface area and airflow resistance:
 
+<div class="table-wrap">
+
 | FPI   | Density | Fan Required    | Use Case                      |
 | ----- | ------- | --------------- | ----------------------------- |
 | 12–16 | Low     | Low-RPM fans    | Quiet builds, large radiators |
 | 17–20 | Medium  | Medium-RPM fans | Most builds                   |
 | 21–30 | High    | High-RPM fans   | Maximum cooling, loud         |
+
+</div>
 
 Low-FPI radiators (12–16 FPI) perform better with low-RPM fans because the airflow can penetrate the
 Fin stack more . High-FPI radiators require high-static-pressure fans to push air through the Dense
@@ -681,12 +741,16 @@ fin stack, which generates more noise.
 
 ### Cross-Flow vs. Down-Flow Radiator Mounting
 
+<div class="table-wrap">
+
 | Mounting     | Airflow       | Thermals       | Tube Routing  | Use Case                           |
 | ------------ | ------------- | -------------- | ------------- | ---------------------------------- |
 | Top exhaust  | Bottom to top | Good           | Down and over | Standard                           |
 | Top intake   | Top to bottom | Slightly worse | Down and over | Positive pressure, dust management |
 | Front intake | Front to back | Good           | Side and up   | Standard                           |
 | Side mount   | Horizontal    | Variable       | Side          | Specialty cases                    |
+
+</div>
 
 ## Custom Loop Design Considerations
 
@@ -716,6 +780,8 @@ Before purchasing components, plan the loop:
 
 ### Coolant Maintenance Schedule
 
+<div class="table-wrap">
+
 | Maintenance Task               | Frequency    | Notes                                               |
 | ------------------------------ | ------------ | --------------------------------------------------- |
 | Check coolant level            | Monthly      | Top off if below minimum                            |
@@ -726,7 +792,11 @@ Before purchasing components, plan the loop:
 | Inspect blocks for corrosion   | Annually     | Remove blocks and inspect interior surfaces         |
 | Clean pump/reservoir           | Annually     | Remove debris from pump impeller                    |
 
+</div>
+
 ### Water Block Selection
+
+<div class="table-wrap">
 
 | Block Type            | Restriction | Cooling Performance | Compatibility        |
 | --------------------- | ----------- | ------------------- | -------------------- |
@@ -734,6 +804,8 @@ Before purchasing components, plan the loop:
 | CPU block (universal) | Moderate    | Good                | Socket-specific      |
 | Monoblock (CPU + VRM) | Moderate    | Excellent           | Motherboard-specific |
 | RAM block             | Low         | Minimal             | DIMM-specific        |
+
+</div>
 
 Full-cover GPU blocks cool the GPU die, VRAM, and VRMs. They are the most effective but are specific
 to each GPU model. When upgrading your GPU, you need a new block.
@@ -843,12 +915,16 @@ is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 
 At higher altitudes, air density decreases, which reduces the cooling capacity of air-based cooling
 Solutions:
 
+<div class="table-wrap">
+
 | Altitude        | Air Density (vs. Sea level) | Cooling Capacity Reduction |
 | --------------- | --------------------------- | -------------------------- |
 | 0 m (sea level) | 100%                        | 0%                         |
 | 1000 m          | 88%                         | ~12%                       |
 | 2000 m          | 78%                         | ~22%                       |
 | 3000 m          | 69%                         | ~31%                       |
+
+</div>
 
 At 2000 m altitude, your cooling solution is approximately 22% less effective. This means a cooler
 Rated for 250 W at sea level can only handle approximately 195 W at 2000 m. Plan accordingly if you
@@ -861,6 +937,8 @@ Live at high altitude.
 PWM (Pulse Width Modulation) controls fan speed by rapidly switching the power on and off. The duty
 Cycle determines the percentage of time the power is on:
 
+<div class="table-wrap">
+
 | Duty Cycle | Effective Voltage (12V fan) | Approximate RPM   |
 | ---------- | --------------------------- | ----------------- |
 | 0%         | 0 V                         | 0 RPM (stopped)   |
@@ -868,6 +946,8 @@ Cycle determines the percentage of time the power is on:
 | 50%        | 6 V                         | 50–55% of max RPM |
 | 75%        | 9 V                         | 75–80% of max RPM |
 | 100%       | 12 V                        | 100% RPM          |
+
+</div>
 
 Modern 4-pin PWM fans maintain a constant 12V supply and use the PWM signal to control the fan motor
 Directly. This provides smoother speed control and lower minimum speeds than 3-pin DC fans.
@@ -919,12 +999,16 @@ Small form factor (SFF) builds face unique thermal challenges:
 
 ### SFF Cooling Strategies
 
+<div class="table-wrap">
+
 | Strategy               | Description                     | Thermals | Noise    |
 | ---------------------- | ------------------------------- | -------- | -------- |
 | Low-profile air cooler | Noctua NH-L9a-AM4, be quiet! LP | Moderate | Low      |
 | AIO (120mm or 240mm)   | Compact liquid cooling          | Good     | Moderate |
 | Desk-facing case       | Case acts as convection surface | Good     | Very Low |
 | Ducted airflow         | Direct intake to CPU cooler     | Good     | Low      |
+
+</div>
 
 ### SFF-Specific Considerations
 
@@ -958,11 +1042,15 @@ echo 100 | sudo tee /sys/class/thermal/cooling_device0/cur_state
 
 ACPI defines thermal zones with trip points that trigger cooling actions:
 
+<div class="table-wrap">
+
 | Trip Point Type | Action                        | Typical Setting     |
 | --------------- | ----------------------------- | ------------------- |
 | Passive         | Throttle CPU (reduce P-state) | 85 °C               |
 | Active (fan)    | Increase fan speed            | 60 °C, 70 °C, 80 °C |
 | Critical        | Emergency shutdown            | 100 °C              |
+
+</div>
 
 ### Cross-Platform Monitoring Script
 

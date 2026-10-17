@@ -191,6 +191,8 @@ Acknowledged until the receiver sends a SETTINGS_ACK frame.
 
 The SETTINGS frame configures connection-level parameters:
 
+<div class="table-wrap">
+
 | Parameter              | Default   | Description                                  |
 | ---------------------- | --------- | -------------------------------------------- |
 | HEADER_TABLE_SIZE      | 4096      | Maximum size of the HPACK dynamic table      |
@@ -199,6 +201,8 @@ The SETTINGS frame configures connection-level parameters:
 | INITIAL_WINDOW_SIZE    | 65535     | Initial flow control window for new streams  |
 | MAX_FRAME_SIZE         | 16384     | Maximum frame payload size (16384 to 2^24-1) |
 | MAX_HEADER_LIST_SIZE   | unlimited | Maximum total header size                    |
+
+</div>
 
 ```bash
 ## Test HTTP/2 with curl
@@ -253,6 +257,8 @@ Recovery per-stream, so a lost packet on one stream does not block other streams
 
 QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3. Key properties:
 
+<div class="table-wrap">
+
 | Property                  | TCP + TLS                | QUIC                     |
 | ------------------------- | ------------------------ | ------------------------ |
 | Transport                 | TCP                      | UDP                      |
@@ -262,6 +268,8 @@ QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3.
 | Connection identification | 4-tuple (IP+port)        | Connection ID            |
 | Connection migration      | No                       | Yes (IP/port change)     |
 | Middlebox interference    | Significant              | Minimal (encrypted)      |
+
+</div>
 
 ### 0-RTT Connection Establishment
 
@@ -341,6 +349,8 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 
 ## HTTP/3 vs HTTP/2 Comparison
 
+<div class="table-wrap">
+
 | Feature              | HTTP/2              | HTTP/3                      |
 | -------------------- | ------------------- | --------------------------- |
 | Transport            | TCP                 | QUIC (over UDP)             |
@@ -353,6 +363,8 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 | Server push          | Supported           | Supported (also deprecated) |
 | Prioritization       | Weight/dependency   | Extensible prioritization   |
 | Binary framing       | Yes                 | Yes (different format)      |
+
+</div>
 
 ### QPACK Header Compression
 
@@ -413,12 +425,16 @@ Clients should always fall back gracefully:
 
 Major CDNs support HTTP/3:
 
+<div class="table-wrap">
+
 | CDN        | HTTP/3 Support | Alt-Svc Header      |
 | ---------- | -------------- | ------------------- |
 | Cloudflare | Yes (default)  | h3=":443"; ma=86400 |
 | Fastly     | Yes            | h3=":443"; ma=86400 |
 | Akamai     | Yes            | h3=":443"; ma=86400 |
 | AWS CF     | Yes            | h3=":443"; ma=86400 |
+
+</div>
 
 ### Browser Support
 
@@ -436,11 +452,15 @@ All modern browsers support HTTP/3:
 HTTP/3's 1-RTT handshake (vs HTTP/2's 2-3 RTT) provides a measurable latency improvement for first
 Connections. For repeat connections with 0-RTT, the improvement is even more significant.
 
+<div class="table-wrap">
+
 | Scenario             | HTTP/1.1             | HTTP/2             | HTTP/3                       |
 | -------------------- | -------------------- | ------------------ | ---------------------------- |
 | New connection       | 3 RTT                | 3 RTT              | 1 RTT                        |
 | Repeat connection    | 1 RTT                | 1 RTT              | 0 RTT                        |
 | Lost packet (mobile) | 1 RTT per connection | Blocks all streams | Only affected stream blocked |
+
+</div>
 
 ### Throughput
 
@@ -451,12 +471,16 @@ Lossy networks (mobile, satellite) due to the elimination of TCP-level HOL block
 
 Measured over a 100ms RTT link:
 
+<div class="table-wrap">
+
 | Protocol           | Setup Time    | Data First Byte |
 | ------------------ | ------------- | --------------- |
 | HTTP/1.1 + TLS 1.2 | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/2 + TLS 1.2   | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/3 (new)       | 100ms (1 RTT) | 200ms (2 RTT)   |
 | HTTP/3 (repeat)    | 0ms (0-RTT)   | 100ms (1 RTT)   |
+
+</div>
 
 ## HTTP/4 and Beyond
 
@@ -631,6 +655,8 @@ Further frames can be sent on that stream.
 
 Error codes:
 
+<div class="table-wrap">
+
 | Code | Name                | Description                                     |
 | ---- | ------------------- | ----------------------------------------------- |
 | 0x0  | NO_ERROR            | Graceful shutdown                               |
@@ -647,6 +673,8 @@ Error codes:
 | 0xb  | ENHANCE_YOUR_CALM   | Too many frames (stop sending so fast)          |
 | 0xc  | INADEQUATE_SECURITY | TLS not acceptable                              |
 | 0xd  | HTTP_1_1_REQUIRED   | Use HTTP/1.1 instead                            |
+
+</div>
 
 ### GOAWAY (0x7)
 
@@ -721,6 +749,8 @@ Frame {
 
 ### HTTP/3 Frame Types
 
+<div class="table-wrap">
+
 | Type | Name         | Description                                    |
 | ---- | ------------ | ---------------------------------------------- |
 | 0x00 | DATA         | Request or response body                       |
@@ -735,9 +765,13 @@ Frame {
 | 0x41 | CONNECT_IP   | Extended CONNECT for IP proxying               |
 | 0x42 | CONNECT_UDP  | Extended CONNECT for UDP proxying              |
 
+</div>
+
 ### Variable-Length Integer Encoding
 
 HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
+
+<div class="table-wrap">
 
 | First 2 Bits | Length  | Usable Bits | Maximum Value             |
 | ------------ | ------- | ----------- | ------------------------- |
@@ -745,6 +779,8 @@ HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
 | 01           | 2 bytes | 14          | 16,383                    |
 | 10           | 4 bytes | 30          | 1,073,741,823             |
 | 11           | 8 bytes | 62          | 4,611,686,018,427,387,903 |
+
+</div>
 
 Small values (common in practice) use fewer bytes. For example, a DATA frame with 50 bytes of
 Payload needs only 1 byte for the length field (50 fits in 6 bits), whereas HTTP/2 always uses 3

@@ -188,6 +188,8 @@ A significant share of global trade, investment, and employment.
 
 **Current Account:**
 
+<div class="table-wrap">
+
 | Component         | Credits (+)                                                          | Debits (-)                                                          |
 | ----------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Trade in goods    | Exports of goods                                                     | Imports of goods                                                    |
@@ -195,7 +197,11 @@ A significant share of global trade, investment, and employment.
 | Primary income    | Investment income from abroad, compensation of employees from abroad | Investment income paid abroad, compensation paid to foreign workers |
 | Secondary income  | Transfers received (remittances in, aid received)                    | Transfers paid (remittances out, aid given)                         |
 
+</div>
+
 **Financial Account:**
+
+<div class="table-wrap">
 
 | Component            | Credits (+)                                               | Debits (-)                                     |
 | -------------------- | --------------------------------------------------------- | ---------------------------------------------- |
@@ -203,6 +209,8 @@ A significant share of global trade, investment, and employment.
 | Portfolio investment | Foreign purchase of domestic securities                   | Domestic purchase of foreign securities        |
 | Other investment     | Foreign loans to domestic entities, deposits from abroad  | Domestic loans abroad, deposits overseas       |
 | Reserve assets       | Decrease in reserves (using reserves to support currency) | Increase in reserves (accumulating reserves)   |
+
+</div>
 
 Note: the sign convention for reserve assets is reversed. An increase in reserves (buying foreign
 Currency) is recorded as a debit (-), because it represents a capital outflow from the domestic
@@ -316,12 +324,16 @@ A current account deficit is unsustainable if financed by:
 
 The following data are available:
 
+<div class="table-wrap">
+
 | Country | CPI (local currency, base 2020 = 100) |
 | ------- | ------------------------------------- |
 | USA     | 120                                   |
 | UK      | 108                                   |
 | Japan   | 95                                    |
 | India   | 130                                   |
+
+</div>
 
 The exchange rate in 2020 was GBP/USD $= 0.75$ and JPY/USD $= 110$ and INR/USD $= 75$.
 
@@ -425,6 +437,8 @@ Mechanism, Capital Markets Union) address some gaps but progress is incomplete.
 Country X is a copper exporter. The following data show its terms of trade and income terms of
 Trade:
 
+<div class="table-wrap">
+
 | Year | Export Price Index | Import Price Index | ToT   | Export Volume Index | Income ToT |
 | ---- | ------------------ | ------------------ | ----- | ------------------- | ---------- |
 | 2018 | 100                | 100                | 100.0 | 100                 | 100.0      |
@@ -432,6 +446,8 @@ Trade:
 | 2020 | 125                | 140                | 89.3  | 80                  | 71.4       |
 | 2021 | 105                | 120                | 87.5  | 90                  | 78.8       |
 | 2022 | 115                | 115                | 100.0 | 105                 | 105.0      |
+
+</div>
 
 (a) Calculate the annual percentage change in the ToT for each year.
 

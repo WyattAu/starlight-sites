@@ -307,11 +307,15 @@ Catalytic cracking also produces higher-quality gasoline (higher octane rating d
 
 ### Reactivity of Different C--H Bonds
 
+<div class="table-wrap">
+
 | C--H bond type        | Bond enthalpy ($\mathrm{kJ/mol}$) | Relative reactivity (Cl) | Relative reactivity (Br) |
 | --------------------- | --------------------------------- | ------------------------ | ------------------------ |
 | Primary ($1^\circ$)   | 410                               | 1                        | 1                        |
 | Secondary ($2^\circ$) | 395                               | 3.8                      | 82                       |
 | Tertiary ($3^\circ$)  | 380                               | 5.0                      | 1600                     |
+
+</div>
 
 Chlorine is relatively unselective (only a 5:1 preference for tertiary over primary) because the
 first propagation step is only slightly endothermic, so the transition state is early
@@ -343,6 +347,8 @@ is nearly 4 times more reactive.
 
 ### Fraction Composition
 
+<div class="table-wrap">
+
 | Fraction            | Carbon range                         | Boiling range ($^\circ\mathrm{C}$) | Uses                      |
 | ------------------- | ------------------------------------ | ---------------------------------- | ------------------------- |
 | Refinery gas        | $\mathrm{C}_1$--$\mathrm{C}_4$       | Below 25                           | Bottled gas, fuel         |
@@ -352,6 +358,8 @@ is nearly 4 times more reactive.
 | Diesel oil          | $\mathrm{C}_{14}$--$\mathrm{C}_{20}$ | $220$--$350$                       | Diesel engines            |
 | Fuel oil            | $\mathrm{C}_{18}$--$\mathrm{C}_{30}$ | $350$--$500$                       | Ship fuel, power stations |
 | Bitumen             | $\mathrm{C}_{30}+$                   | Above 500                          | Road surfacing, roofing   |
+
+</div>
 
 ### Why Demand Exceeds Supply
 
@@ -377,12 +385,16 @@ increased from approximately $280\,\mathrm{ppm}$ (pre-industrial) to over $420\,
 
 ### Global Warming Potential (GWP)
 
+<div class="table-wrap">
+
 | Greenhouse gas           | GWP (100-year) | Atmospheric lifetime | Primary source                 |
 | ------------------------ | -------------- | -------------------- | ------------------------------ |
 | $\mathrm{CO}_2$          | 1              | 100--1000 years      | Fossil fuel combustion         |
 | $\mathrm{CH}_4$          | 28             | 12 years             | Natural gas leaks, agriculture |
 | $\mathrm{N}_2\mathrm{O}$ | 265            | 114 years            | Fertiliser use, industrial     |
 | $\mathrm{CF}_4$ (CFC-14) | 6,630          | 50,000 years         | Electronics industry           |
+
+</div>
 
 ### Carbon Capture and Storage (CCS)
 
@@ -536,6 +548,8 @@ temperature, with the anti conformation being more abundant.
 Crude oil is a mixture of hydrocarbons that is separated by fractional distillation based on boiling
 point:
 
+<div class="table-wrap">
+
 | Fraction          | Carbon range                         | Boiling range ($^\circ\mathrm{C}$) | Uses                      |
 | ----------------- | ------------------------------------ | ---------------------------------- | ------------------------- |
 | Refinery gas      | $\mathrm{C}_1$--$\mathrm{C}_4$       | Below 40                           | Fuel gas, LPG             |
@@ -545,6 +559,8 @@ point:
 | Diesel            | $\mathrm{C}_{14}$--$\mathrm{C}_{20}$ | 250--340                           | Diesel engines            |
 | Fuel oil          | $\mathrm{C}_{20}$--$\mathrm{C}_{40}$ | 340--500                           | Ship fuel, power stations |
 | Bitumen           | $>\mathrm{C}_{50}$                   | Above 500                          | Roads, roofing            |
+
+</div>
 
 ### Cracking
 
@@ -696,6 +712,8 @@ $$
 
 **Environmental impact of combustion products:**
 
+<div class="table-wrap">
+
 | Product                          | Environmental Effect                                                                  |
 | -------------------------------- | ------------------------------------------------------------------------------------- |
 | $\mathrm{CO}_2$                  | Greenhouse gas, contributes to global warming                                         |
@@ -703,6 +721,8 @@ $$
 | $\mathrm{C}$ (soot/particulates) | Respiratory problems, global dimming                                                  |
 | $\mathrm{NO}_x$                  | Acid rain, photochemical smog (formed from $\mathrm{N}_2$ in air at high temperature) |
 | $\mathrm{SO}_2$                  | Acid rain (from sulphur impurities in fuel)                                           |
+
+</div>
 
 ### Free Radical Substitution: Advanced Mechanism
 
@@ -743,6 +763,8 @@ $$
 \mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2
 $$
 
+<div class="table-wrap">
+
 | Halogen         | Bond dissociation energy (kJ/mol) | Reactivity                           | Selectivity                      |
 | --------------- | --------------------------------- | ------------------------------------ | -------------------------------- |
 | $\mathrm{F}_2$  | 158                               | Extremely high (explosive)           | Very low (random substitution)   |
@@ -750,11 +772,15 @@ $$
 | $\mathrm{Br}_2$ | 193                               | Low (requires heat or UV)            | High (1600:1 primary:secondary)  |
 | $\mathrm{I}_2$  | 151                               | Negligible (reaction is endothermic) | --                               |
 
+</div>
+
 Fluorine reacts too violently to be useful. Iodine does not react because the H-abstraction step is
 endothermic (the H--I bond formed, $297\,\mathrm{kJ/mol}$ Is weaker than the C--H bond broken,
 $\approx 410\,\mathrm{kJ/mol}$ for primary C--H).
 
 ### Bond Dissociation Energies and Radical Stability
+
+<div class="table-wrap">
 
 | C--H Bond                                         | Bond dissociation energy (kJ/mol) | Radical formed                                               |
 | ------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -766,6 +792,8 @@ $\approx 410\,\mathrm{kJ/mol}$ for primary C--H).
 | $\mathrm{Ph}$--H (benzylic C--H)                  | 473 (Ph--H)                       | $\mathrm{Ph}^\bullet$                                        |
 | $\mathrm{PhCH}_2$--H (benzylic)                   | 375                               | $\mathrm{PhCH}_2^\bullet$ (very stable)                      |
 
+</div>
+
 Radical stability: **benzylic $\approx$ tertiary $>$ secondary $>$ primary $>$ methyl $>$ vinylic**
 
 Weaker bonds break more , producing more stable radicals. The stability of tertiary radicals arises
@@ -774,6 +802,8 @@ half-filled $p$ orbital) and inductive effects (electron-donating alkyl groups s
 electron-deficient radical centre).
 
 ### Isomer Counting for Alkanes
+
+<div class="table-wrap">
 
 | Carbon atoms | Number of structural isomers                     |
 | ------------ | ------------------------------------------------ |
@@ -787,6 +817,8 @@ electron-deficient radical centre).
 | 8            | 18                                               |
 | 9            | 35                                               |
 | 10           | 75                                               |
+
+</div>
 
 ### Environmental Chemistry: Catalytic Converters
 
@@ -817,6 +849,8 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 ### Cracking: Thermal vs Catalytic
 
+<div class="table-wrap">
+
 | Feature             | Thermal cracking                                 | Catalytic cracking                                    |
 | ------------------- | ------------------------------------------------ | ----------------------------------------------------- |
 | Temperature         | $700$--$900^\circ\mathrm{C}$                     | $450$--$500^\circ\mathrm{C}$                          |
@@ -825,6 +859,8 @@ Catalytic converters reduce the emissions from internal combustion engines:
 | Products            | High proportion of alkenes, some shorter alkanes | Branched alkanes, cycloalkanes, aromatic hydrocarbons |
 | Carbon chain length | Shorter chains                                   | Shorter chains                                        |
 | Process             | Free radical mechanism                           | Carbocation (ionic) mechanism                         |
+
+</div>
 
 ### Common Pitfalls
 

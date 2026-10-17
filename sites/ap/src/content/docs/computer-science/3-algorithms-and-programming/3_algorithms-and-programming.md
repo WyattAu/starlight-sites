@@ -164,12 +164,16 @@ This holds for best, average, and worst case.
 
 ### Comparing Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Selection Sort | $O(n^2)$      | $O(n^2)$      | $O(n^2)$      | $O(1)$      | No     |
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | $O(1)$      | Yes    |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$ | No     |
+
+</div>
 
 **When to use each.** Insertion sort is best for small or nearly sorted arrays. Merge sort is
 Reliable for large datasets. Quick sort is often faster in practice but has an $O(n^2)$ worst case.
@@ -239,6 +243,8 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 
 ### Common Time Complexities
 
+<div class="table-wrap">
+
 | Complexity    | Name         | Example                        |
 | ------------- | ------------ | ------------------------------ |
 | $O(1)$        | Constant     | Array access by index          |
@@ -247,6 +253,8 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 | $O(n \log n)$ | Linearithmic | Merge sort                     |
 | $O(n^2)$      | Quadratic    | Selection sort, insertion sort |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci            |
+
+</div>
 
 ### Formal Definition
 
@@ -362,6 +370,8 @@ reverse("abcd") = "dcba"
 
 **Trace of selection sort on [5, 3, 8, 1, 2]:**
 
+<div class="table-wrap">
+
 | Pass | Array State     | Comparisons | Swaps |
 | ---- | --------------- | ----------- | ----- |
 | 1    | [1, 3, 8, 5, 2] | 4           | 1     |
@@ -369,11 +379,15 @@ reverse("abcd") = "dcba"
 | 3    | [1, 2, 3, 5, 8] | 2           | 1     |
 | 4    | [1, 2, 3, 5, 8] | 1           | 0     |
 
+</div>
+
 Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 
 ### Insertion Sort Trace in Detail
 
 **Trace of insertion sort on [4, 2, 7, 1, 3]:**
+
+<div class="table-wrap">
 
 | Step | Array State     | Key | Shifts | Comparisons |
 | ---- | --------------- | --- | ------ | ----------- |
@@ -381,6 +395,8 @@ Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 | 2    | [4, 2, 7, 1, 3] | 7   | 0      | 1           |
 | 3    | [4, 2, 7, 1, 3] | 1   | 3      | 3           |
 | 4    | [1, 2, 4, 7, 3] | 3   | 0      | 1           |
+
+</div>
 
 Total comparisons: $1 + 1 + 3 + 1 = 6$.
 

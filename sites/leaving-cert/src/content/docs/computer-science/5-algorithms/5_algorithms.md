@@ -150,6 +150,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 
 **Inputs:** 50c, 1 euro.
 
+<div class="table-wrap">
+
 | Current state | Input  | Next state | Output                     |
 | ------------- | ------ | ---------- | -------------------------- |
 | $S_0$         | 50c    | $S_1$      | --                         |
@@ -158,6 +160,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 | $S_1$         | 1 euro | $S_3$      | Dispense drink             |
 | $S_2$         | 50c    | $S_3$      | Dispense drink             |
 | $S_2$         | 1 euro | $S_3$      | Dispense drink, return 50c |
+
+</div>
 
 ### State Transition Diagram
 
@@ -208,6 +212,8 @@ Unlocks it. Pushing it when unlocked lets one person through and locks it again.
 
 States: Locked, Unlocked. Inputs: coin, push.
 
+<div class="table-wrap">
+
 | State    | Input | Next State | Output         |
 | -------- | ----- | ---------- | -------------- |
 | Locked   | coin  | Unlocked   | --             |
@@ -215,11 +221,15 @@ States: Locked, Unlocked. Inputs: coin, push.
 | Unlocked | coin  | Unlocked   | --             |
 | Unlocked | push  | Locked     | Person through |
 
+</div>
+
 ## Regular Expressions (HL)
 
 A regular expression (regex) is a pattern used to match strings.
 
 ### Common Syntax
+
+<div class="table-wrap">
 
 | Symbol   | Meaning                                        |
 | -------- | ---------------------------------------------- |
@@ -235,6 +245,8 @@ A regular expression (regex) is a pattern used to match strings.
 | `\w`     | Any word character (alphanumeric + underscore) |
 | `{n}`    | Exactly n occurrences                          |
 | `{n,m}`  | Between n and m occurrences                    |
+
+</div>
 
 ### Examples in Python
 
@@ -320,6 +332,8 @@ def mystery(n):
     return result
 ```
 
+<div class="table-wrap">
+
 | i   | result |
 | --- | ------ |
 | 1   | 1      |
@@ -327,6 +341,8 @@ def mystery(n):
 | 3   | 6      |
 | 4   | 24     |
 | 5   | 120    |
+
+</div>
 
 The function computes $n!$ (factorial). For $n = 5$: $5! = 120$.
 
@@ -341,6 +357,8 @@ def mystery2(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -348,6 +366,8 @@ def mystery2(n):
 | 3   | 0     | True       | 6     |
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
+
+</div>
 
 The function computes the sum of proper divisors of $n$. For $n = 6$: $1 + 2 + 3 = 6$. A number
 Equal to the sum of its proper divisors is called a **perfect number**.
@@ -586,6 +606,8 @@ def mystery(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -593,6 +615,8 @@ def mystery(n):
 | 3   | 0     | True       | 6     |
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
+
+</div>
 
 The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$ The number 6 is A
 **perfect number**.

@@ -814,10 +814,14 @@ theorems, methods, and problem-solving approaches.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic     | Site    | Link                                                                                           |
 | --------- | ------- | ---------------------------------------------------------------------------------------------- |
 | [Vectors] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/12-vectors) |
 | [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
+
+</div>
 
 ## Worked Examples
 

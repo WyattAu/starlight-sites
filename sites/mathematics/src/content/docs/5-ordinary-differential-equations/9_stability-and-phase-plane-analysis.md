@@ -27,6 +27,8 @@ $\mathbf{f}(\mathbf{x}^*) = \mathbf{0}$.
 Let $A = J\mathbf{f}(\mathbf{x}^*)$ be the Jacobian at the critical point. The eigenvalues of $A$
 Determine the local stability:
 
+<div class="table-wrap">
+
 | Eigenvalues of $A$                    | Type            | Stability             |
 | ------------------------------------- | --------------- | --------------------- |
 | Both real, negative                   | Stable node     | Asymptotically stable |
@@ -35,6 +37,8 @@ Determine the local stability:
 | Complex, $\mathrm{Re}(\lambda) \lt 0$ | Stable spiral   | Asymptotically stable |
 | Complex, $\mathrm{Re}(\lambda) > 0$   | Unstable spiral | Unstable              |
 | Purely imaginary                      | Center          | (Marginally) stable   |
+
+</div>
 
 ### 9.3 Lyapunov Stability
 

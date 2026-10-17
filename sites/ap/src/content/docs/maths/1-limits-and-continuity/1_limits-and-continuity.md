@@ -64,6 +64,8 @@ Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 
 ### Common Limits
 
+<div class="table-wrap">
+
 | Limit                                                             | Value |
 | ----------------------------------------------------------------- | ----- |
 | $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$                    | $1$   |
@@ -72,6 +74,8 @@ Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 | $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$ | $e$   |
 | $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$                   | $1$   |
 | $\displaystyle\lim_{x \to 0} \frac{\ln(1+x)}{x}$                  | $1$   |
+
+</div>
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$.**
 
@@ -472,12 +476,16 @@ $x^2 + 1 \ge 1 \gt 0$).
 
 ### Types of Discontinuities
 
+<div class="table-wrap">
+
 | Type                     | Description                                                            | Example                                          |
 | ------------------------ | ---------------------------------------------------------------------- | ------------------------------------------------ |
 | Removable                | Limit exists but $f(a)$ is undefined or $f(a) \ne \lim_{x \to a} f(x)$ | $f(x) = \frac{x^2 - 1}{x - 1}$ at $x=1$          |
 | Jump (Non-removable)     | One-sided limits exist but are not equal                               | $f(x) = \lfloor x \rfloor$                       |
 | Infinite (Non-removable) | Function approaches $\pm\infty$                                        | $f(x) = \frac{1}{x}$ at $x = 0$                  |
 | Oscillating              | Function oscillates without approaching a single value                 | $f(x) = \sin\!\left(\frac{1}{x}\right)$ at $x=0$ |
+
+</div>
 
 ### Intermediate Value Theorem (IVT)
 

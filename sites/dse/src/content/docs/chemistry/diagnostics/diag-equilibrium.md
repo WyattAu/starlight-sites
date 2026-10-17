@@ -52,11 +52,15 @@ temperature, what happens to the value of $K_{c}$? Explain. [2 marks]
 
 (a) ICE table:
 
+<div class="table-wrap">
+
 | Species  | Initial (mol) | Change (mol) | Equilibrium (mol) |
 | -------- | ------------- | ------------ | ----------------- |
 | $N_{2}$  | 1.00          | $-0.20$      | 0.80              |
 | $H_{2}$  | 3.00          | $-0.60$      | 2.40              |
 | $NH_{3}$ | 0             | $+0.40$      | 0.40              |
+
+</div>
 
 Change in $NH_{3}$ = $+0.40$ mol, so change in $N_{2}$ = $-0.40/2 = -0.20$ mol, change in $H_{2}$ =
 $-3 \times 0.20 = -0.60$ mol.

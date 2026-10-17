@@ -58,6 +58,8 @@ and **supportable** (sufficient evidence exists).
 
 ### Types of Evidence
 
+<div class="table-wrap">
+
 | Type                 | Description                                 | Strength                                                 |
 | -------------------- | ------------------------------------------- | -------------------------------------------------------- |
 | Facts                | Verifiable, objective data                  | Strong (but context matters)                             |
@@ -66,6 +68,8 @@ and **supportable** (sufficient evidence exists).
 | Expert testimony     | Quotations or paraphrases from authorities  | Strong when the expert is credible and relevant          |
 | Historical precedent | Past events and established patterns        | Strong for demonstrating continuity                      |
 | Personal experience  | The writer"s own observations               | Weak alone; strong when supplemented with other evidence |
+
+</div>
 
 ### Evaluating Evidence
 

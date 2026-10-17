@@ -81,6 +81,8 @@ electrons.
 
 The table below shows the first six successive ionisation energies of an element $X$.
 
+<div class="table-wrap">
+
 | Ionisation Energy | Value (kJ/mol) |
 | ----------------- | -------------- |
 | 1st               | 578            |
@@ -89,6 +91,8 @@ The table below shows the first six successive ionisation energies of an element
 | 4th               | 11577          |
 | 5th               | 14842          |
 | 6th               | 18379          |
+
+</div>
 
 (a) Identify element $X$ and explain your reasoning. [3 marks]
 

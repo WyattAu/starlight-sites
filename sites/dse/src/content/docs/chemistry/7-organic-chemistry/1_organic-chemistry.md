@@ -35,6 +35,8 @@ Carbon ($Z = 6$ Electron configuration $1s^2\, 2s^2\, 2p^2$) has four valence el
 four covalent bonds. Several properties make carbon exceptionally suited as the backbone of Organic
 molecules:
 
+<div class="table-wrap">
+
 | Property             | Description                                                                                                |
 | -------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **Tetravalency**     | Carbon has four valence electrons and forms four covalent bonds, giving a wide variety of bonding patterns |
@@ -43,10 +45,14 @@ molecules:
 | **Isomerism**        | The same molecular formula can represent different compounds with different structures                     |
 | **Bond strength**    | C-C and C-H bonds are relatively strong, making organic compounds generally stable                         |
 
+</div>
+
 ### Functional Groups
 
 A **functional group** is an atom or group of atoms that determines the characteristic chemical
 Reactions of a molecule. Organic compounds are classified primarily by their functional groups.
+
+<div class="table-wrap">
 
 | Functional Group | Structure              | Suffix / Prefix | Example                                            |
 | ---------------- | ---------------------- | --------------- | -------------------------------------------------- |
@@ -61,6 +67,8 @@ Reactions of a molecule. Organic compounds are classified primarily by their fun
 | Ester            | -COO-                  | -oate           | $\mathrm{CH}_3\mathrm{COOCH}_3$ (methyl ethanoate) |
 | Amine            | -NH$_2$                | -amine          | $\mathrm{CH}_3\mathrm{NH}_2$ (methylamine)         |
 | Amide            | -CONH$_2$              | -amide          | $\mathrm{CH}_3\mathrm{CONH}_2$ (ethanamide)        |
+
+</div>
 
 ---
 
@@ -89,6 +97,8 @@ Maximum possible number of hydrogen atoms per carbon atom.
 
 The first ten alkanes must be memorised:
 
+<div class="table-wrap">
+
 | Prefix | Formula                          | Name    |
 | ------ | -------------------------------- | ------- |
 | Meth-  | $\mathrm{CH}_4$                  | Methane |
@@ -101,6 +111,8 @@ The first ten alkanes must be memorised:
 | Oct-   | $\mathrm{C}_8\mathrm{H}_{18}$    | Octane  |
 | Non-   | $\mathrm{C}_9\mathrm{H}_{20}$    | Nonane  |
 | Dec-   | $\mathrm{C}_{10}\mathrm{H}_{22}$ | Decane  |
+
+</div>
 
 #### Structural Isomerism
 
@@ -132,12 +144,16 @@ For $\mathrm{C}_2\mathrm{H}_6\mathrm{O}$:
 
 #### Physical Properties
 
+<div class="table-wrap">
+
 | Property        | Trend / Value                                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
 | Boiling point   | Increases with chain length (more van der Waals forces)                                                   |
 | State at r.t.p. | $\mathrm{C}_1$-$\mathrm{C}_4$: gas; $\mathrm{C}_5$-$\mathrm{C}_{17}$: liquid; $\gt\mathrm{C}_{17}$: solid |
 | Solubility      | Insoluble in water, soluble in organic solvents                                                           |
 | Density         | Less dense than water                                                                                     |
+
+</div>
 
 Branched isomers have lower boiling points than their straight-chain counterparts because branching
 Reduces the surface area of contact between molecules, weakening van der Waals forces.
@@ -636,11 +652,15 @@ favourable, but it does not decolourise bromine water because substitution (not 
 
 Alcohols contain the hydroxyl group (-OH) attached to an $sp^3$ hybridised carbon atom.
 
+<div class="table-wrap">
+
 | Type                  | Structure                                                   | Example                                               |
 | --------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | Primary (1$^\circ$)   | -OH attached to a carbon bonded to at most one other carbon | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$ (ethanol)     |
 | Secondary (2$^\circ$) | -OH attached to a carbon bonded to two other carbons        | $\mathrm{CH}_3\mathrm{CH(OH)CH}_3$ (propan-2-ol)      |
 | Tertiary (3$^\circ$)  | -OH attached to a carbon bonded to three other carbons      | $(\mathrm{CH}_3)_3\mathrm{COH}$ (2-methylpropan-2-ol) |
+
+</div>
 
 #### Naming
 
@@ -656,11 +676,15 @@ $$
 
 #### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Description                                                                                        |
 | ------------- | -------------------------------------------------------------------------------------------------- |
 | Boiling point | Higher than corresponding alkanes due to hydrogen bonding between -OH groups                       |
 | Solubility    | Small alcohols (C1--C3) are miscible with water; solubility decreases with increasing chain length |
 | Volatility    | Lower than corresponding alkanes (hydrogen bonding must be overcome)                               |
+
+</div>
 
 #### Oxidation of Alcohols
 
@@ -886,11 +910,15 @@ $$
 
 #### Properties
 
+<div class="table-wrap">
+
 | Property      | Aldehydes                         | Ketones                                          |
 | ------------- | --------------------------------- | ------------------------------------------------ |
 | Boiling point | Lower than corresponding alcohols | Similar to aldehydes                             |
 | Odour         | Pungent (e.g., ethanal)           | Pleasant (e.g., propanone = nail polish remover) |
 | Oxidation     | oxidised to carboxylic acids      | Resistant to oxidation                           |
+
+</div>
 
 #### Nucleophilic Addition
 
@@ -916,11 +944,15 @@ The mechanism:
 Amines contain the amino group (-NH$_2$). They are classified by the number of alkyl groups attached
 to the nitrogen:
 
+<div class="table-wrap">
+
 | Type      | Structure                 | Example                                        |
 | --------- | ------------------------- | ---------------------------------------------- |
 | Primary   | $\mathrm{RNH}_2$          | $\mathrm{CH}_3\mathrm{NH}_2$ (methylamine)     |
 | Secondary | $\mathrm{R}_2\mathrm{NH}$ | $(\mathrm{CH}_3)_2\mathrm{NH}$ (dimethylamine) |
 | Tertiary  | $\mathrm{R}_3\mathrm{N}$  | $(\mathrm{CH}_3)_3\mathrm{N}$ (trimethylamine) |
+
+</div>
 
 #### Basicity
 
@@ -968,6 +1000,8 @@ $$
 n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n
 $$
 
+<div class="table-wrap">
+
 | Polymer       | Monomer                | Repeating Unit                                             | Uses                       |
 | ------------- | ---------------------- | ---------------------------------------------------------- | -------------------------- |
 | Polyethylene  | Ethene                 | $--\mathrm{CH}_2\mathrm{--CH}_2--$                         | Bags, bottles, films       |
@@ -975,6 +1009,8 @@ $$
 | PVC           | Chloroethene           | $--\mathrm{CH}_2\mathrm{--CHCl}--$                         | Pipes, cable insulation    |
 | Polystyrene   | Phenylethene (styrene) | $--\mathrm{CH}_2\mathrm{--CH}(\mathrm{C}_6\mathrm{H}_5)--$ | Packaging, insulation      |
 | PTFE (Teflon) | Tetrafluoroethene      | $--\mathrm{CF}_2\mathrm{--CF}_2--$                         | Non-stick coatings         |
+
+</div>
 
 :::tip
 Outside. Include enough of the structure to show the pattern ( at least two Repeating units).
@@ -1070,6 +1106,8 @@ Backbone cannot be broken by microorganisms.
 
 ### 4.4 Problems with Plastic Waste
 
+<div class="table-wrap">
+
 | Problem               | Description                                                                    |
 | --------------------- | ------------------------------------------------------------------------------ |
 | Non-biodegradability  | Most plastics persist in the environment for hundreds of years                 |
@@ -1077,6 +1115,8 @@ Backbone cannot be broken by microorganisms.
 | Marine pollution      | Microplastics in oceans harm marine life and enter the food chain              |
 | Toxic additives       | Plasticisers, flame retardants, and stabilisers can leach into the environment |
 | Incineration issues   | Burning plastics releases toxic gases (e.g., HCl from PVC, dioxins)            |
+
+</div>
 
 Solutions include recycling, biodegradable alternatives, reduced usage, and improved waste
 Management.
@@ -1140,6 +1180,8 @@ See Section 3.3 for detailed mechanisms.
 
 A systematic approach to identifying functional groups:
 
+<div class="table-wrap">
+
 | Test                  | Reagent                                                         | Positive Result                                   | Functional Group Detected                        |
 | --------------------- | --------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
 | Bromine water         | $\mathrm{Br}_2$ (aq)                                            | Decolourisation (orange to colourless)            | Alkene, alkyne (C=C, C$\equiv$C)                 |
@@ -1151,6 +1193,8 @@ A systematic approach to identifying functional groups:
 | $\mathrm{NaOH}$ (aq)  | Sodium hydroxide solution                                       | Acid reacts; CO$_2$ produced with carboxylic acid | Carboxylic acid                                  |
 | Iodine test           | $\mathrm{I}_2$ solution                                         | Blue-black colour                                 | Starch (not a standard organic functional group) |
 
+</div>
+
 **Distinguishing aldehydes from ketones:**
 
 - Fehling's solution: aldehydes give a brick-red precipitate ($\mathrm{Cu}_2\mathrm{O}$); ketones do
@@ -1161,6 +1205,8 @@ A systematic approach to identifying functional groups:
 ### 5.5 Reaction Pathway Tables
 
 Key interconversions between functional groups:
+
+<div class="table-wrap">
 
 | From              | To                         | Reagent / Conditions                                                          |
 | ----------------- | -------------------------- | ----------------------------------------------------------------------------- |
@@ -1179,6 +1225,8 @@ Key interconversions between functional groups:
 | Ester             | Carboxylic acid + alcohol  | Acid hydrolysis (dilute $\mathrm{H}_2\mathrm{SO}_4$ Heat)                      |
 | Ester             | Carboxylate salt + alcohol | Alkaline hydrolysis (NaOH, heat)                                              |
 | Aldehyde / Ketone | Cyanohydrin                | HCN (trace NaOH catalyst)                                                     |
+
+</div>
 
 ---
 
@@ -1700,6 +1748,8 @@ Alternatives include:
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                       | Key Concept                                                  | Example                                        |
 | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
 | Alkanes                     | Saturated, $\mathrm{C}_n\mathrm{H}_{2n+2}$                   | Free radical substitution with $\mathrm{Cl}_2$ |
@@ -1712,6 +1762,8 @@ Alternatives include:
 | Aldehydes / Ketones         | C=O, distinguished by Fehling's and Tollens'                 | Nucleophilic addition with HCN                 |
 | Addition polymerisation     | Alkene monomers, no small molecule lost                      | Polyethylene, PVC, PTFE                        |
 | Condensation polymerisation | Two functional groups, small molecule eliminated             | Nylon-6,6, PET (Terylene)                      |
+
+</div>
 
 ---
 

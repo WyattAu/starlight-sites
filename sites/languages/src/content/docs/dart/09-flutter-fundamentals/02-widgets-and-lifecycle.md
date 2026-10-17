@@ -34,11 +34,15 @@ Framework then instantiates an `Element` from that widget, and that Element may 
 
 The critical mental model:
 
+<div class="table-wrap">
+
 | Layer          | Responsibility                                | Mutability         |
 | -------------- | --------------------------------------------- | ------------------ |
 | `Widget`       | Immutable configuration / description         | Always immutable   |
 | `Element`      | Tree node that manages lifecycle, holds state | Mutable (internal) |
 | `RenderObject` | Layout, painting, hit-testing                 | Mutable (internal) |
+
+</div>
 
 When you call `setState()`. The framework marks the owning `Element` as dirty. On the next frame, The
 framework calls `build()` on that Element, which produces a **new** Widget tree. The framework Then
@@ -528,6 +532,8 @@ Implement `==`/`hashCode` and you want stability tied to the object itself.
 
 ### When to Use Each Key Type
 
+<div class="table-wrap">
+
 | Scenario                        | Key Type                |
 | ------------------------------- | ----------------------- |
 | List items with unique IDs      | `ValueKey<String>`      |
@@ -536,6 +542,8 @@ Implement `==`/`hashCode` and you want stability tied to the object itself.
 | Access State from outside       | `GlobalKey`             |
 | Cross-subtree reparenting       | `GlobalKey`             |
 | Objects without `==`/`hashCode` | `ObjectKey`             |
+
+</div>
 
 ### Common Key Pitfalls
 
@@ -605,6 +613,8 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 
 ### Layout
 
+<div class="table-wrap">
+
 | Widget       | Purpose                                                            | Key Properties                                               |
 | ------------ | ------------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Container`  | Convenience box with padding, margin, decoration, constraints      | `padding``margin``decoration``constraints``alignment``color` |
@@ -620,7 +630,11 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `Row`        | Horizontal flex layout                                             | `mainAxisAlignment``crossAxisAlignment``mainAxisSize`        |
 | `Column`     | Vertical flex layout                                               | `mainAxisAlignment``crossAxisAlignment``mainAxisSize`        |
 
+</div>
+
 ### Visual Effects
+
+<div class="table-wrap">
 
 | Widget          | Purpose                                                                | Key Properties                                            |
 | --------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -630,7 +644,11 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `AbsorbPointer` | Absorbs hit-testing (child and descendants don't receive events)       | `absorbing``child`                                        |
 | `IgnorePointer` | Ignores hit-testing on itself but descendants can still receive events | `ignoring``child`                                         |
 
+</div>
+
 ### Utility
+
+<div class="table-wrap">
 
 | Widget          | Purpose                                                                    |
 | --------------- | -------------------------------------------------------------------------- |
@@ -639,6 +657,8 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `Theme`         | Provides a `ThemeData` subtree to descendants                              |
 | `Icon`          | Renders an icon from a font (Material or custom)                           |
 | `Image`         | Displays an image from asset, network, file, or memory                     |
+
+</div>
 
 ### Container Internals
 
@@ -688,6 +708,8 @@ Widget  ──configures──►  Element  ──owns──►  RenderObject
 
 ### Element Types
 
+<div class="table-wrap">
+
 | Element Type                     | Corresponding Widget            | Has RenderObject? |
 | -------------------------------- | ------------------------------- | ----------------- |
 | `StatelessElement`               | `StatelessWidget`               | No                |
@@ -696,6 +718,8 @@ Widget  ──configures──►  Element  ──owns──►  RenderObject
 | `SingleChildRenderObjectElement` | `SingleChildRenderObjectWidget` | Yes               |
 | `MultiChildRenderObjectElement`  | `MultiChildRenderObjectWidget`  | Yes               |
 | `LeafRenderObjectElement`        | `LeafRenderObjectWidget`        | Yes               |
+
+</div>
 
 ### How Reconciliation Works
 
@@ -853,6 +877,8 @@ class _MyState extends State<MyWidget> {
 
 Every `State` object that creates disposable resources must release them in `dispose()`:
 
+<div class="table-wrap">
+
 | Resource                 | Cleanup Method                   |
 | ------------------------ | -------------------------------- |
 | `TextEditingController`  | `_controller.dispose()`          |
@@ -863,6 +889,8 @@ Every `State` object that creates disposable resources must release them in `dis
 | `FocusNode`              | `_focusNode.dispose()`           |
 | `ChangeNotifier` (owned) | `_notifier.dispose()`            |
 | `PageController`         | `_pageController.dispose()`      |
+
+</div>
 
 Failing to dispose controllers causes memory leaks. The controller holds references to listeners,
 Which hold references to `State` objects, which hold references to `Element` objects, which hold

@@ -1090,6 +1090,8 @@ class OrderFactory {
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Aspect                | Constructor Injection                       | Service Locator (get_it)               | Riverpod                                          |
 | --------------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
 | Compile-time safety   | Full, missing deps are compile errors      | None, errors at runtime               | Full, missing providers are compile errors       |
@@ -1103,6 +1105,8 @@ class OrderFactory {
 | Learning curve        | Low                                         | Low                                    | Moderate to high                                  |
 | Flutter integration   | Manual wiring                               | Manual wiring                          | Native (ConsumerWidget, HookConsumerWidget)       |
 | Hot reload            | Works                                       | Works                                  | Works                                             |
+
+</div>
 
 ---
 

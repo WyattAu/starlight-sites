@@ -780,12 +780,16 @@ end
 
 ## Comparison of Concurrency Approaches
 
+<div class="table-wrap">
+
 | Approach  | Parallelism      | Blocking I/O                | Complexity | Use Case          |
 | --------- | ---------------- | --------------------------- | ---------- | ----------------- |
 | Thread    | Limited (GIL)    | Releases GIL on I/O         | Medium     | I/O-bound tasks   |
 | Ractor    | True parallelism | Full isolation              | High       | CPU-bound tasks   |
 | Fiber     | Cooperative      | Non-blocking with scheduler | Medium     | Async I/O         |
 | Async gem | Cooperative      | Non-blocking                | Low        | Web servers, APIs |
+
+</div>
 
 ### When to Use What
 

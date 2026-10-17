@@ -420,12 +420,16 @@ heat capacity are much smaller than the classical prediction $C_V = \frac{3}{2}N
 **Theorem 14 (Equipartition Theorem):** Each quadratic degree of freedom contributes $\frac{1}{2}k_BT$
 to the average energy per particle.
 
+<div class="table-wrap">
+
 | Degree of Freedom           | Contribution to $U$ per mole |
 | --------------------------- | ----------------------------- |
 | Translation ($x, y, z$)    | $\frac{3}{2}RT$               |
 | Rotation (linear molecule) | $RT$                          |
 | Rotation (nonlinear)        | $\frac{3}{2}RT$               |
 | Vibration (each mode)       | $RT$ (kinetic + potential)    |
+
+</div>
 
 ### 9.2 Limitations
 
@@ -578,6 +582,8 @@ Statistical mechanics bridges the gap between individual atoms and the bulk prop
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Thermodynamics           | WyattsNotes | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)                     |
@@ -585,7 +591,9 @@ Statistical mechanics bridges the gap between individual atoms and the bulk prop
 | Solid-State Chemistry    | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)              |
 | Statistical Mechanics, MIT 8.044 | MIT OCW | [View](https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

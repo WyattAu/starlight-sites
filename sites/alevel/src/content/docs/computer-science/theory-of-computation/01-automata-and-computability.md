@@ -44,11 +44,15 @@ $M = (Q, \Sigma, \delta, q_0, F)$ where:
 - $\Sigma = \{0, 1\}$
 - $F = \{B\}$
 
+<div class="table-wrap">
+
 |       | 0   | 1   |
 | ----- | --- | --- |
 | **S** | A   | S   |
 | **A** | A   | B   |
 | **B** | A   | S   |
+
+</div>
 
 Trace for "1101": S → S → A → B. Accepted. ✓
 
@@ -113,6 +117,8 @@ Concatenation, and Kleene star.
 
 A **regular expression** defines a regular language using operators:
 
+<div class="table-wrap">
+
 | Operator      | Name          | Meaning                          | Regex  |
 | ------------- | ------------- | -------------------------------- | ------ |
 | $\emptyset$   | Empty set     | Accepts nothing                  |,      |
@@ -122,10 +128,14 @@ A **regular expression** defines a regular language using operators:
 | $R \mid S$    | Alternation   | Strings from $R$ or $S$          | `R\|S` |
 | $R^*$         | Kleene star   | Zero or more repetitions of $R$  | `R*`   |
 
+</div>
+
 **Kleene's Theorem.** A language is regular if and only if it can be described by a regular
 Expression.
 
 ### Examples
+
+<div class="table-wrap">
 
 | Language                       | Regular Expression |
 | ------------------------------ | ------------------ |
@@ -133,6 +143,8 @@ Expression.
 | Binary strings ending in "01"  | `(0\|1)*01`        |
 | Strings of even length         | `((0\|1)(0\|1))*`  |
 | Strings with no consecutive 1s | `(0\|10)*(1\|ε)`   |
+
+</div>
 
 ### Limitations of Regular Languages
 
@@ -186,6 +198,8 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 
 **Formal transitions (partial):**
 
+<div class="table-wrap">
+
 | State | Read     | Write    | Move | Next State   |
 | ----- | -------- | -------- | ---- | ------------ |
 | $q_0$ | $a$      | $X$      | $R$  | $q_1$        |
@@ -199,6 +213,8 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 | $q_3$ | $X$      | $X$      | $R$  | $q_3$        |
 | $q_3$ | $\sqcup$ | $\sqcup$ | $S$  | $q_{accept}$ |
 | $q_3$ | $b$      | $b$      | $S$  | $q_{reject}$ |
+
+</div>
 
 <hr />
 
@@ -254,12 +270,16 @@ would have to run forever).
 
 ## 7. Decidable and Undecidable Problems
 
+<div class="table-wrap">
+
 | Category       | Definition                                            | Example                |
 | -------------- | ----------------------------------------------------- | ---------------------- |
 | Decidable      | A TM always halts with the correct answer             | "Is $n$ prime?"        |
 | Semi-decidable | A TM halts on yes-instances; may loop on no-instances | Halting problem        |
 | Undecidable    | No TM can solve it for all inputs                     | Halting problem (full) |
 | Unrecognisable | No TM even semi-decides it                            | Complement of halting  |
+
+</div>
 
 <hr />
 
@@ -303,6 +323,8 @@ A problem is **NP-complete** if:
 
 ### Examples of Problems in P
 
+<div class="table-wrap">
+
 | Problem                  | Complexity          |
 | ------------------------ | ------------------- |
 | Sorting                  | $O(n \log n)$       |
@@ -311,7 +333,11 @@ A problem is **NP-complete** if:
 | String matching          | $O(nm)$ or $O(n+m)$ |
 | 2-SAT                    | $O(n + m)$          |
 
+</div>
+
 ### Examples of Problems in NP (not known to be in P)
+
+<div class="table-wrap">
 
 | Problem           | Verification                 |
 | ----------------- | ---------------------------- |
@@ -319,6 +345,8 @@ A problem is **NP-complete** if:
 | TSP (decision)    | Verify tour length in $O(n)$ |
 | Sudoku (n×n)      | Verify solution in $O(n^2)$  |
 | Graph 3-colouring | Verify colouring in $O(V+E)$ |
+
+</div>
 
 <hr />
 
@@ -337,10 +365,14 @@ $M = (Q, \Sigma, \delta, q_0, F)$ where:
 - $q_0$ is start state
 - $F = \{q_0\}$ (accept when even number of 0s)
 
+<div class="table-wrap">
+
 |         | 0     | 1     |
 | ------- | ----- | ----- |
 | → $q_0$ | $q_1$ | $q_0$ |
 | $q_1$   | $q_0$ | $q_1$ |
+
+</div>
 
 Trace "110": $q_0 \to q_0 \to q_0 \to q_0$. Accept (0 zeros, even). ✓ Trace "101":
 $q_0 \to q_0 \to q_1 \to q_1$. Reject (1 zero, odd). ✓
@@ -351,6 +383,8 @@ $q_0 \to q_0 \to q_1 \to q_1$. Reject (1 zero, odd). ✓
 
 NFA: States $\{0, 1, 2\}$ Alphabet $\{a, b\}$ Start state 0, accepting state 2.
 
+<div class="table-wrap">
+
 | From | Input | To     |
 | ---- | ----- | ------ |
 | 0    | a     | {0, 1} |
@@ -359,6 +393,8 @@ NFA: States $\{0, 1, 2\}$ Alphabet $\{a, b\}$ Start state 0, accepting state 2.
 | 1    | b     | {2}    |
 | 2    | a     | ∅      |
 | 2    | b     | ∅      |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -373,12 +409,16 @@ From $\{0\}$: a → {0, 1}, b → {0} From $\{0, 1\}$: a → δ(0,a) ∪ δ(1,a)
 
 Accepting states: any subset containing 2 → $\{0, 2\}$.
 
+<div class="table-wrap">
+
 | DFA State   | a           | b           | Accept? |
 | ----------- | ----------- | ----------- | ------- |
 | → $\{0\}$   | $\{0,1\}$   | $\{0\}$     | No      |
 | $\{0,1\}$   | $\{0,1\}$   | $\{0,2\}$   | No      |
 | $\{0,2\}$   | $\{0,1\}$   | $\{0\}$     | Yes     |
 | $\emptyset$ | $\emptyset$ | $\emptyset$ | No      |
+
+</div>
 
 </details>
 

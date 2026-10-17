@@ -98,6 +98,8 @@ Contributors on dial-up connections needed to work efficiently.
 
 ## How Git Compares to Other VCS
 
+<div class="table-wrap">
+
 | Feature              | Git                                | Mercurial (Hg)                | Subversion (SVN)          | Perforce (P4)             |
 | -------------------- | ---------------------------------- | ----------------------------- | ------------------------- | ------------------------- |
 | Architecture         | Distributed                        | Distributed                   | Centralized               | Centralized               |
@@ -107,6 +109,8 @@ Contributors on dial-up connections needed to work efficiently.
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
+
+</div>
 :::
 
 :::tip
@@ -117,12 +121,16 @@ Git is optimized for text files.
 
 ### Installation
 
+<div class="table-wrap">
+
 | Platform              | Method                                                          |
 | --------------------- | --------------------------------------------------------------- |
 | Linux (Debian/Ubuntu) | `sudo apt install git`                                          |
 | Linux (Fedora)        | `sudo dnf install git`                                          |
 | macOS                 | `brew install git` (preferred over Xcode's bundled Git)         |
 | Windows               | [git-scm.com](https://git-scm.com/) or `winget install Git.Git` |
+
+</div>
 
 ### Essential Configuration
 
@@ -203,6 +211,8 @@ every Git operation. Understanding the transitions between them is essential. Se
 
 This guide is organized into the following sections:
 
+<div class="table-wrap">
+
 | Section                                                                     | Content                                                   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------- |
 | [Fundamentals](/git/02-fundamentals/01-the-three-trees/)                     | Three-tree architecture, Git objects, references          |
@@ -211,6 +221,8 @@ This guide is organized into the following sections:
 | [Advanced Topics](/git/05-advanced-topics/01-reflog/)                        | Reflog, stash, bisect, submodules, worktrees              |
 | [Internals](/git/06-internals/01-git-directory-structure/)                   | `.git` directory layout, pack files, hashing algorithm    |
 | [Others](/git/Others/gitea-on-truenas/)                                      | Self-hosting, commit history removal                      |
+
+</div>
 
 ## Common Pitfalls
 

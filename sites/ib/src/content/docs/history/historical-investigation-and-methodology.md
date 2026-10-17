@@ -48,6 +48,8 @@ Process. The total word limit is 2,200 words, distributed across three sections.
 
 ### 1.2 Structure and Word Limits
 
+<div class="table-wrap">
+
 | Section                                  | Word Limit         | Content                                                                                              |
 | :--------------------------------------- | :----------------- | :--------------------------------------------------------------------------------------------------- |
 | Identification and Evaluation of Sources | Up to 500 words    | State the research question. Identify and evaluate two sources in detail using OPVL analysis.        |
@@ -55,9 +57,13 @@ Process. The total word limit is 2,200 words, distributed across three sections.
 | Reflection                               | Up to 400 words    | Reflect on the methods used, challenges faced, and what you learned about the historical process.    |
 | Bibliography                             | Not counted        | List all sources used, formatted consistently (Chicago or MLA style).                                |
 
+</div>
+
 ### 1.3 Assessment Criteria
 
 The IA is assessed against four criteria, each worth a maximum of 6 marks (total 24 marks):
+
+<div class="table-wrap">
 
 | Criterion                                | Description                                                                                                  | Marks |
 | :--------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :---- |
@@ -65,6 +71,8 @@ The IA is assessed against four criteria, each worth a maximum of 6 marks (total
 | Investigation                            | The investigation, analysis, and use of sources to address the research question                             | 0--6  |
 | Reflection                               | A critical reflection on the process and what was learned                                                    | 0--6  |
 | Formal Requirements                      | Adherence to word limits, formatting, and bibliographic requirements                                         | 0--6  |
+
+</div>
 
 A score of 15--16 out of 24 is a strong performance; 20+ is exceptional.
 
@@ -501,6 +509,8 @@ Understanding historiography is essential for IB History for several reasons:
 
 ### 5.2 Schools of Historical Thought
 
+<div class="table-wrap">
+
 | School                      | Key Tenets                                                                                            | Key Thinkers                                                                                  | Limitations                                                                                                              |
 | :-------------------------- | :---------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
 | Orthodox/Traditionalist     | Established narrative of events; often aligned with contemporary political positions                  | Arthur Schlesinger Jr. (Cold War); Alan Bullock (Hitler)                                      | Tends to reflect the biases of the dominant political culture at the time of writing                                     |
@@ -511,6 +521,8 @@ Understanding historiography is essential for IB History for several reasons:
 | Structuralist/Functionalist | Historical outcomes result from broader structural forces -- institutional, economic, social          | Hans Mommsen; Martin Broszat (Nazi Germany); Timothy Mason                                    | Can underestimate the role of individual agency and ideological conviction                                               |
 | Annales School              | Emphasises long-term social, economic, and cultural structures ("longue duree") over political events | Marc Bloch; Lucien Febvre; Fernand Braudel                                                    | Can underemphasise the role of specific events and individuals in shaping outcomes                                       |
 | Cultural History            | Emphasises the role of culture, ideology, and meaning in shaping historical outcomes                  | Robert Darnton; Lynn Hunt; Carlo Ginzburg                                                     | Can marginalise the role of material conditions and political structures                                                 |
+
+</div>
 
 ### 5.3 Why Interpretations Change
 

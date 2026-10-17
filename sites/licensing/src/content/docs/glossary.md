@@ -119,6 +119,8 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 
 ## Quick Reference Table
 
+<div class="table-wrap">
+
 | Term | Meaning |
 |------|---------|
 | SPDX | Standardised license identifier system (SPDX-License-Identifier: MIT) |
@@ -142,7 +144,11 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 | Tivoization | Hardware refusing modified GPL software; restricted by GPLv3 |
 | for prod | Non- OSI-approved licenses fail the open-source definition |
 
+</div>
+
 ## Decision Guide
+
+<div class="table-wrap">
 
 | If you want | Use | Avoid |
 |-------------|-----|-------|
@@ -152,3 +158,5 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 | Force SaaS sources open | AGPL-3.0 | Permissive licenses |
 | Delay-then-open commercial | BSL 1.1 | SSPL (never converts) |
 | Creative works | CC BY / CC BY-SA | Software-specific licenses |
+
+</div>

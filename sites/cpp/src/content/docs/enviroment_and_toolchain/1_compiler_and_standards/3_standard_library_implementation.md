@@ -71,6 +71,8 @@ There are three primary implementations of the C++ Standard Library currently in
 
 ## Implementation Comparison Matrix
 
+<div class="table-wrap">
+
 | Dimension                          | libstdc++                           | libc++                                  | MSVC STL                               |
 | :--------------------------------- | :---------------------------------- | :-------------------------------------- | :------------------------------------- |
 | **Maintainer**                     | FSF / GCC Project                   | LLVM Project                            | Microsoft                              |
@@ -89,6 +91,8 @@ There are three primary implementations of the C++ Standard Library currently in
 | **`sizeof(std::string)` (64-bit)** | 32 bytes                            | 24 bytes                                | 32 bytes                               |
 | **Modules support**                | Partial (GCC 12+)                   | Good (Clang 16+)                        | Partial                                |
 | **Concepts/Ranges completeness**   | High (GCC 13+)                      | High (Clang 16+)                        | High (MSVC 19.38+)                     |
+
+</div>
 
 ## ABI Architectures and Symbol Mangling
 
@@ -189,6 +193,8 @@ These are "header-only" in the sense that the implementation is entirely in head
 
 The following require linking against a runtime library:
 
+<div class="table-wrap">
+
 | Component                             | libstdc++ library | libc++ library | MSVC library  |
 | :------------------------------------ | :---------------- | :------------- | :------------ |
 | Exception handling (`throw``try`)     | `libstdc++.so`    | `libc++abi.so` | `msvcprt.lib` |
@@ -198,6 +204,8 @@ The following require linking against a runtime library:
 | Thread support (`std::thread`)        | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
 | `std::regex`                          | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
 | `std::filesystem`                     | `libstdc++.so`    | `libc++.so`    | `msvcprt.lib` |
+
+</div>
 
 The split between the "C++ library" (`libc++.so`) and the "ABI library" (`libc++abi.so`) is unique
 to libc++. The ABI library handles the low-level runtime support (exception unwinding, RTTI, memory
@@ -234,12 +242,16 @@ Operation acquires a mutex (in thread-safe mode).
 
 The hardening modes are:
 
+<div class="table-wrap">
+
 | Mode           | Flag Value                         | Effect                              |
 | :------------- | :--------------------------------- | :---------------------------------- |
 | None (default) | `_LIBCPP_HARDENING_MODE_NONE`      | No additional checks                |
 | Minimal        | `_LIBCPP_HARDENING_MODE_MINIMAL`   | Assertions only in debug builds     |
 | Extensive      | `_LIBCPP_HARDENING_MODE_EXTENSIVE` | Bounds checking on `operator[]`Etc. |
 | Debug          | `_LIBCPP_HARDENING_MODE_DEBUG`     | All checks, plus abort on UB        |
+
+</div>
 
 ### MSVC Iterator Debugging
 
@@ -257,6 +269,8 @@ with a detailed diagnostic.
 
 ### Checked Iterators Comparison
 
+<div class="table-wrap">
+
 | Feature                    | libstdc++ Debug      | libc++ Hardening         | MSVC STL (IDL=2)    |
 | :------------------------- | :------------------- | :----------------------- | :------------------ |
 | Out-of-bounds `operator[]` | Yes (always)         | Yes (extensive mode)     | Yes                 |
@@ -266,6 +280,8 @@ with a detailed diagnostic.
 | ABI breaking?              | Yes                  | No                       | Yes                 |
 | Per-TU enablement          | No (all-or-nothing)  | Yes                      | No (all-or-nothing) |
 | Performance overhead       | High (2-5x slowdown) | Low (5-10% in extensive) | Moderate (1.5-3x)   |
+
+</div>
 
 ## Configuration and Selection
 
@@ -394,6 +410,8 @@ int main() {
 
 ### Important Feature Test Macros
 
+<div class="table-wrap">
+
 | Macro                 | Feature          | Minimum Standard |
 | --------------------- | ---------------- | ---------------- |
 | `__cpp_lib_concepts`  | Concepts library | C++20            |
@@ -405,6 +423,8 @@ int main() {
 | `__cpp_lib_expected`  | `std::expected`  | C++23            |
 | `__cpp_lib_flat_map`  | `std::flat_map`  | C++23            |
 | `__cpp_lib_mdspan`    | `std::mdspan`    | C++23            |
+
+</div>
 
 The value of each macro is a date `YYYYMML` indicating when the feature was finalized. A higher
 Value means a more complete implementation.
@@ -615,13 +635,19 @@ Measurable in specific scenarios.
 
 ### Benchmark: `std::vector<int>` Push Back (Millions of elements)
 
+<div class="table-wrap">
+
 | Operation                 | libstdc++ (GCC 13) | libc++ (Clang 17) | MSVC STL (VS 2022) |
 | ------------------------- | ------------------ | ----------------- | ------------------ |
 | `push_back` (1M elements) | 12ms               | 11ms              | 13ms               |
 | `reserve` + `push_back`   | 8ms                | 7ms               | 9ms                |
 | Random access (1M reads)  | 2ms                | 2ms               | 2ms                |
 
+</div>
+
 ### Benchmark: `std::string` Operations
+
+<div class="table-wrap">
 
 | Operation                       | libstdc++ | libc++ | MSVC STL |
 | ------------------------------- | --------- | ------ | -------- |
@@ -629,6 +655,8 @@ Measurable in specific scenarios.
 | SSO hit (short string)          | 8ns       | 5ns    | 7ns      |
 | Concatenation (medium)          | 120ns     | 95ns   | 130ns    |
 | `find` substring (1KB)          | 450ns     | 380ns  | 420ns    |
+
+</div>
 
 ### Key Differences
 
@@ -646,6 +674,8 @@ Feature implementations. The following table shows feature support status as of 
 
 ### C++23 Library Feature Support
 
+<div class="table-wrap">
+
 | Feature                           | libstdc++ (GCC 14) | libc++ (Clang 18) | MSVC STL (VS 2022 17.10+) |
 | :-------------------------------- | :----------------- | :---------------- | :------------------------ |
 | `std::print` / `std::println`     | Yes                | Yes               | Yes                       |
@@ -661,7 +691,11 @@ Feature implementations. The following table shows feature support status as of 
 | `std::byteswap`                   | Yes                | Yes               | Yes                       |
 | `std::start_lifetime_as`          | Partial            | Yes               | No                        |
 
+</div>
+
 ### C++20 Library Feature Support
+
+<div class="table-wrap">
 
 | Feature                    | libstdc++ (GCC 13) | libc++ (Clang 17) | MSVC STL (VS 2022) |
 | :------------------------- | :----------------- | :---------------- | :----------------- |
@@ -676,7 +710,11 @@ Feature implementations. The following table shows feature support status as of 
 | Calendar / Time zone       | Yes                | Yes               | Yes                |
 | `<source_location>`        | Yes                | Yes               | Yes                |
 
+</div>
+
 ### Thread Support Comparison
+
+<div class="table-wrap">
 
 | Feature                        | libstdc++ | libc++ | MSVC STL |
 | :----------------------------- | :-------- | :----- | :------- |
@@ -686,6 +724,8 @@ Feature implementations. The following table shows feature support status as of 
 | `std::atomic_ref`              | Yes       | Yes    | Yes      |
 | `std::atomic<shared_ptr>`      | Yes       | Yes    | Yes      |
 | Stop token (`std::stop_token`) | Yes       | Yes    | Yes      |
+
+</div>
 
 ## Choosing the Right Implementation
 

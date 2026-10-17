@@ -233,6 +233,8 @@ division.
 
 Many physical relationships can be linearised by choosing appropriate variables:
 
+<div class="table-wrap">
+
 | Non-linear relation  | Linearised form                       | Plot                  | Gradient   | Intercept |
 | -------------------- | ------------------------------------- | --------------------- | ---------- | --------- |
 | $y = ax^2 + b$       | $y = aX + b$                          | $y$ vs $X = x^2$      | $a$        | $b$       |
@@ -240,6 +242,8 @@ Many physical relationships can be linearised by choosing appropriate variables:
 | $y = a/x + b$        | $y = aX + b$                          | $y$ vs $X = 1/x$      | $a$        | $b$       |
 | $y = ae^{bx}$        | $\ln y = bx + \ln a$                  | $\ln y$ vs $x$        | $b$        | $\ln a$   |
 | $T = 2\pi\sqrt{L/g}$ | $T^2 = \frac{4\pi^2}{g}L$ | $T^2$ vs $L$          | $4\pi^2/g$ | $0$       |
+
+</div>
 
 :::tip
 Gradient, first find the gradient uncertainty using the worst line method, then divide by the
@@ -365,6 +369,8 @@ Result: $g = 9.8 \pm 0.6$ m s$^{-2}$.
 <summary>Problem 8</summary>
 A student obtains the following data for a linear relationship $y = mx + c$:
 
+<div class="table-wrap">
+
 | $x$ (cm) | $y$ (cm) |
 | -------- | -------- |
 | 2.0      | 3.2      |
@@ -372,6 +378,8 @@ A student obtains the following data for a linear relationship $y = mx + c$:
 | 6.0      | 8.5      |
 | 8.0      | 11.0     |
 | 10.0     | 13.8     |
+
+</div>
 
 Using a line of best fit, the gradient is $1.34$ cm/cm. The worst acceptable line gives a gradient
 of $1.28$ cm/cm. Calculate the gradient and its uncertainty as a percentage.
@@ -403,6 +411,8 @@ By plotting $T^2$ against $L$ The gradient gives $4\pi^2/g$ From which $g$ can b
 
 ### 4.2 Sample Data and Calculations
 
+<div class="table-wrap">
+
 | $L$ (m)           | $T$ (s)         | $T^2$ (s$^2$)   |
 | ----------------- | --------------- | --------------- |
 | $0.400 \pm 0.002$ | $1.26 \pm 0.03$ | $1.59 \pm 0.08$ |
@@ -410,6 +420,8 @@ By plotting $T^2$ against $L$ The gradient gives $4\pi^2/g$ From which $g$ can b
 | $0.800 \pm 0.002$ | $1.80 \pm 0.03$ | $3.24 \pm 0.11$ |
 | $1.000 \pm 0.002$ | $2.01 \pm 0.03$ | $4.04 \pm 0.12$ |
 | $1.200 \pm 0.002$ | $2.20 \pm 0.03$ | $4.84 \pm 0.13$ |
+
+</div>
 
 The uncertainty in $T^2$ is calculated using the power rule: $\Delta T^2/T^2 = 2\Delta T/T$.
 
@@ -458,12 +470,18 @@ S$^{-2}$.
 
 ### 5.1 Definitions Revisited
 
+<div class="table-wrap">
+
 | Property      | Definition                                       | How to Assess                                      |
 | ------------- | ------------------------------------------------ | -------------------------------------------------- |
 | **Accuracy**  | Closeness of measurements to the true value      | Compare the mean with an accepted value            |
 | **Precision** | Closeness of repeated measurements to each other | Calculate the spread (range or standard deviation) |
 
+</div>
+
 ### 5.2 The Four Scenarios
+
+<div class="table-wrap">
 
 | Scenario | Accuracy | Precision | Interpretation                                                                              |
 | -------- | -------- | --------- | ------------------------------------------------------------------------------------------- |
@@ -471,6 +489,8 @@ S$^{-2}$.
 | B        | High     | Low       | Measurements are scattered but the mean is close to the true value. Random errors dominate. |
 | C        | Low      | High      | Measurements are tightly clustered but away from the true value. Systematic error present.  |
 | D        | Low      | Low       | Measurements are scattered and the mean is wrong. Both error types present.                 |
+
+</div>
 
 ### 5.3 Improving Both Accuracy and Precision
 

@@ -46,12 +46,16 @@ correct answer, a full explanation, a difficulty badge, and a mark value.
 
 > Work out $\frac{3}{4} + \frac{2}{5}$. Give your answer in its simplest form.
 
+<div class="table-wrap">
+
 | #   | Option          | Mark |
 | --- | --------------- | ---- |
 | A   | $\frac{5}{9}$   |      |
 | B   | $\frac{23}{20}$ |      |
 | C   | $\frac{6}{20}$  |      |
 | D   | $\frac{5}{20}$  |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -74,12 +78,16 @@ $\frac{3}{4} + \frac{2}{5} = \frac{15}{20} + \frac{8}{20} = \frac{23}{20}$.
 
 > A jacket costs £80. It is reduced by 15% in a sale. What is the new price?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | £65    |      |
 | B   | £12    |      |
 | C   | £68    |      |
 | D   | £95    |      |
+
+</div>
 
 **Correct: C** (index 2)
 
@@ -102,12 +110,16 @@ $15\% \text{ of } 80 = 0.15 \times 80 = 12$. New price = $80 - 12 = £68$.
 
 > After a 20% increase, a quantity is 360. What was the original quantity?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 288    |      |
 | B   | 300    |      |
 | C   | 432    |      |
 | D   | 340    |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -131,12 +143,16 @@ Original $\times 1.20 = 360$, so original $= 360 \div 1.20 = 300$.
 > The ratio of boys to girls in a class is 3:5. There are 32 students in total. How many boys are
 > there?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 12     |      |
 | B   | 20     |      |
 | C   | 15     |      |
 | D   | 19     |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -161,12 +177,16 @@ $3 + 5 = 8$ parts. One part $= 32 \div 8 = 4$. Boys $= 3 \times 4 = 12$.
 
 > Solve $4x - 7 = 2x + 9$.
 
+<div class="table-wrap">
+
 | #   | Option   | Mark |
 | --- | -------- | ---- |
 | A   | $x = 1$  |      |
 | B   | $x = 8$  |      |
 | C   | $x = -1$ |      |
 | D   | $x = 16$ |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -189,12 +209,16 @@ $4x - 2x = 9 + 7 \Rightarrow 2x = 16 \Rightarrow x = 8$.
 
 > Solve $x^2 - 5x + 6 = 0$.
 
+<div class="table-wrap">
+
 | #   | Option           | Mark |
 | --- | ---------------- | ---- |
 | A   | $x = 1, x = 6$   |      |
 | B   | $x = -2, x = -3$ |      |
 | C   | $x = 2, x = 3$   |      |
 | D   | $x = -1, x = -6$ |      |
+
+</div>
 
 **Correct: C** (index 2)
 
@@ -217,12 +241,16 @@ $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 
 > Solve the inequality $3x + 4 > 2x - 5$. Which of the following represents the solution?
 
+<div class="table-wrap">
+
 | #   | Option   | Mark |
 | --- | -------- | ---- |
 | A   | $x > -9$ |      |
 | B   | $x > 9$  |      |
 | C   | $x < -9$ |      |
 | D   | $x > 1$  |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -245,12 +273,16 @@ $3x - 2x > -5 - 4 \Rightarrow x > -9$.
 
 > The nth term of a sequence is $2n^2 + 3n$. What is the 5th term?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 65     |      |
 | B   | 25     |      |
 | C   | 85     |      |
 | D   | 50     |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -275,12 +307,16 @@ $n = 5$: $2(25) + 3(5) = 50 + 15 = 65$.
 
 > In triangle ABC, angle A = 55° and angle B = 75°. What is angle C?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 140°   |      |
 | B   | 130°   |      |
 | C   | 50°    |      |
 | D   | 60°    |      |
+
+</div>
 
 **Correct: C** (index 2)
 
@@ -304,12 +340,16 @@ Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 > A, B, and C are points on the circumference of a circle where AC is the diameter. Angle BAC = 38°.
 > What is angle ABC?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 38°    |      |
 | B   | 52°    |      |
 | C   | 128°   |      |
 | D   | 90°    |      |
+
+</div>
 
 **Correct: D** (index 3)
 
@@ -332,12 +372,16 @@ The angle subtended by the diameter is a right angle (Thales" theorem). Angle AB
 
 > A circle has a radius of 7 cm. Taking $\pi = \frac{22}{7}$, what is the area of the circle?
 
+<div class="table-wrap">
+
 | #   | Option  | Mark |
 | --- | ------- | ---- |
 | A   | 154 cm² |      |
 | B   | 44 cm²  |      |
 | C   | 49 cm²  |      |
 | D   | 77 cm²  |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -361,12 +405,16 @@ $A = \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \text{ cm}^2$.
 > Point $P$ has coordinates $(3, 2)$. It is translated by the vector
 > $\begin{pmatrix} -4 \\ 5 \end{pmatrix}$. What are the coordinates of the image point $P'$?
 
+<div class="table-wrap">
+
 | #   | Option     | Mark |
 | --- | ---------- | ---- |
 | A   | $(7, -3)$  |      |
 | B   | $(-1, 7)$  |      |
 | C   | $(12, 10)$ |      |
 | D   | $(-4, 5)$  |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -391,12 +439,16 @@ $P' = (3 - 4, 2 + 5) = (-1, 7)$.
 
 > The data set is: 3, 5, 5, 7, 9. What is the mean?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 5      |      |
 | B   | 7      |      |
 | C   | 5.8    |      |
 | D   | 6      |      |
+
+</div>
 
 **Correct: C** (index 2)
 
@@ -419,12 +471,16 @@ Mean $= (3 + 5 + 5 + 7 + 9) \div 5 = 29 \div 5 = 5.8$.
 
 > Find the median of: 2, 7, 1, 8, 3, 5, 6.
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 4      |      |
 | B   | 5      |      |
 | C   | 3      |      |
 | D   | 8      |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -448,12 +504,16 @@ Ordered: 1, 2, 3, **5**, 6, 7, 8. The middle value (4th of 7) is 5.
 > A bag contains 3 red balls, 5 blue balls, and 2 green balls. One ball is picked at random. What is
 > the probability it is blue?
 
+<div class="table-wrap">
+
 | #   | Option         | Mark |
 | --- | -------------- | ---- |
 | A   | $\frac{5}{8}$  |      |
 | B   | $\frac{1}{2}$  |      |
 | C   | $\frac{5}{10}$ |      |
 | D   | $\frac{3}{10}$ |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -476,12 +536,16 @@ $P(\text{blue}) = \frac{5}{3 + 5 + 2} = \frac{5}{10} = \frac{1}{2}$.
 
 > Two fair six-sided dice are rolled. What is the probability that the sum is 7?
 
+<div class="table-wrap">
+
 | #   | Option         | Mark |
 | --- | -------------- | ---- |
 | A   | $\frac{1}{6}$  |      |
 | B   | $\frac{1}{12}$ |      |
 | C   | $\frac{7}{36}$ |      |
 | D   | $\frac{1}{7}$  |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -507,12 +571,16 @@ outcomes. $P = \frac{6}{36} = \frac{1}{6}$.
 
 > If 5 litres of paint covers 60 m², how many litres are needed to cover 96 m²?
 
+<div class="table-wrap">
+
 | #   | Option     | Mark |
 | --- | ---------- | ---- |
 | A   | 6 litres   |      |
 | B   | 8 litres   |      |
 | C   | 7.5 litres |      |
 | D   | 10 litres  |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -535,12 +603,16 @@ Scale factor: $96 \div 60 = 1.6$. Paint needed: $5 \times 1.6 = 8$ litres.
 
 > £240 is shared in the ratio 2:3:5. What is the largest share?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | £96    |      |
 | B   | £72    |      |
 | C   | £120   |      |
 | D   | £48    |      |
+
+</div>
 
 **Correct: C** (index 2)
 
@@ -563,12 +635,16 @@ $2 + 3 + 5 = 10$ parts. One part = £24. Largest share = $5 \times 24 = £120$.
 
 > A car travels 180 miles in 2 hours 30 minutes. What is its average speed in mph?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | 60 mph |      |
 | B   | 72 mph |      |
 | C   | 90 mph |      |
 | D   | 75 mph |      |
+
+</div>
 
 **Correct: B** (index 1)
 
@@ -592,12 +668,16 @@ $2 \text{ h } 30 \text{ min} = 2.5 \text{ h}$. Speed $= 180 \div 2.5 = 72 \text{
 > The exchange rate is £1 = $1.25. Kate converts £480 to dollars. She then spends $375 and converts
 > the remainder back to pounds. How much does she receive in pounds?
 
+<div class="table-wrap">
+
 | #   | Option | Mark |
 | --- | ------ | ---- |
 | A   | £66    |      |
 | B   | £75    |      |
 | C   | £60    |      |
 | D   | £80    |      |
+
+</div>
 
 **Correct: A** (index 0)
 
@@ -640,6 +720,8 @@ the answer is £180.
 
 ## Summary
 
+<div class="table-wrap">
+
 | Topic              | Questions | Easy   | Medium | Hard  | Total Marks |
 | ------------------ | --------- | ------ | ------ | ----- | ----------- |
 | Number             | Q1–Q4     | 3      | 1      | 0     | 9           |
@@ -648,6 +730,8 @@ the answer is £180.
 | Statistics         | Q13–Q16   | 3      | 1      | 0     | 9           |
 | Ratio & Proportion | Q17–Q20   | 0      | 3      | 1     | 13          |
 | **Total**          | **20**    | **10** | **9**  | **1** | **51**      |
+
+</div>
 
 ## Intuition
 

@@ -22,19 +22,29 @@ tableOfContents: false
 
 ### Microeconomics
 
+<div class="table-wrap">
+
 | Diagnostic File              | Topics Covered                                                            | Source Files                          |
 | ---------------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
 | `diag-demand-supply.md`      | PED, PES, equilibrium, consumer/producer surplus, tax/subsidy analysis    | `02-demand-supply-and-equilibrium.md` |
 | `diag-market-failure.md`     | Externalities, public goods, information failure, government intervention | `03-market-failure.md`                |
 | `diag-theory-of-the-firm.md` | Profit maximisation, market structures, game theory, regulation           | `04-theory-of-the-firm.md`            |
 
+</div>
+
 ### Macroeconomics
+
+<div class="table-wrap">
 
 | Diagnostic File                | Topics Covered                                                            | Source Files                                                                                                               |
 | ------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | `diag-macroeconomic-policy.md` | Multiplier, Phillips curve, fiscal/monetary policy, AD/AS, exchange rates | `01-macroeconomic-performance.md``02-aggregate-demand-and-supply.md``04-fiscal-policy.md``06-the-international-economy.md` |
 
+</div>
+
 ### Topics Covered Through Integration Tests
+
+<div class="table-wrap">
 
 | Topic                  | Covered In                                       | Source File                          |
 | ---------------------- | ------------------------------------------------ | ------------------------------------ |
@@ -45,6 +55,8 @@ tableOfContents: false
 | Supply-Side Policy     | IT-2 (macroeconomic policy)                      | `05-supply-side-policy.md`           |
 | Policy Debates         | Throughout macro integration tests               | `07-macroeconomic-policy-debates.md` |
 | Development Economics  | Through international integration tests          | `08-development-economics.md`        |
+
+</div>
 
 ## Grading Rubric
 
@@ -99,12 +111,16 @@ Macroeconomic Performance (inflation, unemployment, growth)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                  | Recommended Time | Notes                                              |
 | --------------------------- | ---------------- | -------------------------------------------------- |
 | `diag-demand-supply`        | 40 minutes       | Quantitative questions require careful calculation |
 | `diag-market-failure`       | 40 minutes       | Welfare analysis has many steps                    |
 | `diag-theory-of-the-firm`   | 45 minutes       | Game theory and cost functions are complex         |
 | `diag-macroeconomic-policy` | 45 minutes       | Multi-step policy analysis                         |
+
+</div>
 
 **Total recommended time:** approximately 2.8 hours (spread across multiple sessions).
 
@@ -295,6 +311,8 @@ The following errors appear repeatedly in student work. Use this section to chec
 
 ### Calculation Errors
 
+<div class="table-wrap">
+
 | Error                                                                | Correct Approach                                                                                                          |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Confusing $\% \Delta Q / \% \Delta P$ with $\Delta Q / \Delta P$     | PED is a percentage ratio, not a slope. $PED = \frac{\% \Delta Q}{\% \Delta P}$.                              |
@@ -304,7 +322,11 @@ The following errors appear repeatedly in student work. Use this section to chec
 | Adding tax revenue to calculate total surplus with externality       | Tax revenue is a TRANSFER, not a net welfare gain. It offsets the loss to consumers and producers.                        |
 | Calculating deadweight loss as the full triangle without checking    | DWL $= \frac{1}{2} \times \text{tax} \times \Delta Q$. The $\Delta Q$ is the change in quantity, not the quantity itself. |
 
+</div>
+
 ### Diagram Errors
+
+<div class="table-wrap">
 
 | Error                                            | Correct Approach                                                                            |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------- |
@@ -314,7 +336,11 @@ The following errors appear repeatedly in student work. Use this section to chec
 | Drawing the LRAS through the current equilibrium | LRAS is at $Y^*$ regardless of where the current equilibrium is.                            |
 | Showing a tax as a shift in demand               | A tax on producers shifts SUPPLY (upward). A tax on consumers shifts DEMAND (downward).     |
 
+</div>
+
 ### Conceptual Errors
+
+<div class="table-wrap">
 
 | Error                                        | Correct Approach                                                                                  |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -323,6 +349,8 @@ The following errors appear repeatedly in student work. Use this section to chec
 | Treating the Phillips curve as stable        | The SR Phillips curve shifts when expectations change. The LR Phillips curve is vertical.         |
 | Assuming supply-side policy works quickly    | Most supply-side policies have lags of 5-20 years. They cannot address short-run recessions.      |
 | Confusing fiscal deficit with national debt  | Deficit: annual shortfall. Debt: accumulated stock of past deficits.                              |
+
+</div>
 
 ---
 
@@ -339,6 +367,8 @@ The following errors appear repeatedly in student work. Use this section to chec
 
 ### Exam Approach (2 hours per paper, A Level Economics)
 
+<div class="table-wrap">
+
 | Time        | Task                                           | Marks Target |
 | ----------- | ---------------------------------------------- | ------------ |
 | 0-5 min     | Read all questions, choose options, plan order | --           |
@@ -348,7 +378,11 @@ The following errors appear repeatedly in student work. Use this section to chec
 | 80-110 min  | Essay question (25 marks)                      | 18+          |
 | 110-120 min | Review, check calculations, verify diagrams    | +2-4         |
 
+</div>
+
 ### Per-Mark Timing Guide
+
+<div class="table-wrap">
 
 | Question Type      | Marks | Suggested Time | Structure                                                       |
 | ------------------ | ----- | -------------- | --------------------------------------------------------------- |
@@ -358,6 +392,8 @@ The following errors appear repeatedly in student work. Use this section to chec
 | Analysis (diagram) | 6-8   | 6-8 min        | Diagram (50%) + explanation (50%)                               |
 | Evaluation         | 10-12 | 10-12 min      | 2-3 points for, 2-3 points against, judgement                   |
 | Essay              | 25    | 35-40 min      | Introduction (3), analysis (12), evaluation (8), conclusion (2) |
+
+</div>
 
 ### Essay Structure Template (25 marks)
 
@@ -486,6 +522,8 @@ circumstances.
 
 When time is limited, focus on the highest-yield topics:
 
+<div class="table-wrap">
+
 | Priority | Topic                                        | Reason                                                   |
 | :------: | -------------------------------------------- | -------------------------------------------------------- |
 |    1     | AD/AS model, multiplier                      | Appears in almost every macro question                   |
@@ -498,6 +536,8 @@ When time is limited, focus on the highest-yield topics:
 |    8     | Development economics (Solow, poverty traps) | Synoptic essay topics                                    |
 |    9     | Labour markets (monopsony, trade unions)     | Applied micro, less frequently tested                    |
 |    10    | Distribution of income (Gini, tax systems)   | Often combined with other topics                         |
+
+</div>
 
 ## Summary
 

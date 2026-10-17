@@ -70,6 +70,8 @@ When ZFS reads a block, it:
 
 ### Checksum Algorithms
 
+<div class="table-wrap">
+
 | Algorithm | Speed     | Collision Resistance | Recommendation                     |
 | --------- | --------- | -------------------- | ---------------------------------- |
 | fletcher2 | Fast      | Low                  | Legacy only                        |
@@ -78,6 +80,8 @@ When ZFS reads a block, it:
 | sha512    | Slow      | Very High            | Security-sensitive environments    |
 | edonr     | Very Fast | Very High            | Best for modern hardware (SSE4.2+) |
 | blake3    | Very Fast | Very High            | Available on newer ZFS versions    |
+
+</div>
 
 :::note
 Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
@@ -114,6 +118,8 @@ graph TD
     C --> I[disk6]
 ```
 
+<div class="table-wrap">
+
 | vdev Type     | Min Drives | Fault Tolerance  | Capacity Efficiency | Write Performance | Read Performance |
 | ------------- | ---------- | ---------------- | ------------------- | ----------------- | ---------------- |
 | stripe (none) | 1          | None             | 100%                | N ×               | N ×              |
@@ -123,6 +129,8 @@ graph TD
 | raidz3        | 5          | 3 drives         | (N-3)/N ×           | Moderate          | Good             |
 | draid1        | 3          | 1 drive + spare  | Similar to raidz1   | Good              | Good             |
 | draid2        | 4          | 2 drives + spare | Similar to raidz2   | Good              | Good             |
+
+</div>
 
 ### RAIDZ Dynamic Striping
 
@@ -143,12 +151,16 @@ Parity count. The actual usable capacity depends on the recordsize and write pat
 The `ashift` property controls the physical sector size that ZFS assumes for the drives. It must be
 Set at pool creation time and cannot be changed afterward.
 
+<div class="table-wrap">
+
 | ashift | Sector Size | When to Use                                 |
 | ------ | ----------- | ------------------------------------------- |
 | 9      | 512 bytes   | Legacy drives only                          |
 | 12     | 4 KB        | Most modern HDDs and SSDs                   |
 | 13     | 8 KB        | Some modern SSDs with 8 KB physical sectors |
 | 14     | 16 KB       | Advanced-format SMR drives                  |
+
+</div>
 
 :::caution
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
@@ -204,6 +216,8 @@ zfs get all tank/data
 
 ### Key Dataset Properties
 
+<div class="table-wrap">
+
 | Property       | Default                 | Description                        | Recommendation                                        |
 | -------------- | ----------------------- | ---------------------------------- | ----------------------------------------------------- |
 | compression    | off (on), lz4 (TrueNAS) | Compress data before writing       | Always `lz4` (fast, low CPU) or `zstd` (better ratio) |
@@ -215,10 +229,14 @@ zfs get all tank/data
 | primarycache   | all                     | What to store in ARC               | `all` for most workloads                              |
 | secondarycache | all                     | What to store in L2ARC             | `all` if L2ARC present                                |
 
+</div>
+
 ### recordsize Selection
 
 The `recordsize` property determines the maximum block size ZFS uses for a file. ZFS uses
 Variable-size blocks up to this maximum. The optimal recordsize depends on the workload:
+
+<div class="table-wrap">
 
 | Workload                           | Recommended recordsize | Rationale                                        |
 | ---------------------------------- | ---------------------- | ------------------------------------------------ |
@@ -227,6 +245,8 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 | Databases (MySQL, PostgreSQL)      | 8K or 16K              | Match the database page size                     |
 | General file storage               | 128K                   | Good balance for mixed workloads                 |
 | NFS home directories               | 128K                   | Mixed workload, default is fine                  |
+
+</div>
 
 :::caution
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
@@ -289,6 +309,8 @@ zfs promote tank/data-restore
 
 ### Clones vs. Snapshots
 
+<div class="table-wrap">
+
 | Feature        | Snapshot                       | Clone                           |
 | -------------- | ------------------------------ | ------------------------------- |
 | Writable       | No                             | Yes                             |
@@ -296,6 +318,8 @@ zfs promote tank/data-restore
 | Can be mounted | No                             | Yes                             |
 | Dependencies   | Cannot destroy if clone exists | Independent after promotion     |
 | Use case       | Backup points, rollback        | Testing, temporary environments |
+
+</div>
 
 ---
 
@@ -460,12 +484,16 @@ zfs send -w tank/data@snapshot1 | zfs recv backup/data
 
 ### Replication Strategies
 
+<div class="table-wrap">
+
 | Strategy                              | Bandwidth | Storage | Complexity |
 | ------------------------------------- | --------- | ------- | ---------- |
 | Full periodic                         | High      | High    | Low        |
 | Incremental periodic                  | Low       | Medium  | Medium     |
 | Continuous (zfs-auto-snapshot + cron) | Low       | Medium  | Medium     |
 | TrueNAS replication task              | Low       | Medium  | Low (GUI)  |
+
+</div>
 
 ---
 
@@ -488,6 +516,8 @@ zpool status -v tank
 
 Key fields to understand:
 
+<div class="table-wrap">
+
 | Field  | Meaning                                                 |
 | ------ | ------------------------------------------------------- |
 | state  | Overall pool state (ONLINE, DEGRADED, FAULTED, UNAVAIL) |
@@ -497,7 +527,11 @@ Key fields to understand:
 | config | Detailed vdev and disk status                           |
 | errors | Read, write, and checksum error counts per disk         |
 
+</div>
+
 ### Drive Status Values
+
+<div class="table-wrap">
 
 | Status   | Meaning                                             | Action                     |
 | -------- | --------------------------------------------------- | -------------------------- |
@@ -507,6 +541,8 @@ Key fields to understand:
 | FAULTED  | Drive has been marked as failed                     | Replace immediately        |
 | UNAVAIL  | Drive cannot be opened or accessed                  | Check connections, replace |
 | REMOVED  | Drive has been physically removed                   | Reinsert or replace        |
+
+</div>
 
 ---
 
@@ -638,6 +674,8 @@ HDD vdev, dramatically improving directory listing performance.
 
 ### Compression Ratio by Data Type
 
+<div class="table-wrap">
+
 | Data Type                         | lz4 Ratio | zstd-3 Ratio | Compressible |
 | --------------------------------- | --------- | ------------ | ------------ |
 | Text files (source code, docs)    | 2.0–3.0x  | 2.5–4.0x     | Yes          |
@@ -649,7 +687,11 @@ HDD vdev, dramatically improving directory listing performance.
 | Compressed archives (ZIP, tar.gz) | 1.0x      | 1.0x         | No           |
 | Logs (server, application)        | 5.0–10.0x | 8.0–15.0x    | Yes          |
 
+</div>
+
 ### CPU Overhead of Compression
+
+<div class="table-wrap">
 
 | Algorithm | Compression Throughput | Decompression Throughput | CPU Overhead |
 | --------- | ---------------------- | ------------------------ | ------------ |
@@ -657,6 +699,8 @@ HDD vdev, dramatically improving directory listing performance.
 | zstd-1    | 1–2 GB/s per core      | 4–6 GB/s per core        | Low          |
 | zstd-3    | 500 MB–1 GB/s per core | 3–5 GB/s per core        | Moderate     |
 | zstd-10   | 100–200 MB/s per core  | 2–3 GB/s per core        | High         |
+
+</div>
 
 On modern CPUs (8+ cores), lz4 compression overhead is negligible for most workloads. The I/O time
 Saved by writing less data to disk exceeds the CPU time spent compressing.
@@ -714,12 +758,18 @@ kstat -p zfs:0:arcstats:arc_meta_max
 
 ### Compression Properties
 
+<div class="table-wrap">
+
 | Property      | Values                               | Default       | Description                  |
 | ------------- | ------------------------------------ | ------------- | ---------------------------- |
 | compression   | off, lz4, lzjb, zstd, gzip-1..9, zle | lz4 (TrueNAS) | Compress data before writing |
 | compressratio | Read-only                            | 1.00x         | Current compression ratio    |
 
+</div>
+
 ### Access Time Properties
+
+<div class="table-wrap">
 
 | Property | Values  | Default | Description                                   |
 | -------- | ------- | ------- | --------------------------------------------- |
@@ -727,7 +777,11 @@ kstat -p zfs:0:arcstats:arc_meta_max
 | relatime | on, off | off     | Update atime only if modified since last read |
 | xattr    | on, off | on      | Enable extended attributes                    |
 
+</div>
+
 ### Quota and Reservation Properties
+
+<div class="table-wrap">
 
 | Property       | Values       | Default | Description                                   |
 | -------------- | ------------ | ------- | --------------------------------------------- |
@@ -736,12 +790,18 @@ kstat -p zfs:0:arcstats:arc_meta_max
 | reservation    | Size or none | none    | Minimum space guaranteed for dataset          |
 | refreservation | Size or none | none    | Minimum space for dataset only                |
 
+</div>
+
 ### Sync Properties
+
+<div class="table-wrap">
 
 | Property | Values                     | Default  | Description                        |
 | -------- | -------------------------- | -------- | ---------------------------------- |
 | sync     | standard, always, disabled | standard | Synchronous write behavior         |
 | logbias  | latency, throughput        | latency  | Optimize for latency or throughput |
+
+</div>
 
 ## ZFS Snapshot Advanced Usage
 
@@ -868,6 +928,8 @@ Force export if necessary.
 
 ### Pool Degradation Scenarios
 
+<div class="table-wrap">
+
 | Scenario                      | Impact                           | Recovery                     |
 | ----------------------------- | -------------------------------- | ---------------------------- |
 | Single disk failure in mirror | No data loss, reduced redundancy | Replace disk, resilver       |
@@ -876,6 +938,8 @@ Force export if necessary.
 | Two disk failures in RAIDZ1   | **Total data loss**              | Restore from backup          |
 | Cache device failure          | Performance degradation only     | Remove and replace cache     |
 | SLOG device failure           | Sync writes fall back to pool    | Remove and replace SLOG      |
+
+</div>
 
 ## ZFS Internals: The DMU Transaction Model
 
@@ -947,10 +1011,14 @@ zfs create -o special_small_blocks=32K tank/data
 # while regular data goes to the main vdev (HDD)
 ```
 
+<div class="table-wrap">
+
 | Special Vdev   | Stores                                       | Benefit                          |
 | -------------- | -------------------------------------------- | -------------------------------- |
 | `special_vdev` | Metadata (dnode, directories) + small blocks | Faster directory listing         |
 | `dedup_vdev`   | Dedup table                                  | Offloads dedup metadata from ARC |
+
+</div>
 
 ### ZFS Bookmarks
 
@@ -970,12 +1038,16 @@ zfs send -i tank/data#bm_snap1 tank/data@snap2 | zfs recv backup/data
 
 The dedup DDT (Dedup Table) stores a hash entry for every unique block:
 
+<div class="table-wrap">
+
 | Field           | Size     | Description                             |
 | --------------- | -------- | --------------------------------------- |
 | Hash            | 32 bytes | SHA-256 hash of block contents          |
 | Reference count | 8 bytes  | Number of blocks pointing to this entry |
 | First LBLK      | 8 bytes  | First logical block reference           |
 | Disk address    | 8 bytes  | Physical location on disk               |
+
+</div>
 
 Memory per DDT entry: approximately 320 bytes.
 
@@ -996,12 +1068,16 @@ GB of RAM just for the DDT.
 
 ### Scrub Scheduling Best Practices
 
+<div class="table-wrap">
+
 | Pool Type     | Scrub Frequency | Time of Day     | Reason                        |
 | ------------- | --------------- | --------------- | ----------------------------- |
 | All-SSD       | Weekly          | Weekend morning | Fast completion (1–4 hours)   |
 | All-HDD       | Monthly         | Weekend morning | Slow completion (12–48 hours) |
 | Hybrid        | Monthly         | Weekend morning | Focus on HDD vdevs            |
 | Critical data | Bi-weekly       | Off-peak        | More frequent verification    |
+
+</div>
 
 ### Resilver Performance Optimization
 
@@ -1063,6 +1139,8 @@ zpool iostat -v tank 5
 
 ### Common Performance Issues
 
+<div class="table-wrap">
+
 | Symptom                             | Likely Cause                   | Diagnostic                              |
 | ----------------------------------- | ------------------------------ | --------------------------------------- |
 | Low ARC hit ratio                   | Working set exceeds RAM        | Increase RAM or add L2ARC               |
@@ -1071,6 +1149,8 @@ zpool iostat -v tank 5
 | Inconsistent I/O                    | Mixed vdev types (HDD + SSD)   | Separate hot/cold data                  |
 | High metadata latency               | Many small files               | Add special vdev with SSD               |
 | Pool performance degrades over time | Fragmentation                  | Copy data to a new pool                 |
+
+</div>
 
 ## Summary
 

@@ -690,11 +690,15 @@ def read_config(path: str) -> dict:
 
 The four clauses have distinct roles:
 
+<div class="table-wrap">
+
 | Clause    | Executes when                             | Purpose                                   |
 | --------- | ----------------------------------------- | ----------------------------------------- |
 | `except`  | The specified exception is raised         | Handle the error, recover, or re-raise    |
 | `else`    | No exception is raised in the `try` block | Code that depends on the `try` succeeding |
 | `finally` | Always, even if an exception is unhandled | Cleanup that must happen regardless       |
+
+</div>
 
 The `else` clause exists to prevent a subtle bug: catching an exception that was raised by the
 Error-handling code itself, not by the code you intended to protect.
@@ -2904,6 +2908,8 @@ Cooperative multitasking within a single thread, controlled entirely by explicit
 
 ### How Generators Differ from Regular Functions
 
+<div class="table-wrap">
+
 | Property                   | Regular Function        | Generator Function           |
 | -------------------------- | ----------------------- | ---------------------------- |
 | Returns                    | A value (or `None`)     | A generator object           |
@@ -2911,6 +2917,8 @@ Cooperative multitasking within a single thread, controlled entirely by explicit
 | State                      | Lost on return          | Preserved between yields     |
 | Multiple return values     | Use tuple/list          | Multiple `yield` statements  |
 | Memory for large sequences | O(n) in caller's memory | O(1) -- one value at a time  |
+
+</div>
 
 The generator object itself is lightweight -- it holds a reference to the code object and the
 Current frame. The memory cost is proportional to the number of local variables in the generator
@@ -3426,6 +3434,8 @@ Benefit of lazy evaluation: **composition without materialization**.
 
 ### Tradeoffs: Lazy vs Eager
 
+<div class="table-wrap">
+
 | Aspect          | Lazy (Generator)                | Eager (List)                    |
 | --------------- | ------------------------------- | ------------------------------- |
 | Memory          | O(1) per item                   | O(n) total                      |
@@ -3435,6 +3445,8 @@ Benefit of lazy evaluation: **composition without materialization**.
 | Multiple passes | Requires re-creation or `tee()` | Unlimited                       |
 | Debugging       | Harder -- state is implicit     | Easier -- data is inspectable   |
 | Exceptions      | Delayed until consumption       | Immediate during construction   |
+
+</div>
 
 ## Generator-Based State Machines
 
@@ -4336,6 +4348,8 @@ Recognized as part of the same package `namespace_pkg`.
 
 The difference from regular packages:
 
+<div class="table-wrap">
+
 | Property      | Regular Package         | Namespace Package             |
 | ------------- | ----------------------- | ----------------------------- |
 | `__init__.py` | Required                | Absent                        |
@@ -4343,6 +4357,8 @@ The difference from regular packages:
 | `__file__`    | Points to `__init__.py` | `None`                        |
 | When created  | First import            | First import of any submodule |
 | Use case      | Most applications       | Plugin systems, vendor splits |
+
+</div>
 
 Namespace packages are the mechanism behind the `vendor` directory pattern used by pip and
 Setuptools to bundle dependencies without conflict. They are also used by large projects that split
@@ -4593,12 +4609,16 @@ Circular imports because the actual loading happens after all module-level impor
 
 ### Choosing a Strategy
 
+<div class="table-wrap">
+
 | Strategy              | When to Use                    | Trade-off                                     |
 | --------------------- | ------------------------------ | --------------------------------------------- |
 | Restructure           | Clean separation is possible   | Requires architectural changes                |
 | Function-level import | Runtime dependency, simple fix | Hidden dependency, less discoverable          |
 | `TYPE_CHECKING` guard | Only needed for annotations    | Requires `from __future__ import annotations` |
 | Lazy imports          | Large codebase, many cycles    | Added complexity, debugging difficulty        |
+
+</div>
 
 ## Re-exports and Aliases
 
@@ -4975,12 +4995,16 @@ Way `pkg_resources` does). Prefer `importlib.metadata` in all new code.
 
 Key differences:
 
+<div class="table-wrap">
+
 | Feature      | `pkg_resources`       | `importlib.metadata` |
 | ------------ | --------------------- | -------------------- |
 | Stdlib       | No (setuptools)       | Yes (3.8+)           |
 | Startup cost | High (scans sys.path) | Low (lazy)           |
 | Maintenance  | Legacy                | Active               |
 | API style    | OOP-heavy             | Functional           |
+
+</div>
 
 ### How Entry Points Work Under the Hood
 
@@ -5599,6 +5623,8 @@ Key attributes:
 
 ### Common Bytecode Instructions
 
+<div class="table-wrap">
+
 | Instruction                | Stack Effect                         | Description                            |
 | -------------------------- | ------------------------------------ | -------------------------------------- |
 | `LOAD_FAST name`           | push local                           | Load local variable onto stack         |
@@ -5616,6 +5642,8 @@ Key attributes:
 | `BUILD_LIST size`          | pop size items, push list            | Build a list from stack items          |
 | `GET_ITER`                 | pop iterable, push iterator          | Get iterator from iterable             |
 | `FOR_ITER target`          | push next or jump                    | Iterator loop                          |
+
+</div>
 
 ### Reading Bytecode for Optimization
 
@@ -6532,6 +6560,8 @@ print(sum([True, False, True])) # 2
 In boolean contexts (`if`, `while`, `and`, `or`, `not`, `bool()`), Python applies a well-defined set Of rules
 to determine the truth value of any object:
 
+<div class="table-wrap">
+
 | Value                     | Truth Value | Reason                                           |
 | ------------------------- | :---------: | ------------------------------------------------ |
 | `None`                    |    False    | Explicit absence                                 |
@@ -6539,6 +6569,8 @@ to determine the truth value of any object:
 | Zero of any numeric type  |    False    | `0``0.0``0j``Decimal(0)``Fraction(0, 1)`         |
 | Empty sequence/collection |    False    | `""``()``[]``{}``set()``range(0)`                |
 | Everything else           |    True     | Including objects with `__bool__` returning True |
+
+</div>
 
 This behavior is governed by two dunder methods on every object:
 
@@ -6839,6 +6871,8 @@ mypy my_module.py
 
 ### Key `mypy` Flags
 
+<div class="table-wrap">
+
 | Flag                       | Purpose                                                 |
 | -------------------------- | ------------------------------------------------------- |
 | `--strict`                 | Enable all optional checks                              |
@@ -6846,6 +6880,8 @@ mypy my_module.py
 | `--no-implicit-optional`   | Do not treat `None` as compatible with untyped defaults |
 | `--warn-return-any`        | Warn when a function returns `Any`                      |
 | `--ignore-missing-imports` | Suppress errors for untyped third-party libraries       |
+
+</div>
 
 ### Configuration (`pyproject.toml`)
 
@@ -7152,6 +7188,8 @@ for i in range(10):
 
 ### Time Complexity of List Operations
 
+<div class="table-wrap">
+
 | Operation              | Average Case | Worst Case | Notes                                   |
 | ---------------------- | :----------: | :--------: | --------------------------------------- |
 | `append(x)`            | O(1) amort.  |    O(n)    | Resize when capacity reached            |
@@ -7166,6 +7204,8 @@ for i in range(10):
 | `lst.sort()`           |  O(n log n)  | O(n log n) | Timsort                                 |
 | `len(lst)`             |     O(1)     |    O(1)    | Stored in `ob_size`                     |
 | `lst.clear()`          |     O(1)     |    O(1)    | Drops references, does not shrink array |
+
+</div>
 
 ### List Methods
 
@@ -7423,6 +7463,8 @@ The hash table maintains two thresholds:
 
 ### Time Complexity
 
+<div class="table-wrap">
+
 | Operation        | Average Case | Worst Case | Notes                        |
 | ---------------- | :----------: | :--------: | ---------------------------- |
 | `d[key]`         |     O(1)     |    O(n)    | Worst case: all keys collide |
@@ -7432,6 +7474,8 @@ The hash table maintains two thresholds:
 | `d.get(key)`     |     O(1)     |    O(n)    |                              |
 | `len(d)`         |     O(1)     |    O(1)    | Stored in `ma_used`          |
 | Iteration        |     O(n)     |    O(n)    | Visits every entry           |
+
+</div>
 
 The O(n) worst case occurs when all keys hash to the same slot, creating a single long probe chain.
 This is rare with a good hash function but can be deliberately triggered by an attacker feeding
@@ -7830,6 +7874,8 @@ Grows with the number of elements.
 
 ### Supported Type Codes
 
+<div class="table-wrap">
+
 | Code | C Type         | Python Type | Size (bytes) |
 | ---- | -------------- | ----------- | :----------: |
 | `b`  | signed char    | int         |      1       |
@@ -7841,6 +7887,8 @@ Grows with the number of elements.
 | `l`  | signed long    | int         |     4/8      |
 | `f`  | float          | float       |      4       |
 | `d`  | double         | float       |      8       |
+
+</div>
 
 ### When to Use array vs list vs numpy
 
@@ -7931,6 +7979,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 
 ### Time Complexity
 
+<div class="table-wrap">
+
 | Operation            | Complexity | Notes                                   |
 | -------------------- | :--------: | --------------------------------------- |
 | `heapify(iterable)`  |    O(n)    | Builds heap from unordered list         |
@@ -7940,6 +7990,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 | `heapreplace(h, x)`  |  O(log n)  | Pop then push; heap must be non-empty   |
 | `nsmallest(k, iter)` | O(n log k) | Uses a max-heap of size k               |
 | `nlargest(k, iter)`  | O(n log k) | Uses a min-heap of size k               |
+
+</div>
 
 ### Max-Heap and Priority Queue Patterns
 
@@ -8051,6 +8103,8 @@ graph TD
     style heap_use fill:#4a9,stroke:#333
 ```
 
+<div class="table-wrap">
+
 | Need                        | Primary Choice | Alternative                |
 | --------------------------- | -------------- | -------------------------- |
 | Ordered, mutable sequence   | `list`         | `array.array`              |
@@ -8065,6 +8119,8 @@ graph TD
 | Counting occurrences        | `Counter`      | `defaultdict(int)`         |
 | Grouping by key             | `defaultdict`  | `itertools.groupby`        |
 | Layered configuration       | `ChainMap`     |                            |
+
+</div>
 
 ## Common Pitfalls
 
@@ -8143,6 +8199,8 @@ print(sys.getsizeof(d))  # In standard practice 232 bytes on 64-bit CPython 3.12
 Python calls `hash(key)` on every key. The hash must be an integer. Built-in types implement
 `__hash__` as follows:
 
+<div class="table-wrap">
+
 | Type        | Hash Strategy                                                                   |
 | ----------- | ------------------------------------------------------------------------------- |
 | `int`       | `hash(n) = n` (with `-1` mapped to `-2` to avoid collision with error sentinel) |
@@ -8150,6 +8208,8 @@ Python calls `hash(key)` on every key. The hash must be an integer. Built-in typ
 | `tuple`     | XOR of element hashes with per-position perturbation                            |
 | `frozenset` | XOR of element hashes with perturbation                                         |
 | `bytes`     | Truncated SipHash                                                               |
+
+</div>
 
 ```python
 hash(42)           # 42
@@ -8233,6 +8293,8 @@ od.popitem(last=False)    # Remove and return first item: ('third', 3)
 
 Since Python 3.7, regular `dict` also preserves insertion order. The differences are:
 
+<div class="table-wrap">
+
 | Feature                   | `dict`           | `OrderedDict` |
 | ------------------------- | ---------------- | ------------- |
 | Insertion order preserved | Yes (3.7+)       | Yes           |
@@ -8240,6 +8302,8 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | `popitem(last=False)`     | No               | Yes           |
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
+
+</div>
 
 :::caution
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
@@ -8500,6 +8564,8 @@ print(s.remove(6))  # KeyError, raises if not present
 
 Set operations have the following average-case complexities:
 
+<div class="table-wrap">
+
 | Operation                      | Average Case           | Worst Case          |
 | ------------------------------ | ---------------------- | ------------------- |
 | `x in s`                       | O(1)                   | O(n)                |
@@ -8509,6 +8575,8 @@ Set operations have the following average-case complexities:
 | `s & t` (intersection)         | O(min(len(s), len(t))) | O(len(s) \* len(t)) |
 | `s - t` (difference)           | O(len(s))              | O(len(s) \* len(t)) |
 | `s ^ t` (symmetric difference) | O(len(s) + len(t))     | O(len(s) \* len(t)) |
+
+</div>
 
 ### frozenset
 
@@ -8682,6 +8750,8 @@ p.x = 10  # Mutable by default
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | `namedtuple`               | `dataclass`            | `TypedDict`       |
 | -------------- | -------------------------- | ---------------------- | ----------------- |
 | Immutable      | Yes                        | Opt-in (`frozen=True`) | N/A               |
@@ -8692,6 +8762,8 @@ p.x = 10  # Mutable by default
 | Memory         | Tuple-sized                | Class overhead         | Dict              |
 | Use case       | Lightweight records        | Rich objects           | Typed dict shapes |
 | `__slots__`    | Yes (built-in)             | Opt-in                 | N/A               |
+
+</div>
 
 ```python
 from typing import TypedDict
@@ -9768,6 +9840,8 @@ Automatically generates `__hash__`. Frozen dataclasses are suitable as dict keys
 
 Python has three overlapping mechanisms for data-holding classes. Each exists for different reasons:
 
+<div class="table-wrap">
+
 | Feature     | `namedtuple` | `dataclass`        | `attrs` (third-party) |
 | ----------- | ------------ | ------------------ | --------------------- |
 | Mutable     | No           | Yes (configurable) | Yes (configurable)    |
@@ -9776,6 +9850,8 @@ Python has three overlapping mechanisms for data-holding classes. Each exists fo
 | Validation  | None         | Manual             | Built-in              |
 | Performance | Excellent    | Good               | Good                  |
 | Stdlib      | Yes          | Yes (3.7+)         | No                    |
+
+</div>
 
 - **`namedtuple`** is the right choice when you need a lightweight, immutable, memory-efficient
   container with positional access. It is a tuple subclass, so it is compatible with APIs that
@@ -10097,10 +10173,14 @@ access system in Python. A descriptor is any object that implements at least one
 
 ### Data vs Non-Data Descriptors
 
+<div class="table-wrap">
+
 | Type                | Methods                               | Behavior                                       |
 | ------------------- | ------------------------------------- | ---------------------------------------------- |
 | Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
 | Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
+
+</div>
 
 This distinction is fundamental to understanding Python's attribute lookup.
 
@@ -11702,6 +11782,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 
 ## Comparison: Metaclasses vs Decorators vs Descriptors vs `__init_subclass__`
 
+<div class="table-wrap">
+
 | Criterion                                  | Metaclass                    | Class Decorator              | Descriptor          | `__init_subclass__`  |
 | ------------------------------------------ | ---------------------------- | ---------------------------- | ------------------- | -------------------- |
 | Intercepts namespace before class creation | Yes (`__new__``__prepare__`) | No (class already exists)    | No                  | No                   |
@@ -11712,6 +11794,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 | Metaclass conflict risk                    | Yes                          | No                           | No                  | No                   |
 | Complexity                                 | High                         | Low                          | Medium              | Low                  |
 | Visibility to readers                      | Low (implicit magic)         | High (explicit `@decorator`) | Medium              | Medium               |
+
+</div>
 
 **Use a class decorator when:** You need to modify a class after it is created, and the modification
 Does not need to propagate to subclasses. Decorators are the simplest tool and should be your first
@@ -12104,6 +12188,8 @@ Type error fires first.
 
 `nargs` controls how many command-line tokens an argument consumes:
 
+<div class="table-wrap">
+
 | Value     | Meaning   | Example                    | Result                    |
 | --------- | --------- | -------------------------- | ------------------------- |
 | (default) | 1         | `--count 5`                | `5`                       |
@@ -12111,6 +12197,8 @@ Type error fires first.
 | `?`       | 0 or 1    | `--format json` or omitted | `json` or `default`       |
 | `*`       | 0 or more | `--tag a b c` or omitted   | `["a", "b", "c"]` or `[]` |
 | `+`       | 1 or more | `--file a.txt b.txt`       | `["a.txt", "b.txt"]`      |
+
+</div>
 
 `nargs="?"` has special behavior: when the flag is present without a value, `const` is stored
 instead of `default`. When the flag is absent entirely, `default` is stored.
@@ -13288,12 +13376,16 @@ def inner():
 outer()  # Works fine, RLock allows same thread to re-acquire
 ```
 
+<div class="table-wrap">
+
 | Feature               | `Lock`         | `RLock`                  |
 | --------------------- | -------------- | ------------------------ |
 | Reentrant             | No (deadlocks) | Yes                      |
 | Release by any thread | Yes            | No (must be same thread) |
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
+
+</div>
 
 :::caution
 thread must call `release()` the same number of times it called `acquire()`.
@@ -13703,10 +13795,14 @@ Multiple native threads from executing Python bytecodes simultaneously.
 
 ### CPU-Bound vs I/O-Bound
 
+<div class="table-wrap">
+
 | Workload  | Threading                         | Multiprocessing                   |
 | --------- | --------------------------------- | --------------------------------- |
 | CPU-bound | No speedup (GIL bottleneck)       | Linear speedup (up to core count) |
 | I/O-bound | Speedup (GIL released during I/O) | Overkill (higher overhead)        |
+
+</div>
 
 ```python
 import threading
@@ -14374,6 +14470,8 @@ class CustomDecoder(json.JSONDecoder):
 
 ### JSON vs Pickle
 
+<div class="table-wrap">
+
 | Property          | JSON                        | Pickle                                 |
 | ----------------- | --------------------------- | -------------------------------------- |
 | Format            | Text                        | Binary                                 |
@@ -14382,6 +14480,8 @@ class CustomDecoder(json.JSONDecoder):
 | Supported types   | Primitives, dict, list, str | Almost any Python object               |
 | Human-readable    | Yes                         | No                                     |
 | Version-stable    | Yes (RFC 8259)              | No (protocol changes between versions) |
+
+</div>
 
 Pickle can serialize functions, classes, and object graphs with cycles. But `pickle.loads()` on
 Untrusted data is equivalent to arbitrary code execution -- the pickled byte stream can contain
@@ -14858,6 +14958,8 @@ class Config:
     created_at: float = field(default_factory=time.time, repr=False, compare=False)
 ```
 
+<div class="table-wrap">
+
 | `field()` parameter | Effect                                             |
 | ------------------- | -------------------------------------------------- |
 | `default`           | Static default value (never use for mutable types) |
@@ -14867,6 +14969,8 @@ class Config:
 | `compare`           | Include in `__eq__`/`__hash__` (default `True`)    |
 | `hash`              | Include in `__hash__` (default `None`Inherits)     |
 | `metadata`          | Arbitrary dict for external tools                  |
+
+</div>
 
 ### Inheritance and `slots=True`
 
@@ -15163,6 +15267,8 @@ print(datetime.fromisoformat("2025-06-04T14:30:00"))  # round-trip
 
 The most commonly used format codes:
 
+<div class="table-wrap">
+
 | Code | Meaning                     | Example   |
 | ---- | --------------------------- | --------- |
 | `%Y` | Four-digit year             | 2025      |
@@ -15178,6 +15284,8 @@ The most commonly used format codes:
 | `%Z` | Timezone name               | UTC       |
 | `%A` | Full weekday name           | Wednesday |
 | `%B` | Full month name             | June      |
+
+</div>
 
 ### `datetime.fromtimestamp()` and UTC
 
@@ -15297,6 +15405,8 @@ Provides methods for reading, writing, and seeking.
 The mode string controls what operations are permitted and whether the file is interpreted as text
 or binary data. Modes are composed from the following characters:
 
+<div class="table-wrap">
+
 | Character | Meaning                                                                                             |
 | --------- | --------------------------------------------------------------------------------------------------- |
 | `r`       | Read (default). File must exist; raises `FileNotFoundError` otherwise.                              |
@@ -15306,6 +15416,8 @@ or binary data. Modes are composed from the following characters:
 | `b`       | Binary mode. Data is `bytes`No encoding, no newline translation.                                    |
 | `t`       | Text mode (default). Data is `str`Encoding applied, newline translation.                            |
 | `+`       | Update. Allows both reading and writing (file is not truncated on open for `r+`).                   |
+
+</div>
 
 The mode defaults to `"rt'` (read, text) if no mode is specified.
 
@@ -15369,6 +15481,8 @@ Encodings include:
 
 Controls how encoding/decoding errors are handled:
 
+<div class="table-wrap">
+
 | Value                 | Behavior                                                                                                                                                          |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `"strict"` (default)  | Raises `UnicodeDecodeError` or `UnicodeEncodeError`.                                                                                                              |
@@ -15378,6 +15492,8 @@ Controls how encoding/decoding errors are handled:
 | `"backslashreplace"`  | Replaces invalid bytes with Python escape sequences (e.g., `\xff`). Useful for debugging.                                                                         |
 | `"namereplace"`       | Replaces unsupported characters with `\N{...}` escape sequences. Encode-only.                                                                                     |
 | `"xmlcharrefreplace"` | Replaces unsupported characters with XML numeric character references (e.g., `&#xff;`). Encode-only.                                                              |
+
+</div>
 
 The `surrogateescape` error handler is essential for handling filenames on Unix systems. Unix
 Filenames are arbitrary byte sequences (except `/` and `\0`), and they may not be valid UTF-8. When
@@ -15423,6 +15539,8 @@ By default (`newline=None`), Python performs **universal newline translation** o
 - On read: `\n`, `\r\n` and `\r` are all translated to `\n`.
 - On write: `\n` is translated to the platform's line separator (`\n` on Unix, `\r\n` on Windows).
 
+<div class="table-wrap">
+
 | `newline` value     | Read behavior                          | Write behavior                              |
 | ------------------- | -------------------------------------- | ------------------------------------------- |
 | `None` (default)    | Universal newlines (all forms to `\n`) | Platform-native (`\n` to `\r\n` on Windows) |
@@ -15430,6 +15548,8 @@ By default (`newline=None`), Python performs **universal newline translation** o
 | `"\n"`              | Only `\n` recognized as newline        | No translation                              |
 | `"\r"`              | Only `\r` recognized as newline        | No translation                              |
 | `"\r\n"`            | Only `\r\n` recognized as newline      | No translation                              |
+
+</div>
 
 Setting `newline=""` (empty string) is the most common explicit choice. It enables universal newline
 Translation on read (so you always get `\n` regardless of the file's origin) while writing `\n`
@@ -15686,11 +15806,15 @@ Memory usage low.
 `f.tell()` returns the current position in the file (character offset in text mode, byte offset in
 Binary mode). `f.seek(offset, whence)` moves the position:
 
+<div class="table-wrap">
+
 | `whence`      | Meaning                                       |
 | ------------- | --------------------------------------------- |
 | `0` (default) | Absolute position from the start of the file. |
 | `1`           | Relative to the current position.             |
 | `2`           | Relative to the end of the file.              |
+
+</div>
 
 ```python
 with open("file.bin", "rb") as f:
@@ -16748,6 +16872,8 @@ print(srv2.credentials)  # {'user': "admin'', "pass': "secret''}
 
 ### Protocol Versions
 
+<div class="table-wrap">
+
 | Protocol | Python Version | Features                                     |
 | -------- | -------------- | -------------------------------------------- |
 | 0        | All            | ASCII, human-readable, backward compatible   |
@@ -16756,6 +16882,8 @@ print(srv2.credentials)  # {'user': "admin'', "pass': "secret''}
 | 3        | 3.0            | Bytes objects, no implicit string conversion |
 | 4        | 3.4            | Large objects, more types                    |
 | 5        | 3.8            | Out-of-band data, ZSTD compression support   |
+
+</div>
 
 ```python
 import pickle
@@ -17084,6 +17212,8 @@ print(config2.host)  # db-primary.example.com
 
 ### Protobuf vs JSON
 
+<div class="table-wrap">
+
 | Feature                | Protobuf                 | JSON                  |
 | ---------------------- | ------------------------ | --------------------- |
 | Schema                 | Required                 | Optional              |
@@ -17093,6 +17223,8 @@ print(config2.host)  # db-primary.example.com
 | Backward compatibility | Built-in (field numbers) | Manual                |
 | Language support       | Many                     | Universal             |
 | Self-describing        | No                       | Yes                   |
+
+</div>
 
 ## MessagePack
 
@@ -17218,6 +17350,8 @@ print(serialized["timestamp"])  # '2025-01-15T00:00:00'
 
 ## Choosing the Right Format
 
+<div class="table-wrap">
+
 | Use Case                    | Recommended Format             | Why                               |
 | --------------------------- | ------------------------------ | --------------------------------- |
 | REST API payloads           | JSON                           | Universal support, human-readable |
@@ -17229,6 +17363,8 @@ print(serialized["timestamp"])  # '2025-01-15T00:00:00'
 | Structured data with schema | Protobuf                       | Schema evolution, validation      |
 | Spreadsheet import/export   | CSV                            | Universal, Excel-compatible       |
 | Log files                   | JSON Lines (one JSON per line) | Streamable, parseable             |
+
+</div>
 
 ## Common Pitfalls
 
@@ -17694,6 +17830,8 @@ Context switching.
 
 ### How to Work Around the GIL
 
+<div class="table-wrap">
+
 | Strategy                        | Mechanism                                 | Use Case                             |
 | ------------------------------- | ----------------------------------------- | ------------------------------------ |
 | `multiprocessing`               | Separate processes, each with its own GIL | CPU-bound Python work                |
@@ -17701,6 +17839,8 @@ Context switching.
 | `asyncio`                       | Single-threaded cooperative multitasking  | I/O-bound work with many connections |
 | Cython / `nogil`                | Compile to C, optionally release the GIL  | Performance-critical loops           |
 | PEP 703 (free-threaded CPython) | Remove the GIL entirely                   | Python 3.13+ experimental builds     |
+
+</div>
 
 ## Threading
 
@@ -18420,6 +18560,8 @@ flowchart TD
     I -- No --> E
 ```
 
+<div class="table-wrap">
+
 | Dimension            | `asyncio`                          | `threading`                       | `multiprocessing`                 |
 | -------------------- | ---------------------------------- | --------------------------------- | --------------------------------- |
 | Parallelism          | No (single thread)                 | No (GIL)                          | Yes (separate processes)          |
@@ -18429,6 +18571,8 @@ flowchart TD
 | Scaling limit        | Tens of thousands of coroutines    | Hundreds of threads               | Dozens of processes               |
 | Debugging difficulty | Moderate (implicit state machines) | Hard (race conditions)            | Moderate (IPC issues)             |
 | Cancellation         | Built-in (`Task.cancel()`)         | Manual (requires flag or event)   | Manual (requires IPC signal)      |
+
+</div>
 
 ### Decision Framework
 
@@ -18582,6 +18726,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
 | push(5)   | [5]                  |,      |
@@ -18590,6 +18736,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+</div>
 
 ## Intuition
 
@@ -18682,6 +18830,8 @@ Inline `breakpoint()` calls placed inside functions.
 
 These commands form the irreducible set you need to operate effectively:
 
+<div class="table-wrap">
+
 | Command   | Action       | What It Actually Does                                                                                                                          |
 | --------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | `n`       | Next         | Execute the current line, step over any function calls. Advances to the next line in the _current_ frame.                                      |
@@ -18697,6 +18847,8 @@ These commands form the irreducible set you need to operate effectively:
 | `q`       | Quit         | Terminate the program immediately. No cleanup, no finally blocks.                                                                              |
 | `r`       | Return       | Continue execution until the current function returns. Stops at the return statement.                                                          |
 | `args`    | Arguments    | Print the argument list and current values for the current function.                                                                           |
+
+</div>
 
 The distinction between `n` and `s` is the single most important concept in pdb. `n` advances the
 Line pointer in the current frame and runs the line to completion. If the line contains a function
@@ -19024,6 +19176,8 @@ Key design decisions in this code:
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level      | Numeric Value | When to Use                                                                                                                                                                                    |
 | ---------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `DEBUG`    | 10            | Detailed diagnostic information. Variable values, control flow, internal state. Only enabled during active debugging or in development environments.                                           |
@@ -19031,6 +19185,8 @@ Key design decisions in this code:
 | `WARNING`  | 30            | Something unexpected happened, or an indication of a problem in the near future. Deprecation warning, retry attempt, fallback to secondary path. The default level if no configuration is set. |
 | `ERROR`    | 40            | A serious problem. The current operation failed. An HTTP request returned 500, a database query raised an exception, a file could not be parsed.                                               |
 | `CRITICAL` | 50            | A fatal error. The process cannot continue. Out of memory, database connection permanently lost, unrecoverable corruption.                                                                     |
+
+</div>
 
 The numeric values are not arbitrary. They define a total ordering: DEBUG &lt; INFO &lt; WARNING
 &lt; ERROR &lt; CRITICAL. A logger set to WARNING level will emit WARNING, ERROR, and CRITICAL
@@ -19231,12 +19387,16 @@ python -m cProfile -s sort=time script.py
 This runs `script.py` under cProfile and prints a sorted table of function calls at exit. The `-s`
 Flag controls the sort key:
 
+<div class="table-wrap">
+
 | Sort Key     | What It Measures                                                                                                                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `cumulative` | Total time spent in a function including all functions it calls. This is the default. Use this to find the hot path, the function whose total cost (including callees) is highest. |
 | `tottime`    | Time spent in a function itself, excluding callees. Use this to find the function where the CPU is actually doing work, not just dispatching to other functions.                    |
 | `calls`      | Number of calls. Use this to find functions called surprisingly many times.                                                                                                         |
 | `time`       | Alias for `cumulative`.                                                                                                                                                             |
+
+</div>
 
 ### Programmatic API
 
@@ -20099,6 +20259,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 
 ### When to Use Each
 
+<div class="table-wrap">
+
 | Scenario                 | Prefer                       | Reason                            |
 | ------------------------ | ---------------------------- | --------------------------------- |
 | File existence           | EAFP (`open` + `except`)     | TOCTOU race condition with LBYL   |
@@ -20106,6 +20268,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | Type checking            | LBYL (`isinstance`)          | Wrong types are programmer errors |
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
+
+</div>
 
 :::caution
 ```python
@@ -20479,11 +20643,15 @@ class ServerConfig:
 
 ## Error Codes vs Exceptions
 
+<div class="table-wrap">
+
 | Approach     | Use When                                                                             |
 | ------------ | ------------------------------------------------------------------------------------ |
 | Exceptions   | Internal logic errors, programming mistakes, unexpected states                       |
 | Error codes  | Expected failure modes (e.g., file not found), C interop, performance-critical paths |
 | Result types | Functional style, explicit error handling, no exceptions                             |
+
+</div>
 
 ```python
 from dataclasses import dataclass
@@ -21268,6 +21436,8 @@ poetry build
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature         | pip                   | poetry            | pipenv         | conda             |
 | --------------- | --------------------- | ----------------- | -------------- | ----------------- |
 | Lock file       | Manual (pip-tools)    | `poetry.lock`     | `Pipfile.lock` | `environment.yml` |
@@ -21276,6 +21446,8 @@ poetry build
 | Build system    | setuptools/hatch/flit | Built-in          | pip            | Built-in          |
 | Speed           | Fast                  | Medium            | Slow           | Slow              |
 | Ecosystem       | Largest               | Growing           | Declining      | Scientific        |
+
+</div>
 
 ## Package Structure
 
@@ -21613,6 +21785,8 @@ Packages.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | setuptools  | hatch    | flit       |
 | -------------- | ----------- | -------- | ---------- |
 | Maturity       | Most mature | Modern   | Minimal    |
@@ -21621,6 +21795,8 @@ Packages.
 | Speed          | Medium      | Fast     | Fast       |
 | Complexity     | High        | Medium   | Low        |
 | VCS versioning | Via plugin  | Built-in | Via plugin |
+
+</div>
 
 :::tip
 Need compatibility with existing tooling or complex build requirements (e.g., C extensions).
@@ -22187,11 +22363,15 @@ Project's requirements. Virtual environments eliminate both problems.
 
 ### venv vs conda vs pyenv
 
+<div class="table-wrap">
+
 | Tool    | Purpose                                      | Isolation Scope                                         |
 | ------- | -------------------------------------------- | ------------------------------------------------------- |
 | `venv`  | Creates virtual environments                 | Python packages only                                    |
 | `conda` | Manages environments with multiple languages | Python + non-Python dependencies (C libraries, R, Node) |
 | `pyenv` | Installs multiple Python versions            | Python interpreters only (no package isolation)         |
+
+</div>
 
 For most Python projects, `venv` is sufficient. Use `conda` when your project depends on non-Python
 Scientific libraries (NumPy, SciPy) that need specific C/Fortran compilers. Use `pyenv` when you
@@ -22273,6 +22453,8 @@ addopts = "-v --tb=short"
 
 ### Poetry vs PDM vs uv
 
+<div class="table-wrap">
+
 | Feature            | Poetry                        | PDM                           | uv                   |
 | ------------------ | ----------------------------- | ----------------------------- | -------------------- |
 | Lock file          | `poetry.lock`                 | `pdm.lock`                    | `uv.lock`            |
@@ -22281,6 +22463,8 @@ addopts = "-v --tb=short"
 | Package manager    | pip (via virtualenv)          | pip (via virtualenv)          | Own installer (Rust) |
 | Workspace support  | Yes                           | Yes                           | Yes                  |
 | Build backend      | poetry-core                   | pdm-backend                   | hatchling (default)  |
+
+</div>
 
 ### WHY pyproject.toml Over setup.py
 
@@ -22478,6 +22662,8 @@ def test_user_update(db_session, sample_user):
 
 Fixtures have scopes that control when they are created and torn down:
 
+<div class="table-wrap">
+
 | Scope      | Created once per... | Common use                              |
 | ---------- | ------------------- | --------------------------------------- |
 | `function` | test function       | Database sessions, mock objects         |
@@ -22485,6 +22671,8 @@ Fixtures have scopes that control when they are created and torn down:
 | `module`   | test module         | Expensive resources (Docker containers) |
 | `package`  | test package        | Package-level state                     |
 | `session`  | test run            | Global services, process-level state    |
+
+</div>
 
 ### Parametrize
 
@@ -22575,6 +22763,8 @@ markers = [
 
 ### Comparison of Linting and Formatting Tools
 
+<div class="table-wrap">
+
 | Tool             | Language          | Checks                                  | Formatter                   | Speed                      | Notes                                               |
 | ---------------- | ----------------- | --------------------------------------- | --------------------------- | -------------------------- | --------------------------------------------------- |
 | **ruff**         | Rust              | Flake8 + isort + pydocstyle + many more | Built-in (Black-compatible) | Very fast (10-100x flake8) | Replaces flake8, isort, Black, pydocstyle, and more |
@@ -22585,6 +22775,8 @@ markers = [
 | **mypy**         | Python            | Static type checking                    | No                          | Medium                     | Reference type checker                              |
 | **pyright**      | TypeScript/Python | Static type checking                    | No                          | Fast                       | Microsoft's type checker; stricter by default       |
 | **basedpyright** | TypeScript/Python | Static type checking                    | No                          | Fast                       | Fork of pyright with additional features            |
+
+</div>
 
 ### WHY Ruff Over flake8/pylint
 
@@ -23072,12 +23264,16 @@ Repository = "https://github.com/janedoe/myapp"
 
 ### Build Backends
 
+<div class="table-wrap">
+
 | Backend       | Maintainer | Notes                                                         |
 | ------------- | ---------- | ------------------------------------------------------------- |
 | `hatchling`   | Hatch      | Simple, fast, good default choice                             |
 | `setuptools`  | pypa       | Legacy; still widely used, supports setup.py fallback         |
 | `flit-core`   | flit       | Minimal; for pure-Python packages with no complex build needs |
 | `pdm-backend` | PDM        | PEP 621 compliant; good for complex packages                  |
+
+</div>
 
 ### Build and Publish
 
@@ -23731,12 +23927,16 @@ else:
 
 When to use which:
 
+<div class="table-wrap">
+
 | Property                  | `TypeGuard` | `TypeIs` |
 | ------------------------- | ----------- | -------- |
 | Narrows in `True` branch  | Yes         | Yes      |
 | Narrows in `False` branch | No          | Yes      |
 | Allows widening           | Yes         | No       |
 | Soundness                 | Trusts you  | Checked  |
+
+</div>
 
 Use `TypeIs` by default when the narrowed type is a subtype of the input. Use `TypeGuard` only when
 you need to widen (e.g., parsing a string into a structured type).
@@ -24576,11 +24776,15 @@ with Resource("db_connection") as r:
 
 ### \_\_exit\_\_ Parameters
 
+<div class="table-wrap">
+
 | Parameter  | Description                                |
 | ---------- | ------------------------------------------ |
 | `exc_type` | Exception class, or `None` if no exception |
 | `exc_val`  | Exception instance, or `None`              |
 | `exc_tb`   | Traceback object, or `None`                |
+
+</div>
 
 All three are `None` when the block exits normally. When an exception occurs, they contain the
 Exception details.
@@ -25599,6 +25803,8 @@ class Sensor(BaseModel):
 
 The constraint parameters for numeric types are:
 
+<div class="table-wrap">
+
 | Parameter     | Meaning                          |
 | ------------- | -------------------------------- |
 | `gt`          | strictly greater than            |
@@ -25606,6 +25812,8 @@ The constraint parameters for numeric types are:
 | `lt`          | strictly less than               |
 | `le`          | less than or equal               |
 | `multiple_of` | must be a multiple of this value |
+
+</div>
 
 ### String Constraints
 
@@ -25620,11 +25828,15 @@ class Account(BaseModel):
 
 The constraint parameters for `str` are:
 
+<div class="table-wrap">
+
 | Parameter    | Meaning                             |
 | ------------ | ----------------------------------- |
 | `min_length` | minimum string length               |
 | `max_length` | maximum string length               |
 | `pattern`    | regex pattern the string must match |
+
+</div>
 
 Note: `pattern` uses Python's `re` module. The regex is matched against the entire string (anchored
 at both ends), so you do not need `^` and `$` anchors, though including them is harmless.
@@ -26043,6 +26255,8 @@ print(p.x)  # 1.0
 
 ### Key Differences
 
+<div class="table-wrap">
+
 | Feature                               | `BaseModel`  | `@pydantic.dataclass`        |
 | ------------------------------------- | ------------ | ---------------------------- |
 | Inheritance from `BaseModel`          | Yes          | No (inherits from dataclass) |
@@ -26053,6 +26267,8 @@ print(p.x)  # 1.0
 | Composability with other dataclasses  | No           | Yes (dataclass interop)      |
 | Standard `dataclasses.is_dataclass()` | No           | Yes                          |
 | Extra fields behavior                 | Configurable | Configurable                 |
+
+</div>
 
 ### When to Use Which
 
@@ -26265,6 +26481,8 @@ Dataclasses.
 
 ### Comparison with Pydantic
 
+<div class="table-wrap">
+
 | Concern                | Pydantic                      | attrs                 |
 | ---------------------- | ----------------------------- | --------------------- |
 | Primary purpose        | Data validation and parsing   | Boilerplate reduction |
@@ -26276,6 +26494,8 @@ Dataclasses.
 | Runtime overhead       | Higher (Rust validation core) | Minimal               |
 | Validation granularity | Field-level, model-level      | Attribute-level       |
 | Ecosystem integration  | FastAPI, Django, etc.         | Independent           |
+
+</div>
 
 ### When to Use attrs
 

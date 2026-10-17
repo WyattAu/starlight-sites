@@ -69,11 +69,15 @@ strong nuclear force Has a very short range).
 
 The nucleus contains **protons** and **neutrons** (collectively, **nucleons**).
 
+<div class="table-wrap">
+
 | Property | Proton  | Neutron | Electron        |
 | -------- | ------- | ------- | --------------- |
 | Charge   | $+e$    | $0$     | $-e$            |
 | Mass (u) | 1.00728 | 1.00867 | 0.00055         |
 | Location | Nucleus | Nucleus | Electron shells |
+
+</div>
 
 **Notation.** A nuclide $\prescript{A}{Z}\mathrm{X}$ has mass number $A$ (total nucleons) and Atomic
 number $Z$ (protons). The neutron number is $N = A - Z$.
@@ -163,12 +167,16 @@ Total energy. For light nuclei, the balance favours $N \approx Z$.
 
 ### Decay Modes and Stability
 
+<div class="table-wrap">
+
 | Condition       | Dominant decay                      | Reason                     |
 | --------------- | ----------------------------------- | -------------------------- |
 | $N/Z$ too large | $\beta^-$ decay                     | Neutron converts to proton |
 | $N/Z$ too small | $\beta^+$ decay or electron capture | Proton converts to neutron |
 | $A \gt 150$     | Alpha decay                         | Reduces both $N$ and $Z$   |
 | Excited state   | Gamma decay                         | Releases excess energy     |
+
+</div>
 
 **Alpha decay** occurs predominantly for $A \gt 150$ because the alpha particle is exceptionally
 Stable (high binding energy per nucleon of 7.08 MeV), making it energetically favourable to emit.

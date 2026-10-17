@@ -55,6 +55,8 @@ are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 
 **Categories:**
 
+<div class="table-wrap">
+
 | Category        | Examples                     |
 | --------------- | ---------------------------- |
 | Process control | `fork``exec``wait``exit`     |
@@ -64,6 +66,8 @@ are invoked via software interrupts (e.g., `syscall` on x86-64, `svc` on ARM).
 | Information     | `getpid``stat``sysconf`      |
 | Protection      | `chmod``chown``setuid`       |
 
+</div>
+
 **System call overhead.** A transition from user mode to kernel mode involves saving user Registers,
 switching to the kernel stack, validating arguments, executing kernel code, and Returning. Typical
 overhead: $100\mathrm{--1000}$ ns on modern hardware.
@@ -72,6 +76,8 @@ overhead: $100\mathrm{--1000}$ ns on modern hardware.
 
 A process transitions through several states during its lifetime:
 
+<div class="table-wrap">
+
 | State       | Description |
 |-------------|-------------|
 | **New**     | The process is being created. |
@@ -79,6 +85,8 @@ A process transitions through several states during its lifetime:
 | **Running** | Instructions are being executed by the CPU. |
 | **Waiting** | The process is waiting for some event (e.g., I/O completion). |
 | **Terminated** | The process has finished execution. |
+
+</div>
 
 **Scheduling algorithms** determine which ready process receives CPU time:
 

@@ -571,12 +571,16 @@ class MinHeap:
             self._sift_down(i)
 ```
 
+<div class="table-wrap">
+
 | Operation        | Binary Heap | Sorted Array  | Unsorted Array |
 | ---------------- | ----------- | ------------- | -------------- |
 | Insert           | $O(\log n)$ | $O(n)$        | $O(1)$         |
 | Extract min      | $O(\log n)$ | $O(1)$        | $O(n)$         |
 | Peek             | $O(1)$      | $O(1)$        | $O(n)$         |
 | Build from array | $O(n)$      | $O(n \log n)$ | $O(1)$         |
+
+</div>
 
 ## Monotonic Stack
 

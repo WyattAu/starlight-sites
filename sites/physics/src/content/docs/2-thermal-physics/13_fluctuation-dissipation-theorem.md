@@ -131,6 +131,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Content |
 | ---------- | ------------ | ------------------ |
 | Response function | $\chi_{AA}(t) = \frac{i}{\hbar}\theta(t)\langle[A(t), A(0)]\rangle_0$ | Causal linear response |
@@ -138,6 +140,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 | Johnson--Nyquist | $\langle V^2 \rangle = 4k_B T R \Delta f$ | Voltage noise in resistor |
 | Einstein relation | $D = \mu k_B T$ | Diffusion $\leftrightarrow$ mobility |
 | Nyquist formula | $S_V(\omega) = 2k_B T R(\omega)$ | Generalised impedance noise |
+
+</div>
 
 ### Common Pitfalls
 
@@ -163,6 +167,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 
 ### Summary Table: FDT in Different Contexts
 
+<div class="table-wrap">
+
 | System | Fluctuation | Dissipation | FDT Relation |
 | -------- | ------------- | ------------- | -------------- |
 | Resistor | Voltage noise $\langle V^2 \rangle$ | Resistance $R$ | $\langle V^2 \rangle = 4k_B T R \Delta f$ |
@@ -170,6 +176,8 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 | Harmonic oscillator | Amplitude fluctuations | Damping rate $\Gamma$ | $S_x(\omega) = \frac{2k_B T}{\omega}\,\chi''(\omega)$ |
 | Blackbody radiation | Field fluctuations | Absorption cross section | Planck spectrum $S(\omega) = \frac{\hbar\omega^3}{\pi^2 c^2}(e^{\hbar\omega/k_BT} - 1)^{-1}$ |
 | Magnetic system | Magnetisation noise | Magnetic susceptibility | $\chi''(\omega) = \frac{\omega}{2k_B T} S_M(\omega)$ |
+
+</div>
 
 ### Additional Worked Example: Fluctuation-Dissipation in an RLC Circuit
 
@@ -190,7 +198,7 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - **[Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -122,12 +122,16 @@ Every C++ bug ultimately traces back to incorrect type usage or violated lifetim
 
 ### Key Concepts
 
+<div class="table-wrap">
+
 | Concept | What It Means | Common Mistake |
 | --------- | --------------- | ---------------- |
 | Alignment | Objects must start at addresses that are multiples of their alignment | Assuming `sizeof(struct)` is the sum of member sizes |
 | Padding | Compilers insert bytes to satisfy alignment requirements | Ignoring padding when calculating memory usage |
 | Value initialization | `T{}` zero-initialises; `T()` default-initialises | Assuming `T x;` is the same as `T x{};` |
 | Lifetime | Objects begin existing when construction completes and end when destruction begins | Accessing an object after its destructor runs |
+
+</div>
 
 ---
 
@@ -193,12 +197,16 @@ C++ supports multiple inheritance, virtual dispatch, and RTTI, powerful features
 
 ### Design Guidelines
 
+<div class="table-wrap">
+
 | Principle | Rule | Example |
 | ----------- | ------ | --------- |
 | Rule of Five | If you define any of destructor, copy/move constructor, or copy/move assignment, define all five | RAII classes with raw pointers |
 | Rule of Zero | If possible, let the compiler generate all special member functions | Use `std::string`, `std::vector` instead of raw arrays |
 | Prefer composition | Use inheritance only for "is-a" relationships | A `Dog` is-an `Animal`; a `Car` has-an `Engine` |
 | Avoid public data members | Encapsulate invariants | Use getters/setters or public interface |
+
+</div>
 
 ---
 

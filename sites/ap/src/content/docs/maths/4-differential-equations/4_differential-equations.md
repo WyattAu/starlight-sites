@@ -373,11 +373,15 @@ Approximating the curve locally by its tangent line at each step.
 Use Euler's method with $\Delta x = 0.5$ to approximate $y(2)$ for $\frac{dy}{dx} = x + y$
 $y(1) = 0$.
 
+<div class="table-wrap">
+
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n) = x_n + y_n$ | $y_{n+1} = y_n + f \cdot \Delta x$ |
 | ---- | ----- | ----- | ------------------------- | ---------------------------------- |
 | 0    | 1.0   | 0     | 1.0                       | $0 + 1.0(0.5) = 0.5$               |
 | 1    | 1.5   | 0.5   | 2.0                       | $0.5 + 2.0(0.5) = 1.5$             |
 | 2    | 2.0   | 1.5   | --                        |                                    |
+
+</div>
 
 So $y(2) \approx 1.5$.
 
@@ -389,6 +393,8 @@ is poor due to the large step size. With $\Delta x = 0.1$ The result is much clo
 Use Euler's method with $\Delta x = 0.25$ to approximate $y(1)$ for $\frac{dy}{dx} = x^2 + y$
 $y(0) = 1$.
 
+<div class="table-wrap">
+
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n)$ | $y_{n+1}$ |
 | ---- | ----- | ----- | ------------- | --------- |
 | 0    | 0.00  | 1.000 | 1.000         | 1.250     |
@@ -396,6 +402,8 @@ $y(0) = 1$.
 | 2    | 0.50  | 1.578 | 1.828         | 2.035     |
 | 3    | 0.75  | 2.035 | 2.613         | 2.688     |
 | 4    | 1.00  | 2.688 | --            | --        |
+
+</div>
 
 So $y(1) \approx 2.688$.
 
@@ -552,11 +560,15 @@ For autonomous equations $\frac{dy}{dt} = f(y)$:
 - Find equilibrium solutions by solving $f(y) = 0$.
 - Classify stability by checking the sign of $f(y)$ near each equilibrium.
 
+<div class="table-wrap">
+
 | Sign of $f(y)$ near equilibrium        | Stability           |
 | -------------------------------------- | ------------------- |
 | $f(y) \gt 0$ below, $f(y) \lt 0$ above | Stable (attractor)  |
 | $f(y) \lt 0$ below, $f(y) \gt 0$ above | Unstable (repeller) |
 | Same sign on both sides                | Semi-stable         |
+
+</div>
 
 ### Phase Line Analysis
 
@@ -574,12 +586,16 @@ Analyse $\displaystyle\frac{dy}{dt} = y(y - 2)(y - 5)$.
 
 Equilibria: $y = 0$, $y = 2$, $y = 5$.
 
+<div class="table-wrap">
+
 | Interval        | Test point | $f(y)$            | Direction  |
 | --------------- | ---------- | ----------------- | ---------- |
 | $y \lt 0$       | $-1$       | $(-)(-)(-) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$ | $1$        | $(+)(-)(-) \gt 0$ | Increasing |
 | $2 \lt y \lt 5$ | $3$        | $(+)(+)(-) \lt 0$ | Decreasing |
 | $y \gt 5$       | $6$        | $(+)(+)(+) \gt 0$ | Increasing |
+
+</div>
 
 - $y = 0$: arrows point away -- **unstable**
 - $y = 2$: arrows point inward -- **stable**

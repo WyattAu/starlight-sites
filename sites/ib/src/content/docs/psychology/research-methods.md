@@ -59,12 +59,16 @@ Variable) while measuring its effect on another variable (the dependent variable
 for the influence of extraneous variables. Experiments are the only research design that can
 Establish cause-and-effect relationships.
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                                                                                      | Strengths                                                                                        | Limitations                                                                                                         |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | Laboratory experiment | Conducted in a controlled, artificial setting (e.g., a psychology laboratory)                                                                    | High control over extraneous variables; high internal validity; easy to replicate                | Low ecological validity; demand characteristics; Hawthorne effect                                                   |
 | Field experiment      | Conducted in a natural setting (e.g., a school, workplace, or public space)                                                                      | Higher ecological validity than lab experiments; participants may be unaware they are in a study | Less control over extraneous variables; ethical concerns about informed consent                                     |
 | Natural experiment    | The "independent variable" is not manipulated by the researcher but varies (e.g., a natural disaster, a policy change)                           | Can study phenomena that cannot be ethically manipulated (e.g., the effects of brain damage)     | No control over extraneous variables; cannot establish causation definitively                                       |
 | Quasi-experiment      | Participants are not randomly assigned to conditions; pre-existing groups are compared (e.g., comparing men and women, or patients and controls) | Allows comparison of occurring groups                                                            | Cannot rule out confounding variables; pre-existing differences between groups may account for observed differences |
+
+</div>
 
 **True experiment vs. Quasi-experiment:** A true experiment requires random assignment of
 Participants to conditions. Random assignment ensures that, on average, the groups are equivalent on
@@ -73,6 +77,8 @@ therefore cannot establish causation with the same confidence.
 
 ### Non-Experimental Designs
 
+<div class="table-wrap">
+
 | Type                     | Description                                                                                  | Strengths                                                                                     | Limitations                                                                   |
 | ------------------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Correlational study      | Measures the relationship between two or more variables without manipulation                 | Can study relationships between variables that cannot be ethically or practically manipulated | Cannot establish causation; third-variable problem                            |
@@ -80,6 +86,8 @@ therefore cannot establish causation with the same confidence.
 | Case study               | In-depth investigation of a single individual, group, or event                               | Rich, detailed data; can study rare phenomena                                                 | Lack of generalisability; cannot establish causation; researcher bias         |
 | Survey / questionnaire   | Data are collected through standardised self-report instruments                              | Can collect data from large samples; relatively inexpensive                                   | Social desirability bias; self-report limitations; cannot establish causation |
 | Interview                | Data are collected through direct questioning (structured, semi-structured, or unstructured) | Allows follow-up questions; can explore complex topics in depth                               | Time-consuming; interviewer bias; social desirability bias                    |
+
+</div>
 
 <details>
 <summary>Common Pitfalls: Research Designs</summary>
@@ -125,6 +133,8 @@ Results and their interpretation.
 
 ## Sampling Methods
 
+<div class="table-wrap">
+
 | Method                             | Description                                                                                                                                                                                           | Strengths                                                                                | Limitations                                                                                                      |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Random sampling                    | Every member of the target population has an equal chance of being selected                                                                                                                           | Minimises selection bias; results are generalisable                                      | Difficult to achieve in practice; requires a complete population list                                            |
@@ -133,6 +143,8 @@ Results and their interpretation.
 | Systematic sampling                | Every nth member of the population is selected (e.g., every 10th person on a list)                                                                                                                    | Simple to implement; avoids some biases of opportunity sampling                          | Risk of periodicity if the population list has a regular pattern                                                 |
 | Snowball sampling                  | Initial participants recruit additional participants from their social networks                                                                                                                       | Useful for reaching hard-to-access populations (e.g., individuals with rare disorders)   | High risk of selection bias; sample is not representative                                                        |
 | Volunteer / self-selected sampling | Participants respond to an advertisement or invitation to participate                                                                                                                                 | Convenient; participants are motivated                                                   | Volunteer bias: volunteers may differ systematically from non-volunteers (e.g., more extraverted, more educated) |
+
+</div>
 
 ### Sample Size
 
@@ -202,6 +214,8 @@ the specific conditions of the study.
 
 ### Other Types of Validity
 
+<div class="table-wrap">
+
 | Type                | Definition                                                                                                     |
 | ------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Face validity       | Whether the measure appears to assess what it claims to assess (superficial assessment)                        |
@@ -209,6 +223,8 @@ the specific conditions of the study.
 | Construct validity  | Whether the measure accurately reflects the theoretical construct it is intended to measure                    |
 | Concurrent validity | Whether the measure correlates with an established measure of the same construct administered at the same time |
 | Predictive validity | Whether the measure predicts future outcomes that it should theoretically predict                              |
+
+</div>
 
 <details>
 <summary>Common Pitfalls: Reliability and Validity</summary>
@@ -285,19 +301,27 @@ Descriptive statistics summarise and describe the main features of a dataset.
 
 **Measures of central tendency:**
 
+<div class="table-wrap">
+
 | Measure | Definition                                         | Strengths                                                        | Limitations                                                           |
 | ------- | -------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------- |
 | Mean    | The arithmetic average of all scores               | Uses all data points; mathematically useful for further analysis | Sensitive to extreme values (outliers)                                |
 | Median  | The middle value when scores are arranged in order | Not affected by outliers; useful for skewed distributions        | Does not use all data points; less amenable to further analysis       |
 | Mode    | The most frequently occurring value                | Simple to calculate; useful for categorical data                 | May not exist or may be multiple; not informative for continuous data |
 
+</div>
+
 **Measures of dispersion:**
+
+<div class="table-wrap">
 
 | Measure                 | Definition                                           | Characteristics                                                                                                                         |
 | ----------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Range                   | The difference between the highest and lowest scores | Simple to calculate; very sensitive to outliers                                                                                         |
 | Standard deviation (SD) | The average distance of each score from the mean     | Uses all data points; provides a measure of spread relative to the mean; the most commonly reported measure of dispersion in psychology |
 | Variance                | The square of the standard deviation                 | Useful in inferential statistics; less intuitive to interpret than SD                                                                   |
+
+</div>
 
 ### Inferential Statistics
 
@@ -317,10 +341,14 @@ Statistically significant (i.e., unlikely to have occurred by chance alone).
 
 **Type I and Type II errors:**
 
+<div class="table-wrap">
+
 | Error                          | Definition                                             | Consequence                                            |
 | ------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ |
 | Type I error (false positive)  | Rejecting the null hypothesis when it is true          | Concluding that an effect exists when it does not      |
 | Type II error (false negative) | Failing to reject the null hypothesis when it is false | Concluding that no effect exists when it actually does |
+
+</div>
 
 The probability of a Type I error is equal to the significance level (alpha). The probability of a
 Type II error is denoted beta ($\beta$). The **statistical power** of a test is the probability of
@@ -340,6 +368,8 @@ The choice of statistical test depends on three factors:
    data are normally distributed and have approximately equal variances. If these assumptions are
    not met, non-parametric alternatives should be used.
 
+<div class="table-wrap">
+
 | Research Question                             | Data Type      | Design               | Parametric Test                          | Non-Parametric Test               |
 | --------------------------------------------- | -------------- | -------------------- | ---------------------------------------- | --------------------------------- |
 | Difference between two groups                 | Interval/ratio | Independent measures | Independent samples t-test               | Mann-Whitney U test               |
@@ -348,6 +378,8 @@ The choice of statistical test depends on three factors:
 | Difference between three or more groups       | Interval/ratio | Repeated measures    | Repeated measures ANOVA                  | Friedman test                     |
 | Relationship between two variables            | Interval/ratio | N/A                  | Pearson's r (product-moment correlation) | Spearman's rho (rank correlation) |
 | Association between two categorical variables | Nominal        | N/A                  | Chi-squared test                         | Fisher's exact test               |
+
+</div>
 
 **Interpreting the correlation coefficient (r):**
 

@@ -31,10 +31,14 @@ It is also Used by the University of Warwick for certain applicants.
 
 The MAT is a 2.5-hour paper. It consists of:
 
+<div class="table-wrap">
+
 | Section | Format          | Questions                  | Marks   |
 | ------- | --------------- | -------------------------- | ------- |
 | A       | Multiple choice | Q1 (10 parts)              | 40      |
 | B--D    | Long-form       | Q2, Q3, Q4 (choose 2 of 3) | 30 each |
+
+</div>
 
 Total: 100 marks. All candidates must attempt Question 1 and choose two of Questions 2--4.
 
@@ -125,11 +129,15 @@ Choice parts test logical reasoning precisely through this confusion.
 
 The discriminant of $ax^2 + bx + c = 0$ determines the nature of its roots:
 
+<div class="table-wrap">
+
 | $\Delta = b^2 - 4ac$ | Roots                   |
 | -------------------- | ----------------------- |
 | $\Delta > 0$         | Two distinct real roots |
 | $\Delta = 0$         | One repeated real root  |
 | $\Delta < 0$         | No real roots           |
+
+</div>
 
 **Completing the square.** $ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{\Delta}{4a}$.
 
@@ -184,6 +192,8 @@ Powerful tools that frequently appear on MAT.
 
 **Standard derivatives.**
 
+<div class="table-wrap">
+
 | $f(x)$      | $f"(x)$            |
 | ----------- | ------------------ |
 | $x^n$       | $nx^{n-1}$         |
@@ -194,6 +204,8 @@ Powerful tools that frequently appear on MAT.
 | $\tan x$    | $\sec^2 x$         |
 | $\arcsin x$ | $1/\sqrt{1 - x^2}$ |
 | $\arctan x$ | $1/(1 + x^2)$      |
+
+</div>
 
 **Chain rule.** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$.
 
@@ -213,6 +225,8 @@ $$
 
 **Standard integrals.**
 
+<div class="table-wrap">
+
 | $\int f(x)\,dx$            | Result                                  |
 | -------------------------- | --------------------------------------- |
 | $\int x^n\,dx$             | $\frac{x^{n+1}}{n+1} + C$ ($n \neq -1$) |
@@ -222,6 +236,8 @@ $$
 | $\int \cos x\,dx$          | $\sin x + C$                            |
 | $\int \sec^2 x\,dx$        | $\tan x + C$                            |
 | $\int \frac{1}{1+x^2}\,dx$ | $\arctan x + C$                         |
+
+</div>
 
 **Techniques.** Substitution, integration by parts, partial fractions, and trigonometric identities
 Are the core techniques. MAT questions require one or two applications of these, combined With
@@ -334,6 +350,8 @@ Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 
 ### 6.1 Logical Connectives
 
+<div class="table-wrap">
+
 | Statement            | Meaning                                |
 | -------------------- | -------------------------------------- |
 | $P \implies Q$       | If $P$ is true, then $Q$ is true       |
@@ -343,6 +361,8 @@ Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 | $P \lor Q$           | At least one of $P$ or $Q$ is true     |
 | $P \implies Q$       | $\neg P \lor Q$ (equivalent form)      |
 | $\neg(P \implies Q)$ | $P \land \neg Q$                       |
+
+</div>
 
 ### 6.2 Quantifiers
 
@@ -731,10 +751,14 @@ When working with mat preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic            | Site         | Link                                                                                    |
 | ---------------- | ------------ | --------------------------------------------------------------------------------------- |
 | MAT Past Papers  | Oxford Maths | [View](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test) |
 | TMUA Preparation | WyattsNotes  | [View](/tmua-preparation/)                                    |
 | STEP Preparation | WyattsNotes  | [View](/step-preparation/)                                    |
-| Real Analysis    | WyattsNotes  | [View](https://mathematics.wyattau.com/real-analysis/)                                      |
+| Real Analysis    | WyattsNotes  | [View](https://mathematics.wyattau.com/3-real-analysis/)                                      |
 | Probability      | WyattsNotes  | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)                                        |
+
+</div>

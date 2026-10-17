@@ -39,6 +39,8 @@ methodologies, techniques, and principles that underpin successful geographical 
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                                      | Definition                                                                                                           |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Hypothesis**                            | A testable statement predicting the expected outcome of an investigation                                             |
@@ -60,6 +62,8 @@ methodologies, techniques, and principles that underpin successful geographical 
 | **Chi-squared test**                      | A statistical test determining whether there is a significant association between observed and expected frequencies  |
 | **Mann-Whitney U test**                   | A statistical test comparing the medians of two independent samples to determine if they are significantly different |
 | **Standard deviation**                    | A measure of the spread or dispersion of data around the mean                                                        |
+
+</div>
 
 ---
 
@@ -131,6 +135,8 @@ A good geographical investigation starts with a focused, manageable question or 
 
 ### Physical Geography Methods
 
+<div class="table-wrap">
+
 | Method                        | What It Measures                          | Equipment                                                         | Considerations                                                                |
 | ----------------------------- | ----------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | **River velocity**            | Speed of water flow (m/s)                 | Flow meter / impeller; float and stopwatch; orange (float method) | Measure at multiple points across the channel; at 0.6 depth for mean velocity |
@@ -144,7 +150,11 @@ A good geographical investigation starts with a focused, manageable question or 
 | **Soil infiltration**         | Rate at which water enters the soil       | Infiltrometer (or cut-off pipe and stopwatch)                     | Record time for water level to drop; compare across different surfaces        |
 | **Ecological sampling**       | Species diversity and abundance           | Quadrats (0.5m × 0.5m or 1m × 1m), transect lines                 | Random or systematic placement; identify and count species                    |
 
+</div>
+
 ### Human Geography Methods
+
+<div class="table-wrap">
 
 | Method                                           | What It Measures                               | Approach                                                      | Considerations                                                                                   |
 | ------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -157,6 +167,8 @@ A good geographical investigation starts with a focused, manageable question or 
 | **Index of Multiple Deprivation (IMD) analysis** | Relative deprivation levels                    | Secondary data from government statistics                     | Understand the domains (income, employment, health, education, etc.)                             |
 | **Photographic evidence**                        | Visual record of change, quality, or features  | Systematic photography at designated viewpoints               | Note location, direction, date, and time; obtain consent for people photos                       |
 | **Soundscapes**                                  | Auditory environment                           | Record and classify sounds at specific locations              | Note sources, intensity, and duration; ethical considerations with recording near private spaces |
+
+</div>
 
 ---
 
@@ -171,6 +183,8 @@ A good geographical investigation starts with a focused, manageable question or 
 
 ## Sampling Strategies
 
+<div class="table-wrap">
+
 | Strategy                                 | Description                                                                                            | Advantages                                             | Disadvantages                                                          |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ | ---------------------------------------------------------------------- |
 | **Random sampling**                      | Every item has an equal chance of selection (e.g., using random number generator for grid coordinates) | Eliminates bias; statistically robust                  | May miss important areas; may cluster by chance                        |
@@ -178,6 +192,8 @@ A good geographical investigation starts with a focused, manageable question or 
 | **Stratified sampling**                  | Divide the population or area into subgroups (strata) and sample proportionally from each              | Ensures representation of all subgroups; more accurate | Requires prior knowledge of the population structure                   |
 | **Opportunistic (convenience) sampling** | Selecting the nearest or most convenient items                                                         | Quick and easy                                         | Highly biased; not representative                                      |
 | **Cluster sampling**                     | Randomly select clusters (e.g., streets, grid squares) then sample within them                         | Practical for large areas                              | Less statistically rigorous than simple random sampling                |
+
+</div>
 
 **Sample size**: Larger samples are more representative but require more time and resources. A
 minimum of approximately 30 data points is generally recommended for statistical validity. For
@@ -199,6 +215,8 @@ investigations.
 
 ### When to Use Each Test
 
+<div class="table-wrap">
+
 | Test                    | Purpose                                                                           | Data Type                                        | Conditions                                           |
 | ----------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- |
 | **Spearman's rank (ρ)** | Tests for correlation between two variables                                       | Ordinal or continuous; at least 10 pairs of data | Data does not need to be normally distributed        |
@@ -208,6 +226,8 @@ investigations.
 | **Mean, median, mode**  | Measures of central tendency                                                      | Any numerical data                               | Consider outliers affecting the mean                 |
 | **Standard deviation**  | Measure of spread/dispersion                                                      | Any numerical data                               | Larger SD = more spread; smaller SD = more clustered |
 | **Interquartile range** | Spread of the middle 50% of data                                                  | Any numerical data                               | Less affected by outliers than standard deviation    |
+
+</div>
 
 ### Spearman's Rank Correlation: Step-by-Step
 
@@ -262,6 +282,8 @@ GIS software (e.g., ArcGIS, QGIS, Google Earth Pro) enables:
 
 ### Effective Data Presentation
 
+<div class="table-wrap">
+
 | Data Type             | Appropriate Presentation Methods                                                   |
 | --------------------- | ---------------------------------------------------------------------------------- |
 | **Spatial data**      | Choropleth maps, proportional symbol maps, dot maps, GIS layers, heat maps         |
@@ -272,6 +294,8 @@ GIS software (e.g., ArcGIS, QGIS, Google Earth Pro) enables:
 | **Relationships**     | Scatter graphs with line of best fit, Spearman's rank results                      |
 | **Profiles**          | Cross-section diagrams, beach profiles, cliff profiles                             |
 | **Qualitative data**  | Annotated photographs, word clouds, quotation extracts, mental maps                |
+
+</div>
 
 **Principles of good presentation:**
 
@@ -298,6 +322,8 @@ GIS software (e.g., ArcGIS, QGIS, Google Earth Pro) enables:
 
 A risk assessment must be completed before any fieldwork. It should identify:
 
+<div class="table-wrap">
+
 | Category                    | Example Hazards                                       | Mitigation                                                                                                                                           |
 | --------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **River/coastal fieldwork** | Drowning, slipping on wet rocks, fast currents, tides | Check weather and tide times; never work alone; wear appropriate footwear; establish emergency procedures; stay away from deep water and cliff edges |
@@ -305,6 +331,8 @@ A risk assessment must be completed before any fieldwork. It should identify:
 | **Weather**                 | Hypothermia, heatstroke, sunburn, lightning           | Check forecast; wear appropriate clothing; carry waterproofs/sunscreen/water; have a bad-weather contingency plan                                    |
 | **Equipment**               | Cuts from glass thermometers, heavy equipment         | Use plastic equipment where possible; carry first aid kit                                                                                            |
 | **Data collection**         | Ethical breaches, conflict with public                | Follow ethical guidelines; be polite and respectful; do not photograph people without consent                                                        |
+
+</div>
 
 **Risk assessment format**: List each hazard, assess its likelihood (low/medium/high) and severity
 (low/medium/high), then describe the control measures that will reduce the risk to an acceptable

@@ -416,16 +416,24 @@ Understanding the structure of the Gaokao is the first step to preparing effecti
 
 ### Day 1
 
+<div class="table-wrap">
+
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Chinese (语文) | 150 minutes | 150 |
 | Mathematics (数学) | 120 minutes | 150 |
 
+</div>
+
 ### Day 2
+
+<div class="table-wrap">
 
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Comprehensive Liberal Arts or Science | 150 minutes | 300 |
+
+</div>
 
 The comprehensive section varies by track:
 
@@ -580,6 +588,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 
 ### One-Year Plan (Year 12 / Grade 12)
 
+<div class="table-wrap">
+
 | Period | Focus |
 | -------- | ------- |
 | September–November | Complete curriculum coverage; build foundational understanding |
@@ -587,6 +597,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 | February–March | Targeted revision of weak areas; intensive practice |
 | April–May | Full-length practice exams under timed conditions |
 | June | Final review; light practice; rest and mental preparation |
+
+</div>
 
 ### Three-Year Plan (Years 10–12)
 
@@ -863,6 +875,8 @@ June. The score report includes:
 
 China's Gaokao system has significant **provincial variation** in several areas:
 
+<div class="table-wrap">
+
 | Aspect         | Variation                                                                            |
 | -------------- | ------------------------------------------------------------------------------------ |
 | Exam papers    | Some provinces use national papers (全国卷); others use provincial papers (自主命题) |
@@ -870,6 +884,8 @@ China's Gaokao system has significant **provincial variation** in several areas:
 | Scoring method | Some provinces use percentile ranks; others report raw scores                        |
 | Exam schedule  | Most provinces test in early June, but exact dates vary                              |
 | Re-sit policy  | Some provinces restrict the number of re-sit attempts                                |
+
+</div>
 
 Notable examples:
 
@@ -1771,6 +1787,8 @@ $$
 
 ### 高考有机化学常见反应类型
 
+<div class="table-wrap">
+
 | 反应类型 | 典型反应 | 条件 |
 | --------- | --------- | ------ |
 | 取代反应 | 卤代、硝化、酯化 | 催化剂、加热 |
@@ -1780,6 +1798,8 @@ $$
 | 还原反应 | 醛加氢还原为醇 | H₂/催化剂 |
 | 缩聚反应 | 酯化缩聚、酰胺化缩聚 | 催化剂、加热 |
 | 加聚反应 | 烯烃加聚 | 引发剂 |
+
+</div>
 
 ## 更多典型例题
 
@@ -2960,6 +2980,8 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 
 ## 答案表
 
+<div class="table-wrap">
+
 | 题号 | 正确答案 |
 |------|----------|
 | 1    | B        |
@@ -2972,6 +2994,8 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 | 8    | B        |
 | 9    | D        |
 | 10   | C        |
+
+</div>
 
 **评分标准:** 答对 8 题及以上表示对高考数学基础知识掌握良好。对于答错的题目，请回顾相关章节内容并重新练习。
 

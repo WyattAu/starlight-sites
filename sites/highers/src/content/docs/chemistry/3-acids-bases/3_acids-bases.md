@@ -81,6 +81,8 @@ $\mathrm{H_3\mathrm{PO_4$.
 
 ### Comparison of Strong and Weak Acids
 
+<div class="table-wrap">
+
 | Property              | Strong acid     | Weak acid                             |
 | --------------------- | --------------- | ------------------------------------- |
 | Dissociation          | Complete        | Partial                               |
@@ -88,6 +90,8 @@ $\mathrm{H_3\mathrm{PO_4$.
 | pH at 0.1 M           | 1.0             | Approximately 2.9                     |
 | Conductivity          | High            | Lower                                 |
 | Reaction rate with Mg | Faster          | Slower (same at same $[\mathrm{H^+]$) |
+
+</div>
 
 **Key misconception:** Concentration and strength are independent. A 0.001 M strong acid and a 0.001
 M weak acid have the same concentration but different $[\mathrm{H^+]$.
@@ -481,22 +485,30 @@ $$
 
 The indicator changes colour over approximately $\mathrm{pK_{\mathrm{In} \pm 1$.
 
+<div class="table-wrap">
+
 | Indicator        | pH Range   | Colour Change      |
 | ---------------- | ---------- | ------------------ |
 | Methyl orange    | 3.1 - 4.4  | Red to yellow      |
 | Bromothymol blue | 6.0 - 7.6  | Yellow to blue     |
 | Phenolphthalein  | 8.3 - 10.0 | Colourless to pink |
 
+</div>
+
 ### Choosing an Indicator
 
 The indicator range must overlap with the steep part of the titration curve at the equivalence
 Point.
+
+<div class="table-wrap">
 
 | Titration type            | Equivalence pH | Suitable indicator |
 | ------------------------- | -------------- | ------------------ |
 | Strong acid + strong base | pH = 7         | Bromothymol blue   |
 | Strong acid + weak base   | pH < 7         | Methyl orange      |
 | Weak acid + strong base   | pH > 7         | Phenolphthalein    |
+
+</div>
 
 :::caution
 For a strong acid-weak base titration" -- this is incorrect. Phenolphthalein (pH 8.3-10.0) is
@@ -546,6 +558,8 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 
 ## Summary Table: Acid-Base Concepts
 
+<div class="table-wrap">
+
 | Concept               | Formula/Definition                                           | Key Point                    |
 | --------------------- | ------------------------------------------------------------ | ---------------------------- |
 | pH                    | $\mathrm{pH = -\log[\mathrm{H^+]$                            | Lower pH = more acidic       |
@@ -554,6 +568,8 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 | $K_b$                 | $\frac{[\mathrm{BH^+][\mathrm{OH^-]}{[\mathrm{B]}$           | Higher $K_b$ = stronger base |
 | Henderson-Hasselbalch | $\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$ | For buffer solutions         |
 | $K_a \times K_b$      | $= K_w$                                                      | For conjugate pairs          |
+
+</div>
 
 ---
 
@@ -712,12 +728,16 @@ Both ions hydrolyse. The pH depends on the relative strengths of the acid and ba
 
 ### Summary Table: Salt Hydrolysis
 
+<div class="table-wrap">
+
 | Salt type                 | Hydrolysis             | pH      | Example                               |
 | ------------------------- | ---------------------- | ------- | ------------------------------------- |
 | Strong acid + strong base | Neither ion hydrolyses | 7       | $\mathrm{NaCl$                        |
 | Strong acid + weak base   | Cation hydrolyses      | < 7     | $\mathrm{NH_4\mathrm{Cl$              |
 | Weak acid + strong base   | Anion hydrolyses       | > 7     | $\mathrm{CH_3\mathrm{COONa$           |
 | Weak acid + weak base     | Both hydrolyse         | Depends | $\mathrm{NH_4\mathrm{CH_3\mathrm{COO$ |
+
+</div>
 
 ---
 

@@ -34,11 +34,15 @@ Classical mechanics and statistical physics.
 Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
 are commonly used:
 
+<div class="table-wrap">
+
 | Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
 | ------------------------------ | ---------------------- | ----------------------- | ------------- |
 | Celsius ($^\circ\mathrm{C$)    | $100$                  | $0$                     | $-273.15$     |
 | Kelvin (K)                     | $373.15$               | $273.15$                | $0$           |
 | Fahrenheit ($^\circ\mathrm{F$) | $212$                  | $32$                    | $-459.67$     |
+
+</div>
 
 Conversion between Celsius and Kelvin:
 
@@ -96,6 +100,8 @@ Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the
 The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
 because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
+<div class="table-wrap">
+
 | Substance | $c$ (J/kg K) |
 | --------- | ------------ |
 | Water     | 4180         |
@@ -104,6 +110,8 @@ because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 | Aluminium | 900          |
 | Iron      | 450          |
 | Lead      | 128          |
+
+</div>
 
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
 Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
@@ -231,6 +239,8 @@ $$
 Q = mL_v
 $$
 
+<div class="table-wrap">
+
 | Substance | $L_f$ (kJ/kg) | $L_v$ (kJ/kg) |
 | --------- | ------------- | ------------- |
 | Water     | $334$         | $2260$        |
@@ -238,6 +248,8 @@ $$
 | Ethanol   | $105$         | $855$         |
 | Copper    | $205$         | $4730$        |
 | Lead      | $23$          | $870$         |
+
+</div>
 
 Note that $L_v$ is generally much larger than $L_f$ because completely separating molecules
 (boiling) requires overcoming all intermolecular forces, whereas melting only needs to disrupt the
@@ -761,6 +773,8 @@ $$
 \frac{dQ}{dt} = \frac{kA(T_1 - T_2)}{d}
 $$
 
+<div class="table-wrap">
+
 | Material              | $k$ (W/(m K)) |
 | --------------------- | ------------- |
 | Copper                | 401           |
@@ -770,6 +784,8 @@ $$
 | Water                 | 0.6           |
 | Air                   | 0.026         |
 | Fibreglass insulation | 0.04          |
+
+</div>
 
 **Example (HL):** A copper wall of thickness $5\mathrm{ mm$ and area $2\mathrm{ m^2$ has one face at
 $100^\circ\mathrm{C$ and the other at $20^\circ\mathrm{C$. Find the rate of heat conduction.

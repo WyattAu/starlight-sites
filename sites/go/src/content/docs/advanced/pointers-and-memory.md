@@ -156,6 +156,8 @@ Use `-gcflags="-m -m"` for verbose output.
 
 ## Stack vs Heap
 
+<div class="table-wrap">
+
 | Property     | Stack                        | Heap                           |
 | ------------ | ---------------------------- | ------------------------------ |
 | Allocation   | Automatic (push/pop frame)   | Manual (via `new`/escape)      |
@@ -163,6 +165,8 @@ Use `-gcflags="-m -m"` for verbose output.
 | Speed        | Very fast (pointer bump)     | Slower (GC involvement)        |
 | Size         | Limited (default 1GB, grows) | Large (limited by system)      |
 | Access       | Direct (register/offset)     | Indirect (pointer dereference) |
+
+</div>
 
 Stack allocation is preferred because it is faster (no GC overhead) and the memory is automatically
 Reclaimed when the function returns. The Go compiler works hard to keep variables on the stack.

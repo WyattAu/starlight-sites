@@ -50,6 +50,8 @@ $$
 
 ### Strong and Weak Acids
 
+<div class="table-wrap">
+
 | Property                   | Strong Acids                                              | Weak Acids                                                           |
 | -------------------------- | --------------------------------------------------------- | -------------------------------------------------------------------- |
 | Degree of ionisation       | Nearly 100%                                               | Partial                                                              |
@@ -57,6 +59,8 @@ $$
 | pH at same concentration   | Lower pH                                                  | Higher pH                                                            |
 | Conductivity               | Higher                                                    | Lower                                                                |
 | Reaction rate (same conc.) | Faster                                                    | Slower                                                               |
+
+</div>
 
 :::caution
 dilute solution of a Strong acid can have a higher pH than a concentrated solution of a weak acid.
@@ -203,11 +207,15 @@ $\mathrm{H_2O}$ accepts a proton to become $\mathrm{H_3O^+}$:
 
 ### pH Scale Summary
 
+<div class="table-wrap">
+
 | pH   | Nature           |
 | ---- | ---------------- |
 | 0-6  | Acidic           |
 | 7    | Neutral          |
 | 8-14 | Alkaline (basic) |
+
+</div>
 
 Each unit change in pH represents a **tenfold** change in $[\mathrm{H}^+]$.
 
@@ -239,11 +247,15 @@ Solution of known concentration.
 
 ### Indicators
 
+<div class="table-wrap">
+
 | Indicator           | Colour in Acid | Colour in Base | pH Range   |
 | ------------------- | -------------- | -------------- | ---------- |
 | Methyl orange       | Red            | Yellow         | 3.1 - 4.4  |
 | Phenolphthalein     | Colourless     | Pink           | 8.3 - 10.0 |
 | Universal indicator | Red / Orange   | Blue / Violet  | 1 - 14     |
+
+</div>
 
 ### Worked Example 4
 
@@ -280,6 +292,8 @@ $$
 
 ### Solubility Rules
 
+<div class="table-wrap">
+
 | Soluble                                | Exceptions                                                               |
 | -------------------------------------- | ------------------------------------------------------------------------ |
 | All Group 1 and ammonium salts         |,                                                                        |
@@ -289,11 +303,17 @@ $$
 | Sodium, potassium, ammonium carbonates |,                                                                        |
 | Sodium, potassium, ammonium hydroxides |,                                                                        |
 
+</div>
+
+<div class="table-wrap">
+
 | Insoluble       | Exceptions                                                 |
 | --------------- | ---------------------------------------------------------- |
 | Most carbonates | Group 1 and ammonium                                       |
 | Most hydroxides | Group 1, $\mathrm{Ba(OH)}_2$$\mathrm{Ca(OH)}_2$ (slightly) |
 | Most oxides     | Group 1                                                    |
+
+</div>
 
 ### Methods of Salt Preparation
 
@@ -672,6 +692,8 @@ Overall: $\mathrm{Zn} + \mathrm{Cu}^{2+} \to \mathrm{Zn}^{2+} + \mathrm{Cu}$
 
 The electrochemical series ranks half-reactions by their standard electrode potentials:
 
+<div class="table-wrap">
+
 | Half-reaction                             | $E^\circ$ (V) |
 | ----------------------------------------- | ------------- |
 | $\mathrm{Li}^+ + e^- \to \mathrm{Li}$     | -3.03         |
@@ -683,6 +705,8 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 | $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ | +0.34         |
 | $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$     | +0.80         |
 | $\mathrm{Au}^{3+} + 3e^- \to \mathrm{Au}$ | +1.50         |
+
+</div>
 
 **More negative $E^\circ$:** Metal is a stronger reducing agent (more oxidised).
 
@@ -709,6 +733,8 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic          | Key Formula                                                                       | Key Concept                 |
 | -------------- | --------------------------------------------------------------------------------- | --------------------------- |
 | pH             | $\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$                                          | Measures acidity            |
@@ -717,6 +743,8 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 | Titration      | $c_1V_1 = c_2V_2$ (for 1:1 reactions)                                             | Concentration determination |
 | Faraday's Law  | $m = \frac{Q \times M}{nF}$                                                       | Mass from electrolysis      |
 | Cell potential | $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}$ | Voltaic cell voltage        |
+
+</div>
 
 ---
 
@@ -1019,6 +1047,8 @@ $$
 
 ### Methods of Prevention
 
+<div class="table-wrap">
+
 | Method                 | Principle                                               |
 | ---------------------- | ------------------------------------------------------- |
 | Painting / Oil coating | Barrier to water and oxygen                             |
@@ -1026,6 +1056,8 @@ $$
 | Alloying               | Adding chromium and nickel (stainless steel)            |
 | Sacrificial anode      | Attaching a more reactive metal (e.g., Mg, Zn)          |
 | Cathodic protection    | Applying negative voltage to make the metal the cathode |
+
+</div>
 
 ---
 

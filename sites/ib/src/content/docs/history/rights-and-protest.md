@@ -206,6 +206,8 @@ protection.
 
 ### 2.3 Key Figures
 
+<div class="table-wrap">
+
 | Figure                 | Role                                               | Significance                                                                                                                               |
 | :--------------------- | :------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | Martin Luther King Jr. | Leader of the SCLC                                 | Most prominent leader of the civil rights movement; advocate of nonviolent resistance; Nobel Peace Prize (1964); assassinated 4 April 1968 |
@@ -213,6 +215,8 @@ protection.
 | Malcolm X              | Minister of the Nation of Islam; later independent | Advocate of black nationalism and self-defence; "The Autobiography of Malcolm X" (1965); assassinated 21 February 1965                     |
 | John F. Kennedy        | President (1961--1963)                             | Initially cautious on civil rights; federalised Alabama National Guard; proposed civil rights bill before his assassination                |
 | Lyndon B. Johnson      | President (1963--1969)                             | Used legislative skill to pass the Civil Rights Act (1964) and Voting Rights Act (1965); declared "We shall overcome" in Selma speech      |
+
+</div>
 
 ### 2.4 Legislation
 
@@ -300,6 +304,8 @@ of racial segregation to protect white supremacy and Afrikaner cultural dominanc
 
 #### Key Apartheid Legislation
 
+<div class="table-wrap">
+
 | Act                                   | Year | Purpose                                                                                                      |
 | :------------------------------------ | :--- | :----------------------------------------------------------------------------------------------------------- |
 | Population Registration Act           | 1950 | Classified every South African by race (White, Black, Coloured, Indian)                                      |
@@ -309,6 +315,8 @@ of racial segregation to protect white supremacy and Afrikaner cultural dominanc
 | Prohibition of Mixed Marriages Act    | 1949 | Prohibited marriage across racial lines                                                                      |
 | Suppression of Communism Act          | 1950 | Banned organisations opposed to apartheid; used to ban the ANC (1960)                                        |
 | Bantu Authorities Act                 | 1951 | Established the "homelands" (Bantustans) system to strip black South Africans of citizenship                 |
+
+</div>
 
 #### Pass Laws
 
@@ -377,12 +385,16 @@ to the imposition of economic sanctions.
 
 ### 3.3 Key Figures
 
+<div class="table-wrap">
+
 | Figure         | Role                                        | Significance                                                                                        |
 | :------------- | :------------------------------------------ | :-------------------------------------------------------------------------------------------------- |
 | Nelson Mandela | Leader of the ANC; co-founder of MK         | Symbol of anti-apartheid struggle; first black president (1994--1999); Nobel Peace Prize (1993)     |
 | Steve Biko     | Founder of the Black Consciousness Movement | Led psychological liberation; died in police custody (1977)                                         |
 | Desmond Tutu   | Anglican Archbishop of Cape Town            | Moral authority of anti-apartheid movement; Nobel Peace Prize (1984); chaired the TRC               |
 | F.W. de Klerk  | President (1989--1994)                      | Released Mandela (February 1990); unbanned the ANC; negotiated transition; Nobel Peace Prize (1993) |
+
+</div>
 
 ### 3.4 International Response
 
@@ -709,6 +721,8 @@ Historiographical perspectives when they are relevant to the specific point you 
 
 ## 8. Summary Table: Key Events, Causes, and Consequences
 
+<div class="table-wrap">
+
 | Event                       | Date          | Case Study   | Causes                                                                  | Consequences                                                                                        |
 | :-------------------------- | :------------ | :----------- | :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
 | Brown v. Board of Education | May 1954      | USA          | NAACP legal strategy; Warren Court; Cold War pressure                   | Overturned Plessy; legal foundation for desegregation; slow implementation ("all deliberate speed") |
@@ -720,6 +734,8 @@ Historiographical perspectives when they are relevant to the specific point you 
 | Soweto Uprising             | Jun 1976      | South Africa | Afrikaans medium of instruction; Bantu Education system                 | International sanctions intensified; radicalised youth; BCM gained prominence                       |
 | Mandela released            | Feb 1990      | South Africa | International pressure; economic crisis; end of Cold War                | ANC unbanned; CODESA negotiations; path to democratic elections                                     |
 | First democratic elections  | Apr 1994      | South Africa | CODESA negotiations; ANC campaign; peaceful transition                  | Mandela president; formal end of apartheid; TRC established                                         |
+
+</div>
 
 ---
 
@@ -733,6 +749,8 @@ Historiographical perspectives when they are relevant to the specific point you 
 </script>
 
 ## 9. Glossary
+
+<div class="table-wrap">
 
 | Term                                | Definition                                                                                                                       |
 | :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
@@ -760,6 +778,8 @@ Historiographical perspectives when they are relevant to the specific point you 
 | Separate but equal                  | Legal doctrine from Plessy v. Ferguson permitting racial segregation provided facilities were "equal"                            |
 | Terra nullius                       | Doctrine that land belonged to no one; used to justify British colonisation of Australia; overturned by Mabo (1992)              |
 | Truth and Reconciliation Commission | South African body (1995--2002) investigating apartheid-era human rights violations; chaired by Desmond Tutu                     |
+
+</div>
 
 ## Intuition
 

@@ -20,6 +20,8 @@ description: "The following table provides a quick reference for the major theor
 The following table provides a quick reference for the major theorems and their locations in this
 document.
 
+<div class="table-wrap">
+
 | Result                                                  | Location           |
 | ------------------------------------------------------- | ------------------ |
 | Subgroup Criterion                                      | Theorem 2.1        |
@@ -50,6 +52,8 @@ document.
 | Cauchy's Theorem                                        | Theorem 14.1       |
 | $A_n$ is simple for $n \geq 5$                          | Proposition 14.2   |
 | Structure theorem for finitely generated abelian groups | Theorem 14.4       |
+
+</div>
 
 ### Dependency Graph
 
@@ -113,12 +117,16 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                      |
 | ------------------------------ | ----------- | --------------------------------------------------------- |
-| Abstract Algebra (Overview)    | WyattsNotes | [View](/abstract-algebra/)     |
-| Number Theory                  | WyattsNotes | [View](/number-theory/)        |
-| Linear Algebra                 | WyattsNotes | [View](/linear-algebra/)       |
+| Abstract Algebra (Overview)    | WyattsNotes | [View](/1-abstract-algebra/)     |
+| Number Theory                  | WyattsNotes | [View](/7-number-theory/)        |
+| Linear Algebra                 | WyattsNotes | [View](/2-linear-algebra/)       |
 | Abstract Algebra, Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
+
+</div>
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
@@ -129,6 +137,8 @@ $\blacksquare$
 - **Normal subgroups and quotient groups.** $K/F$ is Galois $\iff$ $\mathrm{Gal}(E/K)\trianglelefteq\mathrm{Gal}(E/F)$, and in that case $\mathrm{Gal}(K/F)\cong\mathrm{Gal}(E/F)/\mathrm{Gal}(E/K)$.
 
 ### Group Theory Quick Reference
+
+<div class="table-wrap">
 
 | Concept | Definition | Example |
 | --------- | ----------- | --------- |
@@ -142,7 +152,11 @@ $\blacksquare$
 | Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $ \| G \| $ |
 | Stabilizer | $G_x = \{g \in G : gx = x\}$ | Subgroup of $G$ |
 
+</div>
+
 ### Ring and Field Theory Quick Reference
+
+<div class="table-wrap">
 
 | Concept | Definition | Example |
 | --------- | ----------- | --------- |
@@ -154,7 +168,11 @@ $\blacksquare$
 | PID | Every ideal is principal | $\mathbb{Z}$, $F[x]$ |
 | UFD | Unique factorisation into irreducibles | $\mathbb{Z}$, $\mathbb{Z}[x]$, $F[x]$ |
 
+</div>
+
 ### Common Isomorphism Classes
+
+<div class="table-wrap">
 
 | Group | Order | Structure |
 | ------- | ------- | ----------- |
@@ -164,3 +182,5 @@ $\blacksquare$
 | $D_{2n}$ | $2n$ | Dihedral (symmetries of $n$-gon) |
 | $Q_8$ | $8$ | Quaternion group |
 | $\mathbb{Z}_2 \times \mathbb{Z}_2$ | $4$ | Klein four-group |
+
+</div>

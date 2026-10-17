@@ -68,11 +68,15 @@ O=O). **Triple bond:** three shared pairs (e.g., N$\equiv$N).
 
 **Bond length and bond strength:**
 
+<div class="table-wrap">
+
 | Bond type | Bond length | Bond energy (kJ/mol) |
 | --------- | ----------- | -------------------- |
 | C-C       | 154 pm      | 348                  |
 | C=C       | 134 pm      | 612                  |
 | C≡C       | 120 pm      | 839                  |
+
+</div>
 
 Triple bonds are shorter and stronger than double bonds, which are shorter and stronger than single
 Bonds.
@@ -145,6 +149,8 @@ moment.
 The Valence Shell Electron Pair Repulsion (VSEPR) theory predicts molecular shapes based on electron
 Pair repulsion.
 
+<div class="table-wrap">
+
 | Electron pairs | Shape                | Bond angle       |
 | -------------- | -------------------- | ---------------- |
 | 2              | Linear               | $180^\circ$      |
@@ -153,9 +159,13 @@ Pair repulsion.
 | 5              | Trigonal bipyramidal | $120°, 90^\circ$ |
 | 6              | Octahedral           | $90^\circ$       |
 
+</div>
+
 ### Effect of Lone Pairs
 
 Lone pairs repel more strongly than bonding pairs, reducing bond angles.
+
+<div class="table-wrap">
 
 | Bonding pairs | Lone pairs | Shape              | Example                | Bond angle    |
 | ------------- | ---------- | ------------------ | ---------------------- | ------------- |
@@ -164,6 +174,8 @@ Lone pairs repel more strongly than bonding pairs, reducing bond angles.
 | 4             | 1          | See-saw            | $\mathrm{SF_4$         | --            |
 | 3             | 2          | T-shaped           | $\mathrm{ClF_3$        | --            |
 | 2             | 3          | Linear             | $\mathrm{XeF_2$        | $180^\circ$   |
+
+</div>
 
 **Worked Example 3 (OL):** Use VSEPR theory to predict the shape of $\mathrm{BF_3$ and
 $\mathrm{H_2\mathrm{O$.
@@ -270,11 +282,15 @@ $\mathrm{HF$ dominates.
 
 ### Summary of Intermolecular Forces
 
+<div class="table-wrap">
+
 | Force             | Strength  | Present in          | Dependence                |
 | ----------------- | --------- | ------------------- | ------------------------- |
 | London dispersion | Weakest   | All molecules       | Increases with size       |
 | Dipole-dipole     | Moderate  | Polar molecules     | Depends on dipole moment  |
 | Hydrogen bonding  | Strongest | H bonded to N, O, F | Depends on H-bond density |
+
+</div>
 
 ## Metallic Bonding in Detail (HL)
 
@@ -289,12 +305,16 @@ Semiconductors, the gap is small enough that thermal energy can promote some ele
 
 ### Comparison: Conductors, Semiconductors, Insulators
 
+<div class="table-wrap">
+
 | Property                  | Conductor            | Semiconductor | Insulator        |
 | ------------------------- | -------------------- | ------------- | ---------------- |
 | Band gap                  | None (bands overlap) | Small (~1 eV) | Large (>5 eV)    |
 | Conductivity at 0 K       | High                 | Zero          | Zero             |
 | Conductivity with heating | Decreases slightly   | Increases     | Remains zero     |
 | Examples                  | Cu, Al               | Si, Ge        | Diamond, SiO$_2$ |
+
+</div>
 
 ---
 
@@ -409,12 +429,16 @@ Character.
 
 ### Trend in Covalent Character of Group 1 Halides
 
+<div class="table-wrap">
+
 | Compound      | Covalent character | Explanation                           |
 | ------------- | ------------------ | ------------------------------------- |
 | $\mathrm{LiF$ | Very low           | Small cation, small anion             |
 | $\mathrm{LiI$ | Moderate           | Small cation, large polarisable anion |
 | $\mathrm{CsF$ | Very low           | Large cation, small anion             |
 | $\mathrm{CsI$ | Moderate           | Large cation, large anion             |
+
+</div>
 
 ## Resonance (HL)
 
@@ -496,12 +520,16 @@ the Lewis structure $\mathrm{N\equiv\mathrm{N$.
 
 ### Comparison of MO Theory with Lewis Theory
 
+<div class="table-wrap">
+
 | Feature                        | Lewis theory                 | MO theory                            |
 | ------------------------------ | ---------------------------- | ------------------------------------ |
 | Bonds                          | Localised between two atoms  | Delocalised over molecule            |
 | Paramagnetism of $\mathrm{O_2$ | Cannot explain               | Correctly predicts                   |
 | Bond order                     | Single, double, triple       | Can be fractional (e.g., 1.5)        |
 | Resonance                      | Requires multiple structures | Single structure with delocalisation |
+
+</div>
 
 ---
 
@@ -533,6 +561,8 @@ Network. Very high melting point, hard, insulator.
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Property                | Diamond                | Graphite                       | $\mathrm{SiO_2$         |
 | ----------------------- | ---------------------- | ------------------------------ | ----------------------- |
 | Bonding                 | 4 covalent bonds per C | 3 covalent bonds + delocalised | 4 covalent bonds per Si |
@@ -540,6 +570,8 @@ Network. Very high melting point, hard, insulator.
 | Melting point           | Very high              | Very high                      | Very high               |
 | Electrical conductivity | None                   | Conducts along planes          | None                    |
 | Structure               | 3D tetrahedral         | Layered hexagonal              | 3D network              |
+
+</div>
 
 ---
 
@@ -566,11 +598,15 @@ Body-centred cubic. Each $\mathrm{Cs^+$ is surrounded by 8 $\mathrm{Cl^-$ ions. 
 
 ### Relationship Between Structure and Properties
 
+<div class="table-wrap">
+
 | Compound | Coordination number | Lattice energy (kJ/mol) | Melting point |
 | -------- | ------------------- | ----------------------- | ------------- |
 | NaCl     | 6:6                 | -787                    | 801°C         |
 | CsCl     | 8:8                 | -657                    | 645°C         |
 | MgO      | 6:6                 | -3791                   | 2852°C        |
+
+</div>
 
 $\mathrm{MgO$ has a much higher melting point than $\mathrm{NaCl$ because the doubly charged ions
 Produce stronger electrostatic attraction.
@@ -593,6 +629,8 @@ State.
 
 ### Average Bond Enthalpies
 
+<div class="table-wrap">
+
 | Bond | Enthalpy (kJ/mol) | Bond | Enthalpy (kJ/mol) |
 | ---- | ----------------- | ---- | ----------------- |
 | C-C  | 348               | C-H  | 412               |
@@ -600,6 +638,8 @@ State.
 | C≡C  | 839               | C=O  | 743               |
 | C-O  | 358               | H-H  | 436               |
 | C-Cl | 328               | O=O  | 496               |
+
+</div>
 
 **Worked Example 7 (HL):** Use bond enthalpies to estimate the enthalpy change for the combustion of
 Methane: $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$.
@@ -682,6 +722,8 @@ Trigonal bipyramidal ($sp^3d$). Bond angles: $90^\circ$ and $120^\circ$.
 The hybridisation of the central atom is determined by the number of electron domains (bonding
 Pairs + lone pairs):
 
+<div class="table-wrap">
+
 | Electron domains | Hybridisation | Geometry             |
 | ---------------- | ------------- | -------------------- |
 | 2                | $sp$          | Linear               |
@@ -689,6 +731,8 @@ Pairs + lone pairs):
 | 4                | $sp^3$        | Tetrahedral          |
 | 5                | $sp^3d$       | Trigonal bipyramidal |
 | 6                | $sp^3d^2$     | Octahedral           |
+
+</div>
 
 ---
 
@@ -736,12 +780,16 @@ Arrangement. This prevents layers from sliding , making the alloy harder than th
 
 Consider the hydrides of Group 14-17:
 
+<div class="table-wrap">
+
 | Compound               | Boiling point | Dominant IMF     |
 | ---------------------- | ------------- | ---------------- |
 | $\mathrm{CH_4$         | -162°C        | London forces    |
 | $\mathrm{NH_3$         | -33°C         | Hydrogen bonding |
 | $\mathrm{H_2\mathrm{O$ | 100°C         | Hydrogen bonding |
 | $\mathrm{HF$           | 20°C          | Hydrogen bonding |
+
+</div>
 
 Water has the highest boiling point because each molecule can form up to four hydrogen bonds (two as
 Donor, two as acceptor), creating an extensive three-dimensional network.
@@ -774,6 +822,8 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 
 ## Comparison Table: All Bonding Types
 
+<div class="table-wrap">
+
 | Feature                 | Ionic                       | Covalent (simple)                                     | Covalent (giant)  | Metallic                    |
 | ----------------------- | --------------------------- | ----------------------------------------------------- | ----------------- | --------------------------- |
 | Particles               | Ions                        | Molecules                                             | Atoms in network  | Metal ions + delocalised e- |
@@ -783,6 +833,8 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 | Solubility              | Polar solvents              | Non-polar solvents                                    | Insoluble         | Insoluble                   |
 | Hardness                | Hard, brittle               | Soft                                                  | Very hard         | Malleable                   |
 | Examples                | $\mathrm{NaCl$$\mathrm{MgO$ | $\mathrm{H_2\mathrm{O$$\mathrm{CO_2$                  | Diamond, graphite | $\mathrm{Fe$$\mathrm{Cu$    |
+
+</div>
 
 ---
 

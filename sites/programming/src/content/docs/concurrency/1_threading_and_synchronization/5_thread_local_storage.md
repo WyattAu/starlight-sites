@@ -66,12 +66,16 @@ Thread always sees the value `42` after its own assignment.
 
 C++ defines four storage durations [N4950 §6.7.3]:
 
+<div class="table-wrap">
+
 | Storage Duration | Allocation      | Deallocation         | Instance Count |
 | :--------------- | :-------------- | :------------------- | :------------- |
 | **automatic**    | On block entry  | On block exit        | Per invocation |
 | **static**       | Before `main`   | After `main` returns | Exactly one    |
 | **thread**       | On thread entry | On thread exit       | Per thread     |
 | **dynamic**      | `operator new`  | `operator delete`    | As requested   |
+
+</div>
 
 Thread storage duration sits between static and dynamic: like static, the variable persists across
 Function calls; like dynamic, each thread gets its own independent instance. The standard does not
@@ -244,11 +248,15 @@ when you know the library will not be `dlopen`Ed.
 On ELF platforms (Linux, BSD), `thread_local` variables are stored in special sections of the
 Executable or shared object:
 
+<div class="table-wrap">
+
 | Section  | Purpose                                                      |
 | :------- | :----------------------------------------------------------- |
 | `.tdata` | TLS data for initialized variables (zero-cost: memory image) |
 | `.tbss`  | TLS BSS for zero-initialized variables                       |
 | `.tbss`  | Thread-local BSS for zero-initialized variables              |
+
+</div>
 
 The linker combines `.tdata` and `.tbss` from all participating modules into a **TLS template**
 Described by the `PT_TLS` program header. Each new thread gets a copy of this template at thread
@@ -259,11 +267,15 @@ cannot be computed at load time.
 
 ### Access Cost
 
+<div class="table-wrap">
+
 | TLS Model           | Access Cost                      | Use Case                              |
 | :------------------ | :------------------------------- | :------------------------------------ |
 | **Local Exec**      | ~0 cycles (offset from TP known) | `thread_local` in the main executable |
 | **Initial Exec**    | ~1 cycle (segment register load) | Executables, startup-linked libraries |
 | **General Dynamic** | ~20-50 cycles (function call)    | Dynamically loaded libraries (`.so`)  |
+
+</div>
 
 ### Initialization Overhead
 
@@ -356,12 +368,16 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Property                       | Function-Local `static`              | `thread_local`                        |
 | :----------------------------- | :----------------------------------- | :------------------------------------ |
 | Instance count                 | 1 (global)                           | 1 per thread                          |
 | Initialization thread          | Whichever thread calls first         | Each thread, independently            |
 | Initialization synchronization | Thread-safe (guaranteed by standard) | Thread-safe per thread [N4950 §6.7.3] |
 | Destruction                    | After `main` returns                 | When each thread exits                |
+
+</div>
 
 The standard guarantees thread-safe initialization for both `static` locals [N4950 §9.8.1] and
 `thread_local` variables. The compiler generates a guard variable with atomic operations to ensure
@@ -807,6 +823,8 @@ Deallocation of the entire pool.
 
 ## Summary of Synchronization Primitives
 
+<div class="table-wrap">
+
 | Primitive                 | C++ Standard      | Use Case                 | Reusable |
 | ------------------------- | ----------------- | ------------------------ | -------- |
 | `std::mutex`              | C++11 [§31.4.3.3] | Mutual exclusion         | Yes      |
@@ -816,6 +834,8 @@ Deallocation of the entire pool.
 | `std::barrier`            | C++20 [§31.4.4.5] | Reusable phase barrier   | Yes      |
 | `std::jthread`            | C++20 [§31.4.4.4] | Auto-join + cancellation | N/A      |
 | `thread_local`            | C++11 [§6.7.3]    | Per-thread data          | N/A      |
+
+</div>
 
 ## See Also
 

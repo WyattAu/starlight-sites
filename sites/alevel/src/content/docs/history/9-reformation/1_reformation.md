@@ -37,6 +37,8 @@ indulgence sales, clerical absenteeism, papal corruption, generated resentment.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                    | Dates     | Key Themes                                                       |
 | ------------------------- | --------- | ---------------------------------------------------------------- |
 | Pre-Reformation tensions  | 1450-1517 | Humanism, printing press, Church corruption                      |
@@ -44,6 +46,8 @@ indulgence sales, clerical absenteeism, papal corruption, generated resentment.
 | Spread of Protestantism   | 1520-1560 | Zwingli, Calvin, Henry VIII                                       |
 | Peasants' War and division | 1524-1555 | German Peasants' War, Peace of Augsburg                          |
 | Counter-Reformation       | 1545-1600 | Council of Trent, Jesuits, Catholic renewal                       |
+
+</div>
 
 ## Key Events with Dates and Significance
 

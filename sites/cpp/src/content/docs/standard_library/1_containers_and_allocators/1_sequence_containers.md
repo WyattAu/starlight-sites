@@ -187,6 +187,8 @@ Reallocation-triggering operation becomes **undefined behavior** if dereferenced
 
 The invalidation rules for `std::vector` [N4950 §22.3.11.5 Table 80]:
 
+<div class="table-wrap">
+
 | Operation                | Iterator                                | Pointer         | Reference       |
 | ------------------------ | --------------------------------------- | --------------- | --------------- |
 | `push_back` (no realloc) | valid                                   | valid           | valid           |
@@ -198,6 +200,8 @@ The invalidation rules for `std::vector` [N4950 §22.3.11.5 Table 80]:
 | `reserve` (realloc)      | **invalidated**                         | **invalidated** | **invalidated** |
 | `resize` (grow, realloc) | **invalidated**                         | **invalidated** | **invalidated** |
 | `swap`                   | valid (refers to exchanged elements)    | valid           | valid           |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -321,6 +325,8 @@ Memory overhead per element.
 
 Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 Table 77]:
 
+<div class="table-wrap">
+
 | Operation                  | Iterator                                     | Pointer | Reference |
 | -------------------------- | -------------------------------------------- | ------- | --------- |
 | `push_back` / `push_front` | valid                                        | valid   | valid     |
@@ -328,6 +334,8 @@ Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 
 | `insert` in middle         | **all invalidated**                          | valid   | valid     |
 | `erase` at front/back      | only erased element invalidated              | valid   | valid     |
 | `erase` in middle          | **all invalidated**                          | valid   | valid     |
+
+</div>
 
 Note: pointers and references to elements are **never invalidated** by insertion or erasure in
 `std::deque` (unless the element itself is erased), unlike iterators.
@@ -442,6 +450,8 @@ Key properties:
 
 ### Choosing Between Sequence Containers
 
+<div class="table-wrap">
+
 | Criterion             | `vector`                 | `deque`                   | `list`                       | `array`            |
 | --------------------- | ------------------------ | ------------------------- | ---------------------------- | ------------------ |
 | Random access         | $O(1)$                   | $O(1)$ (higher constant)  | $O(n)$                       | $O(1)$             |
@@ -454,6 +464,8 @@ Key properties:
 | Stable addresses      | No                       | No                        | Yes                          | Yes (stack/static) |
 | Heap allocation       | Yes (for elements)       | Yes (for blocks + map)    | Yes (per node)               | No                 |
 | Size                  | Dynamic                  | Dynamic                   | Dynamic                      | Fixed at compile   |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -704,12 +716,16 @@ Arguments.
 
 These three operations serve different purposes and are frequently confused:
 
+<div class="table-wrap">
+
 | Operation         | Effect                                             | Changes size? |    Changes capacity?     |
 | ----------------- | -------------------------------------------------- | :-----------: | :----------------------: |
 | `resize(n)`       | Sets `size()` to `n`; default-constructs or erases |      Yes      | If `n` &gt; `capacity()` |
 | `reserve(n)`      | Sets `capacity()` to at least `n`                  |      No       |           Yes            |
 | `assign(n, v)`    | Replaces contents with `n` copies of `v`           |      Yes      |        As needed         |
 | `shrink_to_fit()` | Non-binding request to set `capacity() == size()`  |      No       |          Maybe           |
+
+</div>
 
 ```cpp
 #include <vector>

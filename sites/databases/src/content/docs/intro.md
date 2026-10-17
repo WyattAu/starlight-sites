@@ -65,6 +65,8 @@ graph TB
 
 The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum of trade-offs:
 
+<div class="table-wrap">
+
 | Dimension          | Relational                         | NoSQL                                         |
 | ------------------ | ---------------------------------- | --------------------------------------------- |
 | Data model         | Rows and columns, fixed schema     | Documents, key-value, graphs, column families |
@@ -73,6 +75,8 @@ The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum o
 | Scaling            | Vertical first, then read replicas | Horizontal by design                          |
 | Schema flexibility | Rigid, migrations required         | Flexible, schemaless or schema-on-read        |
 | Joins              | First-class, optimised             | Limited or unsupported                        |
+
+</div>
 
 **Choose relational when:** your data has strong relationships, you need complex queries and joins,
 ACID transactions are non-negotiable, or your team knows SQL well.
@@ -83,6 +87,8 @@ Write throughput.
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Topic                   | Focus                                                         |
 | ----------------------- | ------------------------------------------------------------- |
 | Relational Theory       | Codd's model, normalisation, functional dependencies, keys    |
@@ -91,6 +97,8 @@ Write throughput.
 | Transactions            | ACID, isolation levels, locking, MVCC, deadlocks              |
 | NoSQL                   | Document stores, key-value, column families, graph, CAP       |
 | Database Design         | ER modelling, partitioning, sharding, replication, migrations |
+
+</div>
 
 ## Core Principles
 

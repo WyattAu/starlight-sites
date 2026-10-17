@@ -22,6 +22,8 @@ Network traffic based on an organization's security policies.
 
 ### Firewall Types
 
+<div class="table-wrap">
+
 | Type                   | OSI Layer    | Inspection Depth                       | Example                              |
 | ---------------------- | ------------ | -------------------------------------- | ------------------------------------ |
 | Packet filtering       | L3 (Network) | Source/destination IP, port, protocol  | iptables, nftables, PF               |
@@ -29,6 +31,8 @@ Network traffic based on an organization's security policies.
 | Application-layer      | L7           | Application protocol content           | ModSecurity, AWS WAF                 |
 | Next-generation (NGFW) | L3-L7        | All of the above + IPS, TLS inspection | Palo Alto, Fortinet, pfSense         |
 | Web Application (WAF)  | L7           | HTTP/HTTPS request/response            | Cloudflare WAF, AWS WAF, ModSecurity |
+
+</div>
 
 ### Stateful Inspection
 
@@ -67,6 +71,8 @@ Validation).
 
 **WAF rules target specific attack patterns:**
 
+<div class="table-wrap">
+
 | Attack Type      | WAF Detection Pattern                       |
 | ---------------- | ------------------------------------------- |
 | SQL injection    | `' OR``UNION SELECT``--``; DROP`            |
@@ -74,6 +80,8 @@ Validation).
 | Path traversal   | `../``%2e%2e%2f``..%2f`                     |
 | Remote code exec | `eval(``exec(``system(``cmd=`               |
 | SSRF             | `169.254.169.254``metadata.google.internal` |
+
+</div>
 
 **WAF limitations:**
 
@@ -150,6 +158,8 @@ graph LR
 
 **DMZ firewall rules:**
 
+<div class="table-wrap">
+
 | Direction            | Rule                             |
 | -------------------- | -------------------------------- |
 | Internet to DMZ      | Allow specific ports (80, 443)   |
@@ -159,10 +169,14 @@ graph LR
 | Internal to Internet | Allow outbound (proxy/NAT)       |
 | Internet to Internal | Deny all                         |
 
+</div>
+
 #### Microsegmentation
 
 Microsegmentation applies security policies at the workload level (container, VM, process) rather
 than the network level. It is the network-level implementation of zero trust.
+
+<div class="table-wrap">
 
 | Technology               | Environment    | Mechanism                     |
 | ------------------------ | -------------- | ----------------------------- |
@@ -171,6 +185,8 @@ than the network level. It is the network-level implementation of zero trust.
 | Calico                   | Kubernetes     | eBPF-based network policy     |
 | VMware NSX               | Virtualization | VM-level microsegmentation    |
 | AWS Security Groups      | Cloud          | ENI-level rules               |
+
+</div>
 
 ```yaml
 # Kubernetes NetworkPolicy: deny all ingress to database, allow only from app pod
@@ -202,12 +218,16 @@ Remote hosts and a private network.
 
 ### VPN Protocols
 
+<div class="table-wrap">
+
 | Protocol  | Encryption        | Speed     | Audit Status            | Key Feature                         |
 | --------- | ----------------- | --------- | ----------------------- | ----------------------------------- |
 | WireGuard | ChaCha20-Poly1305 | Very fast | Small, audited codebase | Modern, minimal, kernel-integrated  |
 | IPsec     | AES-GCM, IKEv2    | Fast      | Mature, complex         | Suite of protocols, OS-native       |
 | OpenVPN   | AES-256-GCM       | Moderate  | Mature, audited         | Flexible, TLS-based                 |
 | SSTP      | TLS 1.2+          | Moderate  | Microsoft               | Windows-native, traverses firewalls |
+
+</div>
 
 ### WireGuard
 
@@ -276,6 +296,8 @@ conn site-to-site
 
 ### IDS vs IPS
 
+<div class="table-wrap">
+
 | Aspect     | IDS (Detection)               | IPS (Prevention)                       |
 | ---------- | ----------------------------- | -------------------------------------- |
 | Action     | Alerts on suspicious activity | Actively blocks suspicious traffic     |
@@ -283,7 +305,11 @@ conn site-to-site
 | Risk       | Low (no traffic impact)       | Higher (false positives block traffic) |
 | Visibility | Full traffic visibility       | May miss encrypted traffic             |
 
+</div>
+
 ### Detection Methods
+
+<div class="table-wrap">
 
 | Method          | How It Works                                    | Strengths                | Weaknesses                  |
 | --------------- | ----------------------------------------------- | ------------------------ | --------------------------- |
@@ -291,6 +317,8 @@ conn site-to-site
 | Anomaly-based   | Establishes baseline, flags deviations          | Detects unknown attacks  | High false positive rate    |
 | Heuristic-based | Analyzes protocol behavior and traffic patterns | Good at protocol attacks | Requires tuning             |
 | Behavior-based  | Monitors system/process behavior                | Detects lateral movement | Complex to configure        |
+
+</div>
 
 ### Snort / Suricata
 
@@ -362,6 +390,8 @@ graph TD
 
 **Components:**
 
+<div class="table-wrap">
+
 | Component                | Purpose                                   | Implementation                   |
 | ------------------------ | ----------------------------------------- | -------------------------------- |
 | Identity Provider        | Centralized authentication + device trust | Okta, Azure AD, Keycloak         |
@@ -369,6 +399,8 @@ graph TD
 | Policy Enforcement Point | Enforce decisions at the resource         | Envoy, service mesh, API gateway |
 | Access Proxy             | Per-application secure access             | BeyondCorp Enterprise, Tailscale |
 | Device Trust             | Evaluate device health and compliance     | MDM, certificates, posture       |
+
+</div>
 
 ### Tailscale as Zero Trust
 
@@ -403,12 +435,16 @@ Tailscale is a WireGuard-based mesh VPN that implements zero trust principles:
 DNSSEC (Domain Name System Security Extensions) adds cryptographic signatures to DNS records,
 Enabling DNS response authentication. It prevents DNS cache poisoning and spoofing.
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                                 |
 | ----------- | ------------------------------------------------------- |
 | DNSKEY      | Public key for the zone                                 |
 | RRSIG       | Signature over a record set (RRset)                     |
 | DS          | Delegation signer, links child zone to parent          |
 | NSEC/NSEC3  | Proves non-existence of a record (authenticated denial) |
+
+</div>
 
 **Chain of trust:**
 
@@ -421,10 +457,14 @@ Root Zone (trust anchor)
 
 ### DNS over HTTPS (DoH) and DNS over TLS (DoT)
 
+<div class="table-wrap">
+
 | Protocol | Port | Encryption | Standard |
 | -------- | ---- | ---------- | -------- |
 | DoH      | 443  | HTTPS      | RFC 8484 |
 | DoT      | 853  | TLS        | RFC 7858 |
+
+</div>
 
 Both encrypt DNS queries between the client and the resolver, preventing eavesdropping and
 Manipulation of DNS responses in transit. They do not encrypt queries between the resolver and the
@@ -440,11 +480,15 @@ Understand the privacy policy of any third-party resolver.
 
 These three standards work together to prevent email spoofing and phishing.
 
+<div class="table-wrap">
+
 | Standard | Full Name                    | Purpose                                              |
 | -------- | ---------------------------- | ---------------------------------------------------- |
 | SPF      | Sender Policy Framework      | Authorizes which mail servers can send from a domain |
 | DKIM     | DomainKeys Identified Mail   | Cryptographically signs outgoing email               |
 | DMARC    | Domain-based Message Auth... | Policy for handling unauthenticated email            |
+
+</div>
 
 **SPF record:**
 
@@ -466,13 +510,19 @@ selector._domainkey.example.com. IN TXT (
 _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pct=100"
 ```
 
+<div class="table-wrap">
+
 | DMARC Policy | Action                            |
 | ------------ | --------------------------------- |
 | `none`       | Monitor only, deliver all mail    |
 | `quarantine` | Send unauthenticated mail to spam |
 | `reject`     | Reject unauthenticated mail       |
 
+</div>
+
 ### Email Encryption
+
+<div class="table-wrap">
 
 | Protocol       | Purpose                            | Standard |
 | -------------- | ---------------------------------- | -------- |
@@ -480,12 +530,16 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 | S/MIME         | End-to-end encryption + signing    | RFC 5751 |
 | PGP/GPG        | End-to-end encryption + signing    | RFC 4880 |
 
+</div>
+
 ## Network Monitoring and SIEM
 
 ### Security Information and Event Management (SIEM)
 
 A SIEM system collects, aggregates, and correlates security events from across the infrastructure to
 Detect threats, investigate incidents, and demonstrate compliance.
+
+<div class="table-wrap">
 
 | SIEM Component | Function                                                     |
 | -------------- | ------------------------------------------------------------ |
@@ -497,7 +551,11 @@ Detect threats, investigate incidents, and demonstrate compliance.
 | Investigation  | Provide search, visualization, and timeline tools            |
 | Reporting      | Generate compliance and operational reports                  |
 
+</div>
+
 ### SIEM Tools
+
+<div class="table-wrap">
 
 | Tool                   | Deployment         | Best For                            |
 | ---------------------- | ------------------ | ----------------------------------- |
@@ -508,9 +566,13 @@ Detect threats, investigate incidents, and demonstrate compliance.
 | Wazuh                  | Self-hosted        | Open source, compliance-focused     |
 | Graylog                | Self-hosted        | Open source, simpler setup          |
 
+</div>
+
 ### Log Sources
 
 Every security-relevant system should feed into the SIEM:
+
+<div class="table-wrap">
 
 | Source                 | Events                                            |
 | ---------------------- | ------------------------------------------------- |
@@ -522,6 +584,8 @@ Every security-relevant system should feed into the SIEM:
 | Cloud audit logs       | AWS CloudTrail, Azure Activity Log, GCP Audit     |
 | Network IDS/IPS        | Alerts, blocked connections                       |
 | Email gateway          | SMTP logs, spam/phishing detections               |
+
+</div>
 
 ### Key Metrics
 
@@ -562,11 +626,15 @@ Man-in-the-middle attacks even if a CA is compromised.
 
 ### Pinning Methods
 
+<div class="table-wrap">
+
 | Method              | Granularity     | Flexibility | Security |
 | ------------------- | --------------- | ----------- | -------- |
 | Public key pinning  | Per key         | Low         | High     |
 | Certificate pinning | Per certificate | Very low    | High     |
 | CA pinning          | Per CA          | Medium      | Medium   |
+
+</div>
 
 ### HTTP Public Key Pinning (HPKP), Deprecated
 
@@ -594,13 +662,19 @@ curl "https://crt.sh/?q=example.com&output=json"
 
 ### DDoS Attack Types
 
+<div class="table-wrap">
+
 | Type              | Target            | Method                                   |
 | ----------------- | ----------------- | ---------------------------------------- |
 | Volumetric        | Bandwidth         | UDP flood, ICMP flood, DNS amplification |
 | Protocol          | Server resources  | SYN flood, Ping of Death, Smurf          |
 | Application Layer | Application logic | HTTP flood, Slowloris, API abuse         |
 
+</div>
+
 ### Mitigation Strategies
+
+<div class="table-wrap">
 
 | Layer        | Strategy                                         | Tool/Service                   |
 | ------------ | ------------------------------------------------ | ------------------------------ |
@@ -608,6 +682,8 @@ curl "https://crt.sh/?q=example.com&output=json"
 | Transport    | SYN cookies, connection rate limiting            | iptables, nginx, HAProxy       |
 | Application  | Rate limiting, CAPTCHA, challenge pages          | Cloudflare, reCAPTCHA          |
 | Architecture | Auto-scaling, CDN, caching                       | Cloud load balancers, Varnish  |
+
+</div>
 
 ```bash
 # SYN flood protection (sysctl)
@@ -625,12 +701,16 @@ iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -m limit --limit
 Amplification attacks exploit services that return large responses to small requests. The attacker
 Spoofs the victim's IP as the source, and the reflector sends a large response to the victim.
 
+<div class="table-wrap">
+
 | Protocol  | Amplification Factor |
 | --------- | -------------------- |
 | DNS       | 28-54x               |
 | NTP       | 556x                 |
 | Memcached | 51,000x              |
 | SSDP      | 30x                  |
+
+</div>
 
 Prevention: Disable open resolvers/reflectors, implement BCP 38 (ingress filtering) to block spoofed
 Source addresses at network edges.
@@ -749,11 +829,15 @@ AllowTcpForwarding no
 802.1X provides port-based network access control. Devices must authenticate before gaining access
 to the network.
 
+<div class="table-wrap">
+
 | Component             | Role                                 |
 | --------------------- | ------------------------------------ |
 | Supplicant            | The device requesting network access |
 | Authenticator         | The switch or wireless access point  |
 | Authentication Server | RADIUS server (FreeRADIUS, ISE)      |
+
+</div>
 
 ```bash
 # FreeRADIUS client configuration (on the switch/AP)
@@ -765,6 +849,8 @@ to the network.
 
 ### Common Security-Related Network Issues
 
+<div class="table-wrap">
+
 | Symptom                         | Possible Cause                           | Diagnostic Command                   |
 | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | Intermittent connection drops   | Firewall rate limiting, IDS alert        | `tcpdump -i eth0 -nn host target`    |
@@ -772,6 +858,8 @@ to the network.
 | TLS handshake failures          | Certificate expired, cipher mismatch     | `openssl s_client -connect host:443` |
 | Unexpected outbound connections | Malware C2, compromised service          | `ss -tulpn``netstat -an`             |
 | High latency on specific routes | BGP hijacking, route leaks               | `traceroute``mtr`BGP looking glass   |
+
+</div>
 
 ### Network Forensics
 
@@ -805,6 +893,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 # Look for high entropy subdomains (indicative of DGA or DNS tunneling)
 ```
 
+<div class="table-wrap">
+
 | DNS Anomaly                  | Possible Cause                            | Detection Method               |
 | ---------------------------- | ----------------------------------------- | ------------------------------ |
 | High volume to single domain | DNS tunneling for data exfiltration       | Query volume per domain        |
@@ -812,6 +902,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | NXDOMAIN burst               | DGA malware, recon scanning               | NXDOMAIN response rate         |
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
+
+</div>
 :::
 
 :::note

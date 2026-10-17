@@ -42,6 +42,8 @@ Properties.
 
 ### Functional Groups (OL/HL)
 
+<div class="table-wrap">
+
 | Functional group   | Name            | Example                       |
 | ------------------ | --------------- | ----------------------------- |
 | C--C               | Alkane          | $\mathrm{CH_3\mathrm{CH_3$    |
@@ -54,6 +56,8 @@ Properties.
 | --COX (X = Cl, Br) | Acyl halide     | $\mathrm{CH_3\mathrm{COCl$    |
 | --NH$_2$           | Amine           | $\mathrm{CH_3\mathrm{NH_2$    |
 | --CO--NH--         | Amide           | $\mathrm{CH_3\mathrm{CONH_2$  |
+
+</div>
 
 ### IUPAC Nomenclature (OL/HL)
 
@@ -453,11 +457,15 @@ Placing the positive charge on the more substituted (more stable) carbon.
 
 ### Classification Recap
 
+<div class="table-wrap">
+
 | Type      | Structure                    | Example              |
 | --------- | ---------------------------- | -------------------- |
 | Primary   | R-$\mathrm{CH_2\mathrm{OH$   | Ethanol, propan-1-ol |
 | Secondary | $\mathrm{R_2$-$\mathrm{CHOH$ | Propan-2-ol          |
 | Tertiary  | $\mathrm{R_3$-$\mathrm{COH$  | 2-methylpropan-2-ol  |
+
+</div>
 
 ### Oxidation: Detailed Conditions
 
@@ -563,6 +571,8 @@ is stabilised by resonance delocalisation of the negative charge over two oxygen
 
 ### Reactions of Carboxylic Acids
 
+<div class="table-wrap">
+
 | Reagent                             | Product                                                  | Type           |
 | ----------------------------------- | -------------------------------------------------------- | -------------- |
 | $\mathrm{NaOH$                      | Carboxylate salt + water                                 | Neutralisation |
@@ -570,6 +580,8 @@ is stabilised by resonance delocalisation of the negative charge over two oxygen
 | $\mathrm{Na_2\mathrm{CO_3$          | Carboxylate salt + $\mathrm{CO_2 + \mathrm{H_2\mathrm{O$ | Acid-base      |
 | Alcohol + $\mathrm{H_2\mathrm{SO_4$ | Ester + water                                            | Esterification |
 | $\mathrm{LiAlH_4$                   | Primary alcohol                                          | Reduction      |
+
+</div>
 
 ---
 
@@ -703,6 +715,8 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 
 ## Summary Table: Key Organic Reactions
 
+<div class="table-wrap">
+
 | Reactant                  | Reagent                             | Product               | Reaction type          |
 | ------------------------- | ----------------------------------- | --------------------- | ---------------------- |
 | Alkene                    | $\mathrm{Br_2$                      | Dibromoalkane         | Electrophilic addition |
@@ -716,6 +730,8 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 | Aldehyde                  | Tollens'                            | Silver mirror         | Oxidation (test)       |
 | Aldehyde                  | $\mathrm{NaBH_4$                    | Primary alcohol       | Reduction              |
 | Ketone                    | $\mathrm{NaBH_4$                    | Secondary alcohol     | Reduction              |
+
+</div>
 
 ---
 
@@ -824,12 +840,16 @@ Polymers derived from renewable resources that can be broken down by microorgani
 
 ### Problems with Conventional Polymers
 
+<div class="table-wrap">
+
 | Issue              | Explanation                                  |
 | ------------------ | -------------------------------------------- |
 | Non-biodegradable  | Persist in landfill for centuries            |
 | Microplastics      | Break into tiny particles, pollute oceans    |
 | Incineration       | Can release toxic gases (e.g., HCl from PVC) |
 | Resource depletion | Made from petroleum (non-renewable)          |
+
+</div>
 
 ---
 

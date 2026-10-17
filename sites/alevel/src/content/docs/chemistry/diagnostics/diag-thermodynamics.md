@@ -30,6 +30,8 @@ tableOfContents: false
 Construct a Born-Haber cycle for magnesium oxide ($\text{MgO}$) and calculate the lattice energy.
 Use the following data:
 
+<div class="table-wrap">
+
 | Quantity                                               | Value / $\text{kJ mol}^{-1}$ |
 | ------------------------------------------------------ | ---------------------------- |
 | Enthalpy of atomisation of Mg                          | $+148$                       |
@@ -39,6 +41,8 @@ Use the following data:
 | First electron affinity of O                           | $-141$                       |
 | Second electron affinity of O                          | $+798$                       |
 | Standard enthalpy of formation of MgO                  | $-602$                       |
+
+</div>
 
 **Solution:**
 
@@ -472,6 +476,8 @@ bonds.
 **Question:** Calculate the lattice energy of $\mathrm{CaF}_2$ using a Born-Haber cycle and the
 following data:
 
+<div class="table-wrap">
+
 | Quantity                                                               | Value (kJ mol$^{-1}$) |
 | ---------------------------------------------------------------------- | --------------------- |
 | $\Delta H_f^\circ(\mathrm{CaF}_2)$                                     | $-1220$               |
@@ -480,6 +486,8 @@ following data:
 | First IE of Ca                                                         | $+590$                |
 | Second IE of Ca                                                        | $+1145$               |
 | Electron affinity of F                                                 | $-328$                |
+
+</div>
 
 **Solution:**
 

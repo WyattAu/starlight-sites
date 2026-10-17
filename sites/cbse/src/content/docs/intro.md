@@ -52,6 +52,8 @@ undergraduate admissions in India.
 
 These notes cover the following subjects across Classes 9-12:
 
+<div class="table-wrap">
+
 | Subject              | Classes       | Description                                                                  |
 | -------------------- | ------------- | ---------------------------------------------------------------------------- |
 | **Mathematics**      | 9, 10, 11, 12 | Algebra, geometry, trigonometry, calculus, statistics, and probability       |
@@ -61,9 +63,13 @@ These notes cover the following subjects across Classes 9-12:
 | **Computer Science** | 11, 12        | Programming (Python/C++), data structures, databases, networking             |
 | **English**          | 9, 10, 11, 12 | Reading comprehension, writing skills, grammar, literature (Flamingo/Vistas) |
 
+</div>
+
 ## Exam Pattern
 
 ### Class 10 Board Exam
+
+<div class="table-wrap">
 
 | Component             | Marks   | Details                                       |
 | --------------------- | ------- | --------------------------------------------- |
@@ -71,17 +77,23 @@ These notes cover the following subjects across Classes 9-12:
 | Board Examination     | 80      | Written theory paper per subject              |
 | **Total per subject** | **100** |                                               |
 
+</div>
+
 The board examination is conducted at the end of Class 10. Each subject paper is in most cases **3
 hours** long and carries **80 marks**. The remaining **20 marks** are awarded through internal
 assessment components.
 
 ### Class 12 Board Exam
 
+<div class="table-wrap">
+
 | Component             | Marks   | Details                              |
 | --------------------- | ------- | ------------------------------------ |
 | Internal Assessment   | 20      | Practical exams, projects, viva voce |
 | Board Examination     | 80      | Written theory paper per subject     |
 | **Total per subject** | **100** |                                      |
+
+</div>
 
 For Science stream subjects (Physics, Chemistry, Biology), the practical component includes
 laboratory experiments and record books. For Computer Science, practicals include programming
@@ -105,6 +117,8 @@ Internal choices are provided within some questions.
 
 CBSE uses a **nine-point grading scale**:
 
+<div class="table-wrap">
+
 | Grade | Marks Range (out of 100) | Description       |
 | ----- | ------------------------ | ----------------- |
 | A1    | 91-100                   | Outstanding       |
@@ -116,6 +130,8 @@ CBSE uses a **nine-point grading scale**:
 | D     | 33-40                    | Below Average     |
 | E1    | 21-32                    | Needs Improvement |
 | E2    | 00-20                    | Needs Improvement |
+
+</div>
 
 A student must obtain a minimum of **Grade D** (33% in each subject) to pass.
 

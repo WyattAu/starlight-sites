@@ -1094,13 +1094,63 @@ body {
 }
 
 /* === Table Styling === */
+.sl-markdown-content .table-wrap,
 .sl-markdown-content .table-wrapper,
 .sl-markdown-content .wn-table-wrapper,
 .sl-markdown-content div:has(> table) {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   margin: 1.5rem 0;
+  /* `max-width: 100%` is not a cap: a flex or grid child defaults to
+     `min-width: auto`, which refuses to shrink below its content's intrinsic
+     width. A wide table then stretches the wrapper past the reading column and
+     the overflow escapes to the document, where the whole page -- header,
+     sidebar and prose together -- slides sideways on a phone. `min-width: 0`
+     is what actually lets the box shrink so `overflow-x` can do its job. */
   max-width: 100%;
+  min-width: 0;
+}
+
+/* Tables inside a collapsed answer block lose their wrapper's scroll container
+   when the wrapper is a sibling rather than a parent, so re-establish it for
+   any table that is not already inside a scrolling ancestor. */
+.sl-markdown-content table {
+  display: table;
+}
+
+/* The default for a div is `display: block`, which is a block *box*: it is
+   never a flex or grid item, so `min-width: auto` does not apply to it and
+   `min-width: 0` changes nothing. The tables were losing their wrapper entirely
+   -- measured at 650px inside a 326px `.sl-markdown-content` with
+   `overflow-x: visible` -- so the scroll container the markdown asked for was
+   not in the DOM at all.
+
+   `div:has(> table)` only matches a div whose *direct* child is the table. An
+   MDX/JSX wrapper is a sibling of the table, not its parent, so it did not
+   match and nothing scrolled.
+
+   Marking the div a flex item re-enables `min-width: auto`, so `min-width: 0`
+   becomes meaningful and the div shrinks to the reading column; `overflow-x`
+   then clips and the table scrolls inside it. That is the same two declarations
+   as above, applied by attribute selector rather than by class, so it reaches
+   the wrappers the classes do not. */
+.sl-markdown-content div:has(> table) {
+  display: flex;
+}
+
+/* A display formula wider than the reading column overflowed the document too,
+   for the same reason: KaTeX sets `white-space: nowrap` on its base, so a long
+   equation has a large intrinsic width and nothing was clipping it. The fix is
+   the same shape -- let the element shrink, and clip within it -- applied to
+   the rendered KaTeX display math rather than to its source. */
+.sl-markdown-content .katex-display {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* Keep the vertical padding KaTeX adds for fractions from being clipped. */
+  padding-block: 0.15rem;
 }
 
 .sl-markdown-content table {

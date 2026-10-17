@@ -178,12 +178,16 @@ Conditions.
 
 ### Types of Radiation
 
+<div class="table-wrap">
+
 | Type       | Symbol                          | Charge | Mass (u) | Penetrating Power | Ionising Power | Stopped By            |
 | :--------- | :------------------------------ | :----- | :------- | :---------------- | :------------- | :-------------------- |
 | Alpha      | $\alpha$ ($^4_2\mathrm{He}$)    | +2e    | 4        | Low               | High           | Paper / few cm of air |
 | Beta-minus | $\beta^-$ ($^0_{-1}\mathrm{e}$) | -1e    | ~0       | Medium            | Medium         | Few mm of aluminium   |
 | Beta-plus  | $\beta^+$ ($^0_{+1}\mathrm{e}$) | +1e    | ~0       | Medium            | Medium         | Few mm of aluminium   |
 | Gamma      | $\gamma$                        | 0      | 0        | High              | Low            | Several cm of lead    |
+
+</div>
 
 ### Decay Equations
 
@@ -235,6 +239,8 @@ $$
 \frac{N}{N_0} = \left(\frac{1}{2}\right)^n
 $$
 
+<div class="table-wrap">
+
 | Half-lives elapsed | Fraction remaining | Percentage remaining |
 | :----------------- | :----------------- | :------------------- |
 | 0                  | 1                  | 100%                 |
@@ -242,6 +248,8 @@ $$
 | 2                  | 1/4                | 25%                  |
 | 3                  | 1/8                | 12.5%                |
 | 4                  | 1/16               | 6.25%                |
+
+</div>
 
 ### Activity
 
@@ -365,6 +373,8 @@ $$
 
 ### Fission vs Fusion
 
+<div class="table-wrap">
+
 | Feature        | Fission                                  | Fusion                                          |
 | :------------- | :--------------------------------------- | :---------------------------------------------- |
 | Process        | Heavy nucleus splits into lighter nuclei | Light nuclei combine to form a heavier nucleus  |
@@ -373,6 +383,8 @@ $$
 | By-products    | Radioactive waste                        | Helium (non-radioactive)                        |
 | Conditions     | Neutron bombardment                      | Extreme temperature ($\sim 10^8$ K) and density |
 | Chain reaction | Yes (self-sustaining with critical mass) | No (requires continuous conditions)             |
+
+</div>
 
 ---
 
@@ -417,6 +429,8 @@ Where:
 
 **Work function values:**
 
+<div class="table-wrap">
+
 | Metal    | $\Phi$ (eV) |
 | :------- | :---------- |
 | Cesium   | 2.1         |
@@ -424,6 +438,8 @@ Where:
 | Zinc     | 4.3         |
 | Copper   | 4.7         |
 | Platinum | 5.6         |
+
+</div>
 
 ### Why Classical Wave Theory Fails
 
@@ -482,11 +498,15 @@ $$
 
 Transitions ending at a particular level produce a series of spectral lines:
 
+<div class="table-wrap">
+
 | Series  | Final level ($n_f$) | Region of Spectrum |
 | :------ | :------------------ | :----------------- |
 | Lyman   | 1                   | Ultraviolet        |
 | Balmer  | 2                   | Visible            |
 | Paschen | 3                   | Infrared           |
+
+</div>
 
 ### Worked Example: Energy Levels
 

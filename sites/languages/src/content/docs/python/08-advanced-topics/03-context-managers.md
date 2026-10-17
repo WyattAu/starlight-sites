@@ -89,11 +89,15 @@ with Resource("db_connection") as r:
 
 ### \_\_exit\_\_ Parameters
 
+<div class="table-wrap">
+
 | Parameter  | Description                                |
 | ---------- | ------------------------------------------ |
 | `exc_type` | Exception class, or `None` if no exception |
 | `exc_val`  | Exception instance, or `None`              |
 | `exc_tb`   | Traceback object, or `None`                |
+
+</div>
 
 All three are `None` when the block exits normally. When an exception occurs, they contain the
 Exception details.

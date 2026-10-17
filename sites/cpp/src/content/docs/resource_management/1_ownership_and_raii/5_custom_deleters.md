@@ -267,11 +267,15 @@ int main() {
 
 **Rules for lambda deleters:**
 
+<div class="table-wrap">
+
 | Capture Mode         | Stateless? | `sizeof` Overhead                    | Safe?                                                    |
 | :------------------- | :--------- | :----------------------------------- | :------------------------------------------------------- |
 | No captures          | Yes        | 0 bytes                              | Yes                                                      |
 | Capture by value     | No         | `sizeof(captured values)`            | Yes (copies are owned)                                   |
 | Capture by reference | No         | 0 bytes (reference is pointer-sized) | **Dangerous:** dangling reference if referent dies first |
+
+</div>
 
 :::caution
 Outlive the `unique_ptr`. Since the deleter runs in the `unique_ptr` destructor, which runs when the
@@ -377,6 +381,8 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Deleter Type                    | Overhead (x86_64) | Notes                    |
 | ------------------------------- | ----------------- | ------------------------ |
 | Default (`std::default_delete`) | 0 bytes           | EBO                      |
@@ -385,6 +391,8 @@ int main() {
 | Function pointer                | 8 bytes           | Stored inline            |
 | Lambda (no capture)             | 0 bytes           | Stateless, EBO applies   |
 | Lambda (captures)               | Size of captures  | Stored inline            |
+
+</div>
 
 :::tip
 Must carry state, consider whether `std::shared_ptr` with a capturing lambda is more appropriate,
@@ -632,6 +640,8 @@ struct ControlBlockImpl : ControlBlockBase {
 
 ## 5.11 Custom Deleters: `unique_ptr` vs `shared_ptr` Trade-offs
 
+<div class="table-wrap">
+
 | Aspect                     | `unique_ptr&lt;T, D&gt;`                               | `shared_ptr&lt;T&gt;`              |
 | :------------------------- | :----------------------------------------------------- | :--------------------------------- |
 | Deleter storage            | Inline (part of the type)                              | Type-erased in control block       |
@@ -641,6 +651,8 @@ struct ControlBlockImpl : ControlBlockBase {
 | Can share ownership        | No                                                     | Yes                                |
 | Deleter swappable          | No (type is fixed)                                     | Yes (via `reset` with new deleter) |
 | Type identity              | `unique_ptr&lt;T, D1&gt;` != `unique_ptr&lt;T, D2&gt;` | Same `shared_ptr&lt;T&gt;` type    |
+
+</div>
 
 **Guidelines:**
 
@@ -687,10 +699,14 @@ int main() {
 `std::default_delete` is the default deleter for `unique_ptr`. It has two partial specializations
 [N4950 S20.11.1.2]:
 
+<div class="table-wrap">
+
 | Specialization              | Behavior             |
 | :-------------------------- | :------------------- |
 | `default_delete&lt;T&gt;`   | Calls `delete ptr`   |
 | `default_delete&lt;T[]&gt;` | Calls `delete[] ptr` |
+
+</div>
 
 The array specialization is automatically selected when `unique_ptr` is instantiated with an array
 Type:
@@ -765,11 +781,15 @@ flowchart TD
 
 ## Summary
 
+<div class="table-wrap">
+
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |
 | :----------------- | :------------------- | :------------ | :-------------------------- | :------------------- |
 | Exclusive          | `std::unique_ptr<T>` | 8 bytes       | Move-only                   | N/A (single owner)   |
 | Shared             | `std::shared_ptr<T>` | 16 bytes      | Copyable                    | Yes (atomic)         |
 | Non-owning observe | `std::weak_ptr<T>`   | 16 bytes      | Not directly dereferencable | N/A                  |
+
+</div>
 
 The hierarchy of preference is clear: `unique_ptr` first, `shared_ptr` when genuinely needed, raw
 Pointers only for non-owning observation, and `weak_ptr` specifically to break `shared_ptr` cycles.

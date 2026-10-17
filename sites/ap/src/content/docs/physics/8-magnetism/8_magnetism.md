@@ -443,12 +443,16 @@ $$
 
 The four Maxwell's equations unify electricity and magnetism:
 
+<div class="table-wrap">
+
 | Equation                    | Law                                                           | Integral Form                                                                             |
 | --------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Gauss's Law for Electricity | Electric charges produce electric fields                      | $\oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{\text{enc}}{\epsilon_0}$                        |
 | Gauss's Law for Magnetism   | No magnetic monopoles                                         | $\oint \vec{B} \cdot d\vec{A} = 0$                                                        |
 | Faraday's Law               | Changing magnetic fields produce electric fields              | $\oint \vec{E} \cdot d\vec{l} = -\dfrac{d\Phi_B}{dt}$                                     |
 | Ampere-Maxwell Law          | Currents and changing electric fields produce magnetic fields | $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc} + \mu_0\epsilon_0\dfrac{d\Phi_E}{dt}$ |
+
+</div>
 
 ### The Displacement Current
 

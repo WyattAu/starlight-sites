@@ -40,11 +40,15 @@ Developing if the gains accrue to a small elite.
 
 **Key distinction:**
 
+<div class="table-wrap">
+
 |              | Economic Growth          | Economic Development                              |
 | ------------ | ------------------------ | ------------------------------------------------- |
 | **Measures** | GDP, GNI, GDP per capita | HDI, poverty rates, inequality, health, education |
 | **Focus**    | Quantity of output       | Quality of life                                   |
 | **Scope**    | Narrow (market output)   | Broad (well-being, institutions, freedoms)        |
+
+</div>
 
 :::caution
 Per capita (driven by oil) but low HDI (0.59) due to extreme inequality. Conversely, Costa Rica has
@@ -66,12 +70,16 @@ $$
 **GNI per capita**, GDP plus net income from abroad (remittances, profits from overseas
 Investments). The World Bank uses GNI per capita to classify countries:
 
+<div class="table-wrap">
+
 | Classification | GNI per capita (2024) |
 | -------------- | --------------------- |
 | Low income     | &lt; USD 1,145        |
 | Lower-middle   | USD 1,146 – 4,515     |
 | Upper-middle   | USD 4,516 – 14,005    |
 | High income    | &gt; USD 14,005       |
+
+</div>
 
 ### 2.2 The Human Development Index (HDI)
 
@@ -89,12 +97,16 @@ $$
 0 \leq \mathrm{HDI} \leq 1
 $$
 
+<div class="table-wrap">
+
 | HDI range  | Category              |
 | ---------- | --------------------- |
 | 1.0 – 0.8  | Very high development |
 | 0.8 – 0.7  | High development      |
 | 0.7 – 0.55 | Medium development    |
 | &lt; 0.55  | Low development       |
+
+</div>
 
 ### 2.3 Income Inequality: The Gini Coefficient
 
@@ -112,6 +124,8 @@ $$
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is the area
 under the Lorenz curve.
 
+<div class="table-wrap">
+
 | Country      | Gini (approx.) | Interpretation      |
 | ------------ | -------------- | ------------------- |
 | South Africa | 0.63           | Extreme inequality  |
@@ -121,6 +135,8 @@ under the Lorenz curve.
 | Germany      | 0.31           | Lower inequality    |
 | Japan        | 0.33           | Lower inequality    |
 | Denmark      | 0.28           | Low inequality      |
+
+</div>
 
 ### 2.4 Other Indicators
 
@@ -242,6 +258,8 @@ Demographic dividend (if jobs are created) or a source of instability (if not).
 
 ### 4.5 Other Barriers
 
+<div class="table-wrap">
+
 | Barrier               | Mechanism                                                                          |
 | --------------------- | ---------------------------------------------------------------------------------- |
 | **Debt burden**       | Debt servicing crowds out spending on health, education, and infrastructure        |
@@ -249,6 +267,8 @@ Demographic dividend (if jobs are created) or a source of instability (if not).
 | **Trade barriers**    | Rich-country tariffs and subsidies on agriculture limit developing-country exports |
 | **Disease burden**    | Malaria, HIV/AIDS reduce life expectancy and labour productivity                   |
 | **Gender inequality** | Excluding women from education and work reduces potential output by up to 25%      |
+
+</div>
 
 ## 5. Development Strategies
 

@@ -30,6 +30,8 @@ Every piece of software has a license, even if you did not choose one. Without a
 
 ## Common License Families
 
+<div class="table-wrap">
+
 | License | Type | Key Requirement |
 | --------- | ------ | ----------------- |
 | MIT | Permissive | Include copyright notice |
@@ -38,6 +40,8 @@ Every piece of software has a license, even if you did not choose one. Without a
 | GPL v3 | Copyleft | Derivative works must be GPL |
 | AGPL v3 | Strong Copyleft | Network use triggers copyleft |
 | MPL 2.0 | Weak Copyleft | File-level copyleft |
+
+</div>
 
 ## Why This Matters
 

@@ -471,6 +471,8 @@ $\blacksquare$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Every square matrix is diagonalisable | no | $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ is nilpotent with one eigenvalue and only one eigenvector |
@@ -481,6 +483,8 @@ $\blacksquare$
 | $AB$ and $BA$ have different eigenvalues | no | they have the same characteristic polynomial, even when $A$ and $B$ are rectangular |
 | The spectral theorem holds for all square matrices | no | it needs a normal matrix; symmetric, Hermitian, unitary and orthogonal are the standard special cases |
 | Eigenvalues are continuous in the matrix entries | yes | but eigenvectors need not be, and that failure is what pseudospectra measure |
+
+</div>
 
 The first row is the one to internalise, because everything else on the page is
 organised around it. The question "is this matrix diagonalisable?" is not about

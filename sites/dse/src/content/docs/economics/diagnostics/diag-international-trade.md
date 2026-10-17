@@ -22,10 +22,14 @@ tableOfContents: false
 
 **Question:** Two countries, Hong Kong and Vietnam, can produce the following per worker per day:
 
+<div class="table-wrap">
+
 |           | Electronics (units) | Garments (units) |
 | --------- | ------------------- | ---------------- |
 | Hong Kong | 8                   | 4                |
 | Vietnam   | 2                   | 6                |
+
+</div>
 
 (a) Which country has an absolute advantage in each good? (b) Calculate the opportunity cost of 1
 Unit of electronics in each country. (c) Which country has a comparative advantage in which good?

@@ -328,12 +328,16 @@ Exemptions)
 
 The ELF specification defines four visibility levels:
 
+<div class="table-wrap">
+
 | Visibility  | ELF Constant    | Behavior                                                      |
 | :---------- | :-------------- | :------------------------------------------------------------ |
 | `default`   | `STV_DEFAULT`   | Visible to all DSOs and the executable                        |
 | `hidden`    | `STV_HIDDEN`    | Not visible outside the defining DSO (prevents PLT/GOT entry) |
 | `internal`  | `STV_INTERNAL`  | Like hidden, but also prevents symbol interposition           |
 | `protected` | `STV_PROTECTED` | Visible, but cannot be preempted by other DSOs                |
+
+</div>
 **`-fvisibility=hidden`** sets the default visibility to `STV_HIDDEN` for all external symbols. You
 then opt-in specific symbols with `__attribute__((visibility("default")))`.
 **`STV_INTERNAL`** is a stronger form of hidden. It guarantees that the symbol will always be

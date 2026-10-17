@@ -73,12 +73,16 @@ Sections are marked so you can see how deep a given page goes. A fresh
 undergraduate should read every F and U on a topic, then the A sections of the
 topics they intend to specialise in.
 
+<div class="table-wrap">
+
 | Mark | Meaning |
 | ---- | ------- |
 | **F** Foundation | Definitions and first examples. Assumed later. |
 | **U** Undergraduate | The standard degree-level treatment, with proofs. |
 | **A** Advanced | Graduate-level: the machinery needed for research. |
 | **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
 
 See [How to Use These Notes](/how-to-use/) for the method behind the notes:
 worked examples before problem solving, retrieval practice, spacing and
@@ -115,6 +119,8 @@ Linear Algebra ←────────────────────�
 
 ### Recommended Starting Points
 
+<div class="table-wrap">
+
 | Your Background | Start Here |
 | ---------------- | ------------ |
 | Just finished high school | [Linear Algebra](/2-linear-algebra/), the most broadly applicable subject |
@@ -122,6 +128,8 @@ Linear Algebra ←────────────────────�
 | Interested in algebra | [Abstract Algebra](/1-abstract-algebra/), groups, rings, and fields |
 | Need calculus for physics | [Multivariable Calculus](/4-multivariable-calculus/), practical and immediately useful |
 | Interested in applied maths | [ODEs](/5-ordinary-differential-equations/), the language of dynamical systems |
+
+</div>
 
 ---
 
@@ -268,6 +276,8 @@ Read [How to Use These Notes](/how-to-use/) first. It explains the method these
 pages are built on -- worked examples before problem solving, retrieval
 practice, spacing, and the rigour ladder.
 
+<div class="table-wrap">
+
 | Module | Subject | Builds on | Tier |
 | ------ | ------- | --------- | ---- |
 | [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) | Functional Analysis | Banach and Hilbert spaces, measure theory, real analysis | A |
@@ -276,6 +286,8 @@ practice, spacing, and the rigour ladder.
 | [Posterior Asymptotics and Bernstein-von Mises](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) | Statistics | Probability, measure theory, point estimation | R |
 | [Representation Theory of Finite Groups](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/) | Algebra | Group theory, linear algebra | A-R |
 | [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/) | Geometry | Riemannian geometry, curvature, geodesics, PDE | R |
+
+</div>
 
 Each module carries recall prompts, counterexamples by name, an interleaving
 problem set that reaches into earlier modules, and a section on where the
@@ -417,6 +429,8 @@ Mathematics provides the foundations for physics and applied fields:
 
 Proof-based mathematics requires mastery of several proof strategies. Knowing which technique to reach for is the core skill of mathematical reasoning.
 
+<div class="table-wrap">
+
 | Technique | When to Use | Example |
 | ----------- | ------------- | --------- |
 | Direct proof | Implication P ⇒ Q | "If n is even, then n² is even" |
@@ -425,6 +439,8 @@ Proof-based mathematics requires mastery of several proof strategies. Knowing wh
 | Induction | Statement about natural numbers | Σi = n(n+1)/2 |
 | Construction | Existence proof | "There exist infinitely many primes" |
 | Case analysis | Statement splits into cases | "Every integer is even or odd" |
+
+</div>
 
 ### Tips for Writing Proofs
 

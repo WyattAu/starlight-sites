@@ -35,6 +35,8 @@ They are compile-time constraints, the compiler enforces them, not runtime check
 
 ### The Modifier Matrix
 
+<div class="table-wrap">
+
 | Modifier      | Can be extended (outside lib) | Can be implemented (outside lib) | Can be used as mixin (outside lib) | Can be constructed     |
 | ------------- | ----------------------------- | -------------------------------- | ---------------------------------- | ---------------------- |
 | (none)        | Yes                           | Yes                              | Yes                                | If not abstract        |
@@ -43,6 +45,8 @@ They are compile-time constraints, the compiler enforces them, not runtime check
 | `interface`   | No                            | Yes (only via `implements`)      | No                                 | If not abstract        |
 | `final`       | No                            | No                               | No                                 | If not abstract        |
 | `mixin class` | Via `extends` only            | Yes                              | Yes (with restrictions)            | If not abstract        |
+
+</div>
 
 ### Why They Exist
 
@@ -454,6 +458,8 @@ The constructor is available normally.
 
 ### `mixin class` vs `mixin`
 
+<div class="table-wrap">
+
 | Property              | `mixin`              | `mixin class`                                            |
 | --------------------- | -------------------- | -------------------------------------------------------- |
 | Can be extended       | No (must use `with`) | Yes                                                      |
@@ -461,6 +467,8 @@ The constructor is available normally.
 | Can have constructors | No                   | Yes (but parameterized constructors prevent mixin usage) |
 | Can be instantiated   | No                   | Yes                                                      |
 | Can be abstract       | Yes                  | Yes                                                      |
+
+</div>
 
 **When to use `mixin class`**: When you have behavior that can be used both standalone (as a class)
 And composed (as a mixin). For example, a `Serializable` class that can be used directly or mixed
@@ -492,6 +500,8 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 
 ### Valid Combinations
 
+<div class="table-wrap">
+
 | Combination         | Meaning                                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
 | `sealed interface`  | Cannot be extended or implemented outside. Same-library only, exhaustive switch.                          |
@@ -500,7 +510,11 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `interface mixin`   | Can only be implemented, not extended or used as mixin. Pure contract.                                    |
 | `final mixin class` | Cannot be extended, implemented, or used as mixin outside the library. Complete leaf.                     |
 
+</div>
+
 ### The Compatibility Matrix
+
+<div class="table-wrap">
 
 | First \ Second | `sealed` | `base` | `interface` | `final` | `mixin` |
 | -------------- | -------- | ------ | ----------- | ------- | ------- |
@@ -509,6 +523,8 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `interface`    | Yes      | No     | N/A         | No      | Yes     |
 | `final`        | Yes      | No     | No          | N/A     | Yes     |
 | `mixin`        | Yes      | Yes    | Yes         | Yes     | N/A     |
+
+</div>
 
 `sealed` can combine with `base`, `interface`, `final` and `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
@@ -575,6 +591,8 @@ class Version implements Comparable&lt;Version&gt; {
 
 Here is the complete reference table for all class modifiers:
 
+<div class="table-wrap">
+
 | Modifier            | Extends (outside)    | Implements (outside)    | Mixin (outside)   | Instantiate   | Abstract OK    | Key Use Case                         |
 | ------------------- | -------------------- | ----------------------- | ----------------- | ------------- | -------------- | ------------------------------------ |
 | (none)              | Yes                  | Yes                     | Yes               | Yes           | Yes            | Default, no restrictions            |
@@ -587,6 +605,8 @@ Here is the complete reference table for all class modifiers:
 | `base mixin`        | Yes (`extends` only) | No                      | Yes (`with` only) | No            | Yes            | Mixin with inheritance enforcement   |
 | `interface mixin`   | No                   | Yes (`implements` only) | No                | No            | Yes            | Pure mixin contract                  |
 | `final mixin class` | No                   | No                      | No                | Yes           | Yes            | Complete leaf, no subtyping          |
+
+</div>
 
 ### Reading the Table
 

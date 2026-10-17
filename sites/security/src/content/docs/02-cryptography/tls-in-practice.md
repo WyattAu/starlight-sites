@@ -20,6 +20,8 @@ description: "Study notes for TLS in Practice | Security - Wyatt's Notes with wo
 
 ### Certificate Authority (CA) Options
 
+<div class="table-wrap">
+
 | Source         | Cost | Validation          | Trust     | Best For                         |
 | -------------- | ---- | ------------------- | --------- | -------------------------------- |
 | Let's Encrypt  | Free | Automated (ACME)    | Universal | Public-facing services           |
@@ -27,6 +29,8 @@ description: "Study notes for TLS in Practice | Security - Wyatt's Notes with wo
 | Self-signed    | Free | None                | Internal  | Development, internal services   |
 | Internal CA    | Free | Internal            | Internal  | Corporate networks               |
 | Cloud provider | Paid | DNS/HTTP validation | Universal | Services hosted on that provider |
+
+</div>
 
 ### Self-Signed Certificates
 
@@ -98,11 +102,15 @@ Requirements:
 - DNS propagation time (can be minutes to hours without API access)
 - Works for internal services, wildcard certificates, and servers behind NAT
 
+<div class="table-wrap">
+
 | Challenge   | Port Required | Wildcards | Behind NAT             | Automation           |
 | ----------- | ------------- | --------- | ---------------------- | -------------------- |
 | HTTP-01     | 80            | No        | No (needs public HTTP) | Easy with web server |
 | DNS-01      | None          | Yes       | Yes                    | Requires DNS API     |
 | TLS-ALPN-01 | 443           | No        | No                     | Less common          |
+
+</div>
 
 ### Certbot
 
@@ -175,6 +183,8 @@ flowchart LR
 
 ### Key Events
 
+<div class="table-wrap">
+
 | Event      | Description                                           |
 | ---------- | ----------------------------------------------------- |
 | Creation   | Private key generated, CSR created, submitted to CA   |
@@ -183,6 +193,8 @@ flowchart LR
 | Rotation   | Old certificate replaced with new one before expiry   |
 | Expiration | Certificate becomes invalid after validity period     |
 | Revocation | CA marks certificate as compromised before expiry     |
+
+</div>
 
 ### Certificate Rotation
 
@@ -256,6 +268,8 @@ cat server.crt intermediate.crt > fullchain.pem
 
 ### Key Types
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Performance | Security Level | Recommendation                    |
 | --------- | -------- | ----------- | -------------- | --------------------------------- |
 | RSA       | 2048     | Fast        | 112 bits       | Minimum acceptable                |
@@ -263,6 +277,8 @@ cat server.crt intermediate.crt > fullchain.pem
 | ECDSA     | P-256    | Fast        | 128 bits       | Best balance of speed/security    |
 | ECDSA     | P-384    | Moderate    | 192 bits       | Higher security requirement       |
 | Ed25519   | 256 bit  | Fastest     | 128 bits       | Modern, recommended for new certs |
+
+</div>
 
 ```bash
 # RSA 2048
@@ -407,11 +423,15 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 Forward secrecy ensures that compromising the server's private key does not allow decryption of past
 Sessions. Each session uses a unique ephemeral key exchange.
 
+<div class="table-wrap">
+
 | Key Exchange | Forward Secrecy | Notes                                      |
 | ------------ | --------------- | ------------------------------------------ |
 | RSA          | No              | Key encrypted with server's static RSA key |
 | DHE          | Yes             | Slower, older                              |
 | ECDHE        | Yes             | Faster, recommended                        |
+
+</div>
 
 ```nginx
 # ECDHE is used automatically with modern cipher suites
@@ -491,12 +511,16 @@ curl --cert client.crt --key client.key https://example.com/api
 
 ### Use Cases
 
+<div class="table-wrap">
+
 | Use Case                         | Why mTLS                                  |
 | -------------------------------- | ----------------------------------------- |
 | Service-to-service communication | Stronger than API keys, no shared secrets |
 | Internal APIs                    | Replaces VPN for some architectures       |
 | IoT devices                      | Device identity and authentication        |
 | Zero-trust network access        | Identity-based access control             |
+
+</div>
 
 ## Certificate Transparency
 
@@ -588,12 +612,16 @@ curl "https://api.ssllabs.com/api/v3/analyze?host=example.com&amp;publish=off&am
 
 Let's Encrypt enforces strict rate limits:
 
+<div class="table-wrap">
+
 | Limit Type              | Restriction                          |
 | ----------------------- | ------------------------------------ |
 | Certificates per domain | 50 per week (per registered domain)  |
 | Failed validations      | 5 per account per hostname per hour  |
 | Duplicate certificates  | 5 per week (same exact set of names) |
 | Registered domains      | 300 per account                      |
+
+</div>
 
 Exceeding these limits blocks certificate issuance. Use the staging environment for testing:
 

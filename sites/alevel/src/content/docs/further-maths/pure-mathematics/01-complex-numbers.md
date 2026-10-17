@@ -29,12 +29,16 @@ Polynomial equations.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board   | Paper   | Notes                                                       |
 | ------- | ------- | ----------------------------------------------------------- |
 | AQA     | Paper 1 | Full coverage including transformations $w = f(z)$          |
 | Edexcel | FP1/FP2 | De Moivre, roots of unity, loci in FP2                      |
 | OCR (A) | Paper 1 | De Moivre, exponential form, roots of unity                 |
 | CIE     | P1      | Loci required; exponential form and roots of unity in depth |
+
+</div>
 
 <hr />
 
@@ -1029,12 +1033,16 @@ $\blacksquare$
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                           | Correct Approach                                                                                             |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
 | Confusing $                                                       \| z-w                                                                                                          \| $ with $ \| z   \| -   \| w   \| $   | $   \| z-w \| $ is the distance between $z$ and $w$; $ \| z-w \| \neq \| z   \| -   \| w   \| $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
 | Incorrectly applying de Moivre to non-integer powers              | De Moivre's theorem $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$ holds for integer $n$ only |
+
+</div>
 
 ---
 
@@ -1139,6 +1147,8 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Result                        | Formula                                                   |
 | ----------------------------- | --------------------------------------------------------- |
 | Modulus                       | $                                                         \| z   \| = \sqrt{a^2+b^2}$ for $z = a+bi$ |
@@ -1149,6 +1159,8 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 | Locus: circle                 | $                                                         \| z-a \| =r$                              |
 | Locus: perpendicular bisector | $                                                         \| z-a \| =                                \| z-b \| $   |
 | Locus: half-line              | $\arg(z-a) = \theta$                                      |
+
+</div>
 
 ---
 
@@ -1234,6 +1246,8 @@ is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coeffici
 
 ### 14.4 Regions in the Argand diagram
 
+<div class="table-wrap">
+
 | Inequality                   | Region                             |
 | ---------------------------- | ---------------------------------- |
 | $\|z-a\| < r$                | Interior of circle (open disc)     |
@@ -1241,6 +1255,8 @@ is also a root. This is because $\overline{P(z)} = P(\bar{z})$ for real-coeffici
 | $\alpha < \arg(z-a) < \beta$ | Sector (angular region)            |
 | $\mathrm{Re}(z) > k$         | Half-plane to the right of $x = k$ |
 | $\mathrm{Im}(z) > k$         | Half-plane above $y = k$           |
+
+</div>
 
 ### 14.5 The exponential form of $\sin$ and $\cos$
 

@@ -45,6 +45,8 @@ print(sys.getsizeof(d))  # In standard practice 232 bytes on 64-bit CPython 3.12
 Python calls `hash(key)` on every key. The hash must be an integer. Built-in types implement
 `__hash__` as follows:
 
+<div class="table-wrap">
+
 | Type        | Hash Strategy                                                                   |
 | ----------- | ------------------------------------------------------------------------------- |
 | `int`       | `hash(n) = n` (with `-1` mapped to `-2` to avoid collision with error sentinel) |
@@ -52,6 +54,8 @@ Python calls `hash(key)` on every key. The hash must be an integer. Built-in typ
 | `tuple`     | XOR of element hashes with per-position perturbation                            |
 | `frozenset` | XOR of element hashes with perturbation                                         |
 | `bytes`     | Truncated SipHash                                                               |
+
+</div>
 
 ```python
 hash(42)           # 42
@@ -135,6 +139,8 @@ od.popitem(last=False)    # Remove and return first item: ('third', 3)
 
 Since Python 3.7, regular `dict` also preserves insertion order. The differences are:
 
+<div class="table-wrap">
+
 | Feature                   | `dict`           | `OrderedDict` |
 | ------------------------- | ---------------- | ------------- |
 | Insertion order preserved | Yes (3.7+)       | Yes           |
@@ -142,6 +148,8 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 | `popitem(last=False)`     | No               | Yes           |
 | Equality checks order     | No (Python 3.7+) | Yes           |
 | Reversible                | Yes (3.8+)       | Yes           |
+
+</div>
 
 :::caution
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
@@ -402,6 +410,8 @@ print(s.remove(6))  # KeyError, raises if not present
 
 Set operations have the following average-case complexities:
 
+<div class="table-wrap">
+
 | Operation                      | Average Case           | Worst Case          |
 | ------------------------------ | ---------------------- | ------------------- |
 | `x in s`                       | O(1)                   | O(n)                |
@@ -411,6 +421,8 @@ Set operations have the following average-case complexities:
 | `s & t` (intersection)         | O(min(len(s), len(t))) | O(len(s) \* len(t)) |
 | `s - t` (difference)           | O(len(s))              | O(len(s) \* len(t)) |
 | `s ^ t` (symmetric difference) | O(len(s) + len(t))     | O(len(s) \* len(t)) |
+
+</div>
 
 ### frozenset
 
@@ -584,6 +596,8 @@ p.x = 10  # Mutable by default
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | `namedtuple`               | `dataclass`            | `TypedDict`       |
 | -------------- | -------------------------- | ---------------------- | ----------------- |
 | Immutable      | Yes                        | Opt-in (`frozen=True`) | N/A               |
@@ -594,6 +608,8 @@ p.x = 10  # Mutable by default
 | Memory         | Tuple-sized                | Class overhead         | Dict              |
 | Use case       | Lightweight records        | Rich objects           | Typed dict shapes |
 | `__slots__`    | Yes (built-in)             | Opt-in                 | N/A               |
+
+</div>
 
 ```python
 from typing import TypedDict

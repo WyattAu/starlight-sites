@@ -45,12 +45,16 @@ The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
+<div class="table-wrap">
+
 | Field            | Bits | Description                                                                         |
 | ---------------- | ---- | ----------------------------------------------------------------------------------- |
 | Source Port      | 16   | Optional. Identifies the sender. Zero means "not specified."                        |
 | Destination Port | 16   | Required. Identifies the intended receiver.                                         |
 | Length           | 16   | Total UDP datagram length: header (8) + data. Minimum 8. Maximum 65535.             |
 | Checksum         | 16   | Coverage includes pseudo-header + UDP header + data. Zero = "no check" (IPv4 only). |
+
+</div>
 
 ### Source Port Considerations
 
@@ -265,6 +269,8 @@ Needed.
 
 ### Multicast Address Ranges
 
+<div class="table-wrap">
+
 | Range                     | Purpose                                          |
 | ------------------------- | ------------------------------------------------ |
 | 224.0.0.0/24              | Local network control (not forwarded by routers) |
@@ -279,6 +285,8 @@ Needed.
 | 233.0.0.0/8               | GLOP addressing                                  |
 | 234.0.0.0/8               | Reserved                                         |
 | 239.0.0.0/8               | Administratively scoped (local use)              |
+
+</div>
 
 ### IGMP (Internet Group Management Protocol)
 
@@ -310,6 +318,8 @@ ip mroute show
 
 Multicast packets have a TTL that limits how far they propagate:
 
+<div class="table-wrap">
+
 | TTL      | Scope                        |
 | -------- | ---------------------------- |
 | 0        | Restricted to same host      |
@@ -318,6 +328,8 @@ Multicast packets have a TTL that limits how far they propagate:
 | &lt; 64  | Restricted to same region    |
 | &lt; 128 | Restricted to same continent |
 | &lt; 255 | Unrestricted                 |
+
+</div>
 
 ### Multicast Routing: PIM
 
@@ -476,6 +488,8 @@ UDP. It is the transport for HTTP/3.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature               | TCP        | QUIC                                     |
 | --------------------- | ---------- | ---------------------------------------- |
 | Transport             | IP layer   | UDP (port 443)                           |
@@ -487,6 +501,8 @@ UDP. It is the transport for HTTP/3.
 | Loss recovery         | Global     | Per-stream                               |
 | Middlebox traversal   | Good       | UDP (good)                               |
 | Congestion control    | Cubic/BBR  | Cubic/BBR (same algorithms)              |
+
+</div>
 
 ### Connection Migration
 
@@ -809,6 +825,8 @@ The `Udp` line in `/proc/net/snmp` provides kernel-level UDP statistics:
 Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti
 ```
 
+<div class="table-wrap">
+
 | Counter      | Meaning                                         |
 | ------------ | ----------------------------------------------- |
 | InDatagrams  | Total datagrams received                        |
@@ -819,6 +837,8 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 | SndbufErrors | Send buffer overflow                            |
 | InCsumErrors | Checksum validation failures                    |
 | IgnoredMulti | Multicast packets dropped (socket not joined)   |
+
+</div>
 
 ```bash
 # Watch UDP error counters in real-time

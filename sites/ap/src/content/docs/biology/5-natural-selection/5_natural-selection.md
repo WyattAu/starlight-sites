@@ -165,11 +165,15 @@ Three types based on the effect on the phenotype distribution:
 
 **Summary table of selection types.**
 
+<div class="table-wrap">
+
 | Type        | Effect on distribution    | Example                     |
 | ----------- | ------------------------- | --------------------------- |
 | Directional | Shifts toward one extreme | Antibiotic resistance       |
 | Stabilizing | Narrows around the mean   | Human birth weight          |
 | Disruptive  | Two peaks at extremes     | Seedcracker finch beak size |
+
+</div>
 
 **Worked Example: Directional selection in Darwin's finches.**
 
@@ -263,6 +267,8 @@ A form of natural selection based on mating success.
 
 **Prezygotic barriers** (prevent mating or fertilization):
 
+<div class="table-wrap">
+
 | Type                 | Description                          | Example                        |
 | -------------------- | ------------------------------------ | ------------------------------ |
 | Habitat isolation    | Different habitats                   | Lion vs tiger                  |
@@ -271,13 +277,19 @@ A form of natural selection based on mating success.
 | Mechanical isolation | Incompatible reproductive structures | Insect genitalia               |
 | Gametic isolation    | Sperm cannot fertilize egg           | Sea urchin species             |
 
+</div>
+
 **Postzygotic barriers** (prevent viable, fertile offspring):
+
+<div class="table-wrap">
 
 | Type                     | Description                                       | Example                      |
 | ------------------------ | ------------------------------------------------- | ---------------------------- |
 | Reduced hybrid viability | Offspring do not survive well                     | Frog species hybrids         |
 | Reduced hybrid fertility | Offspring are sterile                             | Mule (horse $\times$ donkey) |
 | Hybrid breakdown         | First-generation hybrids are fine, but F2 are not | Rice hybrids                 |
+
+</div>
 
 ### Allopatric Speciation
 

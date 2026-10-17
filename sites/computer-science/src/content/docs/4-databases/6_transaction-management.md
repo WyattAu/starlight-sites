@@ -21,6 +21,8 @@ description: "A is a logical unit of work that must satisfy: Comprehensive educa
 
 A **transaction** is a logical unit of work that must satisfy:
 
+<div class="table-wrap">
+
 | Property    | Meaning                                                      |
 | ----------- | ------------------------------------------------------------ |
 | Atomicity   | All or nothing: either all operations commit or none         |
@@ -28,9 +30,13 @@ A **transaction** is a logical unit of work that must satisfy:
 | Isolation   | Concurrent transactions do not interfere with each other     |
 | Durability  | Once committed, the effects survive failures                 |
 
+</div>
+
 ### 6.2 Isolation Levels
 
 SQL defines four isolation levels with increasing strictness:
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -38,6 +44,8 @@ SQL defines four isolation levels with increasing strictness:
 | Read Committed   | Prevented  | Possible            | Possible     |
 | Repeatable Read  | Prevented  | Prevented           | Possible     |
 | Serializable     | Prevented  | Prevented           | Prevented    |
+
+</div>
 
 - **Dirty read:** Reading uncommitted data from another transaction.
 - **Non-repeatable read:** Same query returns different results within the same transaction due to

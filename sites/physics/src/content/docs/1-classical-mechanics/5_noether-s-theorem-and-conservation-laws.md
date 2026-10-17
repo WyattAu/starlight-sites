@@ -37,12 +37,16 @@ Noether's theorem says they are all the same phenomenon. A continuous symmetry
 of the action produces a conserved quantity, and each familiar conservation law
 is the conserved quantity for one particular symmetry:
 
+<div class="table-wrap">
+
 | Symmetry of the Lagrangian | Conserved quantity |
 | -------------------------- | ------------------ |
 | translation in $x$         | linear momentum $p_x$ |
 | translation in $t$         | energy $H$ |
 | rotation about $z$         | angular momentum $L_z$ |
 | Galilean boost             | centre-of-mass motion |
+
+</div>
 
 Reading the table backwards is the useful direction. If you can *guess* a
 symmetry, you get a conservation law without solving anything. That is how
@@ -190,12 +194,16 @@ This is the energy function, which equals $T + V$ for natural systems. $\blacksq
 
 ### 5.6 Summary: Symmetry-Conservation Correspondence
 
+<div class="table-wrap">
+
 | Symmetry            | Transformation             | Conserved Quantity     |
 | ------------------- | -------------------------- | ---------------------- |
 | Time translation    | $t \to t + \epsilon$       | Energy $H$             |
 | Spatial translation | $x \to x + \epsilon$       | Linear momentum $p_x$  |
 | Rotation about $z$  | $\phi \to \phi + \epsilon$ | Angular momentum $L_z$ |
 | Galilean boost      | $x \to x + \epsilon t$     | Centre-of-mass motion  |
+
+</div>
 
 ## Intuition
 
@@ -256,12 +264,16 @@ transformation -- is the standard error.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Discrete symmetries give conserved quantities | no | parity is a symmetry of electromagnetism but nothing is conserved by it |
 | Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
 | Symmetry of the *equations* is enough | no | the theorem needs symmetry of the *action* |
 | Noether's theorem applies to dissipative systems | no | friction is not derivable from a Lagrangian |
+
+</div>
 
 The first row is the one most often asserted wrongly. It is *continuous*
 symmetries only, because the proof differentiates with respect to the
@@ -307,5 +319,5 @@ the symplectic structure page.
 - **[Central Force Problems](/1-classical-mechanics/6_central-force-problems/)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 

@@ -30,6 +30,8 @@ Science at university.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Topic                                        | AQA     | Edexcel  | OCR (A) | CIE (9231) |
 | -------------------------------------------- | ------- | -------- | ------- | ---------- |
 | Pure: Complex Numbers                        | Paper 1 | FP1, FP2 | Paper 1 | P1         |
@@ -48,6 +50,8 @@ Science at university.
 | Further Mechanics: Circular Motion           |,       | M2       |,       | M2         |
 | Further Mechanics: Centres of Mass           | Paper 2 | M2       | Paper 2 | M2         |
 | Further Mechanics: Elastic Collisions        |,       | M2       |,       | M2         |
+
+</div>
 
 ### Course Structure
 
@@ -86,12 +90,16 @@ STEM courses:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                             | Weighting       |
 | ------- | -------------------------------------------------- | --------------- |
 | AQA     | Paper 1 (Pure), Paper 2 (Stat/Mech)                | 50% each        |
 | Edexcel | FP1, FP2, FP3 (Pure), S2, S3, S4 (Stat), M2 (Mech) | Varies by route |
 | OCR (A) | Paper 1 (Pure), Paper 2 (Stat/Mech)                | 50% each        |
 | CIE     | P1, P2 (Pure), S2 (Stat), M2 (Mech)                | Varies          |
+
+</div>
 
 ### How to Use These Notes
 
@@ -131,10 +139,14 @@ Mechanics based on your module route.
 
 ### Key Formulae
 
+<div class="table-wrap">
+
 | Topic     | Formula                                                               |
 | --------- | --------------------------------------------------------------------- |
 | De Moivre | $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ |
 | Maclaurin | $f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\ldots$              |
+
+</div>
 
 ## Summary
 

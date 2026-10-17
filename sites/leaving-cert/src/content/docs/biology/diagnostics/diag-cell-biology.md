@@ -58,6 +58,8 @@ at least four differences.
 
 (b)
 
+<div class="table-wrap">
+
 | Feature       | Light Microscope                                   | Electron Microscope                                                                      |
 | ------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Resolution    | Up to $0.2\,\mu\text{m}$ (200 nm)                  | Up to $0.2\,\text{nm}$ (TEM)                                                             |
@@ -66,6 +68,8 @@ at least four differences.
 | Image         | Coloured (natural or stained); image seen directly | Black and white (TEM) or 3D surface (SEM); image viewed on fluorescent screen or monitor |
 | Vacuum        | Not required                                       | Required (electron beam travels in vacuum)                                               |
 | Radiation     | Light (photons)                                    | Beam of electrons                                                                        |
+
+</div>
 
 (c) Image size $= 4.2\,\text{cm} = 42{,}000\,\mu\text{m}$.
 

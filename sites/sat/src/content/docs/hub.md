@@ -190,12 +190,16 @@ Preparing for the SAT is a structured process. Here is a phased approach that bu
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Flashcards, 15 minutes of vocabulary and formulas |
 | Afternoon | Topic study, read notes on one content area |
 | Evening | Practice, complete 10–15 practice questions |
 | Weekend | One timed section + review wrong answers |
+
+</div>
 
 ---
 

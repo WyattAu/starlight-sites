@@ -30,6 +30,8 @@ categories:
 
 The immune system can be divided into two broad categories based on specificity and memory:
 
+<div class="table-wrap">
+
 | Feature            | Innate (Non-Specific) Immunity                           | Adaptive (Specific) Immunity                              |
 | ------------------ | -------------------------------------------------------- | --------------------------------------------------------- |
 | Specificity        | Non-specific; responds to a range of pathogens           | Highly specific; targets particular antigens              |
@@ -38,6 +40,8 @@ The immune system can be divided into two broad categories based on specificity 
 | Cells involved     | Phagocytes, neutrophils, mast cells, NK cells            | T lymphocytes (T cells), B lymphocytes (B cells)          |
 | Molecules involved | Complement proteins, interferons, antimicrobial peptides | Antibodies, cytokines, perforin, granzymes                |
 | Physical barriers  | Skin, mucous membranes, stomach acid, lysozyme           | Not applicable                                            |
+
+</div>
 
 The immune response proceeds in a coordinated sequence. **Innate immunity** provides the first line
 of defence, acting immediately to limit infection. **Adaptive immunity** is activated more slowly
@@ -70,6 +74,8 @@ immune function. Failure of this distinction leads to autoimmune diseases (see S
 
 The first line of defence prevents pathogen entry entirely:
 
+<div class="table-wrap">
+
 | Barrier            | Mechanism                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------ |
 | Skin               | Physical barrier; keratinised epidermis; sebum (antimicrobial lipids); low pH ($\approx 5.5$)    |
@@ -78,6 +84,8 @@ The first line of defence prevents pathogen entry entirely:
 | Tears and saliva   | Contain lysozyme; flush pathogens from eyes and mouth                                            |
 | Commensal bacteria | Compete with pathogens for nutrients and space; produce antimicrobial substances                 |
 | Blood clotting     | Seals wounds, preventing pathogen entry into tissues                                             |
+
+</div>
 
 ### 2.2 Phagocytosis
 
@@ -112,6 +120,8 @@ and destroy any foreign material.
 
 **Macrophages vs neutrophils:**
 
+<div class="table-wrap">
+
 | Feature              | Neutrophils                                   | Macrophages                                           |
 | -------------------- | --------------------------------------------- | ----------------------------------------------------- |
 | Lifespan             | Short (hours to days)                         | Long (months)                                         |
@@ -119,6 +129,8 @@ and destroy any foreign material.
 | Antigen presentation | Limited                                       | Yes -- display antigens on MHC molecules              |
 | Number in blood      | Most abundant white blood cell ($60$--$70\%$) | Less abundant ($2$--$8\%$)                            |
 | Response             | First to arrive at infection site             | Arrive later; sustain long-term response              |
+
+</div>
 
 ### 2.3 Inflammation
 
@@ -299,6 +311,8 @@ Each antibody has:
 
 ### 4.5 Classes of Antibodies
 
+<div class="table-wrap">
+
 | Class | Structure        | Location                                       | Function                                                                   |
 | ----- | ---------------- | ---------------------------------------------- | -------------------------------------------------------------------------- |
 | IgG   | Monomer          | Blood, lymph, tissue fluid                     | Most abundant; crosses placenta; opsonisation; neutralisation              |
@@ -306,6 +320,8 @@ Each antibody has:
 | IgM   | Pentamer         | Blood                                          | First antibody produced in primary response; effective agglutination       |
 | IgE   | Monomer          | Bound to mast cells                            | Triggers allergic responses (histamine release); defence against parasites |
 | IgD   | Monomer          | B cell surface                                 | Acts as B cell receptor; role not fully understood                         |
+
+</div>
 
 ### 4.6 Mechanisms of Antibody Action
 
@@ -358,6 +374,8 @@ The secondary (anamnestic) response occurs on subsequent exposure to the same an
 - **IgG** is the predominant antibody class.
 - The secondary response is the basis of immunological memory and vaccination.
 
+<div class="table-wrap">
+
 | Feature               | Primary Response           | Secondary Response           |
 | --------------------- | -------------------------- | ---------------------------- |
 | Latent period         | 5--10 days                 | 1--3 days                    |
@@ -366,6 +384,8 @@ The secondary (anamnestic) response occurs on subsequent exposure to the same an
 | Antibody persistence  | Declines within weeks      | Persists for months to years |
 | Memory cells produced | Yes                        | Yes (additional)             |
 | Cell type involved    | Naive B cells              | Memory B cells               |
+
+</div>
 
 :::caution
 kill pathogens directly. They mark pathogens for destruction by other mechanisms (phagocytosis,
@@ -394,6 +414,8 @@ negative selection in the thymus or bone marrow.
 
 ### 6.2 Examples of Autoimmune Diseases
 
+<div class="table-wrap">
+
 | Disease                            | Target Tissue                                      | Mechanism and Effects                                                                                 |
 | ---------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Type 1 diabetes mellitus           | Pancreatic beta cells (islets of Langerhans)       | T killer cells destroy insulin-producing beta cells; insulin deficiency causes elevated blood glucose |
@@ -401,6 +423,8 @@ negative selection in the thymus or bone marrow.
 | Multiple sclerosis (MS)            | Myelin sheath of nerve fibres                      | T cells attack myelin; loss of myelin disrupts nerve impulse transmission                             |
 | Systemic lupus erythematosus (SLE) | Multiple tissues (skin, kidneys, joints)           | Antibodies against nuclear antigens; widespread tissue damage                                         |
 | Myasthenia gravis                  | Acetylcholine receptors at neuromuscular junctions | Antibodies block ACh receptors; muscle weakness and fatigue                                           |
+
+</div>
 
 For the management of Type 1 diabetes, see [Homeostasis](/biology/homeostasis/).
 
@@ -415,6 +439,8 @@ reduces the severity of illness.
 
 **Types of vaccine:**
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                              | Examples                                  |
 | --------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------- |
 | Live attenuated       | Weakened (attenuated) form of the pathogen; replicates slowly but does not cause disease | MMR (measles, mumps, rubella); oral polio |
@@ -423,6 +449,8 @@ reduces the severity of illness.
 | Toxoid                | Inactivated toxin that retains antigenicity                                              | Tetanus; diphtheria                       |
 | mRNA                  | mRNA encoding a pathogen antigen; host cells translate the mRNA and display the antigen  | COVID-19 (Pfizer-BioNTech, Moderna)       |
 | Viral vector          | Harmless virus engineered to carry genes encoding pathogen antigens                      | COVID-19 (Oxford-AstraZeneca); Ebola      |
+
+</div>
 
 ### 7.2 Herd Immunity
 
@@ -509,9 +537,13 @@ Used, for example, in HIV testing:
 A standard curve is prepared using known concentrations of antigen, and the absorbance of each is
 measured:
 
+<div class="table-wrap">
+
 | Antigen concentration ($\mathrm{ng\ cm^{-3}}$) | 0    | 5    | 10   | 20   | 40   | 80   |
 | ---------------------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Absorbance (at 450 nm)                         | 0.05 | 0.12 | 0.23 | 0.42 | 0.78 | 1.45 |
+
+</div>
 
 An unknown patient sample gives an absorbance of 0.55. Determine the antigen concentration.
 
@@ -553,6 +585,8 @@ Milstein, 1975):
 
 ### 9.2 Applications of Monoclonal Antibodies
 
+<div class="table-wrap">
+
 | Application                | Mechanism                                                                                                                                              |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Pregnancy testing          | Monoclonal antibodies bind to hCG (human chorionic gonadotropin) in urine; a colour change indicates pregnancy                                         |
@@ -561,6 +595,8 @@ Milstein, 1975):
 | Drug delivery              | Monoclonal antibodies can be conjugated to drugs or radioactive isotopes and targeted to specific cells (e.g., cancer cells), minimising side effects  |
 | Transplant rejection       | Monoclonal antibodies (e.g., OKT3) suppress the immune response against transplanted organs by binding to T cells                                      |
 | Purification of substances | Monoclonal antibodies attached to a column can purify specific proteins from a mixture (affinity chromatography)                                       |
+
+</div>
 
 ### 9.3 Ethical Issues of Monoclonal Antibody Production
 
@@ -735,6 +771,8 @@ average.
 
 ### 12.1 Types of Acquired Immunity
 
+<div class="table-wrap">
+
 | Feature           | Active Immunity                                        | Passive Immunity                                                     |
 | ----------------- | ------------------------------------------------------ | -------------------------------------------------------------------- |
 | Source            | Own immune system produces antibodies and memory cells | Pre-made antibodies received from another individual                 |
@@ -742,6 +780,8 @@ average.
 | Duration          | Long-term (memory cells persist for years)             | Short-term (antibodies degraded within weeks/months)                 |
 | Memory            | Yes                                                    | No                                                                   |
 | Examples          | Natural infection, vaccination                         | Maternal antibodies crossing placenta; antivenom/antisera injections |
+
+</div>
 
 **Natural active immunity**: acquired through infection with a pathogen. The immune system mounts a
 primary response, followed by immunological memory.
@@ -761,10 +801,14 @@ active immunisation (e.g., after a snake bite or exposure to rabies).
 
 ### 12.2 Comparison of Natural and Artificial Immunity
 
+<div class="table-wrap">
+
 | Type             | Natural                              | Artificial                    |
 | ---------------- | ------------------------------------ | ----------------------------- |
 | Active immunity  | Infection                            | Vaccination                   |
 | Passive immunity | Maternal antibodies (placenta, milk) | Antiserum/antivenom injection |
+
+</div>
 
 ## 13. Types of Vaccine and Their Mechanisms
 
@@ -859,10 +903,14 @@ adverse events (e.g., thrombosis with thrombocytopenia syndrome with adenoviral 
 
 **Primary lymphoid organs** are where lymphocytes mature and become functional:
 
+<div class="table-wrap">
+
 | Organ       | Lymphocyte Type             | Function                                                          |
 | ----------- | --------------------------- | ----------------------------------------------------------------- |
 | Bone marrow | B cells, T cells (produced) | B cell maturation; production of all blood cells (haematopoiesis) |
 | Thymus      | T cells                     | T cell maturation; positive and negative selection                |
+
+</div>
 
 In the thymus, developing T cells undergo:
 
@@ -874,12 +922,16 @@ In the thymus, developing T cells undergo:
 
 **Secondary lymphoid organs** are where lymphocytes encounter antigens and are activated:
 
+<div class="table-wrap">
+
 | Organ                                    | Function                                                                                                             |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Lymph nodes                              | Filter lymph; site of antigen presentation and B/T cell activation                                                   |
 | Spleen                                   | Filters blood; removes old/damaged red blood cells; immune response to blood-borne antigens                          |
 | Mucosa-associated lymphoid tissue (MALT) | Immune defence at mucosal surfaces (gut, respiratory tract, urogenital tract); includes Peyer's patches in the ileum |
 | Tonsils                                  | Immune defence at the entrance to the respiratory and digestive tracts                                               |
+
+</div>
 
 ### 14.2 Lymphocyte Circulation
 
@@ -928,6 +980,8 @@ limited number of genes through several mechanisms:
 
 ### 15.3 The Five Antibody Classes: Functional Comparison
 
+<div class="table-wrap">
+
 | Class | Heavy Chain | Structure  | Key Properties                                                            |
 | ----- | ----------- | ---------- | ------------------------------------------------------------------------- |
 | IgG   | $\gamma$    | Monomer    | Most abundant in serum; crosses placenta; opsonises; activates complement |
@@ -935,6 +989,8 @@ limited number of genes through several mechanisms:
 | IgM   | $\mu$       | Pentamer   | First antibody in primary response; efficient agglutination               |
 | IgE   | $\epsilon$  | Monomer    | Binds to mast cells; triggers histamine release; anti-parasitic           |
 | IgD   | $\delta$    | Monomer    | B cell surface receptor; function not fully understood                    |
+
+</div>
 
 ### 15.4 Antibody-Antigen Binding
 
@@ -1004,12 +1060,16 @@ adrenaline (epinephrine) to counteract vasodilation and bronchoconstriction.
 
 ### 17.1 Types of Transplant
 
+<div class="table-wrap">
+
 | Type      | Donor-Recipient Relationship | Rejection Risk | Example                             |
 | --------- | ---------------------------- | -------------- | ----------------------------------- |
 | Autograft | Self                         | None           | Skin graft from thigh to face       |
 | Isograft  | Identical twin               | Very low       | Skin graft between identical twins  |
 | Allograft | Same species, unrelated      | Moderate       | Kidney transplant, heart transplant |
 | Xenograft | Different species            | Very high      | Pig heart valve in humans           |
+
+</div>
 
 ### 17.2 Rejection Mechanisms
 
@@ -1044,6 +1104,8 @@ foreign:
 
 Pathogens have evolved numerous strategies to evade the immune system:
 
+<div class="table-wrap">
+
 | Strategy               | Mechanism                                                                    | Example                                                      |
 | ---------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Antigenic variation    | Pathogen alters its surface antigens, evading pre-existing antibodies        | Influenza virus (antigenic drift and shift)                  |
@@ -1052,6 +1114,8 @@ Pathogens have evolved numerous strategies to evade the immune system:
 | Intracellular survival | Pathogen lives inside host cells, hidden from antibodies                     | _Mycobacterium tuberculosis_, viruses                        |
 | Immunosuppression      | Pathogen produces proteins that suppress the immune response                 | HIV (destroys T helper cells); EBV (inactivates CTLs)        |
 | Biofilm formation      | Bacteria in biofilms are resistant to phagocytosis and antibiotics           | _Pseudomonas aeruginosa_ in cystic fibrosis patients         |
+
+</div>
 
 ### 18.2 Antigenic Drift and Shift in Influenza
 
@@ -1107,6 +1171,8 @@ ELISA is used to detect and quantify antigens or antibodies in a sample.
 
 ### 19.3 Applications of Monoclonal Antibodies
 
+<div class="table-wrap">
+
 | Application          | How mAbs Are Used                                                                                                                               |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Pregnancy testing    | mAbs against hCG (human chorionic gonadotropin) bound to a colour indicator on a test strip                                                     |
@@ -1116,7 +1182,11 @@ ELISA is used to detect and quantify antigens or antibodies in a sample.
 | Transplant rejection | mAbs that suppress the immune response (e.g., basiliximab blocks IL-2 receptor, preventing T cell activation)                                   |
 | Drug delivery        | mAbs conjugated to drugs or toxins, delivering them specifically to cancer cells (reducing side effects)                                        |
 
+</div>
+
 ### 19.4 Advantages and Disadvantages of Monoclonal Antibodies
+
+<div class="table-wrap">
 
 | Advantages                                   | Disadvantages                                                            |
 | -------------------------------------------- | ------------------------------------------------------------------------ |
@@ -1125,9 +1195,13 @@ ELISA is used to detect and quantify antigens or antibodies in a sample.
 | Consistent quality between batches           | Ethical concerns about animal use (mice for immunisation)                |
 | Versatile (many applications)                | Development is time-consuming (months to years)                          |
 
+</div>
+
 ## 20. Vaccination: Principles and Challenges
 
 ### 20.1 Types of Vaccines
+
+<div class="table-wrap">
 
 | Vaccine Type         | Description                                                            | Examples                               | Advantages                                                                                                              | Disadvantages                                                                                             |
 | -------------------- | ---------------------------------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -1139,6 +1213,8 @@ ELISA is used to detect and quantify antigens or antibodies in a sample.
 | mRNA                 | mRNA encoding a viral surface protein, wrapped in a lipid nanoparticle | COVID-19 (Pfizer-BioNTech, Moderna)    | Rapid development; no live virus; strong immune response; no risk of integration into genome (mRNA is quickly degraded) | Requires cold chain ($-20$ to $-80$ degrees C); new technology with limited long-term data                |
 | Viral vector         | Harmless virus engineered to carry gene for a pathogen antigen         | COVID-19 (Oxford-AstraZeneca, Janssen) | Strong immune response; does not require cold chain as strict as mRNA                                                   | Pre-existing immunity to the vector may reduce effectiveness                                              |
 | Recombinant          | Genetically engineered protein                                         | HPV (Gardasil), hepatitis B            | Safe; well-defined; scalable production                                                                                 | May require adjuvants                                                                                     |
+
+</div>
 
 ### 20.2 Herd Immunity
 
@@ -1154,6 +1230,8 @@ $$
 
 Where $H$ = proportion of the population that must be immune for herd immunity.
 
+<div class="table-wrap">
+
 | Disease            | $R_0$  | Herd Immunity Threshold |
 | ------------------ | ------ | ----------------------- |
 | Measles            | 12--18 | 92--94%                 |
@@ -1161,6 +1239,8 @@ Where $H$ = proportion of the population that must be immune for herd immunity.
 | COVID-19 (Omicron) | 8--10  | 87--90%                 |
 | Seasonal influenza | 1.5--3 | 33--67%                 |
 | Smallpox           | 3--5   | 67--80%                 |
+
+</div>
 
 Herd immunity is important because it protects individuals who cannot be vaccinated (newborns,
 immunocompromised patients, elderly with weakened immune systems). However, vaccine hesitancy and
@@ -1195,6 +1275,8 @@ combination of:
 
 ### 21.2 Examples
 
+<div class="table-wrap">
+
 | Disease                            | Autoantigen                                      | Affected Tissue                                | Symptoms                                        |
 | ---------------------------------- | ------------------------------------------------ | ---------------------------------------------- | ----------------------------------------------- |
 | Type 1 diabetes                    | $\beta$ cell antigens (e.g., GAD65, insulin)     | Pancreatic $\beta$ cells                       | Hyperglycaemia, ketoacidosis                    |
@@ -1204,7 +1286,11 @@ combination of:
 | Systemic lupus erythematosus (SLE) | Nuclear antigens (DNA, histones)                 | Multiple organs (skin, kidneys, joints, brain) | Butterfly rash, joint pain, kidney failure      |
 | Coeliac disease                    | Gliadin (wheat protein), tissue transglutaminase | Small intestine lining                         | Diarrhoea, malabsorption, weight loss           |
 
+</div>
+
 ### 21.3 Treatment Strategies
+
+<div class="table-wrap">
 
 | Strategy                   | How It Works                                                                                                                        |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -1213,6 +1299,8 @@ combination of:
 | Plasmapheresis             | Removal of autoantibodies from the blood (used in myasthenia gravis)                                                                |
 | Antigen-specific tolerance | Experimental approaches to re-educate the immune system to tolerate self-antigens                                                   |
 | Dietary modification       | Gluten-free diet for coeliac disease eliminates the triggering antigen                                                              |
+
+</div>
 
 ## 22. Allergies and Hypersensitivity
 
@@ -1298,6 +1386,8 @@ When tissue is damaged (by infection, trauma, heat, or chemicals):
 
 ### 26.2 Inflammatory Mediators
 
+<div class="table-wrap">
+
 | Mediator                             | Source                    | Effect                                                                                                          |
 | ------------------------------------ | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Histamine                            | Mast cells, basophils     | Vasodilation; increased capillary permeability; stimulates pain receptors                                       |
@@ -1306,11 +1396,15 @@ When tissue is damaged (by infection, trauma, heat, or chemicals):
 | Serotonin                            | Platelets                 | Vasoconstriction (in some tissues); pain; contributes to platelet aggregation                                   |
 | Cytokines (IL-1, IL-6, TNF-$\alpha$) | Macrophages, T cells      | Promote inflammation; activate immune cells; cause fever; stimulate acute-phase protein production by the liver |
 
+</div>
+
 ### 26.3 Chronic Inflammation
 
 If the inflammatory response persists (due to persistent infection, autoimmune reactions, or
 exposure to irritants such as cigarette smoke), it becomes **chronic inflammation**. Chronic
 inflammation can cause tissue damage and is implicated in many diseases:
+
+<div class="table-wrap">
 
 | Disease              | Cause of Chronic Inflammation       | Tissue Damage                            |
 | -------------------- | ----------------------------------- | ---------------------------------------- |
@@ -1319,6 +1413,8 @@ inflammation can cause tissue damage and is implicated in many diseases:
 | Asthma               | Allergic inflammation of airways    | Airway remodelling; bronchoconstriction  |
 | Crohn's disease      | Autoimmune attack on gut epithelium | Bowel wall thickening; ulceration        |
 | Chronic bronchitis   | Cigarette smoke irritation          | Mucus hypersecretion; airway obstruction |
+
+</div>
 
 ---
 
@@ -1342,11 +1438,15 @@ immune system but can be activated by antibodies (bridging innate and adaptive i
 
 ### 23.2 Pathways of Activation
 
+<div class="table-wrap">
+
 | Pathway     | Trigger                                                                   | Key Components                    |
 | ----------- | ------------------------------------------------------------------------- | --------------------------------- |
 | Classical   | Antigen-antibody complexes (IgM or IgG)                                   | C1q, C1r, C1s, C4, C2             |
 | Alternative | Spontaneous hydrolysis of C3 on microbial surfaces (no antibody required) | C3, Factor B, Factor D, properdin |
 | Lectin      | Mannose-binding lectin (MBL) binding to mannose on microbial surfaces     | MBL, MASP-1, MASP-2, C4, C2       |
+
+</div>
 
 All three pathways converge on the formation of **C3 convertase**, which cleaves C3 into C3a and
 C3b.
@@ -1408,6 +1508,8 @@ after puberty, being replaced by adipose tissue.
 
 ### 25.1 Types and Functions
 
+<div class="table-wrap">
+
 | Cytokine                                         | Produced By                     | Function                                                                             |
 | ------------------------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------ |
 | Interleukin-1 (IL-1)                             | Macrophages, dendritic cells    | Activates T helper cells; causes fever (acts on hypothalamus); promotes inflammation |
@@ -1418,6 +1520,8 @@ after puberty, being replaced by adipose tissue.
 | Interferon-$\gamma$                              | T helper 1 cells, NK cells      | Activates macrophages; enhances antigen presentation; promotes Th1 responses         |
 | Tumour necrosis factor-$\alpha$ (TNF-$\alpha$)   | Macrophages, T cells            | Promotes inflammation; induces apoptosis in tumour cells; causes fever and cachexia  |
 | Transforming growth factor-$\beta$ (TGF-$\beta$) | T regulatory cells, platelets   | Suppresses immune responses; promotes tissue repair; inhibits T cell proliferation   |
+
+</div>
 
 ### 25.2 Cytokine Storm
 
@@ -1438,6 +1542,8 @@ Consequences:
 
 ### 26.1 Primary and Secondary Immune Responses Compared
 
+<div class="table-wrap">
+
 | Feature                          | Primary Response               | Secondary Response                                    |
 | -------------------------------- | ------------------------------ | ----------------------------------------------------- |
 | Time to peak antibody production | 5--10 days                     | 1--3 days                                             |
@@ -1447,7 +1553,11 @@ Consequences:
 | Duration                         | Short-lived                    | Long-lived (months to years)                          |
 | Memory cells produced            | Yes (memory B and T cells)     | Memory cells re-stimulated and expanded               |
 
+</div>
+
 ### 26.2 Types of Vaccines
+
+<div class="table-wrap">
 
 | Vaccine Type         | Description                                        | Examples                                   | Advantages                                                                    | Disadvantages                                                             |
 | -------------------- | -------------------------------------------------- | ------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -1458,6 +1568,8 @@ Consequences:
 | Conjugate            | Polysaccharide antigen linked to a carrier protein | MenC, MenACWY, pneumococcal (PCV)          | Effective in infants (T-dependent response)                                   | More expensive to produce                                                 |
 | mRNA                 | mRNA encoding a pathogen antigen                   | COVID-19 (Pfizer-BioNTech, Moderna)        | Rapid development; strong immune response; no live virus                      | Requires cold storage; relatively new technology                          |
 | Viral vector         | Harmless virus delivers antigen gene               | COVID-19 (AstraZeneca, Janssen), Ebola     | Strong immune response; mimics natural infection                              | Pre-existing immunity to vector may reduce efficacy                       |
+
+</div>
 
 ### 26.3 Herd Immunity
 
@@ -1471,6 +1583,8 @@ $$
 \text{Herd immunity threshold} = 1 - \frac{1}{R_0}
 $$
 
+<div class="table-wrap">
+
 | Disease            | $R_0$  | Herd Immunity Threshold |
 | ------------------ | ------ | ----------------------- |
 | Measles            | 12--18 | 92--94%                 |
@@ -1478,6 +1592,8 @@ $$
 | COVID-19 (Omicron) | 8--10  | 87--90%                 |
 | Seasonal influenza | 1.5--3 | 33--67%                 |
 | Diphtheria         | 4--6   | 75--83%                 |
+
+</div>
 :::
 
 :::caution
@@ -1567,6 +1683,8 @@ mechanisms:
 
 ### 28.2 Specific Autoimmune Diseases
 
+<div class="table-wrap">
+
 | Disease                            | Autoantigen                                                | Target Tissue                                  | Symptoms                                                           | Treatment                                                                        |
 | ---------------------------------- | ---------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Type 1 diabetes                    | $\beta$ cell antigens (GAD, IA-2, insulin)                 | Pancreatic $\beta$ cells                       | Hyperglycaemia, polyuria, polydipsia, ketoacidosis                 | Insulin replacement                                                              |
@@ -1575,6 +1693,8 @@ mechanisms:
 | Myasthenia gravis                  | Nicotinic ACh receptors                                    | Neuromuscular junction                         | Muscle weakness, ptosis, difficulty swallowing                     | AChE inhibitors; immunosuppressants; thymectomy                                  |
 | Coeliac disease                    | Tissue transglutaminase (tTG), gliadin (gluten protein)    | Small intestine (villi)                        | Diarrhoea, bloating, weight loss, malabsorption, anaemia           | Gluten-free diet                                                                 |
 | Systemic lupus erythematosus (SLE) | Nuclear antigens (DNA, histones)                           | Multiple organs (joints, kidneys, skin, heart) | Butterfly rash, joint pain, kidney damage, fatigue                 | Corticosteroids; immunosuppressants; antimalarials (hydroxychloroquine)          |
+
+</div>
 
 ### 28.3 Allergies (Type I Hypersensitivity)
 
@@ -1586,12 +1706,16 @@ Allergies are exaggerated immune responses to harmless antigens (allergens):
 2. **Re-exposure:** the allergen cross-links IgE on mast cells, triggering degranulation (release of
    pre-formed mediators) and synthesis of new mediators.
 
+<div class="table-wrap">
+
 | Mediator                  | Source                | Effects                                                                                                                            |
 | ------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Histamine                 | Mast cells, basophils | Vasodilation; increased capillary permeability (oedema); smooth muscle contraction (bronchoconstriction); mucus secretion; itching |
 | Heparin                   | Mast cells            | Anticoagulant (prevents blood clotting at the site of inflammation)                                                                |
 | Leukotrienes (C4, D4, E4) | Mast cells            | Slow, sustained bronchoconstriction; increased vascular permeability; attracts eosinophils                                         |
 | Prostaglandin D2          | Mast cells            | Bronchoconstriction; vasodilation                                                                                                  |
+
+</div>
 
 **Anaphylaxis:** a severe, systemic allergic reaction that is potentially fatal. Symptoms: urticaria
 (hives), angioedema (swelling of lips, tongue, throat), bronchoconstriction (difficulty breathing),
@@ -1606,15 +1730,21 @@ permeability.
 The complement system is a cascade of plasma proteins that enhances (complements) the ability of
 antibodies and phagocytes to clear pathogens. There are three pathways:
 
+<div class="table-wrap">
+
 | Pathway             | Trigger                                                                                         | Key Proteins                      | Outcome                                                                  |
 | ------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------ |
 | Classical pathway   | Antibody-antigen complexes (IgM or IgG bound to pathogen)                                       | C1q, C1r, C1s, C4, C2, C3         | C3 convertase formed; leads to opsonisation, inflammation, MAC formation |
 | Alternative pathway | Spontaneous hydrolysis of C3 on microbial surfaces (pathogen surfaces lack regulatory proteins) | C3, Factor B, Factor D, Properdin | C3 convertase formed; amplification loop                                 |
 | Lectin pathway      | Mannose-binding lectin (MBL) binds to mannose residues on pathogen surface                      | MBL, MASP-1, MASP-2, C4, C2       | Similar to classical pathway; C3 convertase formed                       |
 
+</div>
+
 All three pathways converge on **C3 convertase**, which cleaves C3 into C3a and C3b.
 
 ### 29.2 Functions of Complement
+
+<div class="table-wrap">
 
 | Function                      | Mechanism                                                                                                                                 | Importance                                                                             |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -1623,9 +1753,13 @@ All three pathways converge on **C3 convertase**, which cleaves C3 into C3a and 
 | Chemotaxis                    | C5a is a potent chemoattractant for neutrophils                                                                                           | Directs phagocytes to the site of infection                                            |
 | Membrane attack complex (MAC) | C5b, C6, C7, C8, and multiple C9 molecules form a pore (approximately 10 nm diameter) in the pathogen membrane                            | Lyses the pathogen by allowing uncontrolled movement of ions and water (osmotic lysis) |
 
+</div>
+
 ### 29.3 Regulation of Complement
 
 Complement is tightly regulated to prevent damage to host cells:
+
+<div class="table-wrap">
 
 | Regulatory Protein                    | Function                                                                            |
 | ------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -1634,6 +1768,8 @@ Complement is tightly regulated to prevent damage to host cells:
 | Decay-accelerating factor (DAF, CD55) | Promotes decay of C3 and C5 convertases on host cell surfaces                       |
 | Membrane cofactor protein (MCP, CD46) | Acts as a cofactor for Factor I, which cleaves C3b to inactive iC3b on host cells   |
 | CD59 (protectin)                      | Prevents MAC formation on host cells by inhibiting C9 polymerisation                |
+
+</div>
 
 **Deficiency in complement regulatory proteins** can cause disease: deficiency in CD59 or DAF causes
 paroxysmal nocturnal haemoglobinuria (PNH), where red blood cells are lysed by complement because
@@ -1645,6 +1781,8 @@ they lack regulatory protection.
 
 HIV (human immunodeficiency virus) is a retrovirus:
 
+<div class="table-wrap">
+
 | Component             | Description                                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Envelope              | Lipid bilayer derived from host cell membrane; contains viral glycoproteins gp120 (binds CD4) and gp41 (mediates fusion) |
@@ -1652,6 +1790,8 @@ HIV (human immunodeficiency virus) is a retrovirus:
 | Reverse transcriptase | RNA-dependent DNA polymerase; converts viral RNA into DNA                                                                |
 | Integrase             | Inserts viral DNA into host chromosome                                                                                   |
 | Protease              | Cleaves viral polyproteins into functional proteins                                                                      |
+
+</div>
 
 **Life cycle:**
 
@@ -1667,13 +1807,19 @@ HIV (human immunodeficiency virus) is a retrovirus:
 
 ### 30.2 Progression from HIV to AIDS
 
+<div class="table-wrap">
+
 | Stage                          | CD4 Count                                            | Viral Load         | Symptoms                                                                                       |
 | ------------------------------ | ---------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------- |
 | Acute infection (2--4 weeks)   | Normal to decreased                                  | Very high          | Flu-like illness (fever, rash, sore throat, swollen lymph nodes)                               |
 | Clinical latency (2--10 years) | Gradually declining (350--500 cells/$\mathrm{mm^3}$) | Stable (set point) | asymptomatic; gradual immune deterioration                                                     |
 | AIDS                           | < 200 cells/$\mathrm{mm^3}$                          | High               | Opportunistic infections (PCP pneumonia, TB, Kaposi's sarcoma, candidiasis); wasting; dementia |
 
+</div>
+
 ### 30.3 Antiretroviral Therapy (ART)
+
+<div class="table-wrap">
 
 | Drug Class                                               | Target                                                          | Example                                                     |
 | -------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -1682,6 +1828,8 @@ HIV (human immunodeficiency virus) is a retrovirus:
 | Protease inhibitors                                      | Inhibit viral protease; prevent cleavage of viral polyproteins  | Ritonavir, lopinavir                                        |
 | Integrase inhibitors                                     | Block integration of viral DNA into host chromosome             | Raltegravir, dolutegravir                                   |
 | Entry inhibitors                                         | Block viral entry (CCR5 antagonists, fusion inhibitors)         | Maraviroc (CCR5 antagonist), enfuvirtide (fusion inhibitor) |
+
+</div>
 
 ART uses a combination of 3 or more drugs from at least 2 classes (combination therapy). This
 prevents the development of drug resistance (the virus would need to simultaneously develop
@@ -1696,6 +1844,8 @@ transmission (U = U: undetectable = untransmittable).
 Blood groups are determined by the presence or absence of antigenic glycoproteins (A and B antigens)
 on the surface of red blood cells:
 
+<div class="table-wrap">
+
 | Blood Group | Antigens on RBC | Antibodies in Plasma | Can Receive From                  | Can Donate To |
 | ----------- | --------------- | -------------------- | --------------------------------- | ------------- |
 | A           | A               | Anti-B               | A, O                              | A, AB         |
@@ -1703,14 +1853,20 @@ on the surface of red blood cells:
 | AB          | A and B         | Neither              | A, B, AB, O (universal recipient) | AB            |
 | O           | Neither         | Anti-A and Anti-B    | O (universal donor)               | A, B, AB, O   |
 
+</div>
+
 ### 31.2 Rhesus (Rh) System
 
 The RhD antigen is the most clinically significant of the Rh antigens:
+
+<div class="table-wrap">
 
 | Rh Status         | Antigens on RBC | Antibodies               | Notes                 |
 | ----------------- | --------------- | ------------------------ | --------------------- |
 | Rh positive (Rh+) | RhD present     | None (unless sensitised) | ~85% of UK population |
 | Rh negative (Rh-) | RhD absent      | None (unless sensitised) | ~15% of UK population |
+
+</div>
 
 **Haemolytic disease of the newborn (HDN):**
 
@@ -1727,6 +1883,8 @@ The RhD antigen is the most clinically significant of the Rh antigens:
 2. Add anti-A serum to one drop and anti-B serum to the other.
 3. Observe agglutination (clumping):
 
+<div class="table-wrap">
+
 | Result with Anti-A | Result with Anti-B | Blood Group |
 | ------------------ | ------------------ | ----------- |
 | Agglutination      | No agglutination   | A           |
@@ -1734,12 +1892,16 @@ The RhD antigen is the most clinically significant of the Rh antigens:
 | Agglutination      | Agglutination      | AB          |
 | No agglutination   | No agglutination   | O           |
 
+</div>
+
 ## 32. The Lymphatic System
 
 ### 32.1 Structure and Function
 
 The lymphatic system is a network of vessels, nodes, and organs that returns excess interstitial
 fluid to the blood, transports lipids, and provides immune defence:
+
+<div class="table-wrap">
 
 | Component             | Description                                                                                           | Function                                                                                      |
 | --------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -1750,6 +1912,8 @@ fluid to the blood, transports lipids, and provides immune defence:
 | Thymus                | Located in the upper chest; large in childhood, shrinks after puberty                                 | T cell maturation and selection                                                               |
 | Tonsils               | Lymphoid tissue at the back of the throat                                                             | Trap pathogens entering via the mouth and nose                                                |
 | Thoracic duct         | Main lymphatic vessel; drains lymph from most of the body into the left subclavian vein               | Returns lymph to the blood circulation                                                        |
+
+</div>
 
 ### 32.2 Formation of Tissue Fluid and Lymph
 
@@ -1773,12 +1937,16 @@ drains into the lymphatic capillaries and is returned to the blood via the thora
 
 Oedema (swelling) occurs when excess tissue fluid accumulates:
 
+<div class="table-wrap">
+
 | Cause                                | Mechanism                                                                                                                          |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Increased blood hydrostatic pressure | Heart failure (right ventricular failure increases venous pressure, reducing fluid return); venous thrombosis                      |
 | Decreased blood oncotic pressure     | Liver disease (reduced albumin synthesis); nephrotic syndrome (protein loss in urine); malnutrition (protein deficiency)           |
 | Increased capillary permeability     | Inflammation (histamine increases permeability); allergic reactions; infection                                                     |
 | Lymphatic obstruction                | Filariasis (elephantiasis -- _Wuchereria bancrofti_ blocks lymphatic vessels); tumour compression; surgical removal of lymph nodes |
+
+</div>
 
 ## 33. Vaccination: Types and Principles
 
@@ -1801,10 +1969,14 @@ coverage is below this threshold, outbreaks can still occur.
 
 ### 33.2 Vaccine Efficacy and Effectiveness
 
+<div class="table-wrap">
+
 | Term                  | Definition                                                                                                        |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Vaccine efficacy      | Reduction in disease risk in a controlled clinical trial (ideal conditions)                                       |
 | Vaccine effectiveness | Reduction in disease risk in real-world conditions (accounting for compliance, logistics, population differences) |
+
+</div>
 
 **Example:** A trial of a COVID-19 vaccine reports 95% efficacy. This means:
 
@@ -1825,6 +1997,8 @@ coverage is below this threshold, outbreaks can still occur.
 
 ### 33.4 Passive vs Active Immunity
 
+<div class="table-wrap">
+
 | Feature         | Active Immunity                                   | Passive Immunity                                                                                                |
 | --------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | How acquired    | Exposure to antigen (infection or vaccination)    | Transfer of pre-formed antibodies                                                                               |
@@ -1832,9 +2006,13 @@ coverage is below this threshold, outbreaks can still occur.
 | Duration        | Long-term (months to years; immunological memory) | Short-term (weeks to months; antibodies are degraded; no memory)                                                |
 | Examples        | Vaccination; natural infection                    | Maternal antibodies crossing the placenta (IgG) or in breast milk (IgA); antivenom; monoclonal antibody therapy |
 
+</div>
+
 ## 34. Inflammation: The Innate Response in Detail
 
 ### 34.1 The Five Cardinal Signs of Inflammation
+
+<div class="table-wrap">
 
 | Sign                             | Latin         | Cause                                                                                  |
 | -------------------------------- | ------------- | -------------------------------------------------------------------------------------- |
@@ -1843,6 +2021,8 @@ coverage is below this threshold, outbreaks can still occur.
 | Swelling (tumour)                | Tumour        | Increased capillary permeability allows fluid to leak into tissues (oedema)            |
 | Pain (dolor)                     | Dolor         | Swelling compresses nerve endings; prostaglandins and bradykinin sensitise nociceptors |
 | Loss of function (functio laesa) | Functio laesa | Swelling and pain restrict movement of the affected area                               |
+
+</div>
 
 ### 34.2 Steps in the Inflammatory Response
 
@@ -1863,6 +2043,8 @@ coverage is below this threshold, outbreaks can still occur.
 
 ### 34.3 Inflammatory Mediators
 
+<div class="table-wrap">
+
 | Mediator                    | Source                                | Effects                                                                                                                            |
 | --------------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Histamine                   | Mast cells, basophils                 | Vasodilation; increased capillary permeability; bronchoconstriction; itching                                                       |
@@ -1872,6 +2054,8 @@ coverage is below this threshold, outbreaks can still occur.
 | TNF-$\alpha$                | Macrophages, T cells                  | Activates endothelium (expresses adhesion molecules for leukocyte binding); activates macrophages; causes fever; induces apoptosis |
 | Interleukin-1 (IL-1)        | Macrophages                           | Fever (acts on hypothalamus); activates T cells; stimulates acute-phase protein production by the liver                            |
 
+</div>
+
 ## 35. The Mononuclear Phagocyte System
 
 ### 35.1 Overview
@@ -1879,13 +2063,19 @@ coverage is below this threshold, outbreaks can still occur.
 The mononuclear phagocyte system (MPS) is a network of phagocytic cells derived from bone marrow
 precursors:
 
+<div class="table-wrap">
+
 | Cell Type      | Location                                                                                                                      | Function                                                                                                                    |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Monocyte       | Blood (circulating)                                                                                                           | Precursor of tissue macrophages; can migrate into tissues                                                                   |
 | Macrophage     | Tissues (liver = Kupffer cells; lungs = alveolar macrophages; brain = microglia; bone = osteoclasts; skin = Langerhans cells) | Phagocytosis; antigen presentation; cytokine production; tissue repair                                                      |
 | Dendritic cell | Tissues (skin, mucosal surfaces, lymph nodes)                                                                                 | Most potent antigen-presenting cell; bridges innate and adaptive immunity; presents antigen to naive T cells in lymph nodes |
 
+</div>
+
 ### 35.2 Macrophage Functions
+
+<div class="table-wrap">
 
 | Function                            | Description                                                                            |
 | ----------------------------------- | -------------------------------------------------------------------------------------- |
@@ -1896,12 +2086,16 @@ precursors:
 | Iron recycling                      | Recycles iron from haemoglobin in old red blood cells (via ferroportin)                |
 | Tumour surveillance                 | Macrophages can recognise and destroy tumour cells (part of cancer immunosurveillance) |
 
+</div>
+
 ## 36. Autoimmune Diseases
 
 ### 36.1 What Are Autoimmune Diseases?
 
 Autoimmune diseases occur when the immune system fails to distinguish self from non-self and attacks
 the body's own tissues:
+
+<div class="table-wrap">
 
 | Disease                            | Autoantigen                                                   | Affected Tissue                                       | Symptoms                                                                                      |
 | ---------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -1912,7 +2106,11 @@ the body's own tissues:
 | Systemic lupus erythematosus (SLE) | Nuclear antigens (DNA, histones)                              | Multiple organs (skin, kidneys, joints, heart, brain) | Butterfly rash; joint pain; kidney inflammation; fatigue; anaemia                             |
 | Coeliac disease                    | Tissue transglutaminase (tTG); gliadin (wheat protein)        | Small intestine (villi)                               | Villous atrophy; malabsorption; diarrhoea; weight loss; anaemia                               |
 
+</div>
+
 ### 36.2 Mechanisms of Autoimmunity
+
+<div class="table-wrap">
 
 | Mechanism                                          | Description                                                                                                                                                             |
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1920,6 +2118,8 @@ the body's own tissues:
 | Release of sequestered antigens                    | Tissues normally hidden from the immune system (e.g., lens of the eye, sperm in testes) are exposed by injury; immune system mounts response against them               |
 | Failure of regulatory T cells ($\mathrm{T_{reg}}$) | $\mathrm{T_{reg}}$ cells normally suppress self-reactive lymphocytes; deficiency leads to loss of self-tolerance                                                        |
 | Polyclonal B cell activation                       | Some pathogens (e.g., EBV) activate many B cells non-specifically, including self-reactive clones                                                                       |
+
+</div>
 
 :::caution
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
@@ -1929,6 +2129,8 @@ autoimmune condition triggered by gluten, not a food allergy.
 ## 37. Vaccination in Detail
 
 ### 37.1 Types of Vaccines
+
+<div class="table-wrap">
 
 | Vaccine Type         | Description                                                                                           | Examples                                                                      |
 | -------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -1940,10 +2142,14 @@ autoimmune condition triggered by gluten, not a food allergy.
 | mRNA                 | Synthetic mRNA encoding a pathogen antigen; host cells translate the mRNA to produce the antigen      | COVID-19 (Pfizer-BioNTech, Moderna)                                           |
 | Viral vector         | Harmless virus carries genetic material encoding a pathogen antigen                                   | COVID-19 (Oxford-AstraZeneca, Janssen); Ebola                                 |
 
+</div>
+
 ### 37.2 Herd Immunity
 
 Herd immunity occurs when a sufficient proportion of the population is immune to an infectious
 disease, providing indirect protection to those who are not immune.
+
+<div class="table-wrap">
 
 | Disease            | $R_0$ (Basic Reproduction Number) | Herd Immunity Threshold ($1 - \frac{1}{R_0}$) |
 | ------------------ | --------------------------------- | --------------------------------------------- |
@@ -1953,6 +2159,8 @@ disease, providing indirect protection to those who are not immune.
 | Seasonal influenza | 1.5--3                            | 33--67%                                       |
 | Smallpox           | 5--7                              | 80--86%                                       |
 
+</div>
+
 $$
 \text{Herd immunity threshold} = 1 - \frac{1}{R_0}
 $$
@@ -1961,12 +2169,18 @@ $$
 
 ### 38.1 HIV Structure and Life Cycle
 
+<div class="table-wrap">
+
 | Feature   | Description                                                                         |
 | --------- | ----------------------------------------------------------------------------------- |
 | Type      | Retrovirus (RNA genome)                                                             |
 | Genome    | Two single-stranded RNA molecules + reverse transcriptase enzyme                    |
 | Envelope  | Lipid bilayer derived from host cell membrane; viral glycoproteins (gp120 and gp41) |
 | Host cell | Helper T cells (CD4+ T cells), macrophages, dendritic cells                         |
+
+</div>
+
+<div class="table-wrap">
 
 | Step                     | Description                                                                                   |
 | ------------------------ | --------------------------------------------------------------------------------------------- |
@@ -1980,7 +2194,11 @@ $$
 | 8. Assembly              | New viral particles assemble at the host cell membrane                                        |
 | 9. Budding               | New virions bud from the host cell membrane, acquiring their envelope                         |
 
+</div>
+
 ### 38.2 HIV Disease Progression
+
+<div class="table-wrap">
 
 | Stage                           | Time                               | CD4+ T Cell Count                                   | Symptoms                                                                                                          |
 | ------------------------------- | ---------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -1988,7 +2206,11 @@ $$
 | Clinical latency (asymptomatic) | 2--10+ years                       | Gradually declining (500--1200 cells/$\mu$ L normal) | No symptoms; virus continues to replicate at low levels                                                           |
 | AIDS                            | When CD4+ count < 200 cells/$\mu$ L | Severely depleted                                   | Opportunistic infections (PCP pneumonia, TB, candidiasis, Kaposi's sarcoma); weight loss; death without treatment |
 
+</div>
+
 ### 38.3 Antiretroviral Therapy (ART)
+
+<div class="table-wrap">
 
 | Drug Class                                               | Target                                                       | Examples                                 |
 | -------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------- |
@@ -1998,9 +2220,13 @@ $$
 | Integrase inhibitors                                     | Inhibit HIV integrase (prevents proviral integration)        | Raltegravir, dolutegravir                |
 | Entry inhibitors                                         | Block gp120 binding or gp41-mediated fusion                  | Maraviroc (CCR5 antagonist), enfuvirtide |
 
+</div>
+
 ## 39. The Lymphatic System
 
 ### 39.1 Structure and Function
+
+<div class="table-wrap">
 
 | Component         | Description                                                                                             | Function                                                                                                           |
 | ----------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -2011,7 +2237,11 @@ $$
 | Spleen            | Largest lymphoid organ; filters blood (not lymph)                                                       | Removes old/damaged RBCs; stores platelets; contains lymphocytes; immune surveillance of blood                     |
 | Thymus            | Gland in the chest (above the heart); large in children, shrinks in adults                              | Site of T lymphocyte maturation; T cells learn to distinguish self from non-self                                   |
 
+</div>
+
 ### 39.2 Lymph Formation and Return
+
+<div class="table-wrap">
 
 | Step               | What Happens                                                                                                                                    |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2021,9 +2251,13 @@ $$
 | 4. Lymph formation | The remaining ~10% of tissue fluid enters lymph capillaries and becomes lymph                                                                   |
 | 5. Lymph return    | Lymph flows through lymph vessels, passes through lymph nodes, and enters the subclavian veins (via the thoracic duct and right lymphatic duct) |
 
+</div>
+
 ## 40. Inflammation: The Inflammatory Response
 
 ### 40.1 The Four Cardinal Signs of Inflammation
+
+<div class="table-wrap">
 
 | Sign     | Latin  | Cause                                                                                     |
 | -------- | ------ | ----------------------------------------------------------------------------------------- |
@@ -2032,7 +2266,11 @@ $$
 | Swelling | Tumour | Increased capillary permeability (fluid and proteins leak into tissues)                   |
 | Pain     | Dolor  | Swelling compresses nerve endings; prostaglandins and bradykinin sensitise pain receptors |
 
+</div>
+
 ### 40.2 Steps in the Inflammatory Response
+
+<div class="table-wrap">
 
 | Step                                | What Happens                                                                                                                                                                                                                                    |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2044,9 +2282,13 @@ $$
 | 6. Phagocytosis                     | Phagocytes engulf and digest pathogens and dead cells                                                                                                                                                                                           |
 | 7. Resolution                       | Once the infection is cleared, anti-inflammatory cytokines (IL-10, TGF-$\beta$) promote tissue repair and resolution of inflammation                                                                                                            |
 
+</div>
+
 ## 41. ABO Blood Groups
 
 ### 41.1 Blood Group Genetics
+
+<div class="table-wrap">
 
 | Blood Group | Antigen on RBC                  | Antibody in Plasma        | Genotype                             |
 | ----------- | ------------------------------- | ------------------------- | ------------------------------------ |
@@ -2055,7 +2297,11 @@ $$
 | AB          | Antigen A and Antigen B         | Neither anti-A nor anti-B | $\mathrm{I^AI^B}$                    |
 | O           | Neither antigen A nor antigen B | Both anti-A and anti-B    | $\mathrm{ii}$                        |
 
+</div>
+
 ### 41.2 Blood Transfusion Compatibility
+
+<div class="table-wrap">
 
 | Donor Blood Group | Can Donate To                 | Can Receive From                  |
 | ----------------- | ----------------------------- | --------------------------------- |
@@ -2063,6 +2309,8 @@ $$
 | A                 | A, AB                         | O, A                              |
 | B                 | B, AB                         | O, B                              |
 | AB                | AB only                       | O, A, B, AB (universal recipient) |
+
+</div>
 
 ### 41.3 Why Blood Group Matters
 
@@ -2078,12 +2326,18 @@ $$
 
 ### 42.1 Natural vs Artificial Immunity
 
+<div class="table-wrap">
+
 |                | Active Immunity                                                                                                                            | Passive Immunity                                                                                                                                                    |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Natural**    | Infection with pathogen; immune system produces its own antibodies and memory cells (long-lasting; e.g., chickenpox)                       | Antibodies transferred from mother to baby across placenta (IgG) or in breast milk (IgA); provides temporary protection (weeks to months)                           |
 | **Artificial** | Vaccination; immune system produces its own antibodies and memory cells in response to a vaccine (long-lasting; may require booster doses) | Injection of pre-formed antibodies (e.g., antivenom for snakebite; monoclonal antibodies for cancer treatment); provides immediate but temporary protection (weeks) |
 
+</div>
+
 ### 42.2 Key Differences
+
+<div class="table-wrap">
 
 | Feature                  | Active Immunity                                       | Passive Immunity                                                                  |
 | ------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -2093,9 +2347,13 @@ $$
 | Duration                 | Long-lasting (years to lifetime)                      | Short-lasting (weeks to months)                                                   |
 | Uses                     | Vaccination; natural infection                        | Antivenom; post-exposure prophylaxis (rabies immunoglobulin); neonatal protection |
 
+</div>
+
 ## 43. Monoclonal Antibodies
 
 ### 43.1 Production (Hybridoma Technology)
+
+<div class="table-wrap">
 
 | Step | Description                                                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -2107,7 +2365,11 @@ $$
 | 6    | Hybridomas are screened to find the one producing the desired antibody                                                          |
 | 7    | The selected hybridoma is cloned (grown in culture or in mice) to produce large quantities of identical (monoclonal) antibodies |
 
+</div>
+
 ### 43.2 Uses of Monoclonal Antibodies
+
+<div class="table-wrap">
 
 | Application          | Description                                                                                                                                    | Example                                                                                |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -2116,9 +2378,13 @@ $$
 | Diagnosis            | Monoclonal antibodies used in ELISA tests, Western blotting, and immunohistochemistry to detect specific proteins                              | Detecting HIV antibodies in blood; detecting specific pathogens                        |
 | Transplant rejection | Monoclonal antibodies can suppress the immune response against transplanted organs                                                             | Basiliximab (targets IL-2 receptor on T cells; prevents T cell activation)             |
 
+</div>
+
 ## 44. Primary and Secondary Immune Responses
 
 ### 44.1 Comparison
+
+<div class="table-wrap">
 
 | Feature                | Primary Immune Response                                                              | Secondary Immune Response                                                   |
 | ---------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
@@ -2128,6 +2394,8 @@ $$
 | Antibody affinity      | Lower affinity (antibodies are less specific)                                        | Higher affinity (somatic hypermutation has improved binding)                |
 | Memory cells           | Produced at the end of the response (plasma cells die; memory B and T cells persist) | Memory cells are reactivated; produce large numbers of plasma cells rapidly |
 | Duration of protection | Memory cells persist for years to lifetime                                           | Depends on antigen; some vaccines require booster doses                     |
+
+</div>
 
 ### 44.2 Why Vaccination Works
 
@@ -2146,13 +2414,19 @@ Vaccination exploits the memory of the secondary immune response:
 The complement system is a cascade of plasma proteins that enhances (complements) the immune
 response:
 
+<div class="table-wrap">
+
 | Pathway             | Trigger                                                                      | Key Steps                                                                                                                                                        |
 | ------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Classical pathway   | Antibody-antigen complexes (IgG or IgM bound to pathogen surface)            | C1 binds to antibodies $\to$ activates C4 and C2 $\to$ C3 convertase (C4b2b) $\to$ activates C3 $\to$ C5 convertase (C4b2b3b) $\to$ activates C5, C6, C7, C8, C9 |
 | Alternative pathway | Microbial surface molecules (no antibody required)                           | Spontaneous hydrolysis of C3 $\to$ C3b binds to microbial surface $\to$ Factor B and Factor D activate C3 convertase $\to$ amplification loop                    |
 | Lectin pathway      | Mannose-binding lectin (MBL) binds to mannose residues on microbial surfaces | MBL-associated serine proteases (MASPs) activate C4 and C2 (similar to classical pathway)                                                                        |
 
+</div>
+
 ### 45.2 Effects of Complement Activation
+
+<div class="table-wrap">
 
 | Effect                        | Description                                                                                                                                                                      |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2160,9 +2434,13 @@ response:
 | Inflammation                  | C3a and C5a are anaphylatoxins; they cause mast cell degranulation (histamine release); increase vascular permeability; attract phagocytes (chemotaxis)                          |
 | Membrane attack complex (MAC) | C5b, C6, C7, C8, and multiple C9 molecules form a pore in the pathogen's cell membrane; water and ions enter; cell lysis (particularly effective against Gram-negative bacteria) |
 
+</div>
+
 ## 46. Tissue Types and the Immune System
 
 ### 46.1 Types of T Lymphocytes
+
+<div class="table-wrap">
 
 | Type                                                     | Surface Marker   | Function                                                                                                                                                                    |
 | -------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2171,7 +2449,11 @@ response:
 | Regulatory T cells ($\mathrm{T_{reg}}$ CD4+ CD25+ FoxP3+) | CD4, CD25, FoxP3 | Suppress immune responses; maintain self-tolerance; prevent autoimmune reactions; secrete anti-inflammatory cytokines (IL-10, TGF-$\beta$)                                  |
 | Memory T cells                                           | --               | Long-lived; provide rapid secondary response upon re-exposure to the same antigen                                                                                           |
 
+</div>
+
 ### 46.2 MHC Class I vs MHC Class II
+
+<div class="table-wrap">
 
 | Feature       | MHC Class I                                                               | MHC Class II                                                      |
 | ------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -2180,9 +2462,13 @@ response:
 | Recognised by | CD8+ cytotoxic T cells                                                    | CD4+ helper T cells                                               |
 | Role          | Alerts the immune system to intracellular infections (viruses) and cancer | Activates helper T cells to coordinate the immune response        |
 
+</div>
+
 ## 47. Antibody Structure and Function
 
 ### 47.1 Antibody (Immunoglobulin) Structure
+
+<div class="table-wrap">
 
 | Region                                                                | Description                                                                                                     |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -2193,7 +2479,11 @@ response:
 | Hinge region                                                          | Flexible region between Fab and Fc portions; allows the antibody to bind to antigens at different angles        |
 | Disulphide bonds                                                      | Covalent bonds between heavy chains and between heavy and light chains; hold the antibody together              |
 
+</div>
+
 ### 47.2 Antibody Functions
+
+<div class="table-wrap">
 
 | Function                                        | Mechanism                                                                                                                                                   |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2203,7 +2493,11 @@ response:
 | Activation of complement                        | Antibodies bound to the pathogen surface activate the classical complement pathway (C1 binds to the Fc region)                                              |
 | Antibody-dependent cellular cytotoxicity (ADCC) | Natural killer (NK) cells recognise the Fc region of antibodies bound to infected cells; NK cells release perforin and granzymes, killing the infected cell |
 
+</div>
+
 ### 47.3 Antibody Classes
+
+<div class="table-wrap">
 
 | Class | Structure                                 | Location                                                  | Function                                                                                                                              |
 | ----- | ----------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2213,12 +2507,16 @@ response:
 | IgE   | Monomer                                   | Bound to mast cells and basophils                         | Allergic reactions (cross-links IgE on mast cells $\to$ degranulation $\to$ histamine release); defence against parasites (helminths) |
 | IgD   | Monomer                                   | B cell surface                                            | Function of membrane-bound IgD is not fully understood; may act as a B cell receptor                                                  |
 
+</div>
+
 ## 48. The Human Microbiome
 
 ### 48.1 What Is the Microbiome?
 
 The human microbiome is the collection of all microorganisms (bacteria, archaea, fungi, viruses)
 that live on and in the human body.
+
+<div class="table-wrap">
 
 | Site                  | Approximate Bacterial Density | Dominant Phyla                                                                               |
 | --------------------- | ----------------------------- | -------------------------------------------------------------------------------------------- |
@@ -2227,7 +2525,11 @@ that live on and in the human body.
 | Gut (large intestine) | ~10$^{11}$ per gram of faeces | _Bacteroidetes_, _Firmicutes_ (especially _Clostridium_, _Lactobacillus_, _Bifidobacterium_) |
 | Vagina                | ~10$^9$ per mL                | _Lactobacillus_ dominant (produces lactic acid, maintains low pH)                            |
 
+</div>
+
 ### 48.2 Functions of the Gut Microbiome
+
+<div class="table-wrap">
 
 | Function            | Description                                                                                                                                                                                                  |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2237,13 +2539,19 @@ that live on and in the human body.
 | Pathogen resistance | Competes with pathogens for nutrients and attachment sites; produces bacteriocins (antimicrobial peptides) that kill competing bacteria                                                                      |
 | Metabolic effects   | Influences energy harvest (people with different gut microbiota extract different amounts of energy from the same food); links to obesity, insulin resistance, and fatty liver disease                       |
 
+</div>
+
 ### 48.3 Factors That Disrupt the Microbiome
+
+<div class="table-wrap">
 
 | Factor       | Effect                                                                                                                                                              |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Antibiotics  | Kill beneficial bacteria; can cause C. Difficile overgrowth; may take months for microbiome to recover                                                              |
 | Diet         | High-fibre diet promotes diversity; high-sugar/high-fat diet reduces diversity; fermented foods (yogurt, kefir, sauerkraut) introduce beneficial bacteria           |
 | Birth method | Vaginal birth exposes the newborn to the mother's microbiota; Caesarean section delays colonisation; associated with higher rates of asthma, allergies, and obesity |
+
+</div>
 
 ## 49. ELISA (Enzyme-Linked Immunosorbent Assay)
 
@@ -2254,6 +2562,8 @@ antigen (or antibody) in a sample. The enzyme catalyses a colour-change reaction
 proportional to the amount of target molecule present.
 
 ### 49.2 Direct ELISA Steps
+
+<div class="table-wrap">
 
 | Step                                    | Description                                                                                                                                    |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2266,7 +2576,11 @@ proportional to the amount of target molecule present.
 | 7. Add substrate                        | A colourless substrate is added; the enzyme converts it to a coloured product                                                                  |
 | 8. Measure                              | The colour intensity is measured using a colorimeter or spectrophotometer; the absorbance is proportional to the amount of antigen present     |
 
+</div>
+
 ### 49.3 Applications
+
+<div class="table-wrap">
 
 | Application       | What Is Detected                                                                  |
 | ----------------- | --------------------------------------------------------------------------------- |
@@ -2275,9 +2589,13 @@ proportional to the amount of target molecule present.
 | Drug testing      | Detecting drugs of abuse or performance-enhancing substances                      |
 | Food testing      | Detecting allergens (e.g., peanut protein) or food-borne pathogens                |
 
+</div>
+
 ## 50. Types of Immunity
 
 ### 50.1 Active vs Passive Immunity
+
+<div class="table-wrap">
 
 | Feature                  | Active Immunity                                                   | Passive Immunity                                                               |
 | ------------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -2288,7 +2606,11 @@ proportional to the amount of target molecule present.
 | Example (natural)        | Catching chickenpox and recovering                                | Antibodies crossing the placenta from mother to foetus; IgA in breast milk     |
 | Example (artificial)     | Vaccination (e.g., MMR, COVID-19)                                 | Injection of antibodies (e.g., anti-venom for snake bites; anti-tetanus serum) |
 
+</div>
+
 ### 50.2 Natural vs Artificial Immunity
+
+<div class="table-wrap">
 
 | Feature            | Natural                                                                | Artificial                                                             |
 | ------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -2297,6 +2619,8 @@ proportional to the amount of target molecule present.
 | Active artificial  | --                                                                     | Vaccination (e.g., BCG vaccine for tuberculosis)                       |
 | Passive natural    | Antibodies from mother (placenta, breast milk)                         | --                                                                     |
 | Passive artificial | --                                                                     | Injection of antibodies (e.g., rabies immunoglobulin after a dog bite) |
+
+</div>
 
 ## 51. The Complement System
 
@@ -2308,19 +2632,27 @@ inactive form.
 
 ### 51.2 Three Pathways of Activation
 
+<div class="table-wrap">
+
 | Pathway             | Trigger                                                                    | Description                                                                                           |
 | ------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Classical pathway   | Antigen-antibody complexes (IgG or IgM bound to antigen)                   | C1 binds to the antibody; activates C4 and C2; forms C3 convertase (C4b2b)                            |
 | Alternative pathway | Microbial cell surface molecules (e.g., LPS on Gram-negative bacteria)     | Spontaneous hydrolysis of C3; factor B and factor D form C3 convertase (C3bBb)                        |
 | Lectin pathway      | Mannose-binding lectin (MBL) binds to mannose sugars on microbial surfaces | MBL-associated serine proteases (MASPs) activate C4 and C2; same as classical pathway from this point |
 
+</div>
+
 ### 51.3 Effects of Complement Activation
+
+<div class="table-wrap">
 
 | Effect                        | Description                                                                                                                                                                                                 |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Opsonisation                  | C3b coats the surface of the pathogen; phagocytes have C3b receptors; binding is enhanced; phagocytosis is more efficient                                                                                   |
 | Inflammation                  | C3a and C5a act as anaphylatoxins; they cause mast cells to release histamine; increase vascular permeability; attract phagocytes to the site of infection (chemotaxis)                                     |
 | Membrane attack complex (MAC) | C5b initiates the formation of a pore (channel) in the pathogen's cell membrane (C5b, C6, C7, C8, multiple C9); the MAC allows water and ions to enter the pathogen; the pathogen swells and lyses (bursts) |
+
+</div>
 
 ---
 

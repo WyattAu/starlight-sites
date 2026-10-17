@@ -150,6 +150,29 @@ export default defineConfig({
     sitemap(),
     compress(),
   ],
+
+  // The nine course files that used to sit at the docs root were split into the
+  // numbered tracks years ago, and every track is now the fuller version of the
+  // course it came from. The root copies were left behind and had drifted into
+  // a second, thinner presentation of material the tracks already teach, so a
+  // reader who landed on one got the worse account of the same subject.
+  //
+  // They are removed, and these redirects keep every existing reference working
+  // -- the ~64 internal links to these routes, the cross-site references from
+  // the other 44 sites, and any URL a reader bookmarked or a search engine
+  // indexed. Without them, deleting the files would turn 64 working links into
+  // 404s across the whole network.
+  redirects: {
+    '/complex-analysis': '/6-complex-analysis',
+    '/abstract-algebra': '/1-abstract-algebra',
+    '/linear-algebra': '/2-linear-algebra',
+    '/real-analysis': '/3-real-analysis',
+    '/multivariable-calculus': '/4-multivariable-calculus',
+    '/differential-equations': '/5-ordinary-differential-equations',
+    '/number-theory': '/7-number-theory',
+    '/probability': '/8-probability-and-statistics',
+    '/probability-and-statistics': '/8-probability-and-statistics',
+  },
   vite: {
     plugins: [tailwindcss()],
     resolve: {

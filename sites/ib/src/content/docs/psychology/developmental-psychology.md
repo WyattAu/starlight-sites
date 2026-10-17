@@ -176,6 +176,8 @@ children and tracking change over time:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)                     | Focus                               | Key Finding                                                                                                                                                                                         |
 | ------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ainsworth (1970)                      | Attachment classification           | The Strange Situation procedure identified three attachment types: secure, insecure-avoidant, and insecure-resistant, linked to caregiver sensitivity and responsiveness.                           |
@@ -183,6 +185,8 @@ children and tracking change over time:
 | Piaget (1952)                         | Cognitive development               | Proposed four qualitatively distinct stages of cognitive development, supported by conservation and object permanence experiments with children of different ages.                                  |
 | Vygotsky (1978)                       | Sociocultural theory of development | Argued that cognitive development occurs through social interaction within the ZPD, where scaffolding by a more knowledgeable other enables the child to achieve higher cognitive functions.        |
 | Steinberg (2008)                      | Adolescent risk-taking              | Reviewed evidence for the dual-systems model: the socioemotional system matures earlier than the cognitive-control system, explaining heightened risk-taking in mid-adolescence.                    |
+
+</div>
 
 ## Summary
 
@@ -198,11 +202,15 @@ populations.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Link                                                            |
 | ------------------------------- | --------------------------------------------------------------- |
 | Attachment Theory               | [View](/psychology/developmental/attachment-theory/)     |
 | Cognitive Development           | [View](/psychology/developmental/cognitive-development/) |
 | Sociocultural Level of Analysis | [View](/psychology/sociocultural-level-of-analysis/)     |
+
+</div>
 
 ## Intuition
 

@@ -374,6 +374,8 @@ So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blac
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Function | Bounded? | Riemann integrable on $[0,1]$? | Why |
 | -------- | -------- | ------------------------------ | --- |
 | $f(x) = x$ | yes | yes | continuous |
@@ -381,6 +383,8 @@ So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blac
 | $t(x)$ (Thomae) | yes | **yes**, integral $0$ | discontinuous only on $\mathbb{Q}$, which has measure zero |
 | $f(x) = 1/x$ | no | improper only | unbounded at $0$ |
 | $f(x) = \sin(1/x)$ | yes | yes | one discontinuity |
+
+</div>
 
 **Why Dirichlet fails and Thomae succeeds.** Every upper sum for Dirichlet's
 function is $1$ (every interval contains a rational) and every lower sum is $0$

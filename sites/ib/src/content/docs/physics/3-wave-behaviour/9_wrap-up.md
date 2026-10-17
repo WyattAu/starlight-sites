@@ -231,6 +231,8 @@ Transferring matter.
 
 ### Key Wave Quantities
 
+<div class="table-wrap">
+
 | Quantity   | Symbol    | Unit       | Definition                                       |
 | :--------- | :-------- | :--------- | :----------------------------------------------- |
 | Wavelength | $\lambda$ | m          | Distance between two consecutive points in phase |
@@ -238,6 +240,8 @@ Transferring matter.
 | Period     | $T$       | s          | Time for one complete oscillation                |
 | Amplitude  | $A$       | m          | Maximum displacement from equilibrium            |
 | Wave speed | $v$       | m s$^{-1}$ | Speed at which the wave propagates               |
+
+</div>
 
 ### The Wave Equation
 
@@ -259,11 +263,15 @@ $$
 
 ### Transverse vs Longitudinal Waves
 
+<div class="table-wrap">
+
 | Property              | Transverse                   | Longitudinal                |
 | :-------------------- | :--------------------------- | :-------------------------- |
 | Oscillation direction | Perpendicular to propagation | Parallel to propagation     |
 | Examples              | EM waves, waves on a string  | Sound waves, pressure waves |
 | Polarisation          | Can be polarised             | Cannot be polarised         |
+
+</div>
 
 > **Exam Tip:** The fact that only transverse waves can be polarised is frequently tested. If a wave
 > can be polarised, it must be transverse.
@@ -481,11 +489,15 @@ Directions superpose. Unlike travelling waves, standing waves do not transfer en
 
 For a string of length $L$ fixed at both ends:
 
+<div class="table-wrap">
+
 | Harmonic             | Pattern       | Wavelength                 | Frequency                    |
 | :------------------- | :------------ | :------------------------- | :--------------------------- |
 | Fundamental ($n=1$)  | One antinode  | $\lambda_1 = 2L$           | $f_1 = \frac{v}{2L}$         |
 | 2nd harmonic ($n=2$) | Two antinodes | $\lambda_2 = L$            | $f_2 = \frac{2v}{2L} = 2f_1$ |
 | $n$ Th harmonic       | $n$ antinodes | $\lambda_n = \frac{2L}{n}$ | $f_n = \frac{nv}{2L} = nf_1$ |
+
+</div>
 
 The wave speed on a string under tension $T$ with mass per unit length $\mu$ is:
 
@@ -607,6 +619,8 @@ $$
 
 ## Quick Reference: Key Wave Formulas
 
+<div class="table-wrap">
+
 | Formula                                             | Application                      |
 | :-------------------------------------------------- | :------------------------------- |
 | $v = f\lambda$                                      | Wave speed                       |
@@ -620,6 +634,8 @@ $$
 | $v = \sqrt{\frac{T}{\mu}}$                          | Wave speed on a string           |
 | $f' = f\left(\frac{v \pm v_o}{v \mp v_s}\right)$    | Doppler effect (sound)           |
 | $\frac{\Delta\lambda}{\lambda} \approx \frac{v}{c}$ | Doppler shift (light, $v \ll c$) |
+
+</div>
 
 ## Intuition
 

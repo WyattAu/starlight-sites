@@ -221,6 +221,8 @@ tableOfContents: false
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -233,6 +235,8 @@ tableOfContents: false
 | 8        | C             |
 | 9        | A             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of classical mechanics. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -250,5 +254,5 @@ tableOfContents: false
 - **Practice:** Practice problems for revision.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

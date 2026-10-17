@@ -60,6 +60,8 @@ graph LR
 
 ### Snapshot Types
 
+<div class="table-wrap">
+
 | Type             | Trigger            | Retention                   | Use Case                |
 | ---------------- | ------------------ | --------------------------- | ----------------------- |
 | Periodic         | Cron schedule      | Configured policy           | Day-to-day protection   |
@@ -67,9 +69,13 @@ graph LR
 | Manual           | Administrator      | Manual                      | Before risky operations |
 | Boot environment | System update      | Until rollback needed       | System recovery         |
 
+</div>
+
 ### Snapshot Retention Policies
 
 TrueNAS provides built-in snapshot task scheduling with configurable retention:
+
+<div class="table-wrap">
 
 | Schedule         | Naming Pattern     | Retention | Typical Use            |
 | ---------------- | ------------------ | --------- | ---------------------- |
@@ -78,6 +84,8 @@ TrueNAS provides built-in snapshot task scheduling with configurable retention:
 | Daily            | `autosnap_daily`   | 2 weeks   | File servers           |
 | Weekly           | `autosnap_weekly`  | 1 month   | Media, archives        |
 | Monthly          | `autosnap_monthly` | 1 year    | Long-term retention    |
+
+</div>
 
 ### Snapshot Space Management
 
@@ -144,6 +152,8 @@ zfs send -Rcv tank/data@snapshot2 | \
 
 ### Send Flags
 
+<div class="table-wrap">
+
 | Flag | Meaning                                     | When to Use                    |
 | ---- | ------------------------------------------- | ------------------------------ |
 | `-R` | Recursive, send all child datasets         | Replicating entire hierarchies |
@@ -153,6 +163,8 @@ zfs send -Rcv tank/data@snapshot2 | \
 | `-i` | Incremental (from snapshot)                 | All subsequent replications    |
 | `-w` | Raw send (preserves encryption)             | Encrypted datasets             |
 | `-L` | Large block send (for recordsize &gt; 128K) | Large recordsize datasets      |
+
+</div>
 
 ### Bandwidth Limiting
 
@@ -182,6 +194,8 @@ zfs send -Rv tank/data@snapshot2 | \
 
 TrueNAS Cloud Sync supports:
 
+<div class="table-wrap">
+
 | Provider             | Protocol      | Encryption        | Notes                |
 | -------------------- | ------------- | ----------------- | -------------------- |
 | Amazon S3            | S3 API        | TLS + server-side | Most common          |
@@ -190,6 +204,8 @@ TrueNAS Cloud Sync supports:
 | Microsoft Azure Blob | Azure API     | TLS               | Good for Azure users |
 | Wasabi               | S3-compatible | TLS               | No egress fees       |
 | MinIO                | S3-compatible | TLS               | Self-hosted S3       |
+
+</div>
 
 ### Cloud Sync Configuration
 
@@ -277,6 +293,8 @@ Set up monitoring and alerting to detect backup failures:
 RPO defines the maximum acceptable data loss measured in time. If your RPO is 1 hour, your backup
 Strategy must ensure that no more than 1 hour of data can be lost.
 
+<div class="table-wrap">
+
 | RPO                | Strategy                              | TrueNAS Configuration                        |
 | ------------------ | ------------------------------------- | -------------------------------------------- |
 | 0 (zero data loss) | Synchronous replication               | Active-passive cluster with shared storage   |
@@ -285,16 +303,22 @@ Strategy must ensure that no more than 1 hour of data can be lost.
 | 24 hours           | Daily snapshots + daily replication   | Snapshot daily, replicate daily              |
 | 1 week             | Weekly snapshots + weekly replication | Snapshot weekly, replicate weekly            |
 
+</div>
+
 ### Recovery Time Objective (RTO)
 
 RTO defines the maximum acceptable downtime after a disaster. If your RTO is 4 hours, you must be
 Able to restore service within 4 hours.
+
+<div class="table-wrap">
 
 | RTO     | Strategy                                              |
 | ------- | ----------------------------------------------------- |
 | Minutes | Active-passive cluster with automatic failover        |
 | Hours   | Standby hardware + ZFS replication + scripted restore |
 | Days    | New hardware + cloud backup restore                   |
+
+</div>
 
 ---
 
@@ -475,11 +499,15 @@ $$
 Where `Effective_Bandwidth` accounts for compression, deduplication, and network overhead ( 50–80%
 of raw bandwidth).
 
+<div class="table-wrap">
+
 | Backup Type      | Data Size | Network Bandwidth | Effective Bandwidth | Time        |
 | ---------------- | --------- | ----------------- | ------------------- | ----------- |
 | Full (1 TB)      | 1 TB      | 1 Gbps            | 80 MB/s             | ~3.5 hours  |
 | Incremental (5%) | 50 GB     | 1 Gbps            | 80 MB/s             | ~10 minutes |
 | Full (1 TB)      | 1 TB      | 100 Mbps          | 8 MB/s              | ~35 hours   |
+
+</div>
 
 ## ZFS Snapshot Advanced Configuration
 
@@ -561,12 +589,16 @@ Backblaze B2 is a cost-effective alternative to AWS S3 for backup storage:
 
 ### RPO/RTO Matrix
 
+<div class="table-wrap">
+
 | Data Category        | RPO    | RTO      | Backup Method                   | Recovery Procedure         |
 | -------------------- | ------ | -------- | ------------------------------- | -------------------------- |
 | Critical databases   | 15 min | 1 hour   | ZFS replication + snapshots     | Failover to replica        |
 | User files           | 1 day  | 4 hours  | Daily snapshots + cloud sync    | Restore from snapshot      |
 | Media library        | 1 week | 24 hours | Weekly snapshots + cloud sync   | Restore from cloud         |
 | System configuration | 1 day  | 2 hours  | Daily snapshots + config export | Reinstall + restore config |
+
+</div>
 
 ### Disaster Recovery Runbook
 
@@ -615,12 +647,16 @@ zfs get encryption tank/encrypted
 
 Encryption keys can be managed in several ways:
 
+<div class="table-wrap">
+
 | Method     | Storage            | Security         | Convenience |
 | ---------- | ------------------ | ---------------- | ----------- |
 | Passphrase | Human memory       | High (if strong) | Medium      |
 | Key file   | File on disk/USB   | Medium           | High        |
 | Hex key    | Configuration file | Medium           | High        |
 | PKCS#11    | Hardware token     | Very High        | Low         |
+
+</div>
 
 ### Key Escrow
 
@@ -640,6 +676,8 @@ Irrecoverable. There is no backdoor. Always have a verified backup of the key.
 
 Configure alerts under **System** → **Alert Settings** → **Advanced**:
 
+<div class="table-wrap">
+
 | Alert Condition                  | Severity | Action                             |
 | -------------------------------- | -------- | ---------------------------------- |
 | Snapshot task failed             | Critical | Investigate immediately            |
@@ -648,6 +686,8 @@ Configure alerts under **System** → **Alert Settings** → **Advanced**:
 | Pool capacity above 80%          | Warning  | Plan expansion                     |
 | SMART predictive failure         | Critical | Replace drive immediately          |
 | Scrub errors found               | Critical | Investigate and repair             |
+
+</div>
 
 ### Backup Health Dashboard
 
@@ -901,6 +941,8 @@ graph LR
 
 ### RPO/RTO Matrix by Workload
 
+<div class="table-wrap">
+
 | Workload                | Acceptable RPO     | Acceptable RTO | Recommended Strategy                            |
 | ----------------------- | ------------------ | -------------- | ----------------------------------------------- |
 | Production database     | 0 (zero data loss) | 15-30 min      | Synchronous replication + streaming replication |
@@ -908,6 +950,8 @@ graph LR
 | Media library           | 24 hours           | 24 hours       | Daily snapshots + daily replication             |
 | Development environment | 24 hours           | 48 hours       | Daily snapshots + weekly replication            |
 | Archive/cold storage    | 7 days             | 72 hours       | Weekly snapshots + monthly cloud sync           |
+
+</div>
 
 ## Cloud Sync Error Handling and Retention
 
@@ -945,11 +989,15 @@ midclt call cloudsync.update 1 '{
 
 Retention strategies:
 
+<div class="table-wrap">
+
 | Strategy                      | When to Use                  | Trade-offs                            |
 | ----------------------------- | ---------------------------- | ------------------------------------- |
 | Count-based (keep last N)     | Unpredictable snapshot sizes | May keep too much or too little data  |
 | Time-based (keep last N days) | Predictable recovery window  | Storage usage varies with change rate |
 | Custom (count + lifetime)     | Balanced approach            | More complex to reason about          |
+
+</div>
 
 ### Handling Rate Limits
 

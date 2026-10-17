@@ -38,6 +38,8 @@ within this new strategic environment.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                | Dates     | Key Themes                                                     |
 | --------------------- | --------- | -------------------------------------------------------------- |
 | Bismarckian system    | 1871-1890 | Alliance diplomacy, isolation of France, Congress of Berlin    |
@@ -45,6 +47,8 @@ within this new strategic environment.
 | Alliance blocs        | 1890-1907 | Triple Alliance, Franco-Russian Alliance, Entente Cordiale     |
 | Arms race             | 1900-1914 | Anglo-German naval rivalry, military expansion                 |
 | July Crisis           | 1914       | Assassination, ultimatums, mobilisation, war                   |
+
+</div>
 
 ## Key Events with Dates and Significance
 

@@ -89,6 +89,8 @@ The sociocultural approach explains behaviour in terms of cultural and social in
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Approach | Focus | Determinism | Research methods | Strengths | Weaknesses |
 |----------|-------|-------------|------------------|-----------|------------|
 | Biological | Brain, genetics, hormones | Biological | Brain imaging, case studies | Scientific, objective | Reductionist |
@@ -97,6 +99,8 @@ The sociocultural approach explains behaviour in terms of cultural and social in
 | Behavioural | Learned behaviour | Environmental | Lab experiments, observations | Scientific, practical | Deterministic |
 | Humanistic | Free will, growth | Free will | Interviews, self-report | Holistic, optimistic | Unscientific |
 | Sociocultural | Culture, society | Social | Cross-cultural studies | Explains differences | Ignores biology |
+
+</div>
 
 ## Exam Tips
 

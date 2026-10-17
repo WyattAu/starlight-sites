@@ -23,12 +23,16 @@ tableOfContents: false
 The reaction $A + 2B \rightarrow C$ was studied at constant temperature. The following initial rate
 data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[A]$ (mol/dm$^{3}$) | $[B]$ (mol/dm$^{3}$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | -------------------- | -------------------- | ------------------------------------- |
 | 1          | 0.10                 | 0.10                 | $1.2 \times 10^{-4}$                  |
 | 2          | 0.20                 | 0.10                 | $2.4 \times 10^{-4}$                  |
 | 3          | 0.10                 | 0.20                 | $4.8 \times 10^{-4}$                  |
 | 4          | 0.30                 | 0.30                 | $2.16 \times 10^{-3}$                 |
+
+</div>
 
 (a) Determine the order of reaction with respect to $A$ and with respect to $B$. [3 marks]
 
@@ -317,6 +321,8 @@ This matches the experimental rate equation.
 
 For the reaction $A \rightarrow B + C$ The following data were collected:
 
+<div class="table-wrap">
+
 | Time (s) | $[A]$ (mol/dm$^{3}$) |
 | -------- | -------------------- |
 | 0        | 0.80                 |
@@ -324,6 +330,8 @@ For the reaction $A \rightarrow B + C$ The following data were collected:
 | 200      | 0.45                 |
 | 300      | 0.34                 |
 | 400      | 0.25                 |
+
+</div>
 
 (a) Plot a concentration-time graph and determine the order of reaction with respect to $A$. [3
 marks]
@@ -360,6 +368,8 @@ of decrease also decreases proportionally). This is characteristic of a **first-
 
 For a first-order reaction, a plot of $\ln[A]$ vs time should be a straight line:
 
+<div class="table-wrap">
+
 | Time (s) | $[A]$ | $\ln[A]$ |
 | -------- | ----- | -------- |
 | 0        | 0.80  | $-0.223$ |
@@ -367,6 +377,8 @@ For a first-order reaction, a plot of $\ln[A]$ vs time should be a straight line
 | 200      | 0.45  | $-0.799$ |
 | 300      | 0.34  | $-1.079$ |
 | 400      | 0.25  | $-1.386$ |
+
+</div>
 
 The $\ln[A]$ values decrease approximately linearly (drops by about 0.29 per 100 s interval),
 confirming **first order**.

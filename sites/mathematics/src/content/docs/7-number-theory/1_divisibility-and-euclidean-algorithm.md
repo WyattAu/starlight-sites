@@ -218,12 +218,16 @@ it terminates, the last non-zero remainder is $\gcd(a, b)$.
 
 **Worked example.** $\gcd(252, 198)$:
 
+<div class="table-wrap">
+
 | Step | Equation | Observation |
 | ---- | -------- | ----------- |
 | 1 | $252 = 198 \cdot 1 + 54$ | $\gcd(252, 198) = \gcd(198, 54)$ |
 | 2 | $198 = 54 \cdot 3 + 36$ | $\gcd(198, 54) = \gcd(54, 36)$ |
 | 3 | $54 = 36 \cdot 1 + 18$ | $\gcd(54, 36) = \gcd(36, 18)$ |
 | 4 | $36 = 18 \cdot 2 + 0$ | $\gcd(36, 18) = \gcd(18, 0) = 18$ |
+
+</div>
 
 Answer: $\gcd(252, 198) = 18$.
 
@@ -252,12 +256,16 @@ $(e, \varphi(n))$. The 2,300-year-old algorithm is running in every TLS handshak
 
 ### 0.7 What Can Go Wrong
 
+<div class="table-wrap">
+
 | Pitfall | Why it happens | Fix |
 | ------- | -------------- | --- |
 | Negative remainder from division algorithm | Adjusting $q$ the wrong way for negative $a$ | Use $r = ((a \bmod b) + b) \bmod b$ |
 | $\gcd(0, 0)$ | No largest common divisor exists | Define $\gcd(0,0) = 0$ by convention, or don't call the function |
 | Bézout coefficients not unique | $(x + tb, y - ta)$ also works for all $t \in \mathbb{Z}$ | Report one pair; the exam wants *a* pair |
 | Cancelling $c$ from $ac \equiv bc$ | $\gcd(c, n) \neq 1$ | Only cancel when $c$ is invertible mod $n$ |
+
+</div>
 
 ### 0.8 Summary: The Chain of Reasoning
 

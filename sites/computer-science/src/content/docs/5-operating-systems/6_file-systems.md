@@ -54,11 +54,15 @@ Pointers to data blocks. Supports direct access without external fragmentation.
 - _Disadvantage:_ Index block may be too small for large files (solved by linked index blocks or
   multi-level indexing, as in the inode scheme of §6.3).
 
+<div class="table-wrap">
+
 | Method     | Sequential | Direct | External Frag. | Internal Frag. |
 | ---------- | ---------- | ------ | -------------- | -------------- |
 | Contiguous | Excellent  | Yes    | Yes            | Possible       |
 | Linked     | Good       | No     | No             | None           |
 | Indexed    | Good       | Yes    | No             | Index block    |
+
+</div>
 
 <details>
 <summary>Worked Example 6.1, Allocation Comparison</summary>
@@ -79,6 +83,8 @@ _Indexed:_ Index block at position 0. Index block contains pointers to data bloc
 
 ### 6.3 Directory Structures
 
+<div class="table-wrap">
+
 | Structure     | Description                                  |
 | ------------- | -------------------------------------------- |
 | Single-level  | All files in one directory                   |
@@ -86,6 +92,8 @@ _Indexed:_ Index block at position 0. Index block contains pointers to data bloc
 | Tree          | Hierarchical tree with subdirectories        |
 | Acyclic graph | Tree with shared subdirectories (hard links) |
 | General graph | Allows cycles; requires garbage collection   |
+
+</div>
 
 **Path resolution.** A path name is resolved by traversing the directory tree from the root (`/`) Or
 the current working directory. Each component is looked up in the current directory to find the Next
@@ -103,6 +111,8 @@ Count reaches zero).
 An **inode** (index node) stores metadata about a file (but not the file name, which is in the
 Directory entry):
 
+<div class="table-wrap">
+
 | Field          | Description                                        |
 | -------------- | -------------------------------------------------- |
 | Mode           | File type and permissions                          |
@@ -112,6 +122,8 @@ Directory entry):
 | Link count     | Number of hard links to this inode                 |
 | Block pointers | Direct, indirect, double-indirect, triple-indirect |
 | Blocks         | Number of blocks allocated                         |
+
+</div>
 
 **Block pointer scheme (ext4 with 4 KiB blocks, 4-byte pointers):**
 
@@ -133,11 +145,15 @@ Dedicated **journal**. After a crash, replay the journal to restore consistency.
 
 **Journaling modes (ext4):**
 
+<div class="table-wrap">
+
 | Mode        | Description                                                       |
 | ----------- | ----------------------------------------------------------------- |
 | `ordered`   | Metadata journaled; data written before metadata commit (default) |
 | `writeback` | Metadata journaled; data not journaled (fastest, data loss risk)  |
 | `journal`   | Both metadata and data journaled (safest, slowest)                |
+
+</div>
 
 **Write-ahead logging (WAL).** The journal entry is written to stable storage before the actual
 Modification. Recovery scans the journal: committed entries are applied; uncommitted entries are
@@ -150,6 +166,8 @@ Discarded.
 **RAID (Redundant Array of Independent Disks)** combines multiple disks for performance,
 reliability, Or both.
 
+<div class="table-wrap">
+
 | Level | Min Disks | Description                                  | Fault Tolerance   | Write Performance |
 | ----- | --------- | -------------------------------------------- | ----------------- | ----------------- |
 | 0     | 1         | Striping only, no redundancy                 | None              | Excellent         |
@@ -161,6 +179,8 @@ reliability, Or both.
 | 6     | 4         | Block-level striping with dual parity        | 2 disks           | Moderate          |
 | 10    | 4         | Mirrored sets of stripes (RAID 1 + RAID 0)   | 1 disk per mirror | Excellent         |
 | 50    | 6         | Parity sets of stripes (RAID 5 + RAID 0)     | 1 disk per set    | Good              |
+
+</div>
 
 **Effective capacity.** For $n$ disks of capacity $C$:
 
@@ -216,12 +236,16 @@ Modifying the kernel. The FUSE kernel module routes VFS operations to a user-spa
 
 ### 6.7 Free Space Management
 
+<div class="table-wrap">
+
 | Method      | Description                                             |
 | ----------- | ------------------------------------------------------- |
 | Bitmap      | One bit per block; 1 = free, 0 = used. Simple and fast. |
 | Linked list | Free blocks linked together. Slow to traverse.          |
 | Grouping    | First free block stores addresses of $n$ free blocks.   |
 | Counting    | Track contiguous free blocks as (start, count) pairs.   |
+
+</div>
 
 ### 6.8 File System Consistency
 

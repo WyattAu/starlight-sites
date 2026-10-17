@@ -88,6 +88,8 @@ suggests that", "the most important factor was..."
 Understanding how and why historical interpretations change over time is essential. Key schools of
 thought include:
 
+<div class="table-wrap">
+
 | School           | Approach                               | Example                                              |
 | ---------------- | -------------------------------------- | ---------------------------------------------------- |
 | Orthodox         | Contemporary or early accounts         | Allied blame on Germany for WWI                      |
@@ -95,6 +97,8 @@ thought include:
 | Post-revisionist | Synthesises earlier positions          | Both sides share responsibility for the Cold War     |
 | Marxist          | Economic and class-driven explanations | The Reformation as a social revolution               |
 | Whig             | Progress towards modernity             | British history as inevitable democratic development |
+
+</div>
 
 When evaluating an interpretation, ask:
 
@@ -158,11 +162,15 @@ When given two historical interpretations to evaluate:
 
 ### NOP Framework
 
+<div class="table-wrap">
+
 | Element     | Questions to Ask                                                                    |
 | ----------- | ----------------------------------------------------------------------------------- |
 | **N**ature  | What type of source is this? (Letter, speech, photograph, cartoon, official report) |
 | **O**rigin  | Who created it? When? Where?                                                        |
 | **P**urpose | Why was it created? What was the intended effect?                                   |
+
+</div>
 
 ### Utility Assessment
 

@@ -105,6 +105,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 
 ### Genetic Terminology (OL/HL)
 
+<div class="table-wrap">
+
 | Term         | Definition                                  |
 | ------------ | ------------------------------------------- |
 | Gene         | Section of DNA that codes for a protein     |
@@ -117,6 +119,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 | Recessive    | Only expressed when homozygous (bb)         |
 | Codominant   | Both alleles are expressed in the phenotype |
 
+</div>
+
 ### Monohybrid Crosses (OL/HL)
 
 **Example (OL):** In pea plants, tall (T) is dominant over short (t). Cross two heterozygous tall
@@ -126,10 +130,14 @@ Parents: Tt x Tt
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | T   | TT  | Tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 TT : 2 Tt : 1 tt.
 
@@ -162,10 +170,14 @@ Genes carried on the X chromosome show sex-linked inheritance.
 
 A carrier female (X$^H$X$^h$) x normal male (X$^H$Y):
 
+<div class="table-wrap">
+
 |       | X$^H$                       | Y                          |
 | ----- | --------------------------- | -------------------------- |
 | X$^H$ | X$^H$X$^H$ (normal female)  | X$^H$Y (normal male)       |
 | X$^h$ | X$^H$X$^h$ (carrier female) | X$^h$Y (haemophiliac male) |
+
+</div>
 
 Males are more likely to be affected because they have only one X chromosome.
 

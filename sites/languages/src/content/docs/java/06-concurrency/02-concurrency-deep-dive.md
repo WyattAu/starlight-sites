@@ -497,6 +497,8 @@ Iterator operates on a snapshot and does not reflect modifications made during i
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
 when empty.
 
+<div class="table-wrap">
+
 | Implementation          | Bounded        | Ordering                         | Notes                        |
 | ----------------------- | -------------- | -------------------------------- | ---------------------------- |
 | `ArrayBlockingQueue`    | Yes (fixed)    | FIFO                             | Backed by array              |
@@ -504,6 +506,8 @@ when empty.
 | `PriorityBlockingQueue` | No (unbounded) | Priority (natural or Comparator) | Never blocks on put          |
 | `SynchronousQueue`      | Zero capacity  | None                             | Handoff, put waits for take |
 | `DelayQueue`            | Unbounded      | By delay time                    | Elements implement `Delayed` |
+
+</div>
 
 ```java
 // Producer-consumer with LinkedBlockingQueue

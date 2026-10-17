@@ -65,12 +65,16 @@ Aim for at least 20-30 practice questions per topic, mixing worked examples with
 
 ## Exam Boards and Specifications
 
+<div class="table-wrap">
+
 | Board | Sciences | Maths | Humanities | Notes |
 |-------|----------|-------|------------|-------|
 | AQA | Biology, Chemistry, Physics | Maths, Further Maths | History, Geography, English | Largest entry cohort; practicals teacher-assessed |
 | Edexcel | Biology, Chemistry, Physics | Maths, Further Maths | History, Economics | IAL variant for international centres |
 | OCR | Biology A/B, Chemistry A/B, Physics A/B | Maths (MEI option) | History A, English Literature | Gateway (A) vs Salters (B) tracks |
 | WJEC/Eduqas | Biology, Chemistry, Physics | Maths | History, RS | Eduqas is the England-facing brand |
+
+</div>
 
 Confirm your centre's board before using past papers, specification wording and option topics differ.
 
@@ -105,6 +109,8 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 
 ## Quick Subject Index
 
+<div class="table-wrap">
+
 | Subject | Tier | Topics | Practice Sets |
 |---------|------|--------|---------------|
 | Biology | Tier 3 | 12 modules | 48 problems |
@@ -119,7 +125,11 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 | History | Tier 2 | 6 modules | 18 essays |
 | Psychology | Tier 2 | 5 modules | 20 problems |
 
+</div>
+
 ## Grade Boundary Context
+
+<div class="table-wrap">
 
 | Grade | Typical raw boundary | Notes |
 |-------|---------------------|-------|
@@ -127,5 +137,7 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 | A | 65-80% | Consistency across papers matters |
 | B | 55-65% | Most competitive-course floor |
 | C | 45-55% | Solid pass with full course coverage |
+
+</div>
 
 Boundaries move each session with paper difficulty and cohort performance, never target a fixed percentage; target full syllabus competence.

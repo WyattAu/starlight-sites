@@ -315,6 +315,8 @@ Recognized as part of the same package `namespace_pkg`.
 
 The difference from regular packages:
 
+<div class="table-wrap">
+
 | Property      | Regular Package         | Namespace Package             |
 | ------------- | ----------------------- | ----------------------------- |
 | `__init__.py` | Required                | Absent                        |
@@ -322,6 +324,8 @@ The difference from regular packages:
 | `__file__`    | Points to `__init__.py` | `None`                        |
 | When created  | First import            | First import of any submodule |
 | Use case      | Most applications       | Plugin systems, vendor splits |
+
+</div>
 
 Namespace packages are the mechanism behind the `vendor` directory pattern used by pip and
 Setuptools to bundle dependencies without conflict. They are also used by large projects that split
@@ -572,12 +576,16 @@ Circular imports because the actual loading happens after all module-level impor
 
 ### Choosing a Strategy
 
+<div class="table-wrap">
+
 | Strategy              | When to Use                    | Trade-off                                     |
 | --------------------- | ------------------------------ | --------------------------------------------- |
 | Restructure           | Clean separation is possible   | Requires architectural changes                |
 | Function-level import | Runtime dependency, simple fix | Hidden dependency, less discoverable          |
 | `TYPE_CHECKING` guard | Only needed for annotations    | Requires `from __future__ import annotations` |
 | Lazy imports          | Large codebase, many cycles    | Added complexity, debugging difficulty        |
+
+</div>
 
 ## Re-exports and Aliases
 
@@ -954,12 +962,16 @@ Way `pkg_resources` does). Prefer `importlib.metadata` in all new code.
 
 Key differences:
 
+<div class="table-wrap">
+
 | Feature      | `pkg_resources`       | `importlib.metadata` |
 | ------------ | --------------------- | -------------------- |
 | Stdlib       | No (setuptools)       | Yes (3.8+)           |
 | Startup cost | High (scans sys.path) | Low (lazy)           |
 | Maintenance  | Legacy                | Active               |
 | API style    | OOP-heavy             | Functional           |
+
+</div>
 
 ### How Entry Points Work Under the Hood
 

@@ -39,11 +39,15 @@ Chemistry starts with atoms, **the smallest units of an element that retain its 
 Atoms are the smallest particles of an element that can take part in chemical reactions. Each atom
 Consists of three subatomic particles:
 
+<div class="table-wrap">
+
 | Particle | Relative Mass            | Relative Charge | Location        |
 | -------- | ------------------------ | --------------- | --------------- |
 | Proton   | 1                        | +1              | Nucleus         |
 | Neutron  | 1                        | 0               | Nucleus         |
 | Electron | $\approx \frac{1}{1836}$ | -1              | Electron shells |
+
+</div>
 
 The mass of an atom is concentrated almost entirely in the nucleus. The nucleus occupies a tiny
 Fraction of the atomic volume -- roughly one part in $10^{12}$ to $10^{15}$ of the total volume.
@@ -90,6 +94,8 @@ $A = 8 + 8 = 16$.
 
 ### 1.2 History of the Atom
 
+<div class="table-wrap">
+
 | Scientist         | Model           | Key Discovery                                                        |
 | ----------------- | --------------- | -------------------------------------------------------------------- |
 | Dalton (1803)     | Solid sphere    | All matter is made of atoms; atoms of the same element are identical |
@@ -97,6 +103,8 @@ $A = 8 + 8 = 16$.
 | Rutherford (1909) | Nuclear         | Gold foil experiment showed a small, dense, positive nucleus         |
 | Bohr (1913)       | Electron shells | Electrons orbit the nucleus in fixed energy levels                   |
 | Chadwick (1932)   | With neutrons   | Discovered the neutron, completing the modern picture                |
+
+</div>
 
 Each model superseded its predecessor because new experimental evidence forced a revision. Dalton's
 Model could not explain cathode rays (Thomson). Thomson's plum pudding model could not explain the
@@ -142,11 +150,15 @@ rare -- consistent with a tiny nucleus.
 
 **Example -- Carbon:**
 
+<div class="table-wrap">
+
 | Isotope   | Protons | Neutrons | Electrons | Mass Number |
 | --------- | ------- | -------- | --------- | ----------- |
 | Carbon-12 | 6       | 6        | 6         | 12          |
 | Carbon-13 | 6       | 7        | 6         | 13          |
 | Carbon-14 | 6       | 8        | 6         | 14          |
+
+</div>
 
 All three species have $Z = 6$ (carbon), but their mass numbers differ because the neutron count
 Differs. The chemical behaviour is essentially identical because chemical reactions involve
@@ -165,6 +177,8 @@ Chemical state.
 
 ### 2.3 Uses of Radioactive Isotopes
 
+<div class="table-wrap">
+
 | Isotope       | Use                             | Reason                                               |
 | ------------- | ------------------------------- | ---------------------------------------------------- |
 | Carbon-14     | Dating archaeological materials | Half-life of 5730 years matches human timescales     |
@@ -172,6 +186,8 @@ Chemical state.
 | Iodine-131    | Treating thyroid conditions     | Absorbed by the thyroid gland                        |
 | Americium-241 | Smoke detectors                 | Emits alpha particles; ionises air to detect smoke   |
 | Uranium-235   | Nuclear fuel                    | Undergoes fission, releasing large amounts of energy |
+
+</div>
 
 The choice of isotope for a given application depends critically on its half-life. A medical tracer
 Needs a short half-life (hours to days) so that it does not remain radioactive in the body.
@@ -438,21 +454,29 @@ So B-10 is 19% and B-11 is 81%.
 
 ### 4.3 Summary Table: Relative Atomic Mass Calculations
 
+<div class="table-wrap">
+
 | Element   | Isotopes                              | $A_r$ | Method                         |
 | --------- | ------------------------------------- | ----- | ------------------------------ |
 | Chlorine  | Cl-35 (75%), Cl-37 (25%)              | 35.5  | Two-isotope weighted mean      |
 | Magnesium | Mg-24 (79%), Mg-25 (10%), Mg-26 (11%) | 24.32 | Three-isotope weighted mean    |
 | Boron     | B-10 (19%), B-11 (81%)                | 10.81 | Reverse calculation from $A_r$ |
 
+</div>
+
 ## 5. The Periodic Table
 
 ### 5.1 Development of the Periodic Table
+
+<div class="table-wrap">
 
 | Scientist    | Contribution                                                                                         |
 | ------------ | ---------------------------------------------------------------------------------------------------- |
 | Newlands     | Law of octaves (every 8th element had similar properties) -- limited to known elements               |
 | Mendeleev    | Arranged elements by atomic mass, leaving gaps for undiscovered elements; predicted their properties |
 | Modern table | Arranged by atomic number (proton number), not mass                                                  |
+
+</div>
 
 Mendeleev's genius was leaving gaps, which allowed him to predict the properties of undiscovered
 Elements (e.g. Gallium, germanium). When these elements were later discovered, their properties
@@ -476,12 +500,16 @@ Helps to explain why transition metals have variable oxidation states.
 
 ### 5.3 Group 1: The Alkali Metals
 
+<div class="table-wrap">
+
 | Property              | Trend                    |
 | --------------------- | ------------------------ |
 | Reactivity            | Increases down the group |
 | Melting/boiling point | Decreases down the group |
 | Density               | Increases down the group |
 | Softness              | Softer down the group    |
+
+</div>
 
 **Why does reactivity increase down Group 1?**
 
@@ -524,12 +552,16 @@ $$
 
 ### 5.4 Group 7: The Halogens
 
+<div class="table-wrap">
+
 | Property                           | Trend                      |
 | ---------------------------------- | -------------------------- |
 | Reactivity                         | Decreases down the group   |
 | Melting/boiling point              | Increases down the group   |
 | Physical state at room temperature | Gas to liquid to solid     |
 | Colour                             | Gets darker down the group |
+
+</div>
 
 **Why does reactivity decrease down Group 7?**
 
@@ -597,6 +629,8 @@ and one 3d electron to form Fe$^{3+}$.
 
 ### 5.7 Comparing Group 1 Metals with Transition Metals
 
+<div class="table-wrap">
+
 | Property              | Group 1 metals | Transition metals                   |
 | --------------------- | -------------- | ----------------------------------- |
 | Melting point         | Relatively low | High                                |
@@ -605,6 +639,8 @@ and one 3d electron to form Fe$^{3+}$.
 | Oxidation states      | Always $1+$    | Variable (e.g. $2+$, $3+$ for iron) |
 | Coloured compounds    | No             | Yes                                 |
 | Catalytic activity    | No             | Common                              |
+
+</div>
 
 ### 5.8 Predicting Properties from Position in the Periodic Table
 
@@ -661,6 +697,8 @@ $$
 
 The charge of an ion is determined by its group number:
 
+<div class="table-wrap">
+
 | Group | Ions formed | Example            |
 | ----- | ----------- | ------------------ |
 | 1     | $1+$        | Na$^+$K$^+$Li$^+$  |
@@ -669,6 +707,8 @@ The charge of an ion is determined by its group number:
 | 5     | $3-$        | N$^{3-}$           |
 | 6     | $2-$        | O$^{2-}$S$^{2-}$   |
 | 7     | $1-$        | Cl$^-$Br$^-$I$^-$  |
+
+</div>
 
 The pattern is clear: elements in groups 1--3 tend to lose electrons (forming positive ions whose
 Charge equals the group number), while elements in groups 5--7 tend to gain electrons (forming

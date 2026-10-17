@@ -17,10 +17,14 @@ date: 2026-05-31T00:00:00.000Z
 
 ## 1. Scalars and Vectors
 
+<div class="table-wrap">
+
 | Quantity | Definition                          | Examples                                          |
 | -------- | ----------------------------------- | -------------------------------------------------- |
 | Scalar   | Has magnitude only                   | Speed, distance, mass, time, temperature, energy  |
 | Vector   | Has magnitude and direction          | Velocity, displacement, force, acceleration, momentum |
+
+</div>
 
 ### Vector Operations
 
@@ -48,10 +52,14 @@ $$
 
 ## 2. Distance and Displacement
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Definition                                    |
 | ------------ | ------ | ---------------------------------------------- |
 | Distance     | Scalar | Total length of path travelled                  |
 | Displacement | Vector | Straight-line distance from start to finish in a given direction |
+
+</div>
 
 - Distance is always **$\geq$ displacement**
 - Displacement can be zero if the object returns to its starting point
@@ -69,10 +77,14 @@ $$
 
 ## 3. Speed and Velocity
 
+<div class="table-wrap">
+
 | Quantity  | Type   | Definition                                    | Units        |
 | --------- | ------ | ---------------------------------------------- | ------------ |
 | Speed     | Scalar | Rate of change of distance                    | $\mathrm{m\,s^{-1}}$ |
 | Velocity  | Vector | Rate of change of displacement                | $\mathrm{m\,s^{-1}}$ |
+
+</div>
 
 $$
 v = \frac{\Delta s}{\Delta t}
@@ -83,6 +95,8 @@ $$
 
 ### Displacement-Time Graphs
 
+<div class="table-wrap">
+
 | Feature              | Meaning                                   |
 | -------------------- | ----------------------------------------- |
 | Gradient              | Velocity                                  |
@@ -91,7 +105,11 @@ $$
 | Curve                 | Acceleration or deceleration              |
 | Area under curve      | Not applicable (displacement is the quantity) |
 
+</div>
+
 ### Velocity-Time Graphs
+
+<div class="table-wrap">
 
 | Feature              | Meaning                                   |
 | -------------------- | ----------------------------------------- |
@@ -100,6 +118,8 @@ $$
 | Straight line (positive gradient) | Constant acceleration          |
 | Area under curve      | Displacement                              |
 | Negative region       | Object moving in opposite direction       |
+
+</div>
 
 ---
 
@@ -139,12 +159,16 @@ $$
 
 For motion with **constant acceleration** (also called the **suvat equations**):
 
+<div class="table-wrap">
+
 | Equation | Variables | When to Use |
 | -------------- | ---------------------------------- | ---------------------------------------- |
 | $v = u + at$ | Uses $u, a, t$ to find $v$ | No displacement involved |
 | $s = ut + \frac{1}{2}at^2$ | Uses $u, a, t$ to find $s$ | Displacement from initial velocity |
 | $s = \frac{(u+v)}{2}t$ | Uses $u, v, t$ to find $s$ | When acceleration is unknown |
 | $v^2 = u^2 + 2as$ | Uses $u, v, a$ to find $s$ | When time is unknown |
+
+</div>
 
 Where:
 
@@ -225,10 +249,14 @@ A projectile moves under the influence of **gravity only** (air resistance is ne
 
 **Key idea:** horizontal and vertical motion are **independent** of each other.
 
+<div class="table-wrap">
+
 | Direction | Motion                      | Acceleration        |
 | --------- | --------------------------- | ------------------- |
 | Horizontal | Constant velocity (no force)| $a_x = 0$           |
 | Vertical   | Uniformly accelerated       | $a_y = -g = -9.81\ \mathrm{m\,s^{-2}}$ |
+
+</div>
 
 ### Equations
 
@@ -297,6 +325,8 @@ $$
 
 ### Factors Affecting Stopping Distance
 
+<div class="table-wrap">
+
 | Factor                | Effect on Thinking Distance | Effect on Braking Distance |
 | --------------------- | --------------------------- | --------------------------- |
 | Higher speed          | Increases (proportional)    | Increases ($\propto v^2$)   |
@@ -305,6 +335,8 @@ $$
 | Worn tyres            | No effect                   | Increases                    |
 | Heavy vehicle         | No effect                   | Increases                    |
 | Poor brakes           | No effect                   | Increases                    |
+
+</div>
 
 ### Typical Values
 
@@ -326,6 +358,8 @@ Note how braking distance increases much more than thinking distance as speed in
 
 ## 9. Key Equations Reference
 
+<div class="table-wrap">
+
 | Topic                  | Equation                                    | Notes                          |
 | ---------------------- | ------------------------------------------- | ------------------------------ |
 | Speed                 | $v = \frac{s}{t}$                          |                                |
@@ -338,6 +372,8 @@ Note how braking distance increases much more than thinking distance as speed in
 | Projectile (range)     | $R = \frac{v_0^2\sin 2\theta}{g}$          |                                |
 | Projectile (max height)| $H = \frac{(v_0\sin\theta)^2}{2g}$          |                                |
 | Vector resolution      | $F_x = F\cos\theta;\ F_y = F\sin\theta$    |                                |
+
+</div>
 
 ## Worked Examples
 

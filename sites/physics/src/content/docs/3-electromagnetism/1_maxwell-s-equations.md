@@ -146,12 +146,16 @@ Where $\mathbf{K}_f$ is the free surface current density.
 
 **Summary** (no free charges or currents, $\sigma_f = 0$, $\mathbf{K}_f = \mathbf{0}$):
 
+<div class="table-wrap">
+
 | Field        | Normal component                              | Tangential component                          |
 | ------------ | --------------------------------------------- | --------------------------------------------- |
 | $\mathbf{E}$ | $\varepsilon_1 E_{1n} = \varepsilon_2 E_{2n}$ | $E_{1t} = E_{2t}$                             |
 | $\mathbf{D}$ | $D_{1n} = D_{2n}$                             | $D_{1t}/\varepsilon_1 = D_{2t}/\varepsilon_2$ |
 | $\mathbf{B}$ | $\mu_1 B_{1n} = \mu_2 B_{2n}$                 | $B_{1t}/\mu_1 = B_{2t}/\mu_2$                 |
 | $\mathbf{H}$ | $\mu_2 H_{1n} = \mu_1 H_{2n}$                 | $H_{1t} = H_{2t}$                             |
+
+</div>
 
 ### Intuition
 
@@ -337,5 +341,5 @@ The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{
 - **[The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)**: Electromagnetic waves are solutions to Maxwell's equations in free space, with speed $c = 1/\sqrt{\mu_0 \varepsilon_0}$.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

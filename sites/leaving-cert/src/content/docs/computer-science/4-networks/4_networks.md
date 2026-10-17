@@ -29,12 +29,16 @@ Measures.
 
 ### Types of Network
 
+<div class="table-wrap">
+
 | Type                        | Description                            | Example        |
 | --------------------------- | -------------------------------------- | -------------- |
 | LAN (Local Area Network)    | Covers a small area (building, campus) | School network |
 | WAN (Wide Area Network)     | Covers a large geographic area         | The Internet   |
 | WLAN (Wireless LAN)         | LAN using wireless connections         | Home Wi-Fi     |
 | PAN (Personal Area Network) | Very small range (a few metres)        | Bluetooth      |
+
+</div>
 
 ### Client-Server vs Peer-to-Peer (OL/HL)
 
@@ -69,6 +73,8 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 
 ### Comparing Topologies (HL)
 
+<div class="table-wrap">
+
 | Feature         | Star           | Mesh      | Bus          | Ring     |
 | --------------- | -------------- | --------- | ------------ | -------- |
 | Cost            | Low            | High      | Very low     | Low      |
@@ -76,6 +82,8 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 | Scalability     | Good           | Poor      | Poor         | Poor     |
 | Fault tolerance | Good           | Excellent | Poor         | Poor     |
 | Cable required  | One per device | Many      | One backbone | One ring |
+
+</div>
 
 **Worked Example (HL).** A school has 30 computers in a lab. Recommend a topology.
 
@@ -88,6 +96,8 @@ Cable fails, only that computer is affected. The switch directs traffic efficien
 
 The Open Systems Interconnection model has 7 layers:
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                              | Example                 |
 | ----- | ------------ | ------------------------------------- | ----------------------- |
 | 7     | Application  | User interface, applications          | HTTP, FTP, SMTP         |
@@ -98,11 +108,15 @@ The Open Systems Interconnection model has 7 layers:
 | 2     | Data Link    | Node-to-node data transfer            | Ethernet, MAC addresses |
 | 1     | Physical     | Physical transmission of bits         | Cables, Wi-Fi, hubs     |
 
+</div>
+
 **Mnemonic:** "All People Seem To Need Data Processing" (bottom to top).
 
 ### The TCP/IP Model (HL)
 
 A simplified 4-layer model:
+
+<div class="table-wrap">
 
 | Layer          | OSI Equivalent | Protocol             |
 | -------------- | -------------- | -------------------- |
@@ -110,6 +124,8 @@ A simplified 4-layer model:
 | Transport      | 4              | TCP, UDP             |
 | Internet       | 3              | IP, ICMP             |
 | Network Access | 1, 2           | Ethernet, Wi-Fi      |
+
+</div>
 
 **Encapsulation:** As data moves down the layers, each layer adds its own header. At the receiving
 End, each layer removes its header.
@@ -193,6 +209,8 @@ $\to$ subdomain (www).
 
 **Protocol port reference:**
 
+<div class="table-wrap">
+
 | Protocol | Port |
 | -------- | ---- |
 | HTTP     | 80   |
@@ -202,7 +220,11 @@ $\to$ subdomain (www).
 | DNS      | 53   |
 | SSH      | 22   |
 
+</div>
+
 ## Network Hardware (OL/HL)
+
+<div class="table-wrap">
 
 | Device                | Function                                                           |
 | --------------------- | ------------------------------------------------------------------ |
@@ -213,6 +235,8 @@ $\to$ subdomain (www).
 | Wireless Access Point | Allows wireless devices to connect to a wired network              |
 | Firewall              | Filters traffic, blocks unauthorised access                        |
 | Repeater              | Regenerates signals to extend network range                        |
+
+</div>
 
 **Switch vs Hub:** A switch learns MAC addresses and directs data only to the intended recipient. A
 Hub broadcasts to all ports, wasting bandwidth and causing collisions.
@@ -313,19 +337,27 @@ cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (usern
 
 ### Guided Media
 
+<div class="table-wrap">
+
 | Medium                | Speed     | Distance | Security            |
 | --------------------- | --------- | -------- | ------------------- |
 | Twisted pair (copper) | Medium    | Short    | Low (can be tapped) |
 | Fibre optic           | Very fast | Long     | High                |
 | Coaxial cable         | Medium    | Medium   | Medium              |
 
+</div>
+
 ### Unguided Media
+
+<div class="table-wrap">
 
 | Medium        | Speed    | Distance    | Security            |
 | ------------- | -------- | ----------- | ------------------- |
 | Wi-Fi (radio) | Fast     | Short       | Low (interceptable) |
 | Microwave     | Fast     | Medium-Long | Medium              |
 | Satellite     | Variable | Very long   | Medium              |
+
+</div>
 
 **Fibre optic vs copper:**
 
@@ -348,12 +380,16 @@ Address, sequence number, and error checking.
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching        | Circuit Switching         |
 | -------------- | ----------------------- | ------------------------- |
 | Connection     | No dedicated connection | Dedicated connection      |
 | Resource usage | Efficient (shared)      | Wasteful (reserved)       |
 | Reliability    | Packets can reroute     | Fixed route               |
 | Example        | The Internet            | Traditional phone network |
+
+</div>
 
 ## Data Transmission (HL)
 
@@ -389,11 +425,15 @@ Number of 1s = 5 (odd). Parity bit = 1 (to make total even). Transmitted: 110110
 
 A firewall inspects traffic based on rules. Example rules:
 
+<div class="table-wrap">
+
 | Rule | Source IP      | Destination IP | Port | Action |
 | ---- | -------------- | -------------- | ---- | ------ |
 | 1    | Any            | 192.168.1.0/24 | 80   | Allow  |
 | 2    | Any            | Any            | 22   | Deny   |
 | 3    | 192.168.1.0/24 | Any            | 443  | Allow  |
+
+</div>
 
 ### SSL/TLS Handshake Detail (HL)
 
@@ -449,6 +489,8 @@ Authentication.
 
 ### HTTP Status Codes in Detail
 
+<div class="table-wrap">
+
 | Code | Meaning               | When Used                        |
 | ---- | --------------------- | -------------------------------- |
 | 200  | OK                    | Successful GET or POST           |
@@ -461,9 +503,13 @@ Authentication.
 | 404  | Not Found             | Resource does not exist          |
 | 500  | Internal Server Error | Server-side failure              |
 
+</div>
+
 ## Network Security Deep Dive
 
 ### Firewall Types
+
+<div class="table-wrap">
 
 | Type            | Description                                                   |
 | --------------- | ------------------------------------------------------------- |
@@ -471,6 +517,8 @@ Authentication.
 | Stateful        | Tracks connection state; allows return traffic                |
 | Proxy           | Intercepts all traffic; acts as intermediary                  |
 | Next-gen (NGFW) | Combines traditional firewall with IPS, application awareness |
+
+</div>
 
 ### Intrusion Detection Systems
 
@@ -483,12 +531,16 @@ Administrators.
 
 **Wi-Fi encryption evolution:**
 
+<div class="table-wrap">
+
 | Protocol | Encryption | Vulnerability                             |
 | -------- | ---------- | ----------------------------------------- |
 | WEP      | RC4        | cracked (minutes)                         |
 | WPA      | TKIP       | Partially vulnerable                      |
 | WPA2     | AES        | KRACK attack on handshake                 |
 | WPA3     | AES + SAE  | Most secure; resistant to offline attacks |
+
+</div>
 
 ### Penetration Testing
 
@@ -505,10 +557,14 @@ A simulated attack on a system to identify vulnerabilities before malicious atta
 
 ### Fibre Optic Types
 
+<div class="table-wrap">
+
 | Type        | Description                       | Use Case                      |
 | ----------- | --------------------------------- | ----------------------------- |
 | Single-mode | One path for light; long distance | Telecommunications, long runs |
 | Multi-mode  | Multiple paths; shorter distance  | LANs, data centres            |
+
+</div>
 
 ### Wireless Signal Propagation
 
@@ -580,12 +636,16 @@ even if they are on the same physical switch.
 
 ### Symmetric Encryption Algorithms
 
+<div class="table-wrap">
+
 | Algorithm | Key Length | Speed     | Use Case                   |
 | --------- | ---------- | --------- | -------------------------- |
 | AES-128   | 128 bits   | Very fast | General purpose            |
 | AES-256   | 256 bits   | Very fast | High-security applications |
 | DES       | 56 bits    | Fast      | Obsolete (too weak)        |
 | 3DES      | 168 bits   | Slow      | Legacy systems             |
+
+</div>
 
 ### Asymmetric Encryption
 
@@ -618,12 +678,16 @@ CA, which signs the intermediate, which signs the server certificate.
 
 ### Common Issues
 
+<div class="table-wrap">
+
 | Symptom                     | Possible Cause             | Diagnostic Tool      |
 | --------------------------- | -------------------------- | -------------------- |
 | No Internet access          | DNS failure, router issue  | ping, nslookup       |
 | Slow network                | Congestion, hardware issue | speed test, ping     |
 | Intermittent connectivity   | Loose cable, interference  | continuous ping      |
 | Cannot access specific site | DNS issue, firewall block  | nslookup, traceroute |
+
+</div>
 
 ### Troubleshooting Methodology
 
@@ -661,6 +725,8 @@ CA, which signs the intermediate, which signs the server certificate.
 
 ## Network Protocols Summary Table (HL)
 
+<div class="table-wrap">
+
 | Protocol | Layer       | Port(s) | Purpose                        | TCP/UDP |
 | -------- | ----------- | ------- | ------------------------------ | ------- |
 | HTTP     | Application | 80      | Web page transfer              | TCP     |
@@ -673,6 +739,8 @@ CA, which signs the intermediate, which signs the server certificate.
 | POP3     | Application | 110     | Email receiving                | TCP     |
 | IMAP     | Application | 143     | Email receiving (synchronised) | TCP     |
 | Telnet   | Application | 23      | Remote terminal (unencrypted)  | TCP     |
+
+</div>
 
 ## Network Address Translation in Practice
 

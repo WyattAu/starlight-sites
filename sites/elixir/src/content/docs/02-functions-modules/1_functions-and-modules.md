@@ -329,6 +329,8 @@ end
 
 Common module attributes:
 
+<div class="table-wrap">
+
 | Attribute         | Purpose                               |
 | ----------------- | ------------------------------------- |
 | `@moduledoc`      | Documentation for the module          |
@@ -343,6 +345,8 @@ Common module attributes:
 | `@on_definition`  | Callback on every function definition |
 | `@derive`         | Auto-implement protocol               |
 | `@enforce_keys`   | Enforce keys in struct                |
+
+</div>
 
 ### Nested Modules
 
@@ -426,12 +430,16 @@ import Enum, only: :macros
 
 Key differences:
 
+<div class="table-wrap">
+
 | Directive | Effect                             | Common Use         |
 | --------- | ---------------------------------- | ------------------ |
 | `require` | Makes macros available             | `require Logger`   |
 | `use`     | Calls `__using__/1` macro          | `use GenServer`    |
 | `import`  | Brings functions/macros into scope | `import Enum`      |
 | `alias`   | Creates short name                 | `alias MyApp.User` |
+
+</div>
 
 ## Structs
 
@@ -502,6 +510,8 @@ true
 
 ### Structs vs Maps
 
+<div class="table-wrap">
+
 | Feature                         | Struct                         | Map             |
 | ------------------------------- | ------------------------------ | --------------- |
 | Fixed keys                      | Yes                            | No              |
@@ -511,6 +521,8 @@ true
 | Pattern matching specificity    | Yes (specific struct type)     | No              |
 | Compile-time dispatch           | Yes (protocols)                | No              |
 | Performance                     | Slightly faster for known keys | General purpose |
+
+</div>
 
 ## Protocols
 
@@ -574,6 +586,8 @@ end
 
 Elixir ships with several built-in protocols:
 
+<div class="table-wrap">
+
 | Protocol       | Purpose               | Key Functions                     |
 | -------------- | --------------------- | --------------------------------- |
 | `Inspect`      | String representation | `inspect/1`                       |
@@ -581,6 +595,8 @@ Elixir ships with several built-in protocols:
 | `Enumerable`   | Collection operations | `Enum.reduce/3`, `Enum.member?/2` |
 | `List.Chars`   | Charlist conversion   | `to_charlist/1`                   |
 | `Collectable`  | Into collection       | `Enum.into/2`                     |
+
+</div>
 
 ### @derive
 

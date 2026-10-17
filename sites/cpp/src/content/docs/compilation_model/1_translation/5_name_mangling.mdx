@@ -124,6 +124,8 @@ The `S5_` refers to the sixth substitution candidate (numbered starting from 0),
 
 The Itanium ABI defines a complete grammar for mangled names. Key type encodings:
 
+<div class="table-wrap">
+
 | Source Type             | Mangled                                       | Notes                              |
 | :---------------------- | :-------------------------------------------- | :--------------------------------- |
 | `void`                  | `v`                                           |                                    |
@@ -140,6 +142,8 @@ The Itanium ABI defines a complete grammar for mangled names. Key type encodings
 | `int const&`            | `RKi`                                         |                                    |
 | `...` (variadic)        | `z`                                           |                                    |
 | `template&lt;int N&gt;` | `IiE`                                         | `I` starts template args, `E` ends |
+
+</div>
 
 ### Parsing Example: `std::vector<int>::push_back(int const&)`
 
@@ -234,6 +238,8 @@ namespace net \{
 
 ### Key MSVC Mangling Differences from Itanium
 
+<div class="table-wrap">
+
 | Aspect             | Itanium (GCC/Clang)    | MSVC                                 |
 | :----------------- | :--------------------- | :----------------------------------- |
 | **Prefix**         | `_Z`                   | `?`                                  |
@@ -243,6 +249,8 @@ namespace net \{
 | **Scope order**    | Outermost to innermost | Innermost to outermost (reversed)    |
 | **Namespace std**  | `St`                   | `?A` or `std@@`                      |
 | **Substitutions**  | `S_, S0_`Etc.          | Not used (names encoded in full)     |
+
+</div>
 
 ## 4. Disabling Mangling (`extern "C"`)
 
@@ -700,6 +708,8 @@ When encountering an obscure linker error involving a mangled name, follow this 
 
 The following table provides a comprehensive reference for Itanium ABI type encodings:
 
+<div class="table-wrap">
+
 | Source Type          | Mangled | Notes                  |
 | :------------------- | :------ | :--------------------- |
 | `void`               | `v`     |                        |
@@ -729,6 +739,8 @@ The following table provides a comprehensive reference for Itanium ABI type enco
 | `T const volatile`   | `VK`    |                        |
 | `T[]`                | `AT_`   | Array of unknown bound |
 | `T[N]`               | `AT_N`  | Array of N elements    |
+
+</div>
 
 This table covers the most common encodings. The full specification is in the Itanium C++ ABI
 Document, section 5.1.5.

@@ -168,12 +168,16 @@ Where $\ell_{\mathrm{ph}}$ is the phonon mean free path.
 
 ### 4.7 Specific Heat: Debye vs Einstein vs Experiment
 
+<div class="table-wrap">
+
 | Feature          | Debye            | Einstein                  | Experiment      |
 | ---------------- | ---------------- | ------------------------- | --------------- |
 | High $T$         | $3Nk_B$          | $3Nk_B$                   | $3Nk_B$         |
 | Low $T$          | $\propto T^3$    | $\propto e^{-\Theta_E/T}$ | $\propto T^3$   |
 | Single parameter | $\Theta_D$       | $\Theta_E$                | ---             |
 | Physical basis   | Acoustic phonons | Optical phonons           | Both contribute |
+
+</div>
 
 The Debye model captures the correct low-$T$ behaviour because long-wavelength acoustic phonons
 Dominate the specific heat at low temperatures. The Einstein model is more appropriate for
@@ -304,6 +308,6 @@ Phonons are confined to the Brillouin zone and have frequencies bounded by the m
 - **[Diffraction](/6-solid-state-physics/3_diffraction/)**: Inelastic neutron scattering measures phonon dispersion relations using the same diffraction framework.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Phonon scattering limits carrier mobility and affects thermal conductivity in semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

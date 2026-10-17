@@ -156,6 +156,8 @@ func Clamp[T constraints.Ordered](v, lo, hi T) T {
 
 Common constraints:
 
+<div class="table-wrap">
+
 | Constraint             | Types Allowed                                        |
 | ---------------------- | ---------------------------------------------------- |
 | `constraints.Signed`   | `~int``~int8``~int16``~int32``~int64`                |
@@ -164,6 +166,8 @@ Common constraints:
 | `constraints.Float`    | `~float32``~float64`                                 |
 | `constraints.Ordered`  | All integers, floats, and `~string`                  |
 | `constraints.Complex`  | `~complex64``~complex128`                            |
+
+</div>
 
 ## Generic Types
 

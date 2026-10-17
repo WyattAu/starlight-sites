@@ -247,6 +247,8 @@ behind heavy-tailed phenomena in finance and insurance.
 hold under mixing conditions, or fail entirely: a sequence that is constant
 after the first draw has a sample mean that never converges to anything.
 
+<div class="table-wrap">
+
 | Distribution | Mean? | Variance? | LLN? | CLT? |
 | ------------ | ----- | --------- | ---- | ---- |
 | Normal | yes | finite | yes | yes |
@@ -255,11 +257,15 @@ after the first draw has a sample mean that never converges to anything.
 | Cauchy | **no** | no | **no** | **no** |
 | Bernoulli | yes | finite | yes | yes |
 
+</div>
+
 The Pareto row is the one to remember: heavy tails are common in real data, and
 they break the central limit theorem while leaving the law of large numbers
 intact.
 
 ## Common pitfalls
+
+<div class="table-wrap">
 
 | Pitfall | Why it happens | Fix |
 | ------- | -------------- | --- |
@@ -268,6 +274,8 @@ intact.
 | Confusing convergence in distribution with convergence in probability | They are named similarly | CLT gives the former; LLN gives the latter |
 | Assuming independence | "No obvious link" is not a proof | Independence must hold in the joint distribution |
 | Reading $\xrightarrow{d}$ as convergence of the variables | It is convergence of their CDFs | The variables themselves need not get close |
+
+</div>
 
 ## Extensions
 

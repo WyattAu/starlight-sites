@@ -140,6 +140,8 @@ int main() {
 
 Fold expressions support the following 32 binary operators [N4950 §7.6.1]:
 
+<div class="table-wrap">
+
 | Category   | Operators                                                                |
 | ---------- | ------------------------------------------------------------------------ |
 | Arithmetic | `+` `-` `*` `/` `%`                                                      |
@@ -149,11 +151,15 @@ Fold expressions support the following 32 binary operators [N4950 §7.6.1]:
 | Assignment | `=` `+=` `-=` `*=` `/=` `%=` `&amp;=` `\|=` `^=` `&lt;&lt;=` `&gt;&gt;=` |
 | Comma      | `,`                                                                      |
 
+</div>
+
 Note: the comma operator `,` has special behavior in folds (see below).
 
 ## Comparison Table of All Four Fold Forms
 
 For a pack $(e_1, e_2, e_3)$ and operator $\oplus$:
+
+<div class="table-wrap">
 
 | Fold Form    | Syntax                  | Expansion                                           | Example with `+`         |
 | ------------ | ----------------------- | --------------------------------------------------- | ------------------------ |
@@ -162,7 +168,11 @@ For a pack $(e_1, e_2, e_3)$ and operator $\oplus$:
 | Binary right | `(pack op ... op init)` | $e_1 \oplus (e_2 \oplus (e_3 \oplus \mathrm{init))$ | `(a + (b + (c + init)))` |
 | Binary left  | `(init op ... op pack)` | $((\mathrm{init \oplus e_1) \oplus e_2) \oplus e_3$ | `(((init + a) + b) + c)` |
 
+</div>
+
 For a single-element pack $(e_1)$:
+
+<div class="table-wrap">
 
 | Fold Form    | Result                    |
 | ------------ | ------------------------- |
@@ -171,7 +181,11 @@ For a single-element pack $(e_1)$:
 | Binary right | $e_1 \oplus \mathrm{init$ |
 | Binary left  | $\mathrm{init \oplus e_1$ |
 
+</div>
+
 For an empty pack `()`:
+
+<div class="table-wrap">
 
 | Fold Form    | Result                          | Operator-dependent   |
 | ------------ | ------------------------------- | -------------------- |
@@ -179,6 +193,8 @@ For an empty pack `()`:
 | Unary left   | Operator identity or ill-formed | See empty pack table |
 | Binary right | `init`                          | Always well-defined  |
 | Binary left  | `init`                          | Always well-defined  |
+
+</div>
 
 ### Choosing Between Left and Right Folds
 
@@ -411,12 +427,16 @@ int main() {
 
 The behavior of fold expressions with empty packs depends on the operator [N4950 §7.6.1]:
 
+<div class="table-wrap">
+
 | Operator   | Empty pack value (unary fold) | Notes                            |
 | ---------- | ----------------------------- | -------------------------------- |
 | `&&`       | `true`                        | Identity element for logical AND |
 | `\|\|`     | `false`                       | Identity element for logical OR  |
 | `,`        | `void()`                      | No-op                            |
 | All others | **Ill-formed**                | Must use binary fold with init   |
+
+</div>
 
 The identity element rule follows from the mathematical definition: for an operator $\oplus$ with
 Identity element $e$ Folding an empty sequence yields $e$. The logical operators `&&` and `||` have

@@ -48,6 +48,8 @@ $$
 
 **Characteristics:**
 
+<div class="table-wrap">
+
 | Feature              | SN1                                      |
 | -------------------- | ---------------------------------------- |
 | Kinetics             | First order                              |
@@ -57,6 +59,8 @@ $$
 | Nucleophile strength | Weak nucleophiles are sufficient         |
 | Leaving group        | Needs a good leaving group               |
 | Rearrangements       | Possible (hydride or alkyl shifts)       |
+
+</div>
 
 ### SN2 Mechanism (Bimolecular Nucleophilic Substitution)
 
@@ -71,6 +75,8 @@ $$
 
 **Characteristics:**
 
+<div class="table-wrap">
+
 | Feature              | SN2                                      |
 | -------------------- | ---------------------------------------- |
 | Kinetics             | Second order                             |
@@ -80,6 +86,8 @@ $$
 | Nucleophile strength | Strong nucleophiles required             |
 | Leaving group        | Needs a good leaving group               |
 | Rearrangements       | Not possible                             |
+
+</div>
 
 ### E1 Mechanism (Unimolecular Elimination)
 
@@ -104,6 +112,8 @@ $$
 
 ### Comparing SN1, SN2, E1, E2
 
+<div class="table-wrap">
+
 | Factor             | Favours SN1/E1                        | Favours SN2/E2                                 |
 | ------------------ | ------------------------------------- | ---------------------------------------------- |
 | Substrate          | Tertiary                              | Primary, methyl                                |
@@ -112,6 +122,8 @@ $$
 | Temperature        | Lower (substitution)                  | Higher (elimination)                           |
 | Solvent            | Polar protic (stabilises carbocation) | Polar aprotic (does not stabilise carbocation) |
 | Base concentration | Low                                   | High                                           |
+
+</div>
 
 ### Zaitsev's Rule
 
@@ -183,6 +195,8 @@ Restricted rotation around a C=C double bond or a ring gives rise to geometric i
 For C=C: assign priorities using CIP rules. If the two higher-priority groups are on the same side:
 $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 
+<div class="table-wrap">
+
 | Isomer  | Description                      | Example                       |
 | ------- | -------------------------------- | ----------------------------- |
 | $cis$   | Same side (similar groups)       | $cis$-but-2-ene               |
@@ -190,13 +204,19 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 | $Z$     | Higher priority groups same side | $(Z)$-1-bromo-1-chloropropene |
 | $E$     | Higher priority groups opposite  | $(E)$-1-bromo-1-chloropropene |
 
+</div>
+
 ### Optical vs Geometric Isomerism
+
+<div class="table-wrap">
 
 | Property            | Optical Isomerism          | Geometric Isomerism             |
 | ------------------- | -------------------------- | ------------------------------- |
 | Cause               | Chiral centre              | Restricted rotation (C=C, ring) |
 | Mirror images       | Non-superimposable         | Not necessarily mirror images   |
 | Physical properties | Identical (except optical) | Different                       |
+
+</div>
 
 ### Common Pitfalls
 
@@ -240,6 +260,8 @@ $$
 
 ### Common Addition Polymers
 
+<div class="table-wrap">
+
 | Monomer                       | Polymer          | Uses                                      |
 | ----------------------------- | ---------------- | ----------------------------------------- |
 | Ethene                        | Polyethene (PE)  | Bags, bottles, film                       |
@@ -247,6 +269,8 @@ $$
 | Chloroethene (vinyl chloride) | PVC              | Pipes, window frames, insulation          |
 | Phenylethene (styrene)        | Polystyrene (PS) | Packaging, insulation, CD cases           |
 | Tetrafluoroethene             | PTFE (Teflon)    | Non-stick coatings, electrical insulation |
+
+</div>
 
 ### Biodegradability
 
@@ -326,6 +350,8 @@ Strength. Used in body armour, tyres, and aerospace.
 
 ### Comparison of Polymer Types
 
+<div class="table-wrap">
+
 | Property         | Addition polymer            | Condensation polymer                       |
 | ---------------- | --------------------------- | ------------------------------------------ |
 | Monomers         | Alkenes                     | Diols + diacids / diamines + diacids       |
@@ -333,6 +359,8 @@ Strength. Used in body armour, tyres, and aerospace.
 | Biodegradability | Generally non-biodegradable | Some are biodegradable                     |
 | Bond type        | C--C backbone               | Contains ester or amide bonds              |
 | Examples         | PE, PP, PVC, PTFE           | PET, Nylon, Kevlar                         |
+
+</div>
 
 ---
 
@@ -367,6 +395,8 @@ $$
 
 ### Degree of Unsaturation Examples
 
+<div class="table-wrap">
+
 | Molecular formula             | DBE | Possible features                          |
 | ----------------------------- | --- | ------------------------------------------ |
 | $\mathrm{C}_4\mathrm{H}_{10}$ | $0$ | No double bonds, no rings (alkane)         |
@@ -374,7 +404,11 @@ $$
 | $\mathrm{C}_4\mathrm{H}_6$    | $2$ | Two double bonds, one triple, or two rings |
 | $\mathrm{C}_6\mathrm{H}_6$    | $4$ | Benzene ring (three double bonds + ring)   |
 
+</div>
+
 ### Characteristic IR Absorptions (Recap)
+
+<div class="table-wrap">
 
 | Bond           | Range ($\mathrm{cm}^{-1}$)  |
 | -------------- | --------------------------- |
@@ -387,7 +421,11 @@ $$
 | C=O            | $1700$--$1750$              |
 | C=C            | $1600$--$1680$              |
 
+</div>
+
 ### Key NMR Chemical Shifts (Recap)
+
+<div class="table-wrap">
 
 | Proton type     | $\delta$ (ppm) |
 | --------------- | -------------- |
@@ -397,6 +435,8 @@ $$
 | Aromatic        | $6.5$--$8.0$   |
 | Aldehyde        | $9.0$--$10.0$  |
 | Carboxylic acid | $10.0$--$12.0$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -903,8 +943,12 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site | Link                                                                                               |
 | ---------------------------- | ---- | -------------------------------------------------------------------------------------------------- |
 | [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/) |
 | [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/)          |
+
+</div>
 :::

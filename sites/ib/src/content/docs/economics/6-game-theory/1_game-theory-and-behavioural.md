@@ -92,10 +92,14 @@ Player can gain by changing their probabilities. The equilibrium is reached when
 Two suspects are arrested and interrogated separately. Each can either **Cooperate** (stay silent)
 Or **Defect** (betray the other). The payoff matrix (years in prison, so lower is better):
 
+<div class="table-wrap">
+
 |                  | B Cooperates | B Defects   |
 | ---------------- | ------------ | ----------- |
 | **A Cooperates** | A: 1, B: 1   | A: 10, B: 0 |
 | **A Defects**    | A: 0, B: 10  | A: 5, B: 5  |
+
+</div>
 
 **Analysis:**
 
@@ -153,10 +157,14 @@ Two players prefer to coordinate on the same activity but disagree on which acti
 Pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
 Problems.
 
+<div class="table-wrap">
+
 |                 | B: Opera   | B: Football |
 | --------------- | ---------- | ----------- |
 | **A: Opera**    | A: 3, B: 2 | A: 0, B: 0  |
 | **A: Football** | A: 0, B: 0 | A: 2, B: 3  |
+
+</div>
 
 ### Chicken (Hawk-Dove)
 
@@ -325,10 +333,14 @@ While preserving their freedom to choose otherwise.
 Two firms, Alpha and Beta, are deciding whether to advertise (Ad) or not advertise (No Ad). The
 Payoff matrix shows profits in millions:
 
+<div class="table-wrap">
+
 |                  | Beta: Ad | Beta: No Ad |
 | ---------------- | -------- | ----------- |
 | **Alpha: Ad**    | (4, 4)   | (8, 2)      |
 | **Alpha: No Ad** | (2, 8)   | (6, 6)      |
+
+</div>
 
 Find all Nash equilibria.
 
@@ -353,10 +365,14 @@ Stop advertising.
 In a zero-sum game, Player 1 can play Up or Down; Player 2 can play Left or Right. The payoff matrix
 Shows Player 1's payoff (Player 2's payoff is the negative):
 
+<div class="table-wrap">
+
 |          | Left | Right |
 | -------- | ---- | ----- |
 | **Up**   | 3    | -1    |
 | **Down** | -2   | 4     |
+
+</div>
 
 Find the mixed strategy Nash equilibrium.
 
@@ -465,11 +481,15 @@ Occurs, the incumbent decides whether to accommodate or fight (engage in a price
 
 **Payoffs (entrant, incumbent):**
 
+<div class="table-wrap">
+
 | Path               | Entrant  | Incumbent |
 | ------------------ | -------- | --------- |
 | Stay out           | (0, 10)  | --        |
 | Enter, Accommodate | (3, 5)   | --        |
 | Enter, Fight       | (-2, -1) | --        |
+
+</div>
 
 **Backward induction:**
 
@@ -672,11 +692,15 @@ accommodate (share the market) or fight (price war).
 
 Payoffs (Amazon, FreshCo):
 
+<div class="table-wrap">
+
 | Scenario                            | Amazon   | FreshCo |
 | ----------------------------------- | -------- | ------- |
 | Amazon stays out                    | (0, 20)  | --      |
 | Amazon enters, FreshCo accommodates | (5, 8)   | --      |
 | Amazon enters, FreshCo fights       | (-3, -2) | --      |
+
+</div>
 
 (a) Find the subgame perfect Nash equilibrium using backward induction.
 
@@ -718,10 +742,14 @@ SPNE: (Enter, Accommodate) with payoffs (5, 8).
 Two airlines, Alpha and Beta, compete on a route. Each can set a High or Low fare. Weekly payoffs
 (in millions):
 
+<div class="table-wrap">
+
 |                 | Beta: High | Beta: Low |
 | --------------- | ---------- | --------- |
 | **Alpha: High** | (6, 6)     | (1, 10)   |
 | **Alpha: Low**  | (10, 1)    | (3, 3)    |
+
+</div>
 
 The game is repeated weekly. Both airlines use a grim trigger strategy: cooperate (High fare) as
 Long as the other cooperates; if either defects (Low fare), play the Nash equilibrium (Low fare)
@@ -1128,11 +1156,15 @@ believes each is equally likely ($p = 0.5$).
 
 **Payoffs (entrant, incumbent):**
 
+<div class="table-wrap">
+
 | Scenario                               | Strong Incumbent | Weak Incumbent |
 | -------------------------------------- | ---------------- | -------------- |
 | Entrant stays out                      | (0, 10)          | (0, 10)        |
 | Entrant enters, Incumbent accommodates | (3, 5)           | (3, 5)         |
 | Entrant enters, Incumbent fights       | (-2, 3)          | (-2, -3)       |
+
+</div>
 
 **Analysis:**
 
@@ -1152,11 +1184,15 @@ information game:
 
 **Revised payoffs:**
 
+<div class="table-wrap">
+
 | Scenario                               | Strong Incumbent | Weak Incumbent |
 | -------------------------------------- | ---------------- | -------------- |
 | Entrant stays out                      | (0, 10)          | (0, 10)        |
 | Entrant enters, Incumbent accommodates | (3, 5)           | (3, 5)         |
 | Entrant enters, Incumbent fights       | (-2, 6)          | (-2, -3)       |
+
+</div>
 
 For the **strong** incumbent: Accommodate $= 5$ Fight $= 6$. Since $6 > 5$ The strong incumbent
 Fights.
@@ -1509,10 +1545,14 @@ Where $p$ is the punishment payoff (mutual defection).
 
 Payoff matrix:
 
+<div class="table-wrap">
+
 |           | Cooperate | Defect |
 | --------- | --------- | ------ |
 | Cooperate | (3, 3)    | (0, 5) |
 | Defect    | (5, 0)    | (1, 1) |
+
+</div>
 
 $g = 3 - 1 = 2$, $t = 5$, $p = 1$.
 
@@ -1637,10 +1677,14 @@ Company A should bid approximately 96 million rather than 100 million to avoid t
 Two firms, A and B, compete in a market. They can either set a high price (cooperate) or a low Price
 (defect). The payoff matrix (annual profits in USD million) is:
 
+<div class="table-wrap">
+
 |            | High Price | Low Price |
 | ---------- | ---------- | --------- |
 | High Price | (10, 10)   | (0, 15)   |
 | Low Price  | (15, 0)    | (3, 3)    |
+
+</div>
 
 The discount factor is $\delta = 0.8$.
 
@@ -1841,10 +1885,14 @@ $$
 
 In a population of Cooperators and Defectors, the payoff matrix is:
 
+<div class="table-wrap">
+
 |           | Cooperate | Defect |
 | --------- | --------- | ------ |
 | Cooperate | (3, 3)    | (0, 5) |
 | Defect    | (5, 0)    | (1, 1) |
+
+</div>
 
 If the population fraction of Cooperators is $x$:
 
@@ -1885,10 +1933,14 @@ This explains why cooperation is observed in nature despite the prisoner's dilem
 
 The Hawk-Dove game models conflict over a resource of value $V$:
 
+<div class="table-wrap">
+
 |      | Hawk                                        | Dove                                    |
 | ---- | ------------------------------------------- | --------------------------------------- |
 | Hawk | $\left(\frac{V-C}{2}, \frac{V-C}{2}\right)$ | $(V, 0)$                                |
 | Dove | $(0, V)$                                    | $\left(\frac{V}{2}, \frac{V}{2}\right)$ |
+
+</div>
 
 Where $C$ is the cost of fighting.
 
@@ -2164,10 +2216,14 @@ Counteract present bias.
 Two countries are negotiating a climate agreement. Each can either Abide (reduce emissions) Or
 Defect (continue business as usual). The payoff matrix (welfare in USD billion) is:
 
+<div class="table-wrap">
+
 |        | Abide    | Defect   |
 | ------ | -------- | -------- |
 | Abide  | (50, 50) | (10, 70) |
 | Defect | (70, 10) | (20, 20) |
+
+</div>
 
 (a) Find the Nash equilibrium of the one-shot game. [2 marks]
 
@@ -2677,10 +2733,14 @@ equilibria. The challenge is to coordinate on one equilibrium.
 
 Two firms choose between Technology A and Technology B.
 
+<div class="table-wrap">
+
 |        | Tech A | Tech B |
 | ------ | ------ | ------ |
 | Tech A | (5, 5) | (0, 0) |
 | Tech B | (0, 0) | (3, 3) |
+
+</div>
 
 Two pure-strategy Nash equilibria: (A, A) and (B, B). Both firms prefer (A, A) but must Coordinate.
 If each firm expects the other to choose A, both choose A. If each expects B, Both choose B.
@@ -2696,10 +2756,14 @@ If each firm expects the other to choose A, both choose A. If each expects B, Bo
 
 ### Battle of the Sexes
 
+<div class="table-wrap">
+
 |          | Opera  | Football |
 | -------- | ------ | -------- |
 | Opera    | (3, 2) | (0, 0)   |
 | Football | (0, 0) | (2, 3)   |
+
+</div>
 
 Two Nash equilibria: (Opera, Opera) and (Football, Football). Each player prefers a Different
 equilibrium. This models situations where players want to coordinate but have Different preferences
@@ -2720,10 +2784,14 @@ probability 0.4.
 
 ### Stag Hunt Game
 
+<div class="table-wrap">
+
 |      | Stag   | Hare   |
 | ---- | ------ | ------ |
 | Stag | (4, 4) | (0, 3) |
 | Hare | (3, 0) | (2, 2) |
+
+</div>
 
 Two Nash equilibria: (Stag, Stag) with payoff (4, 4) and (Hare, Hare) with payoff (2, 2).
 

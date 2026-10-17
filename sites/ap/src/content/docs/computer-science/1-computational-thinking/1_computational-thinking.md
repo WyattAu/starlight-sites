@@ -98,6 +98,8 @@ Quick sort, or heap sort -- only that it sorts correctly.
 
 ### Levels of Abstraction
 
+<div class="table-wrap">
+
 | Level    | Example                  | Detail Level |
 | -------- | ------------------------ | ------------ |
 | High     | A web browser            | Very low     |
@@ -105,6 +107,8 @@ Quick sort, or heap sort -- only that it sorts correctly.
 | Low      | Operating system calls   | High         |
 | Very low | Machine code / binary    | Very high    |
 | Hardware | Logic gates, transistors | Maximum      |
+
+</div>
 
 Moving down the ladder reveals more detail. Moving up hides detail behind simpler interfaces. The
 Key insight of abstraction is that you rarely need to go all the way down -- you work at the level
@@ -496,12 +500,16 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 
 ### Deciding Between Representations
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
 | Pseudocode       | Medium    | Medium      | No         |
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
+
+</div>
 
 Pseudocode is the best compromise for communicating algorithms between humans. It is precise enough
 to unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
@@ -603,6 +611,8 @@ public class ArrayStack {
 
 **Time complexity of stack operations:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
@@ -610,6 +620,8 @@ public class ArrayStack {
 | peek      | $O(1)$          |
 | isEmpty   | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Using Stacks: Balanced Parentheses
 
@@ -710,6 +722,8 @@ A trace table records the values of variables as an algorithm executes.
 
 **Example:** Trace `findMax` on the list [3, 7, 2, 9, 5].
 
+<div class="table-wrap">
+
 | Iteration | item | max (before) | max (after) |
 | --------- | ---- | ------------ | ----------- |
 | 1         | 3    | 3            | 3           |
@@ -718,15 +732,21 @@ A trace table records the values of variables as an algorithm executes.
 | 4         | 9    | 7            | 9           |
 | 5         | 5    | 9            | 9           |
 
+</div>
+
 Final result: 9. Correct.
 
 **Example:** Trace `binarySearch` on [2, 5, 8, 12, 16, 23, 38] searching for 16.
+
+<div class="table-wrap">
 
 | Iteration | low | high | mid | list[mid] | Action  |
 | --------- | --- | ---- | --- | --------- | ------- |
 | 1         | 1   | 7    | 4   | 12        | 12 < 16 |
 | 2         | 5   | 7    | 6   | 23        | 23 > 16 |
 | 3         | 5   | 5    | 5   | 16        | Found!  |
+
+</div>
 
 Result: index 5. Correct.
 

@@ -33,10 +33,14 @@ Or `/GR-` (MSVC).
 
 RTTI provides two primary operators:
 
+<div class="table-wrap">
+
 | Operator       | Purpose                                               |
 | -------------- | ----------------------------------------------------- |
 | `dynamic_cast` | Safe downcast with runtime type check                 |
 | `typeid`       | Returns a `const std::type_info&` describing the type |
+
+</div>
 
 RTTI relies on the same vtable infrastructure used for virtual dispatch. Each polymorphic class"s
 Vtable contains a pointer to its `std::type_info` object.
@@ -419,6 +423,8 @@ Casts through virtual bases, the cost is $O(d)$ where $d$ is the depth of the DA
 
 ### Down-cast vs Cross-cast
 
+<div class="table-wrap">
+
 | Cast Type    | Source and Target           | Cost                          | Mechanism                               |
 | ------------ | --------------------------- | ----------------------------- | --------------------------------------- |
 | Down-cast    | Base*to Derived*           | $O(1)$ (single inheritance)   | `type_info` pointer comparison          |
@@ -426,6 +432,8 @@ Casts through virtual bases, the cost is $O(d)$ where $d$ is the depth of the DA
 | Cross-cast   | Base1*to Base2* (siblings) | $O(b)$                        | Find most-derived, walk to target base  |
 | Up-cast      | Derived*to Base*           | $O(1)$                        | Compile-time offset (use `static_cast`) |
 | `void*` cast | Base* to `void*`            | $O(1)$                        | Offset to most-derived object           |
+
+</div>
 
 ## 4.7 `dynamic_cast` to `void*`: The Most-Derived Type
 
@@ -671,6 +679,8 @@ Modifying all visitors; adding a new visitor requires modifying all shapes.
 
 ### Alternative Comparison Table
 
+<div class="table-wrap">
+
 | Approach                      | RTTI Required | Closed Set | Cost                     | Extensibility          |
 | ----------------------------- | ------------- | ---------- | ------------------------ | ---------------------- |
 | `dynamic_cast` chain          | Yes           | No         | $O(d)$ hierarchy depth   | Add types freely       |
@@ -678,6 +688,8 @@ Modifying all visitors; adding a new visitor requires modifying all shapes.
 | `std::variant` + `std::visit` | No            | Yes        | $O(1)$                   | Compile-time only      |
 | Visitor pattern               | No            | No         | $O(1)$ (2 virtual calls) | Both axes need changes |
 | CRTP / deducing this          | No            | Yes        | $O(0)$ (inlined)         | Compile-time only      |
+
+</div>
 
 ## 4.10 RTTI Overhead Measurement
 

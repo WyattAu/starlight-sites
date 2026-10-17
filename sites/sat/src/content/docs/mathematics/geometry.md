@@ -30,6 +30,8 @@ SAT mathematics study notes - Geometry
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Shape | Area | Perimeter/Circumference |
 | ------- | ------ | ------------------------ |
 | Triangle | $\frac{1}{2}bh$ | $a + b + c$ |
@@ -37,11 +39,17 @@ SAT mathematics study notes - Geometry
 | Circle | $\pi r^2$ | $2\pi r$ |
 | Trapezoid | $\frac{1}{2}(b_1 + b_2)h$ | sum of all sides |
 
+</div>
+
+<div class="table-wrap">
+
 | Solid | Volume | Surface Area |
 | ------- | -------- | ------------- |
 | Rectangular prism | $lwh$ | $2(lw + lh + wh)$ |
 | Cylinder | $\pi r^2 h$ | $2\pi r^2 + 2\pi rh$ |
 | Sphere | $\frac{4}{3}\pi r^3$ | $4\pi r^2$ |
+
+</div>
 
 ## Worked Examples
 

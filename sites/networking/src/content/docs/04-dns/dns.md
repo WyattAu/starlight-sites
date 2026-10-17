@@ -90,6 +90,8 @@ Case-insensitive (`EXAMPLE.COM` = `example.com`).
 Operate the root zone, which contains delegations to all TLD name servers. There are 13 logical root
 Server networks (A-M), each identified by a letter and an IP address:
 
+<div class="table-wrap">
+
 | Letter | Operator | IPv4          | IPv6                |
 | ------ | -------- | ------------- | ------------------- |
 | A      | Verisign | 198.41.0.4    | 2001:503:ba3e::2:30 |
@@ -101,6 +103,8 @@ Server networks (A-M), each identified by a letter and an IP address:
 | K      | RIPE NCC | 193.0.14.129  | 2001:7fd::1         |
 | L      | ICANN    | 199.7.83.42   | 2001:500:9f::42     |
 | M      | WIDE     | 202.12.27.33  | 2001:dc3::35        |
+
+</div>
 
 Each root server network operates anycast instances worldwide, so a query to "root server A" from
 Tokyo likely reaches a different physical server than from New York.
@@ -365,6 +369,8 @@ Traffic separately from HTTPS.
 
 ### DoH vs DoT
 
+<div class="table-wrap">
+
 | Criterion           | DoH                            | DoT                          |
 | ------------------- | ------------------------------ | ---------------------------- |
 | Port                | 443                            | 853                          |
@@ -374,6 +380,8 @@ Traffic separately from HTTPS.
 | Corporate filtering | Harder to filter               | Easier to filter             |
 | Implementation      | Browser-native                 | OS-native                    |
 | Adoption            | Chrome, Firefox, Edge          | Android, iOS 14+             |
+
+</div>
 
 ## DNSSEC (DNS Security Extensions)
 
@@ -590,6 +598,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 
 **Header fields (12 bytes):**
 
+<div class="table-wrap">
+
 | Field   | Size    | Purpose                                                               |
 | ------- | ------- | --------------------------------------------------------------------- |
 | ID      | 16 bits | Query identifier (matches response to request)                        |
@@ -605,6 +615,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 | ANCOUNT | 16 bits | Number of answer RRs                                                  |
 | NSCOUNT | 16 bits | Number of authority RRs                                               |
 | ARCOUNT | 16 bits | Number of additional RRs                                              |
+
+</div>
 
 ### DNS Wire Format for Resource Records
 

@@ -158,6 +158,8 @@ more knowledgeable members of the culture.
 
 ### Comparison of Piaget and Vygotsky
 
+<div class="table-wrap">
+
 | Dimension             | Piaget                                                                                       | Vygotsky                                                                         |
 | --------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Nature of development | Individual, construction of knowledge through interaction with the physical environment      | Social, co-construction of knowledge through interaction with others             |
@@ -166,6 +168,8 @@ more knowledgeable members of the culture.
 | Role of the adult     | The adult provides a stimulating environment but does not directly instruct                  | The adult actively guides and scaffolds the child's learning                     |
 | Role of peers         | Peer interaction is less important than individual exploration                               | Peer interaction (collaborative learning) is essential for cognitive development |
 | View of the child     | The child is a "little scientist" who actively constructs knowledge                          | The child is a "little apprentice" who learns through guided participation       |
+
+</div>
 
 ### Evaluation of Vygotsky's Theory
 

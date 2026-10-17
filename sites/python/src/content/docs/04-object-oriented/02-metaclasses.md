@@ -690,6 +690,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 
 ## Comparison: Metaclasses vs Decorators vs Descriptors vs `__init_subclass__`
 
+<div class="table-wrap">
+
 | Criterion                                  | Metaclass                    | Class Decorator              | Descriptor          | `__init_subclass__`  |
 | ------------------------------------------ | ---------------------------- | ---------------------------- | ------------------- | -------------------- |
 | Intercepts namespace before class creation | Yes (`__new__``__prepare__`) | No (class already exists)    | No                  | No                   |
@@ -700,6 +702,8 @@ Entirely because they do not introduce a new metaclass into the hierarchy.
 | Metaclass conflict risk                    | Yes                          | No                           | No                  | No                   |
 | Complexity                                 | High                         | Low                          | Medium              | Low                  |
 | Visibility to readers                      | Low (implicit magic)         | High (explicit `@decorator`) | Medium              | Medium               |
+
+</div>
 
 **Use a class decorator when:** You need to modify a class after it is created, and the modification
 Does not need to propagate to subclasses. Decorators are the simplest tool and should be your first

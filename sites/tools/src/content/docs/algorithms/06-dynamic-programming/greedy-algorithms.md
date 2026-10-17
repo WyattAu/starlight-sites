@@ -23,6 +23,8 @@ Subproblems, they commit to a choice and never reconsider.
 
 ### When to Consider Greedy
 
+<div class="table-wrap">
+
 | Signal                                                         | Try Greedy First? |
 | -------------------------------------------------------------- | ----------------- |
 | Problem has a matroid structure                                | Yes               |
@@ -33,6 +35,8 @@ Subproblems, they commit to a choice and never reconsider.
 | 0/1 knapsack, partition, edit distance                         | No (use DP)       |
 | TSP                                                            | No (NP-hard)      |
 | Problem requires "try all possibilities" to verify correctness | Probably No       |
+
+</div>
 
 ## The Exchange Argument
 
@@ -409,6 +413,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 
 ### Examples of Matroids
 
+<div class="table-wrap">
+
 | Matroid             | Set $S$          | Independent Sets $\mathcal{I}$     | Greedy Problem     |
 | ------------------- | ---------------- | ---------------------------------- | ------------------ |
 | Graphic matroid     | Edges of a graph | Acyclic subsets (forests)          | MST (Kruskal)      |
@@ -416,6 +422,8 @@ Independent) finds the maximum-weight independent set in any matroid.
 | Linear matroid      | Vectors          | Linearly independent sets          | Max weight basis   |
 | Uniform matroid     | Elements         | Subsets of size $\le k$            | Top-k selection    |
 | Transversal matroid | Elements         | System of distinct representatives | Bipartite matching |
+
+</div>
 
 ```mermaid
 graph TD

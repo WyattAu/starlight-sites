@@ -40,6 +40,8 @@ understanding why some events are catastrophic while others are manageable.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                | Definition                                                                                                                                    |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Natural hazard**  | A natural process or event that has the potential to cause loss of life or property damage                                                    |
@@ -56,6 +58,8 @@ understanding why some events are catastrophic while others are manageable.
 | **Adaptation**      | Adjustments made to cope with the effects of a hazard or environmental change                                                                 |
 | **Plate tectonics** | The theory that the Earth's lithosphere is divided into plates that move relative to one another, driven by convection currents in the mantle |
 | **Response**        | The immediate and long-term actions taken following a hazard event to address its impacts                                                     |
+
+</div>
 
 ---
 
@@ -81,12 +85,16 @@ on the semi-molten asthenosphere. Plate movement is driven by:
 
 ### Plate Boundary Types
 
+<div class="table-wrap">
+
 | Boundary Type                | Process                                                                                 | Features                                          | Hazards                                                    |
 | ---------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------- |
 | **Divergent (constructive)** | Plates move apart; magma rises to fill the gap                                          | Mid-ocean ridges, rift valleys, new oceanic crust | Volcanoes (effusive, low explosivity), shallow earthquakes |
 | **Convergent (destructive)** | Oceanic plate subducts beneath continental plate (or continental-continental collision) | Ocean trenches, fold mountains, volcanic arcs     | Explosive volcanoes, deep to shallow earthquakes, tsunamis |
 | **Conservative (transform)** | Plates slide past each other horizontally                                               | Fault lines, no magma generation                  | Shallow earthquakes, no volcanic activity                  |
 | **Collision**                | Two continental plates converge; neither subducts                                       | Fold mountains, thickened crust                   | Major earthquakes, landslides                              |
+
+</div>
 
 ### Earthquakes
 
@@ -125,11 +133,15 @@ seismic waves.
 Volcanoes occur where magma reaches the Earth's surface. Their character depends on magma
 composition:
 
+<div class="table-wrap">
+
 | Magma Type             | Location                                 | Characteristics                                                                                          |
 | ---------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Basaltic (basic)**   | Divergent boundaries, hot spots          | Low viscosity, low silica, low gas content, effusive eruptions, shield volcanoes                         |
 | **Andesitic**          | Convergent boundaries (subduction zones) | Medium viscosity, medium silica, moderate gas content, explosive eruptions, composite (strato) volcanoes |
 | **Rhyolitic (acidic)** | Convergent boundaries, continental crust | High viscosity, high silica, high gas content, highly explosive, pyroclastic flows                       |
+
+</div>
 
 **Volcanic hazards:**
 
@@ -175,6 +187,8 @@ wall (strongest winds and heaviest rainfall). Spiral rain bands extend outward.
 
 **Saffir-Simpson Hurricane Scale:**
 
+<div class="table-wrap">
+
 | Category | Wind Speed (km/h) | Damage Potential |
 | -------- | ----------------- | ---------------- |
 | 1        | 119–153           | Minimal          |
@@ -182,6 +196,8 @@ wall (strongest winds and heaviest rainfall). Spiral rain bands extend outward.
 | 3        | 178–208           | Extensive        |
 | 4        | 209–251           | Extreme          |
 | 5        | > 251             | Catastrophic     |
+
+</div>
 
 **Hazards associated with tropical storms:**
 
@@ -240,6 +256,8 @@ depending on their vulnerability and capacity.
 
 ### Factors Affecting Vulnerability
 
+<div class="table-wrap">
+
 | Factor                   | Low Vulnerability (High Capacity)                           | High Vulnerability (Low Capacity)                                |
 | ------------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------- |
 | **Economic development** | High GDP per capita, insurance, infrastructure investment   | Low GDP per capita, limited infrastructure, no insurance         |
@@ -247,6 +265,8 @@ depending on their vulnerability and capacity.
 | **Governance**           | Strong institutions, building codes, emergency planning     | Weak governance, corruption, no enforcement                      |
 | **Population density**   | Planned settlements, evacuation routes                      | Unplanned urban growth, slums, limited escape routes             |
 | **Healthcare**           | Hospitals, emergency medical services, disease surveillance | Limited medical facilities, disease risk from contaminated water |
+
+</div>
 
 ### The Disaster Response Cycle
 

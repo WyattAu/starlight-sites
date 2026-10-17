@@ -359,6 +359,8 @@ private void processRequest(Request request) {
 
 ### Scoped Values vs ThreadLocal
 
+<div class="table-wrap">
+
 | Feature          | `ThreadLocal`                  | `ScopedValue`                       |
 | ---------------- | ------------------------------ | ----------------------------------- |
 | Mutability       | Mutable                        | Immutable (bound once per scope)    |
@@ -367,6 +369,8 @@ private void processRequest(Request request) {
 | Inheritance      | Inherited by child threads     | Inherited by child threads          |
 | Rebinding        | Can rebind per call            | Cannot rebind within active scope   |
 | Virtual thread   | Expensive (millions of copies) | Efficient (single shared reference) |
+
+</div>
 
 ### Binding and Rebinding
 
@@ -412,6 +416,8 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
 ### Virtual Threads vs Go Goroutines
 
+<div class="table-wrap">
+
 | Feature             | Java Virtual Threads         | Go Goroutines                  |
 | ------------------- | ---------------------------- | ------------------------------ |
 | Stack model         | Heap-allocated continuations | Heap-allocated growable stacks |
@@ -420,6 +426,8 @@ try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | M:N scheduling      | Yes                          | Yes                            |
 | Typical concurrency | Millions                     | Hundreds of thousands          |
 | Blocking I/O        | Transparent unmount          | Transparent unmount            |
+
+</div>
 
 Go goroutines are more mature (available since Go 1.0 in 2012) and have no pinning issue because Go
 does not have monitor-based locking. Java virtual threads are catching up, and the pinning issue is

@@ -36,12 +36,16 @@ Students to present OOP concepts
 
 ### Styles
 
+<div class="table-wrap">
+
 | Token               | Conventions        |
 | ------------------- | ------------------ |
 | Classes identifier  | `CapitalCamelCase` |
 | Variable identifier | `camelCase`        |
 | Method identifier   | `camelCase`        |
 | Constant identifier | `UPPER_CASE`       |
+
+</div>
 
 ### Ordering
 
@@ -345,6 +349,8 @@ Programs. IB exams frequently include UML diagrams and ask you to interpret or c
 
 ### Key UML Notation
 
+<div class="table-wrap">
+
 | Element         | Symbol                                          | Meaning                                    |
 | :-------------- | :---------------------------------------------- | :----------------------------------------- |
 | Class           | Rectangle with three sections                   | Class name, attributes, methods            |
@@ -355,6 +361,8 @@ Programs. IB exams frequently include UML diagrams and ask you to interpret or c
 | Association     | Solid line with arrow                           | "Has-a" relationship                       |
 | Aggregation     | Solid line with hollow diamond                  | "Has-a" (weak ownership)                   |
 | Composition     | Solid line with filled diamond                  | "Has-a" (strong ownership)                 |
+
+</div>
 
 ### Example UML Diagram (Text Representation)
 
@@ -681,10 +689,14 @@ void selectionSort(int[] arr) {
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Site    | Link                                                                                                                |
 | ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | [Object-Oriented Programming] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/02-object-oriented-programming) |
 | [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming/) |
+
+</div>
 
 ## Summary
 

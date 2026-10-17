@@ -57,6 +57,8 @@ echo 51539607552 | sudo tee /sys/module/zfs/parameters/zfs_arc_max
 
 ### ARC Hit Ratio Targets
 
+<div class="table-wrap">
+
 | Hit Ratio | Interpretation                            |
 | --------- | ----------------------------------------- |
 | &gt; 95%  | Excellent, working set fits in ARC       |
@@ -64,14 +66,20 @@ echo 51539607552 | sudo tee /sys/module/zfs/parameters/zfs_arc_max
 | 70–85%    | Acceptable, consider adding RAM or L2ARC |
 | &lt; 70%  | Poor, working set exceeds ARC, add RAM   |
 
+</div>
+
 ### primarycache and secondarycache
 
 These dataset properties control what data is cached:
+
+<div class="table-wrap">
 
 | Property         | Values              | Effect                       |
 | ---------------- | ------------------- | ---------------------------- |
 | `primarycache`   | all, metadata, none | What to store in ARC (RAM)   |
 | `secondarycache` | all, metadata, none | What to store in L2ARC (SSD) |
+
+</div>
 
 For most workloads, `primarycache=all` is correct. For workloads where the working set is much
 Larger than RAM (e.g., media streaming), setting `primarycache=metadata` caches only file metadata
@@ -99,6 +107,8 @@ Write time and cannot be changed afterward.
 
 ### Choosing the Right recordsize
 
+<div class="table-wrap">
+
 | Workload                            | recordsize     | Rationale                                            |
 | ----------------------------------- | -------------- | ---------------------------------------------------- |
 | General file storage                | 128K (default) | Good balance for mixed workloads                     |
@@ -109,6 +119,8 @@ Write time and cannot be changed afterward.
 | NFS home directories                | 128K           | Mixed workload, default is fine                      |
 | Photo libraries (many small files)  | 128K           | Large enough for most image files                    |
 | Source code repositories            | 128K           | Many small reads, metadata caching is more important |
+
+</div>
 
 :::caution
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
@@ -139,6 +151,8 @@ Incorrect recordsize causes read amplification:
 
 ### Compression Algorithms
 
+<div class="table-wrap">
+
 | Algorithm            | Ratio                | CPU Cost | Speed     | Recommendation                         |
 | -------------------- | -------------------- | -------- | --------- | -------------------------------------- |
 | lz4                  | Good (1.3–1.5x)      | Very Low | Very Fast | Default for all workloads              |
@@ -147,6 +161,8 @@ Incorrect recordsize causes read amplification:
 | gzip-1 to gzip-9     | Variable             | Moderate | Moderate  | Legacy; zstd is better                 |
 | lzjb                 | Poor                 | Low      | Fast      | Legacy; avoid                          |
 | zle                  | None                 | None     | Fast      | Incompressible data (encrypted, media) |
+
+</div>
 
 ### When to Use Compression
 
@@ -198,13 +214,19 @@ $$
 DDT\_RAM = Unique\_Blocks \times 320 \mathrm{ bytes
 $$
 
+<div class="table-wrap">
+
 | Pool Size | Unique Data | DDT RAM Required |
 | --------- | ----------- | ---------------- |
 | 1 TB      | 500 GB      | ~160 GB          |
 | 5 TB      | 2.5 TB      | ~800 GB          |
 | 10 TB     | 5 TB        | ~1.6 TB          |
 
+</div>
+
 ### When to Use Dedup
+
+<div class="table-wrap">
 
 | Scenario                           | Use Dedup? | Rationale                             |
 | ---------------------------------- | ---------- | ------------------------------------- |
@@ -213,6 +235,8 @@ $$
 | General file storage               | No         | Low dedup ratio, high memory cost     |
 | Backup storage                     | No         | Most data is unique                   |
 | Database storage                   | No         | Low dedup ratio, performance impact   |
+
+</div>
 
 :::caution
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead, it provides
@@ -236,6 +260,8 @@ Meaningful space savings with no memory cost.
 
 TrueNAS uses Samba's `smbd` daemon for SMB file sharing. Tuning options include:
 
+<div class="table-wrap">
+
 | Setting          | Default | Recommended         | Effect                            |
 | ---------------- | ------- | ------------------- | --------------------------------- |
 | `min protocol`   | SMB1    | SMB3                | Security                          |
@@ -244,6 +270,8 @@ TrueNAS uses Samba's `smbd` daemon for SMB file sharing. Tuning options include:
 | `strict locking` | Auto    | No                  | Reduce lock contention            |
 | `strict sync`    | Auto    | No                  | Skip fsync on close (performance) |
 | `cache size`     | Auto    | Adjust based on RAM | Directory metadata cache          |
+
+</div>
 
 ### SMB Auxiliary Parameters
 
@@ -314,10 +342,14 @@ Configure under **Sharing** → **Unix (NFS) Shares** → **Settings**.
 
 ### async vs. Sync NFS
 
+<div class="table-wrap">
+
 | Mode  | Behavior                                             | Safety | Performance |
 | ----- | ---------------------------------------------------- | ------ | ----------- |
 | sync  | Server acknowledges write only after data is on disk | High   | Lower       |
 | async | Server acknowledges write before data is on disk     | Lower  | Higher      |
+
+</div>
 
 For NFS, the default sync behavior depends on the client's mount options. ZFS's copy-on-write
 Ensures data integrity regardless of the NFS sync setting, but async mode can return "success" to
@@ -359,12 +391,16 @@ Standard frames. Only enable jumbo frames if you control the entire network path
 Link aggregation (LACP, IEEE 802.3ad) bonds multiple network interfaces into a single logical
 Interface for increased throughput and redundancy:
 
+<div class="table-wrap">
+
 | Mode           | Throughput           | Failover | Requirements            |
 | -------------- | -------------------- | -------- | ----------------------- |
 | LACP (802.3ad) | Aggregate (per-flow) | Yes      | Switch support required |
 | Balance-XOR    | Aggregate (per-flow) | Yes      | No switch configuration |
 | Active-Backup  | Single link          | Yes      | No switch configuration |
 | Balance-ALB    | Aggregate (per-flow) | Yes      | No switch configuration |
+
+</div>
 
 **Important:** LACP aggregates bandwidth per-flow, not per-connection. A single SMB or NFS transfer
 Will use only one link. Aggregation benefits multi-client or multi-stream workloads.
@@ -415,12 +451,16 @@ For ZFS:
 
 A dedicated SLOG device accelerates synchronous writes:
 
+<div class="table-wrap">
+
 | Device Type            | Write Latency | Endurance | Cost                         |
 | ---------------------- | ------------- | --------- | ---------------------------- |
 | Intel Optane P5800X    | ~10 $\mu$ S    | Very High | Very High                    |
 | Enterprise NVMe (PLP)  | ~50 $\mu$ S    | High      | High                         |
 | Consumer NVMe (no PLP) | ~30 $\mu$ S    | Moderate  | Low (unsafe for sync writes) |
 | SATA SSD               | ~100 $\mu$ S   | Moderate  | Low                          |
+
+</div>
 
 ### L2ARC Devices
 
@@ -433,6 +473,8 @@ L2ARC extends the ARC to SSD storage:
 
 ### HBA vs. RAID Controller
 
+<div class="table-wrap">
+
 | Feature             | HBA (IT Mode)             | RAID Controller              |
 | ------------------- | ------------------------- | ---------------------------- |
 | ZFS compatibility   | Full (direct disk access) | Limited (virtual disks only) |
@@ -441,6 +483,8 @@ L2ARC extends the ARC to SSD storage:
 | Performance         | Native                    | May add overhead             |
 | Cost                | Low                       | High                         |
 | Boot support        | Sometimes                 |                              |
+
+</div>
 
 :::caution
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
@@ -497,6 +541,8 @@ kstat -p zfs:0:arcstats:l2_misses
 
 ### Common Performance Bottlenecks
 
+<div class="table-wrap">
+
 | Symptom               | Likely Cause                      | Diagnostic                                             |
 | --------------------- | --------------------------------- | ------------------------------------------------------ |
 | Slow random reads     | HDD pool, insufficient ARC        | Check ARC hit ratio, consider SSD L2ARC                |
@@ -506,6 +552,8 @@ kstat -p zfs:0:arcstats:l2_misses
 | Slow NFS access       | NFS mount options, network        | Check rsize/wsize, network MTU                         |
 | High CPU usage        | Compression, dedup, encryption    | Check compression algorithm, disable dedup             |
 | Low write throughput  | Insufficient vdevs, slow disks    | Add vdevs (striping across vdevs increases throughput) |
+
+</div>
 
 ---
 
@@ -559,6 +607,8 @@ Recordsize. Create separate datasets with appropriate recordsize for different w
 
 The ARC is a slab allocator that manages memory in several categories:
 
+<div class="table-wrap">
+
 | Category   | Description                                    | Typical Size  |
 | ---------- | ---------------------------------------------- | ------------- |
 | `arc_meta` | Metadata (dnode structures, directory entries) | 25–50% of ARC |
@@ -566,6 +616,8 @@ The ARC is a slab allocator that manages memory in several categories:
 | `arc_mfu`  | Most Frequently Used data                      | 40–60% of ARC |
 | `arc_mru`  | Most Recently Used data                        | 20–30% of ARC |
 | `arc_l2c`  | Pointers to L2ARC entries                      | 1–5% of ARC   |
+
+</div>
 
 ### ARC Hit Ratio Analysis
 
@@ -664,6 +716,8 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 
 ### Real-World Compression Ratios
 
+<div class="table-wrap">
+
 | Data Type      | lz4  | zstd-1 | zstd-3 | zstd-10 | zstd-19 |
 | -------------- | ---- | ------ | ------ | ------- | ------- |
 | Source code    | 2.1x | 2.4x   | 2.8x   | 3.5x    | 3.8x    |
@@ -673,7 +727,11 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 | Encrypted data | 1.0x | 1.0x   | 1.0x   | 1.0x    | 1.0x    |
 | JPEG images    | 1.0x | 1.0x   | 1.0x   | 1.0x    | 1.0x    |
 
+</div>
+
 ### zstd Compression Levels
+
+<div class="table-wrap">
 
 | Level | Speed (comp/decomp MB/s) | Ratio | Recommendation                             |
 | ----- | ------------------------ | ----- | ------------------------------------------ |
@@ -681,6 +739,8 @@ zfs create -o recordsize=1M -o compression=off tank/media/4k-video
 | 3     | 200/800                  | 1.5x  | Good for compressible data                 |
 | 10    | 50/500                   | 1.7x  | Archive/compressible data, low CPU systems |
 | 19    | 10/300                   | 1.8x  | Maximum compression, very slow             |
+
+</div>
 
 ## SMB Tuning Deep Dive
 
@@ -803,6 +863,8 @@ ECC RAM detects and corrects single-bit errors in real time, preventing this sce
 
 ### SSD SLOG Selection Guide
 
+<div class="table-wrap">
+
 | Use Case              | Minimum SLOG      | Recommended SLOG      | Budget SLOG     |
 | --------------------- | ----------------- | --------------------- | --------------- |
 | NFS home directories  | Any SSD           | Enterprise NVMe (PLP) | Consumer NVMe   |
@@ -811,9 +873,13 @@ ECC RAM detects and corrects single-bit errors in real time, preventing this sce
 | Backup server         | Any SSD           | Consumer NVMe         | SATA SSD        |
 | File server           | None (ZIL in RAM) | None                  | None            |
 
+</div>
+
 ### HBA Configuration
 
 Popular HBAs for ZFS:
+
+<div class="table-wrap">
 
 | HBA Model         | Ports | Speed             | Firmware      | Notes                         |
 | ----------------- | ----- | ----------------- | ------------- | ----------------------------- |
@@ -821,6 +887,8 @@ Popular HBAs for ZFS:
 | LSI 9300-8i       | 8     | 12 Gbps (SAS3)    | IT mode (P16) | Modern, supports SAS3 drives  |
 | Broadcom 9500-16i | 16    | 12 Gbps (SAS3)    | IT mode       | High port count               |
 | LSI 9207-8i       | 8     | 6 Gbps            | IT mode       | Low-profile, rackmount        |
+
+</div>
 
 Flashing LSI cards to IT mode:
 
@@ -923,6 +991,8 @@ Write volume.
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
 your workload's typical I/O size is critical:
 
+<div class="table-wrap">
+
 | Workload                 | Recommended recordsize | Rationale                                               |
 | ------------------------ | ---------------------- | ------------------------------------------------------- |
 | Database (8K pages)      | 8K or 16K              | Matches database page size, reduces write amplification |
@@ -930,6 +1000,8 @@ your workload's typical I/O size is critical:
 | Media files (video)      | 1M (default)           | Large sequential reads benefit from large blocks        |
 | Source code repositories | 128K                   | Many small files with varied access patterns            |
 | Photo libraries          | 128K or 256K           | Mixed file sizes, moderate random access                |
+
+</div>
 
 ```bash
 # Set recordsize for a PostgreSQL dataset
@@ -964,6 +1036,8 @@ cat /proc/spl/kstat/zfs/arcstats | grep -E \
   "^hits|^misses|^size|^c_max|^deleted|^evict|^mfu|^mru|^prefetch|^demand"
 ```
 
+<div class="table-wrap">
+
 | Metric          | Meaning                        | Target                                                               |
 | --------------- | ------------------------------ | -------------------------------------------------------------------- |
 | `hits`          | ARC hit count                  | Should be &gt; 90% of total accesses                                 |
@@ -973,6 +1047,8 @@ cat /proc/spl/kstat/zfs/arcstats | grep -E \
 | `mfu_hits`      | Most Frequently Used hits      | High values indicate working set fits in ARC                         |
 | `mru_hits`      | Most Recently Used hits        | High values indicate streaming access pattern                        |
 | `prefetch_hits` | Prefetch hits                  | Should be low to moderate; high means ZFS is prefetching effectively |
+
+</div>
 
 ### Calculating Hit Rate
 

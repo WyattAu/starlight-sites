@@ -240,6 +240,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Function | Derivative | Notes |
 | --- | --- | --- |
 | $x^n$ | $nx^{n-1}$ | Power rule |
@@ -249,6 +251,8 @@ $$
 | $\tan^{-1}(x)$ | $\frac{1}{1 + x^2}$ | Inverse trig derivative |
 | $\sin^{-1}(x)$ | $\frac{1}{\sqrt{1 - x^2}}$ | Inverse trig derivative |
 | $u^n$ (chain rule) | $nu^{n-1} \cdot u'$ | Generalised power rule |
+
+</div>
 
 ## Additional Exam Tips
 

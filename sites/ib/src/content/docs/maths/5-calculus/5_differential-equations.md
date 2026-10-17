@@ -371,6 +371,8 @@ $\phi = \arctan\!\left(-\dfrac{B}{A}\right)$.
 
 **Key quantities:**
 
+<div class="table-wrap">
+
 | Quantity             | Formula                                   |
 | :------------------- | :---------------------------------------- |
 | Amplitude            | $R = \sqrt{A^2 + B^2}$                    |
@@ -379,6 +381,8 @@ $\phi = \arctan\!\left(-\dfrac{B}{A}\right)$.
 | Angular frequency    | $\omega = 2\pi f$                         |
 | Maximum velocity     | $v_{\max} = R\omega$                      |
 | Maximum acceleration | $a_{\max} = R\omega^2$                    |
+
+</div>
 
 **Example.** A particle moves with SHM. At $t = 0$, $x = 3$ and $v = 4$. The angular frequency is
 $\omega = 2$. Find $x(t)$.
@@ -411,11 +415,15 @@ $$
 \lambda = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}
 $$
 
+<div class="table-wrap">
+
 | Condition                 | Type of damping   | Solution                                                |
 | :------------------------ | :---------------- | :------------------------------------------------------ |
 | $\gamma^2 \gt \omega_0^2$ | Overdamped        | Two distinct real roots: exponentials                   |
 | $\gamma^2 = \omega_0^2$   | Critically damped | Repeated root: $(A + Bt)e^{-\gamma t}$                  |
 | $\gamma^2 \lt \omega_0^2$ | Underdamped       | $\lambda = -\gamma \pm i\omega_d$: decaying oscillation |
+
+</div>
 
 Where $\omega_d = \sqrt{\omega_0^2 - \gamma^2}$ is the **damped frequency**.
 
@@ -488,6 +496,8 @@ Where $h$ is the step size.
 **Example.** Use Euler's method with $h = 0.1$ to approximate $y(0.5)$ for $\dfrac{dy}{dx} = x + y$,
 $y(0) = 1$.
 
+<div class="table-wrap">
+
 | $n$ | $x_n$ | $y_n$ | $f(x_n, y_n) = x_n + y_n$ |
 | :-- | :---- | :---- | :------------------------ |
 | 0   | 0.0   | 1.000 | 1.000                     |
@@ -496,6 +506,8 @@ $y(0) = 1$.
 | 3   | 0.3   | 1.362 | 1.662                     |
 | 4   | 0.4   | 1.528 | 1.928                     |
 | 5   | 0.5   | 1.721 |,                         |
+
+</div>
 
 Euler's approximation: $y(0.5) \approx 1.721$.
 
@@ -701,6 +713,8 @@ Use Euler's method with $h = 0.05$ to approximate $y(0.3)$ for $\dfrac{dy}{dx} =
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | $n$ | $x_n$ | $y_n$  | $f(x_n, y_n) = x_n - y_n$ |
 | :-- | :---- | :----- | :------------------------ |
 | 0   | 0.00  | 2.0000 | $-2.0000$                 |
@@ -710,6 +724,8 @@ Use Euler's method with $h = 0.05$ to approximate $y(0.3)$ for $\dfrac{dy}{dx} =
 | 4   | 0.20  | 1.6435 | $-1.4435$                 |
 | 5   | 0.25  | 1.5713 | $-1.3213$                 |
 | 6   | 0.30  | 1.5053 |,                         |
+
+</div>
 
 Euler approximation: $y(0.3) \approx 1.505$.
 
@@ -854,11 +870,15 @@ See for instructions on self-marking
 and building a personal test matrix.
 :::
 
+<div class="table-wrap">
+
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
+
+</div>
 
 ## Summary
 

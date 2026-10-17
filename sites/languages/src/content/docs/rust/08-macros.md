@@ -46,6 +46,8 @@ Rust macros solve problems that the type system and generics cannot:
 
 ### Macros vs Functions vs Traits vs Generics
 
+<div class="table-wrap">
+
 | Mechanism         | Operates on           | Evaluated at | When to use                                     |
 | ----------------- | --------------------- | ------------ | ----------------------------------------------- |
 | Function          | Values                | Runtime      | Logic on concrete values                        |
@@ -53,6 +55,8 @@ Rust macros solve problems that the type system and generics cannot:
 | Trait             | Behavior contracts    | Compile time | Shared behavior across types                    |
 | Declarative macro | Token trees           | Compile time | Pattern-matching on syntax, variable-arity      |
 | Proc macro        | AST / TokenStream     | Compile time | Code generation requiring full type information |
+
+</div>
 
 ### Two Kinds of Macros
 
@@ -103,6 +107,8 @@ my_func();
 
 ### Fragment Specifiers
 
+<div class="table-wrap">
+
 | Specifier  | Matches                                         | Example input               |
 | ---------- | ----------------------------------------------- | --------------------------- |
 | `ident`    | Identifier                                      | `foo``MyType``_tmp`         |
@@ -118,6 +124,8 @@ my_func();
 | `vis`      | Visibility modifier                             | `pub``pub(crate)`(none)     |
 | `lifetime` | Lifetime                                        | `"a``'static`               |
 | `tt`       | Token tree (single token or matched delimiters) | `=>``(a, b)``[]`            |
+
+</div>
 
 The `tt` specifier is the most flexible -- it matches any single token or any pair of matched
 Delimiters (parentheses, brackets, or braces). It is the "wildcard" of fragment specifiers.
@@ -456,11 +464,15 @@ Means they can use arbitrary Rust code for parsing and generation.
 
 ### Three Types of Procedural Macros
 
+<div class="table-wrap">
+
 | Type           | Syntax               | Applied to                  |
 | -------------- | -------------------- | --------------------------- |
 | Derive         | `#[derive(MyTrait)]` | Struct, enum, union         |
 | Attribute-like | `#[my_attr(args)]`   | Any item (fn, struct, etc.) |
 | Function-like  | `my_macro!(tokens)`  | Arbitrary token sequences   |
+
+</div>
 
 ### Project Structure
 
@@ -1125,6 +1137,8 @@ Emits a compile error on parse failure.
 
 ### Key `syn` Types
 
+<div class="table-wrap">
+
 | Type           | Represents                                   |
 | -------------- | -------------------------------------------- |
 | `DeriveInput`  | A struct, enum, or union (for derive macros) |
@@ -1150,6 +1164,8 @@ Emits a compile error on parse failure.
 | `GenericParam` | A generic type or lifetime parameter         |
 | `WhereClause`  | A where clause                               |
 | `Path`         | A path like `std::collections::HashMap`      |
+
+</div>
 
 ### Iterating Over Struct Fields
 
@@ -1589,6 +1605,8 @@ Names that include parts of the input.
 
 ### Standard Library Macros
 
+<div class="table-wrap">
+
 | Macro            | Purpose                                                       |
 | ---------------- | ------------------------------------------------------------- |
 | `println!`       | Print to stdout with formatting                               |
@@ -1619,7 +1637,11 @@ Names that include parts of the input.
 | `thread_local!`  | Declare a thread-local static                                 |
 | `matches!`       | Match an expression against a pattern                         |
 
+</div>
+
 ### Useful Proc-Macro Crates
+
+<div class="table-wrap">
 
 | Crate                   | Purpose                                                    |
 | ----------------------- | ---------------------------------------------------------- |
@@ -1637,6 +1659,8 @@ Names that include parts of the input.
 | `cargo-expand`          | Tool to view macro expansions                              |
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
+
+</div>
 
 ## Summary
 

@@ -210,6 +210,8 @@ class Sensor(BaseModel):
 
 The constraint parameters for numeric types are:
 
+<div class="table-wrap">
+
 | Parameter     | Meaning                          |
 | ------------- | -------------------------------- |
 | `gt`          | strictly greater than            |
@@ -217,6 +219,8 @@ The constraint parameters for numeric types are:
 | `lt`          | strictly less than               |
 | `le`          | less than or equal               |
 | `multiple_of` | must be a multiple of this value |
+
+</div>
 
 ### String Constraints
 
@@ -231,11 +235,15 @@ class Account(BaseModel):
 
 The constraint parameters for `str` are:
 
+<div class="table-wrap">
+
 | Parameter    | Meaning                             |
 | ------------ | ----------------------------------- |
 | `min_length` | minimum string length               |
 | `max_length` | maximum string length               |
 | `pattern`    | regex pattern the string must match |
+
+</div>
 
 Note: `pattern` uses Python's `re` module. The regex is matched against the entire string (anchored
 at both ends), so you do not need `^` and `$` anchors, though including them is harmless.
@@ -654,6 +662,8 @@ print(p.x)  # 1.0
 
 ### Key Differences
 
+<div class="table-wrap">
+
 | Feature                               | `BaseModel`  | `@pydantic.dataclass`        |
 | ------------------------------------- | ------------ | ---------------------------- |
 | Inheritance from `BaseModel`          | Yes          | No (inherits from dataclass) |
@@ -664,6 +674,8 @@ print(p.x)  # 1.0
 | Composability with other dataclasses  | No           | Yes (dataclass interop)      |
 | Standard `dataclasses.is_dataclass()` | No           | Yes                          |
 | Extra fields behavior                 | Configurable | Configurable                 |
+
+</div>
 
 ### When to Use Which
 
@@ -876,6 +888,8 @@ Dataclasses.
 
 ### Comparison with Pydantic
 
+<div class="table-wrap">
+
 | Concern                | Pydantic                      | attrs                 |
 | ---------------------- | ----------------------------- | --------------------- |
 | Primary purpose        | Data validation and parsing   | Boilerplate reduction |
@@ -887,6 +901,8 @@ Dataclasses.
 | Runtime overhead       | Higher (Rust validation core) | Minimal               |
 | Validation granularity | Field-level, model-level      | Attribute-level       |
 | Ecosystem integration  | FastAPI, Django, etc.         | Independent           |
+
+</div>
 
 ### When to Use attrs
 

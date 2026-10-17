@@ -359,12 +359,16 @@ int main() \{
 
 When designing APIs, choose the parameter type based on ownership and nullability contracts.
 
+<div class="table-wrap">
+
 | Semantic Requirement           | Type       | Implementation Cost                |
 | :----------------------------- | :--------- | :--------------------------------- |
 | **Input Only (Read-Only)**     | `const T&` | Pointer pass (8 bytes). Zero copy. |
 | **Input/Output (Mutation)**    | `T&`       | Pointer pass (8 bytes).            |
 | **Optional Input (Nullable)**  | `const T*` | Pointer pass. Requires null check. |
 | **Optional Output (Nullable)** | `T*`       | Pointer pass. Requires null check. |
+
+</div>
 
 | **Store Reference in Container** | `std::reference_wrapper<T>` | Pointer size storage. | |
 **Reset/Reseat Capability** | `T*` | Mutable pointer. |
@@ -403,12 +407,16 @@ int main() \{
 Reference collapsing rules determine what happens when references are combined through template
 Argument deduction [N4950 §12.2.2.1]:
 
+<div class="table-wrap">
+
 | Template Argument | Substituted Type | Collapsed Type |
 | ----------------- | ---------------- | -------------- |
 | `T = int&`        | `int& &&`        | `int&`         |
 | `T = int`         | `int&&`          | `int&&`        |
 | `T = const int&`  | `const int& &&`  | `const int&`   |
 | `T = const int`   | `const int&&`    | `const int&&`  |
+
+</div>
 
 The rule: a reference to a reference collapses to the lvalue reference. Only an rvalue reference to
 an rvalue reference remains an rvalue reference.

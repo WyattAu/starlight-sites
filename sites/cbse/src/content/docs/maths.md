@@ -58,12 +58,16 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 
 **Set operations.**
 
+<div class="table-wrap">
+
 | Operation | Notation | Meaning |
 | --- | --- | --- |
 | Union | $A \cup B$ | All elements in $A$ or $B$ or both |
 | Intersection | $A \cap B$ | All elements in both $A$ and $B$ |
 | Complement | $A"$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
 | Difference | $A - B$ | Elements in $A$ but not in $B$ |
+
+</div>
 
 **Laws.**
 
@@ -255,6 +259,8 @@ $$
 
 **Standard derivatives:**
 
+<div class="table-wrap">
+
 | $f(x)$ | $f'(x)$ |
 | --- | --- |
 | $x^n$ | $nx^{n-1}$ |
@@ -264,6 +270,8 @@ $$
 | $e^x$ | $e^x$ |
 | $\ln x$ | $1/x$ |
 | $a^x$ | $a^x \ln a$ |
+
+</div>
 
 **Rules:**
 
@@ -427,11 +435,15 @@ $$
 
 ### 5.3 Inverse Trigonometric Functions
 
+<div class="table-wrap">
+
 | Function | Domain | Range |
 | --- | --- | --- |
 | $\sin^{-1}x$ | $[-1, 1]$ | $[-\pi/2, \pi/2]$ |
 | $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
 | $\tan^{-1}x$ | $\mathbb{R}$ | $(-\pi/2, \pi/2)$ |
+
+</div>
 
 **Key identities:**
 
@@ -524,6 +536,8 @@ $$
 
 ## 7. Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula |
 | --- | --- |
 | Quadratic roots | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ |
@@ -536,6 +550,8 @@ $$
 | Binomial coefficient | $\binom{n}{r} = \frac{n!}{r!(n-r)!}$ |
 | Circle equation | $(x-h)^2 + (y-k)^2 = r^2$ |
 | Euler's formula | $e^{i\theta} = \cos\theta + i\sin\theta$ |
+
+</div>
 
 ---
 

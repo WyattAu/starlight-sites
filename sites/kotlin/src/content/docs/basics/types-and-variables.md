@@ -46,6 +46,8 @@ Prefer `val` everywhere. Use `var` only when the variable genuinely must be reas
 Kotlin represents all types as objects at the language level. The compiler maps them to JVM
 Primitives when possible (no boxing overhead).
 
+<div class="table-wrap">
+
 | Kotlin Type | JVM Type  | Size (bits) |
 | ----------- | --------- | ----------: |
 | `Byte`      | `byte`    |           8 |
@@ -56,6 +58,8 @@ Primitives when possible (no boxing overhead).
 | `Double`    | `double`  |          64 |
 | `Boolean`   | `boolean` |           1 |
 | `Char`      | `char`    |          16 |
+
+</div>
 
 Numeric literals support underscores for readability:
 

@@ -156,12 +156,16 @@ booms (restraining demand).
 
 ### Discretionary vs. Automatic Fiscal Policy
 
+<div class="table-wrap">
+
 | Feature              | Automatic                         | Discretionary                                             |
 | -------------------- | --------------------------------- | --------------------------------------------------------- |
 | Timing               | Immediate (built into the system) | Subject to recognition, decision, and implementation lags |
 | Political process    | No legislation required           | Requires legislative approval                             |
 | Cyclical sensitivity | Automatically counter-cyclical    | May be pro-cyclical if poorly timed                       |
 | Predictability       | Highly predictable                | Uncertain (depends on political negotiations)             |
+
+</div>
 
 ### Crowding Out
 

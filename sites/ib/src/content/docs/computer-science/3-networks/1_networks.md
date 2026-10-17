@@ -285,6 +285,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ### Other Important Protocols
 
+<div class="table-wrap">
+
 | Protocol  | Layer       | Function                                               |
 | :-------- | :---------- | :----------------------------------------------------- |
 | FTP       | Application | File transfer between client and server                |
@@ -293,6 +295,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 | UDP       | Transport   | Connectionless, fast data delivery (streaming, gaming) |
 | ARP       | Network     | Maps IP addresses to MAC addresses                     |
 | ICMP      | Network     | Error reporting and diagnostics (e.g. `ping`)          |
+
+</div>
 
 ---
 
@@ -325,6 +329,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 - **Disadvantages:** Harder to manage and secure; performance depends on the number and capability
   of peers; data consistency is harder to maintain.
 
+<div class="table-wrap">
+
 | Feature           | Client-Server                  | Peer-to-Peer                               |
 | :---------------- | :----------------------------- | :----------------------------------------- |
 | Central authority | Yes (server)                   | No                                         |
@@ -333,6 +339,8 @@ DHCP automatically assigns IP addresses to devices on a network.
 | Security          | Centralised, easier to manage  | Distributed, harder to manage              |
 | Fault tolerance   | Server failure affects all     | Individual peer failure has minimal impact |
 | Examples          | Web browsing, email, databases | BitTorrent, blockchain                     |
+
+</div>
 
 ---
 
@@ -482,12 +490,16 @@ at the destination using sequence numbers.
 The TCP/IP model is a four-layer model that predates and influenced the OSI model. It is the
 Practical framework used on the internet today.
 
+<div class="table-wrap">
+
 | Layer | TCP/IP Name    | OSI Equivalent                     | Key Protocols                   |
 | :---- | :------------- | :--------------------------------- | :------------------------------ |
 | 4     | Application    | Application, Session, Presentation | HTTP, FTP, SMTP, DNS, DHCP, SSH |
 | 3     | Transport      | Transport                          | TCP, UDP                        |
 | 2     | Internet       | Network                            | IP, ICMP, ARP, OSPF             |
 | 1     | Network Access | Data Link, Physical                | Ethernet, Wi-Fi, MAC, PPP       |
+
+</div>
 
 ### TCP Segment Structure
 
@@ -503,6 +515,8 @@ A TCP segment contains:
 
 ### TCP vs UDP
 
+<div class="table-wrap">
+
 | Feature      | TCP                                      | UDP                                  |
 | :----------- | :--------------------------------------- | :----------------------------------- |
 | Connection   | Connection-oriented (handshake required) | Connectionless                       |
@@ -511,6 +525,8 @@ A TCP segment contains:
 | Flow control | Yes (window-based)                       | No                                   |
 | Overhead     | Higher (more header data)                | Lower (minimal header)               |
 | Use cases    | Web browsing, email, file transfer       | Streaming, gaming, VoIP, DNS queries |
+
+</div>
 
 ### UDP Segment Structure
 
@@ -559,11 +575,15 @@ Subnets.
 4. Host bits remaining: $8 - 3 = 5$ So $2^5 - 2 = 30$ usable hosts per subnet.
 5. Subnet ranges (block size = $256 - 224 = 32$):
 
+<div class="table-wrap">
+
 | Subnet | Network Address | Usable Host Range               | Broadcast Address |
 | :----- | :-------------- | :------------------------------ | :---------------- |
 | 1      | `192.168.1.0`   | `192.168.1.1` - `192.168.1.30`  | `192.168.1.31`    |
 | 2      | `192.168.1.32`  | `192.168.1.33` - `192.168.1.62` | `192.168.1.63`    |
 | 3      | `192.168.1.64`  | `192.168.1.65` - `192.168.1.94` | `192.168.1.95`    |
+
+</div>
 
 ---
 
@@ -580,6 +600,8 @@ Subnets.
 
 ### Malware Types
 
+<div class="table-wrap">
+
 | Type       | Description                                                   | Example                             |
 | :--------- | :------------------------------------------------------------ | :---------------------------------- |
 | Virus      | Attaches to legitimate files; requires user action to spread  | Macro virus in Word documents       |
@@ -588,6 +610,8 @@ Subnets.
 | Ransomware | Encrypts files and demands payment for decryption key         | WannaCry (2017), NotPetya (2017)    |
 | Spyware    | Monitors user activity and collects data without consent      | Keyloggers                          |
 | Rootkit    | Hides deep in the OS to maintain persistent privileged access | Used in advanced persistent threats |
+
+</div>
 
 ### Common Attack Vectors
 
@@ -766,12 +790,16 @@ Encryption with the speed of symmetric encryption.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site       | Link                                                                                                      |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | [Networks] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/networks/01-network-fundamentals) |
 | [Networks] | IB         | [View](https://ib.wyattau.com/computer-science/3-networks/1_networks/)                             |
 | [Networks] | DSE        | [View](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/) |
 | [Networks] | University | [View](https://computer-science.wyattau.com/)             |
+
+</div>
 
 ## Summary
 

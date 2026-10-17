@@ -79,11 +79,15 @@ Follow these steps in order. Do not skip steps.
 All diagnostic questions are graded on a three-tier system. There is no Numerical score. The tiers
 are mutually exclusive and collectively exhaustive.
 
+<div class="table-wrap">
+
 | Grade       | Definition                                                                                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **PASS**    | Correct method, correct answer, no errors in working. The solution demonstrates full procedural fluency and conceptual understanding.                                                    |
 | **PARTIAL** | Correct method initiated but an error in execution (arithmetic, algebraic, or notational); OR correct final answer arrived at through insufficient, incomplete, or non-rigorous working. |
 | **FAIL**    | Incorrect method, no meaningful attempt, or fundamentally wrong approach. This includes cases where the student could not identify which technique to apply.                             |
+
+</div>
 
 ### Grading discipline
 
@@ -116,6 +120,8 @@ topics.
 
 Each row represents one topic. Each row contains:
 
+<div class="table-wrap">
+
 | Column                 | Description                                                                                    |
 | ---------------------- | ---------------------------------------------------------------------------------------------- |
 | Topic                  | The name of the topic                                                                          |
@@ -124,7 +130,11 @@ Each row represents one topic. Each row contains:
 | Notes                  | Free-text observations (e.g., "forgot +C on definite integral", "confused scalar with vector") |
 | Date                   | Date the diagnostic was last attempted                                                         |
 
+</div>
+
 ### 4.3 Example matrix: Pure Mathematics
+
+<div class="table-wrap">
 
 | Topic                       | Unit Test | Integration Test | Notes                                    | Date |
 | --------------------------- | --------- | ---------------- | ---------------------------------------- | ---- |
@@ -143,7 +153,11 @@ Each row represents one topic. Each row contains:
 | Proof                       | PASS      | PARTIAL          | Contradiction proof structure weak       |      |
 | Numerical Methods           | PASS      | PASS             |                                          |      |
 
+</div>
+
 ### 4.4 Matrix interpretation
+
+<div class="table-wrap">
 
 | Unit Test | Integration Test | Diagnosis               | Action                                                                                                                                           |
 | --------- | ---------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -152,6 +166,8 @@ Each row represents one topic. Each row contains:
 | FAIL      | PASS             | Intuition-based solving | Unlikely but possible. The student has strong pattern-matching intuition but lacks procedural rigour. Review fundamentals to close the gap.      |
 | PARTIAL   | PARTIAL          | Partial understanding   | Review notes, re-attempt, then re-test.                                                                                                          |
 | FAIL      | FAIL             | Fundamental gap         | Return to reference notes. Re-learn the topic from first principles. Do not attempt integration tests until unit test achieves at least PARTIAL. |
+
+</div>
 
 ---
 
@@ -252,6 +268,8 @@ told which techniques to use. Identifying the correct approach Is part of the te
 
 ### 7.1 Pure Mathematics (14 topics)
 
+<div class="table-wrap">
+
 | #   | Topic                       | Diagnostic File                                   | Reference File                                       | Key Syllabus Points                                               |
 | --- | --------------------------- | ------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------- |
 | 1   | Algebraic Expressions       | `diagnostics/diag-algebraic-expressions.md`       | `pure-mathematics/01-algebraic-expressions.md`       | Surds, indices, algebraic manipulation, factorisation             |
@@ -269,7 +287,11 @@ told which techniques to use. Identifying the correct approach Is part of the te
 | 13  | Proof                       | `diagnostics/diag-proof.md`                       | `pure-mathematics/13-proof.md`                       | Direct proof, contradiction, disproof by counterexample           |
 | 14  | Numerical Methods           | `diagnostics/diag-numerical-methods.md`           | `pure-mathematics/14-numerical-methods.md`           | Location of roots, iteration, Newton-Raphson, trapezium rule      |
 
+</div>
+
 ### 7.2 Statistics (5 topics)
+
+<div class="table-wrap">
 
 | #   | Topic                      | Diagnostic File                                  | Reference File                                | Key Syllabus Points                                     |
 | --- | -------------------------- | ------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------- |
@@ -279,7 +301,11 @@ told which techniques to use. Identifying the correct approach Is part of the te
 | 4   | Statistical Distributions  | `diagnostics/diag-statistical-distributions.md`  | `statistics/04-statistical-distributions.md`  | Binomial, normal, standard normal, approximation        |
 | 5   | Hypothesis Testing         | `diagnostics/diag-hypothesis-testing.md`         | `statistics/05-hypothesis-testing.md`         | Null/alternative hypotheses, critical regions, p-values |
 
+</div>
+
 ### 7.3 Mechanics (5 topics)
+
+<div class="table-wrap">
 
 | #   | Topic                    | Diagnostic File                               | Reference File                            | Key Syllabus Points                                  |
 | --- | ------------------------ | --------------------------------------------- | ----------------------------------------- | ---------------------------------------------------- |
@@ -288,6 +314,8 @@ told which techniques to use. Identifying the correct approach Is part of the te
 | 3   | Moments                  | `diagnostics/diag-moments.md`                 | `mechanics/03-moments.md`                 | Equilibrium, centre of mass, tilting                 |
 | 4   | Energy and Work          | `diagnostics/diag-energy-and-work.md`         | `mechanics/04-energy-and-work.md`         | KE, PE, work-energy principle, power                 |
 | 5   | Momentum                 | `diagnostics/diag-momentum.md`                | `mechanics/05-momentum.md`                | Conservation of momentum, impulse, collisions        |
+
+</div>
 
 ---
 
@@ -306,6 +334,8 @@ The following time allocations are guidelines. Adjust based on personal pace, Bu
 them. If a question takes significantly longer than the upper Bound, that is itself diagnostic
 information.
 
+<div class="table-wrap">
+
 | Task                                         | Time Allocation                                  |
 | -------------------------------------------- | ------------------------------------------------ |
 | Single unit test question                    | 5 -- 10 minutes                                  |
@@ -313,6 +343,8 @@ information.
 | Full topic set (unit + integration)          | 30 -- 45 minutes                                 |
 | Full subject area (e.g., all 14 Pure topics) | 7 -- 10.5 hours (split across multiple sessions) |
 | Complete diagnostic (all 24 topics)          | 12 -- 18 hours (split across multiple sessions)  |
+
+</div>
 
 ### Session planning
 

@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                          |
 | ---------- | ------- | ------------------------------ |
 | AQA        | Paper 1 | Momentum, impulse, collisions  |
 | Edexcel    | P1      | Similar                        |
 | OCR (A)    | Paper 1 | Includes 2D collisions         |
 | CIE (9709) | P4      | Momentum, impulse, restitution |
+
+</div>
 
 :::note
 Signs.

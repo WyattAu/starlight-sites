@@ -429,11 +429,15 @@ splay.add(2);
 print(splay.toList()); // [1, 2, 3], always sorted
 ```
 
+<div class="table-wrap">
+
 | Type            | Order                 | add/contains/remove | Use Case                                        |
 | --------------- | --------------------- | ------------------- | ----------------------------------------------- |
 | `LinkedHashSet` | Insertion             | O(1) amortized      | Default choice, predictable iteration           |
 | `HashSet`       | Unspecified           | O(1) amortized      | When order does not matter                      |
 | `SplayTreeSet`  | Sorted (`Comparable`) | O(log n)            | When you need sorted iteration or range queries |
+
+</div>
 
 ### Custom Equality via operator== and hashCode
 
@@ -721,12 +725,16 @@ Runtime. Use it for configuration, lookup tables, and any data that is truly con
 
 ### When to Use Which
 
+<div class="table-wrap">
+
 | Mechanism             | Copies?            | Mutability                  | Compile-time | Use Case                                                  |
 | --------------------- | ------------------ | --------------------------- | ------------ | --------------------------------------------------------- |
 | `const`               | No (canonicalized) | Immutable (compile-time)    | Yes          | True constants, config                                    |
 | `List.unmodifiable()` | No (view)          | Read-only (runtime)         | No           | API return values, defensive copies of internal state     |
 | `List.of()`           | Yes (copy)         | Mutable                     | No           | When you need a snapshot                                  |
 | `final list = [...]`  | No                 | Mutable, reference is final | No           | Local mutable collections with non-reassignable reference |
+
+</div>
 
 ## Sorting and Custom Comparators
 
@@ -812,6 +820,8 @@ listCompare([1, 2, 3], [1, 2, 3]); // true
 Dart's growable `List` is backed by a contiguous array that doubles in capacity when full. This
 Gives:
 
+<div class="table-wrap">
+
 | Operation                   | Complexity                       |
 | --------------------------- | -------------------------------- |
 | `add()` (append)            | O(1) amortized                   |
@@ -822,6 +832,8 @@ Gives:
 | `indexOf(x)`                | O(n) (linear scan)               |
 | `sort()`                    | O(n log n)                       |
 
+</div>
+
 The amortized O(1) for `add()` is the critical insight: individual appends are cheap, but
 Occasionally a resize occurs that copies the entire array. For large lists where you know the final
 Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `List.filled()` with
@@ -831,6 +843,8 @@ Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `
 
 Dart's default `LinkedHashSet` is a hash table with open addressing:
 
+<div class="table-wrap">
+
 | Operation        | Complexity           |
 | ---------------- | -------------------- |
 | `add(x)`         | O(1) amortized       |
@@ -838,6 +852,8 @@ Dart's default `LinkedHashSet` is a hash table with open addressing:
 | `remove(x)`      | O(1) amortized       |
 | `intersection()` | O(min(\|A\|, \|B\|)) |
 | `union()`        | O(\|A\| + \|B\|)     |
+
+</div>
 
 Hash collisions degrade to O(n) in the worst case, but this is rare with a good hash function. If
 your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
@@ -847,12 +863,16 @@ Degenerate linked list and O(n) for everything.
 
 Same characteristics as `Set`:
 
+<div class="table-wrap">
+
 | Operation       | Complexity     |
 | --------------- | -------------- |
 | `operator[]`    | O(1) amortized |
 | `operator[]=`   | O(1) amortized |
 | `containsKey()` | O(1) amortized |
 | `remove()`      | O(1) amortized |
+
+</div>
 
 ### Choosing the Right Collection
 

@@ -32,12 +32,16 @@ Including oblique impacts.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                                |
 | ---------- | ------- | ---------------------------------------------------- |
 | AQA        | Paper 2 | Centres of mass; elastic collisions in one dimension |
 | Edexcel    | M2      | Full coverage including oblique impacts              |
 | OCR (A)    | Paper 2 | Centres of mass; direct and oblique collisions       |
 | CIE (9231) | M2      | Centres of mass covered; collisions in M2            |
+
+</div>
 
 <hr />
 
@@ -1082,11 +1086,15 @@ Directed along the normal away from the wall.
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                            | Correct Approach                                                                                  |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Forgetting to include the mass in centre of mass calculations for composite bodies | Always weight each centre of mass by its mass, not just its area                                  |
 | Assuming elastic means KE of each particle is conserved individually               | Elastic means total KE is conserved, not individual KE                                            |
 | Using the wrong moment of inertia for a body                                       | Rod about end: $\dfrac{ml^2}{3}$; about centre: $\dfrac{ml^2}{12}$; solid disc: $\dfrac{mr^2}{2}$ |
+
+</div>
 
 ---
 
@@ -1200,6 +1208,8 @@ $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Result                          | Formula                                                                                     |
 | ------------------------------- | ------------------------------------------------------------------------------------------- |
 | 1D elastic collision            | $v_1 = \dfrac{(m_1-m_2)u}{m_1+m_2}$, $v_2 = \dfrac{2m_1 u}{m_1+m_2}$                          |
@@ -1210,6 +1220,8 @@ $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
 | Moment of inertia (rod, centre) | $I = \dfrac{ml^2}{12}$                                                                      |
 | Moment of inertia (rod, end)    | $I = \dfrac{ml^2}{3}$                                                                       |
 | Moment of inertia (disc)        | $I = \dfrac{mr^2}{2}$                                                                       |
+
+</div>
 
 ---
 

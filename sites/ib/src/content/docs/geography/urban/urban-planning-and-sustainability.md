@@ -162,6 +162,8 @@ Trees, wetlands, urban agriculture, and ecological corridors.
 
 **Ecosystem services provided by urban green infrastructure:**
 
+<div class="table-wrap">
+
 | Service                     | Mechanism                                                                                                                      | Quantified Benefit                                                                                                 |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
 | **Stormwater management**   | Vegetation and soils intercept, infiltrate, and evapotranspire rainfall, reducing runoff volume and peak flow                  | Green roofs can reduce stormwater runoff by 50--60% compared to conventional roofs                                 |
@@ -170,6 +172,8 @@ Trees, wetlands, urban agriculture, and ecological corridors.
 | **Carbon sequestration**    | Trees absorb $\mathrm{CO_2}$ through photosynthesis and store carbon in biomass and soils                                      | London's urban forest stores approximately 2.4 million tonnes of carbon                                            |
 | **Biodiversity**            | Green spaces provide habitat for flora and fauna, supporting ecological connectivity                                           | Urban parks can support 50--80% of native bird species                                                             |
 | **Recreation and health**   | Access to green space is associated with improved mental health, reduced stress, and increased physical activity               | Studies show a 20% reduction in all-cause mortality associated with access to green space within 1 km of residence |
+
+</div>
 
 ## Mixed-Use Development
 

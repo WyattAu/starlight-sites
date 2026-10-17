@@ -181,12 +181,16 @@ $$
 
 Using standard enthalpies of formation (kJ/mol):
 
+<div class="table-wrap">
+
 | Substance                   | $\Delta H_f^\circ$ (kJ/mol) |
 | --------------------------- | --------------------------- |
 | $\mathrm{C_3\mathrm{H_8(g)$ | -103.8                      |
 | $\mathrm{O_2(g)$            | 0                           |
 | $\mathrm{CO_2(g)$           | -393.5                      |
 | $\mathrm{H_2\mathrm{O(l)$   | -285.8                      |
+
+</div>
 
 $$
 \Delta H^\circ = [3(-393.5) + 4(-285.8)] - [-103.8 + 5(0)]
@@ -445,11 +449,15 @@ Negative $\Delta G$ means the process is spontaneous at constant temperature and
 
 ### Spontaneity at Constant Temperature and Pressure
 
+<div class="table-wrap">
+
 | Condition        | Spontaneity    |
 | ---------------- | -------------- |
 | $\Delta G \lt 0$ | Spontaneous    |
 | $\Delta G = 0$   | At equilibrium |
 | $\Delta G \gt 0$ | Nonspontaneous |
+
+</div>
 
 ### Standard Gibbs Free Energy of Formation
 
@@ -465,11 +473,15 @@ $$
 
 Where $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ and $K$ is the equilibrium constant.
 
+<div class="table-wrap">
+
 | $K$       | $\Delta G^\circ$       | Favorability      |
 | --------- | ---------------------- | ----------------- |
 | $K \gg 1$ | $\Delta G^\circ \ll 0$ | Products favored  |
 | $K = 1$   | $\Delta G^\circ = 0$   | Neither           |
 | $K \ll 1$ | $\Delta G^\circ \gg 0$ | Reactants favored |
+
+</div>
 
 This equation bridges thermodynamics and equilibrium: the equilibrium constant is determined by the
 Standard free energy change.
@@ -485,12 +497,16 @@ $\Delta G^\circ = -RT\ln K$.
 
 ### Temperature Dependence of Spontaneity
 
+<div class="table-wrap">
+
 | $\Delta H$ | $\Delta S$ | Spontaneous? | Temperature Effect                                           |
 | ---------- | ---------- | ------------ | ------------------------------------------------------------ |
 | Negative   | Positive   | Always       | Spontaneous at all $T$                                       |
 | Positive   | Negative   | Never        | Nonspontaneous at all $T$                                    |
 | Negative   | Negative   | Low $T$      | Becomes nonspontaneous above $T = \frac{\Delta H}{\Delta S}$ |
 | Positive   | Positive   | High $T$     | Becomes spontaneous above $T = \frac{\Delta H}{\Delta S}$    |
+
+</div>
 
 ### Temperature at Which Spontaneity Changes
 
@@ -556,6 +572,8 @@ Reactants and low pressure of product drive the reaction forward.
 
 ## Summary Table: Thermodynamic Quantities
 
+<div class="table-wrap">
+
 | Quantity          | Symbol | Units           | State Function? | Zero Reference             |
 | ----------------- | ------ | --------------- | --------------- | -------------------------- |
 | Internal energy   | $U$    | kJ              | Yes             | None (arbitrary)           |
@@ -563,7 +581,11 @@ Reactants and low pressure of product drive the reaction forward.
 | Entropy           | $S$    | J/(mol$\cdot$K) | Yes             | Perfect crystal at 0 K     |
 | Gibbs free energy | $G$    | kJ              | Yes             | Elements in standard state |
 
+</div>
+
 ## Summary Table: Spontaneity Criteria
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | Low $T$ ($\Delta G$) | High $T$ ($\Delta G$) | Spontaneous at |
 | ---------- | ---------- | -------------------- | --------------------- | -------------- |
@@ -571,6 +593,8 @@ Reactants and low pressure of product drive the reaction forward.
 | $+$        | $-$        | $+$ (nonspontaneous) | $+$ (nonspontaneous)  | Never          |
 | $-$        | $-$        | $-$ (spontaneous)    | $+$ (nonspontaneous)  | Low $T$ only   |
 | $+$        | $+$        | $+$ (nonspontaneous) | $-$ (spontaneous)     | High $T$ only  |
+
+</div>
 
 ## Common Pitfalls
 

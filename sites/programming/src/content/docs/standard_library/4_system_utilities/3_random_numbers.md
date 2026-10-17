@@ -52,6 +52,8 @@ The design separates the source of randomness (engine) from the statistical prop
 An engine satisfies the **UniformRandomBitGenerator** requirement [N4950 §29.6.3]: it provides
 `operator()` that returns a `UIntType` value uniformly distributed over `[min(), max()]`.
 
+<div class="table-wrap">
+
 | Engine                                     | Period      | State Size | Quality      | Use Case                         |
 | :----------------------------------------- | :---------- | :--------- | :----------- | :------------------------------- |
 | `std::linear_congruential_engine`          | ~2^32       | Small      | Low          | Legacy (`rand()` equivalent)     |
@@ -59,6 +61,8 @@ An engine satisfies the **UniformRandomBitGenerator** requirement [N4950 §29.6.
 | `std::mt19937_64`                          | 2^19937 - 1 | 2500 bytes | High         | 64-bit general purpose           |
 | `std::subtract_with_carry_engine`          | ~2^63       | Moderate   | Moderate     | Historical                       |
 | `std::random_device`                       | N/A         | N/A        | OS-dependent | True entropy (non-deterministic) |
+
+</div>
 
 **`std::mt19937`** (Mersenne Twister) is the standard workhorse engine. It has a period of 2^19937 -
 1 (a Mersenne prime), which means the sequence does not repeat for all practical purposes. Its state
@@ -79,6 +83,8 @@ Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (W
 Distributions transform the engine's raw output into values drawn from a specific statistical
 Distribution [N4950 §29.6.4]:
 
+<div class="table-wrap">
+
 | Distribution                               | Header     | Output Type | Description                             |
 | :----------------------------------------- | :--------- | :---------- | :-------------------------------------- |
 | `std::uniform_int_distribution&lt;IntT>`   | `<random>` | `IntT`      | Uniform over [a, b]                     |
@@ -89,6 +95,8 @@ Distribution [N4950 §29.6.4]:
 | `std::poisson_distribution&lt;IntT>`       | `<random>` | `IntT`      | Poisson(λ)                              |
 | `std::exponential_distribution&lt;RealT>`  | `<random>` | `RealT`     | Exponential(λ)                          |
 | `std::discrete_distribution&lt;IntT>`      | `<random>` | `IntT`      | Arbitrary discrete distribution         |
+
+</div>
 
 ### Seeded Random Number Generation
 
@@ -346,12 +354,16 @@ only the same implementation for save/restore.
 
 `std::random_device` is the standard library's interface to OS-provided entropy [N4950 §29.6.5.3]:
 
+<div class="table-wrap">
+
 | Platform | Implementation (Typical)            | Entropy Source           |
 | :------- | :---------------------------------- | :----------------------- |
 | Linux    | Reads from `/dev/urandom`           | Kernel CSPRNG (ChaCha20) |
 | macOS    | `arc4random_buf` or `/dev/urandom`  | Kernel CSPRNG            |
 | Windows  | `BCryptGenRandom` or `RtlGenRandom` | OS cryptographic RNG     |
 | MinGW    | Historically broken (fixed GCC 9+)  | Was PRNG, now OS entropy |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -520,6 +532,8 @@ void arrival_process_demo() {
 
 ### Performance Considerations
 
+<div class="table-wrap">
+
 | Engine          | State Size | `operator()` Speed  | Memory Footprint |
 | :-------------- | :--------- | :------------------ | :--------------- |
 | `minstd_rand`   | 4 bytes    | Very fast (LCG)     | Minimal          |
@@ -527,6 +541,8 @@ void arrival_process_demo() {
 | `mt19937_64`    | 2500 bytes | Fast (~5 ns/call)   | Large            |
 | `ranlux48`      | 96 bytes   | Slow (discarding)   | Moderate         |
 | `random_device` | N/A        | Very slow (OS call) | None             |
+
+</div>
 
 ```cpp
 #include <chrono>

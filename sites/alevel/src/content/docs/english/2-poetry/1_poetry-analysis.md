@@ -40,6 +40,8 @@ for approaching anthology study.
 Form refers to the overall shape and structure of a poem. Recognising form helps you understand what
 conventions a poet is working within or against.
 
+<div class="table-wrap">
+
 | Form               | Description                                      | Typical Features                                                                             |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------- |
 | Sonnet             | 14-line poem, in most cases in iambic pentameter | Shakespearean (ABAB CDCD EFEF GG) or Petrarchan (ABBAABBA CDECDE) rhyme scheme; volta (turn) |
@@ -52,10 +54,14 @@ conventions a poet is working within or against.
 | Haiku              | Three-line poem with 5-7-5 syllable pattern      | Emphasis on nature, season, and a single moment                                              |
 | Dramatic monologue | A poem spoken by a character                     | Reveals personality through voice, implication, and subtext                                  |
 
+</div>
+
 ### Meter and Rhythm
 
 Meter is the pattern of stressed and unstressed syllables in a line of poetry. Identifying meter
 helps you understand how a poem controls pace and emphasis.
+
+<div class="table-wrap">
 
 | Meter     | Pattern                                        | Example                                                   |
 | --------- | ---------------------------------------------- | --------------------------------------------------------- |
@@ -65,7 +71,11 @@ helps you understand how a poem controls pace and emphasis.
 | Dactylic  | Stressed / Unstressed / Unstressed (DUM-da-da) | "Just for a handful of silver he left us"                 |
 | Spondaic  | Stressed / Stressed (DUM-DUM)                  | "Break, break, break"                                     |
 
+</div>
+
 The number of feet per line determines the line length:
+
+<div class="table-wrap">
 
 | Feet per line | Name       |
 | ------------- | ---------- |
@@ -77,6 +87,8 @@ The number of feet per line determines the line length:
 | 6             | Hexameter  |
 | 7             | Heptameter |
 | 8             | Octameter  |
+
+</div>
 
 **Key point:** Variations from the dominant meter are analytically significant. A trochaic
 substitution in an iambic line draws attention to a particular word. A missing syllable (catalexis)
@@ -100,6 +112,8 @@ vehicle for meaning.
 
 ### Sound Devices
 
+<div class="table-wrap">
+
 | Device                   | Definition                                                | Effect                                                |
 | ------------------------ | --------------------------------------------------------- | ----------------------------------------------------- |
 | Alliteration             | Repetition of initial consonant sounds                    | Creates musicality, emphasis, or onomatopoeic effect  |
@@ -110,6 +124,8 @@ vehicle for meaning.
 | Rhyme                    | Correspondence of sounds at line endings                  | Creates structure, closure, or deliberate expectation |
 | Internal rhyme           | Rhyme within a single line                                | Accelerates pace and creates sonic density            |
 | Half rhyme / slant rhyme | Near-rhyme with similar but not identical sounds          | Creates dissonance, unease, or incompleteness         |
+
+</div>
 
 ### Tone and Voice
 
@@ -124,6 +140,8 @@ vehicle for meaning.
 
 ### SMILE for Poetry
 
+<div class="table-wrap">
+
 | Letter | Element   | What to Look For                                                              |
 | ------ | --------- | ----------------------------------------------------------------------------- |
 | **S**  | Structure | Stanza form, rhyme scheme, line length, enjambment, caesura, volta            |
@@ -131,6 +149,8 @@ vehicle for meaning.
 | **I**  | Imagery   | What images are created? What senses are engaged? What do they symbolise?     |
 | **L**  | Language  | Diction, register, figurative language, semantic fields, word connotations    |
 | **E**  | Effect    | What is the emotional and intellectual impact on the reader?                  |
+
+</div>
 
 ### Analysing Form and Structure
 
@@ -165,6 +185,8 @@ For examined anthology collections:
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term              | Definition                                                                                |
 | ----------------- | ----------------------------------------------------------------------------------------- |
 | Ambiguity         | The presence of multiple meanings in a single word, line, or image                        |
@@ -187,6 +209,8 @@ For examined anthology collections:
 | Synecdoche        | A figure of speech where a part represents the whole or vice versa                        |
 | Volta             | The turn or shift in a poem, especially in a sonnet                                       |
 
+</div>
+
 ## Exam Technique
 
 ### Approaching a Poetry Question
@@ -205,12 +229,16 @@ For examined anthology collections:
 
 ### Timing Guide
 
+<div class="table-wrap">
+
 | Task                   | Time          |
 | ---------------------- | ------------- |
 | Reading and annotating | 5-8 minutes   |
 | Planning               | 5 minutes     |
 | Writing                | 30-35 minutes |
 | Checking               | 2-3 minutes   |
+
+</div>
 
 ## Common Pitfalls
 

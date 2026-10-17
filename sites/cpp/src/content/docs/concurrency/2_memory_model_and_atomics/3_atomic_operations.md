@@ -94,6 +94,8 @@ the platform's native word size, `alignof(std::atomic<T>)` may be larger.
 
 The full set of atomic operations defined in [N4950 §31.7.2]:
 
+<div class="table-wrap">
+
 | Operation                                                                  | Description                                             |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 | `load(order)`                                                              | Atomically reads the current value                      |
@@ -107,6 +109,8 @@ The full set of atomic operations defined in [N4950 §31.7.2]:
 | `fetch_or(val, order)`                                                     | Atomically performs bitwise OR and returns old value    |
 | `fetch_xor(val, order)`                                                    | Atomically performs bitwise XOR and returns old value   |
 
+</div>
+
 ## `std::atomic_flag`
 
 `std::atomic_flag` [N4950 §31.7] is the simplest atomic type: a boolean flag guaranteed to be
@@ -117,11 +121,15 @@ Lock-free. It provides only two operations:
 
 ## Lock-Free vs Wait-Free vs Obstruction-Free
 
+<div class="table-wrap">
+
 | Guarantee            | Definition                                                          | Blocking?        |
 | -------------------- | ------------------------------------------------------------------- | ---------------- |
 | **Obstruction-free** | Progress guaranteed if all other threads are paused                 | No (if alone)    |
 | **Lock-free**        | At least one thread makes progress within a bounded number of steps | No (system-wide) |
 | **Wait-free**        | Every thread makes progress within a bounded number of steps        | No (per-thread)  |
+
+</div>
 
 These form a hierarchy: wait-free $\implies$ lock-free $\implies$ obstruction-free.
 
@@ -309,6 +317,8 @@ Every atomic operation accepts a `std::memory_order` argument that constrains ho
 CPU may reorder operations around it [N4950 §31.7.2]. The six memory orders form a hierarchy of
 Strength:
 
+<div class="table-wrap">
+
 | Memory Order           | Compiler Reordering | CPU Reordering | Use Case                        |
 | :--------------------- | :------------------ | :------------- | :------------------------------ |
 | `memory_order_relaxed` | No reorder with     | No reorder     | Simple counters, statistics     |
@@ -317,6 +327,8 @@ Strength:
 | `memory_order_release` |                     |                | Publish writes to shared data   |
 | `memory_order_acq_rel` |                     |                | Read-modify-write with ordering |
 | `memory_order_seq_cst` |                     |                | Default; total order            |
+
+</div>
 
 ```cpp
 #include <atomic>

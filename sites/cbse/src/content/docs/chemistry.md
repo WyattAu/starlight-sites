@@ -49,12 +49,16 @@ and Organic Chemistry (28 marks).
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Quantum number | Symbol | Values | Describes |
 | --- | --- | --- | --- |
 | Principal | $n$ | $1, 2, 3, \ldots$ | Energy level / shell |
 | Azimuthal | $l$ | $0, 1, \ldots, n-1$ | Subshell (s, p, d, f) |
 | Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
 | Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
+
+</div>
 
 **Electronic configurations** follow the Aufbau principle, Hund's rule, and Pauli exclusion principle.
 
@@ -77,6 +81,8 @@ molecule is stable.
 
 **Hybridisation:**
 
+<div class="table-wrap">
+
 | Hybridisation | Geometry | Bond angle | Example |
 | --- | --- | --- | --- |
 | $sp$ | Linear | $180°$ | $\text{BeCl}_2$, $\text{C}_2\text{H}_2$ |
@@ -84,6 +90,8 @@ molecule is stable.
 | $sp^3$ | Tetrahedral | $109.5°$ | $\text{CH}_4$, $\text{NH}_3$ |
 | $sp^3d$ | Trigonal bipyramidal | $90°, 120°$ | $\text{PCl}_5$ |
 | $sp^3d^2$ | Octahedral | $90°$ | $\text{SF}_6$ |
+
+</div>
 
 **Hydrogen bonding:** Strong dipole-dipole interaction involving H bonded to F, O, or N. Explains high
 boiling points of water, HF, NH$_3$.
@@ -202,12 +210,16 @@ chemical bond).
 
 **Periodic trends:**
 
+<div class="table-wrap">
+
 | Property | Across a period | Down a group |
 | --- | --- | --- |
 | Atomic radius | Decreases | Increases |
 | Ionisation energy | Increases | Decreases |
 | Electron affinity | Generally increases | Generally decreases |
 | Electronegativity | Increases | Decreases |
+
+</div>
 
 **Shielding effect:** Inner electrons shield outer electrons from the nuclear charge.
 
@@ -392,6 +404,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 ## 4. Key Definitions
 
+<div class="table-wrap">
+
 | Term | Definition |
 | --- | --- |
 | **Enthalpy of combustion** | Heat released when 1 mol of a substance burns completely in O$_2$ |
@@ -409,6 +423,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 | **Carbocation** | Positively charged carbon with three bonds and an empty $p$-orbital |
 | **Tautomerism** | Structural isomerism involving the migration of a proton and a double bond |
 | **Inert pair effect** | Reluctance of $ns^2$ electrons in heavier p-block elements to participate in bonding |
+
+</div>
 
 ---
 

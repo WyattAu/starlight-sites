@@ -52,6 +52,8 @@ specification. Content is organised into three core areas:
 
 ## Physical Geography
 
+<div class="table-wrap">
+
 | Topic                                                                       | Description                                                                                |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | [Water and Carbon Cycles](/geography/1-physical-geography/1_water-and-carbon-cycles/) | Drainage basin hydrology, the water budget, the carbon cycle, and climate change feedbacks |
@@ -59,7 +61,11 @@ specification. Content is organised into three core areas:
 | [Glacial Systems and Landscapes](/geography/1-physical-geography/3_glacial-systems/)  | Glacial processes, erosional and depositional landforms, and periglacial environments      |
 | [Hazards](/geography/1-physical-geography/4_hazards/)                                 | Tectonic and atmospheric hazards, vulnerability, and risk management                       |
 
+</div>
+
 ## Human Geography
+
+<div class="table-wrap">
 
 | Topic                                                                                    | Description                                                        |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -68,11 +74,17 @@ specification. Content is organised into three core areas:
 | [Contemporary Urban Environments](/geography/2-human-geography/3_contemporary-urban-environments/) | Urbanisation, urban forms, segregation, and sustainable cities     |
 | [Population and the Environment](/geography/2-human-geography/4_population-and-environment/)       | Demographic transition, food security, energy, and health          |
 
+</div>
+
 ## Fieldwork
+
+<div class="table-wrap">
 
 | Topic                                                          | Description                                                              |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [Fieldwork Methodology](/geography/3-fieldwork/1_fieldwork-methodology/) | Research design, data collection, statistical tests, GIS, and evaluation |
+
+</div>
 
 ## Exam Structure
 

@@ -63,6 +63,8 @@ analysis, and evaluation of the writer"s methods.
 
 **Language techniques to identify and analyse**:
 
+<div class="table-wrap">
+
 | Technique                      | Definition                                   | Example                                        |
 | ------------------------------ | -------------------------------------------- | ---------------------------------------------- |
 | Simile                         | Comparison using "like" or "as"              | "The room was as cold as ice"                  |
@@ -75,6 +77,8 @@ analysis, and evaluation of the writer"s methods.
 | Onomatopoeia                   | Words that imitate sounds                    | "Crash", "bang", "whisper"                     |
 | Sibilance                      | Repetition of "s" sounds                     | "The silver snake slithered silently"          |
 | Alliteration                   | Repetition of initial consonant sounds       | "The bold, brave boy bounded"                  |
+
+</div>
 
 **Structural techniques to analyse**:
 
@@ -188,6 +192,8 @@ speech, a review).
 
 **Formats**:
 
+<div class="table-wrap">
+
 | Format              | Key features                                                                                       |
 | ------------------- | -------------------------------------------------------------------------------------------------- |
 | **Formal letter**   | Address, date, greeting, structured paragraphs, formal closing ("Yours sincerely/faithfully")      |
@@ -196,6 +202,8 @@ speech, a review).
 | **Speech**          | Direct address to the audience ("ladies and gentlemen"), rhetorical devices, repetition for impact |
 | **Review**          | Clear opinion, specific evidence, balanced assessment, recommendation                              |
 | **Report**          | Formal, structured with headings, objective tone, facts and evidence                               |
+
+</div>
 
 **Persuasive techniques**:
 
@@ -249,6 +257,8 @@ speech, a review).
 
 ### 3.2 Analysis of Speech Features
 
+<div class="table-wrap">
+
 | Feature                     | Definition                                                                     | Effect                                                   |
 | --------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------- |
 | Dialect                     | Regional variety of language (grammar, vocabulary)                             | Indicates social and geographical identity               |
@@ -260,6 +270,8 @@ speech, a review).
 | Hedging                     | Using cautious language ("I think maybe...")                                   | Softens statements; shows politeness or uncertainty      |
 | Ellipsis                    | Omitting words (e.g., "Going to the shop" instead of "I am going to the shop") | Informal; efficient in spoken context                    |
 | Discourse markers           | Words that organise speech ("anyway", "right", "so")                           | Structure the conversation; manage turn-taking           |
+
+</div>
 
 ### 3.3 Presentation Skills
 
@@ -289,6 +301,8 @@ For the spoken language endorsement (assessed separately, not graded):
 
 ### 4.1 Punctuation Rules
 
+<div class="table-wrap">
+
 | Punctuation            | Use                                                                                                 |
 | ---------------------- | --------------------------------------------------------------------------------------------------- |
 | Full stop              | Ends a statement                                                                                    |
@@ -302,6 +316,8 @@ For the spoken language endorsement (assessed separately, not graded):
 | Hyphen                 | Joins compound words (well-known, twenty-first); joins compound adjectives before a noun            |
 | Dash                   | Adds emphasis or an interruption; can replace a colon or semicolon; creates a parenthetical aside   |
 | Parentheses (brackets) | Adds additional information that could be removed without changing the meaning                      |
+
+</div>
 
 **Common punctuation errors**:
 
@@ -346,6 +362,8 @@ Use the PETAL method for analytical paragraphs:
 
 ### 4.4 PETAL Paragraph: Full Breakdown
 
+<div class="table-wrap">
+
 | Element           | What it does            | Example phrases                                                                  |
 | ----------------- | ----------------------- | -------------------------------------------------------------------------------- |
 | **P** (Point)     | States the main idea    | "The writer uses... to show...", "One way the writer presents..."                |
@@ -353,6 +371,8 @@ Use the PETAL method for analytical paragraphs:
 | **T** (Technique) | Names the method        | "This is an example of...", "The writer employs a..."                            |
 | **A** (Analysis)  | Explains the effect     | "This makes the reader feel...", "The impact of this is...", "This suggests..."  |
 | **L** (Link)      | Returns to the question | "This links to the overall theme of...", "Therefore, the writer successfully..." |
+
+</div>
 
 ---
 

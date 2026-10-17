@@ -33,6 +33,8 @@ More subtrees, each of which is itself a tree.
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Term          | Definition                                          |
 | ------------- | --------------------------------------------------- |
 | Root          | The topmost node; has no parent                     |
@@ -44,6 +46,8 @@ More subtrees, each of which is itself a tree.
 | Height        | Maximum depth of any node in the tree               |
 | Subtree       | A node and all its descendants                      |
 | Degree        | Number of children of a node                        |
+
+</div>
 
 **Theorem.** A tree with $n$ nodes has exactly $n - 1$ edges.
 
@@ -79,11 +83,15 @@ $h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
 
 ### Full, Complete, and Perfect Binary Trees
 
+<div class="table-wrap">
+
 | Type     | Definition                                                                                 |
 | -------- | ------------------------------------------------------------------------------------------ |
 | Full     | Every node has 0 or 2 children                                                             |
 | Complete | All levels except possibly the last are completely filled; last level filled left to right |
 | Perfect  | All internal nodes have 2 children; all leaves at the same depth                           |
+
+</div>
 
 <hr />
 
@@ -185,12 +193,16 @@ the BST property holds. $\square$
 
 ## 4. Tree Traversals
 
+<div class="table-wrap">
+
 | Traversal   | Order                | Use case             |
 | ----------- | -------------------- | -------------------- |
 | In-order    | Left, Root, Right    | Sorted output (BST)  |
 | Pre-order   | Root, Left, Right    | Copy tree, prefix    |
 | Post-order  | Left, Right, Root    | Delete tree, postfix |
 | Level-order | Level by level (BFS) | Breadth processing   |
+
+</div>
 
 ```python
 def inorder(node):
@@ -349,11 +361,15 @@ Elements). $\square$
 
 To guarantee $O(\log n)$ operations, we need **balanced** BSTs:
 
+<div class="table-wrap">
+
 | Structure | Height bound            | Notes                          |
 | --------- | ----------------------- | ------------------------------ |
 | AVL tree  | $\leq 1.44 \log_2(n+2)$ | Strict balance                 |
 | Red-black | $\leq 2 \log_2(n+1)$    | Weaker balance, faster inserts |
 | B-tree    | $O(\log_b n)$           | Used in databases              |
+
+</div>
 
 :::note
 and red-black trees are mentioned for context but not examined in detail.
@@ -458,12 +474,16 @@ Step.
 
 Build heap: `[5, 3, 4, 1, 1]`
 
+<div class="table-wrap">
+
 | Step | Swap with end | Heap before heapify | After heapify | Sorted portion |
 | ---- | ------------- | ------------------- | ------------- | -------------- |
 | 1    | 5 ↔ 1        | [1, 3, 4, 1, 5]     | [4, 3, 1, 1]  | [5]            |
 | 2    | 4 ↔ 1        | [1, 3, 1, 4, 5]     | [3, 1, 1]     | [4, 5]         |
 | 3    | 3 ↔ 1        | [1, 1, 3, 4, 5]     | [1, 1]        | [3, 4, 5]      |
 | 4    | 1 ↔ 1        | [1, 1, 3, 4, 5]     | [1]           | [1, 3, 4, 5]   |
+
+</div>
 
 Final: `[1, 1, 3, 4, 5]`
 
@@ -879,6 +899,8 @@ Value:  4  2  6  1  3  5  7
 
 Verification of parent-child formulas:
 
+<div class="table-wrap">
+
 | Node | Index | Left child (2i+1) | Right child (2i+2) |
 | ---- | ----- | ----------------- | ------------------ |
 | 4    | 0     | 2(0)+1 = 1 → 2    | 2(0)+2 = 2 → 6     |
@@ -886,7 +908,11 @@ Verification of parent-child formulas:
 | 6    | 2     | 2(2)+1 = 5 → 5    | 2(2)+2 = 6 → 7     |
 | 1    | 3     | 2(3)+1 = 7 (none) | 2(3)+2 = 8 (none)  |
 
+</div>
+
 Parent verification:
+
+<div class="table-wrap">
 
 | Node | Index | Parent ⌊(i-1)/2⌋ |
 | ---- | ----- | ---------------- |
@@ -896,6 +922,8 @@ Parent verification:
 | 3    | 4     | ⌊3/2⌋ = 1 → 2    |
 | 5    | 5     | ⌊4/2⌋ = 2 → 6    |
 | 7    | 6     | ⌊5/2⌋ = 2 → 6    |
+
+</div>
 
 All relationships match. ✓
 

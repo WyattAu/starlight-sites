@@ -31,6 +31,8 @@ of evolution is the population; the unit of selection is the individual (or, the
 
 ### Evidence for Evolution
 
+<div class="table-wrap">
+
 | Type of Evidence    | Description                                                                                    | Example                                                                       |
 | ------------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Fossil record       | Sequential appearance of organisms in rock layers; transitional forms show intermediate traits | Archaeopteryx (reptile-bird transition); Tiktaalik (fish-tetrapod transition) |
@@ -39,7 +41,11 @@ of evolution is the population; the unit of selection is the individual (or, the
 | Biogeography        | Geographic distribution of species matches continental drift patterns                          | Marsupials in Australia vs placentals elsewhere                               |
 | Embryology          | Embryos of related species resemble each other in early developmental stages                   | Pharyngeal pouches in fish, chick, and human embryos                          |
 
+</div>
+
 ### Lamarckism vs Darwinism
+
+<div class="table-wrap">
 
 | Feature                         | Lamarckism (Inheritance of Acquired Characteristics)                    | Darwinism (Natural Selection)                                       |
 | ------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -49,6 +55,8 @@ of evolution is the population; the unit of selection is the individual (or, the
 | Direction of change             | Driven by organism"s needs and efforts                                  | Driven by environmental pressures selecting from existing variation |
 | Evidence                        | Discredited; no mechanism for inheritance of acquired traits            | Strongly supported by genetics, fossil record, molecular biology    |
 | Example                         | Giraffes stretch necks to reach leaves, longer necks inherited          | Giraffes with longer necks survive and reproduce more               |
+
+</div>
 
 :::note
 That environmental factors can influence gene expression across generations without changing the DNA
@@ -97,11 +105,15 @@ For natural selection to operate, four conditions must be met:
 
 ### Types of Natural Selection
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                | Graph Shape        | Example                                                                                        |
 | --------------------- | -------------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------- |
 | Stabilising selection | Favouring intermediate phenotypes; extreme phenotypes are selected against | Narrowing, centred | Human birth weight (very low and very high have higher mortality)                              |
 | Directional selection | Favouring one extreme phenotype; the mean shifts in one direction          | Shift along axis   | Peppered moth (dark form favoured during industrial pollution)                                 |
 | Disruptive selection  | Favouring both extremes; intermediate phenotypes are selected against      | Two peaks          | African seedcracker finch (large and small beaks favoured, intermediate beaks disadvantageous) |
+
+</div>
 
 ### Classic Examples
 
@@ -309,6 +321,8 @@ mechanism of sympatric speciation in plants.
 
 ### Homologous vs Analogous Structures
 
+<div class="table-wrap">
+
 | Feature                   | Homologous Structures                                         | Analogous Structures                                                |
 | ------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Definition                | Structures derived from a common ancestor                     | Structures with similar function but different evolutionary origins |
@@ -316,6 +330,8 @@ mechanism of sympatric speciation in plants.
 | Anatomical similarity     | Similar underlying anatomy                                    | May look very different internally                                  |
 | Example                   | Forelimb of human, bat wing, whale flipper (pentadactyl limb) | Wing of a bird vs wing of an insect                                 |
 | Evolutionary significance | Indicates divergent evolution                                 | Indicates convergent evolution                                      |
+
+</div>
 
 **Divergent evolution:** Related species evolve different traits from a common ancestor (homologous
 Structures).
@@ -404,6 +420,8 @@ Primates share several derived characteristics:
 **Definition.** Hominids (hominins) are the group consisting of modern humans and all species more
 Closely related to humans than to chimpanzees.
 
+<div class="table-wrap">
+
 | Species                    | Time Period                     | Key Characteristics                                                                                                  |
 | -------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Sahelanthropus tchadensis  | ~7 million years ago            | Possible earliest hominin; small brain; possibly bipedal                                                             |
@@ -414,6 +432,8 @@ Closely related to humans than to chimpanzees.
 | Homo erectus               | 1.9 million - 110,000 years ago | Much larger brain (~900 cm cubed); more sophisticated tools (Acheulean); first to migrate out of Africa; use of fire |
 | Homo neanderthalensis      | ~400,000 - 40,000 years ago     | Large brain (~1,500 cm cubed); robust build; lived in Europe and western Asia; buried dead                           |
 | Homo sapiens               | ~300,000 years ago - present    | Large brain (~1,350 cm cubed); gracile build; complex language; symbolic thought; art and culture                    |
+
+</div>
 
 ### Key Trends in Human Evolution
 
@@ -474,6 +494,8 @@ Approximately 200,000-300,000 years ago, and the two individuals were not contem
 
 Ecology studies interactions at multiple hierarchical levels:
 
+<div class="table-wrap">
+
 | Level      | Definition                                                                   | Example                                           |
 | ---------- | ---------------------------------------------------------------------------- | ------------------------------------------------- |
 | Organism   | A single individual                                                          | One oak tree                                      |
@@ -483,7 +505,11 @@ Ecology studies interactions at multiple hierarchical levels:
 | Biome      | A large region with characteristic climate and communities                   | Tropical rainforest, tundra                       |
 | Biosphere  | All ecosystems on Earth; the sum of all living things and their environments | Earth                                             |
 
+</div>
+
 ### Biotic vs Abiotic Factors
+
+<div class="table-wrap">
 
 | Biotic Factors (living) | Abiotic Factors (non-living)    |
 | ----------------------- | ------------------------------- |
@@ -494,6 +520,8 @@ Ecology studies interactions at multiple hierarchical levels:
 | Food availability       | Oxygen concentration            |
 | Decomposers             | Wind speed                      |
 | Pollinators             | Salinity                        |
+
+</div>
 
 ### Niche Concept
 
@@ -574,6 +602,8 @@ Carrying capacity is not fixed -- it can change due to:
 
 ### Density-Dependent vs Density-Independent Factors
 
+<div class="table-wrap">
+
 | Feature      | Density-Dependent Factors                                                 | Density-Independent Factors                                                |
 | ------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | Effect       | Intensity varies with population density                                  | Intensity is independent of population density                             |
@@ -581,7 +611,11 @@ Carrying capacity is not fixed -- it can change due to:
 | Examples     | Competition for resources, predation, disease, parasitism, territoriality | Natural disasters (floods, earthquakes, fires), extreme weather, pollution |
 | Graph effect | Growth rate decreases as density increases                                | Growth rate can drop suddenly regardless of density                        |
 
+</div>
+
 ### r-Selection vs K-Selection
+
+<div class="table-wrap">
 
 | Feature             | r-Selected Species                      | K-Selected Species                     |
 | ------------------- | --------------------------------------- | -------------------------------------- |
@@ -593,6 +627,8 @@ Carrying capacity is not fixed -- it can change due to:
 | Lifespan            | Short                                   | Long                                   |
 | Competitive ability | Low                                     | High                                   |
 | Examples            | Bacteria, insects, weeds, annual plants | Elephants, whales, primates, oak trees |
+
+</div>
 
 ### Survivorship Curves
 
@@ -626,6 +662,8 @@ Trying to force a perfect classification.
 
 ### Interspecific Interactions
 
+<div class="table-wrap">
+
 | Interaction        | Effect on Species A | Effect on Species B | Example                                              |
 | ------------------ | ------------------- | ------------------- | ---------------------------------------------------- |
 | Predation (+/-)    | Beneficial          | Harmful             | Lion hunting zebra                                   |
@@ -633,6 +671,8 @@ Trying to force a perfect classification.
 | Mutualism (+/+)    | Beneficial          | Beneficial          | Bees pollinating flowers; mycorrhizae on plant roots |
 | Commensalism (+/0) | Beneficial          | Neutral             | Barnacles on a whale                                 |
 | Parasitism (+/-)   | Beneficial          | Harmful             | Tapeworm in a human intestine; ticks on a dog        |
+
+</div>
 
 ### Predation
 
@@ -733,6 +773,8 @@ Energy enters ecosystems through photosynthesis and flows through trophic levels
 
 ### Trophic Levels
 
+<div class="table-wrap">
+
 | Trophic Level                       | Description                                                                                          | Example                          |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------- |
 | Producer (autotroph)                | Organisms that produce organic compounds from inorganic sources via photosynthesis or chemosynthesis | Plants, algae, cyanobacteria     |
@@ -742,13 +784,19 @@ Energy enters ecosystems through photosynthesis and flows through trophic levels
 | Quaternary consumer (apex predator) | Top of the food chain; no natural predators                                                          | Eagle, shark, lion               |
 | Decomposer (detritivore)            | Breaks down dead organic matter, recycling nutrients                                                 | Bacteria, fungi, earthworms      |
 
+</div>
+
 ### Ecological Pyramids
+
+<div class="table-wrap">
 
 | Type               | What it shows                                     | Typical pattern                                   | Inverted cases                                                                                                          |
 | ------------------ | ------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Pyramid of numbers | Number of organisms at each trophic level         | Decreases with each level (broad base)            | Can be inverted: one tree supports many herbivorous insects                                                             |
 | Pyramid of biomass | Total dry mass of organisms at each trophic level | Decreases with each level                         | Can be inverted in aquatic ecosystems: phytoplankton biomass &lt; zooplankton biomass (rapid turnover of phytoplankton) |
 | Pyramid of energy  | Total energy content at each trophic level        | Always decreases with each level (never inverted) | Never inverted; reflects the laws of thermodynamics                                                                     |
+
+</div>
 
 ### The 10% Rule
 
@@ -858,6 +906,8 @@ $$
 
 ### Major Terrestrial Biomes
 
+<div class="table-wrap">
+
 | Biome                      | Climate                                 | Precipitation      | Temperature                                                          | Key Vegetation                                                 | Key Adaptations                                                                                               |
 | -------------------------- | --------------------------------------- | ------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | Tropical rainforest        | Hot and wet year-round                  | 2000-10000 mm/year | 25-28 degrees C year-round                                           | Broadleaf evergreen trees, epiphytes, dense understorey        | Buttress roots, drip tips on leaves, thin bark, rapid nutrient cycling                                        |
@@ -866,6 +916,8 @@ $$
 | Desert                     | Very dry                                | &lt;250 mm/year    | Extreme diurnal range; hot deserts &gt;40 degrees C day, cool nights | Sparse vegetation: cacti, succulents, deep-rooted shrubs       | Water storage (succulence), reduced leaf surface area, thick cuticle, CAM photosynthesis, nocturnal behaviour |
 | Taiga (boreal forest)      | Long, cold winters; short, warm summers | 400-1000 mm/year   | -40 to 20 degrees C                                                  | Coniferous trees (pine, spruce, fir), lichens, mosses          | Needle-like leaves (reduce water loss, shed snow), cone shape (shed snow), thick bark, evergreen              |
 | Tundra                     | Extremely cold; short growing season    | 150-250 mm/year    | -40 to 10 degrees C; permafrost                                      | Lichens, mosses, dwarf shrubs, grasses                         | Low-growing form (avoid wind), shallow roots (permafrost), dense hairs, dark pigmentation (absorb heat)       |
+
+</div>
 
 ### Aquatic Biomes
 
@@ -942,11 +994,15 @@ Bodies:
 
 **Bioaccumulation vs Biomagnification:**
 
+<div class="table-wrap">
+
 | Feature    | Bioaccumulation                                                        | Biomagnification                                                                                       |
 | ---------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Definition | Accumulation of a substance within a single organism over its lifetime | Increasing concentration of a substance at each successive trophic level                               |
 | Scope      | Within one organism                                                    | Across the food chain                                                                                  |
 | Example    | Heavy metals accumulating in fish liver                                | DDT concentration increasing from plankton to zooplankton to small fish to large fish to birds of prey |
+
+</div>
 
 Substances that biomagnify are :
 
@@ -1270,6 +1326,8 @@ population is in Hardy-Weinberg equilibrium for this trait.
 The following data show dissolved oxygen (DO) levels in a lake at different distances from a point
 where agricultural fertiliser runoff enters:
 
+<div class="table-wrap">
+
 | Distance from runoff source (km) | DO concentration (mg/L) |
 | -------------------------------- | ----------------------- |
 | 0.5                              | 2.1                     |
@@ -1278,6 +1336,8 @@ where agricultural fertiliser runoff enters:
 | 5.0                              | 7.9                     |
 | 10.0                             | 8.5                     |
 | 15.0                             | 8.6                     |
+
+</div>
 
 **(a)** Describe the trend and explain the biological processes responsible.
 
@@ -1327,6 +1387,8 @@ slow-release fertilisers).
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                  | Key Concept                                                            | DSE Relevance                                                |
 | ---------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Natural selection      | Variation, differential survival/reproduction, allele frequency change | Core concept; appears in structured and essay questions      |
@@ -1339,6 +1401,8 @@ slow-release fertilisers).
 | Ecosystem ecology      | Energy flow, pyramids, nutrient cycles                                 | Calculations (10% rule); cycle descriptions                  |
 | Biomes                 | Climate, vegetation, adaptations                                       | Climate graph interpretation; adaptation questions           |
 | Human impact           | Pollution, climate change, biodiversity loss, conservation             | Data interpretation; evaluate strategies                     |
+
+</div>
 
 ---
 
@@ -1705,12 +1769,16 @@ The logistic growth curve has three phases:
 
 ### Factors Affecting Population Size
 
+<div class="table-wrap">
+
 | Factor Type         | Description                                                                                                                 |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Abiotic factors     | Temperature, water availability, light, pH, mineral nutrients, salinity                                                     |
 | Biotic factors      | Food availability, predation, competition, disease, parasitism                                                              |
 | Density-dependent   | Factors whose effect increases with population density (e.g., competition for resources, disease transmission, predation)   |
 | Density-independent | Factors whose effect is independent of population density (e.g., natural disasters, temperature extremes, seasonal changes) |
+
+</div>
 
 ### Carrying Capacity
 
@@ -1736,12 +1804,16 @@ The human population has grown exponentially over the past 200 years due to:
 
 **Demographic transition model:**
 
+<div class="table-wrap">
+
 | Stage | Birth Rate | Death Rate | Population Growth      | Description                                                    |
 | ----- | ---------- | ---------- | ---------------------- | -------------------------------------------------------------- |
 | 1     | High       | High       | Low                    | Pre-industrial; high birth and death rates; population stable  |
 | 2     | High       | Falling    | Rapidly increasing     | Industrialising; death rate falls due to medicine/sanitation   |
 | 3     | Falling    | Low        | Increasing but slowing | Birth rate falls due to contraception, education, urbanisation |
 | 4     | Low        | Low        | Low (stable)           | Post-industrial; both rates are low; population is stable      |
+
+</div>
 
 ---
 
@@ -1758,6 +1830,8 @@ The human population has grown exponentially over the past 200 years due to:
 
 ### Symbiosis
 
+<div class="table-wrap">
+
 | Relationship | Effect on A | Effect on B | Example                                                                           |
 | ------------ | ----------- | ----------- | --------------------------------------------------------------------------------- |
 | Mutualism    | +           | +           | Lichen (fungus + alga); mycorrhizae (fungus + plant roots); coral + zooxanthellae |
@@ -1767,12 +1841,18 @@ The human population has grown exponentially over the past 200 years due to:
 | Herbivory    | +           | -           | Rabbit and grass; caterpillar and leaf                                            |
 | Competition  | -           | -           | Two species competing for the same resource (e.g., two species of Paramecium)     |
 
+</div>
+
 ### Interspecific vs Intraspecific Competition
+
+<div class="table-wrap">
 
 | Type          | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
 | Intraspecific | Competition between individuals of the SAME species (e.g., oak trees competing for light)                  |
 | Interspecific | Competition between individuals of DIFFERENT species (e.g., oak trees and maple trees competing for light) |
+
+</div>
 
 **Competitive exclusion principle:** Two species cannot occupy exactly the same ecological niche in
 the same habitat. If they compete for the same limited resource, one species will outcompete the
@@ -1798,6 +1878,8 @@ same tree canopy.
 
 ### Major Biomes
 
+<div class="table-wrap">
+
 | Biome                        | Climate                                                                                                | Vegetation                                                                                                                                           | Fauna                                                                                               | Soil                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Tropical rainforest          | Hot and wet all year; high rainfall (2000+ mm/year); high humidity; little seasonal variation          | Dense, multi-layered canopy (emergent, canopy, understorey, forest floor); high biodiversity; broad-leaved evergreen trees; epiphytes, lianas, ferns | Highest biodiversity of any biome; monkeys, toucans, jaguars, tree frogs, butterflies, ants, snakes | Nutrient-poor (rapid decomposition and nutrient uptake by plants); thin topsoil |
@@ -1810,10 +1892,14 @@ same tree canopy.
 | Freshwater                   | Variable; depends on depth, flow rate, latitude                                                        | Aquatic plants (reed beds, water lilies, algae, phytoplankton)                                                                                       | Fish, amphibians, invertebrates (dragonfly larvae, water beetles), water birds                      | Sediment at bottom; nutrient-rich or oligotrophic                               |
 | Marine                       | Stable temperature (oceans buffer temperature changes); high salinity                                  | Phytoplankton (basis of marine food web); seaweed; kelp forests; coral reefs (in warm, shallow tropical waters)                                      | Fish, whales, dolphins, sharks, crustaceans, molluscs, coral polyps                                 | Sediment on ocean floor; rocky or sandy coasts                                  |
 
+</div>
+
 ### Interpreting Climate Graphs
 
 Climate graphs show both temperature (line graph) and precipitation (bar chart) for a given location
 over a 12-month period.
+
+<div class="table-wrap">
 
 | Biome clue                 | What to look for on the climate graph                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -1824,6 +1910,8 @@ over a 12-month period.
 | Temperate deciduous forest | Moderate temperature range with four seasons; moderate, fairly even rainfall throughout the year  |
 | Coniferous forest          | Long cold winters; short cool summers; moderate, fairly even rainfall                             |
 | Tundra                     | Very low temperatures all year (may be below 0 degrees C for much of the year); low rainfall      |
+
+</div>
 
 ---
 
@@ -1840,11 +1928,15 @@ over a 12-month period.
 
 ### Measuring Abundance
 
+<div class="table-wrap">
+
 | Method           | Description                                                                                                               | Most Suitable For                                                                     |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | Density          | Count of individuals per unit area (e.g., per m$^2$)                                                                      | Small, stationary or slow-moving organisms (plants, limpets, barnacles)               |
 | Frequency        | Percentage of quadrats in which a species is present (NOT a count of individuals)                                         | Plants that are difficult to count individually (e.g., grass)                         |
 | Percentage cover | Estimate of the proportion of ground within a quadrat that is covered by a species (using a gridded quadrat for accuracy) | Plants (especially when individual plants are hard to distinguish, e.g., grass, moss) |
+
+</div>
 
 ### Standard Deviation
 
@@ -1862,12 +1954,16 @@ Where:
 - $\bar{x}$ = mean
 - $n$ = number of values
 
+<div class="table-wrap">
+
 | Interpretation                        | Description                                                                                                                                                           |
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Large standard deviation              | Data points are widely spread from the mean; lower reliability; more variation in the data                                                                            |
 | Small standard deviation              | Data points are close to the mean; higher reliability; less variation in the data                                                                                     |
 | Overlap of standard deviation bars    | If standard deviation bars on a bar chart overlap, the difference between the means is NOT statistically significant; the difference could be due to random variation |
 | No overlap of standard deviation bars | The difference between the means IS likely to be statistically significant (though a proper statistical test such as a t-test is needed to confirm this)              |
+
+</div>
 
 ### Student's t-test
 
@@ -1950,6 +2046,8 @@ Nitrogen is essential for the synthesis of amino acids (proteins), nucleotides (
 Although nitrogen gas (N$_2$) makes up approximately 78% of the atmosphere, it is unusable by most
 organisms because the triple bond in N$_2$ is very strong and requires a lot of energy to break.
 
+<div class="table-wrap">
+
 | Process                  | Description                                                                                                            | Organisms Involved                                                                                                                                                                                                         |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nitrogen fixation**    | Conversion of atmospheric N$_2$ into ammonia (NH$_3$) or ammonium ions (NH$_4^+$)                                      | Nitrogen-fixing bacteria: _Rhizobium_ (symbiotic, in root nodules of legumes); _Azotobacter_ (free-living in soil); blue-green algae (cyanobacteria); lightning (converts N$_2$ to NOx, which washes into soil as nitrate) |
@@ -1959,7 +2057,11 @@ organisms because the triple bond in N$_2$ is very strong and requires a lot of 
 | **Ammonification**       | Decomposition of organic nitrogen (proteins, urea, nucleic acids) in dead organisms and waste into ammonium (NH$_4^+$) | Decomposer bacteria and fungi                                                                                                                                                                                              |
 | **Denitrification**      | Conversion of nitrate (NO$_3^-$) back into nitrogen gas (N$_2$), which returns to the atmosphere                       | Denitrifying bacteria: _Pseudomonas denitrificans_, _Thiobacillus denitrificans_; these are anaerobic bacteria (found in waterlogged, oxygen-poor soils)                                                                   |
 
+</div>
+
 ### The Carbon Cycle
+
+<div class="table-wrap">
 
 | Process              | Description                                                                                                               | Carbon Form                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -1971,10 +2073,14 @@ organisms because the triple bond in N$_2$ is very strong and requires a lot of 
 | **Fossilisation**    | Organic matter is buried and compressed over millions of years, forming fossil fuels (coal, oil, natural gas)             | Carbon locked in fossil fuels                                                    |
 | **Ocean absorption** | CO$_2$ dissolves in ocean water; some is used by marine organisms for photosynthesis and shell formation                  | CO$_2$ in atmosphere $\rightarrow$ dissolved CO$_2$ and carbonate ions in oceans |
 
+</div>
+
 ### The Phosphorus Cycle
 
 Unlike the carbon and nitrogen cycles, the phosphorus cycle has NO significant gaseous phase.
 Phosphorus cycles mainly between the land and oceans.
+
+<div class="table-wrap">
 
 | Process                         | Description                                                                                                                                                   |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1984,6 +2090,8 @@ Phosphorus cycles mainly between the land and oceans.
 | **Decomposition and excretion** | Decomposers break down dead organisms and release phosphate back into the soil; animals excrete phosphate in urine                                            |
 | **Sedimentation**               | Phosphate is washed into rivers and eventually reaches the oceans, where it accumulates in marine sediments                                                   |
 | **Geological uplift**           | Over millions of years, marine sediments are uplifted by geological processes, exposing phosphate-containing rocks on land -- completing the cycle            |
+
+</div>
 
 ---
 
@@ -2000,18 +2108,26 @@ Phosphorus cycles mainly between the land and oceans.
 
 ### Symbiosis
 
+<div class="table-wrap">
+
 | Type             | Description                                                         | Effect on A | Effect on B | Example                                                                                                                     |
 | ---------------- | ------------------------------------------------------------------- | ----------- | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **Mutualism**    | Both organisms benefit                                              | +           | +           | Lichens (fungus + algae); _Rhizobium_ in root nodules; mycorrhizae; clownfish and sea anemone; cleaner fish and larger fish |
 | **Commensalism** | One organism benefits; the other is unaffected                      | +           | 0           | Barnacles on whales; epiphytic orchids on trees; remora fish and sharks                                                     |
 | **Parasitism**   | One organism (parasite) benefits at the expense of the other (host) | +           | -           | Tapeworms in human intestine; _Plasmodium_ (malaria) in red blood cells; fleas on mammals; mistletoe on trees               |
 
+</div>
+
 ### Competition
+
+<div class="table-wrap">
 
 | Type                          | Description                                                                                                               | Example                                                                                            |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Intraspecific competition** | Competition between individuals of the SAME species for the same limited resources (food, water, mates, territory, light) | Trees in a forest competing for light; male deer competing for mates during the rut                |
 | **Interspecific competition** | Competition between individuals of DIFFERENT species for the same limited resources                                       | Lions and hyenas competing for prey; different plant species competing for soil minerals and light |
+
+</div>
 
 **Competitive exclusion principle (Gause's principle):** Two species cannot coexist in the same
 habitat if they occupy exactly the same ecological niche. One species will outcompete the other,
@@ -2020,11 +2136,15 @@ leading to the exclusion of the weaker competitor.
 **Resource partitioning:** To avoid competitive exclusion, similar species evolve to use slightly
 different resources or exploit the same resource at different times or in different ways.
 
+<div class="table-wrap">
+
 | Example                                   | Resource Partitioning Mechanism                                                                                                               |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Darwin's finches on the Galapagos Islands | Different beak sizes and shapes allow different finch species to eat different food types (seeds of different sizes, insects, cactus flowers) |
 | Warblers in a coniferous forest           | Five species of warbler feed in different parts of the same tree (one at the top, one in the middle, one near the trunk, etc.)                |
 | Lions and leopards in African savanna     | Lions hunt larger prey in groups during the day; leopards hunt smaller prey alone at night                                                    |
+
+</div>
 
 ### Predation
 
@@ -2036,6 +2156,8 @@ Predation has significant effects on population dynamics and community structure
 3. **Trophic cascades:** Changes in the population of a top predator can have cascading effects
    through the entire food web
 
+<div class="table-wrap">
+
 | Adaptation                        | Predator Example                   | Prey Example                                                                                          |
 | --------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Camouflage (crypsis)              | Tiger stripes; owl feather pattern | Stick insects; leaf-tailed geckos; Arctic hare (white in winter)                                      |
@@ -2045,6 +2167,8 @@ Predation has significant effects on population dynamics and community structure
 | Chemical defences                 | --                                 | Skunks (spray); bombardier beetle (hot chemical spray); poison dart frogs (batrachotoxin)             |
 | Physical defences                 | --                                 | Porcupine (quills); tortoise (shell); armadillo (armour)                                              |
 | Group defence                     | Wolves (pack hunting)              | Musk oxen (circle around young); sardines (schooling)                                                 |
+
+</div>
 
 ---
 
@@ -2064,6 +2188,8 @@ Predation has significant effects on population dynamics and community structure
 Eutrophication is the excessive enrichment of water bodies with nutrients (especially nitrates and
 phosphates), leading to excessive algal growth.
 
+<div class="table-wrap">
+
 | Stage                    | Description                                                                                                             |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | 1. Nutrient input        | Nitrates (from fertilisers, sewage) and phosphates (from detergents, fertilisers) enter rivers and lakes                |
@@ -2074,7 +2200,11 @@ phosphates), leading to excessive algal growth.
 | 6. Oxygen depletion      | Dissolved oxygen levels drop (hypoxia or anoxia); fish and other aquatic organisms die from oxygen deprivation          |
 | 7. Further decomposition | Dead fish and organisms are decomposed by bacteria, further depleting oxygen levels; the ecosystem is severely degraded |
 
+</div>
+
 ### Deforestation
+
+<div class="table-wrap">
 
 | Impact                    | Description                                                                                                                           |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2084,6 +2214,8 @@ phosphates), leading to excessive algal growth.
 | Disruption of water cycle | Trees play a crucial role in transpiration, which contributes to cloud formation and rainfall; deforestation reduces local rainfall   |
 | Flooding                  | With fewer trees to intercept rainfall and absorb water, surface run-off increases, leading to more frequent and severe flooding      |
 | Climate change            | Deforestation in tropical regions is a major contributor to global greenhouse gas emissions (approximately 10-15% of total)           |
+
+</div>
 
 ### Common Pitfalls
 
@@ -2110,11 +2242,15 @@ phosphates), leading to excessive algal growth.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic     | Site    | Link                                                                    |
 | --------- | ------- | ----------------------------------------------------------------------- |
 | [Ecology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/ecology) |
 | [Ecology] | IB      | [View](https://ib.wyattau.com/biology/4-ecology/1_ecology/)      |
 | [Ecology] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/1_ecology/)    |
+
+</div>
 :::
 
 ## See Also

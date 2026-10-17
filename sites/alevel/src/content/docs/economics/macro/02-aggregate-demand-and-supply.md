@@ -31,6 +31,8 @@ $$
 AD = C + I + G + (X - M)
 $$
 
+<div class="table-wrap">
+
 | Component                   | Definition                                      | Determinants                                                                    |
 | --------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
 | **C** (Consumption)         | Household spending on goods and services        | Disposable income, interest rates, wealth, confidence, expectations             |
@@ -38,6 +40,8 @@ $$
 | **G** (Government spending) | Government expenditure on goods and services    | Fiscal policy, political priorities                                             |
 | **X** (Exports)             | Spending by foreigners on domestic goods        | Foreign income, exchange rate, trade policies                                   |
 | **M** (Imports)             | Spending by domestic residents on foreign goods | Domestic income, exchange rate, tastes                                          |
+
+</div>
 
 ### 1.2 The Shape of the AD Curve
 
@@ -94,6 +98,8 @@ Illustrating the interest rate channel in action.
 
 The AD curve shifts when any component changes _at a given price level_:
 
+<div class="table-wrap">
+
 | Change                                                | Effect on AD    |
 | ----------------------------------------------------- | --------------- |
 | Consumption increases (e.g., tax cut, confidence)     | AD shifts right |
@@ -101,6 +107,8 @@ The AD curve shifts when any component changes _at a given price level_:
 | Government spending increases                         | AD shifts right |
 | Exports increase (e.g., foreign growth, depreciation) | AD shifts right |
 | Imports increase (e.g., income rise, appreciation)    | AD shifts left  |
+
+</div>
 
 #### Derivation of AD Shift Magnitude
 
@@ -206,6 +214,8 @@ LRAS shifts right when productivity, capital, or labour grow.
 
 ### 2.3 Shifts of the SRAS Curve
 
+<div class="table-wrap">
+
 | Change                                          | Effect on SRAS    |
 | ----------------------------------------------- | ----------------- |
 | Wage increase (e.g., union power)               | SRAS shifts left  |
@@ -216,6 +226,8 @@ LRAS shifts right when productivity, capital, or labour grow.
 | Supply-side policy (education, deregulation)    | SRAS shifts right |
 | Expectations of higher inflation                | SRAS shifts left  |
 | Tax increase on firms                           | SRAS shifts left  |
+
+</div>
 
 **Real-world example, the 1973 oil crisis.** When OPEC quadrupled oil prices, SRAS shifted sharply
 Left across Western economies. In the UK, inflation reached over 24% while GDP contracted by 2.7% in
@@ -465,6 +477,8 @@ Which further raises income, and so on. This can generate business cycles.
 
 ### Keynesian vs Classical View of AS
 
+<div class="table-wrap">
+
 | Feature          | Keynesian                          | Classical/New Classical |
 | ---------------- | ---------------------------------- | ----------------------- |
 | SRAS             | Upward-sloping                     | Vertical (or nearly so) |
@@ -472,6 +486,8 @@ Which further raises income, and so on. This can generate business cycles.
 | Wage flexibility | Wages are sticky downward          | Wages are flexible      |
 | Self-correction  | Slow or non-existent (need policy) | Automatic and rapid     |
 | Role of policy   | Active fiscal and monetary policy  | Minimal intervention    |
+
+</div>
 
 ### 6.1 Evaluating the AD/AS Framework
 
@@ -1000,6 +1016,8 @@ $k = \frac{1}{1 - 0.8(0.8) + 0.15} = \frac{1}{1 - 0.64 + 0.15} = \frac{1}{0.51} 
 
 **Sensitivity table:**
 
+<div class="table-wrap">
+
 | MPC | Tax rate | MPM  | Multiplier |
 | :-: | :------: | :--: | :--------: |
 | 0.6 |   0.2    | 0.1  |    1.67    |
@@ -1010,9 +1028,13 @@ $k = \frac{1}{1 - 0.8(0.8) + 0.15} = \frac{1}{1 - 0.64 + 0.15} = \frac{1}{0.51} 
 | 0.9 |   0.2    | 0.15 |    2.44    |
 | 0.9 |   0.4    | 0.2  |    2.70    |
 
+</div>
+
 Wait, let me verify one: MPC = 0.9, t = 0.4, MPM = 0.2.
 $k = \frac{1}{1 - 0.9(0.6) + 0.2} = \frac{1}{1 - 0.54 + 0.2} = \frac{1}{0.66} = 1.52$. That is
 different from 2.70. Let me recalculate the table.
+
+<div class="table-wrap">
 
 | MPC | Tax rate | MPM  | $MPC(1-t)$ |         Leakages         | Multiplier |
 | :-: | :------: | :--: | :--------: | :----------------------: | :--------: |
@@ -1023,6 +1045,8 @@ different from 2.70. Let me recalculate the table.
 | 0.8 |   0.3    | 0.15 |    0.56    | $1 - 0.56 + 0.15 = 0.59$ |    1.69    |
 | 0.9 |   0.2    | 0.15 |    0.72    | $1 - 0.72 + 0.15 = 0.43$ |    2.33    |
 | 0.9 |   0.4    | 0.2  |    0.54    | $1 - 0.54 + 0.2 = 0.66$  |    1.52    |
+
+</div>
 
 **Key patterns:**
 
@@ -1051,6 +1075,8 @@ where $v = 1.5$ (accelerator coefficient).
 
 **Simulation:**
 
+<div class="table-wrap">
+
 | Year | $\Delta Y$ | Induced $I$ | Total $I$ | $\Delta I$ | $\Delta Y$ (from $\Delta I$) | Total $\Delta Y$ | $Y$  |
 | :--: | :--------: | :---------: | :-------: | :--------: | :--------------------------: | :--------------: | :--: |
 |  0   |     0      |      0      |    100    |     0      |              0               |        0         | 1000 |
@@ -1062,6 +1088,8 @@ where $v = 1.5$ (accelerator coefficient).
 |  6   |    +180    |     270     |    370    |     0      |              0               |        0         | 1560 |
 |  7   |     0      |      0      |    100    |    -270    |             -540             |       -540       | 1020 |
 |  8   |    -540    |    -810     |   -710    |    -810    |            -1620             |      -1620       | -600 |
+
+</div>
 
 **Interpretation:**
 
@@ -1129,6 +1157,8 @@ explain. This led to the monetarist counter-revolution (Friedman, Thatcher).
 
 **Diagnostic indicators:**
 
+<div class="table-wrap">
+
 | Indicator           | Demand-pull                       | Cost-push                                 |
 | ------------------- | --------------------------------- | ----------------------------------------- |
 | Output gap          | Positive (above potential)        | Negative (below potential)                |
@@ -1138,6 +1168,8 @@ explain. This led to the monetarist counter-revolution (Friedman, Thatcher).
 | Profit margins      | Rising (firms have pricing power) | Falling (costs rising faster than prices) |
 | Commodity prices    | Stable or falling                 | Rising                                    |
 | Exchange rate       | Depreciating (imported inflation) | Appreciating (reducing import costs)      |
+
+</div>
 
 **Application to the UK (2022-2023):**
 

@@ -22,11 +22,15 @@ with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
 | ------ | --------------- | ------------------ | ----------------------------- | ---------- |
 | BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |
+
+</div>
 
 ```text
 BRE:  \{1,3\}    \+    \?    \(group\)

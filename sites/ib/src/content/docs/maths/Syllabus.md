@@ -22,6 +22,8 @@ This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass
 
 The IB Mathematics AA syllabus is structured like a journey from concrete to abstract. Number and Algebra provides the computational foundation. Functions introduce the idea of transformation and mapping. Trigonometry extends algebra into circular and periodic phenomena. Calculus reveals how to measure change and accumulation. Statistics and Probability quantify uncertainty. Vectors and Matrices describe spatial relationships and linear transformations. The syllabus mirrors how mathematical thought evolved historically, from solving practical problems to abstract reasoning.
 
+<div class="table-wrap">
+
 | Topic                             | Subtopic                                     | Level   | Key Understanding                                                                                                               | Relevant Equations & Identities                                                                                                                                       |
 | --------------------------------- | -------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1. Number and Algebra** | Arithmetic Sequences | SL & HL | Sequences with a constant common difference; finding the nth term and the sum of the first n terms. | `u_n = u_1 + (n-1)d` |
@@ -188,6 +190,8 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Improper Integrals: Infinite Limits | HL Only | Integrals where one or both limits are infinite; determining convergence or divergence. | `\int_a^{\infty} f(x)\,dx = \lim_{b \to \infty} \int_a^b f(x)\,dx`; converges if the limit is finite |
 |  | Improper Integrals: Unbounded Integrands | HL Only | Integrals where the integrand has a vertical asymptote within the interval. | `\int_0^1 (1/\sqrt{x})\,dx = \lim_{a \to 0^+} \int_a^1 (1/\sqrt{x})\,dx = 2`; split at the discontinuity |
 |  | Convergence of Improper Integrals | HL Only | Determining whether an improper integral converges to a finite value or diverges. | `\int_1^{\infty} (1/x^p)\,dx` converges for `p > 1`Diverges for `p \le 1` |
+
+</div>
 
 ---
 

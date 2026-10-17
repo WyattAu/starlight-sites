@@ -26,6 +26,8 @@ misconceptions.
 
 ## Topic Coverage Map
 
+<div class="table-wrap">
+
 | #   | File                               | Topic                        | Section             |
 | --- | ---------------------------------- | ---------------------------- | ------------------- |
 | 1   | `diag-kinematics.md`               | Kinematics                   | Mechanics           |
@@ -40,6 +42,8 @@ misconceptions.
 | 10  | `diag-thermodynamics.md`           | Thermodynamics               | Thermal Physics     |
 | 11  | `diag-atomic-nuclear.md`           | Atomic and Nuclear Physics   | Quantum and Nuclear |
 | 12  | `diag-current-electricity.md`      | Current Electricity          | Electricity         |
+
+</div>
 
 ## Prerequisite Chains
 
@@ -77,6 +81,8 @@ Atomic and Nuclear Physics
 
 ## Integration Test Cross-References
 
+<div class="table-wrap">
+
 | Primary Topic            | Integration Partners                    |
 | ------------------------ | --------------------------------------- |
 | Kinematics               | Dynamics, Work-Energy                   |
@@ -92,11 +98,15 @@ Atomic and Nuclear Physics
 | Atomic/Nuclear           | Energy, Electric/Magnetic Fields        |
 | Current Electricity      | Kirchhoff's Laws, Energy                |
 
+</div>
+
 ## Grading Rubric
 
 ### Per-Question Scoring
 
 Each question (unit or integration) is scored on a 0--4 scale:
+
+<div class="table-wrap">
 
 | Score | Descriptor                                                   |
 | ----- | ------------------------------------------------------------ |
@@ -106,9 +116,13 @@ Each question (unit or integration) is scored on a 0--4 scale:
 | 3     | Correct method, minor arithmetical or notational error       |
 | 4     | Fully correct solution with appropriate working and sig figs |
 
+</div>
+
 ### Diagnostic Classification
 
 For each topic test (6 questions, max 24 marks):
+
+<div class="table-wrap">
 
 | Total Score | Classification  | Interpretation                                         |
 | ----------- | --------------- | ------------------------------------------------------ |
@@ -117,6 +131,8 @@ For each topic test (6 questions, max 24 marks):
 | 13--17      | **Developing**  | Core concepts present but inconsistent application     |
 | 8--12       | **Emerging**    | Significant gaps; foundational revision needed         |
 | 0--7        | **Not Started** | Major revision required; return to prerequisite topics |
+
+</div>
 
 ### Unit vs Integration Analysis
 
@@ -135,6 +151,8 @@ For each topic test (6 questions, max 24 marks):
 5. Use the prerequisite chains to identify whether a low score stems from an earlier topic.
 
 ## Key Misconceptions Index
+
+<div class="table-wrap">
 
 | Topic                    | Misconception                                            | Diagnostic Test |
 | ------------------------ | -------------------------------------------------------- | --------------- |
@@ -174,6 +192,8 @@ For each topic test (6 questions, max 24 marks):
 | Current Electricity      | Non-ohmic dynamic vs static resistance                   | UT-1            |
 | Current Electricity      | Internal resistance reduces terminal PD                  | UT-2            |
 | Current Electricity      | Potential divider loading effect                         | UT-3            |
+
+</div>
 
 ## IB-Specific Notes
 

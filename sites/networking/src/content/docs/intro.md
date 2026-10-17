@@ -77,6 +77,8 @@ A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Topic                 | Focus                                                     |
 | --------------------- | --------------------------------------------------------- |
 | OSI and TCP/IP Models | Reference models, encapsulation, layer violations         |
@@ -86,6 +88,8 @@ A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 | HTTP                  | HTTP/1.1, HTTP/2, HTTP/3, caching, REST                   |
 | TLS                   | Handshake, cipher suites, certificates, PKI               |
 | Network Tools         | tcpdump, Wireshark, curl, dig, ss, diagnostic methodology |
+
+</div>
 
 ## Core Principles
 

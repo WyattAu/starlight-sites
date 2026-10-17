@@ -120,6 +120,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.3 Key Relationships
 
+<div class="table-wrap">
+
 | Parameter | Value (best fit) | Experiment | Role |
 | ------------------ | ---------------------- | ------------------------------- | --------------------------------------- |
 | $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV$^2$ | Solar (SNO, Borexino) | Drives solar $\nu_e \to \nu_{\mu,\tau}$ |
@@ -127,6 +129,8 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 | $\sin^2(2\theta_{12})$ | 0.86 | Solar (SNO) | Solar mixing angle |
 | $\sin^2(2\theta_{23})$ | 1.0 (maximal) | Atmospheric (Super-K) | Atmospheric mixing angle |
 | $\sin^2(2\theta_{13})$ | 0.092 | Reactor (Daya Bay, RENO, Double Chooz) | Non-zero, enables CP violation |
+
+</div>
 
 ### 8.4 Common Pitfalls
 
@@ -145,12 +149,16 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.6 Summary Table
 
+<div class="table-wrap">
+
 | Neutrino source  | Typical energy | Baseline $L$      | Oscillation probed      | Key experiment        |
 | ---------------- | -------------- | ----------------- | ----------------------- | --------------------- |
 | Solar            | 0.1-10 MeV     | $1.5 \times 10^8$ km | $\Delta m^2_{21}$   | SNO, Borexino, Super-K |
 | Atmospheric      | 0.1-100 GeV    | 10-10$^4$ km      | $\Delta m^2_{32}$       | Super-Kamiokande      |
 | Reactor          | 1-10 MeV       | 0.1-100 km        | $\theta_{13}$, $\Delta m^2_{21}$ | Daya Bay, RENO, KamLAND |
 | Accelerator      | 0.1-10 GeV     | 100-1000 km       | $\delta_{\rm CP}$       | T2K, NO$\nu$A, DUNE   |
+
+</div>
 
 ### 8.7 Open Questions
 
@@ -171,5 +179,5 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 

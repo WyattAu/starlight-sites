@@ -101,6 +101,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Formula | Significance |
 | --------- | --------- | -------------- |
 | Landauer bound | $E_{\min} = k_B T \ln 2$ | Minimum heat per erased bit |
@@ -108,6 +110,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Free energy change | $\Delta F = \Delta U - T\Delta S$ | Reversible work available |
 | Second law with info | $\Delta S_{\text{univ}} = \Delta S_{\text{sys}} + \Delta S_{\text{bath}} - \Delta I \geq 0$ | Information as negative entropy |
 | Bennett's reversible computing | $W_{\text{rev}} = \Delta F$ | No energy dissipated per logical step |
+
+</div>
 
 ### Common Pitfalls
 
@@ -118,6 +122,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Process | Information Change | Minimum Heat Dissipation |
 | --------- | ------------------- | ------------------------- |
 | Bit erasure (reset) | $1$ bit $\to$ $0$ (known) | $k_B T \ln 2$ |
@@ -125,6 +131,8 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 | Measurement | Unknown $\to$ known | $\geq k_B T \ln 2$ (for resetting meter) |
 | Logical AND (irreversible) | $2$ bits $\to$ $1$ bit | $k_B T \ln 2$ |
 | Reversible gate (CNOT, Toffoli) | $n$ bits $\to$ $n$ bits | $0$ (in principle) |
+
+</div>
 
 ### Connections to Other Topics
 
@@ -156,6 +164,8 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Thermal Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/01-thermal-properties) |
@@ -163,8 +173,10 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 | [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/)                        |
 | [Thermal Physics] | University | [View](https://physics.wyattau.com/)                    |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

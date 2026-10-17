@@ -30,6 +30,8 @@ understanding and problem-solving.
 
 ### Displacement, Velocity, and Acceleration
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Definition                           | SI Unit |
 | ------------ | ------ | ------------------------------------ | ------- |
 | Displacement | Vector | Change in position, $\Delta \vec{r}$ | m       |
@@ -37,6 +39,8 @@ understanding and problem-solving.
 | Velocity     | Vector | Rate of change of displacement       | m/s     |
 | Speed        | Scalar | Rate of change of distance           | m/s     |
 | Acceleration | Vector | Rate of change of velocity           | m/s$^2$ |
+
+</div>
 
 ### One-Dimensional Kinematics
 
@@ -371,6 +375,8 @@ For continuous objects: $I = \int r^2\, dm$
 
 Common moments of inertia:
 
+<div class="table-wrap">
+
 | Object                                    | Rotational Inertia  |
 | ----------------------------------------- | ------------------- |
 | Solid disc/cylinder (axis through centre) | $\dfrac{1}{2}MR^2$  |
@@ -379,6 +385,8 @@ Common moments of inertia:
 | Thin rod (axis through centre)            | $\dfrac{1}{12}ML^2$ |
 | Thin rod (axis through end)               | $\dfrac{1}{3}ML^2$  |
 | Point mass at distance $r$                | $mr^2$              |
+
+</div>
 
 ### Angular Momentum
 
@@ -568,6 +576,8 @@ $$
 
 ## 10. Summary
 
+<div class="table-wrap">
+
 | Topic             | Key Ideas                                                                               |
 | ----------------- | --------------------------------------------------------------------------------------- |
 | Kinematics        | Displacement, velocity, acceleration, projectile motion, free fall, motion graphs       |
@@ -576,6 +586,8 @@ $$
 | Momentum          | Impulse-momentum theorem, conservation of momentum, elastic and inelastic collisions    |
 | Rotational Motion | Torque, rotational inertia, angular momentum, conservation of angular momentum, rolling |
 | Oscillations      | SHM, mass-spring systems, pendulums, energy in oscillations                             |
+
+</div>
 
 AP Physics 1 rewards deep conceptual understanding over memorisation. Focus on building physical
 intuition, ask yourself _why_ an object behaves as it does before reaching for an equation.

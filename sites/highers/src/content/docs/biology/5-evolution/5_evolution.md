@@ -38,6 +38,8 @@ Organisms are classified into a hierarchical system:
 
 **The Five Kingdoms (traditional):**
 
+<div class="table-wrap">
+
 | Kingdom     | Cell type   | Organisation           | Nutrition                    |
 | ----------- | ----------- | ---------------------- | ---------------------------- |
 | Animalia    | Eukaryotic  | Multicellular          | Heterotrophic                |
@@ -45,6 +47,8 @@ Organisms are classified into a hierarchical system:
 | Fungi       | Eukaryotic  | Multicellular (mostly) | Heterotrophic (absorption)   |
 | Protoctista | Eukaryotic  | Mostly unicellular     | Both                         |
 | Prokaryotae | Prokaryotic | Unicellular            | Various                      |
+
+</div>
 
 **Binomial nomenclature:** Two-part Latin name: Genus species (e.g., Homo sapiens).
 
@@ -243,12 +247,16 @@ One tree supporting many insects).
 
 **Summary table: nitrogen cycle bacteria.**
 
+<div class="table-wrap">
+
 | Process           | Bacteria                  | Product                  | Conditions |
 | ----------------- | ------------------------- | ------------------------ | ---------- |
 | Nitrogen fixation | Rhizobium, Azotobacter    | Ammonia ($\mathrm{NH_3$) | Aerobic    |
 | Nitrification     | Nitrosomonas, Nitrobacter | Nitrite, nitrate         | Aerobic    |
 | Denitrification   | Pseudomonas               | $\mathrm{N_2$ gas        | Anaerobic  |
 | Ammonification    | Decomposers               | Ammonia                  | Both       |
+
+</div>
 
 ### Human Impact on Ecosystems
 
@@ -538,6 +546,8 @@ Contaminated organisms.
 
 ## Review: Ecological Relationships
 
+<div class="table-wrap">
+
 | Type         | Effect on A | Effect on B | Example                                                                      |
 | ------------ | ----------- | ----------- | ---------------------------------------------------------------------------- |
 | Mutualism    | +           | +           | Nitrogen-fixing bacteria in legume root nodules; mycorrhizae and plant roots |
@@ -545,6 +555,8 @@ Contaminated organisms.
 | Parasitism   | +           | -           | Tapeworms in mammals; fleas on dogs                                          |
 | Predation    | +           | -           | Foxes eating rabbits; owls eating mice                                       |
 | Competition  | -           | -           | Two species competing for the same resource                                  |
+
+</div>
 
 **Competitive exclusion principle:** Two species cannot occupy exactly the same ecological niche
 Indefinitely. One will eventually outcompete the other. In practice, species with similar niches

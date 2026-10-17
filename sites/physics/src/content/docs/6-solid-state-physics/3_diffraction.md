@@ -142,6 +142,8 @@ $2h + k = 3n \pm 1$: both even and odd $l$ give reflections but with different i
 Systematic absences arise from lattice centring and glide planes/screw axes, and are summarised by
 the structure factor:
 
+<div class="table-wrap">
+
 | Structure | Condition for reflection                | Systematic absence         |
 | --------- | --------------------------------------- | -------------------------- |
 | SC        | All $(hkl)$                             | None                       |
@@ -149,6 +151,8 @@ the structure factor:
 | FCC       | $h,k,l$ all even or all odd             | Mixed even/odd             |
 | Diamond   | $h,k,l$ all even/odd, $h+k+l \neq 4n+2$ | $h+k+l = 4n+2$ (and mixed) |
 | HCP       | $l$ even when $2h+k=3n$                 | $l$ odd when $2h+k=3n$     |
+
+</div>
 
 Systematic absences allow unambiguous identification of the Bravais lattice from a diffraction
 pattern. The presence of a $(100)$ reflection rules out BCC; the presence of $(200)$ but absence of
@@ -209,4 +213,4 @@ Diffraction occurs when waves encounter obstacles or periodic structures compara
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: Inelastic neutron scattering extends diffraction to measure phonon dispersion relations.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

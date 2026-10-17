@@ -60,11 +60,15 @@ Comparisons. Only after checking all $n$ elements can the algorithm conclude tha
 Algorithm that does not check all $n$ positions can be fooled: the unchecked position could contain
 $x$. Therefore, at least $n$ comparisons are necessary in the worst case. $\square$
 
+<div class="table-wrap">
+
 | Case    | Comparisons | Time   |
 | ------- | ----------- | ------ |
 | Best    | 1           | $O(1)$ |
 | Average | $n/2$       | $O(n)$ |
 | Worst   | $n$         | $O(n)$ |
+
+</div>
 
 <hr />
 
@@ -156,9 +160,13 @@ Use `mid = low + (high - low) // 2` for safety.
 <details>
 <summary>Example: Trace binary search for x = 7 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action          |
 | --------- | --- | ---- | --- | ------ | --------------- |
 | 1         | 0   | 6    | 3   | 7      | Found! Return 3 |
+
+</div>
 
 Result: index 3. ✓
 
@@ -167,12 +175,16 @@ Result: index 3. ✓
 <details>
 <summary>Example: Trace binary search for x = 6 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action                |
 | --------- | --- | ---- | --- | ------ | --------------------- |
 | 1         | 0   | 6    | 3   | 7      | 7 > 6, high = 2       |
 | 2         | 0   | 2    | 1   | 3      | 3 < 6, low = 2        |
 | 3         | 2   | 2    | 2   | 5      | 5 < 6, low = 3        |
 | 4         | 3   | 2    |,   |,      | low > high, return -1 |
+
+</div>
 
 Result: -1 (not found). ✓
 
@@ -203,6 +215,8 @@ with pseudocode. **OCR (A)** requires linear and binary search; may also cover h
 
 ## 3. Comparison of Search Algorithms
 
+<div class="table-wrap">
+
 | Property              | Linear Search | Binary Search         |
 | --------------------- | ------------- | --------------------- |
 | Precondition          | None          | Array must be sorted  |
@@ -211,6 +225,8 @@ with pseudocode. **OCR (A)** requires linear and binary search; may also cover h
 | Worst case            | $O(n)$        | $O(\log n)$           |
 | Data structure        | Array, list   | Array (random access) |
 | Works on linked list? | Yes           | No (no random access) |
+
+</div>
 
 <hr />
 
@@ -253,6 +269,8 @@ Comparisons are made?
 
 The value 8 is not in the array. All 8 elements are checked:
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 3        | 3 ≠ 8      | 1     |
@@ -264,6 +282,8 @@ The value 8 is not in the array. All 8 elements are checked:
 | 7    | 6     | 2        | 2 ≠ 8      | 7     |
 | 8    | 7     | 6        | 6 ≠ 8      | 8     |
 
+</div>
+
 Total comparisons: 8. Return -1.
 
 </details>
@@ -274,6 +294,8 @@ Total comparisons: 8. Return -1.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action            |
 | --------- | --- | ---- | --- | ------ | ----------------- |
 | 1         | 0   | 9    | 4   | 16     | 16 < 25, low = 5  |
@@ -281,6 +303,8 @@ Total comparisons: 8. Return -1.
 | 3         | 5   | 6    | 5   | 23     | 23 < 25, low = 6  |
 | 4         | 6   | 6    | 6   | 38     | 38 > 25, high = 5 |
 | 5         | 6   | 5    |,   |,      | low > high → -1   |
+
+</div>
 
 4 comparisons. Result: -1.
 
@@ -417,11 +441,15 @@ until a match is found.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 7        | 7 ≠ 14     | 1     |
 | 2    | 1     | 3        | 3 ≠ 14     | 2     |
 | 3    | 2     | 14       | 14 = 14 ✓  | 3     |
+
+</div>
 
 3 comparisons are made. The value 14 is found at index 2. The algorithm returns 2.
 
@@ -441,6 +469,8 @@ The value 5 is not in the array, so the algorithm must check every single elemen
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison | Count |
 | ---- | ----- | -------- | ---------- | ----- |
 | 1    | 0     | 10       | 10 ≠ 5     | 1     |
@@ -452,6 +482,8 @@ The value 5 is not in the array, so the algorithm must check every single elemen
 | 7    | 6     | 70       | 70 ≠ 5     | 7     |
 | 8    | 7     | 80       | 80 ≠ 5     | 8     |
 | 9    | 8     | 90       | 90 ≠ 5     | 9     |
+
+</div>
 
 9 comparisons are made. The value 5 is not found, so the algorithm returns -1. This is the worst
 Case for an array of 9 elements, every element must be checked.
@@ -473,11 +505,15 @@ Range accordingly.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action            |
 | --------- | --- | ---- | --- | ------ | ----------------- |
 | 1         | 0   | 9    | 4   | 35     | 35 < 42, low = 5  |
 | 2         | 5   | 9    | 7   | 58     | 58 > 42, high = 6 |
 | 3         | 5   | 6    | 5   | 42     | Found! Return 5   |
+
+</div>
 
 3 comparisons are made. The value 42 is found at index 5.
 
@@ -497,12 +533,16 @@ and then terminate with low > high.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Action             |
 | --------- | --- | ---- | --- | ------ | ------------------ |
 | 1         | 0   | 7    | 3   | 14     | 14 < 15, low = 4   |
 | 2         | 4   | 7    | 5   | 22     | 22 > 15, high = 4  |
 | 3         | 4   | 4    | 4   | 18     | 18 > 15, high = 3  |
 | 4         | 4   | 3    |,   |,      | low > high, return |
+
+</div>
 
 4 comparisons are made. The value 15 is not in the array, so the algorithm returns -1.
 
@@ -581,12 +621,16 @@ $\lfloor x \rfloor$ means the greatest integer less than or equal to $x$.
 
 Using $\lfloor \log_2 n \rfloor + 1$:
 
+<div class="table-wrap">
+
 | $n$       | $\log_2 n$ | $\lfloor \log_2 n \rfloor$ | Max comparisons |
 | --------- | ---------- | -------------------------- | --------------- |
 | 15        | 3.91       | 3                          | 3 + 1 = **4**   |
 | 100       | 6.64       | 6                          | 6 + 1 = **7**   |
 | 500       | 8.97       | 8                          | 8 + 1 = **9**   |
 | 1,000,000 | 19.93      | 19                         | 19 + 1 = **20** |
+
+</div>
 
 This demonstrates the power of logarithmic growth: searching through a million elements requires
 only 20 comparisons maximum.
@@ -660,12 +704,16 @@ The array has 11 elements (indices 0–10). Start with low = 0, high = 10. The f
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Iteration | low | high | mid | A[mid] | Comparison | Action          |
 | --------- | --- | ---- | --- | ------ | ---------- | --------------- |
 | 1         | 0   | 10   | 5   | 20     | 20 > 17    | high = 4        |
 | 2         | 0   | 4    | 2   | 12     | 12 < 17    | low = 3         |
 | 3         | 3   | 4    | 3   | 15     | 15 < 17    | low = 4         |
 | 4         | 4   | 4    | 4   | 17     | 17 = 17 ✓  | Found! Return 4 |
+
+</div>
 
 4 comparisons are made. The value 17 is found at index 4.
 
@@ -706,11 +754,15 @@ Sorted.
 
 **Summary:**
 
+<div class="table-wrap">
+
 | Scenario              | Data size | Sorted? | Best algorithm | Max comparisons |
 | --------------------- | --------- | ------- | -------------- | --------------- |
 | (a) ISBN lookup       | 20,000    | Yes     | Binary search  | 15              |
 | (b) Recently returned | 50        | No      | Linear search  | 50              |
 | (c) Price lookup      | 20,000    | Yes     | Binary search  | 15              |
+
+</div>
 
 </details>
 

@@ -74,11 +74,15 @@ Even though the constructor does not assign it.
 
 TypeScript supports three access modifiers: `public`, `private` and `protected`.
 
+<div class="table-wrap">
+
 | Modifier    | Accessibility                                            |
 | ----------- | -------------------------------------------------------- |
 | `public`    | Accessible from anywhere (default)                       |
 | `private`   | Accessible only within the declaring class               |
 | `protected` | Accessible within the declaring class and its subclasses |
+
+</div>
 
 ```ts
 class Account {
@@ -295,6 +299,8 @@ class UserFactory implements Deserializable<User> {
 
 ### Interface vs Abstract Class
 
+<div class="table-wrap">
+
 | Feature                 | Interface                                       | Abstract Class                             |
 | ----------------------- | ----------------------------------------------- | ------------------------------------------ |
 | Multiple implementation | A class can implement many interfaces           | A class can extend only one abstract class |
@@ -302,6 +308,8 @@ class UserFactory implements Deserializable<User> {
 | Constructor             | No constructor                                  | Can have a constructor                     |
 | Method implementations  | All methods are abstract (no body)              | Can mix abstract and concrete methods      |
 | Access modifiers        | No access modifiers on members                  | Supports `public``private``protected`      |
+
+</div>
 
 ## Static Members and Static Factory Patterns
 

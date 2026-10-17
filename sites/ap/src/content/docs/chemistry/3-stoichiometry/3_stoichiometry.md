@@ -36,12 +36,16 @@ The mole is defined such that the molar mass of carbon-12 is exactly 12 g/mol.
 The molar mass of a substance is the mass of one mole, expressed in g/mol. It is numerically equal
 to the atomic/molecular formula mass in amu.
 
+<div class="table-wrap">
+
 | Substance                              | Molar Mass (g/mol) |
 | -------------------------------------- | ------------------ |
 | H$_2$O                                 | 18.02              |
 | NaCl                                   | 58.44              |
 | $\mathrm{CaCO_3$                       | 100.09             |
 | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ | 180.16             |
+
+</div>
 
 ### Conversions
 
@@ -586,6 +590,8 @@ $$
 
 ### Solubility Rules
 
+<div class="table-wrap">
+
 | Soluble                                     | Exceptions                                                        |
 | ------------------------------------------- | ----------------------------------------------------------------- |
 | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$ | None                                                              |
@@ -594,12 +600,18 @@ $$
 | Chlorides ($\mathrm{Cl^-$)                  | $\mathrm{Ag^+$$\mathrm{Pb^{2+}$$\mathrm{Hg_2^{2+}$                |
 | Sulfates ($\mathrm{SO_4^{2-}$)              | $\mathrm{Ba^{2+}$$\mathrm{Pb^{2+}$$\mathrm{Ca^{2+}$$\mathrm{Ag^+$ |
 
+</div>
+
+<div class="table-wrap">
+
 | Insoluble                        | Exceptions                                                                    |
 | -------------------------------- | ----------------------------------------------------------------------------- |
 | Hydroxides ($\mathrm{OH^-$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{Ba^{2+}$$\mathrm{Ca^{2+}$ (slightly)      |
 | Carbonates ($\mathrm{CO_3^{2-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Phosphates ($\mathrm{PO_4^{3-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Sulfides ($\mathrm{S^{2-}$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$$\mathrm{Ca^{2+}$$\mathrm{Ba^{2+}$ |
+
+</div>
 
 ### Strong Acids and Bases
 
@@ -624,6 +636,8 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 
 ## Summary Table: Solubility Rules Quick Reference
 
+<div class="table-wrap">
+
 | Ion Type          | Generally Soluble With These Exceptions:                   |
 | ----------------- | ---------------------------------------------------------- |
 | Group 1, NH$_4^+$ | No exceptions (always soluble)                             |
@@ -636,7 +650,11 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 | Phosphates        | Group 1, NH$_4^+$ (soluble); rest insoluble                |
 | Sulfides          | Group 1, NH$_4^+$Ca$^{2+}$Ba$^{2+}$ (soluble)              |
 
+</div>
+
 ## Summary Table: Common Gas Law Relationships
+
+<div class="table-wrap">
 
 | Law          | Variables  | Constant | Relationship                   |
 | ------------ | ---------- | -------- | ------------------------------ |
@@ -647,6 +665,8 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 | Ideal Gas    | P, V, n, T | none     | $PV = nRT$                     |
 | Combined     | P, V, T    | n        | $P_1 V_1/T_1 = P_2 V_2/T_2$    |
 | Dalton's     | P$_i$      | V, T     | $P_{\mathrm{total} = \sum P_i$ |
+
+</div>
 
 ## Common Pitfalls
 

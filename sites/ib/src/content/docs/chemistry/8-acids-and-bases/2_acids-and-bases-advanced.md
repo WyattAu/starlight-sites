@@ -240,11 +240,15 @@ $$
 
 The observed colour depends on the ratio $[\mathrm{In}^-]/[\mathrm{HIn}]$:
 
+<div class="table-wrap">
+
 | Condition                                       | Dominant species | Colour observed |
 | ----------------------------------------------- | ---------------- | --------------- |
 | $\mathrm{pH} \ll \mathrm{p}K_{\mathrm{In}}$     | $\mathrm{HIn}$   | Acid colour     |
 | $\mathrm{pH} \approx \mathrm{p}K_{\mathrm{In}}$ | Both present     | Transition      |
 | $\mathrm{pH} \gg \mathrm{p}K_{\mathrm{In}}$     | $\mathrm{In}^-$  | Base colour     |
+
+</div>
 
 ### Effective Range
 
@@ -258,6 +262,8 @@ $$
 
 The indicator's transition range should overlap with the equivalence point of the titration.
 
+<div class="table-wrap">
+
 | Titration type           | Equivalence point pH | Suitable indicator    |
 | ------------------------ | -------------------- | --------------------- |
 | Strong acid--strong base | $\mathrm{pH} = 7$    | Bromothymol blue      |
@@ -265,13 +271,19 @@ The indicator's transition range should overlap with the equivalence point of th
 | Weak acid--strong base   | $\mathrm{pH} \gt 7$  | Phenolphthalein       |
 | Weak acid--weak base     | No sharp change      | No suitable indicator |
 
+</div>
+
 ### Common Indicators
+
+<div class="table-wrap">
 
 | Indicator        | $\mathrm{pH}$ range | Acid colour | Base colour |
 | ---------------- | ------------------- | ----------- | ----------- |
 | Methyl orange    | $3.1$--$4.4$        | Red         | Yellow      |
 | Bromothymol blue | $6.0$--$7.6$        | Yellow      | Blue        |
 | Phenolphthalein  | $8.3$--$10.0$       | Colourless  | Pink        |
+
+</div>
 
 ---
 
@@ -318,6 +330,8 @@ $$
 
 ### Environmental Effects
 
+<div class="table-wrap">
+
 | Effect             | Mechanism                                                               |
 | ------------------ | ----------------------------------------------------------------------- |
 | Soil acidification | Leaches $\mathrm{Ca}^{2+}$, $\mathrm{Mg}^{2+}$ Releases $\mathrm{Al}^{3+}$ |
@@ -325,6 +339,8 @@ $$
 | Plant damage       | Damages leaves, inhibits root growth                                    |
 | Building corrosion | $\mathrm{CaCO}_3$ (limestone/marble) reacts with acid                   |
 | Respiratory issues | Fine sulfate/nitrate particles irritate lungs                           |
+
+</div>
 
 ### Mitigation
 
@@ -362,6 +378,8 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 
 ### Common $K_{sp}$ Values
 
+<div class="table-wrap">
+
 | Compound            | $K_{sp}$              |
 | ------------------- | --------------------- |
 | $\mathrm{AgCl}$     | $1.8 \times 10^{-10}$ |
@@ -371,6 +389,8 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 | $\mathrm{CaCO}_3$   | $3.4 \times 10^{-9}$  |
 | $\mathrm{PbI}_2$    | $7.1 \times 10^{-9}$  |
 | $\mathrm{Mg(OH)}_2$ | $1.8 \times 10^{-11}$ |
+
+</div>
 
 ### Solubility Calculations
 :::
@@ -421,11 +441,15 @@ $$
 Q = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
 $$
 
+<div class="table-wrap">
+
 | Condition      | Result                       |
 | -------------- | ---------------------------- |
 | $Q \lt K_{sp}$ | No precipitate (unsaturated) |
 | $Q = K_{sp}$   | Saturated, at equilibrium    |
 | $Q \gt K_{sp}$ | Precipitate forms            |
+
+</div>
 
 ### Common Pitfalls
 

@@ -158,6 +158,8 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 
 ### 5.8 Summary of Key Formulas
 
+<div class="table-wrap">
+
 | Concept | Formula |
 | --------- | --------- |
 | Riemannian metric | $g = g_{ij} dx^i \otimes dx^j$ |
@@ -167,6 +169,8 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / ( \| v \| ^2 \| w \| ^2 - \langle v,w\rangle^2)$ |
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
+
+</div>
 
 ## Intuition
 

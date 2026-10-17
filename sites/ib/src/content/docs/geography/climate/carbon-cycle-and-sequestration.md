@@ -36,6 +36,8 @@ Inorganic carbon (carbonate rocks, dissolved inorganic carbon in the ocean), and
 
 ### Natural Carbon Fluxes
 
+<div class="table-wrap">
+
 | Flux                                            | Magnitude (GtC/year)             | Description                                                                                                                                                             |
 | ----------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Gross primary productivity (photosynthesis)** | Approximately 120                | Plants absorb $\mathrm{CO_2}$ from the atmosphere and convert it to organic carbon                                                                                      |
@@ -44,13 +46,19 @@ Inorganic carbon (carbonate rocks, dissolved inorganic carbon in the ocean), and
 | **Volcanic outgassing**                         | Approximately 0.1                | Release of $\mathrm{CO_2}$ from volcanic activity and mid-ocean ridges                                                                                                  |
 | **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$ Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
 
+</div>
+
 ### Anthropogenic Carbon Fluxes
+
+<div class="table-wrap">
 
 | Source                                              | Magnitude (GtC/year, 2023) | Proportion of Total |
 | --------------------------------------------------- | -------------------------- | ------------------- |
 | **Fossil fuel combustion and industrial processes** | Approximately 10.8         | Approximately 89%   |
 | **Land-use change (deforestation, agriculture)**    | Approximately 1.3          | Approximately 11%   |
 | **Total anthropogenic emissions**                   | Approximately 12.1         | 100%                |
+
+</div>
 
 ### Carbon Sinks
 
@@ -205,11 +213,15 @@ is reduced over time, driving progressively deeper emission cuts.
 
 **Major emissions trading systems:**
 
+<div class="table-wrap">
+
 | System                                   | Region                                    | Coverage                                                                                    | Price (2023)                                        |
 | ---------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **EU Emissions Trading System (EU ETS)** | European Union (plus EEA and Switzerland) | Power generation, heavy industry, aviation (approximately 40% of EU emissions)              | Approximately EUR 80--100 per tonne $\mathrm{CO_2}$ |
 | **California Cap-and-Trade**             | California, USA                           | Power generation, industry, transportation fuel (approximately 80% of California emissions) | Approximately USD 30--35 per tonne $\mathrm{CO_2}$  |
 | **China National ETS**                   | China                                     | Power sector (approximately 30% of China's emissions)                                       | Approximately CNY 60--80 per tonne $\mathrm{CO_2}$  |
+
+</div>
 
 ### Carbon Offset Markets
 

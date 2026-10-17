@@ -24,12 +24,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper       | Notes                                                       |
 | ---------- | ----------- | ----------------------------------------------------------- |
 | AQA        | Paper 2     | Complex numbers, matrices, series, proof                    |
 | Edexcel    | FP1         | Complex numbers, matrices, polar coords, proof by induction |
 | OCR (A)    | Pure Core 1 | Complex numbers, matrices, polar coords, hyperbolic         |
 | CIE (9709) | Paper 3     | Complex numbers, polars, further calculus, induction        |
+
+</div>
 
 :::note
 Mathematics. You must be confident with all Core Pure topics before tackling these.
@@ -169,12 +173,16 @@ $|A| \neq 0$).
 A matrix $M$ represents a linear transformation. The image of point $(x, y)$ is
 $M\begin{pmatrix} x \\ y \end{pmatrix}$.
 
+<div class="table-wrap">
+
 | Transformation                  | Matrix                                                                              |
 | ------------------------------- | ----------------------------------------------------------------------------------- |
 | Reflection in $y = x$           | $\begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$                                      |
 | Rotation $\theta$ anticlockwise | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Enlargement scale factor $k$    | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$                                      |
 | Reflection in $x$-axis          | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$                                     |
+
+</div>
 
 **Area scale factor** $= |\det(M)|$.
 
@@ -309,12 +317,16 @@ Given $r = f(\theta)$:
 
 **Common curves:**
 
+<div class="table-wrap">
+
 | Equation                | Shape                                |
 | ----------------------- | ------------------------------------ |
 | $r = a$                 | Circle, radius $a$, centre at origin |
 | $r = a\theta$           | Archimedean spiral                   |
 | $r = a(1 + \cos\theta)$ | Cardioid                             |
 | $r^2 = a^2\cos 2\theta$ | Lemniscate                           |
+
+</div>
 
 ### 4.3 Area Enclosed by a Polar Curve
 

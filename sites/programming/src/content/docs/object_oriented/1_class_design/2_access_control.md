@@ -29,11 +29,15 @@ Entirely at compile time with zero runtime cost.
 
 A class member can be declared with one of three access specifiers [N4950 S14.3.1]:
 
+<div class="table-wrap">
+
 | Specifier   | Class members | Derived class members | External code |
 | ----------- | :-----------: | :-------------------: | :-----------: |
 | `public`    |      Yes      |          Yes          |      Yes      |
 | `protected` |      Yes      |          Yes          |      No       |
 | `private`   |      Yes      |          No           |      No       |
+
+</div>
 
 Access control is enforced at compile time only; it has zero runtime cost. The access specifier
 Applies to all members declared after it until another access specifier is encountered.
@@ -353,11 +357,15 @@ int main() {
 
 ### Inheritance Access Summary
 
+<div class="table-wrap">
+
 | Base Member Access | Public Inheritance | Protected Inheritance | Private Inheritance |
 | :----------------- | :----------------: | :-------------------: | :-----------------: |
 | `public`           |      `public`      |      `protected`      |      `private`      |
 | `protected`        |    `protected`     |      `protected`      |      `private`      |
 | `private`          |    inaccessible    |     inaccessible      |    inaccessible     |
+
+</div>
 
 **Private inheritance** is not an "is-a" relationship -- it is an "implemented-in-terms-of"
 Relationship. It is used when you want to reuse a base class's implementation without exposing the

@@ -556,11 +556,15 @@ In industry, both yield and atom economy are important. A reaction with high ato
 Yield may waste less material per mole of reactant but produce little product overall. A reaction
 with high yield but low atom economy produces a lot of waste. The best processes maximise both.
 
+<div class="table-wrap">
+
 | Reaction                                         | Atom Economy | Comment                      |
 | ------------------------------------------------ | ------------ | ---------------------------- |
 | Addition (e.g. H$_2$ + Cl$_2$ $\to$ 2HCl)        | 100%         | No waste products            |
 | Decomposition (CaCO$_3$ $\to$ CaO + CO$_2$)      | 56%          | CO$_2$ is waste              |
 | Displacement (Fe + CuSO$_4$ $\to$ FeSO$_4$ + Cu) | 100%         | All atoms end up in products |
+
+</div>
 
 ## 6. The Mole and Gas Volumes in Calculations
 
@@ -964,6 +968,8 @@ $$
 
 ## 11. Summary Table: Key Equations
 
+<div class="table-wrap">
+
 | Quantity                 | Equation                                                               | Units      |
 | ------------------------ | ---------------------------------------------------------------------- | ---------- |
 | Moles from mass          | $n = m / M_r$                                                          | mol        |
@@ -975,6 +981,8 @@ $$
 | Dilution                 | $c_1 V_1 = c_2 V_2$                                                    | various    |
 | Percentage yield         | $\frac{\mathrm{actual}{\mathrm{theoretical} \times 100\%$              | %          |
 | Atom economy             | $\frac{M_r\mathrm{(desired)}{\sum M_r\mathrm{(products)} \times 100\%$ | %          |
+
+</div>
 
 ## Practice Problems
 

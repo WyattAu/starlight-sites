@@ -95,6 +95,8 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 (a) With $\Delta x = 0.5$ Starting at $(0, 1)$:
 
+<div class="table-wrap">
+
 | Step | $x$ | $y$  | $y' = x + y$ | $y_{\text{new} = y + 0.5 \cdot y'$ |
 | ---- | --- | ---- | ------------ | ---------------------------------- |
 | 0    | 0   | 1    | 1            | 1.5                                |
@@ -102,9 +104,13 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 | 2    | 1.0 | 2.5  | 3.5          | 4.25                               |
 | 3    | 1.5 | 4.25 | 5.75         | 7.125                              |
 
+</div>
+
 Approximation: $y(2) \approx 7.125$.
 
 With $\Delta x = 0.25$ Starting at $(0, 1)$:
+
+<div class="table-wrap">
 
 | Step | $x$  | $y$         | $y' = x + y$ | $y_{\text{new}$ |
 | ---- | ---- | ----------- | ------------ | --------------- |
@@ -116,6 +122,8 @@ With $\Delta x = 0.25$ Starting at $(0, 1)$:
 | 5    | 1.25 | 3.853515625 | 5.103515625  | 5.129394531     |
 | 6    | 1.5  | 5.129394531 | 6.629394531  | 6.786743164     |
 | 7    | 1.75 | 6.786743164 | 8.536743164  | 8.920428955     |
+
+</div>
 
 Approximation: $y(2) \approx 8.920$.
 
@@ -376,12 +384,16 @@ as $t \to \infty$?
 
 Let $f(y) = y(y-2)^2(y+1)$. Test the sign of $f(y)$ in each region:
 
+<div class="table-wrap">
+
 | Region           | Test point | $f(y)$ sign               | Behavior   |
 | ---------------- | ---------- | ------------------------- | ---------- |
 | $y \lt -1$       | $y = -2$   | $(-2)(16)(-1) > 0$        | Increasing |
 | $-1 \lt y \lt 0$ | $y = -0.5$ | $(-0.5)(6.25)(0.5) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$  | $y = 1$    | $(1)(1)(2) > 0$           | Increasing |
 | $y > 2$          | $y = 3$    | $(3)(1)(4) > 0$           | Increasing |
+
+</div>
 
 Stability classification:
 

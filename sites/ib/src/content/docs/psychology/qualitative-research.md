@@ -23,6 +23,8 @@ Quantitative and qualitative research represent fundamentally different approach
 human behaviour. They are rooted in different epistemological assumptions about the nature of
 knowledge and how it can be obtained.
 
+<div class="table-wrap">
+
 | Dimension        | Quantitative Research                                                                                    | Qualitative Research                                                                                                                                                |
 | ---------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Epistemology     | Positivism: knowledge is objective, measurable, and discovered through scientific method                 | Interpretivism / constructivism: knowledge is subjective, context-dependent, and co-constructed by researcher and participant                                       |
@@ -33,6 +35,8 @@ knowledge and how it can be obtained.
 | Sampling         | Large, representative samples; random or stratified sampling                                             | Small, purposive samples; participants selected for their ability to provide rich, relevant data                                                                    |
 | Validity         | Measured in terms of internal and external validity, reliability, and objectivity                        | Evaluated in terms of credibility, transferability, dependability, and confirmability (Lincoln and Guba, 1985)                                                      |
 | Generalisability | Findings are generalised to the broader population through statistical inference                         | Findings are not intended to be statistically generalised; instead, the goal is to develop rich, context-specific understanding that may inform theory and practice |
+
+</div>
 
 ### Epistemology
 
@@ -265,12 +269,16 @@ validity of the findings by converging evidence from different sources.
 
 ### Types of Triangulation
 
+<div class="table-wrap">
+
 | Type                       | Description                                                                      | Example                                                                                            |
 | -------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Method triangulation       | Using multiple research methods to study the same phenomenon                     | Combining interviews with observation and document analysis in a study of classroom behaviour      |
 | Data triangulation         | Using multiple data sources (different participants, settings, or time points)   | Interviewing teachers, students, and parents about the same school policy                          |
 | Investigator triangulation | Using multiple researchers to collect or analyse data, to reduce individual bias | Having two researchers independently code interview transcripts and comparing their coding schemes |
 | Theoretical triangulation  | Interpreting the data from multiple theoretical perspectives                     | Analysing interview data about stress from both cognitive and biological perspectives              |
+
+</div>
 
 Triangulation does not guarantee validity. Different methods may produce conflicting findings, which
 itself can be informative and theoretically productive. The goal of triangulation is not to achieve

@@ -30,12 +30,16 @@ $$
 
 The **coherence length**: $l_c = c\tau_c = \lambda^2/\Delta\lambda$.
 
+<div class="table-wrap">
+
 | Source           | $\Delta\lambda$   | $l_c$            |
 | ---------------- | ----------------- | ---------------- |
 | White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$ M |
 | Na D line        | $\sim 0.6$ nm     | $\sim 0.5$ mm    |
 | He-Ne laser      | $\sim 0.002$ nm   | $\sim 20$ cm     |
 | Stabilised laser | $\sim 10^{-6}$ nm | $\sim 400$ km    |
+
+</div>
 
 ### 16.2 Spatial Coherence
 
@@ -76,12 +80,16 @@ $$
 
 ### 16.4 Key Relationships
 
+<div class="table-wrap">
+
 | Coherence property | Measured by                 | Determined by               | Typical value                |
 | ------------------ | --------------------------- | --------------------------- | ---------------------------- |
 | Temporal           | Coherence time $\tau_c$     | Source bandwidth $\Delta\nu$ | $10^{-9}$ s (white light)    |
 | Temporal           | Coherence length $l_c$      | Source bandwidth $\Delta\lambda$ | $1.5\ \mu$m (white light) |
 | Spatial            | Coherence area $A_c$        | Source size and distance    | $(\lambda R / w)^2$          |
 | Mutual coherence   | $\Gamma_{12}(\tau)$         | Both spatial and temporal   | Depends on source geometry   |
+
+</div>
 
 ### 16.5 Common Pitfalls
 
@@ -171,5 +179,5 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Common Pitfalls in Optics](/4-optics-and-waves/18_common-pitfalls/) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 

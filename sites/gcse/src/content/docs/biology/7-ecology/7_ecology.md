@@ -78,11 +78,15 @@ A population of rabbits lives in a grassland. The population size is affected by
 
 Organisms are adapted to their environment through natural selection. Adaptations can be:
 
+<div class="table-wrap">
+
 | Type        | Description           | Example                                              |
 | ----------- | --------------------- | ---------------------------------------------------- |
 | Structural  | Physical features     | Thick fur in Arctic animals, spines on cacti         |
 | Behavioural | Ways organisms behave | Hibernation, migration, nocturnal activity           |
 | Functional  | Internal processes    | Producing venom, efficient kidneys in desert animals |
+
+</div>
 
 **Extremophiles:** Organisms adapted to extreme environments, such as:
 
@@ -156,12 +160,16 @@ one type of predator.
 
 Each step in a food chain is a **trophic level**:
 
+<div class="table-wrap">
+
 | Trophic Level | Organism           | Example |
 | ------------- | ------------------ | ------- |
 | 1             | Producer           | Grass   |
 | 2             | Primary consumer   | Rabbit  |
 | 3             | Secondary consumer | Fox     |
 | 4             | Tertiary consumer  | Eagle   |
+
+</div>
 
 ### 2.3 Pyramids of Number, Biomass, and Energy
 
@@ -314,12 +322,16 @@ Organisms and would be unavailable for producers.
 
 **Factors affecting the rate of decomposition:**
 
+<div class="table-wrap">
+
 | Factor              | Effect                                            |
 | ------------------- | ------------------------------------------------- |
 | Temperature         | Higher temperature increases rate (up to optimum) |
 | Water content       | Too dry or too wet slows decomposition            |
 | Oxygen availability | Aerobic decomposition is faster than anaerobic    |
 | pH                  | Extreme pH slows decomposition                    |
+
+</div>
 
 **Why temperature matters.** Decomposition is carried out by enzymes in bacteria and fungi. Like all
 Enzymes, these work faster at higher temperatures (up to their optimum) because the substrate
@@ -369,12 +381,16 @@ because the triple bond between the two nitrogen atoms is very strong.
 
 **Summary table: nitrogen cycle bacteria.**
 
+<div class="table-wrap">
+
 | Process           | Bacteria                  | Conversion                                           | Conditions        |
 | ----------------- | ------------------------- | ---------------------------------------------------- | ----------------- |
 | Nitrogen fixation | Rhizobium, Azotobacter    | $\mathrm{N_2 \to \mathrm{NH_3$                       | Aerobic           |
 | Nitrification     | Nitrosomonas, Nitrobacter | $\mathrm{NH_3 \to \mathrm{NO_2^- \to \mathrm{NO_3^-$ | Aerobic           |
 | Denitrification   | Pseudomonas, Thiobacillus | $\mathrm{NO_3^- \to \mathrm{N_2$                     | Anaerobic         |
 | Ammonification    | Various decomposers       | Organic N $\to \mathrm{NH_3$                         | Aerobic/anaerobic |
+
+</div>
 
 ## 4. Biodiversity and Human Impact
 
@@ -429,6 +445,8 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 
 ### 4.2 Threats to Biodiversity
 
+<div class="table-wrap">
+
 | Threat                           | Description                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------------- |
 | Deforestation                    | Destruction of habitats for agriculture, logging, urbanisation               |
@@ -439,7 +457,11 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 | Overexploitation                 | Overfishing, hunting, collecting                                             |
 | Introduction of invasive species | Non-native species outcompete native species for resources                   |
 
+</div>
+
 ### 4.3 Maintaining Biodiversity
+
+<div class="table-wrap">
 
 | Method                  | Description                                                   |
 | ----------------------- | ------------------------------------------------------------- |
@@ -451,6 +473,8 @@ Habitat 2 has a higher index of diversity (3.06 vs 1.23), confirming it has grea
 | Reducing pollution      | Regulations on emissions, waste disposal, pesticide use       |
 | Recycling               | Reduces the demand for raw materials and landfill             |
 | Education               | Raising public awareness about biodiversity                   |
+
+</div>
 
 ### 4.4 Trophic Levels and Toxins
 
@@ -741,11 +765,15 @@ Quality of the environment.
 Lichens are symbiotic organisms composed of a fungus and an alga. They are sensitive to air
 Pollution, particularly sulphur dioxide ($\mathrm{SO_2$).
 
+<div class="table-wrap">
+
 | Lichen type             | Pollution sensitivity | Environment indicator              |
 | ----------------------- | --------------------- | ---------------------------------- |
 | Crusty lichens          | Most tolerant         | Found in moderately polluted areas |
 | Leafy lichens           | Moderately sensitive  | Found in cleaner air               |
 | Bushy (shrubby) lichens | Most sensitive        | Found only in clean air            |
+
+</div>
 
 If bushy lichens are present, the air is clean. If only crusty lichens are present, the air is
 Polluted. If no lichens are present at all, the air is very heavily polluted.
@@ -754,6 +782,8 @@ Polluted. If no lichens are present at all, the air is very heavily polluted.
 
 The species of invertebrates found in a river or stream indicate the level of water pollution.
 
+<div class="table-wrap">
+
 | Indicator species             | Pollution sensitivity | What it indicates            |
 | ----------------------------- | --------------------- | ---------------------------- |
 | Stonefly larvae               | Very sensitive        | Clean, well-oxygenated water |
@@ -761,6 +791,8 @@ The species of invertebrates found in a river or stream indicate the level of wa
 | Freshwater shrimp             | Fairly sensitive      | Moderately clean water       |
 | Bloodworms (red midge larvae) | Tolerant              | Polluted, low-oxygen water   |
 | Rat-tailed maggots            | Very tolerant         | Severely polluted water      |
+
+</div>
 
 If stonefly larvae are found, the water is clean. If only bloodworms and rat-tailed maggots are
 Found, the water is severely polluted with organic waste (e.g., sewage).

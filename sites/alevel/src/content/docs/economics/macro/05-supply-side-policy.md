@@ -373,6 +373,8 @@ The Nordic model is a strong evaluative point for any board.
 
 ### 4.1 Comparison: Market-Oriented vs Interventionist
 
+<div class="table-wrap">
+
 | Criterion                  | Market-oriented                                               | Interventionist                                 |
 | -------------------------- | ------------------------------------------------------------- | ----------------------------------------------- |
 | Speed of impact            | Variable (tax cuts fast, institutional reform slow)           | Slow (education, infrastructure take years)     |
@@ -380,6 +382,8 @@ The Nordic model is a strong evaluative point for any board.
 | Risk of government failure | Low (less government intervention)                            | High (picking winners, corruption)              |
 | Equity implications        | May increase inequality (benefit the wealthy/entrepreneurial) | Can promote equity (education, regional policy) |
 | Effectiveness depends on   | Market flexibility, institutional quality                     | Quality of implementation, targeting            |
+
+</div>
 
 **Deeper analysis: when does each approach work best?**
 
@@ -421,6 +425,8 @@ Supply-side policy. All boards reward nuanced answers that recognise context mat
 
 ### 4.2 Supply-Side vs Demand-Side Policy
 
+<div class="table-wrap">
+
 | Feature          | Demand-side                        | Supply-side                              |
 | ---------------- | ---------------------------------- | ---------------------------------------- |
 | Objective        | Manage AD to stabilise the cycle   | Increase productive capacity             |
@@ -428,6 +434,8 @@ Supply-side policy. All boards reward nuanced answers that recognise context mat
 | Effect on output | Temporary (only closes output gap) | Permanent (raises potential output)      |
 | Effect on prices | Demand-pull inflation if overdone  | Deflationary (increases supply)          |
 | Phillips curve   | Moves along SRPC                   | Shifts SRPC left (lower $u^*$ and $\pi$) |
+
+</div>
 
 **The ideal policy mix**: Use demand-side policy to stabilise the economy in the short run, and
 Supply-side policy to raise living standards in the long run. The two are complementary, not
@@ -562,6 +570,8 @@ This "productivity puzzle" has been attributed to:
 
 ### 5.4 International Comparisons
 
+<div class="table-wrap">
+
 | Country     | Labour productivity growth (2008–2019) | Key supply-side strengths                                |
 | ----------- | -------------------------------------- | -------------------------------------------------------- |
 | South Korea | 2.2%                                   | Education, R&D, export-oriented manufacturing            |
@@ -569,6 +579,8 @@ This "productivity puzzle" has been attributed to:
 | UK          | 0.4%                                   | Financial services, creative industries, universities    |
 | France      | 0.7%                                   | Infrastructure, high-speed rail, nuclear energy          |
 | US          | 1.3%                                   | Technology sector, venture capital, university research  |
+
+</div>
 
 The UK lags behind comparable economies, suggesting scope for improvement through supply-side
 Reforms that learn from international best practice.
@@ -782,6 +794,8 @@ $$
 
 **Revenue at different tax rates:**
 
+<div class="table-wrap">
+
 | Tax rate $t$ | Tax base $B$ | Revenue $R$ |
 | :----------: | :----------: | :---------: |
 |     20%      |     840      |    168.0    |
@@ -791,6 +805,8 @@ $$
 |    62.5%     |     500      |    312.5    |
 |     70%      |     440      |    308.0    |
 |     80%      |     360      |    288.0    |
+
+</div>
 
 **Policy implications:**
 
@@ -917,11 +933,15 @@ New SRAS: $Y = 3P - b$. At $(200, 600)$: $600 = 600 - b \Rightarrow b = 0$. New 
 
 **Comparison:**
 
+<div class="table-wrap">
+
 |             | Before              | After supply-side policy |
 | ----------- | ------------------- | ------------------------ |
 | Price level | 240                 | 200                      |
 | Real GDP    | 520                 | 600                      |
 | Output gap  | +120 (inflationary) | 0                        |
+
+</div>
 
 Supply-side policy increased output by 80 AND reduced the price level by 40. This is the unique
 advantage of supply-side policy: it simultaneously addresses inflation and growth.
@@ -1193,6 +1213,8 @@ social return on investment for each level.
 
 **Data (approximate, UK):**
 
+<div class="table-wrap">
+
 | Qualification      | Cost to government per student | Earnings premium (annual) | Years of work | Private NPV (3.5% discount) | Social NPV (including tax) |
 | ------------------ | :----------------------------: | :-----------------------: | :-----------: | :-------------------------: | :------------------------: |
 | No qualifications  |               0                |       0 (baseline)        |      --       |              0              |             0              |
@@ -1201,6 +1223,8 @@ social return on investment for each level.
 | Degree (level 6)   |             95,000             |          20,000           |      40       |           90,000            |          160,000           |
 | Master's (level 7) |            110,000             |          30,000           |      38       |           100,000           |          175,000           |
 | PhD (level 8)      |            160,000             |          25,000           |      35       |           50,000            |          120,000           |
+
+</div>
 
 **Social NPV** includes the additional tax revenue generated by higher earners (income tax + NIC).
 At the additional tax rate of approximately 30%, the social return is significantly higher than the

@@ -392,6 +392,8 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Singular values are eigenvalues | no | they are the square roots of the eigenvalues of $A^TA$, which are not eigenvalues of $A$; for a non-symmetric $A$ they differ |
@@ -402,6 +404,8 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 | A large condition number means the answer is wrong | no | it means the answer may be *sensitive*; the computed solution can still be accurate if the data is exact |
 | Truncating the SVD loses information | yes, and that is the point | the rank-$k$ truncation is the closest rank-$k$ matrix there is, so what is lost is the part that is least well determined |
 | The pseudoinverse is computed by inverting $A$ | no | it is computed from the SVD by inverting the non-zero singular values, which works when $A$ is not invertible at all |
+
+</div>
 
 The first row is the most common confusion, and it is worth being precise:
 for a symmetric positive semidefinite $A$ the singular values and eigenvalues

@@ -26,6 +26,8 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 
 ### Basic Gates
 
+<div class="table-wrap">
+
 | Operation | Symbol                 | Definition                           |
 | --------- | ---------------------- | ------------------------------------ |
 | AND       | $A \cdot B$            | $1$ iff both $A = 1$ and $B = 1$     |
@@ -35,9 +37,13 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | NAND      | $\overline{A \cdot B}$ | NOT of AND                           |
 | NOR       | $\overline{A + B}$     | NOT of OR                            |
 
+</div>
+
 ### Truth Tables
 
 **AND ($\cdot$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A \cdot B$ |
 | --- | --- | ----------- |
@@ -46,7 +52,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
+</div>
+
 **OR ($+$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A + B$ |
 | --- | --- | ------- |
@@ -55,14 +65,22 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1       |
 | 1   | 1   | 1       |
 
+</div>
+
 **NOT ($\bar{\phantom{A}}$):**
+
+<div class="table-wrap">
 
 | $A$ | $\bar{A}$ |
 | --- | --------- |
 | 0   | 1         |
 | 1   | 0         |
 
+</div>
+
 **XOR ($\oplus$):**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $A \oplus B$ |
 | --- | --- | ------------ |
@@ -71,7 +89,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
+</div>
+
 **NAND:**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $\overline{A \cdot B}$ |
 | --- | --- | ---------------------- |
@@ -80,7 +102,11 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 1                      |
 | 1   | 1   | 0                      |
 
+</div>
+
 **NOR:**
+
+<div class="table-wrap">
 
 | $A$ | $B$ | $\overline{A + B}$ |
 | --- | --- | ------------------ |
@@ -89,11 +115,15 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | 1   | 0   | 0                  |
 | 1   | 1   | 0                  |
 
+</div>
+
 <hr />
 
 ## 2. Boolean Algebra Laws
 
 ### Fundamental Identities
+
+<div class="table-wrap">
 
 | Law                        | Expression                                                    |
 | -------------------------- | ------------------------------------------------------------- |
@@ -112,6 +142,8 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | Absorption                 | $A + A \cdot B = A$; $A \cdot (A + B) = A$                    |
 | Double negation            | $\bar{\bar{A}} = A$                                           |
 
+</div>
+
 ### De Morgan's Laws
 
 **Theorem (De Morgan's Laws).** For all Boolean variables $A, B$:
@@ -121,12 +153,16 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 
 **Proof by truth table (Law 1):**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $A+B$ | $\overline{A+B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A}\cdot\bar{B}$ |
 | --- | --- | ----- | ---------------- | --------- | --------- | --------------------- |
 | 0   | 0   | 0     | 1                | 1         | 1         | 1                     |
 | 0   | 1   | 1     | 0                | 1         | 0         | 0                     |
 | 1   | 0   | 1     | 0                | 0         | 1         | 0                     |
 | 1   | 1   | 1     | 0                | 0         | 0         | 0                     |
+
+</div>
 
 Columns 4 and 7 are identical. $\square$
 
@@ -335,12 +371,16 @@ A **half adder** adds two single bits, producing a sum and carry.
 
 **Truth table:**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | Sum | Carry |
 | --- | --- | --- | ----- |
 | 0   | 0   | 0   | 0     |
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 **Derivation:** From the truth table:
 
@@ -355,6 +395,8 @@ A **full adder** adds three bits (two inputs + carry-in), producing sum and carr
 
 **Truth table:**
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
 | 0   | 0   | 0        | 0   | 0         |
@@ -365,6 +407,8 @@ A **full adder** adds three bits (two inputs + carry-in), producing sum and carr
 | 1   | 0   | 1        | 0   | 1         |
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
+
+</div>
 
 **Derivation:**
 
@@ -425,10 +469,14 @@ Adders (carry-lookahead, carry-select) reduce this to $O(\log n)$.
 A **D-type flip-flop** (D-FF) stores one bit of data. On the rising edge of the clock signal, the
 Output $Q$ takes the value of the input $D$.
 
+<div class="table-wrap">
+
 | $D$ | $Q_{next}$ (on clock edge) |
 | --- | -------------------------- |
 | 0   | 0                          |
 | 1   | 1                          |
+
+</div>
 
 **Characteristic equation:** $Q_{next} = D$
 
@@ -476,12 +524,16 @@ $\bar{B}$ And $\bar{A} + \bar{B}$.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | $A$ | $B$ | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A}+\bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ----------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                 |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                 |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                 |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                 |
+
+</div>
 
 Columns 4 and 7 are identical. ✓
 

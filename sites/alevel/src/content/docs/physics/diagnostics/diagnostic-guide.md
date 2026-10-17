@@ -26,6 +26,8 @@ deep misconceptions.
 
 ## Topic Coverage Map
 
+<div class="table-wrap">
+
 | #   | File                                           | Topic                          | Section              |
 | --- | ---------------------------------------------- | ------------------------------ | -------------------- |
 | 1   | `diag-quantities-units.md`                     | Quantities and Units           | Mechanics            |
@@ -48,6 +50,8 @@ deep misconceptions.
 | 18  | `diag-electromagnetism-unification.md`         | Electromagnetism Unification   | Fields               |
 | 19  | `diag-radioactivity.md`                        | Radioactivity                  | Nuclear and Particle |
 | 20  | `diag-nuclear-energy.md`                       | Nuclear Energy                 | Nuclear and Particle |
+
+</div>
 
 ## Prerequisite Chains
 
@@ -92,6 +96,8 @@ Radioactivity
 Integration tests explicitly combine two or more topics. The following matrix shows which topics
 appear in integration tests across the suite:
 
+<div class="table-wrap">
+
 | Primary Topic           | Integration Partners                  |
 | ----------------------- | ------------------------------------- |
 | Quantities and Units    | Kinematics, Dynamics                  |
@@ -115,11 +121,15 @@ appear in integration tests across the suite:
 | Radioactivity           | Nuclear Energy, Quantities and Units  |
 | Nuclear Energy          | Radioactivity, Gravitational Fields   |
 
+</div>
+
 ## Grading Rubric
 
 ### Per-Question Scoring
 
 Each question (unit or integration) is scored on a 0--4 scale:
+
+<div class="table-wrap">
 
 | Score | Descriptor                                                   |
 | ----- | ------------------------------------------------------------ |
@@ -129,9 +139,13 @@ Each question (unit or integration) is scored on a 0--4 scale:
 | 3     | Correct method, minor arithmetical or notational error       |
 | 4     | Fully correct solution with appropriate working and sig figs |
 
+</div>
+
 ### Diagnostic Classification
 
 For each topic test (6 questions, max 24 marks):
+
+<div class="table-wrap">
 
 | Total Score | Classification  | Interpretation                                         |
 | ----------- | --------------- | ------------------------------------------------------ |
@@ -140,6 +154,8 @@ For each topic test (6 questions, max 24 marks):
 | 13--17      | **Developing**  | Core concepts present but inconsistent application     |
 | 8--12       | **Emerging**    | Significant gaps; foundational revision needed         |
 | 0--7        | **Not Started** | Major revision required; return to prerequisite topics |
+
+</div>
 
 ### Unit vs Integration Analysis
 
@@ -158,6 +174,8 @@ For each topic test (6 questions, max 24 marks):
 5. Use the prerequisite chains to identify whether a low score stems from an earlier topic.
 
 ## Key Misconceptions Index
+
+<div class="table-wrap">
 
 | Topic                | Misconception                                  | Diagnostic Test |
 | -------------------- | ---------------------------------------------- | --------------- |
@@ -201,6 +219,8 @@ For each topic test (6 questions, max 24 marks):
 | Radioactivity        | Beta decay neutrino                            | UT-3            |
 | Nuclear Energy       | Binding energy per nucleon curve               | UT-2            |
 | Nuclear Energy       | Mass defect = binding energy                   | UT-1            |
+
+</div>
 
 ## Summary
 

@@ -27,6 +27,8 @@ Probability distributions.
 
 ## Notations
 
+<div class="table-wrap">
+
 | Symbol            | Meaning                                      |
 | ----------------- | -------------------------------------------- |
 | $P(A)$            | Probability of event $A$                     |
@@ -37,6 +39,8 @@ Probability distributions.
 | $A \subseteq B$   | $A$ is a subset of $B$                       |
 | $\emptyset$       | Empty set (impossible event)                 |
 | $S$ or $\Omega$   | Sample space (universal set of all outcomes) |
+
+</div>
 
 ## Basic Probability and Sample Spaces
 
@@ -1050,12 +1054,16 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
 | [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
 | [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
+
+</div>
 
 ======= 3. Confusing the domain and range of functions, or not considering restrictions (e.g.,
 denominator cannot be zero).

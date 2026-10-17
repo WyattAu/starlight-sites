@@ -39,6 +39,8 @@ interact and respond to change.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                                   | Definition                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | **Drainage basin**                     | The area of land drained by a river and its tributaries, bounded by a watershed                      |
@@ -62,6 +64,8 @@ interact and respond to change.
 | **Hydrosphere**                        | All the water on or near the Earth's surface                                                         |
 | **Atmosphere**                         | The layer of gases surrounding the Earth                                                             |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -80,6 +84,8 @@ interact and respond to change.
 The global water cycle is a closed system, no water enters or leaves (in significant quantities).
 The major stores are:
 
+<div class="table-wrap">
+
 | Store                 | Volume (km³)  | Percentage |
 | --------------------- | ------------- | ---------- |
 | Oceans                | 1,338,000,000 | 96.5%      |
@@ -88,6 +94,8 @@ The major stores are:
 | Surface water         | 189,000       | 0.014%     |
 | Atmosphere            | 12,900        | 0.001%     |
 | Biosphere             | 1,120         | 0.0001%    |
+
+</div>
 
 **Key flows** in order of magnitude: surface runoff, evaporation, precipitation, groundwater flow,
 transpiration.
@@ -164,6 +172,8 @@ is at field capacity.
 
 The carbon cycle is also a closed system at the global scale. Major stores:
 
+<div class="table-wrap">
+
 | Store                                  | Carbon (Gt C) |
 | -------------------------------------- | ------------- |
 | Ocean (dissolved inorganic)            | 38,000        |
@@ -172,6 +182,8 @@ The carbon cycle is also a closed system at the global scale. Major stores:
 | Soil                                   | 1,500         |
 | Atmosphere (as CO₂)                    | 750           |
 | Vegetation (biomass)                   | 560           |
+
+</div>
 
 **Key flows**: photosynthesis, respiration, decomposition, combustion, ocean-atmosphere exchange,
 weathering, volcanic outgassing.

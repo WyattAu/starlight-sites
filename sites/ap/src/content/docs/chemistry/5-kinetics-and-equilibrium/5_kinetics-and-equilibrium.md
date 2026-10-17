@@ -57,11 +57,15 @@ Reaction is first order in A. If doubling [A] quadruples the rate, it is second 
 :::note[Example]
 Determine the rate law from the following data for $2\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | Experiment | [A] (M) | [B] (M) | Initial Rate (M/s) |
 | ---------- | ------- | ------- | ------------------ |
 | 1          | 0.10    | 0.10    | 0.0020             |
 | 2          | 0.20    | 0.10    | 0.0040             |
 | 3          | 0.10    | 0.20    | 0.0080             |
+
+</div>
 
 Comparing 1 and 2: [A] doubles, rate doubles $\implies$ first order in A ($m = 1$).
 
@@ -78,12 +82,16 @@ $0.0020 = k(0.10)(0.10)^2 \implies k = 2.0 \mathrm{ M^{-2}\mathrm{s^{-1}$.
 
 Determine the rate law from the following data for $\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | Experiment | [A] (M) | [B] (M) | Rate (M/s) |
 | ---------- | ------- | ------- | ---------- |
 | 1          | 0.10    | 0.20    | 0.0040     |
 | 2          | 0.20    | 0.20    | 0.0080     |
 | 3          | 0.20    | 0.40    | 0.0080     |
 | 4          | 0.40    | 0.20    | 0.0160     |
+
+</div>
 
 Comparing 1 and 2: [A] doubles, rate doubles. First order in A.
 
@@ -133,11 +141,15 @@ $$
 
 ### Identifying the Order
 
+<div class="table-wrap">
+
 | Order  | Linear Plot             | Slope |
 | ------ | ----------------------- | ----- |
 | Zero   | [A] vs $t$              | $-k$  |
 | First  | $\ln[\mathrm{A]$ vs $t$ | $-k$  |
 | Second | $1/[\mathrm{A]$ vs $t$  | $k$   |
+
+</div>
 :::
 
 :::note[Example]
@@ -186,11 +198,15 @@ A **reaction mechanism** is a sequence of elementary steps that sum to the overa
 
 ### Molecularity
 
+<div class="table-wrap">
+
 | Molecularity | Description             | Rate Law                                           |
 | ------------ | ----------------------- | -------------------------------------------------- |
 | Unimolecular | One molecule reacts     | Rate = $k[\mathrm{A]$                              |
 | Bimolecular  | Two molecules collide   | Rate = $k[\mathrm{A][\mathrm{B]$                   |
 | Termolecular | Three molecules collide | Rate = $k[\mathrm{A][\mathrm{B][\mathrm{C]$ (rare) |
+
+</div>
 
 ### Rate-Determining Step
 
@@ -361,17 +377,23 @@ $$
 
 $Q$ has the same form as $K$ but uses current (non-equilibrium) concentrations.
 
+<div class="table-wrap">
+
 | Comparison | Result                       |
 | ---------- | ---------------------------- |
 | $Q \lt K$  | Reaction proceeds forward    |
 | $Q = K$    | System is at equilibrium     |
 | $Q \gt K$  | Reaction proceeds in reverse |
 
+</div>
+
 ## Le Chatelier's Principle (CED Unit 7)
 
 If a stress is applied to a system at equilibrium, the system shifts to counteract the stress.
 
 ### Types of Stress
+
+<div class="table-wrap">
 
 | Stress                                   | Shift Direction           | Effect on $K$ |
 | ---------------------------------------- | ------------------------- | ------------- |
@@ -383,6 +405,8 @@ If a stress is applied to a system at equilibrium, the system shifts to countera
 | Increase temperature (exothermic)        | Toward reactants          | Decreases     |
 | Increase pressure (by decreasing volume) | Toward fewer moles of gas | None          |
 | Add catalyst                             | No shift                  | None          |
+
+</div>
 
 **Key point:** Only temperature changes affect the value of $K$.
 :::
@@ -407,11 +431,15 @@ $448^\circ\mathrm{C$:
 If $1.00 \mathrm{ M  \mathrm{H_2$ and $1.00 \mathrm{ M  \mathrm{I_2$ are mixed, find [HI] at
 Equilibrium.
 
+<div class="table-wrap">
+
 | Species       | Initial | Change | Equilibrium |
 | ------------- | ------- | ------ | ----------- |
 | $\mathrm{H_2$ | 1.00    | $-x$   | $1.00 - x$  |
 | $\mathrm{I_2$ | 1.00    | $-x$   | $1.00 - x$  |
 | $\mathrm{HI$  | 0       | $+2x$  | $2x$        |
+
+</div>
 
 $$
 K_c = \frac{(2x)^2}{(1.00 - x)^2} = 50.5
@@ -435,11 +463,15 @@ For $\mathrm{PCl_5(g) \rightleftharpoons \mathrm{PCl_3(g) + \mathrm{Cl_2(g)$, $K
 $500 \mathrm{ K$. If $2.00 \mathrm{ M  \mathrm{PCl_5$ is placed in a flask, find all equilibrium
 Concentrations.
 
+<div class="table-wrap">
+
 | Species         | Initial | Change | Equilibrium |
 | --------------- | ------- | ------ | ----------- |
 | $\mathrm{PCl_5$ | 2.00    | $-x$   | $2.00 - x$  |
 | $\mathrm{PCl_3$ | 0       | $+x$   | $x$         |
 | $\mathrm{Cl_2$  | 0       | $+x$   | $x$         |
+
+</div>
 
 $$
 K_c = \frac{x^2}{2.00 - x} = 0.0420
@@ -547,11 +579,15 @@ The common ion effect reduces solubility by a factor of about 7,600.
 
 ## Summary Table: Rate Laws
 
+<div class="table-wrap">
+
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |
 | ----- | ----------------------------------------- | -------------------- | ------------------------------ | ----------------------- |
 | 0     | $[\mathrm{A] = -kt + [\mathrm{A]_0$       | $[\mathrm{A]_0/(2k)$ | $\mathrm{M s^{-1}$             | $[\mathrm{A]$ vs $t$    |
 | 1     | $\ln[\mathrm{A] = -kt + \ln[\mathrm{A]_0$ | $0.693/k$            | $\mathrm{s^{-1}$               | $\ln[\mathrm{A]$ vs $t$ |
 | 2     | $1/[\mathrm{A] = kt + 1/[\mathrm{A]_0$    | $1/(k[\mathrm{A]_0)$ | $\mathrm{M^{-1}\mathrm{s^{-1}$ | $1/[\mathrm{A]$ vs $t$  |
+
+</div>
 
 ### Worked Example: Mechanism with Fast Equilibrium
 
@@ -574,13 +610,19 @@ This matches the experimental rate law with $k = k_2 K$.
 
 ## Summary Table: Rate Laws
 
+<div class="table-wrap">
+
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |
 | ----- | ----------------------------------------- | -------------------- | ------------------------------ | ----------------------- |
 | 0     | $[\mathrm{A] = -kt + [\mathrm{A]_0$       | $[\mathrm{A]_0/(2k)$ | $\mathrm{M s^{-1}$             | $[\mathrm{A]$ vs $t$    |
 | 1     | $\ln[\mathrm{A] = -kt + \ln[\mathrm{A]_0$ | $0.693/k$            | $\mathrm{s^{-1}$               | $\ln[\mathrm{A]$ vs $t$ |
 | 2     | $1/[\mathrm{A] = kt + 1/[\mathrm{A]_0$    | $1/(k[\mathrm{A]_0)$ | $\mathrm{M^{-1}\mathrm{s^{-1}$ | $1/[\mathrm{A]$ vs $t$  |
 
+</div>
+
 ## Summary Table: Factors Affecting Reaction Rate
+
+<div class="table-wrap">
 
 | Factor         | Effect on Rate | Explanation                                                        |
 | -------------- | -------------- | ------------------------------------------------------------------ |
@@ -591,7 +633,11 @@ This matches the experimental rate law with $k = k_2 K$.
 | Pressure (gas) | Increases      | Higher concentration = more collisions                             |
 | Light (photo)  | May increase   | Provides energy to overcome $E_a$ via photon absorption            |
 
+</div>
+
 ## Summary Table: Le Chatelier's Principle
+
+<div class="table-wrap">
 
 | Stress Applied               | Direction of Shift | Effect on $K$ |
 | ---------------------------- | ------------------ | ------------- |
@@ -603,6 +649,8 @@ This matches the experimental rate law with $k = k_2 K$.
 | Increase temperature (exo.)  | Toward reactants   | Decreases     |
 | Decrease volume              | Fewer gas moles    | None          |
 | Add catalyst                 | No shift           | None          |
+
+</div>
 
 ## Common Pitfalls
 
@@ -631,11 +679,15 @@ This matches the experimental rate law with $k = k_2 K$.
 
 2. The following data were collected for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | [A] (M) | [B] (M) | Rate (M/s) |
 | ------- | ------- | ---------- |
 | 0.10    | 0.10    | 0.0030     |
 | 0.20    | 0.10    | 0.0060     |
 | 0.20    | 0.20    | 0.0240     |
+
+</div>
 
 Determine the rate law and rate constant.
 
@@ -730,11 +782,15 @@ Determine the rate law and rate constant.
 For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ The following initial rate data were
 Collected:
 
+<div class="table-wrap">
+
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial Rate (M/s) |
 | ----------------- | ----------------- | ------------------ |
 | 0.10              | 0.10              | 0.0020             |
 | 0.20              | 0.10              | 0.0040             |
 | 0.10              | 0.20              | 0.0080             |
+
+</div>
 
 Determine the rate law, the overall order, and the rate constant $k$.
 
@@ -773,11 +829,15 @@ dissociation of $\mathrm{PCl_5$.
 
 ICE table (pressures in atm):
 
+<div class="table-wrap">
+
 |     | $\mathrm{PCl_5$ | $\mathrm{PCl_3$ | $\mathrm{Cl_2$ |
 | --- | --------------- | --------------- | -------------- |
 | I   | 2.00            | 0               | 0              |
 | C   | $-x$            | $+x$            | $+x$           |
 | E   | $2.00 - x$      | $x$             | $x$            |
+
+</div>
 
 $K_p = \frac{P_{\mathrm{PCl_3} \cdot P_{\mathrm{Cl_2}}{P_{\mathrm{PCl_5}} = \frac{x \cdot x}{2.00 - x} = 1.05$
 

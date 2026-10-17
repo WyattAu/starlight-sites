@@ -109,12 +109,16 @@ able to say what it does.
 
 Sections are marked so you can see how deep a given page goes:
 
+<div class="table-wrap">
+
 | Mark | Meaning |
 | ---- | ------- |
 | **F** Foundation | Definitions and first examples. Assumed later. |
 | **U** Undergraduate | The standard degree-level treatment, with proofs. |
 | **A** Advanced | Graduate-level: the machinery needed for research. |
 | **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
 
 A fresh undergraduate should read every **F** and **U** on a topic, then the
 **A** sections of the topics they intend to specialise in. **R** sections assume

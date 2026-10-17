@@ -29,6 +29,8 @@ SAT reading study notes - Comprehension
 
 ## Question Type Strategy
 
+<div class="table-wrap">
+
 | Question Type | Signal Words | Strategy |
 | --------------- | ------------- | ---------- |
 | Main idea | "primary purpose", "central claim" | Find the thesis; check first/last paragraph |
@@ -37,6 +39,8 @@ SAT reading study notes - Comprehension
 | Purpose | "the author includes X to" | Ask why that detail serves the argument |
 | Tone | "the author's attitude" | Look at word choice (connotations) |
 | Vocabulary | "as used in line X", "most nearly means" | Replace the word in context; test each option |
+
+</div>
 
 ## Worked Examples
 

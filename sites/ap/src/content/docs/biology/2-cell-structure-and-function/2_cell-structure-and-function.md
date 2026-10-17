@@ -28,6 +28,8 @@ categories:
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic          | Eukaryotic                       |
 | ------------------------- | -------------------- | -------------------------------- |
 | Nucleus                   | No (nucleoid region) | Yes, membrane-bound              |
@@ -37,6 +39,8 @@ categories:
 | Ribosomes                 | 70S (smaller)        | 80S (larger)                     |
 | Cell division             | Binary fission       | Mitosis, meiosis                 |
 | Examples                  | Bacteria, Archaea    | Plants, animals, fungi, protists |
+
+</div>
 
 **Worked Example: Distinguishing prokaryotic and eukaryotic features.**
 
@@ -75,6 +79,8 @@ The cell membrane is a fluid mosaic of:
 
 ### Membrane Transport
 
+<div class="table-wrap">
+
 | Type                                    | Direction                   | Energy Required?   | Mediator                |
 | --------------------------------------- | --------------------------- | ------------------ | ----------------------- |
 | Simple diffusion                        | High to low conc.           | No                 | None                    |
@@ -83,6 +89,8 @@ The cell membrane is a fluid mosaic of:
 | Active transport                        | Low to high conc.           | Yes (ATP)          | Pump                    |
 | Cotransport (secondary)                 | Low to high conc.           | Yes (ion gradient) | Carrier protein         |
 | Bulk transport (exocytosis/endocytosis) | Various                     | Yes (ATP)          | Vesicles                |
+
+</div>
 
 ### Osmosis and Tonicity
 
@@ -532,11 +540,15 @@ the cell. This demonstrates how the Golgi apparatus sorts proteins to different 
 
 In multicellular organisms, cells are connected by specialised junctions:
 
+<div class="table-wrap">
+
 | Junction Type   | Function                                              | Found In                             |
 | --------------- | ----------------------------------------------------- | ------------------------------------ |
 | Tight junctions | Form seals between adjacent cells, preventing leakage | Epithelial cells (intestine, kidney) |
 | Desmosomes      | Strong anchoring junctions, like rivets               | Skin, heart muscle                   |
 | Gap junctions   | Channels between cells for direct communication       | Heart muscle, embryos                |
+
+</div>
 
 Tight junctions prevent substances from passing between cells (forcing them through the cells
 Themselves, which can regulate transport). Desmosomes provide mechanical strength to tissues under
@@ -723,6 +735,8 @@ Multiple drugs to prevent resistance.
 
 ## Review: Detailed Comparison of Cell Junctions
 
+<div class="table-wrap">
+
 | Feature           | Tight Junctions                 | Desmosomes                                      | Gap Junctions                    |
 | ----------------- | ------------------------------- | ----------------------------------------------- | -------------------------------- |
 | Structure         | Fusion of outer membrane layers | Disc-shaped plaques with intermediate filaments | Protein channels (connexins)     |
@@ -730,7 +744,11 @@ Multiple drugs to prevent resistance.
 | What passes       | Nothing (seal)                  | Mechanical stress                               | Ions, small molecules, signals   |
 | Location examples | Intestinal epithelium           | Skin, heart muscle                              | Cardiac muscle, embryonic tissue |
 
+</div>
+
 ## Review: Summary Table of Organelle Functions
+
+<div class="table-wrap">
 
 | Organelle       | Function                                            | Found In                |
 | --------------- | --------------------------------------------------- | ----------------------- |
@@ -747,6 +765,8 @@ Multiple drugs to prevent resistance.
 | Cell wall       | Structural support, protection                      | Plants, fungi, bacteria |
 | Centrioles      | Organise microtubules, mitotic spindle              | Animals                 |
 | Plasmodesmata   | Intercellular communication in plants               | Plants                  |
+
+</div>
 
 ## Practice Problems
 
@@ -870,6 +890,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -877,6 +899,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 
 ## Intuition
 

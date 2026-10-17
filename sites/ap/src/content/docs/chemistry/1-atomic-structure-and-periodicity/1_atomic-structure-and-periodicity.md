@@ -25,6 +25,8 @@ categories:
 
 ### Key Historical Developments
 
+<div class="table-wrap">
+
 | Scientist   | Contribution                                                         |
 | ----------- | -------------------------------------------------------------------- |
 | Dalton      | Atomic theory: all matter composed of indivisible atoms              |
@@ -34,6 +36,8 @@ categories:
 | de Broglie  | Wave-particle duality: $\lambda = \frac{h}{mv}$                      |
 | Heisenberg  | Uncertainty principle: $\Delta x \cdot \Delta p \ge \frac{h}{4\pi}$  |
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
+
+</div>
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
 not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
@@ -60,11 +64,15 @@ $10^{-10} \mathrm{ m$. This confirms that the nucleus is extremely small compare
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Mass (amu) | Charge | Location        |
 | -------- | ---------- | ------ | --------------- |
 | Proton   | 1.0073     | +1     | Nucleus         |
 | Neutron  | 1.0087     | 0      | Nucleus         |
 | Electron | 0.000549   | -1     | Outside nucleus |
+
+</div>
 
 The nucleus contains over 99.9% of the atom's mass but occupies only about $10^{-12}$ of its volume.
 The electron cloud defines the size of the atom, with a typical radius of about
@@ -308,11 +316,15 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 
 ### Spectral Series
 
+<div class="table-wrap">
+
 | Series  | Transition | Region      |
 | ------- | ---------- | ----------- |
 | Lyman   | $n_f = 1$  | Ultraviolet |
 | Balmer  | $n_f = 2$  | Visible     |
 | Paschen | $n_f = 3$  | Infrared    |
+
+</div>
 
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
 $n_f$ Where the energy difference approaches a maximum value.
@@ -396,6 +408,8 @@ $Z_{\mathrm{eff}$ remains approximately constant.
 
 ### Key Periodic Trends
 
+<div class="table-wrap">
+
 | Property           | Across a Period (L to R) | Down a Group        |
 | ------------------ | ------------------------ | ------------------- |
 | Atomic radius      | Decreases                | Increases           |
@@ -403,6 +417,8 @@ $Z_{\mathrm{eff}$ remains approximately constant.
 | Electron affinity  | Generally increases      | Generally decreases |
 | Electronegativity  | Increases                | Decreases           |
 | Metallic character | Decreases                | Increases           |
+
+</div>
 
 ### Ionization Energy
 
@@ -497,11 +513,15 @@ Effectively than 3d electrons, giving them a lower energy when both subshells ar
 
 ### Summary Table: Period 3 Trends
 
+<div class="table-wrap">
+
 | Element            | Na   | Mg   | Al   | Si   | P    | S    | Cl   | Ar   |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Atomic radius (pm) | 186  | 160  | 143  | 117  | 110  | 104  | 99   | --   |
 | IE$_1$ (kJ/mol)    | 496  | 738  | 578  | 786  | 1012 | 1000 | 1251 | 1521 |
 | Electronegativity  | 0.93 | 1.31 | 1.61 | 1.90 | 2.19 | 2.58 | 3.16 | --   |
+
+</div>
 
 Note the dip in IE from Mg to Al (s to p) and from P to S (half-filled stability to pairing
 Repulsion).
@@ -513,6 +533,8 @@ Repulsion).
 Atoms or ions with unpaired electrons are **paramagnetic** (attracted to a magnetic field). Those
 with all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
 
+<div class="table-wrap">
+
 | Species   | Unpaired Electrons | Magnetic Behavior |
 | --------- | ------------------ | ----------------- |
 | Na        | 1                  | Paramagnetic      |
@@ -520,6 +542,8 @@ with all electrons paired are **diamagnetic** (weakly repelled by a magnetic fie
 | Fe$^{3+}$ | 5                  | Paramagnetic      |
 | Zn$^{2+}$ | 0                  | Diamagnetic       |
 | O$_2$     | 2                  | Paramagnetic      |
+
+</div>
 
 ### Worked Example: Magnetic Properties
 
@@ -546,6 +570,8 @@ For main group elements, valence electrons are those in the outermost s and p su
 Transition metals, the valence electrons include the outermost s electrons and the d electrons of
 the highest occupied d subshell.
 
+<div class="table-wrap">
+
 | Element | Configuration                | Valence Electrons |
 | ------- | ---------------------------- | ----------------- |
 | Sc      | $[\mathrm{Ar]\,4s^2 3d^1$    | 3                 |
@@ -553,9 +579,13 @@ the highest occupied d subshell.
 | Fe      | $[\mathrm{Ar]\,4s^2 3d^6$    | 8                 |
 | Cu      | $[\mathrm{Ar]\,4s^1 3d^{10}$ | 11                |
 
+</div>
+
 ### Common Oxidation States of Transition Metals
 
 Transition metals can lose different numbers of electrons, giving multiple oxidation states.
+
+<div class="table-wrap">
 
 | Element | Common Oxidation States |
 | ------- | ----------------------- |
@@ -563,6 +593,8 @@ Transition metals can lose different numbers of electrons, giving multiple oxida
 | Fe      | +2, +3                  |
 | Cu      | +1, +2                  |
 | Cr      | +2, +3, +6              |
+
+</div>
 
 ### Worked Example: Transition Metal Ion Configurations
 
@@ -604,6 +636,8 @@ the increase in $Z_{\mathrm{eff}$.
 
 ## Summary Table: Periodic Trends Explained
 
+<div class="table-wrap">
+
 | Trend             | Direction                  | Explanation                                                       |
 | ----------------- | -------------------------- | ----------------------------------------------------------------- |
 | Atomic radius     | Decreases L to R           | Increasing $Z_{\mathrm{eff}$ pulls electrons closer               |
@@ -613,6 +647,8 @@ the increase in $Z_{\mathrm{eff}$.
 | Electron affinity | Generally increases L to R | Greater $Z_{\mathrm{eff}$ increases attraction for added electron |
 | Electronegativity | Increases L to R           | Greater $Z_{\mathrm{eff}$ increases pull on bonding electrons     |
 | Electronegativity | Decreases top to bottom    | Greater distance from nucleus reduces pull on bonding electrons   |
+
+</div>
 
 ## Common Pitfalls
 

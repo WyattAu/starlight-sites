@@ -22,11 +22,15 @@ pedestrians lawfully in the intersection.
 
 ## Steady Indications
 
+<div class="table-wrap">
+
 | Indication | Meaning | Correct response |
 |-----------|---------|------------------|
 | Solid red | Stop before stop line/crosswalk | Full stop; right-turn-on-red where legal and safe after stop |
 | Solid yellow | Signal is about to turn red | Stop if you can do so safely; proceed only if too close to stop |
 | Solid green | Go, after yielding to pedestrians and remaining traffic | Scan left-right-left before entering |
+
+</div>
 
 Yellow-light decision-making is the most-tested signal scenario: if
 you are approaching at speed and can stop comfortably behind the line,
@@ -94,6 +98,8 @@ appears in nearly every state exam.
 
 ## Quick Recall Table
 
+<div class="table-wrap">
+
 | Question pattern | Answer |
 |-----------------|--------|
 | Flashing red | Full stop, then proceed as stop sign |
@@ -104,8 +110,12 @@ appears in nearly every state exam.
 | Red X overhead | Lane closed, leave it |
 | Officer directing | Obey the officer |
 
+</div>
+
 
 ## Signal Catalog
+
+<div class="table-wrap">
 
 | Indication | Meaning |
 |------------|---------|
@@ -120,7 +130,11 @@ appears in nearly every state exam.
 | Red X overhead | Lane closed |
 | Dark signal | Treat as all-way stop |
 
+</div>
+
 ## Answer-Pattern Drill
+
+<div class="table-wrap">
 
 | Question mentions... | Answer... |
 |---------------------|-----------|
@@ -130,3 +144,5 @@ appears in nearly every state exam.
 | Officer waving | Officer overrides all controls |
 | Ramp meter red | Wait, merge on green |
 | Flashing yellow arrow | Yield to oncoming, turn when clear |
+
+</div>

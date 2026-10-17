@@ -131,6 +131,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 
 **Frameworks by language:**
 
+<div class="table-wrap">
+
 | Language | Framework | Assertion Library |
 | ---------- | ----------- | ------------------- |
 | JavaScript/TypeScript | Jest, Vitest, Mocha | Jest assertions, Chai |
@@ -139,6 +141,8 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 | Go | testing (stdlib) | testify |
 | Rust | built-in (#[test]) | assert!, assert_eq! |
 | C++ | Google Test, Catch2 | built-in assertions |
+
+</div>
 
 **Writing good unit tests:**
 
@@ -209,6 +213,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 
 ### Common Bug Categories
 
+<div class="table-wrap">
+
 | Category | Symptoms | Tools |
 | ---------- | ---------- | ------- |
 | Logic errors | Wrong output, no crash | Debugger, unit tests |
@@ -217,6 +223,8 @@ Debugging is the art of finding and fixing defects in software. It is the most t
 | Memory issues | Leaks, out-of-memory | Memory profilers |
 | Concurrency issues | Race conditions, deadlocks | Thread sanitisers, debuggers |
 | Configuration issues | Works locally, fails in production | Environment comparison tools |
+
+</div>
 
 ---
 
@@ -290,6 +298,8 @@ Code quality tools enforce standards, catch bugs early, and maintain consistency
 
 Linters analyse code for errors, style violations, and potential bugs.
 
+<div class="table-wrap">
+
 | Language | Linter | Configuration |
 | ---------- | -------- | --------------- |
 | JavaScript/TypeScript | ESLint | .eslintrc.json |
@@ -297,6 +307,8 @@ Linters analyse code for errors, style violations, and potential bugs.
 | Go | golangci-lint | .golangci.yml |
 | Rust | Clippy | built-in with Cargo |
 | Java | Checkstyle, SpotBugs | checkstyle.xml |
+
+</div>
 
 ### Formatters
 

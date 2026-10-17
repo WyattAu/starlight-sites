@@ -178,13 +178,19 @@ The Standard Model classifies fundamental particles into:
 
 **Quarks** (six flavours, each with an antiquark):
 
+<div class="table-wrap">
+
 | Generation | Up-type   | Charge | Down-type   | Charge |
 | ---------- | --------- | ------ | ----------- | ------ |
 | 1          | Up (u)    | $+2/3$ | Down (d)    | $-1/3$ |
 | 2          | Charm (c) | $+2/3$ | Strange (s) | $-1/3$ |
 | 3          | Top (t)   | $+2/3$ | Bottom (b)  | $-1/3$ |
 
+</div>
+
 **Leptons** (six flavours, each with an antilepton):
+
+<div class="table-wrap">
 
 | Generation | Charged      | Charge | Neutrino          | Charge |
 | ---------- | ------------ | ------ | ----------------- | ------ |
@@ -192,7 +198,11 @@ The Standard Model classifies fundamental particles into:
 | 2          | Muon ($\mu$) | $-1$   | Muon neutrino     | $0$    |
 | 3          | Tau ($\tau$) | $-1$   | Tau neutrino      | $0$    |
 
+</div>
+
 **Gauge Bosons** (force carriers):
+
+<div class="table-wrap">
 
 | Force           | Boson                   | Mass  | Acts on           |
 | --------------- | ----------------------- | ----- | ----------------- |
@@ -200,6 +210,8 @@ The Standard Model classifies fundamental particles into:
 | Strong          | Gluon (g)               | 0     | Quarks, gluons    |
 | Weak            | $W^+, W^-, Z^0$         | Heavy | All fermions      |
 | Gravity         | Graviton (hypothetical) | 0     | All particles     |
+
+</div>
 
 **Higgs Boson:** Gives particles mass via the Higgs mechanism.
 
@@ -550,21 +562,29 @@ $$
 
 Writing with full quark content: $udd \to uud + e^- + \bar{\nu}_e$
 
+<div class="table-wrap">
+
 | Quantity      | Before                                                      | After                                                        | Conserved? |
 | ------------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ---------- |
 | Charge        | $0 + (-\frac{1}{3}) + (-\frac{1}{3}) + (-\frac{1}{3}) = -1$ | $\frac{2}{3} + \frac{2}{3} + (-\frac{1}{3}) + (-1) + 0 = -1$ | Yes        |
 | Baryon number | $3 \times \frac{1}{3} = 1$                                  | $3 \times \frac{1}{3} + 0 + 0 + 0 = 1$                       | Yes        |
 | Lepton number | $0$                                                         | $1 + (-1) = 0$                                               | Yes        |
 
+</div>
+
 ### Worked Example: Pion Decay
 
 A $\pi^-$ meson (quark content $d\bar{u}$) decays: $\pi^- \to \mu^- + \bar{\nu}_\mu$
+
+<div class="table-wrap">
 
 | Quantity      | Before                                 | After          | Conserved? |
 | ------------- | -------------------------------------- | -------------- | ---------- |
 | Charge        | $(-\frac{1}{3}) + (-\frac{2}{3}) = -1$ | $-1 + 0 = -1$  | Yes        |
 | Baryon number | $0 + 0 = 0$                            | $0 + 0 = 0$    | Yes        |
 | Lepton number | $0$                                    | $1 + (-1) = 0$ | Yes        |
+
+</div>
 
 ## 15. Stationary Waves: Extended Analysis
 
@@ -586,6 +606,8 @@ Antinodes at: $0.3 \mathrm{ m, 0.9 \mathrm{ m$ (2 antinodes)
 
 ## 16. Summary Table: Quantum and Wave Formulas
 
+<div class="table-wrap">
+
 | Topic           | Formula                         | Variables              | Notes                |
 | --------------- | ------------------------------- | ---------------------- | -------------------- |
 | Photon energy   | $E = hf = hc/\lambda$           | $h$, $f$, $\lambda$    | Planck's constant    |
@@ -596,6 +618,8 @@ Antinodes at: $0.3 \mathrm{ m, 0.9 \mathrm{ m$ (2 antinodes)
 | Standing wave   | $f_n = nv/(2L)$                 | $n$, $v$, $L$          | String fixed at ends |
 | Closed pipe     | $f_n = nv/(4L)$                 | $n$ odd                | Only odd harmonics   |
 | Doppler (sound) | $f' = fv/(v \pm v_s)$           | $f$, $v$, $v_s$        | Approaching/receding |
+
+</div>
 
 ## 17. Practice Questions (Additional)
 

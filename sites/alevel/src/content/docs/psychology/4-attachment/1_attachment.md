@@ -89,11 +89,15 @@ response to the stranger.
 
 **Three attachment types identified:**
 
+<div class="table-wrap">
+
 | Type                        | Separation anxiety            | Reunion behaviour                      | Stranger anxiety                    | Proportion (US sample) |
 | --------------------------- | ----------------------------- | -------------------------------------- | ----------------------------------- | ---------------------- |
 | Secure (Type B)             | Distressed when parent leaves | Seeks contact and is readily comforted | Wary but can be comforted by parent | ~66%                   |
 | Insecure-avoidant (Type A)  | Shows little distress         | Avoids or ignores parent on return     | Indifferent to stranger             | ~22%                   |
 | Insecure-resistant (Type C) | Very distressed               | Seeks and rejects contact (ambivalent) | Very fearful, cannot be comforted   | ~12%                   |
+
+</div>
 
 **Main and Solomon (1986, 1990)** later identified a fourth type:
 
@@ -220,6 +224,8 @@ adulthood.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                       | Researcher(s)                | Year | Method                                    | Key Findings                                                                            | Evaluation                                                                                 |
 | --------------------------- | ---------------------------- | ---- | ----------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Imprinting                  | Lorenz                       | 1935 | Observation (animals)                     | Goslings imprinted on the first moving object they saw; critical period                 | Ethical concerns (manipulation of animals); cannot generalise from geese to humans         |
@@ -231,7 +237,11 @@ adulthood.
 | Meta-analysis of attachment | Van Ijzendoorn & Kroonenberg | 1988 | Meta-analysis                             | Secure attachment most common across all cultures; cultural variation in insecure types | Large sample across cultures; Strange Situation may not be valid for all cultures          |
 | Love quiz                   | Hazan & Shaver               | 1987 | Self-report (questionnaire)               | Adult attachment type linked to childhood attachment experiences                        | Large sample; correlational; self-report bias; retrospective                               |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                      | Definition                                                                                          |
 | ------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -251,6 +261,8 @@ adulthood.
 | Disinhibited attachment   | Indiscriminate friendliness and lack of social wariness, associated with institutionalisation       |
 | Maternal deprivation      | Prolonged separation from the primary attachment figure during the critical/sensitive period        |
 | Affectionless psychopathy | The inability to feel guilt or form meaningful emotional relationships                              |
+
+</div>
 
 ## Evaluation Points
 

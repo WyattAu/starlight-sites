@@ -29,12 +29,16 @@ tableOfContents: false
 
 Given the following standard electrode potentials:
 
+<div class="table-wrap">
+
 | Half-equation                                                    | $E^\circ / \text{V}$ |
 | ---------------------------------------------------------------- | -------------------- |
 | $\text{Fe}^{3+}(aq) + e^- \rightleftharpoons \text{Fe}^{2+}(aq)$ | $+0.77$              |
 | $\text{Ag}^+(aq) + e^- \rightleftharpoons \text{Ag}(s)$          | $+0.80$              |
 | $\text{Cu}^{2+}(aq) + 2e^- \rightleftharpoons \text{Cu}(s)$      | $+0.34$              |
 | $\text{Zn}^{2+}(aq) + 2e^- \rightleftharpoons \text{Zn}(s)$      | $-0.76$              |
+
+</div>
 
 (a) Calculate the standard cell potential for a cell made from $\text{Zn}/\text{Zn}^{2+}$ and
 $\text{Cu}^{2+}/\text{Cu}$ half-cells. Write the overall cell equation.
@@ -179,6 +183,8 @@ produced at the anode because copper is more oxidised than water or hydroxide io
 Use the following standard electrode potentials to determine which of the following reactions are
 feasible under standard conditions:
 
+<div class="table-wrap">
+
 | Half-equation                                                                                 | $E^\circ / \text{V}$ |
 | --------------------------------------------------------------------------------------------- | -------------------- |
 | $\text{MnO}_4^- + 8\text{H}^+ + 5e^- \rightleftharpoons \text{Mn}^{2+} + 4\text{H}_2\text{O}$ | $+1.51$              |
@@ -186,6 +192,8 @@ feasible under standard conditions:
 | $\text{Cl}_2 + 2e^- \rightleftharpoons 2\text{Cl}^-$                                          | $+1.36$              |
 | $\text{I}_2 + 2e^- \rightleftharpoons 2\text{I}^-$                                            | $+0.54$              |
 | $\text{Br}_2 + 2e^- \rightleftharpoons 2\text{Br}^-$                                          | $+1.07$              |
+
+</div>
 
 (a)
 $\text{MnO}_4^-(aq) + 5\text{Fe}^{2+}(aq) + 8\text{H}^+(aq) \to \text{Mn}^{2+}(aq) + 5\text{Fe}^{3+}(aq) + 4\text{H}_2\text{O}(l)$

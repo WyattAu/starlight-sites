@@ -60,6 +60,8 @@ Maltose.
 The majority of digestion occurs here. **Pancreatic juice** and **bile** are released into the
 Duodenum.
 
+<div class="table-wrap">
+
 | Enzyme             | Source                    | Substrate     | Products               | Optimal pH       |
 | ------------------ | ------------------------- | ------------- | ---------------------- | ---------------- |
 | Pancreatic amylase | Pancreas                  | Starch        | Maltose                | $\approx 7$--$8$ |
@@ -68,6 +70,8 @@ Duodenum.
 | Maltase            | Intestinal wall           | Maltose       | Glucose                | $\approx 7$--$8$ |
 | Lactase            | Intestinal wall           | Lactose       | Glucose + galactose    | $\approx 7$--$8$ |
 | Sucrase            | Intestinal wall           | Sucrose       | Glucose + fructose     | $\approx 7$--$8$ |
+
+</div>
 
 **Bile** (produced in the liver, stored in the gallbladder) emulsifies fats: bile salts break large
 Fat globules into smaller droplets, increasing the surface area for lipase action. Bile is not an
@@ -105,6 +109,8 @@ The **small intestine** is the primary site of absorption. Adaptations for absor
 
 ### Blood Vessels
 
+<div class="table-wrap">
+
 | Feature        | Arteries                 | Veins                               | Capillaries                               |
 | -------------- | ------------------------ | ----------------------------------- | ----------------------------------------- |
 | Wall structure | Thick, muscular, elastic | Thinner, less muscular, with valves | Single layer of endothelial cells         |
@@ -112,6 +118,8 @@ The **small intestine** is the primary site of absorption. Adaptations for absor
 | Pressure       | High                     | Low                                 | Low (drops from arteriolar end)           |
 | Direction      | Away from heart          | Toward heart                        | Between arteries and veins                |
 | Valves         | Absent                   | Present (prevent backflow)          | Absent                                    |
+
+</div>
 
 ### The Heart
 
@@ -137,12 +145,16 @@ Typical resting cardiac output: $\approx 5\;\mathrm{L/min}$.
 
 ### Blood Components
 
+<div class="table-wrap">
+
 | Component                      | Function                                                                                                  |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Red blood cells (erythrocytes) | Transport $\mathrm{O}_2$ (bound to haemoglobin) and $\mathrm{CO}_2$ (as bicarbonate, $\mathrm{HCO}_3^-$). |
 | White blood cells (leucocytes) | Defence: phagocytes (neutrophils, macrophages) engulf pathogens; lymphocytes produce antibodies.          |
 | Platelets (thrombocytes)       | Cell fragments involved in blood clotting (initiate the cascade leading to fibrin mesh formation).        |
 | Plasma                         | Liquid matrix: transports dissolved substances (glucose, amino acids, urea, hormones, antibodies).        |
+
+</div>
 
 ### Haemoglobin and Oxygen Transport
 
@@ -175,6 +187,8 @@ $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
 
 First-line and second-line defences that act regardless of the pathogen.
 
+<div class="table-wrap">
+
 | Barrier / Response | Mechanism                                                                                                                                          |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Skin               | Physical barrier; sebum inhibits microbial growth.                                                                                                 |
@@ -182,6 +196,8 @@ First-line and second-line defences that act regardless of the pathogen.
 | Phagocytes         | Neutrophils and macrophages engulf and digest pathogens by phagocytosis.                                                                           |
 | Inflammation       | Histamine release increases capillary permeability, causing swelling, redness, heat, and pain; increased blood flow brings phagocytes to the site. |
 | Fever              | Elevated body temperature inhibits pathogen replication and enhances immune cell activity.                                                         |
+
+</div>
 
 **Phagocytosis steps**:
 
@@ -255,6 +271,8 @@ Subsequent exposure, memory cells mount a faster and stronger secondary immune r
 The lungs contain millions of **alveoli** (air sacs), the sites of gas exchange between air and
 Blood.
 
+<div class="table-wrap">
+
 | Adaptation                          | Significance                                                                         |
 | ----------------------------------- | ------------------------------------------------------------------------------------ |
 | Large total surface area            | Maximises rate of diffusion ($\approx 70\;\mathrm{m}^2$).                            |
@@ -262,6 +280,8 @@ Blood.
 | Dense capillary network             | Maintains concentration gradient; large blood supply.                                |
 | Moist inner surface                 | Gases dissolve before diffusing across the membrane.                                 |
 | Ventilation (breathing)             | Constantly refreshes air, maintaining $\mathrm{O}_2$ and $\mathrm{CO}_2}$ gradients. |
+
+</div>
 
 ### Diffusion of Gases
 
@@ -273,10 +293,14 @@ Alveolar air ($\mathrm{pCO}_2 \approx 5.3\;\mathrm{kPa}$).
 
 ### Ventilation
 
+<div class="table-wrap">
+
 | Phase           | Muscles involved                                                                          | Volume change             | Pressure change                                     | Air movement  |
 | --------------- | ----------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------- | ------------- |
 | **Inspiration** | External intercostal muscles contract (ribs up and out); diaphragm contracts and flattens | Thoracic volume increases | Intrapulmonary pressure decreases below atmospheric | Air flows in  |
 | **Expiration**  | External intercostal muscles relax; diaphragm relaxes and domes upward                    | Thoracic volume decreases | Intrapulmonary pressure increases above atmospheric | Air flows out |
+
+</div>
 
 ---
 
@@ -367,6 +391,8 @@ Effector cell) where signals are transmitted chemically.
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream, acting on target
 Cells with specific receptors.
 
+<div class="table-wrap">
+
 | Gland               | Hormone(s)                                                    | Function                                                                 |
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Hypothalamus        | Releasing hormones (e.g., GnRH, TRH)                          | Regulate anterior pituitary; connects nervous and endocrine systems      |
@@ -378,24 +404,34 @@ Cells with specific receptors.
 | Pancreas            | Insulin, glucagon                                             | Blood glucose regulation                                                 |
 | Ovaries / Testes    | Oestrogen, progesterone / testosterone                        | Secondary sex characteristics, reproductive cycle                        |
 
+</div>
+
 ### Blood Glucose Regulation
 
 **Normal fasting blood glucose**: $\approx 5\;\mathrm{mmol/L}$.
+
+<div class="table-wrap">
 
 | Condition                                  | Sensor                           | Hormone      | Response                                                                                                                                                                |
 | ------------------------------------------ | -------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Blood glucose **high** (after a meal)      | Beta cells of pancreatic islets  | **Insulin**  | Stimulates uptake of glucose by liver, muscle, and adipose cells; promotes glycogenesis (glycogen synthesis) in the liver; inhibits glycogenolysis and gluconeogenesis. |
 | Blood glucose **low** (fasting / exercise) | Alpha cells of pancreatic islets | **Glucagon** | Stimulates glycogenolysis (glycogen breakdown) in the liver; stimulates gluconeogenesis (synthesis of glucose from non-carbohydrate sources).                           |
 
+</div>
+
 ### Thermoregulation
 
 The **hypothalamus** acts as the body"s thermostat, receiving input from thermoreceptors in the skin
 and core.
 
+<div class="table-wrap">
+
 | Condition                                                   | Mechanisms of Heat Loss                                                                      | Mechanisms of Heat Conservation / Production                                                                                                              |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Body temperature **above** set point ($37^\circ\mathrm{C}$) | Vasodilation of skin blood vessels; sweating (evaporative cooling); decreased metabolic rate | ---                                                                                                                                                       |
 | Body temperature **below** set point                        | Vasoconstriction of skin blood vessels                                                       | Shivering (involuntary muscle contraction); increased metabolic rate (hormonal: thyroxine, adrenaline); piloerection (goosebumps --- vestigial in humans) |
+
+</div>
 
 ---
 
@@ -451,6 +487,8 @@ and core.
 
 ### The Menstrual Cycle
 
+<div class="table-wrap">
+
 | Phase                    | Days (approx.) | Ovarian events                                      | Hormonal changes                                                                      | Uterine events                                             |
 | ------------------------ | -------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Menstruation**         | 1--5           | ---                                                 | Low oestrogen and progesterone                                                        | Endometrium is shed (menstrual flow).                      |
@@ -458,6 +496,8 @@ and core.
 | **Ovulation**            | Day 14         | Mature follicle ruptures; secondary oocyte released | LH surge triggers ovulation; oestrogen peak                                           | ---                                                        |
 | **Luteal phase**         | 15--28         | Ruptured follicle becomes corpus luteum             | Progesterone rises (maintains endometrium); LH and FSH remain low (negative feedback) | Endometrium is maintained; secretes glycogen.              |
 | **(If no implantation)** | Day 28         | Corpus luteum degenerates                           | Oestrogen and progesterone drop                                                       | Endometrium breaks down; cycle restarts.                   |
+
+</div>
 
 ---
 
@@ -788,6 +828,8 @@ Increase in peak titre and the time to peak, and explain the cellular basis for 
 The following data show the percentage saturation of haemoglobin at different partial pressures of
 Oxygen:
 
+<div class="table-wrap">
+
 | $\mathrm{pO}_2$ (kPa) | Normal Hb (%) | Fetal Hb (%) |
 | --------------------- | ------------- | ------------ |
 | 1.0                   | 10            | 30           |
@@ -797,6 +839,8 @@ Oxygen:
 | 8.0                   | 85            | 95           |
 | 10.0                  | 92            | 97           |
 | 13.3                  | 98            | 98           |
+
+</div>
 
 (a) Plot both curves on the same axes. (b) Explain the physiological advantage of fetal haemoglobin
 Having a higher affinity for oxygen at any given $\mathrm{pO}_2$. (c) Calculate the difference in
@@ -843,6 +887,8 @@ Atropine (a muscarinic acetylcholine receptor antagonist) can be used as an anti
 
 The following data show hormone concentrations across a $28$-day menstrual cycle:
 
+<div class="table-wrap">
+
 | Day | Oestrogen (pg/mL) | Progesterone (ng/mL) | LH (mIU/mL) | FSH (mIU/mL) |
 | --- | ----------------- | -------------------- | ----------- | ------------ |
 | 1   | 40                | 0.5                  | 5           | 8            |
@@ -853,6 +899,8 @@ The following data show hormone concentrations across a $28$-day menstrual cycle
 | 21  | 150               | 15.0                 | 5           | 3            |
 | 25  | 80                | 8.0                  | 4           | 5            |
 | 28  | 40                | 1.0                  | 5           | 8            |
+
+</div>
 
 (a) Identify the day of ovulation and justify with reference to the data. (b) Describe the feedback
 Mechanism responsible for the LH surge. (c) Explain why progesterone peaks after oestrogen, and what
@@ -982,6 +1030,8 @@ The glomerular filtration rate (GFR) is approximately $125\;\mathrm{mL/min}$ per
 
 ### Selective Reabsorption
 
+<div class="table-wrap">
+
 | Substance       | Filtered/day              | Reabsorbed (%)     | Excreted/day              | Mechanism                                                                         |
 | --------------- | ------------------------- | ------------------ | ------------------------- | --------------------------------------------------------------------------------- |
 | Water           | $180\;\mathrm{L}$         | $\approx 99\%$     | $\approx 1.5\;\mathrm{L}$ | Osmosis (PCT, descending limb, collecting duct with ADH).                         |
@@ -989,6 +1039,8 @@ The glomerular filtration rate (GFR) is approximately $125\;\mathrm{mL/min}$ per
 | Glucose         | $180\;\mathrm{g}$         | $100\%$ (normally) | $\approx 0\;\mathrm{g}$   | Secondary active transport ($\mathrm{Na}^+$-glucose co-transport, SGLT2, in PCT). |
 | Urea            | $\approx 50\;\mathrm{g}$  | $\approx 50\%$     | $\approx 25\;\mathrm{g}$  | Passive diffusion and some secretion.                                             |
 | Amino acids     | $\approx 65\;\mathrm{g}$  | $\approx 100\%$    | $\approx 1\;\mathrm{g}$   | Secondary active transport with $\mathrm{Na}^+$.                                  |
+
+</div>
 
 ### Osmoregulation and ADH
 
@@ -1096,6 +1148,8 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 
 ### Lung Volumes and Capacities
 
+<div class="table-wrap">
+
 | Volume                               | Definition                                              | Typical value (adult male)                          |
 | ------------------------------------ | ------------------------------------------------------- | --------------------------------------------------- |
 | **Tidal volume (TV)**                | Volume of air inhaled/exhaled during normal breathing   | $\approx 500\;\mathrm{mL}$                          |
@@ -1107,6 +1161,8 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 | **Dead space**                       | Air in conducting airways not involved in gas exchange  | $\approx 150\;\mathrm{mL}$                          |
 | **Minute ventilation**               | TV $\times$ respiratory rate                            | $\approx 7500\;\mathrm{mL/min}$ (at 15 breaths/min) |
 | **Alveolar ventilation**             | (TV - dead space) $\times$ respiratory rate             | $\approx 5250\;\mathrm{mL/min}$                     |
+
+</div>
 
 ### Alveolar Gas Exchange
 
@@ -1146,6 +1202,8 @@ Where $R$ is the respiratory exchange ratio ($\approx 0.85$ at rest).
 
 The ECG records the electrical activity of the heart using surface electrodes.
 
+<div class="table-wrap">
+
 | Wave / Segment  | Duration (s)   | Amplitude (mV)     | Cardiac event                                                                                |
 | --------------- | -------------- | ------------------ | -------------------------------------------------------------------------------------------- |
 | **P wave**      | $0.08$--$0.12$ | $< 0.25$           | Atrial depolarisation (contraction).                                                         |
@@ -1153,6 +1211,8 @@ The ECG records the electrical activity of the heart using surface electrodes.
 | **QRS complex** | $0.06$--$0.10$ | $1.0$--$1.5$       | Ventricular depolarisation (contraction). Bundle of His + bundle branches + Purkinje fibres. |
 | **ST segment**  | $0.08$--$0.12$ | Isoelectric (flat) | Ventricular repolarisation beginning. Elevation = ischaemia (STEMI).                         |
 | **T wave**      | $0.16$         | $0.1$--$0.5$       | Ventricular repolarisation.                                                                  |
+
+</div>
 
 **Clinical significance:**
 
@@ -1723,11 +1783,15 @@ the presence and absence Of ADH.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                   |
 | ------------------ | ------- | -------------------------------------------------------------------------------------- |
 | [Human Physiology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/homeostasis)            |
 | [Human Physiology] | IB      | [View](https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology/)   |
 | [Human Physiology] | DSE     | [View](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/) |
+
+</div>
 
 ## Supplementary: Endocrine System in Detail (HL Extension)
 
@@ -1735,11 +1799,15 @@ the presence and absence Of ADH.
 
 Hormones are classified by their chemical structure, which determines their mechanism of action:
 
+<div class="table-wrap">
+
 | Class                     | Examples                                                         | Solubility  | Receptor location                              | Mechanism                                                   |
 | ------------------------- | ---------------------------------------------------------------- | ----------- | ---------------------------------------------- | ----------------------------------------------------------- |
 | **Peptide/protein**       | Insulin, glucagon, ADH, FSH, LH, TSH, GH                         | Hydrophilic | Cell surface (GPCR or tyrosine kinase)         | Second messenger cascade (cAMP, IP3/DAG, Ca2+)              |
 | **Steroid**               | Cortisol, testosterone, oestradiol, progesterone, aldosterone    | Lipophilic  | Intracellular (cytoplasmic or nuclear)         | Directly modulate gene transcription                        |
 | **Amino acid derivative** | Thyroxine (T4), triiodothyronine (T3), adrenaline, noradrenaline | Mixed       | Adrenaline: cell surface; T3/T4: intracellular | Second messenger (adrenaline) or gene transcription (T3/T4) |
+
+</div>
 
 ### Peptide Hormones: Insulin Signalling Pathway (Detailed)
 
@@ -1808,6 +1876,8 @@ Lipophilic and diffuses directly through the plasma membrane.
 The hypothalamus controls the anterior pituitary via releasing and inhibiting hormones, which are
 Transported through the hypophyseal portal system:
 
+<div class="table-wrap">
+
 | Hypothalamic hormone | Effect on anterior pituitary | Target gland   | Main hormone |
 | -------------------- | ---------------------------- | -------------- | ------------ |
 | GnRH                 | Stimulates                   | Gonads         | FSH, LH      |
@@ -1816,6 +1886,8 @@ Transported through the hypophyseal portal system:
 | GHRH                 | Stimulates                   | Liver, bones   | GH           |
 | Somatostatin         | Inhibits                     | --             | GH, TSH      |
 | Dopamine (PIH)       | Inhibits                     | --             | Prolactin    |
+
+</div>
 
 **Negative feedback**: hormones produced by the target glands (thyroid hormones, cortisol, sex
 steroids) Feed back to the hypothalamus and pituitary to inhibit further release of releasing

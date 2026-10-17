@@ -66,11 +66,15 @@ octahedron. For BCC (real space), the reciprocal lattice is FCC.
 
 **Important volumes:**
 
+<div class="table-wrap">
+
 | Real space | Reciprocal space | BZ volume     |
 | ---------- | ---------------- | ------------- |
 | SC ($a$)   | SC ($2\pi/a$)    | $(2\pi/a)^3$  |
 | BCC ($a$)  | FCC ($4\pi/a$)   | $2(2\pi/a)^3$ |
 | FCC ($a$)  | BCC ($4\pi/a$)   | $4(2\pi/a)^3$ |
+
+</div>
 
 $V_{\mathrm{BZ} = (2\pi)^3 / V_{\mathrm{cell}}}$.
 
@@ -241,4 +245,4 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Electronic band structures are computed in the Brillouin zone of the reciprocal lattice.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

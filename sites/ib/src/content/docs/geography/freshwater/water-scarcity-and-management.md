@@ -41,12 +41,16 @@ Economic water scarcity, predominantly in Sub-Saharan Africa and parts of South 
 
 Several composite indices measure water stress at national and subnational scales:
 
+<div class="table-wrap">
+
 | Index                                       | Description                                                             | Key Variables                                                  |
 | ------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Falkenmark Water Stress Indicator**       | Annual renewable freshwater per capita                                  | Total renewable freshwater, population                         |
 | **Basin-level Water Stress (WRI Aqueduct)** | Ratio of total freshwater withdrawals to available renewable freshwater | Withdrawals, renewable supply, environmental flow requirements |
 | **Water Poverty Index (WPI)**               | Combines water availability with access, capacity, use, and environment | Five components: resources, access, capacity, use, environment |
 | **UN Water SDG 6 Indicator 6.4.2**          | Water-use efficiency (value added per unit of water withdrawn)          | GDP, total freshwater withdrawals                              |
+
+</div>
 
 The WRI Aqueduct tool classifies water stress into five categories: extremely high ($\gt{80}\%$ of
 Available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
@@ -115,17 +119,23 @@ M$^3$ for RO, depending on scale and energy costs).
 Inter-basin transfers move water from basins with surplus to basins with deficit via canals,
 Tunnels, or pipelines.
 
+<div class="table-wrap">
+
 | Scheme                              | Location             | Scale                                                                                            | Issues                                                                                                                    |
 | ----------------------------------- | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | **South-to-North Water Transfer**   | China                | Three routes transferring up to 45 billion m$^3$/year from the Yangtze to the Yellow River basin | Cost approximately USD 62 billion; displacement of over 300 000 people; ecological impacts on source and receiving basins |
 | **California Aqueduct**             | USA                  | Transfers approximately 5 billion m$^3$/year from northern to southern California                | Energy-intensive (pumping water over the Tehachapi Mountains); ecological impacts on the Sacramento-San Joaquin Delta     |
 | **Lesotho Highlands Water Project** | Lesotho/South Africa | Transfers approximately 780 million m$^3$/year from Lesotho to South Africa's Gauteng province   | Displacement of communities in Lesotho; dependence of Gauteng on a foreign water source                                   |
 
+</div>
+
 ## Demand-Side Management Strategies
 
 Demand-side strategies reduce water consumption without increasing supply. They are generally
 Cheaper, more environmentally sustainable, and faster to implement than supply-side strategies, but
 their effectiveness depends on strong governance, appropriate pricing, and behavioural change.
+
+<div class="table-wrap">
 
 | Strategy                       | Mechanism                                                                                                               | Effectiveness                                                                                              | Limitations                                                                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -135,6 +145,8 @@ their effectiveness depends on strong governance, appropriate pricing, and behav
 | **Leakage reduction**          | Repairing and maintaining water distribution infrastructure                                                             | London loses approximately 25% of treated water through leaks; many developing-country cities lose 40--60% | Expensive to replace buried infrastructure; difficult to prioritise among competing demands                             |
 | **Public education campaigns** | Promoting water conservation behaviour (shorter showers, full washing loads, fixing leaks)                              | Modest effect alone (5--10% reduction); most effective when combined with pricing measures                 | Difficult to measure impact; effect may diminish over time without reinforcement                                        |
 | **Industrial water recycling** | Closed-loop systems that treat and reuse process water within factories                                                 | Can reduce industrial freshwater consumption by 50--90%                                                    | Capital-intensive; requires process redesign                                                                            |
+
+</div>
 
 <details>
 <summary>Common Pitfalls: Evaluating Water Management Strategies in Isolation</summary>

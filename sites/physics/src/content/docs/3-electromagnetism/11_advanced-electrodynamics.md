@@ -49,11 +49,15 @@ Leaves $\mathbf{E}$ and $\mathbf{B}$ unchanged for any scalar function $\chi(\ma
 
 **Common gauges:**
 
+<div class="table-wrap">
+
 | Gauge    | Condition                                                                    | Use                                |
 | -------- | ---------------------------------------------------------------------------- | ---------------------------------- |
 | Coulomb  | $\nabla \cdot \mathbf{A} = 0$                                                | Static problems, quantum mechanics |
 | Lorenz   | $\nabla \cdot \mathbf{A} + \frac{1}{c^2}\frac{\partial\phi}{\partial t} = 0$ | Relativistic problems, radiation   |
 | Temporal | $\phi = 0$                                                                   | Some scattering problems           |
+
+</div>
 
 In the Lorenz gauge, both $\mathbf{A}$ and $\phi$ satisfy wave equations with sources:
 
@@ -275,7 +279,7 @@ dipole ($D = 1.5$).
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

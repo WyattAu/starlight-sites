@@ -320,6 +320,8 @@ verify the uniform Cauchy criterion directly.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Statement | True? | Counterexample |
 | --------- | ----- | -------------- |
 | A pointwise limit of continuous functions is continuous | no | $f_n(x) = x^n$ on $[0,1]$ |
@@ -327,6 +329,8 @@ verify the uniform Cauchy criterion directly.
 | Pointwise convergence lets you swap limit and derivative | no | $f_n(x) = \frac{\sin nx}{\sqrt n}$: $f_n \to 0$ uniformly, but $f_n'(0) = \sqrt n \to \infty$ |
 | A power series converges at its endpoints | no | $\sum x^n$ converges on $(-1,1)$ only |
 | A uniformly convergent series of differentiable functions is differentiable | no | $\sum \frac{\sin(n^2x)}{n^2}$ converges uniformly but is nowhere differentiable (Weierstrass' construction) |
+
+</div>
 
 The integral counterexample is the one to work through: each $f_n$ has integral
 $\tfrac{1}{2(n+1)} \to 0$, but the pointwise limit is $1$ at $x = \tfrac12$
@@ -344,11 +348,15 @@ The M-test is the workhorse: it is how power series, Fourier series and most
 series of functions are proved uniformly convergent. But it gives *uniform
 convergence only*, and each of the three commutations needs its own theorem:
 
+<div class="table-wrap">
+
 | Operation | Needs | Theorem |
 | --------- | ----- | ------- |
 | $f_n \to f \implies f$ continuous | uniform convergence of continuous $f_n$ | the uniform limit theorem |
 | $\lim \int f_n = \int \lim f_n$ | uniform convergence | the interchange theorem |
 | $\lim f_n' = (\lim f_n)'$ | uniform convergence of $f_n'$, and $f_n(x_0)$ converging at one point | the differentiation theorem |
+
+</div>
 
 The differentiation row is the strongest hypothesis of the three, and the
 counterexample above shows why: uniform convergence of $f_n$ alone is not

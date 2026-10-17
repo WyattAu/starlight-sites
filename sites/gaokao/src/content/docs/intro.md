@@ -125,6 +125,8 @@ June. The score report includes:
 
 China's Gaokao system has significant **provincial variation** in several areas:
 
+<div class="table-wrap">
+
 | Aspect         | Variation                                                                            |
 | -------------- | ------------------------------------------------------------------------------------ |
 | Exam papers    | Some provinces use national papers (全国卷); others use provincial papers (自主命题) |
@@ -132,6 +134,8 @@ China's Gaokao system has significant **provincial variation** in several areas:
 | Scoring method | Some provinces use percentile ranks; others report raw scores                        |
 | Exam schedule  | Most provinces test in early June, but exact dates vary                              |
 | Re-sit policy  | Some provinces restrict the number of re-sit attempts                                |
+
+</div>
 
 Notable examples:
 

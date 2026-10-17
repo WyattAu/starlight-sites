@@ -69,6 +69,8 @@ Internal storage).
 
 ### 1.4 Comparison of Data Models
 
+<div class="table-wrap">
+
 | Feature        | Relational                       | Object-Relational          | Document                 | Key-Value         | Graph                            | Column-Family                |
 | -------------- | -------------------------------- | -------------------------- | ------------------------ | ----------------- | -------------------------------- | ---------------------------- |
 | Data structure | Tables                           | Tables + objects           | JSON/BSON                | Key-value pairs   | Nodes + edges                    | Column families              |
@@ -78,11 +80,15 @@ Internal storage).
 | Scaling        | Vertical                         | Vertical                   | Horizontal               | Horizontal        | Horizontal                       | Horizontal                   |
 | Best for       | Structured data, complex queries | Complex types, inheritance | Content management, APIs | Caching, sessions | Social networks, recommendations | Time series, logs, analytics |
 
+</div>
+
 **Choosing a model.** Relational databases remain the default for structured data with complex
 Queries and strong consistency requirements. NoSQL databases excel when horizontal scalability or
 Flexible schemas are paramount. The choice depends on the workload, not on a blanket preference.
 
 ### 1.5 Key Relationships
+
+<div class="table-wrap">
 
 | Concept          | Relationship                                                                  | Significance                                                  |
 | ---------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -90,6 +96,8 @@ Flexible schemas are paramount. The choice depends on the workload, not on a bla
 | Data models      | ER $\to$ Relational $\to$ Object-Relational $\to$ NoSQL                       | Trade-off: structure vs. flexibility vs. scalability           |
 | ACID vs. BASE    | Atomicity, Consistency, Isolation, Durability vs. Basically Available, etc.   | Consistency guarantees vs. availability in distributed systems |
 | Indexing         | B+ tree, hash, bitmap $\to$ query performance                                 | Faster reads at cost of write overhead and storage            |
+
+</div>
 
 ### 1.6 Common Pitfalls
 
@@ -133,11 +141,15 @@ $\blacksquare$
 
 ### 1.9 Summary Table
 
+<div class="table-wrap">
+
 | Architecture layer | Purpose                                       | Example components                 |
 | ------------------ | --------------------------------------------- | ---------------------------------- |
 | External           | User-specific views of the data               | Views, application-specific schemas |
 | Conceptual         | Logical structure of the entire database      | ER diagrams, table definitions      |
 | Internal           | Physical storage and access methods            | Indexes, file organisations, hashing |
+
+</div>
 
 ## Intuition
 

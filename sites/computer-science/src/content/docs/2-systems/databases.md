@@ -36,6 +36,8 @@ is an attribute from domain $D_i$.
 
 ### 1.2 Keys
 
+<div class="table-wrap">
+
 | Key Type          | Definition                                           |
 | ----------------- | ---------------------------------------------------- |
 | **Superkey**      | A set of attributes that uniquely identifies a tuple |
@@ -43,6 +45,8 @@ is an attribute from domain $D_i$.
 | **Primary key**   | A chosen candidate key                               |
 | **Foreign key**   | References the primary key of another relation       |
 | **Composite key** | A key consisting of multiple attributes              |
+
+</div>
 
 ### 1.3 Relational Algebra
 
@@ -250,12 +254,16 @@ DECOMPOSE(R, F):
 
 ### 3.4 Normal Form Comparison
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                 | May have                     |
 | ----------- | -------------------------- | ---------------------------- |
 | 1NF         | Multivalued attributes     | Partial, transitive deps     |
 | 2NF         | Partial dependencies       | Transitive dependencies      |
 | 3NF         | Transitive dependencies    | BCNF violations              |
 | BCNF        | All FDs not from superkeys | Lossy decomposition possible |
+
+</div>
 
 ## 4. Indexing
 
@@ -278,12 +286,16 @@ A **B+ tree** of order $d$ is a balanced search tree optimized for disk access:
 
 **Operations:**
 
+<div class="table-wrap">
+
 | Operation   | Time              | Disk Accesses     |
 | ----------- | ----------------- | ----------------- |
 | Search      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Insert      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Delete      | $O(\log_d n)$     | $O(\log_d n)$     |
 | Range query | $O(\log_d n + k)$ | $O(\log_d n + k)$ |
+
+</div>
 
 **Choice of $d$:** $d$ is chosen so that one node fits in one disk block.
 
@@ -303,6 +315,8 @@ HASH_INDEX(key):
   overflows.
 - **Linear hashing:** Buckets split incrementally in a round-robin fashion.
 
+<div class="table-wrap">
+
 | Aspect      | B+ Tree             | Hash Index  |
 | ----------- | ------------------- | ----------- |
 | Exact match | $O(\log n)$         | $O(1)$ avg  |
@@ -310,6 +324,8 @@ HASH_INDEX(key):
 | Insert      | $O(\log n)$         | $O(1)$ avg  |
 | Space       | Variable            | Variable    |
 | Order       | Maintains key order | No ordering |
+
+</div>
 
 ### 4.3 Bitmap Indexes
 
@@ -337,6 +353,8 @@ alone.
 
 ### 5.1 ACID Properties
 
+<div class="table-wrap">
+
 | Property        | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
 | **Atomicity**   | All operations succeed or none do (all-or-nothing)              |
@@ -344,7 +362,11 @@ alone.
 | **Isolation**   | Concurrent transactions don't interfere                         |
 | **Durability**  | Once committed, changes survive crashes                         |
 
+</div>
+
 ### 5.2 Isolation Levels
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -352,6 +374,8 @@ alone.
 | Read Committed   | No         | Yes                 | Yes          |
 | Repeatable Read  | No         | No                  | Yes          |
 | Serializable     | No         | No                  | No           |
+
+</div>
 
 **Anomaly definitions:**
 
@@ -397,11 +421,15 @@ Used by PostgreSQL, MySQL (InnoDB), Oracle.
 
 ### 5.5 Concurrency Control Comparison
 
+<div class="table-wrap">
+
 | Method     | Locking Overhead | Deadlocks | Performance (read-heavy) | Performance (write-heavy) |
 | ---------- | ---------------- | --------- | ------------------------ | ------------------------- |
 | 2PL        | High             | Yes       | Moderate                 | Good                      |
 | MVCC       | Low              | No        | Excellent                | Moderate                  |
 | Optimistic | Low              | No        | Good                     | Poor (high conflict)      |
+
+</div>
 
 ## 6. Query Optimization
 
@@ -420,6 +448,8 @@ SQL Query
 
 Used to transform queries for efficiency:
 
+<div class="table-wrap">
+
 | Rule                | Equivalence                                                          |
 | ------------------- | -------------------------------------------------------------------- |
 | Selection pushdown  | $\sigma_c(R \bowtie S) = \sigma_c(R) \bowtie S$ if $c$ uses only $R$ |
@@ -427,6 +457,8 @@ Used to transform queries for efficiency:
 | Join associativity  | $(R \bowtie S) \bowtie T = R \bowtie (S \bowtie T)$                  |
 | Selection cascade   | $\sigma_{c1}(\sigma_{c2}(R)) = \sigma_{c1 \wedge c2}(R)$             |
 | Projection pushdown | Push projections as early as possible                                |
+
+</div>
 
 ### 6.3 Join Algorithms
 
@@ -577,11 +609,15 @@ Databases organize data for efficient retrieval and modification. The relational
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                                          |
 | ------------------- | ------------------------------------------------------------- |
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
 | Networking          | [View](/2-systems/networking/)          |
 | Operating Systems   | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/)   |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

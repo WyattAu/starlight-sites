@@ -35,10 +35,14 @@ Reaction at constant pressure.
 
 ### Sign Convention
 
+<div class="table-wrap">
+
 | Type        | Sign             | Energy Flow                           |
 | ----------- | ---------------- | ------------------------------------- |
 | Exothermic  | $\Delta H \lt 0$ | System releases heat to surroundings  |
 | Endothermic | $\Delta H \gt 0$ | System absorbs heat from surroundings |
+
+</div>
 
 ### Standard Conditions
 
@@ -51,12 +55,16 @@ Standard enthalpy changes are measured under standard conditions:
 
 ### Types of Enthalpy Change
 
+<div class="table-wrap">
+
 | Type                                | Symbol                           | Definition                                                                        |
 | ----------------------------------- | -------------------------------- | --------------------------------------------------------------------------------- |
 | Standard enthalpy of formation      | $\Delta H_f^\circ$               | Enthalpy change when 1 mol of compound forms from its elements in standard states |
 | Standard enthalpy of combustion     | $\Delta H_c^\circ$               | Enthalpy change when 1 mol of substance burns completely in oxygen                |
 | Standard enthalpy of neutralisation | $\Delta H_{\mathrm{neut}}^\circ$ | Enthalpy change when 1 mol of water forms from acid-base reaction                 |
 | Standard enthalpy of atomisation    | $\Delta H_{\mathrm{at}}^\circ$   | Enthalpy change to form 1 mol of gaseous atoms from element in standard state     |
+
+</div>
 
 :::caution[Exam Tip]
 $\Delta H_f^\circ$ for an element in its standard state is always zero (by definition). For example,
@@ -95,6 +103,8 @@ Where:
 - $c$ = specific heat capacity (J/g/$\degree$ C)
 - $\Delta T$ = temperature change ($\degree$ C)
 
+<div class="table-wrap">
+
 | Substance | $c$ (J/g/$\degree$ C) |
 | --------- | -------------------- |
 | Water     | 4.18                 |
@@ -102,6 +112,8 @@ Where:
 | Aluminium | 0.90                 |
 | Copper    | 0.39                 |
 | Iron      | 0.45                 |
+
+</div>
 
 ### Measuring Enthalpy of Reaction
 
@@ -232,6 +244,8 @@ Bonds in the gas phase is broken.
 Since bond enthalpies vary slightly depending on the molecular environment, tables give average
 Values.
 
+<div class="table-wrap">
+
 | Bond       | Average Enthalpy (kJ/mol) |
 | ---------- | ------------------------- |
 | C--C       | 347                       |
@@ -245,6 +259,8 @@ Values.
 | H--H       | 436                       |
 | N$\equiv$N | 945                       |
 | N--H       | 391                       |
+
+</div>
 
 ### Calculating Enthalpy Change from Bond Enthalpies
 
@@ -333,11 +349,15 @@ $$
 
 ### Factors Affecting Lattice Energy
 
+<div class="table-wrap">
+
 | Factor                | Effect                |
 | --------------------- | --------------------- |
 | Larger ionic charges  | Higher lattice energy |
 | Smaller ionic radii   | Higher lattice energy |
 | Higher charge density | Higher lattice energy |
+
+</div>
 
 ---
 
@@ -358,12 +378,16 @@ $$
 
 ### Factors Affecting Entropy
 
+<div class="table-wrap">
+
 | Factor                       | Effect on Entropy  |
 | ---------------------------- | ------------------ |
 | More particles               | Higher entropy     |
 | Higher temperature           | Higher entropy     |
 | Gas $\to$ liquid $\to$ solid | Decreasing entropy |
 | Dissolving solid in solvent  | Increasing entropy |
+
+</div>
 
 ### Standard Entropy Change
 
@@ -409,11 +433,15 @@ Where $T$ is the temperature in Kelvin.
 
 ### Spontaneity
 
+<div class="table-wrap">
+
 | $\Delta G$       | Spontaneity                                |
 | ---------------- | ------------------------------------------ |
 | $\Delta G \lt 0$ | Spontaneous (thermodynamically favourable) |
 | $\Delta G = 0$   | At equilibrium                             |
 | $\Delta G \gt 0$ | Non-spontaneous                            |
+
+</div>
 
 ### Standard Gibbs Free Energy Change
 
@@ -434,12 +462,16 @@ Where $R = 8.314\mathrm{ J/(mol}\cdot\mathrm{K)}$ and $K$ is the equilibrium con
 A reaction that is non-spontaneous at low temperature may become spontaneous at high temperature if
 $\Delta S \gt 0$ (and vice versa).
 
+<div class="table-wrap">
+
 | $\Delta H$ | $\Delta S$ | Spontaneous when   |
 | ---------- | ---------- | ------------------ |
 | Negative   | Positive   | Always spontaneous |
 | Negative   | Negative   | Low temperature    |
 | Positive   | Positive   | High temperature   |
 | Positive   | Negative   | Never spontaneous  |
+
+</div>
 :::
 
 :::note[Example]
@@ -542,6 +574,8 @@ H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 
 ## Summary
 
+<div class="table-wrap">
+
 | Formula                 | Expression                                                                              |
 | ----------------------- | --------------------------------------------------------------------------------------- |
 | Heat energy             | $q = mc\Delta T$                                                                        |
@@ -550,6 +584,8 @@ H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 | Entropy change          | $\Delta S = \sum S(\mathrm{products}) - \sum S(\mathrm{reactants})$                     |
 | Gibbs free energy       | $\Delta G = \Delta H - T\Delta S$                                                       |
 | Equilibrium relation    | $\Delta G^\circ = -RT\ln K$                                                             |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -592,17 +628,25 @@ $$
 
 ### Trends in Lattice Energy
 
+<div class="table-wrap">
+
 | Trend                 | Effect on Lattice Energy |
 | --------------------- | ------------------------ |
 | Higher ionic charge   | Increases                |
 | Smaller ionic radius  | Increases                |
 | Higher charge density | Increases                |
 
+</div>
+
+<div class="table-wrap">
+
 | Comparison       | Higher Lattice Energy                  |
 | ---------------- | -------------------------------------- |
 | NaCl vs NaBr     | NaCl (Br$^-$ is larger)                |
 | NaCl vs MgCl$_2$ | MgCl$_2$ (Mg$^{2+}$ has higher charge) |
 | NaCl vs Na$_2$O  | Na$_2$O (O$^{2-}$ has higher charge)   |
+
+</div>
 
 ### Using Born-Haber Cycles to Compare Compounds
 :::
@@ -631,6 +675,8 @@ Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing
 
 ### Predicting Entropy Changes
 
+<div class="table-wrap">
+
 | Process                         | $\Delta S$ | Reason                |
 | ------------------------------- | ---------- | --------------------- |
 | Solid $\to$ liquid              | Positive   | More disorder         |
@@ -639,6 +685,8 @@ Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing
 | Gas $\to$ solid                 | Negative   | Much less disorder    |
 | Decreasing volume of gas        | Negative   | Fewer microstates     |
 | Increasing temperature          | Positive   | More molecular motion |
+
+</div>
 
 ### Calculating $\Delta S$ for Reactions
 :::
@@ -809,6 +857,8 @@ $$
 The enthalpy of atomisation is the enthalpy change to form one mole of gaseous atoms from the
 Element in its standard state under standard conditions.
 
+<div class="table-wrap">
+
 | Element      | Standard State | $\Delta H_{\mathrm{at}}$ (kJ/mol) |
 | ------------ | -------------- | --------------------------------- |
 | Na           | Solid          | $+108$                            |
@@ -819,9 +869,13 @@ Element in its standard state under standard conditions.
 | C (graphite) | Solid          | $+717$                            |
 | O$_2$        | Gas            | $+249$                            |
 
+</div>
+
 ### Electron Affinity Trends
 
 Electron affinity is the enthalpy change when one mole of gaseous atoms gains one electron.
+
+<div class="table-wrap">
 
 | Trend                           | Effect                          |
 | ------------------------------- | ------------------------------- |
@@ -830,13 +884,19 @@ Electron affinity is the enthalpy change when one mole of gaseous atoms gains on
 | Noble gases                     | Positive (unfavourable)         |
 | Group 17                        | Most negative (most favourable) |
 
+</div>
+
 ### Ionisation Energy Trends
+
+<div class="table-wrap">
 
 | Trend           | Effect                                               |
 | --------------- | ---------------------------------------------------- |
 | Across a period | Increases (nuclear charge increases, same shielding) |
 | Down a group    | Decreases (atomic radius increases)                  |
 | Large jumps     | Occur when removing electron from new shell          |
+
+</div>
 
 ### Successive Ionisation Energies
 
@@ -1115,11 +1175,15 @@ For the A-Level treatment of this topic, see
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site    | Link                                                                                               |
 | ---------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
 | [Thermodynamics (Chemistry)] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/thermodynamics)                   |
 | [Thermodynamics (Chemistry)] | IB      | [View](https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry/)                    |
 | [Thermodynamics (Chemistry)] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics/) |
+
+</div>
 
 ## Worked Examples
 

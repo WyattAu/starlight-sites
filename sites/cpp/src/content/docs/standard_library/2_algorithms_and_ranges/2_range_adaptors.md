@@ -35,6 +35,8 @@ $O(1)$ construction and destruction.
 
 The standard library provides these range adaptors [N4950 §26.5.2 Table 96]:
 
+<div class="table-wrap">
+
 | Adaptor                                      | Description                                |
 | -------------------------------------------- | ------------------------------------------ |
 | `views::filter(pred)`                        | Elements satisfying predicate              |
@@ -53,6 +55,8 @@ The standard library provides these range adaptors [N4950 §26.5.2 Table 96]:
 | `views::drop_while(pred)`                    | Drop elements while predicate holds        |
 | `views::elements&lt;N>`                      | Extract Nth element from tuple-like values |
 | `views::transform(f) \| views::filter(pred)` | Composition via pipe                       |
+
+</div>
 
 ### Lazy Evaluation: Views Are Composable Without Materialization
 
@@ -452,6 +456,8 @@ A range `R` models `borrowed_range` if and only if:
 
 Standard borrowed ranges include:
 
+<div class="table-wrap">
+
 | Range type                             | Borrowed? | Reason                              |
 | -------------------------------------- | --------- | ----------------------------------- |
 | `std::string_view`                     | Yes       | Non-owning, copyable                |
@@ -464,6 +470,8 @@ Standard borrowed ranges include:
 | `std::vector<int>` (prvalue)           | No        | Owning; destroyed at end of expr    |
 | `std::ranges::filter_view`             | No        | Holds reference to source           |
 | `std::ranges::transform_view`          | No        | Holds reference to source           |
+
+</div>
 
 ```cpp
 #include <ranges>

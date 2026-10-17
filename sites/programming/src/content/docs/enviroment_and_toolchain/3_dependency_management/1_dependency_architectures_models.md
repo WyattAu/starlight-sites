@@ -138,6 +138,8 @@ Package managers can be classified along several axes:
 
 ### Source-Based vs. Binary vs. Registry-Based
 
+<div class="table-wrap">
+
 | Axis                 | Source-Based                     | Binary-Based                  | Registry-Based                                           |
 | -------------------- | -------------------------------- | ----------------------------- | -------------------------------------------------------- |
 | **Mechanism**        | Downloads source, builds locally | Downloads pre-built artifacts | Resolves metadata from a registry, may build or download |
@@ -146,7 +148,11 @@ Package managers can be classified along several axes:
 | **Infrastructure**   | None (just Git)                  | Requires artifact server      | Requires registry server                                 |
 | **Examples**         | CPM.cmake, vcpkg (default)       | Conan (primary mode)          | Cargo, npm, vcpkg (with binary cache)                    |
 
+</div>
+
 ### Feature Matrix of C++ Package Managers
+
+<div class="table-wrap">
 
 | Feature               | vcpkg                  | Conan 2.x            | CPM.cmake          | Buck2      | xmake            |
 | --------------------- | ---------------------- | -------------------- | ------------------ | ---------- | ---------------- |
@@ -157,6 +163,8 @@ Package managers can be classified along several axes:
 | **Cross-Compilation** | Triplets               | Profiles + settings  | Inherits host      | Profiles   | Platform configs |
 | **Lockfile**          | `vcpkg.json` baseline  | `conan.lock`         | None (Git SHA)     | Lockfile   | Lockfile         |
 | **Language**          | CMake (portfiles)      | Python (conanfile)   | CMake              | Starlark   | Lua              |
+
+</div>
 
 ## Lockfile Formats and Determinism
 
@@ -249,6 +257,8 @@ Changing the public API. This makes SemVer an imperfect fit for C++ binary depen
 
 ### Constraint Operators
 
+<div class="table-wrap">
+
 | Operator      | Example              | Matches                  | Does Not Match |
 | ------------- | -------------------- | ------------------------ | -------------- |
 | **Exact**     | `=1.2.3`             | 1.2.3                    | 1.2.4, 1.3.0   |
@@ -256,6 +266,8 @@ Changing the public API. This makes SemVer an imperfect fit for C++ binary depen
 | **Tilde** `~` | `~1.2.3`             | $\geq$ 1.2.3, &lt; 1.3.0 | 1.3.0          |
 | **Range**     | `>=1.0.0 &lt; 2.0.0` | 1.5.0                    | 2.0.0          |
 | **Wildcard**  | `1.*`                | 1.0.0, 1.9.9             | 2.0.0          |
+
+</div>
 
 **Caret** allows changes that do not modify the left-most non-zero digit. This is the default in
 Cargo and Conan.
@@ -300,11 +312,15 @@ my-app (root)
 
 ### Graph Size in Practice
 
+<div class="table-wrap">
+
 | Project Type         | Direct Deps | Total (with transitive) |
 | -------------------- | ----------- | ----------------------- |
 | Small CLI tool       | 2-5         | 5-15                    |
 | Medium application   | 10-20       | 30-80                   |
 | Large framework (Qt) | 5-10        | 200+                    |
+
+</div>
 
 Managing transitive dependencies is why SAT solving and lockfiles matter: a change at depth 3 can
 Cascade to affect the entire build.
@@ -313,12 +329,16 @@ Cascade to affect the entire build.
 
 Package names across different registries follow different conventions:
 
+<div class="table-wrap">
+
 | Package       | Conan                  | vcpkg           | System (apt)         |
 | :------------ | :--------------------- | :-------------- | :------------------- |
 | fmt           | `fmt/10.1.1`           | `fmt`           | `libfmt-dev`         |
 | nlohmann_json | `nlohmann_json/3.11.2` | `nlohmann-json` | `nlohmann-json3-dev` |
 | OpenSSL       | `openssl/3.1.2`        | `openssl`       | `libssl-dev`         |
 | zlib          | `zlib/1.2.13`          | `zlib`          | `zlib1g-dev`         |
+
+</div>
 
 The inconsistency in naming (`nlohmann_json` vs `nlohmann-json` vs `nlohmann-json3-dev`) is a
 Consequence of the fragmented ecosystem. When migrating between package managers, name mapping is
@@ -351,11 +371,15 @@ but can produce suboptimal or conflicting results.
 
 ### Resolution Comparison
 
+<div class="table-wrap">
+
 | Strategy              | Optimality               | Speed                            | Conflict Reporting                 |
 | --------------------- | ------------------------ | -------------------------------- | ---------------------------------- |
 | **SAT solver**        | Guaranteed optimal       | Moderate (ms for typical graphs) | Precise conflict sets              |
 | **Greedy/first-wins** | May miss valid solutions | Fast                             | Vague ("version conflict")         |
 | **Backtracking**      | Optimal (exhaustive)     | Slow (worst case exponential)    | Can report why each attempt failed |
+
+</div>
 
 ## The Diamond Dependency Problem
 
@@ -513,11 +537,15 @@ A version conflict occurs when two direct (or transitive) dependencies require i
 of the same transitive dependency. The package manager's resolution algorithm determines how this is
 Handled:
 
+<div class="table-wrap">
+
 | Package Manager | Conflict Behavior                                                                              |
 | :-------------- | :--------------------------------------------------------------------------------------------- |
 | **vcpkg**       | Fails at configure time with a clear error message                                             |
 | **Conan 2.x**   | SAT solver finds a compatible version or reports a conflict with the unsatisfiable constraints |
 | **CPM.cmake**   | First-wins: the first resolved version is used, potentially violating later constraints        |
+
+</div>
 
 The "first-wins" behavior of CPM.cmake is a known limitation. It means that if `LibA` (resolved
 First) requires `fmt >= 9.0` and `LibB` (resolved second) requires `fmt >= 10.0`CPM.cmake may use
@@ -622,6 +650,8 @@ If any of these inputs change, the cache key changes and the binary must be rebu
 
 ### Cache Storage Backends
 
+<div class="table-wrap">
+
 | Backend              | Tool Support                  | Use Case                         |
 | :------------------- | :---------------------------- | :------------------------------- |
 | **Local filesystem** | vcpkg, Conan                  | Developer machines (single-user) |
@@ -629,6 +659,8 @@ If any of these inputs change, the cache key changes and the binary must be rebu
 | **Amazon S3**        | Conan (S3 remote)             | Cloud-based CI                   |
 | **Azure Blob**       | vcpkg (NuGet), Conan          | Azure DevOps                     |
 | **NFS mount**        | vcpkg (binary cache), Conan   | On-premise CI farm               |
+
+</div>
 
 ### vcpkg Binary Caching
 

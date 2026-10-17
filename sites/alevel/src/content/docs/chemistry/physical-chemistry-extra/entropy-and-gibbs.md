@@ -61,6 +61,8 @@ Lower temperature produces a larger entropy change than at a higher temperature.
 
 ### Factors Affecting Entropy
 
+<div class="table-wrap">
+
 | Factor                                | Effect on $S$ | Rationale                                                        |
 | ------------------------------------- | ------------- | ---------------------------------------------------------------- |
 | More gas molecules produced           | Increase      | More ways to distribute energy among more particles              |
@@ -70,6 +72,8 @@ Lower temperature produces a larger entropy change than at a higher temperature.
 | Fewer moles of gas                    | Decrease      | Fewer particles, fewer microstates                               |
 | Increased pressure of a gas           | Decrease      | Reduced volume constrains the available positions                |
 
+</div>
+
 ### Standard Entropy Values ($S^\circ$)
 
 Standard entropies are **absolute values** (not relative to a reference, unlike enthalpy). At
@@ -77,6 +81,8 @@ $0\,\mathrm{K}$ A perfect crystal has $S = 0$ (third law of thermodynamics). Sta
 Always positive.
 
 Typical values ($\mathrm{J\,mol^{-1}\,K^{-1}}$):
+
+<div class="table-wrap">
 
 | Substance                       | $S^\circ$ |
 | ------------------------------- | --------- |
@@ -88,6 +94,8 @@ Typical values ($\mathrm{J\,mol^{-1}\,K^{-1}}$):
 | $\mathrm{H}_2\mathrm{O}(g)$     | 188.8     |
 | $\mathrm{CO}_2(g)$              | 213.7     |
 | $\mathrm{N}_2(g)$               | 191.6     |
+
+</div>
 
 Gases have much higher standard entropies than liquids and solids. Diamond has a lower entropy than
 Graphite due to its more rigid, ordered structure.
@@ -166,11 +174,15 @@ Contributions into a single quantity that determines spontaneity.
 
 ### Spontaneity Criterion
 
+<div class="table-wrap">
+
 | $\Delta G$       | Process                                          |
 | ---------------- | ------------------------------------------------ |
 | $\Delta G \lt 0$ | Spontaneous (thermodynamically favourable)       |
 | $\Delta G = 0$   | At equilibrium                                   |
 | $\Delta G \gt 0$ | Non-spontaneous (thermodynamically unfavourable) |
+
+</div>
 
 A spontaneous process is one that proceeds without external intervention once initiated.
 "Spontaneous" does not mean "fast" -- kinetics determines the rate; thermodynamics determines the
@@ -196,11 +208,15 @@ Constant (dimensionless, using activities).
 This equation is one of the most powerful in chemistry because it connects thermodynamic data to
 Measurable equilibrium constants.
 
+<div class="table-wrap">
+
 | $\Delta G^\circ$       | $K$       | Equilibrium Position |
 | ---------------------- | --------- | -------------------- |
 | $\Delta G^\circ \lt 0$ | $K \gt 1$ | Products favoured    |
 | $\Delta G^\circ = 0$   | $K = 1$   | Neither favoured     |
 | $\Delta G^\circ \gt 0$ | $K \lt 1$ | Reactants favoured   |
+
+</div>
 
 **Worked Example.** For the Haber process at $298\,\mathrm{K}$:
 
@@ -229,12 +245,16 @@ $298\,\mathrm{K}$.
 The $\Delta G = \Delta H - T\Delta S$ equation reveals that the spontaneity of a reaction can change
 with temperature. The four cases:
 
+<div class="table-wrap">
+
 | $\Delta H$ | $\Delta S$ | Low $T$         | High $T$        | Example                                    |
 | ---------- | ---------- | --------------- | --------------- | ------------------------------------------ |
 | $-$        | $+$        | Spontaneous     | Spontaneous     | Combustion of hydrogen                     |
 | $-$        | $-$        | Spontaneous     | Non-spontaneous | Freezing of water                          |
 | $+$        | $+$        | Non-spontaneous | Spontaneous     | Thermal decomposition of $\mathrm{CaCO}_3$ |
 | $+$        | $-$        | Non-spontaneous | Non-spontaneous | Decomposition of $\mathrm{N}_2\mathrm{O}$  |
+
+</div>
 
 ### The Temperature of Equilibrium
 
@@ -651,12 +671,16 @@ $$
 \Delta S_\text{transition} = \frac{\Delta H_\text{transition}}{T_\text{transition}}
 $$
 
+<div class="table-wrap">
+
 | Transition             | $\Delta H$             | $\Delta S$                            | $\Delta G$            |
 | ---------------------- | ---------------------- | ------------------------------------- | --------------------- |
 | Melting (fusion)       | Positive (endothermic) | Positive (disorder increases)         | 0 (at $T_\text{m}$)   |
 | Boiling (vaporisation) | Positive (endothermic) | Positive (large increase in disorder) | 0 (at $T_\text{b}$)   |
 | Freezing               | Negative (exothermic)  | Negative (order increases)            | 0 (at $T_\text{m}$)   |
 | Sublimation            | Positive (endothermic) | Positive                              | 0 (at $T_\text{sub}$) |
+
+</div>
 
 **Worked Example:** Calculate the entropy of vaporisation of water at $373\,\mathrm{K}$ given
 $\Delta H_\text{vap} = +40.7\,\mathrm{kJ/mol}$.
@@ -764,12 +788,16 @@ proceeds to the right until equilibrium is reached).
 
 ### Practical Applications: Gibbs Energy in Industry
 
+<div class="table-wrap">
+
 | Industrial Process                         | Reaction                                                           | $\Delta H^\circ$ (kJ/mol) | $\Delta S^\circ$ (J/mol/K) | $T_\text{threshold}$ (K)                                                |
 | ------------------------------------------ | ------------------------------------------------------------------ | ------------------------- | -------------------------- | ----------------------------------------------------------------------- |
 | Haber process                              | $\mathrm{N}_2 + 3\mathrm{H}_2 \to 2\mathrm{NH}_3$                  | $-92$                     | $-199$                     | Not applicable ($\Delta H < 0$, $\Delta S < 0$: spontaneous at low $T$) |
 | Contact process                            | $2\mathrm{SO}_2 + \mathrm{O}_2 \to 2\mathrm{SO}_3$                 | $-198$                    | $-190$                     | Not applicable                                                          |
 | Thermal decomposition of $\mathrm{CaCO}_3$ | $\mathrm{CaCO}_3 \to \mathrm{CaO} + \mathrm{CO}_2$                 | $+178$                    | $+161$                     | $1106$                                                                  |
 | Roasting of $\mathrm{ZnS}$                 | $2\mathrm{ZnS} + 3\mathrm{O}_2 \to 2\mathrm{ZnO} + 2\mathrm{SO}_2$ | $-880$                    | $+100$                     | Spontaneous at all $T$                                                  |
+
+</div>
 
 ## Exam-Style Questions with Full Mark Schemes
 

@@ -63,11 +63,15 @@ Valve closes, and the semilunar valve in the aorta opens. Blood flows to the bod
 
 ### Blood Vessels (OL/HL)
 
+<div class="table-wrap">
+
 | Vessel    | Structure                          | Function                                     |
 | --------- | ---------------------------------- | -------------------------------------------- |
 | Artery    | Thick walls, narrow lumen, elastic | Carry blood away from heart at high pressure |
 | Vein      | Thin walls, wide lumen, valves     | Return blood to the heart                    |
 | Capillary | One cell thick walls               | Exchange of materials with tissues           |
+
+</div>
 
 ### Blood Composition (OL/HL)
 
@@ -167,6 +171,8 @@ Accessory organs: liver, pancreas, gall bladder.
 
 **Chemical digestion:** breakdown by enzymes.
 
+<div class="table-wrap">
+
 | Location | Enzyme  | Substrate | Product                |
 | -------- | ------- | --------- | ---------------------- |
 | Mouth    | Amylase | Starch    | Maltose                |
@@ -174,6 +180,8 @@ Accessory organs: liver, pancreas, gall bladder.
 | Duodenum | Trypsin | Proteins  | Amino acids            |
 | Duodenum | Lipase  | Lipids    | Fatty acids + glycerol |
 | Ileum    | Maltase | Maltose   | Glucose                |
+
+</div>
 
 ### Absorption (OL/HL)
 
@@ -240,6 +248,8 @@ Pathway: receptor $\to$ sensory neuron $\to$ relay neuron $\to$ motor neuron $\t
 
 Chemical messengers secreted by endocrine glands into the bloodstream, targeting specific organs.
 
+<div class="table-wrap">
+
 | Gland     | Hormone      | Function                                |
 | --------- | ------------ | --------------------------------------- |
 | Pituitary | ADH          | Regulates water reabsorption in kidneys |
@@ -250,6 +260,8 @@ Chemical messengers secreted by endocrine glands into the bloodstream, targeting
 | Adrenal   | Adrenaline   | "Fight or flight" response              |
 | Ovary     | Oestrogen    | Female secondary sexual characteristics |
 | Testis    | Testosterone | Male secondary sexual characteristics   |
+
+</div>
 
 ### Blood Glucose Regulation (HL)
 
@@ -489,6 +501,8 @@ Many drugs work by affecting synaptic transmission:
 
 **Key hormones and their functions:**
 
+<div class="table-wrap">
+
 | Hormone      | Source           | Target       | Function                                        |
 | ------------ | ---------------- | ------------ | ----------------------------------------------- |
 | Insulin      | Pancreas (beta)  | Liver, cells | Lowers blood glucose; promotes glucose uptake   |
@@ -501,6 +515,8 @@ Many drugs work by affecting synaptic transmission:
 | Oestrogen    | Ovaries          | Uterus       | Thickens uterine lining                         |
 | Progesterone | Corpus luteum    | Uterus       | Maintains uterine lining                        |
 | Testosterone | Testes           | Body         | Male secondary sexual characteristics           |
+
+</div>
 
 **Negative feedback:** The mechanism by which the body maintains homeostasis. When a condition
 Deviates from its set point, the body initiates a corrective response that brings the condition back
@@ -549,6 +565,8 @@ Hypothalamus, which acts as the body's thermostat.
 
 The skin is the largest organ in the body and plays a central role in thermoregulation:
 
+<div class="table-wrap">
+
 | Structure            | Function in thermoregulation                                |
 | -------------------- | ----------------------------------------------------------- |
 | Epidermis            | Barrier to water loss; contains melanin for UV protection   |
@@ -557,6 +575,8 @@ The skin is the largest organ in the body and plays a central role in thermoregu
 | Sweat glands         | Produce sweat for evaporative cooling                       |
 | Hair erector muscles | Cause piloerection to trap insulating air                   |
 | Sensory receptors    | Detect temperature changes and send signals to hypothalamus |
+
+</div>
 
 **Negative feedback in thermoregulation:**
 
@@ -621,11 +641,15 @@ Environment. It is divided into:
 
 **Types of neurons:**
 
+<div class="table-wrap">
+
 | Neuron type | Function                                     | Structure feature               |
 | ----------- | -------------------------------------------- | ------------------------------- |
 | Sensory     | Carry impulses from receptors to the CNS     | Long axon, cell body off-centre |
 | Relay       | Connect sensory and motor neurons in the CNS | Short axon, many dendrites      |
 | Motor       | Carry impulses from the CNS to effectors     | Long axon, cell body at start   |
+
+</div>
 
 **Neuron structure:**
 
@@ -695,6 +719,8 @@ Response faster.
 
 **Comparison of nervous and endocrine systems:**
 
+<div class="table-wrap">
+
 | Feature             | Nervous system                       | Endocrine system                     |
 | ------------------- | ------------------------------------ | ------------------------------------ |
 | Signal type         | Electrical impulses                  | Chemical (hormones)                  |
@@ -704,12 +730,16 @@ Response faster.
 | Transmission method | Neurons and synapses                 | Bloodstream                          |
 | Example             | Reflex arc (withdrawal reflex)       | Insulin and blood glucose regulation |
 
+</div>
+
 **Hormones and their effects:**
 
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream. They travel
 throughout the body but only affect specific target cells that have the appropriate receptors.
 
 **Key endocrine glands and hormones:**
+
+<div class="table-wrap">
 
 | Gland     | Hormone(s)              | Function                                                 |
 | --------- | ----------------------- | -------------------------------------------------------- |
@@ -719,6 +749,8 @@ throughout the body but only affect specific target cells that have the appropri
 | Pancreas  | Insulin, glucagon       | Regulates blood glucose concentration                    |
 | Ovaries   | Oestrogen, progesterone | Female secondary sexual characteristics, menstrual cycle |
 | Testes    | Testosterone            | Male secondary sexual characteristics, sperm production  |
+
+</div>
 
 **Worked Example: Hormonal control of the menstrual cycle.**
 

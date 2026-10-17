@@ -31,12 +31,18 @@ tags:
 **Definition.** **Meristems** are regions of actively dividing, undifferentiated cells that provide
 New cells for plant growth.
 
+<div class="table-wrap">
+
 | Meristem type                                   | Location                                              | Function                                                            |
 | ----------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------- |
 | **Apical meristem**                             | Tips of shoots and roots                              | **Primary growth**: elongation of shoots and roots.                 |
 | **Lateral meristem** (cambium and cork cambium) | In the vascular bundles and cortex of stems and roots | **Secondary growth**: thickening of stems and roots (woody plants). |
 
+</div>
+
 ### Plant Tissues
+
+<div class="table-wrap">
 
 | Tissue           | Cell type / structure                                                      | Function                                                                             |
 | ---------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -47,7 +53,11 @@ New cells for plant growth.
 | **Xylem**        | Vessels (dead, hollow, lignified) and tracheids (dead, lignified, tapered) | Water and mineral transport from roots to shoots; structural support.                |
 | **Phloem**       | Sieve tube elements (living, no nucleus) and companion cells               | Transports organic compounds (mainly sucrose) from source to sink.                   |
 
+</div>
+
 ### Leaf Structure
+
+<div class="table-wrap">
 
 | Structure              | Function                                                                                                       |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -57,6 +67,8 @@ New cells for plant growth.
 | **Spongy mesophyll**   | Loosely packed cells with air spaces; facilitates gas exchange ($\mathrm{CO}_2$ and $\mathrm{O}_2$ diffusion). |
 | **Lower epidermis**    | Contains **stomata** (pores) surrounded by **guard cells**; controls gas exchange and transpiration.           |
 | **Vascular bundles**   | Xylem (water transport) and phloem (sugar transport) running through the leaf.                                 |
+
+</div>
 
 ### Stomata and Guard Cells
 
@@ -96,11 +108,15 @@ Water is absorbed by **root hair cells** in the zone of maturation of the root.
 
 **Pathways of water movement across the root cortex**:
 
+<div class="table-wrap">
+
 | Pathway      | Description                                                                                                                                                                         |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Apoplast** | Water moves through the cell walls and intercellular spaces (does not cross any membranes). Blocked by the **Casparian strip** (waxy, suberised band in the endodermal cell walls). |
 | **Symplast** | Water moves from cell to cell through the cytoplasm via **plasmodesmata** (channels connecting adjacent cells).                                                                     |
 | **Vacuolar** | Water moves across membranes and through vacuoles (slowest pathway).                                                                                                                |
+
+</div>
 
 At the **endodermis**, the Casparian strip blocks the apoplast pathway, forcing water and dissolved
 Minerals to enter the symplast (cross cell membranes). This provides selective control over mineral
@@ -126,12 +142,16 @@ Night (low transpiration) or in small plants.
 
 ### Factors Affecting Transpiration Rate
 
+<div class="table-wrap">
+
 | Factor              | Effect on transpiration rate | Explanation                                                                           |
 | ------------------- | ---------------------------- | ------------------------------------------------------------------------------------- |
 | **Temperature**     | Increase                     | Higher temperature increases kinetic energy of water molecules and evaporation rate.  |
 | **Humidity**        | Decrease                     | Higher humidity reduces the water potential gradient between leaf and air.            |
 | **Wind speed**      | Increase                     | Wind removes the boundary layer of moist air near the leaf, maintaining the gradient. |
 | **Light intensity** | Increase                     | Light causes guard cells to open stomata, increasing the area for water loss.         |
+
+</div>
 
 ### Translocation in Phloem
 
@@ -178,6 +198,8 @@ To sink in the phloem.
 
 A typical flower contains:
 
+<div class="table-wrap">
+
 | Structure                | Description                                                                                     | Function                    |
 | ------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------- |
 | **Sepals**               | Leaf-like, often green                                                                          | Protect the flower bud.     |
@@ -185,6 +207,8 @@ A typical flower contains:
 | **Stamens** (androecium) | **Anther** (produces pollen) + **filament** (supports anther)                                   | Male reproductive organs.   |
 | **Carpels** (gynoecium)  | **Stigma** (receives pollen), **style** (connects stigma to ovary), **ovary** (contains ovules) | Female reproductive organs. |
 | **Nectaries**            | Glands producing nectar                                                                         | Reward for pollinators.     |
+
+</div>
 
 ### Pollination
 
@@ -215,6 +239,8 @@ down the style toward the ovule. The pollen tube carries two male gametes.
 
 ### Seed Structure
 
+<div class="table-wrap">
+
 | Part                  | Origin                                    | Function                                                |
 | --------------------- | ----------------------------------------- | ------------------------------------------------------- |
 | **Seed coat (testa)** | Integuments of the ovule                  | Protection.                                             |
@@ -223,6 +249,8 @@ down the style toward the ovule. The pollen tube carries two male gametes.
 | **Plumule**           | Part of the embryo                        | Develops into the shoot.                                |
 | **Cotyledon(s)**      | Part of the embryo                        | Store nutrients (monocots: one cotyledon; dicots: two). |
 | **Endosperm**         | Triploid tissue from double fertilisation | Stores starch, proteins, and lipids for the embryo.     |
+
+</div>
 
 ### Fruit Development
 
@@ -258,11 +286,15 @@ Into a new plant.
 
 **Conditions for germination**:
 
+<div class="table-wrap">
+
 | Condition                | Role                                                                                                        |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | **Water**                | Rehydrates tissues; activates metabolic enzymes; causes the seed to swell, rupturing the testa.             |
 | **Oxygen**               | Required for aerobic respiration to produce ATP for growth.                                                 |
 | **Suitable temperature** | Enzymes have optimal temperature ranges; too low and reactions are too slow; too high and enzymes denature. |
+
+</div>
 
 Some seeds also require specific conditions such as:
 
@@ -288,6 +320,8 @@ Some seeds also require specific conditions such as:
 Plant hormones (phytohormones) are chemical messengers that regulate growth, development, and
 Responses to stimuli.
 
+<div class="table-wrap">
+
 | Hormone                 | Site of production                 | Primary functions                                                                                        |
 | ----------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Auxin (IAA)**         | Shoot tips (apical meristem)       | Cell elongation (acid growth hypothesis); apical dominance; root initiation; phototropism; gravitropism. |
@@ -295,6 +329,8 @@ Responses to stimuli.
 | **Cytokinin**           | Root tips                          | Cell division (cytokinesis); delay leaf senescence; promote shoot growth.                                |
 | **Abscisic acid (ABA)** | Leaves, stems, root caps           | Inhibits growth; closes stomata (antagonistic to auxin); maintains seed dormancy.                        |
 | **Ethylene**            | Ripening fruits, senescing tissues | Fruit ripening; leaf abscission (dropping); senescence.                                                  |
+
+</div>
 
 ### Phototropism
 
@@ -618,6 +654,8 @@ Gain as sucrose via phloem translocation.
 Seeds of barley ($2n = 14$) are germinated in the presence and absence of gibberellin. The amount of
 Maltose released from the endosperm is measured over time:
 
+<div class="table-wrap">
+
 | Time (hours) | Maltose without gibberellin (mg) | Maltose with gibberellin (mg) |
 | ------------ | -------------------------------- | ----------------------------- |
 | 0            | 0                                | 0                             |
@@ -625,6 +663,8 @@ Maltose released from the endosperm is measured over time:
 | 12           | 5                                | 42                            |
 | 18           | 8                                | 78                            |
 | 24           | 10                               | 105                           |
+
+</div>
 
 Explain the difference between the two conditions and identify the biochemical pathway involved.
 
@@ -706,6 +746,8 @@ Gibberellin-dependent.
 A student uses a potometer to investigate the effect of wind speed on transpiration rate. The
 Following data are collected at constant temperature ($25^\circ\mathrm{C}$) and humidity ($50\%$):
 
+<div class="table-wrap">
+
 | Wind speed (m/s) | Water uptake (mL/10 min) |
 | ---------------- | ------------------------ |
 | 0 (still air)    | 0.8                      |
@@ -714,6 +756,8 @@ Following data are collected at constant temperature ($25^\circ\mathrm{C}$) and 
 | 3.0              | 2.9                      |
 | 4.0              | 3.1                      |
 | 5.0              | 3.2                      |
+
+</div>
 
 (a) Plot the data and describe the relationship between wind speed and transpiration rate. (b)
 Explain The biological mechanism responsible for this relationship. (c) Explain why the relationship
@@ -1005,6 +1049,8 @@ is broken when ABA levels decline (e.g., through cold stratification or leaching
 
 ### Xerophytes (Dry Environments)
 
+<div class="table-wrap">
+
 | Adaptation                          | Function                                                                             |
 | ----------------------------------- | ------------------------------------------------------------------------------------ |
 | **Thick cuticle**                   | Reduces water loss through the epidermis.                                            |
@@ -1016,7 +1062,11 @@ is broken when ABA levels decline (e.g., through cold stratification or leaching
 | **Succulent water storage tissues** | Store water in vacuoles; available during drought.                                   |
 | **Reduced leaf area**               | Fewer leaves = less surface area for transpiration.                                  |
 
+</div>
+
 ### Hydrophytes (Aquatic Environments)
+
+<div class="table-wrap">
 
 | Adaptation                               | Function                                                                   |
 | ---------------------------------------- | -------------------------------------------------------------------------- |
@@ -1026,6 +1076,8 @@ is broken when ABA levels decline (e.g., through cold stratification or leaching
 | **Large air spaces in spongy mesophyll** | Maximises buoyancy and gas exchange.                                       |
 | **Flexible petioles**                    | Leaves float on water surface.                                             |
 | **Reduced vascular tissue**              | Less support needed; water is abundant.                                    |
+
+</div>
 
 ---
 
@@ -1154,6 +1206,8 @@ $25\;\mathrm{\mu m}$ Surface tension $0.073\;\mathrm{N/m}$ And contact angle $0^
 A researcher treats coleoptile sections with different concentrations of IAA and measures the
 Increase in length after 24 hours in darkness:
 
+<div class="table-wrap">
+
 | IAA concentration ($\mathrm{mg/L}$) | Length increase (mm) |
 | ----------------------------------- | -------------------- |
 | 0 (control)                         | 2                    |
@@ -1162,6 +1216,8 @@ Increase in length after 24 hours in darkness:
 | 1.0                                 | 18                   |
 | 10.0                                | 20                   |
 | 100.0                               | 19                   |
+
+</div>
 
 (a) Plot the data and describe the relationship. (b) Explain the biological basis for the plateau at
 High IAA concentrations. (c) If the same experiment is repeated in the presence of an auxin
@@ -1186,6 +1242,8 @@ Discuss two pieces of experimental evidence that support this hypothesis.
 A potometer experiment measures water uptake by a leafy shoot. The following data are collected At
 $25^\circ\mathrm{C}$ and $50\%$ humidity:
 
+<div class="table-wrap">
+
 | Wind speed (m/s) | Water uptake (mL/h) |
 | ---------------- | ------------------- |
 | 0                | 8.0                 |
@@ -1195,6 +1253,8 @@ $25^\circ\mathrm{C}$ and $50\%$ humidity:
 | 4.0              | 21.0                |
 | 5.0              | 22.0                |
 | 6.0              | 22.5                |
+
+</div>
 
 The total leaf area is $120\;\mathrm{cm}^2$. (a) Calculate the transpiration rate at each wind Speed
 in $\mathrm{mmol\;H_2O/m^2/s}$. (molar mass of water $= 18\;\mathrm{g/mol}$; density
@@ -1537,6 +1597,8 @@ tallest Trees ($>100\;\mathrm{m}$).
 A hydroponics experiment grows tomato plants in nutrient solutions lacking specific mineral ions.
 The following symptoms are observed:
 
+<div class="table-wrap">
+
 | Missing ion | Symptom                                                         |
 | ----------- | --------------------------------------------------------------- |
 | Nitrogen    | Yellowing of older leaves, stunted growth                       |
@@ -1544,6 +1606,8 @@ The following symptoms are observed:
 | Iron        | Interveinal chlorosis in young leaves                           |
 | Calcium     | Deformed, necrotic growing tips; blossom end rot of fruit       |
 | Phosphorus  | Dark green leaves with purple pigmentation; poor root growth    |
+
+</div>
 
 (a) Explain the biochemical role of each ion that accounts for the observed symptom. (b) Explain Why
 nitrogen and magnesium deficiency symptoms appear in older leaves first, while iron deficiency
@@ -1704,10 +1768,14 @@ adaptations, Including the role of specific hormones and osmoprotectants.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic           | Site | Link                                                                             |
 | --------------- | ---- | -------------------------------------------------------------------------------- |
 | [Plant Biology] | IB   | [View](https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology/)   |
 | [Plant Biology] | DSE  | [View](https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology/) |
+
+</div>
 
 ## Supplementary: Plant Hormones in Detail (HL Extension)
 

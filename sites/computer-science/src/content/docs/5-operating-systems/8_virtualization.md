@@ -72,6 +72,8 @@ directly.
 - **Namespaces:** Isolate process trees, network, file systems, IPC, UTS (hostname).
 - **cgroups:** Limit resource usage (CPU, memory, I/O).
 
+<div class="table-wrap">
+
 | Property    | VMs                    | Containers            |
 | ----------- | ---------------------- | --------------------- |
 | Kernel      | Separate per VM        | Shared with host      |
@@ -80,10 +82,14 @@ directly.
 | Isolation   | Hardware-level         | Process-level         |
 | Performance | Near-native (with EPT) | Near-native (minimal) |
 
+</div>
+
 **Docker** uses OverlayFS for layered images. **Kubernetes** orchestrates containers across
 clusters.
 
 ### 8.5 Key Relationships
+
+<div class="table-wrap">
 
 | Technology   | Abstraction level | Isolation strength | Overhead | Use case                |
 | ------------ | ----------------- | ------------------ | -------- | ----------------------- |
@@ -91,6 +97,8 @@ clusters.
 | Type 2 hyper | OS                | Moderate           | Higher   | Development/testing     |
 | Containers   | OS kernel         | Weak (process)     | Minimal  | Microservices, CI/CD   |
 | Unikernels   | Application       | Very strong        | Very low | Specialised appliances  |
+
+</div>
 
 ### 8.6 Common Pitfalls
 

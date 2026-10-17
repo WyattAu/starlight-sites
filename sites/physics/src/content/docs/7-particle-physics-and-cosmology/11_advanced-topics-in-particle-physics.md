@@ -94,10 +94,14 @@ At temperatures above $T_c \approx 170$ MeV ($\sim 2 \times 10^{12}$ K), hadrons
 
 **Phase diagram of QCD:**
 
+<div class="table-wrap">
+
 | Axis       | Variable                          |
 | ---------- | --------------------------------- |
 | Horizontal | Baryon chemical potential $\mu_B$ |
 | Vertical   | Temperature $T$                   |
+
+</div>
 
 - Low $T$ Low $\mu_B$: Hadronic phase (confined)
 - High $T$ Low $\mu_B$: QGP (deconfined, crossover transition)
@@ -221,12 +225,16 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 
 ### Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Experiment |
 | --- | --- | --- |
 | CP violation measurement | Compare $B^0 \to f$ vs $\bar{B}^0 \to \bar{f}$ rates | LHCb, Belle II |
 | CKM unitarity test | Measure all triangle angles independently | B factories, LHCb |
 | $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
 | Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
+
+</div>
 
 ## Intuition
 
@@ -240,6 +248,6 @@ Advanced particle physics explores the frontier where the Standard Model meets u
 - **[Group Theory in Particle Physics](/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/)**: Anomalies and the strong CP problem involve the group-theoretic structure of SU(3) colour.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

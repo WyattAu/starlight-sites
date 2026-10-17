@@ -31,6 +31,8 @@ Where $C$ is the constant of integration.
 
 ### Basic Integration Rules
 
+<div class="table-wrap">
+
 | Function $f(x)$          | Antiderivative $F(x)$     |
 | ------------------------ | ------------------------- |
 | $x^n$ ($n \ne -1$)       | $\frac{x^{n+1}}{n+1} + C$ |
@@ -44,6 +46,8 @@ Where $C$ is the constant of integration.
 | $\csc x \cot x$          | $-\csc x + C$             |
 | $\frac{1}{1+x^2}$        | $\arctan x + C$           |
 | $\frac{1}{\sqrt{1-x^2}}$ | $\arcsin x + C$           |
+
+</div>
 
 ### The Power Rule for Integration
 
@@ -91,12 +95,16 @@ $$
 
 Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$ Th subinterval.
 
+<div class="table-wrap">
+
 | Type              | Sample Point $x_i^*$                              |
 | ----------------- | ------------------------------------------------- |
 | Left Riemann sum  | Left endpoint                                     |
 | Right Riemann sum | Right endpoint                                    |
 | Midpoint sum      | Midpoint of subinterval                           |
 | Trapezoidal sum   | Average of endpoints (trapezoids, not rectangles) |
+
+</div>
 
 **Why Riemann sums matter.** They are the foundation of the definite integral. As $n \to \infty$ The
 approximation becomes exact (for continuous functions).
@@ -381,11 +389,15 @@ $$
 
 **Tabular method check:**
 
+<div class="table-wrap">
+
 | Sign | D (derivatives) | I (integrals) |
 | ---- | --------------- | ------------- |
 | $+$  | $x^2$           | $e^x$         |
 | $-$  | $2x$            | $e^x$         |
 | $+$  | $2$             | $e^x$         |
+
+</div>
 
 Result: $x^2 e^x - 2xe^x + 2e^x = e^x(x^2 - 2x + 2)$. Confirmed.
 </Aside>
@@ -697,6 +709,8 @@ Evaluate $\displaystyle\int x^3 e^x \, dx$ using the tabular method.
 
 Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with signs $+,-,+,-$:
 
+<div class="table-wrap">
+
 | Signs | $x^3$  | $e^x$ |
 | ----- | ------ | ----- |
 | +     | $x^3$  | $e^x$ |
@@ -704,6 +718,8 @@ Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with s
 | +     | $6x$   | $e^x$ |
 | -     | $6$    | $e^x$ |
 | +     | $0$    | $e^x$ |
+
+</div>
 
 Result: $x^3 e^x - 3x^2 e^x + 6xe^x - 6e^x + C = e^x(x^3 - 3x^2 + 6x - 6) + C$.
 

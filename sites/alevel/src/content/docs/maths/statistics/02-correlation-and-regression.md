@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                               |
 | ---------- | ------- | ----------------------------------- |
 | AQA        | Paper 1 | PMCC, regression lines              |
 | Edexcel    | P1      | Includes Spearman's rank            |
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
+
+</div>
 
 :::note
 Must be able to interpret these and understand their limitations.
@@ -114,6 +118,8 @@ Formula above does not account for ties, a correction factor is needed for tied 
 
 ### 2.4 PMCC vs. Spearman's Rank: When to Use Which
 
+<div class="table-wrap">
+
 | Criterion                    | PMCC                        | Spearman's                |
 | ---------------------------- | --------------------------- | ------------------------- |
 | Data type                    | Continuous (interval/ratio) | Ordinal or continuous     |
@@ -121,6 +127,8 @@ Formula above does not account for ties, a correction factor is needed for tied 
 | Sensitivity to outliers      | High                        | Low (ranks reduce impact) |
 | Distribution assumption      | Bivariate normal            | None                      |
 | Power (when assumptions met) | Higher                      | Lower                     |
+
+</div>
 
 **Key point:** If the data has a strong linear relationship and no extreme outliers, PMCC is
 Preferred as it uses more information from the data. If the relationship is monotonic but Curved, or
@@ -503,10 +511,14 @@ Likely to produce $r = 0.85$ with 100 observations.
 <summary>Problem 11</summary>
 Eight students were ranked by two teachers for a presentation. The rankings are:
 
+<div class="table-wrap">
+
 | Student   | A   | B   | C   | D   | E   | F   | G   | H   |
 | --------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Teacher 1 | 2   | 5   | 1   | 7   | 3   | 8   | 4   | 6   |
 | Teacher 2 | 1   | 6   | 2   | 8   | 4   | 7   | 3   | 5   |
+
+</div>
 
 Calculate Spearman's rank correlation coefficient and interpret the result.
 
@@ -517,10 +529,14 @@ Calculate Spearman's rank correlation coefficient and interpret the result.
 
 The data is already ranked, so:
 
+<div class="table-wrap">
+
 | Student | A   | B   | C   | D   | E   | F   | G   | H   |
 | ------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | $d_i$   | 1   | -1  | -1  | -1  | -1  | 1   | 1   | 1   |
 | $d_i^2$ | 1   | 1   | 1   | 1   | 1   | 1   | 1   | 1   |
+
+</div>
 
 $\sum d_i^2 = 8$.
 

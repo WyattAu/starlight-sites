@@ -235,11 +235,15 @@ $$
 
 These concepts are frequently confused:
 
+<div class="table-wrap">
+
 | Property            | Independent                                 | Mutually Exclusive |
 | ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
 | If $P(A), P(B) > 0$ | $P(A                                        \| B) = P(A)$         | $P(A \| B) = 0$ |
+
+</div>
 
 **Important:** If two events with positive probability are mutually exclusive, they cannot be
 Independent (since $P(A \cap B) = 0 \neq P(A)P(B)$ when both probabilities are positive).
@@ -479,12 +483,16 @@ is longer.
 
 ### One-Tailed vs. Two-Tailed Tests (HL)
 
+<div class="table-wrap">
+
 | Feature         | One-tailed             | Two-tailed              |
 | --------------- | ---------------------- | ----------------------- |
 | $H_1$           | $p > p_0$ or $p < p_0$ | $p \neq p_0$            |
 | Critical region | One tail only          | Both tails              |
 | Critical value  | $z_{1-\alpha}$         | $z_{1-\alpha/2}$        |
 | p-value         | One tail area          | Two tail areas combined |
+
+</div>
 
 :::caution
 Results.
@@ -532,10 +540,14 @@ the population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
 
+<div class="table-wrap">
+
 | Error Type | Description                                 | Probability |
 | ---------- | ------------------------------------------- | ----------- |
 | Type I     | Rejecting $H_0$ when $H_0$ is true          | $\alpha$    |
 | Type II    | Failing to reject $H_0$ when $H_0$ is false | $\beta$     |
+
+</div>
 
 The **power** of a test is $1 - \beta$: the probability of correctly rejecting a false $H_0$.
 
@@ -708,9 +720,13 @@ See the examples integrated throughout the sections above.
     approximation.
 6. Given the data below, calculate the Spearman rank correlation coefficient:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 1   | 4   | 2   | 5   |
+
+</div>
 
 1. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 2. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
@@ -739,11 +755,15 @@ $$
 
 ### 8.5 Choosing the Right Distribution
 
+<div class="table-wrap">
+
 | Distribution | When to use                                        | Parameters      |
 | ------------ | -------------------------------------------------- | --------------- |
 | Binomial     | Fixed number of trials, two outcomes, constant $p$ | $n, p$          |
 | Poisson      | Events occur at constant rate, independently       | $\lambda$       |
 | Normal       | Continuous data, symmetric bell shape              | $\mu, \sigma^2$ |
+
+</div>
 
 :::tip
 If it mentions "out of $n$ trials," think Binomial.

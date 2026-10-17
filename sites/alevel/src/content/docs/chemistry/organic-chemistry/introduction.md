@@ -85,6 +85,8 @@ A homologous series is a family of organic compounds with the same functional gr
 General formula, and successive members differing by $-\mathrm{CH}_2-$. Each member exhibits a
 Gradual, predictable change in physical properties.
 
+<div class="table-wrap">
+
 | Series          | General Formula                 | Functional Group                         | Suffix    |
 | --------------- | ------------------------------- | ---------------------------------------- | --------- |
 | Alkane          | $\mathrm{C}_n\mathrm{H}_{2n+2}$ | C--C single bonds                        | -ane      |
@@ -98,6 +100,8 @@ Gradual, predictable change in physical properties.
 | Ester           | --                              | $-\mathrm{COO}-$                         | -oate     |
 | Amine           | --                              | $-\mathrm{NH}_2$                         | -amine    |
 | Amide           | --                              | $-\mathrm{CONH}_2$                       | -amide    |
+
+</div>
 
 ### Trend: Boiling Points Within a Series
 
@@ -223,10 +227,14 @@ The rotations cancel. Racemic mixtures have different physical properties from t
 
 ### Summary of Isomerism Types
 
+<div class="table-wrap">
+
 | Type            | Basis                                            | Subtypes                            |
 | --------------- | ------------------------------------------------ | ----------------------------------- |
 | Structural      | Different connectivity                           | Chain, positional, functional group |
 | Stereoisomerism | Same connectivity, different spatial arrangement | E/Z isomerism, optical isomerism    |
+
+</div>
 
 ## General Principles of Organic Reactions
 
@@ -489,11 +497,15 @@ shown with a dotted line between C and both the incoming $\mathrm{OH}$ and outgo
 
 ### Types of Stereoisomerism
 
+<div class="table-wrap">
+
 | Type                    | Requirement                                | Example                                |
 | ----------------------- | ------------------------------------------ | -------------------------------------- |
 | Optical (enantiomers)   | Chiral centre (no plane of symmetry)       | $(R)$- and $(S)$-2-chlorobutane        |
 | E/Z (geometric)         | Restricted rotation about C=C or C=N       | $(E)$- and $(Z)$-but-2-ene             |
 | Optical (diastereomers) | Multiple chiral centres, not mirror images | $(2R,3R)$- and $(2R,3S)$-tartaric acid |
+
+</div>
 
 ### Enantiomers vs Diastereomers
 
@@ -552,6 +564,8 @@ one pair of enantiomers $(2R,3R)/(2S,3S)$ and one meso compound $(2R,3S)$.
 The following table summarises the key interconversions covered across the organic chemistry
 modules:
 
+<div class="table-wrap">
+
 | From            | To                  | Reagent/conditions                                                         | Mechanism                                   |
 | --------------- | ------------------- | -------------------------------------------------------------------------- | ------------------------------------------- |
 | Alkene          | Alkane              | $\mathrm{H}_2$ / Ni catalyst                                               | Addition (hydrogenation)                    |
@@ -592,6 +606,8 @@ modules:
 | Nitrobenzene    | Phenylamine         | $\mathrm{Sn}$ / $\mathrm{HCl}$ then $\mathrm{NaOH}$                        | Reduction                                   |
 | Phenylamine     | Diazonium salt      | $\mathrm{NaNO}_2$ / $\mathrm{HCl}$$0$--$5^\circ\mathrm{C}$                 | Diazotisation                               |
 
+</div>
+
 ## Determining the Structure of an Unknown Organic Compound
 
 A systematic approach to identifying an unknown compound using spectroscopic data:
@@ -611,12 +627,16 @@ $$
 Where $C$ = number of carbons, $H$ = hydrogens, $N$ = nitrogens, $X$ = halogens. Oxygen does not
 affect the DoU.
 
+<div class="table-wrap">
+
 | DoU | Possible structural features                                                |
 | --- | --------------------------------------------------------------------------- |
 | 0   | Acyclic, saturated (only single bonds)                                      |
 | 1   | One ring OR one double bond                                                 |
 | 2   | Two rings, two double bonds, one triple bond, or one ring + one double bond |
 | 4   | Often suggests a benzene ring (3 double bonds + 1 ring)                     |
+
+</div>
 
 ### Step 3: IR Spectroscopy -- Identify Functional Groups
 
@@ -778,6 +798,8 @@ alcohol.
 When naming organic compounds, the principal functional group gets the lowest possible locant.
 Priority order (highest to lowest):
 
+<div class="table-wrap">
+
 | Priority | Functional Group | Suffix    | Prefix                         |
 | -------- | ---------------- | --------- | ------------------------------ |
 | 1        | Carboxylic acid  | -oic acid | --                             |
@@ -792,6 +814,8 @@ Priority order (highest to lowest):
 | 10       | Alkyne           | -yne      | --                             |
 | 11       | Halogenoalkane   | --        | halo- (chloro-, bromo-, iodo-) |
 | 12       | Ether            | --        | alkoxy-                        |
+
+</div>
 
 **Worked Example:** Name
 $\mathrm{HOOC}-\mathrm{CH}(\mathrm{OH})-\mathrm{CH}_2-\mathrm{CH}_2-\mathrm{NH}_2$.
@@ -835,6 +859,8 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
 
 ### Reaction Classification: Complete Reference
 
+<div class="table-wrap">
+
 | Reaction type                           | Bond change                                     | Typical reagents                                                                | Example                                               |
 | --------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | **Nucleophilic substitution** (SN1/SN2) | One group replaced by a nucleophile             | $\mathrm{OH}^-$$\mathrm{CN}^-$$\mathrm{NH}_3$                                   | Halogenoalkane $\to$ alcohol                          |
@@ -849,6 +875,8 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
 | **Condensation**                        | Two molecules join with loss of small molecule  | Concentrated $\mathrm{H}_2\mathrm{SO}_4$$\Delta$                                | Alcohol + acid $\to$ ester + $\mathrm{H}_2\mathrm{O}$ |
 | **Free radical substitution**           | Atom replaced via radical chain                 | $\mathrm{Cl}_2/h\nu$$\mathrm{Br}_2/h\nu$                                        | Alkane $\to$ haloalkane                               |
 | **Free radical addition**               | Radicals add across C=C                         | $\mathrm{HF}$ Peroxides, $\Delta$                                                | Anti-Markovnikov alkene addition                      |
+
+</div>
 
 ### Structural Isomerism: Complete Classification
 

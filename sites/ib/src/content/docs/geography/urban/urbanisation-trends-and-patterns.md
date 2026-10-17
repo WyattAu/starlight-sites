@@ -28,6 +28,8 @@ will reach 68% by 2050.
 
 The rate of urbanisation varies dramatically by region:
 
+<div class="table-wrap">
+
 | Region                      | Urban Population (%) | Annual Urbanisation Rate (%) | Projected 2050 (%) |
 | --------------------------- | -------------------- | ---------------------------- | ------------------ |
 | North America               | 83                   | 0.3                          | 87                 |
@@ -36,6 +38,8 @@ The rate of urbanisation varies dramatically by region:
 | Oceania                     | 68                   | 0.5                          | 73                 |
 | Asia                        | 52                   | 1.5                          | 64                 |
 | Africa                      | 44                   | 3.4                          | 56                 |
+
+</div>
 
 The most rapid urbanisation is occurring in Sub-Saharan Africa and South Asia. Africa's urban
 Population is projected to triple between 2023 and 2050, adding approximately 900 million urban
@@ -87,6 +91,8 @@ The distribution of megacities has shifted markedly. In 1950, only New York and 
 Megacities, both in developed countries. By 2023, the majority of megacities are in developing
 Countries, predominantly in Asia and increasingly in Africa.
 
+<div class="table-wrap">
+
 | Megacity    | Country    | Population (2023, millions) |
 | ----------- | ---------- | --------------------------- |
 | Tokyo       | Japan      | 37                          |
@@ -99,6 +105,8 @@ Countries, predominantly in Asia and increasingly in Africa.
 | Mumbai      | India      | 22                          |
 | Beijing     | China      | 21                          |
 | Osaka-Kobe  | Japan      | 19                          |
+
+</div>
 
 ### Characteristics and Challenges
 
@@ -151,12 +159,16 @@ A primate city is a city that is disproportionately large relative to other citi
 Country. The primacy ratio is the population of the largest city divided by the population of the
 Second-largest city. A ratio exceeding 2:1 is generally considered to indicate primacy.
 
+<div class="table-wrap">
+
 | Country  | Primate City           | Second City               | Primacy Ratio |
 | -------- | ---------------------- | ------------------------- | ------------- |
 | Thailand | Bangkok (10.5 million) | Chiang Mai (0.13 million) | 81:1          |
 | Peru     | Lima (10.9 million)    | Arequipa (1.0 million)    | 11:1          |
 | France   | Paris (11.0 million)   | Lyon (1.7 million)        | 6.5:1         |
 | UK       | London (9.5 million)   | Birmingham (2.6 million)  | 3.7:1         |
+
+</div>
 
 **Causes of primacy.** Primate cities often result from colonial history (colonial powers
 Concentrated administration, trade, and infrastructure in a single port city), economic geography

@@ -561,6 +561,8 @@ replacement level of 2.1) and population decline.
 
 **Numerical example:** Country X has the following demographic data:
 
+<div class="table-wrap">
+
 | Stage   | Birth rate (per 1,000) | Death rate (per 1,000) | Natural increase     |
 | ------- | ---------------------- | ---------------------- | -------------------- |
 | Stage 1 | 40                     | 38                     | 2 per 1,000 (0.2%)   |
@@ -568,6 +570,8 @@ replacement level of 2.1) and population decline.
 | Stage 3 | 20                     | 10                     | 10 per 1,000 (1.0%)  |
 | Stage 4 | 12                     | 11                     | 1 per 1,000 (0.1%)   |
 | Stage 5 | 8                      | 12                     | -4 per 1,000 (-0.4%) |
+
+</div>
 
 The demographic dividend occurs during late Stage 2 and Stage 3, when the working-age Population
 grows faster than the dependent population (children and elderly), providing a Window for

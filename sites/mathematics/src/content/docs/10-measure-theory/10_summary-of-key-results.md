@@ -18,6 +18,8 @@ description: "Study notes for Summary of Key Results | Mathematics with worked e
 }
 </script>
 
+<div class="table-wrap">
+
 | Theorem                | Conditions                                | Conclusion                               |
 | ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
@@ -27,6 +29,8 @@ description: "Study notes for Summary of Key Results | Mathematics with worked e
 | Minkowski's Inequality | $f, g \in L^p$                            | $\|f + g\|_p \leq \|f\|_p + \|g\|_p$     |
 | Fubini                 | $f \in L^1(\mu \times \nu)$               | Iterated integrals equal double integral |
 | Radon-Nikodym          | $\nu \ll \mu$, $\sigma$-finite            | $d\nu/d\mu$ exists and is unique a.e.    |
+
+</div>
 
 ### Monotone Convergence Theorem
 
@@ -142,6 +146,8 @@ the Radon-Nikodym theorem connects measures via densities.
 
 ### Quick Reference: Measure Spaces
 
+<div class="table-wrap">
+
 | Concept | Definition | Example |
 | --------- | ----------- | --------- |
 | $\sigma$-algebra | Collection closed under complements and countable unions | Borel $\sigma$-algebra on $\mathbb{R}$ |
@@ -150,7 +156,11 @@ the Radon-Nikodym theorem connects measures via densities.
 | Almost everywhere | Property holds except on a null set | $f = g$ a.e. |
 | $L^p$ space | $\{f : \int \| f \| ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
 
+</div>
+
 ### Quick Reference: Convergence Modes
+
+<div class="table-wrap">
 
 | Mode of convergence | Definition | Relation to others |
 | -------------------- | ----------- | ------------------- |
@@ -160,7 +170,11 @@ the Radon-Nikodym theorem connects measures via densities.
 | In measure | $\mu\{ \| f_n - f \| > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
 | Weak $L^p$ | $\int f_n g \to \int f g$ for all $g \in L^q$ | Weakest of the $L^p$ modes |
 
+</div>
+
 ### Key Inequalities
+
+<div class="table-wrap">
 
 | Inequality | Statement | Use case |
 | ----------- | ----------- | ---------- |
@@ -169,6 +183,8 @@ the Radon-Nikodym theorem connects measures via densities.
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
 | Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |
+
+</div>
 
 ## Cross-References
 

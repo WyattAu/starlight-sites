@@ -197,12 +197,16 @@ WHERE NOT EXISTS (
 
 **Question:** The following table has update anomalies:
 
+<div class="table-wrap">
+
 | OrderID | CustomerName | CustomerCity | Product  | Quantity | Price |
 | ------- | ------------ | ------------ | -------- | -------- | ----- |
 | 1       | Smith        | London       | Laptop   | 2        | 500   |
 | 1       | Smith        | London       | Mouse    | 5        | 20    |
 | 2       | Jones        | Paris        | Laptop   | 1        | 500   |
 | 3       | Smith        | London       | Keyboard | 1        | 50    |
+
+</div>
 
 (a) Identify the normal form violations. (b) Normalise to 3NF, showing all tables with primary and
 foreign keys. (c) Explain what anomalies are eliminated at each stage.

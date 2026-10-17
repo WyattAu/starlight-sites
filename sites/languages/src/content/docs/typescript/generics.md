@@ -269,6 +269,8 @@ Types as a tuple.
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Utility Type               | Description                                   |
 | -------------------------- | --------------------------------------------- |
 | `Partial<T>`               | All properties of `T` become optional         |
@@ -284,6 +286,8 @@ Types as a tuple.
 | `Parameters<T>`            | Parameter types of function type `T` as tuple |
 | `ReadonlyArray<T>`         | Immutable array type                          |
 | `ConstructorParameters<T>` | Parameter types of constructor type `T`       |
+
+</div>
 
 ## Mapped Types
 
@@ -504,12 +508,16 @@ contravariant. This is unsound but matches pre-strict TypeScript behaviour.
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Variance      | `S extends T` implies            | Example                                                     |
 | ------------- | -------------------------------- | ----------------------------------------------------------- |
 | Covariant     | `F<S> extends F<T>`              | `string[] extends (string \| number)[]`                     |
 | Contravariant | `F<T> extends F<S>`              | `(x: Error) => void` assignable to `(x: TypeError) => void` |
 | Invariant     | No implication either way        | `Mutable<T>` -- must be exact type                          |
 | Bivariant     | Both covariant and contravariant | Function params without `strictFunctionTypes`               |
+
+</div>
 
 ### Invariance in Practice
 

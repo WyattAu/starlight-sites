@@ -349,6 +349,8 @@ The IB requires simultaneous preparation across six subjects, plus TOK, the Exte
 
 **Weekly schedule framework:**
 
+<div class="table-wrap">
+
 | Day | Focus | Time |
 | ----- | ------- | ------ |
 | Monday | HL Subject 1 + SL Subject 1 | 2–3 hours |
@@ -357,6 +359,8 @@ The IB requires simultaneous preparation across six subjects, plus TOK, the Exte
 | Thursday | TOK + Extended Essay work | 1–2 hours |
 | Friday | Weakest subject (extra practice) | 2 hours |
 | Weekend | Revision, flashcards, practice papers | 3–4 hours total |
+
+</div>
 
 ### The IB Assessment Approach
 

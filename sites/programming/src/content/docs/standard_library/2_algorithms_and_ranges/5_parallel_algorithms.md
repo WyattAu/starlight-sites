@@ -32,11 +32,15 @@ C++17 introduced **execution policies** as the first argument to many standard a
 Parallel and vectorized execution [N4950 §25.5]. The three standard policies are defined in
 `<execution>`:
 
+<div class="table-wrap">
+
 | Policy                      | Type                  | Behavior [N4950 §25.5.2]                                     |
 | --------------------------- | --------------------- | ------------------------------------------------------------ |
 | `std::execution::seq`       | Sequenced             | Sequential execution (default if no policy specified)        |
 | `std::execution::par`       | Parallel              | May execute in multiple threads                              |
 | `std::execution::par_unseq` | Parallel + Vectorized | May execute in multiple threads AND vectorize within threads |
+
+</div>
 
 #### Formal Semantics of Execution Policies
 
@@ -517,6 +521,8 @@ int main() {
 
 ### Comparison Table: Execution Policies
 
+<div class="table-wrap">
+
 | Property                 | `seq`              | `par`                    | `par_unseq`                 |
 | ------------------------ | ------------------ | ------------------------ | --------------------------- |
 | Threading                | Single             | Multiple                 | Multiple + SIMD             |
@@ -527,6 +533,8 @@ int main() {
 | Blocking calls           | Allowed            | Allowed                  | **Forbidden**               |
 | SIMD auto-vectorization  | Compiler-dependent | Implementation-dependent | Guaranteed permitted        |
 | Best for                 | Small data, debug  | Large data, CPU-bound    | Array math, no side effects |
+
+</div>
 
 ### Algorithmic Parallelism vs Task Parallelism
 
@@ -614,6 +622,8 @@ Default allocator. This separation is transparent to the user.
 
 ### Complete List of Parallel-Capable Algorithms [N4950 S25.7]
 
+<div class="table-wrap">
+
 | Algorithm                              | Parallel Overload | Notes                              |
 | -------------------------------------- | :---------------: | :--------------------------------- |
 | `std::adjacent_difference`             |        Yes        | Left-to-right order not guaranteed |
@@ -659,6 +669,8 @@ Default allocator. This separation is transparent to the user.
 | `std::uninitialized_value_construct`   |        Yes        |                                    |
 | `std::min_element` / `max_element`     |        Yes        | Returns any extremum               |
 | `std::minmax_element`                  |        Yes        |                                    |
+
+</div>
 
 ### Common Pitfalls
 

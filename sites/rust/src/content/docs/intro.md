@@ -76,6 +76,8 @@ Borrow checker operates. MIR is also used for:
 
 Rust uses a unified toolchain managed by `rustup`:
 
+<div class="table-wrap">
+
 | Component       | Purpose                                                    |
 | --------------- | ---------------------------------------------------------- |
 | `rustup`        | Toolchain installer and version manager                    |
@@ -84,6 +86,8 @@ Rust uses a unified toolchain managed by `rustup`:
 | `rustfmt`       | Code formatter                                             |
 | `clippy`        | Lint checker (catches common mistakes beyond the compiler) |
 | `rust-analyzer` | LSP implementation for IDE support                         |
+
+</div>
 
 Install the toolchain:
 
@@ -134,6 +138,8 @@ Key changes in Rust 2024:
 
 ## Where Rust Runs
 
+<div class="table-wrap">
+
 | Target                                        | Use Case                             |
 | --------------------------------------------- | ------------------------------------ |
 | **Embedded** (`thumbv7m-none-eabi``cortex-m`) | Microcontrollers, real-time systems  |
@@ -141,6 +147,8 @@ Key changes in Rust 2024:
 | **WebAssembly** (`wasm32-unknown-unknown`)    | Browser, edge computing              |
 | **Bare metal** (`x86_64-unknown-none`)        | OS kernels, bootloaders, hypervisors |
 | **Android/iOS**                               | Mobile via FFI or native modules     |
+
+</div>
 
 ## Common Pitfalls
 

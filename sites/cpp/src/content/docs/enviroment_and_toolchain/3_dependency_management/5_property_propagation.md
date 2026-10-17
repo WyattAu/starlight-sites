@@ -140,6 +140,8 @@ Tightly coupled architecture.
 The following table enumerates every CMake property that supports visibility scopes and documents
 the propagation behavior for each.
 
+<div class="table-wrap">
+
 | Property                    | `PRIVATE` (build only) | `INTERFACE` (consumers only) | `PUBLIC` (both) | Target command                       |
 | :-------------------------- | :--------------------- | :--------------------------- | :-------------- | :----------------------------------- |
 | Include directories         | Yes                    | Yes                          | Yes             | `target_include_directories`         |
@@ -155,6 +157,8 @@ the propagation behavior for each.
 | C++ standard level          | Yes                    | No                           | No              | `target_compile_features`            |
 | System include directories  | Yes                    | Yes                          | Yes             | `target_include_directories(SYSTEM)` |
 | Autogen include directories | Yes                    | No                           | No              | `target_include_directories` (Qt)    |
+
+</div>
 
 ### Key Observations
 
@@ -501,6 +505,8 @@ target_link_libraries(my-app PRIVATE http-client)
 
 ### What `my-app` Sees
 
+<div class="table-wrap">
+
 | Property                       | Propagated to `my-app`? | Reason                                             |
 | :----------------------------- | :---------------------- | :------------------------------------------------- |
 | `http-client` include dir      | Yes                     | `PUBLIC` on `http-client`                          |
@@ -509,6 +515,8 @@ target_link_libraries(my-app PRIVATE http-client)
 | `CURL::libcurl`                | No                      | `PRIVATE` on `http-client`                         |
 | `OpenSSL`                      | No                      | `PRIVATE` on `libcurl` (if set correctly by vcpkg) |
 | `zlib`                         | No                      | `PRIVATE` on `libcurl` (if set correctly by vcpkg) |
+
+</div>
 
 **Result:** `my-app` can include `<nlohmann/json.hpp>` and `<http_client.h>` but cannot directly
 Include `<curl/curl.h>`. If `my-app` needs curl directly, it must add `CURL::libcurl` to its own
@@ -595,6 +603,8 @@ target_link_libraries(my-app PRIVATE json-wrapper)
 Every `target_link_libraries` call with `PUBLIC` or `INTERFACE` scope triggers the propagation of
 all `INTERFACE_*` properties from the linked target. The complete list of propagated properties:
 
+<div class="table-wrap">
+
 | Propagated Property                   | Set by                                   | Effect on consumer                     |
 | :------------------------------------ | :--------------------------------------- | :------------------------------------- |
 | `INTERFACE_INCLUDE_DIRECTORIES`       | `target_include_directories(... PUBLIC)` | Adds to consumer's `-I` paths          |
@@ -605,6 +615,8 @@ all `INTERFACE_*` properties from the linked target. The complete list of propag
 | `INTERFACE_LINK_DIRECTORIES`          | `target_link_directories(... PUBLIC)`    | Adds to consumer's `-L` paths          |
 | `INTERFACE_COMPILE_FEATURES`          | `target_compile_features(... PUBLIC)`    | Enables C++ features for consumer      |
 | `INTERFACE_POSITION_INDEPENDENT_CODE` | `set_target_properties(PIC)`             | Enables PIC for consumer               |
+
+</div>
 
 This is why a single `PUBLIC` link can cause a cascade of changes: it propagates not just the link
 Dependency, but all of the linked target's own transitive usage requirements.
@@ -696,6 +708,8 @@ add_custom_target(debug_props
 
 The following table lists commonly used generator expressions for property propagation control.
 
+<div class="table-wrap">
+
 | Expression                                       | Evaluates to                           | Use case                        |
 | :----------------------------------------------- | :------------------------------------- | :------------------------------ |
 | `$<CONFIG:Debug>`                                | `1` in Debug, `0` otherwise            | Configuration-specific options  |
@@ -711,6 +725,8 @@ The following table lists commonly used generator expressions for property propa
 | `$<COMPILE_LANGUAGE:C>`                          | `1` for C sources only                 | C-only compile options          |
 | `$<AND:$<CONFIG:Debug>,$<PLATFORM_ID:Linux>>`    | Logical AND                            | Complex conditions              |
 | `$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>` | Logical OR                             | Multiple config conditions      |
+
+</div>
 
 ## See Also
 

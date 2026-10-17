@@ -68,6 +68,8 @@ number of electron domains and the predicted geometry.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Molecule             | Valence e$^-$ on central              | Electron domains | Hybridisation | Geometry           |
 | -------------------- | ------------------------------------- | ---------------- | ------------- | ------------------ |
 | $\text{BF}_3$        | 3 (B) + 3 (from bonds) = 6, 3 pairs   | 3                | $sp^2$        | Trigonal planar    |
@@ -75,6 +77,8 @@ number of electron domains and the predicted geometry.
 | $\text{H}_2\text{O}$ | 6 (O) + 2 (from bonds) = 8, 4 pairs   | 4                | $sp^3$        | Bent               |
 | $\text{XeF}_2$       | 8 (Xe) + 2 (from bonds) = 10, 5 pairs | 5                | $sp^3d$       | Linear             |
 | $\text{BrF}_5$       | 7 (Br) + 5 (from bonds) = 12, 6 pairs | 6                | $sp^3d^2$     | Square pyramidal   |
+
+</div>
 
 Hybridisation rule: number of electron domains = number of hybrid orbitals: 2 ($sp$), 3 ($sp^2$), 4
 ($sp^3$), 5 ($sp^3d$), 6 ($sp^3d^2$).

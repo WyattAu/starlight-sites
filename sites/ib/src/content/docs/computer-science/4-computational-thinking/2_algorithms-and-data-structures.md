@@ -192,6 +192,8 @@ END FUNCTION
 
 With input `n = 4`. The trace table is:
 
+<div class="table-wrap">
+
 | Step | i   | n   | total | i `$\le$` n |
 | ---- | --- | --- | ----- | ----------- |
 | 1    | 1   | 4   | 0     | True        |
@@ -202,6 +204,8 @@ With input `n = 4`. The trace table is:
 | 6    | 3   | 4   | 6     | True        |
 | 7    | 4   | 4   | 6     | True        |
 | 8    | 4   | 4   | 10    | False       |
+
+</div>
 
 The final value of `total` is 10, which equals $1 + 2 + 3 + 4 = 10$. The algorithm is correct for
 this input. A trace table does not prove correctness for all inputs, but it builds confidence and
@@ -228,6 +232,8 @@ With input `arr = [3, 7, 2, 9, 4]`Construct the trace table.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | i   | arr[i] | max | arr[i] `>` max |
 | ---- | --- | ------ | --- | -------------- |
 | 1    | --  | --     | 3   | --             |
@@ -237,6 +243,8 @@ With input `arr = [3, 7, 2, 9, 4]`Construct the trace table.
 | 5    | 3   | 9      | 7   | True           |
 | 6    | 3   | 9      | 9   | --             |
 | 7    | 4   | 4      | 9   | False          |
+
+</div>
 
 The function returns 9. Total comparisons: 4 (one per loop iteration).
 
@@ -294,11 +302,15 @@ END FUNCTION
 
 **Trace with `arr = [7, 3, 9, 1, 5]`, `target = 9`:**
 
+<div class="table-wrap">
+
 | Step | i   | arr[i] | arr[i] = target | Action   |
 | ---- | --- | ------ | --------------- | -------- |
 | 1    | 0   | 7      | False           | Continue |
 | 2    | 1   | 3      | False           | Continue |
 | 3    | 2   | 9      | True            | Return 2 |
+
+</div>
 
 The target is found at index 2. If the target were 6, the algorithm would examine all five elements
 and return -1.
@@ -333,6 +345,8 @@ FUNCTION countOccurrences(arr, target) RETURNS INTEGER
 END FUNCTION
 ```
 
+<div class="table-wrap">
+
 | Step | i   | arr[i] | arr[i] = target | count |
 | ---- | --- | ------ | --------------- | ----- |
 | 1    | 0   | 3      | True            | 1     |
@@ -341,6 +355,8 @@ END FUNCTION
 | 4    | 3   | 1      | False           | 2     |
 | 5    | 4   | 3      | True            | 3     |
 | 6    | 5   | 9      | False           | 3     |
+
+</div>
 
 The function returns 3. The target 3 appears at indices 0, 2, and 4.
 
@@ -388,18 +404,28 @@ Search will produce incorrect results. This is a critical distinction from linea
 
 **Trace with `arr = [1, 3, 5, 7, 9, 11, 13]`, `target = 7`:**
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison | Action   |
 | ---- | --- | ---- | --- | -------- | ---------- | -------- |
 | 1    | 0   | 6    | 3   | 7        | 7 = 7      | Return 3 |
 
+</div>
+
 The target is found immediately in the first iteration. Now consider `target = 11`:
+
+<div class="table-wrap">
 
 | Step | low | high | mid | arr[mid] | Comparison  | Action   |
 | ---- | --- | ---- | --- | -------- | ----------- | -------- |
 | 1    | 0   | 6    | 3   | 7        | 7 `&lt;` 11 | low = 4  |
 | 2    | 4   | 6    | 5   | 11       | 11 = 11     | Return 5 |
 
+</div>
+
 And `target = 4` (not present):
+
+<div class="table-wrap">
 
 | Step | low | high | mid | arr[mid] | Comparison      | Action    |
 | ---- | --- | ---- | --- | -------- | --------------- | --------- |
@@ -407,6 +433,8 @@ And `target = 4` (not present):
 | 2    | 0   | 2    | 1   | 3        | 3 `&lt;` 4      | low = 2   |
 | 3    | 2   | 2    | 2   | 5        | 5 `&gt;` 4      | high = 1  |
 | 4    | 2   | 1    | --  | --       | low `&gt;` high | Return -1 |
+
+</div>
 
 When `low` exceeds `high`. The search space is empty and the target is confirmed absent.
 
@@ -428,11 +456,15 @@ iterations.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison   | Action   |
 | ---- | --- | ---- | --- | -------- | ------------ | -------- |
 | 1    | 0   | 9    | 4   | 16       | 16 `&lt;` 23 | low = 5  |
 | 2    | 5   | 9    | 7   | 56       | 56 `&gt;` 23 | high = 6 |
 | 3    | 5   | 6    | 5   | 23       | 23 = 23      | Return 5 |
+
+</div>
 
 Found at index 5 in 3 iterations. The array has 10 elements, and $\lvert \log_2 10 \rvert = 4$ So 3
 iterations is within the expected $O(\log n)$ bound.
@@ -447,6 +479,8 @@ iterations and explain why the algorithm correctly determines the element is abs
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison      | Action    |
 | ---- | --- | ---- | --- | -------- | --------------- | --------- |
 | 1    | 0   | 9    | 4   | 16       | 16 `&gt;` 15    | high = 3  |
@@ -454,6 +488,8 @@ iterations and explain why the algorithm correctly determines the element is abs
 | 3    | 2   | 3    | 2   | 8        | 8 `&lt;` 15     | low = 3   |
 | 4    | 3   | 3    | 3   | 12       | 12 `&lt;` 15    | low = 4   |
 | 5    | 4   | 3    | --  | --       | low `&gt;` high | Return -1 |
+
+</div>
 
 After 4 iterations, `low = 4` exceeds `high = 3`. The search interval is empty. At this point, the
 algorithm has eliminated all possible positions for 15. Specifically, element 12 (index 3) is the
@@ -478,6 +514,8 @@ There is no gap between them for 15 to occupy.
 
 ### Comparison of Search Algorithms
 
+<div class="table-wrap">
+
 | Property               | Linear Search | Binary Search       |
 | ---------------------- | ------------- | ------------------- |
 | Worst-case time        | $O(n)$        | $O(\log n)$         |
@@ -487,6 +525,8 @@ There is no gap between them for 15 to occupy.
 | Precondition           | None          | Data must be sorted |
 | Works on unsorted?     | Yes           | No                  |
 | Works on linked lists? | Yes           | No (without tricks) |
+
+</div>
 
 The choice between linear and binary search depends on the data characteristics. If data is unsorted
 and only searched occasionally, linear search is appropriate. If data is sorted or can be
@@ -549,6 +589,8 @@ Largest unsorted element is guaranteed to be in its final position after each pa
 
 Pass 1:
 
+<div class="table-wrap">
+
 | Comparison | arr[i] | arr[i+1] | Swap? | Array State     |
 | ---------- | ------ | -------- | ----- | --------------- |
 | i = 0      | 5      | 1        | Yes   | [1, 5, 4, 2, 8] |
@@ -556,9 +598,13 @@ Pass 1:
 | i = 2      | 5      | 2        | Yes   | [1, 4, 2, 5, 8] |
 | i = 3      | 5      | 8        | No    | [1, 4, 2, 5, 8] |
 
+</div>
+
 After Pass 1: [1, 4, 2, 5, 8]. Swaps occurred, so continue.
 
 Pass 2:
+
+<div class="table-wrap">
 
 | Comparison | arr[i] | arr[i+1] | Swap? | Array State     |
 | ---------- | ------ | -------- | ----- | --------------- |
@@ -566,14 +612,20 @@ Pass 2:
 | i = 1      | 4      | 2        | Yes   | [1, 2, 4, 5, 8] |
 | i = 2      | 4      | 5        | No    | [1, 2, 4, 5, 8] |
 
+</div>
+
 After Pass 2: [1, 2, 4, 5, 8]. Swaps occurred, so continue.
 
 Pass 3:
+
+<div class="table-wrap">
 
 | Comparison | arr[i] | arr[i+1] | Swap? | Array State     |
 | ---------- | ------ | -------- | ----- | --------------- |
 | i = 0      | 1      | 2        | No    | [1, 2, 4, 5, 8] |
 | i = 1      | 2      | 4        | No    | [1, 2, 4, 5, 8] |
+
+</div>
 
 After Pass 3: [1, 2, 4, 5, 8]. No swaps occurred; algorithm terminates.
 
@@ -597,6 +649,8 @@ performed.
 
 Pass 1 (n = 5, comparing indices 0--3):
 
+<div class="table-wrap">
+
 | i   | arr[i] | arr[i+1] | Swap? | Array State     |
 | --- | ------ | -------- | ----- | --------------- |
 | 0   | 4      | 2        | Yes   | [2, 4, 5, 1, 3] |
@@ -604,9 +658,13 @@ Pass 1 (n = 5, comparing indices 0--3):
 | 2   | 5      | 1        | Yes   | [2, 4, 1, 5, 3] |
 | 3   | 5      | 3        | Yes   | [2, 4, 1, 3, 5] |
 
+</div>
+
 Comparisons: 4, Swaps: 3
 
 Pass 2 (n = 4, comparing indices 0--2):
+
+<div class="table-wrap">
 
 | i   | arr[i] | arr[i+1] | Swap? | Array State     |
 | --- | ------ | -------- | ----- | --------------- |
@@ -614,22 +672,32 @@ Pass 2 (n = 4, comparing indices 0--2):
 | 1   | 4      | 1        | Yes   | [2, 1, 4, 3, 5] |
 | 2   | 4      | 3        | Yes   | [2, 1, 3, 4, 5] |
 
+</div>
+
 Comparisons: 3, Swaps: 2
 
 Pass 3 (n = 3, comparing indices 0--1):
+
+<div class="table-wrap">
 
 | i   | arr[i] | arr[i+1] | Swap? | Array State     |
 | --- | ------ | -------- | ----- | --------------- |
 | 0   | 2      | 1        | Yes   | [1, 2, 3, 4, 5] |
 | 1   | 2      | 3        | No    | [1, 2, 3, 4, 5] |
 
+</div>
+
 Comparisons: 2, Swaps: 1
 
 Pass 4 (n = 2, comparing indices 0--0):
 
+<div class="table-wrap">
+
 | i   | arr[i] | arr[i+1] | Swap? | Array State     |
 | --- | ------ | -------- | ----- | --------------- |
 | 0   | 1      | 2        | No    | [1, 2, 3, 4, 5] |
+
+</div>
 
 Comparisons: 1, Swaps: 0
 
@@ -681,12 +749,16 @@ END PROCEDURE
 
 **Trace with `arr = [64, 25, 12, 22, 11]`:**
 
+<div class="table-wrap">
+
 | Pass | Unsorted Portion     | minIndex | Swap With | Array State          |
 | ---- | -------------------- | -------- | --------- | -------------------- |
 | 0    | [64, 25, 12, 22, 11] | 4        | index 0   | [11, 25, 12, 22, 64] |
 | 1    | [25, 12, 22, 64]     | 2        | index 1   | [11, 12, 25, 22, 64] |
 | 2    | [25, 22, 64]         | 3        | index 2   | [11, 12, 22, 25, 64] |
 | 3    | [25, 64]             | 3        | No swap   | [11, 12, 22, 25, 64] |
+
+</div>
 
 **Time complexity:** Selection sort always performs $\frac{n(n-1)}{2}$ comparisons regardless of
 Input order, giving $O(n^2)$ in all cases. The number of swaps is at most $n - 1$ Which is
@@ -706,11 +778,15 @@ first 4 as $4_a$ (index 0) and the second as $4_b$ (index 1).
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Pass | minIndex | Swap | Array State        | Note                   |
 | ---- | -------- | ---- | ------------------ | ---------------------- |
 | 0    | 3        | Yes  | `[1, 4_b, 2, 4_a]` | $4_a$ moved to index 3 |
 | 1    | 2        | Yes  | `[1, 2, 4_b, 4_a]` |                        |
 | 2    | 2        | No   | `[1, 2, 4_b, 4_a]` | minIndex = i, no swap  |
+
+</div>
 
 Final result: `[1, 2, 4_b, 4_a]`. Originally, $4_a$ came before $4_b$. After sorting, $4_b$ comes
 before $4_a$. The relative order of equal elements has been reversed, confirming that selection sort
@@ -743,12 +819,16 @@ END PROCEDURE
 
 **Trace with `arr = [12, 11, 13, 5, 6]`:**
 
+<div class="table-wrap">
+
 | Pass | key | Sorted Before Insertion | Shifts | Array State        |
 | ---- | --- | ----------------------- | ------ | ------------------ |
 | 1    | 11  | [12]                    | 1      | [11, 12, 13, 5, 6] |
 | 2    | 13  | [11, 12]                | 0      | [11, 12, 13, 5, 6] |
 | 3    | 5   | [11, 12, 13]            | 3      | [5, 11, 12, 13, 6] |
 | 4    | 6   | [5, 11, 12, 13]         | 3      | [5, 6, 11, 12, 13] |
+
+</div>
 
 **Time complexity:** In the worst case (reverse-sorted), each insertion shifts all previously sorted
 Elements, requiring $\frac{n(n-1)}{2}$ comparisons and shifts, giving $O(n^2)$. In the best case
@@ -772,12 +852,16 @@ shifts.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Pass | key | Sorted Before | j values checked | Shifts | Array State     |
 | ---- | --- | ------------- | ---------------- | ------ | --------------- |
 | 1    | 2   | [1]           | j = 0            | 0      | [1, 2, 4, 5, 3] |
 | 2    | 4   | [1, 2]        | j = 1            | 0      | [1, 2, 4, 5, 3] |
 | 3    | 5   | [1, 2, 4]     | j = 2            | 0      | [1, 2, 4, 5, 3] |
 | 4    | 3   | [1, 2, 4, 5]  | j = 3, 2         | 2      | [1, 2, 3, 4, 5] |
+
+</div>
 
 Detailed trace for pass 4 (key = 3):
 
@@ -880,6 +964,8 @@ step by step to produce the merged result.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | i   | j   | k   | left[i] | right[j] | Comparison   | arr[k] | Merged so far        |
 | ---- | --- | --- | --- | ------- | -------- | ------------ | ------ | -------------------- |
 | 1    | 0   | 0   | 0   | 2       | 4        | 2 `&lt;` 4   | 2      | [2, ?, ?, ?, ?, ?]   |
@@ -888,6 +974,8 @@ step by step to produce the merged result.
 | 4    | 2   | 1   | 3   | 11      | 8        | 11 `&gt;` 8  | 8      | [2, 4, 7, 8, ?, ?]   |
 | 5    | 2   | 2   | 4   | 11      | 15       | 11 `&lt;` 15 | 11     | [2, 4, 7, 8, 11, ?]  |
 | 6    | 3   | 2   | 5   | --      | 15       | i exhausted  | 15     | [2, 4, 7, 8, 11, 15] |
+
+</div>
 
 Final merged array: `[2, 4, 7, 8, 11, 15]`. Total comparisons: 5. The merge step always processes
 all $n = 6$ elements in $O(n)$ time.
@@ -966,6 +1054,8 @@ element). Show the array after each swap and state the final pivot index.
 
 Initial: pivot = 4, i = -1
 
+<div class="table-wrap">
+
 | j   | arr[j] | arr[j] `$\le$` 4? | Action                      | i   | Array State              |
 | --- | ------ | ----------------- | --------------------------- | --- | ------------------------ |
 | 0   | 7      | No                | Skip                        | -1  | [7, 2, 1, 6, 8, 5, 3, 4] |
@@ -975,6 +1065,8 @@ Initial: pivot = 4, i = -1
 | 4   | 8      | No                | Skip                        | 1   | [2, 1, 7, 6, 8, 5, 3, 4] |
 | 5   | 5      | No                | Skip                        | 1   | [2, 1, 7, 6, 8, 5, 3, 4] |
 | 6   | 3      | Yes               | i=2, swap arr[2] and arr[6] | 2   | [2, 1, 3, 6, 8, 5, 7, 4] |
+
+</div>
 
 Final step: swap arr[i+1] and arr[high], i.e. Swap arr[3] and arr[7]:
 
@@ -1023,6 +1115,8 @@ or a random pivot.
 
 ### Sorting Algorithm Comparison
 
+<div class="table-wrap">
+
 | Algorithm      | Best Case     | Average Case  | Worst Case    | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
@@ -1030,6 +1124,8 @@ or a random pivot.
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
+
+</div>
 
 :::note
 Consider the data size, whether the data is nearly sorted, memory constraints, and whether stability
@@ -1059,6 +1155,8 @@ Amortized $O(1)$ insertion at the end.
 
 **Operations and their complexities:**
 
+<div class="table-wrap">
+
 | Operation          | Time Complexity  | Notes                                     |
 | ------------------ | ---------------- | ----------------------------------------- |
 | Access by index    | $O(1)$           | Direct memory address calculation         |
@@ -1067,6 +1165,8 @@ Amortized $O(1)$ insertion at the end.
 | Insert at end      | $O(1)$ amortized | Dynamic array; $O(n)$ worst case (resize) |
 | Insert at position | $O(n)$           | Shifts all subsequent elements            |
 | Delete at position | $O(n)$           | Shifts all subsequent elements            |
+
+</div>
 
 The $O(1)$ access time is the defining advantage of arrays. The memory address of element `arr[i]`
 Is computed as:
@@ -1160,6 +1260,8 @@ END PROCEDURE
 
 **Operations and their complexities:**
 
+<div class="table-wrap">
+
 | Operation                   | Singly Linked | Doubly Linked | Array            |
 | --------------------------- | ------------- | ------------- | ---------------- |
 | Access by index             | $O(n)$        | $O(n)$        | $O(1)$           |
@@ -1170,6 +1272,8 @@ END PROCEDURE
 | Insert after given node     | $O(1)$        | $O(1)$        | $O(n)$           |
 | Search                      | $O(n)$        | $O(n)$        | $O(n)$           |
 | Memory overhead per element | 1 pointer     | 2 pointers    | 0                |
+
+</div>
 
 **Advantages of linked lists:** Dynamic size, $O(1)$ insertion and deletion at the head (and tail
 For doubly linked lists with a tail pointer), no need for contiguous memory, no wasted memory from
@@ -1314,6 +1418,8 @@ Use a stack to determine whether `"{[()()]}"` is balanced. Show the stack after 
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Character | Action             | Stack (top on right) |
 | ---- | --------- | ------------------ | -------------------- |
 | 1    | `{`       | `Push {`           | `{`                  |
@@ -1324,6 +1430,8 @@ Use a stack to determine whether `"{[()()]}"` is balanced. Show the stack after 
 | 6    | )         | Pop (, matches )   | `{, [`               |
 | 7    | ]         | Pop [, matches ]   | `{`                  |
 | 8    | `}`       | `Pop {, matches }` | (empty)              |
+
+</div>
 
 The stack is empty at the end, so the expression is balanced.
 
@@ -1336,6 +1444,8 @@ Evaluate the postfix expression `5 3 2 * + 4 -` using a stack. Show the stack af
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Token | Action                        | Stack (top on right) |
 | ---- | ----- | ----------------------------- | -------------------- |
 | 1    | 5     | Push 5                        | 5                    |
@@ -1345,6 +1455,8 @@ Evaluate the postfix expression `5 3 2 * + 4 -` using a stack. Show the stack af
 | 5    | +     | Pop 6 and 5, push 5 + 6 = 11  | 11                   |
 | 6    | 4     | Push 4                        | 11, 4                |
 | 7    | -     | Pop 4 and 11, push 11 - 4 = 7 | 7                    |
+
+</div>
 
 Result: 7. Verification: `5 + (3 * 2) - 4 = 5 + 6 - 4 = 7`. Correct.
 
@@ -1466,11 +1578,15 @@ minute per page. In what order do jobs complete, and when does each finish?
 
 FIFO ordering means jobs print in arrival order:
 
+<div class="table-wrap">
+
 | Job  | Pages | Start Time | End Time |
 | ---- | ----- | ---------- | -------- |
 | Job1 | 3     | 0 min      | 3 min    |
 | Job2 | 1     | 3 min      | 4 min    |
 | Job3 | 5     | 4 min      | 9 min    |
+
+</div>
 
 Total: 9 minutes. The queue ensures strict FIFO ordering. A priority queue would be needed if jobs
 had different priorities.
@@ -1605,11 +1721,15 @@ END PROCEDURE
 
 **BST complexities:**
 
+<div class="table-wrap">
+
 | Operation | Average Case | Worst Case | Notes                                |
 | --------- | ------------ | ---------- | ------------------------------------ |
 | Search    | $O(\log n)$  | $O(n)$     | Worst case: degenerate (skewed) tree |
 | Insert    | $O(\log n)$  | $O(n)$     | Same as search                       |
 | Delete    | $O(\log n)$  | $O(n)$     | Requires finding inorder successor   |
+
+</div>
 
 The worst case occurs when the tree becomes degenerate (essentially a linked list), which happens
 when elements are inserted in sorted order. Self-balancing BSTs (AVL trees, Red-Black trees)
@@ -1744,11 +1864,15 @@ Disadvantages: more complex deletion, susceptible to clustering, sensitive to lo
 
 **Time complexity:**
 
+<div class="table-wrap">
+
 | Operation | Average Case | Worst Case |
 | --------- | ------------ | ---------- |
 | Search    | $O(1)$       | $O(n)$     |
 | Insert    | $O(1)$       | $O(n)$     |
 | Delete    | $O(1)$       | $O(n)$     |
+
+</div>
 
 Average-case $O(1)$ assumes a good hash function and a load factor bounded by a constant. The worst
 Case $O(n)$ occurs when all keys hash to the same bucket, reducing the hash table to a single linked
@@ -1764,6 +1888,8 @@ collision resolution. Insert the keys 15, 11, 22, 8, 29, 1 (in that order). Then
 
 **Insertions:**
 
+<div class="table-wrap">
+
 | Key | $h(k) = k \mod 7$ | Bucket | Action           |
 | --- | ----------------- | ------ | ---------------- |
 | 15  | 15 mod 7 = 1      | 1      | Insert at head   |
@@ -1773,7 +1899,11 @@ collision resolution. Insert the keys 15, 11, 22, 8, 29, 1 (in that order). Then
 | 29  | 29 mod 7 = 1      | 1      | Collision; chain |
 | 1   | 1 mod 7 = 1       | 1      | Collision; chain |
 
+</div>
+
 **Table state after all insertions:**
+
+<div class="table-wrap">
 
 | Bucket | Linked List (head first) |
 | ------ | ------------------------ |
@@ -1784,6 +1914,8 @@ collision resolution. Insert the keys 15, 11, 22, 8, 29, 1 (in that order). Then
 | 4      | 11                       |
 | 5      | (empty)                  |
 | 6      | (empty)                  |
+
+</div>
 
 **Search for 22:**
 
@@ -1803,6 +1935,8 @@ A hash table with $m = 10$ buckets uses $h(k) = k \mod 10$ with linear probing. 
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Key | $h(k)$ | Probe Sequence                  | Final Slot | Table (0--9)                           |
 | ---- | --- | ------ | ------------------------------- | ---------- | -------------------------------------- |
 | 1    | 42  | 2      | 2                               | 2          | `[_, _, 42, _, _, _, _, _, _, _]`      |
@@ -1811,6 +1945,8 @@ A hash table with $m = 10$ buckets uses $h(k) = k \mod 10$ with linear probing. 
 | 4    | 52  | 2      | 2 (full), 3 (full), 4 (full), 5 | 5          | `[_, _, 42, 23, 34, 52, _, _, _, _]`   |
 | 5    | 15  | 5      | 5 (full), 6                     | 6          | `[_, _, 42, 23, 34, 52, 15, _, _, _]`  |
 | 6    | 22  | 2      | 2, 3, 4, 5, 6, 7                | 7          | `[_, _, 42, 23, 34, 52, 15, 22, _, _]` |
+
+</div>
 
 Note how 52, 15, and 22 all hash to low-indexed buckets but get placed further away due to
 clustering. This illustrates the **primary clustering** problem of linear probing.
@@ -2380,11 +2516,15 @@ step.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison   | Action   |
 | ---- | --- | ---- | --- | -------- | ------------ | -------- |
 | 1    | 0   | 9    | 4   | 15       | 15 `&lt;` 18 | low = 5  |
 | 2    | 5   | 9    | 7   | 25       | 25 `&gt;` 18 | high = 6 |
 | 3    | 5   | 6    | 5   | 18       | 18 = 18      | Return 5 |
+
+</div>
 
 Found at index 5 after 3 comparisons.
 
@@ -2593,6 +2733,8 @@ A queue initially contains `[A, B, C]` (front = A). Perform:
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Operation  | Queue State  |
 | ---- | ---------- | ------------ |
 | 0    | Initial    | [A, B, C]    |
@@ -2601,6 +2743,8 @@ A queue initially contains `[A, B, C]` (front = A). Perform:
 | 3    | enqueue(E) | [B, C, D, E] |
 | 4    | dequeue()  | [C, D, E]    |
 | 5    | enqueue(F) | [C, D, E, F] |
+
+</div>
 
 FIFO maintained: elements removed in arrival order.
 
@@ -2644,9 +2788,13 @@ order). Show the table and the probe sequence for searching key 22.
 Insertions: 12->slot 2, 7->slot 2(collision)->slot 3, 15->slot 0, 22->slot
 2(collision)->3(collision)->4, 3->slot 3(collision)->4(collision)->0(collision)->1.
 
+<div class="table-wrap">
+
 | Slot | 0   | 1   | 2   | 3   | 4   |
 | ---- | --- | --- | --- | --- | --- |
 | Key  | 15  | 3   | 12  | 7   | 22  |
+
+</div>
 
 Search for 22: $h(22) = 2$. Slot 2: 12 != 22. Slot 3: 7 != 22. Slot 4: 22 = 22. Found in 3 probes.
 
@@ -2689,6 +2837,8 @@ Given adjacency list: A:[B,C], B:[A,D,E], C:[A,F], D:[B], E:[B,F], F:[C,E]. Perf
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Dequeue | Visit | Enqueue         | Queue     |
 | ---- | ------- | ----- | --------------- | --------- |
 | 0    | --      | A     | B, C            | [B, C]    |
@@ -2697,6 +2847,8 @@ Given adjacency list: A:[B,C], B:[A,D,E], C:[A,F], D:[B], E:[B,F], F:[C,E]. Perf
 | 3    | D       | D     | (all visited)   | [E, F]    |
 | 4    | E       | E     | (F already q'd) | [F]       |
 | 5    | F       | F     | (all visited)   | []        |
+
+</div>
 
 BFS order: **A, B, C, D, E, F** (level-by-level: distance 0, then 1, then 2).
 
@@ -2758,6 +2910,8 @@ C --2-- E --1-- F
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Visit | Distances updated   |
 | ---- | ----- | ------------------- |
 | 1    | A     | B=3, C=5            |
@@ -2767,6 +2921,10 @@ C --2-- E --1-- F
 | 5    | D     | F=9(no improvement) |
 | 6    | F     | Complete            |
 
+</div>
+
+<div class="table-wrap">
+
 | Vertex | Distance | Path             |
 | ------ | -------- | ---------------- |
 | A      | 0        | A                |
@@ -2775,6 +2933,8 @@ C --2-- E --1-- F
 | D      | 5        | A -> B -> D      |
 | E      | 4        | A -> B -> E      |
 | F      | 5        | A -> B -> E -> F |
+
+</div>
 
 </details>
 
@@ -2814,10 +2974,14 @@ _If you get this wrong, revise: [Queues](#queues) and
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                                       | Site       | Link                                                                                                                    |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://computer-science.wyattau.com/) |
+
+</div>
 
 ```mermaid
 flowchart TD

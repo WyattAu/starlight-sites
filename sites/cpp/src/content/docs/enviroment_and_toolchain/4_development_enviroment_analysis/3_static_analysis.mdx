@@ -172,6 +172,8 @@ Capabilities for C++.
 
 ### Comparison of Analysis Techniques
 
+<div class="table-wrap">
+
 | Technique               | Precision | Cost      | Tools Using It           |
 | :---------------------- | :-------- | :-------- | :----------------------- |
 | AST Pattern Matching    | Low       | Very Low  | clang-tidy (most checks) |
@@ -179,6 +181,8 @@ Capabilities for C++.
 | Path-Sensitive          | High      | High      | clang-analyzer, Coverity |
 | Abstract Interpretation | High      | Very High | Polyspace, Astrée        |
 | Taint Analysis          | High      | High      | PVS-Studio, SonarQube    |
+
+</div>
 
 ## 3. Cppcheck (The Data Flow Analyzer)
 
@@ -329,6 +333,8 @@ Checks incrementally without overwhelming the build with warnings.
 
 Modernizes code to use contemporary C++ idioms. These are the safest checks to enable first.
 
+<div class="table-wrap">
+
 | Check                            | What it does                                         | Example                                        |
 | :------------------------------- | :--------------------------------------------------- | :--------------------------------------------- |
 | `modernize-use-std-print`        | Replaces `std::cout` / `printf` with `std::print`    | `std::cout &lt;&lt; x` → `std::print("{}", x)` |
@@ -340,9 +346,13 @@ Modernizes code to use contemporary C++ idioms. These are the safest checks to e
 | `modernize-loop-convert`         | Converts `for` loops to range-for where applicable   | Index-based → range-based                      |
 | `modernize-use-starts-ends-with` | Replaces hand-rolled prefix/suffix checks            | `s.find(x) == 0` → `s.starts_with(x)`          |
 
+</div>
+
 ### 7.2 bugprone-\*
 
 Catches common mistakes that compilers often miss. These are higher-priority checks.
+
+<div class="table-wrap">
 
 | Check                                 | What it detects                                        |
 | :------------------------------------ | :----------------------------------------------------- |
@@ -354,10 +364,14 @@ Catches common mistakes that compilers often miss. These are higher-priority che
 | `bugprone-sizeof-expression`          | `sizeof(ptr)` instead of `sizeof(*ptr)`                |
 | `bugprone-integer-division`           | Integer division where floating-point was intended     |
 
+</div>
+
 ### 7.3 readability-\*
 
 Enforces consistent style. Some are opinionated, disable the ones that conflict with your project's
 Conventions.
+
+<div class="table-wrap">
 
 | Check                                  | What it does                                        |
 | :------------------------------------- | :-------------------------------------------------- |
@@ -368,9 +382,13 @@ Conventions.
 | `readability-implicit-bool-conversion` | Flags implicit conversions to/from `bool`           |
 | `readability-simplify-boolean-expr`    | Simplifies redundant boolean expressions            |
 
+</div>
+
 ### 7.4 performance-\*
 
 Identifies patterns that prevent the compiler from generating optimal code.
+
+<div class="table-wrap">
 
 | Check                                         | What it detects                                            |
 | :-------------------------------------------- | :--------------------------------------------------------- |
@@ -379,6 +397,8 @@ Identifies patterns that prevent the compiler from generating optimal code.
 | `performance-for-range-copy`                  | Range-for loop copies elements instead of using references |
 | `performance-no-int-to-ptr`                   | Integer-to-pointer conversion without `reinterpret_cast`   |
 | `performance-move-const-arg`                  | Moving from a const value (copy, not move, occurs)         |
+
+</div>
 
 ## 8. Incremental Adoption Strategy
 
@@ -469,6 +489,8 @@ cppcheck --enable=all --htmlstep=2 --report-minimum-severity=warning src/ --outp
 
 ### Tool Comparison Table
 
+<div class="table-wrap">
+
 | Feature             | Clang-Tidy                        | Cppcheck                              | PVS-Studio                   | SonarQube                      |
 | :------------------ | :-------------------------------- | :------------------------------------ | :--------------------------- | :----------------------------- |
 | Parser              | Clang AST (full C++ support)      | Custom parser (limited templates)     | Clang-based + custom         | Clang-based                    |
@@ -483,6 +505,8 @@ cppcheck --enable=all --htmlstep=2 --report-minimum-severity=warning src/ --outp
 | Licensing           | Open source (Apache 2.0)          | Open source (GPL)                     | Commercial                   | Commercial                     |
 | Best at             | Style, modernization, refactoring | Buffer overruns, leaks, uninitialized | Complex logic bugs, security | Code quality metrics, security |
 
+</div>
+
 ### When to Use Both
 
 In practice, using **both** tools catches the widest range of bugs. Clang-tidy excels at
@@ -495,6 +519,8 @@ Beyond correctness and style, static analysis tools can enforce security rules f
 Coding Standard**. Clang-tidy includes the `cert-*` check group, which maps directly to CERT
 Recommendations:
 
+<div class="table-wrap">
+
 | CERT Rule | clang-tidy Check | Vulnerability            |
 | :-------- | :--------------- | :----------------------- |
 | EXP50-CPP | `cert-err52-cpp` | Throwing in destructor   |
@@ -503,6 +529,8 @@ Recommendations:
 | INT30-C   | `cert-int30-c`   | Unsigned integer wrap    |
 | OOP57-CPP | `cert-oop57-cpp` | Copy constructor missing |
 | OOP58-CPP | `cert-oop58-cpp` | Move constructor missing |
+
+</div>
 Enabling `cert-*` in CI is a low-cost way to catch common vulnerability patterns. Many of these
 Checks are also covered by `bugprone-*` and `cppcoreguidelines-*`. So the overlap is intentional,
 CERT rules provide a formal security justification for checks you might already have enabled.

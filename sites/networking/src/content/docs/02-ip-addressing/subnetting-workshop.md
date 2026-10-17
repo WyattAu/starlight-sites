@@ -128,6 +128,8 @@ A power of 2).
 Classful addressing (fixed `/8`, `/16`, `/24`) wastes enormous amounts of address space. Consider an
 Organization with these requirements:
 
+<div class="table-wrap">
+
 | Segment    | Hosts Needed |
 | ---------- | ------------ |
 | Datacenter | 200          |
@@ -135,6 +137,8 @@ Organization with these requirements:
 | Office B   | 25           |
 | WAN links  | 2 each (x4)  |
 | Management | 10           |
+
+</div>
 
 With classful addressing, you need one `/24` (254 hosts) for the datacenter (wastes 54), three more
 `/24`s for the offices and management (wastes hundreds more), and four `/24`s for WAN links (wastes
@@ -147,6 +151,8 @@ Actual host requirement.
 
 **Step 1: List all segments with host requirements, sorted largest to smallest.**
 
+<div class="table-wrap">
+
 | Segment    | Hosts | Minimum host bits               |
 | ---------- | ----- | ------------------------------- |
 | Datacenter | 200   | 8 ($2^8 - 2 = 254$)             |
@@ -157,6 +163,8 @@ Actual host requirement.
 | WAN 2      | 2     | 2                               |
 | WAN 3      | 2     | 2                               |
 | WAN 4      | 2     | 2                               |
+
+</div>
 
 **Step 2: Allocate from the largest block down.**
 
@@ -284,12 +292,16 @@ Scheme.
 
 `192.168.0.0/22` = `192.168.0.0` through `192.168.3.255` (1024 addresses).
 
+<div class="table-wrap">
+
 | Requirement | Hosts | Host bits | Prefix | Subnet mask     | Addresses | Usable |
 | ----------- | ----- | --------- | ------ | --------------- | --------- | ------ |
 | 500 hosts   | 500   | 9         | /23    | 255.255.254.0   | 512       | 510    |
 | 100 hosts   | 100   | 7         | /25    | 255.255.255.128 | 128       | 126    |
 | 30 hosts    | 30    | 5         | /27    | 255.255.255.224 | 32        | 30     |
 | 5 hosts     | 5     | 3         | /29    | 255.255.255.248 | 8         | 6      |
+
+</div>
 
 Allocation (largest first):
 
@@ -514,6 +526,8 @@ Within the datacenter `/60`:
 
 ### SLAAC vs DHCPv6
 
+<div class="table-wrap">
+
 | Feature            | SLAAC (RFC 4862)                                | DHCPv6                |
 | ------------------ | ----------------------------------------------- | --------------------- |
 | Address assignment | Host generates from prefix                      | Server assigns        |
@@ -523,6 +537,8 @@ Within the datacenter `/60`:
 | State tracking     | Server does not know assignments                | Server tracks leases  |
 | Address stability  | Stable based on prefix + MAC                    | Depends on lease time |
 | Complexity         | Simple                                          | Requires DHCPv6 infra |
+
+</div>
 :::
 
 :::note
@@ -540,6 +556,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 ## Subnetting Quick Reference
 
 ### Powers of 2
+
+<div class="table-wrap">
 
 | $2^n$    | Value  |
 | -------- | ------ |
@@ -561,7 +579,11 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | $2^{15}$ | 32,768 |
 | $2^{16}$ | 65,536 |
 
+</div>
+
 ### Subnet Masks: /24 Through /30
+
+<div class="table-wrap">
 
 | Prefix | Mask            | Wildcard  | Magic # | Addresses | Usable |
 | ------ | --------------- | --------- | ------- | --------- | ------ |
@@ -575,9 +597,13 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /31    | 255.255.255.254 | 0.0.0.1   | 2       | 2         | 2\*    |
 | /32    | 255.255.255.255 | 0.0.0.0   | 1       | 1         | 1      |
 
+</div>
+
 \*`/31` per RFC 3021: no network/broadcast, both addresses usable.
 
 ### Extended Reference: /16 Through /23
+
+<div class="table-wrap">
 
 | Prefix | Mask          | Wildcard    | Magic # | Addresses | Usable |
 | ------ | ------------- | ----------- | ------- | --------- | ------ |
@@ -589,6 +615,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /21    | 255.255.248.0 | 0.0.7.255   | 8       | 2,048     | 2,046  |
 | /22    | 255.255.252.0 | 0.0.3.255   | 4       | 1,024     | 1,022  |
 | /23    | 255.255.254.0 | 0.0.1.255   | 2       | 512       | 510    |
+
+</div>
 
 ## Common Exam-Style Problems
 

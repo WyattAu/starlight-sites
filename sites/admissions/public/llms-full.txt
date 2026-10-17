@@ -150,10 +150,14 @@ International Mathematical Olympiad (IMO) team selection process.
 
 There are two rounds:
 
+<div class="table-wrap">
+
 | Round | Format                            | Duration  | Purpose                                       |
 | ----- | --------------------------------- | --------- | --------------------------------------------- |
 | BMO 1 | 6 questions (each worth 10 marks) | 3.5 hours | Qualification for BMO 2 and initial selection |
 | BMO 2 | 4 questions (each worth 10 marks) | 3.5 hours | IMO squad selection                           |
+
+</div>
 
 ### 1.1 Qualification
 
@@ -776,14 +780,18 @@ When working with bmo preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                            | Site        | Link                                                        |
 | -------------------------------- | ----------- | ----------------------------------------------------------- |
 | UKMT BMO Past Papers             | UKMT        | [View](https://ukmt.org.uk/competition/bmo)                 |
 | Art of Problem Solving BMO Forum | AoPS        | [View](https://artofproblemsolving.com/community/c3240_bmo) |
 | STEP Preparation Guide           | WyattsNotes | [View](/step-preparation/)        |
 | MAT Preparation Guide            | WyattsNotes | [View](/mat-preparation/)         |
-| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)          |
-| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)       |
+| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)          |
+| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)       |
+
+</div>
 
 ---
 
@@ -1182,6 +1190,8 @@ Most selective universities require additional essays. Common types include:
 
 ### Application Timeline
 
+<div class="table-wrap">
+
 | Month | Action |
 | ------- | -------- |
 | Summer before senior year | Draft personal essay, build activities list, research universities |
@@ -1191,6 +1201,8 @@ Most selective universities require additional essays. Common types include:
 | January | Regular Decision deadlines (typically January 1–15) |
 | March–April | Decisions released |
 | May 1 | National Decision Day, confirm your enrolment |
+
+</div>
 
 ---
 
@@ -1496,6 +1508,8 @@ six students.
 The competition spans two days, each with a 4.5-hour session containing 3 problems. The six problems
 are divided by convention:
 
+<div class="table-wrap">
+
 | Problem | Typical Topic                                    | Difficulty  |
 | ------- | ------------------------------------------------ | ----------- |
 | 1       | Accessible; often combinatorics or number theory | Easiest     |
@@ -1504,6 +1518,8 @@ are divided by convention:
 | 4       | Accessible; often geometry or number theory      | Easier      |
 | 5       | Medium; often combinatorics or algebra           | Medium-Hard |
 | 6       | Very hard; any topic                             | Hardest     |
+
+</div>
 
 Each problem is worth 7 marks, for a maximum of 42. A gold medal requires approximately 29+, silver
 Approximately 22+, and bronze approximately 16+ (thresholds vary by year).
@@ -2304,6 +2320,8 @@ A complete IMO solution has the following structure:
 
 ### 8.4 Time Management Strategy
 
+<div class="table-wrap">
+
 | Time         | Activity                                        |
 | ------------ | ----------------------------------------------- |
 | 0--15 min    | Read all problems, identify the most accessible |
@@ -2312,6 +2330,8 @@ A complete IMO solution has the following structure:
 | 120--210 min | Work on Problem 2                               |
 | 210--240 min | Return to Problem 3 or polish Problems 1 and 2  |
 | 240--270 min | Final review of all solutions                   |
+
+</div>
 
 ### 8.5 Advanced Preparation
 
@@ -2354,14 +2374,18 @@ When working with imo preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                      |
 | --------------------------------- | ----------- | --------------------------------------------------------- |
 | IMO Official Problems & Solutions | IMO         | [View](https://www.imo-official.org/problems.aspx)        |
 | AoPS IMO Forum                    | AoPS        | [View](<https://artofproblemsolving.com/community/c6h> IMO) |
 | BMO Preparation                   | WyattsNotes | [View](/bmo-preparation/)       |
 | STEP Preparation                  | WyattsNotes | [View](/step-preparation/)      |
-| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)     |
-| Real Analysis                     | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)        |
+| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)     |
+| Real Analysis                     | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)        |
+
+</div>
 
 ---
 
@@ -2461,6 +2485,8 @@ These notes are structured to guide you from understanding the admissions landsc
 
 ## Key Dates and Deadlines
 
+<div class="table-wrap">
+
 | Milestone | Typical Date | Action Required |
 | ----------- | ------------- | ----------------- |
 | UCAS Opens | May (Year before entry) | Start personal statement draft |
@@ -2469,7 +2495,11 @@ These notes are structured to guide you from understanding the admissions landsc
 | Interviews | December-February | Prepare and attend |
 | Results | January-March | Accept or decline offers |
 
+</div>
+
 ## Test Preparation Timeline
+
+<div class="table-wrap">
 
 | Months Before Test | Focus Area | Daily Time |
 | ------------------- | ------------ | ------------ |
@@ -2477,6 +2507,8 @@ These notes are structured to guide you from understanding the admissions landsc
 | 2-4 months | Practice: past papers under timed conditions | 45-60 min |
 | 1-2 months | Refinement: target weak areas, full mock exams | 60 min |
 | Final 2 weeks | Review: light practice, confidence building | 20-30 min |
+
+</div>
 
 ## Common Mistakes
 
@@ -2573,10 +2605,14 @@ It is also Used by the University of Warwick for certain applicants.
 
 The MAT is a 2.5-hour paper. It consists of:
 
+<div class="table-wrap">
+
 | Section | Format          | Questions                  | Marks   |
 | ------- | --------------- | -------------------------- | ------- |
 | A       | Multiple choice | Q1 (10 parts)              | 40      |
 | B--D    | Long-form       | Q2, Q3, Q4 (choose 2 of 3) | 30 each |
+
+</div>
 
 Total: 100 marks. All candidates must attempt Question 1 and choose two of Questions 2--4.
 
@@ -2667,11 +2703,15 @@ Choice parts test logical reasoning precisely through this confusion.
 
 The discriminant of $ax^2 + bx + c = 0$ determines the nature of its roots:
 
+<div class="table-wrap">
+
 | $\Delta = b^2 - 4ac$ | Roots                   |
 | -------------------- | ----------------------- |
 | $\Delta > 0$         | Two distinct real roots |
 | $\Delta = 0$         | One repeated real root  |
 | $\Delta < 0$         | No real roots           |
+
+</div>
 
 **Completing the square.** $ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{\Delta}{4a}$.
 
@@ -2726,6 +2766,8 @@ Powerful tools that frequently appear on MAT.
 
 **Standard derivatives.**
 
+<div class="table-wrap">
+
 | $f(x)$      | $f"(x)$            |
 | ----------- | ------------------ |
 | $x^n$       | $nx^{n-1}$         |
@@ -2736,6 +2778,8 @@ Powerful tools that frequently appear on MAT.
 | $\tan x$    | $\sec^2 x$         |
 | $\arcsin x$ | $1/\sqrt{1 - x^2}$ |
 | $\arctan x$ | $1/(1 + x^2)$      |
+
+</div>
 
 **Chain rule.** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$.
 
@@ -2755,6 +2799,8 @@ $$
 
 **Standard integrals.**
 
+<div class="table-wrap">
+
 | $\int f(x)\,dx$            | Result                                  |
 | -------------------------- | --------------------------------------- |
 | $\int x^n\,dx$             | $\frac{x^{n+1}}{n+1} + C$ ($n \neq -1$) |
@@ -2764,6 +2810,8 @@ $$
 | $\int \cos x\,dx$          | $\sin x + C$                            |
 | $\int \sec^2 x\,dx$        | $\tan x + C$                            |
 | $\int \frac{1}{1+x^2}\,dx$ | $\arctan x + C$                         |
+
+</div>
 
 **Techniques.** Substitution, integration by parts, partial fractions, and trigonometric identities
 Are the core techniques. MAT questions require one or two applications of these, combined With
@@ -2876,6 +2924,8 @@ Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 
 ### 6.1 Logical Connectives
 
+<div class="table-wrap">
+
 | Statement            | Meaning                                |
 | -------------------- | -------------------------------------- |
 | $P \implies Q$       | If $P$ is true, then $Q$ is true       |
@@ -2885,6 +2935,8 @@ Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 | $P \lor Q$           | At least one of $P$ or $Q$ is true     |
 | $P \implies Q$       | $\neg P \lor Q$ (equivalent form)      |
 | $\neg(P \implies Q)$ | $P \land \neg Q$                       |
+
+</div>
 
 ### 6.2 Quantifiers
 
@@ -3273,13 +3325,17 @@ When working with mat preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic            | Site         | Link                                                                                    |
 | ---------------- | ------------ | --------------------------------------------------------------------------------------- |
 | MAT Past Papers  | Oxford Maths | [View](https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test) |
 | TMUA Preparation | WyattsNotes  | [View](/tmua-preparation/)                                    |
 | STEP Preparation | WyattsNotes  | [View](/step-preparation/)                                    |
-| Real Analysis    | WyattsNotes  | [View](https://mathematics.wyattau.com/real-analysis/)                                      |
+| Real Analysis    | WyattsNotes  | [View](https://mathematics.wyattau.com/3-real-analysis/)                                      |
 | Probability      | WyattsNotes  | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)                                        |
+
+</div>
 
 ---
 
@@ -3395,11 +3451,15 @@ several other UK Universities as part of their conditional offers.
 
 There are three papers:
 
+<div class="table-wrap">
+
 | Paper    | Content Scope                                        | Typical Use                                                  |
 | -------- | ---------------------------------------------------- | ------------------------------------------------------------ |
 | STEP I   | A-Level Mathematics syllabus                         | Historically the most accessible; now less commonly required |
 | STEP II  | A-Level Mathematics and AS-Level Further Mathematics | Most widely required paper                                   |
 | STEP III | A-Level Further Mathematics full syllabus            | Required for the most competitive Cambridge offers           |
+
+</div>
 
 Each paper is 3 hours long. Candidates choose 6 questions from a total of 12 (8 pure, 2 mechanics, 2
 Probability/statistics). Each question is worth 20 marks. There is no penalty for incorrect working:
@@ -4206,6 +4266,8 @@ When working with step preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                      | Site                 | Link                                                                            |
 | -------------------------- | -------------------- | ------------------------------------------------------------------------------- |
 | STEP Past Papers           | Cambridge Assessment | [View](https://www.ocr.org.uk/qualifications/past-paper-finder/?step=1&qual=89) |
@@ -4214,6 +4276,8 @@ When working with step preparation, follow a structured approach:
 | TMUA Preparation           | WyattsNotes          | [View](/tmua-preparation/)                            |
 | Calculus, Differentiation | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/10-differentiation/)                           |
 | Calculus, Integration     | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/11-integration/)                               |
+
+</div>
 
 ---
 
@@ -4241,10 +4305,14 @@ knowledge in unfamiliar contexts.
 
 The TMUA consists of two papers, each 75 minutes long. Both papers are multiple choice only.
 
+<div class="table-wrap">
+
 | Paper   | Focus                            | Questions | Format          |
 | ------- | -------------------------------- | --------- | --------------- |
 | Paper 1 | Mathematical reasoning and logic | 20        | Multiple choice |
 | Paper 2 | Mathematical applications        | 20        | Multiple choice |
+
+</div>
 
 Each question has five options (A--E). There is no penalty for incorrect answers. The papers are
 taken In a single sitting with a short break between them.
@@ -4295,12 +4363,16 @@ are Built from simpler ones using logical connectives.
 **Truth tables.** For any compound proposition, a truth table lists the truth value of the
 proposition For every possible combination of truth values of its components.
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $P \land Q$ | $P \lor Q$ | $P \implies Q$ | $P \iff Q$ |
 | --- | --- | ----------- | ---------- | -------------- | ---------- |
 | T   | T   | T           | T          | T              | T          |
 | T   | F   | F           | T          | F              | F          |
 | F   | T   | F           | T          | T              | F          |
 | F   | F   | F           | F          | T              | T          |
+
+</div>
 
 **Tautology and contradiction.** A tautology is a proposition that is true for all truth values of
 Its components. A contradiction is always false. A contingency is neither.
@@ -4794,6 +4866,8 @@ When working with tmua preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                | Site        | Link                                                 |
 | -------------------- | ----------- | ---------------------------------------------------- |
 | TMUA Specification   | UAT         | [View](https://uat.ucl.ac.uk/tmua)                   |
@@ -4801,4 +4875,6 @@ When working with tmua preparation, follow a structured approach:
 | MAT Preparation      | WyattsNotes | [View](/mat-preparation/)  |
 | STEP Preparation     | WyattsNotes | [View](/step-preparation/) |
 | Probability          | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)     |
-| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)   |
+| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)   |
+
+</div>

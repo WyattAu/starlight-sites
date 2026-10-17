@@ -518,6 +518,8 @@ rm -rf ~/.cache/CPM
 
 ## Comparison with vcpkg and Conan
 
+<div class="table-wrap">
+
 | Feature                | CPM.cmake                | vcpkg                  | Conan 2.x                    |
 | :--------------------- | :----------------------- | :--------------------- | :--------------------------- |
 | **Setup complexity**   | Single file include      | Clone + bootstrap      | pip install + profile config |
@@ -530,6 +532,8 @@ rm -rf ~/.cache/CPM
 | **Lock mechanism**     | Pinned tags (in source)  | `vcpkg.json` baseline  | `conan.lock` file            |
 | **Offline builds**     | Pre-populated cache      | Binary cache + ports   | Pre-populated cache          |
 | **Best for**           | Small-to-medium projects | Any size, teams        | Large teams, binary distro   |
+
+</div>
 
 ### When to Prefer CPM
 
@@ -681,6 +685,8 @@ endfunction()
 
 CPM is built on top of CMake's `FetchContent` module but adds several features:
 
+<div class="table-wrap">
+
 | Feature                    | FetchContent                        | CPM.cmake                               |
 | :------------------------- | :---------------------------------- | :-------------------------------------- |
 | **Package declaration**    | `FetchContent_Declare`              | `CPMAddPackage` (single call)           |
@@ -693,15 +699,21 @@ CPM is built on top of CMake's `FetchContent` module but adds several features:
 | **Download-only mode**     | Manual `FetchContent_Populate`      | `DOWNLOAD_ONLY` keyword                 |
 | **Bootstrap**              | Requires pre-existing script        | Self-bootstrapping via `file(DOWNLOAD)` |
 
+</div>
+
 ## CPM Version Compatibility
 
 CPM.cmake versions follow semantic versioning. Key version milestones:
+
+<div class="table-wrap">
 
 | Version | Feature                                     |
 | :------ | :------------------------------------------ |
 | 0.38.x  | Stable release, widely used                 |
 | 0.39.x  | Added `FETCHCONTENT_SOURCE_DIR_*` overrides |
 | 0.40.x  | Current stable, improved cache handling     |
+
+</div>
 
 When pinning the CPM version in the bootstrap script, use a specific version rather than `latest`:
 

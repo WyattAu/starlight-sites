@@ -30,12 +30,16 @@ tableOfContents: false
 The reaction between substance $A$ and substance $B$ was studied at constant temperature. The
 following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[A] / \text{mol dm}^{-3}$ | $[B] / \text{mol dm}^{-3}$ | Initial rate $/ \text{mol dm}^{-3}\text{ s}^{-1}$ |
 | ---------- | -------------------------- | -------------------------- | ------------------------------------------------- |
 | 1          | 0.10                       | 0.10                       | $1.2 \times 10^{-3}$                              |
 | 2          | 0.20                       | 0.10                       | $2.4 \times 10^{-3}$                              |
 | 3          | 0.10                       | 0.20                       | $4.8 \times 10^{-3}$                              |
 | 4          | 0.20                       | 0.20                       | $9.6 \times 10^{-3}$                              |
+
+</div>
 
 (a) Determine the order of reaction with respect to $A$ and with respect to $B$.
 
@@ -346,11 +350,15 @@ $$
 
 (b) Let $x$ be the amount of A (and B) that reacts at equilibrium:
 
+<div class="table-wrap">
+
 | Species     | A          | B          | C    | D    |
 | ----------- | ---------- | ---------- | ---- | ---- |
 | Initial     | 0.50       | 0.50       | 0    | 0    |
 | Change      | $-x$       | $-x$       | $+x$ | $+x$ |
 | Equilibrium | $0.50 - x$ | $0.50 - x$ | $x$  | $x$  |
+
+</div>
 
 $$
 K_c = \frac{[C][D]}{[A][B]} = \frac{x^2}{(0.50 - x)^2} = 4.0
@@ -471,12 +479,16 @@ the same starting and ending levels.
 **Question:** The reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ was studied at constant
 temperature. The following initial rate data were obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ (mol dm$^{-3}$) | $[\mathrm{B}]$ (mol dm$^{-3}$) | Initial rate (mol dm$^{-3}$ s$^{-1}$) |
 | ---------- | ------------------------------ | ------------------------------ | ------------------------------------- |
 | 1          | 0.10                           | 0.10                           | $1.2 \times 10^{-3}$                  |
 | 2          | 0.20                           | 0.10                           | $2.4 \times 10^{-3}$                  |
 | 3          | 0.10                           | 0.20                           | $4.8 \times 10^{-3}$                  |
 | 4          | 0.20                           | 0.20                           | $9.6 \times 10^{-3}$                  |
+
+</div>
 
 Determine the rate equation, the overall order, and the value of the rate constant with units.
 

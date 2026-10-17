@@ -55,6 +55,8 @@ This separation prevents buggy or malicious application code from corrupting the
 A **system call** is the mechanism by which a user-mode program requests a service from the kernel.
 Examples include:
 
+<div class="table-wrap">
+
 | Category        | System Calls (examples)            |
 | --------------- | ---------------------------------- |
 | Process control | `fork()``exec()``wait()``exit()`   |
@@ -63,11 +65,15 @@ Examples include:
 | Communication   | `pipe()``shmget()``mmap()`         |
 | Information     | `getpid()``stat()``time()`         |
 
+</div>
+
 When an application makes a system call, execution transitions from user mode to kernel mode via a
 Software interrupt (trap). The kernel performs the requested operation and returns control to the
 Application.
 
 ### Types of Operating Systems
+
+<div class="table-wrap">
 
 | Type            | Description                                                        | Example                 |
 | --------------- | ------------------------------------------------------------------ | ----------------------- |
@@ -78,6 +84,8 @@ Application.
 | **Network**     | Provides services to other computers over a network                | File servers, NAS       |
 | **Desktop**     | General-purpose, multi-user with GUI                               | Windows, macOS, Linux   |
 | **Mobile**      | Optimised for touch, power efficiency, and connectivity            | Android, iOS            |
+
+</div>
 
 :::note
 **OCR (A)** focus on batch, real-time, and desktop/mobile. **CIE** covers real-time and distributed
@@ -128,6 +136,8 @@ Processes move through five states during their lifetime:
                     [Terminated] <──────────────
 ```
 
+<div class="table-wrap">
+
 | State          | Description                                              |
 | -------------- | -------------------------------------------------------- |
 | **New**        | Process is being created                                 |
@@ -135,6 +145,8 @@ Processes move through five states during their lifetime:
 | **Running**    | Process instructions are being executed on a CPU core    |
 | **Waiting**    | Process is blocked, waiting for an I/O event or resource |
 | **Terminated** | Process has finished execution or been killed            |
+
+</div>
 
 ### Process Scheduling Algorithms
 
@@ -190,11 +202,15 @@ Regain control and decide whether to switch processes.
 
 ### Multitasking, Multiprocessing, Multithreading
 
+<div class="table-wrap">
+
 | Term                | Meaning                                                              |
 | ------------------- | -------------------------------------------------------------------- |
 | **Multitasking**    | Multiple processes share a single CPU (time-sliced)                  |
 | **Multiprocessing** | Multiple CPUs or cores execute processes simultaneously              |
 | **Multithreading**  | A single process has multiple threads sharing the same address space |
+
+</div>
 
 <hr />
 
@@ -215,8 +231,12 @@ present in memory).
 
 **Virtual address structure (32-bit, 4 KiB pages):**
 
+<div class="table-wrap">
+
 | Offset (12 bits) | Page number (20 bits) |
 | ---------------- | --------------------- |
+
+</div>
 
 **Translation:** The page number indexes into the page table to find the frame number. The physical
 Address is the frame number concatenated with the offset:
@@ -238,10 +258,14 @@ When the CPU accesses a virtual page not currently in physical memory:
 
 ### Page Replacement Algorithms
 
+<div class="table-wrap">
+
 | Algorithm | Policy                         | Advantage               | Disadvantage                      |
 | --------- | ------------------------------ | ----------------------- | --------------------------------- |
 | **FIFO**  | Evict the page loaded earliest | Simple to implement     | May evict useful pages (Belady's) |
 | **LRU**   | Evict least recently used page | Good approx. Of optimal | Expensive to implement exactly    |
+
+</div>
 
 **Belady's anomaly:** With FIFO, increasing the number of frames can sometimes _increase_ the number
 Of page faults. LRU does not suffer from this anomaly.
@@ -317,21 +341,29 @@ An **index block** contains pointers to all data blocks of the file.
 
 Most file systems associate three permission categories with each file:
 
+<div class="table-wrap">
+
 | Category   | Read (r)          | Write (w)           | Execute (x)        |
 | ---------- | ----------------- | ------------------- | ------------------ |
 | **Owner**  | Can read contents | Can modify contents | Can run as program |
 | **Group**  | Members can read  | Members can modify  | Members can run    |
 | **Others** | Everyone can read | Everyone can modify | Everyone can run   |
 
+</div>
+
 Permissions are represented as a 9-bit string (e.g., `rwxr-xr--` = 755 in octal).
 
 ### Directory Structures
+
+<div class="table-wrap">
 
 | Structure        | Description                                             |
 | ---------------- | ------------------------------------------------------- |
 | **Flat**         | All files in a single directory; no subdirectories      |
 | **Hierarchical** | Directories can contain subdirectories (tree structure) |
 | **Tree**         | Each directory has exactly one parent; acyclic          |
+
+</div>
 
 Modern OSes use a hierarchical tree structure with a root directory (`/` on Linux/macOS, drive
 Letters on Windows).
@@ -437,6 +469,8 @@ Management. **OCR (A)** and **CIE** may cover this under broader system security
 
 The OS provides mechanisms to defend against malicious software:
 
+<div class="table-wrap">
+
 | Mechanism           | Description                                                       |
 | ------------------- | ----------------------------------------------------------------- |
 | **Antivirus**       | Scans files for known malware signatures and suspicious behaviour |
@@ -444,6 +478,8 @@ The OS provides mechanisms to defend against malicious software:
 | **User privileges** | Limits the damage malware can cause by restricting permissions    |
 | **Sandboxing**      | Runs untrusted code in an isolated environment                    |
 | **Code signing**    | Verifies that software has not been tampered with                 |
+
+</div>
 
 <hr />
 

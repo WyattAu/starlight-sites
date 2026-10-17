@@ -161,13 +161,19 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 
 ### Per-Repo Fields
 
+<div class="table-wrap">
+
 | Field   | Required | Description                                      |
 | ------- | -------- | ------------------------------------------------ |
 | `repo`  | Yes      | URL of the hook repository (HTTPS or local path) |
 | `rev`   | Yes      | Git ref to checkout (tag, branch, or SHA)        |
 | `hooks` | Yes      | Array of hook definitions from this repo         |
 
+</div>
+
 ### Per-Hook Fields
+
+<div class="table-wrap">
 
 | Field            | Required | Description                                                                  |
 | ---------------- | -------- | ---------------------------------------------------------------------------- |
@@ -187,6 +193,8 @@ The framework clones these repos (at the pinned `rev`) and reads their hook meta
 | `verbose`        | No       | Print more output (default: `false`)                                         |
 | `log_file`       | No       | Write hook output to this file                                               |
 | `require_serial` | No       | Do not run this hook in parallel with other hooks (default: `false`)         |
+
+</div>
 
 ### File Type Matching
 
@@ -279,6 +287,8 @@ repos:
 
 ### Reference Table
 
+<div class="table-wrap">
+
 | Hook ID                                | What It Checks                                                | Auto-Fix? | Common Arguments                            |
 | -------------------------------------- | ------------------------------------------------------------- | --------- | ------------------------------------------- |
 | `trailing-whitespace`                  | Trailing whitespace on any line                               | Yes       |                                             |
@@ -301,6 +311,8 @@ repos:
 | `fix-byte-order-marker`                | Removes BOM from UTF-8 files                                  | Yes       |                                             |
 | `fix-encoding-pragma`                  | Adds `# -*- coding: utf-8 -*-` to Python files if needed      | Yes       |                                             |
 | `name-tests-test`                      | Python test files follow naming convention                    | No        | `--pytest` to only match pytest-style names |
+
+</div>
 
 ### Practical Configuration
 

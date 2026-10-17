@@ -58,6 +58,8 @@ $f(n) = \omega(g(n))$: $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$.
 
 ### 1.5 Common Complexity Classes
 
+<div class="table-wrap">
+
 | Class          | Name              | Example                      |
 | -------------- | ----------------- | ---------------------------- |
 | $O(1)$         | Constant          | Hash table access            |
@@ -70,6 +72,8 @@ $f(n) = \omega(g(n))$: $\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty$.
 | $O(2^n)$       | Exponential       | Subset enumeration           |
 | $O(n!)$        | Factorial         | Permutation generation       |
 | $O(n^n)$       | Exponential tower | Some brute force             |
+
+</div>
 
 ### 1.6 Properties
 
@@ -146,11 +150,15 @@ The class of problems whose complement can be verified in polynomial time.
 
 ### 2.7 Other Classes
 
+<div class="table-wrap">
+
 | Class  | Definition                                                           |
 | ------ | -------------------------------------------------------------------- |
 | PSPACE | Solvable in polynomial space                                        |
 | EXP    | Solvable in exponential time $O(2^{n^k})$                            |
 | BPP    | Solvable by randomized algorithm with error $\leq 1/3$ (polynomial) |
+
+</div>
 
 $$
 \text{P} \subseteq \text{NP} \subseteq \text{PSPACE} \subseteq \text{EXP}
@@ -358,11 +366,15 @@ APPROX_SET_COVER(U, S):
 
 Some problems cannot be approximated within any constant factor unless P = NP.
 
+<div class="table-wrap">
+
 | Problem         | Best known ratio | Inapproximability     |
 | --------------- | ---------------- | --------------------- |
 | Max-Clique      | $O(n / \log^2 n)$ | Cannot approximate within $n^{1-\epsilon}$ unless ZPP = NP |
 | TSP (general)   | None (metric: 3/2) | No constant factor unless P = NP |
 | Set Cover       | $\ln n$ (greedy) | Cannot do better than $(1-\epsilon)\ln n$ unless P = NP |
+
+</div>
 
 ### 7.2 PCP Theorem
 
@@ -421,11 +433,15 @@ Complexity theory classifies problems by their inherent difficulty. P contains p
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Algorithm Design | [View](/1-algorithms/algorithm-design/) |
 | Data Structures | [View](/1-algorithms/data-structures/) |
 | Graph Algorithms | [View](https://alevel.wyattau.com/computer-science/algorithms/03-graph-algorithms/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -85,6 +85,8 @@ Hash values: $h(14) = 0$$h(21) = 0$$h(28) = 0$$h(35) = 0$$h(42) = 0$$h(15) = 1$$
 
 (a) **Separate chaining:**
 
+<div class="table-wrap">
+
 | Index | Chain                                  |
 | ----- | -------------------------------------- |
 | 0     | 14 $\to$ 21 $\to$ 28 $\to$ 35 $\to$ 42 |
@@ -94,6 +96,8 @@ Hash values: $h(14) = 0$$h(21) = 0$$h(28) = 0$$h(35) = 0$$h(42) = 0$$h(15) = 1$$
 | 4     | empty                                  |
 | 5     | empty                                  |
 | 6     | empty                                  |
+
+</div>
 
 Load factor: $7/7 = 1.0$.
 
@@ -107,6 +111,8 @@ Load factor: $7/7 = 1.0$.
 - 15: index 1, collision. Try 2, 3, 4 (full), try 5. Table[5] $= 15$.
 - 22: index 1, collision. Try 2, 3, 4, 5 (full), try 6. Table[6] $= 22$.
 
+<div class="table-wrap">
+
 | Index | Key |
 | ----- | --- |
 | 0     | 14  |
@@ -116,6 +122,8 @@ Load factor: $7/7 = 1.0$.
 | 4     | 42  |
 | 5     | 15  |
 | 6     | 22  |
+
+</div>
 
 Load factor: $7/7 = 1.0$.
 
@@ -197,6 +205,8 @@ to postfix using the shunting-yard algorithm, showing the operator stack at each
 
 **Postfix evaluation of `5 3 2 * + 4 -`:**
 
+<div class="table-wrap">
+
 | Token | Action                          | Stack (bottom $\to$ top) |
 | ----- | ------------------------------- | ------------------------ |
 | 5     | Push                            | [5]                      |
@@ -207,9 +217,13 @@ to postfix using the shunting-yard algorithm, showing the operator stack at each
 | 4     | Push                            | [11, 4]                  |
 | -     | Pop 4, 11; push $11 - 4 = 7$    | [7]                      |
 
+</div>
+
 Result: 7.
 
 **Shunting-yard for `(A + B) * (C - D) / E`:**
+
+<div class="table-wrap">
 
 | Token | Action                                       | Operator Stack | Output             |
 | ----- | -------------------------------------------- | -------------- | ------------------ |
@@ -227,6 +241,8 @@ Result: 7.
 | /     | Pop \* (same precedence, left-assoc), push / | [/]            | A B + C D - \*     |
 | E     | Output                                       | [/]            | A B + C D - \* E   |
 | end   | Pop all                                      | []             | A B + C D - \* E / |
+
+</div>
 
 Postfix: `A B + C D - * E /`
 
@@ -254,6 +270,8 @@ algorithm from A to all vertices. (c) State the shortest path from A to E and it
 
 (a) **Adjacency matrix:**
 
+<div class="table-wrap">
+
 |     | A        | B        | C   | D        | E        |
 | --- | -------- | -------- | --- | -------- | -------- |
 | A   | 0        | 4        | 2   | $\infty$ | $\infty$ |
@@ -261,6 +279,8 @@ algorithm from A to all vertices. (c) State the shortest path from A to E and it
 | C   | 2        | 1        | 0   | 8        | 10       |
 | D   | $\infty$ | 5        | 8   | 0        | 2        |
 | E   | $\infty$ | $\infty$ | 10  | 2        | 0        |
+
+</div>
 
 (b) **Dijkstra's algorithm from A:**
 

@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                              |
 | ---------- | ---------- | -------------------------------------------------- |
 | AQA        | Paper 1, 2 | 2D vectors in P1; 3D vectors, scalar product in P2 |
 | Edexcel    | P1, P2     | Similar split                                      |
 | OCR (A)    | Paper 1, 2 | Includes vector equations of lines                 |
 | CIE (9709) | P1, P2, P3 | 2D in P1; 3D and lines in P2/P3                    |
+
+</div>
 
 :::note
 And converting between column and $\mathbf{i},\mathbf{j},\mathbf{k}$ notation.

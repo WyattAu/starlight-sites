@@ -20,6 +20,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File            | Topics Covered                                                                                    | Source File                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | `diag-number.md`           | Fractions, decimals, percentages, HCF/LCM, bounds, standard form, prime factorisation             | `number.md`                           |
@@ -27,6 +29,8 @@ tableOfContents: false
 | `diag-geometry.md`         | Pythagoras, trigonometry, area/volume, circle theorems, transformations, vectors                  | `geometry.md`                         |
 | `diag-statistics.md`       | Averages from grouped data, cumulative frequency, box plots, scatter graphs, histograms           | `statistics.md`                       |
 | `diag-ratio-proportion.md` | Ratio problems, compound measures (speed, density, pressure), growth and decay, exchange rates    | `ratio-proportion-rates-of-change.md` |
+
+</div>
 
 ## Grading Rubric
 
@@ -81,6 +85,8 @@ Geometry (area, perimeter)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic              | Recommended Time | Notes                                      |
 | ----------------------- | ---------------- | ------------------------------------------ |
 | `diag-number`           | 30 minutes       | Arithmetic calculations and conversions    |
@@ -88,6 +94,8 @@ Geometry (area, perimeter)
 | `diag-geometry`         | 40 minutes       | Includes diagrams and multi-step problems  |
 | `diag-statistics`       | 35 minutes       | Requires reading tables and drawing graphs |
 | `diag-ratio-proportion` | 30 minutes       | Applied word problems                      |
+
+</div>
 
 **Total recommended time:** approximately 2.75 hours (spread across 2 sessions).
 

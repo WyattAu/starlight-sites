@@ -71,6 +71,8 @@ mask (spatial filter) in this plane modifies the image:
 
 ### 15.4 Key Relationships
 
+<div class="table-wrap">
+
 | Optical concept        | Fourier correspondence                    | Application              |
 | ---------------------- | ----------------------------------------- | ------------------------ |
 | Aperture function      | Input signal $t(x,y)$                    | Diffraction pattern      |
@@ -78,6 +80,8 @@ mask (spatial filter) in this plane modifies the image:
 | Lens back focal plane  | Fourier plane                             | Spatial filtering        |
 | Image plane            | Inverse Fourier transform                 | 4f imaging system        |
 | Optical transfer func  | Normalised FT of PSF                      | Resolution characterisation |
+
+</div>
 
 ### 15.5 Common Pitfalls
 

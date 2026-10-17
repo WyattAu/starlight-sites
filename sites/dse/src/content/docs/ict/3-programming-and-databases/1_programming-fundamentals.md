@@ -38,6 +38,8 @@ handling, debugging, and DSE-specific exam Techniques.
 
 ### Variable Naming Conventions
 
+<div class="table-wrap">
+
 | Rule                     | Description                                     | Valid        | Invalid      |
 | ------------------------ | ----------------------------------------------- | ------------ | ------------ |
 | Must start with a letter | Cannot begin with a number or special character | `score`      | `2score`     |
@@ -47,7 +49,11 @@ handling, debugging, and DSE-specific exam Techniques.
 | No reserved words        | Cannot use language keywords                    | `myClass`    | `class`      |
 | Consistent naming style  | Use the same convention throughout              | camelCase    | Mixed_styles |
 
+</div>
+
 ### Data Types in Detail
+
+<div class="table-wrap">
 
 | Data Type  | Size (typical) | Range                                               | Precision          |
 | ---------- | -------------- | --------------------------------------------------- | ------------------ |
@@ -58,10 +64,14 @@ handling, debugging, and DSE-specific exam Techniques.
 | Boolean    | 1 byte         | True / False                                        | N/A                |
 | Character  | 1 byte         | Single character (ASCII/Unicode)                    | N/A                |
 
+</div>
+
 **Type coercion and conversion:**
 
 Converting between types is a common source of errors. In many languages, mixing types in an
 expression Causes automatic type promotion.
+
+<div class="table-wrap">
 
 | Conversion       | Description                                    | Risk              |
 | ---------------- | ---------------------------------------------- | ----------------- |
@@ -69,6 +79,8 @@ expression Causes automatic type promotion.
 | Float to Integer | Truncates the decimal part                     | Loss of precision |
 | String to Number | Parses the string; fails if non-numeric        | Runtime error     |
 | Number to String | Converts the number to its text representation | None              |
+
+</div>
 
 <details>
 <summary>Worked Example: Type Conversion Issues</summary>
@@ -146,6 +158,8 @@ END
 
 ### FOR vs WHILE Loops
 
+<div class="table-wrap">
+
 | Aspect             | FOR Loop                               | WHILE Loop                              |
 | ------------------ | -------------------------------------- | --------------------------------------- |
 | Type               | Count-controlled                       | Condition-controlled                    |
@@ -153,6 +167,8 @@ END
 | Counter            | Automatically managed                  | Must be updated manually in the loop    |
 | Infinite loop risk | Low (counter reaches limit)            | High (condition may never become false) |
 | Use case           | Processing arrays, fixed repetitions   | User input validation, unknown counts   |
+
+</div>
 
 **Choosing between FOR and WHILE:**
 
@@ -289,10 +305,14 @@ END
 
 ### Parameter Passing
 
+<div class="table-wrap">
+
 | Mechanism             | Description                                                | Effect on Original Variable |
 | --------------------- | ---------------------------------------------------------- | --------------------------- |
 | **Pass by value**     | A copy of the argument is passed to the function/procedure | Original unchanged          |
 | **Pass by reference** | A reference (address) to the original variable is passed   | Original CAN be changed     |
+
+</div>
 
 In many exam-style pseudocode languages, parameters are passed by value by default. To pass by
 Reference (allowing the procedure to modify the original), some notations use `BYREF`.
@@ -338,6 +358,8 @@ END FUNCTION
 
 Trace for `fibonacci(5)`:
 
+<div class="table-wrap">
+
 | Call         | Result                      |
 | ------------ | --------------------------- |
 | fibonacci(5) | fibonacci(4) + fibonacci(3) |
@@ -346,6 +368,8 @@ Trace for `fibonacci(5)`:
 | fibonacci(2) | fibonacci(1) + fibonacci(0) |
 | fibonacci(1) | 1                           |
 | fibonacci(0) | 0                           |
+
+</div>
 
 Working back up: fib(2) = 1 + 0 = 1, fib(3) = 1 + 1 = 2, fib(4) = 2 + 1 = 3, fib(5) = 3 + 2 = 5.
 
@@ -368,6 +392,8 @@ String operations are frequently tested in DSE ICT programming questions.
 
 ### Common String Operations
 
+<div class="table-wrap">
+
 | Operation             | Description                                  | Example                                   |
 | --------------------- | -------------------------------------------- | ----------------------------------------- |
 | **Length**            | Returns the number of characters in a string | `LEN("Hello")` = 5                        |
@@ -380,6 +406,8 @@ String operations are frequently tested in DSE ICT programming questions.
 | **Find/Position**     | Finds the position of a substring            | `FIND("ll", "Hello")` = 3                 |
 | **Replace**           | Replaces all occurrences of a substring      | `REPLACE("aab", "a", "x")` = "xxb"        |
 | **Compare**           | Compares two strings alphabetically          | "Apple" < "Banana" is True                |
+
+</div>
 
 ### Character Analysis
 
@@ -420,6 +448,8 @@ END FUNCTION
 
 For `reverseString("Hello")`:
 
+<div class="table-wrap">
+
 | Iteration | i   | char | result  |
 | --------- | --- | ---- | ------- |
 | 1         | 5   | "o"  | "o"     |
@@ -427,6 +457,8 @@ For `reverseString("Hello")`:
 | 3         | 3   | "l"  | "oll"   |
 | 4         | 2   | "e"  | "olle"  |
 | 5         | 1   | "H"  | "olleH" |
+
+</div>
 
 </details>
 
@@ -465,6 +497,8 @@ any pair does not match, the function returns FALSE immediately.
 
 ### File Operations
 
+<div class="table-wrap">
+
 | Operation | Description                                      | Mode       |
 | --------- | ------------------------------------------------ | ---------- |
 | Open      | Prepare a file for reading or writing            | Read/Write |
@@ -473,7 +507,11 @@ any pair does not match, the function returns FALSE immediately.
 | Append    | Add data to the end of an existing file          | Append     |
 | Close     | Release the file and save any buffered data      | N/A        |
 
+</div>
+
 ### Sequential vs Random Access
+
+<div class="table-wrap">
 
 | Feature                           | Sequential Access                    | Random Access                    |
 | --------------------------------- | ------------------------------------ | -------------------------------- |
@@ -483,6 +521,8 @@ any pair does not match, the function returns FALSE immediately.
 | File type                         | Text files                           | Binary files, database files     |
 | Modification                      | Difficult (must rewrite entire file) | Easy (overwrite specific record) |
 | Example                           | CSV, TXT                             | Direct-access binary files       |
+
+</div>
 
 <details>
 <summary>Worked Example: Read and Process File Data</summary>
@@ -544,12 +584,16 @@ END
 Linear search checks each element in sequence until the target is found or all elements have been
 Checked.
 
+<div class="table-wrap">
+
 | Aspect               | Value                                       |
 | -------------------- | ------------------------------------------- |
 | **Best case**        | O(1) -- found at first position             |
 | **Worst case**       | O(n) -- found at last position or not found |
 | **Average case**     | O(n/2)                                      |
 | **Data requirement** | None (works on unsorted data)               |
+
+</div>
 
 ```python
 FUNCTION linearSearch(arr, size, target)
@@ -566,11 +610,15 @@ END FUNCTION
 
 Binary search works on **sorted** arrays by repeatedly dividing the search range in half.
 
+<div class="table-wrap">
+
 | Aspect               | Value                                   |
 | -------------------- | --------------------------------------- |
 | **Best case**        | O(1) -- found at middle on first check  |
 | **Worst case**       | O(log n)                                |
 | **Data requirement** | Array MUST be sorted in ascending order |
+
+</div>
 
 ```python
 FUNCTION binarySearch(arr, size, target)
@@ -595,11 +643,15 @@ END FUNCTION
 
 Search for 23 in the sorted array: `[2, 5, 8, 12, 16, 23, 38, 45, 56]`
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison | Action           |
 | ---- | --- | ---- | --- | -------- | ---------- | ---------------- |
 | 1    | 0   | 8    | 4   | 16       | 16 < 23    | low = 5          |
 | 2    | 5   | 8    | 6   | 38       | 38 > 23    | high = 5         |
 | 3    | 5   | 5    | 5   | 23       | 23 = 23    | Found at index 5 |
+
+</div>
 
 Result: 23 is found at index 5.
 
@@ -610,11 +662,15 @@ Result: 23 is found at index 5.
 Insertion sort builds a sorted array one element at a time by inserting each element into its
 correct Position among the previously sorted elements.
 
+<div class="table-wrap">
+
 | Aspect         | Value                    |
 | -------------- | ------------------------ |
 | **Best case**  | O(n) -- already sorted   |
 | **Worst case** | O(n^2) -- reverse sorted |
 | **Stable**     | Yes                      |
+
+</div>
 
 ```python
 FUNCTION insertionSort(arr, size)
@@ -632,12 +688,16 @@ END FUNCTION
 
 ### Comparison of Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm      | Best Case           | Average | Worst Case | Stable | Memory |
 | -------------- | ------------------- | ------- | ---------- | ------ | ------ |
 | Bubble Sort    | O(n)                | O(n^2)  | O(n^2)     | Yes    | O(1)   |
 | Insertion Sort | O(n)                | O(n^2)  | O(n^2)     | Yes    | O(1)   |
 | Selection Sort | O(n^2)              | O(n^2)  | O(n^2)     | No     | O(1)   |
 | Binary Search  | O(log n) per lookup | N/A     | N/A        | N/A    | N/A    |
+
+</div>
 
 ---
 
@@ -694,6 +754,8 @@ simple function or procedure.
 
 ### Advantages of Top-Down Design
 
+<div class="table-wrap">
+
 | Advantage            | Description                                                            |
 | -------------------- | ---------------------------------------------------------------------- |
 | **Manageability**    | Large problems become manageable                                       |
@@ -702,6 +764,8 @@ simple function or procedure.
 | **Testability**      | Each component can be tested independently                             |
 | **Teamwork**         | Different team members can work on different components simultaneously |
 | **Easier debugging** | Errors can be isolated to specific components                          |
+
+</div>
 
 ---
 
@@ -718,6 +782,8 @@ simple function or procedure.
 
 ### Flowchart Symbols
 
+<div class="table-wrap">
+
 | Symbol           | Shape                       | Meaning                                   |
 | ---------------- | --------------------------- | ----------------------------------------- |
 | **Start/End**    | Oval                        | Beginning or end of the program           |
@@ -728,9 +794,13 @@ simple function or procedure.
 | **Connector**    | Circle                      | Connects to another part of the flowchart |
 | **Subroutine**   | Rectangle with double sides | A call to a function/procedure            |
 
+</div>
+
 ### Pseudocode Conventions for DSE
 
 The DSE ICT examination uses structured pseudocode. Key conventions:
+
+<div class="table-wrap">
 
 | Construct        | Syntax                                                    |
 | ---------------- | --------------------------------------------------------- |
@@ -747,9 +817,13 @@ The DSE ICT examination uses structured pseudocode. Key conventions:
 | **Array access** | `array[index]`                                            |
 | **Comment**      | `// This is a comment`                                    |
 
+</div>
+
 ### Converting Between Flowcharts and Pseudocode
 
 Every flowchart symbol maps directly to pseudocode:
+
+<div class="table-wrap">
 
 | Flowchart Symbol       | Pseudocode Equivalent                  |
 | ---------------------- | -------------------------------------- |
@@ -760,6 +834,8 @@ Every flowchart symbol maps directly to pseudocode:
 | Parallelogram (Output) | `OUTPUT expression`                    |
 | Oval (End)             | `END`                                  |
 | Arrow (loop)           | `FOR ... NEXT` or `WHILE ... ENDWHILE` |
+
+</div>
 
 ---
 
@@ -776,13 +852,19 @@ Every flowchart symbol maps directly to pseudocode:
 
 ### Types of Errors
 
+<div class="table-wrap">
+
 | Error Type        | Description                                                  | Detected When    | Example                               |
 | ----------------- | ------------------------------------------------------------ | ---------------- | ------------------------------------- |
 | **Syntax error**  | Code violates the language's grammar rules                   | Compilation      | Missing `THEN` in IF statement        |
 | **Logic error**   | Program runs but produces incorrect results                  | During testing   | Using `>` instead of `>=`             |
 | **Runtime error** | Program crashes during execution due to an invalid operation | During execution | Division by zero, array out of bounds |
 
+</div>
+
 ### Debugging Techniques
+
+<div class="table-wrap">
 
 | Technique            | Description                                                    |
 | -------------------- | -------------------------------------------------------------- |
@@ -793,7 +875,11 @@ Every flowchart symbol maps directly to pseudocode:
 | **Step-through**     | Execute one line at a time, inspecting variables               |
 | **Rubber ducking**   | Explain the code line by line to identify the error            |
 
+</div>
+
 ### Testing Strategies
+
+<div class="table-wrap">
 
 | Testing Type       | Description                                                     |
 | ------------------ | --------------------------------------------------------------- |
@@ -803,10 +889,14 @@ Every flowchart symbol maps directly to pseudocode:
 | **Extreme data**   | Test with very large or very small values                       |
 | **Absent data**    | Test with empty or missing input                                |
 
+</div>
+
 <details>
 <summary>Worked Example: Testing a Grade Program</summary>
 
 Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F: &lt; 40).
+
+<div class="table-wrap">
 
 | Test Case | Input | Expected Output | Purpose           |
 | --------- | ----- | --------------- | ----------------- |
@@ -822,6 +912,8 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
 | Erroneous | -5    | Error message   | Negative score    |
 | Erroneous | 105   | Error message   | Score exceeds max |
 | Erroneous | "abc" | Error message   | Non-numeric input |
+
+</div>
 
 </details>
 
@@ -916,6 +1008,8 @@ END
 
 Trace table:
 
+<div class="table-wrap">
+
 | i   | num | num > 0 | num < 0 | positive | negative | zero |
 | --- | --- | ------- | ------- | -------- | -------- | ---- |
 | 1   | 3   | True    | -       | 1        | 0        | 0    |
@@ -923,6 +1017,8 @@ Trace table:
 | 3   | 0   | False   | False   | 1        | 1        | 1    |
 | 4   | 7   | True    | -       | 2        | 1        | 1    |
 | 5   | -1  | False   | True    | 2        | 2        | 1    |
+
+</div>
 
 Output: `positive = 2, negative = 2, zero = 1`
 
@@ -963,6 +1059,8 @@ END FUNCTION
 
 (b) Trace for `"DSE ICT is challenging"` (LEN = 21):
 
+<div class="table-wrap">
+
 | i     | char              | inWord (before) | Action   | count | inWord (after) |
 | ----- | ----------------- | --------------- | -------- | ----- | -------------- |
 | 1     | D                 | FALSE           | New word | 1     | TRUE           |
@@ -978,6 +1076,8 @@ END FUNCTION
 | 11    | " "               | TRUE            | End word | 3     | FALSE          |
 | 12    | c                 | FALSE           | New word | 4     | TRUE           |
 | 13-21 | (remaining chars) | TRUE            | None     | 4     | TRUE           |
+
+</div>
 
 Result: 4 words
 
@@ -1002,12 +1102,16 @@ comparison with The middle element could eliminate the target, making the algori
 
 (b) Array: `[1, 3, 5, 7, 9, 11, 13, 15, 17]`Target = 7
 
+<div class="table-wrap">
+
 | Step | low | high | mid | arr[mid] | Comparison | Action   |
 | ---- | --- | ---- | --- | -------- | ---------- | -------- |
 | 1    | 0   | 8    | 4   | 9        | 9 > 7      | high = 3 |
 | 2    | 0   | 3    | 1   | 3        | 3 < 7      | low = 2  |
 | 3    | 2   | 3    | 2   | 5        | 5 < 7      | low = 3  |
 | 4    | 3   | 3    | 3   | 7        | 7 = 7      | Found    |
+
+</div>
 
 Result: Found at index 3.
 

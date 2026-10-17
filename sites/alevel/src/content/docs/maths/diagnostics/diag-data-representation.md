@@ -132,6 +132,8 @@ distribution.
 The frequency distribution below shows the daily commuting times (in minutes) for 200 employees at a
 large company:
 
+<div class="table-wrap">
+
 | Commuting time $t$ (min) | Frequency |
 | ------------------------ | --------- |
 | $0 \lt t \leq 10$        | 12        |
@@ -139,6 +141,8 @@ large company:
 | $20 \lt t \leq 35$       | 56        |
 | $35 \lt t \leq 60$       | 65        |
 | $60 \lt t \leq 90$       | 29        |
+
+</div>
 
 **(a)** A student draws a histogram using the frequency on the vertical axis and the commuting time
 on the horizontal axis, making all bars the same width. Explain why this histogram is misleading,
@@ -172,6 +176,8 @@ $$
 
 **(b)** Frequency densities:
 
+<div class="table-wrap">
+
 | Class              | Width | Frequency | Frequency density |
 | ------------------ | ----- | --------- | ----------------- |
 | $0 \lt t \leq 10$  | 10    | 12        | 1.2               |
@@ -180,7 +186,11 @@ $$
 | $35 \lt t \leq 60$ | 25    | 65        | 2.6               |
 | $60 \lt t \leq 90$ | 30    | 29        | 0.97              |
 
+</div>
+
 To estimate the mean, we use the midpoint of each class:
+
+<div class="table-wrap">
 
 | Class              | Midpoint $x$ | Frequency $f$ | $fx$   |
 | ------------------ | ------------ | ------------- | ------ |
@@ -189,6 +199,8 @@ To estimate the mean, we use the midpoint of each class:
 | $20 \lt t \leq 35$ | 27.5         | 56            | 1540   |
 | $35 \lt t \leq 60$ | 47.5         | 65            | 3087.5 |
 | $60 \lt t \leq 90$ | 75           | 29            | 2175   |
+
+</div>
 
 $$
 \sum f = 200, \quad \sum fx = 7432.5
@@ -377,6 +389,8 @@ constant (3 or $-3$) and the sign of the multiplier only affect the mean, not th
 A factory produces bolts, and the length $X$ mm of each bolt is measured. The grouped frequency
 distribution for 500 bolts is:
 
+<div class="table-wrap">
+
 | Length $x$ (mm)        | Frequency |
 | ---------------------- | --------- |
 | $24.0 \leq x \lt 24.5$ | 20        |
@@ -385,6 +399,8 @@ distribution for 500 bolts is:
 | $25.5 \leq x \lt 26.0$ | 145       |
 | $26.0 \leq x \lt 26.5$ | 75        |
 | $26.5 \leq x \lt 27.0$ | 15        |
+
+</div>
 
 A bolt is classified as **defective** if its length is less than 24.5 mm or greater than 26.5 mm.
 
@@ -426,6 +442,8 @@ There is approximately a 51.6% chance that a box contains at least one defective
 
 Estimate the sample mean using class midpoints:
 
+<div class="table-wrap">
+
 | Class                  | Midpoint $x$ | Frequency $f$ | $fx$    |
 | ---------------------- | ------------ | ------------- | ------- |
 | $24.0 \leq x \lt 24.5$ | 24.25        | 20            | 485     |
@@ -434,6 +452,8 @@ Estimate the sample mean using class midpoints:
 | $25.5 \leq x \lt 26.0$ | 25.75        | 145           | 3733.75 |
 | $26.0 \leq x \lt 26.5$ | 26.25        | 75            | 1968.75 |
 | $26.5 \leq x \lt 27.0$ | 26.75        | 15            | 401.25  |
+
+</div>
 
 $$
 \bar{x} = \frac{12732.5}{500} = 25.465 \text{ mm}
@@ -470,9 +490,13 @@ factory's claim that the mean bolt length is 25.5 mm.
 A scientist investigates the relationship between the dosage $d$ (in mg) of a drug and the response
 time $r$ (in seconds) for 8 patients. The data is:
 
+<div class="table-wrap">
+
 | $d$ | 1    | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
 | --- | ---- | --- | --- | --- | --- | --- | --- | --- |
 | $r$ | 12.1 | 9.8 | 8.2 | 7.5 | 6.1 | 5.3 | 5.0 | 4.9 |
+
+</div>
 
 The regression line of $r$ on $d$ is $r = 12.08 - 0.953d$.
 
@@ -494,6 +518,8 @@ in regression.]
 
 **(a)** Residuals $= \text{observed} - \text{predicted}$:
 
+<div class="table-wrap">
+
 | $d$ | Observed $r$ | Predicted $\hat{r} = 12.08 - 0.953d$ | Residual $r - \hat{r}$ |
 | --- | ------------ | ------------------------------------ | ---------------------- |
 | 1   | 12.1         | 11.127                               | 0.973                  |
@@ -504,6 +530,8 @@ in regression.]
 | 6   | 5.3          | 6.362                                | -1.062                 |
 | 7   | 5.0          | 5.409                                | -0.409                 |
 | 8   | 4.9          | 4.456                                | 0.444                  |
+
+</div>
 
 Rounded to 2 d.p.: 0.97, $-0.37$, $-1.02$, $-0.77$, $-1.22$, $-1.06$, $-0.41$0.44.
 
@@ -649,12 +677,16 @@ $$
 Now the grouped estimates. We need the class frequencies. Since we are modelling from the PDF, the
 expected frequency in each class (out of a large sample) is proportional to the class probability:
 
+<div class="table-wrap">
+
 | Class            | Midpoint $x$ | $P(\text{class})$         | $x \cdot P$ | $x^2 \cdot P$ |
 | ---------------- | ------------ | ------------------------- | ----------- | ------------- |
 | $0 \leq x \lt 1$ | 0.5          | $\frac{1}{64} = 0.01563$  | 0.00781     | 0.00391       |
 | $1 \leq x \lt 2$ | 1.5          | $\frac{7}{64} = 0.10938$  | 0.16406     | 0.24609       |
 | $2 \leq x \lt 3$ | 2.5          | $\frac{19}{64} = 0.29688$ | 0.74219     | 1.85547       |
 | $3 \leq x \lt 4$ | 3.5          | $\frac{37}{64} = 0.57813$ | 2.02344     | 7.08203       |
+
+</div>
 
 Estimated mean: $\bar{x} \approx 0.00781 + 0.16406 + 0.74219 + 2.02344 = 2.9375 \approx 2.94$
 

@@ -23,6 +23,8 @@ tableOfContents: false
 
 **Question:** The grouped frequency table shows the marks of 60 students in a maths test:
 
+<div class="table-wrap">
+
 | Mark               | Frequency |
 | ------------------ | --------- |
 | $0 \le m \lt 20$   | 4         |
@@ -30,6 +32,8 @@ tableOfContents: false
 | $40 \le m \lt 60$  | 18        |
 | $60 \le m \lt 80$  | 20        |
 | $80 \le m \lt 100$ | 7         |
+
+</div>
 
 (a) Calculate an estimate for the mean mark. (b) Identify the modal class. (c) Find the median class
 and estimate the median. (d) Explain why the mean is only an estimate.
@@ -58,6 +62,8 @@ end of the class interval, making the midpoint an approximation.
 
 **Question:** The cumulative frequency table shows the heights of 80 students:
 
+<div class="table-wrap">
+
 | Height (cm) | Cumulative Frequency |
 | ----------- | -------------------- |
 | $\lt 150$   | 5                    |
@@ -67,6 +73,8 @@ end of the class interval, making the midpoint an approximation.
 | $\lt 170$   | 68                   |
 | $\lt 175$   | 76                   |
 | $\lt 180$   | 80                   |
+
+</div>
 
 (a) Draw a cumulative frequency curve. (b) Find the median, lower quartile, and upper quartile. (c)
 Calculate the interquartile range. (d) A student is 182 cm tall. Is this an outlier? Justify.
@@ -86,9 +94,13 @@ an outlier.
 
 **Question:** A teacher records the number of hours of revision and the exam score for 10 students:
 
+<div class="table-wrap">
+
 | Hours | 2   | 3   | 5   | 1   | 4   | 6   | 3   | 7   | 5   | 8   |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Score | 35  | 45  | 55  | 25  | 50  | 70  | 40  | 75  | 60  | 85  |
+
+</div>
 
 (a) Plot the data and describe the correlation. (b) Draw a line of best fit and use it to estimate
 the score for a student who revised for 4.5 hours. (c) Explain why extrapolation beyond 8 hours
@@ -165,12 +177,16 @@ not 50%.
 
 **Question:** The histogram shows the distribution of weights of 50 parcels:
 
+<div class="table-wrap">
+
 | Weight (kg)       | Frequency |
 | ----------------- | --------- |
 | $0 \le w \lt 2$   | 8         |
 | $2 \le w \lt 5$   | 15        |
 | $5 \le w \lt 10$  | 18        |
 | $10 \le w \lt 20$ | 9         |
+
+</div>
 
 (a) Calculate the frequency density for each class. (b) A parcel weighing 3.5 kg costs $\pounds 4$
 to send and a parcel weighing 12 kg costs $\pounds 12$. Assuming a linear pricing model, find the

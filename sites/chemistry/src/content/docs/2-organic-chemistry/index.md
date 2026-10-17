@@ -126,4 +126,4 @@ In nucleophilic acyl substitution, the leaving group is the group that departs f
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

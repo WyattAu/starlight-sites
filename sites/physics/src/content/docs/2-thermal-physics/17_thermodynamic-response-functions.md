@@ -42,12 +42,16 @@ $$
 
 From the exact differentials of thermodynamic potentials:
 
+<div class="table-wrap">
+
 | Potential | Differential     | Maxwell Relation                                        |
 | --------- | ---------------- | ------------------------------------------------------- |
 | $U(S,V)$  | $dU = TdS - PdV$ | $\left(\dfrac{\partial T}{\partial V}\right)_S = -\left(\dfrac{\partial P}{\partial S}\right)_V$ |
 | $H(S,P)$  | $dH = TdS + VdP$ | $\left(\dfrac{\partial T}{\partial P}\right)_S = +\left(\dfrac{\partial V}{\partial S}\right)_P$ |
 | $F(T,V)$  | $dF = -SdT - PdV$ | $\left(\dfrac{\partial S}{\partial V}\right)_T = \left(\dfrac{\partial P}{\partial T}\right)_V$ |
 | $G(T,P)$  | $dG = -SdT + VdP$ | $\left(\dfrac{\partial S}{\partial P}\right)_T = -\left(\dfrac{\partial V}{\partial T}\right)_P$ |
+
+</div>
 
 ### 17.3 Jacobian Formalism
 
@@ -378,6 +382,6 @@ Thermodynamic response functions measure how a system reacts to small changes in
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- The Debye $T^3$ law for heat capacity is a specific example of the general heat capacity theory developed here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -271,6 +271,8 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Series | Converges? | Absolutely? | Test that decides it |
 | ------ | ---------- | ----------- | -------------------- |
 | $\sum 1/n$ | no | no | $p$-series with $p = 1$ |
@@ -279,6 +281,8 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 | $\sum 1/(n \ln n)$ | **no** | no | Cauchy condensation |
 | $\sum n/2^n$ | yes | yes | ratio test |
 | $\sum (-1)^n$ | no | no | terms do not tend to zero |
+
+</div>
 
 **The Cauchy condensation test** is the underused one, and it is the fastest way
 to settle the $p$-series. It says $\sum a_n$ (positive, decreasing) converges

@@ -191,6 +191,8 @@ Ranking hierarchy. If no unique best viable function exists, the call is ambiguo
 
 The conversion ranking hierarchy (from best to worst) is:
 
+<div class="table-wrap">
+
 | Rank                        | Description                                               | Example                              |
 | :-------------------------- | :-------------------------------------------------------- | :----------------------------------- |
 | **Exact Match**             | No conversion, or trivial conversion (lval→rval, cv-qual) | `int` → `int``int` → `const int&`    |
@@ -199,10 +201,14 @@ The conversion ranking hierarchy (from best to worst) is:
 | **User-Defined Conversion** | One user-defined conversion + standard conv               | `class A` → `class B` (via `B(A)`)   |
 | **Ellipsis**                | `...` catch-all                                           | any type                             |
 
+</div>
+
 ### Complete Conversion Rank Table
 
 The following table enumerates every standard conversion recognized by [N4950 §7.3.3] and its
 Ranking within overload resolution:
+
+<div class="table-wrap">
 
 | Conversion                                      | Category     | Rank         |
 | :---------------------------------------------- | :----------- | :----------- |
@@ -223,6 +229,8 @@ Ranking within overload resolution:
 | User-defined converting constructor             | User-Defined | User-Defined |
 | User-defined conversion operator                | User-Defined | User-Defined |
 | Ellipsis conversion                             | Ellipsis     | Ellipsis     |
+
+</div>
 
 ### Sub-Ranking Within Exact Match
 

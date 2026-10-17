@@ -140,6 +140,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 
 ### 14.5 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Meaning |
 | --- | --- | --- |
 | Thomas-Fermi wavevector | $q_{\text{TF}}^2 = e^2 g(\varepsilon_F)/\varepsilon_0$ | Inverse screening length |
@@ -147,6 +149,8 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 | Kondo temperature | $k_B T_K \sim D\,e^{-1/(N(E_F)J)}$ | Energy scale for impurity spin screening |
 | Fermi liquid lifetime | $\tau \propto 1/(\varepsilon - \varepsilon_F)^2$ | Quasiparticle decay rate near Fermi surface |
 | Mott criterion | $U_c \sim W$ (bandwidth) | Onset of Mott insulating state |
+
+</div>
 
 ### 14.6 Common Pitfalls
 
@@ -168,7 +172,7 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 - **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

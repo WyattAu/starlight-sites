@@ -47,11 +47,15 @@ $$
 
 **Key conversions:**
 
+<div class="table-wrap">
+
 | Unit | Metres                | Light-years           | Parsecs               |
 | ---- | --------------------- | --------------------- | --------------------- |
 | 1 AU | $1.50 \times 10^{11}$ | $1.58 \times 10^{-5}$ | $4.85 \times 10^{-6}$ |
 | 1 ly | $9.46 \times 10^{15}$ | 1                     | $0.307$               |
 | 1 pc | $3.09 \times 10^{16}$ | $3.26$                | 1                     |
+
+</div>
 
 ### Stellar Parallax
 

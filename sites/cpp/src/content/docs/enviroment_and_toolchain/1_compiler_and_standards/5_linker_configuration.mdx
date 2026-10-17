@@ -64,6 +64,8 @@ Incremental link times by an order of magnitude.
 
 ## Linker Comparison Matrix
 
+<div class="table-wrap">
+
 | Feature                  | GNU ld.bfd     | GNU gold       | LLVM LLD              | Mold                 | MSVC link.exe  |
 | :----------------------- | :------------- | :------------- | :-------------------- | :------------------- | :------------- |
 | **ELF support**          | Yes            | Yes            | Yes                   | Yes                  | No (COFF only) |
@@ -79,6 +81,8 @@ Incremental link times by an order of magnitude.
 | **Memory usage**         | Low            | Medium         | Medium                | High                 | Medium         |
 | **Symbol versioning**    | Yes            | Yes            | Yes                   | Yes                  | N/A            |
 | **Cross-platform**       | No             | No             | Yes                   | No                   | No             |
+
+</div>
 
 ## CMake Configuration Strategy
 
@@ -298,6 +302,8 @@ The compiler emits a call to `get_counter` that returns a placeholder address. T
 3. If the relocation target is in a shared library loaded at a dynamic base address, generate a
    **PLT/GOT** entry so the loader can resolve it at runtime.
 Relocation types on x86_64 ELF include:
+<div class="table-wrap">
+
 | Relocation Type          | Description                                | Example Use                           |
 | :----------------------- | :----------------------------------------- | :------------------------------------ |
 | `R_X86_64_64`            | Absolute 64-bit address                    | Global variable access                |
@@ -305,6 +311,8 @@ Relocation types on x86_64 ELF include:
 | `R_X86_64_PLT32`         | 32-bit PC-relative through PLT             | External function call                |
 | `R_X86_64_GOTPCRELX`     | Optimized GOT access (lazy binding bypass) | Frequently called external function   |
 | `R_X86_64_REX_GOTPCRELX` | REX-prefixed GOT access                    | RIP-relative GOT access in large code |
+
+</div>
 
 ### Static vs Dynamic Linking
 
@@ -740,6 +748,8 @@ SECTIONS
 
 ### GNU/LLD Linker Flags
 
+<div class="table-wrap">
+
 | Flag                 | Purpose                                         |
 | :------------------- | :---------------------------------------------- |
 | `-z relro`           | Partial RELRO (read-only relocations)           |
@@ -757,6 +767,8 @@ SECTIONS
 | `--build-id=sha1`    | Embed a build ID for crash reporting            |
 | `-Map=output.map`    | Generate a linker map file                      |
 | `--print-map`        | Print the link map to stdout                    |
+
+</div>
 
 ### In CMake
 

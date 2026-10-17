@@ -287,12 +287,16 @@ Equipartition.
 The internal energy $U$ is the fundamental thermodynamic potential. By performing Legendre
 Transformations on $U(S, V, N)$ We obtain the other potentials:
 
+<div class="table-wrap">
+
 | Potential             | Symbol | Natural Variables | Differential                    |
 | --------------------- | ------ | ----------------- | ------------------------------- |
 | Internal energy       | $U$    | $S, V, N$         | $dU = T\,dS - P\,dV + \mu\,dN$  |
 | Enthalpy              | $H$    | $S, P, N$         | $dH = T\,dS + V\,dP + \mu\,dN$  |
 | Helmholtz free energy | $F$    | $T, V, N$         | $dF = -S\,dT - P\,dV + \mu\,dN$ |
 | Gibbs free energy     | $G$    | $T, P, N$         | $dG = -S\,dT + V\,dP + \mu\,dN$ |
+
+</div>
 
 The Legendre transforms are:
 
@@ -345,12 +349,16 @@ Since each thermodynamic potential is a state function, its differential is exac
 Reciprocity, mixed second partial derivatives are equal. This yields the four Maxwell relations
 Directly:
 
+<div class="table-wrap">
+
 | From potential | Exact differential    | Maxwell relation                                         |
 | -------------- | --------------------- | -------------------------------------------------------- |
 | $U(S,V)$       | $dU = T\,dS - P\,dV$  | $(\partial T/\partial V)_S = -(\partial P/\partial S)_V$ |
 | $H(S,P)$       | $dH = T\,dS + V\,dP$  | $(\partial T/\partial P)_S = (\partial V/\partial S)_P$  |
 | $F(T,V)$       | $dF = -S\,dT - P\,dV$ | $(\partial S/\partial V)_T = (\partial P/\partial T)_V$  |
 | $G(T,P)$       | $dG = -S\,dT + V\,dP$ | $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$ |
+
+</div>
 
 These relations allow us to express unmeasurable quantities (entropy changes) in terms of Measurable
 ones (equations of state).
@@ -646,6 +654,8 @@ J.
 
 **Summary:**
 
+<div class="table-wrap">
+
 | Quantity                               | Value  |
 | -------------------------------------- | ------ |
 | $Q_h$ (absorbed)                       | 6915 J |
@@ -653,6 +663,8 @@ J.
 | $W_{\mathrm{net} = Q_h - Q_c}$         | 3457 J |
 | $\eta = W_{\mathrm{net}/Q_h}$          | 0.500  |
 | $\eta_{\mathrm{Carnot} = 1 - T_c/T_h}$ | 0.500  |
+
+</div>
 
 The efficiency matches the Carnot prediction exactly, as expected for a reversible cycle.
 
@@ -1752,12 +1764,16 @@ $d_u = 4$.
 
 Near a critical point, thermodynamic quantities follow power laws:
 
+<div class="table-wrap">
+
 | Quantity                      | Power law                                      | Exponent |
 | ----------------------------- | ---------------------------------------------- | -------- |
 | Order parameter ($T \lt T_c$) | $\phi \propto (T_c - T)^\beta$                 | $\beta$  |
 | Susceptibility                | $\chi \propto \lvert T - T_c \rvert^{-\gamma}$ | $\gamma$ |
 | Specific heat                 | $C \propto \lvert T - T_c \rvert^{-\alpha}$    | $\alpha$ |
 | Correlation length            | $\xi \propto \lvert T - T_c \rvert^{-\nu}$     | $\nu$    |
+
+</div>
 
 The **scaling relations** (from the homogeneity hypothesis):
 
@@ -1923,6 +1939,8 @@ For a classical system.
 
 **Theorem 16.1.** All thermodynamic quantities follow from $\ln Z$:
 
+<div class="table-wrap">
+
 | Quantity              | Formula                                                       |
 | --------------------- | ------------------------------------------------------------- |
 | Internal energy       | $U = -\partial \ln Z / \partial \beta$                        |
@@ -1931,6 +1949,8 @@ For a classical system.
 | Pressure              | $P = k_B T\,(\partial \ln Z/\partial V)_{\beta,N}$            |
 | Chemical potential    | $\mu = -k_B T\,(\partial \ln Z/\partial N)_{\beta,V}$         |
 | Heat capacity         | $C_V = k_B\beta^2(\langle E^2 \rangle - \langle E \rangle^2)$ |
+
+</div>
 
 **Proof (energy and heat capacity).**
 
@@ -3188,6 +3208,8 @@ import { Citation } from "@components/Citations.astro"
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Energy conservation implies heat flows from hot to cold | no | all four laws together forbid it; a cup of tea cooling does not violate the first law, it violates the second |
@@ -3199,6 +3221,8 @@ import { Citation } from "@components/Citations.astro"
 | $dS = \delta Q/T$ for any process | no | only for reversible paths; the entropy change of a state function is path independent, the heat is not |
 | Phase transitions are first order | no | the critical point is second order, and third-order and higher transitions exist |
 | The canonical and microcanonical ensembles give the same answer | no | they agree only in the thermodynamic limit; finite systems differ, and the difference is measurable |
+
+</div>
 
 The first row is the one worth internalising: every one of the four laws is
 consistent with the others in isolation, and the second law cannot be derived
@@ -3266,14 +3290,18 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic            | Site       | Link                                                                                                             |
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Thermodynamics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
 | [Thermodynamics] | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)                   |
 | [Thermodynamics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

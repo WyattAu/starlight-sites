@@ -48,6 +48,8 @@ Found in animals, plants, fungi, and protists. Key features:
 - Membrane-bound organelles (mitochondria, ER, Golgi, etc.)
 - Typical size: 10-100 micrometres
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic      | Eukaryotic                          |
 | ------------------------- | ---------------- | ----------------------------------- |
 | Nucleus                   | No               | Yes                                 |
@@ -56,6 +58,8 @@ Found in animals, plants, fungi, and protists. Key features:
 | Membrane-bound organelles | No               | Yes                                 |
 | Cell wall                 | Peptidoglycan    | Cellulose (plants) / chitin (fungi) |
 | Size                      | 1-10 $\mu$ M      | 10-100 $\mu$ M                       |
+
+</div>
 
 **Worked Example: Identifying cell types from electron micrographs.**
 
@@ -114,11 +118,15 @@ The cell membrane is described by the fluid mosaic model:
 
 **Passive Transport (no energy required):**
 
+<div class="table-wrap">
+
 | Type                  | Description                                                        | Examples                    |
 | --------------------- | ------------------------------------------------------------------ | --------------------------- |
 | Simple diffusion      | Movement from high to low concentration; small non-polar molecules | $\mathrm{O_2$, $\mathrm{CO_2$ |
 | Facilitated diffusion | Via channel or carrier proteins; large or polar molecules          | Glucose, ions               |
 | Osmosis               | Movement of water across a semi-permeable membrane                 | Water in cells              |
+
+</div>
 
 **Active Transport (energy required):**
 
@@ -542,6 +550,8 @@ Cell.
 
 ## Review: Summary Comparison of Transport Mechanisms
 
+<div class="table-wrap">
+
 | Mechanism             | Energy Required | Direction          | Mediator        | Example                          |
 | --------------------- | --------------- | ------------------ | --------------- | -------------------------------- |
 | Simple diffusion      | No              | High to low conc.  | None            | $\mathrm{O_2$, $\mathrm{CO_2$      |
@@ -551,6 +561,8 @@ Cell.
 | Cotransport           | Yes (gradient)  | Low to high conc.  | Carrier protein | $\mathrm{Na^+$-glucose symporter |
 | Exocytosis            | Yes (ATP)       | Out of cell        | Vesicles        | Hormone secretion                |
 | Endocytosis           | Yes (ATP)       | Into cell          | Vesicles        | Phagocytosis                     |
+
+</div>
 
 ## Review: Plant Cell Adaptations
 
@@ -718,12 +730,16 @@ Specialised cell types.
 
 **Types of stem cells:**
 
+<div class="table-wrap">
+
 | Type        | Source                            | Potential                                     |
 | ----------- | --------------------------------- | --------------------------------------------- |
 | Totipotent  | Early embryo (up to 8-cell stage) | Can become any cell type, including placental |
 | Pluripotent | Blastocyst (inner cell mass)      | Can become any cell type (not placental)      |
 | Multipotent | Adult tissues (e.g., bone marrow) | Can become a limited range of cell types      |
 | Unipotent   | Adult tissues                     | Can become only one cell type                 |
+
+</div>
 
 **Cell specialisation:** All cells in an organism contain the same genetic information, but
 Different genes are expressed in different cell types. This differential gene expression is
@@ -786,6 +802,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -793,6 +811,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 
 ## Intuition
 

@@ -141,6 +141,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Expression | Physical Meaning |
 | ---------- | ------------ | ------------------ |
 | Critical temperature | $T_c = \frac{2\pi\hbar^2}{mk_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ | Onset of macroscopic occupation |
@@ -148,6 +150,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Energy below $T_c$ | $U \propto Nk_B T_c (T/T_c)^{5/2}$ | Deviates from equipartition |
 | Heat capacity | $C_V \propto T^{3/2}$ below $T_c$ | Signature of BEC phase |
 | de Broglie wavelength | $\lambda_{\text{th}} = h/\sqrt{2\pi m k_B T}$ | BEC occurs when $n\lambda_{\text{th}}^3 \approx 2.612$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -172,6 +176,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 ### Summary Table: Ideal Bose Gas vs Ideal Fermi Gas
 
+<div class="table-wrap">
+
 | Property | Bose Gas | Fermi Gas |
 | ---------- | ---------- | ----------- |
 | Statistics | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} - 1)^{-1}$ | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} + 1)^{-1}$ |
@@ -180,6 +186,8 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Low-$T$ heat capacity | $C_V \propto T^{3/2}$ | $C_V \propto T$ |
 | Phase transition | BEC at $T_c$ | No phase transition |
 | High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
+
+</div>
 
 ## Intuition
 
@@ -192,7 +200,7 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - **[Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)**: The contrast between Bose and Fermi statistics leads to fundamentally different low-temperature behaviours.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

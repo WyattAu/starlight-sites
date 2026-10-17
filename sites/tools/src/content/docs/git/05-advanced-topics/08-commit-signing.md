@@ -263,6 +263,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 
 ### SSH vs GPG: Practical Comparison
 
+<div class="table-wrap">
+
 | Aspect             | GPG                                    | SSH                                       |
 | ------------------ | -------------------------------------- | ----------------------------------------- |
 | Key format         | OpenPGP (pubring, secring)             | SSH keypair (ed25519, rsa)                |
@@ -274,6 +276,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI... git-signing
 | Multiple keys      | Keyring supports many                  | Configure per-repo or use `~/.ssh/config` |
 | Subkey support     | Yes (separate signing/encryption/auth) | No (each key is a single key pair)        |
 | Revocation         | Revocation certificates                | Remove public key from server             |
+
+</div>
 
 For new setups, SSH signing is recommended. It eliminates the entire `gpg-agent` complexity layer
 and works with infrastructure you already have.

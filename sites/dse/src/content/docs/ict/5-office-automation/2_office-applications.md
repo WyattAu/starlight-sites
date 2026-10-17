@@ -48,12 +48,16 @@ Column in the same row.
 VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 ```
 
+<div class="table-wrap">
+
 | Parameter       | Description                                                               |
 | --------------- | ------------------------------------------------------------------------- |
 | `lookup_value`  | The value to search for in the first column                               |
 | `table_array`   | The range containing the lookup table (first column is the search column) |
 | `col_index_num` | The column number in the table from which to return the value (1-based)   |
 | `range_lookup`  | `TRUE` (or omitted) for approximate match; `FALSE` for exact match        |
+
+</div>
 
 **Critical limitations of VLOOKUP:**
 
@@ -96,6 +100,8 @@ B1: =IFERROR(VLOOKUP(A1, $E$1:$H$20, 2, FALSE), "Product not found")
 
 A grading scale in `K1:L5`:
 
+<div class="table-wrap">
+
 | Cell | K (Minimum Score) | L (Grade) |
 | ---- | ----------------- | --------- |
 | 1    | 0                 | F         |
@@ -103,6 +109,8 @@ A grading scale in `K1:L5`:
 | 3    | 60                | C         |
 | 4    | 75                | B         |
 | 5    | 90                | A         |
+
+</div>
 
 In cell `A1`A student has scored 72.
 
@@ -127,12 +135,16 @@ In ascending order. If it is not sorted, the result is unpredictable.
 HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
 ```
 
+<div class="table-wrap">
+
 | Parameter       | Description                                                          |
 | --------------- | -------------------------------------------------------------------- |
 | `lookup_value`  | The value to search for in the first row                             |
 | `table_array`   | The range containing the lookup table (first row is the search row)  |
 | `row_index_num` | The row number in the table from which to return the value (1-based) |
 | `range_lookup`  | `TRUE` for approximate match; `FALSE` for exact match                |
+
+</div>
 
 HLOOKUP is used when data is organised horizontally (e.g., monthly sales figures in rows).
 
@@ -141,11 +153,15 @@ HLOOKUP is used when data is organised horizontally (e.g., monthly sales figures
 
 Monthly sales data in `A1:F3`:
 
+<div class="table-wrap">
+
 | Cell | A      | B (Jan) | C (Feb) | D (Mar) | E (Apr) | F (May) |
 | ---- | ------ | ------- | ------- | ------- | ------- | ------- |
 | 1    | Month  | Jan     | Feb     | Mar     | Apr     | May     |
 | 2    | Sales  | 15000   | 18000   | 12000   | 21000   | 19000   |
 | 3    | Target | 16000   | 16000   | 16000   | 16000   | 16000   |
+
+</div>
 
 To find the sales figure for March:
 
@@ -168,11 +184,15 @@ INDEX(array, row_num, [col_num])
 MATCH(lookup_value, lookup_array, [match_type])
 ```
 
+<div class="table-wrap">
+
 | MATCH match_type | Behaviour                                        |
 | ---------------- | ------------------------------------------------ |
 | `0`              | Exact match                                      |
 | `1` (default)    | Largest value less than or equal to lookup value |
 | `-1`             | Smallest value greater than or equal to lookup   |
+
+</div>
 
 **INDEX + MATCH formula pattern:**
 
@@ -185,11 +205,15 @@ MATCH(lookup_value, lookup_array, [match_type])
 
 Employee data in `A1:D10`:
 
+<div class="table-wrap">
+
 | Column | A (Name) | B (Dept) | C (Position) | D (Salary) |
 | ------ | -------- | -------- | ------------ | ---------- |
 | 1      | Header   | Header   | Header       | Header     |
 | 2      | Chan     | IT       | Manager      | 45000      |
 | 3      | Lee      | Sales    | Clerk        | 28000      |
+
+</div>
 
 **Task:** Given a salary in cell `F1` (e.g., 28000), find the employee name.
 
@@ -210,12 +234,16 @@ I.e., row 3 in the sheet). `INDEX(A2:A10, 2)` returns the value at that position
 
 A sales table with products in rows and months in columns:
 
+<div class="table-wrap">
+
 | Cell | A (Product) | B (Jan) | C (Feb) | D (Mar) |
 | ---- | ----------- | ------- | ------- | ------- |
 | 1    | Product     | Jan     | Feb     | Mar     |
 | 2    | Keyboard    | 5000    | 5500    | 4800    |
 | 3    | Mouse       | 3000    | 3200    | 3500    |
 | 4    | Monitor     | 8000    | 7500    | 8200    |
+
+</div>
 
 To find the sales for "Mouse" in "Feb":
 
@@ -239,6 +267,8 @@ VLOOKUP, HLOOKUP, and INDEX/MATCH in a single, more intuitive function.
 XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
 ```
 
+<div class="table-wrap">
+
 | Parameter      | Description                                 |
 | -------------- | ------------------------------------------- |
 | `lookup_value` | Value to search for                         |
@@ -247,6 +277,8 @@ XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], 
 | `if_not_found` | Value to return if no match (avoids #N/A)   |
 | `match_mode`   | 0 = exact, -1 = exact or next smaller, etc. |
 | `search_mode`  | 1 = first-to-last, -1 = last-to-first, etc. |
+
+</div>
 
 ```python
 =XLOOKUP(A1, E1:E20, H1:H20, "Not found")
@@ -289,6 +321,8 @@ may Be required to create and configure pivot tables.
 
 ### Pivot Table Components -- Detailed
 
+<div class="table-wrap">
+
 | Area        | Purpose                                                          | Example Configuration                           |
 | ----------- | ---------------------------------------------------------------- | ----------------------------------------------- |
 | **Rows**    | Defines the row groupings (categories on the vertical axis)      | Product, Region, Salesperson                    |
@@ -296,9 +330,13 @@ may Be required to create and configure pivot tables.
 | **Values**  | The data being aggregated (SUM, COUNT, AVERAGE, etc.)            | SUM of Sales, AVERAGE of Price, COUNT of Orders |
 | **Filters** | Applies a filter to the entire pivot table                       | Year = 2025, Region = "Hong Kong"               |
 
+</div>
+
 ### Value Field Settings
 
 When a field is placed in the Values area, you can change how it is summarised:
+
+<div class="table-wrap">
 
 | Summarisation Method | Use When                                 |
 | -------------------- | ---------------------------------------- |
@@ -309,17 +347,23 @@ When a field is placed in the Values area, you can change how it is summarised:
 | **PRODUCT**          | Multiplying values together              |
 | **% of Grand Total** | Showing each value as a percentage       |
 
+</div>
+
 To change the summarisation method: right-click a value cell > Summarise Values By > select method.
 
 ### Grouping Data in Pivot Tables
 
 Pivot tables can group data automatically:
 
+<div class="table-wrap">
+
 | Data Type   | Grouping Options                                | Example                    |
 | ----------- | ----------------------------------------------- | -------------------------- |
 | **Dates**   | By year, quarter, month, week, day              | Group order dates by month |
 | **Numbers** | By custom ranges (e.g., 0--100, 101--200, 201+) | Group prices by ranges     |
 | **Text**    | By selected items (manual selection)            | Group regions              |
+
+</div>
 
 <details>
 <summary>Worked Example: Pivot Table for Sales Analysis</summary>
@@ -355,10 +399,14 @@ D), Salesperson, Quantity, UnitPrice, Revenue.
 
 ### Slicers and Timelines
 
+<div class="table-wrap">
+
 | Feature      | Description                                                       |
 | ------------ | ----------------------------------------------------------------- |
 | **Slicer**   | A visual filter button that filters the pivot table interactively |
 | **Timeline** | A visual date filter that allows filtering by time period         |
+
+</div>
 
 Slicers provide a user-friendly way to filter pivot tables without using dropdown filters. Multiple
 Slicers can be connected to the same pivot table or to multiple pivot tables.
@@ -368,12 +416,16 @@ Slicers can be connected to the same pivot table or to multiple pivot tables.
 A pivot chart is a chart linked to a pivot table. When the pivot table is filtered or rearranged,
 the Pivot chart updates automatically.
 
+<div class="table-wrap">
+
 | Chart Type   | Best For                           |
 | ------------ | ---------------------------------- |
 | Column chart | Comparing categories               |
 | Line chart   | Showing trends over time           |
 | Pie chart    | Showing proportions (single field) |
 | Bar chart    | Comparing categories (horizontal)  |
+
+</div>
 
 ---
 
@@ -424,11 +476,15 @@ This applies formatting to every even-numbered row.
 
 ### Data Bars and Icon Sets in Practice
 
+<div class="table-wrap">
+
 | Rule Type        | Configuration Example                                                        | Visual Output                     |
 | ---------------- | ---------------------------------------------------------------------------- | --------------------------------- |
 | **Data bar**     | Apply to Sales column, minimum = 0, maximum = highest value                  | In-cell bar proportional to value |
 | **Colour scale** | Apply to Score column: Red (low) -- Yellow (mid) -- Green (high)             | Gradient background colour        |
 | **Icon set**     | Apply to Change column: Green up arrow (positive), Red down arrow (negative) | Arrow icons next to values        |
+
+</div>
 
 ### Managing Multiple Conditional Formatting Rules
 
@@ -485,11 +541,15 @@ Data validation can use formulas for complex validation criteria.
 
 ### Input Messages and Error Alerts
 
+<div class="table-wrap">
+
 | Setting           | Description                                                         |
 | ----------------- | ------------------------------------------------------------------- |
 | **Input Message** | A tooltip shown when the cell is selected, explaining what to enter |
 | **Error Alert**   | A dialog shown when invalid data is entered                         |
 | **Error Style**   | Stop (prevents entry), Warning (allows override), Information       |
+
+</div>
 
 ---
 
@@ -511,6 +571,8 @@ Understanding VBA allows students to modify recorded macros and write custom aut
 
 **Key VBA syntax elements:**
 
+<div class="table-wrap">
+
 | Element            | Example                             | Description                           |
 | ------------------ | ----------------------------------- | ------------------------------------- |
 | `Sub`              | `Sub FormatData()`                  | Defines a subroutine                  |
@@ -521,6 +583,8 @@ Understanding VBA allows students to modify recorded macros and write custom aut
 | `Cells(row, col)`  | `Cells(1, 1).Value = "Hello"`       | References a cell by row and column   |
 | `Range()`          | `Range("A1:B10")`                   | References a range of cells           |
 | `With...End With`  | `With Selection.Font ... End With`  | Applies multiple properties to object |
+
+</div>
 
 <details>
 <summary>Worked Example: VBA Macro to Generate a Summary Report</summary>
@@ -570,6 +634,8 @@ below the data with bold labels.
 
 ### Macro Security and Best Practices
 
+<div class="table-wrap">
+
 | Practice                     | Reason                                                        |
 | ---------------------------- | ------------------------------------------------------------- |
 | Disable macros from internet | Prevents automatic execution of malicious code                |
@@ -578,6 +644,8 @@ below the data with bold labels.
 | Use descriptive names        | Makes macros easier to find and maintain                      |
 | Add comments in code         | Documents the purpose and logic of each section               |
 | Use error handling           | Prevents crashes from unexpected conditions (`On Error GoTo`) |
+
+</div>
 
 ---
 
@@ -597,14 +665,20 @@ below the data with bold labels.
 Relational databases use relationships to link tables together. Understanding relationships is
 Essential for designing and querying databases.
 
+<div class="table-wrap">
+
 | Relationship Type | Description                                                     | Example                             |
 | ----------------- | --------------------------------------------------------------- | ----------------------------------- |
 | **One-to-One**    | Each record in Table A relates to exactly one record in Table B | Employee -- Emergency Contact       |
 | **One-to-Many**   | One record in Table A relates to many records in Table B        | Customer -- Orders                  |
 | **Many-to-Many**  | Many records in Table A relate to many in Table B               | Students -- Courses (via Enrolment) |
 
+</div>
+
 **Referential integrity:** A constraint that ensures relationships between tables remain consistent.
 If a foreign key value exists, the corresponding primary key must exist in the referenced table.
+
+<div class="table-wrap">
 
 | Action                      | With Referential Integrity    | Without Referential Integrity     |
 | --------------------------- | ----------------------------- | --------------------------------- |
@@ -612,9 +686,13 @@ If a foreign key value exists, the corresponding primary key must exist in the r
 | Update a parent key         | Prevented (or cascade update) | Allowed (broken references)       |
 | Add a child with invalid FK | Prevented                     | Allowed (data integrity violated) |
 
+</div>
+
 ### Query Design -- Advanced
 
 #### Select Queries with Multiple Criteria
+
+<div class="table-wrap">
 
 | Criteria Row | Field: Region | Field: Sales | Field: Date   |
 | ------------ | ------------- | ------------ | ------------- |
@@ -622,6 +700,8 @@ If a foreign key value exists, the corresponding primary key must exist in the r
 | Show         | Checked       | Checked      | Checked       |
 | Criteria     | "HK Island"   | > 1000       | >= #1/1/2025# |
 | Or           | "Kowloon"     |              |               |
+
+</div>
 
 This query shows records where: (Region is "HK Island" AND Sales > 1000 AND Date is on or after
 1/1/2025) OR (Region is "Kowloon"). The "Or" row applies alternative criteria.
@@ -644,6 +724,8 @@ input Is substituted into the criteria.
 
 Queries can include calculated fields that do not exist in the underlying table.
 
+<div class="table-wrap">
+
 | Expression                                    | Description                              |
 | --------------------------------------------- | ---------------------------------------- |
 | `Total: [Quantity]*[Price]`                   | Creates a calculated field named "Total" |
@@ -651,7 +733,11 @@ Queries can include calculated fields that do not exist in the underlying table.
 | `Age: DateDiff("yyyy",[DOB],Date())`          | Calculates age from date of birth        |
 | `FullName: [FirstName] & " " & [LastName]`    | Concatenates first and last name         |
 
+</div>
+
 #### Action Queries
+
+<div class="table-wrap">
 
 | Query Type     | Purpose                               | Caution                                      |
 | -------------- | ------------------------------------- | -------------------------------------------- |
@@ -660,7 +746,11 @@ Queries can include calculated fields that do not exist in the underlying table.
 | **Delete**     | Remove records matching criteria      | Without WHERE, ALL records are deleted       |
 | **Make-Table** | Create a new table from query results | Overwrites existing table with the same name |
 
+</div>
+
 ### Forms -- Advanced Features
+
+<div class="table-wrap">
 
 | Feature                    | Description                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------ |
@@ -675,7 +765,11 @@ Queries can include calculated fields that do not exist in the underlying table.
 | **Default values**         | Pre-fill fields with common values                                                   |
 | **Navigation buttons**     | Move between records, add new records, search                                        |
 
+</div>
+
 ### Reports -- Advanced Features
+
+<div class="table-wrap">
 
 | Feature                    | Description                                                           |
 | -------------------------- | --------------------------------------------------------------------- |
@@ -689,6 +783,8 @@ Queries can include calculated fields that do not exist in the underlying table.
 | **Labels and text boxes**  | Static text, data-bound text fields                                   |
 | **Charts**                 | Embedded charts for visual data presentation                          |
 | **Sub-reports**            | Nested reports within a main report                                   |
+
+</div>
 
 ---
 
@@ -708,6 +804,8 @@ Queries can include calculated fields that do not exist in the underlying table.
 A master slide (slide master) defines the default appearance and layout of all slides in a
 presentation. Changes to the slide master are applied to every slide that uses it.
 
+<div class="table-wrap">
+
 | Element Controlled by Slide Master | Description                                             |
 | ---------------------------------- | ------------------------------------------------------- |
 | **Background**                     | Colour, gradient, image, or pattern for all slides      |
@@ -718,6 +816,8 @@ presentation. Changes to the slide master are applied to every slide that uses i
 | **Logo**                           | Consistent company/school logo placement                |
 | **Bullet styles**                  | Bullet character, indentation, spacing                  |
 
+</div>
+
 **Using slide layouts:** Each slide can use a different layout (title slide, title and content,
 blank, Two content, picture with caption). Layouts are defined in the slide master.
 
@@ -727,6 +827,8 @@ blank, Two content, picture with caption). Layouts are defined in the slide mast
 
 Transitions are effects applied between slides during a presentation.
 
+<div class="table-wrap">
+
 | Transition Type | Examples                 | Effect                                     |
 | --------------- | ------------------------ | ------------------------------------------ |
 | **Fade**        | Fade, Fade through black | Dissolve from one slide to the next        |
@@ -734,7 +836,11 @@ Transitions are effects applied between slides during a presentation.
 | **Wipe**        | Wipe, Wedge              | Content appears to wipe across             |
 | **Morph**       | Morph (PowerPoint 2019+) | Smoothly transforms objects between slides |
 
+</div>
+
 **Transition settings:**
+
+<div class="table-wrap">
 
 | Setting      | Description                                      |
 | ------------ | ------------------------------------------------ |
@@ -742,9 +848,13 @@ Transitions are effects applied between slides during a presentation.
 | **Sound**    | Optional sound effect during transition          |
 | **Advance**  | On mouse click, or automatically after N seconds |
 
+</div>
+
 #### Object Animations
 
 Animations are effects applied to individual objects (text, images, shapes) within a slide.
+
+<div class="table-wrap">
 
 | Animation Category | Examples                                | Purpose                              |
 | ------------------ | --------------------------------------- | ------------------------------------ |
@@ -753,7 +863,11 @@ Animations are effects applied to individual objects (text, images, shapes) with
 | **Exit**           | Fade Out, Fly Out, Shrink, Dissolve     | Object disappears from the slide     |
 | **Motion Path**    | Custom path, Line, Arc, Circle          | Object moves along a defined path    |
 
+</div>
+
 **Animation settings:**
+
+<div class="table-wrap">
 
 | Setting      | Description                                                     |
 | ------------ | --------------------------------------------------------------- |
@@ -762,10 +876,14 @@ Animations are effects applied to individual objects (text, images, shapes) with
 | **Delay**    | Delay before the animation starts                               |
 | **Order**    | The sequence in which animations play                           |
 
+</div>
+
 ### Speaker Notes
 
 Speaker notes are text visible only to the presenter during the slide show. They are not projected
 to The audience.
+
+<div class="table-wrap">
 
 | Use                    | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
@@ -775,6 +893,8 @@ to The audience.
 | **Audience questions** | Anticipated questions and prepared answers               |
 | **Backup information** | Additional details to mention if time permits            |
 | **Technical notes**    | Instructions for advancing slides, triggering animations |
+
+</div>
 
 ### Presentation Design for Exams
 
@@ -805,6 +925,8 @@ Demonstrate:
 
 ### DTP vs Word Processing
 
+<div class="table-wrap">
+
 | Feature                | Word Processing        | Desktop Publishing                    |
 | ---------------------- | ---------------------- | ------------------------------------- |
 | **Primary purpose**    | Text-centric documents | Visual layout and design              |
@@ -816,7 +938,11 @@ Demonstrate:
 | **Master pages**       | Not available          | Consistent page templates             |
 | **Imposition**         | Not available          | Arranging pages for printing          |
 
+</div>
+
 ### DTP Terminology
+
+<div class="table-wrap">
 
 | Term            | Definition                                                                      |
 | --------------- | ------------------------------------------------------------------------------- |
@@ -831,7 +957,11 @@ Demonstrate:
 | **Gutter**      | The inner margin between two facing pages in a book/magazine                    |
 | **White space** | Empty areas of the page that improve readability and design                     |
 
+</div>
+
 ### Principles of Effective Publication Design
+
+<div class="table-wrap">
 
 | Principle      | Description                                                       |
 | -------------- | ----------------------------------------------------------------- |
@@ -841,6 +971,8 @@ Demonstrate:
 | **Contrast**   | Use contrasting sizes, colours, or weights to create hierarchy    |
 | **Balance**    | Distribute visual weight evenly across the page                   |
 | **Hierarchy**  | Guide the reader's eye through the content in order of importance |
+
+</div>
 
 ---
 
@@ -909,6 +1041,8 @@ Demonstrate:
 
 A spreadsheet has the following data in `A1:E10`:
 
+<div class="table-wrap">
+
 | Column | A (Product) | B (Category) | C (Price) | D (Stock) | E (Supplier) |
 | ------ | ----------- | ------------ | --------- | --------- | ------------ |
 | 1      | Header      | Header       | Header    | Header    | Header       |
@@ -916,6 +1050,8 @@ A spreadsheet has the following data in `A1:E10`:
 | 3      | Mouse       | Electronics  | 150       | 200       | TechCorp     |
 | 4      | Desk        | Furniture    | 2500      | 8         | OfficeMax    |
 | 5      | Chair       | Furniture    | 1800      | 12        | OfficeMax    |
+
+</div>
 
 (a) Write a VLOOKUP formula to find the price of "Desk".
 

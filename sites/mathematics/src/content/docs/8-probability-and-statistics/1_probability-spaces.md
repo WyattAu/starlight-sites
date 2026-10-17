@@ -197,6 +197,8 @@ theory) where pairwise independence holds and the theorems genuinely fail.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Every subset of $\Omega$ is measurable | no | the Vitali set on $[0,1]$ |
@@ -205,7 +207,11 @@ theory) where pairwise independence holds and the theorems genuinely fail.
 | $P(A \cup B) = P(A) + P(B)$ | no | unless $A \cap B = \emptyset$ |
 | Finite additivity implies countable | no | the whole point of axiom 3 |
 
+</div>
+
 ## Common pitfalls
+
+<div class="table-wrap">
 
 | Pitfall | Why it happens | Fix |
 | ------- | -------------- | --- |
@@ -213,6 +219,8 @@ theory) where pairwise independence holds and the theorems genuinely fail.
 | Assuming independence from "no obvious link" | Independence is a measure-theoretic statement, not a causal one | It must be verified from the joint distribution |
 | Treating $\Omega$ as always finite | Finite combinatorics is the special case | Uncountable $\Omega$ is where sigma-algebras earn their keep |
 | Using pairwise independence in proofs | The definition needs all subsets | Check every subset |
+
+</div>
 
 ## Interleaving problems
 

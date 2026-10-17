@@ -190,6 +190,8 @@ npx prisma migrate status
 
 ### Tool Comparison
 
+<div class="table-wrap">
+
 | Feature           | Flyway            | Liquibase            | golang-migrate | Alembic | Django     | Prisma                        |
 | ----------------- | ----------------- | -------------------- | -------------- | ------- | ---------- | ----------------------------- |
 | Languages         | SQL, Java, Kotlin | XML, YAML, JSON, SQL | SQL            | Python  | Python     | SQL, TS                       |
@@ -198,6 +200,8 @@ npx prisma migrate status
 | Transactional DDL | Yes               | Yes                  | Yes            | Yes     | Yes        | Yes                           |
 | Branching/merge   | Paid              | Manual               | Manual         | Manual  | Manual     | Manual                        |
 | Database support  | Many              | Many                 | Many           | Many    | Django DBs | Postgres, MySQL, SQLite, etc. |
+
+</div>
 
 ## Migration File Naming
 
@@ -215,10 +219,14 @@ V3__create_orders.sql
 20240116100000__create_orders.sql
 ```
 
+<div class="table-wrap">
+
 | Approach    | Pros                          | Cons                                     |
 | ----------- | ----------------------------- | ---------------------------------------- |
 | Sequential  | Simple, easy to read          | Conflicts in team development (V3 vs V3) |
 | Timestamped | No conflicts in parallel work | Verbose, ordering may not match intent   |
+
+</div>
 
 ## Up/Down Migrations (Reversibility)
 
@@ -340,12 +348,16 @@ ALTER TABLE users DROP COLUMN legacy_field;
 
 ### When to Separate
 
+<div class="table-wrap">
+
 | Concern           | Schema Migration                   | Data Migration                 |
 | ----------------- | ---------------------------------- | ------------------------------ |
 | Duration          | Milliseconds to seconds            | Minutes to hours               |
 | Transaction scope | DDL is transactional in PostgreSQL | May need batch processing      |
 | Rollback          | Reverse DDL                        | May be impossible or very slow |
 | Tool              | Flyway, Liquibase, Alembic         | Application code, batch jobs   |
+
+</div>
 
 ### Batched Data Migrations
 

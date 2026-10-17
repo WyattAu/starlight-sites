@@ -39,12 +39,16 @@ efficient problem-solving.
 
 ### Per-Section Pacing
 
+<div class="table-wrap">
+
 | Section           | Module   | Questions | Time   | Seconds per Question |
 | ----------------- | -------- | --------- | ------ | -------------------- |
 | Reading & Writing | Module 1 | 27        | 32 min | ~71 s                |
 | Reading & Writing | Module 2 | 27        | 32 min | ~71 s                |
 | Mathematics       | Module 1 | 22        | 35 min | ~95 s                |
 | Mathematics       | Module 2 | 22        | 35 min | ~95 s                |
+
+</div>
 
 ### The Two-Pass System
 
@@ -61,11 +65,15 @@ questions right in 5 minutes is worth the same as getting 1 hard question right 
 
 Check your position at these checkpoints:
 
+<div class="table-wrap">
+
 | Checkpoint  | Reading & Writing     | Mathematics           |
 | ----------- | --------------------- | --------------------- |
 | 25% through | Q7, ~8 min elapsed   | Q5, ~9 min elapsed   |
 | 50% through | Q14, ~16 min elapsed | Q11, ~17 min elapsed |
 | 75% through | Q20, ~24 min elapsed | Q16, ~26 min elapsed |
+
+</div>
 
 If you are behind at any checkpoint, switch to the two-pass system immediately.
 
@@ -125,12 +133,16 @@ There is **no penalty for wrong answers** on the digital SAT. This means:
 
 ### Strategic Guessing Framework
 
+<div class="table-wrap">
+
 | Situation                                  | Action                                                        |
 | ------------------------------------------ | ------------------------------------------------------------- |
 | Can eliminate 0 options                    | Guess immediately, don"t waste time                          |
 | Can eliminate 1 option                     | Guess if under 30 seconds remaining, otherwise eliminate more |
 | Can eliminate 2 options                    | Always guess, 50% success rate                               |
 | Running out of time with 3+ questions left | Bubble answers for all remaining questions instantly          |
+
+</div>
 
 ### Grid-In Questions
 
@@ -158,6 +170,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### When to Use the Calculator
 
+<div class="table-wrap">
+
 | Scenario                                            | Calculator?                                   |
 | --------------------------------------------------- | --------------------------------------------- |
 | Simple arithmetic (e.g., $17 \times 23$)            | No, mental math is faster                    |
@@ -166,6 +180,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 | Finding roots of a quadratic                        | Yes, graph and identify x-intercepts         |
 | Statistical calculations (mean, standard deviation) | Yes, use Desmos stats tools                  |
 | Estimating an answer to check reasonableness        | Yes, plug in approximate values              |
+
+</div>
 
 ### Desmos Power Techniques
 
@@ -220,12 +236,16 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### Common Trap Patterns
 
+<div class="table-wrap">
+
 | Trap                          | Description                                            | Counter                                        |
 | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 | **Plausible but unsupported** | Answer sounds reasonable but the passage never says it | Ask "where does the passage say this?"         |
 | **Too broad**                 | True but covers more than what the question asks       | Match the answer scope to the question scope   |
 | **Too narrow**                | True but misses the main point                         | Check if the answer captures the central claim |
 | **Extreme language**          | Uses words like "always", "impossible", "proved"       | Eliminate unless explicitly supported          |
+
+</div>
 
 ---
 
@@ -255,6 +275,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### Transition Word Quick Reference
 
+<div class="table-wrap">
+
 | Relationship | Examples                                             |
 | ------------ | ---------------------------------------------------- |
 | Addition     | furthermore, moreover, additionally, also            |
@@ -262,6 +284,8 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 | Cause/Effect | therefore, consequently, as a result, thus           |
 | Example      | for instance, specifically, namely, for example      |
 | Sequence     | first, subsequently, finally, meanwhile              |
+
+</div>
 
 ---
 
@@ -322,6 +346,8 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 
 ### Weekly Schedule (10 Weeks Out)
 
+<div class="table-wrap">
+
 | Week | Activity                                                 | Duration                  |
 | ---- | -------------------------------------------------------- | ------------------------- |
 | 1    | Full-length practice test #1 (timed)                     | 2.5 hours + 1 hour review |
@@ -334,6 +360,8 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 | 8    | Light review + flashcard drill                           | 2 sessions of 30 min      |
 | 9    | Full-length practice test #5 (timed, simulated test day) | 2.5 hours + 1 hour review |
 | 10   | Final review, mistakes log + formula sheet              | 1 session of 60 min       |
+
+</div>
 
 ### Simulating Test Day
 
@@ -405,8 +433,12 @@ review, and test-day simulation builds the stamina and strategy needed for peak 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Link                                                |
 | ---------------------- | --------------------------------------------------- |
 | SAT Overview           | View       |
 | SAT Math Strategies    | View    |
 | SAT Reading Strategies | [View](https://gaokao.wyattau.com/chinese/reading/) |
+
+</div>

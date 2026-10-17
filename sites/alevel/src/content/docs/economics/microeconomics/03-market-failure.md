@@ -117,10 +117,14 @@ The market over-produces by 10 units, creating a welfare loss of 150.
 
 #### Types of Externalities
 
+<div class="table-wrap">
+
 |              | Production                             | Consumption                                 |
 | ------------ | -------------------------------------- | ------------------------------------------- |
 | **Negative** | Factory pollution ($MSC > MPC$)        | Second-hand smoke, congestion ($MSC > MPB$) |
 | **Positive** | Beekeeping near orchards ($MSC < MPC$) | Vaccination, education ($MSB > MPB$)        |
+
+</div>
 
 ### 2.2 Public Goods
 
@@ -137,10 +141,14 @@ $$
 Contrast with **private goods**: excludable and rivalrous (your consumption of an apple means I
 cannot eat it).
 
+<div class="table-wrap">
+
 |                    | Rivalrous                                    | Non-rivalrous                                    |
 | ------------------ | -------------------------------------------- | ------------------------------------------------ |
 | **Excludable**     | Private goods (food, clothing)               | Club goods (cable TV, cinema)                    |
 | **Non-excludable** | Common resources (fish stocks, grazing land) | Public goods (national defence, street lighting) |
+
+</div>
 
 #### The Free-Rider Problem
 
@@ -251,6 +259,8 @@ $$
 G = \frac{A}{A + B} = 2A = 1 - 2B
 $$
 
+<div class="table-wrap">
+
 | Gini Value  | Interpretation                                       |
 | ----------- | ---------------------------------------------------- |
 | $G = 0$     | Perfect equality                                     |
@@ -258,6 +268,8 @@ $$
 | $0.2 - 0.3$ | Relatively equal (e.g., Nordic countries: 0.25-0.28) |
 | $0.3 - 0.4$ | Moderate inequality (e.g., UK: 0.35)                 |
 | $0.5 - 0.6$ | High inequality (e.g., South Africa: 0.63)           |
+
+</div>
 
 ## 4. Government Intervention
 

@@ -108,6 +108,8 @@ The network is a single Astro/Starlight monorepo: one shared component and desig
 
 ## Site Directory
 
+<div class="table-wrap">
+
 | Category | Sites |
 |----------|-------|
 | UK Curriculum | alevel, gcse, highers, leaving-cert |
@@ -123,7 +125,11 @@ The network is a single Astro/Starlight monorepo: one shared component and desig
 | Systems | linux, truenas, tuning, tools, licensing, professional-certs |
 | Life Skills | driving-us, driving-uk, driving-eu, civics-tests |
 
+</div>
+
 ## Editorial Standards
+
+<div class="table-wrap">
 
 | Standard | Requirement |
 |----------|-------------|
@@ -133,3 +139,5 @@ The network is a single Astro/Starlight monorepo: one shared component and desig
 | Freshness | Content dates maintained from git history |
 | Accuracy | Corrections prioritised over new content |
 | Accessibility | WCAG-minded markup on all properties |
+
+</div>

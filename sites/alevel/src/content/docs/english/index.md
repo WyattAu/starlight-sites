@@ -59,6 +59,8 @@ writing, and deep engagement with texts across periods and genres.
 
 ## Topics
 
+<div class="table-wrap">
+
 | Section | Topic                                                             | Description                                                       |
 | ------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
 | 1       | [Literary Analysis](/english/1-literary-analysis/1_literary-analysis/)       | Close reading, critical approaches, and literary devices          |
@@ -68,6 +70,8 @@ writing, and deep engagement with texts across periods and genres.
 | 5       | [Shakespeare](/english/5-shakespeare/1_shakespeare/)                   | Language, themes, historical context, and critical interpretation |
 | 6       | [Comparative Analysis](/english/6-comparative-analysis/1_comparative-analysis/) | Comparing texts thematically, structurally, and contextually      |
 | 7       | [Unseen Texts](/english/7-unseen-texts/1_unseen-text-analysis/)         | Timed analysis strategies and annotation techniques               |
+
+</div>
 
 ## Exam Boards
 
@@ -86,6 +90,8 @@ texts and assessment objectives.
 
 Most exam boards assess the following objectives (wording varies):
 
+<div class="table-wrap">
+
 | AO  | Description                                                                                                              |
 | --- | ------------------------------------------------------------------------------------------------------------------------ |
 | AO1 | Articulate informed, personal, and creative responses to literary texts using associated concepts and terminology        |
@@ -93,6 +99,8 @@ Most exam boards assess the following objectives (wording varies):
 | AO3 | Demonstrate understanding of the significance and influence of contexts in which literary texts are written and received |
 | AO4 | Explore connections across literary texts                                                                                |
 | AO5 | Explore literary texts informed by different interpretations                                                             |
+
+</div>
 
 ## How to Use These Notes
 
@@ -143,6 +151,8 @@ Follow this structure for effective literary essays:
 
 Essential terms for A-Level English:
 
+<div class="table-wrap">
+
 | Term | Definition | Example |
 | ------ | ------------ | --------- |
 | Metaphor | Direct comparison without using 'like' or 'as' | "All the world's a stage" |
@@ -151,6 +161,8 @@ Essential terms for A-Level English:
 | Juxtaposition | Placing two contrasting elements together | Light vs dark imagery |
 | Pathetic Fallacy | Using weather or landscape to reflect mood | Storm during conflict |
 | Narrative Voice | The perspective from which the story is told | First person unreliable |
+
+</div>
 
 ## Set Text Guidance
 

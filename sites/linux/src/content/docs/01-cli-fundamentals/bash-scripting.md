@@ -33,6 +33,8 @@ fi
 
 Three test constructs exist, with important differences:
 
+<div class="table-wrap">
+
 | Feature             | `[ ]` (POSIX test) | `[[ ]]` (bash)      |
 | ------------------- | ------------------ | ------------------- |
 | Word splitting      | Yes (quote vars)   | No                  |
@@ -41,6 +43,8 @@ Three test constructs exist, with important differences:
 | Regex matching      | No                 | Yes (`=~`)          |
 | Logical operators   | `-a``-o`           | `&&``\|\|`          |
 | Empty string safety | Requires quoting   | Safe without quotes |
+
+</div>
 
 ```bash
 ## POSIX test, requires quoting
@@ -805,6 +809,8 @@ done
 
 ### Signal Reference
 
+<div class="table-wrap">
+
 | Signal  | Number | Description             | Default Action |
 | ------- | ------ | ----------------------- | -------------- |
 | SIGHUP  | 1      | Terminal hangup         | Terminate      |
@@ -817,6 +823,8 @@ done
 | SIGPIPE | 13     | Broken pipe             | Terminate      |
 | SIGSTOP | 19     | Stop (cannot be caught) | Stop           |
 | SIGTSTP | 20     | Stop (Ctrl+Z)           | Stop           |
+
+</div>
 
 ```bash
 # List all signals
@@ -849,6 +857,8 @@ echo "$VAR"
 
 Common shellcheck warnings and fixes:
 
+<div class="table-wrap">
+
 | Code   | Issue                                    | Fix                               |
 | ------ | ---------------------------------------- | --------------------------------- |
 | SC2086 | Double-quote to prevent globbing         | `"$VAR"` instead of `$VAR`        |
@@ -857,6 +867,8 @@ Common shellcheck warnings and fixes:
 | SC2034 | Variable appears unused                  | Remove or use the variable        |
 | SC2155 | Declare and assign separately            | Split `local a=$(cmd)` into two   |
 | SC1091 | Not following sourced file               | Add `# shellcheck source=...`     |
+
+</div>
 
 ### Quoting
 

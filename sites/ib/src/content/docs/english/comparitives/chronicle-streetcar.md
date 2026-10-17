@@ -177,12 +177,16 @@ Judged for being sexual and for being pure, depending on what serves the patriar
 
 Both are victims whose destruction is enabled by community inaction:
 
+<div class="table-wrap">
+
 | Aspect               | Santiago                         | Blanche                                  |
 | -------------------- | -------------------------------- | ---------------------------------------- |
 | Nature of victimhood | Physical murder                  | Psychological destruction                |
 | Community role       | Bystanders fail to warn him      | Stella chooses Stanley over Blanche      |
 | Death symbolism      | Literally killed                 | "Death" = institutionalisation in asylum |
 | Narrative treatment  | Reconstructed through interviews | Shown through theatrical staging         |
+
+</div>
 
 ### The Vicario Brothers vs Stanley Kowalski
 
@@ -387,6 +391,8 @@ Attempts, however ineffectually, to prevent Santiago's murder.
 
 ### Comparative Analysis
 
+<div class="table-wrap">
+
 | Aspect            | Eunice                            | Clotilde Armenta                       |
 | ----------------- | --------------------------------- | -------------------------------------- |
 | Social position   | Working-class, married to Steve   | Working-class, widowed milk shop owner |
@@ -394,6 +400,8 @@ Attempts, however ineffectually, to prevent Santiago's murder.
 | Action taken      | Temporary shelter, then dismissal | Sends warnings, tries to deter twins   |
 | Outcome           | Stella returns to Stanley         | Santiago is murdered                   |
 | Symbolic function | Normalises patriarchal violence   | Represents futile moral conscience     |
+
+</div>
 
 **Key Comparison:** Both characters illuminate the limits of individual moral agency within
 Oppressive social systems. Eunice's failure is more damning, she actively discourages Stella from

@@ -69,11 +69,15 @@ that topic"s diagnostic before retrying.
 
 ## Grading Rubric
 
+<div class="table-wrap">
+
 | Grade       | Criteria                                                                                                  |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
 | **PASS**    | Correct answer with valid reasoning. Minor arithmetic slips that do not affect the method are acceptable. |
 | **PARTIAL** | Correct method but wrong final answer (arithmetic error, incomplete solution, or missed a case).          |
 | **FAIL**    | Wrong method, fundamental misconception, blank response, or answer derived from guessing.                 |
+
+</div>
 
 A topic is considered **mastered** when all 5 Unit Tests and at least 2 of 3 Integration Tests score
 PASS.
@@ -104,6 +108,8 @@ topic, not the topic being tested.
 
 All 12 DSE Mathematics (Compulsory Part) topics:
 
+<div class="table-wrap">
+
 | Topic                | File                                                     | Prerequisites                     |
 | -------------------- | -------------------------------------------------------- | --------------------------------- |
 | Functions            | `diag-functions.md`                                      | --                                |
@@ -119,12 +125,18 @@ All 12 DSE Mathematics (Compulsory Part) topics:
 | Dispersion           | `diag-dispersion.md`                                     | Probability                       |
 | Combinatorics        | `diag-../compulsory/13_permutations-and-combinations.md` | Sequences and Series              |
 
+</div>
+
 ## Timing Recommendations
+
+<div class="table-wrap">
 
 | Test Type        | Time per Question | Total Time (5 questions) |
 | ---------------- | ----------------- | ------------------------ |
 | Unit Test        | 5--8 minutes      | 25--40 minutes           |
 | Integration Test | 10--15 minutes    | 30--45 minutes           |
+
+</div>
 
 Integration Tests take longer because they require multi-step reasoning across topics. If a Unit
 Test question takes more than 10 minutes, stop and review the relevant notes -- this indicates a gap

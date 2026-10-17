@@ -166,6 +166,8 @@ Energy.
   (higher charge density = stronger ion-dipole interactions).
 - For ions of similar size, hydration enthalpy becomes more exothermic as charge increases.
 
+<div class="table-wrap">
+
 | Ion                | $\Delta H_\mathrm{hyd}^\circ$ ($\mathrm{kJ/mol}$) |
 | ------------------ | ------------------------------------------------- |
 | $\mathrm{Li}^+$    | $-520$                                            |
@@ -178,6 +180,8 @@ Energy.
 | $\mathrm{Br}^-$    | $-347$                                            |
 | $\mathrm{I}^-$     | $-305$                                            |
 | $\mathrm{O}^{2-}$  | $-1900$ (approximate)                             |
+
+</div>
 
 ### Worked Example: Enthalpy of Solution of NaCl
 
@@ -468,12 +472,16 @@ need to be negative -- it just needs to be sufficiently small.
 
 **Trend in Group 2 sulphate solubility:**
 
+<div class="table-wrap">
+
 | Salt              | $\Delta H_\mathrm{lat,diss}^\circ$ ($\mathrm{kJ/mol}$) | $\Delta H_\mathrm{hyd}^\circ$ ($\mathrm{kJ/mol}$) | $\Delta H_\mathrm{sol}^\circ$ ($\mathrm{kJ/mol}$) |
 | ----------------- | ------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------- |
 | $\mathrm{MgSO}_4$ | $+3054$                                                | $-2856$                                           | $+198$                                            |
 | $\mathrm{CaSO}_4$ | $+2666$                                                | $-2602$                                           | $+64$                                             |
 | $\mathrm{SrSO}_4$ | $+2520$                                                | $-2444$                                           | $+76$                                             |
 | $\mathrm{BaSO}_4$ | $+2422$                                                | $-2328$                                           | $+94$                                             |
+
+</div>
 
 Group 2 sulphates become less soluble down the group. As the ionic radius of the cation increases,
 the lattice enthalpy decreases (less exothermic) and the hydration enthalpy also decreases (less
@@ -494,11 +502,15 @@ radius) determines the degree of covalent character in an ionic bond. Highly pol
 (small, highly charged) distort the electron cloud of large, polarised anions, introducing covalent
 character.
 
+<div class="table-wrap">
+
 | Cation             | $\phi$         | Effect                                                             |
 | ------------------ | -------------- | ------------------------------------------------------------------ |
 | $\mathrm{Li}^+$    | High           | $\mathrm{LiCl}$ is partially covalent; soluble in organic solvents |
 | $\mathrm{Mg}^{2+}$ | Very high      | $\mathrm{MgCl}_2$ has some covalent character                      |
 | $\mathrm{Al}^{3+}$ | Extremely high | $\mathrm{AlCl}_3$ is covalent (sublimes at $178^\circ\mathrm{C}$)  |
+
+</div>
 
 ## Perfect Ionic Model vs Reality
 
@@ -516,12 +528,16 @@ and $z^-$ are the ionic charges, $r_0$ is the internuclear distance, and $n$ is 
 
 ### Comparing Theoretical and Experimental Values
 
+<div class="table-wrap">
+
 | Compound          | Theoretical ($\mathrm{kJ/mol}$) | Experimental ($\mathrm{kJ/mol}$) | Difference       |
 | ----------------- | ------------------------------- | -------------------------------- | ---------------- |
 | $\mathrm{NaCl}$   | $-770$                          | $-787$                           | $17$ (small)     |
 | $\mathrm{AgCl}$   | $-770$                          | $-905$                           | $135$ (large)    |
 | $\mathrm{MgO}$    | $-3795$                         | $-3791$                          | $4$ (negligible) |
 | $\mathrm{AlCl}_3$ | $-5220$                         | $-5492$                          | $272$ (large)    |
+
+</div>
 
 When the experimental value is less exothermic than the theoretical value, it indicates covalent
 character (the ions are not fully charged, so the electrostatic attraction is weaker than
@@ -536,6 +552,8 @@ This is the enthalpy change when one mole of gaseous atoms is formed from an ele
 state. For metals, this involves breaking metallic bonds; for non-metals (diatomic), it involves
 breaking covalent bonds.
 
+<div class="table-wrap">
+
 | Element | $\Delta H_\mathrm{at}$ ($\mathrm{kJ/mol}$) | Note                                                          |
 | ------- | ------------------------------------------ | ------------------------------------------------------------- |
 | Na      | $+108$                                     | Per atom of Na(s)                                             |
@@ -545,6 +563,8 @@ breaking covalent bonds.
 | O       | $+249$                                     | Per atom of $\mathrm{O}_2(g)$ (half the bond enthalpy)        |
 | N       | $+473$                                     | Per atom of $\mathrm{N}_2(g)$ (half the triple bond enthalpy) |
 
+</div>
+
 ### Electron Affinity
 
 The first electron affinity is the enthalpy change when one mole of gaseous atoms each gains one
@@ -553,11 +573,15 @@ electron. It is exothermic for most atoms (energy is released).
 The second electron affinity is always endothermic: adding an electron to a negatively charged ion
 requires energy to overcome electrostatic repulsion.
 
+<div class="table-wrap">
+
 | Process                                        | $\Delta H$ ($\mathrm{kJ/mol}$) |
 | ---------------------------------------------- | ------------------------------ |
 | $\mathrm{Cl}(g) + e^- \to \mathrm{Cl}^-(g)$    | $-349$                         |
 | $\mathrm{O}(g) + e^- \to \mathrm{O}^-(g)$      | $-141$                         |
 | $\mathrm{O}^-(g) + e^- \to \mathrm{O}^{2-}(g)$ | $+798$                         |
+
+</div>
 
 The large positive second EA of oxygen ($+798\,\mathrm{kJ/mol}$) is a major reason why the formation
 of ionic oxides is less exothermic than expected, and why many metal oxides have significant
@@ -650,6 +674,8 @@ explains the very high melting point ($2072^\circ\mathrm{C}$) and hardness of al
 
 ### Example 3: Comparing Lattice Enthalpies -- Group 2 Chlorides
 
+<div class="table-wrap">
+
 | Compound          | $\Delta H_\mathrm{lat}^\circ$ ($\mathrm{kJ/mol}$) | Cation radius (pm) |
 | ----------------- | ------------------------------------------------- | ------------------ |
 | $\mathrm{BeCl}_2$ | $-3017$                                           | 45                 |
@@ -657,6 +683,8 @@ explains the very high melting point ($2072^\circ\mathrm{C}$) and hardness of al
 | $\mathrm{CaCl}_2$ | $-2255$                                           | 100                |
 | $\mathrm{SrCl}_2$ | $-2153$                                           | 118                |
 | $\mathrm{BaCl}_2$ | $-2056$                                           | 135                |
+
+</div>
 
 **Trend analysis:** The lattice enthalpy becomes less exothermic down Group 2 as the cation radius
 increases. The electrostatic attraction between the cation and the chloride ions decreases with
@@ -719,6 +747,8 @@ exothermic, additional bonding (e.g. Covalent contribution, van der Waals) stren
 
 For hypothetical $\mathrm{MgCl}$:
 
+<div class="table-wrap">
+
 | Step                                               | Enthalpy ($\mathrm{kJ/mol}$) |
 | -------------------------------------------------- | ---------------------------- |
 | $\Delta H_\mathrm{at}(\mathrm{Mg})$                | $+148$                       |
@@ -728,11 +758,15 @@ For hypothetical $\mathrm{MgCl}$:
 | $\Delta H_\mathrm{lat}(\mathrm{MgCl})$ (estimated) | $-700$                       |
 | **$\Delta H_f^\circ(\mathrm{MgCl})$**              | **$-41$**                    |
 
+</div>
+
 The enthalpy of formation is only weakly exothermic ($-41\,\mathrm{kJ/mol}$). The entropy change for
 forming a solid from gaseous atoms is negative ($\Delta S^\circ < 0$), so
 $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$ would be positive at room temperature.
 
 For $\mathrm{MgCl}_2$:
+
+<div class="table-wrap">
 
 | Step                                     | Enthalpy ($\mathrm{kJ/mol}$) |
 | ---------------------------------------- | ---------------------------- |
@@ -743,6 +777,8 @@ For $\mathrm{MgCl}_2$:
 | $2\mathrm{EA}_1(\mathrm{Cl})$            | $-698$                       |
 | $\Delta H_\mathrm{lat}(\mathrm{MgCl}_2)$ | $-2526$                      |
 | **$\Delta H_f^\circ(\mathrm{MgCl}_2)$**  | **$-643$**                   |
+
+</div>
 
 The much more exothermic lattice enthalpy of $\mathrm{MgCl}_2$ (due to the $2+$ charge on
 $\mathrm{Mg}$) more than compensates for the high second ionisation energy. The overall

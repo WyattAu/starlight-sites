@@ -314,12 +314,16 @@ Solution: $x = -3$, $y = 4$.
 
 **2D Transformations:**
 
+<div class="table-wrap">
+
 | Transformation                    | Matrix                                                                              |
 | --------------------------------- | ----------------------------------------------------------------------------------- |
 | Reflection in $x$-axis            | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$                                     |
 | Reflection in $y$-axis            | $\begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix}$                                     |
 | Rotation by $\theta$ about origin | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Enlargement by scale factor $k$   | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$                                      |
+
+</div>
 
 The determinant of a transformation matrix gives the area scale factor. A negative determinant
 Indicates the transformation involves a reflection.

@@ -154,11 +154,15 @@ Check: $v_p \times v_g = 1.32c \times 0.756c = c^2$. $\checkmark$
 
 For a circular waveguide of radius $R$, the TE modes have cutoff wavenumbers $k_c = p'_{mn}/R$ where $p'_{mn}$ is the $n$-th root of $J'_m(x) = 0$. The TM modes have $k_c = p_{mn}/R$ where $p_{mn}$ is the $n$-th root of $J_m(x) = 0$.
 
+<div class="table-wrap">
+
 | Mode | Cutoff condition | Lowest root | $f_c$ for $R = 1$ cm |
 | ------ | ----------------- | ------------- | --------------------- |
 | TE$_{11}$ | $J'_1(p'_{11}) = 0$ | $p'_{11} = 1.841$ | 8.79 GHz |
 | TM$_{01}$ | $J_0(p_{01}) = 0$ | $p_{01} = 2.405$ | 11.48 GHz |
 | TE$_{21}$ | $J'_2(p'_{21}) = 0$ | $p'_{21} = 3.054$ | 14.58 GHz |
+
+</div>
 
 The dominant mode in a circular waveguide is TE$_{11}$, with cutoff $f_c = \frac{cp'_{11}}{2\pi R} = \frac{1.841c}{2\pi R}$. Circular waveguides are used in rotating joints and polarisation-sensitive applications because TE$_{11}$ maintains polarisation orientation.
 
@@ -183,7 +187,7 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Key Relationships

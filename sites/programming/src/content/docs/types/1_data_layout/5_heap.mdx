@@ -163,6 +163,8 @@ Modern OS kernels (especially Linux) are often configured to **Overcommit**.
 
 Understanding when to use stack vs heap allocation is critical for performance and correctness:
 
+<div class="table-wrap">
+
 | Aspect         | Stack Allocation              | Heap Allocation                          |
 | -------------- | ----------------------------- | ---------------------------------------- |
 | Speed          | ~1 cycle (pointer bump)       | ~100-1000 cycles (search, bookkeeping)   |
@@ -171,6 +173,8 @@ Understanding when to use stack vs heap allocation is critical for performance a
 | Thread safety  | Each thread has its own stack | Shared heap --- requires synchronization |
 | Fragmentation  | None (LIFO deallocation)      | Both internal and external               |
 | Cache locality | Excellent (contiguous)        | Variable (depends on allocation pattern) |
+
+</div>
 
 **Rule of thumb:** Allocate on the stack by default. Use the heap only when:
 
@@ -419,6 +423,8 @@ void tracking_demo() \{
 
 ### Comparison of Allocation Strategies
 
+<div class="table-wrap">
+
 | Strategy      | Allocation Cost | Deallocation Cost | Fragmentation       | Use Case                           |
 | ------------- | --------------- | ----------------- | ------------------- | ---------------------------------- |
 | `malloc`      | ~50-500 ns      | ~30-200 ns        | External + Internal | General purpose                    |
@@ -429,7 +435,11 @@ void tracking_demo() \{
 | PMR monotonic | ~1-5 ns         | 0 (bulk free)     | None                | C++17 standard arena               |
 | PMR pool      | ~5-20 ns        | ~5-20 ns          | None (per size)     | C++17 standard pool                |
 
+</div>
+
 ## 10. `malloc`/`free` Overhead Comparison
+
+<div class="table-wrap">
 
 | Operation            | Approximate Cost (x86_64) | Notes                            |
 | -------------------- | ------------------------- | -------------------------------- |
@@ -439,6 +449,8 @@ void tracking_demo() \{
 | `free`               | ~30-50 ns                 | Fast bin push, possible coalesce |
 | `new` (with ctor)    | ~100-300 ns               | `malloc` + constructor call      |
 | `delete` (with dtor) | ~50-200 ns                | Destructor call + `free`         |
+
+</div>
 
 These numbers are approximate and vary by platform, allocator implementation, allocation size, and
 Fragmentation state.
@@ -712,12 +724,16 @@ Heap corruption is insidious because the crash often occurs far from the root ca
 
 Detection tools:
 
+<div class="table-wrap">
+
 | Tool                  | What It Detects                       | Overhead | Platform              |
 | --------------------- | ------------------------------------- | -------- | --------------------- |
 | AddressSanitizer      | Overflow, use-after-free, double-free | ~2x      | Linux, macOS, Windows |
 | Valgrind Memcheck     | All memory errors                     | 10-50x   | Linux                 |
 | Valgrind Massif       | Memory leaks, peak usage              | 10-20x   | Linux                 |
 | glibc `MALLOC_CHECK_` | Heap corruption (basic)               | Minimal  | Linux                 |
+
+</div>
 
 ## See Also
 

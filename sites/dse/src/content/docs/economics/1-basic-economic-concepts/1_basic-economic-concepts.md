@@ -27,12 +27,16 @@ A price greater than zero.
 
 ### Resources (Factors of Production)
 
+<div class="table-wrap">
+
 | Factor           | Description                                                                    | Reward   |
 | ---------------- | ------------------------------------------------------------------------------ | -------- |
 | Land             | All natural resources (e.g., soil, minerals, water, forests)                   | Rent     |
 | Labour           | Physical and mental effort contributed by people                               | Wages    |
 | Capital          | Man-made goods used to produce other goods (e.g., machinery, tools, factories) | Interest |
 | Entrepreneurship | The ability to organise the other factors of production and take risks         | Profit   |
+
+</div>
 
 ---
 
@@ -109,12 +113,16 @@ Different economic systems answer these questions in different ways.
 
 ## Free Goods vs Economic Goods
 
+<div class="table-wrap">
+
 | Feature          | Free Goods                                 | Economic Goods                      |
 | ---------------- | ------------------------------------------ | ----------------------------------- |
 | Scarcity         | Not scarce (abundant)                      | Scarce (limited relative to demand) |
 | Price            | Zero (free)                                | Greater than zero                   |
 | Opportunity cost | Zero (no alternative forgone)              | Positive (alternative forgone)      |
 | Examples         | Air (in most places), sunlight, rain water | Food, clothing, cars, houses        |
+
+</div>
 
 A good can be free in one context and economic in another. For example, clean air is a free good in
 A rural area but may become an economic good in a polluted city (people pay for air purifiers).
@@ -157,11 +165,15 @@ Opportunity cost).
 
 ### Key Points on the PPC
 
+<div class="table-wrap">
+
 | Point on/relative to PPC | Interpretation                                           |
 | ------------------------ | -------------------------------------------------------- |
 | On the curve             | Resources are fully and efficiently employed             |
 | Inside the curve         | Resources are underutilised (unemployment, inefficiency) |
 | Outside the curve        | Unattainable with current resources and technology       |
+
+</div>
 
 ### Shifts of the PPC
 
@@ -188,6 +200,8 @@ the other. This shows the opportunity cost of producing more of one good.
 
 An economy can produce the following combinations of good X and good Y:
 
+<div class="table-wrap">
+
 | Combination | Good X (units) | Good Y (units) |
 | ----------- | -------------- | -------------- |
 | A           | 0              | 100            |
@@ -196,6 +210,8 @@ An economy can produce the following combinations of good X and good Y:
 | D           | 3              | 70             |
 | E           | 4              | 50             |
 | F           | 5              | 0              |
+
+</div>
 
 The opportunity cost of producing the 3rd unit of X is:
 
@@ -399,6 +415,8 @@ Examples:
 
 ### Key Differences
 
+<div class="table-wrap">
+
 | Feature    | Positive Economics            | Normative Economics            |
 | ---------- | ----------------------------- | ------------------------------ |
 | Nature     | Objective                     | Subjective                     |
@@ -406,6 +424,8 @@ Examples:
 | Based on   | Facts, data, logic            | Opinions, values, ethics       |
 | Uses words | "Is", "will be"               | "Should", "ought to"           |
 | Example    | "Inflation is 5%."            | "Inflation should be reduced." |
+
+</div>
 
 ---
 
@@ -561,11 +581,15 @@ Supply more and consumers to buy less.
 
 ### Economic vs Accounting Profit
 
+<div class="table-wrap">
+
 |                            | Accounting Profit                                    | Economic Profit                                   |
 | -------------------------- | ---------------------------------------------------- | ------------------------------------------------- |
 | Formula                    | Total Revenue - Explicit Costs                       | Total Revenue - (Explicit Costs + Implicit Costs) |
 | Includes opportunity cost? | No                                                   | Yes                                               |
 | Relation                   | Economic profit = Accounting profit - Implicit costs |                                                   |
+
+</div>
 
 Implicit costs include the opportunity cost of the owner's time and capital. Economic profit is
 Always less than or equal to accounting profit.
@@ -664,10 +688,14 @@ Rational decision-maker maximises net benefit, so she should choose the concert 
 An economy produces only two goods: food and clothing. The table below shows the maximum output of
 each good if all resources are devoted to it:
 
+<div class="table-wrap">
+
 | Good     | Maximum Output |
 | -------- | -------------- |
 | Food     | 200 units      |
 | Clothing | 400 units      |
+
+</div>
 
 Assume constant opportunity cost (straight-line PPC).
 
@@ -757,6 +785,8 @@ Questions.
 
 An economy can produce capital goods and consumer goods. The following combinations are possible:
 
+<div class="table-wrap">
+
 | Combination | Capital Goods | Consumer Goods |
 | ----------- | ------------- | -------------- |
 | A           | 0             | 500            |
@@ -766,12 +796,16 @@ An economy can produce capital goods and consumer goods. The following combinati
 | E           | 200           | 260            |
 | F           | 250           | 0              |
 
+</div>
+
 (a) Calculate the opportunity cost of producing each additional 50 units of capital goods. (b) Why
 is the opportunity cost increasing? (c) If the economy is producing 100 capital goods and 300
 Consumer goods, what can you say about resource utilisation? (d) Explain how investing in capital
 Goods now might affect the PPC in the future.
 
 (a)
+
+<div class="table-wrap">
 
 | Movement | Capital Goods Increase | Consumer Goods Decrease | Opportunity Cost per 50 units of Capital |
 | -------- | ---------------------- | ----------------------- | ---------------------------------------- |
@@ -780,6 +814,8 @@ Goods now might affect the PPC in the future.
 | C to D   | 50                     | 70                      | 70 units of consumer goods               |
 | D to E   | 50                     | 110                     | 110 units of consumer goods              |
 | E to F   | 50                     | 260                     | 260 units of consumer goods              |
+
+</div>
 
 (b) The opportunity cost is increasing because resources are not equally efficient at producing both
 Goods. Resources specialised in producing consumer goods (e.g., retail workers, consumer goods
@@ -1007,6 +1043,8 @@ $$
 **Law of diminishing marginal utility:** As a consumer consumes more units of a good, the additional
 Satisfaction (marginal utility) from each additional unit decreases.
 
+<div class="table-wrap">
+
 | Units consumed | Total Utility | Marginal Utility |
 | -------------- | ------------- | ---------------- |
 | 1              | 10            | 10               |
@@ -1016,6 +1054,8 @@ Satisfaction (marginal utility) from each additional unit decreases.
 | 5              | 30            | 2                |
 | 6              | 30            | 0                |
 | 7              | 28            | -2               |
+
+</div>
 
 The consumer maximises utility where the marginal utility per dollar spent is equal across all
 Goods:
@@ -1081,6 +1121,8 @@ Loss of economic welfare.
 
 ### Government Intervention to Correct Market Failure
 
+<div class="table-wrap">
+
 | Market Failure         | Government Intervention                                     |
 | ---------------------- | ----------------------------------------------------------- |
 | Negative externalities | Taxation (Pigouvian tax), regulation, tradable permits      |
@@ -1089,6 +1131,8 @@ Loss of economic welfare.
 | Information asymmetry  | Regulation (labelling, licensing), consumer protection laws |
 | Monopoly power         | Antitrust laws, price regulation, breaking up monopolies    |
 | Inequality             | Progressive taxation, welfare programmes, minimum wage      |
+
+</div>
 
 ---
 
@@ -1132,6 +1176,8 @@ If you get this wrong, revise: [Choice and Opportunity Cost](#choice-and-opportu
 An economy can produce capital goods (K) and consumer goods (C). The following combinations are
 Possible:
 
+<div class="table-wrap">
+
 | Combination | K   | C   |
 | ----------- | --- | --- |
 | A           | 0   | 500 |
@@ -1140,6 +1186,8 @@ Possible:
 | D           | 300 | 370 |
 | E           | 400 | 250 |
 | F           | 500 | 0   |
+
+</div>
 
 (a) Calculate the opportunity cost of each 100-unit increase in K. (b) Is the PPC concave or linear?
 Explain. (c) If the economy is at point D and a new technology doubles the productivity of the
@@ -1254,6 +1302,8 @@ If you get this wrong, revise: [Economic Systems](#economic-systems)
 A student is deciding how many hours to study for an exam. The table shows the marginal benefit (MB)
 and Marginal cost (MC) of each additional hour:
 
+<div class="table-wrap">
+
 | Hour | MB (marks) | MC (marks) |
 | ---- | ---------- | ---------- |
 | 1    | 25         | 5          |
@@ -1261,6 +1311,8 @@ and Marginal cost (MC) of each additional hour:
 | 3    | 15         | 12         |
 | 4    | 10         | 17         |
 | 5    | 5          | 23         |
+
+</div>
 
 (a) How many hours should the student study? (b) What is the total net benefit? (c) If the student
 Studies 5 hours, what is the marginal net benefit of the 5th hour?

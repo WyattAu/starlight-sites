@@ -22,6 +22,8 @@ categories: [DSE, Biology]
 A balanced diet provides all essential nutrients in the correct proportions to maintain health. The
 Seven classes of food are:
 
+<div class="table-wrap">
+
 | Nutrient      | Function                                                                    | Sources                               |
 | ------------- | --------------------------------------------------------------------------- | ------------------------------------- |
 | Carbohydrates | Primary energy source; spare protein from being used as energy              | Rice, bread, pasta, potatoes          |
@@ -31,6 +33,8 @@ Seven classes of food are:
 | Minerals      | Bone formation; nerve function; enzyme cofactors                            | Milk, spinach, meat, salt             |
 | Water         | Solvent for biochemical reactions; transport medium; temperature regulation | Drinking water, food, metabolic water |
 | Dietary fibre | Adds bulk to food; stimulates peristalsis; prevents constipation            | Whole grains, vegetables, fruits      |
+
+</div>
 
 ### Energy Requirements
 
@@ -43,12 +47,16 @@ $$
 
 Average daily energy requirements:
 
+<div class="table-wrap">
+
 | Group               | Energy (kJ/day) |
 | ------------------- | --------------- |
 | Sedentary adult     | 8000 - 10000    |
 | Active adult male   | 12000 - 15000   |
 | Active adult female | 10000 - 12000   |
 | Growing teenager    | 10000 - 13000   |
+
+</div>
 
 ### Worked Example: Energy Requirements
 
@@ -84,6 +92,8 @@ efficient during intense exercise.
 
 **Undernutrition:** Insufficient intake of calories or specific nutrients.
 
+<div class="table-wrap">
+
 | Deficiency            | Disease         | Symptoms                                |
 | --------------------- | --------------- | --------------------------------------- |
 | Protein-energy        | Kwashiorkor     | Swollen abdomen, oedema, poor growth    |
@@ -95,6 +105,8 @@ efficient during intense exercise.
 | Iodine                | Goitre          | Enlarged thyroid gland                  |
 | Calcium               | Osteoporosis    | Weak, brittle bones                     |
 | Vitamin B1 (thiamine) | Beri-beri       | Nerve damage, muscle weakness           |
+
+</div>
 
 **Overnutrition:** Excessive intake leading to obesity, cardiovascular disease, Type 2 diabetes.
 
@@ -116,6 +128,8 @@ efficient during intense exercise.
 The digestive system is a muscular tube running from mouth to anus, with accessory glands (salivary
 Glands, liver, pancreas) secreting enzymes into the tract.
 
+<div class="table-wrap">
+
 | Region          | Major Functions                                                       |
 | --------------- | --------------------------------------------------------------------- |
 | Mouth           | Mechanical digestion (chewing); chemical digestion (salivary amylase) |
@@ -125,6 +139,8 @@ Glands, liver, pancreas) secreting enzymes into the tract.
 | Large intestine | Water reabsorption; formation of faeces                               |
 | Rectum          | Storage of faeces                                                     |
 | Anus            | Expulsion of faeces                                                   |
+
+</div>
 
 ### The Mouth
 
@@ -183,6 +199,8 @@ The small intestine is the primary site of both digestion and absorption. It is 
 
 **Intestinal enzymes** (produced by cells on the villi):
 
+<div class="table-wrap">
+
 | Enzyme     | Substrate | Product(s)             |
 | ---------- | --------- | ---------------------- |
 | Maltase    | Maltose   | Glucose                |
@@ -191,7 +209,11 @@ The small intestine is the primary site of both digestion and absorption. It is 
 | Peptidases | Peptides  | Amino acids            |
 | Lipase     | Fats      | Fatty acids + Glycerol |
 
+</div>
+
 ### Summary of Enzyme Digestion
+
+<div class="table-wrap">
 
 | Enzyme             | Source          | Substrate | Product(s)             | Optimal pH |
 | ------------------ | --------------- | --------- | ---------------------- | ---------- |
@@ -203,6 +225,8 @@ The small intestine is the primary site of both digestion and absorption. It is 
 | Maltase            | Small intestine | Maltose   | Glucose                | ~7-8       |
 | Sucrase            | Small intestine | Sucrose   | Glucose + Fructose     | ~7-8       |
 | Lactase            | Small intestine | Lactose   | Glucose + Galactose    | ~7-8       |
+
+</div>
 
 ### Worked Example: Enzyme Digestion Pathway
 
@@ -293,6 +317,8 @@ Water.
 
 ### Structure of the Human Respiratory System
 
+<div class="table-wrap">
+
 | Structure           | Function                                                                            |
 | ------------------- | ----------------------------------------------------------------------------------- |
 | Nasal cavity        | Warms, moistens, and filters air; lined with mucus and ciliated epithelium          |
@@ -303,6 +329,8 @@ Water.
 | Diaphragm           | Dome-shaped muscle; contracts and flattens during inhalation                        |
 | Intercostal muscles | Muscles between ribs; external intercostals aid inhalation, internal aid exhalation |
 | Ribcage             | Protects the lungs; moves up and out during inhalation                              |
+
+</div>
 
 ### Ventilation Mechanism
 
@@ -395,12 +423,16 @@ Air. Both movements are down their respective partial pressure gradients.
 
 ### Effects of Smoking
 
+<div class="table-wrap">
+
 | Substance       | Effect                                                                      |
 | --------------- | --------------------------------------------------------------------------- |
 | Nicotine        | Addictive; increases heart rate and blood pressure; narrows blood vessels   |
 | Tar             | Contains carcinogens; paralyses cilia; coats alveoli, reducing gas exchange |
 | Carbon monoxide | Binds to haemoglobin with 250x affinity of O$_2$; reduces O$_2$ transport   |
 | Smoke particles | Irritate airways; damage ciliated epithelium; cause chronic inflammation    |
+
+</div>
 
 Carbon monoxide reduces the oxygen-carrying capacity of blood because it binds to haemoglobin
 Forming carboxyhaemoglobin, which is stable and does not readily release the CO.
@@ -440,11 +472,15 @@ The heart is a four-chambered muscular pump.
 
 **Valves:**
 
+<div class="table-wrap">
+
 | Valve                   | Location                           | Function                          |
 | ----------------------- | ---------------------------------- | --------------------------------- |
 | Tricuspid valve         | Between right atrium and ventricle | Prevents backflow                 |
 | Bicuspid (mitral) valve | Between left atrium and ventricle  | Prevents backflow                 |
 | Semilunar valves        | In the pulmonary artery and aorta  | Prevents backflow into ventricles |
+
+</div>
 
 Valves open and close due to pressure differences. They ensure one-way blood flow.
 
@@ -464,6 +500,8 @@ Nearby lungs (pulmonary circulation).
 
 ### Blood Vessels
 
+<div class="table-wrap">
+
 | Feature        | Arteries                            | Veins                              | Capillaries                |
 | -------------- | ----------------------------------- | ---------------------------------- | -------------------------- |
 | Wall thickness | Thick (muscle + elastic tissue)     | Thin                               | One cell thick             |
@@ -473,6 +511,8 @@ Nearby lungs (pulmonary circulation).
 | Blood flow     | Pulsatile                           | Steady                             | Slow                       |
 | Direction      | Away from heart                     | Towards heart                      | Between arteries and veins |
 | Tissue layers  | Thick smooth muscle, elastic fibres | Thin smooth muscle, elastic fibres | Endothelium only           |
+
+</div>
 
 ### Blood Composition
 
@@ -513,12 +553,16 @@ Blood consists of:
 Blood groups are determined by **antigens** on the surface of red blood cells and **antibodies** in
 the plasma.
 
+<div class="table-wrap">
+
 | Blood Group | Antigen on RBC | Antibody in Plasma | Can Donate To | Can Receive From |
 | ----------- | -------------- | ------------------ | ------------- | ---------------- |
 | A           | A              | Anti-B             | A, AB         | A, O             |
 | B           | B              | Anti-A             | B, AB         | B, O             |
 | AB          | A and B        | None               | AB            | A, B, AB, O      |
 | O           | None           | Anti-A and Anti-B  | A, B, AB, O   | O                |
+
+</div>
 
 **Universal donor:** O (no antigens on RBC surface)
 
@@ -587,6 +631,8 @@ Key points:
 
 **Factors shifting the curve:**
 
+<div class="table-wrap">
+
 | Factor                     | Effect             | Physiological significance                                    |
 | -------------------------- | ------------------ | ------------------------------------------------------------- |
 | High $pCO_2$ (Bohr effect) | Curve shifts right | More O$_2$ released to actively respiring tissues             |
@@ -594,6 +640,8 @@ Key points:
 | High temperature           | Curve shifts right | More O$_2$ released to warm, active tissues                   |
 | High 2,3-BPG concentration | Curve shifts right | More O$_2$ unloading (adaptation to altitude)                 |
 | Fetal haemoglobin (HbF)    | Curve shifts left  | Higher affinity for O$_2$; extracts O$_2$ from maternal blood |
+
+</div>
 
 A **right shift** = lower affinity for O$_2$ = more O$_2$ released to tissues.
 
@@ -713,11 +761,15 @@ Osmoregulation is the control of water balance in the body.
 7. Blood water potential returns to normal; osmoreceptors are no longer stimulated; ADH secretion
    decreases
 
+<div class="table-wrap">
+
 | Condition          | Blood Water Potential | ADH Level | Urine Volume | Urine Concentration |
 | ------------------ | --------------------- | --------- | ------------ | ------------------- |
 | Dehydrated         | Low                   | High      | Low          | High                |
 | Well hydrated      | Normal                | Normal    | Normal       | Normal              |
 | Drunk excess water | High                  | Low       | High         | Low                 |
+
+</div>
 
 ### Worked Example: Osmoregulation and ADH
 
@@ -780,11 +832,15 @@ The PNS is further divided into:
 
 Neurons are specialised cells that transmit electrical impulses.
 
+<div class="table-wrap">
+
 | Type           | Structure                       | Function                                  |
 | -------------- | ------------------------------- | ----------------------------------------- |
 | Sensory neuron | Long axon, cell body off-centre | Transmits impulses from receptors to CNS  |
 | Relay neuron   | Short axon, many dendrites      | Connects sensory and motor neurons in CNS |
 | Motor neuron   | Long axon, cell body in CNS     | Transmits impulses from CNS to effectors  |
+
+</div>
 
 **Structure of a motor neuron:**
 
@@ -884,6 +940,8 @@ A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary
 
 **Structure:**
 
+<div class="table-wrap">
+
 | Part                 | Function                                                                 |
 | -------------------- | ------------------------------------------------------------------------ |
 | Sclera               | Tough, white outer layer; protects the eye                               |
@@ -900,6 +958,8 @@ A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary
 | Vitreous humour      | Jelly-like fluid behind the lens; maintains the shape of the eye         |
 | Ciliary body         | Contains ciliary muscles; attaches suspensory ligaments to the lens      |
 | Suspensory ligaments | Hold the lens in position; connect lens to ciliary body                  |
+
+</div>
 
 ### Accommodation
 
@@ -924,6 +984,8 @@ Distances.
 
 ### Photoreceptors
 
+<div class="table-wrap">
+
 | Feature       | Rods                                | Cones                               |
 | ------------- | ----------------------------------- | ----------------------------------- |
 | Sensitivity   | High (work in dim light)            | Low (work in bright light)          |
@@ -932,9 +994,13 @@ Distances.
 | Distribution  | Concentrated at periphery of retina | Concentrated at fovea               |
 | Pigment       | Rhodopsin                           | Iodopsin (three types)              |
 
+</div>
+
 ### The Ear
 
 **Structure:**
+
+<div class="table-wrap">
 
 | Part                       | Function                                                              |
 | -------------------------- | --------------------------------------------------------------------- |
@@ -948,6 +1014,8 @@ Distances.
 | Auditory nerve             | Transmits impulses from cochlea to the brain                          |
 | Semicircular canals        | Detect rotational movement (balance)                                  |
 | Eustachian tube            | Connects middle ear to throat; equalises pressure                     |
+
+</div>
 
 ### Hearing Mechanism
 
@@ -964,12 +1032,16 @@ Distances.
 
 The skin contains various sensory receptors:
 
+<div class="table-wrap">
+
 | Receptor Type      | Detected Stimulus      |
 | ------------------ | ---------------------- |
 | Pain receptors     | Pain, tissue damage    |
 | Thermoreceptors    | Temperature changes    |
 | Pressure receptors | Pressure, touch        |
 | Mechanoreceptors   | Mechanical deformation |
+
+</div>
 
 ---
 
@@ -991,6 +1063,8 @@ Bloodstream. Hormones are chemical messengers that travel in the blood to target
 
 ### Comparison: Nervous vs Hormonal Coordination
 
+<div class="table-wrap">
+
 | Feature      | Nervous System                      | Endocrine System                      |
 | ------------ | ----------------------------------- | ------------------------------------- |
 | Speed        | Very fast (milliseconds)            | Slower (seconds to hours to days)     |
@@ -1000,7 +1074,11 @@ Bloodstream. Hormones are chemical messengers that travel in the blood to target
 | Pathway      | Along neurones via synapses         | Via bloodstream                       |
 | Example      | Reflex arc                          | Blood glucose regulation              |
 
+</div>
+
 ### Major Endocrine Glands and Hormones
+
+<div class="table-wrap">
 
 | Gland                           | Hormone(s)              | Function                                                 |
 | ------------------------------- | ----------------------- | -------------------------------------------------------- |
@@ -1013,6 +1091,8 @@ Bloodstream. Hormones are chemical messengers that travel in the blood to target
 | Pancreas (islets of Langerhans) | Insulin, glucagon       | Blood glucose regulation                                 |
 | Ovaries                         | Oestrogen, progesterone | Female secondary sexual characteristics; menstrual cycle |
 | Testes                          | Testosterone            | Male secondary sexual characteristics; sperm production  |
+
+</div>
 
 ### Blood Glucose Regulation
 
@@ -1116,6 +1196,8 @@ solution containing 50 g of glucose. Describe the hormonal response over the nex
 
 ### Male Reproductive System
 
+<div class="table-wrap">
+
 | Structure        | Function                                                                                   |
 | ---------------- | ------------------------------------------------------------------------------------------ |
 | Testes           | Produce sperm (in seminiferous tubules) and testosterone                                   |
@@ -1127,6 +1209,8 @@ solution containing 50 g of glucose. Describe the hormonal response over the nex
 | Urethra          | Passageway for both semen and urine                                                        |
 | Penis            | Inserts semen into the vagina during intercourse                                           |
 
+</div>
+
 **Sperm structure:**
 
 - **Head:** Contains the haploid nucleus (23 chromosomes) and the acrosome (contains enzymes to
@@ -1136,6 +1220,8 @@ solution containing 50 g of glucose. Describe the hormonal response over the nex
 
 ### Female Reproductive System
 
+<div class="table-wrap">
+
 | Structure                | Function                                                       |
 | ------------------------ | -------------------------------------------------------------- |
 | Ovaries                  | Produce ova (eggs) and hormones (oestrogen, progesterone)      |
@@ -1144,6 +1230,8 @@ solution containing 50 g of glucose. Describe the hormonal response over the nex
 | Endometrium              | Lining of the uterus; thickens and is shed during menstruation |
 | Cervix                   | Ring of muscle at the entrance to the uterus                   |
 | Vagina                   | Receives the penis during intercourse; birth canal             |
+
+</div>
 
 ### The Menstrual Cycle
 
@@ -1159,6 +1247,8 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 4. **Progesterone:** Produced by the corpus luteum; maintains the thickened endometrium; inhibits
    FSH and LH production
 
+<div class="table-wrap">
+
 | Day(s) | Event                                                                             |
 | ------ | --------------------------------------------------------------------------------- |
 | 1-5    | Menstruation: endometrium is shed (if no implantation occurs)                     |
@@ -1166,6 +1256,8 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 | ~14    | Ovulation: LH surge causes the follicle to rupture; ovum is released              |
 | 15-28  | Luteal phase: corpus luteum forms; progesterone rises; endometrium maintained     |
 | 25-28  | If no implantation: corpus luteum degenerates; progesterone drops; cycle restarts |
+
+</div>
 
 ### Fertilisation and Implantation
 
@@ -1180,6 +1272,8 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 
 ### Contraception
 
+<div class="table-wrap">
+
 | Method                             | Mechanism                                                                        |
 | ---------------------------------- | -------------------------------------------------------------------------------- |
 | Condom                             | Physical barrier; prevents sperm reaching the ovum                               |
@@ -1191,7 +1285,11 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 | Rhythm method                      | Avoiding intercourse during the fertile window                                   |
 | Injection/implant                  | Slow-release progesterone; prevents ovulation                                    |
 
+</div>
+
 ### Sexually Transmitted Diseases (STDs)
+
+<div class="table-wrap">
 
 | Disease                    | Pathogen                                  | Symptoms                                                                   |
 | -------------------------- | ----------------------------------------- | -------------------------------------------------------------------------- |
@@ -1200,6 +1298,8 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 | Gonorrhoea                 | _Neisseria gonorrhoeae_ (bacterium)       | Painful urination, discharge; may cause infertility                        |
 | Chlamydia                  | _Chlamydia trachomatis_ (bacterium)       | Often asymptomatic; can cause infertility                                  |
 | HPV (Human Papillomavirus) | Virus                                     | Genital warts; linked to cervical cancer                                   |
+
+</div>
 
 **Prevention:** Use of condoms; vaccination (HPV); monogamy; regular testing.
 
@@ -1274,6 +1374,8 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 salivary amylase. Test tubes containing starch solution and amylase are incubated at different pH
 values. After 10 minutes, the presence of starch is tested with iodine solution.
 
+<div class="table-wrap">
+
 | pH  | Starch remaining after 10 min |
 | --- | ----------------------------- |
 | 3   | ++++                          |
@@ -1281,6 +1383,8 @@ values. After 10 minutes, the presence of starch is tested with iodine solution.
 | 7   | -                             |
 | 9   | +                             |
 | 11  | ++++                          |
+
+</div>
 
 (a) At which pH is amylase most active? Explain.
 
@@ -1539,6 +1643,8 @@ vesicles, only the post-synaptic membrane has the specific receptor proteins, an
 The large intestine is approximately 1.5 metres long. Its primary functions are water reabsorption
 and faeces formation.
 
+<div class="table-wrap">
+
 | Region           | Function                                                                                      |
 | ---------------- | --------------------------------------------------------------------------------------------- |
 | Caecum           | Small pouch at the start; contains the appendix (no significant digestive function in humans) |
@@ -1548,6 +1654,8 @@ and faeces formation.
 | Sigmoid colon    | Storage of faeces; connects to the rectum                                                     |
 | Rectum           | Storage of faeces prior to defaecation                                                        |
 | Anus             | Sphincter muscles (internal: involuntary; external: voluntary) control defaecation            |
+
+</div>
 
 **Key processes:**
 
@@ -1559,6 +1667,8 @@ and faeces formation.
 
 ### The Liver
 
+<div class="table-wrap">
+
 | Liver Function           | Description                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
 | Bile production          | Hepatocytes produce bile (bile salts, bile pigments, cholesterol, phospholipids)         |
@@ -1566,6 +1676,8 @@ and faeces formation.
 | Deamination              | Converts excess amino acids to keto acids and ammonia; ammonia to urea (ornithine cycle) |
 | Detoxification           | Converts harmful substances (alcohol, drugs) into less harmful forms                     |
 | Plasma protein synthesis | Synthesises albumin, fibrinogen, and other plasma proteins                               |
+
+</div>
 
 **Bile is NOT an enzyme.** It emulsifies fats physically (increases surface area) but does NOT
 chemically digest fats. Lipase chemically digests fats.
@@ -1585,6 +1697,8 @@ chemically digest fats. Lipase chemically digests fats.
 
 ### Partial Pressures and Gas Exchange
 
+<div class="table-wrap">
+
 | Location           | $p\mathrm{O}_2$ (kPa) | $p\mathrm{CO}_2$ (kPa) |
 | ------------------ | --------------------- | ---------------------- |
 | Inspired air       | 21.2                  | 0.04                   |
@@ -1593,7 +1707,11 @@ chemically digest fats. Lipase chemically digests fats.
 | Oxygenated blood   | 13.3                  | 5.3                    |
 | Tissue capillaries | 2.0-5.3               | 6.0-7.3                |
 
+</div>
+
 ### Factors Affecting the Oxygen Dissociation Curve
+
+<div class="table-wrap">
 
 | Factor                     | Effect on Curve            | Explanation                                                                                              |
 | -------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -1602,13 +1720,19 @@ chemically digest fats. Lipase chemically digests fats.
 | Increased temperature      | Shifts right               | Higher temperature reduces haemoglobin's affinity for $\mathrm{O}_2$                                     |
 | Fetal haemoglobin          | Shifts left                | Higher affinity for $\mathrm{O}_2$ than adult haemoglobin; allows efficient transfer across the placenta |
 
+</div>
+
 ### Carbon Dioxide Transport
+
+<div class="table-wrap">
 
 | Method                                  | Percentage | Description                                                                                                                          |
 | --------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Dissolved in plasma                     | ~5%        | Small amount dissolves directly in blood plasma                                                                                      |
 | Bound to haemoglobin                    | ~10-15%    | $\mathrm{CO}_2$ binds to globin chains (NOT the haem group)                                                                          |
 | Hydrogen carbonate ($\mathrm{HCO}_3^-$) | ~70-80%    | Carbonic anhydrase converts $\mathrm{CO}_2$ to $\mathrm{H}_2\mathrm{CO}_3$ Which dissociates to $\mathrm{H}^+$ and $\mathrm{HCO}_3^-$ |
+
+</div>
 
 ---
 
@@ -1645,13 +1769,19 @@ Physiology with other biology topics to test synthesis under exam conditions.
 The cardiac cycle is the sequence of events in one complete heartbeat. It consists of three main
 phases:
 
+<div class="table-wrap">
+
 | Phase                    | Atria                                          | Ventricles                                    | AV Valves                           | Semilunar Valves                                           | Blood Movement                                                                                                                                                                    |
 | ------------------------ | ---------------------------------------------- | --------------------------------------------- | ----------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Atrial systole**       | Contract; push remaining blood into ventricles | Relax; passively fill from atria              | Open                                | Closed                                                     | ~25% of ventricular filling is from atrial contraction (the "atrial kick"); the remaining 75% occurred passively during ventricular diastole                                      |
 | **Ventricular systole**  | Relax; fill from veins                         | Contract; pressure rises rapidly              | Close (first heart sound, S1 "lub") | Open (when ventricular pressure exceeds arterial pressure) | Blood is ejected into the aorta and pulmonary artery; not all blood is expelled -- approximately 60% is ejected (ejection fraction); the remaining 40% is the end-systolic volume |
 | **Ventricular diastole** | Relax; fill from veins                         | Relax; pressure drops below arterial pressure | Closed                              | Close (second heart sound, S2 "dub")                       | Both atria and ventricles relax; blood flows from veins into atria and passively into ventricles; the heart is filling                                                            |
 
+</div>
+
 **Key pressure relationships:**
+
+<div class="table-wrap">
 
 | Event                  | Pressure Condition                                                               | Result                               |
 | ---------------------- | -------------------------------------------------------------------------------- | ------------------------------------ |
@@ -1660,11 +1790,15 @@ phases:
 | Semilunar valves open  | Ventricular pressure > arterial pressure (aortic/pulmonary)                      | Blood is ejected into arteries       |
 | Semilunar valves close | Ventricular pressure < arterial pressure (at the start of ventricular diastole)  | Prevents backflow into ventricles    |
 
+</div>
+
 ### Cardiac Output
 
 $$
 \text{Cardiac output} = \text{Heart rate} \times \text{Stroke volume}
 $$
+
+<div class="table-wrap">
 
 | Component      | Normal Value (at rest) | During Exercise                                                                    |
 | -------------- | ---------------------- | ---------------------------------------------------------------------------------- |
@@ -1672,7 +1806,11 @@ $$
 | Stroke volume  | ~70 mL                 | Increases to ~100-120 mL (due to increased venous return and stronger contraction) |
 | Cardiac output | ~5 L/min               | Increases to ~15-25 L/min (up to 5x resting)                                       |
 
+</div>
+
 **Factors affecting cardiac output:**
+
+<div class="table-wrap">
 
 | Factor                      | Effect on Cardiac Output                                                                                             | Mechanism                                                                                                                                                    |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1684,10 +1822,14 @@ $$
 | Age                         | Generally decreases with age                                                                                         | Reduced maximum heart rate and stroke volume capacity with aging                                                                                             |
 | Fitness level               | Resting cardiac output is similar but stroke volume is higher and resting heart rate is lower (more efficient heart) | Athletic heart is larger and stronger; can pump more blood per beat, so it needs fewer beats at rest                                                         |
 
+</div>
+
 ### Coronary Heart Disease (CHD)
 
 **Atherosclerosis:** The build-up of fatty deposits (atheroma/plaque) in the walls of the coronary
 arteries, narrowing the lumen and restricting blood flow to the heart muscle.
+
+<div class="table-wrap">
 
 | Stage                 | Description                                                                                                            |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -1698,7 +1840,11 @@ arteries, narrowing the lumen and restricting blood flow to the heart muscle.
 | Plaque growth         | The plaque gradually enlarges, narrowing the lumen of the artery and restricting blood flow                            |
 | Thrombosis            | If the fibrous cap ruptures, a blood clot (thrombus) forms at the site, potentially completely blocking the artery     |
 
+</div>
+
 **Risk factors for CHD:**
+
+<div class="table-wrap">
 
 | Risk Factor             | Mechanism                                                                                                                                          |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1712,7 +1858,11 @@ arteries, narrowing the lumen and restricting blood flow to the heart muscle.
 | High saturated fat diet | Increases LDL cholesterol levels                                                                                                                   |
 | Stress                  | Chronic stress increases blood pressure and heart rate; may promote inflammation in arteries                                                       |
 
+</div>
+
 **Treatments for CHD:**
+
+<div class="table-wrap">
 
 | Treatment                           | Description                                                                                                                                                  |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1722,6 +1872,8 @@ arteries, narrowing the lumen and restricting blood flow to the heart muscle.
 | Angioplasty                         | A balloon catheter is inserted into the narrowed artery and inflated to compress the plaque and widen the lumen; a stent is inserted to keep the artery open |
 | Coronary artery bypass graft (CABG) | A blood vessel ( from the leg or chest) is grafted to bypass the blocked section of the coronary artery                                                      |
 | Lifestyle changes                   | Healthy diet (low saturated fat, high fibre), regular exercise, stopping smoking, reducing alcohol intake, weight management                                 |
+
+</div>
 
 ---
 
@@ -1744,12 +1896,18 @@ $$
 \text{Blood pressure} = \frac{\text{Systolic pressure}}{\text{Diastolic pressure}} \text{ mmHg}
 $$
 
+<div class="table-wrap">
+
 | Component          | Description                                                                        | Normal Value |
 | ------------------ | ---------------------------------------------------------------------------------- | ------------ |
 | Systolic pressure  | Maximum pressure during ventricular systole (when blood is ejected into the aorta) | ~120 mmHg    |
 | Diastolic pressure | Minimum pressure during ventricular diastole (when the heart is relaxing)          | ~80 mmHg     |
 
+</div>
+
 ### Classification
+
+<div class="table-wrap">
 
 | Category             | Systolic (mmHg) | Diastolic (mmHg) |
 | -------------------- | --------------- | ---------------- |
@@ -1759,7 +1917,11 @@ $$
 | Hypertension Stage 2 | 140 or above    | 90 or above      |
 | Hypotension          | Below 90        | Below 60         |
 
+</div>
+
 ### Factors Affecting Blood Pressure
+
+<div class="table-wrap">
 
 | Factor                | Effect                                                        | Mechanism                                                                                                                        |
 | --------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -1770,6 +1932,8 @@ $$
 | Stress                | Increases blood pressure (short-term)                         | Sympathetic nervous system activation; adrenaline and noradrenaline cause vasoconstriction and increased heart rate              |
 | Age                   | Generally increases with age (arteries become less elastic)   | Reduced elasticity means arteries cannot expand to accommodate the pulse of blood, increasing systolic pressure                  |
 | Diet (salt)           | High salt intake increases blood pressure                     | Excess sodium causes water retention (osmosis), increasing blood volume                                                          |
+
+</div>
 
 ---
 
@@ -1810,6 +1974,8 @@ $$
 
 ### Structure of the Alimentary Canal
 
+<div class="table-wrap">
+
 | Layer               | Description                                                                                                                             | Function                                                                                                                    |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Mucosa (innermost)  | Epithelial tissue; may be simple columnar (stomach, intestines) or stratified squamous (oesophagus, mouth)                              | Secretion of mucus, enzymes, and digestive juices; absorption of nutrients; protection against self-digestion and pathogens |
@@ -1817,7 +1983,11 @@ $$
 | Muscularis externa  | Two layers of smooth muscle: inner circular layer and outer longitudinal layer (except in the stomach, which has a third oblique layer) | Peristalsis (rhythmic wave of contraction) moves food along the canal; segmentation mixes food with digestive juices        |
 | Serosa (adventitia) | Thin outer layer of connective tissue; covered by peritoneum (a serous membrane)                                                        | Protection; reduces friction between digestive organs and surrounding tissues                                               |
 
+</div>
+
 ### Enzymes of Digestion
+
+<div class="table-wrap">
 
 | Location                   | Enzyme               | Substrate              | Product(s)                   | Optimal pH          |
 | -------------------------- | -------------------- | ---------------------- | ---------------------------- | ------------------- |
@@ -1831,10 +2001,14 @@ $$
 | Small intestine (ileum)    | Lactase              | Lactose                | Glucose and galactose        | ~7.5-8.5            |
 | Small intestine (ileum)    | Peptidases (erepsin) | Peptides               | Amino acids                  | ~7.5-8.5            |
 
+</div>
+
 ### Absorption in the Small Intestine
 
 The small intestine is the primary site of nutrient absorption. It is highly adapted for this
 function:
+
+<div class="table-wrap">
 
 | Adaptation                       | Description                                                                                                                        | Benefit                                                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -1845,7 +2019,11 @@ function:
 | Lacteal                          | Each villus contains a lacteal (a small lymphatic vessel)                                                                          | Fatty acids and glycerol are absorbed into the lacteal and transported via the lymphatic system          |
 | Mitochondria                     | Epithelial cells have many mitochondria                                                                                            | Provide ATP for active transport of nutrients against concentration gradients                            |
 
+</div>
+
 **Mechanisms of absorption:**
+
+<div class="table-wrap">
 
 | Mechanism             | Description                                                                                                                                         | Substances Absorbed                                                           |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -1854,6 +2032,8 @@ function:
 | Active transport      | Movement against the concentration gradient, using ATP and carrier proteins                                                                         | Glucose; amino acids; ions (Na$^+$K$^+$Ca$^{2+}$); vitamins                   |
 | Co-transport          | Secondary active transport; Na$^+$ moves down its concentration gradient, dragging glucose or amino acids with it (SGLT1 and other co-transporters) | Glucose; galactose; amino acids                                               |
 | Endocytosis           | The cell membrane engulfs the substance, forming a vesicle inside the cell                                                                          | Cholesterol; some vitamins; antibodies in newborns (from breast milk)         |
+
+</div>
 
 ### Co-transport of Glucose
 
@@ -1886,6 +2066,8 @@ The mechanism by which glucose is absorbed from the small intestine (and reabsor
 
 ### Functions of the Liver
 
+<div class="table-wrap">
+
 | Function                     | Description                                                                                                                                                                                         |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Metabolism of carbohydrates  | Stores glucose as glycogen (glycogenesis); breaks down glycogen to glucose when needed (glycogenolysis); converts amino acids/lactate to glucose (gluconeogenesis); maintains blood glucose levels  |
@@ -1896,6 +2078,8 @@ The mechanism by which glucose is absorbed from the small intestine (and reabsor
 | Synthesis of plasma proteins | Produces albumin (maintains blood osmotic pressure), fibrinogen and prothrombin (blood clotting factors), and globulins (antibodies and transport proteins)                                         |
 | Immune function              | Kupffer cells (specialised macrophages in the liver sinusoids) phagocytose bacteria and old/damaged red blood cells                                                                                 |
 | Breakdown of hormones        | Inactivates and breaks down hormones such as insulin, glucagon, and steroid hormones                                                                                                                |
+
+</div>
 
 ### Ornithine (Urea) Cycle
 

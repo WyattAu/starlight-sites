@@ -184,12 +184,16 @@ Relies on the physical properties of water molecules.
 
 ### Factors Affecting Transpiration Rate (OL/HL)
 
+<div class="table-wrap">
+
 | Factor          | Effect                                     | Reason                                                                   |
 | --------------- | ------------------------------------------ | ------------------------------------------------------------------------ |
 | Temperature     | Higher temperature increases rate          | Increases kinetic energy of water molecules; increases evaporation       |
 | Humidity        | Higher humidity decreases rate             | Reduces the water potential gradient between leaf and air                |
 | Wind speed      | Higher wind speed increases rate           | Removes water vapour from leaf surface, maintaining gradient             |
 | Light intensity | Higher light increases rate (stomata open) | Stomata open wider in light for photosynthesis, allowing more water loss |
+
+</div>
 
 ### Worked Example: Predicting Transpiration Rate (OL/HL)
 
@@ -290,12 +294,16 @@ Reliable.
 
 **Agents of pollination:**
 
+<div class="table-wrap">
+
 | Agent   | Flower adaptations                                                                 |
 | ------- | ---------------------------------------------------------------------------------- |
 | Wind    | Small, dull flowers; large feathery stigmas; light, smooth pollen; exposed anthers |
 | Insects | Brightly coloured petals; scent; nectar; sticky pollen; landing platform           |
 | Birds   | Large, brightly coloured (often red); copious nectar; sturdy perch                 |
 | Water   | Long, floating pollen; small, inconspicuous flowers (rare)                         |
+
+</div>
 
 :::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
@@ -337,11 +345,15 @@ Develops if fertilisation has occurred, avoiding waste of resources.
 
 **Monocot vs dicot seeds:**
 
+<div class="table-wrap">
+
 | Feature    | Monocot seed              | Dicot seed                        |
 | ---------- | ------------------------- | --------------------------------- |
 | Cotyledons | One                       | Two                               |
 | Endosperm  | Present (main food store) | Often absent (food in cotyledons) |
 | Example    | Maize, wheat              | Bean, pea                         |
+
+</div>
 
 ### Germination (OL/HL)
 
@@ -429,6 +441,8 @@ Plant hormones (phytohormones) are chemical messengers produced in small quantit
 Growth, development, and responses to stimuli. Unlike animal hormones, plant hormones can act on the
 Cells that produce them (autocrine) as well as on distant cells.
 
+<div class="table-wrap">
+
 | Hormone             | Site of production             | Effect                                             |
 | ------------------- | ------------------------------ | -------------------------------------------------- |
 | Auxin (IAA)         | Apical bud, young leaves       | Cell elongation, apical dominance, root initiation |
@@ -436,6 +450,8 @@ Cells that produce them (autocrine) as well as on distant cells.
 | Cytokinin           | Root tips                      | Cell division, delays leaf senescence              |
 | Ethylene            | Ripening fruits, ageing leaves | Fruit ripening, leaf fall (abscission)             |
 | Abscisic acid (ABA) | Leaves, root caps              | Inhibits growth, closes stomata (stress response)  |
+
+</div>
 
 ### Apical Dominance (HL)
 
@@ -537,6 +553,8 @@ Directions in response to the same gravitational stimulus.
 
 ## Summary Table: Plant Hormones and Their Effects (HL)
 
+<div class="table-wrap">
+
 | Hormone       | Promotes                                               | Inhibits                              | Practical use                                                                   |
 | ------------- | ------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------- |
 | Auxin         | Cell elongation in shoots; root initiation in cuttings | Lateral bud growth (apical dominance) | Rooting powder; weedkillers (synthetic auxins cause uncontrolled growth)        |
@@ -544,6 +562,8 @@ Directions in response to the same gravitational stimulus.
 | Cytokinin     | Cell division (cytokinesis); delay leaf ageing         | --                                    | Tissue culture; extending shelf life of cut flowers                             |
 | Ethylene      | Fruit ripening; leaf fall                              | --                                    | Bananas shipped green and ripened with ethylene gas; promoting uniform ripening |
 | Abscisic acid | Stomatal closure during water stress                   | Growth; germination                   | Antitranspirant sprays; maintaining seed dormancy                               |
+
+</div>
 
 ## Practice Questions
 
@@ -627,6 +647,8 @@ In photosynthesis and other metabolic processes. Cutting the shoot may alter its
 **Question:** A student using a potometer records the following movement of an air bubble along a
 Capillary tube of diameter 1 mm:
 
+<div class="table-wrap">
+
 | Time (min) | Distance moved (mm) |
 | ---------- | ------------------- |
 | 0--1       | 12                  |
@@ -634,6 +656,8 @@ Capillary tube of diameter 1 mm:
 | 2--3       | 11                  |
 | 3--4       | 13                  |
 | 4--5       | 12                  |
+
+</div>
 
 Calculate the mean rate of water uptake in $mm^3$/min.
 
@@ -687,11 +711,15 @@ Understanding osmosis is critical for explaining water movement in plants.
 
 **Plant cells in different solutions:**
 
+<div class="table-wrap">
+
 | Solution type           | Effect on plant cell                                                |
 | ----------------------- | ------------------------------------------------------------------- |
 | Hypotonic (high $\psi$) | Water enters; cell becomes turgid; cell wall prevents bursting      |
 | Isotonic (equal $\psi$) | No net water movement; cell is flaccid                              |
 | Hypertonic (low $\psi$) | Water leaves; cytoplasm shrinks (plasmolysis); cell becomes flaccid |
+
+</div>
 
 Turgor pressure is essential for plant support. When cells lose turgor (e.g., during water stress),
 The plant wilts. This is why watering a wilted plant restores its upright posture.
@@ -708,6 +736,8 @@ Lower water potential by osmosis across the selectively permeable cell membrane.
 
 ### Xylem and Phloem: Detailed Comparison (HL)
 
+<div class="table-wrap">
+
 | Feature               | Xylem                          | Phloem                                 |
 | --------------------- | ------------------------------ | -------------------------------------- |
 | Direction of flow     | One way (upwards)              | Two way (source to sink)               |
@@ -718,6 +748,8 @@ Lower water potential by osmosis across the selectively permeable cell membrane.
 | Associated cells      | None (vessels and tracheids)   | Companion cells (metabolically active) |
 | Mechanism             | Passive (cohesion-tension)     | Active (mass flow, requires ATP)       |
 | Role in support       | Yes (lignin provides rigidity) | No                                     |
+
+</div>
 
 ## Common Exam Errors in Plant Biology
 
@@ -744,6 +776,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -751,6 +785,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 :::
 
 ## Intuition

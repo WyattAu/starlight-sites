@@ -35,6 +35,8 @@ a3f2b1c0 HEAD@{3}: checkout: moving from main to feature
 
 Each entry contains:
 
+<div class="table-wrap">
+
 | Field                             | Meaning                                    |
 | --------------------------------- | ------------------------------------------ |
 | `a3f2b1c0`                        | The commit hash the reference moved **to** |
@@ -42,15 +44,21 @@ Each entry contains:
 | `rebase -i (finish)`              | The operation that caused the move         |
 | `returning to refs/heads/feature` | Additional context                         |
 
+</div>
+
 ### Reflog Storage
 
 The reflog is stored as plain text files:
+
+<div class="table-wrap">
 
 | File                           | Records movements of              |
 | ------------------------------ | --------------------------------- |
 | `.git/logs/HEAD`               | HEAD (covers all branch switches) |
 | `.git/logs/refs/heads/main`    | The `main` branch                 |
 | `.git/logs/refs/heads/feature` | The `feature` branch              |
+
+</div>
 
 ```bash
 ## View the raw reflog file
@@ -161,11 +169,15 @@ $ git branch recovered-work b7e9d4f5
 
 Reflog entries do not persist forever. By default:
 
+<div class="table-wrap">
+
 | Setting                      | Default | Meaning                                               |
 | ---------------------------- | ------- | ----------------------------------------------------- |
 | `gc.reflogExpire`            | 90 days | Reflog entries older than this are expired            |
 | `gc.reflogExpireUnreachable` | 30 days | Entries pointing to unreachable commits expire sooner |
 | `gc.pruneExpire`             | 2 weeks | Unreachable objects are pruned                        |
+
+</div>
 
 ### When Objects Are Actually Deleted
 

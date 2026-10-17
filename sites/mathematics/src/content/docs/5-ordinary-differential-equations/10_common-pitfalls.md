@@ -127,6 +127,8 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 
 ### 9.11 Quick Reference: Method Selection
 
+<div class="table-wrap">
+
 | ODE Type                  | Recommended Method       | Watch out for                      |
 | ------------------------- | ------------------------ | ---------------------------------- |
 | Separable                 | Separation of variables   | Missing $h(y) = 0$ solutions       |
@@ -135,6 +137,8 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 | Cauchy-Euler              | $x^r$ ansatz             | $\ln x$ terms for repeated roots   |
 | Systems near critical pt  | Linearisation            | Non-hyperbolic points              |
 | Nonlinear / no closed form| Numerical (RK4)          | Step size selection                |
+
+</div>
 
 ### Additional Pitfalls
 

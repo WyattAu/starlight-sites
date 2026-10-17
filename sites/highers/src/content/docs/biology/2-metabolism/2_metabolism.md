@@ -62,10 +62,14 @@ Widely accepted.
 
 **Inhibitors:**
 
+<div class="table-wrap">
+
 | Type            | Mechanism                                           | Reversibility |
 | --------------- | --------------------------------------------------- | ------------- |
 | Competitive     | Binds to active site; competes with substrate       | Reversible    |
 | Non-competitive | Binds to allosteric site; changes active site shape | reversible    |
+
+</div>
 
 ### Michaelis-Menten Kinetics
 
@@ -107,6 +111,8 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
+<div class="table-wrap">
+
 | [S] (mM) | v ($\mu$ Mol/min) |
 | -------- | ---------------- |
 | 1        | 1.67             |
@@ -116,6 +122,8 @@ An enzyme has the following rates at different substrate concentrations:
 | 20       | 6.90             |
 | 50       | 7.69             |
 | 100      | 8.00             |
+
+</div>
 
 At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$ Mol/min.
 
@@ -412,12 +420,16 @@ from glycolysis into the mitochondria and on the actual number of protons pumped
 
 **Using modern estimates (2.5 ATP per NADH, 1.5 ATP per FADH$_2$):**
 
+<div class="table-wrap">
+
 | Stage              | NADH   | FADH$_2$ | Direct ATP | Total ATP |
 | ------------------ | ------ | -------- | ---------- | --------- |
 | Glycolysis         | 2      | 0        | 2          | 7         |
 | Pyruvate oxidation | 2      | 0        | 0          | 5         |
 | Krebs cycle        | 6      | 2        | 2          | 20        |
 | **Total**          | **10** | **2**    | **4**      | **32**    |
+
+</div>
 
 Note: The actual yield may be lower (approximately 30 ATP) due to proton leak across the inner
 Mitochondrial membrane and the cost of transporting ATP out of the mitochondria.
@@ -521,6 +533,8 @@ by disease: measles requires approximately 95% immunity; polio requires approxim
 
 **Types of vaccines:**
 
+<div class="table-wrap">
+
 | Type            | Example           | Mechanism                                           |
 | --------------- | ----------------- | --------------------------------------------------- |
 | Live attenuated | MMR vaccine       | Weakened form of the pathogen                       |
@@ -528,6 +542,8 @@ by disease: measles requires approximately 95% immunity; polio requires approxim
 | Subunit         | Hepatitis B       | Specific antigens from the pathogen                 |
 | Toxoid          | Tetanus vaccine   | Inactivated toxin from the pathogen                 |
 | mRNA            | COVID-19 vaccines | mRNA encoding a viral antigen (e.g., spike protein) |
+
+</div>
 
 ## Review: The Kidney and Osmoregulation in Detail
 
@@ -572,12 +588,16 @@ Nephrons.
 
 **Worked Example: Comparing urine production in different conditions.**
 
+<div class="table-wrap">
+
 | Condition          | ADH Level | Collecting Duct Permeability | Urine Concentration | Urine Volume |
 | ------------------ | --------- | ---------------------------- | ------------------- | ------------ |
 | Well hydrated      | Low       | Low                          | Low (dilute)        | High         |
 | Normal             | Normal    | Moderate                     | Moderate            | Moderate     |
 | Dehydrated         | High      | High                         | High (concentrated) | Low          |
 | Diabetes insipidus | Very low  | Very low                     | Very low (dilute)   | Very high    |
+
+</div>
 
 ## Review: Thermoregulation in Detail
 
@@ -680,6 +700,8 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 
 ## Review: Summary Table of Respiration vs. Photosynthesis
 
+<div class="table-wrap">
+
 | Feature              | Respiration                                                                                       | Photosynthesis                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Overall equation     | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2 \to 6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O_2$ | $6\mathrm{CO_2 + 6\mathrm{H_2\mathrm{O_2 \to \mathrm{C_6\mathrm{H_{12}\mathrm{O_6 + 6\mathrm{O_2$ |
@@ -691,6 +713,8 @@ Transpirational water loss. This is why CAM plants dominate in arid environments
 | Organisms            | All living organisms                                                                              | Plants, algae, some bacteria                                                                      |
 | ETC location         | Inner mitochondrial membrane                                                                      | Thylakoid membrane                                                                                |
 | Proton gradient site | Intermembrane space                                                                               | Thylakoid lumen                                                                                   |
+
+</div>
 
 ## Review: Anaerobic Respiration in Detail
 
@@ -725,6 +749,8 @@ is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
 
 **Comparing fermentation products:**
 
+<div class="table-wrap">
+
 | Feature         | Lactic acid fermentation  | Alcoholic fermentation             |
 | --------------- | ------------------------- | ---------------------------------- |
 | Organisms       | Animals, some bacteria    | Yeast, some plants                 |
@@ -733,6 +759,8 @@ is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
 | Enzyme (step 2) | --                        | Alcohol dehydrogenase              |
 | ATP yield       | 2 ATP per glucose         | 2 ATP per glucose                  |
 | Reversible?     | Yes (Cori cycle in liver) | No (ethanol cannot be reconverted) |
+
+</div>
 
 **Commercial applications of fermentation:**
 

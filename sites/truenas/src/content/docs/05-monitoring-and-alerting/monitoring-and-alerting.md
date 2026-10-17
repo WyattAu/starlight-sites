@@ -21,6 +21,8 @@ description: "The TrueNAS dashboard provides a real-time overview of system heal
 
 The TrueNAS dashboard provides a real-time overview of system health:
 
+<div class="table-wrap">
+
 | Widget             | Information                                  |
 | ------------------ | -------------------------------------------- |
 | CPU Usage          | Per-core utilization percentage              |
@@ -30,6 +32,8 @@ The TrueNAS dashboard provides a real-time overview of system health:
 | Disk I/O           | Read/write throughput per pool or disk       |
 | System Temperature | CPU, disk, and enclosure temperatures        |
 | System Load        | 1, 5, and 15 minute load averages            |
+
+</div>
 
 ### System Information
 
@@ -55,11 +59,15 @@ Navigate to **System** → **Advanced** for detailed system information:
 
 ### SMART Test Types
 
+<div class="table-wrap">
+
 | Test Type       | Duration    | What It Tests                               | Recommended Frequency |
 | --------------- | ----------- | ------------------------------------------- | --------------------- |
 | Short           | 2–5 minutes | Basic electrical and mechanical tests       | Daily                 |
 | Long (Extended) | 2–6 hours   | Full surface scan, complete mechanical test | Weekly                |
 | Conveyance      | 5 minutes   | Vendor-specific (transport damage check)    | After shipping        |
+
+</div>
 
 ### Configuring SMART Tests on TrueNAS
 
@@ -84,6 +92,8 @@ smartctl -l selftest /dev/sda
 
 Critical attributes to monitor:
 
+<div class="table-wrap">
+
 | Attribute                | HDD | SSD | Warning Threshold                         |
 | ------------------------ | --- | --- | ----------------------------------------- |
 | Reallocated Sector Count | Yes | N/A | Any increase                              |
@@ -95,6 +105,8 @@ Critical attributes to monitor:
 | Power-On Hours           | Yes | Yes | Compare against MTBF (HDD: ~50,000 hours) |
 | Command Timeout          | Yes | Yes | Any non-zero value                        |
 | UDMA CRC Error Count     | Yes | Yes | Any non-zero value (cable issue)          |
+
+</div>
 
 ---
 
@@ -119,12 +131,16 @@ Critical attributes to monitor:
 
 ### Scrub Scheduling Best Practices
 
+<div class="table-wrap">
+
 | Pool Type                  | Scrub Frequency | Rationale                                    |
 | -------------------------- | --------------- | -------------------------------------------- |
 | All-HDD                    | Monthly         | HDD scrub is slow (1–3 days for large pools) |
 | All-SSD                    | Weekly          | SSD scrub is fast (1–4 hours)                |
 | Hybrid (SSD special + HDD) | Monthly         | Scrub the entire pool monthly                |
 | Critical data              | Bi-weekly       | Trade I/O impact for earlier detection       |
+
+</div>
 
 ### Monitoring Scrub Progress
 
@@ -168,11 +184,15 @@ zpool status tank
 
 TrueNAS classifies alerts into severity levels:
 
+<div class="table-wrap">
+
 | Level       | Meaning                   | Example                               |
 | ----------- | ------------------------- | ------------------------------------- |
 | Critical    | Immediate action required | Pool degraded, disk failure           |
 | Warning     | Attention needed          | SMART predictive failure, temperature |
 | Information | Informational             | Scrub completed, snapshot created     |
+
+</div>
 
 ### Common Alert Triggers
 
@@ -218,12 +238,16 @@ NUT provides UPS monitoring and automated shutdown for TrueNAS:
 
 ### UPS Configuration Parameters
 
+<div class="table-wrap">
+
 | Setting                | Value        | Rationale                                    |
 | ---------------------- | ------------ | -------------------------------------------- |
 | Shutdown timer         | 5–10 minutes | Enough time for clean shutdown, not too long |
 | Low battery threshold  | 20–30%       | Prevents battery exhaustion                  |
 | Extra delay            | 30 seconds   | Allows other systems to shut down first      |
 | No communication grace | 60 seconds   | Tolerates brief USB disconnects              |
+
+</div>
 
 ### Multi-System UPS Monitoring
 
@@ -304,6 +328,8 @@ TrueNAS can export metrics to Prometheus for visualization in Grafana:
 
 ### Key Metrics to Monitor
 
+<div class="table-wrap">
+
 | Metric             | Source    | Alert Threshold                       |
 | ------------------ | --------- | ------------------------------------- |
 | Pool capacity      | ZFS       | &gt; 80% warning, &gt; 90% critical   |
@@ -316,6 +342,8 @@ TrueNAS can export metrics to Prometheus for visualization in Grafana:
 | Replication lag    | ZFS       | &gt; 24 hours behind                  |
 | UPS battery        | NUT       | On battery, low battery               |
 | Network errors     | Interface | Any CRC, frame, or drop errors        |
+
+</div>
 
 ### Grafana Dashboard Examples
 
@@ -363,6 +391,8 @@ journalctl -b
 
 ### Common Log Patterns to Monitor
 
+<div class="table-wrap">
+
 | Pattern                     | Severity    | Action                                      |
 | --------------------------- | ----------- | ------------------------------------------- |
 | `zfs: checksum error`       | Critical    | Check pool health, scrub, replace disk      |
@@ -371,6 +401,8 @@ journalctl -b
 | `smbd: connection denied`   | Information | Check authentication configuration          |
 | `kernel: out of memory`     | Critical    | Add RAM, check for memory leaks             |
 | `UPS: on battery`           | Warning     | Monitor battery level, prepare for shutdown |
+
+</div>
 
 ---
 
@@ -401,12 +433,16 @@ TB/month will fill a 20 TB pool in approximately 20 months (accounting for RAIDZ
 
 ### Planning Guidelines
 
+<div class="table-wrap">
+
 | Metric              | Action Threshold                                   |
 | ------------------- | -------------------------------------------------- |
 | Pool usage &gt; 70% | Plan expansion within 6 months                     |
 | Pool usage &gt; 80% | Order drives immediately                           |
 | Pool usage &gt; 90% | Critical, expand or delete data                   |
 | Pool usage &gt; 95% | Emergency, ZFS performance degrades significantly |
+
+</div>
 
 ---
 
@@ -491,6 +527,8 @@ the team understands what each alert means and what action to take.
 
 The TrueNAS dashboard provides real-time metrics for:
 
+<div class="table-wrap">
+
 | Category | Metrics                                       | Refresh Rate |
 | -------- | --------------------------------------------- | ------------ |
 | CPU      | Per-core utilization, temperature, frequency  | 2 seconds    |
@@ -499,6 +537,8 @@ The TrueNAS dashboard provides real-time metrics for:
 | Disk     | Per-disk I/O throughput, latency, queue depth | 2 seconds    |
 | Pool     | Per-pool I/O throughput, capacity, ARC stats  | 5 seconds    |
 | UPS      | Battery level, load, estimated runtime        | 5 seconds    |
+
+</div>
 
 ### Historical Metrics
 
@@ -613,12 +653,16 @@ During a scrub, ZFS reads every block in the pool and verifies its checksum:
 
 ### Scrub Performance Impact
 
+<div class="table-wrap">
+
 | Pool Type    | Scrub Speed       | I/O Impact                                       |
 | ------------ | ----------------- | ------------------------------------------------ |
 | All-SSD      | 500 MB/s – 2 GB/s | Low (SSDs handle concurrent scrub + workload)    |
 | All-HDD      | 50–150 MB/s       | High (scrub consumes significant read bandwidth) |
 | Mirror (SSD) | 1–2 GB/s          | Low                                              |
 | RAIDZ2 (HDD) | 50–100 MB/s       | High                                             |
+
+</div>
 
 During a scrub of an HDD pool, normal I/O performance can degrade by 30–50%. Schedule scrubs during
 off-peak hours.
@@ -688,11 +732,15 @@ To: admin@example.com
 
 For environments with multiple administrators, route alerts based on severity:
 
+<div class="table-wrap">
+
 | Severity    | Notification Method                  | Response Time     |
 | ----------- | ------------------------------------ | ----------------- |
 | Critical    | Email + SMS (via PagerDuty/Opsgenie) | Immediate         |
 | Warning     | Email                                | Within 4 hours    |
 | Information | Email (daily digest)                 | Next business day |
+
+</div>
 
 ## Prometheus Integration for TrueNAS
 
@@ -711,6 +759,8 @@ sudo cp node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
 
 ### Key Metrics to Export
 
+<div class="table-wrap">
+
 | Metric                           | Source                         | Description                   |
 | -------------------------------- | ------------------------------ | ----------------------------- |
 | `zfs_arc_stats`                  | `/proc/spl/kstat/zfs/arcstats` | ARC hit ratio, size, metadata |
@@ -719,6 +769,8 @@ sudo cp node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
 | `node_cpu_seconds_total`         | `/proc/stat`                   | CPU utilization               |
 | `node_memory_MemAvailable_bytes` | `/proc/meminfo`                | Available memory              |
 | `node_filesystem_avail_bytes`    | `statvfs`                      | Filesystem free space         |
+
+</div>
 
 ### Grafana Dashboard JSON
 
@@ -812,6 +864,8 @@ For environments with multiple systems, centralize logs using:
 
 TrueNAS retains logs according to:
 
+<div class="table-wrap">
+
 | Log Type        | Default Retention | Location           |
 | --------------- | ----------------- | ------------------ |
 | System logs     | 1 week            | `/var/log/`        |
@@ -819,6 +873,8 @@ TrueNAS retains logs according to:
 | SMB logs        | Configurable      | `/var/log/samba4/` |
 | App logs        | Configurable      | Per-app            |
 | Middleware logs | Configurable      | Per-app            |
+
+</div>
 
 ### Log Analysis Scripts
 
@@ -874,11 +930,15 @@ Where:
 
 ### Alert Tiers
 
+<div class="table-wrap">
+
 | Tier | Severity                      | Response          | Channel        |
 | ---- | ----------------------------- | ----------------- | -------------- |
 | P0   | Critical, data at risk        | Immediate         | PagerDuty, SMS |
 | P1   | Warning, performance degraded | Within 1 hour     | Email, Slack   |
 | P2   | Informational, non-urgent     | Next business day | Daily digest   |
+
+</div>
 
 ### Alert Suppression
 
@@ -998,13 +1058,19 @@ tail -30 "$LOG" | awk -F',' '
 
 ### Capacity Planning Spreadsheet
 
+<div class="table-wrap">
+
 | Dataset      | Current Usage | Monthly Growth | Months to 80% | Action Date |
 | ------------ | ------------- | -------------- | ------------- | ----------- |
 | tank/data    | 4.2 TB        | 50 GB          | 12            | 2026-04     |
 | tank/media   | 8.7 TB        | 100 GB         | 3             | 2025-07     |
 | tank/backups | 2.1 TB        | 30 GB          | 18            | 2027-08     |
 
+</div>
+
 ### When to Expand
+
+<div class="table-wrap">
 
 | Current Usage | Recommended Action                |
 | ------------- | --------------------------------- |
@@ -1013,6 +1079,8 @@ tail -30 "$LOG" | awk -F',' '
 | 70–80%        | Order drives, schedule expansion  |
 | 80–90%        | Urgent: expand within 2 weeks     |
 | &gt; 90%      | Critical: expand immediately      |
+
+</div>
 
 ### Expansion Methods
 

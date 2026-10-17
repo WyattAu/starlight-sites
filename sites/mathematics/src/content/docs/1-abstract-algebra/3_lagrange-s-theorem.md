@@ -198,6 +198,8 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 
 ### 3.9 Key Relationships Table
 
+<div class="table-wrap">
+
 | Statement | Hypothesis | Conclusion |
 | --- | --- | --- |
 | Lagrange's Theorem | $H \leq G$, $G$ finite | $\|H\|$ divides $\|G\|$ |
@@ -206,6 +208,8 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 | Euler's Theorem | $\gcd(a,n)=1$ | $a^{\phi(n)} \equiv 1 \pmod{n}$ |
 | Index 2 implies normal | $[G:H] = 2$ | $H \trianglelefteq G$ |
 | Product Formula | $H, K \leq G$ finite | $\|HK\| = \|H\|\|K\|/\|H \cap K\|$ |
+
+</div>
 
 ### 3.8 Applications
 

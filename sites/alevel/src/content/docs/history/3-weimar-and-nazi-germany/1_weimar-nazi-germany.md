@@ -43,6 +43,8 @@ approximately six million Jews and millions of other victims.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                  | Dates     | Key Themes                                                        |
 | ----------------------- | --------- | ----------------------------------------------------------------- |
 | Revolution and founding | 1918-1919 | Abdication of Kaiser, Spartacist uprising, Treaty of Versailles   |
@@ -52,6 +54,8 @@ approximately six million Jews and millions of other victims.
 | Consolidation           | 1933-1934 | Gleichschaltung, Night of the Long Knives, Führerstaat            |
 | Nazi state              | 1934-1939 | Economic policy, social policies, persecution of Jews, rearmament |
 | War and genocide        | 1939-1945 | WWII, Holocaust, total war, defeat                                |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -134,6 +138,8 @@ approximately six million Jews and millions of other victims.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure            | Role                                | Significance                                                                              |
 | ----------------- | ----------------------------------- | ----------------------------------------------------------------------------------------- |
 | Friedrich Ebert   | First Weimar President              | Established the Republic; compromised with the old elite and military                     |
@@ -145,6 +151,8 @@ approximately six million Jews and millions of other victims.
 | Ernst Röhm        | Leader of the SA                    | Threatened army dominance; murdered in the Night of the Long Knives                       |
 | Albert Speer      | Armaments Minister                  | Managed wartime production; presented himself as the "apolitical technocrat" at Nuremberg |
 | Rosa Luxemburg    | Communist leader                    | Murdered in 1919; symbol of revolutionary socialism in Germany                            |
+
+</div>
 
 ## Historiographical Debates
 

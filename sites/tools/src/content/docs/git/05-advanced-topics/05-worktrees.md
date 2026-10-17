@@ -245,6 +245,8 @@ $ git submodule update --init --recursive
 
 ## Worktree vs Stash vs Branch
 
+<div class="table-wrap">
+
 | Feature           | Worktree               | Stash                | Branch            |
 | ----------------- | ---------------------- | -------------------- | ----------------- |
 | Parallel work     | Yes                    | No                   | No (must switch)  |
@@ -252,6 +254,8 @@ $ git submodule update --init --recursive
 | Independent index | Yes                    | No (single index)    | No (single index) |
 | Disk usage        | Higher (full checkout) | Minimal              | Minimal           |
 | Setup cost        | `git worktree add`     | `git stash push`     | `git switch`      |
+
+</div>
 
 **Rule of thumb**: Use worktrees when you need to work on two things simultaneously for more than a
 few minutes. Use stash for brief interruptions. Use branches for sequential work.

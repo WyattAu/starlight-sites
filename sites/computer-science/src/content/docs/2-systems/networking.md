@@ -24,6 +24,8 @@ categories:
 
 ### 1.1 OSI Model (7 Layers)
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                          | Examples                   |
 | ----- | ------------ | --------------------------------- | -------------------------- |
 | 7     | Application  | User interface, application logic | HTTP, DNS, SMTP, FTP       |
@@ -34,7 +36,11 @@ categories:
 | 2     | Data Link    | Framing, error detection          | Ethernet, Wi-Fi, PPP       |
 | 1     | Physical     | Bit transmission over medium      | Cables, fiber, radio waves |
 
+</div>
+
 ### 1.2 TCP/IP Model (4 Layers)
+
+<div class="table-wrap">
 
 | TCP/IP Layer   | OSI Layers | Protocols                 |
 | -------------- | ---------- | ------------------------- |
@@ -42,6 +48,8 @@ categories:
 | Transport      | 4          | TCP, UDP                  |
 | Internet       | 3          | IP, ICMP, ARP             |
 | Network Access | 1, 2       | Ethernet, Wi-Fi, MAC      |
+
+</div>
 
 ### 1.3 Encapsulation
 
@@ -64,6 +72,8 @@ Application data
 
 **Encoding schemes:**
 
+<div class="table-wrap">
+
 | Scheme                  | Description                                                |
 | ----------------------- | ---------------------------------------------------------- |
 | NRZ-L                   | High = 0, Low = 1 (or vice versa)                          |
@@ -71,6 +81,8 @@ Application data
 | Manchester              | Transition at midpoint: low→high = 1, high→low = 0         |
 | Differential Manchester | Transition at start of each bit; no mid-bit transition = 1 |
 | 4B/5B                   | 4 data bits encoded as 5 bits (80% efficiency)             |
+
+</div>
 
 ### 2.2 Bandwidth and Data Rate
 
@@ -107,12 +119,16 @@ synchronous TDM).
 
 ### 2.4 Transmission Media
 
+<div class="table-wrap">
+
 | Medium        | Bandwidth      | Distance    | Use              |
 | ------------- | -------------- | ----------- | ---------------- |
 | Twisted pair  | Up to 1 Gbps   | Up to 100m  | LAN (Cat 5e/6/7) |
 | Coaxial cable | Up to 10 Gbps  | Up to 500m  | Cable TV         |
 | Fiber optic   | Up to 100 Tbps | Up to 100km | Backbone, WAN    |
 | Radio (Wi-Fi) | Up to 9.6 Gbps | Up to 100m  | WLAN             |
+
+</div>
 
 ## 3. Data Link Layer
 
@@ -169,11 +185,15 @@ errors, and any burst of length $\leq r$.
 
 For $m$ data bits, use $r$ parity bits where $2^r \geq m + r + 1$.
 
+<div class="table-wrap">
+
 | Data bits | Parity bits | Total |
 | --------- | ----------- | ----- |
 | 4         | 3           | 7     |
 | 8         | 4           | 12    |
 | 16        | 5           | 21    |
+
+</div>
 
 ### 3.4 MAC Protocols
 
@@ -221,6 +241,8 @@ CSMA_CA(sender, receiver):
 
 **IPv4 address classes:**
 
+<div class="table-wrap">
+
 | Class | Range                       | Default Subnet | Max Hosts    |
 | ----- | --------------------------- | -------------- | ------------ |
 | A     | 0.0.0.0 – 127.255.255.255   | /8             | $2^{24} - 2$ |
@@ -228,6 +250,8 @@ CSMA_CA(sender, receiver):
 | C     | 192.0.0.0 – 223.255.255.255 | /24            | $2^8 - 2$    |
 | D     | 224.0.0.0 – 239.255.255.255 | Multicast      |
 | E     | 240.0.0.0 – 255.255.255.255 | Reserved       |
+
+</div>
 
 ### 4.2 Subnetting and CIDR
 
@@ -303,11 +327,15 @@ RIP_UPDATE(router):
 - Policy-based routing (economic, political considerations).
 - **eBGP** (between ASes) and **iBGP** (within an AS).
 
+<div class="table-wrap">
+
 | Protocol | Type            | Algorithm    | Metric        | Scope    | Convergence |
 | -------- | --------------- | ------------ | ------------- | -------- | ----------- |
 | RIP      | Distance-vector | Bellman-Ford | Hop count     | AS       | Slow        |
 | OSPF     | Link-state      | Dijkstra     | Cost (custom) | Area/AS  | Fast        |
 | BGP      | Path-vector     | Policy-based | AS path       | Internet | Varies      |
+
+</div>
 
 ## 5. Transport Layer
 
@@ -407,6 +435,8 @@ TCP_SLOW_START():
 
 **Phases:**
 
+<div class="table-wrap">
+
 | Phase                | cwnd Growth    | Trigger                   |
 | -------------------- | -------------- | ------------------------- |
 | Slow start           | Exponential    | Connection start, timeout |
@@ -414,11 +444,15 @@ TCP_SLOW_START():
 | Fast recovery        |,              | 3 duplicate ACKs          |
 | Timeout (RTO)        | Reset to 1 MSS | Timeout                   |
 
+</div>
+
 ## 6. Application Layer
 
 ### 6.1 HTTP (HyperText Transfer Protocol)
 
 **Request methods:**
+
+<div class="table-wrap">
 
 | Method | Purpose            | Idempotent | Has body |
 | ------ | ------------------ | ---------- | -------- |
@@ -429,6 +463,8 @@ TCP_SLOW_START():
 | PATCH  | Partial update     | No         | Yes      |
 | HEAD   | Get headers only   | Yes        | No       |
 
+</div>
+
 **Status codes:**
 
 - **2xx:** Success (200 OK, 201 Created)
@@ -438,6 +474,8 @@ TCP_SLOW_START():
 
 **HTTP/1.1 vs HTTP/2 vs HTTP/3:**
 
+<div class="table-wrap">
+
 | Feature       | HTTP/1.1     | HTTP/2           | HTTP/3      |
 | ------------- | ------------ | ---------------- | ----------- |
 | Transport     | TCP          | TCP              | QUIC (UDP)  |
@@ -445,11 +483,15 @@ TCP_SLOW_START():
 | Header format | Text         | HPACK compressed | QPACK       |
 | Ordering      | HOL blocking | HOL on TCP       | No HOL      |
 
+</div>
+
 ### 6.2 DNS (Domain Name System)
 
 Hierarchical, distributed database mapping domain names to IP addresses.
 
 **Record types:**
+
+<div class="table-wrap">
 
 | Type  | Purpose                   |
 | ----- | ------------------------- |
@@ -459,6 +501,8 @@ Hierarchical, distributed database mapping domain names to IP addresses.
 | MX    | Mail exchange server      |
 | NS    | Authoritative name server |
 | TXT   | Text data                 |
+
+</div>
 
 **Resolution process:**
 
@@ -495,6 +539,8 @@ QUIT                // Close
 
 ### 6.4 Other Application Protocols
 
+<div class="table-wrap">
+
 | Protocol | Port  | Purpose                      |
 | -------- | ----- | ---------------------------- |
 | FTP      | 20/21 | File transfer (control/data) |
@@ -504,6 +550,8 @@ QUIT                // Close
 | POP3     | 110   | Email download               |
 | HTTPS    | 443   | HTTP over TLS                |
 | DNS      | 53    | Name resolution              |
+
+</div>
 
 ## 7. Common Pitfalls
 
@@ -571,11 +619,15 @@ Networking connects computers through layered protocols. TCP provides reliable, 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                                          |
 | ------------------- | ------------------------------------------------------------- |
 | Databases           | [View](/2-systems/databases/)           |
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
 | Operating Systems   | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/)   |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

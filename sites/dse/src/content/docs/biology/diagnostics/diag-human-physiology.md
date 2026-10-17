@@ -192,11 +192,15 @@ generation of an action potential in the postsynaptic membrane. [5 marks]
 
 (a) Structural differences:
 
+<div class="table-wrap">
+
 | Feature                | Motor Neurone                                         | Sensory Neurone                                          |
 | ---------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
 | **Cell body position** | At the end of the neurone (in the CNS)                | In the middle of the neurone (in a ganglion)             |
 | **Dendrites**          | Short dendrites at the cell body end                  | Long dendron carrying impulse from receptor to cell body |
 | **Axon direction**     | Carries impulse **away** from the CNS to the effector | Carries impulse **towards** the CNS from the receptor    |
+
+</div>
 
 (b) In a myelinated neurone, the axon is surrounded by a **myelin sheath** formed by Schwann cells.
 The myelin sheath acts as an **electrical insulator**, preventing the flow of ions across the
@@ -350,12 +354,16 @@ cm$^{3}$Calculate the new heart rate. [3 marks]
 
 (a) Comparison of blood vessel structures:
 
+<div class="table-wrap">
+
 | Feature              | Artery                                                            | Vein                                                                              | Capillary                                                                 |
 | -------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Wall thickness**   | Thick wall (muscle and elastic tissue)                            | Thin wall (less muscle, less elastic tissue)                                      | Wall is one cell thick (endothelium only)                                 |
 | **Lumen size**       | Narrow (relatively)                                               | Wide (relatively)                                                                 | Very narrow (just wide enough for red blood cells)                        |
 | **Valves**           | No valves (except semilunar valves in heart)                      | Valves present to prevent backflow                                                | No valves                                                                 |
 | **Wall composition** | Thick layer of smooth muscle and elastic fibres; folds when empty | Thin layer of smooth muscle; collagen and elastic fibres; remains open when empty | Single layer of endothelial cells; basement membrane; pores between cells |
+
+</div>
 
 (b) In the **single circulatory system** of fish, blood passes through the heart once in a complete
 circuit. Blood is pumped from the heart to the gills (where it loses pressure as it passes through

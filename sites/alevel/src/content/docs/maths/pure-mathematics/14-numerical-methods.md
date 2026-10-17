@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                                  |
 | ---------- | ------- | ------------------------------------------------------ |
 | AQA        | Paper 2 | Sign change, iteration, Newton-Raphson, Simpson's rule |
 | Edexcel    | P2      | Similar                                                |
 | OCR (A)    | Paper 2 | Includes fixed-point iteration and convergence         |
 | CIE (9709) | P2, P3  | Numerical solutions of equations, integration in P2/P3 |
+
+</div>
 
 :::note
 Must know when each method is applicable and its limitations.
@@ -436,6 +440,8 @@ Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$
 
 ## 6. Comparison of Methods
 
+<div class="table-wrap">
+
 | Method         | Convergence | Requirement        | Speed        |
 | -------------- | ----------- | ------------------ | ------------ |
 | Sign change    | N/A         | Continuous $f$     | Locates only |
@@ -444,6 +450,8 @@ Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$
 | Newton-Raphson | Quadratic   | $f'(\alpha)\neq 0$ | Fast         |
 | Trapezium rule | $O(1/n^2)$  | Any $f$            | Integration  |
 | Simpson's rule | $O(1/n^4)$  | Even $n$ strips    | Integration  |
+
+</div>
 
 <hr />
 
@@ -480,11 +488,15 @@ Bisection is the reliable fallback when nothing else is guaranteed to work.
 
 ### 7.3 Cost comparison
 
+<div class="table-wrap">
+
 | Method         | Cost per step | Convergence rate          | Total cost to reach tolerance $\varepsilon$ |
 | -------------- | ------------- | ------------------------- | ------------------------------------------- |
 | Bisection      | 1 evaluation  | $1/2$ (linear)            | $O(\log_2(1/\varepsilon))$ steps            |
 | Fixed-point    | 1 evaluation  | $\|g'(\alpha)\|$ (linear) | $O(\log_{1/\|g'\|}(1/\varepsilon))$ steps   |
 | Newton-Raphson | 2 evaluations | Quadratic                 | $O(\log_2 \log_2(1/\varepsilon))$ steps     |
+
+</div>
 
 Newton-Raphson requires both $f$ and $f'$ per step (two evaluations), but its quadratic convergence
 Means it needs far fewer steps in total. For high accuracy requirements, Newton-Raphson is

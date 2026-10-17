@@ -22,12 +22,16 @@ description: "Prove that is a tautology using a truth table. Comprehensive educa
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $p \implies q$ | $q \implies p$ | disjunction |
 | --- | --- | -------------- | -------------- | ----------- |
 | T   | T   | T              | T              | T           |
 | T   | F   | F              | T              | T           |
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
+
+</div>
 
 All rows give $T$ So it is a tautology.
 
@@ -369,10 +373,14 @@ Practice problems consolidate theoretical understanding. Work through problems s
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Site        | Link                                                                                   |
 | ------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
 | Discrete Mathematics (Overview) | WyattsNotes | [View](/discrete-mathematics/)                                |
 | Theory of Computation           | WyattsNotes | [View](/theory-of-computation/)                               |
-| Abstract Algebra                | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)                                  |
-| Number Theory                   | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)                                     |
+| Abstract Algebra                | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)                                  |
+| Number Theory                   | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)                                     |
 | Discrete Mathematics, MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
+
+</div>

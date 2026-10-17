@@ -317,6 +317,8 @@ Culture.
 
 ## Key Quotes with Analysis
 
+<div class="table-wrap">
+
 | Quote                                                   | Analysis                                                                             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | "There had never been a death more foretold"            | Establishes fatalism and collective complicity from the opening line                 |
@@ -326,6 +328,8 @@ Culture.
 | "She became a virgin again just for him"                | The performative nature of female purity under patriarchy                            |
 | "The bishop blessed him from the boat"                  | Religious authority passes by, offering symbolic but useless blessing                |
 | "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow, appearance without substance                  |
+
+</div>
 
 :::tip
 Journalistic) as well as the content. The way the story is told is as important as what happens.
@@ -408,6 +412,8 @@ Cumulative weight of social rejection, sexual violence, and the erasure of her i
 
 The formal differences between the texts are as significant as their thematic parallels.
 
+<div class="table-wrap">
+
 | Feature               | Chronicle                                                               | Streetcar                                                               |
 | --------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Genre                 | Novella (prose fiction)                                                 | Play (drama)                                                            |
@@ -416,6 +422,8 @@ The formal differences between the texts are as significant as their thematic pa
 | Temporal setting      | Events reconstructed 27 years later                                     | Events unfold in real time                                              |
 | Relationship to truth | Truth is uncertain, mediated by memory and testimony                    | Truth is contested between characters, but the audience sees everything |
 | Ending                | Ambiguous -- the reader never learns who really took Angela's virginity | Closed -- Blanche is committed, Stanley wins                            |
+
+</div>
 
 The non-linear structure of Chronicle implicates the reader in the act of reconstruction; the linear
 Structure of Streetcar implicates the audience as witnesses to a destruction they cannot prevent.
@@ -437,6 +445,8 @@ Text.
 
 ### Quote Comparisons
 
+<div class="table-wrap">
+
 | Theme                          | Chronicle                                                           | Streetcar                                                                                         |
 | ------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Honour as justification        | "Before God and before men... It was a matter of honor"             | "Every man is a king! And I'm the king around here"                                               |
@@ -445,6 +455,8 @@ Text.
 | Religious hypocrisy            | The brothers confess before the murder and attend Mass after        | Blanche retreats into baths and prayer, but the text offers no divine intervention                |
 | Collective / social complicity | "They all saw him come out... And no one did anything"              | Stella chooses Stanley over Blanche: "I couldn't believe her story and go on living with Stanley" |
 | Escape from reality            | Placida Linero interprets dreams but dismisses Santiago's fatal one | "I don't want realism. I want magic!"                                                             |
+
+</div>
 
 ---
 
@@ -680,12 +692,16 @@ Responsibility?"
 Across the entire community, denying the reader a single villain and instead implicating the
 Collective mechanisms of honour, religion, and institutional authority in Santiago's murder.
 
+<div class="table-wrap">
+
 | Paragraph | Focus                                                      | Key Evidence                                                               |
 | --------- | ---------------------------------------------------------- | -------------------------------------------------------------------------- |
 | 1         | Non-linear structure as guilt distribution                 | Opening line reveals the death; the reader must reconstruct responsibility |
 | 2         | Journalistic technique and conflicting testimony           | Witnesses contradict each other; no authoritative account emerges          |
 | 3         | Institutional failure (Church, military, law)              | Father Amador, Colonel Aponte, the three-year sentence                     |
 | 4         | The narrator's unreliability as mirror of collective guilt | The narrator's friendship with Santiago biases his account                 |
+
+</div>
 
 For further guidance on Paper 2 structure and assessment criteria, see
 [ib-english-assessment-and-techniques](/english/ib-english-assessment-and-techniques/).
@@ -703,6 +719,8 @@ For further guidance on Paper 2 structure and assessment criteria, see
 
 ## Additional Key Quotes with Analysis
 
+<div class="table-wrap">
+
 | Quote                                                                                          | Analysis                                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | "It was a matter of honour"                                                                    | The preposition "of" reduces honour to an object -- something external, impersonal, and transferable. It is not something the brothers feel but something they must carry out.    |
@@ -713,6 +731,8 @@ For further guidance on Paper 2 structure and assessment criteria, see
 | "I returned to this forgotten village trying to put the broken mirror of memory back together" | The metaphor of the "broken mirror" captures the impossibility of full reconstruction. Each fragment reflects a distorted version of events.                                      |
 | "He didn't even open the letters. He just counted them"                                        | Bayardo's gesture is quantitative, not qualitative. He values the fact of Angela's devotion but not its content -- reducing her words to numbers.                                 |
 | "The knife went through the palm of his right hand and then into his side"                     | The wound in the palm evokes the stigmata of Christ, constructing Santiago as a sacrificial victim whose death exposes the town's moral bankruptcy.                               |
+
+</div>
 
 ---
 

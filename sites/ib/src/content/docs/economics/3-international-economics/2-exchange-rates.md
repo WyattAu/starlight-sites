@@ -275,12 +275,16 @@ A country cannot simultaneously maintain:
 
 It must choose two of the three:
 
+<div class="table-wrap">
+
 | Regime                                   | Fixed exchange rate | Free capital mobility | Independent monetary policy |
 | ---------------------------------------- | ------------------- | --------------------- | --------------------------- |
 | Currency board                           | Yes                 | Yes                   | No                          |
 | Bretton Woods (1950s--60s)               | Yes                 | No                    | Yes                         |
 | Free float (e.g., USA)                   | No                  | Yes                   | Yes                         |
 | Capital controls (e.g., China, pre-2005) | Yes                 | No                    | Yes                         |
+
+</div>
 
 ### Advantages and Disadvantages of Each Regime
 

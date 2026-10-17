@@ -23,6 +23,8 @@ description: "1. All living organisms are composed of one or more cells 2. The c
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic Cells                   | Eukaryotic Cells                                 |
 | ------------------------- | ----------------------------------- | ------------------------------------------------ |
 | Nucleus                   | No true nucleus (nucleoid region)   | True nucleus with nuclear envelope               |
@@ -33,7 +35,11 @@ description: "1. All living organisms are composed of one or more cells 2. The c
 | Cell wall                 | Present (peptidoglycan in bacteria) | Present in plants (cellulose), absent in animals |
 | Examples                  | Bacteria, Archaea                   | Animals, Plants, Fungi, Protists                 |
 
+</div>
+
 ### Plant vs Animal Cells
+
+<div class="table-wrap">
 
 | Feature               | Plant Cells         | Animal Cells              |
 | --------------------- | ------------------- | ------------------------- |
@@ -44,6 +50,8 @@ description: "1. All living organisms are composed of one or more cells 2. The c
 | Plasmodesmata         | Present             | Absent                    |
 | Shape                 | Fixed (rectangular) | Variable (irregular)      |
 | Stored carbohydrate   | Starch              | Glycogen                  |
+
+</div>
 
 ---
 
@@ -213,19 +221,27 @@ $\Psi = 0 \mathrm{ kPa}$. Adding solutes decreases water potential (makes it mor
 
 **Osmosis in animal cells:**
 
+<div class="table-wrap">
+
 | Solution   | Water Potential  | Effect on Cell                    |
 | ---------- | ---------------- | --------------------------------- |
 | Hypotonic  | Higher than cell | Cell swells and may burst (lysis) |
 | Isotonic   | Equal to cell    | No net movement                   |
 | Hypertonic | Lower than cell  | Cell shrinks (crenation)          |
 
+</div>
+
 **Osmosis in plant cells:**
+
+<div class="table-wrap">
 
 | Solution   | Effect on Cell                                         |
 | ---------- | ------------------------------------------------------ |
 | Hypotonic  | Cell becomes turgid (firm); useful for plant support   |
 | Isotonic   | No net movement                                        |
 | Hypertonic | Cytoplasm and vacuole shrink; cell becomes plasmolysed |
+
+</div>
 
 ### Active Transport (Energy Required)
 
@@ -278,11 +294,15 @@ General formula: $\mathrm{C}_x(\mathrm{H}_2\mathrm{O})_y$
 
 **Disaccharides** (formed by condensation, broken by hydrolysis):
 
+<div class="table-wrap">
+
 | Disaccharide | Component Monosaccharides |
 | ------------ | ------------------------- |
 | Maltose      | Glucose + Glucose         |
 | Sucrose      | Glucose + Fructose        |
 | Lactose      | Glucose + Galactose       |
+
+</div>
 
 **Polysaccharides:**
 
@@ -316,12 +336,16 @@ Water.
 
 **Protein structure levels:**
 
+<div class="table-wrap">
+
 | Level      | Description                       | Bonds                                                              |
 | ---------- | --------------------------------- | ------------------------------------------------------------------ |
 | Primary    | Sequence of amino acids           | Peptide bonds                                                      |
 | Secondary  | Alpha-helix or beta-pleated sheet | Hydrogen bonds                                                     |
 | Tertiary   | 3D folding of the polypeptide     | H-bonds, ionic bonds, disulphide bridges, hydrophobic interactions |
 | Quaternary | Multiple polypeptide chains       | Same as tertiary + more                                            |
+
+</div>
 
 **Tests for proteins:**
 
@@ -518,6 +542,8 @@ For each glucose molecule (two turns of the cycle):
 
 ### ATP Yield per Glucose
 
+<div class="table-wrap">
+
 | Stage                                     | ATP (net)               |
 | ----------------------------------------- | ----------------------- |
 | Glycolysis                                | 2                       |
@@ -525,6 +551,8 @@ For each glucose molecule (two turns of the cycle):
 | Oxidative phosphorylation (from NADH)     | 28                      |
 | Oxidative phosphorylation (from FADH$_2$) | 4                       |
 | **Total**                                 | **approximately 36-38** |
+
+</div>
 
 :::note
 Glycolysis into the mitochondria. Many textbooks now quote approximately 30-32 ATP per glucose.
@@ -567,11 +595,15 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ### Limiting Factors in Photosynthesis
 
+<div class="table-wrap">
+
 | Factor                        | Effect                                                             |
 | ----------------------------- | ------------------------------------------------------------------ |
 | Light intensity               | Increases rate up to a plateau (light saturation point)            |
 | $\mathrm{CO}_2$ concentration | Increases rate up to a plateau                                     |
 | Temperature                   | Increases rate up to optimum, then decreases (enzyme denaturation) |
+
+</div>
 
 ---
 
@@ -594,6 +626,8 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                   | Key Concept                                       | Location      |
 | ----------------------- | ------------------------------------------------- | ------------- |
 | Prokaryote vs Eukaryote | Nucleus, organelles, ribosome size                | All cells     |
@@ -603,6 +637,8 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 | Enzymes                 | Lock and key, induced fit, denaturation           | All organisms |
 | Respiration             | Glycolysis, Krebs, oxidative phosphorylation      | Mitochondria  |
 | Photosynthesis          | Light-dependent, Calvin cycle                     | Chloroplasts  |
+
+</div>
 
 ---
 
@@ -713,6 +749,8 @@ with the same number of chromosomes as the parent cell.
 
 ### Stages of Mitosis
 
+<div class="table-wrap">
+
 | Stage           | Key Events                                                                                                                                       |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Prophase**    | Chromatin condenses into chromosomes; nucleolus disappears; centrioles move to poles; spindle fibres form; nuclear membrane begins to break down |
@@ -720,6 +758,8 @@ with the same number of chromosomes as the parent cell.
 | **Anaphase**    | Sister chromatids separate at the centromere; spindle fibres pull chromatids to opposite poles; chromosomes have a V-shape                       |
 | **Telophase**   | Chromosomes arrive at poles and decondense; nuclear membrane reforms; nucleolus reappears; spindle fibres break down                             |
 | **Cytokinesis** | Cytoplasm divides; in animal cells, a cleavage furrow forms; in plant cells, a cell plate forms                                                  |
+
+</div>
 
 ### Worked Example 2 (Cell Division)
 
@@ -739,6 +779,8 @@ with half the number of chromosomes of the parent cell. It is essential for sexu
 
 **Key differences from mitosis:**
 
+<div class="table-wrap">
+
 | Feature                  | Mitosis                              | Meiosis                           |
 | ------------------------ | ------------------------------------ | --------------------------------- |
 | Number of divisions      | One                                  | Two                               |
@@ -746,6 +788,8 @@ with half the number of chromosomes of the parent cell. It is essential for sexu
 | Chromosome number        | Same as parent (diploid)             | Half of parent (haploid)          |
 | Genetic variation        | Identical daughter cells             | Different daughter cells          |
 | Function                 | Growth, repair, asexual reproduction | Production of gametes (sex cells) |
+
+</div>
 
 **Sources of genetic variation in meiosis:**
 
@@ -787,6 +831,8 @@ with half the number of chromosomes of the parent cell. It is essential for sexu
 
 The cell cycle describes the sequence of events from one cell division to the next.
 
+<div class="table-wrap">
+
 | Phase         | Description                                           | Duration (typical)    |
 | ------------- | ----------------------------------------------------- | --------------------- |
 | G1 (Gap 1)    | Cell growth, normal metabolism, organelle duplication | Variable              |
@@ -794,6 +840,8 @@ The cell cycle describes the sequence of events from one cell division to the ne
 | G2 (Gap 2)    | Preparation for mitosis, protein synthesis            | 2-4 hours             |
 | M (Mitosis)   | Cell division                                         | 1-2 hours             |
 | Cytokinesis   | Cytoplasmic division                                  | Overlaps with M phase |
+
+</div>
 
 G1, S, and G2 together are called **interphase**, which accounts for approximately 90% of the cell
 Cycle.
@@ -996,6 +1044,8 @@ Cells communicate through chemical messengers called **ligands** that bind to sp
 
 **Types of cell signalling:**
 
+<div class="table-wrap">
+
 | Type              | Description                  | Distance       | Example             |
 | ----------------- | ---------------------------- | -------------- | ------------------- |
 | Autocrine         | Cell signals to itself       | Same cell      | Growth factors      |
@@ -1003,6 +1053,8 @@ Cells communicate through chemical messengers called **ligands** that bind to sp
 | Endocrine         | Hormone travels in blood     | Long distance  | Insulin, adrenaline |
 | Synaptic          | Signal across a synapse      | Very short     | Acetylcholine       |
 | Contact-dependent | Direct cell-to-cell contact  | Adjacent cells | Immune recognition  |
+
+</div>
 
 ### Receptors
 
@@ -1088,6 +1140,8 @@ An antibody (immunoglobulin) is a Y-shaped protein with:
 
 ### Types of Antibodies
 
+<div class="table-wrap">
+
 | Type | Location                          | Function                                    |
 | ---- | --------------------------------- | ------------------------------------------- |
 | IgG  | Blood, tissue fluid               | Most abundant; crosses placenta             |
@@ -1096,7 +1150,11 @@ An antibody (immunoglobulin) is a Y-shaped protein with:
 | IgE  | Bound to mast cells               | Allergic reactions; parasitic infections    |
 | IgD  | B cell surface                    | B cell activation                           |
 
+</div>
+
 ### Primary vs Secondary Immune Response
+
+<div class="table-wrap">
 
 | Feature        | Primary Response | Secondary Response |
 | -------------- | ---------------- | ------------------ |
@@ -1105,6 +1163,8 @@ An antibody (immunoglobulin) is a Y-shaped protein with:
 | Antibody class | Mainly IgM       | Mainly IgG         |
 | Duration       | Short            | Long               |
 | Memory cells   | Produced         | Already present    |
+
+</div>
 
 ### Worked Example 3 (Immune)
 
@@ -1134,12 +1194,16 @@ Destroying the pathogen before symptoms develop. This provides active artificial
 **Definition:** Undifferentiated cells that can divide and differentiate into specialised cell
 Types.
 
+<div class="table-wrap">
+
 | Type        | Source                            | Potential                              |
 | ----------- | --------------------------------- | -------------------------------------- |
 | Totipotent  | Early embryo (up to 8-cell stage) | Can become any cell type + placenta    |
 | Pluripotent | Blastocyst (inner cell mass)      | Can become any cell type               |
 | Multipotent | Adult tissues (e.g., bone marrow) | Can become limited range of cell types |
 | Unipotent   | Specific tissues                  | Can become only one cell type          |
+
+</div>
 
 **Therapeutic uses:**
 
@@ -1446,6 +1510,8 @@ aerobic and anaerobic respiration.
 
 **Stages of glycolysis:**
 
+<div class="table-wrap">
+
 | Stage           | Key Steps                                                                                                                                           | Energy Change                           |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Phosphorylation | Glucose (6C) is phosphorylated twice using 2 ATP, forming hexose biphosphate (6C). This "traps" glucose inside the cell and raises its energy level | Consumes 2 ATP (investment phase)       |
@@ -1453,6 +1519,8 @@ aerobic and anaerobic respiration.
 | Oxidation       | Each triose phosphate is oxidised (dehydrogenated) by NAD$^+$Producing 2 NADH (one per triose phosphate)                                            | Produces 2 NADH                         |
 | ATP production  | Each triose phosphate is converted to pyruvate (3C), producing 2 ATP per triose phosphate (substrate-level phosphorylation)                         | Produces 4 ATP (2 per triose phosphate) |
 | **Net yield**   |                                                                                                                                                     | **2 ATP + 2 NADH per glucose**          |
+
+</div>
 
 $$
 \text{Glucose (6C)} + 2\mathrm{NAD}^+ + 2\mathrm{ADP} + 2\mathrm{P}_i \to 2\text{ Pyruvate (3C)} + 2\mathrm{NADH} + 2\mathrm{H}^+ + 2\mathrm{ATP} + 2\mathrm{H}_2\mathrm{O}
@@ -1490,6 +1558,8 @@ $$
 
 ### Total ATP Yield (Per Glucose)
 
+<div class="table-wrap">
+
 | Stage                     | ATP (or equivalent)                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------- |
 | Glycolysis (net)          | 2 ATP + 2 NADH                                                                         |
@@ -1497,6 +1567,8 @@ $$
 | Krebs cycle               | 2 ATP + 6 NADH + 2 FADH$_2$                                                            |
 | Oxidative phosphorylation | Each NADH produces approximately 2.5 ATP; each FADH$_2$ produces approximately 1.5 ATP |
 | **Total (approximate)**   | **30-32 ATP**                                                                          |
+
+</div>
 
 :::note
 cytoplasmic NADH into the mitochondria can cost 1 ATP per NADH. The theoretical maximum is 38 ATP,
@@ -1557,6 +1629,8 @@ of malignant tumours that can invade surrounding tissues and spread to other par
 Cancer is caused by mutations in genes that regulate the cell cycle. These mutations can be caused
 by:
 
+<div class="table-wrap">
+
 | Factor               | Description                                                                                                       |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Chemical carcinogens | Chemicals that damage DNA (e.g., tar in cigarette smoke, benzene, asbestos, aflatoxin in mouldy peanuts)          |
@@ -1565,13 +1639,19 @@ by:
 | Hereditary factors   | Inherited mutations in tumour suppressor genes (e.g., BRCA1/BRCA2 mutations increase breast cancer risk)          |
 | Chronic inflammation | Inflammatory cells produce reactive oxygen species that can damage DNA                                            |
 
+</div>
+
 ### Types of Cancer-Related Genes
+
+<div class="table-wrap">
 
 | Gene Type               | Normal Function                                              | Effect When Mutated                                                            |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | Proto-oncogenes         | Promote controlled cell division (accelerate cell cycle)     | Become **oncogenes** when mutated; cause excessive cell division               |
 | Tumour suppressor genes | Inhibit cell division; promote DNA repair; trigger apoptosis | Lose function when mutated; cell division is no longer restrained              |
 | Examples                | Proto-oncogene: ras (signals for cell division)              | p53 (tumour suppressor; halts cell cycle for DNA repair or triggers apoptosis) |
+
+</div>
 
 ### Tumour Suppressor p53
 
@@ -1587,6 +1667,8 @@ preventing cancer:
 
 ### Benign vs Malignant Tumours
 
+<div class="table-wrap">
+
 | Feature              | Benign Tumour                                     | Malignant Tumour                             |
 | -------------------- | ------------------------------------------------- | -------------------------------------------- |
 | Growth rate          | Slow                                              | Rapid                                        |
@@ -1595,6 +1677,8 @@ preventing cancer:
 | Cell differentiation | Well-differentiated (cells look normal)           | Poorly differentiated (cells look abnormal)  |
 | Health impact        | harmless unless pressing on organs                | Life-threatening if untreated                |
 | Recurrence           | Rarely recurs after removal                       | May recur after removal                      |
+
+</div>
 
 ### Worked Example: Carcinogens and DNA Damage
 
@@ -1652,6 +1736,8 @@ If you get this wrong, revise: Cellular Respiration in Detail
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Feature              | Aerobic Respiration                                                                           | Anaerobic Respiration (animals)                                  |
 | -------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Location             | Cytoplasm (glycolysis) + mitochondria (link reaction, Krebs cycle, oxidative phosphorylation) | Cytoplasm only (glycolysis only)                                 |
@@ -1660,6 +1746,8 @@ If you get this wrong, revise: Cellular Respiration in Detail
 | Products             | $\mathrm{CO}_2$, $\mathrm{H}_2\mathrm{O}$ ATP (30-32)                                          | Lactate, ATP (2)                                                 |
 | ATP yield            | Approximately 30-32 ATP per glucose                                                           | 2 ATP per glucose                                                |
 | NAD$^+$ regeneration | Via oxidative phosphorylation (electron transport chain)                                      | Via conversion of pyruvate to lactate (NADH oxidised to NAD$^+$) |
+
+</div>
 
 Anaerobic respiration produces much less ATP because only glycolysis occurs, yielding a net 2 ATP.
 The much larger ATP yield of aerobic respiration comes from oxidative phosphorylation, which
@@ -1729,6 +1817,8 @@ Facilitated diffusion is the passive movement of molecules across a membrane via
 proteins. Like simple diffusion, it moves molecules down their concentration gradient and does not
 require energy. Unlike simple diffusion, it requires specific carrier proteins or channel proteins.
 
+<div class="table-wrap">
+
 | Feature               | Simple Diffusion                                    | Facilitated Diffusion                                                              |
 | --------------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Requires proteins     | No                                                  | Yes (channel proteins or carrier proteins)                                         |
@@ -1737,6 +1827,8 @@ require energy. Unlike simple diffusion, it requires specific carrier proteins o
 | Energy required       | No                                                  | No                                                                                 |
 | Direction             | Down concentration gradient                         | Down concentration gradient                                                        |
 | Molecules transported | $\mathrm{O}_2$$\mathrm{CO}_2$ Small lipids, water    | Glucose (via GLUT transporters), amino acids, ions ($\mathrm{Na}^+$$\mathrm{K}^+$) |
+
+</div>
 
 **Channel proteins:**
 
@@ -1769,12 +1861,16 @@ require energy. Unlike simple diffusion, it requires specific carrier proteins o
 Active transport moves molecules against their concentration gradient (from low to high
 concentration), requiring energy in the form of ATP.
 
+<div class="table-wrap">
+
 | Feature        | Primary Active Transport                                            | Secondary Active Transport (Co-transport)                                                                       |
 | -------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Energy source  | ATP hydrolysis directly                                             | Uses an ion gradient established by primary active transport                                                    |
 | Direct ATP use | Yes                                                                 | No (indirect)                                                                                                   |
 | Example        | $\mathrm{Na}^+/\mathrm{K}^+$ pump; $\mathrm{H}^+$ ATPase in stomach | $\mathrm{Na}^+$-glucose co-transport in small intestine; $\mathrm{Na}^+$-amino acid co-transport                |
 | Direction      | Can move substances in either direction                             | Moves both the driving ion and the transported substance in the same (symport) or opposite (antiport) direction |
+
+</div>
 
 **The sodium-potassium pump (detailed mechanism):**
 
@@ -1804,12 +1900,16 @@ concentration), requiring energy in the form of ATP.
 Large molecules (proteins, polysaccharides) and particles are transported across the membrane in
 membrane-bound vesicles.
 
+<div class="table-wrap">
+
 | Process      | Description                                                                                      | Energy Required | Example                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------------ | --------------- | ------------------------------------------------------------------------ |
 | Endocytosis  | Cell membrane engulfs material, forming a vesicle inside the cell                                | Yes (ATP)       | White blood cells engulfing bacteria (phagocytosis)                      |
 | Exocytosis   | Vesicles inside the cell fuse with the cell membrane, releasing their contents outside           | Yes (ATP)       | Release of neurotransmitters at synapses; secretion of mucus and enzymes |
 | Phagocytosis | "Cell eating": large solid particles are engulfed by extensions of the membrane (pseudopodia)    | Yes (ATP)       | Phagocytes engulfing bacteria                                            |
 | Pinocytosis  | "Cell drinking": small droplets of extracellular fluid are taken into the cell in small vesicles | Yes (ATP)       | Uptake of dissolved nutrients by microorganisms                          |
+
+</div>
 
 ---
 
@@ -1893,6 +1993,8 @@ Biology and Biochemistry with other biology topics to test synthesis under exam 
 
 ### The Cell Cycle
 
+<div class="table-wrap">
+
 | Phase           | Description                                                                                                                                                         | Duration (typical mammalian cell) |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | G1 (Gap 1)      | Cell grows in size; synthesises proteins and organelles; carries out normal metabolic functions; G1 checkpoint checks cell size and DNA integrity                   | ~10-12 hours                      |
@@ -1901,6 +2003,8 @@ Biology and Biochemistry with other biology topics to test synthesis under exam 
 | M (Mitosis)     | Nuclear division; sister chromatids separate and move to opposite poles of the cell                                                                                 | ~1-2 hours                        |
 | C (Cytokinesis) | Cytoplasm divides; two daughter cells are formed                                                                                                                    | Occurs with or after M phase      |
 
+</div>
+
 **Total cell cycle duration:** ~24 hours (varies widely: intestinal epithelial cells divide every
 ~12 hours; nerve cells rarely or never divide after maturity)
 
@@ -1908,11 +2012,15 @@ Biology and Biochemistry with other biology topics to test synthesis under exam 
 
 The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs):**
 
+<div class="table-wrap">
+
 | Checkpoint                                 | Location             | What is Checked                                                                       | Outcome if Failed                                                            |
 | ------------------------------------------ | -------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | G1 checkpoint (restriction point)          | Late G1 phase        | Cell size adequate? Nutrients available? Growth signals present? DNA undamaged?       | Cell enters G0 (resting phase) or undergoes apoptosis                        |
 | G2 checkpoint                              | End of G2 phase      | DNA replication complete and error-free? All proteins needed for mitosis synthesised? | Cell cycle arrests; DNA repair attempted; apoptosis if damage is irreparable |
 | M checkpoint (spindle assembly checkpoint) | Metaphase of mitosis | Are all chromosomes properly attached to spindle fibres at the metaphase plate?       | Anaphase is delayed; prevents unequal distribution of chromosomes            |
+
+</div>
 
 **Cyclin-CDK mechanism:**
 
@@ -1926,6 +2034,8 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 
 ### Mitosis vs Meiosis: Detailed Comparison
 
+<div class="table-wrap">
+
 | Feature                    | Mitosis                                                                       | Meiosis                                                                                                                            |
 | -------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Number of divisions        | 1                                                                             | 2 (meiosis I and meiosis II)                                                                                                       |
@@ -1938,7 +2048,11 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 | Occurs in                  | Somatic cells (body cells) for growth, repair, and asexual reproduction       | Germ cells in the gonads (testes and ovaries) to produce gametes                                                                   |
 | Metaphase I alignment      | Individual chromosomes line up at the metaphase plate                         | Homologous pairs line up at the metaphase plate (bivalents/tetrads)                                                                |
 
+</div>
+
 ### Meiosis I vs Meiosis II
+
+<div class="table-wrap">
 
 | Feature             | Meiosis I                                                                                                                  | Meiosis II                                                                                                                |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -1947,6 +2061,8 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 | Anaphase            | Homologous chromosomes separate and move to opposite poles (sister chromatids remain attached at the centromere)           | Sister chromatids separate and move to opposite poles                                                                     |
 | Telophase           | Two daughter cells are formed, each with half the number of chromosomes (each chromosome still consists of two chromatids) | Four daughter cells are formed, each with half the number of chromosomes (each chromosome consists of a single chromatid) |
 | Reduction division? | Yes (diploid $\rightarrow$ haploid)                                                                                        | No (haploid $\rightarrow$ haploid, but each chromosome is now a single chromatid)                                         |
+
+</div>
 
 ### The Significance of Meiosis
 
@@ -1979,6 +2095,8 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 
 ### Types of Stem Cells
 
+<div class="table-wrap">
+
 | Type        | Source                                                                                           | Potency                                                                                     | Uses / Potential Uses                                                             |
 | ----------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | Totipotent  | Zygote; early embryo (up to 4-cell stage in humans)                                              | Can develop into ANY cell type AND extraembryonic tissues (placenta, umbilical cord)        | Research; not used therapeutically                                                |
@@ -1986,7 +2104,11 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 | Multipotent | Adult (somatic) stem cells found in specific tissues (bone marrow, skin, brain, liver)           | Can develop into a limited range of cell types related to their tissue of origin            | Bone marrow transplants; skin grafts; treatment of leukaemia                      |
 | Unipotent   | Committed to developing into only ONE cell type                                                  | Can only produce one cell type                                                              | Limited use; muscle satellite cells                                               |
 
+</div>
+
 ### Sources of Stem Cells
+
+<div class="table-wrap">
 
 | Source                                 | Type                       | Advantages                                                                                                                | Disadvantages / Ethical Issues                                                                |
 | -------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -1995,6 +2117,8 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 | Bone marrow                            | Adult (multipotent)        | Well-established technique (bone marrow transplants since 1960s); donor can regenerate marrow                             | Painful extraction; risk of infection; limited cell types                                     |
 | Induced pluripotent stem cells (iPSCs) | Pluripotent (reprogrammed) | No embryo destruction; patient-specific (no rejection risk); can differentiate into any cell type                         | Risk of mutations during reprogramming; less efficient than embryonic stem cells              |
 | Adipose tissue (fat)                   | Adult (multipotent)        | Abundant source; easy extraction (liposuction); can differentiate into bone, cartilage, fat, muscle cells                 | Limited differentiation potential compared to embryonic stem cells                            |
+
+</div>
 
 ### Induced Pluripotent Stem Cells (iPSCs)
 
@@ -2046,11 +2170,15 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 
 ### Carbohydrates
 
+<div class="table-wrap">
+
 | Type            | Elements | Description                                                                                                       | Examples                                                                                 | Function(s)                                                                                  |
 | --------------- | -------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Monosaccharides | C, H, O  | Single sugar units; general formula (CH$_2$O)$_n$; sweet-tasting; soluble in water                                | Glucose ($\alpha$ and $\beta$), fructose, galactose, ribose, deoxyribose                 | Energy source; building blocks for larger carbohydrates; ribose/deoxyribose in nucleic acids |
 | Disaccharides   | C, H, O  | Two monosaccharides joined by a glycosidic bond (condensation reaction); general formula C$_{12}$H$_{22}$O$_{11}$ | Maltose (glucose + glucose); sucrose (glucose + fructose); lactose (glucose + galactose) | Energy source; transport form of sugars                                                      |
 | Polysaccharides | C, H, O  | Many monosaccharides joined by glycosidic bonds; insoluble (except glycogen); large molecules                     | Starch (plants), glycogen (animals), cellulose (plants), chitin (insects, fungi)         | Energy storage (starch, glycogen); structural support (cellulose, chitin)                    |
+
+</div>
 
 **Starch:** A mixture of two polysaccharides:
 
@@ -2072,6 +2200,8 @@ glycogenolysis when glucose is needed.
 
 ### Lipids
 
+<div class="table-wrap">
+
 | Type          | Description                                                                      | Examples                                                                                    | Function(s)                                                                                                    |
 | ------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Triglycerides | Glycerol + 3 fatty acids joined by ester bonds (condensation reaction)           | Fats (solid at room temp, mostly saturated); oils (liquid at room temp, mostly unsaturated) | Energy storage (long-term); insulation; buoyancy; protection                                                   |
@@ -2079,7 +2209,11 @@ glycogenolysis when glucose is needed.
 | Cholesterol   | Steroid lipid (four fused carbon rings); small, flat molecule                    | Found in animal cell membranes                                                              | Modulates membrane fluidity; precursor for steroid hormones (testosterone, oestrogen, cortisol) and bile salts |
 | Waxes         | Long-chain fatty acids bonded to long-chain alcohols                             | Cuticle on plant leaves; beeswax; earwax                                                    | Water.../1-number-and-algebra/3_proof-and-logic coating; protection                                            |
 
+</div>
+
 ### Proteins
+
+<div class="table-wrap">
 
 | Level                | Description                                                                                                                                   | Type of Bond                                                             |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -2088,12 +2222,20 @@ glycogenolysis when glucose is needed.
 | Tertiary structure   | The overall 3D shape of a single polypeptide chain, stabilised by various interactions                                                        | Hydrogen bonds; ionic bonds; disulfide bridges; hydrophobic interactions |
 | Quaternary structure | The arrangement of two or more polypeptide chains (subunits) into a functional protein                                                        | Same as tertiary (plus interactions between subunits)                    |
 
+</div>
+
+<div class="table-wrap">
+
 | Protein Type      | Description                                                                                                                 | Examples                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Globular proteins | Roughly spherical; soluble in water; function mainly in metabolic roles (enzymes, antibodies, hormones, transport proteins) | Haemoglobin; enzymes (amylase, catalase); antibodies; insulin                        |
 | Fibrous proteins  | Long, rod-shaped; insoluble in water; function mainly in structural roles                                                   | Collagen (tendons, skin, bones); keratin (hair, nails); elastin (artery walls, skin) |
 
+</div>
+
 ### Nucleic Acids
+
+<div class="table-wrap">
 
 | Component    | DNA                                                                                                                | RNA                                                                                                                                                                                |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2107,7 +2249,11 @@ glycogenolysis when glucose is needed.
 | Types        | One type (DNA)                                                                                                     | mRNA (messenger); tRNA (transfer); rRNA (ribosomal)                                                                                                                                |
 | Function     | Stores genetic information; passes genetic information from one generation to the next; template for RNA synthesis | mRNA: carries genetic information from DNA to the ribosome for protein synthesis. TRNA: carries amino acids to the ribosome. RRNA: structural and catalytic component of ribosomes |
 
+</div>
+
 ### Water
+
+<div class="table-wrap">
 
 | Property of Water                | Importance to Living Organisms                                                                                                                                                                                                 |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2118,6 +2264,8 @@ glycogenolysis when glucose is needed.
 | High density (ice floats)        | Water is less dense as a solid (ice) than as a liquid because hydrogen bonds hold water molecules in an open lattice structure; this insulates the water below, allowing aquatic organisms to survive in winter                |
 | Transparency                     | Water is transparent to visible light; this allows photosynthesis to occur in aquatic environments (light can penetrate to submerged plants and algae)                                                                         |
 | Reactant                         | Water is a reactant in hydrolysis reactions (e.g., digestion of polymers) and photosynthesis; a product of condensation reactions and aerobic respiration                                                                      |
+
+</div>
 
 ---
 
@@ -2134,12 +2282,18 @@ glycogenolysis when glucose is needed.
 
 ### Lock-and-Key vs Induced-Fit Model
 
+<div class="table-wrap">
+
 | Model        | Description                                                                                                                                                                                                                               | Evidence                                                                                                                                                         |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Lock and key | The active site of the enzyme has a rigid, fixed shape that is exactly complementary to the shape of the substrate (like a key fits a lock)                                                                                               | Explains enzyme specificity but is an oversimplification                                                                                                         |
 | Induced fit  | The active site is flexible; when the substrate enters the active site, the enzyme changes shape slightly to fit more closely around the substrate; this puts strain on the substrate, weakening bonds and lowering the activation energy | Supported by X-ray crystallography studies showing enzyme-substrate complexes; explains why some enzymes can catalyse reactions of slightly different substrates |
 
+</div>
+
 ### Factors Affecting Enzyme Activity
+
+<div class="table-wrap">
 
 | Factor                  | Effect                                                                    | Graph Shape                    | Explanation                                                                                                                                                                                                               |
 | ----------------------- | ------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2149,12 +2303,18 @@ glycogenolysis when glucose is needed.
 | Enzyme concentration    | Rate increases proportionally                                             | Straight line (through origin) | More enzyme molecules = more active sites available = more enzyme-substrate complexes formed per unit time                                                                                                                |
 | Inhibitor concentration | Depends on inhibitor type (competitive or non-competitive)                | Varies                         | See below                                                                                                                                                                                                                 |
 
+</div>
+
 ### Types of Inhibition
+
+<div class="table-wrap">
 
 | Type            | Description                                                                                                                         | Effect on Vmax                                          | Effect on K$_m$                                                                   | Reversibility                                          |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Competitive     | Inhibitor has a similar shape to the substrate and competes for the active site                                                     | Vmax unchanged (high [substrate] outcompetes inhibitor) | K$_m$ increased (higher [substrate] needed to reach half Vmax)                    | Reversible (can be overcome by increasing [substrate]) |
 | Non-competitive | Inhibitor binds to a site other than the active site (allosteric site), causing a conformational change that alters the active site | Vmax decreased (inhibitor cannot be overcome)           | K$_m$ unchanged (substrate affinity is not affected, but maximum rate is reduced) | reversible                                             |
+
+</div>
 
 ---
 
@@ -2216,11 +2376,15 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
 | [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
 | [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
+
+</div>
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 

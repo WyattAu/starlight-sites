@@ -30,6 +30,8 @@ and the basic market failure overview in
 
 ### Types of Market Failure
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                                                                                       |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Externalities         | Costs or benefits of production or consumption that spill over to third parties who are not part of the transaction.                              |
@@ -38,6 +40,8 @@ and the basic market failure overview in
 | Monopoly power        | A single seller (or a small number of sellers) can restrict output and raise prices above the competitive level, causing deadweight loss.         |
 | Factor immobility     | Factors of production (especially labour) cannot move between industries or regions, causing structural unemployment and persistent inefficiency. |
 | Inequality            | The market may produce an unacceptable distribution of income and wealth, even if it is allocatively efficient in a Pareto sense.                 |
+
+</div>
 
 ---
 
@@ -176,12 +180,16 @@ Rationale for government provision or subsidisation of education.
 
 ### Other Examples of Positive Externalities
 
+<div class="table-wrap">
+
 | Activity         | Private Benefit           | External Benefit                                     |
 | ---------------- | ------------------------- | ---------------------------------------------------- |
 | Vaccination      | Protection from disease   | Reduced transmission to others (herd immunity)       |
 | Research         | Firm's profit from patent | Knowledge spillovers benefit other firms and society |
 | Public transport | Convenience for the user  | Reduced congestion and pollution for everyone        |
 | Healthcare       | Individual health         | Reduced disease transmission, healthier workforce    |
+
+</div>
 
 ---
 
@@ -351,6 +359,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 
 ### Advantages Over Pigouvian Taxes
 
+<div class="table-wrap">
+
 | Feature               | Pigouvian Tax                                                          | Cap and Trade                                                                     |
 | --------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | Quantity certainty    | Emissions quantity uncertain (depends on how firms respond to the tax) | Emissions quantity is certain (set by the cap)                                    |
@@ -358,6 +368,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 | Revenue               | Generates government revenue                                           | Depends on allocation method (auctions generate revenue; grandfathering does not) |
 | Efficiency            | Efficient if MEC is known                                              | Efficient if permits are tradeable                                                |
 | Political feasibility | Often unpopular ("tax")                                                | May be more politically acceptable                                                |
+
+</div>
 
 ### Conditions for Cap and Trade to Work
 
@@ -382,12 +394,18 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 
 ### Definition and Characteristics
 
+<div class="table-wrap">
+
 | Characteristic    | Definition                                                                                              | Implication                                               |
 | ----------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | Non-excludability | It is impossible or prohibitively costly to prevent someone from consuming the good once it is provided | The free-rider problem: people can benefit without paying |
 | Non-rivalry       | One person's consumption does not reduce the quantity or quality available for others                   | Marginal cost of additional consumption is zero           |
 
+</div>
+
 ### Types of Goods
+
+<div class="table-wrap">
 
 | Type                     | Excludable | Rivalrous | Example                                       |
 | ------------------------ | ---------- | --------- | --------------------------------------------- |
@@ -395,6 +413,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 | Private good             | Yes        | Yes       | Food, clothing, cars                          |
 | Common resource          | No         | Yes       | Fish stocks, clean air, public grazing land   |
 | Club good (quasi-public) | Yes        | No        | Cable TV, private parks, toll roads           |
+
+</div>
 
 ### The Free-Rider Problem
 
@@ -527,10 +547,14 @@ Behaviour during good times, while the insurer (government) bears the cost of fa
 
 ### Solutions to Information Asymmetry
 
+<div class="table-wrap">
+
 | Problem           | Solution                                                                                                                                                 |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Adverse selection | Signalling (seller reveals information: warranties, certifications, education credentials), screening (buyer investigates: medical exams, credit checks) |
 | Moral hazard      | Deductibles and co-payments in insurance, performance-based contracts, monitoring and regulation, regulation of risky behaviour                          |
+
+</div>
 
 ---
 
@@ -591,6 +615,8 @@ Occurs when government intervention reduces welfare rather than increasing it.
 
 ### Types of Government Failure
 
+<div class="table-wrap">
+
 | Type                      | Description                                                                                                                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Regulatory capture        | Regulatory agencies become dominated by the industries they are supposed to regulate. Regulators act in the interest of the industry rather than the public.                                |
@@ -601,6 +627,8 @@ Occurs when government intervention reduces welfare rather than increasing it.
 | Principal-agent problem   | Government officials (agents) may not act in the interest of the public (principals). Their incentives may not align with the public good.                                                  |
 | Time inconsistency        | Governments may make commitments they later renege on (e.g., promising not to inflate, then inflating to reduce the real value of debt).                                                    |
 | Crowding out              | Government provision of goods and services may crowd out private provision, even when private provision would be more efficient.                                                            |
+
+</div>
 
 ### Regulatory Capture: Detailed Analysis
 

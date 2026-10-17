@@ -351,6 +351,8 @@ impl Shape {
 
 ### Enum Dispatch vs Trait Objects
 
+<div class="table-wrap">
+
 | Property           | Enum Dispatch               | Trait Objects (`dyn Trait`)  |
 | ------------------ | --------------------------- | ---------------------------- |
 | Dispatch mechanism | Static (branch table)       | Dynamic (vtable indirection) |
@@ -358,6 +360,8 @@ impl Shape {
 | Extensibility      | Closed (all variants known) | Open (any implementor)       |
 | Performance        | Predictable, inlinable      | Indirect call, not inlinable |
 | Type information   | Full at compile time        | Erased at runtime            |
+
+</div>
 
 ### When to Use Each
 

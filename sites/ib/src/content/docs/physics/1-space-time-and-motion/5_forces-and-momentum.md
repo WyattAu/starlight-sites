@@ -836,10 +836,14 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site    | Link                                                                                         |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Momentum] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/05-momentum)   |
 | [Momentum] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum/) |
+
+</div>
 
 ## Worked Examples
 

@@ -532,6 +532,8 @@ distinction is critical in scientific Reasoning.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The MLE is unbiased | no | the MLE of $\sigma^2$ with the mean known is unbiased; with the mean estimated it is not, and the correction factor is $n/(n-1)$ |
@@ -542,6 +544,8 @@ distinction is critical in scientific Reasoning.
 | Maximum likelihood is invariant under reparameterisation | yes | and this is a theorem, not a convention -- which is why it is the default |
 | A wider confidence interval means a worse experiment | no | a wider interval honestly reports less information; a narrow one from a small sample is a lie |
 | The Neyman-Pearson lemma needs a simple null and a simple alternative | yes | for composite hypotheses you need the generalised likelihood ratio, and monotone likelihood ratio for UMP tests |
+
+</div>
 
 The first row is worth working through once, because it is the cleanest
 example of a biased estimator that is nonetheless consistent and asymptotically

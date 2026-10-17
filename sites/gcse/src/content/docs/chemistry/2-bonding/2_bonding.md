@@ -60,6 +60,8 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 
 **Properties of ionic compounds:**
 
+<div class="table-wrap">
+
 | Property                                     | Explanation                                                                         |
 | -------------------------------------------- | ----------------------------------------------------------------------------------- |
 | High melting/boiling point                   | Strong electrostatic forces between ions require a lot of energy to overcome        |
@@ -67,6 +69,8 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 | Do NOT conduct when solid                    | Ions are fixed in position in the lattice                                           |
 | Brittle                                      | A force displaces layers of ions, bringing like charges together, causing repulsion |
 | soluble in water                             | Water molecules attract and separate the ions                                       |
+
+</div>
 
 The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
 Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
@@ -137,6 +141,8 @@ S$^{2-}$ achieves the configuration of argon.
 
 The formula of an ionic compound is determined by balancing the charges:
 
+<div class="table-wrap">
+
 | Cation    | Anion       | Formula      |
 | --------- | ----------- | ------------ |
 | Na$^+$    | Cl$^-$      | NaCl         |
@@ -144,6 +150,8 @@ The formula of an ionic compound is determined by balancing the charges:
 | Al$^{3+}$ | O$^{2-}$    | Al$_2$O$_3$  |
 | Mg$^{2+}$ | SO$_4^{2-}$ | MgSO$_4$     |
 | Na$^+$    | CO$_3^{2-}$ | Na$_2$CO$_3$ |
+
+</div>
 
 The method is: write the ions with their charges, then find the smallest whole number ratio that
 Makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
@@ -169,6 +177,8 @@ $+6$) and 2 PO$_4^{3-}$ (total $-6$). Formula: Ca$_3$(PO$_4$)$_2$.
 
 Some ions consist of more than one atom bonded covalently but carrying an overall charge:
 
+<div class="table-wrap">
+
 | Ion               | Formula     | Charge |
 | ----------------- | ----------- | ------ |
 | Hydroxide         | OH$^-$      | $1-$   |
@@ -177,6 +187,8 @@ Some ions consist of more than one atom bonded covalently but carrying an overal
 | Sulfate           | SO$_4^{2-}$ | $2-$   |
 | Ammonium          | NH$_4^+$    | $1+$   |
 | Hydrogencarbonate | HCO$_3^-$   | $1-$   |
+
+</div>
 
 When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
 Needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
@@ -197,12 +209,16 @@ $2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 
 ### 1.7 Comparison of Ionic Compound Properties
 
+<div class="table-wrap">
+
 | Compound    | Ion Charges | Melting Point ($^{\circ}\mathrm{C$) | Solubility in Water |
 | ----------- | ----------- | ----------------------------------- | ------------------- |
 | NaCl        | $+1, -1$    | 801                                 | Soluble             |
 | MgO         | $+2, -2$    | 2852                                | Slightly soluble    |
 | CaCl$_2$    | $+2, -1$    | 772                                 | Soluble             |
 | Al$_2$O$_3$ | $+3, -2$    | 2072                                | Insoluble           |
+
+</div>
 
 The trend is clear: higher ionic charges produce stronger electrostatic attraction and higher
 Melting points. This is a direct consequence of Coulomb's law.
@@ -268,11 +284,15 @@ with each chlorine, and retains one lone pair. The structure is analogous to amm
 
 ### 2.3 Properties of Simple Covalent Molecules
 
+<div class="table-wrap">
+
 | Property                             | Explanation                                                           |
 | ------------------------------------ | --------------------------------------------------------------------- |
 | Low melting/boiling point            | Weak intermolecular forces between molecules (not the covalent bonds) |
 | Do NOT conduct electricity           | No free ions or electrons                                             |
 | gases or liquids at room temperature | Weak forces between molecules                                         |
+
+</div>
 
 :::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
@@ -329,6 +349,8 @@ Properties. They are used in composite materials and electronics.
 
 ### 2.5 Comparison of Diamond and Graphite
 
+<div class="table-wrap">
+
 | Property                | Diamond                                 | Graphite                         |
 | ----------------------- | --------------------------------------- | -------------------------------- |
 | Bonding                 | 4 covalent bonds per carbon             | 3 covalent bonds + 1 delocalised |
@@ -337,6 +359,8 @@ Properties. They are used in composite materials and electronics.
 | Electrical conductivity | Does not conduct                        | Conducts (delocalised electrons) |
 | Melting point           | Very high ($\gt 3500^{\circ}\mathrm{C$) | Very high                        |
 | Uses                    | Cutting tools, jewellery                | Pencils, lubricants, electrodes  |
+
+</div>
 
 ### 2.6 Bond Polarity
 
@@ -354,6 +378,8 @@ Hydrogen has a slight positive charge ($\delta^+$). The bond has a dipole.
 The **bond energy** is the energy required to break one mole of a particular bond in the gaseous
 State.
 
+<div class="table-wrap">
+
 | Bond  | Bond energy (kJ/mol) |
 | ----- | -------------------- |
 | H-H   | 436                  |
@@ -362,6 +388,8 @@ State.
 | O-H   | 463                  |
 | C=O   | 805                  |
 | Cl-Cl | 243                  |
+
+</div>
 
 Multiple bonds are stronger than single bonds because there are more shared electrons holding the
 Atoms together: C=C (612 kJ/mol) is stronger than C-C (348 kJ/mol), and C$\equiv$C (839 kJ/mol) is
@@ -376,11 +404,15 @@ also contributes to the higher bond energy because the electrons are closer to b
 
 The relationship between bond order, bond length, and bond energy:
 
+<div class="table-wrap">
+
 | Bond Order | Bond Length  | Bond Energy  |
 | ---------- | ------------ | ------------ |
 | 1 (single) | Longest      | Weakest      |
 | 2 (double) | Intermediate | Intermediate |
 | 3 (triple) | Shortest     | Strongest    |
+
+</div>
 
 ## 3. Metallic Bonding
 
@@ -396,6 +428,8 @@ from both ionic and covalent substances.
 
 ### 3.2 Properties of Metals
 
+<div class="table-wrap">
+
 | Property                       | Explanation                                                                  |
 | ------------------------------ | ---------------------------------------------------------------------------- |
 | High melting/boiling point     | Strong metallic bonds require a lot of energy to overcome                    |
@@ -404,6 +438,8 @@ from both ionic and covalent substances.
 | Malleable and ductile          | Layers of ions can slide over each other without breaking the metallic bonds |
 | Shiny                          | Delocalised electrons absorb and re-emit light                               |
 | high density                   | Atoms are closely packed in the lattice                                      |
+
+</div>
 
 The malleability and ductility of metals are consequences of the non-directional nature of the
 Metallic bond. When a force is applied, layers of metal ions can slide past each other. The
@@ -417,6 +453,8 @@ An **alloy** is a mixture of a metal with one or more other elements ( another m
 different-sized atoms distort the regular lattice, preventing layers from sliding . This makes
 alloys harder than pure metals.
 
+<div class="table-wrap">
+
 | Alloy           | Composition              | Use                           |
 | --------------- | ------------------------ | ----------------------------- |
 | Steel           | Iron + carbon            | Construction, tools           |
@@ -425,6 +463,8 @@ alloys harder than pure metals.
 | Stainless steel | Iron + chromium + nickel | Cutlery, medical instruments  |
 | Solder          | Tin + lead               | Joining wires                 |
 | Amalgam         | Mercury + other metals   | Dental fillings               |
+
+</div>
 
 The mechanism of hardening in alloys is straightforward. In a pure metal, all atoms are the same
 Size, so layers can slide over each other . In an alloy, the atoms of the added element are a
@@ -454,12 +494,16 @@ Heat).
 
 ### 4.1 Summary Table
 
+<div class="table-wrap">
+
 | Type of Bonding   | Between               | Structure              | Melting Point | Conductivity              |
 | ----------------- | --------------------- | ---------------------- | ------------- | ------------------------- |
 | Ionic             | Metal + non-metal     | Giant ionic lattice    | High          | Yes (molten/dissolved)    |
 | Covalent (simple) | Non-metal + non-metal | Simple molecules       | Low           | No                        |
 | Covalent (giant)  | Non-metal + non-metal | Giant covalent lattice | Very high     | Graphite: yes; others: no |
 | Metallic          | Metal + metal         | Giant metallic lattice | High          | Yes (solid)               |
+
+</div>
 
 ### 4.2 Predicting Bonding Type
 
@@ -496,6 +540,8 @@ Given the type of bonding, you should be able to predict:
 
 ### 4.4 Comparison: Ionic vs. Metallic Bonding
 
+<div class="table-wrap">
+
 | Property            | Ionic Bonding                      | Metallic Bonding                                |
 | ------------------- | ---------------------------------- | ----------------------------------------------- |
 | Type of attraction  | Between positive and negative ions | Between positive ions and delocalised electrons |
@@ -505,7 +551,11 @@ Given the type of bonding, you should be able to predict:
 | Solubility in water | soluble                            | insoluble                                       |
 | Example             | NaCl, MgO                          | Iron, copper                                    |
 
+</div>
+
 ### 4.5 Comparison: Ionic vs. Covalent vs. Metallic
+
+<div class="table-wrap">
 
 | Feature          | Ionic                      | Simple Covalent    | Giant Covalent            | Metallic                      |
 | ---------------- | -------------------------- | ------------------ | ------------------------- | ----------------------------- |
@@ -515,9 +565,13 @@ Given the type of bonding, you should be able to predict:
 | Solubility       | soluble in water           | Variable           | Insoluble                 | Insoluble                     |
 | Example          | NaCl                       | CO$_2$H$_2$O       | Diamond, SiO$_2$          | Cu, Fe                        |
 
+</div>
+
 ## 5. States of Matter and Changes of State
 
 ### 5.1 The Three States
+
+<div class="table-wrap">
 
 | Property    | Solid                      | Liquid                               | Gas                            |
 | ----------- | -------------------------- | ------------------------------------ | ------------------------------ |
@@ -527,7 +581,11 @@ Given the type of bonding, you should be able to predict:
 | Shape       | Fixed                      | Takes container shape                | Fills container                |
 | Volume      | Fixed                      | Fixed                                | Fills available space          |
 
+</div>
+
 ### 5.2 Changes of State
+
+<div class="table-wrap">
 
 | Change          | Name                | Energy Change   |
 | --------------- | ------------------- | --------------- |
@@ -537,6 +595,8 @@ Given the type of bonding, you should be able to predict:
 | Gas to liquid   | Condensation        | Energy released |
 | Solid to gas    | Sublimation         | Energy absorbed |
 | Gas to solid    | Deposition          | Energy released |
+
+</div>
 
 :::note
 Formed, and the process is reversible. The identity of the substance does not change; only the
@@ -596,11 +656,15 @@ Frequently, and exert greater pressure.
 
 ### 6.1 Types of Intermolecular Force
 
+<div class="table-wrap">
+
 | Type                    | Strength | Between                               |
 | ----------------------- | -------- | ------------------------------------- |
 | London (van der Waals)  | Weak     | All molecules                         |
 | Permanent dipole-dipole | Moderate | Polar molecules                       |
 | Hydrogen bonding        | Strong   | Molecules with H bonded to N, O, or F |
+
+</div>
 
 **London dispersion forces** arise from temporary, instantaneous dipoles caused by the uneven
 Distribution of electrons within a molecule at any given instant. These temporary dipoles induce
@@ -689,6 +753,8 @@ Proportion of atoms are on the surface, available for catalysis or other reactio
 
 ### 6.5 Summary: Intermolecular Forces and Boiling Points
 
+<div class="table-wrap">
+
 | Substance | Molar Mass (g/mol) | IMF Type               | Boiling Point ($^{\circ}\mathrm{C$) |
 | --------- | ------------------ | ---------------------- | ----------------------------------- |
 | CH$_4$    | 16                 | London only            | -161                                |
@@ -700,6 +766,8 @@ Proportion of atoms are on the surface, available for catalysis or other reactio
 | Cl$_2$    | 71                 | London only            | -34                                 |
 | Br$_2$    | 160                | London only            | 59                                  |
 | I$_2$     | 254                | London only            | 184                                 |
+
+</div>
 
 This table demonstrates two key principles: hydrogen bonding produces anomalously high boiling
 Points compared to London forces, and London forces increase with molar mass.

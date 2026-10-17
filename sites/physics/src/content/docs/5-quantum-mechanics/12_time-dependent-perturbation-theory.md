@@ -164,12 +164,16 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Formula | Name | Application |
 |---------|------|-------------|
 | $\Gamma_{i\to f} = \frac{2\pi}{\hbar}\|\langle f\|\hat{V}\|i\rangle\|^2\rho(E_f)$ | Fermi's Golden Rule | Transition rate to continuum |
 | $\Delta l = \pm 1$, $\Delta m = 0, \pm 1$ | E1 selection rules | Electric dipole transitions |
 | $A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}$ | Einstein relation | Connects spontaneous/stimulated rates |
 | $\|c_f\|^2 = \frac{\|\langle f\|\hat{V}\|i\rangle\|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi}-\omega)t/2]}{(\omega_{fi}-\omega)^2/4}$ | Rabi formula | Transition probability for discrete states |
+
+</div>
 
 ### Common Pitfalls
 
@@ -206,6 +210,8 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 
 ### Summary Table: Transition Types
 
+<div class="table-wrap">
+
 | Transition | Selection Rules | Rate | Typical Timescale |
 | ------------ | ---------------- | ------ | ------------------- |
 | Electric dipole (E1) | $\Delta l = \pm 1$, $\Delta m = 0,\pm 1$ | $A \sim 10^7$--$10^9$ s$^{-1}$ | ns |
@@ -214,11 +220,15 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
+</div>
+
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
 
 ## Counterexamples worth knowing by name
+
+<div class="table-wrap">
 
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
@@ -229,6 +239,8 @@ Time-dependent perturbation theory treats external influences as small disturban
 | Selection rules are absolute | no | they are selection rules for the dipole approximation; electric quadrupole and magnetic dipole transitions are weaker but real, and "forbidden" lines are observed in astrophysics |
 | Energy conservation is exact in a finite process | no | it holds to within $\Delta E \sim \hbar/t$; short pulses drive off-resonant transitions routinely |
 | Stronger perturbation always gives a larger transition rate | no | beyond the perturbative regime the population oscillates (Rabi) and the rate concept stops applying |
+
+</div>
 
 The fourth row is the most important and is usually glossed. Spontaneous
 emission cannot be derived from a classical field coupled to a quantum atom --
@@ -299,7 +311,7 @@ Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/).
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: Angular momentum theory provides the selection rules for electric dipole transitions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

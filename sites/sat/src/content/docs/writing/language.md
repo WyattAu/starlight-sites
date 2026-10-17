@@ -30,6 +30,8 @@ SAT writing study notes - Language
 
 ## Key Rules
 
+<div class="table-wrap">
+
 | Rule | Incorrect | Correct |
 | ------ | ----------- | --------- |
 | Subject-verb agreement | "The group of students **were** late" | "The group of students **was** late" |
@@ -37,6 +39,8 @@ SAT writing study notes - Language
 | Modifier placement | "**Walking to school**, the rain started" | "**Walking to school**, I noticed the rain started" |
 | Conciseness | "Due to the fact that" | "Because" |
 | Comma splice | "It was late**,** we went home" | "It was late**;** we went home" |
+
+</div>
 
 ## Worked Examples
 

@@ -30,6 +30,8 @@ SAT writing study notes - Essay
 
 ## Essay Template
 
+<div class="table-wrap">
+
 | Section | Content | Time |
 | --------- | --------- | ------ |
 | Introduction | Hook + context + thesis statement | 5 min |
@@ -38,6 +40,8 @@ SAT writing study notes - Essay
 | Body ¶3 | Third argument OR counterargument + rebuttal | 8 min |
 | Conclusion | Restate thesis + broader significance | 4 min |
 | Revision | Check flow, grammar, clarity | 7 min |
+
+</div>
 
 ## Worked Examples
 

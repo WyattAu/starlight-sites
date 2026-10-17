@@ -19,6 +19,8 @@ tableOfContents: false
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Diagnostic File             | Topics Covered                                                                      | Source Files                                            |
 | --------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | `diag-atomic-structure.md`  | Electron configuration, quantum numbers, isotopes, ionisation energy                | `atomic-structure-and-periodicity.md``atomic-theory.md` |
@@ -29,6 +31,8 @@ tableOfContents: false
 | `diag-redox.md`             | Oxidation numbers, balancing equations, electrochemical cells, Nernst equation      | `redox-advanced.md`                                     |
 | `diag-organic-chemistry.md` | SN1/SN2, E1/E2, functional groups, mechanisms, stereochemistry                      | `organic-chemistry-advanced.md`                         |
 | `diag-measurement.md`       | Uncertainty propagation, significant figures, graphical analysis, statistics        | `measurement-and-data-processing.md`                    |
+
+</div>
 
 ## Grading Rubric
 
@@ -85,6 +89,8 @@ Stoichiometry (foundational -- not a separate diagnostic)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic               | Recommended Time | Notes                                               |
 | ------------------------ | ---------------- | --------------------------------------------------- |
 | `diag-atomic-structure`  | 30 minutes       | Focus on electron configuration and quantum numbers |
@@ -95,6 +101,8 @@ Stoichiometry (foundational -- not a separate diagnostic)
 | `diag-redox`             | 35 minutes       | Balancing equations is time-consuming               |
 | `diag-organic-chemistry` | 40 minutes       | Mechanism drawing requires practice                 |
 | `diag-measurement`       | 35 minutes       | Uncertainty propagation has many steps              |
+
+</div>
 
 **Total recommended time:** approximately 4.5 hours (spread across multiple sessions).
 

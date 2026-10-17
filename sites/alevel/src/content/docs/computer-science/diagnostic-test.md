@@ -619,6 +619,8 @@ Theorem) because "effectively computable" is an informal concept.
 
 Count your correct answers and identify weak areas:
 
+<div class="table-wrap">
+
 | Score | Grade | Recommendation                                        |
 | ----- | ----- | ----------------------------------------------------- |
 | 40–45 | A\*   | Excellent, focus on exam technique                   |
@@ -626,6 +628,8 @@ Count your correct answers and identify weak areas:
 | 25–34 | B/C   | Good foundation, systematic revision needed          |
 | 15–24 | D/E   | Gaps exist, work through each topic's notes          |
 | 0–14  | U     | Significant revision needed, start with fundamentals |
+
+</div>
 
 **Next steps:** For each incorrect answer, follow the revision link and work through the full
 Problem set on that page.

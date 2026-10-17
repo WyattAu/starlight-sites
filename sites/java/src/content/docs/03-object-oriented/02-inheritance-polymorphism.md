@@ -160,12 +160,16 @@ new B();
 
 ## Access Modifiers
 
+<div class="table-wrap">
+
 | Modifier          | Class | Package | Subclass | World |
 | ----------------- | ----- | ------- | -------- | ----- |
 | `public`          | Yes   | Yes     | Yes      | Yes   |
 | `protected`       | Yes   | Yes     | Yes      | No    |
 | (package-private) | Yes   | Yes     | No       | No    |
 | `private`         | Yes   | No      | No       | No    |
+
+</div>
 
 ### Package-Private (Default Access)
 
@@ -384,6 +388,8 @@ int len = lengthExtractor.transform("hello"); // 5
 
 Built-in functional interfaces in `java.util.function`:
 
+<div class="table-wrap">
+
 | Interface                 | Abstract Method   | Signature       |
 | ------------------------- | ----------------- | --------------- |
 | `Predicate&lt;T&gt;`      | `boolean test(T)` | T -&gt; boolean |
@@ -393,6 +399,8 @@ Built-in functional interfaces in `java.util.function`:
 | `UnaryOperator&lt;T&gt;`  | `T apply(T)`      | T -&gt; T       |
 | `BinaryOperator&lt;T&gt;` | `T apply(T, T)`   | (T,T) -&gt; T   |
 | `BiFunction&lt;T,U,R&gt;` | `R apply(T, U)`   | (T,U) -&gt; R   |
+
+</div>
 
 ### Multiple Inheritance of Interfaces
 
@@ -508,6 +516,8 @@ A subclass must violate the superclass's contract to work correctly, use composi
 
 ## SOLID Principles Overview
 
+<div class="table-wrap">
+
 | Principle                     | Guideline                                                           |
 | ----------------------------- | ------------------------------------------------------------------- |
 | **S**, Single Responsibility | A class should have only one reason to change.                      |
@@ -515,6 +525,8 @@ A subclass must violate the superclass's contract to work correctly, use composi
 | **L**, Liskov Substitution   | Subtypes must be substitutable for their base types.                |
 | **I**, Interface Segregation | Prefer many specific interfaces over one general-purpose interface. |
 | **D**, Dependency Inversion  | Depend on abstractions, not concretions.                            |
+
+</div>
 
 ### Single Responsibility Example
 

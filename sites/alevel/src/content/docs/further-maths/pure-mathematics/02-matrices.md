@@ -29,12 +29,16 @@ Transformations of the plane and space.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board   | Paper   | Notes                                                   |
 | ------- | ------- | ------------------------------------------------------- |
 | AQA     | Paper 1 | 3D transformations, eigenvalues and eigenvectors        |
 | Edexcel | FP1     | 2D transformations, $3\times3$ matrices, determinants   |
 | OCR (A) | Paper 1 | 2D transformations, $3\times3$ matrices                 |
 | CIE     | P1      | 2D and basic 3D transformations, inverses, determinants |
+
+</div>
 
 <hr />
 
@@ -989,12 +993,16 @@ $\mathbf{A}^{-1} = \dfrac{1}{-1}\begin{pmatrix}1&2&-2\\-1&-2&1\\-1&-1&1\end{pmat
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                     | Correct Approach                                                               |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Assuming all matrices are diagonalisable                                    | Check geometric multiplicity equals algebraic multiplicity for each eigenvalue |
 | Forgetting that $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$       | The order reverses                                                             |
 | Computing $\det(\mathbf{A}+\mathbf{B}) = \det(\mathbf{A})+\det(\mathbf{B})$ |, $\det(\mathbf{A}+\mathbf{B}) \neq \det(\mathbf{A})+\det(\mathbf{B})$         |
 | Mixing up row and column operations                                         | Column operations change the determinant differently from row operations       |
+
+</div>
 
 ---
 
@@ -1108,6 +1116,8 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Result               | Formula/Condition                                                           |
 | -------------------- | --------------------------------------------------------------------------- |
 | Invertibility        | $\mathbf{A}$ is invertible $\iff$ $\det(\mathbf{A}) \neq 0$                 |
@@ -1118,6 +1128,8 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 | Cayley--Hamilton     | $\mathbf{A}$ satisfies its own characteristic equation                      |
 | Diagonalisability    | All eigenvalues must have geometric multiplicity $=$ algebraic multiplicity |
 | Area scaling         | $                                                                           \| \det(\mathbf{T}) \| \times$ original area $=$ image area |
+
+</div>
 
 ---
 

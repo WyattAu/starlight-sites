@@ -167,6 +167,8 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 
 ### 7.11 Key Results Summary
 
+<div class="table-wrap">
+
 | Result | Formula / Statement |
 | --- | --- |
 | Fourier coefficients | $a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\,dx$ |
@@ -175,6 +177,8 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | Complex form | $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\,dx$ |
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
+
+</div>
 
 ## Cross-References
 

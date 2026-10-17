@@ -22,6 +22,8 @@ Framework.
 
 ### Decision Tree
 
+<div class="table-wrap">
+
 | Signal                                | Pattern             | Example                      |
 | ------------------------------------- | ------------------- | ---------------------------- |
 | Choose items with capacity constraint | Knapsack            | 0/1 knapsack, subset sum     |
@@ -32,6 +34,8 @@ Framework.
 | Optimise over subsequences/strings    | String DP           | Edit distance, LCS           |
 | Two players taking turns              | Game theory DP      | Nim, coin game               |
 | Greedy seems to work                  | Greedy-reducible DP | Activity selection           |
+
+</div>
 
 ## Knapsack Family
 
@@ -763,6 +767,8 @@ the locally optimal choice always lead to the globally optimal solution?
 
 ### When Greedy Works Instead of DP
 
+<div class="table-wrap">
+
 | Problem                    | Greedy Works? | Greedy Strategy                |
 | -------------------------- | ------------- | ------------------------------ |
 | Fractional knapsack        | Yes           | Sort by value/weight ratio     |
@@ -774,9 +780,13 @@ the locally optimal choice always lead to the globally optimal solution?
 | Partition equal subset sum | No            | DP required                    |
 | Edit distance              | No            | DP required                    |
 
+</div>
+
 ## State Compression Techniques
 
 ### Reducing State Space
+
+<div class="table-wrap">
 
 | Technique              | When to Use                         | Example                                |
 | ---------------------- | ----------------------------------- | -------------------------------------- |
@@ -785,6 +795,8 @@ the locally optimal choice always lead to the globally optimal solution?
 | Rolling array          | Only previous row/column needed     | `prev` and `curr` arrays               |
 | Bitmask                | Small set of choices (n &lt;= 20)   | TSP, assignment                        |
 | Sparse DP              | Many states unreachable             | Dictionary instead of array            |
+
+</div>
 
 ## Common Pitfalls
 

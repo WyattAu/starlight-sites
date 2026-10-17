@@ -23,6 +23,8 @@ states. Lower limits apply to commercial drivers (0.04%) and drivers under
 
 ### BAC Levels and Effects
 
+<div class="table-wrap">
+
 | BAC Level | Effects |
 |-----------|---------|
 | 0.02% | Loss of coordination, difficulty steering |
@@ -32,6 +34,8 @@ states. Lower limits apply to commercial drivers (0.04%) and drivers under
 | 0.15% | Far less muscle control, major loss of balance |
 | 0.20% | Confusion, blackout, complete loss of motor function |
 | 0.30%+ | Onset of unconsciousness, death possible |
+
+</div>
 
 ### Factors Affecting BAC
 

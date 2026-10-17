@@ -32,10 +32,14 @@ students see harder questions and can demonstrate mastery at a higher level.
 
 ## Test Structure
 
+<div class="table-wrap">
+
 | Section               | Modules             | Questions per Module | Time per Module | Total Time |
 | --------------------- | ------------------- | -------------------- | --------------- | ---------- |
 | **Reading & Writing** | Module 1 + Module 2 | 27                   | 32 minutes      | 64 minutes |
 | **Mathematics**       | Module 1 + Module 2 | 22                   | 35 minutes      | 70 minutes |
+
+</div>
 
 **Total:** 98 questions, 134 minutes (~2 hours 14 minutes).
 
@@ -106,6 +110,8 @@ understand.
 
 ### 12-Week Timeline
 
+<div class="table-wrap">
+
 | Week | Focus                               | Time Commitment |
 | ---- | ----------------------------------- | --------------- |
 | 1-2  | Diagnostic test + review weak areas | 8-10 hrs/week   |
@@ -114,6 +120,8 @@ understand.
 | 9-10 | Full-length practice tests (timed)  | 4-6 hrs/week    |
 | 11   | Review errors + targeted drill      | 4-6 hrs/week    |
 | 12   | Final practice test + light review  | 2-4 hrs/week    |
+
+</div>
 
 ### Weekly Routine
 

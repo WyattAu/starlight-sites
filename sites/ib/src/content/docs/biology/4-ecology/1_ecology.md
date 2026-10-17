@@ -148,6 +148,8 @@ Carbon circulates between the atmosphere, biosphere, hydrosphere, and lithospher
 
 **Key processes**:
 
+<div class="table-wrap">
+
 | Process                  | Description                                                                                                             |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | **Photosynthesis**       | Plants, algae, and cyanobacteria convert $\mathrm{CO}_2$ into organic compounds (carbohydrates).                        |
@@ -156,6 +158,8 @@ Carbon circulates between the atmosphere, biosphere, hydrosphere, and lithospher
 | **Decomposition**        | Decomposers break down organic matter, releasing $\mathrm{CO}_2$.                                                       |
 | **Fossilisation**        | Organic matter is buried and slowly converted to fossil fuels (coal, oil, natural gas) over millions of years.          |
 | **Ocean absorption**     | $\mathrm{CO}_2$ dissolves in seawater; marine organisms incorporate carbon into shells ($\mathrm{CaCO}_3$) and tissues. |
+
+</div>
 
 **Carbon reservoirs**:
 
@@ -169,6 +173,8 @@ Carbon circulates between the atmosphere, biosphere, hydrosphere, and lithospher
 Nitrogen ($\mathrm{N}_2$) makes up $78\%$ of the atmosphere but is chemically inert and unavailable
 to most organisms. The nitrogen cycle converts $\mathrm{N}_2$ into biologically usable forms.
 
+<div class="table-wrap">
+
 | Process               | Description                                                                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nitrogen fixation** | Conversion of $\mathrm{N}_2$ to $\mathrm{NH}_3$ (ammonia). Performed by nitrogen-fixing bacteria (e.g., _Rhizobium_ in root nodules of legumes; _Azotobacter_ free-living in soil) and lightning.              |
@@ -176,6 +182,8 @@ to most organisms. The nitrogen cycle converts $\mathrm{N}_2$ into biologically 
 | **Assimilation**      | Plants absorb $\mathrm{NO}_3^-$ and $\mathrm{NH}_4^+$ through roots; animals obtain nitrogen by eating plants or other animals.                                                                                |
 | **Ammonification**    | Decomposers convert organic nitrogen (proteins, nucleic acids) in dead matter and waste into $\mathrm{NH}_3$.                                                                                                  |
 | **Denitrification**   | Conversion of $\mathrm{NO}_3^-$ back to $\mathrm{N}_2$ by denitrifying bacteria (e.g., _Pseudomonas denitrificans_), returning nitrogen to the atmosphere. Occurs in anaerobic conditions (waterlogged soils). |
+
+</div>
 
 ---
 
@@ -198,12 +206,16 @@ Radiation, warming the planet.
 
 **Key greenhouse gases**:
 
+<div class="table-wrap">
+
 | Gas                                      | Sources                                                             | Relative contribution |
 | ---------------------------------------- | ------------------------------------------------------------------- | --------------------- |
 | Carbon dioxide ($\mathrm{CO}_2$)         | Fossil fuel combustion, deforestation, cement production            | Largest               |
 | Methane ($\mathrm{CH}_4$)                | Agriculture (rice paddies, livestock), landfills, natural gas leaks | Second largest        |
 | Nitrous oxide ($\mathrm{N}_2\mathrm{O}$) | Agricultural fertilisers, industrial processes                      | Third                 |
 | Chlorofluorocarbons (CFCs)               | Refrigerants, aerosols (now largely banned by Montreal Protocol)    | Potent but declining  |
+
+</div>
 
 ### Evidence for Climate Change
 
@@ -242,6 +254,8 @@ Radiation, warming the planet.
 
 ### Evidence for Evolution
 
+<div class="table-wrap">
+
 | Evidence Type              | Description                                                                                                                                                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fossil record**          | Fossils show gradual changes in organisms over geological time; transitional forms (e.g., _Archaeopteryx_ between dinosaurs and birds).                                                                       |
@@ -249,6 +263,8 @@ Radiation, warming the planet.
 | **Comparative embryology** | Early embryonic stages of vertebrates are remarkably similar (e.g., pharyngeal pouches, post-anal tail).                                                                                                      |
 | **Molecular evidence**     | DNA and protein sequence comparisons; closely related species share more DNA sequences (e.g., humans and chimpanzees share $\approx 98.8\%$ of DNA).                                                          |
 | **Biogeography**           | Species on islands resemble those on the nearest mainland (e.g., Darwin's finches on the Galapagos).                                                                                                          |
+
+</div>
 
 ### Natural Selection
 
@@ -266,11 +282,15 @@ Darwin's theory of natural selection (1859):
 
 ### Types of Selection
 
+<div class="table-wrap">
+
 | Type                      | Effect on distribution                                                                                                                       |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Directional selection** | Favours one extreme phenotype; the distribution shifts in that direction (e.g., antibiotic resistance in bacteria).                          |
 | **Stabilising selection** | Favours the intermediate phenotype; reduces variation (e.g., human birth weight).                                                            |
 | **Disruptive selection**  | Favours both extremes over the intermediate; can lead to speciation (e.g., beak size in finches on islands with only large and small seeds). |
+
+</div>
 
 ### Speciation
 
@@ -339,11 +359,15 @@ Sapiens_).
 
 ### Three Domains
 
+<div class="table-wrap">
+
 | Domain   | Cell type   | Cell wall                             | Genetic material              | Example                          |
 | -------- | ----------- | ------------------------------------- | ----------------------------- | -------------------------------- |
 | Bacteria | Prokaryotic | Peptidoglycan                         | Circular DNA                  | _E. Coli_                        |
 | Archaea  | Prokaryotic | Pseudopeptidoglycan                   | Circular DNA                  | _Halobacterium_                  |
 | Eukarya  | Eukaryotic  | Varies (cellulose, chitin, or absent) | Linear chromosomes in nucleus | Animals, plants, fungi, protists |
+
+</div>
 
 ### Dichotomous Keys
 
@@ -616,6 +640,8 @@ for other herbivores, decomposition losses, or the fact that only a portion of N
 The following data show the population sizes of a predator (lynx) and its prey (hare) over a
 $10$-year Period in a $500\;\mathrm{km}^2$ boreal forest:
 
+<div class="table-wrap">
+
 | Year | Hare population (thousands) | Lynx population |
 | ---- | --------------------------- | --------------- |
 | 1    | 40                          | 25              |
@@ -628,6 +654,8 @@ $10$-year Period in a $500\;\mathrm{km}^2$ boreal forest:
 | 8    | 45                          | 15              |
 | 9    | 78                          | 40              |
 | 10   | 90                          | 60              |
+
+</div>
 
 Describe the relationship between the two populations and explain the likely mechanism causing the
 Oscillations.
@@ -784,12 +812,16 @@ Cascading ecological consequence for the broader marine food web.
 
 A grassland ecosystem has the following biomass data at each trophic level:
 
+<div class="table-wrap">
+
 | Trophic level               | Biomass ($\mathrm{kJ/m^2}$) |
 | --------------------------- | --------------------------- |
 | Producers (grass)           | 24000                       |
 | Primary consumers (insects) | 2400                        |
 | Secondary consumers (frogs) | 240                         |
 | Tertiary consumers (snakes) | 24                          |
+
+</div>
 
 (a) Calculate the ecological efficiency between each pair of adjacent trophic levels. (b) Explain
 Why the biomass pyramid is upright in this ecosystem but can be inverted in aquatic systems. (c) If
@@ -872,11 +904,15 @@ The logistic curve is sigmoidal (S-shaped).
 
 Survivorship curves plot the number or proportion of individuals surviving to each age:
 
+<div class="table-wrap">
+
 | Type    | Shape                                  | Description                                                                         | Example                                                |
 | ------- | -------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | **I**   | Convex (drops steeply only at old age) | Low mortality during early and middle life; most individuals survive to old age.    | Humans in developed countries; large mammals.          |
 | **II**  | Straight (constant mortality rate)     | Constant mortality rate at all ages.                                                | Many bird species; some reptiles.                      |
 | **III** | Concave (high early mortality)         | High mortality in early life; those that survive to adulthood have lower mortality. | Fish; invertebrates; many plants (seedling mortality). |
+
+</div>
 
 ### Succession
 
@@ -996,6 +1032,8 @@ Ecosystems.
 
 ### Threats to Biodiversity
 
+<div class="table-wrap">
+
 | Threat                    | Description                                                                                     | Example                                                            |
 | ------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | **Habitat destruction**   | Conversion of natural habitats to agriculture, urban areas, and infrastructure.                 | Deforestation of tropical rainforests; coral reef destruction.     |
@@ -1004,6 +1042,8 @@ Ecosystems.
 | **Pollution**             | Contamination of air, water, and soil with harmful substances.                                  | Pesticide accumulation (DDT); oil spills; plastic pollution.       |
 | **Climate change**        | Global warming, ocean acidification, changing precipitation patterns.                           | Coral bleaching; range shifts; phenological mismatches.            |
 | **Invasive species**      | Non-native species that outcompete, prey on, or introduce diseases to native species.           | Cane toad in Australia; zebra mussel in North America; kudzu vine. |
+
+</div>
 
 ### Conservation Strategies
 
@@ -1346,6 +1386,8 @@ change.
 <details>
 <summary>Answer 13</summary>
 
+<div class="table-wrap">
+
 | Feature                   | Tropical Rainforest                                                                   | Tundra                                                                                                                                 |
 | ------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Temperature**           | $25$--$28^\circ\mathrm{C}$ year-round                                                 | $-30$ to $10^\circ\mathrm{C}$; mean $<10^\circ\mathrm{C}$                                                                              |
@@ -1356,6 +1398,8 @@ change.
 | **Plant adaptations**     | Buttress roots, drip tips, thin leaves, epiphytes, climbing plants                    | Low-growing (cushion plants), hairy leaves, dark pigments, clonal reproduction, shallow roots                                          |
 | **Animal adaptations**    | Arboreal locomotion, camouflage, specialised diets (coevolution with specific plants) | Thick fur/feathers, fat deposits, migration, hibernation, seasonal colour change (e.g., arctic hare)                                   |
 | **Climate vulnerability** | Drought stress, increased fire frequency, deforestation, loss of cloud forests        | Permafrost thaw (releasing methane), shrubification (boreal shrubs replacing tundra vegetation), habitat loss for cold-adapted species |
+
+</div>
 
 (f) Climate change vulnerability:
 
@@ -1375,6 +1419,8 @@ change.
 A researcher investigates whether a species of snail shows a preference for different habitat types.
 The observed and expected frequencies (based on the relative area of each habitat) are:
 
+<div class="table-wrap">
+
 | Habitat   | Area (ha) | Expected proportion | Observed snails | Expected snails |
 | --------- | --------- | ------------------- | --------------- | --------------- |
 | Woodland  | 40        | 0.40                | 85              | 72              |
@@ -1382,6 +1428,8 @@ The observed and expected frequencies (based on the relative area of each habita
 | Marsh     | 15        | 0.15                | 40              | 27              |
 | Rocky     | 10        | 0.10                | 20              | 18              |
 | **Total** | **100**   | **1.00**            | **200**         | **180**         |
+
+</div>
 
 (a) Calculate the chi-squared statistic. (b) Determine the degrees of freedom and the critical value
 at $p = 0.05$. (c) State your conclusion. (d) Which habitat types are most preferred and avoided?
@@ -1512,11 +1560,15 @@ consequences, and evaluate One conservation strategy.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic     | Site    | Link                                                                    |
 | --------- | ------- | ----------------------------------------------------------------------- |
 | [Ecology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/ecology) |
 | [Ecology] | IB      | [View](https://ib.wyattau.com/biology/4-ecology/1_ecology/)      |
 | [Ecology] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/1_ecology/)    |
+
+</div>
 
 ## Supplementary: Biomes in Detail (HL Extension)
 

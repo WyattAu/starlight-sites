@@ -187,6 +187,8 @@ presents a single, concrete image from nature that evokes a broader emotional or
 resonance. The haiku's extreme compression means that every word carries maximum Weight; analysis
 must attend to the specific sensory details and the gap between what is said and What is implied.
 
+<div class="table-wrap">
+
 | Form                 | Lines    | Rhyme             | Meter                      | Key Feature                             |
 | -------------------- | -------- | ----------------- | -------------------------- | --------------------------------------- |
 | Shakespearean sonnet | 14       | ABAB CDCD EFEF GG | Iambic pentameter          | Volta at the couplet                    |
@@ -198,6 +200,8 @@ must attend to the specific sensory details and the gap between what is said and
 | Ode                  | Variable | Variable          | Variable                   | Formal address, elevated tone           |
 | Elegy                | Variable | Variable          | Variable                   | Mourning, lament to consolation         |
 | Haiku                | 3        | None              | 5-7-5 syllables            | Extreme compression, nature image       |
+
+</div>
 
 ---
 
@@ -228,6 +232,8 @@ Analogue of its thematic content.
 **Meter.** Meter is the pattern of stressed and unstressed syllables in a line of poetry. The most
 Common meters in English poetry are:
 
+<div class="table-wrap">
+
 | Meter     | Pattern                        | Example                                                                    |
 | --------- | ------------------------------ | -------------------------------------------------------------------------- |
 | Iambic    | unstressed-stressed            | "The curfew tolls the knell of parting day" (Gray)                         |
@@ -236,7 +242,11 @@ Common meters in English poetry are:
 | Dactylic  | stressed-unstressed-unstressed | "This is the forest primeval" (Longfellow)                                 |
 | Spondaic  | stressed-stressed              | "Bright sun, dark night" (rare as sustained meter)                         |
 
+</div>
+
 Meter is conventionally described by the number of feet per line:
+
+<div class="table-wrap">
 
 | Feet per line | Term       |
 | ------------- | ---------- |
@@ -248,6 +258,8 @@ Meter is conventionally described by the number of feet per line:
 | 6             | Hexameter  |
 | 7             | Heptameter |
 | 8             | Octameter  |
+
+</div>
 
 Iambic pentameter (five iambs per line, ten syllables total) is the most common meter in English
 Poetry. When analysing meter, attend to deviations from the expected pattern: a trochaic
@@ -359,6 +371,8 @@ Imagery is descriptive language that appeals to the senses. It is the primary me
 Creates concrete, vivid experiences in the reader's imagination. When analysing imagery, identify
 which senses are invoked and explain why the poet has chosen those particular sensory modes.
 
+<div class="table-wrap">
+
 | Type        | Definition                                          | Example                                        |
 | ----------- | --------------------------------------------------- | ---------------------------------------------- |
 | Visual      | Imagery that appeals to sight                       | "A host, of golden daffodils" (Wordsworth)     |
@@ -367,6 +381,8 @@ which senses are invoked and explain why the poet has chosen those particular se
 | Tactile     | Imagery that appeals to touch                       | "The rough bark of the ancient oak"            |
 | Gustatory   | Imagery that appeals to taste                       | "The bitter-sweet of this dark fruit"          |
 | Kinesthetic | Imagery that appeals to movement or physical action | "The bird that came with the dawn and sang"    |
+
+</div>
 
 The most effective imagery operates on multiple sensory channels simultaneously, creating an
 Immersive experience that engages the reader's body as well as their intellect. When a poem shifts
@@ -415,6 +431,8 @@ The **addressee** is the person or entity to whom the poem is directed. The addr
 Explicit (named in the poem) or implicit (suggested by the language and tone). The relationship
 between speaker and addressee is a primary source of dramatic tension in many poems.
 
+<div class="table-wrap">
+
 | Relationship                                           | Effect                                                        |
 | ------------------------------------------------------ | ------------------------------------------------------------- |
 | Speaker addresses self (soliloquy)                     | Introspection, self-examination, interiority                  |
@@ -423,6 +441,8 @@ between speaker and addressee is a primary source of dramatic tension in many po
 | Speaker addresses an abstraction (Death, Time, Nature) | Philosophical contemplation, confrontation with the universal |
 | Speaker addresses the reader                           | Direct engagement, didacticism, challenge                     |
 | Speaker addresses God                                  | Prayer, doubt, supplication, defiance                         |
+
+</div>
 
 ### 3.7 Context
 
@@ -652,11 +672,15 @@ Remaining and thereby maintaining the tension between the immediate and the inde
 
 The poem's three quatrains follow a pattern of progressive internalisation:
 
+<div class="table-wrap">
+
 | Quatrain | Metaphor | Domain              | Scale              |
 | -------- | -------- | ------------------- | ------------------ |
 | 1        | Autumn   | External, natural   | Seasonal (year)    |
 | 2        | Twilight | External, cosmic    | Diurnal (day)      |
 | 3        | Fire     | Internal, elemental | Immediate (moment) |
+
+</div>
 
 This progression moves from the public and observable (the changing of seasons) to the private and
 Subjective (the dying of an inner fire), enacting the speaker's withdrawal from the external world
@@ -765,6 +789,8 @@ When analysing a poem, work through the following categories systematically. Not
 be equally productive for every poem, but you should consider each before deciding which are most
 Significant.
 
+<div class="table-wrap">
+
 | Category            | Key Questions                                                                                                                                 |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Form                | What is the poem's form (sonnet, villanelle, free verse, etc.)? Does it follow or deviate from the conventions of that form?                  |
@@ -780,6 +806,8 @@ Significant.
 | Tone and mood       | What is the speaker's attitude? What emotional atmosphere does the poem create? Where does the tone shift?                                    |
 | Context             | What biographical, historical, cultural, or literary context is relevant? How does context illuminate specific features of the poem?          |
 | Theme               | What is the poem's central concern? What proposition does it advance about that concern? How does the form shape the expression of the theme? |
+
+</div>
 
 :::note
 [A Streetcar Named Desire -- Close Reading and Analysis](/english/streetcar-named-desire-analysis/) and

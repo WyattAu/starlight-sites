@@ -28,6 +28,8 @@ description: "A tree is a connected, acyclic, undirected graph. In computer scie
 A tree is a connected, acyclic, undirected graph. In computer science, trees are rooted and Directed
 (parent to child).
 
+<div class="table-wrap">
+
 | Term        | Definition                                                         |
 | ----------- | ------------------------------------------------------------------ |
 | **Root**    | The topmost node, with no parent                                   |
@@ -39,11 +41,15 @@ A tree is a connected, acyclic, undirected graph. In computer science, trees are
 | **Degree**  | Number of children of a node                                       |
 | **Path**    | Sequence of nodes from one node to another                         |
 
+</div>
+
 ## Binary Trees
 
 A binary tree is a tree where each node has at most two children: left and right.
 
 ### Classifications
+
+<div class="table-wrap">
 
 | Type         | Property                                                                  | Nodes in tree of height $h$ |
 | ------------ | ------------------------------------------------------------------------- | --------------------------- |
@@ -51,6 +57,8 @@ A binary tree is a tree where each node has at most two children: left and right
 | **Complete** | All levels filled except possibly the last, which is filled left to right | $2^h$ to $2^{h+1} - 1$      |
 | **Perfect**  | All internal nodes have 2 children, all leaves at same depth              | $2^{h+1} - 1$               |
 | **Balanced** | Height is $O(\log n)$                                                     | Varies                      |
+
+</div>
 
 ### Node Definition
 
@@ -277,6 +285,8 @@ def bst_delete(root, val):
 
 ### BST Complexity
 
+<div class="table-wrap">
+
 | Operation          | Average (balanced) | Worst (degenerate) |
 | ------------------ | ------------------ | ------------------ |
 | Search             | $O(\log n)$        | $O(n)$             |
@@ -284,6 +294,8 @@ def bst_delete(root, val):
 | Delete             | $O(\log n)$        | $O(n)$             |
 | Min/Max            | $O(\log n)$        | $O(n)$             |
 | In-order traversal | $O(n)$             | $O(n)$             |
+
+</div>
 
 ### Validate BST
 
@@ -357,6 +369,8 @@ def rotate_left(x):
     return y
 ```
 
+<div class="table-wrap">
+
 | Imbalance Case | Condition                     | Fix                                             |
 | -------------- | ----------------------------- | ----------------------------------------------- |
 | Left-Left      | bf(node) = 2, bf(left) = 1    | Right rotate at node                            |
@@ -364,7 +378,11 @@ def rotate_left(x):
 | Left-Right     | bf(node) = 2, bf(left) = -1   | Left rotate at left, then right rotate at node  |
 | Right-Left     | bf(node) = -2, bf(right) = 1  | Right rotate at right, then left rotate at node |
 
+</div>
+
 ### Complexity
+
+<div class="table-wrap">
 
 | Operation               | Time        |
 | ----------------------- | ----------- |
@@ -372,6 +390,8 @@ def rotate_left(x):
 | Insert                  | $O(\log n)$ |
 | Delete                  | $O(\log n)$ |
 | Rotations per operation | At most 2   |
+
+</div>
 
 AVL trees guarantee $O(\log n)$ height, which is at most $1.44 \log_2(n+2) - 0.328$. In practice,
 AVL trees are taller and require more rotations than red-black trees, but provide faster lookups
@@ -418,12 +438,16 @@ Access is a disk seek (~10ms), so a lookup costs ~240ms. A B-tree with order $m 
 4KB disk page) has height $\approx 3$ So a lookup costs ~30ms. This 8x improvement is why every Major
 database uses B-tree variants (B+ trees) for indexing.
 
+<div class="table-wrap">
+
 | Structure          | Height for $n = 10^7$ | Disk seeks |
 | ------------------ | --------------------- | ---------- |
 | Binary tree        | ~24                   | ~24        |
 | AVL tree           | ~24                   | ~24        |
 | B-tree (order 100) | ~3                    | ~3         |
 | B-tree (order 400) | ~2                    | ~2         |
+
+</div>
 
 ## Heaps
 
@@ -464,6 +488,8 @@ def _sift_down(arr, n, i):
 
 ### Applications of Heaps
 
+<div class="table-wrap">
+
 | Application          | Heap Type             | Key Idea                      |
 | -------------------- | --------------------- | ----------------------------- |
 | Priority queue       | Min-heap or max-heap  | Extract min/max efficiently   |
@@ -472,6 +498,8 @@ def _sift_down(arr, n, i):
 | K largest elements   | Min-heap of size $k$  | Keep smallest of the top $k$  |
 | Dijkstra's algorithm | Min-heap              | Always process closest vertex |
 | Huffman coding       | Min-heap              | Build optimal prefix code     |
+
+</div>
 
 ## Tries (Prefix Trees)
 
@@ -540,6 +568,8 @@ class Trie:
 
 ### Trie vs Hash Set for Strings
 
+<div class="table-wrap">
+
 | Operation             | Trie                     | Hash Set               |
 | --------------------- | ------------------------ | ---------------------- |
 | Insert                | $O(k)$                   | $O(k)$                 |
@@ -548,6 +578,8 @@ class Trie:
 | Space                 | $O(\mathrm{total chars)$ | $O(n \cdot k)$         |
 | Min string prefix     | $O(k)$                   | Not supported          |
 | Longest common prefix | $O(k)$                   | Not directly supported |
+
+</div>
 
 Tries are the right choice when you need prefix-based operations: autocomplete, spell checking, IP
 Routing (longest prefix match), and word games.
@@ -605,10 +637,14 @@ class GraphMatrix:
             self.matrix[v][u] = weight
 ```
 
+<div class="table-wrap">
+
 | Representation   | Space      | Check edge $u$-$v$     | Iterate neighbours     | Sparse graph |
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
+
+</div>
 :::
 
 :::note
@@ -729,6 +765,8 @@ def dfs_iterative(graph, start):
 
 ### BFS vs DFS
 
+<div class="table-wrap">
+
 | Property               | BFS                       | DFS                  |
 | ---------------------- | ------------------------- | -------------------- |
 | Data structure         | Queue                     | Stack / recursion    |
@@ -738,6 +776,8 @@ def dfs_iterative(graph, start):
 | Topological sort       | With Kahn's algorithm     | With post-order      |
 | Cycle detection        | Yes                       | Yes                  |
 | Connected components   | Yes                       | Yes                  |
+
+</div>
 
 ## Topological Sort
 

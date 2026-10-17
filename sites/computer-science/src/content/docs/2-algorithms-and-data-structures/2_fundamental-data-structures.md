@@ -21,6 +21,8 @@ description: "Contiguous memory, access by index, insertion/deletion (shift requ
 
 **Array.** Contiguous memory, $O(1)$ access by index, $O(n)$ insertion/deletion (shift required).
 
+<div class="table-wrap">
+
 | Operation          | Array  | Singly Linked List | Doubly Linked List |
 | ------------------ | ------ | ------------------ | ------------------ |
 | Access by index    | $O(1)$ | $O(n)$             | $O(n)$             |
@@ -31,6 +33,8 @@ description: "Contiguous memory, access by index, insertion/deletion (shift requ
 | Delete at tail     | $O(n)$ | $O(n)$             | $O(1)$\*           |
 | Insert at position | $O(n)$ | $O(n)$             | $O(1)$\*           |
 | Space overhead     | $0$    | $O(n)$             | $O(n)$             |
+
+</div>
 
 \*Given a pointer to the node or its predecessor.
 
@@ -526,6 +530,8 @@ A graph $G = (V, E)$ can be represented by:
 - **Adjacency list:** For each vertex, store a list of neighbours. Space: $O(V + E)$. Iterating over
   neighbours: $O(\mathrm{deg}(v))$.
 
+<div class="table-wrap">
+
 | Operation          | Adjacency Matrix | Adjacency List       |
 | ------------------ | ---------------- | -------------------- |
 | Space              | $O(V^2)$         | $O(V + E)$           |
@@ -533,6 +539,8 @@ A graph $G = (V, E)$ can be represented by:
 | Iterate neighbours | $O(V)$           | $O(\mathrm{deg}(v))$ |
 | Add edge           | $O(1)$           | $O(1)$               |
 | Remove edge        | $O(1)$           | $O(\mathrm{deg}(u))$ |
+
+</div>
 
 :::caution
 asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$) and adjacency lists

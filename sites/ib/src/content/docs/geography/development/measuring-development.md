@@ -44,16 +44,22 @@ Abroad and subtracting income earned by foreigners domestically.
 Per capita figures (GDP per capita, GNI per capita) are standardised by population and are the most
 Widely used indicators for comparing economic development across countries.
 
+<div class="table-wrap">
+
 | Measure                          | Formula                                                                 | Strengths                                                                                                      | Limitations                                                                                                                                                   |
 | -------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **GDP per capita (current USD)** | GDP / population                                                        | Widely available; standardised; facilitates international comparison                                           | Does not account for income distribution; ignores non-market activities (subsistence farming, unpaid domestic labour); affected by exchange rate fluctuations |
 | **GNI per capita (PPP)**         | GNI / population, adjusted for purchasing power parity                  | Accounts for differences in price levels between countries; reflects income of residents including remittances | Still does not capture distribution; PPP adjustments are imprecise for rapidly changing economies                                                             |
 | **GDP growth rate**              | $(\mathrm{GDP}_t - \mathrm{GDP}_{t-1}) / \mathrm{GDP}_{t-1} \times 100$ | Measures economic dynamism                                                                                     | Growth may not be inclusive; environmental costs not deducted                                                                                                 |
 
+</div>
+
 ### The World Bank Income Classification
 
 The World Bank classifies countries into four income groups based on GNI per capita (2023
 Thresholds):
+
+<div class="table-wrap">
 
 | Classification          | GNI per Capita (USD) | Examples                                      |
 | ----------------------- | -------------------- | --------------------------------------------- |
@@ -61,6 +67,8 @@ Thresholds):
 | **Lower-middle income** | 1145--4465           | India, Nigeria, Bangladesh, Kenya             |
 | **Upper-middle income** | 4466--13 845         | China, Brazil, South Africa, Mexico           |
 | **High income**         | $\gt{13 845}$        | USA, UK, Japan, Germany, South Korea          |
+
+</div>
 
 ### Limitations of GDP as a Development Measure
 
@@ -112,12 +120,16 @@ Where $I_{\mathrm{health}}$ is measured by life expectancy at birth, $I_{\mathrm
 Geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
 is measured by GNI per capita (PPP).
 
+<div class="table-wrap">
+
 | HDI Category | Range         | Number of Countries (2023) | Examples                                               |
 | ------------ | ------------- | -------------------------- | ------------------------------------------------------ |
 | Very high    | $\geq{0.800}$ | 66                         | Switzerland (0.962), Norway (0.966), Australia (0.946) |
 | High         | 0.700--0.799  | 53                         | China (0.788), Brazil (0.760), Turkey (0.838)          |
 | Medium       | 0.550--0.699  | 46                         | India (0.644), Kenya (0.601), Bangladesh (0.670)       |
 | Low          | $\lt{0.550}$  | 34                         | South Sudan (0.385), Chad (0.394), Niger (0.394)       |
+
+</div>
 
 ### Critique of the HDI
 
@@ -159,11 +171,15 @@ Male HDI.
 The MPI, developed by the Oxford Poverty and Human Development Initiative (OPHI) and the UNDP,
 Identifies overlapping deprivations across three dimensions using ten indicators:
 
+<div class="table-wrap">
+
 | Dimension            | Indicators                                                                                                                                                                                                                                                              |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Health**           | Nutrition (undernourishment), child mortality                                                                                                                                                                                                                           |
 | **Education**        | Years of schooling (no household member has completed at least 6 years), school attendance (any school-aged child not attending)                                                                                                                                        |
 | **Living standards** | Cooking fuel (dung, wood, charcoal), sanitation (unimproved or shared), drinking water (unimproved or long walk), electricity, housing (inadequate materials), assets (lack of more than one of: radio, TV, telephone, computer, bicycle, motorbike, refrigerator, car) |
+
+</div>
 
 A person is classified as multidimensionally poor if deprived in at least one-third of the weighted
 Indicators. As of 2023, approximately 1.1 billion people (approximately 14% of the global

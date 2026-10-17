@@ -41,11 +41,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ### 1.1 Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Relative mass            | Relative charge | Location        |
 | -------- | ------------------------ | --------------- | --------------- |
 | Proton   | 1                        | +1              | Nucleus         |
 | Neutron  | 1                        | 0               | Nucleus         |
 | Electron | $\approx \frac{1}{1836}$ | $-1$            | Electron shells |
+
+</div>
 
 - **Atomic number ($Z$):** The number of protons in the nucleus. Defines the element.
 - **Mass number ($A$):** The total number of protons and neutrons.
@@ -84,6 +88,8 @@ similar chemical properties.
 
 ### 1.4 Development of the Atomic Model
 
+<div class="table-wrap">
+
 | Scientist  | Model           | Key idea                                                                       |
 | ---------- | --------------- | ------------------------------------------------------------------------------ |
 | Dalton     | Solid sphere    | Atoms are indivisible particles                                                |
@@ -91,6 +97,8 @@ similar chemical properties.
 | Rutherford | Nuclear model   | Dense positive nucleus; most of the atom is empty space (gold foil experiment) |
 | Bohr       | Electron shells | Electrons orbit the nucleus in fixed energy levels                             |
 | Chadwick   | Updated nuclear | Discovered the neutron                                                         |
+
+</div>
 
 ---
 
@@ -143,11 +151,15 @@ shell.
 
 **Giant covalent structures:**
 
+<div class="table-wrap">
+
 | Substance                        | Bonding                                              | Properties                                                  |
 | -------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- |
 | Diamond                          | Each carbon bonds to 4 others                        | Extremely hard, very high melting point, insulator          |
 | Graphite                         | Each carbon bonds to 3 others; delocalised electrons | Soft and slippery, high melting point, conducts electricity |
 | Silicon dioxide ($\text{SiO}_2$) | Giant covalent lattice                               | Hard, high melting point, insulator                         |
+
+</div>
 
 ### 2.3 Metallic Bonding
 
@@ -225,11 +237,15 @@ Carbon (coke) reduces iron(III) oxide to iron. Limestone removes impurities as s
 
 ### 3.4 Acids and Bases
 
+<div class="table-wrap">
+
 | Acid              | Formula                 |
 | ----------------- | ----------------------- |
 | Hydrochloric acid | $\text{HCl}$            |
 | Sulfuric acid     | $\text{H}_2\text{SO}_4$ |
 | Nitric acid       | $\text{HNO}_3$          |
+
+</div>
 
 **General reactions of acids:**
 
@@ -387,6 +403,8 @@ Hydrocarbons contain only carbon and hydrogen atoms. They are the basis of all o
 
 Alkanes are **saturated** hydrocarbons, all carbon-carbon bonds are single bonds.
 
+<div class="table-wrap">
+
 | Carbon atoms | Formula                   | Name            | State at room temperature |
 | ------------ | ------------------------- | --------------- | ------------------------- |
 | 1            | $\text{CH}_4$             | Methane         | Gas                       |
@@ -394,6 +412,8 @@ Alkanes are **saturated** hydrocarbons, all carbon-carbon bonds are single bonds
 | 3            | $\text{C}_3\text{H}_8$    | Propane         | Gas                       |
 | 4            | $\text{C}_4\text{H}_{10}$ | Butane          | Gas                       |
 | 5+           |,                         | Pentane onwards | Liquid (then solid)       |
+
+</div>
 
 Properties: burn in air to produce carbon dioxide and water; less viscous and more volatile as chain
 length decreases.
@@ -485,6 +505,8 @@ same solvent under the same conditions.
 
 ### 6.3 Tests for Gases
 
+<div class="table-wrap">
+
 | Gas                            | Test                   | Observation          |
 | ------------------------------ | ---------------------- | -------------------- |
 | Hydrogen ($\text{H}_2$)        | Lighted splint         | "Squeaky pop"        |
@@ -492,9 +514,13 @@ same solvent under the same conditions.
 | Carbon dioxide ($\text{CO}_2$) | Limewater              | Turns cloudy (milky) |
 | Chlorine ($\text{Cl}_2$)       | Damp blue litmus paper | Bleaches it white    |
 
+</div>
+
 ### 6.4 Tests for Cations and Anions
 
 **Flame tests (cations):**
+
+<div class="table-wrap">
 
 | Ion              | Flame colour                           |
 | ---------------- | -------------------------------------- |
@@ -503,6 +529,8 @@ same solvent under the same conditions.
 | $\text{K}^+$     | Lilac (view through cobalt blue glass) |
 | $\text{Ca}^{2+}$ | Orange-red                             |
 | $\text{Cu}^{2+}$ | Blue-green                             |
+
+</div>
 
 **Tests for specific ions:**
 
@@ -542,6 +570,8 @@ traditional chemical tests.
 
 ### 7.1 Factors Affecting Rate
 
+<div class="table-wrap">
+
 | Factor               | Effect         | Reason                                                                                     |
 | -------------------- | -------------- | ------------------------------------------------------------------------------------------ |
 | **Temperature**      | Increases rate | Particles have more kinetic energy; more frequent and more energetic successful collisions |
@@ -549,6 +579,8 @@ traditional chemical tests.
 | **Pressure** (gases) | Increases rate | Same as increasing concentration                                                           |
 | **Surface area**     | Increases rate | More particles exposed; more frequent collisions                                           |
 | **Catalyst**         | Increases rate | Provides an alternative pathway with lower activation energy; not used up                  |
+
+</div>
 
 ### 7.2 Collision Theory
 
@@ -595,12 +627,16 @@ concentrations of reactants and products remain constant (but not necessarily eq
 If a system at equilibrium is subjected to a change, the equilibrium shifts to **oppose** that
 change.
 
+<div class="table-wrap">
+
 | Change                             | Effect on equilibrium                                                     |
 | ---------------------------------- | ------------------------------------------------------------------------- |
 | Increase concentration of reactant | Equilibrium shifts to the right (towards products)                        |
 | Increase temperature               | Shifts in the endothermic direction (absorbs heat)                        |
 | Increase pressure                  | Shifts towards the side with fewer gas molecules                          |
 | Add a catalyst                     | No effect on equilibrium position; only speeds up both directions equally |
+
+</div>
 
 **Example.** The Haber process:
 $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 \text{ kJ/mol})$
@@ -621,6 +657,8 @@ $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 
 </script>
 
 ## 8. Key Definitions
+
+<div class="table-wrap">
 
 | Term                  | Definition                                                                                   |
 | --------------------- | -------------------------------------------------------------------------------------------- |
@@ -646,6 +684,8 @@ $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3 \quad (\Delta H = -92 
 | **Electrolyte**       | A molten or dissolved ionic compound that conducts electricity                               |
 | **Exothermic**        | A reaction that transfers energy to the surroundings (temperature increases)                 |
 | **Endothermic**       | A reaction that takes energy from the surroundings (temperature decreases)                   |
+
+</div>
 
 ---
 

@@ -166,10 +166,14 @@ Forwarding references (also called universal references before C++11 was standar
 Deduction rules that differ from both lvalue references and rvalue references. The rules [N4950
 S13.8.2.1] are:
 
+<div class="table-wrap">
+
 | Argument category  | `T` deduced as | Parameter type after substitution          |
 | ------------------ | -------------- | ------------------------------------------ |
 | lvalue of type `U` | `U&`           | `U&` (reference collapse: `U& &&` -> `U&`) |
 | rvalue of type `U` | `U`            | `U&&`                                      |
+
+</div>
 
 The critical asymmetry is that passing an lvalue to a forwarding reference deduces `T` as a
 _reference type_, while passing an rvalue deduces `T` as a non-reference type. This is the mechanism

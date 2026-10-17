@@ -28,12 +28,16 @@ Deviates significantly from expected values. It has two main applications: testi
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                                  |
 | ---------- | ------- | ------------------------------------------------------ |
 | AQA        | Paper 2 | Goodness of fit and contingency tables                 |
 | Edexcel    | S3      | Goodness of fit and test for independence              |
 | OCR (A)    | Paper 2 | Both applications covered                              |
 | CIE (9231) | S2      | Goodness of fit; independence with $2 \times 2$ tables |
+
+</div>
 
 :::note
 On percentages or proportions. Always check the conditions (expected frequency $\geq 5$) before
@@ -127,9 +131,13 @@ This correction makes the test more conservative (less likely to reject $H_0$).
 
 **Example.** Over 100 days, the number of accidents per day at a factory was recorded:
 
+<div class="table-wrap">
+
 | Accidents ($r$) | 0   | 1   | 2   | 3   | 4   | $\geq 5$ |
 | --------------- | --- | --- | --- | --- | --- | -------- |
 | Days ($O_r$)    | 38  | 32  | 18  | 8   | 3   | 1        |
+
+</div>
 
 Test at the 5% level whether the data follows a Poisson distribution.
 
@@ -155,10 +163,14 @@ $P(X \geq 5) = 1 - 0.9956 \approx 0.0044 \implies E_5 = 0.44$
 
 **Step 3:** Merge categories so all $E_i \geq 5$. Merge $r \geq 3$:
 
+<div class="table-wrap">
+
 | $r$   | 0     | 1     | 2     | $\geq 3$ |
 | ----- | ----- | ----- | ----- | -------- |
 | $O_r$ | 38    | 32    | 18    | 12       |
 | $E_r$ | 34.99 | 36.74 | 19.29 | 8.98     |
+
+</div>
 
 **Step 4:** Calculate the test statistic:
 
@@ -218,12 +230,16 @@ Where $r$ is the number of rows and $c$ is the number of columns.
 
 **Example.** A survey of 200 people records their age group and preferred news source:
 
+<div class="table-wrap">
+
 |           | TV  | Online | Newspaper | Row total |
 | --------- | --- | ------ | --------- | --------- |
 | Under 30  | 20  | 60     | 10        | 90        |
 | 30 to 50  | 30  | 25     | 15        | 70        |
 | Over 50   | 20  | 5      | 15        | 40        |
 | Col total | 70  | 90     | 40        | 200       |
+
+</div>
 
 Test at the 5% level whether age group and preferred news source are independent.
 
@@ -539,9 +555,13 @@ very small samples, Fisher's exact test is preferred (but this is beyond the A-L
 
 **Example.** A die is rolled 120 times with the following results:
 
+<div class="table-wrap">
+
 | Face | 1   | 2   | 3   | 4   | 5   | 6   |
 | ---- | --- | --- | --- | --- | --- | --- |
 | Obs  | 25  | 18  | 20  | 22  | 15  | 20  |
+
+</div>
 
 Test at the 5% level whether the die is fair.
 
@@ -593,11 +613,15 @@ Since $3.183 \lt 7.815$**do not reject** $H_0$. The data is consistent with the 
 **Example.** A study of 300 adults records smoking status and whether they have a respiratory
 Disease:
 
+<div class="table-wrap">
+
 |              | Disease | No disease | Row total |
 | ------------ | ------- | ---------- | --------- |
 | Smoker       | 45      | 55         | 100       |
 | Non-smoker   | 30      | 170        | 200       |
 | Column total | 75      | 225        | 300       |
+
+</div>
 
 Test at the 1% level whether smoking status and respiratory disease are independent.
 
@@ -654,6 +678,8 @@ $$
 \nu = (\mathrm{number of categories after merging}) - 1 - (\mathrm{parameters estimated})
 $$
 
+<div class="table-wrap">
+
 | Distribution fitted              | Parameters estimated | $\nu$ formula |
 | -------------------------------- | -------------------- | ------------- |
 | Uniform (known)                  | 0                    | $n - 1$       |
@@ -662,11 +688,15 @@ $$
 | Poisson (estimate $\lambda$)     | 1                    | $n - 2$       |
 | Normal (estimate $\mu$$\sigma$)  | 2                    | $n - 3$       |
 
+</div>
+
 ### 7.2 Test for independence
 
 $$
 \nu = (r - 1)(c - 1)
 $$
+
+<div class="table-wrap">
 
 | Table size   | $\nu$ |
 | ------------ | ----- |
@@ -675,6 +705,8 @@ $$
 | $3 \times 3$ | 4     |
 | $3 \times 4$ | 6     |
 | $4 \times 5$ | 12    |
+
+</div>
 
 ### 7.3 Intuition for degrees of freedom
 
@@ -703,12 +735,16 @@ Probability of the data given the hypothesis, not the probability of the hypothe
 
 ### 8.2 Common misinterpretations
 
+<div class="table-wrap">
+
 | Statement                                                        | Correct?        | Why                                                                                         |
 | ---------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------- |
 | "There is a 5% chance the null hypothesis is true"               | No              | This confuses $P(\mathrm{data}\mid H_0)$ with $P(H_0\mid\mathrm{data})$                     |
 | "The probability of getting this result by chance is 5%"         | Approximately   | More precisely: the probability of getting a result _at least this extreme_ by chance is 5% |
 | "We have proved the alternative hypothesis"                      | No              | We have only found evidence against $H_0$; the alternative could still be wrong             |
 | "A significant result means the effect is practically important" | Not necessarily | With a very large sample, even tiny deviations become significant                           |
+
+</div>
 
 ### 8.3 Context matters
 
@@ -841,6 +877,8 @@ $2.329 \lt 7.815$: **do not reject** $H_0$.
 <details>
 <summary>Q3. A survey of 400 adults records education level and voting preference. Test at the 5% level whether the two variables are independent.</summary>
 
+<div class="table-wrap">
+
 |                   | Party A | Party B | Party C | Non-voter | Total |
 | ----------------- | ------- | ------- | ------- | --------- | ----- |
 | No qualifications | 20      | 25      | 10      | 45        | 100   |
@@ -848,6 +886,8 @@ $2.329 \lt 7.815$: **do not reject** $H_0$.
 | Degree            | 45      | 30      | 40      | 10        | 125   |
 | Postgraduate      | 20      | 15      | 15      | 0         | 50    |
 | Total             | 115     | 110     | 90      | 85        | 400   |
+
+</div>
 
 $H_0$: Independent. $H_1$: Not independent.
 
@@ -950,9 +990,13 @@ it uses up one piece of information from the data.
 
 **Problem.** A die is rolled 120 times. The observed frequencies are:
 
+<div class="table-wrap">
+
 | Face     | 1   | 2   | 3   | 4   | 5   | 6   |
 | -------- | --- | --- | --- | --- | --- | --- |
 | Observed | 25  | 17  | 15  | 23  | 18  | 22  |
+
+</div>
 
 Test at the 5% level whether the die is fair.
 
@@ -973,11 +1017,15 @@ Biased.
 
 **Problem.** 300 people are classified by hair colour and eye colour:
 
+<div class="table-wrap">
+
 |        | Blue | Brown | Green |
 | ------ | ---- | ----- | ----- |
 | Blonde | 40   | 20    | 10    |
 | Brown  | 30   | 60    | 20    |
 | Black  | 10   | 40    | 70    |
+
+</div>
 
 Test at the 1% level whether hair colour and eye colour are independent.
 
@@ -1009,10 +1057,14 @@ B recovered. Test at 5% whether the recovery rates differ, using Yates' correcti
 
 **Solution.** $H_0$: recovery rate is the same for both drugs.
 
+<div class="table-wrap">
+
 |        | Recovered | Not recovered |
 | ------ | --------- | ------------- |
 | Drug A | 40        | 60            |
 | Drug B | 55        | 45            |
+
+</div>
 
 With Yates' correction:
 
@@ -1052,9 +1104,13 @@ $$
 **Problem.** Customers arrive at a till. The number of customers served before the first complaint
 Is recorded over 200 shifts:
 
+<div class="table-wrap">
+
 | Count    | 0   | 1   | 2   | 3   | $\geq 4$ |
 | -------- | --- | --- | --- | --- | -------- |
 | Observed | 90  | 60  | 30  | 12  | 8        |
+
+</div>
 
 Test at 5% whether the data follows a geometric distribution.
 
@@ -1100,10 +1156,14 @@ There are 300 Northerners and 200 Southerners. Test at 5% whether preference dif
 
 Observed table:
 
+<div class="table-wrap">
+
 |       | Tea | No Tea |
 | ----- | --- | ------ |
 | North | 180 | 120    |
 | South | 90  | 110    |
+
+</div>
 
 Expected: $E_{11} = \dfrac{270 \times 300}{500} = 162$$E_{12} = 138$$E_{21} = 108$
 $E_{22} = 92$.
@@ -1129,12 +1189,16 @@ $10.87 > 3.84$: **reject** $H_0$. Significant association between region and tea
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                           | Correct Approach                                                                                         |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Using observed frequencies instead of expected in the denominator | $\chi^2 = \sum \dfrac{(O-E)^2}{E}$ Not $\sum \dfrac{(O-E)^2}{O}$                                          |
 | Forgetting to merge classes with $E < 5$                          | Always check expected frequencies first; merge adjacent classes                                          |
 | Miscounting degrees of freedom                                    | $\nu = (r-1)(c-1)$ for independence; $\nu = k - 1 - m$ for goodness-of-fit with $m$ estimated parameters |
 | Applying Yates' correction to tables larger than 2×2              | Yates' correction is only for 2×2 contingency tables                                                     |
+
+</div>
 
 ---
 
@@ -1242,11 +1306,17 @@ Hypothesis testing relies on understanding significance levels, $p$-values, and 
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Test Type         | Degrees of Freedom | Conditions                                 |
 | ----------------- | ------------------ | ------------------------------------------ |
 | Goodness-of-fit   | $\nu = k - 1 - m$  | All $E_i \geq 5$$m$ = estimated parameters |
 | Independence      | $\nu = (r-1)(c-1)$ | All $E_i \geq 5$                           |
 | Yates' correction | $\nu = 1$          | Only for 2×2 tables                        |
+
+</div>
+
+<div class="table-wrap">
 
 | Step | Action                                        |
 | ---- | --------------------------------------------- |
@@ -1257,6 +1327,8 @@ Hypothesis testing relies on understanding significance levels, $p$-values, and 
 | 5    | Determine degrees of freedom                  |
 | 6    | Compare with critical value or find $p$-value |
 | 7    | Conclude in context                           |
+
+</div>
 
 ---
 
@@ -1530,9 +1602,13 @@ Fisher's exact test should be used when:
 
 A researcher tests whether a die is fair. In 120 rolls, the observed frequencies are:
 
+<div class="table-wrap">
+
 | Face | 1   | 2   | 3   | 4   | 5   | 6   |
 | ---- | --- | --- | --- | --- | --- | --- |
 | Freq | 15  | 22  | 18  | 25  | 20  | 20  |
+
+</div>
 
 Carry out a chi-squared goodness-of-fit test at the 5% significance level.
 

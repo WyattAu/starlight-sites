@@ -38,6 +38,8 @@ Source Code
 
 A data structure maintained throughout compilation storing:
 
+<div class="table-wrap">
+
 | Entry      | Description                    |
 | ---------- | ------------------------------ |
 | Name       | Lexeme / identifier            |
@@ -46,6 +48,8 @@ A data structure maintained throughout compilation storing:
 | Scope      | Block, function, file          |
 | Offset     | Memory location                |
 | Attributes | Array dimensions, parameters   |
+
+</div>
 
 ## 2. Lexical Analysis
 
@@ -64,6 +68,8 @@ Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <
 
 ### 2.2 Regular Expressions for Tokens
 
+<div class="table-wrap">
+
 | Token      | Regular Expression                 |
 | ---------- | ---------------------------------- |
 | Identifier | `[a-zA-Z_][a-zA-Z0-9_]*`           |
@@ -72,6 +78,8 @@ Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <
 | Keyword    | `if                                | else | while | return | int | ...` |
 | Operator   | `+                                 | -    | \*    | /      | ==  | !=   | <=  | >=` |
 | Whitespace | `[ \t\n\r]+` (skip)                |
+
+</div>
 
 ### 2.3 Finite Automata for Lexing
 
@@ -223,17 +231,25 @@ LR_PARSE(input):
 
 **LR parsing table = ACTION + GOTO:**
 
+<div class="table-wrap">
+
 | State | ACTION                               | GOTO                       |
 | ----- | ------------------------------------ | -------------------------- |
 |       | Shift to state, Reduce by production | Go to state on nonterminal |
 
+</div>
+
 ### 3.6 LR Variants
+
+<div class="table-wrap">
 
 | Variant | Power          | Table Size | Construction Cost |
 | ------- | -------------- | ---------- | ----------------- |
 | SLR(1)  | Least powerful | Small      | Low               |
 | LALR(1) | Medium         | Medium     | Medium            |
 | LR(1)   | Most powerful  | Large      | High              |
+
+</div>
 
 **SLR(1):** Uses FOLLOW sets for reduce decisions. May miss valid reductions.
 
@@ -343,11 +359,15 @@ TYPE_CHECK(node):
 
 **Type coercion rules:**
 
+<div class="table-wrap">
+
 | Expression    | Rule                          |
 | ------------- | ----------------------------- |
 | `int + int`   | `int`                         |
 | `int + float` | `float` (coerce int to float) |
 | `int / int`   | `int` (integer division)      |
+
+</div>
 
 ### 5.2 Type Inference
 
@@ -494,11 +514,15 @@ BUILD_BASIC_BLOCKS(instructions):
 
 ### 7.1 Optimization Levels
 
+<div class="table-wrap">
+
 | Level           | When Applied       | Scope                    |
 | --------------- | ------------------ | ------------------------ |
 | Local           | Within basic block | Single block             |
 | Global          | Within a function  | Single function with CFG |
 | Interprocedural | Across functions   | Whole program            |
+
+</div>
 
 ### 7.2 Common Optimizations
 
@@ -593,12 +617,16 @@ Iterate until convergence (fixed point).
 
 **Other analyses:**
 
+<div class="table-wrap">
+
 | Analysis               | Purpose                      |
 | ---------------------- | ---------------------------- |
 | Live variable analysis | Optimize register allocation |
 | Available expressions  | Enable CSE                   |
 | Very busy expressions  | Enable code motion           |
 | Constant propagation   | Fold constants               |
+
+</div>
 
 ### 7.4 Register Allocation
 
@@ -743,11 +771,15 @@ Compilers translate source code to machine code through phases: lexical analysis
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Link                                                                    |
 | ----------------------------- | ----------------------------------------------------------------------- |
 | Automata and Formal Languages | [View](/3-theory/automata-and-formal-languages/) |
 | Algorithm Design              | [View](/1-algorithms/algorithm-design/)              |
 | Complexity Theory             | [View](/1-algorithms/complexity-theory/)             |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

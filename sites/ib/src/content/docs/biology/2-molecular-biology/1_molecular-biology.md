@@ -38,6 +38,8 @@ Four hydrogen bonds.
 
 ### Properties Arising from Hydrogen Bonding
 
+<div class="table-wrap">
+
 | Property                                                                    | Significance                                                                                                  |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | **Cohesion**                                                                | Water molecules stick together; enables surface tension and transport of water in xylem (transpiration pull). |
@@ -48,6 +50,8 @@ Four hydrogen bonds.
 | **Maximum density at $4^\circ\mathrm{C}$**                                  | Ice floats, insulating water below and allowing aquatic life to survive winter.                               |
 | **Excellent solvent**                                                       | Polar and ionic substances dissolve; enables metabolic reactions in cytoplasm and transport in blood.         |
 | **Transparency**                                                            | Light penetrates water, allowing photosynthesis in aquatic ecosystems.                                        |
+
+</div>
 
 ---
 
@@ -84,21 +88,29 @@ The simplest carbohydrates; single sugar units. Examples: glucose
 Formed by a **condensation reaction** (dehydration synthesis): two monosaccharides join with the
 Release of $\mathrm{H}_2\mathrm{O}$. Broken by **hydrolysis**.
 
+<div class="table-wrap">
+
 | Disaccharide | Monosaccharide components           | Bond type               |
 | ------------ | ----------------------------------- | ----------------------- |
 | Maltose      | $\alpha$-glucose + $\alpha$-glucose | $\alpha$-1,4-glycosidic |
 | Sucrose      | $\alpha$-glucose + fructose         | $\alpha$-1,2-glycosidic |
 | Lactose      | Galactose + glucose                 | $\beta$-1,4-glycosidic  |
 
+</div>
+
 ### Polysaccharides
 
 Long chains of monosaccharides linked by glycosidic bonds.
+
+<div class="table-wrap">
 
 | Polysaccharide | Monomer          | Bond                                                                | Structure                                                          | Function                                         |
 | -------------- | ---------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------ |
 | Starch         | $\alpha$-glucose | $\alpha$-1,4 (amylose); $\alpha$-1,4 and $\alpha$-1,6 (amylopectin) | Helical (amylose), branched (amylopectin)                          | Energy storage in plants; compact, insoluble     |
 | Glycogen       | $\alpha$-glucose | $\alpha$-1,4 and $\alpha$-1,6                                       | Highly branched                                                    | Energy storage in animals; rapid glucose release |
 | Cellulose      | $\beta$-glucose  | $\beta$-1,4                                                         | Straight, unbranched chains linked by H-bonds forming microfibrils | Structural support in plant cell walls           |
+
+</div>
 
 **Key distinction**: $\alpha$-glucose polymers are coiled and used for energy storage;
 $\beta$-glucose polymers are straight and form tough structural fibres.
@@ -175,12 +187,16 @@ Via a condensation reaction. Hydrolysis breaks peptide bonds.
 
 ### Protein Structure
 
+<div class="table-wrap">
+
 | Level          | Description                                                                                                                                                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Primary**    | Linear sequence of amino acids, determined by the gene. The primary structure dictates all higher levels.                                                                                                |
 | **Secondary**  | Local folding patterns stabilised by hydrogen bonds between the peptide backbone. Common patterns: **alpha-helix** (coiled) and **beta-pleated sheet**.                                                  |
 | **Tertiary**   | Overall 3D shape of a single polypeptide, stabilised by: hydrogen bonds, ionic (electrostatic) bonds, disulfide bridges (between cysteine residues), hydrophobic interactions, and van der Waals forces. |
 | **Quaternary** | Assembly of two or more polypeptide subunits (e.g., haemoglobin has four subunits: $2\alpha + 2\beta$).                                                                                                  |
+
+</div>
 
 ### Denaturation
 
@@ -229,12 +245,16 @@ Complementary shape of its **active site** to its **substrate**.
 
 ### Factors Affecting Enzyme Activity
 
+<div class="table-wrap">
+
 | Factor                      | Effect                                                                                                                               |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Temperature**             | Rate increases with temperature up to an **optimum** ( $35$--$40^\circ\mathrm{C}$); above this, denaturation causes a sharp decline. |
 | **pH**                      | Each enzyme has an optimal pH; deviation alters ionisation of R groups, disrupting the active site.                                  |
 | **Substrate concentration** | Rate increases with [substrate] until all active sites are saturated ($V_{\max}$).                                                   |
 | **Enzyme concentration**    | Rate is proportional to [enzyme] when substrate is in excess.                                                                        |
+
+</div>
 
 ### Enzyme Inhibition
 
@@ -283,6 +303,8 @@ Always pairs with a pyrimidine, maintaining a uniform helix width of $\approx 2\
 
 ### DNA vs RNA
 
+<div class="table-wrap">
+
 | Feature   | DNA                                              | RNA                                      |
 | --------- | ------------------------------------------------ | ---------------------------------------- |
 | Sugar     | Deoxyribose                                      | Ribose                                   |
@@ -292,6 +314,8 @@ Always pairs with a pyrimidine, maintaining a uniform helix width of $\approx 2\
 | Location  | Nucleus (mainly)                                 | Nucleus, cytoplasm                       |
 | Stability | More stable (deoxyribose lacks reactive $2'$-OH) | Less stable (ribose $2'$-OH is reactive) |
 | Function  | Genetic information storage                      | Protein synthesis, gene regulation       |
+
+</div>
 
 ---
 
@@ -647,6 +671,8 @@ Could form: (a) a disulfide bridge, (b) an ionic bond, (c) a hydrogen bond with 
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Amino Acid | Side Chain Property                 |
 | ---------- | ----------------------------------- |
 | Val        | Non-polar (hydrophobic)             |
@@ -656,6 +682,8 @@ Could form: (a) a disulfide bridge, (b) an ionic bond, (c) a hydrogen bond with 
 | Cys        | Polar (contains thiol group)        |
 | Pro        | Non-polar (imino acid)              |
 | Phe        | Non-polar (aromatic)                |
+
+</div>
 
 (a) **Disulfide bridge**: Cys (cysteine). Two cysteine residues can form a covalent disulfide bond
 ($-\mathrm{S}-\mathrm{S}-$) through oxidation of their thiol groups, stabilising tertiary and
@@ -748,6 +776,8 @@ $1400\;\mathrm{bp}$.
 The following data show the rate of catalase activity (measured as $\mathrm{O}_2$ produced in
 $\mathrm{\mu mol/min}$) at different temperatures:
 
+<div class="table-wrap">
+
 | Temperature ($^\circ\mathrm{C}$) | Rate ($\mathrm{\mu mol/min}$) |
 | -------------------------------- | ----------------------------- |
 | 10                               | 8                             |
@@ -757,6 +787,8 @@ $\mathrm{\mu mol/min}$) at different temperatures:
 | 45                               | 25                            |
 | 55                               | 5                             |
 | 65                               | 0                             |
+
+</div>
 
 (a) Plot the data and identify the optimum temperature. (b) Explain the molecular basis for the
 Increase in rate from $10$ to $37^\circ\mathrm{C}$ and the decrease from $37$ to
@@ -819,12 +851,16 @@ Name the enzymes involved.
 
 Four DNA samples from different species are analysed for base composition:
 
+<div class="table-wrap">
+
 | Species  | A (%) | T (%) | G (%) | C (%) |
 | -------- | ----- | ----- | ----- | ----- |
 | Human    | 30.4  | 30.1  | 19.6  | 19.9  |
 | E. Coli  | 24.7  | 23.6  | 26.0  | 25.7  |
 | Wheat    | 27.3  | 27.1  | 22.7  | 22.8  |
 | Sample X | 33.2  | 19.8  | 17.2  | 29.8  |
+
+</div>
 
 (a) Verify Chargaff's rules for the first three species. (b) Identify the anomaly in Sample X and
 Explain what this suggests about the DNA in this sample. (c) Explain why the GC content varies
@@ -970,6 +1006,8 @@ Phospholipids vary in their fatty acid chains and head groups:
 
 **Head group variation:**
 
+<div class="table-wrap">
+
 | Head group   | Phospholipid name              | Function                                                                       |
 | ------------ | ------------------------------ | ------------------------------------------------------------------------------ |
 | Choline      | Phosphatidylcholine (lecithin) | Major component of eukaryotic membranes; surfactant in lungs.                  |
@@ -978,9 +1016,13 @@ Phospholipids vary in their fatty acid chains and head groups:
 | Inositol     | Phosphatidylinositol           | Precursor for IP$_3$ and DAG second messengers; PI 4,5-bisphosphate (PIP$_2$). |
 | Glycerol     | Phosphatidylglycerol           | Cardiolipin in mitochondrial inner membrane.                                   |
 
+</div>
+
 ### Steroid Hormones
 
 Cholesterol is the precursor for all steroid hormones:
+
+<div class="table-wrap">
 
 | Hormone                     | Source                | Function                                                                        |
 | --------------------------- | --------------------- | ------------------------------------------------------------------------------- |
@@ -990,6 +1032,8 @@ Cholesterol is the precursor for all steroid hormones:
 | **Cortisol**                | Adrenal cortex        | Stress response; raises blood glucose; suppresses immune system.                |
 | **Aldosterone**             | Adrenal cortex        | $\mathrm{Na}^+$ reabsorption in kidneys; regulates blood pressure.              |
 | **1,25-dihydroxyvitamin D** | Kidney (with PTH)     | Calcium absorption in gut; bone mineralisation.                                 |
+
+</div>
 
 ### Eicosanoids
 
@@ -1018,12 +1062,16 @@ Derived from **arachidonic acid** (a 20-carbon polyunsaturated fatty acid) by th
 
 Amino acids are classified by the properties of their R groups:
 
+<div class="table-wrap">
+
 | Category                                | Amino acids                                 | Properties                                                                                  |
 | --------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Non-polar (hydrophobic)**             | Gly, Ala, Val, Leu, Ile, Met, Phe, Trp, Pro | Tend to be buried in protein interior; drive protein folding via hydrophobic effect.        |
 | **Polar, uncharged**                    | Ser, Thr, Cys, Tyr, Asn, Gln                | Form hydrogen bonds with water and other polar groups; often found on protein surface.      |
 | **Acidic (negatively charged at pH 7)** | Asp, Glu                                    | Carboxylate groups ($-\mathrm{COO}^-$); often involved in salt bridges and catalytic sites. |
 | **Basic (positively charged at pH 7)**  | Lys, Arg, His                               | Amino groups ($-\mathrm{NH}_3^+$); bind to DNA/RNA; catalytic in enzyme active sites.       |
+
+</div>
 
 ### Protein Folding and the Hydrophobic Effect
 
@@ -1119,6 +1167,8 @@ repetitive sequences reanneal fastest; unique sequences slowest.
 
 ### RNA Diversity
 
+<div class="table-wrap">
+
 | RNA type  | Length                      | Function                                                                                                                              |
 | --------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **mRNA**  | $500$--$10000\;\mathrm{nt}$ | Carries genetic information from DNA to ribosome for translation.                                                                     |
@@ -1127,6 +1177,8 @@ repetitive sequences reanneal fastest; unique sequences slowest.
 | **snRNA** | $\approx 150\;\mathrm{nt}$  | Components of the spliceosome; involved in pre-mRNA splicing.                                                                         |
 | **miRNA** | $\approx 22\;\mathrm{nt}$   | Post-transcriptional regulation; binds to complementary sequences in target mRNA, leading to degradation or translational repression. |
 | **siRNA** | $\approx 21\;\mathrm{nt}$   | RNA interference (RNAi); triggers degradation of complementary mRNA.                                                                  |
+
+</div>
 
 ---
 
@@ -1596,6 +1648,8 @@ Function. Explain why humans can digest starch and glycogen but not cellulose or
 <details>
 <summary>Answer 15</summary>
 
+<div class="table-wrap">
+
 | Feature       | Starch (amylose) | Starch (amylopectin)          | Glycogen                            | Cellulose                              | Chitin                                  |
 | ------------- | ---------------- | ----------------------------- | ----------------------------------- | -------------------------------------- | --------------------------------------- |
 | **Monomer**   | $\alpha$-glucose | $\alpha$-glucose              | $\alpha$-glucose                    | $\beta$-glucose                        | N-acetylglucosamine                     |
@@ -1604,6 +1658,8 @@ Function. Explain why humans can digest starch and glycogen but not cellulose or
 | **Branching** | None             | Every 24--30 residues         | Every 8--12 residues                | None                                   | None                                    |
 | **Producers** | Plants           | Plants                        | Animals, fungi                      | Plants, algae                          | Fungi, arthropods, some animals         |
 | **Function**  | Energy storage   | Energy storage                | Energy storage (rapid mobilisation) | Structural (cell walls)                | Structural (exoskeletons, fungal walls) |
+
+</div>
 
 **Why humans can digest starch/glycogen but not cellulose/chitin**:
 
@@ -1665,10 +1721,14 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                                   |
 | ------------------- | ------- | -------------------------------------------------------------------------------------- |
 | [Molecular Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biological-molecules)   |
 | [Molecular Biology] | IB      | [View](https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology/) |
+
+</div>
 
 ## Supplementary: Molecular Biology Techniques (HL Extension)
 

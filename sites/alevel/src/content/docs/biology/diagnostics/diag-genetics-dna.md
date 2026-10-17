@@ -147,12 +147,16 @@ epistatic gene; gene B is the hypostatic gene.
 
 Punnett square (gametes: $AB$, $Ab$, $aB$, $ab$):
 
+<div class="table-wrap">
+
 |        | AB           | Ab           | aB            | ab            |
 | ------ | ------------ | ------------ | ------------- | ------------- |
 | **AB** | AABB (black) | AABb (black) | AaBB (black)  | AaBb (black)  |
 | **Ab** | AABb (black) | AAbb (brown) | AaBb (black)  | Aabb (brown)  |
 | **aB** | AaBB (black) | AaBb (black) | aaBB (albino) | aaBb (albino) |
 | **ab** | AaBb (black) | Aabb (brown) | aaBb (albino) | aabb (albino) |
+
+</div>
 
 Phenotypes:
 
@@ -169,12 +173,16 @@ dominant allele for purple flowers.
 
 A dihybrid cross $PpQq \times PpQq$:
 
+<div class="table-wrap">
+
 |        | PQ            | Pq            | pQ            | pq            |
 | ------ | ------------- | ------------- | ------------- | ------------- |
 | **PQ** | PPQQ (purple) | PPQq (purple) | PpQQ (purple) | PpQq (purple) |
 | **Pq** | PPQq (purple) | PPqq (white)  | PpQq (purple) | Ppqq (white)  |
 | **pQ** | PpQQ (purple) | PpQq (purple) | ppQQ (white)  | ppQq (white)  |
 | **pq** | PpQq (purple) | Ppqq (white)  | ppQq (white)  | ppqq (white)  |
+
+</div>
 
 Phenotypes:
 
@@ -449,10 +457,14 @@ rare.
 
 Gametes from female: $X^O$$X^B$ Gametes from male: $X^B$$Y$
 
+<div class="table-wrap">
+
 |           | $X^B$                           | $Y$                  |
 | --------- | ------------------------------- | -------------------- |
 | **$X^O$** | $X^OX^B$ (tortoiseshell female) | $X^OY$ (orange male) |
 | **$X^B$** | $X^BX^B$ (black female)         | $X^BY$ (black male)  |
+
+</div>
 
 Expected phenotypic ratio: **1 tortoiseshell female : 1 black female : 1 orange male : 1 black
 male** (1:1:1:1)
@@ -461,12 +473,16 @@ male** (1:1:1:1)
 
 Expected values (E) for each category = 140 / 4 = 35
 
+<div class="table-wrap">
+
 | Phenotype            | Observed (O) | Expected (E) | $(O - E)^2$ | $\frac{(O - E)^2}{E}$ |
 | -------------------- | ------------ | ------------ | ----------- | --------------------- |
 | Orange female        | 30           | 35           | 25          | 0.71                  |
 | Tortoiseshell female | 28           | 35           | 49          | 1.40                  |
 | Black male           | 55           | 35           | 400         | 11.43                 |
 | Orange male          | 27           | 35           | 64          | 1.83                  |
+
+</div>
 
 $\chi^2 = 0.71 + 1.40 + 11.43 + 1.83 = 15.37$
 

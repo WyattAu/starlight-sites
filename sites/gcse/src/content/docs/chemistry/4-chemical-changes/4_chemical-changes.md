@@ -85,12 +85,16 @@ This equation is already balanced. One atom of each element appears on both side
 
 ### 1.3 State Symbols
 
+<div class="table-wrap">
+
 | Symbol | State                        |
 | ------ | ---------------------------- |
 | (s)    | Solid                        |
 | (l)    | Liquid                       |
 | (g)    | Gas                          |
 | (aq)   | Aqueous (dissolved in water) |
+
+</div>
 
 State symbols provide information about the physical state of each substance under the reaction
 Conditions. This is important because the state affects the energy change and the type of reaction
@@ -328,6 +332,8 @@ Correct orientation) will increase the rate.
 
 ### 3.2 Factors Affecting Rate of Reaction
 
+<div class="table-wrap">
+
 | Factor                      | Effect on Rate | Reason                                                                       |
 | --------------------------- | -------------- | ---------------------------------------------------------------------------- |
 | Increasing concentration    | Increases      | More particles per unit volume, more frequent collisions                     |
@@ -335,6 +341,8 @@ Correct orientation) will increase the rate.
 | Increasing surface area     | Increases      | More particles exposed for collision                                         |
 | Adding a catalyst           | Increases      | Provides an alternative pathway with lower activation energy                 |
 | Increasing pressure (gases) | Increases      | More particles per unit volume                                               |
+
+</div>
 
 **Temperature** has a particularly strong effect because it changes the distribution of molecular
 Energies. A small increase in temperature shifts a much larger fraction of molecules above the
@@ -453,12 +461,16 @@ System is not closed (e.g., a gas escapes), equilibrium cannot be established.
 **Le Chatelier's principle:** If a system at equilibrium is subjected to a change, the equilibrium
 Shifts in the direction that counteracts the change.
 
+<div class="table-wrap">
+
 | Change                               | Effect on equilibrium                                          |
 | ------------------------------------ | -------------------------------------------------------------- |
 | Increase concentration of a reactant | Equilibrium shifts to the right (to use up the added reactant) |
 | Increase temperature                 | Shifts in the endothermic direction                            |
 | Increase pressure                    | Shifts to the side with fewer gas molecules                    |
 | Add a catalyst                       | No effect on position; reaches equilibrium faster              |
+
+</div>
 
 **Key points:**
 
@@ -506,10 +518,14 @@ $\to$ 2 moles of gas), so very high pressure is not economically justified.
 
 ### 4.6 Equilibrium Summary Table
 
+<div class="table-wrap">
+
 | Process         | Equation                                                       | Favourable Conditions                                 |
 | --------------- | -------------------------------------------------------------- | ----------------------------------------------------- |
 | Haber process   | $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3$  | High pressure, moderate temp, iron catalyst           |
 | Contact process | $2\mathrm{SO_2 + \mathrm{O_2 \rightleftharpoons 2\mathrm{SO_3$ | Moderate pressure, moderate temp, V$_2$O$_5$ catalyst |
+
+</div>
 
 ## 5. Acids, Bases, and Salts
 
@@ -517,11 +533,15 @@ $\to$ 2 moles of gas), so very high pressure is not economically justified.
 
 The pH scale measures how acidic or alkaline a solution is:
 
+<div class="table-wrap">
+
 | pH    | Description                       |
 | ----- | --------------------------------- |
 | 0--6  | Acidic (lower = more acidic)      |
 | 7     | Neutral                           |
 | 8--14 | Alkaline (higher = more alkaline) |
+
+</div>
 
 **Acids** produce H$^+$ ions in solution.
 
@@ -553,11 +573,15 @@ A strong acid can have a higher pH than a concentrated solution of a weak acid.
 
 ### 5.3 Reactions of Acids
 
+<div class="table-wrap">
+
 | Reaction                                     | General Equation                              | Example                                          |
 | -------------------------------------------- | --------------------------------------------- | ------------------------------------------------ |
 | Acid + metal $\to$ salt + hydrogen           | acid + metal $\to$ salt + H$_2$               | 2HCl + Zn $\to$ ZnCl$_2$ + H$_2$                 |
 | Acid + base $\to$ salt + water               | acid + base $\to$ salt + H$_2$O               | HCl + NaOH $\to$ NaCl + H$_2$O                   |
 | Acid + carbonate $\to$ salt + water + CO$_2$ | acid + carbonate $\to$ salt + H$_2$O + CO$_2$ | 2HCl + CaCO$_3$ $\to$ CaCl$_2$ + H$_2$O + CO$_2$ |
+
+</div>
 
 ### 5.4 Making Salts
 
@@ -602,6 +626,8 @@ $$
 
 ### 5.6 Tests for Gases
 
+<div class="table-wrap">
+
 | Gas            | Test                  | Result                            |
 | -------------- | --------------------- | --------------------------------- |
 | Hydrogen       | Lighted splint        | Squeaky pop                       |
@@ -609,6 +635,8 @@ $$
 | Carbon dioxide | Limewater             | Turns cloudy/milky                |
 | Chlorine       | Damp litmus paper     | Bleaches the litmus (turns white) |
 | Ammonia        | Damp red litmus paper | Turns blue                        |
+
+</div>
 
 ## 6. Electrolysis
 
@@ -715,6 +743,8 @@ the cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfat
 
 ### 7.1 Classification Table
 
+<div class="table-wrap">
+
 | Type                  | Description                                         | Example                                                                |
 | --------------------- | --------------------------------------------------- | ---------------------------------------------------------------------- |
 | Combustion            | Burning in oxygen                                   | $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$ |
@@ -722,6 +752,8 @@ the cathode, a copper bar is the anode, and the electrolyte is copper(II) sulfat
 | Neutralisation        | Acid + base $\to$ salt + water                      | $\mathrm{HCl + \mathrm{NaOH \to \mathrm{NaCl + \mathrm{H_2\mathrm{O$   |
 | Displacement          | More reactive element displaces a less reactive one | $\mathrm{Zn + \mathrm{CuSO_4 \to \mathrm{ZnSO_4 + \mathrm{Cu$          |
 | Oxidation/reduction   | Transfer of electrons                               | $\mathrm{Fe^{2+} \to \mathrm{Fe^{3+} + e^-$                            |
+
+</div>
 
 ### 7.2 Oxidation States
 

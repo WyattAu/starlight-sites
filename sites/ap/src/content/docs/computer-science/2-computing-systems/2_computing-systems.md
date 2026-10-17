@@ -25,6 +25,8 @@ categories:
 
 ### Hardware Components
 
+<div class="table-wrap">
+
 | Component        | Function                                       |
 | ---------------- | ---------------------------------------------- |
 | CPU              | Executes instructions, performs calculations   |
@@ -35,6 +37,8 @@ categories:
 | Power supply     | Provides electrical power                      |
 | Input devices    | Keyboard, mouse, microphone, camera            |
 | Output devices   | Monitor, speakers, printer                     |
+
+</div>
 
 ### The Fetch-Decode-Execute Cycle
 
@@ -66,6 +70,8 @@ Register R2 to register R1).
 
 Computers represent all data in binary (0s and 1s).
 
+<div class="table-wrap">
+
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
 | Integer   | Two's complement (signed integers)   |
@@ -73,6 +79,8 @@ Computers represent all data in binary (0s and 1s).
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |
 | Audio     | Sampled amplitude values             |
+
+</div>
 
 #### Two's Complement
 
@@ -132,6 +140,8 @@ The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106
 
 Base-16 representation, using digits 0--9 and A--F.
 
+<div class="table-wrap">
+
 | Binary | Hex | Decimal |
 | ------ | --- | ------- |
 | 0000   | 0   | 0       |
@@ -150,6 +160,8 @@ Base-16 representation, using digits 0--9 and A--F.
 | 1101   | D   | 13      |
 | 1110   | E   | 14      |
 | 1111   | F   | 15      |
+
+</div>
 
 Conversion: group binary digits in groups of 4 from right to left.
 
@@ -203,6 +215,8 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 
 ### Basic Gates
 
+<div class="table-wrap">
+
 | Gate | Symbol   | Boolean Expression     | Truth Table                 |
 | ---- | -------- | ---------------------- | --------------------------- |
 | AND  | A AND B  | A $\cdot$ B            | 1 only if both inputs are 1 |
@@ -212,9 +226,13 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | NOR  | A NOR B  | $\overline{A + B}$     | NOT OR                      |
 | XOR  | A XOR B  | $A \oplus B$           | 1 if inputs differ          |
 
+</div>
+
 ### Truth Tables
 
 **AND gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -223,7 +241,11 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **XOR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -231,6 +253,8 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 0   | 1   | 1       |
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
+
+</div>
 
 ### De Morgan's Laws
 
@@ -255,12 +279,16 @@ $\overline{A \cdot \bar{B}} = \bar{A} + \overline{\bar{B}} = \bar{A} + B$.
 
 **Proof of De Morgan's first law by truth table:**
 
+<div class="table-wrap">
+
 | A   | B   | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A} + \bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ------------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                   |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                   |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                   |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                   |
+
+</div>
 
 Columns 4 and 7 are identical. $\blacksquare$
 
@@ -279,12 +307,16 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 
 **Truth table verification:**
 
+<div class="table-wrap">
+
 | A   | B   | $\bar{A}$ | $\bar{B}$ | $A \cdot \bar{B}$ | $\bar{A} \cdot B$ | $A \oplus B$ |
 | --- | --- | --------- | --------- | ----------------- | ----------------- | ------------ |
 | 0   | 0   | 1         | 1         | 0                 | 0                 | 0            |
 | 0   | 1   | 1         | 0         | 0                 | 1                 | 1            |
 | 1   | 0   | 0         | 1         | 1                 | 0                 | 1            |
 | 1   | 1   | 0         | 0         | 0                 | 0                 | 0            |
+
+</div>
 
 ### Half Adder and Full Adder
 
@@ -314,6 +346,8 @@ Final carry-out is the 9th bit of the result.
 
 **Worked Example.** Add 0110 and 0011 using half adders and full adders.
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 0       |
@@ -321,6 +355,8 @@ Final carry-out is the 9th bit of the result.
 | Carry in  | 0       | 0   | 1   | 0       |
 | Sum       | 0       | 1   | 0   | 1       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
@@ -350,6 +386,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 
 ### Types of Operating Systems
 
+<div class="table-wrap">
+
 | Type      | Examples              | Characteristics               |
 | --------- | --------------------- | ----------------------------- |
 | Desktop   | Windows, macOS, Linux | Personal use, multitasking    |
@@ -357,6 +395,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 | Server    | Windows Server, Linux | Network services, high uptime |
 | Embedded  | RTOS, firmware        | Limited resources, dedicated  |
 | Real-time | VxWorks, FreeRTOS     | Guaranteed response times     |
+
+</div>
 
 ### The Role of the Kernel
 
@@ -377,6 +417,8 @@ Request the kernel to perform privileged operations on their behalf.
 
 ### Software Testing
 
+<div class="table-wrap">
+
 | Type                | Description                                      |
 | ------------------- | ------------------------------------------------ |
 | Unit testing        | Testing individual components                    |
@@ -385,6 +427,8 @@ Request the kernel to perform privileged operations on their behalf.
 | Acceptance testing  | Testing against user requirements                |
 | Black-box testing   | Testing based on inputs/outputs (no code access) |
 | White-box testing   | Testing based on internal code structure         |
+
+</div>
 
 **Black-box vs white-box.** Black-box testing verifies that the system produces correct outputs for
 Given inputs, without examining the code. White-box testing examines the code structure to ensure
@@ -421,6 +465,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 
 ### Bitwise Operators in Java
 
+<div class="table-wrap">
+
 | Operator   | Name        | Description                            |
 | ---------- | ----------- | -------------------------------------- |
 | `&`        | AND         | Bitwise AND                            |
@@ -429,6 +475,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 | `~`        | NOT         | Bitwise complement (inverts all bits)  |
 | `&lt;&lt;` | Left shift  | Shifts bits left, fills with zeros     |
 | `&gt;&gt;` | Right shift | Shifts bits right, fills with sign bit |
+
+</div>
 
 ```java
 int a = 12;   // 00001100
@@ -451,6 +499,8 @@ char upper = (char) ('a' - 32);  // 'A'
 
 ### Comparing Storage Devices
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -460,6 +510,8 @@ char upper = (char) ('a' - 32);  // 'A'
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
+
+</div>
 
 IOPS (Input/Output Operations Per Second) measures how many read/write operations a drive can
 Perform per second. SSDs excel here due to having no moving parts.
@@ -506,9 +558,13 @@ Binary: $11111111$. Decimal: $15     imes 16 + 15 = 255$.
 
 **Addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Worked Example.** Add 0110 and 0011.
 
@@ -556,6 +612,8 @@ $12 / 4 = 3$ pages.
 
 ### Utility Programs
 
+<div class="table-wrap">
+
 | Utility              | Purpose                                     |
 | -------------------- | ------------------------------------------- |
 | Disk defragmenter    | Reorganises data on a HDD for faster access |
@@ -564,6 +622,8 @@ $12 / 4 = 3$ pages.
 | Compression software | Compresses and decompresses files           |
 | Backup software      | Creates copies of data for recovery         |
 | Firewall             | Monitors and filters network traffic        |
+
+</div>
 
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
@@ -646,6 +706,8 @@ $$
 
 **Worked Example.** Add $7$ and $5$ using full adders (4-bit).
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 1       |
@@ -653,6 +715,8 @@ $$
 | Carry in  | 0       | 1   | 0   | 0       |
 | Sum       | 1       | 1   | 0   | 0       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $1100 = 12$. Check: $7 + 5 = 12$. Correct.
 
@@ -670,6 +734,8 @@ Git tracks changes to source code over time. Key concepts:
 
 **Common Git commands:**
 
+<div class="table-wrap">
+
 | Command               | Purpose                     |
 | --------------------- | --------------------------- |
 | `git init`            | Create a new repository     |
@@ -681,6 +747,8 @@ Git tracks changes to source code over time. Key concepts:
 | `git checkout branch` | Switch to a branch          |
 | `git merge branch`    | Merge a branch into current |
 | `git log`             | View commit history         |
+
+</div>
 
 ### Integrated Development Environments (IDEs)
 

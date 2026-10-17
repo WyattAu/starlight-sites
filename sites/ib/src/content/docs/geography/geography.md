@@ -138,6 +138,8 @@ IA and in the written examinations:
 The notes in this section are organised into topical modules that mirror the IB Geography syllabus
 structure:
 
+<div class="table-wrap">
+
 | Module                                               | Content                                                                    |
 | ---------------------------------------------------- | -------------------------------------------------------------------------- |
 | [Population Distribution](/geography/population-distribution/) | Demographic transition, migration, population policies, Malthus vs Boserup |
@@ -146,6 +148,8 @@ structure:
 | [Freshwater Issues](/geography/freshwater-issues/)             | Water scarcity, hydrology, flood management, water quality                 |
 | [Climate Change](/geography/climate-change/)                   | Evidence, causes, impacts, mitigation, adaptation                          |
 | [Geographic Skills](/geography/geographic-skills/)             | Map skills, data collection, statistics, GIS, fieldwork                    |
+
+</div>
 
 These modules cover the most commonly selected optional themes and the compulsory core extension.
 Students should consult their teacher to confirm which optional themes their school has selected for

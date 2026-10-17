@@ -234,6 +234,8 @@ Rectangle: area=20
 
 ### Solutions to Container Slicing
 
+<div class="table-wrap">
+
 | Approach                                           | Syntax                                    | Ownership | Slicing Safe          |
 | -------------------------------------------------- | ----------------------------------------- | --------- | --------------------- |
 | `std::vector&lt;std::unique_ptr&lt;Base&gt;&gt;`   | Heap allocation, unique ownership         | Yes       | Yes                   |
@@ -241,6 +243,8 @@ Rectangle: area=20
 | `std::vector&lt;Base*&gt;`                         | Raw pointers (manual lifetime)            | Manual    | Yes                   |
 | `std::vector&lt;std::variant&lt;A, B, C&gt;&gt;`   | Stack allocation, type-indexed            | Yes       | Yes (not polymorphic) |
 | `std::vector&lt;polymorphic_value&lt;Base&gt;&gt;` | Proposed `std::polymorphic_value` (C++26) | Yes       | Yes                   |
+
+</div>
 
 ## 2.4 Virtual Destructors
 

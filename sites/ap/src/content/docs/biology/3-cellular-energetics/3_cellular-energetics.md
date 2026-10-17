@@ -35,12 +35,16 @@ $\Delta G^\circ \approx -686 \mathrm{ kcal/mol$ (highly exergonic).
 
 ### Four Stages
 
+<div class="table-wrap">
+
 | Stage                     | Location                     | O$_2$ Required? | ATP Produced (Net)        |
 | ------------------------- | ---------------------------- | --------------- | ------------------------- |
 | Glycolysis                | Cytoplasm                    | No              | 2 ATP (substrate-level)   |
 | Pyruvate oxidation        | Mitochondrial matrix         | No              | 0                         |
 | Citric acid cycle         | Mitochondrial matrix         | No              | 2 ATP (substrate-level)   |
 | Oxidative phosphorylation | Inner mitochondrial membrane | Yes             | ~26-28 ATP (chemiosmosis) |
+
+</div>
 
 ### Glycolysis
 
@@ -161,6 +165,8 @@ Walker (Nobel Prize, 1997).
 
 ### ATP Yield Per Glucose
 
+<div class="table-wrap">
+
 | Source                 | ATP (Approximate) |
 | ---------------------- | ----------------- |
 | Glycolysis             | 2 ATP (direct)    |
@@ -170,6 +176,8 @@ Walker (Nobel Prize, 1997).
 | Krebs NADH             | 15 ATP            |
 | Krebs $\mathrm{FADH_2$ | 3 ATP             |
 | **Total**              | **30-32 ATP**     |
+
+</div>
 
 **Worked Example: Calculating total ATP yield.**
 
@@ -232,10 +240,14 @@ $$
 
 ### Two Stages
 
+<div class="table-wrap">
+
 | Stage           | Location           | Inputs                                           | Outputs                            |
 | --------------- | ------------------ | ------------------------------------------------ | ---------------------------------- |
 | Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$ Light, $\mathrm{NADP^+$ ADP | $\mathrm{O_2$ ATP, NADPH            |
 | Calvin cycle    | Stroma             | $\mathrm{CO_2$ ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
+
+</div>
 
 ### Light-Dependent Reactions
 
@@ -307,6 +319,8 @@ Compound) and 3-PGA. This consumes energy without producing sugar.
 
 **Comparison table: C3, C4, and CAM plants.**
 
+<div class="table-wrap">
+
 | Feature          | C3 Plants             | C4 Plants                                            | CAM Plants                             |
 | ---------------- | --------------------- | ---------------------------------------------------- | -------------------------------------- |
 | Carbon fixation  | RuBisCO (mesophyll)   | PEP carboxylase (mesophyll), RuBisCO (bundle-sheath) | PEP carboxylase (night), RuBisCO (day) |
@@ -314,6 +328,8 @@ Compound) and 3-PGA. This consumes energy without producing sugar.
 | Water use        | Moderate              | Moderate                                             | Very efficient                         |
 | Habitat          | Temperate, cool       | Tropical, hot                                        | Arid, desert                           |
 | Examples         | Wheat, rice, soybeans | Corn, sugarcane                                      | Cacti, pineapples, orchids             |
+
+</div>
 
 **Worked Example: Comparing C4 and CAM strategies.**
 
@@ -435,6 +451,8 @@ plants separate them in time within the same cell.
 Understanding the similarities and differences between these two processes is essential for the AP
 Exam.
 
+<div class="table-wrap">
+
 | Feature           | Cellular Respiration                                                                            | Photosynthesis                                                                                  |
 | ----------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Location          | Cytoplasm and mitochondria                                                                      | Chloroplasts                                                                                    |
@@ -446,6 +464,8 @@ Exam.
 | ATP production    | Substrate-level + oxidative                                                                     | Photophosphorylation                                                                            |
 | $\mathrm{CO_2$    | Released                                                                                        | Consumed                                                                                        |
 | $\mathrm{O_2$     | Consumed                                                                                        | Released                                                                                        |
+
+</div>
 
 The two processes are essentially reverse reactions in terms of overall chemical equation, but they
 Differ fundamentally in their mechanisms: respiration catabolises glucose to harvest energy, while
@@ -561,12 +581,16 @@ Bypassing Complex I). So each $\mathrm{FADH_2$ yields approximately 1.5 ATP.
 
 **Detailed accounting per glucose:**
 
+<div class="table-wrap">
+
 | Source                | NADH   | $\mathrm{FADH_2$ | Direct ATP | ATP from NADH | ATP from $\mathrm{FADH_2$ | Total  |
 | --------------------- | ------ | ---------------- | ---------- | ------------- | ------------------------- | ------ |
 | Glycolysis            | 2      | 0                | 2          | 5             | 0                         | 7      |
 | Pyruvate oxidation    | 2      | 0                | 0          | 5             | 0                         | 5      |
 | Krebs cycle (2 turns) | 6      | 2                | 2          | 15            | 3                         | 20     |
 | **Total**             | **10** | **2**            | **4**      | **25**        | **3**                     | **32** |
+
+</div>
 
 **Why the actual yield may be lower:**
 
@@ -668,6 +692,8 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 
 ## Review: Summary Comparison Table
 
+<div class="table-wrap">
+
 | Process               | Cellular Respiration                   | Photosynthesis                 |
 | --------------------- | -------------------------------------- | ------------------------------ |
 | Purpose               | Harvest energy from glucose            | Build glucose from light       |
@@ -678,6 +704,8 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 | ATP yield per glucose | ~30-32 ATP                             | ~18 ATP consumed per glucose   |
 | Water role            | Final product ($\mathrm{H_2\mathrm{O$) | Reactant (split for electrons) |
 | Carbon dioxide role   | Waste product                          | Reactant (fixed by RuBisCO)    |
+
+</div>
 
 ## Review: Brown Fat and Uncoupling Proteins
 

@@ -189,11 +189,15 @@ $$
 
 The discriminant $\Delta = b^2 - 4ac$ determines the nature of the roots:
 
+<div class="table-wrap">
+
 | Condition    | Roots                             |
 | ------------ | --------------------------------- |
 | $\Delta > 0$ | Two distinct real roots           |
 | $\Delta = 0$ | One repeated real root            |
 | $\Delta < 0$ | No real roots (two complex roots) |
+
+</div>
 
 **Example (HL):** Find the range of $k$ for which $x^2 + 4x + k = 0$ has real roots.
 
@@ -289,11 +293,15 @@ Critical values: $x = 1$ (numerator zero) and $x = -2$ (denominator zero).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval | $x < -2$ | $-2 < x < 1$ | $x > 1$      |
 | -------- | -------- | ------------ | ------------ |
 | $x - 1$  | Negative | Negative     | Positive     |
 | $x + 2$  | Negative | Positive     | Positive     |
 | Quotient | Positive | Negative     | Non-negative |
+
+</div>
 
 Solution: $x \in (-2, 1]$.
 
@@ -353,12 +361,16 @@ For $a < 0$ Add $\pi$ to get the correct quadrant.
 
 **Quadrant check for the argument:**
 
+<div class="table-wrap">
+
 | Quadrant | $a$   | $b$   | $\arg(z)$             |
 | -------- | ----- | ----- | --------------------- |
 | I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
 | II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     \| a   \| )$  |
 | III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |
 | IV       | $> 0$ | $< 0$ | $-\arctan(b/a)$       |
+
+</div>
 
 ### Polar Form (HL)
 
@@ -639,11 +651,15 @@ The critical values are $x = -2$ and $x = 1$ (double root).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval  | $x < -2$ | $-2 < x < 1$ | $x > 1$  |
 | --------- | -------- | ------------ | -------- |
 | $(x+2)$   | Negative | Positive     | Positive |
 | $(x-1)^2$ | Positive | Positive     | Positive |
 | Product   | Negative | Positive     | Positive |
+
+</div>
 
 Solution: $x < -2$ or $x > 1$ I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 

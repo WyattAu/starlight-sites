@@ -44,6 +44,8 @@ Server re-parses only the affected regions.
 
 Each feature (completion, hover, go-to-definition) is a separate request/response pair:
 
+<div class="table-wrap">
+
 | Feature          | Request                                         | Response Content              |
 | :--------------- | :---------------------------------------------- | :---------------------------- |
 | Completion       | `textDocument/completion`                       | List of completion items      |
@@ -53,6 +55,8 @@ Each feature (completion, hover, go-to-definition) is a separate request/respons
 | Diagnostics      | `textDocument/publishDiagnostics` (server push) | Errors/warnings               |
 | Rename           | `textDocument/rename`                           | Workspace edits               |
 | Code Action      | `textDocument/codeAction`                       | Quick fixes, refactorings     |
+
+</div>
 
 ### 1.4 Why Clangd Requires `compile_commands.json`
 
@@ -329,6 +333,8 @@ Clangd's code completion is AST-based, not text-based. When you type a partial i
 
 Clangd supports the following completion kinds (per the LSP specification):
 
+<div class="table-wrap">
+
 | Kind            | Icon | Example                            |
 | :-------------- | :--- | :--------------------------------- |
 | Variable        | `v`  | `int x = 42;`                      |
@@ -341,6 +347,8 @@ Clangd supports the following completion kinds (per the LSP specification):
 | Constructor     | `C`  | `Widget(int x);`                   |
 | Member Function | `m`  | `void foo() const;`                |
 | Type Parameter  | `t`  | `template&lt;typename T&gt;`       |
+
+</div>
 
 ### Function Argument Placeholders
 
@@ -431,12 +439,16 @@ File is compiled. Understanding its structure is essential for debugging LSP iss
 
 ### Key Fields
 
+<div class="table-wrap">
+
 | Field       | Description                                                         |
 | ----------- | ------------------------------------------------------------------- |
 | `directory` | The working directory in which the compilation command was invoked  |
 | `command`   | The full compilation command (compiler path, flags, source, output) |
 | `file`      | The source file path (relative to `directory` or absolute)          |
 | `output`    | The output file (object file) path                                  |
+
+</div>
 
 ### Common Issues
 
@@ -624,12 +636,16 @@ This incremental approach limits re-parsing to the minimum necessary scope. For 
 
 Clangd classifies diagnostics into four severity levels:
 
+<div class="table-wrap">
+
 | Severity | Meaning                            | Editor Display    |
 | :------- | :--------------------------------- | :---------------- |
 | Error    | Compilation would fail             | Red squiggle      |
 | Warning  | Code compiles but is suspicious    | Yellow squiggle   |
 | Note     | Additional context for a warning   | Gray text         |
 | Remark   | Informational (optimization hints) | Hidden by default |
+
+</div>
 
 ### Tuning Diagnostic Latency
 

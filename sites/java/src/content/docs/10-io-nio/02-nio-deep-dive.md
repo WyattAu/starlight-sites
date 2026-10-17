@@ -23,6 +23,8 @@ Handling thousands of connections, file operations on large files, and memory-ma
 
 ### Buffer vs Stream
 
+<div class="table-wrap">
+
 | Aspect          | Stream I/O (`java.io`)                    | NIO (`java.nio`)                            |
 | --------------- | ----------------------------------------- | ------------------------------------------- |
 | Data model      | Byte-by-byte or char-by-char              | Blocks of data (buffers)                    |
@@ -30,6 +32,8 @@ Handling thousands of connections, file operations on large files, and memory-ma
 | Blocking        | Always blocking                           | Blocking or non-blocking                    |
 | File operations | Sequential                                | Random access, memory-mapped                |
 | Threading model | One thread per connection                 | One thread for many connections (selectors) |
+
+</div>
 
 ## Buffers
 
@@ -55,12 +59,16 @@ ByteBuffer wrapBuf = ByteBuffer.wrap(data);
 
 Every buffer has four core properties:
 
+<div class="table-wrap">
+
 | Property   | Description                                                                                                                            |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `capacity` | Maximum number of elements the buffer can hold. Set at creation, never changes.                                                        |
 | `position` | Index of the next element to read or write. Starts at 0, increments on read/write.                                                     |
 | `limit`    | First index that should not be read or written. For write mode, equals capacity. For read mode, equals the number of elements written. |
 | `mark`     | An optional bookmark (set via `mark()`Reset via `reset()`).                                                                            |
+
+</div>
 
 **Invariants:** `0 <= mark <= position <= limit <= capacity`
 
@@ -610,11 +618,15 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
 
 ### Map Modes
 
+<div class="table-wrap">
+
 | Mode         | Description                                                                          |
 | ------------ | ------------------------------------------------------------------------------------ |
 | `READ_ONLY`  | Read-only mapping. Attempts to modify the buffer throw `ReadOnlyBufferException`.    |
 | `READ_WRITE` | Read-write mapping. Changes are written back to the file.                            |
 | `PRIVATE`    | Copy-on-write. Changes are not written to the file; they are private to this buffer. |
+
+</div>
 
 ### Use Cases
 

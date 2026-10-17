@@ -117,11 +117,15 @@ Consider the decay $\Sigma^+ \to p + \pi^0$. Is this allowed?
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Particle   | $Q$  | $B$ | $S$  | $I_3$  |
 | ---------- | ---- | --- | ---- | ------ |
 | $\Sigma^+$ | $+1$ | $1$ | $-1$ | $+1$   |
 | $p$        | $+1$ | $1$ | $0$  | $+1/2$ |
 | $\pi^0$    | $0$  | $0$ | $0$  | $0$    |
+
+</div>
 
 **Conservation checks:**
 
@@ -157,6 +161,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 
 **Noether's Theorem:** Every continuous symmetry of the action corresponds to a conserved quantity.
 
+<div class="table-wrap">
+
 | Symmetry          | Conserved Quantity |
 | ----------------- | ------------------ |
 | Time translation  | Energy             |
@@ -164,6 +170,8 @@ state), making it extremely suppressed: $\mathrm{BR}(\pi^0 \to e^+e^-) \approx 6
 | Rotation          | Angular momentum   |
 | U(1) gauge        | Electric charge    |
 | SU(3) gauge       | Colour charge      |
+
+</div>
 
 **Proof (sketch).** Consider an infinitesimal transformation $x^\mu \to x^\mu + \delta x^\mu$
 $\phi \to \phi + \delta\phi$. If the action $S = \int \mathcal{L}\,d^4x$ is invariant, then the
@@ -205,6 +213,6 @@ Noether's theorem relates continuous symmetries to conserved quantities. Discret
 - **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: CP violation in the quark and lepton sectors is a manifestation of the symmetry properties studied here.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

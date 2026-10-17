@@ -33,6 +33,8 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 
 ## Topic Map
 
+<div class="table-wrap">
+
 | #   | File                                            | Topics Covered                                                     |
 | --- | ----------------------------------------------- | ------------------------------------------------------------------ |
 | 1   | `diag-biological-molecules.md`                  | Carbohydrates, lipids, proteins, nucleic acids, enzymes, water     |
@@ -42,13 +44,19 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 | 5   | `diag-genetics-dna.md`                          | DNA replication, protein synthesis, inheritance, gene technology   |
 | 6   | `diag-ecology.md`                               | Ecosystems, populations, succession, nutrient cycles, human impact |
 
+</div>
+
 ## Scoring
+
+<div class="table-wrap">
 
 | Score   | Interpretation                                                      |
 | ------- | ------------------------------------------------------------------- |
 | 5-6 / 6 | Excellent, focus on integration tests in other topics              |
 | 3-4 / 6 | Secure foundations, revisit specific weak areas                    |
 | 0-2 / 6 | Significant gaps, work through the corresponding topic notes first |
+
+</div>
 
 ## Unit Tests vs Integration Tests
 

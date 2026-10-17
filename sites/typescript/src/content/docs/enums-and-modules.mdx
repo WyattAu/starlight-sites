@@ -217,6 +217,8 @@ Compatible with `isolatedModules`.
 
 ### Enum Comparison Table
 
+<div class="table-wrap">
+
 | Feature                | Numeric Enum | String Enum | Const Enum    | `as const` Object |
 | ---------------------- | ------------ | ----------- | ------------- | ----------------- |
 | Reverse mapping        | Yes          | No          | N/A (inlined) | No                |
@@ -224,6 +226,8 @@ Compatible with `isolatedModules`.
 | `isolatedModules` safe | Yes          | Yes         | No            | Yes               |
 | Computed values        | Limited      | No          | No            | N/A               |
 | Tree-shakeable         | No           | No          | Yes (inlined) | Yes               |
+
+</div>
 
 ## ES Modules: Import and Export
 
@@ -434,12 +438,16 @@ Resolves dependencies automatically through `tsconfig.json` and `node_modules`.
 
 ### Classic vs Node Resolution
 
+<div class="table-wrap">
+
 | Strategy              | Description                                                                            |
 | --------------------- | -------------------------------------------------------------------------------------- |
 | `classic`             | Original TypeScript resolution; relative to importing file                             |
 | `node`                | Mimics Node.js resolution; checks `node_modules, package.json` `types`/`typings` field |
 | `node16` / `nodenext` | Node.js ESM-aware resolution (TypeScript 4.7+)                                         |
 | `bundler`             | Resolution for bundlers that handle module resolution themselves (TypeScript 5.0+)     |
+
+</div>
 
 ### Path Aliases in tsconfig
 

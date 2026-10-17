@@ -161,6 +161,8 @@ different hydrogen peroxide concentrations, with and without the inhibitor.
 
 The results are shown below:
 
+<div class="table-wrap">
+
 | [H$_2$O$_2$] (mol dm$^{-3}$) | Rate without inhibitor (arbitrary units) | Rate with inhibitor (arbitrary units) |
 | ---------------------------- | ---------------------------------------- | ------------------------------------- |
 | 0.05                         | 3.2                                      | 1.6                                   |
@@ -168,6 +170,8 @@ The results are shown below:
 | 0.20                         | 8.0                                      | 5.6                                   |
 | 0.40                         | 9.6                                      | 8.0                                   |
 | 0.80                         | 10.2                                     | 9.6                                   |
+
+</div>
 
 (a) Explain why the rate with the inhibitor approaches the rate without the inhibitor at high
 substrate concentrations.

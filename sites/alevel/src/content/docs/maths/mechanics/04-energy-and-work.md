@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                              |
 | ---------- | ------- | ---------------------------------- |
 | AQA        | Paper 1 | Work, energy, power                |
 | Edexcel    | P1      | Similar                            |
 | OCR (A)    | Paper 1 | Includes energy on inclined planes |
 | CIE (9709) | P1, P4  | Work-energy in P1; further in P4   |
+
+</div>
 
 :::note
 Final states matter (no time information needed).

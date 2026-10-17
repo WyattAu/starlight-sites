@@ -38,6 +38,8 @@ Varieties:
 
 ### The Seven SI Base Units
 
+<div class="table-wrap">
+
 | Base Quantity       | Symbol | SI Unit  | Unit Symbol |
 | ------------------- | ------ | -------- | ----------- |
 | Length              | $l$    | metre    | m           |
@@ -47,6 +49,8 @@ Varieties:
 | Temperature         | $T$    | kelvin   | K           |
 | Amount of substance | $n$    | mole     | mol         |
 | Luminous intensity  | $I_v$  | candela  | cd          |
+
+</div>
 
 > **Info:** Note The candela is rarely encountered in A Level Physics. Focus on the first six.
 >
@@ -70,6 +74,8 @@ of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ 
 
 Some derived units have special names:
 
+<div class="table-wrap">
+
 | Derived Quantity | Name    | Symbol   | In Base Units                                   |
 | ---------------- | ------- | -------- | ----------------------------------------------- |
 | Force            | newton  | N        | $\mathrm{kg m s}^{-2}$                          |
@@ -79,6 +85,8 @@ Some derived units have special names:
 | Charge           | coulomb | C        | $\mathrm{A s}$                                  |
 | Voltage          | volt    | V        | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-1}$ |
 | Resistance       | ohm     | $\Omega$ | $\mathrm{kg m}^2\mathrm{s}^{-3}\mathrm{A}^{-2}$ |
+
+</div>
 
 ## 2. Dimensional Analysis
 
@@ -132,6 +140,8 @@ Habit of verifying dimensions for every formula you derive in an exam.
 
 ## 3. SI Prefixes
 
+<div class="table-wrap">
+
 | Prefix | Symbol | Factor     |
 | ------ | ------ | ---------- |
 | tera   | T      | $10^{12}$  |
@@ -145,14 +155,20 @@ Habit of verifying dimensions for every formula you derive in an exam.
 | pico   | p      | $10^{-12}$ |
 | femto  | f      | $10^{-15}$ |
 
+</div>
+
 ## 4. Scalars and Vectors
 
 **Definition.** A **scalar** is a physical quantity that has magnitude only. A **vector** is a
 Physical quantity that has both magnitude and direction.
 
+<div class="table-wrap">
+
 | Scalar Examples                                  | Vector Examples                                               |
 | ------------------------------------------------ | ------------------------------------------------------------- |
 | Mass, temperature, speed, energy, time, distance | Displacement, velocity, acceleration, force, weight, momentum |
+
+</div>
 
 ### Vector Operations
 
@@ -504,6 +520,8 @@ $\Delta Q = 16.0 \times 0.150 = 2.4$. Result: $Q = 16.0 \pm 2.4$ (15%).
 Understanding how each SI base unit is defined is essential for experimental physics and for
 Interpreting measurements correctly.
 
+<div class="table-wrap">
+
 | Base Quantity       | SI Unit       | Current Definition (SI 2019)                                                             |
 | ------------------- | ------------- | ---------------------------------------------------------------------------------------- |
 | Length              | metre (m)     | Defined by fixing the speed of light $c = 299\,792\,458$ m s$^{-1}$                      |
@@ -513,6 +531,8 @@ Interpreting measurements correctly.
 | Temperature         | kelvin (K)    | Defined by fixing the Boltzmann constant $k_B = 1.380\,649 \times 10^{-23}$ J K$^{-1}$   |
 | Amount of substance | mole (mol)    | Defined by fixing the Avogadro constant $N_A = 6.022\,140\,76 \times 10^{23}$ mol$^{-1}$ |
 | Luminous intensity  | candela (cd)  | Defined by fixing the luminous efficacy $K_{cd} = 683$ lm W$^{-1}$                       |
+
+</div>
 
 :::note
 The values of $c$$h$$e$$k_B$$N_A$ And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
@@ -576,6 +596,8 @@ M$)^{-3} = 5.4 \times 10^{-3} \times 10^6$ kg m$^{-3} = 5400$ kg m$^{-3}$.
 
 ## 10. Systematic Errors vs Random Errors: Detailed Comparison
 
+<div class="table-wrap">
+
 | Feature               | Systematic Error                                    | Random Error                                                     |
 | --------------------- | --------------------------------------------------- | ---------------------------------------------------------------- |
 | Cause                 | Faulty apparatus or method                          | Environmental fluctuations, resolution limits                    |
@@ -585,6 +607,8 @@ M$)^{-3} = 5.4 \times 10^{-3} \times 10^6$ kg m$^{-3} = 5400$ kg m$^{-3}$.
 | Reduction             | Calibrate instruments, improve method               | Take more readings, use instruments with finer resolution        |
 | Effect on mean        | Shifts the mean consistently                        | Mean approaches true value as $n$ increases                      |
 | Effect on uncertainty | Not reduced by averaging                            | Reduced by $\Delta x = \sigma / \sqrt{n}$                        |
+
+</div>
 
 ### Identifying Systematic Errors in Practice
 

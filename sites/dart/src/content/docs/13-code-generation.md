@@ -686,6 +686,8 @@ class Task {
 Different code generation packages produce files with specific suffixes. Understanding these
 Conventions helps with `.gitignore` configuration and debugging.
 
+<div class="table-wrap">
+
 | Suffix          | Package                                   | Purpose                                                                |
 | --------------- | ----------------------------------------- | ---------------------------------------------------------------------- |
 | `.g.dart`       | `json_serializable``injectable``retrofit` | General generated code (fromJson/toJson, DI registration, API clients) |
@@ -693,6 +695,8 @@ Conventions helps with `.gitignore` configuration and debugging.
 | `.gr.dart`      | `retrofit``auto_route`                    | Retrofit API client, AutoRoute router generated files                  |
 | `.config.dart`  | `injectable`                              | Generated dependency configuration                                     |
 | `.chopper.dart` | `chopper`                                 | Chopper API client generated code                                      |
+
+</div>
 
 ### .gitignore Configuration
 

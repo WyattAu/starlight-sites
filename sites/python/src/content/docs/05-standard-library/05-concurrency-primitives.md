@@ -147,12 +147,16 @@ def inner():
 outer()  # Works fine, RLock allows same thread to re-acquire
 ```
 
+<div class="table-wrap">
+
 | Feature               | `Lock`         | `RLock`                  |
 | --------------------- | -------------- | ------------------------ |
 | Reentrant             | No (deadlocks) | Yes                      |
 | Release by any thread | Yes            | No (must be same thread) |
 | `acquire()` counting  | No             | Yes                      |
 | Overhead              | Lower          | Slightly higher          |
+
+</div>
 
 :::caution
 thread must call `release()` the same number of times it called `acquire()`.
@@ -562,10 +566,14 @@ Multiple native threads from executing Python bytecodes simultaneously.
 
 ### CPU-Bound vs I/O-Bound
 
+<div class="table-wrap">
+
 | Workload  | Threading                         | Multiprocessing                   |
 | --------- | --------------------------------- | --------------------------------- |
 | CPU-bound | No speedup (GIL bottleneck)       | Linear speedup (up to core count) |
 | I/O-bound | Speedup (GIL released during I/O) | Overkill (higher overhead)        |
+
+</div>
 
 ```python
 import threading

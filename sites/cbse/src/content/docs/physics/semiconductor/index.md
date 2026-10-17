@@ -151,12 +151,16 @@ The negative sign indicates a $180^\circ$ phase shift.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | A | B | Output |
 |---|---|--------|
 | 0 | 0 | 1 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
+
+</div>
 
 The output is LOW (0) only when both inputs are HIGH (1).
 

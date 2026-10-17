@@ -22,6 +22,8 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation       | Description          | Array-backed | Linked-list |
 | --------------- | -------------------- | ------------ | ----------- |
 | `push_front(x)` | Insert at front      | $O(1)$       | $O(1)$      |
@@ -32,6 +34,8 @@ Ends. It generalises both stacks (LIFO) and queues (FIFO).
 | `back()`        | Access back element  | $O(1)$       | $O(1)$      |
 | `is_empty()`    | Check if empty       | $O(1)$       | $O(1)$      |
 | `size()`        | Number of elements   | $O(1)$       | $O(1)$      |
+
+</div>
 
 ### Circular Buffer Implementation
 
@@ -171,6 +175,8 @@ class LinkedListDeque:
 
 ### Standard Library Support
 
+<div class="table-wrap">
+
 | Language | Type                | Implementation  | Notes                        |
 | -------- | ------------------- | --------------- | ---------------------------- |
 | Python   | `collections.deque` | Circular buffer | $O(1)$ all operations        |
@@ -178,6 +184,8 @@ class LinkedListDeque:
 | Java     | `ArrayDeque`        | Circular buffer | $O(1)$ all operations        |
 | Rust     | `VecDeque`          | Ring buffer     | $O(1)$ all operations        |
 | Go       | None (use slice)    | N/A             | Manual implementation needed |
+
+</div>
 
 :::note
 Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality, much
@@ -191,6 +199,8 @@ with the highest (or lowest) priority.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation            | Description                       | Binary Heap | Binomial Heap | Fibonacci Heap     |
 | -------------------- | --------------------------------- | ----------- | ------------- | ------------------ |
 | `insert(x)`          | Insert element with priority      | $O(\log n)$ | $O(\log n)$   | $O(1)$ amort.      |
@@ -199,6 +209,8 @@ with the highest (or lowest) priority.
 | `find_min()`         | Return minimum without removing   | $O(1)$      | $O(1)$        | $O(1)$             |
 | `delete(x)`          | Remove arbitrary element          | $O(\log n)$ | $O(\log n)$   | $O(\log n)$ amort. |
 | `merge(q1, q2)`      | Merge two priority queues         | $O(n)$      | $O(\log n)$   | $O(1)$ amort.      |
+
+</div>
 
 ## Binary Heap
 
@@ -209,11 +221,15 @@ A binary heap is a complete binary tree that satisfies the heap property: each n
 
 For a node at index $i$ (0-based):
 
+<div class="table-wrap">
+
 | Relationship | Formula                       |
 | ------------ | ----------------------------- |
 | Parent       | $\lfloor (i - 1) / 2 \rfloor$ |
 | Left child   | $2i + 1$                      |
 | Right child  | $2i + 2$                      |
+
+</div>
 
 ```mermaid
 graph TD
@@ -370,16 +386,24 @@ def heap_sort(arr):
 A d-ary heap is a generalisation where each node has up to $d$ children. For a node at index $i$
 (0-based):
 
+<div class="table-wrap">
+
 | Relationship | Formula                                 |
 | ------------ | --------------------------------------- |
 | Parent       | $\lfloor (i - 1) / d \rfloor$           |
 | Child $j$    | $d \cdot i + j + 1$ for $0 \le j \lt d$ |
+
+</div>
+
+<div class="table-wrap">
 
 | Metric         | Binary ($d=2$)  | 4-ary ($d=4$)   | Choice of $d$                               |
 | -------------- | --------------- | --------------- | ------------------------------------------- |
 | Height         | $O(\log_2 n)$   | $O(\log_4 n)$   | $d = E/V + 1$ optimises Dijkstra            |
 | Sift-down cost | $O(d \log_d n)$ | $O(d \log_d n)$ | Larger $d$ = fewer levels but more compares |
 | Sift-up cost   | $O(\log_d n)$   | $O(\log_d n)$   | Smaller $d$ = cheaper sift-up               |
+
+</div>
 
 For Dijkstra's algorithm on sparse graphs ($E = O(V)$), $d = 2$ is optimal. For dense graphs
 ($E = O(V^2)$), $d \approx V/2$ gives the best performance because sift-down is called more often
@@ -399,12 +423,16 @@ A binomial tree $B_k$ is defined recursively:
 
 Properties of $B_k$:
 
+<div class="table-wrap">
+
 | Property         | Value                           |
 | ---------------- | ------------------------------- |
 | Number of nodes  | $2^k$                           |
 | Height           | $k$                             |
 | Root degree      | $k$                             |
 | Children of root | $B_{k-1}, B_{k-2}, \ldots, B_0$ |
+
+</div>
 
 ### Merge Operation
 
@@ -531,6 +559,8 @@ Perform consolidation only during `extract_min`. This laziness is what gives amo
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation    | Amortised Time | Worst Case  | Mechanism                                  |
 | ------------ | -------------- | ----------- | ------------------------------------------ |
 | Insert       | $O(1)$         | $O(1)$      | Add tree to root list                      |
@@ -539,6 +569,8 @@ Perform consolidation only during `extract_min`. This laziness is what gives amo
 | Decrease-key | $O(1)$         | $O(\log n)$ | Cut and cascade if parent marked           |
 | Delete       | $O(\log n)$    | $O(n)$      | Decrease-key to $-\infty$ then extract-min |
 | Merge        | $O(1)$         | $O(1)$      | Concatenate root lists                     |
+
+</div>
 
 ### Marking and Cascading Cuts
 
@@ -690,12 +722,16 @@ Fibonacci heaps have high constant factors (due to the complex pointer manipulat
 Structure). They are asymptotically better than binary heaps only when `decrease_key` is called many
 Times relative to `extract_min`. In practice:
 
+<div class="table-wrap">
+
 | Algorithm         | Binary Heap Time  | Fibonacci Heap Time | Practical Winner |
 | ----------------- | ----------------- | ------------------- | ---------------- |
 | Dijkstra (sparse) | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Dijkstra (dense)  | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
+
+</div>
 :::
 
 :::caution

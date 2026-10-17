@@ -191,12 +191,16 @@ $$
 
 ### Useful Summation Formulas
 
+<div class="table-wrap">
+
 | Sum                               | Closed Form                                 |
 | :-------------------------------- | :------------------------------------------ |
 | $\displaystyle\sum_{k=1}^{n} k$   | $\dfrac{n(n+1)}{2}$                         |
 | $\displaystyle\sum_{k=1}^{n} k^2$ | $\dfrac{n(n+1)(2n+1)}{6}$                   |
 | $\displaystyle\sum_{k=1}^{n} k^3$ | $\dfrac{n^2(n+1)^2}{4}$                     |
 | $\displaystyle\sum_{k=0}^{n} r^k$ | $\dfrac{1 - r^{n+1}}{1 - r}, \quad r \ne 1$ |
+
+</div>
 
 ---
 
@@ -352,6 +356,8 @@ $$
 
 ### Standard Maclaurin Series
 
+<div class="table-wrap">
+
 | Function           | Maclaurin Series                                                   | Radius of Convergence |
 | :----------------- | :----------------------------------------------------------------- | :-------------------- |
 | $e^x$              | $\displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}$                  | $\infty$              |
@@ -361,6 +367,8 @@ $$
 | $(1 + x)^n$        | $\displaystyle\sum_{k=0}^{\infty} \binom{n}{k}x^k$                 | $1$                   |
 | $\dfrac{1}{1 - x}$ | $\displaystyle\sum_{n=0}^{\infty} x^n$                             | $1$                   |
 | $\arctan x$        | $\displaystyle\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$    | $1$                   |
+
+</div>
 
 ### Deriving Series
 

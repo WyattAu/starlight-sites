@@ -33,10 +33,14 @@ knowledge in unfamiliar contexts.
 
 The TMUA consists of two papers, each 75 minutes long. Both papers are multiple choice only.
 
+<div class="table-wrap">
+
 | Paper   | Focus                            | Questions | Format          |
 | ------- | -------------------------------- | --------- | --------------- |
 | Paper 1 | Mathematical reasoning and logic | 20        | Multiple choice |
 | Paper 2 | Mathematical applications        | 20        | Multiple choice |
+
+</div>
 
 Each question has five options (A--E). There is no penalty for incorrect answers. The papers are
 taken In a single sitting with a short break between them.
@@ -87,12 +91,16 @@ are Built from simpler ones using logical connectives.
 **Truth tables.** For any compound proposition, a truth table lists the truth value of the
 proposition For every possible combination of truth values of its components.
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $P \land Q$ | $P \lor Q$ | $P \implies Q$ | $P \iff Q$ |
 | --- | --- | ----------- | ---------- | -------------- | ---------- |
 | T   | T   | T           | T          | T              | T          |
 | T   | F   | F           | T          | F              | F          |
 | F   | T   | F           | T          | T              | F          |
 | F   | F   | F           | F          | T              | T          |
+
+</div>
 
 **Tautology and contradiction.** A tautology is a proposition that is true for all truth values of
 Its components. A contradiction is always false. A contingency is neither.
@@ -586,6 +594,8 @@ When working with tmua preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                | Site        | Link                                                 |
 | -------------------- | ----------- | ---------------------------------------------------- |
 | TMUA Specification   | UAT         | [View](https://uat.ucl.ac.uk/tmua)                   |
@@ -593,4 +603,6 @@ When working with tmua preparation, follow a structured approach:
 | MAT Preparation      | WyattsNotes | [View](/mat-preparation/)  |
 | STEP Preparation     | WyattsNotes | [View](/step-preparation/) |
 | Probability          | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)     |
-| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)   |
+| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)   |
+
+</div>

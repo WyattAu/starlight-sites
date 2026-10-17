@@ -128,6 +128,8 @@ This is the basis of the **quantum mechanical model** of the atom.
 
 ### Summary of Atomic Models
 
+<div class="table-wrap">
+
 | Model      | Key Feature         | Explained                                  | Could Not Explain             |
 | ---------- | ------------------- | ------------------------------------------ | ----------------------------- |
 | Dalton     | Indivisible atoms   | Conservation of mass, definite proportions | Subatomic particles, isotopes |
@@ -135,6 +137,8 @@ This is the basis of the **quantum mechanical model** of the atom.
 | Rutherford | Nuclear atom        | Alpha scattering                           | Atomic stability, spectra     |
 | Bohr       | Quantised orbits    | Hydrogen spectrum                          | Multi-electron atoms          |
 | Quantum    | Orbital probability | All atomic spectra                         | Relativistic effects          |
+
+</div>
 
 ---
 
@@ -153,12 +157,16 @@ This is the basis of the **quantum mechanical model** of the atom.
 
 Each electron is described by four quantum numbers:
 
+<div class="table-wrap">
+
 | Number    | Symbol | Meaning              | Allowed values               |
 | --------- | ------ | -------------------- | ---------------------------- |
 | Principal | $n$    | Shell (energy level) | $1, 2, 3, \ldots$            |
 | Azimuthal | $l$    | Subshell             | $0, 1, \ldots, n-1$          |
 | Magnetic  | $m_l$  | Orbital orientation  | $-l, \ldots, 0, \ldots, +l$  |
 | Spin      | $m_s$  | Spin direction       | $+\frac{1}{2}, -\frac{1}{2}$ |
+
+</div>
 
 Subshell notation: $l = 0 \to s$$l = 1 \to p$$l = 2 \to d$$l = 3 \to f$.
 
@@ -200,10 +208,14 @@ $$
 Half-filled ($d^5$) and fully-filled ($d^{10}$) subshells have extra stability from exchange energy
 and symmetry:
 
+<div class="table-wrap">
+
 | Element       | Expected                      | Actual                           | Reason            |
 | ------------- | ----------------------------- | -------------------------------- | ----------------- |
 | $\mathrm{Cr}$ | $[\mathrm{Ar}]\, 4s^2\, 3d^4$ | $[\mathrm{Ar}]\, 4s^1\, 3d^5$    | Half-filled $3d$  |
 | $\mathrm{Cu}$ | $[\mathrm{Ar}]\, 4s^2\, 3d^9$ | $[\mathrm{Ar}]\, 4s^1\, 3d^{10}$ | Fully-filled $3d$ |
+
+</div>
 
 ### Ions
 
@@ -239,11 +251,15 @@ $$
 
 ### Shapes of Orbitals
 
+<div class="table-wrap">
+
 | Orbital | Shape      | Nodes                   | Max electrons     |
 | ------- | ---------- | ----------------------- | ----------------- |
 | $s$     | Spherical  | $n - 1$ total           | $2$               |
 | $p$     | Dumbbell   | Angular node at nucleus | $6$ per subshell  |
 | $d$     | Cloverleaf | $2$ angular nodes       | $10$ per subshell |
+
+</div>
 
 ### Radial and Angular Nodes
 
@@ -339,17 +355,25 @@ $$
 
 ### Periodic Trends
 
+<div class="table-wrap">
+
 | Trend                     | Explanation                                           |
 | ------------------------- | ----------------------------------------------------- |
 | Increases across a period | Increasing $Z_{\mathrm{eff}}$ pulls electrons closer  |
 | Decreases down a group    | Greater distance from nucleus and increased shielding |
 
+</div>
+
 ### Deviations Across a Period
+
+<div class="table-wrap">
 
 | Deviation               | Elements | Explanation                                                                                    |
 | ----------------------- | -------- | ---------------------------------------------------------------------------------------------- |
 | Drop Group $2$ to $13$  | Be to B  | Be has a stable filled $2s$ subshell; B removes a $2p$ electron (higher energy, less shielded) |
 | Drop Group $15$ to $16$ | N to O   | N has stable half-filled $2p^3$; O has a paired $2p$ electron experiencing extra repulsion     |
+
+</div>
 
 ### Successive Ionization Energies
 
@@ -389,18 +413,26 @@ $3.98$.
 
 ### Periodic Trends
 
+<div class="table-wrap">
+
 | Trend                     | Explanation                    |
 | ------------------------- | ------------------------------ |
 | Increases across a period | Increasing $Z_{\mathrm{eff}}$  |
 | Decreases down a group    | Greater distance and shielding |
 
+</div>
+
 ### Electronegativity and Bonding
+
+<div class="table-wrap">
 
 | $\Delta\chi$ | Bond type          |
 | ------------ | ------------------ |
 | $0.0$--$0.4$ | Non-polar covalent |
 | $0.5$--$1.7$ | Polar covalent     |
 | $\gt 1.7$    | Ionic              |
+
+</div>
 
 ### Polarising Power and Polarizability
 
@@ -856,9 +888,13 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                                             |
 | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
 | [Atomic Structure] | IB      | [View](https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory/)                              |
 | [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/) |
+
+</div>
 :::

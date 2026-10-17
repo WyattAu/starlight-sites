@@ -200,7 +200,7 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 - **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Chromatic aberration in lenses arises from wavelength-dependent refraction, requiring achromatic doublets for correction.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Intuition

@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                            |
 | ---------- | ---------- | ------------------------------------------------ |
 | AQA        | Paper 1, 2 | Functions, composition, inverse, transformations |
 | Edexcel    | P1, P2     | Similar; modulus in P1                           |
 | OCR (A)    | Paper 1, 2 | Includes composite functions                     |
 | CIE (9709) | P1         | Functions, domain, range, inverse                |
+
+</div>
 
 <hr />
 
@@ -247,10 +251,14 @@ Similarly, $y = f(x) + b$ translates up by $b$.
 
 ### 5.2 Reflections
 
+<div class="table-wrap">
+
 | Transformation | Effect                     |
 | -------------- | -------------------------- |
 | $y = f(-x)$    | Reflection in the $y$-axis |
 | $y = -f(x)$    | Reflection in the $x$-axis |
+
+</div>
 
 **Proof for $y = f(-x)$ as reflection in the $y$-axis.** If $(x_0, y_0)$ is on $y = f(x)$ Then
 $y_0 = f(x_0)$. The point $(-x_0, y_0)$ satisfies $y_0 = f(-(-x_0)) = f(x_0)$ So it lies on
@@ -258,10 +266,14 @@ $y = f(-x)$. Reflecting $(x_0, y_0)$ in the $y$-axis gives $(-x_0, y_0)$. $\blac
 
 ### 5.3 Stretches
 
+<div class="table-wrap">
+
 | Transformation | Effect                                         |
 | -------------- | ---------------------------------------------- |
 | $y = f(ax)$    | Horizontal stretch, scale factor $\frac{1}{a}$ |
 | $y = af(x)$    | Vertical stretch, scale factor $a$             |
+
+</div>
 
 **Proof for $y = f(ax)$ as horizontal stretch.** If $(x_0, y_0)$ is on $y = f(x)$ Then on
 $y = f(ax)$ The same $y$-value occurs when $ax = x_0$ I.e., $x = \frac{x_0}{a}$. So
@@ -302,9 +314,13 @@ $(x, f(x))$ by $180^\circ$ about the origin gives $(-x, -f(x))$. $\blacksquare$
 
 **Algebraic Properties.**
 
+<div class="table-wrap">
+
 | Operation | Even $\times$ Even | Odd $\times$ Odd | Even $\times$ Odd |
 | --------- | :----------------: | :--------------: | :---------------: |
 | Result    |        Even        |       Even       |        Odd        |
+
+</div>
 
 _Proof (for $f$ odd, $g$ odd $\implies fg$ even)._
 $(fg)(-x) = f(-x)g(-x) = (-f(x))(-g(x)) = f(x)g(x) = (fg)(x)$. $\blacksquare$

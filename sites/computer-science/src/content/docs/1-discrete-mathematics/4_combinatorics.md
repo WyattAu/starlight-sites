@@ -259,6 +259,8 @@ $$
 
 **Common generating functions:**
 
+<div class="table-wrap">
+
 | Sequence $a_n$   | Generating function $G(x)$ |
 | ---------------- | -------------------------- |
 | $1$              | $\dfrac{1}{1-x}$           |
@@ -266,6 +268,8 @@ $$
 | $\binom{n+k}{k}$ | $\dfrac{1}{(1-x)^{k+1}}$   |
 | $n$              | $\dfrac{x}{(1-x)^2}$       |
 | $n^2$            | $\dfrac{x(1+x)}{(1-x)^3}$  |
+
+</div>
 
 **Key operations.** If $A(x)$ generates $\\{a_n\\}$ and $B(x)$ generates $\\{b_n\\}$:
 

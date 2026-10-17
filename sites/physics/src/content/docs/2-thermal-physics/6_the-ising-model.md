@@ -119,11 +119,15 @@ These are the **classical** critical exponents. They are independent of the spat
 and the lattice structure --- a deficiency of mean field theory. Exact results and renormalisation
 group calculations give dimension-dependent exponents that agree with experiment.
 
+<div class="table-wrap">
+
 | Exponent | Mean Field | 2D Ising | 3D Ising |
 | -------- | ---------- | -------- | -------- |
 | $\alpha$ | 0 (jump)   | 0 (log)  | 0.110    |
 | $\beta$  | 1/2        | 1/8      | 0.326    |
 | $\gamma$ | 1          | 7/4      | 1.237    |
+
+</div>
 
 ### 6.5 Worked Example: Mean Field Theory for the 2D Square Lattice
 
@@ -204,6 +208,6 @@ The Ising model is the simplest system showing how local interactions create glo
 </script>
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 

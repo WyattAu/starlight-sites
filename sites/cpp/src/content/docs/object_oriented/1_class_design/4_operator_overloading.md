@@ -41,6 +41,8 @@ by the operator symbol. The following constraints apply [N4950 S14.5.1]:
 
 The following operators may be overloaded [N4950 S14.5]:
 
+<div class="table-wrap">
+
 | Category            | Operators                                                                 |
 | ------------------- | ------------------------------------------------------------------------- |
 | Arithmetic          | `+` `-` `*` `/` `%`                                                       |
@@ -54,6 +56,8 @@ The following operators may be overloaded [N4950 S14.5]:
 | Function call       | `()`                                                                      |
 | Memory              | `new` `delete` `new[]` `delete[]`                                         |
 | Comma               | `,`                                                                       |
+
+</div>
 
 ### Non-Overloadable Operators
 
@@ -126,6 +130,8 @@ int main() {
 
 ### Decision Table: Member vs Non-Member
 
+<div class="table-wrap">
+
 | Operator                                    | Recommended Form  | Reason                                             |
 | ------------------------------------------- | ----------------- | -------------------------------------------------- |
 | Binary arithmetic (`+``-``*``/`)            | Non-member friend | Symmetric implicit conversions on both operands    |
@@ -138,6 +144,8 @@ int main() {
 | Unary (`+``-``!``~`)                        | Member            | Operates on `*this`; no conversion symmetry needed |
 | Prefix `++`/`--`                            | Member            | Modifies `*this`                                   |
 | Postfix `++`/`--`                           | Member            | Modifies `*this` (returns copy)                    |
+
+</div>
 
 ## 4.3 A `Vec3` Class with Full Operator Suite
 
@@ -534,11 +542,15 @@ Class defines `operator\&lt;=\&gt;` as defaulted, the compiler automatically gen
 `\&lt;`, `\&lt;=`, `\&gt;` and `\&gt;=` by rewiring to the spaceship operator. The return type Determines
 the comparison category:
 
+<div class="table-wrap">
+
 | Return type             | Category         | Meaning                            |
 | ----------------------- | ---------------- | ---------------------------------- |
 | `std::strong_ordering`  | Total ordering   | Distinct values always comparable  |
 | `std::weak_ordering`    | Weak ordering    | Equivalent values may not be equal |
 | `std::partial_ordering` | Partial ordering | Some pairs incomparable            |
+
+</div>
 
 ```cpp
 #include <compare>

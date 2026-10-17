@@ -29,6 +29,8 @@ A **relational database** organises data into **relations** (tables), each consi
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Relational term | SQL equivalent | Description                               |
 | --------------- | -------------- | ----------------------------------------- |
 | Relation        | Table          | A set of tuples                           |
@@ -37,6 +39,8 @@ A **relational database** organises data into **relations** (tables), each consi
 | Domain          | Data type      | Set of allowable values                   |
 | Primary key     | PRIMARY KEY    | Unique identifier for each tuple          |
 | Foreign key     | FOREIGN KEY    | References a primary key in another table |
+
+</div>
 
 ### Keys
 
@@ -101,6 +105,8 @@ HAVING AVG(salary) > 50000
 ORDER BY avg_salary DESC;
 ```
 
+<div class="table-wrap">
+
 | Function  | Description     |
 | --------- | --------------- |
 | COUNT(\*) | Count of rows   |
@@ -108,6 +114,8 @@ ORDER BY avg_salary DESC;
 | AVG(col)  | Arithmetic mean |
 | MIN(col)  | Minimum value   |
 | MAX(col)  | Maximum value   |
+
+</div>
 
 ### Subqueries
 
@@ -164,18 +172,26 @@ Normalisation eliminates **data redundancy** and **anomalies**:
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | name  | courses        |
 | ---------- | ----- | -------------- |
 | 1          | Alice | CS101, MATH201 |
+
+</div>
 
 **Problem:** `courses` contains multiple values in a single cell.
 
 **1NF solution:** Split into separate rows (each cell contains one value).
 
+<div class="table-wrap">
+
 | student_id | name  | course  |
 | ---------- | ----- | ------- |
 | 1          | Alice | CS101   |
 | 1          | Alice | MATH201 |
+
+</div>
 
 ### Second Normal Form (2NF)
 
@@ -186,9 +202,13 @@ A partial dependency exists when a non-key attribute depends on only part of a c
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | course_id | student_name | course_title |
 | ---------- | --------- | ------------ | ------------ |
 | 1          | CS101     | Alice        | Programming  |
+
+</div>
 
 Composite key: (student_id, course_id).
 
@@ -209,9 +229,13 @@ A transitive dependency: $A \to B \to C$ (where $A$ is a key, $B$ and $C$ are no
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | student_id | name  | department | dept_location |
 | ---------- | ----- | ---------- | ------------- |
 | 1          | Alice | CS         | Building A    |
+
+</div>
 
 Key: student_id.
 
@@ -254,12 +278,16 @@ it).
 
 ### Normalisation Summary
 
+<div class="table-wrap">
+
 | Form | Requirement                                     | Eliminates              |
 | ---- | ----------------------------------------------- | ----------------------- |
 | 1NF  | Atomic values                                   | Repeating groups        |
 | 2NF  | 1NF + no partial dependencies on composite keys | Partial dependencies    |
 | 3NF  | 2NF + no transitive dependencies                | Transitive dependencies |
 | BCNF | 3NF + every determinant is a candidate key      | Remaining anomalies     |
+
+</div>
 
 :::note
 - **AQA** requires SQL (SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY), normalisation to 3NF, and
@@ -277,12 +305,16 @@ it).
 
 Transactions in a database must satisfy the **ACID** properties:
 
+<div class="table-wrap">
+
 | Property    | Description                                                                 |
 | ----------- | --------------------------------------------------------------------------- |
 | Atomicity   | A transaction is all-or-nothing, either all operations complete or none do |
 | Consistency | The database transitions from one valid state to another                    |
 | Isolation   | Concurrent transactions do not interfere with each other                    |
 | Durability  | Once a transaction commits, its effects are permanent (survive crashes)     |
+
+</div>
 
 ### Example: Bank Transfer
 
@@ -327,11 +359,15 @@ Resolved into:
 
 **Problem 1.** Given the following unnormalised table, normalise it to 3NF.
 
+<div class="table-wrap">
+
 | OrderID | CustomerName | CustomerCity | Product | Quantity | ProductPrice |
 | ------- | ------------ | ------------ | ------- | -------- | ------------ |
 | 1       | Alice        | London       | Book    | 2        | 15           |
 | 1       | Alice        | London       | Pen     | 5        | 2            |
 | 2       | Bob          | Paris        | Book    | 1        | 15           |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -398,10 +434,14 @@ LIMIT 1;
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Clause | Applied to      | Timing          | Filters                  |
 | ------ | --------------- | --------------- | ------------------------ |
 | WHERE  | Individual rows | Before grouping | Rows before aggregation  |
 | HAVING | Groups          | After grouping  | Groups after aggregation |
+
+</div>
 
 `WHERE` filters rows before `GROUP BY` is applied. `HAVING` filters the groups created by
 `GROUP BY`.
@@ -570,6 +610,8 @@ when dependency preservation is critical.
 **Problem 1.** Given the following `Employees` table, write an SQL query to find all employees in
 The 'Sales' department who earn more than 45000.
 
+<div class="table-wrap">
+
 | emp_id | name  | department | salary |
 | ------ | ----- | ---------- | ------ |
 | 1      | Alice | Sales      | 50000  |
@@ -577,6 +619,8 @@ The 'Sales' department who earn more than 45000.
 | 3      | Carol | Sales      | 42000  |
 | 4      | Dave  | Sales      | 48000  |
 | 5      | Eve   | IT         | 60000  |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -596,10 +640,14 @@ WHERE department = 'Sales' AND salary > 45000;
 
 Result:
 
+<div class="table-wrap">
+
 | name  | salary |
 | ----- | ------ |
 | Alice | 50000  |
 | Dave  | 48000  |
+
+</div>
 
 The WHERE clause filters rows where both conditions are true simultaneously: the employee must be in
 Sales AND earn more than 45000. Carol is excluded because her salary (42000) is not > 45000. Bob and
@@ -612,13 +660,19 @@ JOIN to list each student's name alongside the titles of all courses they are en
 
 **Students:**
 
+<div class="table-wrap">
+
 | student_id | name  |
 | ---------- | ----- |
 | 1          | Alice |
 | 2          | Bob   |
 | 3          | Carol |
 
+</div>
+
 **Enrolments:**
+
+<div class="table-wrap">
 
 | enrolment_id | student_id | course_id |
 | ------------ | ---------- | --------- |
@@ -627,13 +681,19 @@ JOIN to list each student's name alongside the titles of all courses they are en
 | 3            | 2          | CS101     |
 | 4            | 2          | PHYS101   |
 
+</div>
+
 **Courses:**
+
+<div class="table-wrap">
 
 | course_id | title               |
 | --------- | ------------------- |
 | CS101     | Computer Science    |
 | MATH201   | Linear Algebra      |
 | PHYS101   | Classical Mechanics |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -656,12 +716,16 @@ ORDER BY Students.name, Courses.title;
 
 Result:
 
+<div class="table-wrap">
+
 | name  | title               |
 | ----- | ------------------- |
 | Alice | Computer Science    |
 | Alice | Linear Algebra      |
 | Bob   | Classical Mechanics |
 | Bob   | Computer Science    |
+
+</div>
 
 Carol does not appear because she has no enrolments, and INNER JOIN excludes unmatched rows. If we
 Wanted Carol to appear with NULL values, we would use LEFT JOIN starting from Students.
@@ -671,11 +735,15 @@ Wanted Carol to appear with NULL values, we would use LEFT JOIN starting from St
 **Problem 3.** The following table stores information about hospital patients. Identify all
 Functional dependencies and normalise the table to 2NF.
 
+<div class="table-wrap">
+
 | patient_id | patient_name | ward_id | ward_name  | doctor_id | doctor_name |
 | ---------- | ------------ | ------- | ---------- | --------- | ----------- |
 | P001       | John Smith   | W01     | Cardiology | D001      | Dr Adams    |
 | P002       | Jane Doe     | W01     | Cardiology | D002      | Dr Brown    |
 | P003       | Bob Wilson   | W02     | Neurology  | D001      | Dr Adams    |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -725,11 +793,15 @@ Each table is now in 3NF with no transitive dependencies.
 **Problem 4.** The following table records module results for university students. Identify all
 Functional dependencies and normalise to 3NF.
 
+<div class="table-wrap">
+
 | student_id | student_name | module_code | module_title | credits | lecturer | grade |
 | ---------- | ------------ | ----------- | ------------ | ------- | -------- | ----- |
 | S001       | Alice        | CS101       | Programming  | 20      | Dr Lee   | A     |
 | S001       | Alice        | CS201       | Databases    | 20      | Dr Patel | B     |
 | S002       | Bob          | CS101       | Programming  | 20      | Dr Lee   | C     |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -864,10 +936,14 @@ Mean the "Many" side (Booking) holds the foreign keys.
 
 **Foreign keys in the Booking table:**
 
+<div class="table-wrap">
+
 | Foreign Key Column | References       | Reason                                                           |
 | ------------------ | ---------------- | ---------------------------------------------------------------- |
 | guest_id           | Guest.guest_id   | Each booking belongs to one guest (1:Many from Guest to Booking) |
 | room_number        | Room.room_number | Each booking is for one room (1:Many from Room to Booking)       |
+
+</div>
 
 **Explanation:**
 
@@ -893,6 +969,8 @@ Relationships.
 Product: (id=6, name='Monitor', category='Electronics', price=299.99) (b) Update the price of
 'Keyboard' to 45.00 (c) Delete all products in the 'Furniture' category
 
+<div class="table-wrap">
+
 | product_id | name     | category    | price  |
 | ---------- | -------- | ----------- | ------ |
 | 1          | Laptop   | Electronics | 999.99 |
@@ -900,6 +978,8 @@ Product: (id=6, name='Monitor', category='Electronics', price=299.99) (b) Update
 | 3          | Desk     | Furniture   | 249.99 |
 | 4          | Chair    | Furniture   | 199.99 |
 | 5          | Mouse    | Electronics | 29.99  |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -940,12 +1020,16 @@ This removes rows where product_id is 3 (Desk) and 4 (Chair).
 
 **Final table state:**
 
+<div class="table-wrap">
+
 | product_id | name     | category    | price  |
 | ---------- | -------- | ----------- | ------ |
 | 1          | Laptop   | Electronics | 999.99 |
 | 2          | Keyboard | Electronics | 45.00  |
 | 5          | Mouse    | Electronics | 29.99  |
 | 6          | Monitor  | Electronics | 299.99 |
+
+</div>
 
 </details>
 
@@ -1135,11 +1219,15 @@ ORDER BY total_salary DESC;
 
 Example result:
 
+<div class="table-wrap">
+
 | dept_name | total_salary |
 | --------- | ------------ |
 | IT        | 165000.00    |
 | Sales     | 142000.00    |
 | HR        | 98000.00     |
+
+</div>
 
 </details>
 

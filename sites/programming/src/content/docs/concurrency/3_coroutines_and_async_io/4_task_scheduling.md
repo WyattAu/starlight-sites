@@ -70,6 +70,8 @@ Threads, which cooperative scheduling does not create.
 
 ### Comparison with Thread-Based Concurrency
 
+<div class="table-wrap">
+
 | Property            | Thread-Based                | Cooperative Coroutines        |
 | :------------------ | :-------------------------- | :---------------------------- |
 | Context switch cost | ~1-10 $\mu$ S (kernel)       | ~10-100 ns (user-space)       |
@@ -80,6 +82,8 @@ Threads, which cooperative scheduling does not create.
 | Debugging           | Harder (timing-dependent)   | Easier (deterministic order)  |
 | CPU-bound work      | Good (parallel)             | Poor (single thread)          |
 | I/O-bound work      | Good (blocked thread freed) | Excellent (zero-cost suspend) |
+
+</div>
 
 ## Coroutine-Based Pipeline Processing
 
@@ -231,6 +235,8 @@ int main() {
 
 ## Async/Await Patterns Across Languages
 
+<div class="table-wrap">
+
 | Language   | Keyword(s)                      | Execution model                  | Cancellation            | Error handling        |
 | :--------- | :------------------------------ | :------------------------------- | :---------------------- | :-------------------- |
 | C++20      | `co_await``co_return``co_yield` | Stackless, manual scheduling     | `std::stop_token`       | Exception propagation |
@@ -238,6 +244,8 @@ int main() {
 | Python     | `async def``await`              | Event loop (`asyncio`)           | `asyncio.Task.cancel()` | `try/except`          |
 | Rust       | `.await`                        | Async runtime (tokio, async-std) | `CancellationToken`     | `?` operator          |
 | C#         | `async``await`                  | ThreadPool / IOCP                | `CancellationToken`     | `try/catch`           |
+
+</div>
 
 C++ is unique in providing **no built-in executor or event loop**. The coroutine machinery is
 Deliberately low-level, the standard provides only the suspension/resumption primitives, and

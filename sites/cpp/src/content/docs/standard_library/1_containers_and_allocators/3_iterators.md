@@ -44,6 +44,8 @@ $$
 
 Each category adds capabilities:
 
+<div class="table-wrap">
+
 | Category                        | Capabilities [N4950 §25.3.4]                           |
 | ------------------------------- | ------------------------------------------------------ |
 | **LegacyInputIterator**         | `++it``*it``it == end`Single-pass                      |
@@ -52,6 +54,8 @@ Each category adds capabilities:
 | **LegacyBidirectionalIterator** | `--it`Multi-pass                                       |
 | **LegacyRandomAccessIterator**  | `it + n``it - n``it[n]``&lt;``&gt;``&lt;=``&gt;=`      |
 | **LegacyContiguousIterator**    | Points to contiguous elements (e.g., vector iterators) |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -89,6 +93,8 @@ int main() {
 Every iterator must expose a set of associated types through `std::iterator_traits` [N4950 §25.3.3].
 These traits allow algorithms to determine iterator properties at compile time:
 
+<div class="table-wrap">
+
 | Trait               | Description                                              |
 | ------------------- | -------------------------------------------------------- |
 | `difference_type`   | Signed integer type for distance between iterators       |
@@ -96,6 +102,8 @@ These traits allow algorithms to determine iterator properties at compile time:
 | `pointer`           | Pointer-to-element type                                  |
 | `reference`         | Reference-to-element type                                |
 | `iterator_category` | Legacy category tag (e.g., `random_access_iterator_tag`) |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -232,6 +240,8 @@ int main() {
 Understanding iterator invalidation is critical for correctness. The rules vary by container type
 and operation [N4950 §22]:
 
+<div class="table-wrap">
+
 | Container                       | Reallocation               | Insert (middle)            | Erase                 | push_back                        |
 | ------------------------------- | -------------------------- | -------------------------- | --------------------- | -------------------------------- |
 | `vector`                        | All invalidated            | All invalidated            | At/after erased       | May invalidate all               |
@@ -240,6 +250,8 @@ and operation [N4950 §22]:
 | `forward_list`                  | N/A                        | Valid                      | Only erased           | Valid                            |
 | `map`/`set`                     | N/A                        | Valid                      | Only erased           | N/A                              |
 | `unordered_map`/`unordered_set` | On rehash: all invalidated | On rehash: all invalidated | Only erased           | On rehash: all invalidated       |
+
+</div>
 
 ```cpp
 #include <vector>
@@ -378,6 +390,8 @@ int main() {
 
 ### Algorithm Requirements Quick Reference
 
+<div class="table-wrap">
+
 | Algorithm               | Minimum Iterator Requirement             |
 | ----------------------- | ---------------------------------------- |
 | `std::find`             | Input                                    |
@@ -395,6 +409,8 @@ int main() {
 | `std::binary_search`    | RandomAccess                             |
 | `std::shuffle`          | RandomAccess                             |
 | `std::stable_sort`      | RandomAccess                             |
+
+</div>
 
 ### Proxy Iterators
 

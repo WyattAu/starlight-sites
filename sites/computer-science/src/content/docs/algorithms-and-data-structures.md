@@ -152,6 +152,8 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 
 ### 1.2 Common Complexity Classes
 
+<div class="table-wrap">
+
 | Class         | Name        | Example                          |
 | ------------- | ----------- | -------------------------------- |
 | $O(1)$        | Constant    | Array access by index            |
@@ -162,6 +164,8 @@ Total iterations: $\sum_{i=1}^{n} \sum_{j=1}^{i} j = \sum_{i=1}^{n} \frac{i(i+1)
 | $O(n^3)$      | Cubic       | Naive matrix multiplication      |
 | $O(2^n)$      | Exponential | Naive Fibonacci, subset problems |
 | $O(n!)$       | Factorial   | Generating all permutations      |
+
+</div>
 
 **Proposition 1.6.** These classes form a strict hierarchy:
 $$
@@ -314,6 +318,8 @@ bounded by a constant.
 
 **Array.** Contiguous memory, $O(1)$ access by index, $O(n)$ insertion/deletion (shift required).
 
+<div class="table-wrap">
+
 | Operation          | Array  | Singly Linked List | Doubly Linked List |
 | ------------------ | ------ | ------------------ | ------------------ |
 | Access by index    | $O(1)$ | $O(n)$             | $O(n)$             |
@@ -324,6 +330,8 @@ bounded by a constant.
 | Delete at tail     | $O(n)$ | $O(n)$             | $O(1)$\*           |
 | Insert at position | $O(n)$ | $O(n)$             | $O(1)$\*           |
 | Space overhead     | $0$    | $O(n)$             | $O(n)$             |
+
+</div>
 
 \*Given a pointer to the node or its predecessor.
 
@@ -818,6 +826,8 @@ A graph $G = (V, E)$ can be represented by:
 - **Adjacency list:** For each vertex, store a list of neighbours. Space: $O(V + E)$. Iterating over
   neighbours: $O(\mathrm{deg}(v))$.
 
+<div class="table-wrap">
+
 | Operation          | Adjacency Matrix | Adjacency List       |
 | ------------------ | ---------------- | -------------------- |
 | Space              | $O(V^2)$         | $O(V + E)$           |
@@ -825,6 +835,8 @@ A graph $G = (V, E)$ can be represented by:
 | Iterate neighbours | $O(V)$           | $O(\mathrm{deg}(v))$ |
 | Add edge           | $O(1)$           | $O(1)$               |
 | Remove edge        | $O(1)$           | $O(\mathrm{deg}(u))$ |
+
+</div>
 
 :::caution
 asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$) and adjacency lists
@@ -1073,6 +1085,8 @@ and cannot sort arbitrary objects.
 
 ### 3.8 Comparison of Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
 | ------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Merge Sort    | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
@@ -1080,6 +1094,8 @@ and cannot sort arbitrary objects.
 | Heapsort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
+
+</div>
 
 ## 4. Graph Algorithms
 
@@ -1580,6 +1596,8 @@ Dynamic programming (DP) solves problems by:
 
 ### 5.2 Memoisation vs. Tabulation
 
+<div class="table-wrap">
+
 | Aspect      | Memoisation (Top-Down)          | Tabulation (Bottom-Up) |
 | ----------- | ------------------------------- | ---------------------- |
 | Approach    | Recursive with cache            | Iterative table fill   |
@@ -1588,6 +1606,8 @@ Dynamic programming (DP) solves problems by:
 | Overhead    | Function call overhead          | Minimal                |
 | Subproblems | Computes only needed            | Computes all           |
 | Best for    | When not all subproblems needed | When all needed        |
+
+</div>
 
 **When to use which:**
 
@@ -2014,11 +2034,15 @@ $\\{S_3, S_5, S_2\\}$ Size 3. Here greedy is optimal, but it is a $\ln n$-approx
 **Monte Carlo algorithms** always run in polynomial time but may produce incorrect answers with some
 probability.
 
+<div class="table-wrap">
+
 | Property     | Las Vegas            | Monte Carlo            |
 | ------------ | -------------------- | ---------------------- |
 | Correctness  | Always correct       | Bounded error prob     |
 | Running time | Randomised           | Bounded                |
 | Example      | Randomised Quicksort | Miller-Rabin primality |
+
+</div>
 
 **Theorem 6.6.** A Monte Carlo algorithm with error probability $\epsilon$ can be amplified to error
 probability $\epsilon^k$ by running it $k$ times and taking the majority vote (for decision problems
@@ -2346,6 +2370,8 @@ import { Citation } from "@components/Citations.astro"
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                            |
 | ------------------------ | ----------- | ------------------------------------------------------------------------------- |
 | Advanced Algorithms      | WyattsNotes | [View](/2-algorithms-and-data-structures/9_algorithms-advanced/)                          |
@@ -2354,6 +2380,8 @@ import { Citation } from "@components/Citations.astro"
 | Theory of Computation    | WyattsNotes | [View](/theory-of-computation/)                        |
 | Algorithms, MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
 | AP Calculus              | AP          | [View](https://ib.wyattau.com/maths/maths/)                                                             |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -81,12 +81,16 @@ chirality). Examples: Na$_3$Bi, Cd$_3$As$_2$.
 
 ### 13.4 Key Relationships
 
+<div class="table-wrap">
+
 | Material class        | Bulk gap | Surface states | Topological invariant |
 | --------------------- | -------- | -------------- | --------------------- |
 | Trivial insulator     | Yes      | None           | $\nu = 0$             |
 | Topological insulator | Yes      | Gapless Dirac  | $\nu = 1$             |
 | Weyl semimetal        | No       | Fermi arcs     | Chern number          |
 | Dirac semimetal       | No       | Bulk Dirac pts | None (protected by symmetry) |
+
+</div>
 
 ### 13.5 Common Pitfalls
 
@@ -157,7 +161,7 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 - **[Transport Properties](/6-solid-state-physics/8_transport-properties/)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

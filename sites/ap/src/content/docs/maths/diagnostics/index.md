@@ -100,6 +100,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 - **Chain rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
 
 **Common derivatives:**
+<div class="table-wrap">
+
 | Function | Derivative |
 |----------|------------|
 | $x^n$ | $nx^{n-1}$ |
@@ -108,6 +110,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 | $\tan x$ | $\sec^2 x$ |
 | $e^x$ | $e^x$ |
 | $\ln x$ | $\frac{1}{x}$ |
+
+</div>
 
 **Applications of derivatives:**
 - **Critical points:** $f'(c) = 0$ or $f'(c)$ does not exist. Use the first or second derivative test to classify as local maximum, local minimum, or neither.
@@ -180,6 +184,8 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 
 **Key convergence tests:**
 
+<div class="table-wrap">
+
 | Test | When to Use | Result |
 |------|-------------|--------|
 | Geometric series | $\sum ar^n$ | Converges if $\|r\| < 1$, sum $= \frac{a}{1-r}$ |
@@ -189,6 +195,8 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 | Comparison test | Compare with known series | If $0 \leq a_n \leq b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges |
 | Ratio test | Factorials, exponentials | If $\lim \left\|\frac{a_{n+1}}{a_n}\right\| = L$: converges if $L < 1$, diverges if $L > 1$ |
 | Alternating series | $\sum (-1)^n b_n$ with $b_n > 0$ | Converges if $b_n$ is decreasing and $\lim b_n = 0$ |
+
+</div>
 
 **Taylor series:** The Taylor series of $f$ centred at $a$ is:
 

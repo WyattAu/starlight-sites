@@ -62,6 +62,8 @@ Air of the Ferrel cell, rising at the polar front.
 
 The three-cell model produces a characteristic pattern of pressure belts and wind systems:
 
+<div class="table-wrap">
+
 | Latitude               | Pressure System                                 | Surface Winds                    | Climate Characteristics                       |
 | ---------------------- | ----------------------------------------------- | -------------------------------- | --------------------------------------------- |
 | 0$^\circ$              | Equatorial low (ITCZ)                           | Variable, light (doldrums)       | Hot, wet, convective rainfall                 |
@@ -69,6 +71,8 @@ The three-cell model produces a characteristic pattern of pressure belts and win
 | 30$^\circ$--60$^\circ$ | Variable (mid-latitude cyclones)                | Prevailing westerlies            | Variable; seasonal; cyclonic rainfall         |
 | 60$^\circ$             | Subpolar low (polar front)                      | Convergence zone                 | Cool, wet, stormy                             |
 | 60$^\circ$--90$^\circ$ | Polar high                                      | Polar easterlies                 | Cold, dry                                     |
+
+</div>
 
 ### Limitations of the Three-Cell Model
 
@@ -161,6 +165,8 @@ in the Southern Hemisphere.
 
 **Major surface currents and their climatic effects:**
 
+<div class="table-wrap">
+
 | Current                     | Type | Region                                           | Climatic Effect                                                                                                                                                        |
 | --------------------------- | ---- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Gulf Stream**             | Warm | North Atlantic (Florida to north-west Europe)    | Raises winter temperatures in western Europe by 5--10$^\circ$C relative to comparable latitudes (e.g., the UK is at similar latitudes to Labrador, but is much warmer) |
@@ -169,6 +175,8 @@ in the Southern Hemisphere.
 | **Humboldt (Peru) Current** | Cold | South Pacific (west coast of South America)      | Produces the arid Atacama Desert; supports one of the world's most productive fisheries                                                                                |
 | **Benguela Current**        | Cold | South Atlantic (west coast of southern Africa)   | Contributes to the aridity of the Namib Desert; supports productive fisheries                                                                                          |
 | **Canary Current**          | Cold | North Atlantic (west coast of north-west Africa) | Contributes to the aridity of the Sahara's western margin                                                                                                              |
+
+</div>
 
 ### Thermohaline Circulation (THC)
 
@@ -220,6 +228,8 @@ eastern Pacific by 1--3$^\circ$C.
 
 **Global impacts of El Nino:**
 
+<div class="table-wrap">
+
 | Region                                | Impact                                                                                                           |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **South America (west coast)**        | Heavy rainfall and flooding in Peru and Ecuador; reduced upwelling devastates anchovy fisheries                  |
@@ -229,6 +239,8 @@ eastern Pacific by 1--3$^\circ$C.
 | **Southern Africa**                   | Drought; reduced crop yields                                                                                     |
 | **North America (southern USA)**      | Increased rainfall and storminess in southern states; warmer and drier conditions in the Pacific Northwest       |
 | **Global temperature**                | El Nino years tend to be warmer globally (the warmest year on record, 2023, was amplified by El Nino conditions) |
+
+</div>
 
 ### La Nina
 

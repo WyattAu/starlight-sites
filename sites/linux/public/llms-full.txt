@@ -37,6 +37,8 @@ fi
 
 Three test constructs exist, with important differences:
 
+<div class="table-wrap">
+
 | Feature             | `[ ]` (POSIX test) | `[[ ]]` (bash)      |
 | ------------------- | ------------------ | ------------------- |
 | Word splitting      | Yes (quote vars)   | No                  |
@@ -45,6 +47,8 @@ Three test constructs exist, with important differences:
 | Regex matching      | No                 | Yes (`=~`)          |
 | Logical operators   | `-a``-o`           | `&&``\|\|`          |
 | Empty string safety | Requires quoting   | Safe without quotes |
+
+</div>
 
 ```bash
 ## POSIX test, requires quoting
@@ -809,6 +813,8 @@ done
 
 ### Signal Reference
 
+<div class="table-wrap">
+
 | Signal  | Number | Description             | Default Action |
 | ------- | ------ | ----------------------- | -------------- |
 | SIGHUP  | 1      | Terminal hangup         | Terminate      |
@@ -821,6 +827,8 @@ done
 | SIGPIPE | 13     | Broken pipe             | Terminate      |
 | SIGSTOP | 19     | Stop (cannot be caught) | Stop           |
 | SIGTSTP | 20     | Stop (Ctrl+Z)           | Stop           |
+
+</div>
 
 ```bash
 # List all signals
@@ -853,6 +861,8 @@ echo "$VAR"
 
 Common shellcheck warnings and fixes:
 
+<div class="table-wrap">
+
 | Code   | Issue                                    | Fix                               |
 | ------ | ---------------------------------------- | --------------------------------- |
 | SC2086 | Double-quote to prevent globbing         | `"$VAR"` instead of `$VAR`        |
@@ -861,6 +871,8 @@ Common shellcheck warnings and fixes:
 | SC2034 | Variable appears unused                  | Remove or use the variable        |
 | SC2155 | Declare and assign separately            | Split `local a=$(cmd)` into two   |
 | SC1091 | Not following sourced file               | Add `# shellcheck source=...`     |
+
+</div>
 
 ### Quoting
 
@@ -1241,11 +1253,15 @@ Competency.
 `grep` searches input lines for patterns matching a regular expression and prints matching lines.
 Three main variants exist:
 
+<div class="table-wrap">
+
 | Variant   | Regex Flavor | Description                         |
 | --------- | ------------ | ----------------------------------- |
 | `grep`    | BRE          | Basic Regular Expressions (default) |
 | `grep -E` | ERE          | Extended Regular Expressions        |
 | `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
+
+</div>
 
 ```bash
 ## Basic pattern matching
@@ -1287,6 +1303,8 @@ grep --color=always "pattern" file
 
 #### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Feature             | BRE      | ERE     | PCRE                     |
 | ------------------- | -------- | ------- | ------------------------ |
 | Literal match       | `abc`    | `abc`   | `abc`                    |
@@ -1303,6 +1321,8 @@ grep --color=always "pattern" file
 | Named capture       | No       | No      | `(?P&lt;name&gt;...)`    |
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
+
+</div>
 
 :::caution
 special meaning. In ERE, the reverse is true, they are special by default and must be escaped To be
@@ -1590,12 +1610,16 @@ find . -name "*.log" -print0 | xargs -0 -P 4 gzip
 find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 ```
 
+<div class="table-wrap">
+
 | Method            | Invocation Count | Safety             | Use Case                           |
 | ----------------- | ---------------- | ------------------ | ---------------------------------- |
 | `-exec {} \;`     | Once per file    | Safest             | Few files, complex commands        |
 | `-exec {} +`      | Batched          | Safe               | Many files, simple commands        |
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
+
+</div>
 :::
 
 :::caution
@@ -1730,6 +1754,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 
 ### Compression Formats
 
+<div class="table-wrap">
+
 | Format | Command           | Compression     | Speed     | Typical Ratio |
 | ------ | ----------------- | --------------- | --------- | ------------- |
 | gzip   | `gzip`/`gunzip`   | Deflate         | Fast      | 5:1 - 8:1     |
@@ -1737,6 +1763,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 | xz     | `xz`/`unxz`       | LZMA2           | Slower    | 10:1 - 15:1   |
 | zstd   | `zstd`/`unzstd`   | Zstandard       | Fastest   | 5:1 - 10:1    |
 | lz4    | `lz4`/`unlz4`     | LZ4             | Very fast | 3:1 - 5:1     |
+
+</div>
 
 ```bash
 # gzip
@@ -1808,6 +1836,8 @@ Type   Owner    Group    Other
 -       rwx      r-x      r--
 ```
 
+<div class="table-wrap">
+
 | Bit Position | Name      | Value | Description                            |
 | ------------ | --------- | ----- | -------------------------------------- |
 | 0-2          | Other     | 0-7   | Permissions for others                 |
@@ -1815,7 +1845,11 @@ Type   Owner    Group    Other
 | 6-8          | Owner     | 0-7   | Permissions for file owner             |
 | 9-11         | File type |,     | Regular file, directory, symlink, etc. |
 
+</div>
+
 Each permission triplet:
+
+<div class="table-wrap">
 
 | Octal | Binary | Permissions            |
 | ----- | ------ | ---------------------- |
@@ -1827,6 +1861,8 @@ Each permission triplet:
 | 5     | 101    | Read + Execute         |
 | 6     | 110    | Read + Write           |
 | 7     | 111    | Read + Write + Execute |
+
+</div>
 
 ```bash
 # Symbolic mode
@@ -1851,11 +1887,15 @@ chmod --reference=reference_file target_file
 
 ### Special Permission Bits
 
+<div class="table-wrap">
+
 | Bit    | Octal | Name   | Effect on Files       | Effect on Directories       |
 | ------ | ----- | ------ | --------------------- | --------------------------- |
 | setuid | 4000  | SUID   | Execute as file owner |,                           |
 | setgid | 2000  | SGID   | Execute as file group | New files inherit group     |
 | sticky | 1000  | Sticky |,                     | Only owner can delete files |
+
+</div>
 
 ```bash
 # Set SUID (execute as owner)
@@ -2143,6 +2183,8 @@ script with `./script.sh`. The shebang line determines which interpreter process
 
 ### Interactive vs Non-Interactive
 
+<div class="table-wrap">
+
 | Aspect            | Interactive                           | Non-Interactive                        |
 | ----------------- | ------------------------------------- | -------------------------------------- |
 | **Startup files** | `.bashrc``.profile``/etc/bash.bashrc` | Only `BASH_ENV` variable if set        |
@@ -2151,6 +2193,8 @@ script with `./script.sh`. The shebang line determines which interpreter process
 | **Line editing**  | Readline active (`readline` library)  | Not active                             |
 | **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
 | **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
+
+</div>
 
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
@@ -2186,6 +2230,8 @@ POSIX specifies a shell standard (IEEE 1003.1, also known as the Single UNIX Spe
 Largely POSIX-compliant but adds extensions. When writing portable scripts, target POSIX sh. When
 Writing for known-bash environments, use bash features deliberately.
 
+<div class="table-wrap">
+
 | Feature                | POSIX sh | Bash                        |
 | ---------------------- | -------- | --------------------------- |
 | Arrays                 | No       | Yes (`arr=()`)              |
@@ -2196,6 +2242,8 @@ Writing for known-bash environments, use bash features deliberately.
 | `[[ $a =~ $re ]]`      | No       | Yes (regex matching)        |
 | `${var:offset:length}` | No       | Yes (substring expansion)   |
 | `&\>\&2` redirection   | No       | Yes                         |
+
+</div>
 
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
 Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
@@ -2237,11 +2285,15 @@ are no matching files, the shell behavior depends on the `nullglob` option.
 
 Every process in Linux has three standard file descriptors at startup:
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description             |
 | --- | ------ | ------------------- | ----------------------- |
 | 0   | stdin  | Keyboard            | Input stream            |
 | 1   | stdout | Terminal            | Normal output           |
 | 2   | stderr | Terminal            | Error/diagnostic output |
+
+</div>
 
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
 here-document.
@@ -2368,6 +2420,8 @@ The shell expands glob patterns into matching filenames before passing them to t
 Fundamentally different from regex, globbing operates on filenames in the filesystem, not on
 Arbitrary text.
 
+<div class="table-wrap">
+
 | Pattern  | Meaning                                         | Example     | Matches                     |
 | -------- | ----------------------------------------------- | ----------- | --------------------------- |
 | `*`      | Any sequence of characters (except leading dot) | `*.log`     | `app.log``error.log`        |
@@ -2376,6 +2430,8 @@ Arbitrary text.
 | `[a-z]`  | One character from the range                    | `[a-m]*`    | `apple``banana``middle`     |
 | `[!abc]` | One character NOT in the set                    | `[!0-9]*`   | `file``name`                |
 | `**`     | Recursive glob (bash 4.0+, `globstar` option)   | `**/*.py`   | All `.py` files recursively |
+
+</div>
 
 ```bash
 # Enable recursive globbing
@@ -2401,6 +2457,8 @@ The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob
 
 Extended globbing provides pattern matching similar to regex quantifiers:
 
+<div class="table-wrap">
+
 | Pattern                 | Meaning                           | Regex equivalent   |
 | ----------------------- | --------------------------------- | ------------------ |
 | `?(pattern)`            | Match zero or one occurrence      | `pattern?`         |
@@ -2408,6 +2466,8 @@ Extended globbing provides pattern matching similar to regex quantifiers:
 | `+(pattern)`            | Match one or more occurrences     | `pattern+`         |
 | `@(pattern1\|pattern2)` | Match exactly one of the patterns | `(p1\|p2)`         |
 | `!(pattern)`            | Match anything except the pattern | Negative lookahead |
+
+</div>
 
 ```bash
 shopt -s extglob
@@ -2536,6 +2596,8 @@ unset MY_VAR
 
 ### Special Shell Variables
 
+<div class="table-wrap">
+
 | Variable | Meaning                                                    |
 | -------- | ---------------------------------------------------------- |
 | `$?`     | Exit status of the last command (0 = success)              |
@@ -2551,6 +2613,8 @@ unset MY_VAR
 | `${10}`  | Positional parameter 10+ (must use braces)                 |
 | `IFS`    | Internal Field Separator (default: space, tab, newline)    |
 | `PATH`   | Colon-separated list of directories to search for commands |
+
+</div>
 
 ### Parameter Expansion
 
@@ -2604,6 +2668,8 @@ echo "${VAR,,}"
 
 ### Common Environment Files
 
+<div class="table-wrap">
+
 | File               | Sourced by                    | Purpose                             |
 | ------------------ | ----------------------------- | ----------------------------------- |
 | `/etc/environment` | PAM                           | System-wide environment variables   |
@@ -2614,6 +2680,8 @@ echo "${VAR,,}"
 | `~/.bash_profile`  | Login shells (bash)           | Alternative to `.profile`           |
 | `~/.bash_login`    | Login shells (bash, fallback) | Fallback if `.bash_profile` missing |
 | `/etc/profile.d/*` | `/etc/profile`                | Drop-in system scripts              |
+
+</div>
 
 ## Shell Scripting
 
@@ -2639,11 +2707,15 @@ is treated as a single argument to `env`.
 
 Quoting controls word splitting and globbing. The rules are:
 
+<div class="table-wrap">
+
 | Quote Type  | Expansions Performed                                  |
 | ----------- | ----------------------------------------------------- |
 | No quotes   | All expansions, word splitting, globbing              |
 | Double `""` | Parameter expansion, command substitution, arithmetic |
 | Single `''` | None, literal string                                 |
+
+</div>
 
 ```bash
 VAR="hello world"
@@ -3020,11 +3092,15 @@ with different capabilities and syntax.
 
 ### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
 | ------ | --------------- | ------------------ | ----------------------------- | ---------- |
 | BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |
+
+</div>
 
 ```text
 BRE:  \{1,3\}    \+    \?    \(group\)
@@ -4092,13 +4168,19 @@ Operation.
 
 Each file has three categories of permissions, each with three bits:
 
+<div class="table-wrap">
+
 | Category      | Read (r)                                    | Write (w)                                     | Execute (x)                |
 | ------------- | ------------------------------------------- | --------------------------------------------- | -------------------------- |
 | **Owner (u)** | Read file contents / List directory entries | Modify file / Create/delete directory entries | Run file / Enter directory |
 | **Group (g)** | Same as owner for group members             | Same                                          | Same                       |
 | **Other (o)** | Same for everyone else                      | Same                                          | Same                       |
 
+</div>
+
 ### Octal Notation
+
+<div class="table-wrap">
 
 | Octal | Binary | Permission |
 | ----- | ------ | ---------- |
@@ -4111,7 +4193,11 @@ Each file has three categories of permissions, each with three bits:
 | 6     | 110    | rw-        |
 | 7     | 111    | rwx        |
 
+</div>
+
 Common permission sets:
+
+<div class="table-wrap">
 
 | Octal | Meaning   | Use Case                                    |
 | ----- | --------- | ------------------------------------------- |
@@ -4121,6 +4207,8 @@ Common permission sets:
 | 600   | rw------- | SSH keys, config files                      |
 | 400   | r-------- | Read-only secrets                           |
 | 711   | rwx--x--x | Public directories (listable only by owner) |
+
+</div>
 
 ### Viewing Permissions
 
@@ -4144,11 +4232,15 @@ stat /etc/passwd
 
 Directory permissions have different semantics than file permissions:
 
+<div class="table-wrap">
+
 | Permission | File                 | Directory                                      |
 | ---------- | -------------------- | ---------------------------------------------- |
 | r          | Read file contents   | List filenames (requires x)                    |
 | w          | Modify file contents | Create/delete/rename files (requires x)        |
 | x          | Execute as a program | Enter directory (cd), access inode information |
+
+</div>
 
 ```text
 To list directory contents:    r + x
@@ -4249,10 +4341,14 @@ Member of. This is enforced by the kernel: the `chown(2)` system call checks `ca
 The umask (user file creation mask) determines the default permissions for newly created files and
 Directories. It is a mask that is subtracted from the maximum permissions:
 
+<div class="table-wrap">
+
 | Creation     | Maximum | Applied as         | umask 0022 result |
 | ------------ | ------- | ------------------ | ----------------- |
 | Regular file | 0666    | 0666 & ~022 = 0644 | rw-r--r--         |
 | Directory    | 0777    | 0777 & ~022 = 0755 | rwxr-xr-x         |
+
+</div>
 
 ```bash
 # View current umask
@@ -4508,6 +4604,8 @@ Assignment without full root access.
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                      |
 | ---------------------- | ------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt;1024)              |
@@ -4521,6 +4619,8 @@ Assignment without full root access.
 | `CAP_SETGID`           | Set group ID                                     |
 | `CAP_KILL`             | Send signals to any process                      |
 | `CAP_SYSLOG`           | Use privileged syslog                            |
+
+</div>
 
 ### setcap and getcap
 
@@ -4584,6 +4684,8 @@ the ext4 filesystem (and others that support them) and cannot be overridden by r
 
 ### Common Attributes
 
+<div class="table-wrap">
+
 | Attribute | Description                                             |
 | --------- | ------------------------------------------------------- |
 | `a`       | Append only, file can only be opened for append        |
@@ -4594,6 +4696,8 @@ the ext4 filesystem (and others that support them) and cannot be overridden by r
 | `S`       | Synchronous updates, write changes to disk immediately |
 | `e`       | Extents format, uses extents (ext4 default)            |
 | `d`       | No dump, exclude from dump backups                     |
+
+</div>
 
 ### chattr and lsattr
 
@@ -4667,12 +4771,16 @@ rsync -aX /src/ /dest/
 
 Common extended attribute namespaces:
 
+<div class="table-wrap">
+
 | Namespace   | Description                                    |
 | ----------- | ---------------------------------------------- |
 | `user.`     | User-defined (any user can set on owned files) |
 | `system.`   | System-managed (POSIX ACLs stored here)        |
 | `security.` | SELinux labels stored here                     |
 | `trusted.`  | Kernel-managed, root only                      |
+
+</div>
 
 ## Permission Checking Algorithm
 
@@ -4941,12 +5049,16 @@ graph TD
 
 The VFS maintains four primary object types:
 
+<div class="table-wrap">
+
 | Object         | Description                                                        | Kernel Type          |
 | -------------- | ------------------------------------------------------------------ | -------------------- |
 | **superblock** | Describes a mounted file system (type, size, flags)                | `struct super_block` |
 | **inode**      | Represents a single file (metadata: permissions, size, timestamps) | `struct inode`       |
 | **dentry**     | Directory entry, maps a name to an inode                          | `struct dentry`      |
 | **file**       | Represents an open file (current offset, access mode)              | `struct file`        |
+
+</div>
 
 The dentry cache (dcache) holds the directory hierarchy in memory, avoiding disk lookups for
 Frequently accessed paths. The inode cache (icache) keeps recently accessed inodes in memory. Both
@@ -4974,6 +5086,8 @@ the inode itself).
 
 ### Inode Fields
 
+<div class="table-wrap">
+
 | Field        | Description                                       |
 | ------------ | ------------------------------------------------- |
 | `st_mode`    | File type and permissions (16 bits)               |
@@ -4988,6 +5102,8 @@ the inode itself).
 | `st_atim`    | Last access time (can be disabled with `noatime`) |
 | `st_mtim`    | Last modification time (data change)              |
 | `st_ctim`    | Last status change time (metadata change)         |
+
+</div>
 
 ### Hard Links and the Inode
 
@@ -5015,6 +5131,8 @@ stat file3.txt
 
 The file type is encoded in the upper bits of `st_mode`:
 
+<div class="table-wrap">
+
 | Octal  | Type              | Description                           |
 | ------ | ----------------- | ------------------------------------- |
 | 010000 | Regular file      | Normal data file                      |
@@ -5024,6 +5142,8 @@ The file type is encoded in the upper bits of `st_mode`:
 | 006000 | Block device      | Buffered access (e.g., `/dev/sda`)    |
 | 002000 | Character device  | Unbuffered access (e.g., `/dev/null`) |
 | 014000 | Socket            | Network communication endpoint        |
+
+</div>
 
 ```bash
 # Test file types
@@ -5047,6 +5167,8 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature             | ext4 Details                                          |
 | ------------------- | ----------------------------------------------------- |
 | **Max volume size** | 1 EiB (2^64 bytes theoretical, 64 TiB practical)      |
@@ -5057,6 +5179,8 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 | **Allocation**      | Extents (replaces indirect block mapping)             |
 | **Checksums**       | Journal checksums, metadata checksums (metadata_csum) |
 | **Timestamps**      | nanosecond granularity                                |
+
+</div>
 
 ### Extents
 
@@ -5079,11 +5203,15 @@ Extent descriptor:
 Ext4 uses a journal to ensure file system consistency after a crash. The journal records metadata
 Changes (and optionally data changes) before committing them to the main file system.
 
+<div class="table-wrap">
+
 | Journal Mode        | What is Journaled                                      | Performance | Safety  |
 | ------------------- | ------------------------------------------------------ | ----------- | ------- |
 | `ordered` (default) | Metadata only (data written before metadata committed) | Good        | High    |
 | `writeback`         | Metadata only (no ordering guarantee)                  | Best        | Medium  |
 | `journal`           | Both metadata and data                                 | Slowest     | Highest |
+
+</div>
 
 ```bash
 # View current journal mode
@@ -5144,6 +5272,8 @@ Media workloads, and databases.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature               | XFS Details                                             |
 | --------------------- | ------------------------------------------------------- |
 | **Max volume size**   | 16 EiB (8 EiB on 32-bit systems)                        |
@@ -5153,6 +5283,8 @@ Media workloads, and databases.
 | **Journaling**        | Metadata-only journal (separate log device supported)   |
 | **Allocation**        | B+tree-based extent allocation                          |
 | **Allocation Groups** | Independent regions for parallel allocation             |
+
+</div>
 
 ### Allocation Groups
 
@@ -5188,6 +5320,8 @@ Number of disk seeks required for lookups.
 
 ### XFS vs ext4
 
+<div class="table-wrap">
+
 | Aspect                 | ext4                            | XFS                                         |
 | ---------------------- | ------------------------------- | ------------------------------------------- |
 | **Volume resize**      | Can grow online, shrink offline | Can grow online, cannot shrink              |
@@ -5197,6 +5331,8 @@ Number of disk seeks required for lookups.
 | **Small files**        | Better                          | Good (more metadata overhead)               |
 | **Fragmentation**      | More susceptible                | Less (extents + AGs)                        |
 | **Snapshots**          | No native support               | No native support (use LVM/Btrfs)           |
+
+</div>
 
 ### XFS Tuning
 
@@ -5233,6 +5369,8 @@ and is used by Synology NAS systems.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature             | Btrfs Details                                            |
 | ------------------- | -------------------------------------------------------- |
 | **Copy-on-Write**   | All data and metadata writes are COW                     |
@@ -5243,6 +5381,8 @@ and is used by Synology NAS systems.
 | **Compression**     | LZ4 (default), ZSTD, LZO, ZLIB                           |
 | **Send/Receive**    | Efficient incremental snapshot transfer                  |
 | **Defragmentation** | Online defragmentation with `btrfs filesystem defrag`    |
+
+</div>
 
 ### Copy-on-Write (COW)
 
@@ -5369,6 +5509,8 @@ sequenceDiagram
 
 Common FUSE file systems:
 
+<div class="table-wrap">
+
 | File System  | Purpose                             |
 | ------------ | ----------------------------------- |
 | `sshfs`      | Mount remote directories over SSH   |
@@ -5378,6 +5520,8 @@ Common FUSE file systems:
 | `rclone`     | Mount cloud storage (S3, GCS, etc.) |
 | `fuseiso`    | Mount ISO images                    |
 | `exfat-fuse` | Read/write exFAT support            |
+
+</div>
 
 ```bash
 # Mount remote directory via SSH
@@ -5439,6 +5583,8 @@ UUID=ccc333-ddd444                           /swap          swap    defaults    
 tmpfs                                        /tmp           tmpfs   defaults,nosuid,nodev   0       0
 ```
 
+<div class="table-wrap">
+
 | Column      | Description                                                 |
 | ----------- | ----------------------------------------------------------- |
 | Device      | Device path, UUID=, LABEL=, or special (proc, sysfs, tmpfs) |
@@ -5448,7 +5594,11 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | Dump        | Whether to include in `dump` backups (0 = no, 1 = yes)      |
 | Pass        | `fsck` check order (0 = skip, 1 = root, 2 = others)         |
 
+</div>
+
 ### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                    |
 | --------------------- | --------------------------------------------------------- |
@@ -5466,6 +5616,8 @@ tmpfs                                        /tmp           tmpfs   defaults,nos
 | `users`               | Allow any user to mount (implies noexec, nosuid, nodev)   |
 | `nofail`              | Do not fail boot if device is missing                     |
 | `x-systemd.requires=` | systemd dependency declaration                            |
+
+</div>
 
 ### systemd Automount
 
@@ -5553,6 +5705,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
 ### Choosing the Right File System
 
+<div class="table-wrap">
+
 | Workload                      | Recommended FS | Rationale                                      |
 | ----------------------------- | -------------- | ---------------------------------------------- |
 | General-purpose server        | ext4           | Mature, well-tested, can shrink                |
@@ -5561,6 +5715,8 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 | Containers, overlays          | overlayfs      | Layered union mount, designed for containers   |
 | Temporary data, builds        | tmpfs          | RAM-backed, no disk I/O                        |
 | Removable media               | exFAT          | Cross-platform compatibility                   |
+
+</div>
 
 ### I/O Scheduler Selection
 
@@ -5572,6 +5728,8 @@ cat /sys/block/sda/queue/scheduler
 echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 ```
 
+<div class="table-wrap">
+
 | Scheduler     | Use Case                                    |
 | ------------- | ------------------------------------------- |
 | `mq-deadline` | General-purpose, spinning disks, SATA       |
@@ -5579,15 +5737,21 @@ echo 'mq-deadline' > /sys/block/sda/queue/scheduler
 | `bfq`         | Desktop interactivity, slow devices         |
 | `kyber`       | Fast block devices (NVMe)                   |
 
+</div>
+
 ### Block Size Selection
 
 Block size affects performance based on workload:
+
+<div class="table-wrap">
 
 | Block Size | Small Files (lots of &lt; 4 KiB) | Large Files (streaming) |
 | ---------- | -------------------------------- | ----------------------- |
 | 1 KiB      | Efficient (less wasted space)    | More I/O operations     |
 | 4 KiB      | Good balance                     | Good balance            |
 | 64 KiB     | Wasted space                     | Fewer I/O operations    |
+
+</div>
 
 For databases and VM images, larger block sizes reduce metadata overhead. For mail servers and
 Source code repositories, smaller block sizes reduce wasted space.
@@ -5754,6 +5918,8 @@ systemctl enable --now crond
 
 ### Special Strings
 
+<div class="table-wrap">
+
 | String      | Equivalent  | Description                     |
 | ----------- | ----------- | ------------------------------- |
 | `@yearly`   | `0 0 1 1 *` | Once per year                   |
@@ -5764,6 +5930,8 @@ systemctl enable --now crond
 | `@midnight` | `0 0 * * *` | Same as @daily                  |
 | `@hourly`   | `0 * * * *` | Once per hour                   |
 | `@reboot`   | (special)   | Run once at cron daemon startup |
+
+</div>
 
 ```bash
 # System backup every day at midnight
@@ -5991,6 +6159,8 @@ ls -la /var/spool/anacron/
 
 ### cron vs anacron
 
+<div class="table-wrap">
+
 | Feature      | cron                  | anacron                     |
 | ------------ | --------------------- | --------------------------- |
 | System type  | 24/7 servers          | Desktops, laptops           |
@@ -5999,6 +6169,8 @@ ls -la /var/spool/anacron/
 | Runs at      | Exact specified times | After boot (with delay)     |
 | Per-user     | Yes                   | No (system-wide only)       |
 | Suitable for | Precise scheduling    | Ensuring periodic tasks run |
+
+</div>
 
 ## systemd Timers
 
@@ -6098,6 +6270,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 
 ### systemd Timers vs cron
 
+<div class="table-wrap">
+
 | Feature             | cron                     | systemd timer            |
 | ------------------- | ------------------------ | ------------------------ |
 | Boot catch-up       | No (missed jobs skipped) | Yes (`Persistent=true`)  |
@@ -6110,6 +6284,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 | Precision           | 1 minute                 | 1 minute (`AccuracySec`) |
 | Built-in monitoring | No                       | Yes (`systemctl status`) |
 | Timezone handling   | System timezone          | Per-timer `Timezone=`    |
+
+</div>
 
 :::note
 Logging, dependency management, and missed-job handling. However, cron remains ubiquitous and is
@@ -6679,12 +6855,16 @@ Needed. File descriptors are non-negative integers maintained by the kernel per-
 
 ### Standard File Descriptors
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description                          |
 | --- | ------ | ------------------- | ------------------------------------ |
 | 0   | stdin  | Keyboard (terminal) | Input stream                         |
 | 1   | stdout | Terminal            | Normal output                        |
 | 2   | stderr | Terminal            | Error and diagnostic output          |
 | 3+  | custom | (none)              | Application-defined file descriptors |
+
+</div>
 
 ```bash
 ## View file descriptors for a process
@@ -7642,6 +7822,8 @@ if (WIFEXITED(status)) {
 
 ### Process Identification
 
+<div class="table-wrap">
+
 | Identifier   | Field in `task_struct` | Description                               |
 | ------------ | ---------------------- | ----------------------------------------- |
 | **PID**      | `pid`                  | Process identifier (unique system-wide)   |
@@ -7651,6 +7833,8 @@ if (WIFEXITED(status)) {
 | **SID**      | `signal->leader->pid`  | Session ID (for job control)              |
 | **UID/EUID** | `real_cred/cred`       | Real and effective user ID                |
 | **GID/EGID** | `real_cred/cred`       | Real and effective group ID               |
+
+</div>
 
 In Linux, threads are implemented as processes that share certain resources (address space, file
 Descriptors, signal handlers). Each thread has its own TID, but all threads in a process share the
@@ -7697,6 +7881,8 @@ stateDiagram-v2
     ZOMBIE --> [*]: parent calls wait
 ```
 
+<div class="table-wrap">
+
 | State                    | Code | Description                                                    |
 | ------------------------ | ---- | -------------------------------------------------------------- |
 | **TASK_RUNNING**         | R    | Runnable (either executing or on a run queue)                  |
@@ -7706,6 +7892,8 @@ stateDiagram-v2
 | **TASK_TRACED**          | t    | Stopped by debugger (ptrace)                                   |
 | **EXIT_ZOMBIE**          | Z    | Terminated, parent has not called `wait`                       |
 | **EXIT_DEAD**            | X    | Completely dead, waiting to be reaped                          |
+
+</div>
 
 ```bash
 # View process states
@@ -7735,6 +7923,8 @@ User-space processes.
 
 ### Standard Signals
 
+<div class="table-wrap">
+
 | Signal    | Number | Default Action | Description                                    |
 | --------- | ------ | -------------- | ---------------------------------------------- |
 | `SIGHUP`  | 1      | Terminate      | Terminal hangup (daemon reload convention)     |
@@ -7756,6 +7946,8 @@ User-space processes.
 | `SIGTSTP` | 20     | Stop           | Terminal stop (Ctrl+Z)                         |
 | `SIGTTIN` | 21     | Stop           | Background read from terminal                  |
 | `SIGTTOU` | 22     | Stop           | Background write to terminal                   |
+
+</div>
 
 ### Real-Time Signals
 
@@ -7999,12 +8191,16 @@ ionice -c 3 command             # idle (only uses I/O when no one else is)
 
 ### Real-Time Scheduling Policies
 
+<div class="table-wrap">
+
 | Policy           | `sched_setscheduler` | Description                                          |
 | ---------------- | -------------------- | ---------------------------------------------------- |
 | `SCHED_FIFO`     | 1                    | First-in, first-out, runs until blocked or preempted |
 | `SCHED_RR`       | 2                    | Round-robin with configurable time quantum           |
 | `SCHED_DEADLINE` | 6                    | Earliest Deadline First (EDF) scheduling             |
 | `SCHED_OTHER`    | 0                    | Default CFS policy                                   |
+
+</div>
 
 ```bash
 # View scheduling policy
@@ -8031,6 +8227,8 @@ Kubernetes, systemd).
 
 ### cgroups v1 vs v2
 
+<div class="table-wrap">
+
 | Aspect      | cgroups v1                    | cgroups v2                         |
 | ----------- | ----------------------------- | ---------------------------------- |
 | Hierarchy   | Multiple (one per controller) | Single unified hierarchy           |
@@ -8038,6 +8236,8 @@ Kubernetes, systemd).
 | Controllers | Independent, per-subsystem    | Unified, coordinated               |
 | Delegation  | Complex                       | Simplified                         |
 | Default     | Legacy systems                | Modern distributions (since ~2020) |
+
+</div>
 
 ```bash
 # Check cgroups version
@@ -8130,11 +8330,15 @@ ulimit -u 4096     # increase max processes
 # root      hard  nproc   unlimited
 ```
 
+<div class="table-wrap">
+
 | Limit Type  | Soft Limit                     | Hard Limit                              |
 | ----------- | ------------------------------ | --------------------------------------- |
 | Definition  | Enforced for the process       | Maximum the soft limit can be raised to |
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
+
+</div>
 :::
 
 :::caution
@@ -9245,6 +9449,8 @@ flowchart LR
     POST --> OUT["Outgoing Packet"]
 ```
 
+<div class="table-wrap">
+
 | Hook        | Triggers When                          |
 | ----------- | -------------------------------------- |
 | PREROUTING  | Any incoming packet, before routing    |
@@ -9253,7 +9459,11 @@ flowchart LR
 | OUTPUT      | Packet generated by local process      |
 | POSTROUTING | Any outgoing packet, after routing     |
 
+</div>
+
 ### Tables
+
+<div class="table-wrap">
 
 | Table    | Purpose                                            |
 | -------- | -------------------------------------------------- |
@@ -9262,6 +9472,8 @@ flowchart LR
 | mangle   | Packet modification (TOS, TTL, marks)              |
 | raw      | Connection tracking exemptions                     |
 | security | LSM security hooks (used by SELinux/AppArmor)      |
+
+</div>
 
 ### Chains
 
@@ -9642,6 +9854,8 @@ nft add rule ip nat postrouting ip saddr 10.0.0.0/24 snat to 203.0.113.1
 
 ### nftables vs iptables
 
+<div class="table-wrap">
+
 | Aspect              | iptables                      | nftables                                 |
 | ------------------- | ----------------------------- | ---------------------------------------- |
 | Syntax              | Multiple commands             | Single atomic ruleset                    |
@@ -9651,6 +9865,8 @@ nft add rule ip nat postrouting ip saddr 10.0.0.0/24 snat to 203.0.113.1
 | Extensibility       | Kernel modules                | Extensible expressions                   |
 | Configuration       | Scattered across commands     | Single file                              |
 | Connection tracking | Same backend (nf_conntrack)   | Same backend                             |
+
+</div>
 
 ```bash
 # Convert iptables rules to nftables
@@ -10319,6 +10535,8 @@ ip addr show eth0
 
 Modern Linux uses **predictable network interface names** instead of `eth0`:
 
+<div class="table-wrap">
+
 | Naming Scheme | Format                             | Example           |
 | ------------- | ---------------------------------- | ----------------- |
 | `biosdevname` | BIOS-provided names                | `em1``p1p1`       |
@@ -10326,6 +10544,8 @@ Modern Linux uses **predictable network interface names** instead of `eth0`:
 | `slot`        | Physical slot number               | `enp3s0`          |
 | `path`        | Physical topology path             | `enx78e7d1ea46da` |
 | `mac`         | MAC address (for USB/dock devices) | `enx78e7d1ea46da` |
+
+</div>
 
 To revert to classic names, add `net.ifnames=0 biosdevname=0` to the kernel command line.
 
@@ -10523,6 +10743,8 @@ graph LR
     H --> I[Outgoing Packet]
 ```
 
+<div class="table-wrap">
+
 | Hook                     | Chains (iptables) | Description                                 |
 | ------------------------ | ----------------- | ------------------------------------------- |
 | **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision, DNAT, mangling    |
@@ -10531,10 +10753,14 @@ graph LR
 | **NF_INET_LOCAL_OUT**    | `OUTPUT`          | Packets originating from local processes    |
 | **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision, SNAT, masquerading |
 
+</div>
+
 ### Connection Tracking (conntrack)
 
 The `nf_conntrack` module tracks the state of network connections. It classifies packets into
 Connection states:
+
+<div class="table-wrap">
 
 | State         | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
@@ -10543,6 +10769,8 @@ Connection states:
 | `RELATED`     | Packet related to an existing connection (e.g., FTP data, ICMP error) |
 | `UNREPLIED`   | Connection entry exists but no response packet seen                   |
 | `INVALID`     | Packet does not match any known connection                            |
+
+</div>
 
 ```bash
 # View connection tracking table
@@ -10577,6 +10805,8 @@ And rules with matches and targets.
 
 ### Tables and Chains
 
+<div class="table-wrap">
+
 | Table      | Chains Available                                | Purpose                                          |
 | ---------- | ----------------------------------------------- | ------------------------------------------------ |
 | `filter`   | INPUT, FORWARD, OUTPUT                          | Packet filtering (accept/drop/reject)            |
@@ -10584,6 +10814,8 @@ And rules with matches and targets.
 | `mangle`   | PREROUTING, INPUT, FORWARD, OUTPUT, POSTROUTING | Packet modification (TOS, TTL, marks)            |
 | `raw`      | PREROUTING, OUTPUT                              | Disable connection tracking for specific packets |
 | `security` | INPUT, FORWARD, OUTPUT                          | SELinux security context filtering               |
+
+</div>
 
 ### Common iptables Operations
 
@@ -10646,6 +10878,8 @@ iptables-restore < /etc/iptables/rules.v4
 iptables -t table -A chain [matches] -j target
 ```
 
+<div class="table-wrap">
+
 | Component   | Examples                                          |
 | ----------- | ------------------------------------------------- |
 | `-p proto`  | `tcp``udp``icmp``all`                             |
@@ -10658,12 +10892,16 @@ iptables -t table -A chain [matches] -j target
 | `-m match`  | Module: `conntrack``limit``multiport``state``mac` |
 | `-j target` | `ACCEPT``DROP``REJECT``LOG``RETURN``DNAT``SNAT`   |
 
+</div>
+
 ## nftables
 
 Nftables is the successor to iptables, designed from the ground up for better performance, more
 Consistent syntax, and atomic rule replacement.
 
 ### Key Differences from iptables
+
+<div class="table-wrap">
 
 | Aspect             | iptables                              | nftables                          |
 | ------------------ | ------------------------------------- | --------------------------------- |
@@ -10673,6 +10911,8 @@ Consistent syntax, and atomic rule replacement.
 | **Syntax**         | Multiple commands, inconsistent flags | Single consistent syntax          |
 | **Kernel module**  | Multiple (xt\_)                       | Single `nf_tables`                |
 | **IPv4/IPv6**      | Separate (`iptables`/`ip6tables`)     | Unified (`nft`)                   |
+
+</div>
 
 ### nftables Configuration
 
@@ -11176,6 +11416,8 @@ flowchart LR
 
 ### Log Sources
 
+<div class="table-wrap">
+
 | Source           | Description                                 |
 | ---------------- | ------------------------------------------- |
 | stdout/stderr    | All service output captured by systemd      |
@@ -11184,6 +11426,8 @@ flowchart LR
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
 | Internal journal | Journal's own diagnostic messages           |
+
+</div>
 
 ### Storage Modes
 
@@ -12171,6 +12415,8 @@ graph TD
 A **unit** is the fundamental object that systemd manages. Each unit has a configuration file and a
 Type that determines its behavior.
 
+<div class="table-wrap">
+
 | Unit Type     | File Extension | Description                                |
 | ------------- | -------------- | ------------------------------------------ |
 | **Service**   | `.service`     | A system service (daemon or one-shot)      |
@@ -12184,6 +12430,8 @@ Type that determines its behavior.
 | **Scope**     | `.scope`       | An externally created process group        |
 | **Swap**      | `.swap`        | A swap device                              |
 | **Device**    | `.device`      | A kernel device                            |
+
+</div>
 
 ### Finding Unit Files
 
@@ -12280,6 +12528,8 @@ WantedBy=multi-user.target
 
 ### `[Unit]` Section
 
+<div class="table-wrap">
+
 | Directive       | Description                                                 |
 | --------------- | ----------------------------------------------------------- |
 | `Description`   | Human-readable description                                  |
@@ -12292,7 +12542,11 @@ WantedBy=multi-user.target
 | `Conflicts=`    | If the listed unit is running, this unit cannot start       |
 | `PartOf=`       | When the listed unit is stopped/restarted, this unit is too |
 
+</div>
+
 ### `[Service]` Section, Service Type
+
+<div class="table-wrap">
 
 | Type               | Behavior                                                                              | Use Case                      |
 | ------------------ | ------------------------------------------------------------------------------------- | ----------------------------- |
@@ -12304,6 +12558,8 @@ WantedBy=multi-user.target
 | `notify`           | Service sends `sd_notify()` when ready. Systemd waits for the notification.           | Modern daemons with sd_notify |
 | `notify-reload`    | Like `notify`But supports `sd_notify(RELOADING=1)` for reload.                        | Daemons with reload support   |
 | `idle`             | Like `simple`But started after all active jobs are dispatched.                        | Avoids blocking boot output   |
+
+</div>
 
 ### `[Service]` Section, Lifecycle Directives
 
@@ -12338,6 +12594,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 
 ### `[Service]` Section, Restart Policy
 
+<div class="table-wrap">
+
 | Directive             | Behavior                                             |
 | --------------------- | ---------------------------------------------------- |
 | `Restart=no`          | Never restart (default)                              |
@@ -12347,6 +12605,8 @@ EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 | `Restart=on-abort`    | Restart on signal (not clean exit)                   |
 | `Restart=on-watchdog` | Restart on watchdog timeout                          |
 | `Restart=always`      | Always restart, regardless of exit status            |
+
+</div>
 
 ```ini
 Restart=on-failure
@@ -12417,6 +12677,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 
 ### Target Equivalents to Runlevels
 
+<div class="table-wrap">
+
 | SysV Runlevel | systemd Target      | Description                   |
 | ------------- | ------------------- | ----------------------------- |
 | 0             | `poweroff.target`   | Halt/shutdown                 |
@@ -12427,6 +12689,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 | 6             | `reboot.target`     | Reboot                        |
 |,             | `emergency.target`  | Emergency shell               |
 |,             | `default.target`    | Symlink to the default target |
+
+</div>
 
 ```bash
 # View current target
@@ -12689,6 +12953,8 @@ the primary mechanism for securing systemd-managed services.
 
 ### Filesystem Restrictions
 
+<div class="table-wrap">
+
 | Directive              | Effect                                           |
 | ---------------------- | ------------------------------------------------ |
 | `ProtectSystem=strict` | Read-only filesystem (except specific paths)     |
@@ -12705,7 +12971,11 @@ the primary mechanism for securing systemd-managed services.
 | `BindReadOnlyPaths=`   | Mount paths read-only into service namespace     |
 | `BindPaths=`           | Mount paths read-write into service namespace    |
 
+</div>
+
 ### Process and Capability Restrictions
+
+<div class="table-wrap">
 
 | Directive                    | Effect                                           |
 | ---------------------------- | ------------------------------------------------ |
@@ -12722,6 +12992,8 @@ the primary mechanism for securing systemd-managed services.
 | `RestrictRealtime=yes`       | Deny real-time scheduling                        |
 | `MemoryDenyWriteExecute=yes` | Deny creating writable+executable memory         |
 | `LockPersonality=yes`        | Lock the execution domain (personality)          |
+
+</div>
 
 ### Hardening Example
 
@@ -12799,6 +13071,8 @@ systemd-analyze verify myapp.service
 
 Systemd manages two categories of services:
 
+<div class="table-wrap">
+
 | Aspect            | System Services                    | User Services                        |
 | ----------------- | ---------------------------------- | ------------------------------------ |
 | **PID 1 scope**   | Managed by system systemd (PID 1)  | Managed by per-user systemd instance |
@@ -12806,6 +13080,8 @@ Systemd manages two categories of services:
 | **Manages**       | System daemons, hardware           | User applications, session services  |
 | **Run as**        | Any user ( root)                   | The user who started them            |
 | **Lifespan**      | System-wide, from boot to shutdown | From login to logout (or linger)     |
+
+</div>
 
 ```bash
 # User service management (note --user flag)
@@ -13067,6 +13343,8 @@ Associated permissions.
 
 ### User and Group Files
 
+<div class="table-wrap">
+
 | File              | Purpose                                                         |
 | ----------------- | --------------------------------------------------------------- |
 | `/etc/passwd`     | User accounts (UID, home dir, shell, password in shadow)       |
@@ -13075,6 +13353,8 @@ Associated permissions.
 | `/etc/gshadow`    | Group password hashes (readable by root only)                   |
 | `/etc/skel/`      | Template directory for new user home directories                |
 | `/etc/login.defs` | Default settings for user creation (UID range, password policy) |
+
+</div>
 
 ```bash
 ## View user information
@@ -13117,12 +13397,16 @@ Administration.
 
 ### Special UIDs
 
+<div class="table-wrap">
+
 | UID   | Name         | Description                                      |
 | ----- | ------------ | ------------------------------------------------ |
 | 0     | root         | Superuser, unrestricted access to all resources |
 | 1     | daemon       | System daemons                                   |
 | 65534 | nobody       | Unprivileged user (used for NFS, some services)  |
 | -1    | (4294967295) | `nobody` on some systems, overflow of 32-bit UID |
+
+</div>
 
 ### NSS, Name Service Switch
 
@@ -13147,6 +13431,8 @@ Or `/etc/pam.conf`.
 
 ### PAM Module Types
 
+<div class="table-wrap">
+
 | Type       | Purpose                                                 |
 | ---------- | ------------------------------------------------------- |
 | `auth`     | Verify the user's identity (password, token, biometric) |
@@ -13154,7 +13440,11 @@ Or `/etc/pam.conf`.
 | `password` | Password change/verification                            |
 | `session`  | Session setup and teardown (logging, resource limits)   |
 
+</div>
+
 ### PAM Control Flags
+
+<div class="table-wrap">
 
 | Flag         | Behavior                                                                                      |
 | ------------ | --------------------------------------------------------------------------------------------- |
@@ -13164,6 +13454,8 @@ Or `/etc/pam.conf`.
 | `optional`   | Module result is ignored unless it is the only module for the type                            |
 | `include`    | Include all lines from another PAM configuration file                                         |
 | `substack`   | Run another PAM stack independently                                                           |
+
+</div>
 
 ### PAM Configuration Example
 
@@ -13197,6 +13489,8 @@ session required    pam_unix.so
 
 ### Key PAM Modules
 
+<div class="table-wrap">
+
 | Module                        | Purpose                                                 |
 | ----------------------------- | ------------------------------------------------------- |
 | `pam_unix.so`                 | Standard UNIX authentication (/etc/passwd, /etc/shadow) |
@@ -13207,6 +13501,8 @@ session required    pam_unix.so
 | `pam_mkhomedir.so`            | Auto-create home directories on first login             |
 | `pam_sssd.so`                 | Authentication via SSSD (LDAP, AD, IPA)                 |
 | `pam_google_authenticator.so` | TOTP two-factor authentication                          |
+
+</div>
 
 ### Password Policy with pam_pwquality
 
@@ -13248,6 +13544,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                            |
 | ---------------------- | ------------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt; 1024)                   |
@@ -13265,6 +13563,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 | `CAP_FSETID`           | Set setuid/setgid bits                                 |
 | `CAP_SETPCAP`          | Modify capability bounding set                         |
 | `CAP_AUDIT_WRITE`      | Write to the audit log                                 |
+
+</div>
 
 ### Managing Capabilities
 
@@ -13313,11 +13613,15 @@ Policies are enforced by the kernel and cannot be overridden by the file owner.
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode         | Enforcement | Description                                               |
 | ------------ | ----------- | --------------------------------------------------------- |
 | `enforcing`  | Yes         | Policy violations are blocked and logged                  |
 | `permissive` | No          | Policy violations are logged but not blocked (audit mode) |
 | `disabled`   | No          | SELinux is completely disabled (not recommended)          |
+
+</div>
 
 ```bash
 # View current mode
@@ -13344,12 +13648,16 @@ user:role:type:level
 system_u:object_r:httpd_sys_content_t:s0
 ```
 
+<div class="table-wrap">
+
 | Component | Example               | Description                                        |
 | --------- | --------------------- | -------------------------------------------------- |
 | **User**  | `system_u``user_u`    | SELinux user identity                              |
 | **Role**  | `object_r``staff_r`   | Role determines which types can be accessed        |
 | **Type**  | `httpd_sys_content_t` | Type enforcement policy (most important component) |
 | **Level** | `s0``s0-s15:c0.c1023` | MLS/MCS level (for multi-level security)           |
+
+</div>
 
 ```bash
 # View file context
@@ -13423,11 +13731,15 @@ sealert -l &lt;audit-event-id&gt;
 
 ### SELinux Policy Types
 
+<div class="table-wrap">
+
 | Policy     | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
 | `targeted` | Confines specific system services (httpd, mysqld, etc.)      |
 | `mls`      | Multi-Level Security, mandatory for classified environments |
 | `minimum`  | Minimal policy for embedded systems                          |
+
+</div>
 
 ## AppArmor
 
@@ -13499,6 +13811,8 @@ apparmor_parser -r /etc/apparmor.d/*
 
 ### AppArmor vs SELinux
 
+<div class="table-wrap">
+
 | Aspect          | SELinux                                  | AppArmor                              |
 | --------------- | ---------------------------------------- | ------------------------------------- |
 | **Model**       | Label-based (security context on inodes) | Path-based (profiles reference paths) |
@@ -13509,6 +13823,8 @@ apparmor_parser -r /etc/apparmor.d/*
 | **Granularity** | Finer (type enforcement)                 | Coarser (path matching)               |
 | **File moves**  | Context preserved with inode             | Broken if file moves to new path      |
 
+</div>
+
 ## seccomp-bpf
 
 Seccomp (secure computing mode) restricts the system calls a process can make. When combined with
@@ -13516,11 +13832,15 @@ BPF (Berkeley Packet Filter), it provides fine-grained syscall filtering.
 
 ### seccomp Modes
 
+<div class="table-wrap">
+
 | Mode       | Description                                          |
 | ---------- | ---------------------------------------------------- |
 | `disabled` | No restrictions (default)                            |
 | `strict`   | Only `read``write``_exit``sigreturn` allowed         |
 | `filter`   | BPF program defines allowed syscalls (most flexible) |
+
+</div>
 
 ### seccomp in Docker
 
@@ -14798,10 +15118,14 @@ URL: https://linux.wyattau.com/07-package-management/package-management/
 A Linux package is an archive containing compiled software, configuration files, metadata (version,
 Description, dependencies), and install/uninstall scripts. Two dominant package formats exist:
 
+<div class="table-wrap">
+
 | Format  | Specification     | Distributions                            | Extension |
 | ------- | ----------------- | ---------------------------------------- | --------- |
 | **DEB** | Debian Policy     | Debian, Ubuntu, Mint, Proxmox            | `.deb`    |
 | **RPM** | RPM Specification | RHEL, Fedora, CentOS, SUSE, OpenMandriva | `.rpm`    |
+
+</div>
 
 ### Package Anatomy
 
@@ -14902,6 +15226,8 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.
 APT pinning allows you to control which version of a package is installed when multiple sources
 Provide different versions. Pins have a priority (0-1001):
 
+<div class="table-wrap">
+
 | Priority Range | Effect                                            |
 | -------------- | ------------------------------------------------- |
 | 0              | Never install (used for blocking)                 |
@@ -14910,6 +15236,8 @@ Provide different versions. Pins have a priority (0-1001):
 | 500            | Default priority (any version from this source)   |
 | 990            | Prefer over default priority                      |
 | 1001           | Install even if downgrading                       |
+
+</div>
 
 ```bash
 # /etc/apt/preferences.d/docker
@@ -15182,6 +15510,8 @@ graph TD
     G --> I["/nix/store/hash3-package-name/"]
 ```
 
+<div class="table-wrap">
+
 | Concept        | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
 | **Derivation** | A build recipe (input sources, build commands, dependencies) |
@@ -15189,6 +15519,8 @@ graph TD
 | **Profile**    | A set of packages linked together in a user environment      |
 | **Channel**    | A named set of Nix expressions (like a repository)           |
 | **Shell**      | An isolated environment with specific packages               |
+
+</div>
 
 ### Nix Commands
 
@@ -15335,6 +15667,8 @@ snap info firefox
 
 ### Flatpak vs Snap
 
+<div class="table-wrap">
+
 | Aspect                   | Flatpak                            | Snap                           |
 | ------------------------ | ---------------------------------- | ------------------------------ |
 | **Backend**              | OSTree (content-addressable)       | SquashFS (custom mount)        |
@@ -15344,6 +15678,8 @@ snap info firefox
 | **Distribution support** | Most distributions                 | Primarily Ubuntu/Debian        |
 | **Disk usage**           | Shares runtimes between apps       | Each snap includes its runtime |
 | **Boot impact**          | None                               | Snap daemon starts at boot     |
+
+</div>
 
 ## Dependency Resolution
 
@@ -15364,6 +15700,8 @@ graph LR
 
 ### Resolution Algorithms
 
+<div class="table-wrap">
+
 | Manager     | Algorithm                       | Characteristics                                   |
 | ----------- | ------------------------------- | ------------------------------------------------- |
 | **APT**     | C++ resolver                    | Greedy, deterministic, handles conflicts          |
@@ -15371,6 +15709,8 @@ graph LR
 | **pacman**  | Simple dependency following     | No SAT solver, less robust for complex conflicts  |
 | **Nix**     | Built-in (functional)           | No global conflicts by design                     |
 | **Portage** | C++ resolver with slot handling | Gentoo's package manager, handles slots           |
+
+</div>
 
 ### Common Dependency Issues
 
@@ -16482,6 +16822,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 
 ### Choosing a Distribution
 
+<div class="table-wrap">
+
 | Use Case | Recommended Distribution |
 | ---------- | ------------------------ |
 | Enterprise servers | RHEL, AlmaLinux, Rocky Linux |
@@ -16490,6 +16832,8 @@ Linux distributions package the Linux kernel with system libraries, package mana
 | Learning Linux | Arch Linux, Gentoo |
 | Home servers | Ubuntu Server, Debian |
 | Security testing | Kali Linux, Parrot OS |
+
+</div>
 
 ---
 
@@ -16552,12 +16896,16 @@ chown -R user:group dir # Recursive ownership change
 
 **Permission meanings:**
 
+<div class="table-wrap">
+
 | Number | Permission | Symbol |
 | -------- | ------------ | -------- |
 | 4 | Read | r |
 | 2 | Write | w |
 | 1 | Execute | x |
 | 0 | None | --- |
+
+</div>
 
 ### Piping and Redirection
 
@@ -16607,6 +16955,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 
 ### File System Types
 
+<div class="table-wrap">
+
 | Type | Description | Use Case |
 | ------ | ------------- | ---------- |
 | ext4 | Default Linux file system | General purpose |
@@ -16615,6 +16965,8 @@ Understanding Linux file systems is essential for managing storage, permissions,
 | ZFS | Advanced; RAID, compression, snapshots | Storage servers |
 | tmpfs | RAM-based file system | /tmp, /run |
 | proc | Virtual file system | Process and kernel info |
+
+</div>
 
 ### Mounting
 
@@ -16672,6 +17024,8 @@ jobs                    # List background jobs
 
 ### Process States
 
+<div class="table-wrap">
+
 | State | Description |
 | ------- | ------------- |
 | R | Running or runnable |
@@ -16679,6 +17033,8 @@ jobs                    # List background jobs
 | D | Uninterruptible sleep (usually I/O) |
 | Z | Zombie (terminated but not reaped) |
 | T | Stopped (by signal) |
+
+</div>
 
 ### Resource Monitoring
 
@@ -17161,6 +17517,8 @@ Context switch for kernel-internal operations.
 
 Key subsystems:
 
+<div class="table-wrap">
+
 | Subsystem             | Responsibility                                         |
 | --------------------- | ------------------------------------------------------ |
 | **Process Scheduler** | CFS (Completely Fair Scheduler), real-time scheduling  |
@@ -17170,6 +17528,8 @@ Key subsystems:
 | **Device Model**      | `sysfs``udev`Driver model, `kobject` hierarchy         |
 | **IPC**               | Pipes, shared memory, signals, `epoll``eventfd`        |
 | **Security**          | SELinux, AppArmor, capabilities, seccomp, audit        |
+
+</div>
 
 ## Distribution Families
 
@@ -17194,6 +17554,8 @@ graph LR
     S[Gentoo] --> T[Source-based]
 ```
 
+<div class="table-wrap">
+
 | Family  | Package Format | Package Manager | Init System | Typical Use Case              |
 | ------- | -------------- | --------------- | ----------- | ----------------------------- |
 | Debian  | `.deb`         | APT             | systemd     | Servers, desktops, containers |
@@ -17201,6 +17563,8 @@ graph LR
 | Arch    | `.pkg.tar.zst` | pacman          | systemd     | Power users, rolling release  |
 | Alpine  | `.apk`         | apk             | OpenRC      | Docker containers             |
 | SUSE    | `.rpm`         | zypper          | systemd     | Enterprise, SAP workloads     |
+
+</div>
 
 ## Why This Matters for Systems Engineers
 
@@ -17291,6 +17655,8 @@ Page cache.
 
 Naming conventions:
 
+<div class="table-wrap">
+
 | Device Type   | Path Pattern   | Example        | Notes                               |
 | ------------- | -------------- | -------------- | ----------------------------------- |
 | SCSI/SATA     | `/dev/sdX`     | `/dev/sda`     | Letters assigned in detection order |
@@ -17300,6 +17666,8 @@ Naming conventions:
 | Loop          | `/dev/loopX`   | `/dev/loop0`   | Loopback-mounted files              |
 | Device Mapper | `/dev/dm-X`    | `/dev/dm-0`    | LVM, crypt, multipath               |
 | MD RAID       | `/dev/mdX`     | `/dev/md0`     | Software RAID arrays                |
+
+</div>
 
 Partitions are numbered after the device name:
 
@@ -17321,6 +17689,8 @@ Describes the layout of partitions, their starting sectors, sizes, types, and st
 MBR uses a 512-byte boot sector at LBA 0 containing a 446-byte bootstrap code area, a 64-byte
 Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 
+<div class="table-wrap">
+
 | Property          | MBR                                         |
 | ----------------- | ------------------------------------------- |
 | Max disk size     | 2 TiB (32-bit sector count)                 |
@@ -17329,12 +17699,16 @@ Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 | Boot method       | Legacy BIOS only                            |
 | Partition ID      | 1-byte type code                            |
 
+</div>
+
 MBR is obsolete. Use it only when you need legacy BIOS boot on hardware that lacks UEFI.
 
 #### GPT (GUID Partition Table)
 
 GPT is part of the UEFI specification. It stores partition entries in a linked list structure with a
 Protective MBR at LBA 0 for backward compatibility.
+
+<div class="table-wrap">
 
 | Property          | GPT                                   |
 | ----------------- | ------------------------------------- |
@@ -17344,6 +17718,8 @@ Protective MBR at LBA 0 for backward compatibility.
 | Boot method       | UEFI (with protective MBR for compat) |
 | Partition ID      | 128-bit GUID type + 128-bit GUID name |
 | Redundancy        | Backup partition table at end of disk |
+
+</div>
 
 ```text
 GPT disk layout:
@@ -17360,10 +17736,14 @@ disks, and GPT's backup table provides redundancy against corruption at the star
 
 ### Sector Size
 
+<div class="table-wrap">
+
 | Sector Size | Common On              | Notes                                                |
 | ----------- | ---------------------- | ---------------------------------------------------- |
 | 512 bytes   | Older HDDs, SATA SSD   | Traditional physical sector size                     |
 | 4096 bytes  | Modern HDDs, many SSDs | 4K native (4Kn) or 512e (emulated) for compatibility |
+
+</div>
 
 512e drives present 512-byte logical sectors to the OS but use 4096-byte physical sectors
 Internally. Misaligned writes on 512e drives cause read-modify-write cycles, degrading performance.
@@ -17382,13 +17762,19 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 
 #### MBR Partition Types
 
+<div class="table-wrap">
+
 | Type     | Description                                                         |
 | -------- | ------------------------------------------------------------------- |
 | Primary  | One of the four entries in the MBR table                            |
 | Extended | A primary partition that acts as a container for logical partitions |
 | Logical  | Created inside an extended partition using an EBR chain             |
 
+</div>
+
 #### GPT Partition Types (GUIDs)
+
+<div class="table-wrap">
 
 | GUID                                   | Type                 |
 | -------------------------------------- | -------------------- |
@@ -17398,6 +17784,8 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 | `933AC7E1-2EB4-4F13-B844-0E14E2AEF915` | Linux swap           |
 | `E3C9E316-0B5C-4DB8-817D-F92DF00215AE` | Microsoft reserved   |
 | `EBD0A0A2-B9E5-4433-87C0-68B6B72699C7` | Windows data         |
+
+</div>
 
 ```bash
 # View partition type GUIDs
@@ -17615,6 +18003,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 /mnt/iso.iso                                  /mnt/cdrom     iso9660 loop,ro          0       0
 ```
 
+<div class="table-wrap">
+
 | Field       | Description                                                                           |
 | ----------- | ------------------------------------------------------------------------------------- |
 | Device      | UUID=, PARTUUID=, LABEL=, device path, or special filesystem (proc, tmpfs)            |
@@ -17624,7 +18014,11 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | Dump        | Whether `dump` includes this filesystem in backups (0 = no, 1 = yes; mostly obsolete) |
 | Pass        | Order for `fsck` at boot: 0 = skip, 1 = root filesystem, 2 = all other filesystems    |
 
+</div>
+
 #### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                                                 |
 | --------------------- | -------------------------------------------------------------------------------------- |
@@ -17643,6 +18037,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | `sync`                | Synchronous writes (slow, used for USB drives)                                         |
 | `user`                | Allow non-root users to mount                                                          |
 | `x-gvfs-show`         | Show in desktop file managers                                                          |
+
+</div>
 
 ```bash
 # Mount by UUID
@@ -17780,11 +18176,15 @@ xfs_fsr -v /mnt/data
 
 ### Journaling Modes
 
+<div class="table-wrap">
+
 | Mode        | What is Journaled                                              | Performance | Data Safety |
 | ----------- | -------------------------------------------------------------- | ----------- | ----------- |
 | `ordered`   | Metadata only; data written to disk before metadata committed  | Good        | High        |
 | `writeback` | Metadata only; no ordering guarantee between data and metadata | Best        | Medium      |
 | `journal`   | Both data and metadata journaled                               | Slowest     | Highest     |
+
+</div>
 
 ```bash
 # Set journal mode at mount time
@@ -17984,6 +18384,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 
 ### LVM Command Summary
 
+<div class="table-wrap">
+
 | Task             | PV Command       | VG Command       | LV Command       |
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | Create           | `pvcreate`       | `vgcreate`       | `lvcreate`       |
@@ -17995,6 +18397,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 | Move data        | N/A              | `pvmove`         | N/A              |
 | Backup metadata  | N/A              | `vgcfgbackup`    | N/A              |
 | Restore metadata | N/A              | `vgcfgrestore`   | N/A              |
+
+</div>
 
 ## Resizing
 
@@ -18212,6 +18616,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 
 ### LVM RAID vs mdadm
 
+<div class="table-wrap">
+
 | Aspect      | LVM RAID                      | mdadm                                        |
 | ----------- | ----------------------------- | -------------------------------------------- |
 | Management  | Integrated with LVM commands  | Separate toolchain                           |
@@ -18222,6 +18628,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 | Flexibility | Can mix RAID and non-RAID LVs | Array is a fixed block device                |
 | Maturity    | Less widely used              | Very mature, battle-tested                   |
 | Metadata    | LVM metadata                  | md superblock (1.0, 1.1, 1.2, 0.9)           |
+
+</div>
 
 ### LVM RAID Maintenance
 
@@ -18337,6 +18745,8 @@ on it as your only protection.
 
 ### RAID Levels
 
+<div class="table-wrap">
+
 | Level | Min Disks | Redundancy | Read Perf | Write Perf | Capacity  | Use Case                      |
 | ----- | --------- | ---------- | --------- | ---------- | --------- | ----------------------------- |
 | 0     | 2         | None       | Highest   | Highest    | n disks   | Temporary data, caches        |
@@ -18344,6 +18754,8 @@ on it as your only protection.
 | 5     | 3         | 1 disk     | Good      | Moderate   | n-1 disks | File servers, general storage |
 | 6     | 4         | 2 disks    | Good      | Moderate   | n-2 disks | Large arrays, critical data   |
 | 10    | 4         | 1 disk     | Highest   | Good       | n/2 disks | Databases, high I/O workloads |
+
+</div>
 
 ### Creating RAID Arrays
 
@@ -18452,12 +18864,16 @@ mdadm --monitor --scan --daemonise --mail=root@localhost
 
 ### Superblock Versions
 
+<div class="table-wrap">
+
 | Version | Location         | Notes                                                |
 | ------- | ---------------- | ---------------------------------------------------- |
 | 0.9     | End of device    | Legacy, 64 KiB, no bitmap support                    |
 | 1.0     | End of device    | Modern default for boot arrays, compatible with GRUB |
 | 1.1     | Start of device  | Near beginning, 4 KiB offset                         |
 | 1.2     | 4 KiB from start | Recommended for non-boot arrays, compatible with LVM |
+
+</div>
 
 ```bash
 # Create with specific superblock version
@@ -18733,6 +19149,8 @@ ncdu -e /var                         # enable extended info
 **Definition.** LUKS (Linux Unified Key Setup) is a disk encryption standard that provides a
 Platform-independent on-disk format for encrypted block devices.
 
+<div class="table-wrap">
+
 | Feature        | LUKS1              | LUKS2                                 |
 | -------------- | ------------------ | ------------------------------------- |
 | Header version | 1                  | 2                                     |
@@ -18743,6 +19161,8 @@ Platform-independent on-disk format for encrypted block devices.
 | Token support  | No                 | Yes (systemd, keyring, etc.)          |
 | Integrity      | No                 | Optional (dm-integrity)               |
 | Header backup  | `luksHeaderBackup` | `luksHeaderBackup` (larger header)    |
+
+</div>
 
 ```bash
 # Check LUKS version
@@ -18817,12 +19237,16 @@ crypt_data     /dev/disk/by-id/ata-ST5000  none                 luks
 crypt_swap     /dev/disk/by-uuid/def67890  /dev/urandom         swap,cipher=aes-xts-plain64,size=256
 ```
 
+<div class="table-wrap">
+
 | Field   | Description                                                             |
 | ------- | ----------------------------------------------------------------------- |
 | Name    | Mapper name (appears as `/dev/mapper/<name>`)                           |
 | Device  | UUID, device path, or `/dev/disk/by-id/` identifier                     |
 | Keyfile | Path to key file, `none` for passphrase prompt, `/dev/urandom` for swap |
 | Options | Comma-separated: `luks``discard``timeout=X``try-empty-password`         |
+
+</div>
 
 ### LVM on LUKS vs LUKS on LVM
 
@@ -18849,6 +19273,8 @@ LUKS on LVM:
         lv_root   (unencrypted, filesystem: /)
 ```
 
+<div class="table-wrap">
+
 | Aspect           | LVM on LUKS                              | LUKS on LVM                       |
 | ---------------- | ---------------------------------------- | --------------------------------- |
 | Security         | Better (entire VG is encrypted)          | LV-level granularity              |
@@ -18857,6 +19283,8 @@ LUKS on LVM:
 | Key management   | Single key unlocks entire VG             | Per-LV keys                       |
 | Boot complexity  | Higher (need initramfs with cryptsetup)  | Lower (root can be unencrypted)   |
 | Typical use case | Laptops, full-disk encryption            | Servers with selective encryption |
+
+</div>
 
 ## Troubleshooting
 
@@ -19624,6 +20052,8 @@ URL: https://linux.wyattau.com/diagnostics/diag-linux/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -19636,6 +20066,8 @@ URL: https://linux.wyattau.com/diagnostics/diag-linux/
 | 8        | C             |
 | 9        | B             |
 | 10       | B             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of Linux fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

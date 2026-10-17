@@ -25,11 +25,15 @@ test is designed to expose deep misconceptions that separate top-tier candidates
 
 Every diagnostic file contains:
 
+<div class="table-wrap">
+
 | Section           | Count | Description                                                  |
 | ----------------- | ----- | ------------------------------------------------------------ |
 | Unit Tests        | 3     | Single-concept questions probing specific misconceptions     |
 | Integration Tests | 3     | Multi-concept problems requiring synthesis of several topics |
 | Worked Solutions  | All   | Step-by-step solutions with explicit reasoning               |
+
+</div>
 
 ## How to Use
 
@@ -47,6 +51,8 @@ Every diagnostic file contains:
 
 ## Misconception Map
 
+<div class="table-wrap">
+
 | Topic                              | Key Misconception                                                                                                             |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Cell Biology and Biochemistry      | Prokaryotic vs eukaryotic features; fluid mosaic model; enzyme kinetics (Vmax, Km); inhibition types                          |
@@ -58,13 +64,19 @@ Every diagnostic file contains:
 | Biodiversity and Conservation      | Species richness vs evenness; Simpson's diversity index; in situ vs ex situ conservation; edge effects                        |
 | Microorganisms and Biotechnology   | Bacterial vs viral structure; aseptic technique; fermentation conditions; bioreactor design; genetic engineering applications |
 
+</div>
+
 ## Scoring
+
+<div class="table-wrap">
 
 | Score    | Interpretation                                       |
 | -------- | ---------------------------------------------------- |
 | 5--6 / 6 | Exam-ready; focus on speed and presentation          |
 | 3--4 / 6 | Solid understanding; review weak areas               |
 | 0--2 / 6 | Foundation gaps; revisit topic notes before retrying |
+
+</div>
 
 ## File Index
 

@@ -690,11 +690,15 @@ def read_config(path: str) -> dict:
 
 The four clauses have distinct roles:
 
+<div class="table-wrap">
+
 | Clause    | Executes when                             | Purpose                                   |
 | --------- | ----------------------------------------- | ----------------------------------------- |
 | `except`  | The specified exception is raised         | Handle the error, recover, or re-raise    |
 | `else`    | No exception is raised in the `try` block | Code that depends on the `try` succeeding |
 | `finally` | Always, even if an exception is unhandled | Cleanup that must happen regardless       |
+
+</div>
 
 The `else` clause exists to prevent a subtle bug: catching an exception that was raised by the
 Error-handling code itself, not by the code you intended to protect.

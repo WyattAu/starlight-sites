@@ -248,6 +248,8 @@ $$
 
 ## Comparing Conic Sections
 
+<div class="table-wrap">
+
 | Property                       | Parabola     | Ellipse           | Hyperbola         |
 | ------------------------------ | ------------ | ----------------- | ----------------- |
 | Eccentricity                   | $e = 1$      | $0 < e < 1$       | $e > 1$           |
@@ -255,6 +257,8 @@ $$
 | Key relation                   | $e = 1$      | $c^2 = a^2 - b^2$ | $c^2 = a^2 + b^2$ |
 | Asymptotes                     | None         | None              | Two asymptotes    |
 | Conic condition ($\Delta = 0$) | $\Delta = 0$ | $\Delta < 0$      | $\Delta > 0$      |
+
+</div>
 
 ## Rectangular Hyperbola
 

@@ -53,12 +53,16 @@ Level.
 Use NAS-grade or enterprise drives. Consumer desktop drives (WD Blue, Seagate Barracuda) have
 Aggressive head-parking and shorter warranties.
 
+<div class="table-wrap">
+
 | Tier            | Example Drives                       | Use Case                             |
 | --------------- | ------------------------------------ | ------------------------------------ |
 | NAS             | WD Red Plus, Seagate IronWolf        | Primary storage pools                |
 | Enterprise      | WD Gold, HGST Ultrastar, Toshiba MG  | Heavy write workloads, critical data |
 | SSD (SATA/NVMe) | Samsung 870 EVO, WD Red SA500        | SLOG (ZIL), L2ARC, metadata vdev     |
 | Boot            | Any 32 GB+ SATA SSD or USB 3.0 flash | OS install only                      |
+
+</div>
 
 Key considerations:
 
@@ -177,6 +181,8 @@ tank/
 
 Key dataset options:
 
+<div class="table-wrap">
+
 | Setting     | Recommended Value | Notes                                                                        |
 | ----------- | ----------------- | ---------------------------------------------------------------------------- |
 | Compression | zstd              | Excellent compression ratio, fast. Set on the pool or per-dataset.           |
@@ -184,6 +190,8 @@ Key dataset options:
 | Sync        | standard          | Default. Set to `always` for NFS sync writes, `disabled` for disposable data |
 | Quota       | Set as needed     | Prevents a runaway process from filling the pool                             |
 | Recordsize  | 128K              | Default. Use 1M for large media files, 16K or 8K for databases               |
+
+</div>
 
 ```bash
 ## Verify compression savings from the CLI
@@ -302,12 +310,16 @@ Sane backup strategy.
 
 ### Recommended Snapshot Schedule
 
+<div class="table-wrap">
+
 | Dataset       | Frequency     | Retention |
 | ------------- | ------------- | --------- |
 | `tank/apps`   | Hourly        | 3 days    |
 | `tank/share`  | Every 6 hours | 2 weeks   |
 | `tank/media`  | Daily         | 30 days   |
 | `tank/backup` | Daily         | 90 days   |
+
+</div>
 
 ### Manual Snapshots and Rollback
 

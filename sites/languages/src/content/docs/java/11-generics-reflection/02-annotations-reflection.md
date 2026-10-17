@@ -87,6 +87,8 @@ Parameters (all optional, added in JDK 9):
 
 `@SuppressWarnings` (JDK 5) suppresses compiler warnings at the declaration level. Common keys:
 
+<div class="table-wrap">
+
 | Key             | Suppresses                                           |
 | --------------- | ---------------------------------------------------- |
 | `"unchecked"`   | Unchecked casts and raw type usage                   |
@@ -95,6 +97,8 @@ Parameters (all optional, added in JDK 9):
 | `"unused"`      | Unused variables, methods, parameters                |
 | `"serial"`      | Missing `serialVersionUID` in Serializable classes   |
 | `"varargs"`     | Heap pollution from varargs with non-reifiable types |
+
+</div>
 
 Apply at the narrowest scope possible:
 
@@ -162,11 +166,15 @@ Custom annotations behave.
 `@Retention` (JDK 5) specifies how long an annotation is retained. Takes a `RetentionPolicy` enum
 Value:
 
+<div class="table-wrap">
+
 | Policy    | Retained through                                               |
 | --------- | -------------------------------------------------------------- |
 | `SOURCE`  | Discarded by the compiler (not in `.class` files)              |
 | `CLASS`   | Retained in `.class` files but not loaded at runtime (default) |
 | `RUNTIME` | Available at runtime via reflection                            |
+
+</div>
 
 ```java
 @Retention(RetentionPolicy.SOURCE)
@@ -189,6 +197,8 @@ Files without loading them into the JVM.
 `@Target` (JDK 5) specifies which program elements an annotation can be applied to. Takes
 `ElementType` enum values (combinable with OR):
 
+<div class="table-wrap">
+
 | ElementType                 | Applies to                                         |
 | --------------------------- | -------------------------------------------------- |
 | `TYPE`                      | Classes, interfaces, enums, records                |
@@ -203,6 +213,8 @@ Files without loading them into the JVM.
 | `TYPE_USE` (JDK 8)          | Any type use (generics, casts, implements, throws) |
 | `MODULE` (JDK 9)            | Module declarations                                |
 | `RECORD_COMPONENT` (JDK 16) | Record components                                  |
+
+</div>
 
 ```java
 @Target({ElementType.FIELD, ElementType.PARAMETER})
@@ -661,6 +673,8 @@ Match exactly. `invoke` allows implicit conversions as defined by the JVM's meth
 
 ### MethodHandle vs Reflection
 
+<div class="table-wrap">
+
 | Aspect         | MethodHandle                                     | Reflection (Method)         |
 | -------------- | ------------------------------------------------ | --------------------------- |
 | Performance    | Can be JIT-optimized, close to direct invocation | Slower, no JIT optimization |
@@ -668,6 +682,8 @@ Match exactly. `invoke` allows implicit conversions as defined by the JVM's meth
 | Type safety    | Enforced at invoke time                          | Weaker                      |
 | Flexibility    | Adapters for currying, binding                   | No built-in adapters        |
 | Learning curve | Steeper                                          | Simpler API                 |
+
+</div>
 
 For performance-critical code, `MethodHandle` is preferred over `Method.invoke()`. The JIT can
 Inline method handles , especially after warmup.
@@ -740,6 +756,8 @@ public class AtomicCounter {
 
 VarHandle modes:
 
+<div class="table-wrap">
+
 | Method                        | Memory semantics                      |
 | ----------------------------- | ------------------------------------- |
 | `get` / `set`                 | Plain (no ordering guarantees)        |
@@ -748,6 +766,8 @@ VarHandle modes:
 | `getOpaque` / `setOpaque`     | Opaque (no reordering, no visibility) |
 | `compareAndSet`               | Atomic CAS                            |
 | `getAndAdd``getAndSet`        | Atomic RMW                            |
+
+</div>
 
 Array VarHandles:
 

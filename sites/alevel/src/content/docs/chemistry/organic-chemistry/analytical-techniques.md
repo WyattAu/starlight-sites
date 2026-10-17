@@ -78,6 +78,8 @@ These isotopic patterns are diagnostic for identifying the presence and number o
 Fragmentation occurs when the molecular ion breaks apart. The fragmentation pathways are determined
 by the stability of the resulting ions and radicals. Key patterns:
 
+<div class="table-wrap">
+
 | Fragment                | $m/z$      | Origin                                                        |
 | ----------------------- | ---------- | ------------------------------------------------------------- |
 | $\mathrm{M}^{+\bullet}$ | $M_r$      | Molecular ion                                                 |
@@ -91,6 +93,8 @@ by the stability of the resulting ions and radicals. Key patterns:
 | 91                      | 91         | $\mathrm{C}_7\mathrm{H}_7^+$ (benzyl/tropylium ion)           |
 | 29                      | 29         | $\mathrm{C}_2\mathrm{H}_5^+$ or $\mathrm{CHO}^+$              |
 | 31                      | 31         | $\mathrm{CH}_2\mathrm{OH}^+$                                  |
+
+</div>
 
 ### The McLafferty Rearrangement
 
@@ -113,6 +117,8 @@ Bending).
 
 ### Key Absorptions
 
+<div class="table-wrap">
+
 | Bond                               | Wavenumber ($\mathrm{cm}^{-1}$) | Intensity                               |
 | ---------------------------------- | ------------------------------- | --------------------------------------- |
 | O--H (alcohol, broad)              | 3200--3600                      | Broad, strong                           |
@@ -124,6 +130,8 @@ Bending).
 | C=O                                | 1680--1750                      | Strong                                  |
 | C=C                                | 1620--1680                      | Weak to medium                          |
 | C--O (alcohol, ester)              | 1000--1300                      | Strong                                  |
+
+</div>
 
 ### The Fingerprint Region
 
@@ -160,6 +168,8 @@ Carbon.
 The chemical shift reflects the degree of electron shielding around the proton. Electronegative
 Groups deshield nearby protons, moving their signal to higher $\delta$ (downfield).
 
+<div class="table-wrap">
+
 | Proton environment             | $\delta$ range (ppm) |
 | ------------------------------ | -------------------- |
 | $\mathrm{R-CH}_3$              | 0.7--1.3             |
@@ -173,6 +183,8 @@ Groups deshield nearby protons, moving their signal to higher $\delta$ (downfiel
 | $\mathrm{R-CHO}$               | 9.0--10.0            |
 | $\mathrm{R-COOH}$              | 10.0--13.0           |
 
+</div>
+
 **Integration:** The area under each signal is proportional to the number of equivalent protons
 Producing that signal. Modern NMR spectrometers display the integration as a step function above the
 Peaks.
@@ -181,6 +193,8 @@ Peaks.
 bonds, $^3J$ coupling) split each other's signals. The splitting pattern follows the $n+1$ rule: a
 signal is split into $n+1$ peaks, where $n$ is the number of equivalent neighbouring Protons.
 
+<div class="table-wrap">
+
 | Neighbours ($n$) | Splitting | Peaks |
 | ---------------- | --------- | ----- |
 | 0                | Singlet   | 1     |
@@ -188,6 +202,8 @@ signal is split into $n+1$ peaks, where $n$ is the number of equivalent neighbou
 | 2                | Triplet   | 3     |
 | 3                | Quartet   | 4     |
 | 4                | Quintet   | 5     |
+
+</div>
 
 The coupling constant $J$ (in Hz) is the spacing between adjacent peaks in a multiplet. Protons that
 are chemically equivalent do not couple to each other. The OH proton in alcohols and the NH proton
@@ -311,11 +327,15 @@ And compounds that decompose at GC temperatures.
 
 ### HPLC Detectors
 
+<div class="table-wrap">
+
 | Detector                  | Principle                      | Compounds detected                         |
 | ------------------------- | ------------------------------ | ------------------------------------------ |
 | UV-Vis                    | Absorption at fixed wavelength | UV-active compounds (most organics)        |
 | Refractive Index (RI)     | Change in refractive index     | Universal (but less sensitive)             |
 | Mass spectrometer (LC-MS) | Mass-to-charge ratio           | Universal; provides structural information |
+
+</div>
 
 ## Atomic Absorption Spectroscopy (AAS)
 
@@ -414,6 +434,8 @@ The systematic approach to identifying an unknown organic compound:
 
 ### $^1\mathrm{H}$ NMR: Chemical Shift Reference Table
 
+<div class="table-wrap">
+
 | Proton environment                    | $\delta$ range (ppm)    | Example                                  |
 | ------------------------------------- | ----------------------- | ---------------------------------------- |
 | $\mathrm{RCH}_3$                      | $0.7$--$1.3$            | Alkane methyl                            |
@@ -427,9 +449,13 @@ The systematic approach to identifying an unknown organic compound:
 | Alcohol (OH)                          | $0.5$--$5.0$ (variable) | Broad, concentration-dependent           |
 | Amine (NH)                            | $0.5$--$5.0$ (variable) | Broad                                    |
 
+</div>
+
 ### Spin-Spin Coupling (Splitting Patterns)
 
 The $(n+1)$ rule: a signal is split into $n+1$ peaks by $n$ equivalent neighbouring protons.
+
+<div class="table-wrap">
 
 | Number of neighbours ($n$) | Splitting pattern | Name    |
 | -------------------------- | ----------------- | ------- |
@@ -439,9 +465,13 @@ The $(n+1)$ rule: a signal is split into $n+1$ peaks by $n$ equivalent neighbour
 | 3                          | 4 peaks           | Quartet |
 | 4                          | 5 peaks           | Quintet |
 
+</div>
+
 **Coupling constants ($J$):** The spacing between peaks in a multiplet (in Hz) is the coupling
 constant. Protons that couple to each other have the same coupling constant. This helps assign which
 protons are neighbours.
+
+<div class="table-wrap">
 
 | Coupling type               | Typical $J$ (Hz)         |
 | --------------------------- | ------------------------ |
@@ -453,11 +483,15 @@ protons are neighbours.
 | Aromatic (meta)             | $1$--$3$                 |
 | Aromatic (para)             | $0$--$1$                 |
 
+</div>
+
 ### $^{13}\mathrm{C}$ NMR
 
 - The chemical shift range is $0$--$220\,\mathrm{ppm}$.
 - Proton-decoupled spectra show one peak per carbon environment (no splitting).
 - The number of peaks equals the number of carbon environments.
+
+<div class="table-wrap">
 
 | Carbon environment                                                      | $\delta$ range (ppm) |
 | ----------------------------------------------------------------------- | -------------------- |
@@ -466,6 +500,8 @@ protons are neighbours.
 | Aromatic                                                                | $100$--$150$         |
 | Carbonyl (aldehyde, ketone)                                             | $190$--$220$         |
 | Carbonyl (acid, ester, amide)                                           | $160$--$185$         |
+
+</div>
 
 ### Worked Example: Full Spectral Analysis
 
@@ -497,6 +533,8 @@ $\mathrm{CH}_3$ of the acyl group, which has no adjacent protons.
 
 ### Complete Absorption Table
 
+<div class="table-wrap">
+
 | Bond                                   | Absorption ($\mathrm{cm}^{-1}$) | Intensity                      |
 | -------------------------------------- | ------------------------------- | ------------------------------ |
 | O--H (alcohol, free)                   | $3550$--$3700$                  | Sharp, medium                  |
@@ -516,6 +554,8 @@ $\mathrm{CH}_3$ of the acyl group, which has no adjacent protons.
 | C--O (alcohol, ether)                  | $1000$--$1260$                  | Strong                         |
 | C--O (ester)                           | $1100$--$1300$                  | Strong                         |
 | C--Cl                                  | $600$--$800$                    | Strong                         |
+
+</div>
 
 ### Fingerprint Region
 
@@ -750,6 +790,8 @@ $$
 **Aromatic fragmentation:** The molecular ion of aromatic compounds is very stable (high intensity).
 Characteristic fragments include:
 
+<div class="table-wrap">
+
 | $m/z$      | Fragment                                                                             | Origin                      |
 | ---------- | ------------------------------------------------------------------------------------ | --------------------------- |
 | 77         | $\mathrm{C}_6\mathrm{H}_5^+$                                                         | Phenyl cation               |
@@ -757,11 +799,15 @@ Characteristic fragments include:
 | 105        | $\mathrm{C}_6\mathrm{H}_5\mathrm{CO}^+$                                              | Benzoyl cation              |
 | 39, 51, 65 | $\mathrm{C}_3\mathrm{H}_3^+$$\mathrm{C}_4\mathrm{H}_3^+$$\mathrm{C}_5\mathrm{H}_5^+$ | Fragmentary ring structures |
 
+</div>
+
 ### IR Spectroscopy: Detailed Interpretation Guide
 
 The IR spectrum is divided into functional group regions:
 
 **$4000$--$2500\,\mathrm{cm}^{-1}$ (X--H stretching region):**
+
+<div class="table-wrap">
 
 | Bond                   | Range          | Notes                   |
 | ---------------------- | -------------- | ----------------------- |
@@ -774,14 +820,22 @@ The IR spectrum is divided into functional group regions:
 | C--H (alkyne)          | $\approx 3300$ | Sharp                   |
 | O--H (carboxylic acid) | $2500$--$3000$ | Very broad, distinctive |
 
+</div>
+
 **$2500$--$2000\,\mathrm{cm}^{-1}$ (triple bond region):**
+
+<div class="table-wrap">
 
 | Bond       | Range          |
 | ---------- | -------------- |
 | C$\equiv$C | $2100$--$2260$ |
 | C$\equiv$N | $2210$--$2260$ |
 
+</div>
+
 **$2000$--$1500\,\mathrm{cm}^{-1}$ (double bond region):**
+
+<div class="table-wrap">
 
 | Bond                  | Range                 |
 | --------------------- | --------------------- |
@@ -792,6 +846,8 @@ The IR spectrum is divided into functional group regions:
 | C=O (amide)           | $1680$--$1700$        |
 | C=C                   | $1620$--$1680$ (weak) |
 | C=N                   | $1610$--$1680$        |
+
+</div>
 
 **$1500$--$400\,\mathrm{cm}^{-1}$ (fingerprint region):** Complex patterns unique to each molecule.
 Useful for comparison with reference spectra.
@@ -823,6 +879,8 @@ $n$ equivalent neighbouring protons.
 $^{13}\mathrm{C}$ NMR shows one signal for each chemically distinct carbon environment. The chemical
 shift range is $0$--$220\,\mathrm{ppm}$:
 
+<div class="table-wrap">
+
 | Carbon type           | Chemical shift (ppm) |
 | --------------------- | -------------------- |
 | C--C (alkane)         | $0$--$50$            |
@@ -831,6 +889,8 @@ shift range is $0$--$220\,\mathrm{ppm}$:
 | C=C (alkene)          | $100$--$150$         |
 | Aromatic C            | $110$--$160$         |
 | C=O (carbonyl)        | $160$--$220$         |
+
+</div>
 
 **Worked Example:** The $^{13}\mathrm{C}$ NMR spectrum of ethyl ethanoate shows four signals:
 $\delta\, 170$ (C=O), $\delta\, 60$ ($\mathrm{CH}_2\mathrm{O}$), $\delta\, 21$

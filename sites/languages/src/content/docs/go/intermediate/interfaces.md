@@ -243,6 +243,8 @@ Initialized.
 
 Go"s standard library defines several pervasive interfaces:
 
+<div class="table-wrap">
+
 | Interface        | Methods                                        | Used By                        |
 | ---------------- | ---------------------------------------------- | ------------------------------ |
 | `io.Reader`      | `Read(p []byte) (n int, err error)`            | Files, network connections     |
@@ -251,6 +253,8 @@ Go"s standard library defines several pervasive interfaces:
 | `fmt.Stringer`   | `String() string`                              | Custom string representation   |
 | `error`          | `Error() string`                               | Error values                   |
 | `sort.Interface` | `Len() int``Less(i,j int) bool``Swap(i,j int)` | Sorting                        |
+
+</div>
 
 Implementing `fmt.Stringer`:
 

@@ -269,12 +269,16 @@ Preparing for GCSEs is a sustained effort that requires consistency over two yea
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Active recall, flashcards for 20 minutes |
 | Afternoon | Topic study, read notes on one new topic |
 | Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
+
+</div>
 
 ---
 

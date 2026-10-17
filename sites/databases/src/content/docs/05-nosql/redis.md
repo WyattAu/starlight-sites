@@ -226,6 +226,8 @@ PERSIST key                 # Remove TTL
 
 When `maxmemory` is reached, Redis uses the configured policy to evict keys:
 
+<div class="table-wrap">
+
 | Policy            | Behavior                                    | Best For                            |
 | ----------------- | ------------------------------------------- | ----------------------------------- |
 | `noeviction`      | Return errors on write commands             | Data must not be lost               |
@@ -236,6 +238,8 @@ When `maxmemory` is reached, Redis uses the configured policy to evict keys:
 | `allkeys-random`  | Evict random keys                           | Uniform access patterns             |
 | `volatile-random` | Evict random keys with TTL set              | Uniform access with permanent data  |
 | `volatile-ttl`    | Evict keys with shortest TTL                | Time-based cache                    |
+
+</div>
 
 ## Persistence
 
@@ -293,6 +297,8 @@ aof-use-rdb-preamble yes
 The AOF file starts with an RDB snapshot (fast loading) followed by AOF incremental changes
 (fine-grained durability). This combines the advantages of both approaches.
 
+<div class="table-wrap">
+
 | Feature        | RDB                  | AOF                        | Mixed                |
 | -------------- | -------------------- | -------------------------- | -------------------- |
 | Durability     | Point-in-time only   | Every write (configurable) | Good                 |
@@ -300,6 +306,8 @@ The AOF file starts with an RDB snapshot (fast loading) followed by AOF incremen
 | Recovery speed | Fast (binary load)   | Slow (replay commands)     | Fast                 |
 | Write overhead | Fork during snapshot | Every write logged         | Moderate             |
 | Best for       | Backup, replication  | Maximum durability         | General purpose      |
+
+</div>
 
 ## Replication
 
@@ -362,12 +370,16 @@ sentinel parallel-syncs mymaster 1
 sentinel auth-pass mymaster your_password
 ```
 
+<div class="table-wrap">
+
 | Parameter                 | Meaning                                             |
 | ------------------------- | --------------------------------------------------- |
 | `monitor`                 | Master name, IP, port, quorum (votes needed)        |
 | `down-after-milliseconds` | Mark master as down after this many ms              |
 | `failover-timeout`        | Wait this long between failovers                    |
 | `parallel-syncs`          | How many replicas to resync at once during failover |
+
+</div>
 
 Sentinel also acts as a configuration provider: clients connect to Sentinel to discover the current
 Master address.
@@ -594,17 +606,23 @@ pipe.execute()
 
 Performance comparison:
 
+<div class="table-wrap">
+
 | Method     | 10,000 commands | Latency (approx) |
 | ---------- | --------------- | ---------------- |
 | Individual | 10,000 RTTs     | ~10s (1ms/RTT)   |
 | Pipeline   | 1 RTT           | ~50ms            |
 | Lua script | 1 RTT           | ~30ms            |
 
+</div>
+
 ## Memory Optimization
 
 ### Encoding Types
 
 Redis automatically selects memory-efficient encodings based on value characteristics:
+
+<div class="table-wrap">
 
 | Type       | Encoding  | When Used                               | Memory per element |
 | ---------- | --------- | --------------------------------------- | ------------------ |
@@ -615,6 +633,8 @@ Redis automatically selects memory-efficient encodings based on value characteri
 | Set        | hashtable | Non-integers or count &gt; 512          | ~60 bytes          |
 | Sorted Set | ziplist   | &lt;= 128 elements, each &lt;= 64 bytes | ~8 bytes           |
 | Sorted Set | skiplist  | Exceeds ziplist thresholds              | ~60 bytes          |
+
+</div>
 
 ### Hash Tags for Related Data
 
@@ -890,6 +910,8 @@ redis-cli -c -p 7000 CLUSTER GETKEYSINSLOT 0 10
 
 ### Cluster Limitations
 
+<div class="table-wrap">
+
 | Limitation              | Value          | Workaround                            |
 | ----------------------- | -------------- | ------------------------------------- |
 | Maximum keys            | 2^34           | Use sharding across clusters          |
@@ -898,6 +920,8 @@ redis-cli -c -p 7000 CLUSTER GETKEYSINSLOT 0 10
 | Database count          | 1 (database 0) | Use key prefixes for namespaces       |
 | SELECT in Lua scripts   | Not supported  | Use `redis.call()` for reads          |
 | Pipelining across slots | Not supported  | Pipeline to the correct node directly |
+
+</div>
 
 ### Handling MOVED and ASK Redirects
 
@@ -979,6 +1003,8 @@ redis-benchmark -t set -n 10000 -c 50 -d 1024  # 1KB values
 
 ### Performance Expectations
 
+<div class="table-wrap">
+
 | Command        | Single-Thread Throughput (approx) | Notes                           |
 | -------------- | --------------------------------- | ------------------------------- |
 | SET            | 80,000-120,000 ops/sec            | Varies by value size            |
@@ -988,6 +1014,8 @@ redis-benchmark -t set -n 10000 -c 50 -d 1024  # 1KB values
 | ZADD/ZRANGE    | 60,000-100,000 ops/sec            | Depends on sorted set size      |
 | MGET (10 keys) | 40,000-60,000 ops/sec             | Amortized per key               |
 | Pipeline (16)  | 500,000-800,000 ops/sec           | 16x improvement from pipelining |
+
+</div>
 
 ## Redis Memory Analysis
 

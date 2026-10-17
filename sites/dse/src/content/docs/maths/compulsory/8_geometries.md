@@ -78,12 +78,16 @@ $$
 Where $\theta$ is the angle the line makes with the positive $x$-axis. A vertical line (where
 $x_1 = x_2$) has an undefined gradient. Key gradient values include:
 
+<div class="table-wrap">
+
 | Gradient  | Interpretation                          |
 | --------- | --------------------------------------- |
 | $m > 0$   | Line slopes upward from left to right   |
 | $m < 0$   | Line slopes downward from left to right |
 | $m = 0$   | Horizontal line ($y = c$)               |
 | Undefined | Vertical line ($x = c$)                 |
+
+</div>
 
 <details>
 <summary>Examples</summary>
@@ -288,11 +292,15 @@ To find the points of intersection of the line $y = mx + c$ and the circle
 $(x-a)^2 + (y-b)^2 = r^2$ Substitute the line equation into the circle equation to obtain a Quadratic
 in $x$ (or $y$). The discriminant $\Delta = b^2 - 4ac$ determines the nature of Intersection:
 
+<div class="table-wrap">
+
 | Discriminant | Intersection                 |
 | ------------ | ---------------------------- |
 | $\Delta > 0$ | Two distinct points (secant) |
 | $\Delta = 0$ | One point (tangent)          |
 | $\Delta < 0$ | No real intersection         |
+
+</div>
 
 ### Tangent to a Circle
 
@@ -366,6 +374,8 @@ $$
 
 ### Quadrilaterals
 
+<div class="table-wrap">
+
 | Figure                                        | Area                 | Perimeter        |
 | --------------------------------------------- | -------------------- | ---------------- |
 | Rectangle ($l \times w$)                      | $lw$                 | $2(l+w)$         |
@@ -373,6 +383,8 @@ $$
 | Rhombus (diagonals $d_1$$d_2$)                | $\frac{1}{2}d_1 d_2$ | $4s$             |
 | Trapezium (parallel sides $a$$b$; height $h$) | $\frac{1}{2}(a+b)h$  | Sum of all sides |
 | Square (side $s$)                             | $s^2$                | $4s$             |
+
+</div>
 
 ### Circles
 

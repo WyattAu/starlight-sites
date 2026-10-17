@@ -117,6 +117,8 @@ annotation class Deprecated(val message: String, val replaceWith: String = "")
 
 ### Built-in Annotation Targets
 
+<div class="table-wrap">
+
 | Target                             | Applies To                                |
 | ---------------------------------- | ----------------------------------------- |
 | `AnnotationTarget.CLASS`           | Classes, interfaces, objects, annotations |
@@ -126,13 +128,19 @@ annotation class Deprecated(val message: String, val replaceWith: String = "")
 | `AnnotationTarget.FIELD`           | Backing fields                            |
 | `AnnotationTarget.TYPE`            | Types in type usages                      |
 
+</div>
+
 ### Retention
+
+<div class="table-wrap">
 
 | Retention | Behavior                                          |
 | --------- | ------------------------------------------------- |
 | `SOURCE`  | Discarded by the compiler (not in bytecode)       |
 | `BINARY`  | Stored in bytecode but not visible via reflection |
 | `RUNTIME` | Stored in bytecode and accessible via reflection  |
+
+</div>
 
 ### Usage
 
@@ -348,6 +356,8 @@ val config = Config().invoke {
 
 ### Available Operators
 
+<div class="table-wrap">
+
 | Expression    | Operator Function    | Translation    |
 | ------------- | -------------------- | -------------- |
 | `a + b`       | `a.plus(b)`          | Binary plus    |
@@ -362,6 +372,8 @@ val config = Config().invoke {
 | `a[i]`        | `a.get(i)`           | Indexing       |
 | `a(i)`        | `a.invoke(i)`        | Function call  |
 | `a..b`        | `a.rangeTo(b)`       | Range          |
+
+</div>
 
 ## Common Pitfalls
 

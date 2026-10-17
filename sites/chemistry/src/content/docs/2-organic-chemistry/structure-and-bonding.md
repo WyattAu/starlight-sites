@@ -69,11 +69,15 @@ $$
 \text{Bond strength: } \text{sp}^3 < \text{sp}^2 < \text{sp}
 $$
 
+<div class="table-wrap">
+
 | Hybridization | $s$ Character | C–C Bond Length (pm) | C–C Bond Energy (kJ/mol) |
 | ------------- | ------------- | -------------------- | ------------------------ |
 | sp$^3$        | 25%           | 154                  | 347                      |
 | sp$^2$        | 33.3%         | 133                  | 614                      |
 | sp            | 50%           | 120                  | 839                      |
+
+</div>
 
 ## 2. VSEPR Theory
 
@@ -84,6 +88,8 @@ lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.
 
 ### 2.2 Common Geometries
 
+<div class="table-wrap">
+
 | Steric Number | Geometry             | Bond Angle      | Example             |
 | ------------- | -------------------- | --------------- | ------------------- |
 | 2             | Linear               | 180°            | CO$_2$, BeCl$_2$    |
@@ -93,6 +99,8 @@ lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.
 | 4             | Bent                 | < 109.5°        | H$_2$O              |
 | 5             | Trigonal bipyramidal | 90°, 120°, 180° | PCl$_5$             |
 | 6             | Octahedral           | 90°, 180°       | SF$_6$              |
+
+</div>
 
 ### 2.3 Effect of Lone Pairs and Multiple Bonds
 
@@ -178,6 +186,8 @@ Experimental $\Delta H_{\text{hyd}}$ = $-208$ kJ/mol. Resonance energy = 152 kJ/
 electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons are antiaromatic
 (destabilized).
 
+<div class="table-wrap">
+
 | $\pi$ Electrons | $n$ | Aromaticity  | Example                 |
 | --------------- | --- | ------------ | ----------------------- |
 | 2               | 0   | Aromatic     | Cyclopropenyl cation    |
@@ -185,6 +195,8 @@ electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons 
 | 6               | 1   | Aromatic     | Benzene                 |
 | 8               | 2   | Antiaromatic | Cyclooctatetraene (tub) |
 | 10              | 2   | Aromatic     | Naphthalene             |
+
+</div>
 
 ### 5.2 Criteria for Aromaticity
 
@@ -303,12 +315,16 @@ $$
 
 ### 7.3 Butane Conformations
 
+<div class="table-wrap">
+
 | Conformation     | Dihedral Angle | Relative Energy (kJ/mol) |
 | ---------------- | -------------- | ------------------------ |
 | Anti             | 180°           | 0                        |
 | Gauche           | ±60°           | +3.8                     |
 | Eclipsed (Me–H)  | ±120°          | +16                      |
 | Eclipsed (Me–Me) | 0°             | +19                      |
+
+</div>
 
 The anti conformation is most stable due to minimal steric hindrance.
 
@@ -325,6 +341,8 @@ equatorial positions.
 
 **Theorem 5 (A-Value):** The conformational free energy difference between axial and equatorial:
 
+<div class="table-wrap">
+
 | Substituent | A-Value (kJ/mol) | Preferred Position |
 | ----------- | ---------------- | ------------------ |
 | CH$_3$      | 7.3              | Equatorial         |
@@ -333,6 +351,8 @@ equatorial positions.
 | OH          | 4.0              | Equatorial         |
 | Cl          | 2.1              | Equatorial         |
 | Br          | 1.8              | Equatorial         |
+
+</div>
 
 ### 7.5 Disubstituted Cyclohexanes
 
@@ -456,6 +476,8 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
 | Reaction Mechanisms          | WyattsNotes | [View](/2-organic-chemistry/reaction-mechanisms/)                  |
@@ -463,7 +485,9 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 | Quantum Chemistry            | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                    |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

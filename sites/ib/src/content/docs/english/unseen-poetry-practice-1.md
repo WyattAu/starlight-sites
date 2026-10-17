@@ -36,6 +36,8 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 
 ### 1.1 Key Contextual Information
 
+<div class="table-wrap">
+
 | Element | Detail |
 | --------- | -------- |
 | Poet | Seamus Heaney (1939--2013) |
@@ -43,6 +45,8 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 | Form | Free verse, eight stanzas of varying length |
 | Setting | Rural County Derry, Northern Ireland |
 | Speaker | First-person retrospective narrator |
+
+</div>
 
 ### 1.2 IB Relevance
 
@@ -189,12 +193,16 @@ The circular structure is crucial to the poem's meaning. When the speaker return
 
 ### 5.1 Assessment Objectives
 
+<div class="table-wrap">
+
 | Objective | How This Response Addresses It |
 | ----------- | ------------------------------- |
 | AO1: Understanding | Demonstrates thorough comprehension of the poem's literal and figurative levels |
 | AO2: Analysis | Explains how specific techniques (simile, sensory imagery, circular structure) produce meaning |
 | AO3: Evaluation | Assesses the significance of structural choices and their effect on the reader |
 | AO4: Communication | Presents a coherent, well-organised argument with integrated quotations |
+
+</div>
 
 ### 5.2 Paper 1 Marking Criteria Alignment
 

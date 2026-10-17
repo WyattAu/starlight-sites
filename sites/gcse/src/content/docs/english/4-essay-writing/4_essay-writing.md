@@ -81,6 +81,8 @@ Arguments.
 
 The most widely used paragraph structure for GCSE English Literature:
 
+<div class="table-wrap">
+
 | Element            | Function                                         | Example                                                                                                                                                                                                                                                                                             |
 | ------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **P** -- Point     | Topic sentence stating the argument              | "Shakespeare presents ambition as a force that isolates the individual from society."                                                                                                                                                                                                               |
@@ -88,6 +90,8 @@ The most widely used paragraph structure for GCSE English Literature:
 | **T** -- Technique | Identification of the literary technique         | Shakespeare uses an extended metaphor comparing Macbeth's mind to a container of scorpions                                                                                                                                                                                                          |
 | **A** -- Analysis  | Explanation of how the technique creates meaning | The metaphor suggests that Macbeth's thoughts have become a source of self-torment; the scorpions are both real (his anxiety) and self-generated (his guilt). The address to Lady Macbeth -- "dear wife" -- reveals his need for her support, even as his ambition has driven a wedge between them. |
 | **L** -- Link      | Connection back to the thesis or question        | This image of internal torment reinforces Shakespeare's presentation of ambition as a force that turns the individual against themselves.                                                                                                                                                           |
+
+</div>
 
 ### 2.2 PEEL
 
@@ -362,13 +366,19 @@ Extended essays under timed conditions.
 
 **AQA Paper 1 (1 hr 45 min, 64 marks):**
 
+<div class="table-wrap">
+
 | Section                                   | Time   | Marks  |
 | ----------------------------------------- | ------ | ------ |
 | Shakespeare (extract + whole play)        | 45 min | 30 + 4 |
 | 19th-Century Novel (extract + whole play) | 45 min | 30 + 4 |
 | Planning and checking                     | 15 min | --     |
 
+</div>
+
 **AQA Paper 2 (2 hrs 15 min, 96 marks):**
+
+<div class="table-wrap">
 
 | Section                     | Time   | Marks  |
 | --------------------------- | ------ | ------ |
@@ -378,13 +388,19 @@ Extended essays under timed conditions.
 | Unseen Poetry (comparison)  | 10 min | 8      |
 | Planning and checking       | 15 min | --     |
 
+</div>
+
 **Edexcel Paper 1 (1 hr 45 min, 50 marks):**
+
+<div class="table-wrap">
 
 | Section                       | Time   | Marks |
 | ----------------------------- | ------ | ----- |
 | Shakespeare (extract + essay) | 50 min | 30    |
 | Modern Text (essay)           | 40 min | 20    |
 | Planning and checking         | 15 min | --    |
+
+</div>
 
 These timings are indicative. Students should adjust them based on their own strengths and
 Weaknesses, and should practise under timed conditions before the examination.

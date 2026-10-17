@@ -201,12 +201,16 @@ original).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | Test     | Sign |
 | ------------ | -------- | ---- |
 | $x < -1$     | $x = -2$ | $+$  |
 | $-1 < x < 1$ | $x = 0$  | $-$  |
 | $1 < x < 3$  | $x = 2$  | $-$  |
 | $x > 3$      | $x = 4$  | $+$  |
+
+</div>
 
 The expression is negative for $-1 < x < 1$ or $1 < x < 3$.
 
@@ -499,6 +503,8 @@ $$
 
 Factor pairs of 4: $(1,4), (2,2), (4,1), (-1,-4), (-2,-2), (-4,-1)$.
 
+<div class="table-wrap">
+
 | $\alpha + 1$ | $\beta + 1$ | $\alpha$ | $\beta$ | $k = -(\alpha+\beta)$ |
 | ------------ | ----------- | -------- | ------- | --------------------- |
 | 1            | 4           | 0        | 3       | $-3$                  |
@@ -507,6 +513,8 @@ Factor pairs of 4: $(1,4), (2,2), (4,1), (-1,-4), (-2,-2), (-4,-1)$.
 | $-1$         | $-4$        | $-2$     | $-5$    | $7$                   |
 | $-2$         | $-2$        | $-3$     | $-3$    | $6$                   |
 | $-4$         | $-1$        | $-5$     | $-2$    | $7$                   |
+
+</div>
 
 Distinct values of $k$: $-3$, $-2$, $6$, $7$.
 
@@ -773,12 +781,16 @@ $x = 2$ is excluded (denominator zero in original).
 
 Sign chart for $\dfrac{x - 3}{x + 2}$:
 
+<div class="table-wrap">
+
 | Interval     | Test      | Sign |
 | ------------ | --------- | ---- |
 | $x < -2$     | $x = -3$  | $+$  |
 | $-2 < x < 2$ | $x = 0$   | $-$  |
 | $2 < x < 3$  | $x = 2.5$ | $-$  |
 | $x > 3$      | $x = 4$   | $+$  |
+
+</div>
 
 The expression is non-negative for $x < -2$ or $x \geq 3$ Excluding $x = 2$.
 

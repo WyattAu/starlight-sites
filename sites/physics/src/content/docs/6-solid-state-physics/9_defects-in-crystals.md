@@ -187,7 +187,7 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ## Intuition
 

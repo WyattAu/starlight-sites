@@ -34,6 +34,8 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 
 ## Core Concepts
 
+<div class="table-wrap">
+
 | Area | Central Object | Key Result | Application |
 | ------ | --------------- | ------------ | ------------- |
 | Abstract Algebra | Group $(G, \cdot)$ | Lagrange's Theorem | Symmetry, cryptography |
@@ -43,7 +45,11 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 | Differential Geometry | Smooth manifold $M$ | Gauss-Bonnet Theorem | General relativity |
 | Functional Analysis | Banach/Hilbert space | Hahn-Banach Theorem | PDE theory, quantum |
 
+</div>
+
 ## Proof Techniques
+
+<div class="table-wrap">
 
 | Technique | When to Use | Example |
 | ----------- | ------------- | --------- |
@@ -52,6 +58,8 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 | Contradiction | Assume $\neg P$, derive contradiction | Irrationality of $\sqrt{2}$ |
 | Induction | Statement about natural numbers | $\sum_{i=1}^n i = \frac{n(n+1)}{2}$ |
 | Construction | Existence proof | "There exist infinitely many primes" |
+
+</div>
 
 ## How to Use These Notes
 
@@ -67,9 +75,9 @@ Mathematics is cumulative, each topic builds on previous ones. If you encounter 
 
 ## Cross-References
 
-- **[Abstract Algebra](/abstract-algebra/)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
-- **[Real Analysis](/real-analysis/)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
-- **[Linear Algebra](/linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
+- **[Abstract Algebra](/1-abstract-algebra/)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
+- **[Real Analysis](/3-real-analysis/)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
+- **[Linear Algebra](/2-linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
 - **[Topology](/9-topology/1_introduction-to-topology/)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)

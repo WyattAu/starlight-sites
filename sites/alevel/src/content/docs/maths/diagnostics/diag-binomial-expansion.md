@@ -182,6 +182,8 @@ $$
 
 We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 0$:
 
+<div class="table-wrap">
+
 | $r$ | Coefficient from numerator | $s$ | Coefficient from denominator | Product |
 | --- | -------------------------- | --- | ---------------------------- | ------- |
 | 0   | 1                          | 4   | 15                           | 15      |
@@ -189,6 +191,8 @@ We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 
 | 2   | 40                         | 2   | 6                            | 240     |
 | 3   | 80                         | 1   | 3                            | 240     |
 | 4   | 80                         | 0   | 1                            | 80      |
+
+</div>
 
 Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 

@@ -488,6 +488,8 @@ class Dinic:
 
 ### Max-Flow Algorithms Comparison
 
+<div class="table-wrap">
+
 | Algorithm        | Time Complexity  | Best For                             |
 | ---------------- | ---------------- | ------------------------------------ |
 | Ford-Fulkerson   | $O(E \cdot f^*)$ | Small flow values                    |
@@ -495,6 +497,8 @@ class Dinic:
 | Dinic's          | $O(V^2 E)$       | General purpose, fast in practice    |
 | Capacity scaling | $O(E^2 \log U)$  | Large capacities                     |
 | Push-relabel     | $O(V^3)$         | Dense graphs                         |
+
+</div>
 
 Where $f^*$ is the max flow value and $U$ is the maximum edge capacity.
 
@@ -696,11 +700,15 @@ An **Eulerian circuit** visits every edge exactly once and returns to the starti
 
 ### Conditions
 
+<div class="table-wrap">
+
 | Property    | Eulerian Circuit | Eulerian Path           |
 | ----------- | ---------------- | ----------------------- |
 | Connected   | Yes              | Yes (ignoring isolated) |
 | Even degree | All vertices     | All except exactly 2    |
 | Odd degree  | None             | Exactly 2               |
+
+</div>
 
 ### Hierholzer's Algorithm
 

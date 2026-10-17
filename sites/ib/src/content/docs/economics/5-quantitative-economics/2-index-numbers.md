@@ -122,6 +122,8 @@ Paasche satisfies individually.
 
 ### CPI vs. RPI
 
+<div class="table-wrap">
+
 | Feature       | CPI                                                             | RPI (Retail Price Index)                                   |
 | ------------- | --------------------------------------------------------------- | ---------------------------------------------------------- |
 | Coverage      | Broader population coverage                                     | Excludes top 4% of income earners and pensioner households |
@@ -130,15 +132,21 @@ Paasche satisfies individually.
 | Use           | Target for inflation targeting (Bank of England)                | Used for index-linked bonds, some pension calculations     |
 | Bias          | Lower substitution bias                                         | Upward bias (overstates inflation)                         |
 
+</div>
+
 ### Worked Example: Constructing a Price Index
 
 A basket contains three goods with the following data:
+
+<div class="table-wrap">
 
 | Good | Base Year Price | Base Year Quantity | Year 2 Price | Year 2 Quantity |
 | ---- | --------------- | ------------------ | ------------ | --------------- |
 | A    | 10              | 50                 | 12           | 45              |
 | B    | 5               | 100                | 6            | 90              |
 | C    | 8               | 30                 | 9            | 35              |
+
+</div>
 
 **Laspeyres index:**
 
@@ -204,11 +212,15 @@ rather than pure inflation. Chain-linked indices allow more frequent quality adj
 
 An economy consumes two goods: food and housing.
 
+<div class="table-wrap">
+
 | Year | Price of food | Quantity of food | Price of housing | Quantity of housing |
 | ---- | ------------- | ---------------- | ---------------- | ------------------- |
 | 2020 | 10            | 100              | 50               | 20                  |
 | 2021 | 12            | 90               | 55               | 20                  |
 | 2022 | 11            | 95               | 60               | 18                  |
+
+</div>
 
 **Fixed-base (Laspeyres) index with 2020 base:**
 
@@ -321,6 +333,8 @@ An economist estimates the Phillips curve: $\pi = \beta_0 + \beta_1 u + \epsilon
 
 Data (5 observations):
 
+<div class="table-wrap">
+
 | Observation | Unemployment rate ($u$%) | Inflation rate ($\pi$%) |
 | ----------- | ------------------------ | ----------------------- |
 | 1           | 3                        | 6                       |
@@ -328,6 +342,8 @@ Data (5 observations):
 | 3           | 7                        | 3                       |
 | 4           | 8                        | 2                       |
 | 5           | 10                       | 1                       |
+
+</div>
 
 (a) Estimate the regression coefficients.
 
@@ -352,6 +368,8 @@ Estimated Phillips curve: $\hat{\pi} = 7.86 - 0.706u$
 
 (b) Predicted values and residuals:
 
+<div class="table-wrap">
+
 | $u$ | $\pi$ | $\hat{\pi}$ | $(\pi - \hat{\pi})^2$ | $(\pi - \bar{\pi})^2$ |
 | --- | ----- | ----------- | --------------------- | --------------------- |
 | 3   | 6     | 5.74        | 0.068                 | 7.84                  |
@@ -359,6 +377,8 @@ Estimated Phillips curve: $\hat{\pi} = 7.86 - 0.706u$
 | 7   | 3     | 2.92        | 0.006                 | 0.04                  |
 | 8   | 2     | 2.21        | 0.044                 | 1.44                  |
 | 10  | 1     | 0.80        | 0.040                 | 4.84                  |
+
+</div>
 
 $\text{SSR} = 0.267$, $\text{SST} = 14.80$
 
@@ -537,12 +557,16 @@ $\text{Growth} = \beta_0 + \beta_1 \text{Investment} + \beta_2 \text{Education} 
 
 Data (10 observations, standardised variables):
 
+<div class="table-wrap">
+
 | Variable   | Coefficient | Std. Error | t-stat | VIF |
 | ---------- | ----------- | ---------- | ------ | --- |
 | Intercept  | 2.5         | 0.8        | 3.13   | --  |
 | Investment | 0.35        | 0.12       | 2.92   | 1.8 |
 | Education  | 0.20        | 0.15       | 1.33   | 3.2 |
 | Trade      | 0.18        | 0.14       | 1.29   | 3.0 |
+
+</div>
 
 $R^2 = 0.72$$n = 10$$k = 3$
 
@@ -552,10 +576,14 @@ $R^2 = 0.72$$n = 10$$k = 3$
 
 (c) The economist drops the Education variable and re-estimates:
 
+<div class="table-wrap">
+
 | Variable   | Coefficient | Std. Error | t-stat |
 | ---------- | ----------- | ---------- | ------ |
 | Investment | 0.42        | 0.10       | 4.20   |
 | Trade      | 0.25        | 0.11       | 2.27   |
+
+</div>
 
 $R^2 = 0.65$. Compare and interpret. [4 marks]
 

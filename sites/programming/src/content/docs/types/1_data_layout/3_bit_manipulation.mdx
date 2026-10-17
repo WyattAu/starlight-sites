@@ -148,6 +148,8 @@ The `<bit>` header standardizes these operations.
 
 ### Key Primitives
 
+<div class="table-wrap">
+
 | Function                  | Description                                | x86_64 Instruction | ARM64 Instruction |
 | :------------------------ | :----------------------------------------- | :----------------- | :---------------- |
 | **`std::popcount`**       | Counts number of set bits (1s).            | `POPCNT`           | `CNT`             |
@@ -155,6 +157,8 @@ The `<bit>` header standardizes these operations.
 | **`std::countr_zero`**    | Counts consecutive zeros from LSB (Right). | `TZCNT` / `BSF`    | `RBIT` + `CLZ`    |
 | **`std::has_single_bit`** | Checks if value is power of two.           | `POPCNT` / Logic   | Logic             |
 | **`std::bit_width`**      | Minimum bits required to represent value.  | `LZCNT`            | `CLZ`             |
+
+</div>
 
 ### Architectural Usage: Bitmasks and Pools
 

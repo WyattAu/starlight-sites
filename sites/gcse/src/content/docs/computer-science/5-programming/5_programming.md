@@ -50,6 +50,8 @@ Reduces errors and makes the code easier to maintain.
 
 **Data types:**
 
+<div class="table-wrap">
+
 | Type       | Description                 | Example          |
 | ---------- | --------------------------- | ---------------- |
 | Integer    | Whole numbers               | 42, -7, 0        |
@@ -57,6 +59,8 @@ Reduces errors and makes the code easier to maintain.
 | String     | Text enclosed in quotes     | "Hello", "World' |
 | Character  | A single character          | 'A', '7'         |
 | Boolean    | True or False               | True, False      |
+
+</div>
 
 **Type casting** converts a value from one type to another:
 
@@ -567,6 +571,8 @@ with open("output.csv", "w", newline="") as file:
 
 **Validation** checks that data is sensible and reasonable (but not necessarily correct).
 
+<div class="table-wrap">
+
 | Type           | Check                               | Example                     |
 | -------------- | ----------------------------------- | --------------------------- |
 | Range check    | Value is within an acceptable range | Age between 0 and 120       |
@@ -574,6 +580,8 @@ with open("output.csv", "w", newline="") as file:
 | Length check   | Correct number of characters        | Password is 8-20 characters |
 | Presence check | Data has been entered               | Name field is not empty     |
 | Format check   | Correct pattern (e.g. Email format) | Contains @ symbol           |
+
+</div>
 
 ```python
 def validate_age(age):

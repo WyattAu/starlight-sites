@@ -23,6 +23,8 @@ categories:
 Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and
 Containerized environments. Key advantages over alternatives:
 
+<div class="table-wrap">
+
 | Feature                           | Traefik                            | Nginx Proxy Manager   | Caddy            |
 | --------------------------------- | ---------------------------------- | --------------------- | ---------------- |
 | Auto-discovery from Docker labels | Yes (native)                       | No (manual UI)        | Yes (via plugin) |
@@ -32,6 +34,8 @@ Containerized environments. Key advantages over alternatives:
 | Learning curve                    | Medium                             | Low                   | Low              |
 | Dashboard                         | Built-in                           | Built-in              | No               |
 | Docker Compose integration        | Excellent (labels on each service) | Separate container    | Good             |
+
+</div>
 
 Traefik shines in a homelab because it eliminates manual proxy configuration. When you start a new
 Container with the right labels, Traefik picks it up and routes traffic immediately, no restart, no

@@ -86,6 +86,8 @@ Beck's (1967) negative automatic thoughts should be linked to their respective C
 
 ## Essential Studies
 
+<div class="table-wrap">
+
 | Study                        | Researcher(s)        | Year | Key Finding                                                                                                    | Evaluation Point                                                                             |
 | ---------------------------- | -------------------- | ---- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | War of the Ghosts            | Bartlett             | 1932 | Participants distorted an unfamiliar folk tale to fit cultural schemas, demonstrating reconstructive memory    | Uncontrolled methodology; story content not systematically varied                            |
@@ -97,6 +99,8 @@ Beck's (1967) negative automatic thoughts should be linked to their respective C
 | Spatial Language and Thought | Boroditsky et al.    | 2001 | Kuuk Thaayorre speakers arranged temporal cards east-to-west regardless of facing direction                    | Small participant samples; task demands may influence results                                |
 | Colour Categorisation        | Winawer et al.       | 2007 | Russian speakers were faster discriminating blues across category boundary (goluboy vs siniy) than within      | Effect limited to left visual field; disappears with verbal interference                     |
 | Eyewitness Accuracy          | Yuille and Cutshall  | 1986 | Witnesses to a real robbery recalled events accurately even after five months, contradicting Loftus and Palmer | Naturalistic study; small sample (N = 21) from single incident limits generalisability       |
+
+</div>
 
 ## Worked Examples
 

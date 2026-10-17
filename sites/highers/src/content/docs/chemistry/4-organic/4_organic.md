@@ -37,6 +37,8 @@ Contain At least one C=C triple bond.
 
 ### Comparison of Hydrocarbons
 
+<div class="table-wrap">
+
 | Property        | Alkanes                       | Alkenes                           | Alkynes                       |
 | --------------- | ----------------------------- | --------------------------------- | ----------------------------- |
 | General formula | $\mathrm{C_n\mathrm{H_{2n+2}$ | $\mathrm{C_n\mathrm{H_{2n}$       | $\mathrm{C_n\mathrm{H_{2n-2}$ |
@@ -44,6 +46,8 @@ Contain At least one C=C triple bond.
 | Reactivity      | Relatively unreactive         | Reactive (electrophilic addition) | Very reactive                 |
 | Test            | Burns with clean flame        | Decolourises bromine water        | Decolourises bromine water    |
 | Flammability    | Burns in air                  | Burns with smoky flame            | Burns with very smoky flame   |
+
+</div>
 
 ### IUPAC Nomenclature
 
@@ -117,6 +121,8 @@ Aldehydes, (b) ketones, (c) alcohols, (d) ethers.
 
 ### Functional Groups
 
+<div class="table-wrap">
+
 | Class           | Functional Group           | Suffix    | Example          |
 | --------------- | -------------------------- | --------- | ---------------- |
 | Alcohol         | $-\mathrm{OH$              | -ol       | Ethanol          |
@@ -126,6 +132,8 @@ Aldehydes, (b) ketones, (c) alcohols, (d) ethers.
 | Ester           | $-\mathrm{COO-$            | -oate     | Methyl ethanoate |
 | Amine           | $-\mathrm{NH_2$            | -amine    | Ethanamine       |
 | Halogenoalkane  | $-\mathrm{Cl, -\mathrm{Br$ | halogeno- | Chloroethane     |
+
+</div>
 
 ### Reactions of Alkanes
 
@@ -275,11 +283,15 @@ $$
 
 **Distinguishing tests:**
 
+<div class="table-wrap">
+
 | Test               | Aldehyde              | Ketone             |
 | ------------------ | --------------------- | ------------------ |
 | Tollens' reagent   | Silver mirror         | No change          |
 | Fehling's solution | Brick-red precipitate | No change          |
 | 2,4-DNP test       | Orange precipitate    | Orange precipitate |
+
+</div>
 
 Note: 2,4-DNP tests for both aldehydes and ketones (confirms carbonyl group), while Tollens' and
 Fehling's distinguish between them.
@@ -372,6 +384,8 @@ Therefore, 2-bromo-2-methylpropane reacts faster via $S_N1$.
 
 ### Comparison of $S_N1$ and $S_N2$
 
+<div class="table-wrap">
+
 | Feature                   | $S_N1$                              | $S_N2$                        |
 | ------------------------- | ----------------------------------- | ----------------------------- |
 | Steps                     | Two (carbocation intermediate)      | One (concerted)               |
@@ -381,6 +395,8 @@ Therefore, 2-bromo-2-methylpropane reacts faster via $S_N1$.
 | Favoured nucleophile      | Weak (e.g., $\mathrm{H_2\mathrm{O$) | Strong (e.g., $\mathrm{OH^-$) |
 | Carbocation rearrangement | Possible                            | Not applicable                |
 | Solvent effect            | Favoured by polar protic            | Favoured by polar aprotic     |
+
+</div>
 
 **Elimination (E1 and E2):**
 
@@ -417,6 +433,8 @@ Nylon and Kevlar are examples of polyamides.
 
 ### Comparison: Addition vs. Condensation Polymers
 
+<div class="table-wrap">
+
 | Feature          | Addition polymer            | Condensation polymer                          |
 | ---------------- | --------------------------- | --------------------------------------------- |
 | Monomers         | Alkenes                     | Two different functional groups               |
@@ -424,6 +442,8 @@ Nylon and Kevlar are examples of polyamides.
 | Bond formed      | C-C                         | Ester or amide                                |
 | Example          | Polythene, PVC              | Nylon, polyester                              |
 | Biodegradability | Generally not biodegradable | Can be biodegradable                          |
+
+</div>
 
 ### Optical Activity
 
@@ -590,6 +610,8 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 ### Functional Group Interconversion Summary
 
+<div class="table-wrap">
+
 | From            | To                | Reagent/Condition                        |
 | --------------- | ----------------- | ---------------------------------------- |
 | Alkene          | Alkane            | $\mathrm{H_2$ Ni catalyst                 |
@@ -604,6 +626,8 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 | Carboxylic acid | Salt              | Base / carbonate                         |
 | Aldehyde        | Primary alcohol   | $\mathrm{NaBH_4$                         |
 | Ketone          | Secondary alcohol | $\mathrm{NaBH_4$                         |
+
+</div>
 
 ---
 
@@ -627,12 +651,16 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 ### Reactivity of Alcohols
 
+<div class="table-wrap">
+
 | Reaction type    | Primary                    | Secondary         | Tertiary        |
 | ---------------- | -------------------------- | ----------------- | --------------- |
 | Oxidation        | Aldehyde $\to$ acid        | Ketone            | No reaction     |
 | Dehydration      | Multiple products possible | One major product | One product     |
 | $S_N1/S_N2$      | $S_N2$ favoured            | Both possible     | $S_N1$ favoured |
 | Reaction with HX | Slow                       | Moderate          | Fast            |
+
+</div>
 
 ---
 
@@ -649,12 +677,16 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 ### Polymers and the Environment
 
+<div class="table-wrap">
+
 | Polymer               | Source               | Environmental issue         | Alternative              |
 | --------------------- | -------------------- | --------------------------- | ------------------------ |
 | Polythene             | Ethene               | Non-biodegradable, landfill | Biodegradable polymers   |
 | PVC                   | Chloroethene         | Releases HCl when burned    | Use alternative plastics |
 | PET                   | Condensation polymer | Recycling possible          | Biodegradable polyester  |
 | Polylactic acid (PLA) | Corn starch          | Biodegradable               | --                       |
+
+</div>
 
 ### Biofuels
 
@@ -685,6 +717,8 @@ Advantages: renewable, carbon-neutral. Disadvantages: land use competition, lowe
 
 Key absorptions for functional group identification:
 
+<div class="table-wrap">
+
 | Bond          | Wavenumber (cm$^{-1}$) |
 | ------------- | ---------------------- |
 | O-H (alcohol) | 3200-3600 (broad)      |
@@ -692,6 +726,8 @@ Key absorptions for functional group identification:
 | C=O           | 1680-1750              |
 | C=C           | 1620-1680              |
 | C-O           | 1000-1300              |
+
+</div>
 
 **Worked Example 18:** An unknown compound $\mathrm{C_3\mathrm{H_6\mathrm{O$ shows a strong
 absorption At $1715 \mathrm{ cm^{-1}$ but no broad O-H absorption. Identify the compound.
@@ -785,11 +821,15 @@ If $\mathrm{Br$ and $\mathrm{Cl$ are on the same side: Z isomer. If on opposite 
 
 E and Z isomers have different physical properties:
 
+<div class="table-wrap">
+
 | Property      | Z-1,2-dichloroethene | E-1,2-dichloroethene |
 | ------------- | -------------------- | -------------------- |
 | Boiling point | 60°C                 | 48°C                 |
 | Dipole moment | Non-zero (polar)     | Zero (non-polar)     |
 | Melting point | -80°C                | -50°C                |
+
+</div>
 
 The Z isomer has a dipole moment (both C-Cl bonds on the same side), while the E isomer has
 Cancelling dipoles.
@@ -809,11 +849,15 @@ Cancelling dipoles.
 
 ### Classification and Reactivity
 
+<div class="table-wrap">
+
 | Type      | Structure                 | $S_N1$ or $S_N2$ | Reactivity with NaOH (aq) |
 | --------- | ------------------------- | ---------------- | ------------------------- |
 | Primary   | R-$\mathrm{CH_2\mathrm{X$ | $S_N2$           | Slow                      |
 | Secondary | R$_2$-$\mathrm{CHX$       | Both             | Moderate                  |
 | Tertiary  | R$_3$-$\mathrm{CX$        | $S_N1$           | Fast                      |
+
+</div>
 
 ### Environmental Impact of Halogenoalkanes
 
@@ -832,12 +876,16 @@ $$
 
 ### Nucleophilic Substitution with Different Nucleophiles
 
+<div class="table-wrap">
+
 | Nucleophile             | Product        | Notes                                  |
 | ----------------------- | -------------- | -------------------------------------- |
 | $\mathrm{OH^-$ (aq)     | Alcohol        | Hydrolysis                             |
 | $\mathrm{CN^-$          | Nitrile        | Extends carbon chain by one            |
 | $\mathrm{NH_3$ (excess) | Primary amine  | Produces $\mathrm{NH_4^+$ as byproduct |
 | $\mathrm{H_2\mathrm{O$  | Alcohol (slow) | Acidic conditions needed               |
+
+</div>
 
 **Worked Example 22:** Describe the reaction of 1-bromopropane with potassium cyanide and explain
 The importance of this reaction in organic synthesis.
@@ -863,6 +911,8 @@ Carboxylic acid, providing a route to chain-elongated compounds.
 
 ## Summary Table: Key Organic Reactions
 
+<div class="table-wrap">
+
 | Reactant          | Reagent                             | Product               | Reaction type             |
 | ----------------- | ----------------------------------- | --------------------- | ------------------------- |
 | Alkene            | $\mathrm{H_2$/Ni                    | Alkane                | Addition                  |
@@ -880,6 +930,8 @@ Carboxylic acid, providing a route to chain-elongated compounds.
 | Ester             | $\mathrm{NaOH (aq)$                 | Carboxylate + alcohol | Base hydrolysis           |
 | Aldehyde          | $\mathrm{NaBH_4$                    | Primary alcohol       | Reduction                 |
 | Ketone            | $\mathrm{NaBH_4$                    | Secondary alcohol     | Reduction                 |
+
+</div>
 
 ## Worked Examples
 

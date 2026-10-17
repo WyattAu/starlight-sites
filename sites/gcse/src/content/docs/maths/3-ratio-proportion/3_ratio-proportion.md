@@ -186,12 +186,16 @@ $$
 
 ### 3.1 Distance-Time Graphs
 
+<div class="table-wrap">
+
 | Feature            | Meaning                 |
 | ------------------ | ----------------------- |
 | Gradient           | Speed                   |
 | Horizontal section | Stationary              |
 | Steeper section    | Faster speed            |
 | Downhill section   | Returning towards start |
+
+</div>
 
 **Worked Example.** A person walks at 2 m/s for 10 seconds, then stops for 5 seconds, then runs at 5
 M/s for 4 seconds. Draw and interpret the distance-time graph.
@@ -208,11 +212,15 @@ Distance function if given.
 
 ### 3.2 Speed-Time (Velocity-Time) Graphs
 
+<div class="table-wrap">
+
 | Feature              | Meaning                          |
 | -------------------- | -------------------------------- |
 | Gradient             | Acceleration                     |
 | Area under the graph | Distance travelled               |
 | Below the time axis  | Moving in the opposite direction |
+
+</div>
 
 **Key equations of motion (constant acceleration):**
 
@@ -322,11 +330,15 @@ $$
 
 ### 5.1 Speed, Density, and Pressure
 
+<div class="table-wrap">
+
 | Measure  | Formula                                                 | Units            |
 | -------- | ------------------------------------------------------- | ---------------- |
 | Speed    | $\mathrm{speed = \frac{\mathrm{distance}{\mathrm{time}$ | m/s, km/h        |
 | Density  | $\rho = \frac{\mathrm{mass}{\mathrm{volume}$            | kg/m$^3$G/cm$^3$ |
 | Pressure | $P = \frac{\mathrm{force}{\mathrm{area}$                | Pa (N/m$^2$)     |
+
+</div>
 
 **Worked Example.** A block of metal has mass 1.8 kg and volume 200 cm$^3$. Find its density in
 G/cm$^3$.
@@ -350,6 +362,8 @@ $$
 
 ### 5.2 Unit Conversions
 
+<div class="table-wrap">
+
 | Conversion               | Factor                     |
 | ------------------------ | -------------------------- |
 | 1 km = 1000 m            | $\times 1000$              |
@@ -357,6 +371,8 @@ $$
 | 1 hour = 60 min = 3600 s | $\times 60$, $\times 3600$ |
 | 1 litre = 1000 cm$^3$    | $\times 1000$              |
 | 1 kg = 1000 g            | $\times 1000$              |
+
+</div>
 
 **Worked Example.** Convert 72 km/h to m/s.
 
@@ -538,13 +554,19 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 ### 9.1 Compound Measures Summary
 
+<div class="table-wrap">
+
 | Measure  | Formula                          | Units            |
 | -------- | -------------------------------- | ---------------- |
 | Speed    | $\mathrm{speed = \frac{d}{t}$    | m/s, km/h        |
 | Density  | $\mathrm{density = \frac{m}{V}$  | kg/m$^3$G/cm$^3$ |
 | Pressure | $\mathrm{pressure = \frac{F}{A}$ | Pa (N/m$^2$)     |
 
+</div>
+
 ### 9.2 Proportionality: A Quick Reference
+
+<div class="table-wrap">
 
 | Type          | Equation        | Graph shape                  |
 | ------------- | --------------- | ---------------------------- |
@@ -552,6 +574,8 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 | Inverse       | $y = k/x$       | Reciprocal curve             |
 | Direct sq.    | $y = kx^2$      | Quadratic through origin     |
 | Direct sq.rt. | $y = k\sqrt{x}$ | Square root curve            |
+
+</div>
 
 **How to determine the type of proportionality from a table of values:**
 
@@ -562,9 +586,13 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 **Worked Example.** Given the table:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 8   |
 | --- | --- | --- | --- |
 | $y$ | 6   | 12  | 24  |
+
+</div>
 
 Check $y/x$: $6/2 = 3$$12/4 = 3$$24/8 = 3$. Constant, so $y$ is directly proportional to $x$. The
 equation is $y = 3x$.

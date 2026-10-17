@@ -77,6 +77,8 @@ or 802.2 LLC.
 
 ### Evolution of Speeds
 
+<div class="table-wrap">
+
 | Standard   | Year | Speed    | Medium             | Max Segment |
 | ---------- | ---- | -------- | ------------------ | ----------- |
 | 10BASE5    | 1983 | 10 Mbps  | Thick coax (10 mm) | 500 m       |
@@ -86,6 +88,8 @@ or 802.2 LLC.
 | 1000BASE-T | 1999 | 1 Gbps   | Cat5e UTP          | 100 m       |
 | 10GBASE-T  | 2006 | 10 Gbps  | Cat6a UTP          | 100 m       |
 | 40GBASE-T  | 2018 | 40 Gbps  | Cat8 UTP           | 30 m        |
+
+</div>
 
 Each generation maintained backward compatibility at the physical layer while dramatically
 Increasing throughput. The shift from shared medium (coax, hubs) to switched (full-duplex point-to-
@@ -130,6 +134,8 @@ Multicast or broadcast address).
 
 Identifies the protocol encapsulated in the payload. Common values:
 
+<div class="table-wrap">
+
 | EtherType (hex) | Protocol     |
 | --------------- | ------------ |
 | 0x0800          | IPv4         |
@@ -140,6 +146,8 @@ Identifies the protocol encapsulated in the payload. Common values:
 | 0x8864          | PPPoE        |
 | 0x8847          | MPLS Unicast |
 | 0x88CC          | LLDP         |
+
+</div>
 
 When the value is $\le$ 1500 (0x05DC), the field is interpreted as a Length field (802.3 frame)
 Rather than an EtherType, and the encapsulated protocol is identified by the LLC/SNAP header.
@@ -316,6 +324,8 @@ Undetected collision.
 
 ## Full-Duplex vs Half-Duplex Ethernet
 
+<div class="table-wrap">
+
 | Property           | Half-Duplex                       | Full-Duplex                                   |
 | ------------------ | --------------------------------- | --------------------------------------------- |
 | Direction          | One at a time (send or receive)   | Simultaneous send and receive                 |
@@ -324,6 +334,8 @@ Undetected collision.
 | Minimum frame size | 64 bytes enforced                 | Not enforced (but standard frames still used) |
 | Cable              | Single pair (old coax) or 2 pairs | Separate TX/RX pairs                          |
 | Modern use         | Legacy/hubs only                  | Switches, virtually universal                 |
+
+</div>
 
 Full-duplex Ethernet eliminates collisions entirely because each station has dedicated transmit and
 Receive paths. A switch port connected to a single host is inherently full-duplex -- there is no
@@ -335,6 +347,8 @@ have been obsolete for over two decades.
 
 ## Ethernet Standards Comparison
 
+<div class="table-wrap">
+
 | Standard   | Speed    | Medium    | Encoding        | Pairs | Max Distance | Notes                       |
 | ---------- | -------- | --------- | --------------- | ----- | ------------ | --------------------------- |
 | 10BASE-T   | 10 Mbps  | Cat3+ UTP | Manchester      | 2     | 100 m        | Half/full duplex            |
@@ -343,9 +357,13 @@ have been obsolete for over two decades.
 | 10GBASE-T  | 10 Gbps  | Cat6a UTP | 16QAM / DSQ128  | 4     | 100 m        | 400 MHz bandwidth           |
 | 40GBASE-T  | 40 Gbps  | Cat8 UTP  | PAM-16          | 4     | 30 m         | 2 GHz bandwidth             |
 
+</div>
+
 ### Fiber Variants
 
 Fiber optic Ethernet variants are common in data center and campus backbone deployments:
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Fiber Type             | Wavelength  | Max Distance      |
 | ------------ | -------- | ---------------------- | ----------- | ----------------- |
@@ -356,6 +374,8 @@ Fiber optic Ethernet variants are common in data center and campus backbone depl
 | 40GBASE-SR4  | 40 Gbps  | Multimate (50 um)      | 850 nm      | 100 m (OM3)       |
 | 100GBASE-LR4 | 100 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 10 km             |
 | 400GBASE-DR4 | 400 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 500 m             |
+
+</div>
 
 ### 1000BASE-T Details
 
@@ -470,12 +490,16 @@ Correctly.
 
 ### Access Ports vs Trunk Ports
 
+<div class="table-wrap">
+
 | Property        | Access Port                                              | Trunk Port                              |
 | --------------- | -------------------------------------------------------- | --------------------------------------- |
 | Tagged frames   | No -- strips tags on egress, expects untagged on ingress | Yes -- carries multiple VLANs with tags |
 | VLAN membership | Single VLAN (access VLAN)                                | Multiple VLANs (allowed VLAN list)      |
 | Native VLAN     | N/A (or assigns frames to access VLAN)                   | Untagged traffic mapped to native VLAN  |
 | Typical use     | End devices (PCs, printers, servers)                     | Switch-to-switch, switch-to-router      |
+
+</div>
 
 Configuration example (Cisco):
 
@@ -570,6 +594,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 
 ### Port States (802.1D)
 
+<div class="table-wrap">
+
 | State      | Forwards Data | Learns MACs | Duration             |
 | ---------- | ------------- | ----------- | -------------------- |
 | Disabled   | No            | No          | Administrative       |
@@ -577,6 +603,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 | Listening  | No            | No          | Forward delay (15 s) |
 | Learning   | No            | Yes         | Forward delay (15 s) |
 | Forwarding | Yes           | Yes         | Stable               |
+
+</div>
 
 The total time from blocking to forwarding is the **max age** (20 s) + 2 x **forward delay** (30 s)
 = 50 seconds in the worst case. This is painfully slow for modern networks.
@@ -595,6 +623,8 @@ STP uses BPDUs to exchange topology information. There are two types:
 Rapid Spanning Tree Protocol (RSTP, IEEE 802.1w) reduces convergence time from 50 seconds to a few
 Seconds or less. Key improvements:
 
+<div class="table-wrap">
+
 | Feature             | STP (802.1D)                                            | RSTP (802.1w)                            |
 | ------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | Port states         | 5 (blocking, listening, learning, forwarding, disabled) | 3 (discarding, learning, forwarding)     |
@@ -602,6 +632,8 @@ Seconds or less. Key improvements:
 | Sync mechanism      | Timer-based                                             | Proposal/Agreement handshake             |
 | Edge ports          | No concept                                              | Explicitly defined (PortFast equivalent) |
 | Link type detection | No                                                      | Point-to-point vs shared                 |
+
+</div>
 
 RSTP uses a proposal/agreement mechanism: when a port becomes designated, it proposes itself as the
 Forwarding port. The downstream switch acknowledges (agrees) only if all its non-edge ports are in

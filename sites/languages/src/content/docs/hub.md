@@ -331,6 +331,8 @@ Read more: [Elixir Study Guide](https://elixir.wyattau.com).
 
 ## Language Comparison Matrix
 
+<div class="table-wrap">
+
 | Language | Typing | Compilation | Concurrency | Memory Management | Primary Use |
 | --- | --- | --- | --- | --- | --- |
 | Python | Dynamic | Interpreted | GIL (asyncio) | Garbage collection | Data science, scripting |
@@ -345,6 +347,8 @@ Read more: [Elixir Study Guide](https://elixir.wyattau.com).
 | Ruby | Dynamic | Interpreted | Fibers, threads | Garbage collection | Web (Rails), scripting |
 | Haskell | Static | Native / GHC | Green threads | Garbage collection | Academia, correctness |
 | Elixir | Dynamic | BEAM bytecode | Actors (processes) | BEAM garbage collection | Distributed systems |
+
+</div>
 
 ## Which Language Should I Learn? Decision Tree
 

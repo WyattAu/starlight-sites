@@ -176,6 +176,8 @@ int main() \{
 
 ### Key Differences from `#include`
 
+<div class="table-wrap">
+
 | Feature            | `#include "h"`             | `import "h"` (Header Unit)          |
 | :----------------- | :------------------------- | :---------------------------------- |
 | **Parsing**        | Textual copy-paste.        | Semantic load (BMI).                |
@@ -186,6 +188,8 @@ int main() \{
 | **Preprocessing**  | Full preprocessing applied | Single precompile pass.             |
 | **Re-export**      | Not applicable             | Possible via `export import`        |
 | **Include order**  | Matters (textual)          | Matters (macro state dependent)     |
+
+</div>
 
 ### The Synthesis Mechanism
 
@@ -580,6 +584,8 @@ Named module.
 
 ### `import &lt;header&gt;` vs `import std;`
 
+<div class="table-wrap">
+
 | Aspect               | `import &lt;vector&gt;`     | `import std;`                           |
 | :------------------- | :-------------------------- | :-------------------------------------- |
 | **Scope**            | Single header               | All standard library headers            |
@@ -587,6 +593,8 @@ Named module.
 | **Macro visibility** | Yes (header unit semantics) | No (named module semantics)             |
 | **Implementation**   | Compiler-specific           | Compiler + stdlib collaboration         |
 | **Performance**      | Good (per-header caching)   | Better (single large BMI, loaded once)  |
+
+</div>
 
 The `import std;` approach is strictly superior for new code because it provides macro hygiene (no
 Macro leakage) and a single BMI to cache. Individual header unit imports (`import &lt;vector&gt;`)
@@ -650,6 +658,8 @@ This additional complexity is why header unit support requires build system inte
 Header units are often compared to Precompiled Headers (PCH), but they serve fundamentally different
 Purposes:
 
+<div class="table-wrap">
+
 | Aspect                     | PCH                                       | Header Unit                           |
 | :------------------------- | :---------------------------------------- | :------------------------------------ |
 | **Scope**                  | Arbitrary set of headers, order matters   | Single header                         |
@@ -659,6 +669,8 @@ Purposes:
 | **Build system awareness** | Manual (compiler flag)                    | Automatic (P1689 scanning)            |
 | **Module integration**     | Cannot be imported via `import`           | Importable via `import "h"`           |
 | **Macro leakage**          | Total (all macros leak)                   | Leaks header's macros only            |
+
+</div>
 
 The key architectural difference is that PCH is a **performance optimization** for the existing
 `#include` model, while header units are a **semantic construct** that participates in the module
@@ -706,6 +718,8 @@ The same project. Pick one approach and use it consistently.
 
 As of 2025, the tooling ecosystem for header units is still maturing:
 
+<div class="table-wrap">
+
 | Tool                  | Header Unit Support | Notes                                    |
 | :-------------------- | :------------------ | :--------------------------------------- |
 | **CMake**             | 3.28+               | P1689 scanning, BMI management           |
@@ -714,6 +728,8 @@ As of 2025, the tooling ecosystem for header units is still maturing:
 | **GCC**               | 14+                 | Experimental, no P1689 support           |
 | **Ninja**             | 1.11+               | `dyndep` support for module dependencies |
 | **Make**              | None                | Cannot manage BMI dependencies           |
+
+</div>
 
 For projects that rely heavily on IDE features (go-to-definition, auto-complete), Clangd 18+ with
 Clang 18+ provides the most reliable experience. MSVC's IntelliSense is also reliable. GCC's

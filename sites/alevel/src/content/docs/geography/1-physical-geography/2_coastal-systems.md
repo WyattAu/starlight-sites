@@ -39,6 +39,8 @@ approximately 40% of the global population lives within 100 km of a coast.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                     | Definition                                                                                                  |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | **Littoral zone**        | The area between the high and low water marks on a coast                                                    |
@@ -56,6 +58,8 @@ approximately 40% of the global population lives within 100 km of a coast.
 | **Discordant coastline** | A coastline where bands of rock run perpendicular to the shore, creating headlands and bays (e.g., Swanage) |
 | **Sediment cell**        | A stretch of coastline within which sediment movement is largely self-contained                             |
 | **Mass movement**        | The downslope movement of material under gravity (e.g., landslides, slumping)                               |
+
+</div>
 
 ---
 
@@ -156,6 +160,8 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 
 ### Erosional Landforms
 
+<div class="table-wrap">
+
 | Landform                     | Formation                                                                                                                                                                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Wave-cut notch**           | Formed at the base of a cliff by hydraulic action and abrasion at the high water mark. Undercuts the cliff.                                                                                                                                  |
@@ -165,7 +171,11 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 | **Cave, arch, stack, stump** | Sequence of landforms on headlands: waves erode weaknesses (joints, faults) to form a cave → cave erodes through headland to form an arch → arch roof collapses leaving a stack → stack eroded to a stump. Example: Old Harry Rocks, Dorset. |
 | **Geos**                     | Narrow, steep-sided inlets formed by the erosion of caves and subsequent roof collapse along joints and faults.                                                                                                                              |
 
+</div>
+
 ### Depositional Landforms
+
+<div class="table-wrap">
 
 | Landform         | Formation                                                                                                                                                                                                                                                                        |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,6 +186,8 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 | **Offshore bar** | A ridge of sand parallel to the coast in the nearshore zone, formed by destructive waves depositing material where wave energy decreases.                                                                                                                                        |
 | **Sand dunes**   | Mounds of wind-blown sand that form behind the backshore, stabilised by vegetation (marram grass). Pioneer species colonise first, building embryo dunes.                                                                                                                        |
 | **Salt marsh**   | Flat, vegetated area in the upper intertidal zone, formed by the accumulation of fine sediment and colonisation by halophytic (salt-tolerant) plants.                                                                                                                            |
+
+</div>
 
 ---
 
@@ -231,6 +243,8 @@ subsidence compounds eustatic rise.
 
 ### Hard Engineering
 
+<div class="table-wrap">
+
 | Strategy                | Description                                              | Advantages                                        | Disadvantages                                                     |
 | ----------------------- | -------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------- |
 | **Sea wall**            | Concrete barrier reflecting wave energy                  | Effective, long lifespan (50+ years)              | Expensive (£5,000–10,000/m), ugly, can increase erosion downdrift |
@@ -240,7 +254,11 @@ subsidence compounds eustatic rise.
 | **Gabions**             | Wire cages filled with rocks                             | Cheap, flexible, absorb energy                    | Wire corrodes, looks industrial                                   |
 | **Offshore breakwater** | Structure built parallel to the coast in the sea         | Reduces wave energy before it reaches the shore   | Expensive, can interfere with navigation                          |
 
+</div>
+
 ### Soft Engineering
+
+<div class="table-wrap">
 
 | Strategy              | Description                                         | Advantages                                        | Disadvantages                              |
 | --------------------- | --------------------------------------------------- | ------------------------------------------------- | ------------------------------------------ |
@@ -249,6 +267,8 @@ subsidence compounds eustatic rise.
 | **Dune regeneration** | Planting marram grass and building sand fences      | Natural, creates habitats, cheap                  | Takes time, vulnerable to trampling        |
 | **Marsh creation**    | Allowing salt marsh to develop without intervention | Excellent wave energy absorber, high biodiversity | Requires land to be surrendered to the sea |
 | **Managed retreat**   | Allowing controlled flooding of low-value land      | Cheaper than hard engineering, creates habitats   | Compensating landowners, loss of farmland  |
+
+</div>
 
 ### Shoreline Management Plans (SMPs)
 

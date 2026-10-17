@@ -150,10 +150,14 @@ Parents: $\mathrm{Tt \times \mathrm{tt$
 
 Gametes: $\mathrm{T, \mathrm{t \times \mathrm{t$
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 Tt : 1 tt
 
@@ -180,10 +184,14 @@ A single recessive allele will be expressed.
 
 If a carrier female ($\mathrm{X^H\mathrm{X^h$) marries a normal male ($\mathrm{X^H\mathrm{Y$):
 
+<div class="table-wrap">
+
 |               | $\mathrm{X^H$                             | $\mathrm{Y$                                |
 | ------------- | ----------------------------------------- | ------------------------------------------ |
 | $\mathrm{X^H$ | $\mathrm{X^H\mathrm{X^H$ (normal female)  | $\mathrm{X^H\mathrm{Y$ (normal male)       |
 | $\mathrm{X^h$ | $\mathrm{X^H\mathrm{X^h$ (carrier female) | $\mathrm{X^h\mathrm{Y$ (haemophiliac male) |
+
+</div>
 
 Probability of a haemophiliac son: 1/4 (25%).
 
@@ -522,6 +530,8 @@ Fidelity.
 
 **Enzymes involved:**
 
+<div class="table-wrap">
+
 | Enzyme                         | Function                                                 |
 | ------------------------------ | -------------------------------------------------------- |
 | Helicase                       | Unwinds the double helix by breaking hydrogen bonds      |
@@ -531,6 +541,8 @@ Fidelity.
 | DNA ligase                     | Joins Okazaki fragments on the lagging strand            |
 | Topoisomerase                  | Relieves tension ahead of the replication fork           |
 | Single-strand binding proteins | Prevent re-annealing of separated strands                |
+
+</div>
 
 **Leading vs lagging strand:**
 
@@ -733,6 +745,8 @@ Tryptophan is abundant.
 
 **Comparison of lac and trp operons:**
 
+<div class="table-wrap">
+
 | Feature          | lac operon (inducible)         | trp operon (repressible)       |
 | ---------------- | ------------------------------ | ------------------------------ |
 | Default state    | OFF (repressor bound)          | ON (repressor inactive)        |
@@ -740,6 +754,8 @@ Tryptophan is abundant.
 | Function         | Catabolise lactose             | Synthesise tryptophan          |
 | Regulatory logic | Turn ON when substrate present | Turn OFF when product abundant |
 | Type of control  | Negative (repressor)           | Negative (repressor)           |
+
+</div>
 
 ## Review: Epigenetics in Gene Regulation
 

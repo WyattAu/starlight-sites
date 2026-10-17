@@ -47,11 +47,15 @@ Violated.
 
 Every security property ultimately reduces to one or more of:
 
+<div class="table-wrap">
+
 | Property            | Question                                     | Failure Mode                     |
 | ------------------- | -------------------------------------------- | -------------------------------- |
 | **Confidentiality** | Can unauthorized parties read this data?     | Data breach, information leakage |
 | **Integrity**       | Can unauthorized parties modify this data?   | Data tampering, code injection   |
 | **Availability**    | Can authorized parties access this resource? | Denial of service, data deletion |
+
+</div>
 
 Most real-world incidents violate multiple triad elements simultaneously. A ransomware attack
 Compromises confidentiality (data exfiltration before encryption), integrity (file encryption), and

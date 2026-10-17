@@ -42,6 +42,8 @@ $$
 This is a structural comparison performed by the compiler, not a runtime check. The rules for
 Determining subsumption between constraint conjunctions and disjunctions are [N4950 §13.5.4.1]:
 
+<div class="table-wrap">
+
 | $P$         | $Q$         | $P$ subsumes $Q$?                                         |
 | ----------- | ----------- | --------------------------------------------------------- |
 | $A \land B$ | $A$         | Yes (conjunction subsumes each conjunct)                  |
@@ -50,6 +52,8 @@ Determining subsumption between constraint conjunctions and disjunctions are [N4
 | $A \lor B$  | $A$         | No (the disjunction is less restrictive)                  |
 | $A$         | $A$         | Yes (identical constraints subsume each other)            |
 | $A$         | $B$         | Indeterminate (incomparable unless one implies the other) |
+
+</div>
 
 ## Proof: Partially-Ordered Overloads Are Preferred
 

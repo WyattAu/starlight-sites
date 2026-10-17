@@ -343,6 +343,8 @@ This perspective explains why the chain rule works as it does. If f is locally l
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Function | Continuous? | Differentiable? | What it shows |
 | -------- | ----------- | --------------- | ------------- |
 | $\|x\|$ at $0$ | yes | no | a corner: left and right derivatives differ |
@@ -350,6 +352,8 @@ This perspective explains why the chain rule works as it does. If f is locally l
 | Weierstrass $W(x)$ | yes everywhere | **nowhere** | continuity does not imply differentiability, on an uncountable set |
 | $f(x) = x^{1/3}$ at $0$ | yes | no | a vertical tangent is not a derivative |
 | $f(x) = \begin{cases} x^2 & x \in \mathbb{Q} \\ 0 & \text{else} \end{cases}$ | continuous only at 0 | differentiable at 0 with $f'(0)=0$ | differentiability can hold at an isolated point of continuity |
+
+</div>
 
 **Darboux's theorem** says that even though derivatives need not be continuous,
 they satisfy the intermediate value property: if $f'(a) < c < f'(b)$ then

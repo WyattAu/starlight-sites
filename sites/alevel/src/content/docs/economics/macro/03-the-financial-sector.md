@@ -55,12 +55,16 @@ Developer gets a 25-year loan. Both parties are better off than without intermed
 
 **Types of intermediation:**
 
+<div class="table-wrap">
+
 | Type                           | Description                                                           | Example                                              |
 | ------------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------- |
 | **Maturity intermediation**    | Matching short-term liabilities with long-term assets                 | Current accounts funding 25-year mortgages           |
 | **Size intermediation**        | Aggregating small deposits into large loans                           | Retail deposits funding corporate loans              |
 | **Risk intermediation**        | Diversifying and managing credit risk                                 | Banks spreading default risk across a loan portfolio |
 | **Information intermediation** | Assessing borrower creditworthiness (reducing asymmetric information) | Banks performing credit checks before lending        |
+
+</div>
 
 The problem of **asymmetric information** is central to financial intermediation. Borrowers know
 more about their own risk than lenders do. This leads to **adverse selection** (risky borrowers are
@@ -112,11 +116,15 @@ Better outcomes.
 
 Money serves three functions: medium of exchange, store of value, unit of account.
 
+<div class="table-wrap">
+
 | Measure                | Components (UK)                                                                            |
 | ---------------------- | ------------------------------------------------------------------------------------------ |
 | **M0 (monetary base)** | Cash (notes and coins) in circulation + banks' operational deposits at the Bank of England |
 | **M2**                 | Cash + retail bank deposits (current accounts, instant-access savings)                     |
 | **M4 (broad money)**   | Cash + all retail and wholesale bank deposits + certificates of deposit                    |
+
+</div>
 
 :::note
 M2, M4. Edexcel emphasises M0 and M4. AQA focuses on broad vs narrow money. Always use the
@@ -133,6 +141,8 @@ We define the **reserve ratio** as $rr = \frac{R}{D}$ where $R$ = reserves and $
 **Derivation of the money multiplier.** Suppose the central bank injects £1,000 of new reserves into
 The banking system:
 
+<div class="table-wrap">
+
 | Round    | Deposits                     | Reserves ($rr \times D$)   | Loans                    |
 | -------- | ---------------------------- | -------------------------- | ------------------------ |
 | 1        | £1,000                       | $rr \times 1\,000$         | $(1-rr) \times 1\,000$   |
@@ -140,6 +150,8 @@ The banking system:
 | 3        | $(1-rr)^2 \times 1\,000$     | $rr(1-rr)^2 \times 1\,000$ | $(1-rr)^3 \times 1\,000$ |
 | $\vdots$ | $\vdots$                     | $\vdots$                   | $\vdots$                 |
 | $n$      | $(1-rr)^{n-1} \times 1\,000$ |                            |                          |
+
+</div>
 
 Total deposits created:
 
@@ -899,6 +911,8 @@ in Bank B.
 
 **Continuing the process:**
 
+<div class="table-wrap">
+
 |  Round   | New deposits | New loans | New reserves held |
 | :------: | :----------: | :-------: | :---------------: |
 |    1     |    1,000     |    900    |        100        |
@@ -908,6 +922,8 @@ in Bank B.
 |    5     |     656      |    590    |        66         |
 |   ...    |     ...      |    ...    |        ...        |
 | $\infty$ |    10,000    |   9,000   |       1,000       |
+
+</div>
 
 **Total deposits created:** $1000 \times \frac{1}{0.1} = 10\,000$. **Total loans created:** $9000$.
 **Money multiplier:** $10$.
@@ -933,6 +949,8 @@ enormous reserves, but bank lending did not expand proportionally because:
 
 **Example.** A bank has the following balance sheet (GBP billions):
 
+<div class="table-wrap">
+
 | Assets                            |         | Liabilities                        |         |
 | --------------------------------- | :-----: | ---------------------------------- | :-----: |
 | Fixed-rate mortgages (5yr, 3%)    |   200   | Customer deposits (instant access) |   250   |
@@ -940,6 +958,8 @@ enormous reserves, but bank lending did not expand proportionally because:
 | Government bonds (10yr, 2%)       |   80    | Equity capital                     |   50    |
 | Reserves at BoE                   |   10    |                                    |         |
 | **Total**                         | **390** | **Total**                          | **390** |
+
+</div>
 
 **Interest rate risk:** The bank has a maturity mismatch. Its assets are predominantly long-term
 (fixed-rate mortgages, long-term bonds) while its liabilities are short-term (instant-access
@@ -1008,11 +1028,15 @@ rate. Receives: $10/\text{spot} - 0.05$ M. For example, at 1.20: 8.33 - 0.05 = 8
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Spot rate | Unhedged | Forward hedge | Option hedge |
 | :-------: | :------: | :-----------: | :----------: |
 |   1.20    |   8.33   |     8.00      |     8.28     |
 |   1.25    |   8.00   |     8.00      |     7.95     |
 |   1.30    |   7.69   |     8.00      |     7.95     |
+
+</div>
 
 The forward contract provides certainty (always 8.00). The option provides downside protection with
 upside participation, but at a cost (the premium). The choice depends on the exporter's risk
@@ -1085,11 +1109,15 @@ payments: $2120 \times 300 = 636\,000$. Total interest: 336,000.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Rate | Monthly payment | Total interest | % of income (at GBP 4k/month) |
 | :--: | :-------------: | :------------: | :---------------------------: |
 |  2%  |      1,275      |     82,500     |             31.9%             |
 |  5%  |      1,754      |    226,200     |             43.9%             |
 |  7%  |      2,120      |    336,000     |             53.0%             |
+
+</div>
 
 The rise from 2% to 7% increases monthly payments by GBP 845 (66% increase). A household earning GBP
 4,000/month would see mortgage costs rise from 32% to 53% of income. Many households would be forced
@@ -1104,6 +1132,8 @@ approximately GBP 60 billion per year (0.6% of GDP), contributing to a recession
 
 **Example.** Northern Rock (2007-2008) had the following balance sheet (GBP billions):
 
+<div class="table-wrap">
+
 | Assets                |         | Liabilities                    |         |
 | --------------------- | :-----: | ------------------------------ | :-----: |
 | Mortgages (long-term) |   100   | Retail deposits (short-term)   |   25    |
@@ -1112,7 +1142,11 @@ approximately GBP 60 billion per year (0.6% of GDP), contributing to a recession
 | Other                 |    2    |                                |         |
 | **Total**             | **135** | **Total**                      | **110** |
 
+</div>
+
 Wait, assets (135) do not equal liabilities (110). Let me adjust:
+
+<div class="table-wrap">
 
 | Assets             |         | Liabilities       |         |
 | ------------------ | :-----: | ----------------- | :-----: |
@@ -1121,6 +1155,8 @@ Wait, assets (135) do not equal liabilities (110). Let me adjust:
 | Reserves           |    3    | Other liabilities |   30    |
 | Other              |    2    | Equity            |    6    |
 | **Total**          | **135** | **Total**         | **135** |
+
+</div>
 
 **Vulnerability:** Northern Rock relied heavily on wholesale funding (55% of liabilities) rather
 than retail deposits (18%). When the global credit crunch hit in August 2007:

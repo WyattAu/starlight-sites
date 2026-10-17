@@ -73,6 +73,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 
 **Moment of inertia** (key results):
 
+<div class="table-wrap">
+
 | Body                | $I$ (about given axis) |
 | ------------------- | ---------------------- |
 | Thin rod (centre)   | $\frac{1}{12}ML^2$     |
@@ -81,6 +83,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 | Hollow cylinder     | $MR^2$                 |
 | Solid sphere        | $\frac{2}{5}MR^2$      |
 | Hollow sphere       | $\frac{2}{3}MR^2$      |
+
+</div>
 
 **Parallel axis theorem:** $I = I_{\text{cm}} + Md^2$
 
@@ -158,12 +162,16 @@ equilibrium.
 
 **Thermodynamic processes:**
 
+<div class="table-wrap">
+
 | Process    | $\Delta U$     | $\Delta Q$        | $\Delta W$        |
 | ---------- | -------------- | ----------------- | ----------------- |
 | Isothermal | $0$            | $nRT\ln(V_f/V_i)$ | $nRT\ln(V_f/V_i)$ |
 | Adiabatic  | $nC_V\Delta T$ | $0$               | $-\Delta U$       |
 | Isobaric   | $nC_V\Delta T$ | $nC_P\Delta T$    | $P\Delta V$       |
 | Isochoric  | $nC_V\Delta T$ | $nC_V\Delta T$    | $0$               |
+
+</div>
 
 ### 2.3 Kinetic Theory of Gases
 
@@ -442,6 +450,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 
 ## 8. Key Equations
 
+<div class="table-wrap">
+
 | Topic                       | Equation                                             |
 | --------------------------- | ---------------------------------------------------- |
 | Newton's second law         | $\vec{F} = m\vec{a}$                                 |
@@ -457,6 +467,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 | De Broglie wavelength       | $\lambda = h/mv$                                     |
 | Bohr energy levels          | $E_n = -13.6\,Z^2/n^2\;\text{eV}$                    |
 | Radioactive decay           | $N = N_0 e^{-\lambda t}$                             |
+
+</div>
 
 ---
 

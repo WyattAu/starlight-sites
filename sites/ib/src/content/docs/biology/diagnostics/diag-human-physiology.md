@@ -135,12 +135,16 @@ together.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature     | Nervous System                                              | Endocrine System                                                                          |
 | ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Speed       | Milliseconds (electrical impulses)                          | Seconds to hours (hormone transport in blood)                                             |
 | Duration    | Very brief (ms to s)                                        | Prolonged (minutes to weeks)                                                              |
 | Specificity | Very specific (precise neural pathways to specific targets) | Moderately specific (hormone reaches all cells, only target cells with receptors respond) |
 | Signal      | Electrical impulses and neurotransmitters (at synapses)     | Hormones (chemical messengers in blood)                                                   |
+
+</div>
 
 **Fight-or-flight response -- combined action:**
 

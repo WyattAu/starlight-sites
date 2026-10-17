@@ -32,6 +32,8 @@ Codd defined 13 rules (numbered 0 through 12) that a system must satisfy to be c
 Relational. No commercial database fully satisfies all 13, but they serve as the theoretical
 Benchmark:
 
+<div class="table-wrap">
+
 | Rule | Name                            | Summary                                                                           |
 | ---- | ------------------------------- | --------------------------------------------------------------------------------- |
 | 0    | Foundation                      | A relational DBMS must manage databases through its relational capabilities alone |
@@ -48,12 +50,16 @@ Benchmark:
 | 11   | Distribution Independence       | Applications unaffected by data distribution                                      |
 | 12   | Nonsubversion                   | Low-level language cannot bypass integrity constraints                            |
 
+</div>
+
 :::note
 Through arbitrary views, especially those involving joins, aggregations, or DISTINCT.
 
 ## Relations, Tuples, Attributes, and Domains
 
 The relational model uses precise terminology that SQL conflates:
+
+<div class="table-wrap">
 
 | Relational Term | SQL Term  | Mathematical Object                   |
 | --------------- | --------- | ------------------------------------- |
@@ -63,6 +69,8 @@ The relational model uses precise terminology that SQL conflates:
 | Domain          | Data type | A set of permissible values           |
 | Degree          | Arity     | Number of attributes in a relation    |
 | Cardinality     | Row count | Number of tuples in a relation        |
+
+</div>
 
 ### Key Distinction: Relations Are Sets
 
@@ -146,6 +154,8 @@ CREATE TABLE orders (
 
 Referential actions:
 
+<div class="table-wrap">
+
 | Action        | Behavior                                                            |
 | ------------- | ------------------------------------------------------------------- |
 | `CASCADE`     | Propagate the delete/update to child rows                           |
@@ -153,6 +163,8 @@ Referential actions:
 | `SET NULL`    | Set the foreign key to NULL in child rows                           |
 | `SET DEFAULT` | Set the foreign key to its default value in child rows              |
 | `NO ACTION`   | Defer check to end of transaction (similar to RESTRICT in practice) |
+
+</div>
 
 ### Composite Key
 
@@ -212,6 +224,8 @@ Trillions of rows and exhaust memory.
 A join combines related tuples from two relations based on a join condition. The most common is the
 Natural join, which matches on attributes with the same name.
 
+<div class="table-wrap">
+
 | Join Type   | Description                                                        |
 | ----------- | ------------------------------------------------------------------ |
 | Inner Join  | Returns tuples from both relations that satisfy the join condition |
@@ -220,6 +234,8 @@ Natural join, which matches on attributes with the same name.
 | Full Outer  | All tuples from both relations (NULL where no match)               |
 | Theta Join  | General join with arbitrary condition $\theta$                     |
 | Equi Join   | Theta join where $\theta$ is equality on specific attributes       |
+
+</div>
 
 The inner join can be expressed in terms of selection and Cartesian product:
 
@@ -589,12 +605,16 @@ erDiagram
 
 ### Cardinality Constraints
 
+<div class="table-wrap">
+
 | Notation  | Meaning                                  |
 | --------- | ---------------------------------------- |
 | 1:1       | Each entity relates to exactly one other |
 | 1:N       | One entity relates to many others        |
 | M:N       | Many entities relate to many others      |
 | 0..1:1..N | Optional/mandatory cardinalities         |
+
+</div>
 
 ### Converting ER Diagrams to Relations
 

@@ -25,6 +25,8 @@ true living organisms).
 
 **Structure:**
 
+<div class="table-wrap">
+
 | Feature         | Description                                                                                |
 | --------------- | ------------------------------------------------------------------------------------------ |
 | Cell wall       | Made of peptidoglycan (murein); provides shape and protection                              |
@@ -36,7 +38,11 @@ true living organisms).
 | Capsule         | Some bacteria have a slimy outer layer for protection against desiccation and phagocytosis |
 | Plasmids        | Small circular DNA molecules carrying additional genes (e.g., antibiotic resistance)       |
 
+</div>
+
 **Shapes of bacteria:**
+
+<div class="table-wrap">
 
 | Shape    | Description  | Example              |
 | -------- | ------------ | -------------------- |
@@ -44,6 +50,8 @@ true living organisms).
 | Bacilli  | Rod-shaped   | _Escherichia coli_   |
 | Spirilla | Spiral       | _Treponema pallidum_ |
 | Vibrio   | Comma-shaped | _Vibrio cholerae_    |
+
+</div>
 
 **Reproduction:**
 
@@ -59,12 +67,16 @@ Where $n$ is the number of divisions.
 
 **Growth curve of bacteria:**
 
+<div class="table-wrap">
+
 | Phase                   | Description                                                           |
 | ----------------------- | --------------------------------------------------------------------- |
 | Lag phase               | Bacteria adapt to new environment; no significant growth              |
 | Log (exponential) phase | Rapid cell division; population doubles at constant rate              |
 | Stationary phase        | Growth rate equals death rate; nutrients become limiting              |
 | Decline (death) phase   | Death rate exceeds growth rate; waste accumulates, nutrients depleted |
+
+</div>
 
 **Calculating bacterial population:**
 
@@ -113,12 +125,16 @@ their own. They are obligate intracellular parasites -- they can only reproduce 
 
 **Structure:**
 
+<div class="table-wrap">
+
 | Component             | Description                                                                        |
 | --------------------- | ---------------------------------------------------------------------------------- |
 | Genetic material      | Either DNA or RNA (never both); single-stranded or double-stranded                 |
 | Protein coat (capsid) | Protective outer layer made of protein subunits (capsomeres)                       |
 | Envelope              | Some viruses have an additional lipid envelope derived from the host cell membrane |
 | Attachment proteins   | Proteins on the surface that bind to specific receptors on host cells              |
+
+</div>
 
 **No cellular structure:** Viruses have no cytoplasm, no ribosomes, no cell membrane, no organelles.
 
@@ -142,6 +158,8 @@ Electron microscopy is required to visualise viruses.
 
 ### Comparison of Microorganisms
 
+<div class="table-wrap">
+
 | Feature      | Bacteria        | Fungi                      | Viruses                |
 | ------------ | --------------- | -------------------------- | ---------------------- |
 | Cell type    | Prokaryotic     | Eukaryotic                 | Acellular              |
@@ -154,6 +172,8 @@ Electron microscopy is required to visualise viruses.
 | Size         | 1-5 micrometres | 5-100 micrometres (hyphae) | 20-400 nm              |
 | Metabolism   | Independent     | Independent                | Dependent on host cell |
 | Antibiotics  | Effective       | Some effective             | Not effective          |
+
+</div>
 
 ---
 
@@ -246,10 +266,14 @@ A student investigates the effect of two antibiotics (penicillin and streptomyci
 bacteria (_Staphylococcus aureus_ and _Escherichia coli_). The results are shown as zones of
 inhibition (clear area around the antibiotic disc):
 
+<div class="table-wrap">
+
 | Antibiotic   | Zone of inhibition for _S. Aureus_ (mm) | Zone of inhibition for _E. Coli_ (mm) |
 | ------------ | --------------------------------------- | ------------------------------------- |
 | Penicillin   | 25                                      | 0                                     |
 | Streptomycin | 18                                      | 20                                    |
+
+</div>
 
 (a) Explain why penicillin is effective against _S. Aureus_ but not _E. Coli_.
 
@@ -278,12 +302,16 @@ bacterial-specific structures and processes that viruses do not possess.
 
 **Discovery:** Alexander Fleming discovered penicillin in 1928 from the mould _Penicillium notatum_.
 
+<div class="table-wrap">
+
 | Antibiotic   | Source                     | Mechanism                                 |
 | ------------ | -------------------------- | ----------------------------------------- |
 | Penicillin   | _Penicillium_ (fungus)     | Inhibits cell wall synthesis in bacteria  |
 | Streptomycin | _Streptomyces_ (bacterium) | Inhibits protein synthesis (30S ribosome) |
 | Tetracycline | _Streptomyces_ (bacterium) | Inhibits protein synthesis (30S ribosome) |
 | Erythromycin | _Streptomyces_ (bacterium) | Inhibits protein synthesis (50S ribosome) |
+
+</div>
 
 **Important notes:**
 
@@ -312,6 +340,8 @@ Bacteria, fungi, and viruses.
 
 ### Transmission of Pathogens
 
+<div class="table-wrap">
+
 | Route of Transmission | Description                                               | Example                            |
 | --------------------- | --------------------------------------------------------- | ---------------------------------- |
 | Direct contact        | Physical contact with an infected person                  | Skin infections, warts             |
@@ -322,7 +352,11 @@ Bacteria, fungi, and viruses.
 | Blood-borne           | Through contaminated blood or needles                     | HIV, Hepatitis B                   |
 | Sexually transmitted  | Through sexual contact                                    | HIV, Syphilis, Gonorrhoea          |
 
+</div>
+
 ### Diseases Caused by Pathogens
+
+<div class="table-wrap">
 
 | Disease        | Pathogen Type | Pathogen                     | Transmission         | Prevention                                          |
 | -------------- | ------------- | ---------------------------- | -------------------- | --------------------------------------------------- |
@@ -336,6 +370,8 @@ Bacteria, fungi, and viruses.
 | Ringworm       | Fungus        | _Tinea_ species              | Direct contact       | Good hygiene; avoid sharing towels                  |
 | Athlete's foot | Fungus        | _Tinea pedis_                | Direct contact       | Keep feet dry; avoid shared footwear                |
 | Malaria        | Protozoan     | _Plasmodium_ (protozoan)     | Mosquito vector      | Mosquito nets; insect repellent; antimalarial drugs |
+
+</div>
 
 ### How Pathogens Cause Disease
 
@@ -529,6 +565,8 @@ Crops that have had their genome modified by genetic engineering to introduce de
 
 **Examples:**
 
+<div class="table-wrap">
+
 | GM Crop                      | Modification                           | Benefit                                                        |
 | ---------------------------- | -------------------------------------- | -------------------------------------------------------------- |
 | Bt cotton                    | Contains _Bacillus thuringiensis_ gene | Produces toxin that kills insect pests; reduces pesticide use  |
@@ -536,6 +574,8 @@ Crops that have had their genome modified by genetic engineering to introduce de
 | Herbicide-resistant soybeans | Resistant to glyphosate herbicide      | Farmers can spray herbicide to kill weeds without harming crop |
 | Virus-resistant papaya       | Resistant to papaya ringspot virus     | Crop is protected from viral disease                           |
 | Delayed-ripening tomatoes    | Modified ripening gene                 | Longer shelf life; reduces food waste                          |
+
+</div>
 
 **Benefits of GM crops:**
 
@@ -644,6 +684,8 @@ $$
 
 Starting from 1 DNA molecule:
 
+<div class="table-wrap">
+
 | Cycles ($n$) | DNA Molecules ($2^n$) |
 | ------------ | --------------------- |
 | 1            | 2                     |
@@ -651,6 +693,8 @@ Starting from 1 DNA molecule:
 | 10           | 1,024                 |
 | 20           | 1,048,576             |
 | 30           | 1,073,741,824         |
+
+</div>
 
 **Applications of PCR:**
 
@@ -686,6 +730,8 @@ Varies between individuals.
 
 ### Ethical Issues in Biotechnology
 
+<div class="table-wrap">
+
 | Issue                        | Arguments For                                  | Arguments Against                                     |
 | ---------------------------- | ---------------------------------------------- | ----------------------------------------------------- |
 | Genetic engineering          | Cures genetic diseases; improves crop yield    | Unforeseen consequences; playing God; designer babies |
@@ -695,6 +741,8 @@ Varies between individuals.
 | Genetic screening            | Early detection of diseases                    | Discrimination; psychological impact; privacy         |
 | Gene therapy                 | Treats genetic disorders at source             | Somatic vs germline; off-target effects; cost         |
 | Genetically modified animals | Better models for research; pharmaceuticals    | Animal welfare; environmental release concerns        |
+
+</div>
 
 ### Worked Example: Genetic Engineering Process
 
@@ -1077,10 +1125,14 @@ raw materials, and the production of valuable metabolites.
 
 **Primary vs Secondary Metabolites:**
 
+<div class="table-wrap">
+
 | Type                  | Description                                                                                     | Production Phase      | Examples                                                   |
 | --------------------- | ----------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------- |
 | Primary metabolites   | Substances produced during active growth (exponential phase); essential for growth and survival | Exponential/log phase | Amino acids, ethanol, organic acids (citric acid), enzymes |
 | Secondary metabolites | Substances produced after the main growth phase (stationary phase); not essential for growth    | Stationary phase      | Antibiotics (penicillin), pigments, toxins                 |
+
+</div>
 
 ### Antibiotic Production: Penicillin
 
@@ -1118,6 +1170,8 @@ process.
 Microorganisms are the main source of industrial enzymes because they can be cultured in large
 quantities and their enzyme production can be optimised through genetic modification and selection.
 
+<div class="table-wrap">
+
 | Enzyme         | Source Microorganism                              | Industrial Application                                                                                                         |
 | -------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Proteases      | _Bacillus subtilis_, _Bacillus licheniformis_     | Biological detergents (break down protein stains); food processing (tenderising meat, cheese making)                           |
@@ -1128,9 +1182,13 @@ quantities and their enzyme production can be optimised through genetic modifica
 | Cellulases     | _Trichoderma reesei_                              | Biofuel production (break down cellulose in plant biomass to glucose for fermentation); textile industry (stone-washing denim) |
 | Taq polymerase | _Thermus aquaticus_                               | PCR (polymerase chain reaction) -- heat-stable DNA polymerase that can withstand the high temperatures of PCR cycles           |
 
+</div>
+
 ### Bioremediation
 
 Bioremediation is the use of microorganisms to clean up contaminated environments (soil, water).
+
+<div class="table-wrap">
 
 | Application           | Microorganism                       | Mechanism                                                                                                               |
 | --------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -1139,6 +1197,8 @@ Bioremediation is the use of microorganisms to clean up contaminated environment
 | Sewage treatment      | Mixed microbial communities         | Break down organic matter in wastewater through aerobic and anaerobic processes                                         |
 | Pesticide degradation | _Pseudomonas_, _Bacillus_           | Produce enzymes that degrade organophosphate and carbamate pesticides                                                   |
 | Plastic degradation   | _Ideonella sakaiensis_              | Produces PETase enzyme that breaks down PET plastic into monomers                                                       |
+
+</div>
 
 ---
 
@@ -1155,6 +1215,8 @@ Bioremediation is the use of microorganisms to clean up contaminated environment
 
 ### How Bacteria Become Resistant
 
+<div class="table-wrap">
+
 | Mechanism              | Molecular Basis                                                                                                           | Antibiotic Affected                                                      |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Enzymatic inactivation | Bacteria produce enzymes that chemically modify or destroy the antibiotic molecule                                        | Beta-lactamase breaks down penicillin                                    |
@@ -1163,16 +1225,22 @@ Bioremediation is the use of microorganisms to clean up contaminated environment
 | Reduced permeability   | Mutations reduce the number or size of porins in the outer membrane, limiting antibiotic entry                            | Gram-negative resistance to beta-lactams and quinolones                  |
 | Biofilm formation      | Bacteria embedded in a protective extracellular matrix; reduced penetration of antibiotics and reduced metabolic activity | Chronic infections; catheter-associated infections                       |
 
+</div>
+
 ### Horizontal Gene Transfer of Resistance
 
 Antibiotic resistance genes can spread between bacteria of different species through horizontal gene
 transfer, much faster than vertical transmission (parent to offspring via binary fission).
+
+<div class="table-wrap">
 
 | Method         | Description                                                                                                                  |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Conjugation    | Direct transfer of plasmids (circular DNA carrying resistance genes) between two bacteria connected by a pilus               |
 | Transformation | Uptake of free DNA from the environment (released when bacteria die); the DNA may contain resistance genes                   |
 | Transduction   | Bacteriophages (viruses) carry bacterial DNA from one cell to another during infection; the DNA may include resistance genes |
+
+</div>
 
 **Plasmids** are particularly important in the spread of antibiotic resistance because:
 
@@ -1285,12 +1353,16 @@ Restriction endonucleases are enzymes that cut DNA at specific recognition seque
 pairs long). They are essential tools in genetic engineering because they allow precise cutting of
 DNA at known locations.
 
+<div class="table-wrap">
+
 | Feature              | Description                                                                                                          |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Recognition sequence | A specific palindromic DNA sequence (reads the same 5' to 3' on both strands)                                        |
 | Cut type             | Most produce "sticky ends" (single-stranded overhangs); some produce "blunt ends" (cut straight across both strands) |
 | EcoRI example        | Recognition sequence: GAATTC; cuts between G and A on both strands, producing sticky ends with 5' overhangs of AATT  |
 | Specificity          | Each enzyme recognises only one specific sequence; over 3,000 different restriction enzymes have been identified     |
+
+</div>
 
 **Sticky ends vs blunt ends:**
 
@@ -1340,6 +1412,8 @@ copies from a tiny starting sample.
 
 **Applications of PCR:**
 
+<div class="table-wrap">
+
 | Application          | Description                                                                                                  |
 | -------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forensic science     | Amplifying DNA from tiny blood samples or hair follicles for DNA fingerprinting and criminal identification  |
@@ -1348,6 +1422,8 @@ copies from a tiny starting sample.
 | Evolutionary biology | Amplifying ancient DNA from fossils; comparing DNA sequences between species                                 |
 | Paternity testing    | Comparing DNA profiles between child, mother, and alleged father                                             |
 | Gene cloning         | Amplifying a specific gene for insertion into a vector                                                       |
+
+</div>
 
 ### Gel Electrophoresis
 
@@ -1423,6 +1499,8 @@ each step is necessary.
 
 ### Role of Microorganisms in Carbon Cycling
 
+<div class="table-wrap">
+
 | Process           | Microorganisms Involved                 | Description                                                                                                                                                                                                                    |
 | ----------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Decomposition     | Bacteria and fungi (saprotrophs)        | Break down dead organic matter (plants, animals, waste); release CO$_2$ through respiration; recycle carbon and nutrients back into the ecosystem                                                                              |
@@ -1430,10 +1508,14 @@ each step is necessary.
 | Methanogenesis    | Methanogenic archaea (strict anaerobes) | Produce methane (CH$_4$) from organic matter in anaerobic environments (wetlands, rice paddies, landfill sites, guts of ruminants); methane is a potent greenhouse gas (25x more warming potential than CO$_2$ over 100 years) |
 | Methane oxidation | Methanotrophic bacteria                 | Oxidise methane (CH$_4$) to CO$_2$ and water in aerobic environments (soil, water); help to mitigate methane emissions                                                                                                         |
 
+</div>
+
 ### Decomposition in Detail
 
 Decomposition is the breakdown of dead organic matter by decomposers (bacteria and fungi). The rate
 of decomposition depends on:
+
+<div class="table-wrap">
 
 | Factor                    | Faster Decomposition                                             | Slower Decomposition                                                                                                                          |
 | ------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1442,6 +1524,8 @@ of decomposition depends on:
 | Oxygen                    | Aerobic (aerobic decomposers are more efficient)                 | Anaerobic (slower; produces methane instead of CO$_2$)                                                                                        |
 | C:N ratio of the material | Low (nitrogen-rich material, e.g., fresh grass)                  | High (carbon-rich material, e.g., wood, autumn leaves); the material is tough and low in nitrogen (a limiting nutrient for decomposer growth) |
 | Surface area              | Large (e.g., cut or shredded material)                           | Small (e.g., whole logs)                                                                                                                      |
+
+</div>
 
 **Compost production:** A practical application of decomposition. Organic waste (food scraps, garden
 waste) is piled in a compost heap; bacteria and fungi decompose the organic matter, producing a
@@ -1463,6 +1547,8 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 
 ### Mechanisms of Action
 
+<div class="table-wrap">
+
 | Mechanism                   | Description                                                                                                                                      | Example                                                                                                                               |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Inhibit cell wall synthesis | Interfere with the synthesis of peptidoglycan; weaken the cell wall; the bacterium bursts due to osmotic pressure (only affect growing bacteria) | Penicillin (binds to and inhibits transpeptidase enzymes that cross-link peptidoglycan); vancomycin; cephalosporins                   |
@@ -1471,14 +1557,22 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 | Disrupt cell membrane       | Insert into the bacterial cell membrane, forming pores that cause leakage of cellular contents                                                   | Polymyxin B (binds to lipopolysaccharide in Gram-negative outer membrane)                                                             |
 | Inhibit metabolic pathways  | Act as antimetabolites (structural analogues of essential metabolites); competitively inhibit enzymes in metabolic pathways                      | Sulfonamides (competitive inhibitors of dihydropteroate synthase, blocking folate synthesis); trimethoprim                            |
 
+</div>
+
 ### Antibiotic Spectrum
+
+<div class="table-wrap">
 
 | Type            | Description                                                                                  | Example                                                                            |
 | --------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Narrow-spectrum | Effective against only a limited range of bacteria (specific Gram-positive or Gram-negative) | Penicillin V (Gram-positive); vancomycin (Gram-positive); isoniazid (mycobacteria) |
 | Broad-spectrum  | Effective against a wide range of bacteria (both Gram-positive and Gram-negative)            | Tetracycline; ampicillin; ciprofloxacin; chloramphenicol                           |
 
+</div>
+
 ### Why Antibiotics Do Not Affect Viruses
+
+<div class="table-wrap">
 
 | Reason                        | Explanation                                                                                                                                                          |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1486,6 +1580,8 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 | No ribosomes                  | Many antibiotics target bacterial 70S ribosomes; viruses do not have ribosomes (they use the host cell's ribosomes to translate their mRNA)                          |
 | No independent metabolism     | Many antibiotics target bacterial metabolic pathways; viruses have no metabolism of their own (they rely entirely on the host cell's metabolic machinery)            |
 | Viruses are inside host cells | Viruses replicate inside host cells; an antibiotic that interferes with viral replication would also need to affect the host cell, causing unacceptable side effects |
+
+</div>
 
 ---
 
@@ -1502,6 +1598,8 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 
 ### Genetically Modified (GM) Crops
 
+<div class="table-wrap">
+
 | Crop                             | Modification                                                                                                               | Benefit                                                                                       | Controversy                                                                                      |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Bt maize / Bt cotton             | Gene from _Bacillus thuringiensis_ inserted; plant produces Bt toxin protein that kills insect pests (lepidopteran larvae) | Reduced need for chemical insecticides; higher yields                                         | Potential harm to non-target insects (e.g., butterflies); development of resistance in pests     |
@@ -1510,13 +1608,19 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 | Virus-resistant papaya           | Gene from papaya ringspot virus inserted; plant is resistant to the virus                                                  | Saved the Hawaiian papaya industry from ringspot virus                                        | Public concern about eating viral genes                                                          |
 | Herbicide-resistant oilseed rape | Modified to be resistant to specific herbicides                                                                            | Easier weed management in crop fields                                                         | Gene flow to wild relatives; creation of "superweeds"                                            |
 
+</div>
+
 ### Methods of Introducing Genes into Plants
+
+<div class="table-wrap">
 
 | Method                                | Description                                                                                                                                                                                                                                                                                  |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Agrobacterium-mediated transformation | _Agrobacterium tumefaciens_ is a soil bacterium that transfers a segment of its Ti (tumour-inducing) plasmid (T-DNA) into plant cells, causing crown gall disease. Scientists replace the tumour-causing genes with the desired gene and use the bacterium as a natural gene delivery vector |
 | Biolistics (gene gun)                 | Microscopic gold or tungsten particles coated with DNA are fired at high speed into plant cells using a gene gun; some particles penetrate the nucleus and the DNA is incorporated into the plant genome                                                                                     |
 | Protoplast transformation             | The plant cell wall is removed (using cellulase enzyme) to create protoplasts; DNA is introduced using electroporation or PEG (polyethylene glycol); the cell wall is then regenerated                                                                                                       |
+
+</div>
 
 ---
 
@@ -1576,10 +1680,16 @@ personal test matrix.
 Bioremediation is the use of microorganisms (bacteria, fungi, algae) to break down or remove
 environmental pollutants.
 
+<div class="table-wrap">
+
 | Type                       | Description                                                                                  | Example                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **In situ** bioremediation | Treatment occurs at the site of contamination without excavating the polluted material       | Adding nutrients (bio-stimulation) or microorganisms (bio-augmentation) to contaminated soil or groundwater |
 | **Ex situ** bioremediation | Contaminated material is excavated and treated elsewhere (e.g., in a bioreactor or landfill) | Contaminated soil is removed and treated in a controlled facility                                           |
+
+</div>
+
+<div class="table-wrap">
 
 | Pollutant             | Microorganism Used           | Mechanism                                                                                                          |
 | --------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -1589,7 +1699,11 @@ environmental pollutants.
 | Sewage and wastewater | Mixed microbial communities  | Aerobic and anaerobic bacteria break down organic matter in sewage treatment plants                                |
 | Plastic degradation   | _Ideonella sakaiensis_       | Bacterium discovered in 2016 that can break down PET (polyethylene terephthalate) plastic using PETase enzymes     |
 
+</div>
+
 ### Biofuels
+
+<div class="table-wrap">
 
 | Biofuel          | Source Material               | Description                                                                                                                 | Advantages                                                          | Disadvantages                                                   |
 | ---------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -1598,7 +1712,11 @@ environmental pollutants.
 | Biogas (methane) | Organic waste, manure, sewage | Produced by anaerobic digestion of organic matter by methanogenic archaea; used for heating and electricity generation      | Uses waste materials; reduces landfill                              | Lower energy density; methane leaks are potent greenhouse gas   |
 | Biobutanol       | Sugarcane, maize, cellulose   | Produced by bacterial fermentation (e.g., _Clostridium acetobutylicum_); can be used in petrol engines without modification | Higher energy density than ethanol; can use existing infrastructure | More expensive to produce; less efficient fermentation          |
 
+</div>
+
 ### Biotechnology in Medicine
+
+<div class="table-wrap">
 
 | Application           | Description                                                                                                                               | Example                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -1609,6 +1727,8 @@ environmental pollutants.
 | Stem cell therapy     | Embryonic or adult stem cells are used to replace damaged or diseased cells and tissues                                                   | Bone marrow transplants for leukaemia; potential for treating Parkinson's, spinal cord injury |
 | PCR in diagnosis      | Polymerase chain reaction used to amplify and detect pathogen DNA in patient samples                                                      | COVID-19 testing; HIV viral load testing; genetic disease screening                           |
 | ELISA                 | Enzyme-linked immunosorbent assay; uses antibodies and enzymes to detect specific antigens or antibodies in blood samples                 | HIV testing; pregnancy testing (hCG detection); COVID-19 antibody testing                     |
+
+</div>
 
 ### Monoclonal Antibody Production (Hybridoma Method)
 
@@ -1646,6 +1766,8 @@ environmental pollutants.
 Aseptic technique is essential when working with microorganisms in the laboratory to prevent
 contamination of cultures and protect the operator from potentially pathogenic organisms.
 
+<div class="table-wrap">
+
 | Technique                      | Description                                                                                                                   | Purpose                                                                         |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Flaming the loop               | The inoculating loop is heated until it glows red hot in a Bunsen burner flame                                                | Sterilises the loop before and after use                                        |
@@ -1654,7 +1776,11 @@ contamination of cultures and protect the operator from potentially pathogenic o
 | Opening Petri dishes minimally | Petri dish lids are only partially lifted and never placed face-down on the bench                                             | Prevents airborne contamination of the agar surface                             |
 | Disinfecting surfaces          | The bench surface is wiped with 70% ethanol before and after the procedure                                                    | Kills any microorganisms on the bench                                           |
 
+</div>
+
 ### Growing Microorganisms in Culture
+
+<div class="table-wrap">
 
 | Component             | Description                                                                                                                                 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1667,7 +1793,11 @@ contamination of cultures and protect the operator from potentially pathogenic o
 | Incubation            | Cultures are incubated at 25-30 degrees C (for environmental bacteria) or 37 degrees C (for human pathogens) for 24-48 hours                |
 | Inverted Petri dishes | Cultured plates are stored upside down to prevent condensation from dripping onto the agar surface                                          |
 
+</div>
+
 ### Measuring Bacterial Growth
+
+<div class="table-wrap">
 
 | Method                             | Description                                                                                                                                        | Advantages                                              | Disadvantages                                                                               |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -1676,7 +1806,11 @@ contamination of cultures and protect the operator from potentially pathogenic o
 | **Turbidity** (optical density)    | Measuring the cloudiness (turbidity) of a liquid culture using a spectrophotometer -- more cells = more turbid                                     | Quick; non-destructive; can monitor growth continuously | Cannot distinguish living from dead cells; less accurate at very low or very high densities |
 | **Dry mass**                       | Filtering a known volume of culture, drying the filter paper and cells, and weighing                                                               | Direct measurement of biomass                           | Destructive; time-consuming; cannot monitor same culture continuously                       |
 
+</div>
+
 ### Bacterial Growth Curve
+
+<div class="table-wrap">
 
 | Phase                       | Description                                                                                                                                      | Rate of Division | Rate of Death |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- | ------------- |
@@ -1684,6 +1818,8 @@ contamination of cultures and protect the operator from potentially pathogenic o
 | **Exponential (log) phase** | Bacteria are dividing at their maximum rate; population doubles at regular intervals (generation time)                                           | Maximum          | Low           |
 | **Stationary phase**        | Growth rate equals death rate; nutrients are becoming depleted; toxic waste products are accumulating; population size stabilises                | Decreasing       | Increasing    |
 | **Death (decline) phase**   | Death rate exceeds growth rate; nutrients exhausted; toxic waste products at high levels; population declines                                    | Near zero        | High          |
+
+</div>
 
 ---
 

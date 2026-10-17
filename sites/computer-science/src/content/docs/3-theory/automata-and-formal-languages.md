@@ -140,6 +140,8 @@ Regular expressions over alphabet $\Sigma$:
 
 ### 2.2 RE to NFA Conversion (Thompson's Construction)
 
+<div class="table-wrap">
+
 | RE Form | Construction |
 | -------- | ------------------------------------- |
 | $\emptyset$ | Single non-accepting state |
@@ -148,6 +150,8 @@ Regular expressions over alphabet $\Sigma$:
 | $R_1 \cup R_2$ | New start with $\epsilon$ to starts of $R_1$ and $R_2$; accepts merge via $\epsilon$ |
 | $R_1 \cdot R_2$ | Connect accept of $R_1$ to start of $R_2$ via $\epsilon$ |
 | $R^*$ | New start/accept with $\epsilon$ loops through $R$ |
+
+</div>
 
 **Properties:**
 
@@ -172,6 +176,8 @@ DFA_TO_RE(DFA):
 
 Regular languages are closed under:
 
+<div class="table-wrap">
+
 | Operation          | Proof Method                       |
 | ------------------ | ---------------------------------- |
 | Union              | RE: $R_1 \cup R_2$; NFA: parallel construction |
@@ -181,6 +187,8 @@ Regular languages are closed under:
 | Kleene star        | RE: $R^*$                          |
 | Reversal           | RE: reverse expression; NFA: reverse arrows |
 | Difference         | $A \setminus B = A \cap \overline{B}$ |
+
+</div>
 
 ## 3. Pumping Lemma for Regular Languages
 
@@ -215,6 +223,8 @@ Choose $s = 0^p 1 1^p 0^p$. Pumping $y$ (within first $p$ symbols) breaks the pa
 
 ### 3.3 Common Non-Regular Languages
 
+<div class="table-wrap">
+
 | Language | Not Regular Because |
 | ----------------------------------------------- | ----------------------- |
 | $\{a^n b^n : n \geq 0\}$ | Need to count $a$'s vs $b$'s |
@@ -222,6 +232,8 @@ Choose $s = 0^p 1 1^p 0^p$. Pumping $y$ (within first $p$ symbols) breaks the pa
 | $\{ww : w \in \Sigma^*\}$ | Need unbounded memory |
 | $\{a^p : p \text{ is prime}\}$ | Primes are non-regular |
 | $\{w \in \{a,b\}^* : \#_a(w) = \#_b(w)\}$ | Need to count |
+
+</div>
 
 ## 4. Context-Free Grammars
 
@@ -345,6 +357,8 @@ $$
 
 ### 5.4 Closure Properties of CFLs
 
+<div class="table-wrap">
+
 | Operation     | Closed? |
 | ------------- | ------- |
 | Union         | Yes     |
@@ -353,6 +367,8 @@ $$
 | Intersection  | No*     |
 | Complement    | No      |
 | Intersection with regular | Yes |
+
+</div>
 
 *Not closed under general intersection, but closed under intersection with a regular language (using product of PDA and DFA).
 
@@ -380,11 +396,15 @@ Let $s = a^p b^p c^p$. Since $|vxy| \leq p$, the substring $vxy$ cannot span all
 
 **Not CFL (require three matching counts or more):**
 
+<div class="table-wrap">
+
 | Language                          | Why Not CFL              |
 | --------------------------------- | ------------------------ |
 | $\{a^n b^n c^n : n \geq 0\}$     | Three matching counts    |
 | $\{a^i b^j c^k : i > j > k\}$    | Three ordered counts     |
 | $\{ww : w \in \{a,b\}^*\}$      | Copy language (non-CFL)  |
+
+</div>
 
 ## 7. Turing Machines
 
@@ -404,12 +424,16 @@ A Turing machine is a 7-tuple $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{\text{acc
 
 All are equivalent in power to the standard TM:
 
+<div class="table-wrap">
+
 | Variant            | Description                           |
 | ------------------ | ------------------------------------- |
 | Multi-tape TM      | Multiple tapes, each with its own head |
 | Nondeterministic TM | Multiple possible transitions        |
 | Enumerators        | Print out strings of a language       |
 | Multi-dimensional tape | Tape extended to 2D+ grid          |
+
+</div>
 
 **Theorem:** Multi-tape TMs, nondeterministic TMs, and standard TMs recognize the same class of languages.
 
@@ -443,6 +467,8 @@ This is a **thesis** (not a theorem), it cannot be proven because "algorithmic p
 
 ### 9.1 Decidable Languages
 
+<div class="table-wrap">
+
 | Language | Decidable? | Algorithm |
 | --------------------------------------------- | ---------- | ------------------------------------- |
 | $A_{\text{DFA}} = \{(B, w) : B \text{ accepts } w\}$ | Yes | Simulate DFA on $w$ |
@@ -450,6 +476,8 @@ This is a **thesis** (not a theorem), it cannot be proven because "algorithmic p
 | $E_{\text{DFA}} = \{A : L(A) = \emptyset\}$ | Yes | Check reachable accepting states |
 | $EQ_{\text{DFA}} = \{A, B : L(A) = L(B)\}$ | Yes | Check $\overline{L(A \Delta B)}$ for non-emptiness |
 | $A_{\text{TM}} = \{(M, w) : M \text{ accepts } w\}$ | **No** | Diagonalization proof |
+
+</div>
 
 ### 9.2 The Halting Problem
 
@@ -474,6 +502,8 @@ To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 
 **Common undecidable problems:**
 
+<div class="table-wrap">
+
 | Problem | Reduction From |
 | ---------------------------------------------- | ----------------- |
 | $E_{\text{TM}} = \{M : L(M) = \emptyset\}$ | $A_{\text{TM}}$ |
@@ -481,6 +511,8 @@ To prove $L$ is undecidable, reduce a known undecidable language to $L$.
 | $EQ_{\text{TM}} = \{M_1, M_2 : L(M_1) = L(M_2)\}$ | $E_{\text{TM}}$ |
 | PCP (Post Correspondence Problem) | $A_{\text{TM}}$ |
 | Hilbert's 10th Problem (Diophantine equations) | $A_{\text{TM}}$ |
+
+</div>
 
 ### 9.4 Rice's Theorem
 
@@ -543,11 +575,15 @@ Automata theory studies abstract computing models. Finite automata recognize reg
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Compilers | [View](/3-theory/compilers/) |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
 | Algorithm Design | [View](/1-algorithms/algorithm-design/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

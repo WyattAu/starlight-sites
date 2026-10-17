@@ -23,12 +23,16 @@ tableOfContents: false
 An unknown organic compound $X$ has the molecular formula $C_{3}H_{6}O_{2}$. The following test
 results were obtained:
 
+<div class="table-wrap">
+
 | Test                                                                       | Observation            |
 | -------------------------------------------------------------------------- | ---------------------- |
 | Add solid $Na_{2}CO_{3}$                                                   | Effervescence observed |
 | Add Fehling's solution and heat                                            | No change              |
 | Add acidified $K_{2}Cr_{2}O_{7}$ and warm                                  | Orange to green        |
 | Sweet-smelling compound obtained on heating with ethanol and $H_{2}SO_{4}$ |
+
+</div>
 
 (a) Identify the functional group(s) present in $X$. [3 marks]
 
@@ -298,6 +302,8 @@ $CH_{3}CHO + 3I_{2} + 4NaOH \rightarrow CHI_{3} + HCOONa + 3NaI + 3H_{2}O$
 
 So $B =$ **HCOOH** (methanoic acid).
 
+<div class="table-wrap">
+
 | Compound | Identity                      | Name                        |
 | -------- | ----------------------------- | --------------------------- |
 | $A$      | $CH_{3}CHO$                   | Ethanal                     |
@@ -305,6 +311,8 @@ So $B =$ **HCOOH** (methanoic acid).
 | $C$      | $CH_{3}OH$                    | Methanol                    |
 | $D$      | $CH_{3}Br$                    | Bromomethane                |
 | $E$      | $CH_{3}CH(OCH_{2}CH_{3})_{2}$ | 1,1-Diethoxyethane (acetal) |
+
+</div>
 
 (b) Step 1: $CH_{3}CH_{2}OH \rightarrow A$: **Oxidation** (controlled)
 

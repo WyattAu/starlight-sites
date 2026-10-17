@@ -42,6 +42,8 @@ you spend the entire day responding to Slack messages and pull request reviews.
 
 **Daily template for a systems engineer:**
 
+<div class="table-wrap">
+
 | Time Block  | Activity                              | Duration |
 | ----------- | ------------------------------------- | -------- |
 | 8:00–9:00   | Planning, email, Slack triage         | 60 min   |
@@ -51,6 +53,8 @@ you spend the entire day responding to Slack messages and pull request reviews.
 | 13:00–15:00 | Deep work (continued)                 | 120 min  |
 | 15:00–15:30 | Break, walk                           | 30 min   |
 | 15:30–17:00 | Meetings, documentation, planning     | 90 min   |
+
+</div>
 
 ### Deep Work
 
@@ -96,12 +100,16 @@ Unexpected connections and generates new insights.
 
 Tiago Forte's PARA method organizes digital information into four categories:
 
+<div class="table-wrap">
+
 | Category  | Description                   | Lifespan   |
 | --------- | ----------------------------- | ---------- |
 | Projects  | Active goals with a deadline  | Short-term |
 | Areas     | Ongoing responsibilities      | Long-term  |
 | Resources | Topics of interest            | Ongoing    |
 | Archives  | Inactive items from the above | Reference  |
+
+</div>
 
 Apply PARA to your note-taking system, file system, and task management. The key insight is that
 Everything is either active (Projects, Areas) or reference (Resources, Archives).
@@ -111,6 +119,8 @@ Everything is either active (Projects, Areas) or reference (Resources, Archives)
 A "second brain" is an external system for capturing, organizing, and retrieving information. The
 Tool matters less than the system. Options include:
 
+<div class="table-wrap">
+
 | Tool     | Strengths                                         | Best For                       |
 | -------- | ------------------------------------------------- | ------------------------------ |
 | Obsidian | Local-first, bidirectional links, plugins         | Zettelkasten, technical notes  |
@@ -118,6 +128,8 @@ Tool matters less than the system. Options include:
 | Notion   | Database-backed, collaboration, templates         | Team wikis, project management |
 | Org-mode | Emacs-native, literate programming, TODO tracking | Emacs users, developers        |
 | Joplin   | Open source, Markdown, E2EE                       | Privacy-focused users          |
+
+</div>
 
 ---
 
@@ -487,10 +499,14 @@ Fixed, designs completed) not input (hours, lines of code, commits).
 
 Dwight Eisenhower's decision matrix categorizes tasks by urgency and importance:
 
+<div class="table-wrap">
+
 |                   | Urgent                                  | Not Urgent                              |
 | ----------------- | --------------------------------------- | --------------------------------------- |
 | **Important**     | Do (crises, deadlines)                  | Schedule (strategic planning, learning) |
 | **Not Important** | Delegate (interruptions, some meetings) | Eliminate (time wasters, busywork)      |
+
+</div>
 
 Most knowledge workers spend the majority of their time on urgent-not-important tasks (responding to
 Slack, attending unnecessary meetings). The goal is to shift time toward important-not-urgent tasks
@@ -531,6 +547,8 @@ for atomic notes:
 
 ### Link Types in Knowledge Graphs
 
+<div class="table-wrap">
+
 | Link Type      | Syntax                       | Purpose                                |
 | -------------- | ---------------------------- | -------------------------------------- |
 | Unidirectional | `[[note-id]]`                | Simple reference                       |
@@ -538,6 +556,8 @@ for atomic notes:
 | Contextual     | `[[note-id#section]]`        | Reference to a specific section        |
 | Embed          | `![[note-id]]`               | Transclude content inline              |
 | Tag            | `#tag`                       | Categorization                         |
+
+</div>
 
 ### Building a Second Brain Workflow
 
@@ -638,6 +658,8 @@ ADR template:
 
 The ideal monitor setup for long coding sessions:
 
+<div class="table-wrap">
+
 | Configuration                | Recommendation                                         |
 | ---------------------------- | ------------------------------------------------------ |
 | Primary monitor              | 27–32 inch, 4K, IPS, 60 Hz+                            |
@@ -646,6 +668,8 @@ The ideal monitor setup for long coding sessions:
 | Monitor height               | Top of screen at or slightly below eye level           |
 | Monitor arm                  | Adjustable height, tilt, and rotation                  |
 | Brightness                   | Match ambient light (use bias lighting behind monitor) |
+
+</div>
 
 ### Keyboard Ergonomics
 
@@ -673,12 +697,16 @@ A simple routine for desk workers (15 minutes, no equipment):
 
 ### Monthly Learning Plan Template
 
+<div class="table-wrap">
+
 | Week   | Topic            | Resource                   | Output            |
 | ------ | ---------------- | -------------------------- | ----------------- |
 | Week 1 | ZFS architecture | Documentation + blog posts | Lab setup         |
 | Week 2 | ZFS in practice  | TrueNAS setup              | Pool design doc   |
 | Week 3 | ZFS performance  | ARC tuning guide           | Benchmark results |
 | Week 4 | ZFS recovery     | Scrub/repair procedures    | Runbook           |
+
+</div>
 
 ### Quarterly Review
 
@@ -903,6 +931,8 @@ delayed segment reassembly attacks.
 
 Use typed links to distinguish different relationships:
 
+<div class="table-wrap">
+
 | Link Type                  | Meaning                                 | Example             |
 | -------------------------- | --------------------------------------- | ------------------- |
 | `[[note-id]]`              | General reference                       | Related concept     |
@@ -910,6 +940,8 @@ Use typed links to distinguish different relationships:
 | `[[note-id\|contradicts]]` | Opposite or conflicting idea            | Alternative view    |
 | `[[note-id\|example-of]]`  | Concrete example of an abstract concept | Implementation      |
 | `[[note-id\|causes]]`      | Causal relationship                     | Root cause analysis |
+
+</div>
 
 ### Tools for Zettelkasten
 
@@ -971,6 +1003,8 @@ Schedules reviews at increasing intervals.
 
 ### Card Types for Engineers
 
+<div class="table-wrap">
+
 | Card Type  | Use Case             | Example                                                                               |
 | ---------- | -------------------- | ------------------------------------------------------------------------------------- |
 | Definition | Core concepts        | "What is the difference between throughput and bandwidth?"                            |
@@ -978,6 +1012,8 @@ Schedules reviews at increasing intervals.
 | Command    | CLI reference        | "What zfs command shows the deduplication ratio for a pool?"                          |
 | Comparison | Technology decisions | "What are the trade-offs between ext4 and XFS for a database workload?"               |
 | Threshold  | Performance tuning   | "At what CPU steal time percentage should you investigate noisy neighbors?"           |
+
+</div>
 
 ### Integration with Learning Workflow
 
@@ -1034,6 +1070,8 @@ that encourage presenteeism over effectiveness.
 
 ### Better Metrics
 
+<div class="table-wrap">
+
 | Metric                         | How to Measure                    | Why It Matters                           |
 | ------------------------------ | --------------------------------- | ---------------------------------------- |
 | Sprint goal completion rate    | Goals completed / Goals committed | Measures planning accuracy and execution |
@@ -1041,6 +1079,8 @@ that encourage presenteeism over effectiveness.
 | Review turnaround time         | Average time to review a PR       | Measures team velocity                   |
 | Documentation coverage         | % of systems with runbooks        | Measures operational maturity            |
 | Learning hours per week        | Time spent on deliberate learning | Measures long-term investment            |
+
+</div>
 
 ### Tracking Without Micromanagement
 

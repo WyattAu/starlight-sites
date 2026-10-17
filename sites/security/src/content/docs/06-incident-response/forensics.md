@@ -72,6 +72,8 @@ dmesg | grep -i "read-only"
 
 The order of evidence collection matters because volatile evidence is lost first:
 
+<div class="table-wrap">
+
 | Priority | Evidence Type        | Volatility | Collection Method                  |
 | -------- | -------------------- | ---------- | ---------------------------------- |
 | 1        | CPU registers, cache | Seconds    | Live response, hardware debugger   |
@@ -82,6 +84,8 @@ The order of evidence collection matters because volatile evidence is lost first
 | 6        | Disk / filesystem    | Persistent | Write-blocked imaging              |
 | 7        | Remote logs          | Hours/Days | Secure copy from log servers       |
 | 8        | Physical media       | Persistent | Forensic imaging, chain of custody |
+
+</div>
 
 ## Disk Forensics
 
@@ -218,6 +222,8 @@ vol.py -f memory.raw --profile=Win10x64_19041 printkey -K "Software\Microsoft\Wi
 
 ### Key Memory Analysis Targets
 
+<div class="table-wrap">
+
 | Target                  | What It Reveals                                              |
 | ----------------------- | ------------------------------------------------------------ |
 | `pslist` / `psscan`     | Running processes (including hidden/rootkits)                |
@@ -228,6 +234,8 @@ vol.py -f memory.raw --profile=Win10x64_19041 printkey -K "Software\Microsoft\Wi
 | `envars`                | Environment variables (PATH, USER, etc.)                     |
 | `filescan`              | Open file handles                                            |
 | `dumpfiles`             | Extract files from memory                                    |
+
+</div>
 
 ## Log Forensics
 
@@ -398,6 +406,8 @@ tshark -r evidence.pcap -q -z conv,tcp | sort -k2 -rn | head -20
 
 ### Key Network Forensic Artifacts
 
+<div class="table-wrap">
+
 | Artifact           | What It Reveals                            |
 | ------------------ | ------------------------------------------ |
 | DNS queries        | Domains contacted, C2 communication        |
@@ -407,6 +417,8 @@ tshark -r evidence.pcap -q -z conv,tcp | sort -k2 -rn | head -20
 | Certificate chains | MITM detection, rogue CAs                  |
 | ARP tables         | Local network devices, ARP spoofing        |
 | DHCP requests      | Network configuration, host identification |
+
+</div>
 
 ## Investigation Methodology
 
@@ -545,6 +557,8 @@ cat /proc/modules
 
 ### Comprehensive Tool Table
 
+<div class="table-wrap">
+
 | Tool           | Purpose                          | Platform              | Type        |
 | -------------- | -------------------------------- | --------------------- | ----------- |
 | Autopsy        | Disk forensics GUI               | Linux, Windows        | Open source |
@@ -559,6 +573,8 @@ cat /proc/modules
 | exiftool       | Metadata extraction              | Cross-platform        | Open source |
 | RegRipper      | Windows registry analysis        | Cross-platform        | Open source |
 | Log2Timeline   | Log parsing and timeline         | Cross-platform        | Open source |
+
+</div>
 
 ## Legal Considerations
 

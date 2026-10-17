@@ -317,12 +317,16 @@ enormous human cost: millions died in famines, purges, and forced labour.
 
 ### 4.1 Ideological Similarities and Differences
 
+<div class="table-wrap">
+
 | Feature         | Nazi Germany                          | Fascist Italy                   | Stalinist USSR                     |
 | --------------- | ------------------------------------- | ------------------------------- | ---------------------------------- |
 | Ideology        | Racial nationalism, anti-Semitism     | Nationalism, corporatism        | Marxism-Leninism, class struggle   |
 | Economic model  | State-directed capitalism, rearmament | Corporatism, state intervention | Central planning, collectivisation |
 | Role of leader  | Fuhrerprinzip (leader principle)      | Cult of Il Duce                 | Cult of personality                |
 | Use of violence | SS, Gestapo, concentration camps      | Blackshirts, OVRA, confinement  | NKVD, Gulag, show trials           |
+
+</div>
 
 ### 4.2 Methods of Control
 

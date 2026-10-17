@@ -46,6 +46,8 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 
 ### 17.2 Laser Types
 
+<div class="table-wrap">
+
 | Type        | Gain medium   | Wavelength      | Characteristics                            |
 | ----------- | ------------- | --------------- | ------------------------------------------ |
 | He-Ne       | Gas           | 632.8 nm        | CW, low power ($\sim$1 mW), high coherence |
@@ -55,6 +57,8 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 | Ti:Sapphire | Solid state   | 700--1000 nm    | Tunable, femtosecond pulses                |
 | GaAs/InP    | Semiconductor | 0.8--1.6 $\mu$ M | Compact, efficient, diode laser            |
 | Dye         | Liquid        | Tunable         | Wide tuning range                          |
+
+</div>
 
 ### 17.3 Gaussian Beam Optics
 
@@ -130,7 +134,7 @@ Lasers produce coherent light through stimulated emission, where an incoming pho
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Gaussian beam optics and the Abbe limit relate laser beam quality to diffraction-limited resolution.
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and Poynting vector provide the electromagnetic foundation for laser cavity mode analysis.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Problems (Additional)

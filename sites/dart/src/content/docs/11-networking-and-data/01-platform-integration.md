@@ -296,6 +296,8 @@ import UIKit
 
 The `StandardMethodCodec` automatically serializes the following types between Dart and native:
 
+<div class="table-wrap">
+
 | Dart        | Android (Kotlin) | iOS (Swift)                        |
 | ----------- | ---------------- | ---------------------------------- |
 | `null`      | `null`           | `NSNull()`                         |
@@ -306,6 +308,8 @@ The `StandardMethodCodec` automatically serializes the following types between D
 | `Uint8List` | `ByteArray`      | `FlutterStandardTypedData(bytes:)` |
 | `List`      | `List`           | `NSArray`                          |
 | `Map`       | `HashMap`        | `NSDictionary`                     |
+
+</div>
 
 Complex nested structures (maps containing lists of maps, etc.) are supported as long as the leaf
 Values are one of the above types.

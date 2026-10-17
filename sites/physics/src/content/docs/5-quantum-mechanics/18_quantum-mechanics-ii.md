@@ -899,6 +899,8 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                               | Link                                                                      |
 | ----------------------------------- | ------------------------------------------------------------------------- |
 | Quantum Mechanics I (Prerequisites) | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                        |
@@ -908,8 +910,10 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 | MIT 8.05 Quantum Physics II         | [View](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/)    |
 | MIT 8.06 Quantum Physics III        | [View](https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -937,7 +941,11 @@ Perturbation theory is like adding small corrections to a solution you already k
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                               |
 | ------------------- | -------------------------------------------------- |
 | Quantum Mechanics I | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/) |
 | Thermodynamics      | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)    |
+
+</div>

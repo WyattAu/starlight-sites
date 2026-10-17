@@ -1158,6 +1158,8 @@ Court), are the direct institutional descendants of Nuremberg.
 
 ## Key Historiographical Terms for IB Examinations
 
+<div class="table-wrap">
+
 | Term                        | Description                                                              |
 | --------------------------- | ------------------------------------------------------------------------ |
 | Orthodox                    | Hitler deliberately planned war; his ideology drove events               |
@@ -1168,6 +1170,8 @@ Court), are the direct institutional descendants of Nuremberg.
 | `Cumulative radicalisation` | Kershaw's concept of subordinates "working towards the Führer"           |
 | `Social imperialism`        | Mason's thesis that domestic economic pressures drove expansion          |
 | `Dolchstosslegende`         | The "stab-in-the-back" myth used to undermine the Weimar Republic        |
+
+</div>
 
 ---
 
@@ -1181,6 +1185,8 @@ Court), are the direct institutional descendants of Nuremberg.
 </script>
 
 ## Key Dates
+
+<div class="table-wrap">
 
 | Date                  | Event                                                  |
 | --------------------- | ------------------------------------------------------ |
@@ -1210,6 +1216,8 @@ Court), are the direct institutional descendants of Nuremberg.
 | 6 August 1945         | Atomic bomb dropped on Hiroshima                       |
 | 9 August 1945         | Atomic bomb dropped on Nagasaki                        |
 | 2 September 1945      | Japan surrenders formally (V-J Day)                    |
+
+</div>
 
 :::danger
 - **Presenting appeasement as solely Chamberlain's policy:** Appeasement was broadly supported in

@@ -33,6 +33,8 @@ Primary portability hazard in C++ systems programming.
 
 ### Data Model Comparison
 
+<div class="table-wrap">
+
 | Type        | **ILP32** (32-bit Systems) | **LLP64** (Windows x64) | **LP64** (Linux/macOS x64) |
 | :---------- | :------------------------- | :---------------------- | :------------------------- |
 | `short`     | 16                         | 16                      | 16                         |
@@ -41,6 +43,8 @@ Primary portability hazard in C++ systems programming.
 | `long long` | 64                         | 64                      | 64                         |
 | `void*`     | 32                         | 64                      | 64                         |
 | `size_t`    | 32                         | 64                      | 64                         |
+
+</div>
 
 ### The `long` Trap
 
@@ -247,14 +251,20 @@ $$
 the implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
 is normalized so the leading digit is always 1, it need not be stored.
 
+<div class="table-wrap">
+
 | Type     | Total Bits | Sign | Exponent | Mantissa | Bias | Exponent Range |
 | :------- | :--------- | :--- | :------- | :------- | :--- | :------------- |
 | `float`  | 32         | 1    | 8        | 23       | 127  | -126 to +127   |
 | `double` | 64         | 1    | 11       | 52       | 1023 | -1022 to +1023 |
 
+</div>
+
 ### Special Values
 
 IEEE 754 reserves specific exponent values for special cases:
+
+<div class="table-wrap">
 
 | Exponent Field | Mantissa Field | Meaning                         |
 | :------------- | :------------- | :------------------------------ |
@@ -262,6 +272,8 @@ IEEE 754 reserves specific exponent values for special cases:
 | All zeros      | Non-zero       | Denormalized (subnormal) number |
 | All ones       | All zeros      | Infinity (±inf)                 |
 | All ones       | Non-zero       | NaN (Not a Number)              |
+
+</div>
 **Denormalized numbers** allow gradual underflow: as values approach zero, precision decreases
 Linearly rather than dropping abruptly to zero. Without denormals, the gap between the smallest
 Normalized number and zero would be huge.
@@ -306,12 +318,16 @@ int main() \{
 Compilers offer a `-ffast-math` flag (GCC/Clang) that enables aggressive floating-point
 Optimizations. This flag relaxes IEEE 754 compliance:
 
+<div class="table-wrap">
+
 | Optimization                          | Effect                                                     |
 | :------------------------------------ | :--------------------------------------------------------- |
 | Associative FP (`-fassociative-math`) | Reorders `a + (b + c)` to `(a + b) + c` (changes rounding) |
 | Reciprocal math                       | Replaces `x / y` with `x * (1/y)`                          |
 | Finite math only                      | Assumes no NaN/Inf (removes NaN checks)                    |
 | No signed zeros                       | Assumes `+0 == -0`                                         |
+
+</div>
 
 ```bash
 # WARNING: -ffast-math can change numerical results and break NaN/Inf handling
@@ -329,6 +345,8 @@ On NaN propagation for error detection, or code that compares floating-point val
 Every fundamental type has an **alignment requirement**: the address at which it must be stored must
 be a multiple of a specific power of two. On x86_64:
 
+<div class="table-wrap">
+
 | Type        | Size (bytes) | Alignment (bytes) |
 | :---------- | :----------- | :---------------- |
 | `char`      | 1            | 1                 |
@@ -339,6 +357,8 @@ be a multiple of a specific power of two. On x86_64:
 | `float`     | 4            | 4                 |
 | `double`    | 8            | 8                 |
 | `pointer`   | 8            | 8                 |
+
+</div>
 Misaligned access on x86 works but is slower (splits into multiple memory transactions). On ARM and
 RISC-V, misaligned access can cause a hardware exception (SIGBUS).
 

@@ -748,11 +748,15 @@ Key design goals:
 
 ## JVM vs Kotlin/Native vs Kotlin/JS
 
+<div class="table-wrap">
+
 | Target        | Runtime              | Output            | Use Case                       |
 | ------------- | -------------------- | ----------------- | ------------------------------ |
 | JVM           | Java Virtual Machine | `.class` bytecode | Server, Android, existing Java |
 | Kotlin/Native | LLVM                 | Native binaries   | iOS, macOS, Linux, embedded    |
 | Kotlin/JS     | JavaScript engines   | `.js` / IR        | Frontend, Node.js              |
+
+</div>
 
 All three targets share the same language syntax and standard library. Platform-specific APIs are
 Accessed through `expect`/`actual` declarations.
@@ -1763,6 +1767,8 @@ annotation class Deprecated(val message: String, val replaceWith: String = "")
 
 ### Built-in Annotation Targets
 
+<div class="table-wrap">
+
 | Target                             | Applies To                                |
 | ---------------------------------- | ----------------------------------------- |
 | `AnnotationTarget.CLASS`           | Classes, interfaces, objects, annotations |
@@ -1772,13 +1778,19 @@ annotation class Deprecated(val message: String, val replaceWith: String = "")
 | `AnnotationTarget.FIELD`           | Backing fields                            |
 | `AnnotationTarget.TYPE`            | Types in type usages                      |
 
+</div>
+
 ### Retention
+
+<div class="table-wrap">
 
 | Retention | Behavior                                          |
 | --------- | ------------------------------------------------- |
 | `SOURCE`  | Discarded by the compiler (not in bytecode)       |
 | `BINARY`  | Stored in bytecode but not visible via reflection |
 | `RUNTIME` | Stored in bytecode and accessible via reflection  |
+
+</div>
 
 ### Usage
 
@@ -1994,6 +2006,8 @@ val config = Config().invoke {
 
 ### Available Operators
 
+<div class="table-wrap">
+
 | Expression    | Operator Function    | Translation    |
 | ------------- | -------------------- | -------------- |
 | `a + b`       | `a.plus(b)`          | Binary plus    |
@@ -2008,6 +2022,8 @@ val config = Config().invoke {
 | `a[i]`        | `a.get(i)`           | Indexing       |
 | `a(i)`        | `a.invoke(i)`        | Function call  |
 | `a..b`        | `a.rangeTo(b)`       | Range          |
+
+</div>
 
 ## Common Pitfalls
 
@@ -2965,12 +2981,16 @@ Exactly once.
 
 ### Visibility Modifiers
 
+<div class="table-wrap">
+
 | Modifier    | Class Member                 | Top-Level Declaration        |
 | ----------- | ---------------------------- | ---------------------------- |
 | `public`    | Visible everywhere (default) | Visible everywhere (default) |
 | `private`   | Inside class only            | Inside file only             |
 | `protected` | Inside class + subclasses    | N/A                          |
 | `internal`  | Inside module                | Inside module                |
+
+</div>
 
 A module is a set of Kotlin files compiled together -- a Gradle project, a Maven project, or an
 IntelliJ module.
@@ -4037,6 +4057,8 @@ Prefer `val` everywhere. Use `var` only when the variable genuinely must be reas
 Kotlin represents all types as objects at the language level. The compiler maps them to JVM
 Primitives when possible (no boxing overhead).
 
+<div class="table-wrap">
+
 | Kotlin Type | JVM Type  | Size (bits) |
 | ----------- | --------- | ----------: |
 | `Byte`      | `byte`    |           8 |
@@ -4047,6 +4069,8 @@ Primitives when possible (no boxing overhead).
 | `Double`    | `double`  |          64 |
 | `Boolean`   | `boolean` |           1 |
 | `Char`      | `char`    |          16 |
+
+</div>
 
 Numeric literals support underscores for readability:
 
@@ -4761,12 +4785,16 @@ suspend fun loadData(): String = withContext(Dispatchers.IO) {
 
 Dispatchers determine which thread pool executes the coroutine.
 
+<div class="table-wrap">
+
 | Dispatcher               | Purpose                                                        |
 | ------------------------ | -------------------------------------------------------------- |
 | `Dispatchers.Default`    | CPU-intensive work (sorting, parsing, JSON)                    |
 | `Dispatchers.IO`         | Blocking IO (network, disk, database)                          |
 | `Dispatchers.Main`       | UI thread (Android, JavaFX)                                    |
 | `Dispatchers.Unconfined` | Starts on caller thread, resumes on whatever thread resumes it |
+
+</div>
 
 ```kotlin
 launch(Dispatchers.Default) {
@@ -4945,12 +4973,16 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 
 ### Channel Types
 
+<div class="table-wrap">
+
 | Type                | Description                         |
 | ------------------- | ----------------------------------- |
 | `Channel()`         | Rendezvous (buffer size 0)          |
 | `Channel(64)`       | Buffered with capacity 64           |
 | `Channel.CONFLATED` | Drops previous values, keeps latest |
 | `Channel.UNLIMITED` | Unbounded buffer (use with caution) |
+
+</div>
 
 ## Common Pitfalls
 
@@ -5127,12 +5159,16 @@ execution to be observed by multiple collectors simultaneously.
 
 ### StateFlow vs SharedFlow
 
+<div class="table-wrap">
+
 | Feature                  | StateFlow                     | SharedFlow                              |
 | ------------------------ | ----------------------------- | --------------------------------------- |
 | Initial value            | Required (always has a value) | Optional (no initial value by default)  |
 | Replays to new collector | Latest value (replay = 1)     | Configurable replay cache               |
 | Conflation               | Always conflates (latest)     | Configurable                            |
 | Use case                 | State holding (ViewModel)     | Event broadcasting (navigation, toasts) |
+
+</div>
 
 ### StateFlow
 
@@ -5285,11 +5321,15 @@ replace the inherited value while everything else is preserved.
 
 `kotlinx-coroutines-test` provides dispatchers that make timing deterministic:
 
+<div class="table-wrap">
+
 | Dispatcher                   | Behavior                                          |
 | ---------------------------- | ------------------------------------------------- |
 | `StandardTestDispatcher()`   | Executes eagerly but respects ordering and delays |
 | `UnconfinedTestDispatcher()` | Executes immediately on the current thread        |
 | `TestDispatcher` (Main)      | Replaces `Dispatchers.Main` in tests              |
+
+</div>
 
 ### runTest
 
@@ -5428,10 +5468,14 @@ suspend fun fetchWithFallback(): Data = supervisorScope {
 }
 ```
 
+<div class="table-wrap">
+
 | Scope             | Child failure behavior              |
 | ----------------- | ----------------------------------- |
 | `coroutineScope`  | Cancels all siblings, propagates up |
 | `supervisorScope` | Only the failing child is cancelled |
+
+</div>
 
 ### Cancelling Hierarchies
 
@@ -5635,11 +5679,15 @@ val unsafeValue: String by lazy(LazyThreadSafetyMode.NONE) {
 }
 ```
 
+<div class="table-wrap">
+
 | Mode           | Behavior                                                             |
 | -------------- | -------------------------------------------------------------------- |
 | `SYNCHRONIZED` | Default. Uses double-checked locking. Thread-safe, slight overhead.  |
 | `PUBLICATION`  | Allows multiple threads to initialize. First returned value is kept. |
 | `NONE`         | No thread safety guarantees. Fastest, single-threaded use only.      |
+
+</div>
 
 ### When Not to Use lazy
 
@@ -5902,12 +5950,16 @@ val combined: Result<Int> = Result.success(10).zip(Result.success(20)) { x, y ->
 
 ### Result vs Exceptions
 
+<div class="table-wrap">
+
 | Aspect        | Result                                  | Exceptions                  |
 | ------------- | --------------------------------------- | --------------------------- |
 | Explicitness  | Must be handled in the type system      | Can be ignored at call site |
 | Composability | Chains with `map`, `flatMap`            | Requires try/catch blocks   |
 | Performance   | No stack trace allocation on happy path | Stack trace on every throw  |
 | Use case      | Expected failures, domain errors        | System failures, bugs       |
+
+</div>
 
 Use `Result` for expected failures that are part of the domain logic. Use exceptions for programming
 errors, system failures, and cases where the caller cannot meaningfully recover.
@@ -6169,11 +6221,15 @@ fun printAll(list: List<*>) {
 
 Star projection behavior depends on variance:
 
+<div class="table-wrap">
+
 | Declaration       | Star projection `*` means              |
 | ----------------- | -------------------------------------- |
 | `Producer<out T>` | `Producer<out Nothing>`                |
 | `Consumer<in T>`  | `Consumer<in Any?>`                    |
 | `MutableList<T>`  | `MutableList<out Nothing>` (read-only) |
+
+</div>
 
 ```kotlin
 fun process(producer: Producer<*>) {
@@ -6637,6 +6693,8 @@ used only when thread or context changes are needed.
 
 ## Choosing the Right Function
 
+<div class="table-wrap">
+
 | Function | Context | Returns      | Primary Use                   |
 | -------- | ------- | ------------ | ----------------------------- |
 | `let`    | `it`    | block result | Null safety, transforms       |
@@ -6644,6 +6702,8 @@ used only when thread or context changes are needed.
 | `with`   | `this`  | block result | Multiple operations on object |
 | `apply`  | `this`  | receiver     | Configuration, initialization |
 | `also`   | `it`    | receiver     | Side effects, logging, debug  |
+
+</div>
 
 Use the following decision process:
 

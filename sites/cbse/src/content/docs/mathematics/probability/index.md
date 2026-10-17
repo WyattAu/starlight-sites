@@ -174,9 +174,13 @@ This is a direct application of conditional probability. The sample space reduce
 
 **Problem:** A random variable $X$ has the probability distribution:
 
+<div class="table-wrap">
+
 | $X$ | 0 | 1 | 2 | 3 | 4 |
 |-----|---|---|---|---|---|
 | $P(X)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
+
+</div>
 
 Find $E(X)$, $E(X^2)$, and $\text{Var}(X)$.
 

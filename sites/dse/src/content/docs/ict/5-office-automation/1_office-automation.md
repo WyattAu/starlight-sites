@@ -45,11 +45,15 @@ calculates a result.
 
 ### Cell References
 
+<div class="table-wrap">
+
 | Reference Type | Syntax         | Behaviour when copied                                                       |
 | -------------- | -------------- | --------------------------------------------------------------------------- |
 | **Relative**   | `A1`           | Adjusts based on the copy destination (e.g., `A1` copied down becomes `A2`) |
 | **Absolute**   | `$A$1`         | Remains fixed regardless of where it is copied                              |
 | **Mixed**      | `$A1` or `A$1` | Column fixed (`$A1`) or row fixed (`A$1`); the other part adjusts           |
+
+</div>
 
 <details>
 <summary>Worked Example: Relative, Absolute, and Mixed References</summary>
@@ -87,6 +91,8 @@ Vertically.
 
 ### Operators in Formulas
 
+<div class="table-wrap">
+
 | Operator Category             | Operators                                    | Precedence (high to low) |
 | ----------------------------- | -------------------------------------------- | ------------------------ |
 | **Reference**                 | `:` (range), `,` (union), ` ` (intersection) | Highest                  |
@@ -98,9 +104,13 @@ Vertically.
 | **Concatenation**             | `&`                                          |                          |
 | **Comparison**                | `=``<>``<``>``$\le$``$\ge$`                  | Lowest                   |
 
+</div>
+
 ### Common Spreadsheet Functions
 
 #### Mathematical and Statistical Functions
+
+<div class="table-wrap">
 
 | Function     | Syntax               | Description                           | Example                     |
 | ------------ | -------------------- | ------------------------------------- | --------------------------- |
@@ -118,7 +128,11 @@ Vertically.
 | `SQRT`       | `SQRT(num)`          | Square root                           | `=SQRT(16)` = 4             |
 | `POWER`      | `POWER(base, exp)`   | Raises to a power                     | `=POWER(2, 3)` = 8          |
 
+</div>
+
 #### Logical Functions
+
+<div class="table-wrap">
 
 | Function  | Syntax                               | Description                                               |
 | --------- | ------------------------------------ | --------------------------------------------------------- |
@@ -128,6 +142,8 @@ Vertically.
 | `NOT`     | `NOT(condition)`                     | Reverses the logical value                                |
 | `IFERROR` | `IFERROR(value, value_if_error)`     | Returns value_if_error if the formula results in an error |
 | `IFS`     | `IFS(cond1, val1, cond2, val2, ...)` | Evaluates multiple conditions in order                    |
+
+</div>
 
 <details>
 <summary>Worked Example: Nested IF and IFS for Grade Calculation</summary>
@@ -152,6 +168,8 @@ The `TRUE` at the end acts as a default/catch-all condition.
 
 #### Lookup Functions
 
+<div class="table-wrap">
+
 | Function  | Syntax                                                          | Description                                                                        |
 | --------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | `VLOOKUP` | `VLOOKUP(lookup_value, table_array, col_index, [range_lookup])` | Searches the first column of a table and returns a value from the specified column |
@@ -160,10 +178,14 @@ The `TRUE` at the end acts as a default/catch-all condition.
 | `MATCH`   | `MATCH(lookup_value, lookup_array, [match_type])`               | Returns the relative position of a value                                           |
 | `XLOOKUP` | `XLOOKUP(lookup, lookup_array, return_array, [if_not_found])`   | Modern replacement for VLOOKUP; more flexible                                      |
 
+</div>
+
 <details>
 <summary>Worked Example: VLOOKUP</summary>
 
 A product price table in `E1:F5`:
+
+<div class="table-wrap">
 
 | Cell | E (Product Code) | F (Price) |
 | ---- | ---------------- | --------- |
@@ -172,6 +194,8 @@ A product price table in `E1:F5`:
 | 3    | P003             | 75        |
 | 4    | P004             | 200       |
 | 5    | P005             | 95        |
+
+</div>
 
 In cell `A1`A user enters a product code (e.g., `P003`).
 
@@ -190,6 +214,8 @@ Result: 75.
 
 #### Text Functions
 
+<div class="table-wrap">
+
 | Function      | Syntax                   | Description                         |
 | ------------- | ------------------------ | ----------------------------------- |
 | `LEFT`        | `LEFT(text, num_chars)`  | Extracts characters from the left   |
@@ -202,7 +228,11 @@ Result: 75.
 | `CONCATENATE` | `CONCATENATE(t1, t2)`    | Joins text strings                  |
 | `FIND`        | `FIND(search, text)`     | Finds position of substring         |
 
+</div>
+
 #### Date Functions
+
+<div class="table-wrap">
 
 | Function  | Syntax                      | Description                         |
 | --------- | --------------------------- | ----------------------------------- |
@@ -214,7 +244,11 @@ Result: 75.
 | `DAY`     | `DAY(date)`                 | Extracts day                        |
 | `DATEDIF` | `DATEDIF(start, end, unit)` | Calculates difference between dates |
 
+</div>
+
 ### Charts and Graphs
+
+<div class="table-wrap">
 
 | Chart Type     | Best Used For                                   | Data Characteristics           |
 | -------------- | ----------------------------------------------- | ------------------------------ |
@@ -225,10 +259,14 @@ Result: 75.
 | **Area**       | Showing cumulative trends over time             | Time series with volume        |
 | **Combo**      | Displaying two data types with different scales | Mixed data types               |
 
+</div>
+
 ### Conditional Formatting
 
 Conditional formatting applies formatting (colours, icons, data bars) to cells based on their
 Values, making patterns and outliers visually apparent.
+
+<div class="table-wrap">
 
 | Rule Type            | Description                                           | Example                               |
 | -------------------- | ----------------------------------------------------- | ------------------------------------- |
@@ -238,10 +276,14 @@ Values, making patterns and outliers visually apparent.
 | **Colour scales**    | Gradient colours (e.g., red-yellow-green)             | Low = red, high = green               |
 | **Icon sets**        | Display icons (arrows, traffic lights) based on value | Up arrow for growth, down for decline |
 
+</div>
+
 ### Data Validation
 
 Data validation restricts the type of data that can be entered in a cell, preventing data entry
 Errors.
+
+<div class="table-wrap">
 
 | Validation Type  | Description                                 | Example                               |
 | ---------------- | ------------------------------------------- | ------------------------------------- |
@@ -251,6 +293,8 @@ Errors.
 | **Date**         | Restrict to dates within a range            | Between 2020-01-01 and 2026-12-31     |
 | **Text length**  | Restrict the number of characters           | Exactly 8 characters for student ID   |
 | **Custom**       | Use a formula to define the valid condition | `=ISNUMBER(A1)` to allow only numbers |
+
+</div>
 
 ### Sorting and Filtering
 
@@ -271,12 +315,16 @@ Different dimensions.
 
 **Key components:**
 
+<div class="table-wrap">
+
 | Component   | Description                                           |
 | ----------- | ----------------------------------------------------- |
 | **Rows**    | Categories for grouping (e.g., product names)         |
 | **Columns** | Secondary categories (e.g., months)                   |
 | **Values**  | The data being summarised (e.g., SUM of sales)        |
 | **Filters** | Apply criteria to the entire pivot table (e.g., year) |
+
+</div>
 
 <details>
 <summary>Worked Example: Pivot Table Scenario</summary>
@@ -316,12 +364,16 @@ application (e.g., Microsoft Access).
 
 ### Database Objects
 
+<div class="table-wrap">
+
 | Object     | Description                                                   |
 | ---------- | ------------------------------------------------------------- |
 | **Table**  | Stores data in rows (records) and columns (fields)            |
 | **Query**  | Extracts, filters, sorts, or summarises data from tables      |
 | **Form**   | Provides a user-friendly interface for data entry and editing |
 | **Report** | Presents formatted data for printing or viewing               |
+
+</div>
 
 ### Tables
 
@@ -334,6 +386,8 @@ A table is the fundamental storage structure. Each table has:
 - **Field properties:** Define constraints such as field size, required, default value, validation
   rule, indexed, and input mask.
 
+<div class="table-wrap">
+
 | Field Property      | Description                                         | Example                           |
 | ------------------- | --------------------------------------------------- | --------------------------------- |
 | **Data type**       | Type of data stored (Text, Number, Date/Time, etc.) | `Currency` for price fields       |
@@ -344,11 +398,15 @@ A table is the fundamental storage structure. Each table has:
 | **Input mask**      | Template for data entry format                      | `0000-0000` for phone numbers     |
 | **Indexed**         | Whether an index is created for faster searching    | `Yes` for fields used in searches |
 
+</div>
+
 ### Queries
 
 Queries allow users to extract specific data from one or more tables without writing SQL directly.
 
 **Query by Example (QBE):** A graphical interface where users specify criteria by filling in a grid.
+
+<div class="table-wrap">
 
 | Query Type          | Description                                                      |
 | ------------------- | ---------------------------------------------------------------- |
@@ -358,10 +416,14 @@ Queries allow users to extract specific data from one or more tables without wri
 | **Crosstab query**  | Summarise data in a matrix (row headers, column headers, values) |
 | **Calculation**     | Perform calculations on fields (SUM, AVG, COUNT, etc.)           |
 
+</div>
+
 ### Forms
 
 Forms provide a structured interface for data entry, viewing, and editing. They improve data
 Accuracy by controlling how users interact with the database.
+
+<div class="table-wrap">
 
 | Form Feature          | Description                                                              |
 | --------------------- | ------------------------------------------------------------------------ |
@@ -372,9 +434,13 @@ Accuracy by controlling how users interact with the database.
 | **Sub-forms**         | Display related records from another table (e.g., orders for a customer) |
 | **Calculated fields** | Display values computed from other fields                                |
 
+</div>
+
 ### Reports
 
 Reports present data in a formatted, printable layout suitable for analysis and distribution.
+
+<div class="table-wrap">
 
 | Report Feature             | Description                                                |
 | -------------------------- | ---------------------------------------------------------- |
@@ -385,7 +451,11 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 | **Conditional formatting** | Highlight specific values in the report output             |
 | **Charts**                 | Embedded charts for visual data presentation               |
 
+</div>
+
 ### Relational vs Flat-File Database
+
+<div class="table-wrap">
 
 | Feature           | Flat File                 | Relational Database              |
 | ----------------- | ------------------------- | -------------------------------- |
@@ -397,6 +467,8 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 | Scalability       | Poor for large datasets   | Scales well                      |
 | Complexity        | Simple                    | Requires design expertise        |
 | Examples          | CSV, single spreadsheet   | MySQL, PostgreSQL, MS Access     |
+
+</div>
 
 ---
 
@@ -412,6 +484,8 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 ## Word Processing and Desktop Publishing
 
 ### Word Processing Features
+
+<div class="table-wrap">
 
 | Feature                     | Description                                                     | Use Case                                |
 | --------------------------- | --------------------------------------------------------------- | --------------------------------------- |
@@ -430,10 +504,14 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 | **Find and replace**        | Search for text and optionally replace it                       | Bulk editing                            |
 | **Templates**               | Pre-formatted document layouts for common document types        | Resumes, invoices, memos                |
 
+</div>
+
 ### Desktop Publishing (DTP)
 
 DTP software (e.g., Adobe InDesign, Microsoft Publisher) provides advanced layout control for
 Professional publications such as brochures, newsletters, magazines, and books.
+
+<div class="table-wrap">
 
 | Feature                | Word Processing             | Desktop Publishing                              |
 | ---------------------- | --------------------------- | ----------------------------------------------- |
@@ -445,6 +523,8 @@ Professional publications such as brochures, newsletters, magazines, and books.
 | **Output**             | Office documents, letters   | Print-ready publications                        |
 | **Master pages**       | Not available               | Consistent page templates                       |
 | **Imposition**         | Not available               | Arranging pages for printing                    |
+
+</div>
 
 ---
 
@@ -464,6 +544,8 @@ Visual presentations.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature               | Description                                                          |
 | --------------------- | -------------------------------------------------------------------- |
 | **Slide layouts**     | Predefined arrangements of placeholders for title, content, images   |
@@ -477,7 +559,11 @@ Visual presentations.
 | **Drawing tools**     | Shapes, lines, arrows, freehand drawing                              |
 | **Slide show mode**   | Full-screen presentation with keyboard/click navigation              |
 
+</div>
+
 ### Design Principles for Presentations
+
+<div class="table-wrap">
 
 | Principle            | Description                                                         |
 | -------------------- | ------------------------------------------------------------------- |
@@ -489,6 +575,8 @@ Visual presentations.
 | **6x6 rule**         | Maximum 6 bullet points per slide, maximum 6 words per line         |
 | **Visual over text** | Use images, charts, and diagrams instead of walls of text           |
 | **White space**      | Leave adequate empty space; do not fill every pixel                 |
+
+</div>
 
 ---
 
@@ -517,12 +605,16 @@ for each record.
 4. **Preview and merge:** Preview the results, then merge to produce individual documents or a
    single consolidated document.
 
+<div class="table-wrap">
+
 | Component     | Description                                            | Example                                       |
 | ------------- | ------------------------------------------------------ | --------------------------------------------- |
 | Main document | Template with fixed text and merge field placeholders  | Letter template with `<<Name>>``<<Address>>`  |
 | Data source   | Table of records containing the variable data          | Excel sheet with columns: Name, Address, Date |
 | Merge fields  | Placeholders that are replaced with data source values | `<<Name>>` replaced with "Chan Tai Man"       |
 | Merged output | Individual documents or a single combined document     | 200 personalised letters                      |
+
+</div>
 
 <details>
 <summary>Worked Example: Mail Merge for Exam Certificates</summary>
@@ -532,11 +624,15 @@ Class, and exam score.
 
 Data source (Excel):
 
+<div class="table-wrap">
+
 | Name         | Class | Score |
 | ------------ | ----- | ----- |
 | Chan Tai Man | 5A    | 92    |
 | Lee Siu Ming | 5B    | 88    |
 | Wong Ka Wai  | 5A    | 95    |
+
+</div>
 
 Main document (template):
 
@@ -558,6 +654,8 @@ Filled in. The `<<Date>>` field can use the current date function.
 
 Object Linking and Embedding (OLE) allows data from one application to be included in another.
 
+<div class="table-wrap">
+
 | Aspect      | Embedding                                                 | Linking                                                     |
 | ----------- | --------------------------------------------------------- | ----------------------------------------------------------- |
 | Storage     | The object is stored within the destination file          | Only a reference (link) to the source file is stored        |
@@ -566,11 +664,15 @@ Object Linking and Embedding (OLE) allows data from one application to be includ
 | Portability | Self-contained; works even if the original file is moved  | Breaks if the source file is moved or deleted               |
 | When to use | When the data should be independent and portable          | When the data should stay synchronised with the source      |
 
+</div>
+
 **Example:** Embedding an Excel chart into a Word document means the chart data is stored inside the
 Word file. Linking means the Word document references the Excel file; if the Excel data changes, the
 Chart in Word updates automatically.
 
 ### Copy and Paste Between Applications
+
+<div class="table-wrap">
 
 | Method            | Description                                          | Data Transferred                    |
 | ----------------- | ---------------------------------------------------- | ----------------------------------- |
@@ -578,7 +680,11 @@ Chart in Word updates automatically.
 | **Paste Special** | Choose the format of pasted data                     | Unformatted text, image, OLE object |
 | **Paste Link**    | Creates a link to the source; updates dynamically    | Linked OLE object                   |
 
+</div>
+
 ### Common Integration Scenarios
+
+<div class="table-wrap">
 
 | Scenario                               | Source Application | Destination Application | Integration Method    |
 | -------------------------------------- | ------------------ | ----------------------- | --------------------- |
@@ -587,6 +693,8 @@ Chart in Word updates automatically.
 | Presentation with live data            | Excel              | PowerPoint              | Link chart            |
 | Contact list for email campaign        | Access/Excel       | Email client            | Mail merge            |
 | Customer data in a report              | Database           | Word                    | Mail merge with query |
+
+</div>
 
 ---
 
@@ -643,6 +751,8 @@ Code. Understanding VBA basics allows users to edit and enhance recorded macros.
 
 **Key VBA concepts:**
 
+<div class="table-wrap">
+
 | Concept          | Description                                             |
 | ---------------- | ------------------------------------------------------- |
 | **Variable**     | A named storage location for a value                    |
@@ -650,6 +760,8 @@ Code. Understanding VBA basics allows users to edit and enhance recorded macros.
 | **Object**       | An application element (workbook, worksheet, range)     |
 | **Method**       | An action performed on an object (Select, Delete, Copy) |
 | **Property**     | An attribute of an object (Value, Font, Color)          |
+
+</div>
 
 **Example VBA macro:**
 
@@ -669,11 +781,15 @@ Red.
 
 ### Macro Security Considerations
 
+<div class="table-wrap">
+
 | Risk                   | Description                                                     | Mitigation                            |
 | ---------------------- | --------------------------------------------------------------- | ------------------------------------- |
 | **Macro viruses**      | Malicious macros embedded in documents that execute when opened | Disable macros from untrusted sources |
 | **Unintended actions** | A poorly written macro may delete or modify data                | Test macros on backup data first      |
 | **Privacy**            | Macros can access and transmit data without user awareness      | Review macro code before running      |
+
+</div>
 
 Modern office applications default to disabling macros from the internet and prompt the user before
 Enabling macros in downloaded documents.
@@ -748,6 +864,8 @@ Enabling macros in downloaded documents.
 
 A spreadsheet contains the following data:
 
+<div class="table-wrap">
+
 |     | A (Student) | B (Maths) | C (English) | D (ICT) | E (Total) | F (Average) | G (Grade) |
 | --- | ----------- | --------- | ----------- | ------- | --------- | ----------- | --------- |
 | 1   |             |           |             |         |           |             |           |
@@ -755,6 +873,8 @@ A spreadsheet contains the following data:
 | 3   | Bob         | 72        | 65          | 88      |           |             |           |
 | 4   | Carol       | 90        | 88          | 95      |           |             |           |
 | 5   | David       | 60        | 55          | 70      |           |             |           |
+
+</div>
 
 (a) Write the formula for E2 to calculate the total score for Alice.
 
@@ -783,6 +903,8 @@ Answer:
 
 A product table is in cells `H1:I6`:
 
+<div class="table-wrap">
+
 |     | H (Code) | I (Price) |
 | --- | -------- | --------- |
 | 1   |          |           |
@@ -791,6 +913,8 @@ A product table is in cells `H1:I6`:
 | 4   | B01      | 120       |
 | 5   | B02      | 85        |
 | 6   | C01      | 200       |
+
+</div>
 
 In column `A` (rows 2--20), a list of product codes is entered. Column `B` should display the
 Corresponding prices.

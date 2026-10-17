@@ -23,6 +23,8 @@ script with `./script.sh`. The shebang line determines which interpreter process
 
 ### Interactive vs Non-Interactive
 
+<div class="table-wrap">
+
 | Aspect            | Interactive                           | Non-Interactive                        |
 | ----------------- | ------------------------------------- | -------------------------------------- |
 | **Startup files** | `.bashrc``.profile``/etc/bash.bashrc` | Only `BASH_ENV` variable if set        |
@@ -31,6 +33,8 @@ script with `./script.sh`. The shebang line determines which interpreter process
 | **Line editing**  | Readline active (`readline` library)  | Not active                             |
 | **Aliases**       | Expanded                              | Expanded (in bash) or not (POSIX mode) |
 | **Exit on error** | Does not exit on error                | Same unless `set -e`                   |
+
+</div>
 
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
@@ -66,6 +70,8 @@ POSIX specifies a shell standard (IEEE 1003.1, also known as the Single UNIX Spe
 Largely POSIX-compliant but adds extensions. When writing portable scripts, target POSIX sh. When
 Writing for known-bash environments, use bash features deliberately.
 
+<div class="table-wrap">
+
 | Feature                | POSIX sh | Bash                        |
 | ---------------------- | -------- | --------------------------- |
 | Arrays                 | No       | Yes (`arr=()`)              |
@@ -76,6 +82,8 @@ Writing for known-bash environments, use bash features deliberately.
 | `[[ $a =~ $re ]]`      | No       | Yes (regex matching)        |
 | `${var:offset:length}` | No       | Yes (substring expansion)   |
 | `&\>\&2` redirection   | No       | Yes                         |
+
+</div>
 
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
 Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
@@ -117,11 +125,15 @@ are no matching files, the shell behavior depends on the `nullglob` option.
 
 Every process in Linux has three standard file descriptors at startup:
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description             |
 | --- | ------ | ------------------- | ----------------------- |
 | 0   | stdin  | Keyboard            | Input stream            |
 | 1   | stdout | Terminal            | Normal output           |
 | 2   | stderr | Terminal            | Error/diagnostic output |
+
+</div>
 
 The shell can redirect any file descriptor to a file, another descriptor, a pipe, or a
 here-document.
@@ -248,6 +260,8 @@ The shell expands glob patterns into matching filenames before passing them to t
 Fundamentally different from regex, globbing operates on filenames in the filesystem, not on
 Arbitrary text.
 
+<div class="table-wrap">
+
 | Pattern  | Meaning                                         | Example     | Matches                     |
 | -------- | ----------------------------------------------- | ----------- | --------------------------- |
 | `*`      | Any sequence of characters (except leading dot) | `*.log`     | `app.log``error.log`        |
@@ -256,6 +270,8 @@ Arbitrary text.
 | `[a-z]`  | One character from the range                    | `[a-m]*`    | `apple``banana``middle`     |
 | `[!abc]` | One character NOT in the set                    | `[!0-9]*`   | `file``name`                |
 | `**`     | Recursive glob (bash 4.0+, `globstar` option)   | `**/*.py`   | All `.py` files recursively |
+
+</div>
 
 ```bash
 # Enable recursive globbing
@@ -281,6 +297,8 @@ The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob
 
 Extended globbing provides pattern matching similar to regex quantifiers:
 
+<div class="table-wrap">
+
 | Pattern                 | Meaning                           | Regex equivalent   |
 | ----------------------- | --------------------------------- | ------------------ |
 | `?(pattern)`            | Match zero or one occurrence      | `pattern?`         |
@@ -288,6 +306,8 @@ Extended globbing provides pattern matching similar to regex quantifiers:
 | `+(pattern)`            | Match one or more occurrences     | `pattern+`         |
 | `@(pattern1\|pattern2)` | Match exactly one of the patterns | `(p1\|p2)`         |
 | `!(pattern)`            | Match anything except the pattern | Negative lookahead |
+
+</div>
 
 ```bash
 shopt -s extglob
@@ -416,6 +436,8 @@ unset MY_VAR
 
 ### Special Shell Variables
 
+<div class="table-wrap">
+
 | Variable | Meaning                                                    |
 | -------- | ---------------------------------------------------------- |
 | `$?`     | Exit status of the last command (0 = success)              |
@@ -431,6 +453,8 @@ unset MY_VAR
 | `${10}`  | Positional parameter 10+ (must use braces)                 |
 | `IFS`    | Internal Field Separator (default: space, tab, newline)    |
 | `PATH`   | Colon-separated list of directories to search for commands |
+
+</div>
 
 ### Parameter Expansion
 
@@ -484,6 +508,8 @@ echo "${VAR,,}"
 
 ### Common Environment Files
 
+<div class="table-wrap">
+
 | File               | Sourced by                    | Purpose                             |
 | ------------------ | ----------------------------- | ----------------------------------- |
 | `/etc/environment` | PAM                           | System-wide environment variables   |
@@ -494,6 +520,8 @@ echo "${VAR,,}"
 | `~/.bash_profile`  | Login shells (bash)           | Alternative to `.profile`           |
 | `~/.bash_login`    | Login shells (bash, fallback) | Fallback if `.bash_profile` missing |
 | `/etc/profile.d/*` | `/etc/profile`                | Drop-in system scripts              |
+
+</div>
 
 ## Shell Scripting
 
@@ -519,11 +547,15 @@ is treated as a single argument to `env`.
 
 Quoting controls word splitting and globbing. The rules are:
 
+<div class="table-wrap">
+
 | Quote Type  | Expansions Performed                                  |
 | ----------- | ----------------------------------------------------- |
 | No quotes   | All expansions, word splitting, globbing              |
 | Double `""` | Parameter expansion, command substitution, arithmetic |
 | Single `''` | None, literal string                                 |
+
+</div>
 
 ```bash
 VAR="hello world"

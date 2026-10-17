@@ -873,6 +873,8 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 
 ### UK Economy Key Statistics (2023-24)
 
+<div class="table-wrap">
+
 | Indicator               | Value            | Source |
 | ----------------------- | ---------------- | ------ |
 | GDP                     | GBP 2.2 trillion | ONS    |
@@ -889,7 +891,11 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 | Gini coefficient        | 0.35             | ONS    |
 | Poverty rate (relative) | 17%              | DWP    |
 
+</div>
+
 ### Key Elasticity Estimates (UK)
+
+<div class="table-wrap">
 
 | Elasticity                         |                     Estimate                      | Source             |
 | ---------------------------------- | :-----------------------------------------------: | ------------------ |
@@ -902,7 +908,11 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 | Labour demand elasticity (overall) |                   -0.3 to -0.5                    | Low Pay Commission |
 | Interest elasticity of investment  |                   -0.5 to -1.0                    | BoE                |
 
+</div>
+
 ### Important Dates in Economic History
+
+<div class="table-wrap">
 
 | Date    | Event                          | Relevance                                    |
 | ------- | ------------------------------ | -------------------------------------------- |
@@ -919,6 +929,8 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 | 2020    | COVID-19 pandemic              | Furlough, QE expansion                       |
 | 2021-23 | Post-pandemic inflation        | Cost-push, monetary tightening               |
 | 2022    | Truss mini-budget              | Fiscal credibility, gilt market crisis       |
+
+</div>
 
 ### Key Economist Quotes for Essays
 

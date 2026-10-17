@@ -89,6 +89,8 @@ From the official Driver's Manual:
 
 ## NY Fees and Milestones Quick Table
 
+<div class="table-wrap">
+
 | Milestone | Age | Requirement | Notes |
 |-----------|-----|-------------|-------|
 | Permit | 16 | 20-question test, 14 correct | 2-of-4 signs required |
@@ -97,7 +99,11 @@ From the official Driver's Manual:
 | Junior license | 16.5+ | Road test | No NYC driving |
 | Full license | 17-18 | Driver ed (17) or age 18 | Region-dependent fees |
 
+</div>
+
 ## Numeric Facts to Memorize
+
+<div class="table-wrap">
 
 | Fact | Value |
 |-------|-------|
@@ -112,8 +118,12 @@ From the official Driver's Manual:
 | Junior NYC driving | Prohibited entirely |
 | U-turns | Illegal in business districts |
 
+</div>
+
 
 ## Test-Day Checklist for NY
+
+<div class="table-wrap">
 
 | Item | Why |
 |------|-----|
@@ -123,3 +133,5 @@ From the official Driver's Manual:
 | Parent/guardian consent (under 18) | MV-44 signature |
 | Vision test or vision report | Screening requirement |
 | Pre-licensing certificate | Before road test booking |
+
+</div>

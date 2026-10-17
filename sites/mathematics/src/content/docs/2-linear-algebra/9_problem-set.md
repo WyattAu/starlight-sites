@@ -525,12 +525,16 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Linear Algebra (Overview)  | WyattsNotes | [View](/linear-algebra/)                   |
-| Abstract Algebra           | WyattsNotes | [View](/abstract-algebra/)                 |
-| Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)           |
+| Linear Algebra (Overview)  | WyattsNotes | [View](/2-linear-algebra/)                   |
+| Abstract Algebra           | WyattsNotes | [View](/1-abstract-algebra/)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/4-multivariable-calculus/)           |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

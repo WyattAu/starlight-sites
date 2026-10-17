@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                         |
 | ---------- | ------- | --------------------------------------------- |
 | AQA        | Paper 1 | Measures of location and spread, coding       |
 | Edexcel    | P1      | Similar                                       |
 | OCR (A)    | Paper 1 | Includes outlier detection                    |
 | CIE (9709) | P1, P6  | Data handling in P1; further statistics in P6 |
+
+</div>
 
 :::note
 Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sample data.
@@ -310,10 +314,14 @@ scale to the standard Z-score for normally distributed data.
 
 ### 7.3 Choosing an outlier method
 
+<div class="table-wrap">
+
 | Method             | Strengths                                         | Limitations                             |
 | ------------------ | ------------------------------------------------- | --------------------------------------- |
 | IQR ($1.5 \times$) | Standard at A-level; easy to apply from quartiles | Less effective with very small samples  |
 | Modified z-score   | Robust to multiple or clustered outliers          | Requires computing the MAD, less common |
+
+</div>
 
 <hr />
 
@@ -441,6 +449,8 @@ $$
 
 Find the median from the following grouped frequency distribution:
 
+<div class="table-wrap">
+
 | Class             | Frequency |
 | ----------------- | --------- |
 | $0 \lt x \le 10$  | 5         |
@@ -448,6 +458,8 @@ Find the median from the following grouped frequency distribution:
 | $20 \lt x \le 30$ | 18        |
 | $30 \lt x \le 40$ | 8         |
 | $40 \lt x \le 50$ | 4         |
+
+</div>
 
 $n = 47$. The median position is $n/2 = 23.5$.
 
@@ -546,6 +558,8 @@ Section 3.
 <summary>Problem 5</summary>
 The following frequency table shows the number of goals scored in 20 football matches. Find the mean and variance.
 
+<div class="table-wrap">
+
 | Goals | Frequency |
 | ----- | --------- |
 | 0     | 3         |
@@ -553,6 +567,8 @@ The following frequency table shows the number of goals scored in 20 football ma
 | 2     | 5         |
 | 3     | 3         |
 | 4     | 2         |
+
+</div>
 
 </details>
 
@@ -739,6 +755,8 @@ Section 9.
 Estimate the median and interquartile range from the following grouped frequency distribution using
 Linear interpolation:
 
+<div class="table-wrap">
+
 | Class             | Frequency |
 | ----------------- | --------- |
 | $10 \lt x \le 20$ | 8         |
@@ -746,6 +764,8 @@ Linear interpolation:
 | $30 \lt x \le 40$ | 22        |
 | $40 \lt x \le 50$ | 10        |
 | $50 \lt x \le 60$ | 5         |
+
+</div>
 
 </details>
 

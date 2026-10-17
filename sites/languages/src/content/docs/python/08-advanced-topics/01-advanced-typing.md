@@ -524,12 +524,16 @@ else:
 
 When to use which:
 
+<div class="table-wrap">
+
 | Property                  | `TypeGuard` | `TypeIs` |
 | ------------------------- | ----------- | -------- |
 | Narrows in `True` branch  | Yes         | Yes      |
 | Narrows in `False` branch | No          | Yes      |
 | Allows widening           | Yes         | No       |
 | Soundness                 | Trusts you  | Checked  |
+
+</div>
 
 Use `TypeIs` by default when the narrowed type is a subtype of the input. Use `TypeGuard` only when
 you need to widen (e.g., parsing a string into a structured type).

@@ -86,6 +86,8 @@ Positive metal ions in a "sea" of delocalised electrons.
 
 ### Comparison of Bonding Types
 
+<div class="table-wrap">
+
 | Property                | Ionic                 | Covalent (simple molecular) | Covalent (giant)         | Metallic                 |
 | ----------------------- | --------------------- | --------------------------- | ------------------------ | ------------------------ |
 | Melting/boiling point   | High                  | Low                         | Very high                | High (variable)          |
@@ -93,6 +95,8 @@ Positive metal ions in a "sea" of delocalised electrons.
 | Solubility in water     | Generally soluble     | Generally insoluble         | Insoluble                | Insoluble                |
 | Hardness                | Hard, brittle         | Soft                        | Very hard                | Malleable                |
 | Example                 | $\mathrm{NaCl$        | $\mathrm{H_2\mathrm{O$      | Diamond, $\mathrm{SiO_2$ | $\mathrm{Fe$, $\mathrm{Cu$ |
+
+</div>
 
 ### Electronegativity and Bond Polarity
 
@@ -136,6 +140,8 @@ Dipoles cancel perfectly, so $\mathrm{BF_3$ is non-polar.
 The Valence Shell Electron Pair Repulsion (VSEPR) theory predicts molecular shapes based on electron
 Pair repulsion.
 
+<div class="table-wrap">
+
 | Electron Pairs | Shape                | Bond Angle | Example          |
 | -------------- | -------------------- | ---------- | ---------------- |
 | 2              | Linear               | 180°       | $\mathrm{BeCl_2$ |
@@ -144,12 +150,18 @@ Pair repulsion.
 | 5              | Trigonal bipyramidal | 90°, 120°  | $\mathrm{PCl_5$  |
 | 6              | Octahedral           | 90°        | $\mathrm{SF_6$   |
 
+</div>
+
 **Lone pairs** occupy more space than bonding pairs, reducing bond angles:
+
+<div class="table-wrap">
 
 | Bonding/Lone Pairs | Shape              | Bond Angle | Example                |
 | ------------------ | ------------------ | ---------- | ---------------------- |
 | 3 bonding, 1 lone  | Trigonal pyramidal | 107°       | $\mathrm{NH_3$         |
 | 2 bonding, 2 lone  | Bent               | 104.5°     | $\mathrm{H_2\mathrm{O$ |
+
+</div>
 
 **Derivation of bond angles using VSEPR:**
 
@@ -206,11 +218,15 @@ has Stronger London forces due to more electrons, hydrogen bonding in water domi
 
 ### Summary of Intermolecular Forces
 
+<div class="table-wrap">
+
 | Force Type              | Strength Order | Present In                         | Dependence on molecular size |
 | ----------------------- | -------------- | ---------------------------------- | ---------------------------- |
 | London dispersion       | Weakest        | All molecules                      | Increases with size          |
 | Permanent dipole-dipole | Moderate       | Polar molecules                    | Moderate                     |
 | Hydrogen bonding        | Strongest      | Molecules with H bonded to N, O, F | Depends on H-bond density    |
+
+</div>
 
 ### Bond Enthalpy
 
@@ -219,6 +235,8 @@ has Stronger London forces due to more electrons, hydrogen bonding in water domi
 
 **Average bond enthalpies** are used because bond enthalpies vary slightly depending on the
 Molecular environment.
+
+<div class="table-wrap">
 
 | Bond | Enthalpy (kJ/mol) |
 | ---- | ----------------- |
@@ -234,6 +252,8 @@ Molecular environment.
 | C-O  | 358               |
 | C-Cl | 328               |
 | C-N  | 305               |
+
+</div>
 
 **Worked Example 5:** Estimate the enthalpy change for the reaction:
 $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$.
@@ -409,6 +429,8 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
 
 ## Summary Table: Oxidation States of Common Elements
 
+<div class="table-wrap">
+
 | Element   | Common oxidation states                | Notes                                         |
 | --------- | -------------------------------------- | --------------------------------------------- |
 | Hydrogen  | $+1$ (most compounds), $-1$ (hydrides) |                                               |
@@ -418,6 +440,8 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
 | Chlorine  | $-1$ to $+7$                           | $-1$ most common                              |
 | Manganese | $+2, +4, +7$                           | $\mathrm{MnO_4^-$ has Mn at $+7$              |
 | Chromium  | $+3, +6$                               | $\mathrm{Cr_2\mathrm{O_7^{2-}$ has Cr at $+6$ |
+
+</div>
 
 ---
 
@@ -526,12 +550,16 @@ Gaseous ions. It is always exothermic (negative) and indicates the strength of i
 - Ionic radius: Smaller ions can approach more closely, increasing the attraction. $\mathrm{NaF$ has
   a more exothermic lattice energy than $\mathrm{NaCl$.
 
+<div class="table-wrap">
+
 | Compound | Ionic charges | Sum of ionic radii (pm) | Lattice energy (kJ/mol) |
 | -------- | ------------- | ----------------------- | ----------------------- |
 | NaCl     | +1, -1        | 276                     | -787                    |
 | MgO      | +2, -2        | 210                     | -3791                   |
 | NaF      | +1, -1        | 231                     | -910                    |
 | CaO      | +2, -2        | 231                     | -3414                   |
+
+</div>
 
 ### Born-Haber Cycles
 
@@ -590,12 +618,16 @@ Polarised. When polarisation is significant, the ionic bond acquires covalent ch
 **Alloys** are mixtures of metals (or a metal with a non-metal) that have been designed to have
 Improved properties.
 
+<div class="table-wrap">
+
 | Alloy type     | Description                                 | Effect on properties                                       |
 | -------------- | ------------------------------------------- | ---------------------------------------------------------- |
 | Substitutional | Different-sized atoms replace host atoms    | Distorts lattice, prevents slip planes, increases hardness |
 | Interstitial   | Small atoms fit in gaps between metal atoms | Blocks dislocation movement, increases hardness            |
 | Example: Steel | Iron with carbon (interstitial)             | Much harder than pure iron                                 |
 | Example: Brass | Copper with zinc (substitutional)           | Stronger than copper, retains malleability                 |
+
+</div>
 
 ---
 
@@ -781,11 +813,15 @@ The larger size of $\mathrm{Cs^+$ allows it to accommodate more anions around it
 
 ### Comparison of Ionic Structures
 
+<div class="table-wrap">
+
 | Compound | Cation radius | Anion radius | Structure       | Coordination number | Melting point |
 | -------- | ------------- | ------------ | --------------- | ------------------- | ------------- |
 | NaCl     | 102 pm        | 181 pm       | FCC (rock salt) | 6:6                 | 801°C         |
 | CsCl     | 167 pm        | 181 pm       | BCC             | 8:8                 | 645°C         |
 | MgO      | 72 pm         | 140 pm       | FCC (rock salt) | 6:6                 | 2852°C        |
+
+</div>
 
 Note: $\mathrm{MgO$ has a much higher melting point than $\mathrm{NaCl$ because the
 $\mathrm{Mg^{2+}$ And $\mathrm{O^{2-}$ ions have higher charges, producing stronger electrostatic
@@ -876,6 +912,8 @@ Charge: $-1 + 5(-1) + 6(+1) = 0$ left, $0$ right. Balanced.
 
 ## Summary: Bonding and Properties Connection
 
+<div class="table-wrap">
+
 | Bonding type      | Bond strength (kJ/mol) | Melting point | Conductivity    | Typical examples                                          |
 | ----------------- | ---------------------- | ------------- | --------------- | --------------------------------------------------------- |
 | Ionic             | 600-4000               | High          | Molten/solution | $\mathrm{NaCl$, $\mathrm{MgO$                               |
@@ -883,6 +921,8 @@ Charge: $-1 + 5(-1) + 6(+1) = 0$ left, $0$ right. Balanced.
 | Covalent (giant)  | 350-400                | Very high     | Graphite only   | Diamond, $\mathrm{SiO_2$                                  |
 | Metallic          | 100-500                | Moderate-high | Good            | $\mathrm{Fe$, $\mathrm{Cu$                                  |
 | Hydrogen bonds    | 5-40                   | --            | --              | Between molecules of $\mathrm{H_2\mathrm{O$, $\mathrm{NH_3$ |
+
+</div>
 
 ## Worked Examples
 

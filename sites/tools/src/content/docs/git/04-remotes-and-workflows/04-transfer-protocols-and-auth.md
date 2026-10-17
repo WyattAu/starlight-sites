@@ -34,6 +34,8 @@ Git also supports a third protocol, the unauthenticated `git://` protocol, but i
 Default on all major hosting platforms due to its lack of authentication (it was the vector for
 CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 
+<div class="table-wrap">
+
 | Aspect                | HTTPS                                      | SSH                                       |
 | --------------------- | ------------------------------------------ | ----------------------------------------- |
 | Default port          | 443                                        | 22                                        |
@@ -44,6 +46,8 @@ CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 | CI/CD suitability     | Excellent (token as env var)               | Good (deploy key)                         |
 | Enterprise proxy      | Works through HTTP(S) proxies              | Requires ProxyCommand or jump hosts       |
 | Performance           | Slightly slower (TLS overhead per request) | Slightly faster (persistent multiplexing) |
+
+</div>
 
 Git does not enforce a single protocol for a repository. You can fetch over HTTPS and push over SSH,
 Or use different protocols for different remotes. The choice is per-remote URL, not per-repository.
@@ -78,12 +82,16 @@ Your public key has been saved in /home/user/.ssh/id_ed25519.pub
 
 ### Key Type Comparison
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Security Level | Speed (sign) | Speed (verify) | Recommendation |
 | --------- | -------- | -------------- | ------------ | -------------- | -------------- |
 | Ed25519   | 256 bit  | ~128 bit       | Very fast    | Very fast      | Default choice |
 | RSA       | 2048 bit | ~112 bit       | Slow         | Moderate       | Legacy minimum |
 | RSA       | 4096 bit | ~140 bit       | Very slow    | Moderate       | Overkill       |
 | ECDSA     | 256 bit  | ~128 bit       | Moderate     | Moderate       | Avoid (NIST)   |
+
+</div>
 
 **Ed25519** is the default choice for all new keys. Use RSA-4096 only if you must interoperate with
 Systems that do not support Ed25519 (rare, but some older enterprise SSH servers and FIPS-140-2
@@ -258,6 +266,8 @@ Host gitea.internal
 
 ### Key Directives
 
+<div class="table-wrap">
+
 | Directive        | Purpose                                                        | Example                          |
 | ---------------- | -------------------------------------------------------------- | -------------------------------- |
 | `Host`           | Pattern-matching alias for the host                            | `Host github-work`               |
@@ -269,6 +279,8 @@ Host gitea.internal
 | `ForwardAgent`   | Forward the local ssh-agent to the remote host                 | `ForwardAgent yes`               |
 | `AddKeysToAgent` | Automatically add the key to ssh-agent on first use            | `AddKeysToAgent yes`             |
 | `Compression`    | Enable compression for slow connections                        | `Compression yes`                |
+
+</div>
 
 ### IdentitiesOnly
 
@@ -336,11 +348,15 @@ Host *
     ControlPersist 600
 ```
 
+<div class="table-wrap">
+
 | Directive            | Purpose                                                                  |
 | -------------------- | ------------------------------------------------------------------------ |
 | `ControlMaster auto` | Enable multiplexing; auto-create a master connection if none exists      |
 | `ControlPath`        | Path to the control socket file (`%r` = user, `%h` = host, `%p` = port)  |
 | `ControlPersist 600` | Keep the master connection alive for 600 seconds (10 min) after last use |
+
+</div>
 
 The socket directory must exist:
 
@@ -382,10 +398,14 @@ Operations. It can be scoped to limit its permissions.
 # Classic tokens: scoped by permission categories (repo, admin, etc.)
 ```
 
+<div class="table-wrap">
+
 | Token Type   | Scope Granularity        | Repository-Level | Expiry       | Recommended For      |
 | ------------ | ------------------------ | ---------------- | ------------ | -------------------- |
 | Fine-grained | Per-repo, per-permission | Yes              | Configurable | New projects         |
 | Classic      | Permission categories    | No (global)      | Configurable | Legacy compatibility |
+
+</div>
 
 #### Creating a GitLab PAT
 
@@ -585,6 +605,8 @@ $ git config --global credential.helper osxkeychain
 
 ### Choosing a Helper
 
+<div class="table-wrap">
+
 | Platform | Recommended Helper                            | Security                           |
 | -------- | --------------------------------------------- | ---------------------------------- |
 | Linux    | `libsecret` or `manager-core`                 | Encrypted at rest (keyring)        |
@@ -592,6 +614,8 @@ $ git config --global credential.helper osxkeychain
 | Windows  | `manager-core` (default with Git for Windows) | Encrypted at rest (Credential Mgr) |
 | CI/CD    | `cache` (short timeout) or env variable       | Ephemeral / job-scoped             |
 | Docker   | `store` (in container) or `cache`             | Container-isolated                 |
+
+</div>
 
 ### Per-Remote Credential Configuration
 
@@ -626,6 +650,8 @@ Enables new features like partial clone.
 
 **Protocol v2** addresses these:
 
+<div class="table-wrap">
+
 | Feature                | Protocol v1            | Protocol v2                           |
 | ---------------------- | ---------------------- | ------------------------------------- |
 | Ref advertisement      | All refs, uncompressed | Filtered, can use packfile URIs       |
@@ -634,6 +660,8 @@ Enables new features like partial clone.
 | Filter support         | Not supported          | `--filter=blob:none``--filter=tree:0` |
 | Symref support         | Implicit               | Explicit `symref` capability          |
 | Packfile URIs          | Not supported          | Offload packfile downloads to CDN     |
+
+</div>
 
 ### Verifying Protocol Version
 
@@ -665,6 +693,8 @@ the Git server directly. This is used by GitHub and GitLab to reduce load on the
 
 ### Decision Matrix
 
+<div class="table-wrap">
+
 | Factor                     | SSH Wins                                 | HTTPS Wins                                  |
 | -------------------------- | ---------------------------------------- | ------------------------------------------- |
 | Auth convenience           | Key-based, no prompts after setup        | Token required, but credential helpers help |
@@ -677,6 +707,8 @@ the Git server directly. This is used by GitHub and GitLab to reduce load on the
 | Security (credential leak) | Private key never transmitted            | Token transmitted on every request          |
 | Performance                | Faster with multiplexing (ControlMaster) | Slightly slower (TLS per-request)           |
 | Self-hosted server         | Simple (add key to authorized_keys)      | Requires TLS cert + PAT or LDAP setup       |
+
+</div>
 
 ### Practical Recommendations
 

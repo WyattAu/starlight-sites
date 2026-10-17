@@ -53,12 +53,16 @@ The Korean War (1950-1953) and the United Nations trade embargo against China di
 
 **Key milestones:**
 
+<div class="table-wrap">
+
 | Period | Development |
 | -------- | ------------- |
 | 1950s | Textile industry dominance; establishment of major factories |
 | 1960s | Diversification into electronics, toys, and watches |
 | 1970s | Financial sector development; emergence of the stock market |
 | 1980s | Transition to services and finance as manufacturing moved to mainland China |
+
+</div>
 
 The industrialisation process created a new working class and a distinctive urban culture. Workers lived in cramped conditions in factory dormitories or squatter settlements, with limited social protections. The colonial government maintained a policy of positive non-interventionism, providing infrastructure and legal frameworks while avoiding direct economic planning.
 

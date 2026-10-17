@@ -125,6 +125,8 @@ Taking all products, the six abelian groups of order 72 are:
 
 ### 14.6 Key Relationships
 
+<div class="table-wrap">
+
 | Result | Statement | Application |
 | --- | --- | --- |
 | Cauchy's Theorem | $p \mid \| G \| \implies$ element of order $p$ exists | Existence of elements of prime order |
@@ -132,6 +134,8 @@ Taking all products, the six abelian groups of order 72 are:
 | Class Equation | $ \| G \| = \| Z(G) \| + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
+
+</div>
 
 ## Cross-References
 

@@ -46,11 +46,15 @@ while (!atomic_var.compare_exchange_weak(expected, desired, order_success, order
 
 ## `compare_exchange_weak` vs `compare_exchange_strong`
 
+<div class="table-wrap">
+
 | Property         | `compare_exchange_weak`               | `compare_exchange_strong` |
 | ---------------- | ------------------------------------- | ------------------------- |
 | Spurious failure | Possible                              | Never                     |
 | Performance      | May be faster on some architectures   | May be slower             |
 | Use case         | CAS loops (failure is retried anyway) | Single-attempt operations |
+
+</div>
 
 The `compare_exchange` functions have the following signature [N4950 §31.7.2]:
 
@@ -204,12 +208,16 @@ the destruction itself is visible to other threads. The `fetch_sub` return value
 
 ## CAS Loop Idioms Summary
 
+<div class="table-wrap">
+
 | Pattern                    | Description                            | Use Case                       |
 | -------------------------- | -------------------------------------- | ------------------------------ |
 | **Read-modify-write**      | Load, compute, CAS                     | Counter increment, flag toggle |
 | **Insert into list**       | Load head, set new->next, CAS head     | Lock-free stack push           |
 | **Remove from list**       | Load head, read next, CAS head to next | Lock-free stack pop            |
 | **Update with validation** | Load, validate invariants, CAS         | Lock-free queue (ABA-safe)     |
+
+</div>
 
 :::tip
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
@@ -408,6 +416,8 @@ cannot be `release` or `acq_rel` [N4950 §31.7.2].
 
 ### Common Memory Order Combinations
 
+<div class="table-wrap">
+
 | Success Order          | Failure Order          | Use Case                                                         |
 | :--------------------- | :--------------------- | :--------------------------------------------------------------- |
 | `memory_order_relaxed` | `memory_order_relaxed` | Simple counters, statistics (no synchronization needed)          |
@@ -415,6 +425,8 @@ cannot be `release` or `acq_rel` [N4950 §31.7.2].
 | `memory_order_release` | `memory_order_relaxed` | Publishing a shared pointer (make writes visible)                |
 | `memory_order_acq_rel` | `memory_order_acquire` | Read-modify-write on a synchronization variable                  |
 | `memory_order_seq_cst` | `memory_order_seq_cst` | Default; total order (strongest guarantee, most expensive)       |
+
+</div>
 
 ```cpp
 #include <atomic>
@@ -742,6 +754,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
 | push(5)   | [5]                  |,      |
@@ -750,3 +764,5 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+</div>

@@ -57,6 +57,8 @@ Comparison serves several analytical purposes:
 
 When comparing two or more texts, you can focus on any of the following axes:
 
+<div class="table-wrap">
+
 | Axis                     | What to Compare                             | Example Question                                             |
 | ------------------------ | ------------------------------------------- | ------------------------------------------------------------ |
 | Theme                    | How the same theme is treated differently   | "Compare how the two writers present the experience of loss" |
@@ -68,6 +70,8 @@ When comparing two or more texts, you can focus on any of the following axes:
 | Genre                    | How genre conventions are used or subverted | "Compare the use of Gothic conventions"                      |
 | Critical interpretation  | How different readings apply to each text   | "Compare how a feminist reading might respond to both texts" |
 | Reader/audience response | How the text positions its audience         | "Compare the effect on the reader in both texts"             |
+
+</div>
 
 ### Similarity and Difference
 
@@ -113,6 +117,8 @@ of these structures:
 
 Use these to signal comparison explicitly:
 
+<div class="table-wrap">
+
 | Purpose     | Connectives                                                                                |
 | ----------- | ------------------------------------------------------------------------------------------ |
 | Similarity  | Similarly, likewise, in the same way, both texts, equally, correspondingly, mirroring this |
@@ -120,6 +126,8 @@ Use these to signal comparison explicitly:
 | Emphasis    | However, yet, nevertheless, significantly, crucially, most strikingly                      |
 | Development | Building on this, taking this further, extending this idea, complicating this              |
 | Evaluation  | More effectively, with greater nuance, more explicitly, less convincingly                  |
+
+</div>
 
 ### Planning a Comparative Essay
 
@@ -134,6 +142,8 @@ Use these to signal comparison explicitly:
 
 Before writing, create a comparison grid:
 
+<div class="table-wrap">
+
 | Theme / Feature      | Text A | Text B | Comparison |
 | -------------------- | ------ | ------ | ---------- |
 | Presentation of X    |        |        |            |
@@ -141,6 +151,8 @@ Before writing, create a comparison grid:
 | Narrative voice      |        |        |            |
 | Contextual influence |        |        |            |
 | Reader response      |        |        |            |
+
+</div>
 
 ## Approaches to Different Types of Comparison
 
@@ -180,6 +192,8 @@ Sometimes you must compare a text with its historical source, adaptation, or cri
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term                  | Definition                                                                               |
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | Analogue              | A text that shares significant similarities with another, useful for comparison          |
@@ -192,6 +206,8 @@ Sometimes you must compare a text with its historical source, adaptation, or cri
 | Thematic comparison   | Comparing texts based on shared themes or ideas                                          |
 | Structural comparison | Comparing the formal and narrative structures of texts                                   |
 | Comparative thesis    | An argument about what the relationship between texts reveals                            |
+
+</div>
 
 ## Exam Technique
 
@@ -212,12 +228,16 @@ Sometimes you must compare a text with its historical source, adaptation, or cri
 
 ### Timing Guide
 
+<div class="table-wrap">
+
 | Task                      | Time          |
 | ------------------------- | ------------- |
 | Reading / recalling texts | 3-5 minutes   |
 | Planning                  | 5 minutes     |
 | Writing                   | 35-40 minutes |
 | Checking                  | 2-3 minutes   |
+
+</div>
 
 ## Common Pitfalls
 

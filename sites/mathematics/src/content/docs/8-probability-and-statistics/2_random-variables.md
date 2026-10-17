@@ -128,6 +128,8 @@ $$
 
 **Discrete distributions:**
 
+<div class="table-wrap">
+
 | Distribution       | PMF                             | $E[X]$    | $\mathrm{Var}(X)$ |
 | ------------------ | ------------------------------- | --------- | ---------------- |
 | Bernoulli$(p)$     | $p^x(1-p)^{1-x}$, $x \in \{0,1\}$ | $p$       | $p(1-p)$         |
@@ -135,13 +137,19 @@ $$
 | Poisson$(\lambda)$ | $e^{-\lambda}\lambda^x / x!$    | $\lambda$ | $\lambda$        |
 | Geometric$(p)$     | $(1-p)^{x-1}p$, $x \geq 1$        | $1/p$     | $(1-p)/p^2$      |
 
+</div>
+
 **Continuous distributions:**
+
+<div class="table-wrap">
 
 | Distribution           | PDF                                                     | $E[X]$      | $\mathrm{Var}(X)$ |
 | ---------------------- | ------------------------------------------------------- | ----------- | ---------------- |
 | Uniform$(a,b)$         | $1/(b-a)$ on $[a,b]$                                    | $(a+b)/2$   | $(b-a)^2/12$     |
 | Exponential$(\lambda)$ | $\lambda e^{-\lambda x}$, $x \geq 0$                      | $1/\lambda$ | $1/\lambda^2$    |
 | $N(\mu, \sigma^2)$     | $\frac{1}{\sigma\sqrt{2\pi}}e^{-(x-\mu)^2/(2\sigma^2)}$ | $\mu$       | $\sigma^2$       |
+
+</div>
 
 ### 2.5 The Normal Distribution
 
@@ -216,6 +224,8 @@ $M \sim \mathrm{Exp}(\lambda)$. $\blacksquare$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Distribution | CDF | Density? | MGF near 0? | The point |
 | ------------ | --- | -------- | ----------- | --------- |
 | Bernoulli | step | no (atoms) | yes | the discrete case |
@@ -223,6 +233,8 @@ $M \sim \mathrm{Exp}(\lambda)$. $\blacksquare$
 | Cantor | continuous | **no** | **diverges** | neither discrete nor continuous |
 | Cauchy | smooth | yes, $\frac{1}{\pi(1+x^2)}$ | **no** | a density with no moments |
 | $\delta_0$ (point mass) | step at 0 | no | yes | degenerate but legal |
+
+</div>
 
 **The Cantor distribution is the one to remember.** Take $X$ uniform on the
 Cantor set: its CDF is the Cantor function, which is continuous everywhere and

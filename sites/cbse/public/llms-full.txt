@@ -151,12 +151,16 @@ and Organic Chemistry (28 marks).
 
 **Quantum numbers:**
 
+<div class="table-wrap">
+
 | Quantum number | Symbol | Values | Describes |
 | --- | --- | --- | --- |
 | Principal | $n$ | $1, 2, 3, \ldots$ | Energy level / shell |
 | Azimuthal | $l$ | $0, 1, \ldots, n-1$ | Subshell (s, p, d, f) |
 | Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
 | Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
+
+</div>
 
 **Electronic configurations** follow the Aufbau principle, Hund's rule, and Pauli exclusion principle.
 
@@ -179,6 +183,8 @@ molecule is stable.
 
 **Hybridisation:**
 
+<div class="table-wrap">
+
 | Hybridisation | Geometry | Bond angle | Example |
 | --- | --- | --- | --- |
 | $sp$ | Linear | $180°$ | $\text{BeCl}_2$, $\text{C}_2\text{H}_2$ |
@@ -186,6 +192,8 @@ molecule is stable.
 | $sp^3$ | Tetrahedral | $109.5°$ | $\text{CH}_4$, $\text{NH}_3$ |
 | $sp^3d$ | Trigonal bipyramidal | $90°, 120°$ | $\text{PCl}_5$ |
 | $sp^3d^2$ | Octahedral | $90°$ | $\text{SF}_6$ |
+
+</div>
 
 **Hydrogen bonding:** Strong dipole-dipole interaction involving H bonded to F, O, or N. Explains high
 boiling points of water, HF, NH$_3$.
@@ -304,12 +312,16 @@ chemical bond).
 
 **Periodic trends:**
 
+<div class="table-wrap">
+
 | Property | Across a period | Down a group |
 | --- | --- | --- |
 | Atomic radius | Decreases | Increases |
 | Ionisation energy | Increases | Decreases |
 | Electron affinity | Generally increases | Generally decreases |
 | Electronegativity | Increases | Decreases |
+
+</div>
 
 **Shielding effect:** Inner electrons shield outer electrons from the nuclear charge.
 
@@ -494,6 +506,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 ## 4. Key Definitions
 
+<div class="table-wrap">
+
 | Term | Definition |
 | --- | --- |
 | **Enthalpy of combustion** | Heat released when 1 mol of a substance burns completely in O$_2$ |
@@ -511,6 +525,8 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 | **Carbocation** | Positively charged carbon with three bonds and an empty $p$-orbital |
 | **Tautomerism** | Structural isomerism involving the migration of a proton and a double bond |
 | **Inert pair effect** | Reluctance of $ns^2$ electrons in heavier p-block elements to participate in bonding |
+
+</div>
 
 ---
 
@@ -1351,6 +1367,8 @@ undergraduate admissions in India.
 
 These notes cover the following subjects across Classes 9-12:
 
+<div class="table-wrap">
+
 | Subject              | Classes       | Description                                                                  |
 | -------------------- | ------------- | ---------------------------------------------------------------------------- |
 | **Mathematics**      | 9, 10, 11, 12 | Algebra, geometry, trigonometry, calculus, statistics, and probability       |
@@ -1360,9 +1378,13 @@ These notes cover the following subjects across Classes 9-12:
 | **Computer Science** | 11, 12        | Programming (Python/C++), data structures, databases, networking             |
 | **English**          | 9, 10, 11, 12 | Reading comprehension, writing skills, grammar, literature (Flamingo/Vistas) |
 
+</div>
+
 ## Exam Pattern
 
 ### Class 10 Board Exam
+
+<div class="table-wrap">
 
 | Component             | Marks   | Details                                       |
 | --------------------- | ------- | --------------------------------------------- |
@@ -1370,17 +1392,23 @@ These notes cover the following subjects across Classes 9-12:
 | Board Examination     | 80      | Written theory paper per subject              |
 | **Total per subject** | **100** |                                               |
 
+</div>
+
 The board examination is conducted at the end of Class 10. Each subject paper is in most cases **3
 hours** long and carries **80 marks**. The remaining **20 marks** are awarded through internal
 assessment components.
 
 ### Class 12 Board Exam
 
+<div class="table-wrap">
+
 | Component             | Marks   | Details                              |
 | --------------------- | ------- | ------------------------------------ |
 | Internal Assessment   | 20      | Practical exams, projects, viva voce |
 | Board Examination     | 80      | Written theory paper per subject     |
 | **Total per subject** | **100** |                                      |
+
+</div>
 
 For Science stream subjects (Physics, Chemistry, Biology), the practical component includes
 laboratory experiments and record books. For Computer Science, practicals include programming
@@ -1404,6 +1432,8 @@ Internal choices are provided within some questions.
 
 CBSE uses a **nine-point grading scale**:
 
+<div class="table-wrap">
+
 | Grade | Marks Range (out of 100) | Description       |
 | ----- | ------------------------ | ----------------- |
 | A1    | 91-100                   | Outstanding       |
@@ -1415,6 +1445,8 @@ CBSE uses a **nine-point grading scale**:
 | D     | 33-40                    | Below Average     |
 | E1    | 21-32                    | Needs Improvement |
 | E2    | 00-20                    | Needs Improvement |
+
+</div>
 
 A student must obtain a minimum of **Grade D** (33% in each subject) to pass.
 
@@ -1585,12 +1617,16 @@ A **set** is a well-defined collection of distinct objects. Sets are denoted by 
 
 **Set operations.**
 
+<div class="table-wrap">
+
 | Operation | Notation | Meaning |
 | --- | --- | --- |
 | Union | $A \cup B$ | All elements in $A$ or $B$ or both |
 | Intersection | $A \cap B$ | All elements in both $A$ and $B$ |
 | Complement | $A"$ or $\bar{A}$ | All elements in the universal set $U$ not in $A$ |
 | Difference | $A - B$ | Elements in $A$ but not in $B$ |
+
+</div>
 
 **Laws.**
 
@@ -1782,6 +1818,8 @@ $$
 
 **Standard derivatives:**
 
+<div class="table-wrap">
+
 | $f(x)$ | $f'(x)$ |
 | --- | --- |
 | $x^n$ | $nx^{n-1}$ |
@@ -1791,6 +1829,8 @@ $$
 | $e^x$ | $e^x$ |
 | $\ln x$ | $1/x$ |
 | $a^x$ | $a^x \ln a$ |
+
+</div>
 
 **Rules:**
 
@@ -1954,11 +1994,15 @@ $$
 
 ### 5.3 Inverse Trigonometric Functions
 
+<div class="table-wrap">
+
 | Function | Domain | Range |
 | --- | --- | --- |
 | $\sin^{-1}x$ | $[-1, 1]$ | $[-\pi/2, \pi/2]$ |
 | $\cos^{-1}x$ | $[-1, 1]$ | $[0, \pi]$ |
 | $\tan^{-1}x$ | $\mathbb{R}$ | $(-\pi/2, \pi/2)$ |
+
+</div>
 
 **Key identities:**
 
@@ -2051,6 +2095,8 @@ $$
 
 ## 7. Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula |
 | --- | --- |
 | Quadratic roots | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ |
@@ -2063,6 +2109,8 @@ $$
 | Binomial coefficient | $\binom{n}{r} = \frac{n!}{r!(n-r)!}$ |
 | Circle equation | $(x-h)^2 + (y-k)^2 = r^2$ |
 | Euler's formula | $e^{i\theta} = \cos\theta + i\sin\theta$ |
+
+</div>
 
 ---
 
@@ -2205,6 +2253,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 
 **Moment of inertia** (key results):
 
+<div class="table-wrap">
+
 | Body                | $I$ (about given axis) |
 | ------------------- | ---------------------- |
 | Thin rod (centre)   | $\frac{1}{12}ML^2$     |
@@ -2213,6 +2263,8 @@ law to each, then use the constraint (common acceleration for connected strings)
 | Hollow cylinder     | $MR^2$                 |
 | Solid sphere        | $\frac{2}{5}MR^2$      |
 | Hollow sphere       | $\frac{2}{3}MR^2$      |
+
+</div>
 
 **Parallel axis theorem:** $I = I_{\text{cm}} + Md^2$
 
@@ -2290,12 +2342,16 @@ equilibrium.
 
 **Thermodynamic processes:**
 
+<div class="table-wrap">
+
 | Process    | $\Delta U$     | $\Delta Q$        | $\Delta W$        |
 | ---------- | -------------- | ----------------- | ----------------- |
 | Isothermal | $0$            | $nRT\ln(V_f/V_i)$ | $nRT\ln(V_f/V_i)$ |
 | Adiabatic  | $nC_V\Delta T$ | $0$               | $-\Delta U$       |
 | Isobaric   | $nC_V\Delta T$ | $nC_P\Delta T$    | $P\Delta V$       |
 | Isochoric  | $nC_V\Delta T$ | $nC_V\Delta T$    | $0$               |
+
+</div>
 
 ### 2.3 Kinetic Theory of Gases
 
@@ -2574,6 +2630,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 
 ## 8. Key Equations
 
+<div class="table-wrap">
+
 | Topic                       | Equation                                             |
 | --------------------------- | ---------------------------------------------------- |
 | Newton's second law         | $\vec{F} = m\vec{a}$                                 |
@@ -2589,6 +2647,8 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 | De Broglie wavelength       | $\lambda = h/mv$                                     |
 | Bohr energy levels          | $E_n = -13.6\,Z^2/n^2\;\text{eV}$                    |
 | Radioactive decay           | $N = N_0 e^{-\lambda t}$                             |
+
+</div>
 
 ---
 
@@ -3575,6 +3635,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Property | Formula | Notes |
 | --- | --- | --- |
 | Esterification | $\text{RCOOH} + \text{R'OH} \rightleftharpoons \text{RCOOR'} + \text{H}_2\text{O}$ | Acid + alcohol $\rightarrow$ ester + water |
@@ -3582,6 +3644,8 @@ $$
 | Oxidation (primary) | $\text{RCH}_2\text{OH} \rightarrow \text{RCHO} \rightarrow \text{RCOOH}$ | Two-step oxidation |
 | Oxidation (secondary) | $\text{R}_2\text{CHOH} \rightarrow \text{R}_2\text{C=O}$ | Stops at ketone |
 | Dehydration | $\text{RCH}_2\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{RCH=CH}_2$ | Follows Saytzeff's rule |
+
+</div>
 
 ## Exam Tips
 
@@ -4035,6 +4099,8 @@ Product: glycylalanine (Gly-Ala)
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature | DNA | RNA |
 | --------- | ----- | ----- |
 | Sugar | Deoxyribose | Ribose |
@@ -4043,6 +4109,8 @@ Product: glycylalanine (Gly-Ala)
 | Function | Stores genetic information | Protein synthesis |
 | Location | Nucleus | Nucleus and cytoplasm |
 | Stability | Very stable | Less stable |
+
+</div>
 
 Key difference: DNA has thymine (T) while RNA has uracil (U). The double-stranded structure of DNA makes it more stable for long-term genetic storage.
 
@@ -4302,11 +4370,15 @@ Chemical kinetics studies the rate of chemical reactions and the factors affecti
 
 **Problem:** For the reaction $2\text{NO} + \text{O}_2 \rightarrow 2\text{NO}_2$, the following initial rates are observed:
 
+<div class="table-wrap">
+
 | Experiment | [NO] (M) | [O$_2$] (M) | Initial Rate (M/s) |
 |------------|----------|-------------|-------------------|
 | 1          | 0.010    | 0.010       | $2.5 \times 10^{-5}$ |
 | 2          | 0.020    | 0.010       | $1.0 \times 10^{-4}$ |
 | 3          | 0.010    | 0.020       | $5.0 \times 10^{-5}$ |
+
+</div>
 
 Determine the rate law and rate constant.
 
@@ -7031,6 +7103,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Function | Derivative | Notes |
 | --- | --- | --- |
 | $x^n$ | $nx^{n-1}$ | Power rule |
@@ -7040,6 +7114,8 @@ $$
 | $\tan^{-1}(x)$ | $\frac{1}{1 + x^2}$ | Inverse trig derivative |
 | $\sin^{-1}(x)$ | $\frac{1}{\sqrt{1 - x^2}}$ | Inverse trig derivative |
 | $u^n$ (chain rule) | $nu^{n-1} \cdot u'$ | Generalised power rule |
+
+</div>
 
 ## Additional Exam Tips
 
@@ -8269,9 +8345,13 @@ This is a direct application of conditional probability. The sample space reduce
 
 **Problem:** A random variable $X$ has the probability distribution:
 
+<div class="table-wrap">
+
 | $X$ | 0 | 1 | 2 | 3 | 4 |
 |-----|---|---|---|---|---|
 | $P(X)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
+
+</div>
 
 Find $E(X)$, $E(X^2)$, and $\text{Var}(X)$.
 
@@ -10270,6 +10350,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Quantity | Formula | Unit |
 | --- | --- | --- |
 | Coulomb's law | $F = k\frac{ \| q_1 q_2 \| }{r^2}$ | N |
@@ -10280,6 +10362,8 @@ $$
 | Gauss's law | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$ | - |
 | Electric potential energy (two charges) | $U = k\frac{q_1 q_2}{r}$ | J |
 | Work done by electric field | $W = q(V_A - V_B)$ | J |
+
+</div>
 
 ## Additional Exam Tips
 
@@ -11017,12 +11101,16 @@ The negative sign indicates a $180^\circ$ phase shift.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | A | B | Output |
 |---|---|--------|
 | 0 | 0 | 1 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
+
+</div>
 
 The output is LOW (0) only when both inputs are HIGH (1).
 

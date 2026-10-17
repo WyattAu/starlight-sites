@@ -66,6 +66,8 @@ Servers respond to queries asking "where is the authoritative name server for ex
 The root zone (`.`) is the apex of the DNS hierarchy. ICANN coordinates the root zone, which is
 Served by 13 logical root server networks (A through M) operated by different organizations:
 
+<div class="table-wrap">
+
 | Label | Operator                          | Anycast instances |
 | ----- | --------------------------------- | ----------------- |
 | A     | Verisign                          | 100+              |
@@ -81,6 +83,8 @@ Served by 13 logical root server networks (A through M) operated by different or
 | K     | RIPE NCC                          | 30+               |
 | L     | ICANN                             | 20+               |
 | M     | WIDE Project                      | 10+               |
+
+</div>
 
 The "13" is a historical limit from the original DNS specification (UDP packet size constraints).
 Today, each logical root server is deployed as an anycast cluster with dozens to hundreds of
@@ -258,6 +262,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 
 ### Record Types
 
+<div class="table-wrap">
+
 | Type   | Purpose                                               |
 | ------ | ----------------------------------------------------- |
 | DNSKEY | Public key for the zone                               |
@@ -265,6 +271,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 | RRSIG  | Digital signature over a resource record set (RRset)  |
 | NSEC   | Points to the next name in the zone (proves NXDOMAIN) |
 | NSEC3  | Hashed NSEC (prevents zone enumeration)               |
+
+</div>
 
 ### Signing a Zone
 
@@ -455,6 +463,8 @@ This is how CDNs direct users to the nearest edge server.
 
 ### Internal/External Split
 
+<div class="table-wrap">
+
 | Aspect     | Internal DNS                            | External DNS                     |
 | ---------- | --------------------------------------- | -------------------------------- |
 | Purpose    | Corporate infrastructure resolution     | Public-facing services           |
@@ -464,6 +474,8 @@ This is how CDNs direct users to the nearest edge server.
 | Forwarding | Internal recursive resolvers            | ISP or public resolvers          |
 | Security   | Protected by firewall, no public access | Public, DDoS protected           |
 | DNSSEC     | Optional (internal trust)               | Recommended                      |
+
+</div>
 
 ### Active Directory Integration
 
@@ -728,6 +740,8 @@ kdig @https://dns.google example.com +https
 
 ### DoH vs DoT Comparison
 
+<div class="table-wrap">
+
 | Feature            | DoT (853)             | DoH (443)                    |
 | ------------------ | --------------------- | ---------------------------- |
 | Port               | 853 (dedicated)       | 443 (shared with HTTPS)      |
@@ -736,6 +750,8 @@ kdig @https://dns.google example.com +https
 | Overhead           | Lower (no HTTP)       | Higher (HTTP framing)        |
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
+
+</div>
 :::
 
 :::caution
@@ -755,6 +771,8 @@ Application resolver -> OS cache -> Local recursive resolver -> ISP cache -> Aut
 
 Typical latencies at each level:
 
+<div class="table-wrap">
+
 | Level                 | Latency  | TTL influence          |
 | --------------------- | -------- | ---------------------- |
 | Application cache     | 0ms      | Application-controlled |
@@ -762,6 +780,8 @@ Typical latencies at each level:
 | Local recursive cache | 0-5ms    | Respects TTL           |
 | ISP cache hit         | 5-50ms   | Respects TTL           |
 | Authoritative (cold)  | 50-500ms | Fresh answer           |
+
+</div>
 
 ### Negative Caching
 

@@ -42,6 +42,8 @@ Light is a transverse wave, not a longitudinal one as Newton had believed.
 
 ### Wave Terminology (OL/HL)
 
+<div class="table-wrap">
+
 | Term                   | Definition                                       |
 | ---------------------- | ------------------------------------------------ |
 | Wavelength ($\lambda$) | Distance between two consecutive points in phase |
@@ -49,6 +51,8 @@ Light is a transverse wave, not a longitudinal one as Newton had believed.
 | Amplitude ($A$)        | Maximum displacement from equilibrium            |
 | Period ($T$)           | Time for one complete oscillation                |
 | Wave speed ($v$)       | Speed at which the wave propagates               |
+
+</div>
 
 ### Wave Equation (OL/HL)
 
@@ -255,6 +259,8 @@ Fourth order: $\sin\theta = 1.16$ -- not possible. So only 3 orders are visible 
 
 ## The Electromagnetic Spectrum (OL/HL)
 
+<div class="table-wrap">
+
 | Region        | Wavelength range                   | Typical source         |
 | ------------- | ---------------------------------- | ---------------------- |
 | Radio waves   | $\gt 1\mathrm{ m$                  | Radio transmitters     |
@@ -264,6 +270,8 @@ Fourth order: $\sin\theta = 1.16$ -- not possible. So only 3 orders are visible 
 | Ultraviolet   | $10$ -- $400\mathrm{ nm$           | Sun, UV lamps          |
 | X-rays        | $0.01$ -- $10\mathrm{ nm$          | X-ray tubes            |
 | Gamma rays    | $\lt 0.01\mathrm{ nm$              | Radioactive decay      |
+
+</div>
 
 All EM waves travel at $c = 3 \times 10^8\mathrm{ m/s$ in a vacuum.
 
@@ -553,6 +561,8 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 
 ## 16. Summary Table: Wave and Optics Formulas
 
+<div class="table-wrap">
+
 | Topic              | Formula                             | Level | Notes                        |
 | ------------------ | ----------------------------------- | ----- | ---------------------------- |
 | Wave equation      | $v = f\lambda$                      | OL/HL | Universal for periodic waves |
@@ -563,6 +573,8 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 | Decibels           | $\beta = 10\log_{10}(I/I_0)$        | HL    | $I_0 = 10^{-12}$ W/m$^2$     |
 | Doppler (source)   | $f' = fv/(v - v_s)$                 | HL    | Minus for approaching        |
 | Doppler (observer) | $f' = f(v + v_o)/v$                 | HL    | Plus for approaching         |
+
+</div>
 
 ## 17. Practice Questions (Additional)
 

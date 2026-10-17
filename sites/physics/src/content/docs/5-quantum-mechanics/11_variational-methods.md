@@ -66,12 +66,16 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.4 Key Relationships
 
+<div class="table-wrap">
+
 | Method               | Type                | Guarantee                       | Accuracy                  |
 | -------------------- | ------------------- | ------------------------------- | ------------------------- |
 | Variational          | Ground state        | Upper bound $E_{\text{trial}} \geq E_0$ | Depends on trial function |
 | Perturbation theory  | Any state           | No bound (asymptotic series)    | Depends on smallness      |
 | WKB                  | Semiclassical       | Leading order in $\hbar$        | Good for large $n$        |
 | Hartree-Fock         | Many-body           | Variational (single determinant) | 99% of energy             |
+
+</div>
 
 ### 10.5 Common Pitfalls
 
@@ -88,11 +92,15 @@ The equilibrium bond length is $R_e \approx 1.4\,a_0$ with binding energy $\sim 
 
 ### 10.6 Summary Table
 
+<div class="table-wrap">
+
 | System          | Trial function                           | Variational parameter | Energy (theory) | Energy (exact) |
 | --------------- | ---------------------------------------- | --------------------- | --------------- | -------------- |
 | He atom         | $e^{-Z_{\text{eff}} r_1/a_0} e^{-Z_{\text{eff}} r_2/a_0}$ | $Z_{\text{eff}}$      | $-77.5$ eV      | $-79.0$ eV     |
 | $H_2^+$         | LCAO $\psi_{1s}(r_A) \pm \psi_{1s}(r_B)$ | $R$                   | $-1.8$ eV binding | $-2.8$ eV    |
 | $H_2$           | Singlet Heitler-London                    | $R$                   | $-3.5$ eV binding | $-4.75$ eV   |
+
+</div>
 
 ### 10.7 Applications
 
@@ -166,7 +174,7 @@ The variational principle states that any trial wavefunction gives an energy est
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: The hydrogen atom provides exact solutions that test variational methods.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

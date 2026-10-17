@@ -53,12 +53,16 @@ class BankAccount:
 
 ### Class vs Instance
 
+<div class="table-wrap">
+
 | Concept  | Class                 | Instance (Object)         |
 | -------- | --------------------- | ------------------------- |
 | Nature   | Template / Blueprint  | Concrete realisation      |
 | Number   | One class definition  | Many objects              |
 | Creation | Defined by programmer | Created at runtime        |
 | Memory   | One copy of methods   | Own copy of instance vars |
+
+</div>
 
 <hr />
 
@@ -71,11 +75,15 @@ A class, and restricting direct access to internal state.
 
 ### Access Modifiers
 
+<div class="table-wrap">
+
 | Modifier  | Meaning                                | Python convention        |
 | --------- | -------------------------------------- | ------------------------ |
 | Public    | Accessible from anywhere               | `name`                   |
 | Protected | Accessible within class and subclasses | `_name` (convention)     |
 | Private   | Accessible only within the class       | `__name` (name mangling) |
+
+</div>
 
 ```python
 class Student:
@@ -142,6 +150,8 @@ class Circle(Shape):
 
 ### Types of Inheritance
 
+<div class="table-wrap">
+
 | Type         | Description                   | Python support |
 | ------------ | ----------------------------- | -------------- |
 | Single       | One child, one parent         | Yes            |
@@ -149,6 +159,8 @@ class Circle(Shape):
 | Multilevel   | Chain: A → B → C              | Yes            |
 | Hierarchical | One parent, multiple children | Yes            |
 | Hybrid       | Combination of the above      | Yes            |
+
+</div>
 
 ### Method Overriding
 
@@ -306,15 +318,21 @@ class Room:
 
 When a `House` is destroyed, its `Room` objects are also destroyed.
 
+<div class="table-wrap">
+
 | Relationship | Independence | Lifecycle            | Example            |
 | ------------ | ------------ | -------------------- | ------------------ |
 | Association  | Independent  | Independent          | Doctor-Patient     |
 | Aggregation  | Independent  | Independent          | Department-Teacher |
 | Composition  | Dependent    | Part dies with whole | House-Room         |
 
+</div>
+
 <hr />
 
 ## 7. SOLID Principles
+
+<div class="table-wrap">
 
 | Principle | Name                  | Description                                         |
 | --------- | --------------------- | --------------------------------------------------- |
@@ -323,6 +341,8 @@ When a `House` is destroyed, its `Room` objects are also destroyed.
 | L         | Liskov Substitution   | Subtypes must be substitutable for their base types |
 | I         | Interface Segregation | Clients shouldn't depend on methods they don't use  |
 | D         | Dependency Inversion  | Depend on abstractions, not concretions             |
+
+</div>
 
 ### Example: Single Responsibility
 

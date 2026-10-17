@@ -146,6 +146,8 @@ The simplest memory optimisation is enabling XMP (Intel) or EXPO (AMD) profiles 
 
 Key timing parameters:
 
+<div class="table-wrap">
+
 | Timing | Description | Impact |
 | -------- | ------------- | -------- |
 | CAS Latency (CL) | Cycles to access a column | Lower is better |
@@ -153,6 +155,8 @@ Key timing parameters:
 | tRP | Row precharge time | Lower is better |
 | tRAS | Row active time | Lower is better |
 | tRC | Row cycle time | Lower is better |
+
+</div>
 
 ### Memory Frequency vs. Timings
 
@@ -272,11 +276,15 @@ Cooling is the bottleneck for sustained performance. Better cooling allows highe
 
 ### Temperature Targets
 
+<div class="table-wrap">
+
 | Component | Idle | Load | Maximum |
 | ----------- | ------ | ------ | --------- |
 | CPU | 30–40°C | 60–80°C | 90–100°C |
 | GPU | 30–40°C | 65–85°C | 90–95°C |
 | NVMe SSD | 30–40°C | 50–70°C | 75°C |
+
+</div>
 
 ---
 

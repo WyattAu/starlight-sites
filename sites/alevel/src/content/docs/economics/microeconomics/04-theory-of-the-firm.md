@@ -71,6 +71,8 @@ $$
 
 **Internal economies of scale:**
 
+<div class="table-wrap">
+
 | Type         | Mechanism                                                |
 | ------------ | -------------------------------------------------------- |
 | Technical    | Indivisibilities, increased dimension, linking processes |
@@ -78,6 +80,8 @@ $$
 | Financial    | Lower interest rates for larger firms                    |
 | Managerial   | Specialisation of management functions                   |
 | Risk-bearing | Diversification of product lines and markets             |
+
+</div>
 
 **External economies of scale**: cost advantages arising from the growth of the _industry_ as a
 Whole (e.g., a skilled labour pool, specialised suppliers, knowledge spillovers in Silicon Valley).
@@ -409,10 +413,14 @@ Trade-off between efficiency and variety.
 
 Two firms (A and B) each choose whether to charge a high price or a low price.
 
+<div class="table-wrap">
+
 |                   | B: High Price    | B: Low Price    |
 | ----------------- | ---------------- | --------------- |
 | **A: High Price** | A: £10m, B: £10m | A: £2m, B: £12m |
 | **A: Low Price**  | A: £12m, B: £2m  | A: £5m, B: £5m  |
+
+</div>
 
 **Nash equilibrium**: each player's strategy is optimal given the other player's strategy. Firm A's
 Dominant strategy: Low Price (regardless of B's choice, A is better off). Same for B. Nash
@@ -559,6 +567,8 @@ Understanding of sunk costs as the key barrier to contestability.
 
 ## 5. Comparative Table of Market Structures
 
+<div class="table-wrap">
+
 | Feature                   | Perfect Competition      | Monopoly             | Monopolistic Competition  | Oligopoly                  |
 | ------------------------- | ------------------------ | -------------------- | ------------------------- | -------------------------- |
 | **Number of firms**       | Very many                | One                  | Many                      | Few                        |
@@ -572,6 +582,8 @@ Understanding of sunk costs as the key barrier to contestability.
 | **Productive efficiency** | Yes ($P = AC_{min}$)     | No                   | No (excess capacity)      | No                         |
 | **DWL**                   | None                     | Yes                  | Yes                       | Yes                        |
 | **Examples**              | Agricultural commodities | National rail, water | Restaurants, hairdressers | Supermarkets, banking, oil |
+
+</div>
 
 :::note
 Focuses on the link between market structure and **economic efficiency**, often asking students to
@@ -777,10 +789,14 @@ This is an example of third-degree price discrimination combined with **network 
 Millions of GBP) are shown below. Identify the Nash equilibrium and discuss why the outcome may
 Differ in a repeated game.
 
+<div class="table-wrap">
+
 |               | B: Invest in R&D | B: No R&D    |
 | ------------- | ---------------- | ------------ |
 | **A: Invest** | A: 8, B: 8       | A: 15, B: 2  |
 | **A: No R&D** | A: 2, B: 15      | A: 10, B: 10 |
+
+</div>
 
 <details>
 <summary>Hint</summary>
@@ -906,6 +922,8 @@ creates a kink in the demand curve. The result depends on the specific demand fu
 
 ### 8.3 Efficiency Comparison Across Market Structures
 
+<div class="table-wrap">
+
 | Efficiency Type             | Perfect Competition        | Monopoly                   | Monopolistic Competition           | Oligopoly                      |
 | --------------------------- | -------------------------- | -------------------------- | ---------------------------------- | ------------------------------ |
 | Allocative ($P = MC$)       | Yes                        | No ($P > MC$)              | No ($P > MC$)                      | No ($P > MC$))                 |
@@ -914,6 +932,8 @@ creates a kink in the demand curve. The result depends on the specific demand fu
 | X-efficiency                | Yes (competitive pressure) | No (no competitive threat) | Moderate                           | Moderate                       |
 | Consumer surplus            | Maximum                    | Reduced (DWL)              | Reduced but some variety gain      | Reduced                        |
 | DWL                         | Zero                       | Positive                   | Positive (smaller)                 | Positive                       |
+
+</div>
 
 **Key evaluation points:**
 
@@ -1051,12 +1071,16 @@ Profit per consumer $= 800$.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 |                       | Single price | Two-part tariff |
 | --------------------- | :----------: | :-------------: |
 | Price per unit        |      40      |       10        |
 | Quantity per consumer |      20      |       40        |
 | Consumer surplus      |     100      |        0        |
 | Profit per consumer   |     600      |       800       |
+
+</div>
 
 The two-part tariff increases the monopolist's profit by 33.3% and eliminates consumer surplus
 entirely. It also achieves the allocatively efficient quantity ($P = MC$). However, it only works
@@ -1087,6 +1111,8 @@ first, forcing the follower to accommodate.
 
 **Comparison with all models:**
 
+<div class="table-wrap">
+
 |              | Collusion | Stackelberg | Cournot | Bertrand |
 | ------------ | :-------: | :---------: | :-----: | :------: |
 | $Q$          |    45     |    67.5     |   60    |    90    |
@@ -1094,6 +1120,8 @@ first, forcing the follower to accommodate.
 | $\pi_1$      |  1012.5   |   1012.5    |   900   |    0     |
 | $\pi_2$      |  1012.5   |   506.25    |   900   |    0     |
 | Total profit |   2025    |   1518.75   |  1800   |    0     |
+
+</div>
 
 Bertrand competition (price competition with identical products) leads to marginal cost pricing and
 zero profit -- the most competitive outcome. Collusion yields the highest profit but is illegal and
@@ -1106,10 +1134,14 @@ unstable.
 
 Payoffs per period (Firm A, Firm B):
 
+<div class="table-wrap">
+
 |             | B Cooperate | B Defect |
 | ----------- | :---------: | :------: |
 | A Cooperate | (100, 100)  | (0, 150) |
 | A Defect    |  (150, 0)   | (50, 50) |
+
+</div>
 
 **One-shot game:** Defect is the dominant strategy for both. Nash equilibrium: (Defect, Defect) with
 payoffs (50, 50).
@@ -1258,12 +1290,16 @@ $P = 92.4$ or $P = 27.6$. $P = 27.6$$Q = 72.4$. This is close to the allocativel
 
 **Comparison:**
 
+<div class="table-wrap">
+
 |          | Unregulated | Price cap | Rate of return |
 | -------- | :---------: | :-------: | :------------: |
 | Price    |     60      |    40     |      27.6      |
 | Quantity |     40      |    60     |      72.4      |
 | Profit   |    1,100    |    700    |       50       |
 | DWL      |     400     |    100    |      7.2       |
+
+</div>
 
 Rate of return regulation is closest to allocative efficiency but creates a problem: the firm has an
 incentive to over-invest in capital (the "Averch-Johnson effect") to increase the allowed profit. If

@@ -505,12 +505,16 @@ $3v_1+2(v_1+4) = 9 \implies 5v_1 = 1 \implies v_1 = 0.2\,\mathrm{m/s}$$v_2 = 4.2
 
 ## Scoring and Revision Guide
 
+<div class="table-wrap">
+
 | Score    | Action                              |
 | -------- | ----------------------------------- |
 | 40–45    | Excellent, focus on exam technique |
 | 30–39    | Good, revise weak topics           |
 | 20–29    | Fair, systematic revision needed   |
 | Below 20 | Significant revision required       |
+
+</div>
 
 Use the revision links under each question to jump directly to the relevant topic notes.
 

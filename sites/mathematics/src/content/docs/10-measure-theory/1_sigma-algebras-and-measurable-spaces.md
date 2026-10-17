@@ -84,12 +84,16 @@ intervals of the form $(a, \infty)$ with $a \in \mathbb{R}$.
 
 ### 1.5 Key Relationships
 
+<div class="table-wrap">
+
 | Structure              | Closed under finite unions | Closed under countable unions |
 | ---------------------- | -------------------------- | ----------------------------- |
 | Algebra                | Yes                        | No                            |
 | $\sigma$-algebra       | Yes                        | Yes                           |
 | Monotone class         | No (only monotone limits)  | No (only countable increasing unions) |
 | Dynkin system ($\lambda$-system) | No (only disjoint unions) | No (only countable disjoint unions) |
+
+</div>
 
 ## Intuition
 

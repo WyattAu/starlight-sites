@@ -189,6 +189,8 @@ legislation or campaigns), people follow the new majority position.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                     | Researcher(s)  | Year | Method                         | Key Findings                                                                        | Evaluation                                                                             |
 | ------------------------- | -------------- | ---- | ------------------------------ | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Line conformity           | Asch           | 1951 | Lab experiment                 | 37% conformity rate; group size, unanimity, and task difficulty affected conformity | High control; artificial task; all male, American, cultural and gender bias           |
@@ -199,7 +201,11 @@ legislation or campaigns), people follow the new majority position.
 | Nurses and obedience      | Hofling et al. | 1966 | Field experiment               | 21/22 nurses obeyed an unknown doctor's order to administer an excessive dose       | High ecological validity; single brief encounter; ethical concerns                     |
 | Authoritarian personality | Adorno et al.  | 1950 | Correlational                  | High F-scale scores correlated with authoritarian attitudes and obedience           | Revealed dispositional factors; F-scale criticized for acquiescence bias               |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                      | Definition                                                                                                      |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -218,6 +224,8 @@ legislation or campaigns), people follow the new majority position.
 | Social roles              | The set of behaviours expected of someone in a particular social position                                       |
 | Dispositional explanation | Behaviour explained by internal characteristics (personality, traits)                                           |
 | Situational explanation   | Behaviour explained by external factors (environment, context)                                                  |
+
+</div>
 
 ## Evaluation Points
 

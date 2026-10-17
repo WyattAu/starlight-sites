@@ -122,6 +122,8 @@ Distributions and their connection to functional analysis:
 
 ### Key Publications Timeline
 
+<div class="table-wrap">
+
 | Year | Author | Contribution |
 | ------ | -------- | ------------- |
 | 1906 | Frechet | Metric spaces |
@@ -135,6 +137,8 @@ Distributions and their connection to functional analysis:
 | 1955 | Grothendieck | Nuclear spaces, tensor products |
 | 1972 | Enflo | Counterexample to approximation problem |
 | 2013 | Marcus-Spielman-Srivastava | Solution of Kadison-Singer problem |
+
+</div>
 
 The evolution of functional analysis demonstrates how abstract mathematical frameworks can
 unify diverse areas and provide powerful tools for applications across physics and engineering.

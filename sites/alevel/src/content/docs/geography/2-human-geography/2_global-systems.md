@@ -41,6 +41,8 @@ challenges such as climate change.
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                                | Definition                                                                                                                                |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Globalisation**                   | The process by which the world is becoming increasingly interconnected through flows of goods, capital, people, information, and ideas    |
@@ -59,6 +61,8 @@ challenges such as climate change.
 | **Core countries**                  | Wealthy, developed nations that dominate global economic and political systems                                                            |
 | **Periphery countries**             | Less developed nations that are economically dependent on core countries                                                                  |
 | **Semi-periphery**                  | Countries that are between core and periphery, industrialising but not yet dominant                                                      |
+
+</div>
 
 ---
 
@@ -100,6 +104,8 @@ borders.
 
 ### Drivers of Globalisation
 
+<div class="table-wrap">
+
 | Driver                         | Contribution                                                                                                                                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Technological change**       | The internet, mobile communications, and satellite technology enable instant global communication and coordination. Containerisation revolutionised shipping.                      |
@@ -108,6 +114,8 @@ borders.
 | **Financial deregulation**     | Removal of capital controls since the 1980s enabled free movement of investment capital. Daily foreign exchange turnover exceeds $7.5 trillion.                                    |
 | **TNC expansion**              | TNCs drive globalisation by locating different stages of production in different countries to minimise costs and maximise market access.                                           |
 | **International institutions** | The IMF, World Bank, and WTO provide frameworks that facilitate and regulate global economic integration.                                                                          |
+
+</div>
 
 ### Impacts of Globalisation
 
@@ -162,6 +170,8 @@ political tensions.
 
 ### Trade Blocs and Agreements
 
+<div class="table-wrap">
+
 | Bloc/Agreement                                   | Members                    | Key Features                                                                                                |
 | ------------------------------------------------ | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **European Union (EU)**                          | 27 member states           | Single market, free movement of goods, services, capital, and people; common external tariff; customs union |
@@ -169,6 +179,8 @@ political tensions.
 | **ASEAN**                                        | 10 Southeast Asian nations | Free trade area, economic integration, political cooperation                                                |
 | **CPTPP**                                        | 11 Pacific Rim nations     | Comprehensive trade agreement covering tariffs, services, and intellectual property                         |
 | **African Continental Free Trade Area (AfCFTA)** | 54 AU member states        | Aims to create the world's largest free trade area by number of countries                                   |
+
+</div>
 
 **Advantages of trade blocs**: Larger markets, economies of scale, increased competition and
 efficiency, political cooperation, FDI attraction.
@@ -243,6 +255,8 @@ TNCs influence global systems through:
 
 ### Institutions of Global Governance
 
+<div class="table-wrap">
+
 | Institution                           | Role                                                                                                               |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **United Nations (UN)**               | Maintaining international peace and security, promoting human rights, facilitating development (193 member states) |
@@ -251,6 +265,8 @@ TNCs influence global systems through:
 | **World Bank**                        | Providing development loans and grants to developing countries for infrastructure and poverty reduction            |
 | **G20**                               | Forum for international economic cooperation among the world's 20 largest economies                                |
 | **World Health Organization (WHO)**   | Directing international health, setting standards, coordinating responses to health emergencies                    |
+
+</div>
 
 ### Criticisms of Global Governance
 
@@ -293,6 +309,8 @@ restraint would benefit all.
 
 ### Types of Migration
 
+<div class="table-wrap">
+
 | Type                        | Description                                                      | Example                                                                          |
 | --------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | **Economic migration**      | Movement for employment and better wages                         | Polish workers to the UK after 2004 EU accession                                 |
@@ -301,6 +319,8 @@ restraint would benefit all.
 | **International migration** | Movement between countries                                       | Mexican migration to the USA                                                     |
 | **Return migration**        | Migrants returning to their country of origin                    | Return of skilled Indians from the US and UK                                     |
 | **Irregular migration**     | Movement outside legal frameworks                                | Mediterranean crossings to Europe                                                |
+
+</div>
 
 ### Impacts of Migration
 

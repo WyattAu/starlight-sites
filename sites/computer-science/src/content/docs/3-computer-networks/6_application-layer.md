@@ -26,6 +26,8 @@ $\to$ subdomain (`www.example.com`).
 
 **Record types:**
 
+<div class="table-wrap">
+
 | Type  | Name  | Purpose                                  |
 | ----- | ----- | ---------------------------------------- |
 | A     | IPv4  | IPv4 address                             |
@@ -35,6 +37,8 @@ $\to$ subdomain (`www.example.com`).
 | NS    | Name  | Authoritative name server                |
 | SOA   | Start | Zone administration info                 |
 | TXT   | Text  | Arbitrary text (SPF, DKIM, verification) |
+
+</div>
 
 **Resolution process:**
 
@@ -88,6 +92,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 
 **HTTP methods:**
 
+<div class="table-wrap">
+
 | Method  | Idempotent | Safe | Purpose                        |
 | ------- | ---------- | ---- | ------------------------------ |
 | GET     | Yes        | Yes  | Retrieve a resource            |
@@ -98,7 +104,11 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | HEAD    | Yes        | Yes  | Like GET but no body           |
 | OPTIONS | Yes        | Yes  | Describe communication options |
 
+</div>
+
 **Status codes:**
+
+<div class="table-wrap">
 
 | Code Range | Category      | Examples                       |
 | ---------- | ------------- | ------------------------------ |
@@ -107,6 +117,8 @@ migration, 0-RTT handshake resumption, integrated TLS 1.3.
 | 3xx        | Redirection   | 301 Moved, 304 Not Modified    |
 | 4xx        | Client Error  | 400 Bad Request, 404 Not Found |
 | 5xx        | Server Error  | 500 Internal, 503 Unavailable  |
+
+</div>
 
 ### 6.3 TLS
 
@@ -176,6 +188,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 (995 for POP3S). Simpler than IMAP but less flexible. Supports `TOP` (fetch headers) and `RETR`
 (fetch full message).
 
+<div class="table-wrap">
+
 | Aspect   | IMAP                  | POP3                 |
 | -------- | --------------------- | -------------------- |
 | Mode     | Remote access         | Download and delete  |
@@ -183,6 +197,8 @@ selected, and Logout. Messages remain on the server unless explicitly deleted.
 | Search   | Server-side search    | No                   |
 | Sync     | Multi-device sync     | No                   |
 | Resource | Higher server storage | Lower server storage |
+
+</div>
 
 ### 6.5 Other Application Protocols
 

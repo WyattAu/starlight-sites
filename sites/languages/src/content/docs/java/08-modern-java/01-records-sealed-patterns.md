@@ -173,6 +173,8 @@ public record AuthToken(String token, long expiryEpochMs) implements Serializabl
 
 ### Records vs Lombok `@Value`
 
+<div class="table-wrap">
+
 | Feature                 | Records                | Lombok `@Value`                  |
 | ----------------------- | ---------------------- | -------------------------------- |
 | Language support        | Built-in since Java 16 | Annotation processor (library)   |
@@ -183,6 +185,8 @@ public record AuthToken(String token, long expiryEpochMs) implements Serializabl
 | Deserialization safety  | Validates on read      | Uses reflection, can be bypassed |
 | IDE support             | Native                 | Requires plugin                  |
 | Framework compatibility | Full (standard Java)   | May need annotation processing   |
+
+</div>
 
 Records are the standard mechanism going forward. Lombok remains useful in codebases that need
 Features records do not support (mutable data carriers, builders with complex logic, etc.), but for
@@ -690,6 +694,8 @@ Always prefer arrow syntax unless you deliberately need fall-through.
 
 ## JEP Reference Table
 
+<div class="table-wrap">
+
 | JEP | Feature                          | Java Version | Status   |
 | --- | -------------------------------- | ------------ | -------- |
 | 355 | Text Blocks (preview)            | 13           | Preview  |
@@ -706,6 +712,8 @@ Always prefer arrow syntax unless you deliberately need fall-through.
 | 440 | Record Patterns (preview)        | 19           | Preview  |
 | 441 | Pattern Matching for switch      | 21           | Standard |
 | 443 | Unnamed Patterns and Variables   | 22           | Standard |
+
+</div>
 
 ## See Also
 

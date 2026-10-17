@@ -29,6 +29,8 @@ Sedimentary rock.
   organisms than those in shallower (younger) layers.
 - **Transitional fossils** exhibit features intermediate between ancestral and descendant groups:
 
+<div class="table-wrap">
+
 | Transitional fossil                                | Significance                                                                                                                                  |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | **_Tiktaalik roseae_** (375 Mya)                   | Intermediate between lobe-finned fish and early tetrapods: fish-like scales and fins with limb-like bones and a functional neck.              |
@@ -36,6 +38,8 @@ Sedimentary rock.
 | **_Australopithecus afarensis_** ("Lucy", 3.2 Mya) | Bipedal pelvis and femur with ape-like cranial capacity ($\approx 400\;\mathrm{cm}^3$). Ancestor of the genus _Homo_.                         |
 | **_Ambulocetus natans_** (49 Mya)                  | "Walking whale": amphibious predator with functional limbs linking terrestrial artiodactyls and fully aquatic cetaceans.                      |
 | **_Tetrapod tracks_** (395 Mya, Poland)            | Fossilised footprints pre-dating the earliest tetrapod body fossils, showing animals walked on land earlier than skeletal evidence suggested. |
+
+</div>
 
 **Limitations of the fossil record:**
 
@@ -52,11 +56,15 @@ Sedimentary rock.
 **Homologous structures**: similar anatomy in different species due to common ancestry, despite
 Potentially different functions.
 
+<div class="table-wrap">
+
 | Structure                    | Species                                      | Common ancestry          | Function in each species                                               |
 | ---------------------------- | -------------------------------------------- | ------------------------ | ---------------------------------------------------------------------- |
 | **Pentadactyl limb**         | Human, bat, whale, horse                     | Common tetrapod ancestor | Grasping, flying, swimming, running                                    |
 | **Vertebral column**         | All vertebrates                              | Common chordate ancestor | Axial support and protection of spinal cord                            |
 | **Pharyngeal (gill) arches** | Fish, amphibian, reptile, mammal (embryonic) | Common chordate ancestor | Gill support (fish); modified into jaws, ear ossicles, hyoid (mammals) |
+
+</div>
 
 The pentadactyl limb is a particularly powerful example: the same basic bone arrangement (humerus,
 Radius and ulna, carpals, metacarpals, phalanges) is adapted for vastly different functions ---
@@ -66,11 +74,15 @@ Not independent origin.
 **Analogous structures**: similar function but different anatomical origin and embryological
 Development. Result from **convergent evolution** (see Section 5).
 
+<div class="table-wrap">
+
 | Analogous structure  | Species                          | Function        | Different origins                                                                     |
 | -------------------- | -------------------------------- | --------------- | ------------------------------------------------------------------------------------- |
 | **Wings**            | Insect, bird, bat                | Flight          | Insect: exoskeletal extensions; bird/bat: modified vertebrate forelimb                |
 | **Eye**              | Cephalopod (octopus), vertebrate | Image formation | Cephalopod: pinhole camera; vertebrate: lens eye; different embryological development |
 | **Streamlined body** | Shark (fish), dolphin (mammal)   | Swimming        | Different skeletal structures; convergent on hydrodynamic form                        |
+
+</div>
 
 ### Molecular Evidence
 
@@ -79,6 +91,8 @@ Evolutionary relationships.
 
 **Cytochrome c comparisons**: cytochrome c is a highly conserved protein involved in the electron
 Transport chain. The amino acid sequence differs by a known number of residues between species:
+
+<div class="table-wrap">
 
 | Species compared to human | Amino acid differences (out of 104) |
 | ------------------------- | ----------------------------------- |
@@ -89,6 +103,8 @@ Transport chain. The amino acid sequence differs by a known number of residues b
 | Chicken                   | 13                                  |
 | Tuna                      | 21                                  |
 | Yeast                     | 44                                  |
+
+</div>
 
 The pattern of differences is consistent with the accepted phylogeny: more closely related species
 Share more similar sequences because less time has elapsed for mutations to accumulate.
@@ -296,6 +312,8 @@ Gene flow. Hybrid individuals have intermediate tolerance and reduced fitness in
 
 **Pre-zygotic barriers** (prevent mating or fertilisation):
 
+<div class="table-wrap">
+
 | Type            | Example                                                                                                                   |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Temporal**    | Different breeding seasons (e.g., spotted skunks: summer vs winter breeding populations).                                 |
@@ -304,13 +322,19 @@ Gene flow. Hybrid individuals have intermediate tolerance and reduced fitness in
 | **Mechanical**  | Incompatible reproductive structures (e.g., damselfly species with differently shaped claspers).                          |
 | **Gametic**     | Sperm cannot fertilise egg (e.g., sea urchin species with incompatible bindin proteins).                                  |
 
+</div>
+
 **Post-zygotic barriers** (reduce fitness of hybrid offspring):
+
+<div class="table-wrap">
 
 | Type                   | Example                                                                                                              |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Hybrid inviability** | Hybrid zygotes fail to develop or have reduced survival.                                                             |
 | **Hybrid sterility**   | Hybrids are viable but sterile (e.g., mule: horse $\times$ donkey, $2n = 63$; uneven chromosome pairing in meiosis). |
 | **Hybrid breakdown**   | First-generation hybrids are fertile, but the F2 generation has reduced fitness.                                     |
+
+</div>
 
 ---
 
@@ -364,6 +388,8 @@ Environmental pressures.
 
 **Examples:**
 
+<div class="table-wrap">
+
 | Trait                   | Species pairs/groups                                  | Selective pressure                                           |
 | ----------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
 | **Streamlined body**    | Shark (fish), dolphin (mammal), ichthyosaur (reptile) | Drag reduction in aquatic locomotion                         |
@@ -372,6 +398,8 @@ Environmental pressures.
 | **C4 photosynthesis**   | Maize (grass), sorghum (grass), amaranth (dicot)      | High temperature, high light, low $\mathrm{CO}_2$ efficiency |
 | **Echolocation**        | Bats (microchiroptera), toothed whales                | Navigation and prey detection in darkness                    |
 | **Antifreeze proteins** | Arctic cod, Antarctic notothenioid fish               | Subzero water temperatures                                   |
+
+</div>
 
 **Distinguishing homology from convergence**: homologous structures share the same underlying
 Anatomical plan and embryological origin despite different functions; analogous structures have
@@ -510,6 +538,8 @@ Random fluctuations in allele frequencies due to sampling error in finite popula
 
 Selection changes allele frequencies by differential reproductive success:
 
+<div class="table-wrap">
+
 | Selection type            | Effect on allele frequencies                               | Effect on population variance |
 | ------------------------- | ---------------------------------------------------------- | ----------------------------- |
 | Directional               | Favourable allele increases toward fixation                | Initially decreases           |
@@ -517,6 +547,8 @@ Selection changes allele frequencies by differential reproductive success:
 | Disruptive                | Extreme phenotypes favoured; intermediate alleles removed  | Increases                     |
 | Balancing (overdominance) | Heterozygote has highest fitness (e.g., sickle-cell trait) | Maintains; polymorphism       |
 | Frequency-dependent       | Fitness depends on allele frequency; maintains oscillation | Variable                      |
+
+</div>
 
 ### Fitness and Selection Coefficients
 
@@ -628,6 +660,8 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
 
 **Mechanisms of resistance:**
 
+<div class="table-wrap">
+
 | Mechanism                  | Example                                                                                   |
 | -------------------------- | ----------------------------------------------------------------------------------------- |
 | **Enzymatic inactivation** | $\beta$-lactamase hydrolyses penicillin; aminoglycoside-modifying enzymes.                |
@@ -635,6 +669,8 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
 | **Efflux pumps**           | Active transport of antibiotics out of the cell (e.g., tetracycline efflux).              |
 | **Reduced permeability**   | Mutations reducing porin channel size (e.g., resistance to carbapenems in _Pseudomonas_). |
 | **Target bypass**          | Acquisition of a resistant enzyme variant (e.g., mecA gene for methicillin resistance).   |
+
+</div>
 
 **Preventing resistance:**
 
@@ -1150,6 +1186,8 @@ populations are more vulnerable To inbreeding depression and have reduced evolut
 
 Five species share the following presence/absence of derived characters (1 = present, 0 = absent):
 
+<div class="table-wrap">
+
 | Character | Species A | Species B | Species C | Species D | Species E (outgroup) |
 | --------- | --------- | --------- | --------- | --------- | -------------------- |
 | 1         | 1         | 1         | 1         | 1         | 0                    |
@@ -1157,6 +1195,8 @@ Five species share the following presence/absence of derived characters (1 = pre
 | 3         | 1         | 1         | 1         | 0         | 0                    |
 | 4         | 1         | 0         | 1         | 0         | 0                    |
 | 5         | 0         | 1         | 0         | 1         | 0                    |
+
+</div>
 
 (a) Construct the most parsimonious cladogram. (b) Identify all synapomorphies (shared derived
 characters) At each node. (c) Identify any homoplasies (convergent evolution or reversals).
@@ -1393,11 +1433,15 @@ moles).
 In a population of beetles, three colour morphs exist: green (genotype $GG$), brown ($Gg$), and
 black ($gg$). A researcher measures the survival and reproductive success of each genotype:
 
+<div class="table-wrap">
+
 | Genotype | Number born | Number surviving to reproduce | Average offspring per survivor |
 | -------- | ----------- | ----------------------------- | ------------------------------ |
 | $GG$     | 300         | 240                           | 8                              |
 | $Gg$     | 600         | 420                           | 6                              |
 | $gg$     | 100         | 50                            | 4                              |
+
+</div>
 
 (a) Calculate the absolute fitness of each genotype. (b) Calculate the relative fitness of each
 genotype. (c) Calculate the selection coefficient against each genotype. (d) What type of selection
@@ -1500,6 +1544,8 @@ were to come into secondary contact, these barriers would maintain them as separ
 A population of butterflies is monitored for the frequency of the melanic allele ($M$) over 10
 years. Industrial pollution darkens tree bark during this period.
 
+<div class="table-wrap">
+
 | Year | $p$ (frequency of $M$) | $q$ (frequency of $m$) |
 | ---- | ---------------------- | ---------------------- |
 | 0    | 0.10                   | 0.90                   |
@@ -1508,6 +1554,8 @@ years. Industrial pollution darkens tree bark during this period.
 | 6    | 0.62                   | 0.38                   |
 | 8    | 0.74                   | 0.26                   |
 | 10   | 0.80                   | 0.20                   |
+
+</div>
 
 (a) Plot $p$ vs time. (b) Calculate the selection coefficient $s$ against the recessive ($mm$)
 phenotype Using the data from year 0 to year 10 (assume the population is in H-W equilibrium each
@@ -1664,6 +1712,8 @@ and underlying genetic basis:
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic                           | Site    | Link                                                                                                  |
 | ------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
 | [Biodiversity and Conservation] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biodiversity-classification-evolution) |
@@ -1671,6 +1721,8 @@ and underlying genetic basis:
 | [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/)            |
 | [Evolution]                     | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
 | [Evolution]                     | DSE     | [View](https://dse.wyattau.com/biology/6-evolution/1_evolution/)                              |
+
+</div>
 
 ## Supplementary: Molecular Clocks and Phylogenetics (HL Extension)
 
@@ -1690,6 +1742,8 @@ Substitution rate is $0.5\%$ per million years.
 Different genes and genomic regions evolve at different rates, making them suitable for different
 Timescales of evolutionary analysis:
 
+<div class="table-wrap">
+
 | Marker                            | Substitution rate               | Time depth               | Application                                  |
 | --------------------------------- | ------------------------------- | ------------------------ | -------------------------------------------- |
 | rRNA (18S, 28S)                   | Very slow                       | $>500\;\mathrm{Ma}$      | Deep phylogeny (kingdoms, phyla)             |
@@ -1697,6 +1751,8 @@ Timescales of evolutionary analysis:
 | Mitochondrial control region      | Fast                            | $0.01$--$1\;\mathrm{Ma}$ | Population genetics, intraspecific variation |
 | Microsatellites (STRs)            | Very fast                       | $<0.01\;\mathrm{Ma}$     | Individual identification, parentage         |
 | Pseudogenes                       | Fast (no functional constraint) | Variable                 | Gene family evolution                        |
+
+</div>
 
 ### Assumptions and Limitations of the Molecular Clock
 

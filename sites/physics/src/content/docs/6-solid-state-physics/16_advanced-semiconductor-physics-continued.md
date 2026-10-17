@@ -173,6 +173,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 
 ## Applications
 
+<div class="table-wrap">
+
 | Application | Principle | Key Material |
 | --- | --- | --- |
 | Solar cells | Photons with $E > E_g$ create electron-hole pairs | Si ($E_g = 1.1$ eV), GaAs ($1.4$ eV) |
@@ -182,6 +184,8 @@ understanding electronic, photonic, and energy-harvesting technologies.
 | Thermoelectric coolers | Peltier effect from $n$- and $p$-type junctions | Bi$_2$Te$_3$ ($ZT \approx 1$) |
 | Quantum Hall resistance standard | $R_K = h/e^2 = 25812.807\,\Omega$ | GaAs 2DEG at $T < 4$ K |
 
+</div>
+
 The IQHE is used to define the ohm internationally; $R_K$ is exact by definition since 2019.
 
 ## Intuition
@@ -190,11 +194,15 @@ The quantum Hall effect reveals that in a strong magnetic field at low temperatu
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                           | Site        | Link                                                                                       |
 | ------------------------------- | ----------- | ------------------------------------------------------------------------------------------ |
 | Solid State Physics (Overview)  | WyattsNotes | [View](/6-solid-state-physics/17_practice-solid-state-physics/)                                       |
 | Quantum Mechanics               | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                                         |
 | Thermal Physics                 | WyattsNotes | [View](https://ib.wyattau.com/physics/flashcards-thermal-physics/)                                           |
+
+</div>
 
 These topics are closely related: quantum mechanics provides the foundation for band theory,
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
@@ -202,6 +210,6 @@ provides the crystal structure context.
 | Solid State Physics, MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

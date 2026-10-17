@@ -39,12 +39,16 @@ or leave.
 If a system at equilibrium is subjected to a change in conditions, the equilibrium position shifts
 to **counteract** the imposed change.
 
+<div class="table-wrap">
+
 | Change                                       | Effect on equilibrium position  | Effect on $K$ |
 | -------------------------------------------- | ------------------------------- | ------------- |
 | Increase concentration of reactant           | Shifts to products (right)      | No change     |
 | Increase pressure (fewer moles gas on right) | Shifts to fewer gas moles       | No change     |
 | Increase temperature (endothermic forward)   | Shifts in endothermic direction | Changes       |
 | Add catalyst                                 | No shift (speeds both equally)  | No change     |
+
+</div>
 
 **Critical distinction:** Le Chatelier's principle predicts the direction of the equilibrium shift
 but does **not** change the value of the equilibrium constant (except for temperature changes).
@@ -75,12 +79,16 @@ $$
 
 If $(c+d) = (a+b)$, $K_c$ is dimensionless.
 
+<div class="table-wrap">
+
 | Reaction                                                                       | Units of $K_c$            |
 | ------------------------------------------------------------------------------ | ------------------------- |
 | $\mathrm{A} \rightleftharpoons \mathrm{B}$ (1:1)                               | No units                  |
 | $\mathrm{A} \rightleftharpoons 2\mathrm{B}$ (1:2)                              | $\mathrm{mol/dm}^3$       |
 | $\mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}$ (1:1:1:1) | No units                  |
 | $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$               | $\mathrm{mol^{-2}\,dm^6}$ |
+
+</div>
 
 ### Worked Example: $K_c$ Calculation
 
@@ -92,11 +100,15 @@ $$
 \mathrm{H}_2(g) + \mathrm{I}_2(g) \rightleftharpoons 2\mathrm{HI}(g)
 $$
 
+<div class="table-wrap">
+
 | Species        | Initial (mol) | Change (mol) | Equilibrium (mol) | Equilibrium ($\mathrm{mol/dm}^3$) |
 | -------------- | ------------- | ------------ | ----------------- | --------------------------------- |
 | $\mathrm{H}_2$ | 1.00          | $-0.39$      | 0.61              | 0.61                              |
 | $\mathrm{I}_2$ | 1.00          | $-0.39$      | 0.61              | 0.61                              |
 | $\mathrm{HI}$  | 0             | $+0.78$      | 0.78              | 0.78                              |
+
+</div>
 
 $$
 K_c = \frac{[\mathrm{HI}]^2}{[\mathrm{H}_2][\mathrm{I}_2]} = \frac{(0.78)^2}{(0.61)(0.61)} = \frac{0.6084}{0.3721} = 1.64
@@ -147,11 +159,15 @@ $$
 2\mathrm{SO}_2(g) + \mathrm{O}_2(g) \rightleftharpoons 2\mathrm{SO}_3(g)
 $$
 
+<div class="table-wrap">
+
 | Species         | Initial (mol) | Change (mol) | Equilibrium (mol) |
 | --------------- | ------------- | ------------ | ----------------- |
 | $\mathrm{SO}_2$ | 2.00          | $-1.20$      | 0.80              |
 | $\mathrm{O}_2$  | 1.00          | $-0.60$      | 0.40              |
 | $\mathrm{SO}_3$ | 0             | $+1.20$      | 1.20              |
+
+</div>
 
 $n_\mathrm{total} = 0.80 + 0.40 + 1.20 = 2.40\,\mathrm{mol}$
 
@@ -276,12 +292,16 @@ $$
 \mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g) \quad \Delta H = -92\,\mathrm{kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition                            | Effect on equilibrium            | Effect on rate             | Compromise               |
 | ------------------------------------ | -------------------------------- | -------------------------- | ------------------------ |
 | High pressure (200 atm)              | Favours products (fewer moles)   | Increases rate             | Expensive equipment      |
 | Moderate temperature (450 $^\circ$ C) | Low temperature favours products | Low temperature slows rate | 450 $^\circ$ C is optimal |
 | Iron catalyst                        | No effect on position            | Increases rate             | Cheap, effective         |
 | Removal of $\mathrm{NH}_3$           | Shifts equilibrium right         | --                         | Continuous removal       |
+
+</div>
 
 ### The Contact Process
 
@@ -312,12 +332,16 @@ considerations.
 
 ### Common Solubility Products
 
+<div class="table-wrap">
+
 | Salt                | $K_{sp}$              | Expression                               |
 | ------------------- | --------------------- | ---------------------------------------- |
 | $\mathrm{AgCl}$     | $1.8 \times 10^{-10}$ | $[\mathrm{Ag}^+][\mathrm{Cl}^-]$         |
 | $\mathrm{PbI}_2$    | $1.4 \times 10^{-8}$  | $[\mathrm{Pb}^{2+}][\mathrm{I}^-]^2$     |
 | $\mathrm{BaSO}_4$   | $1.1 \times 10^{-10}$ | $[\mathrm{Ba}^{2+}][\mathrm{SO}_4^{2-}]$ |
 | $\mathrm{Ca(OH)}_2$ | $5.5 \times 10^{-6}$  | $[\mathrm{Ca}^{2+}][\mathrm{OH}^-]^2$    |
+
+</div>
 
 ### Worked Example: Calculating Solubility
 
@@ -817,12 +841,16 @@ $1.04\,\mathrm{atm}$ At which point equilibrium is established.
 **Reaction:**
 $\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$$\Delta H = -92\,\mathrm{kJ/mol}$
 
+<div class="table-wrap">
+
 | Condition             | Effect on equilibrium                 | Effect on rate                        | Industrial choice                                                    |
 | --------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------------------------------------- |
 | High pressure         | Favours products (4 mol $\to$ 2 mol)  | Increases rate (higher concentration) | 200 atm (compromise: cost vs yield)                                  |
 | Low temperature       | Favours products (exothermic forward) | Decreases rate                        | $450^\circ\mathrm{C}$ (compromise: yield vs rate)                    |
 | Excess $\mathrm{N}_2$ | Shifts equilibrium right              | Increases rate of forward reaction    | $\mathrm{N}_2:\mathrm{H}_2 = 1:3$ (stoichiometric feed)              |
 | Iron catalyst         | No effect on position                 | Increases rate (lower $E_a$)          | Fe with $\mathrm{K}_2\mathrm{O}/\mathrm{Al}_2\mathrm{O}_3$ promoters |
+
+</div>
 
 The yield at $450^\circ\mathrm{C}$ and 200 atm is approximately 15% per pass. Unreacted
 $\mathrm{N}_2$ and $\mathrm{H}_2$ are recycled.

@@ -73,6 +73,8 @@ CRLF followed by at least one whitespace character (folding whitespace).
 
 Key headers include:
 
+<div class="table-wrap">
+
 | Header                      | Purpose                                                          |
 | --------------------------- | ---------------------------------------------------------------- |
 | `From`                      | The author's mailbox. Must be a single address per RFC 5322.     |
@@ -89,6 +91,8 @@ Key headers include:
 | `Content-Transfer-Encoding` | Encoding method: `7bit``8bit``quoted-printable``base64`.         |
 | `Content-Disposition`       | Inline or attachment with optional filename parameter.           |
 | `Received`                  | Trace header added by each MTA hop with timestamp and host info. |
+
+</div>
 
 **Body**
 
@@ -125,6 +129,8 @@ JVBERi0xLjUK...
 
 Common multipart subtypes:
 
+<div class="table-wrap">
+
 | Subtype                 | Purpose                                                                           |
 | ----------------------- | --------------------------------------------------------------------------------- |
 | `multipart/mixed`       | Independent parts of different types (e.g., text + attachment).                   |
@@ -132,6 +138,8 @@ Common multipart subtypes:
 | `multipart/related`     | Parts that reference each other (e.g., HTML with inline images via `Content-ID`). |
 | `multipart/signed`      | A two-part body for S/MIME or PGP signatures.                                     |
 | `multipart/report`      | Delivery status notifications (DSN, MDN).                                         |
+
+</div>
 
 **Base64 Encoding**
 
@@ -335,6 +343,8 @@ Messages early, after receiving only the first chunk.
 
 SMTP uses three-digit reply codes grouped by the first digit:
 
+<div class="table-wrap">
+
 | First Digit | Meaning                                                                                |
 | ----------- | -------------------------------------------------------------------------------------- |
 | `2xx`       | Success. The requested action was completed.                                           |
@@ -342,7 +352,11 @@ SMTP uses three-digit reply codes grouped by the first digit:
 | `4xx`       | Temporary failure. The command failed but may succeed if retried later.                |
 | `5xx`       | Permanent failure. The command should not be retried without correcting the condition. |
 
+</div>
+
 Common response codes:
+
+<div class="table-wrap">
 
 | Code  | Meaning                                                           |
 | ----- | ----------------------------------------------------------------- |
@@ -371,6 +385,8 @@ Common response codes:
 | `552` | Requested action aborted: exceeded storage allocation.            |
 | `553` | Requested action not taken: mailbox name not allowed.             |
 | `554` | Transaction failed (general permanent failure).                   |
+
+</div>
 
 The enhanced mail status codes (RFC 3463) extend the three-digit code with an `x.y.z` structure
 Providing granular information about the subject (x), detail (y), and action (z). For example,
@@ -405,6 +421,8 @@ each device sees the same server-side state.
 
 ### IMAP vs POP3
 
+<div class="table-wrap">
+
 | Feature              | IMAP                              | POP3                           |
 | -------------------- | --------------------------------- | ------------------------------ |
 | Port (TLS)           | 993                               | 995                            |
@@ -419,6 +437,8 @@ each device sees the same server-side state.
 | Bandwidth efficiency | High (fetch what is needed)       | Low (downloads everything)     |
 | Quota support        | Yes (RFC 2087)                    | No                             |
 | Push notifications   | Yes (IDLE, RFC 2177)              | No                             |
+
+</div>
 
 IMAP is the preferred protocol for users who access email from multiple devices or need server-side
 Organization. POP3 remains suitable for simple, single-device use cases where messages are
@@ -448,6 +468,8 @@ Operations within a single session.
 
 IMAP defines system flags that convey message state:
 
+<div class="table-wrap">
+
 | Flag        | Meaning                                                     |
 | ----------- | ----------------------------------------------------------- |
 | `\Seen`     | Message has been read.                                      |
@@ -456,6 +478,8 @@ IMAP defines system flags that convey message state:
 | `\Deleted`  | Message is marked for deletion (removed on EXPUNGE).        |
 | `\Draft`    | Message is a draft.                                         |
 | `\Recent`   | Message arrived since the last session (session-only flag). |
+
+</div>
 
 Servers may also support custom keywords (user-defined flags) for additional categorization. These
 Keywords are prefixed with `$` by convention (e.g., `$Junk`, `$NonJunk`, `$Phishing`).
@@ -986,6 +1010,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 
 **Mechanisms**
 
+<div class="table-wrap">
+
 | Mechanism        | Meaning                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
 | `all`            | Matches all senders. Always placed at the end as the default policy.          |
@@ -996,6 +1022,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 | `ip6:cidr`       | Matches if the sender's IP is within the specified IPv6 CIDR range.           |
 | `ptr`            | Matches if the reverse DNS of the sender resolves to the domain (deprecated). |
 | `exists:domain`  | Matches if the specified domain resolves to any address.                      |
+
+</div>
 
 **Qualifiers**
 
@@ -1094,6 +1122,8 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 
 **Policy Tags**
 
+<div class="table-wrap">
+
 | Tag              | Purpose                                                             |
 | ---------------- | ------------------------------------------------------------------- |
 | `v=DMARC1`       | Protocol version.                                                   |
@@ -1107,6 +1137,8 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 | `ri=86400`       | Reporting interval in seconds (default 86400).                      |
 | `adkim=s`        | DKIM alignment mode: `s` (strict) or `r` (relaxed).                 |
 | `aspf=s`         | SPF alignment mode: `s` (strict) or `r` (relaxed).                  |
+
+</div>
 
 **Reporting**
 
@@ -1196,6 +1228,8 @@ such as IdenTrust, DigiCert, and GlobalSign.
 
 **Comparison of PGP and S/MIME**
 
+<div class="table-wrap">
+
 | Aspect              | PGP/OpenPGP                         | S/MIME                             |
 | ------------------- | ----------------------------------- | ---------------------------------- |
 | Trust model         | Web of trust                        | PKI (X.509 CAs)                    |
@@ -1206,6 +1240,8 @@ such as IdenTrust, DigiCert, and GlobalSign.
 | Flexibility         | Higher (user-controlled trust)      | Lower (CA-dependent)               |
 | Revocation          | Revocation certificates, keyservers | CRL, OCSP                          |
 | Key discovery       | WKD (Web Key Directory, RFC 7929)   | LDAP, S/MIME certificate attribute |
+
+</div>
 
 Both PGP and S/MIME require the sender and recipient to have compatible software and key material.
 Neither is widely deployed for general internet email due to key management complexity and lack of
@@ -1241,6 +1277,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 ### Protocol Port Reference
 
+<div class="table-wrap">
+
 | Protocol          | Port (Plain) | Port (TLS)     | Transport |
 | ----------------- | ------------ | -------------- | --------- |
 | SMTP (relay)      | 25           |,              | TCP       |
@@ -1256,6 +1294,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 | SMB               | 445          |,              | TCP       |
 | NFS               | 2049         |,              | TCP       |
 | DNS               | 53           | 853 (DoT)      | UDP/TCP   |
+
+</div>
 
 ## Common Pitfalls
 

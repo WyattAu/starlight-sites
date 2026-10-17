@@ -115,6 +115,8 @@ assert_eq!(counter.get(), 43);
 
 ### `Cell` API
 
+<div class="table-wrap">
+
 | Method           | Description                                        |
 | ---------------- | -------------------------------------------------- |
 | `new(value)`     | Creates a new `Cell` containing `value`            |
@@ -123,6 +125,8 @@ assert_eq!(counter.get(), 43);
 | `replace(value)` | Replaces and returns the old value (any `T`)       |
 | `take()`         | Replaces with `Default::default()` and returns old |
 | `into_inner()`   | Consumes the `Cell` and returns the inner value    |
+
+</div>
 
 ### `Cell` with Non-Copy Types
 
@@ -235,6 +239,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 
 ### `RefCell` API
 
+<div class="table-wrap">
+
 | Method             | Returns          | Description                                    |
 | ------------------ | ---------------- | ---------------------------------------------- |
 | `new(value)`       | `RefCell<T>`     | Creates a new `RefCell`                        |
@@ -243,6 +249,8 @@ assert_eq!(*borrow3, vec![1, 2, 3, 4]);
 | `try_borrow()`     | `Result<Ref>`    | Non-panicking immutable borrow                 |
 | `try_borrow_mut()` | `Result<RefMut>` | Non-panicking mutable borrow                   |
 | `into_inner()`     | `T`              | Consumes the `RefCell` and returns inner value |
+
+</div>
 
 ### `Ref` and `RefMut` Guards
 
@@ -363,6 +371,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 
 ### `Mutex` vs `RefCell`
 
+<div class="table-wrap">
+
 | Property      | `RefCell<T>`         | `Mutex<T>`                |
 | ------------- | -------------------- | ------------------------- |
 | Thread safety | Single-threaded only | Multi-threaded            |
@@ -370,6 +380,8 @@ assert_eq!(*counter.lock().unwrap(), 10);
 | Overhead      | Minimal (counters)   | System call on contention |
 | Poisoning     | No                   | Yes (panic while locked)  |
 | `Send + Sync` | Neither              | Both (when `T: Send`)     |
+
+</div>
 
 ### `RwLock<T>`
 
@@ -464,11 +476,15 @@ Access the value concurrently.
 
 ## `OnceCell` vs `OnceLock` vs `LazyLock`
 
+<div class="table-wrap">
+
 | Type          | Thread-safe | Lazy init | Set once |
 | ------------- | ----------- | --------- | -------- |
 | `OnceCell<T>` | No          | No        | Yes      |
 | `OnceLock<T>` | Yes         | No        | Yes      |
 | `LazyLock<T>` | Yes         | Yes       | Yes      |
+
+</div>
 
 Use `OnceCell` in single-threaded contexts, `OnceLock` for thread-safe one-time initialization with
 Manual set, and `LazyLock` for thread-safe lazy initialization with a closure.

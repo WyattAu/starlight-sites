@@ -24,6 +24,8 @@ of it.
 
 ### Desirable Properties
 
+<div class="table-wrap">
+
 | Property          | Definition                                                                            | Why It Matters                                           |
 | ----------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | **Deterministic** | Same input always produces same output                                                | Lookups must find the same bucket as inserts             |
@@ -31,6 +33,8 @@ of it.
 | **Avalanche**     | Flipping any input bit changes each output bit with probability $\approx 0.5$         | Small input changes produce unpredictable output changes |
 | **Efficient**     | Computable in $O(k)$ where $k$ is the key length                                      | Hash computation should not dominate lookup cost         |
 | **Reversible**    | (For non-cryptographic use) Given a hash value, finding a preimage should not be easy | Prevents intentional collision attacks                   |
+
+</div>
 
 ### Avalanche Criterion
 
@@ -166,11 +170,15 @@ When the universe of keys $U$ is small, we can use an array of size $|U|$ where 
 Element with key $k$. This gives $O(1)$ worst-case insert, delete, and lookup, but wastes memory
 when $|U|$ is much larger than the actual number of keys $n$.
 
+<div class="table-wrap">
+
 | Operation | Time   | Space      |
 | --------- | ------ | ---------- |
 | Insert    | $O(1)$ | $O(\|U\|)$ |
 | Delete    | $O(1)$ | $O(\|U\|)$ |
 | Lookup    | $O(1)$ | $O(\|U\|)$ |
+
+</div>
 
 ### Hash Tables
 
@@ -242,12 +250,16 @@ A lookup, compute the hash, then scan the chain for the key.
 
 The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ is the table size.
 
+<div class="table-wrap">
+
 | Statistic                         | Value                           |
 | --------------------------------- | ------------------------------- |
 | Expected chain length             | $\alpha$                        |
 | Unsuccessful search (average)     | $O(\alpha)$ comparisons         |
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
+
+</div>
 :::
 
 :::caution
@@ -417,11 +429,15 @@ class DoubleHashingHashTable:
                 return True
 ```
 
+<div class="table-wrap">
+
 | Probe Method   | Clustering | Expected Probes (unsuccessful)            | Cache Performance |
 | -------------- | ---------- | ----------------------------------------- | ----------------- |
 | Linear         | Primary    | $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$ | Best              |
 | Quadratic      | Secondary  | $\frac{1}{1-\alpha}$                      | Good              |
 | Double hashing | None       | $\frac{1}{1-\alpha}$                      | Moderate          |
+
+</div>
 
 ### Robin Hood Hashing
 
@@ -463,6 +479,8 @@ Alternative position. If a cycle is detected, the table is rebuilt with new hash
 
 **Properties:**
 
+<div class="table-wrap">
+
 | Property            | Value                             |
 | ------------------- | --------------------------------- |
 | Lookup              | $O(1)$ worst-case (2 probes)      |
@@ -470,6 +488,8 @@ Alternative position. If a cycle is detected, the table is rebuilt with new hash
 | Insert (worst case) | $O(n)$ during rehash              |
 | Space overhead      | Maximum load factor $\approx 0.5$ |
 | Cache performance   | Moderate (two memory accesses)    |
+
+</div>
 
 ```python
 class CuckooHashTable:
@@ -597,11 +617,15 @@ Occupies a large arc of the ring). Virtual nodes (replicas) solve this: each phy
 Placed on the ring multiple times ( 100-200 virtual nodes per physical server). This Smooths out the
 distribution and reduces the variance in key assignment.
 
+<div class="table-wrap">
+
 | Physical servers | Virtual nodes per server | Keys per server (std dev / mean) |
 | ---------------- | ------------------------ | -------------------------------- |
 | 10               | 1                        | $\approx 0.39$                   |
 | 10               | 100                      | $\approx 0.04$                   |
 | 10               | 1000                     | $\approx 0.01$                   |
+
+</div>
 
 ### Load Balancing Properties
 
@@ -628,11 +652,15 @@ Functions $h_1, h_2, \ldots, h_k$.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation           | Algorithm                                                     | Time   |
 | ------------------- | ------------------------------------------------------------- | ------ |
 | Add                 | Set bits at positions $h_1(x), h_2(x), \ldots, h_k(x)$        | $O(k)$ |
 | Query               | Check if all bits at $h_1(x), h_2(x), \ldots, h_k(x)$ are set | $O(k)$ |
 | False positive prob | $(1 - e^{-kn/m})^k$                                           | N/A    |
+
+</div>
 
 ```python
 import mmh3
@@ -679,11 +707,15 @@ $$
 m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2
 $$
 
+<div class="table-wrap">
+
 | False positive rate | Bits per element | Hash functions |
 | ------------------- | ---------------- | -------------- |
 | 1%                  | 9.6              | 7              |
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
+
+</div>
 :::
 
 :::caution
@@ -710,11 +742,15 @@ Function $h_i$ maps an element to a row and column.
 
 ### Operations
 
+<div class="table-wrap">
+
 | Operation | Algorithm                                 | Time   | Error                    |
 | --------- | ----------------------------------------- | ------ | ------------------------ |
 | Increment | For each row $i$: `count[i][h_i(x)] += 1` | $O(d)$ | N/A                      |
 | Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]$  | $O(d)$ | $\le \mathrm{true count$ |
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
+
+</div>
 
 The estimate is always an **overestimate**: $\hat{f}(x) \ge f(x)$ with high probability. The error
 is bounded by $\epsilon \cdot N$ where $N$ is the total count and $\epsilon = e / w$.
@@ -820,6 +856,8 @@ class HyperLogLog:
         return int(estimate)
 ```
 
+<div class="table-wrap">
+
 | Registers ($m$) | Memory | Standard error  |
 | --------------- | ------ | --------------- |
 | 64              | 64 B   | $\approx 13\%$  |
@@ -827,7 +865,11 @@ class HyperLogLog:
 | 4096            | 4 KB   | $\approx 1.6\%$ |
 | 16384           | 16 KB  | $\approx 0.8\%$ |
 
+</div>
+
 ## Cryptographic vs Non-Cryptographic Hashing
+
+<div class="table-wrap">
 
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
@@ -837,6 +879,8 @@ class HyperLogLog:
 | Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
+
+</div>
 :::
 
 :::note

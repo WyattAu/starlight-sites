@@ -70,10 +70,14 @@ infinitesimal at all; it produces a first-order term.
 
 **As equations.** The Itô table has four entries, of which two are non-zero:
 
+<div class="table-wrap">
+
 | | $dW$ | $dt$ |
 | --- | --- | --- |
 | $dW$ | $dt$ | $0$ |
 | $dt$ | $0$ | $0$ |
+
+</div>
 
 So for a smooth enough $F$, the second-order term in the Itô formula is
 
@@ -179,6 +183,8 @@ it took until 2011 to formalise, and why it now underpins so much of the field.
 
 ## Counterexamples
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The deterministic heat equation has a smooth solution for smooth data | no, once noise is multiplicative | white noise is in no $L^p$, so every estimate on $\sup\lVert\xi\rVert$ is void |
@@ -188,6 +194,8 @@ it took until 2011 to formalise, and why it now underpins so much of the field.
 | Solutions of SPDEs are functions pointwise | not from the classical methods | Kolmogorov and Martingale methods give random elements of coarse spaces; pointwise behaviour needs regularity structures |
 | More smoothing happens with more noise | no | noise destroys smoothing, it does not add it |
 | Uniqueness holds automatically | no | uniqueness is a theorem requiring subcriticality, and it fails outside it |
+
+</div>
 
 The second row is the sharpest statement in the table: the Hölder exponent
 $<\tfrac{1}{4}$ in time is not a weakness of a proof but the true regularity

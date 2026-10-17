@@ -30,6 +30,8 @@ SAT mathematics study notes - Data analysis
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Measure | Formula | Example |
 | --------- | --------- | --------- |
 | Mean | $\bar{x} = \frac{\sum x_i}{n}$ | Values 2,4,6: mean = 4 |
@@ -38,6 +40,8 @@ SAT mathematics study notes - Data analysis
 | Probability | $P(A) = \frac{\text{favourable}}{\text{total}}$ | 3 red out of 10: $P(\text{red}) = 0.3$ |
 | Independent events | $P(A \cap B) = P(A) \cdot P(B)$ | $P(\text{heads}) \cdot P(\text{heads}) = 0.25$ |
 | Mutually exclusive | $P(A \cup B) = P(A) + P(B)$ | $P(1) + P(2) = \frac{1}{6} + \frac{1}{6} = \frac{1}{3}$ |
+
+</div>
 
 ## Worked Examples
 

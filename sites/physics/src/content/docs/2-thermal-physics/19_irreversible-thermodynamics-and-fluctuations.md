@@ -124,6 +124,8 @@ from equilibrium (sudden quench).
 
 ### 19.5 Key Relationships
 
+<div class="table-wrap">
+
 | Theorem              | Statement                                                                     | Connection to equilibrium                      |
 | -------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------- |
 | Fluctuation-dissip.  | $\chi(t) = \frac{1}{k_BT}\frac{d}{dt}\langle A(t)A(0)\rangle$                 | Response $\leftrightarrow$ equilibrium fluctuations |
@@ -131,6 +133,8 @@ from equilibrium (sudden quench).
 | Einstein relation    | $D = \mu k_BT$                                                                | Diffusion $\leftrightarrow$ mobility            |
 | Jarzynski equality   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$                            | Non-equilibrium work $\leftrightarrow$ free energy |
 | Crooks theorem       | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$                                    | Forward/reverse work distributions              |
+
+</div>
 
 The fluctuation-dissipation theorem unifies these: the Einstein relation and Johnson-Nyquist formula are special cases of the FDT applied to Brownian motion and electrical circuits, respectively.
 
@@ -151,6 +155,8 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 
 ### 19.8 Summary Table
 
+<div class="table-wrap">
+
 | Concept                 | Type                | Domain                 | Key formula                                    |
 | ----------------------- | ------------------- | ---------------------- | ---------------------------------------------- |
 | Fluctuation-dissipation | General theorem     | Near equilibrium       | $\chi''(\omega) = \frac{\omega}{2k_BT}S_A(\omega)$ |
@@ -158,6 +164,8 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Einstein relation       | Specific application | Brownian motion        | $D = \mu k_BT$                                 |
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
+
+</div>
 
 ## Intuition
 
@@ -188,7 +196,7 @@ $\blacksquare$
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -66,6 +66,8 @@ Support tools required for linking and object manipulation, also prefixed with t
 
 The following table lists target triples commonly encountered in cross-compilation.
 
+<div class="table-wrap">
+
 | Target Platform             | Target Triple           | Notes                                       |
 | :-------------------------- | :---------------------- | :------------------------------------------ |
 | Linux x86_64 (native)       | `x86_64-linux-gnu`      | Standard Linux desktop/server               |
@@ -80,6 +82,8 @@ The following table lists target triples commonly encountered in cross-compilati
 | FreeRTOS ARM Cortex-M4      | `arm-none-eabi`         | Bare metal, no OS                           |
 | FreeRTOS ARM Cortex-M7      | `arm-none-eabi`         | Bare metal (same triple, different `-mcpu`) |
 | Embedded RISC-V             | `riscv64-unknown-elf`   | Bare metal RISC-V                           |
+
+</div>
 
 ### Clang's `-target` Flag
 
@@ -445,6 +449,8 @@ cmake -S . -B build-android \
 
 ### NDK ABI Options
 
+<div class="table-wrap">
+
 | ABI           | Architecture | Devices                              |
 | ------------- | ------------ | ------------------------------------ |
 | `armeabi-v7a` | ARM 32-bit   | Older Android devices                |
@@ -452,13 +458,19 @@ cmake -S . -B build-android \
 | `x86`         | x86 32-bit   | Android emulators (older)            |
 | `x86_64`      | x86 64-bit   | Android emulators                    |
 
+</div>
+
 ### NDK STL Options
+
+<div class="table-wrap">
 
 | STL          | Description     | Use Case                              |
 | ------------ | --------------- | ------------------------------------- |
 | `c++_shared` | libc++ (shared) | Default, recommended for most apps    |
 | `c++_static` | libc++ (static) | Standalone executables, NDK-only apps |
 | `none`       | No C++ STL      | Pure C projects                       |
+
+</div>
 
 ```cmake
 # In CMakeLists.txt -- verify the STL at configure time

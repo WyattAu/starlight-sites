@@ -32,11 +32,15 @@ Lightweight Kubernetes cluster managed by TrueNAS. This provides:
 
 TrueNAS SCALE provides two app catalogs:
 
+<div class="table-wrap">
+
 | Catalog   | Source                | Update Frequency | Trust Level                      |
 | --------- | --------------------- | ---------------- | -------------------------------- |
 | Official  | TrueNAS/iXsystems     | Regular          | High, tested by iXsystems       |
 | Community | Community-contributed | Variable         | Medium, review before deploying |
 | Custom    | Your own charts       | Manual           | Depends on source                |
+
+</div>
 
 ### Installing Apps
 
@@ -175,6 +179,8 @@ TrueNAS SCALE supports KVM-based virtual machines with full hardware virtualizat
 
 **Key settings:**
 
+<div class="table-wrap">
+
 | Setting       | Recommendation | Notes                                             |
 | ------------- | -------------- | ------------------------------------------------- |
 | CPU           | 2+ vCPUs       | Pin to specific cores for performance             |
@@ -183,6 +189,8 @@ TrueNAS SCALE supports KVM-based virtual machines with full hardware virtualizat
 | Network       | VirtIO         | VirtIO is fastest; use `e1000` only for legacy OS |
 | Boot firmware | UEFI           | Required for modern OS (Windows 11, Linux)        |
 | Graphics      | VNC or SPICE   | SPICE provides better performance                 |
+
+</div>
 
 ### GPU Passthrough
 
@@ -220,6 +228,8 @@ find /sys/kernel/iommu_groups/ -type l | sort
 VirtIO is the paravirtualized I/O framework for KVM. It provides near-native I/O performance by
 Eliminating the overhead of emulating hardware devices.
 
+<div class="table-wrap">
+
 | Device  | VirtIO Driver               | Windows Driver Source        |
 | ------- | --------------------------- | ---------------------------- |
 | Network | VirtIO Network              | virtio-win ISO from Fedora   |
@@ -227,6 +237,8 @@ Eliminating the overhead of emulating hardware devices.
 | Balloon | VirtIO Balloon              | virtio-win ISO               |
 | RNG     | VirtIO RNG                  | Built-in                     |
 | GPU     | VirtIO GPU                  | Built-in (Spice Guest Tools) |
+
+</div>
 
 :::note
 CD-ROM drive during installation. Install the VirtIO drivers before installing Windows, or use the
@@ -248,6 +260,8 @@ CD-ROM drive during installation. Install the VirtIO drivers before installing W
 
 ### Network Modes
 
+<div class="table-wrap">
+
 | Mode   | Behavior                                    | Use Case                         |
 | ------ | ------------------------------------------- | -------------------------------- |
 | Bridge | App gets its own IP on a virtual network    | Most apps, isolation             |
@@ -255,6 +269,8 @@ CD-ROM drive during installation. Install the VirtIO drivers before installing W
 | Custom | User-defined network with specific subnet   | Multi-app communication          |
 | DHCP   | App gets an IP from the network DHCP server | Most apps                        |
 | Static | App gets a manually assigned IP             | Apps accessed by fixed address   |
+
+</div>
 
 ### Port Management
 
@@ -328,6 +344,8 @@ Host path volumes mount an existing ZFS dataset directly into the container. Thi
 
 ### What Needs to Be Persistent
 
+<div class="table-wrap">
+
 | Data Type           | Persistence Required | Backup Strategy               |
 | ------------------- | -------------------- | ----------------------------- |
 | Configuration files | Yes                  | Snapshot or file backup       |
@@ -336,6 +354,8 @@ Host path volumes mount an existing ZFS dataset directly into the container. Thi
 | Application logs    | Optional             | Log rotation, short retention |
 | Cache/temp data     | No                   | Use ephemeral storage         |
 | Container images    | No                   | Re-downloaded on deploy       |
+
+</div>
 
 ### Backup App Data
 
@@ -365,6 +385,8 @@ zfs rollback tank/apps/nextcloud/data@pre-update-20240101
 
 ### Common Issues
 
+<div class="table-wrap">
+
 | Issue                         | Likely Cause                                       | Solution                          |
 | ----------------------------- | -------------------------------------------------- | --------------------------------- |
 | App won't start               | Port conflict, missing storage, image pull failure | Check logs, verify config         |
@@ -372,6 +394,8 @@ zfs rollback tank/apps/nextcloud/data@pre-update-20240101
 | App crashes after update      | Data migration issue, config change                | Check logs, rollback snapshot     |
 | Slow performance              | Storage on HDD, insufficient resources             | Move to SSD, increase CPU/RAM     |
 | Cannot connect to database    | Database not ready, wrong credentials              | Wait for DB to initialize, verify |
+
+</div>
 
 ### Checking Logs
 
@@ -494,12 +518,16 @@ resources:
     memory: "2048Mi'
 ```
 
+<div class="table-wrap">
+
 | Resource       | Request vs Limit                  | Recommendation                    |
 | -------------- | --------------------------------- | --------------------------------- |
 | CPU request    | Guaranteed minimum                | 10–25% of typical usage           |
 | CPU limit      | Maximum allowed                   | 2–4x typical usage (allow bursts) |
 | Memory request | Guaranteed minimum                | Match typical usage               |
 | Memory limit   | Maximum allowed (OOM if exceeded) | 1.5–2x typical usage              |
+
+</div>
 
 ## Detailed App Configurations
 
@@ -546,11 +574,15 @@ hostGPU: true
 
 **Database selection:**
 
+<div class="table-wrap">
+
 | Database          | Performance             | Complexity | Recommendation      |
 | ----------------- | ----------------------- | ---------- | ------------------- |
 | SQLite (built-in) | Poor for large installs | None       | Small/personal only |
 | MariaDB           | Good                    | Moderate   | Medium installs     |
 | PostgreSQL        | Best                    | Moderate   | Large installs      |
+
+</div>
 
 **PostgreSQL tuning for Nextcloud:**
 
@@ -658,6 +690,8 @@ extraEnv:
 
 ### VM Creation Best Practices
 
+<div class="table-wrap">
+
 | Setting  | Recommendation             | Notes                                    |
 | -------- | -------------------------- | ---------------------------------------- |
 | CPU      | Pin to specific cores      | Reduces latency from scheduler migration |
@@ -668,7 +702,11 @@ extraEnv:
 | Graphics | QXL or VirtIO-GPU          | Use SPICE for best remote display        |
 | TPM      | Software TPM (swtpm)       | Required for Windows 11                  |
 
+</div>
+
 ### VM Storage Options
+
+<div class="table-wrap">
 
 | Option                 | Performance           | Flexibility           | Use Case                        |
 | ---------------------- | --------------------- | --------------------- | ------------------------------- |
@@ -676,13 +714,19 @@ extraEnv:
 | File-backed disk image | Good                  | High (thin provision) | Development VMs                 |
 | Virtio-FS              | Best for shared files | Medium                | Shared data between host and VM |
 
+</div>
+
 ### VM Network Configuration
+
+<div class="table-wrap">
 
 | Mode   | Behavior                                | Use Case                    |
 | ------ | --------------------------------------- | --------------------------- |
 | VirtIO | Paravirtualized NIC, best performance   | Most VMs                    |
 | E1000  | Emulated Intel NIC, broad compatibility | Legacy OS, PXE boot         |
 | SR-IOV | Direct PCI passthrough of VF            | High-performance networking |
+
+</div>
 
 ### VM Backup Strategy
 

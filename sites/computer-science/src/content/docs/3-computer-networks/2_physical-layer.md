@@ -199,6 +199,8 @@ is near-optimal for this channel but has almost no margin for noise or interfere
 
 Line codes map binary data to signals suitable for the physical medium.
 
+<div class="table-wrap">
+
 | Encoding                | Description                            | Example            |
 | ----------------------- | -------------------------------------- | ------------------ |
 | NRZ (L)                 | High = 1, Low = 0                      | USB                |
@@ -208,6 +210,8 @@ Line codes map binary data to signals suitable for the physical medium.
 | 4B/5B                   | 4 data bits encoded as 5-bit codes     | 100BASE-TX         |
 | 8B/10B                  | 8 data bits encoded as 10-bit codes    | Gigabit Ethernet   |
 | 64B/66B                 | 64 data bits encoded as 66-bit codes   | 10GBASE-R          |
+
+</div>
 
 **Spectral efficiency.** Manchester encoding doubles the bandwidth requirement (two signal levels
 per Bit). 4B/5B adds 25% overhead. 8B/10B adds 25%. 64B/66B adds only 3% overhead.

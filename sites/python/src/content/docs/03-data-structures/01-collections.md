@@ -122,6 +122,8 @@ for i in range(10):
 
 ### Time Complexity of List Operations
 
+<div class="table-wrap">
+
 | Operation              | Average Case | Worst Case | Notes                                   |
 | ---------------------- | :----------: | :--------: | --------------------------------------- |
 | `append(x)`            | O(1) amort.  |    O(n)    | Resize when capacity reached            |
@@ -136,6 +138,8 @@ for i in range(10):
 | `lst.sort()`           |  O(n log n)  | O(n log n) | Timsort                                 |
 | `len(lst)`             |     O(1)     |    O(1)    | Stored in `ob_size`                     |
 | `lst.clear()`          |     O(1)     |    O(1)    | Drops references, does not shrink array |
+
+</div>
 
 ### List Methods
 
@@ -393,6 +397,8 @@ The hash table maintains two thresholds:
 
 ### Time Complexity
 
+<div class="table-wrap">
+
 | Operation        | Average Case | Worst Case | Notes                        |
 | ---------------- | :----------: | :--------: | ---------------------------- |
 | `d[key]`         |     O(1)     |    O(n)    | Worst case: all keys collide |
@@ -402,6 +408,8 @@ The hash table maintains two thresholds:
 | `d.get(key)`     |     O(1)     |    O(n)    |                              |
 | `len(d)`         |     O(1)     |    O(1)    | Stored in `ma_used`          |
 | Iteration        |     O(n)     |    O(n)    | Visits every entry           |
+
+</div>
 
 The O(n) worst case occurs when all keys hash to the same slot, creating a single long probe chain.
 This is rare with a good hash function but can be deliberately triggered by an attacker feeding
@@ -800,6 +808,8 @@ Grows with the number of elements.
 
 ### Supported Type Codes
 
+<div class="table-wrap">
+
 | Code | C Type         | Python Type | Size (bytes) |
 | ---- | -------------- | ----------- | :----------: |
 | `b`  | signed char    | int         |      1       |
@@ -811,6 +821,8 @@ Grows with the number of elements.
 | `l`  | signed long    | int         |     4/8      |
 | `f`  | float          | float       |      4       |
 | `d`  | double         | float       |      8       |
+
+</div>
 
 ### When to Use array vs list vs numpy
 
@@ -901,6 +913,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 
 ### Time Complexity
 
+<div class="table-wrap">
+
 | Operation            | Complexity | Notes                                   |
 | -------------------- | :--------: | --------------------------------------- |
 | `heapify(iterable)`  |    O(n)    | Builds heap from unordered list         |
@@ -910,6 +924,8 @@ val = heapq.heapreplace(data, 7)   # pops smallest, pushes 7 (data must be non-e
 | `heapreplace(h, x)`  |  O(log n)  | Pop then push; heap must be non-empty   |
 | `nsmallest(k, iter)` | O(n log k) | Uses a max-heap of size k               |
 | `nlargest(k, iter)`  | O(n log k) | Uses a min-heap of size k               |
+
+</div>
 
 ### Max-Heap and Priority Queue Patterns
 
@@ -1021,6 +1037,8 @@ graph TD
     style heap_use fill:#4a9,stroke:#333
 ```
 
+<div class="table-wrap">
+
 | Need                        | Primary Choice | Alternative                |
 | --------------------------- | -------------- | -------------------------- |
 | Ordered, mutable sequence   | `list`         | `array.array`              |
@@ -1035,6 +1053,8 @@ graph TD
 | Counting occurrences        | `Counter`      | `defaultdict(int)`         |
 | Grouping by key             | `defaultdict`  | `itertools.groupby`        |
 | Layered configuration       | `ChainMap`     |                            |
+
+</div>
 
 ## Common Pitfalls
 

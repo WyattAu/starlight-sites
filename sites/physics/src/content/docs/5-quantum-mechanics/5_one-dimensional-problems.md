@@ -495,6 +495,8 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | A particle in a box can have zero energy | no | $E_1 = \pi^2\hbar^2/2mL^2 > 0$; zero energy would need zero momentum and a position known to width $L$, violating the uncertainty principle |
@@ -505,6 +507,8 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 | The harmonic oscillator states are evenly spaced by $\hbar\omega$ | yes | this is special and is why it is exactly soluble; anharmonic terms split the spacing |
 | Higher-energy states have more nodes | yes | and this is not a coincidence: $n-1$ nodes is what makes the states orthogonal |
 | Wave functions must be continuous | no | $\psi$ is continuous only where $V$ is finite; at an infinite wall it is zero, and at a delta potential $\psi$ is continuous but $\psi'$ is not |
+
+</div>
 
 The first row is the one that generalises furthest. The zero-point energy is
 not a curiosity of the square well -- it is why atoms do not collapse, why
@@ -575,7 +579,7 @@ methods](https://mathematics.wyattau.com/6-ordinary-differential-equations/1_int
 - **[Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

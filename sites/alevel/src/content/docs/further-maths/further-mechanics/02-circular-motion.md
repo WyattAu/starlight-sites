@@ -32,12 +32,16 @@ Determine unknown forces.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                       |
 | ---------- | ------- | ------------------------------------------- |
 | AQA        | Paper 2 | Limited coverage; horizontal circles mainly |
 | Edexcel    | M2      | Full coverage including vertical circles    |
 | OCR (A)    | Paper 2 | Horizontal and vertical circles             |
 | CIE (9231) | M2      | Full coverage including vertical circles    |
+
+</div>
 
 :::note
 (tension, friction, normal reaction, weight) directed towards the centre of the circle. Never
@@ -1068,12 +1072,16 @@ $$
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                     | Correct Approach                                                                 |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Confusing the centripetal force direction                   | It always points toward the centre of the circle                                 |
 | Forgetting that normal reaction changes on a banked surface | Resolve perpendicular to the surface                                             |
 | Using $v = r\omega$ with inconsistent units                 | $v$ in $\mathrm{m\,s^{-1}}$$r$ in $\mathrm{m}$$\omega$ in $\mathrm{rad\,s^{-1}}$ |
 | Assuming tension is constant in vertical motion             | $T$ varies; use energy conservation for $v$ Then Newton's second law for $T$      |
+
+</div>
 
 ---
 
@@ -1182,6 +1190,8 @@ Vertical circular motion problems often require energy methods combined with for
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Quantity                                  | Formula                                               |
 | ----------------------------------------- | ----------------------------------------------------- |
 | Centripetal acceleration                  | $a = \omega^2 r = \dfrac{v^2}{r}$                     |
@@ -1193,6 +1203,8 @@ Vertical circular motion problems often require energy methods combined with for
 | Vertical circle (top): min speed (string) | $v_{\min} = \sqrt{gr}$                                |
 | Vertical circle (top): min speed (rod)    | $v_{\min} = 0$                                        |
 | Vertical circle: max speed at bottom      | $v_{\max} = \sqrt{u^2 + 4gr}$ (energy)                |
+
+</div>
 
 ---
 

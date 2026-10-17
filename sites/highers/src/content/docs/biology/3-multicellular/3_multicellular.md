@@ -31,12 +31,16 @@ Types.
 
 **Types:**
 
+<div class="table-wrap">
+
 | Type        | Source                            | Potential                                      |
 | ----------- | --------------------------------- | ---------------------------------------------- |
 | Totipotent  | Early embryo                      | Can become any cell type (including placental) |
 | Pluripotent | Blastocyst                        | Can become any cell type (not placental)       |
 | Multipotent | Adult tissues (e.g., bone marrow) | Can become limited range of cell types         |
 | Unipotent   | Adult tissues                     | Can become only one cell type                  |
+
+</div>
 
 **Cell differentiation:** The process by which cells become specialised. All body cells have the
 Same genes, but different genes are switched on (expressed) or off in different cell types.
@@ -163,6 +167,8 @@ Bloodstream.
 
 **Key differences from the nervous system:**
 
+<div class="table-wrap">
+
 | Feature  | Nervous            | Endocrine                         |
 | -------- | ------------------ | --------------------------------- |
 | Signal   | Electrical impulse | Chemical (hormone)                |
@@ -171,7 +177,11 @@ Bloodstream.
 | Target   | Specific           | Widespread (cells with receptors) |
 | Pathway  | Neurones           | Bloodstream                       |
 
+</div>
+
 **Examples of hormones:**
+
+<div class="table-wrap">
 
 | Hormone    | Gland                  | Function                      |
 | ---------- | ---------------------- | ----------------------------- |
@@ -181,6 +191,8 @@ Bloodstream.
 | Thyroxine  | Thyroid                | Regulates metabolism          |
 | ADH        | Posterior pituitary    | Water reabsorption in kidneys |
 | FSH/LH     | Anterior pituitary     | Reproductive cycle            |
+
+</div>
 
 ### Blood Glucose Regulation
 
@@ -220,6 +232,8 @@ Bloodstream.
 
 **Blood vessels:**
 
+<div class="table-wrap">
+
 | Feature        | Artery | Vein | Capillary      |
 | -------------- | ------ | ---- | -------------- |
 | Wall thickness | Thick  | Thin | One cell thick |
@@ -227,6 +241,8 @@ Bloodstream.
 | Valves         | No     | Yes  | No             |
 | Blood pressure | High   | Low  | Low            |
 | Blood flow     | Fast   | Slow | Very slow      |
+
+</div>
 
 **Double circulatory system:**
 
@@ -273,6 +289,8 @@ $$
 
 **Macromolecule digestion:**
 
+<div class="table-wrap">
+
 | Macromolecule | Enzyme                     | Products               | Site                     |
 | ------------- | -------------------------- | ---------------------- | ------------------------ |
 | Starch        | Amylase                    | Maltose                | Mouth, small intestine   |
@@ -280,6 +298,8 @@ $$
 | Proteins      | Protease (pepsin, trypsin) | Amino acids            | Stomach, small intestine |
 | Lipids        | Lipase                     | Fatty acids + glycerol | Small intestine          |
 | DNA/RNA       | Nuclease                   | Nucleotides            | Small intestine          |
+
+</div>
 
 **Absorption:** The small intestine is adapted for absorption with villi and microvilli, which
 Increase surface area. Each villus has a dense capillary network (for amino acids and glucose) and a
@@ -438,6 +458,8 @@ the adaptive immune system (specific, slower but long-lasting).
 
 **Primary vs secondary immune response:**
 
+<div class="table-wrap">
+
 | Feature        | Primary Response            | Secondary Response         |
 | -------------- | --------------------------- | -------------------------- |
 | Speed          | Slower (5--10 days to peak) | Faster (2--3 days to peak) |
@@ -445,6 +467,8 @@ the adaptive immune system (specific, slower but long-lasting).
 | Antibody class | Mainly IgM initially        | Mainly IgG                 |
 | Memory cells   | Formed during response      | Already present            |
 | Duration       | Short-lived                 | Longer-lasting             |
+
+</div>
 
 ## Review: Gas Exchange in the Lungs
 
@@ -514,6 +538,8 @@ Reabsorbed and appears in the urine (glycosuria).
 
 ## Review: Summary Table of Hormones
 
+<div class="table-wrap">
+
 | Hormone    | Source           | Target       | Function                                        |
 | ---------- | ---------------- | ------------ | ----------------------------------------------- |
 | Insulin    | Pancreas (beta)  | Liver, cells | Lowers blood glucose; promotes glucose uptake   |
@@ -523,6 +549,8 @@ Reabsorbed and appears in the urine (glycosuria).
 | Thyroxine  | Thyroid          | All cells    | Increases metabolic rate                        |
 | FSH        | Pituitary        | Ovaries      | Stimulates follicle development                 |
 | LH         | Pituitary        | Ovaries      | Triggers ovulation                              |
+
+</div>
 
 ## Review: The Reproductive System
 
@@ -740,6 +768,8 @@ Muscles use three sources of ATP during contraction:
 
 **Muscle fibre types:**
 
+<div class="table-wrap">
+
 | Feature            | Type I (slow-twitch)      | Type IIa (fast-twitch oxidative) | Type IIb (fast-twitch glycolytic) |
 | ------------------ | ------------------------- | -------------------------------- | --------------------------------- |
 | Contraction speed  | Slow                      | Fast                             | Very fast                         |
@@ -750,6 +780,8 @@ Muscles use three sources of ATP during contraction:
 | Primary fuel       | Fatty acids, glucose      | Glucose, glycogen                | Glycogen, phosphocreatine         |
 | Example activity   | Marathon running, posture | Sprinting, swimming              | Weightlifting, jumping            |
 
+</div>
+
 ## Worked Examples
 
 **Example 1: Comparing mitosis and meiosis**
@@ -759,6 +791,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -766,6 +800,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 
 ## Intuition
 

@@ -249,13 +249,19 @@ IB History is assessed against the following criteria:
 
 ### Paper 1 (24 marks)
 
+<div class="table-wrap">
+
 | Criterion | Description |
 | :-------- | :---------- |
 | **A: Knowledge and Understanding** | Accurate, relevant factual knowledge. Correct use of terminology. |
 | **B: Analysis and Evaluation** | Critical analysis of sources. Evaluation of origin, purpose, content, value, and limitation. |
 | **C: Thinking and Communication** | Clear, organised writing. Effective synthesis across sources. Logical argument structure. |
 
+</div>
+
 ### Paper 2 (30 marks)
+
+<div class="table-wrap">
 
 | Criterion | Description |
 | :-------- | :---------- |
@@ -263,13 +269,19 @@ IB History is assessed against the following criteria:
 | **B: Analysis and Evaluation** | Analysis of causation, comparison, or change over time. Engagement with multiple perspectives. |
 | **C: Thinking and Communication** | Clear, coherent argument. Effective use of evidence. Logical structure with introduction, body, and conclusion. |
 
+</div>
+
 ### Internal Assessment (20 marks at SL and HL)
+
+<div class="table-wrap">
 
 | Criterion | Description |
 | :-------- | :---------- |
 | **A: Identification and Evaluation of Sources (6 marks)** | Quality of research question. Critical evaluation of two sources (origin, purpose, content, value, limitation). |
 | **B: Investigation (15 marks)** | Depth and breadth of research. Quality of analysis and argument. Use of primary and secondary sources. |
 | **C: Reflection (4 marks)** | Reflection on the research process, challenges encountered, and lessons learned about historical methodology. |
+
+</div>
 
 ---
 

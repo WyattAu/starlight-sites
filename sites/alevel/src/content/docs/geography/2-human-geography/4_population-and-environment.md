@@ -40,6 +40,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 
 ## Key Concepts and Definitions
 
+<div class="table-wrap">
+
 | Term                                   | Definition                                                                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Demographic Transition Model (DTM)** | A model describing how population changes over time as a country develops, based on changes in birth and death rates                                 |
@@ -62,6 +64,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **Boserupian theory**                  | Ester Boserup's argument (1965) that population growth drives agricultural innovation and intensification, "necessity is the mother of invention"   |
 | **Epidemiological transition**         | The shift from infectious and parasitic diseases (pre-industrial) to degenerative and man-made diseases (industrial and post-industrial)             |
 
+</div>
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -77,6 +81,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 
 ### The DTM Stages
 
+<div class="table-wrap">
+
 | Stage                   | Birth Rate | Death Rate          | Natural Increase       | Population    | Examples                                                         |
 | ----------------------- | ---------- | ------------------- | ---------------------- | ------------- | ---------------------------------------------------------------- |
 | **1 (Pre-industrial)**  | High       | High                | Very low               | Stable, low   | Isolated tribal communities, historical pre-industrial societies |
@@ -84,6 +90,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **3 (Late expanding)**  | Falling    | Low, falling slowly | Increasing but slowing | Still growing | India, Brazil, Egypt                                             |
 | **4 (Low stationary)**  | Low        | Low                 | Very low               | Stable, high  | UK, France, Australia, USA                                       |
 | **5 (Decline)**         | Very low   | Low                 | Negative               | Declining     | Japan, Germany, Italy, Russia                                    |
+
+</div>
 
 ### Limitations of the DTM
 
@@ -138,6 +146,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 
 ### Malthus vs. Boserup
 
+<div class="table-wrap">
+
 | Aspect                | Malthus (1798)                                                                                                                            | Boserup (1965)                                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Core argument**     | Population growth will outstrip food supply, leading to famine, disease, and war (positive checks) or moral restraint (preventive checks) | Population growth drives agricultural innovation and intensification; technology and ingenuity expand the resource base              |
@@ -145,6 +155,8 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **Evidence for**      | Famine in Ireland (1845–49), Sahel droughts (1970s–80s), concerns over "peak oil"                                                         | Green Revolution (1960s–70s) dramatically increased food production; global population doubled but food production more than doubled |
 | **Evidence against**  | Global food production has kept pace with population growth; living standards have risen                                                  | Environmental limits are real (climate change, soil degradation, water scarcity); some regions do experience genuine food insecurity |
 | **Relevance today**   | Environmental limits (planetary boundaries) suggest resource constraints are real                                                         | Technological optimism continues, renewable energy, GM crops, lab-grown meat                                                        |
+
+</div>
 
 ### Carrying Capacity and the Ecological Footprint
 
@@ -178,12 +190,16 @@ consumption levels.
 
 As countries develop, the pattern of disease shifts:
 
+<div class="table-wrap">
+
 | Stage                                         | Dominant diseases                                                | Life expectancy |
 | --------------------------------------------- | ---------------------------------------------------------------- | --------------- |
 | **Age of pestilence and famine**              | Infectious diseases, malnutrition, famine                        | Low (< 40)      |
 | **Age of receding pandemics**                 | Declining infectious disease, improved nutrition                 | Rising (40–55)  |
 | **Age of degenerative and man-made diseases** | Heart disease, cancer, stroke, diabetes                          | High (55–70+)   |
 | **Age of delayed degenerative diseases**      | Same as above but onset delayed through prevention and treatment | Very high (70+) |
+
+</div>
 
 ### Health Challenges in Different Contexts
 
@@ -248,6 +264,8 @@ Four dimensions:
 
 ### Challenges to Food Security
 
+<div class="table-wrap">
+
 | Challenge                              | Details                                                                                                                                                                                                                                              |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Population growth**                  | Global population projected to reach approximately 9.7 billion by 2050; food production must increase by approximately 60%                                                                                                                           |
@@ -257,6 +275,8 @@ Four dimensions:
 | **Biofuel production**                 | Land diverted from food crops to biofuel feedstock reduces food availability and increases prices                                                                                                                                                    |
 | **Food waste**                         | Approximately one-third of all food produced globally is lost or wasted, approximately 1.3 billion tonnes per year                                                                                                                                  |
 | **Conflict and political instability** | Disrupts food production, distribution, and markets                                                                                                                                                                                                  |
+
+</div>
 
 ### Strategies for Improving Food Security
 
@@ -302,6 +322,8 @@ Four dimensions:
 
 Global primary energy consumption is approximately 580 exajoules per year (2022), sourced from:
 
+<div class="table-wrap">
+
 | Source                                         | Share (2022) | Trend                                                       |
 | ---------------------------------------------- | ------------ | ----------------------------------------------------------- |
 | **Oil**                                        | ~31%         | Slowly declining as a share                                 |
@@ -309,6 +331,8 @@ Global primary energy consumption is approximately 580 exajoules per year (2022)
 | **Natural gas**                                | ~24%         | Growing; seen as a "transition fuel"                        |
 | **Renewables (hydro, wind, solar, bioenergy)** | ~14%         | Rapidly growing                                             |
 | **Nuclear**                                    | ~4%          | Stable; some countries expanding, others phasing out        |
+
+</div>
 
 ### Energy Security Challenges
 

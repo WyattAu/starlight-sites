@@ -62,6 +62,8 @@ systemctl enable --now crond
 
 ### Special Strings
 
+<div class="table-wrap">
+
 | String      | Equivalent  | Description                     |
 | ----------- | ----------- | ------------------------------- |
 | `@yearly`   | `0 0 1 1 *` | Once per year                   |
@@ -72,6 +74,8 @@ systemctl enable --now crond
 | `@midnight` | `0 0 * * *` | Same as @daily                  |
 | `@hourly`   | `0 * * * *` | Once per hour                   |
 | `@reboot`   | (special)   | Run once at cron daemon startup |
+
+</div>
 
 ```bash
 # System backup every day at midnight
@@ -299,6 +303,8 @@ ls -la /var/spool/anacron/
 
 ### cron vs anacron
 
+<div class="table-wrap">
+
 | Feature      | cron                  | anacron                     |
 | ------------ | --------------------- | --------------------------- |
 | System type  | 24/7 servers          | Desktops, laptops           |
@@ -307,6 +313,8 @@ ls -la /var/spool/anacron/
 | Runs at      | Exact specified times | After boot (with delay)     |
 | Per-user     | Yes                   | No (system-wide only)       |
 | Suitable for | Precise scheduling    | Ensuring periodic tasks run |
+
+</div>
 
 ## systemd Timers
 
@@ -406,6 +414,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 
 ### systemd Timers vs cron
 
+<div class="table-wrap">
+
 | Feature             | cron                     | systemd timer            |
 | ------------------- | ------------------------ | ------------------------ |
 | Boot catch-up       | No (missed jobs skipped) | Yes (`Persistent=true`)  |
@@ -418,6 +428,8 @@ systemctl show backup.timer --property=NextElapseUSecRealtime
 | Precision           | 1 minute                 | 1 minute (`AccuracySec`) |
 | Built-in monitoring | No                       | Yes (`systemctl status`) |
 | Timezone handling   | System timezone          | Per-timer `Timezone=`    |
+
+</div>
 
 :::note
 Logging, dependency management, and missed-job handling. However, cron remains ubiquitous and is

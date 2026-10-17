@@ -23,6 +23,8 @@ Normalization eliminates redundancy and update anomalies, but there is a point o
 Returns. The decision of when to stop depends on your read/write ratio, performance requirements,
 And complexity tolerance.
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                             | Practical Impact                           |
 | ----------- | -------------------------------------- | ------------------------------------------ |
 | 1NF         | Repeating groups, non-atomic values    | Foundation; every table should be in 1NF   |
@@ -31,6 +33,8 @@ And complexity tolerance.
 | BCNF        | All candidate keys fully determined    | Slight refinement over 3NF                 |
 | 4NF         | Multi-valued dependencies              | Rarely needed in practice                  |
 | 5NF         | Join dependencies                      | Theoretical; almost never practical        |
+
+</div>
 
 ### 3NF vs Denormalization
 
@@ -71,6 +75,8 @@ CREATE TABLE order_summary (
 
 ### When to Denormalize
 
+<div class="table-wrap">
+
 | Scenario                                     | Recommendation                  |
 | -------------------------------------------- | ------------------------------- |
 | OLTP with frequent writes                    | Normalize (3NF)                 |
@@ -78,6 +84,8 @@ CREATE TABLE order_summary (
 | High-frequency reads with infrequent updates | Cached/precomputed column       |
 | Data warehousing / OLAP                      | Star/snowflake schema           |
 | Real-time aggregation requirements           | Precomputed aggregates          |
+
+</div>
 
 ## Denormalization Patterns
 
@@ -228,11 +236,15 @@ SET previous_category = current_category,
 WHERE product_id = 42;
 ```
 
+<div class="table-wrap">
+
 | SCD Type | History Retained | Storage | Complexity | Use Case                           |
 | -------- | ---------------- | ------- | ---------- | ---------------------------------- |
 | Type 1   | None             | Minimal | Low        | Corrections, insignificant changes |
 | Type 2   | Full             | High    | High       | Audit trails, analytics            |
 | Type 3   | One previous     | Low     | Medium     | Limited history needed             |
+
+</div>
 
 ## Hierarchical Data
 
@@ -334,12 +346,16 @@ VALUES (NEW.node_id, NEW.node_id, 0);
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Pattern          | Insert | Update (move subtree) | Read ancestors | Read descendants | Storage     |
 | ---------------- | ------ | --------------------- | -------------- | ---------------- | ----------- |
 | Adjacency List   | O(1)   | O(1)                  | O(depth) CTE   | O(depth) CTE     | Minimal     |
 | Nested Sets      | O(n)   | O(n)                  | O(1)           | O(1)             | Minimal     |
 | Path Enumeration | O(1)   | O(n)                  | O(1)           | O(1) LIKE        | Path column |
 | Closure Table    | O(n)   | O(n\*depth)           | O(depth)       | O(depth)         | O(n^2)      |
+
+</div>
 
 ## Polymorphic Associations
 
@@ -418,11 +434,15 @@ SELECT * FROM payments WHERE metadata ->> 'card_last_four' = '1234';
 CREATE INDEX idx_payments_metadata ON payments USING GIN (metadata);
 ```
 
+<div class="table-wrap">
+
 | Approach     | Pros                           | Cons                              |
 | ------------ | ------------------------------ | --------------------------------- |
 | Shared table | Simple queries, no JOINs       | Many NULL columns, weak typing    |
 | Class table  | Strong typing, no wasted space | JOINs required, complex queries   |
 | JSON columns | Flexible, schemaless fields    | No foreign keys, no type checking |
+
+</div>
 
 ## Many-to-Many Relationships
 
@@ -476,6 +496,8 @@ SELECT * FROM users WHERE deleted_at IS NULL;
 DELETE FROM users WHERE user_id = 42;
 ```
 
+<div class="table-wrap">
+
 | Aspect      | Soft Delete                      | Hard Delete                |
 | ----------- | -------------------------------- | -------------------------- |
 | Recovery    | Reversible (set deleted_at=NULL) | Not reversible             |
@@ -483,6 +505,8 @@ DELETE FROM users WHERE user_id = 42;
 | Query perf  | All queries need WHERE clause    | No filter overhead         |
 | Uniqueness  | Must handle deleted emails       | Natural uniqueness         |
 | Referential | FK constraints still apply       | CASCADE removes dependents |
+
+</div>
 
 :::caution
 `alice@example.com`. You cannot create a new user with the same email unless you modify the unique
@@ -642,11 +666,15 @@ ALTER TABLE app_settings ADD CONSTRAINT valid_config CHECK (
 );
 ```
 
+<div class="table-wrap">
+
 | Approach | Query Performance   | Type Safety | Schema Flexibility | Storage     |
 | -------- | ------------------- | ----------- | ------------------ | ----------- |
 | EAV      | Terrible (pivoting) | None        | High               | Inefficient |
 | JSONB    | Good (GIN index)    | Limited     | High               | Efficient   |
 | Columns  | Best                | Full        | Low (ALTER TABLE)  | Efficient   |
+
+</div>
 
 ## Status Machines
 

@@ -19,6 +19,8 @@ date: 2026-05-31T00:00:00.000Z
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature            | Prokaryotic Cells                   | Eukaryotic Cells                      |
 | ------------------ | ----------------------------------- | ------------------------------------- |
 | Nucleus            | No true nucleus; nucleoid region    | True nucleus with nuclear envelope    |
@@ -29,7 +31,11 @@ date: 2026-05-31T00:00:00.000Z
 | Cell wall          | Peptidoglycan (bacteria)            | Cellulose (plants); none (animals)    |
 | Examples           | Bacteria, archaea                   | Animals, plants, fungi, protists       |
 
+</div>
+
 ### Plant vs Animal Cells
+
+<div class="table-wrap">
 
 | Feature              | Plant Cells                    | Animal Cells                |
 | -------------------- | ------------------------------ | --------------------------- |
@@ -38,6 +44,8 @@ date: 2026-05-31T00:00:00.000Z
 | Large vacuole        | Yes (permanent, central)       | Small, temporary (if any)   |
 | Centrioles           | Absent (except in lower plants)| Present                     |
 | Stored carbohydrates | Starch                         | Glycogen                    |
+
+</div>
 
 ---
 
@@ -51,6 +59,8 @@ date: 2026-05-31T00:00:00.000Z
 </script>
 
 ## 2. Organelles
+
+<div class="table-wrap">
 
 | Organelle | Structure | Function |
 | --------------------- | ----------------------------------- | ----------------------------------------------------- |
@@ -66,6 +76,8 @@ date: 2026-05-31T00:00:00.000Z
 | Vacuole | Membrane-bound (tonoplast) | Storage; maintains turgor pressure |
 | Centrioles | Pair of cylindrical structures | Organise spindle fibres during cell division |
 | Cell membrane | Phospholipid bilayer | Controls entry/exit of substances; cell recognition |
+
+</div>
 
 ---
 
@@ -146,11 +158,15 @@ $$
 
 ### Passive Transport (no ATP required)
 
+<div class="table-wrap">
+
 | Mechanism | Definition | Direction | Depends On |
 | ------------------ | --------------------------------------- | ---------------- | ----------------- |
 | Simple diffusion | Net movement from high to low concentration | High → low | Concentration gradient |
 | Facilitated diffusion | Movement via protein channels or carriers | High → low | Channel/carrier proteins |
 | Osmosis | Diffusion of water across a partially permeable membrane | High water potential → low water potential | Water potential gradient |
+
+</div>
 
 **Water potential ($\Psi$):**
 
@@ -191,6 +207,8 @@ $$
 
 **Purpose:** growth, repair, asexual reproduction; produces **2 genetically identical diploid cells**
 
+<div class="table-wrap">
+
 | Phase          | Key Events                                                                 |
 | -------------- | -------------------------------------------------------------------------- |
 | Interphase (G1, S, G2) | DNA replicates; organelles duplicate; cell grows                      |
@@ -199,16 +217,22 @@ $$
 | Anaphase       | Sister chromatids separate; pulled to opposite poles by spindle fibres    |
 | Telophase      | Chromosomes decondense; nuclear envelopes reform; cytokinesis begins      |
 
+</div>
+
 **Result:** $2n \to 2n$ (diploid → diploid)
 
 ### Meiosis
 
 **Purpose:** production of gametes (sex cells); produces **4 genetically unique haploid cells**
 
+<div class="table-wrap">
+
 | Stage             | Key Events                                                                 |
 | ----------------- | -------------------------------------------------------------------------- |
 | Meiosis I         | Homologous chromosomes pair (bivalents); crossing over occurs (prophase I); homologous chromosomes separate (anaphase I) |
 | Meiosis II        | Sister chromatids separate (similar to mitosis but starting with half the chromosome number) |
+
+</div>
 
 **Result:** $2n \to n$ (diploid → haploid)
 
@@ -223,6 +247,8 @@ $$
 
 ### Mitosis vs Meiosis
 
+<div class="table-wrap">
+
 | Feature             | Mitosis            | Meiosis                |
 | ------------------- | ------------------ | ---------------------- |
 | Divisions           | 1                  | 2                      |
@@ -231,6 +257,8 @@ $$
 | Genetic variation    | No                 | Yes (crossing over, independent assortment) |
 | Function            | Growth, repair     | Gamete production      |
 | Where               | Somatic cells      | Germ cells (gonads)    |
+
+</div>
 
 ## Worked Examples
 

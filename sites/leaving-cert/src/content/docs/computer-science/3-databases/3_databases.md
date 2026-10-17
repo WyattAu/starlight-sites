@@ -71,12 +71,16 @@ Smaller file sizes for simple images.
 
 **Bitmap vs Vector comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
 | Scaling        | Loses quality when enlarged | No quality loss at any size |
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
+
+</div>
 
 ### Sound (HL)
 
@@ -124,6 +128,8 @@ Value).
 
 ## Data Types (OL/HL)
 
+<div class="table-wrap">
+
 | Type       | Description            | Example      |
 | ---------- | ---------------------- | ------------ |
 | Integer    | Whole numbers          | 42, -7       |
@@ -132,6 +138,8 @@ Value).
 | String     | Sequence of characters | "Hello"      |
 | Boolean    | True or false          | true, false  |
 | Date       | Calendar date          | 2026-04-14   |
+
+</div>
 
 **Worked Example (OL).** Which data type would you use for each of the following?
 
@@ -151,6 +159,8 @@ Of updating.
 **Relational database:** data stored in multiple related tables. Advantages: reduced redundancy,
 Data integrity, easier maintenance.
 
+<div class="table-wrap">
+
 | Feature           | Flat File           | Relational Database         |
 | ----------------- | ------------------- | --------------------------- |
 | Tables            | Single              | Multiple, related           |
@@ -159,7 +169,11 @@ Data integrity, easier maintenance.
 | Concurrent access | Not supported       | Supported with locking      |
 | Querying          | Manual (sequential) | SQL (declarative, powerful) |
 
+</div>
+
 ### Key Terms
+
+<div class="table-wrap">
 
 | Term        | Definition                                                    |
 | ----------- | ------------------------------------------------------------- |
@@ -169,6 +183,8 @@ Data integrity, easier maintenance.
 | Foreign key | A primary key from another table, establishing a relationship |
 | Record      | A single row in a table                                       |
 | Field       | A single column in a table                                    |
+
+</div>
 
 **Worked Example (OL).** In a Student table, which field would be the best primary key?
 
@@ -371,16 +387,24 @@ Normalisation reduces data redundancy and dependency.
 
 **Unnormalised table:**
 
+<div class="table-wrap">
+
 | StudentID | Name | Subject1 | Teacher1 | Subject2 | Teacher2 |
 | --------- | ---- | -------- | -------- | -------- | -------- |
 | 1         | John | Maths    | Ms Lee   | Physics  | Mr Kelly |
 
+</div>
+
 **1NF:** Remove repeating groups.
+
+<div class="table-wrap">
 
 | StudentID | Name | Subject | Teacher  |
 | --------- | ---- | ------- | -------- |
 | 1         | John | Maths   | Ms Lee   |
 | 1         | John | Physics | Mr Kelly |
+
+</div>
 
 **2NF:** Separate into Students and Enrolments tables.
 
@@ -495,11 +519,15 @@ CREATE TABLE Enrolment (
 
 **Unicode and UTF-8 encoding:**
 
+<div class="table-wrap">
+
 | Character | Unicode | UTF-8 Bytes                          |
 | --------- | ------- | ------------------------------------ |
 | A         | U+0041  | 01000001 (1 byte)                    |
 | Euro      | U+20AC  | 11100010 10000010 10101100 (3 bytes) |
 | Emoji     | U+1F600 | 4 bytes                              |
+
+</div>
 
 **Why UTF-8 is preferred:** Backward-compatible with ASCII, variable-length (efficient for English
 Text), and supports all Unicode characters.
@@ -586,6 +614,8 @@ FROM Students;
 
 ### Aggregate Functions in Detail
 
+<div class="table-wrap">
+
 | Function   | Description                     | Ignores NULL? |
 | ---------- | ------------------------------- | ------------- |
 | COUNT(\*)  | Count all rows                  | No            |
@@ -594,6 +624,8 @@ FROM Students;
 | AVG        | Average of values               | Yes           |
 | MIN        | Smallest value                  | Yes           |
 | MAX        | Largest value                   | Yes           |
+
+</div>
 
 **Worked Example.** Find the student with the highest mark in each subject.
 
@@ -627,6 +659,8 @@ Characters and longer codes to less frequent characters.
 
 **Example:** For the string "BCCABBDDAECCBBAEDDCC"
 
+<div class="table-wrap">
+
 | Character | Frequency | Huffman Code |
 | --------- | --------- | ------------ |
 | C         | 6         | 00           |
@@ -634,6 +668,8 @@ Characters and longer codes to less frequent characters.
 | D         | 4         | 10           |
 | A         | 3         | 110          |
 | E         | 2         | 111          |
+
+</div>
 
 Original: 19 characters x 8 bits = 152 bits. Compressed: (6x2) + (4x2) + (4x2) + (3x3) + (2x3) =
 12 + 8 + 8 + 9 + 6 = 43 bits.

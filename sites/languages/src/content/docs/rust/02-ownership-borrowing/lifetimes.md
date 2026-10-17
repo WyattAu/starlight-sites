@@ -363,6 +363,8 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Type             | Variance in `'a` | Variance in `T` |
 | ---------------- | ---------------- | --------------- |
 | `&'a T`          | Covariant        | Covariant       |
@@ -371,6 +373,8 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 | `Cell&lt;T&gt;`  |,                | Invariant       |
 | `fn(&'a T) -> R` | Contravariant    | Contravariant   |
 | `fn(T) -> &'a R` | Covariant        | Covariant       |
+
+</div>
 
 ### Variance and Unsafe Code
 

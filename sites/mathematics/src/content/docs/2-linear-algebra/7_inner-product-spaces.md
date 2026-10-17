@@ -352,6 +352,8 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Every norm comes from an inner product | no | the $\ell^1$ and $\ell^\infty$ norms on $\mathbb{R}^2$ do not; only the $\ell^2$ norm does |
@@ -362,6 +364,8 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 | The orthogonal projection is the closest point | yes | and this is a theorem, not a definition -- it is what makes least squares meaningful |
 | Inner products are unique | no | $\langle u,v\rangle = u^Tv$ and $\langle u,v\rangle = 2u^Tv$ both satisfy the axioms |
 | Two vectors with zero inner product must have zero length | no | $\langle (1,0), (0,1)\rangle = 0$ and both have length one |
+
+</div>
 
 The first row is the one that shapes functional analysis. A norm comes from an
 inner product exactly when it satisfies the parallelogram law, and spaces whose

@@ -254,12 +254,16 @@ variables, making analysis of equilibrium and spontaneity purely in terms of sta
 
 ### 4.2 The Four Potentials
 
+<div class="table-wrap">
+
 | Potential             | Symbol       | Natural Variables | Differential          |
 | --------------------- | ------------ | ----------------- | --------------------- |
 | Internal energy       | $U$          | $S, V$            | $dU = T\,dS - p\,dV$  |
 | Enthalpy              | $H = U + pV$ | $S, p$            | $dH = T\,dS + V\,dp$  |
 | Helmholtz free energy | $F = U - TS$ | $T, V$            | $dF = -S\,dT - p\,dV$ |
 | Gibbs free energy     | $G = H - TS$ | $T, p$            | $dG = -S\,dT + V\,dp$ |
+
+</div>
 
 **Physical meaning:**
 
@@ -703,6 +707,8 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Link                                                                        |
 | ------------------------------ | --------------------------------------------------------------------------- |
 | Classical Mechanics            | [View](/1-classical-mechanics/14_flashcards-classical-mechanics/)                        |
@@ -712,8 +718,10 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 | MIT 5.60 Thermodynamics        | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-fall-2008/) |
 | Stanford Statistical Mechanics | [View](https://web.stanford.edu/~peastwood/statmech/)                       |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
@@ -735,7 +743,11 @@ mol^-1. The entropy increases because the solid (ordered) becomes liquid (more d
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                | Link                                                  |
 | -------------------- | ----------------------------------------------------- |
 | Quantum Mechanics II | [View](/5-quantum-mechanics/18_quantum-mechanics-ii/) |
 | Kinetic Theory       | View       |
+
+</div>

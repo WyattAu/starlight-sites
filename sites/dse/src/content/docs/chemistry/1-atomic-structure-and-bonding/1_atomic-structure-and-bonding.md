@@ -18,11 +18,15 @@ description: "Study notes for Chemistry - Atomic Structure and Bonding with work
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Symbol | Relative Mass                 | Relative Charge | Location        |
 | -------- | ------ | ----------------------------- | --------------- | --------------- |
 | Proton   | $p$    | 1                             | +1              | Nucleus         |
 | Neutron  | $n$    | 1                             | 0               | Nucleus         |
 | Electron | $e^-$  | $\frac{1}{1836}$ (negligible) | -1              | Electron shells |
+
+</div>
 
 The **atomic number** (proton number) $Z$ equals the number of protons in the nucleus.
 
@@ -156,6 +160,8 @@ extra Stability.
 
 ### Periodic Trends
 
+<div class="table-wrap">
+
 | Property                   | Across a Period (Left to Right) | Down a Group (Top to Bottom) |
 | -------------------------- | ------------------------------- | ---------------------------- |
 | Atomic radius              | Decreases                       | Increases                    |
@@ -163,6 +169,8 @@ extra Stability.
 | Electronegativity          | Increases                       | Decreases                    |
 | Metallic character         | Decreases                       | Increases                    |
 | Melting point (Groups 1-3) | Increases                       | Decreases                    |
+
+</div>
 
 ### Atomic Radius
 
@@ -239,6 +247,8 @@ Ionic compounds form **giant ionic lattices**:
 
 ### Properties of Ionic Compounds
 
+<div class="table-wrap">
+
 | Property                                     | Explanation                                                     |
 | -------------------------------------------- | --------------------------------------------------------------- |
 | High melting and boiling points              | Strong electrostatic forces throughout the lattice              |
@@ -246,6 +256,8 @@ Ionic compounds form **giant ionic lattices**:
 | Do not conduct when solid                    | Ions are fixed in position                                      |
 | Soluble in polar solvents (e.g., water)      | Polar solvent molecules attract and separate ions               |
 | Brittle                                      | Shifting layers brings like charges together, causing repulsion |
+
+</div>
 
 ### Worked Example 4
 
@@ -324,6 +336,8 @@ The Valence Shell Electron Pair Repulsion theory predicts molecular shapes based
 Electron pairs around a central atom repel each other and arrange themselves as far apart as
 Possible.
 
+<div class="table-wrap">
+
 | Electron Pairs    | Shape                | Bond Angle            | Example                          |
 | ----------------- | -------------------- | --------------------- | -------------------------------- |
 | 2 bonding pairs   | Linear               | $180^\circ$           | $\mathrm{BeCl}_2$$\mathrm{CO}_2$ |
@@ -334,6 +348,8 @@ Possible.
 | 2 bonding, 2 lone | Bent                 | $\lt 109.5^\circ$     | $\mathrm{H}_2\mathrm{O}$         |
 | 5 bonding pairs   | Trigonal bipyramidal | $90^\circ, 120^\circ$ | $\mathrm{PCl}_5$                 |
 | 6 bonding pairs   | Octahedral           | $90^\circ$            | $\mathrm{SF}_6$                  |
+
+</div>
 
 :::note
 The nucleus. This reduces bond angles from the ideal values.
@@ -429,12 +445,16 @@ Examples: $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$ HF, DNA base pairing.
 
 ### Effect of Intermolecular Forces on Properties
 
+<div class="table-wrap">
+
 | Property      | Strong IMF | Weak IMF |
 | ------------- | ---------- | -------- |
 | Melting point | High       | Low      |
 | Boiling point | High       | Low      |
 | Viscosity     | High       | Low      |
 | Volatility    | Low        | High     |
+
+</div>
 
 ### Worked Example 6
 
@@ -452,12 +472,16 @@ $\mathrm{H}_2\mathrm{S}$ Resulting in a higher boiling point for water.
 
 ### Trends in Boiling Points of Group 17 Halogens
 
+<div class="table-wrap">
+
 | Halogen         | Boiling Point          | Explanation                                    |
 | --------------- | ---------------------- | ---------------------------------------------- |
 | $\mathrm{F}_2$  | $-188^\circ\mathrm{C}$ | Few electrons, weak van der Waals forces       |
 | $\mathrm{Cl}_2$ | $-34^\circ\mathrm{C}$  | More electrons, stronger van der Waals forces  |
 | $\mathrm{Br}_2$ | $59^\circ\mathrm{C}$   | Even more electrons                            |
 | $\mathrm{I}_2$  | $184^\circ\mathrm{C}$  | Most electrons, strongest van der Waals forces |
+
+</div>
 
 ---
 
@@ -483,6 +507,8 @@ In metallic bonding:
 
 ### Properties of Metals
 
+<div class="table-wrap">
+
 | Property                        | Explanation                                                               |
 | ------------------------------- | ------------------------------------------------------------------------- |
 | High melting and boiling points | Strong metallic bonds throughout the lattice                              |
@@ -491,6 +517,8 @@ In metallic bonding:
 | Malleable and ductile           | Layers of cations can slide without breaking the metallic bonds           |
 | Lustrous                        | Delocalised electrons absorb and re-emit light at all visible wavelengths |
 | Generally high density          | Atoms are closely packed                                                  |
+
+</div>
 
 ### Alloys
 
@@ -523,6 +551,8 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                  | Key Concept                             | Example                            |
 | ---------------------- | --------------------------------------- | ---------------------------------- |
 | Atomic structure       | Protons, neutrons, electrons            | $A = Z + N$                        |
@@ -533,6 +563,8 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 | VSEPR                  | Electron pair repulsion                 | Tetrahedral for $\mathrm{CH}_4$    |
 | Intermolecular forces  | van der Waals, dipole-dipole, H-bonding | H-bonding in water                 |
 | Metallic bonding       | Delocalised electrons                   | Malleability of metals             |
+
+</div>
 
 ---
 
@@ -615,6 +647,8 @@ of energy, hence the very high melting point.
 Bond enthalpy (bond energy) is the average energy required to break one mole of a particular type of
 Bond in the gaseous state.
 
+<div class="table-wrap">
+
 | Bond       | Average Bond Enthalpy (kJ/mol) |
 | ---------- | ------------------------------ |
 | C-C        | 347                            |
@@ -628,6 +662,8 @@ Bond in the gaseous state.
 | H-H        | 436                            |
 | N$\equiv$N | 945                            |
 | N-H        | 391                            |
+
+</div>
 
 ### Using Bond Enthalpies to Calculate Enthalpy Changes
 
@@ -731,10 +767,14 @@ Factors affecting lattice energy:
 - **Ionic charge:** Higher charge leads to stronger attraction and larger lattice energy
 - **Ionic radius:** Smaller ions can get closer together, increasing lattice energy
 
+<div class="table-wrap">
+
 | Compound        | Ionic Charges | Lattice Energy Trend                     |
 | --------------- | ------------- | ---------------------------------------- |
 | $\mathrm{NaCl}$ | +1, -1        | Lower                                    |
 | $\mathrm{MgO}$  | +2, -2        | Higher (about 4$\times$ $\mathrm{NaCl}$) |
+
+</div>
 
 ---
 
@@ -754,6 +794,8 @@ Factors affecting lattice energy:
 Valence electrons are the electrons in the outermost shell of an atom. They determine the chemical
 Properties of an element.
 
+<div class="table-wrap">
+
 | Group | Valence Electrons | Common Ion | Typical Behaviour     |
 | ----- | ----------------- | ---------- | --------------------- |
 | 1     | 1                 | +1         | Loses 1 electron      |
@@ -763,6 +805,8 @@ Properties of an element.
 | 16    | 6                 | -2         | Gains 2 electrons     |
 | 17    | 7                 | -1         | Gains 1 electron      |
 | 18    | 8                 | None       | Noble gas, unreactive |
+
+</div>
 
 ### Transition Metals
 
@@ -803,17 +847,25 @@ Period 3 elements ($\mathrm{Na}$ to $\mathrm{Ar}$) show clear trends that are fr
 
 ### Atomic and Ionic Radii
 
+<div class="table-wrap">
+
 | Element            | Na  | Mg  | Al  | Si  | P   | S   | Cl  | Ar  |
 | ------------------ | --- | --- | --- | --- | --- | --- | --- | --- |
 | Atomic radius (pm) | 186 | 160 | 143 | 117 | 110 | 104 | 99  |,   |
+
+</div>
 
 Atomic radius decreases across the period because increasing nuclear charge pulls electrons closer.
 
 ### Melting and Boiling Points
 
+<div class="table-wrap">
+
 | Element                            | Na  | Mg  | Al  | Si   | P   | S   | Cl   | Ar   |
 | ---------------------------------- | --- | --- | --- | ---- | --- | --- | ---- | ---- |
 | Melting point ($^\circ\mathrm{C}$) | 98  | 650 | 660 | 1410 | 44  | 115 | -101 | -189 |
+
+</div>
 
 - $\mathrm{Na}$$\mathrm{Mg}$$\mathrm{Al}$: Metallic bonding, increasing strength (more delocalised
   electrons)
@@ -1000,6 +1052,8 @@ $3d^{10}$ configuration.
 Hybridisation is the concept of mixing atomic orbitals to form new hybrid orbitals that are
 Equivalent in energy and suitable for bonding.
 
+<div class="table-wrap">
+
 | Hybridisation | Geometry             | Bond Angle            | Example                                     |
 | ------------- | -------------------- | --------------------- | ------------------------------------------- |
 | $sp$          | Linear               | $180^\circ$           | $\mathrm{BeCl}_2$$\mathrm{C}_2\mathrm{H}_2$ |
@@ -1007,6 +1061,8 @@ Equivalent in energy and suitable for bonding.
 | $sp^3$        | Tetrahedral          | $109.5^\circ$         | $\mathrm{CH}_4$$\mathrm{NH}_3$              |
 | $sp^3d$       | Trigonal bipyramidal | $90^\circ, 120^\circ$ | $\mathrm{PCl}_5$                            |
 | $sp^3d^2$     | Octahedral           | $90^\circ$            | $\mathrm{SF}_6$                             |
+
+</div>
 
 ### Worked Example 10
 
@@ -1070,12 +1126,16 @@ The strength of intermolecular forces directly affects physical properties:
 
 **Boiling points of hydrogen halides:**
 
+<div class="table-wrap">
+
 | Compound | Boiling Point ($^\circ\mathrm{C}$) | Dominant IMF                  |
 | -------- | ---------------------------------- | ----------------------------- |
 | HF       | 19.5                               | Hydrogen bonding              |
 | HCl      | -84.9                              | Dipole-dipole + van der Waals |
 | HBr      | -67.0                              | Dipole-dipole + van der Waals |
 | HI       | -35.4                              | van der Waals                 |
+
+</div>
 
 HF has the highest boiling point due to hydrogen bonding. For HCl, HBr, and HI, boiling points
 Increase with molecular mass (more electrons = stronger van der Waals forces), despite the
@@ -1094,6 +1154,8 @@ Dissolves like."
 
 ### Allotropes of Carbon
 
+<div class="table-wrap">
+
 | Allotrope                     | Structure                 | Bonding                                                   | Properties                                               |
 | ----------------------------- | ------------------------- | --------------------------------------------------------- | -------------------------------------------------------- |
 | Diamond                       | Tetrahedral 3D network    | Each C bonded to 4 others ($sp^3$)                        | Hardest natural substance, insulator, high melting point |
@@ -1101,6 +1163,8 @@ Dissolves like."
 | Graphene                      | Single layer of graphite  | Each C bonded to 3 others ($sp^2$)                        | Strongest material known, conductor, transparent         |
 | Fullerene ($\mathrm{C}_{60}$) | Hollow sphere (buckyball) | Each C bonded to 3 others                                 | Molecular solid, semiconductor                           |
 | Carbon nanotube               | Cylindrical graphene      | Each C bonded to 3 others                                 | Very strong, conductor                                   |
+
+</div>
 
 ### Worked Example 12
 

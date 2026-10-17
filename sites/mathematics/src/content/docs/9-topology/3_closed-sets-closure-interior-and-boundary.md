@@ -90,12 +90,16 @@ $\partial\emptyset = \emptyset$.
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Operation | Definition | Notation | Duality |
 | ----------- | ----------- | ---------- | --------- |
 | Closure | Smallest closed superset | $\overline{A} = \bigcap\{F : A \subseteq F,\; F\text{ closed}\}$ | $\overline{A} = X \setminus \operatorname{int}(X \setminus A)$ |
 | Interior | Largest open subset | $\operatorname{int}(A) = \bigcup\{U : U \subseteq A,\; U\text{ open}\}$ | $\operatorname{int}(A) = X \setminus \overline{X \setminus A}$ |
 | Boundary | Points in both closure and complement's closure | $\partial A = \overline{A} \cap \overline{X \setminus A}$ | $\partial A = \overline{A} \setminus \operatorname{int}(A)$ |
 | Exterior | Interior of complement | $\operatorname{ext}(A) = \operatorname{int}(X \setminus A)$ | $X = \operatorname{int}(A) \cup \partial A \cup \operatorname{ext}(A)$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -141,12 +145,16 @@ In the language of closure: the closure of the polynomials in the sup-norm topol
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Operation | Property 1 | Property 2 | Property 3 |
 | ----------- | ------------ | ------------ | ------------ |
 | $\overline{A}$ | $A \subseteq \overline{A}$ | $\overline{\overline{A}} = \overline{A}$ | $\overline{A \cup B} = \overline{A} \cup \overline{B}$ |
 | $\operatorname{int}(A)$ | $\operatorname{int}(A) \subseteq A$ | $\operatorname{int}(\operatorname{int}(A)) = \operatorname{int}(A)$ | $\operatorname{int}(A \cap B) = \operatorname{int}(A) \cap \operatorname{int}(B)$ |
 | $\partial A$ | $\partial A = \partial(X \setminus A)$ | $\partial(A \cup B) \subseteq \partial A \cup \partial B$ | $\partial(A \cap B) \subseteq \partial A \cup \partial B$ |
 | Dense | $\overline{A} = X$ | $A$ intersects every nonempty open set | $A^c$ has empty interior |
+
+</div>
 
 ## Intuition
 

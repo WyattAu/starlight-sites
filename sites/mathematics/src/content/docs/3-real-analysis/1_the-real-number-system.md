@@ -301,6 +301,8 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
   $\sqrt{2} \notin \mathbb{Q}$).
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Statement in $\mathbb{Q}$ | True? | Counterexample |
 | -------------------------- | ----- | -------------- |
 | Every non-empty bounded set has a supremum | no | $\{x : x^2 < 2\}$ |
@@ -308,6 +310,8 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 | $\sqrt 2$ exists | no | $p/q$ in lowest terms forces both even |
 | Between any two distinct points there is a rational | yes | density of $\mathbb{Q}$ -- this $\mathbb{Q}$ *does* have |
 | A bounded monotone sequence converges | no | $(1+1/n)^n$ again |
+
+</div>
 
 The density row is the one that surprises people: $\mathbb{Q}$ is dense, so
 "no gaps you can see" is not what completeness means. The gaps are not
@@ -345,8 +349,8 @@ and [Continuity](/3-real-analysis/4_continuity/).
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
-- **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
-- **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Linear Algebra](/2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](/3-real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)

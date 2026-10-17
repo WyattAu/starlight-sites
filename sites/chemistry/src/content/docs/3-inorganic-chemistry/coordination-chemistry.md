@@ -75,11 +75,15 @@ $$
 
 Square planar complexes are common for $d^8$ metals (Ni$^{2+}$, Pd$^{2+}$, Pt$^{2+}$, Au$^{3+}$).
 
+<div class="table-wrap">
+
 | Geometry      | Most stable $d$-electron count | Common metals                   |
 | ------------- | ------------------------------ | ------------------------------- |
 | Octahedral    | $d^3$, $d^6$ (low-spin)        | Cr$^{3+}$, Co$^{3+}$            |
 | Tetrahedral   | $d^{10}$, $d^5$ (high-spin)    | Zn$^{2+}$, Fe$^{2+}$            |
 | Square planar | $d^8$                          | Ni$^{2+}$, Pd$^{2+}$, Pt$^{2+}$ |
+
+</div>
 
 ## 2. Spectrochemical Series and $\Delta$
 
@@ -126,12 +130,16 @@ where $Z$ is the metal charge, $q$ is the ligand charge, and $r$ is the metal-li
 
 ### 3.2 Electron Configurations
 
+<div class="table-wrap">
+
 | $d^n$ | High-spin (weak field)         | Low-spin (strong field)        |
 | ----- | ------------------------------ | ------------------------------ |
 | $d^4$ | $t_{2g}^3\,e_g^1$ (4 unpaired) | $t_{2g}^4\,e_g^0$ (2 unpaired) |
 | $d^5$ | $t_{2g}^3\,e_g^2$ (5 unpaired) | $t_{2g}^5\,e_g^0$ (1 unpaired) |
 | $d^6$ | $t_{2g}^4\,e_g^2$ (4 unpaired) | $t_{2g}^6\,e_g^0$ (0 unpaired) |
 | $d^7$ | $t_{2g}^5\,e_g^2$ (3 unpaired) | $t_{2g}^6\,e_g^1$ (1 unpaired) |
+
+</div>
 
 **Example 2:** $[\text{Fe(H}_2\text{O)}_6]^{2+}$ ($d^6$, $\Delta_o \approx 10,400$ cm$^{-1}$):
 High-spin ($\Delta_o < P$), $t_{2g}^4\,e_g^2$, 4 unpaired electrons.
@@ -246,6 +254,8 @@ $$
 where $n$ is the number of unpaired electrons and $\mu_B = 9.274 \times 10^{-24}$ J/T is the Bohr
 magneton.
 
+<div class="table-wrap">
+
 | Unpaired Electrons $n$ | $\mu_{\text{eff}}$ ($\mu_B$) |
 | ---------------------- | ---------------------------- |
 | 1                      | 1.73                         |
@@ -253,6 +263,8 @@ magneton.
 | 3                      | 3.87                         |
 | 4                      | 4.90                         |
 | 5                      | 5.92                         |
+
+</div>
 
 ### 7.2 Magnetic Properties
 
@@ -456,6 +468,8 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                                                      |
 | --------------------------------- | ----------- | ----------------------------------------------------------------------------------------- |
 | Atomic Structure                  | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)                       |
@@ -463,7 +477,9 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 | Solid-State Chemistry             | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)                                  |
 | Coordination Chemistry, MIT 5.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-03-principles-of-inorganic-chemistry-iii-fall-2005/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

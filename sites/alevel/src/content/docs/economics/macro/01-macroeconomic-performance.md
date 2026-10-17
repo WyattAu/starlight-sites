@@ -200,6 +200,8 @@ Council tax). RPI tends to give a higher inflation rate than CPI.
 Understanding the differences between CPI and RPI is essential for A Level Economics. While both
 Measure inflation, they differ in methodology and coverage:
 
+<div class="table-wrap">
+
 | Feature                 | CPI                                                         | RPI                                                                                         |
 | ----------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Formula**             | Uses a **Jevons index** (geometric mean) for most items     | Uses a **Carli index** (arithmetic mean) for some items                                     |
@@ -208,6 +210,8 @@ Measure inflation, they differ in methodology and coverage:
 | **Typical result**      | Generally lower                                             | Generally higher (0.5-1 percentage points above CPI)                                        |
 | **Uses**                | Bank of England inflation target, international comparisons | Index-linked gilts, some private pension increases, rail fare increases                     |
 | **Status**              | UK's primary inflation measure                              | Discredited as a National Statistic (2013) but still used for some contracts                |
+
+</div>
 
 **Why RPI gives a higher figure**: The RPI's use of the Carli (arithmetic mean) formula is the key
 Technical reason. When some prices in a category rise and others fall, the arithmetic mean gives a
@@ -333,6 +337,8 @@ Discouraged workers, homemakers).
 
 ### 3.2 Types of Unemployment
 
+<div class="table-wrap">
+
 | Type           | Cause                                                       | Remedy                                                |
 | -------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | **Cyclical**   | Insufficient aggregate demand ($Y \lt Y_{fe}$)              | Demand-side policy                                    |
@@ -340,6 +346,8 @@ Discouraged workers, homemakers).
 | **Frictional** | Time taken to match workers with jobs (search, transitions) | Improve job information, reduce search costs          |
 | **Seasonal**   | Regular seasonal patterns (agriculture, tourism)            | Limited scope for policy                              |
 | **Real-wage**  | Wages above equilibrium (minimum wage, union power)         | Reduce wage rigidity                                  |
+
+</div>
 
 **Natural rate of unemployment (NAIRU)**: the rate of unemployment consistent with stable inflation
 - the sum of frictional and structural unemployment.
@@ -866,6 +874,8 @@ The Bank of England feared that if inflation remained high for an extended perio
 
 An economy has the following components (GBP billions):
 
+<div class="table-wrap">
+
 | Component                         | Value |
 | --------------------------------- | ----- |
 | Household consumption (C)         | 1,200 |
@@ -873,6 +883,8 @@ An economy has the following components (GBP billions):
 | Government consumption (G)        | 400   |
 | Exports (X)                       | 500   |
 | Imports (M)                       | 550   |
+
+</div>
 
 **GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900$$
 
@@ -900,6 +912,8 @@ $$
 
 **Example: CPI construction from basket data.**
 
+<div class="table-wrap">
+
 | Item          | Base quantity | Base price (2019) | Current price (2024) | Weight |
 | ------------- | ------------- | ----------------- | -------------------- | ------ |
 | Bread         | 10 units      | GBP 1.00          | GBP 1.30             | 3%     |
@@ -909,6 +923,8 @@ $$
 | Entertainment | 20 units      | GBP 10/unit       | GBP 12/unit          | 8%     |
 | Transport     | 50 trips      | GBP 5/trip        | GBP 5/trip           | 10%    |
 | Other         | 40%           | Various           | +4% on average       | 40%    |
+
+</div>
 
 **Laspeyres CPI calculation:**
 
@@ -968,6 +984,8 @@ trade-off was self-defeating.
 
 **Example.** Constructing the current account from data.
 
+<div class="table-wrap">
+
 | Component                  | GBP billions |
 | -------------------------- | ------------ |
 | Exports of goods           | 350          |
@@ -978,6 +996,8 @@ trade-off was self-defeating.
 | Primary income: paid       | 220          |
 | Secondary income: received | 15           |
 | Secondary income: paid     | 40           |
+
+</div>
 
 **Current account calculation:**
 
@@ -1005,6 +1025,8 @@ $\pi^e_t = \pi_{t-1}$ (adaptive expectations). Initial inflation = 3%.
 
 The government keeps unemployment at 3% indefinitely.
 
+<div class="table-wrap">
+
 | Year | $u$ | $\pi^e$ | $\pi$ |
 | ---- | --- | ------- | ----- |
 | 0    | 5%  | 3.0%    | 3.0%  |
@@ -1013,6 +1035,8 @@ The government keeps unemployment at 3% indefinitely.
 | 3    | 3%  | 5.0%    | 6.0%  |
 | 4    | 3%  | 6.0%    | 7.0%  |
 | 5    | 3%  | 7.0%    | 8.0%  |
+
+</div>
 
 Inflation accelerates by 1 percentage point per year indefinitely. This is **accelerating
 inflation** -- the defining characteristic of the expectations-augmented Phillips curve when
@@ -1096,6 +1120,8 @@ expectations.
 
 **Example.** A country's nominal GDP and GDP deflator data over 10 years:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (bn) | GDP Deflator | Real GDP (bn) | Real Growth |
 | :--: | :--------------: | :----------: | :-----------: | :---------: |
 | 2015 |      1,800       |    100.0     |    1,800.0    |     --      |
@@ -1108,6 +1134,8 @@ expectations.
 | 2022 |      2,200       |    117.5     |    1,872.3    |    2.29%    |
 | 2023 |      2,280       |    121.0     |    1,884.3    |    0.64%    |
 | 2024 |      2,350       |    123.0     |    1,910.6    |    1.39%    |
+
+</div>
 
 **Calculations (Year 2016 as example):** Real GDP $= \frac{1850}{102.0} \times 100 = 1813.7$. Growth
 $= \frac{1813.7 - 1800.0}{1800.0} \times 100 = 0.76\%$.
@@ -1126,11 +1154,15 @@ $= \frac{1813.7 - 1800.0}{1800.0} \times 100 = 0.76\%$.
 
 **Real GDP per capita (population = 67 million, growing 0.5% per year):**
 
+<div class="table-wrap">
+
 | Year | Real GDP per capita |  Growth   |
 | :--: | :-----------------: | :-------: |
 | 2015 |       26,866        |    --     |
 | 2020 |       24,713        | -1.66%/yr |
 | 2024 |       27,053        | +0.89%/yr |
+
+</div>
 
 Real GDP per capita growth has been even weaker than real GDP growth because population growth
 dilutes per capita figures. This is the most relevant measure of living standards.
@@ -1185,12 +1217,16 @@ $0.0302 \times 2200 = \text{GBP } 66.4\text{bn}$.
 **Example.** Inflation is 8% in year 1 and 4% in year 2. Three individuals have different financial
 situations:
 
+<div class="table-wrap">
+
 |               | Person A (saver)        | Person B (borrower) | Person C (wage earner) |
 | ------------- | ----------------------- | ------------------- | ---------------------- |
 | Cash savings  | GBP 100,000             | 0                   | GBP 10,000             |
 | Mortgage      | 0                       | GBP 200,000         | GBP 150,000            |
 | Salary        | Retired (fixed pension) | Self-employed       | Employed               |
 | Salary growth | 0%                      | 10%                 | 3%                     |
+
+</div>
 
 **Year 1 (8% inflation):**
 
@@ -1226,6 +1262,8 @@ $= 100 \times 4 \times 50 = 20,000$ per year. This is also a deadweight loss.
 
 **Example.** The UK's balance of payments (2023, approximate figures, GBP billions):
 
+<div class="table-wrap">
+
 | Component                  | Amount |
 | -------------------------- | :----: |
 | Exports of goods           |  380   |
@@ -1236,6 +1274,8 @@ $= 100 \times 4 \times 50 = 20,000$ per year. This is also a deadweight loss.
 | Primary income: paid       |  270   |
 | Secondary income: received |   25   |
 | Secondary income: paid     |   55   |
+
+</div>
 
 **Current account calculation:**
 
@@ -1285,6 +1325,8 @@ indicators for two countries.
 
 **Country A and Country B:**
 
+<div class="table-wrap">
+
 | Indicator                     | Country A | Country B |
 | ----------------------------- | :-------: | :-------: |
 | GDP per capita (USD)          |  50,000   |  30,000   |
@@ -1296,6 +1338,8 @@ indicators for two countries.
 | Tertiary education (%)        |    45%    |    55%    |
 | CO2 emissions (tonnes/capita) |    15     |     6     |
 | Mental health (WHO-5 score)   |    52     |    68     |
+
+</div>
 
 **Human Development Index (HDI):** HDI = geometric mean of (health index, education index, income
 index). Health index = (life expectancy - 20) / (85 - 20) = (78 - 20)/65 = 0.892 (A), (82 - 20)/65 =
@@ -1335,16 +1379,22 @@ creates distortions over time as relative prices change. Chain-linking addresses
 
 **Fixed-base method (2015 = 100):**
 
+<div class="table-wrap">
+
 | Year | Nominal GDP | GDP Deflator | Real GDP (2015 prices) |  Growth   |
 | :--: | :---------: | :----------: | :--------------------: | :-------: |
 | 2015 |    2,000    |     100      |         2,000          |    --     |
 | 2020 |    2,200    |     115      |         1,913          | -1.78%/yr |
 | 2025 |    2,600    |     130      |         2,000          | +0.89%/yr |
 
+</div>
+
 The fixed-base method uses 2015 price weights. By 2025, these weights are 10 years old and may not
 reflect current spending patterns.
 
 **Chain-linking method:** Recalculates weights each year using the previous year's prices.
+
+<div class="table-wrap">
 
 | Year | Real GDP (chained) | Growth |
 | :--: | :----------------: | :----: |
@@ -1360,6 +1410,8 @@ reflect current spending patterns.
 | 2024 |       2,080        | 1.46%  |
 | 2025 |       2,100        | 0.96%  |
 
+</div>
+
 **Comparison:** The chained measure shows a deeper recession in 2019-2020 (because recent price
 weights give more weight to sectors that contracted most, like services) and a slower recovery. The
 fixed-base measure understates the severity of the recession.
@@ -1374,6 +1426,8 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 
 **Components and weights:**
 
+<div class="table-wrap">
+
 | Component              | Weight | Data source |
 | ---------------------- | :----: | ----------- |
 | GDP per capita         |  20%   | ONS         |
@@ -1386,12 +1440,16 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 | Housing affordability  |  10%   | ONS         |
 | Broadband access       |   5%   | Ofcom       |
 
+</div>
+
 **Methodology:**
 
 1. Each component is normalised to a 0-100 scale (min-max normalisation).
 2. The normalised scores are multiplied by their weights and summed.
 
 **Example: London vs North East:**
+
+<div class="table-wrap">
 
 | Component             | London (normalised) | North East (normalised) |
 | --------------------- | :-----------------: | :---------------------: |
@@ -1404,6 +1462,8 @@ structural change (e.g., deindustrialisation, the rise of the service sector).
 | Air quality           |         30          |           65            |
 | Housing affordability |         15          |           70            |
 | Broadband             |         90          |           75            |
+
+</div>
 
 **Composite score:** London:
 $0.2(95) + 0.15(85) + 0.1(92) + 0.1(80) + 0.1(85) + 0.1(45) + 0.1(30) + 0.1(15) + 0.05(90) = 19 + 12.75 + 9.2 + 8 + 8.5 + 4.5 + 3 + 1.5 + 4.5 = 70.95$.

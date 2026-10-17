@@ -434,6 +434,8 @@ Significance.
 Shakespeare's plays are divided into five acts, a convention inherited from Roman comedy. The
 Five-act structure follows this pattern:
 
+<div class="table-wrap">
+
 | Act                  | Function                                                                             |
 | -------------------- | ------------------------------------------------------------------------------------ |
 | Act 1                | **Exposition.** Introduction of characters, setting, and the central conflict.       |
@@ -441,6 +443,8 @@ Five-act structure follows this pattern:
 | Act 3 | **Climax.** The turning point of the play. In tragedy, this is often the point of no return. |
 | Act 4 | **Falling action.** The consequences of the climax unfold. In tragedy, the hero's decline accelerates. |
 | Act 5 | **Resolution.** The conclusion: in tragedy, death; in comedy, marriage and reconciliation. |
+
+</div>
 
 Students should be able to identify the structural function of any given scene within this framework
 and to explain how Shakespeare uses structure to shape the audience's experience.

@@ -293,12 +293,16 @@ use a linked list.
 
 (a) A sorting algorithm makes the following number of comparisons for inputs of different sizes:
 
+<div class="table-wrap">
+
 | $n$ | Comparisons |
 | --- | ----------- |
 | 10  | 45          |
 | 20  | 190         |
 | 30  | 435         |
 | 50  | 1225        |
+
+</div>
 
 Determine the time complexity of this algorithm from the data. Show your working.
 

@@ -376,6 +376,8 @@ Hierarchy of the standard library.
 
 ### Core Language Concepts
 
+<div class="table-wrap">
+
 | Concept                         | Description                                          | Key relationships                     |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | `std::same_as<T, U>`            | `T` and `U` are the same type                        | Reflexive, symmetric, transitive      |
@@ -386,7 +388,11 @@ Hierarchy of the standard library.
 | `std::unsigned_integral<T>`     | `T` is an unsigned integral type                     | Subsumes `std::integral<T>`           |
 | `std::floating_point<T>`        | `T` is a floating-point type                         | `float``double``long double`          |
 
+</div>
+
 ### Comparison Concepts
+
+<div class="table-wrap">
 
 | Concept                        | Description                                    |
 | ------------------------------ | ---------------------------------------------- |
@@ -394,7 +400,11 @@ Hierarchy of the standard library.
 | `std::totally_ordered<T>`      | `\<``\>``\<=``\>=` define a total order on `T` |
 | `std::three_way_comparable<T>` | `\<=\>` is defined for `T`                     |
 
+</div>
+
 ### Object Concepts
+
+<div class="table-wrap">
 
 | Concept                | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -404,7 +414,11 @@ Hierarchy of the standard library.
 | `std::regular<T>`      | `T` is semiregular and equality_comparable                   |
 | `std::destructible<T>` | `T` can be destroyed                                         |
 
+</div>
+
 ### Callable Concepts
+
+<div class="table-wrap">
 
 | Concept                           | Description                                                       |
 | --------------------------------- | ----------------------------------------------------------------- |
@@ -412,6 +426,8 @@ Hierarchy of the standard library.
 | `std::predicate<F, Args...>`      | `F(Args...)` returns something convertible to `bool`              |
 | `std::relation<F, T, U>`          | `F(T, U)` defines an equivalence relation or strict weak ordering |
 | `std::strict_weak_order<F, T, U>` | `F(T, U)` defines a strict weak ordering                          |
+
+</div>
 
 ### Iterator and Range Concepts
 
@@ -449,6 +465,8 @@ Before C++20, template constraints were expressed using SFINAE (Substitution Fai
 Error) with techniques like `std::enable_if`, `std::void_t` and `decltype`. Concepts provide a Cleaner,
 more expressive, and more composable alternative.
 
+<div class="table-wrap">
+
 | Aspect                  | SFINAE (`enable_if`)                                         | Concepts                                    |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | **Syntax**              | Verbose, often nested in return types or default arguments   | Concise, declarative                        |
@@ -459,6 +477,8 @@ more expressive, and more composable alternative.
 | **Overload resolution** | Ambiguity-prone with multiple enable_if                      | Ambiguity-free with proper concept design   |
 | **Performance**         | Zero runtime overhead                                        | Zero runtime overhead                       |
 | **Standard reference**  | [N4950 §13.10.3] (SFINAE context)                            | [N4950 §18.4] (concept definitions)         |
+
+</div>
 
 **Example: SFINAE approach (pre-C++20)**
 

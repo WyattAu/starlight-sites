@@ -249,6 +249,8 @@ Prices serve several critical functions in a market economy:
 
 An economy can produce the following combinations of capital goods ($K$) and consumer goods ($C$):
 
+<div class="table-wrap">
+
 | Point | K (units) | C (units) |
 | ----- | --------- | --------- |
 | A     | 0         | 100       |
@@ -257,6 +259,8 @@ An economy can produce the following combinations of capital goods ($K$) and con
 | D     | 30        | 70        |
 | E     | 40        | 50        |
 | F     | 50        | 0         |
+
+</div>
 
 (a) Calculate the opportunity cost of increasing capital goods production from 20 to 30 units.
 
@@ -679,6 +683,8 @@ $45,000 and 150,000 units.
 
 An economy can produce the following combinations of food ($F$) and machines ($M$):
 
+<div class="table-wrap">
+
 | Combination | Food (units) | Machines (units) |
 | ----------- | ------------ | ---------------- |
 | A           | 0            | 100              |
@@ -686,6 +692,8 @@ An economy can produce the following combinations of food ($F$) and machines ($M
 | C           | 70           | 70               |
 | D           | 90           | 40               |
 | E           | 100          | 0                |
+
+</div>
 
 Moving from B to C, the opportunity cost of 30 additional units of food is 20 machines
 ($20/30 = 0.67$ machines per unit of food). Moving from C to D, the opportunity cost of 20

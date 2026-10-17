@@ -20,11 +20,15 @@ date: 2026-05-31T00:00:00.000Z
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Symbol       | Relative Mass    | Relative Charge | Location        |
 | -------- | ------------ | ---------------- | --------------- | --------------- |
 | Proton   | $p$ or $p^+$ | 1                | +1              | Nucleus         |
 | Neutron  | $n$          | 1                | 0               | Nucleus         |
 | Electron | $e^-$        | $\frac{1}{1836}$ | $-1$            | Electron shells |
+
+</div>
 
 - **Atomic number ($Z$):** number of protons; defines the element
 - **Mass number ($A$):** protons + neutrons
@@ -34,12 +38,16 @@ date: 2026-05-31T00:00:00.000Z
 
 Electrons occupy shells. The maximum number of electrons in each shell follows the **$2n^2$ rule**:
 
+<div class="table-wrap">
+
 | Shell ($n$) | Max electrons ($2n^2$) | Sub-shell arrangement |
 | ----------- | ---------------------- | --------------------- |
 | 1           | 2                      | 1s                    |
 | 2           | 8                      | 2s, 2p                |
 | 3           | 18                     | 3s, 3p, 3d            |
 | 4           | 32                     | 4s, 4p, 4d, 4f        |
+
+</div>
 
 Electrons fill in order of increasing energy: 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p...
 
@@ -64,6 +72,8 @@ Electrons fill in order of increasing energy: 1s → 2s → 2p → 3s → 3p →
 
 ### Across a Period (left to right)
 
+<div class="table-wrap">
+
 | Property           | Trend               | Reason                                           |
 | ------------------ | ------------------- | ------------------------------------------------ |
 | Atomic radius      | Decreases           | Increasing nuclear charge pulls electrons closer |
@@ -71,13 +81,19 @@ Electrons fill in order of increasing energy: 1s → 2s → 2p → 3s → 3p →
 | Electronegativity  | Increases           | Stronger pull on bonding electrons               |
 | Metallic character | Decreases           | Atoms hold electrons more tightly                |
 
+</div>
+
 ### Down a Group
+
+<div class="table-wrap">
 
 | Property           | Trend     | Reason                                                |
 | ------------------ | --------- | ----------------------------------------------------- |
 | Atomic radius      | Increases | Additional electron shells                            |
 | Ionisation energy  | Decreases | Increased shielding outweighs nuclear charge increase |
 | Metallic character | Increases | Outer electrons further from nucleus                  |
+
+</div>
 
 ### Group Properties
 
@@ -115,12 +131,16 @@ Show the transfer of electrons evidently:
 
 ### Properties of Ionic Compounds
 
+<div class="table-wrap">
+
 | Property                    | Explanation                                                   |
 | --------------------------- | ------------------------------------------------------------- |
 | High melting/boiling point  | Strong electrostatic forces in giant ionic lattice            |
 | Hard and brittle            | Layers of ions; displacement of like charges causes repulsion |
 | Conduct when molten/aqueous | Ions are free to move and carry charge                        |
 | Soluble in water            | Polar water molecules attract and separate ions               |
+
+</div>
 
 ---
 
@@ -158,10 +178,14 @@ $\mathrm{H}^+$).
 
 ### Simple vs Giant Covalent Structures
 
+<div class="table-wrap">
+
 | Type   | Structure            | Examples                                          | Properties                                  |
 | ------ | -------------------- | ------------------------------------------------- | ------------------------------------------- |
 | Simple | Individual molecules | $\mathrm{H_2O}$, $\mathrm{CO_2}$, $\mathrm{CH_4}$ | Low m.p./b.p.; weak intermolecular forces   |
 | Giant  | Continuous network   | Diamond, graphite, $\mathrm{SiO_2}$               | Very high m.p.; very hard (except graphite) |
+
+</div>
 
 **Diamond:** tetrahedral; each C bonded to 4 others; insulator **Graphite:** layered; each C bonded
 to 3 others; delocalised electrons → conducts electricity; lubricant (weak intermolecular forces
@@ -187,6 +211,8 @@ between ions and the delocalised electrons is the metallic bond.
 
 ### Properties of Metals
 
+<div class="table-wrap">
+
 | Property                  | Explanation                                                     |
 | ------------------------- | --------------------------------------------------------------- |
 | High melting point        | Strong metallic bonding (more delocalised electrons → stronger) |
@@ -194,6 +220,8 @@ between ions and the delocalised electrons is the metallic bond.
 | Malleable and ductile     | Layers of ions can slide; delocalised electrons re-attract      |
 | Good thermal conductivity | Delocalised electrons transfer kinetic energy                   |
 | Shiny appearance          | Delocalised electrons absorb and re-emit light                  |
+
+</div>
 
 **Alloys** (e.g. steel, brass) are mixtures of metals with other elements. Different-sized atoms
 disrupt the regular lattice, making alloys **harder** than pure metals.
@@ -251,6 +279,8 @@ disrupt the regular lattice, making alloys **harder** than pure metals.
 
 ## 7. Physical Properties Linked to Structure
 
+<div class="table-wrap">
+
 | Substance       | Bonding/Structure           | Melting Point | Conductivity | Solubility     |
 | --------------- | --------------------------- | ------------- | ------------ | -------------- |
 | $\mathrm{NaCl}$ | Ionic lattice               | High          | Molten/aq    | Polar solvents |
@@ -259,6 +289,8 @@ disrupt the regular lattice, making alloys **harder** than pure metals.
 | $\mathrm{Cu}$   | Metallic                    | High          | Yes          | Insoluble      |
 | $\mathrm{H_2O}$ | Simple covalent + H-bonding | Low           | No           | Miscible       |
 | $\mathrm{I_2}$  | Simple covalent + London    | Low           | No           | Non-polar      |
+
+</div>
 
 **Key principle:** The type of bonding determines the physical properties. Metallic and ionic
 bonding → high m.p. Giant covalent → very high m.p. Simple covalent → low m.p. (stronger

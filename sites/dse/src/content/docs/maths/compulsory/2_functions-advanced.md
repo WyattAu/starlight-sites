@@ -38,11 +38,15 @@ Transformations.
 The **natural domain** of a function is the largest subset of $\mathbb{R}$ for which the function
 Expression is defined. Restrictions arise from:
 
+<div class="table-wrap">
+
 | Restriction      | Condition              | Example                                                                   |
 | ---------------- | ---------------------- | ------------------------------------------------------------------------- |
 | Division by zero | Denominator $\neq 0$   | $f(x) = \dfrac{1}{x - 2}$: $\mathrm{dom}(f) = \mathbb{R} \setminus \{2\}$ |
 | Even root        | Radicand $\geqslant 0$ | $f(x) = \sqrt{x - 3}$: $\mathrm{dom}(f) = [3, \infty)$                    |
 | Logarithm        | Argument $\gt 0$       | $f(x) = \ln(x + 1)$: $\mathrm{dom}(f) = (-1, \infty)$                     |
+
+</div>
 
 ### Finding the Range
 
@@ -172,12 +176,16 @@ Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$ With domain $\mathbb{R} \setminus \
 
 Given $y = f(x)$:
 
+<div class="table-wrap">
+
 | Transformation | Effect on Graph                                               |
 | -------------- | ------------------------------------------------------------- |
 | $y = f(x) + c$ | Vertical shift up by $c$ ($c \gt 0$) or down ($c \lt 0$) |
 | $y = f(x - h)$ | Horizontal shift right by $h$ ($h \gt 0$) or left ($h \lt 0$) |     |                                     |
 | $y = af(x)$    | Vertical stretch by factor $                                  \| a   \| $; reflect in $x$-axis if $a \lt 0$ |
 | $y = f(kx)$    | Horizontal stretch by factor $1/                              \| k   \| $; reflect in $y$-axis if $k \lt 0$ |
+
+</div>
 
 ### Combined Transformation: $y = af(x + b) + c$
 
@@ -266,6 +274,8 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                 | Key Result                                             |
 | --------------------- | ------------------------------------------------------ |
 | Domain of $f \circ g$ | $\{x \in \mathrm{dom}(g) : g(x) \in \mathrm{dom}(f)\}$ |
@@ -274,6 +284,8 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 | $f(f^{-1}(x)) = x$    | For all $x \in \mathrm{dom}(f^{-1})$                   |
 | Graph of inverse      | Reflection in $y = x$                                  |
 | $y = f(x - h)$        | Shift right by $h$                                     |
+
+</div>
 
 ---
 
@@ -406,11 +418,15 @@ $$
 
 Critical points: $x = \dfrac{7}{2}$ and $x = 2$.
 
+<div class="table-wrap">
+
 | Interval                   | Sign of $\dfrac{-2x+7}{x-2}$     |
 | -------------------------- | -------------------------------- |
 | $x \lt 2$                  | negative / negative $=$ positive |
 | $2 \lt x \lt \dfrac{7}{2}$ | positive / positive $=$ positive |
 | $x \gt \dfrac{7}{2}$       | negative / positive $=$ negative |
+
+</div>
 
 At $x = \dfrac{7}{2}$: expression equals $0$ Which satisfies $\geq 0$.
 

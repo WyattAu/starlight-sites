@@ -125,6 +125,8 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 
 ### 1.8 Summary Table: ODE Classification
 
+<div class="table-wrap">
+
 | Equation | Order | Linear? | Homogeneous? | Type |
 | --- | --- | --- | --- | --- |
 | $y' + 3y = 0$ | 1 | Yes | Yes | Linear, constant coeff. |
@@ -132,6 +134,8 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 | $y' = y^2$ | 1 | No |, | Nonlinear |
 | $x^2 y'' + xy' + (x^2-n^2)y = 0$ | 2 | Yes | Yes | Bessel's equation |
 | $u_t = \alpha^2 u_{xx}$ | 2 | Yes | Yes | Heat equation (PDE) |
+
+</div>
 
 ### 1.9 Applications in Practice
 

@@ -218,12 +218,16 @@ Where $P_l^m$ are the associated Legendre functions.
 
 **First few spherical harmonics:**
 
+<div class="table-wrap">
+
 | $(l, m)$     | $Y_l^m(\theta,\phi)$                                 |
 | ------------ | ---------------------------------------------------- |
 | $(0, 0)$     | $\dfrac{1}{\sqrt{4\pi}}$                             |
 | $(1, 0)$     | $\sqrt{\dfrac{3}{4\pi}}\cos\theta$                   |
 | $(1, \pm 1)$ | $\mp\sqrt{\dfrac{3}{8\pi}}\sin\theta\,e^{\pm i\phi}$ |
 | $(2, 0)$     | $\sqrt{\dfrac{5}{16\pi}}(3\cos^2\theta - 1)$         |
+
+</div>
 
 ### 6.5 The Hydrogen Atom
 
@@ -371,6 +375,8 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The Bohr model gives the right angular momentum | no | it predicts $L = n\hbar$, so the ground state has $L = \hbar$; quantum mechanics gives $l = 0$ and $L = 0$, and this is measured |
@@ -381,6 +387,8 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 | $n$ determines $l$ | no | it only bounds it, $l \le n-1$; for $n = 2$ both $l = 0$ and $l = 1$ occur at the same energy |
 | Angular momentum is conserved because the state is an eigenstate of $L^2$ | no | conservation is about commuting with $\hat{H}$; a state can be an $L^2$ eigenstate and still not be stationary |
 | The energy depends on $l$ | no | for the Coulomb potential the energy depends only on $n$, which is why there are degeneracies to break |
+
+</div>
 
 The first row is the most important and the most under-appreciated. The Bohr
 model is usually presented as "right but incomplete", and for the energy
@@ -452,7 +460,7 @@ and [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/).
 - **[Scattering Theory](/5-quantum-mechanics/13_scattering-theory/)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

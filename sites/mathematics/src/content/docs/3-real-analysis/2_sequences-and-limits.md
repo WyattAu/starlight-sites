@@ -234,6 +234,8 @@ bounded and attains its bounds.
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Sequence | Bounded? | Monotone? | Cauchy? | Convergent? |
 | -------- | -------- | --------- | ------- | ----------- |
 | $a_n = (-1)^n$ | yes | no | no | no |
@@ -242,11 +244,15 @@ bounded and attains its bounds.
 | $a_n = (1+1/n)^n$ in $\mathbb{Q}$ | yes | yes | yes | **no** |
 | $a_n = \sin n$ | yes | no | no | no |
 
+</div>
+
 The fourth row is the one to remember. It is a sequence of rationals, Cauchy in
 $\mathbb{Q}$, with no rational limit — and it is the reason $\mathbb{R}$ has to
 be constructed as a completion rather than assumed.
 
 ## Common pitfalls
+
+<div class="table-wrap">
 
 | Pitfall | Why it happens | Fix |
 | ------- | -------------- | --- |
@@ -255,6 +261,8 @@ be constructed as a completion rather than assumed.
 | Writing "$N$ depends on $n$" | Quantifier swap | $N$ may depend on $\varepsilon$, never on $n$ |
 | $|a_n - L| < \varepsilon$ for some $n$ | Forgetting "for all $n \ge N$" | The closeness must persist |
 | Assuming bounded implies convergent | $(-1)^n$ is the counterexample | Bounded + monotone is the theorem |
+
+</div>
 
 ## Interleaving problems
 

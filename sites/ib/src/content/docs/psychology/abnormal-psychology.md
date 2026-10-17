@@ -166,6 +166,8 @@ clinical populations:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)         | Focus                               | Key Finding                                                                                                                                                                          |
 | ------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Gottesman (1991)          | Genetics of depression              | Meta-analysis of twin studies found higher concordance rates for depression in MZ twins than DZ twins, supporting a genetic predisposition.                                          |
@@ -173,6 +175,8 @@ clinical populations:
 | Kirsch et al. (2008)      | Antidepressant efficacy             | Meta-analysis of FDA data found that SSRIs were not significantly more effective than placebo for mild to moderate depression, though effectiveness increased for severe depression. |
 | Seligman (1971)           | Learned helplessness                | Dogs exposed to inescapable shock failed to escape avoidable shock in a subsequent condition, proposing learned helplessness as a model for depression.                              |
 | Healy and Whitaker (2003) | Cultural bias in diagnosis          | Demonstrated that Western diagnostic criteria may pathologise culturally normative behaviours, such as categorising spiritual experiences as psychotic symptoms.                     |
+
+</div>
 
 ## Summary
 

@@ -48,6 +48,8 @@ Car).
 
 ### 1.2 Sampling Methods
 
+<div class="table-wrap">
+
 | Method        | Description                          | Advantage             | Disadvantage                 |
 | ------------- | ------------------------------------ | --------------------- | ---------------------------- |
 | Simple random | Every member has equal chance        | Unbiased              | May not represent subgroups  |
@@ -55,6 +57,8 @@ Car).
 | Stratified    | Sample proportionally from subgroups | Represents all groups | Requires knowledge of groups |
 | Quota         | Interviewer fills quotas             | Quick                 | Not truly random             |
 | Opportunity   | Whoever is available                 | Convenient            | Highly biased                |
+
+</div>
 
 **Stratified sampling formula.** If a population of size $N$ contains a subgroup of size $n$ Then The
 sample from that subgroup should be:
@@ -96,11 +100,15 @@ Only one school is still biased if you want to draw conclusions about all school
 
 ### 2.1 Mean, Median, and Mode
 
+<div class="table-wrap">
+
 | Measure | Definition                        | When to use                         |
 | ------- | --------------------------------- | ----------------------------------- |
 | Mean    | $\bar{x} = \frac{\sum x}{n}$      | Uses all data; affected by outliers |
 | Median  | Middle value when data is ordered | Not affected by outliers            |
 | Mode    | Most frequent value               | Useful for categorical data         |
+
+</div>
 
 **Worked Example.** Find the mean, median, and mode of: $3, 5, 2, 7, 5, 8, 5, 1, 9, 4$.
 
@@ -126,6 +134,8 @@ $$
 
 **Worked Example.**
 
+<div class="table-wrap">
+
 | Score $x$ | Frequency $f$ | $f \times x$ |
 | --------- | ------------- | ------------ |
 | 1         | 4             | 4            |
@@ -134,6 +144,8 @@ $$
 | 4         | 9             | 36           |
 | 5         | 3             | 15           |
 | **Total** | **35**        | **105**      |
+
+</div>
 
 $$
 \bar{x} = \frac{105}{35} = 3
@@ -145,6 +157,8 @@ For grouped data, use the **midpoint** of each class as an estimate for $x$.
 
 **Worked Example.**
 
+<div class="table-wrap">
+
 | Height (cm)          | Frequency $f$ | Midpoint $x$ | $f \times x$ |
 | -------------------- | ------------- | ------------ | ------------ |
 | $140 \leq h \lt 150$ | 5             | 145          | 725          |
@@ -153,6 +167,8 @@ For grouped data, use the **midpoint** of each class as an estimate for $x$.
 | $170 \leq h \lt 180$ | 10            | 175          | 1750         |
 | $180 \leq h \lt 190$ | 5             | 185          | 925          |
 | **Total**            | **50**        |              | **8230**     |
+
+</div>
 
 $$
 \mathrm{Estimated mean = \frac{8230}{50} = 164.6 \mathrm{ cm
@@ -256,6 +272,8 @@ Since all values are between $-9.125$ and $35.875$ There are no outliers.
 
 ### 4.1 Charts and Diagrams
 
+<div class="table-wrap">
+
 | Chart                | Best for                                  |
 | -------------------- | ----------------------------------------- |
 | Bar chart            | Comparing categories                      |
@@ -264,6 +282,8 @@ Since all values are between $-9.125$ and $35.875$ There are no outliers.
 | Scatter graph        | Relationship between two variables        |
 | Histogram            | Continuous data with unequal class widths |
 | Cumulative frequency | Finding medians and quartiles             |
+
+</div>
 
 ### 4.2 Histograms
 
@@ -275,12 +295,16 @@ $$
 
 **Worked Example.**
 
+<div class="table-wrap">
+
 | Distance (km)      | Frequency | Class width | Frequency density |
 | ------------------ | --------- | ----------- | ----------------- |
 | $0 \leq d \lt 10$  | 15        | 10          | 1.5               |
 | $10 \leq d \lt 25$ | 30        | 15          | 2.0               |
 | $25 \leq d \lt 40$ | 45        | 15          | 3.0               |
 | $40 \leq d \lt 60$ | 20        | 20          | 1.0               |
+
+</div>
 
 The bar heights (frequency densities) are 1.5, 2.0, 3.0, and 1.0 respectively.
 
@@ -320,11 +344,15 @@ From the ogive, the median falls in the $25 \leq d \lt 40$ class.
 
 **Correlation** describes the relationship between two variables:
 
+<div class="table-wrap">
+
 | Type           | Description                             |
 | -------------- | --------------------------------------- |
 | Positive       | As $x$ increases, $y$ tends to increase |
 | Negative       | As $x$ increases, $y$ tends to decrease |
 | No correlation | No apparent relationship                |
+
+</div>
 
 **Line of best fit:** A straight line drawn through the data that approximately follows the trend.
 It should pass through the mean point $(\bar{x}, \bar{y})$ and have roughly equal numbers of points
@@ -470,12 +498,16 @@ $$
 
 A Venn diagram with two sets $A$ and $B$ has four regions:
 
+<div class="table-wrap">
+
 | Region     | Notation      | Description           |
 | ---------- | ------------- | --------------------- |
 | Left only  | $A \cap B'$   | In $A$ but not in $B$ |
 | Right only | $A' \cap B$   | In $B$ but not in $A$ |
 | Overlap    | $A \cap B$    | In both               |
 | Outside    | $(A \cup B)'$ | In neither            |
+
+</div>
 
 **Worked Example.** In a survey of 100 people, 45 like tea, 35 like coffee, and 15 like both. A
 Person is chosen at random. Find the probability they like neither.
@@ -679,11 +711,15 @@ Variables.
 
 **Types of correlation:**
 
+<div class="table-wrap">
+
 | Correlation | Description                                    |
 | ----------- | ---------------------------------------------- |
 | Positive    | As one variable increases, so does the other   |
 | Negative    | As one variable increases, the other decreases |
 | None        | No visible linear pattern                      |
+
+</div>
 
 The **line of best fit** is drawn by eye so that it passes through the middle of the data, with
 Roughly equal numbers of points on each side. It can be used to make predictions:
@@ -771,6 +807,8 @@ The area under a frequency polygon equals the total frequency (just like a histo
 
 4. The table below shows the distribution of exam scores for a class of 40 students:
 
+<div class="table-wrap">
+
 | Score range        | Frequency |
 | ------------------ | --------- |
 | $0 \le s \lt 20$   | 3         |
@@ -778,6 +816,8 @@ The area under a frequency polygon equals the total frequency (just like a histo
 | $40 \le s \lt 60$  | 14        |
 | $60 \le s \lt 80$  | 10        |
 | $80 \le s \lt 100$ | 5         |
+
+</div>
 
 Draw a cumulative frequency curve and estimate the median and interquartile range.
 

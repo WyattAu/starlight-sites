@@ -81,12 +81,16 @@ $$
 
 ### 13.4 Key Relationships
 
+<div class="table-wrap">
+
 | Method                | Validity                    | Accuracy                      | Use case                        |
 | --------------------- | --------------------------- | ----------------------------- | ------------------------------- |
 | WKB                   | Slowly varying $V(x)$       | Leading order in $\hbar$      | Semiclassical tunnelling        |
 | Exact solution        | All potentials              | Exact                         | Solvable potentials (HO, Coulomb) |
 | Perturbation theory   | Small $V'$ relative to $V$  | $\sim \epsilon^2$ error       | Weak anharmonic corrections     |
 | Variational method    | Any (with trial function)   | Upper bound, depends on trial | Ground state energies           |
+
+</div>
 
 ### 13.5 Common Pitfalls
 
@@ -101,6 +105,8 @@ $$
 
 ### 13.6 Summary Table
 
+<div class="table-wrap">
+
 | Potential type         | Turning points | Quantisation condition       | WKB exact? |
 | ---------------------- | -------------- | ---------------------------- | ---------- |
 | Harmonic oscillator    | 2 (smooth)     | $n + 1/2$                    | Yes        |
@@ -108,6 +114,8 @@ $$
 | Linear potential       | 1 (smooth)     | Airy zeros                   | No         |
 | Coulomb                | 2 (smooth)     | $n - 1/2$ for $l=0$         | Approx.    |
 | Quartic double well    | 4 (smooth)     | Splitting via instantons     | No         |
+
+</div>
 
 ### 13.7 Applications
 
@@ -194,7 +202,7 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - **[Wave Functions and the Schrodinger Equation](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/)**: The Schrodinger equation provides the foundation for WKB analysis.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -39,6 +39,8 @@ Structure (defined number of columns with specific data types), and relationship
 Maintained through primary keys and foreign keys. Relational databases enforce data integrity,
 Minimize redundancy, and support complex queries through SQL.
 
+<div class="table-wrap">
+
 | Aspect            | Flat File                        | Relational Database                       |
 | ----------------- | -------------------------------- | ----------------------------------------- |
 | Structure         | Single table                     | Multiple related tables                   |
@@ -48,6 +50,8 @@ Minimize redundancy, and support complex queries through SQL.
 | Query capability  | Limited (full table scan)        | SQL with indexing, joins, subqueries      |
 | Scalability       | Poor                             | Good (with proper design and indexing)    |
 | Security          | File-level only                  | Granular (table, column, row-level)       |
+
+</div>
 
 ### Why Use a Database?
 
@@ -126,12 +130,16 @@ Junction (link/associative) table.
 
 Entities: Student, Teacher, Course, Enrollment
 
+<div class="table-wrap">
+
 | Relationship       | Type | Foreign Key Location            |
 | ------------------ | ---- | ------------------------------- |
 | Teacher-Course     | 1:M  | Course table has teacherID      |
 | Student-Enrollment | 1:M  | Enrollment table has studentID  |
 | Course-Enrollment  | 1:M  | Enrollment table has courseID   |
 | Student-Course     | M:N  | Via Enrollment (junction table) |
+
+</div>
 
 ### Worked Example: Creating an ERD for a Hospital
 
@@ -157,11 +165,15 @@ Design an ERD for a hospital system with the following requirements:
 
 **Relationships:**
 
+<div class="table-wrap">
+
 | Relationship        | Type | Foreign Key Location             |
 | ------------------- | ---- | -------------------------------- |
 | Doctor-Appointment  | 1:M  | Appointment has doctorID         |
 | Patient-Appointment | 1:M  | Appointment has patientID        |
 | Doctor-Patient      | M:N  | Via Appointment (junction table) |
+
+</div>
 
 The Appointment table serves as both the junction table for the M:N Doctor-Patient relationship and
 as an entity in its own right with attributes (date, time, diagnosis). This is a common pattern
@@ -182,11 +194,15 @@ a Return date. Design the ERD.
 
 **Relationships:**
 
+<div class="table-wrap">
+
 | Relationship | Type | Notes                                                   |
 | ------------ | ---- | ------------------------------------------------------- |
 | Member-Loan  | 1:M  | A member can have many loans; each loan has one member  |
 | Book-Loan    | 1:M  | A book can be loaned many times; each loan has one book |
 | Member-Book  | M:N  | Via the Loan junction table                             |
+
+</div>
 
 The Loan table is the junction table for the M:N Member-Book relationship, and it also stores
 Attributes (borrowDate, returnDate) that belong to the relationship itself, not to either entity.
@@ -206,6 +222,8 @@ Attributes (borrowDate, returnDate) that belong to the relationship itself, not 
 
 ## Keys
 
+<div class="table-wrap">
+
 | Key Type      | Definition                                                                   | Example                                       |
 | ------------- | ---------------------------------------------------------------------------- | --------------------------------------------- |
 | Superkey      | A set of attributes that uniquely identifies each tuple (may include extras) | `{studentID, name}`                           |
@@ -214,6 +232,8 @@ Attributes (borrowDate, returnDate) that belong to the relationship itself, not 
 | Foreign key   | An attribute that references the primary key of another table                | course.teacherID references Teacher.teacherID |
 | Composite key | A primary key consisting of two or more attributes                           | `{studentID, courseID}` in Enrollment         |
 | Alternate key | A candidate key not chosen as the primary key                                | `\{email}` (if studentID is the primary key)  |
+
+</div>
 
 **Primary key requirements:** Uniqueness (no two rows have the same primary key value), non-null
 (every row must have a primary key), immutable (the value should not change over time).
@@ -226,11 +246,15 @@ The referenced table. This enforces referential integrity.
 For the following Book table, identify all superkeys, candidate keys, the primary key, and any
 Alternate keys.
 
+<div class="table-wrap">
+
 | bookID | ISBN          | title         | author        |
 | ------ | ------------- | ------------- | ------------- |
 | 1      | 978-013468599 | Clean Code    | Robert Martin |
 | 2      | 978-020161622 | PragmaticProg | Andrew Hunt   |
 | 3      | 978-013235088 | Clean Coder   | Robert Martin |
+
+</div>
 
 Assume: bookID is unique, ISBN is unique, no two books share the same title and author combination.
 
@@ -311,14 +335,20 @@ A table is in 1NF if and only if:
 
 **Violation example:**
 
+<div class="table-wrap">
+
 | OrderID | Customer | Items                |
 | ------- | -------- | -------------------- |
 | 1001    | Alice    | Laptop, Mouse, Cable |
 | 1002    | Bob      | Monitor              |
 
+</div>
+
 The Items column contains multiple values, violating the atomicity rule.
 
 **1NF conversion:** Create a separate row for each item:
+
+<div class="table-wrap">
 
 | OrderID | Customer | Item    |
 | ------- | -------- | ------- |
@@ -326,6 +356,8 @@ The Items column contains multiple values, violating the atomicity rule.
 | 1001    | Alice    | Mouse   |
 | 1001    | Alice    | Cable   |
 | 1002    | Bob      | Monitor |
+
+</div>
 
 Primary key: `{OrderID, Item}`
 
@@ -337,11 +369,15 @@ Composite.
 
 **Violation example (unnormalized table):**
 
+<div class="table-wrap">
+
 | studentID | courseID | studentName | courseTitle | teacherName |
 | --------- | -------- | ----------- | ----------- | ----------- |
 | 1         | 101      | Alice       | Math        | Mr. Smith   |
 | 1         | 102      | Alice       | Physics     | Ms. Jones   |
 | 2         | 101      | Bob         | Math        | Mr. Smith   |
+
+</div>
 
 Primary key: `{studentID, courseID}`
 
@@ -358,25 +394,37 @@ Key (studentID alone).
 
 **Student** (PK: studentID):
 
+<div class="table-wrap">
+
 | studentID | studentName |
 | --------- | ----------- |
 | 1         | Alice       |
 | 2         | Bob         |
 
+</div>
+
 **Course** (PK: courseID):
+
+<div class="table-wrap">
 
 | courseID | courseTitle | teacherName |
 | -------- | ----------- | ----------- |
 | 101      | Math        | Mr. Smith   |
 | 102      | Physics     | Ms. Jones   |
 
+</div>
+
 **Enrollment** (PK: `{studentID, courseID}`):
+
+<div class="table-wrap">
 
 | studentID | courseID |
 | --------- | -------- |
 | 1         | 101      |
 | 1         | 102      |
 | 2         | 101      |
+
+</div>
 
 ### Third Normal Form (3NF)
 
@@ -387,10 +435,14 @@ Depend directly on the primary key, not through another non-key attribute.
 
 In the Course table above:
 
+<div class="table-wrap">
+
 | courseID | courseTitle | teacherName | teacherEmail     |
 | -------- | ----------- | ----------- | ---------------- |
 | 101      | Math        | Mr. Smith   | <smith@school.edu> |
 | 102      | Physics     | Ms. Jones   | <jones@school.edu> |
+
+</div>
 
 Primary key: courseID
 
@@ -404,19 +456,29 @@ Email (deletion anomaly).
 
 **Course** (PK: courseID):
 
+<div class="table-wrap">
+
 | courseID | courseTitle | teacherID |
 | -------- | ----------- | --------- |
 | 101      | Math        | T1        |
 | 102      | Physics     | T2        |
 
+</div>
+
 **Teacher** (PK: teacherID):
+
+<div class="table-wrap">
 
 | teacherID | teacherName | teacherEmail     |
 | --------- | ----------- | ---------------- |
 | T1        | Mr. Smith   | <smith@school.edu> |
 | T2        | Ms. Jones   | <jones@school.edu> |
 
+</div>
+
 ### Summary of Normal Forms
+
+<div class="table-wrap">
 
 | Normal Form | Requirement                      | Anomaly Eliminated    |
 | ----------- | -------------------------------- | --------------------- |
@@ -424,9 +486,13 @@ Email (deletion anomaly).
 | 2NF         | 1NF + no partial dependencies    | Partial redundancy    |
 | 3NF         | 2NF + no transitive dependencies | Transitive redundancy |
 
+</div>
+
 ### Worked Example: Full Normalization
 
 Starting table: HospitalRecord
+
+<div class="table-wrap">
 
 | patientID | patientName | doctorID | doctorName | department | appointmentDate |
 | --------- | ----------- | -------- | ---------- | ---------- | --------------- |
@@ -434,6 +500,8 @@ Starting table: HospitalRecord
 | P001      | John        | D001     | Dr. Lee    | Cardiology | 2025-03-15      |
 | P002      | Mary        | D002     | Dr. Chen   | Neurology  | 2025-03-02      |
 | P003      | Tom         | D001     | Dr. Lee    | Cardiology | 2025-03-03      |
+
+</div>
 
 **Step 1: 1NF.** Values are already atomic. But there are repeating groups (same patient appears
 Multiple times). The primary key must be `{patientID, appointmentDate}`.
@@ -445,13 +513,19 @@ on patientID, and doctorName depends only on doctorID.
 
 **Patient** (PK: patientID):
 
+<div class="table-wrap">
+
 | patientID | patientName |
 | --------- | ----------- |
 | P001      | John        |
 | P002      | Mary        |
 | P003      | Tom         |
 
+</div>
+
 **Appointment** (PK: `{patientID, appointmentDate}`FK: patientID, doctorID):
+
+<div class="table-wrap">
 
 | patientID | appointmentDate | doctorID |
 | --------- | --------------- | -------- |
@@ -460,12 +534,18 @@ on patientID, and doctorName depends only on doctorID.
 | P002      | 2025-03-02      | D002     |
 | P003      | 2025-03-03      | D001     |
 
+</div>
+
 **Doctor** (PK: doctorID):
+
+<div class="table-wrap">
 
 | doctorID | doctorName | department |
 | -------- | ---------- | ---------- |
 | D001     | Dr. Lee    | Cardiology |
 | D002     | Dr. Chen   | Neurology  |
+
+</div>
 
 **Step 3: 3NF.** Check for transitive dependencies in Doctor. DoctorID $\rightarrow$ doctorName,
 DoctorID $\rightarrow$ department. There is no non-key attribute depending on another non-key
@@ -477,11 +557,15 @@ Foreign keys, which depend on the full primary key. Check Patient: patientName d
 
 Normalize the following unnormalized table to 3NF:
 
+<div class="table-wrap">
+
 | rentalID | customerName | customerEmail   | movieTitle | genre  | dailyRate | rentalDate | returnDate |
 | -------- | ------------ | --------------- | ---------- | ------ | --------- | ---------- | ---------- |
 | R001     | Alice        | <alice@email.com> | Inception  | Sci-Fi | 3.50      | 2025-03-01 | 2025-03-05 |
 | R002     | Alice        | <alice@email.com> | Titanic    | Drama  | 2.50      | 2025-03-10 | 2025-03-12 |
 | R003     | Bob          | <bob@email.com>   | Inception  | Sci-Fi | 3.50      | 2025-03-02 | NULL       |
+
+</div>
 
 <details>
 <summary>Solution</summary>
@@ -503,25 +587,37 @@ Single attribute, not composite), there cannot be partial dependencies. The tabl
 
 **Customer** (PK: customerID):
 
+<div class="table-wrap">
+
 | customerID | customerName | customerEmail   |
 | ---------- | ------------ | --------------- |
 | C001       | Alice        | <alice@email.com> |
 | C002       | Bob          | <bob@email.com>   |
 
+</div>
+
 **Movie** (PK: movieID):
+
+<div class="table-wrap">
 
 | movieID | movieTitle | genre  | dailyRate |
 | ------- | ---------- | ------ | --------- |
 | M001    | Inception  | Sci-Fi | 3.50      |
 | M002    | Titanic    | Drama  | 2.50      |
 
+</div>
+
 **Rental** (PK: rentalID, FK: customerID, movieID):
+
+<div class="table-wrap">
 
 | rentalID | customerID | movieID | rentalDate | returnDate |
 | -------- | ---------- | ------- | ---------- | ---------- |
 | R001     | C001       | M001    | 2025-03-01 | 2025-03-05 |
 | R002     | C001       | M002    | 2025-03-10 | 2025-03-12 |
 | R003     | C002       | M001    | 2025-03-02 | NULL       |
+
+</div>
 
 **Benefits of normalization:**
 
@@ -564,6 +660,8 @@ CREATE TABLE Student (
 
 **Constraints:**
 
+<div class="table-wrap">
+
 | Constraint  | Purpose                                           |
 | ----------- | ------------------------------------------------- |
 | PRIMARY KEY | Uniquely identifies each row; implicitly NOT NULL |
@@ -572,6 +670,8 @@ CREATE TABLE Student (
 | UNIQUE      | All values in the column must be distinct         |
 | CHECK       | Values must satisfy a Boolean condition           |
 | DEFAULT     | Default value when no value is specified          |
+
+</div>
 
 **ALTER TABLE:**
 
@@ -672,6 +772,8 @@ Given these tables:
 
 **Student** (studentID, firstName, lastName, gradeLevel, gpa):
 
+<div class="table-wrap">
+
 | studentID | firstName | lastName | gradeLevel | gpa |
 | --------- | --------- | -------- | ---------- | --- |
 | 1         | Alice     | Smith    | 11         | 3.8 |
@@ -679,6 +781,8 @@ Given these tables:
 | 3         | Carol     | Williams | 11         | 3.9 |
 | 4         | Dave      | Brown    | 10         | 2.8 |
 | 5         | Eve       | Davis    | 12         | 3.5 |
+
+</div>
 
 Write SQL queries for each task:
 
@@ -711,11 +815,15 @@ ORDER BY gradeLevel;
 
 Result:
 
+<div class="table-wrap">
+
 | gradeLevel | numStudents |
 | ---------- | ----------- |
 | 10         | 2           |
 | 11         | 2           |
 | 12         | 1           |
+
+</div>
 
 **Query 3: Student(s) with the highest GPA**
 
@@ -741,6 +849,8 @@ WHERE gpa >= ALL (SELECT gpa FROM Student);
 
 **Aggregate functions:** operate on a set of values and return a single value.
 
+<div class="table-wrap">
+
 | Function | Description           | Example                  |
 | -------- | --------------------- | ------------------------ |
 | COUNT    | Number of rows        | `COUNT(*)``COUNT(email)` |
@@ -748,6 +858,8 @@ WHERE gpa >= ALL (SELECT gpa FROM Student);
 | AVG      | Arithmetic mean       | `AVG(gpa)`               |
 | MIN      | Minimum value         | `MIN(gpa)`               |
 | MAX      | Maximum value         | `MAX(gpa)`               |
+
+</div>
 
 **GROUP BY:** Groups rows that have the same values in specified columns. Aggregate functions are
 Applied to each group.
@@ -817,6 +929,8 @@ INNER JOIN Employee e2 ON e1.managerID = e2.employeeID;
 
 ### Comparison of Join Types
 
+<div class="table-wrap">
+
 | Join Type       | Left Unmatched  | Right Unmatched | Use Case                     |
 | --------------- | --------------- | --------------- | ---------------------------- |
 | INNER JOIN      | Excluded        | Excluded        | Only matching records needed |
@@ -824,11 +938,15 @@ INNER JOIN Employee e2 ON e1.managerID = e2.employeeID;
 | RIGHT JOIN      | Excluded        | Included (NULL) | All records from right table |
 | FULL OUTER JOIN | Included (NULL) | Included (NULL) | All records from both tables |
 
+</div>
+
 ### Worked Example: Tracing a JOIN Query
 
 Given these tables:
 
 **Student** (studentID, firstName):
+
+<div class="table-wrap">
 
 | studentID | firstName |
 | --------- | --------- |
@@ -836,13 +954,19 @@ Given these tables:
 | 2         | Bob       |
 | 3         | Carol     |
 
+</div>
+
 **Enrollment** (studentID, courseID, grade):
+
+<div class="table-wrap">
 
 | studentID | courseID | grade |
 | --------- | -------- | ----- |
 | 1         | 101      | A     |
 | 1         | 102      | B     |
 | 2         | 101      | C     |
+
+</div>
 
 What is the output of the following query?
 
@@ -861,6 +985,8 @@ A LEFT JOIN returns all rows from Student, matched with Enrollment where possibl
 
 **Step-by-step matching:**
 
+<div class="table-wrap">
+
 | Student.firstName | Enrollment.courseID | Enrollment.grade | Match?        |
 | ----------------- | ------------------- | ---------------- | ------------- |
 | Alice             | 101                 | A                | studentID = 1 |
@@ -868,7 +994,11 @@ A LEFT JOIN returns all rows from Student, matched with Enrollment where possibl
 | Bob               | 101                 | C                | studentID = 2 |
 | Carol             | NULL                | NULL             | No match      |
 
+</div>
+
 **Result:**
+
+<div class="table-wrap">
 
 | firstName | courseID | grade |
 | --------- | -------- | ----- |
@@ -876,6 +1006,8 @@ A LEFT JOIN returns all rows from Student, matched with Enrollment where possibl
 | Alice     | 102      | B     |
 | Bob       | 101      | C     |
 | Carol     | NULL     | NULL  |
+
+</div>
 
 Carol appears in the result even though she has no enrollments -- this is the key difference from an
 INNER JOIN, which would exclude her.
@@ -886,6 +1018,8 @@ INNER JOIN, which would exclude her.
 
 Given the Enrollment table:
 
+<div class="table-wrap">
+
 | studentID | courseID | grade |
 | --------- | -------- | ----- |
 | 1         | 101      | A     |
@@ -894,6 +1028,8 @@ Given the Enrollment table:
 | 3         | 103      | A     |
 | 3         | 104      | B     |
 | 3         | 105      | A     |
+
+</div>
 
 Write a query to find students enrolled in more than 1 course, showing the studentID and the count
 of courses.
@@ -910,10 +1046,14 @@ HAVING COUNT(*) > 1;
 
 **Result:**
 
+<div class="table-wrap">
+
 | studentID | numCourses |
 | --------- | ---------- |
 | 1         | 2          |
 | 3         | 3          |
+
+</div>
 
 Student 2 is excluded because they are enrolled in only 1 course. HAVING filters after grouping;
 WHERE cannot be used here because `COUNT(*)` is an aggregate function.
@@ -1045,12 +1185,16 @@ Ensure that the database remains in a consistent state even when failures occur.
 
 ### ACID Properties
 
+<div class="table-wrap">
+
 | Property    | Description                                                                                     |
 | ----------- | ----------------------------------------------------------------------------------------------- |
 | Atomicity   | A transaction is all-or-nothing. Either all operations complete successfully, or none do.       |
 | Consistency | A transaction transforms the database from one valid state to another valid state.              |
 | Isolation   | Concurrent transactions do not interfere with each other. Intermediate states are invisible.    |
 | Durability  | Once a transaction is committed, its effects are permanent even in the event of a system crash. |
+
+</div>
 
 **Atomicity example:** A bank transfer deducts USD 100 from account A and adds USD 100 to account B.
 If the deduction succeeds but the addition fails (e.g., due to a system crash), atomicity ensures
@@ -1105,10 +1249,14 @@ ROLLBACK;
 
 After ROLLBACK:
 
+<div class="table-wrap">
+
 | accountID | balance | State           |
 | --------- | ------- | --------------- |
 | A         | 500     | Restored to 500 |
 | B         | --      | (never existed) |
+
+</div>
 
 The ACID property **Atomicity** guarantees that the database returns to its original state. Without
 ROLLBACK, account A would have lost $100 with no corresponding gain anywhere -- the money would
@@ -1143,10 +1291,14 @@ Every foreign key value must either be null or match a primary key value in the 
 When a referenced row is deleted or updated, the database can automatically propagate the change to
 Related rows:
 
+<div class="table-wrap">
+
 | Action   | ON DELETE CASCADE                | ON DELETE SET NULL                | ON DELETE RESTRICT                      |
 | -------- | -------------------------------- | --------------------------------- | --------------------------------------- |
 | Effect   | Delete child rows                | Set FK to NULL                    | Block the delete                        |
 | Use case | Delete order, remove order items | Employee leaves, clear department | Cannot delete a teacher who has classes |
+
+</div>
 
 ```sql
 CREATE TABLE Enrollment (
@@ -1236,6 +1388,8 @@ CREATE TABLE Employee (
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Column Name | Data Type | Size | Constraints           | FK Reference       |
 | ----------- | --------- | ---- | --------------------- | ------------------ |
 | empID       | INTEGER   | --   | PRIMARY KEY           | --                 |
@@ -1243,6 +1397,8 @@ CREATE TABLE Employee (
 | email       | VARCHAR   | 200  | UNIQUE                | --                 |
 | salary      | DECIMAL   | 10,2 | CHECK (salary &gt; 0) | --                 |
 | deptID      | INTEGER   | --   | --                    | Department(deptID) |
+
+</div>
 
 </details>
 
@@ -1254,6 +1410,8 @@ the four Vs.
 
 ### The Four Vs
 
+<div class="table-wrap">
+
 | Characteristic | Description                                                                | Example                                           |
 | -------------- | -------------------------------------------------------------------------- | ------------------------------------------------- |
 | Volume         | The sheer scale of data, terabytes to petabytes                            | Social media posts, sensor data, transaction logs |
@@ -1261,13 +1419,19 @@ the four Vs.
 | Variety        | The diversity of data types: structured, semi-structured, and unstructured | Text, images, video, JSON, XML, audio             |
 | Veracity       | The quality, accuracy, and trustworthiness of data                         | Noisy sensor readings, contradictory social media |
 
+</div>
+
 ### Structured vs Semi-Structured vs Unstructured Data
+
+<div class="table-wrap">
 
 | Type            | Description                                               | Examples                        |
 | --------------- | --------------------------------------------------------- | ------------------------------- |
 | Structured      | Organized into rows and columns with a fixed schema       | Relational database tables, CSV |
 | Semi-structured | Has some organizational properties but not a rigid schema | JSON, XML, HTML, log files      |
 | Unstructured    | No predefined structure                                   | Images, video, audio, free text |
+
+</div>
 
 Traditional relational databases handle structured data well. Big data systems (like Hadoop, NoSQL
 Databases, data lakes) are designed to handle all three types at scale.
@@ -1340,10 +1504,14 @@ Relationships with cardinalities, and where foreign keys should be placed.
 
 **Relationships:**
 
+<div class="table-wrap">
+
 | Relationship | Cardinality | Foreign Key Location          |
 | ------------ | ----------- | ----------------------------- |
 | Artist-Album | 1:M         | Album table has artistID (FK) |
 | Album-Track  | 1:M         | Track table has albumID (FK)  |
+
+</div>
 
 **Attributes:**
 
@@ -1407,11 +1575,15 @@ _If you get this wrong, revise: [Functional Dependencies](#functional-dependenci
 
 Normalize the following table to 3NF. Show each step.
 
+<div class="table-wrap">
+
 | empID | empName | deptID | deptName  | projID | projName | hoursWorked |
 | ----- | ------- | ------ | --------- | ------ | -------- | ----------- |
 | E01   | Alice   | D01    | Marketing | P01    | Campaign | 20          |
 | E01   | Alice   | D01    | Marketing | P02    | Research | 15          |
 | E02   | Bob     | D02    | Sales     | P01    | Campaign | 30          |
+
+</div>
 
 <details>
 <summary>Solution</summary>
@@ -1428,19 +1600,29 @@ Decompose:
 
 **Employee** (PK: empID):
 
+<div class="table-wrap">
+
 | empID | empName | deptID |
 | ----- | ------- | ------ |
 | E01   | Alice   | D01    |
 | E02   | Bob     | D02    |
 
+</div>
+
 **Project** (PK: projID):
+
+<div class="table-wrap">
 
 | projID | projName |
 | ------ | -------- |
 | P01    | Campaign |
 | P02    | Research |
 
+</div>
+
 **Assignment** (PK: `{empID, projID}`FK: empID, projID):
+
+<div class="table-wrap">
 
 | empID | projID | hoursWorked |
 | ----- | ------ | ----------- |
@@ -1448,22 +1630,32 @@ Decompose:
 | E01   | P02    | 15          |
 | E02   | P01    | 30          |
 
+</div>
+
 **3NF:** Check Employee: `empID` $\rightarrow$ `deptID` $\rightarrow$ `deptName` is a transitive
 Dependency. Decompose:
 
 **Employee** (PK: empID, FK: deptID):
+
+<div class="table-wrap">
 
 | empID | empName | deptID |
 | ----- | ------- | ------ |
 | E01   | Alice   | D01    |
 | E02   | Bob     | D02    |
 
+</div>
+
 **Department** (PK: deptID):
+
+<div class="table-wrap">
 
 | deptID | deptName  |
 | ------ | --------- |
 | D01    | Marketing |
 | D02    | Sales     |
+
+</div>
 
 Final tables: Employee, Department, Project, Assignment -- all in 3NF.
 
@@ -1543,11 +1735,15 @@ LIMIT 3;
 
 Result:
 
+<div class="table-wrap">
+
 | firstName | lastName | gpa |
 | --------- | -------- | --- |
 | Carol     | Williams | 3.9 |
 | Alice     | Smith    | 3.8 |
 | Eve       | Davis    | 3.5 |
+
+</div>
 
 </details>
 
@@ -2031,12 +2227,16 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic       | Site       | Link                                                                                                       |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Databases] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/databases/01-relational-databases) |
 | [Databases] | IB         | [View](https://ib.wyattau.com/computer-science/6-resource-management/1_databases/)                  |
 | [Databases] | DSE        | [View](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)                 |
 | [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
+
+</div>
 
 ## Worked Examples
 

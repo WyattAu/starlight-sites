@@ -140,12 +140,16 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 
 ### 9.6 Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Ring | Condition | Quotient |
 | --- | --- | --- | --- |
 | Prime ideal | Commutative $R$ | $ab \in I \Rightarrow a \in I$ or $b \in I$ | $R/I$ is an integral domain |
 | Maximal ideal | Commutative $R$ | No ideal strictly between $I$ and $R$ | $R/I$ is a field |
 | Kernel of hom. | Any ring $R$ | $\ker(\phi) = \phi^{-1}(0)$ | $R/\ker(\phi) \cong \operatorname{im}(\phi)$ |
 | Principal ideal | $\mathbb{Z}$, $F[x]$ | $(a) = \{ra : r \in R\}$ | $\mathbb{Z}/(n) \cong \mathbb{Z}/n\mathbb{Z}$ |
+
+</div>
 
 ### 9.7 Applications
 

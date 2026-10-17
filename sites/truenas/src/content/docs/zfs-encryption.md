@@ -31,6 +31,8 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 
 ### Why Native ZFS Encryption Over dm-crypt/LUKS
 
+<div class="table-wrap">
+
 | Feature                  | ZFS Native Encryption     | dm-crypt / LUKS          |
 | ------------------------ | ------------------------- | ------------------------ |
 | Encryption granularity   | Per-dataset               | Per-block device         |
@@ -42,6 +44,8 @@ Aware of ZFS data structures and operates within the DMU (Data Management Unit).
 | TrueNAS integration      | Full GUI support          | Manual setup             |
 | Boot from encrypted pool | Supported (with key load) | Supported                |
 | Multiple encryption keys | Different keys per child  | Single key per volume    |
+
+</div>
 
 Native ZFS encryption provides the critical advantage of per-dataset key granularity. You can
 Encrypt one dataset with one passphrase and a sibling dataset with a different passphrase, all
@@ -91,6 +95,8 @@ For network protection, use SMB3 encryption, NFS with Kerberos (krb5p), or a VPN
 ZFS exposes encryption configuration through dataset properties. These properties control how
 Encryption operates, what keys are used, and where keys are stored.
 
+<div class="table-wrap">
+
 | Property         | Values                                                                         | Default | Set At                | Description                                 |
 | ---------------- | ------------------------------------------------------------------------------ | ------- | --------------------- | ------------------------------------------- |
 | `encryption`     | on, off, aes-256-gcm, aes-128-gcm, aes-256-ccm, chacha20-poly1305, aes-256-xts | off     | Dataset creation only | Encryption algorithm or on/off toggle       |
@@ -99,6 +105,8 @@ Encryption operates, what keys are used, and where keys are stored.
 | `pbkdf2iters`    | Integer (iterations)                                                           | 350000  | Dataset creation only | PBKDF2 iterations for passphrase stretching |
 | `encryptionroot` | Read-only (dataset path)                                                       | -       | Inherited             | The root dataset that holds the master key  |
 | `keystatus`      | Read-only (available, unavailable, none)                                       | -       | Read-only             | Whether the encryption key is loaded        |
+
+</div>
 
 ### Setting Encryption Properties
 
@@ -181,6 +189,8 @@ Now `tank/secret/separate-vault` requires its own key, independent of `tank/secr
 
 ### Encryption Algorithm Selection
 
+<div class="table-wrap">
+
 | Algorithm         | Key Size | Mode       | Performance (AES-NI) | Use Case                            |
 | ----------------- | -------- | ---------- | -------------------- | ----------------------------------- |
 | aes-256-gcm       | 256 bit  | GCM (AEAD) | Fastest              | Default, general purpose            |
@@ -188,6 +198,8 @@ Now `tank/secret/separate-vault` requires its own key, independent of `tank/secr
 | aes-256-ccm       | 256 bit  | CCM (AEAD) | Moderate             | Legacy hardware without GCM support |
 | chacha20-poly1305 | 256 bit  | Stream     | Moderate             | CPUs without AES-NI instructions    |
 | aes-256-xts       | 256 bit  | XTS        | Fast                 | Block device encryption (zvols)     |
+
+</div>
 
 **Definition.** AEAD (Authenticated Encryption with Associated Data) modes such as GCM and CCM
 Combine encryption and authentication in a single operation. This means every encrypted block has an
@@ -205,12 +217,16 @@ The `pbkdf2iters` property controls the number of PBKDF2 (Password-Based Key Der
 Iterations used to stretch a user passphrase into a cryptographic key. Higher values make
 Brute-force attacks on weak passphrases more expensive.
 
+<div class="table-wrap">
+
 | Iterations | Key Derivation Time (approx.) | Recommendation             |
 | ---------- | ----------------------------- | -------------------------- |
 | 100000     | ~50 ms                        | Legacy default, too low    |
 | 350000     | ~150 ms                       | Current default, minimum   |
 | 500000     | ~200 ms                       | Good for sensitive data    |
 | 1000000    | ~400 ms                       | High-security environments |
+
+</div>
 
 :::caution
 Set `pbkdf2iters=1000000`. Every boot (or key load) will take an additional ~400 ms per dataset. This
@@ -235,12 +251,16 @@ which use the raw key material directly.
 
 ZFS supports four key formats, each with different security and usability characteristics:
 
+<div class="table-wrap">
+
 | Key Format | Source                 | Key Length      | Security         | Convenience | Use Case                 |
 | ---------- | ---------------------- | --------------- | ---------------- | ----------- | ------------------------ |
 | passphrase | User-entered at prompt | Variable        | High (if strong) | Low         | Interactive use, laptops |
 | hex        | Hexadecimal string     | 64 chars (256b) | Medium           | High        | Automated key loading    |
 | raw        | Raw binary key file    | 32 bytes (256b) | Medium           | High        | Automated, key files     |
 | none       | No encryption          | N/A             | N/A              | N/A         | Unencrypted datasets     |
+
+</div>
 
 ### passphrase Format
 
@@ -260,6 +280,8 @@ zfs load-key tank/docs
 
 Passphrase strengths:
 
+<div class="table-wrap">
+
 | Type        | Example                      | Entropy (approx.) | Security  |
 | ----------- | ---------------------------- | ----------------- | --------- |
 | Weak        | password123                  | ~10 bits          | Broken    |
@@ -267,6 +289,8 @@ Passphrase strengths:
 | Strong      | correct horse battery staple | ~60 bits          | Moderate  |
 | Very strong | 7 random words (Diceware)    | ~90 bits          | Good      |
 | Excellent   | 16+ random ASCII characters  | ~105+ bits        | Excellent |
+
+</div>
 
 :::note
 Of 20+ characters. Store the passphrase in a password manager and write it down on paper stored in a
@@ -319,12 +343,16 @@ zfs load-key -L file:///root/keys/tank_docs.raw tank/docs
 
 The `keylocation` property specifies where ZFS finds the encryption key:
 
+<div class="table-wrap">
+
 | keylocation                 | Behavior                                  | Use Case                     |
 | --------------------------- | ----------------------------------------- | ---------------------------- |
 | `prompt`                    | Prompts on stdin at key load time         | Passphrase, interactive use  |
 | `file:///absolute/path`     | Reads key from a local file               | Automated key loading        |
 | `file:///path/to/directory` | For encryptionroot: reads child key files | Multi-dataset key management |
 | `https://server/path`       | Fetches key from an HTTPS URL             | Remote key server            |
+
+</div>
 
 ### Key Location Inheritance
 
@@ -694,12 +722,16 @@ zfs change-key -o encryption=aes-256-xts tank/secret
 The performance impact of ZFS encryption depends primarily on whether the CPU supports AES-NI (AES
 New Instructions) hardware acceleration:
 
+<div class="table-wrap">
+
 | CPU Feature  | Encryption Overhead (AES-256-GCM) | Notes                       |
 | ------------ | --------------------------------- | --------------------------- |
 | AES-NI       | 1-5%                              | Negligible on modern CPUs   |
 | No AES-NI    | 20-40%                            | Significant; use ChaCha20   |
 | AES-NI + AVX | 1-3%                              | Best case, modern Intel/AMD |
 | ARM crypto   | 3-10%                             | ARMv8 AES instructions      |
+
+</div>
 
 Most Intel CPUs since Westmere (2010) and AMD CPUs since Bulldozer (2011) support AES-NI. Check
 with:
@@ -753,6 +785,8 @@ Compression is always applied before encryption in the ZFS pipeline. This is cri
 zfs set compression=zstd tank/encrypted/docs
 ```
 
+<div class="table-wrap">
+
 | Data Type              | Compression | Encryption | Combined Effect                     |
 | ---------------------- | ----------- | ---------- | ----------------------------------- |
 | Text, code, logs       | 3-5x        | 1-5%       | Less data encrypted, net benefit    |
@@ -760,6 +794,8 @@ zfs set compression=zstd tank/encrypted/docs
 | Already-encrypted data | 1.0x        | 1-5%       | Disable compression, encrypt only   |
 | Media (JPEG, MP4, MKV) | 1.0x        | 1-5%       | Disable compression, encrypt only   |
 | Virtual machine images | 1.3-2.0x    | 1-5%       | Moderate compression before encrypt |
+
+</div>
 
 ### Encryption and Deduplication
 
@@ -869,6 +905,8 @@ on the special vdev is also inaccessible.
 
 Some ZFS properties interact with encryption in specific ways:
 
+<div class="table-wrap">
+
 | Property      | Interaction with Encryption                        |
 | ------------- | -------------------------------------------------- |
 | `compression` | Applied before encryption. Recommended to keep on. |
@@ -878,6 +916,8 @@ Some ZFS properties interact with encryption in specific ways:
 | `atime`       | No interaction. Set independently.                 |
 | `copies`      | Additional copies are encrypted with the same key. |
 | `xattr`       | Extended attributes are encrypted with the data.   |
+
+</div>
 
 ---
 
@@ -912,6 +952,8 @@ zfs send -Rw tank/encrypted@snap1 | ssh remote-nas zfs recv -F backup/encrypted
 
 ### Normal Send vs. Raw Send
 
+<div class="table-wrap">
+
 | Aspect          | Normal Send (`zfs send`)        | Raw Send (`zfs send -w`)                |
 | --------------- | ------------------------------- | --------------------------------------- |
 | Data form       | Plaintext (decrypted on source) | Ciphertext (encrypted)                  |
@@ -921,6 +963,8 @@ zfs send -Rw tank/encrypted@snap1 | ssh remote-nas zfs recv -F backup/encrypted
 | Properties      | Sent as plaintext values        | Preserved including encryption settings |
 | Cross-algorithm | Can change encryption algorithm | Preserves original algorithm            |
 | Use case        | Trusted destination             | Untrusted destination                   |
+
+</div>
 
 ### Raw Incremental Send
 
@@ -976,6 +1020,8 @@ ssh backup-server "zfs send -Rw backup/offsite@monthly-2026-04" | \
 
 ### Send Flags for Encrypted Datasets
 
+<div class="table-wrap">
+
 | Flag | Effect on Encrypted Datasets                      |
 | ---- | ------------------------------------------------- |
 | `-w` | Raw mode: send encrypted blocks                   |
@@ -985,6 +1031,8 @@ ssh backup-server "zfs send -Rw backup/offsite@monthly-2026-04" | \
 | `-L` | Large block send                                  |
 | `-v` | Verbose output                                    |
 | `-i` | Incremental between two snapshots                 |
+
+</div>
 
 ### Limitations of Raw Send
 
@@ -1101,6 +1149,8 @@ find /mnt/test/encrypted -type f -exec md5sum {} \; > /tmp/backup_checksums.txt
 The encryption key is the single point of failure for encrypted datasets. Protect the key with the
 Same rigor as the data it protects:
 
+<div class="table-wrap">
+
 | Threat                 | Mitigation                                     |
 | ---------------------- | ---------------------------------------------- |
 | Key file on same pool  | Store key file on separate media               |
@@ -1109,6 +1159,8 @@ Same rigor as the data it protects:
 | Passphrase forgotten   | Store in password manager + physical backup    |
 | Key file deleted       | Keep multiple backups of key files             |
 | Memory dump attack     | See RAM security below                         |
+
+</div>
 
 ### RAM (Memory) Security
 
@@ -1133,6 +1185,8 @@ Mitigations:
 
 ### Algorithm Choices
 
+<div class="table-wrap">
+
 | Algorithm         | Security Level | Performance   | Recommendation              |
 | ----------------- | -------------- | ------------- | --------------------------- |
 | aes-256-gcm       | Excellent      | Best (AES-NI) | Default, use for everything |
@@ -1141,14 +1195,20 @@ Mitigations:
 | chacha20-poly1305 | Good           | Good          | CPUs without AES-NI         |
 | aes-256-xts       | Good           | Good          | zvols / block devices only  |
 
+</div>
+
 ### crypt vs. Crypt2 Format
 
 ZFS encryption has two internal key wrapping formats: `crypt` (legacy) and `crypt2` (current):
+
+<div class="table-wrap">
 
 | Format | Key Wrapping Algorithm | Key Length Support | Recommendation |
 | ------ | ---------------------- | ------------------ | -------------- |
 | crypt  | PBKDF2-SHA512          | 256-bit only       | Legacy         |
 | crypt2 | HKDF-SHA512            | 128-bit, 256-bit   | Use this       |
+
+</div>
 
 The `crypt2` format (available since OpenZFS 2.1 / TrueNAS SCALE 22.02) supports both 128-bit and
 256-bit key lengths and uses HKDF (HMAC-based Key Derivation Function) for key wrapping, which is

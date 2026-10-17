@@ -510,12 +510,16 @@ return_from_lambda  # => prints "This line DOES execute", returns nil from the m
 
 ### Proc vs Lambda Summary
 
+<div class="table-wrap">
+
 | Feature     | Proc                          | Lambda                        |
 | ----------- | ----------------------------- | ----------------------------- |
 | Creation    | `Proc.new {}` or `proc {}`    | `-> {}` or `lambda {}`        |
 | Arity check | Lenient (fills with nil)      | Strict (raises ArgumentError) |
 | Return      | Returns from enclosing method | Returns from lambda only      |
 | `lambda?`   | `false`                       | `true`                        |
+
+</div>
 
 ```ruby
 # Checking the type

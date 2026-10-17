@@ -29,6 +29,8 @@ Concepts underpin much of the algebra and calculus in the Leaving Certificate co
 
 ### Classification (OL/HL)
 
+<div class="table-wrap">
+
 | Symbol       | Name             | Description                                                                  |
 | ------------ | ---------------- | ---------------------------------------------------------------------------- |
 | $\mathbb{N}$ | Natural numbers  | $\{1, 2, 3, \ldots\}$ (some definitions include 0)                           |
@@ -36,6 +38,8 @@ Concepts underpin much of the algebra and calculus in the Leaving Certificate co
 | $\mathbb{Q}$ | Rational numbers | Numbers expressible as $\frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ |
 | $\mathbb{R}$ | Real numbers     | All rational and irrational numbers                                          |
 | $\mathbb{C}$ | Complex numbers  | Numbers of the form $a + bi$ where $a, b \in \mathbb{R}$                     |
+
+</div>
 
 The inclusions are:
 $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$.
@@ -127,6 +131,8 @@ $a \lt m/n \lt b$.
 
 ### Notation (OL/HL)
 
+<div class="table-wrap">
+
 | Symbol            | Meaning                                        |
 | ----------------- | ---------------------------------------------- |
 | $\in$             | Is an element of                               |
@@ -137,6 +143,8 @@ $a \lt m/n \lt b$.
 | $\emptyset$       | Empty set                                      |
 | $                 \| A                                              \| $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |
+
+</div>
 
 **Subset vs. Proper subset.** $A \subset B$ allows $A = B$. $A \subsetneq B$ requires $A \neq B$.
 

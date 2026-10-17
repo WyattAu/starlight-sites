@@ -42,9 +42,13 @@ Gametes from Parent 1 (TtRr): TR, Tr, tR, tr (each with probability 1/4) Gametes
 
 Punnett square (1 x 4):
 
+<div class="table-wrap">
+
 |     | TR   | Tr   | tR   | tr   |
 | --- | ---- | ---- | ---- | ---- |
 | tr  | TtRr | Ttrr | ttRr | ttrr |
+
+</div>
 
 Phenotypes:
 

@@ -41,6 +41,8 @@ Basic principles:
 
 ## The Complete Structure
 
+<div class="table-wrap">
+
 | Phase & Exercise                    | Sets | Repetitions / Duration | Rest      |
 | ----------------------------------- | :--: | :--------------------: | --------- |
 | Phase 1: Activation & Stability     |      |                        |           |
@@ -61,6 +63,8 @@ Basic principles:
 | Cat-Cow Stretch                     |  1   |    8-10 slow cycles    | -         |
 | Kneeling Hip Flexor Stretch         |  2   |  30-45 sec hold/side   | 15 sec    |
 | Supine Hamstring Stretch            |  2   |  30-45 sec hold/side   | 15 sec    |
+
+</div>
 
 ## Procedure
 

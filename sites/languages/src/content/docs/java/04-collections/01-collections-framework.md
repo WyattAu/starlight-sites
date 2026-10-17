@@ -189,6 +189,8 @@ private void add(E e, Object[] elementData, int s) {
 
 #### Time Complexity
 
+<div class="table-wrap">
+
 | Operation             | Average        | Worst Case | Notes                     |
 | --------------------- | -------------- | ---------- | ------------------------- |
 | `get(index)`          | O(1)           | O(1)       | Direct array index        |
@@ -199,6 +201,8 @@ private void add(E e, Object[] elementData, int s) {
 | `remove(Object)`      | O(n)           | O(n)       | Linear scan + shift       |
 | `contains(Object)`    | O(n)           | O(n)       | Linear scan               |
 | `indexOf(Object)`     | O(n)           | O(n)       | Linear scan               |
+
+</div>
 
 ### LinkedList
 
@@ -228,6 +232,8 @@ public class LinkedList<E> extends AbstractSequentialList<E>
 
 #### Time Complexity
 
+<div class="table-wrap">
+
 | Operation                        | Average | Worst Case | Notes                           |
 | -------------------------------- | ------- | ---------- | ------------------------------- |
 | `get(index)`                     | O(n)    | O(n)       | Must traverse from head or tail |
@@ -236,6 +242,8 @@ public class LinkedList<E> extends AbstractSequentialList<E>
 | `remove(index)`                  | O(n)    | O(n)       | Must traverse to index          |
 | `addFirst()` / `addLast()`       | O(1)    | O(1)       | Direct pointer manipulation     |
 | `removeFirst()` / `removeLast()` | O(1)    | O(1)       | Direct pointer manipulation     |
+
+</div>
 
 #### ArrayList vs LinkedList: When to Use Each
 
@@ -402,6 +410,8 @@ are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 
 ### Set Implementation Comparison
 
+<div class="table-wrap">
+
 | Feature                       | HashSet     | LinkedHashSet   | TreeSet                        | EnumSet                |
 | ----------------------------- | ----------- | --------------- | ------------------------------ | ---------------------- |
 | Backing structure             | HashMap     | LinkedHashMap   | TreeMap (red-black tree)       | Bit vector             |
@@ -409,6 +419,8 @@ are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 | Null elements                 | One allowed | One allowed     | Not allowed                    | Not allowed            |
 | `add` / `contains` / `remove` | O(1) avg    | O(1) avg        | O(log n)                       | O(1)                   |
 | Element type                  | Any         | Any             | Comparable or Comparator       | Enum only              |
+
+</div>
 
 ## Map Implementations
 
@@ -735,6 +747,8 @@ means "the key is absent."
 
 ### Map Implementation Comparison
 
+<div class="table-wrap">
+
 | Feature            | HashMap                    | LinkedHashMap             | TreeMap        | ConcurrentHashMap                |
 | ------------------ | -------------------------- | ------------------------- | -------------- | -------------------------------- |
 | Backing structure  | Array + linked list / tree | HashMap + linked list     | Red-black tree | Array + linked list / tree + CAS |
@@ -743,6 +757,8 @@ means "the key is absent."
 | `get` / `put`      | O(1) avg                   | O(1) avg                  | O(log n)       | O(1) avg                         |
 | Thread-safe        | No                         | No                        | No             | Yes                              |
 | Fail-fast iterator | Yes                        | Yes                       | Yes            | Weakly consistent                |
+
+</div>
 
 ## Iterator and ListIterator
 
@@ -1140,6 +1156,8 @@ to avoiding `NullPointerException` at unexpected times.
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Collection          | Null keys                   | Null values                  | Notes                                                    |
 | ------------------- | --------------------------- | ---------------------------- | -------------------------------------------------------- |
 | `ArrayList`         | N/A                         | Allowed                      | Allows multiple null elements                            |
@@ -1155,6 +1173,8 @@ to avoiding `NullPointerException` at unexpected times.
 | `List.of()`         | N/A                         | Not allowed                  | Throws NPE                                               |
 | `Set.of()`          | N/A                         | Not allowed                  | Throws NPE                                               |
 | `Map.of()`          | Not allowed                 | Not allowed                  | Throws NPE                                               |
+
+</div>
 
 ### How HashMap Handles the Null Key
 

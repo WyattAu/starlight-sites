@@ -198,6 +198,8 @@ defer f.Close()
 
 ### File Flags
 
+<div class="table-wrap">
+
 | Flag          | Meaning                            |
 | ------------- | ---------------------------------- |
 | `os.O_RDONLY` | Read-only                          |
@@ -207,6 +209,8 @@ defer f.Close()
 | `os.O_CREATE` | Create if not exists               |
 | `os.O_TRUNC`  | Truncate when opening              |
 | `os.O_EXCL`   | Used with O_CREATE, fail if exists |
+
+</div>
 
 ### File Permissions
 
@@ -252,6 +256,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 
 ### Format Verbs
 
+<div class="table-wrap">
+
 | Verb  | Meaning                        |
 | ----- | ------------------------------ |
 | `%v`  | Default format                 |
@@ -269,6 +275,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 | `%p`  | Pointer address                |
 | `%t`  | Boolean (true/false)           |
 | `%w`  | Error (wraps for errors.Is/As) |
+
+</div>
 
 ### Width and Precision
 

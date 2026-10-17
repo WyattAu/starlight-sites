@@ -316,6 +316,8 @@ $$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The Hamiltonian always equals $T + V$ | no | a charged particle in an EM field, or any rheonomic constraint: $H = \sum p_j\dot q_j - L$ comes from the Legendre transform, not from $T + V$ |
@@ -323,6 +325,8 @@ $$
 | A Hamiltonian system always reaches equilibrium | no | Liouville forbids attractors entirely |
 | Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
 | Poisson brackets are invariant under any coordinate change | no | only under *canonical* transformations |
+
+</div>
 
 The relativistic row is the one to remember. It shows that the Legendre
 transform is a hypothesis about the Lagrangian, not a formality, and that the
@@ -453,7 +457,7 @@ the Hamiltonian formulation requires special treatment (Dirac brackets or Constr
 - **[Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

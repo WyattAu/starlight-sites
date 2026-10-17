@@ -32,6 +32,8 @@ themselves.
 
 ## Intersection and Merge Warnings
 
+<div class="table-wrap">
+
 | Sign | Meaning | Required action |
 |------|---------|-----------------|
 | Crossroad (+) | Intersection ahead | Scan, be ready to yield |
@@ -41,6 +43,8 @@ themselves.
 | Merge | Traffic merging from right | Adjust speed, open a gap |
 | Lane ends | Your lane merges away | Signal early, change lanes |
 | Two-way traffic | Divided highway ends | Keep right, expect oncoming |
+
+</div>
 
 ## Curve and Road-Shape Warnings
 
@@ -82,6 +86,8 @@ hazard type.
 
 ## Quick Recall Table
 
+<div class="table-wrap">
+
 | Trigger in question | Correct answer pattern |
 |--------------------|------------------------|
 | Yellow diamond, black arrow | Curve, slow before it |
@@ -91,8 +97,12 @@ hazard type.
 | Yellow diamond, signal symbol | Traffic signal ahead |
 | Fluorescent yellow-green person | Pedestrian crossing |
 
+</div>
+
 
 ## Warning Sign Catalog by Shape
+
+<div class="table-wrap">
 
 | Shape | Color | Family | Example |
 |-------|-------|--------|---------|
@@ -104,7 +114,11 @@ hazard type.
 | Rectangle | Orange | Work zones | Road work ahead |
 | Triangle down | White/red | Yield (regulatory) | Yield |
 
+</div>
+
 ## Answer-Pattern Drill
+
+<div class="table-wrap">
 
 | If the question mentions... | Pick... |
 |----------------------------|---------|
@@ -115,6 +129,8 @@ hazard type.
 | Green person crossing | Pedestrian - yield in crosswalk |
 | Truck on downgrade sign | Steep grade - downshift, check brakes |
 | Deer sign | Stay alert dawn/dusk - brake straight |
+
+</div>
 ## See also
 
 - [Road Signs | Driving (US)](/road-signs/)

@@ -95,11 +95,15 @@ Linux file permissions control access to files and directories. Every file has t
 Classes: owner (u), group (g), and others (o). Each class has three permissions: read (r), write
 (w), and execute (x).
 
+<div class="table-wrap">
+
 | Permission | Octal | File               | Directory                              |
 | ---------- | ----- | ------------------ | -------------------------------------- |
 | r          | 4     | Read file contents | List directory entries                 |
 | w          | 2     | Modify file        | Create/delete/rename entries           |
 | x          | 1     | Execute file       | Enter directory (access files by name) |
+
+</div>
 
 Common permissions:
 
@@ -270,11 +274,15 @@ Common types:
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode       | Behavior                                                                         |
 | ---------- | -------------------------------------------------------------------------------- |
 | Enforcing  | Policy is enforced. Violations are blocked and logged.                           |
 | Permissive | Policy is not enforced. Violations are logged but not blocked. Used for testing. |
 | Disabled   | SELinux is completely disabled. No policy loaded, no logging.                    |
+
+</div>
 
 Check and set mode:
 
@@ -606,6 +614,8 @@ kern.*                   /var/log/kern.log
 
 Log severity levels (from lowest to highest):
 
+<div class="table-wrap">
+
 | Level | Keyword | Description               |
 | ----- | ------- | ------------------------- |
 | 0     | emerg   | System is unusable        |
@@ -616,6 +626,8 @@ Log severity levels (from lowest to highest):
 | 5     | notice  | Normal but significant    |
 | 6     | info    | Informational             |
 | 7     | debug   | Debug messages            |
+
+</div>
 
 ### journald
 
@@ -709,12 +721,16 @@ Centralized logging provides:
 
 ### Update Strategies
 
+<div class="table-wrap">
+
 | Strategy        | Description                         | Risk    | Best For                        |
 | --------------- | ----------------------------------- | ------- | ------------------------------- |
 | Rolling updates | Update one node at a time           | Lowest  | Stateful services, databases    |
 | Blue-green      | Maintain two identical environments | Low     | Stateless services              |
 | Canary          | Update a small subset first         | Low     | Large deployments               |
 | Big bang        | Update everything at once           | Highest | Homogeneous, small environments |
+
+</div>
 
 ### Automated Patching
 
@@ -798,6 +814,8 @@ Management architecture.
 Linux namespaces provide isolation for system resources. Each namespace type isolates a different
 Aspect:
 
+<div class="table-wrap">
+
 | Namespace | Isolates                              |
 | --------- | ------------------------------------- |
 | Mount     | Filesystem mount points               |
@@ -807,6 +825,8 @@ Aspect:
 | IPC       | System V IPC, POSIX message queues    |
 | User      | User and group IDs                    |
 | Cgroup    | Cgroup root directory                 |
+
+</div>
 
 Namespaces are the fundamental building block of containers. Docker and Kubernetes use namespaces to
 Provide process isolation.
@@ -844,6 +864,8 @@ Possible.
 
 Container isolation vs VM isolation:
 
+<div class="table-wrap">
+
 | Property          | Containers                   | VMs            |
 | ----------------- | ---------------------------- | -------------- |
 | Kernel            | Shared                       | Separate       |
@@ -851,6 +873,8 @@ Container isolation vs VM isolation:
 | Escape difficulty | Moderate (depends on config) | Very difficult |
 | Overhead          | Low                          | High           |
 | Startup time      | Seconds                      | Minutes        |
+
+</div>
 
 ## Secure Boot Chain
 

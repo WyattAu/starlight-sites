@@ -183,6 +183,8 @@ With concepts, this problem disappears because subsumption provides a well-defin
 
 ## How Concepts Solve SFINAE Problems
 
+<div class="table-wrap">
+
 | Problem               | SFINAE                                             | Concepts                                                     |
 | --------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
 | Error messages        | Show substitution failure in `enable_if`           | Show the concept name and which requirement failed           |
@@ -191,6 +193,8 @@ With concepts, this problem disappears because subsumption provides a well-defin
 | Readability           | Constraint hidden in type manipulation             | Constraint is explicit in the signature                      |
 | Composability         | Boolean logic in template parameters               | Named concepts composed with `&&``\|\|`                      |
 | Interacts with `auto` | Problematic                                        | Works                                                        |
+
+</div>
 
 ## Migration Path
 

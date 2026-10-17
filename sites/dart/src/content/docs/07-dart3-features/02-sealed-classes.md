@@ -365,6 +365,8 @@ String describe(Result&lt;int&gt; r) => switch (r) {
 
 The key difference: abstract classes allow external subtypes; sealed classes do not.
 
+<div class="table-wrap">
+
 | Property                | `abstract class`              | `sealed class`            |
 | ----------------------- | ----------------------------- | ------------------------- |
 | Instantiable directly   | No                            | No                        |
@@ -372,6 +374,8 @@ The key difference: abstract classes allow external subtypes; sealed classes do 
 | Exhaustive switch       | No (must use `default`)       | Yes (compiler-enforced)   |
 | Type hierarchy openness | Open (extensible)             | Closed (fixed)            |
 | Use case                | Polymorphism, shared behavior | Sum types, state machines |
+
+</div>
 
 ### When to Use Abstract Classes
 
@@ -461,6 +465,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property                 | `enum`                             | `sealed class`                              |
 | ------------------------ | ---------------------------------- | ------------------------------------------- |
 | Variant-specific fields  | No (all variants share fields)     | Yes (each class has its own fields)         |
@@ -470,6 +476,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 | Memory overhead          | Minimal (single object per value)  | Higher (each instance is a separate object) |
 | Complexity               | Simple                             | More complex                                |
 | Use case                 | Fixed value sets with uniform data | Heterogeneous types with different shapes   |
+
+</div>
 
 ### When to Use Which
 

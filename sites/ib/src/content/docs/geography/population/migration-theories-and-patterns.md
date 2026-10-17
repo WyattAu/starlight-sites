@@ -23,6 +23,8 @@ Migration is the movement of people from one place to another with the intention
 Permanently or temporarily, in the new location. Migration can be classified along several
 Dimensions:
 
+<div class="table-wrap">
+
 | Dimension         | Categories                                                                           | Notes                                                                        |
 | ----------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | **Direction**     | Internal (within a country), international (crossing a national border)              | Internal migration includes rural-urban, urban-urban, and rural-rural        |
@@ -30,6 +32,8 @@ Dimensions:
 | **Voluntariness** | Voluntary (economic, social), forced (conflict, persecution, environmental disaster) | The distinction is often blurred in practice                                 |
 | **Distance**      | Short-distance, long-distance, intercontinental                                      | Ravenstein observed that most migration is over short distances              |
 | **Legal status**  | Regular (documented), irregular (undocumented)                                       | Irregular migrants lack legal authorisation to enter, stay, or work          |
+
+</div>
 
 ## Theoretical Frameworks
 
@@ -141,19 +145,27 @@ Complex, as environmental factors interact with economic, social, and political 
 
 ### On the Country of Origin
 
+<div class="table-wrap">
+
 | Impact          | Positive                                                                                                                                                                              | Negative                                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Economic**    | Remittances (global remittances exceeded USD 650 billion in 2023, exceeding official development aid); return migrants bring skills and investment; reduced pressure on labour market | Brain drain (loss of skilled workers, particularly in healthcare and education); reduced tax base        |
 | **Social**      | Exposure to new ideas and practices through return migrants and diaspora networks                                                                                                     | Family disruption; dependency on remittances (Diaspora may reduce incentive for local economic activity) |
 | **Demographic** | Reduced population pressure (particularly relevant for countries with high population growth)                                                                                         | Ageing population if working-age emigration exceeds natural increase                                     |
 
+</div>
+
 ### On the Country of Destination
+
+<div class="table-wrap">
 
 | Impact          | Positive                                                                                                                                                                                | Negative                                                                                                                          |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | **Economic**    | Increased labour supply (particularly in sectors with shortages: healthcare, agriculture, construction, hospitality); entrepreneurial activity; increased demand for goods and services | Wage depression in low-skill sectors (contested; evidence is mixed); fiscal costs of integration and services                     |
 | **Social**      | Cultural diversity; culinary and artistic enrichment; demographic rejuvenation (in ageing societies)                                                                                    | Social tension; pressure on housing and public services; cultural conflict; political backlash (rise of anti-immigration parties) |
 | **Demographic** | Mitigates population decline in countries with below-replacement fertility                                                                                                              | Changes the ethnic and cultural composition of the population                                                                     |
+
+</div>
 
 ## Case Study: Mexico-USA Migration
 

@@ -76,6 +76,8 @@ does not error).
 Every hook has a fixed name. Git iterates through the hooks directory and matches filenames against
 A hardcoded list. The naming is not configurable:
 
+<div class="table-wrap">
+
 | Hook Name            | Type   | Trigger Point                   |
 | -------------------- | ------ | ------------------------------- |
 | `pre-commit`         | Client | Before commit, after staging    |
@@ -89,6 +91,8 @@ A hardcoded list. The naming is not configurable:
 | `pre-receive`        | Server | Before refs are updated         |
 | `update`             | Server | Once per ref being updated      |
 | `post-receive`       | Server | After refs are updated          |
+
+</div>
 
 ### What Happens When a Hook Fails
 
@@ -108,6 +112,8 @@ warning but does **not** abort the operation, the commit or push has already suc
 
 ### Full Reference Table
 
+<div class="table-wrap">
+
 | Hook                 | Arguments                                                                                        | stdin                                                                                | Fail Aborts? | Typical Use                                |
 | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------ | ------------------------------------------ |
 | `pre-commit`         | None                                                                                             | None                                                                                 | Yes          | Linting, formatting, tests on staged files |
@@ -119,6 +125,8 @@ warning but does **not** abort the operation, the commit or push has already suc
 | `post-merge`         | `$1`=flag (1=squash merge)                                                                       | None                                                                                 | No           | Submodule update, dependency install       |
 | `pre-push`           | None                                                                                             | Lines: `&lt;local ref&gt; &lt;local sha1&gt; &lt;remote ref&gt; &lt;remote sha1&gt;` | Yes          | Test suite, prevent force-push to main     |
 | `pre-auto-gc`        | None                                                                                             | None                                                                                 | Yes          | Prevent automatic garbage collection       |
+
+</div>
 
 ### pre-commit
 
@@ -534,6 +542,8 @@ chmod +x .githooks/pre-commit
 Git sets several environment variables before invoking a hook. These provide context about the
 Repository and the operation in progress:
 
+<div class="table-wrap">
+
 | Variable              | Available In    | Description                                 |
 | --------------------- | --------------- | ------------------------------------------- |
 | `GIT_DIR`             | All hooks       | Path to the `.git` directory                |
@@ -546,6 +556,8 @@ Repository and the operation in progress:
 | `GIT_COMMIT`          | `post-commit`   | SHA of the newly created commit             |
 | `GIT_PREFIX`          | `post-checkout` | The path to the worktree root (for subdirs) |
 | `GIT_REFLOG_ACTION`   | All hooks       | The operation being performed               |
+
+</div>
 
 **Important**: the `PATH` environment variable in hooks is often minimal. If your hook invokes tools
 Like `eslint`, `shellcheck` or custom binaries, they may not be found. Either use absolute paths or
@@ -687,6 +699,8 @@ repos:
 
 The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 
+<div class="table-wrap">
+
 | Hook ID                                | What It Does                                     | Fix? |
 | -------------------------------------- | ------------------------------------------------ | ---- |
 | `trailing-whitespace`                  | Removes trailing whitespace from all lines       | Yes  |
@@ -699,6 +713,8 @@ The `pre-commit-hooks` repository provides widely-used, battle-tested hooks:
 | `check-case-conflict`                  | Detects filename case conflicts (Linux vs macOS) | No   |
 | `check-executables-have-shebangs`      | Ensures executable files have shebangs           | No   |
 | `check-shebang-scripts-are-executable` | Ensures files with shebangs are executable       | No   |
+
+</div>
 
 ### Running in CI
 

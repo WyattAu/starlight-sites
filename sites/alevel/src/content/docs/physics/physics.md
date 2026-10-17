@@ -28,6 +28,8 @@ Technique, and the ability to reason from first principles.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Topic                             | AQA     | Edexcel  | OCR (A) | CIE (9702) |
 | --------------------------------- | ------- | -------- | ------- | ---------- |
 | Measurements & Uncertainties      | Paper 1 | CP1      | Paper 1 | P1         |
@@ -39,6 +41,8 @@ Technique, and the ability to reason from first principles.
 | Nuclear & Quantum Physics         | Paper 2 | CP3      | Paper 2 | P4         |
 | Astrophysics (Optional)           | Paper 2 | CP5      | Paper 2 |,          |
 | Particle Physics                  | Paper 1 | CP1      | Paper 1 |,          |
+
+</div>
 
 ### Course Structure
 
@@ -56,12 +60,16 @@ Technique, and the ability to reason from first principles.
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers        | Format                          |
 | ------- | ------------- | ------------------------------- |
 | AQA     | Paper 1, 2, 3 | Written + practical endorsement |
 | Edexcel | CP1–CP6       | Written + practical endorsement |
 | OCR (A) | Paper 1, 2, 3 | Written + practical endorsement |
 | CIE     | Paper 1–4     | Written + practical exam (P5)   |
+
+</div>
 
 > All boards require a practical skills endorsement (pass/fail), assessed either through a portfolio
 > (AQA, Edexcel, OCR) or a dedicated practical paper (CIE).
@@ -89,6 +97,8 @@ identify gaps.
 
 ### Key Exam Board Differences
 
+<div class="table-wrap">
+
 | Aspect          | AQA                                  | OCR (A)                       | CIE (9702)               |
 | --------------- | ------------------------------------ | ----------------------------- | ------------------------ |
 | Practical       | 12 required activities (endorsement) | Practical endorsement (PAGs)  | Paper 5 practical exam   |
@@ -96,7 +106,11 @@ identify gaps.
 | Multiple Choice | Paper 1 (60 marks)                   | Paper 1 (70 marks)            | Paper 1 (40 marks)       |
 | Calculators     | Permitted in all papers              | Permitted in all papers       | Permitted except Paper 1 |
 
+</div>
+
 ### Key Formulae
+
+<div class="table-wrap">
 
 | Topic         | Formula                                     |
 | ------------- | ------------------------------------------- |
@@ -106,6 +120,8 @@ identify gaps.
 | Waves         | $v = f\lambda$, $T = \frac{1}{f}$           |
 | Coulomb       | $F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}$ |
 | Gravitational | $F = \frac{GMm}{r^2}$, $g = \frac{GM}{r^2}$ |
+
+</div>
 
 ### Study Strategy
 
@@ -121,6 +137,8 @@ identify gaps.
 
 ### Key Prefixes
 
+<div class="table-wrap">
+
 | Prefix | Symbol | Value      |
 | ------ | ------ | ---------- |
 | giga   | G      | $10^9$     |
@@ -130,6 +148,8 @@ identify gaps.
 | micro  | $\mu$  | $10^{-6}$  |
 | nano   | n      | $10^{-9}$  |
 | pico   | p      | $10^{-12}$ |
+
+</div>
 
 ## Summary
 

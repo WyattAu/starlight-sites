@@ -83,6 +83,8 @@ points to show the topographic profile.
 
 Primary data is collected firsthand by the researcher through fieldwork. Methods include:
 
+<div class="table-wrap">
+
 | Method         | Description                                                                                               | Strengths                                                                  | Limitations                                                               |
 | -------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Questionnaires | Structured or semi-structured surveys administered in person, by post, or online                          | Can collect large volumes of data; standardised questions allow comparison | Response bias; low response rates; leading questions can distort results  |
@@ -90,6 +92,8 @@ Primary data is collected firsthand by the researcher through fieldwork. Methods
 | Measurements   | Quantitative data collected using instruments (e.g., temperature, pH, flow velocity, pebble size)         | Objective; replicable; precise                                             | Equipment errors; sampling may not be representative                      |
 | Interviews     | In-depth, open-ended questioning of individuals                                                           | Rich qualitative data; can explore complex issues                          | Difficult to analyse systematically; small sample sizes; interviewee bias |
 | Field sketches | Annotated drawings of landscapes, land use, or features                                                   | Quick; captures spatial relationships; low cost                            | Subjective; limited precision                                             |
+
+</div>
 
 ### Secondary Data
 
@@ -114,6 +118,8 @@ choice of presentation method depends on the type of data and the purpose of the
 
 ### Graphs
 
+<div class="table-wrap">
+
 | Graph Type              | Use                                                                | Example                                                            |
 | ----------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | Bar chart               | Comparing discrete categories                                      | Comparing population density across countries                      |
@@ -125,6 +131,8 @@ choice of presentation method depends on the type of data and the purpose of the
 | Triangular graph        | Showing the relative proportions of three variables                | Employment structure (primary, secondary, tertiary)                |
 | Logarithmic scale graph | Showing data spanning several orders of magnitude                  | Population growth over long time periods                           |
 | Radar (spider) diagram  | Showing multiple variables for comparison                          | Comparing quality of life indicators across cities                 |
+
+</div>
 
 ### Maps
 
@@ -165,11 +173,15 @@ descriptive title; include a legend or key; and use an appropriate scale.
 
 ### Measures of Central Tendency
 
+<div class="table-wrap">
+
 | Measure | Definition                                                                         | When to Use                                                            |
 | ------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Mean    | Sum of all values divided by the number of values: $\bar{x} = \frac{\sum{x_i}}{n}$ | For normally distributed interval or ratio data; sensitive to outliers |
 | Median  | The middle value when data are ranked in order                                     | For skewed data or data with outliers; ordinal data                    |
 | Mode    | The most frequently occurring value                                                | For categorical (nominal) data; bimodal or multimodal distributions    |
+
+</div>
 
 ### Measures of Dispersion
 
@@ -348,10 +360,14 @@ and displaying spatial data. GIS integrates geographic data (where things are) w
 
 ### GIS Data Types
 
+<div class="table-wrap">
+
 | Data Type   | Description                                                                                                              | Example                                                                           |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | Vector data | Represents features as points (e.g., cities), lines (e.g., rivers, roads), or polygons (e.g., countries, land-use zones) | A polygon layer showing census tracts with attribute data on population density   |
 | Raster data | Represents data as a grid of cells (pixels), each with a numerical value                                                 | Satellite imagery, digital elevation models (DEMs), land surface temperature maps |
+
+</div>
 
 ### GIS Layers
 
@@ -422,6 +438,8 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 
 ### Applications
 
+<div class="table-wrap">
+
 | Application                            | Satellite/Sensor           | Use                                                                                                         |
 | -------------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Land-use and land-cover change mapping | Landsat, Sentinel-2        | Monitoring deforestation, urbanisation, agricultural expansion                                              |
@@ -430,6 +448,8 @@ light, infrared, microwave) reflected or emitted by Earth's surface and atmosphe
 | Sea surface temperature                | MODIS, NOAA AVHRR          | Monitoring ocean currents, upwelling, coral bleaching                                                       |
 | Glacier monitoring                     | Landsat, ASTER             | Tracking glacier extent, mass balance, and retreat rates                                                    |
 | Air quality                            | Sentinel-5P (TROPOMI)      | Monitoring atmospheric concentrations of $\mathrm{NO_2}$$\mathrm{SO_2}$$\mathrm{O_3}$ And particulate matter |
+
+</div>
 
 ### Normalised Difference Vegetation Index (NDVI)
 

@@ -29,12 +29,16 @@ Differences.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board   | Paper   | Notes                                                    |
 | ------- | ------- | -------------------------------------------------------- |
 | AQA     | Paper 1 | Further partial fractions; roots and coefficients        |
 | Edexcel | FP1/FP2 | Summation of series; roots of polynomials                |
 | OCR (A) | Paper 1 | All topics; summation of series emphasised               |
 | CIE     | P1/P3   | Summation of series required; partial fractions in depth |
+
+</div>
 
 <hr />
 
@@ -953,6 +957,8 @@ Partial fractions are the algebraic equivalent of decomposing a complex signal i
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                                         | Correct Approach                                                                                                     |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Forgetting the condition $\|x\| < 1$ for binomial expansions                                    | Always state the convergence condition explicitly                                                                    |
@@ -960,6 +966,8 @@ Partial fractions are the algebraic equivalent of decomposing a complex signal i
 | Splitting partial fractions incorrectly for method of differences                               | Always check by recombining: $\dfrac{A}{r} + \dfrac{B}{r+1} = \dfrac{A(r+1) + Br}{r(r+1)}$                           |
 | Assuming Vieta's formulae give $\alpha\beta\gamma = -d/a$ without checking the sign             | For $ax^3+bx^2+cx+d=0$: $\alpha+\beta+\gamma=-b/a$$\alpha\beta+\beta\gamma+\gamma\alpha=c/a$$\alpha\beta\gamma=-d/a$ |
 | Skipping the base case in induction proofs                                                      | The base case is essential, without it the induction chain is unanchored                                            |
+
+</div>
 
 ---
 
@@ -1116,6 +1124,8 @@ Used extensively in integration and differentiation. See
 
 ## 12. Key Formulae Summary
 
+<div class="table-wrap">
+
 | Topic                 | Key Formula                                                                                  |
 | --------------------- | -------------------------------------------------------------------------------------------- |
 | General binomial      | $(1+x)^n = \displaystyle\sum_{k=0}^{\infty} \binom{n}{k}x^k$ for $\|x\| < 1$                 |
@@ -1125,6 +1135,8 @@ Used extensively in integration and differentiation. See
 | Sum of squares        | $\displaystyle\sum_{r=1}^{n} r^2 = \dfrac{n(n+1)(2n+1)}{6}$                                  |
 | Sum of cubes          | $\displaystyle\sum_{r=1}^{n} r^3 = \dfrac{n^2(n+1)^2}{4}$                                    |
 | Harmonic sum          | $H_n = \displaystyle\sum_{r=1}^{n} \dfrac{1}{r} \approx \ln n + \gamma$                      |
+
+</div>
 
 ---
 

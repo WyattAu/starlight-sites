@@ -85,12 +85,16 @@ Therefore, G + C = $100\% - 56\% = 44\%$.
 
 Since G pairs with C: G = $22\%$ and C = $22\%$.
 
+<div class="table-wrap">
+
 | Base         | Percentage |
 | ------------ | :--------: |
 | Adenine (A)  |    28%     |
 | Thymine (T)  |    28%     |
 | Guanine (G)  |    22%     |
 | Cytosine (C) |    22%     |
+
+</div>
 
 ---
 
@@ -116,6 +120,8 @@ meant by a codon and an anticodon. [4 marks]
 (c) A mutation changes a DNA triplet from GAG to GTG. Using the genetic code table below (partial),
 determine the effect of this mutation on the amino acid sequence.
 
+<div class="table-wrap">
+
 | mRNA codon | Amino acid    |
 | ---------- | ------------- |
 | CUC        | Leucine       |
@@ -123,6 +129,8 @@ determine the effect of this mutation on the amino acid sequence.
 | GAG        | Glutamic acid |
 | GAC        | Aspartic acid |
 | GUG        | Valine        |
+
+</div>
 
 [2 marks]
 
@@ -235,10 +243,14 @@ must have passed his $X^{c}$ chromosome to her. Therefore, her genotype is $X^{C
 
 **Genetic cross**:
 
+<div class="table-wrap">
+
 |                  | $X^{C}$ (mother)             | $X^{c}$ (mother)              |
 | ---------------- | ---------------------------- | ----------------------------- |
 | $X^{C}$ (father) | $X^{C}X^{C}$ (normal female) | $X^{C}X^{c}$ (carrier female) |
 | $Y$ (father)     | $X^{C}Y$ (normal male)       | $X^{c}Y$ (colour blind male)  |
+
+</div>
 
 Possible offspring:
 
@@ -395,11 +407,15 @@ antibiotic, only bacteria with the plasmid (which carries the resistance gene) w
 
 The table below shows three different types of mutations that can occur in a gene:
 
+<div class="table-wrap">
+
 | Mutation type     | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
 | Silent mutation   | Base substitution that does not change the amino acid coded for |
 | Missense mutation | Base substitution that changes one amino acid to another        |
 | Nonsense mutation | Base substitution that creates a premature stop codon           |
+
+</div>
 
 (a) Explain why a silent mutation does not affect the protein produced. Refer to the nature of the
 genetic code. [2 marks]
@@ -552,10 +568,14 @@ normal phenotype).
 
 Cross: $X^{D}X^{d} \times X^{D}Y$
 
+<div class="table-wrap">
+
 |                  | $X^{D}$ (mother)             | $X^{d}$ (mother)              |
 | ---------------- | ---------------------------- | ----------------------------- |
 | $X^{D}$ (father) | $X^{D}X^{D}$ (normal female) | $X^{D}X^{d}$ (carrier female) |
 | $Y$ (father)     | $X^{D}Y$ (normal male)       | $X^{d}Y$ (affected male)      |
+
+</div>
 
 Probability that the son is affected = $\frac{1}{2}$ (50%) of all sons, or $\frac{1}{4}$ of all
 children.

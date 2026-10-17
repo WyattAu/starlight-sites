@@ -53,6 +53,8 @@ $$
 
 Where $m$ is the mass in grams.
 
+<div class="table-wrap">
+
 | Substance   | Molar Mass (g/mol) |
 | ----------- | ------------------ |
 | H           | 1.01               |
@@ -65,6 +67,8 @@ Where $m$ is the mass in grams.
 | CO$_2$      | 44.01              |
 | NaCl        | 58.44              |
 | H$_2$SO$_4$ | 98.08              |
+
+</div>
 
 :::note[Example]
 Calculate the number of molecules in $5.0\mathrm{ g}$ of water.
@@ -117,11 +121,15 @@ Where $n$ is an integer.
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Find its
 Empirical formula.
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Molar Mass (g/mol) | Moles | Ratio |
 | ------- | -------- | ------------------ | ----- | ----- |
 | C       | 40.0     | 12.01              | 3.33  | 1     |
 | H       | 6.7      | 1.01               | 6.63  | 2     |
 | O       | 53.3     | 16.00              | 3.33  | 1     |
+
+</div>
 
 Empirical formula: CH$_2$O.
 
@@ -511,11 +519,15 @@ $$
 What is the empirical formula of a compound that is $36.5\%$ sodium, $25.4\%$ sulfur, and $38.1\%$
 Oxygen?
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Molar Mass | Moles | Ratio |
 | ------- | -------- | ---------- | ----- | ----- |
 | Na      | 36.5     | 22.99      | 1.588 | 2     |
 | S       | 25.4     | 32.07      | 0.792 | 1     |
 | O       | 38.1     | 16.00      | 2.381 | 3     |
+
+</div>
 
 Empirical formula: Na$_2$SO$_3$.
 
@@ -597,6 +609,8 @@ $$
 
 ## Summary
 
+<div class="table-wrap">
+
 | Formula          | Expression                                                   |
 | ---------------- | ------------------------------------------------------------ |
 | Moles from mass  | $n = \dfrac{m}{M}$                                           |
@@ -607,6 +621,8 @@ $$
 | Charles's law    | $\dfrac{V_1}{T_1} = \dfrac{V_2}{T_2}$                        |
 | Dilution         | $c_1V_1 = c_2V_2$                                            |
 | Percentage yield | $\dfrac{\mathrm{actual}}{\mathrm{theoretical}} \times 100\%$ |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -701,11 +717,15 @@ The gas is likely O$_2$.
 
 ### Concentration Conversions
 
+<div class="table-wrap">
+
 | From            | To              | Method                                          |
 | --------------- | --------------- | ----------------------------------------------- |
 | Molarity        | Mass percentage | $c \times M \times 100 / (1000\rho)$            |
 | Mass percentage | Molarity        | $(\%\mathrm{/}100) \times \rho \times 1000 / M$ |
 | Molarity        | ppm             | $c \times M \times 10^6 / 1000\rho$             |
+
+</div>
 
 ### Colligative Properties
 
@@ -718,11 +738,15 @@ Properties that depend on the number of solute particles (not their identity):
 Where $i$ is the van't Hoff factor (number of particles per formula unit), $K_b$ and $K_f$ are
 Constants, and $m$ is molality.
 
+<div class="table-wrap">
+
 | Solute                          | $i$ |
 | ------------------------------- | --- |
 | Non-electrolyte (e.g., glucose) | 1   |
 | NaCl                            | 2   |
 | CaCl$_2$                        | 3   |
+
+</div>
 
 ---
 
@@ -927,12 +951,16 @@ $$
 
 ### Gas Collection Methods
 
+<div class="table-wrap">
+
 | Method                         | Best For         | Gas Collected              |
 | ------------------------------ | ---------------- | -------------------------- |
 | Downward displacement of water | Insoluble gases  | Oxygen, hydrogen           |
 | Upward delivery                | Soluble gases    | Ammonia                    |
 | Gas syringe                    | Accurate volume  | Any gas                    |
 | Over water (eudiometer)        | Measuring volume | Gases that do not dissolve |
+
+</div>
 
 ### Ideal Gas Assumptions
 
@@ -1036,11 +1064,15 @@ is approximately $180\mathrm{ g/mol}$. Determine the empirical and molecular for
 
 Convert percentages to moles:
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Molar Mass (g/mol) | Moles  | Ratio |
 | ------- | -------- | ------------------ | ------ | ----- |
 | C       | $40.0$   | $12.01$            | $3.33$ | $1$   |
 | H       | $6.7$    | $1.01$             | $6.63$ | $2$   |
 | O       | $53.3$   | $16.00$            | $3.33$ | $1$   |
+
+</div>
 
 Empirical formula: **$\mathrm{CH}_2\mathrm{O}$** (molar mass $= 30.03\mathrm{ g/mol}$)
 
@@ -1179,11 +1211,15 @@ For the A-Level treatment of this topic, see
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic           | Site    | Link                                                                                                |
 | --------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Stoichiometry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)            |
 | [Stoichiometry] | IB      | [View](https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships/)     |
 | [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/) |
+
+</div>
 
 ## Worked Examples
 

@@ -143,6 +143,8 @@ Normalisation is the systematic process of organising tables to minimise redunda
 
 **Normal forms:**
 
+<div class="table-wrap">
+
 | Normal Form | Requirement | Problem Solved |
 |-------------|-------------|----------------|
 | 1NF | All attributes are atomic; no repeating groups | Eliminates multi-valued attributes |
@@ -150,23 +152,33 @@ Normalisation is the systematic process of organising tables to minimise redunda
 | 3NF | In 2NF + no non-prime attribute transitively depends on the primary key | Eliminates transitive dependencies |
 | BCNF | For every non-trivial FD X → Y, X is a superkey | Stronger version of 3NF |
 
+</div>
+
 **Functional dependencies:** A functional dependency X → Y means that for every valid instance, the value of X determines the value of Y. For example, student_id → name means that each student_id maps to exactly one name.
 
 **Example of normalisation:**
 
 Unnormalised table:
+<div class="table-wrap">
+
 | student_id | name | courses |
 |------------|------|---------|
 | 1 | Alice | CS101, MATH201 |
 | 2 | Bob | CS101, PHYS101 |
 
+</div>
+
 1NF (atomic values, no repeating groups):
+<div class="table-wrap">
+
 | student_id | name | course |
 |------------|------|--------|
 | 1 | Alice | CS101 |
 | 1 | Alice | MATH201 |
 | 2 | Bob | CS101 |
 | 2 | Bob | PHYS101 |
+
+</div>
 
 2NF (eliminate partial dependencies):
 Students(student_id, name)

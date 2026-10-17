@@ -29,11 +29,15 @@ several other UK Universities as part of their conditional offers.
 
 There are three papers:
 
+<div class="table-wrap">
+
 | Paper    | Content Scope                                        | Typical Use                                                  |
 | -------- | ---------------------------------------------------- | ------------------------------------------------------------ |
 | STEP I   | A-Level Mathematics syllabus                         | Historically the most accessible; now less commonly required |
 | STEP II  | A-Level Mathematics and AS-Level Further Mathematics | Most widely required paper                                   |
 | STEP III | A-Level Further Mathematics full syllabus            | Required for the most competitive Cambridge offers           |
+
+</div>
 
 Each paper is 3 hours long. Candidates choose 6 questions from a total of 12 (8 pure, 2 mechanics, 2
 Probability/statistics). Each question is worth 20 marks. There is no penalty for incorrect working:
@@ -840,6 +844,8 @@ When working with step preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                      | Site                 | Link                                                                            |
 | -------------------------- | -------------------- | ------------------------------------------------------------------------------- |
 | STEP Past Papers           | Cambridge Assessment | [View](https://www.ocr.org.uk/qualifications/past-paper-finder/?step=1&qual=89) |
@@ -848,3 +854,5 @@ When working with step preparation, follow a structured approach:
 | TMUA Preparation           | WyattsNotes          | [View](/tmua-preparation/)                            |
 | Calculus, Differentiation | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/10-differentiation/)                           |
 | Calculus, Integration     | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/11-integration/)                               |
+
+</div>

@@ -208,6 +208,8 @@ Key property: the origin is always mapped to the origin.
 
 ### 4.2 Standard transformations
 
+<div class="table-wrap">
+
 | Transformation                   | Matrix                                                                              |
 | -------------------------------- | ----------------------------------------------------------------------------------- |
 | Reflection in $x$-axis           | $\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$                                     |
@@ -216,6 +218,8 @@ Key property: the origin is always mapped to the origin.
 | Rotation $\theta$ anticlockwise  | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Enlargement scale $k$            | $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$                                      |
 | Stretch parallel to $x$ (sf $k$) | $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$                                      |
+
+</div>
 
 ### 4.3 Combined transformations
 

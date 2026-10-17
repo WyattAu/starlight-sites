@@ -271,6 +271,8 @@ used only when thread or context changes are needed.
 
 ## Choosing the Right Function
 
+<div class="table-wrap">
+
 | Function | Context | Returns      | Primary Use                   |
 | -------- | ------- | ------------ | ----------------------------- |
 | `let`    | `it`    | block result | Null safety, transforms       |
@@ -278,6 +280,8 @@ used only when thread or context changes are needed.
 | `with`   | `this`  | block result | Multiple operations on object |
 | `apply`  | `this`  | receiver     | Configuration, initialization |
 | `also`   | `it`    | receiver     | Side effects, logging, debug  |
+
+</div>
 
 Use the following decision process:
 

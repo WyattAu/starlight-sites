@@ -20,13 +20,19 @@ tableOfContents: false
 
 ### Core Systems
 
+<div class="table-wrap">
+
 | Diagnostic File                                | Topics Covered                                                                                       | Source File                                                      |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | `diag-./2-computer-systems/1_computer-systems` | CPU architecture, memory hierarchy, I/O devices, Von Neumann model, fetch-decode-execute cycle       | `./2-computer-systems/1_computer-systems`                        |
 | `diag-data-representation.md`                  | Binary/hex conversion, two"s complement, character encoding, image/audio representation, compression | `data-representation.md`                                         |
 | `diag-internet-data-communications.md`         | OSI model, TCP/IP, network topologies, protocols, bandwidth, error detection                         | `./4-networking-and-internet/1_internet-and-data-communications` |
 
+</div>
+
 ### Applications and Security
+
+<div class="table-wrap">
 
 | Diagnostic File                                | Topics Covered                                                                            | Source File                                                 |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -34,6 +40,8 @@ tableOfContents: false
 | `diag-network-security-social-implications.md` | Malware, encryption, data protection, legal/ethical issues, privacy, cyber law            | `network-security-and-social-implications.md`               |
 | `diag-office-automation.md`                    | Spreadsheet formulas, data analysis, document formatting, mail merge, collaborative tools | `./5-office-automation/1_office-automation`                 |
 | `diag-web-multimedia.md`                       | HTML/CSS, web design principles, multimedia formats, web security, responsive design      | `web-development-and-multimedia.md`                         |
+
+</div>
 
 ## Grading Rubric
 
@@ -90,6 +98,8 @@ Programming and Databases (logic, data management)
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                                  | Recommended Time | Notes                                         |
 | ------------------------------------------- | ---------------- | --------------------------------------------- |
 | `diag-computer-systems`                     | 30 minutes       | Mix of conceptual and calculation questions   |
@@ -99,6 +109,8 @@ Programming and Databases (logic, data management)
 | `diag-network-security-social-implications` | 30 minutes       | Conceptual questions with some calculation    |
 | `diag-office-automation`                    | 25 minutes       | Spreadsheet formulas and practical scenarios  |
 | `diag-web-multimedia`                       | 35 minutes       | HTML/CSS, file format analysis, security      |
+
+</div>
 
 **Total recommended time:** approximately 3.5 hours (spread across 2--3 sessions).
 

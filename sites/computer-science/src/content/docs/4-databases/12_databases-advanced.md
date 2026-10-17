@@ -155,6 +155,8 @@ $$
 \text{ROWS} | RANGE BETWEEN frame_start AND frame_end
 $$
 
+<div class="table-wrap">
+
 | Frame unit            | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
 | `ROWS`                | Physical offset from current row                         |
@@ -165,6 +167,8 @@ $$
 | `n PRECEDING`         | $n$ rows/range values before current                     |
 | `n FOLLOWING`         | $n$ rows/range values after current                      |
 
+</div>
+
 **Default frame:** `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (when ORDER BY is present),
 or `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` (when no ORDER BY).
 
@@ -172,6 +176,8 @@ or `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` (when no ORDER BY)
 <summary>Worked Example: Running Totals and Rankings</summary>
 
 Table: Sales(salesperson, month, amount)
+
+<div class="table-wrap">
 
 | salesperson | month | amount |
 | ----------- | ----- | ------ |
@@ -181,6 +187,8 @@ Table: Sales(salesperson, month, amount)
 | Bob         | Jan   | 3000   |
 | Bob         | Feb   | 4000   |
 | Bob         | Mar   | 5000   |
+
+</div>
 
 **Running total per salesperson:**
 
@@ -196,9 +204,13 @@ FROM Sales;
 
 Result: | salesperson | month | amount | running_total |
 
+<div class="table-wrap">
+
 | ------------- | ------- | -------- | --------------- | | Alice | Jan | 5000 | 5000 | | Alice | Feb | 7000
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12000 | | Alice | Mar | 6000 | 18000 | | Bob | Jan | 3000 | 3000 | | Bob | Feb | 4000 | 7000 | |
+
+</div>
 Bob | Mar | 5000 | 12000 |
 
 **Ranking (RANK vs DENSE_RANK vs ROW_NUMBER):**
@@ -291,12 +303,16 @@ Relation: Teaching(course, teacher, textbook).
 Constraint: Each course may have multiple teachers and multiple textbooks, but the teacher-textbook
 combination is independent (any teacher can use any textbook for a course they teach).
 
+<div class="table-wrap">
+
 | course | teacher | textbook |
 | ------ | ------- | -------- |
 | CS101  | Smith   | Knuth    |
 | CS101  | Smith   | Cormen   |
 | CS101  | Jones   | Knuth    |
 | CS101  | Jones   | Cormen   |
+
+</div>
 
 This satisfies 4NF (no multi-valued dependencies beyond those implied by the key).
 
@@ -330,6 +346,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 
 ### 3.3 Normalisation Algorithm Summary
 
+<div class="table-wrap">
+
 | Normal Form | Condition                                       | Decomposition always possible? | Dependency preserving? |
 | ----------- | ----------------------------------------------- | ------------------------------ | ---------------------- |
 | 1NF         | Atomic values                                   | yes                            | Yes                    |
@@ -340,6 +358,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 | 5NF         | No non-trivial JDs with non-superkey components | Not always                     | Not always             |
 | DKNF        | Only domain + key constraints                   | Not always                     | N/A                    |
 
+</div>
+
 ## 4. Query Optimisation in Depth
 
 ### 4.1 Cost-Based Optimisation
@@ -347,6 +367,8 @@ DKNF. This is in contrast to BCNF and 4NF, which can always be achieved via loss
 The optimiser estimates the cost of each query plan and chooses the cheapest one.
 
 **Cost model parameters:**
+
+<div class="table-wrap">
 
 | Parameter | Symbol | Description                                       |
 | --------- | ------ | ------------------------------------------------- |
@@ -356,7 +378,11 @@ The optimiser estimates the cost of each query plan and chooses the cheapest one
 | $bfr$     |        | Blocking factor (records per block)               |
 | $f_{rt}$  |        | Fan-out of internal nodes of a B+ tree            |
 
+</div>
+
 **Cost estimates for selection:**
+
+<div class="table-wrap">
 
 | Selection type                   | Cost (blocks)                                    |
 | -------------------------------- | ------------------------------------------------ |
@@ -365,10 +391,14 @@ The optimiser estimates the cost of each query plan and chooses the cheapest one
 | Linear scan                      | $\lceil R / bfr \rceil$                          |
 | Comparison on sorted file        | $\lceil \log_2 B \rceil + \lceil s / bfr \rceil$ |
 
+</div>
+
 **Theorem 4.1.** For a selection $\sigma_{A=v}(R)$ with $V(A, R)$ distinct values, the expected cost
 of a secondary B+ tree index lookup is $\lceil R / (V(A, R) \cdot f_{rt}) \rceil + h + 1$.
 
 ### 4.2 Join Algorithm Costs
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                  | Best when                      |
 | ----------------- | ----------------------------------------------------- | ------------------------------ |
@@ -377,6 +407,8 @@ of a secondary B+ tree index lookup is $\lceil R / (V(A, R) \cdot f_{rt}) \rceil
 | Index nested-loop | $B_r + R_r \cdot (\text{cost} of index lookup on  S)$ | Index on join attribute of $S$ |
 | Sort-merge        | $B_r + B_s + \text{sort} cost$                        | Both relations large           |
 | Hash join         | $3(B_r + B_s)$                                        | Equi-join, no order required   |
+
+</div>
 
 Where $M$ is the number of available memory blocks.
 
@@ -515,11 +547,15 @@ acyclic, and by Theorem 5.1, the schedule is conflict-serialisable. $\blacksquar
 
 **Variants of 2PL:**
 
+<div class="table-wrap">
+
 | Variant      | Description                                                                   | Deadlock? |
 | ------------ | ----------------------------------------------------------------------------- | --------- |
 | Basic 2PL    | No restrictions on when locks are released                                    | Possible  |
 | Strict 2PL   | All locks held until commit/abort                                             | Possible  |
 | Rigorous 2PL | All locks held until commit/abort (same as strict for writes, but also reads) | Possible  |
+
+</div>
 
 :::caution
 (e.g., wait-die, wound-wait) or detection (wait-for graph) is still needed. Additionally, 2PL may
@@ -544,6 +580,8 @@ new versions.
 
 **MVCC vs locking:**
 
+<div class="table-wrap">
+
 | Aspect                | Locking                       | MVCC                               |
 | --------------------- | ----------------------------- | ---------------------------------- |
 | Read-write conflicts  | Readers block writers         | No blocking                        |
@@ -551,6 +589,8 @@ new versions.
 | Storage overhead      | Low                           | Higher (multiple versions)         |
 | Garbage collection    | Not needed                    | Needed (VACUUM in PostgreSQL)      |
 | Phantom reads         | Prevented by predicates locks | Not always prevented               |
+
+</div>
 
 **Snapshot Isolation.** Each transaction reads from a snapshot as of its start. Writes are checked
 for conflicts at commit time: if two transactions modify the same row, the later committer aborts.
@@ -597,12 +637,16 @@ or times out, the coordinator sends ABORT.
 
 **Failure scenarios:**
 
+<div class="table-wrap">
+
 | Failure                                     | Handling                                             |
 | ------------------------------------------- | ---------------------------------------------------- |
 | Participant crashes before voting           | Coordinator times out, sends ABORT                   |
 | Participant crashes after voting YES        | On recovery, ask coordinator for decision            |
 | Coordinator crashes before sending decision | Participants timeout, elect new coordinator or block |
 | Coordinator crashes after sending decision  | Participants re-send decision when asked             |
+
+</div>
 
 **Theorem 6.1.** 2PC guarantees atomicity: all participants commit or all abort. However, 2PC is a
 **blocking protocol**: if the coordinator crashes, participants may block indefinitely.
@@ -647,6 +691,8 @@ distinct values and $n$ rows, the index consists of $V$ bitmaps, each of $n$ bit
 
 **Example.** Column "colour" with values `\{Red, Green, Blue\}` and 8 rows:
 
+<div class="table-wrap">
+
 | Row | Colour |
 | --- | ------ |
 | 1   | Red    |
@@ -657,6 +703,8 @@ distinct values and $n$ rows, the index consists of $V$ bitmaps, each of $n$ bit
 | 6   | Green  |
 | 7   | Blue   |
 | 8   | Red    |
+
+</div>
 
 Bitmaps:
 
@@ -689,12 +737,16 @@ overflow buckets needed on average.
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property          | Extendible            | Linear                      |
 | ----------------- | --------------------- | --------------------------- |
 | Bucket split      | Triggered by overflow | Gradual (one per insertion) |
 | Directory         | Yes (size $2^d$)      | No directory needed         |
 | Worst-case lookup | 2 disk accesses       | 1 disk access               |
 | Space utilisation | ~69%                  | ~77%                        |
+
+</div>
 
 ### 10.3 Multi-Dimensional Indexes
 
@@ -821,11 +873,15 @@ A **materialised view** stores the result of a query physically, like a table. U
 
 **Maintenance:**
 
+<div class="table-wrap">
+
 | Approach                   | Description                           | Overhead            |
 | -------------------------- | ------------------------------------- | ------------------- |
 | Complete refresh           | Recompute from scratch                | High, but simple    |
 | Incremental (fast refresh) | Apply only changes since last refresh | Low, but complex    |
 | On commit                  | Refresh after every transaction       | Highest consistency |
+
+</div>
 
 **Theorem 11.1.** Materialised view maintenance adds overhead to every update on the base tables.
 The overhead is proportional to the number of rows affected and the complexity of the view query.
@@ -851,6 +907,8 @@ COMMIT;
 
 A comprehensive summary of anomalies by isolation level:
 
+<div class="table-wrap">
+
 | Anomaly             | Read Uncommitted | Read Committed | Repeatable Read | Serializable |
 | ------------------- | ---------------- | -------------- | --------------- | ------------ |
 | Dirty read          | Possible         | Prevented      | Prevented       | Prevented    |
@@ -858,6 +916,8 @@ A comprehensive summary of anomalies by isolation level:
 | Phantom read        | Possible         | Possible       | Possible        | Prevented    |
 | Write skew          | Possible         | Possible       | Possible        | Prevented    |
 | Read skew           | Possible         | Possible       | Prevented       | Prevented    |
+
+</div>
 
 **Read skew:** $T_1$ reads $A$ and $B$, $T_2$ updates $A$, $T_1$ reads $A$ again and sees a
 different value. Prevented by Repeatable Read (locks on read rows).
@@ -877,10 +937,14 @@ Serializable).
 
 **Validation types:**
 
+<div class="table-wrap">
+
 | Type                | Check                                                                           | Cost                              |
 | ------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
 | Backward validation | Check against committed transactions that finished after our read phase started | $O(\text{committed} since start)$ |
 | Forward validation  | Check against active transactions that started before our validation phase      | $O(\text{currently} active)$      |
+
+</div>
 
 **Theorem 12.1.** OCC is serialisable if the validation phase ensures that for every pair of
 overlapping transactions (reading/writing the same data), at most one commits.
@@ -893,11 +957,15 @@ overlapping transactions (reading/writing the same data), at most one commits.
 
 **Partitioning strategies:**
 
+<div class="table-wrap">
+
 | Strategy           | Description                       | Hotspot risk                    |
 | ------------------ | --------------------------------- | ------------------------------- |
 | Hash partitioning  | $f(\text{key}) \mod n$            | Low                             |
 | Range partitioning | Key ranges assigned to nodes      | High (skewed ranges)            |
 | Directory-based    | Lookup service maps keys to nodes | Low (directory is a bottleneck) |
+
+</div>
 
 **Consistent hashing.** Nodes and keys are placed on a hash ring (e.g., $0$ to $2^{128} - 1$). Each
 key is assigned to the first node clockwise. Virtual nodes (replicas on the ring) improve balance.
@@ -910,11 +978,15 @@ most-loaded to least-loaded node is $O(\log n / k)$.
 **Single-leader replication.** One node accepts writes; others replicate asynchronously or
 synchronously.
 
+<div class="table-wrap">
+
 | Mode             | Latency                      | Durability | Consistency           |
 | ---------------- | ---------------------------- | ---------- | --------------------- |
 | Synchronous      | High (wait for all replicas) | High       | Strong (linearisable) |
 | Semi-synchronous | Medium (wait for majority)   | Medium     | Strong (with quorum)  |
 | Asynchronous     | Low (no wait)                | Low        | Eventual              |
+
+</div>
 
 **Multi-leader replication.** Any node accepts writes. Conflicts are resolved using CRDTs,
 last-write-wins, or application-specific logic.
@@ -1013,11 +1085,15 @@ $$
 
 Where $R_r$ is the number of records in $R$ and the cost per probe depends on the index:
 
+<div class="table-wrap">
+
 | Index type            | Cost per probe                                               |
 | --------------------- | ------------------------------------------------------------ |
 | B+ tree (clustered)   | $\lceil h + \text{matching} records / \text{fan}-out \rceil$ |
 | B+ tree (unclustered) | $\lceil h + \text{matching} records \rceil$                  |
 | Hash index            | $\approx 1.2$ (average)                                      |
+
+</div>
 
 <details>
 <summary>Worked Example: Join Cost Comparison</summary>

@@ -473,12 +473,16 @@ Divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n 
 
 **(c)** Check values:
 
+<div class="table-wrap">
+
 | $n$ | $n^2 + n + 1$ | Prime?                 |
 | --- | ------------- | ---------------------- |
 | 1   | 3             | Yes                    |
 | 2   | 7             | Yes                    |
 | 3   | 13            | Yes                    |
 | 4   | 21            | No ($21 = 3 \times 7$) |
+
+</div>
 
 The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$ Which is not prime.
 

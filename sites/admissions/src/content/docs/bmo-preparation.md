@@ -29,10 +29,14 @@ International Mathematical Olympiad (IMO) team selection process.
 
 There are two rounds:
 
+<div class="table-wrap">
+
 | Round | Format                            | Duration  | Purpose                                       |
 | ----- | --------------------------------- | --------- | --------------------------------------------- |
 | BMO 1 | 6 questions (each worth 10 marks) | 3.5 hours | Qualification for BMO 2 and initial selection |
 | BMO 2 | 4 questions (each worth 10 marks) | 3.5 hours | IMO squad selection                           |
+
+</div>
 
 ### 1.1 Qualification
 
@@ -655,11 +659,15 @@ When working with bmo preparation, follow a structured approach:
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                            | Site        | Link                                                        |
 | -------------------------------- | ----------- | ----------------------------------------------------------- |
 | UKMT BMO Past Papers             | UKMT        | [View](https://ukmt.org.uk/competition/bmo)                 |
 | Art of Problem Solving BMO Forum | AoPS        | [View](https://artofproblemsolving.com/community/c3240_bmo) |
 | STEP Preparation Guide           | WyattsNotes | [View](/step-preparation/)        |
 | MAT Preparation Guide            | WyattsNotes | [View](/mat-preparation/)         |
-| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)          |
-| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)       |
+| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)          |
+| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)       |
+
+</div>

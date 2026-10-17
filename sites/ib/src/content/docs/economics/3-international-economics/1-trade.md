@@ -31,10 +31,14 @@ Trade, even when one country has an absolute advantage in all goods.
 
 Consider two countries, A and B, producing two goods, wine and cloth. Output per worker per day:
 
+<div class="table-wrap">
+
 |           | Wine (bottles) | Cloth (metres) |
 | --------- | -------------- | -------------- |
 | Country A | 6              | 3              |
 | Country B | 2              | 4              |
+
+</div>
 
 Opportunity costs:
 
@@ -744,10 +748,14 @@ Any terms of trade within this range makes both countries better off than under 
 Two countries, France and Japan, can produce wine and electronics. Labour supply: France = 100
 Workers, Japan = 100 workers.
 
+<div class="table-wrap">
+
 |        | Wine (bottles/worker) | Electronics (units/worker) |
 | ------ | --------------------- | -------------------------- |
 | France | 8                     | 4                          |
 | Japan  | 2                     | 10                         |
+
+</div>
 
 **Opportunity costs:**
 
@@ -809,11 +817,15 @@ Where $P_X$ is the export price index and $P_M$ is the import price index, both 
 
 **Worked example:**
 
+<div class="table-wrap">
+
 | Year | Export Price Index | Import Price Index | ToT   |
 | ---- | ------------------ | ------------------ | ----- |
 | 2020 | 100                | 100                | 100.0 |
 | 2021 | 110                | 105                | 104.8 |
 | 2022 | 120                | 125                | 96.0  |
+
+</div>
 
 The ToT improved by 4.8% in 2021 (favourable: exports rose faster than imports). The ToT
 Deteriorated by 8.4% in 2022 (unfavourable: import prices rose faster than export prices).
@@ -903,6 +915,8 @@ trading partners.
 
 ### Detailed Comparison of Integration Levels
 
+<div class="table-wrap">
+
 | Feature                         | FTA | Customs Union | Common Market | Monetary Union |
 | ------------------------------- | --- | ------------- | ------------- | -------------- |
 | Tariff-free trade among members | Yes | Yes           | Yes           | Yes            |
@@ -913,6 +927,8 @@ trading partners.
 | Common monetary policy          | No  | No            | No            | Yes            |
 | Common fiscal policy            | No  | No            | No            | Partial        |
 | Sovereignty implications        | Low | Moderate      | High          | Very high      |
+
+</div>
 
 ### Costs and Benefits of Each Stage
 
@@ -1109,12 +1125,16 @@ $$
 
 **Goalposts:**
 
+<div class="table-wrap">
+
 | Dimension                  | Indicator                   | Min | Max    |
 | -------------------------- | --------------------------- | --- | ------ |
 | Health                     | Life expectancy at birth    | 20  | 85     |
 | Education (mean years)     | Mean years of schooling     | 0   | 15     |
 | Education (expected years) | Expected years of schooling | 0   | 18     |
 | Income                     | GNI per capita (PPP, USD)   | 100 | 75,000 |
+
+</div>
 
 The GNI index uses logarithms to reflect diminishing marginal utility of income:
 
@@ -1154,11 +1174,15 @@ Inequality.
 
 The MPI, developed by UNDP and OPHI, measures poverty across three dimensions with ten indicators:
 
+<div class="table-wrap">
+
 | Dimension              | Indicators (weights)                                                                                              |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Health (1/3)           | Nutrition (1/6), Child mortality (1/6)                                                                            |
 | Education (1/3)        | Years of schooling (1/6), School attendance (1/6)                                                                 |
 | Living standards (1/3) | Electricity (1/18), Sanitation (1/18), Drinking water (1/18), Flooring (1/18), Cooking fuel (1/18), Assets (1/18) |
+
+</div>
 
 **Calculation:**
 
@@ -1185,11 +1209,15 @@ The MPI, developed by UNDP and OPHI, measures poverty across three dimensions wi
 
 A country has the following data:
 
+<div class="table-wrap">
+
 | Year | Export Price Index | Import Price Index | Export Volume Index | Import Volume Index |
 | ---- | ------------------ | ------------------ | ------------------- | ------------------- |
 | 2020 | 100                | 100                | 100                 | 100                 |
 | 2021 | 115                | 110                | 95                  | 105                 |
 | 2022 | 130                | 140                | 90                  | 100                 |
+
+</div>
 
 (a) Calculate the terms of trade for each year.
 
@@ -1338,6 +1366,8 @@ Key conditions for the Lewis mechanism to work:
 
 A small open economy has the following data for 2025 (in billions of USD):
 
+<div class="table-wrap">
+
 | Item                             | Amount                  |
 | -------------------------------- | ----------------------- |
 | Exports of goods                 | 280                     |
@@ -1355,6 +1385,8 @@ A small open economy has the following data for 2025 (in billions of USD):
 | Portfolio investment outflows    | 45                      |
 | Other investment (net)           | +15                     |
 | Change in reserves               | -12 (reserves increase) |
+
+</div>
 
 (a) Calculate the current account balance and its main components.
 
@@ -1417,6 +1449,8 @@ The Big Mac Index (The Economist) provides an accessible application of absolute
 
 **Example calculation:**
 
+<div class="table-wrap">
+
 | Country     | Big Mac price (local currency) | Big Mac price (USD) | Exchange rate (LCU/USD) | PPP-implied rate | Over/undervaluation |
 | ----------- | ------------------------------ | ------------------- | ----------------------- | ---------------- | ------------------- |
 | USA         | 5.50                           | 5.50                | 1.00                    | 1.00             | --                  |
@@ -1424,6 +1458,8 @@ The Big Mac Index (The Economist) provides an accessible application of absolute
 | Japan       | 450                            | 5.50                | 149                     | 81.8             | Undervalued by 45%  |
 | China       | 22                             | 5.50                | 7.24                    | 4.00             | Undervalued by 45%  |
 | Switzerland | 7.02                           | 5.50                | 0.89                    | 1.28             | Overvalued by 44%   |
+
+</div>
 
 **PPP-implied exchange rate** $= P_{\text{domestic}} / P_{\text{USA}}$
 
@@ -2010,6 +2046,8 @@ should be time-limited and performance-based.
 
 Country Y has the following balance of payments data (USD billion):
 
+<div class="table-wrap">
+
 | Item                     | Value |
 | ------------------------ | ----- |
 | Exports of goods         | 120   |
@@ -2022,6 +2060,8 @@ Country Y has the following balance of payments data (USD billion):
 | Net portfolio investment | 15    |
 | Net other investment     | -10   |
 | Reserve assets change    | -5    |
+
+</div>
 
 (a) Calculate the current account balance. [3 marks]
 
@@ -2088,10 +2128,14 @@ Country B can produce 1 unit of cloth with 6 labour hours or 1 unit of wine with
 
 **Opportunity costs:**
 
+<div class="table-wrap">
+
 |           | Cloth (per unit of wine) | Wine (per unit of cloth) |
 | --------- | ------------------------ | ------------------------ |
 | Country A | 2 cloth                  | 0.5 wine                 |
 | Country B | 1 cloth                  | 1 wine                   |
+
+</div>
 
 Country A has a comparative advantage in cloth (lower opportunity cost: 0.5 wine < 1 wine). Country
 B has a comparative advantage in wine (lower opportunity cost: 1 cloth < 2 cloth).
@@ -2213,10 +2257,14 @@ contradicting the H-O prediction. Possible explanations:
 
 Country X and Country Y produce two goods: cars and wheat. Labour requirements (hours per unit):
 
+<div class="table-wrap">
+
 |           | Cars | Wheat |
 | --------- | ---- | ----- |
 | Country X | 100  | 10    |
 | Country Y | 80   | 20    |
+
+</div>
 
 Each country has 1000 labour hours available.
 

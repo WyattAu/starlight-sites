@@ -200,11 +200,15 @@ Engaging with historiography demonstrates sophistication and depth. For both the
 
 ### Internal Assessment Structure
 
+<div class="table-wrap">
+
 | Section | Word Count | Content |
 | :------ | :--------- | :------ |
 | **Identification and Evaluation of Sources** | Up to 500 words | State the research question. Evaluate two sources using the origin-purpose-content-value-limitation framework. |
 | **Investigation** | 1,300–1,600 words | The body of the essay. Present a well-argued, evidence-based investigation. Structure by argument, not by source. |
 | **Reflection** | Up to 400 words | Reflect on the research process: what was learned about historical methodology, what challenges were encountered, and how the approach could be improved. |
+
+</div>
 
 **Important:** The bibliography is not included in the word count. The total word count must not exceed 2,200 words.
 

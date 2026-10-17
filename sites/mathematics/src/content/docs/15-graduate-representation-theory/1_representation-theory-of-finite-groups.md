@@ -123,11 +123,15 @@ classes: $e$, transpositions (3 of them), 3-cycles (2 of them). So there are
 three irreducibles. The trivial and sign representations give two; the third is
 found from $1^2 + 1^2 + d_3^2 = |S_3| = 6$, so $d_3 = 2$:
 
+<div class="table-wrap">
+
 | | $e$ | (12) | (123) |
 | --- | --- | ---- | ----- |
 | trivial | 1 | 1 | 1 |
 | sign | 1 | $-1$ | 1 |
 | standard | 2 | 0 | $-1$ |
+
+</div>
 
 The standard representation is the action on $\mathbb{C}^3$ modulo the
 diagonal, and it is where the symmetry of the three roots of a cubic lives --
@@ -161,12 +165,16 @@ the first thing to check whenever a table is being built.
 
 ## Counterexamples
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Characters determine the representation | yes, over $\mathbb{C}$ | **false over $\mathbb{R}$**: the two complex conjugate 2-dimensional irreducibles of $Q_8$ have the same real character |
 | Irreducible implies one-dimensional | no | the standard representation of $S_3$ is 2-dimensional and irreducible |
 | $\chi(g)$ determines $g$ | no | $\chi(123) = \chi(132) = -1$ in $S_3$: characters are class functions |
 | Subrepresentations always split | no, over $\mathbb{R}$ or $\mathbb{Z}$ | over $\mathbb{C}$ they do (complete reducibility); over fields of characteristic dividing $|G|$ they do not |
+
+</div>
 
 The last row is the research frontier. **Modular representation theory**
 studies representations over fields whose characteristic divides $|G|$, where
@@ -193,12 +201,16 @@ framework.
 
 ## Counterexample section
 
+<div class="table-wrap">
+
 | Object | Looks like | Is actually |
 | ------ | ---------- | ----------- |
 | $\chi_V = \chi_W$ implies $V \cong W$ | true over $\mathbb{C}$ | false over $\mathbb{R}$ |
 | $d_i \mid |G|$ | true | but $|G|/\sum d_i^2 = 1$ is the only constraint the theorem gives |
 | Every group of order $p^2$ is abelian | yes | and hence has only 1-dimensional irreducibles |
 | Irreducible characters are linearly independent | yes | that is why the character table has no repeated rows |
+
+</div>
 
 ## Recall prompts — attempt after reading
 

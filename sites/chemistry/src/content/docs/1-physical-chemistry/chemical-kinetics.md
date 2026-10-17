@@ -392,12 +392,16 @@ $\sim 10^8$–$10^9$ M$^{-1}$s$^{-1}$.
 
 ### 9.5 Enzyme Inhibition
 
+<div class="table-wrap">
+
 | Type           | Effect on $K_M$ | Effect on $V_{\max}$ |
 | -------------- | --------------- | -------------------- |
 | Competitive    | Increases       | Unchanged            |
 | Uncompetitive  | Decreases       | Decreases            |
 | Noncompetitive | Unchanged       | Decreases            |
 | Mixed          | Varies          | Decreases            |
+
+</div>
 
 For competitive inhibition:
 
@@ -608,6 +612,8 @@ import { Citation } from "@components/Citations.astro"
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                      | Site        | Link                                                                          |
 | -------------------------- | ----------- | ----------------------------------------------------------------------------- |
 | Thermodynamics             | WyattsNotes | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)                             |
@@ -615,7 +621,9 @@ import { Citation } from "@components/Citations.astro"
 | Statistical Mechanics      | WyattsNotes | [View](/1-physical-chemistry/statistical-mechanics/)                      |
 | Enzyme Kinetics, MIT 5.60 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

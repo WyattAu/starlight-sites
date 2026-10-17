@@ -203,6 +203,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Property | Formula | Notes |
 | --- | --- | --- |
 | Esterification | $\text{RCOOH} + \text{R'OH} \rightleftharpoons \text{RCOOR'} + \text{H}_2\text{O}$ | Acid + alcohol $\rightarrow$ ester + water |
@@ -210,6 +212,8 @@ $$
 | Oxidation (primary) | $\text{RCH}_2\text{OH} \rightarrow \text{RCHO} \rightarrow \text{RCOOH}$ | Two-step oxidation |
 | Oxidation (secondary) | $\text{R}_2\text{CHOH} \rightarrow \text{R}_2\text{C=O}$ | Stops at ketone |
 | Dehydration | $\text{RCH}_2\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{RCH=CH}_2$ | Follows Saytzeff's rule |
+
+</div>
 
 ## Exam Tips
 

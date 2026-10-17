@@ -99,6 +99,8 @@ $d(x^*, y^*) = d(f(x^*), f(y^*)) \leq c \cdot d(x^*, y^*)$, so $d(x^*, y^*) = 0$
 
 ### 7.6 Key Relationships Between Metric Spaces
 
+<div class="table-wrap">
+
 | Property         | Definition                                          | Example                        |
 | ---------------- | --------------------------------------------------- | ------------------------------ |
 | Metric space     | Set + distance function satisfying triangle ineq    | $\mathbb{R}^n$ with $d_2$      |
@@ -106,6 +108,8 @@ $d(x^*, y^*) = d(f(x^*), f(y^*)) \leq c \cdot d(x^*, y^*)$, so $d(x^*, y^*) = 0$
 | Compact metric   | Every open cover has finite subcover                | $[0,1]$ with Euclidean metric  |
 | Connected metric | Cannot be partitioned into two disjoint open sets   | $\mathbb{R}^n$, any interval   |
 | Totally bounded  | For every $\varepsilon > 0$, finite $\varepsilon$-net | $[0,1]$ but not $\mathbb{R}$ |
+
+</div>
 
 Compact $\Rightarrow$ complete and totally bounded. Complete + totally bounded $\Rightarrow$ compact.
 

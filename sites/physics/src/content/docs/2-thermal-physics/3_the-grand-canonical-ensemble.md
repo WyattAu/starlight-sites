@@ -191,7 +191,7 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **[Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Applications

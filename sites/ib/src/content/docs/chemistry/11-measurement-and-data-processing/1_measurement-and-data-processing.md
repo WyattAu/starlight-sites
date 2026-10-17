@@ -36,12 +36,16 @@ Random errors affect precision but not accuracy.
 From the true value. It arises from instrument calibration faults or methodological biases.
 Systematic errors affect accuracy but not precision.
 
+<div class="table-wrap">
+
 | Property       | Random Error                     | Systematic Error                  |
 | -------------- | -------------------------------- | --------------------------------- |
 | Direction      | Scatters above and below         | Consistently in one direction     |
 | Affects        | Precision                        | Accuracy                          |
 | Reduction      | Repeated measurements, averaging | Calibration, improved methodology |
 | Identification | Spread of repeated readings      | Comparison with accepted value    |
+
+</div>
 
 ### Absolute and Percentage Uncertainty
 
@@ -134,6 +138,8 @@ $$
 5. Trailing zeros without a decimal point are **not** significant (ambiguous. Use scientific
    notation).
 
+<div class="table-wrap">
+
 | Value               | Sig Figs | Notes                               |
 | ------------------- | -------- | ----------------------------------- |
 | $0.00420$           | $3$      | Leading zeros not significant       |
@@ -142,7 +148,11 @@ $$
 | $3.200 \times 10^3$ | $4$      | Scientific notation is clear        |
 | $0.001005$          | $4$      | Only leading zeros are ignored      |
 
+</div>
+
 ### Arithmetic with Significant Figures
+
+<div class="table-wrap">
 
 | Operation               | Rule                                                                     |
 | ----------------------- | ------------------------------------------------------------------------ |
@@ -150,6 +160,8 @@ $$
 | Multiplication/division | Result has the same number of sig figs as the term with the fewest       |
 | Logarithms              | Number of decimal places in result = sig figs in argument                |
 | Antilogarithms          | Number of sig figs in result = decimal places in argument                |
+
+</div>
 :::
 
 :::note[Example]
@@ -251,6 +263,8 @@ The useful range for organic analysis is approximately $400$--$4000\mathrm{ cm}^
 
 ### Characteristic Absorptions
 
+<div class="table-wrap">
+
 | Bond                   | Wavenumber ($\mathrm{cm}^{-1}$) | Notes                         |
 | ---------------------- | ------------------------------- | ----------------------------- |
 | O--H (alcohol, free)   | $3550$--$3200$                  | Broad, rounded                |
@@ -265,6 +279,8 @@ The useful range for organic analysis is approximately $400$--$4000\mathrm{ cm}^
 | C--O                   | $1300$--$1000$                  | Strong                        |
 | O--H bend (alcohol)    | $1200$--$1000$                  |                               |
 | N--H bend              | $1640$--$1550$                  |                               |
+
+</div>
 
 ### Fingerprint Region
 
@@ -304,12 +320,16 @@ Spectrum plots relative abundance against $m/z$.
 
 ### Key Information from MS
 
+<div class="table-wrap">
+
 | Feature       | Information                                                |
 | ------------- | ---------------------------------------------------------- |
 | Molecular ion | Molar mass of the compound                                 |
 | M + 1 peak    | Presence of $\mathrm{C}$-13 (about $1.1\%$ per C atom)     |
 | M + 2 peak    | Presence of $\mathrm{Cl}$ ($3:1$) or $\mathrm{Br}$ ($1:1$) |
 | Fragmentation | Structural information about the molecule                  |
+
+</div>
 
 ### Nitrogen Rule
 
@@ -318,6 +338,8 @@ Nitrogen atoms. If **even**, it likely contains an **even** number (including ze
 Atoms.
 
 ### Fragmentation Patterns
+
+<div class="table-wrap">
 
 | Fragment ($m/z$) | Likely species                                               |
 | ---------------- | ------------------------------------------------------------ |
@@ -329,6 +351,8 @@ Atoms.
 | $45$             | $\mathrm{COOH}^+$ or $\mathrm{C}_2\mathrm{H}_5\mathrm{O}^+$  |
 | $77$             | $\mathrm{C}_6\mathrm{H}_5^+$ (benzene ring)                  |
 | $91$             | $\mathrm{C}_7\mathrm{H}_7^+$ (tropylium ion, alkylbenzene)   |
+
+</div>
 
 ### Common Pitfalls
 
@@ -366,6 +390,8 @@ TMS is assigned $\delta = 0\mathrm{ ppm}$.
 
 ### $\mathrm{^1H}$ NMR Features
 
+<div class="table-wrap">
+
 | Feature            | What it tells you                                  |
 | ------------------ | -------------------------------------------------- |
 | Number of signals  | Number of chemically distinct proton environments  |
@@ -373,10 +399,14 @@ TMS is assigned $\delta = 0\mathrm{ ppm}$.
 | Splitting pattern  | Number of protons on adjacent carbons (n + 1 rule) |
 | Chemical shift     | Electronic environment of each proton              |
 
+</div>
+
 ### The n + 1 Rule
 
 A signal is split into $n + 1$ peaks, where $n$ is the number of equivalent protons on adjacent
 Carbons.
+
+<div class="table-wrap">
 
 | Neighbouring H count | Splitting | Name   |
 | -------------------- | --------- | ------ |
@@ -386,7 +416,11 @@ Carbons.
 | $3$                  | Quartet   | $q$    |
 | $4$                  | Quintet   | $quin$ |
 
+</div>
+
 ### Characteristic $\mathrm{^1H}$ NMR Chemical Shifts
+
+<div class="table-wrap">
 
 | Proton type           | $\delta$ (ppm)       |
 | --------------------- | -------------------- |
@@ -399,11 +433,15 @@ Carbons.
 | Carboxylic acid       | $10.0$--$12.0$       |
 | Alcohol (R--OH)       | $0.5$--$5.0$ (broad) |
 
+</div>
+
 ### $\mathrm{^{13}C}$ NMR
 
 - Each chemically distinct carbon produces one signal.
 - Peak areas are **not** proportional to the number of carbons (no quantitative integration).
 - Splitting is normally removed by proton decoupling, so all signals are singlets.
+
+<div class="table-wrap">
 
 | Carbon type         | $\delta$ (ppm) |
 | ------------------- | -------------- |
@@ -415,16 +453,22 @@ Carbons.
 | Ester/amide C=O     | $155$--$185$   |
 | Aldehyde            | $190$--$220$   |
 
+</div>
+
 ### Solvent Peaks
 
 Deuterated solvents are used (e.g., $\mathrm{CDCl}_3$, $\mathrm{D}_2\mathrm{O}$). Residual proton
 Peaks appear at known positions:
+
+<div class="table-wrap">
 
 | Solvent                      | Residual $\mathrm{^1H}$ $\delta$ (ppm) |
 | ---------------------------- | -------------------------------------- |
 | $\mathrm{CDCl}_3$            | $7.26$                                 |
 | $\mathrm{D}_2\mathrm{O}$     | $4.79$                                 |
 | $\mathrm{DMSO}\mathrm{-}d_6$ | $2.50$                                 |
+
+</div>
 
 ### Common Pitfalls
 
@@ -1006,8 +1050,12 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site    | Link                                                                                                                  |
 | --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Measurement and Data Processing] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)                              |
 | [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/) |
+
+</div>
 :::

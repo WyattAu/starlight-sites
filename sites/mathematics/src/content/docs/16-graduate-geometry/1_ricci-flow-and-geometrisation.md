@@ -143,12 +143,16 @@ boundary must be the 3-sphere.
 
 ## Why the proof matters beyond the conjecture
 
+<div class="table-wrap">
+
 | Tool | What it gives | Where else it is used |
 | ---- | ------------- | --------------------- |
 | Perelman's reduced volume | non-collapsing at singularities | convergence of Ricci flow, Ricci solitons |
 | κ-solutions | classification of blow-up limits | singularity analysis in any dimension |
 | Surgery | topology change under flow | the proof structure for geometrisation |
 | Pseudolocality | small-scale almost-Euclidean behaviour | regularity of the flow |
+
+</div>
 
 The pseudolocality theorem is the one with the widest application: it says that
 even if the initial metric is very irregular, the flow is almost Euclidean on
@@ -158,6 +162,8 @@ appears.
 
 ## Counterexamples
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Ricci flow exists for all time | no | the round sphere shrinks to a point in finite time |
@@ -165,6 +171,8 @@ appears.
 | Ricci solitons are static | no | they shrink or expand by a diffeomorphism; the Gaussian soliton expands |
 | Every 3-manifold admits positive Ricci curvature | no | Thurston's geometrisation gives eight geometries, most with non-positive curvature |
 | Ricci flow smooths any metric in any dimension | no | higher dimensions admit worse singularities; the flow can develop non-spherical singularities |
+
+</div>
 
 ## Where the research frontier is
 
@@ -184,12 +192,16 @@ appears.
 
 ## Counterexample section
 
+<div class="table-wrap">
+
 | Object | Looks like | Is actually |
 | ------ | ---------- | ----------- |
 | Ricci flow | a pure smoothing equation | weakly parabolic; the diffeomorphism kernel must be fixed |
 | Singularities | always a shrinking sphere | necks pinch; the topology can change |
 | Perelman's entropy | a technical tool | the monotone quantity that makes the whole proof work |
 | Geometrisation | a 3-dimensional curiosity | the model for how geometric flows decompose manifolds |
+
+</div>
 
 ## Recall prompts — attempt after reading
 

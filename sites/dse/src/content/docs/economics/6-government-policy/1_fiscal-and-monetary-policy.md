@@ -60,10 +60,14 @@ Aggregate demand, economic activity, and employment in the economy.
 
 Government spending falls into two categories:
 
+<div class="table-wrap">
+
 | Category            | Description                                                                                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Current expenditure | Day-to-day spending on goods and services: public sector wages, healthcare, education, defence, welfare. Recurrent and predictable.               |
 | Capital expenditure | Investment in physical infrastructure: roads, bridges, public housing, airports, hospitals, schools. Increases the economy"s productive capacity. |
+
+</div>
 
 Current expenditure directly affects aggregate demand in the short run. Capital expenditure affects
 both aggregate demand (in the short run, through construction spending) and aggregate supply (in the
@@ -74,10 +78,14 @@ Long run, by expanding the economy"s productive capacity).
 Taxes are compulsory payments to the government. They serve two functions in macroeconomic policy:
 Financing government expenditure and influencing economic behaviour.
 
+<div class="table-wrap">
+
 | Tax Type       | Description                                                                                                                                                    |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Direct taxes   | Taxes on income and wealth: personal income tax, corporate profits tax, property tax. These reduce disposable income and affect incentives to work and invest. |
 | Indirect taxes | Taxes on spending: VAT/sales tax, excise duties, customs duties. These raise prices and reduce real purchasing power.                                          |
+
+</div>
 
 ### Budget Balance
 
@@ -88,11 +96,15 @@ $$
 Where `T` is total tax revenue and `G` is total government expenditure (excluding debt interest
 Payments for simplicity).
 
+<div class="table-wrap">
+
 | Situation       | Condition | Effect on AD                                                                 |
 | --------------- | --------- | ---------------------------------------------------------------------------- |
 | Budget surplus  | `T \gt G` | Contractionary (reduces AD)                                                  |
 | Balanced budget | `T = G`   | Neutral (some say mildly expansionary due to the balanced budget multiplier) |
 | Budget deficit  | `T \lt G` | Expansionary (increases AD)                                                  |
+
+</div>
 
 ---
 
@@ -114,12 +126,16 @@ Employment (a recessionary gap exists).
 
 ### Instruments
 
+<div class="table-wrap">
+
 | Instrument                   | Mechanism                                                                                                           |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | Increase government spending | Direct injection into the circular flow of income; raises AD; multiplier effect amplifies the initial spending.     |
 | Decrease taxes               | Increases disposable income; households spend more; firms invest more; AD rises.                                    |
 | Increase transfer payments   | Increases the income of recipients (unemployed, low-income households); they spend most of it (high MPC); AD rises. |
 | Investment tax credits       | Reduces the cost of investment for firms; encourages capital spending; AD rises and LRAS may shift right.           |
+
+</div>
 
 ### The Multiplier Effect
 
@@ -231,11 +247,15 @@ Inflationary gap).
 
 ### Instruments
 
+<div class="table-wrap">
+
 | Instrument                   | Mechanism                                                                                    |
 | ---------------------------- | -------------------------------------------------------------------------------------------- |
 | Decrease government spending | Reduces the injection into the economy; AD falls; multiplier effect amplifies the reduction. |
 | Increase taxes               | Reduces disposable income; households and firms have less to spend; AD falls.                |
 | Decrease transfer payments   | Reduces the income of recipients; their spending falls; AD falls.                            |
+
+</div>
 
 ### Worked Example: Contractionary Fiscal Policy
 
@@ -339,6 +359,8 @@ Drives productivity improvements).
 
 ### Factors Affecting the Degree of Crowding Out
 
+<div class="table-wrap">
+
 | Factor                          | Effect on Crowding Out                                                                                                                                                                  |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Size of the deficit             | Larger deficit = more borrowing = more crowding out                                                                                                                                     |
@@ -347,6 +369,8 @@ Drives productivity improvements).
 | Openness of the economy         | In a small open economy with mobile capital (like Hong Kong), higher interest rates attract foreign capital inflows, which moderate the rise in domestic rates and reduce crowding out. |
 | Elasticity of investment demand | If investment is highly interest-elastic (sensitive to rate changes), crowding out is larger.                                                                                           |
 | Source of financing             | If financed by issuing bonds, crowding out occurs. If financed by money creation (monetised), crowding out is avoided but inflation risk increases.                                     |
+
+</div>
 
 ---
 
@@ -374,6 +398,8 @@ Policy tools, see
 
 **Instruments:**
 
+<div class="table-wrap">
+
 | Instrument                     | Mechanism                                                                                                                       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | Lower the policy interest rate | Reduces cost of borrowing for banks; banks lower lending rates; consumers and firms borrow and spend more.                      |
@@ -381,17 +407,23 @@ Policy tools, see
 | Open market purchases          | Central bank buys government bonds; injects reserves into the banking system; interest rates fall.                              |
 | Quantitative easing (QE)       | Central bank buys large quantities of longer-term securities; further lowers long-term interest rates; increases bank reserves. |
 
+</div>
+
 ### Contractionary Monetary Policy
 
 **Objective:** Reduce aggregate demand to combat inflation.
 
 **Instruments:**
 
+<div class="table-wrap">
+
 | Instrument                     | Mechanism                                                                                          |
 | ------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Raise the policy interest rate | Increases cost of borrowing; banks raise lending rates; consumers and firms borrow and spend less. |
 | Raise the reserve ratio        | Banks must hold more reserves; credit creation contracts; money supply decreases.                  |
 | Open market sales              | Central bank sells government bonds; drains reserves from the banking system; interest rates rise. |
+
+</div>
 
 ### Transmission Mechanism of Monetary Policy
 
@@ -406,6 +438,8 @@ Response to the policy rate change. Bond yields adjust. The yield curve shifts.
 
 **Step 3: Transmission channels:**
 
+<div class="table-wrap">
+
 | Channel               | Mechanism                                                                                                                                                                                                     |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Interest rate channel | Lower rates reduce the cost of borrowing for households (mortgages, car loans) and firms (business loans). Consumption and investment increase.                                                               |
@@ -413,6 +447,8 @@ Response to the policy rate change. Bond yields adjust. The yield curve shifts.
 | Asset price channel   | Lower rates increase the present value of future cash flows, raising asset prices (stocks, bonds, property). Higher asset prices increase household wealth, boosting consumption (wealth effect).             |
 | Credit channel        | Lower policy rates improve banks' willingness to lend. Firms and households find it easier to obtain credit.                                                                                                  |
 | Expectations channel  | Central bank communication about future policy influences expectations. If firms and households expect lower rates to persist, they bring forward spending and investment decisions.                          |
+
+</div>
 
 **Step 4: Aggregate demand shifts.** The combined effect of these channels shifts the aggregate
 Demand curve (to the right for expansionary policy, to the left for contractionary policy).
@@ -422,6 +458,8 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 
 ### Limitations of Monetary Policy
 
+<div class="table-wrap">
+
 | Limitation                      | Description                                                                                                                |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Time lags                       | The full effect of a rate change takes 12-18 months. By the time the effect is felt, economic conditions may have changed. |
@@ -430,6 +468,8 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 | Exchange rate constraint        | For countries with fixed exchange rates (like Hong Kong), monetary policy is constrained by the need to maintain the peg.  |
 | Unpredictable velocity of money | The relationship between money supply changes and nominal GDP changes may be unstable during financial crises.             |
 | Distributional effects          | Lower interest rates boost asset prices (benefiting asset owners) more than wages, potentially exacerbating inequality.    |
+
+</div>
 
 ---
 
@@ -455,6 +495,8 @@ the economy and are the primary tool for achieving long-run economic growth.
 
 These policies rely on market forces and incentives, with minimal government intervention.
 
+<div class="table-wrap">
+
 | Policy                  | Description                                                                                                                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Deregulation            | Removing unnecessary government regulations that increase business costs and reduce competition. Examples: removing price controls, reducing licensing requirements, simplifying business registration.       |
@@ -465,9 +507,13 @@ These policies rely on market forces and incentives, with minimal government int
 | Encouraging competition | Strengthening anti-trust / competition law to prevent monopolies and cartels. Promoting new firm entry. Reducing barriers to entrepreneurship.                                                                |
 | Property rights reform  | Strengthening legal protection of private property rights. Secure property rights encourage investment and long-term planning.                                                                                |
 
+</div>
+
 ### Interventionist Supply-Side Policies
 
 These policies involve direct government action and spending.
+
+<div class="table-wrap">
 
 | Policy                    | Description                                                                                                                                                                                  |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -478,7 +524,11 @@ These policies involve direct government action and spending.
 | Healthcare investment     | A healthier workforce is more productive and takes fewer sick days. Government healthcare spending improves human capital.                                                                   |
 | Regional policy           | Government incentives for firms to locate in depressed areas. Reduces regional inequality and structural unemployment.                                                                       |
 
+</div>
+
 ### Comparison: Market-Oriented vs Interventionist Supply-Side Policies
+
+<div class="table-wrap">
 
 | Criterion          | Market-Oriented                                       | Interventionist                                              |
 | ------------------ | ----------------------------------------------------- | ------------------------------------------------------------ |
@@ -487,6 +537,8 @@ These policies involve direct government action and spending.
 | Cost to government | Low (may even increase tax revenue through growth)    | High (requires significant government spending)              |
 | Risk               | May increase inequality if deregulation harms workers | May create government failure, inefficiency                  |
 | Examples           | Thatcher (UK), Reagan (US)                            | East Asian industrial policy (Japan, South Korea, Singapore) |
+
+</div>
 
 ---
 

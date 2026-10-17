@@ -299,12 +299,16 @@ Consistent with the program order of each individual thread.
 Is no inter-thread ordering guarantee unless explicitly established by acquire/release or seq_cst
 Operations.
 
+<div class="table-wrap">
+
 | Property                           | Sequentially Consistent | Relaxed |
 | ---------------------------------- | ----------------------- | ------- |
 | Single total order                 | Yes                     | No      |
 | Compiler reordering across atomics | Prevented               | Allowed |
 | Hardware reordering across atomics | Prevented (fences used) | Allowed |
 | Performance cost                   | Highest                 | Lowest  |
+
+</div>
 
 ### Formal Definition of Sequential Consistency
 

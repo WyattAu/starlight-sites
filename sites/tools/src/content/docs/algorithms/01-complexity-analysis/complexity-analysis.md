@@ -93,6 +93,8 @@ $$
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
 Big-O and Big-Omega respectively, they exclude the equality case.
 
+<div class="table-wrap">
+
 | Notation       | Meaning                                      | Intuition          |
 | -------------- | -------------------------------------------- | ------------------ |
 | $O(g(n))$      | $f(n) \le c \cdot g(n)$                      | At most this fast  |
@@ -100,6 +102,8 @@ Big-O and Big-Omega respectively, they exclude the equality case.
 | $\Theta(g(n))$ | $c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n)$ | Exactly this fast  |
 | $o(g(n))$      | $f(n) / g(n) \to 0$                          | Strictly slower    |
 | $\omega(g(n))$ | $f(n) / g(n) \to \infty$                     | Strictly faster    |
+
+</div>
 
 ## Common Complexity Classes
 
@@ -132,6 +136,8 @@ graph TD
     style Onf fill:#2c3e50,color:#fff
 ```
 
+<div class="table-wrap">
+
 | Class         | Name         | Example                     | Practical at $n = 10^6$                |
 | ------------- | ------------ | --------------------------- | -------------------------------------- |
 | $O(1)$        | Constant     | Hash table lookup           | Instantaneous                          |
@@ -142,6 +148,8 @@ graph TD
 | $O(n^3)$      | Cubic        | Naive matrix multiplication | $10^{18}$ operations (infeasible)      |
 | $O(2^n)$      | Exponential  | Subset enumeration          | $10^{301,029}$ operations (impossible) |
 | $O(n!)$       | Factorial    | Permutation generation      | Beyond astronomical                    |
+
+</div>
 
 ### What "Practical" Actually Means
 
@@ -276,11 +284,15 @@ An algorithm"s complexity can vary depending on the input. Quicksort runs in $O(
 Average but $O(n^2)$ in the worst case. Linear search is $O(1)$ in the best case (element is first)
 And $O(n)$ in the worst case.
 
+<div class="table-wrap">
+
 | Case         | Definition                                   | When it matters                         |
 | ------------ | -------------------------------------------- | --------------------------------------- |
 | Best case    | Minimum over all inputs of size $n$          | Rarely useful in practice               |
 | Average case | Expected value over a distribution of inputs | Useful when input distribution is known |
 | Worst case   | Maximum over all inputs of size $n$          | The standard for guarantees             |
+
+</div>
 
 ### Why Worst Case is the Default
 
@@ -379,6 +391,8 @@ class DynamicArray:
 Space complexity measures the additional memory an algorithm uses beyond the input. Like time
 Complexity, it is expressed in asymptotic notation.
 
+<div class="table-wrap">
+
 | Algorithm                | Time              | Space           | Notes                            |
 | ------------------------ | ----------------- | --------------- | -------------------------------- |
 | In-place quicksort       | $O(n \log n)$ avg | $O(\log n)$     | Stack depth for recursion        |
@@ -388,6 +402,8 @@ Complexity, it is expressed in asymptotic notation.
 | BFS                      | $O(V + E)$        | $O(V)$          | Queue for frontier               |
 | Dynamic programming (2D) | Varies            | $O(n \cdot m)$  | Full table                       |
 | DP with rolling array    | Same time         | $O(\min(n, m))$ | Space-optimised                  |
+
+</div>
 
 ### Space-Time Trade-offs
 
@@ -440,12 +456,16 @@ Becomes "Is there a tour of length at most $k$?" (binary search on $k$).
 
 ### P, NP, and NP-Completeness
 
+<div class="table-wrap">
+
 | Class           | Definition                                         | Example Problems                          |
 | --------------- | -------------------------------------------------- | ----------------------------------------- |
 | **P**           | Solvable in polynomial time                        | Sorting, shortest path, MST               |
 | **NP**          | Verifiable in polynomial time                      | SAT, travelling salesman, graph colouring |
 | **NP-Complete** | In NP, and every NP problem reduces to it          | SAT, 3-SAT, vertex cover                  |
 | **NP-Hard**     | At least as hard as NP-complete (may not be in NP) | Halting problem, TSP optimisation         |
+
+</div>
 
 ```mermaid
 graph TD
@@ -475,6 +495,8 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 
 ### Common NP-Complete Problems
 
+<div class="table-wrap">
+
 | Problem             | Input                           | Question                                 | Practical Significance               |
 | ------------------- | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | SAT                 | Boolean formula                 | Is there a satisfying assignment?        | Basis for all NP-completeness proofs |
@@ -484,6 +506,8 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 | Subset Sum          | Set of integers, target $t$     | Is there a subset summing to $t$?        | Knapsack variants                    |
 | Graph Colouring     | Graph $G$ Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
 | Clique              | Graph $G$ Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+
+</div>
 
 ### Dealing with NP-Hardness in Practice
 
@@ -661,6 +685,8 @@ For online algorithms (where future input is unknown), competitive analysis comp
 Performance to the optimal offline algorithm. An algorithm is $c$-competitive if its cost is at most
 $c$ times the optimal cost for every input sequence.
 
+<div class="table-wrap">
+
 | Online Problem   | Algorithm               | Competitive Ratio            |
 | ---------------- | ----------------------- | ---------------------------- |
 | Paging (caching) | LRU                     | $k$ (where $k$ = cache size) |
@@ -668,6 +694,8 @@ $c$ times the optimal cost for every input sequence.
 | K-server         | Work function algorithm | $2k - 1$                     |
 | Load balancing   | Greedy                  | $O(\log n)$                  |
 | Ski rental       | Buy after $n$ rentals   | 2                            |
+
+</div>
 
 ### I/O Complexity and External Memory Model
 
@@ -678,12 +706,16 @@ Vitter, 1988) counts:
 - **Memory size:** $M$ words available in internal memory
 - **Disk size:** $N$ words on disk
 
+<div class="table-wrap">
+
 | Algorithm     | Internal Memory    | External Memory (I/Os)          |
 | ------------- | ------------------ | ------------------------------- |
 | Scanning      | $O(N)$ time        | $O(N/B)$ I/Os                   |
 | Sorting       | $O(N \log N)$ time | $O((N/B) \log_{M/B}(N/B))$ I/Os |
 | BST search    | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
 | B-tree search | $O(\log N)$ time   | $O(\log_B N)$ I/Os              |
+
+</div>
 
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
 does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For

@@ -103,12 +103,16 @@ capacity. (c) Explain why a touchscreen can be considered both an input and outp
 
 **Solution:**
 
+<div class="table-wrap">
+
 | (a)              | Feature                                           | HDD                                               | SSD |
 | ---------------- | ------------------------------------------------- | ------------------------------------------------- | --- |
 | Access mechanism | Mechanical spinning platters with read/write head | NAND flash memory chips (no moving parts)         |
 | Speed            | 80--160 MB/s (SATA); seek time 5--10 ms           | 500--7000 MB/s (NVMe); essentially zero seek time |
 | Durability       | Vulnerable to physical shock (head crash)         | Highly durable (no moving parts)                  |
 | Cost per GB      | Low (around \$0.02--0.03/GB)                      | Higher (around \$0.05--0.10/GB)                   |
+
+</div>
 
 (b) Total sectors
 $= 4 \text{ platters} \times 2 \text{ surfaces/platter} \times 1024 \text{ tracks/surface} \times 256 \text{ sectors/track} = 4 \times 2 \times 1024 \times 256 = 2,097,152$

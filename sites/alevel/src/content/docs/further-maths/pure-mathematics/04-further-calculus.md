@@ -28,12 +28,16 @@ are essential for university-level mathematics, physics, and engineering.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper    | Notes                                                             |
 | ---------- | -------- | ----------------------------------------------------------------- |
 | AQA        | Paper 1  | Integration by parts, inverse trig integrals, volumes, arc length |
 | Edexcel    | FP1, FP2 | Parts in FP1; inverse trig, volumes, arc length in FP2            |
 | OCR (A)    | Paper 1  | Parts, inverse trig integrals, volumes                            |
 | CIE (9231) | P1, P2   | Parts and volumes in P1; arc length and surface area in P2        |
+
+</div>
 
 :::note
 Integration by parts repeatedly, derive and use reduction formulae, and set up volumes of revolution
@@ -537,6 +541,8 @@ Length in Paper 1.
 
 ## 7. Summary of Key Results
 
+<div class="table-wrap">
+
 | Integral                                                    | Result                                                             |
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
 | $\displaystyle\int\frac{1}{a^2+x^2}\,dx$                    | $\dfrac{1}{a}\arctan\dfrac{x}{a}+C$                                |
@@ -546,6 +552,8 @@ Length in Paper 1.
 | $\dfrac{d}{dx}\arctan x$                                    | $\dfrac{1}{1+x^2}$                                                 |
 | Vol. About $x$-axis                                         | $\pi\displaystyle\int_a^b y^2\,dx$                                 |
 | Arc length                                                  | $\displaystyle\int\sqrt{1+\left(\frac{dy}{dx}\right)^2}\,dx$ |
+
+</div>
 
 <hr />
 
@@ -936,6 +944,8 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                         | Correct Approach                                                                             |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
@@ -943,6 +953,8 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
 | Applying reduction formulae without checking the base case                      | Always state $I_0$ or $I_1$ explicitly                                                       |
 | Confusing $\dfrac{d^n y}{dx^n}$ notation with $\left(\dfrac{dy}{dx}\right)^n$   | $\dfrac{d^n y}{dx^n}$ is the $n$-th derivative, not the $n$-th power                         |
+
+</div>
 
 ---
 
@@ -1125,11 +1137,15 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 ### 12.3 Recognising standard integral forms
 
+<div class="table-wrap">
+
 | Form                                                          | Result                    |
 | ------------------------------------------------------------- | ------------------------- |
 | $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      \| f(x) \| + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |
+
+</div>
 
 ---
 
@@ -1144,6 +1160,8 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 ## 13. Summary of Key Results
 
+<div class="table-wrap">
+
 | Result                       | Formula                                                                     |
 | ---------------------------- | --------------------------------------------------------------------------- |
 | Integration by parts         | $\displaystyle\int u\,dv = uv - \int v\,du$                                 |
@@ -1155,6 +1173,8 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 | Derivative of $\arcsin x$    | $\dfrac{1}{\sqrt{1-x^2}}$                                       |
 | Derivative of $\arctan x$    | $\dfrac{1}{1+x^2}$                                                          |
 | Improper integral test       | $\displaystyle\int_a^\infty f(x)\,dx = \lim_{b\to\infty}\int_a^b f(x)\,dx$  |
+
+</div>
 
 ---
 

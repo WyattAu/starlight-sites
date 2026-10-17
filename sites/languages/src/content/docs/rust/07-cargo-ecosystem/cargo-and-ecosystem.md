@@ -59,6 +59,8 @@ debug = true
 
 ### Package Metadata Fields
 
+<div class="table-wrap">
+
 | Field          | Purpose                                              |
 | -------------- | ---------------------------------------------------- |
 | `name`         | Crate name (must match `^[a-zA-Z0-9_-]+$`)           |
@@ -69,6 +71,8 @@ debug = true
 | `repository`   | Source code URL                                      |
 | `readme`       | Path to README file                                  |
 | `categories`   | crates.io categories (max 5)                         |
+
+</div>
 
 ## Workspace Management
 
@@ -894,6 +898,8 @@ async fn main() {
 
 Before adding a dependency, evaluate it:
 
+<div class="table-wrap">
+
 | Criterion                 | How to Check                                                |
 | ------------------------- | ----------------------------------------------------------- |
 | **Downloads**             | crates.io page, monthly downloads                          |
@@ -905,6 +911,8 @@ Before adding a dependency, evaluate it:
 | **License compatibility** | crates.io, license field                                   |
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit`known CVEs                                  |
+
+</div>
 :::
 
 :::caution

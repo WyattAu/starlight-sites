@@ -197,6 +197,8 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                 | Researcher(s)       | Year | Method                | Key Findings                                                                      | Evaluation                                                                   |
 | --------------------- | ------------------- | ---- | --------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Magical number seven  | Miller              | 1956 | Lab experiment        | STM capacity is 7 ± 2 items                                                       | Influential; later research (Cowan, 2001) suggests 4 ± 1 chunks              |
@@ -207,7 +209,11 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 | Working memory model  | Baddeley & Hitch    | 1974 | Dual-task experiments | Dual tasks using same component caused interference; different components did not | Strong empirical support; less evidence for central executive                |
 | Diver memory          | Godden & Baddeley   | 1975 | Field experiment      | Best recall when learning and recall contexts matched                             | Supports context-dependent memory; used word lists (low mundane realism)     |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                     | Definition                                                                                       |
 | ------------------------ | ------------------------------------------------------------------------------------------------ |
@@ -228,6 +234,8 @@ asking open-ended questions, and pausing to allow witnesses time to think.
 | Weapon focus             | The tendency for witnesses to focus on a weapon, reducing identification accuracy                |
 | Cognitive interview      | A police interviewing technique designed to maximise accurate eyewitness recall                  |
 | Long-term potentiation   | The strengthening of synaptic connections through repeated stimulation, underlying learning      |
+
+</div>
 
 ## Evaluation Points
 

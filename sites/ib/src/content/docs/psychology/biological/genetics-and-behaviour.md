@@ -114,6 +114,8 @@ Genetic contribution and 1 indicates that all variance is genetic.
 
 ### Estimates of Heritability for Psychological Traits
 
+<div class="table-wrap">
+
 | Trait                         | Approximate Heritability | Notes                                                         |
 | ----------------------------- | ------------------------ | ------------------------------------------------------------- |
 | General intelligence (g)      | 0.50--0.80               | Increases with age, suggesting genetic amplification          |
@@ -122,6 +124,8 @@ Genetic contribution and 1 indicates that all variance is genetic.
 | Personality traits (Big Five) | 0.40--0.60               | Relatively stable across the lifespan                         |
 | Autism spectrum disorder      | 0.70--0.90               | High heritability; complex polygenic architecture             |
 | Alcohol dependence            | 0.50--0.60               | Moderate heritability; strong environmental component         |
+
+</div>
 
 ## Gene-Environment Interaction
 

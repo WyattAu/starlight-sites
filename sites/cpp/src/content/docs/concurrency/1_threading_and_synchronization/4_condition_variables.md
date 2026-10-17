@@ -32,12 +32,16 @@ Condition is met. It always works with a `std::unique_lock<std::mutex>`.
 
 Key operations:
 
+<div class="table-wrap">
+
 | Operation          | Description                                                          |
 | ------------------ | -------------------------------------------------------------------- |
 | `wait(lock)`       | Releases the lock, blocks the thread, re-acquires the lock on wakeup |
 | `wait(lock, pred)` | Equivalent to `while (!pred()) wait(lock);`                          |
 | `notify_one()`     | Wakes one waiting thread                                             |
 | `notify_all()`     | Wakes all waiting threads                                            |
+
+</div>
 
 ### How `wait()` Works Internally
 
@@ -339,12 +343,16 @@ cv_.notify_one();  // Notify after lock is released
 Count and threads decrement the count. When the count reaches zero, all threads waiting on the latch
 are unblocked.
 
+<div class="table-wrap">
+
 | Operation            | Description                           |
 | -------------------- | ------------------------------------- |
 | `count_down(n)`      | Decrements the counter by `n`         |
 | `wait()`             | Blocks until the counter reaches zero |
 | `arrive_and_wait(n)` | Decrements by `n` and then waits      |
 | `try_wait()`         | Returns `true` if the counter is zero |
+
+</div>
 
 A latch is useful for **one-time barriers** such as waiting for all worker threads to finish
 Initialization before proceeding.
@@ -360,12 +368,16 @@ Once zero, the latch is "done" and all subsequent `wait()` calls return immediat
 `std::barrier` [N4950 §31.4.4.5] is a reusable synchronization point. Unlike `std::latch`A barrier
 Resets its counter after all threads arrive, allowing it to be reused across multiple phases.
 
+<div class="table-wrap">
+
 | Operation           | Description                                           |
 | ------------------- | ----------------------------------------------------- |
 | `arrive(arrival)`   | Decrements the expected count                         |
 | `wait()`            | Blocks until all threads have arrived                 |
 | `arrive_and_wait()` | Arrives and then waits                                |
 | `arrive_and_drop()` | Arrives and permanently decrements the expected count |
+
+</div>
 
 The barrier can accept a **completion function** that is executed once when all threads arrive,
 Before any waiting thread is released:
@@ -544,6 +556,8 @@ int main() {
 
 ## Choosing Between Synchronization Primitives
 
+<div class="table-wrap">
+
 | Requirement                         | Primitive                              | Rationale                       |
 | ----------------------------------- | -------------------------------------- | ------------------------------- |
 | One-time wait for N events          | `std::latch`                           | Single-use, no reset needed     |
@@ -551,6 +565,8 @@ int main() {
 | Wait for a condition to become true | `std::condition_variable`              | Flexible, works with predicates |
 | Wait for a single event (flag)      | `std::atomic<bool>` + `wait()` (C++20) | No mutex overhead               |
 | One-time initialization             | `std::call_once`                       | Guaranteed single execution     |
+
+</div>
 
 ## Common Pitfalls
 

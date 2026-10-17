@@ -36,6 +36,8 @@ eukaryotes.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature       | Prokaryotic                                                | Eukaryotic                                                           |
 | ------------- | ---------------------------------------------------------- | -------------------------------------------------------------------- |
 | Cell wall     | Peptidoglycan (murein)                                     | None in animals; cellulose in plants; chitin in fungi                |
@@ -44,6 +46,8 @@ eukaryotes.
 | Organelles    | None (no nucleus, mitochondria, ER, etc.)                  | Membrane-bound organelles present (nucleus, mitochondria, ER, Golgi) |
 | Cell division | Binary fission (no spindle)                                | Mitosis (and meiosis); spindle apparatus involved                    |
 | Size          | 0.5--5 $\mu$ M                                              | 10--100 $\mu$ M                                                       |
+
+</div>
 
 Prokaryotes reproduce faster because: (1) binary fission is simpler than mitosis -- no spindle
 formation or nuclear envelope breakdown; (2) they have a smaller genome to replicate (circular DNA,

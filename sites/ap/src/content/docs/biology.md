@@ -110,6 +110,8 @@ All biological macromolecules are polymers built from monomers via dehydration s
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic              | Eukaryotic                         |
 | ------------------------- | ------------------------ | ---------------------------------- |
 | Nucleus                   | No (nucleoid region)     | Yes (membrane-bound)               |
@@ -120,7 +122,11 @@ All biological macromolecules are polymers built from monomers via dehydration s
 | Cell wall                 | Peptidoglycan (bacteria) | Cellulose (plants), chitin (fungi) |
 | Examples                  | Bacteria, archaea        | Animals, plants, fungi, protists   |
 
+</div>
+
 ### Organelles
+
+<div class="table-wrap">
 
 | Organelle       | Function                                                                                                          |
 | --------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -137,6 +143,8 @@ All biological macromolecules are polymers built from monomers via dehydration s
 | Ribosomes       | Protein synthesis (free in cytoplasm or on rough ER)                                                              |
 | Cytoskeleton    | Structural support, cell movement, intracellular transport (microfilaments, intermediate filaments, microtubules) |
 
+</div>
+
 ### Cell Membrane
 
 The fluid mosaic model: phospholipid bilayer with embedded proteins that can drift laterally.
@@ -149,6 +157,8 @@ The fluid mosaic model: phospholipid bilayer with embedded proteins that can dri
 
 ### Membrane Transport
 
+<div class="table-wrap">
+
 | Type                  | Direction                                     | Energy Required?        | Examples                                 |
 | --------------------- | --------------------------------------------- | ----------------------- | ---------------------------------------- |
 | Simple diffusion      | High to low concentration                     | No                      | O$_2$, CO$_2$, small non-polar molecules |
@@ -157,6 +167,8 @@ The fluid mosaic model: phospholipid bilayer with embedded proteins that can dri
 | Active transport      | Low to high concentration                     | Yes (ATP)               | Na$^+$/K$^+$ pump, proton pump           |
 | Cotransport           | Uses gradient established by active transport | Yes (indirect)          | Glucose-Na$^+$ symporter                 |
 | Bulk transport        | Endocytosis/exocytosis                        | Yes (vesicle formation) | Large molecules, particles               |
+
+</div>
 
 **Tonicity:**
 
@@ -319,11 +331,15 @@ meiosis (provided they are not linked).
 
 **Genetic crosses:**
 
+<div class="table-wrap">
+
 | Cross                  | Ratio (phenotype) | Ratio (genotype) |
 | ---------------------- | ----------------- | ---------------- |
 | Monohybrid (Aa × Aa)   | 3:1               | 1:2:1            |
 | Dihybrid (AaBb × AaBb) | 9:3:3:1           |,                |
 | Test cross (Aa × aa)   | 1:1               | 1:1              |
+
+</div>
 
 **Probability rules:**
 
@@ -471,6 +487,8 @@ of evolutionary relatedness through sequence similarity.
 
 ## 7. Key Terms
 
+<div class="table-wrap">
+
 | Term                   | Definition                                                                             |
 | ---------------------- | -------------------------------------------------------------------------------------- |
 | ADP/ATP                | Adenosine diphosphate/triphosphate; energy currency of the cell                        |
@@ -503,6 +521,8 @@ of evolutionary relatedness through sequence similarity.
 | Spliceosome            | Complex that removes introns from pre-mRNA                                             |
 | Taxon                  | Named group of organisms at any level of classification                                |
 | Transcription factor   | Protein that regulates gene expression by binding to DNA                               |
+
+</div>
 
 ## 8. Exam Tips
 
@@ -551,6 +571,8 @@ of evolutionary relatedness through sequence similarity.
 
 ## 10. Summary
 
+<div class="table-wrap">
+
 | Topic                             | Key Ideas                                                                                                |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Chemistry of Life                 | Water properties, macromolecules, enzymes and regulation                                                 |
@@ -559,6 +581,8 @@ of evolutionary relatedness through sequence similarity.
 | Cell Communication and Cell Cycle | Signal transduction, checkpoints, cyclins/CDKs, cancer                                                   |
 | Heredity                          | Mendelian genetics, non-Mendelian patterns, DNA replication, transcription, translation, gene regulation |
 | Evolution                         | Natural selection, Hardy-Weinberg, genetic drift, gene flow, speciation, evidence                        |
+
+</div>
 
 AP Biology tests your ability to connect concepts across scales, from molecules to ecosystems.
 Focus on understanding _why_ biological processes work the way they do, not just memorising facts.

@@ -30,11 +30,15 @@ Stack. On x86-64 Windows, the **Microsoft x64 ABI** is used instead.
 Arguments are classified into four categories: INTEGER, SSE, MEMORY, and X87. The classification
 Determines which registers or stack slots receive each argument:
 
+<div class="table-wrap">
+
 | Category | Registers / Location                 |
 | :------- | :----------------------------------- |
 | INTEGER  | RDI, RSI, RDX, RCX, R8, R9 (6 slots) |
 | SSE      | XMM0 – XMM7 (8 slots)                |
 | MEMORY   | Pushed to the stack (right to left)  |
+
+</div>
 
 The first 6 INTEGER-class arguments go into RDI, RSI, RDX, RCX, R8, R9 (in order). The first 8
 SSE-class (floating-point) arguments go into XMM0 through XMM7. If both integer and floating-point
@@ -95,12 +99,16 @@ does not follow argument order in a single sequence, the two banks are tracked i
 
 ## 2.2 Return Values
 
+<div class="table-wrap">
+
 | Return Type                                     | Location                                                   |
 | :---------------------------------------------- | :--------------------------------------------------------- |
 | `bool``char``int``long``long long`Pointers      | RAX                                                        |
 | `float``double`                                 | XMM0                                                       |
 | Small structs (≤ 16 bytes, fitting 2 registers) | RAX + RDX                                                  |
 | Large structs (> 16 bytes)                      | Hidden first argument (pointer to caller-allocated memory) |
+
+</div>
 
 For large return types, the caller allocates space on the stack and passes a hidden pointer as the
 First argument. The callee writes the return value to this address and also returns the pointer in
@@ -263,6 +271,8 @@ Windows and Linux/macOS use fundamentally different calling conventions on x86-6
 are significant enough that calling a function compiled with one ABI from code compiled with the
 other will crash or corrupt memory.
 
+<div class="table-wrap">
+
 | Aspect                    | System V AMD64 ABI (Linux/macOS)                 | Microsoft x64 ABI (Windows)                 |
 | :------------------------ | :----------------------------------------------- | :------------------------------------------ |
 | Integer arg registers     | RDI, RSI, RDX, RCX, R8, R9 (6)                   | RCX, RDX, R8, R9 (4)                        |
@@ -275,6 +285,8 @@ other will crash or corrupt memory.
 | Red zone                  | 128 bytes below RSP                              | None                                        |
 | Struct return (> 8B)      | Hidden pointer in RDI                            | Hidden pointer in RCX                       |
 | XMM callee-saved          | None                                             | XMM6–XMM15                                  |
+
+</div>
 
 ### Proof of ABI Incompatibility
 
@@ -378,12 +390,16 @@ System APIs.
 
 ### MSVC Calling Convention Attributes
 
+<div class="table-wrap">
+
 | Attribute    | Argument Passing          | Stack Cleanup | Use Case                         |
 | :----------- | :------------------------ | :------------ | :------------------------------- |
 | `__cdecl`    | Stack (right to left)     | Caller        | C default; variable-argument fns |
 | `__stdcall`  | Stack (right to left)     | Callee        | Win32 API                        |
 | `__fastcall` | ECX, EDX, then stack      | Callee        | Performance-critical             |
 | `__thiscall` | ECX = `this`Rest on stack | Callee        | C++ member functions (MSVC)      |
+
+</div>
 
 These attributes are primarily relevant for **32-bit x86** code, where multiple calling conventions
 Coexisted. On x86-64, both Windows and Linux use a single calling convention (the platform ABI), so
@@ -430,6 +446,8 @@ onto the stack in the prologue and popping it in the epilogue).
 
 ### System V x86-64 Register Map
 
+<div class="table-wrap">
+
 | Register(s)                | Role              | Saved By |
 | :------------------------- | :---------------- | :------- |
 | RAX                        | Return value      | Caller   |
@@ -441,6 +459,8 @@ onto the stack in the prologue and popping it in the epilogue).
 | RBP                        | Frame pointer     | Callee   |
 | R12, R13, R14, R15         | General purpose   | Callee   |
 | RSP                        | Stack pointer     | Callee   |
+
+</div>
 
 ### Proof of Callee-Save Necessity
 
@@ -479,12 +499,16 @@ extern "C" long use_callee_saved(long a, long b) {
 The Microsoft x64 ABI callee-saves more registers than System V, including RDI and RSI (which are
 Used as argument registers under System V) and XMM6–XMM15:
 
+<div class="table-wrap">
+
 | Register(s)        | Saved By |
 | :----------------- | :------- |
 | RBX, RBP, RDI, RSI | Callee   |
 | R12, R13, R14, R15 | Callee   |
 | XMM6–XMM15         | Callee   |
 | RSP                | Callee   |
+
+</div>
 
 This means that code compiled with Microsoft x64 ABI can rely on XMM6–XMM15 being preserved across
 Function calls, which is not the case under System V where all XMM registers are caller-saved.

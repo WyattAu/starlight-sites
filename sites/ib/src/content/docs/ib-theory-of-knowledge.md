@@ -26,11 +26,15 @@ Theory of Knowledge (TOK) is a core component of the IB Diploma Programme. It ex
 
 ### Assessment Criteria
 
+<div class="table-wrap">
+
 | Criterion | Weight | Description |
 | ----------- | -------- | ------------- |
 | Understanding and Knowledge | 30% | Demonstrates understanding of TOK concepts |
 | Quality of Analysis | 40% | Quality of analysis and argument |
 | Use of Evidence | 30% | Quality and relevance of evidence |
+
+</div>
 
 ---
 

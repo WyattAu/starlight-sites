@@ -97,6 +97,8 @@ At each price, we add up the quantities demanded by all consumers.
 
 ### 1.5 Determinants of Demand
 
+<div class="table-wrap">
+
 | Determinant                               | Effect on Demand                                       | Example                                                |
 | ----------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
 | Income ($\uparrow$)                       | Normal goods: $\uparrow$; Inferior goods: $\downarrow$ | Demand for bus travel falls as income rises (inferior) |
@@ -105,6 +107,8 @@ At each price, we add up the quantities demanded by all consumers.
 | Tastes (towards good)                     | $\uparrow$                                             | Health campaigns increase demand for fruit             |
 | Expectations of future price ($\uparrow$) | $\uparrow$ (current demand)                            | Consumers stockpile before expected price rise         |
 | Population ($\uparrow$)                   | $\uparrow$                                             | UK population growth increases housing demand          |
+
+</div>
 
 :::caution
 Demanded" means a _movement along the curve_ due to a price change. These are fundamentally
@@ -160,6 +164,8 @@ Horizontal summation of individual firm supply curves.
 
 ### 2.4 Determinants of Supply
 
+<div class="table-wrap">
+
 | Determinant                               | Effect on Supply              | Example                                           |
 | ----------------------------------------- | ----------------------------- | ------------------------------------------------- |
 | Costs of production ($\uparrow$)          | $\downarrow$                  | Higher wages reduce supply                        |
@@ -168,6 +174,8 @@ Horizontal summation of individual firm supply curves.
 | Indirect tax ($\uparrow$)                 | $\downarrow$                  | Sugar tax reduces supply of sugary drinks         |
 | Expectations of future price ($\uparrow$) | $\downarrow$ (current supply) | Farmers withhold supply expecting higher prices   |
 | Number of firms ($\uparrow$)              | $\uparrow$                    | Entry of new coffee shops increases market supply |
+
+</div>
 
 ## 3. Market Equilibrium
 
@@ -224,6 +232,8 @@ $|\mathrm{PED}|$.
 
 **Classification:**
 
+<div class="table-wrap">
+
 | Value                           | Description         | Interpretation               |
 | ------------------------------- | ------------------- | ---------------------------- |
 | $\mathrm{PED} = 0$              | Perfectly inelastic | Vertical demand curve        |
@@ -231,6 +241,8 @@ $|\mathrm{PED}|$.
 | $\mathrm{PED} = 1$              | Unit elastic        | %$\Delta Q$ = %$\Delta P$    |
 | $1 \lt \mathrm{PED} \lt \infty$ | Elastic             | %$\Delta Q$ &gt; %$\Delta P$ |
 | $\mathrm{PED} = \infty$         | Perfectly elastic   | Horizontal demand curve      |
+
+</div>
 
 ### 4.2 PED and Total Revenue
 
@@ -285,11 +297,15 @@ $$
 \mathrm{YED} = \frac{\%\Delta Q_d}{\%\Delta Y} = \frac{\Delta Q_d / Q_d}{\Delta Y / Y}
 $$
 
+<div class="table-wrap">
+
 | YED         | Type of Good       | Example                            |
 | ----------- | ------------------ | ---------------------------------- |
 | YED < 0     | Inferior           | Own-brand food, bus travel         |
 | 0 < YED < 1 | Normal (necessity) | Bread, electricity                 |
 | YED > 1     | Normal (luxury)    | Designer clothes, foreign holidays |
+
+</div>
 
 ### 4.6 Cross-Price Elasticity of Demand (XED)
 
@@ -297,11 +313,15 @@ $$
 \mathrm{XED}_{AB} = \frac{\%\Delta Q_A}{\%\Delta P_B}
 $$
 
+<div class="table-wrap">
+
 | XED     | Relationship | Example            |
 | ------- | ------------ | ------------------ |
 | XED > 0 | Substitutes  | Tea and coffee     |
 | XED < 0 | Complements  | Petrol and cars    |
 | XED = 0 | Unrelated    | Books and tomatoes |
+
+</div>
 
 The _magnitude_ of XED indicates the closeness of the relationship, relevant for competition policy
 (defining the relevant market).

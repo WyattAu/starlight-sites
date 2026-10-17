@@ -45,6 +45,8 @@ Slightly different resources or are active at different times.
 
 Energy flows through ecosystems in a unidirectional manner from producers to consumers:
 
+<div class="table-wrap">
+
 | Trophic Level                  | Organisms                          | Energy Source                                           |
 | ------------------------------ | ---------------------------------- | ------------------------------------------------------- |
 | Producer (autotroph)           | Plants, algae, some bacteria       | Sunlight (photosynthesis) or chemicals (chemosynthesis) |
@@ -52,6 +54,8 @@ Energy flows through ecosystems in a unidirectional manner from producers to con
 | Secondary consumer (carnivore) | Small birds, frogs, small fish     | Eat primary consumers                                   |
 | Tertiary consumer (carnivore)  | Hawks, large fish, lions           | Eat secondary consumers                                 |
 | Decomposer (detritivore)       | Fungi, bacteria, earthworms        | Break down dead organic matter                          |
+
+</div>
 
 **Food chains** show a single pathway of energy transfer. **Food webs** show the complex,
 Interconnected network of feeding relationships in an ecosystem, reflecting the reality that most
@@ -350,11 +354,15 @@ Concentrations are intensifying the warming effect.
 
 **Key greenhouse gases:**
 
+<div class="table-wrap">
+
 | Gas             | Pre-industrial concentration | Current concentration        | Contribution   |
 | --------------- | ---------------------------- | ---------------------------- | -------------- |
 | $\mathrm{CO_2}$ | $\approx 280\ \mathrm{ppm}$  | $\approx 420\ \mathrm{ppm}$  | $\approx 60\%$ |
 | $\mathrm{CH_4}$ | $\approx 700\ \mathrm{ppb}$  | $\approx 1900\ \mathrm{ppb}$ | $\approx 20\%$ |
 | $\mathrm{N_2O}$ | $\approx 270\ \mathrm{ppb}$  | $\approx 330\ \mathrm{ppb}$  | $\approx 6\%$  |
+
+</div>
 
 Sources: $\mathrm{CO_2}$ from fossil fuel combustion and deforestation; $\mathrm{CH_4}$ from
 Agriculture (rice paddies, cattle), landfill, and fossil fuel extraction; $\mathrm{N_2O}$ from
@@ -535,10 +543,14 @@ $20\ ^\circ\mathrm{C}$.
 **Worked Example.** A water sample is taken from a river upstream and downstream of a sewage
 outfall.
 
+<div class="table-wrap">
+
 | Measurement                                                    | Upstream | Downstream |
 | -------------------------------------------------------------- | -------- | ---------- |
 | Dissolved $\mathrm{O_2}$ initially ($\mathrm{mg\ dm^{-3}}$)    | 9.2      | 8.8        |
 | Dissolved $\mathrm{O_2}$ after 5 days ($\mathrm{mg\ dm^{-3}}$) | 7.8      | 2.1        |
+
+</div>
 
 Upstream $\mathrm{BOD} = 9.2 - 7.8 = 1.4\ \mathrm{mg\ dm^{-3}}$.
 
@@ -663,6 +675,8 @@ Coral skeletons begin to dissolve.
 
 ### 12.1 Key Abiotic Measurements
 
+<div class="table-wrap">
+
 | Factor           | Instrument                    | Unit                                   |
 | ---------------- | ----------------------------- | -------------------------------------- |
 | Temperature      | Thermometer / data logger     | $^\circ\mathrm{C}$                     |
@@ -673,6 +687,8 @@ Coral skeletons begin to dissolve.
 | Wind speed       | Anemometer                    | $\mathrm{m\ s^{-1}}$                   |
 | Humidity         | Hygrometer                    | % relative humidity                    |
 | Water flow rate  | Flow meter                    | $\mathrm{m^3\ s^{-1}}$                 |
+
+</div>
 
 ### 12.2 Reliability and Validity in Ecological Investigations
 
@@ -858,11 +874,15 @@ $N = 286$ instead of 250 -- a 14% Change. Larger samples give smaller proportion
 <summary>Problem 8</summary>
 An agricultural ecosystem has the following energy values (in $\mathrm{kJ\ m^{-2}\ yr^{-1}}$):
 
+<div class="table-wrap">
+
 | Trophic Level        | Energy intake | Energy lost in faeces | Energy lost in respiration |
 | -------------------- | ------------- | --------------------- | -------------------------- |
 | Wheat (producer)     | 25000         | 0                     | 8000                       |
 | Aphid (primary)      | 2000          | 800                   | 700                        |
 | Ladybird (secondary) | 300           | 120                   | 120                        |
+
+</div>
 
 (a) Calculate the ecological efficiency between each trophic level. (b) Calculate NPP of the wheat.
 (c) Explain why the ecological efficiency is less than 100% at each level.
@@ -977,11 +997,15 @@ At $t = 30\ \mathrm{h}$: exponential model gives $N = 100 \times e^{15} = 3.27 \
 
 Survivorship curves plot the proportion of individuals surviving against age:
 
+<div class="table-wrap">
+
 | Type     | Shape                                       | Characteristics                                                                         | Examples                                                            |
 | -------- | ------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Type I   | Convex (steep decline at old age)           | Low mortality in early and middle life; most individuals survive to old age             | Humans, elephants, large mammals                                    |
 | Type II  | Straight diagonal (constant mortality rate) | Constant probability of death at all ages                                               | Many birds, small mammals, annual plants                            |
 | Type III | Concave (steep decline early)               | High mortality in early life; those that survive the juvenile period have low mortality | Fish, marine invertebrates, trees (produce many seeds, few survive) |
+
+</div>
 
 ## 14. Advanced Ecological Interactions
 
@@ -1080,6 +1104,8 @@ $20\%$ to global $\mathrm{CO_2}$ emissions.
 **Indicator species** are organisms whose presence, absence, or abundance reflects the environmental
 quality of a habitat:
 
+<div class="table-wrap">
+
 | Environment                     | Indicator Species                                | What It Indicates                                                                   |
 | ------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | Freshwater (clean)              | Stonefly larvae, mayfly larvae, caddisfly larvae | Low pollution, high dissolved $\mathrm{O_2}$                                        |
@@ -1087,6 +1113,8 @@ quality of a habitat:
 | Freshwater (heavy pollution)    | Rat-tailed maggot, sludgeworm                    | High organic pollution, low dissolved $\mathrm{O_2}$                                |
 | Air quality                     | Lichens (especially crustose lichens)            | Lichens are sensitive to $\mathrm{SO_2}$; their absence indicates air pollution     |
 | Soil quality                    | Earthworms                                       | High earthworm count indicates healthy, well-aerated soil with high organic content |
+
+</div>
 
 **Biological Oxygen Demand (BOD)** is a quantitative measure of water pollution: it measures the
 amount of $\mathrm{O_2}$ required by microorganisms to decompose organic matter in a water sample
@@ -1135,10 +1163,14 @@ smaller, more distant islands have fewer species.
 
 ### 16.3 In Situ vs Ex Situ Conservation
 
+<div class="table-wrap">
+
 | Method                 | Description                                                                                              | Advantages                                                                           | Disadvantages                                                                                                 |
 | ---------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
 | **In situ** (on-site)  | Protecting species in their natural habitat (national parks, nature reserves, SSSIs)                     | Preserves the entire ecosystem and evolutionary processes; cheaper in the long term  | Vulnerable to habitat degradation, climate change, poaching                                                   |
 | **Ex situ** (off-site) | Protecting species outside their natural habitat (zoos, botanical gardens, seed banks, cryopreservation) | Provides a safety net against extinction; allows captive breeding and reintroduction | Expensive; animals may lose natural behaviours; genetic diversity may be reduced in small captive populations |
+
+</div>
 
 **Seed banks** store seeds at $-20$ degrees C and low humidity, extending their viability from years
 to centuries. The Millennium Seed Bank at Kew (UK) stores seeds from 40,000 species, representing
@@ -1204,11 +1236,15 @@ Trophic efficiency from producer to primary consumer $= \frac{640}{8000} = 8\%$.
 
 ### 17.3 Pyramids of Number, Biomass, and Energy
 
+<div class="table-wrap">
+
 | Pyramid Type       | What It Shows                               | Limitations                                                                                       |
 | ------------------ | ------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | Pyramid of numbers | Number of organisms at each trophic level   | Can be inverted (e.g., one oak tree supporting many insects)                                      |
 | Pyramid of biomass | Dry mass of organisms at each trophic level | Can be inverted in aquatic ecosystems (phytoplankton have low standing biomass but high turnover) |
 | Pyramid of energy  | Energy flow per unit area per unit time     | Never inverted; the most fundamental and useful representation                                    |
+
+</div>
 
 **Inverted pyramids of biomass** in aquatic ecosystems occur because phytoplankton reproduce and are
 consumed very rapidly (high turnover rate). At any given instant, their biomass is low, but the
@@ -1239,6 +1275,8 @@ Sand dune succession is a classic example of primary succession:
 
 Changes during succession can be measured by:
 
+<div class="table-wrap">
+
 | Variable                            | How to Measure                           | Expected Trend                                                         |
 | ----------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
 | Species richness                    | Quadrat sampling                         | Generally increases (though may peak and decline at climax)            |
@@ -1247,6 +1285,8 @@ Changes during succession can be measured by:
 | Soil organic matter content         | Soil samples, combustion method          | Increases                                                              |
 | Soil moisture content               | Gravimetric method (weigh, dry, reweigh) | Increases (soil retains more water as organic content increases)       |
 | pH                                  | pH meter or indicator                    | May decrease (organic acids) or increase (calcium from plant material) |
+
+</div>
 
 ## 19. Climate Change: Mechanisms and Evidence
 
@@ -1257,12 +1297,16 @@ warms the Earth's surface. The Earth re-radiates this energy as long-wave infrar
 **Greenhouse gases** in the atmosphere absorb and re-emit some of this long-wave radiation back
 towards the surface, warming the lower atmosphere.
 
+<div class="table-wrap">
+
 | Greenhouse Gas                  | Pre-industrial Concentration | Current Concentration  | Contribution to Warming |
 | ------------------------------- | ---------------------------- | ---------------------- | ----------------------- |
 | $\mathrm{CO_2}$                 | $280\ \mathrm{ppm}$          | $> 420\ \mathrm{ppm}$  | $\approx 60\%$          |
 | Methane ($\mathrm{CH_4}$)       | $700\ \mathrm{ppb}$          | $> 1900\ \mathrm{ppb}$ | $\approx 20\%$          |
 | Nitrous oxide ($\mathrm{N_2O}$) | $270\ \mathrm{ppb}$          | $> 330\ \mathrm{ppb}$  | $\approx 6\%$           |
 | CFCs                            | 0                            | Variable               | $\approx 14\%$          |
+
+</div>
 
 ### 19.2 Evidence for Anthropogenic Climate Change
 
@@ -1281,6 +1325,8 @@ towards the surface, warming the lower atmosphere.
 
 ### 19.3 Biological Consequences of Climate Change
 
+<div class="table-wrap">
+
 | Impact                | Description                                                                                                                                                          |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Range shifts          | Species move towards the poles or to higher altitudes as temperatures rise (e.g., butterfly ranges shifting north in Europe)                                         |
@@ -1288,6 +1334,8 @@ towards the surface, warming the lower atmosphere.
 | Coral bleaching       | Elevated sea temperatures cause corals to expel their symbiotic zooxanthellae, leading to coral death                                                                |
 | Increased disease     | Warmer temperatures extend the range of disease vectors (e.g., malaria mosquitoes) and pathogen development rates                                                    |
 | Ocean acidification   | Reduces calcification in marine organisms with calcium carbonate shells or skeletons                                                                                 |
+
+</div>
 
 ## 20. Ecological Techniques: Advanced Fieldwork
 
@@ -1339,12 +1387,16 @@ Where $N$ = estimated population size, $n_1$ = number captured and marked in the
 
 ### 20.4 Assumptions and Limitations of CMRR
 
+<div class="table-wrap">
+
 | Assumption                                                                             | Why It May Not Hold                                                                      | Effect on Estimate                            |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------- |
 | Marked individuals mix randomly into the population                                    | Marked individuals may avoid or be attracted to traps (trap-happy or trap-shy behaviour) | $N$ is inaccurate                             |
 | Marks are not lost and do not affect survival                                          | Marks may wear off, be removed by grooming, or increase predation risk                   | $m_2$ is underestimated; $N$ is overestimated |
 | The population is closed (no births, deaths, immigration, emigration between sampling) | Births, deaths, or migration may occur between sampling periods                          | $N$ is inaccurate                             |
 | The probability of capture is equal for all individuals                                | Some species/sexes/ages may be more captured                                             | $N$ is biased                                 |
+
+</div>
 
 ### 20.5 Worked Example: CMRR Calculation
 
@@ -1392,6 +1444,8 @@ Photosynthetic efficiency $= \frac{189\,000}{1.0 \times 10^{10}} = 0.0019 = 0.19
 
 ### 21.2 Comparing Ecosystems
 
+<div class="table-wrap">
+
 | Ecosystem                  | NPP ($\mathrm{kg\ ha^{-1}\ yr^{-1}}$) | Reason                                                                                  |
 | -------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------- |
 | Tropical rainforest        | 22,000                                | High temperature, abundant water, year-round growing season                             |
@@ -1401,6 +1455,8 @@ Photosynthetic efficiency $= \frac{189\,000}{1.0 \times 10^{10}} = 0.0019 = 0.19
 | Open ocean                 | 2,000                                 | Nutrient limitation (especially nitrogen and iron); most production is by phytoplankton |
 | Coral reef                 | 2,500                                 | High productivity despite nutrient-poor waters (efficient nutrient recycling)           |
 | Estuary                    | 15,000                                | Nutrient-rich (from river input); high light penetration                                |
+
+</div>
 
 ## 22. Human Impacts on Ecosystems: Quantitative Analysis
 
@@ -1424,6 +1480,8 @@ Photosynthetic efficiency $= \frac{189\,000}{1.0 \times 10^{10}} = 0.0019 = 0.19
 
 ### 22.2 Indicator Species
 
+<div class="table-wrap">
+
 | Indicator                        | Clean Water                                 | Moderate Pollution | Heavy Pollution                         |
 | -------------------------------- | ------------------------------------------- | ------------------ | --------------------------------------- |
 | Mayfly nymphs (_Ephemeroptera_)  | Present                                     | May be present     | Absent                                  |
@@ -1434,6 +1492,8 @@ Photosynthetic efficiency $= \frac{189\,000}{1.0 \times 10^{10}} = 0.0019 = 0.19
 | Rat-tailed maggots (_Eristalis_) | Absent                                      | Present            | Abundant                                |
 | Algae/diatoms                    | Diverse community                           | Fewer species      | Dominated by pollution-tolerant species |
 | Lichens (air quality)            | Xanthoria (moderate $\mathrm{SO_2}$) absent | Xanthoria present  | Only crustose lichens or none           |
+
+</div>
 
 ### 22.3 Calculating Biodiversity Indices
 
@@ -1448,12 +1508,16 @@ Where $p_i$ is the proportion of individuals belonging to species $i$.
 **Example:** A woodland has 4 species with the following abundances: A = 50, B = 30, C = 15, D = 5.
 Total = 100.
 
+<div class="table-wrap">
+
 | Species | $n_i$ | $p_i$ | $\ln p_i$ | $p_i \ln p_i$ |
 | ------- | ----- | ----- | --------- | ------------- |
 | A       | 50    | 0.50  | $-0.693$  | $-0.347$      |
 | B       | 30    | 0.30  | $-1.204$  | $-0.361$      |
 | C       | 15    | 0.15  | $-1.897$  | $-0.285$      |
 | D       | 5     | 0.05  | $-2.996$  | $-0.150$      |
+
+</div>
 
 $$
 H = -(-0.347 - 0.361 - 0.285 - 0.150) = 1.14
@@ -1480,6 +1544,8 @@ Values range from 0 (no diversity) to approaching 1 (infinite diversity).
 
 **Evidence:**
 
+<div class="table-wrap">
+
 | Evidence                                  | Data                                                                                                           |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Atmospheric $\mathrm{CO_2}$ concentration | 280 ppm (pre-industrial) $\to$ > 420 ppm (2024); measured at Mauna Loa Observatory since 1958                  |
@@ -1487,6 +1553,8 @@ Values range from 0 (no diversity) to approaching 1 (infinite diversity).
 | Sea level rise                            | Approximately 20 cm since 1900; accelerating (currently $\approx 3.6\ \mathrm{mm\ yr^{-1}}$)                   |
 | Arctic sea ice extent                     | Declined by approximately 13% per decade since satellite records began (1979)                                  |
 | Ocean acidification                       | pH has decreased from 8.21 to 8.10 (approximately 26% increase in $[\mathrm{H^+}]$) since pre-industrial times |
+
+</div>
 
 **Consequences for ecosystems:**
 
@@ -1507,11 +1575,15 @@ Values range from 0 (no diversity) to approaching 1 (infinite diversity).
 
 ### 23.1 Sampling Methods
 
+<div class="table-wrap">
+
 | Method                          | When to Use                                                        | Procedure                                                                                                           | Limitations                                                                                              |
 | ------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Random sampling (quadrats)      | Relatively uniform habitat; sessile (non-moving) organisms         | Lay out a grid; use random numbers to select quadrat positions; count/estimate percentage cover within each quadrat | Time-consuming; only works for organisms that can be counted in quadrats                                 |
 | Systematic sampling (transects) | Gradient exists (e.g., altitude, distance from sea, soil moisture) | Place quadrats at regular intervals along a line (belt transect or line transect)                                   | May miss important features between sampling points                                                      |
 | Mark-release-recapture          | Mobile animals                                                     | Capture, mark, release, wait, recapture. $N = \frac{n_1 \times n_2}{n_3}$                               | Assumes: no death/migration/immigration; marks do not affect survival; marks are not lost; random mixing |
+
+</div>
 
 ### 23.2 Mark-Release-Recapture: Worked Example
 
@@ -1526,15 +1598,21 @@ Estimated population size $= 250$ woodlice.
 
 ### 23.3 Measuring Abundance
 
+<div class="table-wrap">
+
 | Measure          | Description                                                 | When to Use                                                               |
 | ---------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Density          | Number of individuals per unit area ($\mathrm{m^{-2}}$)     | When individuals can be counted (e.g., plants, slow-moving animals)       |
 | Frequency        | Proportion of quadrats in which a species is present        | When individuals are hard to count but presence/absence is easy to record |
 | Percentage cover | Percentage of ground covered by a species (visual estimate) | For plants, especially when they form a continuous cover (e.g., grass)    |
 
+</div>
+
 ### 23.4 Simpson's Diversity Index: Worked Example
 
 A sample from a grassland contains the following species abundances:
+
+<div class="table-wrap">
 
 | Species      | Number ($n_i$) | $n_i/N$ ($p_i$) | $p_i^2$   |
 | ------------ | -------------- | --------------- | --------- |
@@ -1544,6 +1622,8 @@ A sample from a grassland contains the following species abundances:
 | Plantain     | 10             | 0.05            | 0.0025    |
 | Daisy        | 5              | 0.025           | 0.000625  |
 | **Total**    | **200**        | **1.000**       | **0.419** |
+
+</div>
 
 $$
 D = 1 - \sum p_i^2 = 1 - 0.419 = 0.581
@@ -1556,6 +1636,8 @@ grazed monoculture pasture might have $D < 0.2$.
 
 **Primary succession on sand dunes:**
 
+<div class="table-wrap">
+
 | Stage                  | Dominant Species                    | Soil Characteristics                                                    | Distance from sea |
 | ---------------------- | ----------------------------------- | ----------------------------------------------------------------------- | ----------------- |
 | Embryo dune            | Lyme grass, marram grass            | Sandy, low water retention, low organic matter, high salinity           | 0--50 m           |
@@ -1565,6 +1647,8 @@ grazed monoculture pasture might have $D < 0.2$.
 | Dune heath             | Heather, gorse, bracken             | Acidic soil; more organic matter                                        | 400--600 m        |
 | Dune scrub/woodland    | Birch, pine, oak (climax community) | Well-developed soil; stable community                                   | > 600 m           |
 
+</div>
+
 Each stage modifies the environment, making it more suitable for the next stage (autogenic
 succession). The climax community is the most stable and diverse community that can be sustained
 under the prevailing climate and soil conditions.
@@ -1572,6 +1656,8 @@ under the prevailing climate and soil conditions.
 ## 24. Ecological Interactions
 
 ### 24.1 Interspecific Relationships
+
+<div class="table-wrap">
 
 | Relationship       | Effect on A                          | Effect on B              | Example                                                                                                                                                                                                                                                           |
 | ------------------ | ------------------------------------ | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1581,6 +1667,8 @@ under the prevailing climate and soil conditions.
 | Predation (+/-)    | Predator benefits; prey is killed    | Killed                   | Lion hunting zebra; hawk hunting mouse                                                                                                                                                                                                                            |
 | Herbivory (+/-)    | Herbivore benefits; plant is damaged | Damaged (but not killed) | Caterpillar eating leaves; rabbit eating grass                                                                                                                                                                                                                    |
 | Competition (-/-)  | Both are harmed                      | Both are harmed          | Two species competing for the same limiting resource (food, light, water, space)                                                                                                                                                                                  |
+
+</div>
 
 ### 24.2 Niche
 
@@ -1596,6 +1684,8 @@ niche differentiation (resource partitioning).
 
 ### 24.3 The Niche Concept and Species Coexistence
 
+<div class="table-wrap">
+
 | Principle             | Description                                                                                | Example                                                                                                               |
 | --------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 | Competitive exclusion | Two species with identical niches cannot coexist; one will exclude the other               | _Paramecium caudatum_ and _P. Aurelia_ grown together: _P. Aurelia_ outcompetes _P. Caudatum_                         |
@@ -1603,13 +1693,19 @@ niche differentiation (resource partitioning).
 | Fundamental niche     | The full range of conditions and resources a species could theoretically use               | A species' potential range if no competitors were present                                                             |
 | Realised niche        | The actual range of conditions and resources a species uses in the presence of competitors | smaller than the fundamental niche due to competition                                                                 |
 
+</div>
+
 ### 24.4 Ecological Pyramids
+
+<div class="table-wrap">
 
 | Pyramid Type       | Description                                                       | Limitations                                                                                                              |
 | ------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Pyramid of numbers | Number of organisms at each trophic level                         | Can be inverted (e.g., one tree supporting many insects)                                                                 |
 | Pyramid of biomass | Total dry mass of organisms at each trophic level (per unit area) | Can be inverted in aquatic systems (phytoplankton have low standing biomass but high productivity due to rapid turnover) |
 | Pyramid of energy  | Total energy at each trophic level per unit area per unit time    | Never inverted; energy is always lost at each trophic level (10% rule)                                                   |
+
+</div>
 
 ## 25. Energy Flow and Productivity Calculations
 
@@ -1668,6 +1764,8 @@ $$
 
 ### 26.1 Primary vs Secondary Succession
 
+<div class="table-wrap">
+
 | Feature         | Primary Succession                                                               | Secondary Succession                                                                  |
 | --------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | Starting point  | Bare rock, sand, or volcanic ash (no soil)                                       | Previously colonised land where the community has been removed (soil already present) |
@@ -1676,7 +1774,11 @@ $$
 | Time scale      | Hundreds to thousands of years                                                   | Decades to centuries                                                                  |
 | Example         | Sand dune succession; volcanic island colonisation                               | Abandoned farmland; forest after fire; deforested land                                |
 
+</div>
+
 ### 26.2 Sand Dune Succession (Classic Example)
+
+<div class="table-wrap">
 
 | Stage            | Species                                                | Changes to Environment                                              |
 | ---------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
@@ -1687,10 +1789,14 @@ $$
 | Dune slack       | Water collects in hollows; reeds, rushes, willow       | Wetland community develops                                          |
 | Climax community | Deciduous woodland (oak, birch, hazel)                 | Stable, self-sustaining community                                   |
 
+</div>
+
 ### 26.3 Deflected Succession
 
 Deflected succession occurs when human activity prevents the natural climax community from
 developing:
+
+<div class="table-wrap">
 
 | Example                        | Description                                                    |
 | ------------------------------ | -------------------------------------------------------------- |
@@ -1698,9 +1804,13 @@ developing:
 | Mowing (lawns, parks)          | Prevents tall vegetation and trees; maintains short grass      |
 | Burning (heathland management) | Prevents scrub and tree invasion; maintains heather moorland   |
 
+</div>
+
 ## 27. Eutrophication: Step-by-Step
 
 ### 27.1 Process
+
+<div class="table-wrap">
 
 | Step                          | What Happens                                                                                  | Consequence                                                                                                              |
 | ----------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -1711,7 +1821,11 @@ developing:
 | 5. Oxygen depletion           | Bacterial respiration consumes dissolved oxygen (DO) from the water                           | DO drops below levels needed by fish and invertebrates                                                                   |
 | 6. Death of aerobic organisms | Fish and invertebrates die from hypoxia (low $\mathrm{O_2}$)                                  | Only anaerobic organisms survive; water becomes stagnant and foul-smelling (hydrogen sulfide from anaerobic respiration) |
 
+</div>
+
 ### 27.2 Indicators of Eutrophication
+
+<div class="table-wrap">
 
 | Indicator                       | What to Measure                                                                                      | Expected Values                                                                                                                                                            |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1720,9 +1834,13 @@ developing:
 | Nitrate concentration           | Nitrate levels in water (colorimetric test)                                                          | Clean: < 1 mg/L; Eutrophic: > 5 mg/L                                                                                                                                       |
 | Species diversity               | Number and variety of invertebrate species (biotic index)                                            | Clean water: high diversity (mayfly nymphs, stonefly larvae -- sensitive to pollution); Polluted water: low diversity (only tolerant species like bloodworms, sludgeworms) |
 
+</div>
+
 ## 28. Climate Change and Biology
 
 ### 28.1 The Greenhouse Effect
+
+<div class="table-wrap">
 
 | Greenhouse Gas                   | Sources                                                         | Current Concentration | Warming Potential (vs $\mathrm{CO_2}$) |
 | -------------------------------- | --------------------------------------------------------------- | --------------------- | -------------------------------------- |
@@ -1731,7 +1849,11 @@ developing:
 | Nitrous oxide ($\mathrm{N_2O}$)  | Agricultural fertiliser use; industrial processes               | ~0.33 ppm             | ~265                                   |
 | Chlorofluorocarbons (CFCs)       | Refrigerants; aerosols (now largely banned)                     | Declining             | ~4,000--10,000                         |
 
+</div>
+
 ### 28.2 Biological Consequences of Climate Change
+
+<div class="table-wrap">
 
 | Consequence                    | Description                                                                                                               | Biological Impact                                                                                                                 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -1740,6 +1862,8 @@ developing:
 | Sea level rise                 | Thermal expansion of water + melting ice sheets                                                                           | Coastal habitat loss; saltwater intrusion into freshwater ecosystems                                                              |
 | Changed precipitation patterns | More intense rainfall in some areas; droughts in others                                                                   | Altered species distributions; reduced agricultural productivity; increased wildfire risk                                         |
 | Extreme weather events         | More frequent and severe storms, heatwaves, droughts                                                                      | Direct mortality; habitat destruction; disruption of food webs                                                                    |
+
+</div>
 
 ## 29. Measuring Biodiversity
 
@@ -1754,14 +1878,20 @@ Where:
 - $n$ = number of individuals of each species
 - $N$ = total number of individuals of all species
 
+<div class="table-wrap">
+
 | Simpson's Index Value | Interpretation                                        |
 | --------------------- | ----------------------------------------------------- |
 | Close to 1            | High diversity (many species, evenly distributed)     |
 | Close to 0            | Low diversity (few species, or one species dominates) |
 
+</div>
+
 ### 29.2 Worked Example
 
 A woodland contains 4 species of tree:
+
+<div class="table-wrap">
 
 | Species         | Number of Individuals ($n$) | $n(n-1)$               |
 | --------------- | --------------------------- | ---------------------- |
@@ -1771,20 +1901,28 @@ A woodland contains 4 species of tree:
 | Hazel           | 10                          | $10 \times 9 = 90$     |
 | **Total ($N$)** | **100**                     | $\sum n(n-1) = 2,900$  |
 
+</div>
+
 $$
 D = 1 - \frac{2,900}{100 \times 99} = 1 - \frac{2,900}{9,900} = 1 - 0.293 = 0.707
 $$
 
 ### 29.3 Species Richness vs Species Evenness
 
+<div class="table-wrap">
+
 | Concept          | Definition                                           | Example                                                                                                                                 |
 | ---------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Species richness | The number of different species in a habitat         | A rainforest has high species richness; a monoculture wheat field has low species richness                                              |
 | Species evenness | How evenly individuals are distributed among species | If two habitats both have 4 species, the one where all 4 species have ~equal abundance has higher evenness (and higher Simpson's index) |
 
+</div>
+
 ## 30. Ecological Interactions
 
 ### 30.1 Types of Species Interactions
+
+<div class="table-wrap">
 
 | Interaction        | Effect on Species A   | Effect on Species B | Example                                                                                                                                                   |
 | ------------------ | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1795,9 +1933,13 @@ $$
 | Competition (-/-)  | Harmful               | Harmful             | Two species competing for the same resource (light, water, nutrients, food)                                                                               |
 | Amensalism (-/0)   | Harmful               | No effect           | A large tree shading out small plants beneath it; black walnut releasing juglone (inhibits growth of nearby plants)                                       |
 
+</div>
+
 ### 30.2 Coevolution
 
 Coevolution occurs when two species evolve in response to each other:
+
+<div class="table-wrap">
 
 | Example                          | Description                                                                                                                                                                                                           |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1806,9 +1948,13 @@ Coevolution occurs when two species evolve in response to each other:
 | Flowering plants and pollinators | Flowers evolve specific shapes, colours, and nectar rewards; pollinators evolve specialised mouthparts and behaviours (e.g., hummingbird and long-tubed flowers; Darwin's moth with 30 cm proboscis and comet orchid) |
 | Host-parasite coevolution        | Hosts evolve immune defences; parasites evolve evasion mechanisms (antigenic variation in malaria, influenza)                                                                                                         |
 
+</div>
+
 ## 31. Adaptations to Extreme Environments
 
 ### 31.1 Xerophytes (Plants Adapted to Dry Conditions)
+
+<div class="table-wrap">
 
 | Adaptation                | Description                                                                      | How It Reduces Water Loss                                                   |
 | ------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -1821,7 +1967,11 @@ Coevolution occurs when two species evolve in response to each other:
 | Deep root system          | Long taproot (e.g., cactus) or extensive lateral roots                           | Reaches deep groundwater                                                    |
 | CAM photosynthesis        | Stomata open at night; $\mathrm{CO_2}$ stored as malic acid; used during the day | Reduces water loss (stomata closed during the hottest part of the day)      |
 
+</div>
+
 ### 31.2 Hydrophytes (Plants Adapted to Aquatic Environments)
+
+<div class="table-wrap">
 
 | Adaptation                     | Description                                     | Why It Is Needed                                                                                            |
 | ------------------------------ | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -1831,9 +1981,13 @@ Coevolution occurs when two species evolve in response to each other:
 | Reduced xylem                  | Less vascular tissue needed                     | Water is abundant; no need for extensive water transport                                                    |
 | Flexible stems                 | Stems bend with water currents                  | Prevents damage from water flow                                                                             |
 
+</div>
+
 ## 32. Human Impact on Ecosystems
 
 ### 32.1 Deforestation
+
+<div class="table-wrap">
 
 | Effect                    | Description                                                                                                          |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -1843,7 +1997,11 @@ Coevolution occurs when two species evolve in response to each other:
 | Altered water cycle       | Reduced transpiration $\to$ less moisture in the atmosphere $\to$ reduced rainfall $\to$ drier climate               |
 | Flash flooding            | Reduced interception of rain by trees $\to$ more surface runoff $\to$ flooding downstream                            |
 
+</div>
+
 ### 32.2 Overfishing
+
+<div class="table-wrap">
 
 | Impact                  | Description                                                                                                      |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -1852,7 +2010,11 @@ Coevolution occurs when two species evolve in response to each other:
 | Bycatch                 | Non-target species (dolphins, turtles, seabirds) are caught and killed in fishing nets                           |
 | Habitat destruction     | Bottom trawling destroys seabed habitats (coral reefs, sponge beds)                                              |
 
+</div>
+
 ### 32.3 Conservation Strategies for Fisheries
+
+<div class="table-wrap">
 
 | Strategy                        | Description                                                                                               |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -1861,6 +2023,8 @@ Coevolution occurs when two species evolve in response to each other:
 | No-take zones (marine reserves) | Areas where all fishing is banned; fish populations recover and spill over into adjacent fishing areas    |
 | Seasonal closures               | Fishing is banned during breeding seasons to protect spawning fish                                        |
 | MSC certification               | Marine Stewardship Council certifies sustainable fisheries; consumers can choose sustainably sourced fish |
+
+</div>
 
 ---
 
@@ -1883,13 +2047,19 @@ with other biology topics to test synthesis under exam conditions.
 
 ### 33.1 Food Chains and Food Webs
 
+<div class="table-wrap">
+
 | Feature     | Food Chain                                                           | Food Web                                                                               |
 | ----------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Description | Linear sequence showing energy transfer from one organism to another | Network of interconnected food chains showing all feeding relationships in a community |
 | Complexity  | Simple                                                               | Complex                                                                                |
 | Example     | Grass $\to$ rabbit $\to$ fox $\to$ flea                              | Multiple interconnected chains with shared organisms at different trophic levels       |
 
+</div>
+
 ### 33.2 Trophic Levels
+
+<div class="table-wrap">
 
 | Trophic Level | Position            | Organism Type                                                   | Energy Remaining (approximate) |
 | ------------- | ------------------- | --------------------------------------------------------------- | ------------------------------ |
@@ -1899,16 +2069,24 @@ with other biology topics to test synthesis under exam conditions.
 | 4             | Tertiary consumer   | Top carnivores (hawks, foxes, large fish, lions)                | 0.1%                           |
 | 5             | Quaternary consumer | Apex predator (e.g., shark, eagle)                              | 0.01%                          |
 
+</div>
+
 ### 33.3 Decomposers and Detritivores
+
+<div class="table-wrap">
 
 | Type         | Organisms                                   | Role                                                                                                                                                                            |
 | ------------ | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Decomposers  | Fungi, bacteria                             | Secrete extracellular enzymes; break down dead organic matter; release inorganic nutrients ($\mathrm{NH_4^+}$, $\mathrm{PO_4^{3-}}$) back into the soil for producers to absorb |
 | Detritivores | Earthworms, woodlice, maggots, dung beetles | Ingest dead organic matter; digest it internally; speed up decomposition by breaking material into smaller pieces (increasing surface area for decomposers)                     |
 
+</div>
+
 ## 34. Nitrogen Cycle
 
 ### 34.1 Key Processes
+
+<div class="table-wrap">
 
 | Process           | Description                                                                                                                                             | Organisms Involved                                                                                                                            |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1918,9 +2096,13 @@ with other biology topics to test synthesis under exam conditions.
 | Ammonification    | Decomposers break down proteins and urea in dead organic matter; release $\mathrm{NH_3}$ / $\mathrm{NH_4^+}$ back into the soil                         | Decomposers (bacteria and fungi)                                                                                                              |
 | Denitrification   | $\mathrm{NO_3^-}$ is converted back to $\mathrm{N_2}$ and $\mathrm{N_2O}$ (nitrous oxide, a greenhouse gas); returns nitrogen to the atmosphere         | Denitrifying bacteria: _Pseudomonas denitrificans_ (anaerobic conditions in waterlogged soil)                                                 |
 
+</div>
+
 ## 35. Phosphorus Cycle
 
 ### 35.1 Key Processes
+
+<div class="table-wrap">
 
 | Process                          | Description                                                                                                   |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -1931,7 +2113,11 @@ with other biology topics to test synthesis under exam conditions.
 | Sedimentation                    | Phosphorus in dead marine organisms settles to the ocean floor; forms sedimentary rock over millions of years |
 | Geological uplift                | Tectonic activity lifts sedimentary rocks to the surface; weathering begins the cycle again                   |
 
+</div>
+
 ### 35.2 Key Difference from the Carbon and Nitrogen Cycles
+
+<div class="table-wrap">
 
 | Feature               | Carbon and Nitrogen                           | Phosphorus                                                                   |
 | --------------------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -1940,9 +2126,13 @@ with other biology topics to test synthesis under exam conditions.
 | Rate of cycling       | Fast (days to years)                          | Slow (millions of years for the sedimentary component)                       |
 | Bottleneck            | Recycling through decomposers is efficient    | Phosphorus is often a limiting factor in ecosystems because it cycles slowly |
 
+</div>
+
 ## 37. Water Pollution
 
 ### 37.1 Types and Sources
+
+<div class="table-wrap">
 
 | Pollutant         | Sources                                                                 | Effects                                                                                                                            |
 | ----------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -1954,7 +2144,11 @@ with other biology topics to test synthesis under exam conditions.
 | Plastics          | Litter; microplastics from clothing and cosmetics                       | Ingested by marine organisms; entangles wildlife; microplastics enter food chain; persists for hundreds of years                   |
 | Thermal pollution | Power station cooling water discharged into rivers                      | Reduces DO (warm water holds less dissolved oxygen); affects metabolic rate and distribution of aquatic species                    |
 
+</div>
+
 ### 37.2 Indicator Species for Water Quality
+
+<div class="table-wrap">
 
 | Species                         | Tolerance to Pollution | What Their Presence/Absence Indicates                     |
 | ------------------------------- | ---------------------- | --------------------------------------------------------- |
@@ -1964,9 +2158,13 @@ with other biology topics to test synthesis under exam conditions.
 | Bloodworms (_Chironomus_)       | Tolerant               | Polluted water (low DO)                                   |
 | Sludgeworms (_Tubifex_)         | Very tolerant          | Heavily polluted water (very low DO, high organic matter) |
 
+</div>
+
 ## 38. Conservation Case Studies
 
 ### 38.1 Yellowstone National Park: Wolf Reintroduction
+
+<div class="table-wrap">
 
 | Feature            | Details                                                                                                                                                                                                                                                                                                                                         |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1977,7 +2175,11 @@ with other biology topics to test synthesis under exam conditions.
 | Social conflict    | Wolves occasionally preyed on livestock outside the park; conflict with ranchers                                                                                                                                                                                                                                                                |
 | Lesson             | Reintroducing a top predator had cascading effects throughout the ecosystem (trophic cascade)                                                                                                                                                                                                                                                   |
 
+</div>
+
 ### 38.2 Galapagos Islands: Conservation Challenges
+
+<div class="table-wrap">
 
 | Challenge             | Description                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------ |
@@ -1987,12 +2189,16 @@ with other biology topics to test synthesis under exam conditions.
 | Fishing               | Overfishing depletes marine food webs                                                      |
 | Conservation measures | Strict quarantine on islands; removal of invasive species; visitor limits; marine reserves |
 
+</div>
+
 ## 40. Molecular Ecology
 
 ### 40.1 Using DNA in Ecology
 
 Molecular techniques are increasingly used in ecology to answer questions that are difficult or
 impossible to address with traditional field methods alone.
+
+<div class="table-wrap">
 
 | Technique                    | Application                                                                                    | Example                                                                          |
 | ---------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -2002,7 +2208,11 @@ impossible to address with traditional field methods alone.
 | Mitochondrial DNA sequencing | Tracing maternal lineages and historical population sizes                                      | Reconstructing human migration routes out of Africa                              |
 | Genome-wide SNP analysis     | Identifying genes under selection in wild populations                                          | Detecting genes for pesticide resistance in mosquito populations                 |
 
+</div>
+
 ### 40.2 eDNA Methodology
+
+<div class="table-wrap">
 
 | Step                 | Description                                                                                   |
 | -------------------- | --------------------------------------------------------------------------------------------- |
@@ -2012,9 +2222,13 @@ impossible to address with traditional field methods alone.
 | 4. Sequencing        | Sequence the PCR products (Sanger for known species; NGS metabarcoding for whole communities) |
 | 5. Bioinformatics    | Compare sequences to reference databases (e.g., GenBank, BOLD) to identify species present    |
 
+</div>
+
 ## 41. Carbon Cycle
 
 ### 41.1 Key Processes
+
+<div class="table-wrap">
 
 | Process           | Description                                                                                              | Carbon Flux                                             |
 | ----------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -2026,7 +2240,11 @@ impossible to address with traditional field methods alone.
 | Ocean absorption  | $\mathrm{CO_2}$ dissolves in ocean water; marine organisms use it for photosynthesis and shell formation | Atmosphere $\to$ ocean (carbon sink)                    |
 | Volcanic activity | Volcanoes release $\mathrm{CO_2}$ from subducted carbonate rocks                                         | Geological carbon $\to$ atmosphere                      |
 
+</div>
+
 ### 41.2 Human Impact on the Carbon Cycle
+
+<div class="table-wrap">
 
 | Impact                 | Description                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -2034,9 +2252,13 @@ impossible to address with traditional field methods alone.
 | Fossil fuel combustion | Releases carbon that has been locked away for millions of years; major driver of increased atmospheric $\mathrm{CO_2}$          |
 | Ocean acidification    | Increased $\mathrm{CO_2}$ dissolves in oceans $\to$ forms carbonic acid $\to$ lowers pH $\to$ damages coral reefs and shellfish |
 
+</div>
+
 ## 42. Primary and Secondary Succession
 
 ### 42.1 Primary Succession
+
+<div class="table-wrap">
 
 | Stage                | Description                                                                                                                                                                |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2046,7 +2268,11 @@ impossible to address with traditional field methods alone.
 | Intermediate species | Grasses, herbs, and small shrubs replace the pioneer species; soil deepens and becomes more nutrient-rich                                                                  |
 | Climax community     | Trees dominate; the community is stable and self-sustaining; the species composition does not change significantly over time (in the UK climate, this is oak/ash woodland) |
 
+</div>
+
 ### 42.2 Secondary Succession
+
+<div class="table-wrap">
 
 | Feature        | Description                                                                                                       |
 | -------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -2056,13 +2282,19 @@ impossible to address with traditional field methods alone.
 | Speed          | Faster than primary succession (soil and seeds are already present)                                               |
 | Stages         | Herbaceous plants $\to$ shrubs $\to$ fast-growing trees (e.g., birch) $\to$ slow-growing climax trees (e.g., oak) |
 
+</div>
+
 ### 42.3 Deflected Succession
+
+<div class="table-wrap">
 
 | Feature        | Description                                                                                                                                                |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | What it is     | Succession is prevented from reaching the natural climax community by human activity or other factors                                                      |
 | Example        | Regular mowing of grassland prevents the growth of shrubs and trees; the grassland is a plagioclimax (a stable community maintained by human intervention) |
 | Other examples | Grazing by sheep on hillsides; burning of heather moorland; rice paddy fields                                                                              |
+
+</div>
 
 ---
 

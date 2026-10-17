@@ -110,11 +110,15 @@ cysteine residues at allosteric sites.
 
 ### Summary of Inhibition Effects
 
+<div class="table-wrap">
+
 | Parameter  | Competitive      | Non-competitive  | Uncompetitive  | Mixed                  |
 | ---------- | ---------------- | ---------------- | -------------- | ---------------------- |
 | $V_{\max}$ | Unchanged        | Decreases        | Decreases      | Decreases              |
 | $K_m$      | Increases        | Unchanged        | Decreases      | Increases or decreases |
 | LB plot    | Intersect y-axis | Intersect x-axis | Parallel lines | Intersect 2nd quadrant |
+
+</div>
 
 ---
 
@@ -156,6 +160,8 @@ $$
 
 ### ATP Yields from Glucose
 
+<div class="table-wrap">
+
 | Stage of respiration      | Net ATP (approximate)      | Net reduced coenzymes                                                       |
 | ------------------------- | -------------------------- | --------------------------------------------------------------------------- |
 | Glycolysis                | 2 ATP (substrate-level)    | 2 NADH (cytoplasm)                                                          |
@@ -163,6 +169,8 @@ $$
 | Krebs cycle               | 2 ATP (GTP)                | 6 NADH + 2 $\mathrm{FADH}_2$ (mitochondrial matrix)                         |
 | Oxidative phosphorylation | ---                        | NADH $\to \approx 2.5$ ATP each; $\mathrm{FADH}_2 \to \approx 1.5$ ATP each |
 | **Total (per glucose)**   | **$\approx 30$--$32$ ATP** | **10 NADH + 2 $\mathrm{FADH}_2$**                                           |
+
+</div>
 
 Note: older textbooks cite $36$--$38$ ATP, based on the P/O ratio of $3$ for NADH and $2$ for
 $\mathrm{FADH}_2$. Current evidence suggests the shuttle system for cytoplasmic NADH
@@ -225,11 +233,15 @@ For each G3P (multiply by 2 for the full glucose molecule):
 
 ### Regulation of Glycolysis
 
+<div class="table-wrap">
+
 | Enzyme                        | Allosteric activator                        | Allosteric inhibitor                     | Hormonal regulation                                   |
 | ----------------------------- | ------------------------------------------- | ---------------------------------------- | ----------------------------------------------------- |
 | **Hexokinase**                | ---                                         | Glucose-6-phosphate (product inhibition) | ---                                                   |
 | **Phosphofructokinase (PFK)** | AMP, ADP, $\mathrm{F}_{2,6}\mathrm{BP}$     | ATP, citrate, low pH                     | Insulin activates (via $\mathrm{F}_{2,6}\mathrm{BP}$) |
 | **Pyruvate kinase**           | $\mathrm{F}_{1,6}\mathrm{BP}$ (feedforward) | ATP, alanine, acetyl-CoA                 | Glucagon inhibits (phosphorylation in liver)          |
+
+</div>
 
 ---
 
@@ -311,12 +323,16 @@ glucose: 2 turns).
 Located in the **inner mitochondrial membrane**. NADH and $\mathrm{FADH}_2$ donate electrons to a
 Series of protein complexes and mobile carriers:
 
+<div class="table-wrap">
+
 | Complex | Component                 | Electron donor              | Electron acceptor                             | Protons pumped ($\mathrm{H}^+$) |
 | ------- | ------------------------- | --------------------------- | --------------------------------------------- | ------------------------------- |
 | **I**   | NADH dehydrogenase        | NADH                        | Ubiquinone (Q)                                | 4                               |
 | **II**  | Succinate dehydrogenase   | $\mathrm{FADH}_2$           | Ubiquinone (Q)                                | 0                               |
 | **III** | Cytochrome $bc_1$ complex | Ubiquinol ($\mathrm{QH}_2$) | Cytochrome c                                  | 4                               |
 | **IV**  | Cytochrome c oxidase      | Cytochrome c                | $\mathrm{O}_2$ ($\to \mathrm{H}_2\mathrm{O}$) | 2                               |
+
+</div>
 
 **Electron flow**: NADH $\to$ Complex I $\to$ Q $\to$ Complex III $\to$ Cyt c $\to$ Complex IV $\to$
 $\mathrm{O}_2$.
@@ -355,12 +371,18 @@ ATP. Approximately $3$--$4$ protons are required per ATP synthesised.
 
 ### P/O Ratios
 
+<div class="table-wrap">
+
 | Donor             | Protons pumped to IMS | Protons for ATP synthesis | Approximate ATP yield |
 | ----------------- | --------------------- | ------------------------- | --------------------- |
 | NADH              | 10                    | $\approx 3$--$4$ per ATP  | $\approx 2.5$ ATP     |
 | $\mathrm{FADH}_2$ | 6                     | $\approx 3$--$4$ per ATP  | $\approx 1.5$ ATP     |
 
+</div>
+
 ### Uncouplers and Inhibitors
+
+<div class="table-wrap">
 
 | Substance                     | Effect                                                                                         | Example                                           |
 | ----------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -369,6 +391,8 @@ ATP. Approximately $3$--$4$ protons are required per ATP synthesised.
 | **Oligomycin**                | Blocks the proton channel in ATP synthase ($\mathrm{F}_0$)                                     | ETC runs but no ATP synthesis; PMF builds up      |
 | **DNP (2,4-dinitrophenol)**   | Lipid-soluble uncoupler; carries $\mathrm{H}^+$ across the inner membrane, dissipating the PMF | ETC runs at maximum rate; energy released as heat |
 | **Rotenone**                  | Inhibits Complex I                                                                             | Blocks electron flow from NADH                    |
+
+</div>
 
 ### Oxygen as the Final Electron Acceptor
 
@@ -500,12 +524,16 @@ $6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{glucose} + 18\ma
 
 The rate of photosynthesis is affected by:
 
+<div class="table-wrap">
+
 | Factor                            | Effect                                                                                                                                          | Graph shape                                        |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | **Light intensity**               | Rate increases linearly at low intensity (light is limiting). At high intensity, rate plateaus (another factor becomes limiting).               | Rectangular hyperbola, levelling off               |
 | **$\mathrm{CO}_2$ concentration** | Rate increases with $\mathrm{CO}_2$ up to a plateau (Rubisco saturation).                                                                       | Similar to light intensity curve                   |
 | **Temperature**                   | Rate increases up to an optimum ($\approx 25$--$30^\circ\mathrm{C}$ for $\mathrm{C_3}$ plants); above this, Rubisco and other enzymes denature. | Bell-shaped curve; declines at high temperatures   |
 | **Water**                         | Severe water stress closes stomata, limiting $\mathrm{CO}_2$ uptake.                                                                            | Rate drops sharply as water availability decreases |
+
+</div>
 
 **$\mathrm{C_4}$ and CAM adaptations**: in hot, dry conditions, $\mathrm{C_3}$ plants lose water
 through open stomata and suffer from photorespiration. $\mathrm{C_4}$ plants (maize, sugarcane) use
@@ -562,12 +590,16 @@ $$
 
 Some prokaryotes use electron acceptors other than $\mathrm{O}_2$ in the ETC:
 
+<div class="table-wrap">
+
 | Final electron acceptor          | Product                                                      | Example organism                            |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | $\mathrm{NO}_3^-$ (nitrate)      | $\mathrm{N}_2$ or $\mathrm{N}_2\mathrm{O}$ (denitrification) | _Pseudomonas denitrificans_ (soil bacteria) |
 | $\mathrm{SO}_4^{2-}$ (sulfate)   | $\mathrm{H}_2\mathrm{S}$ (hydrogen sulfide)                  | _Desulfovibrio_ (sulfate-reducing bacteria) |
 | $\mathrm{CO}_3^{2-}$ (carbonate) | $\mathrm{CH}_4$ (methane)                                    | Methanogens (archaea)                       |
 | $\mathrm{Fe}^{3+}$ (iron)        | $\mathrm{Fe}^{2+}$                                           | Geobacter (iron-reducing bacteria)          |
+
+</div>
 
 Anaerobic respiration produces more ATP than fermentation (the ETC still operates) but less than
 Aerobic respiration (alternative acceptors have lower reduction potentials than $\mathrm{O}_2$).
@@ -600,12 +632,16 @@ regulation**:
 
 ### Integration of Metabolic Pathways
 
+<div class="table-wrap">
+
 | Intermediate     | Source pathways                                      | Destination pathways                                                                   |
 | ---------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | **Pyruvate**     | Glycolysis                                           | Krebs cycle (aerobic); fermentation (anaerobic); gluconeogenesis; fatty acid synthesis |
 | **Acetyl-CoA**   | Pyruvate oxidation; $\beta$-oxidation of fatty acids | Krebs cycle; fatty acid synthesis; ketone body synthesis                               |
 | **G3P**          | Calvin cycle (plants)                                | Glucose synthesis; glycolysis (reverse)                                                |
 | **Oxaloacetate** | Krebs cycle; gluconeogenesis                         | Krebs cycle; gluconeogenesis; amino acid synthesis (aspartate)                         |
+
+</div>
 
 ---
 
@@ -752,6 +788,8 @@ $6 \times 22.4 = 134.4\;\mathrm{L}$.
 An experiment measures enzyme activity at varying substrate concentrations with and without an
 Unknown inhibitor. The results are:
 
+<div class="table-wrap">
+
 | $[S]$ (mM) | Velocity without inhibitor ($\mathrm{\mu mol/min}$) | Velocity with inhibitor ($\mathrm{\mu mol/min}$) |
 | ---------- | --------------------------------------------------- | ------------------------------------------------ |
 | 2          | 12                                                  | 7.5                                              |
@@ -759,6 +797,8 @@ Unknown inhibitor. The results are:
 | 10         | 32                                                  | 28.6                                             |
 | 20         | 39                                                  | 37.0                                             |
 | 50         | 44                                                  | 43.2                                             |
+
+</div>
 
 Identify the type of inhibition and justify your answer.
 
@@ -937,6 +977,8 @@ $\approx 10\times$ atmospheric, the carboxylation:oxygenation ratio improves dra
 The following data show the initial velocity of an enzyme-catalysed reaction at different substrate
 Concentrations, with and without an unknown inhibitor:
 
+<div class="table-wrap">
+
 | $[S]$ (mM) | Velocity, no inhibitor | Velocity + 5 mM inhibitor |
 | ---------- | ---------------------- | ------------------------- |
 | 1          | 5.0                    | 2.8                       |
@@ -945,6 +987,8 @@ Concentrations, with and without an unknown inhibitor:
 | 10         | 18.2                   | 14.3                      |
 | 20         | 20.8                   | 17.2                      |
 | 50         | 22.7                   | 20.8                      |
+
+</div>
 
 (a) Plot a Lineweaver-Burk graph and determine $V_{\max}$ and $K_m$ with and without the inhibitor.
 (b) Identify the type of inhibition. (c) Calculate the inhibitor constant $K_i$.
@@ -991,6 +1035,8 @@ Extremely dangerous.
 The following data show the rate of photosynthesis of a green alga at different wavelengths of
 light:
 
+<div class="table-wrap">
+
 | Wavelength (nm) | Rate of photosynthesis (arbitrary units) |
 | --------------- | ---------------------------------------- |
 | 400             | 65                                       |
@@ -1006,6 +1052,8 @@ light:
 | 650             | 80                                       |
 | 675             | 72                                       |
 | 700             | 30                                       |
+
+</div>
 
 (a) Plot the action spectrum. (b) Superimpose the expected absorption spectra of chlorophyll a,
 Chlorophyll b, and carotenoids. (c) Explain why the action spectrum has two peaks and why the Green
@@ -1421,6 +1469,8 @@ and the $\mathrm{CO}_2$ enters the Calvin cycle.
 The following data show the percentage saturation of haemoglobin at different $\mathrm{pO}_2$ values
 under normal conditions and in the presence of 2,3-BPG:
 
+<div class="table-wrap">
+
 | $\mathrm{pO}_2$ (kPa) | Normal saturation (%) | + 2,3-BPG (%) |
 | --------------------- | --------------------- | ------------- |
 | 1.0                   | 5                     | 2             |
@@ -1430,6 +1480,8 @@ under normal conditions and in the presence of 2,3-BPG:
 | 8.0                   | 85                    | 72            |
 | 10.0                  | 92                    | 82            |
 | 13.3                  | 97                    | 92            |
+
+</div>
 
 (a) Sketch both curves on the same axes. (b) At a $\mathrm{pO}_2$ of $5.0\;\mathrm{kPa}$ (typical Of
 active muscle tissue), how much more $\mathrm{O}_2$ is unloaded in the presence of 2,3-BPG compared

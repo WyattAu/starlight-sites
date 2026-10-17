@@ -195,6 +195,8 @@ Deducing `Self` as the type of `s` (with cv-qualifiers). The call `s.f(args)` is
 
 ## 5.3 CRTP vs Deducing This: Comparison
 
+<div class="table-wrap">
+
 | Aspect                       | CRTP                                              | Deducing This (C++23)                        |
 | ---------------------------- | ------------------------------------------------- | -------------------------------------------- |
 | **Syntax**                   | `class Derived : Base&lt;Derived&gt;`             | `void f(this const auto& self)`              |
@@ -207,6 +209,8 @@ Deducing `Self` as the type of `s` (with cv-qualifiers). The call `s.f(args)` is
 | **Heterogeneous containers** | No (each `Base&lt;D&gt;` is a distinct type)      | No (each `Self` is a distinct type)          |
 | **Can be virtual**           | No (the base is a template)                       | No (template parameter deduction is static)  |
 | **`this` pointer access**    | Yes (standard member function)                    | No (use `self` parameter instead)            |
+
+</div>
 
 ## 5.4 Value Category Preservation
 
@@ -251,12 +255,16 @@ Distinguish between lvalue and rvalue receivers.
 
 The deduction follows standard reference collapsing rules [N4950 S9.3.2.6]:
 
+<div class="table-wrap">
+
 | `Self` deduced as | `Self&&` collapses to | Value category |
 | ----------------- | --------------------- | -------------- |
 | `Counter&`        | `Counter&`            | lvalue         |
 | `Counter`         | `Counter&&`           | rvalue         |
 | `const Counter&`  | `const Counter&`      | const lvalue   |
 | `const Counter`   | `const Counter&&`     | const rvalue   |
+
+</div>
 
 ## 5.5 Deducing This for a Fluent API Builder
 
@@ -472,6 +480,8 @@ struct Renderable {
 
 ## 5.8 Summary: Runtime vs. Compile-Time Polymorphism
 
+<div class="table-wrap">
+
 | Criterion             | Virtual Functions (Runtime)           | CRTP / Deducing This (Compile-Time)        |
 | --------------------- | ------------------------------------- | ------------------------------------------ |
 | Dispatch mechanism    | vtable lookup at runtime              | Direct call or inlined at compile time     |
@@ -482,6 +492,8 @@ struct Renderable {
 | Flexibility           | Open for extension at any point       | Closed: types must be known at base def.   |
 | Extensibility         | Add new derived types without changes | Adding types may require base modification |
 | Debugging             | Can inspect dynamic type via RTTI     | No runtime type info needed                |
+
+</div>
 
 ## 5.9 Overload Resolution with Deducing This
 

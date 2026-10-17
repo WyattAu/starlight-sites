@@ -43,6 +43,8 @@ systems. It consists of distinct phases, each with specific activities and deliv
 
 ### Phases of the SDLC
 
+<div class="table-wrap">
+
 | Phase              | Purpose                                                  | Key Deliverables                              |
 | ------------------ | -------------------------------------------------------- | --------------------------------------------- |
 | **Analysis**       | Understand the problem and identify requirements         | Requirements specification, feasibility study |
@@ -52,6 +54,8 @@ systems. It consists of distinct phases, each with specific activities and deliv
 | **Documentation**  | Produce user and technical documentation                 | User manual, technical guide, help files      |
 | **Evaluation**     | Assess whether the system meets its objectives           | Evaluation report                             |
 | **Maintenance**    | Keep the system running and up to date after deployment  | Updates, patches, enhancements                |
+
+</div>
 
 ---
 
@@ -74,6 +78,8 @@ be built.
 
 ### Activities
 
+<div class="table-wrap">
+
 | Activity                       | Description                                                     |
 | ------------------------------ | --------------------------------------------------------------- |
 | **Problem identification**     | Define the current problem and specifically                     |
@@ -82,7 +88,11 @@ be built.
 | **Feasibility study**          | Assess whether the project is viable and worthwhile             |
 | **Requirements specification** | Produce a formal document listing all requirements              |
 
+</div>
+
 ### Fact-Finding Methods
+
+<div class="table-wrap">
 
 | Method                | Description                                             | Advantages                           | Disadvantages                            |
 | --------------------- | ------------------------------------------------------- | ------------------------------------ | ---------------------------------------- |
@@ -92,7 +102,11 @@ be built.
 | **Document analysis** | Examine existing documents, forms, reports, manuals     | Provides existing data source        | May be outdated or incomplete            |
 | **Sampling**          | Examine a representative subset of data                 | Efficient for large datasets         | Sample may not be representative         |
 
+</div>
+
 ### Types of Requirements
+
+<div class="table-wrap">
 
 | Type                     | Description                                   | Example                                      |
 | ------------------------ | --------------------------------------------- | -------------------------------------------- |
@@ -103,10 +117,14 @@ be built.
 | **Storage requirements** | Data that must be stored and retained         | "Store 5 years of attendance records"        |
 | **Performance**          | Speed, throughput, response time requirements | "Handle 100 concurrent users"                |
 
+</div>
+
 ### Feasibility Study
 
 A feasibility study evaluates whether a project is worth pursuing. It examines multiple dimensions
 of feasibility.
+
+<div class="table-wrap">
 
 | Feasibility Type | Description                                                      | Key Questions                                           |
 | ---------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
@@ -115,6 +133,8 @@ of feasibility.
 | **Operational**  | Will the system be accepted and usable by the organisation?      | Will staff use it? Does it fit existing workflows?      |
 | **Schedule**     | Can the project be completed within the required timeframe?      | Do we have enough time? Are the deadlines realistic?    |
 | **Legal**        | Does the project comply with relevant laws and regulations?      | Data protection (PDPO), copyright, accessibility laws   |
+
+</div>
 
 <details>
 <summary>Worked Example: Feasibility Study for a School Library System</summary>
@@ -184,6 +204,8 @@ Specifications for hardware, software, data, and user interface.
 
 ### Design Activities
 
+<div class="table-wrap">
+
 | Activity                  | Description                                                        |
 | ------------------------- | ------------------------------------------------------------------ |
 | **Hardware design**       | Specify the required hardware (servers, workstations, network)     |
@@ -194,7 +216,11 @@ Specifications for hardware, software, data, and user interface.
 | **User interface design** | Design the interaction between users and the system                |
 | **Security design**       | Plan access controls, encryption, backup procedures                |
 
+</div>
+
 ### Design Tools and Techniques
+
+<div class="table-wrap">
 
 | Tool                            | Description                                                     | Used In         |
 | ------------------------------- | --------------------------------------------------------------- | --------------- |
@@ -206,9 +232,13 @@ Specifications for hardware, software, data, and user interface.
 | **Wireframe**                   | Sketch of the user interface layout                             | UI design       |
 | **Data dictionary**             | Detailed description of every data item in the system           | Data design     |
 
+</div>
+
 ### Data Flow Diagrams (DFD)
 
 DFDs show how data flows through a system. They use four symbols:
+
+<div class="table-wrap">
 
 | Symbol              | Meaning                                            |
 | ------------------- | -------------------------------------------------- |
@@ -217,13 +247,19 @@ DFDs show how data flows through a system. They use four symbols:
 | **Data store**      | A repository of data (open-ended rectangle)        |
 | **Data flow**       | Movement of data (arrow)                           |
 
+</div>
+
 **Levels of DFD:**
+
+<div class="table-wrap">
 
 | Level   | Name            | Description                                                        |
 | ------- | --------------- | ------------------------------------------------------------------ |
 | Level 0 | Context diagram | Shows the entire system as a single process with external entities |
 | Level 1 | Overview        | Major processes and data flows within the system                   |
 | Level 2 | Detailed        | Expanded view of individual Level 1 processes                      |
+
+</div>
 
 ---
 
@@ -245,12 +281,16 @@ Writing software, installing hardware, configuring the system, and migrating dat
 
 ### Implementation Methods
 
+<div class="table-wrap">
+
 | Method                    | Description                                                  | Advantage                        | Disadvantage                               |
 | ------------------------- | ------------------------------------------------------------ | -------------------------------- | ------------------------------------------ |
 | **Direct changeover**     | Old system is replaced by the new system on a single date    | Quick, low parallel running cost | High risk; no fallback                     |
 | **Parallel running**      | Both old and new systems run simultaneously for a period     | Safe; can compare results        | Expensive; double workload                 |
 | **Phased implementation** | System is introduced in stages, one module at a time         | Lower risk per phase             | Takes longer; temporary hybrid             |
 | **Pilot running**         | New system is trialled with one department or location first | Risk limited to pilot group      | Pilot may not represent whole organisation |
+
+</div>
 
 <details>
 <summary>Worked Example: Choosing an Implementation Method</summary>
@@ -272,6 +312,8 @@ Reasoning:
 
 **Rollout plan:**
 
+<div class="table-wrap">
+
 | Phase | Department  | Duration | Notes                                |
 | ----- | ----------- | -------- | ------------------------------------ |
 | 1     | Outpatients | 2 months | Pilot; intensive monitoring          |
@@ -279,11 +321,15 @@ Reasoning:
 | 3     | Pharmacy    | 1 month  | Integration with prescription system |
 | 4     | Surgery     | 1 month  | Final department                     |
 
+</div>
+
 </details>
 
 ### Data Migration
 
 Moving data from the old system to the new system requires careful planning.
+
+<div class="table-wrap">
 
 | Step | Activity            | Purpose                                    |
 | ---- | ------------------- | ------------------------------------------ |
@@ -292,6 +338,8 @@ Moving data from the old system to the new system requires careful planning.
 | 3    | Data transformation | Convert to the new system"s format         |
 | 4    | Data loading        | Import into the new system                 |
 | 5    | Data verification   | Compare old and new data for consistency   |
+
+</div>
 
 ---
 
@@ -312,6 +360,8 @@ Testing verifies that the system works correctly, meets requirements, and is fre
 
 ### Types of Testing
 
+<div class="table-wrap">
+
 | Test Type               | Description                                                   | When Performed            |
 | ----------------------- | ------------------------------------------------------------- | ------------------------- |
 | **Unit testing**        | Tests individual components (functions, modules) in isolation | During development        |
@@ -321,7 +371,11 @@ Testing verifies that the system works correctly, meets requirements, and is fre
 | **Alpha testing**       | Testing by the development team in a controlled environment   | Before beta testing       |
 | **Beta testing**        | Testing by real users in their normal environment             | Before final release      |
 
+</div>
+
 ### Test Data
+
+<div class="table-wrap">
 
 | Data Type     | Description                                | Purpose                         |
 | ------------- | ------------------------------------------ | ------------------------------- |
@@ -331,10 +385,14 @@ Testing verifies that the system works correctly, meets requirements, and is fre
 | **Extreme**   | Very large or very small values            | Stress test the system          |
 | **Absent**    | Missing or null values                     | Verify handling of missing data |
 
+</div>
+
 <details>
 <summary>Worked Example: Test Plan for a Score Entry System</summary>
 
 A system accepts student scores (0--100) and calculates grades.
+
+<div class="table-wrap">
 
 | Test Case ID | Input   | Expected Output | Test Type | Purpose         |
 | ------------ | ------- | --------------- | --------- | --------------- |
@@ -348,6 +406,8 @@ A system accepts student scores (0--100) and calculates grades.
 | TC-08        | (empty) | Error message   | Absent    | Missing input   |
 | TC-09        | 79      | Grade: B        | Boundary  | Just below A    |
 | TC-10        | 80      | Grade: A        | Boundary  | Threshold for A |
+
+</div>
 
 </details>
 
@@ -366,6 +426,8 @@ A system accepts student scores (0--100) and calculates grades.
 
 ### Types of Documentation
 
+<div class="table-wrap">
+
 | Document Type            | Audience         | Description                                                       |
 | ------------------------ | ---------------- | ----------------------------------------------------------------- |
 | **User manual**          | End users        | How to use the system (step-by-step instructions, screenshots)    |
@@ -375,7 +437,11 @@ A system accepts student scores (0--100) and calculates grades.
 | **Operator guide**       | System operators | Day-to-day operation procedures, backup and recovery instructions |
 | **Help files**           | End users        | Context-sensitive help, FAQs, troubleshooting                     |
 
+</div>
+
 ### What Makes Good Documentation
+
+<div class="table-wrap">
 
 | Characteristic         | Description                                        |
 | ---------------------- | -------------------------------------------------- |
@@ -385,6 +451,8 @@ A system accepts student scores (0--100) and calculates grades.
 | **Illustrated**        | Includes screenshots, diagrams, and examples       |
 | **Accessible**         | Available in multiple formats (print, online, PDF) |
 | **Version-controlled** | Tracks changes between versions                    |
+
+</div>
 
 ---
 
@@ -406,6 +474,8 @@ Improvement.
 
 ### Evaluation Criteria
 
+<div class="table-wrap">
+
 | Criterion              | Description                                    | Measurement Method                         |
 | ---------------------- | ---------------------------------------------- | ------------------------------------------ |
 | **Functionality**      | Does the system do what it was designed to do? | Testing against requirements specification |
@@ -415,6 +485,8 @@ Improvement.
 | **Security**           | Does the system protect data adequately?       | Security audit, penetration testing        |
 | **Cost-effectiveness** | Do the benefits justify the costs?             | Cost-benefit analysis                      |
 | **User satisfaction**  | Are users happy with the system?               | Surveys, interviews, feedback forms        |
+
+</div>
 
 ### Post-Implementation Review
 
@@ -446,12 +518,16 @@ A formal review conducted after the system has been in use for a defined period 
 
 ### Types of Maintenance
 
+<div class="table-wrap">
+
 | Type           | Description                                               | Example                                   |
 | -------------- | --------------------------------------------------------- | ----------------------------------------- |
 | **Corrective** | Fixing bugs and errors discovered after deployment        | Fix a calculation error in payroll system |
 | **Adaptive**   | Modifying the system to work in a changed environment     | Update software for new operating system  |
 | **Perfective** | Improving the system's performance or adding new features | Add a reporting module requested by users |
 | **Preventive** | Performing maintenance to prevent future problems         | Update database indexes to maintain speed |
+
+</div>
 
 ### Maintenance Costs
 
@@ -492,6 +568,8 @@ Evaluation          |        |        |        |        |        | XXXX   |
 
 **Key elements of a Gantt chart:**
 
+<div class="table-wrap">
+
 | Element           | Description                                                                      |
 | ----------------- | -------------------------------------------------------------------------------- |
 | **Task list**     | All project tasks listed on the vertical axis                                    |
@@ -500,6 +578,8 @@ Evaluation          |        |        |        |        |        | XXXX   |
 | **Dependencies**  | Arrows showing which tasks depend on the completion of others                    |
 | **Milestones**    | Diamond markers indicating key dates or deliverables                             |
 | **Critical path** | The longest sequence of dependent tasks; determines the minimum project duration |
+
+</div>
 
 ### Critical Path Analysis
 
@@ -514,6 +594,8 @@ on The critical path delays the entire project.
 
 ### Project Management Tools
 
+<div class="table-wrap">
+
 | Tool            | Description                                                  | Use Case                  |
 | --------------- | ------------------------------------------------------------ | ------------------------- |
 | **Gantt chart** | Visual timeline of tasks                                     | Scheduling and monitoring |
@@ -521,7 +603,11 @@ on The critical path delays the entire project.
 | **CPM**         | Critical Path Method -- identifies the longest task sequence | Project duration planning |
 | **milestones** | Key dates or deliverables marked on the timeline             | Progress tracking         |
 
+</div>
+
 ### Stakeholder Engagement
+
+<div class="table-wrap">
 
 | Stakeholder          | Interest Level | Influence | Engagement Strategy                  |
 | -------------------- | -------------- | --------- | ------------------------------------ |
@@ -530,6 +616,8 @@ on The critical path delays the entire project.
 | **Management**       | Medium         | High      | Progress reports, milestone reviews  |
 | **IT department**    | High           | High      | Technical reviews, collaboration     |
 | **External vendors** | Medium         | Medium    | Contract management, SLAs            |
+
+</div>
 
 ---
 
@@ -551,6 +639,8 @@ managed To ensure successful adoption.
 
 ### Strategies for Managing Change
 
+<div class="table-wrap">
+
 | Strategy                    | Description                                                          |
 | --------------------------- | -------------------------------------------------------------------- |
 | **Communication**           | Keep all stakeholders informed about the change and its benefits     |
@@ -561,7 +651,11 @@ managed To ensure successful adoption.
 | **Feedback mechanism**      | Provide channels for users to report issues and suggest improvements |
 | **Management support**      | Visible support from senior management                               |
 
+</div>
+
 ### Reasons for Resistance to Change
+
+<div class="table-wrap">
 
 | Reason                    | Description                                                         |
 | ------------------------- | ------------------------------------------------------------------- |
@@ -571,6 +665,8 @@ managed To ensure successful adoption.
 | **Inadequate training**   | Users feel unprepared to use the new system                         |
 | **Poor past experiences** | Previous system changes were handled badly                          |
 | **Increased workload**    | The transition period requires extra effort from users              |
+
+</div>
 
 ---
 
@@ -718,6 +814,8 @@ Low if employees see the time savings. **Assessment: Feasible.**
 
 A project has the following tasks and dependencies:
 
+<div class="table-wrap">
+
 | Task             | Duration (weeks) | Dependencies |
 | ---------------- | ---------------- | ------------ |
 | A: Analysis      | 3                | None         |
@@ -727,6 +825,8 @@ A project has the following tasks and dependencies:
 | E: Documentation | 3                | C            |
 | F: Training      | 1                | D, E         |
 | G: Evaluation    | 2                | F            |
+
+</div>
 
 (a) Draw the Gantt chart (describe the schedule in text).
 
@@ -740,6 +840,8 @@ Answer:
 
 (a) Schedule (week numbers when tasks start):
 
+<div class="table-wrap">
+
 | Task             | Start | End | Weeks Active |
 | ---------------- | ----- | --- | ------------ |
 | A: Analysis      | 1     | 3   | 1, 2, 3      |
@@ -749,6 +851,8 @@ Answer:
 | E: Documentation | 14    | 16  | 14, 15, 16   |
 | F: Training      | 17    | 17  | 17           |
 | G: Evaluation    | 18    | 19  | 18, 19       |
+
+</div>
 
 (b) **Critical path: A --> B --> C --> D --> F --> G**
 

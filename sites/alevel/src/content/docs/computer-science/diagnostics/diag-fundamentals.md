@@ -138,12 +138,16 @@ Therefore: $F = AB + AC + BC$.
 **Karnaugh map verification** (minterms:
 $A\bar{B}C = m_5$$AB\bar{C} = m_6$$ABC = m_7$$\bar{A}BC = m_3$):
 
+<div class="table-wrap">
+
 | AB\C | 0   | 1   |
 | ---- | --- | --- |
 | 00   | 0   | 0   |
 | 01   | 0   | 1   |
 | 11   | 1   | 1   |
 | 10   | 1   | 1   |
+
+</div>
 
 Groups:
 
@@ -285,12 +289,16 @@ $3\ \text{ns}$.
 
 (a) Half-adder truth table:
 
+<div class="table-wrap">
+
 | A   | B   | S   | C   |
 | --- | --- | --- | --- |
 | 0   | 0   | 0   | 0   |
 | 0   | 1   | 1   | 0   |
 | 1   | 0   | 1   | 0   |
 | 1   | 1   | 0   | 1   |
+
+</div>
 
 $S = A \oplus B = A\bar{B} + \bar{A}B$ (XOR). $C = AB$ (AND).
 

@@ -31,6 +31,8 @@ Subsumption ordering.
 
 ### Core Language Concepts
 
+<div class="table-wrap">
+
 | Concept                            | Description                                         |
 | ---------------------------------- | --------------------------------------------------- |
 | `std::same_as<T, U>`               | `T` and `U` are the same type [§18.4.2]             |
@@ -39,7 +41,11 @@ Subsumption ordering.
 | `std::common_reference_with<T, U>` | `T` and `U` share a common reference type [§18.4.2] |
 | `std::common_with<T, U>`           | `T` and `U` share a common type [§18.4.2]           |
 
+</div>
+
 ### Comparison Concepts
+
+<div class="table-wrap">
 
 | Concept                        | Description                                      |
 | ------------------------------ | ------------------------------------------------ |
@@ -47,7 +53,11 @@ Subsumption ordering.
 | `std::totally_ordered<T>`      | `<` defines a total order on `T` [§18.4.5]       |
 | `std::three_way_comparable<T>` | `<=>` is defined for `T` (C++20) [§18.4.5]       |
 
+</div>
+
 ### Object Concepts
+
+<div class="table-wrap">
 
 | Concept               | Description                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------ |
@@ -56,7 +66,11 @@ Subsumption ordering.
 | `std::regular<T>`     | `T` is copyable, default-constructible, and equality-comparable [§18.4.6]                  |
 | `std::semiregular<T>` | `T` is copyable and default-constructible [§18.4.6]                                        |
 
+</div>
+
 ### Callable Concepts
+
+<div class="table-wrap">
 
 | Concept                      | Description                                                     |
 | ---------------------------- | --------------------------------------------------------------- |
@@ -64,7 +78,11 @@ Subsumption ordering.
 | `std::predicate<F, Args...>` | `F` invoked with `Args...` returns `bool`-convertible [§18.4.8] |
 | `std::relation<R, T, U>`     | `R` defines an equivalence relation on `T` and `U` [§18.4.8]    |
 
+</div>
+
 ### Type Categories
+
+<div class="table-wrap">
 
 | Concept                     | Description                                |
 | --------------------------- | ------------------------------------------ |
@@ -72,6 +90,8 @@ Subsumption ordering.
 | `std::signed_integral<T>`   | `T` is a signed integral type [§18.4.3]    |
 | `std::unsigned_integral<T>` | `T` is an unsigned integral type [§18.4.3] |
 | `std::floating_point<T>`    | `T` is a floating-point type [§18.4.3]     |
+
+</div>
 
 :::note
 Types that behave like built-in values: they can be copied, default-constructed, and compared for
@@ -170,6 +190,8 @@ $$
 \mathrm{input\_iterator \prec \mathrm{forward\_iterator \prec \mathrm{bidirectional\_iterator \prec \mathrm{random\_access\_iterator \prec \mathrm{contiguous\_iterator
 $$
 
+<div class="table-wrap">
+
 | Concept                       | Key Requirements                                                                 |
 | ----------------------------- | -------------------------------------------------------------------------------- |
 | `std::input_iterator`         | Can be dereferenced, pre/post-incremented, and compared to a sentinel [§18.4.4]  |
@@ -177,6 +199,8 @@ $$
 | `std::bidirectional_iterator` | Forward iterator + decrementable [§18.4.4]                                       |
 | `std::random_access_iterator` | Bidirectional iterator + constant-time advancement with `+``-``+=``-=` [§18.4.4] |
 | `std::contiguous_iterator`    | Random access iterator + elements are stored contiguously in memory [§18.4.4]    |
+
+</div>
 
 Additionally, `std::output_iterator` is a separate concept for write-only iterators.
 
@@ -219,10 +243,14 @@ input_iterator -> forward -> bidirectional -> random_access -> contiguous
 
 C++20 also provides sentinel concepts for range-based iteration:
 
+<div class="table-wrap">
+
 | Concept                         | Description                                               |
 | ------------------------------- | --------------------------------------------------------- |
 | `std::sentinel_for<S, I>`       | `S` is a sentinel for iterator `I` (comparable with `==`) |
 | `std::sized_sentinel_for<S, I>` | `S` supports subtraction with `I` to get a difference     |
+
+</div>
 
 ## Code Example: `std::totally_ordered` for Custom Types
 
@@ -289,11 +317,15 @@ Operator suite for `Version`Satisfying `std::totally_ordered`.
 
 The `<=>` operator returns one of three comparison category types [N4950 §18.4.5]:
 
+<div class="table-wrap">
+
 | Category                | Properties                                          | Example                 |
 | ----------------------- | --------------------------------------------------- | ----------------------- |
 | `std::strong_ordering`  | Substitutable (a == b implies f(a) == f(b))         | `int``std::string`      |
 | `std::weak_ordering`    | Equivalence but not substitutable                   | Case-insensitive string |
 | `std::partial_ordering` | Incomparable values possible (e.g., NaN with float) | `double`                |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -393,6 +425,8 @@ Concepts are defined in `<ranges>` [N4950 §26.2] and compose with the concepts 
 The `<ranges>` header provides concepts that operate on ranges (pairs of iterators and sentinels)
 Rather than individual iterators:
 
+<div class="table-wrap">
+
 | Concept                               | Description                                             |
 | ------------------------------------- | ------------------------------------------------------- |
 | `std::ranges::range<R>`               | `R` has `begin()` and `end()`                           |
@@ -404,6 +438,8 @@ Rather than individual iterators:
 | `std::ranges::sized_range<R>`         | Range where `size()` is O(1)                            |
 | `std::ranges::view<R>`                | Range that is a view (cheap to copy/move)               |
 | `std::ranges::borrowed_range<R>`      | Range whose iterators outlive the range object          |
+
+</div>
 
 ```cpp
 #include <iostream>

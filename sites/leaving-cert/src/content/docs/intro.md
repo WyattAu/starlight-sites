@@ -43,6 +43,8 @@ Each subject is offered at two levels:
 
 The grading scale is as follows:
 
+<div class="table-wrap">
+
 | Percentage | HL Grade | OL Grade |
 | ---------- | -------- | -------- |
 | 90 -- 100  | H1       | O1       |
@@ -53,6 +55,8 @@ The grading scale is as follows:
 | 40 -- 49   | H6       | O6       |
 | 30 -- 39   | H7       | O7       |
 | 0 -- 29    | H8       | O8       |
+
+</div>
 
 ### Core Subjects
 
@@ -88,6 +92,8 @@ For CAO (Central Applications Office) entry, Leaving Certificate results are con
 The highest six subjects are counted. Higher Level Mathematics attracts a bonus of 25 points for
 Grades H6 and above.
 
+<div class="table-wrap">
+
 | HL Grade | Points         |
 | -------- | -------------- |
 | H1       | 100            |
@@ -97,6 +103,10 @@ Grades H6 and above.
 | H5       | 56             |
 | H6       | 46 (+25 bonus) |
 
+</div>
+
+<div class="table-wrap">
+
 | OL Grade | Points |
 | -------- | ------ |
 | O1       | 56     |
@@ -105,6 +115,8 @@ Grades H6 and above.
 | O4       | 28     |
 | O5       | 20     |
 | O6       | 12     |
+
+</div>
 
 ## Using These Notes
 

@@ -156,12 +156,16 @@ For systems engineering roles, coding interviews focus on practical programming 
 
 The STAR method structures your answers:
 
+<div class="table-wrap">
+
 | Component     | Description           | Example                                                                                                     |
 | ------------- | --------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **S**ituation | Set the context       | "We were running a database with 500 GB of data on a single node."                                          |
 | **T**ask      | What you needed to do | "I was tasked with migrating to a sharded setup to handle 10x growth."                                      |
 | **A**ction    | What you did          | "I designed a consistent hashing scheme, implemented the sharding layer in Go, and ran a canary migration." |
 | **R**esult    | What happened         | "The migration completed in 2 weeks with zero downtime. Query latency improved by 60%."                     |
+
+</div>
 
 **Common behavioral questions:**
 
@@ -246,6 +250,8 @@ B.S. Computer Science, University (2019)
 
 ### Conferences and Meetups
 
+<div class="table-wrap">
+
 | Conference  | Focus                        | Location            |
 | ----------- | ---------------------------- | ------------------- |
 | KubeCon     | Cloud native, Kubernetes     | Rotating global     |
@@ -254,6 +260,8 @@ B.S. Computer Science, University (2019)
 | DevOps Days | DevOps culture and practices | Global, many cities |
 | Ceph Day    | Distributed storage          | Various             |
 | LinuxCon    | Linux kernel and ecosystem   | Rotating            |
+
+</div>
 
 ### Online Communities
 
@@ -299,6 +307,8 @@ B.S. Computer Science, University (2019)
 
 ### Compensation Structure
 
+<div class="table-wrap">
+
 | Component             | Negotiable | Typical Range                 |
 | --------------------- | ---------- | ----------------------------- |
 | Base salary           | Yes        | 70–80% of total compensation  |
@@ -307,6 +317,8 @@ B.S. Computer Science, University (2019)
 | Annual bonus          | Sometimes  | 5–20% of base                 |
 | Relocation            | Yes        | If applicable                 |
 | Title                 | Yes        | May affect future comp        |
+
+</div>
 
 ---
 
@@ -321,6 +333,8 @@ B.S. Computer Science, University (2019)
 
 ## Startups vs. Big Tech
 
+<div class="table-wrap">
+
 | Factor            | Startup                            | Big Tech                           |
 | ----------------- | ---------------------------------- | ---------------------------------- |
 | Scope             | Broad (wear many hats)             | Narrow (deep specialization)       |
@@ -330,6 +344,8 @@ B.S. Computer Science, University (2019)
 | Compensation      | Lower base, higher equity upside   | Higher base, predictable equity    |
 | Career growth     | Title inflation, but fewer mentors | Clear ladder, extensive mentorship |
 | Work-life balance | Often poor                         | Varies (some teams are good)       |
+
+</div>
 
 **Recommendation:** Start in big tech if possible to learn best practices, then move to a startup
 For broader experience, or vice versa. The ideal path depends on your risk tolerance, career goals,
@@ -376,6 +392,8 @@ And life stage.
 
 ### Certifications
 
+<div class="table-wrap">
+
 | Certification                                     | Provider                     | Focus                 | Difficulty | Industry Recognition |
 | ------------------------------------------------- | ---------------------------- | --------------------- | ---------- | -------------------- |
 | AWS Solutions Architect (Professional)            | Amazon                       | Cloud architecture    | High       | Very High            |
@@ -386,6 +404,8 @@ And life stage.
 | LPIC-2                                            | Linux Professional Institute | Linux engineering     | Moderate   | Moderate             |
 | CompTIA Security+                                 | CompTIA                      | Security fundamentals | Low        | Moderate             |
 | OCP (Oracle Certified Professional)               | Oracle                       | Oracle database       | High       | High                 |
+
+</div>
 
 Certifications are most valuable early in your career (they signal baseline knowledge to recruiters)
 Or when transitioning to a new domain. They are less valuable than demonstrated experience.
@@ -510,12 +530,16 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 
 ### SRE Daily Responsibilities
 
+<div class="table-wrap">
+
 | Activity    | Time Allocation | Description                                |
 | ----------- | --------------- | ------------------------------------------ |
 | On-call     | 20–30%          | Incident response, paging, post-mortems    |
 | Engineering | 40–50%          | Writing automation, improving reliability  |
 | Design      | 10–15%          | System architecture, capacity planning     |
 | Reviews     | 10–15%          | Code review, design review, runbook review |
+
+</div>
 
 ### SRE Skills Progression
 
@@ -573,6 +597,8 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 
 ### Platform Engineering vs. DevOps vs. SRE
 
+<div class="table-wrap">
+
 | Aspect   | DevOps                | SRE                | Platform Engineering                    |
 | -------- | --------------------- | ------------------ | --------------------------------------- |
 | Focus    | CI/CD pipelines       | Reliability        | Developer experience                    |
@@ -580,6 +606,8 @@ Rates, and shortens your career. Set boundaries, take vacations, and invest in y
 | Output   | Deployment automation | SLOs, monitoring   | Internal developer platform             |
 | Metric   | Deployment frequency  | Error budget, MTTR | Developer satisfaction, deployment time |
 | Scope    | Single application    | All services       | All developers                          |
+
+</div>
 
 ### Platform Engineering Skills
 
@@ -634,6 +662,8 @@ The maintenance window."
 
 ### Researching Market Rates
 
+<div class="table-wrap">
+
 | Source           | URL           | Accuracy                           |
 | ---------------- | ------------- | ---------------------------------- |
 | Levels.fyi       | levels.fyi    | High (self-reported, verified)     |
@@ -641,6 +671,8 @@ The maintenance window."
 | Blind            | teamblind.com | High (verified employees)          |
 | BuiltIn          | builtin.com   | Medium                             |
 | Industry surveys | Various       | Medium                             |
+
+</div>
 
 ### Negotiation Tactics
 
@@ -654,12 +686,16 @@ The maintenance window."
 
 ### Equity Evaluation
 
+<div class="table-wrap">
+
 | Component                     | How to Evaluate                  | Risk                            |
 | ----------------------------- | -------------------------------- | ------------------------------- |
 | RSUs (Restricted Stock Units) | Number of shares x current price | Price can go down               |
 | Stock options                 | Strike price vs. Exercise price  | May never be in the money       |
 | Vesting schedule              | 4-year cliff vs. Graded vesting  | Company may not survive 4 years |
 | Liquidity                     | Public vs. Private company       | Private equity is illiquid      |
+
+</div>
 
 ## Continuous Learning Paths
 
@@ -734,6 +770,8 @@ Before making the transition:
 
 ### Startup to Big Tech
 
+<div class="table-wrap">
+
 | Factor               | Startup                | Big Tech            |
 | -------------------- | ---------------------- | ------------------- |
 | Role breadth         | Very broad             | Narrow              |
@@ -743,6 +781,8 @@ Before making the transition:
 | Learning             | Fast, breadth-heavy    | Slow, depth-focused |
 | Brand recognition    | Low                    | High                |
 | Resume value         | Project-based          | Company-based       |
+
+</div>
 
 ### Remote Work Best Practices
 
@@ -780,6 +820,8 @@ it is the right career path and prepare accordingly.
 
 ### A Typical SRE Day
 
+<div class="table-wrap">
+
 | Time Block            | Activity                                                   | Percentage of Day |
 | --------------------- | ---------------------------------------------------------- | ----------------- |
 | Morning (1-2h)        | Incident review, triage overnight alerts, check dashboards | 15%               |
@@ -788,7 +830,11 @@ it is the right career path and prepare accordingly.
 | Late afternoon (1-2h) | On-call preparation, runbook updates, documentation        | 15%               |
 | Ad-hoc (variable)     | Incident response, debugging production issues             | 20%               |
 
+</div>
+
 ### SRE vs DevOps vs Platform Engineering
+
+<div class="table-wrap">
 
 | Dimension    | SRE                               | DevOps                           | Platform Engineering               |
 | ------------ | --------------------------------- | -------------------------------- | ---------------------------------- |
@@ -798,6 +844,8 @@ it is the right career path and prepare accordingly.
 | On-call      | Yes, primary responsibility       | Shared with dev teams            | Rarely (focus on building)         |
 | Key skills   | Capacity planning, postmortems    | Automation, monitoring           | API design, developer portals      |
 | Career path  | Senior SRE, Staff SRE, Principal  | DevOps Engineer, Lead            | Platform Engineer, Architect       |
+
+</div>
 
 ### Key SRE Skills to Develop
 
@@ -826,6 +874,8 @@ graph LR
 
 ### Competency Matrix
 
+<div class="table-wrap">
+
 | Competency      | Junior                       | Mid                                  | Senior                                | Staff                                   |
 | --------------- | ---------------------------- | ------------------------------------ | ------------------------------------- | --------------------------------------- |
 | Technical scope | Single component             | Multiple components                  | System-wide                           | Organization-wide                       |
@@ -833,6 +883,8 @@ graph LR
 | Communication   | Updates status when asked    | Proactively communicates blockers    | Drives cross-team alignment           | Influences org-wide technical direction |
 | Mentorship      | Receives mentorship          | Mentors juniors on technical tasks   | Mentors mid-level engineers on career | Mentors senior engineers and leads      |
 | Decision making | Follows established patterns | Evaluates options within known space | Makes architectural decisions         | Makes strategic technology bets         |
+
+</div>
 
 ### Demonstrating Seniority Without Title
 
@@ -935,6 +987,8 @@ Structured learning paths.
 
 ### Linux and Infrastructure
 
+<div class="table-wrap">
+
 | Certification | Issuer                       | Difficulty   | Value                  |
 | ------------- | ---------------------------- | ------------ | ---------------------- |
 | LPIC-1        | Linux Professional Institute | Beginner     | Foundation             |
@@ -946,7 +1000,11 @@ Structured learning paths.
 | CKAD          | CNCF/Kubernetes              | Intermediate | Kubernetes developer   |
 | CKS           | CNCF/Kubernetes              | Advanced     | Kubernetes security    |
 
+</div>
+
 ### Cloud
+
+<div class="table-wrap">
 
 | Certification                     | Issuer    | Difficulty   | Value                  |
 | --------------------------------- | --------- | ------------ | ---------------------- |
@@ -955,6 +1013,8 @@ Structured learning paths.
 | GCP Cloud Engineer                | Google    | Intermediate | GCP roles              |
 | Azure Administrator               | Microsoft | Intermediate | Enterprise/Azure roles |
 | Terraform Associate               | HashiCorp | Intermediate | IaC roles              |
+
+</div>
 
 ### Study Approach
 

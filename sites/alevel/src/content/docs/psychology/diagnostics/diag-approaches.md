@@ -116,6 +116,8 @@ sidebar_position: 40
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Answer | Topic                  |
 | :------: | :----: | :--------------------- |
 |    1     |  (B)   | Behaviourist Approach  |
@@ -128,6 +130,8 @@ sidebar_position: 40
 |    8     |  (B)   | Evaluation of Behaviourism |
 |    9     |  (B)   | Humanistic Approach    |
 |    10    |  (C)   | Cognitive Approach     |
+
+</div>
 
 ---
 

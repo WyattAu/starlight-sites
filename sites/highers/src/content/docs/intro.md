@@ -60,6 +60,8 @@ Highers. They are broadly comparable to first-year university level work.
 
 These notes cover five key subjects at both Higher and Advanced Higher levels:
 
+<div class="table-wrap">
+
 | Subject          | Higher Focus                                         | Advanced Higher Focus                                      |
 | ---------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
 | Mathematics      | Algebra, calculus, trigonometry, vectors             | Further calculus, differential equations, Maclaurin series |
@@ -67,6 +69,8 @@ These notes cover five key subjects at both Higher and Advanced Higher levels:
 | Chemistry        | Bonding, organic chemistry, acids/bases              | Analytical methods, equilibrium, kinetics                  |
 | Biology          | Cell biology, multicellular organisms, life on Earth | Genetics, metabolism, biotechnology                        |
 | Computer Science | Software design, databases, web design               | Algorithms, data structures, functional programming        |
+
+</div>
 
 ## Assessment
 

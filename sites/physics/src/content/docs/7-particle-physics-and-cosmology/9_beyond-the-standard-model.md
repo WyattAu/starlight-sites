@@ -161,6 +161,8 @@ No approach has been experimentally verified or gained universal acceptance.
 
 Several experiments are probing physics beyond the Standard Model:
 
+<div class="table-wrap">
+
 | Experiment               | Facility           | Goal                                    |
 | ------------------------ | ------------------ | --------------------------------------- |
 | ATLAS/CMS                | LHC (CERN)         | Direct production of BSM particles      |
@@ -172,6 +174,8 @@ Several experiments are probing physics beyond the Standard Model:
 | CMB-S4                   | Atacama/South Pole | CMB $B$-mode polarisation               |
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
+
+</div>
 
 ## Intuition
 
@@ -202,5 +206,5 @@ String theory is one approach to quantum gravity, but there are other approaches
 - **[Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

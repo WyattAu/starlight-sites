@@ -78,12 +78,16 @@ flowchart TD
 
 The algorithm works **file by file, hunk by hunk**:
 
+<div class="table-wrap">
+
 | Base | Ours | Theirs | Result       | Explanation                                           |
 | ---- | ---- | ------ | ------------ | ----------------------------------------------------- |
 | `x`  | `x`  | `x`    | `x`          | No change, keep as-is                                |
 | `x`  | `y`  | `x`    | `y`          | Only we changed, take ours                           |
 | `x`  | `x`  | `y`    | `y`          | Only they changed, take theirs                       |
 | `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
+
+</div>
 
 The critical case is the last row: when both branches modify the same region of the same file. This
 is a **merge conflict**.
@@ -171,6 +175,8 @@ It easy to see when a feature was merged, revert the entire feature with one com
 
 Git supports several merge strategies, selectable with `-s`:
 
+<div class="table-wrap">
+
 | Strategy                       | Description                                                              | When to Use                                  |
 | ------------------------------ | ------------------------------------------------------------------------ | -------------------------------------------- |
 | `recursive` (default)          | Three-way merge with recursive base resolution                           | General purpose, handles criss-cross merges  |
@@ -179,6 +185,8 @@ Git supports several merge strategies, selectable with `-s`:
 | `octopus`                      | Merge more than two branches at once                                     | Very rare; most merge tools handle only two  |
 | `ours`                         | Discard all changes from the other branch, keep ours                     | Rare; `git merge -s ours` is an anti-pattern |
 | `subtree`                      | Adjust subtree merge paths                                               | When managing subtree merges                 |
+
+</div>
 
 ### The `ort` Strategy (Git 2.34+)
 
@@ -218,11 +226,15 @@ function authenticate(user) {
 
 The markers are:
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of the conflict. Our version begins here.  |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of the conflict. Their version ends here.    |
+
+</div>
 
 ### Resolving Conflicts
 
@@ -269,6 +281,8 @@ $ git merge --abort
 
 ### Conflict Scenarios and Solutions
 
+<div class="table-wrap">
+
 | Scenario                                                   | Recommended Resolution                                            |
 | ---------------------------------------------------------- | ----------------------------------------------------------------- |
 | One side added a feature, other side refactored            | Manually integrate the feature into the refactored code           |
@@ -276,6 +290,8 @@ $ git merge --abort
 | One side deleted a file, other side modified it            | Discuss with the team: delete or keep with modifications          |
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
+
+</div>
 :::
 
 :::tip

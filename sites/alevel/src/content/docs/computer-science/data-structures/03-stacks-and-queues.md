@@ -29,6 +29,8 @@ most recently added element is the first to be removed.
 
 ### Abstract Data Type
 
+<div class="table-wrap">
+
 | Operation   | Description                             | Time   |
 | ----------- | --------------------------------------- | ------ |
 | `push(x)`   | Add element $x$ to the top              | $O(1)$ |
@@ -36,6 +38,8 @@ most recently added element is the first to be removed.
 | `peek()`    | Return the top element without removing | $O(1)$ |
 | `isEmpty()` | Check if the stack is empty             | $O(1)$ |
 | `size()`    | Return the number of elements           | $O(1)$ |
+
+</div>
 
 ### Array-Based Implementation
 
@@ -119,12 +123,16 @@ The earliest added element is the first to be removed.
 
 ### Abstract Data Type
 
+<div class="table-wrap">
+
 | Operation    | Description                               | Time   |
 | ------------ | ----------------------------------------- | ------ |
 | `enqueue(x)` | Add element $x$ to the rear               | $O(1)$ |
 | `dequeue()`  | Remove and return the front element       | $O(1)$ |
 | `front()`    | Return the front element without removing | $O(1)$ |
 | `isEmpty()`  | Check if the queue is empty               | $O(1)$ |
+
+</div>
 
 ### Circular Array Implementation
 
@@ -283,6 +291,8 @@ _Termination._ After processing all $n$ tokens of a valid RPN expression, exactl
 <details>
 <summary>Example: Evaluate `5 1 2 + 4 * + 3 -`</summary>
 
+<div class="table-wrap">
+
 | Token | Stack (bottom → top) | Action                      |
 | ----- | -------------------- | --------------------------- |
 | 5     | [5]                  | Push 5                      |
@@ -294,6 +304,8 @@ _Termination._ After processing all $n$ tokens of a valid RPN expression, exactl
 | +     | [17]                 | Pop 12, 5; push 5 + 12 = 17 |
 | 3     | [17, 3]              | Push 3                      |
 | -     | [14]                 | Pop 3, 17; push 17 - 3 = 14 |
+
+</div>
 
 Result: 14 ✓
 
@@ -319,6 +331,8 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 <details>
 <summary>Example: Convert `(3 + 4) * 5` to RPN</summary>
 
+<div class="table-wrap">
+
 | Token | Output Queue   | Operator Stack | Action                        |
 | ----- | -------------- | -------------- | ----------------------------- |
 | (     |                | (              | Push (                        |
@@ -329,6 +343,8 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 | \*    | 3, 4, +        | \*             | Push \*                       |
 | 5     | 3, 4, +, 5     | \*             | Enqueue 5                     |
 | end   | 3, 4, +, 5, \* |                | Pop remaining                 |
+
+</div>
 
 Result: `3 4 + 5 *` ✓
 
@@ -363,6 +379,8 @@ Dequeued in priority order (highest first, or lowest first).
 
 ### Implementation Options
 
+<div class="table-wrap">
+
 | Implementation | Insert           | Extract-Max      | Notes                       |
 | -------------- | ---------------- | ---------------- | --------------------------- |
 | Unsorted array | $O(1)$           | $O(n)$           | Insert at end, scan for max |
@@ -370,9 +388,13 @@ Dequeued in priority order (highest first, or lowest first).
 | Linked list    | $O(1)$ or $O(n)$ | $O(1)$ or $O(n)$ | Depends on approach         |
 | Binary heap    | $O(\log n)$      | $O(\log n)$      | Optimal for general use     |
 
+</div>
+
 <hr />
 
 ## 6. Stack vs Queue Comparison
+
+<div class="table-wrap">
 
 | Property  | Stack                | Queue                      |
 | --------- | -------------------- | -------------------------- |
@@ -381,6 +403,8 @@ Dequeued in priority order (highest first, or lowest first).
 | Remove    | pop (top)            | dequeue (front)            |
 | Peek      | top element          | front element              |
 | Use cases | Recursion, undo, RPN | BFS, scheduling, buffering |
+
+</div>
 
 <hr />
 
@@ -426,6 +450,8 @@ Queue: [30, 40, 50] (front = 30)
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Token | Stack     | Action                    |
 | ----- | --------- | ------------------------- |
 | 2     | [2]       | Push 2                    |
@@ -435,6 +461,8 @@ Queue: [30, 40, 50] (front = 30)
 | +     | [5]       | Pop 3, 2; push 2 + 3 = 5  |
 | 9     | [5, 9]    | Push 9                    |
 | -     | [-4]      | Pop 9, 5; push 5 - 9 = -4 |
+
+</div>
 
 Result: -4 ✓
 
@@ -450,6 +478,8 @@ Algorithm.
 
 Precedence: `*` > `+`, `-`
 
+<div class="table-wrap">
+
 | Token | Output            | Stack | Action                                  |
 | ----- | ----------------- | ----- | --------------------------------------- |
 | A     | A                 |       | Enqueue A                               |
@@ -460,6 +490,8 @@ Precedence: `*` > `+`, `-`
 | -     | A, B, C, \*       | -     | Pop \* (≥ prec), pop + (≥ prec), push - |
 | D     | A, B, C, \*, D    | -     | Enqueue D                               |
 | end   | A, B, C, \*, D, - |       | Pop remaining                           |
+
+</div>
 
 Result: `A B C * + D -` ✓
 
@@ -546,6 +578,8 @@ Array contents) after each operation: `enqueue(1)`, `enqueue(2)`, `dequeue()`, `
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation  | front | rear | size | Array contents (indices 0-4) |
 | ---------- | ----- | ---- | ---- | ---------------------------- |
 | Initial    | 0     | 0    | 0    | [_,_, _,_, _]              |
@@ -557,6 +591,8 @@ Array contents) after each operation: `enqueue(1)`, `enqueue(2)`, `dequeue()`, `
 | enqueue(5) | 1     | 0    | 4    | [5, 2, 3, 4, _]              |
 | dequeue()  | 2     | 0    | 3    | [5, _, 3, 4,_]              |
 | enqueue(6) | 2     | 1    | 4    | [5, 6, 3, 4, _]              |
+
+</div>
 
 Note: rear wraps around using `(rear + 1) % capacity`.
 
@@ -629,6 +665,8 @@ A list with the top at the right.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation | Stack (top on right) | Value returned |
 | --------- | -------------------- | -------------- |
 | push(5)   | [5]                  |,              |
@@ -639,6 +677,8 @@ A list with the top at the right.
 | pop()     | [5, 12]              | 8              |
 | pop()     | [5]                  | 12             |
 | push(1)   | [5, 1]               |,              |
+
+</div>
 
 Values returned by `pop()` in order: **3, 8, 12**.
 
@@ -689,6 +729,8 @@ A queue is FIFO, elements are removed from the front and added at the rear.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation   | Queue (front → rear) | Value returned |
 | ----------- | -------------------- | -------------- |
 | Initial     | [5, 10, 15, 20]      |,              |
@@ -697,6 +739,8 @@ A queue is FIFO, elements are removed from the front and added at the rear.
 | dequeue()   | [15, 20, 25]         | 10             |
 | enqueue(30) | [15, 20, 25, 30]     |,              |
 | dequeue()   | [20, 25, 30]         | 15             |
+
+</div>
 
 Final queue: **`[20, 25, 30]`** (front = 20).
 
@@ -717,6 +761,8 @@ when `size == capacity`.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Operation  | front | rear | size | Array [0, 1, 2, 3] |
 | ---------- | ----- | ---- | ---- | ------------------ |
 | enqueue(7) | 0     | 1    | 1    | [7, _,_, _]       |
@@ -727,6 +773,8 @@ when `size == capacity`.
 | enqueue(5) | 2     | 0    | 2    | [5, _, 9,_]       |
 | enqueue(1) | 2     | 1    | 3    | [5, 1, 9, _]       |
 | enqueue(8) | 2     | 2    | 4    | [5, 1, 9, 8]       |
+
+</div>
 
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
 `rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`. But the queue is not
@@ -749,12 +797,16 @@ Performance and memory characteristics.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Property              | Array-based            | Linked-list-based      |
 | --------------------- | ---------------------- | ---------------------- |
 | (a) Push/Pop time     | $O(1)$                 | $O(1)$                 |
 | (b) Maximum size      | Fixed at creation      | Limited only by memory |
 | (c) Memory overhead   | None per element       | One pointer (8 bytes)  |
 | (d) Cache performance | Excellent (contiguous) | Poor (scattered nodes) |
+
+</div>
 
 **Array-based preferable:** When the maximum stack depth is known in advance (e.g., recursion depth
 In a parser with known grammar). The contiguous memory layout gives better cache performance, and
@@ -809,6 +861,8 @@ the result.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Token | Stack (bottom → top) | Action                      |
 | ----- | -------------------- | --------------------------- |
 | 6     | [6]                  | Push 6                      |
@@ -818,6 +872,8 @@ the result.
 | \*    | [30]                 | Pop 5, 6; push 6 × 5 = 30   |
 | 4     | [30, 4]              | Push 4                      |
 | -     | [26]                 | Pop 4, 30; push 30 - 4 = 26 |
+
+</div>
 
 Result: **26**.
 
@@ -841,6 +897,8 @@ Corresponding opening bracket.
 
 **Checking `{[()()]}`:**
 
+<div class="table-wrap">
+
 | Char | Stack (top on right) | Action                  |
 | ---- | -------------------- | ----------------------- |
 | `{`  | `[{]`                | Push `{`                |
@@ -852,9 +910,13 @@ Corresponding opening bracket.
 | `]`  | `[{]`                | Pop `[`matches `]` ✓ |
 | `}`  | `[]`                 | Pop `{`matches `}` ✓ |
 
+</div>
+
 Stack is empty → **balanced**. ✓
 
 **Checking `[{(})]`:**
+
+<div class="table-wrap">
 
 | Char | Stack (top on right) | Action                               |
 | ---- | -------------------- | ------------------------------------ |
@@ -862,6 +924,8 @@ Stack is empty → **balanced**. ✓
 | `{`  | `[{, {}`             | Push `{`                             |
 | `(`  | `[{, {, (]`          | Push `(`                             |
 | `}`  | `[{, (]`             | Pop `(`expected `}` but got `(` ✗ |
+
+</div>
 
 Stack top is `(` but closing bracket is `}`**mismatch** → **not balanced**. ✗
 

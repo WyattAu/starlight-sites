@@ -71,6 +71,8 @@ $\blacksquare$
 
 ### 1.4 Synthons and Their Equivalents
 
+<div class="table-wrap">
+
 | Synthon  | Type         | Synthetic Equivalent           |
 | -------- | ------------ | ------------------------------ |
 | R$^-$    | Nucleophile  | Grignard (RMgBr), organolithium |
@@ -79,6 +81,8 @@ $\blacksquare$
 | $^+$ CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
 | Ac$^-$   | Nucleophile  | Malonate ester, acetylide       |
 | Ac$^+$   | Electrophile | Acid chloride, acyl anhydride   |
+
+</div>
 
 ## 2. Functional Group Interconversions
 
@@ -124,6 +128,8 @@ $$
 
 ### 2.2 Oxidation and Reduction
 
+<div class="table-wrap">
+
 | Transformation           | Reagent                    | Notes                    |
 | ------------------------ | -------------------------- | ------------------------ |
 | Primary alcohol → aldehyde | PCC, PDC, Swern            | Stops at aldehyde        |
@@ -133,6 +139,8 @@ $$
 | Alkene → diol             | OsO$_4$/NMO or KMnO$_4$(cold) | cis-Diol               |
 | Alkyne → trans-alkene     | Na/NH$_3$(l)               | Birch-type reduction     |
 | Alkyne → cis-alkene       | H$_2$/Lindlar's catalyst   | Z-alkene                 |
+
+</div>
 
 ## 3. Protecting Groups
 
@@ -151,6 +159,8 @@ its participation in a reaction, removable under conditions that do not affect o
 
 **Alcohols:**
 
+<div class="table-wrap">
+
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | TBDMS (TMS) ether   | TBDMSCl, imidazole  | TBAF or acid        |
@@ -159,7 +169,11 @@ its participation in a reaction, removable under conditions that do not affect o
 | MOM ether           | MOMCl, base         | Acid                |
 | Acetate             | Ac$_2$O, pyridine   | Base (K$_2$CO$_3$)  |
 
+</div>
+
 **Carbonyls (acetals):**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
@@ -168,7 +182,11 @@ its participation in a reaction, removable under conditions that do not affect o
 | Dithiane            | 1,3-propanedithiol, BF$_3$ | HgO, HgCl$_2$   |
 | Ethylene ketal      | Ethylene glycol, TsOH | Acid              |
 
+</div>
+
 **Amines:**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
@@ -176,13 +194,19 @@ its participation in a reaction, removable under conditions that do not affect o
 | Cbz                 | Cbz-Cl, base        | H$_2$/Pd-C          |
 | Fmoc                | Fmoc-Cl, base       | Piperidine         |
 
+</div>
+
 **Carboxylic Acids:**
+
+<div class="table-wrap">
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | Methyl ester        | CH$_2$N$_2$ or MeOH/H$^+$ | LiOH or NaOH   |
 | t-Butyl ester       | (t-Bu)$_2$ O or t-BuOH/DCC | TFA             |
 | Benzyl ester        | BnBr, K$_2$CO$_3$   | H$_2$/Pd-C          |
+
+</div>
 
 ## 4. Carbon-Carbon Bond Forming Reactions
 
@@ -195,6 +219,8 @@ $$
 \text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrightarrow{\text{H}_3\text{O}^+} \text{R}'_2\text{CHOH–R}
 $$
 
+<div class="table-wrap">
+
 | Carbonyl Substrate | Product            |
 | ------------------ | ------------------ |
 | Formaldehyde       | Primary alcohol    |
@@ -202,6 +228,8 @@ $$
 | Ketone             | Tertiary alcohol   |
 | Ester              | Tertiary alcohol   |
 | CO$_2$             | Carboxylic acid    |
+
+</div>
 
 **Limitations:** Grignard reagents are strong bases, incompatible with acidic protons (OH, NH,
 $\equiv$ CH). They also react with epoxides (ring opening).
@@ -396,6 +424,8 @@ chiral ligands) induces enantioselectivity in a reaction.
 
 **Key asymmetric catalysts:**
 
+<div class="table-wrap">
+
 | Catalyst / Ligand         | Reaction Type                |
 | ------------------------ | ---------------------------- |
 | BINAP-Ru (Noyori)        | Asymmetric hydrogenation    |
@@ -404,6 +434,8 @@ chiral ligands) induces enantioselectivity in a reaction.
 | Proline (organocatalyst)  | Aldol, Mannich, Michael      |
 | CBS reduction (oxazaborolidine) | Ketone reduction       |
 | DIPAMP (Rh complex)       | Asymmetric hydrogenation    |
+
+</div>
 
 ### 6.4 Sharpless Epoxidation
 
@@ -485,12 +517,16 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Structure and Bonding    | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)              |
 | Reaction Mechanisms      | WyattsNotes | [View](/2-organic-chemistry/reaction-mechanisms/)                |
 | Spectroscopy             | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                       |
 | Organic Synthesis, MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
+
+</div>
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

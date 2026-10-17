@@ -194,10 +194,14 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Site       | Link                                                                                                                         |
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | [Theory of Computation] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/theory-of-computation/01-automata-and-computability) |
 | [Theory of Computation] | University | [View](https://computer-science.wyattau.com/)                        |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

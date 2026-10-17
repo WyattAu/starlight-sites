@@ -37,6 +37,8 @@ Propositions and their combinations using logical connectives.
 
 **Basic connectives:**
 
+<div class="table-wrap">
+
 | Symbol     | Name          | Meaning        |
 | ---------- | ------------- | -------------- |
 | $\neg$     | Negation      | NOT            |
@@ -44,6 +46,8 @@ Propositions and their combinations using logical connectives.
 | $\lor$     | Disjunction   | OR             |
 | $\implies$ | Implication   | IF...THEN      |
 | $\iff$     | Biconditional | IF AND ONLY IF |
+
+</div>
 
 **Truth tables.** The implication $p \implies q$ is false only when $p$ is true and $q$ is false.
 
@@ -110,6 +114,8 @@ variables within each block.
 
 With 3 variables we have $2^3 = 8$ rows.
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $p \implies q$ | $q \implies r$ | $\phi$ |
 | --- | --- | --- | -------------- | -------------- | ------ |
 | T   | T   | T   | T              | T              | T      |
@@ -120,6 +126,8 @@ With 3 variables we have $2^3 = 8$ rows.
 | F   | T   | F   | T              | F              | F      |
 | F   | F   | T   | T              | T              | T      |
 | F   | F   | F   | T              | T              | T      |
+
+</div>
 
 The formula is satisfiable (e.g., $p = F, q = F, r = T$) but not a tautology (e.g.,
 $p = T, q = T, r = F$).
@@ -134,6 +142,8 @@ $(p \implies q) \land (q \implies r) \implies (p \implies r)$ is a tautology.
 
 Extending the table above:
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $\phi$ | $p \implies r$ | $\phi \implies (p \implies r)$ |
 | --- | --- | --- | ------ | -------------- | ------------------------------ |
 | T   | T   | T   | T      | T              | T                              |
@@ -144,6 +154,8 @@ Extending the table above:
 | F   | T   | F   | F      | T              | T                              |
 | F   | F   | T   | T      | T              | T                              |
 | F   | F   | F   | T      | T              | T                              |
+
+</div>
 
 The final column is all $T$ Confirming the tautology.
 
@@ -156,6 +168,8 @@ connective Has **introduction rules** (how to _derive_ a formula with that conne
 **elimination rules** (how to _use_ a formula with that connective).
 
 **Rules of inference:**
+
+<div class="table-wrap">
 
 | Rule          | Premises                               | Conclusion  |
 | ------------- | -------------------------------------- | ----------- |
@@ -171,6 +185,8 @@ connective Has **introduction rules** (how to _derive_ a formula with that conne
 | $\neg$-E      | $A$, $\neg A$                          | $\bot$      |
 | DNE           | $\neg\neg A$                           | $A$         |
 | RAA           | $[\neg A] \vdash \bot$                 | $A$         |
+
+</div>
 
 Square brackets $[A]$ denote an assumption that is **discharged** after the rule is applied.
 
@@ -945,6 +961,8 @@ $$
 
 **Common generating functions:**
 
+<div class="table-wrap">
+
 | Sequence $a_n$   | Generating function $G(x)$ |
 | ---------------- | -------------------------- |
 | $1$              | $\dfrac{1}{1-x}$           |
@@ -952,6 +970,8 @@ $$
 | $\binom{n+k}{k}$ | $\dfrac{1}{(1-x)^{k+1}}$   |
 | $n$              | $\dfrac{x}{(1-x)^2}$       |
 | $n^2$            | $\dfrac{x(1+x)}{(1-x)^3}$  |
+
+</div>
 
 **Key operations.** If $A(x)$ generates $\\{a_n\\}$ and $B(x)$ generates $\\{b_n\\}$:
 
@@ -1546,12 +1566,16 @@ $$
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $p \implies q$ | $q \implies p$ | disjunction |
 | --- | --- | -------------- | -------------- | ----------- |
 | T   | T   | T              | T              | T           |
 | T   | F   | F              | T              | T           |
 | F   | T   | T              | F              | T           |
 | F   | F   | T              | T              | T           |
+
+</div>
 
 All rows give $T$ So it is a tautology.
 
@@ -1924,13 +1948,17 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                             | Site        | Link                                                                                   |
 | --------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
 | Theory of Computation             | WyattsNotes | [View](/theory-of-computation/)                               |
-| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)                                  |
-| Number Theory                     | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)                                     |
+| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/1-abstract-algebra/)                                  |
+| Number Theory                     | WyattsNotes | [View](https://mathematics.wyattau.com/7-number-theory/)                                     |
 | Discrete Mathematics, MIT 6.042J | MIT OCW     | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
 | AP Calculus                       | AP          | [View](https://ib.wyattau.com/maths/maths/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

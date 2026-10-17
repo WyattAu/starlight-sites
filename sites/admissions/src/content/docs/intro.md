@@ -34,6 +34,8 @@ These notes are structured to guide you from understanding the admissions landsc
 
 ## Key Dates and Deadlines
 
+<div class="table-wrap">
+
 | Milestone | Typical Date | Action Required |
 | ----------- | ------------- | ----------------- |
 | UCAS Opens | May (Year before entry) | Start personal statement draft |
@@ -42,7 +44,11 @@ These notes are structured to guide you from understanding the admissions landsc
 | Interviews | December-February | Prepare and attend |
 | Results | January-March | Accept or decline offers |
 
+</div>
+
 ## Test Preparation Timeline
+
+<div class="table-wrap">
 
 | Months Before Test | Focus Area | Daily Time |
 | ------------------- | ------------ | ------------ |
@@ -50,6 +56,8 @@ These notes are structured to guide you from understanding the admissions landsc
 | 2-4 months | Practice: past papers under timed conditions | 45-60 min |
 | 1-2 months | Refinement: target weak areas, full mock exams | 60 min |
 | Final 2 weeks | Review: light practice, confidence building | 20-30 min |
+
+</div>
 
 ## Common Mistakes
 

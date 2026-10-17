@@ -141,6 +141,8 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 ## Chemistry Quick Reference
 
+<div class="table-wrap">
+
 | Term | Definition |
 |------|-----------|
 | Entropy | Disorder measure; positive change favours spontaneity |
@@ -150,7 +152,11 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 | Buffer | Solution resisting pH change on small acid/base addition |
 | Titration | Controlled neutralisation for concentration determination |
 
+</div>
+
 ## Physics Quick Reference
+
+<div class="table-wrap">
 
 | Term | Definition |
 |------|-----------|
@@ -160,7 +166,11 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 | Capacitance | Charge stored per unit potential difference |
 | Time Constant | RC (or L/R) time for ~63% of a step change |
 
+</div>
+
 ## Biology Quick Reference
+
+<div class="table-wrap">
 
 | Term | Definition |
 |------|-----------|
@@ -169,3 +179,5 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 | Genetic Code | Triplet codons mapping mRNA to amino acids |
 | Natural Selection | Differential reproductive success of variants |
 | Synapse | Junction for neurotransmitter signalling between neurons |
+
+</div>

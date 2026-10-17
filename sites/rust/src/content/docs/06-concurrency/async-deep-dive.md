@@ -183,6 +183,8 @@ impl SelfReferential {
 
 ### `Pin<P>` API
 
+<div class="table-wrap">
+
 | Method         | Description                                            |
 | -------------- | ------------------------------------------------------ |
 | `new(pointer)` | Creates a `Pin` from a pointer (requires `Unpin`)      |
@@ -191,6 +193,8 @@ impl SelfReferential {
 | `get_ref()`    | Returns `&T`                                           |
 | `get_mut()`    | Returns `&mut T` (requires `Unpin`)                    |
 | `into_inner()` | Unwraps and returns the inner value (requires `Unpin`) |
+
+</div>
 
 ### `Unpin`
 
@@ -300,12 +304,16 @@ Control at `.await` points.
 
 Tokio's reactor maps to the OS's native async I/O mechanism:
 
+<div class="table-wrap">
+
 | Platform | Mechanism | Description                             |
 | -------- | --------- | --------------------------------------- |
 | Linux    | `epoll`   | Event notification for file descriptors |
 | macOS    | `kqueue`  | Event notification for file descriptors |
 | Windows  | IOCP      | I/O Completion Ports                    |
 | FreeBSD  | `kqueue`  | Event notification for file descriptors |
+
+</div>
 
 The reactor registers file descriptors with the OS and receives notifications when they become
 Readable, writable, or error. When a notification arrives, the reactor wakes the corresponding

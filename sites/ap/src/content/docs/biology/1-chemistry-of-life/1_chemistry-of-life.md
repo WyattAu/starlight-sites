@@ -26,6 +26,8 @@ categories:
 
 The most common elements in living organisms:
 
+<div class="table-wrap">
+
 | Element    | Symbol | Role                                  |
 | ---------- | ------ | ------------------------------------- |
 | Carbon     | C      | Backbone of organic molecules         |
@@ -34,6 +36,8 @@ The most common elements in living organisms:
 | Nitrogen   | N      | Amino acids, nucleotides              |
 | Phosphorus | P      | ATP, nucleic acids, phospholipids     |
 | Sulfur     | S      | Amino acids (cysteine, methionine)    |
+
+</div>
 
 Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 
@@ -52,12 +56,16 @@ Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 **Comparison of bond strengths in biological systems:**
 
+<div class="table-wrap">
+
 | Bond Type     | Strength (kJ/mol) | Biological Role                                      |
 | ------------- | ----------------- | ---------------------------------------------------- |
 | Covalent      | 200--500          | Backbone of organic molecules                        |
 | Ionic         | 100--400          | Salt bridges in proteins, bone mineral structure     |
 | Hydrogen      | 5--40             | DNA base pairing, protein secondary structure, water |
 | Van der Waals | 0.5--5            | Protein folding, lipid interactions                  |
+
+</div>
 
 ### Water (CED Unit 1)
 
@@ -89,11 +97,15 @@ $$
 \mathrm{pH = -\log[\mathrm{H^+]
 $$
 
+<div class="table-wrap">
+
 | pH      | Classification |
 | ------- | -------------- |
 | $\lt 7$ | Acidic         |
 | $7$     | Neutral        |
 | $\gt 7$ | Basic          |
+
+</div>
 
 **Buffers** resist pH changes. The carbonic acid/bicarbonate buffer system in blood:
 
@@ -141,11 +153,15 @@ $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained cl
 **Polymerization:** Dehydration synthesis (condensation) forms glycosidic bonds. Hydrolysis breaks
 Them.
 
+<div class="table-wrap">
+
 | Type           | Structure            | Function                           | Examples                    |
 | -------------- | -------------------- | ---------------------------------- | --------------------------- |
 | Monosaccharide | Single sugar ring    | Energy source, building block      | Glucose, fructose           |
 | Disaccharide   | Two monosaccharides  | Energy source                      | Sucrose, lactose, maltose   |
 | Polysaccharide | Long chain of sugars | Energy storage, structural support | Starch, glycogen, cellulose |
+
+</div>
 
 **Key polysaccharides:**
 
@@ -174,12 +190,16 @@ Indigestible by humans.
 
 Lipids are **not** true polymers but are hydrophobic organic molecules.
 
+<div class="table-wrap">
+
 | Type          | Structure                            | Function                   |
 | ------------- | ------------------------------------ | -------------------------- |
 | Triglycerides | Glycerol + 3 fatty acids             | Energy storage, insulation |
 | Phospholipids | Glycerol + 2 fatty acids + phosphate | Cell membrane structure    |
 | Steroids      | Four fused rings                     | Hormones, cholesterol      |
 | Waxes         | Long-chain alcohol + fatty acid      | Waterproof coatings        |
+
+</div>
 
 **Saturated vs unsaturated fatty acids:**
 
@@ -313,6 +333,8 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
+<div class="table-wrap">
+
 | [S] ($\mu$ M) | v ($\mu$ Mol/min) |
 | ------------ | ---------------- |
 | 2            | 5.0              |
@@ -321,6 +343,8 @@ An enzyme has the following rates at different substrate concentrations:
 | 20           | 16.7             |
 | 50           | 18.9             |
 | 100          | 19.6             |
+
+</div>
 
 At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 
@@ -331,12 +355,16 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
 
+<div class="table-wrap">
+
 | Type           | Binding Site         | Reversibility | Effect on $K_m$ | Effect on $V_{\max}$ |
 | -------------- | -------------------- | ------------- | --------------- | -------------------- |
 | Competitive    | Active site          | Reversible    | Increases       | No change            |
 | Noncompetitive | Allosteric site      | Reversible    | No change       | Decreases            |
 | Uncompetitive  | ES complex only      | Reversible    | Decreases       | Decreases            |
 | Irreversible   | Active or allosteric | Irreversible  | --              | Decreases            |
+
+</div>
 
 **Worked Example: Why competitive inhibition increases $K_m$ but not $V_{\max}$.**
 
@@ -362,10 +390,14 @@ $$
 \Delta G = \Delta H - T\Delta S
 $$
 
+<div class="table-wrap">
+
 | Type       | $\Delta G$ | Description                           |
 | ---------- | ---------- | ------------------------------------- |
 | Exergonic  | $\lt 0$    | Spontaneous, releases energy          |
 | Endergonic | $\gt 0$    | Nonspontaneous, requires energy input |
+
+</div>
 
 ### ATP: The Energy Currency
 
@@ -478,6 +510,8 @@ Energy from ATP hydrolysis.
 Several biochemical tests are used to identify the presence of specific macromolecules in samples.
 These are commonly tested on the AP exam.
 
+<div class="table-wrap">
+
 | Test            | Reagent             | Positive Result                     | Macromolecule Detected |
 | --------------- | ------------------- | ----------------------------------- | ---------------------- |
 | Benedict's test | Benedict's solution | Brick-red precipitate (when heated) | Reducing sugars        |
@@ -485,6 +519,8 @@ These are commonly tested on the AP exam.
 | Biuret test     | Biuret reagent      | Violet/purple colour                | Protein                |
 | Emulsion test   | Ethanol             | Cloudy white emulsion layer         | Lipids                 |
 | Sudan III test  | Sudan III stain     | Red-stained oil layer               | Lipids                 |
+
+</div>
 
 **Worked Example: Designing an identification experiment.**
 
@@ -627,11 +663,15 @@ $\alpha$-glucose forms starch (digestible) and glycogen, while $\beta$-glucose f
 
 **Disaccharides:** Formed by condensation reactions between two monosaccharides:
 
+<div class="table-wrap">
+
 | Disaccharide | Component monosaccharides | Bond type    | Found in          |
 | ------------ | ------------------------- | ------------ | ----------------- |
 | Maltose      | Glucose + glucose         | $\alpha$-1,4 | Germinating seeds |
 | Sucrose      | Glucose + fructose        | $\alpha$-1,2 | Sugar cane, beet  |
 | Lactose      | Galactose + glucose       | $\beta$-1,4  | Milk              |
+
+</div>
 
 **Why lactose intolerance occurs:** Lactase, the enzyme that hydrolyses lactose into glucose and
 Galactose, is produced in the small intestine of infants. In many populations, lactase production
@@ -733,6 +773,8 @@ Preventing overheating.
 Functional groups are specific groups of atoms within molecules that determine the characteristics
 of the molecule and how it reacts.
 
+<div class="table-wrap">
+
 | Functional Group | Structure | Found in                      | Properties                              |
 | ---------------- | --------- | ----------------------------- | --------------------------------------- |
 | Hydroxyl (-OH)   | -OH       | Alcohols, sugars, amino acids | Polar; forms hydrogen bonds             |
@@ -741,6 +783,8 @@ of the molecule and how it reacts.
 | Amino (-NH$_2$)  | -NH$_2$   | Amino acids                   | Acts as a base; accepts $\mathrm{H^+$   |
 | Phosphate        | -PO$_4$   | ATP, DNA, phospholipids       | Negative charge; energy transfer        |
 | Sulfhydryl (-SH) | -SH       | Cysteine (amino acid)         | Forms disulfide bridges in proteins     |
+
+</div>
 
 **Worked Example:** The role of functional groups in amino acid behaviour.
 

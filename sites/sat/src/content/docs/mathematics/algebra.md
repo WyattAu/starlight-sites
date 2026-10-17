@@ -29,6 +29,8 @@ SAT mathematics study notes - Algebra
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Topic | Formula | When to Use |
 | ------- | --------- | ------------- |
 | Slope | $m = \frac{y_2 - y_1}{x_2 - x_1}$ | Finding rate of change between two points |
@@ -37,6 +39,8 @@ SAT mathematics study notes - Algebra
 | Vertex Form | $y = a(x-h)^2 + k$ | Identifying vertex $(h, k)$ of parabola |
 | Distance | $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ | Distance between two points |
 | Midpoint | $M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$ | Finding the centre of a line segment |
+
+</div>
 
 ## Worked Examples
 

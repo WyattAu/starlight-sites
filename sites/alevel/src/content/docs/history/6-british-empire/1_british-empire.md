@@ -44,6 +44,8 @@ North America, the Caribbean, and India.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                   | Dates     | Key Themes                                                             |
 | ------------------------ | --------- | ---------------------------------------------------------------------- |
 | Commercial foundations   | 1688-1702 | East India Company expansion, Royal African Company, navigation acts   |
@@ -51,6 +53,8 @@ North America, the Caribbean, and India.
 | Atlantic expansion       | 1713-1739 | Growth of colonial settlements, triangular trade, plantation economies |
 | Imperial conflict        | 1739-1748 | War of Jenkins' Ear, War of Austrian Succession                        |
 | Global war and dominance | 1754-1763 | Seven Years' War, conquest of Canada, Plassey, Treaty of Paris         |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -152,6 +156,8 @@ North America, the Caribbean, and India.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure                 | Role                         | Significance                                                                                           |
 | ---------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------ |
 | William III            | King 1689-1702               | Committed to opposing France; promoted commercial and naval expansion                                  |
@@ -162,6 +168,8 @@ North America, the Caribbean, and India.
 | General Wolfe          | Military commander           | Captured Quebec (1759); became a martyr-hero of British imperial expansion                             |
 | Warren Hastings        | East India Company official  | Later period (first Governor-General 1773); established administrative structures in India             |
 | Job Charnock           | East India Company agent     | Founded Calcutta (1690)                                                                                |
+
+</div>
 
 ## Historiographical Debates
 

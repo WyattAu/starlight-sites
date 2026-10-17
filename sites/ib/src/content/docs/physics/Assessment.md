@@ -20,12 +20,16 @@ IB Physics (first assessment 2025) is examined through a combination of external
 an Internal Assessment (IA). The external component accounts for 80% of the total mark at both SL
 and HL, while the IA accounts for the remaining 20%.
 
+<div class="table-wrap">
+
 | Component | SL Weighting | HL Weighting | Duration (SL) | Duration (HL) | Marks (SL) | Marks (HL) |
 | :-------- | :----------- | :----------- | :------------ | :------------ | :--------- | :--------- |
 | Paper 1   | 30%          | 20%          | 45 min        | 60 min        | 30         | 40         |
 | Paper 2   | 50%          | 40%          | 1 h 15 min    | 2 h 15 min    | 50         | 90         |
 | Paper 3   | --           | 20%          | --            | 1 h 15 min    | --         | 30         |
 | IA        | 20%          | 20%          | 10 hours      | 10 hours      | --         | --         |
+
+</div>
 
 ---
 
@@ -43,6 +47,8 @@ and HL, while the IA accounts for the remaining 20%.
 Paper 1 consists entirely of multiple choice questions (MCQs). Each question presents four answer
 Options, only one of which is correct.
 
+<div class="table-wrap">
+
 | Aspect              | SL          | HL          |
 | :------------------ | :---------- | :---------- |
 | Duration            | 45 minutes  | 60 minutes  |
@@ -50,6 +56,8 @@ Options, only one of which is correct.
 | Number of questions | 30          | 40          |
 | Calculator          | Not allowed | Not allowed |
 | Data booklet        | Not allowed | Not allowed |
+
+</div>
 
 **Key details:**
 
@@ -85,12 +93,16 @@ Options, only one of which is correct.
 Paper 2 contains extended response questions requiring detailed working, derivations, calculations,
 And explanations.
 
+<div class="table-wrap">
+
 | Aspect       | SL                | HL                 |
 | :----------- | :---------------- | :----------------- |
 | Duration     | 1 hour 15 minutes | 2 hours 15 minutes |
 | Marks        | 50                | 90                 |
 | Calculator   | Allowed           | Allowed            |
 | Data booklet | Provided          | Provided           |
+
+</div>
 
 **Key details:**
 
@@ -130,6 +142,8 @@ And explanations.
 Paper 3 is sat exclusively by HL students and tests the Additional Higher Level (AHL) extension
 Material.
 
+<div class="table-wrap">
+
 | Aspect       | HL                |
 | :----------- | :---------------- |
 | Duration     | 1 hour 15 minutes |
@@ -137,9 +151,13 @@ Material.
 | Calculator   | Allowed           |
 | Data booklet | Provided          |
 
+</div>
+
 **Topics covered:**
 
 Paper 3 draws exclusively from AHL content across all five themes:
+
+<div class="table-wrap">
 
 | Theme | AHL Sub-topics | Key Areas                                                                    |
 | :---- | :------------- | :--------------------------------------------------------------------------- |
@@ -148,6 +166,8 @@ Paper 3 draws exclusively from AHL content across all five themes:
 | C     | C.5            | Wave phenomena (interference, resolution, Doppler effect)                    |
 | D     | D.5            | Fields at work (electromagnetic induction)                                   |
 | E     | E.3--E.4       | Quantum and nuclear physics (radioactive decay, structure of matter)         |
+
+</div>
 
 **Key details:**
 
@@ -181,12 +201,16 @@ Paper 3 draws exclusively from AHL content across all five themes:
 The Internal Assessment is an individual scientific investigation carried out by each student. It is
 Internally marked by the teacher and externally moderated by the IB.
 
+<div class="table-wrap">
+
 | Aspect     | Detail                                                            |
 | :--------- | :---------------------------------------------------------------- |
 | Duration   | 10 hours (recommended)                                            |
 | Weighting  | 20% of total mark (both SL and HL)                                |
 | Format     | Individual investigation with a written report (maximum 12 pages) |
 | Submission | One investigation per student                                     |
+
+</div>
 
 **Assessment criteria:**
 
@@ -241,6 +265,8 @@ Criterion, 24 marks total):
 IB Physics uses the standard IB 1--7 grading scale. Grade boundaries are determined after each
 Examination session and vary from session to session depending on the difficulty of the papers.
 
+<div class="table-wrap">
+
 | Grade | Description  |
 | :---- | :----------- |
 | 7     | Excellent    |
@@ -250,6 +276,8 @@ Examination session and vary from session to session depending on the difficulty
 | 3     | Mediocre     |
 | 2     | Poor         |
 | 1     | Very poor    |
+
+</div>
 
 **Important notes:**
 

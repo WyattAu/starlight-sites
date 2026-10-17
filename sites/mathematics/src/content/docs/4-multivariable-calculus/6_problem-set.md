@@ -667,13 +667,17 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                              | Site        | Link                                                                          |
 | ---------------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Multivariable Calculus (Overview)  | WyattsNotes | [View](/multivariable-calculus/)                   |
-| Real Analysis                      | WyattsNotes | [View](/real-analysis/)                            |
-| Linear Algebra                     | WyattsNotes | [View](/linear-algebra/)                           |
+| Multivariable Calculus (Overview)  | WyattsNotes | [View](/4-multivariable-calculus/)                   |
+| Real Analysis                      | WyattsNotes | [View](/3-real-analysis/)                            |
+| Linear Algebra                     | WyattsNotes | [View](/2-linear-algebra/)                           |
 | Differential Equations             | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)                   |
 | Multivariable Calculus, MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -64,12 +64,16 @@ Examination hall.
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board                      | Paper 1                                            | Paper 2                                                            | Open/Closed Book |
 | -------------------------- | -------------------------------------------------- | ------------------------------------------------------------------ | ---------------- |
 | **AQA** (8702)             | Shakespeare and the 19th-Century Novel             | Modern Texts and Poetry                                            | Closed           |
 | **Edexcel** (1ET0)         | Shakespeare and Post-1914 Play or Novel            | 19th-Century Novel and Poetry (Conflict & Power or Comedy & Genre) | Closed           |
 | **OCR** (J352)             | Shakespeare and Poetry Pre-1900                    | Modern Texts and 19th-Century Novel                                | Open             |
 | **WJEC/Eduqas** (9-1 7222) | Shakespeare (with Welsh Poetry anthology for WJEC) | Post-1914 Drama/Novel and Poetry Anthology                         | Open             |
+
+</div>
 
 :::note
 Is common to all boards. Differences lie in the arrangement of texts across papers, the presence or
@@ -163,10 +167,14 @@ Showing how a writer"s historical circumstances shaped specific literary choices
 
 ## Examination Structure Summary
 
+<div class="table-wrap">
+
 | Component                                   | Typical Duration             | Marks     | Weighting  |
 | ------------------------------------------- | ---------------------------- | --------- | ---------- |
 | Paper 1: Shakespeare and 19th-Century Novel | 1 hr 45 min -- 1 hr 50 min   | 64 -- 96  | 40% -- 50% |
 | Paper 2: Modern Texts and Poetry            | 2 hrs 15 min -- 2 hrs 30 min | 96 -- 112 | 50% -- 60% |
+
+</div>
 
 Exact timings, mark allocations, and weightings differ by board. Students should consult their own
 Specification for precise details.

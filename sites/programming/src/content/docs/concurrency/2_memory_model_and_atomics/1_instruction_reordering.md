@@ -299,12 +299,16 @@ Consistent with the program order of each individual thread.
 Is no inter-thread ordering guarantee unless explicitly established by acquire/release or seq_cst
 Operations.
 
+<div class="table-wrap">
+
 | Property                           | Sequentially Consistent | Relaxed |
 | ---------------------------------- | ----------------------- | ------- |
 | Single total order                 | Yes                     | No      |
 | Compiler reordering across atomics | Prevented               | Allowed |
 | Hardware reordering across atomics | Prevented (fences used) | Allowed |
 | Performance cost                   | Highest                 | Lowest  |
+
+</div>
 
 ### Formal Definition of Sequential Consistency
 
@@ -399,6 +403,8 @@ Guaranteeing that `data = 42` is visible when `ready` is observed as `true`.
 
 A common source of confusion is the relationship between `volatile`, `std::atomic` and `std::mutex`:
 
+<div class="table-wrap">
+
 | Feature                 | `volatile`                         | `std::atomic`                         | `std::mutex`                    |
 | :---------------------- | :--------------------------------- | :------------------------------------ | :------------------------------ |
 | **Compiler reordering** | Prevents some optimizations        | Prevents (based on memory order)      | Prevents (acquire/release)      |
@@ -407,6 +413,8 @@ A common source of confusion is the relationship between `volatile`, `std::atomi
 | **Thread safety**       | No                                 | Yes (for individual variables)        | Yes (for arbitrary scopes)      |
 | **Performance**         | Low overhead (but incorrect)       | Low-medium (hardware instructions)    | High (syscall on contention)    |
 | **Use case**            | Signal handlers, memory-mapped I/O | Lock-free algorithms, flags, counters | General-purpose synchronization |
+
+</div>
 
 **`volatile` does NOT provide thread safety.** It prevents the compiler from optimizing away reads
 or writes, but it provides no atomicity and no memory ordering guarantees. On x86, `volatile` stores
@@ -424,12 +432,16 @@ Acquire/release semantics) at the cost of potential kernel-level contention.
 Different CPU architectures provide different hardware-level memory ordering guarantees. This
 Affects which C++ memory orders are necessary and which are free (compile to no extra instructions).
 
+<div class="table-wrap">
+
 | Architecture   | Memory Model            | Store-Store   | Store-Load  | Load-Load     | Load-Store    |
 | :------------- | :---------------------- | :------------ | :---------- | :------------ | :------------ |
 | **x86/x86-64** | TSO (Total Store Order) | No reordering | **Allowed** | No reordering | No reordering |
 | **ARMv8**      | Weakly Ordered          | Allowed       | Allowed     | Allowed       | Allowed       |
 | **RISC-V**     | Weakly Ordered (RVWMO)  | Allowed       | Allowed     | Allowed       | Allowed       |
 | **POWER**      | Weakly Ordered          | Allowed       | Allowed     | Allowed       | Allowed       |
+
+</div>
 
 ### x86-TSO Memory Model
 
@@ -451,6 +463,8 @@ Pending stores to _different_ addresses.
 
 ARMv8 provides a **weakly ordered** model with optional barrier instructions:
 
+<div class="table-wrap">
+
 | Instruction | Barrier Type                        | Effect                                                                      |
 | :---------- | :---------------------------------- | :-------------------------------------------------------------------------- |
 | `DMB`       | Full Data Memory Barrier            | All memory accesses before the barrier complete before any after it         |
@@ -459,7 +473,11 @@ ARMv8 provides a **weakly ordered** model with optional barrier instructions:
 | `LDAR`      | Load-Acquire                        | Acquire semantics on the load                                               |
 | `STLR`      | Store-Release                       | Release semantics on the store                                              |
 
+</div>
+
 ### C++ Memory Order to Hardware Instruction Mapping
+
+<div class="table-wrap">
 
 | C++ Memory Order | x86-64 Instruction                                             | ARMv8 Instruction     |
 | :--------------- | :------------------------------------------------------------- | :-------------------- |
@@ -468,6 +486,8 @@ ARMv8 provides a **weakly ordered** model with optional barrier instructions:
 | `release`        | `mov` (no fence needed)                                        | `stlr`                |
 | `acq_rel`        | `mov` (no fence for load; `mfence` before store is not needed) | `ldar` + `stlr` pair  |
 | `seq_cst`        | `lock` prefix or `mfence`                                      | `dmb ish`             |
+
+</div>
 
 This means that code relying on "it works on x86" without proper atomics will break when ported to
 ARM (Apple Silicon, Android) or RISC-V (embedded).
@@ -478,12 +498,16 @@ The MESI (Modified-Exclusive-Shared-Invalid) cache coherence protocol governs ho
 Interact across cores. While this is a hardware mechanism (not part of the C++ memory model), it
 Provides essential intuition for understanding memory ordering:
 
+<div class="table-wrap">
+
 | State             | Description                                                     |
 | :---------------- | :-------------------------------------------------------------- |
 | **M** (Modified)  | This cache has the only valid copy; it differs from main memory |
 | **E** (Exclusive) | This cache has the only valid copy; it matches main memory      |
 | **S** (Shared)    | Multiple caches have valid copies matching main memory          |
 | **I** (Invalid)   | This cache line is not valid                                    |
+
+</div>
 
 When a core writes to a cache line in **Shared** state, it must issue an **RFO
 (Read-For-Ownership)** request that invalidates all other copies. This invalidation traffic is the

@@ -68,11 +68,15 @@ int authenticate(User *user) {
 >>>>>>> feature-auth
 ```
 
+<div class="table-wrap">
+
 | Marker                 | Meaning                                          |
 | ---------------------- | ------------------------------------------------ |
 | `<<<<<<< HEAD`         | Start of conflict region. Our version begins.    |
 | `=======`              | Separator between our version and their version. |
 | `>>>>>>> feature-auth` | End of conflict region. Their version ends.      |
+
+</div>
 
 The text after `>>>>>>>` identifies the branch being merged.
 

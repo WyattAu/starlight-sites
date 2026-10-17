@@ -41,6 +41,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ### 1.1 Cell Structure
 
+<div class="table-wrap">
+
 | Organelle                 | Function                                                                    |
 | ------------------------- | --------------------------------------------------------------------------- |
 | Nucleus                   | Contains DNA; controls cell activities                                      |
@@ -53,6 +55,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 | Permanent vacuole (plant) | Contains cell sap; maintains turgor pressure                                |
 | Vacuole (animal)          | Small and temporary; involved in storage and transport                      |
 
+</div>
+
 ### 1.2 Plant vs Animal Cells
 
 - Animal cells: nucleus, cell membrane, cytoplasm, mitochondria, ribosomes
@@ -61,6 +65,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
   mitochondria, sometimes plasmids and flagella
 
 ### 1.3 Cell Specialisation
+
+<div class="table-wrap">
 
 | Cell type        | Specialisation                                                               |
 | ---------------- | ---------------------------------------------------------------------------- |
@@ -72,6 +78,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 | Root hair cell   | Elongated projection for increased surface area to absorb water and minerals |
 | Palisade cell    | Many chloroplasts; tall shape near the top of the leaf for maximum light     |
 | Fat cell         | Large lipid droplet filling most of the cell; small cytoplasm and nucleus    |
+
+</div>
 
 ### 1.4 Microscopy
 
@@ -170,13 +178,19 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 **Blood Vessels**
 
+<div class="table-wrap">
+
 | Vessel    | Structure                                | Function                                           |
 | --------- | ---------------------------------------- | -------------------------------------------------- |
 | Artery    | Thick walls, small lumen, elastic tissue | Carries blood away from the heart at high pressure |
 | Vein      | Thin walls, large lumen, valves          | Carries blood towards the heart at low pressure    |
 | Capillary | One cell thick walls, very narrow        | Exchange of materials between blood and cells      |
 
+</div>
+
 **Blood Components**
+
+<div class="table-wrap">
 
 | Component         | Function                                                                             |
 | ----------------- | ------------------------------------------------------------------------------------ |
@@ -184,6 +198,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 | White blood cells | Defend against pathogens (phagocytosis and antibody production)                      |
 | Platelets         | Cell fragments that help blood to clot at wound sites                                |
 | Plasma            | Liquid that carries dissolved substances (glucose, amino acids, hormones, urea, CO2) |
+
+</div>
 
 ### 2.3 Respiratory System
 
@@ -223,6 +239,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 - Hormones are slower but longer-lasting than nerve impulses
 - **Key glands and hormones**:
 
+<div class="table-wrap">
+
 | Gland     | Hormone                 | Function                                           |
 | --------- | ----------------------- | -------------------------------------------------- |
 | Pituitary | FSH, LH                 | Controls reproductive cycle                        |
@@ -231,6 +249,8 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 | Pancreas  | Insulin, glucagon       | Controls blood glucose levels                      |
 | Ovaries   | Oestrogen, progesterone | Controls the menstrual cycle                       |
 | Testes    | Testosterone            | Controls sperm production and male characteristics |
+
+</div>
 
 - **Control of blood glucose**: insulin lowers blood glucose (by stimulating cells to take up
   glucose and the liver to store glucose as glycogen); glucagon raises blood glucose (by stimulating
@@ -254,12 +274,16 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ### 3.1 Pathogens
 
+<div class="table-wrap">
+
 | Pathogen type | Examples                 | Characteristics                                                            |
 | ------------- | ------------------------ | -------------------------------------------------------------------------- |
 | Bacteria      | Salmonella, MRSA         | Single-celled; reproduce by binary fission; very small (1--10 micrometres) |
 | Viruses       | HIV, influenza, COVID-19 | Not living; replicate inside host cells; much smaller than bacteria        |
 | Fungi         | Athlete's foot, thrush   | Can be single-celled (yeasts) or multicellular                             |
 | Protists      | Malaria (Plasmodium)     | In most cases single-celled; often transferred by vectors                  |
+
+</div>
 
 ### 3.2 Disease Transmission
 
@@ -483,10 +507,14 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 Example cross: Bb x Bb (both heterozygous for brown eyes, B dominant, b recessive):
 
+<div class="table-wrap">
+
 |       | B   | b   |
 | ----- | --- | --- |
 | **B** | BB  | Bb  |
 | **b** | Bb  | bb  |
+
+</div>
 
 Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 
@@ -669,6 +697,8 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 
 ## 8. Key Terms
 
+<div class="table-wrap">
+
 | Term             | Definition                                                                                                         |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Mitosis          | Cell division producing two identical diploid daughter cells                                                       |
@@ -683,6 +713,8 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 | Mutation         | A change in the DNA sequence; can be beneficial, harmful, or neutral                                               |
 | Epigenetics      | Changes in gene expression not caused by changes to the DNA sequence                                               |
 | Trophic level    | The position of an organism in a food chain                                                                        |
+
+</div>
 
 ---
 

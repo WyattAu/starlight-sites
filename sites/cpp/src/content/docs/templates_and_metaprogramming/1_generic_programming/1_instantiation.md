@@ -173,6 +173,8 @@ A name is **dependent** if and only if it falls into one of the following catego
 S13.8.3]. This classification determines when the compiler performs name lookup and what
 Declarations are visible.
 
+<div class="table-wrap">
+
 | Category                                                   | Example                       | Dependent?    | Lookup Phase |
 | ---------------------------------------------------------- | ----------------------------- | ------------- | ------------ |
 | Simple unqualified name, no template param involvement     | `x``std::cout`                | No            | Phase 1      |
@@ -184,6 +186,8 @@ Declarations are visible.
 | Type-dependent expression in `sizeof` / `decltype`         | `sizeof(T)``decltype(x)`      | Yes           | Phase 2      |
 | `throw` expression with dependent type                     | `throw T{}`                   | Yes           | Phase 2      |
 | `new` expression with dependent type                       | `new T()`                     | Yes           | Phase 2      |
+
+</div>
 
 The critical distinction is between the first two rows (non-dependent, phase 1) and everything else.
 Names in the first two rows are resolved once and permanently at definition time. Names in the
@@ -488,6 +492,8 @@ Of this technique.
 
 ### Implicit vs Explicit Instantiation Trade-offs
 
+<div class="table-wrap">
+
 | Aspect                  | Implicit                             | Explicit (`template class`)      | `extern template`                      |
 | ----------------------- | ------------------------------------ | -------------------------------- | -------------------------------------- |
 | When it occurs          | At first use in each TU              | At the declaration site          | Suppressed; provided externally        |
@@ -498,6 +504,8 @@ Of this technique.
 | Build time impact       | High (scales with TU count)          | Low (one TU does the work)       | Low (one TU does the work)             |
 | Typical use case        | Most application code                | Library headers with known types | Heavy templates in shared libs         |
 | Header vs source        | Header only                          | One TU, header declares `extern` | Header declares `extern`One TU defines |
+
+</div>
 
 ## How Compilers Implement Template Instantiation
 
@@ -623,12 +631,16 @@ void use_tu2() {
 
 Template code has a significant asymmetry between debug and release builds:
 
+<div class="table-wrap">
+
 | Aspect        | Debug (`-O0`)                                      | Release (`-O2` / `-O3`)                   |
 | ------------- | -------------------------------------------------- | ----------------------------------------- |
 | Inline depth  | None (all calls are real function calls)           | Aggressive (most calls inlined)           |
 | Code size     | Large (every specialization emits a separate copy) | Small after inlining + dedup              |
 | Compile time  | Slow (every specialization fully compiled)         | Slow compilation, but linker deduplicates |
 | Debuggability | Easy: each specialization has a symbol             | Hard: inlined code has no frame           |
+
+</div>
 
 In debug builds, every template specialization produces a full function with a mangled symbol name.
 A single `std::vector<int>::push_back` call is a real call instruction. In release builds with

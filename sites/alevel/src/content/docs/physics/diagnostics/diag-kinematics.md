@@ -386,9 +386,13 @@ Total distance travelled by $A$ $= 0.80 + 0.951 = 1.75\,\text{m}$
 The velocity of a car during an emergency stop is recorded at equal time intervals of
 $0.5\,\text{s}$:
 
+<div class="table-wrap">
+
 | $t\,/\,\text{s}$                | 0    | 0.5  | 1.0  | 1.5  | 2.0 | 2.5 | 3.0 |
 | ------------------------------- | ---- | ---- | ---- | ---- | --- | --- | --- |
 | $v\,/\,\text{m}\,\text{s}^{-1}$ | 20.0 | 17.5 | 14.8 | 11.7 | 8.2 | 4.3 | 0   |
+
+</div>
 
 (a) Use the trapezium rule to estimate the thinking distance (distance travelled during the driver's
 reaction time of $0.7\,\text{s}$) and the braking distance (total stopping distance minus thinking

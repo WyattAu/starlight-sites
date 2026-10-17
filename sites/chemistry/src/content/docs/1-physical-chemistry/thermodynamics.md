@@ -172,11 +172,15 @@ maximum non-expansion work.
 
 ### 3.2 Spontaneity Criteria
 
+<div class="table-wrap">
+
 | Condition                     | Criterion       |
 | ----------------------------- | ---------------- |
 | Constant $T$, $V$ (closed)    | $dA < 0$         |
 | Constant $T$, $P$ (closed)    | $dG < 0$         |
 | Isolated system               | $dS > 0$         |
+
+</div>
 
 ### 3.3 Fundamental Equations
 
@@ -581,6 +585,8 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Chemical Kinetics        | WyattsNotes | [View](/1-physical-chemistry/chemical-kinetics/)                  |
@@ -588,7 +594,9 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 | Statistical Mechanics    | WyattsNotes | [View](/1-physical-chemistry/statistical-mechanics/)               |
 | Thermodynamics, MIT 5.60| MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

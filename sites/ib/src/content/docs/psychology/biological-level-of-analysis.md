@@ -158,6 +158,8 @@ Research methods in the BLOA reflect its focus on physiological measurement:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)      | Focus                         | Key Finding                                                                                                                                                                            |
 | ---------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Maguire et al. (2000)  | Neuroplasticity               | London taxi drivers had significantly larger posterior hippocampi than matched controls, demonstrating experience-dependent structural brain changes.                                  |
@@ -165,6 +167,8 @@ Research methods in the BLOA reflect its focus on physiological measurement:
 | Olds and Milner (1954) | Brain localisation            | Electrical stimulation of the septal area in rats produced self-stimulation behaviour, identifying pleasure/reward centres in the brain.                                               |
 | LeDoux (1996)          | Emotion and brain function    | Identified two neural pathways for fear processing: a fast subcortical route through the amygdala and a slower cortical route, explaining rapid emotional responses.                   |
 | Harlow (1958)          | Attachment (biological basis) | Rhesus monkeys preferred a cloth-covered wire surrogate (contact comfort) over a wire surrogate that provided food, demonstrating that attachment is not solely driven by nourishment. |
+
+</div>
 
 ## Summary
 

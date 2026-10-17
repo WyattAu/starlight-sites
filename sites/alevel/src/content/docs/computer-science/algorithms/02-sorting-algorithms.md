@@ -273,11 +273,15 @@ $\square$
 
 ### Complexity
 
+<div class="table-wrap">
+
 | Case    | Time          | Pivot choice     |
 | ------- | ------------- | ---------------- |
 | Best    | $O(n \log n)$ | Median           |
 | Average | $O(n \log n)$ | Random           |
 | Worst   | $O(n^2)$      | Min/max (sorted) |
+
+</div>
 
 **Space:** $O(\log n)$ average (recursion stack), $O(n)$ worst. **Stable:** No (partitioning swaps
 Can change relative order).
@@ -297,6 +301,8 @@ Master Theorem.
 
 ## 6. Comparison Table
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | $O(1)$      | Yes    |
@@ -304,6 +310,8 @@ Master Theorem.
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$ | No     |
 | Heap Sort      | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$      | No     |
+
+</div>
 
 <hr />
 
@@ -362,12 +370,16 @@ Insertion.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | i   | key | Array state                |
 | --- | --- | -------------------------- |
 | 1   | 1   | [1, 5, 4, 2, 8]            |
 | 2   | 4   | [1, 4, 5, 2, 8]            |
 | 3   | 2   | [1, 2, 4, 5, 8]            |
 | 4   | 8   | [1, 2, 4, 5, 8] (no shift) |
+
+</div>
 
 Sorted: `[1, 2, 4, 5, 8]`
 
@@ -378,6 +390,8 @@ Sorted: `[1, 2, 4, 5, 8]`
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | L remaining | R remaining  | Output           |
 | ---- | ----------- | ------------ | ---------------- |
 | 1    | [1, 3, 5]   | [2, 4, 6, 8] | 1 < 2 → output 1 |
@@ -386,6 +400,8 @@ Sorted: `[1, 2, 4, 5, 8]`
 | 4    | [5]         | [4, 6, 8]    | 5 > 4 → output 4 |
 | 5    | [5]         | [6, 8]       | 5 < 6 → output 5 |
 | 6    | []          | [6, 8]       | append [6, 8]    |
+
+</div>
 
 Result: `[1, 2, 3, 4, 5, 6, 8]`
 

@@ -69,6 +69,8 @@ When `Caller()` invokes `Callee()`:
 
 Consider the layout in memory (High addresses at top, Low at bottom):
 
+<div class="table-wrap">
+
 | Address     | Content            | Description                                         |
 | :---------- | :----------------- | :-------------------------------------------------- |
 | `0x7FFF08`  | `Arg N`            | Stack arguments (if any)                            |
@@ -77,6 +79,8 @@ Consider the layout in memory (High addresses at top, Low at bottom):
 | `0x7FFFF0`  | `local_var_1`      | Local variables of current function.                |
 | `0x7FFF...` | ...                | ...                                                 |
 | `0x7FFFE0`  | `buffer[0]`        | Start of a local array.                             |
+
+</div>
 
 ## 3. Buffer Overflows (Stack Smashing)
 
@@ -238,11 +242,15 @@ Look for `Security Cookie` entries.
 
 Every thread receives a fixed-size stack at creation time. The default size varies by platform:
 
+<div class="table-wrap">
+
 | Platform      | Default Stack Size                    | Configuration Mechanism                             |
 | :------------ | :------------------------------------ | :-------------------------------------------------- |
 | Linux (glibc) | 8 MB                                  | `ulimit -s` (soft limit), `setrlimit(RLIMIT_STACK)` |
 | macOS         | 8 MB (main thread), 512 KB (pthreads) | `ulimit -s, pthread_attr_setstacksize`              |
 | Windows       | 1 MB                                  | `/STACK:reserve,commit` linker flag                 |
+
+</div>
 
 ### Detecting Stack Exhaustion
 

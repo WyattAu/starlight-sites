@@ -640,6 +640,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 
 ## Choosing Between Concurrency Primitives
 
+<div class="table-wrap">
+
 | Mechanism    | Best For                    | Trade-offs                         |
 | ------------ | --------------------------- | ---------------------------------- |
 | `forkIO`     | Fire-and-forget tasks       | No built-in result collection      |
@@ -648,6 +650,8 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 | `STM`        | Complex coordination        | Slight overhead per transaction    |
 | `async`      | High-level concurrent tasks | Higher-level abstraction           |
 | `Strategies` | Data parallelism            | Deterministic, no side effects     |
+
+</div>
 
 ## Compiling for Parallelism
 

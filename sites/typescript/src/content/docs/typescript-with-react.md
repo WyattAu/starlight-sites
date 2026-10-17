@@ -83,12 +83,16 @@ function Card({ title, children }: CardProps) {
 
 ### Component Typing Comparison
 
+<div class="table-wrap">
+
 | Approach                               | `children`           | Pros                            | Cons                                            |
 | -------------------------------------- | -------------------- | ------------------------------- | ----------------------------------------------- |
 | `FC<Props>`                            | Implicit             | Concise, includes ref typing    | Implicit children, deprecated in React 18 types |
 | `(props: Props) => JSX.Element`        | Explicit if declared | Full control, modern convention | Must type return explicitly                     |
 | `(props: Props) => React.ReactElement` | Explicit if declared | Precise return type             | Does not allow `null` or `string` returns       |
 | `function Component(props: Props)`     | Explicit if declared | Readable, supports overloads    | Verbose                                         |
+
+</div>
 
 ### `ComponentPropsWithRef` and `ComponentPropsWithoutRef`
 
@@ -107,11 +111,15 @@ Including all HTML attributes but excluding `ref`. Use `ComponentPropsWithRef` t
 
 ### `ReactNode` vs `JSX.Element` vs `ReactElement`
 
+<div class="table-wrap">
+
 | Type                 | Description                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
 | `React.ReactNode`    | Anything React can render: elements, strings, numbers, `null``undefined`Booleans, arrays, portals |
 | `React.ReactElement` | A React element (result of `createElement` or JSX)                                                |
 | `JSX.Element`        | Alias for `React.ReactElement` in the current JSX namespace                                       |
+
+</div>
 
 For component return types and `children` props, `React.ReactNode` is the most permissive and
 Generally correct choice.
@@ -156,6 +164,8 @@ function Input() {
 
 ### Event Type Reference
 
+<div class="table-wrap">
+
 | Event Type          | Target Element                  |
 | ------------------- | ------------------------------- |
 | `MouseEvent<T>`     | `<div>``<button>``<a>`Etc.      |
@@ -166,6 +176,8 @@ function Input() {
 | `DragEvent<T>`      | Any draggable element           |
 | `WheelEvent<T>`     | Any element                     |
 | `ClipboardEvent<T>` | Any element                     |
+
+</div>
 
 ### Inline Event Handlers
 
@@ -603,11 +615,15 @@ Produces `unknown` for the ref type.
 
 ### `RefObject` vs `MutableRefObject` vs `Ref<T>`
 
+<div class="table-wrap">
+
 | Type                  | Description                                       |
 | --------------------- | ------------------------------------------------- |
 | `RefObject<T>`        | Immutable ref object (`current` is readonly)      |
 | `MutableRefObject<T>` | Mutable ref object (`current` is writable)        |
 | `Ref<T>`              | `RefObject<T> \| ((instance: T) => void) \| null` |
+
+</div>
 
 ```tsx
 const immutableRef = useRef<HTMLDivElement>(null);

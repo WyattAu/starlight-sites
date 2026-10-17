@@ -186,6 +186,8 @@ All standard electrode potentials ($E^\circ$) are measured under:
 
 The electrochemical series ranks species by their tendency to be reduced. Some key values:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -198,6 +200,8 @@ The electrochemical series ranks species by their tendency to be reduced. Some k
 | $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$                                                | $-0.76$       |
 | $\mathrm{Na}^+ + e^- \rightleftharpoons \mathrm{Na}$                                                    | $-2.71$       |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | $-3.04$       |
+
+</div>
 
 **Definition.** A more positive $E^\circ$ value indicates a greater tendency for the species to be
 Reduced (stronger oxidizing agent). A more negative $E^\circ$ indicates a greater tendency for the
@@ -254,6 +258,8 @@ Circuit.
 
 ### Cell Components
 
+<div class="table-wrap">
+
 | Component            | Function                                                                                                                                                                   |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Anode**            | Electrode where oxidation occurs. Electrons are released. Negative electrode in galvanic cells.                                                                            |
@@ -261,6 +267,8 @@ Circuit.
 | **Salt bridge**      | Completes the internal circuit by allowing ion migration. Maintains electrical neutrality. Contains an inert electrolyte (e.g., $\mathrm{KNO}_3$(aq), $\mathrm{KCl}$(aq)). |
 | **External circuit** | Wire connecting the two electrodes through which electrons flow.                                                                                                           |
 | **Voltmeter**        | Measures the potential difference between the two half-cells.                                                                                                              |
+
+</div>
 
 ### Salt Bridge
 
@@ -336,12 +344,16 @@ Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 In a galvanic cell:
 
+<div class="table-wrap">
+
 | Feature               | Anode                 | Cathode                |
 | --------------------- | --------------------- | ---------------------- |
 | Process               | Oxidation             | Reduction              |
 | Electron flow         | Electrons leave       | Electrons arrive       |
 | Sign in galvanic cell | Negative ($-$)        | Positive ($+$)         |
 | Ion migration         | Anions migrate toward | Cations migrate toward |
+
+</div>
 :::
 
 :::caution[Common Mistake]
@@ -379,6 +391,8 @@ Direction to what would occur spontaneously.
 
 ### Key Differences: Galvanic vs. Electrolytic
 
+<div class="table-wrap">
+
 | Feature               | Galvanic Cell                                 | Electrolytic Cell                                 |
 | --------------------- | --------------------------------------------- | ------------------------------------------------- |
 | Energy conversion     | Chemical to electrical                        | Electrical to chemical                            |
@@ -387,6 +401,8 @@ Direction to what would occur spontaneously.
 | Cathode sign          | Positive                                      | Negative                                          |
 | External power supply | Not required                                  | Required                                          |
 | Salt bridge           | Yes                                           | Not required (single cell)                        |
+
+</div>
 
 ### Electrolysis of Molten Compounds
 
@@ -412,11 +428,15 @@ Depends on the **relative ease of discharge** (electrode potential and overpoten
 
 #### Discharge at the Cathode (Reduction)
 
+<div class="table-wrap">
+
 | Cation present                                                                 | Species discharged                                  | Reason                                                          |
 | ------------------------------------------------------------------------------ | --------------------------------------------------- | --------------------------------------------------------------- |
 | Group 1 ($\mathrm{Li}^+$$\mathrm{Na}^+$$\mathrm{K}^+$)                         | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{H}_2$) | These cations are very hard to reduce ($E^\circ$ very negative) |
 | Group 2 ($\mathrm{Mg}^{2+}$$\mathrm{Ca}^{2+}$)                                 | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{H}_2$) | Still too hard to reduce in aqueous solution                    |
 | Transition metals and below ($\mathrm{Cu}^{2+}$$\mathrm{Ag}^+$$\mathrm{Au}^+$) | Metal cation                                        | These are easier to reduce than water                           |
+
+</div>
 
 The reduction of water at the cathode:
 
@@ -426,10 +446,14 @@ $$
 
 #### Discharge at the Anode (Oxidation)
 
+<div class="table-wrap">
+
 | Anion present                                             | Species discharged                                    | Reason                                               |
 | --------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------- |
 | Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$)    | Halide ion (except with concentrated $\mathrm{Cl}^-$) | Easier to oxidize than water (except $\mathrm{F}^-$) |
 | $\mathrm{SO}_4^{2-}$$\mathrm{NO}_3^-$$\mathrm{CO}_3^{2-}$ | $\mathrm{H}_2\mathrm{O}$ (producing $\mathrm{O}_2$)   | These anions are not discharged in aqueous solution  |
+
+</div>
 
 The oxidation of water at the anode:
 
@@ -491,6 +515,8 @@ in solution.
 
 ### Factors Affecting Electroplating Quality
 
+<div class="table-wrap">
+
 | Factor                  | Effect                                                                       |
 | ----------------------- | ---------------------------------------------------------------------------- |
 | Current density         | Too high causes rough, brittle deposits; too low causes slow, uneven plating |
@@ -498,6 +524,8 @@ in solution.
 | Ion concentration       | Higher concentration generally improves deposit quality                      |
 | Electrolyte composition | Adding complexing agents (e.g., cyanide) improves smoothness                 |
 | Cathode preparation     | Surface must be clean and free of oxides                                     |
+
+</div>
 
 ### Electrorefining of Copper
 
@@ -548,12 +576,16 @@ the anode, which would react with $\mathrm{Cl}_2$ to form hypochlorite.
 
 Comparison of chlor-alkali cell types:
 
+<div class="table-wrap">
+
 | Feature                | Membrane Cell    | Diaphragm Cell | Mercury Cell        |
 | ---------------------- | ---------------- | -------------- | ------------------- |
 | $\mathrm{NaOH}$ purity | High (up to 50%) | Lower (~11%)   | Very high (50%)     |
 | Energy consumption     | Moderate         | Higher         | Highest             |
 | Environmental impact   | Low              | Moderate       | High (Hg pollution) |
 | Current usage          | Primary method   | Declining      | Phased out          |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
@@ -774,12 +806,16 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 
 ### Summary of Relationships
 
+<div class="table-wrap">
+
 | Equation                                                           | What it Gives                                                             |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------- |
 | $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$                      | Spontaneity ($\Delta G^\circ \lt 0$ when $E^\circ_{\mathrm{cell}} \gt 0$) |
 | $E^\circ_{\mathrm{cell}} = \frac{RT}{nF}\ln K$                     | Equilibrium constant from cell potential                                  |
 | $E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac{RT}{nF}\ln Q$ | Cell potential under non-standard conditions                              |
 | $\Delta G = -nFE_{\mathrm{cell}}$                                  | Gibbs free energy under non-standard conditions                           |
+
+</div>
 :::
 
 :::caution[Common Mistake]
@@ -961,6 +997,8 @@ The PEM allows only $\mathrm{H}^+$ ions to pass. Both electrodes contain a plati
 
 ### Comparison of Fuel Cell Types
 
+<div class="table-wrap">
+
 | Feature        | Alkaline Fuel Cell (AFC)            | PEM Fuel Cell                      |
 | -------------- | ----------------------------------- | ---------------------------------- |
 | Electrolyte    | Concentrated $\mathrm{KOH}$         | Solid polymer membrane             |
@@ -969,6 +1007,8 @@ The PEM allows only $\mathrm{H}^+$ ions to pass. Both electrodes contain a plati
 | Catalyst       | Platinum or nickel                  | Platinum                           |
 | Efficiency     | ~60%                                | ~40-50%                            |
 | Applications   | Space missions (Apollo, Shuttle)    | Vehicles, portable power           |
+
+</div>
 
 ### Thermodynamic Efficiency
 
@@ -993,6 +1033,8 @@ Transport limitations, $40\mathrm{-}60\%$.
 
 ### Advantages and Disadvantages of Fuel Cells
 
+<div class="table-wrap">
+
 | Advantages                                                         | Disadvantages                                    |
 | ------------------------------------------------------------------ | ------------------------------------------------ |
 | High efficiency compared to combustion engines                     | Hydrogen storage and transport challenges        |
@@ -1000,6 +1042,8 @@ Transport limitations, $40\mathrm{-}60\%$.
 | Quiet operation                                                    | Platinum catalysts are expensive                 |
 | Continuous operation with fuel supply                              | Limited infrastructure for hydrogen refuelling   |
 | Scalable design                                                    | Water management in PEM cells                    |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
@@ -1057,6 +1101,8 @@ $\mathrm{Fe(OH)}_3$ dehydrates to form $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm
 
 ### Factors Affecting Corrosion Rate
 
+<div class="table-wrap">
+
 | Factor                          | Effect on Corrosion                                                |
 | ------------------------------- | ------------------------------------------------------------------ |
 | Presence of water and oxygen    | Both required for rusting                                          |
@@ -1066,6 +1112,8 @@ $\mathrm{Fe(OH)}_3$ dehydrates to form $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm
 | Contact with less active metals | Iron acts as anode and corrodes faster                             |
 | Contact with more active metals | Iron acts as cathode and is protected (galvanic protection)        |
 | Stress in metal                 | Stressed regions are more anodic and corrode faster                |
+
+</div>
 
 ### Prevention Methods
 
@@ -1110,6 +1158,8 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 
 ### Comparison of Protection Methods
 
+<div class="table-wrap">
+
 | Method                     | Mechanism             | Advantages                     | Limitations                                  |
 | -------------------------- | --------------------- | ------------------------------ | -------------------------------------------- |
 | Barrier coating            | Physical barrier      | Simple, inexpensive            | Fails if scratched                           |
@@ -1117,6 +1167,8 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 | Sacrificial anodes         | Galvanic protection   | Replaceable, effective         | Anodes must be periodically replaced         |
 | Alloying (stainless steel) | Passive oxide layer   | Very durable                   | Expensive, not suitable for all applications |
 | Impressed current          | Forced cathode        | Effective for large structures | Requires continuous power supply             |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
@@ -1185,11 +1237,15 @@ The state of charge can be determined by measuring the density of the electrolyt
 Discharges, $\mathrm{H}_2\mathrm{SO}_4$ is consumed and $\mathrm{H}_2\mathrm{O}$ is produced,
 Decreasing the electrolyte density.
 
+<div class="table-wrap">
+
 | Parameter                                 | Fully Charged  | Discharged     |
 | ----------------------------------------- | -------------- | -------------- |
 | Electrolyte density                       | ~1.28 g/cm$^3$ | ~1.10 g/cm$^3$ |
 | Cell voltage                              | ~2.1 V         | ~1.8 V         |
 | $\mathrm{H}_2\mathrm{SO}_4$ concentration | High           | Low            |
+
+</div>
 
 ### Lithium-Ion Batteries
 
@@ -1214,6 +1270,8 @@ Key features:
 - Memory effect is negligible.
 - Degradation occurs over time due to electrolyte decomposition and electrode material degradation.
 
+<div class="table-wrap">
+
 | Feature             | Lead-Acid      | Lithium-Ion          |
 | ------------------- | -------------- | -------------------- |
 | Cell voltage        | 2.0 V          | 3.7 V                |
@@ -1223,6 +1281,8 @@ Key features:
 | Toxicity            | Lead is toxic  | Less toxic materials |
 | Cost                | Lower          | Higher               |
 | Weight              | Heavy          | Lightweight          |
+
+</div>
 :::
 
 :::note[IB Exam Tip]
@@ -1247,10 +1307,14 @@ Reversibility is what makes the battery rechargeable.
 
 Consider the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                            | $E^\circ$ (V) |
 | -------------------------------------------------------- | ------------- |
 | $\mathrm{Mg}^{2+} + 2e^- \rightleftharpoons \mathrm{Mg}$ | $-2.37$       |
 | $\mathrm{Ag}^+ + e^- \rightleftharpoons \mathrm{Ag}$     | $+0.80$       |
+
+</div>
 
 **(a)** Write the cell diagram notation for a galvanic cell constructed from these two half-cells.
 (1 mark)
@@ -1538,6 +1602,8 @@ toward the products.
 
 ## Summary of Key Equations
 
+<div class="table-wrap">
+
 | Equation                                                                          | Application                              |
 | --------------------------------------------------------------------------------- | ---------------------------------------- |
 | $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}$ | Calculating standard cell potential      |
@@ -1548,6 +1614,8 @@ toward the products.
 | $\mathrm{Efficiency} = \frac{\Delta G^\circ}{\Delta H^\circ} \times 100\%$        | Fuel cell theoretical efficiency         |
 | $E^\circ_{\mathrm{cell}} = \frac{\Delta G^\circ}{-nF} = \frac{RT}{nF}\ln K$       | Thermodynamic relationships              |
 
+</div>
+
 ## Practice Problems
 
 <details>
@@ -1555,12 +1623,16 @@ toward the products.
 
 Given the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                | $E^\circ$ (V) |
 | ------------------------------------------------------------ | ------------- |
 | $\mathrm{Fe}^{3+} + e^- \rightleftharpoons \mathrm{Fe}^{2+}$ | $+0.77$       |
 | $\mathrm{I}_2 + 2e^- \rightleftharpoons 2\mathrm{I}^-$       | $+0.54$       |
 | $\mathrm{Br}_2 + 2e^- \rightleftharpoons 2\mathrm{Br}^-$     | $+1.07$       |
 | $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$     | $-0.76$       |
+
+</div>
 
 (a) Will $\mathrm{Fe}^{3+}$ oxidise $\mathrm{I}^-$ to $\mathrm{I}_2$? Calculate
 $E^\circ_{\mathrm{cell}}$.
@@ -1778,11 +1850,15 @@ $$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                                         |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Electrochemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/electrochemistry)                           |
 | [Electrochemistry] | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry/)                                  |
 | [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
 

@@ -31,6 +31,8 @@ and the developer's perspective.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect            | Conceptual Model                            | Physical Model                               |
 | ----------------- | ------------------------------------------- | -------------------------------------------- |
 | Focus             | What the system does                        | How the system is implemented                |
@@ -39,6 +41,8 @@ and the developer's perspective.
 | Technology        | Technology-independent                      | Technology-specific                          |
 | Examples          | ERDs, use case diagrams, data flow diagrams | Schema definitions, file structures, indexes |
 | Changes           | Stable (reflects the problem)               | Changes with technology or optimization      |
+
+</div>
 
 ### Worked Example: Library System
 
@@ -287,6 +291,8 @@ Specification.
 
 **Specification:**
 
+<div class="table-wrap">
+
 | Operation    | Precondition       | Postcondition                                            |
 | ------------ | ------------------ | -------------------------------------------------------- |
 | `push(item)` | Stack is not full  | `item` is on top; size increases by 1                    |
@@ -294,6 +300,8 @@ Specification.
 | `peek()`     | Stack is not empty | Returns top element; stack is unchanged                  |
 | `isEmpty()`  | None               | Returns TRUE if size is 0, FALSE otherwise               |
 | `size()`     | None               | Returns the number of elements in the stack              |
+
+</div>
 
 **Implementation (array-based):**
 
@@ -410,6 +418,8 @@ Linked-list-based stack implementations.
 
 **Array-based stack** (MAX_SIZE = 5):
 
+<div class="table-wrap">
+
 | Operation | `top` | Stack contents (bottom to top) | Output |
 | --------- | ----- | ------------------------------ | ------ |
 | push(10)  | 0     | [10]                           | --     |
@@ -418,7 +428,11 @@ Linked-list-based stack implementations.
 | pop()     | 1     | [10, 20]                       | 30     |
 | pop()     | 0     | [10]                           | 20     |
 
+</div>
+
 **Linked-list-based stack:**
+
+<div class="table-wrap">
 
 | Operation | `count` | Head → ... (top is head) | Output |
 | --------- | ------- | ------------------------ | ------ |
@@ -427,6 +441,8 @@ Linked-list-based stack implementations.
 | push(30)  | 3       | 30 → 20 → 10 → NIL       | --     |
 | pop()     | 2       | 20 → 10 → NIL            | 30     |
 | pop()     | 1       | 10 → NIL                 | 20     |
+
+</div>
 
 Both implementations produce identical external behavior (same outputs for same operations). The
 Internal state differs (array index vs. Linked pointers), but the caller cannot observe this
@@ -546,11 +562,15 @@ Behaviors).
 
 ### Access Modifiers
 
+<div class="table-wrap">
+
 | Modifier    | Visibility                                 | Purpose                                        |
 | ----------- | ------------------------------------------ | ---------------------------------------------- |
 | `PUBLIC`    | Accessible from anywhere                   | Defines the interface exposed to other code    |
 | `PRIVATE`   | Accessible only within the class           | Hides implementation details                   |
 | `PROTECTED` | Accessible within the class and subclasses | Allows subclass access while hiding externally |
+
+</div>
 
 ### Worked Example: BankAccount Class
 
@@ -614,6 +634,8 @@ OUTPUT result
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | Operation                   | Balance | Return Value | Notes                         |
 | ---- | --------------------------- | ------- | ------------ | ----------------------------- |
 | 1    | `new BankAccount(..., 100)` | 100     | --           | Initial balance = 100         |
@@ -621,6 +643,8 @@ OUTPUT result
 | 3    | `acc.withdraw(200)`         | 150     | FALSE        | $200 \gt 150$ Withdrawal fails |
 | 4    | `acc.withdraw(100)`         | 50      | TRUE         | $100 \le 150$ Succeeds         |
 | 5    | `acc.getBalance()`          | 50      | 50           | Returns current balance       |
+
+</div>
 
 **Outputs:** 50, TRUE
 
@@ -669,12 +693,16 @@ External code must use to interact with a service.
 
 **Types of APIs:**
 
+<div class="table-wrap">
+
 | Type         | Description                                                   | Example                     |
 | ------------ | ------------------------------------------------------------- | --------------------------- |
 | REST API     | Uses HTTP methods (GET, POST, PUT, DELETE) with JSON payloads | OpenWeatherMap, Twitter API |
 | Library API  | Functions and classes provided by a library                   | Python's `requests` library |
 | OS API       | Functions provided by the operating system                    | POSIX file I/O, Win32 API   |
 | Database API | Protocol for interacting with a database                      | JDBC (Java), SQLite API     |
+
+</div>
 
 **API abstraction:** The caller of an API does not need to know how the API is implemented. When you
 Call `requests.get(url)`. You do not need to know how the HTTP protocol is implemented at the socket
@@ -783,6 +811,8 @@ Visibility prefixes: `+` (public), `-` (private), `#` (protected)
 
 ### Relationship Types
 
+<div class="table-wrap">
+
 | Relationship | UML Notation              | Description                                                   |
 | ------------ | ------------------------- | ------------------------------------------------------------- |
 | Association  | Solid line                | General relationship between two classes                      |
@@ -790,6 +820,8 @@ Visibility prefixes: `+` (public), `-` (private), `#` (protected)
 | Composition  | Filled diamond on one end | "Has-a" relationship, strong ownership (lifecycle dependency) |
 | Inheritance  | Hollow triangle arrow     | "Is-a" relationship, generalization                           |
 | Dependency   | Dashed arrow              | One class uses another temporarily                            |
+
+</div>
 
 ### Worked Example: School System
 
@@ -932,10 +964,14 @@ OUTPUT totalArea
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Step | `i` | `shapes[i]` | Method Called      | Result                      | `totalArea` |
 | ---- | --- | ----------- | ------------------ | --------------------------- | ----------- |
 | 1    | 0   | Rectangle   | `Rectangle.area()` | $4 \times 6 = 24$           | 24          |
 | 2    | 1   | Circle      | `Circle.area()`    | $3.14159 \times 25 = 78.54$ | 102.54      |
+
+</div>
 
 **Output:** 102.54
 
@@ -1264,6 +1300,8 @@ State the value returned by each `pop()` and `peek()` call.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Operation  | Stack (top on right) | Returned |
 | ---------- | -------------------- | -------- |
 | `push(10)` | 10                   | --       |
@@ -1274,6 +1312,8 @@ State the value returned by each `pop()` and `peek()` call.
 | `peek()`   | 10, 20, 40           | 40       |
 | `pop()`    | 10, 20               | 40       |
 | `pop()`    | 10                   | 20       |
+
+</div>
 
 Values returned: `pop()` returns 30, then 40, then 20. `peek()` returns 40. Final stack: [10].
 
@@ -1305,6 +1345,8 @@ Empty queue, trace the queue after: `enqueue("A")`, `enqueue("B")`, `enqueue("C"
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Operation      | Queue (front on left) | Returned |
 | -------------- | --------------------- | -------- |
 | `enqueue("A")` | A                     | --       |
@@ -1313,6 +1355,8 @@ Empty queue, trace the queue after: `enqueue("A")`, `enqueue("B")`, `enqueue("C"
 | `dequeue()`    | B, C                  | A        |
 | `enqueue("D")` | B, C, D               | --       |
 | `dequeue()`    | C, D                  | B        |
+
+</div>
 
 Final queue: [C, D], front = C. Elements removed: A, B. This demonstrates FIFO behavior: the
 Earliest elements added are the first to be removed.
@@ -1513,12 +1557,16 @@ a single responsibility. Each can be developed and modified independently.
 
 **Problem 12.** Consider the following unnormalized table for a university course enrollment system:
 
+<div class="table-wrap">
+
 | studentID | studentName | courseCode | courseName  | credits | semester | grade |
 | --------- | ----------- | ---------- | ----------- | ------- | -------- | ----- |
 | S001      | Alice       | CS101      | Intro to CS | 3       | Fall     | A     |
 | S001      | Alice       | MA101      | Calculus    | 4       | Fall     | B     |
 | S002      | Bob         | CS101      | Intro to CS | 3       | Fall     | A     |
 | S002      | Bob         | PH101      | Physics     | 3       | Spring   | C     |
+
+</div>
 
 Identify the normalization issues and convert this to 3NF.
 
@@ -1650,11 +1698,15 @@ practical implementation, and key applications.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                                 |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
 | [Data Structures] | IB         | [View](https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/) |
 | [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
+
+</div>
 
 ---
 

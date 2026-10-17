@@ -106,6 +106,8 @@ if (WIFEXITED(status)) {
 
 ### Process Identification
 
+<div class="table-wrap">
+
 | Identifier   | Field in `task_struct` | Description                               |
 | ------------ | ---------------------- | ----------------------------------------- |
 | **PID**      | `pid`                  | Process identifier (unique system-wide)   |
@@ -115,6 +117,8 @@ if (WIFEXITED(status)) {
 | **SID**      | `signal->leader->pid`  | Session ID (for job control)              |
 | **UID/EUID** | `real_cred/cred`       | Real and effective user ID                |
 | **GID/EGID** | `real_cred/cred`       | Real and effective group ID               |
+
+</div>
 
 In Linux, threads are implemented as processes that share certain resources (address space, file
 Descriptors, signal handlers). Each thread has its own TID, but all threads in a process share the
@@ -161,6 +165,8 @@ stateDiagram-v2
     ZOMBIE --> [*]: parent calls wait
 ```
 
+<div class="table-wrap">
+
 | State                    | Code | Description                                                    |
 | ------------------------ | ---- | -------------------------------------------------------------- |
 | **TASK_RUNNING**         | R    | Runnable (either executing or on a run queue)                  |
@@ -170,6 +176,8 @@ stateDiagram-v2
 | **TASK_TRACED**          | t    | Stopped by debugger (ptrace)                                   |
 | **EXIT_ZOMBIE**          | Z    | Terminated, parent has not called `wait`                       |
 | **EXIT_DEAD**            | X    | Completely dead, waiting to be reaped                          |
+
+</div>
 
 ```bash
 # View process states
@@ -199,6 +207,8 @@ User-space processes.
 
 ### Standard Signals
 
+<div class="table-wrap">
+
 | Signal    | Number | Default Action | Description                                    |
 | --------- | ------ | -------------- | ---------------------------------------------- |
 | `SIGHUP`  | 1      | Terminate      | Terminal hangup (daemon reload convention)     |
@@ -220,6 +230,8 @@ User-space processes.
 | `SIGTSTP` | 20     | Stop           | Terminal stop (Ctrl+Z)                         |
 | `SIGTTIN` | 21     | Stop           | Background read from terminal                  |
 | `SIGTTOU` | 22     | Stop           | Background write to terminal                   |
+
+</div>
 
 ### Real-Time Signals
 
@@ -463,12 +475,16 @@ ionice -c 3 command             # idle (only uses I/O when no one else is)
 
 ### Real-Time Scheduling Policies
 
+<div class="table-wrap">
+
 | Policy           | `sched_setscheduler` | Description                                          |
 | ---------------- | -------------------- | ---------------------------------------------------- |
 | `SCHED_FIFO`     | 1                    | First-in, first-out, runs until blocked or preempted |
 | `SCHED_RR`       | 2                    | Round-robin with configurable time quantum           |
 | `SCHED_DEADLINE` | 6                    | Earliest Deadline First (EDF) scheduling             |
 | `SCHED_OTHER`    | 0                    | Default CFS policy                                   |
+
+</div>
 
 ```bash
 # View scheduling policy
@@ -495,6 +511,8 @@ Kubernetes, systemd).
 
 ### cgroups v1 vs v2
 
+<div class="table-wrap">
+
 | Aspect      | cgroups v1                    | cgroups v2                         |
 | ----------- | ----------------------------- | ---------------------------------- |
 | Hierarchy   | Multiple (one per controller) | Single unified hierarchy           |
@@ -502,6 +520,8 @@ Kubernetes, systemd).
 | Controllers | Independent, per-subsystem    | Unified, coordinated               |
 | Delegation  | Complex                       | Simplified                         |
 | Default     | Legacy systems                | Modern distributions (since ~2020) |
+
+</div>
 
 ```bash
 # Check cgroups version
@@ -594,11 +614,15 @@ ulimit -u 4096     # increase max processes
 # root      hard  nproc   unlimited
 ```
 
+<div class="table-wrap">
+
 | Limit Type  | Soft Limit                     | Hard Limit                              |
 | ----------- | ------------------------------ | --------------------------------------- |
 | Definition  | Enforced for the process       | Maximum the soft limit can be raised to |
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
+
+</div>
 :::
 
 :::caution

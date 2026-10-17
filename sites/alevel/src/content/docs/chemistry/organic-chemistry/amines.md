@@ -30,12 +30,16 @@ Positively charged.
 
 ## Classification and Nomenclature
 
+<div class="table-wrap">
+
 | Type      | Structure                 | Example                                                        |
 | --------- | ------------------------- | -------------------------------------------------------------- |
 | Primary   | $\mathrm{RNH}_2$          | Methylamine, $\mathrm{CH}_3\mathrm{NH}_2$                      |
 | Secondary | $\mathrm{R}_2\mathrm{NH}$ | Dimethylamine, $(\mathrm{CH}_3)_2\mathrm{NH}$                  |
 | Tertiary  | $\mathrm{R}_3\mathrm{N}$  | Trimethylamine, $(\mathrm{CH}_3)_3\mathrm{N}$                  |
 | Aromatic  | $\mathrm{ArNH}_2$         | Phenylamine (aniline), $\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2$ |
+
+</div>
 
 ## Preparation of Amines
 
@@ -183,6 +187,8 @@ Leaving group. The key reactions are:
 **Sandmeyer-type substitution:** The diazonium group is replaced by other groups, allowing the
 Introduction of substituents that cannot be directly attached by electrophilic substitution.
 
+<div class="table-wrap">
+
 | Reagent                     | Product       | Reaction                                                                                                                                                              |
 | --------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathrm{KI}$               | Iodobenzene   | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{I}^- \to \mathrm{C}_6\mathrm{H}_5\mathrm{I} + \mathrm{N}_2$                                                         |
@@ -190,6 +196,8 @@ Introduction of substituents that cannot be directly attached by electrophilic s
 | $\mathrm{H}_3\mathrm{PO}_2$ | Benzene       | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{H}_3\mathrm{PO}_2 + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_6 + \mathrm{N}_2 + \mathrm{H}_3\mathrm{PO}_3$ |
 | $\mathrm{CuCN}$             | Benzonitrile  | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{CuCN} \to \mathrm{C}_6\mathrm{H}_5\mathrm{CN} + \mathrm{N}_2$                                                       |
 | $\mathrm{CuCl}$, $\Delta$   | Chlorobenzene | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{Cl}^- \xrightarrow{\mathrm{CuCl},\,\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{Cl} + \mathrm{N}_2$                         |
+
+</div>
 
 **Coupling reactions:** Diazonium salts react with phenols and aromatic amines to form azo compounds
 ($-\mathrm{N}=\mathrm{N}-$). These are intensely coloured and are used as dyes.
@@ -298,11 +306,15 @@ neutral organic compounds.
 The Hinsberg test distinguishes between $1^\circ$, $2^\circ$ And $3^\circ$ amines using
 benzenesulphonyl chloride:
 
+<div class="table-wrap">
+
 | Amine type            | Observation with $\mathrm{C}_6\mathrm{H}_5\mathrm{SO}_2\mathrm{Cl}$             |
 | --------------------- | ------------------------------------------------------------------------------- |
 | Primary ($1^\circ$)   | Solid sulphonamide forms; dissolves in $\mathrm{NaOH}$ (acidic N--H)            |
 | Secondary ($2^\circ$) | Solid sulphonamide forms; does not dissolve in $\mathrm{NaOH}$ (no acidic N--H) |
 | Tertiary ($3^\circ$)  | No reaction (no N--H to deprotonate); starting amine recovered                  |
+
+</div>
 
 ### IR Spectroscopy of Amines
 
@@ -888,6 +900,8 @@ with nitrous acid.
 
 ### Key Disconnections
 
+<div class="table-wrap">
+
 | Target                          | Disconnection                     | Forward reagents                                |
 | ------------------------------- | --------------------------------- | ----------------------------------------------- |
 | Primary amine $\mathrm{R-NH_2}$ | $\mathrm{C-N}$ bond               | $\mathrm{R-X} + \text{excess }\mathrm{NH}_3$    |
@@ -895,6 +909,8 @@ with nitrous acid.
 | Nitrile $\mathrm{R-CN}$         | $\mathrm{C-CN}$ bond              | $\mathrm{R-X} + \mathrm{KCN}$                   |
 | Amide $\mathrm{RCONH_2}$        | $\mathrm{C-N}$ bond               | $\mathrm{RCOCl} + \text{excess }\mathrm{NH}_3$  |
 | Azo dye                         | $\mathrm{Ar-N=N-Ar'}$             | Diazotisation + coupling                        |
+
+</div>
 
 ### Worked Retrosynthesis
 

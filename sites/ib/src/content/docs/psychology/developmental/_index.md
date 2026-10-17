@@ -92,6 +92,8 @@ least one paragraph on cultural variation in evaluation.
 
 ## Essential Studies
 
+<div class="table-wrap">
+
 | Study                         | Researcher(s)                  | Year | Key Finding                                                                                                                                     | Evaluation Point                                                                 |
 | ----------------------------- | ------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Contact Comfort               | Harlow                         | 1958 | Infant monkeys preferred cloth surrogate mother over wire mother providing food; cloth mother provided security in frightening situations       | Severe ethical concerns (social isolation); animal generalisability debated      |
@@ -103,6 +105,8 @@ least one paragraph on cultural variation in evaluation.
 | Dual-Systems Model            | Steinberg                      | 2008 | Temporal gap between early-maturing socioemotional system and late-maturing cognitive control system explains heightened adolescent risk-taking | Neuroimaging evidence correlational; cannot establish causal direction           |
 | Peer Influence on Risk-Taking | Chein et al.                   | 2011 | Adolescents took more risks with peer observation (increased ventral striatum, decreased PFC activation); adults unaffected                     | Laboratory task may not capture real-world risk contexts fully                   |
 | Identity Status Model         | Marcia                         | 1966 | Four statuses (diffusion, foreclosure, moratorium, achievement) based on exploration and commitment dimensions                                  | Individualistic bias; may not capture collectivist identity development patterns |
+
+</div>
 
 ## Worked Examples
 
@@ -139,11 +143,15 @@ explanation and empirical evaluation.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Link                                                             |
 | ---------------------- | ---------------------------------------------------------------- |
 | Attachment Theory      | [View](/psychology/developmental/attachment-theory/)      |
 | Cognitive Development  | [View](/psychology/developmental/cognitive-development/)  |
 | Adolescent Development | [View](/psychology/developmental/adolescent-development/) |
+
+</div>
 
 ## Intuition
 

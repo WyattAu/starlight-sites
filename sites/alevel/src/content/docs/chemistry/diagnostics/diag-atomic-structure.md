@@ -85,9 +85,13 @@ from a lower-energy subshell with significantly higher nuclear attraction.
 
 The first eight successive ionisation energies of an element $X$ are shown below:
 
+<div class="table-wrap">
+
 | Ionisation                | 1st | 2nd  | 3rd  | 4th  | 5th   | 6th   | 7th   | 8th   |
 | ------------------------- | --- | ---- | ---- | ---- | ----- | ----- | ----- | ----- |
 | $IE / \text{kJ mol}^{-1}$ | 789 | 1577 | 3232 | 4356 | 16092 | 17980 | 26722 | 31730 |
+
+</div>
 
 (a) Identify the group of element $X$ in the periodic table, explaining your reasoning.
 
@@ -191,9 +195,13 @@ half-filled subshell means P $\gt$ Si.
 
 Element $Y$ has the following first five ionisation energies:
 
+<div class="table-wrap">
+
 | Ionisation                | 1st | 2nd  | 3rd  | 4th   | 5th   |
 | ------------------------- | --- | ---- | ---- | ----- | ----- |
 | $IE / \text{kJ mol}^{-1}$ | 577 | 1816 | 2745 | 11577 | 14842 |
+
+</div>
 
 (a) Identify element $Y$ and explain your reasoning.
 

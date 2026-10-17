@@ -111,10 +111,14 @@ digestive enzymes) and an endocrine gland (producing hormones).
 The endocrine tissue of the pancreas consists of clusters of cells called the **islets of
 Langerhans**, which contain two types of cell:
 
+<div class="table-wrap">
+
 | Cell Type      | Hormone Secreted | Effect on Blood Glucose | Stimulus for Secretion |
 | -------------- | ---------------- | ----------------------- | ---------------------- |
 | $\alpha$ cells | Glucagon         | Increases               | Low blood glucose      |
 | $\beta$ cells  | Insulin          | Decreases               | High blood glucose     |
+
+</div>
 
 ### 2.3 Mechanism: Blood Glucose Too High (After a Meal)
 
@@ -194,6 +198,8 @@ gluconeogenesis.
 - **Treatment**: lifestyle changes (diet, exercise), oral medication (metformin increases insulin
   sensitivity), and insulin therapy.
 
+<div class="table-wrap">
+
 | Feature            | Type 1 Diabetes              | Type 2 Diabetes                               |
 | ------------------ | ---------------------------- | --------------------------------------------- |
 | Age of onset       | Childhood/adolescence        | adulthood                                     |
@@ -202,6 +208,8 @@ gluconeogenesis.
 | Body weight        | Often normal or underweight  | overweight or obese                           |
 | Treatment          | Insulin injections essential | Diet, exercise, oral drugs, sometimes insulin |
 | Ketoacidosis risk  | High                         | Low                                           |
+
+</div>
 
 For more on the immune system and autoimmunity, see [Immunology](/biology/immunology/).
 
@@ -235,6 +243,8 @@ curling up to reduce surface area.
 
 **Physiological responses** (involuntary, negative feedback):
 
+<div class="table-wrap">
+
 | Response                       | Mechanism                                                                                                                                                                                                                 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Vasoconstriction**           | Arterioles supplying the skin surface constrict (smooth muscle contraction, controlled by the sympathetic nervous system). This reduces blood flow near the skin surface, reducing heat loss by radiation and convection. |
@@ -242,6 +252,8 @@ curling up to reduce surface area.
 | **Shivering**                  | Rapid, involuntary contraction and relaxation of skeletal muscles. Muscle contraction generates heat as a by-product of respiration.                                                                                      |
 | **Increased metabolic rate**   | The thyroid gland releases more thyroxine, which increases the basal metabolic rate, generating more heat from cellular respiration.                                                                                      |
 | **Behavioural changes**        | Seeking warmth, curling up, reduced activity to conserve energy                                                                                                                                                           |
+
+</div>
 
 ### 3.3 Response to Heat (Above Set Point)
 
@@ -251,12 +263,16 @@ When the hypothalamus detects a rise in core body temperature:
 
 **Physiological responses** (involuntary, negative feedback):
 
+<div class="table-wrap">
+
 | Response                     | Mechanism                                                                                                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Vasodilation**             | Arterioles supplying the skin surface dilate (smooth muscle relaxation). This increases blood flow near the skin surface, increasing heat loss by radiation.                         |
 | **Sweating**                 | Sweat glands (eccrine glands) secrete sweat onto the skin surface. Water in sweat evaporates, absorbing latent heat of vaporisation ($2.26\ \mathrm{kJ\ g^{-1}}$), cooling the skin. |
 | **Decreased metabolic rate** | Reduced thyroxine secretion, lowering the basal metabolic rate.                                                                                                                      |
 | **Behavioural changes**      | Reducing activity, seeking shade                                                                                                                                                     |
+
+</div>
 
 **Sweat as a negative feedback mechanism**: as sweat evaporates and cools the skin, skin
 thermoreceptors detect the reduced temperature and send signals to the hypothalamus, which reduces
@@ -324,6 +340,8 @@ and reabsorption.
 
 **Structure of the nephron:**
 
+<div class="table-wrap">
+
 | Region                           | Function                                                                                                                   |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Bowman's capsule + glomerulus    | Ultrafiltration: high-pressure filtration of blood plasma                                                                  |
@@ -332,6 +350,8 @@ and reabsorption.
 | Loop of Henle (ascending limb)   | Impermeable to water; actively transports $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ out, creating a salt gradient in the medulla |
 | Distal convoluted tubule (DCT)   | Fine-tuning of $\mathrm{Na^+}$ and water reabsorption; regulated by ADH and aldosterone                                    |
 | Collecting duct                  | Final water reabsorption regulated by ADH                                                                                  |
+
+</div>
 
 **Ultrafiltration** at the glomerulus is driven by **hydrostatic pressure** of the blood in the
 glomerular capillaries. The filtrate passes through the basement membrane and the pores in the
@@ -550,6 +570,8 @@ The filtrate has the same composition as blood plasma minus proteins and blood c
 
 Approximately 99% of the filtrate is reabsorbed as it passes through the nephron tubule:
 
+<div class="table-wrap">
+
 | Substance       | % of filtrate reabsorbed | Location                                                      | Mechanism                                         |
 | --------------- | ------------------------ | ------------------------------------------------------------- | ------------------------------------------------- |
 | Water           | 99%                      | Proximal convoluted tubule, loop of Henle, collecting duct    | Osmosis                                           |
@@ -558,6 +580,8 @@ Approximately 99% of the filtrate is reabsorbed as it passes through the nephron
 | Amino acids     | 100%                     | PCT                                                           | Co-transport with $\mathrm{Na^+}$                 |
 | Urea            | 50%                      | PCT, collecting duct                                          | Diffusion and water reabsorption concentrating it |
 | $\mathrm{K^+}$  | 90%                      | PCT, loop of Henle                                            | Active transport                                  |
+
+</div>
 
 ### 7.3 The Loop of Henle and the Countercurrent Multiplier
 
@@ -619,6 +643,8 @@ kidney's ability to independently regulate water reabsorption (via ADH) and solu
 
 ### 8.1 Endotherms vs Ectotherms
 
+<div class="table-wrap">
+
 | Feature                      | Endotherms                          | Ectotherms                                |
 | ---------------------------- | ----------------------------------- | ----------------------------------------- |
 | Heat source                  | Internal (metabolism)               | External (sun, conduction)                |
@@ -628,9 +654,13 @@ kidney's ability to independently regulate water reabsorption (via ADH) and solu
 | Activity at low temperatures | Can remain active                   | Sluggish or inactive                      |
 | Examples                     | Mammals, birds                      | Reptiles, amphibians, fish, invertebrates |
 
+</div>
+
 ### 8.2 Endothermic Responses to Heat and Cold
 
 **When body temperature rises above 37 degrees C:**
+
+<div class="table-wrap">
 
 | Response                                        | Mechanism                                                            | Effect                                                                                                        |
 | ----------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -639,7 +669,11 @@ kidney's ability to independently regulate water reabsorption (via ADH) and solu
 | Flattening of body hair (piloerection reversal) | Erector pili muscles relax                                           | Reduces the insulating layer of trapped air, allowing more heat loss                                          |
 | Behavioural responses                           | Seeking shade, removing clothing, reducing activity                  | Reduces heat gain from environment and metabolism                                                             |
 
+</div>
+
 **When body temperature falls below 37 degrees C:**
+
+<div class="table-wrap">
 
 | Response                    | Mechanism                                                                              | Effect                                                                                                                          |
 | --------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -649,6 +683,8 @@ kidney's ability to independently regulate water reabsorption (via ADH) and solu
 | Increased metabolic rate    | Thyroid hormones ($\mathrm{T_3}$, $\mathrm{T_4}$) stimulate basal metabolic rate       | More heat generated by cellular respiration                                                                                     |
 | Non-shivering thermogenesis | Brown adipose tissue (brown fat) is stimulated by noradrenaline to oxidise fatty acids | Uncoupling protein 1 (UCP1) in brown fat mitochondria uncouples electron transport from ATP synthesis, releasing energy as heat |
 | Behavioural responses       | Curling up, huddling, seeking warmth, putting on clothes                               | Reduces surface area exposed, gains heat from environment                                                                       |
+
+</div>
 
 ### 8.3 The Role of the Hypothalamus
 
@@ -682,12 +718,16 @@ oscillations (the system would constantly overcorrect if it responded to every t
 
 The menstrual cycle is controlled by four hormones: FSH, LH, oestrogen, and progesterone.
 
+<div class="table-wrap">
+
 | Hormone                            | Source                      | Function                                                                                                                                                              |
 | ---------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | FSH (follicle-stimulating hormone) | Anterior pituitary          | Stimulates development of follicles in the ovary; stimulates oestrogen production                                                                                     |
 | LH (luteinising hormone)           | Anterior pituitary          | Triggers ovulation; stimulates formation of the corpus luteum                                                                                                         |
 | Oestrogen                          | Developing follicle (ovary) | Stimulates proliferation of the endometrium (uterine lining); inhibits FSH at high concentration (negative feedback); stimulates LH surge at peak (positive feedback) |
 | Progesterone                       | Corpus luteum (ovary)       | Maintains the thick endometrium; inhibits FSH and LH (negative feedback)                                                                                              |
+
+</div>
 
 ### 9.2 Phases of the Cycle
 
@@ -785,6 +825,8 @@ is why placing unripe fruit in a bag with a ripe banana accelerates ripening.
 
 ### 11.1 Similarities and Differences
 
+<div class="table-wrap">
+
 | Feature              | Nervous System                          | Endocrine System                        |
 | -------------------- | --------------------------------------- | --------------------------------------- |
 | Signal type          | Electrical impulses (action potentials) | Chemical (hormones in blood)            |
@@ -792,6 +834,8 @@ is why placing unripe fruit in a bag with a ripe banana accelerates ripening.
 | Duration of response | Short (seconds to minutes)              | Long (hours to days)                    |
 | Target               | Specific (localised effectors)          | Widespread (any cell with receptors)    |
 | Adaptability         | Highly adaptable (learned responses)    | Less adaptable (genetically programmed) |
+
+</div>
 
 ### 11.2 Examples of Dual Control
 
@@ -911,12 +955,16 @@ Glucagon binds to a G-protein-coupled receptor on the target cell (primarily hep
 
 ### 13.3 Second Messengers Compared
 
+<div class="table-wrap">
+
 | Second Messenger | Produced By           | Activated By                                                       | Primary Effect                      |
 | ---------------- | --------------------- | ------------------------------------------------------------------ | ----------------------------------- |
 | cAMP             | Adenylate cyclase     | Glucagon, adrenaline ($\beta$-adrenergic)                          | Activates PKA                       |
 | cGMP             | Guanylate cyclase     | Nitric oxide (NO), atrial natriuretic peptide (ANP)                | Activates PKG; causes vasodilation  |
 | $\mathrm{IP_3}$  | Phospholipase C (PLC) | Adrenaline ($\alpha_1$-adrenergic), ADH ($\mathrm{V_1}$ receptors) | Releases $\mathrm{Ca^{2+}}$ from ER |
 | DAG              | Phospholipase C (PLC) | Same as $\mathrm{IP_3}$                                            | Activates PKC                       |
+
+</div>
 
 ## 14. The Endocrine System: Beyond the Pancreas
 
@@ -926,11 +974,15 @@ The adrenal glands sit on top of the kidneys and have two distinct regions:
 
 **Adrenal cortex** (outer region): produces steroid hormones in three zones:
 
+<div class="table-wrap">
+
 | Zone             | Hormone                             | Function                                                                                                                 |
 | ---------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Zona glomerulosa | **Aldosterone** (mineralocorticoid) | Increases $\mathrm{Na^+}$ reabsorption and $\mathrm{K^+}$ excretion in the kidneys; increases blood pressure             |
 | Zona fasciculata | **Cortisol** (glucocorticoid)       | Increases blood glucose (stimulates gluconeogenesis and glycogenolysis); suppresses the immune system; anti-inflammatory |
 | Zona reticularis | **Androgens** (e.g., DHEA)          | Converted to testosterone and oestrogens in peripheral tissues                                                           |
+
+</div>
 
 **Adrenal medulla** (inner region): produces **adrenaline** (epinephrine) and **noradrenaline**
 (norepinephrine) -- the "fight or flight" hormones. These are released in response to stress and:
@@ -945,10 +997,14 @@ The adrenal glands sit on top of the kidneys and have two distinct regions:
 
 The thyroid gland produces:
 
+<div class="table-wrap">
+
 | Hormone                                                          | Target          | Function                                                                                                                                                                                                      |
 | ---------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathrm{T_3}$ (triiodothyronine) and $\mathrm{T_4}$ (thyroxine) | Most body cells | Increases basal metabolic rate (BMR) by stimulating transcription of genes involved in metabolism; promotes protein synthesis; essential for growth and development (especially brain development in infants) |
 | Calcitonin                                                       | Bones, kidneys  | Lowers blood $\mathrm{Ca^{2+}}$ by inhibiting osteoclast activity and stimulating $\mathrm{Ca^{2+}}$ excretion in urine                                                                                       |
+
+</div>
 
 Thyroid hormones are produced by iodination of tyrosine residues in thyroglobulin (a protein stored
 in the thyroid follicle). **Iodine deficiency** causes the thyroid to enlarge (goitre) as it
@@ -956,21 +1012,29 @@ attempts to produce more $\mathrm{T_3}$/$\mathrm{T_4}$ with insufficient raw mat
 
 **Thyroid disorders:**
 
+<div class="table-wrap">
+
 | Disorder                          | Cause                                                                | Symptoms                                                                                                             |
 | --------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Hyperthyroidism (Graves' disease) | Autoantibodies stimulate the TSH receptor                            | Weight loss, increased heart rate, anxiety, heat intolerance, exophthalmos (bulging eyes)                            |
 | Hypothyroidism (myxoedema)        | Autoimmune destruction of thyroid (Hashimoto's) or iodine deficiency | Weight gain, fatigue, cold intolerance, slow heart rate, mental slowing                                              |
 | Cretinism                         | Congenital hypothyroidism                                            | Severe intellectual disability, stunted growth (preventable by newborn screening and early $\mathrm{T_4}$ treatment) |
 
+</div>
+
 ### 14.3 The Pituitary Gland
 
 The **pituitary gland** (hypophysis) is the "master gland" located at the base of the brain,
 connected to the hypothalamus by the infundibulum (pituitary stalk).
 
+<div class="table-wrap">
+
 | Part                                  | Hormones                          | Function                                                                                                                                                                                             |
 | ------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anterior pituitary (adenohypophysis)  | FSH, LH, ACTH, TSH, GH, prolactin | Stimulates other endocrine glands (FSH/LH $\to$ gonads; ACTH $\to$ adrenal cortex; TSH $\to$ thyroid); GH stimulates growth; prolactin stimulates milk production                                    |
 | Posterior pituitary (neurohypophysis) | ADH (vasopressin), oxytocin       | Stores and releases hormones produced by the hypothalamus; ADH increases water reabsorption in kidneys; oxytocin stimulates uterine contraction during labour and milk ejection during breastfeeding |
+
+</div>
 
 ## 15. Negative Feedback: Detailed Examples
 
@@ -1011,12 +1075,16 @@ high, requiring more insulin -- a cycle.
 Positive feedback amplifies a change rather than opposing it. It is less common than negative
 feedback and drives processes to completion:
 
+<div class="table-wrap">
+
 | Example          | Mechanism                                                                              | Why It Is Useful                                                |
 | ---------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | Ovulation        | High oestrogen triggers LH surge, which triggers ovulation                             | Ensures ovulation occurs decisively once the follicle is mature |
 | Blood clotting   | Thrombin activates more thrombin (amplification cascade)                               | Ensures rapid clot formation to prevent excessive blood loss    |
 | Childbirth       | Oxytocin stimulates uterine contractions, which stimulate more oxytocin release        | Drives labour to completion                                     |
 | Action potential | $\mathrm{Na^+}$ influx depolarises the membrane, opening more $\mathrm{Na^+}$ channels | Ensures the action potential is an all-or-nothing event         |
+
+</div>
 
 ## 16. Kidney Failure and Dialysis
 
@@ -1091,6 +1159,8 @@ and ultrafiltration.
 
 ### 24.1 Types of Disease
 
+<div class="table-wrap">
+
 | Type                      | Definition                                                             | Examples                                                           |
 | ------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Communicable (infectious) | Caused by a pathogen and can be transmitted between individuals        | Influenza, tuberculosis, HIV/AIDS, malaria, COVID-19               |
@@ -1101,7 +1171,11 @@ and ultrafiltration.
 | Deficiency                | Caused by a lack of essential nutrients or enzymes                     | Scurvy (vitamin C), anaemia (iron), kwashiorkor (protein)          |
 | Environmental             | Caused by exposure to environmental factors                            | Asbestosis, silicosis, skin cancer (UV radiation)                  |
 
+</div>
+
 ### 24.2 Risk Factors for Non-Communicable Diseases
+
+<div class="table-wrap">
 
 | Disease                | Risk Factors                                                                                                | Mechanism                                                                                                                                              |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1111,7 +1185,11 @@ and ultrafiltration.
 | Skin cancer (melanoma) | UV radiation exposure (sunburns, tanning beds), fair skin, many moles                                       | UV radiation causes thymine dimers in DNA, leading to mutations                                                                                        |
 | Cervical cancer        | HPV infection (human papillomavirus), smoking, early sexual activity, weak immune system                    | HPV E6 and E7 oncoproteins inactivate _p53_ and Rb tumour suppressor proteins                                                                          |
 
+</div>
+
 ### 24.3 Lifestyle Interventions to Reduce Disease Risk
+
+<div class="table-wrap">
 
 | Intervention                                                                           | Diseases Reduced                                          |
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -1120,6 +1198,8 @@ and ultrafiltration.
 | Not smoking                                                                            | Lung cancer, CVD, COPD, stroke                            |
 | Reducing alcohol intake                                                                | Liver disease, some cancers, CVD, mental health problems  |
 | Maintaining healthy BMI (18.5--24.9)                                                   | Type 2 diabetes, CVD, osteoarthritis, some cancers        |
+
+</div>
 
 ### 24.4 Epidemiology: Interpreting Data
 
@@ -1153,6 +1233,8 @@ Only controlled experiments (randomised controlled trials) can establish causati
 
 ### 23.1 Tropisms
 
+<div class="table-wrap">
+
 | Tropism                   | Stimulus            | Mechanism                                                                                                                                                                                                  | Example                                         |
 | ------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Phototropism              | Light (directional) | Auxin redistribution (more auxin on shaded side); auxin promotes cell elongation                                                                                                                           | Shoots grow towards light                       |
@@ -1160,16 +1242,22 @@ Only controlled experiments (randomised controlled trials) can establish causati
 | Thigmotropism             | Touch               | Mechanical stimulation causes differential growth                                                                                                                                                          | Climbing plants (tendrils coil around supports) |
 | Chemotropism              | Chemical gradient   | Pollen tubes grow down the style towards ovary, guided by calcium and chemotropic signals                                                                                                                  | Fertilisation                                   |
 
+</div>
+
 ### 23.2 Nastic Movements
 
 Nastic movements are responses to non-directional stimuli (the direction of the response is not
 related to the direction of the stimulus).
+
+<div class="table-wrap">
 
 | Movement                  | Stimulus                     | Mechanism                                                                                                                                                                                                   | Example                                                     |
 | ------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Thigmonasty (seismonasty) | Touch/mechanical disturbance | Rapid change in turgor pressure in pulvini (swollen leaf bases). Touch triggers $\mathrm{K^+}$ and $\mathrm{Cl^-}$ efflux from cells on one side, causing water loss and cell collapse. This is reversible. | Mimosa pudica (sensitive plant) -- leaves fold when touched |
 | Photonasty                | Light/dark                   | Changes in turgor pressure driven by blue-light receptors. Flowers open during the day (turgid cells in upper petal surface) and close at night (cells become flaccid).                                     | Dandelion flowers, morning glory                            |
 | Nyctinasty                | Darkness                     | Same mechanism as photonasty but triggered by darkness. Leaves fold up at night, reducing water loss and exposure to herbivores.                                                                            | Clover, beans                                               |
+
+</div>
 
 ### 23.3 Leaf Abscission
 
@@ -1255,6 +1343,8 @@ $10^{-4}\ \mathrm{mol\ dm^{-3}}$ significantly inhibits root growth.
 
 The liver plays a central role in homeostasis:
 
+<div class="table-wrap">
+
 | Function                | Mechanism                                                                                                                                                                                                                       |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Detoxification          | Converts harmful substances (alcohol, drugs, ammonia) into less harmful products. Alcohol $\to$ acetaldehyde (toxic) $\to$ acetate (by alcohol dehydrogenase and aldehyde dehydrogenase). Ammonia $\to$ urea (ornithine cycle). |
@@ -1264,6 +1354,8 @@ The liver plays a central role in homeostasis:
 | Carbohydrate metabolism | Glycogenesis, glycogenolysis, gluconeogenesis.                                                                                                                                                                                  |
 | Lipid metabolism        | Synthesises lipoproteins (LDL, HDL), converts excess carbohydrate to fat.                                                                                                                                                       |
 | Immune function         | Kupffer cells (macrophages in liver sinusoids) phagocytose pathogens and dead red blood cells.                                                                                                                                  |
+
+</div>
 
 ### 22.2 Bilirubin and Jaundice
 
@@ -1309,6 +1401,8 @@ $50\ \mu\mathrm{mol\ L^{-1}}$). Causes:
 Ectotherms cannot generate significant metabolic heat, so they rely on behavioural and physiological
 mechanisms to maintain their body temperature within an optimal range:
 
+<div class="table-wrap">
+
 | Mechanism          | Description                                                                               | Example                                                      |
 | ------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Basking            | Exposing the body to direct sunlight to absorb radiant heat                               | Lizards on rocks in the morning                              |
@@ -1318,7 +1412,11 @@ mechanisms to maintain their body temperature within an optimal range:
 | Colour change      | Some reptiles can darken their skin to absorb more heat or lighten it to reflect heat     | Bearded dragons, chameleons                                  |
 | Nocturnal activity | Being active at night to avoid daytime heat                                               | Desert geckos, fennec foxes                                  |
 
+</div>
+
 ### 17.2 Physiological Adaptations in Ectotherms
+
+<div class="table-wrap">
 
 | Adaptation                   | Mechanism                                                                                                                                                                         | Effect                                                    |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -1326,7 +1424,11 @@ mechanisms to maintain their body temperature within an optimal range:
 | Antifreeze proteins          | Proteins that lower the freezing point of body fluids by binding to ice crystals and preventing their growth                                                                      | Found in Antarctic fish (Notothenioids), Arctic insects   |
 | Supercooling                 | Body fluids remain liquid below 0 degrees C by removing ice-nucleating agents                                                                                                     | Some amphibians and reptiles can survive partial freezing |
 
+</div>
+
 ### 17.3 Advantages and Disadvantages of Ectothermy
+
+<div class="table-wrap">
 
 | Advantages                                                    | Disadvantages                                                    |
 | ------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -1334,6 +1436,8 @@ mechanisms to maintain their body temperature within an optimal range:
 | Can allocate more energy to growth and reproduction           | Slower growth and digestion at low temperatures                  |
 | Can survive longer without food (lower metabolic rate)        | Limited geographic distribution (restricted to warmer climates)  |
 | Smaller food requirements                                     | Dependence on environmental temperature limits ecological niches |
+
+</div>
 
 ## 18. The Kidney: Advanced Calculations
 
@@ -1394,6 +1498,8 @@ Frits Went (1928) demonstrated that auxin is the phototropic hormone:
 Unlike shoots, roots are inhibited by high concentrations of auxin. The effect of auxin
 concentration on growth follows a dose-response curve:
 
+<div class="table-wrap">
+
 | Auxin Concentration | Effect on Shoot                       | Effect on Root            |
 | ------------------- | ------------------------------------- | ------------------------- |
 | Very low            | Little effect                         | Promotes growth           |
@@ -1402,11 +1508,15 @@ concentration on growth follows a dose-response curve:
 | High                | Promotes growth (approaching optimum) | Strongly inhibits growth  |
 | Very high           | Inhibits growth                       | Strongly inhibits growth  |
 
+</div>
+
 This difference is exploited in horticulture: synthetic auxins (2,4-D) are used as selective
 weedkillers. They kill broad-leaved weeds (dicots, which are more sensitive to auxin) but not
 grasses (monocots, which are less sensitive).
 
 ## 20. Coordination in Plants vs Animals: A Comparison
+
+<div class="table-wrap">
 
 | Feature            | Animal Coordination                                     | Plant Coordination                                            |
 | ------------------ | ------------------------------------------------------- | ------------------------------------------------------------- |
@@ -1417,6 +1527,8 @@ grasses (monocots, which are less sensitive).
 | Receptors          | Specialised sense organs (eyes, ears, skin)             | Receptors in all cells (hormone receptors)                    |
 | Adaptability       | Highly adaptable (learned responses, memory)            | Genetically programmed; limited adaptability                  |
 | Target specificity | Highly specific (neurons connect to specific effectors) | Less specific (hormones diffuse through tissue)               |
+
+</div>
 
 ## 21. Plant Tropisms and Nastic Movements
 
@@ -1460,15 +1572,21 @@ shoots grow away from gravity (negative gravitropism).
 Nastic movements are non-directional responses to stimuli (e.g., touch, light intensity,
 temperature):
 
+<div class="table-wrap">
+
 | Movement                  | Stimulus        | Mechanism                                                                      | Example                                                      |
 | ------------------------- | --------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------ |
 | Thigmonasty (seismonasty) | Touch           | Rapid change in turgor pressure in pulvinus (swollen joint at base of leaflet) | _Mimosa pudica_ (sensitive plant) leaflets fold when touched |
 | Photonasty                | Light intensity | Turgor changes controlled by the biological clock                              | _Crocosmia_ flowers open in light, close in dark             |
 | Thermonasty               | Temperature     | Turgor changes in petal cells                                                  | Tulip flowers open in warmth, close in cold                  |
 
+</div>
+
 ## 22. Communicable and Non-Communicable Diseases
 
 ### 22.1 Categories of Pathogen
+
+<div class="table-wrap">
 
 | Pathogen Type               | Examples                                                     | Diseases                                    | Key Features                                                                                   |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1478,7 +1596,11 @@ temperature):
 | Protoctista                 | _Plasmodium falciparum_, _Trypanosoma brucei_                | Malaria, sleeping sickness                  | Eukaryotic; often have complex life cycles involving multiple hosts                            |
 | Helminths (parasitic worms) | _Schistosoma mansoni_, _Taenia solium_                       | Schistosomiasis, taeniasis                  | Multicellular; complex life cycles; transmitted through contaminated water or undercooked meat |
 
+</div>
+
 ### 22.2 Disease Transmission
+
+<div class="table-wrap">
 
 | Transmission Route                   | Example                                                    | Prevention                                                                            |
 | ------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -1488,9 +1610,13 @@ temperature):
 | Vector-borne                         | Malaria (mosquito), dengue (mosquito), Lyme disease (tick) | Vector control (insecticide-treated bed nets, spraying); habitat management; vaccines |
 | Foodborne                            | Salmonella, _E. Coli_ O157, botulism                       | Food hygiene; proper cooking; pasteurisation; HACCP systems                           |
 
+</div>
+
 ### 22.3 Epidemiology
 
 **Key terms:**
+
+<div class="table-wrap">
 
 | Term           | Definition                                                                                               |
 | -------------- | -------------------------------------------------------------------------------------------------------- |
@@ -1501,7 +1627,11 @@ temperature):
 | Epidemic       | A sudden increase in the number of cases of a disease above what is normally expected in a specific area |
 | Pandemic       | An epidemic that has spread across multiple countries or continents                                      |
 
+</div>
+
 ### 22.4 Non-Communicable Diseases: Risk Factors
+
+<div class="table-wrap">
 
 | Disease                | Genetic Risk Factors                                              | Lifestyle Risk Factors                                               | Environmental Risk Factors                    |
 | ---------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------- |
@@ -1509,6 +1639,8 @@ temperature):
 | Type 2 diabetes        | Family history, certain ethnicities (South Asian, Afro-Caribbean) | Obesity (especially abdominal), physical inactivity, high sugar diet | socioeconomic deprivation                     |
 | Lung cancer            | BRCA mutations (rare)                                             | Smoking (85% of cases), air pollution                                | Radon gas exposure, asbestos                  |
 | Cervical cancer        | BRCA mutations, Lynch syndrome                                    | Early sexual activity, multiple sexual partners                      | HPV infection (vaccine prevents 70% of cases) |
+
+</div>
 
 ## 23. Diabetes: Detailed Pathophysiology
 
@@ -1544,11 +1676,15 @@ temperature):
 
 ### 23.3 Blood Glucose Regulation: Detailed Mechanism
 
+<div class="table-wrap">
+
 | Blood Glucose Level                             | Pancreatic Response                                     | Mechanism                                                                                                                                                                                                                              | Effect                                                                                                               |
 | ----------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **High** (post-prandial)                        | $\beta$ cells secrete insulin                           | Insulin binds to receptors on liver, muscle, adipose cells; activates tyrosine kinase; GLUT4 vesicles fuse with cell membrane (in muscle and fat); activates glycogen synthase; inhibits glycogen phosphorylase                        | Glucose uptake increased; glycogenesis stimulated; glycogenolysis and gluconeogenesis inhibited; blood glucose falls |
 | **Low** (fasting/exercise)                      | $\alpha$ cells secrete glucagon                         | Glucagon binds to G-protein coupled receptors on liver cells; activates adenylate cyclase $\to$ cAMP $\to$ protein kinase A; activates glycogen phosphorylase; activates phosphoenolpyruvate carboxykinase (PEPCK) for gluconeogenesis | Glycogenolysis stimulated; gluconeogenesis stimulated; blood glucose rises                                           |
 | **Normal** ($\approx 5\ \mathrm{mmol\ L^{-1}}$) | Both $\alpha$ and $\beta$ cells are relatively inactive | Basal insulin secretion maintains glucose homeostasis                                                                                                                                                                                  | Blood glucose remains stable                                                                                         |
+
+</div>
 :::
 
 :::caution
@@ -1562,6 +1698,8 @@ glycogenolysis and gluconeogenesis.
 
 The adrenal glands sit on top of the kidneys and have two distinct regions:
 
+<div class="table-wrap">
+
 | Region                  | Hormone(s)                              | Function                                                                                                                                                                                      |
 | ----------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Adrenal medulla (inner) | Adrenaline (epinephrine), noradrenaline | "Fight or flight" response: increases heart rate, stroke volume, blood pressure; dilates bronchioles; stimulates glycogenolysis in liver; dilates pupils; redirects blood to skeletal muscles |
@@ -1569,9 +1707,13 @@ The adrenal glands sit on top of the kidneys and have two distinct regions:
 |                         | Glucocorticoids (cortisol)              | Increases blood glucose (gluconeogenesis, anti-insulin effect); suppresses immune system; anti-inflammatory; peaks in the morning (circadian rhythm)                                          |
 |                         | Androgens (DHEA)                        | Converted to testosterone and oestrogen in peripheral tissues                                                                                                                                 |
 
+</div>
+
 ## 24. The Kidney: Ultrafiltration and Selective Reabsorption
 
 ### 24.1 Structure of the Nephron
+
+<div class="table-wrap">
 
 | Region                           | Location                            | Function                                                                                                                                  |
 | -------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1580,6 +1722,8 @@ The adrenal glands sit on top of the kidneys and have two distinct regions:
 | Loop of Henle                    | Medulla                             | Countercurrent multiplication: creates a salt gradient in the medulla for water reabsorption                                              |
 | Distal convoluted tubule (DCT)   | Cortex                              | Fine-tuning: reabsorption of $\mathrm{Na^+}$ and $\mathrm{Ca^{2+}}$ (under aldosterone control); water reabsorption (under ADH control)   |
 | Collecting duct                  | Medulla (passes through to papilla) | Water reabsorption (ADH-dependent): water moves out into the hypertonic medulla by osmosis                                                |
+
+</div>
 
 ### 24.2 Ultrafiltration
 
@@ -1598,6 +1742,8 @@ Ultrafiltration occurs at the renal corpuscle (glomerulus + Bowman's capsule):
 
 ### 24.3 Selective Reabsorption in the PCT
 
+<div class="table-wrap">
+
 | Substance       | Fate                      | Mechanism                                                                                                                                            |
 | --------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Glucose         | 100% reabsorbed           | Secondary active transport ($\mathrm{Na^+}$/glucose co-transporter, SGLT2) on apical membrane; facilitated diffusion (GLUT2) on basolateral membrane |
@@ -1606,6 +1752,8 @@ Ultrafiltration occurs at the renal corpuscle (glomerulus + Bowman's capsule):
 | Water           | $\approx 85\%$ reabsorbed | Follows $\mathrm{Na^+}$ by osmosis (water permeability of PCT is always high)                                                                        |
 | Urea            | $\approx 50\%$ reabsorbed | Diffuses (passive) down its concentration gradient                                                                                                   |
 | $\mathrm{K^+}$  | $\approx 85\%$ reabsorbed | Passive diffusion and active transport                                                                                                               |
+
+</div>
 
 ### 24.4 ADH and Water Reabsorption
 
@@ -1719,6 +1867,8 @@ C).
 thermoreceptors and sends signals to effectors (sweat glands, arterioles, skeletal muscles, hair
 erector muscles).
 
+<div class="table-wrap">
+
 | Response to Cold                                                                                                                                                                                          | Response to Heat                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | **Vasoconstriction**: arterioles in skin narrow, reducing blood flow to the skin surface, reducing heat loss by radiation and convection                                                                  | **Vasodilation**: arterioles in skin dilate, increasing blood flow to the skin surface, increasing heat loss                     |
@@ -1727,10 +1877,14 @@ erector muscles).
 | **Increased metabolic rate**: thyroid hormones (T3, T4) increase basal metabolic rate; brown adipose tissue (BAT) generates heat by uncoupled respiration (UCP1 protein uncouples ETC from ATP synthesis) | **Behavioural**: seeking sun, wearing lighter clothing                                                                           |
 | **Behavioural**: curling up to reduce surface area; seeking shelter; huddling                                                                                                                             |                                                                                                                                  |
 
+</div>
+
 ### 26.2 Ectotherm Thermoregulation
 
 Ectotherms (reptiles, amphibians, fish, invertebrates) cannot generate significant metabolic heat
 and rely on external heat sources:
+
+<div class="table-wrap">
 
 | Strategy                | Example                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -1740,7 +1894,11 @@ and rely on external heat sources:
 | Altering body shape     | Horned lizards can expand their body to increase surface area for heat absorption; some snakes coil to reduce surface area     |
 | Behavioural adaptations | Nocturnal activity in hot climates (e.g., desert geckos); burrowing to escape extreme temperatures                             |
 
+</div>
+
 ### 26.3 The Menstrual Cycle
+
+<div class="table-wrap">
 
 | Phase            | Days        | Events                                                                                                                                                                                                                                                                                                                                                                                |
 | ---------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1749,9 +1907,13 @@ and rely on external heat sources:
 | Ovulation        | Day 14      | LH surge triggers release of a mature oocyte from the ovary                                                                                                                                                                                                                                                                                                                           |
 | Luteal phase     | Days 15--28 | LH stimulates the ruptured follicle to become the corpus luteum; corpus luteum secretes progesterone and oestrogen; progesterone maintains the thickened endometrium; progesterone inhibits FSH and LH (negative feedback); if no implantation, corpus luteum degenerates after approximately 10 days; progesterone and oestrogen levels drop; endometrium breaks down (menstruation) |
 
+</div>
+
 ## 27. Kidney Failure and Dialysis
 
 ### 27.1 Causes of Kidney Failure
+
+<div class="table-wrap">
 
 | Cause                     | Mechanism                                                                                                             |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -1760,6 +1922,8 @@ and rely on external heat sources:
 | Glomerulonephritis        | Inflammation of the glomeruli (autoimmune or post-streptococcal)                                                      |
 | Polycystic kidney disease | Genetic disorder; fluid-filled cysts progressively destroy kidney tissue                                              |
 | Pyelonephritis            | Bacterial infection of the kidneys; can cause scarring                                                                |
+
+</div>
 
 ### 27.2 Symptoms of Kidney Failure
 
@@ -1775,12 +1939,16 @@ and rely on external heat sources:
 
 Blood is taken from an artery, passed through a dialysis machine (dialyser), and returned to a vein.
 
+<div class="table-wrap">
+
 | Component         | Function                                                                                                                                                                                                                                           |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dialysis membrane | Partially permeable membrane; allows exchange of small molecules (urea, $\mathrm{K^+}$$\mathrm{Na^+}$$\mathrm{Ca^{2+}}$) between blood and dialysis fluid by diffusion                                                                             |
 | Dialysis fluid    | Contains the same concentration of useful substances ($\mathrm{Na^+}$$\mathrm{K^+}$$\mathrm{Ca^{2+}}$ Glucose, bicarbonate) as healthy blood; contains no urea (creating a concentration gradient for urea to diffuse from blood to dialysis fluid) |
 | Blood pump        | Moves blood through the dialyser                                                                                                                                                                                                                   |
 | Anticoagulant     | Heparin prevents blood clotting during dialysis                                                                                                                                                                                                    |
+
+</div>
 
 **Limitations of haemodialysis:**
 
@@ -1834,12 +2002,16 @@ osmoregulation (ADH); heart rate control.
 Positive feedback amplifies a change, moving the variable further from the set point. It is less
 common than negative feedback and leads to a definitive outcome (not a stable state).
 
+<div class="table-wrap">
+
 | Process                  | Stimulus                              | Positive Feedback Loop                                                                                                      | Outcome                                                                                  |
 | ------------------------ | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Childbirth (parturition) | Pressure of baby's head on the cervix | Pressure stimulates oxytocin release $\to$ oxytocin causes stronger uterine contractions $\to$ increased pressure on cervix | Birth (the positive feedback loop is broken when the baby is delivered)                  |
 | Blood clotting           | Damage to blood vessel wall           | Platelets adhere to damaged site and release clotting factors $\to$ more platelets are attracted $\to$ clot grows           | Clot formation (limits further blood loss)                                               |
 | Ovulation                | High oestrogen concentration          | High oestrogen stimulates LH surge $\to$ LH triggers ovulation (egg release)                                                | Egg released (oestrogen levels then fall, breaking the loop)                             |
 | Action potential         | Depolarisation reaches threshold      | Depolarisation opens voltage-gated $\mathrm{Na^+}$ channels $\to$ more $\mathrm{Na^+}$ enters $\to$ more depolarisation     | Action potential generated ($\mathrm{Na^+}$ channels then inactivate, breaking the loop) |
+
+</div>
 
 ## 29. Osmoregulation in Other Organisms
 
@@ -1887,6 +2059,8 @@ their cuticle. Adaptations for water conservation:
 
 ### 29.4 Desert Mammals
 
+<div class="table-wrap">
+
 | Adaptation                           | Example              | Mechanism                                                                                           |
 | ------------------------------------ | -------------------- | --------------------------------------------------------------------------------------------------- |
 | Concentrated urine                   | Kangaroo rat         | Very long loop of Henle (20x kidney length); produces urine up to 17x more concentrated than plasma |
@@ -1895,9 +2069,13 @@ their cuticle. Adaptations for water conservation:
 | No sweat glands                      | Camel                | Reduces water loss through the skin                                                                 |
 | Behavioural                          | Fennec fox           | Nocturnal; burrows during the day; gets water from food                                             |
 
+</div>
+
 ## 30. The Menstrual Cycle: Hormonal Control in Detail
 
 ### 30.1 Key Hormones and Their Actions
+
+<div class="table-wrap">
 
 | Hormone                            | Source                                | Target                                   | Effect                                                                                                                                    |
 | ---------------------------------- | ------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1906,7 +2084,11 @@ their cuticle. Adaptations for water conservation:
 | Oestrogen                          | Developing follicle (granulosa cells) | Uterus; anterior pituitary; hypothalamus | Stimulates endometrial thickening; inhibits FSH (negative feedback at low levels); stimulates LH surge (positive feedback at high levels) |
 | Progesterone                       | Corpus luteum (after ovulation)       | Uterus; anterior pituitary               | Maintains thick endometrium; inhibits FSH and LH (negative feedback); prevents further ovulation                                          |
 
+</div>
+
 ### 30.2 The Four Phases
+
+<div class="table-wrap">
 
 | Phase            | Days        | What Happens                                                                                                         | Dominant Hormone               |
 | ---------------- | ----------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
@@ -1915,18 +2097,26 @@ their cuticle. Adaptations for water conservation:
 | Ovulation        | Day 14      | High oestrogen triggers positive feedback on anterior pituitary $\to$ LH surge $\to$ follicle ruptures; egg released | Peak LH and oestrogen          |
 | Luteal phase     | Days 15--28 | Corpus luteum forms; secretes progesterone and oestrogen; endometrium maintained for implantation                    | Progesterone (and oestrogen)   |
 
+</div>
+
 ### 30.3 Feedback Loops
+
+<div class="table-wrap">
 
 | Type              | When It Occurs                              | Hormones Involved                                                                             |
 | ----------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Negative feedback | Most of the cycle (days 1--12, days 16--28) | Oestrogen inhibits FSH and LH; progesterone inhibits FSH and LH                               |
 | Positive feedback | Day 14 (ovulation)                          | High oestrogen stimulates LH secretion from anterior pituitary $\to$ LH surge $\to$ ovulation |
 
+</div>
+
 ## 31. Negative Feedback: General Principles
 
 ### 31.1 Components of a Negative Feedback System
 
 Every negative feedback system has the same components:
+
+<div class="table-wrap">
 
 | Component            | Role                                                         | Example (Thermoregulation)                                                                                       |
 | -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
@@ -1935,7 +2125,11 @@ Every negative feedback system has the same components:
 | Effector             | Carries out the corrective response to restore the set point | Sweat glands, arterioles, shivering muscles, brown fat                                                           |
 | Set point            | The ideal value being maintained                             | Core body temperature: $37.0\degree\mathrm{C}$                                                                   |
 
+</div>
+
 ### 31.2 Why Negative Feedback Maintains Homeostasis
+
+<div class="table-wrap">
 
 | Principle                                             | Explanation                                                                                                                              |
 | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1944,9 +2138,13 @@ Every negative feedback system has the same components:
 | Self-limiting                                         | As the set point is approached, the corrective response diminishes (prevents overshoot)                                                  |
 | Oscillation around set point                          | Body temperature, blood glucose, and blood pH all fluctuate slightly around the set point rather than being held at a single exact value |
 
+</div>
+
 ## 32. Diabetes Mellitus: Pathophysiology in Detail
 
 ### 32.1 Type 1 vs Type 2 Diabetes
+
+<div class="table-wrap">
 
 | Feature            | Type 1 Diabetes                                                       | Type 2 Diabetes                                                                                  |
 | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -1958,7 +2156,11 @@ Every negative feedback system has the same components:
 | Body weight        | Often normal or underweight at diagnosis                              | Often overweight or obese at diagnosis                                                           |
 | Genetic component  | Polygenic (HLA-DR3, HLA-DR4 genes increase susceptibility)            | Strong polygenic component; lifestyle is a major factor                                          |
 
+</div>
+
 ### 32.2 Blood Glucose Regulation in Diabetes
+
+<div class="table-wrap">
 
 | Condition                    | Blood Glucose                                                | Insulin                             | Glucagon                                   | Mechanism                                                                                     |
 | ---------------------------- | ------------------------------------------------------------ | ----------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -1966,7 +2168,11 @@ Every negative feedback system has the same components:
 | Type 1 diabetes (after meal) | Rises to 15--30+ mmol/L; stays high                          | None                                | Decreases (but insufficient to compensate) | Glucose cannot enter cells (no insulin); glucosuria (glucose in urine); polyuria; dehydration |
 | Type 2 diabetes (after meal) | Rises higher than normal; takes longer to return to baseline | Increased (but cells are resistant) | Decreases                                  | Cells respond poorly to insulin; glucose uptake is slower and less efficient                  |
 
+</div>
+
 ### 32.3 Complications of Poorly Controlled Diabetes
+
+<div class="table-wrap">
 
 | Complication           | Cause                                                                       | Symptoms                                                         |
 | ---------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -1976,9 +2182,13 @@ Every negative feedback system has the same components:
 | Cardiovascular disease | Atherosclerosis accelerated by hyperglycaemia                               | Heart attack, stroke, peripheral vascular disease                |
 | Foot ulcers            | Combined neuropathy + poor circulation                                      | Slow-healing wounds; infection; gangrene; amputation             |
 
+</div>
+
 ## 33. Kidney Failure and Dialysis
 
 ### 33.1 Causes of Kidney Failure
+
+<div class="table-wrap">
 
 | Cause                     | Mechanism                                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -1988,7 +2198,11 @@ Every negative feedback system has the same components:
 | Polycystic kidney disease | Genetic (ADPKD, autosomal dominant); fluid-filled cysts enlarge and destroy kidney tissue       |
 | Pyelonephritis            | Bacterial infection of the kidney; inflammation and scarring                                    |
 
+</div>
+
 ### 33.2 Haemodialysis vs Peritoneal Dialysis
+
+<div class="table-wrap">
 
 | Feature       | Haemodialysis                                                                                                                                                       | Peritoneal Dialysis                                                                                                                           |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1998,7 +2212,11 @@ Every negative feedback system has the same components:
 | Advantages    | Efficient; monitored by professionals                                                                                                                               | More convenient; more continuous; no need for vascular access                                                                                 |
 | Disadvantages | Requires regular hospital visits; risk of infection at access site; dietary restrictions                                                                            | Less efficient than haemodialysis; risk of peritonitis (peritoneal infection); patient must be trained                                        |
 
+</div>
+
 ### 33.3 Kidney Transplant
+
+<div class="table-wrap">
 
 | Feature           | Description                                                                                                                                      |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2008,9 +2226,13 @@ Every negative feedback system has the same components:
 | Tissue matching   | ABO blood group must be compatible; HLA tissue typing to minimise rejection risk                                                                 |
 | Immunosuppression | Drugs such as ciclosporin (inhibits T cell activation); prevents rejection but increases susceptibility to infections and certain cancers        |
 
+</div>
+
 ## 34. Control of Blood Glucose: Detailed Mechanism
 
 ### 34.1 After a Meal (Blood Glucose Rising)
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                         |
 | ---- | -------------------------------------------------------------------------------------------------------------------- |
@@ -2022,7 +2244,11 @@ Every negative feedback system has the same components:
 | 6    | In adipose tissue: insulin stimulates glucose uptake; promotes triglyceride synthesis (lipogenesis)                  |
 | 7    | Blood glucose returns to normal (~5 mmol/L)                                                                          |
 
+</div>
+
 ### 34.2 After Fasting/Exercise (Blood Glucose Falling)
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                                          |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2033,18 +2259,26 @@ Every negative feedback system has the same components:
 | 5    | Glucose is released into the blood                                                                                                    |
 | 6    | Blood glucose returns to normal                                                                                                       |
 
+</div>
+
 ### 34.3 Adrenaline's Role in Blood Glucose
 
 Adrenaline (from adrenal medulla, during fight or flight response):
+
+<div class="table-wrap">
 
 | Effect                                                   | Mechanism                                                                                                                    |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Increases blood glucose                                  | Stimulates glycogenolysis in liver AND muscle; inhibits insulin secretion                                                    |
 | Cannot directly raise blood glucose from muscle glycogen | Muscle glycogen is used by the muscle itself (muscle lacks glucose-6-phosphatase, so cannot release free glucose into blood) |
 
+</div>
+
 ## 35. Thermoregulation: Detailed Mechanisms
 
 ### 35.1 Responses to Cold
+
+<div class="table-wrap">
 
 | Response                    | Mechanism                                                                                                                                        | Effect                                                                                         |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
@@ -2055,7 +2289,11 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Behavioural responses       | Curling up; huddling; putting on clothes; moving to a warmer environment                                                                         | Reduces surface area exposed; reduces heat loss                                                |
 | Non-shivering thermogenesis | Brown fat (brown adipose tissue) is metabolised; uncoupling protein (UCP1) uncouples respiration from ATP production; energy is released as heat | Generates heat without muscle contraction (important in newborns)                              |
 
+</div>
+
 ### 35.2 Responses to Heat
+
+<div class="table-wrap">
 
 | Response                | Mechanism                                                                                             | Effect                                                                                                                               |
 | ----------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2064,9 +2302,13 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Flattening of body hair | Hair erector muscles relax; hair lies flat                                                            | Removes the insulating layer of air                                                                                                  |
 | Behavioural responses   | Removing clothes; seeking shade; drinking cold water; fanning                                         | Increases heat loss; cools the body directly                                                                                         |
 
+</div>
+
 ## 36. Osmoregulation: The Role of ADH
 
 ### 36.1 ADH (Antidiuretic Hormone / Vasopressin)
+
+<div class="table-wrap">
 
 | Feature             | Description                                                                                                                                                            |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2075,7 +2317,11 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Target              | Collecting ducts in the kidney nephrons                                                                                                                                |
 | Trigger for release | Increased blood osmolarity (detected by osmoreceptors in the hypothalamus); decreased blood volume/pressure (detected by baroreceptors in the aorta and carotid sinus) |
 
+</div>
+
 ### 36.2 Mechanism of ADH
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                                                                                                   |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2090,9 +2336,13 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | 9    | Blood water potential returns to normal (blood becomes more dilute)                                                                                                                            |
 | 10   | Negative feedback: osmoreceptors detect the return to normal; ADH secretion decreases                                                                                                          |
 
+</div>
+
 ## 37. The Importance of Homeostasis
 
 ### 37.1 Why Homeostasis Matters
+
+<div class="table-wrap">
 
 | Parameter                       | Why It Must Be Controlled                                                                                                                     | Consequence of Loss of Control                                                                                                                |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2103,9 +2353,13 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Blood pressure                  | Maintains adequate blood flow to organs (especially brain, kidneys, heart)                                                                    | Hypotension: inadequate blood flow to brain $\to$ fainting; shock. Hypertension: damage to blood vessels; stroke; heart attack; kidney damage |
 | Water potential of blood        | Maintains blood volume and pressure; ensures cells neither shrink nor swell excessively                                                       | Dehydration: low blood volume; low blood pressure; kidney damage. Water intoxication: cells swell (including brain cells); potentially fatal  |
 
+</div>
+
 ## 38. Plant Hormones and Growth Responses
 
 ### 38.1 Phototropism
+
+<div class="table-wrap">
 
 | Feature   | Description                                                                                                                                                                                                              |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2113,16 +2367,24 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Response  | Shoot bends towards the light (positive phototropism)                                                                                                                                                                    |
 | Mechanism | Auxin is produced in the shoot tip; auxin is transported laterally to the shaded side of the shoot; auxin stimulates cell elongation on the shaded side; the shaded side grows longer; the shoot bends towards the light |
 
+</div>
+
 ### 38.2 Gravitropism
+
+<div class="table-wrap">
 
 | Feature             | Shoots (Positive Phototropism, Negative Gravitropism)                                                                                                                                                   | Roots (Positive Gravitropism, Negative Phototropism)                                                                      |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Response to gravity | Grows upwards (away from gravity)                                                                                                                                                                       | Grows downwards (towards gravity)                                                                                         |
 | Mechanism           | Statoliths (amyloplasts, dense starch granules) settle to the bottom of cells; in shoots, auxin accumulates on the lower side; auxin inhibits root cell elongation but stimulates shoot cell elongation | Auxin accumulates on the lower side; auxin inhibits cell elongation in roots; lower side grows less; root bends downwards |
 
+</div>
+
 ## 39. Communication and Coordination
 
 ### 39.1 Nervous vs Endocrine System
+
+<div class="table-wrap">
 
 | Feature              | Nervous System                                         | Endocrine System                                           |
 | -------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
@@ -2133,7 +2395,11 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Adaptation           | Rapidly adapts to repeated stimuli                     | Slower to adapt                                            |
 | Examples             | Reflexes, sensory processing, motor control            | Blood glucose regulation, growth, reproduction, metabolism |
 
+</div>
+
 ### 39.2 Examples of Integration
+
+<div class="table-wrap">
 
 | Example                  | Both Systems Working Together                                                                                                                                                                            |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2141,9 +2407,13 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Blood glucose regulation | Nervous: autonomic neurones can influence insulin/glucagon secretion; Endocrine: insulin and glucagon are hormones                                                                                       |
 | Thermoregulation         | Nervous: thermoreceptors detect temperature; hypothalamus sends signals via neurones to sweat glands and muscles; Endocrine: thyroxine regulates basal metabolic rate (long-term temperature regulation) |
 
+</div>
+
 ## 40. The Role of Negative Feedback in Temperature Control
 
 ### 40.1 Example: Temperature Control Pathway
+
+<div class="table-wrap">
 
 | Component           | When Hot                                                  | When Cold                                                        |
 | ------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -2153,6 +2423,8 @@ Adrenaline (from adrenal medulla, during fight or flight response):
 | Effector 2          | Arterioles dilate (vasodilation; more blood near surface) | Arterioles constrict (vasoconstriction; less blood near surface) |
 | Effector 3          | Body hair lies flat (no insulating air layer)             | Body hair erect (traps insulating air layer)                     |
 | Effector 4          | Shivering inhibited                                       | Shivering stimulated (muscle contraction generates heat)         |
+
+</div>
 
 ### 40.2 Why Negative Feedback Is Important
 
@@ -2168,6 +2440,8 @@ Without negative feedback:
 
 ### 41.1 Examples of Positive Feedback
 
+<div class="table-wrap">
+
 | Example                               | Mechanism                                                                                                                                                                                                   | Why It Is Dangerous                                                                                                     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Childbirth (normal positive feedback) | Pressure of the baby's head on the cervix stimulates oxytocin release $\to$ uterine contractions $\to$ baby pushed further into cervix $\to$ more oxytocin released $\to$ stronger contractions $\to$ birth | This is a normal, beneficial positive feedback loop                                                                     |
@@ -2175,9 +2449,13 @@ Without negative feedback:
 | Fever (high temperature)              | High body temperature increases metabolic rate $\to$ body generates more heat $\to$ temperature rises further                                                                                               | Normally limited by negative feedback (sweating, vasodilation); can spiral out of control in extreme cases (heatstroke) |
 | Hypothermia                           | Low body temperature reduces metabolic rate $\to$ less heat generated $\to$ temperature falls further                                                                                                       | Positive feedback that can be fatal without intervention                                                                |
 
+</div>
+
 ## 42. The Skin and Temperature Regulation
 
 ### 42.1 Skin Structure
+
+<div class="table-wrap">
 
 | Layer                         | Description                                                                                               | Role in Thermoregulation                                                             |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -2185,7 +2463,11 @@ Without negative feedback:
 | Dermis (inner)                | Contains blood vessels (capillary loops), sweat glands, hair follicles, sensory receptors, adipose tissue | Blood vessels dilate/constrict; sweat glands produce sweat; hair provides insulation |
 | Hypodermis (subcutaneous fat) | Adipose tissue layer beneath the dermis                                                                   | Insulation (fat is a poor conductor of heat); energy store                           |
 
+</div>
+
 ### 42.2 Sweat Glands
+
+<div class="table-wrap">
 
 | Feature     | Description                                                                                                                                           |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2193,6 +2475,8 @@ Without negative feedback:
 | Mechanism   | Sweat (water, $\mathrm{Na^+}$$\mathrm{Cl^-}$ Urea) is produced by coiled secretory portion; secreted onto the skin surface via a duct                  |
 | Evaporation | Water in sweat evaporates; heat is absorbed from the skin surface (high latent heat of vaporisation); this is the primary cooling mechanism in humans |
 | Control     | Sympathetic nervous system stimulates sweat gland secretion                                                                                           |
+
+</div>
 
 ## 43. Control of Blood pH
 
@@ -2206,22 +2490,32 @@ activity.
 
 ### 43.2 Buffers in the Blood
 
+<div class="table-wrap">
+
 | Buffer System                    | Components                                                                | How It Works                                                                                                                                                                    |
 | -------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Carbonic acid-bicarbonate buffer | $\mathrm{H_2CO_3}$ (carbonic acid) and $\mathrm{HCO_3^-}$ (bicarbonate)   | Excess $\mathrm{H^+}$ shifts equilibrium: $\mathrm{H^+ + HCO_3^- \rightleftharpoons H_2CO_3 \rightleftharpoons CO_2 + H_2O}$; $\mathrm{CO_2}$ is removed by the lungs (exhaled) |
 | Haemoglobin buffer               | Haemoglobin can bind $\mathrm{H^+}$ (acting as a weak acid/base)          | Haemoglobin binds $\mathrm{H^+}$ in the tissues (where $\mathrm{H^+}$ concentration is high) and releases them in the lungs (where $\mathrm{H^+}$ concentration is low)         |
 | Plasma proteins                  | Albumin has many carboxyl groups that can accept or donate $\mathrm{H^+}$ | Contributes to the buffering capacity of blood                                                                                                                                  |
 
+</div>
+
 ### 43.3 Respiratory Compensation
+
+<div class="table-wrap">
 
 | Condition                                               | Respiratory Response                                                                                                                                                      |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Metabolic acidosis (low blood pH; high $\mathrm{H^+}$)  | Increased breathing rate (hyperventilation); $\mathrm{CO_2}$ is blown off; the equilibrium shifts to reduce $\mathrm{H^+}$ concentration; blood pH returns towards normal |
 | Metabolic alkalosis (high blood pH; low $\mathrm{H^+}$) | Decreased breathing rate (hypoventilation); $\mathrm{CO_2}$ is retained; the equilibrium shifts to increase $\mathrm{H^+}$ concentration; blood pH returns towards normal |
 
+</div>
+
 ## 44. Plant Hormones (Auxins)
 
 ### 44.1 Auxin (IAA)
+
+<div class="table-wrap">
 
 | Feature           | Description                                                                                                                                                                             |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2230,7 +2524,11 @@ activity.
 | Transport         | Polar (unidirectional) -- moves from shoot tip downwards through parenchyma cells; transported via auxin efflux carriers (PIN proteins)                                                 |
 | Mechanism         | Promotes $\mathrm{H^+}$ ion secretion into cell wall $\to$ lowers pH $\to$ activates expansin enzymes $\to$ loosens cell wall $\to$ cell takes up water by osmosis $\to$ cell elongates |
 
+</div>
+
 ### 44.2 Effects of Auxin
+
+<div class="table-wrap">
 
 | Effect                                   | Mechanism                                                                                                                          |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -2240,6 +2538,8 @@ activity.
 | Abscission (at very high concentrations) | Promotes ethylene production, which triggers leaf/fruit fall                                                                       |
 | Weedkillers                              | Synthetic auxins (2,4-D, MCPA) selectively kill broad-leaved weeds (dicots are more sensitive than grasses/monocots)               |
 
+</div>
+
 ## 45. Gibberellins
 
 ### 45.1 What Are Gibberellins?
@@ -2247,13 +2547,19 @@ activity.
 Gibberellins are a group of plant hormones that stimulate growth, particularly stem elongation, seed
 germination, and flowering.
 
+<div class="table-wrap">
+
 | Feature           | Description                                                                                                                        |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Discovery         | First identified from a fungus (_Gibberella fujikuroi_) that caused "foolish seedling" disease in rice (excessive stem elongation) |
 | Site of synthesis | Young leaves, roots, and developing seeds                                                                                          |
 | Transport         | Not polar (can move in both directions through xylem and phloem)                                                                   |
 
+</div>
+
 ### 45.2 Effects of Gibberellins
+
+<div class="table-wrap">
 
 | Effect            | Mechanism / Evidence                                                                                                                                                                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2262,6 +2568,8 @@ germination, and flowering.
 | Flowering         | In long-day plants (e.g., lettuce, spinach), gibberellins can substitute for the long-day photoperiod and induce flowering                                                                                                                 |
 | Fruit development | Applied to grapes to produce larger, seedless fruits; stimulates fruit set and growth                                                                                                                                                      |
 
+</div>
+
 ## 46. Ethylene
 
 ### 46.1 What Is Ethylene?
@@ -2269,13 +2577,19 @@ germination, and flowering.
 Ethylene (ethene, $\mathrm{C_2H_4}$) is a gaseous plant hormone that is involved in fruit ripening,
 leaf fall (abscission), and stress responses.
 
+<div class="table-wrap">
+
 | Feature           | Description                                                                         |
 | ----------------- | ----------------------------------------------------------------------------------- |
 | Nature            | Gas at room temperature; can diffuse through air between plants                     |
 | Site of synthesis | Ripening fruits; senescing (aging) leaves; damaged tissues                          |
 | Transport         | Diffuses through air spaces in plant tissue; no specific transport mechanism needed |
 
+</div>
+
 ### 46.2 Effects of Ethylene
+
+<div class="table-wrap">
 
 | Effect                 | Mechanism / Application                                                                                                                                                     |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2285,6 +2599,8 @@ leaf fall (abscission), and stress responses.
 | Stress response        | Produced in response to flooding (waterlogging), drought, pathogen attack, and physical damage                                                                              |
 | Commercial use         | Bananas are picked green and shipped; ethylene gas is applied on arrival to trigger ripening; ethylene inhibitors (e.g., 1-MCP) are used to delay ripening during storage   |
 
+</div>
+
 ## 47. Abscisic Acid (ABA)
 
 ### 47.1 What Is Abscisic Acid?
@@ -2292,13 +2608,19 @@ leaf fall (abscission), and stress responses.
 Abscisic acid (ABA) is a plant hormone that inhibits growth and is primarily involved in stress
 responses (drought, cold, salinity) and seed dormancy.
 
+<div class="table-wrap">
+
 | Feature           | Description                                   |
 | ----------------- | --------------------------------------------- |
 | Site of synthesis | Leaves, stems, and green fruits               |
 | Transport         | Phloem (non-polar; can move in any direction) |
 | Primary role      | Stress hormone; also maintains seed dormancy  |
 
+</div>
+
 ### 47.2 Effects of ABA
+
+<div class="table-wrap">
 
 | Effect                              | Mechanism                                                                                                                                                                                                                          |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2306,6 +2628,8 @@ responses (drought, cold, salinity) and seed dormancy.
 | Seed dormancy                       | High ABA levels in seeds maintain dormancy (prevent germination until conditions are favourable); ABA levels decrease and gibberellin levels increase when conditions for germination are right (water, warmth, oxygen)            |
 | Bud dormancy                        | ABA accumulates in buds in autumn; prevents bud growth during winter; levels decrease in spring (allowing bud break)                                                                                                               |
 | Wilting response                    | In rapidly wilting plants, ABA triggers stomatal closure within minutes; this is one of the fastest hormonal responses in plants                                                                                                   |
+
+</div>
 
 ---
 

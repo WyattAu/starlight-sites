@@ -103,11 +103,15 @@ After pass 2: [27, 3, 9, 38, 10, 43, 82].
 
 (c) Time complexity comparison:
 
+<div class="table-wrap">
+
 | Algorithm   | Best Case                                  | Average Case  | Worst Case           | Space       |
 | ----------- | ------------------------------------------ | ------------- | -------------------- | ----------- |
 | Bubble Sort | $O(n)$ (already sorted, with optimisation) | $O(n^2)$      | $O(n^2)$             | $O(1)$      |
 | Merge Sort  | $O(n \log n)$                              | $O(n \log n)$ | $O(n \log n)$        | $O(n)$      |
 | Quicksort   | $O(n \log n)$                              | $O(n \log n)$ | $O(n^2)$ (bad pivot) | $O(\log n)$ |
+
+</div>
 
 ---
 

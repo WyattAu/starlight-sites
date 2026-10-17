@@ -36,6 +36,8 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 
 ### What GraalVM Provides
 
+<div class="table-wrap">
+
 | Component            | Purpose                                              | Status               |
 | -------------------- | ---------------------------------------------------- | -------------------- |
 | Graal JIT Compiler   | Replaces C2 as an advanced JIT compiler              | Production (JDK 17+) |
@@ -43,6 +45,8 @@ JNI mechanism with a type-safe, allocation-tracking API that is practically usab
 | Polyglot Runtime     | Run JavaScript, Python, Ruby, R, LLVM alongside Java | Community Edition    |
 | Truffle Framework    | API for building high-performance language runtimes  | Production           |
 | VisualVM Integration | Profiling and diagnostics for Graal-compiled code    | Production           |
+
+</div>
 
 :::note
 As a standard JDK component. You no longer need a separate GraalVM distribution to build native
@@ -68,6 +72,8 @@ C++).
 C2 as the top-tier optimizing compiler. It operates on a sea-of-nodes intermediate representation
 (IR) that is more expressive than C2"s ideal graph.
 
+<div class="table-wrap">
+
 | Feature             | C2                         | Graal                               |
 | ------------------- | -------------------------- | ----------------------------------- |
 | Implementation      | C++                        | Java                                |
@@ -77,6 +83,8 @@ C2 as the top-tier optimizing compiler. It operates on a sea-of-nodes intermedia
 | Loop optimizations  | Limited                    | Extensive (loop peeling, unrolling) |
 | Deoptimization      | Speculative                | Speculative with better recovery    |
 | Extensibility       | Hard (C++ plugin system)   | Easy (Java plugin system)           |
+
+</div>
 
 ### Compilation Tiers with Graal
 
@@ -330,12 +338,16 @@ Args = --features=org.graalvm.nativeimage.impl.InternalFeature \
 Native image eliminates JIT warmup entirely. All code is compiled ahead of time, and the image heap
 Contains pre-initialized objects. The result is startup times measured in single-digit milliseconds.
 
+<div class="table-wrap">
+
 | Metric                | HotSpot (JVM) | Native Image | Improvement |
 | --------------------- | ------------- | ------------ | ----------- |
 | Startup (cold)        | 1-3 seconds   | 5-20 ms      | 100-500x    |
 | Time to first request | 2-5 seconds   | 15-50 ms     | 100-300x    |
 | RSS (idle)            | 100-300 MB    | 20-60 MB     | 3-10x       |
 | RSS (peak)            | 500 MB - 2 GB | 80-200 MB    | 3-10x       |
+
+</div>
 
 ### Memory Footprint
 
@@ -361,6 +373,8 @@ Reasons are:
 3. **Fixed code layout**: HotSpot can reoptimize code layout based on actual execution frequency.
    Native image's code layout is fixed at build time.
 
+<div class="table-wrap">
+
 | Workload             | HotSpot Throughput | Native Image Throughput |
 | -------------------- | ------------------ | ----------------------- |
 | I/O-bound REST API   | Baseline           | 90-110% of HotSpot      |
@@ -368,6 +382,8 @@ Reasons are:
 | Numeric computation  | Baseline           | 60-85% of HotSpot       |
 | Crypto workloads     | Baseline           | 70-90% of HotSpot       |
 | Short-lived CLI tool | N/A (warmup kills) | 10-100x faster overall  |
+
+</div>
 
 :::note
 Release. For I/O-bound server applications, native image now matches or exceeds HotSpot performance
@@ -389,6 +405,8 @@ with deterministic deallocation.
 
 ### Core Types
 
+<div class="table-wrap">
+
 | Type                 | Purpose                                         |
 | -------------------- | ----------------------------------------------- |
 | `Linker`             | Creates native method handles (downcall/upcall) |
@@ -398,6 +416,8 @@ with deterministic deallocation.
 | `ValueLayout`        | Describes the layout of values in memory        |
 | `FunctionDescriptor` | Describes the signature of a native function    |
 | `MethodHandle`       | Invokes a native function (downcall)            |
+
+</div>
 
 ### Calling a C Function from Java
 
@@ -598,6 +618,8 @@ public class LibCurlExample {
 
 ### FFM API vs JNI
 
+<div class="table-wrap">
+
 | Feature            | JNI                              | FFM API                                 |
 | ------------------ | -------------------------------- | --------------------------------------- |
 | Boilerplate        | C header generation + C code     | Pure Java                               |
@@ -608,6 +630,8 @@ public class LibCurlExample {
 | Callbacks          | Manual JNI env + C trampoline    | Upcall handles                          |
 | Performance        | Good (direct call after linking) | Comparable (downcall stubs are fast)    |
 | Safety             | Undefined behavior on misuse     | Bounds-checked, null-checked            |
+
+</div>
 
 :::caution
 If misused. These methods perform bounds checks and null checks, but cannot prevent all undefined
@@ -945,6 +969,8 @@ try { socket.read(buffer); } finally { lock.unlock(); }
 
 ### When to Use Virtual Threads
 
+<div class="table-wrap">
+
 | Scenario                     | Use Virtual Threads?                      |
 | ---------------------------- | ----------------------------------------- |
 | HTTP server (I/O-bound)      | Yes                                       |
@@ -952,6 +978,8 @@ try { socket.read(buffer); } finally { lock.unlock(); }
 | File processing pipeline     | Yes                                       |
 | CPU-bound computation        | No (use parallel streams or ForkJoinPool) |
 | Latency-critical path        | No (scheduling adds overhead)             |
+
+</div>
 
 ## Structured Concurrency (Preview)
 
@@ -1033,6 +1061,8 @@ Before finalization. The examples below reflect the current preview state.
 
 ### Identity Classes vs Value Classes
 
+<div class="table-wrap">
+
 | Property            | Identity Class (today) | Value Class (Valhalla)       |
 | ------------------- | ---------------------- | ---------------------------- |
 | Identity            | Has identity (`==`)    | No identity                  |
@@ -1043,6 +1073,8 @@ Before finalization. The examples below reflect the current preview state.
 | Synchronization     | Can use `synchronized` | Not allowed                  |
 | Supertype           | `Object`               | Implicit abstract superclass |
 | Generic type params | Reference types only   | Can be used as type argument |
+
+</div>
 
 ### Declaring a Value Class
 
@@ -1358,6 +1390,8 @@ Need additional configuration.
 
 ### Unsupported Features in Native Image
 
+<div class="table-wrap">
+
 | Feature                            | Supported? | Notes                                 |
 | ---------------------------------- | ---------- | ------------------------------------- |
 | `java.lang.reflect`                | Partial    | Requires explicit configuration       |
@@ -1370,9 +1404,13 @@ Need additional configuration.
 | `java.net.URI`/`URL`               | Yes        |                                       |
 | `javax.crypto`                     | Partial    | Some providers need registration      |
 
+</div>
+
 ## Reference
 
 ### JEP Numbers and Java Versions
+
+<div class="table-wrap">
 
 | JEP | Feature                                | Java Version | Status    |
 | --- | -------------------------------------- | ------------ | --------- |
@@ -1392,6 +1430,8 @@ Need additional configuration.
 | 412 | Foreign Function and Memory API (prev) | 19           | Preview   |
 | 395 | Records                                | 16           | Standard  |
 | 409 | Sealed Classes                         | 17           | Standard  |
+
+</div>
 
 ### Useful JVM Flags
 

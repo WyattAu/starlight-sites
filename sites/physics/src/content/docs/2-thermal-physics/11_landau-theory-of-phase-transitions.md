@@ -198,5 +198,5 @@ Landau theory is a mathematical framework for understanding how systems choose b
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Landau theory connects the microscopic partition function to macroscopic thermodynamic behaviour through the free energy expansion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 

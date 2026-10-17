@@ -28,11 +28,15 @@ tags:
 
 ### Types of Neurons
 
+<div class="table-wrap">
+
 | Type                    | Structure                                                     | Function                                                   |
 | ----------------------- | ------------------------------------------------------------- | ---------------------------------------------------------- |
 | **Sensory (afferent)**  | Long dendrites, short axon; cell body in dorsal root ganglion | Transmit impulses from receptors to the CNS.               |
 | **Relay (interneuron)** | Short dendrites, short or no axon; within CNS                 | Process information; connect sensory and motor neurons.    |
 | **Motor (efferent)**    | Short dendrites, long axon; cell body in CNS                  | Transmit impulses from CNS to effectors (muscles, glands). |
+
+</div>
 
 ### Anatomy of a Neuron
 
@@ -58,15 +62,21 @@ tags:
 
 ### Schwann Cells vs Oligodendrocytes
 
+<div class="table-wrap">
+
 | Feature              | Schwann Cells (PNS)                                  | Oligodendrocytes (CNS)                                              |
 | -------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | Myelination          | One Schwann cell myelinates one segment of one axon. | One oligodendrocyte myelinates multiple segments on multiple axons. |
 | Regeneration         | Can guide axon regeneration after injury.            | Limited regenerative capacity in the CNS.                           |
 | Associated disorders | Guillain-Barre syndrome (autoimmune demyelination).  | Multiple sclerosis (autoimmune demyelination).                      |
 
+</div>
+
 ### Glial Cells (Neuroglia)
 
 Non-neuronal cells that support, nourish, and protect neurons:
+
+<div class="table-wrap">
 
 | Cell type           | Location | Function                                                                                                  |
 | ------------------- | -------- | --------------------------------------------------------------------------------------------------------- |
@@ -75,6 +85,8 @@ Non-neuronal cells that support, nourish, and protect neurons:
 | **Ependymal cells** | CNS      | Line the ventricles of the brain and central canal of the spinal cord; produce cerebrospinal fluid (CSF). |
 | **Schwann cells**   | PNS      | Myelinate axons; aid regeneration.                                                                        |
 | **Satellite cells** | PNS      | Surround cell bodies in ganglia; provide nutrients and regulate the extracellular environment.            |
+
+</div>
 
 ---
 
@@ -97,12 +109,16 @@ Permeability of the membrane.
 
 **Typical ion concentrations** (intracellular vs extracellular):
 
+<div class="table-wrap">
+
 | Ion                                               | Intracellular ($\mathrm{mmol/L}$) | Extracellular ($\mathrm{mmol/L}$) | Equilibrium potential ($\mathrm{mV}$) |
 | ------------------------------------------------- | --------------------------------- | --------------------------------- | ------------------------------------- |
 | $\mathrm{Na}^+$                                   | $15$                              | $145$                             | $\approx +60$                         |
 | $\mathrm{K}^+$                                    | $150$                             | $5$                               | $\approx -90$                         |
 | $\mathrm{Cl}^-$                                   | $10$                              | $110$                             | $\approx -70$                         |
 | Impermeable anions (proteins, organic phosphates) | High                              | Low                               | ---                                   |
+
+</div>
 
 ### The Nernst Equation
 
@@ -161,6 +177,8 @@ Constant.
 An action potential is a rapid, transient reversal of the membrane potential, approximately
 $+40\;\mathrm{mV}$ at its peak.
 
+<div class="table-wrap">
+
 | Phase                 | Membrane potential            | Ion channels and movements                                                                                                  |
 | --------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **Resting**           | $\approx -70\;\mathrm{mV}$    | $\mathrm{Na}^+$ and $\mathrm{K}^+$ voltage-gated channels are closed; leak $\mathrm{K}^+$ channels are open.                |
@@ -170,6 +188,8 @@ $+40\;\mathrm{mV}$ at its peak.
 | **Repolarisation**    | $+40$ to $-70\;\mathrm{mV}$   | $\mathrm{Na}^+$ channels are inactivated; $\mathrm{K}^+$ channels remain open; $\mathrm{K}^+$ rushes out.                   |
 | **Hyperpolarisation** | $-70$ to $-80\;\mathrm{mV}$   | $\mathrm{K}^+$ channels close slowly; excess $\mathrm{K}^+$ efflux makes the inside temporarily more negative than resting. |
 | **Restoration**       | Returns to $-70\;\mathrm{mV}$ | $\mathrm{K}^+$ channels close; $\mathrm{Na}^+/\mathrm{K}^+$ pump restores original ion concentrations.                      |
+
+</div>
 
 ### Refractory Periods
 
@@ -237,11 +257,15 @@ In myelinated axons, the action potential "jumps" between nodes of Ranvier:
 
 ### Factors Affecting Conduction Velocity
 
+<div class="table-wrap">
+
 | Factor            | Effect                                                                                                                 |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | **Axon diameter** | Larger diameter = faster conduction (less resistance to current flow).                                                 |
 | **Myelination**   | Myelinated axons conduct much faster (saltatory conduction).                                                           |
 | **Temperature**   | Higher temperature = faster conduction (ion channel kinetics are temperature-dependent). Hypothermia slows conduction. |
+
+</div>
 
 ---
 
@@ -319,6 +343,8 @@ is Fired.
 
 ### Classification
 
+<div class="table-wrap">
+
 | Neurotransmitter                   | Type                  | Receptors                                                        | Effect                                                                                   | Key locations                                           |
 | ---------------------------------- | --------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **Acetylcholine (ACh)**            | Small molecule        | Nicotinic (ionotropic), muscarinic (metabotropic)                | Excitatory at NMJ; can be excitatory or inhibitory in CNS                                | Neuromuscular junctions; autonomic ganglia; CNS         |
@@ -328,6 +354,8 @@ is Fired.
 | **Dopamine**                       | Amine (catecholamine) | $\mathrm{D_1}$--$\mathrm{D_5}$ receptors (metabotropic)          | Motor control, reward, motivation; can be excitatory or inhibitory depending on receptor | Substantia nigra, ventral tegmental area, basal ganglia |
 | **Noradrenaline (norepinephrine)** | Amine (catecholamine) | $\alpha$ and $\beta$ adrenergic receptors                        | Arousal, attention, fight-or-flight; sympathetic NS                                      | Locus coeruleus; sympathetic postganglionic neurons     |
 | **Serotonin (5-HT)**               | Amine (indolamine)    | $5\text{-HT}_1$--$5\text{-HT}_7$ receptors                       | Mood, sleep, appetite, pain perception                                                   | Raphe nuclei (brainstem); gastrointestinal tract        |
+
+</div>
 
 ### Acetylcholine in Detail
 
@@ -346,6 +374,8 @@ Acetylcholine (ACh) is the neurotransmitter at:
 
 ### Clinical Relevance of Neurotransmitters
 
+<div class="table-wrap">
+
 | Condition               | Neurotransmitter involved | Mechanism                                                                                                       |
 | ----------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | **Alzheimer's disease** | Acetylcholine             | Degeneration of cholinergic neurons in the basal forebrain; reduced ACh in hippocampus and cortex.              |
@@ -354,6 +384,8 @@ Acetylcholine (ACh) is the neurotransmitter at:
 | **Myasthenia gravis**   | Acetylcholine             | Autoantibodies destroy nicotinic ACh receptors at NMJ; muscle weakness and fatigue.                             |
 | **Epilepsy**            | GABA, glutamate           | Reduced GABAergic inhibition or excessive glutamatergic excitation.                                             |
 | **Schizophrenia**       | Dopamine                  | Excess dopamine activity in mesolimbic pathway; $\mathrm{D_2}$ receptor antagonists are antipsychotics.         |
+
+</div>
 
 ---
 
@@ -428,6 +460,8 @@ Example: touching a hot object.
 Receptors are specialised cells or nerve endings that convert stimuli (energy) into electrical
 signals (graded potentials, then action potentials) --- a process called **transduction**.
 
+<div class="table-wrap">
+
 | Receptor type        | Stimulus detected                                     | Example                                                                                                             |
 | -------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Mechanoreceptors** | Mechanical deformation (pressure, vibration, stretch) | Pacinian corpuscles (deep pressure); Meissner's corpuscles (light touch, vibration); hair cells in cochlea (sound). |
@@ -435,6 +469,8 @@ signals (graded potentials, then action potentials) --- a process called **trans
 | **Nociceptors**      | Pain (tissue damage, extreme stimuli)                 | Free nerve endings in skin, muscles, organs.                                                                        |
 | **Chemoreceptors**   | Chemical substances                                   | Taste buds; olfactory receptors; carotid bodies ($\mathrm{O}_2$, $\mathrm{CO}_2$ PH).                                  |
 | **Photoreceptors**   | Light                                                 | Rods (dim light, black-and-white); cones (colour vision, high acuity).                                              |
+
+</div>
 
 ### Sensory Pathways to the Brain
 
@@ -450,6 +486,8 @@ signals (graded potentials, then action potentials) --- a process called **trans
 
 **Structure of the eye:**
 
+<div class="table-wrap">
+
 | Structure       | Function                                                                                                 |
 | --------------- | -------------------------------------------------------------------------------------------------------- |
 | **Cornea**      | Transparent outer layer; refracts light (provides approximately $2/3$ of total refraction).              |
@@ -459,6 +497,8 @@ signals (graded potentials, then action potentials) --- a process called **trans
 | **Retina**      | Light-sensitive layer containing photoreceptors (rods and cones).                                        |
 | **Fovea**       | Area of highest visual acuity; densely packed with cones.                                                |
 | **Optic nerve** | Transmits action potentials from retinal ganglion cells to the brain.                                    |
+
+</div>
 
 **Phototransduction:**
 
@@ -473,12 +513,16 @@ signals (graded potentials, then action potentials) --- a process called **trans
 
 **Rods vs cones:**
 
+<div class="table-wrap">
+
 | Feature       | Rods                                                 | Cones                                                |
 | ------------- | ---------------------------------------------------- | ---------------------------------------------------- |
 | Sensitivity   | High (function in dim light)                         | Low (require bright light)                           |
 | Colour vision | No (one type of rhodopsin)                           | Yes (three types: red, green, blue --- trichromatic) |
 | Acuity        | Low (convergence of many rods onto one bipolar cell) | High (one cone per bipolar cell in fovea)            |
 | Distribution  | Concentrated in periphery of retina                  | Concentrated in fovea                                |
+
+</div>
 
 ### The Ear and Hearing
 
@@ -593,6 +637,8 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 
 ### Major Brain Regions
 
+<div class="table-wrap">
+
 | Region            | Key structures                                                    | Primary functions                                                                                                                                                                              |
 | ----------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Cerebrum**      | Cerebral cortex (grey matter); basal ganglia; white matter tracts | Conscious thought, voluntary movement, sensory processing, language, memory, decision-making.                                                                                                  |
@@ -601,7 +647,11 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 | **Brainstem**     | Midbrain; pons; medulla oblongata                                 | Midbrain: reflexes (visual, auditory), dopamine pathways. Pons: relay between cerebrum and cerebellum, breathing regulation. Medulla: vital centres (cardiac, respiratory, vasomotor centres). |
 | **Limbic system** | Hippocampus; amygdala; hypothalamus; cingulate gyrus              | Emotion, memory formation (hippocampus), fear processing (amygdala), motivation, olfaction.                                                                                                    |
 
+</div>
+
 ### Cerebral Cortex (Lobes)
+
+<div class="table-wrap">
 
 | Lobe          | Location                       | Primary functions                                                                                                                                                      |
 | ------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -609,6 +659,8 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 | **Parietal**  | Posterior to central sulcus    | Somatosensory processing (primary somatosensory cortex, postcentral gyrus); spatial awareness; proprioception.                                                         |
 | **Temporal**  | Lateral, below lateral fissure | Auditory processing (primary auditory cortex); Wernicke's area (language comprehension, left hemisphere); memory (medial temporal lobe, hippocampus).                  |
 | **Occipital** | Posterior                      | Visual processing (primary visual cortex); colour, motion, and form perception.                                                                                        |
+
+</div>
 
 ---
 
@@ -628,6 +680,8 @@ respiratory Rate, pupillary response, and glandular secretion.
 
 ### Sympathetic vs Parasympathetic Divisions
 
+<div class="table-wrap">
+
 | Feature                  | Sympathetic ("fight or flight")                                                                                                                                                  | Parasympathetic ("rest and digest")                                                                                 |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Origin**               | Thoracolumbar spinal cord ($\mathrm{T_1}$--$\mathrm{L_2/L_3}$)                                                                                                                   | Cranial nerves (III, VII, IX, X) and sacral spinal cord ($\mathrm{S_2}$--$\mathrm{S_4}$)                            |
@@ -636,6 +690,8 @@ respiratory Rate, pupillary response, and glandular secretion.
 | **Postganglionic fibre** | Long; unmyelinated                                                                                                                                                               | Short; unmyelinated                                                                                                 |
 | **Neurotransmitter**     | ACh (preganglionic); noradrenaline (postganglionic, mostly)                                                                                                                      | ACh at all synapses (nicotinic at ganglia, muscarinic at target organs)                                             |
 | **Effects**              | Pupil dilation; increased heart rate; bronchodilation; increased blood glucose; decreased digestive activity; vasodilation in skeletal muscle; vasoconstriction in skin and gut. | Pupil constriction; decreased heart rate; bronchoconstriction; increased digestive activity; salivation; urination. |
+
+</div>
 
 **Key principle**: most organs receive dual innervation. The sympathetic and parasympathetic systems
 Generally have **antagonistic** effects, allowing precise regulation (e.g., sympathetic increases
@@ -1021,6 +1077,8 @@ Potential is fired in the postsynaptic neuron. Discuss how drugs that inhibit ac
 A researcher records the membrane potential of a neuron using an intracellular microelectrode. The
 Following data are obtained after applying stimuli of increasing intensity:
 
+<div class="table-wrap">
+
 | Stimulus intensity ($\mathrm{\mu A}$) | Peak membrane potential ($\mathrm{mV}$) |
 | ------------------------------------- | --------------------------------------- |
 | 0                                     | -70                                     |
@@ -1030,6 +1088,8 @@ Following data are obtained after applying stimuli of increasing intensity:
 | 8                                     | +40                                     |
 | 10                                    | +40                                     |
 | 12                                    | +40                                     |
+
+</div>
 
 (a) Plot the data. Identify the threshold stimulus intensity. (b) Explain why increasing the
 Stimulus from 8 to 12 $\mathrm{\mu A}$ does not change the peak potential. (c) Explain how the
@@ -1192,12 +1252,16 @@ problems, and fatigue, reflecting disrupted neural signalling in the CNS.
 
 A neuron has the following intracellular and extracellular ion concentrations:
 
+<div class="table-wrap">
+
 | Ion                | Intracellular (mM) | Extracellular (mM) |
 | ------------------ | ------------------ | ------------------ |
 | $\mathrm{Na}^+$    | 15                 | 145                |
 | $\mathrm{K}^+$     | 150                | 4.5                |
 | $\mathrm{Cl}^-$    | 10                 | 110                |
 | $\mathrm{Ca}^{2+}$ | 0.0001             | 2.0                |
+
+</div>
 
 Temperature $= 37^\circ\mathrm{C}$. (a) Calculate the equilibrium potential for each ion using the
 Nernst Equation ($E = \frac{RT}{zF}\ln\frac{[\text{ion}]_{out}}{[\text{ion}]_{in}}$ Where
@@ -1436,11 +1500,15 @@ learning and memory.
 A researcher investigates the effect of three drugs on synaptic transmission at a cholinergic
 synapse:
 
+<div class="table-wrap">
+
 | Drug   | Effect observed                                     |
 | ------ | --------------------------------------------------- |
 | Drug X | No EPSP recorded                                    |
 | Drug Y | Prolonged EPSP; muscle contracts but does not relax |
 | Drug Z | Reduced EPSP amplitude; normal shape                |
+
+</div>
 
 For each drug: (a) identify the likely molecular target, (b) name a specific drug that produces this
 Effect, (c) explain the mechanism, and (d) explain the clinical or experimental significance.
@@ -1493,6 +1561,8 @@ and (f) overall function ("fight or flight" vs "rest and digest").
 <details>
 <summary>Answer 8</summary>
 
+<div class="table-wrap">
+
 | Feature                     | Sympathetic                                                                                    | Parasympathetic                                                |
 | --------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Origin**                  | Thoracolumbar (T1--L2/L3) spinal cord                                                          | Cranial nerves (III, VII, IX, X) + sacral spinal cord (S2--S4) |
@@ -1509,6 +1579,8 @@ and (f) overall function ("fight or flight" vs "rest and digest").
 | **Digestion**               | Inhibits ($\alpha_2$$\beta_2$)                                                                 | Stimulates (M1, M3)                                            |
 | **Adrenal medulla**         | Stimulates (ACh on chromaffin cells, releasing adrenaline + NA)                                | No effect                                                      |
 | **Overall**                 | Fight or flight                                                                                | Rest and digest                                                |
+
+</div>
 
 (f) The sympathetic system prepares the body for emergency action: increasing heart rate, blood
 pressure, And blood glucose; dilating airways; diverting blood to skeletal muscles; and dilating
@@ -1575,6 +1647,8 @@ treatment Strategies and their limitations.
 <details>
 <summary>Answer 10</summary>
 
+<div class="table-wrap">
+
 | Feature                       | Alzheimer's disease                                                                                                                | Parkinson's disease                                                                                                |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Primary brain regions**     | Cerebral cortex (especially temporal, frontal, parietal), hippocampus                                                              | Substantia nigra pars compacta, basal ganglia, later cortex                                                        |
@@ -1584,6 +1658,8 @@ treatment Strategies and their limitations.
 | **Later symptoms**            | Confusion, personality changes, loss of executive function, language impairment                                                    | Dementia (in later stages), depression, sleep disorders, autonomic dysfunction                                     |
 | **Treatment**                 | Cholinesterase inhibitors (donepezil, rivastigmine, galantamine) to increase ACh; NMDA receptor antagonist (memantine); palliative | L-DOPA (dopamine precursor); dopamine agonists (ropinirole, pramipexole); MAO-B inhibitors; deep brain stimulation |
 | **Treatment limitations**     | Do not slow disease progression; only temporarily improve symptoms; side effects include nausea, insomnia                          | L-DOPA effectiveness declines over time; dyskinesias (involuntary movements); does not halt neurodegeneration      |
+
+</div>
 
 Both diseases involve the accumulation of misfolded protein aggregates, progressive loss of specific
 Neuronal populations, and currently have no cure. Research is focused on: immunotherapy (antibodies
@@ -1632,15 +1708,21 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic            | Site    | Link                                                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Nervous System] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/nervous-system)                    |
 | [Nervous System] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system/)   |
 | [Nervous System] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) |
 
+</div>
+
 ## Supplementary: Muscle Contraction in Detail (HL Extension)
 
 ### Types of Muscle Tissue
+
+<div class="table-wrap">
 
 | Feature               | Skeletal                  | Cardiac                              | Smooth                        |
 | --------------------- | ------------------------- | ------------------------------------ | ----------------------------- |
@@ -1651,6 +1733,8 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 | **Regeneration**      | Limited (satellite cells) | Very limited                         | Good                          |
 | **Contraction speed** | Fast                      | Intermediate                         | Slow                          |
 | **Fatigue**           | Yes                       | No (resists fatigue)                 | No                            |
+
+</div>
 
 ### Sliding Filament Mechanism of Skeletal Muscle Contraction
 

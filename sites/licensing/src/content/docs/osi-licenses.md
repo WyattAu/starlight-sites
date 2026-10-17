@@ -30,12 +30,16 @@ requires that the license comply with the Open Source Definition: free redistrib
 source code, allowance for modifications, no discrimination against persons or fields of endeavor,
 and no restriction on other software distributed alongside the licensed code.
 
+<div class="table-wrap">
+
 | Category         | Mechanism                       | Examples                  |
 | ---------------- | ------------------------------- | ------------------------- |
 | Permissive       | Attribution only                | MIT, Apache 2.0, BSD, ISC |
 | Weak copyleft    | Same license for modified files | LGPL v3, MPL 2.0          |
 | Strong copyleft  | Same license for the whole work | GPL v3                    |
 | Network copyleft | Extends strong copyleft to SaaS | AGPL v3                   |
+
+</div>
 
 The practical difference matters most when you combine code from multiple projects. Permissive code
 can be incorporated into proprietary software. Copyleft code forces openness. The wrong choice of
@@ -275,6 +279,8 @@ License compatibility determines which licenses can be combined in a single proj
 include code under different licenses, the result must satisfy all license requirements
 simultaneously. Some combinations are impossible.
 
+<div class="table-wrap">
+
 | Downstream \ Dependency | MIT | Apache 2.0 | BSD | LGPL v3 | MPL 2.0 | GPL v3 | AGPL v3 |
 | ----------------------- | --- | ---------- | --- | ------- | ------- | ------ | ------- |
 | **Proprietary**         | Yes | Yes        | Yes | Yes¹    | Yes²    | No     | No      |
@@ -282,6 +288,8 @@ simultaneously. Some combinations are impossible.
 | **Apache 2.0**          | Yes | Yes        | Yes | No³     | No³     | No     | No      |
 | **GPL v3**              | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
 | **AGPL v3**             | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
+
+</div>
 
 ¹ Via dynamic linking only; static linking may trigger copyleft. ² MPL copyleft applies only to
 modified MPL files; the larger work can be proprietary. ³ Apache 2.0 and GPL v3 are incompatible in
@@ -314,6 +322,8 @@ LGPL v3
 
 ### Common Scenarios
 
+<div class="table-wrap">
+
 | Scenario                                        | Recommended License |
 | ----------------------------------------------- | ------------------- |
 | Developer tool or CLI utility                   | MIT or Apache 2.0   |
@@ -323,6 +333,8 @@ LGPL v3
 | Standalone application, free software ideology  | GPL v3              |
 | Web service / SaaS, want to prevent enclosure   | AGPL v3             |
 | Corporate open-source project                   | Apache 2.0          |
+
+</div>
 
 ### One License Per File
 

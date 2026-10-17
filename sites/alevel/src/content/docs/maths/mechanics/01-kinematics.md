@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                          |
 | ---------- | ------- | ------------------------------ |
 | AQA        | Paper 1 | 1D kinematics, projectiles     |
 | Edexcel    | P1      | Similar                        |
 | OCR (A)    | Paper 1 | Includes variable acceleration |
 | CIE (9709) | P1, P4  | 1D in P1; 2D/projectiles in P4 |
+
+</div>
 
 :::note
 Equation and apply it to multi-stage problems.
@@ -133,12 +137,16 @@ the derivation means you can recover any formula you forget.
 
 ### 2.2 Summary
 
+<div class="table-wrap">
+
 | Equation                   | Variables    | Missing |
 | -------------------------- | ------------ | ------- |
 | $v = u + at$               | $v, u, a, t$ | $s$     |
 | $s = ut + \frac{1}{2}at^2$ | $s, u, a, t$ | $v$     |
 | $v^2 = u^2 + 2as$          | $v, u, a, s$ | $t$     |
 | $s = \frac{1}{2}(u+v)t$    | $s, u, v, t$ | $a$     |
+
+</div>
 
 :::tip
 Known quantities and the unknown. Draw a diagram with positive direction marked.

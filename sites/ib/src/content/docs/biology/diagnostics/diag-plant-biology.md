@@ -293,10 +293,14 @@ Crossing two F1 plants (Rr $\times$ Rr):
 
 F2 Punnett square:
 
+<div class="table-wrap">
+
 |     | R        | r        |
 | --- | -------- | -------- |
 | R   | RR (1/4) | Rr (1/4) |
 | r   | Rr (1/4) | rr (1/4) |
+
+</div>
 
 F2 genotype ratio: 1 RR : 2 Rr : 1 rr F2 phenotype ratio: 3 red : 1 white
 

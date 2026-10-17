@@ -127,11 +127,15 @@ erDiagram
 
 ### Relationships
 
+<div class="table-wrap">
+
 | Cardinality | ER Notation            | SQL Implementation                                 |
 | ----------- | ---------------------- | -------------------------------------------------- |
 | 1:1         | One line, one mark     | Foreign key in either table with UNIQUE constraint |
 | 1:N         | One line, many marks   | Foreign key in the "many" table                    |
 | M:N         | Many lines, many marks | Association table with composite PK                |
+
+</div>
 
 ### Attributes
 
@@ -355,6 +359,8 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 
 ### When to Partition
 
+<div class="table-wrap">
+
 | Factor        | Partition                                        | Do Not Partition                  |
 | ------------- | ------------------------------------------------ | --------------------------------- |
 | Table size    | &gt; 10-50 GB                                    | &lt; 5 GB                         |
@@ -362,6 +368,8 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 | Maintenance   | Need to drop/archive old data quickly            | Data lifecycle is uniform         |
 | Write pattern | Inserts target specific partitions               | Inserts are spread uniformly      |
 | Index size    | Index maintenance is becoming expensive          | Indexes fit comfortably in memory |
+
+</div>
 
 :::caution
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
@@ -448,11 +456,15 @@ server_reset_query = DISCARD ALL
 
 ### Pool Mode Comparison
 
+<div class="table-wrap">
+
 | Mode        | Connection Lifetime | Prepared Statements | Use Case                         |
 | ----------- | ------------------- | ------------------- | -------------------------------- |
 | session     | Client session      | Supported           | Legacy applications, batch jobs  |
 | transaction | Single transaction  | Not supported       | Web applications (most common)   |
 | statement   | Single statement    | Not supported       | Rarely used; breaks transactions |
+
+</div>
 
 ## Schema Migrations
 
@@ -522,6 +534,8 @@ A reporting service or a data pipeline can cause silent failures if dropped.
 
 ### Migration Tools
 
+<div class="table-wrap">
+
 | Tool           | Language | Features                                                        |
 | -------------- | -------- | --------------------------------------------------------------- |
 | Flyway         | Java/CLI | Versioned migrations, repeatable migrations, Java/SQL callbacks |
@@ -529,6 +543,8 @@ A reporting service or a data pipeline can cause silent failures if dropped.
 | golang-migrate | Go       | CLI library, up/down migrations, database-agnostic              |
 | Alembic        | Python   | Auto-generation from SQLAlchemy models, revision chaining       |
 | dbmate         | Go/CLI   | Minimal, framework-agnostic, supports multiple databases        |
+
+</div>
 
 ## Data Modeling Anti-Patterns
 
@@ -754,6 +770,8 @@ Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 
 ### OLTP vs OLAP
 
+<div class="table-wrap">
+
 | Dimension     | OLTP (Online Transaction Processing)       | OLAP (Online Analytical Processing)      |
 | ------------- | ------------------------------------------ | ---------------------------------------- |
 | Purpose       | Day-to-day operations                      | Analysis, reporting, decision support    |
@@ -762,6 +780,8 @@ Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 | Write pattern | Frequent small writes (INSERT, UPDATE)     | Bulk loads (ETL), infrequent             |
 | Normalisation | Fully normalised (3NF+)                    | Denormalised (star/snowflake schema)     |
 | Examples      | Order processing, user management, banking | Sales reports, dashboards, data mining   |
+
+</div>
 
 ### Star Schema
 
@@ -836,12 +856,16 @@ Joins (slower queries), more complex to understand
 
 Dimensions change over time. SCD strategies define how to handle these changes:
 
+<div class="table-wrap">
+
 | Type  | Strategy                            | Example                                         |
 | ----- | ----------------------------------- | ----------------------------------------------- |
 | SCD 1 | Overwrite the old value             | Correcting a typo in a product name             |
 | SCD 2 | Add a new row with effective dates  | Customer moves to a new address (track history) |
 | SCD 3 | Add a column for the previous value | Store the previous and current category         |
 | SCD 4 | Add a mini-dimension for history    | Track all historical values in a separate table |
+
+</div>
 
 ```sql
 -- SCD Type 2: add a new row with effective dates

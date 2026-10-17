@@ -36,12 +36,16 @@ Values, histogram of value distribution, index information.
 **Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
+<div class="table-wrap">
+
 | Predicate type              | Selectivity estimate                             |
 | --------------------------- | ------------------------------------------------ |
 | $A = v$                     | $1 / V(A, R)$                                    |
 | $A \gt v$                   | $(\max(A) - v) / (\max(A) - \min(A))$            |
 | $A_1 = v_1 \land A_2 = v_2$ | $1 / V(A_1) \times 1 / V(A_2)$                   |
 | $A_1 = v_1 \lor A_2 = v_2$  | $1/V(A_1) + 1/V(A_2) - 1/(V(A_1) \times V(A_2))$ |
+
+</div>
 
 ### 7.3 Join Algorithms
 
@@ -100,6 +104,8 @@ Practical optimisers use dynamic programming with pruning.
 
 ### 7.5 Key Relationships Between Join Algorithms
 
+<div class="table-wrap">
+
 | Algorithm            | Best use case                    | Cost (pages)                  | Memory required |
 | -------------------- | -------------------------------- | ----------------------------- | --------------- |
 | Nested-loop          | Small $n_R$ (outer small)        | $n_R \cdot n_S$               | Minimal         |
@@ -107,6 +113,8 @@ Practical optimisers use dynamic programming with pruning.
 | Sort-merge           | Large tables, sorted input       | $2n_R\log n_R + 2n_S\log n_S + n_R + n_S$ | $B$ pages |
 | Hash                 | Equi-join, one relation fits     | $3(n_R + n_S)$                | Build table     |
 | Index nested-loop    | Small outer, indexed inner       | $n_R \cdot \text{(index cost)}$ | Minimal       |
+
+</div>
 
 ### 7.6 Common Pitfalls
 
@@ -150,6 +158,8 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 
 ### 7.9 Summary Table of Optimisation Techniques
 
+<div class="table-wrap">
+
 | Technique              | When to apply                       | Benefit                           |
 | ---------------------- | ----------------------------------- | --------------------------------- |
 | Predicate pushdown     | Filter after scan                   | Reduces rows early                |
@@ -157,6 +167,8 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 | Join reordering        | Multiple joins with selective filters | Minimises intermediate size       |
 | Index-only scan        | Covered query                       | Avoids table access               |
 | Materialised view      | Expensive aggregations              | Precomputes results               |
+
+</div>
 
 ## Intuition
 

@@ -60,6 +60,8 @@ Every HTML document follows this fundamental structure:
 </html>
 ```
 
+<div class="table-wrap">
+
 | Component          | Purpose                                                       |
 | ------------------ | ------------------------------------------------------------- |
 | `<!DOCTYPE html>`  | Declares the document type as HTML5                           |
@@ -72,10 +74,14 @@ Every HTML document follows this fundamental structure:
 | `<body>`           | Contains all visible page content                             |
 | `<script>`         | Links to or embeds JavaScript code                            |
 
+</div>
+
 ### Semantic HTML
 
 Semantic elements describe their meaning to both the browser and the developer. Using Semantic HTML
 improves accessibility, SEO, and code maintainability.
+
+<div class="table-wrap">
 
 | Semantic Element | Purpose                                          | Non-Semantic Equivalent |
 | ---------------- | ------------------------------------------------ | ----------------------- |
@@ -90,6 +96,8 @@ improves accessibility, SEO, and code maintainability.
 | `<figcaption>`   | Caption for a `<figure>`                         | `<span>` or ``          |
 | `<time>`         | Date/time                                        | `<span>`                |
 | `<mark>`         | Highlighted text                                 | `<span>`                |
+
+</div>
 
 ### HTML Forms
 
@@ -133,6 +141,8 @@ Forms collect user input and submit it to a server for processing.
 </form>
 ```
 
+<div class="table-wrap">
+
 | Input Type | Purpose                                          | Validation                     |
 | ---------- | ------------------------------------------------ | ------------------------------ |
 | `text`     | Single-line text                                 | `maxlength``pattern``required` |
@@ -149,7 +159,11 @@ Forms collect user input and submit it to a server for processing.
 | `submit`   | Submits the form                                 | Triggers `action` URL          |
 | `reset`    | Resets all form fields to defaults               |                                |
 
+</div>
+
 **Form attributes:**
+
+<div class="table-wrap">
 
 | Attribute     | Description                                                        |
 | ------------- | ------------------------------------------------------------------ |
@@ -162,6 +176,8 @@ Forms collect user input and submit it to a server for processing.
 | `required`    | Field must be filled before submission                             |
 | `placeholder` | Hint text shown inside the field before user types                 |
 | `autofocus`   | Field receives focus when page loads                               |
+
+</div>
 
 ### HTML Tables
 
@@ -203,6 +219,8 @@ Forms collect user input and submit it to a server for processing.
 </table>
 ```
 
+<div class="table-wrap">
+
 | Element     | Purpose                                |
 | ----------- | -------------------------------------- |
 | `<table>`   | Container for the table                |
@@ -213,6 +231,8 @@ Forms collect user input and submit it to a server for processing.
 | `<tr>`      | Table row                              |
 | `<th>`      | Header cell (bold, centred by default) |
 | `<td>`      | Data cell                              |
+
+</div>
 
 ---
 
@@ -231,6 +251,8 @@ Forms collect user input and submit it to a server for processing.
 
 CSS selectors determine which HTML elements are targeted by style rules.
 
+<div class="table-wrap">
+
 | Selector Type        | Syntax          | Description                        | Specificity |
 | -------------------- | --------------- | ---------------------------------- | ----------- |
 | **Universal**        | `*`             | Selects all elements               | 0-0-0       |
@@ -244,12 +266,16 @@ CSS selectors determine which HTML elements are targeted by style rules.
 | **Pseudo-class**     | `a:hover`       | Element in a specific state        | 0-1-0       |
 | **Pseudo-element**   | `p::first-line` | Specific part of an element        | 0-0-1       |
 
+</div>
+
 **Specificity ordering (low to high):** Universal &lt; Element &lt; Class/Attribute/Pseudo-class
 &lt; ID &lt; Inline style &lt; `!important`
 
 ### CSS Properties -- Core Reference
 
 #### Text and Font Properties
+
+<div class="table-wrap">
 
 | Property          | Description                       | Example                            |
 | ----------------- | --------------------------------- | ---------------------------------- |
@@ -263,6 +289,8 @@ CSS selectors determine which HTML elements are targeted by style rules.
 | `color`           | Text colour                       | `#333333``rgb(51,51,51)`           |
 | `letter-spacing`  | Space between characters          | `1px``0.05em`                      |
 | `text-transform`  | Capitalisation                    | `uppercase``lowercase``capitalize` |
+
+</div>
 
 #### Box Model Properties
 
@@ -283,6 +311,8 @@ The CSS box model describes how every HTML element is rendered as a rectangular 
 +--------------------------------------------------+
 ```
 
+<div class="table-wrap">
+
 | Property                 | Description                                     |
 | ------------------------ | ----------------------------------------------- |
 | `width``height`          | Dimensions of the content area                  |
@@ -290,6 +320,8 @@ The CSS box model describes how every HTML element is rendered as a rectangular 
 | `border`                 | Border around the padding                       |
 | `margin`                 | Space outside the border                        |
 | `box-sizing: border-box` | Includes padding and border in the width/height |
+
+</div>
 
 **Total element width** (default `content-box`):
 
@@ -305,6 +337,8 @@ $$
 
 #### Layout Properties
 
+<div class="table-wrap">
+
 | Property   | Description                                     |
 | ---------- | ----------------------------------------------- |
 | `display`  | `block``inline``inline-block``flex``grid``none` |
@@ -314,7 +348,11 @@ $$
 | `overflow` | `visible``hidden``scroll``auto`                 |
 | `z-index`  | Stacking order for positioned elements          |
 
+</div>
+
 **Display types:**
+
+<div class="table-wrap">
 
 | Display Value  | Behaviour                                                                       |
 | -------------- | ------------------------------------------------------------------------------- |
@@ -324,6 +362,8 @@ $$
 | `flex`         | Flexbox container for flexible 1D layouts                                       |
 | `grid`         | CSS Grid container for 2D layouts                                               |
 | `none`         | Element is hidden and removed from layout flow                                  |
+
+</div>
 
 ### Flexbox Layout
 
@@ -345,6 +385,8 @@ Flexbox is a one-dimensional layout system for arranging items in rows or column
 }
 ```
 
+<div class="table-wrap">
+
 | Property          | Values                                                                    | Description                     |
 | ----------------- | ------------------------------------------------------------------------- | ------------------------------- |
 | `flex-direction`  | `row``column``row-reverse``column-reverse`                                | Direction of main axis          |
@@ -355,6 +397,8 @@ Flexbox is a one-dimensional layout system for arranging items in rows or column
 | `flex-grow`       | Number                                                                    | How much the item grows         |
 | `flex-shrink`     | Number                                                                    | How much the item shrinks       |
 | `flex-basis`      | Length value                                                              | Initial size before grow/shrink |
+
+</div>
 
 ### CSS Grid Layout
 
@@ -382,6 +426,8 @@ CSS Grid is a two-dimensional layout system for creating complex page layouts.
 }
 ```
 
+<div class="table-wrap">
+
 | Property                | Description                        |
 | ----------------------- | ---------------------------------- |
 | `grid-template-columns` | Defines column widths              |
@@ -390,6 +436,8 @@ CSS Grid is a two-dimensional layout system for creating complex page layouts.
 | `grid-row`              | Row start and end positions        |
 | `gap`                   | Space between rows and columns     |
 | `grid-area`             | Shorthand for row/column start/end |
+
+</div>
 
 ### Responsive Design
 
@@ -423,6 +471,8 @@ Responsive design ensures a website displays well on all screen sizes (desktop, 
 
 **Responsive units:**
 
+<div class="table-wrap">
+
 | Unit   | Description                                   |
 | ------ | --------------------------------------------- |
 | `px`   | Absolute pixels                               |
@@ -434,13 +484,19 @@ Responsive design ensures a website displays well on all screen sizes (desktop, 
 | `vmin` | Percentage of the smaller viewport dimension  |
 | `vmax` | Percentage of the larger viewport dimension   |
 
+</div>
+
 ### The Three Ways to Apply CSS
+
+<div class="table-wrap">
 
 | Method             | Syntax                                       | Specificity | Reusability |
 | ------------------ | -------------------------------------------- | ----------- | ----------- |
 | **Inline style**   | `<p style="color: red;">`                    | Highest     | None        |
 | **Internal style** | `<style>` block in `<head>`                  | Medium      | Page-level  |
 | **External style** | `<link rel="stylesheet" href="style.css" />` | Medium      | Site-wide   |
+
+</div>
 
 External stylesheets are the recommended approach for maintainability, caching, and consistency.
 
@@ -465,13 +521,19 @@ let counter = 0; // Block-scoped, reassignable
 const PI = 3.14159; // Block-scoped, cannot be reassigned
 ```
 
+<div class="table-wrap">
+
 | Keyword | Scope    | Reassignable | Hoisted | Use case                    |
 | ------- | -------- | ------------ | ------- | --------------------------- |
 | `var`   | Function | Yes          | Yes     | Legacy code (avoid)         |
 | `let`   | Block    | Yes          | No      | Variables that change       |
 | `const` | Block    | No           | No      | Constants, fixed references |
 
+</div>
+
 ### Data Types
+
+<div class="table-wrap">
 
 | Type        | Description                                | Examples                           |
 | ----------- | ------------------------------------------ | ---------------------------------- |
@@ -482,6 +544,8 @@ const PI = 3.14159; // Block-scoped, cannot be reassigned
 | `undefined` | Variable declared but not assigned         | `undefined`                        |
 | `Object`    | Key-value pairs                            | `{ name: "Alice", age: 20 }`       |
 | `Array`     | Ordered collection                         | `[1, 2, 3, "four"]`                |
+
+</div>
 
 ### Functions
 
@@ -597,6 +661,8 @@ document.getElementById(''myForm").addEventListener('submit', function (event) {
 });
 ```
 
+<div class="table-wrap">
+
 | Common Events | Trigger                           |
 | ------------- | --------------------------------- |
 | `click`       | Mouse click on an element         |
@@ -610,6 +676,8 @@ document.getElementById(''myForm").addEventListener('submit', function (event) {
 | `load`        | Page or resource finishes loading |
 | `focus`       | Element receives focus            |
 | `blur`        | Element loses focus               |
+
+</div>
 
 ### Arrays
 
@@ -659,6 +727,8 @@ scores.sort(function (a, b) {
 
 ### Web Hosting Types
 
+<div class="table-wrap">
+
 | Hosting Type         | Description                                               | Cost     | Performance | Control      | Suitable For                 |
 | -------------------- | --------------------------------------------------------- | -------- | ----------- | ------------ | ---------------------------- |
 | **Shared hosting**   | Multiple websites share one server''s resources            | Low      | Low-Medium  | Limited      | Small sites, beginners       |
@@ -666,6 +736,8 @@ scores.sort(function (a, b) {
 | **Dedicated server** | Entire physical server for one client                     | High     | High        | Full         | High-traffic, enterprise     |
 | **Cloud hosting**    | Resources distributed across multiple servers (scalable)  | Variable | Scalable    | Medium-High  | Variable traffic, apps       |
 | **Free hosting**     | Limited resources, often with advertisements              | Free     | Low         | Very limited | Personal projects, testing   |
+
+</div>
 
 ### Domain Name Registration Process
 
@@ -683,6 +755,8 @@ scores.sort(function (a, b) {
 
 ### Uploading Files to a Web Server
 
+<div class="table-wrap">
+
 | Method               | Description                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------- |
 | **FTP/SFTP**         | File Transfer Protocol (FTP) or Secure FTP (SFTP) using a client like FileZilla       |
@@ -690,6 +764,8 @@ scores.sort(function (a, b) {
 | **SSH/SCP**          | Secure copy via command line                                                          |
 | **Git deployment**   | Push to a repository that triggers automatic deployment (e.g., GitHub Pages, Netlify) |
 | **CI/CD**            | Continuous Integration/Continuous Deployment pipelines                                |
+
+</div>
 
 ---
 
@@ -706,6 +782,8 @@ scores.sort(function (a, b) {
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect                 | Client-Side                              | Server-Side                               |
 | ---------------------- | ---------------------------------------- | ----------------------------------------- |
 | **Execution location** | User's browser                           | Web server                                |
@@ -717,7 +795,11 @@ scores.sort(function (a, b) {
 | **Offline capability** | Can work offline (if cached)             | Requires internet connection              |
 | **Browser dependency** | Depends on browser compatibility         | Independent of browser                    |
 
+</div>
+
 ### When to Use Each
+
+<div class="table-wrap">
 
 | Scenario                                   | Client-Side or Server-Side | Reason                                               |
 | ------------------------------------------ | -------------------------- | ---------------------------------------------------- |
@@ -728,6 +810,8 @@ scores.sort(function (a, b) {
 | Search engine indexing                     | Server-side                | Search engines need server-rendered content          |
 | Image manipulation (resize, filter)        | Client-side (preview)      | For immediate feedback; final processing server-side |
 | Payment processing                         | Server-side                | Security: API keys and transaction logic hidden      |
+
+</div>
 
 ### Server-Side Processing Example
 
@@ -753,6 +837,8 @@ When a user submits a login form:
 
 ### Image Editing
 
+<div class="table-wrap">
+
 | Feature                 | Description                                                   | Purpose                               |
 | ----------------------- | ------------------------------------------------------------- | ------------------------------------- |
 | **Cropping**            | Remove outer parts of an image                                | Focus on subject, remove distractions |
@@ -765,7 +851,11 @@ When a user submits a login form:
 | **Clone/stamp tool**    | Copy pixels from one area to another                          | Remove blemishes, duplicate elements  |
 | **Colour modes**        | RGB for screen, CMYK for print                                | Output-specific preparation           |
 
+</div>
+
 ### Video Editing
+
+<div class="table-wrap">
 
 | Feature                  | Description                                                | Purpose                            |
 | ------------------------ | ---------------------------------------------------------- | ---------------------------------- |
@@ -777,7 +867,11 @@ When a user submits a login form:
 | **Colour grading**       | Adjust colour, contrast, and tone                          | Consistent visual style            |
 | **Rendering/export**     | Convert the edited project into a distributable video file | Final output in appropriate format |
 
+</div>
+
 **Common video formats:**
+
+<div class="table-wrap">
 
 | Format | Container | Video Codec    | Audio Codec | Typical Use               |
 | ------ | --------- | -------------- | ----------- | ------------------------- |
@@ -787,7 +881,11 @@ When a user submits a login form:
 | MOV    | MOV       | H.264 / ProRes | AAC         | Apple ecosystem           |
 | WebM   | WebM      | VP8 / VP9      | Vorbis      | Web (open source)         |
 
+</div>
+
 ### Animation
+
+<div class="table-wrap">
 
 | Animation Type     | Description                                                 | Tools                 |
 | ------------------ | ----------------------------------------------------------- | --------------------- |
@@ -797,6 +895,8 @@ When a user submits a login form:
 | **JavaScript**     | Animated via DOM manipulation and requestAnimationFrame     | Text editor           |
 | **SVG animation**  | Animated using SMIL or CSS                                  | Text editor, Inkscape |
 | **3D animation**   | Three-dimensional animated models                           | Blender, Maya         |
+
+</div>
 
 ---
 
@@ -816,6 +916,8 @@ When a user submits a login form:
 These heuristics, developed by Jakob Nielsen, are widely used principles for evaluating user
 Interface design.
 
+<div class="table-wrap">
+
 | Heuristic | Principle                                                   | Description                                                                                                                                                      |
 | --------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1         | **Visibility of system status**                             | The system should always inform users about what is going on through appropriate feedback within reasonable time                                                 |
@@ -829,7 +931,11 @@ Interface design.
 | 9         | **Help users recognise, diagnose, and recover from errors** | Error messages should be expressed in plain language, precisely indicate the problem, and constructively suggest a solution                                      |
 | 10        | **Help and documentation**                                  | Although better if the system can be used without documentation, it may be necessary to provide help and documentation searchable and focused on the user's task |
 
+</div>
+
 ### Key Design Principles
+
+<div class="table-wrap">
 
 | Principle         | Description                                                          | Application Example                      |
 | ----------------- | -------------------------------------------------------------------- | ---------------------------------------- |
@@ -842,7 +948,11 @@ Interface design.
 | **Simplicity**    | Keep the interface clean and uncluttered                             | Minimal elements, clear calls to action  |
 | **Navigation**    | Users should always know where they are and how to get elsewhere     | Breadcrumbs, navigation menu, sitemap    |
 
+</div>
+
 ### Colour and Accessibility
+
+<div class="table-wrap">
 
 | Consideration            | Description                                                                              |
 | ------------------------ | ---------------------------------------------------------------------------------------- |
@@ -851,7 +961,11 @@ Interface design.
 | **Red-green deficiency** | Most common form of colour blindness (affects ~8% of males)                              |
 | **High contrast mode**   | Support system-level high contrast settings                                              |
 
+</div>
+
 ### Mobile Interface Considerations
+
+<div class="table-wrap">
 
 | Consideration       | Description                                               |
 | ------------------- | --------------------------------------------------------- |
@@ -860,6 +974,8 @@ Interface design.
 | **Orientation**     | Support both portrait and landscape modes                 |
 | **Gesture support** | Support swipe, pinch, and long-press where appropriate    |
 | **Performance**     | Minimise data transfer and processing for mobile networks |
+
+</div>
 
 ---
 

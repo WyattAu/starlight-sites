@@ -263,6 +263,8 @@ History instead.
 
 ### Detailed Comparison
 
+<div class="table-wrap">
+
 | Dimension                | Submodules                                                    | Subtrees                                                  |
 | ------------------------ | ------------------------------------------------------------- | --------------------------------------------------------- |
 | **Storage model**        | Parent stores a commit reference (mode 160000)                | Parent stores the actual files as regular blobs           |
@@ -279,6 +281,8 @@ History instead.
 | **Contributor friction** | High, new contributors forget submodule init                 | Low, clone and go                                        |
 | **Removing**             | `git rm` + `git submodule deinit` + clean `.git/modules`      | `git rm -rf <prefix>` + `git remote rm`                   |
 | **Best for**             | Large, independently-developed dependencies                   | Vendor libraries, shared code, small dependencies         |
+
+</div>
 
 ### When to Use Subtrees
 

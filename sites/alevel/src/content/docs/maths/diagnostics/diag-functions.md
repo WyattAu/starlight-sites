@@ -55,11 +55,15 @@ Solving $\frac{5-x}{x-3} \geq 0$ by sign analysis:
 
 Critical values: $x = 3$ (excluded, denominator zero) and $x = 5$ (included, numerator zero).
 
+<div class="table-wrap">
+
 | Interval       | $(5-x)$ | $(x-3)$ | Ratio |
 | -------------- | ------- | ------- | ----- |
 | $x < 3$        | $+$     | $-$     | $-$   |
 | $3 < x \leq 5$ | $+$     | $+$     | $+$   |
 | $x > 5$        | $-$     | $+$     | $-$   |
+
+</div>
 
 Domain of $f \circ g$: $(3, 5]$.
 

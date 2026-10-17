@@ -46,11 +46,15 @@ Photosynthesis, there would be no food, no oxygen, and no complex life.
 
 **Balancing the equation.** To check that the equation is balanced, count the atoms on each side:
 
+<div class="table-wrap">
+
 | Atom         | Left side  | Right side |
 | ------------ | ---------- | ---------- |
 | Carbon (C)   | 6          | 6          |
 | Hydrogen (H) | 12         | 12         |
 | Oxygen (O)   | 6 + 6 = 12 | 6 + 6 = 12 |
+
+</div>
 
 Both sides have the same number of each type of atom, so the equation is balanced.
 
@@ -61,6 +65,8 @@ That absorbs light energy (mainly red and blue wavelengths; green light is refle
 Plants appear green).
 
 **Adaptations of the leaf for photosynthesis:**
+
+<div class="table-wrap">
 
 | Adaptation                          | Function                                                 |
 | ----------------------------------- | -------------------------------------------------------- |
@@ -73,6 +79,8 @@ Plants appear green).
 | Waxy cuticle                        | Reduces water loss by evaporation                        |
 | Network of veins (xylem and phloem) | Xylem brings water; phloem removes products              |
 
+</div>
+
 **Stomata and gas exchange.** Stomata are pores on the underside of the leaf, surrounded by guard
 Cells that can open and close them. When guard cells are turgid (full of water), the stomata are
 Open, allowing $\mathrm{CO_2$ to enter for photosynthesis. When guard cells are flaccid (water has
@@ -81,11 +89,15 @@ Photosynthesis but also allow water to evaporate (transpiration).
 
 ### 1.3 Factors Affecting the Rate of Photosynthesis
 
+<div class="table-wrap">
+
 | Factor                       | Effect                                       | Reason                                                           |
 | ---------------------------- | -------------------------------------------- | ---------------------------------------------------------------- |
 | Light intensity              | Rate increases, then plateaus                | More light = more energy, but other factors become limiting      |
 | $\mathrm{CO_2$ concentration | Rate increases, then plateaus                | $\mathrm{CO_2$ is a raw material; limited supply limits the rate |
 | Temperature                  | Rate increases up to optimum, then decreases | Enzymes work faster; too hot and they denature                   |
+
+</div>
 
 **Limiting factors:** The factor that is in shortest supply limits the rate of photosynthesis. At
 Any given time, only ONE factor is limiting. This is known as the **law of limiting factors**
@@ -168,6 +180,8 @@ the limiting factor).
 
 Plants use the glucose produced by photosynthesis for:
 
+<div class="table-wrap">
+
 | Use                | Description                                                     |
 | ------------------ | --------------------------------------------------------------- |
 | Respiration        | Releases energy for cellular processes                          |
@@ -175,6 +189,8 @@ Plants use the glucose produced by photosynthesis for:
 | Making amino acids | Combined with nitrate ions from the soil; used to make proteins |
 | Stored as starch   | Insoluble storage carbohydrate; does not affect water potential |
 | Stored as lipids   | In seeds; for energy storage (oils in seeds are energy-dense)   |
+
+</div>
 
 **Why plants store starch rather than glucose.** Starch is insoluble, so it does not dissolve in the
 Cell sap and does not affect the water potential of the cell. If plants stored glucose (which is
@@ -247,6 +263,8 @@ out of ATP and NADPH.
 
 **Summary table: comparing the two stages of photosynthesis.**
 
+<div class="table-wrap">
+
 | Feature             | Light-Dependent Reactions | Light-Independent Reactions    |
 | ------------------- | ------------------------- | ------------------------------ |
 | Location            | Thylakoid membranes       | Stroma                         |
@@ -254,6 +272,8 @@ out of ATP and NADPH.
 | Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ ATP, NADPH       |
 | Outputs             | Oxygen, ATP, NADPH        | Glucose, ADP, NADP+            |
 | Key process         | Photolysis of water       | Carbon fixation by RuBisCO     |
+
+</div>
 
 ## 2. Respiration
 
@@ -380,6 +400,8 @@ to take in this extra oxygen to fully oxidise the accumulated lactic acid.
 
 **Summary of liver functions.**
 
+<div class="table-wrap">
+
 | Function        | Process                | Description                                   |
 | --------------- | ---------------------- | --------------------------------------------- |
 | Detoxification  | Oxidation              | Alcohol $\to$ ethanal $\to$ ethanoic acid     |
@@ -387,6 +409,8 @@ to take in this extra oxygen to fully oxidise the accumulated lactic acid.
 | Glycogenolysis  | Glycogen $\to$ glucose | Releases glucose when blood sugar is low      |
 | Deamination     | Amino acid $\to$ urea  | Removes amino group; urea excreted by kidneys |
 | Bile production | --                     | Emulsifies fats; neutralises stomach acid     |
+
+</div>
 
 ## 3. Required Practical: Respiration
 
@@ -440,6 +464,8 @@ $$
 
 ## 4. Higher Tier: Aerobic and Anaerobic Respiration Compared
 
+<div class="table-wrap">
+
 | Feature              | Aerobic Respiration                       | Anaerobic Respiration                                     |
 | -------------------- | ----------------------------------------- | --------------------------------------------------------- |
 | Oxygen required?     | Yes                                       | No                                                        |
@@ -448,6 +474,8 @@ $$
 | Energy released      | Large (approximately 38 ATP per glucose)  | Small (2 ATP per glucose)                                 |
 | Speed                | Slower                                    | Faster (but less efficient)                               |
 | Toxicity of products | Non-toxic                                 | Lactic acid / ethanol can be toxic                        |
+
+</div>
 
 **Why anaerobic respiration is faster but less efficient.** Aerobic respiration involves the
 Complete oxidation of glucose through glycolysis, the Krebs cycle, and the electron transport chain.
@@ -477,6 +505,8 @@ Controlled by enzymes.
 
 ## 6. Higher Tier: Photosynthesis vs. Respiration -- A Detailed Comparison
 
+<div class="table-wrap">
+
 | Feature            | Photosynthesis                            | Respiration                               |
 | ------------------ | ----------------------------------------- | ----------------------------------------- |
 | Organisms          | Plants, algae, some bacteria              | All living organisms                      |
@@ -486,6 +516,8 @@ Controlled by enzymes.
 | Energy change      | Endothermic (stores energy)               | Exothermic (releases energy)              |
 | When it occurs     | Only in light                             | 24 hours a day                            |
 | Reactants/Products | They are essentially reverse reactions    | --                                        |
+
+</div>
 
 **Key point about the relationship.** In the dark, plants only respire. In bright light, the rate of
 Photosynthesis exceeds the rate of respiration, so the plant has a net uptake of $\mathrm{CO_2$ and
@@ -633,6 +665,8 @@ Sufficient to absorb enough $\mathrm{CO_2$ to cause the colour change within 8 m
 Plants require a range of mineral ions, absorbed from the soil by active transport in the root
 Hairs, for healthy growth:
 
+<div class="table-wrap">
+
 | Mineral Ion                     | Function                                                   | Deficiency Symptom                        |
 | ------------------------------- | ---------------------------------------------------------- | ----------------------------------------- |
 | Nitrate ($\mathrm{NO_3^-$)      | Making amino acids and proteins, chlorophyll               | Stunted growth, yellowing of older leaves |
@@ -640,6 +674,8 @@ Hairs, for healthy growth:
 | Phosphate ($\mathrm{PO_4^{3-}$) | Making DNA, cell membranes, ATP                            | Poor root growth, purple leaves           |
 | Potassium ($\mathrm{K^+$)       | Regulating stomatal opening and closing, enzyme activation | Wilting, yellow leaves with dead spots    |
 | Calcium ($\mathrm{Ca^{2+}$)     | Making cell walls (calcium pectate)                        | Stunted growth, leaves curl               |
+
+</div>
 
 **Why mineral deficiencies affect photosynthesis.** Both nitrates and magnesium are needed for
 Chlorophyll production. Without chlorophyll, leaves cannot absorb light energy, and photosynthesis

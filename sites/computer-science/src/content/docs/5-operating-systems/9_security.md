@@ -42,12 +42,16 @@ Capability.
   original does not affect copies (solved by indirection: capabilities point to a kernel-managed
   object table entry that can be invalidated).
 
+<div class="table-wrap">
+
 | Property       | ACLs                   | Capabilities         |
 | -------------- | ---------------------- | -------------------- |
 | Association    | With objects           | With subjects        |
 | Revocation     | Easy (modify the list) | Difficult            |
 | Delegation     | Requires policy        | Natural (copy token) |
 | Implementation | POSIX, NTFS            | seL4, Capsicum, FUSE |
+
+</div>
 
 ### 9.2 Principle of Least Privilege
 
@@ -128,6 +132,8 @@ the damage from any single vulnerability.
 
 **Common privilege separation violations:**
 
+<div class="table-wrap">
+
 | Violation | Consequence | Mitigation |
 | --------- | ----------- | ---------- |
 | Running web server as root | Full system compromise on exploit | Run as unprivileged user with minimal capabilities |
@@ -135,7 +141,11 @@ the damage from any single vulnerability.
 | setuid on complex binaries | Large attack surface for privilege escalation | Avoid setuid; use capability-based access instead |
 | Shared writable memory between privilege levels | Data corruption or privilege leakage | Use message-passing with strict validation |
 
+</div>
+
 ### 9.5 Summary of Key Relationships
+
+<div class="table-wrap">
 
 | Defence Layer | Mechanism | What It Prevents | Limitation |
 | ------------- | --------- | ---------------- | ---------- |
@@ -145,6 +155,8 @@ the damage from any single vulnerability.
 | CFI | Validates indirect branch targets | Control-flow hijacking | Overhead; imprecise in some implementations |
 | Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
 | Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |
+
+</div>
 
 ## Intuition
 

@@ -68,16 +68,24 @@ Understanding the structure of the Gaokao is the first step to preparing effecti
 
 ### Day 1
 
+<div class="table-wrap">
+
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Chinese (语文) | 150 minutes | 150 |
 | Mathematics (数学) | 120 minutes | 150 |
 
+</div>
+
 ### Day 2
+
+<div class="table-wrap">
 
 | Subject | Duration | Maximum Score |
 |---------|----------|---------------|
 | Comprehensive Liberal Arts or Science | 150 minutes | 300 |
+
+</div>
 
 The comprehensive section varies by track:
 
@@ -232,6 +240,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 
 ### One-Year Plan (Year 12 / Grade 12)
 
+<div class="table-wrap">
+
 | Period | Focus |
 | -------- | ------- |
 | September–November | Complete curriculum coverage; build foundational understanding |
@@ -239,6 +249,8 @@ The essay (作文) is worth 60 points and can make or break your score.
 | February–March | Targeted revision of weak areas; intensive practice |
 | April–May | Full-length practice exams under timed conditions |
 | June | Final review; light practice; rest and mental preparation |
+
+</div>
 
 ### Three-Year Plan (Years 10–12)
 

@@ -65,10 +65,14 @@ This is a mixed oxidation state compound (Fe$_2$O$_3$ $\cdot$ FeO, with Fe(III) 
 
 ### Oxidation and Reduction
 
+<div class="table-wrap">
+
 | Process       | Oxidation State | Electron Transfer                            |
 | ------------- | --------------- | -------------------------------------------- |
 | **Oxidation** | Increases       | Loss of electrons (OIL -- Oxidation Is Loss) |
 | **Reduction** | Decreases       | Gain of electrons (RIG -- Reduction Is Gain) |
+
+</div>
 
 **Oxidising agent:** The species that causes oxidation (itself gets reduced). Electron acceptor.
 
@@ -362,6 +366,8 @@ Gas at $100\mathrm{ kPa}$.
 
 All electrode potentials are tabulated as **reduction potentials**:
 
+<div class="table-wrap">
+
 | Half-Reaction                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | -3.04         |
@@ -378,6 +384,8 @@ All electrode potentials are tabulated as **reduction potentials**:
 | $\mathrm{Br}_2 + 2e^- \rightleftharpoons 2\mathrm{Br}^-$                                                | +1.07         |
 | $\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5e^- \rightleftharpoons \mathrm{Mn}^{2+} + 4\mathrm{H}_2\mathrm{O}$ | +1.51         |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | +2.87         |
+
+</div>
 
 ### Calculating Cell EMF
 
@@ -446,12 +454,16 @@ Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ### Electrochemical Series vs Reactivity Series
 
+<div class="table-wrap">
+
 | Electrochemical Series                             | Reactivity Series                                 |
 | -------------------------------------------------- | ------------------------------------------------- |
 | Based on $E^\circ$ values (quantitative)           | Based on observed reactions (qualitative)         |
 | Measures tendency to be reduced                    | Measures tendency to lose electrons (be oxidised) |
 | More positive $E^\circ$ = stronger oxidising agent | More reactive metal = stronger reducing agent     |
 | $E^\circ$ for Li$^+$/Li = -3.04 V (least reduced)  | K is the most reactive metal                      |
+
+</div>
 
 The two series are consistent: a more reactive metal has a more negative $E^\circ$ value.
 
@@ -493,18 +505,26 @@ Anion and water compete for oxidation at the anode.
 
 **Cathode (reduction):**
 
+<div class="table-wrap">
+
 | Cation                                        | Product                                 |
 | --------------------------------------------- | --------------------------------------- |
 | K$^+$Na$^+$Ca$^{2+}$Mg$^{2+}$Al$^{3+}$        | H$_2$ (from water)                      |
 | Zn$^{2+}$Fe$^{2+}$Ni$^{2+}$Sn$^{2+}$Pb$^{2+}$ | Metal (variable, depends on conditions) |
 | Cu$^{2+}$Ag$^+$Au$^{3+}$                      | Metal                                   |
 
+</div>
+
 **Anode (oxidation):**
+
+<div class="table-wrap">
 
 | Anion                          | Product                     |
 | ------------------------------ | --------------------------- |
 | Halides (Cl$^-$Br$^-$I$^-$)    | Halogen (Cl$_2$Br$_2$I$_2$) |
 | SO$_4^{2-}$NO$_3^-$CO$_3^{2-}$ | O$_2$ (from water)          |
+
+</div>
 
 **At the anode (from water):** $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$
 
@@ -668,6 +688,8 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 
 ### Methods of Corrosion Prevention
 
+<div class="table-wrap">
+
 | Method                                      | Description                                       | How It Works                                                                                                          |
 | ------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Coating (painting, oiling)**              | Physical barrier between Fe and O$_2$/H$_2$O      | Prevents contact with the corrosive environment                                                                       |
@@ -676,6 +698,8 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 | **Sacrificial anode (cathodic protection)** | Attaching a more reactive metal (Mg, Zn) to Fe    | The more reactive metal oxidises in preference to Fe, protecting it                                                   |
 | **Alloying**                                | Adding Cr and/or Ni to Fe to make stainless steel | Chromium forms a passive oxide layer that protects the surface                                                        |
 | **Electrochemical protection**              | Applying a negative voltage to the iron structure | Makes the iron the cathode, preventing its oxidation                                                                  |
+
+</div>
 
 :::caution
 Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and
@@ -718,12 +742,16 @@ $\mathrm{O}_2(g) + 2\mathrm{H}_2\mathrm{O}(l) + 4e^- \to 4\mathrm{OH}^-(aq)$
 
 ### Advantages and Disadvantages
 
+<div class="table-wrap">
+
 | Advantages                                        | Disadvantages                                 |
 | ------------------------------------------------- | --------------------------------------------- |
 | High efficiency (~60--80%)                        | H$_2$ is expensive to produce and store       |
 | No greenhouse gas emissions (only H$_2$O)         | H$_2$ infrastructure is limited               |
 | Quiet operation                                   | Fuel cells use expensive catalysts (Pt)       |
 | Continuous operation (refuel instead of recharge) | H$_2$ production often relies on fossil fuels |
+
+</div>
 
 ---
 
@@ -855,12 +883,16 @@ $$
 
 Given the following standard reduction potentials:
 
+<div class="table-wrap">
+
 | Half-Reaction                                 | $E^\circ$ (V) |
 | --------------------------------------------- | ------------- |
 | $\mathrm{Ag}^+ + e^- \to \mathrm{Ag}$         | +0.80         |
 | $\mathrm{Fe}^{3+} + e^- \to \mathrm{Fe}^{2+}$ | +0.77         |
 | $\mathrm{Zn}^{2+} + 2e^- \to \mathrm{Zn}$     | -0.76         |
 | $\mathrm{Ni}^{2+} + 2e^- \to \mathrm{Ni}$     | -0.25         |
+
+</div>
 
 (a) Calculate $E^\circ_{\mathrm{cell}}$ for the reaction:
 $\mathrm{Zn}(s) + 2\mathrm{Ag}^+(aq) \to \mathrm{Zn}^{2+}(aq) + 2\mathrm{Ag}(s)$
@@ -1128,10 +1160,14 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site | Link                                                                                                         |
 | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------ |
 | [Redox Reactions] | IB   | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
 | [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
+
+</div>
 
 ## Worked Examples
 

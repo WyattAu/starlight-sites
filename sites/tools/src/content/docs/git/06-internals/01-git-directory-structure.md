@@ -184,6 +184,8 @@ in `.git/hooks/` and must be executable.
 
 ### Available Hooks
 
+<div class="table-wrap">
+
 | Hook                 | Trigger                        | Use Case                           |
 | -------------------- | ------------------------------ | ---------------------------------- |
 | `pre-commit`         | Before commit is created       | Linting, formatting, running tests |
@@ -195,6 +197,8 @@ in `.git/hooks/` and must be executable.
 | `post-checkout`      | After checkout                 | Rebuild generated files            |
 | `post-merge`         | After merge                    | Rebuild generated files            |
 | `prepare-commit-msg` | Before message editor opens    | Template commit messages           |
+
+</div>
 
 ### Hook Script Template
 

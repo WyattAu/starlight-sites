@@ -124,11 +124,15 @@ Updated in the background.
 
 **Replication architectures:**
 
+<div class="table-wrap">
+
 | Architecture  | Writes       | Reads       | Consistency                                             |
 | ------------- | ------------ | ----------- | ------------------------------------------------------- |
 | Single-leader | Primary only | Any replica | Strong (reads from primary) or eventual (from replicas) |
 | Multi-leader  | Any node     | Any node    | Eventual (conflict resolution required)                 |
 | Leaderless    | Any node     | Any node    | Tunable (quorum reads/writes)                           |
+
+</div>
 
 **Quorum-based consistency.** For a system with $N$ replicas, define write quorum $W$ and read
 quorum $R$ such that $W + R \gt N$. This guarantees that any read sees at least one replica with the

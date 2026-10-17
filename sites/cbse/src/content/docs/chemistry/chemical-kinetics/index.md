@@ -60,11 +60,15 @@ Chemical kinetics studies the rate of chemical reactions and the factors affecti
 
 **Problem:** For the reaction $2\text{NO} + \text{O}_2 \rightarrow 2\text{NO}_2$, the following initial rates are observed:
 
+<div class="table-wrap">
+
 | Experiment | [NO] (M) | [O$_2$] (M) | Initial Rate (M/s) |
 |------------|----------|-------------|-------------------|
 | 1          | 0.010    | 0.010       | $2.5 \times 10^{-5}$ |
 | 2          | 0.020    | 0.010       | $1.0 \times 10^{-4}$ |
 | 3          | 0.010    | 0.020       | $5.0 \times 10^{-5}$ |
+
+</div>
 
 Determine the rate law and rate constant.
 

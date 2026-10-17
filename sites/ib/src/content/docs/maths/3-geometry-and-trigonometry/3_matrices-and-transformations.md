@@ -497,6 +497,8 @@ Key properties of rotation matrices:
 
 **Common rotations:**
 
+<div class="table-wrap">
+
 |    Angle    | Matrix                                                                                                              |
 | :---------: | :------------------------------------------------------------------------------------------------------------------ |
 | $90^\circ$  | $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$                                                                     |
@@ -504,6 +506,8 @@ Key properties of rotation matrices:
 | $270^\circ$ | $\begin{pmatrix} 0 & 1 \\ -1 & 0 \end{pmatrix}$                                                                     |
 | $60^\circ$  | $\begin{pmatrix} \frac{1}{2} & -\frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}$               |
 | $45^\circ$  | $\begin{pmatrix} \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} \end{pmatrix}$ |
+
+</div>
 
 ### Enlargements (Dilations)
 
@@ -1189,6 +1193,8 @@ that can be chosen orthonormal.
 
 ## Summary of Key Results
 
+<div class="table-wrap">
+
 | Concept                         | Formula / Result                                                                            |
 | ------------------------------- | ------------------------------------------------------------------------------------------- |
 | $2 \times 2$ determinant | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$ |
@@ -1202,6 +1208,8 @@ that can be chosen orthonormal.
 | Reflection in $y = x\tan\theta$ | $\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$ |         |     |
 | Cramer's rule | $x_i = \det(A_i)/\det(A)$ |
 | Steady state of Markov chain    | $\mathbf{s}P = \mathbf{s}$$\sum s_i = 1$                                                    |         |     |
+
+</div>
 
 <details>
 <summary>Worked Example: Finding Eigenvalues and Eigenvectors</summary>
@@ -1634,10 +1642,14 @@ A matrix is a machine that transforms space. It stretches, rotates, reflects, an
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic      | Site    | Link                                                                                                    |
 | ---------- | ------- | ------------------------------------------------------------------------------------------------------- |
 | [Matrices] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/02-matrices) |
 | [Matrices] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/) |
+
+</div>
 
 ## Worked Examples
 

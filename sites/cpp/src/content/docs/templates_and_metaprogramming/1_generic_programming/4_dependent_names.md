@@ -32,11 +32,15 @@ Base classes.
 A **dependent name** is a name whose meaning depends on one or more template parameters [N4950
 S13.8.3]. A **non-dependent name** does not. The distinction determines when lookup occurs:
 
+<div class="table-wrap">
+
 | Name kind       | Lookup time             | Scope                              |
 | --------------- | ----------------------- | ---------------------------------- |
 | Non-dependent   | Phase 1 (definition)    | Definition context only            |
 | Dependent       | Phase 2 (instantiation) | Definition + instantiation context |
 | Dependent + ADL | Phase 2 (instantiation) | Associated namespaces/classes      |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -95,6 +99,8 @@ any of the following hold:
 
 The following table classifies common patterns:
 
+<div class="table-wrap">
+
 | Expression                             | Dependent?                  | Phase   | Reason                                       |
 | -------------------------------------- | --------------------------- | ------- | -------------------------------------------- |
 | `T::value`                             | Yes                         | Phase 2 | Qualified by dependent type `T`              |
@@ -106,6 +112,8 @@ The following table classifies common patterns:
 | `N::func(x)` where `N` non-dep, `x: T` | No for `N::func`Yes for ADL | Phase 1 | Qualified name at Phase 1; ADL at Phase 2    |
 | `T::Nested&lt;int&gt;`                 | Yes                         | Phase 2 | Qualified by dependent type                  |
 | `sizeof(T)`                            | Yes                         | Phase 2 | Type-dependent expression                    |
+
+</div>
 
 ### Non-Dependent Qualified Names Are a Trap
 
@@ -299,6 +307,8 @@ int main() {
 
 Per [N4950 S13.8.1], `typename` is required in the following contexts and prohibited in others:
 
+<div class="table-wrap">
+
 | Context                                                              | `typename` Required? | Standard Reference |
 | -------------------------------------------------------------------- | -------------------- | ------------------ |
 | `typename T::type x;` (variable declaration)                         | Yes                  | S13.8.1/1          |
@@ -312,6 +322,8 @@ Per [N4950 S13.8.1], `typename` is required in the following contexts and prohib
 | `T::template Inner&lt;int&gt;` (template disambiguator)              | N/A (use `template`) | S13.8.3/2          |
 | `typename T::template Inner&lt;int&gt;` (type + template)            | Both required        | S13.8.1 + S13.8.3  |
 
+</div>
+
 :::caution
 Template compilation errors. Always use `typename` before a qualified dependent name that you intend
 to use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
@@ -319,6 +331,8 @@ Syntactic requirement --- it does not change the generated code.
 :::
 
 ### Where `typename` Is Required vs Not
+
+<div class="table-wrap">
 
 | Context                                             | `typename` Required? | Reason                                 |
 | --------------------------------------------------- | -------------------- | -------------------------------------- |
@@ -328,6 +342,8 @@ Syntactic requirement --- it does not change the generated code.
 | `T::Base()` (in initializer list)                   | No                   | Mem-initializer context                |
 | `T::static_value` (non-type member)                 | No                   | Accessing a static data member         |
 | `sizeof(typename T::type)`                          | Yes                  | Dependent type inside `sizeof`         |
+
+</div>
 
 ## The `template` Disambiguator Keyword
 
@@ -419,12 +435,16 @@ int main() {
 The `template` keyword is required [N4950 S13.8.3/2] when a dependent qualified name refers to a
 Member template (a template member function or a nested template class). The rules are:
 
+<div class="table-wrap">
+
 | Context                                                          | `template` Required? | Example                                 |
 | ---------------------------------------------------------------- | -------------------- | --------------------------------------- |
 | `obj.template func&lt;Args&gt;()` where `obj` has dependent type | Yes                  | `t.template cast&lt;int&gt;()`          |
 | `T::template Type&lt;Args&gt;` where `T` is dependent            | Yes                  | `typename T::template Alloc&lt;int&gt;` |
 | `obj.func&lt;Args&gt;()` where `obj` has non-dependent type      | No                   | `std::get&lt;0&gt;(t)`                  |
 | `T::func&lt;Args&gt;()` where `T` is non-dependent               | No                   | `std::make_shared&lt;int&gt;()`         |
+
+</div>
 
 The `template` disambiguator is needed in exactly the same situations where the compiler would
 otherwise parse the `&lt;` as a less-than operator rather than the start of a template argument

@@ -142,11 +142,15 @@ graph TD
 
 ### BST Height
 
+<div class="table-wrap">
+
 | Shape      | Height               | Search/Insert/Delete |
 | ---------- | -------------------- | -------------------- |
 | Balanced   | $O(\log n)$          | $O(\log n)$          |
 | Degenerate | $O(n)$               | $O(n)$               |
 | Random     | $O(\log n)$ expected | $O(\log n)$ expected |
+
+</div>
 
 For $n$ distinct keys inserted in random order, the expected height of a BST is approximately
 $2 \ln n \approx 1.39 \log_2 n$. This is only about 39% taller than a perfectly balanced tree, but
@@ -406,11 +410,15 @@ Number of nodes in an AVL tree of height $h$ is $N(h) = N(h-1) + N(h-2) + 1$ wit
 $N(1) = 2$. This is closely related to the Fibonacci sequence, giving $N(h) = F_{h+3} - 1$. Since
 $F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant $c$.
 
+<div class="table-wrap">
+
 | Operation | Worst Case  | Rotations per Insert | Rotations per Delete |
 | --------- | ----------- | -------------------- | -------------------- |
 | Search    | $O(\log n)$ | 0                    | 0                    |
 | Insert    | $O(\log n)$ | $\le 2$              | 0                    |
 | Delete    | $O(\log n)$ | 0                    | $O(\log n)$          |
+
+</div>
 
 :::note
 Rotations in the worst case, because a deletion can increase the height difference at each ancestor
@@ -562,6 +570,8 @@ class RBTree:
 
 ### AVL vs Red-Black Trees
 
+<div class="table-wrap">
+
 | Property             | AVL Tree                | Red-Black Tree             |
 | -------------------- | ----------------------- | -------------------------- |
 | Height bound         | $\le 1.44 \log_2 n$     | $\le 2 \log_2(n+1)$        |
@@ -572,6 +582,8 @@ class RBTree:
 | Insert performance   | Slightly slower         | Slightly faster            |
 | Delete performance   | Slower (more rotations) | Faster                     |
 | Standard library use | `std::map` (GCC)        | Java `TreeMap`Linux kernel |
+
+</div>
 :::
 
 :::tip
@@ -600,6 +612,8 @@ A B-tree of minimum degree $t \ge 2$ has these properties:
 4. A non-leaf node with $k$ keys has $k + 1$ children
 5. All leaves are at the same depth
 
+<div class="table-wrap">
+
 | Parameter         | Value              |
 | ----------------- | ------------------ |
 | Max keys per node | $2t - 1$           |
@@ -607,6 +621,8 @@ A B-tree of minimum degree $t \ge 2$ has these properties:
 | Max children      | $2t$               |
 | Min children      | $t$ (non-root)     |
 | Height            | $O(\log_t n)$      |
+
+</div>
 
 ### Search
 
@@ -700,6 +716,8 @@ in the leaf nodes, and internal nodes contain only keys for navigation.
 
 ### Differences from B-Trees
 
+<div class="table-wrap">
+
 | Property        | B-Tree               | B+ Tree                     |
 | --------------- | -------------------- | --------------------------- |
 | Data storage    | Every node           | Leaf nodes only             |
@@ -707,6 +725,8 @@ in the leaf nodes, and internal nodes contain only keys for navigation.
 | Leaf linkage    | None                 | Linked list (next pointers) |
 | Key duplication | No                   | Keys duplicated in leaves   |
 | Range queries   | Requires traversal   | Sequential scan of leaves   |
+
+</div>
 
 ```mermaid
 graph TD
@@ -1055,6 +1075,8 @@ class SkipList:
 
 ### Skip List vs Balanced Tree
 
+<div class="table-wrap">
+
 | Property          | Skip List              | Balanced Tree            |
 | ----------------- | ---------------------- | ------------------------ |
 | Search            | $O(\log n)$ expected   | $O(\log n)$ worst        |
@@ -1063,6 +1085,8 @@ class SkipList:
 | Implementation    | Simple                 | Complex (rotations)      |
 | Memory            | $O(n \log n)$ expected | $O(n)$                   |
 | Cache performance | Poor (pointer chasing) | Moderate                 |
+
+</div>
 
 Skip lists are used in Redis (for sorted sets), Apache Lucene, and LevelDB's memtable. Their
 Simplicity and lock-friendliness make them popular in concurrent systems.

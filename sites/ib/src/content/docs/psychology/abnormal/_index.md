@@ -95,6 +95,8 @@ efficacy, safety, cultural appropriateness, and ethical considerations.
 
 ## Essential Studies
 
+<div class="table-wrap">
+
 | Study                               | Researcher(s)   | Year | Key Finding                                                                                                                               | Evaluation Point                                                                        |
 | ----------------------------------- | --------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | Cognitive Explanation of OCD        | Salkovskis      | 1985 | OCD maintained by maladaptive interpretations of intrusive thoughts (thought-action fusion, inflated responsibility)                      | Cannot explain why some people develop OCD while others with similar thoughts do not    |
@@ -107,6 +109,8 @@ efficacy, safety, cultural appropriateness, and ethical considerations.
 | CBT Long-Term Outcomes              | Hollon et al.   | 2005 | CBT relapse rate 30% at 1 year vs 70% for medication-only after discontinuation                                                           | Supports durability of psychotherapy skills over pharmacological symptom suppression    |
 | Systematic Desensitisation Efficacy | Ost             | 1989 | Meta-analysis: effective for 80-90% of specific phobia cases across delivery methods (in vivo, imaginal, VR)                              | Motivation required; dropout rates not fully reported                                   |
 | 5-HTTLPR and Depression             | Caspi et al.    | 2003 | Short allele increased depression risk only with stressful life events (gene-environment interaction)                                     | Risch et al. (2009) failed to replicate; measurement and sample size concerns           |
+
+</div>
 
 ## Worked Examples
 

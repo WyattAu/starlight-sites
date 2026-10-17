@@ -40,6 +40,8 @@ constructing analytical responses.
 Narrative voice is the perspective from which a story is told. It determines what the reader knows,
 how they feel about characters and events, and how reliably information is presented.
 
+<div class="table-wrap">
+
 | Type                    | Description                                                    | Effect                                                        |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
 | First person ("I")      | A character within the story narrates                          | Intimate but limited; reader sees only what the narrator sees |
@@ -48,6 +50,8 @@ how they feel about characters and events, and how reliably information is prese
 | Third person omniscient | An external narrator knows all characters' thoughts            | Allows authorial commentary and dramatic irony                |
 | Unreliable narrator     | A narrator whose account is distorted or incomplete            | Forces the reader to question and interpret                   |
 | Free indirect discourse | Third-person narration that blends with a character's thoughts | Creates intimacy without abandoning the external narrator     |
+
+</div>
 
 **Key point:** Narrative voice is never neutral. Every choice about who tells the story and how
 shapes the reader's interpretation. When analysing voice, ask: Why has the writer chosen this
@@ -81,6 +85,8 @@ Methods of characterisation:
 Setting encompasses the time, place, and social environment of a narrative. It is never merely a
 backdrop, it shapes character, action, and theme.
 
+<div class="table-wrap">
+
 | Aspect              | Question to Ask                                          |
 | ------------------- | -------------------------------------------------------- |
 | Physical setting    | Where does the action take place? How is it described?   |
@@ -89,6 +95,8 @@ backdrop, it shapes character, action, and theme.
 | Atmospheric setting | What mood does the setting create?                       |
 | Symbolic setting    | Does the setting represent or reflect a larger idea?     |
 | Contrastive setting | Do different settings create meaning through opposition? |
+
+</div>
 
 Settings often function symbolically: the moors in _Wuthering Heights_ represent wildness and
 passion; the city in _Bleak House_ represents institutional decay; the mansion in _Rebecca_
@@ -120,6 +128,8 @@ explores the _questions_ a text raises rather than reducing it to a simple messa
 Narrative structure determines how a story is organised and how information is revealed to the
 reader.
 
+<div class="table-wrap">
+
 | Structural Feature   | Description                                   | Effect                                               |
 | -------------------- | --------------------------------------------- | ---------------------------------------------------- |
 | Linear narrative     | Events in chronological order                 | Clear, naturalistic progression                      |
@@ -131,6 +141,8 @@ reader.
 | Parallel plots       | Two or more storylines running simultaneously | Allows contrast, comparison, and thematic resonance  |
 | Chapter divisions    | How the text is segmented                     | Creates pace, emphasis, and structural rhythm        |
 
+</div>
+
 **Key point:** Structure is always meaningful. The decision to begin or end at a particular point,
 to include or omit events, to follow one character or many, these are analytical choices worth
 examining.
@@ -138,6 +150,8 @@ examining.
 ### Genre Conventions
 
 Understanding genre helps you recognise what a text is doing with or against expectation.
+
+<div class="table-wrap">
 
 | Genre                | Typical Conventions                                                     | Example Texts                                             |
 | -------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -147,6 +161,8 @@ Understanding genre helps you recognise what a text is doing with or against exp
 | Dystopian fiction    | Oppressive society, individual resistance, warnings about the future    | _1984_, _Brave New World_, _The Handmaid's Tale_          |
 | Postcolonial fiction | Exploration of colonial experience, identity, displacement              | _Things Fall Apart_, _Wide Sargasso Sea_, _White Teeth_   |
 | Modernist fiction    | Fragmentation, stream of consciousness, subjective experience           | _Mrs Dalloway_, _Ulysses_, _To the Lighthouse_            |
+
+</div>
 
 ## Analytical Frameworks
 
@@ -171,6 +187,8 @@ When approaching a prose text, work through these layers:
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term                    | Definition                                                                    |
 | ----------------------- | ----------------------------------------------------------------------------- |
 | Allegory                | A narrative in which characters and events represent abstract ideas           |
@@ -194,6 +212,8 @@ When approaching a prose text, work through these layers:
 | Subtext                 | Meaning that is implied but not directly stated                               |
 | Symbolism               | Using objects or actions to represent abstract ideas                          |
 | Unreliable narrator     | A narrator whose account cannot be fully trusted                              |
+
+</div>
 
 ## Exam Technique
 

@@ -253,6 +253,8 @@ Lines and stanzas relate to each other, and how the poem develops from beginning
 
 Sound devices create auditory effects that complement and reinforce the poem's meaning.
 
+<div class="table-wrap">
+
 | Device           | Definition                                  | Example                                           |
 | ---------------- | ------------------------------------------- | ------------------------------------------------- |
 | **Alliteration** | Repetition of initial consonant sounds      | "The **b**leak and **b**arren **b**attlefield"    |
@@ -260,6 +262,8 @@ Sound devices create auditory effects that complement and reinforce the poem's m
 | **Consonance**   | Repetition of consonant sounds within words | "The a**cc**i**d**e**nt** of war"                 |
 | **Sibilance**    | Repetition of 's' or 'sh' sounds            | "The **s**ilent **s**nake **s**lid **s**outhward" |
 | **Onomatopoeia** | Words that imitate the sound they describe  | "Crash," "bang," "whisper," "thud"                |
+
+</div>
 
 ### 3.5 Rhythm and Metre
 

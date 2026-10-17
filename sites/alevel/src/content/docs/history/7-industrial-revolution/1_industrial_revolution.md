@@ -38,6 +38,8 @@ and mines.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                     | Dates     | Key Themes                                                       |
 | -------------------------- | --------- | ---------------------------------------------------------------- |
 | Pre-industrial foundations | 1700-1760 | Agricultural improvement, proto-industrialisation, colonial trade |
@@ -45,6 +47,8 @@ and mines.
 | Steam and iron             | 1780-1830 | Watt engine, coke smelting, railways                             |
 | Social transformation      | 1790-1840 | Urbanisation, working conditions, public health crisis           |
 | Political reform           | 1815-1840 | Corn Laws, Peterloo, Reform Act 1832, Chartism                   |
+
+</div>
 
 ## Key Events with Dates and Significance
 

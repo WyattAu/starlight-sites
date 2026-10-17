@@ -455,12 +455,16 @@ Truncated logs or corrupted data files.
 
 Per [N4950 S18.5], the C++ standard provides three termination functions with distinct semantics:
 
+<div class="table-wrap">
+
 | Function          | `atexit` handlers | `at_quick_exit` handlers | Static destructors | Stream flush |
 | :---------------- | :---------------- | :----------------------- | :----------------- | :----------- |
 | `std::exit`       | Yes (reverse)     | No                       | Yes (reverse)      | Yes          |
 | `std::quick_exit` | No                | Yes (reverse)            | No                 | No           |
 | `std::_Exit`      | No                | No                       | No                 | No           |
 | `std::abort`      | No                | No                       | No                 | No           |
+
+</div>
 
 `std::quick_exit` was introduced in C++11 for scenarios where fast termination is needed (e.g.,
 Process restart in a supervised environment) and cleanup is handled externally. It is the
@@ -651,12 +655,16 @@ Allocation mechanism ( zeroed pages from the page cache, but this is not guarant
 The CRT initializes the heap allocator before any user code runs. The heap implementation varies by
 CRT:
 
+<div class="table-wrap">
+
 | CRT          | Heap Implementation     | Backing System Calls                       |
 | :----------- | :---------------------- | :----------------------------------------- |
 | **glibc**    | ptmalloc2 (malloc/free) | `brk` (small), `mmap` (large, &gt; 128 KB) |
 | **musl**     | oom-safe malloc         | `mmap` with `MAP_ANONYMOUS`                |
 | **MSVC**     | Low-fragmentation heap  | `VirtualAlloc` / `HeapAlloc`               |
 | **jemalloc** | Arena-based allocator   | `mmap` / `sbrk`                            |
+
+</div>
 
 The heap is initialized during `__libc_start_main` (glibc) or `mainCRTStartup` (MSVC) before the
 `.init_array` processing. This ensures that global constructors can safely use `new`/`malloc`.

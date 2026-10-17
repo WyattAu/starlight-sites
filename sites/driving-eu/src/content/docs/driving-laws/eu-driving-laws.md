@@ -20,10 +20,14 @@ rules you need to know when driving in the European Union.
 
 Standard EU speed limits (unless otherwise signed):
 
+<div class="table-wrap">
+
 | Road Type | Built-Up Areas | Outside Built-Up | Motorways |
 |-----------|---------------|------------------|-----------|
 | Cars | 50 km/h | 90 km/h | 120-130 km/h |
 | Trucks (>3.5t) | 50 km/h | 80 km/h | 80-90 km/h |
+
+</div>
 
 ### Country Variations
 

@@ -120,6 +120,8 @@ Dependencies, plugins, and build configuration.
 Maven's build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
 Behavior. Running a phase executes all prior phases in order.
 
+<div class="table-wrap">
+
 | Phase      | Description                                                         |
 | ---------- | ------------------------------------------------------------------- |
 | `validate` | Validate project structure and POM correctness                      |
@@ -129,6 +131,8 @@ Behavior. Running a phase executes all prior phases in order.
 | `verify`   | Run integration tests and verify quality checks                     |
 | `install`  | Install the artifact into the local repository (`~/.m2/repository`) |
 | `deploy`   | Copy the artifact to a remote repository                            |
+
+</div>
 
 ```bash
 ## Run a specific phase (and all prior phases)
@@ -146,6 +150,8 @@ mvn package -DskipTests
 
 Maven scopes control when a dependency is available:
 
+<div class="table-wrap">
+
 | Scope               | Compile | Test | Runtime | Package | Transitively Available |
 | ------------------- | ------- | ---- | ------- | ------- | ---------------------- |
 | `compile` (default) | Yes     | Yes  | Yes     | Yes     | Yes                    |
@@ -153,6 +159,8 @@ Maven scopes control when a dependency is available:
 | `runtime`           | No      | Yes  | Yes     | Yes     | Yes                    |
 | `test`              | No      | Yes  | No      | No      | No                     |
 | `system`            | Yes     | Yes  | No      | Yes     | No                     |
+
+</div>
 
 ```xml
 <!-- compile (default), needed for compilation, included in package -->
@@ -368,6 +376,8 @@ Incremental build system skips tasks whose inputs and outputs have not changed (
 
 Gradle uses configurations to declare dependencies with different roles:
 
+<div class="table-wrap">
+
 | Configuration        | Maven Equivalent | Description                                                             |
 | -------------------- | ---------------- | ----------------------------------------------------------------------- |
 | `implementation`     | `compile`        | Used for compilation and runtime, not exposed to dependents             |
@@ -377,6 +387,8 @@ Gradle uses configurations to declare dependencies with different roles:
 | `testImplementation` | `test`           | Used for compiling and running tests                                    |
 | `testCompileOnly`    | N/A              | Needed for test compilation only                                        |
 | `testRuntimeOnly`    | `test` (runtime) | Needed for running tests only                                           |
+
+</div>
 
 ```kotlin
 dependencies {
@@ -441,6 +453,8 @@ sourceSets {
 
 ## Maven vs Gradle
 
+<div class="table-wrap">
+
 | Aspect             | Maven                        | Gradle                                  |
 | ------------------ | ---------------------------- | --------------------------------------- |
 | Build model        | Phase-based lifecycle        | Task-based DAG                          |
@@ -451,6 +465,8 @@ sourceSets {
 | Multi-module       | Good (inheritance, profiles) | Excellent (composite builds)            |
 | Ecosystem          | Central (Maven Central)      | Central (can consume Maven repos)       |
 | Custom logic       | Plugins (Java/MXML)          | Any Groovy/Kotlin code in build script  |
+
+</div>
 
 ## Version Management
 

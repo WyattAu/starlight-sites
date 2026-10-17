@@ -314,9 +314,13 @@ $$
 :::note[Example]
 A random variable $X$ has the following probability distribution:
 
+<div class="table-wrap">
+
 | $x$        | 0   | 1   | 2   | 3   |
 | ---------- | --- | --- | --- | --- |
 | $P(X = x)$ | 0.1 | 0.4 | 0.3 | 0.2 |
+
+</div>
 
 $$
 E(X) = 0(0.1) + 1(0.4) + 2(0.3) + 3(0.2) = 0 + 0.4 + 0.6 + 0.6 = 1.6
@@ -722,10 +726,16 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$ The mode is $x = 2$.
 
 ## Summary
 
+<div class="table-wrap">
+
 | Distribution | Notation           | $E(X)$ | $\mathrm{Var}(X)$ |
 | ------------ | ------------------ | ------ | ----------------- |
 | Binomial     | $B(n, p)$          | $np$   | $np(1-p)$         |
 | Normal       | $N(\mu, \sigma^2)$ | $\mu$  | $\sigma^2$        |
+
+</div>
+
+<div class="table-wrap">
 
 | Key Formula             | Expression                                   |
 | ----------------------- | -------------------------------------------- |
@@ -733,6 +743,8 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$ The mode is $x = 2$.
 | Conditional probability | $P(A\|B) = \dfrac{P(A \cap B)}{P(B)}$        |
 | Bayes' theorem          | $P(A\|B) = \dfrac{P(B\|A) \cdot P(A)}{P(B)}$ |
 | Standardisation         | $Z = \dfrac{X - \mu}{\sigma}$                |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -971,12 +983,16 @@ and building a personal test matrix.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
 | [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
 | [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
+
+</div>
 
 ## Worked Examples
 

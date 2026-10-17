@@ -71,6 +71,8 @@ Therefore $\mathcal{L}\{g(t)\} = F(s)/s$. $\blacksquare$
 
 ### 5.4 Common Laplace Transforms
 
+<div class="table-wrap">
+
 | $f(t)$           | $F(s) = \mathcal{L}\{f(t)\}$ |
 | ---------------- | ---------------------------- |
 | $1$              | $1/s$                        |
@@ -83,6 +85,8 @@ Therefore $\mathcal{L}\{g(t)\} = F(s)/s$. $\blacksquare$
 | $e^{at}\cos(bt)$ | $(s-a)/((s-a)^2 + b^2)$      |
 | $u_c(t)$         | $e^{-cs}/s$                  |
 | $\delta(t - c)$  | $e^{-cs}$                    |
+
+</div>
 
 ### 5.5 Solving IVPs with Laplace Transforms
 

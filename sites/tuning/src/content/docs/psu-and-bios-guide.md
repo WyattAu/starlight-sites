@@ -51,6 +51,8 @@ Remain within the ATX specification limits.
 
 ATX specifications define maximum ripple and noise per rail:
 
+<div class="table-wrap">
+
 | Rail   | Max Ripple + Noise (ATX 3.0) |
 | ------ | ---------------------------- |
 | +12 V  | 120 mV peak-to-peak          |
@@ -58,6 +60,8 @@ ATX specifications define maximum ripple and noise per rail:
 | +3.3 V | 50 mV peak-to-peak           |
 | -12 V  | 120 mV peak-to-peak          |
 | +5 VSB | 50 mV peak-to-peak           |
+
+</div>
 
 Excessive ripple can cause instability, random reboots, and long-term degradation of components,
 Particularly electrolytic capacitors on motherboards and GPUs. Japanese capacitors (Nichicon,
@@ -96,6 +100,8 @@ Transient spikes.
 The 80 PLUS program certifies PSU efficiency at 20%, 50%, and 100% of rated load at 115 V AC (230 V
 AC for Titanium). Higher tiers require increasingly stringent efficiency targets.
 
+<div class="table-wrap">
+
 | Tier     | 115V - 20% | 115V - 50% | 115V - 100% | 230V - 20% | 230V - 50% | 230V - 100% |
 | -------- | ---------- | ---------- | ----------- | ---------- | ---------- | ----------- |
 | White    | 80%        | 80%        | 80%         | --         | --         | --          |
@@ -104,6 +110,8 @@ AC for Titanium). Higher tiers require increasingly stringent efficiency targets
 | Gold     | 87%        | 90%        | 87%         | 88%        | 92%        | 88%         |
 | Platinum | 90%        | 92%        | 89%         | 90%        | 94%        | 90%         |
 | Titanium | --         | --         | --          | 94%        | 96%        | 91%         |
+
+</div>
 
 80 PLUS is a necessary but insufficient indicator of quality. It measures efficiency only, not
 Ripple, voltage regulation, build quality, or transient response. A cheap Bronze unit can be far
@@ -178,6 +186,8 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 
 ### Connectors
 
+<div class="table-wrap">
+
 | Connector    | Pins      | Use                                             | Max Current (per spec)    |
 | ------------ | --------- | ----------------------------------------------- | ------------------------- |
 | 24-pin ATX   | 24        | Motherboard main power (+3.3V, +5V, +12V, -12V) | 18 A per pin              |
@@ -188,6 +198,8 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 | 15-pin SATA  | 15        | SATA drives, SSDs                               | 4.5 A per connector       |
 | 4-pin Molex  | 4         | Legacy drives, fans, accessories                | 11 A per connector        |
 | 4-pin Berg   | 4         | Floppy drive (obsolete)                         | 2 A                       |
+
+</div>
 
 :::caution
 Resistance of cheap adapters can cause excessive voltage drop and heating at the SATA end. This is a
@@ -207,6 +219,8 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
 
 ### Form Factors
 
+<div class="table-wrap">
+
 | Form Factor | Dimensions (mm)   | Typical Use Case                      |
 | ----------- | ----------------- | ------------------------------------- |
 | ATX         | 150 x 86 x 140    | Standard desktop PCs                  |
@@ -215,6 +229,8 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
 | TFX         | 85 x 63.5 x 175   | Slim desktop / HTPC / OEM SFF         |
 | Flex ATX    | 81.5 x 40.5 x 150 | 1U servers, embedded                  |
 | ATX 12VO    | ATX dimensions    | Servers, some OEM desktops (12V only) |
+
+</div>
 
 ---
 
@@ -441,12 +457,16 @@ Protecting connected components from voltage damage.
 
 Typical OVP trip points:
 
+<div class="table-wrap">
+
 | Rail   | OVP Trip Point   |
 | ------ | ---------------- |
 | +12 V  | 13.4 -- 15.6 V   |
 | +5 V   | 5.75 -- 6.75 V   |
 | +3.3 V | 4.05 -- 4.65 V   |
 | -12 V  | -15.3 -- -13.2 V |
+
+</div>
 
 OVP should trigger before any connected component is at risk. ATX specification defines the maximum
 Safe voltage for each rail. Quality PSUs set OVP trip points close to but above these limits. Units
@@ -534,6 +554,8 @@ A generic term for the firmware interface, even when the underlying implementati
 
 ### Legacy BIOS vs UEFI
 
+<div class="table-wrap">
+
 | Feature          | Legacy BIOS                    | UEFI                                        |
 | ---------------- | ------------------------------ | ------------------------------------------- |
 | Boot mode        | MBR (max 2.2 TB disk)          | GPT (up to 9.4 ZB)                          |
@@ -544,6 +566,8 @@ A generic term for the firmware interface, even when the underlying implementati
 | Network support  | Limited                        | Full network stack (HTTP boot, PXE)         |
 | Firmware updates | Risky (DOS-based flash)        | Secure (in-OS update, capsule updates)      |
 | Extensibility    | None                           | UEFI applications, modules, shell           |
+
+</div>
 
 ### Secure Boot
 
@@ -609,6 +633,8 @@ Environments, not enthusiast tuning.
 
 Universal BIOS navigation keys:
 
+<div class="table-wrap">
+
 | Key        | Action                                    |
 | ---------- | ----------------------------------------- |
 | F1         | General help                              |
@@ -622,6 +648,8 @@ Universal BIOS navigation keys:
 | Enter      | Select sub-menu                           |
 | Tab        | Switch between panes                      |
 | Arrow keys | Navigate menus                            |
+
+</div>
 
 ### Mouse Support in UEFI
 
@@ -826,6 +854,8 @@ Operates at 3000 MHz with 6000 MT/s.
 
 Common memory frequencies and their corresponding clock rates:
 
+<div class="table-wrap">
+
 | DDR4 Speed (MT/s) | Clock (MHz) | DDR5 Speed (MT/s) | Clock (MHz) |
 | ----------------- | ----------- | ----------------- | ----------- |
 | 2400              | 1200        | 4800              | 2400        |
@@ -835,6 +865,8 @@ Common memory frequencies and their corresponding clock rates:
 | 4000              | 2000        | 6400              | 3200        |
 | 4400              | 2200        | 7200              | 3600        |
 | 4800              | 2400        | 8000              | 4000        |
+
+</div>
 
 ### Timings
 
@@ -867,12 +899,16 @@ Memory is commonly advertised as "CL16-18-18-38" meaning CL=16, tRCD=18, tRP=18,
 
 **Definition.** VDIMM is the supply voltage to the memory modules.
 
+<div class="table-wrap">
+
 | Standard      | Default VDIMM  | Typical Overclock Range |
 | ------------- | -------------- | ----------------------- |
 | DDR4 JEDEC    | 1.20 V         | --                      |
 | DDR4 XMP      | 1.35 V         | 1.35 -- 1.50 V          |
 | DDR5 JEDEC    | 1.10 V         | --                      |
 | DDR5 XMP/EXPO | 1.25 -- 1.35 V | 1.35 -- 1.45 V          |
+
+</div>
 
 :::caution
 Significantly hotter than DDR4 due to higher density and the on-die PMIC (Power Management IC). Some
@@ -1206,6 +1242,8 @@ The standard overclocking methodology follows a disciplined, iterative process:
 
 ### Tools
 
+<div class="table-wrap">
+
 | Tool           | Purpose                                    | Platform         |
 | -------------- | ------------------------------------------ | ---------------- |
 | HWiNFO64       | Real-time sensor monitoring, logging       | Windows          |
@@ -1221,11 +1259,15 @@ The standard overclocking methodology follows a disciplined, iterative process:
 | CPU-Z          | System information, memory timing details  | Windows          |
 | Taichi         | AM5 memory timing tool                     | Windows          |
 
+</div>
+
 ### Thermal Limits
 
 Overclocking increases power dissipation, which increases temperature. Exceeding thermal limits
 Causes throttling (reducing clock speeds to stay within Tjmax) and, if sustained, can degrade
 Silicon.
+
+<div class="table-wrap">
 
 | Component    | Max Safe Temperature | Throttle Temperature | Notes                             |
 | ------------ | -------------------- | -------------------- | --------------------------------- |
@@ -1235,6 +1277,8 @@ Silicon.
 | VRAM (GDDR6) | 100--110 C           | N/A (no throttle)    | Thermal pads critical             |
 | VRM          | 105--115 C           | Varies by board      | MOSFET/DrMOS temperature          |
 | NVMe SSD     | 70 C                 | ~70 C                | Throttles to 30--50% of max speed |
+
+</div>
 
 :::note
 Full load. This provides thermal headroom for ambient temperature fluctuations and ensures the
@@ -1338,6 +1382,8 @@ Diagnostic steps, in order:
 
 Q-Code (AMI) diagnostic codes commonly seen on debug displays:
 
+<div class="table-wrap">
+
 | Code | Meaning                       | Likely Cause                        |
 | ---- | ----------------------------- | ----------------------------------- |
 | 00   | Not used                      | System not yet started              |
@@ -1362,6 +1408,8 @@ Q-Code (AMI) diagnostic codes commonly seen on debug displays:
 | b2   | Legacy Option ROM             | PCIe option ROM issue               |
 | b6   | S3 resume                     | Wake from sleep failure             |
 | d6   | No console output             | Display/GPU not detected            |
+
+</div>
 
 ---
 

@@ -151,12 +151,16 @@ was important in the short term, Y had more lasting consequences."
 
 A-Level essays require 30-40 minutes (AQA, Edexcel, OCR, and WJEC all set papers of comparable length).
 
+<div class="table-wrap">
+
 | Section | Time | Task |
 | ------------------- | --------- | ------------------------------------------------- |
 | Reading and planning | 5 minutes | Identify question type; note evidence; outline argument |
 | Introduction | 3-5 minutes | State thesis; define key terms; outline structure |
 | Main paragraphs | 20-25 minutes | 3-4 PEEL paragraphs with evidence and analysis |
 | Conclusion | 3-5 minutes | Directly answer the question; final judgement |
+
+</div>
 
 **Planning technique**: Before writing, spend 3-5 minutes identifying the question type, stating
 your thesis in one sentence, noting 3-4 main points with key evidence, and noting counter-arguments.

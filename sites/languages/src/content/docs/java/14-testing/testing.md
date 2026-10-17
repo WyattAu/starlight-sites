@@ -699,6 +699,8 @@ tasks.check {
 
 ### Coverage Metrics
 
+<div class="table-wrap">
+
 | Metric                   | Description                                           |
 | ------------------------ | ----------------------------------------------------- |
 | **Line coverage**        | Percentage of source lines exercised by tests         |
@@ -706,6 +708,8 @@ tasks.check {
 | **Method coverage**      | Percentage of methods called                          |
 | **Class coverage**       | Percentage of classes with at least one method called |
 | **Instruction coverage** | Percentage of bytecode instructions executed          |
+
+</div>
 
 :::caution
 Correctness. A test that calls a method with wrong inputs and asserts wrong values still contributes

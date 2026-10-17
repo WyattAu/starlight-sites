@@ -473,6 +473,8 @@ $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
 $$
 
+<div class="table-wrap">
+
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |
 | $\mathrm{Regular} \subseteq \mathrm{CFL}$                        | Yes                 | Pumping lemma       |
@@ -484,6 +486,8 @@ $$
 | $\mathrm{L} \subseteq \mathrm{NL}$                               | Unknown             |                     |
 | $\mathrm{P} \subseteq \mathrm{NP}$                               | Unknown             | Open problem        |
 | $\mathrm{NP} \subseteq \mathrm{coNP}$                            | Unknown             | Open problem        |
+
+</div>
 
 Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \mathrm{PSPACE}$ are
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.

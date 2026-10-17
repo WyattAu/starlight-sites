@@ -23,6 +23,8 @@ Associated permissions.
 
 ### User and Group Files
 
+<div class="table-wrap">
+
 | File              | Purpose                                                         |
 | ----------------- | --------------------------------------------------------------- |
 | `/etc/passwd`     | User accounts (UID, home dir, shell, password in shadow)       |
@@ -31,6 +33,8 @@ Associated permissions.
 | `/etc/gshadow`    | Group password hashes (readable by root only)                   |
 | `/etc/skel/`      | Template directory for new user home directories                |
 | `/etc/login.defs` | Default settings for user creation (UID range, password policy) |
+
+</div>
 
 ```bash
 ## View user information
@@ -73,12 +77,16 @@ Administration.
 
 ### Special UIDs
 
+<div class="table-wrap">
+
 | UID   | Name         | Description                                      |
 | ----- | ------------ | ------------------------------------------------ |
 | 0     | root         | Superuser, unrestricted access to all resources |
 | 1     | daemon       | System daemons                                   |
 | 65534 | nobody       | Unprivileged user (used for NFS, some services)  |
 | -1    | (4294967295) | `nobody` on some systems, overflow of 32-bit UID |
+
+</div>
 
 ### NSS, Name Service Switch
 
@@ -103,6 +111,8 @@ Or `/etc/pam.conf`.
 
 ### PAM Module Types
 
+<div class="table-wrap">
+
 | Type       | Purpose                                                 |
 | ---------- | ------------------------------------------------------- |
 | `auth`     | Verify the user's identity (password, token, biometric) |
@@ -110,7 +120,11 @@ Or `/etc/pam.conf`.
 | `password` | Password change/verification                            |
 | `session`  | Session setup and teardown (logging, resource limits)   |
 
+</div>
+
 ### PAM Control Flags
+
+<div class="table-wrap">
 
 | Flag         | Behavior                                                                                      |
 | ------------ | --------------------------------------------------------------------------------------------- |
@@ -120,6 +134,8 @@ Or `/etc/pam.conf`.
 | `optional`   | Module result is ignored unless it is the only module for the type                            |
 | `include`    | Include all lines from another PAM configuration file                                         |
 | `substack`   | Run another PAM stack independently                                                           |
+
+</div>
 
 ### PAM Configuration Example
 
@@ -153,6 +169,8 @@ session required    pam_unix.so
 
 ### Key PAM Modules
 
+<div class="table-wrap">
+
 | Module                        | Purpose                                                 |
 | ----------------------------- | ------------------------------------------------------- |
 | `pam_unix.so`                 | Standard UNIX authentication (/etc/passwd, /etc/shadow) |
@@ -163,6 +181,8 @@ session required    pam_unix.so
 | `pam_mkhomedir.so`            | Auto-create home directories on first login             |
 | `pam_sssd.so`                 | Authentication via SSSD (LDAP, AD, IPA)                 |
 | `pam_google_authenticator.so` | TOTP two-factor authentication                          |
+
+</div>
 
 ### Password Policy with pam_pwquality
 
@@ -204,6 +224,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 
 ### Common Capabilities
 
+<div class="table-wrap">
+
 | Capability             | Description                                            |
 | ---------------------- | ------------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt; 1024)                   |
@@ -221,6 +243,8 @@ Granting a process full root access, you can grant only the specific capabilitie
 | `CAP_FSETID`           | Set setuid/setgid bits                                 |
 | `CAP_SETPCAP`          | Modify capability bounding set                         |
 | `CAP_AUDIT_WRITE`      | Write to the audit log                                 |
+
+</div>
 
 ### Managing Capabilities
 
@@ -269,11 +293,15 @@ Policies are enforced by the kernel and cannot be overridden by the file owner.
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode         | Enforcement | Description                                               |
 | ------------ | ----------- | --------------------------------------------------------- |
 | `enforcing`  | Yes         | Policy violations are blocked and logged                  |
 | `permissive` | No          | Policy violations are logged but not blocked (audit mode) |
 | `disabled`   | No          | SELinux is completely disabled (not recommended)          |
+
+</div>
 
 ```bash
 # View current mode
@@ -300,12 +328,16 @@ user:role:type:level
 system_u:object_r:httpd_sys_content_t:s0
 ```
 
+<div class="table-wrap">
+
 | Component | Example               | Description                                        |
 | --------- | --------------------- | -------------------------------------------------- |
 | **User**  | `system_u``user_u`    | SELinux user identity                              |
 | **Role**  | `object_r``staff_r`   | Role determines which types can be accessed        |
 | **Type**  | `httpd_sys_content_t` | Type enforcement policy (most important component) |
 | **Level** | `s0``s0-s15:c0.c1023` | MLS/MCS level (for multi-level security)           |
+
+</div>
 
 ```bash
 # View file context
@@ -379,11 +411,15 @@ sealert -l &lt;audit-event-id&gt;
 
 ### SELinux Policy Types
 
+<div class="table-wrap">
+
 | Policy     | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
 | `targeted` | Confines specific system services (httpd, mysqld, etc.)      |
 | `mls`      | Multi-Level Security, mandatory for classified environments |
 | `minimum`  | Minimal policy for embedded systems                          |
+
+</div>
 
 ## AppArmor
 
@@ -455,6 +491,8 @@ apparmor_parser -r /etc/apparmor.d/*
 
 ### AppArmor vs SELinux
 
+<div class="table-wrap">
+
 | Aspect          | SELinux                                  | AppArmor                              |
 | --------------- | ---------------------------------------- | ------------------------------------- |
 | **Model**       | Label-based (security context on inodes) | Path-based (profiles reference paths) |
@@ -465,6 +503,8 @@ apparmor_parser -r /etc/apparmor.d/*
 | **Granularity** | Finer (type enforcement)                 | Coarser (path matching)               |
 | **File moves**  | Context preserved with inode             | Broken if file moves to new path      |
 
+</div>
+
 ## seccomp-bpf
 
 Seccomp (secure computing mode) restricts the system calls a process can make. When combined with
@@ -472,11 +512,15 @@ BPF (Berkeley Packet Filter), it provides fine-grained syscall filtering.
 
 ### seccomp Modes
 
+<div class="table-wrap">
+
 | Mode       | Description                                          |
 | ---------- | ---------------------------------------------------- |
 | `disabled` | No restrictions (default)                            |
 | `strict`   | Only `read``write``_exit``sigreturn` allowed         |
 | `filter`   | BPF program defines allowed syscalls (most flexible) |
+
+</div>
 
 ### seccomp in Docker
 

@@ -93,6 +93,8 @@ int main() {
 
 The key distinction between views and containers [N4950 §26.5.2]:
 
+<div class="table-wrap">
+
 | Property       | View                | Container               |
 | -------------- | ------------------- | ----------------------- |
 | Ownership      | Borrows elements    | Owns elements           |
@@ -101,6 +103,8 @@ The key distinction between views and containers [N4950 §26.5.2]:
 | Destruction    | $O(1)$              | $O(n)$                  |
 | Composition    | Chainable with `\|` | Must materialize        |
 | Element access | Lazy (on iteration) | Eager (on construction) |
+
+</div>
 
 `std::ranges::to&lt;T>` performs the materialization eagerly: it iterates the entire view and
 Inserts each element into the target container. This is $O(n)$ in the number of elements.
@@ -267,6 +271,8 @@ int main() {
 The fundamental trade-off between views (lazy) and containers (eager) is **when computation occurs**
 [N4950 §26.5.2]:
 
+<div class="table-wrap">
+
 | Aspect           | Lazy View                  | Eager Container (`ranges::to`) |
 | ---------------- | -------------------------- | ------------------------------ |
 | Computation time | At iteration               | At materialization             |
@@ -274,6 +280,8 @@ The fundamental trade-off between views (lazy) and containers (eager) is **when 
 | Multi-pass       | No (single-pass views)     | Yes                            |
 | Lifetime         | Tied to source             | Independent                    |
 | Side effects     | Each iteration re-executes | Executed once                  |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -398,6 +406,8 @@ int main() {
 
 ### Table of Borrowed vs Non-Borrowed Views
 
+<div class="table-wrap">
+
 | View Type              | Borrowed? | Reason                                   |
 | ---------------------- | --------- | ---------------------------------------- |
 | `ref_view<T>`          | Yes       | Holds an lvalue reference explicitly     |
@@ -417,6 +427,8 @@ int main() {
 | `enumerate_view<V>`    | No        | Borrows from `V`                         |
 | `keys_view<M>`         | No        | Borrows from map `M`                     |
 | `values_view<M>`       | No        | Borrows from map `M`                     |
+
+</div>
 
 ### Interaction with `std::views::filter` and `std::views::transform`
 
@@ -744,6 +756,8 @@ int main() {
 
 The cost of materialization depends on the target container and the view pipeline:
 
+<div class="table-wrap">
+
 | Target Container | Allocation Strategy                    | Typical Cost per Element         |
 | ---------------- | -------------------------------------- | -------------------------------- |
 | `std::vector`    | Single allocation (with `reserve`)     | 1 copy + 0-1 reallocations       |
@@ -752,6 +766,8 @@ The cost of materialization depends on the target container and the view pipelin
 | `std::list`      | Per-node allocation                    | 1 copy + 1 alloc per element     |
 | `std::set`       | Per-node allocation + tree rebalancing | 1 copy + $O(\log n)$ per element |
 | `std::string`    | Single allocation                      | 1 copy                           |
+
+</div>
 
 For maximum throughput, materialize into `std::vector` (best cache locality, fewest allocations). If
 you need deduplication or sorting, materialize into `std::vector` first, then sort and unique-erase,

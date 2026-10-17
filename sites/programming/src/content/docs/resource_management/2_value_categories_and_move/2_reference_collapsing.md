@@ -32,12 +32,16 @@ Reference collapsing occurs when a reference to a reference is formed during **t
 Deduction** or **typedef/alias template substitution** [N4950 §13.3.2.3]. The language defines four
 Rules:
 
+<div class="table-wrap">
+
 | Form     | Collapses To |
 | :------- | :----------: |
 | `T& &`   |     `T&`     |
 | `T& &&`  |     `T&`     |
 | `T&& &`  |     `T&`     |
 | `T&& &&` |    `T&&`     |
+
+</div>
 
 The rule is simple: **if any component is an lvalue reference (`&`), the result is an lvalue
 Reference.** Only when both components are rvalue references (`&&`) does the result remain an rvalue
@@ -626,12 +630,16 @@ struct SafeWidget {
 
 ## 5.7 `std::forward` vs `std::move`. When to Use Which
 
+<div class="table-wrap">
+
 | Situation                         | Use                  | Reason                                     |
 | :-------------------------------- | :------------------- | :----------------------------------------- |
 | Forwarding a function parameter   | `std::forward<T>`    | Preserves original value category          |
 | Unconditionally casting to rvalue | `std::move(x)`       | Intentionally discarding the source object |
 | Moving a local variable           | `std::move(x)`       | Local is about to be destroyed anyway      |
 | In a factory/emplacement function | `std::forward<Args>` | Each arg may be lvalue or rvalue           |
+
+</div>
 
 `std::move` is equivalent to `std::forward<T>` where `T` is deduced as a non-reference type. It is
 Syntactic sugar for `static_cast<T&&>(x)`. Use `std::forward` only when you have a forwarding

@@ -62,6 +62,8 @@ creating a rhythm close to natural English speech:
 Shakespeare's imagery operates through networks of related images (image clusters) that develop
 across entire plays:
 
+<div class="table-wrap">
+
 | Play          | Dominant Imagery                     | Thematic Significance                                |
 | ------------- | ------------------------------------ | ---------------------------------------------------- |
 | _Macbeth_     | Blood, darkness, clothing, disease   | Guilt, moral disorder, unsuitability for power       |
@@ -70,9 +72,13 @@ across entire plays:
 | _King Lear_   | Animals, nature, sight and blindness | Bestiality of humanity, natural order, understanding |
 | _The Tempest_ | Water, magic, clothing, sleep        | Transformation, illusion, civilisation               |
 
+</div>
+
 #### Rhetorical Devices
 
 Shakespeare was trained in classical rhetoric. Key devices to recognise:
+
+<div class="table-wrap">
 
 | Device          | Definition                                     | Example                                                             |
 | --------------- | ---------------------------------------------- | ------------------------------------------------------------------- |
@@ -85,6 +91,8 @@ Shakespeare was trained in classical rhetoric. Key devices to recognise:
 | Personification | Giving human qualities to non-human things     | "The wind sits in the shoulder of your sail"                        |
 | Soliloquy       | Speech alone on stage revealing inner thoughts | Hamlet's "To be or not to be"                                       |
 | Tricolon        | A group of three parallel phrases              | "Friends, Romans, countrymen"                                       |
+
+</div>
 
 ### Major Themes Across Shakespeare
 
@@ -136,6 +144,8 @@ and histories.
 Shakespeare wrote during the reigns of Elizabeth I (1558-1603) and James I (1603-1625). Key
 contextual factors:
 
+<div class="table-wrap">
+
 | Context                     | Relevance                                                                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | The Divine Right of Kings   | Kings were appointed by God; regicide was both a political and spiritual crime. Central to _Macbeth_ and _Richard II_                 |
@@ -146,7 +156,11 @@ contextual factors:
 | The Elizabethan world order | A belief in cosmic order: when the ruler is just, nature harmonises; when the ruler is corrupt, nature rebels                         |
 | Tudor propaganda            | The Tudor myth presented the Tudor dynasty as restoring order after the Wars of the Roses. The history plays reinforce this narrative |
 
+</div>
+
 #### The Elizabethan Theatre
+
+<div class="table-wrap">
 
 | Feature                         | Significance                                                                      |
 | ------------------------------- | --------------------------------------------------------------------------------- |
@@ -156,6 +170,8 @@ contextual factors:
 | Groundlings                     | Standing audience members in the yard; the plays had to engage all social classes |
 | The trapdoor                    | Associated with hell and the supernatural                                         |
 | The gallery above the stage     | Used for balcony scenes, upper-stage action, and divine perspectives              |
+
+</div>
 
 ## Analytical Frameworks
 
@@ -175,6 +191,8 @@ When faced with a soliloquy or key speech, work through these steps:
 
 A-Level Shakespeare requires engagement with different critical readings. Major approaches include:
 
+<div class="table-wrap">
+
 | Approach              | Application                                       | Example                                                        |
 | --------------------- | ------------------------------------------------- | -------------------------------------------------------------- |
 | Formalist             | Close reading of language, imagery, and structure | Analysing the imagery patterns in _Macbeth_                    |
@@ -186,7 +204,11 @@ A-Level Shakespeare requires engagement with different critical readings. Major 
 | Eco-critical          | Nature, environment, the non-human world          | The storm in _King Lear_ and natural disorder                  |
 | Performance criticism | How staging choices shape meaning                 | Different interpretations of Shylock across production history |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term              | Definition                                                                |
 | ----------------- | ------------------------------------------------------------------------- |
@@ -207,6 +229,8 @@ A-Level Shakespeare requires engagement with different critical readings. Major 
 | Tragic hero       | A protagonist of high status whose flaw causes their downfall             |
 | Tragicomedy       | A play that blends tragic and comic elements                              |
 | Volta             | A turning point in a speech or argument                                   |
+
+</div>
 
 ## Exam Technique
 

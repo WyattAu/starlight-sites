@@ -386,6 +386,8 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Criterion             | `map` / `set`                        | `unordered_map` / `unordered_set` |
 | --------------------- | ------------------------------------ | --------------------------------- |
 | Ordering              | Sorted by key                        | No ordering                       |
@@ -395,6 +397,8 @@ int main() {
 | Key requirement       | `operator&lt;`                       | `operator==` and hash             |
 | Range queries         | Supported (lower_bound, upper_bound) | Not supported                     |
 | Iterator invalidation | Only on erase                        | On rehash                         |
+
+</div>
 
 :::caution
 Hash to the same bucket). If adversarial inputs are a concern, consider hash functions resistant to
@@ -523,6 +527,8 @@ Node.
 Unlike sequence containers, associative containers have simpler invalidation rules [N4950 §22.4.4.1
 Table 83]:
 
+<div class="table-wrap">
+
 | Operation | Iterator effect                      | Pointer/Reference effect             |
 | --------- | ------------------------------------ | ------------------------------------ |
 | `insert`  | No invalidation                      | No invalidation                      |
@@ -530,6 +536,8 @@ Table 83]:
 | `erase`   | Only iterators to the erased element | Only to the erased element           |
 | `clear`   | All invalidated                      | All invalidated                      |
 | `swap`    | No invalidation (elements exchanged) | No invalidation (elements exchanged) |
+
+</div>
 
 This is a consequence of the node-based structure: inserting a new node allocates a new heap block
 that does not affect existing nodes. Erasing a node only frees that specific block.

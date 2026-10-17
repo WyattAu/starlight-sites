@@ -26,6 +26,8 @@ of Western Europe and North America.
 
 ### The Five Stages
 
+<div class="table-wrap">
+
 | Stage | Birth Rate (per 1000) | Death Rate (per 1000)     | Natural Increase               | Population Growth      | Example Countries                                         |
 | ----- | --------------------- | ------------------------- | ------------------------------ | ---------------------- | --------------------------------------------------------- |
 | **1** | High (35--40)         | High (35--40)             | Near zero or fluctuating       | Very slow, stable      | Isolated indigenous communities; pre-industrial societies |
@@ -33,6 +35,8 @@ of Western Europe and North America.
 | **3** | Falling (15--25)      | Low (8--12)               | Moderate and declining (5--15) | Slowing                | India, Brazil, Egypt, Mexico                              |
 | **4** | Low (8--12)           | Low (8--12)               | Low or stable (0--5)           | Slow or stable         | UK, France, USA, Australia                                |
 | **5** | Very low (6--9)       | Rising or stable (10--12) | Negative or near zero          | Declining or very slow | Japan, Germany, Italy, South Korea                        |
+
+</div>
 
 ### Mechanisms Driving Each Transition
 

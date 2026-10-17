@@ -96,10 +96,14 @@ Excluded from consumption. This leads to market under-provision or zero provisio
 
 **Classification of goods:**
 
+<div class="table-wrap">
+
 |                   | Excludable    | Non-excludable   |
 | ----------------- | ------------- | ---------------- |
 | **Rivalrous**     | Private goods | Common resources |
 | **Non-rivalrous** | Club goods    | Public goods     |
+
+</div>
 
 Pure public goods (e.g., national defence, street lighting, lighthouses) contrast with **private
 Goods** (excludable and rivalrous), **quasi-public goods** (partially excludable or congestible,
@@ -680,6 +684,8 @@ differences at the extremes.
 
 **Numerical example:** A country has the following income distribution (quintiles):
 
+<div class="table-wrap">
+
 | Quintile   | Share of income |
 | ---------- | --------------- |
 | Bottom 20% | 5%              |
@@ -687,6 +693,8 @@ differences at the extremes.
 | Middle 20% | 15%             |
 | Fourth 20% | 20%             |
 | Top 20%    | 50%             |
+
+</div>
 
 Gini coefficient approximation:
 
@@ -696,6 +704,8 @@ $$
 
 Where $X_i$ is the cumulative population share and $Y_i$ is the cumulative income share.
 
+<div class="table-wrap">
+
 | $i$ | $X_i$ | $Y_i$ | $X_i - X_{i-1}$ | $Y_i + Y_{i-1}$ | Product |
 | --- | ----- | ----- | --------------- | --------------- | ------- |
 | 0   | 0     | 0     | --              | --              | --      |
@@ -704,6 +714,8 @@ Where $X_i$ is the cumulative population share and $Y_i$ is the cumulative incom
 | 3   | 0.6   | 0.30  | 0.2             | 0.45            | 0.090   |
 | 4   | 0.8   | 0.50  | 0.2             | 0.80            | 0.160   |
 | 5   | 1.0   | 1.00  | 0.2             | 1.50            | 0.300   |
+
+</div>
 
 $G = 1 - (0.010 + 0.040 + 0.090 + 0.160 + 0.300) = 1 - 0.600 = 0.400$
 

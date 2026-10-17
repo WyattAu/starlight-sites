@@ -36,6 +36,8 @@ $c$ is concentration (M), and $l$ is path length (cm).
 
 ### 1.2 Electronic Transitions
 
+<div class="table-wrap">
+
 | Transition              | $\lambda_{\max}$ (nm) | $\varepsilon$ (M$^{-1}$cm$^{-1}$) |
 | ----------------------- | --------------------- | ---------------------------------- |
 | $\sigma \to \sigma^*$   | < 200                 | Very high                          |
@@ -43,6 +45,8 @@ $c$ is concentration (M), and $l$ is path length (cm).
 | $\pi \to \pi^*$         | 160–180 (isolated)    | $\sim 10^4$                        |
 | $\pi \to \pi^*$         | 200–300 (conjugated)  | $10^3$–$10^5$                      |
 | $n \to \pi^*$           | 250–350               | 10–100 (weak)                      |
+
+</div>
 
 ### 1.3 Effect of Conjugation
 
@@ -55,12 +59,16 @@ $$
 \lambda_{\max} = \lambda_{\text{base}} + n_{\text{double bonds}} \times 30 + \text{substituent corrections}
 $$
 
+<div class="table-wrap">
+
 | Structural Feature        | $\lambda_{\max}$ Increment (nm) |
 | ------------------------ | ------------------------------ |
 | Each additional double bond | 30                             |
 | Alkyl substituent         | 5                              |
 | Exocyclic double bond     | 5                              |
 | Extending conjugation     | 30 per extra double bond        |
+
+</div>
 
 **Example 1:** Predict $\lambda_{\max}$ for a diene with one exocyclic double bond and one alkyl
 substituent:
@@ -95,6 +103,8 @@ where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is t
 
 ### 2.2 Characteristic IR Absorptions
 
+<div class="table-wrap">
+
 | Bond Type          | Range (cm$^{-1}$) | Intensity |
 | ------------------ | ----------------- | --------- |
 | O–H (alcohol)      | 3200–3600         | Broad     |
@@ -111,6 +121,8 @@ where $k$ is the force constant (N/m) and $\mu = \frac{m_1 m_2}{m_1 + m_2}$ is t
 | C=C                | 1620–1680         | Variable  |
 | C–O                | 1000–1300         | Strong    |
 | C–Cl               | 600–800           | Strong    |
+
+</div>
 
 ### 2.3 Fingerprint Region
 
@@ -152,6 +164,8 @@ $$
 
 ### 3.2 $^1\text{H}$ NMR: Chemical Shifts
 
+<div class="table-wrap">
+
 | Proton Type                    | $\delta$ (ppm)  |
 | ------------------------------ | --------------- |
 | TMS (reference)                | 0.0             |
@@ -167,11 +181,15 @@ $$
 | Aldehyde                       | 9.0–10.0        |
 | Carboxylic acid                | 10.0–13.0       |
 
+</div>
+
 ### 3.3 Spin-Spin Splitting
 
 **Theorem 3 (n+1 Rule):** A signal is split into $n + 1$ peaks by $n$ equivalent neighboring protons.
 
 The splitting pattern follows Pascal's triangle:
+
+<div class="table-wrap">
 
 | $n$ (neighbors) | Splitting | Peak Ratio |
 | --------------- | --------- | ---------- |
@@ -180,6 +198,8 @@ The splitting pattern follows Pascal's triangle:
 | 2               | Triplet   | 1:2:1      |
 | 3               | Quartet   | 1:3:3:1    |
 | 4               | Quintet   | 1:4:6:4:1  |
+
+</div>
 
 **Coupling constant:** $J$ (Hz) is the separation between adjacent peaks in a multiplet. $J$ is
 independent of $B_0$.
@@ -211,6 +231,8 @@ arise:
   quaternary carbons.
 - Chemical shift range: 0–220 ppm.
 
+<div class="table-wrap">
+
 | Carbon Type      | $\delta$ (ppm) |
 | ---------------- | -------------- |
 | R–CH$_3$         | 0–35           |
@@ -222,6 +244,8 @@ arise:
 | Aromatic         | 110–160        |
 | C=O              | 160–220        |
 | C≡N              | 115–150        |
+
+</div>
 
 ### 3.7 2D NMR Techniques
 
@@ -254,6 +278,8 @@ gives the molecular weight.
 
 ### 4.2 Ionization Methods
 
+<div class="table-wrap">
+
 | Method       | Principle                        | Best For                    |
 | ------------ | -------------------------------- | --------------------------- |
 | EI (70 eV)   | Electron impact; hard ionization | Volatile, thermally stable  |
@@ -261,6 +287,8 @@ gives the molecular weight.
 | ESI          | Electrospray ionization          | Large, polar molecules      |
 | MALDI        | Matrix-assisted laser            | Biomolecules, polymers      |
 | APCI         | Atmospheric pressure chemical    | Medium polarity compounds   |
+
+</div>
 
 ### 4.3 Fragmentation Patterns
 
@@ -275,6 +303,8 @@ $$
 
 **Common fragmentation:**
 
+<div class="table-wrap">
+
 | Functional Group  | Characteristic Fragmentation                    |
 | ----------------- | ---------------------------------------------- |
 | Alcohols          | M – 18 (loss of H$_2$O), $\alpha$-cleavage     |
@@ -284,6 +314,8 @@ $$
 | Esters            | McLafferty, acyl ion (RCO$^+$)                 |
 | Amines            | $\alpha$-cleavage, odd molecular ion (N rule)   |
 | Aromatics         | Strong M$^+$, tropylium ion ($m/z = 91$)       |
+
+</div>
 
 ### 4.4 High-Resolution MS
 
@@ -406,6 +438,8 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Structure and Bonding    | WyattsNotes | [View](/2-organic-chemistry/structure-and-bonding/)              |
@@ -413,7 +447,9 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 | Quantum Chemistry        | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                  |
 | Organic Spectroscopy, MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

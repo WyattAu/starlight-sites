@@ -45,6 +45,8 @@ The compiler implicitly declares a default SMF if the class has no user-declared
 Destructor, copy/move operations, or other conditions that would trigger implicit deletion. The
 Exact rules are [N4950 §11.4.5.3]:
 
+<div class="table-wrap">
+
 | SMF                  | Implicitly declared if...                                           | Implicitly defined as default if...                  | Implicitly deleted if...                                                                                                 |
 | -------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Destructor**       | No user-declared destructor                                         | Trivial (all bases/members have trivial destructors) | Any base or member has deleted/inaccessible destructor                                                                   |
@@ -52,6 +54,8 @@ Exact rules are [N4950 §11.4.5.3]:
 | **Copy assignment**  | No user-declared move constructor or move assignment                | Trivial                                              | Any base/member has deleted copy assign, or has move assign, or reference member, or volatile member                     |
 | **Move constructor** | No user-declared copy ctor, copy assign, move assign, or destructor | Trivial                                              | Any base/member has deleted move ctor or inaccessible non-move ctor, or has copy-only semantics                          |
 | **Move assignment**  | No user-declared copy ctor, copy assign, move ctor, or destructor   | Trivial                                              | Any base/member has deleted move assign or inaccessible non-move assign, or has copy-only semantics, or reference member |
+
+</div>
 
 :::caution
 Constructor and move assignment are **not** implicitly declared. In C++14 and later, this remains

@@ -46,6 +46,8 @@ Integration, and frequent small releases.
 
 **Waterfall vs Agile comparison:**
 
+<div class="table-wrap">
+
 | Feature              | Waterfall                | Agile                     |
 | -------------------- | ------------------------ | ------------------------- |
 | Approach             | Linear, sequential       | Iterative, incremental    |
@@ -55,6 +57,8 @@ Integration, and frequent small releases.
 | Documentation        | Extensive upfront        | Minimal, working code     |
 | Risk                 | High (late testing)      | Low (early testing)       |
 | Best for             | Well-understood projects | Evolving requirements     |
+
+</div>
 
 ### Analysis and Design
 
@@ -357,6 +361,8 @@ class Queue:
 
 **ADT complexity comparison:**
 
+<div class="table-wrap">
+
 | Operation       | Stack  | Queue  | Array  | Linked List         |
 | --------------- | ------ | ------ | ------ | ------------------- |
 | Push/Enqueue    | $O(1)$ | $O(1)$ | N/A    | $O(1)$              |
@@ -365,6 +371,8 @@ class Queue:
 | Search          | $O(n)$ | $O(n)$ | $O(n)$ | $O(n)$              |
 | Access by index | N/A    | N/A    | $O(1)$ | $O(n)$              |
 | Insert middle   | N/A    | N/A    | $O(n)$ | $O(1)$ with pointer |
+
+</div>
 
 ### File Handling
 
@@ -451,10 +459,14 @@ Boundaries: 0, 1, 9, 10, 11, 49, 50, 51. Test values at and on either side of ea
 
 **Coupling:** How much modules depend on each other. Low coupling is desirable.
 
+<div class="table-wrap">
+
 | Design Goal   | Desirable | Effect                                 |
 | ------------- | --------- | -------------------------------------- |
 | High cohesion | Yes       | Easier to understand and modify        |
 | Low coupling  | Yes       | Changes in one module have less impact |
+
+</div>
 
 **Worked Example.** A class `CustomerManager` handles customer data, sends emails, and generates
 Reports. This has low cohesion. Refactor by splitting into `CustomerData`, `EmailService` and
@@ -503,11 +515,15 @@ Show how an object moves between states in response to events.
 
 **Map, Filter, Reduce:**
 
+<div class="table-wrap">
+
 | Function | Purpose                              | Example (Haskell)            |
 | -------- | ------------------------------------ | ---------------------------- |
 | map      | Apply a function to each element     | `map (*2) [1,2,3] = [2,4,6]` |
 | filter   | Keep elements matching a predicate   | `filter even [1..10]`        |
 | reduce   | Combine elements into a single value | `sum [1,2,3,4] = 10`         |
+
+</div>
 
 **Haskell examples:**
 
@@ -550,6 +566,8 @@ finally:
 
 ### Data Validation Techniques
 
+<div class="table-wrap">
+
 | Check          | Description                             | Example                    |
 | -------------- | --------------------------------------- | -------------------------- |
 | Range check    | Value within acceptable range           | `0 <= age <= 120`          |
@@ -558,6 +576,8 @@ finally:
 | Format check   | Data matches expected pattern           | email contains @ and .     |
 | Presence check | Field is not empty                      | name != ""                 |
 | Lookup check   | Value exists in a reference table       | country in valid_countries |
+
+</div>
 
 **Worked Example.** Write a Python function that validates a password.
 
@@ -647,12 +667,16 @@ def add(a, b):
 
 ### Code Quality Metrics
 
+<div class="table-wrap">
+
 | Metric                | Description                                                        |
 | --------------------- | ------------------------------------------------------------------ |
 | Cyclomatic complexity | Number of independent paths through code (lower is better)         |
 | Code coverage         | Percentage of code exercised by tests (higher is better)           |
 | Lines of code         | Total lines (lower is generally better for the same functionality) |
 | Technical debt        | Cost of future work caused by shortcuts taken now                  |
+
+</div>
 
 ### Debugging Strategies
 
@@ -664,6 +688,8 @@ def add(a, b):
 
 ### Software Licensing
 
+<div class="table-wrap">
+
 | License     | Description                                         |
 | ----------- | --------------------------------------------------- |
 | Proprietary | Source code is closed; usage restricted by EULA     |
@@ -671,6 +697,8 @@ def add(a, b):
 | GPL         | Derivative works must also be open source           |
 | MIT         | Permissive; can use, modify, and distribute freely  |
 | Apache      | Permissive; requires attribution and license notice |
+
+</div>
 
 ## Additional Practice Questions
 

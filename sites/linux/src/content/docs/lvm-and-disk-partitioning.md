@@ -33,6 +33,8 @@ Page cache.
 
 Naming conventions:
 
+<div class="table-wrap">
+
 | Device Type   | Path Pattern   | Example        | Notes                               |
 | ------------- | -------------- | -------------- | ----------------------------------- |
 | SCSI/SATA     | `/dev/sdX`     | `/dev/sda`     | Letters assigned in detection order |
@@ -42,6 +44,8 @@ Naming conventions:
 | Loop          | `/dev/loopX`   | `/dev/loop0`   | Loopback-mounted files              |
 | Device Mapper | `/dev/dm-X`    | `/dev/dm-0`    | LVM, crypt, multipath               |
 | MD RAID       | `/dev/mdX`     | `/dev/md0`     | Software RAID arrays                |
+
+</div>
 
 Partitions are numbered after the device name:
 
@@ -63,6 +67,8 @@ Describes the layout of partitions, their starting sectors, sizes, types, and st
 MBR uses a 512-byte boot sector at LBA 0 containing a 446-byte bootstrap code area, a 64-byte
 Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 
+<div class="table-wrap">
+
 | Property          | MBR                                         |
 | ----------------- | ------------------------------------------- |
 | Max disk size     | 2 TiB (32-bit sector count)                 |
@@ -71,12 +77,16 @@ Partition table (four 16-byte entries), and a 2-byte signature (`0x55AA`).
 | Boot method       | Legacy BIOS only                            |
 | Partition ID      | 1-byte type code                            |
 
+</div>
+
 MBR is obsolete. Use it only when you need legacy BIOS boot on hardware that lacks UEFI.
 
 #### GPT (GUID Partition Table)
 
 GPT is part of the UEFI specification. It stores partition entries in a linked list structure with a
 Protective MBR at LBA 0 for backward compatibility.
+
+<div class="table-wrap">
 
 | Property          | GPT                                   |
 | ----------------- | ------------------------------------- |
@@ -86,6 +96,8 @@ Protective MBR at LBA 0 for backward compatibility.
 | Boot method       | UEFI (with protective MBR for compat) |
 | Partition ID      | 128-bit GUID type + 128-bit GUID name |
 | Redundancy        | Backup partition table at end of disk |
+
+</div>
 
 ```text
 GPT disk layout:
@@ -102,10 +114,14 @@ disks, and GPT's backup table provides redundancy against corruption at the star
 
 ### Sector Size
 
+<div class="table-wrap">
+
 | Sector Size | Common On              | Notes                                                |
 | ----------- | ---------------------- | ---------------------------------------------------- |
 | 512 bytes   | Older HDDs, SATA SSD   | Traditional physical sector size                     |
 | 4096 bytes  | Modern HDDs, many SSDs | 4K native (4Kn) or 512e (emulated) for compatibility |
+
+</div>
 
 512e drives present 512-byte logical sectors to the OS but use 4096-byte physical sectors
 Internally. Misaligned writes on 512e drives cause read-modify-write cycles, degrading performance.
@@ -124,13 +140,19 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 
 #### MBR Partition Types
 
+<div class="table-wrap">
+
 | Type     | Description                                                         |
 | -------- | ------------------------------------------------------------------- |
 | Primary  | One of the four entries in the MBR table                            |
 | Extended | A primary partition that acts as a container for logical partitions |
 | Logical  | Created inside an extended partition using an EBR chain             |
 
+</div>
+
 #### GPT Partition Types (GUIDs)
+
+<div class="table-wrap">
 
 | GUID                                   | Type                 |
 | -------------------------------------- | -------------------- |
@@ -140,6 +162,8 @@ lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 | `933AC7E1-2EB4-4F13-B844-0E14E2AEF915` | Linux swap           |
 | `E3C9E316-0B5C-4DB8-817D-F92DF00215AE` | Microsoft reserved   |
 | `EBD0A0A2-B9E5-4433-87C0-68B6B72699C7` | Windows data         |
+
+</div>
 
 ```bash
 # View partition type GUIDs
@@ -357,6 +381,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 /mnt/iso.iso                                  /mnt/cdrom     iso9660 loop,ro          0       0
 ```
 
+<div class="table-wrap">
+
 | Field       | Description                                                                           |
 | ----------- | ------------------------------------------------------------------------------------- |
 | Device      | UUID=, PARTUUID=, LABEL=, device path, or special filesystem (proc, tmpfs)            |
@@ -366,7 +392,11 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | Dump        | Whether `dump` includes this filesystem in backups (0 = no, 1 = yes; mostly obsolete) |
 | Pass        | Order for `fsck` at boot: 0 = skip, 1 = root filesystem, 2 = all other filesystems    |
 
+</div>
+
 #### Common Mount Options
+
+<div class="table-wrap">
 
 | Option                | Effect                                                                                 |
 | --------------------- | -------------------------------------------------------------------------------------- |
@@ -385,6 +415,8 @@ PARTUUID=12345678-1234-1234-1234-1234567890ab /boot/efi      vfat    defaults   
 | `sync`                | Synchronous writes (slow, used for USB drives)                                         |
 | `user`                | Allow non-root users to mount                                                          |
 | `x-gvfs-show`         | Show in desktop file managers                                                          |
+
+</div>
 
 ```bash
 # Mount by UUID
@@ -522,11 +554,15 @@ xfs_fsr -v /mnt/data
 
 ### Journaling Modes
 
+<div class="table-wrap">
+
 | Mode        | What is Journaled                                              | Performance | Data Safety |
 | ----------- | -------------------------------------------------------------- | ----------- | ----------- |
 | `ordered`   | Metadata only; data written to disk before metadata committed  | Good        | High        |
 | `writeback` | Metadata only; no ordering guarantee between data and metadata | Best        | Medium      |
 | `journal`   | Both data and metadata journaled                               | Slowest     | Highest     |
+
+</div>
 
 ```bash
 # Set journal mode at mount time
@@ -726,6 +762,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 
 ### LVM Command Summary
 
+<div class="table-wrap">
+
 | Task             | PV Command       | VG Command       | LV Command       |
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | Create           | `pvcreate`       | `vgcreate`       | `lvcreate`       |
@@ -737,6 +775,8 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 | Move data        | N/A              | `pvmove`         | N/A              |
 | Backup metadata  | N/A              | `vgcfgbackup`    | N/A              |
 | Restore metadata | N/A              | `vgcfgrestore`   | N/A              |
+
+</div>
 
 ## Resizing
 
@@ -954,6 +994,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 
 ### LVM RAID vs mdadm
 
+<div class="table-wrap">
+
 | Aspect      | LVM RAID                      | mdadm                                        |
 | ----------- | ----------------------------- | -------------------------------------------- |
 | Management  | Integrated with LVM commands  | Separate toolchain                           |
@@ -964,6 +1006,8 @@ lvcreate --type raid10 -i 2 -m 1 -L 100G -n lv_raid10 vg_data
 | Flexibility | Can mix RAID and non-RAID LVs | Array is a fixed block device                |
 | Maturity    | Less widely used              | Very mature, battle-tested                   |
 | Metadata    | LVM metadata                  | md superblock (1.0, 1.1, 1.2, 0.9)           |
+
+</div>
 
 ### LVM RAID Maintenance
 
@@ -1079,6 +1123,8 @@ on it as your only protection.
 
 ### RAID Levels
 
+<div class="table-wrap">
+
 | Level | Min Disks | Redundancy | Read Perf | Write Perf | Capacity  | Use Case                      |
 | ----- | --------- | ---------- | --------- | ---------- | --------- | ----------------------------- |
 | 0     | 2         | None       | Highest   | Highest    | n disks   | Temporary data, caches        |
@@ -1086,6 +1132,8 @@ on it as your only protection.
 | 5     | 3         | 1 disk     | Good      | Moderate   | n-1 disks | File servers, general storage |
 | 6     | 4         | 2 disks    | Good      | Moderate   | n-2 disks | Large arrays, critical data   |
 | 10    | 4         | 1 disk     | Highest   | Good       | n/2 disks | Databases, high I/O workloads |
+
+</div>
 
 ### Creating RAID Arrays
 
@@ -1194,12 +1242,16 @@ mdadm --monitor --scan --daemonise --mail=root@localhost
 
 ### Superblock Versions
 
+<div class="table-wrap">
+
 | Version | Location         | Notes                                                |
 | ------- | ---------------- | ---------------------------------------------------- |
 | 0.9     | End of device    | Legacy, 64 KiB, no bitmap support                    |
 | 1.0     | End of device    | Modern default for boot arrays, compatible with GRUB |
 | 1.1     | Start of device  | Near beginning, 4 KiB offset                         |
 | 1.2     | 4 KiB from start | Recommended for non-boot arrays, compatible with LVM |
+
+</div>
 
 ```bash
 # Create with specific superblock version
@@ -1475,6 +1527,8 @@ ncdu -e /var                         # enable extended info
 **Definition.** LUKS (Linux Unified Key Setup) is a disk encryption standard that provides a
 Platform-independent on-disk format for encrypted block devices.
 
+<div class="table-wrap">
+
 | Feature        | LUKS1              | LUKS2                                 |
 | -------------- | ------------------ | ------------------------------------- |
 | Header version | 1                  | 2                                     |
@@ -1485,6 +1539,8 @@ Platform-independent on-disk format for encrypted block devices.
 | Token support  | No                 | Yes (systemd, keyring, etc.)          |
 | Integrity      | No                 | Optional (dm-integrity)               |
 | Header backup  | `luksHeaderBackup` | `luksHeaderBackup` (larger header)    |
+
+</div>
 
 ```bash
 # Check LUKS version
@@ -1559,12 +1615,16 @@ crypt_data     /dev/disk/by-id/ata-ST5000  none                 luks
 crypt_swap     /dev/disk/by-uuid/def67890  /dev/urandom         swap,cipher=aes-xts-plain64,size=256
 ```
 
+<div class="table-wrap">
+
 | Field   | Description                                                             |
 | ------- | ----------------------------------------------------------------------- |
 | Name    | Mapper name (appears as `/dev/mapper/<name>`)                           |
 | Device  | UUID, device path, or `/dev/disk/by-id/` identifier                     |
 | Keyfile | Path to key file, `none` for passphrase prompt, `/dev/urandom` for swap |
 | Options | Comma-separated: `luks``discard``timeout=X``try-empty-password`         |
+
+</div>
 
 ### LVM on LUKS vs LUKS on LVM
 
@@ -1591,6 +1651,8 @@ LUKS on LVM:
         lv_root   (unencrypted, filesystem: /)
 ```
 
+<div class="table-wrap">
+
 | Aspect           | LVM on LUKS                              | LUKS on LVM                       |
 | ---------------- | ---------------------------------------- | --------------------------------- |
 | Security         | Better (entire VG is encrypted)          | LV-level granularity              |
@@ -1599,6 +1661,8 @@ LUKS on LVM:
 | Key management   | Single key unlocks entire VG             | Per-LV keys                       |
 | Boot complexity  | Higher (need initramfs with cryptsetup)  | Lower (root can be unencrypted)   |
 | Typical use case | Laptops, full-disk encryption            | Servers with selective encryption |
+
+</div>
 
 ## Troubleshooting
 

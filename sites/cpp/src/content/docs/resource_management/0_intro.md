@@ -148,12 +148,16 @@ handling completes the picture with robust failure modes.
 
 ### Common Ownership Patterns
 
+<div class="table-wrap">
+
 | Pattern              | Smart Pointer                      | Use Case                                        |
 | -------------------- | ---------------------------------- | ----------------------------------------------- |
 | Exclusive ownership  | `unique_ptr`                       | Default for heap objects, factory return values |
 | Shared ownership     | `shared_ptr`                       | Graphs, caches, observer lists                  |
 | Non-owning reference | Raw pointer or `reference_wrapper` | Callbacks, iteration, parameter passing         |
 | Weak observation     | `weak_ptr`                         | Breaking `shared_ptr` cycles                    |
+
+</div>
 
 ### Move vs Copy Decision Tree
 

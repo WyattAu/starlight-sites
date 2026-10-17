@@ -206,6 +206,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 
 **Wi-Fi (IEEE 802.11).** Wireless LAN standards operating in the 2.4 GHz, 5 GHz, and 6 GHz bands.
 
+<div class="table-wrap">
+
 | Standard | Frequency | Max PHY Rate | Channel Width |
 | -------- | --------- | ------------ | ------------- |
 | 802.11a  | 5 GHz     | 54 Mbps      | 20 MHz        |
@@ -214,6 +216,8 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
 | 802.11n  | 2.4/5 GHz | 600 Mbps     | 20/40 MHz     |
 | 802.11ac | 5 GHz     | 6.93 Gbps    | 20-160 MHz    |
 | 802.11ax | 2.4/5/6   | 9.6 Gbps     | 20-160 MHz    |
+
+</div>
 
 **Key 802.11 mechanisms:**
 
@@ -256,6 +260,8 @@ void wifi_send(frame *f) {
 
 **Frame format:**
 
+<div class="table-wrap">
+
 | Field    | Size      | Description                         |
 | -------- | --------- | ----------------------------------- |
 | Preamble | 7 bytes   | Alternating 1s and 0s for sync      |
@@ -266,11 +272,15 @@ void wifi_send(frame *f) {
 | Payload  | 46-1500 B | Data                                |
 | FCS      | 4 bytes   | Frame check sequence (CRC-32)       |
 
+</div>
+
 **MAC address:** 48-bit globally unique address. First 24 bits: OUI (organisation). Last 24 bits:
 Device-specific. Broadcast: `FF:FF:FF:FF:FF:FF`. Multicast: least significant bit of the first Octet
 is 1.
 
 **Ethernet evolution:**
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Medium            | Max Segment |
 | ------------ | -------- | ----------------- | ----------- |
@@ -282,6 +292,8 @@ is 1.
 | 10GBASE-LR   | 10 Gbps  | Single-mode fibre | 10 km       |
 | 100GBASE-SR4 | 100 Gbps | Multi-mode fibre  | 70-100 m    |
 | 400GBASE-DR4 | 400 Gbps | Single-mode fibre | 500 m       |
+
+</div>
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
@@ -307,12 +319,16 @@ A **Virtual LAN (VLAN)** logically segments a physical LAN into separate broadca
 
 **802.1Q frame tagging.** A 4-byte tag is inserted after the source MAC address:
 
+<div class="table-wrap">
+
 | Field         | Size    | Description                      |
 | ------------- | ------- | -------------------------------- |
 | TPID          | 16 bits | Tag Protocol Identifier (0x8100) |
 | PCP           | 3 bits  | Priority Code Point (802.1p)     |
 | DEI           | 1 bit   | Drop Eligible Indicator          |
 | VLAN ID (VID) | 12 bits | VLAN identifier (1-4094)         |
+
+</div>
 
 **Trunking.** Links between switches that carry traffic for multiple VLANs. Frames are tagged with
 Their VLAN ID on trunk links.
@@ -339,6 +355,8 @@ does not. $\blacksquare$
 
 **Switch forwarding methods.** A layer-2 switch can forward frames using two strategies:
 
+<div class="table-wrap">
+
 | Aspect             | Store-and-Forward                 | Cut-Through                         |
 | ------------------ | --------------------------------- | ----------------------------------- |
 | Operation          | Receives entire frame first       | Reads destination MAC only          |
@@ -346,6 +364,8 @@ does not. $\blacksquare$
 | Error detection    | Can check FCS before forward      | Cannot check FCS                    |
 | Memory requirement | Must buffer full frame            | Only needs header buffer            |
 | Use case           | General-purpose switching         | Low-latency environments            |
+
+</div>
 
 Where $L$ is the full frame length, $L_h$ is the header length (14 bytes for Ethernet), $R$ is the
 Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.

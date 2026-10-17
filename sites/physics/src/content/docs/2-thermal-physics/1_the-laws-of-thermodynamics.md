@@ -117,12 +117,16 @@ $$
 
 ### 1.5 Thermodynamic Potentials
 
+<div class="table-wrap">
+
 | Potential    | Natural Variables | Differential      | Name                  |
 | ------------ | ----------------- | ----------------- | --------------------- |
 | $U$          | $S, V$            | $dU = TdS - PdV$  | Internal Energy       |
 | $H = U + PV$ | $S, P$            | $dH = TdS + VdP$  | Enthalpy              |
 | $F = U - TS$ | $T, V$            | $dF = -SdT - PdV$ | Helmholtz Free Energy |
 | $G = H - TS$ | $T, P$            | $dG = -SdT + VdP$ | Gibbs Free Energy     |
+
+</div>
 
 **Theorem 1.5.** At equilibrium for a system in contact with a heat bath at temperature $T$: $F$ is
 minimised at constant $T, V$; $G$ is minimised at constant $T, P$.
@@ -197,5 +201,5 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

@@ -59,10 +59,14 @@ flowchart LR
 
 ### Bare vs Non-Bare Repositories
 
+<div class="table-wrap">
+
 | Type                   | Working Directory | Purpose                                       |
 | ---------------------- | ----------------- | --------------------------------------------- |
 | **Non-bare** (default) | Yes               | Developer workstation, edit, commit, push    |
 | **Bare** (`--bare`)    | No                | Server-side repository, receives pushes only |
+
+</div>
 
 A bare repository is just the `.git/` directory without a working tree. It is the standard format
 for remote servers (GitHub, GitLab, Gitea):
@@ -120,10 +124,14 @@ $ git remote set-url origin git@github.com:user/repo.git
 
 ### URLs: HTTPS vs SSH
 
+<div class="table-wrap">
+
 | Protocol  | URL Format                         | Authentication   | Use Case                                     |
 | --------- | ---------------------------------- | ---------------- | -------------------------------------------- |
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
+
+</div>
 :::
 
 :::tip
@@ -345,6 +353,8 @@ git checkout -b main origin/main  # or whatever the default branch is
 
 The clone creates:
 
+<div class="table-wrap">
+
 | Component              | Description                                     |
 | ---------------------- | ----------------------------------------------- |
 | `.git/`                | Full local repository with all objects and refs |
@@ -352,7 +362,11 @@ The clone creates:
 | `origin` remote        | Points to the source URL                        |
 | `main` tracking branch | Tracks `origin/main`                            |
 
+</div>
+
 ### Clone Variants
+
+<div class="table-wrap">
 
 | Variant     | Command               | Use Case                                       |
 | ----------- | --------------------- | ---------------------------------------------- |
@@ -361,6 +375,8 @@ The clone creates:
 | **Sparse**  | `git clone --sparse`  | Monorepos, only specific directories          |
 | **Mirror**  | `git clone --mirror`  | Backup/migration, all refs, bare repository   |
 | **Bare**    | `git clone --bare`    | Server setup, no working directory            |
+
+</div>
 
 ## Remote-Tracking Branches
 

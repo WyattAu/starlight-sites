@@ -44,10 +44,14 @@ Which it has the **lowest opportunity cost**, even if it has an absolute disadva
 _Setup._ Consider two countries, Home and Foreign, producing two goods, Cloth ($C$) and Wine ($W$),
 Using one factor (labour). Unit labour requirements:
 
+<div class="table-wrap">
+
 |             | Cloth (labour per unit) | Wine (labour per unit) |
 | ----------- | ----------------------- | ---------------------- |
 | **Home**    | $a_C = 2$               | $a_W = 4$              |
 | **Foreign** | $a_C = 6$               | $a_W = 3$              |
+
+</div>
 
 Home has absolute advantage in Cloth ($2 \lt 6$). Foreign has absolute advantage in Wine
 ($3 \lt 4$).
@@ -160,6 +164,8 @@ Buy the same quantity of imports as in 2020.
 
 ### 2.4 Factors Affecting the Terms of Trade
 
+<div class="table-wrap">
+
 | Factor                                  | Effect on ToT                                                          |
 | --------------------------------------- | ---------------------------------------------------------------------- |
 | Exchange rate appreciation              | Export prices rise, import prices fall → ToT improves                  |
@@ -167,6 +173,8 @@ Buy the same quantity of imports as in 2020.
 | Rising commodity prices (for importers) | Import prices rise → ToT deteriorates                                  |
 | Inflation differentials                 | If domestic inflation > trading partners' inflation → ToT deteriorates |
 | Technological progress in export sector | Unit costs fall → export prices may fall → ToT deteriorates            |
+
+</div>
 
 :::caution
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
@@ -243,6 +251,8 @@ $$
 e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})
 $$
 
+<div class="table-wrap">
+
 | Factor                   | Mechanism                                                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Relative inflation rates | Higher domestic inflation → exports less competitive, imports more attractive → $e$ rises (depreciation), purchasing power parity (PPP) |
@@ -251,6 +261,8 @@ $$
 | Speculation              | If markets expect depreciation → sell £ → self-fulfilling depreciation                                                                   |
 | Current account balance  | Persistent deficit → downward pressure on currency                                                                                       |
 | Government debt          | High debt → lower confidence → capital outflows → depreciation                                                                           |
+
+</div>
 
 ### 3.4 Purchasing Power Parity (PPP)
 
@@ -453,6 +465,8 @@ work). Always use multiple Indicators.
 
 ### 7.1 Types of Trading Blocs
 
+<div class="table-wrap">
+
 | Type                | Definition                                                     | Example               |
 | ------------------- | -------------------------------------------------------------- | --------------------- |
 | **Free trade area** | No tariffs between members, but each sets own external tariffs | NAFTA/USMCA           |
@@ -460,6 +474,8 @@ work). Always use multiple Indicators.
 | **Common market**   | Customs union + free movement of factors of production         | EU single market      |
 | **Monetary union**  | Common market + single currency + common central bank          | Eurozone              |
 | **Economic union**  | Monetary union + harmonised fiscal and structural policies     | EU (partial)          |
+
+</div>
 
 ### 7.2 Trade Creation vs Trade Diversion
 
@@ -471,6 +487,8 @@ Imports from a member country (due to preferential tariffs). This reduces effici
 
 ### 7.3 Protectionist Policies
 
+<div class="table-wrap">
+
 | Policy                      | Mechanism                                   | Effect                                                   |
 | --------------------------- | ------------------------------------------- | -------------------------------------------------------- |
 | **Tariff**                  | Tax on imports                              | Raises import price → reduces imports, generates revenue |
@@ -478,6 +496,8 @@ Imports from a member country (due to preferential tariffs). This reduces effici
 | **Subsidy**                 | Payment to domestic producers               | Lowers domestic cost → competitive vs imports            |
 | **Administrative barriers** | Health/safety standards, customs procedures | Raises cost/delay of importing                           |
 | **Embargo**                 | Complete ban on imports/exports             | Eliminates trade in the targeted good                    |
+
+</div>
 
 **Welfare analysis of a tariff**:
 
@@ -713,12 +733,16 @@ deteriorate over time relative to manufactured goods exporters, because:
 
 **Types of trading blocs:**
 
+<div class="table-wrap">
+
 | Type            | Definition                                                 | Example               |
 | --------------- | ---------------------------------------------------------- | --------------------- |
 | Free trade area | No tariffs between members, each sets own external tariffs | EFTA                  |
 | Customs union   | No tariffs between members, common external tariff         | EU (as customs union) |
 | Single market   | Free movement of goods, services, capital, and labour      | EU (single market)    |
 | Economic union  | Single market + common fiscal and monetary policy          | Eurozone (partial)    |
+
+</div>
 
 **Trade creation vs trade diversion (Viner, 1950):**
 
@@ -868,12 +892,16 @@ Both countries gain from specialisation and trade based on comparative advantage
 
 **Example.** The Big Mac Index (a light-hearted PPP measure) shows:
 
+<div class="table-wrap">
+
 | Country     | Big Mac price (local currency) | Big Mac price (USD) | Implied PPP  | Actual exchange rate | Over/undervaluation |
 | ----------- | :----------------------------: | :-----------------: | :----------: | :------------------: | :-----------------: |
 | UK          |            GBP 4.50            |        $5.15        | 1.14 GBP/USD |     1.25 GBP/USD     |  9.6% undervalued   |
 | USA         |             $5.15              |        $5.15        |      --      |          --          |         --          |
 | Switzerland |            CHF 7.00            |        $8.05        | 1.36 CHF/USD |     0.87 CHF/USD     |  56.3% overvalued   |
 | Japan       |            JPY 450             |        $3.30        | 87.4 JPY/USD |     136 JPY/USD      |  35.8% undervalued  |
+
+</div>
 
 **Interpretation:**
 
@@ -955,11 +983,15 @@ Globalisation is the story of the world getting more connected, and more complic
 
 **Example.** Three countries form a customs union:
 
+<div class="table-wrap">
+
 | Country           | Wheat price (USD/tonne) | Demand (million tonnes) | Supply (million tonnes) |
 | ----------------- | :---------------------: | :---------------------: | :---------------------: |
 | A (home)          |           100           |           200           |           100           |
 | B (partner)       |           80            |           300           |           200           |
 | C (rest of world) |           60            |           --            |           --            |
+
+</div>
 
 **Before the customs union:** Country A imports from C at
 $60 (cheapest source). Tariff on C: $20/tonne. Price in A: $80.
@@ -1077,12 +1109,16 @@ provides certainty for international trade and investment, which may be benefici
 **Example.** Country A exports copper and imports manufactured goods. The price data (index, 2020 =
 100):
 
+<div class="table-wrap">
+
 | Year | Export price index | Import price index | Terms of trade |
 | :--: | :----------------: | :----------------: | :------------: |
 | 2020 |        100         |        100         |      100       |
 | 2021 |        120         |        105         |     114.3      |
 | 2022 |        150         |        115         |     130.4      |
 | 2023 |        130         |        120         |     108.3      |
+
+</div>
 
 **Terms of trade calculation:**
 $ToT = \frac{\text{Export price}}{\text{Import price}} \times 100$.

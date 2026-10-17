@@ -85,12 +85,16 @@ neutrino species). Any deviation would indicate new light particles.
 
 Phase transitions in the early universe can produce **topological defects**:
 
+<div class="table-wrap">
+
 | Symmetry broken | Defect                 | Dimension |
 | --------------- | ---------------------- | --------- |
 | U(1)            | Global string/monopole | 2D/1D     |
 | U(1) (gauge)    | Local string           | 2D        |
 | SU(2)           | Monopole               | 1D        |
 | SU(3)           | Texture                | 3D        |
+
+</div>
 
 **Cosmic strings** are line-like defects with mass per unit length $\mu \sim \eta^2$ where $\eta$ is
 the symmetry-breaking scale. Their gravitational effects include:
@@ -339,4 +343,4 @@ The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out
 - **[Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

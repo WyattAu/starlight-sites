@@ -24,12 +24,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper       | Notes                                                  |
 | ---------- | ----------- | ------------------------------------------------------ |
 | AQA        | Paper 2     | Groups, further complex, Maclaurin series, further DEs |
 | Edexcel    | FP2         | Series, further complex, 1st/2nd order DEs, conics     |
 | OCR (A)    | Pure Core 2 | Groups, Maclaurin, polar area, vectors, conics         |
 | CIE (9709) | Paper 3     | Complex, vectors, further calculus, conics             |
+
+</div>
 
 :::note
 Ensure full mastery of Further Pure 1 before proceeding.
@@ -394,12 +398,16 @@ $$
 \frac{\text{distance from } P \text{ to focus } F}{\text{distance from } P \text{ to directrix}} = e \quad (\text{eccentricity})
 $$
 
+<div class="table-wrap">
+
 | Conic     | Eccentricity |
 | --------- | ------------ |
 | Circle    | $e = 0$      |
 | Ellipse   | $0 < e < 1$  |
 | Parabola  | $e = 1$      |
 | Hyperbola | $e > 1$      |
+
+</div>
 
 ### 5.2 Parametric Equations
 

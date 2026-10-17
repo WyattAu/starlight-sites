@@ -27,11 +27,15 @@ must be passed to the compiler driver.
 
 The following table outlines the flags required to enable strict C++23 support.
 
+<div class="table-wrap">
+
 | Compiler          | Flag             | Description                                                                                                                               |
 | :---------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Clang 16+**     | `-std=c++23`     | Enables ISO C++23 standard features.                                                                                                      |
 | **GCC 13+**       | `-std=c++23`     | Enables ISO C++23 standard features.                                                                                                      |
 | **MSVC (VS2022)** | `/std:c++latest` | Enables the latest working draft features. <br/>_(Note: `/std:c++23` is available in recent builds but may require specific VS updates)._ |
+
+</div>
 
 ### Extension Flags vs. Strict ISO
 
@@ -339,6 +343,8 @@ Also: Three-way comparison (`<=>`), `std::format`Designated initializers, `std::
 
 ## Compiler Version Support Matrix
 
+<div class="table-wrap">
+
 | Feature | GCC Min | Clang Min | MSVC Min |
 | :------ | :------ | :-------- | :------- |
 | C++11   | 4.8     | 3.3       | VS 2013  |
@@ -347,10 +353,14 @@ Also: Three-way comparison (`<=>`), `std::format`Designated initializers, `std::
 | C++20   | 10.0    | 10.0      | VS 2019  |
 | C++23   | 13.0    | 16.0      | VS 2022  |
 
+</div>
+
 ### Feature-Level Support Details
 
 Different compilers achieve "full" C++23 support at different versions. The table above shows the
 Minimum version for basic support, but some features require newer versions:
+
+<div class="table-wrap">
 
 | C++23 Feature             | GCC Min | Clang Min | MSVC Min | Notes                                     |
 | :------------------------ | :------ | :-------- | :------- | :---------------------------------------- |
@@ -365,6 +375,8 @@ Minimum version for basic support, but some features require newer versions:
 | `deducing this`           | N/A     | 18.0      | N/A      | Explicit object member functions          |
 | `auto` in parameters      | N/A     | N/A       | N/A      | Not yet implemented in any major compiler |
 | `std::format` full spec   | 14.0    | 17.0      | 19.38    | Many format specifiers added in C++23     |
+
+</div>
 
 ## ABI Stability Between Compiler Versions
 
@@ -387,6 +399,8 @@ Incompatible with previously compiled code. Common causes:
 The following table catalogs known ABI-breaking changes introduced by various C++ standards in
 `libstdc++` and `libc++`.
 
+<div class="table-wrap">
+
 | Change                            | Standard | Implementation | Effect                                      |
 | :-------------------------------- | :------- | :------------- | :------------------------------------------ |
 | `std::string` COW to SSO          | C++11    | libstdc++      | Dual ABI; `sizeof(std::string)` changed     |
@@ -397,6 +411,8 @@ The following table catalogs known ABI-breaking changes introduced by various C+
 | `std::shared_ptr` control block   | C++20    | MSVC STL       | Debug-only layout change (IDL sensitive)    |
 | `std::locale::facet` refcount     | C++11    | libstdc++      | Atomic refcount changed layout              |
 | `std::type_info` / RTTI           | C++11    | All            | vtable changes for virtual bases            |
+
+</div>
 
 ### ABI Breakage Examples
 
@@ -450,6 +466,8 @@ Stability since GCC 5.1.
 
 ### Cross-Compiler ABI Compatibility Matrix
 
+<div class="table-wrap">
+
 | Scenario                                                   | Compatible? | Notes                                                |
 | :--------------------------------------------------------- | :---------- | :--------------------------------------------------- |
 | GCC 13 $\leftrightarrow$ GCC 14 (same `-std`)              | Yes         | Same `libstdc++` ABI                                 |
@@ -458,6 +476,8 @@ Stability since GCC 5.1.
 | MSVC 2022 $\leftrightarrow$ MinGW-w64 (Windows)            | **No**      | Different name mangling, exception handling, C++ ABI |
 | GCC Linux $\leftrightarrow$ Clang Linux (`libstdc++`)      |             | Same `libstdc++.so` must be used at runtime          |
 | MSVC 2019 $\leftrightarrow$ MSVC 2022                      |             | MSVC STL aims for ABI stability, but not guaranteed  |
+
+</div>
 
 <Aside type="caution">
 Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same
@@ -679,6 +699,8 @@ This tool checks for:
 Different C++ standard library implementations may implement the same header with different internal
 Types. The following table shows the `sizeof` differences for key types across implementations:
 
+<div class="table-wrap">
+
 | Type                                  | libstdc++ (64-bit) | libc++ (64-bit) | MSVC STL (64-bit) |
 | :------------------------------------ | :----------------- | :-------------- | :---------------- |
 | `sizeof(std::string)`                 | 32                 | 24              | 32                |
@@ -687,6 +709,8 @@ Types. The following table shows the `sizeof` differences for key types across i
 | `sizeof(std::shared_ptr<T>)`          | 16                 | 16              | 16                |
 | `sizeof(std::unique_ptr<T>)`          | 8                  | 8               | 8                 |
 | `sizeof(std::function<void()>)`       | 32                 | 32              | 48                |
+
+</div>
 
 The `std::function` size difference is particularly notable: MSVC STL allocates 48 bytes for the
 Small buffer optimization (SBO), while libstdc++ and libc++ allocate 32 bytes. A `std::function`

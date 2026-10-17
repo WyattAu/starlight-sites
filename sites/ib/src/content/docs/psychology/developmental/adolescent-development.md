@@ -97,12 +97,16 @@ Development:
 
 The intersection of these two dimensions produces four identity statuses:
 
+<div class="table-wrap">
+
 | Status               | Exploration | Commitment | Description                                                                                                                                                                             |
 | -------------------- | ----------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Identity diffusion   | Low         | Low        | No exploration and no commitment. The adolescent has not considered identity options and has not made any commitments.                                                                  |
 | Foreclosure          | Low         | High       | No exploration but firm commitment. The adolescent has adopted an identity prescribed by parents or authority figures without personal exploration.                                     |
 | Moratorium           | High        | Low        | Active exploration without firm commitment. The adolescent is actively considering different options but has not yet made commitments. This corresponds to Erikson's "identity crisis." |
 | Identity achievement | High        | High       | Exploration followed by commitment. The adolescent has actively considered different options and has made firm commitments based on personal exploration. This is the optimal outcome.  |
+
+</div>
 
 **Research findings:**
 

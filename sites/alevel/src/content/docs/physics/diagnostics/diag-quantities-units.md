@@ -357,9 +357,13 @@ and $\phi$ is the work function of the metal surface.
 
 A student obtains the following data:
 
+<div class="table-wrap">
+
 | $f / 10^{14}\,\text{Hz}$ | 5.0             | 6.0             | 7.0             | 8.0             | 9.0             |
 | ------------------------ | --------------- | --------------- | --------------- | --------------- | --------------- |
 | $V_s / \text{V}$         | $0.20 \pm 0.02$ | $0.62 \pm 0.02$ | $1.04 \pm 0.02$ | $1.46 \pm 0.02$ | $1.88 \pm 0.02$ |
+
+</div>
 
 The student plots a graph of $V_s$ against $f$ and determines the gradient as
 $m = (4.2 \pm 0.2) \times 10^{-15}\,\text{V}\,\text{s}$.

@@ -63,12 +63,16 @@ products. (d) Explain why anaerobic respiration is important for yeast in bread-
 (b) In aerobic respiration, the molar ratio of CO$_2$ produced to O$_2$ consumed is 1:1. Therefore,
 O$_2$ consumed $=$ CO$_2$ produced $= 360$ L/hour.
 
+<div class="table-wrap">
+
 | (c)       | Feature                     | Aerobic                 | Anaerobic (animal)      | Anaerobic (yeast) |
 | --------- | --------------------------- | ----------------------- | ----------------------- | ----------------- |
 |  | ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
 |  | Oxygen    | Required                    | Not required            | Not required            |
 |  | Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
 |  | Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
+
+</div>
 
 (d) In **bread-making**, yeast undergoes anaerobic respiration (fermentation), producing CO$_2$ gas.
 The CO$_2$ gets trapped in the dough, causing it to rise (leavening). The ethanol evaporates during
@@ -134,9 +138,13 @@ photosynthesis.
 **Question:** A plant in a sealed container is exposed to light. The net oxygen production rate is
 measured at different light intensities:
 
+<div class="table-wrap">
+
 | Light intensity (arbitrary units) | 0   | 50  | 100 | 200 | 400 |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | Net O$_2$ production (mg/hr)      | -20 | -5  | 10  | 25  | 25  |
+
+</div>
 
 (a) Explain the negative values at low light intensity. (b) Calculate the compensation point (light
 intensity where net O$_2$ production is zero). (c) At what light intensity does photosynthesis

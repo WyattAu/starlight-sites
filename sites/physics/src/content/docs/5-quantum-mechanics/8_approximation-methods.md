@@ -324,6 +324,8 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Perturbation theory always converges | no | the series is asymptotic; for most potentials it diverges for *every* nonzero coupling, and is still useful |
@@ -334,6 +336,8 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 | The variational principle works for excited states | no, not directly | any trial function orthogonal to the exact ground state bounds the first excited state; but you do not know the exact ground state |
 | First-order perturbation theory is always the dominant correction | no | if the matrix element vanishes by symmetry, second order dominates |
 | WKB counts bound states | yes | $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ reproduces the harmonic oscillator and square-well spectra exactly |
+
+</div>
 
 The first row is the one that generalises furthest and surprises people most.
 Asymptotic series get *better* for the first few terms and then diverge, and
@@ -403,7 +407,7 @@ Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
 - **[Variational Methods](/5-quantum-mechanics/11_variational-methods/)**: The variational principle provides a systematic approach to estimating ground state energies.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes

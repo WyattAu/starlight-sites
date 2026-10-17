@@ -81,6 +81,8 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 
 ### 5.5 Key Relationships
 
+<div class="table-wrap">
+
 | Operator type       | Definition                        | Spectrum                          | Example                   |
 | ------------------- | --------------------------------- | --------------------------------- | ------------------------- |
 | Bounded             | $\|Tx\| \leq C\|x\|$              | Any compact set in $\mathbb{C}$  | Identity on $H$          |
@@ -88,6 +90,8 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 | Finite-rank         | $\dim T(H) < \infty$             | Finite set                        | Matrix                    |
 | Self-adjoint        | $T^* = T$                         | Real                              | Schrodinger operator     |
 | Normal              | $T^*T = TT^*$                     | Any compact set                   | Unitary, self-adjoint    |
+
+</div>
 
 ## Cross-References
 

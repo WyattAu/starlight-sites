@@ -97,6 +97,8 @@ Encryption, access controls, and data classification.
 
 Mechanisms that enforce confidentiality:
 
+<div class="table-wrap">
+
 | Mechanism             | Layer          | Example                           |
 | --------------------- | -------------- | --------------------------------- |
 | Encryption at rest    | Storage        | AES-256-GCM on disk, database TDE |
@@ -104,6 +106,8 @@ Mechanisms that enforce confidentiality:
 | Access control lists  | Application    | File permissions, RBAC policies   |
 | Data masking          | Presentation   | Redacting PII in logs             |
 | Classification        | Organizational | Public, internal, confidential    |
+
+</div>
 
 Confidentiality is not binary. A system that encrypts data at rest but logs the plaintext to an
 Unsecured file has failed confidentiality. A system that uses AES-256 but stores the key alongside
@@ -114,6 +118,8 @@ the ciphertext has failed confidentiality. The entire data lifecycle must be con
 Integrity ensures that data has not been altered by unauthorized parties. It covers both malicious
 Tampering and accidental corruption.
 
+<div class="table-wrap">
+
 | Mechanism             | Purpose                                | Example                     |
 | --------------------- | -------------------------------------- | --------------------------- |
 | Cryptographic hashes  | Detect modification                    | SHA-256 file checksums      |
@@ -121,6 +127,8 @@ Tampering and accidental corruption.
 | Version control       | Track authorized changes               | Git commits with signing    |
 | Write-once storage    | Prevent post-write modification        | WORM storage for audit logs |
 | Referential integrity | Database-level consistency enforcement | Foreign key constraints     |
+
+</div>
 
 Integrity failures are often subtler than confidentiality failures. A single bit flip in a
 Configuration file can change a firewall rule. A modified dependency in a supply chain attack can
@@ -132,6 +140,8 @@ Continuous, not one-time.
 Availability ensures that authorized users can access systems and data when needed. It is defended
 against both malicious attacks (DDoS) and operational failures (hardware faults, misconfigurations).
 
+<div class="table-wrap">
+
 | Threat Vector       | Countermeasure                      | Standard       |
 | ------------------- | ----------------------------------- | -------------- |
 | DDoS flooding       | Rate limiting, anycast, scrubbing   | RFC 4732       |
@@ -139,6 +149,8 @@ against both malicious attacks (DDoS) and operational failures (hardware faults,
 | Misconfiguration    | Infrastructure as code, peer review | N/A            |
 | Ransomware          | Backups, immutability, air-gapping  | NIST SP 800-34 |
 | Resource exhaustion | Quotas, auto-scaling, cgroups       | N/A            |
+
+</div>
 
 Availability is the most operationally visible of the three triad elements. When confidentiality or
 Integrity fails silently, you may not know for months. When availability fails, everyone notices
@@ -151,6 +163,8 @@ Threats against a system into six classes, each mapping to a specific security v
 
 ### Threat Categories
 
+<div class="table-wrap">
+
 | Threat                      | STRIDE Category        | Security Impact | Example                                     |
 | --------------------------- | ---------------------- | --------------- | ------------------------------------------- |
 | Impersonating a user        | Spoofing               | Confidentiality | Stolen session token, forged certificate    |
@@ -159,6 +173,8 @@ Threats against a system into six classes, each mapping to a specific security v
 | Exposing information        | Information Disclosure | Confidentiality | Directory traversal, verbose errors         |
 | Denying service             | Denial of Service      | Availability    | SYN flood, resource exhaustion              |
 | Gaining unauthorized access | Elevation of Privilege | All three       | Kernel exploit, privilege escalation        |
+
+</div>
 
 ### Applying STRIDE
 
@@ -183,6 +199,8 @@ graph TD
 
 For the diagram above, a partial STRIDE analysis:
 
+<div class="table-wrap">
+
 | Component  | Spoofing | Tampering | Repudiation | Info Disclosure | DoS | EoP |
 | ---------- | -------- | --------- | ----------- | --------------- | --- | --- |
 | User to LB | Yes      | No        | No          | Yes             | Yes | No  |
@@ -190,6 +208,8 @@ For the diagram above, a partial STRIDE analysis:
 | APP to DB  | No       | Yes       | Yes         | Yes             | Yes | Yes |
 | APP to EXT | Yes      | Yes       | No          | Yes             | Yes | No  |
 | APP to FS  | No       | Yes       | No          | Yes             | Yes | Yes |
+
+</div>
 
 ### Threat Trees
 
@@ -224,6 +244,8 @@ it. Reducing the attack surface is one of the highest-leverage security activiti
 
 ### Categories of Attack Surface
 
+<div class="table-wrap">
+
 | Category      | Examples                                       | Reduction Strategy                     |
 | ------------- | ---------------------------------------------- | -------------------------------------- |
 | Network       | Open ports, APIs, services                     | Close unused ports, firewall rules     |
@@ -231,6 +253,8 @@ it. Reducing the attack surface is one of the highest-leverage security activiti
 | User          | Employees, customers, third-party integrations | Principle of least privilege, training |
 | Physical      | Server room access, USB ports, printed docs    | Access controls, endpoint protection   |
 | Configuration | Default credentials, verbose errors, debug     | Hardening guides, config management    |
+
+</div>
 
 ### Measuring Attack Surface
 
@@ -265,6 +289,8 @@ $$
 
 Where likelihood and impact are each rated on a defined scale. A common 5-point scale:
 
+<div class="table-wrap">
+
 | Rating | Likelihood Description       | Impact Description               |
 | ------ | ---------------------------- | -------------------------------- |
 | 1      | Rare (&lt;1/year)            | Negligible (&lt;1,000 USD)       |
@@ -273,7 +299,11 @@ Where likelihood and impact are each rated on a defined scale. A common 5-point 
 | 4      | Likely (15-50/year)          | Major (100,000-1,000,000 USD)    |
 | 5      | Almost certain (&gt;50/year) | Catastrophic (&gt;1,000,000 USD) |
 
+</div>
+
 ### Risk Matrix
+
+<div class="table-wrap">
 
 | Likelihood / Impact | Negligible (1) | Minor (2) | Moderate (3) | Major (4) | Catastrophic (5) |
 | ------------------- | -------------- | --------- | ------------ | --------- | ---------------- |
@@ -282,6 +312,8 @@ Where likelihood and impact are each rated on a defined scale. A common 5-point 
 | Possible (3)        | 3              | 6         | 9            | 12        | 16               |
 | Unlikely (2)        | 2              | 4         | 6            | 8         | 12               |
 | Rare (1)            | 1              | 2         | 3            | 4         | 8                |
+
+</div>
 
 Risks scoring 15 or above require immediate mitigation. Risks scoring 8-14 require a Mitigation plan
 with defined timelines. Risks below 8 may be accepted with documentation.
@@ -315,6 +347,8 @@ Admin access to the database.
 
 ### Implementation Across Layers
 
+<div class="table-wrap">
+
 | Layer       | Least Privilege Mechanism            | Example                                |
 | ----------- | ------------------------------------ | -------------------------------------- |
 | OS          | User accounts, capabilities, seccomp | Run web server as `nobody`Not root     |
@@ -323,6 +357,8 @@ Admin access to the database.
 | Cloud       | IAM roles, service-linked roles      | Lambda function with scoped S3 access  |
 | Network     | Microsegmentation, network policies  | Pod can only talk to its own backend   |
 | Application | RBAC, feature flags                  | User can edit but not delete           |
+
+</div>
 
 ### Just-in-Time (JIT) Access
 
@@ -415,6 +451,8 @@ Trustworthy.
 
 ### Zero Trust vs VPN Model
 
+<div class="table-wrap">
+
 | Aspect             | VPN Model                  | Zero Trust Model                 |
 | ------------------ | -------------------------- | -------------------------------- |
 | Trust model        | Trust the network          | Trust nothing, verify everything |
@@ -423,6 +461,8 @@ Trustworthy.
 | Authentication     | At connection time         | Continuous                       |
 | Policy enforcement | At perimeter               | At every resource                |
 | Deployment         | VPN concentrator           | Per-application proxies, SASE    |
+
+</div>
 
 ### Implementation Components
 
@@ -493,6 +533,8 @@ Every time data crosses a trust boundary, you must consider:
 In cloud environments, the security boundary between provider and customer is critical. AWS, Azure,
 And GCP each define shared responsibility models, but the general principle is:
 
+<div class="table-wrap">
+
 | Responsibility    | Provider                              | Customer                             |
 | ----------------- | ------------------------------------- | ------------------------------------ |
 | Physical security | Data center, hardware, networking     | N/A                                  |
@@ -501,9 +543,13 @@ And GCP each define shared responsibility models, but the general principle is:
 | Data protection   | Encryption infrastructure             | Encryption keys, data classification |
 | Compliance        | SOC 2, ISO 27001 certification        | Customer-specific compliance         |
 
+</div>
+
 ## OWASP Top 10 Overview
 
 The OWASP Top 10 is a standard awareness document for web application security. The 2021 edition:
+
+<div class="table-wrap">
 
 | #   | Category                                   | Description                                            |
 | --- | ------------------------------------------ | ------------------------------------------------------ |
@@ -517,6 +563,8 @@ The OWASP Top 10 is a standard awareness document for web application security. 
 | A08 | Software and Data Integrity Failures       | Insecure CI/CD, unsigned updates, auto-fill            |
 | A09 | Security Logging and Monitoring Failures   | Insufficient logging, no alerting, missing audit trail |
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into accessing unintended resources     |
+
+</div>
 
 Each of these is covered in detail in subsequent sections. See
 [Web Security](/04-web-security/web-security/) for mitigation details.
@@ -536,13 +584,19 @@ Identifier referenced by vulnerability scanners, package managers, and security 
 CVSS provides a numerical score (0.0-10.0) representing the severity of a vulnerability. CVSS v3.1
 Uses three metric groups:
 
+<div class="table-wrap">
+
 | Metric Group  | Components                                                                          | Purpose                            |
 | ------------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
 | Base          | Attack vector, complexity, privileges required, user interaction, scope, CIA impact | Intrinsic severity (immutable)     |
 | Temporal      | Exploitability, remediation level, report confidence                                | Current state of the vulnerability |
 | Environmental | Modified base metrics, CIA requirements, security requirements                      | Organizational impact              |
 
+</div>
+
 ### Interpreting CVSS Scores
+
+<div class="table-wrap">
 
 | Score Range | Severity | Action                                     |
 | ----------- | -------- | ------------------------------------------ |
@@ -551,6 +605,8 @@ Uses three metric groups:
 | 4.0-6.9     | Medium   | Address within 30-90 days                  |
 | 7.0-8.9     | High     | Address within 7-30 days                   |
 | 9.0-10.0    | Critical | Address immediately (within 24-72 hours)   |
+
+</div>
 
 :::caution
 An internal tool with no network exposure is less urgent than a CVSS 7.5 vulnerability in an
@@ -591,6 +647,8 @@ Required for reconnaissance. But it must never be the sole or primary security c
 Obscurity can serve as an additional layer in a defense-in-depth strategy, but only when backed by
 Real security controls:
 
+<div class="table-wrap">
+
 | Anti-Pattern            | Why It Fails                                        | Proper Alternative                   |
 | ----------------------- | --------------------------------------------------- | ------------------------------------ |
 | Custom crypto algorithm | Not peer-reviewed, almost certainly breakable       | AES, ChaCha20, Ed25519               |
@@ -600,6 +658,8 @@ Real security controls:
 | Custom binary protocols | Wireshark + protocol analysis reveals structure     | TLS + standard protocol              |
 | Removing server headers | Banner grabbing is one of many recon methods        | Harden the service, not the banner   |
 
+</div>
+
 ## Threat Intelligence
 
 Threat intelligence is information about threats and threat actors that helps organizations make
@@ -608,6 +668,8 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 
 ### Types of Threat Intelligence
 
+<div class="table-wrap">
+
 | Type        | Description                                           | Audience            | Example                                               |
 | ----------- | ----------------------------------------------------- | ------------------- | ----------------------------------------------------- |
 | Strategic   | High-level trends, motivations, TTPs of threat actors | Executives, board   | "State-sponsored actors targeting financial services" |
@@ -615,7 +677,11 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 | Tactical    | TTPs (tactics, techniques, procedures)                | Security engineers  | MITRE ATT&CK mapping of recent breach                 |
 | Technical   | IOCs, signatures, YARA rules                          | Analysts, automated | Malware hashes, C2 domains, URLs                      |
 
+</div>
+
 ### Threat Intelligence Sources
+
+<div class="table-wrap">
 
 | Source                               | Type                | Cost      | Use Case                            |
 | ------------------------------------ | ------------------- | --------- | ----------------------------------- |
@@ -626,6 +692,8 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 | Mandiant                             | Strategic, tactical | Paid      | APT tracking, incident analysis     |
 | VirusTotal                           | Technical           | Free/Paid | Malware analysis, hash lookup       |
 | Shodan                               | Technical           | Free/Paid | Internet-facing exposure assessment |
+
+</div>
 
 ### Intelligence-Driven Defense
 
@@ -646,14 +714,20 @@ Effectiveness of security controls and inform resource allocation.
 
 ### Leading vs Lagging Indicators
 
+<div class="table-wrap">
+
 | Type    | Description                                   | Example                                |
 | ------- | --------------------------------------------- | -------------------------------------- |
 | Leading | Predictive, measures effort and preparedness | Percentage of systems with MFA enabled |
 | Lagging | Reactive, measures outcomes after the fact   | Number of breaches in the last year    |
 
+</div>
+
 Leading indicators are more actionable because you can influence them before an incident occurs.
 
 ### Meaningful Security Metrics
+
+<div class="table-wrap">
 
 | Metric                                  | Type    | Why It Matters                                     |
 | --------------------------------------- | ------- | -------------------------------------------------- |
@@ -665,6 +739,8 @@ Leading indicators are more actionable because you can influence them before an 
 | Mean Time to Respond (MTTR)             | Lagging | Measures response effectiveness                    |
 | Number of high/critical vulnerabilities | Lagging | Measures exposure (trending downward is good)      |
 | Failed authentication attempts          | Leading | Indicates brute-force activity and password policy |
+
+</div>
 
 ### Anti-Patterns in Security Metrics
 
@@ -685,6 +761,8 @@ Maintaining adequate protection.
 
 ### Common Trade-off Decisions
 
+<div class="table-wrap">
+
 | Decision                 | Security Benefit           | Convenience Cost               | Typical Resolution                   |
 | ------------------------ | -------------------------- | ------------------------------ | ------------------------------------ |
 | Password rotation        | Limits credential lifetime | User frustration, sticky notes | NIST now discourages forced rotation |
@@ -693,6 +771,8 @@ Maintaining adequate protection.
 | Session timeout          | Limits window of exposure  | Interrupted workflows          | Adaptive timeout by risk             |
 | Code review requirements | Catches vulnerabilities    | Slower deployment              | Automated scanning + review          |
 | Network segmentation     | Limits lateral movement    | Configuration complexity       | Service mesh, policy as code         |
+
+</div>
 
 ### The Cost of Getting It Wrong
 
@@ -721,6 +801,8 @@ Security:
 Security should be integrated into the development lifecycle from the earliest stages, not bolted on
 at the end:
 
+<div class="table-wrap">
+
 | Phase           | Security Activity                               | Output                           |
 | --------------- | ----------------------------------------------- | -------------------------------- |
 | Requirements    | Security requirements, threat model             | Security user stories            |
@@ -731,6 +813,8 @@ at the end:
 | Operations      | Monitoring, incident response, patch management | Operational runbooks             |
 | Decommissioning | Secure data disposal, credential revocation     | Disposal certificate             |
 
+</div>
+
 ## Security Governance
 
 ### Security Policies
@@ -739,6 +823,8 @@ A security policy is a high-level statement of management intent that defines th
 Security objectives and principles. Policies are supported by standards (mandatory requirements),
 Guidelines (recommended practices), and procedures (step-by-step instructions).
 
+<div class="table-wrap">
+
 | Document Type | Purpose                                          | Example                                                         |
 | ------------- | ------------------------------------------------ | --------------------------------------------------------------- |
 | Policy        | What must be done and why (management directive) | "All data classified as confidential must be encrypted at rest" |
@@ -746,16 +832,22 @@ Guidelines (recommended practices), and procedures (step-by-step instructions).
 | Guideline     | What should be done (recommended best practice)  | "Use Argon2id for password hashing"                             |
 | Procedure     | How to do it (step-by-step instructions)         | "How to rotate database credentials"                            |
 
+</div>
+
 ### Risk Register
 
 A risk register is a living document that tracks identified risks, their assessment, and their
 Mitigation status:
+
+<div class="table-wrap">
 
 | Risk ID | Description                        | Likelihood | Impact | Score | Mitigation            | Owner    | Status      |
 | ------- | ---------------------------------- | ---------- | ------ | ----- | --------------------- | -------- | ----------- |
 | R-001   | SQL injection in login endpoint    | 3          | 4      | 12    | Parameterized queries | Dev Lead | In Progress |
 | R-002   | Unencrypted data in S3 bucket      | 2          | 5      | 10    | Enable SSE-S3         | Ops Lead | Mitigated   |
 | R-003   | Stale SSH keys on production hosts | 4          | 3      | 12    | SSH CA, cert rotation | SRE Lead | Open        |
+
+</div>
 
 ### Security Awareness and Culture
 
@@ -764,6 +856,8 @@ Make security a shared responsibility, not a gatekeeping function.
 
 **Effective security awareness programs:**
 
+<div class="table-wrap">
+
 | Approach                     | Why It Works                                             | Why Alternatives Fail               |
 | ---------------------------- | -------------------------------------------------------- | ----------------------------------- |
 | Phishing simulations         | Provides real-time feedback, measures improvement        | One-time training that is forgotten |
@@ -771,6 +865,8 @@ Make security a shared responsibility, not a gatekeeping function.
 | Positive reinforcement       | Rewards good behavior (reporting phishing, MFA adoption) | Punitive "gotcha" culture           |
 | Security champions program   | Embeds security advocates in each team                   | Centralized team as bottleneck      |
 | Metrics and transparency     | Shows improvement over time, builds engagement           | No visibility into progress         |
+
+</div>
 
 The most effective security awareness programs frame security as enabling the business, not
 Constraining it. "This MFA protects you from account takeover" is more effective than "You must use
@@ -786,6 +882,8 @@ Information assets.
 
 The standard follows the Plan-Do-Check-Act (PDCA) cycle:
 
+<div class="table-wrap">
+
 | Phase | Activity                                                    | Output                                 |
 | ----- | ----------------------------------------------------------- | -------------------------------------- |
 | Plan  | Define scope, assess risks, set objectives, select controls | Risk treatment plan, SoA               |
@@ -793,9 +891,13 @@ The standard follows the Plan-Do-Check-Act (PDCA) cycle:
 | Check | Monitor, audit, review effectiveness                        | Audit reports, metrics, incidents      |
 | Act   | Corrective actions, continual improvement                   | Updated policies, improved controls    |
 
+</div>
+
 ### Controls (ISO/IEC 27001 Annex A)
 
 The 2022 revision reorganized controls into four themes:
+
+<div class="table-wrap">
 
 | Theme          | Number of Controls | Examples                                         |
 | -------------- | ------------------ | ------------------------------------------------ |
@@ -803,6 +905,8 @@ The 2022 revision reorganized controls into four themes:
 | People         | 8                  | Screening, terms of employment, training         |
 | Physical       | 14                 | Office security, equipment, clear desk           |
 | Technological  | 34                 | Access control, cryptography, operations         |
+
+</div>
 
 ## Common Pitfalls
 
@@ -973,6 +1077,8 @@ Confidentiality, integrity, authentication, and non-repudiation.
 
 ### Cryptographic Primitives
 
+<div class="table-wrap">
+
 | Primitive                | Purpose                            | Examples               |
 | ------------------------ | ---------------------------------- | ---------------------- |
 | Symmetric encryption     | Confidentiality (high-speed)       | AES, ChaCha20          |
@@ -982,6 +1088,8 @@ Confidentiality, integrity, authentication, and non-repudiation.
 | Digital signatures       | Non-repudiation, authenticity      | RSA-PSS, ECDSA, EdDSA  |
 | Key exchange             | Secure shared secret establishment | Diffie-Hellman, ECDH   |
 | Random number generation | Key material, nonces, salts        | `/dev/urandom`CSPRNG   |
+
+</div>
 
 ### Kerckhoffs's Principle
 
@@ -1005,12 +1113,16 @@ Magnitude faster than asymmetric encryption) and is the standard for bulk data e
 AES is a block cipher selected by NIST in 2001 (FIPS 197) as the successor to DES. It operates on
 128-bit blocks with key sizes of 128, 192, or 256 bits.
 
+<div class="table-wrap">
+
 | Parameter   | AES-128  | AES-192  | AES-256         |
 | ----------- | -------- | -------- | --------------- |
 | Key size    | 128 bits | 192 bits | 256 bits        |
 | Rounds      | 10       | 12       | 14              |
 | Security    | 128-bit  | 192-bit  | 256-bit         |
 | Performance | Fastest  | Moderate | Slightly slower |
+
+</div>
 
 AES is a substitution-permutation network (SPN). Each round applies:
 
@@ -1110,6 +1222,8 @@ ChaCha20-Poly1305 is an AEAD construction that is competitive with AES-GCM but d
 Hardware acceleration. It is the default in TLS 1.3 when AES-NI is not available (e.g., mobile
 Devices).
 
+<div class="table-wrap">
+
 | Property       | AES-256-GCM      | ChaCha20-Poly1305   |
 | -------------- | ---------------- | ------------------- |
 | Key size       | 256 bits         | 256 bits            |
@@ -1118,6 +1232,8 @@ Devices).
 | Hardware accel | AES-NI           | None required       |
 | Software speed | Fast with AES-NI | Fast without AES-NI |
 | Adoption       | Ubiquitous       | TLS 1.3, WireGuard  |
+
+</div>
 
 ### Key Management
 
@@ -1147,11 +1263,15 @@ Encryption at the cost of significantly slower performance.
 RSA (Rivest-Shamir-Adleman, 1977) is based on the computational difficulty of factoring the product
 of two large prime numbers.
 
+<div class="table-wrap">
+
 | Parameter     | Recommended Value                           |
 | ------------- | ------------------------------------------- |
 | Key size      | 2048 bits minimum, 4096 preferred           |
 | Padding       | OAEP (for encryption), PSS (for signatures) |
 | Hash function | SHA-256 or SHA-384                          |
+
+</div>
 
 RSA encryption with OAEP:
 
@@ -1164,12 +1284,16 @@ $q$).
 
 **Key sizes and security levels:**
 
+<div class="table-wrap">
+
 | RSA Key Size | Equivalent Symmetric Security |
 | ------------ | ----------------------------- |
 | 1024 bits    | 80 bits (broken)              |
 | 2048 bits    | 112 bits                      |
 | 3072 bits    | 128 bits                      |
 | 4096 bits    | 150 bits                      |
+
+</div>
 
 RSA key generation is expensive ($O(k^3)$ for key size $k$) and RSA encryption/decryption is orders
 of magnitude slower than AES. RSA is used to encrypt a symmetric key (key encapsulation), Not to
@@ -1180,6 +1304,8 @@ encrypt bulk data directly.
 ECC is based on the algebraic structure of elliptic curves over finite fields. It provides
 Equivalent security to RSA with much smaller key sizes.
 
+<div class="table-wrap">
+
 | Security Level | RSA Key Size | ECC Key Size | Ratio |
 | -------------- | ------------ | ------------ | ----- |
 | 80 bits        | 1024 bits    | 160 bits     | 6.4x  |
@@ -1187,7 +1313,11 @@ Equivalent security to RSA with much smaller key sizes.
 | 192 bits       | 7680 bits    | 384 bits     | 20x   |
 | 256 bits       | 15360 bits   | 521 bits     | 29.5x |
 
+</div>
+
 The most commonly used curves:
+
+<div class="table-wrap">
 
 | Curve             | Key Size | Use Case                          | Standard            |
 | ----------------- | -------- | --------------------------------- | ------------------- |
@@ -1196,6 +1326,8 @@ The most commonly used curves:
 | X25519            | 256 bits | Key exchange (Diffie-Hellman)     | RFC 7748            |
 | Ed25519           | 256 bits | Digital signatures                | RFC 8032            |
 | Curve25519        | 256 bits | Modern alternative to NIST curves | Daniel J. Bernstein |
+
+</div>
 :::
 
 :::note
@@ -1257,6 +1389,8 @@ Following properties:
 
 ### SHA Family
 
+<div class="table-wrap">
+
 | Algorithm | Output Size | Block Size | Rounds | Status                         |
 | --------- | ----------- | ---------- | ------ | ------------------------------ |
 | SHA-1     | 160 bits    | 512 bits   | 80     | Broken (collision found, 2017) |
@@ -1265,6 +1399,8 @@ Following properties:
 | SHA-384   | 384 bits    | 1024 bits  | 80     | Secure                         |
 | SHA-512   | 512 bits    | 1024 bits  | 80     | Secure                         |
 | SHA-3-256 | 256 bits    | 1088 bits  | 24     | Secure (Keccak)                |
+
+</div>
 
 ### SHA-3 (Keccak)
 
@@ -1331,11 +1467,15 @@ hashed = hashlib.scrypt(
 Argon2 is the winner of the Password Hashing Competition (2015) and is recommended by OWASP for new
 Applications.
 
+<div class="table-wrap">
+
 | Variant  | Resistance Target  | Use Case                                   |
 | -------- | ------------------ | ------------------------------------------ |
 | Argon2id | GPU + side-channel | Recommended default                        |
 | Argon2i  | Side-channel       | Threat model includes side-channel attacks |
 | Argon2d  | GPU                | Threat model excludes side-channel attacks |
+
+</div>
 
 ```python
 from argon2 import PasswordHasher
@@ -1354,6 +1494,8 @@ ph.verify(hashed, "correct_horse_battery_staple")  # True
 
 **OWASP recommended parameters (2023):**
 
+<div class="table-wrap">
+
 | Parameter   | Argon2id      | scrypt   | bcrypt              |
 | ----------- | ------------- | -------- | ------------------- |
 | Memory      | 64 MB (65536) | N/A      | N/A                 |
@@ -1361,6 +1503,8 @@ ph.verify(hashed, "correct_horse_battery_staple")  # True
 | Parallelism | 4             | 1        | N/A                 |
 | Salt length | 16 bytes      | 16 bytes | 16 bytes (embedded) |
 | Hash length | 32 bytes      | 32 bytes | 31 characters       |
+
+</div>
 
 ## Message Authentication Codes
 
@@ -1423,11 +1567,15 @@ openssl dgst -sha256 -sigopt rsa_padding_mode:pss -sigopt rsa_pss_saltlen:32 \
 ECDSA (Elliptic Curve Digital Signature Algorithm) provides equivalent security to RSA with much
 Smaller keys. Used extensively in TLS, Bitcoin, and code signing.
 
+<div class="table-wrap">
+
 | Curve | Key Size | Security Level |
 | ----- | -------- | -------------- |
 | P-256 | 256 bits | 128 bits       |
 | P-384 | 384 bits | 192 bits       |
 | P-521 | 521 bits | 256 bits       |
+
+</div>
 
 ECDSA signature verification requires careful implementation. Nonce reuse (signing two different
 Messages with the same nonce) leaks the private key. Use deterministic nonce generation (RFC 6979).
@@ -1451,11 +1599,15 @@ ed25519.Verify(publicKey, message, signature) // true
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Algorithm    | Key Size  | Signature Size | Performance | Security Notes               |
 | ------------ | --------- | -------------- | ----------- | ---------------------------- |
 | RSA-2048-PSS | 256 bytes | 256 bytes      | Slow        | Widely supported, large keys |
 | ECDSA P-256  | 64 bytes  | 64 bytes       | Medium      | Nonce handling critical      |
 | Ed25519      | 32 bytes  | 64 bytes       | Fast        | Deterministic, recommended   |
+
+</div>
 
 ## Key Derivation
 
@@ -1517,6 +1669,8 @@ Keys to identities through a chain of trust.
 
 An X.509 certificate contains:
 
+<div class="table-wrap">
+
 | Field                   | Description                                   |
 | ----------------------- | --------------------------------------------- |
 | Version                 | Certificate format version (v3)               |
@@ -1528,6 +1682,8 @@ An X.509 certificate contains:
 | Subject Public Key Info | The public key and its algorithm              |
 | Extensions              | Key usage, SAN, CRL distribution points, etc. |
 | Signature               | CA's signature over all the above fields      |
+
+</div>
 
 ### Certificate Chains
 
@@ -1551,12 +1707,16 @@ Verifies:
 
 ### Certificate Revocation
 
+<div class="table-wrap">
+
 | Mechanism         | Description                                     | Pros                         | Cons                            |
 | ----------------- | ----------------------------------------------- | ---------------------------- | ------------------------------- |
 | CRL               | CA publishes list of revoked serial numbers     | Simple, offline verification | Can grow large, delayed updates |
 | OCSP              | Real-time query: "is this certificate revoked?" | Fresh status                 | Privacy leak, CA must be online |
 | OCSP Stapling     | Server provides OCSP response with the cert     | No extra request, privacy    | Server must fetch and staple    |
 | Short-lived certs | Certificates valid for hours/days               | Reduces need for revocation  | Requires automation             |
+
+</div>
 
 ### Certificate Transparency (CT)
 
@@ -1600,11 +1760,15 @@ TLS 1.3 improvements over TLS 1.2:
 
 TLS 1.3 simplified cipher suites to:
 
+<div class="table-wrap">
+
 | Cipher Suite                 | KEX   | Auth      | AEAD              |
 | ---------------------------- | ----- | --------- | ----------------- |
 | TLS_AES_256_GCM_SHA384       | ECDHE | RSA/ECDSA | AES-256-GCM       |
 | TLS_CHACHA20_POLY1305_SHA256 | ECDHE | RSA/ECDSA | ChaCha20-Poly1305 |
 | TLS_AES_128_GCM_SHA256       | ECDHE | RSA/ECDSA | AES-128-GCM       |
+
+</div>
 
 In TLS 1.3, the key exchange is always ephemeral Diffie-Hellman (providing forward secrecy), and the
 Cipher suite only specifies the AEAD algorithm and hash function. RSA key exchange and static DH are
@@ -1633,6 +1797,8 @@ Nonces, IVs, and salts.
 
 ### CSPRNG vs PRNG
 
+<div class="table-wrap">
+
 | Property      | PRNG (e.g., Mersenne Twister) | CSPRNG                     |
 | ------------- | ----------------------------- | -------------------------- |
 | Speed         | Fast                          | Slower                     |
@@ -1640,7 +1806,11 @@ Nonces, IVs, and salts.
 | Seeding       | Single seed                   | Continuous entropy from OS |
 | Use case      | Simulations, games            | Cryptographic keys, nonces |
 
+</div>
+
 ### Sources of Entropy
+
+<div class="table-wrap">
 
 | Source                | Entropy Quality | Platform     |
 | --------------------- | --------------- | ------------ |
@@ -1650,6 +1820,8 @@ Nonces, IVs, and salts.
 | `getrandom()` syscall | High            | Linux 3.17+  |
 | RDRAND/RDSEED         | Moderate        | Intel/AMD    |
 | Hardware TRNG         | High            | HSMs, TPMs   |
+
+</div>
 :::
 
 :::caution
@@ -1674,11 +1846,15 @@ AES-128 becomes 64-bit security, SHA-256 preimage resistance becomes 128-bit).
 
 NIST has standardized the following post-quantum algorithms:
 
+<div class="table-wrap">
+
 | Algorithm                   | Type              | Based On      | Status                  |
 | --------------------------- | ----------------- | ------------- | ----------------------- |
 | ML-KEM (CRYSTALS-Kyber)     | Key encapsulation | Lattice-based | Standardized (FIPS 203) |
 | ML-DSA (CRYSTALS-Dilithium) | Digital signature | Lattice-based | Standardized (FIPS 204) |
 | SLH-DSA (SPHINCS+)          | Digital signature | Hash-based    | Standardized (FIPS 205) |
+
+</div>
 
 ### Migration Strategy
 
@@ -1863,6 +2039,8 @@ URL: https://security.wyattau.com/02-cryptography/tls-in-practice/
 
 ### Certificate Authority (CA) Options
 
+<div class="table-wrap">
+
 | Source         | Cost | Validation          | Trust     | Best For                         |
 | -------------- | ---- | ------------------- | --------- | -------------------------------- |
 | Let's Encrypt  | Free | Automated (ACME)    | Universal | Public-facing services           |
@@ -1870,6 +2048,8 @@ URL: https://security.wyattau.com/02-cryptography/tls-in-practice/
 | Self-signed    | Free | None                | Internal  | Development, internal services   |
 | Internal CA    | Free | Internal            | Internal  | Corporate networks               |
 | Cloud provider | Paid | DNS/HTTP validation | Universal | Services hosted on that provider |
+
+</div>
 
 ### Self-Signed Certificates
 
@@ -1941,11 +2121,15 @@ Requirements:
 - DNS propagation time (can be minutes to hours without API access)
 - Works for internal services, wildcard certificates, and servers behind NAT
 
+<div class="table-wrap">
+
 | Challenge   | Port Required | Wildcards | Behind NAT             | Automation           |
 | ----------- | ------------- | --------- | ---------------------- | -------------------- |
 | HTTP-01     | 80            | No        | No (needs public HTTP) | Easy with web server |
 | DNS-01      | None          | Yes       | Yes                    | Requires DNS API     |
 | TLS-ALPN-01 | 443           | No        | No                     | Less common          |
+
+</div>
 
 ### Certbot
 
@@ -2018,6 +2202,8 @@ flowchart LR
 
 ### Key Events
 
+<div class="table-wrap">
+
 | Event      | Description                                           |
 | ---------- | ----------------------------------------------------- |
 | Creation   | Private key generated, CSR created, submitted to CA   |
@@ -2026,6 +2212,8 @@ flowchart LR
 | Rotation   | Old certificate replaced with new one before expiry   |
 | Expiration | Certificate becomes invalid after validity period     |
 | Revocation | CA marks certificate as compromised before expiry     |
+
+</div>
 
 ### Certificate Rotation
 
@@ -2099,6 +2287,8 @@ cat server.crt intermediate.crt > fullchain.pem
 
 ### Key Types
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Performance | Security Level | Recommendation                    |
 | --------- | -------- | ----------- | -------------- | --------------------------------- |
 | RSA       | 2048     | Fast        | 112 bits       | Minimum acceptable                |
@@ -2106,6 +2296,8 @@ cat server.crt intermediate.crt > fullchain.pem
 | ECDSA     | P-256    | Fast        | 128 bits       | Best balance of speed/security    |
 | ECDSA     | P-384    | Moderate    | 192 bits       | Higher security requirement       |
 | Ed25519   | 256 bit  | Fastest     | 128 bits       | Modern, recommended for new certs |
+
+</div>
 
 ```bash
 # RSA 2048
@@ -2250,11 +2442,15 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; prelo
 Forward secrecy ensures that compromising the server's private key does not allow decryption of past
 Sessions. Each session uses a unique ephemeral key exchange.
 
+<div class="table-wrap">
+
 | Key Exchange | Forward Secrecy | Notes                                      |
 | ------------ | --------------- | ------------------------------------------ |
 | RSA          | No              | Key encrypted with server's static RSA key |
 | DHE          | Yes             | Slower, older                              |
 | ECDHE        | Yes             | Faster, recommended                        |
+
+</div>
 
 ```nginx
 # ECDHE is used automatically with modern cipher suites
@@ -2334,12 +2530,16 @@ curl --cert client.crt --key client.key https://example.com/api
 
 ### Use Cases
 
+<div class="table-wrap">
+
 | Use Case                         | Why mTLS                                  |
 | -------------------------------- | ----------------------------------------- |
 | Service-to-service communication | Stronger than API keys, no shared secrets |
 | Internal APIs                    | Replaces VPN for some architectures       |
 | IoT devices                      | Device identity and authentication        |
 | Zero-trust network access        | Identity-based access control             |
+
+</div>
 
 ## Certificate Transparency
 
@@ -2431,12 +2631,16 @@ curl "https://api.ssllabs.com/api/v3/analyze?host=example.com&amp;publish=off&am
 
 Let's Encrypt enforces strict rate limits:
 
+<div class="table-wrap">
+
 | Limit Type              | Restriction                          |
 | ----------------------- | ------------------------------------ |
 | Certificates per domain | 50 per week (per registered domain)  |
 | Failed validations      | 5 per account per hostname per hour  |
 | Duplicate certificates  | 5 per week (same exact set of names) |
 | Registered domains      | 300 per account                      |
+
+</div>
 
 Exceeding these limits blocks certificate issuance. Use the staging environment for testing:
 
@@ -2527,6 +2731,8 @@ These are distinct concerns that are often conflated. A user can be authenticate
 Verified) but not authorized (they lack permission for a specific action). Conversely, a system
 might authorize a request without authentication (anonymous access).
 
+<div class="table-wrap">
+
 | Aspect       | Authentication               | Authorization               |
 | ------------ | ---------------------------- | --------------------------- |
 | Question     | Who are you?                 | What are you allowed to do? |
@@ -2536,9 +2742,13 @@ might authorize a request without authentication (anonymous access).
 | Frequency    | Once per session ()          | Every request               |
 | Revocation   | Invalidate session/token     | Update permissions/policies |
 
+</div>
+
 ## Password Storage
 
 ### How Not to Store Passwords
+
+<div class="table-wrap">
 
 | Method               | Why It Fails                                     |
 | -------------------- | ------------------------------------------------ |
@@ -2548,6 +2758,8 @@ might authorize a request without authentication (anonymous access).
 | SHA-256 without salt | Fast, no salt, vulnerable to rainbow tables      |
 | Base64 encoding      | Not hashing at all, encoding is not encryption  |
 | Custom encryption    | Key management problem shifts the attack surface |
+
+</div>
 
 ### How to Store Passwords
 
@@ -2652,12 +2864,16 @@ def check_pwned_password(password):
 
 MFA requires two or more independent factors from different categories:
 
+<div class="table-wrap">
+
 | Factor Category | Examples                              | Security Level         |
 | --------------- | ------------------------------------- | ---------------------- |
 | Knowledge       | Passwords, PINs, security questions   | Low (phishable)        |
 | Possession      | TOTP apps, hardware keys, phone (SMS) | Medium (varies)        |
 | Inherence       | Biometrics (fingerprint, face, iris)  | Medium (not revocable) |
 | Location        | IP address, geolocation               | Low (spoofable)        |
+
+</div>
 
 ### TOTP (Time-based One-Time Password)
 
@@ -2670,12 +2886,16 @@ $$
 
 Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor$.
 
+<div class="table-wrap">
+
 | Property      | Value                                  |
 | ------------- | -------------------------------------- |
 | Time step     | 30 seconds                             |
 | Code length   | 6 digits (default)                     |
 | Shared secret | 160-bit (Base32)                       |
 | Hash          | HMAC-SHA-1 (default), SHA-256, SHA-512 |
+
+</div>
 
 **Limitations**: TOTP codes are phishable. An attacker can proxy the login page and forward the TOTP
 Code to the real service in real time. TOTP is not a replacement for phishing-resistant MFA.
@@ -2710,12 +2930,16 @@ Key properties:
 
 ### Hardware Security Keys
 
+<div class="table-wrap">
+
 | Key Model   | Protocol Support     | Connector    | Price (approx.) |
 | ----------- | -------------------- | ------------ | --------------- |
 | YubiKey 5   | FIDO2, U2F, OTP, PIV | USB-A/C, NFC | USD 45-55       |
 | YubiKey Bio | FIDO2 (biometric)    | USB-A/C      | USD 80          |
 | Titan Key   | FIDO2, U2F           | USB-A/C, NFC | USD 30-40       |
 | SoloKeys    | FIDO2, U2F           | USB-A/C      | USD 25-50       |
+
+</div>
 
 ### SMS-based 2FA
 
@@ -2731,6 +2955,8 @@ Application to access their resources without sharing their credentials.
 
 ### Core Concepts
 
+<div class="table-wrap">
+
 | Term                 | Definition                                             |
 | -------------------- | ------------------------------------------------------ |
 | Resource Owner       | The user who owns the data (e.g., your Google account) |
@@ -2740,6 +2966,8 @@ Application to access their resources without sharing their credentials.
 | Access Token         | Credential used to access protected resources          |
 | Refresh Token        | Long-lived credential used to obtain new access tokens |
 | Scope                | Defines the level of access requested                  |
+
+</div>
 
 ### Authorization Code Flow (with PKCE)
 
@@ -2824,11 +3052,15 @@ An ID token is a JWT that contains identity claims about the user:
 
 ### Token Types
 
+<div class="table-wrap">
+
 | Token         | Format        | Purpose                                  | Audience             |
 | ------------- | ------------- | ---------------------------------------- | -------------------- |
 | ID Token      | JWT           | Authenticate the user to the client      | Client               |
 | Access Token  | JWT or opaque | Authorize API access                     | Resource Server      |
 | Refresh Token | Opaque        | Obtain new access tokens without re-auth | Authorization Server |
+
+</div>
 
 ### Validation Requirements
 
@@ -2862,6 +3094,8 @@ Scenarios.
 
 ### SAML Components
 
+<div class="table-wrap">
+
 | Component               | Role                                                |
 | ----------------------- | --------------------------------------------------- |
 | Service Provider (SP)   | The application requesting authentication           |
@@ -2869,7 +3103,11 @@ Scenarios.
 | Assertion               | XML statement about the user (identity, attributes) |
 | SAML Response           | XML message containing the assertion                |
 
+</div>
+
 ### SAML vs OIDC
+
+<div class="table-wrap">
 
 | Aspect          | SAML 2.0                       | OIDC                     |
 | --------------- | ------------------------------ | ------------------------ |
@@ -2879,6 +3117,8 @@ Scenarios.
 | Browser support | Redirect/POST bindings         | Simple redirect          |
 | Token format    | SAML assertions (XML)          | JWT                      |
 | Adoption        | Enterprise, legacy systems     | Modern web, cloud-native |
+
+</div>
 
 ### SAML Security Considerations
 
@@ -2933,6 +3173,8 @@ RSASHA256(
 
 ### Registered Claims
 
+<div class="table-wrap">
+
 | Claim | Purpose                       | Required    |
 | ----- | ----------------------------- | ----------- |
 | `iss` | Issuer                        | Recommended |
@@ -2943,7 +3185,11 @@ RSASHA256(
 | `nbf` | Not before                    | Optional    |
 | `jti` | JWT ID (unique identifier)    | Optional    |
 
+</div>
+
 ### Signing Algorithms
+
+<div class="table-wrap">
 
 | Algorithm | Type       | Security Notes                                    |
 | --------- | ---------- | ------------------------------------------------- |
@@ -2952,6 +3198,8 @@ RSASHA256(
 | ES256     | Asymmetric | ECDSA with P-256, smaller signatures             |
 | EdDSA     | Asymmetric | Ed25519, modern, recommended for new systems     |
 | none      | None       | **Insecure**, must be rejected                   |
+
+</div>
 
 ### JWT Validation Checklist
 
@@ -2982,6 +3230,8 @@ Algorithm when validating JWTs, and never accept `none`.
 
 ### Cookies vs Tokens
 
+<div class="table-wrap">
+
 | Aspect         | Server-Side Sessions (Cookies) | Token-Based (JWT)                   |
 | -------------- | ------------------------------ | ----------------------------------- |
 | State          | Server-side session store      | Stateless (state in token)          |
@@ -2992,11 +3242,15 @@ Algorithm when validating JWTs, and never accept `none`.
 | XSS            | Token theft risk               | Token theft risk                    |
 | Mobile support | Complex (cookie management)    | Simpler                             |
 
+</div>
+
 ### Secure Cookie Attributes
 
 ```http
 Set-Cookie: session_id=abc123; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Age=3600; Domain=.example.com
 ```
+
+<div class="table-wrap">
 
 | Attribute  | Purpose                                                    |
 | ---------- | ---------------------------------------------------------- |
@@ -3007,13 +3261,19 @@ Set-Cookie: session_id=abc123; Secure; HttpOnly; SameSite=Strict; Path=/; Max-Ag
 | `Domain`   | Limits cookie to specific domain and subdomains            |
 | `Max-Age`  | Cookie expiration in seconds                               |
 
+</div>
+
 ### SameSite Attribute
+
+<div class="table-wrap">
 
 | Value    | Behavior                                                               | Use Case                                       |
 | -------- | ---------------------------------------------------------------------- | ---------------------------------------------- |
 | `Strict` | Cookie not sent on cross-site requests at all                          | Banking, internal tools                        |
 | `Lax`    | Cookie sent on top-level navigations (GET), not on cross-site POST/PUT | Most applications (default in modern browsers) |
 | `None`   | Cookie sent on all cross-site requests (requires `Secure`)             | Third-party integrations                       |
+
+</div>
 
 ## RBAC vs ABAC
 
@@ -3078,12 +3338,16 @@ permit(
 
 **Attributes used in evaluation:**
 
+<div class="table-wrap">
+
 | Attribute Source | Examples                                 |
 | ---------------- | ---------------------------------------- |
 | Subject          | Department, clearance level, location    |
 | Resource         | Classification, owner, creation date     |
 | Action           | Type (read/write/delete), time of day    |
 | Environment      | IP address, device posture, threat level |
+
+</div>
 
 **Advantages**: Fine-grained, context-aware, reduces role explosion. Well-suited for complex,
 Dynamic environments (cloud, microservices).
@@ -3100,12 +3364,16 @@ Fine-grained decisions (attribute checks within a role).
 
 ### Best Practices by Client Type
 
+<div class="table-wrap">
+
 | Client Type       | Storage Method                               | Risks                            |
 | ----------------- | -------------------------------------------- | -------------------------------- |
 | Server-side (web) | HttpOnly, Secure, SameSite cookie            | Lowest risk, JS cannot access   |
 | SPA (browser)     | In-memory only, or HttpOnly cookie           | XSS exfiltrates in-memory tokens |
 | Mobile (native)   | OS keychain (iOS Keychain, Android Keystore) | Malware, jailbroken devices      |
 | Desktop (native)  | OS credential store                          | Similar to mobile                |
+
+</div>
 
 ### Token Storage Anti-Patterns
 
@@ -3225,6 +3493,8 @@ graph TD
 
 Microservices must authenticate each other. Common patterns:
 
+<div class="table-wrap">
+
 | Pattern              | Mechanism                          | Complexity | Revocation               |
 | -------------------- | ---------------------------------- | ---------- | ------------------------ |
 | Shared secret        | API key, HMAC                      | Low        | Rotation required        |
@@ -3233,9 +3503,13 @@ Microservices must authenticate each other. Common patterns:
 | Service mesh (Istio) | Automatic mTLS via sidecar proxy   | High       | Config-driven            |
 | Broker pattern       | Central auth broker issues tokens  | Medium     | Broker-managed           |
 
+</div>
+
 ### Credential Rotation Strategy
 
 All credentials should be rotated regularly. The strategy depends on the credential type:
+
+<div class="table-wrap">
 
 | Credential Type        | Rotation Frequency                     | Automation Approach                |
 | ---------------------- | -------------------------------------- | ---------------------------------- |
@@ -3246,9 +3520,13 @@ All credentials should be rotated regularly. The strategy depends on the credent
 | Service account tokens | 24 hours                               | Short-lived tokens from IdP        |
 | Encryption keys        | Annual (or on suspicion of compromise) | Key management service (KMS)       |
 
+</div>
+
 ### Passwordless Authentication
 
 Passwordless authentication eliminates passwords entirely, replacing them with stronger factors:
+
+<div class="table-wrap">
 
 | Method            | How It Works                               | Security Level |
 | ----------------- | ------------------------------------------ | -------------- |
@@ -3256,6 +3534,8 @@ Passwordless authentication eliminates passwords entirely, replacing them with s
 | Magic links       | One-time login link sent to verified email | Medium         |
 | Push notification | Mobile app notification with approve/deny  | High           |
 | SMS OTP           | One-time code via SMS (deprecated)         | Low            |
+
+</div>
 
 Passkeys (synced FIDO2 credentials) are the most promising approach for consumer applications. They
 Use public-key cryptography stored in the device's secure enclave, synced across devices via cloud
@@ -3304,12 +3584,16 @@ Identity federation allows users authenticated by one IdP to access resources in
 Organization without creating a new account. This is common in B2B scenarios, academic institutions,
 And government agencies.
 
+<div class="table-wrap">
+
 | Federation Protocol | Use Case               | Example                                   |
 | ------------------- | ---------------------- | ----------------------------------------- |
 | SAML 2.0            | Enterprise B2B         | Company A employees access Company B app  |
 | OIDC Federation     | Cloud-to-cloud         | AWS accepts Google Workspace identities   |
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
+
+</div>
 :::
 
 :::note
@@ -3441,12 +3725,16 @@ Credentials. OAuth 2.0 is not an authentication protocol -- it delegates authori
 
 ### Roles
 
+<div class="table-wrap">
+
 | Role                 | Description                                                              |
 | -------------------- | ------------------------------------------------------------------------ |
 | Resource Owner       | The user who owns the data (e.g., a Google account holder)               |
 | Client               | The application requesting access (e.g., a mobile app)                   |
 | Authorization Server | Issues access tokens after authenticating the user and obtaining consent |
 | Resource Server      | The API that holds the protected resources (e.g., Google API)            |
+
+</div>
 
 ```mermaid
 flowchart LR
@@ -3517,6 +3805,8 @@ function base64URLEncode(buffer) {
 // Step 4: Send code_verifier in token request (server verifies challenge)
 ```
 
+<div class="table-wrap">
+
 | Step                 | What Happens                                           |
 | -------------------- | ------------------------------------------------------ |
 | 1. Generate verifier | Client creates random `code_verifier`                  |
@@ -3524,6 +3814,8 @@ function base64URLEncode(buffer) {
 | 3. Authorization     | Client sends `code_challenge` to auth server           |
 | 4. Token exchange    | Client sends `code_verifier` to auth server            |
 | 5. Verification      | Server verifies `SHA256(verifier) == challenge`        |
+
+</div>
 
 ### Authorization Code Flow Step-by-Step
 
@@ -3601,19 +3893,27 @@ For devices with limited input capability (CLI tools, IoT devices, smart TVs):
 
 ### Deprecated Grants
 
+<div class="table-wrap">
+
 | Grant                   | Why Deprecated                 | Replacement               |
 | ----------------------- | ------------------------------ | ------------------------- |
 | Implicit                | Token exposed in URL fragment  | Authorization Code + PKCE |
 | Resource Owner Password | Credentials shared with client | Authorization Code + PKCE |
 
+</div>
+
 ## Access Tokens
 
 ### JWT vs Opaque Tokens
+
+<div class="table-wrap">
 
 | Format | Self-Contained | Revocation               | Performance                        | Use Case                          |
 | ------ | -------------- | ------------------------ | ---------------------------------- | --------------------------------- |
 | JWT    | Yes            | Difficult (short TTL)    | Fast (no introspection needed)     | Stateless APIs, microservices     |
 | Opaque | No             | Easy (delete from store) | Requires introspection per request | APIs with strict revocation needs |
+
+</div>
 
 ### JWT Structure
 
@@ -3625,6 +3925,8 @@ SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c   # Signature
 
 ### Common JWT Claims
 
+<div class="table-wrap">
+
 | Claim   | Meaning                       | Example                    |
 | ------- | ----------------------------- | -------------------------- |
 | `iss`   | Issuer                        | `https://auth.example.com` |
@@ -3634,6 +3936,8 @@ SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c   # Signature
 | `iat`   | Issued at                     | `1700000000`               |
 | `jti`   | JWT ID (unique identifier)    | `abc123def456`             |
 | `scope` | Granted scopes/permissions    | `read:users write:orders`  |
+
+</div>
 
 ### Token Validation Checklist
 
@@ -3716,6 +4020,8 @@ Authentication (verifying who the user is) in addition to authorization.
 
 ### OIDC Endpoints
 
+<div class="table-wrap">
+
 | Endpoint                            | Purpose                                             |
 | ----------------------------------- | --------------------------------------------------- |
 | `/authorize`                        | Authentication request (same as OAuth 2.0)          |
@@ -3723,6 +4029,8 @@ Authentication (verifying who the user is) in addition to authorization.
 | `/userinfo`                         | Get user profile information                        |
 | `/jwks`                             | JSON Web Key Set (public keys for JWT verification) |
 | `/.well-known/openid-configuration` | OIDC discovery document                             |
+
+</div>
 
 ### id_token
 
@@ -3744,6 +4052,8 @@ The `id_token` is a JWT that contains identity claims about the authenticated us
 
 ### OIDC Scopes and Claims
 
+<div class="table-wrap">
+
 | Scope     | Claims Returned                          |
 | --------- | ---------------------------------------- |
 | `openid`  | `sub` (required for all OIDC flows)      |
@@ -3751,6 +4061,8 @@ The `id_token` is a JWT that contains identity claims about the authenticated us
 | `email`   | `email``email_verified`                  |
 | `address` | `address` (formatted address object)     |
 | `phone`   | `phone_number``phone_number_verified`    |
+
+</div>
 
 ### OIDC Flows
 
@@ -3766,12 +4078,16 @@ Interception via URL history, referrer headers, and browser extensions.
 
 ### Storage
 
+<div class="table-wrap">
+
 | Location          | Vulnerable to XSS? | Vulnerable to CSRF?         | Recommendation                    |
 | ----------------- | ------------------ | --------------------------- | --------------------------------- |
 | `localStorage`    | Yes                | No                          | Never use for sensitive tokens    |
 | `sessionStorage`  | Yes                | No                          | Never use for sensitive tokens    |
 | `httpOnly` cookie | No                 | Yes (mitigated by SameSite) | Recommended for web apps          |
 | In-memory (SPA)   | No (until refresh) | N/A                         | Good for SPAs with silent refresh |
+
+</div>
 
 ```javascript
 // Recommended: httpOnly cookie for tokens (set by server)
@@ -3912,6 +4228,8 @@ Always use `S256` (SHA-256) as the challenge method.
 
 OAuth 2.1 (draft) consolidates best practices from OAuth 2.0 security BCPs:
 
+<div class="table-wrap">
+
 | Change                        | Impact                                         |
 | ----------------------------- | ---------------------------------------------- |
 | Implicit grant removed        | All clients must use authorization code + PKCE |
@@ -3920,6 +4238,8 @@ OAuth 2.1 (draft) consolidates best practices from OAuth 2.0 security BCPs:
 | Redirect URI must use HTTPS   | HTTP redirect URIs no longer allowed           |
 | Exact redirect URI matching   | No partial/path-based matching                 |
 | Sender-constrained tokens     | DPoP or mTLS for proof-of-possession           |
+
+</div>
 
 ## Common Pitfalls
 
@@ -4141,12 +4461,16 @@ server {
 }
 ```
 
+<div class="table-wrap">
+
 | Method       | Security Level | Best For                          |
 | ------------ | -------------- | --------------------------------- |
 | API Key      | Low            | Internal services, prototyping    |
 | Bearer Token | High           | User-facing APIs, microservices   |
 | HMAC         | High           | API gateways, financial APIs      |
 | mTLS         | Very High      | Service mesh, zero-trust networks |
+
+</div>
 
 ## Authorization
 
@@ -4274,11 +4598,15 @@ X-RateLimit-Reset: 1700000000
 Retry-After: 30
 ```
 
+<div class="table-wrap">
+
 | Strategy       | Per-User | Per-IP | Notes                              |
 | -------------- | -------- | ------ | ---------------------------------- |
 | Token bucket   | Yes      | Yes    | Smooth rate, burst allowed         |
 | Sliding window | Yes      | Yes    | Precise, memory-intensive          |
 | Fixed window   | Yes      | Yes    | Simple, burst at window boundaries |
+
+</div>
 :::
 
 :::note
@@ -4363,11 +4691,15 @@ CORS(app, origins=ALLOWED_ORIGINS, methods=['GET', 'POST', 'PUT', 'DELETE'],
 
 ## API Versioning
 
+<div class="table-wrap">
+
 | Strategy        | Example                               | Pros            | Cons                   |
 | --------------- | ------------------------------------- | --------------- | ---------------------- |
 | URL path        | `/api/v1/orders`                      | Simple, visible | URL changes            |
 | Header          | `Accept: application/vnd.api.v1+json` | Clean URLs      | Hidden, harder to test |
 | Query parameter | `/api/orders?version=1`               | Easy to add     | Cache-busting issues   |
+
+</div>
 
 ```python
 # URL path versioning (recommended for most APIs)
@@ -4432,10 +4764,14 @@ def list_orders():
     })
 ```
 
+<div class="table-wrap">
+
 | Method | Performance at page 10000 | Consistency on inserts/deletes | URL bookmarkable    |
 | ------ | ------------------------- | ------------------------------ | ------------------- |
 | Offset | Slow (scans 10000+ rows)  | Unstable (rows shift)          | Yes                 |
 | Cursor | Fast (index lookup)       | Stable (deterministic)         | No (cursor changes) |
+
+</div>
 
 ## Idempotency Keys
 
@@ -4514,6 +4850,8 @@ API Gateway responsibilities:
 
 ### Gateway Implementation Options
 
+<div class="table-wrap">
+
 | Option          | Complexity | Customization      | Use Case                     |
 | --------------- | ---------- | ------------------ | ---------------------------- |
 | Kong            | Medium     | High (Lua plugins) | Large-scale, extensible      |
@@ -4521,6 +4859,8 @@ API Gateway responsibilities:
 | Envoy           | High       | Very High          | Service mesh, gRPC           |
 | Nginx           | Medium     | High               | General purpose, lightweight |
 | Traefik         | Low        | Medium             | Container environments       |
+
+</div>
 
 ## GraphQL Security
 
@@ -4812,12 +5152,16 @@ def download():
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Tool / Approach                      |
 | --------------------- | ------------------------------------ |
 | Automated scanning    | OWASP ZAP, Burp Suite Pro            |
 | Manual testing        | Modify IDs, roles, paths in requests |
 | Code review           | Check for missing authorization      |
 | Access control matrix | Document and test all routes         |
+
+</div>
 
 :::tip
 Authentication by default, with explicit opt-in for public routes. This prevents the most common
@@ -4891,12 +5235,16 @@ server {
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                 | Approach                                             |
 | ---------------------- | ---------------------------------------------------- |
 | Credential scanning    | TruffleHog, git-secrets, detect-secrets              |
 | TLS configuration      | SSL Labs, testssl.sh, nmap --script ssl-enum-ciphers |
 | Password storage audit | Code review for hashing algorithm used               |
 | Transport security     | Verify TLS 1.2+, HSTS, no mixed content              |
+
+</div>
 
 ## A03: Injection
 
@@ -4966,12 +5314,16 @@ ldap_filter = f"(uid={safe_username})"
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Tool / Approach                                       |
 | --------------------- | ----------------------------------------------------- |
 | Automated scanning    | SQLMap, OWASP ZAP, Burp Suite                         |
 | SAST                  | Semgrep, CodeQL, Bandit (Python)                      |
 | Parameterized queries | Use prepared statements for ALL database interactions |
 | Input validation      | Whitelist allowed characters/values                   |
+
+</div>
 
 ## A04: Insecure Design
 
@@ -5006,12 +5358,16 @@ Secure design checklist:
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                | Approach                                         |
 | --------------------- | ------------------------------------------------ |
 | Threat modeling       | STRIDE, DREAD, attack trees                      |
 | Abuse cases           | Define what an attacker SHOULD NOT be able to do |
 | Security requirements | NIST SP 800-53, OWASP ASVS                       |
 | Design review         | Security-focused architecture review             |
+
+</div>
 
 ## A05: Security Misconfiguration
 
@@ -5066,12 +5422,16 @@ def handle_error(e):
 
 ### Detection and Remediation
 
+<div class="table-wrap">
+
 | Method                  | Approach                         |
 | ----------------------- | -------------------------------- |
 | Configuration audit     | CIS benchmarks, SCAP             |
 | Directory/file scanning | DirBuster, gobuster, ffuf        |
 | Header scanning         | SecurityHeaders.com, Observatory |
 | Automated compliance    | InSpec, Open Policy Agent        |
+
+</div>
 
 ## A06: Vulnerable and Outdated Components
 
@@ -5164,6 +5524,8 @@ def login():
 
 ### Brute Force Prevention
 
+<div class="table-wrap">
+
 | Defense                     | Implementation                         |
 | --------------------------- | -------------------------------------- |
 | Rate limiting               | Per-IP and per-account limits          |
@@ -5172,6 +5534,8 @@ def login():
 | MFA                         | TOTP, WebAuthn, push notification      |
 | Progressive delay           | Exponential backoff on failed attempts |
 | Breached password detection | Check against HaveIBeenPwned API       |
+
+</div>
 
 ### Session Fixation
 
@@ -5458,6 +5822,8 @@ URL: https://security.wyattau.com/04-web-security/web-security/
 The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition
 Reflects the shift toward cloud-native architectures and API-driven applications.
 
+<div class="table-wrap">
+
 | #   | Category                                   | Root Cause                                            |
 | --- | ------------------------------------------ | ----------------------------------------------------- |
 | A01 | Broken Access Control                      | Missing authorization checks, IDOR                    |
@@ -5471,6 +5837,8 @@ Reflects the shift toward cloud-native architectures and API-driven applications
 | A09 | Security Logging and Monitoring Failures   | Insufficient logging, no alerting                     |
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into making unauthorized requests      |
 
+</div>
+
 ## Cross-Site Scripting (XSS)
 
 XSS occurs when an application includes untrusted data in a web page without proper validation or
@@ -5478,11 +5846,15 @@ Escaping, allowing an attacker to execute scripts in the victim"s browser.
 
 ### Types of XSS
 
+<div class="table-wrap">
+
 | Type      | Storage Location            | Execution Context            | Difficulty |
 | --------- | --------------------------- | ---------------------------- | ---------- |
 | Reflected | URL parameters, form inputs | Response HTML                | Medium     |
 | Stored    | Database, user content      | When content is rendered     | High       |
 | DOM-based | Client-side JavaScript      | Client-side DOM manipulation | Medium     |
+
+</div>
 
 ### Reflected XSS
 
@@ -5528,6 +5900,8 @@ document.getElementById('output').innerHTML = userInput;
 
 **Primary defense: Output encoding.** Encode data based on the context where it appears:
 
+<div class="table-wrap">
+
 | Context        | Encoding Required    | Example                                 |
 | -------------- | -------------------- | --------------------------------------- |
 | HTML body      | HTML entity encoding | `&lt;script&gt;` → `&lt;script&gt;`     |
@@ -5535,6 +5909,8 @@ document.getElementById('output').innerHTML = userInput;
 | JavaScript     | JavaScript encoding  | `</script>` → `\x3c/script\x3e`         |
 | URL            | URL encoding         | `javascript:` → `javascript%3A`         |
 | CSS            | CSS encoding         | `expression()` → `\65xpression()`       |
+
+</div>
 
 ```javascript
 // Using a templating engine with auto-escaping (safe)
@@ -5575,12 +5951,16 @@ sequenceDiagram
 
 ### CSRF Prevention
 
+<div class="table-wrap">
+
 | Defense                    | Mechanism                                            | Effectiveness       |
 | -------------------------- | ---------------------------------------------------- | ------------------- |
 | SameSite cookie attribute  | Browser does not send cookies on cross-site requests | Strong (Lax/Strict) |
 | CSRF token                 | Hidden form field validated on submission            | Strong              |
 | Custom request header      | JavaScript sets header, cross-origin cannot          | Strong (API-only)   |
 | Requiring user interaction | Re-authentication for sensitive actions              | Strong              |
+
+</div>
 
 **SameSite cookies** are the primary defense for modern applications:
 
@@ -5670,6 +6050,8 @@ cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (usern
 user = User.query.filter_by(username=username, password_hash=hash).first()
 ```
 
+<div class="table-wrap">
+
 | Language/Framework  | Safe Method                                                 |
 | ------------------- | ----------------------------------------------------------- |
 | Python (sqlite3)    | `cursor.execute("SELECT * FROM users WHERE id = ?", (id,))` |
@@ -5678,6 +6060,8 @@ user = User.query.filter_by(username=username, password_hash=hash).first()
 | Node.js (pg)        | `client.query("SELECT * FROM users WHERE id = $1", [id])`   |
 | Go (database/sql)   | `db.Query("SELECT * FROM users WHERE id = ?", id)`          |
 | PHP (PDO)           | `$stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?")` |
+
+</div>
 
 **Additional defenses:**
 
@@ -5709,6 +6093,8 @@ sequenceDiagram
 
 ### CORS Headers
 
+<div class="table-wrap">
+
 | Header                             | Purpose                                       |
 | ---------------------------------- | --------------------------------------------- |
 | `Access-Control-Allow-Origin`      | Which origins can access the resource         |
@@ -5718,13 +6104,19 @@ sequenceDiagram
 | `Access-Control-Max-Age`           | How long the preflight result can be cached   |
 | `Access-Control-Expose-Headers`    | Which response headers the browser can expose |
 
+</div>
+
 ### CORS Misconfigurations
+
+<div class="table-wrap">
 
 | Misconfiguration                                  | Risk                                            |
 | ------------------------------------------------- | ----------------------------------------------- |
 | `Access-Control-Allow-Origin: *` with credentials | Any site can make authenticated requests        |
 | Reflecting `Origin` header without validation     | Any origin is allowed                           |
 | `null` origin allowed                             | Sandboxed iframes and redirects can bypass CORS |
+
+</div>
 
 ```javascript
 // VULNERABLE, reflecting origin without validation
@@ -5748,6 +6140,8 @@ It is a defense-in-depth mechanism against XSS and data injection.
 
 ### CSP Directives
 
+<div class="table-wrap">
+
 | Directive                   | Purpose                              | Example                            |
 | --------------------------- | ------------------------------------ | ---------------------------------- |
 | `default-src`               | Fallback for other resource types    | `'self'`                           |
@@ -5762,6 +6156,8 @@ It is a defense-in-depth mechanism against XSS and data injection.
 | `form-action`               | Allowed form submission targets      | `'self'`                           |
 | `frame-ancestors`           | Who can embed this page in a frame   | `'none'`                           |
 | `upgrade-insecure-requests` | Automatically upgrade HTTP to HTTPS  | N/A                                |
+
+</div>
 
 ### Example CSP Policy
 
@@ -5854,6 +6250,8 @@ Attacker to manipulate application logic or execute arbitrary code.
 
 ### Affected Formats
 
+<div class="table-wrap">
+
 | Format             | Languages             | Risk Level       |
 | ------------------ | --------------------- | ---------------- |
 | Java Serialization | Java                  | Critical (RCE)   |
@@ -5861,6 +6259,8 @@ Attacker to manipulate application logic or execute arbitrary code.
 | YAML (unsafe load) | Python, Ruby, Node.js | Critical (RCE)   |
 | JSON               | Most languages        | Low ( data-only) |
 | XML                | Java, .NET, Node.js   | High (XXE)       |
+
+</div>
 
 ```python
 # VULNERABLE, deserializing untrusted pickle data
@@ -5890,6 +6290,8 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 
 ### Common SSRF Targets
 
+<div class="table-wrap">
+
 | Target                    | URL Pattern                                           |
 | ------------------------- | ----------------------------------------------------- |
 | AWS metadata              | `http://169.254.169.254/latest/meta-data/`            |
@@ -5899,7 +6301,11 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 | Redis                     | `dict://127.0.0.1:6379/CONFIG SET ...`                |
 | File access (via file://) | `file:///etc/passwd`                                  |
 
+</div>
+
 ### SSRF Prevention
+
+<div class="table-wrap">
 
 | Defense                        | Implementation                                                |
 | ------------------------------ | ------------------------------------------------------------- |
@@ -5908,6 +6314,8 @@ This can expose internal services, cloud metadata endpoints, and sensitive inter
 | Disable unnecessary schemes    | Block `file://``gopher://``dict://`                           |
 | Use network segmentation       | Application server cannot reach internal services directly    |
 | Cloud metadata protection      | Use IMDSv2 on AWS, require signed headers on GCP              |
+
+</div>
 
 ```python
 from urllib.parse import urlparse
@@ -5997,6 +6405,8 @@ Cross-Origin-Resource-Policy: same-origin
 Cross-Origin-Embedder-Policy: require-corp
 ```
 
+<div class="table-wrap">
+
 | Header                       | Purpose                          | Browser Support |
 | ---------------------------- | -------------------------------- | --------------- |
 | `X-Content-Type-Options`     | Prevents MIME type sniffing      | All             |
@@ -6006,6 +6416,8 @@ Cross-Origin-Embedder-Policy: require-corp
 | `Referrer-Policy`            | Controls referrer header leakage | All             |
 | `Permissions-Policy`         | Controls browser feature access  | Modern          |
 | `Cross-Origin-Opener-Policy` | Isolates browsing context group  | Modern          |
+
+</div>
 
 ## Input Validation vs Output Encoding
 
@@ -6034,6 +6446,8 @@ def render_comment(comment_text):
     return f"<div class='comment'>{html.escape(comment_text)}</div>"
 ```
 
+<div class="table-wrap">
+
 | Concern                | Input Validation         | Output Encoding           |
 | ---------------------- | ------------------------ | ------------------------- |
 | Purpose                | Data quality             | Safe rendering            |
@@ -6041,6 +6455,8 @@ def render_comment(comment_text):
 | What it checks         | Format, length, type     | Context-specific escaping |
 | Prevents               | Bad data, some injection | XSS in all contexts       |
 | Can replace the other? | No                       | No                        |
+
+</div>
 
 Both are necessary. Input validation alone does not prevent XSS (valid input can contain HTML).
 Output encoding alone does not prevent all injection (SQL injection is not an output encoding
@@ -6083,6 +6499,8 @@ mvn org.owasp:dependency-check-maven:check
 
 ### Software Composition Analysis (SCA) Tools
 
+<div class="table-wrap">
+
 | Tool       | Language(s) | Integration     |
 | ---------- | ----------- | --------------- |
 | Snyk       | Most        | CI/CD, IDE, CLI |
@@ -6091,12 +6509,16 @@ mvn org.owasp:dependency-check-maven:check
 | Trivy      | Most        | CLI, CI/CD      |
 | Grype      | Most        | CLI             |
 
+</div>
+
 ## Subdomain Takeover
 
 Subdomain takeover occurs when a DNS record points to a resource that has been deprovisioned or
 Deleted. An attacker can claim the resource and serve content on the subdomain.
 
 ### Common Vulnerable Services
+
+<div class="table-wrap">
 
 | Service            | Detection Indicator                       |
 | ------------------ | ----------------------------------------- |
@@ -6106,6 +6528,8 @@ Deleted. An attacker can claim the resource and serve content on the subdomain.
 | Azure Blob Storage | CNAME to `*.blob.core.windows.net`        |
 | CloudFront         | CNAME to `*.cloudfront.net`               |
 | Vercel/Netlify     | CNAME to `*.vercel.app` / `*.netlify.app` |
+
+</div>
 
 ### Prevention
 
@@ -6181,6 +6605,8 @@ Tracing). The `DELETE` and `PUT` methods must require authentication and authori
 
 ### Testing Types
 
+<div class="table-wrap">
+
 | Type                                     | Abbreviation | When                | What It Finds                                       |
 | ---------------------------------------- | ------------ | ------------------- | --------------------------------------------------- |
 | Static Application Security Testing      | SAST         | During development  | Code-level vulnerabilities (SQLi, XSS patterns)     |
@@ -6188,6 +6614,8 @@ Tracing). The `DELETE` and `PUT` methods must require authentication and authori
 | Interactive Application Security Testing | IAST         | During runtime      | Vulnerabilities with context (line number, request) |
 | Software Composition Analysis            | SCA          | During build        | Vulnerable dependencies (CVEs)                      |
 | Penetration Testing                      | Pentest      | Periodically        | Business-logic flaws, chained vulnerabilities       |
+
+</div>
 
 ### SAST in CI/CD
 
@@ -6365,6 +6793,8 @@ Network traffic based on an organization's security policies.
 
 ### Firewall Types
 
+<div class="table-wrap">
+
 | Type                   | OSI Layer    | Inspection Depth                       | Example                              |
 | ---------------------- | ------------ | -------------------------------------- | ------------------------------------ |
 | Packet filtering       | L3 (Network) | Source/destination IP, port, protocol  | iptables, nftables, PF               |
@@ -6372,6 +6802,8 @@ Network traffic based on an organization's security policies.
 | Application-layer      | L7           | Application protocol content           | ModSecurity, AWS WAF                 |
 | Next-generation (NGFW) | L3-L7        | All of the above + IPS, TLS inspection | Palo Alto, Fortinet, pfSense         |
 | Web Application (WAF)  | L7           | HTTP/HTTPS request/response            | Cloudflare WAF, AWS WAF, ModSecurity |
+
+</div>
 
 ### Stateful Inspection
 
@@ -6410,6 +6842,8 @@ Validation).
 
 **WAF rules target specific attack patterns:**
 
+<div class="table-wrap">
+
 | Attack Type      | WAF Detection Pattern                       |
 | ---------------- | ------------------------------------------- |
 | SQL injection    | `' OR``UNION SELECT``--``; DROP`            |
@@ -6417,6 +6851,8 @@ Validation).
 | Path traversal   | `../``%2e%2e%2f``..%2f`                     |
 | Remote code exec | `eval(``exec(``system(``cmd=`               |
 | SSRF             | `169.254.169.254``metadata.google.internal` |
+
+</div>
 
 **WAF limitations:**
 
@@ -6493,6 +6929,8 @@ graph LR
 
 **DMZ firewall rules:**
 
+<div class="table-wrap">
+
 | Direction            | Rule                             |
 | -------------------- | -------------------------------- |
 | Internet to DMZ      | Allow specific ports (80, 443)   |
@@ -6502,10 +6940,14 @@ graph LR
 | Internal to Internet | Allow outbound (proxy/NAT)       |
 | Internet to Internal | Deny all                         |
 
+</div>
+
 #### Microsegmentation
 
 Microsegmentation applies security policies at the workload level (container, VM, process) rather
 than the network level. It is the network-level implementation of zero trust.
+
+<div class="table-wrap">
 
 | Technology               | Environment    | Mechanism                     |
 | ------------------------ | -------------- | ----------------------------- |
@@ -6514,6 +6956,8 @@ than the network level. It is the network-level implementation of zero trust.
 | Calico                   | Kubernetes     | eBPF-based network policy     |
 | VMware NSX               | Virtualization | VM-level microsegmentation    |
 | AWS Security Groups      | Cloud          | ENI-level rules               |
+
+</div>
 
 ```yaml
 # Kubernetes NetworkPolicy: deny all ingress to database, allow only from app pod
@@ -6545,12 +6989,16 @@ Remote hosts and a private network.
 
 ### VPN Protocols
 
+<div class="table-wrap">
+
 | Protocol  | Encryption        | Speed     | Audit Status            | Key Feature                         |
 | --------- | ----------------- | --------- | ----------------------- | ----------------------------------- |
 | WireGuard | ChaCha20-Poly1305 | Very fast | Small, audited codebase | Modern, minimal, kernel-integrated  |
 | IPsec     | AES-GCM, IKEv2    | Fast      | Mature, complex         | Suite of protocols, OS-native       |
 | OpenVPN   | AES-256-GCM       | Moderate  | Mature, audited         | Flexible, TLS-based                 |
 | SSTP      | TLS 1.2+          | Moderate  | Microsoft               | Windows-native, traverses firewalls |
+
+</div>
 
 ### WireGuard
 
@@ -6619,6 +7067,8 @@ conn site-to-site
 
 ### IDS vs IPS
 
+<div class="table-wrap">
+
 | Aspect     | IDS (Detection)               | IPS (Prevention)                       |
 | ---------- | ----------------------------- | -------------------------------------- |
 | Action     | Alerts on suspicious activity | Actively blocks suspicious traffic     |
@@ -6626,7 +7076,11 @@ conn site-to-site
 | Risk       | Low (no traffic impact)       | Higher (false positives block traffic) |
 | Visibility | Full traffic visibility       | May miss encrypted traffic             |
 
+</div>
+
 ### Detection Methods
+
+<div class="table-wrap">
 
 | Method          | How It Works                                    | Strengths                | Weaknesses                  |
 | --------------- | ----------------------------------------------- | ------------------------ | --------------------------- |
@@ -6634,6 +7088,8 @@ conn site-to-site
 | Anomaly-based   | Establishes baseline, flags deviations          | Detects unknown attacks  | High false positive rate    |
 | Heuristic-based | Analyzes protocol behavior and traffic patterns | Good at protocol attacks | Requires tuning             |
 | Behavior-based  | Monitors system/process behavior                | Detects lateral movement | Complex to configure        |
+
+</div>
 
 ### Snort / Suricata
 
@@ -6705,6 +7161,8 @@ graph TD
 
 **Components:**
 
+<div class="table-wrap">
+
 | Component                | Purpose                                   | Implementation                   |
 | ------------------------ | ----------------------------------------- | -------------------------------- |
 | Identity Provider        | Centralized authentication + device trust | Okta, Azure AD, Keycloak         |
@@ -6712,6 +7170,8 @@ graph TD
 | Policy Enforcement Point | Enforce decisions at the resource         | Envoy, service mesh, API gateway |
 | Access Proxy             | Per-application secure access             | BeyondCorp Enterprise, Tailscale |
 | Device Trust             | Evaluate device health and compliance     | MDM, certificates, posture       |
+
+</div>
 
 ### Tailscale as Zero Trust
 
@@ -6746,12 +7206,16 @@ Tailscale is a WireGuard-based mesh VPN that implements zero trust principles:
 DNSSEC (Domain Name System Security Extensions) adds cryptographic signatures to DNS records,
 Enabling DNS response authentication. It prevents DNS cache poisoning and spoofing.
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                                 |
 | ----------- | ------------------------------------------------------- |
 | DNSKEY      | Public key for the zone                                 |
 | RRSIG       | Signature over a record set (RRset)                     |
 | DS          | Delegation signer, links child zone to parent          |
 | NSEC/NSEC3  | Proves non-existence of a record (authenticated denial) |
+
+</div>
 
 **Chain of trust:**
 
@@ -6764,10 +7228,14 @@ Root Zone (trust anchor)
 
 ### DNS over HTTPS (DoH) and DNS over TLS (DoT)
 
+<div class="table-wrap">
+
 | Protocol | Port | Encryption | Standard |
 | -------- | ---- | ---------- | -------- |
 | DoH      | 443  | HTTPS      | RFC 8484 |
 | DoT      | 853  | TLS        | RFC 7858 |
+
+</div>
 
 Both encrypt DNS queries between the client and the resolver, preventing eavesdropping and
 Manipulation of DNS responses in transit. They do not encrypt queries between the resolver and the
@@ -6783,11 +7251,15 @@ Understand the privacy policy of any third-party resolver.
 
 These three standards work together to prevent email spoofing and phishing.
 
+<div class="table-wrap">
+
 | Standard | Full Name                    | Purpose                                              |
 | -------- | ---------------------------- | ---------------------------------------------------- |
 | SPF      | Sender Policy Framework      | Authorizes which mail servers can send from a domain |
 | DKIM     | DomainKeys Identified Mail   | Cryptographically signs outgoing email               |
 | DMARC    | Domain-based Message Auth... | Policy for handling unauthenticated email            |
+
+</div>
 
 **SPF record:**
 
@@ -6809,13 +7281,19 @@ selector._domainkey.example.com. IN TXT (
 _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pct=100"
 ```
 
+<div class="table-wrap">
+
 | DMARC Policy | Action                            |
 | ------------ | --------------------------------- |
 | `none`       | Monitor only, deliver all mail    |
 | `quarantine` | Send unauthenticated mail to spam |
 | `reject`     | Reject unauthenticated mail       |
 
+</div>
+
 ### Email Encryption
+
+<div class="table-wrap">
 
 | Protocol       | Purpose                            | Standard |
 | -------------- | ---------------------------------- | -------- |
@@ -6823,12 +7301,16 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 | S/MIME         | End-to-end encryption + signing    | RFC 5751 |
 | PGP/GPG        | End-to-end encryption + signing    | RFC 4880 |
 
+</div>
+
 ## Network Monitoring and SIEM
 
 ### Security Information and Event Management (SIEM)
 
 A SIEM system collects, aggregates, and correlates security events from across the infrastructure to
 Detect threats, investigate incidents, and demonstrate compliance.
+
+<div class="table-wrap">
 
 | SIEM Component | Function                                                     |
 | -------------- | ------------------------------------------------------------ |
@@ -6840,7 +7322,11 @@ Detect threats, investigate incidents, and demonstrate compliance.
 | Investigation  | Provide search, visualization, and timeline tools            |
 | Reporting      | Generate compliance and operational reports                  |
 
+</div>
+
 ### SIEM Tools
+
+<div class="table-wrap">
 
 | Tool                   | Deployment         | Best For                            |
 | ---------------------- | ------------------ | ----------------------------------- |
@@ -6851,9 +7337,13 @@ Detect threats, investigate incidents, and demonstrate compliance.
 | Wazuh                  | Self-hosted        | Open source, compliance-focused     |
 | Graylog                | Self-hosted        | Open source, simpler setup          |
 
+</div>
+
 ### Log Sources
 
 Every security-relevant system should feed into the SIEM:
+
+<div class="table-wrap">
 
 | Source                 | Events                                            |
 | ---------------------- | ------------------------------------------------- |
@@ -6865,6 +7355,8 @@ Every security-relevant system should feed into the SIEM:
 | Cloud audit logs       | AWS CloudTrail, Azure Activity Log, GCP Audit     |
 | Network IDS/IPS        | Alerts, blocked connections                       |
 | Email gateway          | SMTP logs, spam/phishing detections               |
+
+</div>
 
 ### Key Metrics
 
@@ -6905,11 +7397,15 @@ Man-in-the-middle attacks even if a CA is compromised.
 
 ### Pinning Methods
 
+<div class="table-wrap">
+
 | Method              | Granularity     | Flexibility | Security |
 | ------------------- | --------------- | ----------- | -------- |
 | Public key pinning  | Per key         | Low         | High     |
 | Certificate pinning | Per certificate | Very low    | High     |
 | CA pinning          | Per CA          | Medium      | Medium   |
+
+</div>
 
 ### HTTP Public Key Pinning (HPKP), Deprecated
 
@@ -6937,13 +7433,19 @@ curl "https://crt.sh/?q=example.com&output=json"
 
 ### DDoS Attack Types
 
+<div class="table-wrap">
+
 | Type              | Target            | Method                                   |
 | ----------------- | ----------------- | ---------------------------------------- |
 | Volumetric        | Bandwidth         | UDP flood, ICMP flood, DNS amplification |
 | Protocol          | Server resources  | SYN flood, Ping of Death, Smurf          |
 | Application Layer | Application logic | HTTP flood, Slowloris, API abuse         |
 
+</div>
+
 ### Mitigation Strategies
+
+<div class="table-wrap">
 
 | Layer        | Strategy                                         | Tool/Service                   |
 | ------------ | ------------------------------------------------ | ------------------------------ |
@@ -6951,6 +7453,8 @@ curl "https://crt.sh/?q=example.com&output=json"
 | Transport    | SYN cookies, connection rate limiting            | iptables, nginx, HAProxy       |
 | Application  | Rate limiting, CAPTCHA, challenge pages          | Cloudflare, reCAPTCHA          |
 | Architecture | Auto-scaling, CDN, caching                       | Cloud load balancers, Varnish  |
+
+</div>
 
 ```bash
 # SYN flood protection (sysctl)
@@ -6968,12 +7472,16 @@ iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -m limit --limit
 Amplification attacks exploit services that return large responses to small requests. The attacker
 Spoofs the victim's IP as the source, and the reflector sends a large response to the victim.
 
+<div class="table-wrap">
+
 | Protocol  | Amplification Factor |
 | --------- | -------------------- |
 | DNS       | 28-54x               |
 | NTP       | 556x                 |
 | Memcached | 51,000x              |
 | SSDP      | 30x                  |
+
+</div>
 
 Prevention: Disable open resolvers/reflectors, implement BCP 38 (ingress filtering) to block spoofed
 Source addresses at network edges.
@@ -7092,11 +7600,15 @@ AllowTcpForwarding no
 802.1X provides port-based network access control. Devices must authenticate before gaining access
 to the network.
 
+<div class="table-wrap">
+
 | Component             | Role                                 |
 | --------------------- | ------------------------------------ |
 | Supplicant            | The device requesting network access |
 | Authenticator         | The switch or wireless access point  |
 | Authentication Server | RADIUS server (FreeRADIUS, ISE)      |
+
+</div>
 
 ```bash
 # FreeRADIUS client configuration (on the switch/AP)
@@ -7108,6 +7620,8 @@ to the network.
 
 ### Common Security-Related Network Issues
 
+<div class="table-wrap">
+
 | Symptom                         | Possible Cause                           | Diagnostic Command                   |
 | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | Intermittent connection drops   | Firewall rate limiting, IDS alert        | `tcpdump -i eth0 -nn host target`    |
@@ -7115,6 +7629,8 @@ to the network.
 | TLS handshake failures          | Certificate expired, cipher mismatch     | `openssl s_client -connect host:443` |
 | Unexpected outbound connections | Malware C2, compromised service          | `ss -tulpn``netstat -an`             |
 | High latency on specific routes | BGP hijacking, route leaks               | `traceroute``mtr`BGP looking glass   |
+
+</div>
 
 ### Network Forensics
 
@@ -7148,6 +7664,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 # Look for high entropy subdomains (indicative of DGA or DNS tunneling)
 ```
 
+<div class="table-wrap">
+
 | DNS Anomaly                  | Possible Cause                            | Detection Method               |
 | ---------------------------- | ----------------------------------------- | ------------------------------ |
 | High volume to single domain | DNS tunneling for data exfiltration       | Query volume per domain        |
@@ -7155,6 +7673,8 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | NXDOMAIN burst               | DGA malware, recon scanning               | NXDOMAIN response rate         |
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
+
+</div>
 :::
 
 :::note
@@ -7219,12 +7739,16 @@ The three core functions are:
 
 ### VPN Types
 
+<div class="table-wrap">
+
 | Type          | Layer    | Use Case                          | Example                  |
 | ------------- | -------- | --------------------------------- | ------------------------ |
 | Remote access | L3 (IP)  | Employees connecting to corporate | WireGuard, OpenVPN       |
 | Site-to-site  | L3 (IP)  | Connecting office networks        | IPsec, WireGuard         |
 | SSL/TLS VPN   | L7 (app) | Browser-based access              | OpenVPN (TLS mode)       |
 | SSH tunneling | L7 (app) | Ad-hoc port forwarding            | SSH local/remote/dynamic |
+
+</div>
 
 ## WireGuard
 
@@ -7299,11 +7823,15 @@ The `AllowedIPs` directive is the routing decision point:
 
 WireGuard is significantly faster than OpenVPN and IPsec:
 
+<div class="table-wrap">
+
 | Protocol  | Throughput (approx) | CPU Usage | Code Size | Handshake Time |
 | --------- | ------------------- | --------- | --------- | -------------- |
 | WireGuard | Near line rate      | Very low  | ~4000 LOC | ~1 RTT         |
 | OpenVPN   | 100-600 Mbps        | Moderate  | ~100K LOC | 2-4 RTTs       |
 | IPsec     | 200-800 Mbps        | Moderate  | ~400K LOC | 2 RTTs         |
+
+</div>
 
 ```bash
 # Enable WireGuard
@@ -7361,10 +7889,14 @@ alice : EAP "alice_password"
 
 ### IPsec Modes
 
+<div class="table-wrap">
+
 | Mode      | Encapsulation                 | Use Case                        |
 | --------- | ----------------------------- | ------------------------------- |
 | Transport | Original IP header preserved  | Host-to-host communication      |
 | Tunnel    | Entire IP packet encapsulated | Site-to-site, remote access VPN |
+
+</div>
 
 ### SA and SPI
 
@@ -7582,6 +8114,8 @@ Every node connects to every other node. Scales as O(n^2) with the number of nod
 
 ## VPN vs Zero-Trust
 
+<div class="table-wrap">
+
 | Aspect          | VPN                            | Zero-Trust                   |
 | --------------- | ------------------------------ | ---------------------------- |
 | Network model   | Perimeter-based                | Identity-based               |
@@ -7589,6 +8123,8 @@ Every node connects to every other node. Scales as O(n^2) with the number of nod
 | Trust           | Trusted once connected         | Never trust, always verify   |
 | Scalability     | Hub-and-spoke bottlenecks      | Scales per service           |
 | User experience | Connect, then access all       | Authenticate per application |
+
+</div>
 
 ### When to Use Each
 
@@ -7723,6 +8259,8 @@ keepalive 10 120  # ping every 10s, restart after 120s silence
 
 ## Commercial vs Self-Hosted
 
+<div class="table-wrap">
+
 | Solution          | Type        | Ease of Use | Privacy | Cost             |
 | ----------------- | ----------- | ----------- | ------- | ---------------- |
 | WireGuard         | Self-hosted | Medium      | Full    | Server cost      |
@@ -7730,6 +8268,8 @@ keepalive 10 120  # ping every 10s, restart after 120s silence
 | Tailscale         | Managed WG  | Easy        | Partial | Free tier + paid |
 | Headscale         | Self-hosted | Medium      | Full    | Server cost      |
 | Cloudflare Tunnel | Managed     | Easy        | Partial | Free tier + paid |
+
+</div>
 
 ### Tailscale
 
@@ -7889,6 +8429,8 @@ dmesg | grep -i "read-only"
 
 The order of evidence collection matters because volatile evidence is lost first:
 
+<div class="table-wrap">
+
 | Priority | Evidence Type        | Volatility | Collection Method                  |
 | -------- | -------------------- | ---------- | ---------------------------------- |
 | 1        | CPU registers, cache | Seconds    | Live response, hardware debugger   |
@@ -7899,6 +8441,8 @@ The order of evidence collection matters because volatile evidence is lost first
 | 6        | Disk / filesystem    | Persistent | Write-blocked imaging              |
 | 7        | Remote logs          | Hours/Days | Secure copy from log servers       |
 | 8        | Physical media       | Persistent | Forensic imaging, chain of custody |
+
+</div>
 
 ## Disk Forensics
 
@@ -8035,6 +8579,8 @@ vol.py -f memory.raw --profile=Win10x64_19041 printkey -K "Software\Microsoft\Wi
 
 ### Key Memory Analysis Targets
 
+<div class="table-wrap">
+
 | Target                  | What It Reveals                                              |
 | ----------------------- | ------------------------------------------------------------ |
 | `pslist` / `psscan`     | Running processes (including hidden/rootkits)                |
@@ -8045,6 +8591,8 @@ vol.py -f memory.raw --profile=Win10x64_19041 printkey -K "Software\Microsoft\Wi
 | `envars`                | Environment variables (PATH, USER, etc.)                     |
 | `filescan`              | Open file handles                                            |
 | `dumpfiles`             | Extract files from memory                                    |
+
+</div>
 
 ## Log Forensics
 
@@ -8215,6 +8763,8 @@ tshark -r evidence.pcap -q -z conv,tcp | sort -k2 -rn | head -20
 
 ### Key Network Forensic Artifacts
 
+<div class="table-wrap">
+
 | Artifact           | What It Reveals                            |
 | ------------------ | ------------------------------------------ |
 | DNS queries        | Domains contacted, C2 communication        |
@@ -8224,6 +8774,8 @@ tshark -r evidence.pcap -q -z conv,tcp | sort -k2 -rn | head -20
 | Certificate chains | MITM detection, rogue CAs                  |
 | ARP tables         | Local network devices, ARP spoofing        |
 | DHCP requests      | Network configuration, host identification |
+
+</div>
 
 ## Investigation Methodology
 
@@ -8362,6 +8914,8 @@ cat /proc/modules
 
 ### Comprehensive Tool Table
 
+<div class="table-wrap">
+
 | Tool           | Purpose                          | Platform              | Type        |
 | -------------- | -------------------------------- | --------------------- | ----------- |
 | Autopsy        | Disk forensics GUI               | Linux, Windows        | Open source |
@@ -8376,6 +8930,8 @@ cat /proc/modules
 | exiftool       | Metadata extraction              | Cross-platform        | Open source |
 | RegRipper      | Windows registry analysis        | Cross-platform        | Open source |
 | Log2Timeline   | Log parsing and timeline         | Cross-platform        | Open source |
+
+</div>
 
 ## Legal Considerations
 
@@ -8585,6 +9141,8 @@ Incidents. It should be a living document that is reviewed and updated at least 
 
 **Essential IRP components:**
 
+<div class="table-wrap">
+
 | Component                  | Description                                               |
 | -------------------------- | --------------------------------------------------------- |
 | Scope and objectives       | What constitutes an incident, what the plan covers        |
@@ -8597,7 +9155,11 @@ Incidents. It should be a living document that is reviewed and updated at least 
 | Contact lists              | IR team, management, legal, law enforcement, regulators   |
 | Legal and regulatory       | Data breach notification requirements, retention policies |
 
+</div>
+
 ### Incident Response Team
+
+<div class="table-wrap">
 
 | Role               | Responsibility                                       |
 | ------------------ | ---------------------------------------------------- |
@@ -8609,6 +9171,8 @@ Incidents. It should be a living document that is reviewed and updated at least 
 | Management Liaison | Executive communication, resource authorization      |
 | IT Operations      | Infrastructure support, isolation, recovery          |
 
+</div>
+
 For small organizations, roles may overlap. The critical requirement is that **someone is explicitly
 Responsible for each function**.
 
@@ -8616,6 +9180,8 @@ Responsible for each function**.
 
 Playbooks are predefined procedures for specific incident types. They reduce decision-making under
 Pressure and ensure consistent, repeatable responses.
+
+<div class="table-wrap">
 
 | Incident Type         | Key Playbook Actions                                                                                |
 | --------------------- | --------------------------------------------------------------------------------------------------- |
@@ -8627,7 +9193,11 @@ Pressure and ensure consistent, repeatable responses.
 | Insider threat        | Preserve evidence (legal hold), revoke access, coordinate with HR/legal                             |
 | Supply chain attack   | Identify affected software, assess blast radius, patch/revert, verify integrity                     |
 
+</div>
+
 ### Tools and Infrastructure
+
+<div class="table-wrap">
 
 | Category            | Tools                                          |
 | ------------------- | ---------------------------------------------- |
@@ -8640,6 +9210,8 @@ Pressure and ensure consistent, repeatable responses.
 | Communication       | Slack (dedicated channel), PagerDuty, Opsgenie |
 | Ticketing           | Jira, ServiceNow, RT                           |
 | Documentation       | Confluence, shared drive (access-controlled)   |
+
+</div>
 
 ### Tabletop Exercises
 
@@ -8657,6 +9229,8 @@ of a real incident.
 
 **Example inject sequence for a ransomware exercise:**
 
+<div class="table-wrap">
+
 | Time     | Inject                                                                |
 | -------- | --------------------------------------------------------------------- |
 | T+0      | User reports files are encrypted and a ransom note is displayed       |
@@ -8667,9 +9241,13 @@ of a real incident.
 | T+120min | Threat intel: ransomware variant has known data exfiltration          |
 | T+180min | Executive demands: "Can we restore from backups?"                     |
 
+</div>
+
 ## Detection and Analysis
 
 ### Detection Sources
+
+<div class="table-wrap">
 
 | Source              | Detection Capability                               | Limitations                               |
 | ------------------- | -------------------------------------------------- | ----------------------------------------- |
@@ -8681,6 +9259,8 @@ of a real incident.
 | Threat intelligence | Known IOCs, vulnerability announcements            | Reactive, not proactive                   |
 | File integrity      | Unauthorized changes to critical files             | Requires baseline                         |
 | Cloud audit logs    | Unusual API calls, privilege escalation            | Volume can be overwhelming                |
+
+</div>
 
 ### Alert Triage
 
@@ -8704,6 +9284,8 @@ graph TD
 
 ### Severity Classification
 
+<div class="table-wrap">
+
 | Severity | Definition                                               | Response Time     | Example                                       |
 | -------- | -------------------------------------------------------- | ----------------- | --------------------------------------------- |
 | Critical | Active breach, data exfiltration, system-wide compromise | Immediate         | Ransomware encrypting production DB           |
@@ -8712,7 +9294,11 @@ graph TD
 | Low      | Policy violation, reconnaissance, informational          | Within 24 hours   | Port scan from external IP                    |
 | Info     | No security impact, awareness item                       | Next business day | Vulnerability disclosure (unaffected version) |
 
+</div>
+
 ### Indicators of Compromise (IOCs)
+
+<div class="table-wrap">
 
 | IOC Type         | Example                                                      | Detection Method          |
 | ---------------- | ------------------------------------------------------------ | ------------------------- |
@@ -8725,11 +9311,15 @@ graph TD
 | Mutex            | `Global\{A1B2C3D4-E5F6-7890}`                                | Memory analysis, EDR      |
 | Network artifact | Unusual user-agent, certificate pin mismatch                 | IDS, TLS logs             |
 
+</div>
+
 ### IOC Sharing and Threat Intelligence Platforms
 
 Sharing IOCs within your organization and with the broader security community amplifies detection
 Capability. A compromise detected at one organization can be prevented at others if IOCs are shared
 Rapidly.
+
+<div class="table-wrap">
 
 | Platform       | Type          | Access      | Use Case                                     |
 | -------------- | ------------- | ----------- | -------------------------------------------- |
@@ -8739,6 +9329,8 @@ Rapidly.
 | CISA AIS       | Government    | Authorized  | US government cyber threat sharing           |
 | VirusTotal     | Malware       | Free/Paid   | File and URL reputation lookup               |
 | Shodan         | Internet scan | Free/Paid   | Exposed services and vulnerability detection |
+
+</div>
 
 Sharing IOCs must be done carefully. Sanitize internal information before sharing externally,
 Remove internal hostnames, usernames, and any information that could reveal your network topology or
@@ -8831,6 +9423,8 @@ is to stop the bleeding without destroying evidence.
 
 Immediate actions to stop the active threat:
 
+<div class="table-wrap">
+
 | Action                        | When to Use                                    | Risk                                 |
 | ----------------------------- | ---------------------------------------------- | ------------------------------------ |
 | Network isolation (pull plug) | Fast-spreading ransomware, active exfiltration | Disrupts service, may alert attacker |
@@ -8838,6 +9432,8 @@ Immediate actions to stop the active threat:
 | Account disable               | Compromised credentials                        | User loses access                    |
 | VLAN isolation                | Compromised host on shared network             | Isolates without full disconnection  |
 | API key revocation            | Leaked or compromised keys                     | Dependent services break             |
+
+</div>
 
 ### Long-Term Containment
 
@@ -8856,6 +9452,8 @@ System is rebooted or powered off, volatile data is permanently lost.
 
 **Order of volatility** (what to collect first):
 
+<div class="table-wrap">
+
 | Priority | Evidence Type         | Collection Method                           |
 | -------- | --------------------- | ------------------------------------------- |
 | 1        | CPU registers, cache  | Hardware debugger (rarely available)        |
@@ -8866,6 +9464,8 @@ System is rebooted or powered off, volatile data is permanently lost.
 | 6        | Open files            | `lsof`                                      |
 | 7        | Disk                  | Full forensic image (FTK Imager, dd)        |
 | 8        | Remote logs           | SIEM, syslog, centralized logging           |
+
+</div>
 
 ```bash
 # Memory capture on Linux (before any containment)
@@ -8895,6 +9495,8 @@ dc3dd if=/dev/sda of=/evidence/disk_image.dd hash=sha256 log=/evidence/imaging_l
 Every piece of evidence must have a documented chain of custody, a record of who handled it, when,
 And what was done.
 
+<div class="table-wrap">
+
 | Field            | Description                                                     |
 | ---------------- | --------------------------------------------------------------- |
 | Evidence ID      | Unique identifier                                               |
@@ -8905,12 +9507,16 @@ And what was done.
 | Hash values      | SHA-256 of original, verified at each transfer                  |
 | Transfer log     | Every time evidence changed hands                               |
 
+</div>
+
 ## Eradication
 
 Eradication removes the threat from the environment. This means identifying the root cause, removing
 Malicious artifacts, and addressing the vulnerability that allowed the compromise.
 
 ### Root Cause Analysis
+
+<div class="table-wrap">
 
 | Question                              | What to Investigate                                    |
 | ------------------------------------- | ------------------------------------------------------ |
@@ -8921,6 +9527,8 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 | What persistence mechanisms exist?    | Scheduled tasks, startup items, registry, cron jobs    |
 | Did the attacker establish backdoors? | New accounts, SSH keys, certificates, web shells       |
 | Was data exfiltrated?                 | Network traffic analysis, DNS logs, cloud egress       |
+
+</div>
 
 ### Eradication Actions
 
@@ -8957,6 +9565,8 @@ Eradicated.
 
 ### Backup Considerations
 
+<div class="table-wrap">
+
 | Backup Property | Requirement                                                                   |
 | --------------- | ----------------------------------------------------------------------------- |
 | Immutability    | Backups must be immutable (not modifiable or deletable) to survive ransomware |
@@ -8965,6 +9575,8 @@ Eradicated.
 | Testing         | Restore tests must be performed regularly (not just backup verification)      |
 | Retention       | Retain backups long enough to recover from delayed detection                  |
 | 3-2-1 rule      | 3 copies, 2 different media, 1 offsite                                        |
+
+</div>
 
 ## Post-Incident Activity
 
@@ -8978,6 +9590,8 @@ Goal is systemic improvement, not punishment.
 
 **Post-mortem structure:**
 
+<div class="table-wrap">
+
 | Section          | Content                                                        |
 | ---------------- | -------------------------------------------------------------- |
 | Incident summary | One-paragraph description of what happened                     |
@@ -8988,6 +9602,8 @@ Goal is systemic improvement, not punishment.
 | Response         | What went well? What could be improved?                        |
 | Lessons learned  | Specific, actionable takeaways                                 |
 | Action items     | Assigned tasks with owners and deadlines                       |
+
+</div>
 
 ### 5 Whys Analysis
 
@@ -9015,6 +9631,8 @@ Security training and secure code review."
 
 ### Metrics and KPIs
 
+<div class="table-wrap">
+
 | Metric                                 | Description                                    | Target           |
 | -------------------------------------- | ---------------------------------------------- | ---------------- |
 | MTTD (Mean Time to Detect)             | Average time from attack start to detection    | Decreasing trend |
@@ -9025,6 +9643,8 @@ Security training and secure code review."
 | False positive rate                    | Alerts that were not real incidents            | Decreasing trend |
 | Time to patch critical vulnerabilities | Average time from CVE disclosure to patch      | Decreasing trend |
 | Backup restoration success rate        | Percentage of successful restore tests         | 100%             |
+
+</div>
 
 ## Forensic Basics
 
@@ -9094,6 +9714,8 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 
 ### Ransomware
 
+<div class="table-wrap">
+
 | Phase         | Response Action                                                |
 | ------------- | -------------------------------------------------------------- |
 | Detection     | Identify variant (ransom note, file extension, behavior)       |
@@ -9103,7 +9725,11 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | Recovery      | Restore from immutable, tested backups                         |
 | Investigation | Determine initial access vector, lateral movement path         |
 
+</div>
+
 ### Data Breach
+
+<div class="table-wrap">
 
 | Phase         | Response Action                                                           |
 | ------------- | ------------------------------------------------------------------------- |
@@ -9114,7 +9740,11 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | Communication | Prepare internal and external messaging                                   |
 | Recovery      | Implement additional controls to prevent recurrence                       |
 
+</div>
+
 ### Credential Compromise
+
+<div class="table-wrap">
 
 | Phase         | Response Action                                                           |
 | ------------- | ------------------------------------------------------------------------- |
@@ -9124,7 +9754,11 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | Investigation | Determine how credentials were obtained (phishing, breach, reuse)         |
 | Recovery      | Implement password policy changes, enable MFA, check for lateral movement |
 
+</div>
+
 ### Supply Chain Attack
+
+<div class="table-wrap">
 
 | Phase         | Response Action                                                       |
 | ------------- | --------------------------------------------------------------------- |
@@ -9134,9 +9768,13 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | Investigation | Trace the supply chain path, identify the root compromise             |
 | Recovery      | Replace with verified, signed artifacts (SLSA)                        |
 
+</div>
+
 ## Communication
 
 ### Internal Communication
+
+<div class="table-wrap">
 
 | Audience       | Timing         | Content                                                |
 | -------------- | -------------- | ------------------------------------------------------ |
@@ -9145,7 +9783,11 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | All employees  | As needed      | General awareness, phishing warnings, policy reminders |
 | Legal/PR       | Within 2 hours | Regulatory implications, media strategy                |
 
+</div>
+
 ### External Communication
+
+<div class="table-wrap">
 
 | Audience        | Timing                | Content                                                  |
 | --------------- | --------------------- | -------------------------------------------------------- |
@@ -9155,7 +9797,11 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | Law enforcement | If criminal activity  | Forensic evidence, IOCs, timeline                        |
 | Regulators      | Per legal requirement | Formal notification with required details                |
 
+</div>
+
 ### Regulatory Notification Requirements
+
+<div class="table-wrap">
 
 | Regulation | Notification Deadline                     | Authority                           |
 | ---------- | ----------------------------------------- | ----------------------------------- |
@@ -9164,6 +9810,8 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | PCI-DSS    | Immediately                               | Payment card brands, acquiring bank |
 | CCPA       | "Expeditious"                             | California Attorney General         |
 | NIS2 (EU)  | 24 hours (early warning), 72 hours (full) | National CSIRT                      |
+
+</div>
 :::
 
 :::caution
@@ -9245,6 +9893,8 @@ Repeat the same mistakes with increasing severity.
 Different jurisdictions have different notification requirements. Understanding these before an
 Incident occurs is critical.
 
+<div class="table-wrap">
+
 | Jurisdiction   | Regulation             | Notification Deadline                                                     | Who to Notify                       |
 | -------------- | ---------------------- | ------------------------------------------------------------------------- | ----------------------------------- |
 | European Union | GDPR                   | 72 hours to supervisory authority; "without undue delay" to data subjects | DPA + affected individuals          |
@@ -9255,6 +9905,8 @@ Incident occurs is critical.
 | Australia      | Privacy Act            | 30 days to OAIC and affected individuals                                  | OAIC + affected individuals         |
 | Germany        | GDPR + BDSG            | 72 hours (GDPR), 72 hours (BDSG)                                          | DPA + affected individuals          |
 | Japan          | APPI                   | "Promptly" to PPC and affected individuals                                | PPC + affected individuals          |
+
+</div>
 
 ### Evidence Handling for Legal Proceedings
 
@@ -9270,6 +9922,8 @@ Handled according to forensic standards:
 
 ### Working with Law Enforcement
 
+<div class="table-wrap">
+
 | Consideration         | Guidance                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------- |
 | When to involve       | For criminal activity, significant financial loss, or nation-state attribution        |
@@ -9278,9 +9932,13 @@ Handled according to forensic standards:
 | What to expect        | Slow response for non-critical incidents, may require court order for certain actions |
 | Internal coordination | Legal counsel should manage all law enforcement contact                               |
 
+</div>
+
 ## Building an Incident Response Capability
 
 ### Maturity Levels
+
+<div class="table-wrap">
 
 | Level          | Description                                      | Characteristics                                    |
 | -------------- | ------------------------------------------------ | -------------------------------------------------- |
@@ -9290,7 +9948,11 @@ Handled according to forensic standards:
 | 4 - Quantified | Metrics-driven improvement                       | MTTD/MTTR tracked, automated detection             |
 | 5 - Optimized  | Continuous improvement, proactive threat hunting | Threat intelligence integrated, red team exercises |
 
+</div>
+
 ### Automation Opportunities
+
+<div class="table-wrap">
 
 | Phase         | What to Automate                                | Tool Examples                              |
 | ------------- | ----------------------------------------------- | ------------------------------------------ |
@@ -9299,6 +9961,8 @@ Handled according to forensic standards:
 | Investigation | Log correlation, timeline reconstruction        | SIEM queries, automated playbooks          |
 | Communication | Status page updates, notification routing       | PagerDuty, Slack webhooks, statuspage.io   |
 | Reporting     | Metric collection, compliance report generation | Custom dashboards, SIEM reporting          |
+
+</div>
 
 ### Continuous Improvement Cycle
 
@@ -9323,6 +9987,8 @@ While tabletop exercises test the decision-making process, red team exercises te
 Detection and response capabilities. A red team simulates a real adversary attempting to breach the
 Organization, while the blue team (defenders) attempts to detect and stop them.
 
+<div class="table-wrap">
+
 | Exercise Type            | Scope                    | Duration  | Frequency     |
 | ------------------------ | ------------------------ | --------- | ------------- |
 | Tabletop                 | Discussion-based         | 2-4 hours | Quarterly     |
@@ -9330,6 +9996,8 @@ Organization, while the blue team (defenders) attempts to detect and stop them.
 | Purple team              | Collaborative (red+blue) | 1-2 weeks | Semi-annually |
 | Vulnerability assessment | Targeted scanning        | 1-5 days  | Monthly       |
 | Penetration test         | Scoped exploitation      | 1-3 weeks | Annually      |
+
+</div>
 
 Red team exercises should be conducted by an independent team (internal red team or external
 Consultant) that does not share detection rules or playbooks with the blue team. The goal is to test
@@ -9431,6 +10099,8 @@ Servers, storage hardware, and the hypervisor. The customer is responsible for e
 Hypervisor: the operating system, runtime, application, data, and network configuration (security
 Groups, NACLs).
 
+<div class="table-wrap">
+
 | Responsibility                             | Provider                            | Customer        |
 | ------------------------------------------ | ----------------------------------- | --------------- |
 | Physical security                          | Yes                                 | No              |
@@ -9443,10 +10113,14 @@ Groups, NACLs).
 | Identity and access management             | No (they run IAM; you configure it) | Yes             |
 | Client-side encryption                     | No                                  | Yes             |
 
+</div>
+
 ### PaaS (Platform as a Service)
 
 In PaaS (e.g., Lambda, App Engine, Azure Functions), the provider also manages the operating system
 and runtime. The customer is responsible only for the application code, data, and access controls.
+
+<div class="table-wrap">
 
 | Responsibility                    | Provider              | Customer |
 | --------------------------------- | --------------------- | -------- |
@@ -9456,10 +10130,14 @@ and runtime. The customer is responsible only for the application code, data, an
 | Data encryption                   | Partial               | Yes      |
 | IAM configuration                 | No (runs the service) | Yes      |
 
+</div>
+
 ### SaaS (Software as a Service)
 
 In SaaS (e.g., Office 365, Salesforce, Gmail), the provider manages nearly everything. The customer
 is responsible only for data and access.
+
+<div class="table-wrap">
 
 | Responsibility                                           | Provider | Customer |
 | -------------------------------------------------------- | -------- | -------- |
@@ -9467,6 +10145,8 @@ is responsible only for data and access.
 | Data classification and governance                       | No       | Yes      |
 | User access management                                   | Partial  | Yes      |
 | Compliance verification                                  | No       | Yes      |
+
+</div>
 
 ### The Key Principle
 
@@ -9578,6 +10258,8 @@ Secure bucket policy example:
 
 ### Security Groups vs NACLs
 
+<div class="table-wrap">
+
 | Property        | Security Groups                         | NACLs                                          |
 | --------------- | --------------------------------------- | ---------------------------------------------- |
 | Layer           | Instance-level                          | Subnet-level                                   |
@@ -9585,6 +10267,8 @@ Secure bucket policy example:
 | Allow/Deny      | Allow only (default deny)               | Both allow and deny                            |
 | Rule evaluation | All rules evaluated (first match wins)  | Rules evaluated in order (lowest number first) |
 | Applies to      | ENI (Elastic Network Interface)         | All instances in the subnet                    |
+
+</div>
 
 Security groups are the primary defense. NACLs provide an additional layer but should not be relied
 upon as the sole defense mechanism.
@@ -9958,6 +10642,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 
 ### Tools
 
+<div class="table-wrap">
+
 | Tool                        | Cloud(s)    | Notes                                                 |
 | --------------------------- | ----------- | ----------------------------------------------------- |
 | AWS Security Hub            | AWS         | Aggregates findings from GuardDuty, Config, Inspector |
@@ -9967,6 +10653,8 @@ CSPM tools continuously monitor cloud environments for misconfigurations and com
 | Prisma Cloud (Palo Alto)    | Multi-cloud | CSPM + CWPP + CNAPP                                   |
 | Orca Security               | Multi-cloud | Agentless, side-scanning                              |
 | Lacework                    | Multi-cloud | Polygraph data platform                               |
+
+</div>
 
 ### CSPM Implementation Strategy
 
@@ -10552,11 +11240,15 @@ Linux file permissions control access to files and directories. Every file has t
 Classes: owner (u), group (g), and others (o). Each class has three permissions: read (r), write
 (w), and execute (x).
 
+<div class="table-wrap">
+
 | Permission | Octal | File               | Directory                              |
 | ---------- | ----- | ------------------ | -------------------------------------- |
 | r          | 4     | Read file contents | List directory entries                 |
 | w          | 2     | Modify file        | Create/delete/rename entries           |
 | x          | 1     | Execute file       | Enter directory (access files by name) |
+
+</div>
 
 Common permissions:
 
@@ -10727,11 +11419,15 @@ Common types:
 
 ### SELinux Modes
 
+<div class="table-wrap">
+
 | Mode       | Behavior                                                                         |
 | ---------- | -------------------------------------------------------------------------------- |
 | Enforcing  | Policy is enforced. Violations are blocked and logged.                           |
 | Permissive | Policy is not enforced. Violations are logged but not blocked. Used for testing. |
 | Disabled   | SELinux is completely disabled. No policy loaded, no logging.                    |
+
+</div>
 
 Check and set mode:
 
@@ -11063,6 +11759,8 @@ kern.*                   /var/log/kern.log
 
 Log severity levels (from lowest to highest):
 
+<div class="table-wrap">
+
 | Level | Keyword | Description               |
 | ----- | ------- | ------------------------- |
 | 0     | emerg   | System is unusable        |
@@ -11073,6 +11771,8 @@ Log severity levels (from lowest to highest):
 | 5     | notice  | Normal but significant    |
 | 6     | info    | Informational             |
 | 7     | debug   | Debug messages            |
+
+</div>
 
 ### journald
 
@@ -11166,12 +11866,16 @@ Centralized logging provides:
 
 ### Update Strategies
 
+<div class="table-wrap">
+
 | Strategy        | Description                         | Risk    | Best For                        |
 | --------------- | ----------------------------------- | ------- | ------------------------------- |
 | Rolling updates | Update one node at a time           | Lowest  | Stateful services, databases    |
 | Blue-green      | Maintain two identical environments | Low     | Stateless services              |
 | Canary          | Update a small subset first         | Low     | Large deployments               |
 | Big bang        | Update everything at once           | Highest | Homogeneous, small environments |
+
+</div>
 
 ### Automated Patching
 
@@ -11255,6 +11959,8 @@ Management architecture.
 Linux namespaces provide isolation for system resources. Each namespace type isolates a different
 Aspect:
 
+<div class="table-wrap">
+
 | Namespace | Isolates                              |
 | --------- | ------------------------------------- |
 | Mount     | Filesystem mount points               |
@@ -11264,6 +11970,8 @@ Aspect:
 | IPC       | System V IPC, POSIX message queues    |
 | User      | User and group IDs                    |
 | Cgroup    | Cgroup root directory                 |
+
+</div>
 
 Namespaces are the fundamental building block of containers. Docker and Kubernetes use namespaces to
 Provide process isolation.
@@ -11301,6 +12009,8 @@ Possible.
 
 Container isolation vs VM isolation:
 
+<div class="table-wrap">
+
 | Property          | Containers                   | VMs            |
 | ----------------- | ---------------------------- | -------------- |
 | Kernel            | Shared                       | Separate       |
@@ -11308,6 +12018,8 @@ Container isolation vs VM isolation:
 | Escape difficulty | Moderate (depends on config) | Very difficult |
 | Overhead          | Low                          | High           |
 | Startup time      | Seconds                      | Minutes        |
+
+</div>
 
 ## Secure Boot Chain
 
@@ -12020,6 +12732,8 @@ Remaining dormant in analysis environments.
 <details>
 <summary>Anti-Debugging Techniques: Detection Matrix</summary>
 
+<div class="table-wrap">
+
 | Technique           | API / Mechanism                               | Bypass Strategy                         |
 | ------------------- | --------------------------------------------- | --------------------------------------- |
 | PEB flag check      | `IsDebuggerPresent()`                         | Patch PEB memory directly               |
@@ -12031,6 +12745,8 @@ Remaining dormant in analysis environments.
 | Thread hiding       | `NtSetInformationThread`                      | Hook and block the call                 |
 | Window enumeration  | `FindWindow("OLLYDBG")`                       | Rename debugger window class            |
 | Process enumeration | `EnumProcesses` checking for debugger PIDs    | Patch the comparison logic              |
+
+</div>
 
 </details>
 
@@ -12213,6 +12929,8 @@ Intelligence about the malware's functionality and targets.
 The Import Address Table lists the Windows API functions that the binary calls. Analyzing imports
 Provides a functional profile of the malware before any code is examined.
 
+<div class="table-wrap">
+
 | API Function         | Category             | Indicates                                   |
 | -------------------- | -------------------- | ------------------------------------------- |
 | `CreateRemoteThread` | Process injection    | Cross-process code execution                |
@@ -12225,6 +12943,8 @@ Provides a functional profile of the malware before any code is examined.
 | `CreateService`      | Services             | Service installation for persistence        |
 | `SetWindowsHookEx`   | Input capture        | Keyboard or mouse hooking                   |
 | `OpenProcessToken`   | Privilege            | Token manipulation for privilege escalation |
+
+</div>
 
 Import analysis also identifies the specific libraries referenced. A binary that imports only
 `kernel32.dll` and `ntdll.dll` is suspiciously minimal, suggesting the imports are resolved
@@ -13472,6 +14192,8 @@ Information security from principles to practice: threat modelling, secure codin
 
 ## Essential Security Checklist
 
+<div class="table-wrap">
+
 | Area | Action | Priority |
 | ------ | -------- | ---------- |
 | Authentication | Use bcrypt/scrypt/Argon2 for password hashing | Critical |
@@ -13481,6 +14203,8 @@ Information security from principles to practice: threat modelling, secure codin
 | Network | Segment services and enable firewalls by default | High |
 | Logging | Centralise logs and monitor for anomalies | Medium |
 | Backups | Test restore procedures quarterly | Medium |
+
+</div>
 
 ## Intuition
 
@@ -13560,11 +14284,15 @@ Violated.
 
 Every security property ultimately reduces to one or more of:
 
+<div class="table-wrap">
+
 | Property            | Question                                     | Failure Mode                     |
 | ------------------- | -------------------------------------------- | -------------------------------- |
 | **Confidentiality** | Can unauthorized parties read this data?     | Data breach, information leakage |
 | **Integrity**       | Can unauthorized parties modify this data?   | Data tampering, code injection   |
 | **Availability**    | Can authorized parties access this resource? | Denial of service, data deletion |
+
+</div>
 
 Most real-world incidents violate multiple triad elements simultaneously. A ransomware attack
 Compromises confidentiality (data exfiltration before encryption), integrity (file encryption), and
@@ -14649,11 +15377,15 @@ Finding bugs -- it is demonstrating impact and providing actionable remediation 
 
 ### Types of Penetration Testing
 
+<div class="table-wrap">
+
 | Type      | Tester Knowledge | Typical Use Case                               | Strength                              | Limitation                           |
 | --------- | ---------------- | ---------------------------------------------- | ------------------------------------- | ------------------------------------ |
 | Black box | None provided    | Realistic adversarial simulation               | Tests detection and response          | Time-consuming, may miss deep issues |
 | White box | Full access      | Thorough assessment of specific components     | Comprehensive coverage                | Does not test detection capabilities |
 | Gray box  | Partial (user)   | Balanced assessment with realistic constraints | Efficient, realistic, focused testing | May miss some attack vectors         |
+
+</div>
 
 Black box testing simulates an external attacker with no internal knowledge. The tester must
 Discover everything from scratch, which makes it the most realistic but also the most expensive in
@@ -14663,6 +15395,8 @@ Account) and partial documentation, striking a balance between realism and thoro
 
 ### Testing Methodologies
 
+<div class="table-wrap">
+
 | Methodology     | Full Name                                         | Focus Area             | Key Characteristic                            |
 | --------------- | ------------------------------------------------- | ---------------------- | --------------------------------------------- |
 | OWASP           | Open Web Application Security Project             | Web applications       | Risk-based, community-driven, widely adopted  |
@@ -14670,6 +15404,8 @@ Account) and partial documentation, striking a balance between realism and thoro
 | OSSTMM          | Open Source Security Testing Methodology          | Comprehensive security | Metrics-driven, measures operational security |
 | NIST SP 800-115 | Technical Guide to Information Security Testing   | Federal/compliance     | Process-oriented, aligned with FISMA          |
 | ISSAF           | Information Systems Security Assessment Framework | Broad IT security      | Detailed checklist approach                   |
+
+</div>
 
 **OWASP Testing Guide** is the de facto standard for web application testing. It organizes tests
 Into information gathering, configuration management, identity management, authentication,
@@ -14768,6 +15504,8 @@ Target has no way of knowing it is being observed.
 Open source intelligence leverages publicly available information to build a comprehensive picture
 of the target.
 
+<div class="table-wrap">
+
 | Source            | Information Gathered                                      | Tools                             |
 | ----------------- | --------------------------------------------------------- | --------------------------------- |
 | WHOIS             | Registration details, name servers, registrant contacts   | `whois`ARIN, RIPE, APNIC          |
@@ -14779,6 +15517,8 @@ of the target.
 | Document Metadata | Author names, software versions, internal paths           | `exiftool`FOCA, Metagoofil        |
 | Certificate Logs  | Subdomains, organizational structure                      | crt.sh, Censys Certificate Search |
 | Pastebin/Leaks    | Exposed credentials, API keys, configuration files        | `paste-bin-search`HaveIBeenPwned  |
+
+</div>
 
 #### DNS Enumeration
 
@@ -14815,6 +15555,8 @@ Organizations still misconfigure internal DNS servers to allow transfers.
 Google dorking uses advanced search operators to find sensitive information indexed by search
 Engines.
 
+<div class="table-wrap">
+
 | Operator    | Purpose                              | Example                               |
 | ----------- | ------------------------------------ | ------------------------------------- |
 | `site:`     | Limit results to a domain            | `site:example.com filetype:pdf`       |
@@ -14825,6 +15567,8 @@ Engines.
 | `ext:`      | File extension                       | `ext:sql site:example.com`            |
 | `cache:`    | View cached version of a page        | `cache:example.com/admin`             |
 | `link:`     | Pages linking to a URL               | `link:example.com`                    |
+
+</div>
 
 Common high-value dorks:
 
@@ -14924,6 +15668,8 @@ nmap -p 22,80,443 10.0.0.0/24 # Quick scan of common ports
 nmap -sV -oN scan_normal.txt -oX scan_xml.xml -oA scan_all 10.0.0.1
 ```
 
+<div class="table-wrap">
+
 | Scan Type    | Flag  | Description                                       | Stealth |
 | ------------ | ----- | ------------------------------------------------- | ------- |
 | SYN Scan     | `-sS` | Half-open scan, completes TCP handshake partially | Medium  |
@@ -14934,6 +15680,8 @@ nmap -sV -oN scan_normal.txt -oX scan_xml.xml -oA scan_all 10.0.0.1
 | XMAS Scan    | `-sX` | Sends FIN, URG, PSH flags                         | High    |
 | ACK Scan     | `-sA` | Sends ACK only (firewall testing)                 | Medium  |
 | Ping Sweep   | `-sn` | Host discovery without port scanning              | High    |
+
+</div>
 :::
 
 :::caution
@@ -15012,6 +15760,8 @@ Authentication and encryption if SNMP is required.
 Automated vulnerability scanners compare system configurations and service versions against
 Databases of known vulnerabilities.
 
+<div class="table-wrap">
+
 | Scanner    | Type                 | License     | Strengths                                       |
 | ---------- | -------------------- | ----------- | ----------------------------------------------- |
 | Nessus     | Network/app          | Commercial  | Comprehensive plugin library, compliance checks |
@@ -15022,6 +15772,8 @@ Databases of known vulnerabilities.
 | Trivy      | Container/filesystem | Open source | CI/CD integration, SBOM generation              |
 | Grype      | Container/filesystem | Open source | Fast vulnerability matching                     |
 | Semgrep    | SAST                 | Open source | Custom rules, multi-language support            |
+
+</div>
 
 ```bash
 # OpenVAS / Greenbone
@@ -15064,6 +15816,8 @@ When to use manual testing:
 The Common Vulnerability Scoring System (CVSS) v3.1 provides a standardized framework for rating
 Vulnerability severity.
 
+<div class="table-wrap">
+
 | Metric              | Values                                | Description                               |
 | ------------------- | ------------------------------------- | ----------------------------------------- |
 | Attack Vector       | Network / Adjacent / Local / Physical | How the vulnerability is exploited        |
@@ -15075,6 +15829,10 @@ Vulnerability severity.
 | Integrity           | None / Low / High                     | Impact on data integrity                  |
 | Availability        | None / Low / High                     | Impact on system availability             |
 
+</div>
+
+<div class="table-wrap">
+
 | CVSS Score | Severity | Typical Response Time |
 | ---------- | -------- | --------------------- |
 | 0.0        | None     | Informational         |
@@ -15082,6 +15840,8 @@ Vulnerability severity.
 | 4.0 - 6.9  | Medium   | 30 days               |
 | 7.0 - 8.9  | High     | 7 days                |
 | 9.0 - 10.0 | Critical | 24-48 hours           |
+
+</div>
 :::
 
 :::note
@@ -15151,11 +15911,15 @@ sqlmap -r request.txt  # Read parameters from a captured request file
 
 #### Cross-Site Scripting (XSS)
 
+<div class="table-wrap">
+
 | Type      | Context        | Storage    | Impact                         |
 | --------- | -------------- | ---------- | ------------------------------ |
 | Reflected | URL parameters | None       | Session hijacking, phishing    |
 | Stored    | Database, file | Persistent | Mass compromise, defacement    |
 | DOM-based | Client-side JS | None       | Client-side logic manipulation |
+
+</div>
 
 ```text
 XSS payload categories:
@@ -15307,6 +16071,8 @@ dnsspoof -i eth0 -f hosts.txt
 
 ### Authentication Attacks
 
+<div class="table-wrap">
+
 | Attack Type         | Description                                      | Tools                         |
 | ------------------- | ------------------------------------------------ | ----------------------------- |
 | Brute Force         | Try every possible combination                   | Hydra, Medusa, Patator        |
@@ -15314,6 +16080,8 @@ dnsspoof -i eth0 -f hosts.txt
 | Password Spraying   | Try a few common passwords against many accounts | CrackMapExec, SprayingToolkit |
 | Dictionary Attack   | Try words from a wordlist                        | John the Ripper, Hashcat      |
 | Rainbow Tables      | Precomputed hash lookups                         | RainbowCrack, Ophcrack        |
+
+</div>
 
 ```bash
 # Hydra -- online brute force
@@ -15503,6 +16271,8 @@ the system is rebooted.
 Lateral movement is the process of moving from one compromised system to additional systems within
 the network.
 
+<div class="table-wrap">
+
 | Technique         | Protocol/Tool     | Description                                         |
 | ----------------- | ----------------- | --------------------------------------------------- |
 | Pass-the-Hash     | NTLM/SMB          | Authenticate with password hash, no cracking needed |
@@ -15514,6 +16284,8 @@ the network.
 | DCOM              | RPC               | Distributed Component Object Model                  |
 | Scheduled Tasks   | RPC               | Remotely create and execute tasks                   |
 | PsExec            | SMB               | Sysinternals tool for remote execution              |
+
+</div>
 
 ```bash
 # Pass-the-hash with Impacket
@@ -15576,6 +16348,8 @@ Validate findings. Log clearing is also a strong indicator of malicious activity
 
 ### Command and Control Frameworks
 
+<div class="table-wrap">
+
 | Framework     | License     | Language   | Key Features                                     |
 | ------------- | ----------- | ---------- | ------------------------------------------------ |
 | Cobalt Strike | Commercial  | Java       | Beacon payload, Malleable C2, team collaboration |
@@ -15585,6 +16359,8 @@ Validate findings. Log clearing is also a strong indicator of malicious activity
 | Empire        | Open source | PowerShell | PowerShell post-exploitation, lateral movement   |
 | Covenant      | Open source | C#/.NET    | .NET C2, reflective loading, evasion focused     |
 | Havoc         | Open source | C          | Evasion-focused, post-exploitation toolkit       |
+
+</div>
 
 ```text
 C2 communication channels:
@@ -15609,6 +16385,8 @@ Which is consistently the weakest link in any security program.
 Phishing is the most prevalent social engineering attack, accounting for the majority of initial
 Access vectors in reported breaches.
 
+<div class="table-wrap">
+
 | Type               | Target              | Description                                            |
 | ------------------ | ------------------- | ------------------------------------------------------ |
 | Deceptive phishing | Broad audience      | Generic emails impersonating legitimate organizations  |
@@ -15618,6 +16396,8 @@ Access vectors in reported breaches.
 | BEC                | Finance/HR          | Business Email Compromise -- fraudulent wire transfers |
 | Vishing            | Phone               | Voice phishing -- social engineering over phone calls  |
 | Smishing           | SMS                 | Phishing via text messages                             |
+
+</div>
 
 ```text
 Phishing campaign lifecycle:
@@ -15720,6 +16500,8 @@ Examples:
 
 ### Psychological Principles Exploited
 
+<div class="table-wrap">
+
 | Principle    | Application in Social Engineering                      |
 | ------------ | ------------------------------------------------------ |
 | Authority    | Impersonating executives, IT staff, law enforcement    |
@@ -15730,6 +16512,8 @@ Examples:
 | Fear         | "Security breach detected, verify your credentials"    |
 | Curiosity    | USB drives labeled "Employee Salaries"                 |
 | Trust        | Compromising known contacts to send from their account |
+
+</div>
 
 ### Countermeasures and Awareness Training
 
@@ -15899,6 +16683,8 @@ Tools:
 The Supply-chain Levels for Software Artifacts (SLSA) framework defines a series of security levels
 that describe the integrity guarantees of a software supply chain.
 
+<div class="table-wrap">
+
 | Level | Name          | Requirements                                                    |
 | ----- | ------------- | --------------------------------------------------------------- |
 | 0     | No provenance | No guarantees, build process is not documented                  |
@@ -15906,6 +16692,8 @@ that describe the integrity guarantees of a software supply chain.
 | 2     | Hosted        | Build runs on hosted build service, provenance is authenticated |
 | 3     | Provenance    | Build is reproducible, non-falsifiable provenance               |
 | 4     | Hermetic      | Two-party review, hermetic build, reproducible                  |
+
+</div>
 
 ```bash
 # sigstore/Cosign -- signing and verifying container images
@@ -15950,6 +16738,8 @@ grype myapp:latest
 
 ### Notable Supply Chain Incidents
 
+<div class="table-wrap">
+
 | Incident        | Year | Attack Vector                                     | Impact                                         |
 | --------------- | ---- | ------------------------------------------------- | ---------------------------------------------- |
 | SolarWinds      | 2020 | Build system compromise, malicious update         | 18,000+ organizations, US government agencies  |
@@ -15958,6 +16748,8 @@ grype myapp:latest
 | ua-parser-js    | 2021 | Maintainer account compromise                     | npm package with malware, 7M+ weekly downloads |
 | colors.js/faker | 2022 | Protest/malicious update                          | Non-malicious but broke builds (protestware)   |
 | xz-utils        | 2024 | Long-term social engineering, backdoor in liblzma | Nearly compromised SSH on Linux systems        |
+
+</div>
 
 #### SolarWinds Attack (2020)
 
@@ -16015,6 +16807,8 @@ Structure, instructions, and data.
 
 #### Disassembly Tools
 
+<div class="table-wrap">
+
 | Tool         | License     | Platform            | Key Features                                                       |
 | ------------ | ----------- | ------------------- | ------------------------------------------------------------------ |
 | Ghidra       | Open source | Cross-platform      | NSA-developed, decompiler, scripting (Java/Python), collaborative  |
@@ -16024,6 +16818,8 @@ Structure, instructions, and data.
 | Cutter       | Open source | Cross-platform      | GUI for radare2, user-friendly interface                           |
 | objdump      | GNU         | Linux               | Basic disassembly, part of binutils                                |
 | readelf      | GNU         | Linux               | ELF file analysis, section/header inspection                       |
+
+</div>
 
 ```bash
 # Ghidra headless analysis
@@ -16292,6 +17088,8 @@ Report structure:
 
 ### Severity Classification
 
+<div class="table-wrap">
+
 | Severity      | CVSS Range | Description                                 | Example                                      |
 | ------------- | ---------- | ------------------------------------------- | -------------------------------------------- |
 | Critical      | 9.0 - 10.0 | Immediate risk of system compromise         | Remote code execution, authentication bypass |
@@ -16299,6 +17097,8 @@ Report structure:
 | Medium        | 4.0 - 6.9  | Moderate risk, requires specific conditions | XSS, CSRF, information disclosure            |
 | Low           | 0.1 - 3.9  | Minimal risk, limited impact                | Information leakage, verbose errors          |
 | Informational | 0.0        | No direct risk, but worth noting            | Missing security headers, cookie flags       |
+
+</div>
 
 ### Remediation Recommendations
 
@@ -16403,6 +17203,8 @@ Factors that affect timeline:
 Bug bounty programs provide a legal, structured framework for security researchers to report
 Vulnerabilities in exchange for monetary rewards.
 
+<div class="table-wrap">
+
 | Platform              | Model       | Notable Participants             |
 | --------------------- | ----------- | -------------------------------- |
 | HackerOne             | Third-party | Google, Uber, GitHub, US DoD     |
@@ -16412,6 +17214,8 @@ Vulnerabilities in exchange for monetary rewards.
 | Google VRP            | Direct      | Google products                  |
 | Microsoft MSRC        | Direct      | Microsoft products               |
 | Apple Security Bounty | Direct      | Apple products                   |
+
+</div>
 
 ```text
 Bug bounty best practices:
@@ -16819,6 +17623,8 @@ URL: https://security.wyattau.com/diagnostics/diag-security/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -16831,6 +17637,8 @@ URL: https://security.wyattau.com/diagnostics/diag-security/
 | 8        | B             |
 | 9        | B             |
 | 10       | B             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of security fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

@@ -67,6 +67,8 @@ write visible.
 
 The JMM defines the following happens-before relationships:
 
+<div class="table-wrap">
+
 | Rule               | Description                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------- |
 | **Program order**  | Each action in a thread happens-before every action that comes later in that thread's program order. |
@@ -78,6 +80,8 @@ The JMM defines the following happens-before relationships:
 | **Interruption**   | `Thread.interrupt()` happens-before any thread detects that it has been interrupted.                 |
 | **Finalizer**      | The end of a constructor happens-before the start of a finalizer.                                    |
 | **Initialization** | The static initializer of a class happens-before any use of that class.                              |
+
+</div>
 
 ### Safe Publication
 
@@ -221,6 +225,8 @@ stateDiagram-v2
     TERMINATED --> [*]
 ```
 
+<div class="table-wrap">
+
 | State             | Description                                                                                                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **NEW**           | Thread has been created but `start()` has not been called.                                                               |
@@ -229,6 +235,8 @@ stateDiagram-v2
 | **WAITING**       | Thread is waiting indefinitely for another thread to perform a particular action (e.g., `notify()`).                     |
 | **TIMED_WAITING** | Thread is waiting for another thread to perform an action, but with a specified maximum wait time.                       |
 | **TERMINATED**    | Thread has completed execution of its `run()` method.                                                                    |
+
+</div>
 
 :::note
 CPU core" and "ready to execute but waiting for CPU time." The JVM delegates scheduling to the
@@ -517,12 +525,16 @@ ThreadPoolExecutor executor = new ThreadPoolExecutor(
 4. If the queue is full and `maximumPoolSize` threads are running, the task is rejected (handled by
    the `RejectedExecutionHandler`).
 
+<div class="table-wrap">
+
 | Rejection Policy      | Behavior                                                              |
 | --------------------- | --------------------------------------------------------------------- |
 | `AbortPolicy`         | Throws `RejectedExecutionException` (default).                        |
 | `CallerRunsPolicy`    | The calling thread executes the task itself -- provides backpressure. |
 | `DiscardPolicy`       | Silently discards the task.                                           |
 | `DiscardOldestPolicy` | Discards the oldest queued task and retries submission.               |
+
+</div>
 
 ## CompletableFuture
 
@@ -734,12 +746,16 @@ executor.submit(producer);
 executor.submit(consumer);
 ```
 
+<div class="table-wrap">
+
 | Implementation          | Ordering                         | Bounded                                  | Notes                                                                |
 | ----------------------- | -------------------------------- | ---------------------------------------- | -------------------------------------------------------------------- |
 | `ArrayBlockingQueue`    | FIFO                             | Yes (fixed capacity)                     | Backed by a circular array.                                          |
 | `LinkedBlockingQueue`   | FIFO                             | Optional (defaults to Integer.MAX_VALUE) | Backed by linked nodes.                                              |
 | `PriorityBlockingQueue` | Priority (natural or Comparator) | No (grows as needed)                     | `take()` always returns the head (lowest-priority element).          |
 | `SynchronousQueue`      | None (handoff)                   | Always zero capacity                     | `put()` blocks until a `take()` arrives. Direct handoff, no storage. |
+
+</div>
 
 ### ConcurrentLinkedQueue
 
@@ -1106,6 +1122,8 @@ try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
 ### Virtual Threads vs Platform Threads
 
+<div class="table-wrap">
+
 | Property                | Platform Thread                       | Virtual Thread                                                  |
 | ----------------------- | ------------------------------------- | --------------------------------------------------------------- |
 | **OS mapping**          | 1:1 (one Java thread = one OS thread) | M:N (many virtual threads multiplexed onto few carrier threads) |
@@ -1114,6 +1132,8 @@ try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 | **Blocking on I/O**     | Wastes the OS thread                  | Unmounts from carrier; carrier runs other virtual threads       |
 | **Max practical count** | Thousands                             | Millions                                                        |
 | **Pin prevention**      | N/A                                   | Must not use `synchronized` or native methods during blocking   |
+
+</div>
 
 ### Pinning: The One Thing to Avoid
 
@@ -1188,6 +1208,8 @@ structure (the scope is lexically scoped via try-with-resources).
 
 ## Summary: Choosing the Right Primitive
 
+<div class="table-wrap">
+
 | Scenario                             | Recommended Primitive                                           |
 | ------------------------------------ | --------------------------------------------------------------- |
 | Simple mutual exclusion              | `synchronized` (if pinning is not a concern) or `ReentrantLock` |
@@ -1203,6 +1225,8 @@ structure (the scope is lexically scoped via try-with-resources).
 | Reusable barrier                     | `CyclicBarrier`                                                 |
 | Massive concurrent I/O (server)      | Virtual threads + `Executors.newVirtualThreadPerTaskExecutor()` |
 | Scoped concurrent tasks              | `StructuredTaskScope` (JDK 21+)                                 |
+
+</div>
 
 ## Common Pitfalls
 

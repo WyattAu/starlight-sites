@@ -169,6 +169,8 @@ $\blacksquare$
 
 ### 8.7 Summary of Key Transport Relationships
 
+<div class="table-wrap">
+
 | Property | Formula | Key Dependencies |
 | -------- | ------- | ----------------- |
 | Drude conductivity | $\sigma = ne^2\tau/m_e$ | Carrier density, scattering time |
@@ -178,6 +180,8 @@ $\blacksquare$
 | Effective mass | $m^* = \hbar^2/(d^2\varepsilon/dk^2)$ | Band curvature |
 | Matthiessen's rule | $\rho = \rho_0 + \rho_{\mathrm{ph}}(T)$ | Impurity + phonon scattering |
 | Bloch-Gruneisen | $\rho_{\mathrm{ph}} \propto T^5$ at low $T$ | Phonon population, Umklapp |
+
+</div>
 
 ### 8.7 Common Mistakes
 
@@ -203,7 +207,7 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

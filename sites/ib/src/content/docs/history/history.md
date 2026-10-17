@@ -37,12 +37,16 @@ Comparative methodology as a central analytical tool.
 
 The IB History assessment consists of the following components:
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                          | Weighting          |
 | :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
 | **Paper 1** | Prescribed Subjects -- source-based analysis of a specific case study. Students answer four structured questions using provided source material.     | 20% (SL), 20% (HL) |
 | **Paper 2** | World History Topics -- essay-based examination covering two topics studied during the course. Students write two essays from a choice of questions. | 25% (SL), 20% (HL) |
 | **Paper 3** | HL Depth Study -- extended essay paper (HL only) covering three sections of one HL regional option. Students write three essays.                     | N/A (SL), 35% (HL) |
 | **IA**      | Historical Investigation -- an independent research project of up to 2,200 words on a historical question of the student"s choosing.                 | 25% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -182,11 +186,15 @@ Consider the pace (gradual vs sudden), the direction (progressive vs regressive)
 
 The following skills are assessed across all components of the IB History course:
 
+<div class="table-wrap">
+
 | Skill                 | Description                                                                                                                                                                                                                                              |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Source evaluation** | Assessing the value and limitations of a source by considering its origin, purpose, content, and context. This is the primary skill tested in Paper 1.                                                                                                   |
 | **Corroboration**     | Comparing multiple sources to identify points of agreement and disagreement. Corroboration strengthens an argument when independent sources converge, and highlights contested narratives when they diverge.                                             |
 | **Contextualisation** | Placing a source or event within its broader historical framework. This involves understanding the political, social, economic, and cultural conditions that shaped the production and reception of a source, or that influenced the course of an event. |
+
+</div>
 
 These skills are interdependent. Effective source evaluation requires contextualisation; meaningful
 Corroboration requires each source to be individually evaluated; and all three skills contribute to
@@ -332,12 +340,16 @@ at both SL and HL.
 
 Paper 1 consists of four questions based on a prescribed subject case study:
 
+<div class="table-wrap">
+
 | Question | Skill Tested                              | Marks | Typical Format                                                         |
 | :------- | :---------------------------------------- | :---- | :--------------------------------------------------------------------- |
 | Q1       | Comprehension and comparison              | 5     | Compare the content of two sources                                     |
 | Q2       | Analysis of source value and limitation   | 5     | Evaluate one source with reference to its origin, purpose, and content |
 | Q3       | Comparison of two sources                 | 6     | Compare and contrast the value and limitations of two sources          |
 | Q4       | Synthesis using sources and own knowledge | 8     | Use all sources and your own knowledge to address a question           |
+
+</div>
 
 ### Prescribed Subjects (2025 Syllabus)
 
@@ -400,6 +412,8 @@ A choice of questions covering two of the five world history topics.
 
 ### World History Topics
 
+<div class="table-wrap">
+
 | Topic | Title                        | Examples                                                                                   |
 | :---- | :--------------------------- | :----------------------------------------------------------------------------------------- |
 | 1     | Society and Economy          | Causes and effects of the Industrial Revolution; the social impact of technological change |
@@ -407,6 +421,8 @@ A choice of questions covering two of the five world history topics.
 | 3     | Authoritarian States         | Rise to power and domestic policies of authoritarian leaders (e.g. Hitler, Mao, Stalin)    |
 | 4     | Movements for Social Change  | Civil rights movements, decolonisation, women's suffrage                                   |
 | 5     | Cold War Superpower Tensions | Origins, crises, and détente in the Cold War                                               |
+
+</div>
 
 ### Essay Structure for Paper 2
 
@@ -494,12 +510,16 @@ Research project of up to 2,200 words.
 
 ### Structure
 
+<div class="table-wrap">
+
 | Section                                  | Word Count        | Content                                                                                                     |
 | :--------------------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------- |
 | Identification and Evaluation of Sources | Up to 500 words   | State your research question. Analyse two sources in detail (origin, purpose, content, value, limitations). |
 | Investigation                            | 1,300-1,600 words | The body of your essay. Present a well-argued, evidence-based investigation of your research question.      |
 | Reflection                               | Up to 400 words   | Reflect on the methods used, challenges faced, and what you learned about the historical process.           |
 | Bibliography                             | Not counted       | List all sources used.                                                                                      |
+
+</div>
 
 ### Choosing a Research Question
 

@@ -484,6 +484,8 @@ testing.]
 
 **For $A$ (sum $> 7$):**
 
+<div class="table-wrap">
+
 | Sum | Outcomes                          | Count |
 | --- | --------------------------------- | ----- |
 | 8   | (2,6), (3,5), (4,4), (5,3), (6,2) | 5     |
@@ -491,6 +493,8 @@ testing.]
 | 10  | (4,6), (5,5), (6,4)               | 3     |
 | 11  | (5,6), (6,5)                      | 2     |
 | 12  | (6,6)                             | 1     |
+
+</div>
 
 $$
 \mathrm{P}(A) = \frac{5 + 4 + 3 + 2 + 1}{36} = \frac{15}{36} = \frac{5}{12}
@@ -522,12 +526,16 @@ $k$ for which $\mathrm{P}(A) = \frac{1}{3}$ exactly.
 
 However, let me reconsider. "Sum $> k$" means strictly greater than $k$. The counts are:
 
+<div class="table-wrap">
+
 | $k$ | Sum $> k$           | Count |
 | --- | ------------------- | ----- |
 | 6   | 7, 8, 9, 10, 11, 12 | 21    |
 | 7   | 8, 9, 10, 11, 12    | 15    |
 | 8   | 9, 10, 11, 12       | 10    |
 | 9   | 10, 11, 12          | 6     |
+
+</div>
 
 No integer $k$ gives exactly 12 outcomes. So there is **no integer value** of $k$ for which
 $\mathrm{P}(A) = \frac{1}{3}$.

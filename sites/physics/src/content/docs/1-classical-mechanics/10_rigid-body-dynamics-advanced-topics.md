@@ -234,12 +234,16 @@ Rigid body dynamics describes how extended objects rotate, where the distributio
 
 ### Key Relationships Summary
 
+<div class="table-wrap">
+
 | Quantity | Expression | Notes |
 | --- | --- | --- |
 | Euler's equations | $I_1\dot{\omega}_1 = (I_2 - I_3)\omega_2\omega_3$ | Body frame, no external torque |
 | Tilted top precession | $\dot{\phi} = I_3\omega_3/(I_1\omega_1)$ | Angle between $\mathbf{L}$ and symmetry axis |
 | Fast-top precession | $\dot{\phi} \approx Mgd/(I_3\omega_3)$ | Independent of $\theta$ to leading order |
 | Nutation frequency | $\dot{\theta}$ oscillates in $V_{\text{eff}}$ | Looping/cusped/smooth types |
+
+</div>
 
 These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
 coupled or driven systems, numerical integration of the full Euler equations is required.
@@ -251,4 +255,4 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism provides phase space representation of rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

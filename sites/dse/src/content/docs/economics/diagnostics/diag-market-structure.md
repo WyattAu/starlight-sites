@@ -178,10 +178,14 @@ Costs, the government might use average cost pricing instead.
 High price ($P_H = \$10$) or a low price ($P_L = \$6$). The payoff matrix (monthly profit in
 Thousands of HKD) is:
 
+<div class="table-wrap">
+
 |             | B: High       | B: Low        |
 | ----------- | ------------- | ------------- |
 | **A: High** | A: 80, B: 80  | A: 30, B: 100 |
 | **A: Low**  | A: 100, B: 30 | A: 50, B: 50  |
+
+</div>
 
 (a) Identify the Nash equilibrium. (b) Is this a prisoner's dilemma? Explain. (c) If the firms
 Collude and split the market equally, what happens to their profits? Why might collusion be

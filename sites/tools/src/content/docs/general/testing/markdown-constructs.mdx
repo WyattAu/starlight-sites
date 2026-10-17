@@ -44,6 +44,8 @@ Seems to be broken at the moment, the following does not seem to work:
 | spans  +---------:+------+
 | rows   |   normal | cell |
 +---v----+:---------------:+
+<div class="table-wrap">
+
 |        | cells can be    |
 | --- | --- |
 |        | *formatted*     |
@@ -52,6 +54,8 @@ Seems to be broken at the moment, the following does not seem to work:
 | multi  | and contain     |
 | line   | blocks          |
 | cells  | ```             |
+
+</div>
 +========+=========:+======+
 | footer |    cells |      |
 +--------+----------+------+
@@ -95,11 +99,15 @@ Custom titles are supported: `:::info[Custom Title]`
 
 Standard markdown tables use pipe-delimited rows with a header separator:
 
+<div class="table-wrap">
+
 | Feature   | Supported | Notes                                         |
 | --------- | --------- | --------------------------------------------- |
 | Basic     | Yes       | Pipe-delimited with `---` separator           |
 | Alignment | Yes       | `:---, :---:, ---:` for left/center/right |
 | Colspan   | No        | Not supported in standard markdown; use HTML  |
+
+</div>
 
 ### Nested Lists and Checklists
 

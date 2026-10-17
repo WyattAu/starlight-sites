@@ -26,11 +26,15 @@ questions answer themselves.
 
 ## Yellow Lines
 
+<div class="table-wrap">
+
 | Marking | Meaning |
 |---------|---------|
 | Broken yellow | Passing allowed from your side when safe |
 | Solid + broken yellow | Pass only from the broken side |
 | Double solid yellow | No passing either direction; left turns across are still legal |
+
+</div>
 
 The double-solid nuance is the classic trap: you may not *pass* across
 double yellows, but you may *turn left* into a driveway or intersection
@@ -38,12 +42,16 @@ across them. Only a painted median or a physical barrier changes that.
 
 ## White Lines
 
+<div class="table-wrap">
+
 | Marking | Meaning |
 |---------|---------|
 | Broken white | Lane changes allowed |
 | Solid white | Lane changes discouraged (approaches, tunnel lanes, fog lines) |
 | Double solid white | Do not change lanes (tunnels, bridge approaches) |
 | Dotted (short) white | Lane extension through an intersection, follow it |
+
+</div>
 
 Solid white fog lines mark the road's right edge; solid yellow marks
 the left edge on divided roads. Edge-line color is a quick test
@@ -79,6 +87,8 @@ round yellow advance-warning sign.
 
 ## Curb Colors
 
+<div class="table-wrap">
+
 | Curb | Meaning |
 |------|---------|
 | White | Short loading, passenger pickup |
@@ -86,6 +96,8 @@ round yellow advance-warning sign.
 | Red | No stopping, standing, or parking |
 | Green | Time-limited parking per sign |
 | Blue | Disabled-parking permit holders only |
+
+</div>
 
 ## How Markings Are Tested
 
@@ -97,6 +109,8 @@ round yellow advance-warning sign.
 
 ## Quick Recall Table
 
+<div class="table-wrap">
+
 | Question pattern | Answer |
 |-----------------|--------|
 | Double solid yellow | No passing; left turns OK |
@@ -106,8 +120,12 @@ round yellow advance-warning sign.
 | Triangular white lines | Yield line, yield before it |
 | Blue curb | Disabled permit parking |
 
+</div>
+
 
 ## Marking Catalog
+
+<div class="table-wrap">
 
 | Marking | Meaning |
 |---------|---------|
@@ -121,7 +139,11 @@ round yellow advance-warning sign.
 | White yield triangles | Yield line at roundabout |
 | Blue curb | Disabled permit parking only |
 
+</div>
+
 ## Answer-Pattern Drill
+
+<div class="table-wrap">
 
 | Question mentions... | Answer... |
 |---------------------|-----------|
@@ -131,3 +153,5 @@ round yellow advance-warning sign.
 | Center lane both markings | Shared left-turn pocket |
 | Stop position | Behind stop line, not crosswalk |
 | RR pavement X | Stop within 15-50 ft if active |
+
+</div>

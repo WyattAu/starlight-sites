@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                         |
 | ---------- | ------- | ----------------------------- |
 | AQA        | Paper 1 | Moments, equilibrium, tilting |
 | Edexcel    | P1      | Similar                       |
 | OCR (A)    | Paper 1 | Includes non-uniform bodies   |
 | CIE (9709) | P4      | Moments and equilibrium       |
+
+</div>
 
 :::note
 moments, and include the direction (clockwise/anticlockwise) of each moment.
@@ -419,6 +423,8 @@ This is extremely useful for L-shapes, T-shapes, and shapes with circular or tri
 
 ### 4.4 Standard results
 
+<div class="table-wrap">
+
 | Shape                       | Centre of Mass                                           |
 | --------------------------- | -------------------------------------------------------- |
 | Uniform rod                 | Midpoint                                                 |
@@ -426,6 +432,8 @@ This is extremely useful for L-shapes, T-shapes, and shapes with circular or tri
 | Uniform triangular lamina   | $\frac{1}{3}$ of the way from each side along the median |
 | Uniform circular lamina     | Centre of the circle                                     |
 | Uniform semicircular lamina | $\dfrac{4r}{3\pi}$ from the flat side        |
+
+</div>
 
 <hr />
 

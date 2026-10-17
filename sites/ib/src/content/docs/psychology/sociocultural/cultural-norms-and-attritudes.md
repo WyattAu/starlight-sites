@@ -194,12 +194,16 @@ Individuals wish to maintain their heritage culture, and (2) the extent to which
 Participate in the dominant culture. The intersection of these two dimensions produces four
 Acculturation strategies:
 
+<div class="table-wrap">
+
 | Strategy        | Maintain Heritage Culture? | Participate in Dominant Culture? | Description                                                                                                                                               |
 | --------------- | -------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Integration     | Yes                        | Yes                              | Individuals maintain their cultural identity while also participating in the dominant culture. Generally associated with the best psychological outcomes. |
 | Assimilation    | No                         | Yes                              | Individuals abandon their heritage culture and adopt the dominant culture entirely.                                                                       |
 | Separation      | Yes                        | No                               | Individuals maintain their heritage culture and avoid interaction with the dominant culture.                                                              |
 | Marginalisation | No                         | No                               | Individuals lose contact with their heritage culture and do not participate in the dominant culture. Associated with the worst psychological outcomes.    |
+
+</div>
 
 **Key findings from acculturation research:**
 

@@ -692,6 +692,8 @@ Or use `std::endian` (C++20) with conditional byte swapping.
 
 ## 8. Comparison Table of All Type Punning Methods
 
+<div class="table-wrap">
+
 | Method                                            | Legality (C++ Standard)              | `constexpr`        | Alignment Safe            | Performance            | Portability         |
 | :------------------------------------------------ | :----------------------------------- | :----------------- | :------------------------ | :--------------------- | :------------------ |
 | `reinterpret_cast` pointer punning                | **UB** [N4950 S6.9.2.1]/11           | No                 | No                        | Zero overhead (but UB) | Non-portable        |
@@ -702,7 +704,11 @@ Or use `std::endian` (C++20) with conditional byte swapping.
 | `std::aligned_storage` + placement new + `memcpy` | **Well-defined**                     | No                 | Yes                       | Zero overhead          | All C++11+          |
 | `alignas` + placement new + `memcpy`              | **Well-defined**                     | No                 | Yes                       | Zero overhead          | All C++11+          |
 
+</div>
+
 ### Decision Matrix: Which Method to Use
+
+<div class="table-wrap">
 
 | Requirement                | Technique                 | `constexpr` | Portability             | Performance                |
 | :------------------------- | :------------------------ | :---------- | :---------------------- | :------------------------- |
@@ -713,6 +719,8 @@ Or use `std::endian` (C++20) with conditional byte swapping.
 | Type-erased buffer         | `alignas` + placement new | No          | All C++11+              | Zero overhead              |
 | I/O boundary parsing       | `memcpy` into struct      | No          | All                     | Correct alignment handling |
 | Endianness-aware parsing   | Explicit byte extraction  | Possible    | All                     | Zero overhead              |
+
+</div>
 
 ## 9. Common Pitfalls
 

@@ -121,6 +121,8 @@ salt bridge ( $\mathrm{KNO}_3$ solution) maintains electrical neutrality.
 
 ### The Electrochemical Series
 
+<div class="table-wrap">
+
 | Half-equation                                                                                           | $E^\circ$ (V) |
 | ------------------------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -133,6 +135,8 @@ salt bridge ( $\mathrm{KNO}_3$ solution) maintains electrical neutrality.
 | $\mathrm{Zn}^{2+} + 2e^- \rightleftharpoons \mathrm{Zn}$                                                | $-0.76$       |
 | $\mathrm{Na}^+ + e^- \rightleftharpoons \mathrm{Na}$                                                    | $-2.71$       |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                    | $-3.04$       |
+
+</div>
 
 **Key observations:**
 
@@ -318,12 +322,16 @@ inherently slow).
 
 ### Other Fuel Cell Types
 
+<div class="table-wrap">
+
 | Type                           | Fuel                              | Electrolyte                                            | Operating temp     | Application    |
 | ------------------------------ | --------------------------------- | ------------------------------------------------------ | ------------------ | -------------- |
 | PEM (proton exchange membrane) | $\mathrm{H}_2$                    | Solid polymer                                          | 80$^\circ$C        | Vehicles       |
 | Alkaline (AFC)                 | $\mathrm{H}_2$                    | KOH solution                                           | 60--200$^\circ$C   | Space (Apollo) |
 | Solid oxide (SOFC)             | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
 | Molten carbonate (MCFC)        | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
+
+</div>
 
 Solid oxide fuel cells can use carbon monoxide and methane directly as fuels (internal reforming),
 and their high operating temperature makes them suitable for combined heat and power systems.
@@ -458,6 +466,8 @@ iron(III) oxide (rust).
 
 ### Prevention Methods
 
+<div class="table-wrap">
+
 | Method                     | Principle                                                                                                   |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Painting / oiling          | Physical barrier to water and oxygen                                                                        |
@@ -465,6 +475,8 @@ iron(III) oxide (rust).
 | Tin plating                | Physical barrier; if scratched, tin accelerates rusting (tin is less reactive than iron)                    |
 | Sacrificial protection     | Attaching blocks of a more reactive metal (e.g. $\mathrm{Mg}$$\mathrm{Zn}$) to the iron structure           |
 | Alloying (stainless steel) | Chromium forms a protective oxide layer                                                                     |
+
+</div>
 
 ## Common Pitfalls
 
@@ -531,6 +543,8 @@ $$
 
 ## Standard Electrode Potential Data Table
 
+<div class="table-wrap">
+
 | Half-equation                                                                                                           | $E^\circ$ (V)          |
 | ----------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | $\mathrm{F}_2 + 2e^- \rightleftharpoons 2\mathrm{F}^-$                                                                  | $+2.87$                |
@@ -558,6 +572,8 @@ $$
 | $\mathrm{Ca}^{2+} + 2e^- \rightleftharpoons \mathrm{Ca}$                                                                | $-2.87$                |
 | $\mathrm{K}^+ + e^- \rightleftharpoons \mathrm{K}$                                                                      | $-2.93$                |
 | $\mathrm{Li}^+ + e^- \rightleftharpoons \mathrm{Li}$                                                                    | $-3.04$                |
+
+</div>
 
 ## Electrolysis in Industry
 
@@ -918,6 +934,8 @@ $$
 
 The electrochemical series arranges species in order of their standard electrode potentials:
 
+<div class="table-wrap">
+
 | Species                        | $E^\circ$ (V) |
 | ------------------------------ | ------------- |
 | $\mathrm{Li}^+/\mathrm{Li}$    | $-3.03$       |
@@ -937,6 +955,8 @@ The electrochemical series arranges species in order of their standard electrode
 | $\mathrm{Br}_2/\mathrm{Br}^-$  | $+1.07$       |
 | $\mathrm{Cl}_2/\mathrm{Cl}^-$  | $+1.36$       |
 | $\mathrm{F}_2/\mathrm{F}^-$    | $+2.87$       |
+
+</div>
 
 A species will reduce any species below it in the series (more negative $E^\circ$). A species will
 be oxidised by any species above it (more positive $E^\circ$).

@@ -306,12 +306,16 @@ Excluded values: $x = -3$ (denominator zero) and $x = 2$ (denominator zero).
 
 **Step 3: Sign analysis.**
 
+<div class="table-wrap">
+
 | $x$              | $(x+3)$ | $(x-1)$ | $(x-2)$ | Numerator | Denominator | Ratio |
 | ---------------- | ------- | ------- | ------- | --------- | ----------- | ----- |
 | $x \lt -3$       | $-$     | $-$     | $-$     | $+$       | $+$         | $+$   |
 | $-3 \lt x \lt 1$ | $+$     | $-$     | $-$     | $+$       | $-$         | $-$   |
 | $1 \lt x \lt 2$  | $+$     | $+$     | $-$     | $-$       | $-$         | $+$   |
 | $x \gt 2$        | $+$     | $+$     | $+$     | $+$       | $+$         | $+$   |
+
+</div>
 
 **Step 4: Include or exclude endpoints.**
 
@@ -385,11 +389,15 @@ Solving $\frac{5-x}{x-3} \geq 0$ by sign analysis:
 
 Critical values: $x = 3$ (excluded) and $x = 5$ (included).
 
+<div class="table-wrap">
+
 | Interval         | $(5-x)$ | $(x-3)$ | Ratio |
 | ---------------- | ------- | ------- | ----- |
 | $x \lt 3$        | $+$     | $-$     | $-$   |
 | $3 \lt x \leq 5$ | $+$     | $+$     | $+$   |
 | $x \gt 5$        | $-$     | $+$     | $-$   |
+
+</div>
 
 Domain of $f \circ g$: $(3, 5]$.
 
@@ -534,6 +542,8 @@ $$
 
 We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 0$:
 
+<div class="table-wrap">
+
 | $r$ | Coefficient from numerator | $s$ | Coefficient from denominator | Product |
 | --- | -------------------------- | --- | ---------------------------- | ------- |
 | 0   | 1                          | 4   | 15                           | 15      |
@@ -541,6 +551,8 @@ We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 
 | 2   | 40                         | 2   | 6                            | 240     |
 | 3   | 80                         | 1   | 3                            | 240     |
 | 4   | 80                         | 0   | 1                            | 80      |
+
+</div>
 
 Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
@@ -566,11 +578,15 @@ $\theta = \frac{5\pi}{3} + 2n\pi$ for $n \in \mathbb{Z}$.
 
 Systematically listing all $\theta \in [0, 6\pi)$:
 
+<div class="table-wrap">
+
 | $n$ | $\theta = \frac{\pi}{3} + 2n\pi$ | $\theta = \frac{5\pi}{3} + 2n\pi$ |
 | --- | -------------------------------------------- | --------------------------------------------- |
 | 0   | $\frac{\pi}{3}$                  | $\frac{5\pi}{3}$                  |
 | 1   | $\frac{7\pi}{3}$                 | $\frac{11\pi}{3}$                 |
 | 2   | $\frac{13\pi}{3}$                | $\frac{17\pi}{3}$                 |
+
+</div>
 
 All six values are in $[0, 6\pi)$ since $\frac{17\pi}{3} = 5\frac{2}{3}\pi \lt 6\pi$.
 
@@ -899,6 +915,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 
 ## Marking Guide
 
+<div class="table-wrap">
+
 | Question  | Topic                       |   Marks | Key Skills Tested                                                                                        |
 | --------- | --------------------------- | ------: | -------------------------------------------------------------------------------------------------------- |
 | Q1        | Algebraic Expressions       |       7 | Fractional/negative indices, difference of cubes, algebraic manipulation                                 |
@@ -916,6 +934,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 | Q13       | Proof                       |       5 | Necessary vs sufficient conditions, counterexamples, logical equivalence                                 |
 | Q14       | Numerical Methods           |       5 | Newton-Raphson divergence, 2-cycle behaviour, geometric interpretation of failure                        |
 | **Total** |                             | **100** |                                                                                                          |
+
+</div>
 
 ## Intuition
 

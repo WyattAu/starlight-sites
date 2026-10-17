@@ -442,6 +442,8 @@ $$
 
 ## Marking Guide
 
+<div class="table-wrap">
+
 | Question  | Topic                    |  Marks | Key Skills Tested                                                                                        |
 | --------- | ------------------------ | -----: | -------------------------------------------------------------------------------------------------------- |
 | Q1        | Kinematics               |     10 | Displacement vs distance, direction changes from $v = 0$ Splitting integrals, percentage error            |
@@ -450,6 +452,8 @@ $$
 | Q4        | Energy and Work          |     10 | $P = Fv$ derivation, maximum speed, decreasing acceleration at constant power, integration for time      |
 | Q5        | Momentum                 |     10 | Sign convention consistency, conservation of momentum, coefficient of restitution, energy classification |
 | **Total** |                          | **50** |                                                                                                          |
+
+</div>
 
 ## Intuition
 

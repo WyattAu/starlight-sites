@@ -100,12 +100,16 @@ from market indicators.
 The choice of loss function encodes assumptions about the data-generating process and the cost of
 prediction errors:
 
+<div class="table-wrap">
+
 | Loss Function | Formula                              | Sensitivity          | Use Case                       |
 | ------------- | ------------------------------------ | -------------------- | ------------------------------ |
 | Squared (L2)  | $\sum (y_n - \hat{y}_n)^2$           | High to outliers     | Gaussian noise assumption      |
 | Absolute (L1) | $\sum                                \| y_n - \hat{y}\_n     \| $                              | Robust to outliers | Laplacian noise assumption |
 | Huber         | Hybrid L1/L2 with threshold $\delta$ | Tunable              | Balanced robustness/smoothness |
 | Cross-entropy | $-\sum y_n \log \hat{y}_n$           | N/A (classification) | Probabilistic classification   |
+
+</div>
 
 The squared error loss is the negative log-likelihood of a Gaussian likelihood:
 $p(y \mid x, \theta) = \mathcal{N}(y; f(x; \theta), \sigma^2)$. The absolute error corresponds to a

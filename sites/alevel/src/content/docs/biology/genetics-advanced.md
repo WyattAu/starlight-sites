@@ -45,12 +45,16 @@ deposition: $EE$ or $Ee$ = pigment deposited; $ee$ = no pigment deposited (golde
 
 Cross: $BbEe \times BbEe$
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Count | Combined |
 | -------- | --------- | ----- | -------- |
 | $B\_E\_$ | Black     | 9     | 9 black  |
 | $bbE\_$  | Brown     | 3     | 3 brown  |
 | $B\_ee$  | Golden    | 3     | 4 golden |
 | $bbee$   | Golden    | 1     |          |
+
+</div>
 
 The homozygous recessive $ee$ masks the $B/b$ locus, so both $B\_ee$ and $bbee$ are golden. Ratio:
 **9:3:4**.
@@ -65,12 +69,16 @@ yellow; $yy$ = green.
 
 Cross: $WwYy \times WwYy$
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Count | Combined |
 | -------- | --------- | ----- | -------- |
 | $W\_Y\_$ | White     | 9     | 12 white |
 | $W\_yy$  | White     | 3     |          |
 | $wwY\_$  | Yellow    | 3     | 3 yellow |
 | $wwyy$   | Green     | 1     | 1 green  |
+
+</div>
 
 The dominant allele $W$ masks the $Y/y$ locus. Ratio: **12:3:1**.
 
@@ -83,14 +91,20 @@ Gene $C$ and gene $P$ are both required for purple flowers. $cc\_$ or $\_pp$ = w
 
 Cross: $CcPp \times CcPp$
 
+<div class="table-wrap">
+
 | Genotype                     | Phenotype | Count |
 | ---------------------------- | --------- | ----- |
 | $C\_P\_$                     | Purple    | 9     |
 | $ccP\_$ or $C\_pp$ or $ccpp$ | White     | 7     |
 
+</div>
+
 Ratio: **9:7**.
 
 ### 1.3 Summary of Epistatic Ratios
+
+<div class="table-wrap">
 
 | Ratio  | Type of Epistasis             | Pattern                                                         |
 | ------ | ----------------------------- | --------------------------------------------------------------- |
@@ -100,6 +114,8 @@ Ratio: **9:7**.
 | 9:6:1  | Duplicate gene interaction    | Both dominant alleles needed for enhanced phenotype             |
 | 15:1   | Duplicate dominant epistasis  | Dominant allele at either locus sufficient for trait expression |
 | 13:3   | Inhibitory gene interaction   | One dominant allele inhibits the expression of the other gene   |
+
+</div>
 
 :::caution
 interaction between **alleles at the same locus** (one allele masks another at the same gene).
@@ -143,6 +159,8 @@ two loci per meiosis.
 **Worked Example: Three-point mapping.** Three linked genes are: $A$-$B$-$D$ (in this order on the
 chromosome). A test cross $ABD/abd \times abd/abd$ gives:
 
+<div class="table-wrap">
+
 | Phenotype | Number |
 | --------- | ------ |
 | $ABD$     | 380    |
@@ -153,6 +171,8 @@ chromosome). A test cross $ABD/abd \times abd/abd$ gives:
 | $abD$     | 85     |
 | $AbD$     | 15     |
 | $aBd$     | 25     |
+
+</div>
 
 Total = 1000. Parental phenotypes: $ABD$ (380) + $abd$ (370) = 750. Recombinant phenotypes: 250.
 
@@ -184,10 +204,14 @@ $$
 X^HX^h \times X^HY
 $$
 
+<div class="table-wrap">
+
 |       | $X^H$              | $Y$                  |
 | ----- | ------------------ | -------------------- |
 | $X^H$ | $X^HX^H$ (normal)  | $X^HY$ (normal)      |
 | $X^h$ | $X^HX^h$ (carrier) | $X^hY$ (haemophilic) |
+
+</div>
 
 Expected ratio: 1 normal female : 1 carrier female : 1 normal male : 1 affected male.
 
@@ -207,12 +231,16 @@ $\mathrm{df} = 3 - 1 - 1 = 1$.
 A dihybrid cross $AaBb \times AaBb$ (with genes $A$ and $B$ on the same chromosome) produces 200
 offspring:
 
+<div class="table-wrap">
+
 | Phenotype | Observed | Expected (9:3:3:1) | $(O-E)^2/E$ |
 | --------- | -------- | ------------------ | ----------- |
 | $A\_B\_$  | 120      | 112.5              | 0.50        |
 | $A\_bb$   | 10       | 37.5               | 20.17       |
 | $aaB\_$   | 12       | 37.5               | 17.33       |
 | $aabb$    | 58       | 12.5               | 16.56       |
+
+</div>
 
 $\chi^2 = 0.50 + 20.17 + 17.33 + 16.56 = 54.56$.
 
@@ -364,6 +392,8 @@ Sympatric speciation occurs without geographic separation.
 
 **Pre-zygotic barriers** (prevent mating or fertilisation):
 
+<div class="table-wrap">
+
 | Type                  | Example                                        |
 | --------------------- | ---------------------------------------------- |
 | Habitat isolation     | Different microhabitats within same area       |
@@ -372,13 +402,19 @@ Sympatric speciation occurs without geographic separation.
 | Mechanical isolation  | Incompatible genital structures                |
 | Gametic isolation     | Sperm cannot fertilise egg (e.g., sea urchins) |
 
+</div>
+
 **Post-zygotic barriers** (reduce fitness of hybrid offspring):
+
+<div class="table-wrap">
 
 | Type               | Example                                                       |
 | ------------------ | ------------------------------------------------------------- |
 | Hybrid inviability | Zygote does not develop properly                              |
 | Hybrid sterility   | Mule (horse $\times$ donkey): healthy but sterile             |
 | Hybrid breakdown   | F1 hybrids are fertile, but F2 generation has reduced fitness |
+
+</div>
 
 ## 6. Selection and Evolution
 
@@ -400,11 +436,15 @@ beaks for hard seeds, small beaks for soft seeds).
 The **selection coefficient ($s$)** measures the reduction in fitness of a genotype relative to the
 fittest genotype.
 
+<div class="table-wrap">
+
 | Genotype | Relative Fitness ($w$) | Selection Coefficient ($s$) |
 | -------- | ---------------------- | --------------------------- |
 | $AA$     | 1.0                    | 0                           |
 | $Aa$     | 1.0                    | 0                           |
 | $aa$     | $1 - s$                | $s$                         |
+
+</div>
 
 If $s = 1$ (lethal recessive): $aa$ individuals die before reproducing. The frequency of $a$
 decreases by approximately $sq^2$ per generation (for small $q$).
@@ -553,12 +593,16 @@ others.
 
 Factors that reduce $N_e$:
 
+<div class="table-wrap">
+
 | Factor                            | Effect on $N_e$                                                                           | Example                                             |
 | --------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Unequal sex ratio                 | $N_e = \frac{4N_m N_f}{N_m + N_f}$ where $N_m$ = breeding males, $N_f$ = breeding females | Elephant seal harems: few males breed, many females |
 | Variation in reproductive success | Individuals producing more offspring dominate the gene pool                               | Dominant males in deer herds                        |
 | Population fluctuations           | $N_e$ is closer to the minimum population size than the average                           | Population bottlenecks reduce long-term $N_e$       |
 | Overlapping generations           | Not all age classes reproduce simultaneously                                              | Humans, elephants                                   |
+
+</div>
 
 **Worked Example.** A population of elephants has 100 adult males and 400 adult females, but only 5
 males breed (holding harems) while 350 females breed.
@@ -632,12 +676,16 @@ Any genotype with $cc$ or $pp$ (or both) produces white flowers.
 
 Cross: $CcPp \times CcPp$
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Count |
 | -------- | --------- | ----- |
 | $C\_P\_$ | Purple    | 9     |
 | $C\_pp$  | White     | 3     |
 | $ccP\_$  | White     | 3     |
 | $ccpp$   | White     | 1     |
+
+</div>
 
 Ratio: **9:7**.
 
@@ -648,12 +696,16 @@ phenotype. Only the double homozygous recessive ($aabb$) shows the alternate phe
 
 Cross: $AaBb \times AaBb$
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Count |
 | -------- | --------- | ----- |
 | $A\_B\_$ | Round     | 9     |
 | $A\_bb$  | Round     | 3     |
 | $aaB\_$  | Round     | 3     |
 | $aabb$   | Long      | 1     |
+
+</div>
 
 Ratio: **15:1**.
 
@@ -668,6 +720,8 @@ white.
 
 Cross: $IiCc \times IiCc$
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Count |
 | -------- | --------- | ----- |
 | $I\_C\_$ | White     | 9     |
@@ -675,9 +729,13 @@ Cross: $IiCc \times IiCc$
 | $iiC\_$  | Coloured  | 3     |
 | $iicc$   | White     | 1     |
 
+</div>
+
 Ratio: **13:3** (12 white + 1 white from $iicc$ : 3 coloured).
 
 ### 9.4 Recognising Epistatic Ratios
+
+<div class="table-wrap">
 
 | Ratio  | Name                               | Interpretation                                                                   |
 | ------ | ---------------------------------- | -------------------------------------------------------------------------------- |
@@ -687,6 +745,8 @@ Ratio: **13:3** (12 white + 1 white from $iicc$ : 3 coloured).
 | 15:1   | Duplicate gene action              | Either locus alone can produce phenotype                                         |
 | 13:3   | Dominant and recessive interaction | Complex masking between loci                                                     |
 | 9:6:1  | Complementary gene action          | Two dominant alleles needed together for one phenotype; one dominant for another |
+
+</div>
 
 :::caution
 operates **within a single gene locus** (alleles of the same gene), while epistasis operates
@@ -710,12 +770,16 @@ $1\%$ recombination frequency $= 1$ centimorgan (cM) $= 1$ map unit.
 **Worked Example.** In a test cross of $AaBb$ (both dominant alleles on the same chromosome, _cis_
 configuration) with $aabb$ The following offspring are produced:
 
+<div class="table-wrap">
+
 | Phenotype | Count | Type        |
 | --------- | ----- | ----------- |
 | $AB$      | 420   | Parental    |
 | $ab$      | 380   | Parental    |
 | $Ab$      | 100   | Recombinant |
 | $aB$      | 100   | Recombinant |
+
+</div>
 
 $\text{RF} = \frac{100 + 100}{420 + 380 + 100 + 100} = \frac{200}{1000} = 20\%$.
 
@@ -755,6 +819,8 @@ with the second.
 **Haemophilia A** is an X-linked recessive disorder caused by a mutation in the gene encoding
 clotting factor VIII. The gene is located at Xq28.
 
+<div class="table-wrap">
+
 | Genotype | Phenotype (female) | Phenotype (male) |
 | -------- | ------------------ | ---------------- |
 | $X^HX^H$ | Normal             | --               |
@@ -762,6 +828,8 @@ clotting factor VIII. The gene is located at Xq28.
 | $X^hX^h$ | Haemophiliac       | --               |
 | $X^HY$   | --                 | Normal           |
 | $X^hY$   | --                 | Haemophiliac     |
+
+</div>
 
 **Worked Example: Pedigree analysis.** A normal woman whose father was haemophilic marries a normal
 man. What is the probability that their first son will be haemophilic?
@@ -771,10 +839,14 @@ $X^HX^H$ or $X^HX^h$. The woman is $X^HX^h$ (carrier). The man is $X^HY$.
 
 Cross: $X^HX^h \times X^HY$
 
+<div class="table-wrap">
+
 |       | $X^H$                     | $Y$                        |
 | ----- | ------------------------- | -------------------------- |
 | $X^H$ | $X^HX^H$ (normal female)  | $X^HY$ (normal male)       |
 | $X^h$ | $X^HX^h$ (carrier female) | $X^hY$ (haemophiliac male) |
+
+</div>
 
 Probability of a haemophiliac son $= \frac{1}{4}$.
 
@@ -789,11 +861,15 @@ $P = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$.
 **Darwinian fitness** ($w$) is the relative reproductive success of a genotype, measured as the
 proportion of offspring contributed by that genotype compared to the most fit genotype.
 
+<div class="table-wrap">
+
 | Genotype | Number of offspring | Fitness ($w$) | Selection coefficient ($s = 1 - w$) |
 | -------- | ------------------- | ------------- | ----------------------------------- |
 | $AA$     | 180                 | 1.00          | 0                                   |
 | $Aa$     | 160                 | 0.89          | 0.11                                |
 | $aa$     | 100                 | 0.56          | 0.44                                |
+
+</div>
 
 ### 11.2 Effect of Selection on Allele Frequency
 
@@ -827,11 +903,15 @@ equilibrium frequency.
 homozygotes ($Hb^S Hb^S$), but heterozygotes ($Hb^A Hb^S$) have increased resistance to malaria
 caused by _Plasmodium falciparum_.
 
+<div class="table-wrap">
+
 | Genotype    | Fitness in malaria-endemic region         |
 | ----------- | ----------------------------------------- |
 | $Hb^A Hb^A$ | 0.85 (susceptible to malaria)             |
 | $Hb^A Hb^S$ | 1.00 (resistant to malaria, mild anaemia) |
 | $Hb^S Hb^S$ | 0.10 (severe sickle cell disease)         |
+
+</div>
 
 At equilibrium:
 $\hat{q} = \frac{w_{AA} - w_{Aa}}{(w_{AA} - w_{Aa}) + (w_{aa} - w_{Aa})} = \frac{0.85 - 1.00}{(0.85 - 1.00) + (0.10 - 1.00)} = \frac{-0.15}{-0.15 + (-0.90)} = \frac{-0.15}{-1.05} = 0.143$.
@@ -842,11 +922,15 @@ where malaria is endemic.
 
 ### 11.4 Directional, Stabilising, and Disruptive Selection
 
+<div class="table-wrap">
+
 | Type of Selection | Effect                                                           | Example                                                                         |
 | ----------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Directional       | Favouring one extreme phenotype                                  | Antibiotic resistance in bacteria; peppered moth during industrial revolution   |
 | Stabilising       | Favouring the intermediate phenotype, selecting against extremes | Human birth weight (very low and very high birth weights have higher mortality) |
 | Disruptive        | Favouring both extremes, selecting against the intermediate      | Beak size in finches on islands with two seed types                             |
+
+</div>
 
 **Stabilising selection** reduces genetic diversity by favouring the mean.
 
@@ -859,12 +943,16 @@ reproductively isolated.
 
 The ABO blood group is determined by a single gene ($I$) with three alleles: $I^A$$I^B$ And $i$.
 
+<div class="table-wrap">
+
 | Genotype             | Blood Group | Antigens on RBC | Antibodies in Plasma |
 | -------------------- | ----------- | --------------- | -------------------- |
 | $I^A I^A$ or $I^A i$ | A           | A               | anti-B               |
 | $I^B I^B$ or $I^B i$ | B           | B               | anti-A               |
 | $I^A I^B$            | AB          | A and B         | none                 |
 | $ii$                 | O           | none            | anti-A and anti-B    |
+
+</div>
 
 $I^A$ and $I^B$ are **co-dominant** (both expressed in $I^A I^B$ heterozygote). Both are
 **dominant** over $i$.
@@ -874,12 +962,16 @@ $I^A$ and $I^B$ are **co-dominant** (both expressed in $I^A I^B$ heterozygote). 
 A person can receive blood from a donor if their plasma antibodies do not react with the donor's RBC
 antigens:
 
+<div class="table-wrap">
+
 | Recipient | Can Receive From                  |
 | --------- | --------------------------------- |
 | A         | A, O                              |
 | B         | B, O                              |
 | AB        | A, B, AB, O (universal recipient) |
 | O         | O (universal donor)               |
+
+</div>
 
 ### 12.3 The Rhesus (Rh) System
 
@@ -909,10 +1001,14 @@ The man is $I^A I^B$ (AB).
 
 Cross: $I^A i \times I^A I^B$
 
+<div class="table-wrap">
+
 |       | $I^A$         | $I^B$          |
 | ----- | ------------- | -------------- |
 | $I^A$ | $I^A I^A$ (A) | $I^A I^B$ (AB) |
 | $i$   | $I^A i$ (A)   | $I^B i$ (B)    |
+
+</div>
 
 Possible blood groups: **A (50%), AB (25%), B (25%)**.
 
@@ -933,6 +1029,8 @@ trisomy.
 
 ### 13.2 Common Human Aneuploidies
 
+<div class="table-wrap">
+
 | Condition            | Chromosome | Karyotype              | Key Features                                                                                                    |
 | -------------------- | ---------- | ---------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Down syndrome        | 21         | 47,XX,+21 or 47,XY,+21 | Intellectual disability, flat facial profile, single palmar crease, increased risk of leukaemia and Alzheimer's |
@@ -942,6 +1040,8 @@ trisomy.
 | Turner syndrome      | X          | 45,X                   | Female, short stature, webbed neck, streak ovaries, infertile                                                   |
 | Triple X syndrome    | X          | 47,XXX                 | Female, normal, may have learning difficulties                                                                  |
 | XYY syndrome         | Y          | 47,XYY                 | Male, normal, tall                                                                                              |
+
+</div>
 
 ## Common Mistakes
 
@@ -990,6 +1090,8 @@ In a polygenic trait controlled by two genes ($A$ and $B$), each with two allele
 Cross: $AaBb \times AaBb$ (assuming no dominance, each capital letter adds one "unit" to the
 phenotype)
 
+<div class="table-wrap">
+
 | Number of capital letters | Frequency      | Phenotype    |
 | ------------------------- | -------------- | ------------ |
 | 4 ($AABB$)                | $\frac{1}{16}$ | Maximum      |
@@ -997,6 +1099,8 @@ phenotype)
 | 2 ($AaBb, AAbb, aaBB$)    | $\frac{6}{16}$ | Intermediate |
 | 1 ($Aabb, aaBb$)          | $\frac{4}{16}$ |              |
 | 0 ($aabb$)                | $\frac{1}{16}$ | Minimum      |
+
+</div>
 
 This gives a **1:4:6:4:1** ratio, which approximates a normal distribution. With more genes, the
 distribution becomes smoother and more bell-shaped.
@@ -1035,6 +1139,8 @@ pass the condition to approximately 50% of sons and 50% of daughters.
 _PHEX_ gene on the X chromosome. Affected individuals have low blood phosphate, leading to bone
 softening and deformities.
 
+<div class="table-wrap">
+
 | Genotype  | Male Phenotype | Female Phenotype       |
 | --------- | -------------- | ---------------------- |
 | $X^N Y$   | Normal         | --                     |
@@ -1042,6 +1148,8 @@ softening and deformities.
 | $X^n Y$   | Affected       | --                     |
 | $X^N X^n$ | --             | Affected               |
 | $X^n X^n$ | --             | More severely affected |
+
+</div>
 
 ### 16.2 Mitochondrial Inheritance
 
@@ -1054,11 +1162,15 @@ mutation in mitochondrial DNA) has 4 children. All 4 children inherit the mutati
 received their mother's mitochondria). If a man with LHON has children, none of his children inherit
 the mutation (his mitochondria are not transmitted to the offspring).
 
+<div class="table-wrap">
+
 | Parent                                                   | Children Inherit Mutation?                                                                   |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Affected mother $\times$ unaffected father               | All children affected                                                                        |
 | Affected father $\times$ unaffected mother               | No children affected                                                                         |
 | Carrier mother (heteroplasmy) $\times$ unaffected father | Some children may be affected, depending on the proportion of mutant mitochondria in the egg |
+
+</div>
 
 **Heteroplasmy**: a cell can contain a mixture of normal and mutant mitochondria. The proportion of
 mutant mitochondria determines the severity of the disease. If the proportion exceeds a threshold (
@@ -1073,12 +1185,16 @@ the alleles do not assort independently.
 ($L/l$ Long/round) are linked on the same chromosome. A test cross of $PpLl$ (both dominant alleles
 on the same chromosome, _cis_) with $ppll$ produces:
 
+<div class="table-wrap">
+
 | Phenotype               | Observed | Type        |
 | ----------------------- | -------- | ----------- |
 | Purple, long ($PL/pl$)  | 250      | Parental    |
 | White, round ($pl/pl$)  | 250      | Parental    |
 | Purple, round ($Pl/pl$) | 50       | Recombinant |
 | White, long ($pL/pl$)   | 50       | Recombinant |
+
+</div>
 
 $\text{RF} = \frac{50 + 50}{250 + 250 + 50 + 50} = \frac{100}{600} = 16.7\%$.
 
@@ -1158,11 +1274,15 @@ regions they control (colinearity).
 
 Mutations in Hox genes can cause dramatic changes in body plan:
 
+<div class="table-wrap">
+
 | Organism                 | Mutation                                     | Effect                                                      |
 | ------------------------ | -------------------------------------------- | ----------------------------------------------------------- |
 | Fruit fly (_Drosophila_) | Mutation in _Antennapedia_ gene (a Hox gene) | Legs grow in place of antennae on the head                  |
 | Fruit fly                | Mutation in _bithorax_ complex               | An extra pair of wings develops (four wings instead of two) |
 | Vertebrates              | Knockout of Hox genes                        | Homeotic transformations (e.g., ribs on cervical vertebrae) |
+
+</div>
 
 ### 18.2 Homologous Developmental Genes
 
@@ -1195,11 +1315,15 @@ $$
 
 **Worked Example.** Three genotypes at a locus have the following survival rates:
 
+<div class="table-wrap">
+
 | Genotype | Survival Rate | Fitness ($w$) | Selection Coefficient ($s$) |
 | -------- | ------------- | ------------- | --------------------------- |
 | $AA$     | 0.90          | 0.90          | 0.10                        |
 | $Aa$     | 0.95          | 0.95          | 0.05                        |
 | $aa$     | 1.00          | 1.00          | 0.00                        |
+
+</div>
 
 The $aa$ genotype has the highest fitness. The $AA$ genotype has $s = 0.10$.
 
@@ -1266,6 +1390,8 @@ that a random member of the population would have the same profile.
 
 **Standard pedigree symbols:**
 
+<div class="table-wrap">
+
 | Symbol                                  | Meaning                                         |
 | --------------------------------------- | ----------------------------------------------- |
 | Square                                  | Male                                            |
@@ -1278,7 +1404,11 @@ that a random member of the population would have the same profile.
 | Roman numerals (I, II, III)             | Generations (top to bottom)                     |
 | Arabic numerals (1, 2, 3)               | Individuals within a generation (left to right) |
 
+</div>
+
 ### 16.2 Determining the Mode of Inheritance
+
+<div class="table-wrap">
 
 | Pattern                                                                  | Indicates                             |
 | ------------------------------------------------------------------------ | ------------------------------------- |
@@ -1289,6 +1419,8 @@ that a random member of the population would have the same profile.
 | Two unaffected parents have an affected child                            | Recessive (both parents are carriers) |
 | Affected father passes to all daughters (but not sons)                   | X-linked dominant                     |
 | Affected mother passes to approximately 50% of sons and 50% of daughters | X-linked recessive (carrier mother)   |
+
+</div>
 
 ### 16.3 Worked Example: Autosomal Recessive Pedigree
 
@@ -1329,12 +1461,16 @@ base pairs). Key findings:
 
 **Pharmacogenomics** studies how genetic variation affects individual responses to drugs. Examples:
 
+<div class="table-wrap">
+
 | Drug                          | Gene Variant                   | Effect                                                                                          |
 | ----------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------- |
 | Warfarin (anticoagulant)      | _CYP2C9_ and _VKORC1_ variants | Affects dose required; some variants increase bleeding risk                                     |
 | Abacavir (HIV drug)           | _HLA-B\*57:01_ allele          | Increases risk of severe allergic reaction; genetic testing before prescription is recommended  |
 | Codeine (painkiller)          | _CYP2D6_ variants              | Poor metabolisers get no pain relief; ultra-rapid metabolisers may get dangerous opioid effects |
 | 5-Fluorouracil (chemotherapy) | _DPYD_ variants                | Deficient dihydropyrimidine dehydrogenase leads to severe, potentially fatal toxicity           |
+
+</div>
 
 ### 17.3 Comparative Genomics
 
@@ -1354,11 +1490,15 @@ Comparing genomes between species provides insights into evolution:
 Transcription factors (TFs) are proteins that bind to specific DNA sequences (enhancers, promoters,
 silencers) and regulate the rate of transcription of target genes.
 
+<div class="table-wrap">
+
 | Type             | Action                                                                                                            | Example                                                    |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Activator        | Binds to enhancer; recruits RNA polymerase and general transcription factors                                      | Sp1 (binds GC-rich promoter elements)                      |
 | Repressor        | Binds to silencer; blocks transcription by preventing activator binding or recruiting chromatin-modifying enzymes | REST (represses neuronal genes in non-neuronal cells)      |
 | Mediator complex | Bridges transcription factors bound to enhancers with RNA polymerase at the promoter                              | Required for most transcriptional activation in eukaryotes |
+
+</div>
 
 ### 18.2 Post-Transcriptional Regulation
 
@@ -1377,12 +1517,16 @@ Gene expression can also be regulated after transcription:
 
 Even after a protein is synthesised, its activity can be regulated:
 
+<div class="table-wrap">
+
 | Mechanism             | Effect                                                                              | Example                                                       |
 | --------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | Phosphorylation       | Adds a phosphate group; activates or inhibits the protein                           | Glycogen synthase (inhibited by phosphorylation)              |
 | Ubiquitination        | Tags protein for degradation by the proteasome                                      | Cyclins are degraded at specific points in the cell cycle     |
 | Proteolytic cleavage  | Activates a pro-protein by cutting it                                               | Proinsulin $\to$ insulin; trypsinogen $\to$ trypsin           |
 | Allosteric regulation | Effector molecule binds at a site other than the active site, changing conformation | Haemoglobin (2,3-BPG binding reduces $\mathrm{O_2}$ affinity) |
+
+</div>
 :::
 
 :::caution
@@ -1436,11 +1580,15 @@ $$
 The **selection coefficient ($s$)** measures the reduction in fitness of a genotype relative to the
 fittest genotype.
 
+<div class="table-wrap">
+
 | Genotype | Fitness ($w$) | Selection coefficient ($s$)                                        |
 | -------- | ------------- | ------------------------------------------------------------------ |
 | AA       | 1.0           | 0 (reference)                                                      |
 | Aa       | 1.0           | 0                                                                  |
 | aa       | $1 - s$       | $s$ (e.g., if $s = 0.5$ Aa individuals produce 50% fewer offspring) |
+
+</div>
 
 **Selection against a recessive allele:** when $s$ is small, the change in allele frequency per
 generation ($\Delta q$) is approximately:
@@ -1508,6 +1656,8 @@ $$
 
 ### 20.1 Types of Chromosome Mutation
 
+<div class="table-wrap">
+
 | Type            | Description                                                                       | Example                                                                                                |
 | --------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Deletion        | Loss of a segment of a chromosome                                                 | Cri du chat syndrome (deletion of part of chromosome 5)                                                |
@@ -1516,7 +1666,11 @@ $$
 | Translocation   | A segment of one chromosome is transferred to a non-homologous chromosome         | Philadelphia chromosome (translocation between chromosomes 9 and 22; causes chronic myeloid leukaemia) |
 | Non-disjunction | Failure of homologous chromosomes or sister chromatids to separate during meiosis | Down syndrome (trisomy 21); Turner syndrome (XO); Klinefelter syndrome (XXY)                           |
 
+</div>
+
 ### 20.2 Aneuploidy
+
+<div class="table-wrap">
 
 | Condition            | Karyotype              | Sex    | Key Features                                                                                                                            |
 | -------------------- | ---------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1527,6 +1681,8 @@ $$
 | Klinefelter syndrome | 47,XXY                 | M      | Tall stature; small testes; infertility; gynaecomastia (breast development); mild learning difficulties                                 |
 | Triple X syndrome    | 47,XXX                 | F      | asymptomatic; may have tall stature and mild learning difficulties                                                                      |
 | Jacob's syndrome     | 47,XYY                 | M      | asymptomatic; taller than average; normal fertility                                                                                     |
+
+</div>
 
 ### 20.3 Karyotyping
 
@@ -1545,6 +1701,8 @@ prenatal diagnosis (from amniocentesis or chorionic villus sampling).
 
 ### 20.4 Pedigree Analysis
 
+<div class="table-wrap">
+
 | Pattern             | Interpretation                                                                                                                                            | Key Features                                           |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Autosomal dominant  | Affected individuals in every generation; both sexes affected equally; affected individual has at least one affected parent                               | Non-affected individuals do not transmit the condition |
@@ -1552,6 +1710,8 @@ prenatal diagnosis (from amniocentesis or chorionic villus sampling).
 | X-linked recessive  | More males than females affected; affected males pass the allele to all daughters (who are carriers) but not to sons; carrier females pass to 50% of sons | Cannot be transmitted from father to son               |
 | X-linked dominant   | Affected males pass to all daughters; affected females pass to 50% of children; more females than males affected                                          | Can be transmitted from father to daughter             |
 | Mitochondrial       | Transmitted only from mother to all children; both sexes affected                                                                                         | Father does not transmit                               |
+
+</div>
 
 ## 21. Gene Linkage and Chromosome Mapping
 
@@ -1573,6 +1733,8 @@ $= \frac{\text{number of recombinant offspring}}{\text{total number of offspring
 
 **Example:** A dihybrid cross involving two linked genes (A/a and B/b) produces:
 
+<div class="table-wrap">
+
 | Phenotype        | Number   |
 | ---------------- | -------- |
 | AB (parental)    | 420      |
@@ -1580,6 +1742,8 @@ $= \frac{\text{number of recombinant offspring}}{\text{total number of offspring
 | Ab (recombinant) | 100      |
 | aB (recombinant) | 100      |
 | **Total**        | **1000** |
+
+</div>
 
 Recombination frequency $= \frac{100 + 100}{1000} \times 100\% = 20\%$
 
@@ -1594,6 +1758,8 @@ genes).
 
 **Example:** Haemophilia A (factor VIII deficiency).
 
+<div class="table-wrap">
+
 | Genotype           | Sex    | Phenotype                                                               |
 | ------------------ | ------ | ----------------------------------------------------------------------- |
 | $\mathrm{X^H X^H}$ | Female | Normal                                                                  |
@@ -1602,12 +1768,18 @@ genes).
 | $\mathrm{X^H Y}$   | Male   | Normal                                                                  |
 | $\mathrm{X^h Y}$   | Male   | Haemophilia                                                             |
 
+</div>
+
 **Cross:** carrier female ($\mathrm{X^H X^h}$) $\times$ normal male ($\mathrm{X^H Y}$):
+
+<div class="table-wrap">
 
 |                         | $\mathrm{X^H}$ (father)             | Y (father)                       |
 | ----------------------- | ----------------------------------- | -------------------------------- |
 | $\mathrm{X^H}$ (mother) | $\mathrm{X^H X^H}$ (normal female)  | $\mathrm{X^H Y}$ (normal male)   |
 | $\mathrm{X^h}$ (mother) | $\mathrm{X^H X^h}$ (carrier female) | $\mathrm{X^h Y}$ (affected male) |
+
+</div>
 
 Offspring: 25% normal female, 25% carrier female, 25% normal male, 25% affected male.
 
@@ -1622,6 +1794,8 @@ alleles at another locus (the hypostatic locus).
 determines pigment deposition (E) vs no pigment (e). The homozygous recessive ee masks the B/b
 locus.
 
+<div class="table-wrap">
+
 | Genotype  | Phenotype | Ratio  |
 | --------- | --------- | ------ |
 | B*E*      | Black     | 9      |
@@ -1629,11 +1803,15 @@ locus.
 | \_\_ee    | Yellow    | 4      |
 | **Total** |           | **16** |
 
+</div>
+
 ### 22.2 Dominant Epistasis (12:3:1 ratio)
 
 When the dominant allele at one locus masks the expression of alleles at another locus.
 
 **Example:** Squash colour. Gene W (white, dominant) masks gene Y (yellow vs green).
+
+<div class="table-wrap">
 
 | Genotype  | Phenotype | Ratio  |
 | --------- | --------- | ------ |
@@ -1643,6 +1821,8 @@ When the dominant allele at one locus masks the expression of alleles at another
 | wwyy      | Green     | 1      |
 | **Total** |           | **16** |
 
+</div>
+
 ### 22.3 Complementary Gene Action (9:7 ratio)
 
 When two different genes are required for a phenotype; the dominant allele of both genes must be
@@ -1650,6 +1830,8 @@ present for the trait to be expressed.
 
 **Example:** Flower colour in sweet peas. Gene C and gene P are both required for purple flowers. If
 either is homozygous recessive, the flowers are white.
+
+<div class="table-wrap">
 
 | Genotype  | Phenotype | Ratio  |
 | --------- | --------- | ------ |
@@ -1659,12 +1841,16 @@ either is homozygous recessive, the flowers are white.
 | ccpP      | White     | 1      |
 | **Total** |           | **16** |
 
+</div>
+
 ### 22.4 Duplicate Gene Action (15:1 ratio)
 
 When either of two genes (with dominant alleles) can independently produce the same phenotype.
 
 **Example:** Seed shape in shepherd's purse. Either gene A or gene B (dominant) produces triangular
 seeds. Only aabb produces oval seeds.
+
+<div class="table-wrap">
 
 | Genotype  | Phenotype  | Ratio  |
 | --------- | ---------- | ------ |
@@ -1673,6 +1859,8 @@ seeds. Only aabb produces oval seeds.
 | aaB\_     | Triangular | 3      |
 | aabb      | Oval       | 1      |
 | **Total** |            | **16** |
+
+</div>
 
 ## 23. Evolutionary Developmental Biology (Evo-Devo)
 
@@ -1695,12 +1883,16 @@ a 60-amino-acid DNA-binding domain (the homeodomain).
 
 ### 23.2 Hox Gene Clusters in Different Organisms
 
+<div class="table-wrap">
+
 | Organism                    | Number of Hox Clusters                             | Chromosomes  |
 | --------------------------- | -------------------------------------------------- | ------------ |
 | _Drosophila_ (fruit fly)    | 1 cluster (8 genes)                                | 1            |
 | Mouse                       | 4 clusters (HoxA, HoxB, HoxC, HoxD; 13 genes each) | 6, 11, 15, 2 |
 | Human                       | 4 clusters (same as mouse)                         | 7, 17, 12, 2 |
 | Cephalochordates (lancelet) | 1 cluster (14 genes)                               | 1            |
+
+</div>
 
 The expansion from 1 cluster (invertebrates) to 4 clusters (vertebrates) occurred through genome
 duplication events early in vertebrate evolution.
@@ -1748,6 +1940,8 @@ environmental factors (nutrition, childhood health).
 Consider a trait controlled by two genes (A/a and B/b), each with two alleles. The capital letters
 contribute one unit of "height" and the lowercase letters contribute nothing.
 
+<div class="table-wrap">
+
 | Genotype         | Number of Capital Alleles | Phenotype |
 | ---------------- | ------------------------- | --------- |
 | AABB             | 4                         | Tallest   |
@@ -1755,6 +1949,8 @@ contribute one unit of "height" and the lowercase letters contribute nothing.
 | AaBb, AAbb, aaBB | 2                         | Medium    |
 | Aabb, aaBb       | 1                         | Short     |
 | aabb             | 0                         | Shortest  |
+
+</div>
 
 The phenotypic ratio from a dihybrid cross (AaBb $\times$ AaBb) would be:
 
@@ -1774,6 +1970,8 @@ $$
 Where $V_G$ = genetic variance; $V_E$ = environmental variance; $V_P = V_G + V_E$ = total phenotypic
 variance.
 
+<div class="table-wrap">
+
 | Trait                | Approximate Heritability |
 | -------------------- | ------------------------ |
 | Human height         | 0.80 (80%)               |
@@ -1781,6 +1979,8 @@ variance.
 | Type 1 diabetes      | 0.30--0.40               |
 | Skin colour          | 0.70--0.90               |
 | Milk yield in cattle | 0.30--0.40               |
+
+</div>
 
 High heritability does not mean a trait cannot be influenced by the environment. For example, human
 height has high heritability, but malnutrition during childhood significantly reduces adult height.
@@ -1837,6 +2037,8 @@ Genetic bottlenecks reduce genetic diversity, making populations more vulnerable
 
 ### 26.2 Disease-Resistant Crops
 
+<div class="table-wrap">
+
 | Crop   | Disease Resistance Gene                              | Source of Gene      | Status                                                                |
 | ------ | ---------------------------------------------------- | ------------------- | --------------------------------------------------------------------- |
 | Papaya | Papaya ringspot virus coat protein gene              | Papaya              | Commercially available since 1998; saved the Hawaiian papaya industry |
@@ -1844,6 +2046,8 @@ Genetic bottlenecks reduce genetic diversity, making populations more vulnerable
 | Wheat  | Resistance to stem rust (_Puccinia graminis_)        | Wheat relative      | Field trials; some varieties approved                                 |
 | Banana | Resistance to Fusarium wilt (Panama disease)         | Wild banana species | Field trials; resistant varieties being developed                     |
 | Banana | Resistance to Xanthomonas wilt                       | Wild _Musa_ species | Field trials in East Africa                                           |
+
+</div>
 
 ### 26.3 Nitrogen-Fixing Crops
 
@@ -1868,6 +2072,8 @@ Engineering nitrogen fixation into cereals (wheat, rice, maize) would:
 
 ### 26.4 Herbicide-Resistant Crops
 
+<div class="table-wrap">
+
 | Crop                  | Herbicide Resistance Gene            | Company  | Trade Name                  |
 | --------------------- | ------------------------------------ | -------- | --------------------------- |
 | Soybean               | EPSPS (glyphosate tolerance)         | Monsanto | Roundup Ready               |
@@ -1875,9 +2081,13 @@ Engineering nitrogen fixation into cereals (wheat, rice, maize) would:
 | Maize                 | PAT/bar gene (glufosinate tolerance) | Bayer    | Liberty Link                |
 | Cotton                | Cry genes + EPSPS                    | Monsanto | Bollgard II + Roundup Ready |
 
+</div>
+
 ## 27. Genetic Counselling and Genetic Screening Programmes
 
 ### 27.1 Genetic Counselling Process
+
+<div class="table-wrap">
 
 | Step                       | Description                                                                                             |
 | -------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -1887,7 +2097,11 @@ Engineering nitrogen fixation into cereals (wheat, rice, maize) would:
 | 4. Information and support | Explain the condition, inheritance pattern, options, and implications; non-directive counselling        |
 | 5. Decision-making support | Help individuals/couples make informed decisions about reproduction, testing, and treatment             |
 
+</div>
+
 ### 27.2 Population Screening Programmes
+
+<div class="table-wrap">
 
 | Programme                       | Target Population | Test                                                     | Purpose                                                                     |
 | ------------------------------- | ----------------- | -------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -1896,9 +2110,13 @@ Engineering nitrogen fixation into cereals (wheat, rice, maize) would:
 | Cervical screening (smear test) | Women aged 25--64 | HPV DNA test + cytology                                  | Detect HPV infection and pre-cancerous cervical cells                       |
 | Breast screening (mammogram)    | Women aged 50--71 | X-ray imaging                                            | Early detection of breast cancer                                            |
 
+</div>
+
 ### 27.3 Carrier Testing
 
 Carrier testing identifies individuals who carry one copy of a recessive allele:
+
+<div class="table-wrap">
 
 | Condition           | Gene                                           | Carrier Frequency                       | Populations Most Affected                         |
 | ------------------- | ---------------------------------------------- | --------------------------------------- | ------------------------------------------------- |
@@ -1907,12 +2125,16 @@ Carrier testing identifies individuals who carry one copy of a recessive allele:
 | Tay-Sachs disease   | HEXA                                           | 1 in 27 (Ashkenazi Jewish)              | Ashkenazi Jewish descent                          |
 | Thalassaemia        | HBA/HBB genes                                  | 1 in 7--15 (Mediterranean, South Asian) | Mediterranean, Middle Eastern, South Asian        |
 
+</div>
+
 ## 28. Epistasis: Gene Interactions
 
 ### 28.1 What Is Epistasis?
 
 Epistasis occurs when the allele of one gene masks or modifies the expression of alleles at another
 gene locus.
+
+<div class="table-wrap">
 
 | Type                      | Description                                                                             | Example                                                                                                                                  | Ratio (dihybrid cross) |
 | ------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -1922,9 +2144,13 @@ gene locus.
 | Duplicate gene action     | Either dominant allele alone (A*or B*) is sufficient                                   | Seed shape in shepherd's purse: A*or B* gives triangular seeds; aabb gives oval seeds                                                   | 15:1                   |
 | Supplementary gene action | One dominant allele (A*) produces a trait; B* modifies it (9:3:4 but with modification) | Coat colour in Labrador retrievers: E (pigment) > e (no pigment, yellow); B (black) > b (brown). Ee = yellow; E*B* = black; E_bb = brown | 9:3:4                  |
 
+</div>
+
 ### 28.2 Worked Example: Recessive Epistasis in Mice
 
 **Cross:** Two double heterozygotes: $\mathrm{BbCc} \times \mathrm{BbCc}$
+
+<div class="table-wrap">
 
 | Genotype | Phenotype            | Number |
 | -------- | -------------------- | ------ |
@@ -1932,6 +2158,8 @@ gene locus.
 | bbC\_    | Brown                | 3      |
 | B_cc     | Albino (cc masks B)  | 3      |
 | bbcc     | Albino (cc masks bb) | 1      |
+
+</div>
 
 Phenotypic ratio: **9 black : 3 brown : 4 albino**
 
@@ -1942,11 +2170,15 @@ Phenotypic ratio: **9 black : 3 brown : 4 albino**
 Genes on the same chromosome are linked and tend to be inherited together (do not assort
 independently):
 
+<div class="table-wrap">
+
 | Feature          | Independent Assortment (Mendel's 2nd Law)  | Gene Linkage                                                  |
 | ---------------- | ------------------------------------------ | ------------------------------------------------------------- |
 | Genes located    | On different chromosomes                   | On the same chromosome                                        |
 | Gametes produced | Equal proportions of all 4 types (1:1:1:1) | Parental types predominate; recombinant types are less common |
 | Test cross ratio | 1:1:1:1                                    | Deviation from 1:1:1:1; depends on distance between genes     |
+
+</div>
 
 ### 29.2 Calculating Recombination Frequency
 
@@ -1969,12 +2201,16 @@ The genes are 12.5 map units (centimorgans, cM) apart.
 
 Genes on the X chromosome show sex-linked inheritance patterns:
 
+<div class="table-wrap">
+
 | Feature                 | Description                                                                                                                                                    |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Males (XY)              | Have only one X chromosome; express the allele on their single X (hemizygous); cannot be carriers                                                              |
 | Females (XX)            | Have two X chromosomes; can be homozygous, heterozygous (carriers), or homozygous recessive                                                                    |
 | Criss-cross inheritance | Affected father passes the X-linked allele to ALL his daughters (who become carriers) and NONE of his sons (who receive his Y chromosome)                      |
 | Examples                | Colour blindness (red-green, X-linked recessive); haemophilia A (factor VIII deficiency, X-linked recessive); Duchenne muscular dystrophy (X-linked recessive) |
+
+</div>
 
 ## 30. Population Genetics: The Hardy-Weinberg Principle
 
@@ -1984,6 +2220,8 @@ For a gene with two alleles, $p$ and $q$:
 
 $$p + q = 1$$ $$p^2 + 2pq + q^2 = 1$$
 
+<div class="table-wrap">
+
 | Symbol | Meaning                                        |
 | ------ | ---------------------------------------------- |
 | $p$    | Frequency of the dominant allele               |
@@ -1992,7 +2230,11 @@ $$p + q = 1$$ $$p^2 + 2pq + q^2 = 1$$
 | $2pq$  | Frequency of the heterozygous genotype         |
 | $q^2$  | Frequency of the homozygous recessive genotype |
 
+</div>
+
 ### 30.2 Assumptions (Conditions for Equilibrium)
+
+<div class="table-wrap">
 
 | Assumption                  | What It Means                                                    |
 | --------------------------- | ---------------------------------------------------------------- |
@@ -2001,6 +2243,8 @@ $$p + q = 1$$ $$p^2 + 2pq + q^2 = 1$$
 | No mutations                | Allele frequencies do not change due to new mutations            |
 | No migration (no gene flow) | No individuals enter or leave the population                     |
 | No natural selection        | All genotypes have equal fitness; no allele is favoured          |
+
+</div>
 
 ### 30.3 Worked Example
 
@@ -2029,11 +2273,15 @@ Where $O$ = observed value, $E$ = expected value.
 A monohybrid cross of tall (T) and dwarf (t) plants is expected to produce a 3:1 ratio. The actual
 results were: 78 tall, 22 dwarf. Total = 100.
 
+<div class="table-wrap">
+
 | Phenotype | Observed ($O$) | Expected ($E$) | $(O - E)^2 / E$                |
 | --------- | -------------- | -------------- | ------------------------------ |
 | Tall      | 78             | 75             | $(78-75)^2 / 75 = 9/75 = 0.12$ |
 | Dwarf     | 22             | 25             | $(22-25)^2 / 25 = 9/25 = 0.36$ |
 | **Total** | **100**        | **100**        | $\chi^2 = 0.12 + 0.36 = 0.48$  |
+
+</div>
 
 Degrees of freedom = number of categories - 1 = 2 - 1 = 1.
 
@@ -2044,6 +2292,8 @@ expected 3:1 ratio.
 
 ### 31.3 Chi-Squared Rules
 
+<div class="table-wrap">
+
 | Rule                         | Description                                                                                    |
 | ---------------------------- | ---------------------------------------------------------------------------------------------- |
 | Null hypothesis              | There is no significant difference between observed and expected values                        |
@@ -2052,9 +2302,13 @@ expected 3:1 ratio.
 | If $\chi^2 <$ critical value | Accept the null hypothesis (difference is not significant; any difference is due to chance)    |
 | Conditions                   | Expected values must be $\geq 5$ in each category; data must be in categories (not continuous) |
 
+</div>
+
 ## 32. Continuous and Discontinuous Variation
 
 ### 32.1 Comparison
+
+<div class="table-wrap">
 
 | Feature                 | Continuous Variation                                                  | Discontinuous Variation                                                                 |
 | ----------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
@@ -2064,9 +2318,13 @@ expected 3:1 ratio.
 | Distribution            | Normal distribution (bell curve) when plotted                         | Discrete categories (bar chart)                                                         |
 | Examples                | Height, weight, skin colour, intelligence, milk yield in cows         | Blood group, eye colour, sex, flower colour in peas, tongue rolling, earlobe attachment |
 
+</div>
+
 ### 32.2 Polygenic Inheritance
 
 Height is a classic example of polygenic inheritance:
+
+<div class="table-wrap">
 
 | Feature               | Description                                                                   |
 | --------------------- | ----------------------------------------------------------------------------- |
@@ -2075,11 +2333,15 @@ Height is a classic example of polygenic inheritance:
 | Environmental factors | Nutrition, health, and disease in childhood significantly affect final height |
 | Normal distribution   | Most people are near the average height; very few are extremely tall or short |
 
+</div>
+
 ## 33. Operon Model (Gene Regulation in Prokaryotes)
 
 ### 33.1 The lac Operon
 
 The lac operon in _E. Coli_ controls the metabolism of lactose:
+
+<div class="table-wrap">
 
 | Component                | Description                                                                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2088,7 +2350,11 @@ The lac operon in _E. Coli_ controls the metabolism of lactose:
 | Operator                 | Region where the lac repressor binds; when repressor is bound, RNA polymerase cannot transcribe                                      |
 | Regulatory gene (_lacI_) | Located upstream; produces the lac repressor protein (constitutively expressed)                                                      |
 
+</div>
+
 ### 33.2 lac Operon Regulation
+
+<div class="table-wrap">
 
 | Condition                        | Repressor                              | Transcription | Explanation                                                                                                                                      |
 | -------------------------------- | -------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2097,9 +2363,13 @@ The lac operon in _E. Coli_ controls the metabolism of lactose:
 | Lactose present, glucose present | Partially repressed                    | LOW           | cAMP levels are low (glucose inhibits adenylate cyclase); CAP-cAMP complex does not form; RNA polymerase binds poorly to the promoter            |
 | Lactose absent, glucose absent   | Bound to operator                      | OFF           | No lactose to inactivate repressor; structural genes not needed                                                                                  |
 
+</div>
+
 ## 34. Genetic Screening and Testing
 
 ### 34.1 Types of Genetic Tests
+
+<div class="table-wrap">
 
 | Test Type                                | When It Is Done                             | What It Detects                                                                                          |
 | ---------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -2109,7 +2379,11 @@ The lac operon in _E. Coli_ controls the metabolism of lactose:
 | Carrier testing                          | Before or during pregnancy (or at any time) | Carrier status for recessive disorders (cystic fibrosis, sickle cell, Tay-Sachs)                         |
 | Predictive testing                       | In adulthood (for late-onset conditions)    | Huntington's disease; BRCA1/BRCA2 (breast/ovarian cancer); familial hypercholesterolaemia                |
 
+</div>
+
 ### 34.2 Amniocentesis vs Chorionic Villus Sampling
+
+<div class="table-wrap">
 
 | Feature             | Amniocentesis                                                                                             | Chorionic Villus Sampling (CVS)                                                             |
 | ------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -2119,11 +2393,15 @@ The lac operon in _E. Coli_ controls the metabolism of lactose:
 | Results available   | 2--3 weeks                                                                                                | 1--2 weeks (faster)                                                                         |
 | Conditions detected | Chromosomal abnormalities (e.g., Down syndrome); some single-gene disorders                               | Same as amniocentesis                                                                       |
 
+</div>
+
 ## 35. Pharmacogenomics
 
 ### 35.1 What Is Pharmacogenomics?
 
 Pharmacogenomics is the study of how genetic variation affects an individual's response to drugs.
+
+<div class="table-wrap">
 
 | Example                       | Gene              | Effect on Drug Response                                                                                                                 |
 | ----------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2133,7 +2411,11 @@ Pharmacogenomics is the study of how genetic variation affects an individual's r
 | Codeine                       | CYP2D6            | Ultra-rapid metabolisers convert codeine to morphine too quickly (risk of respiratory depression); poor metabolisers get no pain relief |
 | 5-Fluorouracil (chemotherapy) | DPYD              | Deficiency in DPD enzyme (encoded by DPYD) leads to severe, potentially fatal toxicity from standard doses                              |
 
+</div>
+
 ### 35.2 Benefits of Pharmacogenomics
+
+<div class="table-wrap">
 
 | Benefit                        | Description                                                               |
 | ------------------------------ | ------------------------------------------------------------------------- |
@@ -2142,9 +2424,13 @@ Pharmacogenomics is the study of how genetic variation affects an individual's r
 | Improved efficacy              | Ensures patients receive drugs that will work for their genotype          |
 | Cost savings                   | Avoids wasted prescriptions and hospitalisations from adverse reactions   |
 
+</div>
+
 ## 36. CRISPR-Cas9 Gene Editing
 
 ### 36.1 How CRISPR-Cas9 Works
+
+<div class="table-wrap">
 
 | Component        | Description                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -2153,14 +2439,22 @@ Pharmacogenomics is the study of how genetic variation affects an individual's r
 | PAM sequence     | Protospacer adjacent motif (5'-NGG-3'); must be present adjacent to the target sequence for Cas9 to cut; provides target specificity |
 | Repair template  | A DNA template supplied by the scientist; contains the desired sequence to be inserted (for gene correction or insertion)            |
 
+</div>
+
 ### 36.2 DNA Repair After CRISPR Cut
+
+<div class="table-wrap">
 
 | Repair Pathway                    | What Happens                                                                                                     | Use                                                                       |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Non-homologous end joining (NHEJ) | The two broken ends of DNA are rejoined; often introduces insertions or deletions (indels) that disrupt the gene | Gene knockout (disrupting a gene to study its function)                   |
 | Homology-directed repair (HDR)    | The cell uses the supplied repair template to accurately repair the break                                        | Gene correction (fixing a mutation) or gene insertion (adding a new gene) |
 
+</div>
+
 ### 36.3 Applications of CRISPR
+
+<div class="table-wrap">
 
 | Application         | Description                                                                                                            |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -2170,7 +2464,11 @@ Pharmacogenomics is the study of how genetic variation affects an individual's r
 | Diagnostics         | SHERLOCK and DETECTR platforms use CRISPR for rapid detection of pathogens (e.g., SARS-CoV-2)                          |
 | Xenotransplantation | Editing pig genomes to reduce rejection of pig organs transplanted into humans                                         |
 
+</div>
+
 ### 36.4 Ethical Considerations
+
+<div class="table-wrap">
 
 | Issue              | Description                                                                                                                   |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -2179,6 +2477,8 @@ Pharmacogenomics is the study of how genetic variation affects an individual's r
 | Designer babies    | CRISPR could theoretically be used for non-medical enhancement (e.g., intelligence, physical traits)                          |
 | Consent            | Future generations cannot consent to heritable changes made to their genome                                                   |
 | Equity             | Expensive; may only be available to the wealthy; could increase social inequality                                             |
+
+</div>
 
 ## 51. Pharmacogenomics
 
@@ -2189,6 +2489,8 @@ combines pharmacology (the science of drugs) and genomics (the study of genes an
 
 ### 51.2 Key Examples
 
+<div class="table-wrap">
+
 | Drug                          | Gene(s) Involved   | Effect of Genetic Variation                                                                                                             |
 | ----------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Warfarin (anticoagulant)      | _CYP2C9_, _VKORC1_ | Variants in _CYP2C9_ slow warfarin metabolism (risk of bleeding); variants in _VKORC1_ increase sensitivity to warfarin                 |
@@ -2197,7 +2499,11 @@ combines pharmacology (the science of drugs) and genomics (the study of genes an
 | Clopidogrel (antiplatelet)    | _CYP2C19_          | Poor metabolisers cannot activate the prodrug; increased risk of stent thrombosis                                                       |
 | 5-Fluorouracil (chemotherapy) | _DPYD_             | Deficiency in DPD enzyme leads to toxic accumulation; potentially fatal                                                                 |
 
+</div>
+
 ### 51.3 Clinical Implementation
+
+<div class="table-wrap">
 
 | Step                   | Description                                                                            |
 | ---------------------- | -------------------------------------------------------------------------------------- |
@@ -2205,6 +2511,8 @@ combines pharmacology (the science of drugs) and genomics (the study of genes an
 | 2. Interpret results   | Compare patient genotype to known drug-gene associations                               |
 | 3. Adjust prescription | Choose alternative drug, adjust dose, or increase monitoring                           |
 | 4. Monitor outcome     | Assess therapeutic response and adverse effects                                        |
+
+</div>
 
 ## 52. Genetic Counselling
 
@@ -2216,6 +2524,8 @@ transmitting it, and the options available for management and prevention.
 
 ### 52.2 The Genetic Counselling Process
 
+<div class="table-wrap">
+
 | Step                 | Description                                                                                                                                   |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Pedigree analysis | Construct a family tree (pedigree chart) showing the inheritance pattern of the condition across generations                                  |
@@ -2224,7 +2534,11 @@ transmitting it, and the options available for management and prevention.
 | 4. Explanation       | Explain the results of genetic tests in clear, non-technical language; discuss the implications for the individual and family                 |
 | 5. Support           | Provide emotional and psychological support; refer to support groups; respect the individual's autonomy and right to make their own decisions |
 
+</div>
+
 ### 52.3 Ethical Principles in Genetic Counselling
+
+<div class="table-wrap">
 
 | Principle         | Description                                                                                                                                           |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2232,6 +2546,8 @@ transmitting it, and the options available for management and prevention.
 | Non-directiveness | The counsellor should not tell the individual what to do; they should provide information and support                                                 |
 | Confidentiality   | Genetic information about one individual may have implications for relatives; balancing confidentiality with the duty to warn is an ethical challenge |
 | Informed consent  | The individual must understand the purpose, risks, benefits, and limitations of genetic testing before agreeing to it                                 |
+
+</div>
 
 ## 53. Population Genetics
 
@@ -2254,6 +2570,8 @@ Where $p + q = 1$.
 
 ### 53.3 Conditions for Hardy-Weinberg Equilibrium
 
+<div class="table-wrap">
+
 | Condition                   | Why It Matters                                               |
 | --------------------------- | ------------------------------------------------------------ |
 | Large population size       | Prevents genetic drift (random changes in allele frequency)  |
@@ -2262,13 +2580,19 @@ Where $p + q = 1$.
 | Random mating               | No sexual selection favouring particular genotypes           |
 | No natural selection        | All genotypes have equal fitness (survival and reproduction) |
 
+</div>
+
 If all conditions are met: $p^2 + 2pq + q^2 = 1$
+
+<div class="table-wrap">
 
 | Genotype                     | Frequency | Phenotype |
 | ---------------------------- | --------- | --------- |
 | $p^2$ (homozygous dominant)  | $p^2$     | Dominant  |
 | $2pq$ (heterozygous)         | $2pq$     | Dominant  |
 | $q^2$ (homozygous recessive) | $q^2$     | Recessive |
+
+</div>
 
 ## 54. Chi-Squared Test
 
@@ -2290,6 +2614,8 @@ Where:
 
 ### 54.3 Steps
 
+<div class="table-wrap">
+
 | Step                            | Description                                                                                                                                                                                                                                                    |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. State the null hypothesis    | There is no significant difference between observed and expected results; any difference is due to chance                                                                                                                                                      |
@@ -2298,6 +2624,8 @@ Where:
 | 4. Determine degrees of freedom | $df = n - 1$ (where $n$ is the number of categories/phenotypic classes)                                                                                                                                                                                        |
 | 5. Compare to critical value    | Look up the critical value in a chi-squared table at $p = 0.05$ (95% confidence level) with the appropriate degrees of freedom                                                                                                                                 |
 | 6. Conclusion                   | If $\chi^2$ calculated > critical value: reject the null hypothesis (the difference is significant; the observed results do not fit the expected ratio); if $\chi^2$ calculated < critical value: accept the null hypothesis (any difference is due to chance) |
+
+</div>
 
 ---
 

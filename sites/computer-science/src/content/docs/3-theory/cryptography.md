@@ -23,12 +23,16 @@ categories:
 
 ### 1.1 Cryptographic Goals
 
+<div class="table-wrap">
+
 | Goal | Threat Addressed |
 | ----------------- | ------------------------------------- |
 | **Confidentiality** | Eavesdropping |
 | **Integrity** | Tampering with messages |
 | **Authentication** | Impersonation |
 | **Non-repudiation** | Denying having sent a message |
+
+</div>
 
 ### 1.2 Kerckhoffs" Principle
 
@@ -120,6 +124,8 @@ KEY_SCHEDULE(key):
 
 ### 2.4 Block Cipher Modes of Operation
 
+<div class="table-wrap">
+
 | Mode        | Description                                    | Parallel | Error Propagation |
 | ----------- | ---------------------------------------------- | -------- | ----------------- |
 | **ECB**     | Each block encrypted independently             | Yes      | None (blocks independent) |
@@ -128,6 +134,8 @@ KEY_SCHEDULE(key):
 | **CFB**     | Plaintext XORed with encrypted previous output | No       | 1 block           |
 | **OFB**     | Keystream from encrypting IV repeatedly       | Yes      | None              |
 | **GCM**     | CTR mode + authentication tag                 | Yes      | Authentication    |
+
+</div>
 
 **ECB vulnerability:** Identical plaintext blocks produce identical ciphertext blocks. Never use ECB for messages longer than one block.
 
@@ -259,11 +267,15 @@ ECDSA_VERIFY(msg, sig (r,s), public_key Q):
 
 **Advantage:** Same security as RSA-2048 with ~256-bit ECC keys.
 
+<div class="table-wrap">
+
 | Security Level | RSA Key | ECC Key |
 | -------------- | ------- | ------- |
 | 80-bit        | 1024    | 160     |
 | 128-bit       | 3072    | 256     |
 | 256-bit       | 15360   | 521     |
+
+</div>
 
 ## 4. Hash Functions
 
@@ -321,6 +333,8 @@ $$
 
 ### 4.4 Hash Function Comparison
 
+<div class="table-wrap">
+
 | Function | Output (bits) | Block (bits) | Rounds | Status |
 | --------- | ------------- | ------------ | ------ | ------------------- |
 | MD5 | 128 | 512 | 64 | Broken |
@@ -328,6 +342,8 @@ $$
 | SHA-256 | 256 | 512 | 64 | Secure |
 | SHA-3 | 256 | 1088 | 24 | Secure (Keccak) |
 | BLAKE2 | 256/512 | 128 | 10-14 | Secure, very fast |
+
+</div>
 
 ## 5. Digital Signatures
 
@@ -499,11 +515,15 @@ VERIFIER:
 
 ### 9.2 NIST Post-Quantum Standards (2024)
 
+<div class="table-wrap">
+
 | Algorithm   | Type                    | Use                    |
 | ----------- | ----------------------- | ---------------------- |
 | **ML-KEM**  | Lattice-based (KEM)     | Key encapsulation (replaces DH) |
 | **ML-DSA**  | Lattice-based (signature) | Digital signatures (replaces RSA/ECDSA) |
 | **SLH-DSA** | Hash-based (signature) | Stateful hash signatures |
+
+</div>
 
 **ML-KEM (Module-Lattice Key Encapsulation Mechanism):** Based on the hardness of the Module Learning With Errors (MLWE) problem.
 
@@ -523,6 +543,8 @@ ML-KEM_DECAP(sk, c):
 
 ### 9.3 Practical Recommendations
 
+<div class="table-wrap">
+
 | Algorithm              | Quantum Safe?  | Transition Plan        |
 | ---------------------- | -------------- | ---------------------- |
 | AES-256                | Yes (Grover: 128-bit security) | Keep, double key size |
@@ -530,6 +552,8 @@ ML-KEM_DECAP(sk, c):
 | ECDSA / ECDH           | No             | Replace with ML-DSA / ML-KEM |
 | SHA-256                | Yes            | Keep                    |
 | ChaCha20-Poly1305      | Yes            | Keep                    |
+
+</div>
 
 **Hybrid approach:** Use classical + post-quantum algorithms simultaneously during transition (e.g., X25519 + ML-KEM).
 
@@ -583,8 +607,12 @@ Cryptography is the science of keeping secrets. Symmetric encryption (AES) is li
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic | Link |
 | ------- | ------ |
 | Algorithms Overview | View |
 | Network Security | [View](/2-systems/networking/) |
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
+
+</div>

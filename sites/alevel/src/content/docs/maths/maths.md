@@ -29,6 +29,8 @@ Physical world with mathematics.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Topic                             | AQA        | Edexcel | OCR (A)    | CIE (9709) |
 | --------------------------------- | ---------- | ------- | ---------- | ---------- |
 | Pure: Algebra & Functions         | Paper 1    | P1, P2  | Paper 1    | P1, P3     |
@@ -48,6 +50,8 @@ Physical world with mathematics.
 | Mechanics: Forces & Newton's Laws | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Moments                | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Energy & Work          | Paper 3    | M2      | Paper 3    | M2         |
+
+</div>
 
 ### Course Structure
 
@@ -82,12 +86,16 @@ The pure mathematics core is the backbone of the course. It develops:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                              | Weighting       |
 | ------- | --------------------------------------------------- | --------------- |
 | AQA     | Paper 1 (Pure), Paper 2 (Pure), Paper 3 (Stat/Mech) | 33.3% each      |
 | Edexcel | P1, P2, P3 (Pure), S1, M1 (Applied)                 | Varies by route |
 | OCR (A) | Paper 1 (Pure), Paper 2 (Pure), Paper 3 (Stat/Mech) | 33.3% each      |
 | CIE     | P1, P2, P3 (Pure), M1, S1 (Applied)                 | Varies          |
+
+</div>
 
 > **Note:** CIE is a linear qualification. AQA, Edexcel, and OCR (A) are also linear (all exams at
 > end of Year 13), though AS stand-alone qualifications exist.
@@ -129,11 +137,15 @@ marks are consistently lost.
 
 ### Key Formulae
 
+<div class="table-wrap">
+
 | Topic                | Formula                                                 |
 | -------------------- | ------------------------------------------------------- |
 | Quadratic formula    | $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$             |
 | Chain rule           | $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ |
 | Integration by parts | $\\int u\\,dv = uv - \\int v\\,du$                      |
+
+</div>
 
 ## Summary
 

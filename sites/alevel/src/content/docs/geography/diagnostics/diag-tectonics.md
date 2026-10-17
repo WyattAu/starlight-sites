@@ -120,6 +120,8 @@ sidebar_position: 40
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Answer | Topic                    |
 | :------: | :----: | :----------------------- |
 |    1     |  (B)   | Plate Tectonics Theory   |
@@ -132,6 +134,8 @@ sidebar_position: 40
 |    8     |  (B)   | Earthquake Mechanisms     |
 |    9     |  (B)   | Volcanic Landforms        |
 |    10    |  (B)   | Vulnerability & Development |
+
+</div>
 
 ---
 

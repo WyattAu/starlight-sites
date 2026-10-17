@@ -20,6 +20,8 @@ categories: [TypeScript]
 
 TypeScript provides seven primitive types that correspond directly to JavaScript runtime values:
 
+<div class="table-wrap">
+
 | Type        | Description                                               | Example Values                |
 | ----------- | --------------------------------------------------------- | ----------------------------- |
 | `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
@@ -29,6 +31,8 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 | `undefined` | Uninitialised or absent value                             | `undefined`                   |
 | `symbol`    | Globally unique identifiers (ES2015+)                     | `Symbol("id")`                |
 | `bigint`    | Arbitrary-precision integers (ES2020+)                    | `0n``9007199254740993n`       |
+
+</div>
 
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
@@ -196,6 +200,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                  | `interface`   | `type`  |
 | ------------------------ | ------------- | ------- |
 | Object shapes            | Yes           | Yes     |
@@ -207,6 +213,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 | Tuple types              | No            | Yes     |
 | Extends other interfaces | Yes           | N/A     |
 | Extends classes          | Yes           | No      |
+
+</div>
 
 ### When to Use Each
 
@@ -414,12 +422,16 @@ type HandlerName = 'onClick' | 'onFocus' | 'onBlur';
 
 Template literal types distribute over unions and support the following intrinsic string types:
 
+<div class="table-wrap">
+
 | Intrinsic Type    | Operation                    |
 | ----------------- | ---------------------------- |
 | `Uppercase<S>`    | Convert to uppercase         |
 | `Lowercase<S>`    | Convert to lowercase         |
 | `Capitalize<S>`   | Capitalize first character   |
 | `Uncapitalize<S>` | Uncapitalize first character |
+
+</div>
 
 ```ts
 type CSSProperty = 'margin' | 'padding';

@@ -74,6 +74,8 @@ Directly transferable to power management in data centers and embedded systems.
 
 ## Risk Assessment
 
+<div class="table-wrap">
+
 | Technique           | Performance Gain           | Thermal Impact            | Risk Level  | Reversibility                 |
 | ------------------- | -------------------------- | ------------------------- | ----------- | ----------------------------- |
 | CPU Undervolting    | 0–5% (sustained)           | Large reduction           | Low         | Fully reversible              |
@@ -82,6 +84,8 @@ Directly transferable to power management in data centers and embedded systems.
 | GPU Overclocking    | 5–15%                      | Moderate increase         | Medium      | Fully reversible              |
 | Memory Overclocking | 3–15% (workload-dependent) | Moderate increase         | Medium      | Fully reversible              |
 | BCLK Overclocking   | Variable                   | Can affect all components | High        | Fully reversible              |
+
+</div>
 
 **Important:** "Fully reversible" means you can restore stock settings. It does not mean there is
 Zero risk of data corruption during instability. Always save your work before stress testing.

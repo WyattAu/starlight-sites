@@ -1138,6 +1138,8 @@ convex, reflecting the matching frictions.
 
 **Example.** A student is deciding whether to pursue a master's degree. Data:
 
+<div class="table-wrap">
+
 |                      |  No master's   |        With master's        |
 | -------------------- | :------------: | :-------------------------: |
 | Age at start of work |       21       |             23              |
@@ -1145,6 +1147,8 @@ convex, reflecting the matching frictions.
 | Annual salary growth |       3%       |            3.5%             |
 | Working years        | 44 (to age 65) |       42 (to age 65)        |
 | Cost of master's     |       0        | GBP 15,000/year for 2 years |
+
+</div>
 
 **Earnings without master's (age 21 to 65):** Year 1 (age 21): 28,000. Year 10 (age 30):
 $28\,000 \times 1.03^9 = 36\,598$. Year 22 (age 42): $28\,000 \times 1.03^{21} = 50\,776$. Year 44
@@ -1222,11 +1226,15 @@ basis for anti-immigration sentiment, even when immigration is economically bene
 **Example.** Labour supply: $w = 20 + L$ (pre-tax). Labour demand (MRPL): $w = 100 - L$. The
 government introduces a progressive income tax:
 
+<div class="table-wrap">
+
 | Tax band | Rate | Threshold |
 | -------- | :--: | :-------: |
 | 0-30     | 20%  |     0     |
 | 30-60    | 40%  |    30     |
 | Above 60 | 50%  |    60     |
+
+</div>
 
 **Pre-tax equilibrium:** $20 + L = 100 - L \Rightarrow 2L = 80 \Rightarrow L = 40$, $w = 60$.
 

@@ -81,6 +81,8 @@ Increasing temperature:
 
 ### Derivation from Empirical Laws
 
+<div class="table-wrap">
+
 | Law          | Relationship    | Condition held constant |
 | ------------ | --------------- | ----------------------- |
 | Boyle's      | $P \propto 1/V$ | $n$, $T$                |
@@ -88,11 +90,15 @@ Increasing temperature:
 | Gay-Lussac's | $P \propto T$   | $n$, $V$                |
 | Avogadro's   | $V \propto n$   | $P$, $T$                |
 
+</div>
+
 Combining: $PV \propto nT$ Giving the ideal gas equation:
 
 $$
 PV = nRT
 $$
+
+<div class="table-wrap">
 
 | Symbol | Meaning                | SI Unit                          |
 | ------ | ---------------------- | -------------------------------- |
@@ -101,6 +107,8 @@ $$
 | $n$    | Amount of substance    | $\mathrm{mol}$                   |
 | $R$    | Universal gas constant | $8.314\mathrm{ J/(mol \cdot K)}$ |
 | $T$    | Temperature            | $\mathrm{K}$                     |
+
+</div>
 
 ### Molar Volume
 
@@ -164,10 +172,14 @@ $$
 \left(P + \frac{an^2}{V^2}\right)(V - nb) = nRT
 $$
 
+<div class="table-wrap">
+
 | Parameter | Meaning                                     |
 | --------- | ------------------------------------------- |
 | $a$       | Corrects for intermolecular attractions     |
 | $b$       | Corrects for the finite volume of molecules |
+
+</div>
 
 - The $a$ term increases the effective pressure (attractions reduce the pressure exerted on the
   walls).
@@ -175,11 +187,15 @@ $$
 
 ### Comparing Gases
 
+<div class="table-wrap">
+
 | Gas             | $a$ ($\mathrm{L}^2\cdot\mathrm{atm/mol}^2$) | $b$ ($\mathrm{L/mol}$) | Behaviour           |
 | --------------- | ------------------------------------------- | ---------------------- | ------------------- |
 | He              | $0.034$                                     | $0.024$                | Closest to ideal    |
 | $\mathrm{N}_2$  | $1.39$                                      | $0.039$                | Moderate deviations |
 | $\mathrm{CO}_2$ | $3.59$                                      | $0.043$                | Largest deviations  |
+
+</div>
 
 Gases with larger $a$ values (stronger intermolecular forces) and larger $b$ values (larger
 Molecules) deviate more from ideal behaviour.
@@ -209,6 +225,8 @@ $$
 
 ### Types and Relative Strengths
 
+<div class="table-wrap">
+
 | Force                | Strength | Present in                        |
 | -------------------- | -------- | --------------------------------- |
 | Covalent/ionic bonds | Strong   | Within molecules/ionic lattices   |
@@ -216,6 +234,8 @@ $$
 | Hydrogen bonding     | Moderate | H bonded to N, O, or F            |
 | Dipole-dipole        | Weak     | Polar molecules                   |
 | London dispersion    | Weakest  | All molecules (temporary dipoles) |
+
+</div>
 
 ### London Dispersion Forces
 
@@ -229,10 +249,14 @@ Factors affecting strength:
 2. **Molecular shape**: larger surface area of contact = stronger forces. Linear molecules have
    stronger dispersion forces than branched isomers.
 
+<div class="table-wrap">
+
 | Comparison                            | Stronger LDF    | Reason                                     |
 | ------------------------------------- | --------------- | ------------------------------------------ |
 | $\mathrm{F}_2$ vs $\mathrm{Cl}_2$     | $\mathrm{Cl}_2$ | More electrons                             |
 | $\mathrm{C}_5\mathrm{H}_{12}$ isomers | n-pentane       | Greater surface area than branched isomers |
+
+</div>
 
 ### Dipole-Dipole Forces
 
@@ -256,6 +280,8 @@ Requirements:
 
 #### Effects of Hydrogen Bonding
 
+<div class="table-wrap">
+
 | Property               | Effect                               | Example                                                                                                      |
 | ---------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
 | Boiling point          | Much higher than expected            | $\mathrm{H}_2\mathrm{O}$ (bp $100\degree\mathrm{C}$) vs $\mathrm{H}_2\mathrm{S}$ (bp $-60\degree\mathrm{C}$) |
@@ -264,6 +290,8 @@ Requirements:
 | Solubility             | Enhances solubility of polar species | Glucose dissolves in water                                                                                   |
 | Density anomaly        | Ice less dense than liquid water     | Open hydrogen-bonded structure of ice                                                                        |
 | Biological specificity | DNA base pairing, protein folding    | Complementary H-bond donors/acceptors                                                                        |
+
+</div>
 
 #### Anomalous Properties of Water
 
@@ -302,11 +330,15 @@ Key features:
 
 ### Phase Boundaries
 
+<div class="table-wrap">
+
 | Boundary      | Process          | Condition                           |
 | ------------- | ---------------- | ----------------------------------- |
 | Solid--liquid | Melting/freezing | Equilibrium curve                   |
 | Liquid--gas   | Vaporisation     | Vapour pressure = external pressure |
 | Solid--gas    | Sublimation      | Direct transition                   |
+
+</div>
 
 ### Water's Phase Diagram
 
@@ -341,6 +373,8 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 
 ### Solids
 
+<div class="table-wrap">
+
 | Property      | Ionic Solids            | Molecular Solids | Covalent Network       | Metallic Solids                       |
 | ------------- | ----------------------- | ---------------- | ---------------------- | ------------------------------------- |
 | Particles     | Ions                    | Molecules        | Atoms                  | Metal cations + delocalised electrons |
@@ -348,6 +382,8 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 | Melting point | High                    | Low              | Very high              | Variable                              |
 | Conductivity  | Conduct when molten     | Insulators       | Insulators (except Si) | Good conductors                       |
 | Solubility    | Often in polar solvents | Varies           | Insoluble              | Insoluble                             |
+
+</div>
 
 ---
 

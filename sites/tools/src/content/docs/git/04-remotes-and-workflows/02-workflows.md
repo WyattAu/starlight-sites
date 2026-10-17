@@ -63,6 +63,8 @@ gitGraph
 
 ### Advantages
 
+<div class="table-wrap">
+
 | Advantage               | Explanation                                                     |
 | ----------------------- | --------------------------------------------------------------- |
 | **No merge hell**       | No large, complex merges, changes are integrated incrementally |
@@ -70,7 +72,11 @@ gitGraph
 | **Easy rollback**       | `git revert <hash>` undoes a single commit                      |
 | **Simplified workflow** | No branch management overhead                                   |
 
+</div>
+
 ### Disadvantages
+
+<div class="table-wrap">
 
 | Disadvantage                    | Mitigation                                  |
 | ------------------------------- | ------------------------------------------- |
@@ -78,6 +84,8 @@ gitGraph
 | Feature flags add complexity    | Use a feature flag management system        |
 | Large teams may have contention | Use short-lived feature branches (< 1 day)  |
 | Requires disciplined commits    | Commit frequently, keep commits atomic      |
+
+</div>
 
 ### When to Use
 
@@ -176,6 +184,8 @@ flowchart TD
 
 ### Branch Types
 
+<div class="table-wrap">
+
 | Branch      | Purpose                 | Lifetime  | Created From | Merges Into        |
 | ----------- | ----------------------- | --------- | ------------ | ------------------ |
 | `main`      | Production releases     | Permanent |,            |,                  |
@@ -183,6 +193,8 @@ flowchart TD
 | `feature/*` | Feature development     | Short     | `develop`    | `develop`          |
 | `release/*` | Release preparation     | Short     | `develop`    | `main` + `develop` |
 | `hotfix/*`  | Urgent production fixes | Short     | `main`       | `main` + `develop` |
+
+</div>
 
 ### Workflow
 
@@ -217,6 +229,8 @@ $ git branch -d hotfix/fix-crash
 
 ### Advantages
 
+<div class="table-wrap">
+
 | Advantage                | Explanation                                                |
 | ------------------------ | ---------------------------------------------------------- |
 | **Clear separation**     | Features, releases, and hotfixes have distinct branches    |
@@ -224,7 +238,11 @@ $ git branch -d hotfix/fix-crash
 | **Release isolation**    | Release branches allow bug fixes without blocking features |
 | **Well-documented**      | Widely understood, many tools support it natively          |
 
+</div>
+
 ### Disadvantages
+
+<div class="table-wrap">
 
 | Disadvantage            | Explanation                                                                  |
 | ----------------------- | ---------------------------------------------------------------------------- |
@@ -232,6 +250,8 @@ $ git branch -d hotfix/fix-crash
 | **Merge-heavy**         | Every feature requires a merge commit into `develop`Then another into `main` |
 | **Slow feedback**       | Features can live in isolation for weeks, accumulating conflicts             |
 | **Not ideal for CI/CD** | The `develop` branch creates an unnecessary integration step                 |
+
+</div>
 
 ### When to Use
 
@@ -280,6 +300,8 @@ flowchart LR
 
 ## Comparison Matrix
 
+<div class="table-wrap">
+
 | Criterion               | Trunk-Based   | GitHub Flow          | Git Flow                    |
 | ----------------------- | ------------- | -------------------- | --------------------------- |
 | **Complexity**          | Low           | Low                  | High                        |
@@ -291,6 +313,8 @@ flowchart LR
 | **History cleanliness** | Linear        | Mostly linear        | Complex merge graph         |
 | **Team size**           | Small–medium  | Any                  | Any                         |
 | **Learning curve**      | Low           | Low                  | Moderate                    |
+
+</div>
 
 ## Commit Message Conventions
 
@@ -305,6 +329,8 @@ Convention is **Conventional Commits**:
 [optional footer(s)]
 ```
 
+<div class="table-wrap">
+
 | Type       | Purpose                                    |
 | ---------- | ------------------------------------------ |
 | `feat`     | New feature                                |
@@ -316,6 +342,8 @@ Convention is **Conventional Commits**:
 | `test`     | Adding or updating tests                   |
 | `chore`    | Build process, dependencies, tooling       |
 | `ci`       | CI/CD configuration changes                |
+
+</div>
 
 Examples:
 

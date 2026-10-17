@@ -49,10 +49,14 @@ And capacity (24 bytes for `String` on 64-bit) are copied. The original binding 
 
 Types are divided into two categories based on whether assignment copies or moves:
 
+<div class="table-wrap">
+
 | Category     | Examples                                                           | Behavior                       |
 | ------------ | ------------------------------------------------------------------ | ------------------------------ |
 | `Copy` types | `i32``f64``bool``char``(i32, i32)``&T`                             | Assignment copies the value    |
 | Move types   | `String``Vec<T>``Box<T>``File`User-defined structs (unless `Copy`) | Assignment transfers ownership |
+
+</div>
 
 A type implements `Copy` if and only if every bit pattern of its memory representation is a valid
 Value. This is why types containing heap pointers (like `String`) cannot be `Copy`a bitwise copy

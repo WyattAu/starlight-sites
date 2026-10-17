@@ -34,6 +34,8 @@ Switches, and servers, communicating via the TCP/IP protocol suite.
 The **World Wide Web** (WWW) is an application running on top of the Internet: a system of
 Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 
+<div class="table-wrap">
+
 | Aspect    | Internet                              | World Wide Web                 |
 | --------- | ------------------------------------- | ------------------------------ |
 | Nature    | Physical infrastructure               | Application/service            |
@@ -41,6 +43,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 | Protocols | TCP/IP, BGP, OSPF                     | HTTP, HTML, URL                |
 | Scope     | All networked communication           | Document and resource sharing  |
 | Access    | Any application (email, gaming, VoIP) | Web browsers                   |
+
+</div>
 
 ### Historical Development
 
@@ -56,6 +60,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 
 ### Key Internet Protocols
 
+<div class="table-wrap">
+
 | Protocol | Full Name                   | Port  | Purpose                      |
 | -------- | --------------------------- | ----- | ---------------------------- |
 | TCP      | Transmission Control Proto  |,     | Reliable, ordered delivery   |
@@ -67,6 +73,8 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 | SMTP     | Simple Mail Transfer Proto  | 25    | Sending email                |
 | POP3     | Post Office Protocol v3     | 110   | Retrieving email (download)  |
 | IMAP     | Internet Message Access Pr  | 143   | Accessing email on server    |
+
+</div>
 
 <hr />
 
@@ -99,6 +107,8 @@ HTML (HyperText Markup Language) defines the structure and content of web pages:
 
 Semantic elements describe meaning to browsers and assistive technologies:
 
+<div class="table-wrap">
+
 | Element     | Purpose                                      |
 | ----------- | -------------------------------------------- |
 | `<header>`  | Introductory content or navigation links     |
@@ -109,6 +119,8 @@ Semantic elements describe meaning to browsers and assistive technologies:
 | `<section>` | Thematic grouping of content with a heading  |
 | `<aside>`   | Tangentially related content (sidebars)      |
 | `<figure>`  | Self-contained content (images, diagrams)    |
+
+</div>
 
 ### Common HTML Elements
 
@@ -145,6 +157,8 @@ selector {
 }
 ```
 
+<div class="table-wrap">
+
 | Selector     | Example   | Selects                      |
 | ------------ | --------- | ---------------------------- |
 | Element      | `p`       | All `` elements              |
@@ -152,6 +166,8 @@ selector {
 | ID           | `#header` | Element with `id="header"`   |
 | Descendant   | `nav a`   | All `<a>` inside `<nav>`     |
 | Pseudo-class | `a:hover` | `<a>` when hovered           |
+
+</div>
 
 **Specificity** (highest to lowest): inline style &gt; ID &gt; class &gt; element.
 
@@ -275,12 +291,16 @@ Common events: `click`, `keydown`, `keyup`, `mouseover`, `submit`, `load`, `chan
 
 ### Client-Side vs Server-Side Validation
 
+<div class="table-wrap">
+
 | Aspect   | Client-side                       | Server-side                |
 | -------- | --------------------------------- | -------------------------- |
 | Location | Browser (JavaScript)              | Server (Python, PHP, etc.) |
 | Speed    | Instant feedback                  | Requires round-trip        |
 | Security | Can be bypassed                   | Cannot be bypassed         |
 | Purpose  | UX, reducing unnecessary requests | Data integrity, security   |
+
+</div>
 
 **Best practice:** Always perform both. Client-side for UX; server-side for security.
 
@@ -308,6 +328,8 @@ function validateForm(event) {
 
 ### HTTP Methods
 
+<div class="table-wrap">
+
 | Method | Purpose                     | Idempotent | Has body |
 | ------ | --------------------------- | ---------- | -------- |
 | GET    | Retrieve a resource         | Yes        | No       |
@@ -315,9 +337,13 @@ function validateForm(event) {
 | PUT    | Replace a resource entirely | Yes        | Yes      |
 | DELETE | Remove a resource           | Yes        | No       |
 
+</div>
+
 **Idempotent:** making the same request multiple times produces the same result as once.
 
 ### HTTP Status Codes
+
+<div class="table-wrap">
 
 | Code | Name                | Meaning                        |
 | ---- | ------------------- | ------------------------------ |
@@ -325,6 +351,8 @@ function validateForm(event) {
 | 301  | Moved Permanently   | Resource permanently relocated |
 | 404  | Not Found           | Resource does not exist        |
 | 500  | Internal Server Err | Server-side failure            |
+
+</div>
 
 Ranges: 1xx (information), 2xx (success), 3xx (redirection), 4xx (client error), 5xx (server error).
 
@@ -365,12 +393,16 @@ Authentication (server identity verified via certificates), and SEO (search engi
 Set-Cookie: session_id=abc123; HttpOnly; Secure; SameSite=Strict
 ```
 
+<div class="table-wrap">
+
 | Flag       | Purpose                                  |
 | ---------- | ---------------------------------------- |
 | `HttpOnly` | Prevents JavaScript access (XSS defence) |
 | `Secure`   | Cookie sent only over HTTPS              |
 | `SameSite` | Controls cross-site request behaviour    |
 | `Max-Age`  | Cookie lifetime in seconds               |
+
+</div>
 
 A **session** is server-side state. The server stores the session and sends the session ID as a
 Cookie. On subsequent requests, the cookie identifies the session.
@@ -389,6 +421,8 @@ Cookie. On subsequent requests, the cookie identifies the session.
 
 ### On-Page SEO
 
+<div class="table-wrap">
+
 | Technique        | Description                                        |
 | ---------------- | -------------------------------------------------- |
 | Title tag        | Unique, descriptive `<title>` per page             |
@@ -397,6 +431,8 @@ Cookie. On subsequent requests, the cookie identifies the session.
 | Semantic HTML    | `<article>``<section>``<nav>` for structure        |
 | Alt text         | Describe images for accessibility                  |
 | URL structure    | Clean URLs: `/products/laptops` not `/p?id=3`      |
+
+</div>
 
 ### Off-Page SEO
 

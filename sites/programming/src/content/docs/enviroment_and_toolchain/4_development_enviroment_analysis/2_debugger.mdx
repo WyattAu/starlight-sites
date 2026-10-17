@@ -52,12 +52,16 @@ Granularity of source-level mapping.
 
 ### GCC/Clang Debug Levels
 
+<div class="table-wrap">
+
 | Flag  | Description                                                                                              | Binary Size Impact |
 | :---- | :------------------------------------------------------------------------------------------------------- | :----------------- |
 | `-g0` | No debug information (default for release).                                                              | None               |
 | `-g1` | Minimal: line numbers and source file names only. No local variable information.                         | Small              |
 | `-g2` | Standard (same as `-g`): Full debug info including local variables, function signatures, types.          | Moderate           |
 | `-g3` | Maximum: Includes macro definitions and expanded macro locations. Useful for debugging macro-heavy code. | Large              |
+
+</div>
 
 ```bash
 ## Compile with maximum debug info including macros
@@ -69,11 +73,15 @@ readelf -S app | grep debug
 
 ### MSVC Debug Levels
 
+<div class="table-wrap">
+
 | Flag  | Description                                                                      |
 | :---- | :------------------------------------------------------------------------------- |
 | `/Z7` | Old-style: Embeds debug info in each .obj file.                                  |
 | `/Zi` | Program Database: Generates a separate .pdb file.                                |
 | `/ZI` | Edit and Continue: PDB with additional metadata for hot-reload during debugging. |
+
+</div>
 
 `/Zi` is the standard for production builds. `/ZI` is useful during development in Visual Studio but
 Produces slightly larger PDBs and may inhibit some optimizations.

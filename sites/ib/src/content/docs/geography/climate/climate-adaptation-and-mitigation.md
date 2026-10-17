@@ -123,6 +123,8 @@ Climate change poses severe risks to food security through altered precipitation
 Temperature stress, increased pest and disease pressure, and increased frequency of extreme events
 (droughts, floods, heat waves).
 
+<div class="table-wrap">
+
 | Strategy                                | Description                                                                                                  | Example                                                                                                                         |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | **Drought-resistant crop varieties**    | Breeding or genetic modification of crops to tolerate heat and water stress                                  | Drought-tolerant maize varieties developed by CGIAR centres for Sub-Saharan Africa; salt-tolerant rice varieties for Bangladesh |
@@ -131,7 +133,11 @@ Temperature stress, increased pest and disease pressure, and increased frequency
 | **Adjusted planting dates**             | Shifting sowing and harvesting dates to match changing seasonal patterns                                     | Farmers in the Sahel shifting planting dates earlier to take advantage of changing onset of rains                               |
 | **Crop diversification**                | Reducing reliance on a single crop to spread climate risk                                                    | Promoting millet and sorghum alongside maize in southern Africa                                                                 |
 
+</div>
+
 ### Infrastructural Adaptation
+
+<div class="table-wrap">
 
 | Strategy                             | Description                                                                    | Example                                                                                                                                                                                                        |
 | ------------------------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -139,6 +145,8 @@ Temperature stress, increased pest and disease pressure, and increased frequency
 | **Flood-resistant infrastructure**   | Designing buildings, roads, and utilities to withstand flooding                | Bangladesh's elevated schools and cyclone shelters; floating housing in the Netherlands                                                                                                                        |
 | **Improved drainage**                | Upgrading urban drainage systems to handle increased rainfall intensity        | Sustainable Urban Drainage Systems (SUDS) in UK cities; Tokyo's underground floodwater storage (the Metropolitan Area Outer Underground Discharge Channel, completed 2006, stores 670 000 m$^3$ of floodwater) |
 | **Climate-resilient building codes** | Updating construction standards to account for projected climate conditions    | Caribbean building codes for hurricane resistance; Japan's earthquake and tsunami-resistant standards                                                                                                          |
+
+</div>
 
 ### Community-Based Adaptation
 
@@ -202,6 +210,8 @@ Approximately USD 1 trillion per year is needed for both mitigation and adaptati
 
 ### Key COP Outcomes
 
+<div class="table-wrap">
+
 | COP                         | Year | Key Outcome                                                                                                                                                              |
 | --------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **COP21 (Paris)**           | 2015 | Paris Agreement adopted                                                                                                                                                  |
@@ -209,6 +219,8 @@ Approximately USD 1 trillion per year is needed for both mitigation and adaptati
 | **COP26 (Glasgow)**         | 2021 | Glasgow Climate Pact; completion of Article 6 rules (carbon markets); pledge to phase down unabated coal                                                                 |
 | **COP27 (Sharm el-Sheikh)** | 2022 | Establishment of a Loss and Damage Fund                                                                                                                                  |
 | **COP28 (Dubai)**           | 2023 | First Global Stocktake; operationalisation of the Loss and Damage Fund (initial pledges approximately USD 700 million); agreement to "transition away from fossil fuels" |
+
+</div>
 
 ## Case Study: The Netherlands
 

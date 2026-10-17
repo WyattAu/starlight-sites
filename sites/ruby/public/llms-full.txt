@@ -251,6 +251,8 @@ end
 
 The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widely used include:
 
+<div class="table-wrap">
+
 | Gem             | Purpose                                    |
 | --------------- | ------------------------------------------ |
 | `rails`         | Full-stack web framework                   |
@@ -273,6 +275,8 @@ The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widel
 | `oj`            | Fast JSON parser and serializer            |
 | `rubocop`       | Static code analyser and formatter         |
 | `sorbet`        | Static type checker by Stripe              |
+
+</div>
 
 ### Ruby Implementations
 
@@ -686,6 +690,8 @@ ruby -F, -ane 'puts "#{$F[0]}: #{$F[1]}"' data.csv
 
 Flag explanations:
 
+<div class="table-wrap">
+
 | Flag | Meaning                               |
 | ---- | ------------------------------------- |
 | `-e` | Execute one line of script            |
@@ -698,6 +704,8 @@ Flag explanations:
 | `-c` | Check syntax only                     |
 | `-w` | Enable warnings                       |
 | `-d` | Debug mode                            |
+
+</div>
 
 ## Ruby Version Compatibility
 
@@ -980,6 +988,8 @@ end
 
 Ruby follows strict naming conventions that communicate intent and scope:
 
+<div class="table-wrap">
+
 | Convention         | Usage                                        | Example                        |
 | ------------------ | -------------------------------------------- | ------------------------------ |
 | `snake_case`       | Methods, local variables, instance variables | `user_name`, `calculate_total` |
@@ -991,6 +1001,8 @@ Ruby follows strict naming conventions that communicate intent and scope:
 | `?` suffix         | Predicate methods (return boolean)           | `empty?`, `include?`, `valid?` |
 | `!` suffix         | Dangerous/mutating methods                   | `sort!`, `save!`, `chomp!`     |
 | `=` suffix         | Setter methods                               | `name=`, `email=`              |
+
+</div>
 
 ```ruby
 # Good naming examples
@@ -1739,6 +1751,8 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 
 ## Summary Table of Core Types
 
+<div class="table-wrap">
+
 | Type     | Example        | Mutable | Notes                                  |
 | -------- | -------------- | ------- | -------------------------------------- |
 | Integer  | `42`           | No      | Arbitrary precision                    |
@@ -1756,6 +1770,8 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 | nil      | `nil`          | No      | Singleton NilClass                     |
 | true     | `true`         | No      | Singleton TrueClass                    |
 | false    | `false`        | No      | Singleton FalseClass                   |
+
+</div>
 
 ## Common Mistakes
 
@@ -3453,12 +3469,16 @@ return_from_lambda  # => prints "This line DOES execute", returns nil from the m
 
 ### Proc vs Lambda Summary
 
+<div class="table-wrap">
+
 | Feature     | Proc                          | Lambda                        |
 | ----------- | ----------------------------- | ----------------------------- |
 | Creation    | `Proc.new {}` or `proc {}`    | `-> {}` or `lambda {}`        |
 | Arity check | Lenient (fills with nil)      | Strict (raises ArgumentError) |
 | Return      | Returns from enclosing method | Returns from lambda only      |
 | `lambda?`   | `false`                       | `true`                        |
+
+</div>
 
 ```ruby
 # Checking the type
@@ -5896,12 +5916,16 @@ end
 
 ## Comparison of Concurrency Approaches
 
+<div class="table-wrap">
+
 | Approach  | Parallelism      | Blocking I/O                | Complexity | Use Case          |
 | --------- | ---------------- | --------------------------- | ---------- | ----------------- |
 | Thread    | Limited (GIL)    | Releases GIL on I/O         | Medium     | I/O-bound tasks   |
 | Ractor    | True parallelism | Full isolation              | High       | CPU-bound tasks   |
 | Fiber     | Cooperative      | Non-blocking with scheduler | Medium     | Async I/O         |
 | Async gem | Cooperative      | Non-blocking                | Low        | Web servers, APIs |
+
+</div>
 
 ### When to Use What
 

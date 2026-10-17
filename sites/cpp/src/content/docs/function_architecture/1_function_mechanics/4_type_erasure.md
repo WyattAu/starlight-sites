@@ -191,11 +191,15 @@ Passing lambdas as template parameters or using auto.
 
 ### SBO Threshold Across Implementations
 
+<div class="table-wrap">
+
 | Implementation  | SBO Size | Notes                               |
 | :-------------- | :------- | :---------------------------------- |
 | libstdc++ (GCC) | 16 bytes | Fits two pointers + small captures  |
 | libc++ (Clang)  | 24 bytes | Three pointers + larger captures    |
 | MSVC STL        | 16 bytes | Consistent with libstdc++ on x86-64 |
+
+</div>
 
 ### Detecting SBO at Compile Time
 
@@ -396,11 +400,15 @@ int main() {
 The size of a member function pointer is **not standardized**. The Itanium C++ ABI (Linux, macOS)
 Uses the following representation:
 
+<div class="table-wrap">
+
 | Scenario                        | Size        | Contents                                           |
 | :------------------------------ | :---------- | :------------------------------------------------- |
 | Single inheritance, non-virtual | 8 bytes     | Function pointer only                              |
 | Multiple inheritance            | 16 bytes    | Function pointer + this-adjustment offset          |
 | Virtual inheritance             | 16-24 bytes | Function pointer + vtable offset + this-adjustment |
+
+</div>
 
 On the MSVC ABI (Windows), member function pointers use a uniform representation that is always 16
 Bytes (or larger for virtual inheritance), regardless of the inheritance model.

@@ -387,11 +387,15 @@ The ideal gas model makes the following assumptions:
 
 ### Macroscopic Gas Laws
 
+<div class="table-wrap">
+
 | Law              | Relationship            | Constant Quantity |
 | :--------------- | :---------------------- | :---------------- |
 | Boyle's Law      | $P \propto \frac{1}{V}$ | $T$, $n$          |
 | Charles's Law    | $V \propto T$           | $P$, $n$          |
 | Gay-Lussac's Law | $P \propto T$           | $V$, $n$          |
+
+</div>
 
 All of these are unified in the **ideal gas equation**:
 
@@ -484,13 +488,19 @@ Kinetic energy.
 
 ### Key Definitions
 
+<div class="table-wrap">
+
 | Quantity                             | Symbol | Definition                   | Unit                 |
 | :----------------------------------- | :----- | :--------------------------- | :------------------- |
 | Specific heat capacity               | $c$    | Energy to raise 1 kg by 1 K  | J kg$^{-1}$ K$^{-1}$ |
 | Specific latent heat of fusion       | $L_f$  | Energy to melt 1 kg at $T_f$ | J kg$^{-1}$          |
 | Specific latent heat of vaporisation | $L_v$  | Energy to boil 1 kg at $T_b$ | J kg$^{-1}$          |
 
+</div>
+
 ### Evaporation vs Boiling
+
+<div class="table-wrap">
 
 | Property      | Evaporation                      | Boiling                       |
 | :------------ | :------------------------------- | :---------------------------- |
@@ -498,6 +508,8 @@ Kinetic energy.
 | Location      | Surface only                     | Throughout the liquid         |
 | Bubbles       | No                               | Yes                           |
 | Energy source | From the liquid itself (cooling) | External heat source required |
+
+</div>
 
 ### Pressure and Boiling Point
 
@@ -515,6 +527,8 @@ Degrees C. (Data: $c_{\mathrm{ice}} = 2100$ J kg$^{-1}$ K$^{-1}$, $c_{\mathrm{wa
 Kg$^{-1}$ K$^{-1}$$c_{\mathrm{steam}} = 2000$ J kg$^{-1}$ K$^{-1}$$L_f = 3.34 \times 10^5$ J
 Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
+<div class="table-wrap">
+
 | Stage                           | Calculation               | Energy (J)                |
 | :------------------------------ | :------------------------ | :------------------------ |
 | Ice: $-20$ to $0$ degrees C     | $(2.0)(2100)(20)$         | 84,000                    |
@@ -523,6 +537,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 | Boiling at $100$ degrees C      | $(2.0)(2.26 \times 10^6)$ | 4,520,000                 |
 | Steam: $100$ to $120$ degrees C | $(2.0)(2000)(20)$         | 80,000                    |
 | **Total**                       |                           | **6,192,000 J (6.19 MJ)** |
+
+</div>
 
 > **Exam Tip:** IB examiners frequently ask multi-stage heating problems. Always identify each
 > stage, write the formula, and compute separately before summing. Forgetting the phase change
@@ -541,6 +557,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
 ## Quick Reference: Key Formulas
 
+<div class="table-wrap">
+
 | Formula                                                | Application                     |
 | :----------------------------------------------------- | :------------------------------ |
 | $P = \frac{F}{A}$                                      | Pressure definition             |
@@ -552,6 +570,8 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 | $c_{\mathrm{rms}} = \sqrt{\frac{3RT}{M}}$              | RMS molecular speed             |
 | $Q = mc\Delta T$                                       | Specific heat (no phase change) |
 | $Q = mL$                                               | Latent heat (phase change)      |
+
+</div>
 
 </details>
 

@@ -995,6 +995,8 @@ updated = %{original | b: 99}
 
 Understanding immutability's performance characteristics:
 
+<div class="table-wrap">
+
 | Operation                 | Time Complexity | Notes                     |
 | ------------------------- | --------------- | ------------------------- |
 | List prepend `[h\|t]`     | $O(1)$          | Always prefer over append |
@@ -1003,6 +1005,8 @@ Understanding immutability's performance characteristics:
 | Map update `%{m \| k: v}` | $O(1)$          | With structural sharing   |
 | Tuple access `elem(t, i)` | $O(1)$          |                           |
 | Tuple update `put_elem`   | $O(n)$          | Must copy the tuple       |
+
+</div>
 
 ### When Immutability Matters Most
 

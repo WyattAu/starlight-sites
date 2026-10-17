@@ -40,11 +40,15 @@ Key attributes:
 
 ### GDP vs GNP vs GNI
 
+<div class="table-wrap">
+
 | Measure                      | Definition                                                                                                                   | Focus                   |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | GDP (Gross Domestic Product) | Value of output produced within a country's borders                                                                          | Location of production  |
 | GNP (Gross National Product) | GDP plus net income from abroad (income earned by residents from overseas minus income earned by non-residents domestically) | Nationality of producer |
 | GNI (Gross National Income)  | Same concept as GNP; the modern terminology used by international organisations (World Bank, IMF)                            | Nationality of producer |
+
+</div>
 
 $$
 \mathrm{GNP} = \mathrm{GDP} + \mathrm{Net factor income from abroad}
@@ -141,10 +145,14 @@ $$
 
 ### Worked Example: Nominal vs Real GDP
 
+<div class="table-wrap">
+
 | Good | 2024 Price (USD) | 2024 Quantity | 2025 Price (USD) | 2025 Quantity |
 | ---- | ---------------- | ------------- | ---------------- | ------------- |
 | A    | 10               | 100           | 12               | 110           |
 | B    | 20               | 50            | 25               | 45            |
+
+</div>
 
 Using 2024 as the base year:
 
@@ -187,6 +195,8 @@ $$
 \mathrm{GDP} = C + I + G + (X - M)
 $$
 
+<div class="table-wrap">
+
 | Component                 | Description                                                                                                                                                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `C` (Consumption)         | Household spending on goods and services (durable goods, non-durable goods, services). The largest component of GDP in most economies.                                                                            |
@@ -194,6 +204,8 @@ $$
 | `G` (Government spending) | Government spending on goods and services (infrastructure, education, defence, public sector wages). Excludes transfer payments (welfare, pensions) because they do not represent payment for current production. |
 | `X` (Exports)             | Spending by foreigners on domestically produced goods and services. Added because they are produced domestically.                                                                                                 |
 | `M` (Imports)             | Spending by domestic residents on foreign-produced goods and services. Subtracted because they are not produced domestically.                                                                                     |
+
+</div>
 
 $$
 \mathrm{Net exports} = X - M
@@ -209,6 +221,8 @@ $$
 \mathrm{GDP} = W + R + I + P + \mathrm{Indirect taxes} - \mathrm{Subsidies} + \mathrm{Depreciation}
 $$
 
+<div class="table-wrap">
+
 | Component      | Description                                                                          |
 | -------------- | ------------------------------------------------------------------------------------ |
 | `W` (Wages)    | Compensation of employees (salaries, wages, benefits)                                |
@@ -218,6 +232,8 @@ $$
 | Indirect taxes | Taxes on production (sales tax, VAT, excise duty) that are included in market prices |
 | Subsidies      | Government payments to producers that reduce market prices                           |
 | Depreciation   | Capital consumption allowance                                                        |
+
+</div>
 
 **Why add indirect taxes and subtract subsidies?** GDP is measured at market prices, which include
 Indirect taxes but exclude subsidies. Factor incomes (wages, rent, interest, profit) are measured at
@@ -237,12 +253,16 @@ Production.
 
 **Example: Bread production chain**
 
+<div class="table-wrap">
+
 | Stage          | Value of Output (USD) | Value of Intermediate Inputs (USD) | Value Added (USD) |
 | -------------- | --------------------- | ---------------------------------- | ----------------- |
 | Farmer (wheat) | 100                   | 0                                  | 100               |
 | Miller (flour) | 150                   | 100                                | 50                |
 | Baker (bread)  | 250                   | 150                                | 100               |
 | **Total**      | **500**               | **250**                            | **250**           |
+
+</div>
 
 GDP = sum of value added = `100 + 50 + 100 = 250`. The value of final output (bread) = `250`. Both
 Methods give the same result, confirming that the value-added approach avoids double counting.
@@ -258,6 +278,8 @@ Created at some stage of production (value-added approach).
 
 A car manufacturer's production chain:
 
+<div class="table-wrap">
+
 | Stage         | Sales Value (USD) | Intermediate Inputs (USD) | Value Added (USD) |
 | ------------- | ----------------- | ------------------------- | ----------------- |
 | Steel mill    | 5,000             | 0                         | 5,000             |
@@ -265,6 +287,8 @@ A car manufacturer's production chain:
 | Tyre factory  | 1,500             | 0                         | 1,500             |
 | Car assembly  | 20,000            | 8,500                     | 11,500            |
 | **Total**     | **28,500**        | **8,500**                 | **20,000**        |
+
+</div>
 
 GDP = sum of value added = `5,000 + 2,000 + 1,500 + 11,500 = 20,000`.
 
@@ -404,12 +428,16 @@ $$
 
 ### Types of Unemployment
 
+<div class="table-wrap">
+
 | Type       | Cause                                                                  | Solution                                    | Duration          |
 | ---------- | ---------------------------------------------------------------------- | ------------------------------------------- | ----------------- |
 | Frictional | Normal turnover in the labour market; time between jobs                | Better job matching, job search assistance  | Short-term        |
 | Structural | Mismatch between workers' skills/location and job requirements         | Retraining, relocation subsidies, education | Long-term         |
 | Cyclical   | Insufficient aggregate demand during economic downturns                | Expansionary fiscal/monetary policy         | Varies with cycle |
 | Seasonal   | Regular seasonal fluctuations in demand (tourism, agriculture, retail) | Difficult to eliminate entirely             | Predictable       |
+
+</div>
 
 **Frictional unemployment** is inevitable and even desirable in a dynamic economy. It reflects the
 Normal process of workers moving between jobs to find better matches. Some frictional unemployment
@@ -466,6 +494,8 @@ Exist.
 
 ### Costs of Unemployment
 
+<div class="table-wrap">
+
 | Cost Type  | Description                                                                                                                                                                                                      |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Economic   | Lost output (GDP gap): goods and services that could have been produced but were not. Okun's law: for every 1% that the actual unemployment rate exceeds the NRU, GDP falls by approximately 2% below potential. |
@@ -473,6 +503,8 @@ Exist.
 | Personal   | Loss of income, skill deterioration (especially for long-term unemployed), reduced self-esteem, mental and physical health problems.                                                                             |
 | Social     | Increased crime rates, social unrest, family breakdown, inequality.                                                                                                                                              |
 | Hysteresis | Long-term unemployment can raise the natural rate itself (workers lose skills and become unemployable, reducing the economy's productive capacity).                                                              |
+
+</div>
 
 ---
 
@@ -545,6 +577,8 @@ Disruptions, currency depreciation (imported inflation).
 
 ### Effects and Consequences of Inflation
 
+<div class="table-wrap">
+
 | Group Affected          | Effect of Unanticipated Inflation                                                            |
 | ----------------------- | -------------------------------------------------------------------------------------------- |
 | Savers                  | Lose purchasing power; the real value of their savings falls                                 |
@@ -553,6 +587,8 @@ Disruptions, currency depreciation (imported inflation).
 | Flexible-income earners | May keep up if wages are indexed to inflation; otherwise lose                                |
 | Government (as debtor)  | Benefits; the real value of outstanding government debt falls                                |
 | Taxpayers               | May be pushed into higher tax brackets (bracket creep) even if real income has not increased |
+
+</div>
 
 **Shoe-leather costs:** The cost of time and effort spent managing money holdings to minimise the
 Inflation tax (more frequent trips to the bank, holding less cash).
@@ -657,6 +693,8 @@ A positive GDP gap (actual output below potential) indicates a recessionary gap.
 
 ### Sources of Economic Growth
 
+<div class="table-wrap">
+
 | Source                     | Description                                                                                                                                                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Capital accumulation       | Increasing the quantity and quality of physical capital (machinery, factories, infrastructure). Investment raises the capital stock and productivity.                                                         |
@@ -666,6 +704,8 @@ A positive GDP gap (actual output below potential) indicates a recessionary gap.
 | Institutional quality      | Strong property rights, rule of law, effective governance, low corruption, and efficient markets create an environment conducive to growth.                                                                   |
 | Population growth          | A larger labour force increases total output, though not necessarily output per capita. Growth in the working-age population relative to dependents (favourable demographic structure) boosts GDP per capita. |
 | Trade and openness         | Access to larger markets, technology transfer, competitive pressure, and economies of scale through international trade.                                                                                      |
+
+</div>
 
 ### Productivity
 
@@ -707,6 +747,8 @@ Expansion and contraction.
 
 ### Phases of the Business Cycle
 
+<div class="table-wrap">
+
 | Phase       | Description                                                                                                                                  |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | Expansion   | Real GDP rises. Unemployment falls. Capacity utilisation increases. Inflation may begin to rise. Consumer and business confidence improves.  |
@@ -714,16 +756,22 @@ Expansion and contraction.
 | Contraction | Real GDP falls. Unemployment rises. Capacity utilisation decreases. Inflation may moderate. If the contraction is severe, it is a recession. |
 | Trough      | The lowest point of the cycle. Real GDP is below potential. Unemployment is high. Capacity is idle. Inventories are depleted.                |
 
+</div>
+
 A **recession** is commonly defined as two consecutive quarters of declining real GDP. A
 **depression** is a severe, prolonged recession.
 
 ### Leading, Coincident, and Lagging Indicators
+
+<div class="table-wrap">
 
 | Type       | Definition                                                   | Examples                                                                                                             |
 | ---------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | Leading    | Indicators that change before the economy as a whole does    | Stock market index, building permits, new orders for capital goods, consumer confidence index, yield curve inversion |
 | Coincident | Indicators that move with the economy                        | Industrial production, retail sales, non-farm payrolls, GDP                                                          |
 | Lagging    | Indicators that change after the economy has already changed | Unemployment rate, inflation rate, interest rates, corporate profits, labour cost per unit of output                 |
+
+</div>
 
 The **yield curve inversion** (short-term interest rates exceed long-term rates) is one of the most
 Reliable leading indicators of a recession, historically preceding most US recessions.
@@ -768,21 +816,29 @@ $$
 \mathrm{Budget balance} = \mathrm{Government revenue} - \mathrm{Government expenditure}
 $$
 
+<div class="table-wrap">
+
 | Outcome         | Condition               | Implication                                     |
 | --------------- | ----------------------- | ----------------------------------------------- |
 | Fiscal surplus  | Revenue \gt Expenditure | Government can reduce debt or increase reserves |
 | Balanced budget | Revenue = Expenditure   | Neutral impact on aggregate demand              |
 | Fiscal deficit  | Revenue \lt Expenditure | Government must borrow; adds to public debt     |
 
+</div>
+
 ### Government Revenue
 
 The primary sources of government revenue are:
+
+<div class="table-wrap">
 
 | Source          | Description                                                                                              |
 | --------------- | -------------------------------------------------------------------------------------------------------- |
 | Direct taxes    | Taxes on income and wealth: income tax, corporate tax, property tax, inheritance tax. Progressive.       |
 | Indirect taxes  | Taxes on goods and services: sales tax, VAT, excise duties (on alcohol, tobacco, petrol). Regressive.    |
 | Non-tax revenue | Fees, fines, royalties, dividends from state-owned enterprises, land premium (significant in Hong Kong). |
+
+</div>
 
 **Progressive tax:** The average tax rate rises with income. Higher-income earners pay a larger
 Proportion of their income in tax. Example: Hong Kong's salaries tax (maximum rate of 15% after
@@ -816,11 +872,15 @@ Economy. A higher ratio signals greater fiscal risk.
 Automatic stabilisers are features of the fiscal system that automatically dampen economic
 Fluctuations without requiring deliberate government action.
 
+<div class="table-wrap">
+
 | Automatic Stabiliser   | Mechanism During Recession                                                                                                         | Mechanism During Expansion                                                                           |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Progressive income tax | As incomes fall, people move into lower tax brackets; tax revenue falls; disposable income does not fall as much as it would have. | As incomes rise, people move into higher tax brackets; tax revenue rises; dampening spending growth. |
 | Unemployment benefits  | More people claim benefits; government transfers increase; disposable income of the unemployed does not fall to zero.              | Fewer people claim benefits; government transfers decrease; dampening spending growth.               |
 | Welfare programmes     | More people qualify for means-tested benefits during downturns.                                                                    | Fewer people qualify during upswings.                                                                |
+
+</div>
 
 Automatic stabilisers reduce the amplitude of the business cycle but do not eliminate it. They work
 without legislative delay, unlike discretionary fiscal policy.
@@ -953,11 +1013,15 @@ Prices (used in the income approach), not direct components of the expenditure a
 
 Country X has the following data:
 
+<div class="table-wrap">
+
 | Year | Nominal GDP (USD billion) | GDP Deflator (base year = 2020) |
 | ---- | ------------------------- | ------------------------------- |
 | 2020 | 500                       | 100                             |
 | 2021 | 550                       | 105                             |
 | 2022 | 630                       | 110                             |
+
+</div>
 
 (a) Calculate real GDP for each year. (b) Calculate the real GDP growth rate for 2021 and 2022. (c)
 Calculate the inflation rate for 2021 and 2022 using the GDP deflator. (d) Did the economy grow
@@ -994,11 +1058,15 @@ Factors rather than price increases.
 
 A typical household's consumption basket and prices are as follows:
 
+<div class="table-wrap">
+
 | Good | Quantity (base year) | Base Year Price (USD) | Current Year Price (USD) |
 | ---- | -------------------- | --------------------- | ------------------------ |
 | Rice | 50 kg                | 4                     | 5                        |
 | Pork | 30 kg                | 20                    | 25                       |
 | Rent | 1 month              | 3000                  | 3300                     |
+
+</div>
 
 (a) Calculate the CPI for the current year (base year = 100). (b) Calculate the inflation rate. (c)
 Explain one limitation of using this CPI to measure the cost of living.
@@ -1052,6 +1120,8 @@ Individuals are now classified as unemployed.
 
 An economy's potential GDP is USD 1,200 billion. The actual GDP and unemployment data are:
 
+<div class="table-wrap">
+
 | Year | Actual GDP (USD billion) | Unemployment Rate |
 | ---- | ------------------------ | ----------------- |
 | 2020 | 1,200                    | 5.0%              |
@@ -1059,6 +1129,8 @@ An economy's potential GDP is USD 1,200 billion. The actual GDP and unemployment
 | 2022 | 1,080                    | 9.0%              |
 | 2023 | 1,170                    | 6.0%              |
 | 2024 | 1,230                    | 4.0%              |
+
+</div>
 
 The natural rate of unemployment is 5%.
 
@@ -1068,6 +1140,8 @@ Calculation in (a). (c) In which years did the economy experience an inflationar
 
 (a) GDP gap = Potential GDP - Actual GDP
 
+<div class="table-wrap">
+
 | Year | Potential GDP | Actual GDP | GDP Gap | Type of Gap  |
 | ---- | ------------- | ---------- | ------- | ------------ |
 | 2020 | 1,200         | 1,200      | 0       | No gap       |
@@ -1075,6 +1149,8 @@ Calculation in (a). (c) In which years did the economy experience an inflationar
 | 2022 | 1,200         | 1,080      | +120    | Recessionary |
 | 2023 | 1,200         | 1,170      | +30     | Recessionary |
 | 2024 | 1,200         | 1,230      | -30     | Inflationary |
+
+</div>
 
 (b) 2022: Unemployment above NRU = 9.0% - 5.0% = 4.0%
 
@@ -1172,10 +1248,14 @@ If you get this wrong, revise: [Methods of Measuring GDP](#methods-of-measuring-
 
 An economy produces only two goods:
 
+<div class="table-wrap">
+
 | Good | 2023 Price | 2023 Qty | 2024 Price | 2024 Qty |
 | ---- | ---------- | -------- | ---------- | -------- |
 | X    | 5          | 200      | 6          | 220      |
 | Y    | 10         | 100      | 12         | 90       |
+
+</div>
 
 Using 2023 as the base year:
 
@@ -1287,12 +1367,16 @@ If you get this wrong, revise: [Types of Unemployment](#types-of-unemployment)
 
 An economy's potential GDP is USD 800 billion. The following data shows actual GDP and unemployment:
 
+<div class="table-wrap">
+
 | Year | Actual GDP | Unemployment Rate |
 | ---- | ---------- | ----------------- |
 | 2021 | 760        | 7.5%              |
 | 2022 | 720        | 9.5%              |
 | 2023 | 800        | 5.0%              |
 | 2024 | 840        | 3.5%              |
+
+</div>
 
 The natural rate of unemployment is 5%.
 
@@ -1390,11 +1474,15 @@ If you get this wrong, revise: [Automatic Stabilisers](#automatic-stabilisers)
 An economy produces only three goods: rice, clothing, and electronics. The data for 2020 (base year)
 and 2023 are:
 
+<div class="table-wrap">
+
 | Good                | Quantity 2020 | Price 2020 | Quantity 2023 | Price 2023 |
 | ------------------- | ------------- | ---------- | ------------- | ---------- |
 | Rice (tonnes)       | 1000          | $200       | 1200          | $250       |
 | Clothing (units)    | 500           | $100       | 600           | $120       |
 | Electronics (units) | 200           | $500       | 300           | $450       |
+
+</div>
 
 The typical consumer basket is: 200 tonnes of rice, 100 units of clothing, 50 units of electronics.
 
@@ -1487,11 +1575,15 @@ If you get this wrong, revise: [Okun's Law](/economics/5-macroeconomic-indicator
 An economy's production function is $Y = A \cdot K^{0.3} \cdot L^{0.7}$ Where $Y$ is GDP, $K$ is
 capital, $L$ is labour, and $A$ is total factor productivity (TFP). Data:
 
+<div class="table-wrap">
+
 | Variable    | Year 1 | Year 2 |
 | ----------- | ------ | ------ |
 | Y (billion) | 1000   | 1100   |
 | K (billion) | 2000   | 2300   |
 | L (million) | 10     | 10.5   |
+
+</div>
 
 (a) Calculate the growth rates of Y, K, and L. (b) Using the growth accounting framework, decompose
 GDP growth into contributions from capital, labour, and TFP. (c) What percentage of growth is due to
@@ -1543,6 +1635,8 @@ If you get this wrong, revise: [Economic Growth Accounting](/economics/5-macroec
 
 Three countries have the following indicators:
 
+<div class="table-wrap">
+
 | Indicator                         | Country A | Country B | Country C |
 | --------------------------------- | --------- | --------- | --------- |
 | GDP per capita (USD)              | 55,000    | 15,000    | 8,000     |
@@ -1551,6 +1645,8 @@ Three countries have the following indicators:
 | Gini coefficient                  | 0.34      | 0.52      | 0.41      |
 | CO2 emissions per capita (tonnes) | 12        | 5         | 2         |
 | HDI                               | 0.93      | 0.75      | 0.68      |
+
+</div>
 
 (a) Calculate the HDI for Country A and Country B using the simplified formula: HDI = (life
 expectancy index + education index + income index) / 3, where life expectancy index = (LE - 20) /

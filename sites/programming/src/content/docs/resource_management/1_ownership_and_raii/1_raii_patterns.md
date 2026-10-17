@@ -391,11 +391,15 @@ Generalized ScopeGuard) was not adopted into C++23. Use the implementation above
 
 RAII is the mechanism that makes C++'s three exception safety guarantees possible [N4950 §13.2]:
 
+<div class="table-wrap">
+
 | Guarantee    | Description                                                                    | RAII Role                                                                                                                                          |
 | ------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **No-throw** | The operation never throws.                                                    | RAII destructors are implicitly `noexcept` (since C++11). If a destructor throws during stack unwinding, `std::terminate` is called [N4950 §14.4]. |
 | **Strong**   | If the operation throws, the state is rolled back to before the operation.     | RAII objects created during the operation are destroyed during unwinding, automatically releasing any resources they acquired.                     |
 | **Basic**    | If the operation throws, no resources are leaked and invariants are preserved. | RAII ensures that all resources are released even if the operation fails partway through.                                                          |
+
+</div>
 
 RAII enables the strong guarantee by default: if an exception propagates out of a function, every
 RAII object in that function's scope is destroyed, releasing every resource that was acquired. No
@@ -417,6 +421,8 @@ void transfer(Account& from, Account& to, int amount) {
 
 RAII and garbage collection (GC) solve related but different problems:
 
+<div class="table-wrap">
+
 | Property                      | RAII                                | Garbage Collection                                                         |
 | ----------------------------- | ----------------------------------- | -------------------------------------------------------------------------- |
 | **Deterministic destruction** | Yes, destructor runs at scope exit | No, finalizer runs at GC's discretion                                     |
@@ -424,6 +430,8 @@ RAII and garbage collection (GC) solve related but different problems:
 | **Performance**               | Zero overhead (compile-time)        | Runtime overhead (pause times, GC threads)                                 |
 | **Memory leaks**              | Impossible with correct RAII        | Possible (unreferenced but unreachable objects, reference counting cycles) |
 | **Latency**                   | Bounded (destructor cost)           | Unbounded (GC pause times)                                                 |
+
+</div>
 
 RAII is strictly more general than GC. GC only manages memory; RAII manages **any** resource with
 Deterministic cleanup. A GC language like Java still needs `try`-with-resources or `using` blocks
@@ -444,6 +452,8 @@ function," you have a potential leak.
 
 The standard library provides RAII wrappers for most common resources:
 
+<div class="table-wrap">
+
 | Resource             | Raw Acquisition                    | RAII Wrapper                                 |
 | -------------------- | ---------------------------------- | -------------------------------------------- |
 | Heap memory          | `new``malloc`                      | `std::unique_ptr``std::shared_ptr`Containers |
@@ -453,6 +463,8 @@ The standard library provides RAII wrappers for most common resources:
 | Memory mapping       | `mmap`                             | `std::unique_ptr` with `munmap` deleter      |
 | Sockets              | `socket`                           | Custom `Socket` class (see §1.5)             |
 | Database connections | `sqlite3_open``mysql_real_connect` | Custom connection class (see §1.6)           |
+
+</div>
 
 ## Intuition
 

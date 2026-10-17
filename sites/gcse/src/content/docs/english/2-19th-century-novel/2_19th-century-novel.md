@@ -66,6 +66,8 @@ Social institutions -- marriage, the family, the class system, the law -- and on
 of people within those institutions. The transition from Romanticism to realism is not a clean
 Break; most 19th-century novels contain elements of both.
 
+<div class="table-wrap">
+
 | Feature       | Romanticism                                 | Realism                                   |
 | ------------- | ------------------------------------------- | ----------------------------------------- |
 | **Focus**     | The individual, emotion, imagination        | Society, institutions, ordinary life      |
@@ -74,6 +76,8 @@ Break; most 19th-century novels contain elements of both.
 | **Plot**      | Adventure, supernatural events, coincidence | Causal logic, social consequences         |
 | **Language**  | Elevated, lyrical, metaphorical             | Concrete, detailed, vernacular            |
 | **Purpose**   | To inspire, to move, to transcend           | To represent, to critique, to understand  |
+
+</div>
 
 ## 2. Social Context
 
@@ -486,6 +490,8 @@ Society assigns to her.
 
 The PETAL structure is the most widely recommended paragraph framework for GCSE English Literature:
 
+<div class="table-wrap">
+
 | Element            | Function                                                           |
 | ------------------ | ------------------------------------------------------------------ |
 | **P** -- Point     | A clear topic sentence stating the argument of the paragraph       |
@@ -493,6 +499,8 @@ The PETAL structure is the most widely recommended paragraph framework for GCSE 
 | **T** -- Technique | Identification of the literary or linguistic technique used        |
 | **A** -- Analysis  | Explanation of how the technique creates meaning or effect         |
 | **L** -- Link      | A sentence connecting the paragraph back to the question or thesis |
+
+</div>
 
 <details>
 <summary>Example PETAL Paragraph: A Christmas Carol</summary>

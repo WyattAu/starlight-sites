@@ -78,6 +78,8 @@ Each diagnostic file contains two categories of tests:
 
 Create a tracking table for each attempt:
 
+<div class="table-wrap">
+
 | Test | Topic 1 | Topic 2 | Topic 3 | Topic 4 | Topic 5 |
 | ---- | ------- | ------- | ------- | ------- | ------- |
 | UT-1 | PASS    | PARTIAL | FAIL    |         |         |
@@ -86,6 +88,8 @@ Create a tracking table for each attempt:
 | IT-1 |         |         |         |         |         |
 | IT-2 |         |         |         |         |         |
 | IT-3 |         |         |         |         |         |
+
+</div>
 
 A topic is **diagnostic-ready** when you score PASS on at least 2 of 3 unit tests and at least 1 of
 3 integration tests.
@@ -115,6 +119,8 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Topic                  | File                             | AB/BC   | Core Misconceptions                                                                  |
 | ---------------------- | -------------------------------- | ------- | ------------------------------------------------------------------------------------ |
 | Limits and Continuity  | `diag-limits-continuity.md`      | AB + BC | Epsilon-delta structure, L"Hopital conditions, discontinuity classification          |
@@ -123,7 +129,11 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 | Differential Equations | `diag-differential-equations.md` | AB + BC | Separable identification, Euler's method errors, logistic growth, uniqueness         |
 | Sequences and Series   | `diag-sequences-series.md`       | BC Only | Convergence test selection, Lagrange error bound, radius/interval of convergence     |
 
+</div>
+
 ## Timing Recommendations
+
+<div class="table-wrap">
 
 | Test Type                    | Suggested Time | Notes                                 |
 | ---------------------------- | -------------- | ------------------------------------- |
@@ -131,6 +141,8 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 | Integration Test             | 12-18 minutes  | Multi-step problems require more time |
 | Full diagnostic (1 topic)    | 60-75 minutes  | All 6 tests with breaks               |
 | Full diagnostic (all topics) | 5-6 hours      | Spread across multiple sessions       |
+
+</div>
 
 Do not rigidly enforce time limits during initial attempts. Speed comes with mastery. During later
 attempts, tighten timing to build exam readiness.
@@ -169,6 +181,8 @@ series to improper integrals, and Taylor series require computing derivatives.
 
 ### AB vs BC Coverage Matrix
 
+<div class="table-wrap">
+
 | Diagnostic             | AB Required | BC Required |
 | ---------------------- | ----------- | ----------- |
 | Limits and Continuity  | All UT + IT | All UT + IT |
@@ -176,6 +190,8 @@ series to improper integrals, and Taylor series require computing derivatives.
 | Integrals              | All UT + IT | All UT + IT |
 | Differential Equations | All UT + IT | All UT + IT |
 | Sequences and Series   | Not tested  | All UT + IT |
+
+</div>
 
 **AB students:** Complete the first four diagnostics. The AB exam does not test sequences and
 series.

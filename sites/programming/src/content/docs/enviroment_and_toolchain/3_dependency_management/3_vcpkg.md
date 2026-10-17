@@ -290,6 +290,8 @@ Uses triplets to control how every dependency is built.
 
 ### Common Triplets
 
+<div class="table-wrap">
+
 | Triplet              | OS              | Architecture | Linkage       | CRT     |
 | -------------------- | --------------- | ------------ | ------------- | ------- |
 | `x64-windows`        | Windows         | x86_64       | Dynamic (DLL) | MD/MDd  |
@@ -300,6 +302,8 @@ Uses triplets to control how every dependency is built.
 | `arm64-linux`        | Linux           | ARM64        | Dynamic (SO)  | default |
 | `x64-mingw-dynamic`  | Windows (MinGW) | x86_64       | Dynamic       | default |
 | `wasm32-emscripten`  | WebAssembly     | wasm32       | Static        | N/A     |
+
+</div>
 
 ### Setting the Target Triplet
 
@@ -544,6 +548,8 @@ vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 ### Portfile Commands
 
+<div class="table-wrap">
+
 | Command                    | Purpose                                         |
 | :------------------------- | :---------------------------------------------- |
 | `vcpkg_from_github`        | Download source from GitHub                     |
@@ -555,6 +561,8 @@ vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 | `vcpkg_cmake_install`      | Run CMake install step                          |
 | `vcpkg_cmake_config_fixup` | Fix CMake config files for correct installation |
 | `vcpkg_install_copyright`  | Install license/copyright files                 |
+
+</div>
 
 ## 11. Private Registries
 
@@ -660,6 +668,8 @@ export VCPKG_ROOT=/opt/vcpkg
 
 ## 13. Vcpkg vs Conan Comparison
 
+<div class="table-wrap">
+
 | Feature                  | vcpkg                                | Conan                                   |
 | :----------------------- | :----------------------------------- | :-------------------------------------- |
 | Maintainer               | Microsoft                            | JFrog (open-source core)                |
@@ -673,6 +683,8 @@ export VCPKG_ROOT=/opt/vcpkg
 | Lock file                | `vcpkg.json` (implicit via baseline) | `conan.lock` (explicit)                 |
 | Python API               | No (CMake-based portfiles)           | Yes (full Python API for portfiles)     |
 | Community packages       | ~2000+                               | ~1800+                                  |
+
+</div>
 
 ### When to Choose vcpkg
 

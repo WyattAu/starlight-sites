@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                    |
 | ---------- | ------- | ---------------------------------------- |
 | AQA        | Paper 1 | Straight lines, circles                  |
 | Edexcel    | P1      | Same; includes circle theorems           |
 | OCR (A)    | Paper 1 | Similar coverage                         |
 | CIE (9709) | P1      | Coordinate geometry of lines and circles |
+
+</div>
 
 <hr />
 

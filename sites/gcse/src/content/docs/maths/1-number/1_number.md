@@ -384,6 +384,8 @@ Total interest $= 5624.32 - 5000 = 624.32$ pounds.
 
 For positive integers $m$ and $n$ And non-zero base $a$:
 
+<div class="table-wrap">
+
 | Law                | Expression                             |
 | ------------------ | -------------------------------------- |
 | Multiplication     | $a^m \times a^n = a^{m+n}$             |
@@ -394,6 +396,8 @@ For positive integers $m$ and $n$ And non-zero base $a$:
 | Zero index         | $a^0 = 1$                              |
 | Fractional index   | $a^{1/n} = \sqrt[n]{a}$                |
 | Mixed fractional   | $a^{m/n} = \left(\sqrt[n]{a}\right)^m$ |
+
+</div>
 
 **Why $a^0 = 1$:** Consider $a^m \div a^m = a^{m-m} = a^0$. But $a^m \div a^m = 1$. Therefore
 $a^0 = 1$ for all $a \neq 0$.
@@ -535,12 +539,16 @@ $\frac{x}{y} = \frac{\mathrm{upper(x)}{\mathrm{lower(y)} = \frac{6.35}{2.65} = \
 
 **General principle for bounds:**
 
+<div class="table-wrap">
+
 | Operation    | Upper bound                    | Lower bound                    |
 | ------------ | ------------------------------ | ------------------------------ |
 | $a + b$      | upper$(a)$ + upper$(b)$        | lower$(a)$ + lower$(b)$        |
 | $a - b$      | upper$(a)$ - lower$(b)$        | lower$(a)$ - upper$(b)$        |
 | $a \times b$ | upper$(a)$ $\times$ upper$(b)$ | lower$(a)$ $\times$ lower$(b)$ |
 | $a \div b$   | upper$(a)$ $\div$ lower$(b)$   | lower$(a)$ $\div$ upper$(b)$   |
+
+</div>
 
 **Worked Example (Higher Tier).** $a = 12.4$ cm and $b = 3.7$ cm, both to 1 d.p. Find the upper
 Bound of $a^2 - b^2$.
@@ -685,12 +693,16 @@ $$
 
 ### 7.1 Squares, Cubes, and Roots
 
+<div class="table-wrap">
+
 | Operation   | Symbol        | Example            |
 | ----------- | ------------- | ------------------ |
 | Square      | $n^2$         | $7^2 = 49$         |
 | Cube        | $n^3$         | $4^3 = 64$         |
 | Square root | $\sqrt{n}$    | $\sqrt{81} = 9$    |
 | Cube root   | $\sqrt[3]{n}$ | $\sqrt[3]{27} = 3$ |
+
+</div>
 
 It is essential to memorise squares up to $15^2 = 225$ and cubes up to $5^3 = 125$ for efficient
 Exam work.
@@ -712,6 +724,8 @@ $n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$ One more than a multiple of 4. $\blacksqu
 
 ### 7.3 Rules of Divisibility
 
+<div class="table-wrap">
+
 | Divisible by | Rule                                           |
 | ------------ | ---------------------------------------------- |
 | 2            | Last digit is even                             |
@@ -723,6 +737,8 @@ $n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$ One more than a multiple of 4. $\blacksqu
 | 9            | Sum of digits is divisible by 9                |
 | 10           | Last digit is 0                                |
 | 11           | Alternating sum of digits is divisible by 11   |
+
+</div>
 
 **Worked Example.** Is $734856$ divisible by 11?
 

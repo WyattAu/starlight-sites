@@ -35,11 +35,15 @@ for avoiding this class of problems.
 
 Unnormalized schemas suffer from three categories of anomalies:
 
+<div class="table-wrap">
+
 | Anomaly Type | Description                                            | Concrete Example                                                                 |
 | ------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Insertion    | Cannot add a fact without adding unrelated facts       | Cannot record a new department until at least one employee is assigned to it     |
 | Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department"s address |
 | Update       | Updating a single fact requires touching multiple rows | Renaming a department requires updating every employee row in that department    |
+
+</div>
 
 These are not theoretical concerns. In production systems with millions of rows, an update anomaly
 Means a single `UPDATE` statement that touches 50,000 rows, requires a table lock, and risks partial
@@ -158,12 +162,16 @@ Dependency can be derived from them).
 The following rules are not axioms but can be proven from Armstrong's three axioms. They are used
 Constantly in normalization proofs:
 
+<div class="table-wrap">
+
 | Rule               | Statement                                                          | Proof Strategy              |
 | ------------------ | ------------------------------------------------------------------ | --------------------------- |
 | Union              | If $X \rightarrow Y$ and $X \rightarrow Z$ Then $X \rightarrow YZ$  | Augmentation + Transitivity |
 | Decomposition      | If $X \rightarrow YZ$ Then $X \rightarrow Y$ and $X \rightarrow Z$  | Reflexivity + Transitivity  |
 | Pseudotransitivity | If $X \rightarrow Y$ and $YW \rightarrow Z$ Then $XW \rightarrow Z$ | Augmentation + Transitivity |
 | Composition        | If $X \rightarrow Y$ and $W \rightarrow Z$ Then $XW \rightarrow YZ$ | Augmentation + Union        |
+
+</div>
 
 Proof of the Union rule:
 
@@ -491,12 +499,16 @@ Non-trivial functional dependency $X \rightarrow Y$ that holds in $R$, $X$ is a 
 
 Compare with 3NF:
 
+<div class="table-wrap">
+
 | Property                        | 3NF                                                                 | BCNF                                                        |
 | ------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Condition for $X \rightarrow A$ | $X$ is a superkey, OR $A$ is prime                                  | $X$ is a superkey (no exception)                            |
 | Strictness                      | Less strict                                                         | Strictest normal form based on FDs alone                    |
 | Always exists                   | Yes, dependency-preserving and lossless decomposition always exists | Not always; may require sacrificing dependency preservation |
 | Practical recommendation        | Default target for OLTP schemas                                     | Apply when possible; fall back to 3NF when necessary        |
+
+</div>
 
 BCNF removes the "prime attribute" exception from 3NF. Every determinant must be a superkey, full
 Stop.
@@ -653,6 +665,8 @@ Join SP ⋈ SJ ⋈ PJ:
 
 ### Normal Form Summary
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                                                      | Condition                                                         | Practical Relevance                                        |
 | ----------- | --------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- |
 | 1NF         | Repeating groups, non-atomic values                             | Every attribute is atomic                                         | Mandatory for any relational database                      |
@@ -661,6 +675,8 @@ Join SP ⋈ SJ ⋈ PJ:
 | BCNF        | Determinants that are not superkeys (prime attribute exception) | For every non-trivial $X \rightarrow Y$: $X$ is a superkey        | Apply when possible; may sacrifice dependency preservation |
 | 4NF         | Multi-valued dependencies                                       | For every non-trivial $X \twoheadrightarrow Y$: $X$ is a superkey | Rare; occurs with independent multi-valued attributes      |
 | 5NF         | Join dependencies not implied by candidate keys                 | For every non-trivial JD: each component is a superkey            | Extremely rare; mostly theoretical                         |
+
+</div>
 
 ## Normalization Examples
 
@@ -922,11 +938,15 @@ the constraint.
 
 This is the central practical tension in normalization theory:
 
+<div class="table-wrap">
+
 | Property              | 3NF Decomposition | BCNF Decomposition    |
 | --------------------- | ----------------- | --------------------- |
 | Lossless-join         | Always achievable | Always achievable     |
 | Dependency-preserving | Always achievable | NOT always achievable |
 | Redundancy            | Possible (minor)  | None                  |
+
+</div>
 
 **Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 3NF that is both lossless and dependency-preserving.
@@ -1160,6 +1180,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 
 ### Denormalization Tradeoffs
 
+<div class="table-wrap">
+
 | Tradeoff             | Impact                                                                            |
 | -------------------- | --------------------------------------------------------------------------------- |
 | Write amplification  | A single logical update may require updating multiple rows across multiple tables |
@@ -1167,6 +1189,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Storage cost         | Duplicated data consumes more disk space ( negligible with modern storage)        |
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
+
+</div>
 :::
 
 :::caution
@@ -1747,6 +1771,8 @@ Codd defined 13 rules (numbered 0 through 12) that a system must satisfy to be c
 Relational. No commercial database fully satisfies all 13, but they serve as the theoretical
 Benchmark:
 
+<div class="table-wrap">
+
 | Rule | Name                            | Summary                                                                           |
 | ---- | ------------------------------- | --------------------------------------------------------------------------------- |
 | 0    | Foundation                      | A relational DBMS must manage databases through its relational capabilities alone |
@@ -1763,12 +1789,16 @@ Benchmark:
 | 11   | Distribution Independence       | Applications unaffected by data distribution                                      |
 | 12   | Nonsubversion                   | Low-level language cannot bypass integrity constraints                            |
 
+</div>
+
 :::note
 Through arbitrary views, especially those involving joins, aggregations, or DISTINCT.
 
 ## Relations, Tuples, Attributes, and Domains
 
 The relational model uses precise terminology that SQL conflates:
+
+<div class="table-wrap">
 
 | Relational Term | SQL Term  | Mathematical Object                   |
 | --------------- | --------- | ------------------------------------- |
@@ -1778,6 +1808,8 @@ The relational model uses precise terminology that SQL conflates:
 | Domain          | Data type | A set of permissible values           |
 | Degree          | Arity     | Number of attributes in a relation    |
 | Cardinality     | Row count | Number of tuples in a relation        |
+
+</div>
 
 ### Key Distinction: Relations Are Sets
 
@@ -1861,6 +1893,8 @@ CREATE TABLE orders (
 
 Referential actions:
 
+<div class="table-wrap">
+
 | Action        | Behavior                                                            |
 | ------------- | ------------------------------------------------------------------- |
 | `CASCADE`     | Propagate the delete/update to child rows                           |
@@ -1868,6 +1902,8 @@ Referential actions:
 | `SET NULL`    | Set the foreign key to NULL in child rows                           |
 | `SET DEFAULT` | Set the foreign key to its default value in child rows              |
 | `NO ACTION`   | Defer check to end of transaction (similar to RESTRICT in practice) |
+
+</div>
 
 ### Composite Key
 
@@ -1927,6 +1963,8 @@ Trillions of rows and exhaust memory.
 A join combines related tuples from two relations based on a join condition. The most common is the
 Natural join, which matches on attributes with the same name.
 
+<div class="table-wrap">
+
 | Join Type   | Description                                                        |
 | ----------- | ------------------------------------------------------------------ |
 | Inner Join  | Returns tuples from both relations that satisfy the join condition |
@@ -1935,6 +1973,8 @@ Natural join, which matches on attributes with the same name.
 | Full Outer  | All tuples from both relations (NULL where no match)               |
 | Theta Join  | General join with arbitrary condition $\theta$                     |
 | Equi Join   | Theta join where $\theta$ is equality on specific attributes       |
+
+</div>
 
 The inner join can be expressed in terms of selection and Cartesian product:
 
@@ -2304,12 +2344,16 @@ erDiagram
 
 ### Cardinality Constraints
 
+<div class="table-wrap">
+
 | Notation  | Meaning                                  |
 | --------- | ---------------------------------------- |
 | 1:1       | Each entity relates to exactly one other |
 | 1:N       | One entity relates to many others        |
 | M:N       | Many entities relate to many others      |
 | 0..1:1..N | Optional/mandatory cardinalities         |
+
+</div>
 
 ### Converting ER Diagrams to Relations
 
@@ -2745,12 +2789,16 @@ SUM(amount) OVER (
 ) AS sum_excluding_ties_and_current
 ```
 
+<div class="table-wrap">
+
 | EXCLUDE Option | What It Removes                                 |
 | -------------- | ----------------------------------------------- |
 | `CURRENT ROW`  | Only the current row                            |
 | `GROUP`        | Current row and all peers (same ORDER BY value) |
 | `TIES`         | Only the peers, keeps the current row           |
 | `NO OTHERS`    | Nothing (default)                               |
+
+</div>
 
 ### WINDOW Clause (Window Chains)
 
@@ -2805,6 +2853,8 @@ SELECT emp_id, salary,
 FROM employees;
 ```
 
+<div class="table-wrap">
+
 | Function       | Ties at 150k, 150k, 140k, 130k | Range      |
 | -------------- | ------------------------------ | ---------- |
 | `ROW_NUMBER`   | 1, 2, 3, 4                     | N/A        |
@@ -2813,6 +2863,8 @@ FROM employees;
 | `NTILE(2)`     | 1, 1, 2, 2                     | 1 to n     |
 | `PERCENT_RANK` | 0.0, 0.0, 0.667, 1.0           | 0.0 to 1.0 |
 | `CUME_DIST`    | 0.5, 0.5, 0.75, 1.0            | 0.0 to 1.0 |
+
+</div>
 
 ## Advanced Common Table Expressions
 
@@ -2875,11 +2927,15 @@ SELECT
     (SELECT COUNT(*) FROM active_users WHERE email LIKE '%@company.com') AS company_users;
 ```
 
+<div class="table-wrap">
+
 | Strategy               | When to Use                        | Trade-off                                  |
 | ---------------------- | ---------------------------------- | ------------------------------------------ |
 | Inlined                | CTE referenced once, simple filter | Planner can push predicates, use indexes   |
 | Materialized           | CTE referenced multiple times      | Computed once but cannot use outer indexes |
 | `MATERIALIZED` keyword | Explicit control over inlining     | Overrides the planner's decision           |
+
+</div>
 
 ### Recursive CTEs for Tree Traversal
 
@@ -3079,6 +3135,8 @@ ORDER BY normalized_rank DESC;
 
 The normalization flags for `ts_rank` and `ts_rank_cd`:
 
+<div class="table-wrap">
+
 | Flag | Meaning                                     |
 | ---- | ------------------------------------------- |
 | 0    | No normalization                            |
@@ -3087,6 +3145,8 @@ The normalization flags for `ts_rank` and `ts_rank_cd`:
 | 4    | Normalize by both length and unique terms   |
 | 8    | Normalize by document length + unique terms |
 | 16   | Normalize by log of document length         |
+
+</div>
 
 ### Highlighting Results
 
@@ -3118,10 +3178,14 @@ WHERE body % 'database performance tuning'
 ORDER BY sim DESC;
 ```
 
+<div class="table-wrap">
+
 | Method           | Best For                  | Index Type  |
 | ---------------- | ------------------------- | ----------- |
 | tsvector/tsquery | Full-word search, ranking | GIN         |
 | pg_trgm          | Substring, fuzzy, ILIKE   | GIN or GiST |
+
+</div>
 
 ## Materialized Views
 
@@ -3178,12 +3242,16 @@ ON CONFLICT (order_date) DO UPDATE SET
 
 ### When to Use Materialized Views
 
+<div class="table-wrap">
+
 | Scenario                              | Recommendation                         |
 | ------------------------------------- | -------------------------------------- |
 | Dashboard aggregates (updated hourly) | Materialized view, scheduled refresh   |
 | Real-time analytics                   | Regular view or live aggregate         |
 | Pre-join denormalized read model      | Materialized view, concurrent refresh  |
 | ETL staging                           | Temporary table, not materialized view |
+
+</div>
 
 ## UPSERT Patterns
 
@@ -3241,6 +3309,8 @@ flowchart TD
 
 ### ON CONFLICT vs MERGE
 
+<div class="table-wrap">
+
 | Feature                    | ON CONFLICT             | MERGE                           |
 | -------------------------- | ----------------------- | ------------------------------- |
 | Unique constraint required | Yes                     | No                              |
@@ -3248,6 +3318,8 @@ flowchart TD
 | Multiple actions           | One (UPDATE or NOTHING) | Multiple (INSERT/UPDATE/DELETE) |
 | Source                     | VALUES or subquery      | Table, subquery, or CTE         |
 | Standard                   | PostgreSQL extension    | SQL:2003 standard               |
+
+</div>
 
 ## Advanced Aggregation
 
@@ -3492,12 +3564,16 @@ WHERE a.descendant_id = 10  -- new parent
   AND d.ancestor_id = 5;    -- moved node
 ```
 
+<div class="table-wrap">
+
 | Approach          | Read Performance | Write Performance | Storage  | Best For                   |
 | ----------------- | ---------------- | ----------------- | -------- | -------------------------- |
 | Adjacency List    | O(depth)         | O(1)              | Minimal  | Write-heavy, shallow trees |
 | Nested Sets       | O(1)             | O(n)              | Minimal  | Read-heavy, no updates     |
 | Materialized Path | O(1) for prefix  | O(1)              | Path col | Deep trees, sortable       |
 | Closure Table     | O(depth)         | O(n\*depth)       | O(n^2)   | Frequent subtree queries   |
+
+</div>
 
 ## Query Optimization
 
@@ -3537,6 +3613,8 @@ LIMIT 50;
 
 Key fields in `EXPLAIN ANALYZE` output:
 
+<div class="table-wrap">
+
 | Field              | Meaning                                          |
 | ------------------ | ------------------------------------------------ |
 | `Seq Scan`         | Full table scan                                  |
@@ -3550,6 +3628,8 @@ Key fields in `EXPLAIN ANALYZE` output:
 | `rows`             | Actual number of rows produced                   |
 | `loops`            | Number of times the node was executed            |
 | `Shared Hit/Read`  | Buffer cache hits vs disk reads (BUFFERS option) |
+
+</div>
 
 ### Planner Hints (pg_hint_plan)
 
@@ -3664,11 +3744,15 @@ ALTER TABLE measurements DETACH PARTITION measurements_2024_q1;
 CREATE INDEX idx_measurements_sensor ON measurements (sensor_id, recorded_at);
 ```
 
+<div class="table-wrap">
+
 | Partition Type | Best For                   | Data Distribution |
 | -------------- | -------------------------- | ----------------- |
 | Range          | Time-series, date ranges   | Uneven (natural)  |
 | List           | Categorical (region, type) | Defined by you    |
 | Hash           | Even distribution needed   | Uniform           |
+
+</div>
 
 ## Generated Columns
 
@@ -3696,10 +3780,14 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 -- INSERT INTO products (name, price, price_with_tax) VALUES (...)  -- ERROR
 ```
 
+<div class="table-wrap">
+
 | Type    | Storage  | Read Cost | Write Cost | Indexable |
 | ------- | -------- | --------- | ---------- | --------- |
 | Stored  | On disk  | Low       | Higher     | Yes       |
 | Virtual | Computed | Higher    | Low        | No        |
+
+</div>
 :::
 
 :::note
@@ -3974,6 +4062,8 @@ Key elements:
 
 ### Column Data Types
 
+<div class="table-wrap">
+
 | Type Category   | PostgreSQL Types                     | Notes                                                                           |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------- |
 | Integers        | `SMALLINT``INTEGER``BIGINT`          | `INTEGER` is 4 bytes, `BIGINT` is 8 bytes                                       |
@@ -3988,6 +4078,8 @@ Key elements:
 | UUID            | `UUID`                               | Requires the `uuid-ossp` or `pgcrypto` extension                                |
 | Array           | `INTEGER[]``TEXT[]`                  | PostgreSQL-specific extension                                                   |
 | Network         | `INET``CIDR``MACADDR`                | PostgreSQL-specific; enforces valid IP/MAC formats                              |
+
+</div>
 
 :::tip
 You lose the context of when the event actually occurred. `TIMESTAMPTZ` converts to UTC on storage
@@ -4528,6 +4620,8 @@ SELECT emp_id, department_id, salary,
 FROM employees;
 ```
 
+<div class="table-wrap">
+
 | salary | ROW_NUMBER | RANK | DENSE_RANK |
 | ------ | ---------- | ---- | ---------- |
 | 150000 | 1          | 1    | 1          |
@@ -4535,6 +4629,8 @@ FROM employees;
 | 140000 | 3          | 3    | 2          |
 | 140000 | 4          | 3    | 2          |
 | 130000 | 5          | 5    | 3          |
+
+</div>
 
 - `ROW_NUMBER`: assigns a unique sequential integer to each row within the partition
 - `RANK`: ties get the same rank; next rank skips (1, 1, 3, 3, 5)
@@ -4850,6 +4946,8 @@ B+ Tree (all data in leaves, leaves linked):
   [leaf] -> [leaf] -> [leaf] -> [leaf]  (linked list for range scans)
 ```
 
+<div class="table-wrap">
+
 | Property     | B-Tree                   | B+ Tree                          |
 | ------------ | ------------------------ | -------------------------------- |
 | Data storage | In all nodes             | Only in leaf nodes               |
@@ -4857,6 +4955,8 @@ B+ Tree (all data in leaves, leaves linked):
 | Range scans  | Requires tree traversal  | Sequential scan of linked leaves |
 | Node fill    | Variable                 | 2/3 to 4/5 (higher fan-out)      |
 | Height       | Taller for the same data | Shorter (higher fan-out)         |
+
+</div>
 
 ### Depth and Fan-Out
 
@@ -5141,6 +5241,8 @@ Execution Time: 0.221 ms
 
 Key fields to examine:
 
+<div class="table-wrap">
+
 | Field         | Meaning                                                  |
 | ------------- | -------------------------------------------------------- |
 | `cost`        | Planner's estimate of relative cost (lower is better)    |
@@ -5149,7 +5251,11 @@ Key fields to examine:
 | `actual rows` | Actual rows processed (from ANALYZE)                     |
 | `loops`       | Number of times this node was executed (from ANALYZE)    |
 
+</div>
+
 ### Common Plan Nodes
+
+<div class="table-wrap">
 
 | Node              | Description                                                      |
 | ----------------- | ---------------------------------------------------------------- |
@@ -5163,6 +5269,8 @@ Key fields to examine:
 | `Sort`            | In-memory sort (quicksort) or external sort (merge sort to disk) |
 | `Aggregate`       | Hash aggregate or Group Aggregate (sorted)                       |
 | `Limit`           | Stops processing after N rows                                    |
+
+</div>
 
 ### When the Planner Gets It Wrong
 
@@ -5266,6 +5374,8 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 
 ### Key Statistics
 
+<div class="table-wrap">
+
 | Column              | Meaning                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `n_distinct`        | Estimated number of distinct values (-1 means "proportional to row count")                                              |
@@ -5274,6 +5384,8 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 | `histogram_bounds`  | Bucket boundaries for value distribution                                                                                |
 | `correlation`       | Correlation between physical row order and column value order (1.0 = perfectly sorted, -1.0 = perfectly reverse sorted) |
 | `null_frac`         | Fraction of rows where the column is NULL                                                                               |
+
+</div>
 
 ### Extended Statistics
 
@@ -5385,11 +5497,15 @@ reserve_pool_timeout = 3
 
 Pool modes:
 
+<div class="table-wrap">
+
 | Mode          | Behaviour                                                                                     |
 | ------------- | --------------------------------------------------------------------------------------------- |
 | `session`     | Server connection held for the entire client session                                          |
 | `transaction` | Server connection held only for the duration of a transaction (recommended)                   |
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
+
+</div>
 :::
 
 :::tip
@@ -5763,6 +5879,8 @@ WHERE tablename = "orders'
 ORDER BY attname;
 ```
 
+<div class="table-wrap">
+
 | Statistic           | Meaning                                                                             |
 | ------------------- | ----------------------------------------------------------------------------------- |
 | `null_frac`         | Fraction of rows with NULL in this column                                           |
@@ -5772,6 +5890,8 @@ ORDER BY attname;
 | `most_common_vals`  | Most frequent values (MCV list)                                                     |
 | `most_common_freqs` | Frequencies of MCV values                                                           |
 | `histogram_bounds`  | Boundaries for histogram of non-MCV values                                          |
+
+</div>
 
 ### Histograms
 
@@ -5821,11 +5941,15 @@ ANALYZE orders;
 SELECT * FROM pg_stats_ext WHERE tablename = 'orders';
 ```
 
+<div class="table-wrap">
+
 | Statistic Type | Captures                              | Use Case                               |
 | -------------- | ------------------------------------- | -------------------------------------- |
 | `ndistinct`    | Distinct count of column combinations | GROUP BY multiple columns              |
 | `dependencies` | Functional dependencies               | WHERE a = 1 AND b = 2 (b depends on a) |
 | `mcv`          | Most common value combinations        | Multi-column filter selectivity        |
+
+</div>
 
 ## Join Strategies
 
@@ -5894,6 +6018,8 @@ Best when: both sides already sorted (index order), or when a presorted merge is
 
 ### Join Strategy Selection Guide
 
+<div class="table-wrap">
+
 | Condition                                          | Preferred Strategy      |
 | -------------------------------------------------- | ----------------------- |
 | One table is very small (&lt; 1000 rows)           | Nested Loop             |
@@ -5902,6 +6028,8 @@ Best when: both sides already sorted (index order), or when a presorted merge is
 | Both sides sorted on join key                      | Merge Join              |
 | Non-equijoin (e.g., range condition)               | Nested Loop             |
 | Inner table large, no index, insufficient work_mem | Merge Join (after sort) |
+
+</div>
 
 ## Subquery Optimization
 
@@ -5999,6 +6127,8 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 
 ### When Parallel Query Helps (and When It Does Not)
 
+<div class="table-wrap">
+
 | Scenario                       | Parallel Helps? | Reason                                     |
 | ------------------------------ | --------------- | ------------------------------------------ |
 | Full table scan on large table | Yes             | Work distributed across workers            |
@@ -6006,6 +6136,8 @@ SELECT * FROM large_a JOIN large_b ON a.id = b.id;
 | Index scan with few rows       | No              | Coordination overhead exceeds scan cost    |
 | Foreign data wrapper queries   | No              | FDW does not support parallel execution    |
 | Queries returning few rows     | No              | Gather overhead exceeds benefit            |
+
+</div>
 
 :::caution
 Uses 4x `work_mem` for hash tables. Set `work_mem` conservatively on parallel-capable systems, or
@@ -6130,6 +6262,8 @@ CREATE INDEX idx_logs_created_brin
     WITH (pages_per_range = 128);
 ```
 
+<div class="table-wrap">
+
 | Index Type | Size (relative) | Best For                            | Worst For                 |
 | ---------- | --------------- | ----------------------------------- | ------------------------- |
 | B-tree     | Large           | General purpose, equality + range   | Large tables, few queries |
@@ -6137,6 +6271,8 @@ CREATE INDEX idx_logs_created_brin
 | Hash       | Medium          | Equality only                       | Range queries, ordering   |
 | GIN        | Large           | Array, full-text, JSONB containment | Exact match, small keys   |
 | GiST       | Medium          | Geometric, range, full-text (trgm)  | Simple equality           |
+
+</div>
 
 ## GIN and GiST Indexes
 
@@ -6207,11 +6343,15 @@ server_idle_timeout = 600
 
 ### Pool Modes
 
+<div class="table-wrap">
+
 | Mode          | Behavior                                           | Best For                               |
 | ------------- | -------------------------------------------------- | -------------------------------------- |
 | `session`     | Connection assigned to client for entire session   | Applications using SET/ advisory locks |
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
+
+</div>
 :::
 
 :::caution
@@ -6577,6 +6717,8 @@ CREATE INDEX idx_docs_body_gist ON documents USING GiST (body gist_trgm_ops);
 -- Less selective for short patterns
 ```
 
+<div class="table-wrap">
+
 | Feature        | GIN trigram        | GiST trigram      |
 | -------------- | ------------------ | ----------------- |
 | Substring LIKE | Fast               | Moderate          |
@@ -6585,6 +6727,8 @@ CREATE INDEX idx_docs_body_gist ON documents USING GiST (body gist_trgm_ops);
 | Write speed    | Slow               | Fast              |
 | Read speed     | Fast (exact match) | Moderate          |
 | Best for       | Read-heavy         | Write-heavy       |
+
+</div>
 
 ## Partition Pruning Details
 
@@ -6636,6 +6780,8 @@ Tables.
 
 ## Statistics Target Tuning Guide
 
+<div class="table-wrap">
+
 | Column Pattern                          | Recommended statistics_target | Reason                                        |
 | --------------------------------------- | ----------------------------- | --------------------------------------------- |
 | Boolean (low cardinality)               | 100 (default)                 | Few distinct values, MCV covers all           |
@@ -6645,6 +6791,8 @@ Tables.
 | Column used in JOINs                    | 200-500                       | Join cardinality estimates matter             |
 | Column used in WHERE with range queries | 200-500                       | Histogram boundaries affect range selectivity |
 | Unique or near-unique                   | 100 (default)                 | n_distinct is sufficient                      |
+
+</div>
 
 ```sql
 -- Set statistics target per column
@@ -6697,12 +6845,16 @@ each lock type is essential for diagnosing performance issues and preventing dea
 
 ### Lock Granularity
 
+<div class="table-wrap">
+
 | Level    | Scope               | Overhead | Concurrency | Example                                    |
 | -------- | ------------------- | -------- | ----------- | ------------------------------------------ |
 | Row      | Single tuple        | High     | Highest     | `SELECT ... FOR UPDATE`                    |
 | Page     | 8KB page            | Medium   | Medium      | Internal page locks during heap operations |
 | Table    | Entire relation     | Low      | Lowest      | `LOCK TABLE`DDL operations                 |
 | Advisory | Application-defined | None     | N/A         | `pg_advisory_lock()`                       |
+
+</div>
 
 PostgreSQL does not use page-level locks for user-visible operations. Page-level locks are only used
 Internally during heap operations and are held for very short durations. Users interact with
@@ -6712,6 +6864,8 @@ Row-level and table-level locks.
 
 PostgreSQL defines eight table-level lock modes. Each SQL command acquires specific locks
 Automatically.
+
+<div class="table-wrap">
 
 | Lock Mode              | Acquired By                                                  | Conflicts With                                                                                 |
 | ---------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
@@ -6724,7 +6878,11 @@ Automatically.
 | EXCLUSIVE              | `REFRESH MATERIALIZED VIEW` (non-concurrent)                 | ROW SHARE, ROW EXCLUSIVE, SHARE, SHARE ROW EXCLUSIVE, EXCLUSIVE, ACCESS EXCLUSIVE              |
 | ACCESS EXCLUSIVE       | `DROP TABLE``TRUNCATE``ALTER TABLE``VACUUM FULL``LOCK TABLE` | All lock modes                                                                                 |
 
+</div>
+
 ### Lock Compatibility Matrix
+
+<div class="table-wrap">
 
 | Request \ Held         | AS  | RS  | RX  | SRE | S   | SRE2 | X   | AE  |
 | ---------------------- | --- | --- | --- | --- | --- | ---- | --- | --- |
@@ -6736,6 +6894,8 @@ Automatically.
 | SHARE ROW EXCL         | Y   | Y   | N   | N   | N   | N    | N   | N   |
 | EXCLUSIVE              | Y   | N   | N   | N   | N   | N    | N   | N   |
 | ACCESS EXCL            | N   | N   | N   | N   | N   | N    | N   | N   |
+
+</div>
 
 ## Row-Level Locks
 
@@ -6796,12 +6956,16 @@ SELECT * FROM products WHERE product_id = 42 FOR NO KEY UPDATE;
 SELECT * FROM products WHERE product_id = 42 FOR KEY SHARE;
 ```
 
+<div class="table-wrap">
+
 | Lock Mode           | Blocks `FOR UPDATE` | Blocks `FOR NO KEY UPDATE` | Blocks `FOR SHARE` | Blocks `FOR KEY SHARE` |
 | ------------------- | ------------------- | -------------------------- | ------------------ | ---------------------- |
 | `FOR UPDATE`        | Yes                 | Yes                        | Yes                | Yes                    |
 | `FOR NO KEY UPDATE` | Yes                 | Yes                        | Yes                | No                     |
 | `FOR SHARE`         | Yes                 | Yes                        | Yes                | Yes                    |
 | `FOR KEY SHARE`     | Yes                 | No                         | Yes                | Yes                    |
+
+</div>
 
 ## Explicit Table Locking
 
@@ -6955,12 +7119,16 @@ SELECT pg_advisory_xact_lock_shared(12345);
 
 ### Use Cases
 
+<div class="table-wrap">
+
 | Use Case                         | Advisory Lock Pattern                    | Notes                              |
 | -------------------------------- | ---------------------------------------- | ---------------------------------- |
 | Prevent concurrent job execution | `pg_advisory_lock(job_type_id)`          | Blocks until previous job finishes |
 | Distributed rate limiting        | `pg_advisory_lock(user_id)` with timeout | 1 lock per user                    |
 | Prevent duplicate inserts        | `pg_advisory_xact_lock(hash(data))`      | Auto-released on commit/rollback   |
 | Coordinate deployments           | `pg_advisory_lock(migration_id)`         | Only one migration runs at a time  |
+
+</div>
 
 :::note
 Advisory locks on the same bigint value from different sessions conflict, regardless of which
@@ -7053,11 +7221,15 @@ WHERE NOT blocked_locks.granted;
 
 Each row (tuple) in PostgreSQL has two hidden system columns:
 
+<div class="table-wrap">
+
 | Column | Meaning                                                          |
 | ------ | ---------------------------------------------------------------- |
 | `xmin` | Transaction ID that inserted this row version                    |
 | `xmax` | Transaction ID that deleted/updated this row (0 = still visible) |
 | `ctid` | Physical location (block number, offset within block)            |
+
+</div>
 
 Visibility for a transaction with snapshot `(xmin_snap, xmax_snap)`:
 
@@ -7114,12 +7286,16 @@ VACUUM FREEZE VERBOSE;
 
 On a streaming replica (hot standby), queries may conflict with replayed WAL records:
 
+<div class="table-wrap">
+
 | Conflict Type       | What Happens                                        |
 | ------------------- | --------------------------------------------------- |
 | AccessExclusiveLock | Replica query blocked by DDL replay                 |
 | TableLock           | Replica query blocked by table lock replay          |
 | SnapshotConflict    | Replica query needs rows being vacuumed on primary  |
 | BufferPin           | Replica holds a buffer pin on a page being replayed |
+
+</div>
 
 ```sql
 -- On the replica: view replication conflicts
@@ -7171,11 +7347,15 @@ ALTER DATABASE mydb SET statement_timeout = '30s';
 SET LOCAL statement_timeout = '0';  -- disable for this transaction
 ```
 
+<div class="table-wrap">
+
 | Timeout                               | What It Aborts                                      | Default      |
 | ------------------------------------- | --------------------------------------------------- | ------------ |
 | `statement_timeout`                   | Any statement exceeding duration                    | 0 (disabled) |
 | `lock_timeout`                        | Any statement waiting for a lock exceeding duration | 0 (disabled) |
 | `idle_in_transaction_session_timeout` | Sessions idle in transaction                        | 0 (disabled) |
+
+</div>
 
 ## Lock Escalation
 
@@ -7343,6 +7523,8 @@ Regardless of savepoints.
 
 DDL statements acquire table-level locks that may conflict with concurrent operations:
 
+<div class="table-wrap">
+
 | DDL Operation                 | Lock Acquired                   | Blocks                        |
 | ----------------------------- | ------------------------------- | ----------------------------- |
 | `CREATE INDEX`                | SHARE                           | INSERT, UPDATE, DELETE        |
@@ -7355,6 +7537,8 @@ DDL statements acquire table-level locks that may conflict with concurrent opera
 | `VACUUM FULL`                 | ACCESS EXCLUSIVE                | All operations                |
 | `ANALYZE`                     | SHARE UPDATE EXCLUSIVE          | SELECT is allowed             |
 | `GRANT` / `REVOKE`            | ACCESS EXCLUSIVE (on the table) | All operations                |
+
+</div>
 
 ### Lock Waits and Blocking Queries
 
@@ -7723,6 +7907,8 @@ stateDiagram-v2
     Aborted --> [*]
 ```
 
+<div class="table-wrap">
+
 | State               | Description                                                    |
 | ------------------- | -------------------------------------------------------------- |
 | Active              | Transaction is executing statements                            |
@@ -7730,6 +7916,8 @@ stateDiagram-v2
 | Committed           | WAL flushed; changes are permanent                             |
 | Failed              | An error occurred; changes must be undone                      |
 | Aborted             | Rollback completed; database restored to pre-transaction state |
+
+</div>
 
 ## Isolation Levels
 
@@ -7749,12 +7937,16 @@ Matching that condition and commits. When T1 re-executes the query, it sees a ne
 
 ### Isolation Level Comparison
 
+<div class="table-wrap">
+
 | Isolation Level  | Dirty Read | Non-Repeatable Read | Phantom Read | Lock-Based Implementation                     |
 | ---------------- | ---------- | ------------------- | ------------ | --------------------------------------------- |
 | READ UNCOMMITTED | Possible   | Possible            | Possible     | None                                          |
 | READ COMMITTED   | Prevented  | Possible            | Possible     | Row-level shared locks (duration of read)     |
 | REPEATABLE READ  | Prevented  | Prevented           | Possible\*   | Row-level locks held until end of transaction |
 | SERIALIZABLE     | Prevented  | Prevented           | Prevented    | Range locks or snapshot isolation             |
+
+</div>
 
 \*PostgreSQL's REPEATABLE READ actually prevents phantom reads through its snapshot-based
 Implementation, exceeding the SQL standard's requirement.
@@ -7854,12 +8046,16 @@ T2: COMMIT;  -- ERROR: could not serialize access due to concurrent update
 
 ### Choosing an Isolation Level
 
+<div class="table-wrap">
+
 | Scenario                                                 | Recommended Level |
 | -------------------------------------------------------- | ----------------- |
 | Standard OLTP (most applications)                        | READ COMMITTED    |
 | Financial transfers, inventory management                | REPEATABLE READ   |
 | Booking systems, scheduling, any business rule integrity | SERIALIZABLE      |
 | Approximate analytics, reporting                         | READ UNCOMMITTED  |
+
+</div>
 
 ## Locking
 
@@ -7888,12 +8084,16 @@ Different guarantees at different costs.
   a table
 - Used for hierarchical locking (table-level intention locks, row-level actual locks)
 
+<div class="table-wrap">
+
 | Lock Request             | IS           | IX           | S            | X            |
 | ------------------------ | ------------ | ------------ | ------------ | ------------ |
 | IS (Intention Shared)    | Compatible   | Compatible   | Compatible   | Incompatible |
 | IX (Intention Exclusive) | Compatible   | Compatible   | Incompatible | Incompatible |
 | S (Shared)               | Compatible   | Incompatible | Compatible   | Incompatible |
 | X (Exclusive)            | Incompatible | Incompatible | Incompatible | Incompatible |
+
+</div>
 
 ### Lock Granularity
 
@@ -8216,6 +8416,8 @@ COMMIT;
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Aspect                       | Pessimistic                | Optimistic                           |
 | ---------------------------- | -------------------------- | ------------------------------------ |
 | Conflict handling            | Prevented by locks         | Detected on write, resolved by retry |
@@ -8225,6 +8427,8 @@ COMMIT;
 | Complexity                   | Simpler logic              | Must implement retry logic           |
 | Deadlocks                    | Possible                   | Not possible                         |
 | Best for                     | Write-heavy, hot rows      | Read-heavy, cold rows                |
+
+</div>
 
 ## Intuition
 
@@ -8490,6 +8694,8 @@ Use `SET LOCAL` within a transaction to scope the security context correctly.
 
 ### PostgreSQL vs MySQL (InnoDB)
 
+<div class="table-wrap">
+
 | Aspect              | PostgreSQL                                   | MySQL (InnoDB)                                      |
 | ------------------- | -------------------------------------------- | --------------------------------------------------- |
 | Default level       | READ COMMITTED                               | REPEATABLE READ                                     |
@@ -8498,6 +8704,8 @@ Use `SET LOCAL` within a transaction to scope the security context correctly.
 | Lock escalation     | No lock escalation (always row-level)        | May escalate to table-level for certain operations  |
 | Deadlock detection  | Automatic (wait-for graph cycle detection)   | Automatic (timeout-based: innodb_lock_wait_timeout) |
 | SERIALIZABLE        | SSI (Serializable Snapshot Isolation)        | Two-Phase Locking                                   |
+
+</div>
 
 ### Oracle vs PostgreSQL
 
@@ -8557,10 +8765,14 @@ Update propagates slowly, a garbage collector pause causes a timeout, a cross-da
 Degrades. Any distributed system must tolerate partitions, which means the real choice is between
 **CP** and **AP**:
 
+<div class="table-wrap">
+
 | Category | Strategy                                                       | Example Systems                                             |
 | -------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
 | CP       | Preserve consistency, sacrifice availability during partitions | PostgreSQL (sync replicas), HBase, Redis (with replication) |
 | AP       | Preserve availability, sacrifice consistency during partitions | MongoDB (default, w:1), Cassandra, DynamoDB, CouchDB, Riak  |
+
+</div>
 
 ### The PACELC Theorem
 
@@ -8584,6 +8796,8 @@ Supports tunable consistency per operation.
 
 Consistency is not binary. There is a spectrum of consistency models, from strongest to weakest:
 
+<div class="table-wrap">
+
 | Model              | Guarantee                                                         | Examples                               |
 | ------------------ | ----------------------------------------------------------------- | -------------------------------------- |
 | Linearizable       | Operations appear to execute atomically and in real-time order    | Single-node databases, ZooKeeper       |
@@ -8594,6 +8808,8 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Read-your-writes   | A reader always sees its own writes                               | Most systems with sticky sessions      |
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
+
+</div>
 
 :::caution
 That if you stop writing, the system will converge. In practice, convergence time depends on the
@@ -8738,6 +8954,8 @@ Store -- it supports a rich set of data structures and operations.
 
 #### Redis Data Structures
 
+<div class="table-wrap">
+
 | Structure   | Commands                           | Use Cases                                   |
 | ----------- | ---------------------------------- | ------------------------------------------- |
 | Strings     | `GET``SET``INCR``SETEX``GETSET`    | Caching, counters, rate limiting            |
@@ -8749,6 +8967,8 @@ Store -- it supports a rich set of data structures and operations.
 | HyperLogLog | `PFADD``PFCOUNT``PFMERGE`          | Cardinality estimation (unique visitors)    |
 | Streams     | `XADD``XREAD``XREADGROUP``XACK`    | Event sourcing, message queues, time series |
 | Geospatial  | `GEOADD``GEORADIUS``GEOSEARCH`     | Location-based features                     |
+
+</div>
 
 #### Redis Persistence
 
@@ -8765,11 +8985,15 @@ appendfsync everysec   # fsync once per second (good balance)
 # appendfsync no        # let OS decide (fastest, least safe)
 ```
 
+<div class="table-wrap">
+
 | Mode      | Pros                                                     | Cons                                  |
 | --------- | -------------------------------------------------------- | ------------------------------------- |
 | RDB       | Compact files, fast restart, low overhead                | Data loss between snapshots (minutes) |
 | AOF       | Minimal data loss (1 second at most)                     | Larger files, slower restart          |
 | RDB + AOF | Best of both (AOF for durability, RDB for restart speed) | More disk usage, more complexity      |
+
+</div>
 
 #### Redis Clustering
 
@@ -8853,6 +9077,8 @@ Availability across multiple data centers.
 
 #### Consistency Levels
 
+<div class="table-wrap">
+
 | Level          | Description                                                         |
 | -------------- | ------------------------------------------------------------------- |
 | `ONE`          | Coordinator returns after one replica responds (fastest)            |
@@ -8861,6 +9087,8 @@ Availability across multiple data centers.
 | `LOCAL_QUORUM` | Quorum within the local data center only                            |
 | `EACH_QUORUM`  | Quorum in each data center (for multi-DC writes)                    |
 | `SERIAL`       | Linearizable consistency for lightweight transactions               |
+
+</div>
 
 For reads and writes to be consistent (read-your-writes), the sum of read and write consistency
 Levels must exceed the replication factor:
@@ -9179,6 +9407,8 @@ stateDiagram-v2
 CRDTs are data structures designed to be replicated across multiple nodes with automatic conflict
 Resolution. They guarantee eventual consistency without requiring coordination.
 
+<div class="table-wrap">
+
 | CRDT Type    | Example Operations          | Conflict Resolution                 |
 | ------------ | --------------------------- | ----------------------------------- |
 | G-Counter    | Increment                   | Take maximum                        |
@@ -9186,6 +9416,8 @@ Resolution. They guarantee eventual consistency without requiring coordination.
 | G-Set        | Add                         | Union (set merge)                   |
 | OR-Set       | Add, Remove                 | Observed-remove (tombstone-based)   |
 | LWW-Register | Assign value with timestamp | Last-writer-wins                    |
+
+</div>
 
 CRDTs are used in Riak, Redis CRDT module, and some edge computing frameworks. The trade-off: they
 only support a limited set of operations (no arbitrary transactions), and some types accumulate
@@ -9226,6 +9458,8 @@ SSTable Level N (disk)  ← oldest, largest
 
 **LSM Tree vs B-Tree:**
 
+<div class="table-wrap">
+
 | Aspect              | LSM Tree                             | B-Tree                               |
 | ------------------- | ------------------------------------ | ------------------------------------ |
 | Write throughput    | Very high (sequential writes only)   | Moderate (random writes for updates) |
@@ -9234,6 +9468,8 @@ SSTable Level N (disk)  ← oldest, largest
 | Read amplification  | High (multiple levels)               | Low (single traversal)               |
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
+
+</div>
 :::
 
 :::note
@@ -9264,10 +9500,14 @@ Dynamo-style architecture.
 
 **Capacity modes:**
 
+<div class="table-wrap">
+
 | Mode        | Characteristics                                                      |
 | ----------- | -------------------------------------------------------------------- |
 | Provisioned | Specify read/write capacity units; cheaper for predictable workloads |
 | On-Demand   | Auto-scales; pay per request; more expensive for steady workloads    |
+
+</div>
 
 **Global Secondary Indexes (GSI):**
 
@@ -9562,6 +9802,8 @@ LIMIT 10;
 
 ### Physical vs Logical Replication
 
+<div class="table-wrap">
+
 | Aspect           | Physical Replication                   | Logical Replication                        |
 | ---------------- | -------------------------------------- | ------------------------------------------ |
 | What replicates  | Entire WAL (all databases, all tables) | Selected tables (per-publication)          |
@@ -9569,6 +9811,8 @@ LIMIT 10;
 | Cross-version    | Same major version only                | Can replicate between major versions       |
 | Write on replica | No (read-only)                         | Yes (subscription tables are writable)     |
 | Use case         | High availability, disaster recovery   | Data sharing, partial replication, CDC     |
+
+</div>
 
 ### Setting Up Logical Replication
 
@@ -10009,6 +10253,8 @@ SHOW maintenance_work_mem;  -- e.g., 1GB
 SHOW effective_cache_size;  -- e.g., 12GB
 ```
 
+<div class="table-wrap">
+
 | Parameter              | Recommended Setting                        | Notes                               |
 | ---------------------- | ------------------------------------------ | ----------------------------------- |
 | `shared_buffers`       | 25% of RAM                                 | Up to ~8GB on Linux with huge pages |
@@ -10017,6 +10263,8 @@ SHOW effective_cache_size;  -- e.g., 12GB
 | `maintenance_work_mem` | 1-4GB                                      | For VACUUM, index creation          |
 | `wal_buffers`          | 64MB (default -1 = 1/32 of shared_buffers) | WAL buffer size                     |
 | `huge_pages`           | `try`                                      | Reduces TLB misses                  |
+
+</div>
 
 ### WAL Configuration
 
@@ -10689,6 +10937,8 @@ PERSIST key                 # Remove TTL
 
 When `maxmemory` is reached, Redis uses the configured policy to evict keys:
 
+<div class="table-wrap">
+
 | Policy            | Behavior                                    | Best For                            |
 | ----------------- | ------------------------------------------- | ----------------------------------- |
 | `noeviction`      | Return errors on write commands             | Data must not be lost               |
@@ -10699,6 +10949,8 @@ When `maxmemory` is reached, Redis uses the configured policy to evict keys:
 | `allkeys-random`  | Evict random keys                           | Uniform access patterns             |
 | `volatile-random` | Evict random keys with TTL set              | Uniform access with permanent data  |
 | `volatile-ttl`    | Evict keys with shortest TTL                | Time-based cache                    |
+
+</div>
 
 ## Persistence
 
@@ -10756,6 +11008,8 @@ aof-use-rdb-preamble yes
 The AOF file starts with an RDB snapshot (fast loading) followed by AOF incremental changes
 (fine-grained durability). This combines the advantages of both approaches.
 
+<div class="table-wrap">
+
 | Feature        | RDB                  | AOF                        | Mixed                |
 | -------------- | -------------------- | -------------------------- | -------------------- |
 | Durability     | Point-in-time only   | Every write (configurable) | Good                 |
@@ -10763,6 +11017,8 @@ The AOF file starts with an RDB snapshot (fast loading) followed by AOF incremen
 | Recovery speed | Fast (binary load)   | Slow (replay commands)     | Fast                 |
 | Write overhead | Fork during snapshot | Every write logged         | Moderate             |
 | Best for       | Backup, replication  | Maximum durability         | General purpose      |
+
+</div>
 
 ## Replication
 
@@ -10825,12 +11081,16 @@ sentinel parallel-syncs mymaster 1
 sentinel auth-pass mymaster your_password
 ```
 
+<div class="table-wrap">
+
 | Parameter                 | Meaning                                             |
 | ------------------------- | --------------------------------------------------- |
 | `monitor`                 | Master name, IP, port, quorum (votes needed)        |
 | `down-after-milliseconds` | Mark master as down after this many ms              |
 | `failover-timeout`        | Wait this long between failovers                    |
 | `parallel-syncs`          | How many replicas to resync at once during failover |
+
+</div>
 
 Sentinel also acts as a configuration provider: clients connect to Sentinel to discover the current
 Master address.
@@ -11057,17 +11317,23 @@ pipe.execute()
 
 Performance comparison:
 
+<div class="table-wrap">
+
 | Method     | 10,000 commands | Latency (approx) |
 | ---------- | --------------- | ---------------- |
 | Individual | 10,000 RTTs     | ~10s (1ms/RTT)   |
 | Pipeline   | 1 RTT           | ~50ms            |
 | Lua script | 1 RTT           | ~30ms            |
 
+</div>
+
 ## Memory Optimization
 
 ### Encoding Types
 
 Redis automatically selects memory-efficient encodings based on value characteristics:
+
+<div class="table-wrap">
 
 | Type       | Encoding  | When Used                               | Memory per element |
 | ---------- | --------- | --------------------------------------- | ------------------ |
@@ -11078,6 +11344,8 @@ Redis automatically selects memory-efficient encodings based on value characteri
 | Set        | hashtable | Non-integers or count &gt; 512          | ~60 bytes          |
 | Sorted Set | ziplist   | &lt;= 128 elements, each &lt;= 64 bytes | ~8 bytes           |
 | Sorted Set | skiplist  | Exceeds ziplist thresholds              | ~60 bytes          |
+
+</div>
 
 ### Hash Tags for Related Data
 
@@ -11353,6 +11621,8 @@ redis-cli -c -p 7000 CLUSTER GETKEYSINSLOT 0 10
 
 ### Cluster Limitations
 
+<div class="table-wrap">
+
 | Limitation              | Value          | Workaround                            |
 | ----------------------- | -------------- | ------------------------------------- |
 | Maximum keys            | 2^34           | Use sharding across clusters          |
@@ -11361,6 +11631,8 @@ redis-cli -c -p 7000 CLUSTER GETKEYSINSLOT 0 10
 | Database count          | 1 (database 0) | Use key prefixes for namespaces       |
 | SELECT in Lua scripts   | Not supported  | Use `redis.call()` for reads          |
 | Pipelining across slots | Not supported  | Pipeline to the correct node directly |
+
+</div>
 
 ### Handling MOVED and ASK Redirects
 
@@ -11442,6 +11714,8 @@ redis-benchmark -t set -n 10000 -c 50 -d 1024  # 1KB values
 
 ### Performance Expectations
 
+<div class="table-wrap">
+
 | Command        | Single-Thread Throughput (approx) | Notes                           |
 | -------------- | --------------------------------- | ------------------------------- |
 | SET            | 80,000-120,000 ops/sec            | Varies by value size            |
@@ -11451,6 +11725,8 @@ redis-benchmark -t set -n 10000 -c 50 -d 1024  # 1KB values
 | ZADD/ZRANGE    | 60,000-100,000 ops/sec            | Depends on sorted set size      |
 | MGET (10 keys) | 40,000-60,000 ops/sec             | Amortized per key               |
 | Pipeline (16)  | 500,000-800,000 ops/sec           | 16x improvement from pipelining |
+
+</div>
 
 ## Redis Memory Analysis
 
@@ -11502,6 +11778,8 @@ Normalization eliminates redundancy and update anomalies, but there is a point o
 Returns. The decision of when to stop depends on your read/write ratio, performance requirements,
 And complexity tolerance.
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                             | Practical Impact                           |
 | ----------- | -------------------------------------- | ------------------------------------------ |
 | 1NF         | Repeating groups, non-atomic values    | Foundation; every table should be in 1NF   |
@@ -11510,6 +11788,8 @@ And complexity tolerance.
 | BCNF        | All candidate keys fully determined    | Slight refinement over 3NF                 |
 | 4NF         | Multi-valued dependencies              | Rarely needed in practice                  |
 | 5NF         | Join dependencies                      | Theoretical; almost never practical        |
+
+</div>
 
 ### 3NF vs Denormalization
 
@@ -11550,6 +11830,8 @@ CREATE TABLE order_summary (
 
 ### When to Denormalize
 
+<div class="table-wrap">
+
 | Scenario                                     | Recommendation                  |
 | -------------------------------------------- | ------------------------------- |
 | OLTP with frequent writes                    | Normalize (3NF)                 |
@@ -11557,6 +11839,8 @@ CREATE TABLE order_summary (
 | High-frequency reads with infrequent updates | Cached/precomputed column       |
 | Data warehousing / OLAP                      | Star/snowflake schema           |
 | Real-time aggregation requirements           | Precomputed aggregates          |
+
+</div>
 
 ## Denormalization Patterns
 
@@ -11707,11 +11991,15 @@ SET previous_category = current_category,
 WHERE product_id = 42;
 ```
 
+<div class="table-wrap">
+
 | SCD Type | History Retained | Storage | Complexity | Use Case                           |
 | -------- | ---------------- | ------- | ---------- | ---------------------------------- |
 | Type 1   | None             | Minimal | Low        | Corrections, insignificant changes |
 | Type 2   | Full             | High    | High       | Audit trails, analytics            |
 | Type 3   | One previous     | Low     | Medium     | Limited history needed             |
+
+</div>
 
 ## Hierarchical Data
 
@@ -11813,12 +12101,16 @@ VALUES (NEW.node_id, NEW.node_id, 0);
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Pattern          | Insert | Update (move subtree) | Read ancestors | Read descendants | Storage     |
 | ---------------- | ------ | --------------------- | -------------- | ---------------- | ----------- |
 | Adjacency List   | O(1)   | O(1)                  | O(depth) CTE   | O(depth) CTE     | Minimal     |
 | Nested Sets      | O(n)   | O(n)                  | O(1)           | O(1)             | Minimal     |
 | Path Enumeration | O(1)   | O(n)                  | O(1)           | O(1) LIKE        | Path column |
 | Closure Table    | O(n)   | O(n\*depth)           | O(depth)       | O(depth)         | O(n^2)      |
+
+</div>
 
 ## Polymorphic Associations
 
@@ -11897,11 +12189,15 @@ SELECT * FROM payments WHERE metadata ->> 'card_last_four' = '1234';
 CREATE INDEX idx_payments_metadata ON payments USING GIN (metadata);
 ```
 
+<div class="table-wrap">
+
 | Approach     | Pros                           | Cons                              |
 | ------------ | ------------------------------ | --------------------------------- |
 | Shared table | Simple queries, no JOINs       | Many NULL columns, weak typing    |
 | Class table  | Strong typing, no wasted space | JOINs required, complex queries   |
 | JSON columns | Flexible, schemaless fields    | No foreign keys, no type checking |
+
+</div>
 
 ## Many-to-Many Relationships
 
@@ -11955,6 +12251,8 @@ SELECT * FROM users WHERE deleted_at IS NULL;
 DELETE FROM users WHERE user_id = 42;
 ```
 
+<div class="table-wrap">
+
 | Aspect      | Soft Delete                      | Hard Delete                |
 | ----------- | -------------------------------- | -------------------------- |
 | Recovery    | Reversible (set deleted_at=NULL) | Not reversible             |
@@ -11962,6 +12260,8 @@ DELETE FROM users WHERE user_id = 42;
 | Query perf  | All queries need WHERE clause    | No filter overhead         |
 | Uniqueness  | Must handle deleted emails       | Natural uniqueness         |
 | Referential | FK constraints still apply       | CASCADE removes dependents |
+
+</div>
 
 :::caution
 `alice@example.com`. You cannot create a new user with the same email unless you modify the unique
@@ -12121,11 +12421,15 @@ ALTER TABLE app_settings ADD CONSTRAINT valid_config CHECK (
 );
 ```
 
+<div class="table-wrap">
+
 | Approach | Query Performance   | Type Safety | Schema Flexibility | Storage     |
 | -------- | ------------------- | ----------- | ------------------ | ----------- |
 | EAV      | Terrible (pivoting) | None        | High               | Inefficient |
 | JSONB    | Good (GIN index)    | Limited     | High               | Efficient   |
 | Columns  | Best                | Full        | Low (ALTER TABLE)  | Efficient   |
+
+</div>
 
 ## Status Machines
 
@@ -12367,11 +12671,15 @@ erDiagram
 
 ### Relationships
 
+<div class="table-wrap">
+
 | Cardinality | ER Notation            | SQL Implementation                                 |
 | ----------- | ---------------------- | -------------------------------------------------- |
 | 1:1         | One line, one mark     | Foreign key in either table with UNIQUE constraint |
 | 1:N         | One line, many marks   | Foreign key in the "many" table                    |
 | M:N         | Many lines, many marks | Association table with composite PK                |
+
+</div>
 
 ### Attributes
 
@@ -12595,6 +12903,8 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 
 ### When to Partition
 
+<div class="table-wrap">
+
 | Factor        | Partition                                        | Do Not Partition                  |
 | ------------- | ------------------------------------------------ | --------------------------------- |
 | Table size    | &gt; 10-50 GB                                    | &lt; 5 GB                         |
@@ -12602,6 +12912,8 @@ CREATE TABLE events_p3 PARTITION OF events FOR VALUES WITH (MODULUS 4, REMAINDER
 | Maintenance   | Need to drop/archive old data quickly            | Data lifecycle is uniform         |
 | Write pattern | Inserts target specific partitions               | Inserts are spread uniformly      |
 | Index size    | Index maintenance is becoming expensive          | Indexes fit comfortably in memory |
+
+</div>
 
 :::caution
 KEY on `order_id` alone if the table is partitioned by `created_at` -- the primary key must include
@@ -12688,11 +13000,15 @@ server_reset_query = DISCARD ALL
 
 ### Pool Mode Comparison
 
+<div class="table-wrap">
+
 | Mode        | Connection Lifetime | Prepared Statements | Use Case                         |
 | ----------- | ------------------- | ------------------- | -------------------------------- |
 | session     | Client session      | Supported           | Legacy applications, batch jobs  |
 | transaction | Single transaction  | Not supported       | Web applications (most common)   |
 | statement   | Single statement    | Not supported       | Rarely used; breaks transactions |
+
+</div>
 
 ## Schema Migrations
 
@@ -12762,6 +13078,8 @@ A reporting service or a data pipeline can cause silent failures if dropped.
 
 ### Migration Tools
 
+<div class="table-wrap">
+
 | Tool           | Language | Features                                                        |
 | -------------- | -------- | --------------------------------------------------------------- |
 | Flyway         | Java/CLI | Versioned migrations, repeatable migrations, Java/SQL callbacks |
@@ -12769,6 +13087,8 @@ A reporting service or a data pipeline can cause silent failures if dropped.
 | golang-migrate | Go       | CLI library, up/down migrations, database-agnostic              |
 | Alembic        | Python   | Auto-generation from SQLAlchemy models, revision chaining       |
 | dbmate         | Go/CLI   | Minimal, framework-agnostic, supports multiple databases        |
+
+</div>
 
 ## Data Modeling Anti-Patterns
 
@@ -12994,6 +13314,8 @@ Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 
 ### OLTP vs OLAP
 
+<div class="table-wrap">
+
 | Dimension     | OLTP (Online Transaction Processing)       | OLAP (Online Analytical Processing)      |
 | ------------- | ------------------------------------------ | ---------------------------------------- |
 | Purpose       | Day-to-day operations                      | Analysis, reporting, decision support    |
@@ -13002,6 +13324,8 @@ Consensus-based coordination system (Patroni + etcd) rather than custom scripts.
 | Write pattern | Frequent small writes (INSERT, UPDATE)     | Bulk loads (ETL), infrequent             |
 | Normalisation | Fully normalised (3NF+)                    | Denormalised (star/snowflake schema)     |
 | Examples      | Order processing, user management, banking | Sales reports, dashboards, data mining   |
+
+</div>
 
 ### Star Schema
 
@@ -13076,12 +13400,16 @@ Joins (slower queries), more complex to understand
 
 Dimensions change over time. SCD strategies define how to handle these changes:
 
+<div class="table-wrap">
+
 | Type  | Strategy                            | Example                                         |
 | ----- | ----------------------------------- | ----------------------------------------------- |
 | SCD 1 | Overwrite the old value             | Correcting a typo in a product name             |
 | SCD 2 | Add a new row with effective dates  | Customer moves to a new address (track history) |
 | SCD 3 | Add a column for the previous value | Store the previous and current category         |
 | SCD 4 | Add a mini-dimension for history    | Track all historical values in a separate table |
+
+</div>
 
 ```sql
 -- SCD Type 2: add a new row with effective dates
@@ -13352,6 +13680,8 @@ npx prisma migrate status
 
 ### Tool Comparison
 
+<div class="table-wrap">
+
 | Feature           | Flyway            | Liquibase            | golang-migrate | Alembic | Django     | Prisma                        |
 | ----------------- | ----------------- | -------------------- | -------------- | ------- | ---------- | ----------------------------- |
 | Languages         | SQL, Java, Kotlin | XML, YAML, JSON, SQL | SQL            | Python  | Python     | SQL, TS                       |
@@ -13360,6 +13690,8 @@ npx prisma migrate status
 | Transactional DDL | Yes               | Yes                  | Yes            | Yes     | Yes        | Yes                           |
 | Branching/merge   | Paid              | Manual               | Manual         | Manual  | Manual     | Manual                        |
 | Database support  | Many              | Many                 | Many           | Many    | Django DBs | Postgres, MySQL, SQLite, etc. |
+
+</div>
 
 ## Migration File Naming
 
@@ -13377,10 +13709,14 @@ V3__create_orders.sql
 20240116100000__create_orders.sql
 ```
 
+<div class="table-wrap">
+
 | Approach    | Pros                          | Cons                                     |
 | ----------- | ----------------------------- | ---------------------------------------- |
 | Sequential  | Simple, easy to read          | Conflicts in team development (V3 vs V3) |
 | Timestamped | No conflicts in parallel work | Verbose, ordering may not match intent   |
+
+</div>
 
 ## Up/Down Migrations (Reversibility)
 
@@ -13502,12 +13838,16 @@ ALTER TABLE users DROP COLUMN legacy_field;
 
 ### When to Separate
 
+<div class="table-wrap">
+
 | Concern           | Schema Migration                   | Data Migration                 |
 | ----------------- | ---------------------------------- | ------------------------------ |
 | Duration          | Milliseconds to seconds            | Minutes to hours               |
 | Transaction scope | DDL is transactional in PostgreSQL | May need batch processing      |
 | Rollback          | Reverse DDL                        | May be impossible or very slow |
 | Tool              | Flyway, Liquibase, Alembic         | Application code, batch jobs   |
+
+</div>
 
 ### Batched Data Migrations
 
@@ -14687,6 +15027,8 @@ graph TB
 
 The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum of trade-offs:
 
+<div class="table-wrap">
+
 | Dimension          | Relational                         | NoSQL                                         |
 | ------------------ | ---------------------------------- | --------------------------------------------- |
 | Data model         | Rows and columns, fixed schema     | Documents, key-value, graphs, column families |
@@ -14695,6 +15037,8 @@ The industry often frames this as "SQL vs NoSQL" but the reality is a spectrum o
 | Scaling            | Vertical first, then read replicas | Horizontal by design                          |
 | Schema flexibility | Rigid, migrations required         | Flexible, schemaless or schema-on-read        |
 | Joins              | First-class, optimised             | Limited or unsupported                        |
+
+</div>
 
 **Choose relational when:** your data has strong relationships, you need complex queries and joins,
 ACID transactions are non-negotiable, or your team knows SQL well.
@@ -14705,6 +15049,8 @@ Write throughput.
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Topic                   | Focus                                                         |
 | ----------------------- | ------------------------------------------------------------- |
 | Relational Theory       | Codd's model, normalisation, functional dependencies, keys    |
@@ -14713,6 +15059,8 @@ Write throughput.
 | Transactions            | ACID, isolation levels, locking, MVCC, deadlocks              |
 | NoSQL                   | Document stores, key-value, column families, graph, CAP       |
 | Database Design         | ER modelling, partitioning, sharding, replication, migrations |
+
+</div>
 
 ## Core Principles
 
@@ -15247,6 +15595,8 @@ URL: https://databases.wyattau.com/diagnostics/diag-databases/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -15259,6 +15609,8 @@ URL: https://databases.wyattau.com/diagnostics/diag-databases/
 | 8        | D             |
 | 9        | B             |
 | 10       | B             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of database fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

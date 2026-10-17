@@ -22,6 +22,8 @@ description: "uses the same secret key for both encryption and decryption. Both 
 **Symmetric encryption** uses the same secret key for both encryption and decryption. Both parties
 Must share the key securely before communication.
 
+<div class="table-wrap">
+
 | Algorithm | Key Size | Block Size | Status     |
 | --------- | -------- | ---------- | ---------- |
 | DES       | 56 bits  | 64 bits    | Insecure   |
@@ -30,7 +32,11 @@ Must share the key securely before communication.
 | AES-256   | 256 bits | 128 bits   | Secure     |
 | ChaCha20  | 256 bits | Stream     | Secure     |
 
+</div>
+
 **Block cipher modes of operation:**
+
+<div class="table-wrap">
 
 | Mode | Description                                   | Parallelisable  |
 | ---- | --------------------------------------------- | --------------- |
@@ -38,6 +44,8 @@ Must share the key securely before communication.
 | CBC  | Each block XORed with previous ciphertext     | Decryption only |
 | CTR  | Counter-based stream cipher from block cipher | Yes             |
 | GCM  | Authenticated encryption (CTR + MAC)          | Yes             |
+
+</div>
 
 **Theorem 7.1.** ECB mode is insecure for messages longer than one block because identical plaintext
 Blocks produce identical ciphertext blocks, revealing patterns.
@@ -104,12 +112,16 @@ A **firewall** controls network traffic based on security rules.
 
 **Types:**
 
+<div class="table-wrap">
+
 | Type                   | Layer | Mechanism                                  |
 | ---------------------- | ----- | ------------------------------------------ |
 | Packet filtering       | 3     | Permit/deny based on src, dst, port, proto |
 | Stateful inspection    | 3--4  | Tracks connection state (TCP states)       |
 | Application gateway    | 7     | Proxy for specific applications            |
 | Next-generation (NGFW) | 3--7  | Deep packet inspection, IDS/IPS, app ID    |
+
+</div>
 
 **Stateful inspection.** Unlike simple packet filtering, a stateful firewall maintains a connection
 Table. It can distinguish between a new TCP SYN (allowed) and an unsolicited SYN+ACK (blocked), And
@@ -125,6 +137,8 @@ Access.
 A company has a web server at `203.0.113.10`A mail server at `203.0.113.20`An internal network
 `10.0.0.0/24`And a DNS server at `10.0.0.53`.
 
+<div class="table-wrap">
+
 | #   | Dir | Src         | Dst          | Port    | Proto | Action |
 | --- | --- | ----------- | ------------ | ------- | ----- | ------ |
 | 1   | In  | Any         | 203.0.113.10 | 80, 443 | TCP   | Allow  |
@@ -133,6 +147,8 @@ A company has a web server at `203.0.113.10`A mail server at `203.0.113.20`An in
 | 4   | In  | Any         | 203.0.113.10 | Any     | ICMP  | Allow  |
 | 5   | In  | Any         | 10.0.0.53    | 53      | UDP   | Allow  |
 | 6   | In  | Any         | Any          | Any     | Any   | Deny   |
+
+</div>
 
 **Notes:**
 
@@ -152,12 +168,16 @@ Additional rules.
 
 A **Virtual Private Network** creates an encrypted tunnel over a public network.
 
+<div class="table-wrap">
+
 | Technology | Layer | Protocol      | Use Case                    |
 | ---------- | ----- | ------------- | --------------------------- |
 | IPsec      | 3     | AH, ESP       | Site-to-site, remote access |
 | SSL/TLS    | 4--7  | TLS 1.3       | Client-to-site (OpenVPN)    |
 | WireGuard  | 3     | UDP, ChaCha20 | Modern, lightweight VPN     |
 | SSH tunnel | 7     | SSH           | Ad-hoc port forwarding      |
+
+</div>
 
 **IPsec architecture (RFC 4301):**
 
@@ -181,11 +201,15 @@ A **Virtual Private Network** creates an encrypted tunnel over a public network.
 
 **Rule syntax (generic):**
 
+<div class="table-wrap">
+
 | Field  | Source IP  | Src Port | Dest IP    | Dst Port | Protocol | Action |
 | ------ | ---------- | -------- | ---------- | -------- | -------- | ------ |
 | Rule 1 | Any        | Any      | 10.0.0.0/8 | 22       | TCP      | Allow  |
 | Rule 2 | 10.0.0.0/8 | Any      | Any        | 80, 443  | TCP      | Allow  |
 | Rule 3 | Any        | Any      | Any        | Any      | Any      | Deny   |
+
+</div>
 
 **Key principles:**
 

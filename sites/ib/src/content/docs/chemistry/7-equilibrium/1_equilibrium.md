@@ -50,6 +50,8 @@ At equilibrium:
 
 ### Characteristics of Equilibrium
 
+<div class="table-wrap">
+
 | Property          | Description                          |
 | ----------------- | ------------------------------------ |
 | Forward rate      | Equals reverse rate                  |
@@ -57,6 +59,8 @@ At equilibrium:
 | Can be approached | From either direction                |
 | Dynamic           | Both reactions continue              |
 | Closed system     | Required                             |
+
+</div>
 
 ---
 
@@ -118,11 +122,15 @@ $$
 Q_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}
 $$
 
+<div class="table-wrap">
+
 | Comparison | Meaning                                       |
 | ---------- | --------------------------------------------- |
 | $Q \lt K$  | Reaction proceeds forward (more products)     |
 | $Q = K$    | System is at equilibrium                      |
 | $Q \gt K$  | Reaction proceeds in reverse (more reactants) |
+
+</div>
 
 ---
 
@@ -144,6 +152,8 @@ and restore equilibrium.
 
 ### Effect of Concentration Changes
 
+<div class="table-wrap">
+
 | Change              | System Response           |
 | ------------------- | ------------------------- |
 | Increase [reactant] | Shift to products (right) |
@@ -151,22 +161,32 @@ and restore equilibrium.
 | Increase [product]  | Shift to reactants (left) |
 | Decrease [product]  | Shift to products (right) |
 
+</div>
+
 ### Effect of Pressure Changes (Gases)
+
+<div class="table-wrap">
 
 | Change            | System Response                       |
 | ----------------- | ------------------------------------- |
 | Increase pressure | Shift to side with fewer moles of gas |
 | Decrease pressure | Shift to side with more moles of gas  |
 
+</div>
+
 **Important**: Changing pressure by adding an inert gas does NOT shift the equilibrium (partial
 Pressures of reacting gases are unchanged).
 
 ### Effect of Temperature Changes
 
+<div class="table-wrap">
+
 | Change               | System Response                | Effect on $K$ |
 | -------------------- | ------------------------------ | ------------- |
 | Increase temperature | Shift in endothermic direction | $K$ changes   |
 | Decrease temperature | Shift in exothermic direction  | $K$ changes   |
+
+</div>
 :::
 
 :::caution[Exam Tip]
@@ -206,11 +226,15 @@ $448\degree\mathrm{C}$.
 If $1.0\mathrm{ mol}$ of H$_2$ and $1.0\mathrm{ mol}$ of I$_2$ are placed in a $1.0\mathrm{ L}$
 Flask:
 
+<div class="table-wrap">
+
 |             | H$_2$   | I$_2$   | HI    |
 | ----------- | ------- | ------- | ----- |
 | Initial     | 1.0     | 1.0     | 0     |
 | Change      | $-x$    | $-x$    | $+2x$ |
 | Equilibrium | $1.0-x$ | $1.0-x$ | $2x$  |
+
+</div>
 
 $$
 K_c = \frac{(2x)^2}{(1.0-x)(1.0-x)} = \frac{4x^2}{(1.0-x)^2} = 50.5
@@ -255,11 +279,15 @@ $$
 \mathrm{N}_2(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NH}_3(\mathrm{g}) \quad \Delta H = -92\mathrm{ kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition   | Le Chatelier Prediction                     | Industrial Choice                                                  |
 | ----------- | ------------------------------------------- | ------------------------------------------------------------------ |
 | Temperature | Low (exothermic) favours products           | $400\mathrm{--}500\degree\mathrm{C}$ (compromise: reasonable rate) |
 | Pressure    | High (fewer moles of gas on product side)   | $150\mathrm{--}300\mathrm{ atm}$ (compromise: cost/safety)         |
 | Catalyst    | Does not change position but speeds up rate | Iron catalyst                                                      |
+
+</div>
 
 ### The Contact Process
 
@@ -267,11 +295,15 @@ $$
 2\mathrm{SO}_2(\mathrm{g}) + \mathrm{O}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{SO}_3(\mathrm{g}) \quad \Delta H = -197\mathrm{ kJ/mol}
 $$
 
+<div class="table-wrap">
+
 | Condition   | Le Chatelier Prediction   | Industrial Choice                             |
 | ----------- | ------------------------- | --------------------------------------------- |
 | Temperature | Low (exothermic)          | $400\mathrm{--}450\degree\mathrm{C}$          |
 | Pressure    | High (fewer moles of gas) | $1\mathrm{--}2\mathrm{ atm}$ (cost effective) |
 | Catalyst    | V$_2$O$_5$ catalyst       | V$_2$O$_5$                                    |
+
+</div>
 
 ---
 
@@ -292,13 +324,19 @@ $$
 \mathrm{pH} = -\log[\mathrm{H}^+]
 $$
 
+<div class="table-wrap">
+
 | pH      | Description                        |
 | ------- | ---------------------------------- |
 | $\lt 7$ | Acidic                             |
 | $= 7$   | Neutral (at $25\degree\mathrm{C}$) |
 | $\gt 7$ | Basic (alkaline)                   |
 
+</div>
+
 ### Strong and Weak Acids
+
+<div class="table-wrap">
 
 | Property                | Strong Acid             | Weak Acid               |
 | ----------------------- | ----------------------- | ----------------------- |
@@ -307,6 +345,8 @@ $$
 | Equilibrium             | No equilibrium          | Equilibrium established |
 | pH                      | Lower (for same $c$)    | Higher (for same $c$)   |
 | Examples                | HCl, HNO$_3$H$_2$SO$_4$ | CH$_3$COOH, HF, HCN     |
+
+</div>
 
 ### Acid Dissociation Constant ($K_a$)
 
@@ -479,11 +519,15 @@ $$
 An acid-base indicator is a weak acid that has different colours in its protonated and deprotonated
 Forms.
 
+<div class="table-wrap">
+
 | Indicator        | pH Range  | Colour Change         |
 | ---------------- | --------- | --------------------- |
 | Methyl orange    | 3.1--4.4  | Red $\to$ yellow      |
 | Bromothymol blue | 6.0--7.6  | Yellow $\to$ blue     |
 | Phenolphthalein  | 8.3--10.0 | Colourless $\to$ pink |
+
+</div>
 
 ---
 
@@ -512,6 +556,8 @@ $$
 
 ### Common $K_{sp}$ Values
 
+<div class="table-wrap">
+
 | Salt     | $K_{sp}$              |
 | -------- | --------------------- |
 | AgCl     | $1.8 \times 10^{-10}$ |
@@ -521,15 +567,21 @@ $$
 | CaCO$_3$ | $3.4 \times 10^{-9}$  |
 | PbCl$_2$ | $1.7 \times 10^{-5}$  |
 
+</div>
+
 ### Predicting Precipitation
 
 Compare the **ion product** ($Q$) with $K_{sp}$:
+
+<div class="table-wrap">
 
 | Condition      | Result                             |
 | -------------- | ---------------------------------- |
 | $Q \lt K_{sp}$ | Unsaturated (no precipitate)       |
 | $Q = K_{sp}$   | Saturated (at equilibrium)         |
 | $Q \gt K_{sp}$ | Supersaturated (precipitate forms) |
+
+</div>
 
 ### Common Ion Effect
 
@@ -589,11 +641,15 @@ Equilibrium, $0.40\mathrm{ mol}$ of Cl$_2$ is present.
 
 **(a)** Calculate $K_c$.
 
+<div class="table-wrap">
+
 |             | PCl$_5$ | PCl$_3$ | Cl$_2$  |
 | ----------- | ------- | ------- | ------- |
 | Initial     | 0.50    | 0       | 0       |
 | Change      | $-0.20$ | $+0.20$ | $+0.20$ |
 | Equilibrium | 0.30    | 0.20    | 0.20    |
+
+</div>
 
 $$
 K_c = \frac{[\mathrm{PCl}_3][\mathrm{Cl}_2]}{[\mathrm{PCl}_5]} = \frac{(0.20)(0.20)}{0.30} = \frac{0.04}{0.30} = 0.133
@@ -645,6 +701,8 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 
 ## Summary
 
+<div class="table-wrap">
+
 | Concept               | Formula                                                                    |
 | --------------------- | -------------------------------------------------------------------------- |
 | $K_c$                 | $K_c = \dfrac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}$ |
@@ -653,6 +711,8 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 | $K_w$                 | $K_w = [\mathrm{H}^+][\mathrm{OH}^-] = 10^{-14}$                           |
 | Henderson-Hasselbalch | $\mathrm{pH} = \mathrm{p}K_a + \log\dfrac{[\mathrm{A}^-]}{[\mathrm{HA}]}$  |
 | $K_{sp}$              | $K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b$                          |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -731,11 +791,15 @@ $$
 
 The reaction shifts left. Let $x$ be the moles of Cl$_2$ that react:
 
+<div class="table-wrap">
+
 |             | PCl$_5$   | PCl$_3$    | Cl$_2$    |
 | ----------- | --------- | ---------- | --------- |
 | Initial     | 0.200     | 0.0650     | 0.165     |
 | Change      | $+x$      | $-x$       | $-x$      |
 | Equilibrium | $0.200+x$ | $0.0650-x$ | $0.165-x$ |
+
+</div>
 
 $$
 \frac{(0.0650-x)(0.165-x)}{0.200+x} = 0.0211
@@ -925,11 +989,15 @@ Calculate $K_c$.
 
 Initial $[\mathrm{N}_2\mathrm{O}_4] = 1.00 / 2.00 = 0.500\mathrm{ mol/L}$
 
+<div class="table-wrap">
+
 |             | $\mathrm{N}_2\mathrm{O}_4$ | $\mathrm{NO}_2$ |
 | ----------- | -------------------------- | --------------- |
 | Initial     | $0.500$                    | $0$             |
 | Change      | $-0.100$                   | $+0.200$        |
 | Equilibrium | $0.400$                    | $0.200$         |
+
+</div>
 
 Since $[\mathrm{NO}_2]_{\mathrm{eq}} = 0.200\mathrm{ mol/L}$ and it increases by $2x$, $x = 0.100$.
 
@@ -1120,11 +1188,15 @@ $$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                  | Site    | Link                                                                                    |
 | ---------------------- | ------- | --------------------------------------------------------------------------------------- |
 | [Chemical Equilibrium] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/equilibrium)           |
 | [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium/)            |
 | [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/) |
+
+</div>
 
 ## Worked Examples
 

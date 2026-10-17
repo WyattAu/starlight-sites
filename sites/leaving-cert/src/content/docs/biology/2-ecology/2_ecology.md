@@ -49,6 +49,8 @@ Mineral availability.
 
 ### Trophic Levels (OL/HL)
 
+<div class="table-wrap">
+
 | Level              | Organisms                      |
 | ------------------ | ------------------------------ |
 | Producer           | Plants, algae (autotrophs)     |
@@ -56,6 +58,8 @@ Mineral availability.
 | Secondary consumer | Carnivores that eat herbivores |
 | Tertiary consumer  | Top carnivores                 |
 | Decomposer         | Bacteria, fungi                |
+
+</div>
 
 ### Food Chains and Food Webs (OL/HL)
 
@@ -180,12 +184,16 @@ Density).
 
 **Comparison of density-dependent and density-independent factors:**
 
+<div class="table-wrap">
+
 | Feature                 | Density-Dependent             | Density-Independent           |
 | ----------------------- | ----------------------------- | ----------------------------- |
 | Relationship to density | Effect increases with density | Effect independent of density |
 | Examples                | Disease, competition          | Natural disasters, fire       |
 | Regulation type         | Intrinsic (self-regulating)   | Extrinsic (external)          |
 | Predictability          | More predictable              | Less predictable              |
+
+</div>
 
 ## Human Impact on the Environment (OL/HL)
 
@@ -332,6 +340,8 @@ Relationships is important for the Irish Leaving Certificate.
 
 **Symbiosis:** A close, long-term interaction between two different species.
 
+<div class="table-wrap">
+
 | Type         | Effect on A | Effect on B | Example                                                                      |
 | ------------ | ----------- | ----------- | ---------------------------------------------------------------------------- |
 | Mutualism    | +           | +           | Nitrogen-fixing bacteria in legume root nodules; mycorrhizae and plant roots |
@@ -339,6 +349,8 @@ Relationships is important for the Irish Leaving Certificate.
 | Parasitism   | +           | -           | Tapeworms in mammals; fleas on dogs                                          |
 | Predation    | +           | -           | Foxes eating rabbits; owls eating mice                                       |
 | Competition  | -           | -           | Two species competing for the same resource                                  |
+
+</div>
 
 **Competition:** Occurs when two organisms require the same limited resource (food, light, space,
 Mates). Intraspecific competition (between individuals of the same species) is more Intense than
@@ -480,6 +492,8 @@ Type of biome.
 
 **Major biomes:**
 
+<div class="table-wrap">
+
 | Biome                 | Climate                        | Vegetation                         |
 | --------------------- | ------------------------------ | ---------------------------------- |
 | Tropical rainforest   | Hot and wet all year           | Dense, broadleaved evergreen trees |
@@ -488,6 +502,8 @@ Type of biome.
 | Grassland/savanna     | Seasonal rainfall              | Grasses, scattered trees           |
 | Desert                | Hot and dry / cold and dry     | Sparse, drought-resistant plants   |
 | Tundra                | Very cold, low rainfall        | Mosses, lichens, low shrubs        |
+
+</div>
 
 **Biome characteristics relevant to the Irish Leaving Certificate:**
 

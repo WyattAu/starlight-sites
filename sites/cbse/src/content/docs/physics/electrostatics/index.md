@@ -244,6 +244,8 @@ $$
 
 ## Key Formulas
 
+<div class="table-wrap">
+
 | Quantity | Formula | Unit |
 | --- | --- | --- |
 | Coulomb's law | $F = k\frac{ \| q_1 q_2 \| }{r^2}$ | N |
@@ -254,6 +256,8 @@ $$
 | Gauss's law | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$ | - |
 | Electric potential energy (two charges) | $U = k\frac{q_1 q_2}{r}$ | J |
 | Work done by electric field | $W = q(V_A - V_B)$ | J |
+
+</div>
 
 ## Additional Exam Tips
 

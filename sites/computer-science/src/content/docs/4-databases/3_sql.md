@@ -42,6 +42,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 
 **Constraints:**
 
+<div class="table-wrap">
+
 | Constraint    | Enforcement                     |
 | ------------- | ------------------------------- |
 | `PRIMARY KEY` | Unique, not null                |
@@ -50,6 +52,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 | `NOT NULL`    | No null values                  |
 | `CHECK`       | Arbitrary boolean condition     |
 | `DEFAULT`     | Default value if none specified |
+
+</div>
 
 ### 3.2 Data Manipulation Language (DML)
 
@@ -279,6 +283,8 @@ Returning all rows.
 
 **Types of SQL injection:**
 
+<div class="table-wrap">
+
 | Type                  | Description                                             |
 | --------------------- | ------------------------------------------------------- |
 | In-band (error-based) | Attacker extracts data from error messages              |
@@ -286,6 +292,8 @@ Returning all rows.
 | Blind (boolean)       | Attacker infers data by asking true/false questions     |
 | Blind (time-based)    | Attacker infers data by measuring response delays       |
 | Out-of-band           | Attacker triggers the DBMS to send data externally      |
+
+</div>
 
 **Prevention:**
 

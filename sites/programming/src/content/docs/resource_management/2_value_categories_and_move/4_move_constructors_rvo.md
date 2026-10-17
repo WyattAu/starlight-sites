@@ -165,6 +165,8 @@ Accessible.
 
 The following table summarizes when the compiler generates a default move constructor:
 
+<div class="table-wrap">
+
 | Condition                                  | Implicit Move Ctor Generated?            | Notes                                    |
 | :----------------------------------------- | :--------------------------------------- | :--------------------------------------- |
 | No user-declared special members           | Yes, if all members/base are movable     | Most common case for simple structs      |
@@ -174,6 +176,8 @@ The following table summarizes when the compiler generates a default move constr
 | `= delete` on move ctor                    | No                                       | Explicitly deleted                       |
 | Any member/base has deleted move ctor      | Implicit move ctor is defined as deleted | Must provide explicit move or fix member |
 | Any member/base has inaccessible move ctor | Implicit move ctor is defined as deleted | Access violation                         |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -409,6 +413,8 @@ Special member functions will be wrong.
 [N4950 S11.4.5.3] defines the conditions under which the compiler implicitly declares each special
 Member function. The interaction between these rules produces the "Rule of Five" behavior:
 
+<div class="table-wrap">
+
 | You Declare      | Implicit Copy Ctor | Implicit Move Ctor | Implicit Copy Assign | Implicit Move Assign |
 | :--------------- | :----------------- | :----------------- | :------------------- | :------------------- |
 | Nothing          | Yes                | Yes                | Yes                  | Yes                  |
@@ -416,6 +422,8 @@ Member function. The interaction between these rules produces the "Rule of Five"
 | Copy ctor only   |,                  | **No**             | **No**               | **No**               |
 | Move ctor only   | Deleted            |,                  | Deleted              | Deleted              |
 | Move assign only | Deleted            | Deleted            | Deleted              |,                    |
+
+</div>
 
 Key observations from this table:
 
@@ -579,6 +587,8 @@ public:
 
 ### Move-Only Types in the Standard Library
 
+<div class="table-wrap">
+
 | Type                              | Move-Only? | Reason                        |
 | :-------------------------------- | :--------- | :---------------------------- |
 | `std::unique_ptr<T>`              | Yes        | Exclusive ownership model     |
@@ -591,6 +601,8 @@ public:
 | `std::vector<T>`                  | No         | Deep-copyable                 |
 | `std::function<R(Args...)>`       | No         | Type-erased, copyable         |
 | `std::move_only_function` (C++23) | Yes        | Non-copyable callable wrapper |
+
+</div>
 
 ### Move-Only Types and Containers
 
@@ -891,6 +903,8 @@ self-assignment ).
 The Standard Library makes extensive use of move-only types. Understanding which types are move-only
 and why is critical for writing correct generic code:
 
+<div class="table-wrap">
+
 | Type                              | Move-Only? | Reason                        |
 | :-------------------------------- | :--------- | :---------------------------- |
 | `std::unique_ptr<T>`              | Yes        | Exclusive ownership model     |
@@ -903,6 +917,8 @@ and why is critical for writing correct generic code:
 | `std::vector<T>`                  | No         | Deep-copyable                 |
 | `std::function<R(Args...)>`       | No         | Type-erased, copyable         |
 | `std::move_only_function` (C++23) | Yes        | Non-copyable callable wrapper |
+
+</div>
 
 When writing generic code that must accept any callable, prefer `std::move_only_function` (C++23)
 Over `std::function` if copyability is not required. This avoids the internal heap allocation that

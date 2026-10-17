@@ -317,6 +317,8 @@ fn process_dyn(item: &dyn Display) {
 }
 ```
 
+<div class="table-wrap">
+
 | Property       | Static Dispatch        | Dynamic Dispatch       |
 | -------------- | ---------------------- | ---------------------- |
 | Overhead       | None (after inlining)  | Vtable lookup per call |
@@ -324,6 +326,8 @@ fn process_dyn(item: &dyn Display) {
 | Inlining       | Yes                    | No (indirect call)     |
 | Flexibility    | Compile-time only      | Runtime polymorphism   |
 | Cache behavior | Better (direct call)   | Worse (indirect call)  |
+
+</div>
 
 ## Trait Objects
 

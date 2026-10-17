@@ -37,6 +37,8 @@ The main spectroscopic techniques are:
 
 ### Comparison of Techniques
 
+<div class="table-wrap">
+
 | Technique | Information provided                     | Sample type        | Destructive?          |
 | --------- | ---------------------------------------- | ------------------ | --------------------- |
 | IR        | Functional groups                        | Solid/liquid/gas   | No                    |
@@ -46,12 +48,16 @@ The main spectroscopic techniques are:
 | TLC       | Number of components, purity             | Solution           | No                    |
 | GC        | Separation, identification (with MS)     | Volatile compounds | No (GC) / Yes (GC-MS) |
 
+</div>
+
 ### Infrared Spectroscopy
 
 IR spectroscopy identifies functional groups by measuring the absorption of infrared radiation.
 Covalent bonds absorb IR radiation at characteristic frequencies, causing them to vibrate.
 
 **Key absorptions:**
+
+<div class="table-wrap">
 
 | Bond                  | Wavenumber (cm$^{-1}$) | Type        |
 | --------------------- | ---------------------- | ----------- |
@@ -64,6 +70,8 @@ Covalent bonds absorb IR radiation at characteristic frequencies, causing them t
 | C-O                   | 1000-1300              | Strong      |
 | C-Cl                  | 600-800                | Strong      |
 | C≡N                   | 2210-2260              | Medium      |
+
+</div>
 
 **Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$ The pattern is unique to each molecule and can
 Be compared with reference spectra.
@@ -109,6 +117,8 @@ The molecular mass.
 
 Common fragmentation patterns:
 
+<div class="table-wrap">
+
 | Fragment                   | $m/z$ | Origin       |
 | -------------------------- | ----- | ------------ |
 | $\mathrm{CH_3^+$           | 15    | Methyl group |
@@ -117,6 +127,8 @@ Common fragmentation patterns:
 | $\mathrm{CH_3\mathrm{CO^+$ | 43    | Acetyl       |
 | $\mathrm{C_4\mathrm{H_9^+$ | 57    | Butyl        |
 | $\mathrm{C_6\mathrm{H_5^+$ | 77    | Phenyl       |
+
+</div>
 
 **Worked Example 3:** The mass spectrum of a chlorinated compound shows peaks at $m/z = 78$ and 80
 In a 3:1 ratio. Identify the molecular ion.
@@ -159,6 +171,8 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 **Chemical shift ($\delta$):** Measured in ppm relative to TMS (tetramethylsilane) as reference
 ($\delta = 0$).
 
+<div class="table-wrap">
+
 | Proton environment                 | $\delta$ (ppm)     |
 | ---------------------------------- | ------------------ |
 | $\mathrm{R-\mathrm{CH_3$           | 0.9-1.2            |
@@ -168,6 +182,8 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 | $\mathrm{R-\mathrm{CHO$            | 9.0-10.0           |
 | $\mathrm{R-\mathrm{COOH$           | 10.0-13.0          |
 | Aromatic                           | 6.5-8.5            |
+
+</div>
 
 **Key features of an NMR spectrum:**
 
@@ -225,6 +241,8 @@ Carbon-13 NMR identifies the number of different carbon environments.
 - Each signal represents a unique carbon environment
 - Chemical shifts range from 0-220 ppm
 
+<div class="table-wrap">
+
 | Carbon environment             | $\delta$ (ppm) |
 | ------------------------------ | -------------- |
 | $\mathrm{C-\mathrm{C$          | 0-50           |
@@ -232,6 +250,8 @@ Carbon-13 NMR identifies the number of different carbon environments.
 | $\mathrm{C=\mathrm{C$ (alkene) | 100-150        |
 | Aromatic                       | 100-150        |
 | $\mathrm{C=\mathrm{O$          | 160-220        |
+
+</div>
 
 ### UV-Visible Spectroscopy
 
@@ -320,6 +340,8 @@ Comparison with standards.
 
 ### Comparison of Chromatographic Techniques
 
+<div class="table-wrap">
+
 | Feature          | TLC                            | GC                      | HPLC                          |
 | ---------------- | ------------------------------ | ----------------------- | ----------------------------- |
 | Mobile phase     | Liquid                         | Gas                     | Liquid                        |
@@ -328,6 +350,8 @@ Comparison with standards.
 | Detection        | Visual, UV                     | FID, MS                 | UV, MS                        |
 | Resolution       | Low                            | High                    | Very high                     |
 | Speed            | Minutes                        | Minutes                 | Minutes                       |
+
+</div>
 
 **Worked Example 9:** In TLC, substance A travels 2.5 cm and substance B travels 4.0 cm while the
 Solvent front travels 8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
@@ -505,11 +529,15 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 The separation between the peaks in a multiplet is called the coupling constant $J$ Measured in Hz.
 Coupling constants provide information about the spatial relationship between coupled protons.
 
+<div class="table-wrap">
+
 | Coupling type      | Typical $J$ (Hz) | Relationship                     |
 | ------------------ | ---------------- | -------------------------------- |
 | Vicinal ($^3J$)    | 5-8              | Protons on adjacent carbons      |
 | Geminal ($^2J$)    | 0-20             | Protons on the same carbon       |
 | Long-range ($^4J$) | 0-3              | Protons separated by three bonds |
+
+</div>
 
 **Application:** In aromatic systems, ortho coupling ($J \approx 7$ Hz) is larger than meta coupling
 ($J \approx 2$ Hz) or para coupling ($J \approx 0$ Hz).
@@ -519,10 +547,14 @@ Coupling constants provide information about the spatial relationship between co
 DEPT (Distortionless Enhancement by Polarization Transfer) is a technique that distinguishes between
 Different types of carbon atoms:
 
+<div class="table-wrap">
+
 | Experiment | CH$_3$ | CH$_2$ | CH  | C (quaternary) |
 | ---------- | ------ | ------ | --- | -------------- |
 | DEPT-90    | --     | --     | Up  | --             |
 | DEPT-135   | Up     | Down   | Up  | --             |
+
+</div>
 
 Quaternary carbons appear only in the standard broadband-decoupled $^{13}\mathrm{C$ NMR spectrum.
 
@@ -629,6 +661,8 @@ Specific wavelength of the element being analysed.
 **Worked Example 16:** A series of standard solutions of $\mathrm{Cu^{2+}$ gave the following
 Absorbance readings:
 
+<div class="table-wrap">
+
 | Concentration (ppm) | Absorbance |
 | ------------------- | ---------- |
 | 0                   | 0.00       |
@@ -636,6 +670,8 @@ Absorbance readings:
 | 4                   | 0.30       |
 | 6                   | 0.45       |
 | 8                   | 0.60       |
+
+</div>
 
 An unknown sample gave an absorbance of 0.40. Find the concentration.
 
@@ -657,6 +693,8 @@ $$
 
 ## Summary Table: Analytical Techniques
 
+<div class="table-wrap">
+
 | Technique            | Information obtained        | Sensitivity  | Sample requirement |
 | -------------------- | --------------------------- | ------------ | ------------------ |
 | IR spectroscopy      | Functional groups           | Low          | mg                 |
@@ -668,6 +706,8 @@ $$
 | GC                   | Separation, retention time  | High         | uL (volatile)      |
 | HPLC                 | Separation, retention time  | High         | uL                 |
 | AAS                  | Metal ion concentration     | Very high    | mL of solution     |
+
+</div>
 
 ---
 
@@ -819,6 +859,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 
 ### Factors Affecting Chromatographic Separation
 
+<div class="table-wrap">
+
 | Factor                          | Effect on separation                                      |
 | ------------------------------- | --------------------------------------------------------- |
 | Column length                   | Longer column = more plates = better separation           |
@@ -826,6 +868,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 | Temperature (GC)                | Optimal temperature gives best resolution                 |
 | Flow rate                       | Too fast or too slow reduces efficiency                   |
 | Mobile phase composition (HPLC) | Optimised gradient improves separation                    |
+
+</div>
 
 ---
 
@@ -854,6 +898,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 
 ### Common Functional Group Signatures
 
+<div class="table-wrap">
+
 | Functional group | IR (cm$^{-1}$)       | $^1\mathrm{H$ NMR $\delta$ (ppm)                      | $^{13}\mathrm{C$ NMR $\delta$ (ppm) |
 | ---------------- | -------------------- | ----------------------------------------------------- | ----------------------------------- |
 | Alcohol (-OH)    | 3200-3600 (broad)    | 1-5 (variable, exchanges with $\mathrm{D_2\mathrm{O$) | 50-90 (C-O)                         |
@@ -863,6 +909,8 @@ Where $R_s > 1.5$ indicates baseline separation.
 | Ester            | 1735-1750            | 3.5-4.5 (O-CH$_2$)                                    | 160-180                             |
 | Aromatic ring    | 1600-1580, 1500-1400 | 6.5-8.5                                               | 120-150                             |
 | Alkene (C=C)     | 1620-1680            | 4.5-6.5                                               | 100-150                             |
+
+</div>
 
 ## Worked Examples
 

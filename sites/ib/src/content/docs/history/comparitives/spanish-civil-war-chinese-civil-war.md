@@ -34,11 +34,15 @@ Catholics, fascists). The Spanish Civil War started in 1936, and ended in 1939.
 
 ## Comparative
 
+<div class="table-wrap">
+
 |                   | Spanish                                                                                                                                                                                                                                                                                                                                                                                                              | Chinese                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Supporters        | The Republicans were a diverse coalition of Leftist, while the Nationalists were a right-wing coalition with strong fascist extremism                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Foreign Relations | The Republicans received support from Soviet Union, where the Nationalists were heavily backed by Nazi Germany and Fascist Italy. Other democracies adopted a policy of non-intervention                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Decisive Events   | Military Coup (Nationalist initiated a coup against the Republicans 1936), Siege of Madrid (A long siege of capital city during 1936-1939), Guernica Bombing (German Condor bombs Guernica 1937), Battle of the Ebro (Major offensive launch by Republicans across the Ebro River, but suffered heavy casualties and retreated in 1938), fall of Barcelona (The decisive battle that won the Spanish Civil War 1939) | Shanghai Massacre (KMT purges CCP in Shanghai, starting Chinese Civil War in 1927), The Long March (Solidified Mao's position in party with a strategic retreat during 1934-1935), Second United Front (CCP and KMT agreement to halt conflict and defend against Second Sino-Japanese War in 1937), Resumption of Civil War (1946), Huaihai campaign (Crucial victory won by guerrilla warfare 1948), KMT retreat to Taiwan (1949), Crossing of Yangtze River (the decisive battle to capture Nanjing (capital of KMT) that won the Chinese Civil War in 1949) |
+
+</div>
 
 ## Causes
 
@@ -105,6 +109,8 @@ Structural tensions and short-term triggers.
 
 ### Spanish Civil War
 
+<div class="table-wrap">
+
 | Figure           | Role                                                                   |
 | ---------------- | ---------------------------------------------------------------------- |
 | Francisco Franco | Leader of the Nationalist forces; became Head of State in 1939         |
@@ -114,7 +120,11 @@ Structural tensions and short-term triggers.
 | George Orwell    | Fought with the POUM militia; wrote _Homage to Catalonia_              |
 | General Miaja    | Defended Madrid during the siege (1936–1939)                           |
 
+</div>
+
 ### Chinese Civil War
+
+<div class="table-wrap">
 
 | Figure          | Role                                                                    |
 | --------------- | ----------------------------------------------------------------------- |
@@ -123,6 +133,8 @@ Structural tensions and short-term triggers.
 | Zhou Enlai      | Key CCP diplomat and military strategist                                |
 | Lin Biao        | Major CCP military commander; led forces in Manchuria                   |
 | Zhang Xueliang  | Manchurian warlord; instigated the Xi'an Incident (1936)                |
+
+</div>
 
 ## Foreign Intervention
 
@@ -446,6 +458,8 @@ Both civil wars raised questions about international law and the responsibilitie
 
 The following table provides a chronological overview of key events in both wars:
 
+<div class="table-wrap">
+
 | Period         | Spanish Civil War                                                                   | Chinese Civil War                                                             |
 | :------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
 | Early tensions | Second Republic established (1931); military reforms alienate officer corps         | Qing Dynasty collapses (1912); warlord era begins; KMT and CCP founded        |
@@ -458,6 +472,8 @@ The following table provides a chronological overview of key events in both wars
 | 1945           | Spain remains neutral in WWII; Franco consolidates dictatorship                     | Japan surrenders (Aug); CCP and KMT race to control former Japanese territory |
 | 1946-1948      | Franco regime repressive; Spain diplomatically isolated                             | Civil War resumes (1946); Huaihai Campaign (1948-1949): decisive CCP victory  |
 | 1949           |,                                                                                   | PRC founded (Oct 1); KMT retreats to Taiwan                                   |
+
+</div>
 
 ---
 
@@ -474,6 +490,8 @@ The following table provides a chronological overview of key events in both wars
 
 ### Nature of Intervention
 
+<div class="table-wrap">
+
 | Aspect                     | Spanish Civil War                                               | Chinese Civil War                                                                         |
 | :------------------------- | :-------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | Primary ideological axis   | Fascism vs Communism (pre-WWII)                                 | Capitalism vs Communism (early Cold War)                                                  |
@@ -482,6 +500,8 @@ The following table provides a chronological overview of key events in both wars
 | Volunteer fighters         | International Brigades (35,000-40,000 for Republicans)          | Limited foreign volunteers; mainly state-directed military aid                            |
 | Non-intervention policy    | Britain and France formally non-interventionist (ineffective)   | No formal non-intervention; US and USSR openly backed sides                               |
 | Impact on outcome          | German and Italian support was decisive for Nationalist victory | US aid was insufficient to prevent KMT collapse; Soviet timing of aid to CCP was critical |
+
+</div>
 
 ### Motivations for Intervention
 
@@ -520,6 +540,8 @@ The following table provides a chronological overview of key events in both wars
 
 ### Political Outcomes
 
+<div class="table-wrap">
+
 | Aspect                  | Spain                                                             | China                                                                               |
 | :---------------------- | :---------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
 | Victor                  | Nationalists (Franco)                                             | Communists (CCP)                                                                    |
@@ -527,6 +549,8 @@ The following table provides a chronological overview of key events in both wars
 | Opposition fate         | Exile, imprisonment, execution; Law of Political Responsibilities | KMT retreat to Taiwan; land reform and political purges on mainland                 |
 | Duration of aftermath   | 36-year dictatorship followed by democratic transition            | Ongoing CCP rule; cross-strait tensions persist                                     |
 | International alignment | Initially isolated; joined Western bloc via Pact of Madrid (1953) | Initially aligned with USSR; Sino-Soviet split (1960s); independent communist power |
+
+</div>
 
 ### Social and Economic Outcomes
 

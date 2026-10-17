@@ -951,6 +951,8 @@ Version control and never edited manually.
 
 ## Where Go Runs
 
+<div class="table-wrap">
+
 | Target                               | Use Case                   |
 | ------------------------------------ | -------------------------- |
 | **Linux** (amd64, arm64)             | Servers, containers, cloud |
@@ -959,6 +961,8 @@ Version control and never edited manually.
 | **WebAssembly** (wasm)               | Browser, edge computing    |
 | **FreeBSD/OpenBSD**                  | Networking, infrastructure |
 | **Embedded** (GOOS=linux GOARCH=arm) | IoT, routers, ARM devices  |
+
+</div>
 
 ## Intuition
 
@@ -3300,6 +3304,8 @@ Use `-gcflags="-m -m"` for verbose output.
 
 ## Stack vs Heap
 
+<div class="table-wrap">
+
 | Property     | Stack                        | Heap                           |
 | ------------ | ---------------------------- | ------------------------------ |
 | Allocation   | Automatic (push/pop frame)   | Manual (via `new`/escape)      |
@@ -3307,6 +3313,8 @@ Use `-gcflags="-m -m"` for verbose output.
 | Speed        | Very fast (pointer bump)     | Slower (GC involvement)        |
 | Size         | Limited (default 1GB, grows) | Large (limited by system)      |
 | Access       | Direct (register/offset)     | Indirect (pointer dereference) |
+
+</div>
 
 Stack allocation is preferred because it is faster (no GC overhead) and the memory is automatically
 Reclaimed when the function returns. The Go compiler works hard to keep variables on the stack.
@@ -5299,6 +5307,8 @@ URL: https://go.wyattau.com/basics/types-and-variables/
 
 Go provides signed and unsigned integers at standard widths:
 
+<div class="table-wrap">
+
 | Type               | Size (bytes) | Range (signed)                                          | Range (unsigned)                |
 | ------------------ | ------------ | ------------------------------------------------------- | ------------------------------- |
 | `int8` / `uint8`   | 1            | -128 to 127                                             | 0 to 255                        |
@@ -5307,6 +5317,8 @@ Go provides signed and unsigned integers at standard widths:
 | `int64` / `uint64` | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0 to 18,446,744,073,709,551,615 |
 | `int` / `uint`     | 4 or 8       | Same as `int32` or `int64` (platform-dependent)         | Same as `uint32` or `uint64`    |
 | `uintptr`          | 4 or 8       | Unsigned integer large enough to store a pointer value  |                                 |
+
+</div>
 
 `int` and `uint` are the default integer types. Their size matches the native word size of the
 Platform: 32 bits on 32-bit systems, 64 bits on 64-bit systems. Use `int` unless you need a specific
@@ -5335,10 +5347,14 @@ a, carry := bits.Add(255, 1, 0) // a == 0, carry == 1
 
 ## Floating-Point Types
 
+<div class="table-wrap">
+
 | Type      | Size    | Precision             |
 | --------- | ------- | --------------------- |
 | `float32` | 4 bytes | ~6-7 decimal digits   |
 | `float64` | 8 bytes | ~15-16 decimal digits |
+
+</div>
 
 `float64` is the default. Both conform to IEEE 754.
 
@@ -5417,6 +5433,8 @@ result := sb.String()
 Every type in Go has a zero value. Variables declared without an explicit initializer are set to
 Zero. This eliminates uninitialized variable bugs.
 
+<div class="table-wrap">
+
 | Type      | Zero Value                            |
 | --------- | ------------------------------------- |
 | `int`     | `0`                                   |
@@ -5430,6 +5448,8 @@ Zero. This eliminates uninitialized variable bugs.
 | Interface | `nil`                                 |
 | Struct    | All fields set to their zero values   |
 | Array     | All elements set to their zero values |
+
+</div>
 
 ```go
 var x int
@@ -5886,6 +5906,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 
 ### Context Types
 
+<div class="table-wrap">
+
 | Type                   | Purpose                                           |
 | ---------------------- | ------------------------------------------------- |
 | `context.Background`   | Root context, never cancelled                     |
@@ -5894,6 +5916,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 | `context.WithTimeout`  | Returns a context that cancels after a deadline   |
 | `context.WithDeadline` | Returns a context that cancels at a specific time |
 | `context.WithValue`    | Returns a context carrying a key-value pair       |
+
+</div>
 
 ### WithCancel
 
@@ -7280,6 +7304,8 @@ func Clamp[T constraints.Ordered](v, lo, hi T) T {
 
 Common constraints:
 
+<div class="table-wrap">
+
 | Constraint             | Types Allowed                                        |
 | ---------------------- | ---------------------------------------------------- |
 | `constraints.Signed`   | `~int``~int8``~int16``~int32``~int64`                |
@@ -7288,6 +7314,8 @@ Common constraints:
 | `constraints.Float`    | `~float32``~float64`                                 |
 | `constraints.Ordered`  | All integers, floats, and `~string`                  |
 | `constraints.Complex`  | `~complex64``~complex128`                            |
+
+</div>
 
 ## Generic Types
 
@@ -7708,6 +7736,8 @@ Initialized.
 
 Go"s standard library defines several pervasive interfaces:
 
+<div class="table-wrap">
+
 | Interface        | Methods                                        | Used By                        |
 | ---------------- | ---------------------------------------------- | ------------------------------ |
 | `io.Reader`      | `Read(p []byte) (n int, err error)`            | Files, network connections     |
@@ -7716,6 +7746,8 @@ Go"s standard library defines several pervasive interfaces:
 | `fmt.Stringer`   | `String() string`                              | Custom string representation   |
 | `error`          | `Error() string`                               | Error values                   |
 | `sort.Interface` | `Len() int``Less(i,j int) bool``Swap(i,j int)` | Sorting                        |
+
+</div>
 
 Implementing `fmt.Stringer`:
 
@@ -7975,6 +8007,8 @@ defer f.Close()
 
 ### File Flags
 
+<div class="table-wrap">
+
 | Flag          | Meaning                            |
 | ------------- | ---------------------------------- |
 | `os.O_RDONLY` | Read-only                          |
@@ -7984,6 +8018,8 @@ defer f.Close()
 | `os.O_CREATE` | Create if not exists               |
 | `os.O_TRUNC`  | Truncate when opening              |
 | `os.O_EXCL`   | Used with O_CREATE, fail if exists |
+
+</div>
 
 ### File Permissions
 
@@ -8029,6 +8065,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 
 ### Format Verbs
 
+<div class="table-wrap">
+
 | Verb  | Meaning                        |
 | ----- | ------------------------------ |
 | `%v`  | Default format                 |
@@ -8046,6 +8084,8 @@ fmt.Errorf("failed: %w", err)   // format to error
 | `%p`  | Pointer address                |
 | `%t`  | Boolean (true/false)           |
 | `%w`  | Error (wraps for errors.Is/As) |
+
+</div>
 
 ### Width and Precision
 
@@ -8476,12 +8516,16 @@ slog.Error("connection failed", "err", err)
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level | Method       | Typical Use              |
 | ----- | ------------ | ------------------------ |
 | DEBUG | `slog.Debug` | Verbose development info |
 | INFO  | `slog.Info`  | Normal operations        |
 | WARN  | `slog.Warn`  | Potential issues         |
 | ERROR | `slog.Error` | Failures needing action  |
+
+</div>
 
 ### Handlers
 
@@ -8574,6 +8618,8 @@ handler(ctx)
 
 ## Choosing Between log and log/slog
 
+<div class="table-wrap">
+
 | Aspect        | `log`             | `log/slog`                     |
 | ------------- | ----------------- | ------------------------------ |
 | Structured    | No (text only)    | Yes (key-value pairs)          |
@@ -8581,6 +8627,8 @@ handler(ctx)
 | Output        | Stderr by default | Configurable handler           |
 | Go version    | All               | Go 1.21+                       |
 | Machine-parse | No                | JSON handler                   |
+
+</div>
 
 Use `log/slog` for new code. Use `log` only for simple scripts or maintaining legacy code that Does
 not benefit from structured output.
@@ -9171,11 +9219,15 @@ Returns. The `context.WithTimeout` ensures shutdown does not hang indefinitely.
 
 ### Server Timeouts
 
+<div class="table-wrap">
+
 | Timeout        | Purpose                                     |
 | -------------- | ------------------------------------------- |
 | `ReadTimeout`  | Max time to read the entire request         |
 | `WriteTimeout` | Max time to write the response              |
 | `IdleTimeout`  | Max time a keep-alive connection stays open |
+
+</div>
 
 Without these timeouts, a slow client can hold a goroutine indefinitely, eventually exhausting
 Server resources.

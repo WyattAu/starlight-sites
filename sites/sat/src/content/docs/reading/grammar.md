@@ -29,6 +29,8 @@ SAT reading study notes - Grammar
 
 ## Quick Reference: Punctuation Rules
 
+<div class="table-wrap">
+
 | Punctuation | Use | Example |
 | ------------ | ----- | --------- |
 | Comma | List items | "apples, bananas, and cherries" |
@@ -38,6 +40,8 @@ SAT reading study notes - Grammar
 | Colon | Introduce a list or explanation | "You need three things: time, money, and effort" |
 | Apostrophe | Possession | "the teacher's desk" |
 | Apostrophe | Contraction | "don't" = "do not" |
+
+</div>
 
 ## Worked Examples
 

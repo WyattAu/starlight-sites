@@ -30,9 +30,13 @@ tableOfContents: false
 A metal wire of length $2.00\,\text{m}$ and cross-sectional area $1.5 \times 10^{-6}\,\text{m}^2$ is
 tested under tension. The following data are obtained:
 
+<div class="table-wrap">
+
 | Stress / MPa       | 0   | 100  | 200  | 300  | 350  | 400  | 420  | 430  |
 | ------------------ | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Strain / $10^{-3}$ | 0   | 0.50 | 1.00 | 1.50 | 1.80 | 2.30 | 3.00 | 4.50 |
+
+</div>
 
 The wire breaks at a stress of $430\,\text{MPa}$.
 
@@ -161,9 +165,13 @@ $$
 
 A rubber band has the following force-extension data:
 
+<div class="table-wrap">
+
 | Force / N      | 0   | 1.0 | 2.0 | 3.0 | 4.0 | 5.0 | 6.0 | 7.0 | 6.0 | 5.0 | 4.0 | 3.0 | 2.0 | 1.0 | 0   |
 | -------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Extension / mm | 0   | 15  | 35  | 60  | 90  | 130 | 180 | 250 | 200 | 170 | 150 | 130 | 110 | 80  | 20  |
+
+</div>
 
 The loading data are the first 8 readings and the unloading data are the last 8 readings.
 

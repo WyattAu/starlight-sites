@@ -20,6 +20,8 @@ tableOfContents: false
 
 ### Microeconomics
 
+<div class="table-wrap">
+
 | Diagnostic File                                              | Topics Covered                                                                                           | Source File                                             |
 | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | `diag-./1-basic-economic-concepts/1_basic-economic-concepts` | Scarcity, opportunity cost, PPC, economic systems, division of labour, specialisation                    | `./1-basic-economic-concepts/1_basic-economic-concepts` |
@@ -27,7 +29,11 @@ tableOfContents: false
 | `diag-market-structure.md`                                   | Perfect competition, monopoly, monopolistic competition, oligopoly, barriers to entry, game theory       | `market-structure-and-theory-of-the-firm.md`            |
 | `diag-market-failure.md`                                     | Externalities, Pigouvian tax, public goods, free rider problem, information asymmetry, adverse selection | `market-failure-and-government-intervention.md`         |
 
+</div>
+
 ### Macroeconomics
+
+<div class="table-wrap">
 
 | Diagnostic File                  | Topics Covered                                                                                      | Source File                                      |
 | -------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -35,6 +41,8 @@ tableOfContents: false
 | `diag-money-banking.md`          | Money creation, money multiplier, functions of money, interest rate determination, banking system   | `./8-money-and-banking/1_money-and-banking`      |
 | `diag-fiscal-monetary-policy.md` | Fiscal multiplier, monetary transmission, budget balance, policy mix, supply-side policy            | `fiscal-and-monetary-policy.md`                  |
 | `diag-international-trade.md`    | Comparative advantage, exchange rates, tariffs/quotas, balance of payments, PPP, impossible trinity | `international-trade-and-finance.md`             |
+
+</div>
 
 ## Grading Rubric
 
@@ -88,6 +96,8 @@ National Income and Macroeconomic Indicators
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                     | Recommended Time | Notes                                                |
 | ------------------------------ | ---------------- | ---------------------------------------------------- |
 | `diag-basic-economic-concepts` | 30 minutes       | Conceptual questions with some calculation           |
@@ -98,6 +108,8 @@ National Income and Macroeconomic Indicators
 | `diag-money-banking`           | 35 minutes       | Money multiplier and interest rate calculations      |
 | `diag-fiscal-monetary-policy`  | 45 minutes       | Multiplier and policy analysis                       |
 | `diag-international-trade`     | 40 minutes       | Comparative advantage and exchange rate calculations |
+
+</div>
 
 **Total recommended time:** approximately 5 hours (spread across 3--4 sessions).
 

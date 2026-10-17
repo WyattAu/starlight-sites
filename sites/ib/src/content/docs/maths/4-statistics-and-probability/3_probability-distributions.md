@@ -94,9 +94,13 @@ the spread by $|a|$.
 :::note[Example]
 A discrete random variable $X$ has PMF:
 
+<div class="table-wrap">
+
 | $x$        | 0   | 1   | 2   | 3   |
 | ---------- | --- | --- | --- | --- |
 | $P(X = x)$ | 0.1 | 0.4 | 0.3 | 0.2 |
+
+</div>
 
 $$
 E(X) = 0(0.1) + 1(0.4) + 2(0.3) + 3(0.2) = 1.6
@@ -123,9 +127,13 @@ $E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.4) = 0.1 + 0.4 + 0.9 + 1.6 = 3.0$
 
 A random variable $X$ has the following PMF:
 
+<div class="table-wrap">
+
 | $x$        | 1   | 2   | 3   | 4    | 5    |
 | ---------- | --- | --- | --- | ---- | ---- |
 | $P(X = x)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
+
+</div>
 
 $$
 E(X) = 1(0.1) + 2(0.2) + 3(0.3) + 4(0.25) + 5(0.15) = 0.1 + 0.4 + 0.9 + 1.0 + 0.75 = 3.15
@@ -837,11 +845,15 @@ $$
 
 Where $z_{\alpha/2}$ satisfies $P(Z \gt z_{\alpha/2}) = \alpha/2$ and $\alpha = 1 - C/100$.
 
+<div class="table-wrap">
+
 | Confidence Level | $z_{\alpha/2}$ |
 | ---------------- | -------------- |
 | 90%              | 1.645          |
 | 95%              | 1.960          |
 | 99%              | 2.576          |
+
+</div>
 
 When $\sigma$ is unknown and $n$ is large ($n \ge 30$), replace $\sigma$ with the sample standard
 Deviation $s$.
@@ -1071,6 +1083,8 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 
 ### Discrete Distributions
 
+<div class="table-wrap">
+
 | Distribution        | Notation               | PMF                                 | $E(X)$         | $\mathrm{Var}(X)$     | Support           |
 | ------------------- | ---------------------- | ----------------------------------- | -------------- | --------------------- | ----------------- |
 | Binomial            | $B(n, p)$              | $\dbinom{n}{x}p^x(1-p)^{n-x}$       | $np$           | $np(1-p)$             | $0, 1, \ldots, n$ |
@@ -1078,14 +1092,22 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 | Geometric (AHL)     | $\mathrm{Geo}(p)$      | $(1-p)^{x-1}p$                      | $\dfrac{1}{p}$ | $\dfrac{1-p}{p^2}$    | $1, 2, 3, \ldots$ |
 | Neg. Binomial (AHL) | $\mathrm{NB}(r, p)$    | $\dbinom{x-1}{r-1}p^r(1-p)^{x-r}$   | $\dfrac{r}{p}$ | $\dfrac{r(1-p)}{p^2}$ | $r, r+1, \ldots$  |
 
+</div>
+
 ### Continuous Distributions
+
+<div class="table-wrap">
 
 | Distribution  | Notation           | PDF                                                            | $E(X)$           | $\mathrm{Var}(X)$     | Support             |
 | ------------- | ------------------ | -------------------------------------------------------------- | ---------------- | --------------------- | ------------------- |
 | Normal        | $N(\mu, \sigma^2)$ | $\dfrac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | $\mu$            | $\sigma^2$            | $(-\infty, \infty)$ |
 | Uniform (AHL) | $U(a, b)$          | $\dfrac{1}{b-a}$                                               | $\dfrac{a+b}{2}$ | $\dfrac{(b-a)^2}{12}$ | $[a, b]$            |
 
+</div>
+
 ### Key Relationships
+
+<div class="table-wrap">
 
 | Relationship                                                      | Condition                                          |
 | ----------------------------------------------------------------- | -------------------------------------------------- |
@@ -1097,6 +1119,8 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 | $\bar{X}_n \approx N(\mu, \sigma^2/n)$                            | CLT, large $n$                                     |
 | $E(aX + bY) = aE(X) + bE(Y)$                                      | Always                                             |
 | $\mathrm{Var}(aX + bY) = a^2\mathrm{Var}(X) + b^2\mathrm{Var}(Y)$ | $X$$Y$ independent                                 |
+
+</div>
 
 ---
 
@@ -1595,10 +1619,14 @@ $$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                       | Site    | Link                                                                                                       |
 | --------------------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Statistical Distributions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/04-statistical-distributions) |
 | [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions/)      |
+
+</div>
 
 ## See Also
 

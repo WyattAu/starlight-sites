@@ -26,6 +26,8 @@ deep misconceptions.
 
 ## Topic Coverage Map
 
+<div class="table-wrap">
+
 | #   | File                               | Topic                                  | Section             |
 | --- | ---------------------------------- | -------------------------------------- | ------------------- |
 | 1   | `diag-atomic-structure.md`         | Atomic Structure and Periodicity       | Physical Chemistry  |
@@ -41,6 +43,8 @@ deep misconceptions.
 | 11  | `diag-halogenoalkanes-alcohols.md` | Halogenoalkanes, Alcohols              | Organic Chemistry   |
 | 12  | `diag-carbonyl-arenes-amines.md`   | Carbonyl Compounds, Arenes, Amines     | Organic Chemistry   |
 | 13  | `diag-transition-metals.md`        | Transition Metals                      | Inorganic Chemistry |
+
+</div>
 
 ## Prerequisite Chains
 
@@ -80,6 +84,8 @@ Transition Metals
 
 ## Integration Test Cross-References
 
+<div class="table-wrap">
+
 | Primary Topic            | Integration Partners                                     |
 | ------------------------ | -------------------------------------------------------- |
 | Atomic Structure         | Bonding, Quantitative Chemistry, Thermodynamics          |
@@ -96,11 +102,15 @@ Transition Metals
 | Carbonyl/Arenes/Amines   | Acids and Bases, Equilibrium, Organic Chemistry          |
 | Transition Metals        | Electrochemistry, Acids and Bases, Kinetics              |
 
+</div>
+
 ## Grading Rubric
 
 ### Per-Question Scoring
 
 Each question (unit or integration) is scored on a 0--4 scale:
+
+<div class="table-wrap">
 
 | Score | Descriptor                                                   |
 | ----- | ------------------------------------------------------------ |
@@ -110,9 +120,13 @@ Each question (unit or integration) is scored on a 0--4 scale:
 | 3     | Correct method, minor arithmetical or notational error       |
 | 4     | Fully correct solution with appropriate working and sig figs |
 
+</div>
+
 ### Diagnostic Classification
 
 For each topic test (6 questions, max 24 marks):
+
+<div class="table-wrap">
 
 | Total Score | Classification  | Interpretation                                         |
 | ----------- | --------------- | ------------------------------------------------------ |
@@ -121,6 +135,8 @@ For each topic test (6 questions, max 24 marks):
 | 13--17      | **Developing**  | Core concepts present but inconsistent application     |
 | 8--12       | **Emerging**    | Significant gaps; foundational revision needed         |
 | 0--7        | **Not Started** | Major revision required; return to prerequisite topics |
+
+</div>
 
 ### Unit vs Integration Analysis
 
@@ -141,6 +157,8 @@ For each topic test (6 questions, max 24 marks):
 6. Transition Metals can be studied alongside the later Physical Chemistry topics.
 
 ## Key Misconceptions Index
+
+<div class="table-wrap">
 
 | Topic                    | Misconception                                             | Diagnostic Test |
 | ------------------------ | --------------------------------------------------------- | --------------- |
@@ -184,6 +202,8 @@ For each topic test (6 questions, max 24 marks):
 | Transition Metals        | Ligand exchange and $K_{\text{stab}}$                     | UT-2            |
 | Transition Metals        | Catalytic cycle construction                              | IT-1            |
 
+</div>
+
 ## Diagnostic Test Matrix
 
 ### How to Use the Test Matrix
@@ -204,6 +224,8 @@ Each diagnostic test contains questions rated by difficulty and type:
 
 ### Topic Cross-Reference Table
 
+<div class="table-wrap">
+
 | Diagnostic File               | Topics Covered                                                   | Core Content File                                                                                 |
 | ----------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | diag-atomic-structure         | Electron configuration, IE trends, atomic orbitals               | atomic-structure.md                                                                               |
@@ -220,10 +242,14 @@ Each diagnostic test contains questions rated by difficulty and type:
 | diag-carbonyl-arenes-amines   | Nucleophilic addition, electrophilic substitution, diazotisation | organic-chemistry/carbonyl-compounds.md, organic-chemistry/arenes.md, organic-chemistry/amines.md |
 | diag-transition-metals        | d-d transitions, CFSE, ligand exchange, catalysis                | transition-metals.md                                                                              |
 
+</div>
+
 ### Progress Tracking Template
 
 Copy this table and fill in your scores after each attempt. Aim for 80%+ before moving to
 integration tests.
+
+<div class="table-wrap">
 
 | Topic                      | Date | Score | Time (min) | Weakest Area | Action |
 | -------------------------- | ---- | ----- | ---------- | ------------ | ------ |
@@ -241,6 +267,8 @@ integration tests.
 | Carbonyl, Arenes & Amines  |      | /25   |            |              |        |
 | Transition Metals          |      | /25   |            |              |        |
 
+</div>
+
 ### Building a Personal Test Matrix
 
 1. **Baseline assessment:** Take all 13 diagnostic tests without preparation. Record scores.
@@ -254,6 +282,8 @@ integration tests.
 
 ### Common Error Patterns and Remedies
 
+<div class="table-wrap">
+
 | Error Pattern                               | Likely Cause           | Remedy                                                                |
 | ------------------------------------------- | ---------------------- | --------------------------------------------------------------------- |
 | Correct method, wrong answer                | Arithmetic error       | Slow down; show all working; use a calculator for complex arithmetic  |
@@ -261,6 +291,8 @@ integration tests.
 | Blank answer                                | Knowledge gap          | Return to core content notes; work through relevant worked examples   |
 | Partial credit only                         | Incomplete explanation | Practice writing full explanations with all key marking points        |
 | Runs out of time                            | Poor time management   | Practice under timed conditions; skip hard questions and return later |
+
+</div>
 
 ## Summary
 

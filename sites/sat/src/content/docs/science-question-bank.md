@@ -95,10 +95,14 @@ is dominant over white ($r$). A heterozygous plant ($Rr$) is crossed with a homo
 
 Punnett square for the cross $Rr \times rr$:
 
+<div class="table-wrap">
+
 |       | **r** | **r** |
 | ----- | ----- | ----- |
 | **R** | Rr    | Rr    |
 | **r** | rr    | rr    |
+
+</div>
 
 Genotypic ratio: 2 $Rr$ : 2 $rr$ (i.e. 1:1)
 
@@ -123,6 +127,8 @@ $rr$ displays the recessive white phenotype.
 An enzyme-catalysed reaction is studied at different substrate concentrations. The initial reaction
 rate is measured and the following data obtained:
 
+<div class="table-wrap">
+
 | [S] (mmol/L) | Rate (μmol/min) |
 | ------------ | --------------- |
 | 0.5          | 8.3             |
@@ -130,6 +136,8 @@ rate is measured and the following data obtained:
 | 2.0          | 22.2            |
 | 5.0          | 33.3            |
 | 10.0         | 40.0            |
+
+</div>
 
 The maximum reaction rate ($V_{\max}$) is known to be 50 μmol/min. What is the Michaelis constant
 ($K_m$) for this enzyme?
@@ -514,6 +522,8 @@ $$
 
 A scientist measures the growth rate of bacteria at different temperatures:
 
+<div class="table-wrap">
+
 | Temperature (°C) | Growth Rate (divisions/hr) |
 | ---------------- | -------------------------- |
 | 10               | 0.5                        |
@@ -522,6 +532,8 @@ A scientist measures the growth rate of bacteria at different temperatures:
 | 37               | 8.0                        |
 | 40               | 7.0                        |
 | 50               | 1.0                        |
+
+</div>
 
 At what temperature does the maximum growth rate occur, and what is the approximate percentage
 decrease in growth rate when the temperature increases from 37°C to 40°C?
@@ -553,6 +565,8 @@ $$
 
 A ball is dropped from a height and its velocity is recorded over time:
 
+<div class="table-wrap">
+
 | Time (s) | Velocity (m/s) |
 | -------- | -------------- |
 | 0        | 0              |
@@ -560,6 +574,8 @@ A ball is dropped from a height and its velocity is recorded over time:
 | 2        | 19.6           |
 | 3        | 29.4           |
 | 4        | 39.2           |
+
+</div>
 
 What is the acceleration of the ball, and how far does it fall in the first 3 seconds?
 
@@ -602,6 +618,8 @@ in aquatic plants. She places identical plants in identical containers of water 
 distance of a lamp from each container. She measures the rate of oxygen bubble production over 10
 minutes.
 
+<div class="table-wrap">
+
 | Distance from lamp (cm) | Bubbles per minute |
 | ----------------------- | ------------------ |
 | 10                      | 28                 |
@@ -609,6 +627,8 @@ minutes.
 | 30                      | 14                 |
 | 40                      | 8                  |
 | 50                      | 5                  |
+
+</div>
 
 (a) Identify the independent and dependent variables. (b) As the distance doubles from 20 cm to 40
 cm, the bubble rate approximately halves. Which law or relationship does this follow? (c) What is a
@@ -683,7 +703,11 @@ terminology, reference to specific data points, and understanding of experimenta
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Link                                                 |
 | ----------------------- | ---------------------------------------------------- |
 | SAT Advanced Strategies | [View](/advanced-strategies/) |
 | SAT Math Strategies     | View     |
+
+</div>

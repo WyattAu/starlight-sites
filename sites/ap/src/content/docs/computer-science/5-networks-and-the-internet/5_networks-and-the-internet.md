@@ -39,12 +39,16 @@ the 1990s.
 
 ### Internet Architecture
 
+<div class="table-wrap">
+
 | Layer       | Protocol                    | Function                                       |
 | ----------- | --------------------------- | ---------------------------------------------- |
 | Application | HTTP, HTTPS, SMTP, DNS, FTP | Application-level communication                |
 | Transport   | TCP, UDP                    | End-to-end delivery, error checking, ports     |
 | Network     | IP (IPv4, IPv6)             | Routing packets between networks               |
 | Link        | Ethernet, Wi-Fi             | Physical transmission between adjacent devices |
+
+</div>
 
 ### IP Addresses
 
@@ -105,6 +109,8 @@ Milliseconds.
 
 **DNS records:**
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                  | Example                            |
 | ----------- | ---------------------------------------- | ---------------------------------- |
 | A           | Maps domain to IPv4 address              | example.com -&gt; 93.184.216.34    |
@@ -113,7 +119,11 @@ Milliseconds.
 | MX          | Mail exchange server for the domain      | example.com -&gt; mail.example.com |
 | NS          | Authoritative name server for the domain | example.com -&gt; ns1.example.com  |
 
+</div>
+
 ### TCP vs UDP (CED Unit 4)
+
+<div class="table-wrap">
 
 | Feature     | TCP (Transmission Control Protocol)   | UDP (User Datagram Protocol) |
 | ----------- | ------------------------------------- | ---------------------------- |
@@ -123,6 +133,8 @@ Milliseconds.
 | Speed       | Slower (overhead)                     | Faster (less overhead)       |
 | Use cases   | Web browsing, email, file transfer    | Streaming, gaming, VoIP      |
 | Header size | 20+ bytes                             | 8 bytes                      |
+
+</div>
 
 **TCP three-way handshake:**
 
@@ -141,6 +153,8 @@ Overwhelmed.
 
 **TCP vs UDP decision guide:**
 
+<div class="table-wrap">
+
 | Requirement                 | Use TCP | Use UDP |
 | --------------------------- | ------- | ------- |
 | Must receive all data       | Yes     | No      |
@@ -152,6 +166,8 @@ Overwhelmed.
 | Example: online gaming      |         | Yes     |
 | Example: sending an email   | Yes     |         |
 
+</div>
+
 ### HTTP and HTTPS
 
 **HTTP (Hypertext Transfer Protocol):** Protocol for transferring web pages. Stateless (each request
@@ -162,6 +178,8 @@ Key, then symmetric encryption for data transfer.
 
 **HTTP Methods:**
 
+<div class="table-wrap">
+
 | Method | Purpose                         | Idempotent? |
 | ------ | ------------------------------- | ----------- |
 | GET    | Retrieve a resource             | Yes         |
@@ -170,7 +188,11 @@ Key, then symmetric encryption for data transfer.
 | DELETE | Remove a resource               | Yes         |
 | PATCH  | Partially modify a resource     | No          |
 
+</div>
+
 **Status Codes:**
+
+<div class="table-wrap">
 
 | Code Range | Meaning       | Examples                                |
 | ---------- | ------------- | --------------------------------------- |
@@ -180,6 +202,8 @@ Key, then symmetric encryption for data transfer.
 | 4xx        | Client error  | 400 Bad Request, 404 Not Found          |
 | 5xx        | Server error  | 500 Internal Server Error               |
 
+</div>
+
 **Cookies.** HTTP is stateless, so cookies were invented to maintain state across requests. A cookie
 Is a small piece of data stored by the browser and sent with each request to the same domain. Uses
 Include session management (login state), personalisation (preferences), and tracking (analytics).
@@ -187,6 +211,8 @@ Include session management (login state), personalisation (preferences), and tra
 ## Network Models (CED Unit 4)
 
 ### OSI Model (7 Layers)
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                           |
 | ----- | ------------ | ---------------------------------- |
@@ -198,9 +224,13 @@ Include session management (login state), personalisation (preferences), and tra
 | 2     | Data Link    | Node-to-node delivery, MAC address |
 | 1     | Physical     | Electrical signals, bits           |
 
+</div>
+
 **Mnemonic:** "All People Seem To Need Data Processing" (bottom to top).
 
 ### TCP/IP Model (4 Layers)
+
+<div class="table-wrap">
 
 | Layer       | OSI Layers | Protocols            |
 | ----------- | ---------- | -------------------- |
@@ -208,6 +238,8 @@ Include session management (login state), personalisation (preferences), and tra
 | Transport   | 4          | TCP, UDP             |
 | Internet    | 3          | IP, ICMP, ARP        |
 | Link        | 1, 2       | Ethernet, Wi-Fi, MAC |
+
+</div>
 
 **Encapsulation.** As data moves down the layers, each layer adds its own header. At the link layer,
 Data becomes a frame. At the network layer, it becomes a packet. At the transport layer, it is a
@@ -225,6 +257,8 @@ At the receiver, each layer removes its header in reverse order.
 
 ## Network Devices
 
+<div class="table-wrap">
+
 | Device   | Layer     | Function                                        |
 | -------- | --------- | ----------------------------------------------- |
 | Repeater | Physical  | Regenerates signals                             |
@@ -234,11 +268,15 @@ At the receiver, each layer removes its header in reverse order.
 | Firewall | Multiple  | Filters traffic based on rules                  |
 | Modem    | Physical  | Converts digital/analog signals                 |
 
+</div>
+
 **Switch vs router.** A switch operates at layer 2 (Data Link) and forwards frames within a LAN
 Using MAC addresses. A router operates at layer 3 (Network) and forwards packets between networks
 Using IP addresses. A home "router" is actually a router + switch + wireless access point combined.
 
 **Device decision guide:**
+
+<div class="table-wrap">
 
 | Scenario                                    | Device Needed |
 | ------------------------------------------- | ------------- |
@@ -248,7 +286,11 @@ Using IP addresses. A home "router" is actually a router + switch + wireless acc
 | Block unauthorized incoming traffic         | Firewall      |
 | Connect a home to an ISP via telephone line | Modem         |
 
+</div>
+
 ## Network Topologies
+
+<div class="table-wrap">
 
 | Topology          | Description                                 | Advantages                                              | Disadvantages                       |
 | ----------------- | ------------------------------------------- | ------------------------------------------------------- | ----------------------------------- |
@@ -257,6 +299,8 @@ Using IP addresses. A home "router" is actually a router + switch + wireless acc
 | Ring              | Devices connected in a circle               | Equal access                                            | One failure breaks ring             |
 | Mesh              | Every device connected to every other       | Highly redundant                                        | Expensive, complex                  |
 | Tree/Hierarchical | Star topologies connected via bus           | Scalable                                                | Root is a single point of failure   |
+
+</div>
 
 ## Bandwidth, Latency, and Throughput
 
@@ -277,6 +321,8 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 
 ### Threats
 
+<div class="table-wrap">
+
 | Threat                     | Description                                                 |
 | -------------------------- | ----------------------------------------------------------- |
 | Malware                    | Malicious software (viruses, worms, trojans, ransomware)    |
@@ -286,7 +332,11 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 | Man-in-the-middle          | Intercepting communication between two parties              |
 | Cross-site scripting (XSS) | Injecting malicious scripts into web pages viewed by others |
 
+</div>
+
 **Malware comparison:**
+
+<div class="table-wrap">
 
 | Type       | Self-replicates | Needs host | Purpose                        |
 | ---------- | --------------- | ---------- | ------------------------------ |
@@ -295,6 +345,8 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 | Trojan     | No              | Disguised  | Steal data, backdoor access    |
 | Ransomware | No              | No         | Encrypt files, demand ransom   |
 | Spyware    | No              | No         | Monitor activity, collect data |
+
+</div>
 
 ### Defenses
 
@@ -345,11 +397,15 @@ Verifies it with the sender's public key. This proves the message was sent by th
 
 **IPv4 classes:**
 
+<div class="table-wrap">
+
 | Class | Address Range                | Default Subnet Mask | Usable Hosts |
 | ----- | ---------------------------- | ------------------- | ------------ |
 | A     | 0.0.0.0 -- 127.255.255.255   | 255.0.0.0           | 16,777,214   |
 | B     | 128.0.0.0 -- 191.255.255.255 | 255.255.0.0         | 65,534       |
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0       | 254          |
+
+</div>
 
 **CIDR notation:** 192.168.1.0/24 means the first 24 bits are the network portion, leaving 8 bits
 For hosts.
@@ -384,6 +440,8 @@ The CDN serves it from the nearest edge server, reducing latency.
 
 ## DNS Records in Detail
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                  | Example                            |
 | ----------- | ---------------------------------------- | ---------------------------------- |
 | A           | Maps domain to IPv4 address              | example.com -&gt; 93.184.216.34    |
@@ -393,9 +451,13 @@ The CDN serves it from the nearest edge server, reducing latency.
 | NS          | Authoritative name server for the domain | example.com -&gt; ns1.example.com  |
 | TXT         | Text records (SPF, DKIM verification)    | v=spf1 include:\_spf.example.com   |
 
+</div>
+
 ## Wireless Networks
 
 ### Wi-Fi Standards
+
+<div class="table-wrap">
 
 | Standard | Speed    | Frequency | Range |
 | -------- | -------- | --------- | ----- |
@@ -404,6 +466,8 @@ The CDN serves it from the nearest edge server, reducing latency.
 | 802.11n  | 600 Mbps | 2.4/5 GHz | ~70 m |
 | 802.11ac | 6.9 Gbps | 5 GHz     | ~35 m |
 | 802.11ax | 9.6 Gbps | 2.4/5/6   | ~70 m |
+
+</div>
 
 ### Wireless Security
 
@@ -450,11 +514,15 @@ The CDN serves it from the nearest edge server, reducing latency.
 
 **IPv4 classes:**
 
+<div class="table-wrap">
+
 | Class | Address Range                | Default Subnet Mask | Usable Hosts |
 | ----- | ---------------------------- | ------------------- | ------------ |
 | A     | 0.0.0.0 -- 127.255.255.255   | 255.0.0.0           | 16,777,214   |
 | B     | 128.0.0.0 -- 191.255.255.255 | 255.255.0.0         | 65,534       |
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0       | 254          |
+
+</div>
 
 **CIDR notation:** 192.168.1.0/24 means the first 24 bits are the network portion, leaving 8 bits
 For hosts.
@@ -523,6 +591,8 @@ Public IP to serve many private devices, conserving the address space.
 
 ### HTTP Methods
 
+<div class="table-wrap">
+
 | Method | Purpose                         | Idempotent? | Body? |
 | ------ | ------------------------------- | ----------- | ----- |
 | GET    | Retrieve a resource             | Yes         | No    |
@@ -532,7 +602,11 @@ Public IP to serve many private devices, conserving the address space.
 | PATCH  | Partially modify a resource     | No          | Yes   |
 | HEAD   | Same as GET but no body         | Yes         | No    |
 
+</div>
+
 ### HTTP Status Codes
+
+<div class="table-wrap">
 
 | Code Range | Meaning       | Examples                                           |
 | ---------- | ------------- | -------------------------------------------------- |
@@ -542,11 +616,15 @@ Public IP to serve many private devices, conserving the address space.
 | 4xx        | Client error  | 400 Bad Request, 403 Forbidden, 404 Not Found      |
 | 5xx        | Server error  | 500 Internal Server Error, 503 Service Unavailable |
 
+</div>
+
 ### HTTP Headers
 
 HTTP headers provide additional information about the request or response.
 
 **Common request headers:**
+
+<div class="table-wrap">
 
 | Header        | Purpose                    | Example          |
 | ------------- | -------------------------- | ---------------- |
@@ -556,7 +634,11 @@ HTTP headers provide additional information about the request or response.
 | Content-Type  | Body format                | application/json |
 | Authorization | Authentication credentials | Bearer token     |
 
+</div>
+
 **Common response headers:**
+
+<div class="table-wrap">
 
 | Header         | Purpose                        | Example          |
 | -------------- | ------------------------------ | ---------------- |
@@ -565,6 +647,8 @@ HTTP headers provide additional information about the request or response.
 | Set-Cookie     | Set a cookie in the browser    | session=abc123   |
 | Cache-Control  | Caching directives             | max-age=3600     |
 | Location       | URL for redirection            | /new-page        |
+
+</div>
 
 ### Cookies and Sessions
 
@@ -595,12 +679,18 @@ NAT allows multiple devices on a private network to share a single public IP add
 **Port Address Translation (PAT):** The router also maps source ports to distinguish between
 Multiple internal devices.
 
+<div class="table-wrap">
+
 | Internal IP | Internal Port | External IP | External Port |
 | ----------- | ------------- | ----------- | ------------- |
 | 192.168.1.5 | 50001         | 203.0.113.5 | 50001         |
 | 192.168.1.6 | 50002         | 203.0.113.5 | 50002         |
 
+</div>
+
 ## Wireless Security Protocols
+
+<div class="table-wrap">
 
 | Protocol | Encryption | Key Exchange    | Vulnerability        |
 | -------- | ---------- | --------------- | -------------------- |
@@ -609,7 +699,11 @@ Multiple internal devices.
 | WPA2     | AES        | 4-way handshake | KRACK attack         |
 | WPA3     | AES        | SAE             | Most secure          |
 
+</div>
+
 ## IPv6 Address Types
+
+<div class="table-wrap">
 
 | Type       | Prefix    | Purpose                     |
 | ---------- | --------- | --------------------------- |
@@ -618,6 +712,8 @@ Multiple internal devices.
 | Global     | 2000::/3  | Internet routable addresses |
 | Multicast  | ff00::/8  | Send to multiple interfaces |
 | Loopback   | ::1/128   | Localhost                   |
+
+</div>
 
 ## Network Performance Monitoring
 
@@ -683,13 +779,19 @@ Grade databases.
 
 ### Service Models
 
+<div class="table-wrap">
+
 | Model | Provider manages          | User manages       | Example                   |
 | ----- | ------------------------- | ------------------ | ------------------------- |
 | IaaS  | Servers, storage, network | OS, apps, data     | AWS EC2, Azure VMs        |
 | PaaS  | Runtime, middleware       | Applications, data | Heroku, Google App Engine |
 | SaaS  | Everything                | Nothing (just use) | Gmail, Microsoft 365      |
 
+</div>
+
 ### Deployment Models
+
+<div class="table-wrap">
 
 | Model     | Description                                        |
 | --------- | -------------------------------------------------- |
@@ -697,6 +799,8 @@ Grade databases.
 | Private   | Exclusive to one organisation                      |
 | Hybrid    | Mix of public and private                          |
 | Community | Shared between organisations with common interests |
+
+</div>
 
 ## Practice Questions
 

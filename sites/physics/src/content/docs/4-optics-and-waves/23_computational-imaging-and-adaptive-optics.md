@@ -92,16 +92,22 @@ Computational imaging combines optical hardware with algorithmic processing to o
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Site       | Link                                                                                                                   |
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
 | [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/)                                            |
 | [Refraction and Optics] | University | [View](https://physics.wyattau.com/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
 ### 19.3 Key Relationships
+
+<div class="table-wrap">
 
 | Concept               | Formula                                                               | Meaning                                                 |
 | --------------------- | --------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -110,6 +116,8 @@ Computational imaging combines optical hardware with algorithmic processing to o
 | Strehl ratio          | $S = \exp[-(2\pi/\lambda)^2\langle\Delta\phi^2\rangle]$               | Measure of image quality after AO correction            |
 | Greenwood frequency   | $f_G = 0.427\,(v_w/r_0)$                                             | Required AO update rate for given wind speed $v_w$      |
 | Fried parameter       | $r_0 \propto \lambda^{6/5}(\cos\gamma)^{3/5}$                        | Coherence length of atmospheric turbulence              |
+
+</div>
 
 ### 19.4 Common Pitfalls
 
@@ -128,12 +136,16 @@ Computational imaging combines optical hardware with algorithmic processing to o
 
 ### 19.6 Summary Table
 
+<div class="table-wrap">
+
 | Technique            | Problem addressed                     | Key mathematics                      | Typical hardware              |
 | -------------------- | ------------------------------------- | ------------------------------------ | ----------------------------- |
 | Compressed sensing   | Sub-Nyquist sampling                  | $\ell_1$-minimisation, RIP           | Single-pixel camera, sparse arrays |
 | Adaptive optics      | Atmospheric turbulence                | Zernike modes, wavefront sensing     | Deformable mirror, Shack-Hartmann sensor |
 | Deconvolution        | Blur from PSF                         | Wiener filter, Richardson-Lucy       | Post-processing (software)    |
 | Synthetic aperture   | Limited aperture size                 | Fourier-domain interpolation         | Antenna array, telescope array |
+
+</div>
 
 ### 19.7 Worked Example: Strehl Ratio and Wavefront Error
 

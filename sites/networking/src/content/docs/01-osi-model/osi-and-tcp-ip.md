@@ -433,6 +433,8 @@ Frames to the next hop.
 
 ## OSI vs TCP/IP Comparison
 
+<div class="table-wrap">
+
 | OSI Layer | OSI Name     | TCP/IP Layer | Protocols                      |
 | --------- | ------------ | ------------ | ------------------------------ |
 | 7         | Application  | Application  | HTTP, DNS, SSH, FTP, SMTP      |
@@ -442,6 +444,8 @@ Frames to the next hop.
 | 3         | Network      | Internet     | IPv4, IPv6, ICMP               |
 | 2         | Data Link    | Link         | Ethernet, Wi-Fi, PPP           |
 | 1         | Physical     | Link         | Fiber, copper, radio           |
+
+</div>
 
 ### Why TCP/IP Won
 
@@ -476,6 +480,8 @@ Ethernet Networks") capture the engineering pragmatism that drove TCP/IP adoptio
 
 Many textbooks and engineers use a hybrid 5-layer model that combines the best of both:
 
+<div class="table-wrap">
+
 | Layer | Name        | Description          |
 | ----- | ----------- | -------------------- |
 | 5     | Application | HTTP, DNS, SSH, TLS  |
@@ -483,6 +489,8 @@ Many textbooks and engineers use a hybrid 5-layer model that combines the best o
 | 3     | Network     | IPv4, IPv6, ICMP     |
 | 2     | Data Link   | Ethernet, Wi-Fi, ARP |
 | 1     | Physical    | Fiber, copper, radio |
+
+</div>
 
 This model is a practical compromise: it keeps the physical and data link layers separate (which is
 Useful for network engineering) while collapsing the upper layers (which is how real protocols
@@ -522,6 +530,8 @@ graph LR
 
 Each layer names its data unit differently:
 
+<div class="table-wrap">
+
 | Layer       | PDU Name                       | Size                           |
 | ----------- | ------------------------------ | ------------------------------ |
 | Physical    | Bits                           | Individual signal transitions  |
@@ -529,6 +539,8 @@ Each layer names its data unit differently:
 | Network     | Packet                         | Varies; limited by MTU         |
 | Transport   | Segment (TCP) / Datagram (UDP) | Up to 65,535 bytes (UDP limit) |
 | Application | Data / Message                 | Application-defined            |
+
+</div>
 
 ### Concrete Example: HTTP GET over Ethernet
 
@@ -557,6 +569,8 @@ the **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
 Understanding protocol overhead is critical for capacity planning and performance analysis. The
 Following table shows the overhead for common encapsulations:
 
+<div class="table-wrap">
+
 | Encapsulation                            | Header Overhead | Efficiency (1460-byte payload) |
 | ---------------------------------------- | --------------- | ------------------------------ |
 | Ethernet + IPv4 + TCP                    | 54 bytes        | 96.4%                          |
@@ -564,6 +578,8 @@ Following table shows the overhead for common encapsulations:
 | Ethernet + IPv4 + TCP + TLS              | 89 bytes        | 94.3%                          |
 | Ethernet + GRE + IPv4 + TCP              | 78 bytes        | 94.9%                          |
 | Ethernet + VXLAN + Ethernet + IPv4 + TCP | 90 bytes        | 94.2%                          |
+
+</div>
 
 For small packets (e.g., VoIP with 20-byte payload), the overhead is proportionally much higher. A
 20-byte VoIP payload in an Ethernet + IPv4 + UDP frame uses 20 + 20 + 8 + 14 + 4 = 66 bytes of
@@ -681,6 +697,8 @@ When a user clicks a link in their browser, data flows through the stack as foll
 Understanding the protocol stack matters for troubleshooting because symptoms at one layer often
 have root causes at another:
 
+<div class="table-wrap">
+
 | Symptom                        | Likely Layer  | Diagnostic Tool            |
 | ------------------------------ | ------------- | -------------------------- |
 | No link light                  | Physical      | `ethtool`Cable tester      |
@@ -693,6 +711,8 @@ have root causes at another:
 | ARP flux / MAC flapping        | Data Link     | `arp -a`Switch logs        |
 | MTU black hole                 | Network       | `ping -M do -s 1472`ICMP   |
 | TLS handshake failure          | Application   | `openssl s_client`Cipher   |
+
+</div>
 
 :::tip
 Checking IP configuration. Verify IP connectivity before checking TCP ports. Verify TCP connectivity
@@ -753,11 +773,15 @@ A **broadcast domain** is a network segment where broadcast packets (ff:ff:ff:ff
 Ports. By default, all ports on a switch are in the same broadcast domain. VLANs divide a switch
 into multiple broadcast domains. Routers separate broadcast domains entirely.
 
+<div class="table-wrap">
+
 | Device | Collision Domains | Broadcast Domains |
 | ------ | ----------------- | ----------------- |
 | Hub    | 1 (shared)        | 1 (shared)        |
 | Switch | 1 per port        | 1 per VLAN        |
 | Router | 1 per port        | 1 per port        |
+
+</div>
 
 ### VLANs and Layer 2 Segmentation
 

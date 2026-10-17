@@ -126,6 +126,8 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 
 ### Topic-Specific Recommendations
 
+<div class="table-wrap">
+
 | Topic | Best Book | Best Online Resource |
 | ------- | ----------- | --------------------- |
 | Relational theory | Date: _SQL and Relational Theory_ | Stanford DB course (Widom/Ullman) |
@@ -136,7 +138,11 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 | Data warehousing | Kimball & Ross | The Data Warehouse Toolkit blog |
 | Graph databases | Robinson _et al._: _Graph Databases_ | Neo4j GraphAcademy |
 
+</div>
+
 ## Cross-References
+
+<div class="table-wrap">
 
 | Topic       | Site       | Link                                                                                                       |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
@@ -145,10 +151,14 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 | [Databases] | DSE        | [View](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)                 |
 | [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
 
+</div>
+
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Key Relationships Between Normal Forms
+
+<div class="table-wrap">
 
 | Normal form | Condition                                | Example violation       |
 | ----------- | ---------------------------------------- | ----------------------- |
@@ -156,6 +166,8 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 | 2NF         | No partial dependencies on candidate key | Part of composite key   |
 | 3NF         | No transitive dependencies               | Non-key → non-key       |
 | BCNF        | Every FD has a superkey LHS              | Non-key → part of key   |
+
+</div>
 
 ## Recommended Reading by Topic
 

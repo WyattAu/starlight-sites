@@ -277,6 +277,8 @@ Both GCC and Clang follow a `major.minor.patch` versioning scheme. ABI compatibi
 within the same major version for GCC, and across Clang versions when using the same `libc++` ABI
 Version.
 
+<div class="table-wrap">
+
 | Compiler | Version | C++23 Support | Notes                                  |
 | -------- | ------- | ------------- | -------------------------------------- |
 | GCC      | 13.x    | Most features | Some C++23 features still experimental |
@@ -285,16 +287,22 @@ Version.
 | Clang    | 18.x    | Full support  | Recommended for production             |
 | MSVC     | 19.38+  | Most features | C++23 support varies by feature        |
 
+</div>
+
 ### `__cplusplus` Macro
 
 The `__cplusplus` predefined macro indicates which C++ standard the compiler is targeting [N4950
 §6.10.9]:
+
+<div class="table-wrap">
 
 | Flag         | `__cplusplus` Value |
 | ------------ | ------------------- |
 | `-std=c++17` | `201703L`           |
 | `-std=c++20` | `202002L`           |
 | `-std=c++23` | `202302L`           |
+
+</div>
 
 **Important:** MSVC does not correctly set `__cplusplus` by default. It always reports `199711L`
 Unless you pass `/Zc:__cplusplus`. This is a long-standing bug acknowledged by Microsoft.
@@ -335,6 +343,8 @@ Production systems engineering.
 
 ### Compiler Feature Matrix
 
+<div class="table-wrap">
+
 | Feature                     | Clang/LLVM                                  | GCC                                        | MSVC                                    |
 | :-------------------------- | :------------------------------------------ | :----------------------------------------- | :-------------------------------------- |
 | **License**                 | Apache 2.0 / UIUC                           | GPL v3                                     | Proprietary (VS license)                |
@@ -349,6 +359,8 @@ Production systems engineering.
 | **Cross-compilation**       | `-target` flag, flexible                    | Requires separate cross-toolchain packages | Requires Windows SDK + cross-comp setup |
 | **Debug info**              | DWARF 5, CodeView (Windows)                 | DWARF 5                                    | PDB (Program Database)                  |
 | **Incremental compilation** | No (requires full recompile)                | No                                         | Edit and Continue (with `link.exe`)     |
+
+</div>
 
 ### Optimization Comparison
 
@@ -372,6 +384,8 @@ Controlled by different flags. The following table maps common flags across the 
 
 ### Standard Selection
 
+<div class="table-wrap">
+
 | Purpose          | Clang / GCC             | MSVC                       |
 | :--------------- | :---------------------- | :------------------------- |
 | C++17 strict ISO | `-std=c++17`            | `/std:c++17`               |
@@ -380,7 +394,11 @@ Controlled by different flags. The following table maps common flags across the 
 | GNU extensions   | `-std=gnu++23`          | N/A (MSVC has no GNU mode) |
 | No extensions    | `-std=c++23` (implicit) | `/permissive-`             |
 
+</div>
+
 ### Warning and Error Control
+
+<div class="table-wrap">
 
 | Purpose                   | Clang / GCC                      | MSVC                     |
 | :------------------------ | :------------------------------- | :----------------------- |
@@ -391,7 +409,11 @@ Controlled by different flags. The following table maps common flags across the 
 | Disable specific warning  | `-Wno-<warning-name>`            | `/wd<warning-number>`    |
 | Treat unknown warning err | `-Werror=unknown-warning-option` | N/A                      |
 
+</div>
+
 ### Optimization and Code Generation
+
+<div class="table-wrap">
 
 | Purpose                 | Clang / GCC   | MSVC        |
 | :---------------------- | :------------ | :---------- |
@@ -404,14 +426,22 @@ Controlled by different flags. The following table maps common flags across the 
 | Define macro            | `-DFOO=bar`   | `/DFOO=bar` |
 | Include path            | `-I/path`     | `/I/path`   |
 
+</div>
+
 ### Standard Library Selection (Clang only)
+
+<div class="table-wrap">
 
 | Purpose                 | Clang               |
 | :---------------------- | :------------------ |
 | Use libstdc++ (default) | `-stdlib=libstdc++` |
 | Use libc++              | `-stdlib=libc++`    |
 
+</div>
+
 ### Sanitizers
+
+<div class="table-wrap">
 
 | Purpose            | Clang / GCC                      | MSVC                           |
 | :----------------- | :------------------------------- | :----------------------------- |
@@ -419,6 +449,8 @@ Controlled by different flags. The following table maps common flags across the 
 | Undefined behavior | `-fsanitize=undefined`           | N/A                            |
 | Thread sanitizer   | `-fsanitize=thread`              | N/A                            |
 | Memory sanitizer   | `-fsanitize=memory` (Clang only) | N/A                            |
+
+</div>
 
 ## Multiple Compiler Setup
 
@@ -541,6 +573,8 @@ Behavior because the two libraries disagree on the layout of every standard type
 
 ### ABI Stability Guarantees
 
+<div class="table-wrap">
+
 | Compiler Pair                                              | Same OS? | ABI Compatible? | Condition                                     |
 | :--------------------------------------------------------- | :------- | :-------------- | :-------------------------------------------- |
 | GCC 13 $\leftrightarrow$ GCC 14                            | Yes      | Yes             | Same `-stdlib`Same `-D_GLIBCXX_USE_CXX11_ABI` |
@@ -548,6 +582,8 @@ Behavior because the two libraries disagree on the layout of every standard type
 | Clang 18 $\leftrightarrow$ GCC 14                          | Linux    | Yes             | Both use `libstdc++`Same ABI flags            |
 | Clang 18 (`libc++`) $\leftrightarrow$ GCC 14 (`libstdc++`) | Linux    | **No**          | Different standard library ABIs               |
 | MSVC 2022 $\leftrightarrow$ MinGW Clang                    | Windows  | **No**          | Different C++ ABI (MSVC vs Itanium)           |
+
+</div>
 
 See [Language Standard and ABI Compatibility](/enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility/) for a
 Deeper treatment of ABI breakage scenarios.
@@ -644,6 +680,8 @@ Always pass `/Zc:__cplusplus`:
 
 ### Essential Flags
 
+<div class="table-wrap">
+
 | Flag                  | Purpose                                           |
 | --------------------- | ------------------------------------------------- |
 | `-std=c++23`          | Target C++23 standard                             |
@@ -654,7 +692,11 @@ Always pass `/Zc:__cplusplus`:
 | `-fsanitize=address`  | Enable AddressSanitizer                           |
 | `-fno-exceptions`     | Disable exception support                         |
 
+</div>
+
 ### Clang-Specific Flags
+
+<div class="table-wrap">
 
 | Flag                  | Purpose                                        |
 | --------------------- | ---------------------------------------------- |
@@ -662,12 +704,18 @@ Always pass `/Zc:__cplusplus`:
 | `-fcolor-diagnostics` | Colored diagnostic output (enabled by default) |
 | `-fmodules`           | Enable C++20 modules (experimental)            |
 
+</div>
+
 ### GCC-Specific Flags
+
+<div class="table-wrap">
 
 | Flag                         | Purpose                     |
 | ---------------------------- | --------------------------- |
 | `-fdiagnostics-color=always` | Colored diagnostic output   |
 | `-fanalyzer`                 | Enable static analysis pass |
+
+</div>
 
 ## Verification Checklist
 

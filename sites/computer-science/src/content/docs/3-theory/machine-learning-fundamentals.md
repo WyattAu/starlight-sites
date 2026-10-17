@@ -270,6 +270,8 @@ Layer l=2 (output):  z[2] = W[2]a[1] + b[2]
 
 ### 4.3 Activation Functions
 
+<div class="table-wrap">
+
 | Function       | Formula                                    | Range               | Properties                 |
 | -------------- | ------------------------------------------ | ------------------- | -------------------------- |
 | **Sigmoid**    | $\sigma(z) = \frac{1}{1+e^{-z}}$           | $(0, 1)$            | Smooth, vanishing gradient |
@@ -277,6 +279,8 @@ Layer l=2 (output):  z[2] = W[2]a[1] + b[2]
 | **ReLU**       | $\text{ReLU}(z) = \max(0, z)$              | $[0, \infty)$       | Fast, but "dead neurons"   |
 | **Leaky ReLU** | $\max(\alpha z, z)$, $\alpha = 0.01$       | $(-\infty, \infty)$ | Fixes dead neurons         |
 | **Softmax**    | $\frac{e^{z_k}}{\sum_j e^{z_j}}$           | $(0, 1)^K$          | For multi-class output     |
+
+</div>
 
 ### 4.4 Backpropagation
 
@@ -369,12 +373,16 @@ $$
 
 ### 5.3 Loss Selection Guide
 
+<div class="table-wrap">
+
 | Task        | Loss Function             |
 | ----------- | ------------------------- |
 | Regression  | MSE, MAE, Huber           |
 | Binary      | Binary Cross-Entropy      |
 | Multi-class | Categorical Cross-Entropy |
 | Imbalanced  | Focal loss, weighted CE   |
+
+</div>
 
 ## 6. Regularization
 
@@ -452,6 +460,8 @@ EARLY_STOPPING(train_fn, patience):
 
 ### 6.6 Regularization Comparison
 
+<div class="table-wrap">
+
 | Method         | Effect                      | When to Use                     |
 | -------------- | --------------------------- | ------------------------------- |
 | L1 (Lasso)     | Sparsity, feature selection | Many irrelevant features        |
@@ -460,14 +470,20 @@ EARLY_STOPPING(train_fn, patience):
 | Dropout        | Prevents co-adaptation      | Neural networks                 |
 | Early stopping | Prevents overfitting        | All models, especially NNs      |
 
+</div>
+
 ## 7. Evaluation Metrics
 
 ### 7.1 Confusion Matrix
+
+<div class="table-wrap">
 
 |                     | Predicted Positive  | Predicted Negative  |
 | ------------------- | ------------------- | ------------------- |
 | **Actual Positive** | TP (True Positive)  | FN (False Negative) |
 | **Actual Negative** | FP (False Positive) | TN (True Negative)  |
+
+</div>
 
 ### 7.2 Classification Metrics
 
@@ -567,11 +583,15 @@ $$
 
 ### 8.2 Tradeoff
 
+<div class="table-wrap">
+
 | Model Complexity | Bias     | Variance | Total Error |
 | ---------------- | -------- | -------- | ----------- |
 | Low (underfit)   | High     | Low      | High        |
 | Optimal          | Moderate | Moderate | Minimal     |
 | High (overfit)   | Low      | High     | High        |
+
+</div>
 
 ### 8.3 Overfitting and Underfitting
 
@@ -679,11 +699,15 @@ Machine learning finds patterns in data without explicit programming. Supervised
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Link                                                        |
 | ------------------- | ----------------------------------------------------------- |
 | Algorithms Overview | View         |
 | Complexity Theory   | [View](/1-algorithms/complexity-theory/) |
 | Algorithm Design    | [View](/1-algorithms/algorithm-design/)  |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

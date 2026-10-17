@@ -177,11 +177,15 @@ fun printAll(list: List<*>) {
 
 Star projection behavior depends on variance:
 
+<div class="table-wrap">
+
 | Declaration       | Star projection `*` means              |
 | ----------------- | -------------------------------------- |
 | `Producer<out T>` | `Producer<out Nothing>`                |
 | `Consumer<in T>`  | `Consumer<in Any?>`                    |
 | `MutableList<T>`  | `MutableList<out Nothing>` (read-only) |
+
+</div>
 
 ```kotlin
 fun process(producer: Producer<*>) {

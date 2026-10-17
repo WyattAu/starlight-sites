@@ -543,6 +543,8 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Property            | Uniform Electric Field                  | Uniform Magnetic Field                      |
 | :------------------ | :-------------------------------------- | :------------------------------------------ |
 | Force on charge     | $F = qE$ (constant)                     | $F = qvB\sin\theta$ (velocity-dependent)    |
@@ -551,6 +553,8 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 | Effect on speed     | Changes speed (accelerates/decelerates) | Does not change speed                       |
 | Trajectory          | Parabolic                               | Circular or helical                         |
 | Kinetic energy      | Changes                                 | Constant                                    |
+
+</div>
 
 ---
 

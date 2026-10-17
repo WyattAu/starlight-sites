@@ -123,12 +123,16 @@ ALTER TABLE Results ADD COLUMN grade VARCHAR(2);
 
 **Question:** A school stores the following unnormalised data:
 
+<div class="table-wrap">
+
 | StudentID | Name         | Class | Subject | Teacher | Room |
 | --------- | ------------ | ----- | ------- | ------- | ---- |
 | 001       | Chan Tai Man | 5A    | Maths   | Mr Wong | R101 |
 | 001       | Chan Tai Man | 5A    | English | Ms Lee  | R203 |
 | 002       | Li Siu Ming  | 5A    | Maths   | Mr Wong | R101 |
 | 002       | Li Siu Ming  | 5A    | English | Ms Lee  | R203 |
+
+</div>
 
 (a) Identify the repeating groups and explain why this is in 1NF violation. (b) Convert to 2NF,
 explaining what functional dependencies are removed. (c) Convert to 3NF, explaining what transitive

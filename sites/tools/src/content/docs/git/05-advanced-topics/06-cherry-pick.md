@@ -32,11 +32,15 @@ Commits and () different committer timestamps. They are distinct objects in the 
 
 ### How It Differs from Merge and Rebase
 
+<div class="table-wrap">
+
 | Operation     | What it does                                                 | Commit topology change                      |
 | ------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | `merge`       | Creates a merge commit joining two branch histories          | New merge commit, preserves both histories  |
 | `rebase`      | Replays a sequence of commits onto a new base                | Rewrites all replayed commits with new SHAs |
 | `cherry-pick` | Applies one or more specific commits onto the current branch | New commits with new SHAs, no merge commit  |
+
+</div>
 
 Merge preserves the full topological relationship between branches. Rebase rewrites an entire
 Sequence linearly. Cherry-pick is surgical, it extracts individual commits without regard to branch
@@ -85,10 +89,14 @@ $ git cherry-pick A^..B
 
 The difference between `A..B` and `A^..B` is a common source of confusion:
 
+<div class="table-wrap">
+
 | Syntax  | Meaning                                        | Includes A? |
 | ------- | ---------------------------------------------- | ----------- |
 | `A..B`  | Commits reachable from B, not reachable from A | No          |
 | `A^..B` | Commits from A"s parent through B              | Yes         |
+
+</div>
 
 ```bash
 # Practical example: cherry-pick everything from commit X through Y, inclusive
@@ -287,6 +295,8 @@ $ git cherry-pick b1c2d3e c4d5e6f
 
 ### Decision Framework
 
+<div class="table-wrap">
+
 | Factor              | Use Cherry-Pick                               | Use Rebase                             |
 | ------------------- | --------------------------------------------- | -------------------------------------- |
 | Scope               | One or a few specific commits                 | Entire branch or large sequence        |
@@ -295,6 +305,8 @@ $ git cherry-pick b1c2d3e c4d5e6f
 | History cleanliness | Can create a messy DAG with scattered commits | Produces a clean linear history        |
 | Merge conflicts     | Resolve per commit                            | Resolve once per conflicting commit    |
 | Traceability        | Needs `-x` for provenance tracking            | Branch topology provides context       |
+
+</div>
 
 ### When to Cherry-Pick
 

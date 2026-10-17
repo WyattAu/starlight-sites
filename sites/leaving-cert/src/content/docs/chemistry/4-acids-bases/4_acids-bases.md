@@ -101,11 +101,15 @@ $$
 
 At $25^\circ\mathrm{C$: $[\mathrm{H_3\mathrm{O^+][\mathrm{OH^-] = 10^{-14}$.
 
+<div class="table-wrap">
+
 | pH  | [H3O+]               | Description     |
 | --- | -------------------- | --------------- |
 | 0   | $1\mathrm{ M$        | Strongly acidic |
 | 7   | $10^{-7}\mathrm{ M$  | Neutral         |
 | 14  | $10^{-14}\mathrm{ M$ | Strongly basic  |
+
+</div>
 
 **Example (OL):** Find the pH of a $0.01\mathrm{ M$ solution of $\mathrm{HCl$.
 
@@ -255,13 +259,19 @@ $$
 
 ### Choosing the Method
 
+<div class="table-wrap">
+
 | Desired salt                      | Method                      |
 | --------------------------------- | --------------------------- |
 | Sodium, potassium, ammonium salts | Titration or evaporation    |
 | Soluble salts of other metals     | Metal + acid or base + acid |
 | Insoluble salts                   | Precipitation               |
 
+</div>
+
 ## Indicators (OL/HL)
+
+<div class="table-wrap">
 
 | Indicator           | Colour in acid | Colour in base | pH range    |
 | ------------------- | -------------- | -------------- | ----------- |
@@ -269,6 +279,8 @@ $$
 | Methyl orange       | Red            | Yellow         | 3.1 -- 4.4  |
 | Phenolphthalein     | Colourless     | Pink           | 8.3 -- 10.0 |
 | Universal indicator | Various        | Various        | 1 -- 14     |
+
+</div>
 
 ### Choosing an Indicator for Titrations (HL)
 
@@ -479,12 +491,16 @@ A buffer is most effective when:
 
 ### pH of Salt Solutions
 
+<div class="table-wrap">
+
 | Salt formed from          | Resulting pH   | Reason                  |
 | ------------------------- | -------------- | ----------------------- |
 | Strong acid + strong base | 7              | Neither ion hydrolyses  |
 | Strong acid + weak base   | Less than 7    | Cation hydrolyses       |
 | Weak acid + strong base   | Greater than 7 | Anion hydrolyses        |
 | Weak acid + weak base     | Depends        | Compare $K_a$ and $K_b$ |
+
+</div>
 
 **Worked Example 11 (HL):** Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline.
 
@@ -634,11 +650,15 @@ charge).
 
 ### Comparison of Acid-Base Theories
 
+<div class="table-wrap">
+
 | Theory         | Acid definition                 | Base definition                  | Scope                                        |
 | -------------- | ------------------------------- | -------------------------------- | -------------------------------------------- |
 | Arrhenius      | Produces $\mathrm{H^+$ in water | Produces $\mathrm{OH^-$ in water | Aqueous solutions only                       |
 | Bronsted-Lowry | Proton donor                    | Proton acceptor                  | Includes non-aqueous systems                 |
 | Lewis          | Electron pair acceptor          | Electron pair donor              | Widest scope, includes proton-free reactions |
+
+</div>
 
 **Example:** The reaction between $\mathrm{BF_3$ and $\mathrm{NH_3$ is a Lewis acid-base reaction
 but NOT a Bronsted-Lowry reaction (no proton transfer):
@@ -730,6 +750,8 @@ Mix solutions, filter the precipitate, wash with distilled water, dry.
 
 ### Choosing the Correct Method
 
+<div class="table-wrap">
+
 | Desired salt     | Solubility of salt | Recommended method                    |
 | ---------------- | ------------------ | ------------------------------------- |
 | $\mathrm{NaCl$   | Soluble            | Neutralisation (titration)            |
@@ -737,6 +759,8 @@ Mix solutions, filter the precipitate, wash with distilled water, dry.
 | $\mathrm{ZnSO_4$ | Soluble            | Acid + metal or acid + base           |
 | $\mathrm{PbI_2$  | Insoluble          | Precipitation                         |
 | $\mathrm{CaCO_3$ | Insoluble          | Cannot be prepared by aqueous methods |
+
+</div>
 
 ---
 
@@ -783,6 +807,8 @@ Partially dissociated.
 
 ## Summary Table: Acid-Base Concepts
 
+<div class="table-wrap">
+
 | Concept               | Formula                                                      | Key Point                   |
 | --------------------- | ------------------------------------------------------------ | --------------------------- |
 | pH                    | $\mathrm{pH = -\log[\mathrm{H^+]$                            | Lower = more acidic         |
@@ -791,6 +817,8 @@ Partially dissociated.
 | $pK_a$                | $-\log K_a$                                                  | Lower = stronger acid       |
 | Henderson-Hasselbalch | $\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$ | Buffer pH                   |
 | $K_a \times K_b$      | $= K_w$                                                      | Conjugate pair relationship |
+
+</div>
 
 ---
 

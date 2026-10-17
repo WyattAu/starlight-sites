@@ -24,6 +24,8 @@ Propositions and their combinations using logical connectives.
 
 **Basic connectives:**
 
+<div class="table-wrap">
+
 | Symbol     | Name          | Meaning        |
 | ---------- | ------------- | -------------- |
 | $\neg$     | Negation      | NOT            |
@@ -31,6 +33,8 @@ Propositions and their combinations using logical connectives.
 | $\lor$     | Disjunction   | OR             |
 | $\implies$ | Implication   | IF...THEN      |
 | $\iff$     | Biconditional | IF AND ONLY IF |
+
+</div>
 
 **Truth tables.** The implication $p \implies q$ is false only when $p$ is true and $q$ is false.
 
@@ -97,6 +101,8 @@ variables within each block.
 
 With 3 variables we have $2^3 = 8$ rows.
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $p \implies q$ | $q \implies r$ | $\phi$ |
 | --- | --- | --- | -------------- | -------------- | ------ |
 | T   | T   | T   | T              | T              | T      |
@@ -107,6 +113,8 @@ With 3 variables we have $2^3 = 8$ rows.
 | F   | T   | F   | T              | F              | F      |
 | F   | F   | T   | T              | T              | T      |
 | F   | F   | F   | T              | T              | T      |
+
+</div>
 
 The formula is satisfiable (e.g., $p = F, q = F, r = T$) but not a tautology (e.g.,
 $p = T, q = T, r = F$).
@@ -121,6 +129,8 @@ $(p \implies q) \land (q \implies r) \implies (p \implies r)$ is a tautology.
 
 Extending the table above:
 
+<div class="table-wrap">
+
 | $p$ | $q$ | $r$ | $\phi$ | $p \implies r$ | $\phi \implies (p \implies r)$ |
 | --- | --- | --- | ------ | -------------- | ------------------------------ |
 | T   | T   | T   | T      | T              | T                              |
@@ -131,6 +141,8 @@ Extending the table above:
 | F   | T   | F   | F      | T              | T                              |
 | F   | F   | T   | T      | T              | T                              |
 | F   | F   | F   | T      | T              | T                              |
+
+</div>
 
 The final column is all $T$ Confirming the tautology.
 
@@ -143,6 +155,8 @@ mathematical reasoning. Each connective Has **introduction rules** (how to \_der
 that connective) and **elimination rules** (how to *use* a formula with that connective).
 
 **Rules of inference:**
+
+<div class="table-wrap">
 
 | Rule          | Premises                               | Conclusion  |
 | ------------- | -------------------------------------- | ----------- |
@@ -158,6 +172,8 @@ that connective) and **elimination rules** (how to *use* a formula with that con
 | $\neg$-E      | $A$, $\neg A$                          | $\bot$      |
 | DNE           | $\neg\neg A$                           | $A$         |
 | RAA           | $[\neg A] \vdash \bot$                 | $A$         |
+
+</div>
 
 Square brackets $[A]$ denote an assumption that is **discharged** after the rule is applied.
 

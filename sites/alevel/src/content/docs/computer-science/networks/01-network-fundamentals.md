@@ -48,6 +48,8 @@ A LAN using wireless communication (Wi-Fi, IEEE 802.11 standards).
 
 ### Network Models
 
+<div class="table-wrap">
+
 | Model | Scope            | Ownership           | Example            |
 | ----- | ---------------- | ------------------- | ------------------ |
 | LAN   | Building, campus | Single organisation | Office network     |
@@ -55,6 +57,8 @@ A LAN using wireless communication (Wi-Fi, IEEE 802.11 standards).
 | WLAN  | Building         | Single organisation | Wi-Fi in a café    |
 | PAN   | Personal (room)  | Individual          | Bluetooth devices  |
 | MAN   | City             | Single provider     | City-wide cable TV |
+
+</div>
 
 <hr />
 
@@ -90,6 +94,8 @@ Devices form a circular loop. Data travels in one direction.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property      | Star            | Mesh           | Bus            | Ring           |
 | ------------- | --------------- | -------------- | -------------- | -------------- |
 | Cost          | Low             | High           | Low            | Medium         |
@@ -97,11 +103,15 @@ Devices form a circular loop. Data travels in one direction.
 | Scalability   | High            | Low            | Low            | Low            |
 | Cable failure | Isolates device | Multiple paths | Entire network | Entire network |
 
+</div>
+
 <hr />
 
 ## 3. The OSI Model
 
 ### Seven Layers
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                             | Protocol examples    |
 | ----- | ------------ | ------------------------------------ | -------------------- |
@@ -112,6 +122,8 @@ Devices form a circular loop. Data travels in one direction.
 | 3     | Network      | Routing, logical addressing          | IP, ICMP, ARP        |
 | 2     | Data Link    | Frame transmission, MAC addressing   | Ethernet, Wi-Fi      |
 | 1     | Physical     | Bit transmission over physical media | Cables, signals      |
+
+</div>
 
 ### Data Encapsulation
 
@@ -129,12 +141,16 @@ Physical:     [Bits on wire]
 
 ### TCP/IP Model (4 layers)
 
+<div class="table-wrap">
+
 | TCP/IP Layer   | OSI Layers                         | Protocols            |
 | -------------- | ---------------------------------- | -------------------- |
 | Application    | Application, Presentation, Session | HTTP, FTP, DNS, SMTP |
 | Transport      | Transport                          | TCP, UDP             |
 | Internet       | Network                            | IP, ICMP             |
 | Network Access | Data Link, Physical                | Ethernet, Wi-Fi      |
+
+</div>
 
 <hr />
 
@@ -158,6 +174,8 @@ Physical:     [Bits on wire]
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property    | TCP                       | UDP                    |
 | ----------- | ------------------------- | ---------------------- |
 | Connection  | Connection-oriented       | Connectionless         |
@@ -166,6 +184,8 @@ Physical:     [Bits on wire]
 | Speed       | Slower (overhead)         | Faster                 |
 | Header      | 20+ bytes                 | 8 bytes                |
 | Use cases   | Web, email, file transfer | Streaming, gaming, DNS |
+
+</div>
 
 :::note
 - TCP: HTTP, HTTPS, FTP, SMTP, SSH
@@ -190,12 +210,16 @@ A 32-bit address written as four octets: `192.168.1.1`
 
 **Address classes:**
 
+<div class="table-wrap">
+
 | Class | Range                       | First bits | Default subnet mask |
 | ----- | --------------------------- | ---------- | ------------------- |
 | A     | 1.0.0.0 – 126.255.255.255   | 0          | 255.0.0.0           |
 | B     | 128.0.0.0 – 191.255.255.255 | 10         | 255.255.0.0         |
 | C     | 192.0.0.0 – 223.255.255.255 | 110        | 255.255.255.0       |
 | D     | 224.0.0.0 – 239.255.255.255 | 1110       | Multicast           |
+
+</div>
 
 ### Subnetting
 
@@ -220,11 +244,15 @@ Subnet masks divide an IP address into **network** and **host** portions.
 
 ### Private vs Public IP Addresses
 
+<div class="table-wrap">
+
 | Range                         | Class | Use           |
 | ----------------------------- | ----- | ------------- |
 | 10.0.0.0 – 10.255.255.255     | A     | Private (LAN) |
 | 172.16.0.0 – 172.31.255.255   | B     | Private (LAN) |
 | 192.168.0.0 – 192.168.255.255 | C     | Private (LAN) |
+
+</div>
 
 Private addresses are not routable on the internet. **NAT** (Network Address Translation) translates
 Private addresses to a public address at the router.
@@ -268,6 +296,8 @@ Root DNS servers (.)
 
 ## 7. Common Protocols
 
+<div class="table-wrap">
+
 | Protocol | Layer       | Port  | Purpose                     |
 | -------- | ----------- | ----- | --------------------------- |
 | HTTP     | Application | 80    | Web pages                   |
@@ -280,6 +310,8 @@ Root DNS servers (.)
 | DHCP     | Application | 67/68 | Auto-assign IP addresses    |
 | SSH      | Application | 22    | Secure remote access        |
 | Telnet   | Application | 23    | Remote access (unencrypted) |
+
+</div>
 
 <hr />
 
@@ -500,6 +532,8 @@ Operate?
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Property   | Switch                             | Router                                  |
 | ---------- | ---------------------------------- | --------------------------------------- |
 | OSI layer  | Layer 2 (Data Link)                | Layer 3 (Network)                       |
@@ -508,6 +542,8 @@ Operate?
 | Forwarding | Forwards frames based on MAC table | Forwards packets based on routing table |
 | Broadcast  | Forwards broadcasts within LAN     | Blocks broadcasts between networks      |
 | Use case   | Building/campus network            | Internet connectivity                   |
+
+</div>
 
 A switch operates at Layer 2, forwarding frames within a single network segment. A router operates
 at Layer 3, making decisions about which network to forward packets to, enabling inter-network
@@ -589,6 +625,8 @@ Different network addresses, different subnets.
 
 ### SSH (Secure Shell)
 
+<div class="table-wrap">
+
 | Property       | Value                                                             |
 | -------------- | ----------------------------------------------------------------- |
 | Port           | 22                                                                |
@@ -597,11 +635,15 @@ Different network addresses, different subnets.
 | Authentication | Password or public-key                                            |
 | Purpose        | Secure remote shell access, file transfer (SCP/SFTP)              |
 
+</div>
+
 SSH establishes an encrypted tunnel before any data is transmitted. The key exchange uses
 Diffie-Hellman to establish a shared secret without transmitting it. All subsequent data is
 Encrypted with this shared secret using AES.
 
 ### FTP (File Transfer Protocol)
+
+<div class="table-wrap">
 
 | Property   | Value                                  |
 | ---------- | -------------------------------------- |
@@ -610,11 +652,15 @@ Encrypted with this shared secret using AES.
 | Encryption | None (SFTP adds encryption over SSH)   |
 | Purpose    | Upload and download files              |
 
+</div>
+
 FTP uses two separate connections: a control connection (commands) and a data connection (file
 Content). In **active mode**, the server initiates the data connection back to the client,
 Problematic through firewalls. In **passive mode**, the client initiates both connections.
 
 ### HTTP vs HTTPS
+
+<div class="table-wrap">
 
 | Property    | HTTP         | HTTPS              |
 | ----------- | ------------ | ------------------ |
@@ -623,10 +669,14 @@ Problematic through firewalls. In **passive mode**, the client initiates both co
 | Security    | Plaintext    | Encrypted          |
 | Certificate | Not required | Required (from CA) |
 
+</div>
+
 HTTP sends all data (including passwords) in plaintext. HTTPS adds a TLS layer: the server presents
 A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as "not secure."
 
 ### SMTP (Simple Mail Transfer Protocol)
+
+<div class="table-wrap">
 
 | Property   | Value                              |
 | ---------- | ---------------------------------- |
@@ -635,12 +685,16 @@ A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as 
 | Encryption | Optional (STARTTLS)                |
 | Purpose    | Sending email between mail servers |
 
+</div>
+
 SMTP is a push protocol, the sender pushes the message to the receiver's mail server. For
 Receiving, POP3 or IMAP is used.
 
 <hr />
 
 ## 10. Common Pitfalls
+
+<div class="table-wrap">
 
 | Pitfall                                     | Explanation                                                 | Correct approach                                                |
 | ------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
@@ -650,6 +704,8 @@ Receiving, POP3 or IMAP is used.
 | Assuming DNS uses TCP                       | DNS primarily uses UDP port 53                              | TCP is only used for zone transfers or responses over 512 bytes |
 | Confusing SSH with Telnet                   | Both provide remote access, but only SSH encrypts           | Never use Telnet on untrusted networks                          |
 | Off-by-one in subnet boundaries             | Including the network or broadcast address as a usable host | First usable = network + 1, last usable = broadcast - 1         |
+
+</div>
 
 <hr />
 

@@ -100,11 +100,15 @@ Uniqueness follows from the polarization identity. $\blacksquare$
 
 ### 2.6 Key Relationships
 
+<div class="table-wrap">
+
 | Structure        | Axioms added                           | Completeness? |
 | ---------------- | -------------------------------------- | ------------- |
 | Inner product sp | Vector space + inner product           | Not required  |
 | Hilbert space    | Inner product space + completeness     | Yes           |
 | Banach space     | Normed vector space + completeness     | Norm may not come from inner product |
+
+</div>
 
 Every Hilbert space is a Banach space, but the converse fails: $L^p$ for $p \neq 2$ is Banach but
 not Hilbert. The parallelogram law characterises normed spaces whose norm comes from an inner

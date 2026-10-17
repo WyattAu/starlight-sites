@@ -109,6 +109,8 @@ Use [N4950 §9.5.2].
 C++ chose **stackless coroutines**, the coroutine frame is a single heap-allocated block, not a
 Separate stack. This is a deliberate design decision with important trade-offs.
 
+<div class="table-wrap">
+
 | Property                     | Stackless (C++)                                 | Stackful (e.g., Boost.Context, goroutines)         |
 | :--------------------------- | :---------------------------------------------- | :------------------------------------------------- |
 | Frame size                   | Fixed at compile time (known locals)            | Dynamic (grows/shrinks like a regular stack)       |
@@ -118,6 +120,8 @@ Separate stack. This is a deliberate design decision with important trade-offs.
 | Implementation cost          | Compiler transforms function into state machine | Context switching (save/restore registers + stack) |
 | Migrating between OS threads | Must resume on same or specified thread         | Can freely migrate (stack is self-contained)       |
 | Composability                | Requires explicit chaining of coroutines        | composable via call stack                          |
+
+</div>
 
 The key limitation of stackless coroutines is that **you cannot suspend in a function called by the
 Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`. It Is
@@ -510,6 +514,8 @@ Responsible for calling `destroy()` when the coroutine is no longer needed.
 
 Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 
+<div class="table-wrap">
+
 | Member                   | Description                                               |
 | :----------------------- | :-------------------------------------------------------- |
 | `handle.done()`          | Returns `true` if the coroutine reached its final suspend |
@@ -519,6 +525,8 @@ Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 | `handle.from_promise(p)` | Constructs a handle from a promise reference              |
 | `coroutine_handle<>()`   | Default-constructed handle (null)                         |
 | `handle.operator bool()` | `true` if the handle refers to a coroutine frame          |
+
+</div>
 
 ### Handle Nullability and Validity
 

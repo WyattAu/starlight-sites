@@ -254,12 +254,16 @@ $\mathrm{Course} \twoheadrightarrow \mathrm{Textbook}$.
 
 **Sample data:**
 
+<div class="table-wrap">
+
 | Course | Instructor | Textbook         |
 | ------ | ---------- | ---------------- |
 | CS101  | Smith      | DB Systems       |
 | CS101  | Lee        | DB Systems       |
 | CS101  | Smith      | Algorithm Design |
 | CS101  | Lee        | Algorithm Design |
+
+</div>
 
 The redundancy is clear: each instructor-textbook pair is repeated for each course.
 

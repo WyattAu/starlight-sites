@@ -278,6 +278,8 @@ $$
 
 ### Factors Affecting Entropy
 
+<div class="table-wrap">
+
 | Factor                                         | Effect on $S$ |
 | ---------------------------------------------- | ------------- |
 | More particles (gaseous products)              | Increase      |
@@ -285,6 +287,8 @@ $$
 | Change from solid to liquid to gas             | Increase      |
 | Dissolution of a solid (if ions are dispersed) | Increase      |
 | Fewer moles of gas                             | Decrease      |
+
+</div>
 
 ### Standard Entropy Change ($\Delta S^\circ$)
 
@@ -328,11 +332,15 @@ $$
 \Delta G = \Delta H - T\Delta S
 $$
 
+<div class="table-wrap">
+
 | $\Delta G$       | Spontaneity                                      |
 | ---------------- | ------------------------------------------------ |
 | $\Delta G \lt 0$ | Spontaneous (thermodynamically favourable)       |
 | $\Delta G = 0$   | At equilibrium                                   |
 | $\Delta G \gt 0$ | Non-spontaneous (thermodynamically unfavourable) |
+
+</div>
 
 This is valid at constant temperature and pressure (standard laboratory conditions).
 
@@ -358,12 +366,16 @@ When $\Delta G^\circ \gt 0$: $K \lt 1$ (reactants favoured).
 
 ### Temperature Dependence of Spontaneity
 
+<div class="table-wrap">
+
 | $\Delta H$        | $\Delta S$              | Spontaneity                         |
 | ----------------- | ----------------------- | ----------------------------------- |
 | $-$ (exothermic)  | $+$ (entropy increases) | Spontaneous at all temperatures     |
 | $-$ (exothermic)  | $-$ (entropy decreases) | Spontaneous at low temperatures     |
 | $+$ (endothermic) | $+$ (entropy increases) | Spontaneous at high temperatures    |
 | $+$ (endothermic) | $-$ (entropy decreases) | Non-spontaneous at all temperatures |
+
+</div>
 
 **Worked Example.** For the thermal decomposition of $\mathrm{CaCO}_3$:
 
@@ -485,12 +497,16 @@ This value is approximately constant for all strong acid-strong base reactions b
 equation is always the same. Weak acid-strong base or strong acid-weak base neutralisations have
 less exothermic values because some energy is consumed in dissociating the weak acid or weak base.
 
+<div class="table-wrap">
+
 | Reaction type             | $\Delta H_\mathrm{neut}$ ($\mathrm{kJ/mol}$)                | Explanation                           |
 | ------------------------- | ----------------------------------------------------------- | ------------------------------------- |
 | Strong acid + strong base | $-57.9$                                                     | Full ionisation of both               |
 | Weak acid + strong base   | $-56.1$ (e.g. $\mathrm{CH}_3\mathrm{COOH} + \mathrm{NaOH}$) | Energy needed to dissociate weak acid |
 | Strong acid + weak base   | $-57.3$ (e.g. $\mathrm{HCl} + \mathrm{NH}_3$)               | Energy needed to dissociate weak base |
 | Weak acid + weak base     | Variable                                                    | Depends on relative strengths         |
+
+</div>
 
 ### Worked Example: Hess's Law with Indirect Routes
 
@@ -607,16 +623,22 @@ highly charged (e.g. $\mathrm{I}^-$), the electron cloud of the anion is distort
 towards the cation. This introduces covalent character, making the experimental lattice enthalpy
 less exothermic than the theoretical (purely ionic) value.
 
+<div class="table-wrap">
+
 | Cation                                  | Anion                      | Covalent character | Explanation          |
 | --------------------------------------- | -------------------------- | ------------------ | -------------------- |
 | $\mathrm{Na}^+$ (large, low charge)     | $\mathrm{Cl}^-$ (moderate) | Low                | Minimal polarisation |
 | $\mathrm{Al}^{3+}$ (small, high charge) | $\mathrm{I}^-$ (large)     | High               | Strong polarisation  |
+
+</div>
 
 ### Worked Example: Born-Haber Cycle for $\mathrm{CaCl}_2$
 
 Construct a Born-Haber cycle for $\mathrm{CaCl}_2(s)$ and calculate the lattice enthalpy.
 
 Steps (values are illustrative):
+
+<div class="table-wrap">
 
 | Step | Description                                                                     | $\Delta H$ ($\mathrm{kJ/mol}$) |
 | ---- | ------------------------------------------------------------------------------- | ------------------------------ |
@@ -626,6 +648,8 @@ Steps (values are illustrative):
 | 4    | $\mathrm{Cl}_2(g) \to 2\mathrm{Cl}(g)$ (atomisation)                            | $+244$                         |
 | 5    | $2\mathrm{Cl}(g) + 2e^- \to 2\mathrm{Cl}^-(g)$ (1st EA $\times 2$)              | $-728$                         |
 | 6    | $\mathrm{Ca}(s) + \mathrm{Cl}_2(g) \to \mathrm{CaCl}_2(s)$ ($\Delta H_f^\circ$) | $-796$                         |
+
+</div>
 
 Lattice enthalpy (formation):
 

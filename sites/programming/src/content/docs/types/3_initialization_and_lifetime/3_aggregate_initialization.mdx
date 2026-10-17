@@ -69,6 +69,8 @@ C c\{1, 2, 3\};  // C++20: initializes A::a, B::b, then C::c
 
 ### Aggregate Evolution Summary
 
+<div class="table-wrap">
+
 | Feature                                    | C++11/14 | C++17        | C++20        |
 | :----------------------------------------- | :------- | :----------- | :----------- |
 | No user-declared constructors              | Required | Defaulted OK | Defaulted OK |
@@ -77,6 +79,8 @@ C c\{1, 2, 3\};  // C++20: initializes A::a, B::b, then C::c
 | No virtual functions                       | Required | Required     | Required     |
 | Designated initializers                    | No       | No           | Yes          |
 | Aggregate with default member initializers | Yes      | Yes          | Yes          |
+
+</div>
 
 ## Aggregate Initialization Syntax
 

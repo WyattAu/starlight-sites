@@ -95,12 +95,16 @@ Machine learning is the study of algorithms that improve through experience. A m
 
 ### Types of Machine Learning
 
+<div class="table-wrap">
+
 | Type | Description | Examples |
 | ------ | ------------- | ---------- |
 | Supervised Learning | Learn from labelled data | Classification, regression |
 | Unsupervised Learning | Find structure in unlabelled data | Clustering, dimensionality reduction |
 | Semi-Supervised Learning | Learn from partially labelled data | Self-training, co-training |
 | Reinforcement Learning | Learn through interaction with an environment | Game playing, robotics |
+
+</div>
 
 ### The Machine Learning Workflow
 
@@ -280,6 +284,8 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 
 **Classification metrics:**
 
+<div class="table-wrap">
+
 | Metric | Description | When to Use |
 | -------- | ------------- | ------------- |
 | Accuracy | Fraction of correct predictions | Balanced classes |
@@ -289,7 +295,11 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 | AUC-ROC | Area under ROC curve | Ranking quality |
 | Log Loss | Probabilistic classification quality | Probabilistic outputs |
 
+</div>
+
 **Regression metrics:**
+
+<div class="table-wrap">
 
 | Metric | Description |
 | -------- | ------------- |
@@ -297,6 +307,8 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 | RMSE | Root mean squared error; same units as target |
 | MAE | Mean absolute error; robust to outliers |
 | R² | Proportion of variance explained |
+
+</div>
 
 ### Validation Strategies
 
@@ -367,6 +379,8 @@ Computer vision enables machines to interpret visual information.
 
 ### ML Frameworks
 
+<div class="table-wrap">
+
 | Framework | Language | Strengths |
 | ----------- | ---------- | ----------- |
 | PyTorch | Python | Dynamic computation graph, research-friendly |
@@ -375,6 +389,8 @@ Computer vision enables machines to interpret visual information.
 | scikit-learn | Python | Classical ML algorithms |
 | XGBoost | Python | Gradient boosting for tabular data |
 | Hugging Face | Python | Transformers and NLP models |
+
+</div>
 
 ### Data Preparation
 

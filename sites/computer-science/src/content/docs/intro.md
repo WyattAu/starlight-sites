@@ -126,6 +126,8 @@ across days (spaced practice) is more effective than cramming.
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term | Definition |
 | ------ | ------------ |
 | Algorithm | A finite, well-defined sequence of steps that solves a problem. |
@@ -134,6 +136,8 @@ across days (spaced practice) is more effective than cramming.
 | Decidability | Whether a Turing machine halts on all inputs for a given problem. |
 | Consistency model | A contract specifying what values a read may return in a distributed store. |
 | Invariant | A property that holds throughout execution and is maintained by each operation. |
+
+</div>
 
 ## See Also
 

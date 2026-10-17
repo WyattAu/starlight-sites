@@ -257,6 +257,8 @@ kinetic Energy $E_k = \frac{1}{2}mv_e^2$ scales with mass.
 
 For a satellite of mass $m$ in a circular orbit of radius $r$ around mass $M$:
 
+<div class="table-wrap">
+
 | Quantity                 | Expression                       |
 | ------------------------ | -------------------------------- |
 | Orbital speed            | $v = \sqrt{GM/r}$                |
@@ -265,6 +267,8 @@ For a satellite of mass $m$ in a circular orbit of radius $r$ around mass $M$:
 | Kinetic energy           | $E_k = GMm/(2r)$                 |
 | Potential energy         | $E_p = -GMm/r$                   |
 | Total energy             | $E_{\mathrm{total}} = -GMm/(2r)$ |
+
+</div>
 
 **Proof of energy relations.** From $\frac{GMm}{r^2} = \frac{mv^2}{r}$: $v^2 = GM/r$.
 
@@ -420,6 +424,8 @@ circular. GPS satellites are Neither, they use medium Earth orbits at 20,200 km 
 
 ## 8. Comparison with Electric Fields
 
+<div class="table-wrap">
+
 | Property             | Gravitational                | Electric                                    |
 | -------------------- | ---------------------------- | ------------------------------------------- |
 | Source property      | Mass $M$                     | Charge $Q$                                  |
@@ -429,6 +435,8 @@ circular. GPS satellites are Neither, they use medium Earth orbits at 20,200 km 
 | Attractive/repulsive | Always attractive            | Both possible                               |
 | Screening            | Impossible                   | Possible (Faraday cage)                     |
 | Relative strength    | $\sim 10^{-36}$              | $\sim 1$                                    |
+
+</div>
 
 Both fields obey inverse square force laws, possess $1/r$ potentials, and satisfy a Gauss's law. The
 Structural parallel is exact, differing only in the source property (mass vs. Charge) and the

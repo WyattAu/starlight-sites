@@ -48,6 +48,8 @@ Confuse them.
 Every IP router maintains a routing table (also called the Routing Information Base, or RIB). Each
 Entry contains:
 
+<div class="table-wrap">
+
 | Field       | Description                                                                       |
 | ----------- | --------------------------------------------------------------------------------- |
 | Destination | The network or host address being routed to (prefix)                              |
@@ -56,6 +58,8 @@ Entry contains:
 | Interface   | The outgoing interface to reach the next hop                                      |
 | Metric      | The cost of the route (lower is preferred unless administrative distance differs) |
 | Protocol    | How the route was learned (connected, static, OSPF, BGP, etc.)                    |
+
+</div>
 
 On Cisco IOS, view the routing table with `show ip route`:
 
@@ -95,6 +99,8 @@ The trustworthiness of a route source. When the same prefix is learned from mult
 Route with the lowest AD is installed in the routing table. AD 0 is most trusted, 255 is
 Unreachable.
 
+<div class="table-wrap">
+
 | Source           | Administrative Distance |
 | ---------------- | ----------------------- |
 | Connected        | 0                       |
@@ -109,6 +115,8 @@ Unreachable.
 | EIGRP (external) | 170                     |
 | iBGP             | 200                     |
 | Unknown          | 255                     |
+
+</div>
 
 :::note
 Implementations under different names (route preference, distance, or trust value). The numeric
@@ -178,6 +186,8 @@ If the primary link to 10.0.0.1 goes down, the floating static route via 10.0.0.
 
 ### When to Use Static vs Dynamic Routing
 
+<div class="table-wrap">
+
 | Factor              | Static Routes                       | Dynamic Routing                          |
 | ------------------- | ----------------------------------- | ---------------------------------------- |
 | Network size        | Small, simple                       | Large, complex                           |
@@ -188,6 +198,8 @@ If the primary link to 10.0.0.1 goes down, the floating static route via 10.0.0.
 | Predictability      | Full control                        | Protocol-dependent                       |
 | Scalability         | Poor                                | Good                                     |
 | Typical use case    | Stub networks, default routes, DMZs | Enterprise backbones, ISP core, Internet |
+
+</div>
 
 ## Interior Gateway Protocols Overview
 
@@ -217,12 +229,16 @@ IGPs fall into two algorithmic categories:
 
 ### Protocol Comparison
 
+<div class="table-wrap">
+
 | Protocol | Type            | Metric              | Convergence | Scalability | Complexity |
 | -------- | --------------- | ------------------- | ----------- | ----------- | ---------- |
 | RIP      | Distance vector | Hop count           | Slow        | Small       | Low        |
 | EIGRP    | Hybrid          | Composite           | Fast        | Large       | Medium     |
 | OSPF     | Link-state      | Cost (bandwidth)    | Fast        | Very large  | Medium     |
 | IS-IS    | Link-state      | Cost (configurable) | Fast        | Very large  | High       |
+
+</div>
 
 ## RIP (Routing Information Protocol)
 
@@ -231,6 +247,8 @@ Networks. For anything beyond a lab or a tiny office, use OSPF instead.
 
 ### RIPv1 vs RIPv2
 
+<div class="table-wrap">
+
 | Feature        | RIPv1                    | RIPv2                     |
 | -------------- | ------------------------ | ------------------------- |
 | Transport      | UDP port 520             | UDP port 520              |
@@ -238,6 +256,8 @@ Networks. For anything beyond a lab or a tiny office, use OSPF instead.
 | Authentication | None                     | Plain text or MD5         |
 | Updates        | Broadcast                | Multicast (224.0.0.9)     |
 | Next-hop       | Not supported            | Supported                 |
+
+</div>
 
 RIPv1 is obsolete. RIPv2 is still used in some legacy environments but should not be deployed in new
 Networks.
@@ -269,12 +289,16 @@ For the periodic update timer.
 
 ### Timers
 
+<div class="table-wrap">
+
 | Timer           | Default | Purpose                                            |
 | --------------- | ------- | -------------------------------------------------- |
 | Update timer    | 30s     | Interval between periodic routing updates          |
 | Invalid timer   | 180s    | Time after which a route is marked invalid         |
 | Hold-down timer | 180s    | Time a route is held in a "possibly down" state    |
 | Flush timer     | 240s    | Time after which a route is removed from the table |
+
+</div>
 
 ### RIP Configuration
 
@@ -345,12 +369,16 @@ Areas small, limit the number of ABRs, and avoid transit areas.
 OSPF cost is calculated as `reference bandwidth / interface bandwidth`. The default reference
 Bandwidth on Cisco routers is 100 Mbps (10^8 bps).
 
+<div class="table-wrap">
+
 | Interface Speed | Default OSPF Cost |
 | --------------- | ----------------- |
 | 10 Mbps         | 10                |
 | 100 Mbps        | 1                 |
 | 1 Gbps          | 1                 |
 | 10 Gbps         | 1                 |
+
+</div>
 
 Since modern networks commonly use links faster than 100 Mbps, you should adjust the reference
 Bandwidth:
@@ -362,6 +390,8 @@ router ospf 1
 
 ### LSA Types
 
+<div class="table-wrap">
+
 | LSA Type | Name                  | Generated By | Scope      | Description                           |
 | -------- | --------------------- | ------------ | ---------- | ------------------------------------- |
 | 1        | Router LSA            | Every router | Area       | Lists router's links and costs        |
@@ -370,6 +400,8 @@ router ospf 1
 | 4        | Summary LSA (ASBR)    | ABR          | Inter-area | Location of an ASBR                   |
 | 5        | External LSA (Type 1) | ASBR         | Entire AS  | External routes from another protocol |
 | 7        | NSSA External LSA     | ASBR in NSSA | NSSA       | External routes in an NSSA            |
+
+</div>
 
 ### DR/BDR Election
 
@@ -459,6 +491,8 @@ IS-IS operates in two levels:
 
 ### IS-IS vs OSPF
 
+<div class="table-wrap">
+
 | Feature            | IS-IS                            | OSPF                       |
 | ------------------ | -------------------------------- | -------------------------- |
 | Protocol           | TLV-based, extensible            | Fixed LSA types            |
@@ -470,6 +504,8 @@ IS-IS operates in two levels:
 | Updates            | TLV-encoded LSPs                 | LSA types 1-7              |
 | IPv6 support       | Same protocol, new TLVs          | OSPFv3 (separate protocol) |
 | Typical deployment | Service provider backbones       | Enterprise networks        |
+
+</div>
 
 ### IS-IS TLVs
 
@@ -520,12 +556,16 @@ Metric = 256 * [(K1 * BW_min) + (K2 * BW_min / (256 - Load)) + (K3 * Delay_sum)]
 
 By default, only K1 (bandwidth) and K3 (delay) are enabled (K1=1, K2=0, K3=1, K4=0, K5=0).
 
+<div class="table-wrap">
+
 | Component   | Description                                                      |
 | ----------- | ---------------------------------------------------------------- |
 | Bandwidth   | Minimum bandwidth along the path (in Kbps)                       |
 | Delay       | Sum of interface delays along the path (in tens of microseconds) |
 | Reliability | Reliability of the path (0-255, where 255 is 100%)               |
 | Load        | Load on the path (0-255, where 255 is fully loaded)              |
+
+</div>
 
 :::note
 Traffic, causing the metric to change constantly and leading to route flapping and instability.
@@ -574,6 +614,8 @@ A metric-based shortest path.
 Single administrative domain with a unified routing policy. Each AS is identified by an **Autonomous
 System Number** (ASN).
 
+<div class="table-wrap">
+
 | Range              | Type     | Notes                                          |
 | ------------------ | -------- | ---------------------------------------------- |
 | 1 - 64511          | Public   | Assigned by regional registries (RIRs)         |
@@ -582,10 +624,14 @@ System Number** (ASN).
 | 65536 - 4294967294 | Public   | 32-bit ASNs (4-byte AS numbers)                |
 | 4294967295         | Reserved |                                                |
 
+</div>
+
 Major cloud providers' public ASNs: AWS (16509, 14618), Google (15169, 396982), Azure (8075, 12076),
 Cloudflare (13335), Netflix (2906).
 
 ### eBGP vs iBGP
+
+<div class="table-wrap">
 
 | Attribute     | eBGP (External BGP)                      | iBGP (Internal BGP)                      |
 | ------------- | ---------------------------------------- | ---------------------------------------- |
@@ -595,6 +641,8 @@ Cloudflare (13335), Netflix (2906).
 | TTL           | 1 (by default)                           | 255 (by default)                         |
 | Full mesh     | Not required                             | Required (unless using route reflectors) |
 | Route learned | Can be advertised to any BGP peer        | Not advertised to other iBGP peers       |
+
+</div>
 
 ### BGP Sessions
 
@@ -630,6 +678,8 @@ MP-BGP, NLRI can carry IPv6 prefixes, VPNv4/VPNv6 prefixes, MPLS labels, and mor
 Every BGP route carries a set of path attributes that influence the BGP decision process. These are
 the core of BGP's policy-based routing.
 
+<div class="table-wrap">
+
 | Attribute             | Code | Type                     | Description                                                         |
 | --------------------- | ---- | ------------------------ | ------------------------------------------------------------------- |
 | ORIGIN                | 1    | Well-known mandatory     | How the route was originated: IGP, EGP, or incomplete               |
@@ -644,6 +694,8 @@ the core of BGP's policy-based routing.
 | CLUSTER_LIST          | 10   | Optional non-transitive  | List of route reflector cluster IDs (loop prevention)               |
 | MP_REACH_NLRI         | 14   | Optional non-transitive  | Multiprotocol extensions for IPv6, VPNv4, etc.                      |
 | MP_UNREACH_NLRI       | 15   | Optional non-transitive  | Withdrawal of multiprotocol NLRI                                    |
+
+</div>
 
 **ORIGIN** values:
 
@@ -888,6 +940,8 @@ Permits everything else.
 
 Common regex patterns:
 
+<div class="table-wrap">
+
 | Pattern   | Meaning                         |
 | --------- | ------------------------------- |
 | `^65001$` | Originated by AS 65001          |
@@ -896,6 +950,8 @@ Common regex patterns:
 | `_65001$` | AS 65001 is the origin AS       |
 | `.*`      | Match any AS_PATH               |
 | `[0-9]+`  | One or more digits              |
+
+</div>
 
 ### Community Filtering
 
@@ -917,6 +973,8 @@ Protocol-specific differences.
 
 ### Key Differences from IPv4
 
+<div class="table-wrap">
+
 | Aspect         | IPv4                           | IPv6                                |
 | -------------- | ------------------------------ | ----------------------------------- |
 | Address size   | 32 bits                        | 128 bits                            |
@@ -925,6 +983,8 @@ Protocol-specific differences.
 | RIP            | RIPv2 (multicast 224.0.0.9)    | RIPng (multicast FF02::9)           |
 | BGP            | IPv4 unicast AFI               | IPv6 unicast via MP-BGP             |
 | Source address | Interface IP                   | Link-local for protocol traffic     |
+
+</div>
 
 ### MP-BGP (Multiprotocol BGP)
 

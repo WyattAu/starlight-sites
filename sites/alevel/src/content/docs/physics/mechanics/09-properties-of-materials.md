@@ -125,6 +125,8 @@ under tensile loading. It has units of Pa (same as stress, since strain is dimen
 
 ### Typical Values
 
+<div class="table-wrap">
+
 | Material     | Young's Modulus (GPa) | Type            |
 | ------------ | --------------------- | --------------- |
 | Rubber       | 0.01–0.1              | Polymer         |
@@ -135,6 +137,8 @@ under tensile loading. It has units of Pa (same as stress, since strain is dimen
 | Copper       | 130                   | Metal           |
 | Steel        | 200                   | Metal           |
 | Diamond      | 1200                  | Ceramic/Crystal |
+
+</div>
 
 :::caution
 **strong**. Glass is stiffer than rubber ($E \approx 70$ GPa vs $0.01$ GPa) but rubber is
@@ -314,6 +318,8 @@ which must be found by Integration or by counting squares.
 
 ### Metals
 
+<div class="table-wrap">
+
 | Property        | Steel               | Copper             | Aluminium            |
 | --------------- | ------------------- | ------------------ | -------------------- |
 | $E$ (GPa)       | 200                 | 130                | 70                   |
@@ -323,10 +329,14 @@ which must be found by Integration or by counting squares.
 | Behaviour       | Ductile, strong     | Ductile, malleable | Ductile, lightweight |
 | Applications    | Construction, tools | Wiring, plumbing   | Aircraft, packaging  |
 
+</div>
+
 Metals are ductile because their crystalline structure allows dislocations (defects in the crystal
 Lattice) to move under stress. This is the basis of plastic deformation in metals.
 
 ### Polymers
+
+<div class="table-wrap">
 
 | Property     | Polyethylene (HDPE)     | Rubber                    |
 | ------------ | ----------------------- | ------------------------- |
@@ -336,11 +346,15 @@ Lattice) to move under stress. This is the basis of plastic deformation in metal
 | Behaviour    | Thermoplastic, stiffens | Elastomer, highly elastic |
 | Applications | Bottles, pipes          | Tyres, elastic bands      |
 
+</div>
+
 Polymers consist of long-chain molecules. In rubber, the chains are tangled and uncoiled when
 Stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
 The chains can slide past each other, leading to plastic deformation.
 
 ### Ceramics
+
+<div class="table-wrap">
 
 | Property                   | Glass           | Concrete               |
 | -------------------------- | --------------- | ---------------------- |
@@ -349,6 +363,8 @@ The chains can slide past each other, leading to plastic deformation.
 | Tensile strength (MPa)     | 30–90           | 3–5                    |
 | Behaviour                  | Brittle         | Brittle (in tension)   |
 | Applications               | Windows, optics | Buildings, foundations |
+
+</div>
 
 Ceramics are **strong in compression but weak in tension**. This is because their ionic/covalent
 Bonding is very strong but cracks propagate under tensile stress. Concrete is Reinforced with steel
@@ -373,6 +389,8 @@ Examples:
 
 ## 7. Key Definitions Summary
 
+<div class="table-wrap">
+
 | Term                          | Definition                                                                                                  |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **Young's modulus**           | The ratio of tensile stress to tensile strain within the limit of proportionality: $E = \sigma/\varepsilon$ |
@@ -385,6 +403,8 @@ Examples:
 | **Stiffness**                 | Resistance to elastic deformation; measured by Young's modulus                                              |
 | **Toughness**                 | The energy absorbed before fracture; area under the full stress-strain curve                                |
 | **Hardness**                  | Resistance to surface indentation or scratching                                                             |
+
+</div>
 
 ## 8. Loading, Unloading, and Hysteresis
 

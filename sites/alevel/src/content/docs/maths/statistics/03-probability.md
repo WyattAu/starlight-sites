@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                             |
 | ---------- | ---------- | ------------------------------------------------- |
 | AQA        | Paper 1, 2 | Basic probability in P1; conditional, Bayes in P2 |
 | Edexcel    | P1, P2     | Similar                                           |
 | OCR (A)    | Paper 1, 2 | Includes Venn diagrams and tree diagrams          |
 | CIE (9709) | P1, P6     | Probability in P1; conditional in P6              |
+
+</div>
 
 :::note
 and draw a diagram before calculating.
@@ -349,6 +353,8 @@ Chemistry.
 The region for "Maths only" is: $18 - 8 - 6 + 5 = 9$ (subtract overlaps, add back the triple
 Overlap).
 
+<div class="table-wrap">
+
 | Region               | Description                | Calculation      | Count |
 | -------------------- | -------------------------- | ---------------- | ----- |
 | $A \cap B \cap C$    | All three                  | Given            | 5     |
@@ -359,6 +365,8 @@ Overlap).
 | $B \cap A' \cap C'$  | Physics only               | $15 - 3 - 2 - 5$ | 5     |
 | $C \cap A' \cap B'$  | Chemistry only             | $12 - 1 - 2 - 5$ | 4     |
 | $A' \cap B' \cap C'$ | None                       | $40 - 29$        | 11    |
+
+</div>
 
 **Check:** $5 + 3 + 1 + 2 + 9 + 5 + 4 + 11 = 40$. $\checkmark$
 
@@ -506,9 +514,13 @@ $$
 
 A biased die has PMF:
 
+<div class="table-wrap">
+
 | $x$    | 1      | 2     | 3     | 4     | 5     | 6      |
 | ------ | ------ | ----- | ----- | ----- | ----- | ------ |
 | $p(x)$ | $1/12$ | $1/6$ | $1/4$ | $1/4$ | $1/6$ | $1/12$ |
+
+</div>
 
 **Check:**
 $1/12 + 1/6 + 1/4 + 1/4 + 1/6 + 1/12 = 1/12 + 2/12 + 3/12 + 3/12 + 2/12 + 1/12 = 12/12 = 1$.

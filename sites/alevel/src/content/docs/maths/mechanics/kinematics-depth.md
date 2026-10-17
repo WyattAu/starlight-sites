@@ -88,6 +88,8 @@ $$
 
 The key skill is identifying which variable is **unknown** and which is **not needed**:
 
+<div class="table-wrap">
+
 | Unknown              | Do not use                  |
 | -------------------- | --------------------------- |
 | displacement $s$     | $v^2 = u^2 + 2as$           |
@@ -95,6 +97,8 @@ The key skill is identifying which variable is **unknown** and which is **not ne
 | time $t$             | $v^2 = u^2 + 2as$           |
 | acceleration $a$     | $s = \tfrac{1}{2}(u+v)t$    |
 | initial velocity $u$ | $s = vt - \tfrac{1}{2}at^2$ |
+
+</div>
 
 ### 1.3 Worked example: multi-stage motion
 

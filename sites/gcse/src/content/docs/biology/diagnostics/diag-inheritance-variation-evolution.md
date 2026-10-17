@@ -45,10 +45,14 @@ the same characteristic. Humans have 23 pairs of chromosomes (46 total), contain
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | F   | f   |
 | ----- | --- | --- |
 | **f** | Ff  | ff  |
 | **f** | Ff  | ff  |
+
+</div>
 
 Genotypes: 50% Ff (free earlobes), 50% ff (attached earlobes). Probability of free earlobes
 $= 50\%$.

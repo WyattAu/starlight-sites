@@ -327,6 +327,8 @@ The squeeze theorem extends this intuition: if a function is trapped between two
 
 The following table summarizes the key counterexamples in the theory of continuity:
 
+<div class="table-wrap">
+
 | Function | Domain | Continuous? | Uniformly Continuous? | Lesson |
 | ---------- | -------- | ------------- | ---------------------- | -------- |
 | $f(x) = 1/x$ | $(0, 1)$ | Yes | No | Unbounded slope near boundary |
@@ -335,15 +337,21 @@ The following table summarizes the key counterexamples in the theory of continui
 | $f(x) = \sin(1/x)$ | $(0, 1]$ | Yes | Yes | Oscillation is bounded; Heine-Cantor applies on $[\delta, 1]$ |
 | $f(x) = x\sin(1/x)$ | $[0, 1]$ | Yes | Yes | Extension to $0$ is continuous; compact domain |
 
+</div>
+
 **The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (in standard practice a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
 
 **Three counterexamples that break the intuition.**
+
+<div class="table-wrap">
 
 | Function | Continuous at | Differentiable at | What it shows |
 | -------- | ------------- | ----------------- | ------------- |
 | $D(x) = \mathbf{1}_{x \in \mathbb{Q}}$ | **nowhere** | nowhere | "Everywhere" is achievable in the wrong direction |
 | $t(x) = 1/q$ for $x = p/q$, $0$ for irrational | every irrational | nowhere | Continuity is a *pointwise* property and can be wildly non-uniform |
 | $W(x) = \sum a^n \cos(b^n \pi x)$ | **everywhere** | **nowhere** | Continuity does not imply differentiability |
+
+</div>
 
 Thomae's function deserves a closer look, because the proof is instructive.
 Given $\varepsilon > 0$ and an irrational $x_0$, only finitely many rationals

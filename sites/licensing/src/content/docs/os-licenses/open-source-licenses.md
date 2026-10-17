@@ -84,6 +84,8 @@ licence terms, ensuring software remains free.
 
 ## Comparing Licences
 
+<div class="table-wrap">
+
 | Feature | MIT | Apache 2.0 | BSD 3 | GPL | LGPL | AGPL |
 |---------|-----|------------|-------|-----|------|------|
 | Commercial use | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -94,6 +96,8 @@ licence terms, ensuring software remains free.
 | Same licence | No | No | No | Yes | Yes* | Yes |
 | Source code | No | No | No | Yes | Yes | Yes |
 | Network use | No | No | No | No | No | Yes |
+
+</div>
 
 *LGPL: Only for modifications to the library itself
 

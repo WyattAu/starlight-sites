@@ -37,10 +37,14 @@ When an exception is thrown, the runtime:
 Each function that may participate in exception handling has two tables embedded in the binary ( in
 the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 
+<div class="table-wrap">
+
 | Table                                  | Purpose                                                                                                                                 |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **LSDA** (Language-Specific Data Area) | Describes which PC ranges map to which `try`/`catch` blocks.                                                                            |
 | **Unwind table**                       | Lists every call site in the function so the unwinder can determine whether the function has a cleanup (destructor call) at each point. |
+
+</div>
 
 :::note
 Exception is thrown. The tables are consulted only during unwinding.
@@ -48,11 +52,15 @@ Exception is thrown. The tables are consulted only during unwinding.
 
 ### Alternative Exception Models
 
+<div class="table-wrap">
+
 | Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
 | :-------------------------- | :------------------------------------------------------------------ | :-------------------------- | :------------------------ |
 | **Table-based (zero-cost)** | Static tables describe handlers; unwinder walks stack at throw time | ~0 instructions             | GCC, Clang, MSVC x64      |
 | **Setjmp/Longjmp (SJLJ)**   | `setjmp`/`longjmp` at each `try` entry/exit                         | ~10-20 instructions per try | Embedded, older compilers |
 | **DWARF CFI**               | DWARF Call Frame Information used for unwinding                     | ~0 instructions             | GCC/Clang (Linux, BSD)    |
+
+</div>
 
 The SJLJ model incurs cost on every `try` entry (saving registers via `setjmp`) and every `try` exit
 (potentially restoring via `longjmp`). This is why modern compilers default to the table-based model
@@ -261,12 +269,16 @@ Errors. This confirms that exception-neutral code has zero overhead in the norma
 
 ## 1.5 Performance Comparison: Throw/Catch vs Error Codes
 
+<div class="table-wrap">
+
 | Metric           | Exception (throw path)            | Error-code check            |
 | ---------------- | --------------------------------- | --------------------------- |
 | Normal-path cost | ~0 instructions                   | 1 branch + compare per call |
 | Throw-path cost  | ~5-20 $\mu s$ (unwinding + alloc) | N/A                         |
 | Code size        | +LSDA tables (~1-5% of binary)    | No overhead                 |
 | Cognitive cost   | Implicit control flow             | Explicit, pervasive         |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -470,12 +482,16 @@ Last `exception_ptr` referencing it is destroyed.
 The LSDA (Language-Specific Data Area) encodes the exception handling information for each function.
 On the Itanium ABI, it uses a compact bytecode format:
 
+<div class="table-wrap">
+
 | Field               | Description                                                            |
 | ------------------- | ---------------------------------------------------------------------- |
 | **LPStart**         | Base address for landing pad offsets ( the function entry point)       |
 | **CallSite Table**  | Array of (begin PC, end PC, landing pad, action) entries               |
 | **Action Table**    | Array of type-filter and next-action offsets for catch clause matching |
 | **Type Info Table** | Array of `std::type_info*` pointers referenced by the action table     |
+
+</div>
 
 Each call site entry describes a range of PC values in the function. When the unwinder finds that
 the current PC falls within a call site range, it checks the action table to determine which catch
@@ -560,11 +576,15 @@ Is `noexcept` only if the element's move constructor is `noexcept`.
 
 The C++ community recognizes three exception safety guarantees [N4950 §14.5]:
 
+<div class="table-wrap">
+
 | Guarantee    | Description                                                                                                                      | Example                                   |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------- |
 | **No-throw** | The operation never throws. All resources are managed. Destructors, `swap`Move operations.                                       | `~T()``std::swap`                         |
 | **Strong**   | If the operation fails, the state is rolled back to the pre-operation state (commit-or-rollback).                                | `std::vector::push_back` (single element) |
 | **Basic**    | If the operation fails, the object is in a valid state (all invariants hold), but the state may have changed. No resource leaks. | `std::sort`                               |
+
+</div>
 
 ### Code for Each Safety Level
 

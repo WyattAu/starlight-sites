@@ -80,12 +80,16 @@ $$
 
 ### Various Forms
 
+<div class="table-wrap">
+
 | Form            | Equation                                                  | When to Use                   |
 | --------------- | --------------------------------------------------------- | ----------------------------- |
 | Slope-intercept | $y = mx + c$                                              | Slope and $y$-intercept known |
 | Point-slope     | $y - y_1 = m(x - x_1)$                                    | Slope and a point known       |
 | Two-point       | $\dfrac{y - y_1}{y_2 - y_1} = \dfrac{x - x_1}{x_2 - x_1}$ | Two points known              |
 | General         | $Ax + By + C = 0$                                         | Standard form                 |
+
+</div>
 
 ### Parallel and Perpendicular Lines
 
@@ -227,11 +231,15 @@ Equivalently, the tangent is perpendicular to the radius at the point of contact
 Substitute the linear equation into the circle equation to obtain a quadratic in one variable. Use
 the discriminant to determine the nature of the intersection:
 
+<div class="table-wrap">
+
 | $\Delta$       | Intersection                 |
 | -------------- | ---------------------------- |
 | $\Delta \gt 0$ | Two distinct points (secant) |
 | $\Delta = 0$   | One point (tangent)          |
 | $\Delta \lt 0$ | No intersection              |
+
+</div>
 
 ### Worked Example 6
 
@@ -323,6 +331,8 @@ $$
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic                   | Key Formula                                                   |
 | ----------------------- | ------------------------------------------------------------- |
 | Distance | $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ |
@@ -331,6 +341,8 @@ $$
 | Circle (standard) | $(x - a)^2 + (y - b)^2 = r^2$ |
 | Tangent at $(x_1, y_1)$ | $x_1 x + y_1 y = r^2$ (for circle at origin)                  |                                                  |                      |
 | Triangle area           | $\dfrac{1}{2}                                                 \| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \| $                    |
+
+</div>
 
 ---
 
@@ -919,10 +931,14 @@ Geometry with other DSE mathematics topics to test synthesis under exam conditio
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic                 | Site    | Link                                                                                                            |
 | --------------------- | ------- | --------------------------------------------------------------------------------------------------------------- |
 | [Coordinate Geometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry) |
 | [Coordinate Geometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/)                                 |
+
+</div>
 
 ## DSE Exam Technique
 

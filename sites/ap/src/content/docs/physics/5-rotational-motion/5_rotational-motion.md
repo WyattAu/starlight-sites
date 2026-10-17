@@ -25,11 +25,15 @@ categories:
 
 ### Angular Quantities
 
+<div class="table-wrap">
+
 | Linear Quantity  | Angular Quantity              | Relation        |
 | ---------------- | ----------------------------- | --------------- |
 | Displacement $x$ | Angle $\theta$                | $x = r\theta$   |
 | Velocity $v$     | Angular velocity $\omega$     | $v = r\omega$   |
 | Acceleration $a$ | Angular acceleration $\alpha$ | $a_t = r\alpha$ |
+
+</div>
 
 ### Angular Velocity and Acceleration
 
@@ -114,6 +118,8 @@ Regardless of the direction of motion.
 
 ### Common Moments of Inertia
 
+<div class="table-wrap">
+
 | Object                          | Axis                         | Moment of Inertia  |
 | ------------------------------- | ---------------------------- | ------------------ |
 | Thin rod, length $L$ Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
@@ -123,6 +129,8 @@ Regardless of the direction of motion.
 | Solid sphere, radius $R$        | Diameter                     | $\frac{2}{5}MR^2$  |
 | Hollow sphere, radius $R$       | Diameter                     | $\frac{2}{3}MR^2$  |
 | Point mass $m$ at distance $r$  | --                           | $mr^2$             |
+
+</div>
 
 ### Derivation: Moment of Inertia of a Solid Cylinder
 
@@ -496,12 +504,16 @@ A solid sphere, a solid cylinder, a hollow sphere, and a hollow cylinder, all of
 $R$ Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
 Bottom.
 
+<div class="table-wrap">
+
 | Object          | $I_{\mathrm{cm}$  | $v$ at bottom   | Fraction as KE of translation |
 | --------------- | ----------------- | --------------- | ----------------------------- |
 | Solid sphere    | $\frac{2}{5}MR^2$ | $\sqrt{10gh/7}$ | $5/7 = 71\%$                  |
 | Solid cylinder  | $\frac{1}{2}MR^2$ | $\sqrt{4gh/3}$  | $2/3 = 67\%$                  |
 | Hollow sphere   | $\frac{2}{3}MR^2$ | $\sqrt{6gh/5}$  | $3/5 = 60\%$                  |
 | Hollow cylinder | $MR^2$            | $\sqrt{gh}$     | $1/2 = 50\%$                  |
+
+</div>
 
 Ranking (fastest to slowest): solid sphere, solid cylinder, hollow sphere, hollow cylinder. Objects
 with more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
@@ -620,6 +632,8 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 
 ## 15. Summary Table: Linear vs Rotational Quantities
 
+<div class="table-wrap">
+
 | Linear                | Rotational                 | Relationship                                                 |
 | --------------------- | -------------------------- | ------------------------------------------------------------ |
 | $x$                   | $\theta$                   | $x = r\theta$                                                |
@@ -631,6 +645,8 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 | $K = \frac{1}{2}mv^2$ | $K = \frac{1}{2}I\omega^2$ | $K_{\mathrm{total} = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$ |
 | $F = ma$              | $\tau = I\alpha$           | Newton's second law for rotation                             |
 | $W = Fd$              | $W = \tau\theta$           | Work-energy theorem for rotation                             |
+
+</div>
 
 ## 16. Practice Questions (Additional)
 

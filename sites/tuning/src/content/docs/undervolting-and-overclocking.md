@@ -107,12 +107,16 @@ Changed.
 LLC counteracts Vdroop by making the VRM more aggressive in maintaining the target voltage under
 Load. LLC is configured on a scale (e.g., Level 1–7, or Auto/Medium/High/Extreme).
 
+<div class="table-wrap">
+
 | LLC Level       | Behavior                                                | Use Case                                |
 | --------------- | ------------------------------------------------------- | --------------------------------------- |
 | Low (1–2)       | Heavy Vdroop, large delta between idle and load voltage | Stock operation, maximum safety         |
 | Medium (3–5)    | Moderate Vdroop, reasonable compensation                | Moderate overclocking, daily use        |
 | High (6–7)      | Minimal Vdroop, voltage nearly flat across loads        | Aggressive overclocking                 |
 | Extreme / Ultra | Negative Vdroop (voltage increases under load)          | **Not recommended**, risk of overshoot |
+
+</div>
 
 **Warning:** Setting LLC too high eliminates the safety margin that Vdroop provides. On load
 Transitions (load → idle), the voltage can overshoot the VID by a significant margin. This is
@@ -123,6 +127,8 @@ Level 4 or 5 provides a good balance.
 
 Exceeding these limits can cause electromigration and permanent silicon degradation:
 
+<div class="table-wrap">
+
 | Platform                             | Maximum Safe Vcore | Notes                                                |
 | ------------------------------------ | ------------------ | ---------------------------------------------------- |
 | Intel 12th Gen (Alder Lake)          | 1.40 V             | Long-term degradation above 1.35 V                   |
@@ -131,6 +137,8 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 | AMD Zen 3 (Ryzen 5000)               | 1.35 V             | Curve Optimizer recommended over fixed offset        |
 | AMD Zen 4 (Ryzen 7000)               | 1.30 V             | DDR5 memory controller is voltage-sensitive          |
 | AMD Zen 5 (Ryzen 9000)               | 1.30 V             | Similar to Zen 4                                     |
+
+</div>
 
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
 Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
@@ -254,11 +262,15 @@ This is time-consuming but can yield better results than a uniform all-core offs
 
 AMD's power limits control how much power the CPU is allowed to draw:
 
+<div class="table-wrap">
+
 | Limit | Full Name                 | Description                  |
 | ----- | ------------------------- | ---------------------------- |
 | PPT   | Package Power Tracking    | Total socket power in watts  |
 | TDC   | Thermal Design Current    | Sustained current limit (A)  |
 | EDC   | Electrical Design Current | Peak/turbo current limit (A) |
+
+</div>
 
 For undervolting, you do not need to change these. However, if you are trying to reduce Thermals on
 a laptop or SFF build, lowering the PPT can force the CPU to boost less aggressively, Which reduces
@@ -423,12 +435,16 @@ Try:
 Memory timings are specified as a series of numbers (e.g., 16-18-18-38). These represent delays
 Measured in clock cycles:
 
+<div class="table-wrap">
+
 | Timing   | Name                | Description                                                 |
 | -------- | ------------------- | ----------------------------------------------------------- |
 | CL / tCL | CAS Latency         | Delay between a read command and data availability          |
 | tRCD     | RAS to CAS Delay    | Delay between activating a row and reading/writing a column |
 | tRP      | RAS Precharge       | Delay between precharging one row and activating another    |
 | tRAS     | Active to Precharge | Minimum time a row must remain active before precharging    |
+
+</div>
 
 Lower numbers = better performance. Tightening timings is more difficult than increasing frequency
 but can yield similar or better performance gains in latency-sensitive workloads.
@@ -524,6 +540,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 
 ### Interpreting Results
 
+<div class="table-wrap">
+
 | Symptom                               | Likely Cause                             | Fix                                       |
 | ------------------------------------- | ---------------------------------------- | ----------------------------------------- |
 | Immediate crash or BSOD on test start | Voltage too low or settings incompatible | Increase voltage or revert changes        |
@@ -531,6 +549,8 @@ OCCT is particularly good at catching instability that Prime95 misses:
 | Crash after 1–4 hours                 | Thermal throttling or VRM issues         | Check temperatures, improve cooling       |
 | WHEA errors with no crash             | Silent instability, data corruption risk | Increase voltage by 10 mV, retest         |
 | Crash only when idle                  | C-state instability                      | Increase offset voltage, disable C-states |
+
+</div>
 
 ---
 

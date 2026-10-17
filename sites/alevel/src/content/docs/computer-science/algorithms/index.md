@@ -99,6 +99,8 @@ algorithms and complexity analysis.
 
 Throughout this section we use the following notation:
 
+<div class="table-wrap">
+
 | Symbol         | Meaning                                          |
 | -------------- | ------------------------------------------------ |
 | $O(f(n))$      | Upper bound on growth rate                       |
@@ -106,6 +108,8 @@ Throughout this section we use the following notation:
 | $\Theta(f(n))$ | Tight bound (both upper and lower)               |
 | $T(n)$         | Running time as a function of input size $n$     |
 | $S(n)$         | Space complexity as a function of input size $n$ |
+
+</div>
 
 ## Overview
 

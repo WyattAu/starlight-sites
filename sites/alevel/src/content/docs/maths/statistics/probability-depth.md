@@ -177,12 +177,16 @@ $$
 
 For two events $A$ and $B$ The Venn diagram has four regions:
 
+<div class="table-wrap">
+
 | Region       | Description            | Probability          |
 | ------------ | ---------------------- | -------------------- |
 | $A \cap B$   | In both $A$ and $B$    | $P(A \cap B)$        |
 | $A \cap B'$  | In $A$ but not in $B$  | $P(A) - P(A \cap B)$ |
 | $A' \cap B$  | In $B$ but not in $A$  | $P(B) - P(A \cap B)$ |
 | $A' \cap B'$ | In neither $A$ nor $B$ | $1 - P(A \cup B)$    |
+
+</div>
 
 ### 3.2 Worked example
 

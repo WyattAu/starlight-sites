@@ -156,12 +156,16 @@ type Result = (string | number)[];
 
 ### Distribution Rules Summary
 
+<div class="table-wrap">
+
 | Form                                                    | Distributes?    |
 | ------------------------------------------------------- | --------------- |
 | `T extends U ? X : Y`                                   | Yes (naked `T`) |
 | `[T] extends [U] ? X : Y`                               | No              |
 | `T extends U ? X : Y` where `T` is not a type parameter | No              |
 | `(T & {}) extends U ? X : Y`                            | No              |
+
+</div>
 
 ## Recursive Types
 
@@ -2167,11 +2171,15 @@ Even though the constructor does not assign it.
 
 TypeScript supports three access modifiers: `public`, `private` and `protected`.
 
+<div class="table-wrap">
+
 | Modifier    | Accessibility                                            |
 | ----------- | -------------------------------------------------------- |
 | `public`    | Accessible from anywhere (default)                       |
 | `private`   | Accessible only within the declaring class               |
 | `protected` | Accessible within the declaring class and its subclasses |
+
+</div>
 
 ```ts
 class Account {
@@ -2388,6 +2396,8 @@ class UserFactory implements Deserializable<User> {
 
 ### Interface vs Abstract Class
 
+<div class="table-wrap">
+
 | Feature                 | Interface                                       | Abstract Class                             |
 | ----------------------- | ----------------------------------------------- | ------------------------------------------ |
 | Multiple implementation | A class can implement many interfaces           | A class can extend only one abstract class |
@@ -2395,6 +2405,8 @@ class UserFactory implements Deserializable<User> {
 | Constructor             | No constructor                                  | Can have a constructor                     |
 | Method implementations  | All methods are abstract (no body)              | Can mix abstract and concrete methods      |
 | Access modifiers        | No access modifiers on members                  | Supports `public``private``protected`      |
+
+</div>
 
 ## Static Members and Static Factory Patterns
 
@@ -3105,6 +3117,8 @@ Compatible with `isolatedModules`.
 
 ### Enum Comparison Table
 
+<div class="table-wrap">
+
 | Feature                | Numeric Enum | String Enum | Const Enum    | `as const` Object |
 | ---------------------- | ------------ | ----------- | ------------- | ----------------- |
 | Reverse mapping        | Yes          | No          | N/A (inlined) | No                |
@@ -3112,6 +3126,8 @@ Compatible with `isolatedModules`.
 | `isolatedModules` safe | Yes          | Yes         | No            | Yes               |
 | Computed values        | Limited      | No          | No            | N/A               |
 | Tree-shakeable         | No           | No          | Yes (inlined) | Yes               |
+
+</div>
 
 ## ES Modules: Import and Export
 
@@ -3322,12 +3338,16 @@ Resolves dependencies automatically through `tsconfig.json` and `node_modules`.
 
 ### Classic vs Node Resolution
 
+<div class="table-wrap">
+
 | Strategy              | Description                                                                            |
 | --------------------- | -------------------------------------------------------------------------------------- |
 | `classic`             | Original TypeScript resolution; relative to importing file                             |
 | `node`                | Mimics Node.js resolution; checks `node_modules, package.json` `types`/`typings` field |
 | `node16` / `nodenext` | Node.js ESM-aware resolution (TypeScript 4.7+)                                         |
 | `bundler`             | Resolution for bundlers that handle module resolution themselves (TypeScript 5.0+)     |
+
+</div>
 
 ### Path Aliases in tsconfig
 
@@ -3643,10 +3663,14 @@ assignable to `never`.
 
 ### Precise Semantics
 
+<div class="table-wrap">
+
 | Type      | Assignable to everything? | Everything assignable to it?  | Type narrowing required? |
 | --------- | ------------------------- | ----------------------------- | ------------------------ |
 | `any`     | Yes                       | Yes                           | No                       |
 | `unknown` | Yes                       | No (only `any` and `unknown`) | Yes                      |
+
+</div>
 
 `any` disables the type system entirely. A value typed as `any` can be used as any type, and any
 Value can be assigned to it. `unknown` is the type-safe alternative: it can hold any value, but it
@@ -3707,6 +3731,8 @@ Runtime, and the `any` type prevents the compiler from catching this.
 
 JavaScript provides several built-in error classes, all of which TypeScript types natively:
 
+<div class="table-wrap">
+
 | Error Class      | Purpose                    |
 | ---------------- | -------------------------- |
 | `Error`          | Generic error              |
@@ -3716,6 +3742,8 @@ JavaScript provides several built-in error classes, all of which TypeScript type
 | `ReferenceError` | Undefined variable access  |
 | `URIError`       | Invalid URI operation      |
 | `EvalError`      | Error in `eval()` (legacy) |
+
+</div>
 
 All built-in error classes inherit from `Error`. Which provides the `message`, `name` and `stack`
 Properties.
@@ -4192,11 +4220,15 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
 
 These three concepts are often conflated but have distinct meanings in TypeScript:
 
+<div class="table-wrap">
+
 | Concept           | Type       | Meaning                                |
 | ----------------- | ---------- | -------------------------------------- |
 | Optional property | `prop?: T` | Property may be absent from the object |
 | Nullable          | `T         | null`                                  | Value may be explicitly `null` |
 | Undefined         | `T         | undefined`                             | Value may be `undefined`       |
+
+</div>
 
 ### Optional Properties
 
@@ -5302,6 +5334,8 @@ Types as a tuple.
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Utility Type               | Description                                   |
 | -------------------------- | --------------------------------------------- |
 | `Partial<T>`               | All properties of `T` become optional         |
@@ -5317,6 +5351,8 @@ Types as a tuple.
 | `Parameters<T>`            | Parameter types of function type `T` as tuple |
 | `ReadonlyArray<T>`         | Immutable array type                          |
 | `ConstructorParameters<T>` | Parameter types of constructor type `T`       |
+
+</div>
 
 ## Mapped Types
 
@@ -5537,12 +5573,16 @@ contravariant. This is unsound but matches pre-strict TypeScript behaviour.
 
 ### Variance Summary
 
+<div class="table-wrap">
+
 | Variance      | `S extends T` implies            | Example                                                     |
 | ------------- | -------------------------------- | ----------------------------------------------------------- |
 | Covariant     | `F<S> extends F<T>`              | `string[] extends (string \| number)[]`                     |
 | Contravariant | `F<T> extends F<S>`              | `(x: Error) => void` assignable to `(x: TypeError) => void` |
 | Invariant     | No implication either way        | `Mutable<T>` -- must be exact type                          |
 | Bivariant     | Both covariant and contravariant | Function params without `strictFunctionTypes`               |
+
+</div>
 
 ### Invariance in Practice
 
@@ -7239,6 +7279,8 @@ Configuration:
 
 #### Language and Environment
 
+<div class="table-wrap">
+
 | Option               | Description                               | Recommended                      |
 | -------------------- | ----------------------------------------- | -------------------------------- |
 | `target`             | ECMAScript version for emitted JavaScript | `"ES2022"` or `"ESNext"`         |
@@ -7247,7 +7289,11 @@ Configuration:
 | `jsxFactory`         | JSX factory function                      | `"React.createElement"` (legacy) |
 | `jsxFragmentFactory` | JSX fragment factory                      | `"React.Fragment"` (legacy)      |
 
+</div>
+
 #### Module Resolution
+
+<div class="table-wrap">
 
 | Option              | Description                                       | Recommended               |
 | ------------------- | ------------------------------------------------- | ------------------------- |
@@ -7259,7 +7305,11 @@ Configuration:
 | `resolveJsonModule` | Allow importing `.json` files                     | `true`                    |
 | `isolatedModules`   | Ensure each file can be transpiled independently  | `true`                    |
 
+</div>
+
 #### Type Checking
+
+<div class="table-wrap">
 
 | Option                         | Description                                                     | Recommended                  |
 | ------------------------------ | --------------------------------------------------------------- | ---------------------------- |
@@ -7276,7 +7326,11 @@ Configuration:
 | `noFallthroughCasesInSwitch`   | Error on switch case fallthrough                                | `true`                       |
 | `exactOptionalPropertyTypes`   | Distinguish between optional and `undefined`-present properties | `true`                       |
 
+</div>
+
 #### Output
+
+<div class="table-wrap">
 
 | Option           | Description                           | Recommended                   |
 | ---------------- | ------------------------------------- | ----------------------------- |
@@ -7285,6 +7339,8 @@ Configuration:
 | `declarationMap` | Generate sourcemaps for `.d.ts` files | `true` for libraries          |
 | `sourceMap`      | Generate sourcemaps                   | `true`                        |
 | `noEmit`         | Type-check without emitting files     | `true` for type-checking only |
+
+</div>
 
 ### The `strict` Flag
 
@@ -7343,12 +7399,16 @@ Themselves (TypeScript 5.0+). Does not enforce Node.js-specific resolution rules
 
 ### Resolution Comparison
 
+<div class="table-wrap">
+
 | Feature                            | `node`          | `node16`           | `bundler`        |
 | ---------------------------------- | --------------- | ------------------ | ---------------- |
 | ESM-aware                          | No              | Yes                | No               |
 | Requires file extensions in ESM    | No              | Yes                | No               |
 | Checks `exports` in `package.json` | No              | Yes                | Yes              |
 | Best for                           | Legacy projects | Node.js native ESM | Bundled web apps |
+
+</div>
 
 ## @types Packages and DefinitelyTyped
 
@@ -7502,6 +7562,8 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 
 ### Key Rules
 
+<div class="table-wrap">
+
 | Rule                                               | Description                      |
 | -------------------------------------------------- | -------------------------------- |
 | `@typescript-eslint/no-explicit-any`               | Disallow `any` type              |
@@ -7512,6 +7574,8 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 | `@typescript-eslint/prefer-nullish-coalescing`     | Prefer `??` over ` |     | `   |
 | `@typescript-eslint/prefer-optional-chain`         | Prefer `?.` over manual checks   |
 | `@typescript-eslint/no-non-null-assertion`         | Disallow `!` non-null assertions |
+
+</div>
 
 **Common Pitfall:** The `@typescript-eslint/recommended-requiring-type-checking` config requires
 `parserOptions.project` to point to a valid `tsconfig.json`. This makes linting slower because it
@@ -7658,6 +7722,8 @@ declare module 'another-untyped' {
 
 ### `jsx` Option Values
 
+<div class="table-wrap">
+
 | Value            | Output                                                           |
 | ---------------- | ---------------------------------------------------------------- |
 | `"preserve"`     | Emit `.jsx` files (for further processing by Babel)              |
@@ -7665,6 +7731,8 @@ declare module 'another-untyped' {
 | `"react-native"` | `React.createElement` (preserves JSX as `React.NativeComponent`) |
 | `"react-jsx"`    | `_jsx` from `react/jsx-runtime` (React 17+)                      |
 | `"react-jsxdev"` | `_jsxDev` from `react/jsx-dev-runtime` (React 17+ dev)           |
+
+</div>
 
 ### Custom JSX Factory
 
@@ -7830,6 +7898,8 @@ URL: https://typescript.wyattau.com/types-and-annotations/
 
 TypeScript provides seven primitive types that correspond directly to JavaScript runtime values:
 
+<div class="table-wrap">
+
 | Type        | Description                                               | Example Values                |
 | ----------- | --------------------------------------------------------- | ----------------------------- |
 | `string`    | UTF-16 character sequences                                | `"hello"``"'``` `Template` `` |
@@ -7839,6 +7909,8 @@ TypeScript provides seven primitive types that correspond directly to JavaScript
 | `undefined` | Uninitialised or absent value                             | `undefined`                   |
 | `symbol`    | Globally unique identifiers (ES2015+)                     | `Symbol("id")`                |
 | `bigint`    | Arbitrary-precision integers (ES2020+)                    | `0n``9007199254740993n`       |
+
+</div>
 
 The types `null` and `undefined` are subtypes of every other type unless `strictNullChecks` is
 Enabled. Under `strict: true` (the recommended configuration), `null` and `undefined` are assignable
@@ -8006,6 +8078,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature                  | `interface`   | `type`  |
 | ------------------------ | ------------- | ------- |
 | Object shapes            | Yes           | Yes     |
@@ -8017,6 +8091,8 @@ type Readonly<T> = { readonly [K in keyof T]: T[K] };
 | Tuple types              | No            | Yes     |
 | Extends other interfaces | Yes           | N/A     |
 | Extends classes          | Yes           | No      |
+
+</div>
 
 ### When to Use Each
 
@@ -8224,12 +8300,16 @@ type HandlerName = 'onClick' | 'onFocus' | 'onBlur';
 
 Template literal types distribute over unions and support the following intrinsic string types:
 
+<div class="table-wrap">
+
 | Intrinsic Type    | Operation                    |
 | ----------------- | ---------------------------- |
 | `Uppercase<S>`    | Convert to uppercase         |
 | `Lowercase<S>`    | Convert to lowercase         |
 | `Capitalize<S>`   | Capitalize first character   |
 | `Uncapitalize<S>` | Uncapitalize first character |
+
+</div>
 
 ```ts
 type CSSProperty = 'margin' | 'padding';
@@ -8716,6 +8796,8 @@ their own pace.
 
 ## Key Language Features
 
+<div class="table-wrap">
+
 | Feature               | Description                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Type system           | Primitive types, object types, union/intersection types, generics, conditional types, mapped types, template literal types           |
@@ -8726,6 +8808,8 @@ their own pace.
 | Utility types         | Built-in generic utilities: `Partial``Required``Readonly``Pick``Omit``Record``Exclude``Extract``ReturnType``Parameters``NonNullable` |
 | Type narrowing        | Discriminated unions, `typeof``instanceof``in` operator, user-defined type guards                                                    |
 | Toolchain integration | `tsconfig.json`Declaration files (`.d.ts`), `@types/` packages, project references                                                   |
+
+</div>
 
 ## The Toolchain
 
@@ -8903,12 +8987,16 @@ function Card({ title, children }: CardProps) {
 
 ### Component Typing Comparison
 
+<div class="table-wrap">
+
 | Approach                               | `children`           | Pros                            | Cons                                            |
 | -------------------------------------- | -------------------- | ------------------------------- | ----------------------------------------------- |
 | `FC<Props>`                            | Implicit             | Concise, includes ref typing    | Implicit children, deprecated in React 18 types |
 | `(props: Props) => JSX.Element`        | Explicit if declared | Full control, modern convention | Must type return explicitly                     |
 | `(props: Props) => React.ReactElement` | Explicit if declared | Precise return type             | Does not allow `null` or `string` returns       |
 | `function Component(props: Props)`     | Explicit if declared | Readable, supports overloads    | Verbose                                         |
+
+</div>
 
 ### `ComponentPropsWithRef` and `ComponentPropsWithoutRef`
 
@@ -8927,11 +9015,15 @@ Including all HTML attributes but excluding `ref`. Use `ComponentPropsWithRef` t
 
 ### `ReactNode` vs `JSX.Element` vs `ReactElement`
 
+<div class="table-wrap">
+
 | Type                 | Description                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
 | `React.ReactNode`    | Anything React can render: elements, strings, numbers, `null``undefined`Booleans, arrays, portals |
 | `React.ReactElement` | A React element (result of `createElement` or JSX)                                                |
 | `JSX.Element`        | Alias for `React.ReactElement` in the current JSX namespace                                       |
+
+</div>
 
 For component return types and `children` props, `React.ReactNode` is the most permissive and
 Generally correct choice.
@@ -8976,6 +9068,8 @@ function Input() {
 
 ### Event Type Reference
 
+<div class="table-wrap">
+
 | Event Type          | Target Element                  |
 | ------------------- | ------------------------------- |
 | `MouseEvent<T>`     | `<div>``<button>``<a>`Etc.      |
@@ -8986,6 +9080,8 @@ function Input() {
 | `DragEvent<T>`      | Any draggable element           |
 | `WheelEvent<T>`     | Any element                     |
 | `ClipboardEvent<T>` | Any element                     |
+
+</div>
 
 ### Inline Event Handlers
 
@@ -9423,11 +9519,15 @@ Produces `unknown` for the ref type.
 
 ### `RefObject` vs `MutableRefObject` vs `Ref<T>`
 
+<div class="table-wrap">
+
 | Type                  | Description                                       |
 | --------------------- | ------------------------------------------------- |
 | `RefObject<T>`        | Immutable ref object (`current` is readonly)      |
 | `MutableRefObject<T>` | Mutable ref object (`current` is writable)        |
 | `Ref<T>`              | `RefObject<T> \| ((instance: T) => void) \| null` |
+
+</div>
 
 ```tsx
 const immutableRef = useRef<HTMLDivElement>(null);

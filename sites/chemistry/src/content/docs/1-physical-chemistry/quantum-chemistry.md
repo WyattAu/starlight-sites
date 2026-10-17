@@ -122,6 +122,8 @@ $\blacksquare$
 
 ### 3.1 Common Operators
 
+<div class="table-wrap">
+
 | Observable       | Operator                                |
 | --------------- | --------------------------------------- |
 | Position         | $\hat{x} = x$                           |
@@ -129,6 +131,8 @@ $\blacksquare$
 | Kinetic energy   | $\hat{T} = -\frac{\hbar^2}{2m}\nabla^2$ |
 | Angular momentum | $\hat{L}_z = -i\hbar\frac{\partial}{\partial \phi}$ |
 | Hamiltonian      | $\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V$ |
+
+</div>
 
 ### 3.2 Commutators
 
@@ -164,12 +168,16 @@ $$
 
 ### 4.2 Quantum Numbers
 
+<div class="table-wrap">
+
 | Quantum Number | Symbol     | Allowed Values                         |
 | -------------- | ---------- | -------------------------------------- |
 | Principal       | $n$        | $1, 2, 3, \ldots$                       |
 | Azimuthal       | $\ell$     | $0, 1, 2, \ldots, n-1$                  |
 | Magnetic        | $m_\ell$   | $-\ell, -\ell+1, \ldots, \ell-1, \ell$  |
 | Spin            | $m_s$      | $+\frac{1}{2}, -\frac{1}{2}$             |
+
+</div>
 
 ### 4.3 Energy Levels
 
@@ -216,12 +224,16 @@ $$
 
 ### 4.6 Orbital Shapes
 
+<div class="table-wrap">
+
 | Orbital Type | $\ell$ | Shape                         | Nodes (radial) |
 | ------------ | ------ | ----------------------------- | -------------- |
 | $s$          | 0      | Spherical, no angular nodes   | $n - 1$        |
 | $p$          | 1      | Dumbbell, 1 angular node      | $n - 2$        |
 | $d$          | 2      | Cloverleaf, 2 angular nodes   | $n - 3$        |
 | $f$          | 3      | Complex, 3 angular nodes      | $n - 4$        |
+
+</div>
 
 Total nodes $= n - 1$ = radial nodes + angular nodes.
 
@@ -581,6 +593,8 @@ Quantum chemistry reveals that electrons do not orbit nuclei like planets around
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site        | Link                                                                  |
 | ------------------------ | ----------- | --------------------------------------------------------------------- |
 | Thermodynamics           | WyattsNotes | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)                     |
@@ -589,7 +603,9 @@ Quantum chemistry reveals that electrons do not orbit nuclei like planets around
 | Quantum Mechanics        | WyattsNotes | [View](https://physics.wyattau.com/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                    |
 | Quantum Chemistry, MIT 5.61 | MIT OCW | [View](https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2013/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

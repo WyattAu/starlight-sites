@@ -28,6 +28,8 @@ Course requires both mathematical fluency and the ability to construct clear, lo
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Topic                                        | AQA     | Edexcel | OCR (A) | CIE (9708) |
 | -------------------------------------------- | ------- | ------- | ------- | ---------- |
 | Markets & Market Failure                     | Paper 1 | P1      | Paper 1 | P1         |
@@ -40,6 +42,8 @@ Course requires both mathematical fluency and the ability to construct clear, lo
 | Financial Markets                            |,       | P1      | Paper 2 |,          |
 | Development Economics                        |,       | P1      |,       | P2         |
 | The Global Economy                           | Paper 2 | P1      | Paper 2 | P2         |
+
+</div>
 
 ### Course Structure
 
@@ -72,12 +76,16 @@ The study of the economy as a whole:
 
 ### Assessment
 
+<div class="table-wrap">
+
 | Board   | Papers                                                                      | Format                                  |
 | ------- | --------------------------------------------------------------------------- | --------------------------------------- |
 | AQA     | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Synoptic)                        | Data response + essay                   |
 | Edexcel | P1 (Markets), P2 (UK Economy), P3 (Business)                                | Multiple choice + data response + essay |
 | OCR (A) | Paper 1 (Micro), Paper 2 (Macro), Paper 3 (Themes)                          | Data response + essay                   |
 | CIE     | Paper 1 (MCQ), Paper 2 (Data response), Paper 3 (Essay), Paper 4 (Synoptic) | Mixed                                   |
+
+</div>
 
 ### How to Use These Notes
 
@@ -194,6 +202,8 @@ $$
 
 ## Exam Technique: Command Words
 
+<div class="table-wrap">
+
 | Command Word | What You Must Do                                                                  |
 | ------------ | --------------------------------------------------------------------------------- |
 | Analyse      | Break down the topic, explain causes and mechanisms, use diagrams                 |
@@ -207,6 +217,8 @@ $$
 | Justify      | Provide reasons or evidence to support an argument                                |
 | Outline      | Give a brief account (less detail than "explain")                                 |
 | Suggest      | Propose a hypothesis or explanation (for questions with insufficient information) |
+
+</div>
 
 ---
 

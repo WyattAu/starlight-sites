@@ -33,12 +33,16 @@ built-in Desmos graphing calculator.
 
 ### Content Domains
 
+<div class="table-wrap">
+
 | Domain                                | Approximate Weight | Question Count |
 | ------------------------------------- | ------------------ | -------------- |
 | **Algebra**                           | ~35%               | 13-15          |
 | **Advanced Math**                     | ~35%               | 13-15          |
 | **Problem Solving and Data Analysis** | ~15%               | 5-7            |
 | **Geometry and Trigonometry**         | ~15%               | 5-7            |
+
+</div>
 
 ---
 
@@ -100,11 +104,15 @@ The equation of a line: $y = mx + b$
 
 **Forms of a linear equation:**
 
+<div class="table-wrap">
+
 | Form            | Equation               | Best Used For                         |
 | --------------- | ---------------------- | ------------------------------------- |
 | Slope-intercept | $y = mx + b$           | Graphing, identifying slope/intercept |
 | Point-slope     | $y - y_1 = m(x - x_1)$ | Writing equation given a point        |
 | Standard        | $Ax + By = C$          | Determining intercepts, systems       |
+
+</div>
 
 **Parallel lines** have equal slopes ($m_1 = m_2$). **Perpendicular lines** have slopes that are
 negative reciprocals ($m_1 \cdot m_2 = -1$).
@@ -129,11 +137,15 @@ The vertex is at $x = -\frac{b}{2a}$.
 
 **The discriminant** $D = b^2 - 4ac$ determines the nature of the roots:
 
+<div class="table-wrap">
+
 | Condition | Roots                       | Graph                          |
 | --------- | --------------------------- | ------------------------------ |
 | $D > 0$   | Two distinct real roots     | Parabola crosses x-axis twice  |
 | $D = 0$   | One repeated real root      | Parabola touches x-axis        |
 | $D < 0$   | No real roots (two complex) | Parabola does not cross x-axis |
+
+</div>
 
 **Factoring quadratics:** Look for integer factor pairs of $ac$ that sum to $b$.
 
@@ -181,6 +193,8 @@ A function $f$ maps each input $x$ to exactly one output $f(x)$.
 
 **Key function families:**
 
+<div class="table-wrap">
+
 | Function       | Equation               | Graph Shape       | Key Feature              |
 | -------------- | ---------------------- | ----------------- | ------------------------ |
 | Linear         | $f(x) = mx + b$        | Straight line     | Constant rate of change  |
@@ -188,6 +202,8 @@ A function $f$ maps each input $x$ to exactly one output $f(x)$.
 | Exponential    | $f(x) = a \cdot b^x$   | Exponential curve | Horizontal asymptote     |
 | Absolute value | $f(x) = \|x\|$         | V-shape           | Vertex at origin         |
 | Square root    | $f(x) = \sqrt{x}$      | Half parabola     | Domain: $x \geq 0$       |
+
+</div>
 
 **Transformations:**
 
@@ -309,10 +325,14 @@ $$
 
 **Unit circle:** A circle of radius 1 centred at the origin. Key values at standard angles:
 
+<div class="table-wrap">
+
 | Angle ($^\circ$) | $0$ | $30$                 | $45$                 | $60$                 | $90$ | $180$ | $270$ |
 | ---------------- | --- | -------------------- | -------------------- | -------------------- | ---- | ----- | ----- |
 | $\sin\theta$     | $0$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$  | $0$   | $-1$  |
 | $\cos\theta$     | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $0$  | $-1$  | $0$   |
+
+</div>
 
 **Radian measure:** $\theta_{\text{rad}} = \theta_{\text{deg}} \times \frac{\pi}{180}$
 
@@ -393,6 +413,8 @@ $$
 
 ### Descriptive Statistics
 
+<div class="table-wrap">
+
 | Measure                | Definition                                                         |
 | ---------------------- | ------------------------------------------------------------------ |
 | **Mean**               | Sum of values divided by the count: $\bar{x} = \frac{\sum x_i}{n}$ |
@@ -401,6 +423,8 @@ $$
 | **Range**              | Maximum minus minimum                                              |
 | **Standard deviation** | Average distance of each value from the mean                       |
 | **IQR**                | Third quartile minus first quartile ($Q_3 - Q_1$)                  |
+
+</div>
 
 **Key relationships:**
 
@@ -457,12 +481,16 @@ $$
 
 **Common conversions to know:**
 
+<div class="table-wrap">
+
 | Quantity | Relationships                                                            |
 | -------- | ------------------------------------------------------------------------ |
 | Length   | 1 foot = 12 inches; 1 yard = 3 feet; 1 mile = 5280 feet                  |
 | Weight   | 1 pound = 16 ounces; 1 ton = 2000 pounds                                 |
 | Volume   | 1 cup = 8 fl oz; 1 pint = 2 cups; 1 quart = 2 pints; 1 gallon = 4 quarts |
 | Metric   | 1 km = 1000 m; 1 m = 100 cm; 1 kg = 1000 g                               |
+
+</div>
 
 ---
 

@@ -257,6 +257,8 @@ estimated.
 `wyattsnotes.wyattau.com` returns the identical 31,200-byte landing page for
 **every** path, including 200 responses:
 
+<div class="table-wrap">
+
 | Path | Status | Body |
 | ---- | ------ | ---- |
 | `/` | 200 | landing page |
@@ -264,6 +266,8 @@ estimated.
 | `/cross-references/` | 200 | landing page |
 | `/hub/` | 200 | landing page |
 | `/editorial-backlog/` | 200 | landing page |
+
+</div>
 
 So `sites/main/src/content/docs/` -- `about.md`, `cross-references.md`,
 `editorial-backlog.md`, `hub.md` -- is built but never served. The response
@@ -295,10 +299,14 @@ promised is still missing**, and that shortfall is what this item tracks.
 
 **What was removed.**
 
+<div class="table-wrap">
+
 | Class | Count | What it was |
 | ----- | ----- | ----------- |
 | `## Advanced Content` placeholder sections | 458 | Subsections titled "Derivations and Proofs", "Extended Examples", "Research Connections", "Prerequisites", containing only sentences describing what such content would look like |
 | Filler mermaid diagrams | 1,762 | The same seven-line flowchart on every page, reading "Key Concepts / Core Principles / Practical Applications / Design patterns / Real-world usage", with the page title wired to "Key Concepts" |
+
+</div>
 
 Both were pure filler: removing them discards no information, because there
 was none. The damage was that they were not neutral. A reader reaching

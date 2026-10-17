@@ -68,6 +68,8 @@ $$
 
 ### 1.3 The Policy Implications
 
+<div class="table-wrap">
+
 | Issue                   | Keynesian View                           | Monetarist View                                              |
 | ----------------------- | ---------------------------------------- | ------------------------------------------------------------ |
 | Cause of inflation      | Excess demand, cost-push                 | Excessive money supply growth                                |
@@ -77,6 +79,8 @@ $$
 | Phillips curve          | Short-run trade-off is exploitable       | Vertical in long run; only acceleration possible             |
 | Self-correction         | Slow or non-existent                     | Automatic, though may take time                              |
 | Government intervention | Essential for stability                  | Minimise, rules-based policy                                |
+
+</div>
 
 :::note
 (9708) Paper 4 often asks students to evaluate the effectiveness of demand-side policies, requiring
@@ -405,12 +409,16 @@ of macroeconomic policy:
 
 **Fiscal packages by country:**
 
+<div class="table-wrap">
+
 | Country | Fiscal Stimulus (as % of GDP) | Key Measures                                                                   |
 | ------- | ----------------------------- | ------------------------------------------------------------------------------ |
 | UK      | ~19% (2020–21)                | Furlough scheme (GBP 70 billion), business grants, VAT cut to 5% (hospitality) |
 | US      | ~25% (2020–21)                | CARES Act (USD 2.2 trillion), stimulus checks, expanded unemployment benefits  |
 | Germany | ~34% (2020–21)                | Kurzarbeit (short-time work), VAT cut, emergency aid for firms                 |
 | Japan   | ~40% (2020–21)                | Cash handouts, business subsidies, tourism campaign                            |
+
+</div>
 
 **Evaluation**: The scale of fiscal response was justified by the Keynesian logic that when the
 Private sector withdraws spending simultaneously (lockdowns), the government must fill the gap. The
@@ -520,6 +528,8 @@ Following structure:
 
 ### 5.1 Scenario Analysis
 
+<div class="table-wrap">
+
 | Scenario                      | Problem                                    | Recommended Policy Mix                                                     |
 | ----------------------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
 | **Recession + low inflation** | Output gap, deflation risk                 | Expansionary fiscal + expansionary monetary (rates cut, QE)                |
@@ -528,6 +538,8 @@ Following structure:
 | **BoP deficit + growth**      | Current account worsening                  | Depreciation + supply-side (improve competitiveness) + fiscal tightening   |
 | **ZLB recession**             | Deep recession, rates at zero              | Aggressive fiscal expansion + QE + forward guidance                        |
 | **Currency crisis**           | Capital flight, sharp depreciation         | Raise rates (defend currency) + IMF support + structural reform            |
+
+</div>
 
 ### 5.2 The Assignment Problem
 
@@ -811,6 +823,8 @@ inflation.
 
 **What if the central bank uses different weights?**
 
+<div class="table-wrap">
+
 | Weight on inflation gap | Weight on output gap |         Recommended rate         |
 | :---------------------: | :------------------: | :------------------------------: |
 |           0.5           |         0.5          |     5.25% (standard Taylor)      |
@@ -818,6 +832,8 @@ inflation.
 |           0.5           |         1.0          |   4.50% (aggressive on output)   |
 |           1.5           |         0.5          |      9.25% (Volcker-style)       |
 |           0.5           |         0.0          | 6.00% (inflation-only targeting) |
+
+</div>
 
 **Taylor principle:** For the Taylor Rule to stabilise the economy, the coefficient on the inflation
 gap must be greater than 1. If the coefficient is 1 or less, a rise in inflation does not raise the
@@ -1016,6 +1032,8 @@ $95 \times 0.98 = 93.1$.
 
 **Recovery path under each regime:**
 
+<div class="table-wrap">
+
 | Year      |      Inflation Target      |     NGDP Growth Target     |      NGDP Level Target       |
 | --------- | :------------------------: | :------------------------: | :--------------------------: |
 | 0 (shock) |  NGDP=93.1, Y=95, P=0.98   |  NGDP=93.1, Y=95, P=0.98   |   NGDP=93.1, Y=95, P=0.98    |
@@ -1023,6 +1041,8 @@ $95 \times 0.98 = 93.1$.
 | 2         | NGDP=96.9, Y=100, P=0.969  | NGDP=96.9, Y=100, P=0.969  |  NGDP=104.0, Y=100, P=1.040  |
 | 3         | NGDP=98.8, Y=100, P=0.988  | NGDP=98.8, Y=100, P=0.988  |  NGDP=106.1, Y=100, P=1.061  |
 | 5         | NGDP=102.9, Y=100, P=1.029 | NGDP=102.9, Y=100, P=1.029 |  NGDP=110.4, Y=100, P=1.104  |
+
+</div>
 
 **Under inflation targeting:** The central bank targets 2% inflation. After the shock, it raises
 rates only gradually. NGDP recovers slowly. By year 3, NGDP is still 1.2% below the pre-shock trend.
@@ -1120,6 +1140,8 @@ was not yet visible when rates peaked.
 
 **Example.** UK inflation and unemployment data (selected years):
 
+<div class="table-wrap">
+
 | Year | Unemployment | Inflation | Inflation expectations |
 | :--: | :----------: | :-------: | :--------------------: |
 | 1960 |     1.5%     |   1.0%    |          1.5%          |
@@ -1136,6 +1158,8 @@ was not yet visible when rates peaked.
 | 2020 |     4.5%     |   0.9%    |          1.8%          |
 | 2022 |     3.7%     |   9.1%    |          5.0%          |
 | 2023 |     4.0%     |   7.3%    |          6.0%          |
+
+</div>
 
 **Analysis using the Phillips curve framework:**
 
@@ -1237,12 +1261,16 @@ effectiveness.
 
 **Fiscal rules used:**
 
+<div class="table-wrap">
+
 | Period       | Rule                                      | Target                                                      |
 | ------------ | ----------------------------------------- | ----------------------------------------------------------- |
 | 1997-2007    | Golden Rule + Sustainable Investment Rule | Borrow only to invest; debt < 40% of GDP                    |
 | 2010-2015    | Fiscal Mandate + Supplementary Target     | Structural deficit eliminated by 2015; debt falling by 2015 |
 | 2015-2019    | Fiscal Mandate + Supplementary Target     | Surplus by 2020; debt falling by 2020                       |
 | 2021-present | Fiscal Mandate + Supplementary Target     | Debt falling by 5th year; welfare cap                       |
+
+</div>
 
 **Evaluation of specific rules:**
 
@@ -1331,12 +1359,16 @@ exchange rate, and (3) independent monetary policy. Show why this is impossible.
 
 **The trilemma in practice:**
 
+<div class="table-wrap">
+
 | Country            |  Exchange rate  | Capital mobility | Monetary independence |   Policy choice    |
 | ------------------ | :-------------: | :--------------: | :-------------------: | :----------------: |
 | USA                |    Floating     |       Free       |          Yes          | Choose (1) and (3) |
 | China (pre-2005)   |      Fixed      |    Restricted    |          Yes          | Choose (1) and (3) |
 | Eurozone countries |  Fixed (euro)   |       Free       |  No (ECB sets rates)  | Choose (1) and (2) |
 | Hong Kong          | Fixed (USD peg) |       Free       |          No           | Choose (1) and (2) |
+
+</div>
 
 **Application to Brexit:** Before Brexit, the UK had free capital mobility, a floating exchange
 rate, and independent monetary policy (the "Anglo-Saxon" model). Some Brexit supporters advocated a
@@ -1378,11 +1410,15 @@ does not need to "overshoot" with deflation to bring the average back down.
 
 **Welfare comparison:**
 
+<div class="table-wrap">
+
 | Framework     | Rate increase | Output loss | Inflation volatility |
 | ------------- | :-----------: | :---------: | :------------------: |
 | Strict (0%)   |    2-3 pp     |    2.0%     |         High         |
 | Flexible (1%) |    1-2 pp     |    1.0%     |        Medium        |
 | Average       |   0.5-1 pp    |    0.5%     |         Low          |
+
+</div>
 
 **Evaluation:**
 

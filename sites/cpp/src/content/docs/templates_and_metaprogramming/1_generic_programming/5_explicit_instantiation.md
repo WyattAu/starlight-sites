@@ -204,6 +204,8 @@ The following table estimates the per-translation-unit cost of each compilation 
 Hypothetical template `DataProcessor<T>` with 8 member functions, each exercising nontrivial type
 Deduction and standard library internals:
 
+<div class="table-wrap">
+
 | Phase                                                    | Implicit Instantiation Cost (per TU) | Extern Template Cost (per TU) | Explicit Defn Cost (per TU, only 1 TU) |
 | -------------------------------------------------------- | ------------------------------------ | ----------------------------- | -------------------------------------- |
 | Parse template definition                                | ~2 ms                                | ~2 ms                         | ~2 ms                                  |
@@ -212,6 +214,8 @@ Deduction and standard library internals:
 | Compile generated code (type-check, overload resolution) | ~8 ms                                | 0 ms (skipped)                | ~8 ms                                  |
 | Code generation (optimization, emission)                 | ~12 ms                               | 0 ms (skipped)                | ~12 ms                                 |
 | **Total per TU**                                         | **~28 ms**                           | **~3 ms**                     | **~28 ms**                             |
+
+</div>
 
 For a project with $N = 500$ translation units, the total wall-clock time for this template alone
 is:
@@ -648,6 +652,8 @@ This occurs when:
 
 ## Comparison of Approaches
 
+<div class="table-wrap">
+
 | Approach                                  | Compile Time       | Binary Size                           | Link Time        | Flexibility                                           | Maintenance Burden |
 | ----------------------------------------- | ------------------ | ------------------------------------- | ---------------- | ----------------------------------------------------- | ------------------ |
 | Implicit instantiation only               | Slowest (repeated) | Largest (duplicates stripped at link) | Fastest          | Full                                                  | None               |
@@ -655,6 +661,8 @@ This occurs when:
 | Explicit instantiation only (no `extern`) | Same as implicit   | Same as implicit                      | Same as implicit | Full                                                  | Low                |
 | Non-template wrappers                     | Fastest            | Smallest                              | Fastest          | Limited to wrapped types                              | Medium             |
 | PIMPL / type erasure                      | Fastest            | Smallest                              | Fastest          | Opaque types only                                     | High               |
+
+</div>
 
 ## Intuition
 
@@ -709,6 +717,8 @@ and does not cause linker errors.
 
 These two mechanisms are frequently confused but have fundamentally different semantics:
 
+<div class="table-wrap">
+
 | Aspect                   | Explicit Instantiation                                             | Explicit Specialization                                      |
 | :----------------------- | :----------------------------------------------------------------- | :----------------------------------------------------------- |
 | **Syntax**               | `template void foo<int>()`                                         | `template&lt;&gt; void foo<int>()`                           |
@@ -716,6 +726,8 @@ These two mechanisms are frequently confused but have fundamentally different se
 | **When used**            | To centralize where instantiation happens                          | When the generic algorithm does not work for a specific type |
 | **Can change behavior?** | No --- must match primary template semantics                       | Yes --- can have entirely different logic                    |
 | **Standard reference**   | [N4950 §13.9.2]                                                    | [N4950 §13.7.3]                                              |
+
+</div>
 
 ```cpp
 #include <iostream>

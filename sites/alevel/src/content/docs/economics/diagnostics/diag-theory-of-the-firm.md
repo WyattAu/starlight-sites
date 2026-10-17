@@ -158,10 +158,14 @@ a Lerner Index of 0.
 **Question:** Two firms (A and B) in a duopoly can choose to set a high price or a low price. The
 payoff matrix (profits in $\pounds$ M) is:
 
+<div class="table-wrap">
+
 |         | B: High | B: Low  |
 | ------- | ------- | ------- |
 | A: High | (8, 8)  | (2, 12) |
 | A: Low  | (12, 2) | (5, 5)  |
+
+</div>
 
 Identify the Nash equilibrium. Explain why this is a prisoner's dilemma. Discuss how repeated
 interaction might change the outcome.
@@ -521,6 +525,8 @@ economic profit.
 
 (c) Comparison:
 
+<div class="table-wrap">
+
 |                  | Monopoly | Contestable |
 | ---------------- | :------: | :---------: |
 | Price            |   120    |    46.5     |
@@ -528,6 +534,8 @@ economic profit.
 | Profit           |   5400   |      0      |
 | Consumer surplus |   3200   |   11760.1   |
 | DWL              |   3200   |      0      |
+
+</div>
 
 The contestable market achieves near-competitive outcomes despite having only one firm.
 

@@ -33,6 +33,8 @@ $$
 
 There are **14 Bravais lattices** in three dimensions, classified into 7 crystal systems:
 
+<div class="table-wrap">
+
 | System       | Lattices     | Constraints                                                       |
 | ------------ | ------------ | ----------------------------------------------------------------- |
 | Cubic        | SC, BCC, FCC | $a = b = c$, $\alpha = \beta = \gamma = 90^\circ$                 |
@@ -42,6 +44,8 @@ There are **14 Bravais lattices** in three dimensions, classified into 7 crystal
 | Triclinic    | P            | $a \neq b \neq c$, $\alpha \neq \beta \neq \gamma$                |
 | Hexagonal    | P            | $a = b \neq c$, $\alpha = \beta = 90^\circ$, $\gamma = 120^\circ$ |
 | Trigonal     | R            | $a = b = c$, $\alpha = \beta = \gamma \neq 90^\circ$              |
+
+</div>
 
 **Notation:** P = primitive, I = body-centred, F = face-centred, C = base-centred, R = rhombohedral.
 
@@ -236,6 +240,8 @@ For FCC, only all-even or all-odd $(hkl)$ are present.
 
 The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm, aluminium):
 
+<div class="table-wrap">
+
 | $(hkl)$ | $h^2+k^2+l^2$ | $d$ (nm) | $2\theta$ (Cu $K_\alpha$) |
 | ------- | ------------- | -------- | ------------------------- |
 | (111)   | 3             | 0.2338   | 38.5°                     |
@@ -243,6 +249,8 @@ The first few allowed reflections and their $d$-spacings for FCC ($a = 0.405$ nm
 | (220)   | 8             | 0.1432   | 65.1°                     |
 | (311)   | 11            | 0.1221   | 78.2°                     |
 | (222)   | 12            | 0.1169   | 82.4°                     |
+
+</div>
 
 Note that (100) is absent in FCC (since 1+0+0 = 1 is odd but not all odd). The sequence of Allowed
 $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
@@ -278,4 +286,4 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

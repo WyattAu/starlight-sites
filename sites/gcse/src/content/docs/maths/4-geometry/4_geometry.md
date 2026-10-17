@@ -37,6 +37,8 @@ Geometry is the mathematics of **shape, size, and space**. The key insight is th
 
 ### 1.1 Basic Angle Facts
 
+<div class="table-wrap">
+
 | Property                   | Statement            |
 | -------------------------- | -------------------- |
 | Angles on a straight line  | Sum to $180^{\circ}$ |
@@ -44,6 +46,8 @@ Geometry is the mathematics of **shape, size, and space**. The key insight is th
 | Vertically opposite angles | Are equal            |
 | Angles in a triangle       | Sum to $180^{\circ}$ |
 | Angles in a quadrilateral  | Sum to $360^{\circ}$ |
+
+</div>
 
 **Theorem (Angle sum of a triangle).** The interior angles of any triangle sum to $180^{\circ}$.
 
@@ -71,11 +75,15 @@ $180 + 180(n - 3) = 180(n - 2)^{\circ}$. $\blacksquare$
 
 ### 1.2 Angles in Parallel Lines
 
+<div class="table-wrap">
+
 | Type                                   | Description          |
 | -------------------------------------- | -------------------- |
 | Corresponding angles (F-angles)        | Equal                |
 | Alternate angles (Z-angles)            | Equal                |
 | Co-interior (allied) angles (U-angles) | Sum to $180^{\circ}$ |
+
+</div>
 
 **Worked Example.** In the diagram, line $AB$ is parallel to line $CD$. A transversal intersects
 $AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$ Find all the other angles at $E$ and $F$.
@@ -238,11 +246,15 @@ the longest side is less than $90^{\circ}$).
 
 **Test for triangle type:**
 
+<div class="table-wrap">
+
 | Condition           | Type         |
 | ------------------- | ------------ |
 | $a^2 + b^2 = c^2$   | Right-angled |
 | $a^2 + b^2 \gt c^2$ | Acute        |
 | $a^2 + b^2 \lt c^2$ | Obtuse       |
+
+</div>
 
 ### 2.2 SOH CAH TOA
 
@@ -390,6 +402,8 @@ Finding a _side_, there is at most one solution.
 
 ### 3.1 Key Theorems
 
+<div class="table-wrap">
+
 | Theorem               | Statement                                                                                 |
 | --------------------- | ----------------------------------------------------------------------------------------- |
 | Centre and chord      | The perpendicular from the centre to a chord bisects the chord                            |
@@ -399,6 +413,8 @@ Finding a _side_, there is at most one solution.
 | Angle in a semicircle | The angle in a semicircle is a right angle                                                |
 | Cyclic quadrilateral  | Opposite angles sum to $180^{\circ}$                                                      |
 | Same segment          | Angles in the same segment are equal                                                      |
+
+</div>
 
 ### 3.2 Proof: Angle at Centre is Twice Angle at Circumference
 
@@ -483,6 +499,8 @@ Therefore $AB = AC$. $\blacksquare$
 
 ### 4.1 2D Shapes
 
+<div class="table-wrap">
+
 | Shape         | Area                         | Perimeter                               |
 | ------------- | ---------------------------- | --------------------------------------- |
 | Rectangle     | $l \times w$                 | $2(l + w)$                              |
@@ -492,6 +510,8 @@ Therefore $AB = AC$. $\blacksquare$
 | Circle        | $\pi r^2$                    | $2\pi r$ (circumference)                |
 | Sector        | $\frac{\theta}{360} \pi r^2$ | Arc: $\frac{\theta}{360} \times 2\pi r$ |
 
+</div>
+
 **Proof of the area of a trapezium.** A trapezium with parallel sides $a$ and $b$ and height $h$ can
 Be divided into a rectangle and two triangles. The rectangle has area $ah$ and the two triangles
 have total area $\frac{1}{2}(b-a)h + \frac{1}{2}(b-a)h = (b-a)h$. Total:
@@ -500,6 +520,8 @@ $ah + (b-a)h = bh - ah + ah
 
 ### 4.2 3D Shapes
 
+<div class="table-wrap">
+
 | Shape    | Volume                                          | Surface Area                                   |
 | -------- | ----------------------------------------------- | ---------------------------------------------- |
 | Cuboid   | $lwh$                                           | $2(lw + lh + wh)$                              |
@@ -507,6 +529,8 @@ $ah + (b-a)h = bh - ah + ah
 | Sphere   | $\frac{4}{3}\pi r^3$                            | $4\pi r^2$                                     |
 | Cone     | $\frac{1}{3}\pi r^2 h$                          | $\pi r l + \pi r^2$ (where $l$ = slant height) |
 | Pyramid  | $\frac{1}{3} \times \mathrm{base area \times h$ | Base area + triangular faces                   |
+
+</div>
 
 **Worked Example.** A cylinder has radius 5 cm and height 12 cm. Find its volume and total surface
 Area.
@@ -553,12 +577,16 @@ Volume of frustum: $100\pi - \frac{100\pi}{27} = \frac{2600\pi}{27} \approx 302.
 
 ### 5.1 Types of Transformation
 
+<div class="table-wrap">
+
 | Transformation | Description                                                 |
 | -------------- | ----------------------------------------------------------- |
 | Translation    | Movement by a vector $\begin{pmatrix} x \\ y \end{pmatrix}$ |
 | Reflection     | Mirror image across a line of reflection                    |
 | Rotation       | Turned about a centre by an angle and direction             |
 | Enlargement    | Scaled from a centre by a scale factor                      |
+
+</div>
 
 **Worked Example.** Describe fully the transformation that maps $\triangle ABC$ with vertices at
 $(1, 2)$$(3, 5)$$(5, 2)$ to $\triangle A'B'C'$ with vertices at $(-1, -2)$$(-3, -5)$ $(-5, -2)$.
@@ -614,12 +642,16 @@ $$
 
 Triangles are **congruent** if they are identical in shape and size. The conditions are:
 
+<div class="table-wrap">
+
 | Condition                           | Abbreviation |
 | ----------------------------------- | ------------ |
 | Three sides equal                   | SSS          |
 | Two sides and included angle        | SAS          |
 | Two angles and a corresponding side | AAS          |
 | Right angle, hypotenuse, one side   | RHS          |
+
+</div>
 
 :::caution
 Produce two different triangles.
@@ -665,12 +697,16 @@ Perimeter of larger $= 24 \times \frac{7}{4} = 42$ cm.
 
 A **locus** is the set of all points satisfying a given condition.
 
+<div class="table-wrap">
+
 | Locus                       | Description            |
 | --------------------------- | ---------------------- |
 | Fixed distance from a point | Circle                 |
 | Fixed distance from a line  | Two parallel lines     |
 | Equidistant from two points | Perpendicular bisector |
 | Equidistant from two lines  | Angle bisector         |
+
+</div>
 
 ### 7.3 Regions (Higher Tier)
 

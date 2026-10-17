@@ -45,6 +45,8 @@ collapse of the Soviet bloc (1985-1991).
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Phase           | Dates     | Key Themes                                                                 |
 | --------------- | --------- | -------------------------------------------------------------------------- |
 | Origins         | 1945-1947 | Yalta, Potsdam, Iron Curtain, Truman Doctrine, Marshall Plan               |
@@ -53,6 +55,8 @@ collapse of the Soviet bloc (1985-1991).
 | Détente         | 1962-1979 | MAD, SALT, Helsinki Accords, Vietnam                                       |
 | Second Cold War | 1979-1985 | Afghanistan, Reagan, SDI, renewed tensions                                 |
 | Ending          | 1985-1991 | Gorbachev, glasnost, perestroika, fall of Berlin Wall, dissolution of USSR |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -164,6 +168,8 @@ collapse of the Soviet bloc (1985-1991).
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure            | Role                    | Significance                                                                        |
 | ----------------- | ----------------------- | ----------------------------------------------------------------------------------- |
 | Harry Truman      | US President 1945-1953  | Established containment; Truman Doctrine; Marshall Plan; NATO                       |
@@ -174,6 +180,8 @@ collapse of the Soviet bloc (1985-1991).
 | Leonid Brezhnev   | Soviet leader 1964-1982 | Détente era; Brezhnev Doctrine; stagnation; arms buildup                            |
 | Ronald Reagan     | US President 1981-1989  | Military buildup; SDI; "evil empire" rhetoric; ultimately negotiated with Gorbachev |
 | Mikhail Gorbachev | Soviet leader 1985-1991 | Glasnost, perestroika, INF Treaty; chose not to use force to preserve the empire    |
+
+</div>
 
 ## Historiographical Debates
 

@@ -40,11 +40,15 @@ The course is divided into **compulsory topics** (Papers 1A and 1B) and **electi
 
 ## Examination Structure
 
+<div class="table-wrap">
+
 | Paper | Component                                  | Duration | Weighting |
 | ----- | ------------------------------------------ | -------- | --------- |
 | 1A    | Compulsory Part -- Multiple-Choice Section | 1 h 30 m | 30%       |
 | 1B    | Compulsory Part -- Structured Questions    | 2 h      | 50%       |
 | 2     | Elective -- Structured Questions           | 1 h      | 20%       |
+
+</div>
 
 **Total: 100%**
 
@@ -165,12 +169,16 @@ detailed notes.
 
 ## Elective Topics (Choose One)
 
+<div class="table-wrap">
+
 | Elective | Topic                               |
 | -------- | ----------------------------------- |
 | E1       | Industrial Chemistry                |
 | E2       | Analytical Chemistry                |
 | E3       | Materials Chemistry                 |
 | E4       | Chemical Energy and the Environment |
+
+</div>
 
 Paper 2 consists of structured questions based on the chosen elective. Each elective carries equal
 Weighting (20% of the total mark).
@@ -208,6 +216,8 @@ Candidates are expected to demonstrate the ability to:
 
 ## Key Quantities and Constants
 
+<div class="table-wrap">
+
 | Quantity / Constant | Symbol | Value / Unit                               |
 | ------------------- | ------ | ------------------------------------------ |
 | Avogadro's number   | $N_A$  | $6.02 \times 10^{23} \mathrm{ mol^{-1}}$   |
@@ -216,6 +226,8 @@ Candidates are expected to demonstrate the ability to:
 | Molar gas constant  | $R$    | $8.31 \mathrm{ J/(mol \cdot K)}$           |
 | Planck's constant   | $h$    | $6.63 \times 10^{-34} \mathrm{ J \cdot s}$ |
 | Faraday constant    | $F$    | $96500 \mathrm{ C/mol}$                    |
+
+</div>
 
 ---
 
@@ -447,10 +459,14 @@ _If you get this wrong, revise: VII. Carbon Chemistry, Homologous Series_
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Element | Mass (g) | Moles            | Ratio                 |
 | ------- | -------- | ---------------- | --------------------- |
 | C       | 85.7     | $85.7/12 = 7.14$ | $7.14/7.14 = 1$       |
 | H       | 14.3     | $14.3/1 = 14.3$  | $14.3/7.14 \approx 2$ |
+
+</div>
 
 Empirical formula: $\mathrm{CH_2}$
 

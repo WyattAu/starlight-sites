@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                                                |
 | ---------- | ---------- | -------------------------------------------------------------------- |
 | AQA        | Paper 1, 2 | Arithmetic and geometric sequences, sigma notation                   |
 | Edexcel    | P1, P2     | Same; recurrence relations in P2                                     |
 | OCR (A)    | Paper 1    | Arithmetic and geometric progressions                                |
 | CIE (9709) | P1, P3     | Sequences and series; P3 includes $\Sigma$ notation more extensively |
+
+</div>
 
 <hr />
 

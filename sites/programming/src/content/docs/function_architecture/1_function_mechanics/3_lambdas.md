@@ -102,6 +102,8 @@ int main() {
 
 ## 3.2 Capture Modes
 
+<div class="table-wrap">
+
 | Capture Syntax | Meaning                                       |
 | :------------- | :-------------------------------------------- |
 | `[]`           | No captures                                   |
@@ -112,6 +114,8 @@ int main() {
 | `[x, &y]`      | Capture `x` by value, `y` by reference        |
 | `[=, &x]`      | Capture all by value, except `x` by reference |
 | `[&, x]`       | Capture all by reference, except `x` by value |
+
+</div>
 
 ```cpp
 #include <iostream>

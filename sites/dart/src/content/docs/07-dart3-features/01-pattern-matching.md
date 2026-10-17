@@ -73,6 +73,8 @@ if (x case int n when n > 0) {
 
 Patterns are not limited to switch statements. Dart 3 allows patterns in five contexts:
 
+<div class="table-wrap">
+
 | Context              | Pattern Type               | Example                        |
 | -------------------- | -------------------------- | ------------------------------ |
 | Switch cases         | Refutable                  | `case [a, b]:`                 |
@@ -80,6 +82,8 @@ Patterns are not limited to switch statements. Dart 3 allows patterns in five co
 | for-in               | Irrefutable (each element) | `for (var (k, v) in pairs)`    |
 | Variable declaration | Irrefutable                | `var (a, b) = record`          |
 | catch clauses        | Refutable                  | `on FormatException catch (e)` |
+
+</div>
 
 The compiler enforces the refutability constraint at each site. A refutable pattern in a variable
 Declaration produces a hard error. An irrefutable pattern in a switch case is allowed but pointless

@@ -94,6 +94,8 @@ end
 
 Ruby follows strict naming conventions that communicate intent and scope:
 
+<div class="table-wrap">
+
 | Convention         | Usage                                        | Example                        |
 | ------------------ | -------------------------------------------- | ------------------------------ |
 | `snake_case`       | Methods, local variables, instance variables | `user_name`, `calculate_total` |
@@ -105,6 +107,8 @@ Ruby follows strict naming conventions that communicate intent and scope:
 | `?` suffix         | Predicate methods (return boolean)           | `empty?`, `include?`, `valid?` |
 | `!` suffix         | Dangerous/mutating methods                   | `sort!`, `save!`, `chomp!`     |
 | `=` suffix         | Setter methods                               | `name=`, `email=`              |
+
+</div>
 
 ```ruby
 # Good naming examples
@@ -853,6 +857,8 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 
 ## Summary Table of Core Types
 
+<div class="table-wrap">
+
 | Type     | Example        | Mutable | Notes                                  |
 | -------- | -------------- | ------- | -------------------------------------- |
 | Integer  | `42`           | No      | Arbitrary precision                    |
@@ -870,6 +876,8 @@ Symbols in Ruby are like permanent labels. Unlike strings, which can be modified
 | nil      | `nil`          | No      | Singleton NilClass                     |
 | true     | `true`         | No      | Singleton TrueClass                    |
 | false    | `false`        | No      | Singleton FalseClass                   |
+
+</div>
 
 ## Common Mistakes
 

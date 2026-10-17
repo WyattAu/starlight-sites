@@ -31,6 +31,8 @@ categories:
 The **CPU (Central Processing Unit)** is the brain of the computer. It processes data and executes
 Instructions.
 
+<div class="table-wrap">
+
 | Component                   | Function                                                                           |
 | --------------------------- | ---------------------------------------------------------------------------------- |
 | Arithmetic Logic Unit (ALU) | Performs arithmetic (addition, subtraction) and logical (AND, OR, NOT) operations  |
@@ -38,6 +40,8 @@ Instructions.
 | Cache                       | Small, fast memory inside the CPU that stores frequently used data                 |
 | Registers                   | Small, fast storage locations within the CPU                                       |
 | Buses                       | Pathways for data transfer between components                                      |
+
+</div>
 
 **The ALU in detail.** The ALU is the part of the CPU that performs actual computation. Given two
 Binary inputs and an operation code (from the control unit), it produces a result and a set of
@@ -51,6 +55,8 @@ Conductor of the CPU orchestra.
 
 ### 1.2 Registers
 
+<div class="table-wrap">
+
 | Register                           | Function                                                                   |
 | ---------------------------------- | -------------------------------------------------------------------------- |
 | Program Counter (PC)               | Holds the memory address of the next instruction to be fetched             |
@@ -58,6 +64,8 @@ Conductor of the CPU orchestra.
 | Memory Data Register (MDR)         | Holds the data that has been read from or is about to be written to memory |
 | Accumulator (ACC)                  | Stores the results of calculations performed by the ALU                    |
 | Current Instruction Register (CIR) | Holds the instruction currently being decoded and executed                 |
+
+</div>
 
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write data). The MDR holds the actual **data** (what was read or what
@@ -121,6 +129,8 @@ Mitigate this with caches, pipelines, and Harvard-architecture elements within t
 
 **Von Neumann vs Harvard comparison:**
 
+<div class="table-wrap">
+
 | Feature     | Von Neumann                       | Harvard                                       |
 | ----------- | --------------------------------- | --------------------------------------------- |
 | Memory      | Shared for data and instructions  | Separate data and instruction memory          |
@@ -128,6 +138,8 @@ Mitigate this with caches, pipelines, and Harvard-architecture elements within t
 | Simplicity  | Simpler hardware                  | More complex hardware                         |
 | Performance | Bottleneck when fetching and data | Can fetch instruction and data simultaneously |
 | Use         | Most general-purpose computers    | DSP, some microcontrollers                    |
+
+</div>
 
 ### 1.5 Buses (Higher Tier)
 
@@ -154,6 +166,8 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 
 ### 2.1 Types of Memory
 
+<div class="table-wrap">
+
 | Type              | Volatile? | Speed     | Capacity   | Purpose                                      |
 | ----------------- | --------- | --------- | ---------- | -------------------------------------------- |
 | RAM               | Yes       | Fast      | Moderate   | Stores currently running programs and data   |
@@ -161,7 +175,11 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 | Cache             | Yes       | Very fast | Very small | Stores frequently used instructions and data |
 | Secondary storage | No        | Slow      | Large      | Long-term storage of files and programs      |
 
+</div>
+
 ### 2.2 RAM vs ROM
+
+<div class="table-wrap">
 
 | Feature        | RAM                                | ROM                                 |
 | -------------- | ---------------------------------- | ----------------------------------- |
@@ -169,6 +187,8 @@ $2 \times 10^9$ cycles/second $\times$ 4 bytes/cycle = $8 \times 10^9$ bytes/sec
 | Read/Write     | Both                               | Read only                           |
 | Contents       | Programs and data currently in use | Boot-up instructions (BIOS)         |
 | Can be changed | Yes                                | No (in traditional ROM)             |
+
+</div>
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
@@ -187,6 +207,8 @@ Operating system from disk into RAM. ROM is non-volatile so the computer can alw
 
 **DRAM vs SRAM comparison:**
 
+<div class="table-wrap">
+
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
 | Used for | Main memory (RAM) | CPU cache (L1/L2/L3) |
@@ -195,6 +217,8 @@ Operating system from disk into RAM. ROM is non-volatile so the computer can alw
 | Density  | Higher            | Lower                |
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
+
+</div>
 
 ### 2.3 Virtual Memory
 
@@ -226,11 +250,15 @@ Used instructions and data so the CPU does not have to wait for slower RAM acces
 
 **Three levels of cache:**
 
+<div class="table-wrap">
+
 | Level | Location            | Size                   | Speed             |
 | ----- | ------------------- | ---------------------- | ----------------- |
 | L1    | Inside CPU core     | Smallest (few KB)      | Fastest           |
 | L2    | Inside CPU          | Larger (256 KB - 1 MB) | Fast              |
 | L3    | Shared across cores | Largest (up to 64 MB)  | Slower than L1/L2 |
+
+</div>
 
 **Cache hit:** Data is found in the cache (fast access).
 
@@ -252,6 +280,8 @@ $100 / 10.9 \approx 9.2\times$.
 
 ### 3.1 Primary vs Secondary Storage
 
+<div class="table-wrap">
+
 | Feature    | Primary Storage (RAM/ROM) | Secondary Storage           |
 | ---------- | ------------------------- | --------------------------- |
 | Volatile?  | RAM yes, ROM no           | No                          |
@@ -259,6 +289,8 @@ $100 / 10.9 \approx 9.2\times$.
 | Capacity   | Limited                   | Large                       |
 | Connection | Directly accessed by CPU  | Accessed via data bus       |
 | Examples   | RAM, ROM, cache           | HDD, SSD, USB, optical disc |
+
+</div>
 
 ### 3.2 Magnetic Storage (Hard Disk Drive)
 
@@ -286,6 +318,8 @@ $100 / 10.9 \approx 9.2\times$.
 
 ### 3.5 Comparing Storage Devices
 
+<div class="table-wrap">
+
 | Device    | Speed  | Capacity   | Durability | Cost         |
 | --------- | ------ | ---------- | ---------- | ------------ |
 | HDD       | Medium | Very high  | Medium     | Low          |
@@ -293,6 +327,8 @@ $100 / 10.9 \approx 9.2\times$.
 | USB flash | Medium | Low-Medium | High       | Low          |
 | Optical   | Slow   | Low-Medium | Low        | Very low     |
 | Cloud     | Varies | Varies     | Varies     | Subscription |
+
+</div>
 
 **Choosing storage: practical considerations:**
 
@@ -323,6 +359,8 @@ Data stored on remote servers accessed via the Internet.
 
 ### 4.1 Functions of an Operating System
 
+<div class="table-wrap">
+
 | Function             | Description                                                         |
 | -------------------- | ------------------------------------------------------------------- |
 | Memory management    | Allocates RAM to programs, manages virtual memory                   |
@@ -331,6 +369,8 @@ Data stored on remote servers accessed via the Internet.
 | File management      | Organises files in directories, handles read/write operations       |
 | User interface       | Provides a way for users to interact with the computer (GUI or CLI) |
 | Security             | Manages user accounts, permissions, and access control              |
+
+</div>
 
 **Memory management in detail.** The OS keeps track of which parts of RAM are in use and by which
 Program. When a program is launched, the OS allocates a block of RAM. When the program closes, the
@@ -342,12 +382,16 @@ Multitasking even on a single-core CPU.
 
 **Common scheduling algorithms:**
 
+<div class="table-wrap">
+
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
 | Round-robin              | Each process gets a fixed time slice in turn           | High     |
 | Priority-based           | Higher-priority processes get CPU time first           | Low      |
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
+
+</div>
 
 ### 4.2 Types of User Interface
 
@@ -368,6 +412,8 @@ Multitasking even on a single-core CPU.
 
 **GUI vs CLI comparison:**
 
+<div class="table-wrap">
+
 | Feature     | GUI                   | CLI                      |
 | ----------- | --------------------- | ------------------------ |
 | Ease of use | Easy for beginners    | Steep learning curve     |
@@ -376,9 +422,13 @@ Multitasking even on a single-core CPU.
 | Automation  | Limited               | Easy with scripting      |
 | Flexibility | Menu-driven           | Full control             |
 
+</div>
+
 ### 4.3 Utility Software
 
 Utility software helps maintain and manage the computer:
+
+<div class="table-wrap">
 
 | Utility              | Purpose                                     |
 | -------------------- | ------------------------------------------- |
@@ -388,12 +438,16 @@ Utility software helps maintain and manage the computer:
 | Compression software | Compresses and decompresses files           |
 | Backup software      | Creates copies of data for recovery         |
 
+</div>
+
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
 Defragmentation reorganises files into contiguous blocks. Note: SSDs do not need defragmentation and
 it can actually reduce their lifespan.
 
 ### 4.4 Types of Operating System (Higher Tier)
+
+<div class="table-wrap">
 
 | Type        | Description                                    | Examples              |
 | ----------- | ---------------------------------------------- | --------------------- |
@@ -403,6 +457,8 @@ it can actually reduce their lifespan.
 | Embedded    | Built into devices for specific functions      | Car ECU, smart TV     |
 | Network     | Manages network resources and services         | Windows Server, Linux |
 | Distributed | Multiple computers work together as one system | Cloud platforms       |
+
+</div>
 
 ## 5. Embedded Systems
 
@@ -429,6 +485,8 @@ Specific function.
 
 **Embedded systems vs general-purpose computers:**
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -436,6 +494,8 @@ Specific function.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
@@ -479,6 +539,8 @@ SUB, MOV, JMP).
 
 **Example machine code instructions:**
 
+<div class="table-wrap">
+
 | Instruction | Meaning                          |
 | ----------- | -------------------------------- |
 | 0000 0001   | Load accumulator from address    |
@@ -488,6 +550,8 @@ SUB, MOV, JMP).
 | 0000 0101   | Jump to address                  |
 | 0000 0110   | Jump to address if accumulator=0 |
 | 0000 0111   | Halt                             |
+
+</div>
 
 **Worked Example.** Write the machine code to add two numbers stored at addresses 10 and 11 and
 Store the result at address 12.
@@ -520,6 +584,8 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 
 ### 2.1 Types of Memory
 
+<div class="table-wrap">
+
 | Type              | Volatile? | Speed     | Capacity   | Purpose                                      |
 | ----------------- | --------- | --------- | ---------- | -------------------------------------------- |
 | RAM               | Yes       | Fast      | Moderate   | Stores currently running programs and data   |
@@ -527,7 +593,11 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 | Cache             | Yes       | Very fast | Very small | Stores frequently used instructions and data |
 | Secondary storage | No        | Slow      | Large      | Long-term storage of files and programs      |
 
+</div>
+
 ### 2.2 RAM vs ROM
+
+<div class="table-wrap">
 
 | Feature        | RAM                                | ROM                                 |
 | -------------- | ---------------------------------- | ----------------------------------- |
@@ -535,6 +605,8 @@ Instruction per clock cycle (vs one every 3 cycles without pipelining).
 | Read/Write     | Both                               | Read only                           |
 | Contents       | Programs and data currently in use | Boot-up instructions (BIOS)         |
 | Can be changed | Yes                                | No (in traditional ROM)             |
+
+</div>
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
@@ -603,6 +675,8 @@ Specific function.
 
 **Embedded systems vs general-purpose computers:**
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -610,6 +684,8 @@ Specific function.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
@@ -634,6 +710,8 @@ Stage and provides a record for future maintenance.
 
 ### 6.2 Types of Testing
 
+<div class="table-wrap">
+
 | Type                | Description                                               |
 | ------------------- | --------------------------------------------------------- |
 | Unit testing        | Testing individual components in isolation                |
@@ -642,6 +720,8 @@ Stage and provides a record for future maintenance.
 | Acceptance testing  | Customer tests the system to ensure it meets requirements |
 | Alpha testing       | Testing by the development team                           |
 | Beta testing        | Testing by a group of real users                          |
+
+</div>
 
 **Black-box vs white-box testing:**
 

@@ -21,6 +21,8 @@ A `Collection` is an in-memory data structure that holds elements. A `Stream` is
 elements supporting sequential and parallel aggregate operations computed on demand from a source.
 The distinction is fundamental and understanding it prevents entire categories of bugs.
 
+<div class="table-wrap">
+
 | Property      | Collection                                | Stream                                                      |
 | ------------- | ----------------------------------------- | ----------------------------------------------------------- |
 | Storage       | Holds elements in memory                  | Does not store elements; computes from a source             |
@@ -29,6 +31,8 @@ The distinction is fundamental and understanding it prevents entire categories o
 | Mutability    | Elements can be added, removed, replaced  | Elements are never modified; operations produce new streams |
 | Iteration     | External (user controls the loop)         | Internal (library controls the iteration)                   |
 | Purpose       | Store and organize data                   | Compute aggregate results and transform data                |
+
+</div>
 
 ```java
 List<String> names = List.of("Alice", "Bob", "Charlie", "Diana");
@@ -943,6 +947,8 @@ However, `Optional` was **not designed** for every use case. Brian Goetz (Java l
 has stated that `Optional` is primarily intended for **return types** of methods, not for fields,
 method parameters, or collections.
 
+<div class="table-wrap">
+
 | Usage              | Recommended? | Reason                                                           |
 | ------------------ | :----------: | ---------------------------------------------------------------- |
 | Method return type |     Yes      | Forces caller to handle absence                                  |
@@ -950,6 +956,8 @@ method parameters, or collections.
 | Field              |      No      | Increases memory overhead (wrapper object), breaks serialization |
 | Collection element |      No      | Use empty collection; `Optional` in collections is a code smell  |
 | Stream element     |      No      | Use `filter` and `flatMap` instead                               |
+
+</div>
 
 ### Creating Optionals
 

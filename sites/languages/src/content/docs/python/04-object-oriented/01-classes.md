@@ -761,6 +761,8 @@ Automatically generates `__hash__`. Frozen dataclasses are suitable as dict keys
 
 Python has three overlapping mechanisms for data-holding classes. Each exists for different reasons:
 
+<div class="table-wrap">
+
 | Feature     | `namedtuple` | `dataclass`        | `attrs` (third-party) |
 | ----------- | ------------ | ------------------ | --------------------- |
 | Mutable     | No           | Yes (configurable) | Yes (configurable)    |
@@ -769,6 +771,8 @@ Python has three overlapping mechanisms for data-holding classes. Each exists fo
 | Validation  | None         | Manual             | Built-in              |
 | Performance | Excellent    | Good               | Good                  |
 | Stdlib      | Yes          | Yes (3.7+)         | No                    |
+
+</div>
 
 - **`namedtuple`** is the right choice when you need a lightweight, immutable, memory-efficient
   container with positional access. It is a tuple subclass, so it is compatible with APIs that

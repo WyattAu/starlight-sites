@@ -68,12 +68,16 @@ Sections are marked so you can see how deep a given page goes. A fresh
 undergraduate should read every F and U on a topic, then the A sections of the
 topics they intend to specialise in.
 
+<div class="table-wrap">
+
 | Mark | Meaning |
 | ---- | ------- |
 | **F** Foundation | Definitions and first examples. Assumed later. |
 | **U** Undergraduate | The standard degree-level treatment, with proofs. |
 | **A** Advanced | Graduate-level: the machinery needed for research. |
 | **R** Research | Open problems, recent results, and where the machinery fails. |
+
+</div>
 
 ## Recommended Study Order
 
@@ -331,9 +335,13 @@ The classical mechanics track continues past the undergraduate treatment into
 research-level material. These pages assume the mechanics and Hamiltonian
 content above and go further:
 
+<div class="table-wrap">
+
 | Module | Builds on | Tier |
 | ------ | --------- | ---- |
 | [Symplectic Structure and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) | Hamiltonian mechanics, Noether's theorem | R |
+
+</div>
 
 Covers the symplectic form, Liouville's theorem, integrable systems and
 action-angle variables, the KAM theorem and the Diophantine condition on

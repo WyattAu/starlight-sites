@@ -51,11 +51,15 @@ Conversion.
 
 The standard defines three clocks [N4950 §29.5.7]:
 
+<div class="table-wrap">
+
 | Clock                                | Properties                                                                       | Use Case                              |
 | :----------------------------------- | :------------------------------------------------------------------------------- | :------------------------------------ |
 | `std::chrono::system_clock`          | Wall clock time; may jump (NTP, DST); epoch is Unix epoch (1970-01-01T00:00:00Z) | Calendar time, timestamps, file times |
 | `std::chrono::steady_clock`          | Monotonic; never goes backwards; minimum guaranteed tick period is 1 nanosecond  | Measuring elapsed time, timeouts      |
 | `std::chrono::high_resolution_clock` | Alias for the clock with the shortest tick period (often `steady_clock`)         | Benchmarking                          |
+
+</div>
 
 :::caution
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time**, it
@@ -69,6 +73,8 @@ A `std::chrono::duration&lt;Rep, Period>` represents a time span where `Rep` is 
 
 The standard provides convenient duration typedefs [N4950 §29.5.3.1]:
 
+<div class="table-wrap">
+
 | Type                          | Period                        |
 | :---------------------------- | :---------------------------- |
 | `std::chrono::nanoseconds`    | `std::nano` (1/1,000,000,000) |
@@ -81,6 +87,8 @@ The standard provides convenient duration typedefs [N4950 §29.5.3.1]:
 | `std::chrono::weeks` (C++20)  | `std::ratio&lt;604800>`       |
 | `std::chrono::years` (C++20)  | `std::ratio&lt;31556952>`     |
 | `std::chrono::months` (C++20) | `std::ratio&lt;2629746>`      |
+
+</div>
 
 Duration arithmetic is type-safe and uses `std::common_type` to determine the result type:
 
@@ -187,6 +195,8 @@ Benchmarking and logging frameworks.
 
 C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
 
+<div class="table-wrap">
+
 | Type                              | Purpose                                                     |
 | :-------------------------------- | :---------------------------------------------------------- |
 | `std::chrono::year`               | Year (e.g., `2026y`)                                        |
@@ -198,6 +208,8 @@ C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
 | `std::chrono::weekday`            | Day of week (Monday..Sunday, `Mon``Tue`...)                 |
 | `std::chrono::tzdb`               | Timezone database                                           |
 | `std::chrono::zoned_time`         | A time point in a specific timezone                         |
+
+</div>
 
 ```cpp
 #include <chrono>

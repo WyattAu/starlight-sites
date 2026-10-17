@@ -25,6 +25,8 @@ the DSE specification.
 
 ## Topic Coverage Map
 
+<div class="table-wrap">
+
 | #   | File                            | Topic                     | Key Concepts Tested                                                            |
 | --- | ------------------------------- | ------------------------- | ------------------------------------------------------------------------------ |
 | 1   | `diag-mechanics.md`             | Mechanics                 | SUVAT selection, projectile independence, sign conventions, multi-stage motion |
@@ -37,6 +39,8 @@ the DSE specification.
 | 8   | `diag-electricity-magnetism.md` | Electricity and Magnetism | Faraday/Lenz laws, transformers, back EMF, electromagnetic braking             |
 | 9   | `diag-heat-gases.md`            | Heat and Gases            | Latent heat, gas law units, kinetic theory, adiabatic processes                |
 | 10  | `diag-nuclear-physics.md`       | Nuclear Physics           | Half-life, binding energy, decay chains, mass-energy equivalence               |
+
+</div>
 
 ## Prerequisite Chains
 
@@ -71,6 +75,8 @@ Heat and Gases (9) -----> Nuclear Physics (10)
 
 Each question is scored on a 4-level scale:
 
+<div class="table-wrap">
+
 | Level              | Descriptor            | Criteria                                                                                     |
 | ------------------ | --------------------- | -------------------------------------------------------------------------------------------- |
 | **4 - Mastery**    | Complete and correct  | Correct final answer, valid method, appropriate units, no significant errors                 |
@@ -79,9 +85,13 @@ Each question is scored on a 4-level scale:
 | **1 - Beginning**  | Significant gaps      | Wrong approach or fundamental misconception; only isolated correct elements                  |
 | **0 - No attempt** | Blank or irrelevant   | No meaningful physics content                                                                |
 
+</div>
+
 ### Diagnostic Interpretation
 
 **Per-topic score** (out of 24: 6 questions x 4 marks each):
+
+<div class="table-wrap">
 
 | Score | Band | Interpretation            | Action                                                                        |
 | ----- | ---- | ------------------------- | ----------------------------------------------------------------------------- |
@@ -91,9 +101,13 @@ Each question is scored on a 4-level scale:
 | 6-11  | D    | Significant gaps          | Study the topic from fundamentals; use worked examples as templates           |
 | 0-5   | U    | Major intervention needed | Seek teacher support; start with basic concepts before attempting diagnostics |
 
+</div>
+
 ### Overall Diagnostic Profile
 
 Sum all 10 topic scores (max 240):
+
+<div class="table-wrap">
 
 | Total   | Band  | Recommendation                                                         |
 | ------- | ----- | ---------------------------------------------------------------------- |
@@ -103,6 +117,8 @@ Sum all 10 topic scores (max 240):
 | 108-143 | 3     | Moderate gaps; prioritise foundation-tier topics first                 |
 | 72-107  | 2     | Significant review needed; consider structured study plan              |
 | 0-71    | 1     | Intensive intervention; work through prerequisite chain from the start |
+
+</div>
 
 ## Common Pitfalls by Topic
 

@@ -47,6 +47,8 @@ Independent variable.
 
 **Example 1, Investigating `g` with a pendulum:**
 
+<div class="table-wrap">
+
 | Type        | Variable                      | How it is controlled/changed                    |
 | ----------- | ----------------------------- | ----------------------------------------------- |
 | Independent | Length of pendulum, $L$       | Vary with a metre rule from 0.2 m to 1.0 m      |
@@ -55,7 +57,11 @@ Independent variable.
 | Control     | Amplitude (angle of release)  | Keep below $5^\circ$                            |
 | Control     | String material and thickness | Use inextensible string                         |
 
+</div>
+
 **Example 2, Investigating the effect of temperature on the resistance of a thermistor:**
+
+<div class="table-wrap">
 
 | Type        | Variable           | How it is controlled/changed              |
 | ----------- | ------------------ | ----------------------------------------- |
@@ -64,6 +70,8 @@ Independent variable.
 | Control     | Type of thermistor | Same component throughout                 |
 | Control     | Immersion depth    | Thermistor fully submerged at fixed depth |
 | Control     | Heating rate       | Heat slowly, allow thermal equilibrium    |
+
+</div>
 
 :::caution
 Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependent variable."
@@ -281,6 +289,8 @@ is critical:
 
 ### Measuring Instruments
 
+<div class="table-wrap">
+
 | Instrument       | Typical Range                  | Resolution        | Common Use                  |
 | ---------------- | ------------------------------ | ----------------- | --------------------------- |
 | Metre rule       | 0–100 cm                       | 1 mm              | Lengths                     |
@@ -293,6 +303,8 @@ is critical:
 | Ammeter          | 0–10 A                         | 0.01 A or 0.1 A   | Current                     |
 | Signal generator | 1 Hz – 1 MHz                   | 1 Hz              | AC frequency                |
 | Data logger      | Various                        | Depends on sensor | Continuous recording        |
+
+</div>
 
 ### Choosing the Right Instrument
 
@@ -338,13 +350,19 @@ A risk assessment follows four steps:
 
 ### Risk Assessment Matrix
 
+<div class="table-wrap">
+
 | Likelihood / Severity | Minor (e.g., small burn) | Moderate (e.g., electric shock) | Severe (e.g., eye damage) |
 | --------------------- | ------------------------ | ------------------------------- | ------------------------- |
 | **Unlikely**          | Low                      | Medium                          | High                      |
 | **Possible**          | Medium                   | High                            | Very High                 |
 | **Likely**            | High                     | Very High                       | Unacceptable              |
 
+</div>
+
 ### Common Hazards in Physics Practicals
+
+<div class="table-wrap">
 
 | Hazard                       | Risk                          | Control Measures                                           |
 | ---------------------------- | ----------------------------- | ---------------------------------------------------------- |
@@ -355,6 +373,8 @@ A risk assessment follows four steps:
 | Heavy objects (e.g., masses) | Crushing injury               | Secure clamp stands, keep feet clear                       |
 | Sharp wire ends              | Cuts                          | File ends smooth, handle with care                         |
 | Oscilloscope / CRO           | Electric shock                | Check connections before powering on                       |
+
+</div>
 
 ### Writing a Risk Assessment for an Exam
 
@@ -620,10 +640,14 @@ Diffraction. The laser is directed at a slit, and the diffraction pattern is obs
 
 **Answer.**
 
+<div class="table-wrap">
+
 | Hazard               | Who is at risk       | Risk level | Control measures                                                                                                                                                              |
 | -------------------- | -------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Laser beam           | Experimenter, others | High       | Never look directly at the beam or its reflection; wear laser safety goggles; ensure beam is below eye level; place a beam stop behind the screen; remove reflective surfaces |
 | Electrical equipment | Experimenter         | Low        | Check mains connections are insulated; keep liquids away from the laser power supply                                                                                          |
+
+</div>
 
 <b>If you get this wrong, revise:</b> [Risk Assessment](#4-risk-assessment)
 

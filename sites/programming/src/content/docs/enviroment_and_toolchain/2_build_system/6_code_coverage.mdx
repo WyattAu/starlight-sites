@@ -272,12 +272,16 @@ Internal logic.
 
 ### Metric Comparison
 
+<div class="table-wrap">
+
 | Metric        | Granularity              | False Confidence Risk | Cost to Achieve High % |
 | ------------- | ------------------------ | --------------------- | ---------------------- |
 | **Line**      | Coarse                   | High                  | Low                    |
 | **Branch**    | Medium                   | Low                   | Medium                 |
 | **Function**  | Coarse (per-function)    | High                  | Low                    |
 | **Condition** | Fine (per-subexpression) | Very Low              | High                   |
+
+</div>
 
 **Industry standard for critical systems:** Branch coverage &gt; 80%, line coverage &gt; 90%. For
 Safety-critical (automotive, medical), branch coverage &gt; 95% is often required (per ISO 26262 /

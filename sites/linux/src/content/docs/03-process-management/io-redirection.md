@@ -22,12 +22,16 @@ Needed. File descriptors are non-negative integers maintained by the kernel per-
 
 ### Standard File Descriptors
 
+<div class="table-wrap">
+
 | FD  | Name   | Default Destination | Description                          |
 | --- | ------ | ------------------- | ------------------------------------ |
 | 0   | stdin  | Keyboard (terminal) | Input stream                         |
 | 1   | stdout | Terminal            | Normal output                        |
 | 2   | stderr | Terminal            | Error and diagnostic output          |
 | 3+  | custom | (none)              | Application-defined file descriptors |
+
+</div>
 
 ```bash
 ## View file descriptors for a process

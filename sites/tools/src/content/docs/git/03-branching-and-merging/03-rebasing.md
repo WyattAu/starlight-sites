@@ -310,6 +310,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 
 ### Arguments for Rebase
 
+<div class="table-wrap">
+
 | Argument             | Explanation                                                      |
 | -------------------- | ---------------------------------------------------------------- |
 | **Clean history**    | Linear history is easier to read with `git log` and `git bisect` |
@@ -317,7 +319,11 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Easier bisect**    | `git bisect` works more reliably on linear history               |
 | **Smaller diff**     | Pull requests contain only feature changes, not merge noise      |
 
+</div>
+
 ### Arguments for Merge
+
+<div class="table-wrap">
 
 | Argument              | Explanation                                                          |
 | --------------------- | -------------------------------------------------------------------- |
@@ -325,6 +331,8 @@ This is one of the most contentious debates in the Git community. Here is a bala
 | **Safe**              | Merge never rewrites history; rebase does                            |
 | **Preserves context** | Merge commits show when and why features were integrated             |
 | **Easier to revert**  | `git revert -m 1 <merge>` undoes an entire feature in one operation  |
+
+</div>
 
 ### The Golden Rule of Rebasing
 

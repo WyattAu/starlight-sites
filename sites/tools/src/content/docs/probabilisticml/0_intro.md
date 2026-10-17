@@ -60,6 +60,8 @@ predictions and parameters. This distinction has several practical consequences:
 
 ### Probabilistic vs Deterministic Models
 
+<div class="table-wrap">
+
 | Aspect          | Deterministic                         | Probabilistic                                         |
 | --------------- | ------------------------------------- | ----------------------------------------------------- |
 | Output          | Point estimate $\hat{y}$              | Distribution $p(y \mid x, \mathcal{D})$               |
@@ -69,6 +71,8 @@ predictions and parameters. This distinction has several practical consequences:
 | Model selection | Cross-validation, AIC/BIC             | Marginal likelihood, Bayes factors                    |
 | Small data      | Prone to overfitting                  | Priors stabilize estimates                            |
 | Computation     | Often cheaper                         | Often more expensive (integration over parameters)    |
+
+</div>
 
 ### Real-World Applications
 
@@ -155,12 +159,16 @@ machine learning:
 
 ### Software Stack
 
+<div class="table-wrap">
+
 | Component     | Tool       | Purpose                                   |
 | ------------- | ---------- | ----------------------------------------- |
 | Array compute | JAX        | Differentiable NumPy with GPU/TPU support |
 | Probabilistic | NumPyro    | Probabilistic programming on JAX          |
 | Visualization | Matplotlib | Plots and figures                         |
 | Formalization | Lean 4     | Proof verification of key theorems        |
+
+</div>
 
 ### Notation Conventions
 

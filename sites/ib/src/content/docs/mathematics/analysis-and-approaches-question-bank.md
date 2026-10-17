@@ -47,10 +47,14 @@ worked solutions below.
 
 (b) $S_{20} = \frac{20}{2}(a_1 + u_{20}) = 10(7 + 83) = 10(90) = \mathbf{900}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                           |
 | ---- | ----- | ------------------------------------ |
 | (a)  | 2     | Substitute into $u_n = a_1 + (n-1)d$ |
 | (b)  | 3     | Apply $S_n = \frac{n}{2}(a_1 + a_n)$ |
+
+</div>
 
 `medium`5 marks total
 
@@ -81,10 +85,14 @@ So $a = 2$, $h = 3$, $k = -8$. ✓
 (b) Since $a = 2 > 0$, the parabola opens upward. Minimum value is $\mathbf{-8}$ when
 $\mathbf{x = 3}$. ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                                |
 | ---- | ----- | --------------------------------------------------------- |
 | (a)  | 3     | Complete the square by factoring out coefficient of $x^2$ |
 | (b)  | 2     | Identify vertex $(h, k)$ from completed square form       |
+
+</div>
 
 `medium`5 marks total
 
@@ -112,9 +120,13 @@ $x = \frac{\ln 5 + \ln 3}{2\ln 3 - \ln 5} = \frac{\ln 15}{\ln 9 - \ln 5} = \frac
 
 $x \approx \frac{2.708}{0.5878} \approx \mathbf{4.61}$ (3 s.f.) ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                                  |
 | ---- | ----- | ----------------------------------------------------------- |
 |,    | 4     | Apply logarithms to both sides, collect $x$ terms, evaluate |
+
+</div>
 
 `hard`4 marks total
 
@@ -142,9 +154,13 @@ For $x^3$: $5 - r = 3 \Rightarrow r = 2$.
 
 Coefficient $= \binom{5}{2}(2)^3(-3)^2 = 10 \times 8 \times 9 = \mathbf{720}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                      |
 | ---- | ----- | ----------------------------------------------- |
 |,    | 3     | Identify the correct term, evaluate coefficient |
+
+</div>
 
 `medium`3 marks total
 
@@ -175,9 +191,13 @@ $\sin x = 0.5$ also in the second quadrant: $x = 180° - 30° = 150°$
 
 Solutions: $\mathbf{x = 30°, 150°}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                          |
 | ---- | ----- | --------------------------------------------------- |
 |,    | 4     | Isolate sin x, find principal value, apply symmetry |
+
+</div>
 
 `easy`4 marks total
 
@@ -207,9 +227,13 @@ $AC^2 = 100 - 96(-0.3420) = 100 + 32.83 = 132.83$
 
 $AC = \sqrt{132.83} \approx \mathbf{11.5 \text{ cm}}$ (3 s.f.) ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                  |
 | ---- | ----- | ------------------------------------------- |
 |,    | 3     | Apply cosine rule, evaluate with calculator |
+
+</div>
 
 `medium`3 marks total
 
@@ -240,10 +264,14 @@ $\overrightarrow{AB} = \mathbf{b} - \mathbf{a} = (5-2)\mathbf{i} + (-1-3)\mathbf
 $|\overrightarrow{AB}| = \sqrt{3^2 + (-4)^2 + 5^2} = \sqrt{9 + 16 + 25} = \sqrt{50} = \mathbf{5\sqrt{2}}$
 ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                 |
 | ---- | ----- | ------------------------------------------ |
 | (a)  | 1     | Subtract position vectors                  |
 | (b)  | 2     | Magnitude formula $\sqrt{x^2 + y^2 + z^2}$ |
+
+</div>
 
 `medium`3 marks total
 
@@ -276,10 +304,14 @@ $P(Z > 1.25) = 1 - 0.8944 = \mathbf{0.1056}$ ✓
 
 (b) $P(135 < X < 165) = P(-1.25 < Z < 1.25) = 2(0.8944) - 1 = \mathbf{0.7888}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                     |
 | ---- | ----- | ---------------------------------------------- |
 | (a)  | 2     | Standardise, use normal tables                 |
 | (b)  | 3     | Symmetry of normal distribution about the mean |
+
+</div>
 
 `medium`5 marks total
 
@@ -305,9 +337,13 @@ $P(Z > 1.25) = 1 - 0.8944 = \mathbf{0.1056}$ ✓
 $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Chemistry})}{P(\text{Chemistry})} = \frac{0.25}{0.45} = \frac{25}{45} = \frac{5}{9} \approx \mathbf{0.556}$
 ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                 |
 | ---- | ----- | ------------------------------------------ |
 |,    | 3     | Apply conditional probability formula $P(A \| B) = P(A \cap B) / P(B)$ |
+
+</div>
 
 `medium`3 marks total
 
@@ -346,10 +382,14 @@ $r = \frac{180}{\sqrt{40 \times 1120}} = \frac{180}{\sqrt{44800}} = \frac{180}{2
 
 (b) Strong positive linear correlation, as study hours increase, test scores tend to increase. ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                     |
 | ---- | ----- | ---------------------------------------------- |
 | (a)  | 3     | Compute $S_{xx}$, $S_{yy}$, $S_{xy}$, then $r$ |
 | (b)  | 1     | Interpret magnitude and sign of $r$            |
+
+</div>
 
 `hard`4 marks total
 
@@ -381,9 +421,13 @@ Case 3: 4 women, 0 men: $\binom{5}{4}\binom{7}{0} = 5 \times 1 = 5$
 
 Total $= 210 + 70 + 5 = \mathbf{285}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                            |
 | ---- | ----- | ----------------------------------------------------- |
 |,    | 4     | Split into cases by number of women, sum combinations |
+
+</div>
 
 `hard`4 marks total
 
@@ -415,9 +459,13 @@ $= \lim_{h \to 0} \frac{2xh + h^2}{h}$
 
 $= \lim_{h \to 0}(2x + h) = \mathbf{2x}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                             |
 | ---- | ----- | -------------------------------------- |
 |,    | 4     | Expand, factor out $h$, evaluate limit |
+
+</div>
 
 `medium`4 marks total
 
@@ -456,9 +504,13 @@ $\left[\frac{x^3}{3} - 2x^2 + 3x\right]_3^4 = \left(\frac{64}{3} - 32 + 12\right
 
 Total area $= \frac{4}{3} + \frac{4}{3} = \mathbf{\frac{8}{3}}$ ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                                           |
 | ---- | ----- | -------------------------------------------------------------------- |
 |,    | 5     | Find roots, split integral at roots, integrate, take absolute values |
+
+</div>
 
 `hard`5 marks total
 
@@ -498,9 +550,13 @@ $h = \frac{500}{500^{2/3}} = 500^{1/3} \approx \mathbf{7.94 \text{ cm}}$
 
 $\frac{d^2C}{dx^2} = 0.20 + \frac{200}{x^3} > 0$ for all $x > 0$, confirming a minimum. ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                           |
 | ---- | ----- | ---------------------------------------------------- |
 |,    | 6     | Express cost function, differentiate, verify minimum |
+
+</div>
 
 `hard`6 marks total
 
@@ -546,10 +602,14 @@ Distance $= |s(\frac{2}{3}) - s(0)| + |s(2) - s(\frac{2}{3})| + |s(3) - s(2)|$
 $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \approx \mathbf{5.96 \text{ m}}$
 ✓
 
+<div class="table-wrap">
+
 | Part | Marks | Key Method                                                 |
 | ---- | ----- | ---------------------------------------------------------- |
 | (a)  | 2     | Factor quadratic for $v = 0$                               |
 | (b)  | 4     | Integrate, find turning points, sum absolute displacements |
+
+</div>
 
 `hard`6 marks total
 
@@ -566,6 +626,8 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 
 ## Summary
 
+<div class="table-wrap">
+
 | Topic                      | Questions | Total Marks | Difficulty Range |
 | -------------------------- | --------- | ----------- | ---------------- |
 | Algebra and Functions      | Q1–Q4     | 17          | medium–hard      |
@@ -573,6 +635,8 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 | Statistics and Probability | Q8–Q11    | 16          | medium–hard      |
 | Calculus                   | Q12–Q15   | 20          | medium–hard      |
 | **Total**                  | **15**    | **63**      |                  |
+
+</div>
 
 ## Worked Examples
 

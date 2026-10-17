@@ -41,9 +41,13 @@ Computers use **binary** (base 2), which has only two digits: 0 and 1. Each bina
 
 A group of 8 bits is called a **byte**.
 
+<div class="table-wrap">
+
 | Bit position | 128   | 64    | 32    | 16    | 8     | 4     | 2     | 1     |
 | ------------ | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Power of 2   | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
+
+</div>
 
 **Why binary?** Digital circuits are built from transistors, which have two states: on (high
 Voltage) and off (low voltage). These two states map to 1 and 0. Binary arithmetic can be
@@ -87,12 +91,16 @@ Reading bottom to top: 11010110.
 
 ### 1.3 Units of Data
 
+<div class="table-wrap">
+
 | Unit            | Number of bytes          |
 | --------------- | ------------------------ |
 | 1 Kilobyte (KB) | $2^{10} = 1024$ bytes    |
 | 1 Megabyte (MB) | $2^{20} = 1048576$ bytes |
 | 1 Gigabyte (GB) | $2^{30}$ bytes           |
 | 1 Terabyte (TB) | $2^{40}$ bytes           |
+
+</div>
 
 :::caution
 Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
@@ -103,9 +111,13 @@ Specifically to powers of 1024.
 
 Binary addition follows the same rules as denary addition, but with only two digits:
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Worked Example.** $0110 + 0101$
 
@@ -213,6 +225,8 @@ Hex is used as a shorthand for binary because:
 - Large binary numbers are easier to read and write in hex
 - Hex is easier for humans to work with than long strings of 0s and 1s
 
+<div class="table-wrap">
+
 | Binary | Hex | Denary |
 | ------ | --- | ------ |
 | 0000   | 0   | 0      |
@@ -231,6 +245,8 @@ Hex is used as a shorthand for binary because:
 | 1101   | D   | 13     |
 | 1110   | E   | 14     |
 | 1111   | F   | 15     |
+
+</div>
 
 ### 2.2 Conversions
 
@@ -303,11 +319,15 @@ $3 \times 16 + 12 = 48 + 12 = 60$.
 A **character set** is a collection of characters that a computer can recognise. Each character is
 Assigned a unique binary code.
 
+<div class="table-wrap">
+
 | Character Set  | Description                                        | Characters                              |
 | -------------- | -------------------------------------------------- | --------------------------------------- |
 | ASCII          | American Standard Code for Information Interchange | 128 characters (7 bits)                 |
 | Extended ASCII | Extended version                                   | 256 characters (8 bits)                 |
 | Unicode        | Universal character set                            | Over 140,000 characters (up to 32 bits) |
+
+</div>
 
 ### 3.2 ASCII
 
@@ -318,6 +338,8 @@ ASCII uses 7 bits, giving $2^7 = 128$ possible characters:
 
 **Key ASCII values:**
 
+<div class="table-wrap">
+
 | Character | ASCII Code | Character | ASCII Code |
 | --------- | ---------- | --------- | ---------- |
 | A         | 65         | a         | 97         |
@@ -325,6 +347,8 @@ ASCII uses 7 bits, giving $2^7 = 128$ possible characters:
 | Z         | 90         | z         | 122        |
 | 0         | 48         | 9         | 57         |
 | Space     | 32         | !         | 33         |
+
+</div>
 
 **Useful pattern:** The ASCII code for 'a' is 97, for 'b' is 98, ..., for 'z' is 122. The code for
 'A' is 65, for 'B' is 66, ..., for 'Z' is 90. The difference between uppercase and lowercase is 32.
@@ -373,6 +397,8 @@ Assigned a binary value that represents its colour.
 
 **Colour depth:** The number of bits used to represent each pixel.
 
+<div class="table-wrap">
+
 | Colour Depth      | Number of Colours      |
 | ----------------- | ---------------------- |
 | 1 bit             | 2 (black and white)    |
@@ -380,6 +406,8 @@ Assigned a binary value that represents its colour.
 | 16 bits           | 65536                  |
 | 24 bits (3 bytes) | 16777216 (True Colour) |
 | 32 bits           | Over 4 billion         |
+
+</div>
 
 **Why $2^n$ colours?** With $n$ bits per pixel, there are $2^n$ possible combinations of 0s and 1s.
 Each combination maps to a unique colour. So 24 bits gives $2^{24} = 16,777,216$ possible colours.
@@ -459,6 +487,8 @@ Rather than as pixels.
 
 **Bitmap vs Vector comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
@@ -466,6 +496,8 @@ Rather than as pixels.
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
 | Editing        | Pixel-level manipulation    | Edit individual shapes      |
+
+</div>
 
 ## 5. Representing Sound
 
@@ -486,11 +518,15 @@ Original curve.
 
 ### 5.2 Key Terms
 
+<div class="table-wrap">
+
 | Term                          | Definition                                               |
 | ----------------------------- | -------------------------------------------------------- |
 | Sample rate                   | Number of samples taken per second (measured in Hz)      |
 | Sample resolution (bit depth) | Number of bits per sample                                |
 | Bit rate                      | Sample rate $\times$ sample resolution (bits per second) |
+
+</div>
 
 ### 5.3 Calculating Sound File Size
 
@@ -578,12 +614,16 @@ High-frequency components that are less perceptible. This is why heavily compres
 
 **Compression ratio comparison:**
 
+<div class="table-wrap">
+
 | Format | Type     | Typical Compression Ratio | Quality      |
 | ------ | -------- | ------------------------- | ------------ |
 | PNG    | Lossless | 2:1 to 3:1                | Perfect      |
 | JPEG   | Lossy    | 10:1 to 20:1              | Good to poor |
 | FLAC   | Lossless | 2:1                       | Perfect      |
 | MP3    | Lossy    | 10:1 to 12:1              | Good         |
+
+</div>
 
 ### 6.3 Lossless Compression
 
@@ -639,6 +679,8 @@ Characters get shorter codes, and no code is a prefix of another (prefix-free pr
 
 **Example.** For the string "BCCABBDDAECCBBAEDDCC":
 
+<div class="table-wrap">
+
 | Character | Frequency | Huffman Code |
 | --------- | --------- | ------------ |
 | B         | 5         | 00           |
@@ -646,6 +688,8 @@ Characters get shorter codes, and no code is a prefix of another (prefix-free pr
 | D         | 4         | 10           |
 | A         | 3         | 110          |
 | E         | 2         | 111          |
+
+</div>
 
 The most frequent character (C, 6 occurrences) gets the shortest code (01). The least frequent (E, 2
 Occurrences) gets the longest code (111).
@@ -686,12 +730,16 @@ $$
 -2^{n-1} \mathrm{ to  2^{n-1} - 1
 $$
 
+<div class="table-wrap">
+
 | Bits | Range                     |
 | ---- | ------------------------- |
 | 4    | -8 to 7                   |
 | 8    | -128 to 127               |
 | 16   | -32768 to 32767           |
 | 32   | -2147483648 to 2147483647 |
+
+</div>
 
 **Why this asymmetry?** There is one more negative number than positive number because zero is
 Represented as all zeros (positive). The pattern $100\ldots0$ (MSB = 1, rest = 0) represents

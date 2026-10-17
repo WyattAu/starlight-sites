@@ -39,6 +39,8 @@ The truth value of a proposition $P$ is denoted $\mathcal{T}(P) \in \{T, F\}$.
 
 There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 
+<div class="table-wrap">
+
 | Connective    | Symbol         | Read as              | Meaning                                 |
 | :------------ | :------------- | :------------------- | :-------------------------------------- |
 | Negation      | $\neg P$       | "not P"              | True when P is false                    |
@@ -47,16 +49,24 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 | Implication   | $P \implies Q$ | "P implies Q"        | False only when P true and Q false      |
 | Biconditional | $P \iff Q$     | "P if and only if Q" | True when P and Q have same truth value |
 
+</div>
+
 #### Truth Tables
 
 **Negation:**
+
+<div class="table-wrap">
 
 | $P$ | $\neg P$ |
 | :-: | :------: |
 |  T  |    F     |
 |  F  |    T     |
 
+</div>
+
 **Conjunction:**
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \wedge Q$ |
 | :-: | :-: | :----------: |
@@ -65,7 +75,11 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 |  F  |  T  |      F       |
 |  F  |  F  |      F       |
 
+</div>
+
 **Disjunction (inclusive OR):**
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \vee Q$ |
 | :-: | :-: | :--------: |
@@ -74,7 +88,11 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 |  F  |  T  |     T      |
 |  F  |  F  |     F      |
 
+</div>
+
 **Implication:**
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \implies Q$ |
 | :-: | :-: | :------------: |
@@ -83,11 +101,15 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 |  F  |  T  |       T        |
 |  F  |  F  |       T        |
 
+</div>
+
 The implication $P \implies Q$ is only false when a true premise leads to a false conclusion. This
 is the single most misunderstood truth table entry in all of mathematics. When $P$ is false, the
 Implication is **vacuously true**, there is no counterexample to "whenever P holds, Q holds."
 
 **Biconditional:**
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \iff Q$ |
 | :-: | :-: | :--------: |
@@ -95,6 +117,8 @@ Implication is **vacuously true**, there is no counterexample to "whenever P hol
 |  T  |  F  |     F      |
 |  F  |  T  |     F      |
 |  F  |  F  |     T      |
+
+</div>
 
 ### 1.3 Logical Equivalence
 
@@ -1287,11 +1311,15 @@ use strong induction.
 
 ### 5.6 Confusing Converse with Contrapositive
 
+<div class="table-wrap">
+
 | Original                    | $P \implies Q$           |
 | :-------------------------- | :----------------------- |
 | Contrapositive (equivalent) | $\neg Q \implies \neg P$ |
 | Converse (NOT equivalent)   | $Q \implies P$           |
 | Inverse (NOT equivalent)    | $\neg P \implies \neg Q$ |
+
+</div>
 
 A true implication does NOT guarantee a true converse.
 
@@ -1310,12 +1338,16 @@ Showing $P$ is false does NOT disprove the implication.
 
 ### 5.8 Incorrect Quantifier Negation
 
+<div class="table-wrap">
+
 | Statement                            | Correct Negation                          |
 | :----------------------------------- | :---------------------------------------- |
 | $\forall x, \; P(x)$                 | $\exists x, \; \neg P(x)$                 |
 | $\exists x, \; P(x)$                 | $\forall x, \; \neg P(x)$                 |
 | $\forall x, \; \exists y, \; P(x,y)$ | $\exists x, \; \forall y, \; \neg P(x,y)$ |
 | $\exists x, \; \forall y, \; P(x,y)$ | $\forall x, \; \exists y, \; \neg P(x,y)$ |
+
+</div>
 
 :::danger
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
@@ -1336,6 +1368,8 @@ Preserved.
 
 ## 6. Proof Techniques Summary
 
+<div class="table-wrap">
+
 | Method             | When to Use                                        | Key Idea                           |
 | :----------------- | :------------------------------------------------- | :--------------------------------- |
 | Direct             | Straightforward chain from P to Q                  | Assume P, derive Q                 |
@@ -1345,6 +1379,8 @@ Preserved.
 | Induction (strong) | Statement depends on multiple previous cases       | Base cases + strong inductive step |
 | Exhaustion         | Finite, small number of cases                      | Check each case                    |
 | Counterexample     | Disproving a universal claim                       | Find one exception                 |
+
+</div>
 
 <details>
 <summary>Comprehensive Exercise Set</summary>
@@ -1448,10 +1484,14 @@ $$x^2 - 1 = 9 \implies x^2 = 10 \implies x = \sqrt{10}$$ (since $x > 1$)
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                         |
 | ----------------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Proof and Logic] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/13-proof) |
 | [Proof and Logic] | IB      | [View](https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic/)          |
+
+</div>
 
 ## See Also
 

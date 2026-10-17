@@ -29,11 +29,15 @@ Explain two leakages that would reduce the actual money creation below the theor
 
 (a) Maximum expansion $= \frac{\$1000}{0.10} = \$10,000$ (including the initial deposit).
 
+<div class="table-wrap">
+
 | (b) | Round    | Deposit | Required Reserves | Loans |
 | --- | -------- | ------- | ----------------- | ----- |
 | 1   | $\$1000$ | $\$100$ | $\$900$           |
 | 2   | $\$900$  | $\$90$  | $\$810$           |
 | 3   | $\$810$  | $\$81$  | $\$729$           |
+
+</div>
 
 Total after 3 rounds: Deposits $= 1000 + 900 + 810 = \$2710$. Loans $= 900 + 810 + 729 = \$2439$.
 
@@ -445,6 +449,8 @@ risk-free return).
 
 **Question:** A bank has the following balance sheet (in billions of HKD):
 
+<div class="table-wrap">
+
 | Assets            | Liabilities + Equity          |
 | ----------------- | ----------------------------- |
 | Reserves: 50      | Deposits: 400                 |
@@ -452,6 +458,8 @@ risk-free return).
 | Securities: 80    | Equity (Tier 1 + Tier 2): 100 |
 | Other assets: 120 |                               |
 | Total: 550        | Total: 550                    |
+
+</div>
 
 (a) Calculate the reserve ratio and the leverage ratio. (b) If the required reserve ratio is 10%,
 calculate excess reserves. (c) If the bank's risk-weighted assets are HK$350 billion, calculate the

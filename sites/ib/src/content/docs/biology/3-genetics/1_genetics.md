@@ -64,6 +64,8 @@ Genotypes.
 
 ### Terminology
 
+<div class="table-wrap">
+
 | Term                 | Definition                                                                                                           |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Gene**             | A heritable factor that controls a specific characteristic.                                                          |
@@ -78,6 +80,8 @@ Genotypes.
 | **Carrier**          | A heterozygous individual who carries a recessive allele without expressing it.                                      |
 | **Test cross**       | Crossing an individual of unknown genotype with a homozygous recessive individual to determine the unknown genotype. |
 
+</div>
+
 ### Monohybrid Cross
 
 A cross involving one gene with two alleles.
@@ -86,10 +90,14 @@ A cross involving one gene with two alleles.
 
 Cross: $Tt \times Tt$
 
+<div class="table-wrap">
+
 |     | $T$  | $t$  |
 | --- | ---- | ---- |
 | $T$ | $TT$ | $Tt$ |
 | $t$ | $Tt$ | $tt$ |
+
+</div>
 
 Genotypic ratio: $1 TT : 2 Tt : 1 tt$ Phenotypic ratio: $3$ tall : $1$ dwarf
 
@@ -140,6 +148,8 @@ A gene may have more than two alleles in the population, though any individual c
 
 **ABO Blood Group System**:
 
+<div class="table-wrap">
+
 | Genotype | Phenotype | Antigens on RBC |
 | -------- | --------- | --------------- |
 | $I^AI^A$ | A         | A               |
@@ -148,6 +158,8 @@ A gene may have more than two alleles in the population, though any individual c
 | $I^BI^i$ | B         | B               |
 | $I^AI^B$ | AB        | A and B         |
 | $ii$     | O         | Neither         |
+
+</div>
 
 ### Sex-Linked Inheritance
 
@@ -240,12 +252,16 @@ Eukaryotic gene expression is regulated at multiple levels:
 
 **Gene mutations** (point mutations):
 
+<div class="table-wrap">
+
 | Type                        | Effect                                                                                                                              |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Substitution** (missense) | One base replaced; changes one amino acid in the polypeptide.                                                                       |
 | **Substitution** (nonsense) | One base replaced; creates a premature stop codon; truncated, non-functional protein.                                               |
 | **Substitution** (silent)   | One base replaced; due to the degeneracy of the genetic code, the amino acid is unchanged.                                          |
 | **Frameshift mutation**     | Insertion or deletion of one or two bases (not a multiple of three); shifts the reading frame, altering all downstream amino acids. |
+
+</div>
 
 **Chromosomal mutations**:
 
@@ -298,11 +314,15 @@ PCR amplifies a specific DNA sequence exponentially without the need for living 
 
 **Thermal Cycling**:
 
+<div class="table-wrap">
+
 | Step             | Temperature                | Purpose                                                          |
 | ---------------- | -------------------------- | ---------------------------------------------------------------- |
 | **Denaturation** | $94$--$96^\circ\mathrm{C}$ | DNA double helix separates into single strands.                  |
 | **Annealing**    | $50$--$65^\circ\mathrm{C}$ | Primers bind (anneal) to complementary sequences on each strand. |
 | **Extension**    | $72^\circ\mathrm{C}$       | Taq polymerase synthesises new DNA strands from the primers.     |
+
+</div>
 
 Each cycle doubles the number of DNA copies. After $n$ cycles: $\mathrm{copies} = 2^n$ (starting
 from a double-stranded molecule). $25$--$35$ cycles are run.
@@ -360,12 +380,16 @@ The process of inserting a gene from one organism into another to produce a desi
 
 ### Examples of Genetic Modification
 
+<div class="table-wrap">
+
 | Organism    | Gene inserted                                      | Product / Trait                                                    |
 | ----------- | -------------------------------------------------- | ------------------------------------------------------------------ |
 | _E. Coli_   | Human insulin gene                                 | Human insulin (Humulin) for diabetes treatment                     |
 | _Bt_ corn   | _Bacillus thuringiensis_ toxin gene                | Resistance to insect pests                                         |
 | Golden Rice | $\beta$-carotene (provitamin A) biosynthesis genes | Rice grains containing provitamin A to combat vitamin A deficiency |
 | Goats       | Antithrombin III gene                              | Production of antithrombin in goat's milk                          |
+
+</div>
 
 ### Cloning
 
@@ -467,10 +491,14 @@ the probability that a son will have haemophilia.
 
 Cross: $X^HX^h \times X^HY$
 
+<div class="table-wrap">
+
 |       | $X^H$    | $Y$    |
 | ----- | -------- | ------ |
 | $X^H$ | $X^HX^H$ | $X^HY$ |
 | $X^h$ | $X^HX^h$ | $X^hY$ |
+
+</div>
 
 Daughters: $50\%$ $X^HX^H$ (normal), $50\%$ $X^HX^h$ (carrier). No daughters have haemophilia. Sons:
 $50\%$ $X^HY$ (normal), $50\%$ $X^hY$ (haemophiliac).
@@ -610,6 +638,8 @@ And $c$ (cinnabar eyes). A three-point cross is performed between a triple heter
 ($a^+ b^+ c^+ / a\; b\; c$) and a triple recessive male ($a\; b\; c / a\; b\; c$). The following
 Offspring phenotypes are observed from $2000$ total progeny:
 
+<div class="table-wrap">
+
 | Phenotype                 | Number |
 | ------------------------- | ------ |
 | Wild type                 | 720    |
@@ -620,6 +650,8 @@ Offspring phenotypes are observed from $2000$ total progeny:
 | apterous, cinnabar        | 145    |
 | cinnabar                  | 70     |
 | apterous, black           | 80     |
+
+</div>
 
 Determine the gene order and map distances between the three genes.
 
@@ -999,6 +1031,8 @@ F1: all $RrSs$ (pink, wavy)
 
 F2 ($RrSs \times RrSs$): $9$ phenotypic classes instead of $4$:
 
+<div class="table-wrap">
+
 | Phenotype combination | Genotype fraction |
 | --------------------- | ----------------- |
 | Pink ruffled          | $1/16$            |
@@ -1010,6 +1044,8 @@ F2 ($RrSs \times RrSs$): $9$ phenotypic classes instead of $4$:
 | White ruffled         | $1/16$            |
 | White wavy            | $2/16$            |
 | White smooth          | $1/16$            |
+
+</div>
 
 ---
 
@@ -1029,6 +1065,8 @@ F2 ($RrSs \times RrSs$): $9$ phenotypic classes instead of $4$:
 **Non-disjunction**: the failure of homologous chromosomes (Meiosis I) or sister chromatids (Meiosis
 II) To separate properly, resulting in gametes with abnormal chromosome numbers.
 
+<div class="table-wrap">
+
 | Condition                | Chromosome | Karyotype                  | Features                                                                                                                                    |
 | ------------------------ | ---------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Down syndrome**        | 21         | $47,XX,+21$ or $47,XY,+21$ | Trisomy 21; intellectual disability; flat facial profile; single palmar crease; congenital heart defects. Risk increases with maternal age. |
@@ -1036,6 +1074,8 @@ II) To separate properly, resulting in gametes with abnormal chromosome numbers.
 | **Edwards syndrome**     | 18         | $47,+18$                   | Trisomy 18; low birth weight; rocker-bottom feet; most die within first year.                                                               |
 | **Turner syndrome**      | X          | $45,X$                     | Monosomy X; female; short stature; webbed neck; ovarian dysgenesis (sterile).                                                               |
 | **Klinefelter syndrome** | X          | $47,XXY$                   | Male; tall stature; gynaecomastia; small testes; reduced fertility.                                                                         |
+
+</div>
 
 ### Structural Abnormalities
 
@@ -1571,11 +1611,15 @@ Consumer rights and practical implications.
 }
 </script>
 
+<div class="table-wrap">
+
 | Topic      | Site    | Link                                                                             |
 | ---------- | ------- | -------------------------------------------------------------------------------- |
 | [Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-and-dna) |
 | [Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/1_genetics/)             |
 | [Genetics] | DSE     | [View](https://dse.wyattau.com/biology/3-genetics/1_genetics/)           |
+
+</div>
 
 ## Supplementary: Meiosis in Detail (HL Extension)
 
@@ -1649,6 +1693,8 @@ Chromosome).
 
 ### Comparison: Mitosis vs Meiosis
 
+<div class="table-wrap">
+
 | Feature                    | Mitosis                              | Meiosis                                |
 | -------------------------- | ------------------------------------ | -------------------------------------- |
 | **Divisions**              | 1                                    | 2                                      |
@@ -1658,6 +1704,8 @@ Chromosome).
 | **Homologous pairing**     | No                                   | Yes (Metaphase I)                      |
 | **Independent assortment** | No                                   | Yes (Metaphase I)                      |
 | **Function**               | Growth, repair, asexual reproduction | Gamete production, sexual reproduction |
+
+</div>
 
 ### Sources of Genetic Variation in Meiosis
 
@@ -1721,6 +1769,8 @@ genetic predisposition To non-disjunction.
 
 ### Mitosis vs Meiosis -- Detailed Comparison Table
 
+<div class="table-wrap">
+
 | Feature                 | Mitosis                                   | Meiosis                                                                            |
 | ----------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- |
 | **Purpose**             | Growth, repair, asexual reproduction      | Gamete production                                                                  |
@@ -1735,6 +1785,8 @@ genetic predisposition To non-disjunction.
 | **Metaphase alignment** | Individual chromosomes at metaphase plate | Bivalents (homologous pairs) at metaphase plate                                    |
 | **Anaphase**            | Sister chromatids separate                | Meiosis I: homologous chromosomes separate; Meiosis II: sister chromatids separate |
 | **Prophase duration**   | Short (minutes to hours)                  | Very long (Prophase I can last days to decades in oocytes)                         |
+
+</div>
 
 ### Genetic Recombination Frequency and Mapping
 
@@ -1763,6 +1815,8 @@ $$
 Three genes (A, B, C) are on the same chromosome. A test cross between a triple heterozygote and a
 Triple recessive produces:
 
+<div class="table-wrap">
+
 | Phenotype | Number   |
 | --------- | -------- |
 | ABC       | 380      |
@@ -1774,6 +1828,8 @@ Triple recessive produces:
 | AbC       | 5        |
 | aBc       | 5        |
 | **Total** | **1000** |
+
+</div>
 
 (a) Determine the gene order. (b) Calculate the map distances between each pair of genes. (c)
 Calculate The coefficient of coincidence and interference.

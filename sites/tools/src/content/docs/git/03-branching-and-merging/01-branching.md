@@ -191,6 +191,8 @@ $ git push origin --delete feature-auth
 
 Consistent branch naming is essential for project hygiene. Common conventions:
 
+<div class="table-wrap">
+
 | Pattern                          | Purpose                                            |
 | -------------------------------- | -------------------------------------------------- |
 | `main``master`                   | Production-ready code                              |
@@ -201,6 +203,8 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `hotfix/<description>`           | Urgent production fixes                            |
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
+
+</div>
 :::
 
 :::tip

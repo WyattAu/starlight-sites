@@ -37,11 +37,15 @@ Competency.
 `grep` searches input lines for patterns matching a regular expression and prints matching lines.
 Three main variants exist:
 
+<div class="table-wrap">
+
 | Variant   | Regex Flavor | Description                         |
 | --------- | ------------ | ----------------------------------- |
 | `grep`    | BRE          | Basic Regular Expressions (default) |
 | `grep -E` | ERE          | Extended Regular Expressions        |
 | `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
+
+</div>
 
 ```bash
 ## Basic pattern matching
@@ -83,6 +87,8 @@ grep --color=always "pattern" file
 
 #### BRE vs ERE vs PCRE
 
+<div class="table-wrap">
+
 | Feature             | BRE      | ERE     | PCRE                     |
 | ------------------- | -------- | ------- | ------------------------ |
 | Literal match       | `abc`    | `abc`   | `abc`                    |
@@ -99,6 +105,8 @@ grep --color=always "pattern" file
 | Named capture       | No       | No      | `(?P&lt;name&gt;...)`    |
 | Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
 | Unicode properties  | No       | No      | `\p{L}`                  |
+
+</div>
 
 :::caution
 special meaning. In ERE, the reverse is true, they are special by default and must be escaped To be
@@ -386,12 +394,16 @@ find . -name "*.log" -print0 | xargs -0 -P 4 gzip
 find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 ```
 
+<div class="table-wrap">
+
 | Method            | Invocation Count | Safety             | Use Case                           |
 | ----------------- | ---------------- | ------------------ | ---------------------------------- |
 | `-exec {} \;`     | Once per file    | Safest             | Few files, complex commands        |
 | `-exec {} +`      | Batched          | Safe               | Many files, simple commands        |
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
+
+</div>
 :::
 
 :::caution
@@ -526,6 +538,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 
 ### Compression Formats
 
+<div class="table-wrap">
+
 | Format | Command           | Compression     | Speed     | Typical Ratio |
 | ------ | ----------------- | --------------- | --------- | ------------- |
 | gzip   | `gzip`/`gunzip`   | Deflate         | Fast      | 5:1 - 8:1     |
@@ -533,6 +547,8 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 | xz     | `xz`/`unxz`       | LZMA2           | Slower    | 10:1 - 15:1   |
 | zstd   | `zstd`/`unzstd`   | Zstandard       | Fastest   | 5:1 - 10:1    |
 | lz4    | `lz4`/`unlz4`     | LZ4             | Very fast | 3:1 - 5:1     |
+
+</div>
 
 ```bash
 # gzip
@@ -604,6 +620,8 @@ Type   Owner    Group    Other
 -       rwx      r-x      r--
 ```
 
+<div class="table-wrap">
+
 | Bit Position | Name      | Value | Description                            |
 | ------------ | --------- | ----- | -------------------------------------- |
 | 0-2          | Other     | 0-7   | Permissions for others                 |
@@ -611,7 +629,11 @@ Type   Owner    Group    Other
 | 6-8          | Owner     | 0-7   | Permissions for file owner             |
 | 9-11         | File type |,     | Regular file, directory, symlink, etc. |
 
+</div>
+
 Each permission triplet:
+
+<div class="table-wrap">
 
 | Octal | Binary | Permissions            |
 | ----- | ------ | ---------------------- |
@@ -623,6 +645,8 @@ Each permission triplet:
 | 5     | 101    | Read + Execute         |
 | 6     | 110    | Read + Write           |
 | 7     | 111    | Read + Write + Execute |
+
+</div>
 
 ```bash
 # Symbolic mode
@@ -647,11 +671,15 @@ chmod --reference=reference_file target_file
 
 ### Special Permission Bits
 
+<div class="table-wrap">
+
 | Bit    | Octal | Name   | Effect on Files       | Effect on Directories       |
 | ------ | ----- | ------ | --------------------- | --------------------------- |
 | setuid | 4000  | SUID   | Execute as file owner |,                           |
 | setgid | 2000  | SGID   | Execute as file group | New files inherit group     |
 | sticky | 1000  | Sticky |,                     | Only owner can delete files |
+
+</div>
 
 ```bash
 # Set SUID (execute as owner)

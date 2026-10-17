@@ -99,6 +99,8 @@ A common mistake is thinking the $-5$ affects the standard deviation.
 
 Find the estimated mean and estimated standard deviation from the following grouped data:
 
+<div class="table-wrap">
+
 | Class              | Frequency |
 | ------------------ | --------- |
 | $0 \leq x \lt 10$  | 5         |
@@ -106,9 +108,13 @@ Find the estimated mean and estimated standard deviation from the following grou
 | $20 \leq x \lt 30$ | 12        |
 | $30 \leq x \lt 40$ | 5         |
 
+</div>
+
 **Solution:**
 
 Midpoints: $5, 15, 25, 35$.
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$ | $fx^2$ |
 | ----- | --- | ---- | ------ |
@@ -117,6 +123,8 @@ Midpoints: $5, 15, 25, 35$.
 | 25    | 12  | 300  | 7500   |
 | 35    | 5   | 175  | 6125   |
 | Total | 30  | 620  | 15550  |
+
+</div>
 
 Estimated mean: $\bar{x} = \dfrac{620}{30} = \dfrac{62}{3} \approx 20.67$.
 
@@ -345,11 +353,17 @@ The additive constant $7$ shifts the data but does not affect the spread.
 
 Find the mean and standard deviation of the following data:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 6   | 8   | 10  |
 | --- | --- | --- | --- | --- | --- |
 | $f$ | 3   | 5   | 8   | 4   | 2   |
 
+</div>
+
 **Solution:**
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$ | $fx^2$ |
 | ----- | --- | ---- | ------ |
@@ -359,6 +373,8 @@ Find the mean and standard deviation of the following data:
 | 8     | 4   | 32   | 256    |
 | 10    | 2   | 20   | 200    |
 | Total | 22  | 126  | 836    |
+
+</div>
 
 $$
 \bar{x} = \frac{126}{22} = \frac{63}{11} \approx 5.727
@@ -535,9 +551,13 @@ outliers have an exaggerated effect on measures of dispersion.
 
 The mean of the following data is $4.5$. Find the value of $k$.
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   | 6   |
 | --- | --- | --- | --- | --- | --- | --- |
 | $f$ | 2   | 4   | $k$ | 6   | 3   | 1   |
+
+</div>
 
 **Solution:**
 
@@ -659,9 +679,13 @@ In DSE examinations, Sheppard's correction is generally not required unless expl
 
 The following table shows the distribution of marks obtained by 40 students in a test.
 
+<div class="table-wrap">
+
 | Marks     | $1$--$10$ | $11$--$20$ | $21$--$30$ | $31$--$40$ | $41$--$50$ |
 | --------- | --------- | ---------- | ---------- | ---------- | ---------- |
 | Frequency | 3         | 8          | 14         | 10         | 5          |
+
+</div>
 
 (a) Estimate the mean mark. (3 marks) (b) Estimate the standard deviation of the marks. (3 marks)
 (c) If a student scored 35 marks, find the student's standardised score (z-score). (2 marks)
@@ -669,6 +693,8 @@ The following table shows the distribution of marks obtained by 40 students in a
 **Solution:**
 
 (a) Midpoints: $5.5, 15.5, 25.5, 35.5, 45.5$.
+
+<div class="table-wrap">
 
 | $x$   | $f$ | $fx$  | $fx^2$   |
 | ----- | --- | ----- | -------- |
@@ -678,6 +704,8 @@ The following table shows the distribution of marks obtained by 40 students in a
 | 35.5  | 10  | 355   | 12602.5  |
 | 45.5  | 5   | 227.5 | 10351.25 |
 | Total | 40  | 1080  | 34070    |
+
+</div>
 
 $$
 \bar{x} = \frac{1080}{40} = 27

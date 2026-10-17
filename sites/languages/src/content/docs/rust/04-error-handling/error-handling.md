@@ -512,12 +512,16 @@ fn read_config(path: &str) -> Result<Config> {
 
 ### `anyhow` vs `thiserror`
 
+<div class="table-wrap">
+
 | Use `anyhow` for                  | Use `thiserror` for                              |
 | --------------------------------- | ------------------------------------------------ |
 | Application binaries              | Library crates                                   |
 | Quick prototyping                 | Public APIs with typed errors                    |
 | Functions with many error sources | Error types that callers need to match on        |
 | Scripts and CLIs                  | When the caller needs to distinguish error kinds |
+
+</div>
 
 A common pattern: use `thiserror` in your library crate to define precise error types, and use
 `anyhow` in the application crate that consumes the library.

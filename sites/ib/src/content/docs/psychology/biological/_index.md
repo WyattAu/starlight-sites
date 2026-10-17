@@ -99,6 +99,8 @@ mechanisms that are themselves shaped by environmental input.
 
 ## Essential Studies
 
+<div class="table-wrap">
+
 | Study                             | Researcher(s)          | Year | Key Finding                                                                                                                               | Evaluation Point                                                                                |
 | --------------------------------- | ---------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Minnesota Twin Study              | Bouchard et al.        | 1990 | MZ twins reared apart showed strong similarity on intelligence (r ~0.75) and personality, supporting genetic influence                    | Selective placement of twins limits the equal environments assumption                           |
@@ -110,6 +112,8 @@ mechanisms that are themselves shaped by environmental input.
 | Amygdala Reactivity and Genotype  | Hariri et al.          | 2002 | Short-allele carriers showed greater amygdala activation to fearful faces, linking gene to neural circuit                                 | Small sample (N = 28); laboratory emotion task lacks real-world complexity                      |
 | London Taxi Drivers               | Maguire et al.         | 2000 | Licensed taxi drivers had larger posterior hippocampi than bus drivers; hippocampal volume correlated with years of navigation experience | Cross-sectional design prevents causal inference; self-selection bias                           |
 | Phineas Gage                      | Harlow (case report)   | 1868 | Damage to left prefrontal cortex produced profound personality change despite preserved motor and language function                       | Single case study; cannot generalise; pre-injury personality reported retrospectively by others |
+
+</div>
 
 ## Worked Examples
 

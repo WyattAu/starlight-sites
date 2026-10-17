@@ -174,6 +174,8 @@ Type error fires first.
 
 `nargs` controls how many command-line tokens an argument consumes:
 
+<div class="table-wrap">
+
 | Value     | Meaning   | Example                    | Result                    |
 | --------- | --------- | -------------------------- | ------------------------- |
 | (default) | 1         | `--count 5`                | `5`                       |
@@ -181,6 +183,8 @@ Type error fires first.
 | `?`       | 0 or 1    | `--format json` or omitted | `json` or `default`       |
 | `*`       | 0 or more | `--tag a b c` or omitted   | `["a", "b", "c"]` or `[]` |
 | `+`       | 1 or more | `--file a.txt b.txt`       | `["a.txt", "b.txt"]`      |
+
+</div>
 
 `nargs="?"` has special behavior: when the flag is present without a value, `const` is stored
 instead of `default`. When the flag is absent entirely, `default` is stored.

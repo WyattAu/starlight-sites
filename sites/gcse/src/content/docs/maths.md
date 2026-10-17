@@ -355,12 +355,16 @@ $$
 
 ### 3.5 Transformations
 
+<div class="table-wrap">
+
 | Transformation | Description |
 | --- | --- |
 | **Translation** | Movement by a vector $\begin{pmatrix} x \\ y \end{pmatrix}$ |
 | **Rotation** | Turn about a centre by a given angle and direction |
 | **Reflection** | Mirror image across a given line of symmetry |
 | **Enlargement** | Scale factor $k$ from a centre of enlargement; lengths multiply by $k$, areas by $k^2$, volumes by $k^3$ |
+
+</div>
 
 ### 3.6 Vectors
 
@@ -394,12 +398,16 @@ $\mathbf{AB} = \mathbf{OB} - \mathbf{OA}$.
 
 ### 4.1 Averages
 
+<div class="table-wrap">
+
 | Measure | Definition |
 | --- | --- |
 | **Mean** | $\bar{x} = \frac{\text{sum of values}}{\text{number of values}}$ |
 | **Median** | The middle value when data is arranged in order |
 | **Mode** | The most common value |
 | **Range** | $\text{largest value} - \text{smallest value}$ |
+
+</div>
 
 ### 4.2 Grouped Data
 
@@ -479,6 +487,8 @@ $$
 
 ### Geometry
 
+<div class="table-wrap">
+
 | Formula | Value |
 | --- | --- |
 | Circumference | $C = \pi d = 2\pi r$ |
@@ -496,7 +506,11 @@ $$
 | Surface area of a sphere | $A = 4\pi r^2$ |
 | Surface area of a cylinder | $A = 2\pi r^2 + 2\pi r h$ |
 
+</div>
+
 ### Algebra
+
+<div class="table-wrap">
 
 | Formula | Value |
 | --- | --- |
@@ -504,13 +518,19 @@ $$
 | Discriminant | $\Delta = b^2 - 4ac$ |
 | Compound interest | $A = P\left(1 \pm \frac{r}{100}\right)^n$ |
 
+</div>
+
 ### Number
+
+<div class="table-wrap">
 
 | Formula | Value |
 | --- | --- |
 | Density | $\rho = \frac{m}{V}$ |
 | Speed | $s = \frac{d}{t}$ |
 | Pressure | $p = \frac{F}{A}$ |
+
+</div>
 
 ---
 

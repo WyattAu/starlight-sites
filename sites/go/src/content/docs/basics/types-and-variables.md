@@ -22,6 +22,8 @@ categories:
 
 Go provides signed and unsigned integers at standard widths:
 
+<div class="table-wrap">
+
 | Type               | Size (bytes) | Range (signed)                                          | Range (unsigned)                |
 | ------------------ | ------------ | ------------------------------------------------------- | ------------------------------- |
 | `int8` / `uint8`   | 1            | -128 to 127                                             | 0 to 255                        |
@@ -30,6 +32,8 @@ Go provides signed and unsigned integers at standard widths:
 | `int64` / `uint64` | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0 to 18,446,744,073,709,551,615 |
 | `int` / `uint`     | 4 or 8       | Same as `int32` or `int64` (platform-dependent)         | Same as `uint32` or `uint64`    |
 | `uintptr`          | 4 or 8       | Unsigned integer large enough to store a pointer value  |                                 |
+
+</div>
 
 `int` and `uint` are the default integer types. Their size matches the native word size of the
 Platform: 32 bits on 32-bit systems, 64 bits on 64-bit systems. Use `int` unless you need a specific
@@ -58,10 +62,14 @@ a, carry := bits.Add(255, 1, 0) // a == 0, carry == 1
 
 ## Floating-Point Types
 
+<div class="table-wrap">
+
 | Type      | Size    | Precision             |
 | --------- | ------- | --------------------- |
 | `float32` | 4 bytes | ~6-7 decimal digits   |
 | `float64` | 8 bytes | ~15-16 decimal digits |
+
+</div>
 
 `float64` is the default. Both conform to IEEE 754.
 
@@ -140,6 +148,8 @@ result := sb.String()
 Every type in Go has a zero value. Variables declared without an explicit initializer are set to
 Zero. This eliminates uninitialized variable bugs.
 
+<div class="table-wrap">
+
 | Type      | Zero Value                            |
 | --------- | ------------------------------------- |
 | `int`     | `0`                                   |
@@ -153,6 +163,8 @@ Zero. This eliminates uninitialized variable bugs.
 | Interface | `nil`                                 |
 | Struct    | All fields set to their zero values   |
 | Array     | All elements set to their zero values |
+
+</div>
 
 ```go
 var x int

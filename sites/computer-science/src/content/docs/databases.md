@@ -74,6 +74,8 @@ Internal storage).
 
 ### 1.4 Comparison of Data Models
 
+<div class="table-wrap">
+
 | Feature        | Relational                       | Object-Relational          | Document                 | Key-Value         | Graph                            | Column-Family                |
 | -------------- | -------------------------------- | -------------------------- | ------------------------ | ----------------- | -------------------------------- | ---------------------------- |
 | Data structure | Tables                           | Tables + objects           | JSON/BSON                | Key-value pairs   | Nodes + edges                    | Column families              |
@@ -82,6 +84,8 @@ Internal storage).
 | ACID support   | Full                             | Full                       | Limited                  | Limited           | Per-node                         | Tunable                      |
 | Scaling        | Vertical                         | Vertical                   | Horizontal               | Horizontal        | Horizontal                       | Horizontal                   |
 | Best for       | Structured data, complex queries | Complex types, inheritance | Content management, APIs | Caching, sessions | Social networks, recommendations | Time series, logs, analytics |
+
+</div>
 
 **Choosing a model.** Relational databases remain the default for structured data with complex
 Queries and strong consistency requirements. NoSQL databases excel when horizontal scalability or
@@ -380,6 +384,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 
 **Constraints:**
 
+<div class="table-wrap">
+
 | Constraint    | Enforcement                     |
 | ------------- | ------------------------------- |
 | `PRIMARY KEY` | Unique, not null                |
@@ -388,6 +394,8 @@ CREATE INDEX idx_enrolment_student ON Enrolment(StudentID);
 | `NOT NULL`    | No null values                  |
 | `CHECK`       | Arbitrary boolean condition     |
 | `DEFAULT`     | Default value if none specified |
+
+</div>
 
 ### 3.2 Data Manipulation Language (DML)
 
@@ -617,6 +625,8 @@ Returning all rows.
 
 **Types of SQL injection:**
 
+<div class="table-wrap">
+
 | Type                  | Description                                             |
 | --------------------- | ------------------------------------------------------- |
 | In-band (error-based) | Attacker extracts data from error messages              |
@@ -624,6 +634,8 @@ Returning all rows.
 | Blind (boolean)       | Attacker infers data by asking true/false questions     |
 | Blind (time-based)    | Attacker infers data by measuring response delays       |
 | Out-of-band           | Attacker triggers the DBMS to send data externally      |
+
+</div>
 
 **Prevention:**
 
@@ -956,12 +968,16 @@ $\mathrm{Course} \twoheadrightarrow \mathrm{Textbook}$.
 
 **Sample data:**
 
+<div class="table-wrap">
+
 | Course | Instructor | Textbook         |
 | ------ | ---------- | ---------------- |
 | CS101  | Smith      | DB Systems       |
 | CS101  | Lee        | DB Systems       |
 | CS101  | Smith      | Algorithm Design |
 | CS101  | Lee        | Algorithm Design |
+
+</div>
 
 The redundancy is clear: each instructor-textbook pair is repeated for each course.
 
@@ -1143,6 +1159,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 
 **Comparison:**
 
+<div class="table-wrap">
+
 | Property      | B+ Tree                 | Hash Index               |
 | ------------- | ----------------------- | ------------------------ |
 | Point query   | $O(\log_m n)$           | $O(1)$ average           |
@@ -1150,6 +1168,8 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 | Insert/Delete | $O(\log_m n)$           | $O(1)$ average           |
 | Space         | Nodes may be half-empty | May have overflow chains |
 | Order         | Maintains key order     | No ordering              |
+
+</div>
 
 ### 5.3 Bitmap Indexes
 
@@ -1162,11 +1182,15 @@ AND/OR for multi-criteria queries.
 
 **Bitwise operations for query evaluation:**
 
+<div class="table-wrap">
+
 | Query                   | Bitmap operation                                        |
 | ----------------------- | ------------------------------------------------------- |
 | $A = v_1$ AND $B = v_2$ | $\mathrm{bitmap_}{A,v_1}$ AND $\mathrm{bitmap_}{B,v_2}$ |
 | $A = v_1$ OR $A = v_2$  | $\mathrm{bitmap_}{A,v_1}$ OR $\mathrm{bitmap_}{A,v_2}$  |
 | $A \neq v_1$            | NOT $\mathrm{bitmap_}{A,v_1}$                           |
+
+</div>
 
 **Compression.** For columns with many distinct values, run-length encoding (WAH or BBC) compresses
 Bitmaps effectively while still supporting bitwise operations.
@@ -1178,6 +1202,8 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 
 **Selection cost estimation:**
 
+<div class="table-wrap">
+
 | Access method           | Cost (I/Os)                                               |
 | ----------------------- | --------------------------------------------------------- |
 | Full table scan         | $\lceil n_R / B \rceil$ (or $n_R$ if $B$ pages available) |
@@ -1185,15 +1211,21 @@ buffer Pool has $B$ pages and each disk page access costs one I/O.
 | B+ tree range search    | $\log_f(n_R)$ leaf + $\lvert\mathrm{range} pages\rvert$   |
 | Hash equality search    | 1 (ideal)                                                 |
 
+</div>
+
 Where $f$ is the fanout (average number of children per internal node).
 
 **Join cost estimation (from Section 7):**
+
+<div class="table-wrap">
 
 | Algorithm         | Cost                                                      |
 | ----------------- | --------------------------------------------------------- |
 | Block nested-loop | $n_R + \lceil n_R/(B-2)\rceil \cdot n_S$                  |
 | Sort-merge        | $2n_R \log_{B-1}(n_R) + 2n_S \log_{B-1}(n_S) + n_R + n_S$ |
 | Hash join         | $3(n_R + n_S)$ (if build relation fits in $B$ pages)      |
+
+</div>
 
 <details>
 <summary>Worked Example 5.3: Comparing Access Methods</summary>
@@ -1220,6 +1252,8 @@ Selectivity estimates.
 
 A **transaction** is a logical unit of work that must satisfy:
 
+<div class="table-wrap">
+
 | Property    | Meaning                                                      |
 | ----------- | ------------------------------------------------------------ |
 | Atomicity   | All or nothing: either all operations commit or none         |
@@ -1227,9 +1261,13 @@ A **transaction** is a logical unit of work that must satisfy:
 | Isolation   | Concurrent transactions do not interfere with each other     |
 | Durability  | Once committed, the effects survive failures                 |
 
+</div>
+
 ### 6.2 Isolation Levels
 
 SQL defines four isolation levels with increasing strictness:
+
+<div class="table-wrap">
 
 | Level            | Dirty Read | Non-repeatable Read | Phantom Read |
 | ---------------- | ---------- | ------------------- | ------------ |
@@ -1237,6 +1275,8 @@ SQL defines four isolation levels with increasing strictness:
 | Read Committed   | Prevented  | Possible            | Possible     |
 | Repeatable Read  | Prevented  | Prevented           | Possible     |
 | Serializable     | Prevented  | Prevented           | Prevented    |
+
+</div>
 
 - **Dirty read:** Reading uncommitted data from another transaction.
 - **Non-repeatable read:** Same query returns different results within the same transaction due to
@@ -1473,12 +1513,16 @@ Values, histogram of value distribution, index information.
 **Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
+<div class="table-wrap">
+
 | Predicate type              | Selectivity estimate                             |
 | --------------------------- | ------------------------------------------------ |
 | $A = v$                     | $1 / V(A, R)$                                    |
 | $A \gt v$                   | $(\max(A) - v) / (\max(A) - \min(A))$            |
 | $A_1 = v_1 \land A_2 = v_2$ | $1 / V(A_1) \times 1 / V(A_2)$                   |
 | $A_1 = v_1 \lor A_2 = v_2$  | $1/V(A_1) + 1/V(A_2) - 1/(V(A_1) \times V(A_2))$ |
+
+</div>
 
 ### 7.3 Join Algorithms
 
@@ -1626,12 +1670,16 @@ Following three guarantees simultaneously:
 Since network partitions are inevitable in distributed systems, the real trade-off is between
 **consistency** and **availability** during a partition.
 
+<div class="table-wrap">
+
 | System                   | Choice | Notes                                |
 | ------------------------ | ------ | ------------------------------------ |
 | Redis Cluster            | CP     | Partition: some nodes unreachable    |
 | Cassandra                | AP     | Tunable consistency per operation    |
 | MongoDB                  | CP     | Primary unavailable during partition |
 | RDBMS (with replication) | CA     | Not partition-tolerant (single node) |
+
+</div>
 
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
@@ -1750,11 +1798,15 @@ Updated in the background.
 
 **Replication architectures:**
 
+<div class="table-wrap">
+
 | Architecture  | Writes       | Reads       | Consistency                                             |
 | ------------- | ------------ | ----------- | ------------------------------------------------------- |
 | Single-leader | Primary only | Any replica | Strong (reads from primary) or eventual (from replicas) |
 | Multi-leader  | Any node     | Any node    | Eventual (conflict resolution required)                 |
 | Leaderless    | Any node     | Any node    | Tunable (quorum reads/writes)                           |
+
+</div>
 
 **Quorum-based consistency.** For a system with $N$ replicas, define write quorum $W$ and read
 quorum $R$ such that $W + R \gt N$. This guarantees that any read sees at least one replica with the
@@ -1985,12 +2037,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                                    |
 | ------------------------------ | ----------- | ----------------------------------------------------------------------- |
 | Advanced Databases             | WyattsNotes | [View](/4-databases/12_databases-advanced/)                   |
 | Advanced SQL                   | WyattsNotes | [View](https://databases.wyattau.com/02-sql-fundamentals/advanced-sql/) |
 | Algorithms and Data Structures | WyattsNotes | [View](/algorithms-and-data-structures/)       |
 | Database Systems, CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

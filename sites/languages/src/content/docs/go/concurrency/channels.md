@@ -261,6 +261,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 
 ### Context Types
 
+<div class="table-wrap">
+
 | Type                   | Purpose                                           |
 | ---------------------- | ------------------------------------------------- |
 | `context.Background`   | Root context, never cancelled                     |
@@ -269,6 +271,8 @@ Boundaries. It is the standard mechanism for propagating cancellation signals in
 | `context.WithTimeout`  | Returns a context that cancels after a deadline   |
 | `context.WithDeadline` | Returns a context that cancels at a specific time |
 | `context.WithValue`    | Returns a context carrying a key-value pair       |
+
+</div>
 
 ### WithCancel
 

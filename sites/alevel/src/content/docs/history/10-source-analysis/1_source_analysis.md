@@ -139,12 +139,16 @@ disagree.
 
 ### Examples of contested interpretations
 
+<div class="table-wrap">
+
 | Topic               | Interpretation A               | Interpretation B                | Key Difference                            |
 | ------------------- | ------------------------------ | ------------------------------- | ----------------------------------------- |
 | Causes of WWI       | German guilt (Fischer)         | Systemic failure (Clark)        | Individual vs. structural responsibility  |
 | Industrial Revolution | Improved living standards       | Worsened living standards       | Quantitative vs. qualitative evidence     |
 | English Reformation | Religious conviction            | Political opportunism           | Motives of key actors                     |
 | Cold War            | Soviet expansionism             | US economic imperialism          | Perspective of the two superpowers        |
+
+</div>
 
 ## Using Sources in Essays
 

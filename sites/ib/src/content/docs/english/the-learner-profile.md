@@ -119,6 +119,8 @@ The ATL framework identifies five categories of skills that IB students are expe
 
 ### 2.1 Communication Skills
 
+<div class="table-wrap">
+
 | Skill | Application in English |
 | ------- | ---------------------- |
 | Listening | Active listening during class discussions; attending to the oral qualities of poetry and drama |
@@ -126,7 +128,11 @@ The ATL framework identifies five categories of skills that IB students are expe
 | Reading | Close reading, critical reading, contextual reading |
 | Writing | Analytical essays, reflective journals, creative responses, research essays |
 
+</div>
+
 ### 2.2 Social Skills
+
+<div class="table-wrap">
 
 | Skill | Application in English |
 | ------- | ---------------------- |
@@ -134,7 +140,11 @@ The ATL framework identifies five categories of skills that IB students are expe
 | Conflict resolution | Navigating disagreements about textual interpretation with respect |
 | Group decision-making | Developing shared interpretations in literature circles |
 
+</div>
+
 ### 2.3 Self-Management Skills
+
+<div class="table-wrap">
 
 | Skill | Application in English |
 | ------- | ---------------------- |
@@ -142,7 +152,11 @@ The ATL framework identifies five categories of skills that IB students are expe
 | Affective skills | Recognising and managing one's emotional responses to challenging texts |
 | Reflection | Regular self-assessment of reading and writing practice |
 
+</div>
+
 ### 2.4 Research Skills
+
+<div class="table-wrap">
 
 | Skill | Application in English |
 | ------- | ---------------------- |
@@ -150,13 +164,19 @@ The ATL framework identifies five categories of skills that IB students are expe
 | Media literacy | Analysing how media texts construct meaning and position audiences |
 | Ethics | Proper attribution, avoidance of plagiarism, honest representation of sources |
 
+</div>
+
 ### 2.5 Thinking Skills
+
+<div class="table-wrap">
 
 | Skill | Application in English |
 | ------- | ---------------------- |
 | Critical thinking | Evaluating arguments, identifying assumptions, assessing evidence |
 | Creative thinking | Generating original interpretations, exploring multiple possibilities |
 | Transfer | Applying analytical skills learned in one text to new and unfamiliar texts |
+
+</div>
 
 ---
 
@@ -297,6 +317,8 @@ Students should document their English-related CAS activities in their CAS portf
 
 Review the following statements and rate your development honestly:
 
+<div class="table-wrap">
+
 | Attribute | Developing | Competent | Exemplary |
 | ----------- | ------------ | ----------- | ----------- |
 | Inquirer | I read texts for plot rather than for meaning | I ask questions about how texts produce their effects | I generate original interpretive questions that lead to deeper analysis |
@@ -309,6 +331,8 @@ Review the following statements and rate your development honestly:
 | Risk-taker | I propose interpretations only when I am certain | I propose interpretations supported by evidence, even when uncertain | I revise my interpretations in light of contradictory evidence |
 | Balanced | I focus on close reading or context, but not both | I can move between close reading and contextual analysis | I hold multiple perspectives simultaneously without collapsing into relativism |
 | Reflective | I complete assignments without reviewing my process | I review my work to identify strengths and weaknesses | I use reflection to develop specific strategies for improvement |
+
+</div>
 
 Use this audit to identify areas for growth and to set goals for the remainder of the course.
 

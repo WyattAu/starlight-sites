@@ -219,7 +219,7 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Common Mistakes

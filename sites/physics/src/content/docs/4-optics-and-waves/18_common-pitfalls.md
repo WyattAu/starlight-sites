@@ -168,5 +168,5 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 - [Lasers](/4-optics-and-waves/9_lasers/) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

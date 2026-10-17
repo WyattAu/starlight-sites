@@ -53,6 +53,8 @@ well as final answer.
 The frequency distribution below shows the daily commuting times (in minutes) for 200 employees at a
 large company:
 
+<div class="table-wrap">
+
 | Commuting time $t$ (min) | Frequency |
 | ------------------------ | --------- |
 | $0 \lt t \leq 10$        | 12        |
@@ -60,6 +62,8 @@ large company:
 | $20 \lt t \leq 35$       | 56        |
 | $35 \lt t \leq 60$       | 65        |
 | $60 \lt t \leq 90$       | 29        |
+
+</div>
 
 **(a)** A student draws a histogram using the frequency on the vertical axis and the commuting time
 on the horizontal axis, making all bars the same width. Explain why this histogram is misleading,
@@ -77,9 +81,13 @@ highest frequency and the class with the highest frequency density. [3 marks]
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
 
+<div class="table-wrap">
+
 | Income ($x$ In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- |
 | Savings ($y$ In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+
+</div>
 
 **(a)** Calculate the product moment correlation coefficient (PMCC) for this data. [4 marks]
 
@@ -192,6 +200,8 @@ $$
 
 **(b)** Frequency densities:
 
+<div class="table-wrap">
+
 | Class              | Width | Frequency | Frequency density |
 | ------------------ | ----- | --------- | ----------------- |
 | $0 \lt t \leq 10$  | 10    | 12        | 1.2               |
@@ -200,7 +210,11 @@ $$
 | $35 \lt t \leq 60$ | 25    | 65        | 2.6               |
 | $60 \lt t \leq 90$ | 30    | 29        | 0.97              |
 
+</div>
+
 To estimate the mean, we use the midpoint of each class:
+
+<div class="table-wrap">
 
 | Class              | Midpoint $x$ | Frequency $f$ | $fx$   |
 | ------------------ | ------------ | ------------- | ------ |
@@ -209,6 +223,8 @@ To estimate the mean, we use the midpoint of each class:
 | $20 \lt t \leq 35$ | 27.5         | 56            | 1540   |
 | $35 \lt t \leq 60$ | 47.5         | 65            | 3087.5 |
 | $60 \lt t \leq 90$ | 75           | 29            | 2175   |
+
+</div>
 
 $$
 \sum f = 200, \quad \sum fx = 7432.5
@@ -302,6 +318,8 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 
 **(c)** Ranking the data:
 
+<div class="table-wrap">
+
 | $x$ | Rank $R_x$ | $y$ | Rank $R_y$ | $d = R_x - R_y$ | $d^2$ |
 | --- | ---------- | --- | ---------- | --------------- | ----- |
 | 15  | 1          | 3   | 1          | 0               | 0     |
@@ -311,6 +329,8 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 | 42  | 5          | 22  | 5          | 0               | 0     |
 | 55  | 6          | 35  | 6          | 0               | 0     |
 | 68  | 7          | 48  | 7          | 0               | 0     |
+
+</div>
 
 $$
 \sum d^2 = 0
@@ -587,6 +607,8 @@ statistically significant result.
 
 ## Marking Guide
 
+<div class="table-wrap">
+
 | Question  | Topic                      |  Marks | Key Skills Tested                                                                       |
 | --------- | -------------------------- | -----: | --------------------------------------------------------------------------------------- |
 | Q1        | Data Representation        |     10 | Frequency density vs frequency, grouped mean estimation, unequal class widths           |
@@ -595,6 +617,8 @@ statistically significant result.
 | Q4        | Statistical Distributions  |     10 | Binomial conditions, distribution identification, independence and fixed trials         |
 | Q5        | Hypothesis Testing         |     10 | P-value calculation, correct conclusion language, Type I/II errors, sample size effects |
 | **Total** |                            | **50** |                                                                                         |
+
+</div>
 
 ## Intuition
 

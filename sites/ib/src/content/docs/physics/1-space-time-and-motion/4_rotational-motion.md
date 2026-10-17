@@ -20,11 +20,15 @@ tags:
 
 ### Angular Quantities
 
+<div class="table-wrap">
+
 | Quantity             | Symbol   | SI Unit   | Relation to Linear |
 | -------------------- | -------- | --------- | ------------------ |
 | Angular displacement | $\theta$ | rad       | $s = r\theta$      |
 | Angular velocity     | $\omega$ | rad/s     | $v = r\omega$      |
 | Angular acceleration | $\alpha$ | rad/s$^2$ | $a_t = r\alpha$    |
+
+</div>
 
 ### Angular Velocity
 
@@ -124,6 +128,8 @@ Always directed toward the centre of the circle.
 
 ### Common Examples
 
+<div class="table-wrap">
+
 | Situation                              | Centripetal Force Provided By             |
 | -------------------------------------- | ----------------------------------------- |
 | Car turning on a flat road             | Friction between tyres and road           |
@@ -132,6 +138,8 @@ Always directed toward the centre of the circle.
 | Object on a string (horizontal circle) | Tension in the string                     |
 | Conical pendulum                       | Horizontal component of tension           |
 | Motorcyclist in vertical circle        | Combination of weight and normal reaction |
+
+</div>
 
 ---
 
@@ -415,6 +423,8 @@ $$
 
 ### Common Moments of Inertia
 
+<div class="table-wrap">
+
 | Object              | Axis                         | $I$                 |
 | ------------------- | ---------------------------- | ------------------- |
 | Solid cylinder/disk | Central axis                 | $\dfrac{1}{2}MR^2$  |
@@ -424,6 +434,8 @@ $$
 | Thin rod (centre)   | Perpendicular through centre | $\dfrac{1}{12}ML^2$ |
 | Thin rod (end)      | Perpendicular through end    | $\dfrac{1}{3}ML^2$  |
 | Point mass          | At distance $r$              | $Mr^2$              |
+
+</div>
 
 ### Parallel Axis Theorem
 
@@ -574,6 +586,8 @@ more mass concentrated near the centre (smaller $I$) roll faster.
 
 ## Analogy: Linear vs Rotational
 
+<div class="table-wrap">
+
 | Linear Quantity         | Rotational Equivalent          |
 | ----------------------- | ------------------------------ |
 | Displacement $s$        | Angular displacement $\theta$  |
@@ -586,6 +600,8 @@ more mass concentrated near the centre (smaller $I$) roll faster.
 | $E_k = \frac{1}{2}mv^2$ | $E_k = \frac{1}{2}I\omega^2$   |
 | $W = Fs$                | $W = \tau\theta$               |
 | $P = Fv$                | $P = \tau\omega$               |
+
+</div>
 
 ---
 
@@ -732,6 +748,8 @@ Rotational motion is linear motion wearing a disguise. Every linear equation has
 
 ## Summary
 
+<div class="table-wrap">
+
 | Quantity                         | Formula                                   |
 | -------------------------------- | ----------------------------------------- |
 | Angular velocity                 | $\omega = \dfrac{v}{r} = \dfrac{2\pi}{T}$ |
@@ -742,6 +760,8 @@ Rotational motion is linear motion wearing a disguise. Every linear equation has
 | Angular momentum                 | $L = I\omega$                             |
 | Rotational kinetic energy        | $E_k = \dfrac{1}{2}I\omega^2$             |
 | Conservation of angular momentum | $I_1\omega_1 = I_2\omega_2$               |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -1026,10 +1046,14 @@ Motion with other physics topics to test synthesis under exam conditions.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site    | Link                                                                                              |
 | ----------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Circular Motion] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/06-circular-motion) |
 | [Circular Motion] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion/)        |
+
+</div>
 
 ## Worked Examples
 

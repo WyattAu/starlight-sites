@@ -113,6 +113,8 @@ $y = e^{2x} + xe^{2x} = e^{2x}(1 + x)$. $\blacksquare$
 For equations $y'' + ay' + by = g(x)$ where $g(x)$ is a polynomial, exponential, sine, cosine, or
 Products of these, guess the form of $y_p$ and solve for coefficients.
 
+<div class="table-wrap">
+
 | $g(x)$                               | Guess for $y_p$                  |
 | ------------------------------------ | -------------------------------- |
 | $P_n(x)$                             | $A_n x^n + \cdots + A_0$         |
@@ -120,6 +122,8 @@ Products of these, guess the form of $y_p$ and solve for coefficients.
 | $\sin(bx)$ or $\cos(bx)$             | $A\sin(bx) + B\cos(bx)$          |
 | $e^{ax} P_n(x)$                      | $e^{ax}(A_n x^n + \cdots + A_0)$ |
 | $e^{ax}\sin(bx)$ or $e^{ax}\cos(bx)$ | $e^{ax}(A\sin(bx) + B\cos(bx))$  |
+
+</div>
 
 **Rule.** If any term of the guess is a solution of the homogeneous equation, multiply by $x$ (or
 $x^2$ if already multiplied by $x$).
@@ -391,11 +395,15 @@ $$
 
 The homogeneous solution depends on the discriminant $\gamma^2 - \omega_0^2$:
 
+<div class="table-wrap">
+
 | Condition                 | Type        | Homogeneous Solution                                                                                    |
 | ------------------------- | ----------- | ------------------------------------------------------------------------------------------------------- |
 | $\gamma^2 \lt \omega_0^2$ | Underdamped | $e^{-\gamma t}(c_1 \cos(\omega_d t) + c_2 \sin(\omega_d t))$, $\omega_d = \sqrt{\omega_0^2 - \gamma^2}$ |
 | $\gamma^2 = \omega_0^2$   | Critical    | $e^{-\gamma t}(c_1 + c_2 t)$                                                                            |
 | $\gamma^2 > \omega_0^2$   | Overdamped  | $c_1 e^{r_1 t} + c_2 e^{r_2 t}$, $r_{1,2} = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}$                   |
+
+</div>
 
 ### 3.17 Intuition: What Does the Characteristic Equation Tell You?
 

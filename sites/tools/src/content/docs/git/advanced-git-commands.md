@@ -196,6 +196,8 @@ your team before pushing replacement refs.
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Operation             | Mechanism                 | Permanence        | Pushes by default |
 | --------------------- | ------------------------- | ----------------- | ----------------- |
 | `git replace`         | Ref under `refs/replace/` | Transient (local) | No                |
@@ -203,6 +205,8 @@ your team before pushing replacement refs.
 | `~/.git/info/grafts`  | Grafts file (legacy)      | Local only        | No                |
 | `git rebase`          | New commit objects        | Permanent         | Yes               |
 | `git filter-branch`   | Rewrites object store     | Permanent         | Yes               |
+
+</div>
 
 ---
 
@@ -330,12 +334,16 @@ $ git notes merge -s cat-sort-uniq refs/notes/commits-from-other-branch
 
 Available merge strategies:
 
+<div class="table-wrap">
+
 | Strategy        | Behavior                                   |
 | --------------- | ------------------------------------------ |
 | `ours`          | Discard incoming notes, keep local         |
 | `theirs`        | Discard local notes, take incoming         |
 | `manual`        | Leave conflicts for manual resolution      |
 | `cat-sort-uniq` | Concatenate, sort lines, remove duplicates |
+
+</div>
 
 ### Note Namespaces
 
@@ -511,12 +519,16 @@ v2.3.1-14-ga3f2b1c
 
 Breakdown:
 
+<div class="table-wrap">
+
 | Component | Meaning                                                     |
 | --------- | ----------------------------------------------------------- |
 | `v2.3.1`  | The nearest annotated tag that is an ancestor of the commit |
 | `-14`     | 14 commits after the tag                                    |
 | `-g`      | Literal "g" (for "git")                                     |
 | `a3f2b1c` | Abbreviated commit hash                                     |
+
+</div>
 
 If the commit itself is tagged, `git describe` outputs just the tag name:
 
@@ -525,6 +537,8 @@ v2.3.1
 ```
 
 ### Flags Reference
+
+<div class="table-wrap">
 
 | Flag                  | Effect                                                      |
 | --------------------- | ----------------------------------------------------------- |
@@ -540,6 +554,8 @@ v2.3.1
 | `--exclude=<pattern>` | Exclude tags matching the glob pattern                      |
 | `--contains`          | Find the tag that contains the commit (tag is a descendant) |
 | `--first-parent`      | Follow only the first parent when traversing                |
+
+</div>
 
 ### Using in Build Versioning
 
@@ -652,6 +668,8 @@ repo/
 
 Git also reads from:
 
+<div class="table-wrap">
+
 | Location                           | Scope                     |
 | ---------------------------------- | ------------------------- |
 | `.gitattributes` in repo root      | All files in the repo     |
@@ -659,6 +677,8 @@ Git also reads from:
 | `$GIT_DIR/info/attributes`         | Local repo, not committed |
 | `~/.gitattributes`                 | User-global, all repos    |
 | `/etc/gitattributes`               | System-wide               |
+
+</div>
 
 ### Syntax
 
@@ -706,6 +726,8 @@ docs/_build/* linguist-generated
 
 Attributes can be set, unset, or set to a value:
 
+<div class="table-wrap">
+
 | Syntax                 | Meaning                           |
 | ---------------------- | --------------------------------- |
 | `text`                 | Set the attribute                 |
@@ -713,9 +735,13 @@ Attributes can be set, unset, or set to a value:
 | `text` (after `!text`) | Unset the attribute (explicitly)  |
 | `diff=markdown`        | Set attribute to value `markdown` |
 
+</div>
+
 ### Line Ending Normalization
 
 The `text` attribute controls CRLF/LF conversion:
+
+<div class="table-wrap">
 
 | Setting         | Behavior                                                               |
 | --------------- | ---------------------------------------------------------------------- |
@@ -724,6 +750,8 @@ The `text` attribute controls CRLF/LF conversion:
 | `text eol=crlf` | Convert LF to CRLF on checkout (force Windows line endings)            |
 | `-text`         | No conversion at all (binary-like)                                     |
 | `binary`        | Equivalent to `-text -diff`                                            |
+
+</div>
 
 ```gitattributes
 # Force LF for everything (recommended for cross-platform projects)
@@ -805,10 +833,14 @@ $ git config merge.json.recursive binary
 
 Available built-in merge strategies:
 
+<div class="table-wrap">
+
 | Driver         | Behavior                                 |
 | -------------- | ---------------------------------------- |
 | `merge=ours`   | Keep our version, ignore theirs entirely |
 | `merge=binary` | No merging; conflict on any modification |
+
+</div>
 
 ### Export-Subst
 
@@ -838,6 +870,8 @@ $ git archive --format=tar.gz HEAD > release.tar.gz
 
 Available format specifiers:
 
+<div class="table-wrap">
+
 | Specifier | Expands to                             |
 | --------- | -------------------------------------- |
 | `%H`      | Full commit hash                       |
@@ -850,6 +884,8 @@ Available format specifiers:
 | `%ce`     | Committer email                        |
 | `%s`      | Subject (first line of commit message) |
 | `%b`      | Body (rest of commit message)          |
+
+</div>
 
 ### Whitespace Rules
 
@@ -867,6 +903,8 @@ Available format specifiers:
 Makefile whitespace=indent-with-non-tab
 ```
 
+<div class="table-wrap">
+
 | Whitespace Attribute  | Error Detected                                                |
 | --------------------- | ------------------------------------------------------------- |
 | `trailing-space`      | Trailing whitespace, blank lines with whitespace              |
@@ -875,6 +913,8 @@ Makefile whitespace=indent-with-non-tab
 | `cr-at-eol`           | Carriage return at end of line (not an error, just detection) |
 | `blank-at-eol`        | Trailing whitespace at end of line                            |
 | `blank-at-eof`        | Blank lines at end of file                                    |
+
+</div>
 
 ### Linguist-Generated (GitHub Specific)
 
@@ -1027,6 +1067,8 @@ Repository. Always follow the full removal procedure.
 
 ### Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                          | Solution                                                                              |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------- |
 | Submodule directory empty after clone            | Run `git submodule update --init --recursive`                                         |
@@ -1034,6 +1076,8 @@ Repository. Always follow the full removal procedure.
 | Forgot to commit `.gitmodules` changes           | Stage `.gitmodules` and the submodule path before committing                          |
 | Stale submodule in `.git/modules/` after removal | Manually remove `.git/modules/<name>`                                                 |
 | Submodule at wrong commit                        | `cd libs/repo && git checkout <commit>` then `cd ../.. && git add libs/repo`          |
+
+</div>
 
 ---
 
@@ -1356,12 +1400,16 @@ $ make -C ../build-v2.4 release
 
 ### Limitations and Constraints
 
+<div class="table-wrap">
+
 | Constraint                                          | Details                                                         |
 | --------------------------------------------------- | --------------------------------------------------------------- |
 | Branch can only be checked out in one worktree      | Git prevents checking out the same branch in multiple worktrees |
 | No nested worktrees                                 | You cannot create a worktree inside another worktree            |
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
+
+</div>
 :::
 
 :::caution
@@ -1570,6 +1618,8 @@ git fsck --no-reflogs
 
 ### What It Checks
 
+<div class="table-wrap">
+
 | Check                | Description                                     |
 | -------------------- | ----------------------------------------------- |
 | Missing objects      | References point to objects that do not exist   |
@@ -1581,6 +1631,8 @@ git fsck --no-reflogs
 | Invalid tree entries | Tree entries with invalid mode or filename      |
 | Invalid parent links | Commits referencing non-existent parent commits |
 | Tag signature        | Verification of signed tags (with `--tag`)      |
+
+</div>
 
 ### Common Output
 
@@ -1772,11 +1824,15 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 
 ### Configuration Options
 
+<div class="table-wrap">
+
 | Option              | Default | Description                                 |
 | ------------------- | ------- | ------------------------------------------- |
 | `rerere.enabled`    | `false` | Enable rerere                               |
 | `rerere.autoupdate` | `false` | Automatically stage the recorded resolution |
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
+
+</div>
 :::
 
 :::note
@@ -2059,6 +2115,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 
 ### Cc Suppression Options
 
+<div class="table-wrap">
+
 | Flag                     | Suppresses Cc from                 |
 | ------------------------ | ---------------------------------- |
 | `--suppress-cc=author`   | Patch author                       |
@@ -2068,6 +2126,8 @@ $ git send-email --suppress-cc=body,sob,misc-cmd 0001-*.patch
 | `--suppress-cc=body`     | Entire patch body                  |
 | `--suppress-cc=misc-cmd` | Output of --cc-cmd                 |
 | `--suppress-cc=all`      | All of the above                   |
+
+</div>
 
 ### Common Workflow
 
@@ -2100,6 +2160,8 @@ $ git send-email --to maintainer@project.org \
 
 ### Configuration Reference
 
+<div class="table-wrap">
+
 | Config Key                 | Description                              |
 | -------------------------- | ---------------------------------------- |
 | `sendemail.from`           | Default From address                     |
@@ -2112,6 +2174,8 @@ $ git send-email --to maintainer@project.org \
 | `sendemail.chainReplyTo`   | Chain emails as replies to cover letter  |
 | `sendemail.thread`         | Enable threading                         |
 | `sendemail.confirm`        | `auto``always``never``cc``compose`       |
+
+</div>
 
 :::caution
 Accidental send to hundreds of subscribers is difficult to undo. Double-check recipient lists and
@@ -2268,11 +2332,15 @@ $ git push --force origin feature
 $ git push --force-with-lease origin feature
 ```
 
+<div class="table-wrap">
+
 | Command                        | Behavior                                                                              |
 | ------------------------------ | ------------------------------------------------------------------------------------- |
 | `git push --force`             | Unconditionally overwrites the remote branch                                          |
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
+
+</div>
 :::
 
 :::caution

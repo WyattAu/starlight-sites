@@ -328,6 +328,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 
 (d)
 
+<div class="table-wrap">
+
 | Feature     | SSD (NAND Flash)                                  | HDD (Magnetic)                               |
 | ----------- | ------------------------------------------------- | -------------------------------------------- |
 | Speed       | Fast read/write (hundreds of MB/s)                | Slower read/write (tens to hundreds of MB/s) |
@@ -335,6 +337,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 | Cost per GB | More expensive                                    | Less expensive                               |
 | Capacity    | 256 GB to 4 TB                          | 500 GB to 20 TB                    |
 | Use cases   | Boot drive, applications, laptops, fast workloads | Bulk storage, backups, archival data         |
+
+</div>
 
 SSDs are preferred for the operating system and frequently used applications due to their speed.
 HDDs remain useful for large-capacity storage where speed is less critical.

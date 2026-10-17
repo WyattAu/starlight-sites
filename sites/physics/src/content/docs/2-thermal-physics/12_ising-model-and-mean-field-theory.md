@@ -113,6 +113,8 @@ $$
 
 For $J = 1$ (in units of $k_B$):
 
+<div class="table-wrap">
+
 | Lattice      | $z$ | $T_c^{\text{MF}}$ |
 | ------------ | --- | ----------------- |
 | Linear chain | 2   | 2                 |
@@ -120,6 +122,8 @@ For $J = 1$ (in units of $k_B$):
 | Simple cubic | 6   | 6                 |
 | BCC          | 8   | 8                 |
 | FCC          | 12  | 12                |
+
+</div>
 
 Compare with the exact $T_c$: 1D has no transition, 2D square has
 $T_c \approx 2.269$3D (numerical) $T_c \approx 4.51$. Mean-field overestimates $T_c$ in all cases,
@@ -186,6 +190,8 @@ for $d < 4$. The exponents depend only on dimensionality and symmetry, not on mi
 
 ### 12.5 Key Relationships
 
+<div class="table-wrap">
+
 | Quantity | Mean-Field Theory | 2D Ising (Exact) | 3D Ising (Numerical) |
 | -------- | ----------------- | ------------------ | ---------------------- |
 | $T_c$ (square lattice, $J=1$) | 4 | 2.269 | ~4.51 |
@@ -193,6 +199,8 @@ for $d < 4$. The exponents depend only on dimensionality and symmetry, not on mi
 | $\gamma$ | 1 | 7/4 | ~1.237 |
 | $\alpha$ | 0 (jump) | 0 (log) | ~0.110 |
 | $\nu$ | 1/2 | 1 | ~0.630 |
+
+</div>
 
 ### 12.6 Applications
 
@@ -233,5 +241,5 @@ Critical exponents are universal: they depend only on the dimensionality of the 
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

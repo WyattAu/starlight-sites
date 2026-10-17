@@ -193,12 +193,16 @@ graph TB
     end
 ```
 
+<div class="table-wrap">
+
 | Modifier        | Same Class | Same Package | Subclass (diff pkg) | Unrelated |
 | --------------- | :--------: | :----------: | :-----------------: | :-------: |
 | `public`        |     Y      |      Y       |          Y          |     Y     |
 | `protected`     |     Y      |      Y       |          Y          |     N     |
 | package-private |     Y      |      Y       |          N          |     N     |
 | `private`       |     Y      |      N       |          N          |     N     |
+
+</div>
 
 ```java
 public class AccessDemo {
@@ -735,12 +739,16 @@ public Iterator<E> filteredIterator(final Predicate<? super E> predicate) {
 
 ### Inner Class Summary
 
+<div class="table-wrap">
+
 | Type          | Holds enclosing ref? | Can access enclosing members? | Needs enclosing instance? | Can be `static`? |
 | ------------- | :------------------: | :---------------------------: | :-----------------------: | :--------------: |
 | Static nested |          No          |      Static members only      |            No             |       Yes        |
 | Member inner  |         Yes          |          All members          |            Yes            |        No        |
 | Anonymous     |         Yes          |          All members          |            Yes            |        No        |
 | Local         |         Yes          |          All members          |            Yes            |        No        |
+
+</div>
 
 :::caution
 Implicit reference to its enclosing instance, which can prevent garbage collection of the enclosing

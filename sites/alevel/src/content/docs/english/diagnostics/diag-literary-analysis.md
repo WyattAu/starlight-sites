@@ -87,6 +87,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | Focalisation concerns whose perspective filters the narrative, distinguishing between who sees and who speaks. |
@@ -99,6 +101,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Convergence analysis identifies shared thematic concerns across texts while acknowledging their distinct contexts. |
 | 9 | (B) | Free indirect discourse blends third-person narration with a character's voice, thoughts, and linguistic patterns. |
 | 10 | (B) | Strong analysis depends on a coherent, well-supported argument rather than mere accumulation of quotations. |
+
+</div>
 
 ## Common Mistakes
 

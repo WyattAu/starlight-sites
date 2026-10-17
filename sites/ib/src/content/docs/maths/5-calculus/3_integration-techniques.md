@@ -28,6 +28,8 @@ Where $C$ is the constant of integration.
 
 ### Basic Integration Rules
 
+<div class="table-wrap">
+
 | Rule              | Formula                                                                   |
 | ----------------- | ------------------------------------------------------------------------- |
 | Power rule        | $\displaystyle\int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$   |
@@ -35,7 +37,11 @@ Where $C$ is the constant of integration.
 | Constant multiple | $\displaystyle\int kf(x)\,dx = k\int f(x)\,dx$                            |
 | Sum/difference    | $\displaystyle\int [f(x) \pm g(x)]\,dx = \int f(x)\,dx \pm \int g(x)\,dx$ |
 
+</div>
+
 ### Standard Integrals
+
+<div class="table-wrap">
 
 | $f(x)$                    | $\int f(x)\,dx$          |
 | ------------------------- | ------------------------ |
@@ -48,6 +54,8 @@ Where $C$ is the constant of integration.
 | $\sec x \tan x$           | $\sec x + C$             |
 | $\dfrac{1}{\sqrt{1-x^2}}$ | $\arcsin x + C$          |
 | $\dfrac{1}{1+x^2}$        | $\arctan x + C$          |
+
+</div>
 
 ---
 
@@ -185,11 +193,15 @@ $$
 
 Certain integrals can be simplified using trigonometric substitutions:
 
+<div class="table-wrap">
+
 | Expression         | Substitution      | Identity                          |
 | ------------------ | ----------------- | --------------------------------- |
 | $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ | $1 - \sin^2\theta = \cos^2\theta$ |
 | $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ | $1 + \tan^2\theta = \sec^2\theta$ |
 | $\sqrt{x^2 - a^2}$ | $x = a\sec\theta$ | $\sec^2\theta - 1 = \tan^2\theta$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -336,11 +348,15 @@ Partial fractions.
 
 ### Types of Decomposition
 
+<div class="table-wrap">
+
 | Denominator     | Partial Fractions                       |
 | --------------- | --------------------------------------- |
 | $(ax+b)(cx+d)$  | $\dfrac{A}{ax+b} + \dfrac{B}{cx+d}$     |
 | $(ax+b)^2$      | $\dfrac{A}{ax+b} + \dfrac{B}{(ax+b)^2}$ |
 | $(ax+b)(x^2+c)$ | $\dfrac{A}{ax+b} + \dfrac{Bx+C}{x^2+c}$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -535,11 +551,15 @@ $$
 
 Find when $v = 0$: $t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0 \implies t = 1, 3$.
 
+<div class="table-wrap">
+
 | Interval        | Sign of $v$ | Motion   |
 | --------------- | ----------- | -------- |
 | $0 \lt t \lt 1$ | $+$         | Forward  |
 | $1 \lt t \lt 3$ | $-$         | Backward |
 | $3 \lt t \lt 5$ | $+$         | Forward  |
+
+</div>
 
 $$
 \mathrm{Distance} = \int_0^1 v\,dt + \left|\int_1^3 v\,dt\right| + \int_3^5 v\,dt
@@ -744,6 +764,8 @@ $$
 
 ## Summary Table of Techniques
 
+<div class="table-wrap">
+
 | Technique         | When to Use                                  | Key Idea                           |
 | ----------------- | -------------------------------------------- | ---------------------------------- |
 | Direct            | Simple power functions, standard forms       | Apply basic rules directly         |
@@ -751,6 +773,8 @@ $$
 | By parts          | Product of different function types          | $\int u\,dv = uv - \int v\,du$     |
 | Partial fractions | Rational functions, factorisable denominator | Decompose then integrate each term |
 | Trig substitution | $\sqrt{a^2 \pm x^2}$ or $\sqrt{x^2 - a^2}$   | Replace with trig function         |
+
+</div>
 :::
 
 :::tip[Exam Strategy]

@@ -64,12 +64,16 @@ Untested instability can manifest as:
 Prime95 is the gold standard for CPU stability testing. It uses GIMPS (Great Internet Mersenne Prime
 Search) algorithms to stress the CPU with varying FFT (Fast Fourier Transform) sizes.
 
+<div class="table-wrap">
+
 | Test Mode  | FFT Size       | What It Stresses            | Primary Use                              |
 | ---------- | -------------- | --------------------------- | ---------------------------------------- |
 | Small FFTs | 4–4096 K       | L1/L2 cache, ALU, FPU       | Maximum heat generation, thermal testing |
 | Large FFTs | 4096–4096 K    | L3 cache, memory controller | Cache and memory stress                  |
 | Blend      | Mixed          | All levels                  | Overall system stability                 |
 | Custom     | User-specified | User-specified              | Targeted testing                         |
+
+</div>
 
 **Recommended configuration for stability testing:**
 
@@ -90,6 +94,8 @@ Minutes for production systems.
 OCCT (OverClock Checking Tool) is a comprehensive stability tester that catches errors Prime95 may
 Miss:
 
+<div class="table-wrap">
+
 | Test               | Duration | What It Catches                     |
 | ------------------ | -------- | ----------------------------------- |
 | OCCT CPU (Small)   | 30 min   | CPU thermal and voltage instability |
@@ -97,6 +103,8 @@ Miss:
 | OCCT CPU (Extreme) | 30 min   | Combined CPU and memory stress      |
 | OCCT Memory        | 60 min   | Memory-specific errors              |
 | OCCT Power         | 30 min   | PSU voltage stability under load    |
+
+</div>
 
 OCCT is particularly effective at catching marginal instability that Prime95"s large FFT sizes do
 not exercise. Use OCCT as a secondary test after Prime95 passes.
@@ -224,12 +232,16 @@ Management.
 
 **Pass requirements:**
 
+<div class="table-wrap">
+
 | Scenario                            | Minimum Passes | Recommended |
 | ----------------------------------- | -------------- | ----------- |
 | Quick check after settings change   | 4              | 4           |
 | New build validation                | 4              | 8           |
 | Production system                   | 8              | 16+         |
 | Troubleshooting intermittent errors | 8              | 16+         |
+
+</div>
 
 Any errors, even a single bit, indicate instability. There is no such thing as an "acceptable"
 Memory error rate.
@@ -467,6 +479,8 @@ chmod +x monitor_stress.sh
 
 ### Symptom Analysis
 
+<div class="table-wrap">
+
 | Symptom                 | Timing                          | Likely Cause                           | Action                                     |
 | ----------------------- | ------------------------------- | -------------------------------------- | ------------------------------------------ |
 | Immediate crash or BSOD | Within seconds of starting test | Voltage too low, settings incompatible | Increase voltage, revert settings          |
@@ -478,11 +492,15 @@ chmod +x monitor_stress.sh
 | File corruption         | After testing                   | Memory or storage instability          | Run MemTest86, check SMART data            |
 | System hangs (no BSOD)  | Random                          | Severe hardware problem                | Check PSU, motherboard, RAM individually   |
 
+</div>
+
 ### What WHEA Errors Mean
 
 WHEA (Windows Hardware Error Architecture) errors indicate that the CPU detected an internal error
 and corrected it. The correction means the system continued running, but the error itself is a
 Reliability concern.
+
+<div class="table-wrap">
 
 | WHEA Error Type         | Meaning                                    | Severity             |
 | ----------------------- | ------------------------------------------ | -------------------- |
@@ -490,6 +508,8 @@ Reliability concern.
 | Cache Hierarchy Error   | L1/L2/L3 cache error                       | Medium               |
 | Bus Error               | Front-side bus or interconnect error       | High                 |
 | Internal Timer Error    | CPU timer error                            | Medium               |
+
+</div>
 
 **Zero WHEA errors is the only acceptable threshold.** Even one corrected error during stress
 Testing means your settings are not stable enough for production use.
@@ -557,6 +577,8 @@ For new builds or critical systems:
 
 ### CPU Temperature Limits
 
+<div class="table-wrap">
+
 | Platform               | Maximum Sustained | Thermal Throttle | Absolute Maximum  |
 | ---------------------- | ----------------- | ---------------- | ----------------- |
 | Intel 12th–14th Gen    | 85 °C             | 100 °C           | 115 °C (junction) |
@@ -565,7 +587,11 @@ For new builds or critical systems:
 | AMD Ryzen 9000 (Zen 5) | 80 °C             | 95 °C            | 95 °C             |
 | AMD Threadripper       | 80 °C             | 95 °C            | 110 °C            |
 
+</div>
+
 ### GPU Temperature Limits
+
+<div class="table-wrap">
 
 | Platform             | Maximum Sustained | Thermal Throttle  | Hotspot Limit     |
 | -------------------- | ----------------- | ----------------- | ----------------- |
@@ -573,13 +599,19 @@ For new builds or critical systems:
 | NVIDIA RTX 40-series | 75 °C             | 83 °C (edge)      | 91 °C (junction)  |
 | AMD RDNA 3           | 85 °C (junction)  | 110 °C (junction) | 120 °C (junction) |
 
+</div>
+
 ### Memory Temperature Limits
+
+<div class="table-wrap">
 
 | Type               | Maximum | Notes                                           |
 | ------------------ | ------- | ----------------------------------------------- |
 | DDR4               | 50 °C   | Beyond this, errors increase exponentially      |
 | DDR5               | 60 °C   | DDR5 runs hotter than DDR4 at equivalent speeds |
 | DDR5 with heatsink | 65 °C   | Heatsinks provide a small margin                |
+
+</div>
 
 ---
 
@@ -732,6 +764,8 @@ Sample Intel Optimized LINPACK Benchmark input file
 
 Y-cruncher supports multiple computation modes:
 
+<div class="table-wrap">
+
 | Mode        | Stress Type       | Duration  | Best For             |
 | ----------- | ----------------- | --------- | -------------------- |
 | Pi (all)    | Mixed compute     | 15–60 min | General stability    |
@@ -739,6 +773,8 @@ Y-cruncher supports multiple computation modes:
 | Pi - 2.5B   | Heavy compute     | 30–60 min | Extended stability   |
 | Benchmark   | All modes         | 10 min    | Performance baseline |
 | Stress Test | AVX/FMA intensive | 15 min    | Maximum heat         |
+
+</div>
 
 ## GPU Stress Test Advanced Configurations
 
@@ -923,6 +959,8 @@ done
 
 ### Windows vs. Linux Stress Testing
 
+<div class="table-wrap">
+
 | Aspect         | Windows                        | Linux                                |
 | -------------- | ------------------------------ | ------------------------------------ |
 | CPU stress     | Prime95, OCCT, AIDA64          | stress-ng, stress, mprime            |
@@ -931,6 +969,8 @@ done
 | Storage stress | CrystalDiskMark, ATTO          | fio, dd, badblocks                   |
 | Monitoring     | HWiNFO64, MSI Afterburner OSD  | turbostat, sensors, htop, iostat     |
 | WHEA errors    | HWiNFO64, Windows Event Viewer | mcelog (if available), dmesg         |
+
+</div>
 
 ### Bootable Stress Testing
 

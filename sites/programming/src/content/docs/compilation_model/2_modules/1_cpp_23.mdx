@@ -209,12 +209,16 @@ Always place includes in the GMF or `import` them if they are modularized header
 
 When designing a module system, visualize the dependencies as a Directed Acyclic Graph (DAG).
 
+<div class="table-wrap">
+
 | Component                    | Syntax                  | Role                             | Visibility           |
 | :--------------------------- | :---------------------- | :------------------------------- | :------------------- |
 | **Primary Interface**        | `export module A;`      | The Root. Defines public API.    | Visible to World     |
 | **Interface Partition**      | `export module A:Part;` | API Fragment. Composes the Root. | Visible to Module A  |
 | **Implementation Unit**      | `module A;`             | Compilable logic. PIMPL.         | Internal to Module A |
 | **Implementation Partition** | `module A:Part;`        | Shared internal logic.           | Internal to Module A |
+
+</div>
 
 ### Reachability vs. Visibility
 
@@ -289,12 +293,16 @@ int main() \{
 A header unit is **not** a module. It is a precompiled header with import semantics. Key
 Differences:
 
+<div class="table-wrap">
+
 | Property          | Module (`export module A;`)        | Header Unit (`import <header>;`)      |
 | :---------------- | :--------------------------------- | :------------------------------------ |
 | **Macro export**  | Macros are not exported            | Macros from the header ARE visible    |
 | **Encapsulation** | Strong isolation of internal names | No isolation; all names are visible   |
 | **Transitivity**  | Controlled via `export import`     | All includes are transitively visible |
 | **BMI semantics** | Full semantic interface            | Precompiled textual interface         |
+
+</div>
 
 The critical takeaway: header units still leak macros and have no encapsulation boundary. They are a
 Performance optimization (avoid re-parsing), not an architectural improvement. Full modules should

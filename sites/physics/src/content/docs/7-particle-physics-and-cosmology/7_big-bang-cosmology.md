@@ -100,11 +100,15 @@ $$
 \rho \propto a^{-3(1+w)}
 $$
 
+<div class="table-wrap">
+
 | Component                           | $w$   | $\rho(a)$ |
 | ----------------------------------- | ----- | --------- |
 | Matter                              | $0$   | $a^{-3}$  |
 | Radiation                           | $1/3$ | $a^{-4}$  |
 | Dark energy (cosmological constant) | $-1$  | constant  |
+
+</div>
 
 **Derivation.** From the fluid equation with $P = w\rho c^2$:
 
@@ -233,12 +237,16 @@ years.
 In the first few minutes after the Big Bang, the universe was hot and dense enough for nuclear
 Reactions to occur. The main products were:
 
+<div class="table-wrap">
+
 | Nucleus   | Mass fraction   |
 | --------- | --------------- |
 | $^1$ H     | $\sim 75\%$     |
 | $^4$ He    | $\sim 25\%$     |
 | D, $^3$ He | $\sim 10^{-5}$  |
 | $^7$ Li    | $\sim 10^{-10}$ |
+
+</div>
 
 The nuclear reaction chain starts at $T \sim 0.1$ MeV ($t \sim 1$ s):
 
@@ -604,6 +612,8 @@ involved.
 
 ### 7.11 Timeline of the Universe
 
+<div class="table-wrap">
+
 | Time           | Temperature    | Event                                 |
 | -------------- | -------------- | ------------------------------------- |
 | $0$            | $\infty$       | Big Bang                              |
@@ -618,6 +628,8 @@ involved.
 | $\sim 1$ Gyr   | $\sim 10$ K    | Galaxy formation                      |
 | 9.2 Gyr        | $\sim 5$ K     | Solar system forms                    |
 | 13.8 Gyr       | 2.725 K        | Present day                           |
+
+</div>
 :::
 
 ## Intuition
@@ -649,5 +661,5 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 - **[Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

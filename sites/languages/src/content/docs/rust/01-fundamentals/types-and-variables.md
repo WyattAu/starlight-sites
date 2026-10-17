@@ -23,6 +23,8 @@ Rust's type system is its core safety mechanism. Every value has a definite type
 Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus
 Platform-dependent `isize` and `usize`:
 
+<div class="table-wrap">
+
 | Type              | Size (bytes) | Range (signed)                                                                                              | Range (unsigned)                                         |
 | ----------------- | ------------ | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | `i8` / `u8`       | 1            | -128 to 127                                                                                                 | 0 to 255                                                 |
@@ -31,6 +33,8 @@ Platform-dependent `isize` and `usize`:
 | `i64` / `u64`     | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807                                                     | 0 to 18,446,744,073,709,551,615                          |
 | `i128` / `u128`   | 16           | -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727 | 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455 |
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
+
+</div>
 
 The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
 as fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
@@ -88,10 +92,14 @@ ARM without unaligned access support, it traps.
 
 Rust has two floating-point types conforming to IEEE 754-2008:
 
+<div class="table-wrap">
+
 | Type  | Size    | Precision             | Range (approximate) |
 | ----- | ------- | --------------------- | ------------------- |
 | `f32` | 4 bytes | ~6-7 decimal digits   | plus/minus 3.4e38   |
 | `f64` | 8 bytes | ~15-16 decimal digits | plus/minus 1.8e308  |
+
+</div>
 
 The default is `f64`. On modern x86-64 hardware, `f64` operations are as fast as `f32`there is no
 Performance penalty for using the larger type. Use `f32` only when you need to reduce memory
@@ -349,10 +357,14 @@ Removes elements that do not satisfy the predicate in-place.
 This is one of the most common sources of confusion for new Rust programmers. Rust has two string
 Types:
 
+<div class="table-wrap">
+
 | Type     | Ownership | Location                       | Size                                 | Growable |
 | -------- | --------- | ------------------------------ | ------------------------------------ | -------- |
 | `String` | Owned     | Heap                           | 24 bytes (ptr + len + cap on 64-bit) | Yes      |
 | `&str`   | Borrowed  | Anywhere (stack, heap, static) | 16 bytes (ptr + len)                 | No       |
+
+</div>
 
 `String` is a `Vec<u8>` guaranteed to hold valid UTF-8. `&str` is a slice of UTF-8 bytes. Every
 `String` can be dereferenced to `&str`. But not vice versa.

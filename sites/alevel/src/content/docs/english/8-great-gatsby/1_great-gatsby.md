@@ -86,6 +86,8 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 
 ## Key Quotations
 
+<div class="table-wrap">
+
 | Quotation | Significance |
 | ----------- | ------------- |
 | "So we beat on, boats against the current, borne back ceaselessly into the past" | Final line: universalises the futility of the American Dream |
@@ -93,6 +95,8 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 | "He had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it" | Gatsby's proximity to and distance from his dream |
 | "They were careless people, Tom and Daisy–they smashed up things and creatures" | Moral bankruptcy of the wealthy |
 | "I hope she'll be a fool" | Daisy's awareness of her own constrained agency |
+
+</div>
 
 ## Exam-Style Questions
 

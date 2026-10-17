@@ -416,6 +416,8 @@ that discovers module dependencies without full compilation.
 
 ## Comparison with GNU Make
 
+<div class="table-wrap">
+
 | Feature                      | Ninja                                | GNU Make                                 |
 | :--------------------------- | :----------------------------------- | :--------------------------------------- |
 | Startup time (large project) | &lt;1s                               | 5-30s (recursive Make)                   |
@@ -432,9 +434,13 @@ that discovers module dependencies without full compilation.
 | Module support               | Via dyndep (P1689)                   | None                                     |
 | Cross-platform               | Linux, macOS, Windows                | Linux, macOS, Windows (via MinGW)        |
 
+</div>
+
 ### Performance Comparison
 
 For a representative C++ project with 1000 source files and 5000 header dependencies:
+
+<div class="table-wrap">
 
 | Metric                    | Ninja | GNU Make (recursive) | Speedup |
 | :------------------------ | :---- | :------------------- | :------ |
@@ -443,6 +449,8 @@ For a representative C++ project with 1000 source files and 5000 header dependen
 | Header change (1 file)    | 2s    | 12s                  | 6x      |
 | Source change (1 file)    | 1.5s  | 3s                   | 2x      |
 | Graph load time           | 0.01s | 5s                   | 500x    |
+
+</div>
 
 The most dramatic difference is in the **null build** (no files changed). Ninja loads the binary
 Dependency database, checks timestamps, and exits almost instantly. Make must re-parse every

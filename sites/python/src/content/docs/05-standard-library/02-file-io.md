@@ -30,6 +30,8 @@ Provides methods for reading, writing, and seeking.
 The mode string controls what operations are permitted and whether the file is interpreted as text
 or binary data. Modes are composed from the following characters:
 
+<div class="table-wrap">
+
 | Character | Meaning                                                                                             |
 | --------- | --------------------------------------------------------------------------------------------------- |
 | `r`       | Read (default). File must exist; raises `FileNotFoundError` otherwise.                              |
@@ -39,6 +41,8 @@ or binary data. Modes are composed from the following characters:
 | `b`       | Binary mode. Data is `bytes`No encoding, no newline translation.                                    |
 | `t`       | Text mode (default). Data is `str`Encoding applied, newline translation.                            |
 | `+`       | Update. Allows both reading and writing (file is not truncated on open for `r+`).                   |
+
+</div>
 
 The mode defaults to `"rt'` (read, text) if no mode is specified.
 
@@ -102,6 +106,8 @@ Encodings include:
 
 Controls how encoding/decoding errors are handled:
 
+<div class="table-wrap">
+
 | Value                 | Behavior                                                                                                                                                          |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `"strict"` (default)  | Raises `UnicodeDecodeError` or `UnicodeEncodeError`.                                                                                                              |
@@ -111,6 +117,8 @@ Controls how encoding/decoding errors are handled:
 | `"backslashreplace"`  | Replaces invalid bytes with Python escape sequences (e.g., `\xff`). Useful for debugging.                                                                         |
 | `"namereplace"`       | Replaces unsupported characters with `\N{...}` escape sequences. Encode-only.                                                                                     |
 | `"xmlcharrefreplace"` | Replaces unsupported characters with XML numeric character references (e.g., `&#xff;`). Encode-only.                                                              |
+
+</div>
 
 The `surrogateescape` error handler is essential for handling filenames on Unix systems. Unix
 Filenames are arbitrary byte sequences (except `/` and `\0`), and they may not be valid UTF-8. When
@@ -156,6 +164,8 @@ By default (`newline=None`), Python performs **universal newline translation** o
 - On read: `\n`, `\r\n` and `\r` are all translated to `\n`.
 - On write: `\n` is translated to the platform's line separator (`\n` on Unix, `\r\n` on Windows).
 
+<div class="table-wrap">
+
 | `newline` value     | Read behavior                          | Write behavior                              |
 | ------------------- | -------------------------------------- | ------------------------------------------- |
 | `None` (default)    | Universal newlines (all forms to `\n`) | Platform-native (`\n` to `\r\n` on Windows) |
@@ -163,6 +173,8 @@ By default (`newline=None`), Python performs **universal newline translation** o
 | `"\n"`              | Only `\n` recognized as newline        | No translation                              |
 | `"\r"`              | Only `\r` recognized as newline        | No translation                              |
 | `"\r\n"`            | Only `\r\n` recognized as newline      | No translation                              |
+
+</div>
 
 Setting `newline=""` (empty string) is the most common explicit choice. It enables universal newline
 Translation on read (so you always get `\n` regardless of the file's origin) while writing `\n`
@@ -419,11 +431,15 @@ Memory usage low.
 `f.tell()` returns the current position in the file (character offset in text mode, byte offset in
 Binary mode). `f.seek(offset, whence)` moves the position:
 
+<div class="table-wrap">
+
 | `whence`      | Meaning                                       |
 | ------------- | --------------------------------------------- |
 | `0` (default) | Absolute position from the start of the file. |
 | `1`           | Relative to the current position.             |
 | `2`           | Relative to the end of the file.              |
+
+</div>
 
 ```python
 with open("file.bin", "rb") as f:

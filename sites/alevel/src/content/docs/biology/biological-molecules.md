@@ -43,6 +43,8 @@ Study guide covering the core biochemistry topics for A-Level Biology examinatio
 Water ($\mathrm{H_2O}$) is a polar molecule. Oxygen is more electronegative than hydrogen, creating
 a dipole with $\delta^-$ on oxygen and $\delta^+$ on each hydrogen.
 
+<div class="table-wrap">
+
 | Property                         | Cause                                        | Biological Significance                                    |
 | -------------------------------- | -------------------------------------------- | ---------------------------------------------------------- |
 | Solvent                          | Polarity dissolves ionic/covalent substances | Medium for metabolic reactions; transport in blood and sap |
@@ -51,6 +53,8 @@ a dipole with $\delta^-$ on oxygen and $\delta^+$ on each hydrogen.
 | Cohesion                         | H-bonds between water molecules              | Water columns in xylem; surface tension                    |
 | Adhesion                         | H-bonds with other surfaces                  | Capillary action in xylem vessels                          |
 | Lower density as ice             | Open H-bonded lattice                        | Ice floats, insulating aquatic habitats                    |
+
+</div>
 
 ### Hydrogen Bonding in Water
 
@@ -91,13 +95,19 @@ Other common monosaccharides: **fructose**, **ribose** ($\mathrm{C_5}$ pentose i
 
 Formed by a **condensation reaction** (removal of $\mathrm{H_2O}$) creating a **glycosidic bond**.
 
+<div class="table-wrap">
+
 | Disaccharide | Monosaccharides                     | Glycosidic Bond | Found In        |
 | ------------ | ----------------------------------- | --------------- | --------------- |
 | Maltose      | $\alpha$-glucose + $\alpha$-glucose | $\alpha$-1,4    | Digestion       |
 | Sucrose      | $\alpha$-glucose + fructose         | $\alpha$-1,2    | Sugar cane/beet |
 | Lactose      | $\beta$-galactose + $\beta$-glucose | $\beta$-1,4     | Milk            |
 
+</div>
+
 ### Polysaccharides
+
+<div class="table-wrap">
 
 | Polysaccharide       | Monomer          | Bonds                         | Structure                     | Function                  |
 | -------------------- | ---------------- | ----------------------------- | ----------------------------- | ------------------------- |
@@ -105,6 +115,8 @@ Formed by a **condensation reaction** (removal of $\mathrm{H_2O}$) creating a **
 | Starch (amylopectin) | $\alpha$-glucose | $\alpha$-1,4 and $\alpha$-1,6 | Branched                      | Energy storage in plants  |
 | Glycogen             | $\alpha$-glucose | $\alpha$-1,4 and $\alpha$-1,6 | Highly branched               | Energy storage in animals |
 | Cellulose            | $\beta$-glucose  | $\beta$-1,4                   | Straight, cross-linked chains | Structural (cell walls)   |
+
+</div>
 
 > **Key difference:** $\alpha$-glycosidic bonds produce coils (starch); $\beta$-glycosidic bonds
 > produce straight chains that form H-bonds between adjacent chains (cellulose), giving great
@@ -190,12 +202,16 @@ $$
 
 ### Levels of Protein Structure
 
+<div class="table-wrap">
+
 | Level      | Description                                              | Bonds Involved                                                    |
 | ---------- | -------------------------------------------------------- | ----------------------------------------------------------------- |
 | Primary    | Sequence of amino acids                                  | Peptide bonds                                                     |
 | Secondary  | Regular folding: $\alpha$-helix or $\beta$-pleated sheet | Hydrogen bonds between backbone C=O and N-H                       |
 | Tertiary   | Overall 3D shape of a single polypeptide                 | H-bonds, ionic bonds, disulfide bridges, hydrophobic interactions |
 | Quaternary | Assembly of two or more polypeptide subunits             | Same as tertiary, between subunits                                |
+
+</div>
 
 **Disulfide bridges** form between cysteine residues and are strong covalent bonds critical to
 tertiary structure stability.
@@ -207,12 +223,16 @@ tertiary structure stability.
 
 ### Fibrous vs Globular Proteins
 
+<div class="table-wrap">
+
 | Feature    | Fibrous                        | Globular                                               |
 | ---------- | ------------------------------ | ------------------------------------------------------ |
 | Shape      | Long, rope-like                | Spherical, compact                                     |
 | Solubility | Insoluble                      | Soluble                                                |
 | Function   | Structural (collagen, keratin) | Metabolic/enzymatic (enzymes, antibodies, haemoglobin) |
 | Bonds      | Many cross-links               | Hydrophobic interior, H-bonds exterior                 |
+
+</div>
 
 ---
 
@@ -244,11 +264,15 @@ tertiary structure stability.
 
 ### RNA
 
+<div class="table-wrap">
+
 | Type | Structure                   | Function                                  |
 | ---- | --------------------------- | ----------------------------------------- |
 | mRNA | Single-stranded; codons     | Carries genetic code from DNA to ribosome |
 | tRNA | Cloverleaf shape; anticodon | Delivers amino acids to ribosome          |
 | rRNA | Part of ribosome structure  | Catalytic (peptidyl transferase) activity |
+
+</div>
 
 ### ATP
 
@@ -287,6 +311,8 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ### Factors Affecting Enzyme Activity
 
+<div class="table-wrap">
+
 | Factor          | Effect                            | Explanation                                           |
 | --------------- | --------------------------------- | ----------------------------------------------------- |
 | Temperature     | Rate increases then falls sharply | Kinetic energy ↑, then enzyme denatures above optimum |
@@ -294,12 +320,18 @@ but do **not** change the $\Delta H$ or equilibrium position.
 | Substrate conc. | Rate increases then plateaus      | Active sites saturated → Vmax reached                 |
 | Enzyme conc.    | Rate increases linearly           | More active sites available                           |
 
+</div>
+
 ### Inhibitors
+
+<div class="table-wrap">
 
 | Type            | Mechanism                                      | Effect on Vmax                              | Effect on $K_m$ |
 | --------------- | ---------------------------------------------- | ------------------------------------------- | --------------- |
 | Competitive     | Binds to active site; competes with substrate  | Decreases (but can be overcome by high [S]) | Increases       |
 | Non-competitive | Binds to allosteric site; changes enzyme shape | Decreases (cannot be overcome)              | No change       |
+
+</div>
 
 ### $K_m$ and Vmax
 
@@ -321,6 +353,8 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ## 7. Inorganic Ions
 
+<div class="table-wrap">
+
 | Ion                              | Role                                                               | Example                                                    |
 | -------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------- |
 | Iron ($\mathrm{Fe^{2+}}$)        | Component of haemoglobin; binds $\mathrm{O_2}$ in transport        | Haemoglobin (4 Fe ions per molecule)                       |
@@ -329,6 +363,8 @@ but do **not** change the $\Delta H$ or equilibrium position.
 | Phosphate ($\mathrm{PO_4^{3-}}$) | ATP, DNA/RNA backbone, phospholipids                               | ATP, nucleotides, cell membranes                           |
 | Sodium ($\mathrm{Na^+}$)         | Co-transport; nerve impulse transmission; kidney function          | $\mathrm{Na^+}/\mathrm{K^+}$ pump; co-transport of glucose |
 | Nitrate ($\mathrm{NO_3^-}$)      | Nitrogen source for amino acid synthesis                           | Protein production in plants                               |
+
+</div>
 
 ---
 

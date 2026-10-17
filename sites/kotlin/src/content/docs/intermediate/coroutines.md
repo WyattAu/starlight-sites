@@ -130,12 +130,16 @@ suspend fun loadData(): String = withContext(Dispatchers.IO) {
 
 Dispatchers determine which thread pool executes the coroutine.
 
+<div class="table-wrap">
+
 | Dispatcher               | Purpose                                                        |
 | ------------------------ | -------------------------------------------------------------- |
 | `Dispatchers.Default`    | CPU-intensive work (sorting, parsing, JSON)                    |
 | `Dispatchers.IO`         | Blocking IO (network, disk, database)                          |
 | `Dispatchers.Main`       | UI thread (Android, JavaFX)                                    |
 | `Dispatchers.Unconfined` | Starts on caller thread, resumes on whatever thread resumes it |
+
+</div>
 
 ```kotlin
 launch(Dispatchers.Default) {
@@ -314,12 +318,16 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 
 ### Channel Types
 
+<div class="table-wrap">
+
 | Type                | Description                         |
 | ------------------- | ----------------------------------- |
 | `Channel()`         | Rendezvous (buffer size 0)          |
 | `Channel(64)`       | Buffered with capacity 64           |
 | `Channel.CONFLATED` | Drops previous values, keeps latest |
 | `Channel.UNLIMITED` | Unbounded buffer (use with caution) |
+
+</div>
 
 ## Common Pitfalls
 

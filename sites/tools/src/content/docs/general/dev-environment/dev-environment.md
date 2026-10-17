@@ -29,6 +29,8 @@ description: "Study notes for Development Environment Setup with worked examples
 Modern terminal emulators use the GPU for rendering, enabling smooth scrolling, proper Unicode
 Support, and fast image rendering:
 
+<div class="table-wrap">
+
 | Terminal  | Renderer     | Platform              | Key Features                                             |
 | --------- | ------------ | --------------------- | -------------------------------------------------------- |
 | Alacritty | Vulkan/Metal | Linux, macOS, Windows | Fastest, minimal config (YAML), GPU-first                |
@@ -36,6 +38,8 @@ Support, and fast image rendering:
 | WezTerm   | WebGL/Metal  | Linux, macOS, Windows | Built-in multiplexer, Lua config, image protocol         |
 | Ghostty   | Vulkan/Metal | Linux, macOS          | New, fast, system-native font rendering                  |
 | iTerm2    | Metal        | macOS                 | macOS-only, extensive features, splits, tmux integration |
+
+</div>
 
 ### Terminal Configuration
 
@@ -69,6 +73,8 @@ bindings = [
 
 A good programming font is critical for long coding sessions:
 
+<div class="table-wrap">
+
 | Font           | Ligatures    | Nerd Font | Notes                                        |
 | -------------- | ------------ | --------- | -------------------------------------------- |
 | JetBrains Mono | Yes          | Yes       | Excellent readability, designed for code     |
@@ -76,6 +82,8 @@ A good programming font is critical for long coding sessions:
 | Cascadia Code  | Yes          | Yes       | Microsoft's coding font, great for terminals |
 | Iosevka        | Customizable | Yes       | Highly customizable, many variants           |
 | Monaco         | No           | No        | Classic macOS font, no ligatures             |
+
+</div>
 
 Install a Nerd Font variant for proper icon rendering in terminal prompts and file managers.
 
@@ -94,6 +102,8 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 ### Shell Comparison
 
+<div class="table-wrap">
+
 | Feature              | Bash                                            | Zsh                           | Fish                    |
 | -------------------- | ----------------------------------------------- | ----------------------------- | ----------------------- |
 | POSIX compliance     | Full                                            | Partial                       | No                      |
@@ -105,6 +115,8 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 | Autosuggestions      | No (external)                                   | Yes (zsh-autosuggestions)     | Yes (built-in)          |
 | Performance          | Fast                                            | Moderate (depends on plugins) | Fast                    |
 | Learning curve       | Low                                             | Moderate                      | Low                     |
+
+</div>
 
 ### Recommendation
 
@@ -184,6 +196,8 @@ disabled = false
 
 ### Essential Zsh Plugins
 
+<div class="table-wrap">
+
 | Plugin                  | Function                            | Startup Cost |
 | ----------------------- | ----------------------------------- | ------------ |
 | zsh-autosuggestions     | Gray suggestions from history       | ~5 ms        |
@@ -191,6 +205,8 @@ disabled = false
 | zsh-completions         | Additional completion definitions   | ~5 ms        |
 | fzf-tab                 | Fuzzy completion menus              | ~2 ms        |
 | z                       | Directory jumping based on frecency | ~1 ms        |
+
+</div>
 
 ---
 
@@ -296,6 +312,8 @@ Terminal, debugger, and Git integration.
 
 Essential extensions:
 
+<div class="table-wrap">
+
 | Extension     | Function                                |
 | ------------- | --------------------------------------- |
 | GitLens       | Git blame, history, and comparison      |
@@ -308,9 +326,13 @@ Essential extensions:
 | Prettier      | Code formatting                         |
 | ESLint        | JavaScript/TypeScript linting           |
 
+</div>
+
 ### Key Bindings Worth Learning
 
 Regardless of editor, these keybindings improve productivity:
+
+<div class="table-wrap">
 
 | Action           | Vim            | VS Code        | General Benefit        |
 | ---------------- | -------------- | -------------- | ---------------------- |
@@ -320,6 +342,8 @@ Regardless of editor, these keybindings improve productivity:
 | Find references  | `gr`           | Shift+F12      | Refactoring            |
 | Quick fix        | `:cw`          | `Ctrl+Shift+M` | Error navigation       |
 | Search in files  | `:Ag` / `:Rg`  | `Ctrl+Shift+F` | Code search            |
+
+</div>
 
 ---
 
@@ -461,6 +485,8 @@ ssh-copy-id user@remote-host
 
 ### Modern Coreutils Replacements
 
+<div class="table-wrap">
+
 | Tool           | Replaces                     | Key Feature                                 |
 | -------------- | ---------------------------- | ------------------------------------------- |
 | `fzf`          | `Ctrl+R``Ctrl+T`File finding | Fuzzy finder with preview                   |
@@ -475,6 +501,8 @@ ssh-copy-id user@remote-host
 | `httpie`       | `curl`                       | Human-friendly HTTP client                  |
 | `tokei`        | `cloc`                       | Fast code line counter                      |
 | `bottom (btm)` | `htop`                       | Modern system monitor with GPU support      |
+
+</div>
 
 ### fzf Integration
 

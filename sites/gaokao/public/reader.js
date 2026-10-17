@@ -702,6 +702,14 @@
       wrapper.className = 'wn-table-wrapper'
       wrapper.style.overflowX = 'auto'
       wrapper.style.maxWidth = '100%'
+      // `max-width: 100%` alone is not a cap on a flex or grid child: those
+      // default to `min-width: auto`, which refuses to shrink below the content's
+      // intrinsic width. The reading column is a grid item, so a wide table
+      // stretched this wrapper past the column and the overflow escaped to the
+      // document -- measured at 650px of table inside a 326px column, with the
+      // whole page sliding sideways on a phone. `min-width: 0` is the declaration
+      // that lets the wrapper shrink so `overflow-x` can scroll the table.
+      wrapper.style.minWidth = '0'
       wrapper.style.margin = '1.5rem 0'
       tbl.parentNode.insertBefore(wrapper, tbl)
       wrapper.appendChild(tbl)

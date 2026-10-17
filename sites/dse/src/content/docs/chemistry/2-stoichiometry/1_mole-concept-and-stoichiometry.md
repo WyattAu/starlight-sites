@@ -92,6 +92,8 @@ $$
 n = \frac{m}{M}
 $$
 
+<div class="table-wrap">
+
 | Substance         | Formula                     | $M_r$ | Molar Mass  |
 | ----------------- | --------------------------- | ----- | ----------- |
 | Water             | $\mathrm{H}_2\mathrm{O}$    | 18.0  | 18.0 g/mol  |
@@ -99,6 +101,8 @@ $$
 | Sodium chloride   | $\mathrm{NaCl}$             | 58.5  | 58.5 g/mol  |
 | Sulfuric acid     | $\mathrm{H}_2\mathrm{SO}_4$ | 98.1  | 98.1 g/mol  |
 | Calcium carbonate | $\mathrm{CaCO}_3$           | 100.1 | 100.1 g/mol |
+
+</div>
 
 ### Molar Volume of Gas at STP
 
@@ -160,11 +164,15 @@ Find its empirical formula.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Element | Mass (%) | $A_r$ | Moles              | Ratio           |
 | ------- | -------- | ----- | ------------------ | --------------- |
 | C       | 40.0     | 12.0  | 40.0 / 12.0 = 3.33 | 3.33 / 3.33 = 1 |
 | H       | 6.7      | 1.0   | 6.7 / 1.0 = 6.7    | 6.7 / 3.33 = 2  |
 | O       | 53.3     | 16.0  | 53.3 / 16.0 = 3.33 | 3.33 / 3.33 = 1 |
+
+</div>
 
 Empirical formula = $\mathrm{CH}_2\mathrm{O}$
 
@@ -503,6 +511,8 @@ $$
 PV = nRT
 $$
 
+<div class="table-wrap">
+
 | Symbol | Meaning      | Units                                        |
 | ------ | ------------ | -------------------------------------------- |
 | P      | Pressure     | Pa (or atm, kPa)                             |
@@ -510,6 +520,8 @@ $$
 | n      | Moles        | mol                                          |
 | R      | Gas constant | 8.314 J/(mol K) or 0.0821 atm dm$^3$/(mol K) |
 | T      | Temperature  | K                                            |
+
+</div>
 
 :::note
 $V_m = \dfrac{nRT}{P} = \dfrac{1 \times 0.0821 \times 273}{1} = 22.4 \mathrm{ dm}^3$
@@ -581,12 +593,16 @@ Reaction with a standard solution of known concentration.
 
 ### Key Apparatus
 
+<div class="table-wrap">
+
 | Apparatus        | Purpose                                             |
 | ---------------- | --------------------------------------------------- |
 | Burette          | Delivers variable volumes, graduated to 0.05 cm$^3$ |
 | Pipette          | Delivers a fixed volume accurately                  |
 | Volumetric flask | Prepares solutions of precise concentration         |
 | Conical flask    | Contains the analyte for titration                  |
+
+</div>
 
 ### Titration Calculations
 
@@ -864,11 +880,15 @@ Formula and, given that the molar mass is 126 g/mol, the molecular formula.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Element | Mass (%) | $A_r$ | Moles               | Ratio                 |
 | ------- | -------- | ----- | ------------------- | --------------------- |
 | Na      | 36.5     | 23.0  | 36.5 / 23.0 = 1.587 | 1.587 / 0.793 = 2.00  |
 | S       | 25.4     | 32.1  | 25.4 / 32.1 = 0.791 | 0.791 / 0.793 = 0.997 |
 | O       | 38.1     | 16.0  | 38.1 / 16.0 = 2.381 | 2.381 / 0.793 = 3.00  |
+
+</div>
 
 Empirical formula = $\mathrm{Na}_2\mathrm{SO}_3$
 
@@ -1025,11 +1045,15 @@ Mass of H in $\mathrm{H}_2\mathrm{O}$ = $0.108 \times \dfrac{2.0}{18.0} = 0.0120
 
 Mass of O = $0.120 - 0.0720 - 0.0120 = 0.0360 \mathrm{ g}$
 
+<div class="table-wrap">
+
 | Element | Mass (g) | $A_r$ | Moles   | Ratio |
 | ------- | -------- | ----- | ------- | ----- |
 | C       | 0.0720   | 12.0  | 0.00600 | 1     |
 | H       | 0.0120   | 1.0   | 0.0120  | 2     |
 | O       | 0.0360   | 16.0  | 0.00225 | 0.375 |
+
+</div>
 
 Multiply all by 8 to clear the fraction: C : H : O = 8 : 16 : 3
 

@@ -110,12 +110,16 @@ Ordinary weak symbols instead.
 Symbol visibility controls which symbols are exported from shared libraries (`.so, .dll`). This
 Affects both dynamic linking and name mangling.
 
+<div class="table-wrap">
+
 | Visibility    | ELF Flag                                   | Meaning                                               |
 | :------------ | :----------------------------------------- | :---------------------------------------------------- |
 | **Default**   | (none)                                     | Exported; may be interposed by LD_PRELOAD             |
 | **Hidden**    | `__attribute__((visibility("hidden")))`    | Not exported; internal to the DSO                     |
 | **Protected** | `__attribute__((visibility("protected")))` | Exported but cannot be interposed                     |
 | **Internal**  | (implementation-defined)                   | Not exported; may enable more aggressive optimization |
+
+</div>
 
 ```cpp
 // Hide all symbols by default, export only the API
@@ -399,6 +403,8 @@ cmake -DCMAKE_LINKER=mold ..
 clang++ -fuse-ld=mold main.o -lA -lB
 ```
 
+<div class="table-wrap">
+
 | Feature            | GNU ld (BFD) | Gold    | LLD            | Mold       |
 | :----------------- | :----------- | :------ | :------------- | :--------- |
 | **Language**       | C            | C++     | C++            | C++        |
@@ -408,6 +414,8 @@ clang++ -fuse-ld=mold main.o -lA -lB
 | **Linker Scripts** | Full         | Partial | Most           | Partial    |
 | **Speed**          | Baseline     | 2-5x    | 2-10x          | 5-100x     |
 | **LTO**            | Via plugin   | Native  | Native         | Via plugin |
+
+</div>
 
 ## 6. Linker Scripts
 
@@ -464,10 +472,14 @@ Time.
 
 ### LTO Types
 
+<div class="table-wrap">
+
 | Type         | Description                         | Build Time         | Binary Quality |
 | :----------- | :---------------------------------- | :----------------- | :------------- |
 | **Full LTO** | Merges all IR into one unit         | Slow (high memory) | Best           |
 | **ThinLTO**  | Parallel summary-based optimization | Moderate           | Near-full LTO  |
+
+</div>
 
 ```cmake
 # CMake: enable LTO
@@ -556,6 +568,8 @@ nm -D libfoo.so | grep "missing_symbol"
 
 ### Symbol Type Comparison
 
+<div class="table-wrap">
+
 | nm Symbol Type | Meaning             | Typical Source                                  |
 | :------------- | :------------------ | :---------------------------------------------- |
 | `T` / `t`      | Text (code) section | Function definition                             |
@@ -565,6 +579,8 @@ nm -D libfoo.so | grep "missing_symbol"
 | `W` / `w`      | Weak symbol         | Tentative definition or `__attribute__((weak))` |
 | `A`            | Absolute            | Linker script symbol                            |
 | `V` / `v`      | Weak object (ELF)   | Weak symbol definition                          |
+
+</div>
 
 ## Common Pitfalls
 

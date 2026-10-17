@@ -200,6 +200,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 
 ### When to Use Each
 
+<div class="table-wrap">
+
 | Scenario                 | Prefer                       | Reason                            |
 | ------------------------ | ---------------------------- | --------------------------------- |
 | File existence           | EAFP (`open` + `except`)     | TOCTOU race condition with LBYL   |
@@ -207,6 +209,8 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 | Type checking            | LBYL (`isinstance`)          | Wrong types are programmer errors |
 | External API calls       | EAFP + retry                 | Network conditions change         |
 | Configuration validation | LBYL at boundary             | Fail fast, clear error messages   |
+
+</div>
 
 :::caution
 ```python
@@ -580,11 +584,15 @@ class ServerConfig:
 
 ## Error Codes vs Exceptions
 
+<div class="table-wrap">
+
 | Approach     | Use When                                                                             |
 | ------------ | ------------------------------------------------------------------------------------ |
 | Exceptions   | Internal logic errors, programming mistakes, unexpected states                       |
 | Error codes  | Expected failure modes (e.g., file not found), C interop, performance-critical paths |
 | Result types | Functional style, explicit error handling, no exceptions                             |
+
+</div>
 
 ```python
 from dataclasses import dataclass

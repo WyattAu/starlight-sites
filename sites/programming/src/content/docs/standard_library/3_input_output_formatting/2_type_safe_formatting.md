@@ -76,11 +76,15 @@ type              ::= type-specifier
 
 #### Argument ID
 
+<div class="table-wrap">
+
 | Syntax     | Meaning                                                             |
 | :--------- | :------------------------------------------------------------------ |
 | `{}`       | Automatic indexing --- arguments are consumed in order              |
 | `{0}``{1}` | Manual indexing --- refers to the argument at that position         |
 | `{name}`   | Named argument (only when using `std::format_args` with named pack) |
+
+</div>
 
 ```cpp
 #include <format>
@@ -100,12 +104,16 @@ void arg_id_demo() {
 
 Alignment controls how text is padded within a given width [N4950 §22.14.2.2]:
 
+<div class="table-wrap">
+
 | Align  | Meaning                                 | Default for |
 | :----- | :-------------------------------------- | :---------- |
 | `&lt;` | Left-align                              | Strings     |
 | `&gt;` | Right-align                             | Numbers     |
 | `^`    | Center                                  | ---         |
 | `=`    | Pad after sign/0x prefix (numbers only) | ---         |
+
+</div>
 
 ```cpp
 #include <format>
@@ -122,6 +130,8 @@ void alignment_demo() {
 
 #### Sign, `#`And Zero-Padding
 
+<div class="table-wrap">
+
 | Specifier | Meaning                                                                    |
 | :-------- | :------------------------------------------------------------------------- |
 | `+`       | Always show sign for signed types (`+42``-7`)                              |
@@ -129,6 +139,8 @@ void alignment_demo() {
 | (space)   | Show space for positive, minus for negative (`42``-7`)                    |
 | `#`       | Alternate form: `0x` prefix for hex, `0b` for binary, `0` prefix for octal |
 | `0`       | Pad with zeros instead of spaces                                           |
+
+</div>
 
 ```cpp
 #include <format>
@@ -172,6 +184,8 @@ Width/precision, keep the argument ordering simple.
 
 #### Type Specifiers
 
+<div class="table-wrap">
+
 | Type      | Meaning                          | Example                                      |
 | :-------- | :------------------------------- | :------------------------------------------- |
 | `d`       | Decimal integer                  | `{}` --- `42`                                |
@@ -186,6 +200,8 @@ Width/precision, keep the argument ordering simple.
 | `c`       | Character                        | `{}` --- `A`                                 |
 | `p`       | Pointer                          | `{}` --- `0x7ffc1234`                        |
 | `?`       | Debug output (C++23)             | `{}` --- `"hello"` (with quotes and escapes) |
+
+</div>
 
 ### Format Specification Reference Table
 

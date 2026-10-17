@@ -218,11 +218,15 @@ $$
 
 Critical values: $x = 1$ (double root) and $x = 3$.
 
+<div class="table-wrap">
+
 | Interval    | Test    | $(x-1)^2$ | $(x-3)$ | Product |
 | ----------- | ------- | --------- | ------- | ------- |
 | $x < 1$     | $x = 0$ | $+$       | $-$     | $-$     |
 | $1 < x < 3$ | $x = 2$ | $+$       | $-$     | $-$     |
 | $x > 3$     | $x = 4$ | $+$       | $+$     | $+$     |
+
+</div>
 
 $P(x) \leq 0$ when $x \leq 3$ (including $x = 1$ and $x = 3$).
 

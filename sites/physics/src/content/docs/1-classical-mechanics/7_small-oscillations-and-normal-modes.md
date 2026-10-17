@@ -181,6 +181,8 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 
 ### 7.8 Key Results Summary
 
+<div class="table-wrap">
+
 | Result | Statement |
 | --- | --- |
 | Secular equation | $\det(\mathbf{V} - \omega^2\mathbf{T}) = 0$ gives normal mode frequencies |
@@ -189,6 +191,8 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 | Beat phenomenon | Two pendulums with close frequencies exchange energy periodically |
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
 
+</div>
+
 ## Cross-References
 
 - **[Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)**: The Lagrangian formulation provides the foundation for analyzing small oscillations and normal modes.
@@ -196,6 +200,6 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - **[Rigid Body Dynamics](/1-classical-mechanics/8_rigid-body-dynamics/)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

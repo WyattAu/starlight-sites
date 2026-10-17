@@ -72,11 +72,15 @@ val unsafeValue: String by lazy(LazyThreadSafetyMode.NONE) {
 }
 ```
 
+<div class="table-wrap">
+
 | Mode           | Behavior                                                             |
 | -------------- | -------------------------------------------------------------------- |
 | `SYNCHRONIZED` | Default. Uses double-checked locking. Thread-safe, slight overhead.  |
 | `PUBLICATION`  | Allows multiple threads to initialize. First returned value is kept. |
 | `NONE`         | No thread safety guarantees. Fastest, single-threaded use only.      |
+
+</div>
 
 ### When Not to Use lazy
 
@@ -339,12 +343,16 @@ val combined: Result<Int> = Result.success(10).zip(Result.success(20)) { x, y ->
 
 ### Result vs Exceptions
 
+<div class="table-wrap">
+
 | Aspect        | Result                                  | Exceptions                  |
 | ------------- | --------------------------------------- | --------------------------- |
 | Explicitness  | Must be handled in the type system      | Can be ignored at call site |
 | Composability | Chains with `map`, `flatMap`            | Requires try/catch blocks   |
 | Performance   | No stack trace allocation on happy path | Stack trace on every throw  |
 | Use case      | Expected failures, domain errors        | System failures, bugs       |
+
+</div>
 
 Use `Result` for expected failures that are part of the domain logic. Use exceptions for programming
 errors, system failures, and cases where the caller cannot meaningfully recover.

@@ -87,6 +87,8 @@ Box<Integer> intBox = new Box<>(42);
 
 Type parameters are single uppercase letters by convention:
 
+<div class="table-wrap">
+
 | Parameter | Meaning               |
 | --------- | --------------------- |
 | `T`       | Type                  |
@@ -95,6 +97,8 @@ Type parameters are single uppercase letters by convention:
 | `V`       | Value                 |
 | `S``U`    | Second, third types   |
 | `R`       | Return type           |
+
+</div>
 
 Multiple type parameters are comma-separated. Convention uses `K` for key, `V` for value, `E` for
 Element, `S`/`U` for secondary types.
@@ -339,12 +343,16 @@ Collections.copy(dest, src); // dest is ? super Integer, src is ? extends Intege
 
 ### PECS Decision Table
 
+<div class="table-wrap">
+
 | Scenario              | Use               | Can read as | Can write               |
 | --------------------- | ----------------- | ----------- | ----------------------- |
 | Read-only (producer)  | `? extends T`     | `T`         | nothing (except `null`) |
 | Write-only (consumer) | `? super T`       | `Object`    | `T` and subtypes of `T` |
 | Read and write        | `T` (no wildcard) | `T`         | `T`                     |
 | Don't care            | `?`               | `Object`    | nothing (except `null`) |
+
+</div>
 
 ### Wildcard Capture
 

@@ -89,6 +89,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | The Japanese attack on Pearl Harbor on 7 December 1941 brought the United States into the war and triggered the Pacific conflict. |
@@ -101,6 +103,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (C) | The atomic bombs were dropped on Hiroshima (6 August) and Nagasaki (9 August) 1945, leading to Japan's surrender. |
 | 9 | (B) | The Greater East Asia Co-Prosperity Sphere was a Japanese-led bloc intended to secure resources and strategic control. |
 | 10 | (A) | The Battle of Midway (June 1942) destroyed four Japanese carriers and shifted the strategic initiative to the Allies. |
+
+</div>
 
 ## Common Mistakes
 

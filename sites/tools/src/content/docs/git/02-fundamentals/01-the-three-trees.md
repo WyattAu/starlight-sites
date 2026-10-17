@@ -76,10 +76,14 @@ to disk.
 
 Git classifies files in the working directory into two categories:
 
+<div class="table-wrap">
+
 | State         | Definition                                                                         | Shown by                                      |
 | ------------- | ---------------------------------------------------------------------------------- | --------------------------------------------- |
 | **Tracked**   | File is in the index (either as a new addition or inherited from the last commit). | `git diff` (modified), `git status` (deleted) |
 | **Untracked** | File is not in the index and not in `.gitignore`.                                  | `git status` (untracked files)                |
+
+</div>
 
 Files listed in `.gitignore` are **ignored**, they are not tracked and `git status` will not
 mention them.
@@ -99,12 +103,16 @@ record "file.txt was modified"; it computes the SHA-1 hash of the file's current
 The index is stored as a binary file at `.git/index`. Its structure (version 4, as of Git 2.x)
 contains:
 
+<div class="table-wrap">
+
 | Section    | Purpose                                                     |
 | ---------- | ----------------------------------------------------------- |
 | Header     | Signature (`DIRC`), version (2, 3, or 4), number of entries |
 | Entries    | Sorted list of `(pathname, stat info, SHA-1, stage)` tuples |
 | Extensions | Optional: tree cache, untracked cache, conflict markers     |
 | Checksum   | SHA-1 of all preceding content                              |
+
+</div>
 
 Each entry contains:
 
@@ -149,6 +157,8 @@ directory and index are derived from it; they are caches that can be reconstruct
 Every common Git command can be understood as a transformation between the three trees. This table
 is the most important reference in this guide:
 
+<div class="table-wrap">
+
 | Command                       | From → To                                     | Effect                                                                        |
 | ----------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
 | `git init`                    |, → Repository + Working Directory            | Creates empty repository and working directory                                |
@@ -172,6 +182,8 @@ is the most important reference in this guide:
 | `git stash`                   | Working Directory + Index → Stash stack       | Temporarily saves changes; resets to HEAD                                     |
 | `git stash pop`               | Stash stack → Working Directory + Index       | Restores most recent stash                                                    |
 | `git merge <branch>`          | Repository + Working Directory + Index        | Three-way merge into current branch                                           |
+
+</div>
 
 ### Visualizing `git reset` Variants
 
@@ -259,10 +271,14 @@ Understanding these states is critical for using Git safely:
 
 Git commands are divided into two categories:
 
+<div class="table-wrap">
+
 | Category      | Purpose                   | Examples                                                             |
 | ------------- | ------------------------- | -------------------------------------------------------------------- |
 | **Porcelain** | User-facing, high-level   | `git add``git commit``git checkout``git merge`                       |
 | **Plumbing**  | Low-level building blocks | `git hash-object``git update-index``git write-tree``git commit-tree` |
+
+</div>
 
 The three-tree model is implemented entirely by plumbing commands. `git add file.txt` is equivalent
 to:

@@ -37,6 +37,8 @@ Organic compounds are named systematically using IUPAC rules:
 
 ### Alkyl Groups
 
+<div class="table-wrap">
+
 | Name   | Formula      |
 | ------ | ------------ |
 | Methyl | --CH$_3$     |
@@ -44,7 +46,11 @@ Organic compounds are named systematically using IUPAC rules:
 | Propyl | --C$_3$H$_7$ |
 | Butyl  | --C$_4$H$_9$ |
 
+</div>
+
 ### Carbon Chain Prefixes
+
+<div class="table-wrap">
 
 | Carbons | Prefix |
 | ------- | ------ |
@@ -59,7 +65,11 @@ Organic compounds are named systematically using IUPAC rules:
 | 9       | Non-   |
 | 10      | Dec-   |
 
+</div>
+
 ### Suffixes for Functional Groups
+
+<div class="table-wrap">
 
 | Functional Group | Suffix    | Example          |
 | ---------------- | --------- | ---------------- |
@@ -73,6 +83,8 @@ Organic compounds are named systematically using IUPAC rules:
 | Ester            | -oate     | Methyl ethanoate |
 | Amine            | -amine    | Ethanamine       |
 | Amide            | -amide    | Ethanamide       |
+
+</div>
 
 :::note[Example]
 Name: 2-methylbut-2-ene.
@@ -116,12 +128,16 @@ Methyl propanoate, ethyl ethanoate, etc.
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property                  | Trend                                                         |
 | ------------------------- | ------------------------------------------------------------- |
 | Boiling point             | Increases with chain length (more London forces)              |
 | Melting point             | Increases with chain length                                   |
 | State at room temperature | C$_1$--C$_4$: gas; C$_5$--C$_{17}$: liquid; C$_{18}^+$: solid |
 | Solubility                | Non-polar, insoluble in water                                 |
+
+</div>
 
 ### Reactions
 
@@ -349,6 +365,8 @@ $$
 
 **Reactions**:
 
+<div class="table-wrap">
+
 | Reaction       | Conditions                      | Product                                                     |
 | -------------- | ------------------------------- | ----------------------------------------------------------- |
 | Combustion     | Burns in air                    | CO$_2$ + H$_2$O                                             |
@@ -357,6 +375,8 @@ $$
 | Dehydration    | H$_2$SO$_4$Heat                 | Alkene                                                      |
 | Substitution   | PBr$_3$ or SOCl$_2$             | Alkyl halide                                                |
 | Esterification | Carboxylic acid, H$^+$ catalyst | Ester                                                       |
+
+</div>
 
 **Oxidation of Alcohols**:
 
@@ -388,12 +408,16 @@ Tertiary alcohol $\to$ Not oxidised
 
 **Reactions**:
 
+<div class="table-wrap">
+
 | Reaction                      | Product         |
 | ----------------------------- | --------------- |
 | With base                     | Salt + water    |
 | With alcohol (esterification) | Ester + water   |
 | With ammonia                  | Amide           |
 | Reduction (LiAlH$_4$)         | Primary alcohol |
+
+</div>
 
 ### Esters (R--COO--R')
 
@@ -463,6 +487,8 @@ $$
 - **Racemisation** occurs (equal mixture of inverted and retained configuration).
 - Favoured by: tertiary substrates, weak nucleophiles, polar protic solvents.
 
+<div class="table-wrap">
+
 | Feature              | $S_N1$                         | $S_N2$                               |
 | -------------------- | ------------------------------ | ------------------------------------ |
 | Steps                | Two (carbocation intermediate) | One (concerted)                      |
@@ -470,6 +496,8 @@ $$
 | Stereochemistry      | Racemisation                   | Inversion                            |
 | Substrate preference | Tertiary                       | Primary                              |
 | Carbocation          | Yes                            | No                                   |
+
+</div>
 
 ### Elimination ($E1$ and $E2$)
 
@@ -497,6 +525,8 @@ $$
 
 ### Factors Affecting $S_N$ vs $E$
 
+<div class="table-wrap">
+
 | Condition          | Favours Substitution ($S_N$) | Favours Elimination ($E$) |
 | ------------------ | ---------------------------- | ------------------------- |
 | Temperature        | Lower                        | Higher                    |
@@ -505,6 +535,8 @@ $$
 | Substrate          | Primary ($S_N2$)             | Tertiary                  |
 | Steric hindrance   | Low                          | High                      |
 | Solvent            | Polar protic ($S_N1$)        | -                         |
+
+</div>
 
 ---
 
@@ -523,6 +555,8 @@ $$
 
 Formed by addition polymerisation of alkenes (monomers with C=C bonds). No by-product.
 
+<div class="table-wrap">
+
 | Polymer     | Monomer           | Uses                  |
 | ----------- | ----------------- | --------------------- |
 | Polyethene  | Ethene            | Bags, bottles         |
@@ -530,6 +564,8 @@ Formed by addition polymerisation of alkenes (monomers with C=C bonds). No by-pr
 | PVC         | Chloroethene      | Pipes, insulation     |
 | Polystyrene | Phenylethene      | Packaging, insulation |
 | PTFE        | Tetrafluoroethene | Non-stick coatings    |
+
+</div>
 
 ### Condensation Polymers
 
@@ -559,6 +595,8 @@ Proteins are natural polyamides formed from amino acid monomers via peptide bond
 
 ### Biodegradability
 
+<div class="table-wrap">
+
 | Polymer               | Biodegradable? | Reason                                         |
 | --------------------- | -------------- | ---------------------------------------------- |
 | Polyethene            | No             | C--C backbone resists hydrolysis               |
@@ -566,6 +604,8 @@ Proteins are natural polyamides formed from amino acid monomers via peptide bond
 | Polyamides            | Partially      | Amide bonds can be hydrolysed (slowly)         |
 | Polylactic acid (PLA) | Yes            | Ester linkages, derived from renewable sources |
 | Cellulose             | Yes            | Natural polymer, readily broken down           |
+
+</div>
 
 ### Identifying Monomers
 
@@ -671,6 +711,8 @@ $$
 
 ## Summary
 
+<div class="table-wrap">
+
 | Reaction Type  | Description                                              |
 | -------------- | -------------------------------------------------------- |
 | Substitution   | Atom/group replaced (alkanes, benzene)                   |
@@ -681,12 +723,18 @@ $$
 | Reduction      | Loss of oxygen or gain of hydrogen                       |
 | Polymerisation | Monomers join to form long chains                        |
 
+</div>
+
+<div class="table-wrap">
+
 | Mechanism | Characteristics                              |
 | --------- | -------------------------------------------- |
 | $S_N2$    | One step, inversion, primary substrates      |
 | $S_N1$    | Two steps, racemisation, tertiary substrates |
 | $E2$      | One step, strong base, Zaitsev product       |
 | $E1$      | Two steps, carbocation, weak base            |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -762,6 +810,8 @@ Cycloalkanes can have cis-trans isomerism when substituents are on different sid
 
 Identifies functional groups by absorption of IR radiation.
 
+<div class="table-wrap">
+
 | Absorption (cm$^{-1}$) | Bond                   |
 | ---------------------- | ---------------------- |
 | 2500--3300             | O--H (broad), N--H     |
@@ -769,6 +819,8 @@ Identifies functional groups by absorption of IR radiation.
 | 1680--1750             | C=O                    |
 | 1620--1680             | C=C                    |
 | 2100--2260             | C$\equiv$C, C$\equiv$N |
+
+</div>
 
 ### Mass Spectrometry
 
@@ -1133,11 +1185,15 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                                             |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------------ |
 | [Organic Chemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/organic-chemistry/introduction) |
 | [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry/)        |
 | [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/)       |
+
+</div>
 
 ## Worked Examples
 

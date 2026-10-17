@@ -129,6 +129,8 @@ AP Computer Science A is a college-level course that introduces students to comp
 
 ### Topics Covered
 
+<div class="table-wrap">
+
 | Topic | Weight | Questions |
 | ------- | -------- | ----------- |
 | Primitive Types | 2.5-5% | 1-2 |
@@ -140,6 +142,8 @@ AP Computer Science A is a college-level course that introduces students to comp
 | Recursion | 5-7.5% | 2-3 |
 | ArrayList | 10-12.5% | 4-5 |
 | 2D Arrays | 5-7.5% | 2-3 |
+
+</div>
 
 ---
 
@@ -638,6 +642,8 @@ AP Computer Science Principles introduces students to the foundational concepts 
 
 ### Big Ideas
 
+<div class="table-wrap">
+
 | Big Idea | Weight | Description |
 | ---------- | -------- | ------------- |
 | Creative Development | 10-15% | Collaboration, program design, abstraction |
@@ -646,6 +652,8 @@ AP Computer Science Principles introduces students to the foundational concepts 
 | Programming | 30-35% | Variables, control structures, procedures |
 | Computing Systems and Networks | 10-15% | Internet, cybersecurity, parallel computing |
 | Impact of Computing | 10-15% | Beneficial/harmful effects, digital divide |
+
+</div>
 
 ---
 
@@ -1147,6 +1155,8 @@ All biological macromolecules are polymers built from monomers via dehydration s
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic              | Eukaryotic                         |
 | ------------------------- | ------------------------ | ---------------------------------- |
 | Nucleus                   | No (nucleoid region)     | Yes (membrane-bound)               |
@@ -1157,7 +1167,11 @@ All biological macromolecules are polymers built from monomers via dehydration s
 | Cell wall                 | Peptidoglycan (bacteria) | Cellulose (plants), chitin (fungi) |
 | Examples                  | Bacteria, archaea        | Animals, plants, fungi, protists   |
 
+</div>
+
 ### Organelles
+
+<div class="table-wrap">
 
 | Organelle       | Function                                                                                                          |
 | --------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -1174,6 +1188,8 @@ All biological macromolecules are polymers built from monomers via dehydration s
 | Ribosomes       | Protein synthesis (free in cytoplasm or on rough ER)                                                              |
 | Cytoskeleton    | Structural support, cell movement, intracellular transport (microfilaments, intermediate filaments, microtubules) |
 
+</div>
+
 ### Cell Membrane
 
 The fluid mosaic model: phospholipid bilayer with embedded proteins that can drift laterally.
@@ -1186,6 +1202,8 @@ The fluid mosaic model: phospholipid bilayer with embedded proteins that can dri
 
 ### Membrane Transport
 
+<div class="table-wrap">
+
 | Type                  | Direction                                     | Energy Required?        | Examples                                 |
 | --------------------- | --------------------------------------------- | ----------------------- | ---------------------------------------- |
 | Simple diffusion      | High to low concentration                     | No                      | O$_2$, CO$_2$, small non-polar molecules |
@@ -1194,6 +1212,8 @@ The fluid mosaic model: phospholipid bilayer with embedded proteins that can dri
 | Active transport      | Low to high concentration                     | Yes (ATP)               | Na$^+$/K$^+$ pump, proton pump           |
 | Cotransport           | Uses gradient established by active transport | Yes (indirect)          | Glucose-Na$^+$ symporter                 |
 | Bulk transport        | Endocytosis/exocytosis                        | Yes (vesicle formation) | Large molecules, particles               |
+
+</div>
 
 **Tonicity:**
 
@@ -1356,11 +1376,15 @@ meiosis (provided they are not linked).
 
 **Genetic crosses:**
 
+<div class="table-wrap">
+
 | Cross                  | Ratio (phenotype) | Ratio (genotype) |
 | ---------------------- | ----------------- | ---------------- |
 | Monohybrid (Aa × Aa)   | 3:1               | 1:2:1            |
 | Dihybrid (AaBb × AaBb) | 9:3:3:1           |,                |
 | Test cross (Aa × aa)   | 1:1               | 1:1              |
+
+</div>
 
 **Probability rules:**
 
@@ -1508,6 +1532,8 @@ of evolutionary relatedness through sequence similarity.
 
 ## 7. Key Terms
 
+<div class="table-wrap">
+
 | Term                   | Definition                                                                             |
 | ---------------------- | -------------------------------------------------------------------------------------- |
 | ADP/ATP                | Adenosine diphosphate/triphosphate; energy currency of the cell                        |
@@ -1540,6 +1566,8 @@ of evolutionary relatedness through sequence similarity.
 | Spliceosome            | Complex that removes introns from pre-mRNA                                             |
 | Taxon                  | Named group of organisms at any level of classification                                |
 | Transcription factor   | Protein that regulates gene expression by binding to DNA                               |
+
+</div>
 
 ## 8. Exam Tips
 
@@ -1588,6 +1616,8 @@ of evolutionary relatedness through sequence similarity.
 
 ## 10. Summary
 
+<div class="table-wrap">
+
 | Topic                             | Key Ideas                                                                                                |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Chemistry of Life                 | Water properties, macromolecules, enzymes and regulation                                                 |
@@ -1596,6 +1626,8 @@ of evolutionary relatedness through sequence similarity.
 | Cell Communication and Cell Cycle | Signal transduction, checkpoints, cyclins/CDKs, cancer                                                   |
 | Heredity                          | Mendelian genetics, non-Mendelian patterns, DNA replication, transcription, translation, gene regulation |
 | Evolution                         | Natural selection, Hardy-Weinberg, genetic drift, gene flow, speciation, evidence                        |
+
+</div>
 
 AP Biology tests your ability to connect concepts across scales, from molecules to ecosystems.
 Focus on understanding _why_ biological processes work the way they do, not just memorising facts.
@@ -1659,6 +1691,8 @@ $$
 
 If $\lim_{x \to a} f(x)$ and $\lim_{x \to a} g(x)$ both exist, then:
 
+<div class="table-wrap">
+
 | Law               | Expression                                                        |
 | ----------------- | ----------------------------------------------------------------- |
 | Sum               | $\lim (f + g) = \lim f + \lim g$                                  |
@@ -1667,6 +1701,8 @@ If $\lim_{x \to a} f(x)$ and $\lim_{x \to a} g(x)$ both exist, then:
 | Quotient          | $\lim (f / g) = \dfrac{\lim f}{\lim g}$, provided $\lim g \neq 0$ |
 | Power             | $\lim f^n = (\lim f)^n$                                           |
 | Constant multiple | $\lim cf = c \lim f$                                              |
+
+</div>
 
 ### Squeeze Theorem
 
@@ -1745,6 +1781,8 @@ $$
 
 ### Derivatives of Common Functions
 
+<div class="table-wrap">
+
 | Function $f(x)$ | Derivative $f'(x)$           |
 | --------------- | ---------------------------- |
 | $c$ (constant)  | $0$                          |
@@ -1762,6 +1800,8 @@ $$
 | $\arcsin x$     | $\dfrac{1}{\sqrt{1 - x^2}}$  |
 | $\arccos x$     | $\dfrac{-1}{\sqrt{1 - x^2}}$ |
 | $\arctan x$     | $\dfrac{1}{1 + x^2}$         |
+
+</div>
 
 ### Implicit Differentiation
 
@@ -2060,6 +2100,8 @@ $$
 
 ## 9. Summary
 
+<div class="table-wrap">
+
 | Topic                       | Key Ideas                                                                                           |
 | --------------------------- | --------------------------------------------------------------------------------------------------- |
 | Limits and Continuity       | Evaluating limits, limit laws, Squeeze theorem, IVT, L'Hopital's rule, continuity conditions        |
@@ -2067,6 +2109,8 @@ $$
 | Applications of Derivatives | MVT, increasing/decreasing, concavity, extrema, optimisation, related rates, curve sketching        |
 | Integration                 | Antiderivatives, Riemann sums, FTC parts 1 and 2, u-substitution, area between curves               |
 | Differential Equations      | Separable equations, slope fields, exponential growth/decay                                         |
+
+</div>
 
 The AP Calculus AB exam tests your ability to apply these concepts in both multiple-choice and
 free-response formats. Focus on understanding why each rule works, the AP exam rewards conceptual
@@ -2735,6 +2779,8 @@ understanding and problem-solving.
 
 ### Displacement, Velocity, and Acceleration
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Definition                           | SI Unit |
 | ------------ | ------ | ------------------------------------ | ------- |
 | Displacement | Vector | Change in position, $\Delta \vec{r}$ | m       |
@@ -2742,6 +2788,8 @@ understanding and problem-solving.
 | Velocity     | Vector | Rate of change of displacement       | m/s     |
 | Speed        | Scalar | Rate of change of distance           | m/s     |
 | Acceleration | Vector | Rate of change of velocity           | m/s$^2$ |
+
+</div>
 
 ### One-Dimensional Kinematics
 
@@ -3076,6 +3124,8 @@ For continuous objects: $I = \int r^2\, dm$
 
 Common moments of inertia:
 
+<div class="table-wrap">
+
 | Object                                    | Rotational Inertia  |
 | ----------------------------------------- | ------------------- |
 | Solid disc/cylinder (axis through centre) | $\dfrac{1}{2}MR^2$  |
@@ -3084,6 +3134,8 @@ Common moments of inertia:
 | Thin rod (axis through centre)            | $\dfrac{1}{12}ML^2$ |
 | Thin rod (axis through end)               | $\dfrac{1}{3}ML^2$  |
 | Point mass at distance $r$                | $mr^2$              |
+
+</div>
 
 ### Angular Momentum
 
@@ -3273,6 +3325,8 @@ $$
 
 ## 10. Summary
 
+<div class="table-wrap">
+
 | Topic             | Key Ideas                                                                               |
 | ----------------- | --------------------------------------------------------------------------------------- |
 | Kinematics        | Displacement, velocity, acceleration, projectile motion, free fall, motion graphs       |
@@ -3281,6 +3335,8 @@ $$
 | Momentum          | Impulse-momentum theorem, conservation of momentum, elastic and inelastic collisions    |
 | Rotational Motion | Torque, rotational inertia, angular momentum, conservation of angular momentum, rolling |
 | Oscillations      | SHM, mass-spring systems, pendulums, energy in oscillations                             |
+
+</div>
 
 AP Physics 1 rewards deep conceptual understanding over memorisation. Focus on building physical
 intuition, ask yourself _why_ an object behaves as it does before reaching for an equation.
@@ -4778,6 +4834,8 @@ URL: https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structu
 
 ### Prokaryotic vs Eukaryotic Cells
 
+<div class="table-wrap">
+
 | Feature                   | Prokaryotic          | Eukaryotic                       |
 | ------------------------- | -------------------- | -------------------------------- |
 | Nucleus                   | No (nucleoid region) | Yes, membrane-bound              |
@@ -4787,6 +4845,8 @@ URL: https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structu
 | Ribosomes                 | 70S (smaller)        | 80S (larger)                     |
 | Cell division             | Binary fission       | Mitosis, meiosis                 |
 | Examples                  | Bacteria, Archaea    | Plants, animals, fungi, protists |
+
+</div>
 
 **Worked Example: Distinguishing prokaryotic and eukaryotic features.**
 
@@ -4825,6 +4885,8 @@ The cell membrane is a fluid mosaic of:
 
 ### Membrane Transport
 
+<div class="table-wrap">
+
 | Type                                    | Direction                   | Energy Required?   | Mediator                |
 | --------------------------------------- | --------------------------- | ------------------ | ----------------------- |
 | Simple diffusion                        | High to low conc.           | No                 | None                    |
@@ -4833,6 +4895,8 @@ The cell membrane is a fluid mosaic of:
 | Active transport                        | Low to high conc.           | Yes (ATP)          | Pump                    |
 | Cotransport (secondary)                 | Low to high conc.           | Yes (ion gradient) | Carrier protein         |
 | Bulk transport (exocytosis/endocytosis) | Various                     | Yes (ATP)          | Vesicles                |
+
+</div>
 
 ### Osmosis and Tonicity
 
@@ -5282,11 +5346,15 @@ the cell. This demonstrates how the Golgi apparatus sorts proteins to different 
 
 In multicellular organisms, cells are connected by specialised junctions:
 
+<div class="table-wrap">
+
 | Junction Type   | Function                                              | Found In                             |
 | --------------- | ----------------------------------------------------- | ------------------------------------ |
 | Tight junctions | Form seals between adjacent cells, preventing leakage | Epithelial cells (intestine, kidney) |
 | Desmosomes      | Strong anchoring junctions, like rivets               | Skin, heart muscle                   |
 | Gap junctions   | Channels between cells for direct communication       | Heart muscle, embryos                |
+
+</div>
 
 Tight junctions prevent substances from passing between cells (forcing them through the cells
 Themselves, which can regulate transport). Desmosomes provide mechanical strength to tissues under
@@ -5473,6 +5541,8 @@ Multiple drugs to prevent resistance.
 
 ## Review: Detailed Comparison of Cell Junctions
 
+<div class="table-wrap">
+
 | Feature           | Tight Junctions                 | Desmosomes                                      | Gap Junctions                    |
 | ----------------- | ------------------------------- | ----------------------------------------------- | -------------------------------- |
 | Structure         | Fusion of outer membrane layers | Disc-shaped plaques with intermediate filaments | Protein channels (connexins)     |
@@ -5480,7 +5550,11 @@ Multiple drugs to prevent resistance.
 | What passes       | Nothing (seal)                  | Mechanical stress                               | Ions, small molecules, signals   |
 | Location examples | Intestinal epithelium           | Skin, heart muscle                              | Cardiac muscle, embryonic tissue |
 
+</div>
+
 ## Review: Summary Table of Organelle Functions
+
+<div class="table-wrap">
 
 | Organelle       | Function                                            | Found In                |
 | --------------- | --------------------------------------------------- | ----------------------- |
@@ -5497,6 +5571,8 @@ Multiple drugs to prevent resistance.
 | Cell wall       | Structural support, protection                      | Plants, fungi, bacteria |
 | Centrioles      | Organise microtubules, mitotic spindle              | Animals                 |
 | Plasmodesmata   | Intercellular communication in plants               | Plants                  |
+
+</div>
 
 ## Practice Problems
 
@@ -5620,6 +5696,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -5627,6 +5705,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 
 ## Intuition
 
@@ -5668,12 +5748,16 @@ $\Delta G^\circ \approx -686 \mathrm{ kcal/mol$ (highly exergonic).
 
 ### Four Stages
 
+<div class="table-wrap">
+
 | Stage                     | Location                     | O$_2$ Required? | ATP Produced (Net)        |
 | ------------------------- | ---------------------------- | --------------- | ------------------------- |
 | Glycolysis                | Cytoplasm                    | No              | 2 ATP (substrate-level)   |
 | Pyruvate oxidation        | Mitochondrial matrix         | No              | 0                         |
 | Citric acid cycle         | Mitochondrial matrix         | No              | 2 ATP (substrate-level)   |
 | Oxidative phosphorylation | Inner mitochondrial membrane | Yes             | ~26-28 ATP (chemiosmosis) |
+
+</div>
 
 ### Glycolysis
 
@@ -5794,6 +5878,8 @@ Walker (Nobel Prize, 1997).
 
 ### ATP Yield Per Glucose
 
+<div class="table-wrap">
+
 | Source                 | ATP (Approximate) |
 | ---------------------- | ----------------- |
 | Glycolysis             | 2 ATP (direct)    |
@@ -5803,6 +5889,8 @@ Walker (Nobel Prize, 1997).
 | Krebs NADH             | 15 ATP            |
 | Krebs $\mathrm{FADH_2$ | 3 ATP             |
 | **Total**              | **30-32 ATP**     |
+
+</div>
 
 **Worked Example: Calculating total ATP yield.**
 
@@ -5865,10 +5953,14 @@ $$
 
 ### Two Stages
 
+<div class="table-wrap">
+
 | Stage           | Location           | Inputs                                           | Outputs                            |
 | --------------- | ------------------ | ------------------------------------------------ | ---------------------------------- |
 | Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$ Light, $\mathrm{NADP^+$ ADP | $\mathrm{O_2$ ATP, NADPH            |
 | Calvin cycle    | Stroma             | $\mathrm{CO_2$ ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
+
+</div>
 
 ### Light-Dependent Reactions
 
@@ -5940,6 +6032,8 @@ Compound) and 3-PGA. This consumes energy without producing sugar.
 
 **Comparison table: C3, C4, and CAM plants.**
 
+<div class="table-wrap">
+
 | Feature          | C3 Plants             | C4 Plants                                            | CAM Plants                             |
 | ---------------- | --------------------- | ---------------------------------------------------- | -------------------------------------- |
 | Carbon fixation  | RuBisCO (mesophyll)   | PEP carboxylase (mesophyll), RuBisCO (bundle-sheath) | PEP carboxylase (night), RuBisCO (day) |
@@ -5947,6 +6041,8 @@ Compound) and 3-PGA. This consumes energy without producing sugar.
 | Water use        | Moderate              | Moderate                                             | Very efficient                         |
 | Habitat          | Temperate, cool       | Tropical, hot                                        | Arid, desert                           |
 | Examples         | Wheat, rice, soybeans | Corn, sugarcane                                      | Cacti, pineapples, orchids             |
+
+</div>
 
 **Worked Example: Comparing C4 and CAM strategies.**
 
@@ -6068,6 +6164,8 @@ plants separate them in time within the same cell.
 Understanding the similarities and differences between these two processes is essential for the AP
 Exam.
 
+<div class="table-wrap">
+
 | Feature           | Cellular Respiration                                                                            | Photosynthesis                                                                                  |
 | ----------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Location          | Cytoplasm and mitochondria                                                                      | Chloroplasts                                                                                    |
@@ -6079,6 +6177,8 @@ Exam.
 | ATP production    | Substrate-level + oxidative                                                                     | Photophosphorylation                                                                            |
 | $\mathrm{CO_2$    | Released                                                                                        | Consumed                                                                                        |
 | $\mathrm{O_2$     | Consumed                                                                                        | Released                                                                                        |
+
+</div>
 
 The two processes are essentially reverse reactions in terms of overall chemical equation, but they
 Differ fundamentally in their mechanisms: respiration catabolises glucose to harvest energy, while
@@ -6194,12 +6294,16 @@ Bypassing Complex I). So each $\mathrm{FADH_2$ yields approximately 1.5 ATP.
 
 **Detailed accounting per glucose:**
 
+<div class="table-wrap">
+
 | Source                | NADH   | $\mathrm{FADH_2$ | Direct ATP | ATP from NADH | ATP from $\mathrm{FADH_2$ | Total  |
 | --------------------- | ------ | ---------------- | ---------- | ------------- | ------------------------- | ------ |
 | Glycolysis            | 2      | 0                | 2          | 5             | 0                         | 7      |
 | Pyruvate oxidation    | 2      | 0                | 0          | 5             | 0                         | 5      |
 | Krebs cycle (2 turns) | 6      | 2                | 2          | 15            | 3                         | 20     |
 | **Total**             | **10** | **2**            | **4**      | **25**        | **3**                     | **32** |
+
+</div>
 
 **Why the actual yield may be lower:**
 
@@ -6301,6 +6405,8 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 
 ## Review: Summary Comparison Table
 
+<div class="table-wrap">
+
 | Process               | Cellular Respiration                   | Photosynthesis                 |
 | --------------------- | -------------------------------------- | ------------------------------ |
 | Purpose               | Harvest energy from glucose            | Build glucose from light       |
@@ -6311,6 +6417,8 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 | ATP yield per glucose | ~30-32 ATP                             | ~18 ATP consumed per glucose   |
 | Water role            | Final product ($\mathrm{H_2\mathrm{O$) | Reactant (split for electrons) |
 | Carbon dioxide role   | Waste product                          | Reactant (fixed by RuBisCO)    |
+
+</div>
 
 ## Review: Brown Fat and Uncoupling Proteins
 
@@ -6545,6 +6653,8 @@ URL: https://ap.wyattau.com/biology/1-chemistry-of-life/1_chemistry-of-life/
 
 The most common elements in living organisms:
 
+<div class="table-wrap">
+
 | Element    | Symbol | Role                                  |
 | ---------- | ------ | ------------------------------------- |
 | Carbon     | C      | Backbone of organic molecules         |
@@ -6553,6 +6663,8 @@ The most common elements in living organisms:
 | Nitrogen   | N      | Amino acids, nucleotides              |
 | Phosphorus | P      | ATP, nucleic acids, phospholipids     |
 | Sulfur     | S      | Amino acids (cysteine, methionine)    |
+
+</div>
 
 Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 
@@ -6571,12 +6683,16 @@ Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 **Comparison of bond strengths in biological systems:**
 
+<div class="table-wrap">
+
 | Bond Type     | Strength (kJ/mol) | Biological Role                                      |
 | ------------- | ----------------- | ---------------------------------------------------- |
 | Covalent      | 200--500          | Backbone of organic molecules                        |
 | Ionic         | 100--400          | Salt bridges in proteins, bone mineral structure     |
 | Hydrogen      | 5--40             | DNA base pairing, protein secondary structure, water |
 | Van der Waals | 0.5--5            | Protein folding, lipid interactions                  |
+
+</div>
 
 ### Water (CED Unit 1)
 
@@ -6608,11 +6724,15 @@ $$
 \mathrm{pH = -\log[\mathrm{H^+]
 $$
 
+<div class="table-wrap">
+
 | pH      | Classification |
 | ------- | -------------- |
 | $\lt 7$ | Acidic         |
 | $7$     | Neutral        |
 | $\gt 7$ | Basic          |
+
+</div>
 
 **Buffers** resist pH changes. The carbonic acid/bicarbonate buffer system in blood:
 
@@ -6660,11 +6780,15 @@ $\mathrm{CO_2$ is removed by increased breathing rate. Blood pH is maintained cl
 **Polymerization:** Dehydration synthesis (condensation) forms glycosidic bonds. Hydrolysis breaks
 Them.
 
+<div class="table-wrap">
+
 | Type           | Structure            | Function                           | Examples                    |
 | -------------- | -------------------- | ---------------------------------- | --------------------------- |
 | Monosaccharide | Single sugar ring    | Energy source, building block      | Glucose, fructose           |
 | Disaccharide   | Two monosaccharides  | Energy source                      | Sucrose, lactose, maltose   |
 | Polysaccharide | Long chain of sugars | Energy storage, structural support | Starch, glycogen, cellulose |
+
+</div>
 
 **Key polysaccharides:**
 
@@ -6693,12 +6817,16 @@ Indigestible by humans.
 
 Lipids are **not** true polymers but are hydrophobic organic molecules.
 
+<div class="table-wrap">
+
 | Type          | Structure                            | Function                   |
 | ------------- | ------------------------------------ | -------------------------- |
 | Triglycerides | Glycerol + 3 fatty acids             | Energy storage, insulation |
 | Phospholipids | Glycerol + 2 fatty acids + phosphate | Cell membrane structure    |
 | Steroids      | Four fused rings                     | Hormones, cholesterol      |
 | Waxes         | Long-chain alcohol + fatty acid      | Waterproof coatings        |
+
+</div>
 
 **Saturated vs unsaturated fatty acids:**
 
@@ -6832,6 +6960,8 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
+<div class="table-wrap">
+
 | [S] ($\mu$ M) | v ($\mu$ Mol/min) |
 | ------------ | ---------------- |
 | 2            | 5.0              |
@@ -6840,6 +6970,8 @@ An enzyme has the following rates at different substrate concentrations:
 | 20           | 16.7             |
 | 50           | 18.9             |
 | 100          | 19.6             |
+
+</div>
 
 At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 
@@ -6850,12 +6982,16 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
 
+<div class="table-wrap">
+
 | Type           | Binding Site         | Reversibility | Effect on $K_m$ | Effect on $V_{\max}$ |
 | -------------- | -------------------- | ------------- | --------------- | -------------------- |
 | Competitive    | Active site          | Reversible    | Increases       | No change            |
 | Noncompetitive | Allosteric site      | Reversible    | No change       | Decreases            |
 | Uncompetitive  | ES complex only      | Reversible    | Decreases       | Decreases            |
 | Irreversible   | Active or allosteric | Irreversible  | --              | Decreases            |
+
+</div>
 
 **Worked Example: Why competitive inhibition increases $K_m$ but not $V_{\max}$.**
 
@@ -6881,10 +7017,14 @@ $$
 \Delta G = \Delta H - T\Delta S
 $$
 
+<div class="table-wrap">
+
 | Type       | $\Delta G$ | Description                           |
 | ---------- | ---------- | ------------------------------------- |
 | Exergonic  | $\lt 0$    | Spontaneous, releases energy          |
 | Endergonic | $\gt 0$    | Nonspontaneous, requires energy input |
+
+</div>
 
 ### ATP: The Energy Currency
 
@@ -6997,6 +7137,8 @@ Energy from ATP hydrolysis.
 Several biochemical tests are used to identify the presence of specific macromolecules in samples.
 These are commonly tested on the AP exam.
 
+<div class="table-wrap">
+
 | Test            | Reagent             | Positive Result                     | Macromolecule Detected |
 | --------------- | ------------------- | ----------------------------------- | ---------------------- |
 | Benedict's test | Benedict's solution | Brick-red precipitate (when heated) | Reducing sugars        |
@@ -7004,6 +7146,8 @@ These are commonly tested on the AP exam.
 | Biuret test     | Biuret reagent      | Violet/purple colour                | Protein                |
 | Emulsion test   | Ethanol             | Cloudy white emulsion layer         | Lipids                 |
 | Sudan III test  | Sudan III stain     | Red-stained oil layer               | Lipids                 |
+
+</div>
 
 **Worked Example: Designing an identification experiment.**
 
@@ -7146,11 +7290,15 @@ $\alpha$-glucose forms starch (digestible) and glycogen, while $\beta$-glucose f
 
 **Disaccharides:** Formed by condensation reactions between two monosaccharides:
 
+<div class="table-wrap">
+
 | Disaccharide | Component monosaccharides | Bond type    | Found in          |
 | ------------ | ------------------------- | ------------ | ----------------- |
 | Maltose      | Glucose + glucose         | $\alpha$-1,4 | Germinating seeds |
 | Sucrose      | Glucose + fructose        | $\alpha$-1,2 | Sugar cane, beet  |
 | Lactose      | Galactose + glucose       | $\beta$-1,4  | Milk              |
+
+</div>
 
 **Why lactose intolerance occurs:** Lactase, the enzyme that hydrolyses lactose into glucose and
 Galactose, is produced in the small intestine of infants. In many populations, lactase production
@@ -7252,6 +7400,8 @@ Preventing overheating.
 Functional groups are specific groups of atoms within molecules that determine the characteristics
 of the molecule and how it reacts.
 
+<div class="table-wrap">
+
 | Functional Group | Structure | Found in                      | Properties                              |
 | ---------------- | --------- | ----------------------------- | --------------------------------------- |
 | Hydroxyl (-OH)   | -OH       | Alcohols, sugars, amino acids | Polar; forms hydrogen bonds             |
@@ -7260,6 +7410,8 @@ of the molecule and how it reacts.
 | Amino (-NH$_2$)  | -NH$_2$   | Amino acids                   | Acts as a base; accepts $\mathrm{H^+$   |
 | Phosphate        | -PO$_4$   | ATP, DNA, phospholipids       | Negative charge; energy transfer        |
 | Sulfhydryl (-SH) | -SH       | Cysteine (amino acid)         | Forms disulfide bridges in proteins     |
+
+</div>
 
 **Worked Example:** The role of functional groups in amino acid behaviour.
 
@@ -7565,6 +7717,8 @@ URL: https://ap.wyattau.com/biology/4-heredity/4_heredity/
 Meiosis reduces the chromosome number by half, producing four genetically distinct haploid cells
 from one diploid cell.
 
+<div class="table-wrap">
+
 | Feature           | Mitosis        | Meiosis           |
 | ----------------- | -------------- | ----------------- |
 | Divisions         | 1              | 2                 |
@@ -7572,6 +7726,8 @@ from one diploid cell.
 | Ploidy            | $2n$           | $n$               |
 | Genetic variation | Identical      | Different         |
 | Function          | Growth, repair | Gamete production |
+
+</div>
 
 ### Meiosis I (Reductional Division)
 
@@ -7652,11 +7808,15 @@ Formation.
 
 Cross between individuals differing in one trait.
 
+<div class="table-wrap">
+
 | Genotype | Phenotype |
 | -------- | --------- |
 | AA       | Dominant  |
 | Aa       | Dominant  |
 | aa       | Recessive |
+
+</div>
 
 **Genotypic ratio (Aa $\times$ Aa):** 1 AA : 2 Aa : 1 aa **Phenotypic ratio:** 3 dominant : 1
 Recessive
@@ -7689,12 +7849,16 @@ Gametes from each parent: RY, Ry, rY, ry (four types, each equally likely)
 
 Punnett square (4 $\times$ 4):
 
+<div class="table-wrap">
+
 |     | RY   | Ry   | rY   | ry   |
 | --- | ---- | ---- | ---- | ---- |
 | RY  | RRYY | RRYy | RrYY | RrYy |
 | Ry  | RRYy | RRyy | RrYy | Rryy |
 | rY  | RrYY | RrYy | rrYY | rrYy |
 | ry  | RrYy | Rryy | rrYy | rryy |
+
+</div>
 
 Phenotypic ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
 
@@ -7716,12 +7880,16 @@ Antigens.
 More than two alleles exist for a gene in the population. Example: ABO blood group has three
 Alleles: $I^A$, $I^B$ And $i$.
 
+<div class="table-wrap">
+
 | Genotype             | Blood Type       |
 | -------------------- | ---------------- |
 | $I^A I^A$ or $I^A i$ | A                |
 | $I^B I^B$ or $I^B i$ | B                |
 | $I^A I^B$            | AB (codominance) |
 | $ii$                 | O                |
+
+</div>
 
 ### Sex-Linked Inheritance
 
@@ -7732,10 +7900,14 @@ Example: Red-green color blindness and hemophilia are X-linked recessive.
 
 **Cross:** Carrier female ($X^NX^n$) $\times$ normal male ($X^NY$):
 
+<div class="table-wrap">
+
 |       | $X^N$                     | $Y$                    |
 | ----- | ------------------------- | ---------------------- |
 | $X^N$ | $X^NX^N$ (normal female)  | $X^NY$ (normal male)   |
 | $X^n$ | $X^NX^n$ (carrier female) | $X^nY$ (affected male) |
+
+</div>
 
 **Phenotypic ratio:** 1 normal female : 1 carrier female : 1 normal male : 1 affected male.
 
@@ -7774,10 +7946,14 @@ One gene masks or modifies the expression of another gene.
 **Example:** Coat color in Labrador retrievers. Gene B determines pigment (B = black, b = brown).
 Gene E determines deposition (E = pigment deposited, e = no pigment deposited).
 
+<div class="table-wrap">
+
 |     | E\_   | ee     |
 | --- | ----- | ------ |
 | B\_ | Black | Yellow |
 | bb  | Brown | Yellow |
+
+</div>
 
 Ratio: 9 black : 3 brown : 4 yellow.
 
@@ -7803,6 +7979,8 @@ Phenotypes due to different environments.
 Failure of homologous chromosomes or sister chromatids to separate during meiosis, producing gametes
 with abnormal chromosome numbers.
 
+<div class="table-wrap">
+
 | Condition                  | Cause               | Description                                             |
 | -------------------------- | ------------------- | ------------------------------------------------------- |
 | Trisomy 21 (Down syndrome) | Extra chromosome 21 | Intellectual disability, characteristic facial features |
@@ -7811,6 +7989,8 @@ with abnormal chromosome numbers.
 | Klinefelter (XXY)          | Extra X in male     | Male with some female characteristics                   |
 | Turner (XO)                | Missing X in female | Female, sterile, short stature                          |
 | XYY                        | Extra Y in male     | Tall, normal                                            |
+
+</div>
 
 ### Structural Abnormalities
 
@@ -8025,10 +8205,14 @@ Queen Victoria was a carrier of haemophilia ($X^HX^h$). Her husband was normal (
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^H$              | $Y$                   |
 | ----- | ------------------ | --------------------- |
 | $X^H$ | $X^HX^H$ (normal)  | $X^HY$ (normal)       |
 | $X^h$ | $X^HX^h$ (carrier) | $X^hY$ (haemophiliac) |
+
+</div>
 
 Each daughter has a 50% chance of being a carrier. Each son has a 50% chance of having haemophilia.
 Historically, several of Queen Victoria's male descendants were affected by haemophilia, which
@@ -8098,12 +8282,16 @@ Used in tracing maternal ancestry (mitochondrial Eve).
 
 ## Review: Summary Table of Inheritance Patterns
 
+<div class="table-wrap">
+
 | Pattern              | Autosomal Dominant               | Autosomal Recessive                             | X-Linked Recessive            |
 | -------------------- | -------------------------------- | ----------------------------------------------- | ----------------------------- |
 | Example              | Huntington disease               | Cystic fibrosis                                 | Haemophilia, colour blindness |
 | Affected individuals | Both sexes equally               | Both sexes equally                              | Males much more frequently    |
 | Transmission         | Affected parent to 50% offspring | Two carrier parents can have affected offspring | Carrier mother to 50% of sons |
 | Skipping generations | No (vertical pattern)            | Yes (horizontal pattern)                        | Yes (through carrier females) |
+
+</div>
 
 ## Review: Genomic Imprinting
 
@@ -8154,10 +8342,14 @@ to be passed to offspring before symptoms appear.
 In mice, the allele for yellow coat colour (Y) is dominant over grey (y). However, YY is lethal
 (embryos die), while Yy is yellow and yy is grey. Crossing two yellow mice (Yy $\times$ Yy) gives:
 
+<div class="table-wrap">
+
 |     | Y   | y   |
 | --- | --- | --- |
 | Y   | YY  | Yy  |
 | y   | Yy  | yy  |
+
+</div>
 
 Expected genotypes: 1 YY : 2 Yy : 1 yy.
 
@@ -8455,10 +8647,14 @@ Gametes: $\text{T}, \text{t}$ and $\text{t}, \text{t}$
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Phenotypic ratio: **1 tall : 1 dwarf** (or 50% tall, 50% dwarf)
 
@@ -9064,11 +9260,15 @@ Three types based on the effect on the phenotype distribution:
 
 **Summary table of selection types.**
 
+<div class="table-wrap">
+
 | Type        | Effect on distribution    | Example                     |
 | ----------- | ------------------------- | --------------------------- |
 | Directional | Shifts toward one extreme | Antibiotic resistance       |
 | Stabilizing | Narrows around the mean   | Human birth weight          |
 | Disruptive  | Two peaks at extremes     | Seedcracker finch beak size |
+
+</div>
 
 **Worked Example: Directional selection in Darwin's finches.**
 
@@ -9162,6 +9362,8 @@ A form of natural selection based on mating success.
 
 **Prezygotic barriers** (prevent mating or fertilization):
 
+<div class="table-wrap">
+
 | Type                 | Description                          | Example                        |
 | -------------------- | ------------------------------------ | ------------------------------ |
 | Habitat isolation    | Different habitats                   | Lion vs tiger                  |
@@ -9170,13 +9372,19 @@ A form of natural selection based on mating success.
 | Mechanical isolation | Incompatible reproductive structures | Insect genitalia               |
 | Gametic isolation    | Sperm cannot fertilize egg           | Sea urchin species             |
 
+</div>
+
 **Postzygotic barriers** (prevent viable, fertile offspring):
+
+<div class="table-wrap">
 
 | Type                     | Description                                       | Example                      |
 | ------------------------ | ------------------------------------------------- | ---------------------------- |
 | Reduced hybrid viability | Offspring do not survive well                     | Frog species hybrids         |
 | Reduced hybrid fertility | Offspring are sterile                             | Mule (horse $\times$ donkey) |
 | Hybrid breakdown         | First-generation hybrids are fine, but F2 are not | Rice hybrids                 |
+
+</div>
 
 ### Allopatric Speciation
 
@@ -9963,6 +10171,8 @@ categories:
 
 ### Key Historical Developments
 
+<div class="table-wrap">
+
 | Scientist   | Contribution                                                         |
 | ----------- | -------------------------------------------------------------------- |
 | Dalton      | Atomic theory: all matter composed of indivisible atoms              |
@@ -9972,6 +10182,8 @@ categories:
 | de Broglie  | Wave-particle duality: $\lambda = \frac{h}{mv}$                      |
 | Heisenberg  | Uncertainty principle: $\Delta x \cdot \Delta p \ge \frac{h}{4\pi}$  |
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
+
+</div>
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
 not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
@@ -9998,11 +10210,15 @@ $10^{-10} \mathrm{ m$. This confirms that the nucleus is extremely small compare
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Mass (amu) | Charge | Location        |
 | -------- | ---------- | ------ | --------------- |
 | Proton   | 1.0073     | +1     | Nucleus         |
 | Neutron  | 1.0087     | 0      | Nucleus         |
 | Electron | 0.000549   | -1     | Outside nucleus |
+
+</div>
 
 The nucleus contains over 99.9% of the atom's mass but occupies only about $10^{-12}$ of its volume.
 The electron cloud defines the size of the atom, with a typical radius of about
@@ -10246,11 +10462,15 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 
 ### Spectral Series
 
+<div class="table-wrap">
+
 | Series  | Transition | Region      |
 | ------- | ---------- | ----------- |
 | Lyman   | $n_f = 1$  | Ultraviolet |
 | Balmer  | $n_f = 2$  | Visible     |
 | Paschen | $n_f = 3$  | Infrared    |
+
+</div>
 
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
 $n_f$ Where the energy difference approaches a maximum value.
@@ -10334,6 +10554,8 @@ $Z_{\mathrm{eff}$ remains approximately constant.
 
 ### Key Periodic Trends
 
+<div class="table-wrap">
+
 | Property           | Across a Period (L to R) | Down a Group        |
 | ------------------ | ------------------------ | ------------------- |
 | Atomic radius      | Decreases                | Increases           |
@@ -10341,6 +10563,8 @@ $Z_{\mathrm{eff}$ remains approximately constant.
 | Electron affinity  | Generally increases      | Generally decreases |
 | Electronegativity  | Increases                | Decreases           |
 | Metallic character | Decreases                | Increases           |
+
+</div>
 
 ### Ionization Energy
 
@@ -10435,11 +10659,15 @@ Effectively than 3d electrons, giving them a lower energy when both subshells ar
 
 ### Summary Table: Period 3 Trends
 
+<div class="table-wrap">
+
 | Element            | Na   | Mg   | Al   | Si   | P    | S    | Cl   | Ar   |
 | ------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Atomic radius (pm) | 186  | 160  | 143  | 117  | 110  | 104  | 99   | --   |
 | IE$_1$ (kJ/mol)    | 496  | 738  | 578  | 786  | 1012 | 1000 | 1251 | 1521 |
 | Electronegativity  | 0.93 | 1.31 | 1.61 | 1.90 | 2.19 | 2.58 | 3.16 | --   |
+
+</div>
 
 Note the dip in IE from Mg to Al (s to p) and from P to S (half-filled stability to pairing
 Repulsion).
@@ -10451,6 +10679,8 @@ Repulsion).
 Atoms or ions with unpaired electrons are **paramagnetic** (attracted to a magnetic field). Those
 with all electrons paired are **diamagnetic** (weakly repelled by a magnetic field).
 
+<div class="table-wrap">
+
 | Species   | Unpaired Electrons | Magnetic Behavior |
 | --------- | ------------------ | ----------------- |
 | Na        | 1                  | Paramagnetic      |
@@ -10458,6 +10688,8 @@ with all electrons paired are **diamagnetic** (weakly repelled by a magnetic fie
 | Fe$^{3+}$ | 5                  | Paramagnetic      |
 | Zn$^{2+}$ | 0                  | Diamagnetic       |
 | O$_2$     | 2                  | Paramagnetic      |
+
+</div>
 
 ### Worked Example: Magnetic Properties
 
@@ -10484,6 +10716,8 @@ For main group elements, valence electrons are those in the outermost s and p su
 Transition metals, the valence electrons include the outermost s electrons and the d electrons of
 the highest occupied d subshell.
 
+<div class="table-wrap">
+
 | Element | Configuration                | Valence Electrons |
 | ------- | ---------------------------- | ----------------- |
 | Sc      | $[\mathrm{Ar]\,4s^2 3d^1$    | 3                 |
@@ -10491,9 +10725,13 @@ the highest occupied d subshell.
 | Fe      | $[\mathrm{Ar]\,4s^2 3d^6$    | 8                 |
 | Cu      | $[\mathrm{Ar]\,4s^1 3d^{10}$ | 11                |
 
+</div>
+
 ### Common Oxidation States of Transition Metals
 
 Transition metals can lose different numbers of electrons, giving multiple oxidation states.
+
+<div class="table-wrap">
 
 | Element | Common Oxidation States |
 | ------- | ----------------------- |
@@ -10501,6 +10739,8 @@ Transition metals can lose different numbers of electrons, giving multiple oxida
 | Fe      | +2, +3                  |
 | Cu      | +1, +2                  |
 | Cr      | +2, +3, +6              |
+
+</div>
 
 ### Worked Example: Transition Metal Ion Configurations
 
@@ -10542,6 +10782,8 @@ the increase in $Z_{\mathrm{eff}$.
 
 ## Summary Table: Periodic Trends Explained
 
+<div class="table-wrap">
+
 | Trend             | Direction                  | Explanation                                                       |
 | ----------------- | -------------------------- | ----------------------------------------------------------------- |
 | Atomic radius     | Decreases L to R           | Increasing $Z_{\mathrm{eff}$ pulls electrons closer               |
@@ -10551,6 +10793,8 @@ the increase in $Z_{\mathrm{eff}$.
 | Electron affinity | Generally increases L to R | Greater $Z_{\mathrm{eff}$ increases attraction for added electron |
 | Electronegativity | Increases L to R           | Greater $Z_{\mathrm{eff}$ increases pull on bonding electrons     |
 | Electronegativity | Decreases top to bottom    | Greater distance from nucleus reduces pull on bonding electrons   |
+
+</div>
 
 ## Common Pitfalls
 
@@ -10851,11 +11095,15 @@ URL: https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/2_bond
 
 ### Types of Bonds
 
+<div class="table-wrap">
+
 | Bond Type         | Description                             | Electronegativity Difference |
 | ----------------- | --------------------------------------- | ---------------------------- |
 | Ionic             | Transfer of electrons; metal + nonmetal | $\gt 1.7$                    |
 | Polar Covalent    | Unequal sharing of electrons            | $0.4$ -- $1.7$               |
 | Nonpolar Covalent | Equal sharing of electrons              | $\lt 0.4$                    |
+
+</div>
 
 The distinction between ionic and covalent bonding is not always sharp. Bonds with electronegativity
 Differences near the boundary ($\approx 1.7$) have significant ionic and covalent character. Bonding
@@ -10914,11 +11162,15 @@ Together.
 - Bond length decreases as bond order increases (more shared electrons pull nuclei closer).
 - Bond energy increases as bond order increases (more shared electrons = stronger bond).
 
+<div class="table-wrap">
+
 | Bond Type  | Typical Length (pm) | Typical Energy (kJ/mol) |
 | ---------- | ------------------- | ----------------------- |
 | C--C       | 154                 | 347                     |
 | C=C        | 134                 | 614                     |
 | C$\equiv$C | 120                 | 839                     |
+
+</div>
 
 The trend is consistent: as bond order increases, the nuclei are pulled closer together (shorter
 Bond) and the bond becomes stronger (higher energy). This is because each additional shared pair
@@ -11021,6 +11273,8 @@ Themselves to be as far apart as possible.
 
 ### Electron Domain Geometry
 
+<div class="table-wrap">
+
 | Electron Domains | Geometry             | Bond Angles           |
 | ---------------- | -------------------- | --------------------- |
 | 2                | Linear               | $180^\circ$           |
@@ -11029,7 +11283,11 @@ Themselves to be as far apart as possible.
 | 5                | Trigonal bipyramidal | $90^\circ$$120^\circ$ |
 | 6                | Octahedral           | $90^\circ$            |
 
+</div>
+
 ### Molecular Geometry (Accounting for Lone Pairs)
+
+<div class="table-wrap">
 
 | Domains | Bonding | Lone | Shape                | Example                |
 | ------- | ------- | ---- | -------------------- | ---------------------- |
@@ -11046,6 +11304,8 @@ Themselves to be as far apart as possible.
 | 6       | 6       | 0    | Octahedral           | $\mathrm{SF_6$         |
 | 6       | 5       | 1    | Square pyramidal     | $\mathrm{BrF_5$        |
 | 6       | 4       | 2    | Square planar        | $\mathrm{XeF_4$        |
+
+</div>
 
 ### Lone Pair Repulsion Order
 
@@ -11087,6 +11347,8 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 
 ### Examples
 
+<div class="table-wrap">
+
 | Molecule                   | Polar Bonds? | Symmetric?                        | Polar? |
 | -------------------------- | ------------ | --------------------------------- | ------ |
 | $\mathrm{CO_2$             | Yes (C=O)    | Yes (linear)                      | No     |
@@ -11095,6 +11357,8 @@ Vector quantity; the overall molecular dipole is the vector sum of all bond dipo
 | $\mathrm{NH_3$             | Yes (N--H)   | No (trigonal pyramidal)           | Yes    |
 | $\mathrm{BF_3$             | Yes (B--F)   | Yes (trigonal planar)             | No     |
 | $\mathrm{CH_2\mathrm{Cl_2$ | Yes          | No (tetrahedral, not symmetrical) | Yes    |
+
+</div>
 
 ## Intermolecular Forces (CED Unit 3)
 
@@ -11162,12 +11426,16 @@ Interactions is insufficient to overcome the lattice energy.
 
 ### Summary: IMF Types and Properties
 
+<div class="table-wrap">
+
 | IMF Type         | Present In             | Strength Order | Effect on Boiling Point |
 | ---------------- | ---------------------- | -------------- | ----------------------- |
 | London (LDF)     | All molecules          | Weakest        | Increases with size     |
 | Dipole-dipole    | Polar molecules        | Moderate       | Moderate increase       |
 | Hydrogen bonding | H bonded to N, O, or F | Strongest      | Large increase          |
 | Ion-dipole       | Ionic + polar solvent  | Strongest IMF  | Dissolution             |
+
+</div>
 
 ## Hybridization (CED Unit 2)
 
@@ -11236,6 +11504,8 @@ $$
 \%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
 $$
 
+<div class="table-wrap">
+
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
 | 0.0          | 0%                | H-H          |
@@ -11244,6 +11514,8 @@ $$
 | 1.7          | 51%               | Na-Cl        |
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
+
+</div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
 Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
@@ -11345,6 +11617,8 @@ $$
 \%\mathrm{ ionic character \approx \left(1 - e^{-0.25(\Delta\chi)^2}\right) \times 100
 $$
 
+<div class="table-wrap">
+
 | $\Delta\chi$ | % Ionic Character | Bond Example |
 | ------------ | ----------------- | ------------ |
 | 0.0          | 0%                | H-H          |
@@ -11353,6 +11627,8 @@ $$
 | 1.7          | 51%               | Na-Cl        |
 | 2.1          | 67%               | Mg-O         |
 | 3.0          | 89%               | Cs-F         |
+
+</div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
 Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
@@ -11393,6 +11669,8 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 
 ## Comparison Table: IMF Types and Boiling Points
 
+<div class="table-wrap">
+
 | Substance              | Molar Mass | IMF Types          | Boiling Point ($^{\circ}\mathrm{C$) |
 | ---------------------- | ---------- | ------------------ | ----------------------------------- |
 | $\mathrm{CH_4$         | 16         | LDF only           | -161                                |
@@ -11404,10 +11682,14 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 | $\mathrm{HCl$          | 36.5       | Dipole-dipole, LDF | -85                                 |
 | $\mathrm{H_2\mathrm{S$ | 34         | Dipole-dipole, LDF | -60                                 |
 
+</div>
+
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
 
 ## Summary Table: Types of Chemical Bonds Compared
+
+<div class="table-wrap">
 
 | Property                     | Ionic              | Nonpolar Covalent     | Polar Covalent  | Metallic                |
 | ---------------------------- | ------------------ | --------------------- | --------------- | ----------------------- |
@@ -11419,7 +11701,11 @@ types for similar molar masses.
 | Solubility                   | Polar solvents     | Nonpolar solvents     | Both            | Insoluble               |
 | Example                      | NaCl               | $\mathrm{O_2$         | HCl             | Cu, Fe                  |
 
+</div>
+
 ## Summary Table: Hybridization Quick Reference
+
+<div class="table-wrap">
 
 | Electron Domains | Hybridization | Geometry             | Bond Angles           | Examples                                           |
 | ---------------- | ------------- | -------------------- | --------------------- | -------------------------------------------------- |
@@ -11428,6 +11714,8 @@ types for similar molar masses.
 | 4                | sp$^3$        | Tetrahedral          | 109.5$^\circ$         | $\mathrm{CH_4$$\mathrm{NH_3$$\mathrm{H_2\mathrm{O$ |
 | 5                | sp$^3$D       | Trigonal bipyramidal | 90$^\circ$120$^\circ$ | $\mathrm{PCl_5$                                    |
 | 6                | sp$^3$D$^2$   | Octahedral           | 90$^\circ$            | $\mathrm{SF_6$$\mathrm{XeF_4$                      |
+
+</div>
 
 ## Practice Questions
 
@@ -12288,11 +12576,15 @@ Reaction is first order in A. If doubling [A] quadruples the rate, it is second 
 :::note[Example]
 Determine the rate law from the following data for $2\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | Experiment | [A] (M) | [B] (M) | Initial Rate (M/s) |
 | ---------- | ------- | ------- | ------------------ |
 | 1          | 0.10    | 0.10    | 0.0020             |
 | 2          | 0.20    | 0.10    | 0.0040             |
 | 3          | 0.10    | 0.20    | 0.0080             |
+
+</div>
 
 Comparing 1 and 2: [A] doubles, rate doubles $\implies$ first order in A ($m = 1$).
 
@@ -12309,12 +12601,16 @@ $0.0020 = k(0.10)(0.10)^2 \implies k = 2.0 \mathrm{ M^{-2}\mathrm{s^{-1}$.
 
 Determine the rate law from the following data for $\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | Experiment | [A] (M) | [B] (M) | Rate (M/s) |
 | ---------- | ------- | ------- | ---------- |
 | 1          | 0.10    | 0.20    | 0.0040     |
 | 2          | 0.20    | 0.20    | 0.0080     |
 | 3          | 0.20    | 0.40    | 0.0080     |
 | 4          | 0.40    | 0.20    | 0.0160     |
+
+</div>
 
 Comparing 1 and 2: [A] doubles, rate doubles. First order in A.
 
@@ -12364,11 +12660,15 @@ $$
 
 ### Identifying the Order
 
+<div class="table-wrap">
+
 | Order  | Linear Plot             | Slope |
 | ------ | ----------------------- | ----- |
 | Zero   | [A] vs $t$              | $-k$  |
 | First  | $\ln[\mathrm{A]$ vs $t$ | $-k$  |
 | Second | $1/[\mathrm{A]$ vs $t$  | $k$   |
+
+</div>
 :::
 
 :::note[Example]
@@ -12417,11 +12717,15 @@ A **reaction mechanism** is a sequence of elementary steps that sum to the overa
 
 ### Molecularity
 
+<div class="table-wrap">
+
 | Molecularity | Description             | Rate Law                                           |
 | ------------ | ----------------------- | -------------------------------------------------- |
 | Unimolecular | One molecule reacts     | Rate = $k[\mathrm{A]$                              |
 | Bimolecular  | Two molecules collide   | Rate = $k[\mathrm{A][\mathrm{B]$                   |
 | Termolecular | Three molecules collide | Rate = $k[\mathrm{A][\mathrm{B][\mathrm{C]$ (rare) |
+
+</div>
 
 ### Rate-Determining Step
 
@@ -12592,17 +12896,23 @@ $$
 
 $Q$ has the same form as $K$ but uses current (non-equilibrium) concentrations.
 
+<div class="table-wrap">
+
 | Comparison | Result                       |
 | ---------- | ---------------------------- |
 | $Q \lt K$  | Reaction proceeds forward    |
 | $Q = K$    | System is at equilibrium     |
 | $Q \gt K$  | Reaction proceeds in reverse |
 
+</div>
+
 ## Le Chatelier's Principle (CED Unit 7)
 
 If a stress is applied to a system at equilibrium, the system shifts to counteract the stress.
 
 ### Types of Stress
+
+<div class="table-wrap">
 
 | Stress                                   | Shift Direction           | Effect on $K$ |
 | ---------------------------------------- | ------------------------- | ------------- |
@@ -12614,6 +12924,8 @@ If a stress is applied to a system at equilibrium, the system shifts to countera
 | Increase temperature (exothermic)        | Toward reactants          | Decreases     |
 | Increase pressure (by decreasing volume) | Toward fewer moles of gas | None          |
 | Add catalyst                             | No shift                  | None          |
+
+</div>
 
 **Key point:** Only temperature changes affect the value of $K$.
 :::
@@ -12638,11 +12950,15 @@ $448^\circ\mathrm{C$:
 If $1.00 \mathrm{ M  \mathrm{H_2$ and $1.00 \mathrm{ M  \mathrm{I_2$ are mixed, find [HI] at
 Equilibrium.
 
+<div class="table-wrap">
+
 | Species       | Initial | Change | Equilibrium |
 | ------------- | ------- | ------ | ----------- |
 | $\mathrm{H_2$ | 1.00    | $-x$   | $1.00 - x$  |
 | $\mathrm{I_2$ | 1.00    | $-x$   | $1.00 - x$  |
 | $\mathrm{HI$  | 0       | $+2x$  | $2x$        |
+
+</div>
 
 $$
 K_c = \frac{(2x)^2}{(1.00 - x)^2} = 50.5
@@ -12666,11 +12982,15 @@ For $\mathrm{PCl_5(g) \rightleftharpoons \mathrm{PCl_3(g) + \mathrm{Cl_2(g)$, $K
 $500 \mathrm{ K$. If $2.00 \mathrm{ M  \mathrm{PCl_5$ is placed in a flask, find all equilibrium
 Concentrations.
 
+<div class="table-wrap">
+
 | Species         | Initial | Change | Equilibrium |
 | --------------- | ------- | ------ | ----------- |
 | $\mathrm{PCl_5$ | 2.00    | $-x$   | $2.00 - x$  |
 | $\mathrm{PCl_3$ | 0       | $+x$   | $x$         |
 | $\mathrm{Cl_2$  | 0       | $+x$   | $x$         |
+
+</div>
 
 $$
 K_c = \frac{x^2}{2.00 - x} = 0.0420
@@ -12778,11 +13098,15 @@ The common ion effect reduces solubility by a factor of about 7,600.
 
 ## Summary Table: Rate Laws
 
+<div class="table-wrap">
+
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |
 | ----- | ----------------------------------------- | -------------------- | ------------------------------ | ----------------------- |
 | 0     | $[\mathrm{A] = -kt + [\mathrm{A]_0$       | $[\mathrm{A]_0/(2k)$ | $\mathrm{M s^{-1}$             | $[\mathrm{A]$ vs $t$    |
 | 1     | $\ln[\mathrm{A] = -kt + \ln[\mathrm{A]_0$ | $0.693/k$            | $\mathrm{s^{-1}$               | $\ln[\mathrm{A]$ vs $t$ |
 | 2     | $1/[\mathrm{A] = kt + 1/[\mathrm{A]_0$    | $1/(k[\mathrm{A]_0)$ | $\mathrm{M^{-1}\mathrm{s^{-1}$ | $1/[\mathrm{A]$ vs $t$  |
+
+</div>
 
 ### Worked Example: Mechanism with Fast Equilibrium
 
@@ -12805,13 +13129,19 @@ This matches the experimental rate law with $k = k_2 K$.
 
 ## Summary Table: Rate Laws
 
+<div class="table-wrap">
+
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |
 | ----- | ----------------------------------------- | -------------------- | ------------------------------ | ----------------------- |
 | 0     | $[\mathrm{A] = -kt + [\mathrm{A]_0$       | $[\mathrm{A]_0/(2k)$ | $\mathrm{M s^{-1}$             | $[\mathrm{A]$ vs $t$    |
 | 1     | $\ln[\mathrm{A] = -kt + \ln[\mathrm{A]_0$ | $0.693/k$            | $\mathrm{s^{-1}$               | $\ln[\mathrm{A]$ vs $t$ |
 | 2     | $1/[\mathrm{A] = kt + 1/[\mathrm{A]_0$    | $1/(k[\mathrm{A]_0)$ | $\mathrm{M^{-1}\mathrm{s^{-1}$ | $1/[\mathrm{A]$ vs $t$  |
 
+</div>
+
 ## Summary Table: Factors Affecting Reaction Rate
+
+<div class="table-wrap">
 
 | Factor         | Effect on Rate | Explanation                                                        |
 | -------------- | -------------- | ------------------------------------------------------------------ |
@@ -12822,7 +13152,11 @@ This matches the experimental rate law with $k = k_2 K$.
 | Pressure (gas) | Increases      | Higher concentration = more collisions                             |
 | Light (photo)  | May increase   | Provides energy to overcome $E_a$ via photon absorption            |
 
+</div>
+
 ## Summary Table: Le Chatelier's Principle
+
+<div class="table-wrap">
 
 | Stress Applied               | Direction of Shift | Effect on $K$ |
 | ---------------------------- | ------------------ | ------------- |
@@ -12834,6 +13168,8 @@ This matches the experimental rate law with $k = k_2 K$.
 | Increase temperature (exo.)  | Toward reactants   | Decreases     |
 | Decrease volume              | Fewer gas moles    | None          |
 | Add catalyst                 | No shift           | None          |
+
+</div>
 
 ## Common Pitfalls
 
@@ -12862,11 +13198,15 @@ This matches the experimental rate law with $k = k_2 K$.
 
 2. The following data were collected for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$:
 
+<div class="table-wrap">
+
 | [A] (M) | [B] (M) | Rate (M/s) |
 | ------- | ------- | ---------- |
 | 0.10    | 0.10    | 0.0030     |
 | 0.20    | 0.10    | 0.0060     |
 | 0.20    | 0.20    | 0.0240     |
+
+</div>
 
 Determine the rate law and rate constant.
 
@@ -12961,11 +13301,15 @@ Determine the rate law and rate constant.
 For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ The following initial rate data were
 Collected:
 
+<div class="table-wrap">
+
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial Rate (M/s) |
 | ----------------- | ----------------- | ------------------ |
 | 0.10              | 0.10              | 0.0020             |
 | 0.20              | 0.10              | 0.0040             |
 | 0.10              | 0.20              | 0.0080             |
+
+</div>
 
 Determine the rate law, the overall order, and the rate constant $k$.
 
@@ -13004,11 +13348,15 @@ dissociation of $\mathrm{PCl_5$.
 
 ICE table (pressures in atm):
 
+<div class="table-wrap">
+
 |     | $\mathrm{PCl_5$ | $\mathrm{PCl_3$ | $\mathrm{Cl_2$ |
 | --- | --------------- | --------------- | -------------- |
 | I   | 2.00            | 0               | 0              |
 | C   | $-x$            | $+x$            | $+x$           |
 | E   | $2.00 - x$      | $x$             | $x$            |
+
+</div>
 
 $K_p = \frac{P_{\mathrm{PCl_3} \cdot P_{\mathrm{Cl_2}}{P_{\mathrm{PCl_5}} = \frac{x \cdot x}{2.00 - x} = 1.05$
 
@@ -13280,12 +13628,16 @@ The mole is defined such that the molar mass of carbon-12 is exactly 12 g/mol.
 The molar mass of a substance is the mass of one mole, expressed in g/mol. It is numerically equal
 to the atomic/molecular formula mass in amu.
 
+<div class="table-wrap">
+
 | Substance                              | Molar Mass (g/mol) |
 | -------------------------------------- | ------------------ |
 | H$_2$O                                 | 18.02              |
 | NaCl                                   | 58.44              |
 | $\mathrm{CaCO_3$                       | 100.09             |
 | $\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$ | 180.16             |
+
+</div>
 
 ### Conversions
 
@@ -13830,6 +14182,8 @@ $$
 
 ### Solubility Rules
 
+<div class="table-wrap">
+
 | Soluble                                     | Exceptions                                                        |
 | ------------------------------------------- | ----------------------------------------------------------------- |
 | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$ | None                                                              |
@@ -13838,12 +14192,18 @@ $$
 | Chlorides ($\mathrm{Cl^-$)                  | $\mathrm{Ag^+$$\mathrm{Pb^{2+}$$\mathrm{Hg_2^{2+}$                |
 | Sulfates ($\mathrm{SO_4^{2-}$)              | $\mathrm{Ba^{2+}$$\mathrm{Pb^{2+}$$\mathrm{Ca^{2+}$$\mathrm{Ag^+$ |
 
+</div>
+
+<div class="table-wrap">
+
 | Insoluble                        | Exceptions                                                                    |
 | -------------------------------- | ----------------------------------------------------------------------------- |
 | Hydroxides ($\mathrm{OH^-$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{Ba^{2+}$$\mathrm{Ca^{2+}$ (slightly)      |
 | Carbonates ($\mathrm{CO_3^{2-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Phosphates ($\mathrm{PO_4^{3-}$) | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$                                   |
 | Sulfides ($\mathrm{S^{2-}$)      | $\mathrm{Na^+$$\mathrm{K^+$$\mathrm{NH_4^+$$\mathrm{Ca^{2+}$$\mathrm{Ba^{2+}$ |
+
+</div>
 
 ### Strong Acids and Bases
 
@@ -13868,6 +14228,8 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 
 ## Summary Table: Solubility Rules Quick Reference
 
+<div class="table-wrap">
+
 | Ion Type          | Generally Soluble With These Exceptions:                   |
 | ----------------- | ---------------------------------------------------------- |
 | Group 1, NH$_4^+$ | No exceptions (always soluble)                             |
@@ -13880,7 +14242,11 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 | Phosphates        | Group 1, NH$_4^+$ (soluble); rest insoluble                |
 | Sulfides          | Group 1, NH$_4^+$Ca$^{2+}$Ba$^{2+}$ (soluble)              |
 
+</div>
+
 ## Summary Table: Common Gas Law Relationships
+
+<div class="table-wrap">
 
 | Law          | Variables  | Constant | Relationship                   |
 | ------------ | ---------- | -------- | ------------------------------ |
@@ -13891,6 +14257,8 @@ Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
 | Ideal Gas    | P, V, n, T | none     | $PV = nRT$                     |
 | Combined     | P, V, T    | n        | $P_1 V_1/T_1 = P_2 V_2/T_2$    |
 | Dalton's     | P$_i$      | V, T     | $P_{\mathrm{total} = \sum P_i$ |
+
+</div>
 
 ## Common Pitfalls
 
@@ -14375,12 +14743,16 @@ $$
 
 Using standard enthalpies of formation (kJ/mol):
 
+<div class="table-wrap">
+
 | Substance                   | $\Delta H_f^\circ$ (kJ/mol) |
 | --------------------------- | --------------------------- |
 | $\mathrm{C_3\mathrm{H_8(g)$ | -103.8                      |
 | $\mathrm{O_2(g)$            | 0                           |
 | $\mathrm{CO_2(g)$           | -393.5                      |
 | $\mathrm{H_2\mathrm{O(l)$   | -285.8                      |
+
+</div>
 
 $$
 \Delta H^\circ = [3(-393.5) + 4(-285.8)] - [-103.8 + 5(0)]
@@ -14639,11 +15011,15 @@ Negative $\Delta G$ means the process is spontaneous at constant temperature and
 
 ### Spontaneity at Constant Temperature and Pressure
 
+<div class="table-wrap">
+
 | Condition        | Spontaneity    |
 | ---------------- | -------------- |
 | $\Delta G \lt 0$ | Spontaneous    |
 | $\Delta G = 0$   | At equilibrium |
 | $\Delta G \gt 0$ | Nonspontaneous |
+
+</div>
 
 ### Standard Gibbs Free Energy of Formation
 
@@ -14659,11 +15035,15 @@ $$
 
 Where $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ and $K$ is the equilibrium constant.
 
+<div class="table-wrap">
+
 | $K$       | $\Delta G^\circ$       | Favorability      |
 | --------- | ---------------------- | ----------------- |
 | $K \gg 1$ | $\Delta G^\circ \ll 0$ | Products favored  |
 | $K = 1$   | $\Delta G^\circ = 0$   | Neither           |
 | $K \ll 1$ | $\Delta G^\circ \gg 0$ | Reactants favored |
+
+</div>
 
 This equation bridges thermodynamics and equilibrium: the equilibrium constant is determined by the
 Standard free energy change.
@@ -14679,12 +15059,16 @@ $\Delta G^\circ = -RT\ln K$.
 
 ### Temperature Dependence of Spontaneity
 
+<div class="table-wrap">
+
 | $\Delta H$ | $\Delta S$ | Spontaneous? | Temperature Effect                                           |
 | ---------- | ---------- | ------------ | ------------------------------------------------------------ |
 | Negative   | Positive   | Always       | Spontaneous at all $T$                                       |
 | Positive   | Negative   | Never        | Nonspontaneous at all $T$                                    |
 | Negative   | Negative   | Low $T$      | Becomes nonspontaneous above $T = \frac{\Delta H}{\Delta S}$ |
 | Positive   | Positive   | High $T$     | Becomes spontaneous above $T = \frac{\Delta H}{\Delta S}$    |
+
+</div>
 
 ### Temperature at Which Spontaneity Changes
 
@@ -14750,6 +15134,8 @@ Reactants and low pressure of product drive the reaction forward.
 
 ## Summary Table: Thermodynamic Quantities
 
+<div class="table-wrap">
+
 | Quantity          | Symbol | Units           | State Function? | Zero Reference             |
 | ----------------- | ------ | --------------- | --------------- | -------------------------- |
 | Internal energy   | $U$    | kJ              | Yes             | None (arbitrary)           |
@@ -14757,7 +15143,11 @@ Reactants and low pressure of product drive the reaction forward.
 | Entropy           | $S$    | J/(mol$\cdot$K) | Yes             | Perfect crystal at 0 K     |
 | Gibbs free energy | $G$    | kJ              | Yes             | Elements in standard state |
 
+</div>
+
 ## Summary Table: Spontaneity Criteria
+
+<div class="table-wrap">
 
 | $\Delta H$ | $\Delta S$ | Low $T$ ($\Delta G$) | High $T$ ($\Delta G$) | Spontaneous at |
 | ---------- | ---------- | -------------------- | --------------------- | -------------- |
@@ -14765,6 +15155,8 @@ Reactants and low pressure of product drive the reaction forward.
 | $+$        | $-$        | $+$ (nonspontaneous) | $+$ (nonspontaneous)  | Never          |
 | $-$        | $-$        | $-$ (spontaneous)    | $+$ (nonspontaneous)  | Low $T$ only   |
 | $+$        | $+$        | $+$ (nonspontaneous) | $-$ (spontaneous)     | High $T$ only  |
+
+</div>
 
 ## Common Pitfalls
 
@@ -15279,12 +15671,16 @@ This holds for best, average, and worst case.
 
 ### Comparing Sorting Algorithms
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Space       | Stable |
 | -------------- | ------------- | ------------- | ------------- | ----------- | ------ |
 | Selection Sort | $O(n^2)$      | $O(n^2)$      | $O(n^2)$      | $O(1)$      | No     |
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | $O(1)$      | Yes    |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$      | Yes    |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$ | No     |
+
+</div>
 
 **When to use each.** Insertion sort is best for small or nearly sorted arrays. Merge sort is
 Reliable for large datasets. Quick sort is often faster in practice but has an $O(n^2)$ worst case.
@@ -15354,6 +15750,8 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 
 ### Common Time Complexities
 
+<div class="table-wrap">
+
 | Complexity    | Name         | Example                        |
 | ------------- | ------------ | ------------------------------ |
 | $O(1)$        | Constant     | Array access by index          |
@@ -15362,6 +15760,8 @@ Big-O notation describes the upper bound of an algorithm"s time or space complex
 | $O(n \log n)$ | Linearithmic | Merge sort                     |
 | $O(n^2)$      | Quadratic    | Selection sort, insertion sort |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci            |
+
+</div>
 
 ### Formal Definition
 
@@ -15477,6 +15877,8 @@ reverse("abcd") = "dcba"
 
 **Trace of selection sort on [5, 3, 8, 1, 2]:**
 
+<div class="table-wrap">
+
 | Pass | Array State     | Comparisons | Swaps |
 | ---- | --------------- | ----------- | ----- |
 | 1    | [1, 3, 8, 5, 2] | 4           | 1     |
@@ -15484,11 +15886,15 @@ reverse("abcd") = "dcba"
 | 3    | [1, 2, 3, 5, 8] | 2           | 1     |
 | 4    | [1, 2, 3, 5, 8] | 1           | 0     |
 
+</div>
+
 Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 
 ### Insertion Sort Trace in Detail
 
 **Trace of insertion sort on [4, 2, 7, 1, 3]:**
+
+<div class="table-wrap">
 
 | Step | Array State     | Key | Shifts | Comparisons |
 | ---- | --------------- | --- | ------ | ----------- |
@@ -15496,6 +15902,8 @@ Total comparisons: $4 + 3 + 2 + 1 = 10 = n(n-1)/2$ for $n = 5$.
 | 2    | [4, 2, 7, 1, 3] | 7   | 0      | 1           |
 | 3    | [4, 2, 7, 1, 3] | 1   | 3      | 3           |
 | 4    | [1, 2, 4, 7, 3] | 3   | 0      | 1           |
+
+</div>
 
 Total comparisons: $1 + 1 + 3 + 1 = 6$.
 
@@ -16097,6 +16505,8 @@ Quick sort, or heap sort -- only that it sorts correctly.
 
 ### Levels of Abstraction
 
+<div class="table-wrap">
+
 | Level    | Example                  | Detail Level |
 | -------- | ------------------------ | ------------ |
 | High     | A web browser            | Very low     |
@@ -16104,6 +16514,8 @@ Quick sort, or heap sort -- only that it sorts correctly.
 | Low      | Operating system calls   | High         |
 | Very low | Machine code / binary    | Very high    |
 | Hardware | Logic gates, transistors | Maximum      |
+
+</div>
 
 Moving down the ladder reveals more detail. Moving up hides detail behind simpler interfaces. The
 Key insight of abstraction is that you rarely need to go all the way down -- you work at the level
@@ -16495,12 +16907,16 @@ An algorithm is a finite set of unambiguous instructions that solves a problem o
 
 ### Deciding Between Representations
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
 | Pseudocode       | Medium    | Medium      | No         |
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
+
+</div>
 
 Pseudocode is the best compromise for communicating algorithms between humans. It is precise enough
 to unambiguously describe the logic, but does not require knowledge of a specific language's syntax.
@@ -16602,6 +17018,8 @@ public class ArrayStack {
 
 **Time complexity of stack operations:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
@@ -16609,6 +17027,8 @@ public class ArrayStack {
 | peek      | $O(1)$          |
 | isEmpty   | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Using Stacks: Balanced Parentheses
 
@@ -16709,6 +17129,8 @@ A trace table records the values of variables as an algorithm executes.
 
 **Example:** Trace `findMax` on the list [3, 7, 2, 9, 5].
 
+<div class="table-wrap">
+
 | Iteration | item | max (before) | max (after) |
 | --------- | ---- | ------------ | ----------- |
 | 1         | 3    | 3            | 3           |
@@ -16717,15 +17139,21 @@ A trace table records the values of variables as an algorithm executes.
 | 4         | 9    | 7            | 9           |
 | 5         | 5    | 9            | 9           |
 
+</div>
+
 Final result: 9. Correct.
 
 **Example:** Trace `binarySearch` on [2, 5, 8, 12, 16, 23, 38] searching for 16.
+
+<div class="table-wrap">
 
 | Iteration | low | high | mid | list[mid] | Action  |
 | --------- | --- | ---- | --- | --------- | ------- |
 | 1         | 1   | 7    | 4   | 12        | 12 < 16 |
 | 2         | 5   | 7    | 6   | 23        | 23 > 16 |
 | 3         | 5   | 5    | 5   | 16        | Found!  |
+
+</div>
 
 Result: index 5. Correct.
 
@@ -17086,6 +17514,8 @@ categories:
 
 ### Hardware Components
 
+<div class="table-wrap">
+
 | Component        | Function                                       |
 | ---------------- | ---------------------------------------------- |
 | CPU              | Executes instructions, performs calculations   |
@@ -17096,6 +17526,8 @@ categories:
 | Power supply     | Provides electrical power                      |
 | Input devices    | Keyboard, mouse, microphone, camera            |
 | Output devices   | Monitor, speakers, printer                     |
+
+</div>
 
 ### The Fetch-Decode-Execute Cycle
 
@@ -17127,6 +17559,8 @@ Register R2 to register R1).
 
 Computers represent all data in binary (0s and 1s).
 
+<div class="table-wrap">
+
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
 | Integer   | Two's complement (signed integers)   |
@@ -17134,6 +17568,8 @@ Computers represent all data in binary (0s and 1s).
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |
 | Audio     | Sampled amplitude values             |
+
+</div>
 
 #### Two's Complement
 
@@ -17193,6 +17629,8 @@ The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106
 
 Base-16 representation, using digits 0--9 and A--F.
 
+<div class="table-wrap">
+
 | Binary | Hex | Decimal |
 | ------ | --- | ------- |
 | 0000   | 0   | 0       |
@@ -17211,6 +17649,8 @@ Base-16 representation, using digits 0--9 and A--F.
 | 1101   | D   | 13      |
 | 1110   | E   | 14      |
 | 1111   | F   | 15      |
+
+</div>
 
 Conversion: group binary digits in groups of 4 from right to left.
 
@@ -17264,6 +17704,8 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 
 ### Basic Gates
 
+<div class="table-wrap">
+
 | Gate | Symbol   | Boolean Expression     | Truth Table                 |
 | ---- | -------- | ---------------------- | --------------------------- |
 | AND  | A AND B  | A $\cdot$ B            | 1 only if both inputs are 1 |
@@ -17273,9 +17715,13 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | NOR  | A NOR B  | $\overline{A + B}$     | NOT OR                      |
 | XOR  | A XOR B  | $A \oplus B$           | 1 if inputs differ          |
 
+</div>
+
 ### Truth Tables
 
 **AND gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -17284,7 +17730,11 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **XOR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -17292,6 +17742,8 @@ $48000 \times 16 \times 120 \times 2 = 184320000$ bits $\approx 22$ MB.
 | 0   | 1   | 1       |
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
+
+</div>
 
 ### De Morgan's Laws
 
@@ -17316,12 +17768,16 @@ $\overline{A \cdot \bar{B}} = \bar{A} + \overline{\bar{B}} = \bar{A} + B$.
 
 **Proof of De Morgan's first law by truth table:**
 
+<div class="table-wrap">
+
 | A   | B   | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A} + \bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ------------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                   |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                   |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                   |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                   |
+
+</div>
 
 Columns 4 and 7 are identical. $\blacksquare$
 
@@ -17340,12 +17796,16 @@ This requires: 2 NOT gates, 2 AND gates, 1 OR gate.
 
 **Truth table verification:**
 
+<div class="table-wrap">
+
 | A   | B   | $\bar{A}$ | $\bar{B}$ | $A \cdot \bar{B}$ | $\bar{A} \cdot B$ | $A \oplus B$ |
 | --- | --- | --------- | --------- | ----------------- | ----------------- | ------------ |
 | 0   | 0   | 1         | 1         | 0                 | 0                 | 0            |
 | 0   | 1   | 1         | 0         | 0                 | 1                 | 1            |
 | 1   | 0   | 0         | 1         | 1                 | 0                 | 1            |
 | 1   | 1   | 0         | 0         | 0                 | 0                 | 0            |
+
+</div>
 
 ### Half Adder and Full Adder
 
@@ -17375,6 +17835,8 @@ Final carry-out is the 9th bit of the result.
 
 **Worked Example.** Add 0110 and 0011 using half adders and full adders.
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 0       |
@@ -17382,6 +17844,8 @@ Final carry-out is the 9th bit of the result.
 | Carry in  | 0       | 0   | 1   | 0       |
 | Sum       | 0       | 1   | 0   | 1       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
@@ -17411,6 +17875,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 
 ### Types of Operating Systems
 
+<div class="table-wrap">
+
 | Type      | Examples              | Characteristics               |
 | --------- | --------------------- | ----------------------------- |
 | Desktop   | Windows, macOS, Linux | Personal use, multitasking    |
@@ -17418,6 +17884,8 @@ Milliseconds instead of nanoseconds, causing a noticeable delay.
 | Server    | Windows Server, Linux | Network services, high uptime |
 | Embedded  | RTOS, firmware        | Limited resources, dedicated  |
 | Real-time | VxWorks, FreeRTOS     | Guaranteed response times     |
+
+</div>
 
 ### The Role of the Kernel
 
@@ -17438,6 +17906,8 @@ Request the kernel to perform privileged operations on their behalf.
 
 ### Software Testing
 
+<div class="table-wrap">
+
 | Type                | Description                                      |
 | ------------------- | ------------------------------------------------ |
 | Unit testing        | Testing individual components                    |
@@ -17446,6 +17916,8 @@ Request the kernel to perform privileged operations on their behalf.
 | Acceptance testing  | Testing against user requirements                |
 | Black-box testing   | Testing based on inputs/outputs (no code access) |
 | White-box testing   | Testing based on internal code structure         |
+
+</div>
 
 **Black-box vs white-box.** Black-box testing verifies that the system produces correct outputs for
 Given inputs, without examining the code. White-box testing examines the code structure to ensure
@@ -17482,6 +17954,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 
 ### Bitwise Operators in Java
 
+<div class="table-wrap">
+
 | Operator   | Name        | Description                            |
 | ---------- | ----------- | -------------------------------------- |
 | `&`        | AND         | Bitwise AND                            |
@@ -17490,6 +17964,8 @@ Complement, the result wraps around to $4000000000 - 2^{32} = -294967296$.
 | `~`        | NOT         | Bitwise complement (inverts all bits)  |
 | `&lt;&lt;` | Left shift  | Shifts bits left, fills with zeros     |
 | `&gt;&gt;` | Right shift | Shifts bits right, fills with sign bit |
+
+</div>
 
 ```java
 int a = 12;   // 00001100
@@ -17512,6 +17988,8 @@ char upper = (char) ('a' - 32);  // 'A'
 
 ### Comparing Storage Devices
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -17521,6 +17999,8 @@ char upper = (char) ('a' - 32);  // 'A'
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
+
+</div>
 
 IOPS (Input/Output Operations Per Second) measures how many read/write operations a drive can
 Perform per second. SSDs excel here due to having no moving parts.
@@ -17567,9 +18047,13 @@ Binary: $11111111$. Decimal: $15     imes 16 + 15 = 255$.
 
 **Addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Worked Example.** Add 0110 and 0011.
 
@@ -17617,6 +18101,8 @@ $12 / 4 = 3$ pages.
 
 ### Utility Programs
 
+<div class="table-wrap">
+
 | Utility              | Purpose                                     |
 | -------------------- | ------------------------------------------- |
 | Disk defragmenter    | Reorganises data on a HDD for faster access |
@@ -17625,6 +18111,8 @@ $12 / 4 = 3$ pages.
 | Compression software | Compresses and decompresses files           |
 | Backup software      | Creates copies of data for recovery         |
 | Firewall             | Monitors and filters network traffic        |
+
+</div>
 
 **Disk defragmentation.** On a HDD, files can become fragmented -- stored in non-contiguous clusters
 Across the disk. This slows down reading because the read head must move to multiple locations.
@@ -17707,6 +18195,8 @@ $$
 
 **Worked Example.** Add $7$ and $5$ using full adders (4-bit).
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 1       |
@@ -17714,6 +18204,8 @@ $$
 | Carry in  | 0       | 1   | 0   | 0       |
 | Sum       | 1       | 1   | 0   | 0       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $1100 = 12$. Check: $7 + 5 = 12$. Correct.
 
@@ -17731,6 +18223,8 @@ Git tracks changes to source code over time. Key concepts:
 
 **Common Git commands:**
 
+<div class="table-wrap">
+
 | Command               | Purpose                     |
 | --------------------- | --------------------------- |
 | `git init`            | Create a new repository     |
@@ -17742,6 +18236,8 @@ Git tracks changes to source code over time. Key concepts:
 | `git checkout branch` | Switch to a branch          |
 | `git merge branch`    | Merge a branch into current |
 | `git log`             | View commit history         |
+
+</div>
 
 ### Integrated Development Environments (IDEs)
 
@@ -18104,6 +18600,8 @@ int index = names.indexOf("Alice");
 
 **Array vs ArrayList:**
 
+<div class="table-wrap">
+
 | Feature         | Array          | ArrayList                |
 | --------------- | -------------- | ------------------------ |
 | Size            | Fixed          | Dynamic (resizable)      |
@@ -18112,6 +18610,8 @@ int index = names.indexOf("Alice");
 | Access          | `arr[i]`       | `list.get(i)`            |
 | Modify          | `arr[i] = val` | `list.set(i, val)`       |
 | Add element     | Not possible   | `list.add(val)`          |
+
+</div>
 
 ### 2D Arrays
 
@@ -18172,6 +18672,8 @@ Time complexity: $O(r \times c)$ where $r$ is rows and $c$ is columns.
 
 AP CSP uses generic list operations:
 
+<div class="table-wrap">
+
 | Operation            | Description                              |
 | -------------------- | ---------------------------------------- |
 | `list[i]`            | Access element at index `i` (1-indexed)  |
@@ -18181,11 +18683,15 @@ AP CSP uses generic list operations:
 | `REMOVE(list, i)`    | Remove element at index `i`Shifting left |
 | `LENGTH(list)`       | Number of elements in `list`             |
 
+</div>
+
 ## Strings (AP CS A)
 
 Strings are immutable sequences of characters.
 
 ### Common Methods
+
+<div class="table-wrap">
 
 | Method                      | Description                 | Returns   |
 | --------------------------- | --------------------------- | --------- |
@@ -18198,6 +18704,8 @@ Strings are immutable sequences of characters.
 | `str.compareTo(other)`      | Lexicographic comparison    | `int`     |
 | `str.toUpperCase()`         | All uppercase               | `String`  |
 | `str.toLowerCase()`         | All lowercase               | `String`  |
+
+</div>
 
 ### String Immutability
 
@@ -18396,6 +18904,8 @@ public class Student implements Comparable<Student> {
 
 ### Big-O Analysis of ArrayList Operations
 
+<div class="table-wrap">
+
 | Operation          | Average | Worst  |
 | ------------------ | ------- | ------ |
 | `get(i)`           | $O(1)$  | $O(1)$ |
@@ -18406,6 +18916,8 @@ public class Student implements Comparable<Student> {
 | `set(i, item)`     | $O(1)$  | $O(1)$ |
 | `contains(Object)` | $O(n)$  | $O(n)$ |
 | `indexOf(Object)`  | $O(n)$  | $O(n)$ |
+
+</div>
 
 ### String Algorithms
 
@@ -18473,12 +18985,16 @@ int pow = (int)Math.pow(2, 10);    // 1024
 
 ### Wrapper Classes and Autoboxing (AP CS A)
 
+<div class="table-wrap">
+
 | Primitive | Wrapper   |
 | --------- | --------- |
 | int       | Integer   |
 | double    | Double    |
 | boolean   | Boolean   |
 | char      | Character |
+
+</div>
 
 ```java
 ArrayList<Integer> list = new ArrayList<>();
@@ -18753,6 +19269,8 @@ public class Student implements Comparable<Student> {
 
 ### Big-O Analysis of ArrayList Operations
 
+<div class="table-wrap">
+
 | Operation          | Average | Worst  |
 | ------------------ | ------- | ------ |
 | `get(i)`           | $O(1)$  | $O(1)$ |
@@ -18763,6 +19281,8 @@ public class Student implements Comparable<Student> {
 | `set(i, item)`     | $O(1)$  | $O(1)$ |
 | `contains(Object)` | $O(n)$  | $O(n)$ |
 | `indexOf(Object)`  | $O(n)$  | $O(n)$ |
+
+</div>
 
 ### Privacy Laws and Regulations
 
@@ -19520,12 +20040,16 @@ the 1990s.
 
 ### Internet Architecture
 
+<div class="table-wrap">
+
 | Layer       | Protocol                    | Function                                       |
 | ----------- | --------------------------- | ---------------------------------------------- |
 | Application | HTTP, HTTPS, SMTP, DNS, FTP | Application-level communication                |
 | Transport   | TCP, UDP                    | End-to-end delivery, error checking, ports     |
 | Network     | IP (IPv4, IPv6)             | Routing packets between networks               |
 | Link        | Ethernet, Wi-Fi             | Physical transmission between adjacent devices |
+
+</div>
 
 ### IP Addresses
 
@@ -19586,6 +20110,8 @@ Milliseconds.
 
 **DNS records:**
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                  | Example                            |
 | ----------- | ---------------------------------------- | ---------------------------------- |
 | A           | Maps domain to IPv4 address              | example.com -&gt; 93.184.216.34    |
@@ -19594,7 +20120,11 @@ Milliseconds.
 | MX          | Mail exchange server for the domain      | example.com -&gt; mail.example.com |
 | NS          | Authoritative name server for the domain | example.com -&gt; ns1.example.com  |
 
+</div>
+
 ### TCP vs UDP (CED Unit 4)
+
+<div class="table-wrap">
 
 | Feature     | TCP (Transmission Control Protocol)   | UDP (User Datagram Protocol) |
 | ----------- | ------------------------------------- | ---------------------------- |
@@ -19604,6 +20134,8 @@ Milliseconds.
 | Speed       | Slower (overhead)                     | Faster (less overhead)       |
 | Use cases   | Web browsing, email, file transfer    | Streaming, gaming, VoIP      |
 | Header size | 20+ bytes                             | 8 bytes                      |
+
+</div>
 
 **TCP three-way handshake:**
 
@@ -19622,6 +20154,8 @@ Overwhelmed.
 
 **TCP vs UDP decision guide:**
 
+<div class="table-wrap">
+
 | Requirement                 | Use TCP | Use UDP |
 | --------------------------- | ------- | ------- |
 | Must receive all data       | Yes     | No      |
@@ -19633,6 +20167,8 @@ Overwhelmed.
 | Example: online gaming      |         | Yes     |
 | Example: sending an email   | Yes     |         |
 
+</div>
+
 ### HTTP and HTTPS
 
 **HTTP (Hypertext Transfer Protocol):** Protocol for transferring web pages. Stateless (each request
@@ -19643,6 +20179,8 @@ Key, then symmetric encryption for data transfer.
 
 **HTTP Methods:**
 
+<div class="table-wrap">
+
 | Method | Purpose                         | Idempotent? |
 | ------ | ------------------------------- | ----------- |
 | GET    | Retrieve a resource             | Yes         |
@@ -19651,7 +20189,11 @@ Key, then symmetric encryption for data transfer.
 | DELETE | Remove a resource               | Yes         |
 | PATCH  | Partially modify a resource     | No          |
 
+</div>
+
 **Status Codes:**
+
+<div class="table-wrap">
 
 | Code Range | Meaning       | Examples                                |
 | ---------- | ------------- | --------------------------------------- |
@@ -19661,6 +20203,8 @@ Key, then symmetric encryption for data transfer.
 | 4xx        | Client error  | 400 Bad Request, 404 Not Found          |
 | 5xx        | Server error  | 500 Internal Server Error               |
 
+</div>
+
 **Cookies.** HTTP is stateless, so cookies were invented to maintain state across requests. A cookie
 Is a small piece of data stored by the browser and sent with each request to the same domain. Uses
 Include session management (login state), personalisation (preferences), and tracking (analytics).
@@ -19668,6 +20212,8 @@ Include session management (login state), personalisation (preferences), and tra
 ## Network Models (CED Unit 4)
 
 ### OSI Model (7 Layers)
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                           |
 | ----- | ------------ | ---------------------------------- |
@@ -19679,9 +20225,13 @@ Include session management (login state), personalisation (preferences), and tra
 | 2     | Data Link    | Node-to-node delivery, MAC address |
 | 1     | Physical     | Electrical signals, bits           |
 
+</div>
+
 **Mnemonic:** "All People Seem To Need Data Processing" (bottom to top).
 
 ### TCP/IP Model (4 Layers)
+
+<div class="table-wrap">
 
 | Layer       | OSI Layers | Protocols            |
 | ----------- | ---------- | -------------------- |
@@ -19689,6 +20239,8 @@ Include session management (login state), personalisation (preferences), and tra
 | Transport   | 4          | TCP, UDP             |
 | Internet    | 3          | IP, ICMP, ARP        |
 | Link        | 1, 2       | Ethernet, Wi-Fi, MAC |
+
+</div>
 
 **Encapsulation.** As data moves down the layers, each layer adds its own header. At the link layer,
 Data becomes a frame. At the network layer, it becomes a packet. At the transport layer, it is a
@@ -19706,6 +20258,8 @@ At the receiver, each layer removes its header in reverse order.
 
 ## Network Devices
 
+<div class="table-wrap">
+
 | Device   | Layer     | Function                                        |
 | -------- | --------- | ----------------------------------------------- |
 | Repeater | Physical  | Regenerates signals                             |
@@ -19715,11 +20269,15 @@ At the receiver, each layer removes its header in reverse order.
 | Firewall | Multiple  | Filters traffic based on rules                  |
 | Modem    | Physical  | Converts digital/analog signals                 |
 
+</div>
+
 **Switch vs router.** A switch operates at layer 2 (Data Link) and forwards frames within a LAN
 Using MAC addresses. A router operates at layer 3 (Network) and forwards packets between networks
 Using IP addresses. A home "router" is actually a router + switch + wireless access point combined.
 
 **Device decision guide:**
+
+<div class="table-wrap">
 
 | Scenario                                    | Device Needed |
 | ------------------------------------------- | ------------- |
@@ -19729,7 +20287,11 @@ Using IP addresses. A home "router" is actually a router + switch + wireless acc
 | Block unauthorized incoming traffic         | Firewall      |
 | Connect a home to an ISP via telephone line | Modem         |
 
+</div>
+
 ## Network Topologies
+
+<div class="table-wrap">
 
 | Topology          | Description                                 | Advantages                                              | Disadvantages                       |
 | ----------------- | ------------------------------------------- | ------------------------------------------------------- | ----------------------------------- |
@@ -19738,6 +20300,8 @@ Using IP addresses. A home "router" is actually a router + switch + wireless acc
 | Ring              | Devices connected in a circle               | Equal access                                            | One failure breaks ring             |
 | Mesh              | Every device connected to every other       | Highly redundant                                        | Expensive, complex                  |
 | Tree/Hierarchical | Star topologies connected via bus           | Scalable                                                | Root is a single point of failure   |
+
+</div>
 
 ## Bandwidth, Latency, and Throughput
 
@@ -19758,6 +20322,8 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 
 ### Threats
 
+<div class="table-wrap">
+
 | Threat                     | Description                                                 |
 | -------------------------- | ----------------------------------------------------------- |
 | Malware                    | Malicious software (viruses, worms, trojans, ransomware)    |
@@ -19767,7 +20333,11 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 | Man-in-the-middle          | Intercepting communication between two parties              |
 | Cross-site scripting (XSS) | Injecting malicious scripts into web pages viewed by others |
 
+</div>
+
 **Malware comparison:**
+
+<div class="table-wrap">
 
 | Type       | Self-replicates | Needs host | Purpose                        |
 | ---------- | --------------- | ---------- | ------------------------------ |
@@ -19776,6 +20346,8 @@ Time = File size / Throughput = $50 \times 8 / 65 \approx 6.15$ seconds.
 | Trojan     | No              | Disguised  | Steal data, backdoor access    |
 | Ransomware | No              | No         | Encrypt files, demand ransom   |
 | Spyware    | No              | No         | Monitor activity, collect data |
+
+</div>
 
 ### Defenses
 
@@ -19826,11 +20398,15 @@ Verifies it with the sender's public key. This proves the message was sent by th
 
 **IPv4 classes:**
 
+<div class="table-wrap">
+
 | Class | Address Range                | Default Subnet Mask | Usable Hosts |
 | ----- | ---------------------------- | ------------------- | ------------ |
 | A     | 0.0.0.0 -- 127.255.255.255   | 255.0.0.0           | 16,777,214   |
 | B     | 128.0.0.0 -- 191.255.255.255 | 255.255.0.0         | 65,534       |
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0       | 254          |
+
+</div>
 
 **CIDR notation:** 192.168.1.0/24 means the first 24 bits are the network portion, leaving 8 bits
 For hosts.
@@ -19865,6 +20441,8 @@ The CDN serves it from the nearest edge server, reducing latency.
 
 ## DNS Records in Detail
 
+<div class="table-wrap">
+
 | Record Type | Purpose                                  | Example                            |
 | ----------- | ---------------------------------------- | ---------------------------------- |
 | A           | Maps domain to IPv4 address              | example.com -&gt; 93.184.216.34    |
@@ -19874,9 +20452,13 @@ The CDN serves it from the nearest edge server, reducing latency.
 | NS          | Authoritative name server for the domain | example.com -&gt; ns1.example.com  |
 | TXT         | Text records (SPF, DKIM verification)    | v=spf1 include:\_spf.example.com   |
 
+</div>
+
 ## Wireless Networks
 
 ### Wi-Fi Standards
+
+<div class="table-wrap">
 
 | Standard | Speed    | Frequency | Range |
 | -------- | -------- | --------- | ----- |
@@ -19885,6 +20467,8 @@ The CDN serves it from the nearest edge server, reducing latency.
 | 802.11n  | 600 Mbps | 2.4/5 GHz | ~70 m |
 | 802.11ac | 6.9 Gbps | 5 GHz     | ~35 m |
 | 802.11ax | 9.6 Gbps | 2.4/5/6   | ~70 m |
+
+</div>
 
 ### Wireless Security
 
@@ -19931,11 +20515,15 @@ The CDN serves it from the nearest edge server, reducing latency.
 
 **IPv4 classes:**
 
+<div class="table-wrap">
+
 | Class | Address Range                | Default Subnet Mask | Usable Hosts |
 | ----- | ---------------------------- | ------------------- | ------------ |
 | A     | 0.0.0.0 -- 127.255.255.255   | 255.0.0.0           | 16,777,214   |
 | B     | 128.0.0.0 -- 191.255.255.255 | 255.255.0.0         | 65,534       |
 | C     | 192.0.0.0 -- 223.255.255.255 | 255.255.255.0       | 254          |
+
+</div>
 
 **CIDR notation:** 192.168.1.0/24 means the first 24 bits are the network portion, leaving 8 bits
 For hosts.
@@ -20004,6 +20592,8 @@ Public IP to serve many private devices, conserving the address space.
 
 ### HTTP Methods
 
+<div class="table-wrap">
+
 | Method | Purpose                         | Idempotent? | Body? |
 | ------ | ------------------------------- | ----------- | ----- |
 | GET    | Retrieve a resource             | Yes         | No    |
@@ -20013,7 +20603,11 @@ Public IP to serve many private devices, conserving the address space.
 | PATCH  | Partially modify a resource     | No          | Yes   |
 | HEAD   | Same as GET but no body         | Yes         | No    |
 
+</div>
+
 ### HTTP Status Codes
+
+<div class="table-wrap">
 
 | Code Range | Meaning       | Examples                                           |
 | ---------- | ------------- | -------------------------------------------------- |
@@ -20023,11 +20617,15 @@ Public IP to serve many private devices, conserving the address space.
 | 4xx        | Client error  | 400 Bad Request, 403 Forbidden, 404 Not Found      |
 | 5xx        | Server error  | 500 Internal Server Error, 503 Service Unavailable |
 
+</div>
+
 ### HTTP Headers
 
 HTTP headers provide additional information about the request or response.
 
 **Common request headers:**
+
+<div class="table-wrap">
 
 | Header        | Purpose                    | Example          |
 | ------------- | -------------------------- | ---------------- |
@@ -20037,7 +20635,11 @@ HTTP headers provide additional information about the request or response.
 | Content-Type  | Body format                | application/json |
 | Authorization | Authentication credentials | Bearer token     |
 
+</div>
+
 **Common response headers:**
+
+<div class="table-wrap">
 
 | Header         | Purpose                        | Example          |
 | -------------- | ------------------------------ | ---------------- |
@@ -20046,6 +20648,8 @@ HTTP headers provide additional information about the request or response.
 | Set-Cookie     | Set a cookie in the browser    | session=abc123   |
 | Cache-Control  | Caching directives             | max-age=3600     |
 | Location       | URL for redirection            | /new-page        |
+
+</div>
 
 ### Cookies and Sessions
 
@@ -20076,12 +20680,18 @@ NAT allows multiple devices on a private network to share a single public IP add
 **Port Address Translation (PAT):** The router also maps source ports to distinguish between
 Multiple internal devices.
 
+<div class="table-wrap">
+
 | Internal IP | Internal Port | External IP | External Port |
 | ----------- | ------------- | ----------- | ------------- |
 | 192.168.1.5 | 50001         | 203.0.113.5 | 50001         |
 | 192.168.1.6 | 50002         | 203.0.113.5 | 50002         |
 
+</div>
+
 ## Wireless Security Protocols
+
+<div class="table-wrap">
 
 | Protocol | Encryption | Key Exchange    | Vulnerability        |
 | -------- | ---------- | --------------- | -------------------- |
@@ -20090,7 +20700,11 @@ Multiple internal devices.
 | WPA2     | AES        | 4-way handshake | KRACK attack         |
 | WPA3     | AES        | SAE             | Most secure          |
 
+</div>
+
 ## IPv6 Address Types
+
+<div class="table-wrap">
 
 | Type       | Prefix    | Purpose                     |
 | ---------- | --------- | --------------------------- |
@@ -20099,6 +20713,8 @@ Multiple internal devices.
 | Global     | 2000::/3  | Internet routable addresses |
 | Multicast  | ff00::/8  | Send to multiple interfaces |
 | Loopback   | ::1/128   | Localhost                   |
+
+</div>
 
 ## Network Performance Monitoring
 
@@ -20164,13 +20780,19 @@ Grade databases.
 
 ### Service Models
 
+<div class="table-wrap">
+
 | Model | Provider manages          | User manages       | Example                   |
 | ----- | ------------------------- | ------------------ | ------------------------- |
 | IaaS  | Servers, storage, network | OS, apps, data     | AWS EC2, Azure VMs        |
 | PaaS  | Runtime, middleware       | Applications, data | Heroku, Google App Engine |
 | SaaS  | Everything                | Nothing (just use) | Gmail, Microsoft 365      |
 
+</div>
+
 ### Deployment Models
+
+<div class="table-wrap">
 
 | Model     | Description                                        |
 | --------- | -------------------------------------------------- |
@@ -20178,6 +20800,8 @@ Grade databases.
 | Private   | Exclusive to one organisation                      |
 | Hybrid    | Mix of public and private                          |
 | Community | Shared between organisations with common interests |
+
+</div>
 
 ## Practice Questions
 
@@ -20533,6 +21157,8 @@ and **supportable** (sufficient evidence exists).
 
 ### Types of Evidence
 
+<div class="table-wrap">
+
 | Type                 | Description                                 | Strength                                                 |
 | -------------------- | ------------------------------------------- | -------------------------------------------------------- |
 | Facts                | Verifiable, objective data                  | Strong (but context matters)                             |
@@ -20541,6 +21167,8 @@ and **supportable** (sufficient evidence exists).
 | Expert testimony     | Quotations or paraphrases from authorities  | Strong when the expert is credible and relevant          |
 | Historical precedent | Past events and established patterns        | Strong for demonstrating continuity                      |
 | Personal experience  | The writer"s own observations               | Weak alone; strong when supplemented with other evidence |
+
+</div>
 
 ### Evaluating Evidence
 
@@ -22586,6 +23214,8 @@ sectional conflict over the expansion of slavery.
 
 ### Comparison of North and South
 
+<div class="table-wrap">
+
 | Factor              | Union (North)                             | Confederacy (South)                 |
 | ------------------- | ----------------------------------------- | ----------------------------------- |
 | Population          | 22 million                                | 9 million (3.5 million enslaved)    |
@@ -22594,6 +23224,8 @@ sectional conflict over the expansion of slavery.
 | Military leadership | Initially weaker                          | Strong (Lee, Jackson)               |
 | Strategy            | Anaconda Plan, total war                  | Defensive, seek foreign recognition |
 | Goals               | Preserve the Union; later abolish slavery | Preserve slavery and states' rights |
+
+</div>
 
 ### Key Events and Turning Points
 
@@ -22791,6 +23423,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 
 ### Old vs New Immigration
 
+<div class="table-wrap">
+
 | Factor     | Old Immigration (pre-1880)              | New Immigration (1880-1920)                |
 | ---------- | --------------------------------------- | ------------------------------------------ |
 | Origin     | Northern and Western Europe             | Southern and Eastern Europe                |
@@ -22798,6 +23432,8 @@ technological innovation, the rise of large corporations, and the expansion of r
 | Religion   | Protestant                              | Catholic, Jewish, Orthodox                 |
 | Reason     | Economic opportunity, religious freedom | Economic opportunity, escaping persecution |
 | Settlement | Rural areas, small towns                | Urban industrial centres                   |
+
+</div>
 
 ### Nativism and Restriction
 
@@ -24900,6 +25536,8 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 (a) With $\Delta x = 0.5$ Starting at $(0, 1)$:
 
+<div class="table-wrap">
+
 | Step | $x$ | $y$  | $y' = x + y$ | $y_{\text{new} = y + 0.5 \cdot y'$ |
 | ---- | --- | ---- | ------------ | ---------------------------------- |
 | 0    | 0   | 1    | 1            | 1.5                                |
@@ -24907,9 +25545,13 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 | 2    | 1.0 | 2.5  | 3.5          | 4.25                               |
 | 3    | 1.5 | 4.25 | 5.75         | 7.125                              |
 
+</div>
+
 Approximation: $y(2) \approx 7.125$.
 
 With $\Delta x = 0.25$ Starting at $(0, 1)$:
+
+<div class="table-wrap">
 
 | Step | $x$  | $y$         | $y' = x + y$ | $y_{\text{new}$ |
 | ---- | ---- | ----------- | ------------ | --------------- |
@@ -24921,6 +25563,8 @@ With $\Delta x = 0.25$ Starting at $(0, 1)$:
 | 5    | 1.25 | 3.853515625 | 5.103515625  | 5.129394531     |
 | 6    | 1.5  | 5.129394531 | 6.629394531  | 6.786743164     |
 | 7    | 1.75 | 6.786743164 | 8.536743164  | 8.920428955     |
+
+</div>
 
 Approximation: $y(2) \approx 8.920$.
 
@@ -25181,12 +25825,16 @@ as $t \to \infty$?
 
 Let $f(y) = y(y-2)^2(y+1)$. Test the sign of $f(y)$ in each region:
 
+<div class="table-wrap">
+
 | Region           | Test point | $f(y)$ sign               | Behavior   |
 | ---------------- | ---------- | ------------------------- | ---------- |
 | $y \lt -1$       | $y = -2$   | $(-2)(16)(-1) > 0$        | Increasing |
 | $-1 \lt y \lt 0$ | $y = -0.5$ | $(-0.5)(6.25)(0.5) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$  | $y = 1$    | $(1)(1)(2) > 0$           | Increasing |
 | $y > 2$          | $y = 3$    | $(3)(1)(4) > 0$           | Increasing |
+
+</div>
 
 Stability classification:
 
@@ -26549,6 +27197,8 @@ Each diagnostic file contains two categories of tests:
 
 Create a tracking table for each attempt:
 
+<div class="table-wrap">
+
 | Test | Topic 1 | Topic 2 | Topic 3 | Topic 4 | Topic 5 |
 | ---- | ------- | ------- | ------- | ------- | ------- |
 | UT-1 | PASS    | PARTIAL | FAIL    |         |         |
@@ -26557,6 +27207,8 @@ Create a tracking table for each attempt:
 | IT-1 |         |         |         |         |         |
 | IT-2 |         |         |         |         |         |
 | IT-3 |         |         |         |         |         |
+
+</div>
 
 A topic is **diagnostic-ready** when you score PASS on at least 2 of 3 unit tests and at least 1 of
 3 integration tests.
@@ -26586,6 +27238,8 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 
 ## Coverage Map
 
+<div class="table-wrap">
+
 | Topic                  | File                             | AB/BC   | Core Misconceptions                                                                  |
 | ---------------------- | -------------------------------- | ------- | ------------------------------------------------------------------------------------ |
 | Limits and Continuity  | `diag-limits-continuity.md`      | AB + BC | Epsilon-delta structure, L"Hopital conditions, discontinuity classification          |
@@ -26594,7 +27248,11 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 | Differential Equations | `diag-differential-equations.md` | AB + BC | Separable identification, Euler's method errors, logistic growth, uniqueness         |
 | Sequences and Series   | `diag-sequences-series.md`       | BC Only | Convergence test selection, Lagrange error bound, radius/interval of convergence     |
 
+</div>
+
 ## Timing Recommendations
+
+<div class="table-wrap">
 
 | Test Type                    | Suggested Time | Notes                                 |
 | ---------------------------- | -------------- | ------------------------------------- |
@@ -26602,6 +27260,8 @@ structure of AP free-response questions, where multi-step reasoning is the norm.
 | Integration Test             | 12-18 minutes  | Multi-step problems require more time |
 | Full diagnostic (1 topic)    | 60-75 minutes  | All 6 tests with breaks               |
 | Full diagnostic (all topics) | 5-6 hours      | Spread across multiple sessions       |
+
+</div>
 
 Do not rigidly enforce time limits during initial attempts. Speed comes with mastery. During later
 attempts, tighten timing to build exam readiness.
@@ -26640,6 +27300,8 @@ series to improper integrals, and Taylor series require computing derivatives.
 
 ### AB vs BC Coverage Matrix
 
+<div class="table-wrap">
+
 | Diagnostic             | AB Required | BC Required |
 | ---------------------- | ----------- | ----------- |
 | Limits and Continuity  | All UT + IT | All UT + IT |
@@ -26647,6 +27309,8 @@ series to improper integrals, and Taylor series require computing derivatives.
 | Integrals              | All UT + IT | All UT + IT |
 | Differential Equations | All UT + IT | All UT + IT |
 | Sequences and Series   | Not tested  | All UT + IT |
+
+</div>
 
 **AB students:** Complete the first four diagnostics. The AB exam does not test sequences and
 series.
@@ -27070,11 +27734,15 @@ Approximating the curve locally by its tangent line at each step.
 Use Euler's method with $\Delta x = 0.5$ to approximate $y(2)$ for $\frac{dy}{dx} = x + y$
 $y(1) = 0$.
 
+<div class="table-wrap">
+
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n) = x_n + y_n$ | $y_{n+1} = y_n + f \cdot \Delta x$ |
 | ---- | ----- | ----- | ------------------------- | ---------------------------------- |
 | 0    | 1.0   | 0     | 1.0                       | $0 + 1.0(0.5) = 0.5$               |
 | 1    | 1.5   | 0.5   | 2.0                       | $0.5 + 2.0(0.5) = 1.5$             |
 | 2    | 2.0   | 1.5   | --                        |                                    |
+
+</div>
 
 So $y(2) \approx 1.5$.
 
@@ -27086,6 +27754,8 @@ is poor due to the large step size. With $\Delta x = 0.1$ The result is much clo
 Use Euler's method with $\Delta x = 0.25$ to approximate $y(1)$ for $\frac{dy}{dx} = x^2 + y$
 $y(0) = 1$.
 
+<div class="table-wrap">
+
 | Step | $x_n$ | $y_n$ | $f(x_n, y_n)$ | $y_{n+1}$ |
 | ---- | ----- | ----- | ------------- | --------- |
 | 0    | 0.00  | 1.000 | 1.000         | 1.250     |
@@ -27093,6 +27763,8 @@ $y(0) = 1$.
 | 2    | 0.50  | 1.578 | 1.828         | 2.035     |
 | 3    | 0.75  | 2.035 | 2.613         | 2.688     |
 | 4    | 1.00  | 2.688 | --            | --        |
+
+</div>
 
 So $y(1) \approx 2.688$.
 
@@ -27249,11 +27921,15 @@ For autonomous equations $\frac{dy}{dt} = f(y)$:
 - Find equilibrium solutions by solving $f(y) = 0$.
 - Classify stability by checking the sign of $f(y)$ near each equilibrium.
 
+<div class="table-wrap">
+
 | Sign of $f(y)$ near equilibrium        | Stability           |
 | -------------------------------------- | ------------------- |
 | $f(y) \gt 0$ below, $f(y) \lt 0$ above | Stable (attractor)  |
 | $f(y) \lt 0$ below, $f(y) \gt 0$ above | Unstable (repeller) |
 | Same sign on both sides                | Semi-stable         |
+
+</div>
 
 ### Phase Line Analysis
 
@@ -27271,12 +27947,16 @@ Analyse $\displaystyle\frac{dy}{dt} = y(y - 2)(y - 5)$.
 
 Equilibria: $y = 0$, $y = 2$, $y = 5$.
 
+<div class="table-wrap">
+
 | Interval        | Test point | $f(y)$            | Direction  |
 | --------------- | ---------- | ----------------- | ---------- |
 | $y \lt 0$       | $-1$       | $(-)(-)(-) \lt 0$ | Decreasing |
 | $0 \lt y \lt 2$ | $1$        | $(+)(-)(-) \gt 0$ | Increasing |
 | $2 \lt y \lt 5$ | $3$        | $(+)(+)(-) \lt 0$ | Decreasing |
 | $y \gt 5$       | $6$        | $(+)(+)(+) \gt 0$ | Increasing |
+
+</div>
 
 - $y = 0$: arrows point away -- **unstable**
 - $y = 2$: arrows point inward -- **stable**
@@ -27719,6 +28399,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 - **Chain rule:** $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
 
 **Common derivatives:**
+<div class="table-wrap">
+
 | Function | Derivative |
 |----------|------------|
 | $x^n$ | $nx^{n-1}$ |
@@ -27727,6 +28409,8 @@ The derivative represents the instantaneous rate of change of $f$ at $x = a$, or
 | $\tan x$ | $\sec^2 x$ |
 | $e^x$ | $e^x$ |
 | $\ln x$ | $\frac{1}{x}$ |
+
+</div>
 
 **Applications of derivatives:**
 - **Critical points:** $f'(c) = 0$ or $f'(c)$ does not exist. Use the first or second derivative test to classify as local maximum, local minimum, or neither.
@@ -27799,6 +28483,8 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 
 **Key convergence tests:**
 
+<div class="table-wrap">
+
 | Test | When to Use | Result |
 |------|-------------|--------|
 | Geometric series | $\sum ar^n$ | Converges if $\|r\| < 1$, sum $= \frac{a}{1-r}$ |
@@ -27808,6 +28494,8 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 | Comparison test | Compare with known series | If $0 \leq a_n \leq b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges |
 | Ratio test | Factorials, exponentials | If $\lim \left\|\frac{a_{n+1}}{a_n}\right\| = L$: converges if $L < 1$, diverges if $L > 1$ |
 | Alternating series | $\sum (-1)^n b_n$ with $b_n > 0$ | Converges if $b_n$ is decreasing and $\lim b_n = 0$ |
+
+</div>
 
 **Taylor series:** The Taylor series of $f$ centred at $a$ is:
 
@@ -28122,6 +28810,8 @@ Where $C$ is the constant of integration.
 
 ### Basic Integration Rules
 
+<div class="table-wrap">
+
 | Function $f(x)$          | Antiderivative $F(x)$     |
 | ------------------------ | ------------------------- |
 | $x^n$ ($n \ne -1$)       | $\frac{x^{n+1}}{n+1} + C$ |
@@ -28135,6 +28825,8 @@ Where $C$ is the constant of integration.
 | $\csc x \cot x$          | $-\csc x + C$             |
 | $\frac{1}{1+x^2}$        | $\arctan x + C$           |
 | $\frac{1}{\sqrt{1-x^2}}$ | $\arcsin x + C$           |
+
+</div>
 
 ### The Power Rule for Integration
 
@@ -28182,12 +28874,16 @@ $$
 
 Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$ Th subinterval.
 
+<div class="table-wrap">
+
 | Type              | Sample Point $x_i^*$                              |
 | ----------------- | ------------------------------------------------- |
 | Left Riemann sum  | Left endpoint                                     |
 | Right Riemann sum | Right endpoint                                    |
 | Midpoint sum      | Midpoint of subinterval                           |
 | Trapezoidal sum   | Average of endpoints (trapezoids, not rectangles) |
+
+</div>
 
 **Why Riemann sums matter.** They are the foundation of the definite integral. As $n \to \infty$ The
 approximation becomes exact (for continuous functions).
@@ -28472,11 +29168,15 @@ $$
 
 **Tabular method check:**
 
+<div class="table-wrap">
+
 | Sign | D (derivatives) | I (integrals) |
 | ---- | --------------- | ------------- |
 | $+$  | $x^2$           | $e^x$         |
 | $-$  | $2x$            | $e^x$         |
 | $+$  | $2$             | $e^x$         |
+
+</div>
 
 Result: $x^2 e^x - 2xe^x + 2e^x = e^x(x^2 - 2x + 2)$. Confirmed.
 </Aside>
@@ -28788,6 +29488,8 @@ Evaluate $\displaystyle\int x^3 e^x \, dx$ using the tabular method.
 
 Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with signs $+,-,+,-$:
 
+<div class="table-wrap">
+
 | Signs | $x^3$  | $e^x$ |
 | ----- | ------ | ----- |
 | +     | $x^3$  | $e^x$ |
@@ -28795,6 +29497,8 @@ Differentiate $x^3$ (column 1) and integrate $e^x$ (column 2) alternately with s
 | +     | $6x$   | $e^x$ |
 | -     | $6$    | $e^x$ |
 | +     | $0$    | $e^x$ |
+
+</div>
 
 Result: $x^3 e^x - 3x^2 e^x + 6xe^x - 6e^x + C = e^x(x^3 - 3x^2 + 6x - 6) + C$.
 
@@ -28988,6 +29692,8 @@ Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 
 ### Common Limits
 
+<div class="table-wrap">
+
 | Limit                                                             | Value |
 | ----------------------------------------------------------------- | ----- |
 | $\displaystyle\lim_{x \to 0} \frac{\sin x}{x}$                    | $1$   |
@@ -28996,6 +29702,8 @@ Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 | $\displaystyle\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x$ | $e$   |
 | $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x}$                   | $1$   |
 | $\displaystyle\lim_{x \to 0} \frac{\ln(1+x)}{x}$                  | $1$   |
+
+</div>
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$.**
 
@@ -29396,12 +30104,16 @@ $x^2 + 1 \ge 1 \gt 0$).
 
 ### Types of Discontinuities
 
+<div class="table-wrap">
+
 | Type                     | Description                                                            | Example                                          |
 | ------------------------ | ---------------------------------------------------------------------- | ------------------------------------------------ |
 | Removable                | Limit exists but $f(a)$ is undefined or $f(a) \ne \lim_{x \to a} f(x)$ | $f(x) = \frac{x^2 - 1}{x - 1}$ at $x=1$          |
 | Jump (Non-removable)     | One-sided limits exist but are not equal                               | $f(x) = \lfloor x \rfloor$                       |
 | Infinite (Non-removable) | Function approaches $\pm\infty$                                        | $f(x) = \frac{1}{x}$ at $x = 0$                  |
 | Oscillating              | Function oscillates without approaching a single value                 | $f(x) = \sin\!\left(\frac{1}{x}\right)$ at $x=0$ |
+
+</div>
 
 ### Intermediate Value Theorem (IVT)
 
@@ -29906,6 +30618,8 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 
 ### Common Sequences
 
+<div class="table-wrap">
+
 | Sequence                               | Convergence | Limit   |
 | -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
@@ -29916,6 +30630,8 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 | $a_n = (-1)^n$                         | Diverges    | --      |
 | $a_n = \sqrt{n+1} - \sqrt{n}$          | Converges   | $0$     |
 | $a_n = \frac{\ln n}{n}$                | Converges   | $0$     |
+
+</div>
 
 ### Proof: $\frac{n!}{n^n} \to 0$
 
@@ -30304,11 +31020,15 @@ Convergence**:
 - Use the ratio test to find $R$: $\displaystyle R = \frac{1}{\lim_{n \to \infty} |c_{n+1}/c_n|}$.
 - Check the endpoints separately (the ratio test is inconclusive when $L = 1$).
 
+<div class="table-wrap">
+
 | Case                 | Interval of Convergence             |
 | -------------------- | ----------------------------------- |
 | $R = 0$              | Single point $\{a\}$                |
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -32658,6 +33378,8 @@ Kinematics describes the motion of objects without considering the forces that c
 
 ### Scalar vs Vector Quantities
 
+<div class="table-wrap">
+
 | Quantity     | Type   | Description                                        |
 | ------------ | ------ | -------------------------------------------------- |
 | Displacement | Vector | Change in position, $\Delta \vec{r}$               |
@@ -32665,6 +33387,8 @@ Kinematics describes the motion of objects without considering the forces that c
 | Velocity     | Vector | Rate of change of displacement                     |
 | Speed        | Scalar | Rate of change of distance (magnitude of velocity) |
 | Acceleration | Vector | Rate of change of velocity                         |
+
+</div>
 
 ### Definitions Using Calculus
 
@@ -32770,12 +33494,16 @@ Each of the four kinematic equations relates a different subset of the five vari
 $a$, $t$, $x - x_0$). Choose the equation that contains the variables you know and the variable you Need
 to find:
 
+<div class="table-wrap">
+
 | Known variables    | Use equation                        |
 | ------------------ | ----------------------------------- |
 | $v_0$, $a$, $t$        | $v = v_0 + at$                      |
 | $v_0$, $a$, $t$        | $x - x_0 = v_0 t + \frac{1}{2}at^2$ |
 | $v_0$, $a$, $\Delta x$ | $v^2 = v_0^2 + 2a\Delta x$          |
 | $v_0$, $v$, $t$        | $\Delta x = \frac{v_0 + v}{2} t$    |
+
+</div>
 
 The variable that does _not_ appear in each equation tells you when to use it.
 
@@ -33307,12 +34035,16 @@ $$
 
 ## Summary Table: Kinematic Equations
 
+<div class="table-wrap">
+
 | Equation                            | Missing Variable | Best Used When                                      |
 | ----------------------------------- | ---------------- | --------------------------------------------------- |
 | $v = v_0 + at$                      | $x - x_0$        | You know initial velocity, acceleration, time       |
 | $x - x_0 = v_0 t + \frac{1}{2}at^2$ | $v$              | You know initial velocity, acceleration, time       |
 | $v^2 = v_0^2 + 2a(x - x_0)$         | $t$              | You know velocities and displacement                |
 | $x - x_0 = \frac{v_0 + v}{2}t$      | $a$              | You know velocities and time (uniform acceleration) |
+
+</div>
 
 ## Common Pitfalls: Extended
 
@@ -34118,12 +34850,16 @@ $$
 
 The four Maxwell's equations unify electricity and magnetism:
 
+<div class="table-wrap">
+
 | Equation                    | Law                                                           | Integral Form                                                                             |
 | --------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Gauss's Law for Electricity | Electric charges produce electric fields                      | $\oint \vec{E} \cdot d\vec{A} = \dfrac{Q_{\text{enc}}{\epsilon_0}$                        |
 | Gauss's Law for Magnetism   | No magnetic monopoles                                         | $\oint \vec{B} \cdot d\vec{A} = 0$                                                        |
 | Faraday's Law               | Changing magnetic fields produce electric fields              | $\oint \vec{E} \cdot d\vec{l} = -\dfrac{d\Phi_B}{dt}$                                     |
 | Ampere-Maxwell Law          | Currents and changing electric fields produce magnetic fields | $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc} + \mu_0\epsilon_0\dfrac{d\Phi_E}{dt}$ |
+
+</div>
 
 ### The Displacement Current
 
@@ -34572,11 +35308,15 @@ is approximately conserved during the collision even though the system is not Tr
 
 ### Types of Collisions
 
+<div class="table-wrap">
+
 | Type                | Momentum Conserved? | Kinetic Energy Conserved? |
 | ------------------- | ------------------- | ------------------------- |
 | Elastic             | Yes                 | Yes                       |
 | Inelastic           | Yes                 | No                        |
 | Perfectly Inelastic | Yes                 | No (maximum KE loss)      |
+
+</div>
 
 ### Coefficient of Restitution
 
@@ -35022,6 +35762,8 @@ Load.
 
 ## 15. Summary Table: Collision Types
 
+<div class="table-wrap">
+
 | Property                   | Elastic  | Inelastic       | Perfectly Inelastic  |
 | -------------------------- | -------- | --------------- | -------------------- |
 | Momentum conserved         | Yes      | Yes             | Yes                  |
@@ -35030,6 +35772,8 @@ Load.
 | Objects stick together     | No       | No              | Yes                  |
 | Coefficient of restitution | $e = 1$  | $0 \lt e \lt 1$ | $e = 0$              |
 | Relative velocity          | Reverses | Reduced         | Zero (same velocity) |
+
+</div>
 
 ## 16. Practice Questions (Additional)
 
@@ -35970,6 +36714,8 @@ circular Orbit: $\frac{1}{2}mv_e^2 = 2 \times \frac{1}{2}mv_{\mathrm{orbit}^2$.
 
 ## 14. Summary Table: Forces and Their Characteristics
 
+<div class="table-wrap">
+
 | Force            | Law                            | Direction                              | Depends On                          |
 | ---------------- | ------------------------------ | -------------------------------------- | ----------------------------------- |
 | Gravity          | $F = GMm/r^2$                  | Attractive, along line joining centres | Masses, separation                  |
@@ -35979,6 +36725,8 @@ circular Orbit: $\frac{1}{2}mv_e^2 = 2 \times \frac{1}{2}mv_{\mathrm{orbit}^2$.
 | Kinetic friction | $f_k = \mu_k N$                | Opposes motion                         | Normal force, coefficient           |
 | Spring           | $F = -kx$                      | Toward equilibrium position            | Displacement, spring constant       |
 | Drag             | $F_d \propto v^2$              | Opposes motion                         | Speed, cross-section, fluid density |
+
+</div>
 
 ## 15. Common Pitfalls: Extended
 
@@ -36381,11 +37129,15 @@ categories:
 
 ### Angular Quantities
 
+<div class="table-wrap">
+
 | Linear Quantity  | Angular Quantity              | Relation        |
 | ---------------- | ----------------------------- | --------------- |
 | Displacement $x$ | Angle $\theta$                | $x = r\theta$   |
 | Velocity $v$     | Angular velocity $\omega$     | $v = r\omega$   |
 | Acceleration $a$ | Angular acceleration $\alpha$ | $a_t = r\alpha$ |
+
+</div>
 
 ### Angular Velocity and Acceleration
 
@@ -36470,6 +37222,8 @@ Regardless of the direction of motion.
 
 ### Common Moments of Inertia
 
+<div class="table-wrap">
+
 | Object                          | Axis                         | Moment of Inertia  |
 | ------------------------------- | ---------------------------- | ------------------ |
 | Thin rod, length $L$ Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
@@ -36479,6 +37233,8 @@ Regardless of the direction of motion.
 | Solid sphere, radius $R$        | Diameter                     | $\frac{2}{5}MR^2$  |
 | Hollow sphere, radius $R$       | Diameter                     | $\frac{2}{3}MR^2$  |
 | Point mass $m$ at distance $r$  | --                           | $mr^2$             |
+
+</div>
 
 ### Derivation: Moment of Inertia of a Solid Cylinder
 
@@ -36852,12 +37608,16 @@ A solid sphere, a solid cylinder, a hollow sphere, and a hollow cylinder, all of
 $R$ Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
 Bottom.
 
+<div class="table-wrap">
+
 | Object          | $I_{\mathrm{cm}$  | $v$ at bottom   | Fraction as KE of translation |
 | --------------- | ----------------- | --------------- | ----------------------------- |
 | Solid sphere    | $\frac{2}{5}MR^2$ | $\sqrt{10gh/7}$ | $5/7 = 71\%$                  |
 | Solid cylinder  | $\frac{1}{2}MR^2$ | $\sqrt{4gh/3}$  | $2/3 = 67\%$                  |
 | Hollow sphere   | $\frac{2}{3}MR^2$ | $\sqrt{6gh/5}$  | $3/5 = 60\%$                  |
 | Hollow cylinder | $MR^2$            | $\sqrt{gh}$     | $1/2 = 50\%$                  |
+
+</div>
 
 Ranking (fastest to slowest): solid sphere, solid cylinder, hollow sphere, hollow cylinder. Objects
 with more mass concentrated near the rim (larger $I$) have more rotational KE and less translational
@@ -36976,6 +37736,8 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 
 ## 15. Summary Table: Linear vs Rotational Quantities
 
+<div class="table-wrap">
+
 | Linear                | Rotational                 | Relationship                                                 |
 | --------------------- | -------------------------- | ------------------------------------------------------------ |
 | $x$                   | $\theta$                   | $x = r\theta$                                                |
@@ -36987,6 +37749,8 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 | $K = \frac{1}{2}mv^2$ | $K = \frac{1}{2}I\omega^2$ | $K_{\mathrm{total} = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$ |
 | $F = ma$              | $\tau = I\alpha$           | Newton's second law for rotation                             |
 | $W = Fd$              | $W = \tau\theta$           | Work-energy theorem for rotation                             |
+
+</div>
 
 ## 16. Practice Questions (Additional)
 
@@ -37901,6 +38665,8 @@ Difficulty of climbing even a modest gradient.
 
 ## 15. Summary Table: Energy Forms and Equations
 
+<div class="table-wrap">
+
 | Energy Type                     | Formula                    | Key Notes                                       |
 | ------------------------------- | -------------------------- | ----------------------------------------------- |
 | Kinetic (translational)         | $K = \frac{1}{2}mv^2$      | Always positive; depends on speed, not velocity |
@@ -37910,6 +38676,8 @@ Difficulty of climbing even a modest gradient.
 | Elastic PE                      | $U_s = \frac{1}{2}kx^2$    | Requires Hooke's law to hold                    |
 | Total mechanical                | $E = K + U$                | Conserved when only conservative forces act     |
 | Work by non-conservative forces | $W_{nc} = \Delta E$        | Equals change in total mechanical energy        |
+
+</div>
 
 ## 16. Common Pitfalls: Extended
 
@@ -38947,11 +39715,15 @@ Alternatively, check whether $P(B | A) = P(B)$.
 
 ## Disjoint vs Independent
 
+<div class="table-wrap">
+
 | Property      | Disjoint (Mutually Exclusive) | Independent                                 |
 | ------------- | ----------------------------- | ------------------------------------------- |
 | Definition    | Cannot occur together         | Occurrence of one does not affect the other |
 | $P(A \cap B)$ | $0$                           | $P(A) \cdot P(B)$                           |
 | $P(A \cup B)$ | $P(A) + P(B)$                 | $P(A) + P(B) - P(A)P(B)$                    |
+
+</div>
 
 ## Bayes" Theorem
 
@@ -39649,10 +40421,14 @@ the observed value, **assuming $H_0$ is true**.
 
 ### Type I and Type II Errors
 
+<div class="table-wrap">
+
 | Decision             | $H_0$ True              | $H_0$ False                   |
 | -------------------- | ----------------------- | ----------------------------- |
 | Reject $H_0$         | Type I Error ($\alpha$) | Correct (Power = $1 - \beta$) |
 | Fail to Reject $H_0$ | Correct                 | Type II Error ($\beta$)       |
+
+</div>
 
 - **Type I Error**: Rejecting $H_0$ when it is actually true (false positive). Probability =
   $\alpha$

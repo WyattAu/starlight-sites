@@ -103,6 +103,8 @@ git commit -m "docs: update installation instructions"
 
 ### Why Atomic Commits Matter
 
+<div class="table-wrap">
+
 | Reason                  | Explanation                                                             |
 | ----------------------- | ----------------------------------------------------------------------- |
 | **Bisectability**       | `git bisect` can pinpoint the exact commit that introduced a bug        |
@@ -110,6 +112,8 @@ git commit -m "docs: update installation instructions"
 | **Reviewability**       | Reviewers can understand each change in isolation                       |
 | **Cherry-picking**      | Individual fixes can be cherry-picked to release branches               |
 | **History archaeology** | Future developers can understand _why_ each change was made             |
+
+</div>
 
 ### Staging Partial Changes
 

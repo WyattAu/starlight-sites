@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                       |
 | ---------- | ------- | ------------------------------------------- |
 | AQA        | Paper 1 | Simultaneous equations, inequalities        |
 | Edexcel    | P1      | Linear and quadratic simultaneous equations |
 | OCR (A)    | Paper 1 | Set notation for solutions                  |
 | CIE (9709) | P1      | Simultaneous equations, inequalities        |
+
+</div>
 
 ## 1. Linear Simultaneous Equations
 
@@ -191,11 +195,15 @@ Critical values: $x = 4$ (zero of numerator) and $x = -3$ (zero of denominator, 
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | $x - 4$ | $x + 3$ | Quotient |
 | ------------ | ------- | ------- | -------- |
 | $x < -3$     | $-$     | $-$     | $+$      |
 | $-3 < x < 4$ | $-$     | $+$     | $-$      |
 | $x > 4$      | $+$     | $+$     | $+$      |
+
+</div>
 
 The quotient is $\geq 0$ when $x < -3$ or $x \geq 4$.
 
@@ -642,12 +650,16 @@ Critical values: $x = -5, -1, 1$.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval      | $x + 5$ | $x - 1$ | $x + 1$ | Quotient |
 | ------------- | ------- | ------- | ------- | -------- |
 | $x < -5$      | $-$     | $-$     | $-$     | $-$      |
 | $-5 < x < -1$ | $+$     | $-$     | $-$     | $+$      |
 | $-1 < x < 1$  | $+$     | $-$     | $+$     | $-$      |
 | $x > 1$       | $+$     | $+$     | $+$     | $+$      |
+
+</div>
 
 Solution: $-5 < x < -1$ or $x > 1$.
 
@@ -717,11 +729,15 @@ Critical values: $x = 0$, $x = 2$.
 
 Sign chart for $x(x - 2)$:
 
+<div class="table-wrap">
+
 | Interval    | $x$ | $x - 2$ | Product |
 | ----------- | --- | ------- | ------- |
 | $x < 0$     | $-$ | $-$     | $+$     |
 | $0 < x < 2$ | $+$ | $-$     | $-$     |
 | $x > 2$     | $+$ | $+$     | $+$     |
+
+</div>
 
 So $\frac{2}{x(x-2)} \geq 0$ when $x < 0$ or $x > 2$.
 

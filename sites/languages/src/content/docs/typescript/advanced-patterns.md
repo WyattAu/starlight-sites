@@ -49,12 +49,16 @@ type Result = (string | number)[];
 
 ### Distribution Rules Summary
 
+<div class="table-wrap">
+
 | Form                                                    | Distributes?    |
 | ------------------------------------------------------- | --------------- |
 | `T extends U ? X : Y`                                   | Yes (naked `T`) |
 | `[T] extends [U] ? X : Y`                               | No              |
 | `T extends U ? X : Y` where `T` is not a type parameter | No              |
 | `(T & {}) extends U ? X : Y`                            | No              |
+
+</div>
 
 ## Recursive Types
 

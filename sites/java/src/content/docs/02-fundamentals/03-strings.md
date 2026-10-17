@@ -106,12 +106,16 @@ Encoding is used; it is determined automatically at construction time.
 
 ### Performance Characteristics
 
+<div class="table-wrap">
+
 | Operation          | `String`                       | `StringBuilder`                  | `StringBuffer`                |
 | ------------------ | ------------------------------ | -------------------------------- | ----------------------------- |
 | Mutability         | Immutable                      | Mutable                          | Mutable                       |
 | Thread safety      | N/A (immutable)                | Not thread-safe                  | Synchronized (thread-safe)    |
 | Append performance | O(n) per append (copies array) | Amortized O(1)                   | Amortized O(1) + sync cost    |
 | Memory overhead    | New object per operation       | Single buffer, resizes as needed | Single buffer + sync overhead |
+
+</div>
 
 ### When to Use Each
 
@@ -358,6 +362,8 @@ while (matcher.find()) {
 
 ### Predefined Character Classes
 
+<div class="table-wrap">
+
 | Expression | Meaning                                 |
 | ---------- | --------------------------------------- |
 | `.`        | Any character (except line terminators) |
@@ -368,7 +374,11 @@ while (matcher.find()) {
 | `\w`       | Word character `[a-zA-Z_0-9]`           |
 | `\W`       | Non-word character                      |
 
+</div>
+
 ### Quantifiers
+
+<div class="table-wrap">
 
 | Quantifier   | Greedy   | Reluctant | Possessive | Meaning |
 | ------------ | -------- | --------- | ---------- | ------- |
@@ -377,6 +387,8 @@ while (matcher.find()) {
 | One or more  | `X+`     | `X+?`     | `X++`      |         |
 | Exactly n    | `X{n}`   | `X{n}?`   | `X{n}+`    |         |
 | n to m       | `X{n,m}` | `X{n,m}?` | `X{n,m}+`  |         |
+
+</div>
 
 ### Common Patterns
 
@@ -427,6 +439,8 @@ public boolean isValidEmail(String input) {
 
 ### UTF-8, UTF-16, and ISO-8859-1
 
+<div class="table-wrap">
+
 | Encoding   | Variable width | Bytes per char (typical) | Notes                        |
 | ---------- | -------------- | ------------------------ | ---------------------------- |
 | UTF-8      | Yes            | 1-4                      | Dominant on the web, wire    |
@@ -434,6 +448,8 @@ public boolean isValidEmail(String input) {
 | UTF-32     | No             | 4                        | Fixed width, memory-heavy    |
 | ISO-8859-1 | No             | 1                        | Latin-1, lossy for non-Latin |
 | ASCII      | No             | 1                        | Subset of UTF-8 and Latin-1  |
+
+</div>
 
 Java's `String` stores text as UTF-16 code units internally. When converting to/from bytes (for I/O,
 Network, storage), you must specify the charset.
@@ -490,6 +506,8 @@ String s = String.format("Name: %s, Age: %d, Balance: $%,.2f", "Alice", 30, 1234
 // "Name: Alice, Age: 30, Balance: $12,345.68"
 ```
 
+<div class="table-wrap">
+
 | Specifier | Meaning                          | Example                 |
 | --------- | -------------------------------- | ----------------------- |
 | `%s`      | String                           | `"hello"`               |
@@ -505,6 +523,8 @@ String s = String.format("Name: %s, Age: %d, Balance: $%,.2f", "Alice", 30, 1234
 | `%20s`    | Right-pad string to width 20     | `"              hello"` |
 | `%-20s`   | Left-pad string to width 20      | `"hello              "` |
 | `%05d`    | Zero-pad integer to width 5      | `00042`                 |
+
+</div>
 
 ### `MessageFormat`
 
@@ -681,12 +701,16 @@ String b = Normalizer.normalize(input2, Normalizer.Form.NFC);
 boolean equal = a.equals(b);
 ```
 
+<div class="table-wrap">
+
 | Form | Description                 | Use case                         |
 | ---- | --------------------------- | -------------------------------- |
 | NFC  | Canonical composition       | Default for most text processing |
 | NFD  | Canonical decomposition     | Searching, sorting, comparison   |
 | NFKC | Compatibility composition   | Fuzzy matching                   |
 | NFKD | Compatibility decomposition | Stripping diacritics             |
+
+</div>
 
 ### Stripping Diacritics
 

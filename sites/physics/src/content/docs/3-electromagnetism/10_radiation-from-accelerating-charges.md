@@ -197,7 +197,7 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 - [Potentials and Gauge Transformations](/3-electromagnetism/6_potentials-and-gauge-transformations/) -- The Liénard-Wiechert potentials are the retarded solutions to the wave equations for potentials derived in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Intuition

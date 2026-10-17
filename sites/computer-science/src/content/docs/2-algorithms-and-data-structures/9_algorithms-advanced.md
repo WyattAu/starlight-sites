@@ -301,6 +301,8 @@ considers both cases. $\blacksquare$
 
 Intervals (already sorted by finish time):
 
+<div class="table-wrap">
+
 | $i$ | $s_i$ | $f_i$ | $w_i$ |
 | --- | ----- | ----- | ----- |
 | 1   | 0     | 3     | 5     |
@@ -309,6 +311,8 @@ Intervals (already sorted by finish time):
 | 4   | 4     | 7     | 4     |
 | 5   | 6     | 9     | 3     |
 | 6   | 7     | 10    | 7     |
+
+</div>
 
 Compute $p(j)$ using binary search:
 
@@ -1066,6 +1070,8 @@ $\blacksquare$
 
 ### 9.3 Common NP-Complete Problems and Reductions
 
+<div class="table-wrap">
+
 | Problem             | Reduction from    |
 | ------------------- | ----------------- |
 | 3-SAT               | Circuit SAT       |
@@ -1077,6 +1083,8 @@ $\blacksquare$
 | Graph Colouring     | 3-SAT             |
 | Set Cover           | Vertex Cover      |
 | Knapsack (decision) | Subset Sum        |
+
+</div>
 
 **Theorem 9.3.** 3-SAT is NP-complete.
 
@@ -1171,12 +1179,16 @@ satisfies: $x \in A \iff f(x) \in B$ And $f$ is computable in polynomial time.
 
 **Types of reductions:**
 
+<div class="table-wrap">
+
 | Type                          | Formalism                                                | Power                        |
 | ----------------------------- | -------------------------------------------------------- | ---------------------------- |
 | Many-one (Karp)               | $A \leq_p B$: computable function                        | Standard for NP-completeness |
 | Turing                        | $A$ decidable by polynomial-time machine with $B$ oracle | Stronger than many-one       |
 | Log-space                     | Reduction computable in $O(\log n)$ space                | Weaker; preserves NL         |
 | AP (approximation-preserving) | $A \leq_{AP} B$: preserves approximation ratio           | For inapproximability        |
+
+</div>
 
 ## 10. Advanced Dynamic Programming (Continued)
 

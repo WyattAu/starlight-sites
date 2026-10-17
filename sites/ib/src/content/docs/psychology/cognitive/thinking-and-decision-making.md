@@ -135,12 +135,16 @@ Contributes to overconfidence in judgment.
 
 ### Other Important Biases
 
+<div class="table-wrap">
+
 | Bias                | Description                                                                               | Example                                                                                                          |
 | ------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Overconfidence bias | Tendency to overestimate the accuracy of one's judgments                                  | People consistently rate their judgments as more accurate than they actually are                                 |
 | Belief perseverance | Tendency to maintain beliefs even after the evidence supporting them has been discredited | Participants who were debriefed about a fabricated study still showed the belief it induced                      |
 | Framing effect      | Different presentations of the same information lead to different choices                 | People prefer a medical treatment described as having a "90% survival rate" over one with a "10% mortality rate" |
 | Sunk cost fallacy   | Tendency to continue investing in a losing course of action because of prior investment   | Continuing to watch a bad film because you have already paid for the ticket                                      |
+
+</div>
 
 ## Dual-Process Theories
 

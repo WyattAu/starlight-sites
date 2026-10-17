@@ -233,6 +233,8 @@ Version control and never edited manually.
 
 ## Where Go Runs
 
+<div class="table-wrap">
+
 | Target                               | Use Case                   |
 | ------------------------------------ | -------------------------- |
 | **Linux** (amd64, arm64)             | Servers, containers, cloud |
@@ -241,6 +243,8 @@ Version control and never edited manually.
 | **WebAssembly** (wasm)               | Browser, edge computing    |
 | **FreeBSD/OpenBSD**                  | Networking, infrastructure |
 | **Embedded** (GOOS=linux GOARCH=arm) | IoT, routers, ARM devices  |
+
+</div>
 
 ## Common Pitfalls
 

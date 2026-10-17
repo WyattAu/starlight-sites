@@ -233,11 +233,15 @@ Objects with long-lived `weak_ptr` observers, this can delay deallocation.
 
 Consider a managed object of size $N$ bytes on x86_64:
 
+<div class="table-wrap">
+
 | Strategy            | Heap Allocations | Total Bytes Allocated   | `malloc`/`free` Calls | `weak_ptr` Delay                      |
 | :------------------ | :--------------- | :---------------------- | :-------------------- | :------------------------------------ |
 | `make_shared`       | 1                | $32 + N$ (rounded up)   | 1 alloc, 1 free       | Yes: full block held                  |
 | `shared_ptr(new T)` | 2                | $16 + 8 + N$ (separate) | 2 allocs, 2 frees     | No: control block freed independently |
 | `allocate_shared`   | 1                | Implementation-defined  | 1 alloc, 1 free       | Yes: full block held                  |
+
+</div>
 
 The "weak_ptr delay" column is the critical tradeoff. With `make_shared`. The object memory and the
 32-byte control block are in a single allocation. Even after `strong_count` reaches 0 and the object
@@ -256,11 +260,15 @@ Deleter for very large objects that may be observed by long-lived `weak_ptr` ins
 
 `shared_ptr` provides a subtle and often misunderstood thread safety guarantee:
 
+<div class="table-wrap">
+
 | Operation                                             | Thread-Safe?                                       |
 | :---------------------------------------------------- | :------------------------------------------------- |
 | Copying a `shared_ptr` (incrementing `strong_count`)  | Yes, atomic                                       |
 | Destroying/resetting a `shared_ptr`                   | Yes, atomic                                       |
 | Accessing the **pointed-to object** via `*p` or `p->` | **No**, you must provide your own synchronization |
+
+</div>
 
 The control block"s reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
 This means you can safely copy `shared_ptr` instances between threads. But the **object itself** is
@@ -514,12 +522,16 @@ Reason.
 
 ## 3.8 `sizeof(shared_ptr)` Across Implementations
 
+<div class="table-wrap">
+
 | Implementation                | `sizeof(shared_ptr&lt;T&gt;)` | Notes              |
 | ----------------------------- | ----------------------------- | ------------------ |
 | libstdc++ (GCC)               | 16 bytes                      | Two raw pointers   |
 | libc++ (Clang)                | 16 bytes                      | Two raw pointers   |
 | MSVC STL                      | 16 bytes                      | Two raw pointers   |
 | `sizeof(unique_ptr&lt;T&gt;)` | 8 bytes                       | Single raw pointer |
+
+</div>
 
 `shared_ptr` is always twice the size of `unique_ptr` due to the extra control block pointer. This
 Matters in memory-constrained applications or when storing many pointers in containers.
@@ -693,6 +705,8 @@ Wrong object or dereference a dangling pointer.
 
 ## 3.12 Comparison: `shared_ptr` vs `unique_ptr`
 
+<div class="table-wrap">
+
 | Property                     | `unique_ptr&lt;T, D&gt;`                        | `shared_ptr&lt;T&gt;`                         |
 | :--------------------------- | :---------------------------------------------- | :-------------------------------------------- |
 | Ownership                    | Exclusive (single owner)                        | Shared (multiple owners)                      |
@@ -705,6 +719,8 @@ Wrong object or dereference a dangling pointer.
 | `make_*` factory             | `make_unique` (C++14)                           | `make_shared``allocate_shared`                |
 | Custom deleter compile check | Yes (type mismatch is compile error)            | No (type-erased, runtime mismatch)            |
 | Array support                | `unique_ptr&lt;T[]&gt;` with correct `delete[]` | Requires explicit `default_delete&lt;T[]&gt;` |
+
+</div>
 
 **Decision rule:** Use `unique_ptr` as the default. Promote to `shared_ptr` only when the ownership
 Graph genuinely requires multiple owners with non-deterministic lifetime order. The performance and

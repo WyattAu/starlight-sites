@@ -58,6 +58,8 @@ Context switch for kernel-internal operations.
 
 Key subsystems:
 
+<div class="table-wrap">
+
 | Subsystem             | Responsibility                                         |
 | --------------------- | ------------------------------------------------------ |
 | **Process Scheduler** | CFS (Completely Fair Scheduler), real-time scheduling  |
@@ -67,6 +69,8 @@ Key subsystems:
 | **Device Model**      | `sysfs``udev`Driver model, `kobject` hierarchy         |
 | **IPC**               | Pipes, shared memory, signals, `epoll``eventfd`        |
 | **Security**          | SELinux, AppArmor, capabilities, seccomp, audit        |
+
+</div>
 
 ## Distribution Families
 
@@ -91,6 +95,8 @@ graph LR
     S[Gentoo] --> T[Source-based]
 ```
 
+<div class="table-wrap">
+
 | Family  | Package Format | Package Manager | Init System | Typical Use Case              |
 | ------- | -------------- | --------------- | ----------- | ----------------------------- |
 | Debian  | `.deb`         | APT             | systemd     | Servers, desktops, containers |
@@ -98,6 +104,8 @@ graph LR
 | Arch    | `.pkg.tar.zst` | pacman          | systemd     | Power users, rolling release  |
 | Alpine  | `.apk`         | apk             | OpenRC      | Docker containers             |
 | SUSE    | `.rpm`         | zypper          | systemd     | Enterprise, SAP workloads     |
+
+</div>
 
 ## Why This Matters for Systems Engineers
 

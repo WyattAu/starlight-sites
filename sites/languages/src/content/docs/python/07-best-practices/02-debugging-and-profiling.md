@@ -84,6 +84,8 @@ Inline `breakpoint()` calls placed inside functions.
 
 These commands form the irreducible set you need to operate effectively:
 
+<div class="table-wrap">
+
 | Command   | Action       | What It Actually Does                                                                                                                          |
 | --------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | `n`       | Next         | Execute the current line, step over any function calls. Advances to the next line in the _current_ frame.                                      |
@@ -99,6 +101,8 @@ These commands form the irreducible set you need to operate effectively:
 | `q`       | Quit         | Terminate the program immediately. No cleanup, no finally blocks.                                                                              |
 | `r`       | Return       | Continue execution until the current function returns. Stops at the return statement.                                                          |
 | `args`    | Arguments    | Print the argument list and current values for the current function.                                                                           |
+
+</div>
 
 The distinction between `n` and `s` is the single most important concept in pdb. `n` advances the
 Line pointer in the current frame and runs the line to completion. If the line contains a function
@@ -426,6 +430,8 @@ Key design decisions in this code:
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level      | Numeric Value | When to Use                                                                                                                                                                                    |
 | ---------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `DEBUG`    | 10            | Detailed diagnostic information. Variable values, control flow, internal state. Only enabled during active debugging or in development environments.                                           |
@@ -433,6 +439,8 @@ Key design decisions in this code:
 | `WARNING`  | 30            | Something unexpected happened, or an indication of a problem in the near future. Deprecation warning, retry attempt, fallback to secondary path. The default level if no configuration is set. |
 | `ERROR`    | 40            | A serious problem. The current operation failed. An HTTP request returned 500, a database query raised an exception, a file could not be parsed.                                               |
 | `CRITICAL` | 50            | A fatal error. The process cannot continue. Out of memory, database connection permanently lost, unrecoverable corruption.                                                                     |
+
+</div>
 
 The numeric values are not arbitrary. They define a total ordering: DEBUG &lt; INFO &lt; WARNING
 &lt; ERROR &lt; CRITICAL. A logger set to WARNING level will emit WARNING, ERROR, and CRITICAL
@@ -633,12 +641,16 @@ python -m cProfile -s sort=time script.py
 This runs `script.py` under cProfile and prints a sorted table of function calls at exit. The `-s`
 Flag controls the sort key:
 
+<div class="table-wrap">
+
 | Sort Key     | What It Measures                                                                                                                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `cumulative` | Total time spent in a function including all functions it calls. This is the default. Use this to find the hot path, the function whose total cost (including callees) is highest. |
 | `tottime`    | Time spent in a function itself, excluding callees. Use this to find the function where the CPU is actually doing work, not just dispatching to other functions.                    |
 | `calls`      | Number of calls. Use this to find functions called surprisingly many times.                                                                                                         |
 | `time`       | Alias for `cumulative`.                                                                                                                                                             |
+
+</div>
 
 ### Programmatic API
 

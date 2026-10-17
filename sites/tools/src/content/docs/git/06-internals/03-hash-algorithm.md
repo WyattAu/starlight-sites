@@ -30,12 +30,16 @@ Hash, producing a $2^{160}$ address space.
 
 ### SHA-1 Properties
 
+<div class="table-wrap">
+
 | Property             | Value                                       |
 | -------------------- | ------------------------------------------- |
 | Output size          | 160 bits (20 bytes, 40 hex characters)      |
 | Collision resistance | $2^{80}$ (theoretical), broken in practice |
 | Preimage resistance  | $2^{160}$ (unbroken)                        |
 | Speed                | Fast (hardware-accelerated on modern CPUs)  |
+
+</div>
 
 ### The SHA-1 Collision Problem
 
@@ -78,6 +82,8 @@ $ git config core.repositoryFormatVersion
 
 ### SHA-256 Properties
 
+<div class="table-wrap">
+
 | Property             | SHA-1              | SHA-256                     |
 | -------------------- | ------------------ | --------------------------- |
 | Output size          | 160 bits           | 256 bits                    |
@@ -85,6 +91,8 @@ $ git config core.repositoryFormatVersion
 | Preimage resistance  | $2^{160}$ (secure) | $2^{256}$ (secure)          |
 | Hash length          | 40 hex chars       | 64 hex chars                |
 | Speed                | Faster             | $\sim$20% slower (software) |
+
+</div>
 
 ### Migration Challenges
 
@@ -150,6 +158,8 @@ If you are concerned about collision attacks:
 Git's choice of content-addressable storage (CAS) is fundamental to its design. The implications are
 Far-reaching:
 
+<div class="table-wrap">
+
 | Property                  | Benefit                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------- |
 | **Deduplication**         | Identical files across commits produce one blob object                        |
@@ -157,6 +167,8 @@ Far-reaching:
 | **Distributed consensus** | Two developers can independently verify they have the same object             |
 | **Deterministic builds**  | A commit hash uniquely identifies a project state                             |
 | **Garbage collection**    | Unreachable objects can be safely deleted without affecting reachable objects |
+
+</div>
 
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
 Large binary files, databases). This is why Git LFS exists, it stores the large file content

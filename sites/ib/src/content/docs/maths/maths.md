@@ -389,12 +389,16 @@ Algorithms.
 
 ## Assessment Overview
 
+<div class="table-wrap">
+
 | Component   | Description                                                                                                                                           | Weighting          |
 | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
 | **Paper 1** | Non-calculator paper. Short-response and extended-response questions covering the full syllabus. Duration: 1.5h (SL), 2h (HL).                        | 40% (SL), 30% (HL) |
 | **Paper 2** | Graphical display calculator (GDC) required. Short-response and extended-response questions covering the full syllabus. Duration: 1.5h (SL), 2h (HL). | 40% (SL), 30% (HL) |
 | **Paper 3** | HL only. Extended-response problem-solving questions focusing on the HL extension material. Duration: 1h.                                             | 20% (HL)           |
 | **IA**      | Internal Assessment -- a mathematical exploration on a topic of the student's choosing, up to 12--20 pages.                                           | 20% (SL), 20% (HL) |
+
+</div>
 
 ---
 
@@ -640,6 +644,8 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 
 ### Algebra
 
+<div class="table-wrap">
+
 | Mistake                                        | Correction                                        |
 | :--------------------------------------------- | :------------------------------------------------ |
 | $\sqrt{a^2 + b^2} = a + b$                     | $\sqrt{a^2 + b^2} \neq a + b$                     |
@@ -648,7 +654,11 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | $\ln(a+b) = \ln a + \ln b$                     | $\ln(ab) = \ln a + \ln b$ (product, not sum)      |
 | Forgetting $+C$ in indefinite integrals        | Always include the constant of integration        |
 
+</div>
+
 ### Calculus
+
+<div class="table-wrap">
 
 | Mistake                                                       | Correction                                                |
 | :------------------------------------------------------------ | :-------------------------------------------------------- |
@@ -658,7 +668,11 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | Confusing $\dfrac{d}{dx}(\sin x)$ and $\dfrac{d}{dx}(\cos x)$ | $\sin x \to \cos x$; $\cos x \to -\sin x$                 |
 | Definite integral sign errors                                 | $\displaystyle\int_a^b = F(b) - F(a)$ (upper minus lower) |
 
+</div>
+
 ### Trigonometry
+
+<div class="table-wrap">
 
 | Mistake                        | Correction                                                          |
 | :----------------------------- | :------------------------------------------------------------------ |
@@ -666,13 +680,19 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 | Forgetting domain restrictions | $\sin x = 0.5$ has infinitely many solutions; state the range asked |
 | Radians vs degrees             | Check what the question specifies; default to radians               |
 
+</div>
+
 ### Probability and Statistics
+
+<div class="table-wrap">
 
 | Mistake                                    | Correction                                                                      |
 | :----------------------------------------- | :------------------------------------------------------------------------------ |
 | $P(A \mathrm{ or } B) = P(A) + P(B)$       | Only if mutually exclusive; otherwise $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ |
 | $P(A \mathrm{ and } B) = P(A) \times P(B)$ | Only if independent; otherwise use conditional probability                      |
 | Confusing $\mu$ and $\bar{x}$              | $\mu$ is the population mean; $\bar{x}$ is the sample mean                      |
+
+</div>
 
 ---
 

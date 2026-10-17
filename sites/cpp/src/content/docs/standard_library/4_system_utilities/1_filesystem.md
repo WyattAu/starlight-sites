@@ -133,10 +133,14 @@ the true absolute path.
 
 The library provides two directory iterators [N4950 §30.10.11]:
 
+<div class="table-wrap">
+
 | Iterator                           | Behavior                                            |
 | :--------------------------------- | :-------------------------------------------------- |
 | `fs::directory_iterator`           | Iterates over the immediate children of a directory |
 | `fs::recursive_directory_iterator` | Iterates over all descendants recursively           |
+
+</div>
 
 Both are input iterators and follow the RAII pattern, they close the directory handle in their
 Destructor.
@@ -236,6 +240,8 @@ like `/home` or `/tmp` where some subdirectories may have restricted permissions
 The `std::filesystem` namespace provides free functions for common file operations [N4950
 §30.10.14]:
 
+<div class="table-wrap">
+
 | Function                           | Purpose                                         |
 | :--------------------------------- | :---------------------------------------------- |
 | `fs::copy(src, dst, options)`      | Copy files or directories                       |
@@ -251,6 +257,8 @@ The `std::filesystem` namespace provides free functions for common file operatio
 | `fs::create_directories(path)`     | Create directory tree (like `mkdir -p`)         |
 | `fs::current_path()`               | Get/set the current working directory           |
 | `fs::temp_directory_path()`        | Get the system temp directory                   |
+
+</div>
 
 ```cpp
 #include <filesystem>
@@ -382,12 +390,16 @@ void permissions_demo(const fs::path& file) {
 }
 ```
 
+<div class="table-wrap">
+
 | `fs::perm_options` | Effect                                                |
 | :----------------- | :---------------------------------------------------- |
 | `replace`          | Replace current permissions with the given bitmask    |
 | `add`              | Add the given permission bits to the current set      |
 | `remove`           | Remove the given permission bits from the current set |
 | `nofollow`         | Do not follow symlinks (applicable on POSIX)          |
+
+</div>
 
 :::caution
 Permissions are not supported. The `owner_exec` permission is not meaningful on Windows.

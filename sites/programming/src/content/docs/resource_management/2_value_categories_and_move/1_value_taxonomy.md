@@ -66,11 +66,15 @@ The xvalue category occupies the intersection, it is both a glvalue (it has iden
 
 ## 1.3 Historical Evolution
 
+<div class="table-wrap">
+
 | Standard | Model         | Categories                               | Key Change                                              |
 | :------- | :------------ | :--------------------------------------- | :------------------------------------------------------ |
 | C++98/03 | Two-valued    | lvalue, rvalue                           | Simpler model; no move semantics                        |
 | C++11/14 | Five-valued   | lvalue, xvalue, prvalue, glvalue, rvalue | Move semantics, rvalue references introduced            |
 | C++17    | Three primary | lvalue, xvalue, prvalue                  | Guaranteed copy elision; prvalues are no longer objects |
+
+</div>
 
 C++98 distinguished only lvalues (things you can take the address of) and rvalues (everything else).
 C++11 introduced move semantics, requiring the xvalue category to represent "things that have
@@ -177,11 +181,15 @@ int main() {
 
 ## 2.4 Summary Table
 
+<div class="table-wrap">
+
 | Category | Has Identity? | Can Move From? | Typical Examples                                                             |
 | :------- | :------------ | :------------- | :--------------------------------------------------------------------------- |
 | lvalue   | Yes           | No             | named variables, `*ptr`String literals, `arr[i]`                             |
 | xvalue   | Yes           | Yes            | `std::move(x)``std::forward<T>(x)``return std::move(local);` (member access) |
 | prvalue  | No            | Yes            | `42``3.14``f()` (by-value return), `int{7}``a + b`                           |
+
+</div>
 
 :::note
 With reference qualifiers preserved, which is how the `static_assert` tests above work. Without the
@@ -232,17 +240,23 @@ $$
 
 ### Formal Definitions [N4950 S7.2.1]
 
+<div class="table-wrap">
+
 | Primary Category | Formal Definition                                                                                                                                                          |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **lvalue**       | An expression that designates a function or an object [N4950 S7.2.1]. Example: a variable name, dereferenced pointer, array subscript, string literal.                     |
 | **xvalue**       | An expression that designates an object whose resources can be reused ( near end of lifetime) [N4950 S7.2.1]. Example: result of `std::move(x)`Member of rvalue reference. |
 | **prvalue**      | An expression that initializes an object or computes a value, has no identity [N4950 S7.2.1]. Example: literal, arithmetic result, by-value function return.               |
 
+</div>
+
 ### Value Category Matrix
 
 The following matrix shows how common expression forms are classified. Each entry maps an expression
 Form to its primary value category, the `decltype` of the expression, and the references it can bind
 to:
+
+<div class="table-wrap">
 
 | Expression            | Category | `decltype((e))`              | Binds to `T&`? | Binds to `T&&`? | Binds to `const T&`? |
 | :-------------------- | :------- | :--------------------------- | :------------- | :-------------- | :------------------- |
@@ -256,6 +270,8 @@ to:
 | `arr[i]`              | lvalue   | `int&`                       | Yes            | No              | Yes                  |
 | `std::move(s).member` | xvalue   | `int&&` (if member is `int`) | No             | Yes             | Yes                  |
 
+</div>
+
 **Key observations:**
 
 - Non-const lvalues are the only expressions that bind to non-const lvalue references (`T&`).
@@ -268,6 +284,8 @@ to:
 The `decltype` specifier behaves differently depending on the value category of its argument. This
 is critical for understanding template metaprogramming and SFINAE constraints.
 
+<div class="table-wrap">
+
 | Expression `e`             | `decltype(e)` | `decltype((e))`               | Explanation                           |
 | :------------------------- | :------------ | :---------------------------- | :------------------------------------ |
 | `int x = 42;``x`        | `int`         | `int&` (lvalue reference)     | `decltype(e)` gives declared type     |
@@ -276,6 +294,8 @@ is critical for understanding template metaprogramming and SFINAE constraints.
 | `std::move(x)`             | `int&&`       | `int&&` (xvalue reference)    | rvalue reference                      |
 | `42`                       | `int`         | `int` (prvalue, no reference) | Prvalues have no reference qualifier  |
 | `f()` (returns `int`)      | `int`         | `int` (prvalue)               | Function return is prvalue            |
+
+</div>
 
 The key rule: `decltype((e))` (with extra parentheses) yields the type of the **expression**, which
 Includes reference qualifiers. `decltype(e)` (without extra parentheses) yields the **declared type
@@ -328,11 +348,15 @@ Reference collapsing occurs during template argument deduction and `typedef`/`us
 Formation. When a reference to a reference is formed, the references **collapse** according to these
 Rules [N4950 S11.3.2]:
 
+<div class="table-wrap">
+
 | Template Argument `T` | Reference Type `T&` | Reference Type `T&&` |
 | :-------------------- | :------------------ | :------------------- |
 | `int`                 | `int&`              | `int&&`              |
 | `int&`                | `int&`              | `int&`               |
 | `int&&`               | `int&`              | `int&&`              |
+
+</div>
 
 The rules are:
 
@@ -534,12 +558,16 @@ When `T` is a deduced template parameter, `T&&` is a **forwarding reference** (a
 "universal reference" in pre-standard terminology). The deduction rules are special [N4950
 S13.3.3.1.3]:
 
+<div class="table-wrap">
+
 | Argument Type      | `T` Deduced As | `T&&` After Collapsing |
 | :----------------- | :------------- | :--------------------- |
 | `int` lvalue       | `int&`         | `int&`                 |
 | `const int` lvalue | `const int&`   | `const int&`           |
 | `int` rvalue       | `int`          | `int&&`                |
 | `const int` rvalue | `const int`    | `const int&&`          |
+
+</div>
 
 ### When Is `T&&` a Forwarding Reference?
 

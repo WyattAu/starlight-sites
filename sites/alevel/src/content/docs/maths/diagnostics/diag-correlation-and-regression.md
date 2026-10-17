@@ -32,9 +32,13 @@ tableOfContents: false
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
 
+<div class="table-wrap">
+
 | Income ($x$ In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- |
 | Savings ($y$ In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+
+</div>
 
 **(a)** Calculate the product moment correlation coefficient (PMCC) for this data.
 
@@ -118,6 +122,8 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 
 **(c)** Ranking the data:
 
+<div class="table-wrap">
+
 | $x$ | Rank $R_x$ | $y$ | Rank $R_y$ | $d = R_x - R_y$ | $d^2$ |
 | --- | ---------- | --- | ---------- | --------------- | ----- |
 | 15  | 1          | 3   | 1          | 0               | 0     |
@@ -127,6 +133,8 @@ The factors of $a$ and $c$ cancel out completely, so the PMCC is unchanged by sc
 | 42  | 5          | 22  | 5          | 0               | 0     |
 | 55  | 6          | 35  | 6          | 0               | 0     |
 | 68  | 7          | 48  | 7          | 0               | 0     |
+
+</div>
 
 $$
 \sum d^2 = 0
@@ -290,9 +298,13 @@ A teacher believes there is a linear relationship between the number of hours a 
 ($h$) and their exam score ($s$). She collects data for 10 students and fits the regression line
 $s = 12.5h + 28$. The residuals are:
 
+<div class="table-wrap">
+
 | $h$      | 1    | 2    | 3   | 4   | 5   | 6   | 7   | 8    | 9    | 10  |
 | -------- | ---- | ---- | --- | --- | --- | --- | --- | ---- | ---- | --- |
 | Residual | $-8$ | $-3$ | $1$ | $2$ | $3$ | $4$ | $2$ | $-1$ | $-5$ | $5$ |
+
+</div>
 
 **(a)** Verify that the sum of the residuals is zero, and explain why this must always be the case
 for a least squares regression line.
@@ -628,9 +640,13 @@ The probability is approximately 0.159 (15.9%).
 The data below shows the temperature ($T$ In $^\circ$ C) and ice cream sales ($S$ In $\pounds$) at a
 shop on 8 days:
 
+<div class="table-wrap">
+
 | $T$ | 12  | 15  | 18  | 20  | 22  | 25  | 28  | 30  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | $S$ | 45  | 80  | 120 | 150 | 170 | 250 | 310 | 50  |
+
+</div>
 
 The regression line of $S$ on $T$ is $S = 12.34T - 102.9$ with PMCC $r = 0.893$.
 
@@ -655,6 +671,8 @@ evaluation of outlier removal.]
 
 **(a)** Calculating residuals from $S = 12.34T - 102.9$:
 
+<div class="table-wrap">
+
 | $T$ | $S$ (observed) | $S$ (predicted) | Residual |
 | --- | -------------- | --------------- | -------- |
 | 12  | 45             | 45.2            | $-0.2$   |
@@ -665,6 +683,8 @@ evaluation of outlier removal.]
 | 25  | 250            | 205.6           | 44.4     |
 | 28  | 310            | 242.7           | 67.3     |
 | 30  | 50             | 267.3           | $-217.3$ |
+
+</div>
 
 The residual for $T = 30$ is $-217.3$ Which is enormously negative. The predicted sales for
 $T = 30^\circ$ C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is

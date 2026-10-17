@@ -22,12 +22,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                                 |
 | ---------- | ------- | ----------------------------------------------------- |
 | AQA        | Paper 1 | Newton's laws, friction, connected particles          |
 | Edexcel    | P1      | Similar                                               |
 | OCR (A)    | Paper 1 | Includes inclined planes                              |
 | CIE (9709) | P1, P4  | Forces in P1; connected bodies, inclined planes in P4 |
+
+</div>
 
 :::note
 Diagram determines the quality of your solution.
@@ -228,12 +232,16 @@ A valid Third Law pair must satisfy **all** of the following criteria:
 ### 7.3 Common misconceptions
 
 > **Caution:** The following are **not** Newton's Third Law pairs:
+<div class="table-wrap">
+
 | Situation             | Incorrect Pair (NOT Third Law)                | Why It Fails                                            | Correct Third Law Pair                               |
 | --------------------- | --------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
 | Book on a table       | Weight and normal reaction                    | Both act on the book                                    | Weight of book / gravitational pull of book on Earth |
 | Person pushing a wall | Person's push on wall / wall's push on person | This IS a valid pair if different bodies are identified | Push of hand on wall / push of wall on hand          |
 | Car accelerating      | Driving force and friction                    | These are not the same type of force                    | Tyre pushes road backward / road pushes tyre forward |
 | Satellite in orbit    | Weight and centripetal force                  | Both act on the satellite                               | Earth pulls satellite / satellite pulls Earth        |
+
+</div>
 
 ### 7.4 Worked example: identifying pairs
 

@@ -102,12 +102,16 @@ $$
 \mathrm{dispatch cost = 1 \mathrm{ memory load (vptr) + 1 \mathrm{ indexed load (function pointer) + 1 \mathrm{ indirect call
 $$
 
+<div class="table-wrap">
+
 | Component  | Description                                                 |
 | ---------- | ----------------------------------------------------------- |
 | **vtable** | Static array of function pointers; one per class            |
 | **vptr**   | Hidden pointer in each object; points to the class's vtable |
 | **Slot**   | Each virtual function occupies a fixed index in the vtable  |
 | **Thunks** | Compiler-generated stubs that adjust `this` before dispatch |
+
+</div>
 
 :::note
 Mandates that the vptr is at offset 0 within the object (before any data members). MSVC uses a
@@ -251,12 +255,16 @@ Analysis:
 
 Every virtual call involves:
 
+<div class="table-wrap">
+
 | Step                       | Cost                                     |
 | -------------------------- | ---------------------------------------- |
 | Load vptr from object      | 1 memory access (may hit L1 cache)       |
 | Index into vtable          | 1 arithmetic op + 1 memory access        |
 | Indirect call              | 1 branch (may be mispredicted)           |
 | **Total extra vs. Direct** | ~2--5 cycles on modern hardware (cached) |
+
+</div>
 
 The primary costs are **indirection** (preventing inlining) and **branch misprediction** (the CPU
 cannot predict which function will be called at the indirect branch). In tight loops, this can be
@@ -724,12 +732,16 @@ int main() {
 
 The size of a vptr depends on the platform's pointer size:
 
+<div class="table-wrap">
+
 | Platform      | Pointer Size | vptr Size | Empty Polymorphic Class Size |
 | ------------- | ------------ | --------- | ---------------------------- |
 | 32-bit x86    | 4 bytes      | 4 bytes   | 4 bytes                      |
 | 64-bit x86-64 | 8 bytes      | 8 bytes   | 8 bytes                      |
 | 64-bit ARM    | 8 bytes      | 8 bytes   | 8 bytes                      |
 | 32-bit ARM    | 4 bytes      | 4 bytes   | 4 bytes                      |
+
+</div>
 
 On 64-bit platforms, every polymorphic object pays at least 8 bytes for the vptr, even if the class
 has no data members. This is the fundamental cost of runtime polymorphism.

@@ -91,6 +91,8 @@ sectional conflict over the expansion of slavery.
 
 ### Comparison of North and South
 
+<div class="table-wrap">
+
 | Factor              | Union (North)                             | Confederacy (South)                 |
 | ------------------- | ----------------------------------------- | ----------------------------------- |
 | Population          | 22 million                                | 9 million (3.5 million enslaved)    |
@@ -99,6 +101,8 @@ sectional conflict over the expansion of slavery.
 | Military leadership | Initially weaker                          | Strong (Lee, Jackson)               |
 | Strategy            | Anaconda Plan, total war                  | Defensive, seek foreign recognition |
 | Goals               | Preserve the Union; later abolish slavery | Preserve slavery and states' rights |
+
+</div>
 
 ### Key Events and Turning Points
 

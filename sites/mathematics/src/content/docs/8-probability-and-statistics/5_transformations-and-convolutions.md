@@ -125,12 +125,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
 | [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
 | [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
@@ -188,6 +192,8 @@ When you transform a random variable, its distribution changes according to how 
 
 ### 5.5 Key Relationships Summary
 
+<div class="table-wrap">
+
 | Operation | Resulting Distribution | Key Formula |
 | --------- | ---------------------- | ----------- |
 | $Y = g(X)$ monotone | $f_Y(y) = f_X(g^{-1}(y))\|d g^{-1}/dy\|$ | Change of variables |
@@ -196,6 +202,8 @@ When you transform a random variable, its distribution changes according to how 
 | $X \sim N(\mu_1,\sigma_1^2)$, $Y \sim N(\mu_2,\sigma_2^2)$ | $X+Y \sim N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2)$ | Normal sum |
 | $X \sim \text{Poisson}(\lambda_1)$, $Y \sim \text{Poisson}(\lambda_2)$ | $X+Y \sim \text{Poisson}(\lambda_1+\lambda_2)$ | Poisson sum |
 | $M_{aX+b}(t)$ | $e^{bt}M_X(at)$ | MGF transformation |
+
+</div>
 
 ## See Also
 

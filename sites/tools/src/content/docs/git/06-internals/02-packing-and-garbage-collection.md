@@ -70,11 +70,15 @@ $ git gc --aggressive
 
 A packfile (`.git/objects/pack/pack-<hash>.pack`) contains:
 
+<div class="table-wrap">
+
 | Section | Description                                                 |
 | ------- | ----------------------------------------------------------- |
 | Header  | Magic bytes (`PACK`), version (2), number of objects        |
 | Objects | Compressed objects (delta-compressed against other objects) |
 | Trailer | SHA-1 checksum of all preceding content                     |
+
+</div>
 
 #### Delta Compression
 
@@ -111,11 +115,15 @@ access the final object. `git gc` limits delta depth to `pack.depth` (default: 5
 Each packfile has a corresponding `.idx` (index) file that enables $O(1)$ lookup of objects by SHA-1
 hash. The index is a sorted binary table:
 
+<div class="table-wrap">
+
 | Offset | SHA-1      | CRC32     |
 | ------ | ---------- | --------- |
 | 0      | a3f2b1c... | 0x8a7f... |
 | 234    | b7e9d4f... | 0x3c2d... |
 | 567    | c1d2e3f... | 0x9e1b... |
+
+</div>
 
 ### 3. Unreachable and Pruned Objects
 

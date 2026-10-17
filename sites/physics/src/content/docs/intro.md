@@ -47,11 +47,13 @@ Physics describes the fundamental laws governing the universe, from the motion o
 - **[Quantum Mechanics](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Core Concepts
+
+<div class="table-wrap">
 
 | Domain | Core Principle | Key Equations | Connection to Other Branches |
 | -------- | --------------- | --------------- | ------------------------------ |
@@ -62,6 +64,8 @@ Physics describes the fundamental laws governing the universe, from the motion o
 | Statistical Mechanics | Microstates determine macrostates | $S = k_B \ln \Omega$ | Derives thermodynamics from particles |
 | Optics | Light behaves as a wave | $I = I_0 \cos^2\theta$ (Malus) | Applications in lasers, fibre optics |
 | Solid State | Periodic potentials create band gaps | $E(k) = E_0 + 2t\cos(ka)$ | Explains conductors, insulators, semiconductors |
+
+</div>
 
 ## Exam Strategy
 

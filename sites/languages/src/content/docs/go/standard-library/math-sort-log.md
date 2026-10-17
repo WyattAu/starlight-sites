@@ -280,12 +280,16 @@ slog.Error("connection failed", "err", err)
 
 ### Log Levels
 
+<div class="table-wrap">
+
 | Level | Method       | Typical Use              |
 | ----- | ------------ | ------------------------ |
 | DEBUG | `slog.Debug` | Verbose development info |
 | INFO  | `slog.Info`  | Normal operations        |
 | WARN  | `slog.Warn`  | Potential issues         |
 | ERROR | `slog.Error` | Failures needing action  |
+
+</div>
 
 ### Handlers
 
@@ -378,6 +382,8 @@ handler(ctx)
 
 ## Choosing Between log and log/slog
 
+<div class="table-wrap">
+
 | Aspect        | `log`             | `log/slog`                     |
 | ------------- | ----------------- | ------------------------------ |
 | Structured    | No (text only)    | Yes (key-value pairs)          |
@@ -385,6 +391,8 @@ handler(ctx)
 | Output        | Stderr by default | Configurable handler           |
 | Go version    | All               | Go 1.21+                       |
 | Machine-parse | No                | JSON handler                   |
+
+</div>
 
 Use `log/slog` for new code. Use `log` only for simple scripts or maintaining legacy code that Does
 not benefit from structured output.

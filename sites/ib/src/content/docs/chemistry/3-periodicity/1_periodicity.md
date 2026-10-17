@@ -37,6 +37,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 
 ### Summary of Trends
 
+<div class="table-wrap">
+
 | Property           | Across a period | Down a group  |
 | ------------------ | --------------- | ------------- |
 | Atomic radius      | Decreases       | Increases     |
@@ -45,6 +47,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 | Electron affinity  | More negative   | Less negative |
 | Electronegativity  | Increases       | Decreases     |
 | Metallic character | Decreases       | Increases     |
+
+</div>
 
 ### Common Pitfalls
 
@@ -67,6 +71,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group            |
 | ------------- | ------------------------------- |
 | Melting point | Decreases                       |
@@ -74,6 +80,8 @@ Element) and changes only slightly down a group (new shells increase shielding p
 | Density       | Generally increases (K anomaly) |
 | Atomic radius | Increases                       |
 | Hardness      | Decreases (softer)              |
+
+</div>
 
 ### Chemical Properties
 
@@ -87,6 +95,8 @@ $$
 
 Reactivity increases down the group as $IE_1$ decreases.
 
+<div class="table-wrap">
+
 | Metal  | Observation                      |
 | ------ | -------------------------------- |
 | Li     | Fizzes steadily                  |
@@ -94,7 +104,11 @@ Reactivity increases down the group as $IE_1$ decreases.
 | K      | Ignites with lilac flame         |
 | Rb, Cs | Explosive                        |
 
+</div>
+
 #### Oxides
+
+<div class="table-wrap">
 
 | Metal  | Limited O$_2$              | Excess O$_2$                           |
 | ------ | -------------------------- | -------------------------------------- |
@@ -103,17 +117,23 @@ Reactivity increases down the group as $IE_1$ decreases.
 | K      | $\mathrm{K}_2\mathrm{O}_2$ | $\mathrm{KO}_2$ (superoxide)           |
 | Rb, Cs | Superoxides                | Superoxides                            |
 
+</div>
+
 The trend from oxide to peroxide to superoxide down the group reflects the decreasing charge density
 of the $\mathrm{M}^+$ ion, which stabilizes the larger anions ($\mathrm{O}_2^{2-}$
 $\mathrm{O}_2^-$).
 
 #### Flame Tests
 
+<div class="table-wrap">
+
 | Ion             | Colour                            |
 | --------------- | --------------------------------- |
 | $\mathrm{Li}^+$ | Crimson red                       |
 | $\mathrm{Na}^+$ | Yellow                            |
 | $\mathrm{K}^+$  | Lilac (view through cobalt glass) |
+
+</div>
 
 ---
 
@@ -130,12 +150,16 @@ $\mathrm{O}_2^-$).
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group |
 | ------------- | -------------------- |
 | Melting point | Generally decreases  |
 | Boiling point | Generally decreases  |
 | Density       | Increases            |
 | Atomic radius | Increases            |
+
+</div>
 
 Group 2 metals are harder and have higher melting points than Group 1 metals due to the release of
 Two delocalised electrons per atom, producing stronger metallic bonding.
@@ -170,13 +194,19 @@ $$
 Thermal stability increases down the group. This is because the larger $\mathrm{M}^{2+}$ ion has
 Lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
 
+<div class="table-wrap">
+
 | Compound          | Ease of decomposition (decreasing) |
 | ----------------- | ---------------------------------- |
 | $\mathrm{MgCO}_3$ | Decomposes at low temperature      |
 | $\mathrm{CaCO}_3$ | Decomposes at high temperature     |
 | $\mathrm{BaCO}_3$ | Very stable, requires strong heat  |
 
+</div>
+
 ### Solubility Trends
+
+<div class="table-wrap">
 
 | Species    | Trend down the group |
 | ---------- | -------------------- |
@@ -184,11 +214,15 @@ Lower polarising power, distorting the carbonate/nitrate ion less and making it 
 | Sulfates   | Solubility decreases |
 | Carbonates | Generally insoluble  |
 
+</div>
+
 $$
 \mathrm{BaSO}_4 \mathrm{ is very insoluble, used in barium meals (X-ray contrast).}
 $$
 
 ### Uses
+
+<div class="table-wrap">
 
 | Compound                                        | Use                          |
 | ----------------------------------------------- | ---------------------------- |
@@ -196,6 +230,8 @@ $$
 | $\mathrm{CaCO}_3$                               | Limestone, cement, antacids  |
 | $\mathrm{CaSO}_4 \cdot 2\mathrm{H}_2\mathrm{O}$ | Plaster of Paris             |
 | $\mathrm{BaSO}_4$                               | Barium meals (radiocontrast) |
+
+</div>
 
 ---
 
@@ -212,12 +248,16 @@ $$
 
 ### Physical Properties
 
+<div class="table-wrap">
+
 | Property      | Trend down the group                           |
 | ------------- | ---------------------------------------------- |
 | Melting point | Increases                                      |
 | Boiling point | Increases                                      |
 | Atomic radius | Increases                                      |
 | State at RTP  | F$_2$Cl$_2$ (gas); Br$_2$ (liq); I$_2$ (solid) |
+
+</div>
 
 ### Chemical Properties
 
@@ -243,11 +283,15 @@ $\mathrm{Cl}^-$.
 
 Add dilute $\mathrm{HNO}_3$ first (to remove carbonate/hydroxide), then $\mathrm{AgNO}_3$:
 
+<div class="table-wrap">
+
 | Halide          | Precipitate colour      | Solubility in $\mathrm{NH}_3$(aq)          |
 | --------------- | ----------------------- | ------------------------------------------ |
 | $\mathrm{Cl}^-$ | White ($\mathrm{AgCl}$) | Soluble in dilute $\mathrm{NH}_3$          |
 | $\mathrm{Br}^-$ | Cream ($\mathrm{AgBr}$) | Partially soluble in conc. $\mathrm{NH}_3$ |
 | $\mathrm{I}^-$  | Yellow ($\mathrm{AgI}$) | Insoluble                                  |
+
+</div>
 
 ---
 
@@ -264,16 +308,22 @@ Add dilute $\mathrm{HNO}_3$ first (to remove carbonate/hydroxide), then $\mathrm
 
 ### Physical Trends Across Period 3
 
+<div class="table-wrap">
+
 | Element       | Na       | Mg       | Al       | Si                             | P                 | S                 | Cl                 | Ar        |
 | ------------- | -------- | -------- | -------- | ------------------------------ | ----------------- | ----------------- | ------------------ | --------- |
 | Structure     | Metallic | Metallic | Metallic | Giant covalent                 | Molecular (P$_4$) | Molecular (S$_8$) | Molecular (Cl$_2$) | Monatomic |
 | Melting point | Low      | Higher   | Higher   | High ($1414\degree\mathrm{C}$) | Low               | Low               | Low                | Very low  |
 | Conductivity  | Good     | Good     | Good     | Poor (semiconductor)           | Poor              | Poor              | Poor               | Poor      |
 
+</div>
+
 The melting point peaks at silicon (giant covalent network) and drops sharply at phosphorus (simple
 Molecular).
 
 ### Oxides of Period 3
+
+<div class="table-wrap">
 
 | Element | Oxide                         | Structure      | Acid/Base  | pH of solution  |
 | ------- | ----------------------------- | -------------- | ---------- | --------------- |
@@ -284,6 +334,8 @@ Molecular).
 | P       | $\mathrm{P}_4\mathrm{O}_{10}$ | Molecular      | Acidic     | $1$--$2$        |
 | S       | $\mathrm{SO}_3$               | Molecular      | Acidic     | $0$--$1$        |
 | Cl      | $\mathrm{Cl}_2\mathrm{O}_7$   | Molecular      | Acidic     | Strongly acidic |
+
+</div>
 
 **Trend**: Oxides become more acidic across the period.
 
@@ -301,6 +353,8 @@ $$
 
 ### Highest Oxidation States of Period 3
 
+<div class="table-wrap">
+
 | Element | Highest oxidation state | Oxide                         |
 | ------- | ----------------------- | ----------------------------- |
 | Na      | $+1$                    | $\mathrm{Na}_2\mathrm{O}$     |
@@ -311,10 +365,14 @@ $$
 | S       | $+6$                    | $\mathrm{SO}_3$               |
 | Cl      | $+7$                    | $\mathrm{Cl}_2\mathrm{O}_7$   |
 
+</div>
+
 The trend of increasing highest oxidation state across the period reflects the increasing number of
 Valence electrons available for bonding.
 
 ### Chlorides of Period 3
+
+<div class="table-wrap">
 
 | Element | Chloride                                   | Bonding          | Reaction with water                                                                           |
 | ------- | ------------------------------------------ | ---------------- | --------------------------------------------------------------------------------------------- |
@@ -325,6 +383,8 @@ Valence electrons available for bonding.
 | P       | $\mathrm{PCl}_3/\mathrm{PCl}_5$            | Covalent         | Hydrolyses violently                                                                          |
 | S       | $\mathrm{SCl}_2/\mathrm{S}_2\mathrm{Cl}_2$ | Covalent         | Hydrolyses                                                                                    |
 | Cl      |,                                          |,                | N/A                                                                                           |
+
+</div>
 
 ---
 
@@ -349,6 +409,8 @@ $\mathrm{Zn}^{2+}$, $d^{10}$) are **not** transition metals.
 
 ### Variable Oxidation States
 
+<div class="table-wrap">
+
 | Element | Common oxidation states |
 | ------- | ----------------------- |
 | Ti      | $+2, +3, +4$            |
@@ -358,6 +420,8 @@ $\mathrm{Zn}^{2+}$, $d^{10}$) are **not** transition metals.
 | Fe      | $+2, +3$                |
 | Co      | $+2, +3$                |
 | Cu      | $+1, +2$                |
+
+</div>
 
 The maximum oxidation state increases across the period to $\mathrm{Mn}$ ($+7$), then decreases.
 
@@ -369,11 +433,15 @@ $$
 [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}, \quad [\mathrm{Ag}(\mathrm{NH}_3)_2]^+, \quad [\mathrm{Fe}(\mathrm{CN})_6]^{3-}
 $$
 
+<div class="table-wrap">
+
 | Ligand type | Examples                                               | Denticity |
 | ----------- | ------------------------------------------------------ | --------- |
 | Monodentate | $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$$\mathrm{Cl}^-$ | $1$       |
 | Bidentate   | en, oxalate                                            | $2$       |
 | Hexadentate | EDTA                                                   | $6$       |
+
+</div>
 
 ### Colour
 
@@ -395,10 +463,14 @@ $$
 Transition metals are effective catalysts because of variable oxidation states and the ability to
 Form intermediate complexes.
 
+<div class="table-wrap">
+
 | Type          | Example                                              |
 | ------------- | ---------------------------------------------------- |
 | Heterogeneous | Fe (Haber), V$_2$O$_5$ (Contact), Ni (hydrogenation) |
 | Homogeneous   | $\mathrm{Fe}^{2+}/\mathrm{Fe}^{3+}$ (Fenton)         |
+
+</div>
 
 ### Magnetic Properties
 
@@ -722,6 +794,8 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 
+<div class="table-wrap">
+
 | Quantity                                                    | Value ($\mathrm{kJ/mol}$) |
 | ----------------------------------------------------------- | ------------------------- |
 | $\Delta H_f^\circ(\mathrm{NaCl})$                           | $-411$                    |
@@ -729,6 +803,8 @@ Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 | $\Delta H_\mathrm{atom}(\mathrm{Cl}_2)$ (per mole of atoms) | $+122$                    |
 | $IE_1(\mathrm{Na})$                                         | $+496$                    |
 | $EA_1(\mathrm{Cl})$                                         | $-349$                    |
+
+</div>
 
 <details>
 <summary>Solution</summary>

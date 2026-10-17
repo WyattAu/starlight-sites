@@ -238,6 +238,8 @@ If there were a discrepancy, possible reasons would include:
 
 Given the following standard electrode potentials:
 
+<div class="table-wrap">
+
 | Half-equation                                | $E^{\circ}$ (V) |
 | -------------------------------------------- | --------------- |
 | $Zn^{2+} + 2e^{-} \rightleftharpoons Zn$     | $-0.76$         |
@@ -246,6 +248,8 @@ Given the following standard electrode potentials:
 | $Cu^{2+} + 2e^{-} \rightleftharpoons Cu$     | $+0.34$         |
 | $Ag^{+} + e^{-} \rightleftharpoons Ag$       | $+0.80$         |
 | $Br_{2} + 2e^{-} \rightleftharpoons 2Br^{-}$ | $+1.07$         |
+
+</div>
 
 (a) Predict whether zinc will react with aqueous copper(II) sulphate. Write the equation and
 calculate the cell EMF. [3 marks]

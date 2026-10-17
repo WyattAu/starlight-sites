@@ -266,11 +266,15 @@ inequality.
 
 The MPI uses ten indicators across three dimensions:
 
+<div class="table-wrap">
+
 | Dimension        | Weight | Indicators                                                                                                        |
 | ---------------- | ------ | ----------------------------------------------------------------------------------------------------------------- |
 | Health           | 1/3    | Nutrition (1/6), Child mortality (1/6)                                                                            |
 | Education        | 1/3    | Years of schooling (1/6), School attendance (1/6)                                                                 |
 | Living standards | 1/3    | Electricity (1/18), Sanitation (1/18), Drinking water (1/18), Flooring (1/18), Cooking fuel (1/18), Assets (1/18) |
+
+</div>
 
 **Calculation steps:**
 
@@ -414,6 +418,8 @@ Million workers.
 
 Country P has a population of 50 million. The following data are available:
 
+<div class="table-wrap">
+
 | Indicator          | Population deprived (%) |
 | ------------------ | ----------------------- |
 | Nutrition          | 25%                     |
@@ -426,6 +432,8 @@ Country P has a population of 50 million. The following data are available:
 | Flooring           | 25%                     |
 | Cooking fuel       | 45%                     |
 | Assets             | 30%                     |
+
+</div>
 
 A household is classified as multidimensionally poor if deprived in $\geq 33.3\%$ of weighted
 Indicators.
@@ -542,6 +550,8 @@ international climate finance on the basis of CBDR and climate justice.
 
 Country R has the following sectoral employment data:
 
+<div class="table-wrap">
+
 | Year | Agriculture (% of employment) | Industry (% of employment) | Services (% of employment) | GDP per capita (USD, PPP) |
 | ---- | ----------------------------- | -------------------------- | -------------------------- | ------------------------- |
 | 1980 | 70                            | 10                         | 20                         | 800                       |
@@ -549,6 +559,8 @@ Country R has the following sectoral employment data:
 | 2000 | 40                            | 25                         | 35                         | 2500                      |
 | 2010 | 30                            | 22                         | 48                         | 4500                      |
 | 2020 | 22                            | 20                         | 58                         | 7500                      |
+
+</div>
 
 (a) Describe the pattern of structural transformation.
 
@@ -964,6 +976,8 @@ the wage premium (due to skill obsolescence).
 
 ### Returns to Education: Cross-Country Evidence
 
+<div class="table-wrap">
+
 | Region             | Return to 1 additional year of schooling |
 | ------------------ | ---------------------------------------- |
 | Sub-Saharan Africa | 11.2%                                    |
@@ -971,6 +985,8 @@ the wage premium (due to skill obsolescence).
 | Latin America      | 9.7%                                     |
 | East Asia          | 9.6%                                     |
 | OECD               | 8.5%                                     |
+
+</div>
 
 Source: Psacharopoulos and Patrinos (2018)
 

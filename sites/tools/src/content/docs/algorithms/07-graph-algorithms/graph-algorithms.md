@@ -78,12 +78,16 @@ def reconstruct_path(prev, target):
 Processed, its distance is final. With negative edges, a shorter path may be discovered later
 through a vertex that has already been processed.
 
+<div class="table-wrap">
+
 | Graph Type                   | Dijkstra                         | Bellman-Ford              | Floyd-Warshall |
 | ---------------------------- | -------------------------------- | ------------------------- | -------------- |
 | Non-negative, single source  | $O((V+E) \log V)$                | $O(VE)$                   | $O(V^3)$       |
 | Negative, no negative cycles | Fails                            | $O(VE)$                   | $O(V^3)$       |
 | Negative cycle detection     | Cannot                           | Yes                       | Yes            |
 | All-pairs                    | Run $V$ times: $O(V(V+E)\log V)$ | Run $V$ times: $O(V^2 E)$ | $O(V^3)$       |
+
+</div>
 
 ### Bellman-Ford Algorithm
 
@@ -240,12 +244,16 @@ def a_star(graph, source, target, heuristic):
 $h(v) \le \mathrm{actual distance from  v
 \mathrm{ to target$. Common heuristics:
 
+<div class="table-wrap">
+
 | Problem              | Heuristic                            | Admissible?    |
 | -------------------- | ------------------------------------ | -------------- |
 | Grid (4-directional) | Manhattan distance                   | Yes            |
 | Grid (8-directional) | Chebyshev distance                   | Yes            |
 | Euclidean space      | Euclidean distance                   | Yes            |
 | Road networks        | Euclidean or precomputed lower bound | If well-chosen |
+
+</div>
 
 A*with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
 Suboptimal path but will be faster. If $h(v) = 0$ for all $v$ A\* degrades to Dijkstra.
@@ -342,11 +350,15 @@ def prim(n, graph):
     return mst, total_weight
 ```
 
+<div class="table-wrap">
+
 | Algorithm             | Time              | Best When         | Data Structure |
 | --------------------- | ----------------- | ----------------- | -------------- |
 | Kruskal               | $O(E \log E)$     | Sparse graphs     | Union-Find     |
 | Prim                  | $O((V+E) \log V)$ | Dense graphs      | Priority queue |
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
+
+</div>
 :::
 
 :::note
@@ -551,6 +563,8 @@ def min_cut(n, capacity, source, sink):
 
 ### Applications of Max-Flow
 
+<div class="table-wrap">
+
 | Application          | How to Model                                                |
 | -------------------- | ----------------------------------------------------------- |
 | Bipartite matching   | Source to left set, right set to sink, all edges capacity 1 |
@@ -559,6 +573,8 @@ def min_cut(n, capacity, source, sink):
 | Baseball elimination | Teams as vertices, remaining games as edges                 |
 | Network reliability  | Edge connectivity via min-cut                               |
 
+</div>
+
 ## Eulerian Paths and Circuits
 
 An **Eulerian circuit** visits every edge exactly once and returns to the start. An **Eulerian
@@ -566,12 +582,16 @@ Path** visits every edge exactly once (may start and end at different vertices).
 
 ### Existence Conditions
 
+<div class="table-wrap">
+
 | Property                      | Eulerian Circuit | Eulerian Path                   |
 | ----------------------------- | ---------------- | ------------------------------- |
 | Connected                     | Yes              | Yes                             |
 | All vertices even degree      | Yes              | No                              |
 | Exactly 2 vertices odd degree | No               | Yes (start/end at odd vertices) |
 | Other                         | No               | No                              |
+
+</div>
 
 ```python
 def hierholzer(n, graph):
@@ -642,12 +662,16 @@ is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \
 
 ### Approximation Algorithms
 
+<div class="table-wrap">
+
 | Algorithm         | Approximation Ratio | Time                   | Notes                     |
 | ----------------- | ------------------- | ---------------------- | ------------------------- |
 | Nearest neighbour | $O(\log n)$         | $O(n^2)$               | Simple, no guarantee      |
 | Christofides      | 1.5                 | $O(n^3)$               | Best known for metric TSP |
 | 2-opt improvement | Empirical           | $O(n^2)$ per iteration | Local search              |
 | Held-Karp (DP)    | Exact               | $O(2^n \cdot n^2)$     | Exact, $n \le 20$         |
+
+</div>
 
 **Metric TSP:** When the triangle inequality holds ($d(u, w) \le d(u, v) + d(v, w)$), Christofides'
 Algorithm guarantees a solution within 1.5 times optimal.
@@ -833,6 +857,8 @@ def dinic(n, capacity, source, sink):
     return max_flow
 ```
 
+<div class="table-wrap">
+
 | Algorithm                    | Time Complexity   | Best For                               |
 | ---------------------------- | ----------------- | -------------------------------------- |
 | Edmonds-Karp                 | $O(VE^2)$         | Simple implementation, small graphs    |
@@ -840,6 +866,8 @@ def dinic(n, capacity, source, sink):
 | Dinic's (bipartite)          | $O(E \sqrt{V})$   | Bipartite matching                     |
 | Push-relabel                 | $O(V^3)$          | Dense graphs                           |
 | Push-relabel (highest label) | $O(V^2 \sqrt{E})$ | General purpose                        |
+
+</div>
 
 ## Bipartite Matching
 
@@ -911,6 +939,8 @@ def hopcroft_karp(n_left, n_right, edges):
 
 **Applications of bipartite matching:**
 
+<div class="table-wrap">
+
 | Application                  | Left Set  | Right Set   | Edge Meaning              |
 | ---------------------------- | --------- | ----------- | ------------------------- |
 | Job assignment               | Workers   | Jobs        | Worker can do job         |
@@ -918,6 +948,8 @@ def hopcroft_karp(n_left, n_right, edges):
 | Hall's marriage              | People    | Preferences | Acceptable pairing        |
 | Image segmentation           | Pixels    | Labels      | Pixel can have label      |
 | Compiler register allocation | Variables | Registers   | Variable can use register |
+
+</div>
 
 ## Minimum Vertex Cover (Konig's Theorem)
 

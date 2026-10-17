@@ -82,6 +82,8 @@ Java defines eight primitive types. They are not objects, they hold raw bit patt
 Directly on the stack or within object layouts on the heap. Primitives have no methods, no identity
 (only value equality), and cannot be `null`.
 
+<div class="table-wrap">
+
 | Type      | Size (bits) | Size (bytes) | Default    | Range                          |
 | --------- | ----------: | -----------: | ---------- | ------------------------------ |
 | `byte`    |           8 |            1 | `0`        | -128 to 127                    |
@@ -92,6 +94,8 @@ Directly on the stack or within object layouts on the heap. Primitives have no m
 | `double`  |          64 |            8 | `0.0`      | IEEE 754 binary64              |
 | `char`    |          16 |            2 | `'\u0000'` | 0 to 65,535 (UTF-16 code unit) |
 | `boolean` |           1 |            ~ | `false`    | `true` or `false`              |
+
+</div>
 
 :::note
 [JLS §4.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2) defines primitive
@@ -402,11 +406,15 @@ Interning.
 
 ### StringBuilder vs StringBuffer
 
+<div class="table-wrap">
+
 | Aspect      |  `StringBuilder` (Java 5+)  |     `StringBuffer` (Java 1.0+)     |
 | ----------- | :-------------------------: | :--------------------------------: |
 | Thread-safe |             No              |  Yes (all methods `synchronized`)  |
 | Performance | Faster (no synchronization) | Slower (lock acquisition overhead) |
 | API         |   Same as `StringBuffer`    |      Same as `StringBuilder`       |
+
+</div>
 
 ```java
 // Prefer StringBuilder in single-threaded contexts
@@ -467,6 +475,8 @@ Compile time and requires no runtime checks.
 
 ### Arrays vs ArrayList
 
+<div class="table-wrap">
+
 | Aspect           | `int[]`                                     | `ArrayList<Integer>`                          |
 | ---------------- | ------------------------------------------- | --------------------------------------------- |
 | Element type     | Primitives or references                    | References only (boxing required)             |
@@ -476,6 +486,8 @@ Compile time and requires no runtime checks.
 | Null elements    | For reference arrays only                   | Allowed                                       |
 | Length query     | `array.length` (field)                      | `list.size()` (method call)                   |
 | Generics support | Cannot use as generic type                  | Full generics support                         |
+
+</div>
 
 ```java
 // Primitive array, no boxing, cache-friendly, minimal overhead

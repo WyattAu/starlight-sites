@@ -297,6 +297,8 @@ NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the de
 
 ### Path vs File Comparison
 
+<div class="table-wrap">
+
 | Feature           | `java.io.File`                         | `java.nio.file.Path`                                  |
 | ----------------- | -------------------------------------- | ----------------------------------------------------- |
 | Mutability        | Mutable (state changes on each call)   | Immutable                                             |
@@ -306,6 +308,8 @@ NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the de
 | File watching     | Not supported                          | `WatchService`                                        |
 | Atomic operations | Not supported                          | `Files.move()` with `ATOMIC_MOVE`                     |
 | Error reporting   | Returns `false` on failure             | Throws checked exceptions with details                |
+
+</div>
 
 `Path` is immutable and separates locating a file (`Path`) from accessing it (`Files`).
 `java.io.File` conflates both: its methods like `exists()` and `isDirectory()` query the filesystem
@@ -599,6 +603,8 @@ Bidirectional where supported and support scatter/gather I/O (multiple buffers i
 
 Key channel types:
 
+<div class="table-wrap">
+
 | Channel               | Direction   | Blocking/Non-blocking | Use case                   |
 | --------------------- | ----------- | --------------------- | -------------------------- |
 | `FileChannel`         | Read/Write  | Blocking only         | File I/O                   |
@@ -607,6 +613,8 @@ Key channel types:
 | `ServerSocketChannel` | Accept only | Both                  | TCP server                 |
 | `Pipe.SourceChannel`  | Read only   | Blocking only         | Inter-thread communication |
 | `Pipe.SinkChannel`    | Write only  | Blocking only         | Inter-thread communication |
+
+</div>
 
 You obtain a `FileChannel` from a stream or directly:
 
@@ -1034,6 +1042,8 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 
 ## Common Pitfalls Summary
 
+<div class="table-wrap">
+
 | Pitfall                                 | Consequence                             | Fix                                              |
 | --------------------------------------- | --------------------------------------- | ------------------------------------------------ |
 | Not specifying charset                  | Silent character corruption             | Always use `StandardCharsets.UTF_8`              |
@@ -1047,6 +1057,8 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 | File locking on NFS                     | Lock not respected                      | Use a distributed lock service (Zookeeper, etcd) |
 | `WatchService` not resetting key        | No further events delivered             | Always call `key.reset()`                        |
 | Not closing `Files.lines()` stream      | File handle leak                        | Use try-with-resources                           |
+
+</div>
 
 ## Worked Examples
 

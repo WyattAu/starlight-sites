@@ -45,6 +45,8 @@ Cold War.
 
 ### Chronological Overview
 
+<div class="table-wrap">
+
 | Period                | Dates        | Key Themes                                                      |
 | --------------------- | ------------ | --------------------------------------------------------------- |
 | Late Tsarism          | 1905-1917    | Duma experiment, Stolypin reforms, Rasputin, wartime collapse   |
@@ -54,6 +56,8 @@ Cold War.
 | Stalin's revolution   | 1928-1941    | Five-Year Plans, collectivisation, purges, show trials          |
 | Great Patriotic War   | 1941-1945    | Operation Barbarossa, Stalingrad, Soviet advance, victory       |
 | Late Stalinism        | 1945-1953    | Reconstruction, Cold War origins, new purges, Doctor's Plot     |
+
+</div>
 
 ## Key Events with Dates and Significance
 
@@ -160,6 +164,8 @@ Cold War.
 
 ## Key Figures and Their Roles
 
+<div class="table-wrap">
+
 | Figure           | Role                                   | Significance                                                                                        |
 | ---------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Tsar Nicholas II | Last Tsar                              | Weak, indecisive ruler whose refusal to reform led to revolution                                    |
@@ -169,6 +175,8 @@ Cold War.
 | Bukharin         | Moderate Bolshevik                     | Champion of the NEP; executed in the Great Purge                                                    |
 | Khrushchev       | Stalin's successor (from 1953)         | Denounced Stalin's cult of personality in the 1956 Secret Speech                                    |
 | Marshal Zhukov   | Military commander                     | Led Soviet forces at Stalingrad, Kursk, and Berlin                                                  |
+
+</div>
 
 ## Historiographical Debates
 

@@ -99,10 +99,14 @@ Amino acid sequence, potentially altering the protein's shape and function.
 
 **Summary of protein synthesis steps.**
 
+<div class="table-wrap">
+
 | Stage         | Location | Template | Product | Key molecules involved       |
 | ------------- | -------- | -------- | ------- | ---------------------------- |
 | Transcription | Nucleus  | DNA      | mRNA    | RNA polymerase               |
 | Translation   | Ribosome | mRNA     | Protein | tRNA, ribosomes, amino acids |
+
+</div>
 
 ### 1.4 Genome
 
@@ -160,6 +164,8 @@ Variation.
 
 **Key differences from mitosis:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis        | Meiosis                   |
 | ----------------- | -------------- | ------------------------- |
 | Divisions         | One            | Two                       |
@@ -167,6 +173,8 @@ Variation.
 | Chromosome number | Same as parent | Half of parent            |
 | Purpose           | Growth, repair | Producing gametes         |
 | Crossing over?    | No             | Yes (Prophase I)          |
+
+</div>
 
 ### 2.2 Asexual Reproduction
 
@@ -222,6 +230,8 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 
 ### 2.4 Higher Tier: Sexual and Asexual Reproduction Compared
 
+<div class="table-wrap">
+
 | Feature           | Sexual Reproduction            | Asexual Reproduction                 |
 | ----------------- | ------------------------------ | ------------------------------------ |
 | Number of parents | Two                            | One                                  |
@@ -231,9 +241,13 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 | Speed             | Slower (need to find a mate)   | Faster                               |
 | Adaptability      | High (variety aids adaptation) | Low (all vulnerable to same threats) |
 
+</div>
+
 ## 3. Inheritance
 
 ### 3.1 Key Terms
+
+<div class="table-wrap">
 
 | Term         | Definition                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------- |
@@ -247,6 +261,8 @@ This shows how rapidly asexual reproduction can produce large numbers of organis
 | Phenotype    | The observable characteristic produced by the genotype (e.g. Brown eyes)                    |
 | Carrier      | A heterozygous individual who carries a recessive allele without showing the characteristic |
 
+</div>
+
 ### 3.2 Genetic Crosses
 
 **Monohybrid crosses** investigate the inheritance of one characteristic.
@@ -258,10 +274,14 @@ Parental genotypes: Tt $\times$ tt
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotypic ratio: 2 Tt : 2 tt (1:1)
 
@@ -274,10 +294,14 @@ Probability of tall offspring: 50%
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | F   | f   |
 | --- | --- | --- |
 | F   | FF  | Ff  |
 | f   | Ff  | ff  |
+
+</div>
 
 Genotypic ratio: 1 FF : 2 Ff : 1 ff
 
@@ -303,10 +327,14 @@ Now cross two F1 offspring: Bb $\times$ Bb
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | B   | b   |
 | --- | --- | --- |
 | B   | BB  | Bb  |
 | b   | Bb  | bb  |
+
+</div>
 
 F2 genotypic ratio: 1 BB : 2 Bb : 1 bb
 
@@ -323,15 +351,21 @@ Sex is determined by the X and Y chromosomes:
 
 **Sex of offspring:**
 
+<div class="table-wrap">
+
 |     | X           | X           |
 | --- | ----------- | ----------- |
 | X   | XX (female) | XX (female) |
 | Y   | XY (male)   | XY (male)   |
 
+</div>
+
 Probability of male or female: 50% each. This is because the father can contribute either an X or a
 Y chromosome, while the mother always contributes an X chromosome.
 
 ### 3.4 Inherited Disorders
+
+<div class="table-wrap">
 
 | Disorder             | Pattern of Inheritance                             |
 | -------------------- | -------------------------------------------------- |
@@ -339,6 +373,8 @@ Y chromosome, while the mother always contributes an X chromosome.
 | Huntington's disease | Dominant (caused by mutation on chromosome 4)      |
 | Sickle cell disease  | Recessive (caused by mutation in haemoglobin gene) |
 | Polydactyly          | Dominant (extra fingers or toes)                   |
+
+</div>
 
 **Why recessive disorders are more common than dominant disorders.** A recessive disorder can be
 "hidden" in carriers (heterozygotes) who do not show the disease. These carriers can pass the
@@ -373,10 +409,14 @@ Recessive allele to show the condition.
 **Example:** Red-green colour blindness is caused by a recessive allele on the X chromosome ($X^n$).
 A carrier female ($X^NX^n$) crossed with a normal male ($X^NY$):
 
+<div class="table-wrap">
+
 |       | $X^N$                     | $Y$                    |
 | ----- | ------------------------- | ---------------------- |
 | $X^N$ | $X^NX^N$ (normal female)  | $X^NY$ (normal male)   |
 | $X^n$ | $X^NX^n$ (carrier female) | $X^nY$ (affected male) |
+
+</div>
 
 This cross shows that colour blindness affects males more frequently than females. In this cross,
 50% of males are affected but no females are affected (though 50% are carriers).
@@ -388,10 +428,14 @@ A man who does not have haemophilia ($X^HY$).
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^H$                     | $Y$                   |
 | ----- | ------------------------- | --------------------- |
 | $X^H$ | $X^HX^H$ (normal female)  | $X^HY$ (normal male)  |
 | $X^h$ | $X^HX^h$ (carrier female) | $X^hY$ (haemophiliac) |
+
+</div>
 
 Results: 25% normal female, 25% carrier female, 25% normal male, 25% haemophiliac male.
 
@@ -462,12 +506,16 @@ Changes in the environment.
 
 ### 4.3 Evidence for Evolution
 
+<div class="table-wrap">
+
 | Evidence       | Description                                                           |
 | -------------- | --------------------------------------------------------------------- |
 | Fossil record  | Shows gradual changes in organisms over millions of years             |
 | DNA comparison | More similar DNA = more closely related species                       |
 | Anatomy        | Homologous structures suggest common ancestry (e.g. Pentadactyl limb) |
 | Embryology     | Early embryos of different species look remarkably similar            |
+
+</div>
 
 **Homologous vs. Analogous structures.** Homologous structures have the same evolutionary origin but
 May serve different functions (e.g., the pentadactyl limb in humans, bats, whales, and birds -- all
@@ -595,6 +643,8 @@ Growth hormone, clotting factors).
 
 **Comparison of selective breeding and genetic engineering.**
 
+<div class="table-wrap">
+
 | Feature           | Selective Breeding                     | Genetic Engineering                           |
 | ----------------- | -------------------------------------- | --------------------------------------------- |
 | Process           | Breeding organisms with desired traits | Transferring specific genes between organisms |
@@ -602,6 +652,8 @@ Growth hormone, clotting factors).
 | Specificity       | Cannot select single genes             | Can select specific genes                     |
 | Genetic variation | Reduced over time                      | Can introduce genes from any species          |
 | Ethical concerns  | Animal welfare                         | Unnatural gene transfer, ecological risks     |
+
+</div>
 
 ## Common Pitfalls
 
@@ -698,6 +750,8 @@ Recessive. The heterozygote shows both phenotypes simultaneously.
 **Example: Blood groups.** Human ABO blood groups are determined by three alleles: $I^A$, $I^B$ And
 $i$. $I^A$ and $I^B$ are codominant to each other, and both are dominant over $i$.
 
+<div class="table-wrap">
+
 | Genotype  | Blood group | Phenotype                          |
 | --------- | ----------- | ---------------------------------- |
 | $I^A I^A$ | A           | Antigen A on red blood cells       |
@@ -707,6 +761,8 @@ $i$. $I^A$ and $I^B$ are codominant to each other, and both are dominant over $i
 | $I^A I^B$ | AB          | Both antigens A and B (codominant) |
 | $ii$      | O           | Neither antigen                    |
 
+</div>
+
 **Worked Example: Blood group inheritance.**
 
 A mother has blood group A (genotype $I^A i$) and a father has blood group B (genotype $I^B i$).
@@ -714,10 +770,14 @@ What are the possible blood groups of their children?
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $I^A$          | $i$         |
 | ----- | -------------- | ----------- |
 | $I^B$ | $I^A I^B$ (AB) | $I^B i$ (B) |
 | $i$   | $I^A i$ (A)    | $ii$ (O)    |
+
+</div>
 
 Possible blood groups: A, B, AB, and O (all four groups are possible, each with 25% probability).
 
@@ -733,10 +793,14 @@ Cross: RR (red) $\times$ WW (white) $\to$ all RW (pink).
 
 Cross: RW (pink) $\times$ RW (pink):
 
+<div class="table-wrap">
+
 |     | R         | W          |
 | --- | --------- | ---------- |
 | R   | RR (red)  | RW (pink)  |
 | W   | RW (pink) | WW (white) |
+
+</div>
 
 Phenotypic ratio: 1 red : 2 pink : 1 white.
 
@@ -801,12 +865,16 @@ Each parent can produce four types of gamete: RY, Ry, rY, ry (in equal proportio
 
 Punnett square (4 $\times$ 4):
 
+<div class="table-wrap">
+
 |     | RY        | Ry        | rY        | ry        |
 | --- | --------- | --------- | --------- | --------- |
 | RY  | RRYY (RY) | RRYy (RY) | RrYY (RY) | RrYy (RY) |
 | Ry  | RRYy (RY) | RRyy (Ry) | RrYy (RY) | Rryy (Ry) |
 | rY  | RrYY (RY) | RrYy (RY) | rrYY (rY) | rrYy (rY) |
 | ry  | RrYy (RY) | Rryy (Ry) | rrYy (rY) | rryy (ry) |
+
+</div>
 
 Phenotypic ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
 
@@ -843,10 +911,14 @@ Gametes: $T$$t$ and $t$$t$.
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 Tt : 1 tt (50% : 50%). Phenotype ratio: 1 tall : 1 short (50% : 50%).
 
@@ -866,10 +938,14 @@ colour blind?
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^N$    | Y      |
 | ----- | -------- | ------ |
 | $X^N$ | $X^NX^N$ | $X^NY$ |
 | $X^n$ | $X^NX^n$ | $X^nY$ |
+
+</div>
 
 Each child has a 50% chance of being a boy. For sons: 50% normal ($X^NY$), 50% colour blind
 ($X^nY$).

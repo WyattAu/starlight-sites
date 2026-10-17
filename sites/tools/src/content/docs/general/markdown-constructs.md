@@ -373,6 +373,8 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 Common `@theme` imports:
 
+<div class="table-wrap">
+
 | Component          | Purpose                               |
 | ------------------ | ------------------------------------- |
 | `CodeBlock`        | Render a code block from a file path  |
@@ -380,6 +382,8 @@ Common `@theme` imports:
 | `Details`          | Collapsible sections with React state |
 | `Admonition`       | Programmatic admonition rendering     |
 | `Head`             | Inject elements into `<head>`         |
+
+</div>
 
 Custom components from `@site/src/components/` are also importable:
 
@@ -498,6 +502,8 @@ are generally fine.
 
 ## Common Pitfalls in Markdown and MDX
 
+<div class="table-wrap">
+
 | Pitfall | Symptom | Fix |
 | ------- | ------- | --- |
 | Nested blockquotes | Incorrect nesting breaks rendering | Use `>` for level 1, `> >` for level 2 |
@@ -510,6 +516,8 @@ are generally fine.
 | Double blank lines | Unnecessary vertical space in output | Use single blank lines between sections |
 | Tabs vs. spaces in code blocks | Indentation rendered inconsistently | Use consistent indentation (2 or 4 spaces) throughout |
 | Frontmatter title as h1 | Duplicate h1 heading in rendered page | Start body content with `##` (h2) level headings |
+
+</div>
 
 :::tip
 For a complete syntax reference, consult the

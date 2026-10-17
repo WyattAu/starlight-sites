@@ -55,12 +55,16 @@ $$
 \partial_\mu j^\mu = 0 \implies Q = \int j^0\,d^3x = \text{const}
 $$
 
+<div class="table-wrap">
+
 | Symmetry                                    | Conserved Quantity                                                         |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
 | Time translation                            | Energy $E = \int\mathcal{H}\,d^3x$                                         |
 | Space translation                           | Momentum $\mathbf{P} = \int\boldsymbol{\pi}\,d^3x$                         |
 | Rotation                                    | Angular momentum $\mathbf{L} = \int\mathbf{r}\times\boldsymbol{\pi}\,d^3x$ |
 | Phase rotation ($\phi \to e^{i\alpha}\phi$) | Charge $Q$                                                                 |
+
+</div>
 
 For the complex Klein--Gordon field, the conserved current is:
 
@@ -176,6 +180,8 @@ Classical field theory extends mechanics from particles to continuous media. A f
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                          | Site        | Link                                                                      |
 | ------------------------------ | ----------- | ------------------------------------------------------------------------- |
 | Classical Mechanics (Overview) | WyattsNotes | [View](/1-classical-mechanics/14_flashcards-classical-mechanics/)                      |
@@ -183,7 +189,9 @@ Classical field theory extends mechanics from particles to continuous media. A f
 | Quantum Mechanics              | WyattsNotes | [View](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                        |
 | Classical Mechanics, MIT 8.01 | MIT OCW     | [View](https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/) |
 
+</div>
+
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

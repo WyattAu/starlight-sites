@@ -113,6 +113,8 @@ $ which git-filter-repo
 
 ### Operation Reference Table
 
+<div class="table-wrap">
+
 | Operation                        | Command                                                      | Effect                                                                 |
 | -------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------- |
 | Remove a file from all history   | `git filter-repo --path path/to/file --invert-paths`         | Deletes the file and all commits that only touched that file           |
@@ -125,6 +127,8 @@ $ which git-filter-repo
 | Replace blob content             | `git filter-repo --blob-callback 'return blob.replace(...)'` | Python callback for arbitrary blob modifications                       |
 | Rename files                     | `git filter-repo --path-rename old/path:new/path`            | Renames files/directories across all history                           |
 | Add a prefix to all paths        | `git filter-repo --prefix new-prefix/`                       | Prepends a directory prefix to all file paths                          |
+
+</div>
 
 ### Removing a File from All History
 
@@ -307,6 +311,8 @@ $ git filter-repo --replace-text expressions.txt
 
 ### Feature Comparison
 
+<div class="table-wrap">
+
 | Feature                    | `filter-branch`                          | `filter-repo`                                 |
 | -------------------------- | ---------------------------------------- | --------------------------------------------- |
 | Speed                      | Slow (shell-based, sequential)           | Fast (Python, streaming via fast-export)      |
@@ -320,9 +326,13 @@ $ git filter-repo --replace-text expressions.txt
 | Maintenance status         | Deprecated since Git 2.24                | Actively maintained                           |
 | Repository state after run | Dirty (needs manual cleanup)             | Clean (fully gc'd)                            |
 
+</div>
+
 ### Performance Comparison
 
 On a repository with 50,000 commits and 10,000 files:
+
+<div class="table-wrap">
 
 | Operation            | `filter-branch` | `filter-repo` |
 | -------------------- | --------------- | ------------- |
@@ -330,6 +340,8 @@ On a repository with 50,000 commits and 10,000 files:
 | Rewrite author info  | 30 minutes      | 90 seconds    |
 | Remove large blobs   | 60 minutes      | 3 minutes     |
 | Extract subdirectory | 50 minutes      | 2.5 minutes   |
+
+</div>
 
 These numbers are approximate and depend on hardware, but the order-of-magnitude difference is
 Consistent. `filter-repo` is 15-30x faster because it avoids creating intermediate Git objects, it

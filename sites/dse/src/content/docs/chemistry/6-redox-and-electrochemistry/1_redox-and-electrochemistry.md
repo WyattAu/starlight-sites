@@ -281,6 +281,8 @@ Oxygen. It is an electrochemical process:
 
 ### Methods of Prevention
 
+<div class="table-wrap">
+
 | Method            | Mechanism                                                                  |
 | ----------------- | -------------------------------------------------------------------------- |
 | Painting/coating  | Barrier: prevents water and oxygen reaching the iron                       |
@@ -288,6 +290,8 @@ Oxygen. It is an electrochemical process:
 | Galvanising       | Coating with zinc; zinc is more reactive and sacrifices itself             |
 | Sacrificial anode | Attach a more reactive metal (e.g., Mg or Zn) to iron; it corrodes instead |
 | Alloying          | Stainless steel contains Cr, which forms a protective oxide layer          |
+
+</div>
 
 ### Worked Example 6
 
@@ -357,6 +361,8 @@ Electrolysis is the use of electrical energy to drive a non-spontaneous chemical
 
 ### Key Terms
 
+<div class="table-wrap">
+
 | Term        | Definition                                                           |
 | ----------- | -------------------------------------------------------------------- |
 | Electrolyte | An ionic compound that conducts electricity when molten or dissolved |
@@ -364,6 +370,8 @@ Electrolysis is the use of electrical energy to drive a non-spontaneous chemical
 | Cathode     | Negative electrode; reduction occurs here                            |
 | Cation      | Positive ion; attracted to the cathode                               |
 | Anion       | Negative ion; attracted to the anode                                 |
+
+</div>
 
 ### Electrolysis of Molten Compounds
 
@@ -542,6 +550,8 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Concept            | Key Point                                         |
 | ------------------ | ------------------------------------------------- |
 | OIL RIG            | Oxidation Is Loss, Reduction Is Gain              |
@@ -554,6 +564,8 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
 | Faraday's law      | $m = ItM / (zF)$                                  |
 | Cathode product    | Metal (if less reactive than H) or $\mathrm{H_2}$ |
 | Anode product      | Halogen (if halide present) or $\mathrm{O_2}$     |
+
+</div>
 
 ---
 
@@ -970,12 +982,16 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic              | Site    | Link                                                                                                         |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Electrochemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/electrochemistry)                           |
 | [Electrochemistry] | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry/)                                  |
 | [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 | [Redox Reactions]  | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
+
+</div>
 
 $$
 

@@ -34,11 +34,15 @@ Deadlock conditions, and deadlock prevention strategies.
 `std::mutex` [N4950 §31.4.3.3] provides exclusive ownership semantics. Only one thread can hold the
 Lock at any time. The basic operations are:
 
+<div class="table-wrap">
+
 | Operation    | Description                                       |
 | ------------ | ------------------------------------------------- |
 | `lock()`     | Blocks until the lock is acquired                 |
 | `try_lock()` | Attempts to acquire the lock; returns immediately |
 | `unlock()`   | Releases the lock                                 |
+
+</div>
 
 Calling `lock()` on a mutex already held by the current thread results in **undefined behavior**
 [N4950 §31.4.3.3.2].
@@ -336,10 +340,14 @@ and the loop terminates quickly.
 Simultaneously, but only one thread can hold an **exclusive** (write) lock at a time. This is useful
 when reads are frequent and writes are infrequent.
 
+<div class="table-wrap">
+
 | Lock type                      | Concurrent access | Exclusive access |
 | ------------------------------ | ----------------- | ---------------- |
 | `std::shared_lock` (shared)    | Multiple readers  | No writers       |
 | `std::unique_lock` (exclusive) | No other threads  | One writer       |
+
+</div>
 
 ### Writer Starvation
 

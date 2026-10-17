@@ -63,13 +63,19 @@ $$
 For $x \neq 2$ We can cancel $(x-2)$ but must remember the sign changes. Instead, analyse using a
 sign table:
 
+<div class="table-wrap">
+
 | Interval | $(x+3)$ | $(x-1)$ | $(x-2)$ | Expression                                                                       |
 | -------- | ------- | ------- | ------- | -------------------------------------------------------------------------------- |
 | $x < -3$ | $-$     | $-$     | $-$     | $(-)(-)/(-)(-) = +/+$ but $(x-2)$ appears twice: overall $(-)(-)/((-)(-)) = +/+$ |
 
+</div>
+
 Let me be more careful. The expression is $\frac{(x-1)(x-2)}{(x+3)(x-2)}$.
 
 Sign analysis:
+
+<div class="table-wrap">
 
 | $x$          | $(x+3)$ | $(x-1)$ | $(x-2)$ | Numerator | Denominator | Ratio |
 | ------------ | ------- | ------- | ------- | --------- | ----------- | ----- |
@@ -77,6 +83,8 @@ Sign analysis:
 | $-3 < x < 1$ | $+$     | $-$     | $-$     | $+$       | $-$         | $-$   |
 | $1 < x < 2$  | $+$     | $+$     | $-$     | $-$       | $-$         | $+$   |
 | $x > 2$      | $+$     | $+$     | $+$     | $+$       | $+$         | $+$   |
+
+</div>
 
 **Step 4: Include or exclude endpoints.**
 

@@ -39,11 +39,15 @@ Key design goals:
 
 ## JVM vs Kotlin/Native vs Kotlin/JS
 
+<div class="table-wrap">
+
 | Target        | Runtime              | Output            | Use Case                       |
 | ------------- | -------------------- | ----------------- | ------------------------------ |
 | JVM           | Java Virtual Machine | `.class` bytecode | Server, Android, existing Java |
 | Kotlin/Native | LLVM                 | Native binaries   | iOS, macOS, Linux, embedded    |
 | Kotlin/JS     | JavaScript engines   | `.js` / IR        | Frontend, Node.js              |
+
+</div>
 
 All three targets share the same language syntax and standard library. Platform-specific APIs are
 Accessed through `expect`/`actual` declarations.

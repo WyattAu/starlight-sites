@@ -151,11 +151,15 @@ $$
 M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_2\})
 $$
 
+<div class="table-wrap">
+
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
 | $q_0$ | $q_1$              | $q_0$              |
 | $q_1$ | $q_1$              | $q_2$              |
 | $q_2$ | $q_2$              | $q_2$              |
+
+</div>
 
 A **nondeterministic finite automaton (NFA)** allows multiple transitions from a state on the same
 Symbol, and $\varepsilon$-transitions (transitions without consuming input). Formally,
@@ -179,11 +183,15 @@ $$
 M = (\{q_0, q_1, q_2\}, \{0, 1\}, \delta, q_0, \{q_0\})
 $$
 
+<div class="table-wrap">
+
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
 | $q_0$ | $q_0$              | $q_1$              |
 | $q_1$ | $q_2$              | $q_0$              |
 | $q_2$ | $q_1$              | $q_2$              |
+
+</div>
 
 _Correctness._ By induction on input length. Base: $x = \varepsilon$,
 $\mathrm{val}(\varepsilon) = 0$ DFA is in $q_0$. Step: if after $x$ the DFA is in $q_r$ (where
@@ -199,11 +207,15 @@ Construct an NFA over $\{0, 1\}$ that accepts strings ending in the substring `0
 
 States: $q_0$ (start), $q_1$ (have seen a `0`), $q_2$ (accept, have seen `01`).
 
+<div class="table-wrap">
+
 | State | $\delta(\cdot, 0)$ | $\delta(\cdot, 1)$ |
 | ----- | ------------------ | ------------------ |
 | $q_0$ | $\{q_0, q_1\}$     | $\{q_0\}$          |
 | $q_1$ | $\emptyset$        | $\{q_2\}$          |
 | $q_2$ | $\{q_1\}$          | $\emptyset$        |
+
+</div>
 
 Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`. It can either stay In
 $q_0$ or move to $q_1$.
@@ -239,11 +251,15 @@ NFA states: $\{q_0, q_1, q_2\}$, $\Sigma = \{0, 1\}$, $F = \{q_2\}$ No $\varepsi
 
 Start state: $\{q_0\}$.
 
+<div class="table-wrap">
+
 | DFA State      | $\delta'(\cdot, 0)$ | $\delta'(\cdot, 1)$ | Accept? |
 | -------------- | ------------------- | ------------------- | ------- |
 | $\{q_0\}$      | $\{q_0, q_1\}$      | $\{q_0\}$           | No      |
 | $\{q_0, q_1\}$ | $\{q_0, q_1\}$      | $\{q_0, q_2\}$      | No      |
 | $\{q_0, q_2\}$ | $\{q_0, q_1\}$      | $\{q_0\}$           | Yes     |
+
+</div>
 
 The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unreachable.
 
@@ -269,6 +285,8 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unre
 **Regex identities.** The following algebraic laws hold for regular expressions and can be used To
 simplify or reason about them:
 
+<div class="table-wrap">
+
 | Identity                                            | Description                    |
 | --------------------------------------------------- | ------------------------------ |
 | $\emptyset \cdot R = R \cdot \emptyset = \emptyset$ | Annihilator for concatenation  |
@@ -282,6 +300,8 @@ simplify or reason about them:
 | $R \cup (S \cup T) = (R \cup S) \cup T$             | Associativity of union         |
 | $R \cup R = R$                                      | Idempotence of union           |
 | $R(S \cup T) = RS \cup RT$                          | Distributivity                 |
+
+</div>
 
 These identities can be used to prove that two regex describe the same language, analogous to
 Simplifying algebraic expressions. Two regex $R_1$ and $R_2$ are equivalent (written
@@ -481,6 +501,8 @@ condition, it is Not necessarily regular.
 
 Regular languages are closed under:
 
+<div class="table-wrap">
+
 | Operation            | Proof technique                         |
 | -------------------- | --------------------------------------- |
 | Union                | NFA union construction                  |
@@ -492,6 +514,8 @@ Regular languages are closed under:
 | Difference           | $A \cap \overline{B}$                   |
 | Homomorphism         | Apply the homomorphism to each symbol   |
 | Inverse homomorphism | Pre-image construction                  |
+
+</div>
 
 **Theorem 2.7 (Intersection via product construction).** If $L_1$ and $L_2$ are regular, then
 $L_1 \cap L_2$ is regular.
@@ -1147,12 +1171,16 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Applications.** Using reductions from $A_{\mathrm{TM}$ We can prove many problems undecidable:
 
+<div class="table-wrap">
+
 | Language                       | Description                         | Reduction from   |
 | ------------------------------ | ----------------------------------- | ---------------- |
 | $\mathrm{HALT_{\mathrm{TM}$    | $\{M, w : M \mathrm{ halts on  w\}$ | $A_{\mathrm{TM}$ |
 | $E_{\mathrm{TM}$               | $\{M : L(M) = \emptyset\}$          | $A_{\mathrm{TM}$ |
 | $\mathrm{REGULAR_{\mathrm{TM}$ | $\{M : L(M) \mathrm{ is regular\}$  | $A_{\mathrm{TM}$ |
 | $\mathrm{EQ_{\mathrm{TM}$      | $\{M_1, M_2 : L(M_1) = L(M_2)\}$    | $E_{\mathrm{TM}$ |
+
+</div>
 
 **Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
 
@@ -1758,6 +1786,8 @@ $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
 $$
 
+<div class="table-wrap">
+
 | Inclusion                                                        | Known to be proper? | Theorem used        |
 | ---------------------------------------------------------------- | ------------------- | ------------------- |
 | $\mathrm{Regular} \subseteq \mathrm{CFL}$                        | Yes                 | Pumping lemma       |
@@ -1769,6 +1799,8 @@ $$
 | $\mathrm{L} \subseteq \mathrm{NL}$                               | Unknown             |                     |
 | $\mathrm{P} \subseteq \mathrm{NP}$                               | Unknown             | Open problem        |
 | $\mathrm{NP} \subseteq \mathrm{coNP}$                            | Unknown             | Open problem        |
+
+</div>
 
 Both inclusions $\mathrm{P} \subseteq \mathrm{NP}$ and $\mathrm{NP} \subseteq \mathrm{PSPACE}$ are
 Known to be proper ($\mathrm{P} \neq \mathrm{PSPACE}$), but the status of $\mathrm{P}$ vs.
@@ -1986,12 +2018,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                              | Site        | Link                                                                         |
 | ---------------------------------- | ----------- | ---------------------------------------------------------------------------- |
 | Discrete Mathematics               | WyattsNotes | [View](/discrete-mathematics/)                      |
 | Algorithms and Data Structures     | WyattsNotes | [View](/algorithms-and-data-structures/)            |
 | Advanced Algorithms                | WyattsNotes | [View](/2-algorithms-and-data-structures/9_algorithms-advanced/)                       |
 | Theory of Computation, MIT 18.404 | MIT         | [View](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

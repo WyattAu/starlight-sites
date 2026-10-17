@@ -564,11 +564,15 @@ $$
 
 **Method for finding $y_p$:** Guess the form of $y_p$ based on $f(x)$.
 
+<div class="table-wrap">
+
 | $f(x)$                 | Guess for $y_p$                  |
 | ---------------------- | -------------------------------- |
 | $e^{kx}$               | $Ce^{kx}$ (if $k$ is not a root) |
 | $kx + b$               | $Ax + B$                         |
 | $\cos kx$ or $\sin kx$ | $A\cos kx + B\sin kx$            |
+
+</div>
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} - 3\dfrac{dy}{dx} + 2y = 4e^{3x}$.
 

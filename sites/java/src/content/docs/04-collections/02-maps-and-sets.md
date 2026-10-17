@@ -150,6 +150,8 @@ NavigableMap<String, Integer> subMap =
 
 **Key methods on `NavigableMap`:**
 
+<div class="table-wrap">
+
 | Method                     | Description                             |
 | -------------------------- | --------------------------------------- |
 | `firstKey()` / `lastKey()` | Lowest / highest key                    |
@@ -161,6 +163,8 @@ NavigableMap<String, Integer> subMap =
 | `subMap(K1, K2)`           | View of keys in range [K1, K2)          |
 | `headMap(K)`               | View of keys less than K                |
 | `tailMap(K)`               | View of keys greater than or equal to K |
+
+</div>
 
 ### `ConcurrentHashMap`
 

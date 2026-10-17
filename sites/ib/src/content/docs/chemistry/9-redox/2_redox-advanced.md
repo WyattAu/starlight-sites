@@ -33,6 +33,8 @@ Energy.
 
 ### Cell Components
 
+<div class="table-wrap">
+
 | Component        | Function                                             |
 | ---------------- | ---------------------------------------------------- |
 | Anode            | Site of oxidation; negative electrode                |
@@ -40,6 +42,8 @@ Energy.
 | Salt bridge      | Maintains electrical neutrality by allowing ion flow |
 | External circuit | Allows electron flow from anode to cathode           |
 | Electrolyte      | Provides ions for internal conduction                |
+
+</div>
 
 ### Half-Reactions and Cell Notation
 
@@ -66,6 +70,8 @@ Standard conditions: $298\mathrm{ K}$, $1\mathrm{ M}$ solutions, $100\mathrm{ kP
 
 ### Standard Reduction Potentials (Selected)
 
+<div class="table-wrap">
+
 | Half-reaction                                                                            | $E^\circ$ (V) |
 | ---------------------------------------------------------------------------------------- | ------------- |
 | $\mathrm{F}_2 + 2e^- \to 2\mathrm{F}^-$                                                  | $+2.87$       |
@@ -77,6 +83,8 @@ Standard conditions: $298\mathrm{ K}$, $1\mathrm{ M}$ solutions, $100\mathrm{ kP
 | $\mathrm{Fe}^{2+} + 2e^- \to \mathrm{Fe}$                                                | $-0.44$       |
 | $\mathrm{Zn}^{2+} + 2e^- \to \mathrm{Zn}$                                                | $-0.76$       |
 | $\mathrm{Na}^+ + e^- \to \mathrm{Na}$                                                    | $-2.71$       |
+
+</div>
 
 ### Calculating Standard Cell Potential
 
@@ -99,11 +107,15 @@ $$
 
 ### Predicting Spontaneity
 
+<div class="table-wrap">
+
 | Condition                       | Result                                       |
 | ------------------------------- | -------------------------------------------- |
 | $E_{\mathrm{cell}}^\circ \gt 0$ | Spontaneous (galvanic cell)                  |
 | $E_{\mathrm{cell}}^\circ = 0$   | At equilibrium                               |
 | $E_{\mathrm{cell}}^\circ \lt 0$ | Non-spontaneous (electrolytic cell required) |
+
+</div>
 
 The more positive $E^\circ$ value, the stronger the oxidizing agent. The more negative $E^\circ$
 Value, the stronger the reducing agent.
@@ -246,17 +258,25 @@ $$
 
 **At the cathode**: the species with the **least negative** (most positive) $E^\circ$ is reduced.
 
+<div class="table-wrap">
+
 | Cathode products | Condition                                                                    |
 | ---------------- | ---------------------------------------------------------------------------- |
 | Metal            | If the metal is less reactive than hydrogen ($E^\circ \gt -0.83\mathrm{ V}$) |
 | Hydrogen         | If the metal is more reactive than hydrogen                                  |
 
+</div>
+
 **At the anode**: the species with the **least positive** (most negative) $E^\circ$ is oxidized.
+
+<div class="table-wrap">
 
 | Anode products              | Condition                             |
 | --------------------------- | ------------------------------------- |
 | Halogen (Cl$_2$Br$_2$I$_2$) | If halide ions present (except F$^-$) |
 | Oxygen                      | Otherwise (from water oxidation)      |
+
+</div>
 :::
 
 :::note
@@ -334,12 +354,16 @@ Overall: $4\mathrm{Fe} + 3\mathrm{O}_2 + 6\mathrm{H}_2\mathrm{O} \to 4\mathrm{Fe
 
 **Prevention methods:**
 
+<div class="table-wrap">
+
 | Method                     | Principle                                    |
 | -------------------------- | -------------------------------------------- |
 | Sacrificial anode (Zn)     | Zn is more reactive, corrodes preferentially |
 | Galvanization (Zn coating) | Same principle; Zn acts as sacrificial anode |
 | Painting/oiling            | Barrier between Fe and O$_2$/H$_2$O          |
 | Alloying (stainless steel) | Cr forms protective oxide layer              |
+
+</div>
 
 ---
 

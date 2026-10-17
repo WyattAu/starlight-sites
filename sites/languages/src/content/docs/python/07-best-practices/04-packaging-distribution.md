@@ -434,6 +434,8 @@ poetry build
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature         | pip                   | poetry            | pipenv         | conda             |
 | --------------- | --------------------- | ----------------- | -------------- | ----------------- |
 | Lock file       | Manual (pip-tools)    | `poetry.lock`     | `Pipfile.lock` | `environment.yml` |
@@ -442,6 +444,8 @@ poetry build
 | Build system    | setuptools/hatch/flit | Built-in          | pip            | Built-in          |
 | Speed           | Fast                  | Medium            | Slow           | Slow              |
 | Ecosystem       | Largest               | Growing           | Declining      | Scientific        |
+
+</div>
 
 ## Package Structure
 
@@ -787,6 +791,8 @@ Packages.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Feature        | setuptools  | hatch    | flit       |
 | -------------- | ----------- | -------- | ---------- |
 | Maturity       | Most mature | Modern   | Minimal    |
@@ -795,6 +801,8 @@ Packages.
 | Speed          | Medium      | Fast     | Fast       |
 | Complexity     | High        | Medium   | Low        |
 | VCS versioning | Via plugin  | Built-in | Via plugin |
+
+</div>
 
 :::tip
 Need compatibility with existing tooling or complex build requirements (e.g., C extensions).

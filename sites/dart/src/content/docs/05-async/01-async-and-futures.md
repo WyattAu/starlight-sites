@@ -192,10 +192,14 @@ JavaScript's `Observable`.
 
 ### Stream Types
 
+<div class="table-wrap">
+
 | Type                    | Description                                                    | Use Case                                   |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------ |
 | **Single subscription** | One listener only; events are buffered if no listener exists   | File I/O, HTTP response body               |
 | **Broadcast**           | Multiple listeners; events are discarded if no listener exists | UI events, sensor data, WebSocket messages |
+
+</div>
 
 ```dart
 // Creating a single-subscription stream
@@ -354,10 +358,14 @@ instead of copying.
 
 Dart's event loop processes events in this order:
 
+<div class="table-wrap">
+
 | Priority    | Queue           | Description                                          |
 | ----------- | --------------- | ---------------------------------------------------- |
 | 1 (highest) | Microtask queue | `scheduleMicrotask``Future.then``await` continuation |
 | 2           | Event queue     | I/O callbacks, timers, gestures, isolates            |
+
+</div>
 
 ```dart
 // Execution order demonstration

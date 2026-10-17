@@ -96,6 +96,8 @@ Response to COVID-19 and the energy crisis. The long-run average is closer to 40
 **Direct taxes** are levied on income, wealth, or profits. They are progressive and Difficult to
 evade.
 
+<div class="table-wrap">
+
 | Tax Type          | Description                        | Examples                     |
 | ----------------- | ---------------------------------- | ---------------------------- |
 | Income tax        | Tax on earned income               | PAYE, self-assessment        |
@@ -104,8 +106,12 @@ evade.
 | Inheritance tax   | Tax on transfer of wealth at death | 40% above £325,000 threshold |
 | Council tax       | Tax on property value (local)      | Bands A–H                    |
 
+</div>
+
 **Indirect taxes** are levied on goods and services. They are regressive and easier to Pass on to
 consumers.
+
+<div class="table-wrap">
 
 | Tax Type       | Description                                    | Examples                               |
 | -------------- | ---------------------------------------------- | -------------------------------------- |
@@ -113,6 +119,8 @@ consumers.
 | Excise duties  | Tax on specific goods (alcohol, tobacco, fuel) | Per-unit or ad valorem                 |
 | Customs duties | Tax on imports                                 | Varies by product and trade agreements |
 | Stamp duty     | Tax on property and share transactions         | Percentage of transaction value        |
+
+</div>
 
 ### 3.2 Progressive, Proportional, and Regressive Taxation
 
@@ -264,11 +272,15 @@ Concern:
 
 Used to increase aggregate demand during a recession:
 
+<div class="table-wrap">
+
 | Tool                       | Action                                    | Effect on AD                           |
 | -------------------------- | ----------------------------------------- | -------------------------------------- |
 | Increase $G$               | Build infrastructure, hire public workers | AD shifts right directly               |
 | Decrease $T$               | Cut income tax, VAT, corporation tax      | AD shifts right via higher $C$ and $I$ |
 | Increase transfer payments | Raise benefits, pensions                  | AD shifts right via higher $C$         |
+
+</div>
 
 The total effect on output:
 
@@ -282,11 +294,15 @@ Where $k$ is the complex multiplier.
 
 Used to reduce aggregate demand during an overheating economy (to combat inflation):
 
+<div class="table-wrap">
+
 | Tool                       | Action                         | Effect on AD                 |
 | -------------------------- | ------------------------------ | ---------------------------- |
 | Decrease $G$               | Cut public spending programmes | AD shifts left directly      |
 | Increase $T$               | Raise income tax, VAT          | AD shifts left via lower $C$ |
 | Decrease transfer payments | Reduce benefits                | AD shifts left via lower $C$ |
+
+</div>
 
 ### 5.3 The Balanced Budget Multiplier
 
@@ -355,6 +371,8 @@ Prices, reducing private sector profitability.
 
 ### 6.4 Factors Affecting the Degree of Crowding Out
 
+<div class="table-wrap">
+
 | Factor                          | More crowding out              | Less crowding out                         |
 | ------------------------------- | ------------------------------ | ----------------------------------------- |
 | State of the economy            | At full employment             | In deep recession (idle resources)        |
@@ -362,6 +380,8 @@ Prices, reducing private sector profitability.
 | Elasticity of investment demand | Investment is interest-elastic | Investment is interest-inelastic          |
 | Source of financing             | Domestic borrowing             | Foreign borrowing / monetary financing    |
 | Type of spending                | Current spending (consumption) | Capital spending (productivity-enhancing) |
+
+</div>
 
 :::tip
 Answer recognises that crowding out is less severe in a recession (Keynesian view) and more severe
@@ -418,12 +438,16 @@ Surplus emerges).
 
 ### 7.4 Discretionary vs Automatic Fiscal Policy
 
+<div class="table-wrap">
+
 | Feature       | Automatic stabilisers                      | Discretionary fiscal policy                               |
 | ------------- | ------------------------------------------ | --------------------------------------------------------- |
 | Timing        | Immediate (no lag)                         | Subject to recognition, decision, and implementation lags |
 | Reversibility | Automatic (reverse when cycle turns)       | Politically difficult to reverse (e.g., spending cuts)    |
 | Scope         | Limited to built-in tax/benefit structures | Can target specific sectors or problems                   |
 | Political     | Non-controversial (no active decision)     | Subject to political debate and lobbying                  |
+
+</div>
 
 ## 8. Evaluation of Fiscal Policy
 
@@ -902,6 +926,8 @@ GBP 125,140.
 
 Average tax rate at different income levels:
 
+<div class="table-wrap">
+
 | Gross income | Tax paid | Average tax rate |
 | :----------: | :------: | :--------------: |
 |  GBP 20,000  |  1,486   |       7.4%       |
@@ -909,6 +935,8 @@ Average tax rate at different income levels:
 |  GBP 50,000  |  7,486   |      15.0%       |
 |  GBP 80,000  |  17,486  |      21.9%       |
 | GBP 150,000  |  47,486  |      31.7%       |
+
+</div>
 
 **Progressivity effect:** If GDP falls 5%, tax revenue falls by MORE than 5% because higher earners
 (who pay higher rates) see their incomes fall proportionally more in a recession (bonuses, capital

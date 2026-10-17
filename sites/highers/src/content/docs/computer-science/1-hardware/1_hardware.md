@@ -62,6 +62,8 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Hexadecimal conversion table:**
 
+<div class="table-wrap">
+
 | Hex | Binary | Decimal |
 | --- | ------ | ------- |
 | 0   | 0000   | 0       |
@@ -80,6 +82,8 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 | D   | 1101   | 13      |
 | E   | 1110   | 14      |
 | F   | 1111   | 15      |
+
+</div>
 
 **Why hexadecimal?** Hexadecimal is a convenient shorthand for binary. Each hex digit represents
 Exactly 4 bits, so an 8-bit byte can be written as two hex digits (e.g., `11010110` = `D6`). This is
@@ -127,11 +131,15 @@ $\blacksquare$
 
 **Two's complement range summary:**
 
+<div class="table-wrap">
+
 | Bits | Minimum        | Maximum       |
 | ---- | -------------- | ------------- |
 | 8    | -128           | 127           |
 | 16   | -32,768        | 32,767        |
 | 32   | -2,147,483,648 | 2,147,483,647 |
+
+</div>
 
 **Binary addition:**
 
@@ -146,9 +154,13 @@ $$
 
 **Binary addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Binary subtraction:** Add the two's complement.
 
@@ -242,6 +254,8 @@ Bits per pixel.
 **Vector images:** Images described by mathematical equations (coordinates, lines, curves). Scale
 Without loss of quality. Smaller file sizes for simple images.
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
@@ -250,6 +264,8 @@ Without loss of quality. Smaller file sizes for simple images.
 | Best for       | Photographs                 | Logos, icons, diagrams      |
 | Editing        | Pixel-level manipulation    | Edit shapes and paths       |
 | Zoom           | Becomes pixelated           | Always crisp                |
+
+</div>
 
 ### Representing Sound
 
@@ -311,6 +327,8 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 
 **Compression comparison:**
 
+<div class="table-wrap">
+
 | Feature   | Lossless                   | Lossy                 |
 | --------- | -------------------------- | --------------------- |
 | Data loss | None                       | Some data discarded   |
@@ -318,6 +336,8 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 | Quality   | Identical to original      | Reduced from original |
 | Examples  | PNG, FLAC, ZIP             | JPEG, MP3, MPEG       |
 | Best for  | Text, code, medical images | Photos, audio, video  |
+
+</div>
 
 **Worked Example.** Explain why lossless compression is used for executable files and documents but
 Lossy compression is used for photographs.
@@ -354,6 +374,8 @@ Sequentially by the CPU.
 
 **Von Neumann vs Harvard architecture:**
 
+<div class="table-wrap">
+
 | Feature     | Von Neumann                       | Harvard                                       |
 | ----------- | --------------------------------- | --------------------------------------------- |
 | Memory      | Shared for data and instructions  | Separate data and instruction memory          |
@@ -361,6 +383,8 @@ Sequentially by the CPU.
 | Simplicity  | Simpler hardware                  | More complex hardware                         |
 | Performance | Bottleneck when fetching and data | Can fetch instruction and data simultaneously |
 | Use         | Most general-purpose computers    | DSP, some microcontrollers                    |
+
+</div>
 
 **Von Neumann bottleneck.** Because data and instructions share a single bus, the CPU cannot fetch
 an Instruction and read/write data simultaneously. Modern processors mitigate this with caches,
@@ -406,6 +430,8 @@ Components. Manages the fetch-decode-execute cycle.
 
 **Registers:** Small, fast storage within the CPU.
 
+<div class="table-wrap">
+
 | Register                      | Purpose                                      |
 | ----------------------------- | -------------------------------------------- |
 | Program Counter (PC)          | Address of the next instruction              |
@@ -413,6 +439,8 @@ Components. Manages the fetch-decode-execute cycle.
 | Memory Data Register (MDR)    | Data fetched from or to be written to memory |
 | Instruction Register (IR)     | Current instruction being executed           |
 | Accumulator (ACC)             | Stores results of ALU operations             |
+
+</div>
 
 **Key distinction:** The PC holds an **address** (where to go next). The MAR also holds an
 **address** (where to read/write). The MDR holds the actual **data** (what was read or what to
@@ -449,6 +477,8 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 
 ### Memory Hierarchy
 
+<div class="table-wrap">
+
 | Level     | Speed     | Capacity | Cost    | Volatile? |
 | --------- | --------- | -------- | ------- | --------- |
 | Registers | Fastest   | Smallest | Highest | Yes       |
@@ -456,6 +486,8 @@ Without cache: 100 ns. Speedup: $100 / 8.92 \approx 11.2\times$.
 | RAM       | Fast      | Medium   | Medium  | Yes       |
 | SSD       | Moderate  | Large    | Medium  | No        |
 | HDD       | Slow      | Largest  | Lowest  | No        |
+
+</div>
 
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference: programs tend to access the same data repeatedly (temporal locality) and data
@@ -483,13 +515,19 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 
 **Bus comparison:**
 
+<div class="table-wrap">
+
 | Bus         | Direction      | Carries                                         |
 | ----------- | -------------- | ----------------------------------------------- |
 | Address bus | CPU to memory  | Memory addresses                                |
 | Data bus    | CPU to/from    | Data and instructions                           |
 | Control bus | CPU to devices | Control signals (read, write, clock, interrupt) |
 
+</div>
+
 ### Input/Output Devices
+
+<div class="table-wrap">
 
 | Device      | Type   | Function                             |
 | ----------- | ------ | ------------------------------------ |
@@ -501,6 +539,8 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Printer     | Output | Produces hard copies                 |
 | Speaker     | Output | Produces audio                       |
 | Touchscreen | Both   | Input (touch) and output (display)   |
+
+</div>
 
 ### Operating Systems
 
@@ -515,6 +555,8 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 
 **Types of operating systems:**
 
+<div class="table-wrap">
+
 | Type      | Description                   | Examples              |
 | --------- | ----------------------------- | --------------------- |
 | Desktop   | Personal use, multitasking    | Windows, macOS, Linux |
@@ -523,7 +565,11 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Real-time | Guaranteed response times     | VxWorks, FreeRTOS     |
 | Embedded  | Limited resources, dedicated  | Car ECU, smart TV     |
 
+</div>
+
 **GUI vs CLI:**
+
+<div class="table-wrap">
 
 | Feature     | GUI                   | CLI                      |
 | ----------- | --------------------- | ------------------------ |
@@ -533,7 +579,11 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Automation  | Limited               | Easy with scripting      |
 | Examples    | Windows, macOS        | Linux terminal, CMD      |
 
+</div>
+
 **Process scheduling algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
@@ -541,6 +591,8 @@ $2 \times 10^9 \times 4 = 8 \times 10^9$ bytes/second = 8 GB/s.
 | Priority-based           | Higher-priority processes get CPU time first           | Low      |
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
+
+</div>
 
 **Worked Example.** Explain why a real-time operating system is needed in a car's anti-lock braking
 System (ABS).
@@ -556,6 +608,8 @@ system Spends more time swapping pages than executing instructions.
 
 ### RAM vs ROM
 
+<div class="table-wrap">
+
 | Feature    | RAM            | ROM                           |
 | ---------- | -------------- | ----------------------------- |
 | Volatile   | Yes            | No                            |
@@ -564,6 +618,8 @@ system Spends more time swapping pages than executing instructions.
 | Use        | Working memory | Boot instructions (BIOS/UEFI) |
 | Speed      | Fast           | Fast                          |
 | Cost       | Higher per MB  | Lower per MB                  |
+
+</div>
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
@@ -580,6 +636,8 @@ into RAM.
 - **SRAM:** Used for CPU cache. Stores each bit in a flip-flop (transistor circuit). No refreshing
   needed. Faster but more expensive and lower density.
 
+<div class="table-wrap">
+
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
 | Used for | Main memory (RAM) | CPU cache (L1/L2/L3) |
@@ -589,7 +647,11 @@ into RAM.
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
 
+</div>
+
 ### Secondary Storage Comparison
+
+<div class="table-wrap">
 
 | Device    | Speed  | Capacity   | Durability | Cost         |
 | --------- | ------ | ---------- | ---------- | ------------ |
@@ -598,6 +660,8 @@ into RAM.
 | USB flash | Medium | Low-Medium | High       | Low          |
 | Optical   | Slow   | Low-Medium | Low        | Very low     |
 | Cloud     | Varies | Varies     | Varies     | Subscription |
+
+</div>
 
 **Choosing storage: practical considerations:**
 
@@ -608,6 +672,8 @@ into RAM.
 
 **HDD vs SSD in detail:**
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -617,6 +683,8 @@ into RAM.
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
+
+</div>
 
 ### Embedded Systems
 
@@ -635,6 +703,8 @@ Pacemakers, smart thermostats.
 - Reliable and designed to run continuously
 - Operate in real-time (must respond within strict time constraints)
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -642,6 +712,8 @@ Pacemakers, smart thermostats.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 ### Interrupts (HL)
 
@@ -660,12 +732,16 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 **Types of interrupts:**
 
+<div class="table-wrap">
+
 | Type         | Source                    | Priority | Example              |
 | ------------ | ------------------------- | -------- | -------------------- |
 | Hardware     | Hardware devices          | High     | Disk I/O complete    |
 | Software     | Program (INT instruction) | Medium   | System call          |
 | Timer        | System clock              | Variable | Scheduler time slice |
 | Non-maskable | Critical hardware failure | Highest  | Memory parity error  |
+
+</div>
 
 ---
 

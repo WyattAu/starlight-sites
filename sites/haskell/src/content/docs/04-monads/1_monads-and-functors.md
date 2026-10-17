@@ -657,6 +657,8 @@ associativity = do
 
 ## Choosing the Right Monad
 
+<div class="table-wrap">
+
 | Monad      | Use Case        | When to Use                                |
 | ---------- | --------------- | ------------------------------------------ |
 | `Maybe`    | Optional values | Computations that may fail with no details |
@@ -667,6 +669,8 @@ associativity = do
 | `Writer w` | Logging         | Accumulate log messages alongside results  |
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
+
+</div>
 
 ## Combining Effects
 

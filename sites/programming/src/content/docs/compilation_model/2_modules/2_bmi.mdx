@@ -62,11 +62,15 @@ Textually included the module's declarations [N4950 S15.5].
 The BMI format is **not standard**. It is an implementation detail of the compiler, highly sensitive
 to version and configuration.
 
+<div class="table-wrap">
+
 | Compiler  | Extension | Format                                 | Flag                            |
 | :-------- | :-------- | :------------------------------------- | :------------------------------ |
 | **Clang** | `.pcm`    | Precompiled Module                     | `-fmodule-file=<name>=<path>`   |
 | **MSVC**  | `.ifc`    | Interfaces Format (Structured Storage) | `/reference <path>`             |
 | **GCC**   | `.gcm`    | GCC Module                             | `-fmodule-mapper=<socket/file>` |
+
+</div>
 
 ### BMI Generation with GCC and Clang
 
@@ -435,11 +439,15 @@ To mitigate the serialization bottleneck:
 
 Module support varies significantly across compilers as of 2025:
 
+<div class="table-wrap">
+
 | Compiler  | Version        | `import std;` | BMI Format | Scanning (P1689) | Status           |
 | :-------- | :------------- | :------------ | :--------- | :--------------- | :--------------- |
 | **Clang** | 18+            | Yes           | `.pcm`     | Yes              | Production-ready |
 | **GCC**   | 14+            | Experimental  | `.gcm`     | Partial          | Experimental     |
 | **MSVC**  | VS 2022 17.10+ | Yes           | `.ifc`     | Yes (CMake)      | Production-ready |
+
+</div>
 
 ### Clang
 
@@ -575,6 +583,8 @@ Internals, exporting only the concrete type aliases.
 
 The exact rules for BMI invalidation are compiler-specific but follow a general pattern:
 
+<div class="table-wrap">
+
 | Change                                | BMI Invalidated? | Downstream Rebuild? |
 | :------------------------------------ | :--------------- | :------------------ |
 | Module interface source modified      | Yes              | Yes                 |
@@ -583,6 +593,8 @@ The exact rules for BMI invalidation are compiler-specific but follow a general 
 | Compiler flag `-D` changed            | Yes              | Yes                 |
 | Compiler version changed              | Yes              | Yes                 |
 | Optimization level `-O` changed       | yes              | Yes                 |
+
+</div>
 
 The transitive nature of invalidation is critical: if Module C imports Module B which imports Module
 A, a change to A's interface invalidates B's BMI, which invalidates C's BMI. This cascade is why
@@ -596,6 +608,8 @@ Files it consumed. If any of those BMIs are newer than the TU's object file, the
 BMI-related errors are among the most difficult to diagnose in C++ module builds. Common symptoms
 and their causes:
 
+<div class="table-wrap">
+
 | Symptom                  | Likely Cause                                          |
 | :----------------------- | :---------------------------------------------------- |
 | "module file not found"  | BMI path not passed to compiler (`-fmodule-file`)     |
@@ -604,6 +618,8 @@ and their causes:
 | "entity not found"       | Missing `export` on the declaration                   |
 | Infinite compilation     | Circular dependency (should be caught by scanner)     |
 | "module already defined" | Module compiled twice (check CMake source lists)      |
+
+</div>
 
 **Diagnostic workflow:**
 
@@ -654,11 +670,15 @@ Minimize the critical path through the build.
 When splitting a module into partitions, each partition interface (`.cppm`) produces a BMI, while
 Partition implementation units (`.cpp`) do not. This distinction has build-time implications:
 
+<div class="table-wrap">
+
 | Design Choice                                       | BMI Count | Parallelism              | Interface Visibility           |
 | :-------------------------------------------------- | :-------- | :----------------------- | :----------------------------- |
 | Everything in primary interface                     | 1         | None (single bottleneck) | Full                           |
 | All partitions as interface units                   | N+1       | High (flat graph)        | Full                           |
 | 1 interface partition + N implementation partitions | 2         | High                     | Limited to interface partition |
+
+</div>
 
 The third option is often optimal for large modules: put the public API in a single partition
 Interface, and move all implementation details into implementation partitions. This produces only

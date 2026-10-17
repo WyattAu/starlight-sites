@@ -57,6 +57,8 @@ $$
 
 Methods for measuring reaction rate:
 
+<div class="table-wrap">
+
 | Method         | Measured Quantity          | Example                        |
 | -------------- | -------------------------- | ------------------------------ |
 | Gas collection | Volume of gas vs time      | CaCO$_3$ + HCl $\to$ CO$_2$    |
@@ -65,6 +67,8 @@ Methods for measuring reaction rate:
 | Colorimetry    | Absorbance vs time         | Coloured product formation     |
 | Conductivity   | Conductance vs time        | Ions produced/consumed         |
 | Clock reaction | Time for observable change | Iodine clock reaction          |
+
+</div>
 
 ---
 
@@ -166,11 +170,15 @@ Where:
 
 ### Orders of Reaction
 
+<div class="table-wrap">
+
 | Order  | Effect on Rate                           | Concentration-Time Graph |
 | ------ | ---------------------------------------- | ------------------------ |
 | Zero   | Rate is independent of concentration     | Linear decrease          |
 | First  | Rate is proportional to concentration    | Exponential decay        |
 | Second | Rate is proportional to $[\mathrm{A}]^2$ | Steeper initial decline  |
+
+</div>
 
 ### Units of the Rate Constant
 
@@ -180,12 +188,16 @@ $$
 \mathrm{Units of } k = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{(\mathrm{mol/L})^{m+n}} = (\mathrm{mol/L})^{1-(m+n)}\cdot\mathrm{s}^{-1}
 $$
 
+<div class="table-wrap">
+
 | Overall Order | Units of $k$              |
 | ------------- | ------------------------- |
 | 0             | mol/(L$\cdot$S)           |
 | 1             | s$^{-1}$                  |
 | 2             | L/(mol$\cdot$S)           |
 | 3             | L$^2$/(mol$^2$, $\cdot$s) |
+
+</div>
 
 ### Zero-Order Reactions
 
@@ -257,11 +269,15 @@ A plot of $\dfrac{1}{[\mathrm{A}]}$ vs $t$ gives a straight line with gradient $
 :::note[Example]
 For the reaction A + B $\to$ products, the following data was obtained:
 
+<div class="table-wrap">
+
 | Experiment | [A] (mol/L) | [B] (mol/L) | Initial Rate (mol/L/s) |
 | ---------- | ----------- | ----------- | ---------------------- |
 | 1          | 0.10        | 0.10        | 0.020                  |
 | 2          | 0.20        | 0.10        | 0.040                  |
 | 3          | 0.10        | 0.20        | 0.080                  |
+
+</div>
 
 **Order with respect to A**: Doubling [A] (1 $\to$ 2) doubles the rate. Order $= 1$.
 
@@ -279,11 +295,15 @@ $$
 
 ### Graphical Method
 
+<div class="table-wrap">
+
 | Plot                     | Straight Line Indicates |
 | ------------------------ | ----------------------- |
 | $[\mathrm{A}]$ vs $t$    | Zero order              |
 | $\ln[\mathrm{A}]$ vs $t$ | First order             |
 | $1/[\mathrm{A}]$ vs $t$  | Second order            |
+
+</div>
 
 ### Continuous Monitoring Method
 
@@ -383,11 +403,15 @@ A reaction mechanism is a sequence of elementary steps that together give the ov
 
 The molecularity of an elementary step is the number of molecules/ions that collide:
 
+<div class="table-wrap">
+
 | Molecularity | Description             | Rate Law                                                     |
 | ------------ | ----------------------- | ------------------------------------------------------------ |
 | Unimolecular | One molecule reacts     | Rate $= k[\mathrm{A}]$ (first order)                         |
 | Bimolecular  | Two molecules collide   | Rate $= k[\mathrm{A}][\mathrm{B}]$ (second order)            |
 | Termolecular | Three molecules collide | Rate $= k[\mathrm{A}][\mathrm{B}][\mathrm{C}]$ (third order) |
+
+</div>
 
 ### Rate-Determining Step
 
@@ -431,11 +455,15 @@ The overall order is 2 (first order in NO$_2$First order in F$_2$).
 
 ### Types of Catalysts
 
+<div class="table-wrap">
+
 | Type          | Description                     | Examples                                                          |
 | ------------- | ------------------------------- | ----------------------------------------------------------------- |
 | Homogeneous   | Same phase as reactants         | Acid catalysis, transition metal ions in solution                 |
 | Heterogeneous | Different phase from reactants  | Solid catalysts (Fe in Haber process, Pt in catalytic converters) |
 | Enzymes       | Biological catalysts (proteins) | Amylase, catalase, DNA polymerase                                 |
+
+</div>
 
 ### How Catalysts Work
 
@@ -454,12 +482,16 @@ Catalysts provide an alternative pathway with lower activation energy:
 
 ### Activation Energy Profile Diagrams
 
+<div class="table-wrap">
+
 | Feature                | Uncatalysed   | Catalysed    |
 | ---------------------- | ------------- | ------------ |
 | $E_a$                  | Higher        | Lower        |
 | $\Delta H$             | Same          | Same         |
 | Transition state       | Higher energy | Lower energy |
 | Reactants and products | Same energy   | Same energy  |
+
+</div>
 
 ---
 
@@ -487,11 +519,15 @@ $$
 
 The following data was obtained for the reaction A + B $\to$ C:
 
+<div class="table-wrap">
+
 | Experiment | [A] (mol/L) | [B] (mol/L) | Rate (mol/L/s)       |
 | ---------- | ----------- | ----------- | -------------------- |
 | 1          | 0.20        | 0.10        | $4.0 \times 10^{-3}$ |
 | 2          | 0.40        | 0.10        | $8.0 \times 10^{-3}$ |
 | 3          | 0.20        | 0.20        | $4.0 \times 10^{-3}$ |
+
+</div>
 
 **(a)** Deduce the order with respect to A and B.
 
@@ -579,6 +615,8 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 
 ## Summary
 
+<div class="table-wrap">
+
 | Concept                | Key Formula                                                                   |
 | ---------------------- | ----------------------------------------------------------------------------- |
 | Rate equation          | $\mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$                               |
@@ -587,6 +625,8 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 | Two-point Arrhenius    | $\ln(k_2/k_1) = \dfrac{E_a}{R}\!\left(\dfrac{1}{T_1} - \dfrac{1}{T_2}\right)$ |
 | First-order half-life  | $t_{1/2} = \dfrac{0.693}{k}$                                                  |
 | First-order integrated | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                                    |
+
+</div>
 :::
 
 :::tip[Exam Strategy]
@@ -610,19 +650,27 @@ Equilibrium approximations.
 
 ### Concentration-Time Graphs for Different Orders
 
+<div class="table-wrap">
+
 | Order  | [A] vs t Graph                 | ln[A] vs t Graph | 1/[A] vs t Graph |
 | ------ | ------------------------------ | ---------------- | ---------------- |
 | Zero   | Straight line (negative slope) | Curve            | Curve            |
 | First  | Exponential decay              | Straight line    | Curve            |
 | Second | Steeper initial decline        | Curve            | Straight line    |
 
+</div>
+
 ### Integrated Rate Laws Summary
+
+<div class="table-wrap">
 
 | Order  | Rate Equation            | Integrated Form                                            | Half-Life                    |
 | ------ | ------------------------ | ---------------------------------------------------------- | ---------------------------- |
 | Zero   | Rate $= k$               | $[\mathrm{A}] = [\mathrm{A}]_0 - kt$                       | $\dfrac{[\mathrm{A}]_0}{2k}$ |
 | First  | Rate $= k[\mathrm{A}]$   | $\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt$                 | $\dfrac{\ln 2}{k}$           |
 | Second | Rate $= k[\mathrm{A}]^2$ | $\dfrac{1}{[\mathrm{A}]} = \dfrac{1}{[\mathrm{A}]_0} + kt$ | $\dfrac{1}{k[\mathrm{A}]_0}$ |
+
+</div>
 :::
 
 :::note[Example]
@@ -661,6 +709,8 @@ $$
 
 ### Experimental Techniques for Rate Determination
 
+<div class="table-wrap">
+
 | Technique    | Measurement                       | Suitable Reactions       |
 | ------------ | --------------------------------- | ------------------------ |
 | Gas syringe  | Volume of gas vs time             | Gas-producing reactions  |
@@ -670,6 +720,8 @@ $$
 | Conductivity | Conductance vs time               | Ions produced/consumed   |
 | Pressure     | Pressure vs time                  | Gas-phase reactions      |
 | Clock method | Time for visible change           | Iodine clock, persulfate |
+
+</div>
 
 ### The Iodine Clock Reaction
 
@@ -734,6 +786,8 @@ Where:
 
 ### Factors Affecting Enzyme Activity
 
+<div class="table-wrap">
+
 | Factor                  | Effect                                                                       |
 | ----------------------- | ---------------------------------------------------------------------------- |
 | Temperature             | Optimum temperature; denaturation above                                      |
@@ -741,6 +795,8 @@ Where:
 | Substrate concentration | Increases rate until $V_{\max}$                                              |
 | Enzyme concentration    | Increases $V_{\max}$                                                         |
 | Inhibitors              | Competitive: increases apparent $K_M$; Non-competitive: decreases $V_{\max}$ |
+
+</div>
 
 ---
 
@@ -810,12 +866,16 @@ $2^2 = 4$. The reaction is second order overall.
 
 The following data was collected for the reaction A + 2B $\to$ C + D:
 
+<div class="table-wrap">
+
 | Experiment | [A] (M) | [B] (M) | Initial Rate (M/s)   |
 | ---------- | ------- | ------- | -------------------- |
 | 1          | 0.10    | 0.10    | $2.0 \times 10^{-4}$ |
 | 2          | 0.20    | 0.10    | $8.0 \times 10^{-4}$ |
 | 3          | 0.10    | 0.20    | $2.0 \times 10^{-4}$ |
 | 4          | 0.20    | 0.20    | $8.0 \times 10^{-4}$ |
+
+</div>
 
 **(a)** Determine the order with respect to A and B.
 
@@ -869,15 +929,23 @@ When given concentration-time data (not initial rates), use graphical methods:
 :::note[Example]
 The concentration of a reactant was measured over time:
 
+<div class="table-wrap">
+
 | Time (min) | 0    | 10   | 20   | 30    | 40     |
 | ---------- | ---- | ---- | ---- | ----- | ------ |
 | [A] (M)    | 1.00 | 0.50 | 0.25 | 0.125 | 0.0625 |
 
+</div>
+
 Plotting $\ln[\mathrm{A}]$ vs $t$:
+
+<div class="table-wrap">
 
 | Time (min)        | 0   | 10       | 20       | 30       | 40       |
 | ----------------- | --- | -------- | -------- | -------- | -------- |
 | $\ln[\mathrm{A}]$ | 0   | $-0.693$ | $-1.386$ | $-2.079$ | $-2.773$ |
+
+</div>
 
 The $\ln[\mathrm{A}]$ vs $t$ plot is linear with gradient $\approx -0.0693$ Confirming first order
 with $k = 0.0693\mathrm{ min}^{-1}$.
@@ -926,6 +994,8 @@ A catalyst provides an alternative pathway with a lower $E_a$:
 
 ### Heterogeneous Catalysts in Industry
 
+<div class="table-wrap">
+
 | Catalyst   | Process               | Reaction                                     |
 | ---------- | --------------------- | -------------------------------------------- |
 | Iron       | Haber process         | N$_2$ + 3H$_2$ $\rightleftharpoons$ 2NH$_3$  |
@@ -933,6 +1003,8 @@ A catalyst provides an alternative pathway with a lower $E_a$:
 | Pt/Rh      | Ostwald process       | 4NH$_3$ + 5O$_2$ $\to$ 4NO + 6H$_2$O         |
 | Ni         | Hydrogenation         | Alkene $\to$ alkane                          |
 | ZrO$_2$    | Ziegler-Natta process | Polymerisation of alkenes                    |
+
+</div>
 
 ---
 
@@ -1009,11 +1081,15 @@ Line with gradient $-k$.
 In an experiment to determine the order of reaction with respect to iodide ions, the following
 Initial rate data was obtained:
 
+<div class="table-wrap">
+
 | [I$^-$] (M) | [S$_2$O$_8^{2-}$] (M) | Initial Rate (M/s)   |
 | ----------- | --------------------- | -------------------- |
 | 0.10        | 0.10                  | $1.0 \times 10^{-5}$ |
 | 0.20        | 0.10                  | $2.0 \times 10^{-5}$ |
 | 0.10        | 0.20                  | $2.0 \times 10^{-5}$ |
+
+</div>
 
 **(a)** Determine the rate equation.
 
@@ -1048,11 +1124,15 @@ The slow step involves one molecule of each reactant, matching the rate equation
 
 For the reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ The following data was obtained:
 
+<div class="table-wrap">
+
 | Experiment | $[\mathrm{A}]$ (mol/L) | $[\mathrm{B}]$ (mol/L) | Initial Rate (mol/L/s) |
 | ---------- | ---------------------- | ---------------------- | ---------------------- |
 | 1          | $0.10$                 | $0.10$                 | $1.2 \times 10^{-3}$   |
 | 2          | $0.20$                 | $0.10$                 | $2.4 \times 10^{-3}$   |
 | 3          | $0.10$                 | $0.20$                 | $4.8 \times 10^{-3}$   |
+
+</div>
 
 (a) Determine the rate equation.
 
@@ -1249,11 +1329,15 @@ $$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic               | Site    | Link                                                                                                      |
 | ------------------- | ------- | --------------------------------------------------------------------------------------------------------- |
 | [Chemical Kinetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/kinetics)                                |
 | [Chemical Kinetics] | IB      | [View](https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics/)                           |
 | [Chemical Kinetics] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/) |
+
+</div>
 
 ## Worked Examples
 

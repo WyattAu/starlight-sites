@@ -43,12 +43,16 @@ giving $O(n)$ total page fault cost. $\blacksquare$
 parent's address space and must call `exec()` or `_exit()` before returning. Faster than `fork()`
 but dangerous if misused.
 
+<div class="table-wrap">
+
 | Property        | `fork()` + COW    | `fork()` (traditional) | `vfork()`                       |
 | --------------- | ----------------- | ---------------------- | ------------------------------- |
 | Page table copy | Yes (shared, COW) | Yes (full copy)        | No                              |
 | Address space   | Separate          | Separate               | Shared with parent              |
 | Safety          | Safe              | Safe                   | Unsafe if child modifies memory |
 | Speed           | Fast              | Slow ($O(n)$ pages)    | Very fast                       |
+
+</div>
 
 <details>
 <summary>Worked Example: fork() Process Tree</summary>
@@ -116,6 +120,8 @@ P0
 - Advantage: Combines benefits of both; scheduler can adapt.
 - Disadvantage: Complex implementation; scheduling decisions are harder.
 
+<div class="table-wrap">
+
 | Property       | 1:1        | N:1        | M:N              |
 | -------------- | ---------- | ---------- | ---------------- |
 | Parallelism    | Full       | None       | Partial          |
@@ -124,9 +130,13 @@ P0
 | Blocking I/O   | Per-thread | Blocks all | Blocks one LWP   |
 | Implementation | Kernel     | Library    | Library + kernel |
 
+</div>
+
 **POSIX threads (pthreads).** The standard API for C/C++ on Unix systems.
 
 **Key functions:**
+
+<div class="table-wrap">
 
 | Function                    | Purpose                          |
 | --------------------------- | -------------------------------- |
@@ -136,6 +146,8 @@ P0
 | `pthread_mutex_lock/unlock` | Lock/unlock a mutex              |
 | `pthread_cond_wait/signal`  | Wait/signal a condition variable |
 | `pthread_cancel`            | Request cancellation of a thread |
+
+</div>
 
 ### 1.3 Real-Time Scheduling
 
@@ -163,6 +175,8 @@ approaches $\ln 2 \approx 0.693$. $\blacksquare$
 
 **Utilisation bounds for RMS:**
 
+<div class="table-wrap">
+
 | $n$      | Bound $n(2^{1/n} - 1)$ |
 | -------- | ---------------------- |
 | 1        | 1.000                  |
@@ -171,6 +185,8 @@ approaches $\ln 2 \approx 0.693$. $\blacksquare$
 | 4        | 0.756                  |
 | 5        | 0.743                  |
 | $\infty$ | $\ln 2 \approx 0.693$  |
+
+</div>
 
 **Earliest Deadline First (EDF).** Dynamic-priority preemptive scheduling where the task with the
 nearest deadline has the highest priority.
@@ -252,11 +268,15 @@ spaces.
 
 **Two-level page table.** The virtual address is split into three parts:
 
+<div class="table-wrap">
+
 | Field      | Bits (32-bit) | Purpose                   |
 | ---------- | ------------- | ------------------------- |
 | Outer (p1) | 10 bits       | Index into page directory |
 | Inner (p2) | 10 bits       | Index into page table     |
 | Offset     | 12 bits       | Offset within page        |
+
+</div>
 
 **Theorem 2.1.** A two-level page table for a 32-bit address space with 4 KB pages requires at most
 4 MB of page table memory (1 page directory + 1024 page tables), compared to 4 MB for a flat page
@@ -402,6 +422,8 @@ to enforce ordering when necessary.
 
 **Types of reordering:**
 
+<div class="table-wrap">
+
 | Type        | Description                      | Example                                      |
 | ----------- | -------------------------------- | -------------------------------------------- |
 | Store-store | Stores reordered                 | Store A, Store B may become Store B, Store A |
@@ -409,7 +431,11 @@ to enforce ordering when necessary.
 | Store-load  | Store followed by load reordered | Store A, Load B may become Load B, Store A   |
 | Load-store  | Load followed by store reordered | Load A, Store B may become Store B, Load A   |
 
+</div>
+
 **Memory barrier instructions:**
+
+<div class="table-wrap">
 
 | Barrier       | x86-64            | ARM         | Effect                                                     |
 | ------------- | ----------------- | ----------- | ---------------------------------------------------------- |
@@ -418,6 +444,8 @@ to enforce ordering when necessary.
 | Read barrier  | (implicit on x86) | `dmb ishld` | All loads complete before subsequent loads                 |
 | Acquire       | `lock` prefix     | `ldar`      | Subsequent loads/stores cannot move before this            |
 | Release       | (varies)          | `stlr`      | Preceding loads/stores cannot move after this              |
+
+</div>
 
 :::caution
 and RISC-V. Code that works correctly on x86-64 may fail on ARM due to reordering. Always use proper
@@ -479,11 +507,15 @@ to the main file system structures.
 
 **Journaling modes:**
 
+<div class="table-wrap">
+
 | Mode      | What is journaled                                 | Performance | Safety                                      |
 | --------- | ------------------------------------------------- | ----------- | ------------------------------------------- |
 | Writeback | Metadata only                                     | Best        | Metadata consistent, data may be lost       |
 | Ordered   | Metadata + data written before metadata committed | Good        | Data written before metadata, no stale data |
 | Data      | Metadata + data                                   | Worst       | Full consistency guarantee                  |
+
+</div>
 
 **Journal structure.** A circular buffer on disk divided into blocks. Each transaction records:
 
@@ -559,12 +591,16 @@ rotational latency.
 
 **SCAN (Elevator) variants:**
 
+<div class="table-wrap">
+
 | Algorithm | Direction                       | Fairness                      |
 | --------- | ------------------------------- | ----------------------------- |
 | SCAN      | Reverses at disk ends           | Unfair to middle tracks       |
 | C-SCAN    | One-way, jumps to start         | Fair, but wastes time on jump |
 | LOOK      | Reverses at last request        | Better than SCAN              |
 | C-LOOK    | One-way, jumps to first request | Best overall                  |
+
+</div>
 
 **Theorem 5.1.** For a disk with $n$ pending requests, SSTF (Shortest Seek Time First) minimises
 total head movement but may cause starvation. SCAN/C-SCAN guarantee bounded waiting time.
@@ -656,6 +692,8 @@ vendor support).
 
 ### 6.3 Containers vs Virtual Machines
 
+<div class="table-wrap">
+
 | Property          | Virtual Machines            | Containers               |
 | ----------------- | --------------------------- | ------------------------ |
 | Isolation         | Hardware-level              | OS-level (shared kernel) |
@@ -665,6 +703,8 @@ vendor support).
 | Security          | Strong (hardware isolation) | Weaker (kernel shared)   |
 | Portability       | Good (self-contained)       | Good (images)            |
 | Performance       | Near-native (with VT-x)     | Near-native              |
+
+</div>
 
 ## 7. Security in Depth
 
@@ -710,12 +750,16 @@ make.
 
 **MAC vs DAC:**
 
+<div class="table-wrap">
+
 | Aspect          | DAC (Discretionary)        | MAC (Mandatory)                 |
 | --------------- | -------------------------- | ------------------------------- |
 | Who sets policy | Resource owner             | System administrator            |
 | Enforcement     | Voluntary (user-dependent) | Enforced by kernel              |
 | Bypass          | Root can bypass            | Even root must comply           |
 | Granularity     | Per-file permissions       | Fine-grained (type enforcement) |
+
+</div>
 
 ## 10. Inter-Process Communication in Depth
 
@@ -730,6 +774,8 @@ processes. Created by `mkfifo()`. Have a name in the filesystem but no content o
 
 **Properties:**
 
+<div class="table-wrap">
+
 | Property      | Anonymous Pipe                                | FIFO                         |
 | ------------- | --------------------------------------------- | ---------------------------- |
 | Direction     | Unidirectional                                | Unidirectional               |
@@ -737,6 +783,8 @@ processes. Created by `mkfifo()`. Have a name in the filesystem but no content o
 | Persistence   | Process lifetime                              | Filesystem lifetime          |
 | Blocking      | Reader blocks on empty; writer blocks on full | Same                         |
 | Kernel buffer | 64 KB                                         | 64 KB                        |
+
+</div>
 
 **Theorem 10.1.** A pipe has a fixed kernel buffer ( one page or 64 KB). If the buffer is full,
 `write()` blocks. If the buffer is empty, `read()` blocks. If all write ends are closed, `read()`
@@ -749,6 +797,8 @@ type-based prioritisation.
 
 **POSIX message queue API:**
 
+<div class="table-wrap">
+
 | Function     | Purpose                                    |
 | ------------ | ------------------------------------------ |
 | `mq_open`    | Open/create a message queue                |
@@ -757,6 +807,8 @@ type-based prioritisation.
 | `mq_notify`  | Register for asynchronous notification     |
 | `mq_close`   | Close a message queue                      |
 | `mq_unlink`  | Remove a message queue                     |
+
+</div>
 
 **Advantages over pipes:**
 
@@ -802,6 +854,8 @@ involve kernel transitions and data copying).
 
 **Standard signals:**
 
+<div class="table-wrap">
+
 | Signal  | Number | Default action   | Meaning                      |
 | ------- | ------ | ---------------- | ---------------------------- |
 | SIGINT  | 2      | Terminate        | Interrupt (Ctrl+C)           |
@@ -811,6 +865,8 @@ involve kernel transitions and data copying).
 | SIGCHLD | 17     | Ignore           | Child process status changed |
 | SIGSTOP | 19     | Stop             | Cannot be caught or ignored  |
 | SIGCONT | 18     | Continue         | Resume stopped process       |
+
+</div>
 
 **Signal handling issues:**
 
@@ -891,6 +947,8 @@ its memory to avoid remote memory access latency.
 
 **cgroups (Control Groups)** allow resource allocation and isolation:
 
+<div class="table-wrap">
+
 | Controller | Resource                   |
 | ---------- | -------------------------- |
 | cpu        | CPU time shares            |
@@ -899,6 +957,8 @@ its memory to avoid remote memory access latency.
 | blkio      | Block I/O bandwidth        |
 | devices    | Device access control      |
 | freezer    | Freezing/thawing processes |
+
+</div>
 
 **CPU shares.** If cgroup A has 1024 shares and cgroup B has 512 shares, A gets 2/3 of CPU time and
 B gets 1/3 (when both are active).
@@ -947,6 +1007,8 @@ void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset)
 
 **Parameters:**
 
+<div class="table-wrap">
+
 | Parameter | Description                                        |
 | --------- | -------------------------------------------------- |
 | addr      | Preferred address (NULL for kernel to choose)      |
@@ -955,6 +1017,8 @@ void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset)
 | flags     | MAP_PRIVATE (copy-on-write) or MAP_SHARED (shared) |
 | fd        | File descriptor (or -1 for anonymous mapping)      |
 | offset    | Offset in file                                     |
+
+</div>
 
 **Theorem 13.1.** Memory-mapped I/O can be faster than `read()`/`write()` for large files because it
 avoids copying data from kernel space to user space (zero-copy).
@@ -1021,6 +1085,8 @@ printf("%d\n", shared[0]);  // prints 42
 
 **Key features:**
 
+<div class="table-wrap">
+
 | Feature               | Description                                          |
 | --------------------- | ---------------------------------------------------- |
 | Journaling            | Writeback, ordered, or data mode                     |
@@ -1030,10 +1096,14 @@ printf("%d\n", shared[0]);  // prints 42
 | Large file support    | Up to 16 TB individual files                         |
 | Subdirectories        | Unlimited nesting depth                              |
 
+</div>
+
 **Extent-based allocation.** Instead of block pointers, ext4 stores extents: (logical block,
 physical block, length). This reduces metadata overhead for large contiguous files.
 
 **On-disk structure:**
+
+<div class="table-wrap">
 
 | Component               | Location          | Description                                            |
 | ----------------------- | ----------------- | ------------------------------------------------------ |
@@ -1044,13 +1114,19 @@ physical block, length). This reduces metadata overhead for large contiguous fil
 | Inode table             | Per block group   | Array of inodes                                        |
 | Data blocks             | Remaining         | File data                                              |
 
+</div>
+
 ### 14.2 Journaling Modes Compared
+
+<div class="table-wrap">
 
 | Mode      | Metadata  | Data                    | Crash recovery                             |
 | --------- | --------- | ----------------------- | ------------------------------------------ |
 | Writeback | Journaled | Not journaled           | Metadata consistent; data may be stale     |
 | Ordered   | Journaled | Written before metadata | No stale data (data written before commit) |
 | Journal   | Journaled | Journaled               | Full consistency                           |
+
+</div>
 
 **Performance impact.** Ordered mode is the default. Journal mode is safest but slowest (every data
 write goes to the journal first). Writeback mode is fastest but least safe.
@@ -1109,10 +1185,14 @@ immediately.
 
 ### 16.2 Deadlock Prevention vs Avoidance
 
+<div class="table-wrap">
+
 | Strategy   | Approach                                                  | Trade-off                                    |
 | ---------- | --------------------------------------------------------- | -------------------------------------------- |
 | Prevention | Eliminate one of the 4 necessary conditions               | May reduce concurrency                       |
 | Avoidance  | Dynamically check if granting a request leads to deadlock | Requires advance knowledge of resource needs |
+
+</div>
 
 **Prevention techniques:**
 
@@ -1124,17 +1204,25 @@ immediately.
 
 **Wait-Die scheme (prevention based on timestamps):**
 
+<div class="table-wrap">
+
 | Situation                                       | Action                            |
 | ----------------------------------------------- | --------------------------------- |
 | Older process requests resource held by younger | Wait (older waits for younger)    |
 | Younger process requests resource held by older | Die (younger aborts and restarts) |
 
+</div>
+
 **Wound-Wait scheme:**
+
+<div class="table-wrap">
 
 | Situation                                       | Action                         |
 | ----------------------------------------------- | ------------------------------ |
 | Older process requests resource held by younger | Wound (preempt younger)        |
 | Younger process requests resource held by older | Wait (younger waits for older) |
+
+</div>
 
 **Theorem 16.2.** Both wait-die and wound-wait prevent deadlocks and are starvation-free.
 
@@ -1160,6 +1248,8 @@ with the available resources.
 
 5 processes, 3 resource types (A, B, C). Total resources: (10, 5, 7).
 
+<div class="table-wrap">
+
 | Process | Allocation | Maximum   | Need      |
 | ------- | ---------- | --------- | --------- |
 | P0      | (0, 1, 0)  | (7, 5, 3) | (7, 4, 3) |
@@ -1167,6 +1257,8 @@ with the available resources.
 | P2      | (3, 0, 2)  | (9, 0, 2) | (6, 0, 0) |
 | P3      | (2, 1, 1)  | (2, 2, 2) | (0, 1, 1) |
 | P4      | (0, 0, 2)  | (4, 3, 3) | (4, 3, 1) |
+
+</div>
 
 Available = Total - sum(Allocation) = (10, 5, 7) - (7, 2, 5) = (3, 3, 2).
 

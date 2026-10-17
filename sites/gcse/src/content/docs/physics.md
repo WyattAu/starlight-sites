@@ -262,11 +262,15 @@ changes, reducing the force on the occupant.
 
 ### 3.1 Transverse and Longitudinal Waves
 
+<div class="table-wrap">
+
 | Property    | Transverse                           | Longitudinal                    |
 | ----------- | ------------------------------------ | ------------------------------- |
 | Oscillation | Perpendicular to direction of travel | Parallel to direction of travel |
 | Examples    | Light, water waves, EM waves         | Sound waves, seismic P-waves    |
 | Features    | Crests and troughs                   | Compressions and rarefactions   |
+
+</div>
 
 ### 3.2 Wave Properties
 
@@ -285,6 +289,8 @@ $$
 
 All EM waves travel at $3 \times 10^8 \text{ m/s}$ in a vacuum.
 
+<div class="table-wrap">
+
 | Wave type     | Wavelength                   | Uses                                |
 | ------------- | ---------------------------- | ----------------------------------- |
 | Radio         | Longest                      | Broadcasting, communications        |
@@ -294,6 +300,8 @@ All EM waves travel at $3 \times 10^8 \text{ m/s}$ in a vacuum.
 | Ultraviolet   |                              | Fluorescent lamps, security marking |
 | X-ray         |                              | Medical imaging, airport security   |
 | Gamma ray     | Shortest                     | Radiotherapy, sterilisation         |
+
+</div>
 
 Higher frequency = higher energy. Gamma rays and X-rays are ionising radiation, they can damage
 cells and cause cancer.
@@ -376,11 +384,15 @@ Adding a resistor in parallel **decreases** total resistance. Adding a resistor 
 
 ### 4.4 I-V Characteristics
 
+<div class="table-wrap">
+
 | Component      | Graph                                       | Behaviour                             |
 | -------------- | ------------------------------------------- | ------------------------------------- |
 | Fixed resistor | Straight line through origin                | Ohmic: $I \propto V$                  |
 | Filament lamp  | Curve, steeper at low V then levels off     | Resistance increases with temperature |
 | Diode          | Flat at negative V, rises sharply at ~0.6 V | Only allows current in one direction  |
+
+</div>
 
 ### 4.5 Special Components
 
@@ -492,11 +504,15 @@ transformers reduce the voltage for safe domestic use (230 V).
 
 ### 6.1 States of Matter
 
+<div class="table-wrap">
+
 | State  | Arrangement         | Movement                      | Spacing        | Shape                 |
 | ------ | ------------------- | ----------------------------- | -------------- | --------------------- |
 | Solid  | Regular lattice     | Vibrate in fixed positions    | Close together | Fixed                 |
 | Liquid | Irregular but close | Slide past each other         | Close together | Takes container shape |
 | Gas    | Random              | Move freely in all directions | Far apart      | Fills container       |
+
+</div>
 
 ### 6.2 Changes of State
 
@@ -548,11 +564,15 @@ $$
 
 An unstable nucleus decays by emitting radiation to become more stable.
 
+<div class="table-wrap">
+
 | Radiation        | Symbol               | Penetration | Ionising power | Stopped by                     |
 | ---------------- | -------------------- | ----------- | -------------- | ------------------------------ |
 | Alpha ($\alpha$) | $^4_2\text{He}$      | Very low    | High           | A few cm of air or paper       |
 | Beta ($\beta$)   | $^0_{-1}\text{e}$    | Moderate    | Moderate       | A few mm of aluminium          |
 | Gamma ($\gamma$) | Electromagnetic wave | Very high   | Low            | Several cm of lead or concrete |
+
+</div>
 
 ### 7.2 Nuclear Equations
 
@@ -577,6 +597,8 @@ After $n$ half-lives, the fraction remaining is $\left(\frac{1}{2}\right)^n$.
 
 **Example.** A sample has a half-life of 6 hours. Starting activity = 800 Bq.
 
+<div class="table-wrap">
+
 | Time (hours) | Activity (Bq) |
 | ------------ | ------------- |
 | 0            | 800           |
@@ -585,6 +607,8 @@ After $n$ half-lives, the fraction remaining is $\left(\frac{1}{2}\right)^n$.
 | 18           | 100           |
 | 24           | 50            |
 
+</div>
+
 ### 7.4 Background Radiation
 
 Background radiation is always present from natural and artificial sources: radon gas (largest
@@ -592,11 +616,15 @@ natural source), rocks, cosmic rays, medical sources, nuclear power.
 
 ### 7.5 Contamination vs Irradiation
 
+<div class="table-wrap">
+
 |            | Contamination                                             | Irradiation                                  |
 | ---------- | --------------------------------------------------------- | -------------------------------------------- |
 | Definition | Radioactive material gets on or in an object              | Object is exposed to radiation from a source |
 | Lasts      | Until the material is removed/decays                      | Stops when the source is removed             |
 | Hazard     | Can be difficult to remove; material may continue to emit | Object itself does not become radioactive    |
+
+</div>
 
 ### 7.6 Uses and Dangers
 
@@ -623,6 +651,8 @@ square law), and shielding.
 
 ## 8. Key Equations
 
+<div class="table-wrap">
+
 | Quantity                       | Equation                            | Units  |
 | ------------------------------ | ----------------------------------- | ------ |
 | Kinetic energy                 | $E_k = \frac{1}{2}mv^2$             | J      |
@@ -643,6 +673,8 @@ square law), and shielding.
 | Density                        | $\rho = \frac{m}{V}$                | kg/m³  |
 | Pressure                       | $p = \frac{F}{A}$                   | Pa     |
 | Gas law (Boyle)                | $p_1V_1 = p_2V_2$                   |,      |
+
+</div>
 
 ---
 

@@ -77,6 +77,8 @@ This subject assumes familiarity with:
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Chapter                      | Focus                                                                    | Key Algorithms                    |
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
 | Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness |,                                 |
@@ -86,6 +88,8 @@ This subject assumes familiarity with:
 | Sorting                      | Comparison and non-comparison sorting, stability, adaptive behaviour     | Merge sort, quicksort, radix sort |
 | Dynamic Programming          | Memoisation, tabulation, state space reduction, common DP patterns       | Knapsack, LCS, edit distance      |
 | Graph Algorithms             | Shortest paths, MSTs, network flow, strong connectivity                  | Dijkstra, Kruskal, Ford-Fulkerson |
+
+</div>
 
 ## How to Use These Notes
 

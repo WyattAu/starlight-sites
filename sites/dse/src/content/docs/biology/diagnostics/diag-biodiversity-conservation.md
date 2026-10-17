@@ -22,6 +22,8 @@ tableOfContents: false
 
 Two nature reserves, A and B, were surveyed for the number and abundance of butterfly species.
 
+<div class="table-wrap">
+
 | Species   | Reserve A (number of individuals) | Reserve B (number of individuals) |
 | --------- | :-------------------------------: | :-------------------------------: |
 | Species 1 |                90                 |                20                 |
@@ -30,6 +32,8 @@ Two nature reserves, A and B, were surveyed for the number and abundance of butt
 | Species 4 |                 1                 |                20                 |
 | Species 5 |                 1                 |                20                 |
 | **Total** |              **100**              |              **100**              |
+
+</div>
 
 (a) Define the terms **species richness** and **species evenness**. [2 marks]
 

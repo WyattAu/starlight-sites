@@ -29,12 +29,16 @@ Program execution.
 
 ### Primitive Data Types
 
+<div class="table-wrap">
+
 | Type      | Typical Size | Range                     | Python equivalent |
 | --------- | ------------ | ------------------------- | ----------------- |
 | Integer   | 4 bytes      | $[-2^{31}, 2^{31}-1]$     | `int` (unbounded) |
 | Float     | 8 bytes      | IEEE 754 double precision | `float`           |
 | Character | 1 byte       | ASCII/Unicode             | `str` (length 1)  |
 | Boolean   | 1 byte       | True / False              | `bool`            |
+
+</div>
 
 ### Constants
 
@@ -262,11 +266,15 @@ Minimum moves = $2^n - 1$. $\square$
 
 ### Procedures vs Functions
 
+<div class="table-wrap">
+
 | Feature      | Procedure                       | Function        |
 | ------------ | ------------------------------- | --------------- |
 | Return value | None                            | Returns a value |
 | Purpose      | Perform an action (side effect) | Compute a value |
 | Called as    | Statement                       | Expression      |
+
+</div>
 
 ```python
 def print_report(data):    # Procedure
@@ -373,6 +381,8 @@ Over the other?
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Aspect      | Iteration               | Recursion                          |
 | ----------- | ----------------------- | ---------------------------------- |
 | Mechanism   | Loop constructs         | Function calls itself              |
@@ -380,6 +390,8 @@ Over the other?
 | Overhead    | Minimal                 | Function call overhead per step    |
 | Readability | Better for simple loops | Better for tree/divide-and-conquer |
 | Risk        | Infinite loop           | Stack overflow                     |
+
+</div>
 
 Prefer iteration when: the problem has a natural loop structure, memory is constrained, or
 Performance is critical.
@@ -520,11 +532,15 @@ for i in range(1, 4):
 
 **Trace:**
 
+<div class="table-wrap">
+
 | Iteration | `i` | `j` range                   | Output             |
 | --------- | --- | --------------------------- | ------------------ |
 | Outer 1   | 1   | `range(1, 2)`j = 1       | `*` then newline   |
 | Outer 2   | 2   | `range(1, 3)`j = 1, 2    | `**` then newline  |
 | Outer 3   | 3   | `range(1, 4)`j = 1, 2, 3 | `***` then newline |
+
+</div>
 
 **Output:**
 
@@ -604,12 +620,16 @@ factorial(4)
 
 Stack at deepest point (4 frames):
 
+<div class="table-wrap">
+
 | Frame | `n` | Waiting for                      |
 | ----- | --- | -------------------------------- |
 | 1     | 4   | `factorial(3)`                   |
 | 2     | 3   | `factorial(2)`                   |
 | 3     | 2   | `factorial(1)`                   |
 | 4     | 1   | (base case, returns immediately) |
+
+</div>
 
 ### Trace: Fibonacci of 5
 
@@ -655,11 +675,15 @@ Recursive Fibonacci is $O(\phi^n)$, it recomputes the same subproblems repeatedl
 
 Off-by-one errors occur when a loop iterates one time too many or one time too few.
 
+<div class="table-wrap">
+
 | Error               | Code                                       | Fix                                                   |
 | ------------------- | ------------------------------------------ | ----------------------------------------------------- |
 | Fencepost           | `for i in range(1, n)`iterates 1 to n-1 | Use `range(1, n + 1)` if you need 1 to n              |
 | Off-by-one in while | `while i &lt; n` vs `while i &lt;= n`      | Decide whether the boundary is inclusive or exclusive |
 | Array indexing      | `array[len(array)]`IndexError           | Valid indices are 0 to `len(array) - 1`               |
+
+</div>
 
 ### Infinite Loops
 
@@ -750,6 +774,8 @@ print(result)
 
 Trace each `(i, j)` pair:
 
+<div class="table-wrap">
+
 | `i` | `j` | Condition | `result` change | `result` |
 | --- | --- | --------- | --------------- | -------- |
 | 0   | 0   | i == j    | +1              | 1        |
@@ -761,6 +787,8 @@ Trace each `(i, j)` pair:
 | 2   | 0   | i &gt; j  | +2              | 15       |
 | 2   | 1   | i &gt; j  | +2              | 17       |
 | 2   | 2   | i == j    | +1              | 18       |
+
+</div>
 
 Output: `18`
 

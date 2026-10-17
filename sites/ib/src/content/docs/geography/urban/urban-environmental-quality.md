@@ -89,6 +89,8 @@ with city size, geographic location, and prevailing weather patterns.
 
 ### Sources of Urban Air Pollution
 
+<div class="table-wrap">
+
 | Source                           | Key Pollutants                                               | Characteristics                                                                     |
 | -------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$ CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
@@ -96,6 +98,8 @@ with city size, geographic location, and prevailing weather patterns.
 | **Construction and demolition**  | $\mathrm{PM}_{10}$$\mathrm{PM}_{2.5}$                        | Seasonal; concentrated at construction sites                                        |
 | **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$ CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
 | **Power generation**             | $\mathrm{SO_2}$$\mathrm{NO_x}$$\mathrm{PM}_{10}$             | Point sources; depends on fuel mix                                                  |
+
+</div>
 
 ### Health Impacts
 
@@ -116,6 +120,8 @@ And Cairo.
 
 ### Management Strategies
 
+<div class="table-wrap">
+
 | Strategy                        | Mechanism                                                                   | Example                                                                                                   |
 | ------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **Emission standards**          | Regulate permissible pollutant levels from vehicles and industry            | Euro 6/VI standards (EU); Bharat Stage VI (India, implemented 2020)                                       |
@@ -124,6 +130,8 @@ And Cairo.
 | **Congestion charging**         | Charge vehicles for entering congested urban areas, reducing traffic volume | Singapore Electronic Road Pricing (ERP); London Congestion Charge                                         |
 | **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan's 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
 | **Clean energy transitions**    | Shift from fossil fuel vehicles and heating to electric                     | Oslo's target of zero-emission city centre by 2030; Beijing's conversion from coal to natural gas heating |
+
+</div>
 
 ## Waste Management
 
@@ -218,6 +226,8 @@ the urban fringe.
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Criterion                | Brownfield                                                                | Greenfield                                                                 |
 | ------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **Availability**         | Limited; depends on industrial history                                    | Abundant at urban periphery                                                |
@@ -226,6 +236,8 @@ the urban fringe.
 | **Infrastructure**       | Existing connections (roads, water, sewerage, electricity)                | New infrastructure required                                                |
 | **Developer preference** | Less preferred (uncertain contamination costs)                            | More preferred (lower risk, easier to build)                               |
 | **Social impact**        | Can catalyse urban regeneration in deprived areas                         | May attract affluent residents, bypassing deprived areas                   |
+
+</div>
 
 **Policy context.** Many countries have adopted policies to prioritise brownfield over greenfield
 Development. In England, the National Planning Policy Framework (NPPF) sets a target for at least

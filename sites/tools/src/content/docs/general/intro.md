@@ -88,6 +88,8 @@ docs_general-notes/
 
 ### Writing Conventions
 
+<div class="table-wrap">
+
 | Convention                 | Detail                                                                               |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | No inline comments         | Code blocks are self-documenting; comments added only when the intent is non-obvious |
@@ -95,6 +97,8 @@ docs_general-notes/
 | Admonitions over bold      | Use Docusaurus `:::note` / `:::caution` instead of **Note:**                         |
 | Tables for structured data | Prefer tables over bulleted lists when comparing attributes                          |
 | KaTeX for math             | Inline with `$...$`, block with `$$...$$`                                            |
+
+</div>
 
 ### Adding a New Page
 

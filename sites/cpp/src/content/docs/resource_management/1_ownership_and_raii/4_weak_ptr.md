@@ -266,11 +266,15 @@ which operations are valid and what happens when the last reference of each type
 
 **State invariants:**
 
+<div class="table-wrap">
+
 | State   | `strong_count` | `weak_count` | Object    | Control Block |
 | :------ | :------------- | :----------- | :-------- | :------------ |
 | ACTIVE  | $s \gt 0$      | $w \ge 1$    | Alive     | Allocated     |
 | EXPIRED | $s = 0$        | $w \ge 1$    | Destroyed | Allocated     |
 | DEAD    | $s = 0$        | $w = 0$      | Destroyed | Freed         |
+
+</div>
 
 **Transition constraints:**
 
@@ -532,6 +536,8 @@ void reset_demo() {
 
 ## 4.8 Comparison: `weak_ptr` vs Raw Observer Pointers
 
+<div class="table-wrap">
+
 | Aspect                 | `std::weak_ptr`                         | Raw pointer (`T*`)                  |
 | :--------------------- | --------------------------------------- | ----------------------------------- |
 | Ownership              | Non-owning                              | Non-owning                          |
@@ -541,6 +547,8 @@ void reset_demo() {
 | Performance            | Atomic operation on lock, control block | Zero overhead                       |
 | Control block required | Yes (must come from `shared_ptr`)       | No                                  |
 | Use case               | Shared ownership graphs                 | Known-lifetime relationships        |
+
+</div>
 
 ### When Raw Pointers Are Preferable
 
@@ -874,10 +882,14 @@ The `weak_from_this()` member function (added in C++17 [N4950 S20.11.3.6]) retur
 `weak_ptr` directly, without creating an intermediate `shared_ptr`. This is more efficient than
 Calling `shared_from_this()` when you only need to observe the object:
 
+<div class="table-wrap">
+
 | Method               | Returns               | Increments `strong_count`? | Use case                       |
 | :------------------- | :-------------------- | :------------------------- | :----------------------------- |
 | `shared_from_this()` | `shared_ptr&lt;T&gt;` | Yes                        | Need to extend lifetime        |
 | `weak_from_this()`   | `weak_ptr&lt;T&gt;`   | No                         | Need to observe without owning |
+
+</div>
 
 ## Common Pitfalls
 

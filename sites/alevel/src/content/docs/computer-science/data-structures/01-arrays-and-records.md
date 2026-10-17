@@ -57,6 +57,8 @@ Constant-time operations. No traversal is needed. $\square$
 Consider `int A[5] = {10, 20, 30, 40, 50}` where each `int` is 4 bytes and the base address is
 $b = 1000$:
 
+<div class="table-wrap">
+
 | Index | Value | Address   |
 | ----- | ----- | --------- |
 | 0     | 10    | 1000–1003 |
@@ -65,11 +67,15 @@ $b = 1000$:
 | 3     | 40    | 1012–1015 |
 | 4     | 50    | 1016–1019 |
 
+</div>
+
 $A[3]$ is at $1000 + 3 \times 4 = 1012$. ✓
 
 </details>
 
 ### Operations and Complexity
+
+<div class="table-wrap">
 
 | Operation     | Time             | Notes                          |
 | ------------- | ---------------- | ------------------------------ |
@@ -79,6 +85,8 @@ $A[3]$ is at $1000 + 3 \times 4 = 1012$. ✓
 | Insert at end | $O(1)$ amortised | Dynamic array                  |
 | Insert at $i$ | $O(n)$           | Must shift elements $i..n-1$   |
 | Delete at $i$ | $O(n)$           | Must shift elements $i+1..n-1$ |
+
+</div>
 
 ### Python Implementation
 
@@ -211,6 +219,8 @@ class DynamicArray:
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property     | Static Array      | Dynamic Array            |
 | ------------ | ----------------- | ------------------------ |
 | Size         | Fixed at creation | Grows/shrinks at runtime |
@@ -218,6 +228,8 @@ class DynamicArray:
 | Access time  | $O(1)$            | $O(1)$                   |
 | Append       | N/A (fixed size)  | $O(1)$ amortised         |
 | Memory waste | Exact allocation  | Up to 2× allocated       |
+
+</div>
 
 <hr />
 
@@ -257,6 +269,8 @@ struct Example {
 
 Layout (on a 32-bit system with 4-byte alignment):
 
+<div class="table-wrap">
+
 | Offset | Field | Size | Padding |
 | ------ | ----- | ---- | ------- |
 | 0      | c     | 1    |,       |
@@ -265,11 +279,15 @@ Layout (on a 32-bit system with 4-byte alignment):
 | 8–9    | s     | 2    |,       |
 | 10–11  |,     | 2    | padding |
 
+</div>
+
 Total size: 12 bytes (not 7).
 
 </details>
 
 ### Records vs Arrays
+
+<div class="table-wrap">
 
 | Property     | Array                    | Record                        |
 | ------------ | ------------------------ | ----------------------------- |
@@ -277,6 +295,8 @@ Total size: 12 bytes (not 7).
 | Access       | By integer index         | By named field                |
 | Size         | Homogeneous              | Heterogeneous                 |
 | Use case     | Collections of same data | Grouping related attributes   |
+
+</div>
 
 :::note
 - **AQA** distinguishes between static arrays (fixed size, compile-time) and dynamic arrays (runtime
@@ -419,6 +439,8 @@ value 9 and count the number of comparisons made.
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Step | Index | A[index] | Comparison    | Count |
 | ---- | ----- | -------- | ------------- | ----- |
 | 1    | 0     | 3        | 3 ≠ 9         | 1     |
@@ -427,6 +449,8 @@ value 9 and count the number of comparisons made.
 | 4    | 3     | 1        | 1 ≠ 9         | 4     |
 | 5    | 4     | 5        | 5 ≠ 9         | 5     |
 | 6    | 5     | 9        | 9 = 9 → found | 6     |
+
+</div>
 
 Total comparisons: 6. The value 9 is at index 5.
 
@@ -505,6 +529,8 @@ Needed, and pad at the end to make the total a multiple of the largest alignment
 <details>
 <summary>Answer</summary>
 
+<div class="table-wrap">
+
 | Field     | Size | Alignment | Offset | Padding before |
 | --------- | ---- | --------- | ------ | -------------- |
 | title     | 30   | 8         | 0      |,              |
@@ -514,6 +540,8 @@ Needed, and pad at the end to make the total a multiple of the largest alignment
 | price     | 8    | 8         | 40     |,              |
 | available | 1    | 1         | 48     |,              |
 | (padding) | 7    |,         | 49     | 7 bytes        |
+
+</div>
 
 Total size: 56 bytes.
 

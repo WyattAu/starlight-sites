@@ -29,6 +29,8 @@ categories:
 Big O notation describes the upper bound of an algorithm"s time or space complexity as the input
 Size grows.
 
+<div class="table-wrap">
+
 | Big O         | Name         | Example                     |
 | ------------- | ------------ | --------------------------- |
 | $O(1)$        | Constant     | Array access by index       |
@@ -38,6 +40,8 @@ Size grows.
 | $O(n^2)$      | Quadratic    | Bubble sort, selection sort |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci         |
 | $O(n!)$       | Factorial    | Generating all permutations |
+
+</div>
 
 ### Comparing Algorithms
 

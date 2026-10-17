@@ -395,6 +395,8 @@ similarity between species, and state which method provides more detailed inform
 (b) The number of amino acid differences from human cytochrome c indicates evolutionary distance
 (fewer differences $=$ more closely related):
 
+<div class="table-wrap">
+
 | Species | Differences from human |
 | ------- | ---------------------- |
 | D       | 0                      |
@@ -402,6 +404,8 @@ similarity between species, and state which method provides more detailed inform
 | B       | 5                      |
 | C       | 12                     |
 | E       | 25                     |
+
+</div>
 
 Likely evolutionary tree (branching pattern, closest to most distant):
 
@@ -514,6 +518,8 @@ same habitat at different times.
 
 (c) **Reserve X:**
 
+<div class="table-wrap">
+
 | Species | $n$ | $\frac{n}{N}$ | $\left(\frac{n}{N}\right)^2$ |
 | ------- | --- | ------------- | ---------------------------- |
 | A       | 50  | 0.50          | 0.2500                       |
@@ -522,11 +528,15 @@ same habitat at different times.
 | D       | 5   | 0.05          | 0.0025                       |
 | E       | 5   | 0.05          | 0.0025                       |
 
+</div>
+
 $\sum\left(\frac{n}{N}\right)^2 = 0.2500 + 0.0900 + 0.0100 + 0.0025 + 0.0025 = 0.3550$
 
 $D_X = 1 - 0.3550 = 0.645$
 
 **Reserve Y:**
+
+<div class="table-wrap">
 
 | Species | $n$ | $\frac{n}{N}$ | $\left(\frac{n}{N}\right)^2$ |
 | ------- | --- | ------------- | ---------------------------- |
@@ -535,6 +545,8 @@ $D_X = 1 - 0.3550 = 0.645$
 | H       | 20  | 0.20          | 0.0400                       |
 | I       | 20  | 0.20          | 0.0400                       |
 | J       | 20  | 0.20          | 0.0400                       |
+
+</div>
 
 $\sum\left(\frac{n}{N}\right)^2 = 5 \times 0.0400 = 0.2000$
 

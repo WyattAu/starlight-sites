@@ -106,6 +106,8 @@ Sampling is necessary because it is impractical to count every organism. Key pri
 
 **Techniques:**
 
+<div class="table-wrap">
+
 | Method                   | Habitat                           | Description                                                        |
 | ------------------------ | --------------------------------- | ------------------------------------------------------------------ |
 | Quadrat (frame or point) | Grassland, slow-moving water      | A square frame of known area; count or estimate percentage cover   |
@@ -114,6 +116,8 @@ Sampling is necessary because it is impractical to count every organism. Key pri
 | Pitfall trap             | Ground-dwelling invertebrates     | Containers sunk into the ground; organisms fall in                 |
 | Kick sampling            | Freshwater invertebrates          | River bed disturbed upstream of a net; organisms washed into net   |
 | Light trap               | Flying insects                    | A light source attracts phototactic insects to a collecting vessel |
+
+</div>
 
 ## 2. Classification
 
@@ -138,11 +142,15 @@ Specific epithet (lowercase), both in italics or underlined. For example, _Homo 
 Carl Woese (1990) proposed the three-domain system based on ribosomal RNA (rRNA) sequences, which
 Revealed fundamental molecular differences between groups previously lumped together:
 
+<div class="table-wrap">
+
 | Domain   | Cell Type   | Cell Wall                          | Membrane Lipids          | rRNA          |
 | -------- | ----------- | ---------------------------------- | ------------------------ | ------------- |
 | Bacteria | Prokaryotic | Peptidoglycan                      | Unbranched, ester-linked | One type      |
 | Archaea  | Prokaryotic | Pseudopeptidoglycan (some)         | Branched, ether-linked   | Distinct type |
 | Eukarya  | Eukaryotic  | Cellulose (plants), chitin (fungi) | Unbranched, ester-linked | Distinct type |
+
+</div>
 
 Archaea are more closely related to Eukarya than to Bacteria, despite their superficial similarity
 to bacteria.
@@ -231,6 +239,8 @@ Isolation -- the prevention of gene flow between populations.
 
 **Reproductive isolation mechanisms:**
 
+<div class="table-wrap">
+
 | Pre-zygotic barriers  | Post-zygotic barriers                                    |
 | --------------------- | -------------------------------------------------------- |
 | Habitat isolation     | Hybrid inviability (offspring do not survive)            |
@@ -238,6 +248,8 @@ Isolation -- the prevention of gene flow between populations.
 | Behavioural isolation | Hybrid breakdown (second generation is inviable/sterile) |
 | Mechanical isolation  |                                                          |
 | Gametic isolation     |                                                          |
+
+</div>
 
 ### 3.4 Evidence for Evolution
 
@@ -353,12 +365,16 @@ barrier), populations Diverge and may eventually become separate species.
 
 ### 5.3 Comparing Evolutionary Mechanisms
 
+<div class="table-wrap">
+
 | Mechanism         | Direction of Change                | Speed         | Role in Evolution           |
 | ----------------- | ---------------------------------- | ------------- | --------------------------- |
 | Natural selection | Directional (towards fitness)      | Slow-moderate | Adaptation to environment   |
 | Genetic drift     | Random                             | Variable      | Loss of diversity; fixation |
 | Gene flow         | Homogenising (between populations) | Variable      | Prevents speciation         |
 | Mutation          | Random (new alleles)               | Very slow     | Source of new variation     |
+
+</div>
 
 :::caution
 "progress." Natural Selection produces adaptations to the current environment, not to some absolute
@@ -511,6 +527,8 @@ the data, reducing the Degrees of freedom further. For a two-allele system, $\ma
 
 Before the three-domain system, organisms were classified into five kingdoms (Whittaker, 1969):
 
+<div class="table-wrap">
+
 | Kingdom     | Cell Type   | Nuclear Envelope | Nutrition                         |
 | ----------- | ----------- | ---------------- | --------------------------------- |
 | Animalia    | Eukaryotic  | Present          | Heterotrophic (ingestive)         |
@@ -518,6 +536,8 @@ Before the three-domain system, organisms were classified into five kingdoms (Wh
 | Fungi       | Eukaryotic  | Present          | Heterotrophic (absorptive)        |
 | Protoctista | Eukaryotic  | Present          | Mixed (autotrophic/heterotrophic) |
 | Prokaryota  | Prokaryotic | Absent           | Various                           |
+
+</div>
 
 The five-kingdom system was superseded because it placed all prokaryotes in a single kingdom,
 despite The profound molecular differences between Bacteria and Archaea revealed by rRNA sequencing.
@@ -771,6 +791,8 @@ proportional to the amount Of genetic change.
 
 Pre-zygotic barriers prevent mating or fertilisation between species:
 
+<div class="table-wrap">
+
 | Barrier Type          | Description                                                        | Example                                                                   |
 | --------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------- |
 | Temporal isolation    | Species breed at different times of year or day                    | _Bufo americanus_ and _Bufo fowleri_ (toads) breed in different seasons   |
@@ -779,15 +801,21 @@ Pre-zygotic barriers prevent mating or fertilisation between species:
 | Mechanical isolation  | Physical incompatibility of reproductive structures                | Lock-and-key mechanism in insect genitalia                                |
 | Gametic isolation     | Gametes fail to fuse or are chemically incompatible                | Sea urchin sperm bind to species-specific receptors on the egg jelly coat |
 
+</div>
+
 ### 9.2 Post-zygotic Reproductive Barriers
 
 Post-zygotic barriers reduce the fitness of hybrid offspring:
+
+<div class="table-wrap">
 
 | Barrier Type       | Description                                                                          | Example                                                               |
 | ------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
 | Hybrid inviability | Zygote fails to develop or offspring is weak/unviable                                | Cross between sheep and goat; embryo dies early                       |
 | Hybrid sterility   | Offspring are healthy but sterile                                                    | Mule (horse $\times$ donkey); 63 chromosomes (cannot pair in meiosis) |
 | Hybrid breakdown   | First-generation hybrids are fertile, but second-generation (F2) are sterile or weak | Cross between rice cultivars                                          |
+
+</div>
 
 ### 9.3 Allopatric Speciation: The Model
 
@@ -826,11 +854,15 @@ they behave as separate species (do not interbreed).
 
 Carl Woese (1990) proposed the **three-domain system** based on ribosomal RNA (rRNA) sequences:
 
+<div class="table-wrap">
+
 | Domain   | Cell Type   | Membrane Lipids                          | Cell Wall                                          | Examples                            |
 | -------- | ----------- | ---------------------------------------- | -------------------------------------------------- | ----------------------------------- |
 | Bacteria | Prokaryotic | Ester-linked, unbranched                 | Peptidoglycan                                      | _E. Coli_, _Bacillus_               |
 | Archaea  | Prokaryotic | Ether-linked, branched (isoprene chains) | Pseudopeptidoglycan (some)                         | _Methanobacterium_, _Halobacterium_ |
 | Eukarya  | Eukaryotic  | Ester-linked, unbranched                 | Cellulose (plants), chitin (fungi), none (animals) | Animals, plants, fungi, protists    |
+
+</div>
 
 Archaea were originally classified with bacteria (as "archaebacteria") but rRNA sequencing showed
 they are as different from bacteria as bacteria are from eukaryotes. Archaea share some features
@@ -851,12 +883,16 @@ Domain $\to$ Kingdom $\to$ Phylum $\to$ Class $\to$ Order $\to$ Family $\to$ Gen
 
 ### 10.3 Phylogenetic vs Phenetic Classification
 
+<div class="table-wrap">
+
 | Feature | Phylogenetic Classification                     | Phenetic (Numerical) Classification                                        |
 | ------- | ----------------------------------------------- | -------------------------------------------------------------------------- |
 | Basis   | Evolutionary relationships (common ancestry)    | Overall similarity (morphological, biochemical)                            |
 | Method  | Cladistics (shared derived characteristics)     | Numerical taxonomy (many characteristics scored and analysed by computer)  |
 | Groups  | Monophyletic (ancestor + all descendants)       | May include paraphyletic groups                                            |
 | Example | Birds grouped with reptiles (both are diapsids) | Birds as a separate class from reptiles (due to their distinct morphology) |
+
+</div>
 
 **Phylogenetic classification** is now the preferred approach because it reflects evolutionary
 history, which is the fundamental organising principle of biology.
@@ -893,6 +929,8 @@ diversity, infinite species all with equal abundance).
 
 Habitat 1 (managed grassland):
 
+<div class="table-wrap">
+
 | Species         | Number ($n$) | $n(n-1)$ |
 | --------------- | ------------ | -------- |
 | Grass A         | 40           | 1560     |
@@ -902,9 +940,13 @@ Habitat 1 (managed grassland):
 | Thistle         | 5            | 20       |
 | **Total ($N$)** | **100**      | **2750** |
 
+</div>
+
 $D_1 = 1 - \frac{2750}{100 \times 99} = 1 - \frac{2750}{9900} = 1 - 0.278 = 0.722$
 
 Habitat 2 (wildflower meadow):
+
+<div class="table-wrap">
 
 | Species         | Number ($n$) | $n(n-1)$ |
 | --------------- | ------------ | -------- |
@@ -922,6 +964,8 @@ Habitat 2 (wildflower meadow):
 | Species L       | 5            | 20       |
 | Species M       | 5            | 20       |
 | **Total ($N$)** | **100**      | **730**  |
+
+</div>
 
 $D_2 = 1 - \frac{730}{100 \times 99} = 1 - \frac{730}{9900} = 1 - 0.074 = 0.926$
 
@@ -990,10 +1034,14 @@ The geographic distribution of species provides evidence for evolution:
 alleles: $B$ (brown, dominant) and $b$ (yellow, recessive). The population is sampled over two
 years:
 
+<div class="table-wrap">
+
 | Year | $BB$ | $Bb$ | $bb$ | Total | $p$ ($B$) | $q$ ($b$) |
 | ---- | ---- | ---- | ---- | ----- | --------- | --------- |
 | 1    | 360  | 480  | 160  | 1000  | 0.60      | 0.40      |
 | 2    | 324  | 432  | 144  | 900   | 0.60      | 0.40      |
+
+</div>
 
 The allele frequencies have not changed ($p = 0.60$, $q = 0.40$ in both years). The population
 appears to be in Hardy-Weinberg equilibrium.
@@ -1004,9 +1052,13 @@ confirming H-W equilibrium.
 
 Now suppose Year 3 shows:
 
+<div class="table-wrap">
+
 | Year 3   | $BB$ | $Bb$ | $bb$ | Total |
 | -------- | ---- | ---- | ---- | ----- |
 | Observed | 200  | 400  | 300  | 900   |
+
+</div>
 
 $p' = \frac{2(200) + 400}{1800} = \frac{800}{1800} = 0.444$. $q' = 0.556$.
 
@@ -1044,15 +1096,21 @@ frequency.
 
 ### 14.1 Anatomical, Physiological, and Behavioural Adaptations
 
+<div class="table-wrap">
+
 | Type                        | Definition                           | Example                                                                                                                   |
 | --------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | Anatomical (structural)     | Physical features of the organism    | Thick insulating blubber in polar bears; counter-current heat exchange in whale flippers                                  |
 | Physiological (biochemical) | Internal processes                   | Antifreeze proteins in Antarctic fish; concentrated urine in desert kangaroo rats; anaerobic metabolism in diving mammals |
 | Behavioural                 | Actions or responses of the organism | Migration in wildebeest; hibernation in hedgehogs; burrowing in meerkats                                                  |
 
+</div>
+
 ### 14.2 Xerophytic Adaptations
 
 Xerophytes are plants adapted to dry environments (deserts, sand dunes):
+
+<div class="table-wrap">
 
 | Adaptation                     | Function                                                                                                 |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------- |
@@ -1065,9 +1123,13 @@ Xerophytes are plants adapted to dry environments (deserts, sand dunes):
 | Succulence                     | Thick, fleshy stems or leaves that store water (e.g., cacti, aloe)                                       |
 | Deep or extensive root systems | Deep taproots reach water table; widespread shallow roots capture brief rainfall                         |
 
+</div>
+
 ### 14.3 Hydrophytic Adaptations
 
 Hydrophytes are plants adapted to living in water:
+
+<div class="table-wrap">
 
 | Adaptation                         | Function                                                        |
 | ---------------------------------- | --------------------------------------------------------------- |
@@ -1076,6 +1138,8 @@ Hydrophytes are plants adapted to living in water:
 | Air spaces (aerenchyma) in tissues | Provide buoyancy; allow gas diffusion to submerged parts        |
 | Reduced xylem                      | Water transport is less critical; support provided by water     |
 | Flexible stems                     | Bend with water current rather than breaking                    |
+
+</div>
 
 ## 15. Conservation Strategies: Case Studies
 
@@ -1106,6 +1170,8 @@ main goals:
 
 ### 15.3 Managing Conservation: Role of Governments and NGOs
 
+<div class="table-wrap">
+
 | Organisation                                                              | Role                                                                                                                                                                                |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IUCN (International Union for Conservation of Nature)                     | Publishes the Red List of threatened species; defines conservation categories (extinct, critically endangered, endangered, vulnerable, near threatened, least concern)              |
@@ -1114,9 +1180,13 @@ main goals:
 | NGOs (e.g., WWF, RSPB, BirdLife International)                            | Purchase and manage reserves; conduct research; lobby governments; public education and fundraising                                                                                 |
 | Zoos and botanical gardens                                                | Captive breeding programmes; seed banks; public education; research                                                                                                                 |
 
+</div>
+
 ## 16. Advanced Classification: The Six Kingdom System
 
 Some biologists prefer a six-kingdom system that separates bacteria and archaea:
+
+<div class="table-wrap">
 
 | Kingdom                  | Cell Type   | Nutrition                                         | Examples                                                  |
 | ------------------------ | ----------- | ------------------------------------------------- | --------------------------------------------------------- |
@@ -1127,7 +1197,11 @@ Some biologists prefer a six-kingdom system that separates bacteria and archaea:
 | Plantae                  | Eukaryotic  | Autotrophic (photosynthetic)                      | Mosses, ferns, conifers, flowering plants                 |
 | Animalia                 | Eukaryotic  | Heterotrophic (ingestive)                         | Invertebrates, fish, amphibians, reptiles, birds, mammals |
 
+</div>
+
 ### 16.1 Difficulties in Classification
+
+<div class="table-wrap">
 
 | Problem                  | Description                                                                              | Example                                                            |
 | ------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -1136,6 +1210,8 @@ Some biologists prefer a six-kingdom system that separates bacteria and archaea:
 | Horizontal gene transfer | Genes are exchanged between species, blurring evolutionary boundaries                    | Bacteria (antibiotic resistance genes transferred between species) |
 | Convergent evolution     | Similar structures evolved independently, making classification by morphology misleading | Analogous structures (wings of bats and birds)                     |
 | Extinct organisms        | Only fossil evidence available; incomplete information                                   | Dinosaurs, trilobites                                              |
+
+</div>
 
 ---
 
@@ -1207,12 +1283,16 @@ in the population at frequencies determined by the relative fitness of each geno
 
 Humans have been artificially selecting plants and animals for thousands of years:
 
+<div class="table-wrap">
+
 | Example                 | Trait Selected                                                   | Method                                                                                    |
 | ----------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Dairy cattle            | High milk yield                                                  | Breeding bulls and cows with the highest milk production records                          |
 | Wheat                   | High yield, disease resistance, short stems (to prevent lodging) | Crossing different varieties; selecting offspring with desired traits                     |
 | Dogs                    | Behaviour, appearance, size                                      | Selective breeding over thousands of years, producing > 300 breeds                        |
 | Disease-resistant crops | Resistance to fungal/bacterial/viral diseases                    | Screening plants for resistance; crossing with wild relatives that carry resistance genes |
+
+</div>
 
 Artificial selection differs from natural selection in that humans (not the environment) determine
 which traits are advantageous. The process can be much faster than natural selection because
@@ -1259,6 +1339,8 @@ three different diploid species.
 
 ### 18.3 Reproductive Isolating Mechanisms
 
+<div class="table-wrap">
+
 | Type                                                | Mechanism                                                              | Example                                                                                                |
 | --------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | **Pre-zygotic** (prevent mating or fertilisation)   |                                                                        |                                                                                                        |
@@ -1271,6 +1353,8 @@ three different diploid species.
 | Hybrid inviability                                  | Zygote fails to develop properly                                       | Sheep $\times$ goat hybrid dies during embryonic development                                           |
 | Hybrid sterility                                    | Hybrid is sterile                                                      | Mule (horse $\times$ donkey): viable but sterile (cannot produce gametes due to odd chromosome number) |
 | Hybrid breakdown                                    | First-generation hybrid is fertile, but subsequent generations are not | Rice hybrids show reduced fertility in F2 generation                                                   |
+
+</div>
 
 ## 19. Molecular Evidence for Evolution
 
@@ -1312,6 +1396,8 @@ same location is vanishingly small.
 
 ### 20.1 The Five Kingdom System (Whittaker, 1969)
 
+<div class="table-wrap">
+
 | Kingdom              | Cell Type   | Cell Wall           | Nutrition                    | Examples                          |
 | -------------------- | ----------- | ------------------- | ---------------------------- | --------------------------------- |
 | Prokaryotae (Monera) | Prokaryotic | Peptidoglycan       | Autotrophic or heterotrophic | Bacteria, cyanobacteria           |
@@ -1319,6 +1405,8 @@ same location is vanishingly small.
 | Fungi                | Eukaryotic  | Chitin              | Heterotrophic (saprotrophic) | _Mucor_, _Penicillium_, yeast     |
 | Plantae              | Eukaryotic  | Cellulose           | Autotrophic (photosynthetic) | Mosses, ferns, flowering plants   |
 | Animalia             | Eukaryotic  | None                | Heterotrophic (ingestive)    | Insects, fish, mammals            |
+
+</div>
 
 **Problems with the five-kingdom system:**
 
@@ -1332,11 +1420,15 @@ same location is vanishingly small.
 
 Based on ribosomal RNA (rRNA) gene sequencing:
 
+<div class="table-wrap">
+
 | Domain   | Description | Key Features                                                                                                                                   |
 | -------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Bacteria | Prokaryotic | Peptidoglycan cell wall; one circular chromosome; no introns; 70S ribosomes; ester-linked membrane lipids                                      |
 | Archaea  | Prokaryotic | No peptidoglycan (pseudopeptidoglycan or protein S-layer); some have introns; 70S ribosomes; ether-linked membrane lipids; often extremophiles |
 | Eukarya  | Eukaryotic  | Membrane-bound organelles; linear chromosomes; 80S ribosomes; ester-linked membrane lipids; introns common                                     |
+
+</div>
 
 ### 20.3 Difficulties in Classification
 
@@ -1359,6 +1451,8 @@ Based on ribosomal RNA (rRNA) gene sequencing:
 
 Conservation within the natural habitat:
 
+<div class="table-wrap">
+
 | Method                             | Description                                                       | Examples                                                                                              |
 | ---------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | National parks and nature reserves | Legally protected areas where human activities are restricted     | Serengeti National Park (Tanzania); Yellowstone National Park (USA); Lake District National Park (UK) |
@@ -1366,12 +1460,16 @@ Conservation within the natural habitat:
 | Wildlife corridors                 | Strips of habitat connecting fragmented areas, allowing gene flow | Hedge rows in agricultural landscapes; overpasses for wildlife across roads                           |
 | Community-based conservation       | Local communities manage and benefit from conservation            | CAMPFIRE programme in Zimbabwe (communities benefit from wildlife tourism)                            |
 
+</div>
+
 **Advantages of in situ conservation:** preserves the entire ecosystem; allows natural evolutionary
 processes to continue; maintains ecological interactions; often more cost-effective than ex situ.
 
 ### 21.2 Ex Situ Conservation
 
 Conservation outside the natural habitat:
+
+<div class="table-wrap">
 
 | Method                    | Description                                                               | Examples                                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -1381,10 +1479,14 @@ Conservation outside the natural habitat:
 | Cryopreservation          | Freezing embryos, gametes, or tissues in liquid nitrogen (-196 degrees C) | Used for endangered animal species (e.g., coral sperm banks)                               |
 | Tissue culture            | Growing plants from small tissue samples in sterile conditions            | Used for rare orchids and ferns                                                            |
 
+</div>
+
 ### 21.3 The CITES Convention
 
 CITES (Convention on International Trade in Endangered Species) regulates international trade in
 wildlife:
+
+<div class="table-wrap">
 
 | Appendix | Species Covered                                                                     | Trade Restrictions                                                            |
 | -------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -1392,7 +1494,11 @@ wildlife:
 | II       | Species not threatened with extinction but may become so if trade is not controlled | Trade permitted with export permits                                           |
 | III      | Species protected in at least one country                                           | Trade permitted with export permits from that country                         |
 
+</div>
+
 ### 21.4 Measuring Conservation Success
+
+<div class="table-wrap">
 
 | Indicator         | How Measured                                                                                | Example                                                                                                         |
 | ----------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -1401,15 +1507,21 @@ wildlife:
 | Habitat area      | Remote sensing (satellite imagery); GIS                                                     | Rate of deforestation in the Amazon basin                                                                       |
 | Species richness  | Quadrat sampling; transect surveys; camera traps                                            | Number of species in a nature reserve before and after management intervention                                  |
 
+</div>
+
 ## 22. Evolution: Evidence and Mechanisms
 
 ### 22.1 Types of Natural Selection
+
+<div class="table-wrap">
 
 | Type                  | Description                                                      | Effect on Population                            | When It Occurs                                                  |
 | --------------------- | ---------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
 | Directional selection | Favouring one extreme phenotype                                  | Shift in the mean phenotype towards one extreme | Environment changes; new selective pressure                     |
 | Stabilising selection | Favouring the intermediate phenotype; selecting against extremes | Reduction in variation; mean stays the same     | Stable environment; intermediate is most fit                    |
 | Disruptive selection  | Favouring both extremes; selecting against the intermediate      | Bimodal distribution; increase in variation     | Environment favours two distinct niches; may lead to speciation |
+
+</div>
 
 **Examples:**
 
@@ -1423,6 +1535,8 @@ wildlife:
 
 ### 22.2 Evidence for Evolution
 
+<div class="table-wrap">
+
 | Type of Evidence       | Examples                                                                                                                                                                                                                                                                                                                                                   |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Fossil record          | Sequence of fossils shows gradual change over time (e.g., horse evolution from _Hyracotherium_ to _Equus_); transitional forms (e.g., _Archaeopteryx_ -- feathered dinosaur with reptilian and avian features); relative dating (deeper layers contain older fossils)                                                                                      |
@@ -1431,7 +1545,11 @@ wildlife:
 | Molecular evidence     | DNA and protein sequence comparisons; molecular clocks; shared pseudogenes; endogenous retroviruses (see Section 19)                                                                                                                                                                                                                                       |
 | Biogeography           | Species on oceanic islands are similar to those on the nearest mainland (e.g., Darwin's finches resemble South American finches); the distribution of marsupials in Australia (separated from other continents early, allowing marsupials to diversify without competition from placental mammals)                                                         |
 
+</div>
+
 ### 22.3 Genetic Drift vs Natural Selection
+
+<div class="table-wrap">
 
 | Feature           | Genetic Drift                                                 | Natural Selection                                                                                         |
 | ----------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -1439,9 +1557,15 @@ wildlife:
 | Direction         | No predictable direction                                      | Direction depends on which alleles confer fitness advantage                                               |
 | Strength          | Stronger in small populations                                 | Independent of population size (but operates on genetic variation, which is greater in large populations) |
 | Effect on fitness | Can increase or decrease fitness (random)                     | Increases fitness (adaptive)                                                                              |
+<div class="table-wrap">
+
 | Feature           | Genetic Drift                                                 | Natural Selection                                                                                         |
 | -------           | -------------                                                 | -----------------                                                                                         |
+
+</div>
 | Speed             | Can cause rapid allele frequency changes in small populations | Generally slower (depends on selection coefficient)                                                       |
+
+</div>
 
 ## 23. Fieldwork Techniques and Data Analysis
 
@@ -1486,21 +1610,29 @@ gradient:
 
 ### 23.3 Correlation and Association
 
+<div class="table-wrap">
+
 | Test                                            | Data Type                                             | Purpose                                                                            | Null Hypothesis                                                     |
 | ----------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Pearson's correlation coefficient ($r$)         | Continuous data (both variables normally distributed) | Measures the strength and direction of a linear relationship between two variables | There is no correlation between the two variables ($r = 0$)         |
 | Spearman's rank correlation coefficient ($r_s$) | Ordinal data or non-normal continuous data            | Measures the strength of a monotonic relationship                                  | There is no correlation                                             |
 | Chi-squared ($\chi^2$) test                     | Categorical data (counts in categories)               | Tests whether there is an association between two categorical variables            | There is no association between the variables (observed = expected) |
 
+</div>
+
 **Chi-squared worked example:**
 
 Are plant species distributed independently of soil pH?
+
+<div class="table-wrap">
 
 |           | Acidic soil | Neutral soil | Alkaline soil | Total |
 | --------- | ----------- | ------------ | ------------- | ----- |
 | Species A | 45          | 20           | 5             | 70    |
 | Species B | 10          | 30           | 40            | 80    |
 | Total     | 55          | 50           | 45            | 150   |
+
+</div>
 
 Expected values:
 $E = \frac{\text{row total} \times \text{column total}}{\text{grand total}}$
@@ -1524,12 +1656,16 @@ Consider a gene with two alleles, A and a, at frequencies $p$ and $q$ respective
 
 If mating is random, the probability of each genotype in the next generation is:
 
+<div class="table-wrap">
+
 | Gamete from Father  | Gamete from Mother  | Offspring Genotype | Probability        |
 | ------------------- | ------------------- | ------------------ | ------------------ |
 | A (probability $p$) | A (probability $p$) | AA                 | $p \times p = p^2$ |
 | A (probability $p$) | a (probability $q$) | Aa                 | $p \times q = pq$  |
 | a (probability $q$) | A (probability $p$) | Aa                 | $q \times p = pq$  |
 | a (probability $q$) | a (probability $q$) | aa                 | $q \times q = q^2$ |
+
+</div>
 
 Genotype frequencies: $p^2$ (AA) + $2pq$ (Aa) + $q^2$ (aa) = 1.
 
@@ -1554,12 +1690,16 @@ frequencies, this may indicate selection:
 
 **Example:** In a population of snails, the observed and expected genotype frequencies are:
 
+<div class="table-wrap">
+
 | Genotype    | Observed | Expected ($\mathrm{H\text{-}W}$) |
 | ----------- | -------- | -------------------------------- |
 | BB (brown)  | 160      | 144 ($= 0.36 \times 400$)        |
 | Bb (brown)  | 120      | 192 ($= 0.48 \times 400$)        |
 | bb (yellow) | 120      | 64 ($= 0.16 \times 400$)         |
 | **Total**   | **400**  | **400**                          |
+
+</div>
 
 Allele frequencies: $p(\mathrm{B}) = \frac{160 \times 2 + 120}{800} = 0.55$;
 $q(\mathrm{b}) = 0.45$.
@@ -1577,6 +1717,8 @@ A biodiversity hotspot is a region that meets two criteria:
 1. Contains at least 1,500 species of vascular plants as endemics (found nowhere else).
 2. Has lost at least 70% of its original habitat.
 
+<div class="table-wrap">
+
 | Hotspot                  | Location                                   | Key Features                                                                 |
 | ------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------- |
 | Tropical Andes           | South America                              | Highest plant diversity of any hotspot; many endemic amphibians and birds    |
@@ -1585,6 +1727,8 @@ A biodiversity hotspot is a region that meets two criteria:
 | Mediterranean Basin      | Southern Europe, North Africa, Middle East | 25,000 plant species (50% endemic); heavily impacted by tourism, agriculture |
 | Indo-Burma               | India, Myanmar, Thailand, Vietnam          | Tigers, elephants, gibbons; rapid habitat loss                               |
 | Atlantic Forest (Brazil) | Eastern Brazil                             | 20,000 plant species (8,000 endemic); only 12% of original forest remains    |
+
+</div>
 
 ### 25.2 The Species-Area Relationship
 
@@ -1664,12 +1808,16 @@ self-marking and building a personal test matrix.
 
 When analysing ecological data, it is essential to quantify variability:
 
+<div class="table-wrap">
+
 | Statistic                | Formula                                              | What It Measures                                                 |
 | ------------------------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | Mean ($\bar{x}$)         | $\bar{x} = \frac{\sum x_i}{n}$           | Central tendency                                                 |
 | Standard deviation ($s$) | $s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}$ | Spread of data around the mean                                   |
 | Standard error (SE)      | $\mathrm{SE} = \frac{s}{\sqrt{n}}$       | Precision of the mean estimate                                   |
 | 95% CI                   | $\bar{x} \pm 1.96 \times \mathrm{SE}$                | Range within which the true population mean is 95% likely to lie |
+
+</div>
 
 ### 26.2 Student's t-Test
 
@@ -1698,6 +1846,8 @@ in soil pH between the two fields.
 
 ### 27.1 Types of Evidence
 
+<div class="table-wrap">
+
 | Type of Evidence         | Examples                                                                                                                                                                                                                     | What It Shows                                                           |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Fossil record            | Transitional fossils (e.g., _Archaeopteryx_ -- between reptiles and birds; _Tiktaalik_ -- between fish and tetrapods; _Ambulocetus_ -- between land mammals and whales)                                                      | Shows gradual change over time; reveals the sequence of evolution       |
@@ -1706,6 +1856,8 @@ in soil pH between the two fields.
 | Comparative embryology   | Early vertebrate embryos all look similar (pharyngeal pouches, tail, somites); suggest common ancestry                                                                                                                       | Developmental similarities reflect evolutionary relationships           |
 | Biogeography             | Species on oceanic islands resemble those on nearest mainland (e.g., Galapagos finches resemble South American finches); continental drift explains distribution of fossils (e.g., _Mesosaurus_ in South America and Africa) | Geographic patterns consistent with evolution, not independent creation |
 | Direct observation       | Antibiotic resistance in bacteria; pesticide resistance in insects; Darwin's finches (beak size changes with food availability)                                                                                              | Evolution can be observed in real time                                  |
+
+</div>
 
 ### 27.2 Molecular Clock
 
@@ -1722,6 +1874,8 @@ $$
 - Most mutations are neutral (not affected by natural selection).
 - The rate is the same in both lineages.
 
+<div class="table-wrap">
+
 | Example                | Species Compared | Cytochrome c Amino Acid Differences | Estimated Divergence |
 | ---------------------- | ---------------- | ----------------------------------- | -------------------- |
 | Human vs chimpanzee    | 0 differences    | ~6 million years ago                |
@@ -1729,9 +1883,13 @@ $$
 | Human vs dog           | 10 differences   | ~80 million years ago               |
 | Human vs yeast         | 45 differences   | ~1.5 billion years ago              |
 
+</div>
+
 ## 28. Classification Systems
 
 ### 28.1 The Three-Domain System (Woese, 1990)
+
+<div class="table-wrap">
 
 | Domain   | Cell Type   | Cell Wall                                          | Membrane Lipids                           | Genetic Material                                  | Examples                                     |
 | -------- | ----------- | -------------------------------------------------- | ----------------------------------------- | ------------------------------------------------- | -------------------------------------------- |
@@ -1739,7 +1897,11 @@ $$
 | Archaea  | Prokaryotic | Pseudopeptidoglycan (some); or no cell wall        | Ether-linked (isoprene chains)            | Single circular chromosome; histone-like proteins | _Methanogens_, _Halophiles_, _Thermophiles_  |
 | Eukarya  | Eukaryotic  | Cellulose (plants), chitin (fungi), none (animals) | Ester-linked                              | Linear chromosomes in nucleus; histones           | Animals, plants, fungi, protists             |
 
+</div>
+
 ### 28.2 The Five-Kingdom System
+
+<div class="table-wrap">
 
 | Kingdom                | Cell Type   | Nutrition                                           | Cell Wall                | Examples                                               |
 | ---------------------- | ----------- | --------------------------------------------------- | ------------------------ | ------------------------------------------------------ |
@@ -1749,7 +1911,11 @@ $$
 | Protoctista (Protista) | Eukaryotic  | Mixed (autotrophic and heterotrophic)               | Some have cellulose      | Amoeba, Paramecium, Chlorella, Plasmodium              |
 | Prokaryotae (Monera)   | Prokaryotic | Mixed                                               | Peptidoglycan (bacteria) | Bacteria (now split into Domains Bacteria and Archaea) |
 
+</div>
+
 ### 28.3 Phylogenetic Classification vs Traditional Classification
+
+<div class="table-wrap">
 
 | Feature            | Phylogenetic (Cladistics)                                                 | Traditional (Phenetics)                                              |
 | ------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -1759,6 +1925,8 @@ $$
 | Example            | Birds are grouped WITHIN reptiles (share common ancestor with crocodiles) | Birds are a separate class from reptiles                             |
 | Advantages         | Reflects true evolutionary history; predictive power                      | Simple; uses observable features; practical for field identification |
 
+</div>
+
 ## 29. Biodiversity Hotspots and Conservation
 
 ### 29.1 Biodiversity Hotspots
@@ -1767,6 +1935,8 @@ A biodiversity hotspot is a region with:
 
 1. High species richness (at least 1,500 endemic plant species -- species found nowhere else).
 2. High threat level (has lost at least 70% of its original primary vegetation).
+
+<div class="table-wrap">
 
 | Hotspot                  | Location                                   | Key Features                                                                                  |
 | ------------------------ | ------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -1778,7 +1948,11 @@ A biodiversity hotspot is a region with:
 | Atlantic Forest (Brazil) | Eastern Brazil                             | 20,000 plant species (8,000 endemic); only 12% of original forest remains                     |
 | Cape Floristic Region    | South Africa                               | 9,600 plant species (70% endemic); fynbos vegetation; proteas, heathers                       |
 
+</div>
+
 ### 29.2 Conservation Strategies
+
+<div class="table-wrap">
 
 | Strategy             | Description                                                                                                                          | Example                                                                                                                              |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1788,9 +1962,13 @@ A biodiversity hotspot is a region with:
 | Habitat corridors    | Connecting fragmented habitats to allow gene flow and migration                                                                      | Wildlife bridges; hedgerow networks; riparian corridors along rivers                                                                 |
 | CITES                | Convention on International Trade in Endangered Species of Wild Fauna and Flora; regulates international trade in endangered species | Bans trade in ivory, rhino horn, tiger parts                                                                                         |
 
+</div>
+
 ## 30. Fieldwork Techniques
 
 ### 30.1 Random Sampling
+
+<div class="table-wrap">
 
 | Technique         | Description                                                                                                                               | How to Ensure Randomness                                                                                           |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -1800,13 +1978,19 @@ A biodiversity hotspot is a region with:
 | Pitfall trapping  | Containers sunk into the ground; ground-dwelling invertebrates fall in                                                                    | Position randomly; check regularly; add preservative                                                               |
 | Kick sampling     | Riverbed is disturbed by kicking; invertebrates are carried into a net downstream                                                         | Standardise kick time and area; used for freshwater invertebrate surveys                                           |
 
+</div>
+
 ### 30.2 Estimating Population Size
+
+<div class="table-wrap">
 
 | Method                                 | Formula                                                                                                        | When to Use                             |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Quadrat density                        | $\text{Population} = \text{mean density per quadrat} \times \text{total area}$                                 | Plants and sessile (non-moving) animals |
 | Mark-release-recapture (Lincoln index) | $N = \frac{M \times C}{R}$ (M = marked first catch, C = total second catch, R = recaptured marked) | Mobile animals                          |
 | Belt transect                          | Count organisms in quadrats along a continuous transect                                                        | Studying distribution along a gradient  |
+
+</div>
 
 **Assumptions of mark-release-recapture:**
 
@@ -1821,6 +2005,8 @@ A biodiversity hotspot is a region with:
 
 ### 31.1 Allopatric Speciation (Geographic Isolation)
 
+<div class="table-wrap">
+
 | Step | What Happens                                                                                                                                                    |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | A population is physically separated by a geographic barrier (mountain range, river, ocean, desert)                                                             |
@@ -1831,7 +2017,11 @@ A biodiversity hotspot is a region with:
 | 6    | Over many generations, the populations become so genetically different that they can no longer interbreed to produce fertile offspring (reproductive isolation) |
 | 7    | They are now separate species                                                                                                                                   |
 
+</div>
+
 ### 31.2 Reproductive Isolation Mechanisms
+
+<div class="table-wrap">
 
 | Type                                           | Mechanism                                                                         | Example                                                                                              |
 | ---------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -1846,9 +2036,13 @@ A biodiversity hotspot is a region with:
 | Hybrid sterility                               | Hybrid is viable but sterile (cannot reproduce)                                   | Mule (horse $\times$ donkey); liger (lion $\times$ tiger)                                            |
 | Hybrid breakdown                               | First-generation hybrid is viable and fertile, but subsequent generations are not | Some plant hybrids                                                                                   |
 
+</div>
+
 ## 32. Natural Selection in Detail
 
 ### 32.1 Types of Selection
+
+<div class="table-wrap">
 
 | Type                  | Description                                                                 | Effect on Population                                      | Example                                                                                                                                           |
 | --------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1856,7 +2050,11 @@ A biodiversity hotspot is a region with:
 | Directional selection | Favouring one extreme phenotype; selection shifts the mean in one direction | Changes the mean of the population                        | Antibiotic resistance (bacteria with resistance genes survive and reproduce; mean shifts towards resistance); Peppered moth (industrial melanism) |
 | Disruptive selection  | Favouring both extremes; selecting against the intermediate                 | Increases variation; may lead to speciation               | Beak size in Darwin's finches (during drought, large and small beaks are favoured; intermediate beaks are disadvantageous)                        |
 
+</div>
+
 ### 32.2 Conditions for Natural Selection
+
+<div class="table-wrap">
 
 | Condition                              | Description                                                                                        |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -1865,9 +2063,13 @@ A biodiversity hotspot is a region with:
 | Differential survival and reproduction | Some variants are more likely to survive and reproduce than others (selection pressure)            |
 | Overproduction of offspring            | More offspring are produced than can survive (competition for resources)                           |
 
+</div>
+
 ## 33. The Peppered Moth: A Case Study
 
 ### 33.1 Background
+
+<div class="table-wrap">
 
 | Feature               | Details                                                                           |
 | --------------------- | --------------------------------------------------------------------------------- |
@@ -1876,7 +2078,11 @@ A biodiversity hotspot is a region with:
 | Cause of polymorphism | Single gene mutation (dominant carbonaria allele)                                 |
 | Habitat               | Trees with lichen-covered bark (light) and soot-blackened bark (industrial areas) |
 
+</div>
+
 ### 33.2 The Story
+
+<div class="table-wrap">
 
 | Period                               | Conditions                                                   | Selective Pressure                                                             | Outcome                                                                       |
 | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
@@ -1884,7 +2090,11 @@ A biodiversity hotspot is a region with:
 | Industrial Revolution (1850--1950)   | Air pollution killed lichen; tree bark became dark with soot | Dark moths were now better camouflaged; light moths were seen                  | Dark morph increased to ~95% in industrial areas; directional selection       |
 | Post-industrial (1950--present)      | Clean air laws reduced pollution; lichen regrew on trees     | Light moths were once again better camouflaged; dark moths became more visible | Light morph has increased again in clean areas; reverse directional selection |
 
+</div>
+
 ### 33.3 What This Demonstrates
+
+<div class="table-wrap">
 
 | Principle                             | Evidence from the Peppered Moth                                                                                                |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -1893,9 +2103,13 @@ A biodiversity hotspot is a region with:
 | Evolution is reversible               | When the environment changed back, the allele frequencies shifted again                                                        |
 | Genetic variation is the raw material | The mutation for dark colour existed at low frequency before industrialisation; it became advantageous when conditions changed |
 
+</div>
+
 ## 34. Cladistics
 
 ### 34.1 Building a Cladogram
+
+<div class="table-wrap">
 
 | Step | Description                                                                                                                              |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1905,7 +2119,11 @@ A biodiversity hotspot is a region with:
 | 4    | Construct a branching diagram (cladogram) showing the evolutionary relationships                                                         |
 | 5    | Include an outgroup (a species known to be outside the group being studied) to root the cladogram                                        |
 
+</div>
+
 ### 34.2 Reading a Cladogram
+
+<div class="table-wrap">
 
 | Feature                                   | What It Shows                                                                                           |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -1914,9 +2132,13 @@ A biodiversity hotspot is a region with:
 | Species closest together on the cladogram | Share a more recent common ancestor; are more closely related                                           |
 | Number of shared derived characteristics  | Species that share more derived characteristics are more closely related                                |
 
+</div>
+
 ## 35. Antibiotic Resistance: An Evolutionary Perspective
 
 ### 35.1 How Antibiotic Resistance Arises
+
+<div class="table-wrap">
 
 | Step | What Happens                                                                                                                                                                    |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1926,7 +2148,11 @@ A biodiversity hotspot is a region with:
 | 4    | The resistance allele frequency increases in the population (directional selection)                                                                                             |
 | 5    | Resistant bacteria spread to other patients, hospitals, and communities                                                                                                         |
 
+</div>
+
 ### 35.2 Mechanisms of Antibiotic Resistance
+
+<div class="table-wrap">
 
 | Mechanism              | Example                                                                                                                |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------- |
@@ -1936,7 +2162,11 @@ A biodiversity hotspot is a region with:
 | Reduced permeability   | Mutations that reduce porin size in Gram-negative bacteria, preventing antibiotic entry                                |
 | Alternative pathway    | Bacteria develop a metabolic pathway that bypasses the drug's target                                                   |
 
+</div>
+
 ### 35.3 Strategies to Reduce Antibiotic Resistance
+
+<div class="table-wrap">
 
 | Strategy                         | Description                                                                                                                              |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1947,6 +2177,8 @@ A biodiversity hotspot is a region with:
 | Public education                 | Awareness campaigns about the dangers of antibiotic misuse                                                                               |
 | Agricultural restrictions        | Ban or restrict the use of antibiotics as growth promoters in livestock (already implemented in the EU)                                  |
 
+</div>
+
 ## 36. Using Dichotomous Keys
 
 ### 36.1 What Is a Dichotomous Key?
@@ -1956,6 +2188,8 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 ### 36.2 Rules for Constructing a Dichotomous Key
 
+<div class="table-wrap">
+
 | Rule                           | Description                                                                                       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------- |
 | Use paired statements          | Each couplet has two mutually exclusive options (e.g., "1a. Wings present" vs "1b. Wings absent") |
@@ -1964,6 +2198,8 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Each step leads to one outcome | Each statement should lead either to the next couplet or to the identification of the organism    |
 | Avoid overlapping categories   | The two options in each couplet must not overlap (no organism should fit both)                    |
 | Test the key                   | Verify that the key works correctly by testing it against known specimens                         |
+
+</div>
 
 ### 36.3 Example: Dichotomous Key for Common UK Trees
 
@@ -1988,6 +2224,8 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 ### 37.1 The Hierarchical Classification System
 
+<div class="table-wrap">
+
 | Rank    | Example (Human) | Example (Dog)            | Example (Oak Tree) |
 | ------- | --------------- | ------------------------ | ------------------ |
 | Domain  | Eukarya         | Eukarya                  | Eukarya            |
@@ -1999,7 +2237,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Genus   | _Homo_          | _Canis_                  | _Quercus_          |
 | Species | _Homo sapiens_  | _Canis lupus familiaris_ | _Quercus robur_    |
 
+</div>
+
 ### 37.2 Three-Domain vs Five-Kingdom System
+
+<div class="table-wrap">
 
 | Feature          | Three-Domain System (Woese)   | Five-Kingdom System                                |
 | ---------------- | ----------------------------- | -------------------------------------------------- |
@@ -2008,9 +2250,13 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Top-level groups | Bacteria, Archaea, Eukarya    | Animalia, Plantae, Fungi, Protoctista, Prokaryotae |
 | Archaea are      | Separate domain from Bacteria | Grouped with Bacteria in Prokaryotae               |
 
+</div>
+
 ## 38. Evidence for Evolution: Molecular Evidence
 
 ### 38.1 Comparing DNA Sequences
+
+<div class="table-wrap">
 
 | Principle                      | Description                                                                                                                                                       |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2019,7 +2265,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Cytochrome c                   | A highly conserved protein found in all aerobic organisms; comparing its amino acid sequence reveals evolutionary relationships                                   |
 | Haemoglobin                    | Comparing alpha- and beta-globin gene sequences across species shows patterns of divergence that match the fossil record                                          |
 
+</div>
+
 ### 38.2 The Molecular Clock
+
+<div class="table-wrap">
 
 | Feature     | Description                                                                                                                                                                                        |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2028,9 +2278,13 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Calibration | The clock must be calibrated using the fossil record (known divergence times from fossils)                                                                                                         |
 | Limitations | Mutation rate is not perfectly constant (varies between genes, between lineages, and over time); natural selection can distort the clock; generation time affects the number of mutations per year |
 
+</div>
+
 ## 39. Types of Natural Selection
 
 ### 39.1 Directional Selection
+
+<div class="table-wrap">
 
 | Feature        | Description                                                                                                                                                     |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2039,7 +2293,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | When it occurs | When the environment changes; a new selective pressure favours one extreme                                                                                      |
 | Graph effect   | The frequency distribution curve shifts to one side                                                                                                             |
 
+</div>
+
 ### 39.2 Stabilising Selection
+
+<div class="table-wrap">
 
 | Feature        | Description                                                                                                                                                                   |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2048,7 +2306,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | When it occurs | In stable environments where the current mean is optimal                                                                                                                      |
 | Graph effect   | The frequency distribution curve becomes narrower and taller                                                                                                                  |
 
+</div>
+
 ### 39.3 Disruptive Selection
+
+<div class="table-wrap">
 
 | Feature        | Description                                                                                                                                                                                                                           |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2057,9 +2319,13 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | When it occurs | When the environment favours two distinct phenotypes                                                                                                                                                                                  |
 | Graph effect   | The frequency distribution curve develops two peaks (bimodal); can lead to speciation over time                                                                                                                                       |
 
+</div>
+
 ## 40. Speciation
 
 ### 40.1 Allopatric Speciation (Geographic Isolation)
+
+<div class="table-wrap">
 
 | Step                             | Description                                                                                                                                                                              |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2069,7 +2335,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | 4. Allele frequencies change     | Natural selection, genetic drift, and mutation cause the allele frequencies of each population to diverge over many generations                                                          |
 | 5. Reproductive isolation        | Eventually, the two populations become so different that even if the geographic barrier is removed, they cannot interbreed to produce fertile offspring -- they are now separate species |
 
+</div>
+
 ### 40.2 Sympatric Speciation (Without Geographic Isolation)
+
+<div class="table-wrap">
 
 | Feature    | Description                                                                                                                                                                                                                                          |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2077,7 +2347,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Mechanism  | involves polyploidy (especially in plants): a mutation causes an individual to have extra sets of chromosomes (e.g., tetraploid, 4n); the polyploid individual can only reproduce with other polyploids; this creates instant reproductive isolation |
 | Example    | Modern wheat (_Triticum aestivum_) is a hexaploid (6n) that arose from hybridisation of three different species                                                                                                                                      |
 
+</div>
+
 ### 40.3 Reproductive Isolation Mechanisms
+
+<div class="table-wrap">
 
 | Type                  | Example                                                                                                                                 |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2087,6 +2361,8 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Gametic isolation     | Sperm cannot fertilise the egg of a different species (e.g., sea urchin gametes recognise species-specific proteins on the egg surface) |
 | Hybrid inviability    | Hybrid offspring are produced but do not survive to reproductive age                                                                    |
 | Hybrid sterility      | Hybrid offspring are healthy but sterile (e.g., mule = horse $\times$ donkey; mules are sterile)                                        |
+
+</div>
 
 ---
 

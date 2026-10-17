@@ -29,12 +29,16 @@ categories:
 
 ### 1.1 LAN and WAN
 
+<div class="table-wrap">
+
 | Feature   | LAN (Local Area Network)            | WAN (Wide Area Network)                |
 | --------- | ----------------------------------- | -------------------------------------- |
 | Coverage  | Small area (building, school, home) | Large area (cities, countries, global) |
 | Ownership | Owned by the organisation           | Owned by multiple organisations/ISPs   |
 | Speed     | Fast (100 Mbps -- 10 Gbps)          | Slower than LAN                        |
 | Cost      | Low setup and maintenance           | High setup and maintenance             |
+
+</div>
 
 **The Internet** is the largest WAN in the world, connecting billions of devices globally.
 
@@ -62,6 +66,8 @@ Between a phone and headphones are an example.
 
 **Client-server vs P2P comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Client-Server              | Peer-to-Peer                 |
 | -------------- | -------------------------- | ---------------------------- |
 | Central device | Yes (server)               | No                           |
@@ -71,6 +77,8 @@ Between a phone and headphones are an example.
 | Scalability    | Easier to scale            | Difficult at large scale     |
 | Failure impact | Server failure affects all | Only affected peer goes down |
 | Best for       | Businesses, schools        | Small home networks          |
+
+</div>
 
 ### 1.3 Network Topologies
 
@@ -109,6 +117,8 @@ A **network topology** describes the physical or logical arrangement of devices 
 
 ### 1.4 Comparing Topologies
 
+<div class="table-wrap">
+
 | Feature         | Star           | Mesh             | Bus          | Ring     |
 | --------------- | -------------- | ---------------- | ------------ | -------- |
 | Cost            | Low            | High             | Very low     | Low      |
@@ -117,6 +127,8 @@ A **network topology** describes the physical or logical arrangement of devices 
 | Fault tolerance | Good           | Excellent        | Poor         | Poor     |
 | Cable required  | One per device | Many             | One backbone | One ring |
 | Common use      | LANs           | Critical systems | Legacy       | Legacy   |
+
+</div>
 
 **Worked Example.** A school has 30 computers in a computer lab. Recommend a topology and justify
 Your answer.
@@ -138,6 +150,8 @@ through one of the computers. This is a LAN with a star topology connected to a 
 
 ### 2.1 Key Devices
 
+<div class="table-wrap">
+
 | Device                       | Function                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Router                       | Connects different networks together; directs data packets to their destination; assigns IP addresses (DHCP) |
@@ -147,6 +161,8 @@ through one of the computers. This is a LAN with a star topology connected to a 
 | Wireless access point (WAP)  | Allows wireless devices to connect to a wired network                                                        |
 | Bridge                       | Connects two segments of a LAN, filtering traffic                                                            |
 | Repeater                     | Amplifies signals to extend the range of a network                                                           |
+
+</div>
 
 ### 2.2 Switch vs Hub
 
@@ -175,17 +191,23 @@ on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
+<div class="table-wrap">
+
 | Device | OSI Layer     | Address Used | Connects             |
 | ------ | ------------- | ------------ | -------------------- |
 | Hub    | Physical (1)  | None         | Devices within a LAN |
 | Switch | Data Link (2) | MAC address  | Devices within a LAN |
 | Router | Network (3)   | IP address   | Different networks   |
 
+</div>
+
 ## 3. Network Models
 
 ### 3.1 The TCP/IP Model
 
 The TCP/IP model has four layers:
+
+<div class="table-wrap">
 
 | Layer                 | Function                               | Examples                        |
 | --------------------- | -------------------------------------- | ------------------------------- |
@@ -194,9 +216,13 @@ The TCP/IP model has four layers:
 | Internet (Network)    | Routes data packets across networks    | IP, routing protocols           |
 | Link (Network Access) | Handles physical transmission of data  | Ethernet, Wi-Fi, MAC addressing |
 
+</div>
+
 ### 3.2 The OSI Model (Higher Tier)
 
 The OSI (Open Systems Interconnection) model has seven layers:
+
+<div class="table-wrap">
 
 | Layer | Name         | Function                     | Examples             |
 | ----- | ------------ | ---------------------------- | -------------------- |
@@ -207,6 +233,8 @@ The OSI (Open Systems Interconnection) model has seven layers:
 | 3     | Network      | Routing and addressing       | IP, ICMP, ARP        |
 | 2     | Data Link    | Node-to-node delivery, MAC   | Ethernet, Wi-Fi      |
 | 1     | Physical     | Electrical signals, bits     | Cables, hubs         |
+
+</div>
 
 **Mnemonic:** "All People Seem To Need Data Processing" (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
@@ -241,6 +269,8 @@ $$
 
 ### 4.1 Key Protocols
 
+<div class="table-wrap">
+
 | Protocol  | Layer       | Purpose                                                                                   |
 | --------- | ----------- | ----------------------------------------------------------------------------------------- |
 | TCP       | Transport   | Reliable, connection-oriented data transfer; breaks data into segments; checks for errors |
@@ -254,7 +284,11 @@ $$
 | DNS       | Application | Resolves domain names to IP addresses (port 53)                                           |
 | DHCP      | Application | Assigns IP addresses automatically (port 67/68)                                           |
 
+</div>
+
 ### 4.2 TCP vs UDP
+
+<div class="table-wrap">
 
 | Feature     | TCP                                 | UDP                          |
 | ----------- | ----------------------------------- | ---------------------------- |
@@ -263,6 +297,8 @@ $$
 | Speed       | Slower                              | Faster                       |
 | Order       | Data arrives in order               | Data may arrive out of order |
 | Use cases   | Web browsing, email, file transfer  | Streaming, gaming, VoIP      |
+
+</div>
 
 **TCP three-way handshake:**
 
@@ -283,6 +319,8 @@ the most recent data, not old reliable data.
 
 Well-known ports are standardised so that services can be found at predictable addresses.
 
+<div class="table-wrap">
+
 | Port  | Protocol | Purpose          |
 | ----- | -------- | ---------------- |
 | 20/21 | FTP      | File transfer    |
@@ -294,6 +332,8 @@ Well-known ports are standardised so that services can be found at predictable a
 | 143   | IMAP     | Email receiving  |
 | 443   | HTTPS    | Secure web pages |
 | 993   | IMAPS    | Secure IMAP      |
+
+</div>
 
 ## 5. IP Addressing
 
@@ -346,6 +386,8 @@ $$
 
 **Difference between IP and MAC addresses:**
 
+<div class="table-wrap">
+
 | Feature     | IP Address                 | MAC Address                            |
 | ----------- | -------------------------- | -------------------------------------- |
 | Assigned by | Network (DHCP or manually) | Manufacturer (permanent)               |
@@ -353,6 +395,8 @@ $$
 | Used for    | Routing across networks    | Identifying devices on a local network |
 | Layer       | Internet layer             | Link layer                             |
 | Length      | 32 bits (IPv4)             | 48 bits                                |
+
+</div>
 
 **Analogy.** An IP address is like a postal address (it changes when you move). A MAC address is
 Like a National Insurance number (it is permanently assigned to you).
@@ -378,6 +422,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 
 ### 6.1 Threats
 
+<div class="table-wrap">
+
 | Threat                  | Description                                                                        |
 | ----------------------- | ---------------------------------------------------------------------------------- |
 | Malware                 | Malicious software (viruses, worms, trojans, ransomware, spyware)                  |
@@ -387,6 +433,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 | Denial of service (DoS) | Overwhelming a server with traffic to make it unavailable                          |
 | Interception            | Eavesdropping on network communications                                            |
 | Data theft              | Unauthorised access to or copying of data                                          |
+
+</div>
 
 **Types of malware in detail:**
 
@@ -403,6 +451,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 
 ### 6.2 Prevention Methods
 
+<div class="table-wrap">
+
 | Method                          | Description                                                                   |
 | ------------------------------- | ----------------------------------------------------------------------------- |
 | Firewall                        | Hardware or software that monitors and filters network traffic based on rules |
@@ -414,6 +464,8 @@ Arrives, NAT translates the destination back to 192.168.1.2.
 | Physical security               | Locks, security guards, CCTV                                                  |
 | Penetration testing             | Simulated attacks to find vulnerabilities                                     |
 | Software updates                | Installing patches to fix known security vulnerabilities                      |
+
+</div>
 
 ### 6.3 Encryption
 
@@ -510,6 +562,8 @@ Data is broken into small packets for transmission across a network. Each packet
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching                 | Circuit Switching             |
 | -------------- | -------------------------------- | ----------------------------- |
 | Connection     | No dedicated connection          | Dedicated connection          |
@@ -517,7 +571,11 @@ Data is broken into small packets for transmission across a network. Each packet
 | Reliability    | Packets can take different paths | Fixed route                   |
 | Example        | The Internet                     | Traditional telephone network |
 
+</div>
+
 ### 8.2 Transmission Media
+
+<div class="table-wrap">
 
 | Medium                      | Type     | Speed     | Distance    | Security            |
 | --------------------------- | -------- | --------- | ----------- | ------------------- |
@@ -526,6 +584,8 @@ Data is broken into small packets for transmission across a network. Each packet
 | Wi-Fi (radio waves)         | Unguided | Fast      | Short       | Low (interceptable) |
 | Microwave                   | Unguided | Fast      | Medium-Long | Medium              |
 | Satellite                   | Unguided | Variable  | Very long   | Medium              |
+
+</div>
 
 **Fibre optic vs copper:**
 
@@ -563,6 +623,8 @@ Manages inter-building traffic.
 
 ### 2.1 Key Devices
 
+<div class="table-wrap">
+
 | Device                       | Function                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Router                       | Connects different networks together; directs data packets to their destination; assigns IP addresses (DHCP) |
@@ -572,6 +634,8 @@ Manages inter-building traffic.
 | Wireless access point (WAP)  | Allows wireless devices to connect to a wired network                                                        |
 | Bridge                       | Connects two segments of a LAN, filtering traffic                                                            |
 | Repeater                     | Amplifies signals to extend the range of a network                                                           |
+
+</div>
 
 ### 2.2 Switch vs Hub
 
@@ -600,11 +664,15 @@ on a LAN to share a single public IP address.
 
 **Device comparison by OSI layer:**
 
+<div class="table-wrap">
+
 | Device | OSI Layer     | Address Used | Connects             |
 | ------ | ------------- | ------------ | -------------------- |
 | Hub    | Physical (1)  | None         | Devices within a LAN |
 | Switch | Data Link (2) | MAC address  | Devices within a LAN |
 | Router | Network (3)   | IP address   | Different networks   |
+
+</div>
 
 ### 2.4 MAC Addresses in Detail
 
@@ -661,12 +729,16 @@ Data is broken into small packets for transmission across a network. Each packet
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching                 | Circuit Switching             |
 | -------------- | -------------------------------- | ----------------------------- |
 | Connection     | No dedicated connection          | Dedicated connection          |
 | Resource usage | Efficient (shared)               | Wasteful (reserved)           |
 | Reliability    | Packets can take different paths | Fixed route                   |
 | Example        | The Internet                     | Traditional telephone network |
+
+</div>
 
 ### 8.2 Error Detection
 

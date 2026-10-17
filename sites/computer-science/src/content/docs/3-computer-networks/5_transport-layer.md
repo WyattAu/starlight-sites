@@ -25,12 +25,16 @@ The transport layer provides end-to-end communication services between applicati
 
 **Connectionless, unreliable, message-oriented.** 8-byte header.
 
+<div class="table-wrap">
+
 | Field    | Size    | Description                       |
 | -------- | ------- | --------------------------------- |
 | Src port | 16 bits | Source port                       |
 | Dst port | 16 bits | Destination port                  |
 | Length   | 16 bits | Header + data length              |
 | Checksum | 16 bits | Optional (IPv4); mandatory (IPv6) |
+
+</div>
 
 **Use cases:** DNS, DHCP, VoIP, video streaming, gaming. Suitable when low latency matters more Than
 reliability, or when the application handles reliability itself.
@@ -39,6 +43,8 @@ reliability, or when the application handles reliability itself.
 
 **Connection-oriented, reliable, byte-stream.** Provides flow control, congestion control, ordered
 Delivery. Header: 20 bytes minimum.
+
+<div class="table-wrap">
 
 | Field       | Size    | Description                        |
 | ----------- | ------- | ---------------------------------- |
@@ -52,9 +58,13 @@ Delivery. Header: 20 bytes minimum.
 | Checksum    | 16 bits | Mandatory                          |
 | Urgent ptr  | 16 bits | Pointer to urgent data             |
 
+</div>
+
 ### 5.3 TCP Options
 
 The TCP header can include options (within the data offset space):
+
+<div class="table-wrap">
 
 | Option         | Size     | Purpose                                 |
 | -------------- | -------- | --------------------------------------- |
@@ -63,6 +73,8 @@ The TCP header can include options (within the data offset space):
 | SACK Permitted | 2 bytes  | Allow Selective Acknowledgements        |
 | SACK           | Variable | Specify blocks of received data         |
 | Timestamps     | 10 bytes | RTT measurement, PAWS protection        |
+
+</div>
 
 **Selective Acknowledgement (SACK).** Standard TCP only acknowledges contiguous data. If segments 3,
 4, 5 are lost but 6-10 arrive, the receiver can only ACK up to segment 2. SACK allows the Receiver
@@ -73,6 +85,8 @@ Paths. The window scale option shifts the window left by $S$ bits, allowing wind
 $2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 
 ### 5.4 TCP vs UDP Comparison
+
+<div class="table-wrap">
 
 | Aspect          | TCP                       | UDP                           |
 | --------------- | ------------------------- | ----------------------------- |
@@ -86,6 +100,8 @@ $2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 | Use cases       | Web, email, file transfer | DNS, VoIP, streaming, gaming  |
 | Broadcast       | No (point-to-point)       | Yes (broadcast and multicast) |
 | Retransmission  | Automatic                 | Application-level             |
+
+</div>
 
 **Theorem 5.1.** TCP achieves reliable ordered delivery over an unreliable network using cumulative
 Acknowledgements, sequence numbers, and retransmission timers.
@@ -125,6 +141,8 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 
 **TCP state diagram** (state transitions):
 
+<div class="table-wrap">
+
 | From        | Event                  | To          |
 | ----------- | ---------------------- | ----------- |
 | CLOSED      | passive open           | LISTEN      |
@@ -142,6 +160,8 @@ Ensures: (1) the last ACK reaches the server; (2) old segments have expired.
 | CLOSING     | recv ACK               | TIME_WAIT   |
 | LAST_ACK    | recv ACK               | CLOSED      |
 | TIME_WAIT   | 2 $\times$ MSL timeout | CLOSED      |
+
+</div>
 
 ### 5.6 Flow Control
 
@@ -206,6 +226,8 @@ Events:
 
 **Slow start (cwnd doubles each RTT):**
 
+<div class="table-wrap">
+
 | RTT | cwnd (MSS) | cwnd (bytes) | Phase                             |
 | --- | ---------- | ------------ | --------------------------------- |
 | 1   | 2          | 2920         | Slow start                        |
@@ -213,13 +235,19 @@ Events:
 | 3   | 8          | 11680        | Slow start                        |
 | 4   | 16         | 23360        | cwnd $\geq$ ssthresh $\to$ switch |
 
+</div>
+
 **Congestion avoidance (cwnd increases by ~1 MSS per RTT):**
+
+<div class="table-wrap">
 
 | RTT | cwnd (bytes) | Increment | Phase                |
 | --- | ------------ | --------- | -------------------- |
 | 5   | 24820        | +1460     | Congestion avoidance |
 | 6   | 26280        | +1460     | Congestion avoidance |
 | 7   | 27740        | +1460     | Congestion avoidance |
+
+</div>
 
 **Fast retransmit and recovery (after 3 dup ACKs):**
 

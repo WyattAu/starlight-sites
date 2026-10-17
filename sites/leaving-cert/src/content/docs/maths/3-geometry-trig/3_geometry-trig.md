@@ -241,11 +241,15 @@ The circle is $x^2 + y^2 - 4x - 4y = 0$ With centre $(2, 2)$ and radius $\sqrt{4
 
 For a right-angled triangle with angle $\theta$:
 
+<div class="table-wrap">
+
 | Ratio        | Definition                                    |
 | ------------ | --------------------------------------------- |
 | $\sin\theta$ | $\frac{\mathrm{opposite}{\mathrm{hypotenuse}$ |
 | $\cos\theta$ | $\frac{\mathrm{adjacent}{\mathrm{hypotenuse}$ |
 | $\tan\theta$ | $\frac{\mathrm{opposite}{\mathrm{adjacent}$   |
+
+</div>
 
 ### The Unit Circle (OL/HL)
 
@@ -253,11 +257,15 @@ On the unit circle, a point at angle $\theta$ has coordinates $(\cos\theta, \sin
 
 Key values:
 
+<div class="table-wrap">
+
 | $\theta$     | $0$ | $\frac{\pi}{6}$      | $\frac{\pi}{4}$      | $\frac{\pi}{3}$      | $\frac{\pi}{2}$ |
 | ------------ | --- | -------------------- | -------------------- | -------------------- | --------------- |
 | $\sin\theta$ | $0$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$             |
 | $\cos\theta$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $0$             |
 | $\tan\theta$ | $0$ | $\frac{1}{\sqrt{3}}$ | $1$                  | $\sqrt{3}$           | undefined       |
+
+</div>
 
 ### Trigonometric Identities (OL/HL)
 

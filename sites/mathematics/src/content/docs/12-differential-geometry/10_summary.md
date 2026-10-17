@@ -18,6 +18,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 }
 </script>
 
+<div class="table-wrap">
+
 | Concept                  | Description                                                      |
 | ------------------------ | ---------------------------------------------------------------- |
 | Smooth manifold          | Hausdorff, second countable, locally Euclidean space             |
@@ -32,6 +34,8 @@ description: "Study notes for Summary | Mathematics - Wyatt's Notes with worked 
 | Geodesic                 | Curve with zero acceleration $\nabla_{\dot\gamma}\dot\gamma = 0$ |
 | Riemann curvature tensor | Measures non-commutativity of parallel transport                 |
 | Gauss-Bonnet theorem     | Total curvature = $2\pi \chi(M)$ for compact surfaces            |
+
+</div>
 
 ### Key Theorems
 
@@ -98,6 +102,8 @@ The following diagram shows how the core concepts of differential geometry relat
 Every compact, connected, oriented 2-manifold is homeomorphic to a sphere with $g$ handles, where
 $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
+<div class="table-wrap">
+
 | Surface | Genus $g$ | Euler characteristic $\chi$ | Total curvature |
 | --------- | ----------- | --------------------------- | ----------------- |
 | Sphere $S^2$ | 0 | 2 | $4\pi$ |
@@ -105,7 +111,11 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Double torus | 2 | $-2$ | $-4\pi$ |
 | $g$-holed torus | $g$ | $2 - 2g$ | $4\pi(1-g)$ |
 
+</div>
+
 ### Key Differential Operators in Coordinates
+
+<div class="table-wrap">
 
 | Operator | Action on $f$ / $\omega$ | In coordinates |
 |----------|--------------------------|----------------|
@@ -113,6 +123,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{\|g\|}}\partial_i(\sqrt{\|g\|} X^i)$ |
 | Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{\|g\|}}\partial_i(g^{ij}\sqrt{\|g\|}\partial_j f)$ |
 | Curl $(\nabla \times X)$ | $(\star dX^\flat)^\sharp$ | Depends on dimension; in $\mathbb{R}^3$, $(\nabla \times X)^i = \epsilon^{ijk}\partial_j X_k$ |
+
+</div>
 
 ### Important Identities
 
@@ -167,6 +179,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 
 ### Key Applications
 
+<div class="table-wrap">
+
 | Application | Manifold | Key Result |
 | ------------ | ---------- | ------------ |
 | General relativity | Spacetime $(M,g)$ | Einstein equations: $R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} = 8\pi G T_{\mu\nu}$ |
@@ -174,6 +188,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | String theory | Calabi-Yau 3-fold | Ricci-flat Kähler metric moduli |
 | Computer vision | Shape space | Geodesic distances for shape matching |
 | Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |
+
+</div>
 
 ## Intuition
 

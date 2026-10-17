@@ -20,6 +20,8 @@ AP Computer Science A is a college-level course that introduces students to comp
 
 ### Topics Covered
 
+<div class="table-wrap">
+
 | Topic | Weight | Questions |
 | ------- | -------- | ----------- |
 | Primitive Types | 2.5-5% | 1-2 |
@@ -31,6 +33,8 @@ AP Computer Science A is a college-level course that introduces students to comp
 | Recursion | 5-7.5% | 2-3 |
 | ArrayList | 10-12.5% | 4-5 |
 | 2D Arrays | 5-7.5% | 2-3 |
+
+</div>
 
 ---
 

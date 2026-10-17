@@ -207,6 +207,8 @@ After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rang
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | A measurement outcome is determined by the state | no | Bell's theorem: no local hidden variable theory reproduces the QM predictions, and experiments close the loopholes |
@@ -216,6 +218,8 @@ After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rang
 | Decoherence solves the measurement problem | no | it explains the appearance of classicality but produces an improper mixture, not a single outcome |
 | Quantum mechanics is merely a classical statistical theory | no | Bell inequalities, and Kochen-Specker, rule out both hidden-variable and noncontextual classical reconstructions |
 | The postulates are the only consistent formulation | no | they are one presentation; the algebraic, operational and categorical approaches are known to be equivalent, and the choices encode interpretation rather than prediction |
+
+</div>
 
 The first two rows are the ones that matter most. The projector row in
 particular kills a very common confusion: $\lvert\psi\rangle$ is a state, not

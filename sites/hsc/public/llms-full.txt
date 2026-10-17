@@ -502,12 +502,16 @@ Preparing for the HSC requires sustained effort across your subject selections. 
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Active recall, flashcards and formula review for 20 minutes |
 | Afternoon | Topic study, read notes on one new topic |
 | Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
+
+</div>
 
 ---
 
@@ -660,6 +664,8 @@ student"s results in their HSC or VCE studies.
 
 Although the two systems share a common purpose, they differ in several important ways:
 
+<div class="table-wrap">
+
 | Feature                | HSC (NSW)                                     | VCE (Victoria)                               |
 | ---------------------- | --------------------------------------------- | -------------------------------------------- |
 | Administering body     | NESA                                          | VCAA                                         |
@@ -669,6 +675,8 @@ Although the two systems share a common purpose, they differ in several importan
 | External exam          | NESA-set final exams                          | VCAA-set final exams                         |
 | Scaling method         | Raw marks scaled by NESA                      | Study scores scaled by VCAA                  |
 | ATAR conversion        | UAC                                           | VTAC                                         |
+
+</div>
 
 ## Subject Structure
 
@@ -1390,6 +1398,8 @@ HSC chemistry study notes - Organic
 
 ### Functional Groups
 
+<div class="table-wrap">
+
 | Functional Group | Formula | Suffix |
 | ----------------- | --------- | -------- |
 | Alkane | C-C | -ane |
@@ -1398,6 +1408,8 @@ HSC chemistry study notes - Organic
 | Aldehyde | -CHO | -al |
 | Carboxylic acid | -COOH | -oic acid |
 | Ester | -COO- | -oate |
+
+</div>
 
 ### Naming Conventions
 
@@ -1861,6 +1873,8 @@ URL: https://hsc.wyattau.com/diagnostics/diag-mathematics/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | B             |
@@ -1873,6 +1887,8 @@ URL: https://hsc.wyattau.com/diagnostics/diag-mathematics/
 | 8        | A             |
 | 9        | B             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
@@ -2111,6 +2127,8 @@ URL: https://hsc.wyattau.com/diagnostics/diag-physics/
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Correct Answer |
 |----------|---------------|
 | 1        | A             |
@@ -2123,6 +2141,8 @@ URL: https://hsc.wyattau.com/diagnostics/diag-physics/
 | 8        | B             |
 | 9        | B             |
 | 10       | C             |
+
+</div>
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 

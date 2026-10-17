@@ -235,6 +235,8 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Exchanging two identical particles is a physical operation | no | it is unobservable by definition; that is the reason the postulate exists |
@@ -245,6 +247,8 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 | A Slater determinant of $N$ electrons is just a compact notation | no | it *enforces* antisymmetry automatically, and expanding it is how the Pauli principle appears |
 | The exchange energy is small | no | it is the binding energy of the hydrogen molecule, and the origin of ferromagnetism |
 | Identical-particle statistics is a choice | no, in 3D | in two dimensions it is not, and anyons interpolate continuously between the two |
+
+</div>
 
 The first two rows are the same fact from different angles, and both are
 frequently stated wrongly. The exchange interaction is the best example in
@@ -316,7 +320,7 @@ Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-
 - **[Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)**: Perturbation theory and variational methods are essential for solving many-body quantum problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

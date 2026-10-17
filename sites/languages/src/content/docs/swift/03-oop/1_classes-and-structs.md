@@ -24,6 +24,8 @@ categories:
 Swift provides both **classes** (reference types) and **structs** (value types). The choice between
 them is a fundamental design decision.
 
+<div class="table-wrap">
+
 | Feature         | Struct                      | Class                           |
 | --------------- | --------------------------- | ------------------------------- |
 | Type            | Value type                  | Reference type                  |
@@ -34,6 +36,8 @@ them is a fundamental design decision.
 | Memory          | Stack (for small structs)             | Heap (ARC)                      |
 | Identity        | No (`==` compares values)   | Yes (`===` compares references) |
 | Implicit `init` | Yes (memberwise)            | No                              |
+
+</div>
 
 ### Choosing Between Struct and Class
 
@@ -734,6 +738,8 @@ class CreditCard {
 
 ## Access Control
 
+<div class="table-wrap">
+
 | Level         | Same module              | Different module         |
 | ------------- | ------------------------ | ------------------------ |
 | `open`        | Yes (subclass, override) | Yes (subclass, override) |
@@ -741,6 +747,8 @@ class CreditCard {
 | `internal`    | Yes                      | No                       |
 | `fileprivate` | Same file                | No                       |
 | `private`     | Same scope               | No                       |
+
+</div>
 
 ```swift
 open class PublicClass {

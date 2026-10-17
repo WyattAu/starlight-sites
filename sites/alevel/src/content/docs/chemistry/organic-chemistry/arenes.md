@@ -242,6 +242,8 @@ substituent determines both the **rate** and the **position** of the second subs
 These groups donate electron density into the ring, activating it toward electrophilic substitution
 and directing the electrophile to the ortho (2-, 6-) and para (4-) positions.
 
+<div class="table-wrap">
+
 | Group                             | Mechanism                   | Relative activating power |
 | --------------------------------- | --------------------------- | ------------------------- |
 | $-\mathrm{NH}_2$, $-\mathrm{NHR}$ | Resonance donation (strong) | Very strong               |
@@ -249,6 +251,8 @@ and directing the electrophile to the ortho (2-, 6-) and para (4-) positions.
 | $-\mathrm{OR}$                    | Resonance donation          | Strong                    |
 | $-\mathrm{R}$ (alkyl)             | Inductive donation (weak)   | Weak                      |
 | $-\mathrm{C}_6\mathrm{H}_5$       | Resonance donation (weak)   | Weak                      |
+
+</div>
 
 **Why ortho/para?** The resonance structures of the arenium ion intermediate show that ortho and
 para attack place the positive charge on the carbon bearing the electron-donating group, which can
@@ -259,6 +263,8 @@ stabilise the arenium ion through resonance. Meta attack does not allow this sta
 These groups withdraw electron density from the ring, deactivating it toward electrophilic
 substitution and directing the electrophile to the meta (3-, 5-) position.
 
+<div class="table-wrap">
+
 | Group                                     | Mechanism                                | Relative deactivating power |
 | ----------------------------------------- | ---------------------------------------- | --------------------------- |
 | $-\mathrm{NO}_2$                          | Resonance withdrawal (strong)            | Very strong                 |
@@ -267,6 +273,8 @@ substitution and directing the electrophile to the meta (3-, 5-) position.
 | $-\mathrm{SO}_3\mathrm{H}$                | Resonance withdrawal                     | Strong                      |
 | $-\mathrm{CF}_3$                          | Inductive withdrawal                     | Moderate                    |
 | Halogens ($-\mathrm{Cl}$, $-\mathrm{Br}$) | Inductive withdrawal, resonance donation | Weak deactivation           |
+
+</div>
 
 **Why meta?** The resonance structures of the arenium ion for ortho or para attack place the
 positive charge on the carbon bearing the electron-withdrawing group, which further destabilises the
@@ -293,12 +301,16 @@ $\mathrm{HNO}_3 / \mathrm{H}_2\mathrm{SO}_4$ at higher temperature) and produces
 
 ### Summary Table
 
+<div class="table-wrap">
+
 | Group type                                                    | Effect on rate       | Directing  |
 | ------------------------------------------------------------- | -------------------- | ---------- |
 | $-\mathrm{NH}_2$$-\mathrm{OH}$$-\mathrm{OR}$                  | Activates strongly   | Ortho/para |
 | Alkyl ($-\mathrm{R}$)                                         | Activates weakly     | Ortho/para |
 | Halogens                                                      | Deactivates weakly   | Ortho/para |
 | $-\mathrm{NO}_2$$-\mathrm{CN}$$-\mathrm{COR}$$-\mathrm{COOH}$ | Deactivates strongly | Meta       |
+
+</div>
 
 ## Common Pitfalls
 
@@ -886,6 +898,8 @@ the delocalised model of benzene.
 
 ### Key Disconnections
 
+<div class="table-wrap">
+
 | Target      | Disconnection              | Forward reagents                                     |
 | ----------- | -------------------------- | ---------------------------------------------------- |
 | Nitroarene  | Electrophilic nitration    | $\mathrm{HNO}_3/\mathrm{H}_2\mathrm{SO}_4$           |
@@ -893,6 +907,8 @@ the delocalised model of benzene.
 | Phenol      | Diazonium salt hydrolysis  | $\mathrm{ArN}_2^+ + \mathrm{H}_2\mathrm{O},\,\Delta$ |
 | Haloarene   | Electrophilic halogenation | $\mathrm{Br}_2/\mathrm{FeBr}_3$ or Sandmeyer         |
 | Azo dye     | Diazonium coupling         | $\mathrm{ArN}_2^+ + \text{phenol/amine}$             |
+
+</div>
 
 ### Directing Group Strategy in Multi-Step Synthesis
 

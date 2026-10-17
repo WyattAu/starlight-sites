@@ -304,6 +304,8 @@ Executes a five-stage pipeline defined in your `conanfile.py`:
 
 ### The Five Stages of `conan create`
 
+<div class="table-wrap">
+
 | Stage     | Method in `conanfile.py` | Purpose                                                  |
 | :-------- | :----------------------- | :------------------------------------------------------- |
 | `layout`  | `layout()`               | Configure source/build/package folder structure          |
@@ -311,6 +313,8 @@ Executes a five-stage pipeline defined in your `conanfile.py`:
 | `build`   | `build()`                | Compile the library (invoke CMake, Make, etc.)           |
 | `package` | `package()`              | Copy build artifacts (headers, libs) into package folder |
 | `test`    | `test()`                 | Run consumer tests against the built package             |
+
+</div>
 
 ### Complete Recipe Example
 
@@ -419,6 +423,8 @@ def package_info(self):
 The `CMakeToolchain` generator creates a `conan_toolchain.cmake` file that sets CMake variables
 before the project's `CMakeLists.txt` is processed. This file configures:
 
+<div class="table-wrap">
+
 | CMake Variable                            | Purpose                                       |
 | :---------------------------------------- | :-------------------------------------------- |
 | `CMAKE_C_COMPILER` / `CMAKE_CXX_COMPILER` | Compiler executable path (from build profile) |
@@ -426,6 +432,8 @@ before the project's `CMakeLists.txt` is processed. This file configures:
 | `CMAKE_POSITION_INDEPENDENT_CODE`         | Set to ON when building shared libraries      |
 | `BUILD_SHARED_LIBS`                       | Controlled by the `*:shared` option           |
 | `CMAKE_PREFIX_PATH`                       | Paths to dependency package folders           |
+
+</div>
 
 ### What `CMakeDeps` Generates
 
@@ -560,6 +568,8 @@ class MyLibConan(ConanFile):
     #     self.tool_requires("cmake/3.28.1")
 ```
 
+<div class="table-wrap">
+
 | Aspect                       | `requires`            | `tool_requires`       |
 | :--------------------------- | :-------------------- | :-------------------- |
 | **Affects Package ID**       | Yes                   | No                    |
@@ -567,6 +577,8 @@ class MyLibConan(ConanFile):
 | **Examples**                 | `fmt``openssl``boost` | `cmake``ninja``meson` |
 | **Binary needed at runtime** | Yes                   | No                    |
 | **Build-time only**          | No                    | Yes                   |
+
+</div>
 
 ---
 
@@ -634,6 +646,8 @@ conan cache path fmt/10.1.1:<package_id_hash>
 Conan 2.x introduced breaking changes designed to simplify the API and improve performance. The
 Following table highlights the key differences.
 
+<div class="table-wrap">
+
 | Feature                | Conan 1.x                            | Conan 2.x                                  |
 | :--------------------- | :----------------------------------- | :----------------------------------------- |
 | **Configuration file** | `conan.conf` in `~/.conan`           | No global config (profile-based)           |
@@ -648,6 +662,8 @@ Following table highlights the key differences.
 | **Cache location**     | `~/.conan/data/`                     | `~/.conan2/cache/`                         |
 | **Python API**         | Many deprecated functions            | Cleaned-up, fewer functions                |
 | **`build_requires`**   | `self.build_requires("cmake/...")`   | `self.tool_requires("cmake/...")`          |
+
+</div>
 
 ### Key Migration Steps
 
@@ -670,6 +686,8 @@ Following table highlights the key differences.
 
 ## Conan vs vcpkg: Architectural Trade-offs
 
+<div class="table-wrap">
+
 | Aspect             | Conan                                              | vcpkg                                           |
 | :----------------- | :------------------------------------------------- | :---------------------------------------------- |
 | **Binary model**   | Binary-first: downloads pre-built binaries         | Source-first: compiles from source by default   |
@@ -679,6 +697,8 @@ Following table highlights the key differences.
 | **Binary caching** | Built-in, per-configuration SHA-1 based            | Binary caching via NuGet feeds or Azure         |
 | **Versioning**     | Semantic version ranges                            | Versions in port manifest                       |
 | **Ecosystem**      | Widely used in embedded, gaming, enterprise        | Microsoft-backed, strong on Windows             |
+
+</div>
 
 Conan's binary-first approach makes it significantly faster for CI pipelines where the same
 Dependency is built repeatedly. Vcpkg's source-first approach guarantees reproducibility (you always

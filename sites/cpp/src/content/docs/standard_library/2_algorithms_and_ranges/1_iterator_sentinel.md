@@ -221,6 +221,8 @@ Sentinels and ranges.
 
 ### The Concept Refinement Chain
 
+<div class="table-wrap">
+
 | Concept                         | Refines                                                                             | Capabilities                                                      |
 | :------------------------------ | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
 | `std::input_or_output_iterator` |,                                                                                   | Can be incremented (`++it`), dereferenceable (`*it`)              |
@@ -230,6 +232,8 @@ Sentinels and ranges.
 | `std::bidirectional_iterator`   | `std::forward_iterator`                                                             | Can decrement (`--it`)                                            |
 | `std::random_access_iterator`   | `std::bidirectional_iterator`                                                       | Arithmetic (`it + n``it - n`), comparison (`&lt;``&gt;`)          |
 | `std::contiguous_iterator`      | `std::random_access_iterator`                                                       | Elements are contiguous in memory; `std::to_address(it)` is valid |
+
+</div>
 
 ### The `std::semiregular` Constraint on Sentinels
 

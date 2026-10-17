@@ -64,12 +64,16 @@ configuration. How many electrons maximum can occupy the $n = 3$ shell, and why?
 $n = 2$$\ell = 1$$m_\ell \in \{-1, 0, +1\}$$m_s = \pm \tfrac{1}{2}$. With four electrons, applying
 Hund's rule (maximum multiplicity first):
 
+<div class="table-wrap">
+
 | Electron | $n$ | $\ell$ | $m_\ell$ | $m_s$           |
 | -------- | --- | ------ | -------- | --------------- |
 | 1        | 2   | 1      | +1       | $+\tfrac{1}{2}$ |
 | 2        | 2   | 1      | 0        | $+\tfrac{1}{2}$ |
 | 3        | 2   | 1      | -1       | $+\tfrac{1}{2}$ |
 | 4        | 2   | 1      | +1       | $-\tfrac{1}{2}$ |
+
+</div>
 
 The $n = 3$ shell has subshells $3s$ ($\ell = 0$2 electrons), $3p$ ($\ell = 1$6 electrons), and $3d$
 ($\ell = 2$10 electrons). Maximum capacity: $2 + 6 + 10 = 18$ electrons.

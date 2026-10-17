@@ -34,12 +34,16 @@ When a bug is discovered in production, you may need to search through hundreds 
 commits to find when it was introduced. Linear search (checking each commit one by one) has $O(n)$
 time complexity. Binary search reduces this to $O(\log_2 n)$:
 
+<div class="table-wrap">
+
 | Commits to search | Linear steps | Binary steps |
 | ----------------- | ------------ | ------------ |
 | 100               | 100          | 7            |
 | 1,000             | 1,000        | 10           |
 | 10,000            | 10,000       | 14           |
 | 100,000           | 100,000      | 17           |
+
+</div>
 
 ## Basic Usage
 

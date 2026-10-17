@@ -52,6 +52,8 @@ Processes of photosynthesis and respiration.
 - Ribosomes (80S, larger).
 - Linear chromosomes.
 
+<div class="table-wrap">
+
 | Feature    | Prokaryote       | Eukaryote                            |
 | ---------- | ---------------- | ------------------------------------ |
 | Nucleus    | No               | Yes                                  |
@@ -60,6 +62,8 @@ Processes of photosynthesis and respiration.
 | Size       | 1--10 um         | 10--100 um                           |
 | Ribosomes  | 70S              | 80S                                  |
 | Cell wall  | Peptidoglycan    | Cellulose (plants) or chitin (fungi) |
+
+</div>
 
 ## Cell Organelles (OL/HL)
 
@@ -217,6 +221,8 @@ Genetically different.
 
 The key differences:
 
+<div class="table-wrap">
+
 | Feature             | Mitosis        | Meiosis           |
 | ------------------- | -------------- | ----------------- |
 | Number of divisions | 1              | 2                 |
@@ -225,6 +231,8 @@ The key differences:
 | Genetic variation   | None           | High              |
 | Function            | Growth, repair | Gamete production |
 | Crossing over       | No             | Yes (Prophase I)  |
+
+</div>
 
 ## Enzymes (OL/HL)
 
@@ -253,6 +261,8 @@ The key differences:
 An enzyme has an optimum temperature of 37$^{\circ}$C. The activity is measured at different
 Temperatures:
 
+<div class="table-wrap">
+
 | Temperature ($^{\circ}$ C) | Rate (arbitrary units) |
 | ------------------------- | ---------------------- |
 | 10                        | 5                      |
@@ -261,6 +271,8 @@ Temperatures:
 | 37                        | 30                     |
 | 45                        | 20                     |
 | 60                        | 0                      |
+
+</div>
 
 From 10 to 37$^{\circ}$C, the rate increases because higher temperature means more kinetic energy,
 So more enzyme-substrate collisions per unit time. At 37$^{\circ}$C, the rate is maximum. Above
@@ -350,6 +362,8 @@ $$
 
 **Worked Example: Comparing aerobic and anaerobic respiration.**
 
+<div class="table-wrap">
+
 | Feature       | Aerobic                                 | Anaerobic (muscle) | Anaerobic (yeast)        |
 | ------------- | --------------------------------------- | ------------------ | ------------------------ |
 | Oxygen needed | Yes                                     | No                 | No                       |
@@ -357,6 +371,8 @@ $$
 | Products      | $\mathrm{CO_2$ + $\mathrm{H_2\mathrm{O$ | Lactate            | Ethanol + $\mathrm{CO_2$ |
 | ATP yield     | ~30-38 per glucose                      | 2 per glucose      | 2 per glucose            |
 | Efficiency    | High                                    | Low                | Low                      |
+
+</div>
 
 Aerobic respiration produces much more ATP because glucose is completely oxidised. Anaerobic
 Respiration only partially breaks down glucose, so most of the energy remains locked in the products
@@ -566,12 +582,16 @@ Approximately 1.5 ATP (because it enters at Complex II, bypassing Complex I and 
 
 **Worked Example: Calculating the total ATP yield from one glucose molecule.**
 
+<div class="table-wrap">
+
 | Stage         | NADH   | FADH$_2$ | Direct ATP | ATP from ETC |
 | ------------- | ------ | -------- | ---------- | ------------ |
 | Glycolysis    | 2      | 0        | 2          | ~5           |
 | Link reaction | 2      | 0        | 0          | ~5           |
 | Krebs cycle   | 6      | 2        | 2          | ~20          |
 | **Total**     | **10** | **2**    | **4**      | **~30**      |
+
+</div>
 
 Note: The theoretical maximum is approximately 38 ATP, but the actual yield is closer to 30-32 ATP
 Due to proton leak across the inner membrane and the energy cost of transporting molecules.
@@ -678,6 +698,8 @@ $$
 The leaf is the main photosynthetic organ. Its structure is adapted to maximise light absorption and
 Gas exchange:
 
+<div class="table-wrap">
+
 | Leaf structure     | Adaptation for photosynthesis                                 |
 | ------------------ | ------------------------------------------------------------- |
 | Large surface area | Maximises light absorption                                    |
@@ -688,6 +710,8 @@ Gas exchange:
 | Stomata            | Pores for $\mathrm{CO_2$ entry and $\mathrm{O_2$ exit         |
 | Xylem              | Transports water to the leaf                                  |
 | Phloem             | Transports sugars (products of photosynthesis) away           |
+
+</div>
 
 **Gas exchange in the leaf:**
 

@@ -113,6 +113,8 @@ Partially shields one face (ion pair effect).
 
 ### SN2 vs SN1 Summary
 
+<div class="table-wrap">
+
 | Feature              | SN2                           | SN1                    |
 | -------------------- | ----------------------------- | ---------------------- |
 | Steps                | One (concerted)               | Two (stepwise)         |
@@ -122,6 +124,8 @@ Partially shields one face (ion pair effect).
 | Nucleophile          | Strong, concentrated          | Weak, dilute           |
 | Solvent              | Polar aprotic                 | Polar protic           |
 | Intermediate         | None (transition state)       | Carbocation            |
+
+</div>
 
 Secondary halogenoalkanes can react by either mechanism, depending on conditions.
 
@@ -243,11 +247,15 @@ agreement. Key milestones:
 
 Current replacements include:
 
+<div class="table-wrap">
+
 | Compound class            | Example                                               | Ozone impact       | Global warming impact     |
 | ------------------------- | ----------------------------------------------------- | ------------------ | ------------------------- |
 | HFCs                      | $\mathrm{CF}_3\mathrm{CH}_2\mathrm{F}$ (HFC-134a)     | Zero (no chlorine) | High (GWP $\approx 1430$) |
 | HFOs (hydrofluoroolefins) | $\mathrm{CF}_3\mathrm{CF}=\mathrm{CH}_2$ (HFO-1234yf) | Zero               | Low (GWP $\approx 4$)     |
 | Natural refrigerants      | $\mathrm{NH}_3$$\mathrm{CO}_2$ Hydrocarbons            | Zero               | Zero or low               |
+
+</div>
 
 HFOs are the latest generation of refrigerants, designed to have both zero ozone depletion potential
 and very low global warming potential.
@@ -267,11 +275,15 @@ Adding $\mathrm{AgNO}_3(aq)$ produces a precipitate ($\mathrm{AgCl}$$\mathrm{AgB
 $\mathrm{AgI}$) whose appearance can be timed. The time for the precipitate to appear is inversely
 proportional to the rate of hydrolysis.
 
+<div class="table-wrap">
+
 | Halogenoalkane | Time for $\mathrm{AgNO}_3$ precipitate | Relative rate |
 | -------------- | -------------------------------------- | ------------- |
 | 1-chlorobutane | Slowest                                | 1             |
 | 1-bromobutane  | Intermediate                           | 50            |
 | 1-iodobutane   | Fastest                                | 10,000        |
+
+</div>
 
 The rate differences correlate with C--X bond strength:
 $\mathrm{C}-\mathrm{I} \lt \mathrm{C}-\mathrm{Br} \lt \mathrm{C}-\mathrm{Cl}$.
@@ -320,6 +332,8 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 
 ### Montreal Protocol Milestones
 
+<div class="table-wrap">
+
 | Year | Milestone                                                             |
 | ---- | --------------------------------------------------------------------- |
 | 1985 | Vienna Convention for the Protection of the Ozone Layer               |
@@ -329,7 +343,11 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 | 2007 | Accelerator Amendment -- HCFC phase-out by 2030 for developed nations |
 | 2016 | Kigali Amendment -- phase-down of HFCs (potent greenhouse gases)      |
 
+</div>
+
 ### Green Chemistry Alternatives
+
+<div class="table-wrap">
 
 | Compound                                              | ODP  | GWP    | Notes                    |
 | ----------------------------------------------------- | ---- | ------ | ------------------------ |
@@ -339,10 +357,14 @@ and reactivity in the upper atmosphere makes CFCs uniquely harmful.
 | $\mathrm{CH}_2\mathrm{FCF}_3$ (HFC-134a)              | 0    | 1,430  | Replacement; high GWP    |
 | $\mathrm{CF}_3\mathrm{CH}=\mathrm{CH}_2$ (HFO-1234yf) | 0    | 4      | Next-generation; low GWP |
 
+</div>
+
 ODP = Ozone Depletion Potential (relative to CFC-11). GWP = Global Warming Potential (100-year,
 relative to $\mathrm{CO}_2$).
 
 ### Hydrolysis Rate Data
+
+<div class="table-wrap">
 
 | Halogenoalkane                                       | Relative rate of hydrolysis with $\mathrm{NaOH}(aq)$ |
 | ---------------------------------------------------- | ---------------------------------------------------- |
@@ -351,12 +373,18 @@ relative to $\mathrm{CO}_2$).
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Cl}$ | Slow                                                 |
 | $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{F}$  | Very slow (practically inert)                        |
 
+</div>
+
 ### Solvent Effects on SN1 vs SN2
+
+<div class="table-wrap">
 
 | Solvent type                       | Effect on SN1                                       | Effect on SN2                                                 |
 | ---------------------------------- | --------------------------------------------------- | ------------------------------------------------------------- |
 | Polar protic (water, ethanol)      | Favours -- stabilises carbocation and leaving group | Disfavoured -- solvates nucleophile, reducing its reactivity  |
 | Polar aprotic (acetone, DMSO, DMF) | Disfavoured -- carbocation poorly stabilised        | Favoured -- nucleophile not solvated, remains highly reactive |
+
+</div>
 
 This explains why $\mathrm{NaOH}$ in water favours substitution, while $\mathrm{NaOH}$ in ethanol
 favours elimination.
@@ -602,11 +630,15 @@ Arrhenius equation).
 
 **Results:**
 
+<div class="table-wrap">
+
 | Halogenoalkane | Time for precipitate | Identity of precipitate |
 | -------------- | -------------------- | ----------------------- |
 | 1-chlorobutane | Very slow (minutes)  | $\mathrm{AgCl}$ (white) |
 | 1-bromobutane  | Moderate (seconds)   | $\mathrm{AgBr}$ (cream) |
 | 1-iodobutane   | Fast (immediate)     | $\mathrm{AgI}$ (yellow) |
+
+</div>
 
 **Conclusion:** The rate of hydrolysis increases in the order
 $\mathrm{C}\text{-}\mathrm{Cl} \lt \mathrm{C}\text{-}\mathrm{Br} \lt \mathrm{C}\text{-}\mathrm{I}$ Consistent
@@ -772,12 +804,16 @@ A student carried out an experiment to determine the order of reaction with resp
 ions for the hydrolysis of 1-bromobutane. The following data were obtained at constant temperature,
 with the concentration of 1-bromobutane kept constant:
 
+<div class="table-wrap">
+
 | $[\mathrm{OH}^-]$ ($\mathrm{mol\,dm^{-3}}$) | Initial rate ($\mathrm{mol\,dm^{-3}\,s^{-1}}$) |
 | ------------------------------------------- | ---------------------------------------------- |
 | 0.020                                       | $4.0 \times 10^{-5}$                           |
 | 0.040                                       | $8.0 \times 10^{-5}$                           |
 | 0.060                                       | $1.2 \times 10^{-4}$                           |
 | 0.080                                       | $1.6 \times 10^{-4}$                           |
+
+</div>
 
 (a) Deduce the order of reaction with respect to hydroxide ions. (2 marks)
 
@@ -867,6 +903,8 @@ because they can be prepared from alcohols and can be converted to many other fu
 
 ### General Retrosynthetic Disconnections for Halogenoalkanes
 
+<div class="table-wrap">
+
 | Target                  | Disconnection                                                      | Equivalent synthons               | Forward reagents                    |
 | ----------------------- | ------------------------------------------------------------------ | --------------------------------- | ----------------------------------- |
 | Alcohol $\mathrm{R-OH}$ | $\mathrm{C}\text{-}\mathrm{OH} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{OH}^-$  | $\mathrm{NaOH}(aq)$ SN2              |
@@ -874,6 +912,8 @@ because they can be prepared from alcohols and can be converted to many other fu
 | Amine $\mathrm{R-NH_2}$ | $\mathrm{C}\text{-}\mathrm{NH_2} \to \mathrm{C}\text{-}\mathrm{X}$ | $\mathrm{R-X}$ + $\mathrm{NH_3}$  | Excess $\mathrm{NH_3}$              |
 | Ether $\mathrm{R-O-R'}$ | $\mathrm{C}\text{-}\mathrm{O} \to \mathrm{C}\text{-}\mathrm{X}$    | $\mathrm{R-X}$ + $\mathrm{R'O}^-$ | Williamson synthesis                |
 | Alkene $\mathrm{C=C}$   | $\mathrm{C=C} \to \mathrm{C-C-X}$                                  | Elimination of HX                 | $\mathrm{KOH}$ in ethanol, $\Delta$ |
+
+</div>
 
 ### Worked Retrosynthesis Example
 

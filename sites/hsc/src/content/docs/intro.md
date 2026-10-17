@@ -39,6 +39,8 @@ student"s results in their HSC or VCE studies.
 
 Although the two systems share a common purpose, they differ in several important ways:
 
+<div class="table-wrap">
+
 | Feature                | HSC (NSW)                                     | VCE (Victoria)                               |
 | ---------------------- | --------------------------------------------- | -------------------------------------------- |
 | Administering body     | NESA                                          | VCAA                                         |
@@ -48,6 +50,8 @@ Although the two systems share a common purpose, they differ in several importan
 | External exam          | NESA-set final exams                          | VCAA-set final exams                         |
 | Scaling method         | Raw marks scaled by NESA                      | Study scores scaled by VCAA                  |
 | ATAR conversion        | UAC                                           | VTAC                                         |
+
+</div>
 
 ## Subject Structure
 

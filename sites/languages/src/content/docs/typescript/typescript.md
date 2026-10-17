@@ -43,6 +43,8 @@ their own pace.
 
 ## Key Language Features
 
+<div class="table-wrap">
+
 | Feature               | Description                                                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Type system           | Primitive types, object types, union/intersection types, generics, conditional types, mapped types, template literal types           |
@@ -53,6 +55,8 @@ their own pace.
 | Utility types         | Built-in generic utilities: `Partial``Required``Readonly``Pick``Omit``Record``Exclude``Extract``ReturnType``Parameters``NonNullable` |
 | Type narrowing        | Discriminated unions, `typeof``instanceof``in` operator, user-defined type guards                                                    |
 | Toolchain integration | `tsconfig.json`Declaration files (`.d.ts`), `@types/` packages, project references                                                   |
+
+</div>
 
 ## The Toolchain
 

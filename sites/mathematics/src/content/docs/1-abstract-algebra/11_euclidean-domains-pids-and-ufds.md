@@ -97,12 +97,16 @@ Therefore $\mathbb{Z}[\sqrt{-5}]$ is not a UFD. $\blacksquare$
 
 ### 11.4 Key Relationships
 
+<div class="table-wrap">
+
 | Type              | Definition                                          | Example           |
 | ----------------- | --------------------------------------------------- | ----------------- |
 | Euclidean domain  | Has division algorithm with $\delta$                | $\mathbb{Z}$, $F[x]$, $\mathbb{Z}[i]$ |
 | PID               | Every ideal is principal                            | $\mathbb{Z}$, $\mathbb{Z}[i]$ |
 | UFD               | Unique factorisation into irreducibles              | $\mathbb{Z}[x]$   |
 | Integral domain   | No zero divisors                                    | All of the above  |
+
+</div>
 
 $$
 \mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}

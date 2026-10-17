@@ -56,12 +56,16 @@ Yangtze floods, which killed over 4000 people and displaced approximately 14 mil
 
 ### Human Causes
 
+<div class="table-wrap">
+
 | Factor                     | Mechanism                                                                                                                        | Example                                                                                                                                 |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | **Channel modification**   | Straightening, deepening, or widening channels increases flow velocity and transfers flood risk downstream                       | The River Rhine was channelised in the 19th and 20th centuries, increasing downstream flood risk in the Netherlands                     |
 | **Floodplain development** | Building on floodplains removes natural flood storage and increases exposure to flooding                                         | Approximately 2 million properties in England are at risk of flooding; development continues in flood-prone areas due to housing demand |
 | **Drainage of wetlands**   | Wetlands act as natural sponges, absorbing and slowly releasing floodwater; drainage eliminates this function                    | Over 85% of England's floodplain wetlands have been drained since the 18th century                                                      |
 | **Climate change**         | Increased frequency and intensity of extreme rainfall events; accelerated snowmelt; sea level rise increasing coastal flood risk | The UK Met Office estimates that the intensity of extreme rainfall events has increased by approximately 20% since the 1960s            |
+
+</div>
 
 ## Hard Engineering Approaches
 

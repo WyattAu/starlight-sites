@@ -80,6 +80,8 @@ dev_dependencies:
 
 Key fields:
 
+<div class="table-wrap">
+
 | Field              | Purpose                                                             |
 | ------------------ | ------------------------------------------------------------------- |
 | `name`             | Package identifier, must be lowercase_with_underscores              |
@@ -87,6 +89,8 @@ Key fields:
 | `dependencies`     | Packages required at runtime                                        |
 | `dev_dependencies` | Packages required only for development (testing, linting, codegen)  |
 | `publish_to`       | Set to `"none'` for private packages                                |
+
+</div>
 
 ### Typical project layout
 
@@ -179,11 +183,15 @@ analyzer:
 
 Common lint packages:
 
+<div class="table-wrap">
+
 | Package              | Description                                                   |
 | -------------------- | ------------------------------------------------------------- |
 | `lints`              | Official Google lint rules (`recommended.yaml` / `core.yaml`) |
 | `very_good_analysis` | Very Good Ventures' stricter ruleset                          |
 | `flutter_lints`      | Flutter-specific lint rules                                   |
+
+</div>
 
 Run with info-level output:
 

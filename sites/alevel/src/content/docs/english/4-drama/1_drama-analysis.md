@@ -40,6 +40,8 @@ characterisation through dialogue, and the importance of theatrical context.
 Stagecraft refers to the visual, spatial, and technical elements of a play. Analysing stagecraft
 means considering how the play uses the physical space of the theatre to create meaning.
 
+<div class="table-wrap">
+
 | Element               | What to Consider                                       | Analytical Significance                                                 |
 | --------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- |
 | Set design            | What is visible on stage? Is it realistic or symbolic? | The set creates the world of the play and reveals thematic concerns     |
@@ -50,12 +52,16 @@ means considering how the play uses the physical space of the theatre to create 
 | Movement and blocking | Where do characters stand? How do they move?           | Spatial relationships reveal power dynamics and emotional connections   |
 | Entrances and exits   | How do characters arrive and leave?                    | Entrances and exits mark shifts in power, mood, and narrative direction |
 
+</div>
+
 **Key point:** Always write about what the audience sees and hears, not just what characters say.
 The visual and auditory experience of theatre is as analytically significant as the dialogue.
 
 ### Dramatic Structure
 
 The structure of a play determines how the story unfolds in time and how tension is managed.
+
+<div class="table-wrap">
 
 | Structural Feature           | Description                                      | Effect                                                        |
 | ---------------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -72,6 +78,8 @@ The structure of a play determines how the story unfolds in time and how tension
 | Catharsis                    | The purging of pity and fear                     | Emotional release experienced by the audience                 |
 | Subplot                      | A secondary plot running alongside the main plot | Reflects, contrasts with, or comments on the main plot        |
 | Unity of time, place, action | Classical dramatic unities                       | Creates intensity, compression, and focus                     |
+
+</div>
 
 ### Character in Drama
 
@@ -99,6 +107,8 @@ Key methods of characterisation in drama:
 Dialogue in drama is the primary vehicle for characterisation, plot development, and thematic
 exploration. Analytical attention to dialogue should focus on:
 
+<div class="table-wrap">
+
 | Feature              | What to Analyse                                                     |
 | -------------------- | ------------------------------------------------------------------- |
 | Turn-taking          | Who speaks more? Who interrupts? Who is silenced?                   |
@@ -110,10 +120,14 @@ exploration. Analytical attention to dialogue should focus on:
 | Rhetoric             | Persuasive techniques used by characters to influence others        |
 | Dialect and idiolect | How individual speech patterns reveal class, region, or personality |
 
+</div>
+
 ### Theatrical Context
 
 Understanding the theatrical conditions in which a play was first performed illuminates the
 playwright's choices.
+
+<div class="table-wrap">
 
 | Period                 | Theatre Features                                              | Key Playwrights                   |
 | ---------------------- | ------------------------------------------------------------- | --------------------------------- |
@@ -123,6 +137,8 @@ playwright's choices.
 | Victorian              | Proscenium arch, gas lighting, spectacle                      | Ibsen, Wilde, Shaw                |
 | Modern                 | Varied spaces, experimental staging, breaking the fourth wall | Beckett, Pinter, Miller, Williams |
 | Contemporary           | Site-specific, immersive, multimedia                          | Kane, Butterworth, Churchill      |
+
+</div>
 
 ## Analytical Frameworks
 
@@ -141,6 +157,8 @@ When approaching a play extract or whole-text question, work through these layer
 
 ### AFOREST (for analysing persuasive dialogue)
 
+<div class="table-wrap">
+
 | Letter | Technique                       |
 | ------ | ------------------------------- |
 | **A**  | Alliteration                    |
@@ -151,10 +169,14 @@ When approaching a play extract or whole-text question, work through these layer
 | **S**  | Statistics (or specific detail) |
 | **T**  | Rule of three / Tricolon        |
 
+</div>
+
 This is useful when analysing characters who are trying to persuade others, Iago in _Othello_, the
 Inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
 
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term            | Definition                                                                         |
 | --------------- | ---------------------------------------------------------------------------------- |
@@ -178,6 +200,8 @@ Inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
 | Tragic hero     | A protagonist of high status whose downfall is caused by a fatal flaw              |
 | Unity of action | A play with a single, focused plotline                                             |
 | Volta           | A turning point in a scene or the play as a whole                                  |
+
+</div>
 
 ## Exam Technique
 

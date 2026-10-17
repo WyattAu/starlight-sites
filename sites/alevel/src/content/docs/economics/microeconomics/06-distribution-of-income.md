@@ -66,6 +66,8 @@ $$
 G = 1 - 2B
 $$
 
+<div class="table-wrap">
+
 | Gini Coefficient   | Interpretation      |
 | ------------------ | ------------------- |
 | $G = 0$            | Perfect equality    |
@@ -73,6 +75,8 @@ $$
 | $G < 0.3$          | Relatively equal    |
 | $0.3 \leq G < 0.4$ | Moderate inequality |
 | $G \geq 0.4$       | High inequality     |
+
+</div>
 
 :::note
 - Denmark: 0.28 | Germany: 0.31 | UK: 0.35 | USA: 0.40 | Brazil: 0.52 | South Africa: 0.63
@@ -458,6 +462,8 @@ Education addresses the *root cause* (productivity differences) rather than the 
 
 **Example.** A country has six income groups (sextiles) with the following shares of total income:
 
+<div class="table-wrap">
+
 | Group       | Population share | Income share |
 | ----------- | ---------------- | ------------ |
 | Poorest 1/6 | 16.7%            | 3%           |
@@ -467,7 +473,11 @@ Education addresses the *root cause* (productivity differences) rather than the 
 | 5th 1/6     | 16.7%            | 25%          |
 | Richest 1/6 | 16.7%            | 35%          |
 
+</div>
+
 **Answer.** Cumulative population and income shares:
+
+<div class="table-wrap">
 
 | Cumulative population | Cumulative income |
 | --------------------- | ----------------- |
@@ -477,6 +487,8 @@ Education addresses the *root cause* (productivity differences) rather than the 
 | 66.7%                 | 40%               |
 | 83.3%                 | 65%               |
 | 100%                  | 100%              |
+
+</div>
 
 The Lorenz curve passes through these points. The significant bow below the 45-degree line indicates
 Substantial inequality. The bottom half of the population earns only 22% of total income.
@@ -601,6 +613,8 @@ Creates high EMTRs when combined with income tax and National Insurance.
 
 ### 13.1 The Full Redistribution Toolkit
 
+<div class="table-wrap">
+
 | Policy                 | Mechanism                                  | Effect on Inequality                    | Potential Drawbacks                               |
 | ---------------------- | ------------------------------------------ | --------------------------------------- | ------------------------------------------------- |
 | Progressive income tax | Higher rates on higher incomes             | Reduces post-tax inequality             | Disincentive to work and invest                   |
@@ -610,6 +624,8 @@ Creates high EMTRs when combined with income tax and National Insurance.
 | Inheritance tax        | Tax on wealth transferred at death         | Reduces intergenerational inequality    | Unpopular, avoidance through trusts               |
 | Free education         | State-funded schooling and university      | Promotes equality of opportunity        | Quality varies, regressive if richer benefit more |
 | National minimum wage  | Floor on hourly pay                        | Compresses wage distribution from below | May reduce employment if set too high             |
+
+</div>
 
 ### 13.2 Evaluating Effectiveness
 
@@ -785,6 +801,8 @@ Gini, high IGE) achieve neither.
 
 Consider a single parent with one child, working part-time. The following applies:
 
+<div class="table-wrap">
+
 | Income range        | Income tax | NI (12%) | UC taper (55%) | Total EMTR |
 | ------------------- | ---------- | -------- | -------------- | ---------- |
 | GBP 0 - 5,000       | 0%         | 0%       | 55%            | 55%        |
@@ -792,11 +810,15 @@ Consider a single parent with one child, working part-time. The following applie
 | GBP 12,571 - 50,270 | 20%        | 12%      | 55%            | 87%        |
 | GBP 50,271+         | 40%        | 2%       | 0%             | 42%        |
 
+</div>
+
 The EMTR peaks at 87% over a wide income range, creating a severe poverty trap. This worker would
 need a wage increase of approximately GBP 7.70 per hour just to gain GBP 1 per hour in net income.
 
 **Policy solution: universal basic income (UBI).** If UC were replaced by a UBI of GBP 5,000 per
 year (non-means-tested), the EMTR would be:
+
+<div class="table-wrap">
 
 | Income range        | Income tax | NI  | EMTR |
 | ------------------- | ---------- | --- | ---- |
@@ -804,6 +826,8 @@ year (non-means-tested), the EMTR would be:
 | GBP 5,001 - 12,570  | 20%        | 12% | 32%  |
 | GBP 12,571 - 50,270 | 20%        | 12% | 32%  |
 | GBP 50,271+         | 40%        | 2%  | 42%  |
+
+</div>
 
 The UBI eliminates the poverty trap entirely. However, the fiscal cost is enormous: GBP 5,000 per
 adult $\times$ 53 million adults $=$ GBP 265 billion per year (approximately 12% of GDP).
@@ -933,6 +957,8 @@ creating disincentives to work." Evaluate this statement.
 
 **Example.** A country has 5 income groups with the following data:
 
+<div class="table-wrap">
+
 | Group      | Population share | Income share | Average income |
 | ---------- | :--------------: | :----------: | :------------: |
 | Bottom 20% |       20%        |      5%      |   GBP 10,000   |
@@ -941,7 +967,11 @@ creating disincentives to work." Evaluate this statement.
 | Fourth 20% |       20%        |     25%      |   GBP 50,000   |
 | Top 20%    |       20%        |     45%      |   GBP 90,000   |
 
+</div>
+
 **Cumulative shares for Lorenz curve:**
+
+<div class="table-wrap">
 
 | Population % | Income % |
 | :----------: | :------: |
@@ -951,6 +981,8 @@ creating disincentives to work." Evaluate this statement.
 |     60%      |   30%    |
 |     80%      |   55%    |
 |     100%     |   100%   |
+
+</div>
 
 **Gini coefficient (approximation using trapezoidal rule):**
 
@@ -973,12 +1005,16 @@ $$
 
 **Example.** A single parent with one child earns GBP 30,000 per year. The tax and benefit system:
 
+<div class="table-wrap">
+
 | Component          | Rate/Amount    | Threshold                         |
 | ------------------ | -------------- | --------------------------------- |
 | Income tax         | 20%            | GBP 12,570 personal allowance     |
 | National Insurance | 12%            | GBP 12,570                        |
 | Universal Credit   | 55% taper rate | GBP 0 (withdrawn as income rises) |
 | Child benefit      | GBP 24/week    | Withdrawn above GBP 50,000        |
+
+</div>
 
 **Take-home pay calculation:**
 
@@ -1012,6 +1048,8 @@ or a negative income tax (which has a single, lower taper rate).
 
 **Income distribution (2023, approximate):**
 
+<div class="table-wrap">
+
 |   Decile    | Share of total income | Cumulative |
 | :---------: | :-------------------: | :--------: |
 | Bottom 10%  |          2%           |     2%     |
@@ -1025,7 +1063,11 @@ or a negative income tax (which has a single, lower taper rate).
 | Bottom 90%  |          56%          |    56%     |
 | Bottom 100% |         100%          |    100%    |
 
+</div>
+
 **Wealth distribution (2023, approximate):**
+
+<div class="table-wrap">
 
 |   Decile    | Share of total wealth | Cumulative |
 | :---------: | :-------------------: | :--------: |
@@ -1039,6 +1081,8 @@ or a negative income tax (which has a single, lower taper rate).
 | Bottom 80%  |          21%          |   54.1%    |
 | Bottom 90%  |          33%          |   87.1%    |
 | Bottom 100% |         100%          |    100%    |
+
+</div>
 
 **Gini for income:** approximately 0.36. **Gini for wealth:** approximately 0.74.
 
@@ -1084,6 +1128,8 @@ average (approximately 2.5) but below the global average (approximately 4.0).
 
 **Comparison across countries:**
 
+<div class="table-wrap">
+
 | Country      | Palma Ratio | Gini |
 | ------------ | :---------: | :--: |
 | Sweden       |     1.1     | 0.27 |
@@ -1093,10 +1139,14 @@ average (approximately 2.5) but below the global average (approximately 4.0).
 | Brazil       |     5.5     | 0.53 |
 | South Africa |     7.1     | 0.63 |
 
+</div>
+
 ### 9.5 Poverty Measurement: Absolute vs Relative
 
 **Example.** A country has 60 million people with the following equivalised disposable income
 distribution:
+
+<div class="table-wrap">
 
 | Income bracket    | Population | Average income |
 | ----------------- | :--------: | :------------: |
@@ -1106,6 +1156,8 @@ distribution:
 | GBP 20,000-30,000 | 15 million |   GBP 25,000   |
 | GBP 30,000-50,000 | 15 million |   GBP 40,000   |
 | Above GBP 50,000  | 9 million  |   GBP 70,000   |
+
+</div>
 
 Median income: the 30th-31st millionth person falls in the GBP 20,000-30,000 bracket. Assuming
 uniform distribution within brackets: median
@@ -1138,6 +1190,8 @@ hypothesis)?
 
 **Hypothetical data:**
 
+<div class="table-wrap">
+
 | Country | GDP per capita (USD) | Gini coefficient |
 | ------- | :------------------: | :--------------: |
 | Malawi  |         500          |       0.39       |
@@ -1149,6 +1203,8 @@ hypothesis)?
 | UK      |        42,000        |       0.35       |
 | USA     |        63,000        |       0.41       |
 | Sweden  |        56,000        |       0.27       |
+
+</div>
 
 **Plotting Gini against GDP per capita:** the relationship is NOT an inverted-U as Kuznets
 predicted. Brazil (middle income) has a much higher Gini than both low-income (Malawi) and
@@ -1180,6 +1236,8 @@ automatically reduce inequality.
 
 **UK wealth distribution (approximate):**
 
+<div class="table-wrap">
+
 | Wealth band   | Number of households | Total wealth | Taxable wealth (above 2m) |
 | ------------- | :------------------: | :----------: | :-----------------------: |
 | GBP 0-500k    |      22 million      | GBP 6,600bn  |             0             |
@@ -1190,7 +1248,11 @@ automatically reduce inequality.
 | GBP 10m-50m   |       100,000        | GBP 2,000bn  |        GBP 1,980bn        |
 | Above GBP 50m |        5,000         |  GBP 750bn   |         GBP 745bn         |
 
+</div>
+
 **Revenue calculation (1% on wealth above 2m):**
+
+<div class="table-wrap">
 
 | Wealth band | Taxable wealth | Tax revenue (1%) |
 | ----------- | :------------: | :--------------: |
@@ -1199,6 +1261,8 @@ automatically reduce inequality.
 | GBP 10m-50m |    1,980bn     |      19.8bn      |
 | Above 50m   |     745bn      |      7.45bn      |
 | **Total**   |  **8,525bn**   | **GBP 85.25bn**  |
+
+</div>
 
 **Gross revenue: GBP 85.25 billion per year** (approximately 3.5% of GDP). This is substantial --
 enough to fund the NHS for 8 months.
@@ -1278,6 +1342,8 @@ million adults.
 
 **Distributional impact:**
 
+<div class="table-wrap">
+
 | Household type                | Current net income |        UBI net income        | Change |
 | ----------------------------- | :----------------: | :--------------------------: | :----: |
 | Single, no work, no benefits  |         0          |            4,800             | +4,800 |
@@ -1285,6 +1351,8 @@ million adults.
 | Couple, 2 children, GBP 60k   |       42,000       |   38,400 (after tax rise)    | -3,600 |
 | Couple, 2 children, GBP 30k   |       24,000       |   26,400 (after tax rise)    | +2,400 |
 | Pensioner, state pension only |       11,500       | 11,500 (if pension retained) |   0    |
+
+</div>
 
 **Key findings:**
 

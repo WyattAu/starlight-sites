@@ -54,6 +54,8 @@ The format of the binary dictates how the OS parses and maps the file into virtu
 
 ### Comparison of Binary Formats
 
+<div class="table-wrap">
+
 | Aspect               | ELF                  | PE/COFF         | Mach-O             |
 | :------------------- | :------------------- | :-------------- | :----------------- |
 | **Primary Platform** | Linux, BSD, Android  | Windows, UEFI   | macOS, iOS         |
@@ -64,6 +66,8 @@ The format of the binary dictates how the OS parses and maps the file into virtu
 | **Max Sections**     | Unlimited            | 96 (PE32+)      | Unlimited          |
 | **Dynamic Linking**  | `.got` + `.plt`      | IAT             | Stub islands + GOT |
 | **TLS**              | `.tbss` / `.tdata`   | `.tls` section  | `LC_THREAD_LOCAL`  |
+
+</div>
 
 ## Standard Sections
 
@@ -253,6 +257,8 @@ readelf -h ./app
 
 Key fields in the ELF header:
 
+<div class="table-wrap">
+
 | Field         | Description                                                           |
 | :------------ | :-------------------------------------------------------------------- |
 | `e_type`      | `ET_EXEC` (executable), `ET_DYN` (shared/PIE), `ET_REL` (object file) |
@@ -261,6 +267,8 @@ Key fields in the ELF header:
 | `e_shoff`     | Byte offset to the Section Header Table (linker view)                 |
 | `e_phentsize` | Size of each Program Header entry                                     |
 | `e_phnum`     | Number of Program Header entries                                      |
+
+</div>
 Modern Linux distributions compile executables as Position-Independent Executables (PIE), which
 Means `e_type` is `ET_DYN` (the same type as shared libraries). This enables Address Space Layout
 Randomization (ASLR) for executables.
@@ -379,10 +387,14 @@ int& get_config() \{
 
 ELF binaries contain two symbol tables with distinct purposes:
 
+<div class="table-wrap">
+
 | Table     | Purpose                                | Loaded at Runtime | Strip-safe         |
 | :-------- | :------------------------------------- | :---------------- | :----------------- |
 | `.symtab` | Full symbol table (linker + debugger)  | No                | Can be stripped    |
 | `.dynsym` | Dynamic symbols (runtime linking only) | Yes               | Cannot be stripped |
+
+</div>
 
 - **`.symtab`** contains every symbol: local functions, static variables, debug symbols, and
   exported symbols. It is used by the linker (during linking) and debuggers (during debugging).
@@ -444,11 +456,15 @@ Both ELF and PE have dedicated sections for thread-local variables declared with
 - **PE:** `.tls` section with a TLS directory in the data directories. The loader allocates a TLS
   block per thread.
 The TLS model affects performance:
+<div class="table-wrap">
+
 | TLS Model          | Description                                             | Overhead                              |
 | :----------------- | :------------------------------------------------------ | :------------------------------------ |
 | **Global Dynamic** | General case, works for shared libraries and `dlopen`   | Two memory accesses (GOT + TLS block) |
 | **Initial Exec**   | Faster, but the TLS block address is known at load time | One memory access                     |
 | **Local Exec**     | Fastest, TLS block address is a compile-time constant   | Direct offset from `fs/gs`            |
+
+</div>
 
 ```cmake
 ## Optimize TLS for executables (no shared library TLS access)
@@ -463,6 +479,8 @@ the variable is accessed from a dynamically loaded shared library
 
 Mach-O uses **Load Commands** rather than section/program header tables. Key load commands:
 
+<div class="table-wrap">
+
 | Load Command         | Description                                                          |
 | :------------------- | :------------------------------------------------------------------- |
 | `LC_SEGMENT_64`      | Maps a contiguous range of file data to virtual memory               |
@@ -472,6 +490,8 @@ Mach-O uses **Load Commands** rather than section/program header tables. Key loa
 | `LC_CODE_SIGNATURE`  | Offset and size of the code signature (mandatory on Apple platforms) |
 | `LC_DYLD_INFO`       | Locations of rebase and bind information for the loader              |
 | `LC_FUNCTION_STARTS` | Table of function entry points for unwinding                         |
+
+</div>
 
 ### Code Signing on Apple Platforms
 
@@ -498,6 +518,8 @@ Execution.
 
 ### DWARF Debug Sections (ELF)
 
+<div class="table-wrap">
+
 | Section         | Content                                                                  |
 | :-------------- | :----------------------------------------------------------------------- |
 | `.debug_info`   | Core debug info (type descriptions, variable locations)                  |
@@ -505,6 +527,8 @@ Execution.
 | `.debug_line`   | Source file/line number mappings                                         |
 | `.debug_str`    | String literals (file paths, variable names)                             |
 | `.debug_frame`  | Call frame information for unwinding (`.eh_frame` is the runtime subset) |
+
+</div>
 
 ```bash
 # Strip debug symbols (produces a smaller binary but no debugging)
@@ -553,6 +577,8 @@ Executable itself. MSVC always generates a `.pdb` in debug builds and optionally
 The PE format organizes sections differently from ELF. Each section has a name (up to 8 characters),
 Virtual size, virtual address, file offset, and raw data size:
 
+<div class="table-wrap">
+
 | PE Section     | ELF Equivalent                | Content                                                |
 | :------------- | :---------------------------- | :----------------------------------------------------- |
 | `.text`        | `.text`                       | Code                                                   |
@@ -563,6 +589,8 @@ Virtual size, virtual address, file offset, and raw data size:
 | `.rsrc`        | (none)                        | Windows resources (icons, dialogs)                     |
 | `.reloc`       | `.rela.dyn`                   | Base relocations (for ASLR)                            |
 | `.CRT$XCA-XCZ` | `.init_array` / `.fini_array` | C++ initializers and terminators                       |
+
+</div>
 
 ### PE Data Directories
 
@@ -587,12 +615,16 @@ dumpbin /HEADERS app.exe
 Mach-O organizes sections into segments, where each segment has uniform memory protections. Key
 Segments:
 
+<div class="table-wrap">
+
 | Mach-O Segment | Sections                                | Permissions | Content                                       |
 | :------------- | :-------------------------------------- | :---------- | :-------------------------------------------- |
 | `__TEXT`       | `__text, __stubs, __cstring, __const`   | R-X         | Code, read-only data                          |
 | `__DATA`       | `__data, __bss, __la_symbol_ptr, __got` | RW-         | Writable data, GOT                            |
 | `__LINKEDIT`   | (linker metadata)                       | R--         | Symbol table, string table, relocations       |
 | `__PAGEZERO`   | (none)                                  | ---         | Null page (catches null pointer dereferences) |
+
+</div>
 
 ### `__PAGEZERO`
 
@@ -663,6 +695,8 @@ Each platform has different flags for equivalent operations. CMake's `CMAKE_SHAR
 
 Debug information storage differs significantly across the three binary formats:
 
+<div class="table-wrap">
+
 | Aspect            | ELF (DWARF)          | PE/COFF (PDB)           | Mach-O (DWARF)                       |
 | :---------------- | :------------------- | :---------------------- | :----------------------------------- |
 | **Location**      | Inline in binary     | Separate `.pdb` file    | Inline in binary (or `.dSYM` bundle) |
@@ -670,6 +704,8 @@ Debug information storage differs significantly across the three binary formats:
 | **Strippable**    | Yes (`strip`)        | Always external         | Yes (`strip`) or `.dSYM`             |
 | **Size overhead** | 5-10x binary size    | 0 (separate file)       | 5-10x binary size                    |
 | **Tooling**       | `gdb, lldb, readelf` | `Visual Studio, WinDbg` | `lldb, dsymutil`                     |
+
+</div>
 
 ### DWARF Version Progression
 

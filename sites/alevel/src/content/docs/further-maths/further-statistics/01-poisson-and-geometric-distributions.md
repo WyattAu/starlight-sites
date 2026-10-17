@@ -32,12 +32,16 @@ Geometric distribution counts the number of trials until the first success.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                   |
 | ---------- | ------- | --------------------------------------- |
 | AQA        | Paper 2 | Both Poisson and geometric in depth     |
 | Edexcel    | S2, S3  | Poisson in S2; geometric in S3          |
 | OCR (A)    | Paper 2 | Poisson and geometric                   |
 | CIE (9231) | S2      | Poisson covered; geometric not required |
+
+</div>
 
 :::note
 And how to carry out hypothesis testing with discrete distributions. The geometric distribution has
@@ -311,11 +315,15 @@ Critical region: $X \geq 10$.
 
 ### 3.1 When to use each
 
+<div class="table-wrap">
+
 | Situation                                         | Distribution                   |
 | ------------------------------------------------- | ------------------------------ |
 | Number of events in a fixed interval, rare events | Poisson $\mathrm{Po}(\lambda)$ |
 | Number of trials until first success              | Geometric $\mathrm{Geo}(p)$    |
 | Fixed number of trials, counting successes        | Binomial $B(n, p)$             |
+
+</div>
 
 ### 3.2 Poisson as approximation to Binomial
 
@@ -614,6 +622,8 @@ were observed.
 
 **Solution.** Under $H_0$: $P(X = k) = \dfrac{e^{-3} \cdot 3^k}{k!}$.
 
+<div class="table-wrap">
+
 | $k$      | $P(X = k)$             | Expected freq ($\times 200$) |
 | -------- | ---------------------- | ---------------------------- |
 | 0        | $e^{-3} = 0.0498$      | 9.96                         |
@@ -623,6 +633,8 @@ were observed.
 | 4        | $3.375e^{-3} = 0.1680$ | 33.60                        |
 | 5        | $2.025e^{-3} = 0.1008$ | 20.17                        |
 | $\geq 6$ | $1 - \sum_0^5$         | $\approx 16.78$              |
+
+</div>
 
 ### Example 7.5: Fitting a Poisson distribution
 
@@ -637,6 +649,8 @@ $\hat{\lambda} = 2.68$.
 
 Expected frequency for $k$: $100 \times \dfrac{e^{-2.68}(2.68)^k}{k!}$.
 
+<div class="table-wrap">
+
 | $k$ | Expected                            |
 | --- | ----------------------------------- |
 | 0   | $100e^{-2.68} = 6.86$               |
@@ -646,6 +660,8 @@ Expected frequency for $k$: $100 \times \dfrac{e^{-2.68}(2.68)^k}{k!}$.
 | 4   | $100 \times 2.15 e^{-2.68} = 14.76$ |
 | 5   | $100 \times 1.15 e^{-2.68} = 7.91$  |
 | 6   | $100 \times 0.51 e^{-2.68} = 3.52$  |
+
+</div>
 
 ### Example 7.6: Conditional probability with geometric distribution
 
@@ -973,12 +989,16 @@ $$
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                             | Correct Approach                                                                                                  |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Confusing the two definitions of the geometric distribution                         | "Number of trials until first success": $E(X) = 1/p$; "Number of failures before first success": $E(X) = (1-p)/p$ |
 | Using the Poisson approximation when $np > 10$ or $n < 20$                          | The Poisson approximation requires $n$ large and $p$ small, with $np$ moderate                                    |
 | Forgetting that Poisson probabilities sum to 1 only over all $k$ from 0 to $\infty$ | Never truncate without adjusting                                                                                  |
 | Applying the Poisson to events that are not independent                             | The Poisson process requires independent events at a constant average rate                                        |
+
+</div>
 
 ---
 
@@ -1086,17 +1106,25 @@ Distribution. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Distribution                 | PMF                                                      | $E(X)$           | $\mathrm{Var}(X)$  |
 | ---------------------------- | -------------------------------------------------------- | ---------------- | ------------------ |
 | $\mathrm{Po}(\lambda)$       | $P(X=x) = \dfrac{e^{-\lambda}\lambda^x}{x!}$ | $\lambda$        | $\lambda$          |
 | $\mathrm{Geo}(p)$ (trials)   | $P(X=x) = p(1-p)^{x-1}$                                  | $\dfrac{1}{p}$   | $\dfrac{1-p}{p^2}$ |
 | $\mathrm{Geo}(p)$ (failures) | $P(X=x) = p(1-p)^x$                                      | $\dfrac{1-p}{p}$ | $\dfrac{1-p}{p^2}$ |
 
+</div>
+
+<div class="table-wrap">
+
 | Property            | Poisson                                           | Geometric    |
 | ------------------- | ------------------------------------------------- | ------------ |
 | Memoryless          | No                                                | Yes          |
 | Additive: $X_1+X_2$ | $\mathrm{Po}(\lambda_1+\lambda_2)$ if independent | Not simple   |
 | PMF tail behaviour  | Decays faster than geometric                      | Slower decay |
+
+</div>
 
 ---
 

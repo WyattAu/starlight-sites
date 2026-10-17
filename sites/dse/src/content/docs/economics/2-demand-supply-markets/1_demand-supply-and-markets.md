@@ -35,6 +35,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 
 ### Demand Schedule and Demand Curve
 
+<div class="table-wrap">
+
 | Price (USD) | Quantity Demanded |
 | ----------- | ----------------- |
 | 10          | 100               |
@@ -42,6 +44,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | 40          | 50                |
 | 60          | 30                |
 | 80          | 10                |
+
+</div>
 
 ### Movements Along vs Shifts of the Demand Curve
 
@@ -51,6 +55,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 **Shift of the curve:** Caused by a change in non-price factors (change in **demand**).
 
 ### Factors Shifting Demand
+
+<div class="table-wrap">
 
 | Factor                               | Effect on Demand    |
 | ------------------------------------ | ------------------- |
@@ -62,6 +68,8 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 | Increase in population               | Demand shifts right |
 | Expectation of future price increase | Demand shifts right |
 | Successful advertising               | Demand shifts right |
+
+</div>
 
 :::tip
 Any other factor causes a **shift** of the curve. DSE exams frequently test this distinction.
@@ -110,6 +118,8 @@ Incentivising producers to supply more.
 
 ### Factors Shifting Supply
 
+<div class="table-wrap">
+
 | Factor                                     | Effect on Supply                    |
 | ------------------------------------------ | ----------------------------------- |
 | Decrease in production costs               | Supply shifts right                 |
@@ -120,6 +130,8 @@ Incentivising producers to supply more.
 | Increase in price of factors of production | Supply shifts left                  |
 | Adverse weather (agricultural goods)       | Supply shifts left                  |
 | Expectation of future price increase       | Supply shifts left (withhold stock) |
+
+</div>
 
 > **Caution:** Warning "increase in supply" (shift). Be precise with terminology.
 >
@@ -181,6 +193,8 @@ $$
 
 ### Changes in Equilibrium
 
+<div class="table-wrap">
+
 | Change                            | Effect on $P_e$ | Effect on $Q_e$ |
 | --------------------------------- | --------------- | --------------- |
 | Demand increases, supply constant | Rises           | Rises           |
@@ -189,6 +203,8 @@ $$
 | Supply decreases, demand constant | Rises           | Falls           |
 | Both demand and supply increase   | Ambiguous       | Rises           |
 | Both demand and supply decrease   | Ambiguous       | Falls           |
+
+</div>
 
 ### Worked Example 2
 
@@ -238,6 +254,8 @@ value**.
 
 ### Categories of PED
 
+<div class="table-wrap">
+
 | Value             | Description         | Meaning                                              |
 | ----------------- | ------------------- | ---------------------------------------------------- |
 | PED = 0           | Perfectly inelastic | Quantity demanded does not change at all             |
@@ -246,7 +264,11 @@ value**.
 | PED &gt; 1        | Elastic             | Quantity changes proportionally more than price      |
 | PED = infinity    | Perfectly elastic   | Any price increase reduces quantity demanded to zero |
 
+</div>
+
 ### Factors Affecting PED
+
+<div class="table-wrap">
 
 | Factor                      | Higher PED                     | Lower PED               |
 | --------------------------- | ------------------------------ | ----------------------- |
@@ -256,17 +278,23 @@ value**.
 | Time period                 | Long run (more time to adjust) | Short run               |
 | Definition of market        | Narrow market (specific good)  | Broad market (category) |
 
+</div>
+
 ### PED and Total Revenue
 
 $$
 \mathrm{Total Revenue (TR)} = P \times Q
 $$
 
+<div class="table-wrap">
+
 | PED                    | Price Increase | Price Decrease |
 | ---------------------- | -------------- | -------------- |
 | Elastic (PED &gt; 1)   | TR decreases   | TR increases   |
 | Inelastic (PED &lt; 1) | TR increases   | TR decreases   |
 | Unit elastic (PED = 1) | TR unchanged   | TR unchanged   |
+
+</div>
 
 :::tip
 Price if demand is inelastic. This is a very common exam question.
@@ -320,6 +348,8 @@ PES is positive because supply curves slope upward.
 
 ### Categories of PES
 
+<div class="table-wrap">
+
 | Value             | Description                                 |
 | ----------------- | ------------------------------------------- |
 | PES = 0           | Perfectly inelastic (vertical supply curve) |
@@ -328,7 +358,11 @@ PES is positive because supply curves slope upward.
 | PES &gt; 1        | Elastic                                     |
 | PES = infinity    | Perfectly elastic (horizontal supply curve) |
 
+</div>
+
 ### Factors Affecting PES
+
+<div class="table-wrap">
 
 | Factor                   | Higher PES                  | Lower PES                  |
 | ------------------------ | --------------------------- | -------------------------- |
@@ -337,6 +371,8 @@ PES is positive because supply curves slope upward.
 | Spare capacity           | Lots of spare capacity      | Operating at full capacity |
 | Storage ability          | Easy to store               | Perishable goods           |
 | Complexity of production | Simple production           | Complex production         |
+
+</div>
 
 ### Worked Example 4
 
@@ -379,11 +415,15 @@ $$
 
 ### Categories
 
+<div class="table-wrap">
+
 | YED Value         | Type of Good            | Example                          |
 | ----------------- | ----------------------- | -------------------------------- |
 | YED &lt; 0        | Inferior good           | Generic brands, public transport |
 | 0 &lt; YED &lt; 1 | Normal good (necessity) | Rice, basic clothing             |
 | YED &gt; 1        | Normal good (luxury)    | Designer clothing, fine dining   |
+
+</div>
 
 ---
 
@@ -409,11 +449,15 @@ $$
 
 ### Categories
 
+<div class="table-wrap">
+
 | XED Value  | Relationship    | Example         |
 | ---------- | --------------- | --------------- |
 | XED &gt; 0 | Substitutes     | Tea and coffee  |
 | XED &lt; 0 | Complements     | Cars and petrol |
 | XED = 0    | Unrelated goods | Cars and bread  |
+
+</div>
 
 The larger the absolute value of XED, the stronger the relationship between the goods.
 
@@ -579,11 +623,15 @@ Example: vaccination benefits not only the vaccinated person but also the commun
 
 Public goods are non-excludable and non-rivalrous.
 
+<div class="table-wrap">
+
 | Characteristic | Public Goods                      | Private Goods  |
 | -------------- | --------------------------------- | -------------- |
 | Excludability  | Non-excludable                    | Excludable     |
 | Rivalry        | Non-rivalrous                     | Rivalrous      |
 | Example        | National defence, street lighting | Food, clothing |
+
+</div>
 
 The **free-rider problem** means private firms will not produce public goods because they cannot
 Charge beneficiaries. Government must provide them.
@@ -602,6 +650,8 @@ Loss.
 
 ### Government Solutions to Market Failure
 
+<div class="table-wrap">
+
 | Market Failure        | Policy                                            |
 | --------------------- | ------------------------------------------------- |
 | Negative externality  | Tax (Pigouvian tax), regulation, tradable permits |
@@ -609,6 +659,8 @@ Loss.
 | Public goods          | Direct government provision                       |
 | Information asymmetry | Regulation, certification, labelling requirements |
 | Monopoly power        | Anti-trust laws, price regulation, privatisation  |
+
+</div>
 
 ---
 
@@ -623,6 +675,8 @@ Loss.
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic         | Key Concept                        | Formula                                |
 | ------------- | ---------------------------------- | -------------------------------------- |
 | Law of Demand | Price up, quantity down            | Downward-sloping curve                 |
@@ -633,6 +687,8 @@ Loss.
 | YED           | Responsiveness of demand to income | $\frac{\%\Delta Q_D}{\%\Delta Y}$      |
 | XED           | Relationship between goods         | $\frac{\%\Delta Q_{DA}}{\%\Delta P_B}$ |
 | Tax incidence | Depends on elasticity              | More inelastic side pays more          |
+
+</div>
 
 ---
 
@@ -708,6 +764,8 @@ Output by changing variable factors (e.g., labour, raw materials).
 As more of a variable factor is added to a fixed factor, the marginal product of the variable factor
 will eventually decrease.
 
+<div class="table-wrap">
+
 | Units of Labour | Total Product | Marginal Product | Average Product |
 | --------------- | ------------- | ---------------- | --------------- |
 | 0               | 0             |,                |,               |
@@ -720,10 +778,14 @@ will eventually decrease.
 | 7               | 75            | 0                | 10.7            |
 | 8               | 70            | -5               | 8.75            |
 
+</div>
+
 Marginal product starts to diminish after the 3rd worker. Negative marginal product begins at the
 8th worker (overcrowding).
 
 ### Costs of Production
+
+<div class="table-wrap">
 
 | Cost                        | Definition                                         | Formula                         |
 | --------------------------- | -------------------------------------------------- | ------------------------------- |
@@ -734,6 +796,8 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 | Average variable cost (AVC) | Variable cost per unit                             | AVC = TVC / Q                   |
 | Average total cost (ATC)    | Total cost per unit                                | ATC = TC / Q                    |
 | Marginal cost (MC)          | Cost of producing one more unit                    | MC = change in TC / change in Q |
+
+</div>
 
 ### Cost Curves
 
@@ -747,11 +811,15 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 >
 ### Revenue
 
+<div class="table-wrap">
+
 | Revenue               | Definition                         | Formula                         |
 | --------------------- | ---------------------------------- | ------------------------------- |
 | Total revenue (TR)    | Total income from sales            | TR = P $\times$ Q               |
 | Average revenue (AR)  | Revenue per unit                   | AR = TR / Q = P                 |
 | Marginal revenue (MR) | Revenue from selling one more unit | MR = change in TR / change in Q |
+
+</div>
 
 ### Profit Maximisation
 
@@ -765,6 +833,8 @@ A firm maximises profit where **marginal revenue equals marginal cost** (MR = MC
 
 Given the following data, find the profit-maximising output.
 
+<div class="table-wrap">
+
 | Output (Q) | Price (USD) | TC (USD) |
 | ---------- | ----------- | -------- |
 | 0          | 50          | 30       |
@@ -775,6 +845,10 @@ Given the following data, find the profit-maximising output.
 | 5          | 50          | 185      |
 | 6          | 50          | 240      |
 
+</div>
+
+<div class="table-wrap">
+
 | Q   | TR (USD) | MR (USD) | MC (USD) |
 | --- | -------- | -------- | -------- |
 | 0   | 0        |,        |,        |
@@ -784,6 +858,8 @@ Given the following data, find the profit-maximising output.
 | 4   | 200      | 50       | 35       |
 | 5   | 250      | 50       | 45       |
 | 6   | 300      | 50       | 55       |
+
+</div>
 
 MR = MC between Q = 5 (MR = 50, MC = 45) and Q = 6 (MR = 50, MC = 55). Profit is maximised at Q = 5
 where MR is closest to MC.
@@ -842,6 +918,8 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 
 **Monopoly vs Perfect Competition:**
 
+<div class="table-wrap">
+
 | Feature          | Perfect Competition            | Monopoly           |
 | ---------------- | ------------------------------ | ------------------ |
 | Price            | Lower                          | Higher             |
@@ -850,6 +928,8 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 | Consumer surplus | Larger                         | Smaller            |
 | Deadweight loss  | None                           | Present            |
 | Innovation       | May lack incentive             | May have incentive |
+
+</div>
 
 :::caution
 lower total Revenue.
@@ -901,12 +981,16 @@ Where:
 
 ### Key Measures
 
+<div class="table-wrap">
+
 | Measure                      | Definition                                                  |
 | ---------------------------- | ----------------------------------------------------------- |
 | GDP (Gross Domestic Product) | Total value of goods and services produced within a country |
 | GNP (Gross National Product) | GDP + Net income from abroad                                |
 | NNP (Net National Product)   | GNP - Depreciation                                          |
 | Per capita income            | National income / Population                                |
+
+</div>
 
 ### Limitations of GDP as a Measure of Welfare
 
@@ -945,11 +1029,15 @@ Inflation is a sustained increase in the general price level.
 
 ### Unemployment
 
+<div class="table-wrap">
+
 | Type       | Cause                          | Solution               |
 | ---------- | ------------------------------ | ---------------------- |
 | Frictional | Time between jobs              | Better job information |
 | Structural | Mismatch of skills or location | Retraining, relocation |
 | Cyclical   | Insufficient aggregate demand  | Fiscal/monetary policy |
+
+</div>
 
 ### Phillips Curve
 

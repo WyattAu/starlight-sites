@@ -162,6 +162,8 @@ $\theta_s = 1.22\lambda/d$.
 
 ### 8.9 Coherence of Laser Light vs Thermal Light
 
+<div class="table-wrap">
+
 | Property | Laser | Thermal source |
 | ---------- | ------- | ---------------- |
 | Spectral width $\Delta\nu$ | $\sim 1$ MHz or less | $\sim 10^{14}$ Hz |
@@ -169,6 +171,8 @@ $\theta_s = 1.22\lambda/d$.
 | Coherence length $L_c$ | $\sim 300$ m or more | $\sim 1\ \mu$m |
 | Spatial coherence | Full (across beam) | Limited by van Cittert-Zernike |
 | $g^{(2)}(0)$ | $1$ (coherent) | $2$ (chaotic) |
+
+</div>
 
 ### 8.10 Worked Example: Spatial Coherence of Sunlight
 

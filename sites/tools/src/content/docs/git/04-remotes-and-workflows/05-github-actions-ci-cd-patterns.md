@@ -32,6 +32,8 @@ Comments, scheduled cron expressions, and manual dispatches.
 
 ### Core Concepts
 
+<div class="table-wrap">
+
 | Concept      | Description                                                                                                          |
 | ------------ | -------------------------------------------------------------------------------------------------------------------- |
 | **Workflow** | An automated process defined in a YAML file under `.github/workflows/`                                               |
@@ -43,10 +45,14 @@ Comments, scheduled cron expressions, and manual dispatches.
 | **Artifact** | A file or collection of files produced during a workflow run, persisted after the run completes                      |
 | **Secret**   | An encrypted environment variable accessible only within the workflow context                                        |
 
+</div>
+
 ### Runner Taxonomy
 
 GitHub-hosted runners are ephemeral virtual machines provisioned per job and destroyed after
 Completion. They come in three operating system families:
+
+<div class="table-wrap">
 
 | Runner identifier  | OS                  | Architecture | Notes                            |
 | ------------------ | ------------------- | ------------ | -------------------------------- |
@@ -55,6 +61,8 @@ Completion. They come in three operating system families:
 | `windows-latest`   | Windows Server 2022 | x64          | Uses PowerShell as default shell |
 | `macos-latest`     | macOS 14 (Sonoma)   | arm64 (M1)   | 10× billing multiplier vs ubuntu |
 | `macos-13`         | macOS Ventura       | x64          | Intel-based macOS                |
+
+</div>
 
 Self-hosted runners allow execution on custom infrastructure and are not subject to the 6-hour job
 Timeout or IP egress restrictions, but require the operator to manage security, isolation, and
@@ -105,6 +113,8 @@ jobs:
 A step is either an action reference (`uses`) or a shell command (`run`). The two are mutually
 Exclusive within a single step.
 
+<div class="table-wrap">
+
 | Key                 | Purpose                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------ |
 | `name`              | Human-readable label displayed in the workflow run log                                     |
@@ -116,6 +126,8 @@ Exclusive within a single step.
 | `id`                | Unique identifier so subsequent steps can reference outputs via `steps.&lt;id&gt;.outputs` |
 | `timeout-minutes`   | Maximum time before the step is killed (overrides job-level timeout)                       |
 | `continue-on-error` | If `true`The workflow treats a failure in this step as a success                           |
+
+</div>
 
 ### Environment Variables
 
@@ -409,12 +421,16 @@ jobs:
       - run: echo "This always runs"
 ```
 
+<div class="table-wrap">
+
 | Condition function | Meaning                                   |
 | ------------------ | ----------------------------------------- |
 | `success()`        | All dependency jobs succeeded (default)   |
 | `failure()`        | At least one dependency job failed        |
 | `always()`         | Run regardless of dependency job outcomes |
 | `cancelled()`      | The workflow was cancelled                |
+
+</div>
 
 ### Concurrency Control
 
@@ -476,11 +492,15 @@ Purpose.
       pip-
 ```
 
+<div class="table-wrap">
+
 | Key component  | Purpose                                                |
 | -------------- | ------------------------------------------------------ |
 | `key`          | Primary cache key; exact match required                |
 | `restore-keys` | Fallback prefix keys used when no exact match is found |
 | `path`         | File or directory to cache                             |
+
+</div>
 
 Cache lookup proceeds as follows:
 
@@ -592,6 +612,8 @@ for human consumption or cross-job data transfer and are retained after the run 
     compression-level: 6
 ```
 
+<div class="table-wrap">
+
 | Parameter           | Description                                         |
 | ------------------- | --------------------------------------------------- |
 | `name`              | Artifact name (unique within the run)               |
@@ -599,6 +621,8 @@ for human consumption or cross-job data transfer and are retained after the run 
 | `retention-days`    | Days to retain (default 90, max 90 on free plans)   |
 | `if-no-files-found` | Behavior when no files match: `warn``error``ignore` |
 | `compression-level` | 0 (none) to 9 (max); default 6                      |
+
+</div>
 
 ### Downloading Artifacts
 
@@ -650,11 +674,15 @@ jobs:
 
 ### Artifact Size Limits
 
+<div class="table-wrap">
+
 | Limit                           | Value                                 |
 | ------------------------------- | ------------------------------------- |
 | Single artifact max size        | 5 GB                                  |
 | Total artifacts per run         | No hard cap (storage billing applies) |
 | Max number of artifacts per run | 500                                   |
+
+</div>
 
 ---
 
@@ -803,12 +831,16 @@ jobs:
       - run: python --version
 ```
 
+<div class="table-wrap">
+
 | Matrix option  | Purpose                                                           |
 | -------------- | ----------------------------------------------------------------- |
 | `fail-fast`    | If `true` (default), cancel all in-progress jobs on first failure |
 | `exclude`      | Remove specific combinations from the matrix                      |
 | `include`      | Add specific combinations to the matrix                           |
 | `max-parallel` | Limit the number of concurrent matrix job runs                    |
+
+</div>
 
 ---
 
@@ -1152,11 +1184,15 @@ jobs:
 
 ### Secret Scoping
 
+<div class="table-wrap">
+
 | Scope        | Visibility                           | Use case                                  |
 | ------------ | ------------------------------------ | ----------------------------------------- |
 | Repository   | All workflows in the repository      | Deploy credentials, API tokens            |
 | Environment  | Workflows using that environment     | Per-environment secrets (staging vs prod) |
 | Organization | All repositories in the organization | Shared SSO tokens, registry credentials   |
+
+</div>
 
 Environment-level secrets require the job to specify the `environment` key:
 
@@ -1195,6 +1231,8 @@ jobs:
 Default `GITHUB_TOKEN` permissions are read-only. To grant write access, declare `permissions` at
 the workflow or job level:
 
+<div class="table-wrap">
+
 | Permission      | Scope                                  |
 | --------------- | -------------------------------------- |
 | `contents`      | Repository content (commits, releases) |
@@ -1204,6 +1242,8 @@ the workflow or job level:
 | `id-token`      | OIDC token generation (for cloud auth) |
 | `actions`       | Workflow operations                    |
 | `pages`         | GitHub Pages deployment                |
+
+</div>
 
 ### Variables vs Secrets
 
@@ -1433,12 +1473,16 @@ jobs:
 
 GitHub-hosted runners have finite resources:
 
+<div class="table-wrap">
+
 | Resource       | Limit (2-core runner) | Limit (larger runners) |
 | -------------- | --------------------- | ---------------------- |
 | CPU            | 2 cores               | Up to 64 cores         |
 | Memory         | 7 GB RAM              | Up to 512 GB RAM       |
 | Disk (SSD)     | 14 GB free            | Up to 32 TB            |
 | Network egress | ~250 Mbps             | Same                   |
+
+</div>
 
 Long-running builds that compile large codebases, run heavy test suites, or process large datasets
 should consider self-hosted runners or larger runner types.
@@ -1447,11 +1491,15 @@ should consider self-hosted runners or larger runner types.
 
 GitHub Actions bills per minute of runner usage, with multipliers per OS:
 
+<div class="table-wrap">
+
 | Runner  | Multiplier |
 | ------- | ---------- |
 | Linux   | 1×         |
 | Windows | 2×         |
 | macOS   | 10×        |
+
+</div>
 
 Cost optimization strategies:
 

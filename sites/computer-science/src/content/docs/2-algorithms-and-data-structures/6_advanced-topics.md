@@ -210,11 +210,15 @@ $\\{S_3, S_5, S_2\\}$ Size 3. Here greedy is optimal, but it is a $\ln n$-approx
 **Monte Carlo algorithms** always run in polynomial time but may produce incorrect answers with some
 probability.
 
+<div class="table-wrap">
+
 | Property     | Las Vegas            | Monte Carlo            |
 | ------------ | -------------------- | ---------------------- |
 | Correctness  | Always correct       | Bounded error prob     |
 | Running time | Randomised           | Bounded                |
 | Example      | Randomised Quicksort | Miller-Rabin primality |
+
+</div>
 
 **Theorem 6.6.** A Monte Carlo algorithm with error probability $\epsilon$ can be amplified to error
 probability $\epsilon^k$ by running it $k$ times and taking the majority vote (for decision problems

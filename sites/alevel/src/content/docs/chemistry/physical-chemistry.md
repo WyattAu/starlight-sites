@@ -43,11 +43,15 @@ across all major exam boards.
 
 ### Subatomic Particles
 
+<div class="table-wrap">
+
 | Particle | Relative Mass    | Relative Charge | Location |
 | -------- | ---------------- | --------------- | -------- |
 | Proton   | 1                | +1              | Nucleus  |
 | Neutron  | 1                | 0               | Nucleus  |
 | Electron | $\frac{1}{1836}$ | $-1$            | Shells   |
+
+</div>
 
 **Atomic number ($Z$)** = number of protons **Mass number ($A$)** = protons + neutrons **Isotopes**
 = same $Z$, different $A$ (different number of neutrons)
@@ -56,12 +60,16 @@ across all major exam boards.
 
 Electrons fill shells in order: 1 → 2 → 3 → 4...
 
+<div class="table-wrap">
+
 | Shell | Maximum electrons | Elements filled |
 | ----- | ----------------- | --------------- |
 | 1     | 2                 | H, He           |
 | 2     | 8                 | Li – Ne         |
 | 3     | 18                | Na – Ar         |
 | 4     | 32                | K – Kr          |
+
+</div>
 
 **Exceptions to remember:**
 
@@ -145,11 +153,15 @@ bonds).
 
 ### Intermolecular Forces
 
+<div class="table-wrap">
+
 | Force               | Strength  | Occurs Between                                | Example                                         |
 | ------------------- | --------- | --------------------------------------------- | ----------------------------------------------- |
 | London (dispersion) | Weakest   | All molecules                                 | All                                             |
 | Dipole-dipole       | Moderate  | Polar molecules                               | $\mathrm{HCl}$, $\mathrm{SO_2}$                 |
 | Hydrogen bonding    | Strongest | Molecules with $\mathrm{N, O, F}$ bonded to H | $\mathrm{H_2O}$, $\mathrm{NH_3}$, $\mathrm{HF}$ |
+
+</div>
 
 **London forces** increase with: more electrons (larger $A_r$), larger surface area (chain length).
 
@@ -178,11 +190,15 @@ $$
 \Delta H = H_{\text{products}} - H_{\text{reactants}}
 $$
 
+<div class="table-wrap">
+
 | Type                                                   | Definition                                                                    |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------- |
 | Standard enthalpy of formation ($\Delta_f H^\ominus$)  | Enthalpy change when 1 mol of compound forms from elements in standard states |
 | Standard enthalpy of combustion ($\Delta_c H^\ominus$) | Enthalpy change when 1 mol of substance burns completely in $\mathrm{O_2}$    |
 | Standard enthalpy of neutralisation                    | Enthalpy change per mole of water formed from acid–base reaction              |
+
+</div>
 
 **Exothermic:** $\Delta H < 0$ (energy released to surroundings) **Endothermic:** $\Delta H > 0$
 (energy absorbed from surroundings)
@@ -303,12 +319,16 @@ A plot of $\ln k$ vs $\frac{1}{T}$ gives a straight line:
 
 If a system at equilibrium is subjected to a change, the equilibrium shifts to oppose that change.
 
+<div class="table-wrap">
+
 | Change               | Effect on Equilibrium                                 |
 | -------------------- | ----------------------------------------------------- |
 | Increase [reactant]  | Shifts to products                                    |
 | Increase pressure    | Shifts to fewer moles of gas                          |
 | Increase temperature | Shifts endothermic direction                          |
 | Add catalyst         | No shift, speeds up both forward and reverse equally |
+
+</div>
 
 ### Equilibrium Constants
 
@@ -331,10 +351,14 @@ $$
 
 ### Industrial Processes
 
+<div class="table-wrap">
+
 | Process | Equation                                        | Conditions Chosen                           | Reason                                                                        |
 | ------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------- |
 | Haber   | $\mathrm{N_2 + 3H_2 \rightleftharpoons 2NH_3}$  | 450 °C, 200 atm, $\mathrm{Fe}$ catalyst     | Compromise: lower $T$ favoured, but too slow; high $P$ favoured but expensive |
 | Contact | $\mathrm{2SO_2 + O_2 \rightleftharpoons 2SO_3}$ | 450 °C, 1–2 atm, $\mathrm{V_2O_5}$ catalyst | High $T$ for rate, moderate $P$ for cost                                      |
+
+</div>
 
 ---
 
@@ -462,6 +486,8 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 ## 8. Key Equations Reference
 
+<div class="table-wrap">
+
 | Topic             | Equation                                                                          | Notes                 |
 | ----------------- | --------------------------------------------------------------------------------- | --------------------- |
 | Ionisation        | $\mathrm{pH} = -\log[\mathrm{H}^+]$                                               |                       |
@@ -474,6 +500,8 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 | Hess              | $\Delta H = \sum \Delta H_f(\text{products}) - \sum \Delta H_f(\text{reactants})$ |                       |
 | Calorimetry       | $q = mc\Delta T$                                                                  |                       |
 | Cell potential    | $E^\ominus_{\text{cell}} = E^\ominus_{\text{red}} - E^\ominus_{\text{ox}}$        |                       |
+
+</div>
 
 ---
 

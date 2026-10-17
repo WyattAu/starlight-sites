@@ -43,6 +43,8 @@ the repulsion between electron pairs (both bonding and lone pairs) around a cent
 
 ### Electron Pair Geometries
 
+<div class="table-wrap">
+
 | Electron pairs | Geometry             | Bond angle              |
 | -------------- | -------------------- | ----------------------- |
 | $2$            | Linear               | $180\degree$            |
@@ -51,7 +53,11 @@ the repulsion between electron pairs (both bonding and lone pairs) around a cent
 | $5$            | Trigonal bipyramidal | $120\degree, 90\degree$ |
 | $6$            | Octahedral           | $90\degree$             |
 
+</div>
+
 ### Molecular Shapes from VSEPR
+
+<div class="table-wrap">
 
 | Steric number | Lone pairs | Shape                | Bond angle                      | Example                                          |
 | ------------- | ---------- | -------------------- | ------------------------------- | ------------------------------------------------ |
@@ -69,14 +75,20 @@ the repulsion between electron pairs (both bonding and lone pairs) around a cent
 | $6$           | $1$        | Square pyramidal     | $\lt 90\degree$                 | $\mathrm{BrF}_5$, $\mathrm{IF}_5$                  |
 | $6$           | $2$        | Square planar        | $90\degree$                     | $\mathrm{XeF}_4$, $\mathrm{ICl}_4^-$               |
 
+</div>
+
 ### Bond Angle Distortions
 
 Lone pair repulsion compresses bond angles. The more lone pairs, the greater the compression:
+
+<div class="table-wrap">
 
 | Molecule                 | Expected       | Actual         | Reason                              |
 | ------------------------ | -------------- | -------------- | ----------------------------------- |
 | $\mathrm{NH}_3$          | $109.5\degree$ | $107\degree$   | One lone pair compresses angles     |
 | $\mathrm{H}_2\mathrm{O}$ | $109.5\degree$ | $104.5\degree$ | Two lone pairs compress angles more |
+
+</div>
 
 Electronegativity effects also distort angles: more electronegative terminal atoms pull bonding
 Pairs away from the central atom, reducing repulsion and **decreasing** bond angles.
@@ -108,6 +120,8 @@ Equivalent hybrid orbitals that explain observed geometries.
 
 ### Types of Hybridization
 
+<div class="table-wrap">
+
 | Hybridization | Geometry             | Orbitals combined | Angle                   |
 | ------------- | -------------------- | ----------------- | ----------------------- |
 | $sp$          | Linear               | $1s + 1p$         | $180\degree$            |
@@ -115,6 +129,8 @@ Equivalent hybrid orbitals that explain observed geometries.
 | $sp^3$        | Tetrahedral          | $1s + 3p$         | $109.5\degree$          |
 | $sp^3d$       | Trigonal bipyramidal | $1s + 3p + 1d$    | $120\degree, 90\degree$ |
 | $sp^3d^2$     | Octahedral           | $1s + 3p + 2d$    | $90\degree$             |
+
+</div>
 
 ### Determining Hybridization
 
@@ -124,6 +140,8 @@ $$
 \mathrm{Steric number} = \mathrm{bonded atoms} + \mathrm{lone pairs}
 $$
 
+<div class="table-wrap">
+
 | Steric number | Hybridization |
 | ------------- | ------------- |
 | $2$           | $sp$          |
@@ -132,7 +150,11 @@ $$
 | $5$           | $sp^3d$       |
 | $6$           | $sp^3d^2$     |
 
+</div>
+
 ### Examples
+
+<div class="table-wrap">
 
 | Molecule                 | Central atom | Steric number | Hybridization | Shape                |
 | ------------------------ | ------------ | ------------- | ------------- | -------------------- |
@@ -143,6 +165,8 @@ $$
 | $\mathrm{CO}_2$          | C            | $2$           | $sp$          | Linear               |
 | $\mathrm{SF}_6$          | S            | $6$           | $sp^3d^2$     | Octahedral           |
 | $\mathrm{PCl}_5$         | P            | $5$           | $sp^3d$       | Trigonal bipyramidal |
+
+</div>
 
 ### Sigma and Pi Bonds
 
@@ -213,6 +237,8 @@ $$
 \mathrm{Bond order} = \frac{N_{\mathrm{bonding}} - N_{\mathrm{antibonding}}}{2}
 $$
 
+<div class="table-wrap">
+
 | Molecule        | Bond order | Bond type      | Magnetic         |
 | --------------- | ---------- | -------------- | ---------------- |
 | $\mathrm{H}_2$  | $1$        | Single         | Diamagnetic      |
@@ -224,6 +250,8 @@ $$
 | $\mathrm{O}_2$  | $2$        | Double         | **Paramagnetic** |
 | $\mathrm{F}_2$  | $1$        | Single         | Diamagnetic      |
 | $\mathrm{Ne}_2$ | $0$        | Does not exist |,                |
+
+</div>
 
 ### Key Successes of MO Theory
 
@@ -259,6 +287,8 @@ Electrostatic attraction.
 
 ### Properties Explained by Metallic Bonding
 
+<div class="table-wrap">
+
 | Property                | Explanation                                                               |
 | ----------------------- | ------------------------------------------------------------------------- |
 | Electrical conductivity | Delocalised electrons can move freely under an applied potential          |
@@ -268,7 +298,11 @@ Electrostatic attraction.
 | High melting points     | Strong electrostatic attraction between cations and electrons             |
 | Luster                  | Delocalised electrons absorb and re-emit light at all visible wavelengths |
 
+</div>
+
 ### Factors Affecting Metallic Bond Strength
+
+<div class="table-wrap">
 
 | Factor                     | Effect                                         |
 | -------------------------- | ---------------------------------------------- |
@@ -276,10 +310,16 @@ Electrostatic attraction.
 | Smaller ionic radius       | Stronger bonding (cations closer to electrons) |
 | Higher ionic charge        | Stronger bonding                               |
 
+</div>
+
+<div class="table-wrap">
+
 | Comparison | Stronger bonding | Reason                                                |
 | ---------- | ---------------- | ----------------------------------------------------- |
 | Na vs Al   | Al               | Al contributes 3 electrons, Na contributes 1          |
 | Mg vs Ca   | Mg               | $\mathrm{Mg}^{2+}$ is smaller than $\mathrm{Ca}^{2+}$ |
+
+</div>
 
 ---
 
@@ -306,11 +346,15 @@ Broaden into **energy bands** due to orbital overlap.
 
 ### Classification of Solids
 
+<div class="table-wrap">
+
 | Type          | Band gap    | Conductivity                    | Examples                                                             |
 | ------------- | ----------- | ------------------------------- | -------------------------------------------------------------------- |
 | Metal         | $E_g = 0$   | High; electrons promoted        | $\mathrm{Cu}$$\mathrm{Fe}$$\mathrm{Na}$                              |
 | Semiconductor | Small $E_g$ | Moderate; temperature-dependent | $\mathrm{Si}$ ($1.1\mathrm{ eV}$), $\mathrm{Ge}$ ($0.7\mathrm{ eV}$) |
 | Insulator     | Large $E_g$ | Very low                        | Diamond ($5.5\mathrm{ eV}$), $\mathrm{SiO}_2$                        |
+
+</div>
 
 ### Semiconductor Behaviour
 
@@ -541,6 +585,8 @@ $$
 
 **Step 2: Count bonds by type.**
 
+<div class="table-wrap">
+
 | Bond                      | Type   | $\sigma$ | $\pi$ |
 | ------------------------- | ------ | -------- | ----- |
 | $\mathrm{C_1\!-\!C_2}$    | Single | 1        | 0     |
@@ -550,9 +596,13 @@ $$
 | $\mathrm{C_1\!-\!H}$ (x3) | Single | 3        | 0     |
 | $\mathrm{C_3\!-\!H}$      | Single | 1        | 0     |
 
+</div>
+
 Total: $8\sigma$ bonds, $3\pi$ bonds.
 
 **Step 3: Hybridization of each carbon.**
+
+<div class="table-wrap">
 
 | Carbon                                   | Regions of e$^-$ density    | Hybridization |
 | ---------------------------------------- | --------------------------- | ------------- |
@@ -560,6 +610,8 @@ Total: $8\sigma$ bonds, $3\pi$ bonds.
 | $\mathrm{C_2}$ ($\mathrm{=\!CH\!-\!}$)   | 3 (1 C--C + 1 C=C + 1 C--H) | $sp^2$        |
 | $\mathrm{C_3}$ ($\mathrm{-\!CH\!=\!}$)   | 3 (1 C=C + 1 C--C + 1 C--H) | $sp^2$        |
 | $\mathrm{C_4}$ ($\mathrm{-\!C\!\equiv}$) | 2 (1 C--C + 1 C$\equiv$N)   | $sp$          |
+
+</div>
 
 </details>
 

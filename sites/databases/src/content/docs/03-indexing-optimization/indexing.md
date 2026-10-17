@@ -61,6 +61,8 @@ B+ Tree (all data in leaves, leaves linked):
   [leaf] -> [leaf] -> [leaf] -> [leaf]  (linked list for range scans)
 ```
 
+<div class="table-wrap">
+
 | Property     | B-Tree                   | B+ Tree                          |
 | ------------ | ------------------------ | -------------------------------- |
 | Data storage | In all nodes             | Only in leaf nodes               |
@@ -68,6 +70,8 @@ B+ Tree (all data in leaves, leaves linked):
 | Range scans  | Requires tree traversal  | Sequential scan of linked leaves |
 | Node fill    | Variable                 | 2/3 to 4/5 (higher fan-out)      |
 | Height       | Taller for the same data | Shorter (higher fan-out)         |
+
+</div>
 
 ### Depth and Fan-Out
 
@@ -352,6 +356,8 @@ Execution Time: 0.221 ms
 
 Key fields to examine:
 
+<div class="table-wrap">
+
 | Field         | Meaning                                                  |
 | ------------- | -------------------------------------------------------- |
 | `cost`        | Planner's estimate of relative cost (lower is better)    |
@@ -360,7 +366,11 @@ Key fields to examine:
 | `actual rows` | Actual rows processed (from ANALYZE)                     |
 | `loops`       | Number of times this node was executed (from ANALYZE)    |
 
+</div>
+
 ### Common Plan Nodes
+
+<div class="table-wrap">
 
 | Node              | Description                                                      |
 | ----------------- | ---------------------------------------------------------------- |
@@ -374,6 +384,8 @@ Key fields to examine:
 | `Sort`            | In-memory sort (quicksort) or external sort (merge sort to disk) |
 | `Aggregate`       | Hash aggregate or Group Aggregate (sorted)                       |
 | `Limit`           | Stops processing after N rows                                    |
+
+</div>
 
 ### When the Planner Gets It Wrong
 
@@ -477,6 +489,8 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 
 ### Key Statistics
 
+<div class="table-wrap">
+
 | Column              | Meaning                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `n_distinct`        | Estimated number of distinct values (-1 means "proportional to row count")                                              |
@@ -485,6 +499,8 @@ Statistics via `ANALYZE` (run automatically by autovacuum) and stores them in `p
 | `histogram_bounds`  | Bucket boundaries for value distribution                                                                                |
 | `correlation`       | Correlation between physical row order and column value order (1.0 = perfectly sorted, -1.0 = perfectly reverse sorted) |
 | `null_frac`         | Fraction of rows where the column is NULL                                                                               |
+
+</div>
 
 ### Extended Statistics
 
@@ -596,11 +612,15 @@ reserve_pool_timeout = 3
 
 Pool modes:
 
+<div class="table-wrap">
+
 | Mode          | Behaviour                                                                                     |
 | ------------- | --------------------------------------------------------------------------------------------- |
 | `session`     | Server connection held for the entire client session                                          |
 | `transaction` | Server connection held only for the duration of a transaction (recommended)                   |
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
+
+</div>
 :::
 
 :::tip

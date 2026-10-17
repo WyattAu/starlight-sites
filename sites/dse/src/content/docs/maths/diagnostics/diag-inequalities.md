@@ -34,11 +34,15 @@ Do NOT cross-multiply, because the sign of $(2 - x)$ is unknown.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval               | $3x - 1$ | $2 - x$ | Quotient |
 | ---------------------- | -------- | ------- | -------- |
 | $x < \dfrac{1}{3}$     | $-$      | $+$     | $-$      |
 | $\dfrac{1}{3} < x < 2$ | $+$      | $+$     | $+$      |
 | $x > 2$                | $+$      | $-$     | $-$      |
+
+</div>
 
 At $x = \dfrac{1}{3}$: quotient is $0$ (included since $\geq 0$).
 
@@ -218,12 +222,16 @@ Critical values: $x = -1$, $x = 1$, $x = 3$.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | Test     | Sign |
 | ------------ | -------- | ---- |
 | $x < -1$     | $x = -2$ | $-$  |
 | $-1 < x < 1$ | $x = 0$  | $+$  |
 | $1 < x < 3$  | $x = 2$  | $-$  |
 | $x > 3$      | $x = 4$  | $+$  |
+
+</div>
 
 Including zeros ($x = 3$), excluding poles ($x = -1, 1$):
 
@@ -492,11 +500,15 @@ Critical values: $x = 1$ (double root) and $x = -1$.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | Test     | $(x-1)^2$ | $(x+1)$ | Product |
 | ------------ | -------- | --------- | ------- | ------- |
 | $x < -1$     | $x = -2$ | $+$       | $-$     | $-$     |
 | $-1 < x < 1$ | $x = 0$  | $+$       | $+$     | $+$     |
 | $x > 1$      | $x = 2$  | $+$       | $+$     | $+$     |
+
+</div>
 
 The expression is non-positive when $x \leq -1$ or $x = 1$.
 
@@ -730,11 +742,15 @@ Critical values: $x = -3$ (excluded) and $x = 1$ (included).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | Test     | Sign |
 | ------------ | -------- | ---- |
 | $x < -3$     | $x = -4$ | $+$  |
 | $-3 < x < 1$ | $x = 0$  | $-$  |
 | $x > 1$      | $x = 2$  | $+$  |
+
+</div>
 
 Including $x = 1$ Excluding $x = -3$ and $x = 3$.
 

@@ -164,6 +164,8 @@ variables:
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Researcher (Year)         | Focus                         | Key Finding                                                                                                                                                                                 |
 | ------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tajfel et al. (1971)      | Social identity theory        | Arbitrarily assigned group membership was sufficient to produce in-group favouritism, demonstrating that mere categorisation triggers intergroup bias.                                      |
@@ -171,6 +173,8 @@ variables:
 | Berry (1967)              | Conformity across cultures    | The Temne (tight, agricultural society) showed higher conformity rates on the Asch task than the Inuit (loose, hunting society), linking social structure to conformity levels.             |
 | Steele and Aronson (1995) | Stereotype threat             | African American students underperformed on a diagnostic test when their race was made salient, demonstrating that awareness of negative stereotypes can impair performance.                |
 | Miller (1984)             | Cultural attributional styles | Indian participants attributed behaviour more to situational factors while American participants favoured dispositional attributions, demonstrating cultural variation in attribution bias. |
+
+</div>
 
 ## Summary
 
@@ -185,11 +189,15 @@ perspectives.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
 | Social Identity Theory       | [View](/psychology/sociocultural/social-identity-theory/)        |
 | Cultural Norms and Attitudes | [View](/psychology/sociocultural/cultural-norms-and-attritudes/) |
 | Prejudice and Discrimination | [View](/psychology/sociocultural/prejudice-and-discrimination/)  |
+
+</div>
 
 ## Intuition
 

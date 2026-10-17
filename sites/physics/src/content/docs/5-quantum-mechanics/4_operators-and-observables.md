@@ -307,6 +307,8 @@ Quantum operators are the machinery that extracts measurable information from a 
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Hermitian is the same as self-adjoint | no | $\hat{p} = -i\hbar\,\mathrm{d}/\mathrm{d}x$ on the half-line is Hermitian on its natural domain and admits no self-adjoint extension without a boundary condition added |
@@ -317,6 +319,8 @@ Quantum operators are the machinery that extracts measurable information from a 
 | The uncertainty principle limits how well instruments can measure | no | it bounds the spread of a *state*, and is attained by minimum-uncertainty Gaussians, so it is not an instrumental error |
 | Every observable has a discrete spectrum | no | $\hat{x}$ and $\hat{p}$ have continuous spectra; the generalised eigenfunctions are distributions, not vectors |
 | An operator is defined by its formula | no | it is defined by its formula *and* its domain; the same formula on different domains is a different operator |
+
+</div>
 
 The first row is the one that matters most, and it is also the one that feels
 like pedantry until you meet an example. The last row is its general form and

@@ -512,11 +512,15 @@ Ordinary differential equations describe how quantities evolve, and each method 
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

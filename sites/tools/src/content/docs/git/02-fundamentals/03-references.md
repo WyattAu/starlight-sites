@@ -171,6 +171,8 @@ $ git log HEAD..origin/main
 
 ### Special References
 
+<div class="table-wrap">
+
 | Ref                | Location                | Purpose                                             |
 | ------------------ | ----------------------- | --------------------------------------------------- |
 | `HEAD`             | `.git/HEAD`             | Current branch/commit                               |
@@ -180,6 +182,8 @@ $ git log HEAD..origin/main
 | `FETCH_HEAD`       | `.git/FETCH_HEAD`       | Last fetched refs (from `git fetch`)                |
 | `ORIG_HEAD`        | `.git/ORIG_HEAD`        | Previous value of HEAD before a rebase/reset        |
 | `REBASE_HEAD`      | `.git/REBASE_HEAD`      | Current commit during interactive rebase            |
+
+</div>
 
 These are transient references that exist only during specific operations and are cleaned up
 Afterward.
@@ -218,12 +222,16 @@ References. The general form is:
 <+?><src>:<dst>
 ```
 
+<div class="table-wrap">
+
 | Component | Meaning                                                       |
 | --------- | ------------------------------------------------------------- |
 | `src`     | The source ref (on the remote for fetch, local for push)      |
 | `dst`     | The destination ref (local for fetch, on the remote for push) |
 | `+`       | Force update even if not fast-forward                         |
 | `:` alone | Delete the ref (push only)                                    |
+
+</div>
 
 ```bash
 # Default fetch refspec for origin

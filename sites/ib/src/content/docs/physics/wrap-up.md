@@ -21,6 +21,8 @@ strategies for final revision.
 
 ## Thematic Area Summaries
 
+<div class="table-wrap">
+
 | Theme                                 | Key Topics                                                         | Full Notes                                                               |
 | :------------------------------------ | :----------------------------------------------------------------- | :----------------------------------------------------------------------- |
 | A -- Space, Time, and Motion          | Kinematics, dynamics, work and energy, momentum, rotational motion | [Mechanics](/physics/1-space-time-and-motion/1_kinematics/)                      |
@@ -28,6 +30,8 @@ strategies for final revision.
 | C -- Wave Behaviour                   | SHM, wave properties, wave phenomena                               | [Waves](/physics/3-wave-behaviour/1_simple-harmonic-motion/)                     |
 | D -- Fields                           | Gravitational fields, electric and magnetic fields                 | [Fields](/physics/4-fields/1_gravitational-fields/)                              |
 | E -- Nuclear and Quantum Physics      | Quantum physics, radioactive decay, structure of the atom          | [Nuclear](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
+
+</div>
 
 ## Review Strategies
 

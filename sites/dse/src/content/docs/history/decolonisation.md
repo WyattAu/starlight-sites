@@ -95,6 +95,8 @@ The Sino-British Joint Declaration, signed on 19 December 1984, established the 
 
 **Key Provisions:**
 
+<div class="table-wrap">
+
 | Provision | Details |
 | ----------- | --------- |
 | Sovereignty transfer | China to resume sovereignty over Hong Kong on 1 July 1997 |
@@ -103,6 +105,8 @@ The Sino-British Joint Declaration, signed on 19 December 1984, established the 
 | Economic system | Hong Kong to retain its status as a free port and international financial centre |
 | Immigration | China not to impose immigration controls between the mainland and Hong Kong |
 | Defence and foreign affairs | China to assume responsibility for defence and foreign affairs |
+
+</div>
 
 The Joint Declaration represented a pragmatic solution to a complex diplomatic problem. Britain accepted Chinese sovereignty in exchange for guarantees regarding Hong Kong's autonomy and way of life. The agreement was registered with the United Nations and established international legal obligations.
 

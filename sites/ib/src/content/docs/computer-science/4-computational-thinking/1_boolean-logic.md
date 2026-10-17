@@ -41,6 +41,8 @@ Construct any Boolean function. XOR and XNOR are useful for parity and compariso
 
 **AND (conjunction):** The output is 1 only when all inputs are 1.
 
+<div class="table-wrap">
+
 | `A` | `B` | `A` AND `B` |
 | --- | --- | ----------- |
 | 0   | 0   | 0           |
@@ -48,9 +50,13 @@ Construct any Boolean function. XOR and XNOR are useful for parity and compariso
 | 1   | 0   | 0           |
 | 1   | 1   | 1           |
 
+</div>
+
 Notation: $A \cdot B$, $AB$, $A \wedge B$
 
 **OR (disjunction):** The output is 1 when at least one input is 1.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` OR `B` |
 | --- | --- | ---------- |
@@ -59,18 +65,26 @@ Notation: $A \cdot B$, $AB$, $A \wedge B$
 | 1   | 0   | 1          |
 | 1   | 1   | 1          |
 
+</div>
+
 Notation: $A + B$, $A \vee B$
 
 **NOT (negation):** The output is the complement of the input.
+
+<div class="table-wrap">
 
 | `A` | NOT `A` |
 | --- | ------- |
 | 0   | 1       |
 | 1   | 0       |
 
+</div>
+
 Notation: $\overline{A}$, $A"$, $\lnot A$
 
 **NAND:** The negation of AND. Output is 0 only when all inputs are 1.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` NAND `B` |
 | --- | --- | ------------ |
@@ -79,9 +93,13 @@ Notation: $\overline{A}$, $A"$, $\lnot A$
 | 1   | 0   | 1            |
 | 1   | 1   | 0            |
 
+</div>
+
 Notation: $\overline{A \cdot B}$, $(A \cdot B)'$
 
 **NOR:** The negation of OR. Output is 1 only when all inputs are 0.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` NOR `B` |
 | --- | --- | ----------- |
@@ -90,9 +108,13 @@ Notation: $\overline{A \cdot B}$, $(A \cdot B)'$
 | 1   | 0   | 0           |
 | 1   | 1   | 0           |
 
+</div>
+
 Notation: $\overline{A + B}$, $(A + B)'$
 
 **XOR (exclusive OR):** The output is 1 when inputs are different.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` XOR `B` |
 | --- | --- | ----------- |
@@ -101,9 +123,13 @@ Notation: $\overline{A + B}$, $(A + B)'$
 | 1   | 0   | 1           |
 | 1   | 1   | 0           |
 
+</div>
+
 Notation: $A \oplus B$, $A \veebar B$
 
 **XNOR (exclusive NOR):** The negation of XOR. Output is 1 when inputs are the same.
+
+<div class="table-wrap">
 
 | `A` | `B` | `A` XNOR `B` |
 | --- | --- | ------------ |
@@ -111,6 +137,8 @@ Notation: $A \oplus B$, $A \veebar B$
 | 0   | 1   | 0            |
 | 1   | 0   | 0            |
 | 1   | 1   | 1            |
+
+</div>
 
 Notation: $\overline{A \oplus B}$, $A \odot B$
 
@@ -138,6 +166,8 @@ Construct the truth table for $F = (A + B) \cdot \overline{C}$.
 
 Build column by column, evaluating each sub-expression:
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | $A + B$ | $\overline{C}$ | $F = (A + B) \cdot \overline{C}$ |
 | --- | --- | --- | ------- | -------------- | -------------------------------- |
 | 0   | 0   | 0   | 0       | 1              | 0                                |
@@ -148,6 +178,8 @@ Build column by column, evaluating each sub-expression:
 | 1   | 0   | 1   | 1       | 0              | 0                                |
 | 1   | 1   | 0   | 1       | 1              | 1                                |
 | 1   | 1   | 1   | 1       | 0              | 0                                |
+
+</div>
 
 Minterms (where $F = 1$): $\overline{A}B\overline{C}$$A\overline{B}\overline{C}$$AB\overline{C}$.
 
@@ -166,6 +198,8 @@ $\overline{C}$ And the OR of the other terms is $B + A = A + B$ So $F = (A + B) 
 A three-variable expression has $2^3 = 8$ rows. The convention is to list combinations in binary
 Counting order. For variables `A`, `B`, `C`:
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | `A` AND `B` AND `C` | `A` OR `B` OR `C` |
 | --- | --- | --- | ------------------- | ----------------- |
 | 0   | 0   | 0   | 0                   | 0                 |
@@ -177,10 +211,14 @@ Counting order. For variables `A`, `B`, `C`:
 | 1   | 1   | 0   | 0                   | 1                 |
 | 1   | 1   | 1   | 1                   | 1                 |
 
+</div>
+
 ### Four-Variable Truth Tables
 
 A four-variable expression has $2^4 = 16$ rows. The standard ordering assigns the leftmost variable
 as the most significant bit. For variables `A`, `B`, `C`, `D`:
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | `D` | `A` AND `B` AND `C` AND `D` | `A` OR `B` OR `C` OR `D` |
 | --- | --- | --- | --- | --------------------------- | ------------------------ |
@@ -201,11 +239,15 @@ as the most significant bit. For variables `A`, `B`, `C`, `D`:
 | 1   | 1   | 1   | 0   | 0                           | 1                        |
 | 1   | 1   | 1   | 1   | 1                           | 1                        |
 
+</div>
+
 ### Constructing Truth Tables for Arbitrary Expressions
 
 Given an expression, construct the truth table by evaluating each sub-expression column by column.
 
 **Worked example:** Construct the truth table for $F = A \cdot \overline{B} + \overline{A} \cdot C$
+
+<div class="table-wrap">
 
 | `A` | `B` | `C` | $\overline{B}$ | $\overline{A}$ | $A \cdot \overline{B}$ | $\overline{A} \cdot C$ | $F$ |
 | --- | --- | --- | -------------- | -------------- | ---------------------- | ---------------------- | --- |
@@ -218,6 +260,8 @@ Given an expression, construct the truth table by evaluating each sub-expression
 | 1   | 1   | 0   | 0              | 0              | 0                      | 0                      | 0   |
 | 1   | 1   | 1   | 0              | 0              | 0                      | 0                      | 0   |
 
+</div>
+
 The minterms (rows where $F = 1$) are: $\overline{A}\overline{B}C$$\overline{A}BC$
 $A\overline{B}\overline{C}$$A\overline{B}C$.
 
@@ -227,6 +271,8 @@ The following identities are the tools for algebraic simplification. Each identi
 by constructing truth tables for both sides and confirming they are identical.
 
 ### Fundamental Identities
+
+<div class="table-wrap">
 
 | Identity          | AND Form                                    | OR Form                                   |
 | ----------------- | ------------------------------------------- | ----------------------------------------- |
@@ -239,6 +285,8 @@ by constructing truth tables for both sides and confirming they are identical.
 | Distributive      | $A \cdot (B + C) = A \cdot B + A \cdot C$   | $A + (B \cdot C) = (A + B) \cdot (A + C)$ |
 | Absorption        | $A \cdot (A + B) = A$                       | $A + (A \cdot B) = A$                     |
 | Double Negation   | $\overline{\overline{A}} = A$               | $\overline{\overline{A}} = A$             |
+
+</div>
 
 ### De Morgan's Laws
 
@@ -430,6 +478,8 @@ This is $A \odot B$ (XNOR). The expression is now in minimal SOP form.
 
 ### Gate Symbols and Expressions
 
+<div class="table-wrap">
+
 | Gate | Boolean Expression      | Standard Symbol (ANSI) | IEC Symbol     |
 | ---- | ----------------------- | ---------------------- | -------------- |
 | AND  | $A \cdot B$             | D-shaped output        | `&`            |
@@ -439,6 +489,8 @@ This is $A \odot B$ (XNOR). The expression is now in minimal SOP form.
 | NOR  | $\overline{A + B}$      | OR with bubble         | `>=1` (with o) |
 | XOR  | $A \oplus B$            | OR with extra curve    | `=1`           |
 | XNOR | $\overline{A \oplus B}$ | XOR with bubble        | `=1` (with o)  |
+
+</div>
 
 ### NAND as a Universal Gate
 
@@ -526,10 +578,14 @@ the other.
 **Worked example:** Minimize
 $F = \overline{A} \cdot \overline{B} + \overline{A} \cdot B + A \cdot \overline{B}$
 
+<div class="table-wrap">
+
 |       | `B` = 0 | `B` = 1 |
 | ----- | ------- | ------- |
 | `A`=0 | 1       | 1       |
 | `A`=1 | 1       | 0       |
+
+</div>
 
 The cells for $(0,0)$, $(0,1)$ And $(1,0)$ are 1.
 
@@ -556,10 +612,14 @@ So that adjacent columns differ by exactly one bit. Variables `B` and `C` are th
 The minterms are: $m_0 = \overline{A}\overline{B}\overline{C}$, $m_1 = \overline{A}\overline{B}C$
 $m_2 = \overline{A}B\overline{C}$$m_5 = A\overline{B}C$$m_6 = AB\overline{C}$$m_7 = ABC$.
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 1         | 1         | 0         | 1         |
 | `A`=1 | 0         | 1         | 1         | 1         |
+
+</div>
 
 **Step 1: Identify groups.**
 
@@ -598,12 +658,16 @@ Gray code ordering: 00, 01, 11, 10.
 
 **Worked example:** Minimize $F(A, B, C, D) = \sum(0, 1, 2, 5, 8, 9, 10)$
 
+<div class="table-wrap">
+
 |         | `CD` = 00 | `CD` = 01 | `CD` = 11 | `CD` = 10 |
 | ------- | --------- | --------- | --------- | --------- |
 | `AB`=00 | 1         | 1         | 0         | 1         |
 | `AB`=01 | 0         | 1         | 0         | 0         |
 | `AB`=11 | 0         | 0         | 0         | 0         |
 | `AB`=10 | 1         | 1         | 0         | 1         |
+
+</div>
 
 **Step 1: Identify groups of 1s.**
 
@@ -658,10 +722,14 @@ Minimize $F(A, B, C) = \sum(1, 3, 5) + d(0, 6)$ where $d$ denotes don't care con
 
 The minterms are $m_1, m_3, m_5$. The don't cares are $m_0, m_6$. Place these on the K-map:
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | X         | 1         | 1         | 0         |
 | `A`=1 | 0         | 1         | 0         | X         |
+
+</div>
 
 **Without don't cares:**
 
@@ -759,6 +827,8 @@ either 0 or 1, whichever produces a simpler expression.
 **Worked example:** A circuit has inputs `A`, `B`, `C` where the input combination `A = 1, B = 1, C = 1`
 is impossible. The required outputs for the other 7 combinations are:
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | `F` |
 | --- | --- | --- | --- |
 | 0   | 0   | 0   | 0   |
@@ -770,12 +840,18 @@ is impossible. The required outputs for the other 7 combinations are:
 | 1   | 1   | 0   | 0   |
 | 1   | 1   | 1   | X   |
 
+</div>
+
 The K-map is:
+
+<div class="table-wrap">
 
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 1         | 1         | 0         |
 | `A`=1 | 1         | 1         | X         | 0         |
+
+</div>
 
 **Without don't cares**, the optimal SOP is:
 
@@ -851,12 +927,16 @@ the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 A half adder adds two single-bit numbers and produces a sum and a carry. It does not accept a
 Carry-in from a previous stage.
 
+<div class="table-wrap">
+
 | `A` | `B` | Sum | Carry |
 | --- | --- | --- | ----- |
 | 0   | 0   | 0   | 0     |
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 The sum bit follows the XOR pattern: $\mathrm{Sum} = A \oplus B$
 
@@ -869,6 +949,8 @@ The carry bit follows the AND pattern: $\mathrm{Carry} = A \cdot B$
 A full adder adds two single-bit numbers plus a carry-in from a previous stage, producing a sum and
 A carry-out.
 
+<div class="table-wrap">
+
 | `A` | `B` | $C_{in}$ | Sum | $C_{out}$ |
 | --- | --- | -------- | --- | --------- |
 | 0   | 0   | 0        | 0   | 0         |
@@ -880,12 +962,18 @@ A carry-out.
 | 1   | 1   | 0        | 0   | 1         |
 | 1   | 1   | 1        | 1   | 1         |
 
+</div>
+
 **Sum derivation via K-map:**
+
+<div class="table-wrap">
 
 |       | $B \cdot C_{in} = 00$ | $B \cdot C_{in} = 01$ | $B \cdot C_{in} = 11$ | $B \cdot C_{in} = 10$ |
 | ----- | --------------------- | --------------------- | --------------------- | --------------------- |
 | `A`=0 | 0                     | 1                     | 0                     | 1                     |
 | `A`=1 | 1                     | 0                     | 1                     | 0                     |
+
+</div>
 
 The 1s appear at $(0,01)$$(0,10)$$(1,00)$$(1,11)$. No two adjacent 1s share a common group in The
 standard sense. Each 1 is isolated (adjacent cells are 0). Therefore, no simplification is Possible,
@@ -901,10 +989,14 @@ $$
 
 **Carry-out derivation via K-map:**
 
+<div class="table-wrap">
+
 |       | $B \cdot C_{in} = 00$ | $B \cdot C_{in} = 01$ | $B \cdot C_{in} = 11$ | $B \cdot C_{in} = 10$ |
 | ----- | --------------------- | --------------------- | --------------------- | --------------------- |
 | `A`=0 | 0                     | 0                     | 1                     | 0                     |
 | `A`=1 | 0                     | 1                     | 1                     | 1                     |
+
+</div>
 
 Groups:
 
@@ -938,6 +1030,8 @@ Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count t
 
 **Step 1: Truth table**
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | `F` (majority) |
 | --- | --- | --- | -------------- |
 | 0   | 0   | 0   | 0              |
@@ -949,12 +1043,18 @@ Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count t
 | 1   | 1   | 0   | 1              |
 | 1   | 1   | 1   | 1              |
 
+</div>
+
 **Step 2: K-map**
+
+<div class="table-wrap">
 
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 0         | 1         | 0         |
 | `A`=1 | 0         | 1         | 1         | 1         |
+
+</div>
 
 **Step 3: Group**
 
@@ -1053,12 +1153,16 @@ Identify what logic gate this is equivalent to.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | `A` | `B` | $\overline{A}$ | $\overline{B}$ | $\overline{A} \cdot B$ | $A \cdot \overline{B}$ | $F$ |
 | --- | --- | -------------- | -------------- | ---------------------- | ---------------------- | --- |
 | 0   | 0   | 1              | 1              | 0                      | 0                      | 0   |
 | 0   | 1   | 1              | 0              | 1                      | 0                      | 1   |
 | 1   | 0   | 0              | 1              | 0                      | 1                      | 1   |
 | 1   | 1   | 0              | 0              | 0                      | 0                      | 0   |
+
+</div>
 
 $F = 1$ when $A \neq B$. This is the **XOR** gate: $F = A \oplus B$.
 
@@ -1166,10 +1270,14 @@ If you get this wrong, revise: [Boolean Identities](#boolean-identities-and-laws
 
 Place minterms on the K-map:
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 0         | 0         | 1         | 1         |
 | `A`=1 | 0         | 1         | 1         | 1         |
+
+</div>
 
 **Identify groups:**
 
@@ -1233,12 +1341,16 @@ If you get this wrong, revise: [3-Variable K-Maps](#3-variable-k-map)
 
 **Problem 5:** Convert the following truth table to both SOP and POS form:
 
+<div class="table-wrap">
+
 | `A` | `B` | `F` |
 | --- | --- | --- |
 | 0   | 0   | 1   |
 | 0   | 1   | 0   |
 | 1   | 0   | 0   |
 | 1   | 1   | 1   |
+
+</div>
 
 <details>
 <summary>Solution</summary>
@@ -1286,12 +1398,16 @@ are 0. What is the minimized expression?
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 |         | `CD` = 00 | `CD` = 01 | `CD` = 11 | `CD` = 10 |
 | ------- | --------- | --------- | --------- | --------- |
 | `AB`=00 | 1         | 0         | 0         | 1         |
 | `AB`=01 | 0         | 0         | 0         | 0         |
 | `AB`=11 | 0         | 0         | 0         | 0         |
 | `AB`=10 | 1         | 0         | 0         | 1         |
+
+</div>
 
 The four 1s are at the four corners: $(00,00), (00,10), (10,00), (10,10)$. The four corners form a
 Valid $2 \times 2$ group because K-maps wrap around both edges.
@@ -1444,6 +1560,8 @@ other terms being 1.
 
 **Verification:**
 
+<div class="table-wrap">
+
 | `A` | `B` | `C` | $AB$ | $\overline{A}C$ | $BC$ | $AB + \overline{A}C$ | $AB + \overline{A}C + BC$ |
 | --- | --- | --- | ---- | --------------- | ---- | -------------------- | ------------------------- |
 | 0   | 0   | 0   | 0    | 0               | 0    | 0                    | 0                         |
@@ -1454,6 +1572,8 @@ other terms being 1.
 | 1   | 0   | 1   | 0    | 0               | 0    | 0                    | 0                         |
 | 1   | 1   | 0   | 1    | 0               | 0    | 1                    | 1                         |
 | 1   | 1   | 1   | 1    | 0               | 1    | 1                    | 1                         |
+
+</div>
 
 The last two columns are identical for all 8 rows, confirming that $BC$ is indeed redundant.
 
@@ -1481,12 +1601,16 @@ the Gates needed.
 
 **Truth table** (binary subtraction: $0-0=0$, $1-0=1$, $1-1=0$, $0-1=1$ with borrow):
 
+<div class="table-wrap">
+
 | `A` | `B` | Diff | Borrow |
 | --- | --- | ---- | ------ |
 | 0   | 0   | 0    | 0      |
 | 0   | 1   | 1    | 1      |
 | 1   | 0   | 1    | 0      |
 | 1   | 1   | 0    | 0      |
+
+</div>
 
 **Diff:** 1 when inputs differ → XOR: $\mathrm{Diff} = A \oplus B$
 
@@ -1520,10 +1644,14 @@ Expression.
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 |       | `BC` = 00 | `BC` = 01 | `BC` = 11 | `BC` = 10 |
 | ----- | --------- | --------- | --------- | --------- |
 | `A`=0 | 1         | 0         | 0         | 1         |
 | `A`=1 | 1         | 0         | 1         | 1         |
+
+</div>
 
 **Groups:**
 
@@ -1560,10 +1688,14 @@ implementation, and key applications.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic           | Site    | Link                                                                                                     |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Boolean Logic] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/03-boolean-algebra) |
 | [Boolean Logic] | IB      | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic/)         |
+
+</div>
 
 ## Worked Examples
 

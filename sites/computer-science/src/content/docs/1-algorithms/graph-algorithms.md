@@ -94,6 +94,8 @@ DFS_VISIT(G, u):
 
 ### 1.3 BFS vs DFS
 
+<div class="table-wrap">
+
 | Property       | BFS                    | DFS                           |
 | -------------- | ---------------------- | ----------------------------- |
 | Data structure | Queue                  | Stack (recursion)             |
@@ -102,6 +104,8 @@ DFS_VISIT(G, u):
 | Space          | $O(V)$                 | $O(V)$                        |
 | Time           | $O(V + E)$             | $O(V + E)$                    |
 | Applications   | Shortest paths, levels | Topological sort, SCC, cycles |
+
+</div>
 
 ## 2. Topological Sort
 
@@ -273,12 +277,16 @@ FLOYD_WARSHALL(W):
 
 ### 4.4 Comparison
 
+<div class="table-wrap">
+
 | Algorithm      | Source    | Weights      | Negative | Time              | Space    |
 | -------------- | --------- | ------------ | -------- | ----------------- | -------- |
 | BFS            | Single    | Unit         | N/A      | $O(V + E)$        | $O(V)$   |
 | Dijkstra       | Single    | Non-negative | No       | $O((V+E) \log V)$ | $O(V)$   |
 | Bellman-Ford   | Single    | Any          | Yes      | $O(VE)$           | $O(V)$   |
 | Floyd-Warshall | All pairs | Any          | Yes      | $O(V^3)$          | $O(V^2)$ |
+
+</div>
 
 ### 4.5 Johnson's Algorithm
 
@@ -351,12 +359,16 @@ vertex outside.
 
 ### 5.4 Comparison
 
+<div class="table-wrap">
+
 | Property       | Kruskal       | Prim           |
 | -------------- | ------------- | -------------- |
 | Strategy       | Edge-based    | Vertex-based   |
 | Best for       | Sparse graphs | Dense graphs   |
 | Data structure | Union-Find    | Priority queue |
 | Time           | $O(E \log E)$ | $O(E \log V)$  |
+
+</div>
 
 ## 6. Network Flow
 
@@ -552,11 +564,15 @@ Graphs model relationships between entities. BFS explores level by level, findin
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
 | Algorithm Design  | [View](/1-algorithms/algorithm-design/)  |
 | Data Structures   | [View](/1-algorithms/data-structures/)   |
 | Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+
+</div>
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

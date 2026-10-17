@@ -143,6 +143,8 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Concept | Relation | Significance |
 | --------- | ---------- | -------------- |
 | Distribution function | $\langle n_i \rangle = (e^{\beta(\epsilon_i-\mu)} \pm 1)^{-1}$ | Unified form for FD/BE |
@@ -150,6 +152,8 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | BEC critical temperature | $T_c = 2\pi\hbar^2 n^{2/3}/(mk_B \zeta(3/2)^{2/3})$ | Phase transition temperature |
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
+
+</div>
 
 ## Intuition
 
@@ -181,6 +185,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 
 ### Summary Table: Comparison of Quantum and Classical Gases
 
+<div class="table-wrap">
+
 | Property | Maxwell--Boltzmann | Fermi--Dirac | Bose--Einstein |
 | ---------- | ------------------- | ------------- | ---------------- |
 | Particles | Distinguishable | Indistinguishable fermions | Indistinguishable bosons |
@@ -190,6 +196,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 | Validity condition | $n\lambda_{\text{th}}^3 \ll 1$ | $n\lambda_{\text{th}}^3 \gtrsim 1$ | $n\lambda_{\text{th}}^3 \gtrsim 2.612$ |
 | Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
 
+</div>
+
 ## Cross-References
 
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
@@ -197,7 +205,7 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - **[Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

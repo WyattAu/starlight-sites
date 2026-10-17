@@ -36,6 +36,8 @@ International). Where board-specific content diverges, it is noted explicitly.
 The four main examination boards divide the content differently across papers. The table below maps
 the ten core modules to each board"s paper structure.
 
+<div class="table-wrap">
+
 | Module                         | AQA         | Edexcel                | OCR(A)                | CIE                         |
 | ------------------------------ | ----------- | ---------------------- | --------------------- | --------------------------- |
 | Atomic Structure & Periodicity | Paper 1     | Paper 1 (Topics 1-5)   | Paper 1 (Modules 1-4) | Paper 2 (AS) / Paper 4 (A2) |
@@ -48,6 +50,8 @@ the ten core modules to each board"s paper structure.
 | Electrochemistry               | Paper 1 & 2 | Paper 2 (Topics 11-14) | Paper 2               | Paper 4                     |
 | Organic Chemistry              | Paper 2 & 3 | Paper 2                | Paper 2 & 3           | Paper 3 / Paper 5           |
 | Transition Metals & Analytical | Paper 2 & 3 | Paper 2                | Paper 3 (Module 6)    | Paper 4 / Paper 5           |
+
+</div>
 
 ## Core Modules
 
@@ -74,12 +78,16 @@ the ten core modules to each board"s paper structure.
 
 ## Assessment Structure
 
+<div class="table-wrap">
+
 | Board   | AS Papers                            | A-Level Papers                                              | Practical Endorsement              |
 | ------- | ------------------------------------ | ----------------------------------------------------------- | ---------------------------------- |
 | AQA     | Paper 1 (7401/1), Paper 2 (7401/2)   | Paper 1 (7402/1), Paper 2 (7402/2), Paper 3 (7402/3)        | 12 required practicals (pass/fail) |
 | Edexcel | Paper 1 (8CH0/01), Paper 2 (8CH0/02) | Paper 1 (9CH0/01), Paper 2 (9CH0/02), Paper 3 (9CH0/03)     | Core practicals (teacher-assessed) |
 | OCR(A)  | Paper 1 (H432/01), Paper 2 (H432/02) | Paper 1, Paper 2, Paper 3 (Unified)                         | Practical endorsement (pass/fail)  |
 | CIE     | Paper 2, Paper 3 (practical)         | Paper 4, Paper 5 (planning), Paper 3 or Paper 4 (practical) | No endorsement; practical examined |
+
+</div>
 
 ### AQA Paper Weightings
 
@@ -136,6 +144,8 @@ four boards.
 
 ### Physical Chemistry
 
+<div class="table-wrap">
+
 | Topic            | Key Equations                                                                                                                                                                                                                      |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Quantitative     | $n = \frac{m}{M}$$c = \frac{n}{V}$$pV = nRT$$\frac{p_1 V_1}{T_1} = \frac{p_2 V_2}{T_2}$                                                                                                                                            |
@@ -146,7 +156,11 @@ four boards.
 | Electrochemistry | $E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}$$\Delta G^\circ = -nFE^\circ$$Q = It$$n = \frac{Q}{F}$$E = E^\circ - \frac{RT}{nF}\ln Q$                                                                |
 | Born-Haber       | $\Delta H_f = \Delta H_\mathrm{at} + \sum \mathrm{IE} + \Delta H_\mathrm{at}(\text{anion}) + \sum \mathrm{EA} + \Delta H_\mathrm{lat}$                                                                                             |
 
+</div>
+
 ### Organic Chemistry
+
+<div class="table-wrap">
 
 | Topic            | Key Reactions                                                                                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -159,7 +173,11 @@ four boards.
 | Amines           | Diazotisation: $\mathrm{ArNH}_2 \to \mathrm{ArN}_2^+$; Coupling reactions; Reduction of nitriles                                                                   |
 | Arenes           | Electrophilic substitution: nitration, halogenation, Friedel-Crafts alkylation/acylation                                                                           |
 
+</div>
+
 ### Inorganic Chemistry
+
+<div class="table-wrap">
 
 | Topic             | Key Concepts                                                                       |
 | ----------------- | ---------------------------------------------------------------------------------- |
@@ -167,6 +185,8 @@ four boards.
 | Periodicity       | Trends in atomic radius, IE, melting point across periods and down groups          |
 | Group 2           | Reactivity with water, solubility trends (sulphates decrease, hydroxides increase) |
 | Group 7           | Displacement reactions, oxidising power trend, halide tests with $\mathrm{AgNO}_3$ |
+
+</div>
 
 ## Examination Strategy
 

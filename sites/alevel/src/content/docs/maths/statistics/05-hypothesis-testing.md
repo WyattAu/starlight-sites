@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper      | Notes                                    |
 | ---------- | ---------- | ---------------------------------------- |
 | AQA        | Paper 1, 2 | Binomial tests in P1; normal tests in P2 |
 | Edexcel    | P1, P2     | Similar                                  |
 | OCR (A)    | Paper 1, 2 | Includes critical regions                |
 | CIE (9709) | P1, P6     | Basic hypothesis testing in P6           |
+
+</div>
 
 :::note
 Statistic, critical value/region, comparison, and conclusion in context.
@@ -395,6 +399,8 @@ Direction, so the $p$-value is doubled.
 
 The smaller the $p$-value, the stronger the evidence against $H_0$:
 
+<div class="table-wrap">
+
 | $p$-value range         | Strength of evidence against $H_0$ |
 | ----------------------- | ---------------------------------- |
 | $p \geq 0.10$           | Little to no evidence              |
@@ -402,6 +408,8 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 | $0.01 \leq p \lt 0.05$  | Moderate evidence                  |
 | $0.001 \leq p \lt 0.01$ | Strong evidence                    |
 | $p \lt 0.001$           | Very strong evidence               |
+
+</div>
 
 ### 11.4 Common misinterpretations
 

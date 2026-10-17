@@ -29,9 +29,13 @@ tableOfContents: false
 
 A filament lamp is connected to a variable power supply. The following I-V data are recorded:
 
+<div class="table-wrap">
+
 | $V\,/\,\text{V}$  | 0   | 1.0 | 2.0 | 4.0 | 6.0 | 8.0 | 10.0 | 12.0 |
 | ----------------- | --- | --- | --- | --- | --- | --- | ---- | ---- |
 | $I\,/\,\text{mA}$ | 0   | 80  | 120 | 180 | 230 | 270 | 300  | 330  |
+
+</div>
 
 (a) Sketch the I-V characteristic and explain why the lamp is non-ohmic.
 

@@ -49,12 +49,16 @@ The system of Unequal Treaties imposed on China from 1842 to 1901 represented a 
 
 The major provisions of the Unequal Treaties included:
 
+<div class="table-wrap">
+
 | Treaty | Year | Key Provisions |
 | -------- | ------ | ---------------- |
 | Treaty of Nanking | 1842 | Cession of Hong Kong Island; opening of five treaty ports; indemnity of $21 million |
 | Treaty of Tientsin | 1858 | Opening of eleven additional ports; foreign diplomats in Beijing; right of Christian missionaries to proselytise |
 | Convention of Peking | 1860 | Cession of Kowloon Peninsula; indemnity increased; additional ports opened |
 | Boxer Protocol | 1901 | Indemnity of 450 million taels of silver; foreign military presence in Beijing; destruction of fortifications |
+
+</div>
 
 ## Colonisation of Hong Kong
 

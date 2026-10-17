@@ -89,11 +89,15 @@ Alternatively, check whether $P(B | A) = P(B)$.
 
 ## Disjoint vs Independent
 
+<div class="table-wrap">
+
 | Property      | Disjoint (Mutually Exclusive) | Independent                                 |
 | ------------- | ----------------------------- | ------------------------------------------- |
 | Definition    | Cannot occur together         | Occurrence of one does not affect the other |
 | $P(A \cap B)$ | $0$                           | $P(A) \cdot P(B)$                           |
 | $P(A \cup B)$ | $P(A) + P(B)$                 | $P(A) + P(B) - P(A)P(B)$                    |
+
+</div>
 
 ## Bayes" Theorem
 

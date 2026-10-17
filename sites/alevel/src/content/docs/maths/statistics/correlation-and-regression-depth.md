@@ -43,6 +43,8 @@ grid. Visual inspection reveals:
 
 ### 1.2 Types of correlation
 
+<div class="table-wrap">
+
 | Pattern        | Description                                 |
 | -------------- | ------------------------------------------- |
 | Strong +       | Points lie close to an upward-sloping line  |
@@ -51,6 +53,8 @@ grid. Visual inspection reveals:
 | No correlation | No discernible pattern                      |
 | Strong -       | Points lie close to a downward-sloping line |
 | Non-linear     | Clear pattern but not a straight line       |
+
+</div>
 
 ### 1.3 Outliers
 
@@ -123,9 +127,13 @@ $$
 
 **Problem.** Find the PMCC for the following data:
 
+<div class="table-wrap">
+
 | $x$ | 2   | 4   | 6   | 8   | 10  |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 5   | 4   | 7   | 9   |
+
+</div>
 
 $n = 5$$\bar{x} = 6$$\bar{y} = 5.6$.
 
@@ -190,13 +198,21 @@ Applied to the rank data.
 
 **Problem.** Two judges rank 6 competitors:
 
+<div class="table-wrap">
+
 | Competitor | A   | B   | C   | D   | E   | F   |
 | ---------- | --- | --- | --- | --- | --- | --- |
 | Judge 1    | 1   | 3   | 2   | 5   | 4   | 6   |
 | Judge 2    | 2   | 1   | 3   | 6   | 5   | 4   |
 
+</div>
+
+<div class="table-wrap">
+
 | $d_i$ | -1  | 2   | -1  | -1  | -1  | 2   |
 | ----- | --- | --- | --- | --- | --- | --- |
+
+</div>
 
 $\sum d_i^2 = 1 + 4 + 1 + 1 + 1 + 4 = 12$
 
@@ -210,9 +226,13 @@ This indicates moderate positive agreement between the judges.
 
 **Problem.** Find $r_s$ for the following data:
 
+<div class="table-wrap">
+
 | $x$ | 10  | 20  | 20  | 30  | 40  |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 5   | 8   | 12  | 15  | 20  |
+
+</div>
 
 Ranks of $x$: 1, 2.5, 2.5, 4, 5 (tied at 20).
 
@@ -336,6 +356,8 @@ Plotting residuals against $x$ (or against $\hat{y}$) reveals:
 
 Using the data and regression line $y = 1.4 + 0.7x$ from Section 4.3:
 
+<div class="table-wrap">
+
 | $x$ | $y$ | $\hat{y}$ | Residual $e$ |
 | --- | --- | --------- | ------------ |
 | 2   | 3   | 2.8       | 0.2          |
@@ -343,6 +365,8 @@ Using the data and regression line $y = 1.4 + 0.7x$ from Section 4.3:
 | 6   | 4   | 5.6       | -1.6         |
 | 8   | 7   | 7.0       | 0.0          |
 | 10  | 9   | 8.4       | 0.6          |
+
+</div>
 
 Check: $\sum e = 0.2 + 0.8 - 1.6 + 0 + 0.6 = 0$.
 
@@ -394,10 +418,14 @@ When $x = 7$: $y = 0.734 + 8.200 = 8.934 \approx 8.9$.
 
 Two teachers rank 8 students by exam performance. Calculate Spearman's rank correlation coefficient.
 
+<div class="table-wrap">
+
 | Student   | A   | B   | C   | D   | E   | F   | G   | H   |
 | --------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Teacher 1 | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
 | Teacher 2 | 3   | 1   | 4   | 2   | 6   | 5   | 8   | 7   |
+
+</div>
 
 <details>
 <summary>Solution</summary>
@@ -430,9 +458,13 @@ $r_s = 1 - \dfrac{6 \times 14}{8 \times 63} = 1 - \dfrac{84}{504} = 1 - 0.1667 =
 
 **Problem.** Given the data:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 5   | 6   | 8   | 11  |
+
+</div>
 
 Calculate the PMCC and the equation of the regression line of $y$ on $x$.
 
@@ -460,10 +492,14 @@ $\blacksquare$
 
 **Problem.** Two judges score 5 contestants:
 
+<div class="table-wrap">
+
 | Contestant | A   | B   | C   | D   | E   |
 | ---------- | --- | --- | --- | --- | --- |
 | Judge 1    | 7   | 9   | 5   | 9   | 3   |
 | Judge 2    | 6   | 8   | 7   | 10  | 4   |
+
+</div>
 
 Calculate Spearman's rank correlation coefficient.
 
@@ -474,9 +510,13 @@ Ranks: E=1, C=2, A=3, B=4.5, D=4.5.
 
 Judge 2 ranks: E=1, A=2, C=3, B=4, D=5.
 
+<div class="table-wrap">
+
 | $d_i$ | A   | B   | C   | D    | E   |
 | ----- | --- | --- | --- | ---- | --- |
 |       | 1   | 0.5 | -1  | -0.5 | 0   |
+
+</div>
 
 $\sum d_i^2 = 1 + 0.25 + 1 + 0.25 + 0 = 2.5$.
 

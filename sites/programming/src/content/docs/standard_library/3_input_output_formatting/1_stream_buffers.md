@@ -66,12 +66,16 @@ Delegate the actual I/O to their associated stream buffer.
 
 The standard stream buffer operations [N4950 §30.4.4] are:
 
+<div class="table-wrap">
+
 | Virtual Function            | Direction | Purpose                                                                                |
 | :-------------------------- | :-------- | :------------------------------------------------------------------------------------- |
 | `overflow(int_type c)`      | Output    | Called when the put area is full; writes buffered characters and optionally stores `c` |
 | `underflow()`               | Input     | Called when the get area is empty; fills the get area from the source                  |
 | `sync()`                    | Both      | Synchronizes the buffer with the external device (e.g., flushes to disk)               |
 | `setbuf(char*, streamsize)` | Both      | Sets the internal buffer (called by `std::streambuf::pubsetbuf`)                       |
+
+</div>
 
 ### Standard Stream Buffer Specializations
 
@@ -136,6 +140,8 @@ Locale is cheap (shared ownership) [N4950 §30.3.1].
 
 The standard facets [N4950 §30.3.1.1.2]:
 
+<div class="table-wrap">
+
 | Facet                      | Header     | Purpose                                                  |
 | :------------------------- | :--------- | :------------------------------------------------------- |
 | `std::ctype&lt;CharT>`     | `<locale>` | Character classification and case conversion             |
@@ -146,6 +152,8 @@ The standard facets [N4950 §30.3.1.1.2]:
 | `std::money_get&lt;CharT>` | `<locale>` | Parsing monetary values                                  |
 | `std::money_put&lt;CharT>` | `<locale>` | Formatting monetary values                               |
 | `std::messages&lt;CharT>`  | `<locale>` | Message catalog lookup (gettext-like)                    |
+
+</div>
 
 ```cpp
 #include <iostream>
@@ -341,11 +349,15 @@ Empty), the stream calls `underflow()`.
 
 The stream buffer provides three input-related virtual functions [N4950 §30.4.4.4]:
 
+<div class="table-wrap">
+
 | Function       | Purpose                                                  | Modifies `gptr`? |
 | :------------- | :------------------------------------------------------- | :--------------- |
 | `underflow()`  | Fill the get area from the source; return the first char | No (peek)        |
 | `uflow()`      | Call `underflow()`Then advance `gptr`                    | Yes (consume)    |
 | `pbackfail(c)` | Put a character back into the get area (unget)           | Yes (retreat)    |
+
+</div>
 
 `underflow()` is a "peek" operation, it fills the buffer but does not advance the read position.
 `uflow()` calls `underflow()` and then increments `gptr`Consuming the character. Most custom Stream
@@ -556,12 +568,16 @@ Before seeking after a failed read, and avoid mixing reads and writes without an
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:
 
+<div class="table-wrap">
+
 | Flag      | Meaning                                            | Test Method |
 | :-------- | :------------------------------------------------- | :---------- |
 | `goodbit` | No errors                                          | `good()`    |
 | `eofbit`  | End of file reached                                | `eof()`     |
 | `failbit` | Format error (e.g., `cin &gt;&gt;` on non-numeric) | `fail()`    |
 | `badbit`  | I/O error (stream corrupted, device failure)       | `bad()`     |
+
+</div>
 
 ```cpp
 #include <iostream>

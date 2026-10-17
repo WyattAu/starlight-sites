@@ -4,7 +4,7 @@
  * local content tree.
  *
  * lint-link-graph.js checks internal `/path/` links against the current
- * site's collections. It cannot check `https://other-site.wyattau.com/x`:
+ * site's collections. It cannot check an absolute URL on another zone:
  * there is nothing local to resolve them against, so those links were simply
  * never validated. Three dead ones shipped on a single physics page before
  * this existed.

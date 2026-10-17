@@ -47,6 +47,8 @@ significance in genetic engineering.
 
 (a) Five structural comparisons:
 
+<div class="table-wrap">
+
 | Feature                   | Cell A (Prokaryotic)                                      | Cell B (Eukaryotic)                                                       |
 | ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Nucleus                   | No true nucleus; DNA free in cytoplasm (nucleoid)         | True nucleus bounded by a nuclear envelope with nuclear pores             |
@@ -54,6 +56,8 @@ significance in genetic engineering.
 | Ribosomes                 | 70S (smaller: 50S + 30S subunits)                         | 80S (larger: 60S + 40S subunits)                                          |
 | Membrane-bound organelles | None (no mitochondria, ER, Golgi)                         | Present (mitochondria, ER, Golgi, lysosomes, etc.)                        |
 | Cell wall                 | Present (made of peptidoglycan, not cellulose or chitin)  | Absent (animal cell) or present (plant cell, cellulose, fungal, chitin) |
+
+</div>
 
 (b) Many antibiotics (e.g., tetracycline, chloramphenicol) target bacterial 70S ribosomes, binding
 to them and inhibiting protein synthesis. Because eukaryotic cells have 80S ribosomes with a

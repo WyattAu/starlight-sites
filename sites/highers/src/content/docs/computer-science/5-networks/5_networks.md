@@ -96,6 +96,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 
 **Common HTML elements:**
 
+<div class="table-wrap">
+
 | Element                        | Purpose                    |
 | ------------------------------ | -------------------------- |
 | `h1` - `h6`                    | Headings                   |
@@ -108,6 +110,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 | `div`                          | Generic container (block)  |
 | `span`                         | Generic container (inline) |
 | `section``article``aside``nav` | Semantic elements          |
+
+</div>
 
 **HTML table example:**
 
@@ -154,6 +158,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 
 **HTML5 input types:**
 
+<div class="table-wrap">
+
 | Type       | Purpose                     | Validation               |
 | ---------- | --------------------------- | ------------------------ |
 | `text`     | Plain text                  | None                     |
@@ -165,6 +171,8 @@ HTML defines the structure and content of web pages using **elements** (tags).
 | `range`    | Slider                      | Min/max values           |
 | `checkbox` | Multiple selections         | Boolean                  |
 | `radio`    | Single selection from group | Requires name attribute  |
+
+</div>
 
 ### CSS (Cascading Style Sheets)
 
@@ -261,6 +269,8 @@ a:hover {
 
 **Flexbox properties reference:**
 
+<div class="table-wrap">
+
 | Property          | Values                                                    | Effect               |
 | ----------------- | --------------------------------------------------------- | -------------------- |
 | `justify-content` | flex-start, center, flex-end, space-between, space-around | Main axis alignment  |
@@ -268,6 +278,8 @@ a:hover {
 | `flex-direction`  | row, column, row-reverse, column-reverse                  | Direction of items   |
 | `flex-wrap`       | nowrap, wrap                                              | Whether items wrap   |
 | `gap`             | length                                                    | Space between items  |
+
+</div>
 
 **Layout with CSS Grid:**
 
@@ -448,6 +460,8 @@ Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'
 
 ### Grid Properties Reference
 
+<div class="table-wrap">
+
 | Property                | Values                             | Effect                   |
 | ----------------------- | ---------------------------------- | ------------------------ |
 | `display`               | `grid`                             | Creates a grid container |
@@ -457,6 +471,8 @@ Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'
 | `grid-row`              | `2 / 4`                            | Spans rows 2-3           |
 | `gap`                   | `16px`                             | Space between items      |
 | `grid-area`             | `header` / `auto`                  | Named grid area          |
+
+</div>
 
 ### Responsive Design Techniques
 
@@ -497,12 +513,16 @@ img {
 
 **Viewport units:**
 
+<div class="table-wrap">
+
 | Unit   | Description                      |
 | ------ | -------------------------------- |
 | `vw`   | 1% of viewport width             |
 | `vh`   | 1% of viewport height            |
 | `vmin` | 1% of smaller viewport dimension |
 | `vmax` | 1% of larger viewport dimension  |
+
+</div>
 
 ## JavaScript in Detail
 
@@ -554,11 +574,15 @@ localStorage.clear();
 
 **localStorage vs sessionStorage:**
 
+<div class="table-wrap">
+
 | Feature       | localStorage             | sessionStorage        |
 | ------------- | ------------------------ | --------------------- |
 | Persistence   | Survives browser restart | Lost when tab closes  |
 | Scope         | Same origin, all tabs    | Same origin, same tab |
 | Storage limit | ~5-10 MB                 | ~5-10 MB              |
+
+</div>
 
 ## Web Security in Detail
 

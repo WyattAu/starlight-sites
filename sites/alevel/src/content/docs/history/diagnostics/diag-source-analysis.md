@@ -87,6 +87,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | OPVL stands for Origin, Purpose, Value, and Limitation; "P" is Purpose, asking why the source was created. |
@@ -99,6 +101,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Effective comparison evaluates the evidential basis and analytical reasoning of each interpretation. |
 | 9 | (B) | Corroboration involves checking a source's claims against other independent sources to test reliability. |
 | 10 | (B) | Historians contest interpretations due to differing evidence, methodology, and analytical frameworks, not merely bias. |
+
+</div>
 
 ## Common Mistakes
 

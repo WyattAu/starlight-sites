@@ -136,11 +136,15 @@ eliminate the target value.
 
 (c) Searching for 18 in $[2, 5, 7, 11, 15, 18, 22, 25, 30, 34]$:
 
+<div class="table-wrap">
+
 | Step | Low | High | Mid | Mid Value | Comparison | Action            |
 | ---- | --- | ---- | --- | --------- | ---------- | ----------------- |
 | 1    | 0   | 9    | 4   | 15        | $18 > 15$  | Search upper half |
 | 2    | 5   | 9    | 7   | 25        | $18 < 25$  | Search lower half |
 | 3    | 5   | 6    | 5   | 18        | $18 = 18$  | Found at index 5  |
+
+</div>
 
 Mid is calculated as $\lfloor(\text{low} + \text{high}) / 2\rfloor$.
 

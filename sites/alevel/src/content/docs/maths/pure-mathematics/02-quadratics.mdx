@@ -26,12 +26,16 @@ import DesmosGraph from "@components/DesmosGraph";
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                             |
 | ---------- | ------- | ------------------------------------------------- |
 | AQA        | Paper 1 | Completing the square, discriminant, inequalities |
 | Edexcel    | P1      | Same core content                                 |
 | OCR (A)    | Paper 1 | Includes set notation for solution sets           |
 | CIE (9709) | P1      | Quadratic equations, discriminant, inequalities   |
+
+</div>
 
 <hr />
 
@@ -172,11 +176,15 @@ $$
 
 **Theorem.** The nature of the roots of $ax^2 + bx + c = 0$ is determined by the discriminant:
 
+<div class="table-wrap">
+
 | Condition    | Number of Roots | Nature of Roots                             |
 | ------------ | --------------- | ------------------------------------------- |
 | $\Delta > 0$ | 2               | Two distinct real roots                     |
 | $\Delta = 0$ | 1               | One repeated real root                      |
 | $\Delta < 0$ | 0               | No real roots (two complex conjugate roots) |
+
+</div>
 
 _Proof._ From the quadratic formula, the roots are
 $x = \frac{-b \pm \sqrt{\Delta}}{2a}$.
@@ -223,10 +231,14 @@ $x$-axis.
 
 Furthermore, when $\Delta < 0$:
 
+<div class="table-wrap">
+
 | Condition                | Conclusion                                                      |
 | ------------------------ | --------------------------------------------------------------- |
 | $a > 0$ and $\Delta < 0$ | $f(x) > 0$ for all $x \in \mathbb{R}$ (parabola entirely above) |
 | $a < 0$ and $\Delta < 0$ | $f(x) < 0$ for all $x \in \mathbb{R}$ (parabola entirely below) |
+
+</div>
 
 _Proof._ From the completed-square form
 $f(x) = a\left(x + \frac{b}{2a}\right)^2 - \frac{\Delta}{4a}$ The minimum value (when
@@ -355,11 +367,15 @@ Critical values: $x = \frac{7}{2}$ (numerator zero) and $x = 2$ (denominator zer
 
 Sign analysis:
 
+<div class="table-wrap">
+
 | Interval      | $2x - 7$ | $x - 2$ | Quotient |
 | ------------- | -------- | ------- | -------- |
 | $x < 2$       | $-$      | $-$     | $+$      |
 | $2 < x < 7/2$ | $-$      | $+$     | $-$      |
 | $x > 7/2$     | $+$      | $+$     | $+$      |
+
+</div>
 
 The quotient is $\geq 0$ when $x \leq \frac{7}{2}$ (including equality) but $x \neq 2$.
 
@@ -373,11 +389,15 @@ $x \in (-\infty, 2) \cup \left[\frac{7}{2}, \infty\right)$.
 **Theorem (Sign of a Factored Quadratic).** Let $f(x) = a(x - \alpha)(x - \beta)$ with real roots
 $\alpha < \beta$ and $a \neq 0$. Then the sign of $f$ on each interval is determined by:
 
+<div class="table-wrap">
+
 | Interval             | Sign of $f$ when $a > 0$ | Sign of $f$ when $a < 0$ |
 | -------------------- | ------------------------ | ------------------------ |
 | $x < \alpha$         | $+$                      | $-$                      |
 | $\alpha < x < \beta$ | $-$                      | $+$                      |
 | $x > \beta$          | $+$                      | $-$                      |
+
+</div>
 
 _Proof._ Consider $a > 0$. For $x > \beta$: both $(x - \alpha) > 0$ and $(x - \beta) > 0$ So
 $f(x) > 0$. For $\alpha < x < \beta$: we have $(x - \alpha) > 0$ but $(x - \beta) < 0$ So their
@@ -408,11 +428,15 @@ Critical values: $x = \frac{5}{2}$ and $x = -1$.
 
 Sign chart for $g(x) = (2x - 5)(x + 1)$ (then apply the leading minus sign):
 
+<div class="table-wrap">
+
 | Interval       | $2x - 5$ | $x + 1$ | $g(x)$ | $-g(x)$ |
 | -------------- | -------- | ------- | ------ | ------- |
 | $x < -1$       | $-$      | $-$     | $+$    | $-$     |
 | $-1 < x < 5/2$ | $-$      | $+$     | $-$    | $+$     |
 | $x > 5/2$      | $+$      | $+$     | $+$    | $-$     |
+
+</div>
 
 We need $-g(x) \geq 0$ Which occurs for $-1 \leq x \leq \frac{5}{2}$.
 
@@ -473,6 +497,8 @@ to the quadratic $az^2 + bz + c = 0$.
 
 **Common Patterns.**
 
+<div class="table-wrap">
+
 | Original Form                                                             | Substitution          | Reduced Equation    |
 | ------------------------------------------------------------------------- | --------------------- | ------------------- |
 | $ax^4 + bx^2 + c = 0$                                                     | $z = x^2$             | $az^2 + bz + c = 0$ |
@@ -480,6 +506,8 @@ to the quadratic $az^2 + bz + c = 0$.
 | $a\cos^2\theta + b\cos\theta + c = 0$                                     | $z = \cos\theta$      | $az^2 + bz + c = 0$ |
 | $a\sin^2\theta + b\sin\theta + c = 0$                                     | $z = \sin\theta$      | $az^2 + bz + c = 0$ |
 | $a\left(x + \frac{1}{x}\right)^2 + b\left(x + \frac{1}{x}\right) + c = 0$ | $z = x + \frac{1}{x}$ | $az^2 + bz + c = 0$ |
+
+</div>
 
 <Aside type="caution">
 After solving the reduced quadratic for $z$ You must substitute back to find $x$. Discard
@@ -581,12 +609,16 @@ Solving the equation.
 **Theorem (Sign of Roots).** Let $\alpha$ and $\beta$ be real roots of $ax^2 + bx + c = 0$ with
 $a > 0$ and $\Delta \geq 0$. Then:
 
+<div class="table-wrap">
+
 | Condition on Roots     | Condition on Coefficients | Via Vieta                                  |
 | ---------------------- | ------------------------- | ------------------------------------------ |
 | Both roots positive    | $b < 0$ and $c > 0$       | $\alpha + \beta > 0$ and $\alpha\beta > 0$ |
 | Both roots negative    | $b > 0$ and $c > 0$       | $\alpha + \beta < 0$ and $\alpha\beta > 0$ |
 | Roots of opposite sign | $c < 0$                   | $\alpha\beta < 0$                          |
 | One root is zero       | $c = 0$                   | $\alpha\beta = 0$                          |
+
+</div>
 
 _Proof._ We prove the first case; the others follow similarly.
 
@@ -1141,11 +1173,15 @@ Critical values: $x = -4$ and $x = 2$.
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval     | $x + 4$ | $x - 2$ | Product |
 | ------------ | ------- | ------- | ------- |
 | $x < -4$     | $-$     | $-$     | $+$     |
 | $-4 < x < 2$ | $+$     | $-$     | $-$     |
 | $x > 2$      | $+$     | $+$     | $+$     |
+
+</div>
 
 The product is $\leq 0$ for $-4 \leq x \leq 2$.
 

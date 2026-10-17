@@ -101,12 +101,16 @@ can be polarised, longitudinal waves (sound) cannot.
 
 ### Stationary vs. Progressive Waves
 
+<div class="table-wrap">
+
 | Property        | Progressive Wave                              | Stationary Wave                             |
 | --------------- | --------------------------------------------- | ------------------------------------------- |
 | Energy transfer | Yes                                           | No (energy stored)                          |
 | Amplitude       | Constant for all points                       | Varies: zero at nodes, maximum at antinodes |
 | Phase           | Changes along the wave                        | All points between nodes are in phase       |
 | Wavelength      | Distance between consecutive identical points | Twice the distance between adjacent nodes   |
+
+</div>
 
 ## Study Tips
 

@@ -351,12 +351,16 @@ Clebsch-Gordan coefficients are the transformation matrix between these two base
 
 **Clebsch-Gordan table for $j_1 = j_2 = 1/2$:**
 
+<div class="table-wrap">
+
 | $m_1$  | $m_2$  | $j=1,\,m$    | $j=0,\,m$     |
 | ------ | ------ | ------------ | ------------- |
 | $+1/2$ | $+1/2$ | $1$          | $0$           |
 | $+1/2$ | $-1/2$ | $1/\sqrt{2}$ | $1/\sqrt{2}$  |
 | $-1/2$ | $+1/2$ | $1/\sqrt{2}$ | $-1/\sqrt{2}$ |
 | $-1/2$ | $-1/2$ | $1$          | $0$           |
+
+</div>
 
 **Example 7.3.** Two electrons are in the singlet state. If electron 1 is measured to have
 $S_z = +\hbar/2$ What is the state of electron 2 immediately after? What is the probability of
@@ -398,6 +402,8 @@ A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\r
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | Spin is the electron rotating about its axis | no | a classical sphere of the electron's mass and charge spinning fast enough to give the observed moment has a surface speed far beyond $c$, and the electron is a point particle anyway |
@@ -408,6 +414,8 @@ A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\r
 | $\sigma_x\sigma_y$ is Hermitian | no | the product of two Hermitian matrices is Hermitian only if they commute, and $\sigma_x$ and $\sigma_y$ do not |
 | Spin adds to orbital angular momentum by simple addition | no | total angular momentum is built from Clebsch-Gordan coefficients, and $l = 1$ with $s = 1/2$ gives $j = 3/2$ *or* $j = 1/2$, not $3/2$ alone |
 | Spin-half particles are fermions because they are spin-half | that is the theorem | the spin-statistics connection is not derivable from non-relativistic QM and requires relativity |
+
+</div>
 
 The second row is the one to internalise, because it is the difference between
 spin-1/2 and everything classical. The $720^\circ$ requirement is not a
@@ -476,6 +484,6 @@ Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/).
 - **[Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)**: Spin statistics connect spin to particle exchange symmetry and quantum statistics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

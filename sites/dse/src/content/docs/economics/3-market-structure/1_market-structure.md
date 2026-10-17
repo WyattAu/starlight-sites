@@ -28,6 +28,8 @@ Welfare outcomes for consumers and producers.
 The continuum of market structures runs from perfect competition (maximum competition) to monopoly
 (no competition). Between these poles lie monopolistic competition and oligopoly.
 
+<div class="table-wrap">
+
 | Characteristic    | Perfect Competition      | Monopolistic Competition | Oligopoly                       | Monopoly                      |
 | ----------------- | ------------------------ | ------------------------ | ------------------------------- | ----------------------------- |
 | Number of firms   | Very many                | Many                     | Few ( 3 to 12)                  | One                           |
@@ -36,6 +38,8 @@ The continuum of market structures runs from perfect competition (maximum compet
 | Market power      | None (price taker)       | Low (some price setting) | Significant (mutual dependence) | Substantial (price maker)     |
 | Information       | Perfect                  | Good                     | Imperfect                       | Imperfect                     |
 | Examples          | Agricultural commodities | Restaurants, hair salons | Automobiles, smartphones        | CLP Power (HK electricity)    |
+
+</div>
 
 This file assumes familiarity with cost curves (`TC`, `ATC`, `AVC`, `MC`) and revenue curves (`TR`
 `AR`, `MR`) from
@@ -70,10 +74,14 @@ Interactions are:
 
 ### Revenue Under Different Market Structures
 
+<div class="table-wrap">
+
 | Structure             | `AR` (Demand Curve)            | `MR` vs `AR`               |
 | --------------------- | ------------------------------ | -------------------------- |
 | Perfect competition   | Horizontal (perfectly elastic) | `MR = AR = P` (constant)   |
 | Imperfect competition | Downward-sloping               | `MR \lt AR` (falls faster) |
+
+</div>
 
 For any firm facing a downward-sloping demand curve, `MR` lies below `AR`. This is the fundamental
 Reason why imperfectly competitive firms restrict output relative to the perfectly competitive
@@ -135,10 +143,14 @@ In the short run, the number of firms is fixed. Each firm maximises profit by pr
 
 **Case 1: Supernormal (economic) profit** (`P \gt ATC` at the profit-maximising output)
 
+<div class="table-wrap">
+
 | Condition   | Result                                  |
 | ----------- | --------------------------------------- |
 | `P \gt ATC` | Supernormal profit per unit = `P - ATC` |
 | `P \gt AVC` | Firm continues producing                |
+
+</div>
 
 Diagram description: The `MC` curve intersects the horizontal `P = MR = AR` line at output `Q*`. At
 `Q*`. The `ATC` curve lies below the price line. The rectangular area between the `ATC` curve and The
@@ -173,10 +185,14 @@ Total supernormal profit = `15 \times 16.67 = 250`.
 
 **Case 2: Normal profit** (`P = ATC` at the profit-maximising output)
 
+<div class="table-wrap">
+
 | Condition | Result                         |
 | --------- | ------------------------------ |
 | `P = ATC` | Zero economic profit           |
 | `P = MC`  | Allocative efficiency achieved |
+
+</div>
 
 Normal profit is the minimum profit necessary to keep the firm in the industry. It is the
 Opportunity cost of the entrepreneur"s time and capital. When `P = ATC`Total revenue equals total
@@ -184,10 +200,14 @@ Cost (including implicit costs), so economic profit is zero but accounting profi
 
 **Case 3: Subnormal profit (loss)** (`P \lt ATC` but `P \gt AVC`)
 
+<div class="table-wrap">
+
 | Condition           | Result                                                     |
 | ------------------- | ---------------------------------------------------------- |
 | `ATC \gt P \gt AVC` | Firm makes a loss but continues producing in the short run |
 | `P \lt AVC`         | Firm shuts down (shutdown point)                           |
+
+</div>
 
 The firm continues to produce at a loss in the short run as long as `P \gt AVC`. Because producing
 Covers all variable costs and contributes some revenue toward fixed costs. If the firm shut down, it
@@ -323,6 +343,8 @@ Substitutes.
 Barriers to entry are the defining feature that allows a monopoly to persist. Without barriers,
 Supernormal profit would attract entry, eroding the monopoly.
 
+<div class="table-wrap">
+
 | Source of Monopoly Power       | Description                                                                                                                                                                                          |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Natural monopoly               | A single firm can supply the entire market at a lower cost than two or more firms due to substantial economies of scale. Examples: electricity transmission, water supply, railways.                 |
@@ -331,6 +353,8 @@ Supernormal profit would attract entry, eroding the monopoly.
 | Control of essential resources | A firm owns or controls a key input (e.g., De Beers historically controlled most of the world's diamond supply). Without access to this resource, competitors cannot enter.                          |
 | Network effects                | The value of the good increases with the number of users (e.g., social media platforms, operating systems). A dominant firm benefits from a self-reinforcing advantage.                              |
 | Anti-competitive practices     | Predatory pricing (selling below cost to drive out competitors), exclusive contracts, tying and bundling. These are illegal under competition law in most jurisdictions.                             |
+
+</div>
 
 ### Natural Monopoly: Detailed Analysis
 
@@ -463,6 +487,8 @@ It is a pure loss to society.
 
 ### Comparison: Monopoly vs Perfect Competition
 
+<div class="table-wrap">
+
 | Feature               | Perfect Competition             | Monopoly                                          |
 | --------------------- | ------------------------------- | ------------------------------------------------- |
 | Price                 | `P = MC` (lower)                | `P \gt MC` (higher)                               |
@@ -474,6 +500,8 @@ It is a pure loss to society.
 | Allocative efficiency | Yes (`P = MC`)                  | No (`P \gt MC`)                                   |
 | Dynamic efficiency    | May lack incentive (low profit) | May have incentive (supernormal profit funds R&D) |
 | Long-run profit       | Normal profit only              | Supernormal profit persists                       |
+
+</div>
 
 ---
 
@@ -537,11 +565,15 @@ Function of elasticity).
 
 ### Examples of Price Discrimination
 
+<div class="table-wrap">
+
 | Type   | Example                                                                                                    |
 | ------ | ---------------------------------------------------------------------------------------------------------- |
 | First  | Not realistically achievable; closest example: personalised online pricing (controversial)                 |
 | Second | Quantity discounts (buy 2 get 1 free), block pricing for electricity, software tier pricing                |
 | Third  | Student discounts on public transport, senior citizen discounts, peak/off-peak pricing, geographic pricing |
+
+</div>
 
 ### Welfare Effects of Price Discrimination
 
@@ -653,12 +685,16 @@ to the right of `Q*`Showing excess capacity.
 
 ### Efficiency of Monopolistic Competition
 
+<div class="table-wrap">
+
 | Efficiency Type       | Result                                                                                          |
 | --------------------- | ----------------------------------------------------------------------------------------------- |
 | Productive efficiency | No: the firm does not produce at `ATC_min`. Excess capacity exists.                             |
 | Allocative efficiency | No: `P \gt MC`. The markup reflects market power from product differentiation.                  |
 | Dynamic efficiency    | Potentially yes: supernormal profit in the short run and competitive pressure drive innovation. |
 | Consumer welfare      | Ambiguous: consumers pay higher prices than under perfect competition but benefit from variety. |
+
+</div>
 
 <details>
 <summary>Worked Example: Excess Capacity in Monopolistic Competition</summary>
@@ -743,10 +779,14 @@ even when cooperation would benefit all parties.
 
 **Prisoners' dilemma applied to oligopoly:**
 
+<div class="table-wrap">
+
 |                    | Firm B: High Price | Firm B: Low Price |
 | ------------------ | ------------------ | ----------------- |
 | Firm A: High Price | A: 10, B: 10       | A: 2, B: 12       |
 | Firm A: Low Price  | A: 12, B: 2        | A: 5, B: 5        |
+
+</div>
 
 Both firms earn the highest combined profit if they both charge a high price (cooperate). However,
 Each firm has a dominant strategy to charge a low price: regardless of what the rival does, the firm
@@ -859,6 +899,8 @@ Changes price first, and other firms follow. The leading firm is not necessarily
 
 Productive efficiency requires production at the minimum point of `ATC`. Where `MC = ATC`.
 
+<div class="table-wrap">
+
 | Structure                | Productive Efficiency                        | Reason                                                     |
 | ------------------------ | -------------------------------------------- | ---------------------------------------------------------- |
 | Perfect competition (LR) | Yes                                          | `P = ATC_min`; free entry drives price to minimum `ATC`    |
@@ -866,10 +908,14 @@ Productive efficiency requires production at the minimum point of `ATC`. Where `
 | Oligopoly                | Generally no                                 | Firms restrict output; may or may not produce at `ATC_min` |
 | Monopoly                 | No `ATC` is declining at the output produced |                                                            |
 
+</div>
+
 ### Allocative Efficiency
 
 Allocative efficiency requires `P = MC`. Meaning the price consumers pay reflects the marginal cost Of
 production.
+
+<div class="table-wrap">
 
 | Structure                | Allocative Efficiency | Reason                                                  |
 | ------------------------ | --------------------- | ------------------------------------------------------- |
@@ -878,10 +924,14 @@ production.
 | Oligopoly                | No                    | `P \gt MC`; output is restricted                        |
 | Monopoly                 | No                    | `P \gt MC` significantly; output is most restricted     |
 
+</div>
+
 ### Dynamic Efficiency
 
 Dynamic efficiency refers to the rate of technological innovation and improvement over time. The
 Relationship between market structure and dynamic efficiency is complex and context-dependent:
+
+<div class="table-wrap">
 
 | Structure                | Dynamic Efficiency Argument                                                                                                                                                                     |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -890,7 +940,11 @@ Relationship between market structure and dynamic efficiency is complex and cont
 | Monopolistic competition | Competitive pressure and supernormal profit in the short run both incentivise innovation.                                                                                                       |
 | Oligopoly                | Large firms have resources for R&D; strategic rivalry drives innovation races. However, collusion may reduce the incentive.                                                                     |
 
+</div>
+
 ### Summary Table
+
+<div class="table-wrap">
 
 | Criterion                | Perfect Competition | Monopolistic Competition | Oligopoly        | Monopoly           |
 | ------------------------ | ------------------- | ------------------------ | ---------------- | ------------------ |
@@ -901,6 +955,8 @@ Relationship between market structure and dynamic efficiency is complex and cont
 | Price relative to MC     | `P = MC`            | `P \gt MC` (small)       | `P \gt MC`       | `P \gt MC` (large) |
 | Long-run economic profit | Zero                | Zero                     | May persist      | Positive           |
 | DWL                      | None                | Small                    | Moderate         | Large              |
+
+</div>
 
 ---
 
@@ -1033,6 +1089,8 @@ with one firm but perfectly contestable conditions.
 
 A perfectly competitive firm has the following cost data:
 
+<div class="table-wrap">
+
 | Output (Q) | TC (USD) |
 | ---------- | -------- |
 | 0          | 50       |
@@ -1043,6 +1101,8 @@ A perfectly competitive firm has the following cost data:
 | 5          | 210      |
 | 6          | 260      |
 | 7          | 320      |
+
+</div>
 
 The market price is USD 40 per unit.
 
@@ -1283,10 +1343,14 @@ from unregulated monopoly.
 Two airlines, `A` and `B`Are the only carriers on a route. Each can choose to set a high price
 (USD 500) or a low price (USD 300). The payoff matrix (profit in USD million per month) is:
 
+<div class="table-wrap">
+
 |                 | `B`: High Price  | `B`: Low Price  |
 | --------------- | ---------------- | --------------- |
 | `A`: High Price | `A`: 12, `B`: 12 | `A`: 3, `B`: 18 |
 | `A`: Low Price  | `A`: 18, `B`: 3  | `A`: 6, `B`: 6  |
+
+</div>
 
 (a) Does either firm have a dominant strategy? (b) What is the Nash equilibrium? (c) Is the Nash
 Equilibrium Pareto efficient? (d) If the game is repeated indefinitely (supergame), is collusion
@@ -1536,10 +1600,14 @@ If you get this wrong, revise: [Price Discrimination](#price-discrimination)
 Two firms, Alpha and Beta, compete on advertising spend. Each can choose High or Low advertising.
 The Payoff matrix (annual profit in USD million):
 
+<div class="table-wrap">
+
 |                | Beta: High Ad | Beta: Low Ad |
 | -------------- | ------------- | ------------ |
 | Alpha: High Ad | 5, 5          | 15, 2        |
 | Alpha: Low Ad  | 2, 15         | 10, 10       |
+
+</div>
 
 (a) Does either firm have a dominant strategy? (b) Find the Nash equilibrium. (c) Is there a
 Pareto-superior outcome? Explain.
@@ -1961,10 +2029,14 @@ MC.
 
 For the game theory payoff matrix, regardless of the specific numbers:
 
+<div class="table-wrap">
+
 |              | B, C Comply               | B, C Cheat                |
 | ------------ | ------------------------- | ------------------------- |
 | **A Comply** | A: 3000, others: 3000     | A: lower, others: lower   |
 | **A Cheat**  | A: varies, others: suffer | A: lowest, others: lowest |
+
+</div>
 
 (c) The dominant strategy is to Cheat (each firm gains by cheating regardless of what others do),
 leading to (Cheat, Cheat, Cheat) as the Nash equilibrium -- cartel collapse.

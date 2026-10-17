@@ -47,6 +47,8 @@ from a novel or play) or non-literary (an advertisement, an editorial, a speech,
 The guiding question directs attention to a specific feature of the text. Common guiding question
 Types include:
 
+<div class="table-wrap">
+
 | Guiding Question Type | Example Prompt                                                                                        |
 | --------------------- | ----------------------------------------------------------------------------------------------------- |
 | Authorial choices     | "How does the author use language to convey the speaker"s attitude?"                                  |
@@ -55,6 +57,8 @@ Types include:
 | Comparative (HL only) | "Compare and contrast how the two texts present the relationship between the individual and society." |
 | Stylistic effect      | "Discuss the stylistic features that contribute to the overall effect of this passage."               |
 
+</div>
+
 The essay must develop a coherent argument in response to the guiding question. It is not sufficient
 to identify features of the text; the student must explain _how_ those features produce meaning and
 _effect_. The distinction between identification and analysis is the single most important skill
@@ -62,10 +66,14 @@ Tested by Paper 1.
 
 ### 1.2 Time Management
 
+<div class="table-wrap">
+
 | Level | Time Allocation   | Recommended Approach                                                       |
 | ----- | ----------------- | -------------------------------------------------------------------------- |
 | SL    | 75 minutes total  | 10 min reading/annotation, 5 min planning, 55 min writing                  |
 | HL    | 135 minutes total | 15 min reading/annotation, 10 min planning, 105 min writing (two passages) |
+
+</div>
 
 At SL, students write on one passage. At HL, students write on two passages and must produce a
 Comparative analysis. The time differential reflects the additional complexity of the HL task, not a
@@ -201,10 +209,14 @@ the syllabus (Literature -- Texts and Contexts). The essay must respond to one o
 Provided, each of which asks students to explore a thematic or formal concern across the works
 Studied.
 
+<div class="table-wrap">
+
 | Level | Requirement                                                       |
 | ----- | ----------------------------------------------------------------- |
 | SL    | One work from Part 3, one work from Part 4                        |
 | HL    | Two works from Part 3, plus contextual discussion of a third work |
+
+</div>
 
 The distinction between SL and HL is significant. At SL, the essay is a straightforward comparison
 of two works. At HL, the essay must demonstrate a broader understanding of the Part 3 corpus by
@@ -221,11 +233,15 @@ of that difference are.
 
 **Thesis progression:**
 
+<div class="table-wrap">
+
 | Strength               | Example Thesis                                                                                                                                                                                                                          |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Weak (descriptive)     | Both _Chronicle of a Death Foretold_ and _A Streetcar Named Desire_ explore themes of honour and social expectation.                                                                                                                    |
 | Adequate (comparative) | While both texts examine honour, _Chronicle_ presents it as a public, communal code, whereas _Streetcar_ presents it as a private, individual assertion of dominance.                                                                   |
 | Strong (analytical)    | Both Marquez and Williams expose honour codes as instruments of collective violence, but Marquez locates the source of violence in communal complicity, while Williams locates it in the patriarchal structures of the domestic sphere. |
+
+</div>
 
 The strongest thesis does not merely compare but evaluates: it makes a claim about what the
 Comparison reveals that analysis of either text alone could not.
@@ -328,10 +344,14 @@ The choice of topic is the single most important decision in the HL Essay proces
 - **Original:** It offers a perspective that goes beyond classroom discussion, even if it builds on
   ideas introduced in class.
 
+<div class="table-wrap">
+
 | Weak Topic                                            | Strong Topic                                                                                                                                                                                                                                                                               |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | "The theme of illusion in _A Streetcar Named Desire_" | "Williams uses lighting and stage directions as parallel textual systems that undermine the reality/illusion binary, suggesting that Stanley's 'truth' is as constructed as Blanche's fantasies"                                                                                           |
 | "Gender roles in _Chronicle of a Death Foretold_"     | "Angela Vicario's letters to Bayardo San Roman constitute a form of written resistance to the oral, masculine culture of honour that governs the town, and the fact that Bayardo never reads them ironises the possibility of genuine communication across gendered discursive boundaries" |
+
+</div>
 
 ### 3.3 Research Process
 
@@ -486,6 +506,8 @@ is amplified by the reader's awareness of the specific cultural context.
 The following are the primary challenges of reading translated literature and strategies for
 Addressing them:
 
+<div class="table-wrap">
+
 | Challenge                | Description                                                                                                   | Strategy                                                                                                                         |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Semantic loss            | Words carry connotations in the source language that have no equivalent in the target language                | Research key terms in the source language; compare multiple translations where available                                         |
@@ -493,6 +515,8 @@ Addressing them:
 | Cultural opacity         | References, allusions, and cultural practices may be unfamiliar to the reader                                 | Research the cultural context; consult footnotes and introductions critically                                                    |
 | Translator's voice       | The translator's stylistic preferences may shape the reader's experience of the text                          | Compare passages across different translations; note where translators make different choices                                    |
 | Illusion of transparency | The translated text may appear "natural" or "transparent," concealing the interpretive work of the translator | Approach the translated text as one interpretation among many, not as the definitive version of the work                         |
+
+</div>
 
 ### 4.4 Common Pitfalls with Works in Translation
 
@@ -582,6 +606,8 @@ Pattern of emphasis, delay, repetition, and variation that shapes the reader's e
 
 **Key structural concepts:**
 
+<div class="table-wrap">
+
 | Concept               | Definition                                                                        | Analytical Question                                                                              |
 | --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Narrative arc         | The overall shape of the plot: exposition, complication, climax, resolution       | How does the text's narrative arc shape the reader's experience of its themes?                   |
@@ -590,6 +616,8 @@ Pattern of emphasis, delay, repetition, and variation that shapes the reader's e
 | Foreshadowing         | Early hints of later events                                                       | How does foreknowledge shape the reader's interpretation of the present moment?                  |
 | Temporal manipulation | Non-linear chronology, flashbacks, flash-forwards, time compression               | Why does the text arrange time in this way? What is gained or lost?                              |
 | Framing               | A narrative within a narrative, or an opening/closing that encloses the main text | How does the frame shape our interpretation of the enclosed narrative?                           |
+
+</div>
 
 **Worked example:** The circular structure of _Chronicle of a Death Foretold_ -- the narrative
 Returns to the narrator's investigation at both the beginning and the end -- produces several
@@ -831,6 +859,8 @@ Literary terminology exists to enable precise communication about how texts work
 Accurately and fluently is a marker of analytical sophistication. The following terms should be part
 of every IB English student's active vocabulary:
 
+<div class="table-wrap">
+
 | Category   | Terms                                                                                                             |
 | ---------- | ----------------------------------------------------------------------------------------------------------------- |
 | Narrative  | Narrator, focalisation, free indirect discourse, unreliable narrator, diegetic/non-diegetic, framing, metafiction |
@@ -839,6 +869,8 @@ of every IB English student's active vocabulary:
 | Dramatic   | Soliloquy, aside, dramatic irony, stage direction, fourth wall, tragic hero, hamartia, peripeteia, anagnorisis    |
 | Rhetorical | Anaphora, epistrophe, chiasmus, antithesis, zeugma, litotes, polysyndeton, asyndeton, rhetorical question         |
 | Critical   | Ideology, discourse, hegemony, intertextuality, focalisation, defamiliarisation, the uncanny, subtext             |
+
+</div>
 
 ### 7.5 The Argumentative Essay as Engineering
 
@@ -874,6 +906,8 @@ Before submitting any essay, perform a structural audit:
 
 ## 8. Quick Reference: Assessment Component Summary
 
+<div class="table-wrap">
+
 | Component      | Level   | Weighting | Duration                                           | Key Skill Tested                                      |
 | -------------- | ------- | --------- | -------------------------------------------------- | ----------------------------------------------------- |
 | Paper 1        | SL      | 25%       | 75 min                                             | Unseen textual analysis                               |
@@ -888,6 +922,8 @@ Before submitting any essay, perform a structural audit:
 | FOA            | SL      | 15%       | 10--15 min                                         | Oral presentation on Part 1 or Part 2                 |
 | FOA            | HL      | 15%       | 10--15 min                                         | Oral presentation on Part 1 or Part 2                 |
 | Extended Essay | Both    | N/A       | N/A                                                | 4,000-word independent research essay                 |
+
+</div>
 
 :::note
 [A Streetcar Named Desire](/english/a-street-car-named-desire/),

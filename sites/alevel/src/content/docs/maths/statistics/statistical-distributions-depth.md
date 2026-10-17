@@ -254,11 +254,15 @@ $$
 
 ### 4.1 Decision framework
 
+<div class="table-wrap">
+
 | Situation                             | Distribution                   |
 | ------------------------------------- | ------------------------------ |
 | Fixed trials, two outcomes, const $p$ | Binomial $B(n, p)$             |
 | Rare events, constant rate            | Poisson $\mathrm{Po}(\lambda)$ |
 | Continuous, symmetric, bell-shaped    | Normal $N(\mu, \sigma^2)$      |
+
+</div>
 
 ### 4.2 Sums of independent Poisson variables
 

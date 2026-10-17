@@ -251,6 +251,8 @@ end
 
 The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widely used include:
 
+<div class="table-wrap">
+
 | Gem             | Purpose                                    |
 | --------------- | ------------------------------------------ |
 | `rails`         | Full-stack web framework                   |
@@ -273,6 +275,8 @@ The Ruby ecosystem has over 200,000 gems on RubyGems.org. Some of the most widel
 | `oj`            | Fast JSON parser and serializer            |
 | `rubocop`       | Static code analyser and formatter         |
 | `sorbet`        | Static type checker by Stripe              |
+
+</div>
 
 ### Ruby Implementations
 
@@ -686,6 +690,8 @@ ruby -F, -ane 'puts "#{$F[0]}: #{$F[1]}"' data.csv
 
 Flag explanations:
 
+<div class="table-wrap">
+
 | Flag | Meaning                               |
 | ---- | ------------------------------------- |
 | `-e` | Execute one line of script            |
@@ -698,6 +704,8 @@ Flag explanations:
 | `-c` | Check syntax only                     |
 | `-w` | Enable warnings                       |
 | `-d` | Debug mode                            |
+
+</div>
 
 ## Ruby Version Compatibility
 

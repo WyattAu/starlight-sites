@@ -32,12 +32,16 @@ Interval.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                                |
 | ---------- | ------- | ---------------------------------------------------- |
 | AQA        | Paper 2 | Continuous RVs; limited exponential coverage         |
 | Edexcel    | S3, S4  | Exponential distribution in S4; continuous RVs in S3 |
 | OCR (A)    | Paper 2 | Continuous RVs and exponential                       |
 | CIE (9231) | S2      | Both continuous RVs and exponential covered          |
+
+</div>
 
 :::note
 Both are memoryless. The Poisson process links all three distributions: Poisson counts events,
@@ -999,12 +1003,16 @@ $E(X) = \int_0^1 x^2\,dx + \int_1^2 x(2-x)\,dx = \frac{1}{3}+\frac{2}{3} = 1$. â
 
 ## 9. Common Pitfalls
 
+<div class="table-wrap">
+
 | Pitfall                                                                                                   | Correct Approach                                                         |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Confusing the rate $\lambda$ with the mean $\dfrac{1}{\lambda}$ for exponential distributions | $E(X) = \dfrac{1}{\lambda}$; the rate parameter is $\lambda$ |
 | Forgetting that the total area under a PDF must equal 1                                                   | Always verify: $\displaystyle\int_{-\infty}^{\infty} f(x)\,dx = 1$       |
 | Applying the exponential memoryless property to other distributions                                       | Only the exponential distribution has this property                      |
 | Using $P(a < X < b) = f(b) - f(a)$                                                                        | This is for CDFs, not PDFs. Use $\displaystyle\int_a^b f(x)\,dx$         |
+
+</div>
 
 ---
 
@@ -1110,16 +1118,24 @@ Distribution. See
 
 ## 12. Key Results Summary
 
+<div class="table-wrap">
+
 | Distribution            | PDF                                  | $E(X)$                           | $\mathrm{Var}(X)$                  |
 | ----------------------- | ------------------------------------ | -------------------------------- | ---------------------------------- |
 | $\mathrm{Exp}(\lambda)$ | $\lambda e^{-\lambda x}$, $x \geq 0$ | $\dfrac{1}{\lambda}$ | $\dfrac{1}{\lambda^2}$ |
 | $\mathrm{U}(a,b)$       | $\dfrac{1}{b-a}$, $a \leq x \leq b$  | $\dfrac{a+b}{2}$                 | $\dfrac{(b-a)^2}{12}$              |
+
+</div>
+
+<div class="table-wrap">
 
 | Property   | Exponential                          | Uniform            |
 | ---------- | ------------------------------------ | ------------------ |
 | Memoryless | Yes                                  | No                 |
 | CDF        | $1 - e^{-\lambda x}$                 | $\dfrac{x-a}{b-a}$ |
 | Median     | $\dfrac{\ln 2}{\lambda}$ | $\dfrac{a+b}{2}$   |
+
+</div>
 
 ---
 

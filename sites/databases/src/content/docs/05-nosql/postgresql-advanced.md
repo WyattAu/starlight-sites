@@ -193,6 +193,8 @@ LIMIT 10;
 
 ### Physical vs Logical Replication
 
+<div class="table-wrap">
+
 | Aspect           | Physical Replication                   | Logical Replication                        |
 | ---------------- | -------------------------------------- | ------------------------------------------ |
 | What replicates  | Entire WAL (all databases, all tables) | Selected tables (per-publication)          |
@@ -200,6 +202,8 @@ LIMIT 10;
 | Cross-version    | Same major version only                | Can replicate between major versions       |
 | Write on replica | No (read-only)                         | Yes (subscription tables are writable)     |
 | Use case         | High availability, disaster recovery   | Data sharing, partial replication, CDC     |
+
+</div>
 
 ### Setting Up Logical Replication
 
@@ -640,6 +644,8 @@ SHOW maintenance_work_mem;  -- e.g., 1GB
 SHOW effective_cache_size;  -- e.g., 12GB
 ```
 
+<div class="table-wrap">
+
 | Parameter              | Recommended Setting                        | Notes                               |
 | ---------------------- | ------------------------------------------ | ----------------------------------- |
 | `shared_buffers`       | 25% of RAM                                 | Up to ~8GB on Linux with huge pages |
@@ -648,6 +654,8 @@ SHOW effective_cache_size;  -- e.g., 12GB
 | `maintenance_work_mem` | 1-4GB                                      | For VACUUM, index creation          |
 | `wal_buffers`          | 64MB (default -1 = 1/32 of shared_buffers) | WAL buffer size                     |
 | `huge_pages`           | `try`                                      | Reduces TLB misses                  |
+
+</div>
 
 ### WAL Configuration
 

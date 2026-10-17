@@ -57,12 +57,16 @@ not force you to declare or handle them. Everything else is **checked**.
 
 ### When to Use Checked vs Unchecked
 
+<div class="table-wrap">
+
 | Factor               | Checked                                      | Unchecked                                        |
 | -------------------- | -------------------------------------------- | ------------------------------------------------ |
 | Recovery expected?   | Yes, caller can meaningfully handle it      | No, a programming error                         |
 | Compiler enforcement | Required `throws` declaration                | No declaration needed                            |
 | API surface impact   | Propagates through every caller in the chain | Stops where it stops                             |
 | Example              | `IOException``SQLException`                  | `NullPointerException``IllegalArgumentException` |
+
+</div>
 
 The pragmatic rule: use checked exceptions for conditions where the caller **reasonably can and
 should** take corrective action. Use unchecked exceptions for programming errors and precondition
@@ -586,6 +590,8 @@ Path is the common case. If exceptions are your normal control flow, you are fig
 
 ### When Exceptions Are Appropriate vs Return Codes
 
+<div class="table-wrap">
+
 | Criterion                        | Exceptions         | Return Codes          |
 | -------------------------------- | ------------------ | --------------------- |
 | Frequency of failure             | Rare / exceptional | Common / expected     |
@@ -593,6 +599,8 @@ Path is the common case. If exceptions are your normal control flow, you are fig
 | Separation of happy/unhappy path | Clean separation   | Mixed in control flow |
 | Forced handling                  | Yes (checked)      | No, ignored          |
 | Composability                    | Breaks lambdas     | Composes cleanly      |
+
+</div>
 
 Rule of thumb: if it happens more than once per thousand calls on the hot path, consider a return
 Code or `Optional`.

@@ -475,6 +475,8 @@ int main() {
 
 ## 6.8 Comparison with `operator<<`
 
+<div class="table-wrap">
+
 | Aspect                | `operator<<`                    | `std::formatter`                                   |
 | :-------------------- | :------------------------------ | :------------------------------------------------- |
 | Defined in            | Global scope (free function)    | `namespace std` (specialization)                   |
@@ -487,6 +489,8 @@ int main() {
 | Output target         | `std::ostream` only             | Any output iterator (string, file, stdout, etc.)   |
 | Locale support        | Via `std::locale` imbued stream | Via `std::format` locale parameter                 |
 | Default formatting    | Required for many types         | Required only for `std::format` usage              |
+
+</div>
 
 ### When to Use Which
 

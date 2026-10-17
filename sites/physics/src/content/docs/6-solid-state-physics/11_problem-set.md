@@ -167,7 +167,7 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

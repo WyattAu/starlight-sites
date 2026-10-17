@@ -225,23 +225,14 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://mathematics.wyattau.com/about/)
-- [Abstract Algebra](https://mathematics.wyattau.com/abstract-algebra/)
-- [Complex Analysis](https://mathematics.wyattau.com/complex-analysis/)
-- [Differential Equations](https://mathematics.wyattau.com/differential-equations/)
 - [Glossary](https://mathematics.wyattau.com/glossary/)
 - [How To Use](https://mathematics.wyattau.com/how-to-use/)
 - [Hub](https://mathematics.wyattau.com/hub/)
 - [Index](https://mathematics.wyattau.com/)
 - [Intro](https://mathematics.wyattau.com/intro/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-- [Multivariable Calculus](https://mathematics.wyattau.com/multivariable-calculus/)
-- [Number Theory](https://mathematics.wyattau.com/number-theory/)
 - [Overview](https://mathematics.wyattau.com/overview/)
 - [Practice Linear Algebra](https://mathematics.wyattau.com/practice-linear-algebra/)
 - [Practice Test Mega](https://mathematics.wyattau.com/practice-test-mega/)
-- [Probability](https://mathematics.wyattau.com/probability/)
-- [Probability And Statistics](https://mathematics.wyattau.com/probability-and-statistics/)
-- [Real Analysis](https://mathematics.wyattau.com/real-analysis/)
 
 ## Demos
 

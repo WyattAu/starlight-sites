@@ -284,16 +284,22 @@ Output.
 
 Install VS Code, then add these extensions:
 
+<div class="table-wrap">
+
 | Extension        | ID                          | Purpose                                    |
 | ---------------- | --------------------------- | ------------------------------------------ |
 | Dart             | `dart-code.dart-code`       | Syntax, analysis, debugging, pub support   |
 | Flutter          | `dart-code.flutter`         | Widget editing, DevTools, emulator control |
 | Flutter Snippets | `alexisvt.flutter-snippets` | Boilerplate code generation                |
 
+</div>
+
 After installing, open a Dart/Flutter project folder. VS Code will prompt you to select the Flutter
 SDK location if it is not already in PATH.
 
 Key VS Code shortcuts for Dart:
+
+<div class="table-wrap">
 
 | Action           | Shortcut                               |
 | ---------------- | -------------------------------------- |
@@ -303,6 +309,8 @@ Key VS Code shortcuts for Dart:
 | Rename symbol    | `F2`                                   |
 | Quick fix        | `Ctrl+.` / `Cmd+.`                     |
 | Format document  | `Shift+Alt+F` / `Shift+Option+F`       |
+
+</div>
 
 ### Android Studio
 
@@ -428,6 +436,8 @@ SDK**
 
 Required components:
 
+<div class="table-wrap">
+
 | Component                                    | Purpose                            |
 | -------------------------------------------- | ---------------------------------- |
 | Android SDK Platform 34 (or latest)          | Target API level                   |
@@ -436,6 +446,8 @@ Required components:
 | Android SDK Command-line Tools               | `sdkmanager` CLI                   |
 | Android Emulator                             | `emulator` binary                  |
 | Intel x86 Emulator Accelerator (HAXM) or KVM | Hardware acceleration for emulator |
+
+</div>
 
 ### Verifying Android setup
 
@@ -1506,6 +1518,8 @@ mixin Persistable on Serializable {
 
 ### Mixin vs Inheritance vs Interface
 
+<div class="table-wrap">
+
 | Feature                 | `extends`         | `implements`            | `with` (mixin)            |
 | ----------------------- | ----------------- | ----------------------- | ------------------------- |
 | Inherit implementation  | Yes               | No                      | Yes                       |
@@ -1513,6 +1527,8 @@ mixin Persistable on Serializable {
 | Multiple                | No (single)       | Yes                     | Yes                       |
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
+
+</div>
 :::
 
 :::tip
@@ -1769,10 +1785,14 @@ JavaScript's `Observable`.
 
 ### Stream Types
 
+<div class="table-wrap">
+
 | Type                    | Description                                                    | Use Case                                   |
 | ----------------------- | -------------------------------------------------------------- | ------------------------------------------ |
 | **Single subscription** | One listener only; events are buffered if no listener exists   | File I/O, HTTP response body               |
 | **Broadcast**           | Multiple listeners; events are discarded if no listener exists | UI events, sensor data, WebSocket messages |
+
+</div>
 
 ```dart
 // Creating a single-subscription stream
@@ -1931,10 +1951,14 @@ instead of copying.
 
 Dart's event loop processes events in this order:
 
+<div class="table-wrap">
+
 | Priority    | Queue           | Description                                          |
 | ----------- | --------------- | ---------------------------------------------------- |
 | 1 (highest) | Microtask queue | `scheduleMicrotask``Future.then``await` continuation |
 | 2           | Event queue     | I/O callbacks, timers, gestures, isolates            |
+
+</div>
 
 ```dart
 // Execution order demonstration
@@ -2386,11 +2410,15 @@ splay.add(2);
 print(splay.toList()); // [1, 2, 3], always sorted
 ```
 
+<div class="table-wrap">
+
 | Type            | Order                 | add/contains/remove | Use Case                                        |
 | --------------- | --------------------- | ------------------- | ----------------------------------------------- |
 | `LinkedHashSet` | Insertion             | O(1) amortized      | Default choice, predictable iteration           |
 | `HashSet`       | Unspecified           | O(1) amortized      | When order does not matter                      |
 | `SplayTreeSet`  | Sorted (`Comparable`) | O(log n)            | When you need sorted iteration or range queries |
+
+</div>
 
 ### Custom Equality via operator== and hashCode
 
@@ -2678,12 +2706,16 @@ Runtime. Use it for configuration, lookup tables, and any data that is truly con
 
 ### When to Use Which
 
+<div class="table-wrap">
+
 | Mechanism             | Copies?            | Mutability                  | Compile-time | Use Case                                                  |
 | --------------------- | ------------------ | --------------------------- | ------------ | --------------------------------------------------------- |
 | `const`               | No (canonicalized) | Immutable (compile-time)    | Yes          | True constants, config                                    |
 | `List.unmodifiable()` | No (view)          | Read-only (runtime)         | No           | API return values, defensive copies of internal state     |
 | `List.of()`           | Yes (copy)         | Mutable                     | No           | When you need a snapshot                                  |
 | `final list = [...]`  | No                 | Mutable, reference is final | No           | Local mutable collections with non-reassignable reference |
+
+</div>
 
 ## Sorting and Custom Comparators
 
@@ -2769,6 +2801,8 @@ listCompare([1, 2, 3], [1, 2, 3]); // true
 Dart's growable `List` is backed by a contiguous array that doubles in capacity when full. This
 Gives:
 
+<div class="table-wrap">
+
 | Operation                   | Complexity                       |
 | --------------------------- | -------------------------------- |
 | `add()` (append)            | O(1) amortized                   |
@@ -2779,6 +2813,8 @@ Gives:
 | `indexOf(x)`                | O(n) (linear scan)               |
 | `sort()`                    | O(n log n)                       |
 
+</div>
+
 The amortized O(1) for `add()` is the critical insight: individual appends are cheap, but
 Occasionally a resize occurs that copies the entire array. For large lists where you know the final
 Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `List.filled()` with
@@ -2788,6 +2824,8 @@ Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `
 
 Dart's default `LinkedHashSet` is a hash table with open addressing:
 
+<div class="table-wrap">
+
 | Operation        | Complexity           |
 | ---------------- | -------------------- |
 | `add(x)`         | O(1) amortized       |
@@ -2795,6 +2833,8 @@ Dart's default `LinkedHashSet` is a hash table with open addressing:
 | `remove(x)`      | O(1) amortized       |
 | `intersection()` | O(min(\|A\|, \|B\|)) |
 | `union()`        | O(\|A\| + \|B\|)     |
+
+</div>
 
 Hash collisions degrade to O(n) in the worst case, but this is rare with a good hash function. If
 your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
@@ -2804,12 +2844,16 @@ Degenerate linked list and O(n) for everything.
 
 Same characteristics as `Set`:
 
+<div class="table-wrap">
+
 | Operation       | Complexity     |
 | --------------- | -------------- |
 | `operator[]`    | O(1) amortized |
 | `operator[]=`   | O(1) amortized |
 | `containsKey()` | O(1) amortized |
 | `remove()`      | O(1) amortized |
+
+</div>
 
 ### Choosing the Right Collection
 
@@ -3057,6 +3101,8 @@ They are compile-time constraints, the compiler enforces them, not runtime check
 
 ### The Modifier Matrix
 
+<div class="table-wrap">
+
 | Modifier      | Can be extended (outside lib) | Can be implemented (outside lib) | Can be used as mixin (outside lib) | Can be constructed     |
 | ------------- | ----------------------------- | -------------------------------- | ---------------------------------- | ---------------------- |
 | (none)        | Yes                           | Yes                              | Yes                                | If not abstract        |
@@ -3065,6 +3111,8 @@ They are compile-time constraints, the compiler enforces them, not runtime check
 | `interface`   | No                            | Yes (only via `implements`)      | No                                 | If not abstract        |
 | `final`       | No                            | No                               | No                                 | If not abstract        |
 | `mixin class` | Via `extends` only            | Yes                              | Yes (with restrictions)            | If not abstract        |
+
+</div>
 
 ### Why They Exist
 
@@ -3476,6 +3524,8 @@ The constructor is available normally.
 
 ### `mixin class` vs `mixin`
 
+<div class="table-wrap">
+
 | Property              | `mixin`              | `mixin class`                                            |
 | --------------------- | -------------------- | -------------------------------------------------------- |
 | Can be extended       | No (must use `with`) | Yes                                                      |
@@ -3483,6 +3533,8 @@ The constructor is available normally.
 | Can have constructors | No                   | Yes (but parameterized constructors prevent mixin usage) |
 | Can be instantiated   | No                   | Yes                                                      |
 | Can be abstract       | Yes                  | Yes                                                      |
+
+</div>
 
 **When to use `mixin class`**: When you have behavior that can be used both standalone (as a class)
 And composed (as a mixin). For example, a `Serializable` class that can be used directly or mixed
@@ -3514,6 +3566,8 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 
 ### Valid Combinations
 
+<div class="table-wrap">
+
 | Combination         | Meaning                                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
 | `sealed interface`  | Cannot be extended or implemented outside. Same-library only, exhaustive switch.                          |
@@ -3522,7 +3576,11 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `interface mixin`   | Can only be implemented, not extended or used as mixin. Pure contract.                                    |
 | `final mixin class` | Cannot be extended, implemented, or used as mixin outside the library. Complete leaf.                     |
 
+</div>
+
 ### The Compatibility Matrix
+
+<div class="table-wrap">
 
 | First \ Second | `sealed` | `base` | `interface` | `final` | `mixin` |
 | -------------- | -------- | ------ | ----------- | ------- | ------- |
@@ -3531,6 +3589,8 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `interface`    | Yes      | No     | N/A         | No      | Yes     |
 | `final`        | Yes      | No     | No          | N/A     | Yes     |
 | `mixin`        | Yes      | Yes    | Yes         | Yes     | N/A     |
+
+</div>
 
 `sealed` can combine with `base`, `interface`, `final` and `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
@@ -3597,6 +3657,8 @@ class Version implements Comparable&lt;Version&gt; {
 
 Here is the complete reference table for all class modifiers:
 
+<div class="table-wrap">
+
 | Modifier            | Extends (outside)    | Implements (outside)    | Mixin (outside)   | Instantiate   | Abstract OK    | Key Use Case                         |
 | ------------------- | -------------------- | ----------------------- | ----------------- | ------------- | -------------- | ------------------------------------ |
 | (none)              | Yes                  | Yes                     | Yes               | Yes           | Yes            | Default, no restrictions            |
@@ -3609,6 +3671,8 @@ Here is the complete reference table for all class modifiers:
 | `base mixin`        | Yes (`extends` only) | No                      | Yes (`with` only) | No            | Yes            | Mixin with inheritance enforcement   |
 | `interface mixin`   | No                   | Yes (`implements` only) | No                | No            | Yes            | Pure mixin contract                  |
 | `final mixin class` | No                   | No                      | No                | Yes           | Yes            | Complete leaf, no subtyping          |
+
+</div>
 
 ### Reading the Table
 
@@ -4043,6 +4107,8 @@ if (x case int n when n > 0) {
 
 Patterns are not limited to switch statements. Dart 3 allows patterns in five contexts:
 
+<div class="table-wrap">
+
 | Context              | Pattern Type               | Example                        |
 | -------------------- | -------------------------- | ------------------------------ |
 | Switch cases         | Refutable                  | `case [a, b]:`                 |
@@ -4050,6 +4116,8 @@ Patterns are not limited to switch statements. Dart 3 allows patterns in five co
 | for-in               | Irrefutable (each element) | `for (var (k, v) in pairs)`    |
 | Variable declaration | Irrefutable                | `var (a, b) = record`          |
 | catch clauses        | Refutable                  | `on FormatException catch (e)` |
+
+</div>
 
 The compiler enforces the refutability constraint at each site. A refutable pattern in a variable
 Declaration produces a hard error. An irrefutable pattern in a switch case is allowed but pointless
@@ -5525,6 +5593,8 @@ String describe(Result&lt;int&gt; r) => switch (r) {
 
 The key difference: abstract classes allow external subtypes; sealed classes do not.
 
+<div class="table-wrap">
+
 | Property                | `abstract class`              | `sealed class`            |
 | ----------------------- | ----------------------------- | ------------------------- |
 | Instantiable directly   | No                            | No                        |
@@ -5532,6 +5602,8 @@ The key difference: abstract classes allow external subtypes; sealed classes do 
 | Exhaustive switch       | No (must use `default`)       | Yes (compiler-enforced)   |
 | Type hierarchy openness | Open (extensible)             | Closed (fixed)            |
 | Use case                | Polymorphism, shared behavior | Sum types, state machines |
+
+</div>
 
 ### When to Use Abstract Classes
 
@@ -5621,6 +5693,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 
 ### Comparison
 
+<div class="table-wrap">
+
 | Property                 | `enum`                             | `sealed class`                              |
 | ------------------------ | ---------------------------------- | ------------------------------------------- |
 | Variant-specific fields  | No (all variants share fields)     | Yes (each class has its own fields)         |
@@ -5630,6 +5704,8 @@ class HttpLoading extends HttpResponse&lt;Never&gt; {}
 | Memory overhead          | Minimal (single object per value)  | Higher (each instance is a separate object) |
 | Complexity               | Simple                             | More complex                                |
 | Use case                 | Fixed value sets with uniform data | Heterogeneous types with different shapes   |
+
+</div>
 
 ### When to Use Which
 
@@ -7702,11 +7778,15 @@ Framework then instantiates an `Element` from that widget, and that Element may 
 
 The critical mental model:
 
+<div class="table-wrap">
+
 | Layer          | Responsibility                                | Mutability         |
 | -------------- | --------------------------------------------- | ------------------ |
 | `Widget`       | Immutable configuration / description         | Always immutable   |
 | `Element`      | Tree node that manages lifecycle, holds state | Mutable (internal) |
 | `RenderObject` | Layout, painting, hit-testing                 | Mutable (internal) |
+
+</div>
 
 When you call `setState()`. The framework marks the owning `Element` as dirty. On the next frame, The
 framework calls `build()` on that Element, which produces a **new** Widget tree. The framework Then
@@ -8196,6 +8276,8 @@ Implement `==`/`hashCode` and you want stability tied to the object itself.
 
 ### When to Use Each Key Type
 
+<div class="table-wrap">
+
 | Scenario                        | Key Type                |
 | ------------------------------- | ----------------------- |
 | List items with unique IDs      | `ValueKey<String>`      |
@@ -8204,6 +8286,8 @@ Implement `==`/`hashCode` and you want stability tied to the object itself.
 | Access State from outside       | `GlobalKey`             |
 | Cross-subtree reparenting       | `GlobalKey`             |
 | Objects without `==`/`hashCode` | `ObjectKey`             |
+
+</div>
 
 ### Common Key Pitfalls
 
@@ -8273,6 +8357,8 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 
 ### Layout
 
+<div class="table-wrap">
+
 | Widget       | Purpose                                                            | Key Properties                                               |
 | ------------ | ------------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Container`  | Convenience box with padding, margin, decoration, constraints      | `padding``margin``decoration``constraints``alignment``color` |
@@ -8288,7 +8374,11 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `Row`        | Horizontal flex layout                                             | `mainAxisAlignment``crossAxisAlignment``mainAxisSize`        |
 | `Column`     | Vertical flex layout                                               | `mainAxisAlignment``crossAxisAlignment``mainAxisSize`        |
 
+</div>
+
 ### Visual Effects
+
+<div class="table-wrap">
 
 | Widget          | Purpose                                                                | Key Properties                                            |
 | --------------- | ---------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -8298,7 +8388,11 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `AbsorbPointer` | Absorbs hit-testing (child and descendants don't receive events)       | `absorbing``child`                                        |
 | `IgnorePointer` | Ignores hit-testing on itself but descendants can still receive events | `ignoring``child`                                         |
 
+</div>
+
 ### Utility
+
+<div class="table-wrap">
 
 | Widget          | Purpose                                                                    |
 | --------------- | -------------------------------------------------------------------------- |
@@ -8307,6 +8401,8 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 | `Theme`         | Provides a `ThemeData` subtree to descendants                              |
 | `Icon`          | Renders an icon from a font (Material or custom)                           |
 | `Image`         | Displays an image from asset, network, file, or memory                     |
+
+</div>
 
 ### Container Internals
 
@@ -8356,6 +8452,8 @@ Widget  ──configures──►  Element  ──owns──►  RenderObject
 
 ### Element Types
 
+<div class="table-wrap">
+
 | Element Type                     | Corresponding Widget            | Has RenderObject? |
 | -------------------------------- | ------------------------------- | ----------------- |
 | `StatelessElement`               | `StatelessWidget`               | No                |
@@ -8364,6 +8462,8 @@ Widget  ──configures──►  Element  ──owns──►  RenderObject
 | `SingleChildRenderObjectElement` | `SingleChildRenderObjectWidget` | Yes               |
 | `MultiChildRenderObjectElement`  | `MultiChildRenderObjectWidget`  | Yes               |
 | `LeafRenderObjectElement`        | `LeafRenderObjectWidget`        | Yes               |
+
+</div>
 
 ### How Reconciliation Works
 
@@ -8521,6 +8621,8 @@ class _MyState extends State<MyWidget> {
 
 Every `State` object that creates disposable resources must release them in `dispose()`:
 
+<div class="table-wrap">
+
 | Resource                 | Cleanup Method                   |
 | ------------------------ | -------------------------------- |
 | `TextEditingController`  | `_controller.dispose()`          |
@@ -8531,6 +8633,8 @@ Every `State` object that creates disposable resources must release them in `dis
 | `FocusNode`              | `_focusNode.dispose()`           |
 | `ChangeNotifier` (owned) | `_notifier.dispose()`            |
 | `PageController`         | `_pageController.dispose()`      |
+
+</div>
 
 Failing to dispose controllers causes memory leaks. The controller holds references to listeners,
 Which hold references to `State` objects, which hold references to `Element` objects, which hold
@@ -9588,6 +9692,8 @@ Simple features, this overhead is not justified.
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Factor              | setState         | InheritedWidget | Provider   | Riverpod            | BLoC              |
 | ------------------- | ---------------- | --------------- | ---------- | ------------------- | ----------------- |
 | Complexity          | Trivial          | Low             | Low        | Medium              | High              |
@@ -9601,6 +9707,8 @@ Simple features, this overhead is not justified.
 | Code generation     | No               | No              | No         | Optional            | No                |
 | Ecosystem maturity  | N/A (built-in)   | N/A (built-in)  | Mature     | Mature              | Mature            |
 | Recommended for     | Local UI state   | Foundation only | Small apps | New projects        | Large teams       |
+
+</div>
 
 ## Choosing the Right Solution
 
@@ -9632,6 +9740,8 @@ From explicit event contracts and state machine discipline.
 
 ### Decision Framework
 
+<div class="table-wrap">
+
 | Condition                                    | Recommendation                |
 | -------------------------------------------- | ----------------------------- |
 | Local UI state only                          | `setState`                    |
@@ -9642,6 +9752,8 @@ From explicit event contracts and state machine discipline.
 | Team requires strict event contracts         | BLoC                          |
 | Minimize boilerplate                         | Riverpod with code generation |
 | Already using Provider, want to stay simple  | Provider                      |
+
+</div>
 
 The most common mistake is choosing the most complex solution first. Start with `setState` for local
 State. Add Provider or Riverpod when state needs to be shared. Introduce BLoC only when the
@@ -10286,6 +10398,8 @@ import UIKit
 
 The `StandardMethodCodec` automatically serializes the following types between Dart and native:
 
+<div class="table-wrap">
+
 | Dart        | Android (Kotlin) | iOS (Swift)                        |
 | ----------- | ---------------- | ---------------------------------- |
 | `null`      | `null`           | `NSNull()`                         |
@@ -10296,6 +10410,8 @@ The `StandardMethodCodec` automatically serializes the following types between D
 | `Uint8List` | `ByteArray`      | `FlutterStandardTypedData(bytes:)` |
 | `List`      | `List`           | `NSArray`                          |
 | `Map`       | `HashMap`        | `NSDictionary`                     |
+
+</div>
 
 Complex nested structures (maps containing lists of maps, etc.) are supported as long as the leaf
 Values are one of the above types.
@@ -11376,12 +11492,16 @@ Something.
 
 ### Types of Testing
 
+<div class="table-wrap">
+
 | Type        | Scope                    | Speed      | What It Validates                               |
 | ----------- | ------------------------ | ---------- | ----------------------------------------------- |
 | Unit        | Single function or class | Millis     | Isolated logic correctness                      |
 | Widget      | Single Flutter widget    | 10-100ms   | Rendering, interaction, lifecycle               |
 | Integration | Multiple units together  | 100-1000ms | Unit interactions, data flow across boundaries  |
 | End-to-End  | Full application flow    | Seconds    | User-visible behavior from launch to completion |
+
+</div>
 
 Unit tests are the foundation. They are fast, deterministic, and cheap to maintain. Widget tests add
 Coverage for the UI layer. Integration tests validate that units compose correctly. End-to-end tests
@@ -12068,6 +12188,8 @@ void main() {
 
 ### mockito vs mocktail
 
+<div class="table-wrap">
+
 | Factor        | mockito                               | mocktail                         |
 | ------------- | ------------------------------------- | -------------------------------- |
 | Code gen      | Required (`build_runner`)             | None                             |
@@ -12076,6 +12198,8 @@ void main() {
 | API           | `when(mock.method()).thenReturn(...)` | `when(() => mock.method())...`   |
 | Ecosystem     | Larger, more mature                   | Lighter, simpler                 |
 | Type safety   | Strong (generated stubs)              | Weaker (manual `implements`)     |
+
+</div>
 
 Use `mocktail` for small projects or when you want zero build-time overhead. Use `mockito` for
 Larger projects where generated mocks provide stronger type guarantees and better IDE support.
@@ -13689,6 +13813,8 @@ class Task {
 Different code generation packages produce files with specific suffixes. Understanding these
 Conventions helps with `.gitignore` configuration and debugging.
 
+<div class="table-wrap">
+
 | Suffix          | Package                                   | Purpose                                                                |
 | --------------- | ----------------------------------------- | ---------------------------------------------------------------------- |
 | `.g.dart`       | `json_serializable``injectable``retrofit` | General generated code (fromJson/toJson, DI registration, API clients) |
@@ -13696,6 +13822,8 @@ Conventions helps with `.gitignore` configuration and debugging.
 | `.gr.dart`      | `retrofit``auto_route`                    | Retrofit API client, AutoRoute router generated files                  |
 | `.config.dart`  | `injectable`                              | Generated dependency configuration                                     |
 | `.chopper.dart` | `chopper`                                 | Chopper API client generated code                                      |
+
+</div>
 
 ### .gitignore Configuration
 
@@ -15235,6 +15363,8 @@ class OrderFactory {
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Aspect                | Constructor Injection                       | Service Locator (get_it)               | Riverpod                                          |
 | --------------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
 | Compile-time safety   | Full, missing deps are compile errors      | None, errors at runtime               | Full, missing providers are compile errors       |
@@ -15248,6 +15378,8 @@ class OrderFactory {
 | Learning curve        | Low                                         | Low                                    | Moderate to high                                  |
 | Flutter integration   | Manual wiring                               | Manual wiring                          | Native (ConsumerWidget, HookConsumerWidget)       |
 | Hot reload            | Works                                       | Works                                  | Works                                             |
+
+</div>
 
 ---
 
@@ -15729,12 +15861,16 @@ the `rethrow` line.
 
 ### When to Use Each
 
+<div class="table-wrap">
+
 | Situation                                                            | Use                                      |
 | -------------------------------------------------------------------- | ---------------------------------------- |
 | You want to log/wrap and continue propagating the original exception | `rethrow`                                |
 | You want to wrap the exception in a new type (exception chaining)    | `throw MyException(..., cause: e)`       |
 | You want to convert one exception type to another                    | `throw newException` (intentional reset) |
 | You want to suppress and throw something entirely different          | `throw` (new object)                     |
+
+</div>
 
 ### Exception Wrapping vs Rethrow
 
@@ -16138,12 +16274,16 @@ Alternative with similar capabilities.
 
 ### When to Use Result vs Exceptions
 
+<div class="table-wrap">
+
 | Scenario                                                 | Use                                     |
 | -------------------------------------------------------- | --------------------------------------- |
 | Validation, parsing, expected business rule violations   | `Result`/`Either`                       |
 | I/O failures (network, filesystem)                       | `Exception` (or `Result` if you prefer) |
 | Programming bugs (null dereference, index out of bounds) | Let `Error` propagate                   |
 | Library boundary where you want explicit failure types   | `Result`/`Either`                       |
+
+</div>
 
 ## Flutter Error Boundaries
 
@@ -17010,6 +17150,8 @@ The two typedefs must agree on parameter and return types. The C typedef uses FF
 Dart and C have different primitive type systems. `dart:ffi` provides native types that map to C
 Types:
 
+<div class="table-wrap">
+
 | FFI Type            | C Type                            | Dart Type    | Size (bytes) |
 | ------------------- | --------------------------------- | ------------ | ------------ |
 | `Int8`              | `int8_t` / `char`                 | `int`        | 1            |
@@ -17027,6 +17169,8 @@ Types:
 | `Handle`            | Dart object handle                | `Object`     | platform     |
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
+
+</div>
 :::
 
 :::note
@@ -17208,10 +17352,14 @@ callback.close();
 
 `NativeCallable` has two variants:
 
+<div class="table-wrap">
+
 | Variant                       | Thread Safety        | Exception Handling                 | Use Case                    |
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------------- |
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
+
+</div>
 :::
 
 :::caution
@@ -17282,12 +17430,16 @@ final result = nativeWindowsReturnString();
 final dartResult = result.toDartString();
 ```
 
+<div class="table-wrap">
+
 | Conversion                    | Direction | Encoding                     |
 | ----------------------------- | --------- | ---------------------------- |
 | `toNativeUtf8()`              | Dart to C | UTF-8                        |
 | `toNativeUtf16()`             | Dart to C | UTF-16                       |
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
+
+</div>
 :::
 
 :::caution
@@ -17682,6 +17834,8 @@ dart compile wasm bin/app.dart
 
 ### Advantages over dart2js
 
+<div class="table-wrap">
+
 | Characteristic  | dart2js                 | dart2wasm                                    |
 | --------------- | ----------------------- | -------------------------------------------- |
 | Output format   | JavaScript              | WebAssembly + JS bootstrap                   |
@@ -17691,6 +17845,8 @@ dart compile wasm bin/app.dart
 | Debugging       | Source maps             | DWARF debug info                             |
 | JS interop      | Direct                  | Via `package:web`                            |
 | Browser support | All                     | WASM GC required (Chrome 119+, Firefox 120+) |
+
+</div>
 
 ### JS Interop via package:web
 
@@ -18954,12 +19110,16 @@ Developing Flutter relies heavily on widget compositions and core primitives.
 
 Dart is a general-purpose language with four primary compilation targets:
 
+<div class="table-wrap">
+
 | Target               | Compilation                           | Use Case                                            |
 | -------------------- | ------------------------------------- | --------------------------------------------------- |
 | **Native (AOT)**     | Ahead-of-Time to ARM/x64 machine code | Mobile (iOS/Android), desktop (macOS/Windows/Linux) |
 | **Web (WASM/js)**    | dart2wasm or dart2js                  | Browser applications                                |
 | **Server (AOT/JIT)** | Native AOT or VM JIT                  | Backend services, CLI tools                         |
 | **Flutter runtime**  | AOT (release) or JIT (debug)          | Cross-platform GUI applications                     |
+
+</div>
 
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
 Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
@@ -19008,6 +19168,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 
 ## Dart vs Kotlin vs Swift
 
+<div class="table-wrap">
+
 | Feature          | Dart                                | Kotlin                         | Swift                           |
 | ---------------- | ----------------------------------- | ------------------------------ | ------------------------------- |
 | Null safety      | Sound, default                      | Sound, default                 | Sound, optional                 |
@@ -19018,6 +19180,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 | Memory           | GC                                  | GC (JVM) / ARC (Native)        | ARC (manual optional)           |
 | Primary use      | Flutter, server                     | Android, server, multiplatform | Apple platforms, server         |
 | Package manager  | `pub`                               | `gradle` / `maven`             | `swift-package-manager`         |
+
+</div>
 
 Key differences for systems engineers:
 
@@ -19231,6 +19395,8 @@ void main() {
 
 The central package repository is [pub.dev](https://pub.dev). Notable packages:
 
+<div class="table-wrap">
+
 | Package                 | Purpose                                |
 | ----------------------- | -------------------------------------- |
 | `http`                  | HTTP client                            |
@@ -19242,6 +19408,8 @@ The central package repository is [pub.dev](https://pub.dev). Notable packages:
 | `dio`                   | Advanced HTTP client with interceptors |
 | `get_it` / `injectable` | Dependency injection                   |
 | `args`                  | Command-line argument parsing          |
+
+</div>
 
 ### Build System: build_runner
 
@@ -19264,6 +19432,8 @@ Sublime Text all have Dart LSP support.
 
 ## Version History
 
+<div class="table-wrap">
+
 | Version | Year | Key Feature                              |
 | ------- | ---- | ---------------------------------------- |
 | 1.0     | 2013 | Initial release                          |
@@ -19271,6 +19441,8 @@ Sublime Text all have Dart LSP support.
 | 2.12    | 2021 | Sound null safety                        |
 | 3.0     | 2023 | Records, patterns, sealed classes, Wasm  |
 | 3.5     | 2024 | Improved interop, macros (experimental)  |
+
+</div>
 
 Dart follows a 6-week release cycle for stable channel releases. Each release is
 Backward-compatible.

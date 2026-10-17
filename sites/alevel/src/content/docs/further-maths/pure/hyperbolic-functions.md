@@ -287,11 +287,15 @@ $$
 
 ### 3.6 Domains and ranges
 
+<div class="table-wrap">
+
 | Function                   | Domain           | Range        |
 | -------------------------- | ---------------- | ------------ |
 | $\operatorname{arsinh}\,x$ | $\mathbb{R}$     | $\mathbb{R}$ |
 | $\operatorname{arcosh}\,x$ | $x \geq 1$       | $y \geq 0$   |
 | $\operatorname{artanh}\,x$ | $-1 \lt x \lt 1$ | $\mathbb{R}$ |
+
+</div>
 
 <hr />
 
@@ -1056,6 +1060,8 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 
 ## 12. Summary of Extended Results
 
+<div class="table-wrap">
+
 | Identity               | Formula                                                                                |
 | ---------------------- | -------------------------------------------------------------------------------------- |
 | Triple angle           | $\sinh 3x = 3\sinh x + 4\sinh^3 x$                                                     |
@@ -1066,6 +1072,8 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 | Integral of $\coth$    | $\displaystyle\int\coth x\,dx = \ln(\sinh x) + C$                                      |
 | Integral of $\tanh^3$  | $\displaystyle\int\tanh^3 x\,dx = \ln(\cosh x) - \dfrac{\tanh^2 x}{2} + C$ |
 | Arc length of catenary | $s = a\sinh(b/a)$ for $y = a\cosh(x/a)$                                                |
+
+</div>
 
 ---
 
@@ -1266,6 +1274,8 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 
 ### 16.3 Inverse hyperbolic functions in logarithmic form
 
+<div class="table-wrap">
+
 | Function                   | Logarithmic Form                                               | Domain         |
 | -------------------------- | -------------------------------------------------------------- | -------------- |
 | $\operatorname{arsinh}\,x$ | $\ln(x+\sqrt{x^2+1})$                                          | all real $x$   |
@@ -1274,6 +1284,8 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 | $\operatorname{arcoth}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{x+1}{x-1}\right)$               | $              \| x   \| > 1$ |
 | $\operatorname{arsech}\,x$ | $\ln\!\left(\dfrac{1+\sqrt{1-x^2}}{x}\right)$      | $0 < x \leq 1$ |
 | $\operatorname{arcsch}\,x$ | $\ln\!\left(\dfrac{1}{x}+\sqrt{\dfrac{1}{x^2}+1}\right)$ | $x \neq 0$     |
+
+</div>
 
 ### 16.4 Hyperbolic functions and catenary applications
 

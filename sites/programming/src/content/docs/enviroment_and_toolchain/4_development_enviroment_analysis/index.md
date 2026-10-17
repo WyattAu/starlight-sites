@@ -131,6 +131,8 @@ GDB is the standard debugger on Linux systems. While its command-line interface 
 
 **Essential GDB commands:**
 
+<div class="table-wrap">
+
 | Command | Abbreviation | Description |
 |---------|-------------|-------------|
 | `break main` | `b main` | Set breakpoint at main function |
@@ -148,6 +150,8 @@ GDB is the standard debugger on Linux systems. While its command-line interface 
 | `delete 3` | `d 3` | Delete breakpoint number 3 |
 | `watch var` | - | Break when variable changes |
 | `quit` | `q` | Exit GDB |
+
+</div>
 
 **Example GDB session:**
 

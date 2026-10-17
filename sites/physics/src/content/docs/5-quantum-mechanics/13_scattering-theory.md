@@ -323,6 +323,8 @@ Scattering theory extracts information about forces by firing particles at targe
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | The quantum cross-section of a hard sphere matches the classical one | no | low-energy $s$-wave scattering gives $\sigma = 4\pi a^2$, four times the classical $\pi a^2$, because the wave diffracts around the sphere |
@@ -332,6 +334,8 @@ Scattering theory extracts information about forces by firing particles at targe
 | Phase shifts are small for weak scattering | not necessarily | a resonance makes $\delta_l$ swing through $\pi$ rapidly even for a weak potential |
 | Cross-sections cannot exceed the geometric size | no | the hard-sphere result above is *larger*, and a resonance can exceed it by orders of magnitude |
 | Scattering conserves probability, so $S$ is unitary | yes | and this is the constraint that makes the phase shifts real for real potentials |
+
+</div>
 
 The first row is the one that most strongly marks the difference between
 classical and quantum intuition. A classical ball bearing thrown at a
@@ -402,6 +406,6 @@ Equations](https://mathematics.wyattau.com/5-ordinary-differential-equations/1_i
 - **[Time-Dependent Perturbation Theory](/5-quantum-mechanics/12_time-dependent-perturbation-theory/)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

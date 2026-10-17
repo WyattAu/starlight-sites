@@ -2640,12 +2640,16 @@ flowchart TD
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                                 | Site        | Link                                                            |
 | ------------------------------------- | ----------- | --------------------------------------------------------------- |
-| Probability and Statistics (Overview) | WyattsNotes | [View](/probability-and-statistics/) |
+| Probability and Statistics (Overview) | WyattsNotes | [View](/8-probability-and-statistics/) |
 | Probability                           | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)                |
-| Real Analysis                         | WyattsNotes | [View](/real-analysis/)              |
+| Real Analysis                         | WyattsNotes | [View](/3-real-analysis/)              |
 | Probability, Harvard Stat 110        | Harvard     | [View](https://stat110.com/)                                    |
+
+</div>
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

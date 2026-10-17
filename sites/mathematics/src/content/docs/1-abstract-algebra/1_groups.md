@@ -185,6 +185,8 @@ a symmetry (identity), and every symmetry can be undone (inverse).
 ($0°$, $120°$, $240°$) and three reflections (one through each altitude). These symmetries form the
 group $D_3 \cong S_3$. The group multiplication table (Cayley table) is:
 
+<div class="table-wrap">
+
 | $\cdot$ | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
 | --------- | ----- | ----- | ------- | ----- | ------ | -------- |
 | $e$ | $e$ | $r$ | $r^2$ | $s$ | $rs$ | $r^2s$ |
@@ -193,6 +195,8 @@ group $D_3 \cong S_3$. The group multiplication table (Cayley table) is:
 | $s$ | $s$ | $r^2s$ | $rs$ | $e$ | $r^2$ | $r$ |
 | $rs$ | $rs$ | $s$ | $r^2s$ | $r$ | $e$ | $r^2$ |
 | $r^2s$ | $r^2s$ | $rs$ | $s$ | $r^2$ | $r$ | $e$ |
+
+</div>
 
 **Reading the table:** The entry in row $a$, column $b$ is $a \cdot b$. For example, $r \cdot s = rs$
 and $s \cdot r = r^2s$. Since $rs \neq r^2s$, the group is non-abelian.
@@ -213,12 +217,16 @@ finite groups.
 The cyclic group $\mathbb{Z}/4\mathbb{Z} = \{0, 1, 2, 3\}$ under addition modulo 4 has the
 following Cayley table:
 
+<div class="table-wrap">
+
 | $+$ | $0$ | $1$ | $2$ | $3$ |
 |-----|-----|-----|-----|-----|
 | $0$ | $0$ | $1$ | $2$ | $3$ |
 | $1$ | $1$ | $2$ | $3$ | $0$ |
 | $2$ | $2$ | $3$ | $0$ | $1$ |
 | $3$ | $3$ | $0$ | $1$ | $2$ |
+
+</div>
 
 This table is symmetric across the main diagonal (the group is abelian). Each row and column is a
 permutation of $\{0, 1, 2, 3\}$ (the Latin square property, which holds for all groups). The element

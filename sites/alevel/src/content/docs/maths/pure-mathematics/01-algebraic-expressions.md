@@ -23,12 +23,16 @@ categories:
 
 ## Board Coverage
 
+<div class="table-wrap">
+
 | Board      | Paper   | Notes                                       |
 | ---------- | ------- | ------------------------------------------- |
 | AQA        | Paper 1 | Surds, indices, polynomials, factor theorem |
 | Edexcel    | P1, P2  | Same core; P2 includes harder factorisation |
 | OCR (A)    | Paper 1 | Similar coverage                            |
 | CIE (9709) | P1      | Surds, quadratics, factor theorem           |
+
+</div>
 
 <hr />
 

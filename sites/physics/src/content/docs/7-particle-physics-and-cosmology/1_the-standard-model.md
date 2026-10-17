@@ -37,11 +37,15 @@ The fundamental particles are:
 
 **Forces and their gauge bosons:**
 
+<div class="table-wrap">
+
 | Interaction     | Gauge boson    | Acts on         | Relative strength                             |
 | --------------- | -------------- | --------------- | --------------------------------------------- |
 | Electromagnetic | $\gamma$       | Electric charge | $\alpha \approx 1/137$                        |
 | Weak            | $W^\pm, Z^0$   | Weak isospin    | $G_F \approx 1.166 \times 10^{-5}$ GeV$^{-2}$ |
 | Strong          | $g$ (8 gluons) | Colour charge   | $\alpha_s \approx 0.118$ (at $m_Z$)           |
+
+</div>
 
 ### 1.2 Gauge Symmetry
 
@@ -97,11 +101,15 @@ to high precision at LEP and SLC.
 The fermions are organised into three **generations**, each with identical quantum numbers but
 Increasing mass:
 
+<div class="table-wrap">
+
 | Generation | Quarks                     | Charge         | Leptons            | Charge    |
 | ---------- | -------------------------- | -------------- | ------------------ | --------- |
 | I          | up ($u$), down ($d$)       | $+2/3$, $-1/3$ | $e$, $\nu_e$       | $-1$, $0$ |
 | II         | charm ($c$), strange ($s$) | $+2/3$, $-1/3$ | $\mu$, $\nu_\mu$   | $-1$, $0$ |
 | III        | top ($t$), bottom ($b$)    | $+2/3$, $-1/3$ | $\tau$, $\nu_\tau$ | $-1$, $0$ |
+
+</div>
 
 Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry anticolours.
 
@@ -114,6 +122,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 
 **Quark masses (at the $\overline{\mathrm{MS}}$ scale $\mu = m_q$):**
 
+<div class="table-wrap">
+
 | Quark | Mass (MeV/$c^2$)    | $I$   | $I_3$  | $S$  | $C$  | $B'$ | $T$  |
 | ----- | ------------------- | ----- | ------ | ---- | ---- | ---- | ---- |
 | $u$   | $2.16$              | $1/2$ | $+1/2$ | $0$  | $0$  | $0$  | $0$  |
@@ -123,7 +133,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $b$   | $4.18 \times 10^3$  | $0$   | $0$    | $0$  | $0$  | $-1$ | $0$  |
 | $t$   | $1.732 \times 10^5$ | $0$   | $0$    | $0$  | $0$  | $0$  | $+1$ |
 
+</div>
+
 **Charged lepton masses:**
+
+<div class="table-wrap">
 
 | Lepton | Mass (MeV/$c^2$) | Mean lifetime             |
 | ------ | ---------------- | ------------------------- |
@@ -131,7 +145,11 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $\mu$  | $105.66$         | $2.197 \times 10^{-6}$ s  |
 | $\tau$ | $1776.86$        | $2.903 \times 10^{-13}$ s |
 
+</div>
+
 **Gauge boson properties:**
+
+<div class="table-wrap">
 
 | Boson    | Mass (GeV/$c^2$) | Width (GeV) | Electric charge |
 | -------- | ---------------- | ----------- | --------------- |
@@ -140,6 +158,8 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 | $W^+$    | $80.379$         | $2.085$     | $+1$            |
 | $Z^0$    | $91.1876$        | $2.4952$    | $0$             |
 | $H$      | $125.10$         | $0.00407$   | $0$             |
+
+</div>
 
 ### 1.6 Worked Example: Particle Identification
 
@@ -257,6 +277,6 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

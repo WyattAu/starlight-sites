@@ -208,6 +208,6 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/) -- The relativistic Larmor formula and Liénard-Wiechert fields extend the dipole radiation analysis to moving charges.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 

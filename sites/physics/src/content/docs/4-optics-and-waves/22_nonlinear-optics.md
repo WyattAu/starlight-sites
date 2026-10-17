@@ -49,6 +49,8 @@ Techniques:
 
 ### 18.3 Other Nonlinear Processes
 
+<div class="table-wrap">
+
 | Process                    | Order        | Description                                              |
 | -------------------------- | ------------ | -------------------------------------------------------- |
 | SHG                        | $\chi^{(2)}$ | $\omega + \omega \to 2\omega$                            |
@@ -58,6 +60,8 @@ Techniques:
 | Self-focusing              | $\chi^{(3)}$ | Beam collapses when $P > P_{\text{cr}}$                  |
 | Two-photon absorption      | $\chi^{(3)}$ | Simultaneous absorption of two photons                   |
 | Stimulated Raman/Brillouin | $\chi^{(3)}$ | Inelastic scattering amplification                       |
+
+</div>
 
 **Self-phase modulation:** The Kerr effect causes $\Delta n = n_2 I$ which broadens the spectrum of
 ultrashort pulses. Combined with dispersion, this leads to **soliton** formation in optical fibres
@@ -99,6 +103,8 @@ $$
 
 ### Key Relationships
 
+<div class="table-wrap">
+
 | Effect | Susceptibility | Key Formula | Condition |
 | -------- | --------------- | ------------- | ----------- |
 | Linear optics | $\chi^{(1)}$ | $P = \varepsilon_0 \chi^{(1)} E$ | Weak fields |
@@ -106,6 +112,8 @@ $$
 | Pockels effect | $\chi^{(2)}$ | $\Delta n = n_0^3 r E / 2$ | Non-centrosymmetric |
 | Kerr effect | $\chi^{(3)}$ | $n = n_0 + n_2 I$ | All media |
 | Self-focusing | $\chi^{(3)}$ | $P_{\text{cr}} = \pi(0.61)^2 \lambda^2/(8n_0 n_2)$ | $P > P_{\text{cr}}$ |
+
+</div>
 
 ### Common Pitfalls
 
@@ -131,6 +139,8 @@ $$
 
 ### Summary Table: Nonlinear Processes by Order
 
+<div class="table-wrap">
+
 | Order | Process | Application | Crystal Requirement |
 | ------- | --------- | ------------- | ------------------- |
 | $\chi^{(1)}$ | Linear refraction/absorption | Ordinary optics | Any |
@@ -140,6 +150,8 @@ $$
 | $\chi^{(3)}$ | SRS, SBS | Amplifiers, lasers | All media |
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
+
+</div>
 
 ## Intuition
 
@@ -152,7 +164,7 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

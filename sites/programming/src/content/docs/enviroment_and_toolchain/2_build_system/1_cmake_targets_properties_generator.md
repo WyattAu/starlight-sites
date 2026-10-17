@@ -53,11 +53,15 @@ add_library(MathHeaderOnly INTERFACE)
 The core mechanism of Modern CMake is the propagation of build requirements. When linking libraries,
 You must specify the scope of the dependency.
 
+<div class="table-wrap">
+
 | Scope         | Definition                                                                                | Use Case                                                                         |
 | :------------ | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 | **PRIVATE**   | **Build Requirement.** Used internally to build the target, but not exposed to consumers. | Implementation details (e.g., a specific math algorithm used inside a function). |
 | **INTERFACE** | **Usage Requirement.** Not used to build the target itself, but required by consumers.    | Header-only libraries, or headers defining template interfaces.                  |
 | **PUBLIC**    | **Both.** Used to build the target AND required by consumers.                             | Public headers included in the library"s public headers.                         |
+
+</div>
 
 #### Implementation Example
 

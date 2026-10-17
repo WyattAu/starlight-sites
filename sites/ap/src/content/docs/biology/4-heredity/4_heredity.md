@@ -37,6 +37,8 @@ categories:
 Meiosis reduces the chromosome number by half, producing four genetically distinct haploid cells
 from one diploid cell.
 
+<div class="table-wrap">
+
 | Feature           | Mitosis        | Meiosis           |
 | ----------------- | -------------- | ----------------- |
 | Divisions         | 1              | 2                 |
@@ -44,6 +46,8 @@ from one diploid cell.
 | Ploidy            | $2n$           | $n$               |
 | Genetic variation | Identical      | Different         |
 | Function          | Growth, repair | Gamete production |
+
+</div>
 
 ### Meiosis I (Reductional Division)
 
@@ -124,11 +128,15 @@ Formation.
 
 Cross between individuals differing in one trait.
 
+<div class="table-wrap">
+
 | Genotype | Phenotype |
 | -------- | --------- |
 | AA       | Dominant  |
 | Aa       | Dominant  |
 | aa       | Recessive |
+
+</div>
 
 **Genotypic ratio (Aa $\times$ Aa):** 1 AA : 2 Aa : 1 aa **Phenotypic ratio:** 3 dominant : 1
 Recessive
@@ -161,12 +169,16 @@ Gametes from each parent: RY, Ry, rY, ry (four types, each equally likely)
 
 Punnett square (4 $\times$ 4):
 
+<div class="table-wrap">
+
 |     | RY   | Ry   | rY   | ry   |
 | --- | ---- | ---- | ---- | ---- |
 | RY  | RRYY | RRYy | RrYY | RrYy |
 | Ry  | RRYy | RRyy | RrYy | Rryy |
 | rY  | RrYY | RrYy | rrYY | rrYy |
 | ry  | RrYy | Rryy | rrYy | rryy |
+
+</div>
 
 Phenotypic ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
 
@@ -188,12 +200,16 @@ Antigens.
 More than two alleles exist for a gene in the population. Example: ABO blood group has three
 Alleles: $I^A$, $I^B$ And $i$.
 
+<div class="table-wrap">
+
 | Genotype             | Blood Type       |
 | -------------------- | ---------------- |
 | $I^A I^A$ or $I^A i$ | A                |
 | $I^B I^B$ or $I^B i$ | B                |
 | $I^A I^B$            | AB (codominance) |
 | $ii$                 | O                |
+
+</div>
 
 ### Sex-Linked Inheritance
 
@@ -204,10 +220,14 @@ Example: Red-green color blindness and hemophilia are X-linked recessive.
 
 **Cross:** Carrier female ($X^NX^n$) $\times$ normal male ($X^NY$):
 
+<div class="table-wrap">
+
 |       | $X^N$                     | $Y$                    |
 | ----- | ------------------------- | ---------------------- |
 | $X^N$ | $X^NX^N$ (normal female)  | $X^NY$ (normal male)   |
 | $X^n$ | $X^NX^n$ (carrier female) | $X^nY$ (affected male) |
+
+</div>
 
 **Phenotypic ratio:** 1 normal female : 1 carrier female : 1 normal male : 1 affected male.
 
@@ -246,10 +266,14 @@ One gene masks or modifies the expression of another gene.
 **Example:** Coat color in Labrador retrievers. Gene B determines pigment (B = black, b = brown).
 Gene E determines deposition (E = pigment deposited, e = no pigment deposited).
 
+<div class="table-wrap">
+
 |     | E\_   | ee     |
 | --- | ----- | ------ |
 | B\_ | Black | Yellow |
 | bb  | Brown | Yellow |
+
+</div>
 
 Ratio: 9 black : 3 brown : 4 yellow.
 
@@ -275,6 +299,8 @@ Phenotypes due to different environments.
 Failure of homologous chromosomes or sister chromatids to separate during meiosis, producing gametes
 with abnormal chromosome numbers.
 
+<div class="table-wrap">
+
 | Condition                  | Cause               | Description                                             |
 | -------------------------- | ------------------- | ------------------------------------------------------- |
 | Trisomy 21 (Down syndrome) | Extra chromosome 21 | Intellectual disability, characteristic facial features |
@@ -283,6 +309,8 @@ with abnormal chromosome numbers.
 | Klinefelter (XXY)          | Extra X in male     | Male with some female characteristics                   |
 | Turner (XO)                | Missing X in female | Female, sterile, short stature                          |
 | XYY                        | Extra Y in male     | Tall, normal                                            |
+
+</div>
 
 ### Structural Abnormalities
 
@@ -497,10 +525,14 @@ Queen Victoria was a carrier of haemophilia ($X^HX^h$). Her husband was normal (
 
 Punnett square:
 
+<div class="table-wrap">
+
 |       | $X^H$              | $Y$                   |
 | ----- | ------------------ | --------------------- |
 | $X^H$ | $X^HX^H$ (normal)  | $X^HY$ (normal)       |
 | $X^h$ | $X^HX^h$ (carrier) | $X^hY$ (haemophiliac) |
+
+</div>
 
 Each daughter has a 50% chance of being a carrier. Each son has a 50% chance of having haemophilia.
 Historically, several of Queen Victoria's male descendants were affected by haemophilia, which
@@ -570,12 +602,16 @@ Used in tracing maternal ancestry (mitochondrial Eve).
 
 ## Review: Summary Table of Inheritance Patterns
 
+<div class="table-wrap">
+
 | Pattern              | Autosomal Dominant               | Autosomal Recessive                             | X-Linked Recessive            |
 | -------------------- | -------------------------------- | ----------------------------------------------- | ----------------------------- |
 | Example              | Huntington disease               | Cystic fibrosis                                 | Haemophilia, colour blindness |
 | Affected individuals | Both sexes equally               | Both sexes equally                              | Males much more frequently    |
 | Transmission         | Affected parent to 50% offspring | Two carrier parents can have affected offspring | Carrier mother to 50% of sons |
 | Skipping generations | No (vertical pattern)            | Yes (horizontal pattern)                        | Yes (through carrier females) |
+
+</div>
 
 ## Review: Genomic Imprinting
 
@@ -626,10 +662,14 @@ to be passed to offspring before symptoms appear.
 In mice, the allele for yellow coat colour (Y) is dominant over grey (y). However, YY is lethal
 (embryos die), while Yy is yellow and yy is grey. Crossing two yellow mice (Yy $\times$ Yy) gives:
 
+<div class="table-wrap">
+
 |     | Y   | y   |
 | --- | --- | --- |
 | Y   | YY  | Yy  |
 | y   | Yy  | yy  |
+
+</div>
 
 Expected genotypes: 1 YY : 2 Yy : 1 yy.
 
@@ -927,10 +967,14 @@ Gametes: $\text{T}, \text{t}$ and $\text{t}, \text{t}$
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | t   | Tt  | tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Phenotypic ratio: **1 tall : 1 dwarf** (or 50% tall, 50% dwarf)
 

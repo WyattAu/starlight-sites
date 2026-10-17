@@ -91,6 +91,8 @@ From the official Florida Driver License Handbook:
 
 ## FL Fees and Milestones Quick Table
 
+<div class="table-wrap">
+
 | Milestone | Age | Requirement | Notes |
 |-----------|-----|-------------|-------|
 | TLSAE | Any | 4-hour course | First step for everyone |
@@ -101,7 +103,11 @@ From the official Florida Driver License Handbook:
 | Curfew 17 | 17 | 5 a.m. - 1 a.m. | Work exceptions |
 | Full license | 18 | Time limits end | Clean record holds |
 
+</div>
+
 ## Numeric Facts to Memorize
+
+<div class="table-wrap">
 
 | Fact | Value |
 |------|-------|
@@ -115,3 +121,5 @@ From the official Florida Driver License Handbook:
 | Rural interstate | 70 mph |
 | School zone | 20 mph |
 | Insurance | PIP required (no-fault) |
+
+</div>

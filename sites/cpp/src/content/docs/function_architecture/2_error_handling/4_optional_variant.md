@@ -193,6 +193,8 @@ int main() {
 
 ## 4.4 Comparison with Exceptions
 
+<div class="table-wrap">
+
 | Aspect                | Exceptions           | `std::optional`              | `std::variant`                     |
 | --------------------- | -------------------- | ---------------------------- | ---------------------------------- |
 | Overhead (no error)   | ~0 (table-based)     | 0                            | 0                                  |
@@ -200,6 +202,8 @@ int main() {
 | Error type            | Any type             | `std::nullopt` only          | User-defined alternatives          |
 | Composability         | Implicit (unwinding) | Explicit (check `has_value`) | Explicit (`std::visit`/`std::get`) |
 | Catches missed errors | No (terminate)       | Yes (forgot to check)        | Yes (forgot to check)              |
+
+</div>
 
 ## See Also
 
@@ -284,11 +288,15 @@ int main() {
 
 C++23 added monadic operations that allow chaining optional operations without explicit null checks:
 
+<div class="table-wrap">
+
 | Operation   | Signature                            | Behavior                                                                          |
 | :---------- | :----------------------------------- | :-------------------------------------------------------------------------------- |
 | `transform` | `optional<U> transform(F&& f) const` | If engaged, returns `f(value)` wrapped in optional; otherwise `nullopt`           |
 | `and_then`  | `optional<U> and_then(F&& f) const`  | If engaged, calls `f(value)` which must return `optional<U>`; otherwise `nullopt` |
 | `or_else`   | `optional<T> or_else(F&& f) const`   | If empty, calls `f()` which must return `optional<T>`; otherwise returns `*this`  |
+
+</div>
 
 ```cpp
 #include <optional>

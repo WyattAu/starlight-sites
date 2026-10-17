@@ -124,6 +124,8 @@ sidebar_position: 40
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Question | Answer | Topic                    |
 | :------: | :----: | :----------------------- |
 |    1     |  (B)   | Aggregate Demand         |
@@ -136,6 +138,8 @@ sidebar_position: 40
 |    8     |  (B)   | Exchange Rates           |
 |    9     |  (B)   | Fiscal Policy            |
 |    10    |  (B)   | GDP Measurement          |
+
+</div>
 
 ---
 

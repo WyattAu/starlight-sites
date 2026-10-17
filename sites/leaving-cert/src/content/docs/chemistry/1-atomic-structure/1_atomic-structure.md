@@ -27,11 +27,15 @@ Configuration, atomic spectra, and periodic trends.
 
 ## Subatomic Particles (OL/HL)
 
+<div class="table-wrap">
+
 | Particle | Symbol | Relative mass          | Relative charge | Location |
 | -------- | ------ | ---------------------- | --------------- | -------- |
 | Proton   | $p^+$  | 1                      | $+1$            | Nucleus  |
 | Neutron  | $n^0$  | 1                      | $0$             | Nucleus  |
 | Electron | $e^-$  | $\approx 0$ ($1/1836$) | $-1$            | Shells   |
+
+</div>
 
 ### Atomic Number and Mass Number
 
@@ -91,12 +95,16 @@ $$
 
 Electrons occupy shells (energy levels) around the nucleus:
 
+<div class="table-wrap">
+
 | Shell | $n$ | Maximum electrons |
 | ----- | --- | ----------------- |
 | K     | 1   | 2                 |
 | L     | 2   | 8                 |
 | M     | 3   | 18                |
 | N     | 4   | 32                |
+
+</div>
 
 Maximum electrons in shell $n$: $2n^2$.
 
@@ -119,12 +127,16 @@ Potassium has 19 electrons. Filling shells: K (2), L (8), M (8), N (1). Configur
 
 Shells are divided into subshells: $s$, $p$, $d$, $f$.
 
+<div class="table-wrap">
+
 | Subshell | Orbitals | Max electrons |
 | -------- | -------- | ------------- |
 | $s$      | 1        | 2             |
 | $p$      | 3        | 6             |
 | $d$      | 5        | 10            |
 | $f$      | 7        | 14            |
+
+</div>
 
 ### Aufbau Principle (HL)
 
@@ -164,12 +176,16 @@ Two electrons with opposite spins.
 
 ## Quantum Numbers (HL)
 
+<div class="table-wrap">
+
 | Quantum number   | Symbol   | Values                       | Describes                  |
 | ---------------- | -------- | ---------------------------- | -------------------------- |
 | Principal        | $n$      | $1, 2, 3, \ldots$            | Energy level / shell       |
 | Angular momentum | $\ell$   | $0$ to $n-1$                 | Subshell ($s=0, p=1, d=2$) |
 | Magnetic         | $m_\ell$ | $-\ell$ to $+\ell$           | Orbital orientation        |
 | Spin             | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$ | Electron spin              |
+
+</div>
 
 **Worked Example 5 (HL):** List all possible quantum numbers for a $3p$ electron.
 
@@ -304,6 +320,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 
 ### Summary of Periodic Trends
 
+<div class="table-wrap">
+
 | Property                | Across a period            | Down a group |
 | ----------------------- | -------------------------- | ------------ |
 | Atomic radius           | Decreases                  | Increases    |
@@ -311,6 +329,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 | Electronegativity       | Increases                  | Decreases    |
 | Metallic character      | Decreases                  | Increases    |
 | Melting point (metals)  | Increases                  | Decreases    |
+
+</div>
 
 ## Mass Spectrometry (HL)
 
@@ -433,6 +453,8 @@ A shell have been removed, the next ionisation energy increases significantly.
 
 For sodium ($Z = 11$):
 
+<div class="table-wrap">
+
 | Ionisation | Energy (kJ/mol) | Jump?      |
 | ---------- | --------------- | ---------- |
 | 1st        | 496             | --         |
@@ -446,6 +468,8 @@ For sodium ($Z = 11$):
 | 9th        | 28932           | --         |
 | 10th       | 141362          | Large jump |
 | 11th       | 159076          | --         |
+
+</div>
 
 The large jump between the 9th and 10th ionisation energies indicates that the 10th electron is
 being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
@@ -561,6 +585,8 @@ Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly 
 
 ### Common Ion Configurations
 
+<div class="table-wrap">
+
 | Ion               | Electron configuration             |
 | ----------------- | ---------------------------------- |
 | $\mathrm{Na^+$    | $[\mathrm{Ne]$ or $1s^2 2s^2 2p^6$ |
@@ -569,6 +595,8 @@ Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly 
 | $\mathrm{Cl^-$    | $[\mathrm{Ar]$                     |
 | $\mathrm{Cu^+$    | $[\mathrm{Ar]\,3d^{10}$            |
 | $\mathrm{Zn^{2+}$ | $[\mathrm{Ar]\,3d^{10}$            |
+
+</div>
 
 ### Isoelectronic Series
 
@@ -598,12 +626,16 @@ $$
 
 ### Blocks of the Periodic Table
 
+<div class="table-wrap">
+
 | Block   | Subshell being filled | Groups                 | Examples                             |
 | ------- | --------------------- | ---------------------- | ------------------------------------ |
 | s-block | $s$                   | 1, 2                   | $\mathrm{Na$$\mathrm{Mg$             |
 | p-block | $p$                   | 13-18                  | $\mathrm{Al$$\mathrm{Cl$$\mathrm{Ar$ |
 | d-block | $d$                   | 3-12                   | $\mathrm{Fe$$\mathrm{Cu$             |
 | f-block | $f$                   | Lanthanides, Actinides | $\mathrm{U$$\mathrm{Ce$              |
+
+</div>
 
 ### Periodic Trends in Detail: Atomic Radius
 
@@ -627,6 +659,8 @@ The first ionisation energy increases across a period with two notable dips:
 
 ### Comparison of Group 1 and Group 17 Properties
 
+<div class="table-wrap">
+
 | Property          | Group 1 (Alkali metals)     | Group 17 (Halogens)         |
 | ----------------- | --------------------------- | --------------------------- |
 | Atomic radius     | Large, increases down group | Small, increases down group |
@@ -636,6 +670,8 @@ The first ionisation energy increases across a period with two notable dips:
 | Type of element   | Metal                       | Non-metal                   |
 | Bonding           | Metallic/ionic              | Covalent                    |
 | Typical ion       | $+1$                        | $-1$                        |
+
+</div>
 
 ---
 
@@ -759,6 +795,8 @@ And scanning electron microscopy (SEM) are two common types.
 
 ## Summary: Atomic Structure Key Relationships
 
+<div class="table-wrap">
+
 | Concept                  | Formula/Relationship                  | Key Idea                      |
 | ------------------------ | ------------------------------------- | ----------------------------- |
 | Bohr model energy        | $E_n = -13.6/n^2 \mathrm{ eV$         | Quantised energy levels       |
@@ -768,6 +806,8 @@ And scanning electron microscopy (SEM) are two common types.
 | Effective nuclear charge | $Z_{\mathrm{eff} = Z - S$             | Shielding effects             |
 | Shell capacity           | $2n^2$                                | Maximum electrons per shell   |
 | Moseley's law            | $\sqrt{f} = a(Z - b)$                 | Atomic number defines element |
+
+</div>
 
 ---
 
@@ -822,6 +862,8 @@ And scanning electron microscopy (SEM) are two common types.
 
 ### Key Developments
 
+<div class="table-wrap">
+
 | Scientist   | Contribution                                                      | Date |
 | ----------- | ----------------------------------------------------------------- | ---- |
 | Dalton      | Atomic theory: all matter is made of atoms                        | 1808 |
@@ -831,6 +873,8 @@ And scanning electron microscopy (SEM) are two common types.
 | de Broglie  | Wave-particle duality                                             | 1924 |
 | Heisenberg  | Uncertainty principle                                             | 1927 |
 | Schrodinger | Wave equation for electrons                                       | 1926 |
+
+</div>
 
 ### Rutherford's Gold Foil Experiment
 

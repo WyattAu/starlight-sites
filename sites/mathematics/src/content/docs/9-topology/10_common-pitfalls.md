@@ -72,6 +72,8 @@ $[0, 2\pi)$ is not compact but $S^1$ is.
 
 ### Counterexamples by Property
 
+<div class="table-wrap">
+
 | Claim | Counterexample | Why it fails |
 | ------- | --------------- | -------------- |
 | Compact $\Rightarrow$ closed in any space | Cofinite topology on $\mathbb{N}$ | Every subset is compact, but only finite sets are closed |
@@ -81,6 +83,8 @@ $[0, 2\pi)$ is not compact but $S^1$ is.
 | Regular $\Rightarrow$ normal | Sorgenfrey plane | Regular but not normal (product of Sorgenfrey lines) |
 | First countable $\Rightarrow$ second countable | $\mathbb{R}$ with discrete topology | Singletons form a countable neighborhood basis at each point, but the space is uncountable |
 | Sequentially compact $\Rightarrow$ compact | Ordinal space $[0, \omega_1)$ | Every sequence converges but the open cover $\{[0,\alpha) : \alpha < \omega_1\}$ has no finite subcover |
+
+</div>
 
 ### Correct Statements with Proof Sketches
 

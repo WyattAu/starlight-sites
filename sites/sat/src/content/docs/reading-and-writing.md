@@ -34,12 +34,16 @@ two).
 
 ### Content Domains
 
+<div class="table-wrap">
+
 | Domain                           | Approximate Weight | Question Count |
 | -------------------------------- | ------------------ | -------------- |
 | **Information and Ideas**        | ~26%               | 12-14          |
 | **Craft and Structure**          | ~28%               | 13-15          |
 | **Standard English Conventions** | ~26%               | 12-14          |
 | **Expression of Ideas**          | ~20%               | 11-13          |
+
+</div>
 
 ---
 
@@ -231,6 +235,8 @@ The digital SAT tests grammar through passage-based questions rather than isolat
 
 Transition words signal the logical relationship between ideas. Common categories:
 
+<div class="table-wrap">
+
 | Relationship | Transitions                                          |
 | ------------ | ---------------------------------------------------- |
 | Addition     | furthermore, moreover, additionally, also            |
@@ -239,6 +245,8 @@ Transition words signal the logical relationship between ideas. Common categorie
 | Emphasis     | indeed, in fact, notably, significantly              |
 | Sequence     | first, subsequently, finally, meanwhile              |
 | Example      | for instance, specifically, such as                  |
+
+</div>
 
 **Strategy for transition questions:**
 
@@ -305,6 +313,8 @@ Identifying the main idea requires distinguishing between:
 
 The SAT tests your ability to identify rhetorical strategies:
 
+<div class="table-wrap">
+
 | Strategy                | Purpose                         | Example Signal                         |
 | ----------------------- | ------------------------------- | -------------------------------------- |
 | **Analogy**             | Clarify a concept by comparison | "like," "similar to," "just as"        |
@@ -313,6 +323,8 @@ The SAT tests your ability to identify rhetorical strategies:
 | **Appeal to authority** | Persuade through expertise      | Citations, expert testimony            |
 | **Repetition**          | Emphasise a point               | Repeated words or phrases              |
 | **Contrast**            | Highlight differences           | "whereas," "unlike," "on the contrary" |
+
+</div>
 
 ---
 

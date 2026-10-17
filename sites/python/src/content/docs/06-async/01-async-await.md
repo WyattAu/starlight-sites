@@ -126,6 +126,8 @@ Context switching.
 
 ### How to Work Around the GIL
 
+<div class="table-wrap">
+
 | Strategy                        | Mechanism                                 | Use Case                             |
 | ------------------------------- | ----------------------------------------- | ------------------------------------ |
 | `multiprocessing`               | Separate processes, each with its own GIL | CPU-bound Python work                |
@@ -133,6 +135,8 @@ Context switching.
 | `asyncio`                       | Single-threaded cooperative multitasking  | I/O-bound work with many connections |
 | Cython / `nogil`                | Compile to C, optionally release the GIL  | Performance-critical loops           |
 | PEP 703 (free-threaded CPython) | Remove the GIL entirely                   | Python 3.13+ experimental builds     |
+
+</div>
 
 ## Threading
 
@@ -852,6 +856,8 @@ flowchart TD
     I -- No --> E
 ```
 
+<div class="table-wrap">
+
 | Dimension            | `asyncio`                          | `threading`                       | `multiprocessing`                 |
 | -------------------- | ---------------------------------- | --------------------------------- | --------------------------------- |
 | Parallelism          | No (single thread)                 | No (GIL)                          | Yes (separate processes)          |
@@ -861,6 +867,8 @@ flowchart TD
 | Scaling limit        | Tens of thousands of coroutines    | Hundreds of threads               | Dozens of processes               |
 | Debugging difficulty | Moderate (implicit state machines) | Hard (race conditions)            | Moderate (IPC issues)             |
 | Cancellation         | Built-in (`Task.cancel()`)         | Manual (requires flag or event)   | Manual (requires IPC signal)      |
+
+</div>
 
 ### Decision Framework
 
@@ -1014,6 +1022,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
 | push(5)   | [5]                  |,      |
@@ -1022,6 +1032,8 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+</div>
 
 ## Intuition
 

@@ -24,6 +24,8 @@ Receiver, transferring ownership.
 
 ### Channel Categories
 
+<div class="table-wrap">
+
 | Type                | Producers | Consumers | Buffering         | Use Case                 |
 | ------------------- | --------- | --------- | ----------------- | ------------------------ |
 | `std::sync::mpsc`   | Multiple  | Single    | Bounded/Unbounded | Simple work distribution |
@@ -31,6 +33,8 @@ Receiver, transferring ownership.
 | `oneshot`           | Single    | Single    | None              | Single response          |
 | `broadcast`         | Single    | Multiple  | Bounded           | Pub/sub notifications    |
 | `watch`             | Single    | Multiple  | Single value      | Configuration updates    |
+
+</div>
 
 ## `std::sync::mpsc`
 
@@ -93,12 +97,16 @@ let (tx, rx) = mpsc::sync_channel(10);   // bounded, capacity 10
 
 ### Send and Recv Semantics
 
+<div class="table-wrap">
+
 | Method                 | Blocking?                        | Returns                       |
 | ---------------------- | -------------------------------- | ----------------------------- |
 | `tx.send(val)`         | Yes (if bounded and full)        | `Result<(), SendError<T>>`    |
 | `rx.recv()`            | Yes (if empty and senders exist) | `Result<T, RecvError>`        |
 | `rx.try_recv()`        | No                               | `Result<T, TryRecvError>`     |
 | `rx.recv_timeout(dur)` | Yes (with timeout)               | `Result<T, RecvTimeoutError>` |
+
+</div>
 
 ## `tokio::sync::mpsc`
 
@@ -302,12 +310,16 @@ async fn main() {
 
 ### Watch vs Broadcast
 
+<div class="table-wrap">
+
 | Property     | `watch`                | `broadcast`             |
 | ------------ | ---------------------- | ----------------------- |
 | Messages     | Single latest value    | All messages in a queue |
 | Buffer       | 1 (always)             | Configurable            |
 | Lag handling | No lag, always latest | `RecvError::Lagged`     |
 | Use case     | Configuration updates  | Event streams, logs     |
+
+</div>
 
 ## Channel Patterns
 
@@ -565,6 +577,8 @@ match rx.try_recv() {
 
 ### Buffer Size Selection
 
+<div class="table-wrap">
+
 | Buffer Size | Behavior                                          |
 | ----------- | ------------------------------------------------- |
 | 0           | Synchronous handoff, sender waits for receiver   |
@@ -572,6 +586,8 @@ match rx.try_recv() {
 | 10-100      | General purpose, balances throughput and latency |
 | 1000+       | High throughput, producers rarely block          |
 | Unbounded   | No backpressure, risk of memory exhaustion       |
+
+</div>
 
 ### Throughput Considerations
 

@@ -28,12 +28,16 @@ Tools are essential for geometry, mechanics, and physics at university level.
 
 ### Board Coverage
 
+<div class="table-wrap">
+
 | Board   | Paper   | Notes                                                                     |
 | ------- | ------- | ------------------------------------------------------------------------- |
 | AQA     | Paper 1 | 3D vectors, scalar product, vector product, planes, scalar triple product |
 | Edexcel | FP1     | 3D vectors, scalar product, vector product, lines and planes              |
 | OCR (A) | Paper 1 | 3D vectors, scalar product, vector product, planes                        |
 | CIE     | P1      | 3D vectors, scalar product, vector product, lines, planes, intersections  |
+
+</div>
 
 :::note
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
@@ -449,6 +453,8 @@ between any point on each line onto this perpendicular direction.
 
 ## 10. Key Results Summary
 
+<div class="table-wrap">
+
 | Quantity              | Formula                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------ |
 | Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta$ |
@@ -459,6 +465,8 @@ between any point on each line onto this perpendicular direction.
 | Point-plane distance  | $D = \dfrac{                                                                                        \| \mathbf{p}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$       |
 | Parallelepiped volume | $V =                                                                                                   \| \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          \| $        |
 | Skew line distance    | $D = \dfrac{                                                                                        \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$       |
+
+</div>
 
 <hr />
 
@@ -1084,6 +1092,8 @@ Representations of curves.
 
 ## 15. Key Results Summary
 
+<div class="table-wrap">
+
 | Result                   | Formula                                                                                                                       |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 | Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
@@ -1095,6 +1105,8 @@ Representations of curves.
 | Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      \| \mathbf{n}\_1\cdot\mathbf{n}\_2                                      \| }{ \| \mathbf{n}\_1                    \|                                    \| \mathbf{n}\_2 \| }$ |
 | Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             \| [\mathbf{a},\mathbf{b},\mathbf{c}]                                   \| $        |
 | Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 \| \mathbf{n}                                                           \| }$    |
+
+</div>
 
 ---
 

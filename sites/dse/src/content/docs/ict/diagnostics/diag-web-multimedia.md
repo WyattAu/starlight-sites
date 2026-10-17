@@ -104,6 +104,8 @@ examples. (d) Calculate the approximate file size of a 10-second audio clip at C
 
 **Solution:**
 
+<div class="table-wrap">
+
 | (a)          | Feature               | JPEG                                   | PNG                                    | GIF |
 | ------------ | --------------------- | -------------------------------------- | -------------------------------------- | --- |
 |  | Compression  | Lossy                 | Lossless                               | Lossless (limited)                     |
@@ -111,6 +113,8 @@ examples. (d) Calculate the approximate file size of a 10-second audio clip at C
 |  | Transparency | No                    | Yes (alpha channel)                    | Yes (1-bit, on/off)                    |
 |  | Animation    | No                    | No                                     | Yes (simple frame animation)           |
 |  | Best for     | Photographs           | Graphics with text, logos, screenshots | Simple animations, low-colour graphics |
+
+</div>
 
 (b) **PNG** is most appropriate because: (1) Logos have flat areas of colour and sharp edges -- PNG
 handles these perfectly with lossless compression. (2) Logos often need transparency (to be placed

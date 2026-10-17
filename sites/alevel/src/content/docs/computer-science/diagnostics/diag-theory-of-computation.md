@@ -63,12 +63,18 @@ More :
 
 (b) **State transition table:**
 
+<div class="table-wrap">
+
 | Current State  | Input 0 | Input 1 |
 | -------------- | ------- | ------- |
 | S0 (accepting) | S1      | S0      |
 | S1 (rejecting) | S0      | S1      |
 
+</div>
+
 (c) **Trace with input `10110`:**
+
+<div class="table-wrap">
 
 | Step | Input | Current State | Next State |
 | ---- | ----- | ------------- | ---------- |
@@ -78,6 +84,8 @@ More :
 | 3    | 1     | S1            | S1         |
 | 4    | 1     | S1            | S1         |
 | 5    | 0     | S1            | S0         |
+
+</div>
 
 Final state: S0 (accepting). The string `10110` is **accepted** because it contains two 0s (even
 number).
@@ -375,12 +383,16 @@ States: S0 (start, no relevant suffix), S1 (last char was '1'), S2 (last two cha
 
 Transitions:
 
+<div class="table-wrap">
+
 | From | On 0 | On 1 |
 | ---- | ---- | ---- |
 | S0   | S0   | S1   |
 | S1   | S2   | S1   |
 | S2   | S0   | S3   |
 | S3\* | S2   | S1   |
+
+</div>
 
 Trace with `1101`: S0 $\xrightarrow{1}$ S1 $\xrightarrow{1}$ S1 $\xrightarrow{0}$ S2
 $\xrightarrow{1}$ S3\* (accept).

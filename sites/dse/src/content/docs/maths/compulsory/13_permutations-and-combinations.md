@@ -268,11 +268,15 @@ Group.
 
 A class has 7 boys and 5 girls. In how many ways can a team of 4 be chosen with at least 2 girls?
 
+<div class="table-wrap">
+
 | Girls | Boys | Ways                                                    |
 | ----- | ---- | ------------------------------------------------------- |
 | 2     | 2    | $\binom{5}{2} \times \binom{7}{2} = 10 \times 21 = 210$ |
 | 3     | 1    | $\binom{5}{3} \times \binom{7}{1} = 10 \times 7 = 70$   |
 | 4     | 0    | $\binom{5}{4} \times \binom{7}{0} = 5 \times 1 = 5$     |
+
+</div>
 
 Total: $210 + 70 + 5 = 285$.
 
@@ -330,6 +334,8 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 
 ## Summary Table
 
+<div class="table-wrap">
+
 | Topic             | Formula                                            |
 | ----------------- | -------------------------------------------------- |
 | Factorial         | $n! = n(n-1)(n-2)\cdots 1$                         |
@@ -339,6 +345,8 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 | Circular          | $(n - 1)!$                                         |
 | Row sum           | $\sum_{k=0}^n \binom{n}{k} = 2^n$                  |
 | Pascal's identity | $\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$ |
+
+</div>
 
 ---
 
@@ -386,11 +394,15 @@ Total: $24 \times 10 \times 6 = 1440$.
 1. **Question:** A committee of 5 is chosen from 4 men and 6 women. How many committees have more
    women than men?
 
+<div class="table-wrap">
+
 | Women | Men | Ways                                           |
 | ----- | --- | ---------------------------------------------- |
 | 3     | 2   | $\binom{6}{3}\binom{4}{2} = 20 \times 6 = 120$ |
 | 4     | 1   | $\binom{6}{4}\binom{4}{1} = 15 \times 4 = 60$  |
 | 5     | 0   | $\binom{6}{5}\binom{4}{0} = 6 \times 1 = 6$    |
+
+</div>
 
 Total: $120 + 60 + 6 = 186$.
 
@@ -522,11 +534,15 @@ $$
 
 **Direct counting verification:**
 
+<div class="table-wrap">
+
 | Digits | Letters | Ways                                                              |
 | ------ | ------- | ----------------------------------------------------------------- |
 | 1      | 3       | $\binom{3}{1}\binom{5}{3} \cdot 4! = 3 \times 10 \times 24 = 720$ |
 | 2      | 2       | $\binom{3}{2}\binom{5}{2} \cdot 4! = 3 \times 10 \times 24 = 720$ |
 | 3      | 1       | $\binom{3}{3}\binom{5}{1} \cdot 4! = 1 \times 5 \times 24 = 120$  |
+
+</div>
 
 Total: $720 + 720 + 120 = 1560$. Correct.
 
@@ -852,10 +868,14 @@ are red?
 <details>
 <summary>Solution</summary>
 
+<div class="table-wrap">
+
 | Red | Blue | Ways                                                  |
 | --- | ---- | ----------------------------------------------------- |
 | 3   | 2    | $\binom{4}{3} \times \binom{6}{2} = 4 \times 15 = 60$ |
 | 4   | 1    | $\binom{4}{4} \times \binom{6}{1} = 1 \times 6 = 6$   |
+
+</div>
 
 Total: $60 + 6 = 66$.
 

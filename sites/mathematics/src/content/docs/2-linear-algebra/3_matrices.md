@@ -433,6 +433,8 @@ factor of 57. $\blacksquare$
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | $AB = BA$ | no | $\begin{pmatrix}0&1\\0&0\end{pmatrix}\begin{pmatrix}1&0\\0&0\end{pmatrix} \neq$ the reverse, and neither product is zero |
@@ -443,6 +445,8 @@ factor of 57. $\blacksquare$
 | $A^2 = A$ implies $A = 0$ or $A = I$ | no | projections satisfy $A^2 = A$ and are neither; they are diagonalisable with eigenvalues $0$ and $1$ |
 | An invertible matrix times a singular one is singular | no | the product of an invertible and a singular matrix *is* singular -- this row is true, and it is worth checking why |
 | $\operatorname{rank}(AB) \le \min(\operatorname{rank}A, \operatorname{rank}B)$ | yes | composition cannot increase rank, which is why multiplying cannot promote a singular matrix to invertible |
+
+</div>
 
 The first row is the one to internalise, because non-commutativity is the
 signature of matrices. A good concrete check: rotation matrices in the plane

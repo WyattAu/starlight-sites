@@ -35,11 +35,15 @@ for avoiding this class of problems.
 
 Unnormalized schemas suffer from three categories of anomalies:
 
+<div class="table-wrap">
+
 | Anomaly Type | Description                                            | Concrete Example                                                                 |
 | ------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | Insertion    | Cannot add a fact without adding unrelated facts       | Cannot record a new department until at least one employee is assigned to it     |
 | Deletion     | Deleting one fact unintentionally removes another      | Deleting the last employee in a department also removes the department"s address |
 | Update       | Updating a single fact requires touching multiple rows | Renaming a department requires updating every employee row in that department    |
+
+</div>
 
 These are not theoretical concerns. In production systems with millions of rows, an update anomaly
 Means a single `UPDATE` statement that touches 50,000 rows, requires a table lock, and risks partial
@@ -158,12 +162,16 @@ Dependency can be derived from them).
 The following rules are not axioms but can be proven from Armstrong's three axioms. They are used
 Constantly in normalization proofs:
 
+<div class="table-wrap">
+
 | Rule               | Statement                                                          | Proof Strategy              |
 | ------------------ | ------------------------------------------------------------------ | --------------------------- |
 | Union              | If $X \rightarrow Y$ and $X \rightarrow Z$ Then $X \rightarrow YZ$  | Augmentation + Transitivity |
 | Decomposition      | If $X \rightarrow YZ$ Then $X \rightarrow Y$ and $X \rightarrow Z$  | Reflexivity + Transitivity  |
 | Pseudotransitivity | If $X \rightarrow Y$ and $YW \rightarrow Z$ Then $XW \rightarrow Z$ | Augmentation + Transitivity |
 | Composition        | If $X \rightarrow Y$ and $W \rightarrow Z$ Then $XW \rightarrow YZ$ | Augmentation + Union        |
+
+</div>
 
 Proof of the Union rule:
 
@@ -491,12 +499,16 @@ Non-trivial functional dependency $X \rightarrow Y$ that holds in $R$, $X$ is a 
 
 Compare with 3NF:
 
+<div class="table-wrap">
+
 | Property                        | 3NF                                                                 | BCNF                                                        |
 | ------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Condition for $X \rightarrow A$ | $X$ is a superkey, OR $A$ is prime                                  | $X$ is a superkey (no exception)                            |
 | Strictness                      | Less strict                                                         | Strictest normal form based on FDs alone                    |
 | Always exists                   | Yes, dependency-preserving and lossless decomposition always exists | Not always; may require sacrificing dependency preservation |
 | Practical recommendation        | Default target for OLTP schemas                                     | Apply when possible; fall back to 3NF when necessary        |
+
+</div>
 
 BCNF removes the "prime attribute" exception from 3NF. Every determinant must be a superkey, full
 Stop.
@@ -653,6 +665,8 @@ Join SP ⋈ SJ ⋈ PJ:
 
 ### Normal Form Summary
 
+<div class="table-wrap">
+
 | Normal Form | Eliminates                                                      | Condition                                                         | Practical Relevance                                        |
 | ----------- | --------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- |
 | 1NF         | Repeating groups, non-atomic values                             | Every attribute is atomic                                         | Mandatory for any relational database                      |
@@ -661,6 +675,8 @@ Join SP ⋈ SJ ⋈ PJ:
 | BCNF        | Determinants that are not superkeys (prime attribute exception) | For every non-trivial $X \rightarrow Y$: $X$ is a superkey        | Apply when possible; may sacrifice dependency preservation |
 | 4NF         | Multi-valued dependencies                                       | For every non-trivial $X \twoheadrightarrow Y$: $X$ is a superkey | Rare; occurs with independent multi-valued attributes      |
 | 5NF         | Join dependencies not implied by candidate keys                 | For every non-trivial JD: each component is a superkey            | Extremely rare; mostly theoretical                         |
+
+</div>
 
 ## Normalization Examples
 
@@ -922,11 +938,15 @@ the constraint.
 
 This is the central practical tension in normalization theory:
 
+<div class="table-wrap">
+
 | Property              | 3NF Decomposition | BCNF Decomposition    |
 | --------------------- | ----------------- | --------------------- |
 | Lossless-join         | Always achievable | Always achievable     |
 | Dependency-preserving | Always achievable | NOT always achievable |
 | Redundancy            | Possible (minor)  | None                  |
+
+</div>
 
 **Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 3NF that is both lossless and dependency-preserving.
@@ -1160,6 +1180,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 
 ### Denormalization Tradeoffs
 
+<div class="table-wrap">
+
 | Tradeoff             | Impact                                                                            |
 | -------------------- | --------------------------------------------------------------------------------- |
 | Write amplification  | A single logical update may require updating multiple rows across multiple tables |
@@ -1167,6 +1189,8 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Storage cost         | Duplicated data consumes more disk space ( negligible with modern storage)        |
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
+
+</div>
 :::
 
 :::caution

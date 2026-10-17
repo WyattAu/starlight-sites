@@ -30,6 +30,8 @@ TLS operates between the transport layer and the application layer, encrypting a
 
 ## TLS History and Versions
 
+<div class="table-wrap">
+
 | Version | RFC      | Year | Status                                    |
 | ------- | -------- | ---- | ----------------------------------------- |
 | SSL 3.0 | RFC 6101 | 1996 | Deprecated (POODLE attack, CVE-2014-3566) |
@@ -37,6 +39,8 @@ TLS operates between the transport layer and the application layer, encrypting a
 | TLS 1.1 | RFC 4346 | 2006 | Deprecated                                |
 | TLS 1.2 | RFC 5246 | 2008 | Current (widespread support)              |
 | TLS 1.3 | RFC 8446 | 2018 | Current (recommended)                     |
+
+</div>
 
 TLS 1.0 and 1.1 were officially deprecated by the IETF in June 2021 (RFC 8996). TLS 1.2 remains
 Widely supported and is the minimum acceptable version for any new deployment. TLS 1.3 is the
@@ -216,11 +220,15 @@ TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
 
 TLS 1.3 simplifies cipher suites to only specify AEAD and hash:
 
+<div class="table-wrap">
+
 | Cipher Suite                   | AEAD              | Hash    | Key Size |
 | ------------------------------ | ----------------- | ------- | -------- |
 | `TLS_AES_256_GCM_SHA384`       | AES-256-GCM       | SHA-384 | 256-bit  |
 | `TLS_CHACHA20_POLY1305_SHA256` | ChaCha20-Poly1305 | SHA-256 | 256-bit  |
 | `TLS_AES_128_GCM_SHA256`       | AES-128-GCM       | SHA-256 | 128-bit  |
+
+</div>
 
 All TLS 1.3 cipher suites provide forward secrecy by default (ephemeral DH key exchange is
 Mandatory).
@@ -294,12 +302,16 @@ Certificate:
 
 ### Certificate Formats
 
+<div class="table-wrap">
+
 | Format        | Extension          | Contents                                                             | Encoding         |
 | ------------- | ------------------ | -------------------------------------------------------------------- | ---------------- |
 | PEM           | `.pem``.crt``.cer` | Base64-encoded DER, ASCII-armored with `-----BEGIN CERTIFICATE-----` | Base64           |
 | DER           | `.der``.crt`       | Binary X.509 certificate                                             | Binary           |
 | PKCS#12 / PFX | `.p12``.pfx`       | Certificate chain + private key, encrypted                           | Binary           |
 | PKCS#7 / P7B  | `.p7b``.p7c`       | Certificate chain (no private key)                                   | Base64 or Binary |
+
+</div>
 
 ```bash
 ## Convert between formats
@@ -347,6 +359,8 @@ Forum, which sets baseline requirements for certificate issuance.
 
 ### Major Public CAs
 
+<div class="table-wrap">
+
 | CA            | Free Tier          | Notes                                   |
 | ------------- | ------------------ | --------------------------------------- |
 | Let's Encrypt | Yes (90-day certs) | Automated via ACME (certbot, acme.sh)   |
@@ -354,6 +368,8 @@ Forum, which sets baseline requirements for certificate issuance.
 | GlobalSign    | No                 | Enterprise and IoT                      |
 | Sectigo       | Yes (limited)      | Formerly Comodo                         |
 | ZeroSSL       | Yes (90-day certs) | ACME support, Let's Encrypt alternative |
+
+</div>
 
 ### ACME Protocol (RFC 8555)
 
@@ -505,6 +521,8 @@ Produces a temporary key pair for each session, and the private key is discarded
 Handshake. The server's long-term key (from its certificate) is only used for authentication
 (signing the key exchange parameters), not for key derivation.
 
+<div class="table-wrap">
+
 | Key Exchange   | Forward Secrecy | Performance                      |
 | -------------- | --------------- | -------------------------------- |
 | RSA            | No              | Fast                             |
@@ -512,6 +530,8 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE          | Yes             | Fast (elliptic curve operations) |
 | ECDHE + P-256  | Yes             | Good balance                     |
 | ECDHE + X25519 | Yes             | Best performance                 |
+
+</div>
 :::
 
 :::caution
@@ -710,6 +730,8 @@ TLS alerts communicate errors and closure notifications. They are 2 bytes: alert
 
 Common alerts:
 
+<div class="table-wrap">
+
 | Description           | Value | Meaning                                        |
 | --------------------- | ----- | ---------------------------------------------- |
 | `close_notify`        | 0     | Clean connection closure                       |
@@ -720,6 +742,8 @@ Common alerts:
 | `certificate_revoked` | 44    | Certificate has been revoked                   |
 | `illegal_parameter`   | 47    | Invalid value in handshake field               |
 | `decrypt_error`       | 51    | Handshake cryptographic operation failed       |
+
+</div>
 
 In TLS 1.3, most alerts result in immediate connection termination. The server cannot send an error
 Alert after the handshake completes (to prevent middleboxes from interpreting alerts as protocol

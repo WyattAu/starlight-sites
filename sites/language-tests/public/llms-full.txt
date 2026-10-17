@@ -512,6 +512,8 @@ Speaking is tested face-to-face (IELTS) or via recording (TOEFL, DET). Fluency, 
 
 Choosing the right test depends on your target institution, timeline, and personal preferences.
 
+<div class="table-wrap">
+
 | Feature | IELTS | TOEFL iBT | DET | Cambridge C1 |
 | --- | --- | --- | --- | --- |
 | Format | Paper or computer | Computer only | Online (at home) | Paper or computer |
@@ -521,6 +523,8 @@ Choosing the right test depends on your target institution, timeline, and person
 | Cost | $245 to $260 | $200 to $300 | $59 | $200 to $300 |
 | Results | 13 calendar days | 6 to 10 days | 48 hours | 2 to 4 weeks |
 | Acceptance | Global | US/Canada focused | 4,000+ institutions | Global |
+
+</div>
 
 ### Which Test Should I Choose?
 
@@ -566,6 +570,8 @@ Preparing for a language proficiency test requires consistent practice across al
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Vocabulary flashcards: 15 minutes |
@@ -573,6 +579,8 @@ Preparing for a language proficiency test requires consistent practice across al
 | Afternoon | Listening practice: one lecture or podcast (20 minutes) |
 | Evening | Writing or speaking practice: 20 minutes |
 | Weekend | Full practice test + review |
+
+</div>
 
 ---
 

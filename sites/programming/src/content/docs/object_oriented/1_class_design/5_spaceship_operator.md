@@ -29,11 +29,15 @@ Mechanism for defining all relational comparisons in a single declaration. Combi
 C++20 introduced the **spaceship operator** `<=>` as a unified comparison mechanism. It returns one
 of three comparison category types from `<compare>`:
 
+<div class="table-wrap">
+
 | Category                | Meaning                                      | Total ordering? | Equality substitutable? |
 | ----------------------- | -------------------------------------------- | :-------------: | :---------------------: |
 | `std::strong_ordering`  | Total, with substitutable equality           |       Yes       |           Yes           |
 | `std::weak_ordering`    | Total, but equality may not be substitutable |       Yes       |           No            |
 | `std::partial_ordering` | Partial (incomparable values possible)       |       No        |           No            |
+
+</div>
 
 $$
 \texttt{strong\_ordering} \subset \texttt{weak\_ordering} \subset \texttt{partial\_ordering}
@@ -210,6 +214,8 @@ Synthesized operators use the `<=>` result and `==` for equality.
 
 ### When Synthesis Does Not Occur
 
+<div class="table-wrap">
+
 | Condition                              | Synthesized Operators?                                  |
 | :------------------------------------- | :------------------------------------------------------ |
 | `= default` returns `strong_ordering`  | Yes, all six operators                                 |
@@ -217,6 +223,8 @@ Synthesized operators use the `<=>` result and `==` for equality.
 | `= default` returns `partial_ordering` | Yes, all six operators                                 |
 | `operator<=>` is user-defined          | Only `!=``<``>``<=``>=` (if `==` is separately defined) |
 | Only `operator==` is defined           | `!=` is synthesized, but not ordering operators         |
+
+</div>
 
 ```cpp
 #include <compare>

@@ -56,12 +56,16 @@ Assembled in China or India. GVCs account for approximately 70% of global trade.
 A trading bloc is a group of countries that agree to reduce or eliminate trade barriers among
 Themselves. Trading blocs vary in the degree of integration:
 
+<div class="table-wrap">
+
 | Type                            | Description                                                                                   | Example                                                  |
 | ------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | **Free trade area**             | Members eliminate tariffs on trade among themselves but maintain independent external tariffs | NAFTA/USMCA (USA, Mexico, Canada); ASEAN Free Trade Area |
 | **Customs union**               | Free trade area plus a common external tariff on imports from non-members                     | Southern African Customs Union (SACU); Mercosur          |
 | **Common market**               | Customs union plus free movement of capital and labour                                        | European Single Market (1993)                            |
 | **Economic and monetary union** | Common market plus a common currency and coordinated monetary policy                          | Eurozone (20 EU member states using the euro)            |
+
+</div>
 
 **The European Union.** The EU (27 member states, population approximately 450 million) is the
 World's most advanced trading bloc, with a single market ensuring the free movement of goods,
@@ -146,6 +150,8 @@ The fair trade price includes two components:
 
 ### Types of Aid
 
+<div class="table-wrap">
+
 | Type                 | Description                                                 | Source                                 | Advantages                                                          | Disadvantages                                                             |
 | -------------------- | ----------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Bilateral aid**    | Government-to-government                                    | Donor government                       | Can be targeted to specific priorities; strengthens diplomatic ties | May serve donor political interests; tied aid may benefit donor companies |
@@ -154,6 +160,8 @@ The fair trade price includes two components:
 | **Humanitarian aid** | Emergency assistance (food, shelter, medical) during crises | Multiple sources                       | Saves lives; rapid response                                         | Does not address underlying causes; can create dependency                 |
 | **Development aid**  | Long-term support for economic and social development       | Governments, multilateral institutions | Addresses root causes of poverty                                    | Slow to show results; effectiveness varies                                |
 | **Tied aid**         | Requires recipient to spend on goods/services from donor    | Donor government                       | Ensures aid benefits donor economy                                  | Reduces value of aid by 15--30%; may not meet recipient needs             |
+
+</div>
 
 ### The Aid Effectiveness Debate
 

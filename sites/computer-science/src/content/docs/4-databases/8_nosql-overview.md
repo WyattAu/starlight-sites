@@ -106,12 +106,16 @@ Following three guarantees simultaneously:
 Since network partitions are inevitable in distributed systems, the real trade-off is between
 **consistency** and **availability** during a partition.
 
+<div class="table-wrap">
+
 | System                   | Choice | Notes                                |
 | ------------------------ | ------ | ------------------------------------ |
 | Redis Cluster            | CP     | Partition: some nodes unreachable    |
 | Cassandra                | AP     | Tunable consistency per operation    |
 | MongoDB                  | CP     | Primary unavailable during partition |
 | RDBMS (with replication) | CA     | Not partition-tolerant (single node) |
+
+</div>
 
 **PACELC.** Extension of CAP: in the absence of partitions, the trade-off is between **latency** And
 **consistency**.
@@ -124,6 +128,8 @@ choice for strongly Structured data with complex queries and transactional requi
 
 ### 8.7 Key Relationships
 
+<div class="table-wrap">
+
 | Feature | Document Store | Key-Value | Graph | Column-Family |
 | ----------------- | -------------- | --------- | -------- | ------------- |
 | Schema flexibility | High | N/A | Medium | Medium |
@@ -131,6 +137,8 @@ choice for strongly Structured data with complex queries and transactional requi
 | Horizontal scaling | Good | Excellent | Moderate | Excellent |
 | Join support | None | None | Native | None |
 | Best for | Content mgmt | Caching | Relations | Time-series |
+
+</div>
 
 ## Intuition
 

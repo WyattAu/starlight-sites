@@ -36,10 +36,14 @@ Update propagates slowly, a garbage collector pause causes a timeout, a cross-da
 Degrades. Any distributed system must tolerate partitions, which means the real choice is between
 **CP** and **AP**:
 
+<div class="table-wrap">
+
 | Category | Strategy                                                       | Example Systems                                             |
 | -------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
 | CP       | Preserve consistency, sacrifice availability during partitions | PostgreSQL (sync replicas), HBase, Redis (with replication) |
 | AP       | Preserve availability, sacrifice consistency during partitions | MongoDB (default, w:1), Cassandra, DynamoDB, CouchDB, Riak  |
+
+</div>
 
 ### The PACELC Theorem
 
@@ -63,6 +67,8 @@ Supports tunable consistency per operation.
 
 Consistency is not binary. There is a spectrum of consistency models, from strongest to weakest:
 
+<div class="table-wrap">
+
 | Model              | Guarantee                                                         | Examples                               |
 | ------------------ | ----------------------------------------------------------------- | -------------------------------------- |
 | Linearizable       | Operations appear to execute atomically and in real-time order    | Single-node databases, ZooKeeper       |
@@ -73,6 +79,8 @@ Consistency is not binary. There is a spectrum of consistency models, from stron
 | Read-your-writes   | A reader always sees its own writes                               | Most systems with sticky sessions      |
 | Session            | Consistency within a single client session                        | MongoDB (read preference)              |
 | Eventual           | If no new writes, all reads eventually converge to the same value | Cassandra, CouchDB, DynamoDB (default) |
+
+</div>
 
 :::caution
 That if you stop writing, the system will converge. In practice, convergence time depends on the
@@ -217,6 +225,8 @@ Store -- it supports a rich set of data structures and operations.
 
 #### Redis Data Structures
 
+<div class="table-wrap">
+
 | Structure   | Commands                           | Use Cases                                   |
 | ----------- | ---------------------------------- | ------------------------------------------- |
 | Strings     | `GET``SET``INCR``SETEX``GETSET`    | Caching, counters, rate limiting            |
@@ -228,6 +238,8 @@ Store -- it supports a rich set of data structures and operations.
 | HyperLogLog | `PFADD``PFCOUNT``PFMERGE`          | Cardinality estimation (unique visitors)    |
 | Streams     | `XADD``XREAD``XREADGROUP``XACK`    | Event sourcing, message queues, time series |
 | Geospatial  | `GEOADD``GEORADIUS``GEOSEARCH`     | Location-based features                     |
+
+</div>
 
 #### Redis Persistence
 
@@ -244,11 +256,15 @@ appendfsync everysec   # fsync once per second (good balance)
 # appendfsync no        # let OS decide (fastest, least safe)
 ```
 
+<div class="table-wrap">
+
 | Mode      | Pros                                                     | Cons                                  |
 | --------- | -------------------------------------------------------- | ------------------------------------- |
 | RDB       | Compact files, fast restart, low overhead                | Data loss between snapshots (minutes) |
 | AOF       | Minimal data loss (1 second at most)                     | Larger files, slower restart          |
 | RDB + AOF | Best of both (AOF for durability, RDB for restart speed) | More disk usage, more complexity      |
+
+</div>
 
 #### Redis Clustering
 
@@ -332,6 +348,8 @@ Availability across multiple data centers.
 
 #### Consistency Levels
 
+<div class="table-wrap">
+
 | Level          | Description                                                         |
 | -------------- | ------------------------------------------------------------------- |
 | `ONE`          | Coordinator returns after one replica responds (fastest)            |
@@ -340,6 +358,8 @@ Availability across multiple data centers.
 | `LOCAL_QUORUM` | Quorum within the local data center only                            |
 | `EACH_QUORUM`  | Quorum in each data center (for multi-DC writes)                    |
 | `SERIAL`       | Linearizable consistency for lightweight transactions               |
+
+</div>
 
 For reads and writes to be consistent (read-your-writes), the sum of read and write consistency
 Levels must exceed the replication factor:
@@ -658,6 +678,8 @@ stateDiagram-v2
 CRDTs are data structures designed to be replicated across multiple nodes with automatic conflict
 Resolution. They guarantee eventual consistency without requiring coordination.
 
+<div class="table-wrap">
+
 | CRDT Type    | Example Operations          | Conflict Resolution                 |
 | ------------ | --------------------------- | ----------------------------------- |
 | G-Counter    | Increment                   | Take maximum                        |
@@ -665,6 +687,8 @@ Resolution. They guarantee eventual consistency without requiring coordination.
 | G-Set        | Add                         | Union (set merge)                   |
 | OR-Set       | Add, Remove                 | Observed-remove (tombstone-based)   |
 | LWW-Register | Assign value with timestamp | Last-writer-wins                    |
+
+</div>
 
 CRDTs are used in Riak, Redis CRDT module, and some edge computing frameworks. The trade-off: they
 only support a limited set of operations (no arbitrary transactions), and some types accumulate
@@ -705,6 +729,8 @@ SSTable Level N (disk)  ← oldest, largest
 
 **LSM Tree vs B-Tree:**
 
+<div class="table-wrap">
+
 | Aspect              | LSM Tree                             | B-Tree                               |
 | ------------------- | ------------------------------------ | ------------------------------------ |
 | Write throughput    | Very high (sequential writes only)   | Moderate (random writes for updates) |
@@ -713,6 +739,8 @@ SSTable Level N (disk)  ← oldest, largest
 | Read amplification  | High (multiple levels)               | Low (single traversal)               |
 | Space amplification | Moderate (compaction overhead)       | Low to moderate (page fragmentation) |
 | Compaction          | Required (background merge)          | Not required (in-place updates)      |
+
+</div>
 :::
 
 :::note
@@ -743,10 +771,14 @@ Dynamo-style architecture.
 
 **Capacity modes:**
 
+<div class="table-wrap">
+
 | Mode        | Characteristics                                                      |
 | ----------- | -------------------------------------------------------------------- |
 | Provisioned | Specify read/write capacity units; cheaper for predictable workloads |
 | On-Demand   | Auto-scales; pay per request; more expensive for steady workloads    |
+
+</div>
 
 **Global Secondary Indexes (GSI):**
 

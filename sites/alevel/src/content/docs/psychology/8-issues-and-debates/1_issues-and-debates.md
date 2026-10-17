@@ -292,6 +292,8 @@ been presented as universal, when they may in fact be culturally specific.
 
 ## Key Studies
 
+<div class="table-wrap">
+
 | Study                                      | Researcher(s)                | Year | Method             | Key Findings                                                                 | Evaluation                                                                       |
 | ------------------------------------------ | ---------------------------- | ---- | ------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Gene-environment interaction in depression | Caspi et al.                 | 2003 | Longitudinal study | 5-HTT gene variant + stressful life events → higher depression risk          | Supports interactionism; single gene focus; replication issues                   |
@@ -301,7 +303,11 @@ been presented as universal, when they may in fact be culturally specific.
 | Cultural variations in attachment          | Van Ijzendoorn & Kroonenberg | 1988 | Meta-analysis      | Secure attachment most common globally; cultural variation in insecure types | Supports universality; imposed etic criticism                                    |
 | Readiness potential                        | Libet                        | 1985 | Lab experiment     | Brain activity preceded conscious decision to act                            | Challenges free will; methodology criticised; may not apply to complex decisions |
 
+</div>
+
 ## Key Terminology
+
+<div class="table-wrap">
 
 | Term                   | Definition                                                                                                  |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -325,6 +331,8 @@ been presented as universal, when they may in fact be culturally specific.
 | Etic approach          | Studying behaviour from outside a culture, using universal concepts                                         |
 | Imposed etic           | Imposing the concepts or methods of one culture onto another without checking their appropriateness         |
 | Androcentrism          | Male-centred bias, in which male experience is treated as the norm                                          |
+
+</div>
 
 ## Evaluation Points
 

@@ -16,6 +16,8 @@ description: "Cross-references create connections between related content: They 
 
 ## Mathematics Chain
 
+<div class="table-wrap">
+
 | Topic | Prerequisite | Next Level | Site |
 | ------- | ------------- | ------------ | ------ |
 | Algebra | Basic algebra | Linear algebra | mathematics |
@@ -31,7 +33,11 @@ description: "Cross-references create connections between related content: They 
 | Functional analysis | Linear algebra + real analysis | Quantum mechanics | physics |
 | Group theory | Abstract algebra | Particle physics | physics |
 
+</div>
+
 ## Physics Chain
+
+<div class="table-wrap">
 
 | Topic | Prerequisite | Next Level | Site |
 | ------- | ------------- | ------------ | ------ |
@@ -48,7 +54,11 @@ description: "Cross-references create connections between related content: They 
 | Classical mechanics | Calculus + linear algebra | Quantum mechanics | physics |
 | Special relativity | Classical mechanics + electromagnetism | General relativity | physics |
 
+</div>
+
 ## Programming Chain
+
+<div class="table-wrap">
 
 | Topic | Prerequisite | Next Level | Site |
 | ------- | ------------- | ------------ | ------ |
@@ -63,7 +73,11 @@ description: "Cross-references create connections between related content: They 
 | Databases | SQL basics | Query optimization | computer-science |
 | Operating systems | C programming | Virtualisation | computer-science |
 
+</div>
+
 ## Language Chains
+
+<div class="table-wrap">
 
 | From | To | Connection |
 | ------ | ---- | ------------ |
@@ -78,7 +92,11 @@ description: "Cross-references create connections between related content: They 
 | Swift | Kotlin | Mobile development paradigms |
 | Elixir | Erlang | Functional concurrency |
 
+</div>
+
 ## Cross-Site Connections
+
+<div class="table-wrap">
 
 | From Site | To Site | Shared Topic |
 | ----------- | --------- | -------------- |
@@ -93,6 +111,8 @@ description: "Cross-references create connections between related content: They 
 | programming | machine-learning | Python/R for data science |
 | chemistry | physics | Quantum chemistry, thermodynamics |
 | chemistry | biology | Biochemistry, molecular biology |
+
+</div>
 
 ## Intuition
 

@@ -340,6 +340,8 @@ C-compatible types only.
 
 At a C/C++ boundary, several ABI properties must align:
 
+<div class="table-wrap">
+
 | Property           | C ABI                         | C++ ABI (Itanium, used on Linux/macOS) |
 | :----------------- | :---------------------------- | :------------------------------------- |
 | Name mangling      | None, symbol = function name | Encodes types, namespaces, templates   |
@@ -347,6 +349,8 @@ At a C/C++ boundary, several ABI properties must align:
 | Struct layout      | Same as C++ POD               | Same as C for POD; non-POD differs     |
 | Exception handling | N/A (no exceptions)           | Zero-cost with unwind tables           |
 | `bool` size        | 1 byte (implementation-def)   | Same as C (implementation-defined)     |
+
+</div>
 
 ### Itanium C++ ABI vs MSVC C++ ABI
 
@@ -451,6 +455,8 @@ C++ on the same platform.
 
 The following C++ features break layout compatibility with C:
 
+<div class="table-wrap">
+
 | Feature                         | Effect on Layout                                |
 | :------------------------------ | :---------------------------------------------- |
 | Virtual functions               | Adds vtable pointer ( 8 bytes at offset 0)      |
@@ -459,6 +465,8 @@ The following C++ features break layout compatibility with C:
 | Non-standard-layout members     | Reference members, `std::string`Etc.            |
 | Different compiler flags        | `-fpack-struct``#pragma pack` changes padding   |
 | Different alignment (`alignas`) | Adds padding not present in the C struct        |
+
+</div>
 
 ```cpp
 #include <cstdint>

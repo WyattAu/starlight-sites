@@ -79,11 +79,15 @@ The mode is the only measure of central tendency applicable to nominal (categori
 
 ### Comparison of the Three Measures
 
+<div class="table-wrap">
+
 | Measure | Uses all values | Affected by outliers | Applicable to categorical data | Unique value |
 | ------- | :-------------: | :------------------: | :----------------------------: | :----------: |
 | Mean    |       Yes       |         Yes          |               No               |     Yes      |
 | Median  |       No        |          No          |               No               |     Yes      |
 | Mode    |       No        |          No          |              Yes               |      No      |
+
+</div>
 
 ## Measures of Dispersion
 
@@ -235,6 +239,8 @@ This method simplifies calculation by working with small integer values of $d_i$
 <summary>Examples</summary>
 - The following frequency distribution records the marks of $40$ students:
 
+<div class="table-wrap">
+
 | Class interval | $f_i$ | Class mark $x_i$ | $d_i$ | $f_i d_i$ |
 | -------------- | ----- | ---------------- | ----- | --------- |
 | 30 -- 39       | 4     | 34.5             | $-2$  | $-8$      |
@@ -242,6 +248,8 @@ This method simplifies calculation by working with small integer values of $d_i$
 | 50 -- 59       | 14    | 54.5             | $0$   | $0$       |
 | 60 -- 69       | 10    | 64.5             | $1$   | $10$      |
 | 70 -- 79       | 4     | 74.5             | $2$   | $8$       |
+
+</div>
 
 Here $A = 54.5$, $h = 10$.
 
@@ -430,6 +438,8 @@ Transformed dataset $Y = \dfrac{X - 20}{6}$.
 1. **Question:** For the grouped frequency distribution below, find the mean and standard deviation
    using the coding method.
 
+<div class="table-wrap">
+
 | Class    | Frequency |
 | -------- | --------- |
 | 10 -- 19 | 5         |
@@ -437,6 +447,8 @@ Transformed dataset $Y = \dfrac{X - 20}{6}$.
 | 30 -- 39 | 18        |
 | 40 -- 49 | 10        |
 | 50 -- 59 | 5         |
+
+</div>
 
 <details>
 <summary>Answer</summary>
@@ -519,6 +531,8 @@ Multiplied by $2$ and then $5$ is added, find the new mean and new standard devi
 1. **Question:** The histogram below (described verbally) shows the distribution of weights of $50$
    apples. The class intervals and frequencies are:
 
+<div class="table-wrap">
+
 | Weight (g) | Frequency |
 | ---------- | --------- |
 | 100 -- 119 | 6         |
@@ -526,6 +540,8 @@ Multiplied by $2$ and then $5$ is added, find the new mean and new standard devi
 | 140 -- 159 | 20        |
 | 160 -- 179 | 8         |
 | 180 -- 199 | 2         |
+
+</div>
 
 Estimate the median weight from the cumulative frequency distribution.
 
@@ -755,6 +771,8 @@ The constraints may not be satisfiable with integers. In an exam, this would be 
 
 For the frequency distribution below, find the standard deviation using the assumed mean method.
 
+<div class="table-wrap">
+
 | Class    | Frequency |
 | -------- | --------- |
 | 5 -- 9   | 3         |
@@ -763,12 +781,16 @@ For the frequency distribution below, find the standard deviation using the assu
 | 20 -- 24 | 5         |
 | 25 -- 29 | 3         |
 
+</div>
+
 <details>
 <summary>Solution</summary>
 
 Class marks: $7$$12$$17$$22$$27$. $A = 17$$h = 5$.
 
 $d_i$: $-2$$-1$$0$$1$$2$.
+
+<div class="table-wrap">
 
 | $f_i$ | $d_i$ | $f_id_i$ | $f_id_i^2$ |
 | ----- | ----- | -------- | ---------- |
@@ -777,6 +799,8 @@ $d_i$: $-2$$-1$$0$$1$$2$.
 | 12    | 0     | 0        | 0          |
 | 5     | 1     | 5        | 5          |
 | 3     | 2     | 6        | 12         |
+
+</div>
 
 $n = 30$$\sum f_id_i = -2$$\sum f_id_i^2 = 36$.
 
@@ -896,6 +920,8 @@ $\sigma_Y = 10$ for any $k$.
 
 **DSE Practice 5.** The table shows the distribution of marks in a test.
 
+<div class="table-wrap">
+
 | Marks     | Frequency |
 | --------- | --------- |
 | 0 -- 19   | 4         |
@@ -903,6 +929,8 @@ $\sigma_Y = 10$ for any $k$.
 | 40 -- 59  | 22        |
 | 60 -- 79  | 14        |
 | 80 -- 100 | 5         |
+
+</div>
 
 Estimate the mean and standard deviation.
 
@@ -917,6 +945,8 @@ $d_i$: $-2$, $-1$, $0$, $1$, $2$ (approximately; the last class has width 21).
 
 Using approximate equal widths:
 
+<div class="table-wrap">
+
 | $f_i$ | $x_i$ | $d_i$ | $f_id_i$ | $f_id_i^2$ |
 | ----- | ----- | ----- | -------- | ---------- |
 | 4     | 9.5   | $-2$  | $-8$     | 16         |
@@ -924,6 +954,8 @@ Using approximate equal widths:
 | 22    | 49.5  | 0     | 0        | 0          |
 | 14    | 69.5  | 1     | 14       | 14         |
 | 5     | 89.5  | 2     | 10       | 20         |
+
+</div>
 
 $n = 55$$\sum f_id_i = 6$$\sum f_id_i^2 = 60$.
 
@@ -977,11 +1009,15 @@ $\blacksquare$
 
 **Problem.** Find the mean and variance of the following grouped data:
 
+<div class="table-wrap">
+
 | Class | Frequency |
 | ----- | --------- |
 | 0–10  | 3         |
 | 10–20 | 7         |
 | 20–30 | 5         |
+
+</div>
 
 **Solution.** Midpoints: $x = 5, 15, 25$. Frequencies: $f = 3, 7, 5$. Total: $n = 15$.
 
@@ -993,10 +1029,14 @@ $\blacksquare$
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
 | [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
 | [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
+
+</div>
 :::
 
 ## Intuition

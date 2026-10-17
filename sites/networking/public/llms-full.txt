@@ -500,6 +500,8 @@ Frames to the next hop.
 
 ## OSI vs TCP/IP Comparison
 
+<div class="table-wrap">
+
 | OSI Layer | OSI Name     | TCP/IP Layer | Protocols                      |
 | --------- | ------------ | ------------ | ------------------------------ |
 | 7         | Application  | Application  | HTTP, DNS, SSH, FTP, SMTP      |
@@ -509,6 +511,8 @@ Frames to the next hop.
 | 3         | Network      | Internet     | IPv4, IPv6, ICMP               |
 | 2         | Data Link    | Link         | Ethernet, Wi-Fi, PPP           |
 | 1         | Physical     | Link         | Fiber, copper, radio           |
+
+</div>
 
 ### Why TCP/IP Won
 
@@ -543,6 +547,8 @@ Ethernet Networks") capture the engineering pragmatism that drove TCP/IP adoptio
 
 Many textbooks and engineers use a hybrid 5-layer model that combines the best of both:
 
+<div class="table-wrap">
+
 | Layer | Name        | Description          |
 | ----- | ----------- | -------------------- |
 | 5     | Application | HTTP, DNS, SSH, TLS  |
@@ -550,6 +556,8 @@ Many textbooks and engineers use a hybrid 5-layer model that combines the best o
 | 3     | Network     | IPv4, IPv6, ICMP     |
 | 2     | Data Link   | Ethernet, Wi-Fi, ARP |
 | 1     | Physical    | Fiber, copper, radio |
+
+</div>
 
 This model is a practical compromise: it keeps the physical and data link layers separate (which is
 Useful for network engineering) while collapsing the upper layers (which is how real protocols
@@ -589,6 +597,8 @@ graph LR
 
 Each layer names its data unit differently:
 
+<div class="table-wrap">
+
 | Layer       | PDU Name                       | Size                           |
 | ----------- | ------------------------------ | ------------------------------ |
 | Physical    | Bits                           | Individual signal transitions  |
@@ -596,6 +606,8 @@ Each layer names its data unit differently:
 | Network     | Packet                         | Varies; limited by MTU         |
 | Transport   | Segment (TCP) / Datagram (UDP) | Up to 65,535 bytes (UDP limit) |
 | Application | Data / Message                 | Application-defined            |
+
+</div>
 
 ### Concrete Example: HTTP GET over Ethernet
 
@@ -624,6 +636,8 @@ the **MSS** (Maximum Segment Size) for a standard Ethernet link with no options.
 Understanding protocol overhead is critical for capacity planning and performance analysis. The
 Following table shows the overhead for common encapsulations:
 
+<div class="table-wrap">
+
 | Encapsulation                            | Header Overhead | Efficiency (1460-byte payload) |
 | ---------------------------------------- | --------------- | ------------------------------ |
 | Ethernet + IPv4 + TCP                    | 54 bytes        | 96.4%                          |
@@ -631,6 +645,8 @@ Following table shows the overhead for common encapsulations:
 | Ethernet + IPv4 + TCP + TLS              | 89 bytes        | 94.3%                          |
 | Ethernet + GRE + IPv4 + TCP              | 78 bytes        | 94.9%                          |
 | Ethernet + VXLAN + Ethernet + IPv4 + TCP | 90 bytes        | 94.2%                          |
+
+</div>
 
 For small packets (e.g., VoIP with 20-byte payload), the overhead is proportionally much higher. A
 20-byte VoIP payload in an Ethernet + IPv4 + UDP frame uses 20 + 20 + 8 + 14 + 4 = 66 bytes of
@@ -748,6 +764,8 @@ When a user clicks a link in their browser, data flows through the stack as foll
 Understanding the protocol stack matters for troubleshooting because symptoms at one layer often
 have root causes at another:
 
+<div class="table-wrap">
+
 | Symptom                        | Likely Layer  | Diagnostic Tool            |
 | ------------------------------ | ------------- | -------------------------- |
 | No link light                  | Physical      | `ethtool`Cable tester      |
@@ -760,6 +778,8 @@ have root causes at another:
 | ARP flux / MAC flapping        | Data Link     | `arp -a`Switch logs        |
 | MTU black hole                 | Network       | `ping -M do -s 1472`ICMP   |
 | TLS handshake failure          | Application   | `openssl s_client`Cipher   |
+
+</div>
 
 :::tip
 Checking IP configuration. Verify IP connectivity before checking TCP ports. Verify TCP connectivity
@@ -820,11 +840,15 @@ A **broadcast domain** is a network segment where broadcast packets (ff:ff:ff:ff
 Ports. By default, all ports on a switch are in the same broadcast domain. VLANs divide a switch
 into multiple broadcast domains. Routers separate broadcast domains entirely.
 
+<div class="table-wrap">
+
 | Device | Collision Domains | Broadcast Domains |
 | ------ | ----------------- | ----------------- |
 | Hub    | 1 (shared)        | 1 (shared)        |
 | Switch | 1 per port        | 1 per VLAN        |
 | Router | 1 per port        | 1 per port        |
+
+</div>
 
 ### VLANs and Layer 2 Segmentation
 
@@ -1040,12 +1064,18 @@ Working with IP addresses in binary is essential for understanding subnetting. C
 
 Quick reference for binary-to-decimal conversion:
 
+<div class="table-wrap">
+
 | Bit | Value | Bit | Value | Bit | Value | Bit | Value |
 | --- | ----- | --- | ----- | --- | ----- | --- | ----- |
 | 7   | 128   | 6   | 64    | 5   | 32    | 4   | 16    |
 | 3   | 8     | 2   | 4     | 1   | 2     | 0   | 1     |
 
+</div>
+
 ### Special IPv4 Addresses
+
+<div class="table-wrap">
 
 | Address         | Purpose                                                   |
 | --------------- | --------------------------------------------------------- |
@@ -1060,9 +1090,13 @@ Quick reference for binary-to-decimal conversion:
 | 198.51.100.0/24 | Documentation (RFC 5737, TEST-NET-2)                      |
 | 203.0.113.0/24  | Documentation (RFC 5737, TEST-NET-3)                      |
 
+</div>
+
 ### Address Classes (Historical)
 
 Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into five classes:
+
+<div class="table-wrap">
 
 | Class | First Octet Range | Network Bits | Host Bits | Default Subnet Mask | Usable Hosts |
 | ----- | ----------------- | ------------ | --------- | ------------------- | ------------ |
@@ -1071,6 +1105,8 @@ Before CIDR (Classless Inter-Domain Routing), IPv4 addresses were divided into f
 | C     | 192-223           | 24           | 8         | 255.255.255.0 (/24) | 254          |
 | D     | 224-239           | N/A          | N/A       | N/A (multicast)     | N/A          |
 | E     | 240-255           | N/A          | N/A       | N/A (reserved)      | N/A          |
+
+</div>
 
 The class was determined by the first few bits of the first octet:
 
@@ -1109,6 +1145,8 @@ Address. The subnet mask is the binary representation of this boundary.
 A /24 prefix means the first 24 bits are network bits. In binary:
 `11111111.11111111.11111111.00000000` = `255.255.255.0`.
 
+<div class="table-wrap">
+
 | CIDR | Subnet Mask     | Binary                              |
 | ---- | --------------- | ----------------------------------- |
 | /8   | 255.0.0.0       | 11111111.00000000.00000000.00000000 |
@@ -1120,6 +1158,8 @@ A /24 prefix means the first 24 bits are network bits. In binary:
 | /28  | 255.255.255.240 | 11111111.11111111.11111111.11110000 |
 | /30  | 255.255.255.252 | 11111111.11111111.11111111.11111100 |
 | /32  | 255.255.255.255 | 11111111.11111111.11111111.11111111 |
+
+</div>
 
 ### Number of Hosts Formula
 
@@ -1194,6 +1234,8 @@ Memory allocation -- first-fit with largest-first ordering.
 
 The "magic number" method for /24 and larger subnets:
 
+<div class="table-wrap">
+
 | Prefix | Block Size | Usable Hosts | Subnets from /24 |
 | ------ | ---------- | ------------ | ---------------- |
 | /25    | 128        | 126          | 2                |
@@ -1204,6 +1246,8 @@ The "magic number" method for /24 and larger subnets:
 | /30    | 4          | 2            | 64               |
 | /31    | 2          | 2\*          | 128              |
 | /32    | 1          | 1            | 256              |
+
+</div>
 
 \*A /31 (RFC 3021) is used for point-to-point links where the network and broadcast addresses are
 not needed. Both addresses are usable as host addresses.
@@ -1273,11 +1317,15 @@ The summarized route covers all four /24 networks. Traffic destined for any addr
 RFC 1918 defines three ranges of private IPv4 addresses that are not routable on the public
 Internet:
 
+<div class="table-wrap">
+
 | Range                         | CIDR           | Block Size           | Class |
 | ----------------------------- | -------------- | -------------------- | ----- |
 | 10.0.0.0 - 10.255.255.255     | 10.0.0.0/8     | 16,777,216 addresses | A     |
 | 172.16.0.0 - 172.31.255.255   | 172.16.0.0/12  | 1,048,576 addresses  | B     |
 | 192.168.0.0 - 192.168.255.255 | 192.168.0.0/16 | 65,536 addresses     | C     |
+
+</div>
 
 These addresses are used for internal networks. Traffic from private addresses must pass through a
 NAT device (or a proxy) to reach the public Internet. Multiple organizations can use the same
@@ -1442,6 +1490,8 @@ apt install isc-dhcp-relay
 
 DHCP options carry configuration parameters beyond the IP address:
 
+<div class="table-wrap">
+
 | Option Code | Name                     | Example                           |
 | ----------- | ------------------------ | --------------------------------- |
 | 1           | Subnet Mask              | 255.255.255.0                     |
@@ -1457,6 +1507,8 @@ DHCP options carry configuration parameters beyond the IP address:
 | 81          | Client FQDN              | client01.example.com              |
 | 119         | Domain Search List       | example.com, corp.example.com     |
 | 252         | WPAD URL                 | <http://proxy.example.com/wpad.dat> |
+
+</div>
 
 ### DHCP Servers
 
@@ -1555,6 +1607,8 @@ ip neigh add 192.168.1.20 lladdr aa:bb:cc:dd:ee:ff dev eth0 nud permanent
 
 Cache states (Linux `ip neigh`):
 
+<div class="table-wrap">
+
 | State      | Meaning                                                     |
 | ---------- | ----------------------------------------------------------- |
 | REACHABLE  | Entry is valid and reachable                                |
@@ -1564,6 +1618,8 @@ Cache states (Linux `ip neigh`):
 | INCOMPLETE | ARP request sent, no reply received yet                     |
 | FAILED     | ARP resolution failed                                       |
 | PERMANENT  | Static entry, never expires                                 |
+
+</div>
 
 Cache timers vary by OS:
 
@@ -1637,6 +1693,8 @@ would still be approximately $1.5 \times 10^{17}$ addresses per atom remaining.
 **Unicast:** Identifies a single interface. Packets sent to a unicast address are delivered to that
 Specific interface.
 
+<div class="table-wrap">
+
 | Prefix      | Scope            | Purpose                                                   |
 | ----------- | ---------------- | --------------------------------------------------------- |
 | `::1/128`   | Link-local       | Loopback                                                  |
@@ -1644,8 +1702,12 @@ Specific interface.
 | `fc00::/7`  | Site-local (ULA) | Unique Local Addresses (RFC 4193), equivalent to RFC 1918 |
 | `2000::/3`  | Global           | Globally routable addresses                               |
 
+</div>
+
 **Multicast:** Identifies a group of interfaces. Packets sent to a multicast address are delivered
 To all members of the group. IPv6 has no broadcast -- multicast replaces it.
+
+<div class="table-wrap">
 
 | Prefix     | Purpose                       |
 | ---------- | ----------------------------- |
@@ -1653,6 +1715,8 @@ To all members of the group. IPv6 has no broadcast -- multicast replaces it.
 | `ff02::1`  | All nodes on the local link   |
 | `ff02::2`  | All routers on the local link |
 | `ff05::1`  | All nodes in the site         |
+
+</div>
 
 **Anycast:** Assigned to multiple interfaces. Packets are routed to the "nearest" interface (by
 Routing protocol metric). Used for DNS anycast (e.g., `8.8.8.8` and `8.8.4.4` are anycast addresses
@@ -2044,6 +2108,8 @@ A power of 2).
 Classful addressing (fixed `/8`, `/16`, `/24`) wastes enormous amounts of address space. Consider an
 Organization with these requirements:
 
+<div class="table-wrap">
+
 | Segment    | Hosts Needed |
 | ---------- | ------------ |
 | Datacenter | 200          |
@@ -2051,6 +2117,8 @@ Organization with these requirements:
 | Office B   | 25           |
 | WAN links  | 2 each (x4)  |
 | Management | 10           |
+
+</div>
 
 With classful addressing, you need one `/24` (254 hosts) for the datacenter (wastes 54), three more
 `/24`s for the offices and management (wastes hundreds more), and four `/24`s for WAN links (wastes
@@ -2063,6 +2131,8 @@ Actual host requirement.
 
 **Step 1: List all segments with host requirements, sorted largest to smallest.**
 
+<div class="table-wrap">
+
 | Segment    | Hosts | Minimum host bits               |
 | ---------- | ----- | ------------------------------- |
 | Datacenter | 200   | 8 ($2^8 - 2 = 254$)             |
@@ -2073,6 +2143,8 @@ Actual host requirement.
 | WAN 2      | 2     | 2                               |
 | WAN 3      | 2     | 2                               |
 | WAN 4      | 2     | 2                               |
+
+</div>
 
 **Step 2: Allocate from the largest block down.**
 
@@ -2200,12 +2272,16 @@ Scheme.
 
 `192.168.0.0/22` = `192.168.0.0` through `192.168.3.255` (1024 addresses).
 
+<div class="table-wrap">
+
 | Requirement | Hosts | Host bits | Prefix | Subnet mask     | Addresses | Usable |
 | ----------- | ----- | --------- | ------ | --------------- | --------- | ------ |
 | 500 hosts   | 500   | 9         | /23    | 255.255.254.0   | 512       | 510    |
 | 100 hosts   | 100   | 7         | /25    | 255.255.255.128 | 128       | 126    |
 | 30 hosts    | 30    | 5         | /27    | 255.255.255.224 | 32        | 30     |
 | 5 hosts     | 5     | 3         | /29    | 255.255.255.248 | 8         | 6      |
+
+</div>
 
 Allocation (largest first):
 
@@ -2430,6 +2506,8 @@ Within the datacenter `/60`:
 
 ### SLAAC vs DHCPv6
 
+<div class="table-wrap">
+
 | Feature            | SLAAC (RFC 4862)                                | DHCPv6                |
 | ------------------ | ----------------------------------------------- | --------------------- |
 | Address assignment | Host generates from prefix                      | Server assigns        |
@@ -2439,6 +2517,8 @@ Within the datacenter `/60`:
 | State tracking     | Server does not know assignments                | Server tracks leases  |
 | Address stability  | Stable based on prefix + MAC                    | Depends on lease time |
 | Complexity         | Simple                                          | Requires DHCPv6 infra |
+
+</div>
 :::
 
 :::note
@@ -2456,6 +2536,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 ## Subnetting Quick Reference
 
 ### Powers of 2
+
+<div class="table-wrap">
 
 | $2^n$    | Value  |
 | -------- | ------ |
@@ -2477,7 +2559,11 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | $2^{15}$ | 32,768 |
 | $2^{16}$ | 65,536 |
 
+</div>
+
 ### Subnet Masks: /24 Through /30
+
+<div class="table-wrap">
 
 | Prefix | Mask            | Wildcard  | Magic # | Addresses | Usable |
 | ------ | --------------- | --------- | ------- | --------- | ------ |
@@ -2491,9 +2577,13 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /31    | 255.255.255.254 | 0.0.0.1   | 2       | 2         | 2\*    |
 | /32    | 255.255.255.255 | 0.0.0.0   | 1       | 1         | 1      |
 
+</div>
+
 \*`/31` per RFC 3021: no network/broadcast, both addresses usable.
 
 ### Extended Reference: /16 Through /23
+
+<div class="table-wrap">
 
 | Prefix | Mask          | Wildcard    | Magic # | Addresses | Usable |
 | ------ | ------------- | ----------- | ------- | --------- | ------ |
@@ -2505,6 +2595,8 @@ Integration) and SLAAC with privacy extensions (RFC 7217) for client devices (si
 | /21    | 255.255.248.0 | 0.0.7.255   | 8       | 2,048     | 2,046  |
 | /22    | 255.255.252.0 | 0.0.3.255   | 4       | 1,024     | 1,022  |
 | /23    | 255.255.254.0 | 0.0.1.255   | 2       | 512       | 510    |
+
+</div>
 
 ## Common Exam-Style Problems
 
@@ -3108,6 +3200,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 
 **Key fields:**
 
+<div class="table-wrap">
+
 | Field                   | Size         | Purpose                                                       |
 | ----------------------- | ------------ | ------------------------------------------------------------- |
 | Source/Destination Port | 16 bits each | Multiplexing/demultiplexing                                   |
@@ -3119,7 +3213,11 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | Checksum                | 16 bits      | Covers header, data, and pseudo-header (mandatory)            |
 | Urgent Pointer          | 16 bits      | Offset from sequence number indicating urgent data            |
 
+</div>
+
 **TCP Flags:**
+
+<div class="table-wrap">
 
 | Flag | Bit  | Purpose                                        |
 | ---- | ---- | ---------------------------------------------- |
@@ -3129,6 +3227,8 @@ Default ephemeral port range on Linux is 32768-60999 (28,232 ports).
 | RST  | 0x04 | Reset the connection (error, abort)            |
 | PSH  | 0x08 | Push data to the application immediately       |
 | URG  | 0x20 | Urgent pointer is valid                        |
+
+</div>
 
 ### TCP Reliability Mechanisms
 
@@ -3205,10 +3305,14 @@ Faster than waiting for the timeout.
 
 **RTO vs fast retransmit:**
 
+<div class="table-wrap">
+
 | Mechanism       | Trigger          | Response                                         | Latency                      |
 | --------------- | ---------------- | ------------------------------------------------ | ---------------------------- |
 | RTO             | Timer expires    | Retransmit, reset cwnd to 1 MSS, slow start      | One full RTO (200ms to 120s) |
 | Fast retransmit | 3 duplicate ACKs | Retransmit, set ssthresh = cwnd/2, fast recovery | One RTT                      |
+
+</div>
 
 ### Flow Control
 
@@ -3386,6 +3490,8 @@ stateDiagram-v2
 TCP options are carried in the header after the Urgent Pointer. They are negotiated during the
 Three-way handshake.
 
+<div class="table-wrap">
+
 | Option         | Kind | Purpose                                                         |
 | -------------- | ---- | --------------------------------------------------------------- |
 | MSS            | 2    | Maximum Segment Size (payload size the sender can accept)       |
@@ -3394,6 +3500,8 @@ Three-way handshake.
 | SACK           | 5    | Carries SACK blocks                                             |
 | Timestamps     | 8    | RTT measurement and PAWS (Protection Against Wrapped Sequences) |
 | TCP Fast Open  | 34   | Allows data in the SYN (RFC 7413)                               |
+
+</div>
 
 **MSS (Maximum Segment Size):** Advertised during the handshake. Each side announces the largest
 Segment it can receive. The effective MSS is the minimum of both ends' MSS values minus IP and TCP
@@ -3410,13 +3518,19 @@ Links).
 Port numbers allow TCP and UDP to multiplex multiple connections on a single IP address. They are
 16-bit values (0-65535).
 
+<div class="table-wrap">
+
 | Range       | Name                      | Assignment                                       |
 | ----------- | ------------------------- | ------------------------------------------------ |
 | 0-1023      | Well-known (system ports) | Assigned by IANA. Require root to bind on Linux. |
 | 1024-49151  | Registered (user ports)   | Assigned by IANA for specific services.          |
 | 49152-65535 | Ephemeral (dynamic ports) | Assigned by the OS for outbound connections.     |
 
+</div>
+
 Common well-known ports:
+
+<div class="table-wrap">
 
 | Port | Protocol | Service          |
 | ---- | -------- | ---------------- |
@@ -3430,6 +3544,8 @@ Common well-known ports:
 | 5432 | TCP      | PostgreSQL       |
 | 6379 | TCP      | Redis            |
 | 8080 | TCP      | HTTP (alternate) |
+
+</div>
 
 ```bash
 # View active TCP connections
@@ -3463,6 +3579,8 @@ Port 443) because the 4-tuple is unique for each client.
 
 ## TCP vs UDP: Decision Framework
 
+<div class="table-wrap">
+
 | Criterion          | TCP                                                  | UDP                                     |
 | ------------------ | ---------------------------------------------------- | --------------------------------------- |
 | Reliability        | Guaranteed delivery, ordering, duplicate suppression | Best effort, no guarantees              |
@@ -3474,6 +3592,8 @@ Port 443) because the 4-tuple is unique for each client.
 | Throughput         | Limited by congestion control                        | Limited only by application and network |
 | Latency            | Higher (handshake, retransmission)                   | Lower                                   |
 | Use cases          | Web, email, file transfer, databases                 | DNS, NTP, streaming, gaming, QUIC       |
+
+</div>
 
 **Use TCP when:** You need reliable, ordered delivery and the application does not want to implement
 Its own reliability layer. This covers the vast majority of applications.
@@ -3679,6 +3799,8 @@ Production.
 
 TCP defines 11 states. An endpoint is always in exactly one of these states:
 
+<div class="table-wrap">
+
 | State       | Description                                          |
 | ----------- | ---------------------------------------------------- |
 | CLOSED      | No connection. Initial state.                        |
@@ -3692,6 +3814,8 @@ TCP defines 11 states. An endpoint is always in exactly one of these states:
 | LAST_ACK    | Sent our FIN after peer closed, waiting for ACK.     |
 | TIME_WAIT   | Waited for peer's ACK after our close. 2\*MSL timer. |
 | CLOSING     | Both sides sent FIN simultaneously, waiting for ACK. |
+
+</div>
 
 ## State Diagram
 
@@ -4105,6 +4229,8 @@ ss -s
 
 ### State-by-State Diagnostic Guide
 
+<div class="table-wrap">
+
 | State       | Meaning                                     | Common Cause                                              |
 | ----------- | ------------------------------------------- | --------------------------------------------------------- |
 | ESTABLISHED | Normal data transfer                        | Healthy                                                   |
@@ -4116,6 +4242,8 @@ ss -s
 | SYN_SENT    | Sent SYN, no response yet                   | Remote unreachable, firewall blocking, port not listening |
 | SYN_RCVD    | Received SYN, waiting for ACK               | Normal handshake, or SYN flood                            |
 | CLOSING     | Simultaneous close, waiting for ACK         | Rare, both sides closed at once                           |
+
+</div>
 
 ### CLOSE_WAIT Accumulation
 
@@ -4169,6 +4297,8 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 
 ### Keepalive vs Application-Level Heartbeats
 
+<div class="table-wrap">
+
 | Aspect          | TCP Keepalive                | Application Heartbeat     |
 | --------------- | ---------------------------- | ------------------------- |
 | Granularity     | Per-connection               | Per-session               |
@@ -4178,6 +4308,8 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Data path       | Does not pass to application | Application processes it  |
 | Configurability | System-wide (sysctl)         | Per-connection (app code) |
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
+
+</div>
 :::
 
 :::tip
@@ -4519,12 +4651,16 @@ The UDP header is exactly 8 bytes -- the minimum of any transport protocol:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
+<div class="table-wrap">
+
 | Field            | Bits | Description                                                                         |
 | ---------------- | ---- | ----------------------------------------------------------------------------------- |
 | Source Port      | 16   | Optional. Identifies the sender. Zero means "not specified."                        |
 | Destination Port | 16   | Required. Identifies the intended receiver.                                         |
 | Length           | 16   | Total UDP datagram length: header (8) + data. Minimum 8. Maximum 65535.             |
 | Checksum         | 16   | Coverage includes pseudo-header + UDP header + data. Zero = "no check" (IPv4 only). |
+
+</div>
 
 ### Source Port Considerations
 
@@ -4739,6 +4875,8 @@ Needed.
 
 ### Multicast Address Ranges
 
+<div class="table-wrap">
+
 | Range                     | Purpose                                          |
 | ------------------------- | ------------------------------------------------ |
 | 224.0.0.0/24              | Local network control (not forwarded by routers) |
@@ -4753,6 +4891,8 @@ Needed.
 | 233.0.0.0/8               | GLOP addressing                                  |
 | 234.0.0.0/8               | Reserved                                         |
 | 239.0.0.0/8               | Administratively scoped (local use)              |
+
+</div>
 
 ### IGMP (Internet Group Management Protocol)
 
@@ -4784,6 +4924,8 @@ ip mroute show
 
 Multicast packets have a TTL that limits how far they propagate:
 
+<div class="table-wrap">
+
 | TTL      | Scope                        |
 | -------- | ---------------------------- |
 | 0        | Restricted to same host      |
@@ -4792,6 +4934,8 @@ Multicast packets have a TTL that limits how far they propagate:
 | &lt; 64  | Restricted to same region    |
 | &lt; 128 | Restricted to same continent |
 | &lt; 255 | Unrestricted                 |
+
+</div>
 
 ### Multicast Routing: PIM
 
@@ -4950,6 +5094,8 @@ UDP. It is the transport for HTTP/3.
 
 ### Key Features
 
+<div class="table-wrap">
+
 | Feature               | TCP        | QUIC                                     |
 | --------------------- | ---------- | ---------------------------------------- |
 | Transport             | IP layer   | UDP (port 443)                           |
@@ -4961,6 +5107,8 @@ UDP. It is the transport for HTTP/3.
 | Loss recovery         | Global     | Per-stream                               |
 | Middlebox traversal   | Good       | UDP (good)                               |
 | Congestion control    | Cubic/BBR  | Cubic/BBR (same algorithms)              |
+
+</div>
 
 ### Connection Migration
 
@@ -5283,6 +5431,8 @@ The `Udp` line in `/proc/net/snmp` provides kernel-level UDP statistics:
 Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti
 ```
 
+<div class="table-wrap">
+
 | Counter      | Meaning                                         |
 | ------------ | ----------------------------------------------- |
 | InDatagrams  | Total datagrams received                        |
@@ -5293,6 +5443,8 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 | SndbufErrors | Send buffer overflow                            |
 | InCsumErrors | Checksum validation failures                    |
 | IgnoredMulti | Multicast packets dropped (socket not joined)   |
+
+</div>
 
 ```bash
 # Watch UDP error counters in real-time
@@ -5413,6 +5565,8 @@ Case-insensitive (`EXAMPLE.COM` = `example.com`).
 Operate the root zone, which contains delegations to all TLD name servers. There are 13 logical root
 Server networks (A-M), each identified by a letter and an IP address:
 
+<div class="table-wrap">
+
 | Letter | Operator | IPv4          | IPv6                |
 | ------ | -------- | ------------- | ------------------- |
 | A      | Verisign | 198.41.0.4    | 2001:503:ba3e::2:30 |
@@ -5424,6 +5578,8 @@ Server networks (A-M), each identified by a letter and an IP address:
 | K      | RIPE NCC | 193.0.14.129  | 2001:7fd::1         |
 | L      | ICANN    | 199.7.83.42   | 2001:500:9f::42     |
 | M      | WIDE     | 202.12.27.33  | 2001:dc3::35        |
+
+</div>
 
 Each root server network operates anycast instances worldwide, so a query to "root server A" from
 Tokyo likely reaches a different physical server than from New York.
@@ -5688,6 +5844,8 @@ Traffic separately from HTTPS.
 
 ### DoH vs DoT
 
+<div class="table-wrap">
+
 | Criterion           | DoH                            | DoT                          |
 | ------------------- | ------------------------------ | ---------------------------- |
 | Port                | 443                            | 853                          |
@@ -5697,6 +5855,8 @@ Traffic separately from HTTPS.
 | Corporate filtering | Harder to filter               | Easier to filter             |
 | Implementation      | Browser-native                 | OS-native                    |
 | Adoption            | Chrome, Firefox, Edge          | Android, iOS 14+             |
+
+</div>
 
 ## DNSSEC (DNS Security Extensions)
 
@@ -5913,6 +6073,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 
 **Header fields (12 bytes):**
 
+<div class="table-wrap">
+
 | Field   | Size    | Purpose                                                               |
 | ------- | ------- | --------------------------------------------------------------------- |
 | ID      | 16 bits | Query identifier (matches response to request)                        |
@@ -5928,6 +6090,8 @@ Every DNS message (query or response) follows a fixed format defined in RFC 1035
 | ANCOUNT | 16 bits | Number of answer RRs                                                  |
 | NSCOUNT | 16 bits | Number of authority RRs                                               |
 | ARCOUNT | 16 bits | Number of additional RRs                                              |
+
+</div>
 
 ### DNS Wire Format for Resource Records
 
@@ -6235,6 +6399,8 @@ Servers respond to queries asking "where is the authoritative name server for ex
 The root zone (`.`) is the apex of the DNS hierarchy. ICANN coordinates the root zone, which is
 Served by 13 logical root server networks (A through M) operated by different organizations:
 
+<div class="table-wrap">
+
 | Label | Operator                          | Anycast instances |
 | ----- | --------------------------------- | ----------------- |
 | A     | Verisign                          | 100+              |
@@ -6250,6 +6416,8 @@ Served by 13 logical root server networks (A through M) operated by different or
 | K     | RIPE NCC                          | 30+               |
 | L     | ICANN                             | 20+               |
 | M     | WIDE Project                      | 10+               |
+
+</div>
 
 The "13" is a historical limit from the original DNS specification (UDP packet size constraints).
 Today, each logical root server is deployed as an anycast cluster with dozens to hundreds of
@@ -6427,6 +6595,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 
 ### Record Types
 
+<div class="table-wrap">
+
 | Type   | Purpose                                               |
 | ------ | ----------------------------------------------------- |
 | DNSKEY | Public key for the zone                               |
@@ -6434,6 +6604,8 @@ zone. The ZSK is rotated frequently (monthly) because it is used for every recor
 | RRSIG  | Digital signature over a resource record set (RRset)  |
 | NSEC   | Points to the next name in the zone (proves NXDOMAIN) |
 | NSEC3  | Hashed NSEC (prevents zone enumeration)               |
+
+</div>
 
 ### Signing a Zone
 
@@ -6624,6 +6796,8 @@ This is how CDNs direct users to the nearest edge server.
 
 ### Internal/External Split
 
+<div class="table-wrap">
+
 | Aspect     | Internal DNS                            | External DNS                     |
 | ---------- | --------------------------------------- | -------------------------------- |
 | Purpose    | Corporate infrastructure resolution     | Public-facing services           |
@@ -6633,6 +6807,8 @@ This is how CDNs direct users to the nearest edge server.
 | Forwarding | Internal recursive resolvers            | ISP or public resolvers          |
 | Security   | Protected by firewall, no public access | Public, DDoS protected           |
 | DNSSEC     | Optional (internal trust)               | Recommended                      |
+
+</div>
 
 ### Active Directory Integration
 
@@ -6897,6 +7073,8 @@ kdig @https://dns.google example.com +https
 
 ### DoH vs DoT Comparison
 
+<div class="table-wrap">
+
 | Feature            | DoT (853)             | DoH (443)                    |
 | ------------------ | --------------------- | ---------------------------- |
 | Port               | 853 (dedicated)       | 443 (shared with HTTPS)      |
@@ -6905,6 +7083,8 @@ kdig @https://dns.google example.com +https
 | Overhead           | Lower (no HTTP)       | Higher (HTTP framing)        |
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
+
+</div>
 :::
 
 :::caution
@@ -6924,6 +7104,8 @@ Application resolver -> OS cache -> Local recursive resolver -> ISP cache -> Aut
 
 Typical latencies at each level:
 
+<div class="table-wrap">
+
 | Level                 | Latency  | TTL influence          |
 | --------------------- | -------- | ---------------------- |
 | Application cache     | 0ms      | Application-controlled |
@@ -6931,6 +7113,8 @@ Typical latencies at each level:
 | Local recursive cache | 0-5ms    | Respects TTL           |
 | ISP cache hit         | 5-50ms   | Respects TTL           |
 | Authoritative (cold)  | 50-500ms | Fresh answer           |
+
+</div>
 
 ### Negative Caching
 
@@ -7135,6 +7319,8 @@ Default for many client-server interactions.
 
 HTTP defines methods that indicate the desired action on a resource:
 
+<div class="table-wrap">
+
 | Method  | Idempotent | Safe | Cacheable   | Purpose                              |
 | ------- | ---------- | ---- | ----------- | ------------------------------------ |
 | GET     | Yes        | Yes  | Yes         | Retrieve a resource                  |
@@ -7146,6 +7332,8 @@ HTTP defines methods that indicate the desired action on a resource:
 | OPTIONS | Yes        | Yes  | No          | Describe communication options       |
 | TRACE   | Yes        | Yes  | No          | Loop-back test (rarely used)         |
 | CONNECT | No         | No   | No          | Establish a tunnel (e.g., TLS proxy) |
+
+</div>
 
 **Idempotent:** Repeating the request produces the same result. `PUT /users/1` with the same payload
 Creates or replaces user 1 -- calling it multiple times has the same effect. `POST /users` creates a
@@ -7171,12 +7359,18 @@ Status codes indicate the result of the request. They are grouped into five clas
 
 **1xx -- Informational:**
 
+<div class="table-wrap">
+
 | Code | Meaning             | Use Case                            |
 | ---- | ------------------- | ----------------------------------- |
 | 100  | Continue            | Client should send the request body |
 | 101  | Switching Protocols | Upgrading to WebSocket or HTTP/2    |
 
+</div>
+
 **2xx -- Success:**
+
+<div class="table-wrap">
 
 | Code | Meaning         | Use Case                               |
 | ---- | --------------- | -------------------------------------- |
@@ -7185,7 +7379,11 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 204  | No Content      | Success with no response body (DELETE) |
 | 206  | Partial Content | Range request (resumable downloads)    |
 
+</div>
+
 **3xx -- Redirection:**
+
+<div class="table-wrap">
 
 | Code | Meaning            | Use Case                                           |
 | ---- | ------------------ | -------------------------------------------------- |
@@ -7196,11 +7394,15 @@ Status codes indicate the result of the request. They are grouped into five clas
 | 307  | Temporary Redirect | Temporary redirect (method preserved)              |
 | 308  | Permanent Redirect | Permanent redirect (method preserved)              |
 
+</div>
+
 :::caution
 Change the method from POST to GET on redirect. 307 and 308 preserve the original method. If you
 Redirect a POST request, use 307/308 unless you explicitly want the method changed.
 
 **4xx -- Client Errors:**
+
+<div class="table-wrap">
 
 | Code | Meaning                | Use Case                                 |
 | ---- | ---------------------- | ---------------------------------------- |
@@ -7216,7 +7418,11 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | 422  | Unprocessable Entity   | Valid syntax but semantic errors         |
 | 429  | Too Many Requests      | Rate limiting                            |
 
+</div>
+
 **5xx -- Server Errors:**
+
+<div class="table-wrap">
 
 | Code | Meaning               | Use Case                                     |
 | ---- | --------------------- | -------------------------------------------- |
@@ -7226,9 +7432,13 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | 504  | Gateway Timeout       | Upstream server did not respond in time      |
 | 507  | Insufficient Storage  | Server cannot store the representation       |
 
+</div>
+
 ### Key HTTP/1.1 Headers
 
 **Request Headers:**
+
+<div class="table-wrap">
 
 | Header              | Purpose                                                                             |
 | ------------------- | ----------------------------------------------------------------------------------- |
@@ -7243,7 +7453,11 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | `Range`             | Request a subset of the resource                                                    |
 | `Origin`            | Indicates the origin of the cross-origin request (CORS)                             |
 
+</div>
+
 **Response Headers:**
+
+<div class="table-wrap">
 
 | Header                      | Purpose                                            |
 | --------------------------- | -------------------------------------------------- |
@@ -7258,6 +7472,8 @@ Redirect a POST request, use 307/308 unless you explicitly want the method chang
 | `Server`                    | Server software identification                     |
 | `Strict-Transport-Security` | Force HTTPS (HSTS)                                 |
 | `X-Request-ID`              | Unique identifier for the request (for tracing)    |
+
+</div>
 
 ### Connection Management
 
@@ -7323,6 +7539,8 @@ Same semantics (methods, status codes, headers, URIs). The wire format is comple
 HTTP/2 is a binary protocol. All communication is performed in binary frames. There are 10 frame
 Types:
 
+<div class="table-wrap">
+
 | Frame Type    | Purpose                                                        |
 | ------------- | -------------------------------------------------------------- |
 | DATA          | Carries request/response body content                          |
@@ -7335,6 +7553,8 @@ Types:
 | GOAWAY        | Graceful shutdown of the connection                            |
 | WINDOW_UPDATE | Advertises flow control credits                                |
 | CONTINUATION  | Continues a header block that did not fit in one HEADERS frame |
+
+</div>
 
 ### Streams and Multiplexing
 
@@ -7454,6 +7674,8 @@ Reliability, ordering, congestion control, and built-in encryption (TLS 1.3).
 
 HTTP/3 defines a new set of frame types carried within QUIC streams:
 
+<div class="table-wrap">
+
 | Frame Type     | Purpose                                             |
 | -------------- | --------------------------------------------------- |
 | DATA           | Carries request/response body                       |
@@ -7464,6 +7686,8 @@ HTTP/3 defines a new set of frame types carried within QUIC streams:
 | GOAWAY         | Graceful shutdown                                   |
 | MAX_PUSH_ID    | Limits the number of push IDs                       |
 | RETRY_PRIORITY | Adjusts stream priority                             |
+
+</div>
 
 ### QPACK (Header Compression for HTTP/3)
 
@@ -7500,6 +7724,8 @@ Configuration.
 
 **Request directives:**
 
+<div class="table-wrap">
+
 | Directive        | Meaning                                                                 |
 | ---------------- | ----------------------------------------------------------------------- |
 | `no-cache`       | Always validate with the origin server before using a cached response   |
@@ -7509,7 +7735,11 @@ Configuration.
 | `min-fresh=10`   | Accept cached responses that will be fresh for at least 10 more seconds |
 | `only-if-cached` | Only use cached responses; do not validate or fetch from origin         |
 
+</div>
+
 **Response directives:**
+
+<div class="table-wrap">
 
 | Directive                    | Meaning                                                        |
 | ---------------------------- | -------------------------------------------------------------- |
@@ -7522,6 +7752,8 @@ Configuration.
 | `must-revalidate`            | Once stale, must validate before use (do not serve stale)      |
 | `stale-while-revalidate=600` | Serve stale response while revalidating in background          |
 | `immutable`                  | Response will never change during max-age; do not revalidate   |
+
+</div>
 
 ### Conditional Requests
 
@@ -7590,6 +7822,8 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 
 **Cookie attributes:**
 
+<div class="table-wrap">
+
 | Attribute             | Purpose                                           |
 | --------------------- | ------------------------------------------------- |
 | `Secure`              | Only sent over HTTPS                              |
@@ -7601,6 +7835,8 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Domain=.example.com` | Shared across subdomains                          |
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
+
+</div>
 :::
 
 :::caution
@@ -7806,6 +8042,8 @@ gzip_min_length 256;
 
 Security headers instruct browsers to enable or disable certain security features:
 
+<div class="table-wrap">
+
 | Header                         | Purpose                                 | Example                                                 |
 | ------------------------------ | --------------------------------------- | ------------------------------------------------------- |
 | `Strict-Transport-Security`    | Force HTTPS                             | `max-age=31536000; includeSubDomains; preload`          |
@@ -7818,6 +8056,8 @@ Security headers instruct browsers to enable or disable certain security feature
 | `Cross-Origin-Opener-Policy`   | Isolate browsing context                | `same-origin`                                           |
 | `Cross-Origin-Resource-Policy` | Control cross-origin resource sharing   | `same-origin`                                           |
 | `Cross-Origin-Embedder-Policy` | Control cross-origin resource embedding | `require-corp`                                          |
+
+</div>
 
 ```bash
 # Check security headers
@@ -8220,6 +8460,8 @@ Acknowledged until the receiver sends a SETTINGS_ACK frame.
 
 The SETTINGS frame configures connection-level parameters:
 
+<div class="table-wrap">
+
 | Parameter              | Default   | Description                                  |
 | ---------------------- | --------- | -------------------------------------------- |
 | HEADER_TABLE_SIZE      | 4096      | Maximum size of the HPACK dynamic table      |
@@ -8228,6 +8470,8 @@ The SETTINGS frame configures connection-level parameters:
 | INITIAL_WINDOW_SIZE    | 65535     | Initial flow control window for new streams  |
 | MAX_FRAME_SIZE         | 16384     | Maximum frame payload size (16384 to 2^24-1) |
 | MAX_HEADER_LIST_SIZE   | unlimited | Maximum total header size                    |
+
+</div>
 
 ```bash
 ## Test HTTP/2 with curl
@@ -8282,6 +8526,8 @@ Recovery per-stream, so a lost packet on one stream does not block other streams
 
 QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3. Key properties:
 
+<div class="table-wrap">
+
 | Property                  | TCP + TLS                | QUIC                     |
 | ------------------------- | ------------------------ | ------------------------ |
 | Transport                 | TCP                      | UDP                      |
@@ -8291,6 +8537,8 @@ QUIC (RFC 9000) is a general-purpose transport protocol, not specific to HTTP/3.
 | Connection identification | 4-tuple (IP+port)        | Connection ID            |
 | Connection migration      | No                       | Yes (IP/port change)     |
 | Middlebox interference    | Significant              | Minimal (encrypted)      |
+
+</div>
 
 ### 0-RTT Connection Establishment
 
@@ -8370,6 +8618,8 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 
 ## HTTP/3 vs HTTP/2 Comparison
 
+<div class="table-wrap">
+
 | Feature              | HTTP/2              | HTTP/3                      |
 | -------------------- | ------------------- | --------------------------- |
 | Transport            | TCP                 | QUIC (over UDP)             |
@@ -8382,6 +8632,8 @@ Carried in QUIC CRYPTO frames. All QUIC packets (except Version Negotiation) are
 | Server push          | Supported           | Supported (also deprecated) |
 | Prioritization       | Weight/dependency   | Extensible prioritization   |
 | Binary framing       | Yes                 | Yes (different format)      |
+
+</div>
 
 ### QPACK Header Compression
 
@@ -8442,12 +8694,16 @@ Clients should always fall back gracefully:
 
 Major CDNs support HTTP/3:
 
+<div class="table-wrap">
+
 | CDN        | HTTP/3 Support | Alt-Svc Header      |
 | ---------- | -------------- | ------------------- |
 | Cloudflare | Yes (default)  | h3=":443"; ma=86400 |
 | Fastly     | Yes            | h3=":443"; ma=86400 |
 | Akamai     | Yes            | h3=":443"; ma=86400 |
 | AWS CF     | Yes            | h3=":443"; ma=86400 |
+
+</div>
 
 ### Browser Support
 
@@ -8465,11 +8721,15 @@ All modern browsers support HTTP/3:
 HTTP/3's 1-RTT handshake (vs HTTP/2's 2-3 RTT) provides a measurable latency improvement for first
 Connections. For repeat connections with 0-RTT, the improvement is even more significant.
 
+<div class="table-wrap">
+
 | Scenario             | HTTP/1.1             | HTTP/2             | HTTP/3                       |
 | -------------------- | -------------------- | ------------------ | ---------------------------- |
 | New connection       | 3 RTT                | 3 RTT              | 1 RTT                        |
 | Repeat connection    | 1 RTT                | 1 RTT              | 0 RTT                        |
 | Lost packet (mobile) | 1 RTT per connection | Blocks all streams | Only affected stream blocked |
+
+</div>
 
 ### Throughput
 
@@ -8480,12 +8740,16 @@ Lossy networks (mobile, satellite) due to the elimination of TCP-level HOL block
 
 Measured over a 100ms RTT link:
 
+<div class="table-wrap">
+
 | Protocol           | Setup Time    | Data First Byte |
 | ------------------ | ------------- | --------------- |
 | HTTP/1.1 + TLS 1.2 | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/2 + TLS 1.2   | 300ms (3 RTT) | 400ms (4 RTT)   |
 | HTTP/3 (new)       | 100ms (1 RTT) | 200ms (2 RTT)   |
 | HTTP/3 (repeat)    | 0ms (0-RTT)   | 100ms (1 RTT)   |
+
+</div>
 
 ## HTTP/4 and Beyond
 
@@ -8660,6 +8924,8 @@ Further frames can be sent on that stream.
 
 Error codes:
 
+<div class="table-wrap">
+
 | Code | Name                | Description                                     |
 | ---- | ------------------- | ----------------------------------------------- |
 | 0x0  | NO_ERROR            | Graceful shutdown                               |
@@ -8676,6 +8942,8 @@ Error codes:
 | 0xb  | ENHANCE_YOUR_CALM   | Too many frames (stop sending so fast)          |
 | 0xc  | INADEQUATE_SECURITY | TLS not acceptable                              |
 | 0xd  | HTTP_1_1_REQUIRED   | Use HTTP/1.1 instead                            |
+
+</div>
 
 ### GOAWAY (0x7)
 
@@ -8750,6 +9018,8 @@ Frame {
 
 ### HTTP/3 Frame Types
 
+<div class="table-wrap">
+
 | Type | Name         | Description                                    |
 | ---- | ------------ | ---------------------------------------------- |
 | 0x00 | DATA         | Request or response body                       |
@@ -8764,9 +9034,13 @@ Frame {
 | 0x41 | CONNECT_IP   | Extended CONNECT for IP proxying               |
 | 0x42 | CONNECT_UDP  | Extended CONNECT for UDP proxying              |
 
+</div>
+
 ### Variable-Length Integer Encoding
 
 HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
+
+<div class="table-wrap">
 
 | First 2 Bits | Length  | Usable Bits | Maximum Value             |
 | ------------ | ------- | ----------- | ------------------------- |
@@ -8774,6 +9048,8 @@ HTTP/3 uses QUIC's variable-length integer encoding to save bytes:
 | 01           | 2 bytes | 14          | 16,383                    |
 | 10           | 4 bytes | 30          | 1,073,741,823             |
 | 11           | 8 bytes | 62          | 4,611,686,018,427,387,903 |
+
+</div>
 
 Small values (common in practice) use fewer bytes. For example, a DATA frame with 50 bytes of
 Payload needs only 1 byte for the length field (50 fits in 6 bits), whereas HTTP/2 always uses 3
@@ -9137,6 +9413,8 @@ After the handshake, communication uses a binary frame format:
 
 ### Frame Fields
 
+<div class="table-wrap">
+
 | Field                   | Bits  | Description                                                                      |
 | ----------------------- | ----- | -------------------------------------------------------------------------------- |
 | FIN                     | 1     | 1 = final frame of message, 0 = more frames follow                               |
@@ -9147,6 +9425,8 @@ After the handshake, communication uses a binary frame format:
 | Extended payload length | 16/64 | Actual payload length when payload length is 126 or 127                          |
 | Masking key             | 32    | 4-byte key used to unmask the payload (if MASK=1)                                |
 | Payload data            | var   | The actual data                                                                  |
+
+</div>
 
 ### Fragmentation
 
@@ -9205,6 +9485,8 @@ On modern hardware, this is negligible even at high throughput.
 
 ## Opcodes
 
+<div class="table-wrap">
+
 | Opcode | Meaning          | Description                          |
 | ------ | ---------------- | ------------------------------------ |
 | 0x0    | Continuation     | Continuation of a fragmented message |
@@ -9215,6 +9497,8 @@ On modern hardware, this is negligible even at high throughput.
 | 0x9    | Ping             | Keepalive ping                       |
 | 0xA    | Pong             | Response to a ping                   |
 | 0xB-F  | Reserved         | For future use                       |
+
+</div>
 
 ### Text vs Binary
 
@@ -9240,6 +9524,8 @@ The close frame begins the WebSocket closing handshake. The payload contains:
 
 Standard close codes:
 
+<div class="table-wrap">
+
 | Code | Meaning                    | Description                                        |
 | ---- | -------------------------- | -------------------------------------------------- |
 | 1000 | Normal Closure             | Purpose fulfilled, connection closing              |
@@ -9257,6 +9543,8 @@ Standard close codes:
 | 1013 | Try Again Later            | Server temporarily overloaded                      |
 | 1014 | Bad Gateway                | Server acting as gateway received invalid response |
 | 1015 | TLS Handshake Failure      | Reserved (must not be sent by endpoints)           |
+
+</div>
 
 ### Ping/Pong (0x9/0xA)
 
@@ -9410,6 +9698,8 @@ function createWebSocket(url, protocols) {
 
 ## WebSocket vs HTTP vs SSE
 
+<div class="table-wrap">
+
 | Feature        | WebSocket     | HTTP (polling)   | SSE              |
 | -------------- | ------------- | ---------------- | ---------------- |
 | Direction      | Bidirectional | Request-response | Server-to-client |
@@ -9422,6 +9712,8 @@ function createWebSocket(url, protocols) {
 | Auto-reconnect | Manual        | N/A              | Built-in         |
 | Proxy/firewall | May block     | Works            | Works            |
 | Scalability    | Challenging   | Easy             | Moderate         |
+
+</div>
 
 ### When to Choose WebSocket
 
@@ -9638,12 +9930,16 @@ State from previous messages.
 
 Compression negotiation parameters:
 
+<div class="table-wrap">
+
 | Parameter                  | Description                                             |
 | -------------------------- | ------------------------------------------------------- |
 | server_no_context_takeover | Server creates a new zlib context for each message      |
 | client_no_context_takeover | Client creates a new zlib context for each message      |
 | server_max_window_bits     | Server's LZ77 sliding window size (8-15, 15 is default) |
 | client_max_window_bits     | Client's LZ77 window size limit (8-15, 15 is default)   |
+
+</div>
 
 Smaller window sizes reduce memory usage but also reduce compression ratio. For most server
 Applications, the default window size (15) is appropriate.
@@ -9936,6 +10232,8 @@ TLS operates between the transport layer and the application layer, encrypting a
 
 ## TLS History and Versions
 
+<div class="table-wrap">
+
 | Version | RFC      | Year | Status                                    |
 | ------- | -------- | ---- | ----------------------------------------- |
 | SSL 3.0 | RFC 6101 | 1996 | Deprecated (POODLE attack, CVE-2014-3566) |
@@ -9943,6 +10241,8 @@ TLS operates between the transport layer and the application layer, encrypting a
 | TLS 1.1 | RFC 4346 | 2006 | Deprecated                                |
 | TLS 1.2 | RFC 5246 | 2008 | Current (widespread support)              |
 | TLS 1.3 | RFC 8446 | 2018 | Current (recommended)                     |
+
+</div>
 
 TLS 1.0 and 1.1 were officially deprecated by the IETF in June 2021 (RFC 8996). TLS 1.2 remains
 Widely supported and is the minimum acceptable version for any new deployment. TLS 1.3 is the
@@ -10122,11 +10422,15 @@ TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
 
 TLS 1.3 simplifies cipher suites to only specify AEAD and hash:
 
+<div class="table-wrap">
+
 | Cipher Suite                   | AEAD              | Hash    | Key Size |
 | ------------------------------ | ----------------- | ------- | -------- |
 | `TLS_AES_256_GCM_SHA384`       | AES-256-GCM       | SHA-384 | 256-bit  |
 | `TLS_CHACHA20_POLY1305_SHA256` | ChaCha20-Poly1305 | SHA-256 | 256-bit  |
 | `TLS_AES_128_GCM_SHA256`       | AES-128-GCM       | SHA-256 | 128-bit  |
+
+</div>
 
 All TLS 1.3 cipher suites provide forward secrecy by default (ephemeral DH key exchange is
 Mandatory).
@@ -10200,12 +10504,16 @@ Certificate:
 
 ### Certificate Formats
 
+<div class="table-wrap">
+
 | Format        | Extension          | Contents                                                             | Encoding         |
 | ------------- | ------------------ | -------------------------------------------------------------------- | ---------------- |
 | PEM           | `.pem``.crt``.cer` | Base64-encoded DER, ASCII-armored with `-----BEGIN CERTIFICATE-----` | Base64           |
 | DER           | `.der``.crt`       | Binary X.509 certificate                                             | Binary           |
 | PKCS#12 / PFX | `.p12``.pfx`       | Certificate chain + private key, encrypted                           | Binary           |
 | PKCS#7 / P7B  | `.p7b``.p7c`       | Certificate chain (no private key)                                   | Base64 or Binary |
+
+</div>
 
 ```bash
 ## Convert between formats
@@ -10253,6 +10561,8 @@ Forum, which sets baseline requirements for certificate issuance.
 
 ### Major Public CAs
 
+<div class="table-wrap">
+
 | CA            | Free Tier          | Notes                                   |
 | ------------- | ------------------ | --------------------------------------- |
 | Let's Encrypt | Yes (90-day certs) | Automated via ACME (certbot, acme.sh)   |
@@ -10260,6 +10570,8 @@ Forum, which sets baseline requirements for certificate issuance.
 | GlobalSign    | No                 | Enterprise and IoT                      |
 | Sectigo       | Yes (limited)      | Formerly Comodo                         |
 | ZeroSSL       | Yes (90-day certs) | ACME support, Let's Encrypt alternative |
+
+</div>
 
 ### ACME Protocol (RFC 8555)
 
@@ -10411,6 +10723,8 @@ Produces a temporary key pair for each session, and the private key is discarded
 Handshake. The server's long-term key (from its certificate) is only used for authentication
 (signing the key exchange parameters), not for key derivation.
 
+<div class="table-wrap">
+
 | Key Exchange   | Forward Secrecy | Performance                      |
 | -------------- | --------------- | -------------------------------- |
 | RSA            | No              | Fast                             |
@@ -10418,6 +10732,8 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE          | Yes             | Fast (elliptic curve operations) |
 | ECDHE + P-256  | Yes             | Good balance                     |
 | ECDHE + X25519 | Yes             | Best performance                 |
+
+</div>
 :::
 
 :::caution
@@ -10616,6 +10932,8 @@ TLS alerts communicate errors and closure notifications. They are 2 bytes: alert
 
 Common alerts:
 
+<div class="table-wrap">
+
 | Description           | Value | Meaning                                        |
 | --------------------- | ----- | ---------------------------------------------- |
 | `close_notify`        | 0     | Clean connection closure                       |
@@ -10626,6 +10944,8 @@ Common alerts:
 | `certificate_revoked` | 44    | Certificate has been revoked                   |
 | `illegal_parameter`   | 47    | Invalid value in handshake field               |
 | `decrypt_error`       | 51    | Handshake cryptographic operation failed       |
+
+</div>
 
 In TLS 1.3, most alerts result in immediate connection termination. The server cannot send an error
 Alert after the handshake completes (to prevent middleboxes from interpreting alerts as protocol
@@ -10959,12 +11279,16 @@ has:
 
 Content types:
 
+<div class="table-wrap">
+
 | Type               | Value | Description                                   |
 | ------------------ | ----- | --------------------------------------------- |
 | CHANGE_CIPHER_SPEC | 20    | Deprecated in TLS 1.3 (replaced by KeyUpdate) |
 | ALERT              | 21    | Error or warning notifications                |
 | HANDSHAKE          | 22    | Handshake protocol messages                   |
 | APPLICATION_DATA   | 23    | Encrypted application data                    |
+
+</div>
 
 ### Handshake Protocol
 
@@ -10975,10 +11299,14 @@ Cryptographic parameters. Handshake messages are carried inside TLS records with
 
 Alert messages convey errors and state changes:
 
+<div class="table-wrap">
+
 | Level       | Description                     | Common Alerts                                      |
 | ----------- | ------------------------------- | -------------------------------------------------- |
 | Warning (1) | Non-fatal; connection continues | close_notify, no_certificate, bad_certificate      |
 | Fatal (2)   | Connection must be terminated   | handshake_failure, decode_error, illegal_parameter |
+
+</div>
 
 ### Change Cipher Spec Protocol
 
@@ -10988,6 +11316,8 @@ Deprecated. Key changes are signaled within the handshake protocol itself.
 ## TLS 1.2 vs TLS 1.3
 
 ### Removed in TLS 1.3
+
+<div class="table-wrap">
 
 | Feature                 | TLS 1.2   | TLS 1.3 | Reason                                    |
 | ----------------------- | --------- | ------- | ----------------------------------------- |
@@ -10999,7 +11329,11 @@ Deprecated. Key changes are signaled within the handshake protocol itself.
 | SHA-1 in signatures     | Supported | Removed | SHA-1 is cryptographically weak           |
 | MD5 in signatures       | Supported | Removed | MD5 is broken                             |
 
+</div>
+
 ### Added in TLS 1.3
+
+<div class="table-wrap">
 
 | Feature                | Description                                                           |
 | ---------------------- | --------------------------------------------------------------------- |
@@ -11010,10 +11344,14 @@ Deprecated. Key changes are signaled within the handshake protocol itself.
 | Encrypted Server Hello | Server Hello is encrypted (hides server identity from observers)      |
 | KeyUpdate              | In-band key rotation without renegotiation                            |
 
+</div>
+
 ### Cipher Suite Simplification
 
 TLS 1.2 cipher suites are complex strings like `TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256`. TLS 1.3
 Cipher suites only specify the AEAD algorithm:
+
+<div class="table-wrap">
 
 | TLS 1.3 Cipher Suite         | AEAD Algorithm    | Hash (HKDF) |
 | ---------------------------- | ----------------- | ----------- |
@@ -11022,6 +11360,8 @@ Cipher suites only specify the AEAD algorithm:
 | TLS_CHACHA20_POLY1305_SHA256 | ChaCha20-Poly1305 | SHA-256     |
 | TLS_AES_128_CCM_SHA256       | AES-128-CCM       | SHA-256     |
 | TLS_AES_128_CCM_8_SHA256     | AES-128-CCM-8     | SHA-256     |
+
+</div>
 
 The key exchange algorithm is no longer part of the cipher suite. It is negotiated separately via
 the `supported_groups` extension.
@@ -11054,6 +11394,8 @@ Client                                          Server
 
 The ClientHello carries the client"s capabilities and parameters:
 
+<div class="table-wrap">
+
 | Field                      | Description                                         |
 | -------------------------- | --------------------------------------------------- |
 | legacy_version             | 0x0303 (TLS 1.2) for compatibility with middleboxes |
@@ -11065,7 +11407,11 @@ The ClientHello carries the client"s capabilities and parameters:
 |                            | signature_algorithms, psk_key_exchange_modes,       |
 |                            | server_name (SNI), etc.                             |
 
+</div>
+
 ### ServerHello Fields
+
+<div class="table-wrap">
 
 | Field                     | Description                             |
 | ------------------------- | --------------------------------------- |
@@ -11076,6 +11422,8 @@ The ClientHello carries the client"s capabilities and parameters:
 | legacy_compression_method | 0x00                                    |
 | extensions                | supported_version (TLS 1.3), key_share, |
 |                           | pre_shared_key (if PSK selected)        |
+
+</div>
 
 ### EncryptedExtensions
 
@@ -11136,12 +11484,16 @@ Shared secret = ECDH(priv_c, pub_s) = ECDH(priv_s, pub_c) = x-coordinate of (pri
 
 Supported curves (RFC 8446):
 
+<div class="table-wrap">
+
 | Curve             | Key Size | Security Level |
 | ----------------- | -------- | -------------- |
 | X25519            | 256 bits | 128 bits       |
 | secp256r1 (P-256) | 256 bits | 128 bits       |
 | secp384r1 (P-384) | 384 bits | 192 bits       |
 | secp521r1 (P-521) | 521 bits | 256 bits       |
+
+</div>
 
 X25519 is the recommended default. It is faster than NIST curves, has simpler implementation (fewer
 Edge cases), and uses a constant-time algorithm that is resistant to timing attacks.
@@ -11151,6 +11503,8 @@ Edge cases), and uses a constant-time algorithm that is resistant to timing atta
 Traditional Diffie-Hellman over a finite field. Slower than ECDHE for equivalent security levels.
 Supported groups:
 
+<div class="table-wrap">
+
 | Group (ffdhe) | Prime Size | Security Level |
 | ------------- | ---------- | -------------- |
 | ffdhe2048     | 2048 bits  | 112 bits       |
@@ -11159,15 +11513,21 @@ Supported groups:
 | ffdhe6144     | 6144 bits  | 175 bits       |
 | ffdhe8192     | 8192 bits  | 200+ bits      |
 
+</div>
+
 ### PSK (Pre-Shared Key)
 
 TLS 1.3 supports PSK-based key exchange, which can be used alone or combined with (EC)DHE (called
 "PSK with (EC)DHE" or "psk_dhe_ke").
 
+<div class="table-wrap">
+
 | PSK Mode      | Forward Secrecy | Use Case                              |
 | ------------- | --------------- | ------------------------------------- |
 | PSK only      | No              | IoT devices, resumption tickets       |
 | PSK + (EC)DHE | Yes             | Recommended for resumption (security) |
+
+</div>
 
 PSKs are established either externally (configured on both sides) or via a previous TLS handshake
 (session resumption via NewSessionTicket).
@@ -11321,12 +11681,16 @@ Fragmented into multiple records. The receiver reassembles the fragments.
 
 In TLS 1.3, the maximum record size is negotiated via the `max_fragment_length` extension:
 
+<div class="table-wrap">
+
 | Value | Max Record Size   |
 | ----- | ----------------- |
 | 1     | 2^9 (512 bytes)   |
 | 2     | 2^10 (1024 bytes) |
 | 3     | 2^11 (2048 bytes) |
 | 4     | 2^12 (4096 bytes) |
+
+</div>
 
 Smaller records reduce latency (the receiver can process data sooner) but increase overhead (more
 Records = more TLS record headers and MACs).
@@ -11394,6 +11758,8 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 
 ### Which Cipher Suites Provide Forward Secrecy
 
+<div class="table-wrap">
+
 | Key Exchange  | Forward Secrecy |
 | ------------- | --------------- |
 | Static RSA    | No              |
@@ -11401,6 +11767,8 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | DHE           | Yes             |
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
+
+</div>
 :::
 
 :::caution
@@ -11622,11 +11990,15 @@ DELETE, financial transactions.
 
 Mozilla provides a configuration generator (<https://ssl-config.mozilla.org/>) with three profiles:
 
+<div class="table-wrap">
+
 | Profile      | Clients Supported           | Cipher Suites                      |
 | ------------ | --------------------------- | ---------------------------------- |
 | Modern       | TLS 1.3 only                | AES-128-GCM, AES-256-GCM, ChaCha20 |
 | Intermediate | TLS 1.2 + TLS 1.3           | Adds AES-128-CBC, ECDHE, DHE       |
 | Old          | TLS 1.0 + TLS 1.1 + TLS 1.2 | Maximum compatibility              |
+
+</div>
 
 ### nginx Configuration Example
 
@@ -11691,12 +12063,16 @@ curl -sI https://example.com | grep -i strict-transport
 The TLS handshake is CPU-intensive due to the asymmetric key exchange (ECDHE) and signature
 Verification. Typical costs:
 
+<div class="table-wrap">
+
 | Operation            | Time (approximate) |
 | -------------------- | ------------------ |
 | ECDHE key exchange   | 0.5-2ms (P-256)    |
 | RSA signature verify | 0.5-1ms (2048-bit) |
 | AES-128-GCM encrypt  | 0.001ms per KB     |
 | Session resumption   | 0.1-0.5ms          |
+
+</div>
 
 On a server handling 10,000 new TLS connections per second, the handshake alone consumes significant
 CPU. Session resumption reduces this cost dramatically.
@@ -11989,12 +12365,16 @@ ping -c 4 -s 1400 example.com
 The TTL field in the IP header is decremented by each router. When TTL reaches 0, the router sends
 an ICMP Time Exceeded message back to the source. The initial TTL reveals the operating system:
 
+<div class="table-wrap">
+
 | Initial TTL | OS                           |
 | ----------- | ---------------------------- |
 | 64          | Linux, macOS, Android, iOS   |
 | 128         | Windows                      |
 | 255         | Cisco IOS, network equipment |
 | 254         | Some Solaris versions        |
+
+</div>
 
 ```bash
 # See TTL in ping output
@@ -13004,6 +13384,8 @@ before libpcap sees it.
 
 ### Capture Point Selection Guide
 
+<div class="table-wrap">
+
 | Scenario                         | Best Capture Point                                     |
 | -------------------------------- | ------------------------------------------------------ |
 | Troubleshoot server connectivity | On the server (tcpdump)                                |
@@ -13012,6 +13394,8 @@ before libpcap sees it.
 | Multi-point analysis             | SPAN + server capture, correlated                      |
 | Encrypted traffic analysis       | On the endpoint (before encryption / after decryption) |
 | Container networking             | On the host's veth interface or inside the container   |
+
+</div>
 
 :::caution
 Line-rate traffic, especially on 10Gbps+ links. If you see missing packets in a SPAN capture,
@@ -13343,6 +13727,8 @@ Destination IP, source port, destination port, protocol).
 
 **What NetFlow records:**
 
+<div class="table-wrap">
+
 | Field            | Description                          |
 | ---------------- | ------------------------------------ |
 | src_addr         | Source IP address                    |
@@ -13362,13 +13748,19 @@ Destination IP, source port, destination port, protocol).
 | output_interface | SNMP index of egress interface       |
 | nexthop          | Next-hop IP address                  |
 
+</div>
+
 **NetFlow versions:**
+
+<div class="table-wrap">
 
 | Version | Description                                  |
 | ------- | -------------------------------------------- |
 | v5      | Original format, fixed fields                |
 | v9      | Template-based, extensible (RFC 3954)        |
 | IPFIX   | IETF standard based on NetFlow v9 (RFC 7011) |
+
+</div>
 
 ### sFlow
 
@@ -13582,6 +13974,8 @@ Operation.
 
 ### What to Measure
 
+<div class="table-wrap">
+
 | Metric               | Tool            | Frequency |
 | -------------------- | --------------- | --------- |
 | Interface throughput | SNMP / iftop    | 5 minutes |
@@ -13592,6 +13986,8 @@ Operation.
 | HTTP request rate    | access logs     | 1 minute  |
 | Packet loss          | ping / SLA      | 1 minute  |
 | Latency (RTT)        | ping / SLA      | 1 minute  |
+
+</div>
 
 ### Baseline Duration
 
@@ -13956,6 +14352,8 @@ or 802.2 LLC.
 
 ### Evolution of Speeds
 
+<div class="table-wrap">
+
 | Standard   | Year | Speed    | Medium             | Max Segment |
 | ---------- | ---- | -------- | ------------------ | ----------- |
 | 10BASE5    | 1983 | 10 Mbps  | Thick coax (10 mm) | 500 m       |
@@ -13965,6 +14363,8 @@ or 802.2 LLC.
 | 1000BASE-T | 1999 | 1 Gbps   | Cat5e UTP          | 100 m       |
 | 10GBASE-T  | 2006 | 10 Gbps  | Cat6a UTP          | 100 m       |
 | 40GBASE-T  | 2018 | 40 Gbps  | Cat8 UTP           | 30 m        |
+
+</div>
 
 Each generation maintained backward compatibility at the physical layer while dramatically
 Increasing throughput. The shift from shared medium (coax, hubs) to switched (full-duplex point-to-
@@ -14009,6 +14409,8 @@ Multicast or broadcast address).
 
 Identifies the protocol encapsulated in the payload. Common values:
 
+<div class="table-wrap">
+
 | EtherType (hex) | Protocol     |
 | --------------- | ------------ |
 | 0x0800          | IPv4         |
@@ -14019,6 +14421,8 @@ Identifies the protocol encapsulated in the payload. Common values:
 | 0x8864          | PPPoE        |
 | 0x8847          | MPLS Unicast |
 | 0x88CC          | LLDP         |
+
+</div>
 
 When the value is $\le$ 1500 (0x05DC), the field is interpreted as a Length field (802.3 frame)
 Rather than an EtherType, and the encapsulated protocol is identified by the LLC/SNAP header.
@@ -14195,6 +14599,8 @@ Undetected collision.
 
 ## Full-Duplex vs Half-Duplex Ethernet
 
+<div class="table-wrap">
+
 | Property           | Half-Duplex                       | Full-Duplex                                   |
 | ------------------ | --------------------------------- | --------------------------------------------- |
 | Direction          | One at a time (send or receive)   | Simultaneous send and receive                 |
@@ -14203,6 +14609,8 @@ Undetected collision.
 | Minimum frame size | 64 bytes enforced                 | Not enforced (but standard frames still used) |
 | Cable              | Single pair (old coax) or 2 pairs | Separate TX/RX pairs                          |
 | Modern use         | Legacy/hubs only                  | Switches, virtually universal                 |
+
+</div>
 
 Full-duplex Ethernet eliminates collisions entirely because each station has dedicated transmit and
 Receive paths. A switch port connected to a single host is inherently full-duplex -- there is no
@@ -14214,6 +14622,8 @@ have been obsolete for over two decades.
 
 ## Ethernet Standards Comparison
 
+<div class="table-wrap">
+
 | Standard   | Speed    | Medium    | Encoding        | Pairs | Max Distance | Notes                       |
 | ---------- | -------- | --------- | --------------- | ----- | ------------ | --------------------------- |
 | 10BASE-T   | 10 Mbps  | Cat3+ UTP | Manchester      | 2     | 100 m        | Half/full duplex            |
@@ -14222,9 +14632,13 @@ have been obsolete for over two decades.
 | 10GBASE-T  | 10 Gbps  | Cat6a UTP | 16QAM / DSQ128  | 4     | 100 m        | 400 MHz bandwidth           |
 | 40GBASE-T  | 40 Gbps  | Cat8 UTP  | PAM-16          | 4     | 30 m         | 2 GHz bandwidth             |
 
+</div>
+
 ### Fiber Variants
 
 Fiber optic Ethernet variants are common in data center and campus backbone deployments:
+
+<div class="table-wrap">
 
 | Standard     | Speed    | Fiber Type             | Wavelength  | Max Distance      |
 | ------------ | -------- | ---------------------- | ----------- | ----------------- |
@@ -14235,6 +14649,8 @@ Fiber optic Ethernet variants are common in data center and campus backbone depl
 | 40GBASE-SR4  | 40 Gbps  | Multimate (50 um)      | 850 nm      | 100 m (OM3)       |
 | 100GBASE-LR4 | 100 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 10 km             |
 | 400GBASE-DR4 | 400 Gbps | Single-mode (9 um)     | 4 x 1310 nm | 500 m             |
+
+</div>
 
 ### 1000BASE-T Details
 
@@ -14349,12 +14765,16 @@ Correctly.
 
 ### Access Ports vs Trunk Ports
 
+<div class="table-wrap">
+
 | Property        | Access Port                                              | Trunk Port                              |
 | --------------- | -------------------------------------------------------- | --------------------------------------- |
 | Tagged frames   | No -- strips tags on egress, expects untagged on ingress | Yes -- carries multiple VLANs with tags |
 | VLAN membership | Single VLAN (access VLAN)                                | Multiple VLANs (allowed VLAN list)      |
 | Native VLAN     | N/A (or assigns frames to access VLAN)                   | Untagged traffic mapped to native VLAN  |
 | Typical use     | End devices (PCs, printers, servers)                     | Switch-to-switch, switch-to-router      |
+
+</div>
 
 Configuration example (Cisco):
 
@@ -14449,6 +14869,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 
 ### Port States (802.1D)
 
+<div class="table-wrap">
+
 | State      | Forwards Data | Learns MACs | Duration             |
 | ---------- | ------------- | ----------- | -------------------- |
 | Disabled   | No            | No          | Administrative       |
@@ -14456,6 +14878,8 @@ This sets Switch A's priority to 4096, making its BID lower than Switch B's 8192
 | Listening  | No            | No          | Forward delay (15 s) |
 | Learning   | No            | Yes         | Forward delay (15 s) |
 | Forwarding | Yes           | Yes         | Stable               |
+
+</div>
 
 The total time from blocking to forwarding is the **max age** (20 s) + 2 x **forward delay** (30 s)
 = 50 seconds in the worst case. This is painfully slow for modern networks.
@@ -14474,6 +14898,8 @@ STP uses BPDUs to exchange topology information. There are two types:
 Rapid Spanning Tree Protocol (RSTP, IEEE 802.1w) reduces convergence time from 50 seconds to a few
 Seconds or less. Key improvements:
 
+<div class="table-wrap">
+
 | Feature             | STP (802.1D)                                            | RSTP (802.1w)                            |
 | ------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | Port states         | 5 (blocking, listening, learning, forwarding, disabled) | 3 (discarding, learning, forwarding)     |
@@ -14481,6 +14907,8 @@ Seconds or less. Key improvements:
 | Sync mechanism      | Timer-based                                             | Proposal/Agreement handshake             |
 | Edge ports          | No concept                                              | Explicitly defined (PortFast equivalent) |
 | Link type detection | No                                                      | Point-to-point vs shared                 |
+
+</div>
 
 RSTP uses a proposal/agreement mechanism: when a port becomes designated, it proposes itself as the
 Forwarding port. The downstream switch acknowledges (agrees) only if all its non-edge ports are in
@@ -15054,6 +15482,8 @@ $$
 \mathrm{dB = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)
 $$
 
+<div class="table-wrap">
+
 | Unit | Meaning                                     | Reference                |
 | ---- | ------------------------------------------- | ------------------------ |
 | dB   | Ratio of two power levels                   | $P_2 / P_1$              |
@@ -15061,7 +15491,11 @@ $$
 | dBi  | Antenna gain relative to isotropic radiator | Theoretical point source |
 | dBd  | Antenna gain relative to half-wave dipole   | Dipole antenna           |
 
+</div>
+
 Common dBm values:
+
+<div class="table-wrap">
 
 | Power  | dBm    |
 | ------ | ------ |
@@ -15070,6 +15504,8 @@ Common dBm values:
 | 100 mW | 20 dBm |
 | 1 W    | 30 dBm |
 | 4 W    | 36 dBm |
+
+</div>
 
 **Free Space Path Loss (FSPL):** The signal attenuation over distance in free space:
 
@@ -15128,6 +15564,8 @@ $$
 
 A higher SNR means better signal quality. Typical Wi-Fi requirements:
 
+<div class="table-wrap">
+
 | SNR (dB) | Quality     | Maximum MCS |
 | -------- | ----------- | ----------- |
 | $\lt$ 5  | Unusable    | --          |
@@ -15138,10 +15576,14 @@ A higher SNR means better signal quality. Typical Wi-Fi requirements:
 | 25 -- 40 | Excellent   | MCS 16-23   |
 | $\gt$ 40 | Outstanding | Maximum     |
 
+</div>
+
 **Signal-to-Interference-plus-Noise Ratio (SINR)** adds interference from other wireless devices to
 The noise floor. In dense environments, interference often dominates over thermal noise.
 
 ## 802.11 Standards Evolution
+
+<div class="table-wrap">
 
 | Standard | Wi-Fi Gen  | Year      | Freq (GHz) | Max PHY Rate | Modulation      | Max MIMO | Channel BW           |
 | -------- | ---------- | --------- | ---------- | ------------ | --------------- | -------- | -------------------- |
@@ -15152,6 +15594,8 @@ The noise floor. In dense environments, interference often dominates over therma
 | 802.11ac | Wi-Fi 5    | 2013      | 5          | 6.93 Gbps    | OFDM (256-QAM)  | 8x8      | 20/40/80/160 MHz     |
 | 802.11ax | Wi-Fi 6/6E | 2020/2021 | 2.4/5/6    | 9.6 Gbps     | OFDMA, 1024-QAM | 8x8      | 20/40/80/160 MHz     |
 | 802.11be | Wi-Fi 7    | 2024      | 2.4/5/6    | 46 Gbps      | 4096-QAM, MLO   | 16x16    | 20/40/80/160/320 MHz |
+
+</div>
 
 ### Key Improvements by Generation
 
@@ -15263,6 +15707,8 @@ Control:
 Management frames are used for joining and leaving wireless networks. They are always sent at the
 Lowest mandatory data rate to ensure all stations can receive them.
 
+<div class="table-wrap">
+
 | Subtype | Name                   | Purpose                             |
 | ------- | ---------------------- | ----------------------------------- |
 | 0       | Association Request    | Client requests to join BSS         |
@@ -15275,6 +15721,8 @@ Lowest mandatory data rate to ensure all stations can receive them.
 | 10      | Authentication         | Open/Shared key authentication      |
 | 11      | Deauthentication       | Terminates association              |
 | 12      | Action                 | Spectrum management, QoS, etc.      |
+
+</div>
 
 Beacon frames are sent by the AP at a configurable interval (default: 100 ms, or 10 TUs -- Time
 Units, where 1 TU = 1024 microseconds). Beacons contain:
@@ -15290,12 +15738,16 @@ Units, where 1 TU = 1024 microseconds). Beacons contain:
 
 Control frames assist in the delivery of data frames. They do not carry upper-layer data.
 
+<div class="table-wrap">
+
 | Subtype | Name                  | Purpose                                        |
 | ------- | --------------------- | ---------------------------------------------- |
 | 8       | RTS (Request to Send) | Reserves the medium before transmission        |
 | 9       | CTS (Clear to Send)   | Acknowledges RTS, tells other stations to wait |
 | 10      | ACK                   | Acknowledges successful frame reception        |
 | 11      | PS-Poll               | Sleeping client requests buffered data         |
+
+</div>
 
 RTS/CTS is used to mitigate the hidden node problem. Before transmitting a data frame, the sender
 Broadcasts an RTS. The receiver responds with a CTS. All stations hearing the CTS defer transmission
@@ -15306,6 +15758,8 @@ for the duration specified in the CTS, even if they did not hear the RTS.
 Data frames carry higher-layer (Layer 3+) payloads. They are the most common frame type on a busy
 Network.
 
+<div class="table-wrap">
+
 | Subtype | Name           | Purpose                                                                |
 | ------- | -------------- | ---------------------------------------------------------------------- |
 | 0       | Data           | Standard data frame                                                    |
@@ -15313,6 +15767,8 @@ Network.
 | 2       | Data + CF-Poll | Data with poll (Contention Free)                                       |
 | 4       | Null           | No data, used for power management (tells AP client is going to sleep) |
 | 12      | QoS Data       | Data frame with QoS priority (802.11e)                                 |
+
+</div>
 
 QoS Data frames include a QoS Control field that carries the Traffic Identifier (TID), UP (User
 Priority), and other QoS parameters. WMM (Wi-Fi Multimedia) maps the 8 User Priority values to 4
@@ -15379,6 +15835,8 @@ WPA2 is the current minimum standard for Wi-Fi security.
 
 WPA3 addresses several weaknesses in WPA2:
 
+<div class="table-wrap">
+
 | Feature                   | WPA2                           | WPA3                                    |
 | ------------------------- | ------------------------------ | --------------------------------------- |
 | Offline dictionary attack | Possible on captured handshake | Prevented by SAE                        |
@@ -15386,6 +15844,8 @@ WPA3 addresses several weaknesses in WPA2:
 | Open network encryption   | None                           | OWE (Opportunistic Wireless Encryption) |
 | Key length                | 128-bit default                | 192-bit in WPA3-Enterprise              |
 | IoT                       | Limited                        | Enhanced Open for public networks       |
+
+</div>
 
 **SAE (Simultaneous Authentication of Equals):** WPA3-Personal replaces the PSK 4-way handshake with
 SAE, a dragonfly key exchange (RFC 7664). SAE is resistant to offline dictionary attacks because the
@@ -15412,12 +15872,16 @@ between the authenticator and the authentication server.
 
 Common EAP methods:
 
+<div class="table-wrap">
+
 | Method        | Mutual Auth | Certificates | Notes                              |
 | ------------- | ----------- | ------------ | ---------------------------------- |
 | EAP-TLS       | Yes         | Both sides   | Most secure, but complex to deploy |
 | PEAP-MSCHAPv2 | Yes         | Server only  | Most common in enterprise          |
 | EAP-TTLS      | Yes         | Server only  | Flexible inner authentication      |
 | EAP-FAST      | Yes         | Server (PAC) | Cisco-proprietary, less common     |
+
+</div>
 
 ## Channel Allocation
 
@@ -15485,6 +15949,8 @@ Disruption. Use DFS channels for capacity, not for critical primary coverage.
 
 Channel bonding combines adjacent 20 MHz channels into wider channels for higher throughput:
 
+<div class="table-wrap">
+
 | Bonded Width | Channels Combined | Throughput Gain | Interference Risk |
 | ------------ | ----------------- | --------------- | ----------------- |
 | 20 MHz       | 1                 | Baseline        | Lowest            |
@@ -15492,6 +15958,8 @@ Channel bonding combines adjacent 20 MHz channels into wider channels for higher
 | 80 MHz       | 4                 | ~4x             | High              |
 | 160 MHz      | 8                 | ~8x             | Very high         |
 | 320 MHz      | 16                | ~16x            | Extreme           |
+
+</div>
 
 In the 2.4 GHz band, bonding 40 MHz consumes the entire available spectrum, leaving no room for
 other channels. In the 5 GHz band, 80 MHz bonding is common but requires careful channel planning.
@@ -15504,6 +15972,8 @@ Available spectrum.
 
 Wi-Fi signal strength is measured in dBm (decibels relative to 1 milliwatt). Typical thresholds:
 
+<div class="table-wrap">
+
 | Signal (dBm) | Quality    | Usability                          |
 | ------------ | ---------- | ---------------------------------- |
 | $\gt$ -30    | Excellent  | Unusually close to AP              |
@@ -15513,6 +15983,8 @@ Wi-Fi signal strength is measured in dBm (decibels relative to 1 milliwatt). Typ
 | -67 to -70   | Weak       | Data only, video unreliable        |
 | -70 to -80   | Very weak  | Intermittent connectivity          |
 | $\lt$ -80    | Unusable   | Connection unlikely                |
+
+</div>
 
 ### Interference Types
 
@@ -15657,6 +16129,8 @@ A proper site survey follows these phases:
 
 Approximate AP density guidelines:
 
+<div class="table-wrap">
+
 | Environment               | AP Density (per 1000 sq ft) | Typical Design              |
 | ------------------------- | --------------------------- | --------------------------- |
 | Office (data only)        | 1                           | Coverage-based              |
@@ -15664,9 +16138,13 @@ Approximate AP density guidelines:
 | High-density (auditorium) | 5-10                        | Capacity-based, small cells |
 | Warehouse                 | 0.5-1                       | Coverage-based, high-mount  |
 
+</div>
+
 ### Power over Ethernet (PoE)
 
 Most enterprise APs require PoE:
+
+<div class="table-wrap">
 
 | Standard               | Power per Port | Max Cable Length |
 | ---------------------- | -------------- | ---------------- |
@@ -15674,6 +16152,8 @@ Most enterprise APs require PoE:
 | 802.3at (PoE+)         | 30 W           | 100 m            |
 | 802.3bt (PoE++) Type 3 | 60 W           | 100 m            |
 | 802.3bt (PoE++) Type 4 | 90 W           | 100 m            |
+
+</div>
 
 Wi-Fi 6/6E/7 APs with multiple radios require PoE+ (30 W) or PoE++ (60 W). Verify power Requirements
 before deployment.
@@ -15785,11 +16265,15 @@ Channels with maximum separation.
 
 Recommended plan (20 MHz channels):
 
+<div class="table-wrap">
+
 | Floor | AP1 | AP2 | AP3 | AP4 |
 | ----- | --- | --- | --- | --- |
 | 3rd   | 36  | 149 | 44  | 157 |
 | 2nd   | 149 | 36  | 157 | 44  |
 | 1st   | 44  | 157 | 36  | 149 |
+
+</div>
 
 This ensures that APs in the same column on adjacent floors use widely separated channels (36 and
 149, for example, are separated by over 4 GHz), minimizing inter-floor interference. APs on the same
@@ -16021,6 +16505,8 @@ CRLF followed by at least one whitespace character (folding whitespace).
 
 Key headers include:
 
+<div class="table-wrap">
+
 | Header                      | Purpose                                                          |
 | --------------------------- | ---------------------------------------------------------------- |
 | `From`                      | The author's mailbox. Must be a single address per RFC 5322.     |
@@ -16037,6 +16523,8 @@ Key headers include:
 | `Content-Transfer-Encoding` | Encoding method: `7bit``8bit``quoted-printable``base64`.         |
 | `Content-Disposition`       | Inline or attachment with optional filename parameter.           |
 | `Received`                  | Trace header added by each MTA hop with timestamp and host info. |
+
+</div>
 
 **Body**
 
@@ -16073,6 +16561,8 @@ JVBERi0xLjUK...
 
 Common multipart subtypes:
 
+<div class="table-wrap">
+
 | Subtype                 | Purpose                                                                           |
 | ----------------------- | --------------------------------------------------------------------------------- |
 | `multipart/mixed`       | Independent parts of different types (e.g., text + attachment).                   |
@@ -16080,6 +16570,8 @@ Common multipart subtypes:
 | `multipart/related`     | Parts that reference each other (e.g., HTML with inline images via `Content-ID`). |
 | `multipart/signed`      | A two-part body for S/MIME or PGP signatures.                                     |
 | `multipart/report`      | Delivery status notifications (DSN, MDN).                                         |
+
+</div>
 
 **Base64 Encoding**
 
@@ -16283,6 +16775,8 @@ Messages early, after receiving only the first chunk.
 
 SMTP uses three-digit reply codes grouped by the first digit:
 
+<div class="table-wrap">
+
 | First Digit | Meaning                                                                                |
 | ----------- | -------------------------------------------------------------------------------------- |
 | `2xx`       | Success. The requested action was completed.                                           |
@@ -16290,7 +16784,11 @@ SMTP uses three-digit reply codes grouped by the first digit:
 | `4xx`       | Temporary failure. The command failed but may succeed if retried later.                |
 | `5xx`       | Permanent failure. The command should not be retried without correcting the condition. |
 
+</div>
+
 Common response codes:
+
+<div class="table-wrap">
 
 | Code  | Meaning                                                           |
 | ----- | ----------------------------------------------------------------- |
@@ -16319,6 +16817,8 @@ Common response codes:
 | `552` | Requested action aborted: exceeded storage allocation.            |
 | `553` | Requested action not taken: mailbox name not allowed.             |
 | `554` | Transaction failed (general permanent failure).                   |
+
+</div>
 
 The enhanced mail status codes (RFC 3463) extend the three-digit code with an `x.y.z` structure
 Providing granular information about the subject (x), detail (y), and action (z). For example,
@@ -16353,6 +16853,8 @@ each device sees the same server-side state.
 
 ### IMAP vs POP3
 
+<div class="table-wrap">
+
 | Feature              | IMAP                              | POP3                           |
 | -------------------- | --------------------------------- | ------------------------------ |
 | Port (TLS)           | 993                               | 995                            |
@@ -16367,6 +16869,8 @@ each device sees the same server-side state.
 | Bandwidth efficiency | High (fetch what is needed)       | Low (downloads everything)     |
 | Quota support        | Yes (RFC 2087)                    | No                             |
 | Push notifications   | Yes (IDLE, RFC 2177)              | No                             |
+
+</div>
 
 IMAP is the preferred protocol for users who access email from multiple devices or need server-side
 Organization. POP3 remains suitable for simple, single-device use cases where messages are
@@ -16396,6 +16900,8 @@ Operations within a single session.
 
 IMAP defines system flags that convey message state:
 
+<div class="table-wrap">
+
 | Flag        | Meaning                                                     |
 | ----------- | ----------------------------------------------------------- |
 | `\Seen`     | Message has been read.                                      |
@@ -16404,6 +16910,8 @@ IMAP defines system flags that convey message state:
 | `\Deleted`  | Message is marked for deletion (removed on EXPUNGE).        |
 | `\Draft`    | Message is a draft.                                         |
 | `\Recent`   | Message arrived since the last session (session-only flag). |
+
+</div>
 
 Servers may also support custom keywords (user-defined flags) for additional categorization. These
 Keywords are prefixed with `$` by convention (e.g., `$Junk`, `$NonJunk`, `$Phishing`).
@@ -16934,6 +17442,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 
 **Mechanisms**
 
+<div class="table-wrap">
+
 | Mechanism        | Meaning                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
 | `all`            | Matches all senders. Always placed at the end as the default policy.          |
@@ -16944,6 +17454,8 @@ example.com. IN TXT "v=spf1 ip4:192.0.2.0/24 include:_spf.google.com ~all"
 | `ip6:cidr`       | Matches if the sender's IP is within the specified IPv6 CIDR range.           |
 | `ptr`            | Matches if the reverse DNS of the sender resolves to the domain (deprecated). |
 | `exists:domain`  | Matches if the specified domain resolves to any address.                      |
+
+</div>
 
 **Qualifiers**
 
@@ -17042,6 +17554,8 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 
 **Policy Tags**
 
+<div class="table-wrap">
+
 | Tag              | Purpose                                                             |
 | ---------------- | ------------------------------------------------------------------- |
 | `v=DMARC1`       | Protocol version.                                                   |
@@ -17055,6 +17569,8 @@ _dmarc.example.com. IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc@example.com; pc
 | `ri=86400`       | Reporting interval in seconds (default 86400).                      |
 | `adkim=s`        | DKIM alignment mode: `s` (strict) or `r` (relaxed).                 |
 | `aspf=s`         | SPF alignment mode: `s` (strict) or `r` (relaxed).                  |
+
+</div>
 
 **Reporting**
 
@@ -17144,6 +17660,8 @@ such as IdenTrust, DigiCert, and GlobalSign.
 
 **Comparison of PGP and S/MIME**
 
+<div class="table-wrap">
+
 | Aspect              | PGP/OpenPGP                         | S/MIME                             |
 | ------------------- | ----------------------------------- | ---------------------------------- |
 | Trust model         | Web of trust                        | PKI (X.509 CAs)                    |
@@ -17154,6 +17672,8 @@ such as IdenTrust, DigiCert, and GlobalSign.
 | Flexibility         | Higher (user-controlled trust)      | Lower (CA-dependent)               |
 | Revocation          | Revocation certificates, keyservers | CRL, OCSP                          |
 | Key discovery       | WKD (Web Key Directory, RFC 7929)   | LDAP, S/MIME certificate attribute |
+
+</div>
 
 Both PGP and S/MIME require the sender and recipient to have compatible software and key material.
 Neither is widely deployed for general internet email due to key management complexity and lack of
@@ -17189,6 +17709,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 ### Protocol Port Reference
 
+<div class="table-wrap">
+
 | Protocol          | Port (Plain) | Port (TLS)     | Transport |
 | ----------------- | ------------ | -------------- | --------- |
 | SMTP (relay)      | 25           |,              | TCP       |
@@ -17204,6 +17726,8 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 | SMB               | 445          |,              | TCP       |
 | NFS               | 2049         |,              | TCP       |
 | DNS               | 53           | 853 (DoT)      | UDP/TCP   |
+
+</div>
 
 ## Common Pitfalls
 
@@ -17446,6 +17970,8 @@ Confuse them.
 Every IP router maintains a routing table (also called the Routing Information Base, or RIB). Each
 Entry contains:
 
+<div class="table-wrap">
+
 | Field       | Description                                                                       |
 | ----------- | --------------------------------------------------------------------------------- |
 | Destination | The network or host address being routed to (prefix)                              |
@@ -17454,6 +17980,8 @@ Entry contains:
 | Interface   | The outgoing interface to reach the next hop                                      |
 | Metric      | The cost of the route (lower is preferred unless administrative distance differs) |
 | Protocol    | How the route was learned (connected, static, OSPF, BGP, etc.)                    |
+
+</div>
 
 On Cisco IOS, view the routing table with `show ip route`:
 
@@ -17493,6 +18021,8 @@ The trustworthiness of a route source. When the same prefix is learned from mult
 Route with the lowest AD is installed in the routing table. AD 0 is most trusted, 255 is
 Unreachable.
 
+<div class="table-wrap">
+
 | Source           | Administrative Distance |
 | ---------------- | ----------------------- |
 | Connected        | 0                       |
@@ -17507,6 +18037,8 @@ Unreachable.
 | EIGRP (external) | 170                     |
 | iBGP             | 200                     |
 | Unknown          | 255                     |
+
+</div>
 
 :::note
 Implementations under different names (route preference, distance, or trust value). The numeric
@@ -17576,6 +18108,8 @@ If the primary link to 10.0.0.1 goes down, the floating static route via 10.0.0.
 
 ### When to Use Static vs Dynamic Routing
 
+<div class="table-wrap">
+
 | Factor              | Static Routes                       | Dynamic Routing                          |
 | ------------------- | ----------------------------------- | ---------------------------------------- |
 | Network size        | Small, simple                       | Large, complex                           |
@@ -17586,6 +18120,8 @@ If the primary link to 10.0.0.1 goes down, the floating static route via 10.0.0.
 | Predictability      | Full control                        | Protocol-dependent                       |
 | Scalability         | Poor                                | Good                                     |
 | Typical use case    | Stub networks, default routes, DMZs | Enterprise backbones, ISP core, Internet |
+
+</div>
 
 ## Interior Gateway Protocols Overview
 
@@ -17615,12 +18151,16 @@ IGPs fall into two algorithmic categories:
 
 ### Protocol Comparison
 
+<div class="table-wrap">
+
 | Protocol | Type            | Metric              | Convergence | Scalability | Complexity |
 | -------- | --------------- | ------------------- | ----------- | ----------- | ---------- |
 | RIP      | Distance vector | Hop count           | Slow        | Small       | Low        |
 | EIGRP    | Hybrid          | Composite           | Fast        | Large       | Medium     |
 | OSPF     | Link-state      | Cost (bandwidth)    | Fast        | Very large  | Medium     |
 | IS-IS    | Link-state      | Cost (configurable) | Fast        | Very large  | High       |
+
+</div>
 
 ## RIP (Routing Information Protocol)
 
@@ -17629,6 +18169,8 @@ Networks. For anything beyond a lab or a tiny office, use OSPF instead.
 
 ### RIPv1 vs RIPv2
 
+<div class="table-wrap">
+
 | Feature        | RIPv1                    | RIPv2                     |
 | -------------- | ------------------------ | ------------------------- |
 | Transport      | UDP port 520             | UDP port 520              |
@@ -17636,6 +18178,8 @@ Networks. For anything beyond a lab or a tiny office, use OSPF instead.
 | Authentication | None                     | Plain text or MD5         |
 | Updates        | Broadcast                | Multicast (224.0.0.9)     |
 | Next-hop       | Not supported            | Supported                 |
+
+</div>
 
 RIPv1 is obsolete. RIPv2 is still used in some legacy environments but should not be deployed in new
 Networks.
@@ -17667,12 +18211,16 @@ For the periodic update timer.
 
 ### Timers
 
+<div class="table-wrap">
+
 | Timer           | Default | Purpose                                            |
 | --------------- | ------- | -------------------------------------------------- |
 | Update timer    | 30s     | Interval between periodic routing updates          |
 | Invalid timer   | 180s    | Time after which a route is marked invalid         |
 | Hold-down timer | 180s    | Time a route is held in a "possibly down" state    |
 | Flush timer     | 240s    | Time after which a route is removed from the table |
+
+</div>
 
 ### RIP Configuration
 
@@ -17743,12 +18291,16 @@ Areas small, limit the number of ABRs, and avoid transit areas.
 OSPF cost is calculated as `reference bandwidth / interface bandwidth`. The default reference
 Bandwidth on Cisco routers is 100 Mbps (10^8 bps).
 
+<div class="table-wrap">
+
 | Interface Speed | Default OSPF Cost |
 | --------------- | ----------------- |
 | 10 Mbps         | 10                |
 | 100 Mbps        | 1                 |
 | 1 Gbps          | 1                 |
 | 10 Gbps         | 1                 |
+
+</div>
 
 Since modern networks commonly use links faster than 100 Mbps, you should adjust the reference
 Bandwidth:
@@ -17760,6 +18312,8 @@ router ospf 1
 
 ### LSA Types
 
+<div class="table-wrap">
+
 | LSA Type | Name                  | Generated By | Scope      | Description                           |
 | -------- | --------------------- | ------------ | ---------- | ------------------------------------- |
 | 1        | Router LSA            | Every router | Area       | Lists router's links and costs        |
@@ -17768,6 +18322,8 @@ router ospf 1
 | 4        | Summary LSA (ASBR)    | ABR          | Inter-area | Location of an ASBR                   |
 | 5        | External LSA (Type 1) | ASBR         | Entire AS  | External routes from another protocol |
 | 7        | NSSA External LSA     | ASBR in NSSA | NSSA       | External routes in an NSSA            |
+
+</div>
 
 ### DR/BDR Election
 
@@ -17857,6 +18413,8 @@ IS-IS operates in two levels:
 
 ### IS-IS vs OSPF
 
+<div class="table-wrap">
+
 | Feature            | IS-IS                            | OSPF                       |
 | ------------------ | -------------------------------- | -------------------------- |
 | Protocol           | TLV-based, extensible            | Fixed LSA types            |
@@ -17868,6 +18426,8 @@ IS-IS operates in two levels:
 | Updates            | TLV-encoded LSPs                 | LSA types 1-7              |
 | IPv6 support       | Same protocol, new TLVs          | OSPFv3 (separate protocol) |
 | Typical deployment | Service provider backbones       | Enterprise networks        |
+
+</div>
 
 ### IS-IS TLVs
 
@@ -17918,12 +18478,16 @@ Metric = 256 * [(K1 * BW_min) + (K2 * BW_min / (256 - Load)) + (K3 * Delay_sum)]
 
 By default, only K1 (bandwidth) and K3 (delay) are enabled (K1=1, K2=0, K3=1, K4=0, K5=0).
 
+<div class="table-wrap">
+
 | Component   | Description                                                      |
 | ----------- | ---------------------------------------------------------------- |
 | Bandwidth   | Minimum bandwidth along the path (in Kbps)                       |
 | Delay       | Sum of interface delays along the path (in tens of microseconds) |
 | Reliability | Reliability of the path (0-255, where 255 is 100%)               |
 | Load        | Load on the path (0-255, where 255 is fully loaded)              |
+
+</div>
 
 :::note
 Traffic, causing the metric to change constantly and leading to route flapping and instability.
@@ -17972,6 +18536,8 @@ A metric-based shortest path.
 Single administrative domain with a unified routing policy. Each AS is identified by an **Autonomous
 System Number** (ASN).
 
+<div class="table-wrap">
+
 | Range              | Type     | Notes                                          |
 | ------------------ | -------- | ---------------------------------------------- |
 | 1 - 64511          | Public   | Assigned by regional registries (RIRs)         |
@@ -17980,10 +18546,14 @@ System Number** (ASN).
 | 65536 - 4294967294 | Public   | 32-bit ASNs (4-byte AS numbers)                |
 | 4294967295         | Reserved |                                                |
 
+</div>
+
 Major cloud providers' public ASNs: AWS (16509, 14618), Google (15169, 396982), Azure (8075, 12076),
 Cloudflare (13335), Netflix (2906).
 
 ### eBGP vs iBGP
+
+<div class="table-wrap">
 
 | Attribute     | eBGP (External BGP)                      | iBGP (Internal BGP)                      |
 | ------------- | ---------------------------------------- | ---------------------------------------- |
@@ -17993,6 +18563,8 @@ Cloudflare (13335), Netflix (2906).
 | TTL           | 1 (by default)                           | 255 (by default)                         |
 | Full mesh     | Not required                             | Required (unless using route reflectors) |
 | Route learned | Can be advertised to any BGP peer        | Not advertised to other iBGP peers       |
+
+</div>
 
 ### BGP Sessions
 
@@ -18028,6 +18600,8 @@ MP-BGP, NLRI can carry IPv6 prefixes, VPNv4/VPNv6 prefixes, MPLS labels, and mor
 Every BGP route carries a set of path attributes that influence the BGP decision process. These are
 the core of BGP's policy-based routing.
 
+<div class="table-wrap">
+
 | Attribute             | Code | Type                     | Description                                                         |
 | --------------------- | ---- | ------------------------ | ------------------------------------------------------------------- |
 | ORIGIN                | 1    | Well-known mandatory     | How the route was originated: IGP, EGP, or incomplete               |
@@ -18042,6 +18616,8 @@ the core of BGP's policy-based routing.
 | CLUSTER_LIST          | 10   | Optional non-transitive  | List of route reflector cluster IDs (loop prevention)               |
 | MP_REACH_NLRI         | 14   | Optional non-transitive  | Multiprotocol extensions for IPv6, VPNv4, etc.                      |
 | MP_UNREACH_NLRI       | 15   | Optional non-transitive  | Withdrawal of multiprotocol NLRI                                    |
+
+</div>
 
 **ORIGIN** values:
 
@@ -18286,6 +18862,8 @@ Permits everything else.
 
 Common regex patterns:
 
+<div class="table-wrap">
+
 | Pattern   | Meaning                         |
 | --------- | ------------------------------- |
 | `^65001$` | Originated by AS 65001          |
@@ -18294,6 +18872,8 @@ Common regex patterns:
 | `_65001$` | AS 65001 is the origin AS       |
 | `.*`      | Match any AS_PATH               |
 | `[0-9]+`  | One or more digits              |
+
+</div>
 
 ### Community Filtering
 
@@ -18315,6 +18895,8 @@ Protocol-specific differences.
 
 ### Key Differences from IPv4
 
+<div class="table-wrap">
+
 | Aspect         | IPv4                           | IPv6                                |
 | -------------- | ------------------------------ | ----------------------------------- |
 | Address size   | 32 bits                        | 128 bits                            |
@@ -18323,6 +18905,8 @@ Protocol-specific differences.
 | RIP            | RIPv2 (multicast 224.0.0.9)    | RIPng (multicast FF02::9)           |
 | BGP            | IPv4 unicast AFI               | IPv6 unicast via MP-BGP             |
 | Source address | Interface IP                   | Link-local for protocol traffic     |
+
+</div>
 
 ### MP-BGP (Multiprotocol BGP)
 
@@ -19295,6 +19879,8 @@ Every internet-connected application relies on networking infrastructure that mo
 
 ## Essential Commands
 
+<div class="table-wrap">
+
 | Command | Purpose | Example |
 | --------- | --------- | --------- |
 | `ping` | Test ICMP connectivity and latency | `ping -c 4 8.8.8.8` |
@@ -19305,6 +19891,8 @@ Every internet-connected application relies on networking infrastructure that mo
 | `ss` | View socket statistics | `ss -tlnp` |
 | `ip` | Network interface configuration | `ip addr show` |
 | `nmap` | Port scanning and service detection | `nmap -sV target.host` |
+
+</div>
 
 ## Intuition
 
@@ -19400,6 +19988,8 @@ A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 
 ## What This Subject Covers
 
+<div class="table-wrap">
+
 | Topic                 | Focus                                                     |
 | --------------------- | --------------------------------------------------------- |
 | OSI and TCP/IP Models | Reference models, encapsulation, layer violations         |
@@ -19409,6 +19999,8 @@ A transit provider, or it may be a misconfigured MTU on a VPN tunnel.
 | HTTP                  | HTTP/1.1, HTTP/2, HTTP/3, caching, REST                   |
 | TLS                   | Handshake, cipher suites, certificates, PKI               |
 | Network Tools         | tcpdump, Wireshark, curl, dig, ss, diagnostic methodology |
+
+</div>
 
 ## Core Principles
 

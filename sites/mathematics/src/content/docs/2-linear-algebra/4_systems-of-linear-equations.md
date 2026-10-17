@@ -416,6 +416,8 @@ The deeper insight is that row reduction preserves the solution space while simp
 
 ## Counterexamples worth knowing by name
 
+<div class="table-wrap">
+
 | Claim | True? | Counterexample |
 | ----- | ----- | -------------- |
 | A system with the same number of equations as unknowns has a unique solution | no | $x + y = 2$ and $2x + 2y = 4$ has infinitely many; $x+y=2$ and $x+y=3$ has none |
@@ -426,6 +428,8 @@ The deeper insight is that row reduction preserves the solution space while simp
 | A zero row in echelon form means no solution | no | a zero row means infinitely many solutions if the augmented entry is also zero, and no solution if it is not -- read the *augmented* column |
 | Partial pivoting changes the exact answer | no | it changes the rounding behaviour only; in exact arithmetic the solutions are identical |
 | The LU factorisation exists for every matrix | no | it requires non-zero pivots in order; pivoting gives a permuted factorisation $PA = LU$ |
+
+</div>
 
 The first row is the one to internalise, because the shape of the *coefficient
 matrix* does not determine the outcome. Two systems can look identical in

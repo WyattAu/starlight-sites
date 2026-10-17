@@ -69,10 +69,14 @@ $$
 
 ### Experimental Graphs
 
+<div class="table-wrap">
+
 | Graph               | Gradient | $y$-intercept | $x$-intercept |
 | :------------------ | :------- | :------------ | :------------ |
 | $E_{k,\max}$ vs $f$ | $h$      | $-\Phi$       | $f_0$         |
 | $V_s$ vs $f$        | $h/e$    | $-\Phi/e$     | $f_0$         |
+
+</div>
 
 **Example.** Light of wavelength $400\,\mathrm{nm}$ is incident on a zinc surface with work function
 $\Phi = 4.3\,\mathrm{eV}$. Find the maximum kinetic energy of the emitted electrons.
@@ -269,11 +273,15 @@ $$
 
 Where $R_H = 1.097 \times 10^7\,\mathrm{m^{-1}}$ is the Rydberg constant, $n_i \gt n_f$.
 
+<div class="table-wrap">
+
 | Series  | $n_f$ | Region      |
 | :------ | :---- | :---------- |
 | Lyman   | 1     | Ultraviolet |
 | Balmer  | 2     | Visible     |
 | Paschen | 3     | Infrared    |
+
+</div>
 
 **Example.** Find the wavelength of the first Balmer line ($n_i = 3 \to n_f = 2$).
 
@@ -346,12 +354,16 @@ To counteract the increasing Coulomb repulsion between protons.
 
 ### Types of Radioactive Decay
 
+<div class="table-wrap">
+
 | Decay                  | Emission                           | Change                                  | Example                                                       |
 | :--------------------- | :--------------------------------- | :-------------------------------------- | :------------------------------------------------------------ |
 | Alpha ($\alpha$)       | $^4_2\mathrm{He}$ (helium nucleus) | $Z \to Z - 2$, $A \to A - 4$            | $^{238}_{92}\mathrm{U} \to ^{234}_{90}\mathrm{Th} + \alpha$   |
 | Beta-minus ($\beta^-$) | $e^-$ (electron) + $\bar{\nu}_e$   | $n \to p$: $Z \to Z + 1$, $A$ unchanged | $^{14}_6\mathrm{C} \to ^{14}_7\mathrm{N} + e^- + \bar{\nu}_e$ |
 | Beta-plus ($\beta^+$)  | $e^+$ (positron) + $\nu_e$         | $p \to n$: $Z \to Z - 1$, $A$ unchanged | $^{11}_6\mathrm{C} \to ^{11}_5\mathrm{B} + e^+ + \nu_e$       |
 | Gamma ($\gamma$)       | High-energy photon                 | No change in $Z$ or $A$                 | Excited nucleus de-excites                                    |
+
+</div>
 
 ### The Decay Law
 
@@ -511,12 +523,16 @@ $$
 The **binding energy per nucleon** $E_b/A$ is a measure of nuclear stability. It peaks around
 Iron-56 ($\sim 8.8\,\mathrm{MeV/nucleon}$), which is the most stable nucleus.
 
+<div class="table-wrap">
+
 | Nucleus                      | Binding Energy per Nucleon (MeV) |
 | :--------------------------- | :------------------------------- |
 | $^2_1\mathrm{H}$ (deuterium) | 1.11                             |
 | $^4_2\mathrm{He}$            | 7.07                             |
 | $^{56}_{26}\mathrm{Fe}$      | 8.79                             |
 | $^{235}_{92}\mathrm{U}$      | 7.59                             |
+
+</div>
 
 **Implications:**
 
@@ -729,6 +745,8 @@ $$
 
 ### Nuclear Reactor Components
 
+<div class="table-wrap">
+
 | Component                        | Function                                 |
 | :------------------------------- | :--------------------------------------- |
 | Fuel ($^{235}\mathrm{U}$)        | Undergoes fission, releasing energy      |
@@ -736,6 +754,8 @@ $$
 | Control rods (boron, cadmium)    | Absorb neutrons to control reaction rate |
 | Coolant (water, $\mathrm{CO}_2$) | Transfers heat from reactor core         |
 | Shielding (concrete, lead)       | Absorbs radiation for safety             |
+
+</div>
 
 ---
 
@@ -833,12 +853,16 @@ Quantum tunneling is responsible for alpha decay, tunnel diodes, and scanning tu
 
 ### The Four Fundamental Forces
 
+<div class="table-wrap">
+
 | Force           | Mediator                | Relative Strength | Range                       |
 | :-------------- | :---------------------- | :---------------- | :-------------------------- |
 | Strong          | Gluon                   | 1                 | $\sim 10^{-15}\,\mathrm{m}$ |
 | Electromagnetic | Photon                  | $\sim 10^{-2}$    | Infinite                    |
 | Weak            | $W$, $Z$ bosons         | $\sim 10^{-6}$    | $\sim 10^{-18}\,\mathrm{m}$ |
 | Gravitational   | Graviton (hypothetical) | $\sim 10^{-38}$   | Infinite                    |
+
+</div>
 
 ---
 
@@ -1307,6 +1331,8 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Nuclear Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/01-radioactivity)      |
@@ -1315,6 +1341,8 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 | [Quantum Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/03-quantum-physics)    |
 | [Quantum Physics] | IB         | [View](https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
 | [Quantum Physics] | University | [View](https://physics.wyattau.com/)                |
+
+</div>
 
 ## Summary
 

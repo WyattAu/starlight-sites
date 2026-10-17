@@ -23,6 +23,8 @@ NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing 
 Shared memory, register files, and scheduling units. The number of SMs and their configuration
 Defines the GPU's compute capability.
 
+<div class="table-wrap">
+
 | GPU                 | SMs | CUDA Cores per SM | Total CUDA Cores | FP32 TFLOPS (Boost) |
 | ------------------- | --- | ----------------- | ---------------- | ------------------- |
 | RTX 3060 (GA106)    | 28  | 128               | 3584             | 12.7                |
@@ -30,14 +32,20 @@ Defines the GPU's compute capability.
 | RTX 4070 (AD104)    | 46  | 128               | 5888             | 29.1                |
 | RTX 4090 (AD102)    | 128 | 128               | 16384            | 82.6                |
 
+</div>
+
 AMD uses a similar architecture with Compute Units (CUs), each containing multiple Stream Processors
 (SP). RDNA 3 CUs contain 2 SIMD32 units (64 SPs per CU).
+
+<div class="table-wrap">
 
 | GPU                   | CUs | SPs per CU | Total SPs | FP32 TFLOPS (Boost) |
 | --------------------- | --- | ---------- | --------- | ------------------- |
 | RX 6700 XT (Navi 22)  | 40  | 64         | 2560      | 13.2                |
 | RX 7600 (Navi 33)     | 32  | 64         | 2048      | 15.5                |
 | RX 7900 XTX (Navi 31) | 96  | 64         | 6144      | 61.4                |
+
+</div>
 
 ### Memory Bandwidth
 
@@ -49,6 +57,8 @@ $$
 
 The factor of 2 accounts for double data rate (GDDR6/GDDR6X) or multi-level signaling (HBM).
 
+<div class="table-wrap">
+
 | GPU         | Memory Type | Bus Width | Memory Clock         | Bandwidth (GB/s) |
 | ----------- | ----------- | --------- | -------------------- | ---------------- |
 | RTX 3060    | GDDR6       | 192-bit   | 15 Gbps              | 360              |
@@ -56,6 +66,8 @@ The factor of 2 accounts for double data rate (GDDR6/GDDR6X) or multi-level sign
 | RTX 4090    | GDDR6X      | 384-bit   | 21 Gbps              | 1008             |
 | RX 7900 XTX | GDDR6       | 384-bit   | 20 Gbps              | 960              |
 | A100        | HBM2e       | 5120-bit  | 2.0 Gbps (per stack) | 2039             |
+
+</div>
 
 ### ROPs and TMUs
 
@@ -148,11 +160,15 @@ and power constraints. The principles are similar but the implementation differs
 
 ### AMD Power Limit Tiers
 
+<div class="table-wrap">
+
 | GPU         | Default TGP | Max Power Limit | Overdrive % |
 | ----------- | ----------- | --------------- | ----------- |
 | RX 7600     | 165 W       | 165 W           | +0%         |
 | RX 7800 XT  | 263 W       | 287 W           | +9%         |
 | RX 7900 XTX | 355 W       | 420 W           | +18%        |
+
+</div>
 
 ---
 
@@ -205,12 +221,16 @@ graph TD
 
 #### Typical Results
 
+<div class="table-wrap">
+
 | GPU      | Stock Voltage/Frequency | Undervolted Voltage/Frequency | Power Savings |
 | -------- | ----------------------- | ----------------------------- | ------------- |
 | RTX 3060 | 1700 MHz @ 1050 mV      | 1800 MHz @ 875 mV             | 30–40 W       |
 | RTX 3070 | 1905 MHz @ 1075 mV      | 1850 MHz @ 900 mV             | 40–50 W       |
 | RTX 4070 | 2475 MHz @ 1100 mV      | 2520 MHz @ 925 mV             | 40–60 W       |
 | RTX 4090 | 2520 MHz @ 1000 mV      | 2520 MHz @ 875 mV             | 60–100 W      |
+
+</div>
 
 ### AMD Undervolting
 
@@ -265,11 +285,15 @@ Increases memory bandwidth, which benefits workloads that are memory-bandwidth b
 
 ### Typical Memory Overclocks
 
+<div class="table-wrap">
+
 | GPU         | Stock Memory Clock  | Typical Stable Overclock | Bandwidth Increase |
 | ----------- | ------------------- | ------------------------ | ------------------ |
 | RTX 3060    | 7500 MHz (15 Gbps)  | +500 to +800 MHz         | 7–11%              |
 | RTX 4070    | 10500 MHz (21 Gbps) | +200 to +500 MHz         | 2–5%               |
 | RX 7900 XTX | 10000 MHz (20 Gbps) | +500 to +1000 MHz        | 5–10%              |
+
+</div>
 
 :::caution
 (machine learning, rendering, scientific computing), memory instability can produce silently
@@ -336,11 +360,15 @@ This combination often yields better results than either technique alone.
 
 ### Temperature Targets
 
+<div class="table-wrap">
+
 | GPU            | Default Temp Limit | Max Safe Temp                     | Recommended Target |
 | -------------- | ------------------ | --------------------------------- | ------------------ |
 | RTX 30-series  | 83 °C              | 93 °C (thermal shutdown at 95 °C) | &lt; 75 °C         |
 | RTX 40-series  | 83 °C              | 91 °C (thermal shutdown at 93 °C) | &lt; 70 °C         |
 | RX 7000-series | 110 °C (hotspot)   | 120 °C (hotspot)                  | &lt; 90 °C hotspot |
+
+</div>
 
 NVIDIA GPUs report two temperatures: "GPU Temperature" (edge temperature) and "GPU Temperature
 (Junction)" (hotspot, the hottest point on the die). The junction temperature is 10–20 °C Higher
@@ -394,6 +422,8 @@ Recommended pastes for GPUs:
 
 ### Windows
 
+<div class="table-wrap">
+
 | Tool                     | Function                                                        |
 | ------------------------ | --------------------------------------------------------------- |
 | MSI Afterburner          | Universal GPU overclocking/undervolting, fan curves, monitoring |
@@ -402,6 +432,8 @@ Recommended pastes for GPUs:
 | GPU-Z                    | GPU information, sensor monitoring, BIOS dump/flash             |
 | AMD Adrenalin            | AMD GPU tuning, automatic undervolting, Radeon Super Resolution |
 | TechPowerUp GPU-Z        | GPU specs, VRAM monitoring, BIOS validation                     |
+
+</div>
 
 ### Linux
 
@@ -475,6 +507,8 @@ Processes a portion of the workload. No special inter-GPU communication is requi
 
 Different benchmarks stress different aspects of the GPU:
 
+<div class="table-wrap">
+
 | Benchmark               | What It Tests                      | Duration  | Use Case                       |
 | ----------------------- | ---------------------------------- | --------- | ------------------------------ |
 | 3DMark Time Spy         | Direct3D 12 gaming performance     | 2–3 min   | Quick gaming performance check |
@@ -483,6 +517,8 @@ Different benchmarks stress different aspects of the GPU:
 | FurMark                 | Maximum power draw (power virus)   | 10–30 min | Thermal limit verification     |
 | CUDA memtest            | VRAM integrity                     | 10–30 min | Memory overclocking stability  |
 | Blender BMW / Classroom | GPU rendering                      | 5–10 min  | Compute performance            |
+
+</div>
 
 ### Proper Benchmarking Procedure
 
@@ -509,6 +545,8 @@ Different benchmarks stress different aspects of the GPU:
 
 ## Common Failure Modes
 
+<div class="table-wrap">
+
 | Symptom                               | Likely Cause                             | Solution                                         |
 | ------------------------------------- | ---------------------------------------- | ------------------------------------------------ |
 | Driver crash (TDR)                    | Core clock too high or voltage too low   | Reduce core clock or increase voltage            |
@@ -518,6 +556,8 @@ Different benchmarks stress different aspects of the GPU:
 | Performance drops after 5 minutes     | Thermal throttling (check temps)         | Undervolt, improve cooling, increase power limit |
 | Coil whine under load                 | Inductors vibrating at high current      | Not a defect; improve mounting or RMA if severe  |
 | HDMI/DP signal loss                   | Cable or port issue                      | Try a different cable or port                    |
+
+</div>
 
 ---
 
@@ -554,11 +594,15 @@ Premature failure. Always monitor VRM temps with HWiNFO64 when increasing voltag
 
 Each PCIe power cable (6-pin, 8-pin, or 12VHPWR) has a maximum current rating:
 
+<div class="table-wrap">
+
 | Connector      | Max Current                      | Max Power   |
 | -------------- | -------------------------------- | ----------- |
 | 6-pin          | 75 W                             | 75 W        |
 | 8-pin          | 150 W (spec) / 300 W (realistic) | 150–300 W   |
 | 12VHPWR (12+4) | 600 W (spec)                     | Up to 600 W |
+
+</div>
 
 Daisy-chaining two power connectors from a single cable doubles the current on that cable, which can
 Cause the cable to overheat. Use separate cables for high-power GPUs (RTX 3080+).
@@ -729,11 +773,15 @@ nvidia-smi -lgc 1800  # Lock GPU clock to 1800 MHz
 
 ### NVIDIA Power Modes
 
+<div class="table-wrap">
+
 | Mode                            | Behavior                           | Use Case                           |
 | ------------------------------- | ---------------------------------- | ---------------------------------- |
 | Default (W)                     | GPU autonomously manages frequency | Most workloads                     |
 | Prefer Maximum Performance (P0) | GPU runs at maximum frequency      | Benchmarks, latency-sensitive apps |
 | Prefer Power Saving (P8)        | GPU drops to minimum frequency     | Battery-powered laptops            |
+
+</div>
 
 ### NVIDIA Xorg Configuration (Linux)
 
@@ -863,6 +911,8 @@ any sustained full-load GPU workload:
 
 ### When Multi-GPU Makes Sense
 
+<div class="table-wrap">
+
 | Use Case                     | Multi-GPU Benefit         | Configuration         |
 | ---------------------------- | ------------------------- | --------------------- |
 | ML training (data parallel)  | Near-linear scaling       | NVLink preferred      |
@@ -871,6 +921,8 @@ any sustained full-load GPU workload:
 | Gaming                       | Minimal benefit           | SLI deprecated        |
 | VM passthrough               | One GPU per VM            | Physical isolation    |
 | Inference serving            | Load distribution         | Software-level        |
+
+</div>
 
 ### Multi-GPU Power and Thermal Considerations
 
@@ -887,6 +939,8 @@ Two GPUs under full load can draw 500–900 W combined. Ensure:
 
 ### Common Linux GPU Issues
 
+<div class="table-wrap">
+
 | Issue                           | Cause                                 | Solution                              |
 | ------------------------------- | ------------------------------------- | ------------------------------------- |
 | GPU not detected                | Missing driver or wrong kernel module | Install correct NVIDIA/AMD driver     |
@@ -895,6 +949,8 @@ Two GPUs under full load can draw 500–900 W combined. Ensure:
 | GPU hangs under load            | Insufficient power or overheating     | Check PSU, improve cooling            |
 | Poor performance vs. Windows    | Missing power management mode         | Set `nvidia-smi -pm 1`                |
 | Display flicker                 | Refresh rate or driver issue          | Check display settings, update driver |
+
+</div>
 
 ### GPU Failure Diagnosis
 

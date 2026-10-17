@@ -185,12 +185,16 @@ tx.send(1).unwrap();  // OK, buffer not full
 
 ### `send` and `recv` Semantics
 
+<div class="table-wrap">
+
 | Method                 | Behavior                                                         |
 | ---------------------- | ---------------------------------------------------------------- |
 | `tx.send(val)`         | Blocks if bounded channel is full. Moves `val` into the channel. |
 | `rx.recv()`            | Blocks until a message is available or all senders are dropped.  |
 | `rx.try_recv()`        | Non-blocking. Returns `Ok(val)` or `Err(TryRecvError)`.          |
 | `rx.recv_timeout(dur)` | Blocks with timeout. Returns `Err(RecvTimeoutError)` on timeout. |
+
+</div>
 
 ## Shared State
 
@@ -268,11 +272,15 @@ let lock = RwLock::new(5);
 
 #### When to Use `RwLock` vs `Mutex`
 
+<div class="table-wrap">
+
 | Condition                       | Use                                               |
 | ------------------------------- | ------------------------------------------------- |
 | Mostly writes, low contention   | `Mutex`simpler, lower overhead                 |
 | Mostly reads, occasional writes | `RwLock`allows concurrent reads                |
 | Very high contention            | Reconsider your design, locks are the bottleneck |
+
+</div>
 
 ### `Arc<T>`Atomic Reference Counting
 
@@ -335,6 +343,8 @@ loop {
 
 ### Memory Orderings
 
+<div class="table-wrap">
+
 | Ordering  | Guarantee                                                              |
 | --------- | ---------------------------------------------------------------------- |
 | `Relaxed` | No ordering, only atomicity guaranteed                                |
@@ -342,6 +352,8 @@ loop {
 | `Acquire` | All subsequent reads see writes from the last release on this location |
 | `AcqRel`  | Both acquire and release semantics                                     |
 | `SeqCst`  | Sequentially consistent, total ordering across all threads            |
+
+</div>
 
 ```rust
 use std::sync::atomic::{AtomicBool, Ordering};
@@ -371,12 +383,16 @@ Option.
 
 ### Available Atomic Types
 
+<div class="table-wrap">
+
 | Type                                | Operations                                                                          |
 | ----------------------------------- | ----------------------------------------------------------------------------------- |
 | `AtomicBool`                        | `load``store``swap``compare_exchange``fetch_and``fetch_or``fetch_xor`               |
 | `AtomicU8`–`AtomicU64``AtomicUsize` | All integer atomics: `fetch_add``fetch_sub``fetch_max``fetch_min``compare_exchange` |
 | `AtomicI8`–`AtomicI64``AtomicIsize` | Same as unsigned, with signed comparison                                            |
 | `AtomicPtr<T>`                      | Pointer-sized atomic operations                                                     |
+
+</div>
 
 ## Deadlock Prevention
 
@@ -837,6 +853,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 - A type is `Send` if all its members are `Send`.
 - A type is `Sync` if all its members are `Sync` (equivalently, if `&T` is `Send`).
 
+<div class="table-wrap">
+
 | Type                                    | `Send` | `Sync`                |
 | --------------------------------------- | ------ | --------------------- |
 | `i32``f64``bool`                        | Yes    | Yes                   |
@@ -847,6 +865,8 @@ The compiler automatically implements `Send` and `Sync` based on the composition
 | `&T` where `T: Sync`                    | Yes    | Yes                   |
 | `&mut T` where `T: Send`                | Yes    | No                    |
 | `Mutex<T>` where `T: Send`              | Yes    | Yes                   |
+
+</div>
 
 ### Manual Implementation
 

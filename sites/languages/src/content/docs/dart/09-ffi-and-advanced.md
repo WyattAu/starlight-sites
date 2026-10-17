@@ -515,6 +515,8 @@ The two typedefs must agree on parameter and return types. The C typedef uses FF
 Dart and C have different primitive type systems. `dart:ffi` provides native types that map to C
 Types:
 
+<div class="table-wrap">
+
 | FFI Type            | C Type                            | Dart Type    | Size (bytes) |
 | ------------------- | --------------------------------- | ------------ | ------------ |
 | `Int8`              | `int8_t` / `char`                 | `int`        | 1            |
@@ -532,6 +534,8 @@ Types:
 | `Handle`            | Dart object handle                | `Object`     | platform     |
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
+
+</div>
 :::
 
 :::note
@@ -713,10 +717,14 @@ callback.close();
 
 `NativeCallable` has two variants:
 
+<div class="table-wrap">
+
 | Variant                       | Thread Safety        | Exception Handling                 | Use Case                    |
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------------- |
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
+
+</div>
 :::
 
 :::caution
@@ -787,12 +795,16 @@ final result = nativeWindowsReturnString();
 final dartResult = result.toDartString();
 ```
 
+<div class="table-wrap">
+
 | Conversion                    | Direction | Encoding                     |
 | ----------------------------- | --------- | ---------------------------- |
 | `toNativeUtf8()`              | Dart to C | UTF-8                        |
 | `toNativeUtf16()`             | Dart to C | UTF-16                       |
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
+
+</div>
 :::
 
 :::caution
@@ -1187,6 +1199,8 @@ dart compile wasm bin/app.dart
 
 ### Advantages over dart2js
 
+<div class="table-wrap">
+
 | Characteristic  | dart2js                 | dart2wasm                                    |
 | --------------- | ----------------------- | -------------------------------------------- |
 | Output format   | JavaScript              | WebAssembly + JS bootstrap                   |
@@ -1196,6 +1210,8 @@ dart compile wasm bin/app.dart
 | Debugging       | Source maps             | DWARF debug info                             |
 | JS interop      | Direct                  | Via `package:web`                            |
 | Browser support | All                     | WASM GC required (Chrome 119+, Firefox 120+) |
+
+</div>
 
 ### JS Interop via package:web
 

@@ -89,6 +89,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | Kennan's containment policy argued for preventing Soviet expansion through economic, political, and military measures. |
@@ -101,6 +103,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | The fall of the Berlin Wall on 9 November 1989 became the iconic symbol of the end of communist rule in Eastern Europe. |
 | 9 | (B) | Inefficiencies of central planning, corruption, and excessive military expenditure contributed to Soviet economic stagnation. |
 | 10 | (B) | The Non-Aligned Movement comprised states seeking independence from both the Western and Soviet blocs during the Cold War. |
+
+</div>
 
 ## Common Mistakes
 

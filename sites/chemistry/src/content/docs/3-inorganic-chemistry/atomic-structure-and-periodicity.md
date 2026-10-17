@@ -25,12 +25,16 @@ categories:
 
 Each atomic orbital is characterized by four quantum numbers:
 
+<div class="table-wrap">
+
 | Quantum Number | Symbol   | Allowed Values                   |
 | -------------- | -------- | -------------------------------- |
 | Principal      | $n$      | $1, 2, 3, \ldots$                |
 | Azimuthal      | $\ell$   | $0, 1, 2, \ldots, n - 1$         |
 | Magnetic       | $m_\ell$ | $-\ell, \ldots, 0, \ldots, \ell$ |
 | Spin           | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$     |
+
+</div>
 
 Orbital types: $\ell = 0$ ($s$), $\ell = 1$ ($p$), $\ell = 2$ ($d$), $\ell = 3$ ($f$).
 
@@ -42,6 +46,8 @@ $$
 \text{Radial nodes} = n - \ell - 1, \quad \text{Angular nodes} = \ell
 $$
 
+<div class="table-wrap">
+
 | Orbital | Radial Nodes | Angular Nodes | Shape                  |
 | ------- | ------------ | ------------- | ---------------------- |
 | 1s      | 0            | 0             | Sphere                 |
@@ -49,6 +55,8 @@ $$
 | 2p      | 0            | 1             | Dumbbell               |
 | 3d      | 0            | 2             | Cloverleaf             |
 | 4f      | 0            | 3             | Complex multi-lobed    |
+
+</div>
 
 ### 1.3 The Radial Distribution Function
 
@@ -397,6 +405,8 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                         | Site        | Link                                                               |
 | ----------------------------- | ----------- | ------------------------------------------------------------------ |
 | Quantum Chemistry             | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)               |
@@ -404,7 +414,9 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 | Main-Group Chemistry          | WyattsNotes | [View](/3-inorganic-chemistry/main-group-chemistry/)            |
 | Atomic Structure, LibreTexts | LibreTexts  | [View](https://chem.libretexts.org/Bookshelves/General_Chemistry/) |
 
+</div>
+
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)

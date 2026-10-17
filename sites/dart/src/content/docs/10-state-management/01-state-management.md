@@ -984,6 +984,8 @@ Simple features, this overhead is not justified.
 
 ## Comparison Table
 
+<div class="table-wrap">
+
 | Factor              | setState         | InheritedWidget | Provider   | Riverpod            | BLoC              |
 | ------------------- | ---------------- | --------------- | ---------- | ------------------- | ----------------- |
 | Complexity          | Trivial          | Low             | Low        | Medium              | High              |
@@ -997,6 +999,8 @@ Simple features, this overhead is not justified.
 | Code generation     | No               | No              | No         | Optional            | No                |
 | Ecosystem maturity  | N/A (built-in)   | N/A (built-in)  | Mature     | Mature              | Mature            |
 | Recommended for     | Local UI state   | Foundation only | Small apps | New projects        | Large teams       |
+
+</div>
 
 ## Choosing the Right Solution
 
@@ -1028,6 +1032,8 @@ From explicit event contracts and state machine discipline.
 
 ### Decision Framework
 
+<div class="table-wrap">
+
 | Condition                                    | Recommendation                |
 | -------------------------------------------- | ----------------------------- |
 | Local UI state only                          | `setState`                    |
@@ -1038,6 +1044,8 @@ From explicit event contracts and state machine discipline.
 | Team requires strict event contracts         | BLoC                          |
 | Minimize boilerplate                         | Riverpod with code generation |
 | Already using Provider, want to stay simple  | Provider                      |
+
+</div>
 
 The most common mistake is choosing the most complex solution first. Start with `setState` for local
 State. Add Provider or Riverpod when state needs to be shared. Introduce BLoC only when the

@@ -84,11 +84,15 @@ Where $n = M_r(\mathrm{molecular}) / M_r(\mathrm{empirical})$.
 **Worked Example.** A compound contains 40.0% carbon, 6.7% hydrogen, and 53.3% oxygen by mass. Its
 relative molecular mass is 60.0.
 
+<div class="table-wrap">
+
 | Element | Mass (%) | $M_r$ | Moles | Ratio |
 | ------- | -------- | ----- | ----- | ----- |
 | C       | 40.0     | 12.0  | 3.33  | 1     |
 | H       | 6.7      | 1.0   | 6.7   | 2     |
 | O       | 53.3     | 16.0  | 3.33  | 1     |
+
+</div>
 
 Empirical formula: $\mathrm{CH}_2\mathrm{O}$ ($M_r = 30.0$).
 
@@ -174,6 +178,8 @@ and equilibrium limitations.
 
 ### Units of Concentration
 
+<div class="table-wrap">
+
 | Unit                    | Definition                                                | Conversion                                             |
 | ----------------------- | --------------------------------------------------------- | ------------------------------------------------------ |
 | $\mathrm{mol/dm}^3$ (M) | Moles of solute per $\mathrm{dm}^3$ of solution           | Standard SI-derived unit                               |
@@ -181,6 +187,8 @@ and equilibrium limitations.
 | $\mathrm{ppm}$          | Parts per million (mg/kg or mg/dm$^3$ for dilute aqueous) | $1\,\mathrm{ppm} = 1\,\mathrm{mg/dm}^3$                |
 | % by mass               | Mass of solute / mass of solution $\times 100\%$          | --                                                     |
 | % by volume             | Volume of solute / volume of solution $\times 100\%$      | --                                                     |
+
+</div>
 
 ### Dilution
 
@@ -282,6 +290,8 @@ $$
 PV = nRT
 $$
 
+<div class="table-wrap">
+
 | Symbol | Meaning      | SI Unit                                                       |
 | ------ | ------------ | ------------------------------------------------------------- |
 | $p$    | Pressure     | $\mathrm{Pa}$ ($1\,\mathrm{atm} = 101325\,\mathrm{Pa}$)       |
@@ -289,6 +299,8 @@ $$
 | $n$    | Amount       | $\mathrm{mol}$                                                |
 | $R$    | Gas constant | $8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$                         |
 | $T$    | Temperature  | $\mathrm{K}$ ($T\,\mathrm{K} = T\,^\circ\mathrm{C} + 273.15$) |
+
+</div>
 
 **Worked Example.** Calculate the volume occupied by $0.500\,\mathrm{mol}$ of an ideal gas at
 $100\,\mathrm{kPa}$ and $298\,\mathrm{K}$.
@@ -328,12 +340,16 @@ $$
 Q = mc\Delta T
 $$
 
+<div class="table-wrap">
+
 | Symbol     | Meaning                | Unit                                         |
 | ---------- | ---------------------- | -------------------------------------------- |
 | $q$        | Heat energy            | $\mathrm{J}$                                 |
 | $m$        | Mass of solution       | $\mathrm{g}$                                 |
 | $c$        | Specific heat capacity | $\mathrm{J\,g^{-1}\,K^{-1}}$ (water: $4.18$) |
 | $\Delta T$ | Temperature change     | $\mathrm{K}$ or $^\circ\mathrm{C}$           |
+
+</div>
 
 Then:
 
@@ -802,12 +818,16 @@ exact because the molar volume approximation depends on the conditions).
 
 ### Types of Error
 
+<div class="table-wrap">
+
 | Error type     | Description                                             | Effect on result                                    |
 | -------------- | ------------------------------------------------------- | --------------------------------------------------- |
 | Systematic     | Consistent error in one direction (e.g. Faulty balance) | Affects accuracy; does not affect precision         |
 | Random         | Variability in repeated measurements                    | Affects precision; reduced by repeats               |
 | Zero error     | Instrument does not read zero when it should            | Systematic; affects all readings by the same amount |
 | Parallax error | Reading a scale from the wrong angle                    | Systematic                                          |
+
+</div>
 
 ### Calculating Percentage Uncertainty
 

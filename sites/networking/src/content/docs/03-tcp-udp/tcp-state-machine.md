@@ -34,6 +34,8 @@ Production.
 
 TCP defines 11 states. An endpoint is always in exactly one of these states:
 
+<div class="table-wrap">
+
 | State       | Description                                          |
 | ----------- | ---------------------------------------------------- |
 | CLOSED      | No connection. Initial state.                        |
@@ -47,6 +49,8 @@ TCP defines 11 states. An endpoint is always in exactly one of these states:
 | LAST_ACK    | Sent our FIN after peer closed, waiting for ACK.     |
 | TIME_WAIT   | Waited for peer's ACK after our close. 2\*MSL timer. |
 | CLOSING     | Both sides sent FIN simultaneously, waiting for ACK. |
+
+</div>
 
 ## State Diagram
 
@@ -460,6 +464,8 @@ ss -s
 
 ### State-by-State Diagnostic Guide
 
+<div class="table-wrap">
+
 | State       | Meaning                                     | Common Cause                                              |
 | ----------- | ------------------------------------------- | --------------------------------------------------------- |
 | ESTABLISHED | Normal data transfer                        | Healthy                                                   |
@@ -471,6 +477,8 @@ ss -s
 | SYN_SENT    | Sent SYN, no response yet                   | Remote unreachable, firewall blocking, port not listening |
 | SYN_RCVD    | Received SYN, waiting for ACK               | Normal handshake, or SYN flood                            |
 | CLOSING     | Simultaneous close, waiting for ACK         | Rare, both sides closed at once                           |
+
+</div>
 
 ### CLOSE_WAIT Accumulation
 
@@ -524,6 +532,8 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 
 ### Keepalive vs Application-Level Heartbeats
 
+<div class="table-wrap">
+
 | Aspect          | TCP Keepalive                | Application Heartbeat     |
 | --------------- | ---------------------------- | ------------------------- |
 | Granularity     | Per-connection               | Per-session               |
@@ -533,6 +543,8 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Data path       | Does not pass to application | Application processes it  |
 | Configurability | System-wide (sysctl)         | Per-connection (app code) |
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
+
+</div>
 :::
 
 :::tip

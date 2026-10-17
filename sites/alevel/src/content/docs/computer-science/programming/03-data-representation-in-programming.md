@@ -26,12 +26,16 @@ categories:
 
 Programming languages provide integer types of various sizes:
 
+<div class="table-wrap">
+
 | Type  | Size    | Range (signed)        | Range (unsigned) |
 | ----- | ------- | --------------------- | ---------------- |
 | byte  | 8 bits  | $[-128, 127]$         | $[0, 255]$       |
 | short | 16 bits | $[-32768, 32767]$     | $[0, 65535]$     |
 | int   | 32 bits | $[-2^{31}, 2^{31}-1]$ | $[0, 2^{32}-1]$  |
 | long  | 64 bits | $[-2^{63}, 2^{63}-1]$ | $[0, 2^{64}-1]$  |
+
+</div>
 
 Python integers have arbitrary precision, they grow to accommodate any value, limited only by
 Available memory.
@@ -91,12 +95,16 @@ print(a)    # [99, 2, 3], a is also modified!
 
 **Key distinction:**
 
+<div class="table-wrap">
+
 | Operation                           | Effect                                 |
 | ----------------------------------- | -------------------------------------- |
 | `b = a`                             | `b` references the same object as `a`  |
 | `b = a.copy()`                      | `b` references a new, independent copy |
 | `b = list(a)`                       | Same as `a.copy()`                     |
 | `import copy; b = copy.deepcopy(a)` | Deep copy (copies nested objects)      |
+
+</div>
 
 ### Aliasing
 
@@ -123,6 +131,8 @@ Codes (e.g., UTF-8 or UTF-16).
 
 ### String Operations and Complexity
 
+<div class="table-wrap">
+
 | Operation        | Python method  | Time                              |
 | ---------------- | -------------- | --------------------------------- |
 | Access character | `s[i]`         | $O(1)$                            |
@@ -131,6 +141,8 @@ Codes (e.g., UTF-8 or UTF-16).
 | Substring search | `s1 in s2`     | $O(nm)$ naive, $O(n+m)$ optimized |
 | Split            | `s.split(sep)` | $O(n)$                            |
 | Slice            | `s[a:b]`       | $O(b-a)$                          |
+
+</div>
 
 :::caution
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
@@ -159,12 +171,16 @@ Representation fundamentals including number systems and character encoding.
 
 ### File Modes
 
+<div class="table-wrap">
+
 | Mode   | Description  | Creates? | Truncates? |
 | ------ | ------------ | -------- | ---------- |
 | `'r'`  | Read         | No       | No         |
 | `'w'`  | Write        | Yes      | Yes        |
 | `'a'`  | Append       | Yes      | No         |
 | `'r+'` | Read + Write | No       | No         |
+
+</div>
 
 ### Reading Files
 
@@ -483,11 +499,15 @@ Bytes. The CJK characters cannot be stored.
 
 **UTF-8:**
 
+<div class="table-wrap">
+
 | Character                                 | Bytes                 |
 | ----------------------------------------- | --------------------- |
 | H, e, l, l, o, , space, ! (8 ASCII chars) | 1 byte each = 8 bytes |
 | 世                                        | 3 bytes               |
 | 界                                        | 3 bytes               |
+
+</div>
 
 $\mathrm{Total} = 8 + 3 + 3 = 14 \mathrm{ bytes}$
 

@@ -484,11 +484,15 @@ $$
 
 **Comparison with monopoly and perfect competition:**
 
+<div class="table-wrap">
+
 | Market Structure    | Total Output                 | Price                     |
 | ------------------- | ---------------------------- | ------------------------- |
 | Perfect competition | $Q_c = \frac{a-c}{b}$        | $P_c = c$                 |
 | Cournot duopoly     | $Q^{Co} = \frac{2(a-c)}{3b}$ | $P^{Co} = \frac{a+2c}{3}$ |
 | Monopoly            | $Q_m = \frac{a-c}{2b}$       | $P_m = \frac{a+c}{2}$     |
+
+</div>
 
 Cournot output is between monopoly and perfect competition. As the number of firms increases,
 Cournot output approaches the competitive level.
@@ -572,10 +576,14 @@ Game theory provides a rigorous framework for analysing strategic interaction in
 
 Two firms, A and B, can each set a High price or a Low price. Payoffs (profit in millions):
 
+<div class="table-wrap">
+
 |                   | B: High Price | B: Low Price |
 | ----------------- | ------------- | ------------ |
 | **A: High Price** | (10, 10)      | (2, 12)      |
 | **A: Low Price**  | (12, 2)       | (5, 5)       |
+
+</div>
 
 **Analysis:**
 
@@ -591,10 +599,14 @@ If firms successfully collude (agree to restrict output and raise prices), joint
 Maximised. However, each firm has an incentive to cheat by secretly lowering price or exceeding its
 Quota. The payoff structure mirrors the prisoner's dilemma:
 
+<div class="table-wrap">
+
 |                        | B: Comply (cartel) | B: Cheat |
 | ---------------------- | ------------------ | -------- |
 | **A: Comply (cartel)** | (8, 8)             | (3, 12)  |
 | **A: Cheat**           | (12, 3)            | (5, 5)   |
+
+</div>
 
 The Nash equilibrium is (Cheat, Cheat), which is Pareto inferior to (Comply, Comply). This is why
 Cartels are inherently unstable and require enforcement mechanisms (monitoring, penalties, or
@@ -1196,6 +1208,8 @@ Economic profit.
 
 ### Comparison: Contestable vs. Monopolistic Market
 
+<div class="table-wrap">
+
 | Feature        | Unregulated monopoly                      | Contestable monopoly                                                                 |
 | -------------- | ----------------------------------------- | ------------------------------------------------------------------------------------ |
 | Price          | $P > \text{MC}$, $P > \text{AC}$            | $P = \text{AC} > \text{MC}$                                                          |
@@ -1203,6 +1217,8 @@ Economic profit.
 | Profit         | $\pi > 0$                                 | $\pi = 0$                                                                            |
 | Efficiency     | Allocatively and productively inefficient | Productively efficient ($P = \text{AC}$), allocatively inefficient ($ P > \text{MC}$) |
 | X-inefficiency | Likely (no competitive pressure)          | Unlikely (threat of entry disciplines the firm)                                      |
+
+</div>
 
 ### Limitations of Contestable Market Theory
 
@@ -1374,6 +1390,8 @@ the bottom quintile. Calculate the new Gini coefficient.
 
 (a) Cumulative shares:
 
+<div class="table-wrap">
+
 | $i$ | $X_i$ | $Y_i$ | $X_i - X_{i-1}$ | $Y_i + Y_{i-1}$ | Product |
 | --- | ----- | ----- | --------------- | --------------- | ------- |
 | 0   | 0     | 0     | --              | --              | --      |
@@ -1382,6 +1400,8 @@ the bottom quintile. Calculate the new Gini coefficient.
 | 3   | 0.6   | 0.25  | 0.2             | 0.36            | 0.072   |
 | 4   | 0.8   | 0.47  | 0.2             | 0.72            | 0.144   |
 | 5   | 1.0   | 1.00  | 0.2             | 1.47            | 0.294   |
+
+</div>
 
 $G = 1 - (0.006 + 0.028 + 0.072 + 0.144 + 0.294) = 1 - 0.544 = 0.456$
 
@@ -1395,6 +1415,8 @@ The top 10% earn nearly 5 times the combined income of the bottom 40%.
 
 New cumulative shares:
 
+<div class="table-wrap">
+
 | $i$ | $X_i$ | $Y_i$ | Product |
 | --- | ----- | ----- | ------- |
 | 0   | 0     | 0     | --      |
@@ -1403,6 +1425,8 @@ New cumulative shares:
 | 3   | 0.6   | 0.30  | 0.092   |
 | 4   | 0.8   | 0.52  | 0.164   |
 | 5   | 1.0   | 1.00  | 0.304   |
+
+</div>
 
 $G_{\text{new}} = 1 - (0.016 + 0.048 + 0.092 + 0.164 + 0.304) = 1 - 0.624 = 0.376$
 
@@ -1681,12 +1705,16 @@ The firm still earns positive profit but less than the unregulated case (900 vs.
 
 $\text{DWL} = \frac{1}{2}(30 - 10)(90 - 70) = \frac{1}{2}(20)(20) = 200$.
 
+<div class="table-wrap">
+
 | Regulation      | $P$  | $Q$  | $\pi$ | DWL    |
 | --------------- | ---- | ---- | ----- | ------ |
 | None            | 55   | 45   | 1525  | 1012.5 |
 | $P = \text{MC}$ | 10   | 90   | -500  | 0      |
 | $P = \text{AC}$ | 16.6 | 83.4 | 0     | 21.8   |
 | Price cap (30)  | 30   | 70   | 900   | 200    |
+
+</div>
 
 **Evaluation:**
 
@@ -1852,6 +1880,8 @@ Each firm's profit: $\pi_i = 0$.
 
 ### Comparison: Cournot vs. Bertrand
 
+<div class="table-wrap">
+
 | Feature              | Cournot                                             | Bertrand                         |
 | -------------------- | --------------------------------------------------- | -------------------------------- |
 | Strategic variable   | Quantity                                            | Price                            |
@@ -1859,6 +1889,8 @@ Each firm's profit: $\pi_i = 0$.
 | Equilibrium profit   | $(a-c)^2/9$ per firm                                | 0                                |
 | Efficiency           | Allocatively inefficient ($P > c$)                  | Allocatively efficient ($P = c$) |
 | Competitive pressure | Weaker (firms produce less than competitive output) | Stronger (drives price to MC)    |
+
+</div>
 
 ### Numerical Example
 

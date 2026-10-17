@@ -49,12 +49,16 @@ Unseen analysis assesses your ability to:
 
 ### Types of Unseen Texts
 
+<div class="table-wrap">
+
 | Text Type            | Key Features to Identify                                           | Common Challenges                        |
 | -------------------- | ------------------------------------------------------------------ | ---------------------------------------- |
 | Unseen poetry        | Form, meter, imagery, rhyme, voice                                 | Dense language; unusual structures       |
 | Unseen prose extract | Narrative voice, characterisation, setting, dialogue               | Identifying the most significant moments |
 | Unseen drama extract | Stage directions, dialogue, dramatic situation, character dynamics | Visualising performance                  |
 | Comparative unseen   | All of the above, for two texts                                    | Balancing analysis of both texts         |
+
+</div>
 
 ### The Unseen Mindset
 
@@ -84,6 +88,8 @@ Read the text once without annotating. Focus on:
 
 Read the text a second time and annotate systematically. Use a consistent system:
 
+<div class="table-wrap">
+
 | Annotation Focus    | Mark With              | What to Note                                      |
 | ------------------- | ---------------------- | ------------------------------------------------- |
 | Key quotations      | Underline or highlight | Words and phrases that carry the most meaning     |
@@ -93,6 +99,8 @@ Read the text a second time and annotate systematically. Use a consistent system
 | Tone shifts         | Vertical line          | Where the mood or argument changes                |
 | Repetition          | Asterisk               | Words, phrases, or images that recur              |
 | Unusual language    | Question mark          | Words that seem surprising or deliberately chosen |
+
+</div>
 
 #### Stage 3: Planning (3-5 minutes)
 
@@ -130,6 +138,8 @@ Write your essay following the plan. Key principles:
 
 A rapid analysis framework for unseen passages:
 
+<div class="table-wrap">
+
 | Letter | Focus           | Quick Questions                                    |
 | ------ | --------------- | -------------------------------------------------- |
 | **F**  | Form / Facts    | What form is this? What is literally happening?    |
@@ -139,9 +149,13 @@ A rapid analysis framework for unseen passages:
 | **T**  | Tone            | What is the speaker's attitude? Does it shift?     |
 | **S**  | Structure       | How is the text organised? Where does it turn?     |
 
+</div>
+
 ### Rapid Form Identification
 
 Quickly identifying form gives you an immediate analytical framework:
+
+<div class="table-wrap">
 
 | If you see...                              | It might be...                        | What to look for                             |
 | ------------------------------------------ | ------------------------------------- | -------------------------------------------- |
@@ -151,6 +165,8 @@ Quickly identifying form gives you an immediate analytical framework:
 | No regular meter or rhyme                  | Free verse                            | Line breaks; enjambment; visual shape        |
 | Rhymed iambic pentameter, no stanza breaks | Blank verse (if unrhymed) or couplets | End-stopped vs enjambment; closure           |
 | Prose paragraphs                           | Prose extract                         | Narrative voice; sentence structure; imagery |
+
+</div>
 
 ## Annotation Techniques
 
@@ -220,6 +236,8 @@ Under time pressure, you must be selective. Omit:
 
 ## Key Terminology
 
+<div class="table-wrap">
+
 | Term                    | Definition                                                              |
 | ----------------------- | ----------------------------------------------------------------------- |
 | Ambiguity               | The presence of multiple possible meanings                              |
@@ -243,11 +261,15 @@ Under time pressure, you must be selective. Omit:
 | Tone                    | The speaker's attitude towards the subject                              |
 | Volta                   | The turn or shift in a poem, especially a sonnet                        |
 
+</div>
+
 ## Exam Technique
 
 ### Time Management
 
 #### For a 45-minute unseen essay
+
+<div class="table-wrap">
 
 | Activity      | Time          |
 | ------------- | ------------- |
@@ -257,7 +279,11 @@ Under time pressure, you must be selective. Omit:
 | Writing       | 30-32 minutes |
 | Checking      | 2-3 minutes   |
 
+</div>
+
 #### For a 60-minute comparative unseen essay
+
+<div class="table-wrap">
 
 | Activity           | Time          |
 | ------------------ | ------------- |
@@ -266,6 +292,8 @@ Under time pressure, you must be selective. Omit:
 | Planning           | 4-5 minutes   |
 | Writing            | 40-42 minutes |
 | Checking           | 2-3 minutes   |
+
+</div>
 
 ### Opening Sentences
 

@@ -191,6 +191,8 @@ Negation: Some day next week, Fred will do no maths problems. Some days, Fred no
 
 Basically opposite of a statement. Swap A and B.
 
+<div class="table-wrap">
+
 | Statement   | Converse    |
 | ----------- | ----------- |
 | if A then B | if B then A |
@@ -198,9 +200,13 @@ Basically opposite of a statement. Swap A and B.
 | A if B      | B if A      |
 | A iff B     | B iff A     |
 
+</div>
+
 ### Contrapositive
 
 Basically the equivalent of a statement. Swap A and B, then negate both of them
+
+<div class="table-wrap">
 
 | Statement   | Contrapositive      |
 | ----------- | ------------------- |
@@ -208,6 +214,8 @@ Basically the equivalent of a statement. Swap A and B, then negate both of them
 | A only if B | not B only if not A |
 | A if B      | not B if not A      |
 | A iff B     | not B iff not A     |
+
+</div>
 
 ## Truth Tables
 
@@ -218,12 +226,18 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 
 **Negation (NOT):** $\neg P$ is true exactly when $P$ is false.
 
+<div class="table-wrap">
+
 | $P$ | $\neg P$ |
 | --- | -------- |
 | T   | F        |
 | F   | T        |
 
+</div>
+
 **Conjunction (AND):** $P \land Q$ is true only when both $P$ and $Q$ are true.
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \land Q$ |
 | --- | --- | ----------- |
@@ -232,7 +246,11 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 | F   | T   | F           |
 | F   | F   | F           |
 
+</div>
+
 **Disjunction (OR, inclusive):** $P \lor Q$ is false only when both $P$ and $Q$ are false.
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \lor Q$ |
 | --- | --- | ---------- |
@@ -241,9 +259,13 @@ Statements. For a statement depending on $n$ propositions, the table has $2^n$ r
 | F   | T   | T          |
 | F   | F   | F          |
 
+</div>
+
 ### The implication $P \Rightarrow Q$
 
 The truth table for implication is often the least intuitive:
+
+<div class="table-wrap">
 
 | $P$ | $Q$ | $P \Rightarrow Q$ |
 | --- | --- | ----------------- |
@@ -251,6 +273,8 @@ The truth table for implication is often the least intuitive:
 | T   | F   | F                 |
 | F   | T   | T                 |
 | F   | F   | T                 |
+
+</div>
 
 An implication is **false only when the hypothesis is true and the conclusion is false**. This
 Captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
@@ -265,12 +289,16 @@ Umbrella." If it is not raining (rows 3 and 4), the statement places no restrict
 The contrapositive of $P \Rightarrow Q$ is $\neg Q \Rightarrow \neg P$. Constructing the truth
 Table:
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $\neg P$ | $\neg Q$ | $\neg Q \Rightarrow \neg P$ |
 | --- | --- | -------- | -------- | --------------------------- |
 | T   | T   | F        | F        | T                           |
 | T   | F   | F        | T        | F                           |
 | F   | T   | T        | F        | T                           |
 | F   | F   | T        | T        | T                           |
+
+</div>
 
 The column for $\neg Q \Rightarrow \neg P$ is identical to the column for $P \Rightarrow Q$ (T, F,
 T, T). This is why a statement and its contrapositive are **logically equivalent**: proving one
@@ -280,12 +308,16 @@ Proves the other.
 
 The converse of $P \Rightarrow Q$ is $Q \Rightarrow P$:
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $P \Rightarrow Q$ | $Q \Rightarrow P$ |
 | --- | --- | ----------------- | ----------------- |
 | T   | T   | T                 | T                 |
 | T   | F   | F                 | T                 |
 | F   | T   | T                 | F                 |
 | F   | F   | T                 | T                 |
+
+</div>
 
 The truth values differ in rows 2 and 3. This is why the converse of a true statement need not be
 True. For instance, "If a number is prime then it is odd" ($P = \mathrm{prime}$, $Q = \mathrm{odd}$)
@@ -327,11 +359,15 @@ Negation flips the quantifier and negates the predicate:
 
 This matches the informal rules from the Negation section:
 
+<div class="table-wrap">
+
 | Original                          | Negation         |
 | --------------------------------- | ---------------- |
 | All A are B                       | Some A are not B |
 | No A are B (i.e. All A are not B) | Some A are B     |
 | Some A are B                      | No A are B       |
+
+</div>
 
 ### Worked examples
 
@@ -380,6 +416,8 @@ The informal airport and twin examples give the right intuition. Here is the for
 
 ### Table of examples
 
+<div class="table-wrap">
+
 | Condition $A$             | Condition $B$             | Relationship           | Why                                                  |
 | ------------------------- | ------------------------- | ---------------------- | ---------------------------------------------------- |
 | $n$ is even               | $n^2$ is even             | $A$ sufficient for $B$ | If $n = 2k$ then $n^2 = 4k^2 = 2(2k^2)$              |
@@ -392,6 +430,8 @@ The informal airport and twin examples give the right intuition. Here is the for
 | $n$ is divisible by 2     | $n$ is divisible by 6     | $A$ necessary for $B$  | $6 \mid n \Rightarrow 2 \mid n$                      |
 | $x = y$                   | $x^2 = y^2$               | $A$ sufficient for $B$ | Squaring preserves equality                          |
 | $x^2 = y^2$               | $x = y$                   | neither                | $(-1)^2 = 1^2$ but $-1 \neq 1$                       |
+
+</div>
 
 ### Connecting to if/only if
 
@@ -527,12 +567,16 @@ Since the cases cover all possibilities, $Q$ holds unconditionally.
 **Proof.** We consider four cases based on the signs of $x$ and $y$. In each case $a$ and $b$ denote
 Non-negative reals.
 
+<div class="table-wrap">
+
 | Case | $x$  | $y$  | $xy$  | $    | xy               | $   | $   | x   | \,  | y   | $   |
 | ---- | ---- | ---- | ----- | ---- | ---------------- |
 | 1 | $a$ | $b$ | $ab$ | $ab$ | $a \cdot b = ab$ |
 | 2    | $a$  | $-b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 | 3 | $-a$ | $b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |
 | 4    | $-a$ | $-b$ | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+
+</div>
 
 In all four cases $|xy| = |x|\,|y|$. $\square$
 
@@ -848,12 +892,16 @@ Precisely $\neg P \lor \neg Q$.
 
 Therefore the two statements are logically equivalent. This can also be verified by truth table:
 
+<div class="table-wrap">
+
 | $P$ | $Q$ | $P \land Q$ | $\neg(P \land Q)$ | $\neg P$ | $\neg Q$ | $\neg P \lor \neg Q$ |
 | --- | --- | ----------- | ----------------- | -------- | -------- | -------------------- |
 | T   | T   | T           | F                 | F        | F        | F                    |
 | T   | F   | F           | T                 | F        | T        | T                    |
 | F   | T   | F           | T                 | T        | F        | T                    |
 | F   | F   | F           | T                 | T        | T        | T                    |
+
+</div>
 
 The fourth and seventh columns are identical, confirming equivalence.
 

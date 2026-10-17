@@ -292,6 +292,6 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 - **[The Ising Model](/2-thermal-physics/6_the-ising-model/)**: The Ising model is a foundational statistical mechanics model for studying phase transitions and magnetic ordering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

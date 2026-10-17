@@ -90,6 +90,8 @@ Characterized by:
 
 ### Von Neumann vs Harvard Architecture
 
+<div class="table-wrap">
+
 | Feature    | Von Neumann                                     | Harvard                                                              |
 | ---------- | ----------------------------------------------- | -------------------------------------------------------------------- |
 | Memory     | Single unified memory for data and instructions | Separate memory spaces for data and instructions                     |
@@ -97,6 +99,8 @@ Characterized by:
 | Speed      | Slower due to bus contention                    | Faster, can fetch instruction and data simultaneously               |
 | Complexity | Simpler design, cheaper to manufacture          | More complex, more expensive                                         |
 | Usage      | Most general-purpose computers (PCs, laptops)   | Digital signal processors (DSPs), microcontrollers, embedded systems |
+
+</div>
 
 > **Exam tip**: The IB may ask you to explain why the Von Neumann bottleneck exists. Answer: because
 > a single bus means the CPU cannot read an instruction and read/write data at the same time,
@@ -110,6 +114,8 @@ All data in a computer is represented using binary digits (bits), 0s and 1s.
 
 **Units of measurement:**
 
+<div class="table-wrap">
+
 | Unit          | Size                         |
 | ------------- | ---------------------------- |
 | Bit           | Single binary digit (0 or 1) |
@@ -120,9 +126,13 @@ All data in a computer is represented using binary digits (bits), 0s and 1s.
 | Gigabyte (GB) | 1024 MB                      |
 | Terabyte (TB) | 1024 GB                      |
 
+</div>
+
 ### Integer Representation
 
 **Unsigned integers** represent non-negative whole numbers:
+
+<div class="table-wrap">
 
 | Bits | Range              |
 | ---- | ------------------ |
@@ -130,13 +140,19 @@ All data in a computer is represented using binary digits (bits), 0s and 1s.
 | 16   | 0 to 65,535        |
 | 32   | 0 to 4,294,967,295 |
 
+</div>
+
 **Two's complement** is used to represent both positive and negative integers:
+
+<div class="table-wrap">
 
 | Bits | Range                           |
 | ---- | ------------------------------- |
 | 8    | -128 to 127                     |
 | 16   | -32,768 to 32,767               |
 | 32   | -2,147,483,648 to 2,147,483,647 |
+
+</div>
 
 **Converting to two's complement** (e.g., represent -42 in 8-bit):
 
@@ -178,6 +194,8 @@ All data in a computer is represented using binary digits (bits), 0s and 1s.
 
 Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represents 4 bits.
 
+<div class="table-wrap">
+
 | Hex | Binary | Hex | Binary |
 | --- | ------ | --- | ------ |
 | 0   | 0000   | 8   | 1000   |
@@ -188,6 +206,8 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 | 5   | 0101   | D   | 1101   |
 | 6   | 0110   | E   | 1110   |
 | 7   | 0111   | F   | 1111   |
+
+</div>
 
 **Converting binary to hex**: Group bits into sets of 4 from right to left.
 
@@ -205,6 +225,8 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 
 ### Basic Logic Gates
 
+<div class="table-wrap">
+
 | Gate | Symbol (text)   | Truth table                           | Expression |
 | ---- | --------------- | ------------------------------------- | ---------- |
 | AND  | `A AND B`       | Output 1 only when both inputs are 1  | A · B      |
@@ -214,7 +236,11 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 | NOR  | `NOT (A OR B)`  | Output 1 only when both inputs are 0  | A + B ̅     |
 | XOR  | `A XOR B`       | Output 1 when inputs are different    | A ⊕ B      |
 
+</div>
+
 **AND truth table:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -223,7 +249,11 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **XOR truth table:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -232,7 +262,11 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
+</div>
+
 ### Boolean Algebra Laws
+
+<div class="table-wrap">
 
 | Law          | Expression                                                   |
 | ------------ | ------------------------------------------------------------ |
@@ -244,6 +278,8 @@ Hexadecimal (base 16) is used as a shorthand for binary. Each hex digit represen
 | Associative  | (A AND B) AND C = A AND (B AND C)                            |
 | Distributive | A AND (B OR C) = (A AND B) OR (A AND C)                      |
 | De Morgan's  | NOT(A AND B) = NOT A OR NOT B; NOT(A OR B) = NOT A AND NOT B |
+
+</div>
 
 **Worked example**: Simplify `NOT(A AND B) AND (NOT A OR NOT B)` using De Morgan's Law.
 
@@ -263,12 +299,16 @@ Sum = A XOR B
 Carry = A AND B
 ```
 
+<div class="table-wrap">
+
 | A   | B   | Sum (XOR) | Carry (AND) |
 | --- | --- | --------- | ----------- |
 | 0   | 0   | 0         | 0           |
 | 0   | 1   | 1         | 0           |
 | 1   | 0   | 1         | 0           |
 | 1   | 1   | 0         | 1           |
+
+</div>
 
 A **full adder** extends this by including a carry-in from the previous stage:
 
@@ -304,6 +344,8 @@ Secondary storage is non-volatile memory that retains data when the computer is 
 
 ### Comparison of Storage Media
 
+<div class="table-wrap">
+
 | Medium    | Speed     | Capacity     | Volatile | Durability             | Cost per GB |
 | --------- | --------- | ------------ | -------- | ---------------------- | ----------- |
 | RAM       | Very fast | 8–128 GB     | Yes      | Data lost on power off | High        |
@@ -312,6 +354,8 @@ Secondary storage is non-volatile memory that retains data when the computer is 
 | USB Flash | Moderate  | 8–256 GB     | No       | Portable, durable      | Medium      |
 | CD/DVD    | Slow      | 0.7–8.5 GB   | No       | Scratch-prone          | Low         |
 | Blu-ray   | Moderate  | 25–50 GB     | No       | Scratch-prone          | Low         |
+
+</div>
 
 > **Exam tip**: When comparing storage media, consider access speed, capacity, portability,
 > durability, and cost. The IB may ask you to recommend a storage solution for a specific scenario
@@ -334,6 +378,8 @@ Secondary storage is non-volatile memory that retains data when the computer is 
 
 ### Types of Operating Systems
 
+<div class="table-wrap">
+
 | Type                     | Description                                            | Examples                          |
 | ------------------------ | ------------------------------------------------------ | --------------------------------- |
 | Single-user, single-task | One user, one task at a time                           | MS-DOS, early embedded systems    |
@@ -342,6 +388,8 @@ Secondary storage is non-volatile memory that retains data when the computer is 
 | Real-time                | Guaranteed response within strict time constraints     | Embedded systems, medical devices |
 | Distributed              | Multiple computers working together as a single system | Cloud OS, cluster computing       |
 | Embedded                 | Designed for specific hardware with limited resources  | IoT devices, routers              |
+
+</div>
 
 ### Virtual Memory
 
@@ -363,6 +411,8 @@ Secondary storage as an extension of RAM.
 
 ### Factors Affecting Processor Performance
 
+<div class="table-wrap">
+
 | Factor          | Description                                                             | Impact                                      |
 | --------------- | ----------------------------------------------------------------------- | ------------------------------------------- |
 | Clock speed     | Number of cycles per second (measured in GHz)                           | Higher clock speed = more instructions/sec  |
@@ -372,7 +422,11 @@ Secondary storage as an extension of RAM.
 | Number of cores | Number of independent processing units                                  | More cores = more parallel processing       |
 | Instruction set | RISC (fewer, simpler instructions) vs CISC (more, complex instructions) | Affects efficiency for different workloads  |
 
+</div>
+
 ### RISC vs CISC
+
+<div class="table-wrap">
 
 | Feature       | RISC (Reduced Instruction Set Computer)                    | CISC (Complex Instruction Set Computer)                |
 | ------------- | ---------------------------------------------------------- | ------------------------------------------------------ |
@@ -382,6 +436,8 @@ Secondary storage as an extension of RAM.
 | Memory access | Load/Store architecture (only load/store access memory)    | Memory operands allowed in many instructions           |
 | Examples      | ARM (mobile devices), MIPS, RISC-V                         | x86 (Intel, AMD)                                       |
 | Use case      | Embedded systems, mobile devices, energy-efficient designs | Desktop PCs, servers, applications needing complex ops |
+
+</div>
 
 ### Multi-core Processors
 
@@ -406,6 +462,8 @@ Resources (cache, memory bus) can create bottlenecks; increased complexity in OS
 
 ### Input Devices
 
+<div class="table-wrap">
+
 | Device         | Function                                             | Use case                        |
 | -------------- | ---------------------------------------------------- | ------------------------------- |
 | Keyboard       | Text and command input                               | General computing               |
@@ -417,7 +475,11 @@ Resources (cache, memory bus) can create bottlenecks; increased complexity in OS
 | Barcode reader | Reads barcode data                                   | Retail, inventory               |
 | RFID reader    | Reads RFID tags wirelessly                           | Access control, tracking        |
 
+</div>
+
 ### Output Devices
+
+<div class="table-wrap">
 
 | Device    | Function                                      | Use case                 |
 | --------- | --------------------------------------------- | ------------------------ |
@@ -426,6 +488,8 @@ Resources (cache, memory bus) can create bottlenecks; increased complexity in OS
 | Speakers  | Audio output                                  | Multimedia, alerts       |
 | Projector | Large-scale visual display                    | Presentations, education |
 | Actuator  | Converts digital signals to physical movement | Robotics, automation     |
+
+</div>
 
 ### Device Drivers
 
@@ -439,11 +503,17 @@ Send print jobs, manage paper trays, and handle print settings.
 
 Consider the following simple program stored in memory:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | ------- | ----------- |
 | 100     | LOAD 200    |
 | 101     | ADD 201     |
 | 102     | STORE 202   |
+
+</div>
+
+<div class="table-wrap">
 
 | Address | Value |
 | ------- | ----- |
@@ -451,7 +521,11 @@ Consider the following simple program stored in memory:
 | 201     | 27    |
 | 202     | ?     |
 
+</div>
+
 **Trace:**
+
+<div class="table-wrap">
 
 | Step | Action                                  | PC  | MAR | MDR       | CIR       | ALU/CU Activity         |
 | ---- | --------------------------------------- | --- | --- | --------- | --------- | ----------------------- |
@@ -476,6 +550,8 @@ Consider the following simple program stored in memory:
 | 19   | Execute: ACC → MDR (value = 42)         | 103 | 102 | 42        | STORE 202 |,                       |
 | 20   | Execute: Address 202 → MAR              | 103 | 202 | 42        | STORE 202 | CU sends address to MAR |
 | 21   | Execute: MDR → Memory[MAR]              | 103 | 202 | 42        | STORE 202 | Memory[202] = 42        |
+
+</div>
 
 **Final state**: Memory address 202 contains the value 42 (15 + 27).
 
@@ -567,11 +643,15 @@ Starting the next, each stage processes a different instruction simultaneously.
 
 ### The Three-Stage Pipeline
 
+<div class="table-wrap">
+
 | Stage   | Description                                     |
 | :------ | :---------------------------------------------- |
 | Fetch   | Fetch the next instruction from memory          |
 | Decode  | Decode the instruction and read operands        |
 | Execute | Perform the operation and write back the result |
+
+</div>
 
 ### How It Works
 
@@ -600,11 +680,15 @@ The speedup is approximately equal to the number of pipeline stages (in the idea
 A hazard is a situation that prevents the next instruction from executing in its designated clock
 Cycle.
 
+<div class="table-wrap">
+
 | Hazard Type       | Cause                                                           | Solution                                    |
 | :---------------- | :-------------------------------------------------------------- | :------------------------------------------ |
 | Data hazard       | An instruction depends on the result of a previous instruction  | Forwarding, stalling (inserting bubbles)    |
 | Structural hazard | Two instructions need the same hardware resource simultaneously | Duplicate resources (e.g., separate caches) |
 | Control hazard    | A branch/jump changes the instruction flow                      | Branch prediction, delayed branching        |
+
+</div>
 
 ### Branch Prediction
 
@@ -633,6 +717,8 @@ Discarded), which incurs a performance penalty.
 
 ### Instruction Execution
 
+<div class="table-wrap">
+
 | Aspect            | RISC                                      | CISC                                       |
 | :---------------- | :---------------------------------------- | :----------------------------------------- |
 | Instruction count | More instructions per task (simpler each) | Fewer instructions per task (complex each) |
@@ -640,6 +726,8 @@ Discarded), which incurs a performance penalty.
 | Code size         | Larger (more instructions needed)         | Smaller (each instruction does more)       |
 | Compiler design   | Simpler (uniform instruction format)      | More complex (variable formats)            |
 | Power consumption | Lower (simpler design)                    | Higher (more complex design)               |
+
+</div>
 
 ### Practical Examples
 
@@ -780,17 +868,25 @@ Architecture is commonly used in DSPs and embedded systems where performance is 
 A simplified CPU has the following registers: PC (initially 100), ACC (initially 0), MAR, MDR, and
 CIR. The following instructions are in memory:
 
+<div class="table-wrap">
+
 | Address | Instruction |
 | :------ | :---------- |
 | 100     | LOAD 150    |
 | 101     | SUB 151     |
 | 102     | STORE 152   |
 
+</div>
+
+<div class="table-wrap">
+
 | Address | Value |
 | :------ | :---- |
 | 150     | 42    |
 | 151     | 17    |
 | 152     | ?     |
+
+</div>
 
 Trace the fetch-decode-execute cycle for each instruction, showing the state of the PC, MAR, MDR,
 CIR, and ACC after each cycle. What is the final value stored at address 152?
@@ -802,13 +898,19 @@ CIR, and ACC after each cycle. What is the final value stored at address 152?
 
 **Instruction 1: LOAD 150**
 
+<div class="table-wrap">
+
 | Stage   | PC  | MAR | MDR      | CIR      | ACC |
 | :------ | :-- | :-- | :------- | :------- | :-- |
 | Fetch   | 101 | 100 | LOAD 150 | LOAD 150 | 0   |
 | Decode  | 101 | 100 | LOAD 150 | LOAD 150 | 0   |
 | Execute | 101 | 150 | 42       | LOAD 150 | 42  |
 
+</div>
+
 **Instruction 2: SUB 151**
+
+<div class="table-wrap">
 
 | Stage   | PC  | MAR | MDR     | CIR     | ACC |
 | :------ | :-- | :-- | :------ | :------ | :-- |
@@ -816,13 +918,19 @@ CIR, and ACC after each cycle. What is the final value stored at address 152?
 | Decode  | 102 | 101 | SUB 151 | SUB 151 | 42  |
 | Execute | 102 | 151 | 17      | SUB 151 | 25  |
 
+</div>
+
 **Instruction 3: STORE 152**
+
+<div class="table-wrap">
 
 | Stage   | PC  | MAR | MDR       | CIR       | ACC |
 | :------ | :-- | :-- | :-------- | :-------- | :-- |
 | Fetch   | 103 | 102 | STORE 152 | STORE 152 | 25  |
 | Decode  | 103 | 102 | STORE 152 | STORE 152 | 25  |
 | Execute | 103 | 152 | 25        | STORE 152 | 25  |
+
+</div>
 
 Final value at address 152: **25** (which is $42 - 17$).
 
@@ -843,11 +951,15 @@ practical implementation, and key applications.
 
 ## Cross-References
 
+<div class="table-wrap">
+
 | Topic                   | Site    | Link                                                                                                           |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Computer Architecture] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/04-computer-architecture) |
 | [Computer Architecture] | IB      | [View](https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization/)        |
 | [Computer Architecture] | DSE     | [View](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/)                             |
+
+</div>
 
 ## Worked Examples
 

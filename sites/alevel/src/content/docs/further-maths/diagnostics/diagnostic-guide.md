@@ -22,6 +22,8 @@ tableOfContents: false
 
 ### Pure Mathematics
 
+<div class="table-wrap">
+
 | Diagnostic File                   | Topics Covered                                                                                       | Source File                                          |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | `diag-complex-numbers.md`         | Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity, complex transformations | `pure-mathematics/01-complex-numbers.md`             |
@@ -34,7 +36,11 @@ tableOfContents: false
 | `diag-maclaurin-taylor-series.md` | Standard expansions, radius of convergence, differentiation/integration of series                    | `pure-mathematics/08-maclaurin-and-taylor-series.md` |
 | `diag-vectors-3d.md`              | Scalar product, vector product, equations of lines/planes, volumes                                   | `pure-mathematics/09-vectors-in-3d.md`               |
 
+</div>
+
 ### Further Mechanics
+
+<div class="table-wrap">
 
 | Diagnostic File             | Topics Covered                      | Source File                                                      |
 | --------------------------- | ----------------------------------- | ---------------------------------------------------------------- |
@@ -42,13 +48,19 @@ tableOfContents: false
 | `diag-circular-motion.md`   | (Covered through integration tests) | `further-mechanics/02-circular-motion.md`                        |
 | `diag-collisions.md`        | (Covered through integration tests) | `further-mechanics/03-centres-of-mass-and-elastic-collisions.md` |
 
+</div>
+
 ### Further Statistics
+
+<div class="table-wrap">
 
 | Diagnostic File                  | Topics Covered                      | Source File                                                            |
 | -------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
 | `diag-poisson-geometric.md`      | (Covered through integration tests) | `further-statistics/01-poisson-and-geometric-distributions.md`         |
 | `diag-exponential-continuous.md` | (Covered through integration tests) | `further-statistics/02-exponential-and-continuous-random-variables.md` |
 | `diag-chi-squared.md`            | (Covered through integration tests) | `further-statistics/03-chi-squared-tests.md`                           |
+
+</div>
 
 ## Grading Rubric
 
@@ -113,6 +125,8 @@ Maclaurin Series
 
 ## Timing Recommendations
 
+<div class="table-wrap">
+
 | Diagnostic                     | Recommended Time | Notes                               |
 | ------------------------------ | ---------------- | ----------------------------------- |
 | `diag-further-algebra`         | 40 minutes       | Induction proof takes time          |
@@ -124,6 +138,8 @@ Maclaurin Series
 | `diag-polar-coordinates`       | 35 minutes       | Area calculations                   |
 | `diag-hyperbolic-functions`    | 30 minutes       | Parallels trigonometry              |
 | `diag-vectors-3d`              | 35 minutes       | Equations of planes                 |
+
+</div>
 
 **Total recommended time:** approximately 6 hours (spread across 3--4 sessions).
 

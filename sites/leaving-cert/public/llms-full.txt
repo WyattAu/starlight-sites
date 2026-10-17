@@ -797,12 +797,16 @@ Preparing for the Leaving Cert is a marathon. Here is a structured approach that
 
 ### Daily Routine
 
+<div class="table-wrap">
+
 | Time | Activity |
 | ------ | ---------- |
 | Morning | Active recall, flashcards for 20 minutes |
 | Afternoon | Topic study, read notes on one new topic |
 | Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
+
+</div>
 
 ---
 
@@ -954,6 +958,8 @@ Each subject is offered at two levels:
 
 The grading scale is as follows:
 
+<div class="table-wrap">
+
 | Percentage | HL Grade | OL Grade |
 | ---------- | -------- | -------- |
 | 90 -- 100  | H1       | O1       |
@@ -964,6 +970,8 @@ The grading scale is as follows:
 | 40 -- 49   | H6       | O6       |
 | 30 -- 39   | H7       | O7       |
 | 0 -- 29    | H8       | O8       |
+
+</div>
 
 ### Core Subjects
 
@@ -999,6 +1007,8 @@ For CAO (Central Applications Office) entry, Leaving Certificate results are con
 The highest six subjects are counted. Higher Level Mathematics attracts a bonus of 25 points for
 Grades H6 and above.
 
+<div class="table-wrap">
+
 | HL Grade | Points         |
 | -------- | -------------- |
 | H1       | 100            |
@@ -1008,6 +1018,10 @@ Grades H6 and above.
 | H5       | 56             |
 | H6       | 46 (+25 bonus) |
 
+</div>
+
+<div class="table-wrap">
+
 | OL Grade | Points |
 | -------- | ------ |
 | O1       | 56     |
@@ -1016,6 +1030,8 @@ Grades H6 and above.
 | O4       | 28     |
 | O5       | 20     |
 | O6       | 12     |
+
+</div>
 
 ## Using These Notes
 
@@ -1107,6 +1123,8 @@ Processes of photosynthesis and respiration.
 - Ribosomes (80S, larger).
 - Linear chromosomes.
 
+<div class="table-wrap">
+
 | Feature    | Prokaryote       | Eukaryote                            |
 | ---------- | ---------------- | ------------------------------------ |
 | Nucleus    | No               | Yes                                  |
@@ -1115,6 +1133,8 @@ Processes of photosynthesis and respiration.
 | Size       | 1--10 um         | 10--100 um                           |
 | Ribosomes  | 70S              | 80S                                  |
 | Cell wall  | Peptidoglycan    | Cellulose (plants) or chitin (fungi) |
+
+</div>
 
 ## Cell Organelles (OL/HL)
 
@@ -1272,6 +1292,8 @@ Genetically different.
 
 The key differences:
 
+<div class="table-wrap">
+
 | Feature             | Mitosis        | Meiosis           |
 | ------------------- | -------------- | ----------------- |
 | Number of divisions | 1              | 2                 |
@@ -1280,6 +1302,8 @@ The key differences:
 | Genetic variation   | None           | High              |
 | Function            | Growth, repair | Gamete production |
 | Crossing over       | No             | Yes (Prophase I)  |
+
+</div>
 
 ## Enzymes (OL/HL)
 
@@ -1308,6 +1332,8 @@ The key differences:
 An enzyme has an optimum temperature of 37$^{\circ}$C. The activity is measured at different
 Temperatures:
 
+<div class="table-wrap">
+
 | Temperature ($^{\circ}$ C) | Rate (arbitrary units) |
 | ------------------------- | ---------------------- |
 | 10                        | 5                      |
@@ -1316,6 +1342,8 @@ Temperatures:
 | 37                        | 30                     |
 | 45                        | 20                     |
 | 60                        | 0                      |
+
+</div>
 
 From 10 to 37$^{\circ}$C, the rate increases because higher temperature means more kinetic energy,
 So more enzyme-substrate collisions per unit time. At 37$^{\circ}$C, the rate is maximum. Above
@@ -1405,6 +1433,8 @@ $$
 
 **Worked Example: Comparing aerobic and anaerobic respiration.**
 
+<div class="table-wrap">
+
 | Feature       | Aerobic                                 | Anaerobic (muscle) | Anaerobic (yeast)        |
 | ------------- | --------------------------------------- | ------------------ | ------------------------ |
 | Oxygen needed | Yes                                     | No                 | No                       |
@@ -1412,6 +1442,8 @@ $$
 | Products      | $\mathrm{CO_2$ + $\mathrm{H_2\mathrm{O$ | Lactate            | Ethanol + $\mathrm{CO_2$ |
 | ATP yield     | ~30-38 per glucose                      | 2 per glucose      | 2 per glucose            |
 | Efficiency    | High                                    | Low                | Low                      |
+
+</div>
 
 Aerobic respiration produces much more ATP because glucose is completely oxidised. Anaerobic
 Respiration only partially breaks down glucose, so most of the energy remains locked in the products
@@ -1621,12 +1653,16 @@ Approximately 1.5 ATP (because it enters at Complex II, bypassing Complex I and 
 
 **Worked Example: Calculating the total ATP yield from one glucose molecule.**
 
+<div class="table-wrap">
+
 | Stage         | NADH   | FADH$_2$ | Direct ATP | ATP from ETC |
 | ------------- | ------ | -------- | ---------- | ------------ |
 | Glycolysis    | 2      | 0        | 2          | ~5           |
 | Link reaction | 2      | 0        | 0          | ~5           |
 | Krebs cycle   | 6      | 2        | 2          | ~20          |
 | **Total**     | **10** | **2**    | **4**      | **~30**      |
+
+</div>
 
 Note: The theoretical maximum is approximately 38 ATP, but the actual yield is closer to 30-32 ATP
 Due to proton leak across the inner membrane and the energy cost of transporting molecules.
@@ -1733,6 +1769,8 @@ $$
 The leaf is the main photosynthetic organ. Its structure is adapted to maximise light absorption and
 Gas exchange:
 
+<div class="table-wrap">
+
 | Leaf structure     | Adaptation for photosynthesis                                 |
 | ------------------ | ------------------------------------------------------------- |
 | Large surface area | Maximises light absorption                                    |
@@ -1743,6 +1781,8 @@ Gas exchange:
 | Stomata            | Pores for $\mathrm{CO_2$ entry and $\mathrm{O_2$ exit         |
 | Xylem              | Transports water to the leaf                                  |
 | Phloem             | Transports sugars (products of photosynthesis) away           |
+
+</div>
 
 **Gas exchange in the leaf:**
 
@@ -1885,6 +1925,8 @@ at least four differences.
 
 (b)
 
+<div class="table-wrap">
+
 | Feature       | Light Microscope                                   | Electron Microscope                                                                      |
 | ------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Resolution    | Up to $0.2\,\mu\text{m}$ (200 nm)                  | Up to $0.2\,\text{nm}$ (TEM)                                                             |
@@ -1893,6 +1935,8 @@ at least four differences.
 | Image         | Coloured (natural or stained); image seen directly | Black and white (TEM) or 3D surface (SEM); image viewed on fluorescent screen or monitor |
 | Vacuum        | Not required                                       | Required (electron beam travels in vacuum)                                               |
 | Radiation     | Light (photons)                                    | Beam of electrons                                                                        |
+
+</div>
 
 (c) Image size $= 4.2\,\text{cm} = 42{,}000\,\mu\text{m}$.
 
@@ -2268,6 +2312,8 @@ Mineral availability.
 
 ### Trophic Levels (OL/HL)
 
+<div class="table-wrap">
+
 | Level              | Organisms                      |
 | ------------------ | ------------------------------ |
 | Producer           | Plants, algae (autotrophs)     |
@@ -2275,6 +2321,8 @@ Mineral availability.
 | Secondary consumer | Carnivores that eat herbivores |
 | Tertiary consumer  | Top carnivores                 |
 | Decomposer         | Bacteria, fungi                |
+
+</div>
 
 ### Food Chains and Food Webs (OL/HL)
 
@@ -2399,12 +2447,16 @@ Density).
 
 **Comparison of density-dependent and density-independent factors:**
 
+<div class="table-wrap">
+
 | Feature                 | Density-Dependent             | Density-Independent           |
 | ----------------------- | ----------------------------- | ----------------------------- |
 | Relationship to density | Effect increases with density | Effect independent of density |
 | Examples                | Disease, competition          | Natural disasters, fire       |
 | Regulation type         | Intrinsic (self-regulating)   | Extrinsic (external)          |
 | Predictability          | More predictable              | Less predictable              |
+
+</div>
 
 ## Human Impact on the Environment (OL/HL)
 
@@ -2551,6 +2603,8 @@ Relationships is important for the Irish Leaving Certificate.
 
 **Symbiosis:** A close, long-term interaction between two different species.
 
+<div class="table-wrap">
+
 | Type         | Effect on A | Effect on B | Example                                                                      |
 | ------------ | ----------- | ----------- | ---------------------------------------------------------------------------- |
 | Mutualism    | +           | +           | Nitrogen-fixing bacteria in legume root nodules; mycorrhizae and plant roots |
@@ -2558,6 +2612,8 @@ Relationships is important for the Irish Leaving Certificate.
 | Parasitism   | +           | -           | Tapeworms in mammals; fleas on dogs                                          |
 | Predation    | +           | -           | Foxes eating rabbits; owls eating mice                                       |
 | Competition  | -           | -           | Two species competing for the same resource                                  |
+
+</div>
 
 **Competition:** Occurs when two organisms require the same limited resource (food, light, space,
 Mates). Intraspecific competition (between individuals of the same species) is more Intense than
@@ -2699,6 +2755,8 @@ Type of biome.
 
 **Major biomes:**
 
+<div class="table-wrap">
+
 | Biome                 | Climate                        | Vegetation                         |
 | --------------------- | ------------------------------ | ---------------------------------- |
 | Tropical rainforest   | Hot and wet all year           | Dense, broadleaved evergreen trees |
@@ -2707,6 +2765,8 @@ Type of biome.
 | Grassland/savanna     | Seasonal rainfall              | Grasses, scattered trees           |
 | Desert                | Hot and dry / cold and dry     | Sparse, drought-resistant plants   |
 | Tundra                | Very cold, low rainfall        | Mosses, lichens, low shrubs        |
+
+</div>
 
 **Biome characteristics relevant to the Irish Leaving Certificate:**
 
@@ -3100,6 +3160,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 
 ### Genetic Terminology (OL/HL)
 
+<div class="table-wrap">
+
 | Term         | Definition                                  |
 | ------------ | ------------------------------------------- |
 | Gene         | Section of DNA that codes for a protein     |
@@ -3112,6 +3174,8 @@ MRNA is decoded by ribosomes to produce a polypeptide chain.
 | Recessive    | Only expressed when homozygous (bb)         |
 | Codominant   | Both alleles are expressed in the phenotype |
 
+</div>
+
 ### Monohybrid Crosses (OL/HL)
 
 **Example (OL):** In pea plants, tall (T) is dominant over short (t). Cross two heterozygous tall
@@ -3121,10 +3185,14 @@ Parents: Tt x Tt
 
 Punnett square:
 
+<div class="table-wrap">
+
 |     | T   | t   |
 | --- | --- | --- |
 | T   | TT  | Tt  |
 | t   | Tt  | tt  |
+
+</div>
 
 Genotype ratio: 1 TT : 2 Tt : 1 tt.
 
@@ -3157,10 +3225,14 @@ Genes carried on the X chromosome show sex-linked inheritance.
 
 A carrier female (X$^H$X$^h$) x normal male (X$^H$Y):
 
+<div class="table-wrap">
+
 |       | X$^H$                       | Y                          |
 | ----- | --------------------------- | -------------------------- |
 | X$^H$ | X$^H$X$^H$ (normal female)  | X$^H$Y (normal male)       |
 | X$^h$ | X$^H$X$^h$ (carrier female) | X$^h$Y (haemophiliac male) |
+
+</div>
 
 Males are more likely to be affected because they have only one X chromosome.
 
@@ -3828,11 +3900,15 @@ Valve closes, and the semilunar valve in the aorta opens. Blood flows to the bod
 
 ### Blood Vessels (OL/HL)
 
+<div class="table-wrap">
+
 | Vessel    | Structure                          | Function                                     |
 | --------- | ---------------------------------- | -------------------------------------------- |
 | Artery    | Thick walls, narrow lumen, elastic | Carry blood away from heart at high pressure |
 | Vein      | Thin walls, wide lumen, valves     | Return blood to the heart                    |
 | Capillary | One cell thick walls               | Exchange of materials with tissues           |
+
+</div>
 
 ### Blood Composition (OL/HL)
 
@@ -3932,6 +4008,8 @@ Accessory organs: liver, pancreas, gall bladder.
 
 **Chemical digestion:** breakdown by enzymes.
 
+<div class="table-wrap">
+
 | Location | Enzyme  | Substrate | Product                |
 | -------- | ------- | --------- | ---------------------- |
 | Mouth    | Amylase | Starch    | Maltose                |
@@ -3939,6 +4017,8 @@ Accessory organs: liver, pancreas, gall bladder.
 | Duodenum | Trypsin | Proteins  | Amino acids            |
 | Duodenum | Lipase  | Lipids    | Fatty acids + glycerol |
 | Ileum    | Maltase | Maltose   | Glucose                |
+
+</div>
 
 ### Absorption (OL/HL)
 
@@ -4005,6 +4085,8 @@ Pathway: receptor $\to$ sensory neuron $\to$ relay neuron $\to$ motor neuron $\t
 
 Chemical messengers secreted by endocrine glands into the bloodstream, targeting specific organs.
 
+<div class="table-wrap">
+
 | Gland     | Hormone      | Function                                |
 | --------- | ------------ | --------------------------------------- |
 | Pituitary | ADH          | Regulates water reabsorption in kidneys |
@@ -4015,6 +4097,8 @@ Chemical messengers secreted by endocrine glands into the bloodstream, targeting
 | Adrenal   | Adrenaline   | "Fight or flight" response              |
 | Ovary     | Oestrogen    | Female secondary sexual characteristics |
 | Testis    | Testosterone | Male secondary sexual characteristics   |
+
+</div>
 
 ### Blood Glucose Regulation (HL)
 
@@ -4254,6 +4338,8 @@ Many drugs work by affecting synaptic transmission:
 
 **Key hormones and their functions:**
 
+<div class="table-wrap">
+
 | Hormone      | Source           | Target       | Function                                        |
 | ------------ | ---------------- | ------------ | ----------------------------------------------- |
 | Insulin      | Pancreas (beta)  | Liver, cells | Lowers blood glucose; promotes glucose uptake   |
@@ -4266,6 +4352,8 @@ Many drugs work by affecting synaptic transmission:
 | Oestrogen    | Ovaries          | Uterus       | Thickens uterine lining                         |
 | Progesterone | Corpus luteum    | Uterus       | Maintains uterine lining                        |
 | Testosterone | Testes           | Body         | Male secondary sexual characteristics           |
+
+</div>
 
 **Negative feedback:** The mechanism by which the body maintains homeostasis. When a condition
 Deviates from its set point, the body initiates a corrective response that brings the condition back
@@ -4314,6 +4402,8 @@ Hypothalamus, which acts as the body's thermostat.
 
 The skin is the largest organ in the body and plays a central role in thermoregulation:
 
+<div class="table-wrap">
+
 | Structure            | Function in thermoregulation                                |
 | -------------------- | ----------------------------------------------------------- |
 | Epidermis            | Barrier to water loss; contains melanin for UV protection   |
@@ -4322,6 +4412,8 @@ The skin is the largest organ in the body and plays a central role in thermoregu
 | Sweat glands         | Produce sweat for evaporative cooling                       |
 | Hair erector muscles | Cause piloerection to trap insulating air                   |
 | Sensory receptors    | Detect temperature changes and send signals to hypothalamus |
+
+</div>
 
 **Negative feedback in thermoregulation:**
 
@@ -4386,11 +4478,15 @@ Environment. It is divided into:
 
 **Types of neurons:**
 
+<div class="table-wrap">
+
 | Neuron type | Function                                     | Structure feature               |
 | ----------- | -------------------------------------------- | ------------------------------- |
 | Sensory     | Carry impulses from receptors to the CNS     | Long axon, cell body off-centre |
 | Relay       | Connect sensory and motor neurons in the CNS | Short axon, many dendrites      |
 | Motor       | Carry impulses from the CNS to effectors     | Long axon, cell body at start   |
+
+</div>
 
 **Neuron structure:**
 
@@ -4460,6 +4556,8 @@ Response faster.
 
 **Comparison of nervous and endocrine systems:**
 
+<div class="table-wrap">
+
 | Feature             | Nervous system                       | Endocrine system                     |
 | ------------------- | ------------------------------------ | ------------------------------------ |
 | Signal type         | Electrical impulses                  | Chemical (hormones)                  |
@@ -4469,12 +4567,16 @@ Response faster.
 | Transmission method | Neurons and synapses                 | Bloodstream                          |
 | Example             | Reflex arc (withdrawal reflex)       | Insulin and blood glucose regulation |
 
+</div>
+
 **Hormones and their effects:**
 
 Hormones are chemical messengers secreted by endocrine glands into the bloodstream. They travel
 throughout the body but only affect specific target cells that have the appropriate receptors.
 
 **Key endocrine glands and hormones:**
+
+<div class="table-wrap">
 
 | Gland     | Hormone(s)              | Function                                                 |
 | --------- | ----------------------- | -------------------------------------------------------- |
@@ -4484,6 +4586,8 @@ throughout the body but only affect specific target cells that have the appropri
 | Pancreas  | Insulin, glucagon       | Regulates blood glucose concentration                    |
 | Ovaries   | Oestrogen, progesterone | Female secondary sexual characteristics, menstrual cycle |
 | Testes    | Testosterone            | Male secondary sexual characteristics, sperm production  |
+
+</div>
 
 **Worked Example: Hormonal control of the menstrual cycle.**
 
@@ -5250,12 +5354,16 @@ Relies on the physical properties of water molecules.
 
 ### Factors Affecting Transpiration Rate (OL/HL)
 
+<div class="table-wrap">
+
 | Factor          | Effect                                     | Reason                                                                   |
 | --------------- | ------------------------------------------ | ------------------------------------------------------------------------ |
 | Temperature     | Higher temperature increases rate          | Increases kinetic energy of water molecules; increases evaporation       |
 | Humidity        | Higher humidity decreases rate             | Reduces the water potential gradient between leaf and air                |
 | Wind speed      | Higher wind speed increases rate           | Removes water vapour from leaf surface, maintaining gradient             |
 | Light intensity | Higher light increases rate (stomata open) | Stomata open wider in light for photosynthesis, allowing more water loss |
+
+</div>
 
 ### Worked Example: Predicting Transpiration Rate (OL/HL)
 
@@ -5356,12 +5464,16 @@ Reliable.
 
 **Agents of pollination:**
 
+<div class="table-wrap">
+
 | Agent   | Flower adaptations                                                                 |
 | ------- | ---------------------------------------------------------------------------------- |
 | Wind    | Small, dull flowers; large feathery stigmas; light, smooth pollen; exposed anthers |
 | Insects | Brightly coloured petals; scent; nectar; sticky pollen; landing platform           |
 | Birds   | Large, brightly coloured (often red); copious nectar; sturdy perch                 |
 | Water   | Long, floating pollen; small, inconspicuous flowers (rare)                         |
+
+</div>
 
 :::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
@@ -5403,11 +5515,15 @@ Develops if fertilisation has occurred, avoiding waste of resources.
 
 **Monocot vs dicot seeds:**
 
+<div class="table-wrap">
+
 | Feature    | Monocot seed              | Dicot seed                        |
 | ---------- | ------------------------- | --------------------------------- |
 | Cotyledons | One                       | Two                               |
 | Endosperm  | Present (main food store) | Often absent (food in cotyledons) |
 | Example    | Maize, wheat              | Bean, pea                         |
+
+</div>
 
 ### Germination (OL/HL)
 
@@ -5495,6 +5611,8 @@ Plant hormones (phytohormones) are chemical messengers produced in small quantit
 Growth, development, and responses to stimuli. Unlike animal hormones, plant hormones can act on the
 Cells that produce them (autocrine) as well as on distant cells.
 
+<div class="table-wrap">
+
 | Hormone             | Site of production             | Effect                                             |
 | ------------------- | ------------------------------ | -------------------------------------------------- |
 | Auxin (IAA)         | Apical bud, young leaves       | Cell elongation, apical dominance, root initiation |
@@ -5502,6 +5620,8 @@ Cells that produce them (autocrine) as well as on distant cells.
 | Cytokinin           | Root tips                      | Cell division, delays leaf senescence              |
 | Ethylene            | Ripening fruits, ageing leaves | Fruit ripening, leaf fall (abscission)             |
 | Abscisic acid (ABA) | Leaves, root caps              | Inhibits growth, closes stomata (stress response)  |
+
+</div>
 
 ### Apical Dominance (HL)
 
@@ -5603,6 +5723,8 @@ Directions in response to the same gravitational stimulus.
 
 ## Summary Table: Plant Hormones and Their Effects (HL)
 
+<div class="table-wrap">
+
 | Hormone       | Promotes                                               | Inhibits                              | Practical use                                                                   |
 | ------------- | ------------------------------------------------------ | ------------------------------------- | ------------------------------------------------------------------------------- |
 | Auxin         | Cell elongation in shoots; root initiation in cuttings | Lateral bud growth (apical dominance) | Rooting powder; weedkillers (synthetic auxins cause uncontrolled growth)        |
@@ -5610,6 +5732,8 @@ Directions in response to the same gravitational stimulus.
 | Cytokinin     | Cell division (cytokinesis); delay leaf ageing         | --                                    | Tissue culture; extending shelf life of cut flowers                             |
 | Ethylene      | Fruit ripening; leaf fall                              | --                                    | Bananas shipped green and ripened with ethylene gas; promoting uniform ripening |
 | Abscisic acid | Stomatal closure during water stress                   | Growth; germination                   | Antitranspirant sprays; maintaining seed dormancy                               |
+
+</div>
 
 ## Practice Questions
 
@@ -5693,6 +5817,8 @@ In photosynthesis and other metabolic processes. Cutting the shoot may alter its
 **Question:** A student using a potometer records the following movement of an air bubble along a
 Capillary tube of diameter 1 mm:
 
+<div class="table-wrap">
+
 | Time (min) | Distance moved (mm) |
 | ---------- | ------------------- |
 | 0--1       | 12                  |
@@ -5700,6 +5826,8 @@ Capillary tube of diameter 1 mm:
 | 2--3       | 11                  |
 | 3--4       | 13                  |
 | 4--5       | 12                  |
+
+</div>
 
 Calculate the mean rate of water uptake in $mm^3$/min.
 
@@ -5753,11 +5881,15 @@ Understanding osmosis is critical for explaining water movement in plants.
 
 **Plant cells in different solutions:**
 
+<div class="table-wrap">
+
 | Solution type           | Effect on plant cell                                                |
 | ----------------------- | ------------------------------------------------------------------- |
 | Hypotonic (high $\psi$) | Water enters; cell becomes turgid; cell wall prevents bursting      |
 | Isotonic (equal $\psi$) | No net water movement; cell is flaccid                              |
 | Hypertonic (low $\psi$) | Water leaves; cytoplasm shrinks (plasmolysis); cell becomes flaccid |
+
+</div>
 
 Turgor pressure is essential for plant support. When cells lose turgor (e.g., during water stress),
 The plant wilts. This is why watering a wilted plant restores its upright posture.
@@ -5774,6 +5906,8 @@ Lower water potential by osmosis across the selectively permeable cell membrane.
 
 ### Xylem and Phloem: Detailed Comparison (HL)
 
+<div class="table-wrap">
+
 | Feature               | Xylem                          | Phloem                                 |
 | --------------------- | ------------------------------ | -------------------------------------- |
 | Direction of flow     | One way (upwards)              | Two way (source to sink)               |
@@ -5784,6 +5918,8 @@ Lower water potential by osmosis across the selectively permeable cell membrane.
 | Associated cells      | None (vessels and tracheids)   | Companion cells (metabolically active) |
 | Mechanism             | Passive (cohesion-tension)     | Active (mass flow, requires ATP)       |
 | Role in support       | Yes (lignin provides rigidity) | No                                     |
+
+</div>
 
 ## Common Exam Errors in Plant Biology
 
@@ -5810,6 +5946,8 @@ genetic variation.
 
 **Solution:**
 
+<div class="table-wrap">
+
 | Feature           | Mitosis                              | Meiosis                                     |
 | ----------------- | ------------------------------------ | ------------------------------------------- |
 | Divisions         | 1                                    | 2                                           |
@@ -5817,6 +5955,8 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+</div>
 :::
 
 ## Intuition
@@ -5985,11 +6125,15 @@ $$
 
 At $25^\circ\mathrm{C$: $[\mathrm{H_3\mathrm{O^+][\mathrm{OH^-] = 10^{-14}$.
 
+<div class="table-wrap">
+
 | pH  | [H3O+]               | Description     |
 | --- | -------------------- | --------------- |
 | 0   | $1\mathrm{ M$        | Strongly acidic |
 | 7   | $10^{-7}\mathrm{ M$  | Neutral         |
 | 14  | $10^{-14}\mathrm{ M$ | Strongly basic  |
+
+</div>
 
 **Example (OL):** Find the pH of a $0.01\mathrm{ M$ solution of $\mathrm{HCl$.
 
@@ -6139,13 +6283,19 @@ $$
 
 ### Choosing the Method
 
+<div class="table-wrap">
+
 | Desired salt                      | Method                      |
 | --------------------------------- | --------------------------- |
 | Sodium, potassium, ammonium salts | Titration or evaporation    |
 | Soluble salts of other metals     | Metal + acid or base + acid |
 | Insoluble salts                   | Precipitation               |
 
+</div>
+
 ## Indicators (OL/HL)
+
+<div class="table-wrap">
 
 | Indicator           | Colour in acid | Colour in base | pH range    |
 | ------------------- | -------------- | -------------- | ----------- |
@@ -6153,6 +6303,8 @@ $$
 | Methyl orange       | Red            | Yellow         | 3.1 -- 4.4  |
 | Phenolphthalein     | Colourless     | Pink           | 8.3 -- 10.0 |
 | Universal indicator | Various        | Various        | 1 -- 14     |
+
+</div>
 
 ### Choosing an Indicator for Titrations (HL)
 
@@ -6363,12 +6515,16 @@ A buffer is most effective when:
 
 ### pH of Salt Solutions
 
+<div class="table-wrap">
+
 | Salt formed from          | Resulting pH   | Reason                  |
 | ------------------------- | -------------- | ----------------------- |
 | Strong acid + strong base | 7              | Neither ion hydrolyses  |
 | Strong acid + weak base   | Less than 7    | Cation hydrolyses       |
 | Weak acid + strong base   | Greater than 7 | Anion hydrolyses        |
 | Weak acid + weak base     | Depends        | Compare $K_a$ and $K_b$ |
+
+</div>
 
 **Worked Example 11 (HL):** Explain why $\mathrm{Na_2\mathrm{CO_3$ solution is alkaline.
 
@@ -6518,11 +6674,15 @@ charge).
 
 ### Comparison of Acid-Base Theories
 
+<div class="table-wrap">
+
 | Theory         | Acid definition                 | Base definition                  | Scope                                        |
 | -------------- | ------------------------------- | -------------------------------- | -------------------------------------------- |
 | Arrhenius      | Produces $\mathrm{H^+$ in water | Produces $\mathrm{OH^-$ in water | Aqueous solutions only                       |
 | Bronsted-Lowry | Proton donor                    | Proton acceptor                  | Includes non-aqueous systems                 |
 | Lewis          | Electron pair acceptor          | Electron pair donor              | Widest scope, includes proton-free reactions |
+
+</div>
 
 **Example:** The reaction between $\mathrm{BF_3$ and $\mathrm{NH_3$ is a Lewis acid-base reaction
 but NOT a Bronsted-Lowry reaction (no proton transfer):
@@ -6614,6 +6774,8 @@ Mix solutions, filter the precipitate, wash with distilled water, dry.
 
 ### Choosing the Correct Method
 
+<div class="table-wrap">
+
 | Desired salt     | Solubility of salt | Recommended method                    |
 | ---------------- | ------------------ | ------------------------------------- |
 | $\mathrm{NaCl$   | Soluble            | Neutralisation (titration)            |
@@ -6621,6 +6783,8 @@ Mix solutions, filter the precipitate, wash with distilled water, dry.
 | $\mathrm{ZnSO_4$ | Soluble            | Acid + metal or acid + base           |
 | $\mathrm{PbI_2$  | Insoluble          | Precipitation                         |
 | $\mathrm{CaCO_3$ | Insoluble          | Cannot be prepared by aqueous methods |
+
+</div>
 
 ---
 
@@ -6667,6 +6831,8 @@ Partially dissociated.
 
 ## Summary Table: Acid-Base Concepts
 
+<div class="table-wrap">
+
 | Concept               | Formula                                                      | Key Point                   |
 | --------------------- | ------------------------------------------------------------ | --------------------------- |
 | pH                    | $\mathrm{pH = -\log[\mathrm{H^+]$                            | Lower = more acidic         |
@@ -6675,6 +6841,8 @@ Partially dissociated.
 | $pK_a$                | $-\log K_a$                                                  | Lower = stronger acid       |
 | Henderson-Hasselbalch | $\mathrm{pH = pK_a + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}$ | Buffer pH                   |
 | $K_a \times K_b$      | $= K_w$                                                      | Conjugate pair relationship |
+
+</div>
 
 ---
 
@@ -6874,11 +7042,15 @@ Configuration, atomic spectra, and periodic trends.
 
 ## Subatomic Particles (OL/HL)
 
+<div class="table-wrap">
+
 | Particle | Symbol | Relative mass          | Relative charge | Location |
 | -------- | ------ | ---------------------- | --------------- | -------- |
 | Proton   | $p^+$  | 1                      | $+1$            | Nucleus  |
 | Neutron  | $n^0$  | 1                      | $0$             | Nucleus  |
 | Electron | $e^-$  | $\approx 0$ ($1/1836$) | $-1$            | Shells   |
+
+</div>
 
 ### Atomic Number and Mass Number
 
@@ -6938,12 +7110,16 @@ $$
 
 Electrons occupy shells (energy levels) around the nucleus:
 
+<div class="table-wrap">
+
 | Shell | $n$ | Maximum electrons |
 | ----- | --- | ----------------- |
 | K     | 1   | 2                 |
 | L     | 2   | 8                 |
 | M     | 3   | 18                |
 | N     | 4   | 32                |
+
+</div>
 
 Maximum electrons in shell $n$: $2n^2$.
 
@@ -6966,12 +7142,16 @@ Potassium has 19 electrons. Filling shells: K (2), L (8), M (8), N (1). Configur
 
 Shells are divided into subshells: $s$, $p$, $d$, $f$.
 
+<div class="table-wrap">
+
 | Subshell | Orbitals | Max electrons |
 | -------- | -------- | ------------- |
 | $s$      | 1        | 2             |
 | $p$      | 3        | 6             |
 | $d$      | 5        | 10            |
 | $f$      | 7        | 14            |
+
+</div>
 
 ### Aufbau Principle (HL)
 
@@ -7011,12 +7191,16 @@ Two electrons with opposite spins.
 
 ## Quantum Numbers (HL)
 
+<div class="table-wrap">
+
 | Quantum number   | Symbol   | Values                       | Describes                  |
 | ---------------- | -------- | ---------------------------- | -------------------------- |
 | Principal        | $n$      | $1, 2, 3, \ldots$            | Energy level / shell       |
 | Angular momentum | $\ell$   | $0$ to $n-1$                 | Subshell ($s=0, p=1, d=2$) |
 | Magnetic         | $m_\ell$ | $-\ell$ to $+\ell$           | Orbital orientation        |
 | Spin             | $m_s$    | $+\frac{1}{2}, -\frac{1}{2}$ | Electron spin              |
+
+</div>
 
 **Worked Example 5 (HL):** List all possible quantum numbers for a $3p$ electron.
 
@@ -7151,6 +7335,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 
 ### Summary of Periodic Trends
 
+<div class="table-wrap">
+
 | Property                | Across a period            | Down a group |
 | ----------------------- | -------------------------- | ------------ |
 | Atomic radius           | Decreases                  | Increases    |
@@ -7158,6 +7344,8 @@ Fluorine is the most electronegative element (3.98 on the Pauling scale).
 | Electronegativity       | Increases                  | Decreases    |
 | Metallic character      | Decreases                  | Increases    |
 | Melting point (metals)  | Increases                  | Decreases    |
+
+</div>
 
 ## Mass Spectrometry (HL)
 
@@ -7280,6 +7468,8 @@ A shell have been removed, the next ionisation energy increases significantly.
 
 For sodium ($Z = 11$):
 
+<div class="table-wrap">
+
 | Ionisation | Energy (kJ/mol) | Jump?      |
 | ---------- | --------------- | ---------- |
 | 1st        | 496             | --         |
@@ -7293,6 +7483,8 @@ For sodium ($Z = 11$):
 | 9th        | 28932           | --         |
 | 10th       | 141362          | Large jump |
 | 11th       | 159076          | --         |
+
+</div>
 
 The large jump between the 9th and 10th ionisation energies indicates that the 10th electron is
 being removed from an inner shell (closer to the nucleus, less shielded). This confirms the electron
@@ -7408,6 +7600,8 @@ Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly 
 
 ### Common Ion Configurations
 
+<div class="table-wrap">
+
 | Ion               | Electron configuration             |
 | ----------------- | ---------------------------------- |
 | $\mathrm{Na^+$    | $[\mathrm{Ne]$ or $1s^2 2s^2 2p^6$ |
@@ -7416,6 +7610,8 @@ Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly 
 | $\mathrm{Cl^-$    | $[\mathrm{Ar]$                     |
 | $\mathrm{Cu^+$    | $[\mathrm{Ar]\,3d^{10}$            |
 | $\mathrm{Zn^{2+}$ | $[\mathrm{Ar]\,3d^{10}$            |
+
+</div>
 
 ### Isoelectronic Series
 
@@ -7445,12 +7641,16 @@ $$
 
 ### Blocks of the Periodic Table
 
+<div class="table-wrap">
+
 | Block   | Subshell being filled | Groups                 | Examples                             |
 | ------- | --------------------- | ---------------------- | ------------------------------------ |
 | s-block | $s$                   | 1, 2                   | $\mathrm{Na$$\mathrm{Mg$             |
 | p-block | $p$                   | 13-18                  | $\mathrm{Al$$\mathrm{Cl$$\mathrm{Ar$ |
 | d-block | $d$                   | 3-12                   | $\mathrm{Fe$$\mathrm{Cu$             |
 | f-block | $f$                   | Lanthanides, Actinides | $\mathrm{U$$\mathrm{Ce$              |
+
+</div>
 
 ### Periodic Trends in Detail: Atomic Radius
 
@@ -7474,6 +7674,8 @@ The first ionisation energy increases across a period with two notable dips:
 
 ### Comparison of Group 1 and Group 17 Properties
 
+<div class="table-wrap">
+
 | Property          | Group 1 (Alkali metals)     | Group 17 (Halogens)         |
 | ----------------- | --------------------------- | --------------------------- |
 | Atomic radius     | Large, increases down group | Small, increases down group |
@@ -7483,6 +7685,8 @@ The first ionisation energy increases across a period with two notable dips:
 | Type of element   | Metal                       | Non-metal                   |
 | Bonding           | Metallic/ionic              | Covalent                    |
 | Typical ion       | $+1$                        | $-1$                        |
+
+</div>
 
 ---
 
@@ -7606,6 +7810,8 @@ And scanning electron microscopy (SEM) are two common types.
 
 ## Summary: Atomic Structure Key Relationships
 
+<div class="table-wrap">
+
 | Concept                  | Formula/Relationship                  | Key Idea                      |
 | ------------------------ | ------------------------------------- | ----------------------------- |
 | Bohr model energy        | $E_n = -13.6/n^2 \mathrm{ eV$         | Quantised energy levels       |
@@ -7615,6 +7821,8 @@ And scanning electron microscopy (SEM) are two common types.
 | Effective nuclear charge | $Z_{\mathrm{eff} = Z - S$             | Shielding effects             |
 | Shell capacity           | $2n^2$                                | Maximum electrons per shell   |
 | Moseley's law            | $\sqrt{f} = a(Z - b)$                 | Atomic number defines element |
+
+</div>
 
 ---
 
@@ -7669,6 +7877,8 @@ And scanning electron microscopy (SEM) are two common types.
 
 ### Key Developments
 
+<div class="table-wrap">
+
 | Scientist   | Contribution                                                      | Date |
 | ----------- | ----------------------------------------------------------------- | ---- |
 | Dalton      | Atomic theory: all matter is made of atoms                        | 1808 |
@@ -7678,6 +7888,8 @@ And scanning electron microscopy (SEM) are two common types.
 | de Broglie  | Wave-particle duality                                             | 1924 |
 | Heisenberg  | Uncertainty principle                                             | 1927 |
 | Schrodinger | Wave equation for electrons                                       | 1926 |
+
+</div>
 
 ### Rutherford's Gold Foil Experiment
 
@@ -7793,11 +8005,15 @@ O=O). **Triple bond:** three shared pairs (e.g., N$\equiv$N).
 
 **Bond length and bond strength:**
 
+<div class="table-wrap">
+
 | Bond type | Bond length | Bond energy (kJ/mol) |
 | --------- | ----------- | -------------------- |
 | C-C       | 154 pm      | 348                  |
 | C=C       | 134 pm      | 612                  |
 | C≡C       | 120 pm      | 839                  |
+
+</div>
 
 Triple bonds are shorter and stronger than double bonds, which are shorter and stronger than single
 Bonds.
@@ -7870,6 +8086,8 @@ moment.
 The Valence Shell Electron Pair Repulsion (VSEPR) theory predicts molecular shapes based on electron
 Pair repulsion.
 
+<div class="table-wrap">
+
 | Electron pairs | Shape                | Bond angle       |
 | -------------- | -------------------- | ---------------- |
 | 2              | Linear               | $180^\circ$      |
@@ -7878,9 +8096,13 @@ Pair repulsion.
 | 5              | Trigonal bipyramidal | $120°, 90^\circ$ |
 | 6              | Octahedral           | $90^\circ$       |
 
+</div>
+
 ### Effect of Lone Pairs
 
 Lone pairs repel more strongly than bonding pairs, reducing bond angles.
+
+<div class="table-wrap">
 
 | Bonding pairs | Lone pairs | Shape              | Example                | Bond angle    |
 | ------------- | ---------- | ------------------ | ---------------------- | ------------- |
@@ -7889,6 +8111,8 @@ Lone pairs repel more strongly than bonding pairs, reducing bond angles.
 | 4             | 1          | See-saw            | $\mathrm{SF_4$         | --            |
 | 3             | 2          | T-shaped           | $\mathrm{ClF_3$        | --            |
 | 2             | 3          | Linear             | $\mathrm{XeF_2$        | $180^\circ$   |
+
+</div>
 
 **Worked Example 3 (OL):** Use VSEPR theory to predict the shape of $\mathrm{BF_3$ and
 $\mathrm{H_2\mathrm{O$.
@@ -7995,11 +8219,15 @@ $\mathrm{HF$ dominates.
 
 ### Summary of Intermolecular Forces
 
+<div class="table-wrap">
+
 | Force             | Strength  | Present in          | Dependence                |
 | ----------------- | --------- | ------------------- | ------------------------- |
 | London dispersion | Weakest   | All molecules       | Increases with size       |
 | Dipole-dipole     | Moderate  | Polar molecules     | Depends on dipole moment  |
 | Hydrogen bonding  | Strongest | H bonded to N, O, F | Depends on H-bond density |
+
+</div>
 
 ## Metallic Bonding in Detail (HL)
 
@@ -8014,12 +8242,16 @@ Semiconductors, the gap is small enough that thermal energy can promote some ele
 
 ### Comparison: Conductors, Semiconductors, Insulators
 
+<div class="table-wrap">
+
 | Property                  | Conductor            | Semiconductor | Insulator        |
 | ------------------------- | -------------------- | ------------- | ---------------- |
 | Band gap                  | None (bands overlap) | Small (~1 eV) | Large (>5 eV)    |
 | Conductivity at 0 K       | High                 | Zero          | Zero             |
 | Conductivity with heating | Decreases slightly   | Increases     | Remains zero     |
 | Examples                  | Cu, Al               | Si, Ge        | Diamond, SiO$_2$ |
+
+</div>
 
 ---
 
@@ -8134,12 +8366,16 @@ Character.
 
 ### Trend in Covalent Character of Group 1 Halides
 
+<div class="table-wrap">
+
 | Compound      | Covalent character | Explanation                           |
 | ------------- | ------------------ | ------------------------------------- |
 | $\mathrm{LiF$ | Very low           | Small cation, small anion             |
 | $\mathrm{LiI$ | Moderate           | Small cation, large polarisable anion |
 | $\mathrm{CsF$ | Very low           | Large cation, small anion             |
 | $\mathrm{CsI$ | Moderate           | Large cation, large anion             |
+
+</div>
 
 ## Resonance (HL)
 
@@ -8221,12 +8457,16 @@ the Lewis structure $\mathrm{N\equiv\mathrm{N$.
 
 ### Comparison of MO Theory with Lewis Theory
 
+<div class="table-wrap">
+
 | Feature                        | Lewis theory                 | MO theory                            |
 | ------------------------------ | ---------------------------- | ------------------------------------ |
 | Bonds                          | Localised between two atoms  | Delocalised over molecule            |
 | Paramagnetism of $\mathrm{O_2$ | Cannot explain               | Correctly predicts                   |
 | Bond order                     | Single, double, triple       | Can be fractional (e.g., 1.5)        |
 | Resonance                      | Requires multiple structures | Single structure with delocalisation |
+
+</div>
 
 ---
 
@@ -8258,6 +8498,8 @@ Network. Very high melting point, hard, insulator.
 
 ### Comparison Table
 
+<div class="table-wrap">
+
 | Property                | Diamond                | Graphite                       | $\mathrm{SiO_2$         |
 | ----------------------- | ---------------------- | ------------------------------ | ----------------------- |
 | Bonding                 | 4 covalent bonds per C | 3 covalent bonds + delocalised | 4 covalent bonds per Si |
@@ -8265,6 +8507,8 @@ Network. Very high melting point, hard, insulator.
 | Melting point           | Very high              | Very high                      | Very high               |
 | Electrical conductivity | None                   | Conducts along planes          | None                    |
 | Structure               | 3D tetrahedral         | Layered hexagonal              | 3D network              |
+
+</div>
 
 ---
 
@@ -8291,11 +8535,15 @@ Body-centred cubic. Each $\mathrm{Cs^+$ is surrounded by 8 $\mathrm{Cl^-$ ions. 
 
 ### Relationship Between Structure and Properties
 
+<div class="table-wrap">
+
 | Compound | Coordination number | Lattice energy (kJ/mol) | Melting point |
 | -------- | ------------------- | ----------------------- | ------------- |
 | NaCl     | 6:6                 | -787                    | 801°C         |
 | CsCl     | 8:8                 | -657                    | 645°C         |
 | MgO      | 6:6                 | -3791                   | 2852°C        |
+
+</div>
 
 $\mathrm{MgO$ has a much higher melting point than $\mathrm{NaCl$ because the doubly charged ions
 Produce stronger electrostatic attraction.
@@ -8318,6 +8566,8 @@ State.
 
 ### Average Bond Enthalpies
 
+<div class="table-wrap">
+
 | Bond | Enthalpy (kJ/mol) | Bond | Enthalpy (kJ/mol) |
 | ---- | ----------------- | ---- | ----------------- |
 | C-C  | 348               | C-H  | 412               |
@@ -8325,6 +8575,8 @@ State.
 | C≡C  | 839               | C=O  | 743               |
 | C-O  | 358               | H-H  | 436               |
 | C-Cl | 328               | O=O  | 496               |
+
+</div>
 
 **Worked Example 7 (HL):** Use bond enthalpies to estimate the enthalpy change for the combustion of
 Methane: $\mathrm{CH_4 + 2\mathrm{O_2 \to \mathrm{CO_2 + 2\mathrm{H_2\mathrm{O$.
@@ -8407,6 +8659,8 @@ Trigonal bipyramidal ($sp^3d$). Bond angles: $90^\circ$ and $120^\circ$.
 The hybridisation of the central atom is determined by the number of electron domains (bonding
 Pairs + lone pairs):
 
+<div class="table-wrap">
+
 | Electron domains | Hybridisation | Geometry             |
 | ---------------- | ------------- | -------------------- |
 | 2                | $sp$          | Linear               |
@@ -8414,6 +8668,8 @@ Pairs + lone pairs):
 | 4                | $sp^3$        | Tetrahedral          |
 | 5                | $sp^3d$       | Trigonal bipyramidal |
 | 6                | $sp^3d^2$     | Octahedral           |
+
+</div>
 
 ---
 
@@ -8461,12 +8717,16 @@ Arrangement. This prevents layers from sliding , making the alloy harder than th
 
 Consider the hydrides of Group 14-17:
 
+<div class="table-wrap">
+
 | Compound               | Boiling point | Dominant IMF     |
 | ---------------------- | ------------- | ---------------- |
 | $\mathrm{CH_4$         | -162°C        | London forces    |
 | $\mathrm{NH_3$         | -33°C         | Hydrogen bonding |
 | $\mathrm{H_2\mathrm{O$ | 100°C         | Hydrogen bonding |
 | $\mathrm{HF$           | 20°C          | Hydrogen bonding |
+
+</div>
 
 Water has the highest boiling point because each molecule can form up to four hydrogen bonds (two as
 Donor, two as acceptor), creating an extensive three-dimensional network.
@@ -8499,6 +8759,8 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 
 ## Comparison Table: All Bonding Types
 
+<div class="table-wrap">
+
 | Feature                 | Ionic                       | Covalent (simple)                                     | Covalent (giant)  | Metallic                    |
 | ----------------------- | --------------------------- | ----------------------------------------------------- | ----------------- | --------------------------- |
 | Particles               | Ions                        | Molecules                                             | Atoms in network  | Metal ions + delocalised e- |
@@ -8508,6 +8770,8 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 | Solubility              | Polar solvents              | Non-polar solvents                                    | Insoluble         | Insoluble                   |
 | Hardness                | Hard, brittle               | Soft                                                  | Very hard         | Malleable                   |
 | Examples                | $\mathrm{NaCl$$\mathrm{MgO$ | $\mathrm{H_2\mathrm{O$$\mathrm{CO_2$                  | Diamond, graphite | $\mathrm{Fe$$\mathrm{Cu$    |
+
+</div>
 
 ---
 
@@ -9579,6 +9843,8 @@ Properties.
 
 ### Functional Groups (OL/HL)
 
+<div class="table-wrap">
+
 | Functional group   | Name            | Example                       |
 | ------------------ | --------------- | ----------------------------- |
 | C--C               | Alkane          | $\mathrm{CH_3\mathrm{CH_3$    |
@@ -9591,6 +9857,8 @@ Properties.
 | --COX (X = Cl, Br) | Acyl halide     | $\mathrm{CH_3\mathrm{COCl$    |
 | --NH$_2$           | Amine           | $\mathrm{CH_3\mathrm{NH_2$    |
 | --CO--NH--         | Amide           | $\mathrm{CH_3\mathrm{CONH_2$  |
+
+</div>
 
 ### IUPAC Nomenclature (OL/HL)
 
@@ -9990,11 +10258,15 @@ Placing the positive charge on the more substituted (more stable) carbon.
 
 ### Classification Recap
 
+<div class="table-wrap">
+
 | Type      | Structure                    | Example              |
 | --------- | ---------------------------- | -------------------- |
 | Primary   | R-$\mathrm{CH_2\mathrm{OH$   | Ethanol, propan-1-ol |
 | Secondary | $\mathrm{R_2$-$\mathrm{CHOH$ | Propan-2-ol          |
 | Tertiary  | $\mathrm{R_3$-$\mathrm{COH$  | 2-methylpropan-2-ol  |
+
+</div>
 
 ### Oxidation: Detailed Conditions
 
@@ -10100,6 +10372,8 @@ is stabilised by resonance delocalisation of the negative charge over two oxygen
 
 ### Reactions of Carboxylic Acids
 
+<div class="table-wrap">
+
 | Reagent                             | Product                                                  | Type           |
 | ----------------------------------- | -------------------------------------------------------- | -------------- |
 | $\mathrm{NaOH$                      | Carboxylate salt + water                                 | Neutralisation |
@@ -10107,6 +10381,8 @@ is stabilised by resonance delocalisation of the negative charge over two oxygen
 | $\mathrm{Na_2\mathrm{CO_3$          | Carboxylate salt + $\mathrm{CO_2 + \mathrm{H_2\mathrm{O$ | Acid-base      |
 | Alcohol + $\mathrm{H_2\mathrm{SO_4$ | Ester + water                                            | Esterification |
 | $\mathrm{LiAlH_4$                   | Primary alcohol                                          | Reduction      |
+
+</div>
 
 ---
 
@@ -10240,6 +10516,8 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 
 ## Summary Table: Key Organic Reactions
 
+<div class="table-wrap">
+
 | Reactant                  | Reagent                             | Product               | Reaction type          |
 | ------------------------- | ----------------------------------- | --------------------- | ---------------------- |
 | Alkene                    | $\mathrm{Br_2$                      | Dibromoalkane         | Electrophilic addition |
@@ -10253,6 +10531,8 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 | Aldehyde                  | Tollens'                            | Silver mirror         | Oxidation (test)       |
 | Aldehyde                  | $\mathrm{NaBH_4$                    | Primary alcohol       | Reduction              |
 | Ketone                    | $\mathrm{NaBH_4$                    | Secondary alcohol     | Reduction              |
+
+</div>
 
 ---
 
@@ -10361,12 +10641,16 @@ Polymers derived from renewable resources that can be broken down by microorgani
 
 ### Problems with Conventional Polymers
 
+<div class="table-wrap">
+
 | Issue              | Explanation                                  |
 | ------------------ | -------------------------------------------- |
 | Non-biodegradable  | Persist in landfill for centuries            |
 | Microplastics      | Break into tiny particles, pollute oceans    |
 | Incineration       | Can release toxic gases (e.g., HCl from PVC) |
 | Resource depletion | Made from petroleum (non-renewable)          |
+
+</div>
 
 ---
 
@@ -11548,6 +11832,8 @@ Errors that vary unpredictably (e.g., reading a burette to different decimal pla
 
 ### Reducing Errors
 
+<div class="table-wrap">
+
 | Error type          | Source                          | Reduction method        |
 | ------------------- | ------------------------------- | ----------------------- |
 | Parallax            | Reading meniscus at wrong angle | Read at eye level       |
@@ -11555,6 +11841,8 @@ Errors that vary unpredictably (e.g., reading a burette to different decimal pla
 | Heat loss           | Calorimetry                     | Use insulated container |
 | Incomplete reaction | Not enough reagent              | Use excess              |
 | Impurities          | Sample not pure                 | Recrystallise           |
+
+</div>
 
 ### Percentage Uncertainty
 
@@ -11593,6 +11881,8 @@ $$
 
 ## Summary Table: Key Stoichiometric Relationships
 
+<div class="table-wrap">
+
 | Relationship             | Formula                                 | Use                      |
 | ------------------------ | --------------------------------------- | ------------------------ |
 | Moles from mass          | $n = m/M$                               | Mass to mole conversions |
@@ -11605,6 +11895,8 @@ $$
 | Percentage purity        | $\mathrm{pure/impure \times 100$        | Sample quality           |
 | Ideal gas law            | $pV = nRT$                              | Gas calculations         |
 | Dilution                 | $c_1 V_1 = c_2 V_2$                     | Preparing solutions      |
+
+</div>
 
 ## Worked Examples
 
@@ -11796,6 +12088,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 
 **Inputs:** 50c, 1 euro.
 
+<div class="table-wrap">
+
 | Current state | Input  | Next state | Output                     |
 | ------------- | ------ | ---------- | -------------------------- |
 | $S_0$         | 50c    | $S_1$      | --                         |
@@ -11804,6 +12098,8 @@ A vending machine accepts 50c and 1 euro coins and dispenses a drink costing 1.5
 | $S_1$         | 1 euro | $S_3$      | Dispense drink             |
 | $S_2$         | 50c    | $S_3$      | Dispense drink             |
 | $S_2$         | 1 euro | $S_3$      | Dispense drink, return 50c |
+
+</div>
 
 ### State Transition Diagram
 
@@ -11854,6 +12150,8 @@ Unlocks it. Pushing it when unlocked lets one person through and locks it again.
 
 States: Locked, Unlocked. Inputs: coin, push.
 
+<div class="table-wrap">
+
 | State    | Input | Next State | Output         |
 | -------- | ----- | ---------- | -------------- |
 | Locked   | coin  | Unlocked   | --             |
@@ -11861,11 +12159,15 @@ States: Locked, Unlocked. Inputs: coin, push.
 | Unlocked | coin  | Unlocked   | --             |
 | Unlocked | push  | Locked     | Person through |
 
+</div>
+
 ## Regular Expressions (HL)
 
 A regular expression (regex) is a pattern used to match strings.
 
 ### Common Syntax
+
+<div class="table-wrap">
 
 | Symbol   | Meaning                                        |
 | -------- | ---------------------------------------------- |
@@ -11881,6 +12183,8 @@ A regular expression (regex) is a pattern used to match strings.
 | `\w`     | Any word character (alphanumeric + underscore) |
 | `{n}`    | Exactly n occurrences                          |
 | `{n,m}`  | Between n and m occurrences                    |
+
+</div>
 
 ### Examples in Python
 
@@ -11966,6 +12270,8 @@ def mystery(n):
     return result
 ```
 
+<div class="table-wrap">
+
 | i   | result |
 | --- | ------ |
 | 1   | 1      |
@@ -11973,6 +12279,8 @@ def mystery(n):
 | 3   | 6      |
 | 4   | 24     |
 | 5   | 120    |
+
+</div>
 
 The function computes $n!$ (factorial). For $n = 5$: $5! = 120$.
 
@@ -11987,6 +12295,8 @@ def mystery2(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -11994,6 +12304,8 @@ def mystery2(n):
 | 3   | 0     | True       | 6     |
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
+
+</div>
 
 The function computes the sum of proper divisors of $n$. For $n = 6$: $1 + 2 + 3 = 6$. A number
 Equal to the sum of its proper divisors is called a **perfect number**.
@@ -12232,6 +12544,8 @@ def mystery(n):
     return total
 ```
 
+<div class="table-wrap">
+
 | i   | n % i | n % i == 0 | total |
 | --- | ----- | ---------- | ----- |
 | 1   | 0     | True       | 1     |
@@ -12239,6 +12553,8 @@ def mystery(n):
 | 3   | 0     | True       | 6     |
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
+
+</div>
 
 The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$ The number 6 is A
 **perfect number**.
@@ -12575,12 +12891,16 @@ Smaller file sizes for simple images.
 
 **Bitmap vs Vector comparison:**
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
 | Scaling        | Loses quality when enlarged | No quality loss at any size |
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
+
+</div>
 
 ### Sound (HL)
 
@@ -12628,6 +12948,8 @@ Value).
 
 ## Data Types (OL/HL)
 
+<div class="table-wrap">
+
 | Type       | Description            | Example      |
 | ---------- | ---------------------- | ------------ |
 | Integer    | Whole numbers          | 42, -7       |
@@ -12636,6 +12958,8 @@ Value).
 | String     | Sequence of characters | "Hello"      |
 | Boolean    | True or false          | true, false  |
 | Date       | Calendar date          | 2026-04-14   |
+
+</div>
 
 **Worked Example (OL).** Which data type would you use for each of the following?
 
@@ -12655,6 +12979,8 @@ Of updating.
 **Relational database:** data stored in multiple related tables. Advantages: reduced redundancy,
 Data integrity, easier maintenance.
 
+<div class="table-wrap">
+
 | Feature           | Flat File           | Relational Database         |
 | ----------------- | ------------------- | --------------------------- |
 | Tables            | Single              | Multiple, related           |
@@ -12663,7 +12989,11 @@ Data integrity, easier maintenance.
 | Concurrent access | Not supported       | Supported with locking      |
 | Querying          | Manual (sequential) | SQL (declarative, powerful) |
 
+</div>
+
 ### Key Terms
+
+<div class="table-wrap">
 
 | Term        | Definition                                                    |
 | ----------- | ------------------------------------------------------------- |
@@ -12673,6 +13003,8 @@ Data integrity, easier maintenance.
 | Foreign key | A primary key from another table, establishing a relationship |
 | Record      | A single row in a table                                       |
 | Field       | A single column in a table                                    |
+
+</div>
 
 **Worked Example (OL).** In a Student table, which field would be the best primary key?
 
@@ -12875,16 +13207,24 @@ Normalisation reduces data redundancy and dependency.
 
 **Unnormalised table:**
 
+<div class="table-wrap">
+
 | StudentID | Name | Subject1 | Teacher1 | Subject2 | Teacher2 |
 | --------- | ---- | -------- | -------- | -------- | -------- |
 | 1         | John | Maths    | Ms Lee   | Physics  | Mr Kelly |
 
+</div>
+
 **1NF:** Remove repeating groups.
+
+<div class="table-wrap">
 
 | StudentID | Name | Subject | Teacher  |
 | --------- | ---- | ------- | -------- |
 | 1         | John | Maths   | Ms Lee   |
 | 1         | John | Physics | Mr Kelly |
+
+</div>
 
 **2NF:** Separate into Students and Enrolments tables.
 
@@ -12999,11 +13339,15 @@ CREATE TABLE Enrolment (
 
 **Unicode and UTF-8 encoding:**
 
+<div class="table-wrap">
+
 | Character | Unicode | UTF-8 Bytes                          |
 | --------- | ------- | ------------------------------------ |
 | A         | U+0041  | 01000001 (1 byte)                    |
 | Euro      | U+20AC  | 11100010 10000010 10101100 (3 bytes) |
 | Emoji     | U+1F600 | 4 bytes                              |
+
+</div>
 
 **Why UTF-8 is preferred:** Backward-compatible with ASCII, variable-length (efficient for English
 Text), and supports all Unicode characters.
@@ -13090,6 +13434,8 @@ FROM Students;
 
 ### Aggregate Functions in Detail
 
+<div class="table-wrap">
+
 | Function   | Description                     | Ignores NULL? |
 | ---------- | ------------------------------- | ------------- |
 | COUNT(\*)  | Count all rows                  | No            |
@@ -13098,6 +13444,8 @@ FROM Students;
 | AVG        | Average of values               | Yes           |
 | MIN        | Smallest value                  | Yes           |
 | MAX        | Largest value                   | Yes           |
+
+</div>
 
 **Worked Example.** Find the student with the highest mark in each subject.
 
@@ -13131,6 +13479,8 @@ Characters and longer codes to less frequent characters.
 
 **Example:** For the string "BCCABBDDAECCBBAEDDCC"
 
+<div class="table-wrap">
+
 | Character | Frequency | Huffman Code |
 | --------- | --------- | ------------ |
 | C         | 6         | 00           |
@@ -13138,6 +13488,8 @@ Characters and longer codes to less frequent characters.
 | D         | 4         | 10           |
 | A         | 3         | 110          |
 | E         | 2         | 111          |
+
+</div>
 
 Original: 19 characters x 8 bits = 152 bits. Compressed: (6x2) + (4x2) + (4x2) + (3x3) + (2x3) =
 12 + 8 + 8 + 9 + 6 = 43 bits.
@@ -13591,6 +13943,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 
 (d)
 
+<div class="table-wrap">
+
 | Feature     | SSD (NAND Flash)                                  | HDD (Magnetic)                               |
 | ----------- | ------------------------------------------------- | -------------------------------------------- |
 | Speed       | Fast read/write (hundreds of MB/s)                | Slower read/write (tens to hundreds of MB/s) |
@@ -13598,6 +13952,8 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 | Cost per GB | More expensive                                    | Less expensive                               |
 | Capacity    | 256 GB to 4 TB                          | 500 GB to 20 TB                    |
 | Use cases   | Boot drive, applications, laptops, fast workloads | Bulk storage, backups, archival data         |
+
+</div>
 
 SSDs are preferred for the operating system and frequently used applications due to their speed.
 HDDs remain useful for large-capacity storage where speed is less critical.
@@ -13745,11 +14101,15 @@ $2^{16} = 65536$ bytes = 64 KB.
 
 **Bus comparison:**
 
+<div class="table-wrap">
+
 | Bus         | Direction      | Carries                                         |
 | ----------- | -------------- | ----------------------------------------------- |
 | Address bus | CPU to memory  | Memory addresses                                |
 | Data bus    | CPU to/from    | Data and instructions                           |
 | Control bus | CPU to devices | Control signals (read, write, clock, interrupt) |
+
+</div>
 
 ## Performance (OL/HL)
 
@@ -13814,6 +14174,8 @@ Data simultaneously. This limits throughput.
 
 ### Types of Memory
 
+<div class="table-wrap">
+
 | Memory           | Volatile? | Speed     | Use                    |
 | ---------------- | --------- | --------- | ---------------------- |
 | Registers        | Yes       | Fastest   | CPU operations         |
@@ -13822,9 +14184,13 @@ Data simultaneously. This limits throughput.
 | Hard Drive (HDD) | No        | Slow      | Long-term storage      |
 | SSD              | No        | Moderate  | Fast long-term storage |
 
+</div>
+
 **Volatile:** data is lost when power is off. **Non-volatile:** data persists when power is off.
 
 ### RAM vs ROM (OL/HL)
+
+<div class="table-wrap">
 
 | Feature    | RAM            | ROM                           |
 | ---------- | -------------- | ----------------------------- |
@@ -13834,6 +14200,8 @@ Data simultaneously. This limits throughput.
 | Use        | Working memory | Boot instructions (BIOS/UEFI) |
 | Speed      | Fast           | Fast                          |
 | Cost       | Higher per MB  | Lower per MB                  |
+
+</div>
 
 **RAM (Random Access Memory):** When you open a program, it is loaded from secondary storage into
 RAM because RAM is much faster. When you save your work, it is copied from RAM to secondary storage
@@ -13850,6 +14218,8 @@ into RAM. ROM is non-volatile so the computer can always start up.
 - **SRAM:** Used for CPU cache. Stores each bit in a flip-flop (transistor circuit). No refreshing
   needed. Faster but more expensive and lower density.
 
+<div class="table-wrap">
+
 | Feature  | DRAM              | SRAM                 |
 | -------- | ----------------- | -------------------- |
 | Used for | Main memory (RAM) | CPU cache (L1/L2/L3) |
@@ -13858,6 +14228,8 @@ into RAM. ROM is non-volatile so the computer can always start up.
 | Density  | Higher            | Lower                |
 | Refresh  | Required          | Not required         |
 | Power    | Less (when idle)  | More                 |
+
+</div>
 
 ### Virtual Memory (HL)
 
@@ -13901,13 +14273,19 @@ Average = $0.95 \times 2 + 0.05 \times 80 = 1.9 + 4.0 = 5.9$ ns.
 
 **Cache levels:**
 
+<div class="table-wrap">
+
 | Level | Location            | Size                   | Speed             |
 | ----- | ------------------- | ---------------------- | ----------------- |
 | L1    | Inside CPU core     | Smallest (few KB)      | Fastest           |
 | L2    | Inside CPU          | Larger (256 KB - 1 MB) | Fast              |
 | L3    | Shared across cores | Largest (up to 64 MB)  | Slower than L1/L2 |
 
+</div>
+
 ### Memory Hierarchy Summary (HL)
+
+<div class="table-wrap">
 
 | Level     | Speed     | Capacity | Cost    | Volatile? |
 | --------- | --------- | -------- | ------- | --------- |
@@ -13916,6 +14294,8 @@ Average = $0.95 \times 2 + 0.05 \times 80 = 1.9 + 4.0 = 5.9$ ns.
 | RAM       | Fast      | Medium   | Medium  | Yes       |
 | SSD       | Moderate  | Large    | Medium  | No        |
 | HDD       | Slow      | Largest  | Lowest  | No        |
+
+</div>
 
 **Why the hierarchy exists.** Faster memory is more expensive per byte. The hierarchy exploits
 Locality of reference. By keeping the most frequently used data in small, fast memory near the CPU,
@@ -13953,6 +14333,8 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 **Types of interrupts:**
 
+<div class="table-wrap">
+
 | Type         | Source                    | Priority | Example              |
 | ------------ | ------------------------- | -------- | -------------------- |
 | Hardware     | Hardware devices          | High     | Disk I/O complete    |
@@ -13960,9 +14342,13 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 | Timer        | System clock              | Variable | Scheduler time slice |
 | Non-maskable | Critical hardware failure | Highest  | Memory parity error  |
 
+</div>
+
 ### Secondary Storage
 
 **HDD vs SSD:**
+
+<div class="table-wrap">
 
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
@@ -13973,6 +14359,8 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 | Power usage | Higher           | Lower           |
+
+</div>
 
 **Choosing storage:** A photographer needs high capacity (HDD or cloud). A video editor needs speed
 (SSD). A student needs portability (USB flash drive).
@@ -14005,6 +14393,8 @@ Reading remainders upward: $11001_2$.
 
 Base 16. Digits: 0--9, A--F.
 
+<div class="table-wrap">
+
 | Hex | Binary | Decimal |
 | --- | ------ | ------- |
 | 0   | 0000   | 0       |
@@ -14024,6 +14414,8 @@ Base 16. Digits: 0--9, A--F.
 | E   | 1110   | 14      |
 | F   | 1111   | 15      |
 
+</div>
+
 **Conversion:** group binary digits in sets of 4 and convert each group.
 
 $11010111_2 = 1101\ 0111 = \mathrm{D7_{16}$
@@ -14040,9 +14432,13 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
 
 **Addition rules:**
 
+<div class="table-wrap">
+
 | $0 + 0$ | $0 + 1$ | $1 + 0$ | $1 + 1$        |
 | ------- | ------- | ------- | -------------- |
 | 0       | 1       | 1       | 10 (0 carry 1) |
+
+</div>
 
 **Example (HL):** $1011 + 0110$
 
@@ -14079,15 +14475,21 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 
 **Two's complement range:**
 
+<div class="table-wrap">
+
 | Bits | Minimum        | Maximum       |
 | ---- | -------------- | ------------- |
 | 8    | -128           | 127           |
 | 16   | -32,768        | 32,767        |
 | 32   | -2,147,483,648 | 2,147,483,647 |
 
+</div>
+
 ## Logic Gates (OL/HL)
 
 ### Basic Gates
+
+<div class="table-wrap">
 
 | Gate | Symbol | Expression             | Output                           |
 | ---- | ------ | ---------------------- | -------------------------------- |
@@ -14098,9 +14500,13 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | NAND | NAND   | $\overline{A \cdot B}$ | NOT AND                          |
 | NOR  | NOR    | $\overline{A + B}$     | NOT OR                           |
 
+</div>
+
 ### Truth Tables (OL/HL)
 
 **AND gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A AND B |
 | --- | --- | ------- |
@@ -14109,7 +14515,11 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
 
+</div>
+
 **OR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A OR B |
 | --- | --- | ------ |
@@ -14118,7 +14528,11 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 1      |
 | 1   | 1   | 1      |
 
+</div>
+
 **XOR gate:**
+
+<div class="table-wrap">
 
 | A   | B   | A XOR B |
 | --- | --- | ------- |
@@ -14127,8 +14541,12 @@ Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
 
+</div>
+
 **Example (HL):** Draw a logic circuit and truth table for the expression
 $F = (A \cdot B) + \bar{C}$.
+
+<div class="table-wrap">
 
 | A   | B   | C   | A AND B | NOT C | F   |
 | --- | --- | --- | ------- | ----- | --- |
@@ -14140,6 +14558,8 @@ $F = (A \cdot B) + \bar{C}$.
 | 1   | 0   | 1   | 0       | 0     | 0   |
 | 1   | 1   | 0   | 1       | 1     | 1   |
 | 1   | 1   | 1   | 1       | 0     | 1   |
+
+</div>
 
 ### De Morgan's Laws (HL)
 
@@ -14161,12 +14581,16 @@ $\overline{A + B \cdot \bar{C}} = \bar{A} \cdot \overline{B \cdot \bar{C}} = \ba
 
 **Proof of De Morgan's first law by truth table:**
 
+<div class="table-wrap">
+
 | A   | B   | $A \cdot B$ | $\overline{A \cdot B}$ | $\bar{A}$ | $\bar{B}$ | $\bar{A} + \bar{B}$ |
 | --- | --- | ----------- | ---------------------- | --------- | --------- | ------------------- |
 | 0   | 0   | 0           | 1                      | 1         | 1         | 1                   |
 | 0   | 1   | 0           | 1                      | 1         | 0         | 1                   |
 | 1   | 0   | 0           | 1                      | 0         | 1         | 1                   |
 | 1   | 1   | 1           | 0                      | 0         | 0         | 0                   |
+
+</div>
 
 Columns 4 and 7 are identical. $\blacksquare$
 
@@ -14177,12 +14601,16 @@ A half adder adds two bits:
 - Sum = $A \oplus B$
 - Carry = $A \cdot B$
 
+<div class="table-wrap">
+
 | A   | B   | Sum | Carry |
 | --- | --- | --- | ----- |
 | 0   | 0   | 0   | 0     |
 | 0   | 1   | 1   | 0     |
 | 1   | 0   | 1   | 0     |
 | 1   | 1   | 0   | 1     |
+
+</div>
 
 ### Full Adder (HL)
 
@@ -14196,6 +14624,8 @@ Stage becomes the carry-in of the next.
 
 **Worked Example (HL).** Add 0110 and 0011 using full adders.
 
+<div class="table-wrap">
+
 | Position  | 3 (MSB) | 2   | 1   | 0 (LSB) |
 | --------- | ------- | --- | --- | ------- |
 | A         | 0       | 1   | 1   | 0       |
@@ -14203,6 +14633,8 @@ Stage becomes the carry-in of the next.
 | Carry in  | 0       | 0   | 1   | 0       |
 | Sum       | 0       | 1   | 0   | 1       |
 | Carry out | 0       | 0   | 1   | 0       |
+
+</div>
 
 Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
@@ -14219,6 +14651,8 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 
 ### Types of Operating System
 
+<div class="table-wrap">
+
 | Type      | Description                             | Examples              |
 | --------- | --------------------------------------- | --------------------- |
 | Desktop   | Personal use, multitasking              | Windows, macOS, Linux |
@@ -14228,7 +14662,11 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | Embedded  | Limited resources, dedicated            | Car ECU, smart TV     |
 | Batch     | Jobs processed without user interaction | Payroll processing    |
 
+</div>
+
 **GUI vs CLI:**
+
+<div class="table-wrap">
 
 | Feature     | GUI                   | CLI                            |
 | ----------- | --------------------- | ------------------------------ |
@@ -14238,7 +14676,11 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | Automation  | Limited               | Easy with scripting            |
 | Examples    | Windows, macOS        | Linux terminal, Command Prompt |
 
+</div>
+
 **Process scheduling algorithms:**
+
+<div class="table-wrap">
 
 | Algorithm                | Description                                            | Fairness |
 | ------------------------ | ------------------------------------------------------ | -------- |
@@ -14246,6 +14688,8 @@ Result: $01001 = 9$. Check: $6 + 3 = 9$. Correct.
 | Priority-based           | Higher-priority processes get CPU time first           | Low      |
 | First-come, first-served | Processes served in order of arrival                   | Medium   |
 | Shortest job first       | The process with the shortest expected time runs first | Medium   |
+
+</div>
 
 **Worked Example (HL).** Explain why a real-time operating system is needed in a car's anti-lock
 Braking system (ABS).
@@ -14262,6 +14706,8 @@ Function.
 **Examples:** Washing machines, microwaves, car engine management, traffic lights, pacemakers, Smart
 thermostats.
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -14269,6 +14715,8 @@ thermostats.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 ### Embedded Systems (HL)
 
@@ -14287,6 +14735,8 @@ thermostats.
 - Reliable and designed to run continuously
 - Operate in real-time (must respond within strict time constraints)
 
+<div class="table-wrap">
+
 | Feature                | Embedded System       | General-Purpose Computer  |
 | ---------------------- | --------------------- | ------------------------- |
 | Purpose                | Single, specific task | Multiple tasks            |
@@ -14294,6 +14744,8 @@ thermostats.
 | User interface         | Minimal or none       | Full GUI                  |
 | Processing power       | Limited               | High                      |
 | Real-time requirements | Often required        | Not required              |
+
+</div>
 
 **Worked Example (HL).** A traffic light controller is an embedded system. It runs a fixed program
 Stored in ROM that cycles through red, amber, and green at set intervals. It has no screen or
@@ -14314,6 +14766,8 @@ Keyboard -- its only output is the lights themselves. It must respond within str
 
 **Types of testing:**
 
+<div class="table-wrap">
+
 | Type                | Description                                               |
 | ------------------- | --------------------------------------------------------- |
 | Unit testing        | Testing individual components in isolation                |
@@ -14322,6 +14776,8 @@ Keyboard -- its only output is the lights themselves. It must respond within str
 | Acceptance testing  | Customer tests the system to ensure it meets requirements |
 | Alpha testing       | Testing by the development team                           |
 | Beta testing        | Testing by a group of real users                          |
+
+</div>
 
 **Black-box vs white-box testing:**
 
@@ -14367,12 +14823,16 @@ $$
 
 **Vector images:** Mathematical descriptions of shapes. Scale without quality loss.
 
+<div class="table-wrap">
+
 | Feature        | Bitmap                      | Vector                      |
 | -------------- | --------------------------- | --------------------------- |
 | Representation | Grid of pixels              | Mathematical descriptions   |
 | Scaling        | Loses quality when enlarged | No quality loss at any size |
 | File size      | Depends on resolution       | Depends on complexity       |
 | Best for       | Photographs                 | Logos, icons, diagrams      |
+
+</div>
 
 #### Representing Sound
 
@@ -14404,6 +14864,8 @@ original 8 bytes).
 
 **HDD vs SSD:**
 
+<div class="table-wrap">
+
 | Metric      | HDD              | SSD             |
 | ----------- | ---------------- | --------------- |
 | Read speed  | 50-200 MB/s      | 200-550 MB/s    |
@@ -14411,6 +14873,8 @@ original 8 bytes).
 | Latency     | 5-10 ms          | 0.05-0.1 ms     |
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
+
+</div>
 
 ## Intuition
 
@@ -15063,12 +15527,16 @@ Measures.
 
 ### Types of Network
 
+<div class="table-wrap">
+
 | Type                        | Description                            | Example        |
 | --------------------------- | -------------------------------------- | -------------- |
 | LAN (Local Area Network)    | Covers a small area (building, campus) | School network |
 | WAN (Wide Area Network)     | Covers a large geographic area         | The Internet   |
 | WLAN (Wireless LAN)         | LAN using wireless connections         | Home Wi-Fi     |
 | PAN (Personal Area Network) | Very small range (a few metres)        | Bluetooth      |
+
+</div>
 
 ### Client-Server vs Peer-to-Peer (OL/HL)
 
@@ -15103,6 +15571,8 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 
 ### Comparing Topologies (HL)
 
+<div class="table-wrap">
+
 | Feature         | Star           | Mesh      | Bus          | Ring     |
 | --------------- | -------------- | --------- | ------------ | -------- |
 | Cost            | Low            | High      | Very low     | Low      |
@@ -15110,6 +15580,8 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 | Scalability     | Good           | Poor      | Poor         | Poor     |
 | Fault tolerance | Good           | Excellent | Poor         | Poor     |
 | Cable required  | One per device | Many      | One backbone | One ring |
+
+</div>
 
 **Worked Example (HL).** A school has 30 computers in a lab. Recommend a topology.
 
@@ -15122,6 +15594,8 @@ Cable fails, only that computer is affected. The switch directs traffic efficien
 
 The Open Systems Interconnection model has 7 layers:
 
+<div class="table-wrap">
+
 | Layer | Name         | Function                              | Example                 |
 | ----- | ------------ | ------------------------------------- | ----------------------- |
 | 7     | Application  | User interface, applications          | HTTP, FTP, SMTP         |
@@ -15132,11 +15606,15 @@ The Open Systems Interconnection model has 7 layers:
 | 2     | Data Link    | Node-to-node data transfer            | Ethernet, MAC addresses |
 | 1     | Physical     | Physical transmission of bits         | Cables, Wi-Fi, hubs     |
 
+</div>
+
 **Mnemonic:** "All People Seem To Need Data Processing" (bottom to top).
 
 ### The TCP/IP Model (HL)
 
 A simplified 4-layer model:
+
+<div class="table-wrap">
 
 | Layer          | OSI Equivalent | Protocol             |
 | -------------- | -------------- | -------------------- |
@@ -15144,6 +15622,8 @@ A simplified 4-layer model:
 | Transport      | 4              | TCP, UDP             |
 | Internet       | 3              | IP, ICMP             |
 | Network Access | 1, 2           | Ethernet, Wi-Fi      |
+
+</div>
 
 **Encapsulation:** As data moves down the layers, each layer adds its own header. At the receiving
 End, each layer removes its header.
@@ -15227,6 +15707,8 @@ $\to$ subdomain (www).
 
 **Protocol port reference:**
 
+<div class="table-wrap">
+
 | Protocol | Port |
 | -------- | ---- |
 | HTTP     | 80   |
@@ -15236,7 +15718,11 @@ $\to$ subdomain (www).
 | DNS      | 53   |
 | SSH      | 22   |
 
+</div>
+
 ## Network Hardware (OL/HL)
+
+<div class="table-wrap">
 
 | Device                | Function                                                           |
 | --------------------- | ------------------------------------------------------------------ |
@@ -15247,6 +15733,8 @@ $\to$ subdomain (www).
 | Wireless Access Point | Allows wireless devices to connect to a wired network              |
 | Firewall              | Filters traffic, blocks unauthorised access                        |
 | Repeater              | Regenerates signals to extend network range                        |
+
+</div>
 
 **Switch vs Hub:** A switch learns MAC addresses and directs data only to the intended recipient. A
 Hub broadcasts to all ports, wasting bandwidth and causing collisions.
@@ -15347,19 +15835,27 @@ cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (usern
 
 ### Guided Media
 
+<div class="table-wrap">
+
 | Medium                | Speed     | Distance | Security            |
 | --------------------- | --------- | -------- | ------------------- |
 | Twisted pair (copper) | Medium    | Short    | Low (can be tapped) |
 | Fibre optic           | Very fast | Long     | High                |
 | Coaxial cable         | Medium    | Medium   | Medium              |
 
+</div>
+
 ### Unguided Media
+
+<div class="table-wrap">
 
 | Medium        | Speed    | Distance    | Security            |
 | ------------- | -------- | ----------- | ------------------- |
 | Wi-Fi (radio) | Fast     | Short       | Low (interceptable) |
 | Microwave     | Fast     | Medium-Long | Medium              |
 | Satellite     | Variable | Very long   | Medium              |
+
+</div>
 
 **Fibre optic vs copper:**
 
@@ -15382,12 +15878,16 @@ Address, sequence number, and error checking.
 
 **Packet switching vs circuit switching:**
 
+<div class="table-wrap">
+
 | Feature        | Packet Switching        | Circuit Switching         |
 | -------------- | ----------------------- | ------------------------- |
 | Connection     | No dedicated connection | Dedicated connection      |
 | Resource usage | Efficient (shared)      | Wasteful (reserved)       |
 | Reliability    | Packets can reroute     | Fixed route               |
 | Example        | The Internet            | Traditional phone network |
+
+</div>
 
 ## Data Transmission (HL)
 
@@ -15423,11 +15923,15 @@ Number of 1s = 5 (odd). Parity bit = 1 (to make total even). Transmitted: 110110
 
 A firewall inspects traffic based on rules. Example rules:
 
+<div class="table-wrap">
+
 | Rule | Source IP      | Destination IP | Port | Action |
 | ---- | -------------- | -------------- | ---- | ------ |
 | 1    | Any            | 192.168.1.0/24 | 80   | Allow  |
 | 2    | Any            | Any            | 22   | Deny   |
 | 3    | 192.168.1.0/24 | Any            | 443  | Allow  |
+
+</div>
 
 ### SSL/TLS Handshake Detail (HL)
 
@@ -15483,6 +15987,8 @@ Authentication.
 
 ### HTTP Status Codes in Detail
 
+<div class="table-wrap">
+
 | Code | Meaning               | When Used                        |
 | ---- | --------------------- | -------------------------------- |
 | 200  | OK                    | Successful GET or POST           |
@@ -15495,9 +16001,13 @@ Authentication.
 | 404  | Not Found             | Resource does not exist          |
 | 500  | Internal Server Error | Server-side failure              |
 
+</div>
+
 ## Network Security Deep Dive
 
 ### Firewall Types
+
+<div class="table-wrap">
 
 | Type            | Description                                                   |
 | --------------- | ------------------------------------------------------------- |
@@ -15505,6 +16015,8 @@ Authentication.
 | Stateful        | Tracks connection state; allows return traffic                |
 | Proxy           | Intercepts all traffic; acts as intermediary                  |
 | Next-gen (NGFW) | Combines traditional firewall with IPS, application awareness |
+
+</div>
 
 ### Intrusion Detection Systems
 
@@ -15517,12 +16029,16 @@ Administrators.
 
 **Wi-Fi encryption evolution:**
 
+<div class="table-wrap">
+
 | Protocol | Encryption | Vulnerability                             |
 | -------- | ---------- | ----------------------------------------- |
 | WEP      | RC4        | cracked (minutes)                         |
 | WPA      | TKIP       | Partially vulnerable                      |
 | WPA2     | AES        | KRACK attack on handshake                 |
 | WPA3     | AES + SAE  | Most secure; resistant to offline attacks |
+
+</div>
 
 ### Penetration Testing
 
@@ -15539,10 +16055,14 @@ A simulated attack on a system to identify vulnerabilities before malicious atta
 
 ### Fibre Optic Types
 
+<div class="table-wrap">
+
 | Type        | Description                       | Use Case                      |
 | ----------- | --------------------------------- | ----------------------------- |
 | Single-mode | One path for light; long distance | Telecommunications, long runs |
 | Multi-mode  | Multiple paths; shorter distance  | LANs, data centres            |
+
+</div>
 
 ### Wireless Signal Propagation
 
@@ -15614,12 +16134,16 @@ even if they are on the same physical switch.
 
 ### Symmetric Encryption Algorithms
 
+<div class="table-wrap">
+
 | Algorithm | Key Length | Speed     | Use Case                   |
 | --------- | ---------- | --------- | -------------------------- |
 | AES-128   | 128 bits   | Very fast | General purpose            |
 | AES-256   | 256 bits   | Very fast | High-security applications |
 | DES       | 56 bits    | Fast      | Obsolete (too weak)        |
 | 3DES      | 168 bits   | Slow      | Legacy systems             |
+
+</div>
 
 ### Asymmetric Encryption
 
@@ -15652,12 +16176,16 @@ CA, which signs the intermediate, which signs the server certificate.
 
 ### Common Issues
 
+<div class="table-wrap">
+
 | Symptom                     | Possible Cause             | Diagnostic Tool      |
 | --------------------------- | -------------------------- | -------------------- |
 | No Internet access          | DNS failure, router issue  | ping, nslookup       |
 | Slow network                | Congestion, hardware issue | speed test, ping     |
 | Intermittent connectivity   | Loose cable, interference  | continuous ping      |
 | Cannot access specific site | DNS issue, firewall block  | nslookup, traceroute |
+
+</div>
 
 ### Troubleshooting Methodology
 
@@ -15695,6 +16223,8 @@ CA, which signs the intermediate, which signs the server certificate.
 
 ## Network Protocols Summary Table (HL)
 
+<div class="table-wrap">
+
 | Protocol | Layer       | Port(s) | Purpose                        | TCP/UDP |
 | -------- | ----------- | ------- | ------------------------------ | ------- |
 | HTTP     | Application | 80      | Web page transfer              | TCP     |
@@ -15707,6 +16237,8 @@ CA, which signs the intermediate, which signs the server certificate.
 | POP3     | Application | 110     | Email receiving                | TCP     |
 | IMAP     | Application | 143     | Email receiving (synchronised) | TCP     |
 | Telnet   | Application | 23      | Remote terminal (unencrypted)  | TCP     |
+
+</div>
 
 ## Network Address Translation in Practice
 
@@ -15931,12 +16463,16 @@ An algorithm is a step-by-step procedure for solving a problem. It must:
 
 **Choosing a representation:**
 
+<div class="table-wrap">
+
 | Representation   | Precision | Readability | Executable |
 | ---------------- | --------- | ----------- | ---------- |
 | Natural language | Low       | High        | No         |
 | Pseudocode       | Medium    | Medium      | No         |
 | Flowchart        | Medium    | High        | No         |
 | Programming code | High      | Low         | Yes        |
+
+</div>
 
 ## Programming Constructs (OL/HL)
 
@@ -16064,12 +16600,16 @@ print(f"Stack: {stack}")  # [10, 20]
 
 **Stack complexity:**
 
+<div class="table-wrap">
+
 | Operation | Time Complexity |
 | --------- | --------------- |
 | push      | $O(1)$          |
 | pop       | $O(1)$          |
 | peek      | $O(1)$          |
 | search    | $O(n)$          |
+
+</div>
 
 ### Queues (HL)
 
@@ -16213,6 +16753,8 @@ print(quick_sort(numbers))
 
 ### Sorting Algorithm Comparison (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
@@ -16220,9 +16762,13 @@ print(quick_sort(numbers))
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
 
+</div>
+
 ## Big O Notation (HL)
 
 Big O notation describes the worst-case time complexity of an algorithm.
+
+<div class="table-wrap">
 
 | Complexity    | Name         | Example                             |
 | ------------- | ------------ | ----------------------------------- |
@@ -16232,6 +16778,8 @@ Big O notation describes the worst-case time complexity of an algorithm.
 | $O(n \log n)$ | Linearithmic | Merge sort, quick sort (average)    |
 | $O(n^2)$      | Quadratic    | Bubble sort, insertion sort         |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci                 |
+
+</div>
 
 **Rules for analysing code:**
 
@@ -16362,12 +16910,16 @@ def quick_sort(arr):
 
 ### Sorting Algorithm Comparison Table (HL)
 
+<div class="table-wrap">
+
 | Algorithm      | Best          | Average       | Worst         | Stable | Space       |
 | -------------- | ------------- | ------------- | ------------- | ------ | ----------- |
 | Bubble Sort    | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
 | Insertion Sort | $O(n)$        | $O(n^2)$      | $O(n^2)$      | Yes    | $O(1)$      |
 | Quick Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | No     | $O(\log n)$ |
 | Merge Sort     | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | Yes    | $O(n)$      |
+
+</div>
 
 ### Recursion in Detail (HL)
 
@@ -16453,12 +17005,16 @@ class LinkedList:
 
 **Linked list complexity:**
 
+<div class="table-wrap">
+
 | Operation   | Time Complexity |
 | ----------- | --------------- |
 | Append      | $O(n)$          |
 | Delete      | $O(n)$          |
 | Search      | $O(n)$          |
 | Insert head | $O(1)$          |
+
+</div>
 
 ## Additional Practice Questions
 
@@ -16547,6 +17103,8 @@ print(binary_search_string(words, "date"))  # 3
 
 **Trace on [5, 2, 4, 6, 1, 3]:**
 
+<div class="table-wrap">
+
 | Step | Array State        | Key | Shifts | Comparisons |
 | ---- | ------------------ | --- | ------ | ----------- |
 | 1    | [5, 2, 4, 6, 1, 3] | 2   | 1      | 1           |
@@ -16554,6 +17112,8 @@ print(binary_search_string(words, "date"))  # 3
 | 3    | [2, 4, 5, 6, 1, 3] | 6   | 0      | 1           |
 | 4    | [2, 4, 5, 6, 1, 3] | 1   | 4      | 4           |
 | 5    | [1, 2, 4, 5, 6, 3] | 3   | 2      | 3           |
+
+</div>
 
 Final: [1, 2, 3, 4, 5, 6]. Total comparisons: $1 + 2 + 1 + 4 + 3 = 11$.
 
@@ -16867,11 +17427,15 @@ $$
 
 The discriminant $\Delta = b^2 - 4ac$ determines the nature of the roots:
 
+<div class="table-wrap">
+
 | Condition    | Roots                             |
 | ------------ | --------------------------------- |
 | $\Delta > 0$ | Two distinct real roots           |
 | $\Delta = 0$ | One repeated real root            |
 | $\Delta < 0$ | No real roots (two complex roots) |
+
+</div>
 
 **Example (HL):** Find the range of $k$ for which $x^2 + 4x + k = 0$ has real roots.
 
@@ -16967,11 +17531,15 @@ Critical values: $x = 1$ (numerator zero) and $x = -2$ (denominator zero).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval | $x < -2$ | $-2 < x < 1$ | $x > 1$      |
 | -------- | -------- | ------------ | ------------ |
 | $x - 1$  | Negative | Negative     | Positive     |
 | $x + 2$  | Negative | Positive     | Positive     |
 | Quotient | Positive | Negative     | Non-negative |
+
+</div>
 
 Solution: $x \in (-2, 1]$.
 
@@ -17031,12 +17599,16 @@ For $a < 0$ Add $\pi$ to get the correct quadrant.
 
 **Quadrant check for the argument:**
 
+<div class="table-wrap">
+
 | Quadrant | $a$   | $b$   | $\arg(z)$             |
 | -------- | ----- | ----- | --------------------- |
 | I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
 | II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     \| a   \| )$  |
 | III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |
 | IV       | $> 0$ | $< 0$ | $-\arctan(b/a)$       |
+
+</div>
 
 ### Polar Form (HL)
 
@@ -17317,11 +17889,15 @@ The critical values are $x = -2$ and $x = 1$ (double root).
 
 Sign chart:
 
+<div class="table-wrap">
+
 | Interval  | $x < -2$ | $-2 < x < 1$ | $x > 1$  |
 | --------- | -------- | ------------ | -------- |
 | $(x+2)$   | Negative | Positive     | Positive |
 | $(x-1)^2$ | Positive | Positive     | Positive |
 | Product   | Negative | Positive     | Positive |
+
+</div>
 
 Solution: $x < -2$ or $x > 1$ I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 
@@ -17531,6 +18107,8 @@ $$
 \frac\{d\}\{dx\}[x^n] = nx^\{n-1\}
 $$
 
+<div class="table-wrap">
+
 | Function $f(x)$ | Derivative $f'(x)$ |
 | --------------- | ------------------ |
 | $c$ (constant)  | $0$                |
@@ -17540,6 +18118,8 @@ $$
 | $\sin x$        | $\cos x$           |
 | $\cos x$        | $-\sin x$          |
 | $\tan x$        | $\sec^2 x$         |
+
+</div>
 
 ### Rules of Differentiation (OL/HL)
 
@@ -17697,11 +18277,15 @@ $$
 
 Stationary points occur where $f'(x) = 0$. Use the second derivative to classify:
 
+<div class="table-wrap">
+
 | Condition                 | Type              |
 | ------------------------- | ----------------- |
 | $f'(x) = 0$, $f''(x) > 0$ | Local minimum     |
 | $f'(x) = 0$, $f''(x) < 0$ | Local maximum     |
 | $f'(x) = 0$, $f''(x) = 0$ | Test inconclusive |
+
+</div>
 
 **Example (OL):** Find and classify the stationary points of $f(x) = x^3 - 6x^2 + 9x + 1$.
 
@@ -17859,6 +18443,8 @@ $$
 
 ### Standard Integrals (OL/HL)
 
+<div class="table-wrap">
+
 | Function      | Integral                  |
 | ------------- | ------------------------- |
 | $x^n$         | $\frac{x^{n+1}}{n+1} + C$ |
@@ -17867,6 +18453,8 @@ $$
 | $\cos x$      | $\sin x + C$              |
 | $\sin x$      | $-\cos x + C$             |
 | $\sec^2 x$    | $\tan x + C$              |
+
+</div>
 
 <Aside type="note">
 The absolute value in $\int \frac{1}{x}\,dx = \ln|x| + C$ is essential. It accounts for the
@@ -18888,11 +19476,15 @@ The circle is $x^2 + y^2 - 4x - 4y = 0$ With centre $(2, 2)$ and radius $\sqrt{4
 
 For a right-angled triangle with angle $\theta$:
 
+<div class="table-wrap">
+
 | Ratio        | Definition                                    |
 | ------------ | --------------------------------------------- |
 | $\sin\theta$ | $\frac{\mathrm{opposite}{\mathrm{hypotenuse}$ |
 | $\cos\theta$ | $\frac{\mathrm{adjacent}{\mathrm{hypotenuse}$ |
 | $\tan\theta$ | $\frac{\mathrm{opposite}{\mathrm{adjacent}$   |
+
+</div>
 
 ### The Unit Circle (OL/HL)
 
@@ -18900,11 +19492,15 @@ On the unit circle, a point at angle $\theta$ has coordinates $(\cos\theta, \sin
 
 Key values:
 
+<div class="table-wrap">
+
 | $\theta$     | $0$ | $\frac{\pi}{6}$      | $\frac{\pi}{4}$      | $\frac{\pi}{3}$      | $\frac{\pi}{2}$ |
 | ------------ | --- | -------------------- | -------------------- | -------------------- | --------------- |
 | $\sin\theta$ | $0$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$             |
 | $\cos\theta$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $0$             |
 | $\tan\theta$ | $0$ | $\frac{1}{\sqrt{3}}$ | $1$                  | $\sqrt{3}$           | undefined       |
+
+</div>
 
 ### Trigonometric Identities (OL/HL)
 
@@ -19629,6 +20225,8 @@ Concepts underpin much of the algebra and calculus in the Leaving Certificate co
 
 ### Classification (OL/HL)
 
+<div class="table-wrap">
+
 | Symbol       | Name             | Description                                                                  |
 | ------------ | ---------------- | ---------------------------------------------------------------------------- |
 | $\mathbb{N}$ | Natural numbers  | $\{1, 2, 3, \ldots\}$ (some definitions include 0)                           |
@@ -19636,6 +20234,8 @@ Concepts underpin much of the algebra and calculus in the Leaving Certificate co
 | $\mathbb{Q}$ | Rational numbers | Numbers expressible as $\frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ |
 | $\mathbb{R}$ | Real numbers     | All rational and irrational numbers                                          |
 | $\mathbb{C}$ | Complex numbers  | Numbers of the form $a + bi$ where $a, b \in \mathbb{R}$                     |
+
+</div>
 
 The inclusions are:
 $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$.
@@ -19727,6 +20327,8 @@ $a \lt m/n \lt b$.
 
 ### Notation (OL/HL)
 
+<div class="table-wrap">
+
 | Symbol            | Meaning                                        |
 | ----------------- | ---------------------------------------------- |
 | $\in$             | Is an element of                               |
@@ -19737,6 +20339,8 @@ $a \lt m/n \lt b$.
 | $\emptyset$       | Empty set                                      |
 | $                 \| A                                              \| $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |
+
+</div>
 
 **Subset vs. Proper subset.** $A \subset B$ allows $A = B$. $A \subsetneq B$ requires $A \neq B$.
 
@@ -20680,11 +21284,15 @@ $$
 
 These concepts are frequently confused:
 
+<div class="table-wrap">
+
 | Property            | Independent                                 | Mutually Exclusive |
 | ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
 | If $P(A), P(B) > 0$ | $P(A                                        \| B) = P(A)$         | $P(A \| B) = 0$ |
+
+</div>
 
 **Important:** If two events with positive probability are mutually exclusive, they cannot be
 Independent (since $P(A \cap B) = 0 \neq P(A)P(B)$ when both probabilities are positive).
@@ -20924,12 +21532,16 @@ is longer.
 
 ### One-Tailed vs. Two-Tailed Tests (HL)
 
+<div class="table-wrap">
+
 | Feature         | One-tailed             | Two-tailed              |
 | --------------- | ---------------------- | ----------------------- |
 | $H_1$           | $p > p_0$ or $p < p_0$ | $p \neq p_0$            |
 | Critical region | One tail only          | Both tails              |
 | Critical value  | $z_{1-\alpha}$         | $z_{1-\alpha/2}$        |
 | p-value         | One tail area          | Two tail areas combined |
+
+</div>
 
 :::caution
 Results.
@@ -20977,10 +21589,14 @@ the population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
 
+<div class="table-wrap">
+
 | Error Type | Description                                 | Probability |
 | ---------- | ------------------------------------------- | ----------- |
 | Type I     | Rejecting $H_0$ when $H_0$ is true          | $\alpha$    |
 | Type II    | Failing to reject $H_0$ when $H_0$ is false | $\beta$     |
+
+</div>
 
 The **power** of a test is $1 - \beta$: the probability of correctly rejecting a false $H_0$.
 
@@ -21153,9 +21769,13 @@ See the examples integrated throughout the sections above.
     approximation.
 6. Given the data below, calculate the Spearman rank correlation coefficient:
 
+<div class="table-wrap">
+
 | $x$ | 1   | 2   | 3   | 4   | 5   |
 | --- | --- | --- | --- | --- | --- |
 | $y$ | 3   | 1   | 4   | 2   | 5   |
+
+</div>
 
 1. Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 2. The regression line of $y$ on $x$ is $y = 2.5x - 3.0$ and the regression line of $x$ on $y$ is
@@ -21184,11 +21804,15 @@ $$
 
 ### 8.5 Choosing the Right Distribution
 
+<div class="table-wrap">
+
 | Distribution | When to use                                        | Parameters      |
 | ------------ | -------------------------------------------------- | --------------- |
 | Binomial     | Fixed number of trials, two outcomes, constant $p$ | $n, p$          |
 | Poisson      | Events occur at constant rate, independently       | $\lambda$       |
 | Normal       | Continuous data, symmetric bell shape              | $\mu, \sigma^2$ |
+
+</div>
 
 :::tip
 If it mentions "out of $n$ trials," think Binomial.
@@ -22200,6 +22824,8 @@ Check: $0.610 + 0.407 = 1.017\mathrm{ A$. Correct.
 
 ## 15. Summary Table: Key Electricity Formulas
 
+<div class="table-wrap">
+
 | Topic               | Formula                        | Level | Notes                      |
 | ------------------- | ------------------------------ | ----- | -------------------------- |
 | Current             | $I = Q/t$                      | OL/HL | Rate of charge flow        |
@@ -22216,6 +22842,8 @@ Check: $0.610 + 0.407 = 1.017\mathrm{ A$. Correct.
 | Resonance           | $f_0 = 1/(2\pi\sqrt{LC})$      | HL    | $Z$ is minimum             |
 | Faraday's law       | $\varepsilon = -d\Phi/dt$      | HL    | Lenz's law for direction   |
 | Transformer         | $V_s/V_p = N_s/N_p$            | HL    | AC only                    |
+
+</div>
 
 ## 16. Practice Questions (Additional)
 
@@ -22503,11 +23131,15 @@ Classical mechanics and statistical physics.
 Temperature is a measure of the average kinetic energy of the particles in a substance. Three scales
 are commonly used:
 
+<div class="table-wrap">
+
 | Scale                          | Boiling point of water | Freezing point of water | Absolute zero |
 | ------------------------------ | ---------------------- | ----------------------- | ------------- |
 | Celsius ($^\circ\mathrm{C$)    | $100$                  | $0$                     | $-273.15$     |
 | Kelvin (K)                     | $373.15$               | $273.15$                | $0$           |
 | Fahrenheit ($^\circ\mathrm{F$) | $212$                  | $32$                    | $-459.67$     |
+
+</div>
 
 Conversion between Celsius and Kelvin:
 
@@ -22565,6 +23197,8 @@ Where $Q$ is the heat energy transferred, $m$ is the mass, and $\Delta T$ is the
 The unit of $c$ is $\mathrm{J/(kg K)$ or $\mathrm{J/(kg °C)$ -- these are numerically identical
 because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 
+<div class="table-wrap">
+
 | Substance | $c$ (J/kg K) |
 | --------- | ------------ |
 | Water     | 4180         |
@@ -22573,6 +23207,8 @@ because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 | Aluminium | 900          |
 | Iron      | 450          |
 | Lead      | 128          |
+
+</div>
 
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
 Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
@@ -22700,6 +23336,8 @@ $$
 Q = mL_v
 $$
 
+<div class="table-wrap">
+
 | Substance | $L_f$ (kJ/kg) | $L_v$ (kJ/kg) |
 | --------- | ------------- | ------------- |
 | Water     | $334$         | $2260$        |
@@ -22707,6 +23345,8 @@ $$
 | Ethanol   | $105$         | $855$         |
 | Copper    | $205$         | $4730$        |
 | Lead      | $23$          | $870$         |
+
+</div>
 
 Note that $L_v$ is generally much larger than $L_f$ because completely separating molecules
 (boiling) requires overcoming all intermolecular forces, whereas melting only needs to disrupt the
@@ -23230,6 +23870,8 @@ $$
 \frac{dQ}{dt} = \frac{kA(T_1 - T_2)}{d}
 $$
 
+<div class="table-wrap">
+
 | Material              | $k$ (W/(m K)) |
 | --------------------- | ------------- |
 | Copper                | 401           |
@@ -23239,6 +23881,8 @@ $$
 | Water                 | 0.6           |
 | Air                   | 0.026         |
 | Fibreglass insulation | 0.04          |
+
+</div>
 
 **Example (HL):** A copper wall of thickness $5\mathrm{ mm$ and area $2\mathrm{ m^2$ has one face at
 $100^\circ\mathrm{C$ and the other at $20^\circ\mathrm{C$. Find the rate of heat conduction.
@@ -23979,6 +24623,8 @@ Certificate Physics paper and covers kinematics, dynamics, energy, momentum, and
 
 ### SI Base Units (OL/HL)
 
+<div class="table-wrap">
+
 | Quantity            | Unit     | Symbol |
 | ------------------- | -------- | ------ |
 | Mass                | kilogram | kg     |
@@ -23989,7 +24635,11 @@ Certificate Physics paper and covers kinematics, dynamics, energy, momentum, and
 | Amount of substance | mole     | mol    |
 | Luminous intensity  | candela  | cd     |
 
+</div>
+
 ### Derived Units (OL/HL)
+
+<div class="table-wrap">
 
 | Quantity | Unit        | In base units                      |
 | -------- | ----------- | ---------------------------------- |
@@ -23997,6 +24647,8 @@ Certificate Physics paper and covers kinematics, dynamics, energy, momentum, and
 | Energy   | joule (J)   | $\mathrm{kg m^2\mathrm{ s^{-2}$    |
 | Power    | watt (W)    | $\mathrm{kg m^2\mathrm{ s^{-3}$    |
 | Pressure | pascal (Pa) | $\mathrm{kg m^{-1}\mathrm{ s^{-2}$ |
+
+</div>
 
 ### Scalars and Vectors (OL/HL)
 
@@ -24624,6 +25276,8 @@ $a_{\max} = \omega^2 A = \left(\frac{2\pi}{1.5}\right)^2 \times 0.08 = \left(\fr
 
 ## 16. Summary Table: Key Mechanics Formulas
 
+<div class="table-wrap">
+
 | Topic             | Formula                     | Level | Notes                             |
 | ----------------- | --------------------------- | ----- | --------------------------------- |
 | Kinematics        | $v = u + at$ Etc.            | OL/HL | Constant acceleration only        |
@@ -24638,6 +25292,8 @@ $a_{\max} = \omega^2 A = \left(\frac{2\pi}{1.5}\right)^2 \times 0.08 = \left(\fr
 | Impulse           | $J = F\Delta t = \Delta p$  | HL    | Force times time                  |
 | Centripetal force | $F = mv^2/r$                | HL    | Net inward force                  |
 | SHM               | $T = 2\pi\sqrt{m/k}$        | HL    | Independent of amplitude          |
+
+</div>
 
 ## 17. Practice Questions (Additional)
 
@@ -25205,12 +25861,16 @@ $$
 
 The discrete spectral lines of hydrogen fall into series named after their discoverers:
 
+<div class="table-wrap">
+
 | Series   | Transition | Region      |
 | -------- | ---------- | ----------- |
 | Lyman    | $n \to 1$  | Ultraviolet |
 | Balmer   | $n \to 2$  | Visible     |
 | Paschen  | $n \to 3$  | Infrared    |
 | Brackett | $n \to 4$  | Infrared    |
+
+</div>
 
 The Balmer series is the most well-known because its lines fall in the visible range. The H-alpha
 Line ($n = 3 \to 2$) at $656\mathrm{ nm$ is a distinctive red line often observed in astrophysics.
@@ -25485,11 +26145,15 @@ Probability per unit time.
 
 Types of decay:
 
+<div class="table-wrap">
+
 | Type             | Symbol                         | Change                                 | Penetrating Power    |
 | ---------------- | ------------------------------ | -------------------------------------- | -------------------- |
 | Alpha decay      | $\alpha$ ($^4_2\mathrm{He$)    | $Z$ decreases by 2, $A$ decreases by 4 | Low (paper)          |
 | Beta-minus decay | $\beta^-$ ($^0_{-1}\mathrm{e$) | $Z$ increases by 1, $A$ unchanged      | Moderate (aluminium) |
 | Gamma decay      | $\gamma$                       | No change in $Z$ or $A$                | High (lead/concrete) |
+
+</div>
 
 **Alpha decay** occurs mainly in heavy nuclei ($A \gt 150$). The emitted alpha particle is a
 Helium-4 nucleus. Example: $^{238}_{92}\mathrm{U \to ^{234}_{90}\mathrm{Th + ^4_2\mathrm{He$.
@@ -25866,6 +26530,8 @@ Light is a transverse wave, not a longitudinal one as Newton had believed.
 
 ### Wave Terminology (OL/HL)
 
+<div class="table-wrap">
+
 | Term                   | Definition                                       |
 | ---------------------- | ------------------------------------------------ |
 | Wavelength ($\lambda$) | Distance between two consecutive points in phase |
@@ -25873,6 +26539,8 @@ Light is a transverse wave, not a longitudinal one as Newton had believed.
 | Amplitude ($A$)        | Maximum displacement from equilibrium            |
 | Period ($T$)           | Time for one complete oscillation                |
 | Wave speed ($v$)       | Speed at which the wave propagates               |
+
+</div>
 
 ### Wave Equation (OL/HL)
 
@@ -26079,6 +26747,8 @@ Fourth order: $\sin\theta = 1.16$ -- not possible. So only 3 orders are visible 
 
 ## The Electromagnetic Spectrum (OL/HL)
 
+<div class="table-wrap">
+
 | Region        | Wavelength range                   | Typical source         |
 | ------------- | ---------------------------------- | ---------------------- |
 | Radio waves   | $\gt 1\mathrm{ m$                  | Radio transmitters     |
@@ -26088,6 +26758,8 @@ Fourth order: $\sin\theta = 1.16$ -- not possible. So only 3 orders are visible 
 | Ultraviolet   | $10$ -- $400\mathrm{ nm$           | Sun, UV lamps          |
 | X-rays        | $0.01$ -- $10\mathrm{ nm$          | X-ray tubes            |
 | Gamma rays    | $\lt 0.01\mathrm{ nm$              | Radioactive decay      |
+
+</div>
 
 All EM waves travel at $c = 3 \times 10^8\mathrm{ m/s$ in a vacuum.
 
@@ -26377,6 +27049,8 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 
 ## 16. Summary Table: Wave and Optics Formulas
 
+<div class="table-wrap">
+
 | Topic              | Formula                             | Level | Notes                        |
 | ------------------ | ----------------------------------- | ----- | ---------------------------- |
 | Wave equation      | $v = f\lambda$                      | OL/HL | Universal for periodic waves |
@@ -26387,6 +27061,8 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 | Decibels           | $\beta = 10\log_{10}(I/I_0)$        | HL    | $I_0 = 10^{-12}$ W/m$^2$     |
 | Doppler (source)   | $f' = fv/(v - v_s)$                 | HL    | Minus for approaching        |
 | Doppler (observer) | $f' = f(v + v_o)/v$                 | HL    | Plus for approaching         |
+
+</div>
 
 ## 17. Practice Questions (Additional)
 

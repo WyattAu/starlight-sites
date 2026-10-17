@@ -53,12 +53,16 @@ Developing Flutter relies heavily on widget compositions and core primitives.
 
 Dart is a general-purpose language with four primary compilation targets:
 
+<div class="table-wrap">
+
 | Target               | Compilation                           | Use Case                                            |
 | -------------------- | ------------------------------------- | --------------------------------------------------- |
 | **Native (AOT)**     | Ahead-of-Time to ARM/x64 machine code | Mobile (iOS/Android), desktop (macOS/Windows/Linux) |
 | **Web (WASM/js)**    | dart2wasm or dart2js                  | Browser applications                                |
 | **Server (AOT/JIT)** | Native AOT or VM JIT                  | Backend services, CLI tools                         |
 | **Flutter runtime**  | AOT (release) or JIT (debug)          | Cross-platform GUI applications                     |
+
+</div>
 
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
 Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
@@ -107,6 +111,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 
 ## Dart vs Kotlin vs Swift
 
+<div class="table-wrap">
+
 | Feature          | Dart                                | Kotlin                         | Swift                           |
 | ---------------- | ----------------------------------- | ------------------------------ | ------------------------------- |
 | Null safety      | Sound, default                      | Sound, default                 | Sound, optional                 |
@@ -117,6 +123,8 @@ Via user-defined operators. It does not support multiple inheritance or raw poin
 | Memory           | GC                                  | GC (JVM) / ARC (Native)        | ARC (manual optional)           |
 | Primary use      | Flutter, server                     | Android, server, multiplatform | Apple platforms, server         |
 | Package manager  | `pub`                               | `gradle` / `maven`             | `swift-package-manager`         |
+
+</div>
 
 Key differences for systems engineers:
 
@@ -330,6 +338,8 @@ void main() {
 
 The central package repository is [pub.dev](https://pub.dev). Notable packages:
 
+<div class="table-wrap">
+
 | Package                 | Purpose                                |
 | ----------------------- | -------------------------------------- |
 | `http`                  | HTTP client                            |
@@ -341,6 +351,8 @@ The central package repository is [pub.dev](https://pub.dev). Notable packages:
 | `dio`                   | Advanced HTTP client with interceptors |
 | `get_it` / `injectable` | Dependency injection                   |
 | `args`                  | Command-line argument parsing          |
+
+</div>
 
 ### Build System: build_runner
 
@@ -363,6 +375,8 @@ Sublime Text all have Dart LSP support.
 
 ## Version History
 
+<div class="table-wrap">
+
 | Version | Year | Key Feature                              |
 | ------- | ---- | ---------------------------------------- |
 | 1.0     | 2013 | Initial release                          |
@@ -370,6 +384,8 @@ Sublime Text all have Dart LSP support.
 | 2.12    | 2021 | Sound null safety                        |
 | 3.0     | 2023 | Records, patterns, sealed classes, Wasm  |
 | 3.5     | 2024 | Improved interop, macros (experimental)  |
+
+</div>
 
 Dart follows a 6-week release cycle for stable channel releases. Each release is
 Backward-compatible.

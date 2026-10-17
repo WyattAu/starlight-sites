@@ -89,6 +89,8 @@ Answer each question. Check your answers against the key at the end.
 
 ## Answer Key
 
+<div class="table-wrap">
+
 | Q | Answer | Explanation |
 | --- | -------- | ------------- |
 | 1 | (B) | Burgess's concentric zone model (1925) describes cities developing in rings around the CBD based on land rent and accessibility. |
@@ -101,6 +103,8 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Hong Kong's public housing programme provides subsidised rental and Home Ownership Scheme flats to eligible low-income residents. |
 | 9 | (B) | The urban-rural fringe is the transitional zone where urban development meets rural land uses, often experiencing rapid change. |
 | 10 | (B) | Mountainous terrain and limited land release by government have forced Hong Kong to develop at very high densities. |
+
+</div>
 
 ## Common Mistakes
 

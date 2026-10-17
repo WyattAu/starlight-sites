@@ -216,6 +216,8 @@ end
 **Mix** is the build tool that ships with Elixir. It handles project creation, dependency
 management, compilation, testing, and more. Key Mix commands:
 
+<div class="table-wrap">
+
 | Command                        | Description                           |
 | ------------------------------ | ------------------------------------- |
 | `mix new my_app`               | Create a new Elixir project           |
@@ -228,6 +230,8 @@ management, compilation, testing, and more. Key Mix commands:
 | `mix hex.outdated`             | Check for outdated dependencies       |
 | `mix release`                  | Create a deployable release           |
 | `mix ecto.create`              | Create database (with Ecto)           |
+
+</div>
 
 Mix configurations are organized by environment (`dev`, `test`, `prod`) in `config/config.exs` and
 environment-specific files like `config/dev.exs`.
@@ -399,6 +403,8 @@ import_file("path/to/script.exs")
 
 ### IEx Helpers
 
+<div class="table-wrap">
+
 | Command         | Description                                        |
 | --------------- | -------------------------------------------------- |
 | `h/1`           | Show documentation for a function or module        |
@@ -415,6 +421,8 @@ import_file("path/to/script.exs")
 | `pwd/0`         | Print working directory                            |
 | `ls/0`          | List files in current directory                    |
 | `import_file/1` | Evaluate code from a file                          |
+
+</div>
 
 ### IEx.pry and Debugging
 
@@ -765,6 +773,8 @@ Benchee.run(%{
 
 ### Elixir vs Erlang
 
+<div class="table-wrap">
+
 | Feature         | Elixir                 | Erlang                   |
 | --------------- | ---------------------- | ------------------------ |
 | Syntax          | Ruby-like, minimal     | Prolog-like, verbose     |
@@ -776,7 +786,11 @@ Benchee.run(%{
 | Community       | Growing, web-focused   | Telecom, embedded        |
 | Structs         | Native support         | Records (less ergonomic) |
 
+</div>
+
 ### Elixir vs Ruby
+
+<div class="table-wrap">
 
 | Feature      | Elixir                      | Ruby                      |
 | ------------ | --------------------------- | ------------------------- |
@@ -786,7 +800,11 @@ Benchee.run(%{
 | Typing       | Dynamic + optional Dialyzer | Dynamic + optional Sorbet |
 | Deployment   | BEAM releases               | Gems / Bundler            |
 
+</div>
+
 ### Elixir vs Go
+
+<div class="table-wrap">
 
 | Feature         | Elixir                         | Go                                 |
 | --------------- | ------------------------------ | ---------------------------------- |
@@ -794,6 +812,8 @@ Benchee.run(%{
 | Paradigm        | Functional                     | Imperative with some FP            |
 | Error handling  | Pattern matching on :ok/:error | Multiple return values, panic      |
 | Fault tolerance | Supervision trees              | Manual recovery                    |
+
+</div>
 
 ## Summary
 

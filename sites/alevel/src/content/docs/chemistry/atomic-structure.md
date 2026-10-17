@@ -30,6 +30,8 @@ categories:
 
 Atoms consist of three principal subatomic particles. Their properties are summarised below.
 
+<div class="table-wrap">
+
 | Property        | Proton                   | Neutron         | Electron                     |
 | --------------- | ------------------------ | --------------- | ---------------------------- |
 | Symbol          | $p$ or $p^+$             | $n$ or $n^0$    | $e^-$                        |
@@ -38,6 +40,8 @@ Atoms consist of three principal subatomic particles. Their properties are summa
 | Relative mass   | $1.00728$                | $1.00867$       | $0.00055$ ($\approx 1/1836$) |
 | Location        | Nucleus                  | Nucleus         | Electron shells / orbitals   |
 | Spin            | $+\tfrac{1}{2}$          | $+\tfrac{1}{2}$ | $+\tfrac{1}{2}$              |
+
+</div>
 
 The **atomic number** (proton number) $Z$ defines the element. The **mass number** $A = Z + N$ Where
 $N$ is the neutron number. The notation is:
@@ -115,6 +119,8 @@ with benzene ($\mathrm{C}_6\mathrm{H}_6$, $M_r = 78$). The M+1 peak intensity
 
 Each electron in an atom is described by four quantum numbers:
 
+<div class="table-wrap">
+
 | Quantum Number | Symbol   | Values                          | Describes                                 |
 | -------------- | -------- | ------------------------------- | ----------------------------------------- |
 | Principal      | $n$      | $1, 2, 3, \ldots$               | Energy level / shell                      |
@@ -122,7 +128,11 @@ Each electron in an atom is described by four quantum numbers:
 | Magnetic       | $m_\ell$ | $-\ell, -\ell+1, \ldots, +\ell$ | Orbital orientation                       |
 | Spin           | $m_s$    | $+\tfrac{1}{2}, -\tfrac{1}{2}$  | Electron spin direction                   |
 
+</div>
+
 ### Subshell Capacities
+
+<div class="table-wrap">
 
 | Subshell | $\ell$ | Orbitals | Max Electrons |
 | -------- | ------ | -------- | ------------- |
@@ -130,6 +140,8 @@ Each electron in an atom is described by four quantum numbers:
 | $p$      | $1$    | $3$      | $6$           |
 | $d$      | $2$    | $5$      | $10$          |
 | $f$      | $3$    | $7$      | $14$          |
+
+</div>
 
 The maximum number of electrons in shell $n$ is $2n^2$.
 
@@ -159,6 +171,8 @@ before pairing. This minimises electron-electron repulsion and maximises total s
 
 Use the notation $n\ell^x$ where $x$ is the number of electrons in that subshell.
 
+<div class="table-wrap">
+
 | Element | $Z$ | Configuration                           | Shorthand                     |
 | ------- | --- | --------------------------------------- | ----------------------------- |
 | H       | 1   | $1s^1$                                  | $1s^1$                        |
@@ -166,6 +180,8 @@ Use the notation $n\ell^x$ where $x$ is the number of electrons in that subshell
 | Na      | 11  | $1s^2 2s^2 2p^6 3s^1$                   | $[\mathrm{Ne}]\,3s^1$         |
 | Fe      | 26  | $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^6$    | $[\mathrm{Ar}]\,4s^2 3d^6$    |
 | Cu      | 29  | $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^{10}$ | $[\mathrm{Ar}]\,4s^1 3d^{10}$ |
+
+</div>
 
 **Note on Cr and Cu.** Chromium ($Z = 24$) is $[\mathrm{Ar}]\,4s^1 3d^5$ and copper ($Z = 29$) is
 $[\mathrm{Ar}]\,4s^1 3d^{10}$. The half-filled $d^5$ and fully-filled $d^{10}$ configurations are
@@ -213,6 +229,8 @@ Ionisation energy generally increases across a period (left to right) because:
    closer.
 4. **Net effect** -- the outer electron is held more tightly, requiring more energy to remove.
 
+<div class="table-wrap">
+
 | Element | $Z$ | Configuration              | $\mathrm{IE}_1$ (kJ/mol) |
 | ------- | --- | -------------------------- | ------------------------ |
 | Na      | 11  | $[\mathrm{Ne}]\,3s^1$      | 496                      |
@@ -223,6 +241,8 @@ Ionisation energy generally increases across a period (left to right) because:
 | S       | 16  | $[\mathrm{Ne}]\,3s^2 3p^4$ | 1000                     |
 | Cl      | 17  | $[\mathrm{Ne}]\,3s^2 3p^5$ | 1251                     |
 | Ar      | 18  | $[\mathrm{Ne}]\,3s^2 3p^6$ | 1521                     |
+
+</div>
 
 ### Anomalies: Al vs Mg and S vs P
 
@@ -244,12 +264,16 @@ Ionisation energy decreases down a group because:
 4. **Net effect** -- despite increasing nuclear charge, the increased distance and shielding
    dominate, making electron removal easier.
 
+<div class="table-wrap">
+
 | Element | $\mathrm{IE}_1$ (kJ/mol) |
 | ------- | ------------------------ |
 | Li      | 520                      |
 | Na      | 496                      |
 | K       | 419                      |
 | Rb      | 403                      |
+
+</div>
 
 ### Successive Ionisation Energies
 
@@ -259,12 +283,16 @@ from a new inner shell.
 
 **Worked Example.** For aluminium ($Z = 13$), successive ionisation energies are:
 
+<div class="table-wrap">
+
 | $n$ | $\mathrm{IE}_n$ (kJ/mol) | Shell          |
 | --- | ------------------------ | -------------- |
 | 1   | 578                      | $n = 3$        |
 | 2   | 1817                     | $n = 3$        |
 | 3   | 2745                     | $n = 3$        |
 | 4   | 11577                    | $n = 2$ (jump) |
+
+</div>
 
 The large jump between $\mathrm{IE}_3$ and $\mathrm{IE}_4$ indicates that the first three electrons
 were removed from the third shell (valence), and the fourth is removed from the second shell (core).
@@ -345,6 +373,8 @@ The higher $Z_\mathrm{eff}$ for Ca compared to K explains the higher first ionis
 
 ## Periodic Trends Summary
 
+<div class="table-wrap">
+
 | Property                   | Across a period     | Down a group |
 | -------------------------- | ------------------- | ------------ |
 | Atomic radius              | Decreases           | Increases    |
@@ -354,6 +384,8 @@ The higher $Z_\mathrm{eff}$ for Ca compared to K explains the higher first ionis
 | Metallic character         | Decreases           | Increases    |
 | Melting point (metals)     | Increases           | Decreases    |
 | Melting point (non-metals) | Variable            | Variable     |
+
+</div>
 
 ## Practice Problems
 
@@ -457,12 +489,16 @@ simplified or experimental dataset.
 Low-resolution mass spectrometry gives $m/z$ to the nearest integer. High-resolution MS gives $m/z$
 to several decimal places, allowing distinction between species with the same nominal mass:
 
+<div class="table-wrap">
+
 | Species                              | Exact mass ($m/z$) | Nominal mass |
 | ------------------------------------ | ------------------ | ------------ |
 | $\mathrm{C}_3\mathrm{H}_8$           | 44.063             | 44           |
 | $\mathrm{CO}_2$                      | 43.990             | 44           |
 | $\mathrm{N}_2\mathrm{O}$             | 44.001             | 44           |
 | $\mathrm{C}_2\mathrm{H}_4\mathrm{O}$ | 44.026             | 44           |
+
+</div>
 
 High-resolution MS can distinguish $\mathrm{C}_3\mathrm{H}_8$ ($44.063$) from $\mathrm{CO}_2$
 ($43.990$) -- a difference of $0.073\,\mathrm{amu}$ Resolved by modern instruments.
@@ -512,10 +548,14 @@ but requires additional information (like the M+2 peak for halogens) for unambig
 The following elements have ground-state configurations that deviate from the simple Aufbau
 prediction:
 
+<div class="table-wrap">
+
 | Element     | Expected                   | Actual                        | Reason                                                    |
 | ----------- | -------------------------- | ----------------------------- | --------------------------------------------------------- |
 | Cr ($Z=24$) | $[\mathrm{Ar}]\,4s^2 3d^4$ | $[\mathrm{Ar}]\,4s^1 3d^5$    | Half-filled $d$ subshell is stabilised by exchange energy |
 | Cu ($Z=29$) | $[\mathrm{Ar}]\,4s^2 3d^9$ | $[\mathrm{Ar}]\,4s^1 3d^{10}$ | Fully-filled $d$ subshell is stabilised                   |
+
+</div>
 
 The exchange energy arises because electrons with parallel spins (Hund's rule) cannot occupy the
 same region of space (Pauli exclusion), which reduces electron-electron repulsion. The energy gained
@@ -559,6 +599,8 @@ Group 13 (three valence electrons). This is aluminium.
 A plot of $\log(\mathrm{IE})$ vs ionisation number shows clear steps corresponding to the removal of
 electrons from different shells. The number of electrons in each step gives the group number.
 
+<div class="table-wrap">
+
 | Element | $\mathrm{IE}_1$ ($\mathrm{kJ/mol}$) | Group | Evidence             |
 | ------- | ----------------------------------- | ----- | -------------------- |
 | Na      | $496$$4562$...                      | 1     | Large jump after 1st |
@@ -566,7 +608,11 @@ electrons from different shells. The number of electrons in each step gives the 
 | Al      | $578$$1817$$2745$$11578$...         | 13    | Large jump after 3rd |
 | Si      | $789$$1577$$3228$$4356$$16091$...   | 14    | Large jump after 4th |
 
+</div>
+
 ### Trends Across Period 3 in Detail
+
+<div class="table-wrap">
 
 | Property                            | Na   | Mg   | Al   | Si                   | P    | S    | Cl     | Ar     |
 | ----------------------------------- | ---- | ---- | ---- | -------------------- | ---- | ---- | ------ | ------ |
@@ -574,6 +620,8 @@ electrons from different shells. The number of electrons in each step gives the 
 | Atomic radius ($\mathrm{pm}$)       | 186  | 160  | 143  | 118                  | 110  | 104  | 99     | --     |
 | Melting point ($^\circ\mathrm{C}$)  | 98   | 650  | 661  | 1414                 | 44   | 115  | $-101$ | $-189$ |
 | Electrical conductivity             | Good | Good | Good | Poor (semiconductor) | Poor | Poor | Poor   | Poor   |
+
+</div>
 
 **Melting point anomaly:** Silicon has the highest melting point because it has a giant covalent
 (macromolecular) structure with strong covalent bonds throughout. Sulphur has a higher melting point
@@ -662,9 +710,13 @@ $\mathrm{IE}_1(\mathrm{N}) = 1402\,\mathrm{kJ/mol}$$\mathrm{IE}_1(\mathrm{O}) = 
 
 The successive ionisation energies of element X are shown below:
 
+<div class="table-wrap">
+
 | $n$                    | 1   | 2    | 3    | 4     | 5     | 6     | 7     | 8     | 9     | 10    | 11    |
 | ---------------------- | --- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | IE ($\mathrm{kJ/mol}$) | 578 | 1817 | 2745 | 11578 | 14842 | 18377 | 23327 | 27466 | 31862 | 37216 | 42640 |
+
+</div>
 
 (a) In which group of the periodic table is element X? (1 mark)
 
@@ -750,6 +802,8 @@ the nucleus than the $p$ orbital, and $p$ penetrates closer than $d$. This means
 
 ### Effective Nuclear Charge Calculations for Period 3
 
+<div class="table-wrap">
+
 | Element | $Z$ | Configuration            | $\sigma$                                 | $Z_\mathrm{eff}$ (valence) |
 | ------- | --- | ------------------------ | ---------------------------------------- | -------------------------- |
 | Na      | 11  | $[\mathrm{Ne}]3s^1$      | $10 \times 0.85 = 8.5$                   | $11 - 8.5 = 2.5$           |
@@ -760,6 +814,8 @@ the nucleus than the $p$ orbital, and $p$ penetrates closer than $d$. This means
 | S       | 16  | $[\mathrm{Ne}]3s^2 3p^4$ | $5 \times 0.35 + 10 \times 0.85 = 10.25$ | $16 - 10.25 = 5.75$        |
 | Cl      | 17  | $[\mathrm{Ne}]3s^2 3p^5$ | $6 \times 0.35 + 10 \times 0.85 = 10.60$ | $17 - 10.60 = 6.40$        |
 | Ar      | 18  | $[\mathrm{Ne}]3s^2 3p^6$ | $7 \times 0.35 + 10 \times 0.85 = 10.95$ | $18 - 10.95 = 7.05$        |
+
+</div>
 
 The steady increase in $Z_\mathrm{eff}$ across the period explains the general increase in first
 ionisation energy.
@@ -799,6 +855,8 @@ spectra.
 
 **Common fragmentation pathways:**
 
+<div class="table-wrap">
+
 | Fragment                     | $m/z$ | Origin                     |
 | ---------------------------- | ----- | -------------------------- |
 | $\mathrm{CH}_3^+$            | 15    | Loss of alkyl group        |
@@ -809,6 +867,8 @@ spectra.
 | $\mathrm{COOH}^+$            | 45    | Carboxylic acids           |
 | $\mathrm{C}_6\mathrm{H}_5^+$ | 77    | Aromatic compounds         |
 | $\mathrm{C}_7\mathrm{H}_7^+$ | 91    | Benzyl/tropylium ion       |
+
+</div>
 
 **Alpha cleavage:** The bond adjacent to the carbonyl group breaks, producing an acylium ion. For
 example, in propanone ($\mathrm{CH}_3\mathrm{COCH}_3$), alpha cleavage gives
@@ -879,9 +939,13 @@ phenyl cation (loss of $\mathrm{C}_2\mathrm{H}_2$ from $\mathrm{C}_6\mathrm{H}_5
 Define the term first ionisation energy. The first five ionisation energies of an element are shown
 below:
 
+<div class="table-wrap">
+
 | $n$                    | 1   | 2    | 3    | 4     | 5     |
 | ---------------------- | --- | ---- | ---- | ----- | ----- |
 | IE ($\mathrm{kJ/mol}$) | 738 | 1451 | 7733 | 10540 | 13630 |
+
+</div>
 
 (a) Identify the element. (1 mark)
 

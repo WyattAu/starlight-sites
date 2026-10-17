@@ -474,6 +474,8 @@ int main() {
 }
 ```
 
+<div class="table-wrap">
+
 | Guarantee | Resource Safety | State Consistency      | Example                           |
 | --------- | --------------- | ---------------------- | --------------------------------- |
 | No-throw  | Yes             | Guaranteed identical   | `swap()`Destructors               |
@@ -481,10 +483,14 @@ int main() {
 | Basic     | Yes             | Valid but unspecified  | `std::sort`                       |
 | None      | No              | No guarantee           | Manual `new[]` without cleanup    |
 
+</div>
+
 ## Exception Safety in the Standard Library
 
 The standard library mandates specific guarantees for every container operation [N4950 §23.2]. Here
 is a non-exhaustive mapping of commonly used operations:
+
+<div class="table-wrap">
 
 | Operation                     | Guarantee | Rationale                                                             |
 | ----------------------------- | --------- | --------------------------------------------------------------------- |
@@ -499,6 +505,8 @@ is a non-exhaustive mapping of commonly used operations:
 | `std::make_unique`            | Strong    | Allocation precedes construction; exception frees memory              |
 | `std::vector::resize(n, val)` | Basic     | If copy of `val` throws mid-resize, vector is valid but partial       |
 | `std::vector::swap`           | No-throw  | O(1) pointer swap                                                     |
+
+</div>
 
 ### Why `std::unordered_map::insert` Is Only Basic
 
