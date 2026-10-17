@@ -12006,10 +12006,13 @@ $$
 
 Run the same computation on the stochastic equation and the drift term becomes
 $2\xi u \partial_t u$, whose size is bounded by $\lVert \xi\rVert_\infty
-\lVert u\rVert^2$. **That is the exact point of failure**: white noise has no
-$L^\infty$ norm, indeed no $L^p$ norm for any $p$, because its increments are
-Gaussian and a Gaussian variable exceeds every power threshold infinitely
-often.
+\lVert u\rVert^2$. **That is the exact point of failure**: white noise is a
+distribution, not a function, so $\lVert\xi\rVert_\infty$ does not exist. Saying
+it fails "because Gaussian variables exceed every threshold infinitely often"
+would be wrong — a Gaussian-valued *function* has perfectly finite $L^p$ norms.
+The reason is regularity: $\xi$ has parabolic Hölder regularity
+$-\tfrac{3}{2} - \epsilon$ in $1+1$ dimensions, so it is not a function at all and
+no pointwise norm of it is defined.
 
 So the failure is structural, not a matter of tighter estimates. Anything
 built on $\sup|\xi|$ — smoothing, boundary regularity, the standard parabolic
@@ -12066,6 +12069,86 @@ about which object to regard as "known", and each choice is a bookkeeping
 decision that has to be redone from scratch for a new equation. The theory is
 less a set of theorems than a way of organising the bookkeeping — which is why
 it took until 2011 to formalise, and why it now underpins so much of the field.
+
+## Proofs
+
+One computation, and it is the one the whole page is about: the pointwise variance
+of the stochastic convolution, which is finite in one spatial dimension and
+infinite in two. The dimension where it diverges is exactly the dimension where
+renormalisation becomes necessary, so this single integral locates the critical
+dimension and proves that it is critical.
+
+**Theorem.** Let $Z$ solve $\partial_t Z = \partial_x^2 Z + \xi$ with $Z(0) = 0$,
+where $\xi$ is space-time white noise. Then
+
+$$
+\mathbb{E}\big[Z(t,x)^2\big] =
+\begin{cases}
+\sqrt{t / 2\pi} & d = 1, \\[4pt]
++\infty & d = 2.
+\end{cases}
+$$
+
+*Proof.* The solution is the stochastic convolution with the heat kernel,
+$Z(t,x) = \int_0^t\!\!\int G(s, y)\,\xi(\mathrm{d}s\,\mathrm{d}y)$, and by the
+Itô isometry in space-time form,
+
+$$
+\mathbb{E}\big[Z(t,x)^2\big] = \int_0^t\!\!\int G(s,y)^2\,\mathrm{d}y\,\mathrm{d}s.
+$$
+
+Everything from here is the heat kernel. In $d$ dimensions
+$G(s,y) = (4\pi s)^{-d/2}\,e^{-|y|^2/4s}$, so
+
+$$
+\int_{\mathbb{R}^d} G(s,y)^2\,\mathrm{d}y
+= \frac{1}{(4\pi s)^{d}} \int_{\mathbb{R}^d} e^{-|y|^2/2s}\,\mathrm{d}y
+= \frac{(2\pi s)^{d/2}}{(4\pi s)^{d}}
+= \frac{1}{(8\pi s)^{d/2}}.
+$$
+
+The remaining integral over $s$ is
+$\int_0^t (8\pi s)^{-d/2}\,\mathrm{d}s$, which converges at the origin iff
+$d/2 < 1$, i.e. iff $d = 1$. So:
+
+$$
+d = 1:\quad \int_0^t \frac{\mathrm{d}s}{\sqrt{8\pi s}}
+= \frac{1}{\sqrt{8\pi}} \cdot 2\sqrt{t} = \sqrt{\frac{t}{2\pi}},
+\qquad
+d = 2:\quad \int_0^t \frac{\mathrm{d}s}{8\pi s} = +\infty.
+$$
+
+$\blacksquare$
+
+The logarithmic divergence in $d = 2$ is not a pathology of a bad estimate; the
+integral genuinely diverges, so $Z(t,x)$ is not a random variable with finite
+second moment in two dimensions — it is a distribution, of negative Hölder
+regularity, and no pointwise product with itself is defined.
+
+**What this buys the page's central claim.** For $\Phi^4_2$,
+$\partial_t u = \partial_x^2 u - u^3 + \xi$, write $u = Z + v$ with $Z$ the linear
+solution above. Then
+
+$$
+u^3 = v^3 + 3v^2 Z + 3 v Z^2 + Z^3,
+$$
+
+and the terms $Z^2$ and $Z^3$ involve the pointwise square and cube of an object
+that is not a function — which is what the integral above forbids. The
+renormalised equation subtracts $3 C_\delta\, u_\delta$ where
+$C_\delta = \mathbb{E}[Z_\delta^2] \to \infty$ is the smeared-out version of the
+divergent integral: mollify $\xi$ at scale $\delta$ and $C_\delta$ is finite but
+grows without bound as $\delta \to 0$. In $d=1$ the same computation gives
+$C_\delta$ converging, which is why $\Phi^4_1$ needed no renormalisation and why
+the stochastic heat equation is a genuine function there.
+
+So the theorem above is the reason the section on renormalisation exists: the
+critical dimension is exactly where this integral stops converging, and that is
+read off from the exponent of $s$ rather than from any deep regularity theory.
+The general statement — that subcriticality is a condition on regularities
+$\alpha, \beta$ combining as $k\alpha + \beta$ — is the same computation carried
+out term by term for every product appearing in the nonlinearity, with the heat
+kernel scaling doing all the work.
 
 ## Counterexamples
 
