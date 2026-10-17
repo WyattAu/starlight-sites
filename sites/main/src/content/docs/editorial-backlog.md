@@ -487,9 +487,18 @@ jobs.
    proofs on the flagship pages but has not been surveyed with the same
    theorems-versus-proofs count.
 
-The survey method, for whoever picks this up: count `\blacksquare` per page
+The survey method, for whoever picks this up: count proof terminators per page
 against the count of `**Theorem`-style markers. A page with many markers and no
-black squares is a list of claims, and that is the ordering signal.
+terminators is a list of claims, and that is the ordering signal.
+
+**Count both terminators.** The first pass of this survey counted only
+`\blacksquare` and reported `10-measure-theory/3_lebesgue-outer-measure...` as
+having 15 theorems and 0 proofs -- that page's proofs are closed with `$\square$`,
+and several older pages use the literal square. Counting both terminators brought
+the true numbers to 41 and 23 proofs for the two tracks, and the list of
+theorem-heavy/proof-light pages came out **empty**: both tracks already prove
+what they state. A method note that omits half the terminator set produces a
+false worklist, which is worse than no note.
 
 The `Proof` / `\blacksquare` convention is established and detected reliably, so
 a page that wants to be counted in this worklist only has to use it.
