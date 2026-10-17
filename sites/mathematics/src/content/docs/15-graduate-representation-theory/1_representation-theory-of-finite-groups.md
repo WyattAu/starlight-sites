@@ -163,6 +163,66 @@ The sum-of-squares theorem is a hard constraint. It immediately rules out
 candidate character tables before any representation is constructed, and it is
 the first thing to check whenever a table is being built.
 
+## Proofs
+
+Two proofs. The first derives character orthogonality from the matrix-coefficient
+relation computed above; the second derives both the regular-representation
+decomposition and the sum-of-squares formula from it. Neither needs a new idea --
+both are Schur's lemma applied to a different averaged operator, which is the
+point the page has been making.
+
+**Theorem (character orthogonality).** For irreducible $\chi_i, \chi_j$,
+
+$$
+\langle \chi_i, \chi_j \rangle = \frac{1}{|G|}\sum_g \chi_i(g)\overline{\chi_j(g)}
+= \delta_{ij}.
+$$
+
+*Proof.* Sum the matrix-coefficient relation
+$\frac{1}{|G|}\sum_g \overline{\rho_i(g)_{ab}}\,\rho_j(g)_{cd} = \frac{\delta_{ij}\delta_{ac}\delta_{bd}}{d_i}$
+over the diagonal indices $a = c$ and $b = d$. The left side becomes
+$\frac{1}{|G|}\sum_g \overline{\chi_i(g)}\,\chi_j(g)$, since a character is the
+trace and the trace is the sum of diagonal entries. The right side becomes
+$\frac{\delta_{ij}}{d_i}\sum_{a,b}\delta_{ab} = \frac{\delta_{ij} d_i}{d_i} =
+\delta_{ij}$. $\blacksquare$
+
+One line, and it is worth being clear about why: a character is a *sum* of matrix
+coefficients, and the matrix-coefficient relation is an orthogonality statement
+for each coefficient separately, so summing the relation over diagonal indices is
+exactly the operation "take the inner product of the traces". The converse
+direction also holds and is useful: any relation among characters gives a
+relation among representations, because $\langle \chi_V, \chi_i\rangle$ is the
+multiplicity of $V_i$ in $V$.
+
+**Theorem (regular representation).** $\mathbb{C}[G] \cong \bigoplus_i V_i^{\oplus d_i}$,
+and consequently $|G| = \sum_i d_i^2$.
+
+*Proof.* The character of the regular representation is
+
+$$
+\chi_{\mathrm{reg}}(g) = \begin{cases} |G| & g = e \\ 0 & g \neq e, \end{cases}
+$$
+
+because left multiplication by $g$ permutes $G$ with no fixed points unless
+$g = e$. Decompose $\mathbb{C}[G] = \bigoplus_i V_i^{\oplus m_i}$, so
+$\chi_{\mathrm{reg}} = \sum_i m_i \chi_i$. Taking the inner product with $\chi_j$:
+
+$$
+m_j = \langle \chi_{\mathrm{reg}}, \chi_j \rangle
+= \frac{1}{|G|}\sum_g \chi_{\mathrm{reg}}(g)\overline{\chi_j(g)}
+= \frac{1}{|G|}|G|\,\overline{\chi_j(e)} = \chi_j(e) = d_j.
+$$
+
+Every multiplicity equals the dimension. Taking dimensions of both sides,
+$|G| = \sum_i m_i d_i = \sum_i d_i^2$. $\blacksquare$
+
+The computation is again one line, and again it is Schur's lemma doing the work
+-- character orthogonality *is* Schur's lemma summed over the group. What makes
+the result striking is that a statement with no visible input from analysis, the
+arithmetic identity $|G| = \sum d_i^2$, comes out of an orthogonality relation.
+The number of conjugacy classes equals the number of irreducible representations,
+and summing the squares of the dimensions exhausts the group.
+
 ## Counterexamples
 
 <div class="table-wrap">
@@ -199,7 +259,7 @@ framework.
   geometric representation theory categorifies the entire character theory.
   This is where representation theory meets topology.
 
-## Counterexample section
+### More counterexamples
 
 <div class="table-wrap">
 
