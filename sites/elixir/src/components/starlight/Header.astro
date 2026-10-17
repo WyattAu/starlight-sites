@@ -341,4 +341,24 @@ const title = starlightRoute?.siteTitle || "Notes"
     font-size: 0.8rem;
     opacity: 0.7;
   }
+
+  /* On a phone the header holds the site title, the progress widgets, this
+     search field and Starlight's own search trigger in 390px. The field does
+     not fit, and squeezing it produced two overlapping search boxes. The
+     input collapses to an icon-width field that expands on focus, which keeps
+     search reachable without breaking the bar. */
+  @media (max-width: 48rem) {
+    .header-inner {
+      gap: 0.5rem;
+      padding: 0 0.75rem;
+    }
+    .title-wrapper span {
+      display: none; /* the icon alone identifies the site */
+    }
+    /* Starlight supplies its own working search on small screens; rendering
+       this one as well put two overlapping search boxes across a 390px bar. */
+    #custom-search {
+      display: none;
+    }
+  }
 </style>

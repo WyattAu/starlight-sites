@@ -49,6 +49,7 @@ const SHARED_DIRS = [
   ['shared/styles', 'src/styles'],
   ['shared/design', 'src/design'],
   ['shared/fonts', 'public/fonts'],
+  ['shared/public/katex', 'public/katex'],
   ['shared/i18n', 'src/i18n'],
 ]
 
