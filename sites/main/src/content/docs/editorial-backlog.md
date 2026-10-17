@@ -472,20 +472,28 @@ to certify the result, and each page keeps its intuition-first design -- the
 proofs are their own section, because the picture and the argument do different
 jobs.
 
-**Remaining from this item.**
+**Remaining from this item: all three now closed.**
 
-1. `14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures.md`
-   still has no theorems or proofs. It is a survey of regularity structures,
-   where the honest difficulty is that the theory's results are a long way from
-   the definitions; it needs a decision about whether to prove the renormalisation
-   statement for the Phi-4 model or to say explicitly that it is a survey and stop
-   implying otherwise.
-2. Every page in `10-measure-theory` and `11-functional-analysis` that states a
-   theorem without proving it. The functional-analysis fundamental theorems are
-   done; the other pages are not yet surveyed page by page.
-3. The physics research tier (spectral theory, symplectic/KAM, scattering) has
-   proofs on the flagship pages but has not been surveyed with the same
-   theorems-versus-proofs count.
+1. The stochastic PDEs page proved the one statement that carries its argument:
+   the pointwise variance of the stochastic convolution is
+   $\int_0^t (8\pi s)^{-d/2} ds$, finite in $d=1$ and infinite in $d=2$, so the
+   critical dimension is read off from the exponent rather than asserted -- and
+   it is exactly where $\Phi^4$ renormalisation becomes necessary. Also
+   corrected the page's justification for why white noise has no pointwise
+   norms: the reason is regularity (it is a distribution, parabolic Holder
+   $-3/2-\epsilon$ in $1+1$d), not Gaussian tail events, which is what the page
+   previously claimed.
+2. The measure-theory and functional-analysis survey came out empty once both
+   proof terminators were counted -- see the correction above. Both tracks prove
+   what they state.
+3. The physics research tier survey also came out empty: no page across the seven
+   physics tracks has two or more theorems and no proof.
+
+Nothing is marked done that is not. The next content work is new depth rather
+than repair: the tracks listed in item 14's original table are now all proved,
+and the highest-value remaining move is new material -- the research-tier pages
+that do not yet exist, such as Peter-Weyl to complete the representation theory
+line, or the stochastic-PDE track's second page on paracontrolled calculus.
 
 The survey method, for whoever picks this up: count proof terminators per page
 against the count of `**Theorem`-style markers. A page with many markers and no
