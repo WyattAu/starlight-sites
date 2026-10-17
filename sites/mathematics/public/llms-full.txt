@@ -11691,6 +11691,112 @@ log-normal with *drift $\mu - \sigma^2/2$*, not $\mu$. Missing the $-\sigma^2/2$
 is the most common error in the subject, and it comes precisely from dropping
 the Itô term.
 
+## Proofs
+
+Three proofs. The first establishes the isometry, which is the integral's
+definition; the second establishes quadratic variation, which the Itô formula
+assumes; the third is the formula itself. The order matters, because the third
+uses the second and would be circular without it.
+
+**Theorem 1 (Itô isometry).** For simple $\sigma$,
+$\left\|\int_0^t \sigma\,dW\right\|_2^2 = \mathbb{E}\int_0^t \sigma^2\,ds$, and
+the simple adapted maps are dense in $L^2(\Omega \times [0,t])$, so the isometry
+extends the integral to all of $L^2$.
+
+*Proof.* Let $\sigma_t = \sigma_{t_i}$ on $(t_i, t_{i+1}]$ and
+$\Delta W_i = W_{t_{i+1}} - W_{t_i}$. Then
+
+$$
+\mathbb{E}\Big(\sum_i \sigma_{t_i}\Delta W_i\Big)^{\!2}
+= \sum_i \mathbb{E}\big[\sigma_{t_i}^2 \Delta W_i^2\big]
++ 2\sum_{i<j} \mathbb{E}\big[\sigma_{t_i}\sigma_{t_j}\Delta W_i \Delta W_j\big].
+$$
+
+For a cross term, condition on $\mathcal{F}_{t_j}$: $\sigma_{t_j}$ and $\Delta W_i$
+for $i<j$ are $\mathcal{F}_{t_j}$-measurable, and
+$\mathbb{E}[\Delta W_j \mid \mathcal{F}_{t_j}] = 0$ by independent increments, so
+the term is zero. For the diagonal,
+$\mathbb{E}[\sigma_{t_i}^2\Delta W_i^2] = \mathbb{E}[\sigma_{t_i}^2](t_{i+1}-t_i)$
+by the same conditioning. Summing gives the isometry.
+
+Simple adapted processes are dense in $L^2(\Omega\times[0,t])$, and because the
+map is an isometry on them it is $L^2$-continuous, so it extends uniquely to the
+closure. That extension *is* the Itô integral: an $L^2$ object, defined by
+continuity rather than pathwise. The cross terms did not merely come out small --
+they vanished because of adaptedness, the same property that fixed the choice of
+left endpoint above. $\blacksquare$
+
+**Theorem 2 (quadratic variation of Brownian motion).** For partitions with mesh
+$\to 0$,
+
+$$
+\sum_i (W_{t_{i+1}} - W_{t_i})^2 \xrightarrow{L^2} t.
+$$
+
+*Proof.* Write $Q_n$ for the sum and $\Delta t_i = t_{i+1}-t_i$. Then
+$\mathbb{E}Q_n = \sum_i \Delta t_i = t$, so it is enough to show the variance
+vanishes. The increments are independent, and $\operatorname{Var}(\Delta W_i^2) =
+2(\Delta t_i)^2$ for a Gaussian, so
+
+$$
+\operatorname{Var}(Q_n) = \sum_i 2(\Delta t_i)^2
+\leq 2 \max_i \Delta t_i \sum_i \Delta t_i = 2t\,\max_i \Delta t_i \to 0.
+$$
+
+$\blacksquare$
+
+The single line $\sum 2(\Delta t_i)^2 \le 2t\max_i\Delta t_i$ is the entire
+proof, and it is worth pausing on: quadratic variation is a *limit*, not an
+identity, and for any finite partition $Q_n$ has mean $t$ but fluctuates. The
+shorthand $(dW)^2 = dt$ is a statement about this $L^2$ limit, exactly as true
+and exactly as informal as that.
+
+**Theorem 3 (Itô's formula).** For $f \in C^2(\mathbb{R})$,
+
+$$
+f(W_t) = f(0) + \int_0^t f'(W_s)\,dW_s + \frac{1}{2}\int_0^t f''(W_s)\,ds.
+$$
+
+*Proof.* Partition $[0,t]$ and Taylor-expand about $W_{t_i}$:
+
+$$
+f(W_{t_{i+1}}) - f(W_{t_i})
+= f'(W_{t_i})\Delta W_i + \tfrac12 f''(W_{t_i})(\Delta W_i)^2 + R_i,
+$$
+
+with $R_i = \tfrac12 (f''(\xi_i) - f''(W_{t_i}))(\Delta W_i)^2$. Summing,
+
+$$
+f(W_t) - f(0) = \sum_i f'(W_{t_i})\Delta W_i
++ \tfrac12\sum_i f''(W_{t_i})\Delta t_i
++ \tfrac12\sum_i f''(W_{t_i})\big[(\Delta W_i)^2 - \Delta t_i\big]
++ \sum_i R_i.
+$$
+
+Term by term. The first converges in $L^2$ to the Itô integral, by Theorem 1.
+The second is an ordinary Riemann sum, converging to $\tfrac12\int_0^t f''\,ds$.
+The third is the term Riemann-Stieltjes theory does not have, and it vanishes
+*because* of Theorem 2: by Cauchy-Schwarz in $L^2$,
+
+$$
+\mathbb{E}\Big(\sum_i f''(W_{t_i})\big[(\Delta W_i)^2 - \Delta t_i\big]\Big)^{\!2}
+\leq \|f''\|_\infty^2\; \mathbb{E}\Big(\sum_i \big[(\Delta W_i)^2-\Delta t_i\big]\Big)^{\!2}
+\to 0.
+$$
+
+For the remainder, $f''$ is uniformly continuous, so
+$\max_i|f''(\xi_i) - f''(W_{t_i})| \to 0$ in probability while
+$\sum_i(\Delta W_i)^2$ is $O_P(1)$ by Theorem 2; hence
+$\sum_i R_i \to 0$ in probability. $\blacksquare$
+
+The proof explains the formula rather than merely verifying it. The extra term is
+not a correction that happens to be needed: it is the second-order Taylor term
+failing to be negligible, and the reason it fails is that $\sum(\Delta W_i)^2$
+has a nonzero limit. For a bounded-variation integrator that sum tends to zero,
+which is why ordinary calculus has no such term. Itô's formula is Taylor's
+theorem with a different answer to the question "how large is $(\Delta X)^2$" --
+and the answer is a property of the *integrator*, not of $f$.
+
 ## Counterexamples
 
 <div class="table-wrap">
@@ -11730,7 +11836,7 @@ and choosing the wrong one silently changes the drift.
   classically can acquire a unique one when noise is added — noise creating
   regularity rather than destroying it.
 
-## Counterexamples section
+### More counterexamples
 
 <div class="table-wrap">
 
