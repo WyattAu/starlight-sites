@@ -15134,6 +15134,54 @@ URL: https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equati
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What are the three possible outcomes for a linear system?
+- What does it mean for a matrix to be in row echelon form? Reduced form?
+- What does pivoting protect against, and why is it needed at all?
+- State the rank-nullity theorem and say what it predicts for an $m \times n$
+  system.
+- When is the least-squares solution the right answer?
+
+Check your answers against the text. Prompt 2 is the practical core: every
+claim about existence and uniqueness in this page is read off a row echelon
+form, so knowing what you are allowed to conclude from one is the skill.
+
+## Motivation: elimination is a change of basis, not an algorithm
+
+Gaussian elimination is usually taught as a procedure with steps. It is better
+understood as applying a sequence of *invertible* row operations, each of which
+is multiplication by a simple matrix.
+
+$$
+E_k \cdots E_2 E_1 A = U
+$$
+
+Each $E_i$ is invertible, so the product $E_k \cdots E_1$ is invertible, and an
+invertible map does not change the solution set. **That is why elimination is
+allowed to work at all**: every row operation produces a system with exactly
+the same solutions.
+
+Reading the product the other way gives the LU decomposition:
+
+$$
+A = (E_k \cdots E_1)^{-1} U = LU,
+$$
+
+where $L$ is lower triangular with the multipliers on its entries. So LU is
+not a separate technique from elimination -- it is the elimination *recorded*,
+which is why factoring once and solving many times is cheaper than eliminating
+from scratch for every right-hand side.
+
+**Why pivoting is needed.** Dividing by a pivot that is small -- or zero -- is
+what breaks elimination. Swapping rows to bring the largest available entry to
+the pivot position costs nothing and avoids dividing by something tiny. In
+exact arithmetic it is unnecessary; in floating point it is the difference
+between an answer and noise, because a tiny pivot amplifies rounding error
+into every entry below it.
+
 ### 4.1 Gaussian Elimination
 
 A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$ Where
@@ -15482,6 +15530,74 @@ $\blacksquare$
 Gaussian elimination is the systematic process of untangling a web of simultaneous constraints. Each equation in a linear system defines a hyperplane in some high-dimensional space, and a solution is a point where all hyperplanes intersect. Row reduction is the algebraic equivalent of rotating and sliding these hyperplanes until they reveal their intersection evidently. When you swap rows, you are re-ordering which constraint you address first. When you multiply a row by a scalar, you are rescaling a constraint without changing the solution set. When you add a multiple of one row to another, you are using one equation to eliminate a variable from another -- the same logic as solving two equations with two unknowns by substitution.
 
 The deeper insight is that row reduction preserves the solution space while simplifying its description. The row echelon form makes the structure of the solution set transparent: pivot columns identify the dependent variables, free columns identify the independent degrees of freedom, and the rank tells you the dimension of the solution space. This is why the same technique extends to function spaces and operator theory, where infinite-dimensional systems of equations arise logically.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| A system with the same number of equations as unknowns has a unique solution | no | $x + y = 2$ and $2x + 2y = 4$ has infinitely many; $x+y=2$ and $x+y=3$ has none |
+| A square system always has a solution | no | $x + y = 1$, $x + y = 2$ is square and inconsistent |
+| More equations than unknowns means no solution | no | duplicate or dependent equations collapse; three copies of one equation in one unknown has a solution |
+| Row operations change the solution set | no | they are invertible, which is the *reason* elimination is valid |
+| Least squares solves the system | no | it solves a different system, $A^TAx = A^Tb$, whose solution is the best approximation when $Ax = b$ has none |
+| A zero row in echelon form means no solution | no | a zero row means infinitely many solutions if the augmented entry is also zero, and no solution if it is not -- read the *augmented* column |
+| Partial pivoting changes the exact answer | no | it changes the rounding behaviour only; in exact arithmetic the solutions are identical |
+| The LU factorisation exists for every matrix | no | it requires non-zero pivots in order; pivoting gives a permuted factorisation $PA = LU$ |
+
+The first row is the one to internalise, because the shape of the *coefficient
+matrix* does not determine the outcome. Two systems can look identical in
+shape and differ in every way that matters -- which is why the answer is read
+from the echelon form of the *augmented* matrix.
+
+The least-squares row is the bridge to the next idea: when $Ax = b$ has no
+solution, asking for the best $x$ is still a sensible question, and the normal
+equations answer it.
+
+## Where the research frontier is
+
+- **Sparse elimination.** For matrices from real problems, most entries are
+  zero, and the *ordering* of elimination determines how much fill-in appears.
+  Choosing a good ordering is NP-hard in general, so heuristics -- minimum
+  degree, nested dissection -- are where the practical gains live.
+- **Iterative methods.** For very large systems, factorisation is too
+  expensive and Krylov subspace methods (conjugate gradient, GMRES) are used
+  instead; their convergence theory is where the research is.
+- **Randomised linear algebra.** Sketching a large system down to a smaller
+  one and solving that, with probability bounds on the error.
+- **Rounding-error analysis.** The classic backward-error results are decades
+  old, and extending them to structured and low-rank matrices is active.
+- **Complexity.** Whether Gaussian elimination is optimal, and the exponent of
+  matrix multiplication, connect this page to the open problem on the
+  [matrices page](/2-linear-algebra/3_matrices/).
+
+## Interleaving problems
+
+Mix these with [Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/),
+[Matrices](/2-linear-algebra/3_matrices/), [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Singular
+Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/) and
+[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/).
+
+1. (Dimension.) A consistent system with rank $r$ in $n$ unknowns has $n - r$
+   free parameters. Derive that from rank-nullity rather than from elimination,
+   and say what the null space is.
+2. (Matrices.) Show that a system is uniquely solvable exactly when the
+   coefficient matrix is invertible, and that this is equivalent to a non-zero
+   determinant and to full rank. Three statements, one fact.
+3. (LU.) Carry out elimination on a $3\times3$ matrix and read the multipliers
+   off into $L$. Verify $A = LU$ by multiplication, and explain why $U$ has the
+   pivots on its diagonal.
+4. (Eigenvalues.) Show that the eigenvalues of a triangular matrix are its
+   diagonal entries, and explain why that makes reduction to triangular form
+   the standard route to eigenvalues.
+5. (Inner products.) Derive the normal equations $A^TAx = A^Tb$ from the
+   geometry: the residual $b - Ax$ must be orthogonal to the column space. Then
+   explain why orthogonality, rather than "as close as possible", is the real
+   condition.
+6. (Numerical analysis.) Construct a $2\times2$ system where elimination
+   without pivoting produces a wildly wrong answer, and show that partial
+   pivoting fixes it. One small pivot is enough.
 
 ## Cross-References
 
