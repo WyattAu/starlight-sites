@@ -414,3 +414,53 @@ anchors, and those links would break. The work is:
 
 Until then the site carries the probability course twice, and the two copies
 will drift.
+
+## 14. Proved results: the real gap is that there are almost none
+
+Three pages were found in one session stating theorems with arguments that did
+not establish them. All three have been corrected:
+
+- `11-functional-analysis/4_the-fundamental-theorems.md` stated four fundamental
+  theorems with a single proof sketch among fourteen sections, gave a false
+  "equivalent norms" application (one inequality is not equivalence), and set a
+  practice problem asking for an isometric right inverse to the quotient map for
+  every closed subspace of a Banach space -- true only in Hilbert spaces. Now
+  416 body lines with full proofs, the norm statement corrected, and the bad
+  exercise replaced by one that asks the reader to find the flaw.
+- `10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension.md`
+  had three invalid arguments: a length lower bound attributed to compactness
+  that compactness cannot give, a Cantor-set computation that subtracted outer
+  measures, and a disjointness argument that gives no lower bound. All corrected.
+- `9-topology/9_introduction-to-algebraic-topology.md` had invented a term
+  ("directly connected" for "simply connected") and used it inside a definition
+  and in three theorem statements.
+
+**The measurement, and why there is no gate for this.** Counting proof blocks
+across all 45 sites finds 69 in total: 14 short ones that do contain mathematics,
+and exactly 1 that is short *and* contains no mathematics -- a definitional
+remark in `computer-science/6-theory-of-computation/6_complexity-theory.md` that
+is not a proof attempt at all. So a "proof contains no mathematics" detector
+would fire once, on a false positive. Shipping it would add a gate that cannot
+catch anything while making the suite look stronger than it is, so it was
+measured, found empty, and not shipped.
+
+**What the number actually says.** 69 proofs across the network is the problem.
+These are notes that state results; the ones aiming at Aluffi and Korner need
+proofs. The gap is not bad proofs, it is absent ones, and no linter detects
+absence -- a page with no proof and a page with a correct proof are identical as
+far as any static check can tell.
+
+This is a worklist, and the order is by subject weight:
+
+1. The mathematics graduate tracks (`12-graduate-analysis`,
+   `13-graduate-statistics`, `14-graduate-stochastic-analysis`,
+   `15-graduate-representation-theory`, `16-graduate-geometry`) total 6 pages
+   between them. A PhD-level page with no proof of anything is a list of claims.
+2. The research-tier pages added this year -- spectral theory, Ito, stochastic
+   PDEs, Ricci flow, Bernstein-von Mises -- should each prove its central
+   theorem.
+3. `10-measure-theory` and `11-functional-analysis` have the most proofs of any
+   tracks and set the pattern worth extending.
+
+The `Proof` / `\blacksquare` convention is established and detected reliably, so
+a page that wants to be counted in this worklist only has to use it.
