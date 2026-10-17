@@ -56,6 +56,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Inner Product Spaces And Hilbert Spaces](https://mathematics.wyattau.com/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
 - [Normed Spaces And Banach Spaces](https://mathematics.wyattau.com/11-functional-analysis/1_normed-spaces-and-banach-spaces/)
 - [Practice Functional Analysis](https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis/)
+- [Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)
 - [Summary Of Key Theorems](https://mathematics.wyattau.com/11-functional-analysis/9_summary-of-key-theorems/)
 - [The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)
 - [Weak And Weak Convergence](https://mathematics.wyattau.com/11-functional-analysis/6_weak-and-weak-convergence/)
