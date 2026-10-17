@@ -489,11 +489,29 @@ jobs.
 3. The physics research tier survey also came out empty: no page across the seven
    physics tracks has two or more theorems and no proof.
 
-Nothing is marked done that is not. The next content work is new depth rather
-than repair: the tracks listed in item 14's original table are now all proved,
-and the highest-value remaining move is new material -- the research-tier pages
-that do not yet exist, such as Peter-Weyl to complete the representation theory
-line, or the stochastic-PDE track's second page on paracontrolled calculus.
+Nothing is marked done that is not. Of that list, Peter-Weyl, de Rham, Hodge
+theory, Kahler/Calabi-Yau and the stochastic-PDE critical dimension are all now
+written, deployed and verified live; the differential-geometry extensions chain
+(forms -> de Rham -> Hodge -> Kahler) is complete, and each page is
+cross-referenced both ways.
+
+**Next content, by measured demand.** A mention count across the mathematics
+track, against the set of existing pages, gives the ordering. The counts are
+mentions of a topic that has no page of its own:
+
+1. Sobolev spaces and the embedding theorems (10 mentions) -- the functional
+   analysis the PDE applications lean on.
+2. Mayer-Vietoris (8) -- the computational tool the algebraic-topology page uses
+   to compute $H^*(S^2)$ and $H^*(\Sigma_2)$ and the de Rham page cites; a page
+   would let both computations stop being self-contained digressions.
+3. Gelfand representation and Gelfand-Raikov (6) -- cited by the Peter-Weyl page
+   as its one unproved ingredient.
+4. Elliptic regularity (4) -- the black box the Hodge theorem names.
+5. Fubini-Study (3), mirror symmetry (2), Atiyah-Singer (2).
+
+Kahler and Calabi-Yau were the top gaps until this session; Sobolev and
+Mayer-Vietoris are now the two that are used by existing pages rather than
+merely mentioned, so they come first.
 
 The survey method, for whoever picks this up: count proof terminators per page
 against the count of `**Theorem`-style markers. A page with many markers and no
