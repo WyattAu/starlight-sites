@@ -450,17 +450,46 @@ proofs. The gap is not bad proofs, it is absent ones, and no linter detects
 absence -- a page with no proof and a page with a correct proof are identical as
 far as any static check can tell.
 
-This is a worklist, and the order is by subject weight:
+This is a worklist, and the order is by subject weight.
 
-1. The mathematics graduate tracks (`12-graduate-analysis`,
-   `13-graduate-statistics`, `14-graduate-stochastic-analysis`,
-   `15-graduate-representation-theory`, `16-graduate-geometry`) total 6 pages
-   between them. A PhD-level page with no proof of anything is a list of claims.
-2. The research-tier pages added this year -- spectral theory, Ito, stochastic
-   PDEs, Ricci flow, Bernstein-von Mises -- should each prove its central
-   theorem.
-3. `10-measure-theory` and `11-functional-analysis` have the most proofs of any
-   tracks and set the pattern worth extending.
+**Update: items 1 and 2 are done for the graduate tracks.** Five of the six
+graduate pages now carry a Proofs section and every theorem they state is proved:
+
+<div class="table-wrap">
+
+| page | before | after |
+| ---- | ------ | ----- |
+| spectral theory of self-adjoint operators | 209 lines, 0 proofs | 304, 4 proofs |
+| posterior asymptotics / Bernstein-von Mises | 172, 0 | 271, 1 (the full LAN proof) |
+| Ito integration and formula | 185, 0 | 268, 3 (isometry, QV, Ito) |
+| representation theory of finite groups | 183, 1 | 230, 3 |
+| Ricci flow and geometrisation | 182, 0 theorems at all | 277, 2 proofs |
+
+</div>
+
+Each proof is written to show where the hypotheses are spent rather than merely
+to certify the result, and each page keeps its intuition-first design -- the
+proofs are their own section, because the picture and the argument do different
+jobs.
+
+**Remaining from this item.**
+
+1. `14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures.md`
+   still has no theorems or proofs. It is a survey of regularity structures,
+   where the honest difficulty is that the theory's results are a long way from
+   the definitions; it needs a decision about whether to prove the renormalisation
+   statement for the Phi-4 model or to say explicitly that it is a survey and stop
+   implying otherwise.
+2. Every page in `10-measure-theory` and `11-functional-analysis` that states a
+   theorem without proving it. The functional-analysis fundamental theorems are
+   done; the other pages are not yet surveyed page by page.
+3. The physics research tier (spectral theory, symplectic/KAM, scattering) has
+   proofs on the flagship pages but has not been surveyed with the same
+   theorems-versus-proofs count.
+
+The survey method, for whoever picks this up: count `\blacksquare` per page
+against the count of `**Theorem`-style markers. A page with many markers and no
+black squares is a list of claims, and that is the ordering signal.
 
 The `Proof` / `\blacksquare` convention is established and detected reliably, so
 a page that wants to be counted in this worklist only has to use it.
