@@ -39,7 +39,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"By Stokes\' theorem, $\\int_{\\partial D} \\omega = \\int_D d\\omega$. If $\\omega = x\\, dy$ on $D = [0, 1]^2 \\subseteq \\mathbb{R}^2$, what is $\\int_{\\partial D} x\\, dy$?"} options={['$0$', '$1$', '$-1$', '$2$']} correctAnswer={1} explanation={"$d\\omega = d(x\\, dy) = dx \\wedge dy$. So $\\int_D d\\omega = \\int_D dx \\wedge dy = \\int_0^1 \\int_0^1 dx\\, dy = 1$. By Stokes\' theorem, $\\int_{\\partial D} x\\, dy = 1$."} difficulty="medium" />
 
-<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a directly connected manifold $M$, what can you conclude?"} options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation={"By the Poincare lemma (or de Rham cohomology), on a directly connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a simply connected manifold $M$, what can you conclude?"} options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation={"By the Poincare lemma (or de Rham cohomology), on a simply connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
 
 ---
 
@@ -51,7 +51,7 @@ the explanation.
 
 **Confusing the tangent bundle with the cotangent bundle:** The tangent bundle $TM$ consists of tangent vectors (velocity vectors), while the cotangent bundle $T^*M$ consists of covectors (1-forms, linear functionals on tangent spaces). Both have dimension $2n$, but they are different manifolds. The differential $df$ lives in $T^*M$, not $TM$.
 
-**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (directly connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact, its integral around $S^1$ is $2\pi \neq 0$.
+**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (simply connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact, its integral around $S^1$ is $2\pi \neq 0$.
 
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 

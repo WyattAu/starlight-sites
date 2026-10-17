@@ -50,6 +50,7 @@ run 'content depth'           node scripts/lint-depth.js
 run 'content validation'      node scripts/lint-content.js
 run 'description validation'  node scripts/lint-descriptions.js
 run 'no emoji'                node scripts/lint-no-emoji.js
+run 'terminology'             node scripts/lint-terminology.js
 run 'hand-wave detection'     node scripts/lint-handwaves.js
 run 'latex corruption'        node scripts/lint-latex.js
 run 'forward references'      node scripts/lint-forward-refs.js

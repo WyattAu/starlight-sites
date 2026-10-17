@@ -9153,7 +9153,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"By Stokes\' theorem, $\\int_{\\partial D} \\omega = \\int_D d\\omega$. If $\\omega = x\\, dy$ on $D = [0, 1]^2 \\subseteq \\mathbb{R}^2$, what is $\\int_{\\partial D} x\\, dy$?"} options={['$0$', '$1$', '$-1$', '$2$']} correctAnswer={1} explanation={"$d\\omega = d(x\\, dy) = dx \\wedge dy$. So $\\int_D d\\omega = \\int_D dx \\wedge dy = \\int_0^1 \\int_0^1 dx\\, dy = 1$. By Stokes\' theorem, $\\int_{\\partial D} x\\, dy = 1$."} difficulty="medium" />
 
-<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a directly connected manifold $M$, what can you conclude?"} options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation={"By the Poincare lemma (or de Rham cohomology), on a directly connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a simply connected manifold $M$, what can you conclude?"} options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation={"By the Poincare lemma (or de Rham cohomology), on a simply connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
 
 ---
 
@@ -9165,7 +9165,7 @@ the explanation.
 
 **Confusing the tangent bundle with the cotangent bundle:** The tangent bundle $TM$ consists of tangent vectors (velocity vectors), while the cotangent bundle $T^*M$ consists of covectors (1-forms, linear functionals on tangent spaces). Both have dimension $2n$, but they are different manifolds. The differential $df$ lives in $T^*M$, not $TM$.
 
-**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (directly connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact, its integral around $S^1$ is $2\pi \neq 0$.
+**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (simply connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact, its integral around $S^1$ is $2\pi \neq 0$.
 
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 
@@ -26477,17 +26477,17 @@ theorem).
 
 ### 13.6 Monodromy Theorem
 
-**Theorem 13.2 (Monodromy).** Let $f$ be analytic on a directly connected domain $D$ and suppose
+**Theorem 13.2 (Monodromy).** Let $f$ be analytic on a simply connected domain $D$ and suppose
 $f$ can be analytically continued along every curve in $D$. Then $f$ extends to a single-valued
 analytic function on all of $D$.
 
 **Intuition.** The monodromy theorem guarantees that local analytic continuation along paths
-gives a well-defined global function if the domain is directly connected. On multiply connected
+gives a well-defined global function if the domain is simply connected. On multiply connected
 domains, continuation around a closed loop may produce a different branch (monodromy).
 
 **Branch points.** The function $\sqrt{z}$ has a branch point at $z = 0$. Continuing along a
 loop encircling the origin changes the sign of the function. The monodromy theorem fails
-because $\mathbb{C}\setminus\{0\}$ is not directly connected.
+because $\mathbb{C}\setminus\{0\}$ is not simply connected.
 
 ### 13.7 Schwarz Reflection Principle
 
@@ -27227,8 +27227,8 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 
 ## Common Pitfalls
 
-- **Assuming Cauchy's theorem applies to any closed contour:** The theorem requires $f$ to be analytic on a directly connected domain containing the contour. If the contour encloses any singularity, the integral may be non-zero.
-- **Confusing directly connected with connected:** A domain can be connected but not directly connected (e.g., an annulus). Cauchy's theorem fails on such domains without additional conditions on the contour.
+- **Assuming Cauchy's theorem applies to any closed contour:** The theorem requires $f$ to be analytic on a simply connected domain containing the contour. If the contour encloses any singularity, the integral may be non-zero.
+- **Confusing simply connected with connected:** A domain can be connected but not simply connected (e.g., an annulus). Cauchy's theorem fails on such domains without additional conditions on the contour.
 - **Applying the deformation theorem outside the domain of analyticity:** The contour can only be deformed through regions where $f$ remains analytic. Deforming a contour across a singularity changes the value of the integral.
 - **Forgetting orientation when using the multiply connected theorem:** The outer contour and inner contours must be traversed with consistent positive orientation (counterclockwise for the outer, clockwise for the inner) for the equality $\int_\gamma f = \sum \int_{\gamma_k} f$ to hold.
 
@@ -27242,7 +27242,7 @@ $$
 I = \oint_{|z|=1} \frac{1}{2 + (z + z^{-1})/2} \cdot \frac{dz}{iz} = \oint_{|z|=1} \frac{2}{4z + z^2 + 1} \cdot \frac{dz}{i} = \frac{2}{i} \oint_{|z|=1} \frac{dz}{z^2 + 4z + 1}
 $$
 
-The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the directly connected region after deformation:
+The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the simply connected region after deformation:
 
 $$
 I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}{z^2 + 4z + 1} = 4\pi \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}
@@ -27270,7 +27270,7 @@ Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 
 - **Cauchy's theorem requires analyticity on the entire region enclosed by the contour.** If $f$ has even a single singularity inside $\gamma$, the integral may be nonzero.
 - **The integral over a closed contour equals $2\pi i$ times the sum of residues** (a consequence of Cauchy's theorem for multiply connected domains), connecting Cauchy's theorem to the residue calculus.
-- **Path independence is equivalent to the existence of an antiderivative** on a directly connected domain, which in turn is guaranteed by Cauchy's theorem.
+- **Path independence is equivalent to the existence of an antiderivative** on a simply connected domain, which in turn is guaranteed by Cauchy's theorem.
 - **Deformation of contours allows replacing complicated paths with simple ones** (e.g., small circles around singularities) without changing the integral value.
 - **The Cauchy-Riemann equations are both necessary and sufficient** for the proof: the vanishing of the double integral in the proof relies entirely on $u_x = v_y$ and $u_y = -v_x$.
 
@@ -27456,7 +27456,7 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 ## Cross-References
 
 - **[Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)**: Analytic functions are infinitely differentiable and satisfy the Cauchy-Riemann equations.
-- **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem requires analyticity on a directly connected domain for the integral to vanish.
+- **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem requires analyticity on a simply connected domain for the integral to vanish.
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
@@ -27822,7 +27822,7 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 
 ### 4.7 Intuition: What Makes Complex Integration Special?
 
-Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a directly connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
+Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a simply connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
 
 The Cauchy integral formula is the cornerstone: it says that the value of an analytic function at any interior point of a contour is completely determined by its values on the boundary. This is far stronger than anything in real analysis, where a function's values on an interval tell you nothing about its values elsewhere. The residue theorem, which computes integrals by summing contributions from singularities inside the contour, is a consequence of the Cauchy integral formula. These tools make it possible to evaluate many real integrals that are difficult or impossible by real methods alone.
 
@@ -28295,7 +28295,7 @@ to the boundary (no penetration condition). $\blacksquare$
 | Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $ \| f'(z_0) \| $ |
 | Circle preservation | Möbius transformations map circles and lines to circles and lines |
 | Cross-ratio invariance | $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$ for any Möbius $T$ |
-| Riemann mapping | Any directly connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
+| Riemann mapping | Any simply connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
 | Laplace correspondence | Solutions to $\nabla^2 u = 0$ are preserved under conformal maps |
 
 </div>
@@ -28304,7 +28304,7 @@ to the boundary (no penetration condition). $\blacksquare$
 
 ## Intuition
 
-Conformal mappings are angle-preserving transformations of the complex plane. A holomorphic function with non-zero derivative acts locally as a rotation plus a scaling, it preserves the shape of infinitesimal figures while possibly changing their size and orientation. This makes conformal maps the natural language for problems involving fluid flow, electrostatics, and heat conduction, where the geometry of the domain can be simplified by mapping it to a simpler shape. Möbius transformations are the building blocks: they map circles to circles and are determined by where they send three points. The Riemann mapping theorem guarantees that any directly connected domain (except the whole plane) can be conformally mapped to the unit disk.
+Conformal mappings are angle-preserving transformations of the complex plane. A holomorphic function with non-zero derivative acts locally as a rotation plus a scaling, it preserves the shape of infinitesimal figures while possibly changing their size and orientation. This makes conformal maps the natural language for problems involving fluid flow, electrostatics, and heat conduction, where the geometry of the domain can be simplified by mapping it to a simpler shape. Möbius transformations are the building blocks: they map circles to circles and are determined by where they send three points. The Riemann mapping theorem guarantees that any simply connected domain (except the whole plane) can be conformally mapped to the unit disk.
 
 ### 10.9 Common Mistakes
 
@@ -37526,18 +37526,18 @@ $\pi_1(X) \cong \pi_1(Y)$.
 by their winding number.
 
 **Example 9.3.** $\pi_1(\mathbb{R}^n) = \{e\}$ (the trivial group) for all $n \geq 1$. More
-generally, the fundamental group of any directly connected space is trivial.
+generally, the fundamental group of any simply connected space is trivial.
 
 **Example 9.4.** $\pi_1(T^2) \cong \mathbb{Z} \times \mathbb{Z}$, where $T^2$ is the torus.
 
-### 9.3 Directly Connected Spaces
+### 9.3 Simply Connected Spaces
 
-**Definition.** A path-connected space $X$ is **directly connected** if $\pi_1(X) \cong \{e\}$.
+**Definition.** A path-connected space $X$ is **simply connected** if $\pi_1(X) \cong \{e\}$.
 
 Equivalently, every loop in $X$ can be continuously contracted to a point.
 
 **Proposition 9.2.** $\mathbb{R}^n$, $S^n$ (for $n \geq 2$), and any convex subset of $\mathbb{R}^n$
-are directly connected.
+are simply connected.
 
 ### 9.4 Euler Characteristic
 
@@ -37605,7 +37605,7 @@ number.
 - **Homotopy equivalence is weaker than homeomorphism:** Two spaces can be homotopy equivalent without being homeomorphic (e.g., $\mathbb{R}^n$ and a point are homotopy equivalent but not homeomorphic).
 - **The fundamental group detects "holes":** A space with trivial $\pi_1$ has no one-dimensional holes; non-trivial $\pi_1$ indicates loops that cannot be contracted.
 - **Euler characteristic is a homotopy invariant:** Any two homotopy equivalent spaces have the same Euler characteristic, even though it can be computed from any triangulation.
-- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is directly connected, and $\pi_1(X)$ acts on it as deck transformations.
+- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is simply connected, and $\pi_1(X)$ acts on it as deck transformations.
 - **The classification of surfaces reduces topology to algebra:** Every compact surface is determined by its orientability and Euler characteristic.
 
 ## Common Pitfalls
@@ -37623,7 +37623,7 @@ number.
 
 ## Intuition
 
-Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is directly connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
+Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is simply connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
 
 ## Cross-References
 

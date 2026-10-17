@@ -49,18 +49,18 @@ $\pi_1(X) \cong \pi_1(Y)$.
 by their winding number.
 
 **Example 9.3.** $\pi_1(\mathbb{R}^n) = \{e\}$ (the trivial group) for all $n \geq 1$. More
-generally, the fundamental group of any directly connected space is trivial.
+generally, the fundamental group of any simply connected space is trivial.
 
 **Example 9.4.** $\pi_1(T^2) \cong \mathbb{Z} \times \mathbb{Z}$, where $T^2$ is the torus.
 
-### 9.3 Directly Connected Spaces
+### 9.3 Simply Connected Spaces
 
-**Definition.** A path-connected space $X$ is **directly connected** if $\pi_1(X) \cong \{e\}$.
+**Definition.** A path-connected space $X$ is **simply connected** if $\pi_1(X) \cong \{e\}$.
 
 Equivalently, every loop in $X$ can be continuously contracted to a point.
 
 **Proposition 9.2.** $\mathbb{R}^n$, $S^n$ (for $n \geq 2$), and any convex subset of $\mathbb{R}^n$
-are directly connected.
+are simply connected.
 
 ### 9.4 Euler Characteristic
 
@@ -128,7 +128,7 @@ number.
 - **Homotopy equivalence is weaker than homeomorphism:** Two spaces can be homotopy equivalent without being homeomorphic (e.g., $\mathbb{R}^n$ and a point are homotopy equivalent but not homeomorphic).
 - **The fundamental group detects "holes":** A space with trivial $\pi_1$ has no one-dimensional holes; non-trivial $\pi_1$ indicates loops that cannot be contracted.
 - **Euler characteristic is a homotopy invariant:** Any two homotopy equivalent spaces have the same Euler characteristic, even though it can be computed from any triangulation.
-- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is directly connected, and $\pi_1(X)$ acts on it as deck transformations.
+- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is simply connected, and $\pi_1(X)$ acts on it as deck transformations.
 - **The classification of surfaces reduces topology to algebra:** Every compact surface is determined by its orientability and Euler characteristic.
 
 ## Common Pitfalls
@@ -146,7 +146,7 @@ number.
 
 ## Intuition
 
-Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is directly connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
+Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is simply connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
 
 ## Cross-References
 

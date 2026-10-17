@@ -72,8 +72,14 @@ jobs:
       - name: Table shape gate (content)
         run: node --max-old-space-size=2048 scripts/lint-tables.mjs --check
 
+      - name: Responsive-table gate (content)
+        run: python3 scripts/wrap-tables.py --check
+
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
+
+      - name: Terminology lint (content)
+        run: node scripts/lint-terminology.js
 
       - name: PracticeProblem corruption lint (content)
         run: node scripts/lint-practice-components.js
