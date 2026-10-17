@@ -181,6 +181,130 @@ priors and BvM is the current frontier.
 the first order*. At the second order it is not, and that matters for
 computation, for credible set calibration, and for the behaviour of MCMC.
 
+## Proof of the Bernstein–von Mises theorem
+
+The proof is worth reading because its machinery — local asymptotic normality,
+contiguity — is the same machinery every modern result in this area is proved
+with: contraction rates, the misspecified version below, and the
+high-dimensional $k_n^5/n \to 0$ condition are all proved by running the same
+argument with harder estimates inside it.
+
+Write it in one dimension. The $k$-dimensional case is identical with
+$I(\theta_0)$ a matrix and $\Delta_n$ a vector; only the notation is heavier.
+
+**Step 1: local asymptotic normality.** Reparametrise to the *local* parameter
+$h = \sqrt{n}(\theta - \theta_0)$ and expand the log-likelihood ratio about
+$\theta_0$:
+
+$$
+\log\frac{p_{\theta_0 + h/\sqrt{n}}^{(n)}(X)}{p_{\theta_0}^{(n)}(X)}
+= \frac{h}{\sqrt{n}} \sum_{i=1}^n \dot\ell_{\theta_0}(X_i)
+- \frac{h^2}{2} I(\theta_0) + R_n,
+$$
+
+where $\dot\ell_\theta = \partial_\theta \log p_\theta$ and $R_n \to 0$ in
+probability, uniformly in $h$ in compacts. This is the LAN condition. The two
+main terms are the *score at scale* $\Delta_n = \frac{1}{\sqrt n}\sum_i
+\dot\ell_{\theta_0}(X_i)$ and a deterministic quadratic penalty $-h^2 I/2$.
+Smoothness of $p_\theta$ and finiteness of $I(\theta_0)$ give it by Taylor's
+theorem; the content of the hypothesis "regular model" is that $R_n$ is
+controlled.
+
+**Step 2: what LAN says about the likelihood ratio.** Define
+
+$$
+Z_{n,h} = \frac{p_{\theta_0 + h/\sqrt{n}}^{(n)}(X)}{p_{\theta_0}^{(n)}(X)}.
+$$
+
+By Step 1, $Z_{n,h} = \exp(h\Delta_n - \tfrac{1}{2}h^2 I + R_n)$. Under
+$P_{\theta_0}$, $\Delta_n \Rightarrow N(0, I)$ by the ordinary CLT, and the
+map $h \mapsto Z_{n,h}$ is asymptotically the *likelihood ratio of a Gaussian
+shift experiment*: an experiment in which one observes $\Delta = h + \text{noise}$
+with $\text{noise} \sim N(0, I)$. That is what "local asymptotic normality"
+means, and it is why the normal shows up on both sides of the theorem.
+
+**Step 3: rewrite the posterior in the local parameter.** The posterior density
+of $h$ given $X$, at the true $\theta_0$, is proportional to
+
+$$
+\pi\!\left(\theta_0 + \frac{h}{\sqrt n}\right)
+\frac{1}{\sqrt n}\,p_{\theta_0 + h/\sqrt n}^{(n)}(X),
+$$
+
+and dividing through by the value at $h = 0$ turns it into
+
+$$
+\frac{\pi(\theta_0 + h/\sqrt n)}{\pi(\theta_0)} \cdot Z_{n,h}.
+$$
+
+Both factors are now under control: the prior factor is bounded, and tends to
+$1$ uniformly on compacts by continuity of $\pi$ at $\theta_0$; and $Z_{n,h}$ is
+the LAN expression from Step 2. This is the whole reason the theorem needs the
+prior to be *positive and continuous at $\theta_0$* — positivity keeps the
+normalising constant from vanishing, and continuity makes the prior factor
+asymptotically constant, which is exactly the sense in which the prior drops out.
+
+**Step 4: the main estimate.** One shows that for every $\varepsilon > 0$,
+
+$$
+\int_{|h| > \varepsilon\sqrt n}
+\frac{\pi(\theta_0 + h/\sqrt n)}{\pi(\theta_0)}
+Z_{n,h} \, dh \xrightarrow{P} 0.
+$$
+
+This is the *only* genuinely hard estimate in the proof, and it is where
+consistency is spent. Outside a neighbourhood of $\theta_0$ the likelihood ratio
+decays exponentially, by Schwartz's test condition — the same condition that
+gave posterior consistency in the section above. The theorem is not independent
+of consistency; it is consistency plus a local Gaussian approximation.
+
+**Step 5: the characteristic function.** For the *total variation* statement
+claimed, it suffices to prove convergence of characteristic functions on the
+local parameter, since the tails are already handled in Step 4. For
+$t \in \mathbb{R}$,
+
+$$
+\mathbb{E}\!\left[\left.e^{itH_n}\right| X\right]
+= \frac{\displaystyle\int e^{ith} Z_{n,h}\,dh}
+{\displaystyle\int Z_{n,h}\,dh}
+\qquad \text{with } H_n = \sqrt n(\theta - \theta_0),
+$$
+
+and substituting the LAN form of $Z_{n,h}$:
+
+$$
+= \frac{\displaystyle\int e^{ith}\,
+e^{h\Delta_n - h^2 I/2}\,dh}
+{\displaystyle\int e^{h\Delta_n - h^2 I/2}\,dh}
+\;\longrightarrow\;
+\frac{\displaystyle\int e^{ith}\,e^{-I(h - \Delta/I)^2/2}\,dh}
+{\displaystyle\int e^{-I(h-\Delta/I)^2/2}\,dh}
+= e^{it\Delta/I}\, e^{-t^2/(4I)},
+$$
+
+the characteristic function of $N(\Delta/I, 1/(2I))$. Since
+$\Delta_n/I \Rightarrow N(0, 1/I)$ under $P_{\theta_0}$, and the credible
+interval endpoints are continuous functionals of this Gaussian, the rescaled
+posterior converges in distribution — and by the usual lifting from weak to
+total variation for measures with densities bounded as in Step 4, in total
+variation:
+
+$$
+\sup_h \left| \Pi_n\big(h \le \sqrt n(\theta-\theta_0) \mid X\big) - \Phi_{1/I}(h) \right| \xrightarrow{P} 0.
+$$
+
+Replace $1/I$ by $I(\theta_0)^{-1}$ and $\theta_0$ by any consistent
+$\hat\theta_n$ to get the stated form. $\blacksquare$
+
+**What each hypothesis bought.** Smoothness and finite information gave LAN in
+Step 1. Prior continuity made the prior drop out in Step 3. Positivity of the
+prior kept the denominator alive. Schwartz's conditions did the work in Step 4,
+which is why the theorem is stated for a *consistent* model: BvM is not an
+addition to consistency but a refinement of it. And contiguity — the only tool
+not yet named — is what licenses transferring statements between
+$P_{\theta_0+h/\sqrt n}$ and $P_{\theta_0}$, which is what makes the local
+argument legitimate.
+
 ## Counterexamples
 
 **Freedman's theorem.** There exist priors with full support for which the
