@@ -9993,6 +9993,20 @@ A smooth manifold is a topological space that locally resembles Euclidean space 
 9. [Applications](/12-differential-geometry/9_applications/)
 10. [Summary](/12-differential-geometry/10_summary/)
 
+### Extensions: forms meet topology
+
+Two graduate-level pages extend the track into algebraic topology, and both
+depend only on items 4 and 5 above.
+
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/) — closed
+  forms modulo exact forms. The exterior derivative satisfies $d^2 = 0$, so
+  Stokes' theorem has a converse-shaped consequence: on a manifold with holes,
+  some closed forms are not exact, and the obstruction is the topology.
+- [Hodge Theory](/12-differential-geometry/14_hodge-theory/) — every de Rham
+  class has a unique harmonic representative, so the Betti numbers are the
+  dimensions of kernels of an elliptic operator and topology becomes computable
+  by PDE.
+
 ## Overview
 
 University-level differential geometry notes covering manifolds, forms, and Riemannian geometry.
