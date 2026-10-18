@@ -14,6 +14,16 @@ description: "Study notes for Mathematics with worked examples, practice problem
 }
 </script>
 
+:::note[New to proof-based mathematics? Start here]
+If your school background is exam-focused, or your exam board did not cover
+proofs, limits from the definition, or set notation, read
+**[Before You Begin: From School to University Mathematics](/before-you-begin/)**
+first. It defines every term the tracks use, proves every rule it states, and is
+written to be skimmed by confident readers: take the self-test at the end, and
+only study the sections whose answers surprise you.
+:::
+
+
 ## Mathematics
 
 Welcome to the mathematics notes. These notes cover proof-based undergraduate mathematics, from foundational algebraic structures to advanced analysis and geometry.
