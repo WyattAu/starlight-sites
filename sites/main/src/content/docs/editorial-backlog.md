@@ -495,21 +495,27 @@ written, deployed and verified live; the differential-geometry extensions chain
 (forms -> de Rham -> Hodge -> Kahler) is complete, and each page is
 cross-referenced both ways.
 
-**Next content, by measured demand.** A mention count across the mathematics
-track, against the set of existing pages, gives the ordering. The counts are
-mentions of a topic that has no page of its own:
+**Next content, by measured demand -- updated: all the top items are now written.**
 
-1. Sobolev spaces and the embedding theorems (10 mentions) -- the functional
-   analysis the PDE applications lean on.
+1. ~~Sobolev spaces~~ -- DONE: page live in the functional analysis track.
 2. ~~Mayer-Vietoris~~ -- closed without a new page: it is already §9.8 of the
    algebraic-topology page with both computations done in full. The de Rham
    page's cross-reference now points at that section rather than gesturing, and
    duplicating it elsewhere would have created exactly the drift the monolith
    retirement removed.
-3. Gelfand representation and Gelfand-Raikov (6) -- cited by the Peter-Weyl page
-   as its one unproved ingredient.
-4. Elliptic regularity (4) -- the black box the Hodge theorem names.
-5. Fubini-Study (3), mirror symmetry (2), Atiyah-Singer (2).
+3. ~~Gelfand representation and Gelfand-Raikov~~ -- DONE: page 2 of the graduate
+   analysis track, proving the spectral radius formula, the commutative
+   C*-isomorphism theorem, and outlining GNS; the Peter-Weyl page now links it
+   for the ingredient it previously deferred to textbooks.
+4. ~~Elliptic regularity~~ -- DONE: page in the differential geometry track,
+   proving Weyl's lemma and interior H^2 regularity; the Hodge theorem's
+   black-box note now links to its proof.
+
+**Still open:** Fubini-Study (3 mentions, inside the Kahler page),
+mirror symmetry (2, also Kahler), Atiyah-Singer (2) -- all specialist topics
+whose value is research-depth rather than dependency repair, so they wait
+behind transition-page roll-out for the remaining subjects and any new proof
+gaps the next survey finds.
 
 Kahler and Calabi-Yau were the top gaps until this session; Sobolev and
 Mayer-Vietoris are now the two that are used by existing pages rather than
