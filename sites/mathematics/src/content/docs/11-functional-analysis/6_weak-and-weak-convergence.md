@@ -100,7 +100,144 @@ convergent sequences.
 **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
-### 6.8 Applications
+#**Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
+$K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
+
+## Proofs
+
+The four results this page needs proved are the ones its applications rest on:
+the lower semicontinuity of the norm, Mazur's lemma, the $\ell^p$ criterion and
+the compact-operator upgrade. Banach–Alaoglu's proof is structured but uses
+Tychonoff, and the page says so rather than hiding it.
+
+**Proposition 6.2 (weakly convergent sequences are bounded).** If
+$x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$.
+
+*Proof.* For each $n$, $\varphi(x_n) \to \varphi(x)$ for every
+$\varphi \in X^*$, so $\sup_n |\varphi(x_n)| < \infty$ for each *fixed*
+$\varphi$. The family $\{x_n\} \subseteq X \subseteq X^{**}$ is therefore
+pointwise bounded as a family of functionals on $X^*$, and
+[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/)
+— page 4's Theorem 4.11, with $X^*$ in the role of the complete space — gives
+$\sup_n \|x_n\| = \sup_n \|(x_n)^{**}\| < \infty$. $\blacksquare$
+
+Note the proof's direction: weak convergence is convergence in the weak*
+topology of the canonical image of $X$ in $X^{**}$, and Banach–Steinhaus needs
+the *domain* complete — which $X^*$ is. The application of the theorem to $X$
+itself is the interesting twist, and it is why completeness of $X$ is not needed
+for this proposition.
+
+**Corollary 6.11 (weak lower semicontinuity of the norm).** If
+$x_n \rightharpoonup x$ then $\|x\| \leq \liminf_n \|x_n\|$.
+
+*Proof.* By [Hahn–Banach's norm-attaining corollary
+4.4](/11-functional-analysis/4_the-fundamental-theorems/), for each $x \neq 0$
+there is $\varphi_x \in X^*$ with $\|\varphi_x\| = 1$ and
+$\varphi_x(x) = \|x\|$. Fix such $\varphi_x$ once; weak convergence gives
+$\varphi_x(x_n) \to \varphi_x(x) = \|x\|$, and
+
+$$
+\|x\| = |\varphi_x(x)| = \lim_n |\varphi_x(x_n)|
+\leq \liminf_n \|\varphi_x\|\,\|x_n\| = \liminf_n \|x_n\|.
+$$
+
+$\blacksquare$
+
+The inequality is the reason norm is not weakly continuous: weak convergence
+preserves nothing of the norm except that it cannot drop in the limit. The
+standard example $e_n \rightharpoonup 0$ in $\ell^2$ shows the drop: norms stay
+$1$ while the weak limit has norm $0$.
+
+**Lemma 6.9 (Mazur).** If $x_n \rightharpoonup x$, then some sequence of convex
+combinations of the $x_n$ converges to $x$ in norm.
+
+*Proof.* For each $N$, let $C_N = \overline{\operatorname{conv}}\{x_m : m \geq N\}$
+— closed, convex, non-empty. *Claim:* $x \in C_N$ for every $N$.
+
+Suppose not: $x \notin C_N$ for some $N$. Since $C_N$ is closed, convex and $x$
+is a positive distance outside it, the geometric form of Hahn–Banach — the
+separation theorem — gives $\varphi \in X^*$ and a real $c$ with
+
+$$
+\operatorname{Re}\varphi(x) > c \;\geq\; \operatorname{Re}\varphi(y)
+\quad\text{for all } y \in C_N.
+$$
+
+But weak convergence gives $\operatorname{Re}\varphi(x_m) \to \operatorname{Re}\varphi(x)$, so for all large $m \geq N$,
+$\operatorname{Re}\varphi(x_m) > c$ — and since $C_N$ is *convex*, every convex
+combination $y$ of those tail elements satisfies
+$\operatorname{Re}\varphi(y) > c$ too. That contradicts
+$\operatorname{Re}\varphi(y) \leq c$ on $C_N$. So $x \in C_N$ for every $N$.
+
+Now choose $y_N \in C_N$ with $\|y_N - x\| < 1/N$. Each $y_N$ is a convex
+combination of $\{x_m : m \geq N\}$ — finitely many of them, with non-negative
+coefficients summing to one — and $y_N \to x$ in norm. $\blacksquare$
+
+**Corollary 6.10 (norm-closed convex implies weakly closed).** A convex subset
+of a Banach space is weakly closed iff it is norm-closed.
+
+*Proof.* Weakly closed implies norm-closed always: the weak topology is
+weaker, so it has fewer closed sets — the content is the converse for convex
+$C$. Let $x_n \in C$ with $x_n \rightharpoonup x$; Mazur's lemma gives convex
+combinations $y_N \in C$ with $y_N \to x$ in norm, and $C$ norm-closed forces
+$x \in C$. So $C$ contains its weak limits. $\blacksquare$
+
+This corollary is the technical heart of the direct method in the calculus of
+variations, in the applications section below: it is what lets a variational
+argument, which naturally produces *weak* limits, still land in the constraint
+set — provided the constraint set is convex. Non-convex constraint sets are
+where weak convergence arguments fail, and the failure is structural.
+
+**Theorem 6.5 (the $\ell^p$ criterion).** For $1 < p < \infty$,
+$x_n \rightharpoonup x$ in $\ell^p$ iff $\sup_n \|x_n\|_p < \infty$ and
+$x_n(i) \to x(i)$ for every coordinate $i$.
+
+*Proof.* ($\Rightarrow$) Boundedness is Proposition 6.2. Coordinate functionals
+$\eta_i(y) = y(i)$ are bounded on $\ell^p$ with $\|\eta_i\| = 1$, so weak
+convergence gives $x_n(i) = \eta_i(x_n) \to \eta_i(x) = x(i)$.
+
+($\Leftarrow$) Let $y \in \ell^q$ with $1/p + 1/q = 1$; by Hölder,
+
+$$
+\left|\sum_i (x_n(i) - x(i))\, y(i)\right|
+\leq \sum_{i \leq N} |x_n(i) - x(i)|\,|y(i)|
++ \sup_n \|x_n - x\|_p \,\Big(\sum_{i > N} |y(i)|^q\Big)^{1/q}.
+$$
+
+The tail $\sum_{i>N}|y(i)|^q \to 0$ as $N \to \infty$ because $y \in \ell^q$,
+so choosing $N$ large makes the second term $\leq \epsilon \cdot M$ with
+$M = \sup_n\|x_n - x\|_p < \infty$ by Proposition 6.2. On the finite head, the
+convergence $x_n(i) \to x(i)$ coordinate by coordinate is a finite sum, so it
+tends to zero. Given $\epsilon$, choose $N$ for the tail, then $n_0$ for the
+head. $\blacksquare$
+
+The proof's two halves are the general template for every weak-convergence
+criterion on a sequence space: a *density* argument on the finite head and a
+*tail* estimate controlled by boundedness. The same split proves the $L^p$
+criterion of Proposition 6.8 with dense simple functions in place of finitely
+supported sequences.
+
+**Theorem 6.4 (Banach–Alaoglu).** The closed unit ball of $X^*$ is weak*
+compact.
+
+*Proof structure.* Map $\varphi \in \{ \varphi : \|\varphi\| \leq 1\}$ to the
+tuple $\big(\varphi(x)\big)_{x \in X}$ in the product
+$\prod_{x \in X} \bar D_x$, where $\bar D_x = \{z \in \mathbb{C} : |z| \leq \|x\|\}$ is a closed disc. Each disc is compact; Tychonoff makes the product
+compact; and the unit ball's image is closed in the product topology because
+linearity $\varphi(x + y) = \varphi(x) + \varphi(y)$ and the bound
+$|\varphi(x)| \leq \|x\|$ are conditions on finitely many coordinates, each
+closed. A closed subset of a compact product is compact. The product topology
+restricted to this image is exactly the weak* topology, and the map is injective
+(functionals are their coordinates). $\blacksquare$
+
+Where Tychonoff is used, and what it costs: the product of compact spaces is
+compact is equivalent to the ultrafilter lemma, strictly weaker than the full
+axiom of choice but not provable in ZF. For *separable* $X$ there is a
+diagonal-sequence proof that avoids Tychonoff entirely — which is why
+Banach–Alaoglu for separable spaces is elementary while the general statement
+is not.
+
+## 6.8 Applications
 
 **Application 1: Calculus of Variations.** Weak convergence is central to the direct method in the
 calculus of variations. To minimize a functional $I$ over a space $X$, one takes a minimizing
