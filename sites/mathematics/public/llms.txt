@@ -67,6 +67,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Curvature](https://mathematics.wyattau.com/12-differential-geometry/7_curvature/)
 - [De Rham Cohomology](https://mathematics.wyattau.com/12-differential-geometry/13_de-rham-cohomology/)
 - [Differential Forms](https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](https://mathematics.wyattau.com/12-differential-geometry/16_elliptic-regularity/)
 - [Flashcards Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/11_flashcards-differential-geometry/)
 - [Geodesics](https://mathematics.wyattau.com/12-differential-geometry/6_geodesics/)
 - [Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)

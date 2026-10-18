@@ -124,6 +124,10 @@ The analytic input — elliptic regularity, which says the kernel of an elliptic
 operator consists of smooth sections — is genuinely deep, and this page uses it
 as a black box. Flagging that is part of stating what has been proved: the
 algebra of the decomposition is elementary, and the regularity theorem is not.
+That theorem is proved in
+**[Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)** —
+Weyl's lemma and the difference-quotient interior regularity for Poisson's
+equation.
 
 ## 3. The Hodge theorem
 
