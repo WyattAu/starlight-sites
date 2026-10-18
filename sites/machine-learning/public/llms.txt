@@ -12,6 +12,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Index](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/)
 - [Measure Theoretic Probability](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/)
 - [Statistical Decision Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/2_statistical-decision-theory/)
+- [Variational Inference](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/6_variational-inference/)
 
 ## Overview
 
