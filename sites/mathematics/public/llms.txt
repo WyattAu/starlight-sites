@@ -82,6 +82,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Graduate-Analysis
 
+- [Banach Algebras And The Gelfand Representation](https://mathematics.wyattau.com/12-graduate-analysis/2_banach-algebras-and-the-gelfand-representation/)
 - [Spectral Theory Of Self Adjoint Operators](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
 
 ## Graduate-Statistics
