@@ -9845,7 +9845,149 @@ $$
 - **Divergence Theorem** ($n = 3$):
   $\oint_{\partial V} \mathbf{F} \cdot d\mathbf{S} = \iiint_V (\nabla \cdot \mathbf{F})\, dV$.
 
-### 4.7 Integration of Differential Forms
+## Proofs
+
+Three proofs. The first is the identity the whole subject stands on — $d^2 = 0$ —
+and it deserves the computation rather than the phrase "one line to verify": the
+line hides *why* it is true, which is that mixed partial derivatives are
+symmetric while the wedge product is antisymmetric, and a symmetric object
+contracted with an antisymmetric one vanishes. The second is naturality of $d$.
+The third is Stokes' theorem, reduced to the fundamental theorem of calculus on
+a cube.
+
+**Proposition 4.3 ($d^2 = 0$), with the computation.** For any $k$-form
+$\omega$, $d(d\omega) = 0$.
+
+*Proof.* By linearity it suffices to check a monomial
+$\omega = f\,dx^{i_1} \wedge \cdots \wedge dx^{i_k}$. By the definition of $d$,
+
+$$
+d\omega = df \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k},
+\qquad
+df = \sum_{j=1}^n \frac{\partial f}{\partial x^j}\, dx^j.
+$$
+
+Applying $d$ again, with the product rule on each term
+$\frac{\partial f}{\partial x^j}\,dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}$:
+
+$$
+d^2\omega = \sum_{j=1}^{n}\sum_{m=1}^{n}
+\frac{\partial^2 f}{\partial x^m \partial x^j}\,
+dx^m \wedge dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}.
+$$
+
+Now pair the terms $m = j$ and $m \neq j$. When $m = j$ the wedge
+$dx^j \wedge dx^j = 0$ vanishes outright. When $m \neq j$, swap the names of the
+summation indices $m \leftrightarrow j$ in the double sum: the second-derivative
+coefficient is *unchanged* — Schwarz's theorem, $\partial^2 f/\partial x^m \partial x^j = \partial^2 f/\partial x^j \partial x^m$ — while the wedge factor
+picks up one transposition, hence a factor $-1$:
+
+$$
+dx^m \wedge dx^j \wedge (\cdots) = -\,dx^j \wedge dx^m \wedge (\cdots),
+$$
+
+so the sum equals minus itself and must be zero. $\blacksquare$
+
+The computation says exactly where the identity comes from: $d^2 = 0$ holds
+*because* $d$ builds second derivatives and the wedge product is antisymmetric.
+In the other order — symmetric coefficients, antisymmetric basis — every term
+cancels its transposed partner. Any putative "boundary of a boundary" argument
+must reduce to this cancellation, and any function $d'$ with symmetric second
+derivatives and an antisymmetric wedge would satisfy it equally, which is why
+the definition of $d$ is pinned down by requiring $d^2 = 0$, normalisation, and
+the product rule together.
+
+**Proposition (naturality).** For any smooth $f : M \to N$ and any form
+$\omega$ on $N$: $d(f^*\omega) = f^*(d\omega)$.
+
+*Proof.* Both sides are linear in $\omega$, so reduce to a monomial
+$\omega = g\,dy^{i_1} \wedge \cdots \wedge dy^{i_k}$ with $g$ a function on $N$.
+Then $f^*\omega = (g \circ f)\,d(f^*y^{i_1}) \wedge \cdots$, and applying $d$
+with the product rule:
+
+$$
+d(f^*\omega) = d(g\circ f) \wedge f^*dy^{i_1} \wedge \cdots + (g\circ f)\sum_r
+d^2(f^*y^{i_r}) \wedge \cdots
+$$
+
+The $d^2$ terms vanish by Proposition 4.3. And
+$d(g \circ f) = f^*(dg)$ by the chain rule, so
+
+$$
+d(f^*\omega) = f^*(dg) \wedge f^*dy^{i_1} \wedge \cdots = f^*(dg \wedge dy^{i_1}
+\wedge \cdots) = f^*(d\omega). \qquad\blacksquare
+$$
+
+Naturality is what makes cohomology functorial — the proof on
+[the de Rham page](/12-differential-geometry/13_de-rham-cohomology/) uses exactly
+this — and it is why the pullback is the *right* map between form spaces: it
+commutes with the operator the cohomology is built from.
+
+**Theorem 4.5 (Stokes).** For an oriented $n$-manifold $M$ with boundary and a
+compactly supported $(n-1)$-form $\omega$:
+$\int_M d\omega = \int_{\partial M}\omega$, with $\partial M$ carrying the
+induced (boundary-first) orientation.
+
+*Proof.* Choose an oriented atlas and a subordinate partition of unity
+$\{\psi_i\}$ with each $\psi_i$ supported in a chart; both sides of the identity
+are linear in $\omega$, so it suffices to prove the case
+$\omega = \psi_i\,\omega_0$ for one chart, i.e. to work on $\mathbb{R}^n$ or on
+the half-space $\mathbb{H}^n = \{x^n \geq 0\}$ — the two model cases.
+
+*The $\mathbb{R}^n$ case, no boundary.* By linearity and the support, reduce to
+a monomial missing one differential. If $\omega$ contains all $n$ of the
+$dx^i$, then $d\omega$ is proportional to $dx^1\wedge\cdots\wedge dx^n$ times
+*derivatives of the compactly supported coefficient*, whose integral over
+$\mathbb{R}^n$ vanishes by Fubini and the fundamental theorem of calculus
+applied one variable at a time — the integral of a pure derivative in $x^i$
+over the whole line is zero. So both sides are zero and agree. If $\omega$ is
+missing $dx^i$, write
+$\omega = a(x)\,dx^1 \wedge \cdots \wedge \widehat{dx^i} \wedge \cdots \wedge dx^n$; then
+
+$$
+d\omega = (-1)^{i-1}\,\frac{\partial a}{\partial x^i}\,
+dx^1 \wedge \cdots \wedge dx^n,
+$$
+
+the sign $(-1)^{i-1}$ counting how many transpositions move $dx^i$ to the front.
+Integrating $x^i$ first and applying the fundamental theorem of calculus in
+that variable:
+
+$$
+\int_{\mathbb{R}^n} d\omega
+= (-1)^{i-1}\int \left[a\right]_{x^i = -\infty}^{x^i = +\infty}
+dx^1 \wedge \cdots \wedge \widehat{dx^i} \wedge \cdots = 0 = \int_{\partial\mathbb{R}^n}\omega,
+$$
+
+since $\partial\mathbb{R}^n = \emptyset$.
+
+*The half-space case.* $\mathbb{H}^n = \{x^n \geq 0\}$ has boundary the
+hyperplane $x^n = 0$. If the monomial $\omega$ is missing $dx^n$ — the boundary
+direction — write
+$\omega = a\,dx^1\wedge\cdots\wedge dx^{n-1}$; then
+$d\omega = (-1)^{n-1}\frac{\partial a}{\partial x^n}dx^1 \wedge \cdots \wedge dx^n$, and Fubini + the fundamental theorem in $x^n$ give
+
+$$
+\int_{\mathbb{H}^n} d\omega
+= (-1)^{n-1}\int_{\partial\mathbb{H}^n} a\big|_{x^n=0}\,
+dx^1\wedge\cdots\wedge dx^{n-1}
+= -\int_{\partial\mathbb{H}^n}\omega,
+$$
+
+while $\int_{\mathbb{H}^n}\omega$-monomials containing $dx^n$ integrate to zero
+by the $\mathbb{R}^n$ case. The boundary orientation of $\mathbb{H}^n$ is
+*decreasing* $x^n$ — outward normal first — which supplies exactly the factor
+$-1$: $\int_{\partial\mathbb{H}^n}\omega = -\int_{x^n=0}\omega$ in the
+coordinates as written. So $\int_{\mathbb{H}^n}d\omega = \int_{\partial\mathbb{H}^n}\omega$, and summing over the partition of unity
+gives the theorem on general $M$. $\blacksquare$
+
+The sign $(-1)^{n-1}$ is where every treatment hides a small lie: the boundary
+orientation is "outward normal *first*", and getting that convention backwards
+flips the sign of every Stokes formula in the subject. The reduction to cubes is
+what lets the proof be elementary — the general theorem follows by the partition
+of unity, which is local by construction.
+
+## 4.7 Integration of Differential Forms
 
 Integration of an $n$-form over an $n$-dimensional oriented manifold is defined by pulling back to $\mathbb{R}^n$ and integrating in coordinates. If $\omega = f\,dx^1 \wedge \cdots \wedge dx^n$ on a coordinate chart $U$ with parametrisation $\phi : U \to \mathbb{R}^n$:
 
