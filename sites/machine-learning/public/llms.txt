@@ -13,6 +13,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Index](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/)
 - [Linear And Generalised Linear Models](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
 - [Measure Theoretic Probability](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/)
+- [Research Frontier](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/10_research-frontier/)
 - [Statistical Decision Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/2_statistical-decision-theory/)
 - [Statistical Learning Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/7_statistical-learning-theory/)
 - [Variational Inference](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/6_variational-inference/)
