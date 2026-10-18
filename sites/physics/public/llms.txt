@@ -161,6 +161,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://physics.wyattau.com/about/)
+- [Before You Begin](https://physics.wyattau.com/before-you-begin/)
 - [Classical Mechanics Flashcards](https://physics.wyattau.com/classical-mechanics-flashcards/)
 - [Glossary](https://physics.wyattau.com/glossary/)
 - [Hub](https://physics.wyattau.com/hub/)

@@ -14,6 +14,13 @@ description: "Study notes for Chemistry with worked examples, practice problems,
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)** first. It rebuilds what the tracks assume -- moles and stoichiometry, electron configuration, bonding models, and the algebra of equilibrium expressions --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 Welcome to the Chemistry notes.
 
 Browse the content using the sidebar navigation on the left.

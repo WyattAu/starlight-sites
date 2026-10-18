@@ -22,6 +22,13 @@ categories:
 }
 </script>
 
+:::note[New to the subject, or from a different exam board?]
+Read **[Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)** first. It rebuilds what the tracks assume -- vectors, trigonometry, coordinate geometry, and single-variable calculus including the chain and product rules --
+from first principles, defines every term before it is used, and ends with a
+self-test so confident readers can skip by assessment rather than by trust.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
