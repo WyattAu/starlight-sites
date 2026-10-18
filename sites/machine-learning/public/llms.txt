@@ -7,6 +7,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Probabilistic-Machine-Learning
 
 - [Estimation Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Hypothesis Testing](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/4_hypothesis-testing/)
 - [Index](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/)
 - [Measure Theoretic Probability](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/)
 - [Statistical Decision Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/2_statistical-decision-theory/)
