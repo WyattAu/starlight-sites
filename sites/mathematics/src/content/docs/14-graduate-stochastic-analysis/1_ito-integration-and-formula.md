@@ -205,8 +205,7 @@ $$
 
 *Proof.* Write $Q_n$ for the sum and $\Delta t_i = t_{i+1}-t_i$. Then
 $\mathbb{E}Q_n = \sum_i \Delta t_i = t$, so it is enough to show the variance
-vanishes. The increments are independent, and $\operatorname{Var}(\Delta W_i^2) =
-2(\Delta t_i)^2$ for a Gaussian, so
+vanishes. The increments are independent, and $\operatorname{Var}(\Delta W_i^2) = 2(\Delta t_i)^2$ for a Gaussian, so
 
 $$
 \operatorname{Var}(Q_n) = \sum_i 2(\Delta t_i)^2
@@ -343,8 +342,7 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
    using the law of large numbers.
 3. (Real analysis.) Show that a function of bounded variation has zero
    quadratic variation, so the Itô correction vanishes.
-4. (Functional analysis.) Show the Itô isometry says the map $\sigma \mapsto
-   \int \sigma\,dW$ is an isometry from $L^2(\Omega \times [0,t])$ into
+4. (Functional analysis.) Show the Itô isometry says the map $\sigma \mapsto \int \sigma\,dW$ is an isometry from $L^2(\Omega \times [0,t])$ into
    $L^2(\Omega)$, and deduce it extends to all square-integrable adapted
    integrands.
 5. (Research.) Show that for $f \in C^2$, the Stratonovich and Itô integrals of

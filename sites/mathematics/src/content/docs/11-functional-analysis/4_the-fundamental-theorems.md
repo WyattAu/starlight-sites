@@ -129,8 +129,7 @@ f(\lambda'' x_0) = f(m + \lambda x_0) - f(m + \lambda' x_0) + f(m)
 $$
 
 Dividing by $\lambda'' > 0$, the $\lambda''$-quotient is at most $b$ by definition,
-and the $\lambda'$-quotient is at least $a$. Since $a \leq
-\frac{p(m+\lambda x_0) - f(m)}{\lambda} - \frac{f(m+\lambda'x_0)-f(m)}{\lambda''}$
+and the $\lambda'$-quotient is at least $a$. Since $a \leq \frac{p(m+\lambda x_0) - f(m)}{\lambda} - \frac{f(m+\lambda'x_0)-f(m)}{\lambda''}$
 and the right-hand term is at most $b$, we get $a \leq b$. Choose
 $\alpha \in [a,b]$; then $F$ on $M + \mathbb{R}x_0$ is linear and bounded above by
 $p$.
@@ -145,8 +144,7 @@ step produces a strictly larger element, a contradiction. So $N = X$. $\blacksqu
 normed space and $f \in M^*$, then $f$ extends to $F \in X^*$ with
 $\|F\| = \|f\|$.
 
-*Proof.* Apply 4.2 with $p(x) = \|f\|\,\|x\|$. Then $f(m) \leq |f(m)| \leq
-\|f\|\,\|m\| = p(m)$, so the hypothesis holds, and we get $F \leq p$. Applying the
+*Proof.* Apply 4.2 with $p(x) = \|f\|\,\|x\|$. Then $f(m) \leq |f(m)| \leq \|f\|\,\|m\| = p(m)$, so the hypothesis holds, and we get $F \leq p$. Applying the
 same to $-f$ gives $-F \leq p$, so $|F(x)| \leq p(x) = \|f\|\,\|x\|$, i.e.
 $\|F\| \leq \|f\|$. Since $F$ extends $f$, $\|f\| \leq \|F\|$, hence
 $\|F\| = \|f\|$. $\blacksquare$
@@ -178,8 +176,7 @@ where $\lim_{n\to\sup}$ means $\limsup$. This is bounded: $|s_n| \leq n\|x\|_\in
 and $|L| \leq \limsup |s_n|$ is finite but not $\leq \|x\|_\infty$, so $L$ does not
 yet dominate $\|\cdot\|_\infty$ and Hahn-Banach cannot be applied directly to it.
 
-The fix is to define the *limiting set* $A = \{y : y_1 \geq 0,\ y_{n+1} \geq y_n - 1,
-\ \liminf (y_1 + \dots + y_n) \geq 0\}$ in a larger space, show $A$ is convex and
+The fix is to define the *limiting set* $A = \{y : y_1 \geq 0,\ y_{n+1} \geq y_n - 1, \ \liminf (y_1 + \dots + y_n) \geq 0\}$ in a larger space, show $A$ is convex and
 does not absorb $n$, and apply Hahn-Banach to obtain $\varphi$ dominated by
 $\|\cdot\|_\infty$ and dominating $L$. Then
 $\mathrm{LIM}(x) = \varphi(L(x))$ extends the ordinary limit, is linear,
@@ -211,8 +208,7 @@ $x_k \to x$ with $x \in \overline{B_X(0,1/n)}$ and $Tx = y$, so $y \in Y_n$.
 
 By Baire, some $Y_n$ has nonempty interior: $Y_m - Y_m \subseteq Y_{2m}$, so
 $Y_n - Y_n$ contains $Y_n - y_0$ for $y_0 \in Y_n^\circ$, and $Y_n - y_0$ contains a
-ball $B_Y(y_0, \delta)$ with $y_0 \in Y_n$. Thus $B_Y(0, \delta) \subseteq
-Y_n - Y_n \subseteq Y_{2n}$.
+ball $B_Y(y_0, \delta)$ with $y_0 \in Y_n$. Thus $B_Y(0, \delta) \subseteq Y_n - Y_n \subseteq Y_{2n}$.
 
 Write $u = a - b$ with $a, b \in Y_{2n}$, so
 $\|a\|, \|b\| \leq 1/(2n)$ and $a - b = Tx$ for some $x \in B_X(0, 1/n)$. Given
@@ -287,13 +283,11 @@ is complete; and it is independent of the approximating sequence, since if
 $x_k \to x$ and $y_k \to x$ then $(x_k - y_k) \to 0$, so $T(x_k - y_k) \to 0$ by
 continuity of $T$, and $\lim Tx_k = \lim Ty_k$. So $\hat{T}$ is well defined and
 continuous, and it extends $T$ on $X_0$. It is surjective, because $T$ is
-surjective and every $y \in Y$ has $Tx = y$ for some $x$, hence $y \in
-T(\overline{X_0})$.
+surjective and every $y \in Y$ has $Tx = y$ for some $x$, hence $y \in T(\overline{X_0})$.
 
 Both $\overline{X_0}$ and $Y$ are Banach, so 4.5 gives $C$ with
 $B_Y(0,1) \subseteq \hat{T}(B_{\overline{X_0}}(0, C))$. Since
-$B_X(0, C) \subseteq B_{\overline{X_0}}(0, C)$, we get $B_Y(0,1) \subseteq
-T(B_X(0, C))$ and therefore $\|Tx\| \leq C\|x\|$ for $x \in X_0$.
+$B_X(0, C) \subseteq B_{\overline{X_0}}(0, C)$, we get $B_Y(0,1) \subseteq T(B_X(0, C))$ and therefore $\|Tx\| \leq C\|x\|$ for $x \in X_0$.
 
 Finally, $X = \bigcup_{n\geq 1} nX_0$: for any $x \in X$ take $n > 1/\|x\|$, so
 $x/n \in B_X(0,1) \subseteq X_0$ and $x \in nX_0$. A vector space cannot be a
@@ -309,8 +303,7 @@ and $\|x\| \leq c\|y\|$.
 *Proof sketch.* (iii) $\Rightarrow$ (i) is immediate from the estimate. For
 (i) $\Rightarrow$ (iii), $T$ is open onto $R(T)$, giving (iii) with the norm of
 $R(T)$; for (ii) $\Rightarrow$ (i), apply the open mapping theorem to $T^*$
-between $X^*$ and $R(T^*)^\perp$ and use $\overline{R(T^*)} =
-(T(X))^\perp$. $\blacksquare$
+between $X^*$ and $R(T^*)^\perp$ and use $\overline{R(T^*)} = (T(X))^\perp$. $\blacksquare$
 
 ## 4.5 The Uniform Boundedness Principle
 

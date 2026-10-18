@@ -63,8 +63,7 @@ surely, so a prior that puts mass on bad parameters is excluded by assumption.
 The substantive result is Schwartz's.
 
 **Theorem (A, Schwartz 1965).** If the true $\theta_0$ is in the support of the
-prior and the model satisfies an entropy condition — for every $\varepsilon >
-0$ there is a sieve of tests separating $\theta_0$ from the $\varepsilon$-ball
+prior and the model satisfies an entropy condition — for every $\varepsilon > 0$ there is a sieve of tests separating $\theta_0$ from the $\varepsilon$-ball
 around it, with exponentially small type-II error — then the posterior
 probability of $\{\theta : d(\theta, \theta_0) > \varepsilon\}$ tends to $0$.
 
@@ -119,8 +118,7 @@ apart, and that separation is the modern research frontier.
 
 ## The Bernstein–von Mises phenomenon
 
-**Theorem (A, van der Vaart 1998, Ch. 10; Le Cam).** Let $\Theta \subseteq
-\mathbb{R}^k$ be open, $p_\theta$ smooth in $\theta$ near $\theta_0$, the
+**Theorem (A, van der Vaart 1998, Ch. 10; Le Cam).** Let $\Theta \subseteq \mathbb{R}^k$ be open, $p_\theta$ smooth in $\theta$ near $\theta_0$, the
 Fisher information $I(\theta_0)$ positive definite, the prior positive and
 continuous at $\theta_0$, and the model otherwise regular. Then for almost
 every sequence $X_1, X_2, \dots$,
@@ -204,8 +202,7 @@ $$
 
 where $\dot\ell_\theta = \partial_\theta \log p_\theta$ and $R_n \to 0$ in
 probability, uniformly in $h$ in compacts. This is the LAN condition. The two
-main terms are the *score at scale* $\Delta_n = \frac{1}{\sqrt n}\sum_i
-\dot\ell_{\theta_0}(X_i)$ and a deterministic quadratic penalty $-h^2 I/2$.
+main terms are the *score at scale* $\Delta_n = \frac{1}{\sqrt n}\sum_i \dot\ell_{\theta_0}(X_i)$ and a deterministic quadratic penalty $-h^2 I/2$.
 Smoothness of $p_\theta$ and finiteness of $I(\theta_0)$ give it by Taylor's
 theorem; the content of the hypothesis "regular model" is that $R_n$ is
 controlled.
@@ -337,8 +334,7 @@ unbounded and the parameter space is not locally identifiable.
    $\theta$ given $X_1, \dots, X_n$ under the joint law $\theta \sim \Pi$,
    $X_i | \theta \sim P_\theta$.
 2. (Real analysis.) Prove the Laplace approximation
-   $\int e^{-n f(\theta)} d\theta \approx e^{-n f(\hat\theta)}
-   \sqrt{2\pi/(n f''(\hat\theta))}$ and identify where regularity is used.
+   $\int e^{-n f(\theta)} d\theta \approx e^{-n f(\hat\theta)} \sqrt{2\pi/(n f''(\hat\theta))}$ and identify where regularity is used.
 3. (Probability.) Show that for the Bernoulli model the posterior variance is
    $\hat p (1 - \hat p)/(n + \alpha + \beta)$, and compare to the Cramér–Rao
    bound.

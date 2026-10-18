@@ -60,8 +60,7 @@ regular representation.
 is a homomorphism $\rho : G \to GL(V)$. It is **irreducible** if the only
 $G$-invariant subspaces are $\{0\}$ and $V$.
 
-**Definition (F).** The **character** of $\rho$ is $\chi_\rho(g) =
-\operatorname{tr}(\rho(g))$.
+**Definition (F).** The **character** of $\rho$ is $\chi_\rho(g) = \operatorname{tr}(\rho(g))$.
 
 The character is a *class function*: it is constant on conjugacy classes,
 because trace is invariant under conjugation. That is why characters are
@@ -97,8 +96,7 @@ about it.
 
 **Worked example (U).** For an irreducible $V$ and any $v, w \in V$, apply the
 averaged rank-one operator $T(x) = \langle x, w\rangle v$. Schur's lemma gives
-$\varphi = \lambda I$, and taking traces computes $\lambda = \langle v,
-w\rangle / \dim V$. Rearranged:
+$\varphi = \lambda I$, and taking traces computes $\lambda = \langle v, w\rangle / \dim V$. Rearranged:
 
 $$
 \frac{1}{|G|}\sum_{g \in G} \overline{\rho_{ii}(g)}\,\rho_{jj}(g)
@@ -110,8 +108,7 @@ orthogonality relation in the subject comes from this one computation.
 
 ## Characters and the orthogonality relations
 
-**Definition.** $\langle \chi, \psi \rangle = \frac{1}{|G|}\sum_{g} \chi(g)
-\overline{\psi(g)}$.
+**Definition.** $\langle \chi, \psi \rangle = \frac{1}{|G|}\sum_{g} \chi(g) \overline{\psi(g)}$.
 
 **Theorem (U, orthogonality).** The irreducible characters are orthonormal:
 $\langle \chi_i, \chi_j \rangle = \delta_{ij}$. Every character is a
@@ -183,8 +180,7 @@ $\frac{1}{|G|}\sum_g \overline{\rho_i(g)_{ab}}\,\rho_j(g)_{cd} = \frac{\delta_{i
 over the diagonal indices $a = c$ and $b = d$. The left side becomes
 $\frac{1}{|G|}\sum_g \overline{\chi_i(g)}\,\chi_j(g)$, since a character is the
 trace and the trace is the sum of diagonal entries. The right side becomes
-$\frac{\delta_{ij}}{d_i}\sum_{a,b}\delta_{ab} = \frac{\delta_{ij} d_i}{d_i} =
-\delta_{ij}$. $\blacksquare$
+$\frac{\delta_{ij}}{d_i}\sum_{a,b}\delta_{ab} = \frac{\delta_{ij} d_i}{d_i} = \delta_{ij}$. $\blacksquare$
 
 One line, and it is worth being clear about why: a character is a *sum* of matrix
 coefficients, and the matrix-coefficient relation is an orthogonality statement

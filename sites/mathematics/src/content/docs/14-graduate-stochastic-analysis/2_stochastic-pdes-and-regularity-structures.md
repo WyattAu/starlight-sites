@@ -119,8 +119,7 @@ $$
 $$
 
 Run the same computation on the stochastic equation and the drift term becomes
-$2\xi u \partial_t u$, whose size is bounded by $\lVert \xi\rVert_\infty
-\lVert u\rVert^2$. **That is the exact point of failure**: white noise is a
+$2\xi u \partial_t u$, whose size is bounded by $\lVert \xi\rVert_\infty \lVert u\rVert^2$. **That is the exact point of failure**: white noise is a
 distribution, not a function, so $\lVert\xi\rVert_\infty$ does not exist. Saying
 it fails "because Gaussian variables exceed every threshold infinitely often"
 would be wrong — a Gaussian-valued *function* has perfectly finite $L^p$ norms.

@@ -72,8 +72,7 @@ equivalent:
    coefficients agree to first order with the constant metric.
 
 *Proof sketch.* (1) $\Leftrightarrow$ (2) is the identity
-$2\,g((\nabla_X J)Y, Z) = \mathrm{d}\omega(JX, Y, Z) + \mathrm{d}\omega(X, JY, Z) -
-\mathrm{d}\omega(X, Y, JZ)$, verified by expanding both sides with
+$2\,g((\nabla_X J)Y, Z) = \mathrm{d}\omega(JX, Y, Z) + \mathrm{d}\omega(X, JY, Z) - \mathrm{d}\omega(X, Y, JZ)$, verified by expanding both sides with
 $\nabla g = 0$ and $J^2 = -1$: the symplectic form's three arguments can each be
 rotated by $J$, and the closure of $\omega$ kills the symmetric part while
 $\nabla J = 0$ kills it directly.
@@ -123,8 +122,8 @@ $\mathfrak{sl}_2$ on each fibre, and the identities are the bracket relations of
 that representation computed with $\mathrm{d}\omega = 0$ — the closure of the
 Kähler form is exactly what kills the error terms. The Laplacian identity then
 follows by taking adjoints of the commutator identities and combining:
-$\Delta_d = (\partial + \bar\partial)(\partial^* + \bar\partial^*) + (\partial^*
-+ \bar\partial^*)(\partial + \bar\partial)$ expands into eight terms, and the
+$\Delta_d = (\partial + \bar\partial)(\partial^* + \bar\partial^*) + (\partial^* + \bar\partial^*)(\partial + \bar\partial)$
+expands into eight terms, and the
 commutator identities pair four of them into $\Delta_\partial$ and four into
 $\Delta_{\bar\partial}$, each coming out equal to $\Delta_d$. The full expansion
 is a page of signs and is carried out in Huybrechts §3.1 or Griffiths–Harris
@@ -139,8 +138,7 @@ $$
 \mathcal{H}^{p,q} \cong \overline{\mathcal{H}^{q,p}},
 $$
 
-so the Betti numbers refine into **Hodge numbers** $h^{p,q} =
-\dim\mathcal{H}^{p,q}$, and they satisfy $h^{p,q} = h^{q,p}$ and
+so the Betti numbers refine into **Hodge numbers** $h^{p,q} = \dim\mathcal{H}^{p,q}$, and they satisfy $h^{p,q} = h^{q,p}$ and
 $h^{p,q} = h^{n-p,n-q}$.
 
 *Proof.* $\Delta_d = 2\Delta_{\bar\partial}$ says a form is $d$-harmonic iff it

@@ -345,8 +345,7 @@ $$
 \mathbb{Z}^2 \xrightarrow{(1,-1)} \mathbb{Z}^2 \to H_1(\Sigma_2) \to \mathbb{Z}^2 \xrightarrow{(1,1)} \mathbb{Z} \oplus \mathbb{Z}^2.
 $$
 
-The first map is injective, so $H_1(\Sigma_2) = \operatorname{coker}\,(1,-1) =
-\mathbb{Z}^4 / \langle (1,-1) \rangle \cong \mathbb{Z}^3$, since $(1,-1)$ is
+The first map is injective, so $H_1(\Sigma_2) = \operatorname{coker}\,(1,-1) = \mathbb{Z}^4 / \langle (1,-1) \rangle \cong \mathbb{Z}^3$, since $(1,-1)$ is
 primitive and the quotient of $\mathbb{Z}^2$ by a primitive rank-one submodule
 is $\mathbb{Z}$. And the last map is injective, so nothing further is contributed.
 Hence
@@ -374,8 +373,7 @@ $$
 0 \to \operatorname{Ext}(H_{k-1}(X), G) \to H^k(X;G) \to \operatorname{Hom}(H_k(X), G) \to 0
 $$
 
-which, for $G = \mathbb{Z}$ and $H_{k-1}$ free, gives $H^k(X;\mathbb{Z}) \cong
-\operatorname{Hom}(H_k(X), \mathbb{Z})$.
+which, for $G = \mathbb{Z}$ and $H_{k-1}$ free, gives $H^k(X;\mathbb{Z}) \cong \operatorname{Hom}(H_k(X), \mathbb{Z})$.
 
 The reason to use cohomology anyway is that it carries a **product**: there are
 maps $\smile : H^p \times H^q \to H^{p+q}$, the cup product, and the theorem that
@@ -439,8 +437,7 @@ of surfaces is indexed by a single integer.
 
 ## Key Relationships
 
-- **Homotopy equivalence is weaker than homeomorphism.** $\mathbb{R}^n \simeq
-  \{*\}$, yet the two are not homeomorphic.
+- **Homotopy equivalence is weaker than homeomorphism.** $\mathbb{R}^n \simeq \{*\}$, yet the two are not homeomorphic.
 - **$\pi_1$ detects one-dimensional holes only.** $\Sigma_2$ and $S^1 \vee S^1$
   have the same fundamental group $F_2$ but are not homeomorphic, because
   $\Sigma_2$ has a 2-dimensional hole and $H_2(\Sigma_2) = 0$ records its absence.

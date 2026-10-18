@@ -8249,8 +8249,7 @@ f(\lambda'' x_0) = f(m + \lambda x_0) - f(m + \lambda' x_0) + f(m)
 $$
 
 Dividing by $\lambda'' > 0$, the $\lambda''$-quotient is at most $b$ by definition,
-and the $\lambda'$-quotient is at least $a$. Since $a \leq
-\frac{p(m+\lambda x_0) - f(m)}{\lambda} - \frac{f(m+\lambda'x_0)-f(m)}{\lambda''}$
+and the $\lambda'$-quotient is at least $a$. Since $a \leq \frac{p(m+\lambda x_0) - f(m)}{\lambda} - \frac{f(m+\lambda'x_0)-f(m)}{\lambda''}$
 and the right-hand term is at most $b$, we get $a \leq b$. Choose
 $\alpha \in [a,b]$; then $F$ on $M + \mathbb{R}x_0$ is linear and bounded above by
 $p$.
@@ -8265,8 +8264,7 @@ step produces a strictly larger element, a contradiction. So $N = X$. $\blacksqu
 normed space and $f \in M^*$, then $f$ extends to $F \in X^*$ with
 $\|F\| = \|f\|$.
 
-*Proof.* Apply 4.2 with $p(x) = \|f\|\,\|x\|$. Then $f(m) \leq |f(m)| \leq
-\|f\|\,\|m\| = p(m)$, so the hypothesis holds, and we get $F \leq p$. Applying the
+*Proof.* Apply 4.2 with $p(x) = \|f\|\,\|x\|$. Then $f(m) \leq |f(m)| \leq \|f\|\,\|m\| = p(m)$, so the hypothesis holds, and we get $F \leq p$. Applying the
 same to $-f$ gives $-F \leq p$, so $|F(x)| \leq p(x) = \|f\|\,\|x\|$, i.e.
 $\|F\| \leq \|f\|$. Since $F$ extends $f$, $\|f\| \leq \|F\|$, hence
 $\|F\| = \|f\|$. $\blacksquare$
@@ -8298,8 +8296,7 @@ where $\lim_{n\to\sup}$ means $\limsup$. This is bounded: $|s_n| \leq n\|x\|_\in
 and $|L| \leq \limsup |s_n|$ is finite but not $\leq \|x\|_\infty$, so $L$ does not
 yet dominate $\|\cdot\|_\infty$ and Hahn-Banach cannot be applied directly to it.
 
-The fix is to define the *limiting set* $A = \{y : y_1 \geq 0,\ y_{n+1} \geq y_n - 1,
-\ \liminf (y_1 + \dots + y_n) \geq 0\}$ in a larger space, show $A$ is convex and
+The fix is to define the *limiting set* $A = \{y : y_1 \geq 0,\ y_{n+1} \geq y_n - 1, \ \liminf (y_1 + \dots + y_n) \geq 0\}$ in a larger space, show $A$ is convex and
 does not absorb $n$, and apply Hahn-Banach to obtain $\varphi$ dominated by
 $\|\cdot\|_\infty$ and dominating $L$. Then
 $\mathrm{LIM}(x) = \varphi(L(x))$ extends the ordinary limit, is linear,
@@ -8331,8 +8328,7 @@ $x_k \to x$ with $x \in \overline{B_X(0,1/n)}$ and $Tx = y$, so $y \in Y_n$.
 
 By Baire, some $Y_n$ has nonempty interior: $Y_m - Y_m \subseteq Y_{2m}$, so
 $Y_n - Y_n$ contains $Y_n - y_0$ for $y_0 \in Y_n^\circ$, and $Y_n - y_0$ contains a
-ball $B_Y(y_0, \delta)$ with $y_0 \in Y_n$. Thus $B_Y(0, \delta) \subseteq
-Y_n - Y_n \subseteq Y_{2n}$.
+ball $B_Y(y_0, \delta)$ with $y_0 \in Y_n$. Thus $B_Y(0, \delta) \subseteq Y_n - Y_n \subseteq Y_{2n}$.
 
 Write $u = a - b$ with $a, b \in Y_{2n}$, so
 $\|a\|, \|b\| \leq 1/(2n)$ and $a - b = Tx$ for some $x \in B_X(0, 1/n)$. Given
@@ -8407,13 +8403,11 @@ is complete; and it is independent of the approximating sequence, since if
 $x_k \to x$ and $y_k \to x$ then $(x_k - y_k) \to 0$, so $T(x_k - y_k) \to 0$ by
 continuity of $T$, and $\lim Tx_k = \lim Ty_k$. So $\hat{T}$ is well defined and
 continuous, and it extends $T$ on $X_0$. It is surjective, because $T$ is
-surjective and every $y \in Y$ has $Tx = y$ for some $x$, hence $y \in
-T(\overline{X_0})$.
+surjective and every $y \in Y$ has $Tx = y$ for some $x$, hence $y \in T(\overline{X_0})$.
 
 Both $\overline{X_0}$ and $Y$ are Banach, so 4.5 gives $C$ with
 $B_Y(0,1) \subseteq \hat{T}(B_{\overline{X_0}}(0, C))$. Since
-$B_X(0, C) \subseteq B_{\overline{X_0}}(0, C)$, we get $B_Y(0,1) \subseteq
-T(B_X(0, C))$ and therefore $\|Tx\| \leq C\|x\|$ for $x \in X_0$.
+$B_X(0, C) \subseteq B_{\overline{X_0}}(0, C)$, we get $B_Y(0,1) \subseteq T(B_X(0, C))$ and therefore $\|Tx\| \leq C\|x\|$ for $x \in X_0$.
 
 Finally, $X = \bigcup_{n\geq 1} nX_0$: for any $x \in X$ take $n > 1/\|x\|$, so
 $x/n \in B_X(0,1) \subseteq X_0$ and $x \in nX_0$. A vector space cannot be a
@@ -8429,8 +8423,7 @@ and $\|x\| \leq c\|y\|$.
 *Proof sketch.* (iii) $\Rightarrow$ (i) is immediate from the estimate. For
 (i) $\Rightarrow$ (iii), $T$ is open onto $R(T)$, giving (iii) with the norm of
 $R(T)$; for (ii) $\Rightarrow$ (i), apply the open mapping theorem to $T^*$
-between $X^*$ and $R(T^*)^\perp$ and use $\overline{R(T^*)} =
-(T(X))^\perp$. $\blacksquare$
+between $X^*$ and $R(T^*)^\perp$ and use $\overline{R(T^*)} = (T(X))^\perp$. $\blacksquare$
 
 ## 4.5 The Uniform Boundedness Principle
 
@@ -9332,8 +9325,7 @@ so $\omega = d(K\omega)$ is exact, with the primitive given explicitly by
 $K\omega$. $\blacksquare$
 
 The proof produces the primitive, not merely its existence, which is why the
-radial contraction is worth writing out. And the identity $dK + Kd = \mathrm{id}
-- j_0^*$ is the general shape of every cohomology argument: a chain homotopy
+radial contraction is worth writing out. And the identity $dK + Kd = \mathrm{id} - j_0^*$ is the general shape of every cohomology argument: a chain homotopy
 between the identity and something degenerate, giving equality in cohomology
 where the two differ at chain level.
 
@@ -10416,8 +10408,7 @@ equivalent:
    coefficients agree to first order with the constant metric.
 
 *Proof sketch.* (1) $\Leftrightarrow$ (2) is the identity
-$2\,g((\nabla_X J)Y, Z) = \mathrm{d}\omega(JX, Y, Z) + \mathrm{d}\omega(X, JY, Z) -
-\mathrm{d}\omega(X, Y, JZ)$, verified by expanding both sides with
+$2\,g((\nabla_X J)Y, Z) = \mathrm{d}\omega(JX, Y, Z) + \mathrm{d}\omega(X, JY, Z) - \mathrm{d}\omega(X, Y, JZ)$, verified by expanding both sides with
 $\nabla g = 0$ and $J^2 = -1$: the symplectic form's three arguments can each be
 rotated by $J$, and the closure of $\omega$ kills the symmetric part while
 $\nabla J = 0$ kills it directly.
@@ -10467,8 +10458,8 @@ $\mathfrak{sl}_2$ on each fibre, and the identities are the bracket relations of
 that representation computed with $\mathrm{d}\omega = 0$ — the closure of the
 Kähler form is exactly what kills the error terms. The Laplacian identity then
 follows by taking adjoints of the commutator identities and combining:
-$\Delta_d = (\partial + \bar\partial)(\partial^* + \bar\partial^*) + (\partial^*
-+ \bar\partial^*)(\partial + \bar\partial)$ expands into eight terms, and the
+$\Delta_d = (\partial + \bar\partial)(\partial^* + \bar\partial^*) + (\partial^* + \bar\partial^*)(\partial + \bar\partial)$
+expands into eight terms, and the
 commutator identities pair four of them into $\Delta_\partial$ and four into
 $\Delta_{\bar\partial}$, each coming out equal to $\Delta_d$. The full expansion
 is a page of signs and is carried out in Huybrechts §3.1 or Griffiths–Harris
@@ -10483,8 +10474,7 @@ $$
 \mathcal{H}^{p,q} \cong \overline{\mathcal{H}^{q,p}},
 $$
 
-so the Betti numbers refine into **Hodge numbers** $h^{p,q} =
-\dim\mathcal{H}^{p,q}$, and they satisfy $h^{p,q} = h^{q,p}$ and
+so the Betti numbers refine into **Hodge numbers** $h^{p,q} = \dim\mathcal{H}^{p,q}$, and they satisfy $h^{p,q} = h^{q,p}$ and
 $h^{p,q} = h^{n-p,n-q}$.
 
 *Proof.* $\Delta_d = 2\Delta_{\bar\partial}$ says a form is $d$-harmonic iff it
@@ -12301,8 +12291,7 @@ surely, so a prior that puts mass on bad parameters is excluded by assumption.
 The substantive result is Schwartz's.
 
 **Theorem (A, Schwartz 1965).** If the true $\theta_0$ is in the support of the
-prior and the model satisfies an entropy condition — for every $\varepsilon >
-0$ there is a sieve of tests separating $\theta_0$ from the $\varepsilon$-ball
+prior and the model satisfies an entropy condition — for every $\varepsilon > 0$ there is a sieve of tests separating $\theta_0$ from the $\varepsilon$-ball
 around it, with exponentially small type-II error — then the posterior
 probability of $\{\theta : d(\theta, \theta_0) > \varepsilon\}$ tends to $0$.
 
@@ -12357,8 +12346,7 @@ apart, and that separation is the modern research frontier.
 
 ## The Bernstein–von Mises phenomenon
 
-**Theorem (A, van der Vaart 1998, Ch. 10; Le Cam).** Let $\Theta \subseteq
-\mathbb{R}^k$ be open, $p_\theta$ smooth in $\theta$ near $\theta_0$, the
+**Theorem (A, van der Vaart 1998, Ch. 10; Le Cam).** Let $\Theta \subseteq \mathbb{R}^k$ be open, $p_\theta$ smooth in $\theta$ near $\theta_0$, the
 Fisher information $I(\theta_0)$ positive definite, the prior positive and
 continuous at $\theta_0$, and the model otherwise regular. Then for almost
 every sequence $X_1, X_2, \dots$,
@@ -12442,8 +12430,7 @@ $$
 
 where $\dot\ell_\theta = \partial_\theta \log p_\theta$ and $R_n \to 0$ in
 probability, uniformly in $h$ in compacts. This is the LAN condition. The two
-main terms are the *score at scale* $\Delta_n = \frac{1}{\sqrt n}\sum_i
-\dot\ell_{\theta_0}(X_i)$ and a deterministic quadratic penalty $-h^2 I/2$.
+main terms are the *score at scale* $\Delta_n = \frac{1}{\sqrt n}\sum_i \dot\ell_{\theta_0}(X_i)$ and a deterministic quadratic penalty $-h^2 I/2$.
 Smoothness of $p_\theta$ and finiteness of $I(\theta_0)$ give it by Taylor's
 theorem; the content of the hypothesis "regular model" is that $R_n$ is
 controlled.
@@ -12575,8 +12562,7 @@ unbounded and the parameter space is not locally identifiable.
    $\theta$ given $X_1, \dots, X_n$ under the joint law $\theta \sim \Pi$,
    $X_i | \theta \sim P_\theta$.
 2. (Real analysis.) Prove the Laplace approximation
-   $\int e^{-n f(\theta)} d\theta \approx e^{-n f(\hat\theta)}
-   \sqrt{2\pi/(n f''(\hat\theta))}$ and identify where regularity is used.
+   $\int e^{-n f(\theta)} d\theta \approx e^{-n f(\hat\theta)} \sqrt{2\pi/(n f''(\hat\theta))}$ and identify where regularity is used.
 3. (Probability.) Show that for the Bernoulli model the posterior variance is
    $\hat p (1 - \hat p)/(n + \alpha + \beta)$, and compare to the Cramér–Rao
    bound.
@@ -12798,8 +12784,7 @@ $$
 
 *Proof.* Write $Q_n$ for the sum and $\Delta t_i = t_{i+1}-t_i$. Then
 $\mathbb{E}Q_n = \sum_i \Delta t_i = t$, so it is enough to show the variance
-vanishes. The increments are independent, and $\operatorname{Var}(\Delta W_i^2) =
-2(\Delta t_i)^2$ for a Gaussian, so
+vanishes. The increments are independent, and $\operatorname{Var}(\Delta W_i^2) = 2(\Delta t_i)^2$ for a Gaussian, so
 
 $$
 \operatorname{Var}(Q_n) = \sum_i 2(\Delta t_i)^2
@@ -12936,8 +12921,7 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
    using the law of large numbers.
 3. (Real analysis.) Show that a function of bounded variation has zero
    quadratic variation, so the Itô correction vanishes.
-4. (Functional analysis.) Show the Itô isometry says the map $\sigma \mapsto
-   \int \sigma\,dW$ is an isometry from $L^2(\Omega \times [0,t])$ into
+4. (Functional analysis.) Show the Itô isometry says the map $\sigma \mapsto \int \sigma\,dW$ is an isometry from $L^2(\Omega \times [0,t])$ into
    $L^2(\Omega)$, and deduce it extends to all square-integrable adapted
    integrands.
 5. (Research.) Show that for $f \in C^2$, the Stratonovich and Itô integrals of
@@ -13068,8 +13052,7 @@ $$
 $$
 
 Run the same computation on the stochastic equation and the drift term becomes
-$2\xi u \partial_t u$, whose size is bounded by $\lVert \xi\rVert_\infty
-\lVert u\rVert^2$. **That is the exact point of failure**: white noise is a
+$2\xi u \partial_t u$, whose size is bounded by $\lVert \xi\rVert_\infty \lVert u\rVert^2$. **That is the exact point of failure**: white noise is a
 distribution, not a function, so $\lVert\xi\rVert_\infty$ does not exist. Saying
 it fails "because Gaussian variables exceed every threshold infinitely often"
 would be wrong — a Gaussian-valued *function* has perfectly finite $L^p$ norms.
@@ -13649,8 +13632,7 @@ regular representation.
 is a homomorphism $\rho : G \to GL(V)$. It is **irreducible** if the only
 $G$-invariant subspaces are $\{0\}$ and $V$.
 
-**Definition (F).** The **character** of $\rho$ is $\chi_\rho(g) =
-\operatorname{tr}(\rho(g))$.
+**Definition (F).** The **character** of $\rho$ is $\chi_\rho(g) = \operatorname{tr}(\rho(g))$.
 
 The character is a *class function*: it is constant on conjugacy classes,
 because trace is invariant under conjugation. That is why characters are
@@ -13686,8 +13668,7 @@ about it.
 
 **Worked example (U).** For an irreducible $V$ and any $v, w \in V$, apply the
 averaged rank-one operator $T(x) = \langle x, w\rangle v$. Schur's lemma gives
-$\varphi = \lambda I$, and taking traces computes $\lambda = \langle v,
-w\rangle / \dim V$. Rearranged:
+$\varphi = \lambda I$, and taking traces computes $\lambda = \langle v, w\rangle / \dim V$. Rearranged:
 
 $$
 \frac{1}{|G|}\sum_{g \in G} \overline{\rho_{ii}(g)}\,\rho_{jj}(g)
@@ -13699,8 +13680,7 @@ orthogonality relation in the subject comes from this one computation.
 
 ## Characters and the orthogonality relations
 
-**Definition.** $\langle \chi, \psi \rangle = \frac{1}{|G|}\sum_{g} \chi(g)
-\overline{\psi(g)}$.
+**Definition.** $\langle \chi, \psi \rangle = \frac{1}{|G|}\sum_{g} \chi(g) \overline{\psi(g)}$.
 
 **Theorem (U, orthogonality).** The irreducible characters are orthonormal:
 $\langle \chi_i, \chi_j \rangle = \delta_{ij}$. Every character is a
@@ -13772,8 +13752,7 @@ $\frac{1}{|G|}\sum_g \overline{\rho_i(g)_{ab}}\,\rho_j(g)_{cd} = \frac{\delta_{i
 over the diagonal indices $a = c$ and $b = d$. The left side becomes
 $\frac{1}{|G|}\sum_g \overline{\chi_i(g)}\,\chi_j(g)$, since a character is the
 trace and the trace is the sum of diagonal entries. The right side becomes
-$\frac{\delta_{ij}}{d_i}\sum_{a,b}\delta_{ab} = \frac{\delta_{ij} d_i}{d_i} =
-\delta_{ij}$. $\blacksquare$
+$\frac{\delta_{ij}}{d_i}\sum_{a,b}\delta_{ab} = \frac{\delta_{ij} d_i}{d_i} = \delta_{ij}$. $\blacksquare$
 
 One line, and it is worth being clear about why: a character is a *sum* of matrix
 coefficients, and the matrix-coefficient relation is an orthogonality statement
@@ -40215,8 +40194,7 @@ $$
 \mathbb{Z}^2 \xrightarrow{(1,-1)} \mathbb{Z}^2 \to H_1(\Sigma_2) \to \mathbb{Z}^2 \xrightarrow{(1,1)} \mathbb{Z} \oplus \mathbb{Z}^2.
 $$
 
-The first map is injective, so $H_1(\Sigma_2) = \operatorname{coker}\,(1,-1) =
-\mathbb{Z}^4 / \langle (1,-1) \rangle \cong \mathbb{Z}^3$, since $(1,-1)$ is
+The first map is injective, so $H_1(\Sigma_2) = \operatorname{coker}\,(1,-1) = \mathbb{Z}^4 / \langle (1,-1) \rangle \cong \mathbb{Z}^3$, since $(1,-1)$ is
 primitive and the quotient of $\mathbb{Z}^2$ by a primitive rank-one submodule
 is $\mathbb{Z}$. And the last map is injective, so nothing further is contributed.
 Hence
@@ -40244,8 +40222,7 @@ $$
 0 \to \operatorname{Ext}(H_{k-1}(X), G) \to H^k(X;G) \to \operatorname{Hom}(H_k(X), G) \to 0
 $$
 
-which, for $G = \mathbb{Z}$ and $H_{k-1}$ free, gives $H^k(X;\mathbb{Z}) \cong
-\operatorname{Hom}(H_k(X), \mathbb{Z})$.
+which, for $G = \mathbb{Z}$ and $H_{k-1}$ free, gives $H^k(X;\mathbb{Z}) \cong \operatorname{Hom}(H_k(X), \mathbb{Z})$.
 
 The reason to use cohomology anyway is that it carries a **product**: there are
 maps $\smile : H^p \times H^q \to H^{p+q}$, the cup product, and the theorem that
@@ -40309,8 +40286,7 @@ of surfaces is indexed by a single integer.
 
 ## Key Relationships
 
-- **Homotopy equivalence is weaker than homeomorphism.** $\mathbb{R}^n \simeq
-  \{*\}$, yet the two are not homeomorphic.
+- **Homotopy equivalence is weaker than homeomorphism.** $\mathbb{R}^n \simeq \{*\}$, yet the two are not homeomorphic.
 - **$\pi_1$ detects one-dimensional holes only.** $\Sigma_2$ and $S^1 \vee S^1$
   have the same fundamental group $F_2$ but are not homeomorphic, because
   $\Sigma_2$ has a 2-dimensional hole and $H_2(\Sigma_2) = 0$ records its absence.

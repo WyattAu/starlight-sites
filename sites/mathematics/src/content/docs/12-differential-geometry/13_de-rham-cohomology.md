@@ -121,8 +121,7 @@ so $\omega = d(K\omega)$ is exact, with the primitive given explicitly by
 $K\omega$. $\blacksquare$
 
 The proof produces the primitive, not merely its existence, which is why the
-radial contraction is worth writing out. And the identity $dK + Kd = \mathrm{id}
-- j_0^*$ is the general shape of every cohomology argument: a chain homotopy
+radial contraction is worth writing out. And the identity $dK + Kd = \mathrm{id} - j_0^*$ is the general shape of every cohomology argument: a chain homotopy
 between the identity and something degenerate, giving equality in cohomology
 where the two differ at chain level.
 
