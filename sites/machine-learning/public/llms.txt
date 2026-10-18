@@ -8,6 +8,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Bayesian Inference And Computation](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
 - [Estimation Theory](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/9_gaussian-processes/)
 - [Hypothesis Testing](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/4_hypothesis-testing/)
 - [Index](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/)
 - [Linear And Generalised Linear Models](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
