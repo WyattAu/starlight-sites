@@ -4314,6 +4314,16 @@ URL: https://machine-learning.wyattau.com/hub/
 }
 </script>
 
+:::note[Coming from an informal ML background? Start here]
+This course is fully rigorous: probability is built on measure theory, theorems
+are proved, and the informal statements common in ML books are replaced with
+conditions and counterexamples. Read
+**[Measure-Theoretic Probability](/1-probabilistic-machine-learning/1_measure-theoretic-probability/)**
+first -- it is the foundation every later page uses -- or browse the
+[curriculum](/1-probabilistic-machine-learning/) for the dependency chain.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
