@@ -78,13 +78,97 @@ $O(\sqrt{x} \ln x)$ — the most famous open problem in mathematics.
 Without the PNT, elementary bounds still yield marks:
 
 - **Euclid-style lower bound** on $\pi(x)$: $\pi(2^k) \geq k$ (Bertrand repeatedly).
-- **Euler product** (heuristic and provable in the form
-  $\sum_{n \leq x} 1/n \approx \prod_{p \leq x} (1 - 1/p)^{-1}$): taking logarithms relates the
-  harmonic series divergence to the divergence of $\sum 1/p$ — the standard route to proving
-  $\sum_{p} 1/p = \infty$ by elementary means (Euler).
-- Typical structured question: use $\pi(x)$ data to estimate $\pi(10^6) \approx 10^6/\ln 10^6
-\approx 72382$ against the true value 78498, and comment on the systematic overestimate of the
-  naive estimate versus $\mathrm{Li}$.
+- **Euler's theorem**: $\sum_{p} \frac{1}{p} = \infty$ — proved below; the sketch
+  above becomes a theorem.
+- Typical structured question: use $\pi(x)$ data to estimate
+  $\pi(10^6) \approx 10^6/\ln 10^6 \approx 72382$ against the true value 78498,
+  and comment on the systematic overestimate of the naive estimate versus
+  $\mathrm{Li}$.
+
+### The divergence of the sum of reciprocal primes
+
+**Theorem (Euler, 1737).** $\sum_{p\ \mathrm{prime}} \frac{1}{p} = \infty$.
+
+*Proof.* The proof is a rigourisation of the Euler product, and it is worth
+doing in full because the product is the ancestor of the Riemann zeta function.
+
+*Step 1: the finite product identity.* For any $x$ and any finite set of primes
+$P$,
+
+$$
+\sum_{n \leq x} \frac{1}{n} \;\leq\; \prod_{p \in P,\ p \leq x} \left(1 - \frac{1}{p}\right)^{-1},
+$$
+
+where $P$ is taken to be all primes $\leq x$. Why: expanding each factor as the
+geometric series $\left(1 - \frac{1}{p}\right)^{-1} = \sum_{k \geq 0} p^{-k}$,
+the product expands into $\sum \frac{1}{p_1^{k_1} \cdots p_r^{k_r}}$ over all
+multisets of the primes in $P$ — and every $n \leq x$ factors into primes
+$\leq x \leq$ those in $P$, so its reciprocal $\frac{1}{n}$ is one of the terms
+of that expansion. Every term of the harmonic sum appears in the expansion, and
+the expansion has only non-negative terms, so it dominates.
+
+*Step 2: the product is at most the harmonic series.* The expansion
+
+$$
+\prod_{p \leq x} \left(1 - \frac{1}{p}\right)^{-1}
+= \prod_{p \leq x} \sum_{k \geq 0} \frac{1}{p^k}
+$$
+
+produces exactly the reciprocals of the numbers whose prime factors all lie in
+$P$ — every one of them a positive integer, each appearing once. So the expanded
+sum is a **sub-sum of the harmonic series**, and since all terms are positive,
+
+$$
+\prod_{p \leq x} \left(1 - \frac{1}{p}\right)^{-1}
+\leq \sum_{n=1}^{\infty} \frac{1}{n}.
+$$
+
+(Cleaner than bounding: the sub-sum statement is all Step 4 needs, and it is
+exact.)
+
+*Step 3: the logarithm computation.* Take logarithms of the finite product:
+
+$$
+\log\prod_{p \leq x}\left(1 - \frac{1}{p}\right)^{-1}
+= -\sum_{p \leq x}\log\left(1 - \frac{1}{p}\right)
+= \sum_{p \leq x}\sum_{k \geq 1}\frac{1}{k\,p^k},
+$$
+
+expanding each $\log(1 - u)^{-1} = \sum_{k\geq1} u^k/k$. The $k = 1$ terms are
+exactly $\sum_{p \leq x} \frac{1}{p}$; the $k \geq 2$ terms are bounded
+*uniformly in $x$*:
+
+$$
+\sum_{p}\sum_{k \geq 2}\frac{1}{k p^k}
+\leq \sum_{p}\sum_{k\geq 2}\frac{1}{p^k}
+= \sum_p \frac{1}{p(p-1)}
+\leq \sum_{n=2}^{\infty}\frac{1}{n(n-1)} = 1,
+$$
+
+using $p^k \geq p^2 \geq p(p-1)$ for $k \geq 2$ and the telescoping of
+$\frac{1}{n(n-1)} = \frac 1{n-1} - \frac 1n$. So
+
+$$
+\sum_{p \leq x}\frac{1}{p} \;\geq\; \log\prod_{p\leq x}\left(1-\frac 1p\right)^{-1} - 1.
+$$
+
+*Step 4: assemble.* The harmonic series diverges, so
+$\log\sum_{n\leq x}\frac 1n \to \infty$; by Step 2 the product tends to infinity
+with it; by Step 3 the sum of reciprocal primes is at least (log of the product)
+minus 1, hence diverges. $\blacksquare$
+
+The theorem is stronger than infinitude: *not only are there infinitely many
+primes, they are dense enough that their reciprocals diverge* — while the
+reciprocal squares $\sum_p 1/p^2$ converge (by comparison with
+$\sum_n 1/n^2 < \infty$). Primes are, in this precise sense, much more common
+than squares.
+
+The same product is the Riemann zeta function's Euler product
+$\zeta(s) = \prod_p (1 - p^{-s})^{-1}$, and the PNT is the statement about how
+$\zeta$'s analytic behaviour controls $\pi(x)$. The divergence proved above is
+the $s \to 1$ edge of that analytic theory.
+
+### 10.5 Exam-Level Estimates
 
 ### 10.6 Common Pitfalls
 
@@ -114,8 +198,7 @@ overshoots by about 6%, the shifted one by under 0.1%. Typical structured questi
 compute both estimates and to explain why the logarithmic integral dominates.
 
 A second standard question type: given $\pi(100) = 25$ and $\pi(200) = 46$, estimate the number
-of primes between 100 and 200 as $\frac{200}{\ln 200} - \frac{100}{\ln 100} \approx 46 - 25
-= 21$, and note that direct counting gives 21 — interval estimates are already accurate at this
+of primes between 100 and 200 as $\frac{200}{\ln 200} - \frac{100}{\ln 100} \approx 46 - 25 = 21$, and note that direct counting gives 21 — interval estimates are already accurate at this
 size. Close by stating Bertrand: there is always a prime in any such interval of the form
 $(n, 2n)$.
 
