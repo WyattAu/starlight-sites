@@ -496,16 +496,26 @@ written, deployed and verified live; the differential-geometry extensions chain
 cross-referenced both ways.
 
 **Milestone (Oct 2026): zero theorem-heavy/proof-light pages remain on the
-mathematics site.** The theorems-versus-proofs survey now returns empty: 736
-theorems, 778 proofs, and every page with three or more theorems carries at
-least two proofs. The pages that reached this state this pass: conformal
-mappings (conformality, Mobius circles-and-lines, cross-ratio invariance,
-three-points uniqueness), analytic continuation (the monodromy theorem, with
-simple connectivity located at Step 3), distribution of primes (Euler's
-divergence of sum 1/p), and the Bernstein-von Mises page (Doob's theorem by
-martingale convergence with the prior-null catch stated, Schwartz's theorem in
-structure). The same holds for the functional analysis track (bounded
-operators, weak convergence) after the proofs added there.
+mathematics AND machine-learning sites.** The theorems-versus-proofs survey now
+returns empty across both: 772 theorems, 816 proofs, every page with three or
+more theorems carrying at least two proofs.
+
+The mathematics pages that reached this state this pass: conformal mappings
+(conformality, Mobius circles-and-lines, cross-ratio invariance, three-points
+uniqueness), analytic continuation (the monodromy theorem, with simple
+connectivity located at Step 3), distribution of primes (Euler's divergence of
+sum 1/p), Bernstein-von Mises (Doob by martingale convergence with the
+prior-null catch stated, Schwartz in structure), differential forms (d^2 = 0
+computed, naturality, Stokes with the boundary-orientation sign), Banach
+algebras and the Gelfand representation (new page), compact operators (the
+compact spectral theorem via the Rayleigh quotient, with the norm expansion
+doing the work), weak convergence (norm lower-semicontinuity, Mazur by
+separation, the l^p criterion, Banach-Alaoglu's structure), Sobolev spaces (new
+page), plus the graduate statistics BvM/monodromy pages.
+
+The machine-learning course is new this pass: ten pages from sigma-algebras to
+the research frontier, every theorem proved, every numerical claim checked in
+Python/R/C++, every page cross-referenced by dependency.
 
 **Next content, by measured demand -- updated: all the top items are now written.**
 
