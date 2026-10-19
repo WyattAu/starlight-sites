@@ -495,6 +495,18 @@ written, deployed and verified live; the differential-geometry extensions chain
 (forms -> de Rham -> Hodge -> Kahler) is complete, and each page is
 cross-referenced both ways.
 
+**Milestone (Oct 2026): zero theorem-heavy/proof-light pages remain on the
+mathematics site.** The theorems-versus-proofs survey now returns empty: 736
+theorems, 778 proofs, and every page with three or more theorems carries at
+least two proofs. The pages that reached this state this pass: conformal
+mappings (conformality, Mobius circles-and-lines, cross-ratio invariance,
+three-points uniqueness), analytic continuation (the monodromy theorem, with
+simple connectivity located at Step 3), distribution of primes (Euler's
+divergence of sum 1/p), and the Bernstein-von Mises page (Doob's theorem by
+martingale convergence with the prior-null catch stated, Schwartz's theorem in
+structure). The same holds for the functional analysis track (bounded
+operators, weak convergence) after the proofs added there.
+
 **Next content, by measured demand -- updated: all the top items are now written.**
 
 1. ~~Sobolev spaces~~ -- DONE: page live in the functional analysis track.
