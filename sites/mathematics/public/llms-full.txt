@@ -6863,7 +6863,115 @@ self-adjoint operator on a Hilbert space $H$. Then:
 **Corollary 5.5.** A compact self-adjoint operator on an infinite-dimensional Hilbert space has at
 most countably many nonzero eigenvalues, and $0$ is the only possible accumulation point.
 
-### 5.3 Spectral Theorem for Normal Operators
+## Proofs
+
+The spectral theorem for compact self-adjoint operators is proved here because
+it is the bridge between two theories the network has already built: the
+spectral theorem for self-adjoint operators on
+[the graduate analysis page](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
+built a projection-valued measure by hand, and
+[the Sobolev page](/11-functional-analysis/10_sobolev-spaces/) built compactness
+from Rellich–Kondrachov. The compact spectral theorem is what the two give when
+combined — and its proof via the Rayleigh quotient is the template for every
+existence-of-eigenfunctions argument in the subject, from the Sturm–Liouville
+theory to the Hodge theorem's harmonic forms.
+
+**Proposition 5.1 (compact implies bounded; finite rank implies compact).**
+
+*Proof.* Compact sets are bounded, so $T(B_X)$ is bounded, and linearity then
+scales: $\|Tx\| \leq M\|x\|$ with $M = \sup_{\|z\|\leq1}\|Tz\|$. For finite
+rank, let $y_1, \dots, y_m$ span $T(X)$; write $Tx = \sum_k \varphi_k(x) y_k$
+with $\varphi_k$ linear functionals — for instance the coefficients in any fixed
+basis of the range. On the unit ball each $\varphi_k$ is bounded (finite-
+dimensional range), so $T(B_X)$ is a bounded subset of a finite-dimensional
+space, hence relatively compact by the Heine–Borel theorem. $\blacksquare$
+
+**Theorem 5.4 (spectral theorem for compact self-adjoint $T \neq 0$).** $T$ has
+an eigenvalue $\lambda$ with $|\lambda| = \|T\|$; eigenvectors for distinct
+eigenvalues are orthogonal; the nonzero spectrum consists of eigenvalues, each
+of finite multiplicity, with $0$ the only possible accumulation point; and
+there is an orthonormal basis of $\overline{\operatorname{ran}}(T)$ of
+eigenvectors, giving $Tx = \sum_n \lambda_n \langle x, e_n\rangle e_n$.
+
+*Proof, in four steps.*
+
+*Step 1: an eigenvalue exists with modulus $\|T\|$.* For self-adjoint $T$
+define the **Rayleigh quotient**
+$\mu = \sup_{\|z\| = 1} |\langle Tz, z\rangle|$. Two facts: self-adjointness
+makes every $\langle Tz, z\rangle$ real, and the polarisation identity gives
+$\|T\| = \mu$ -- both standard for self-adjoint operators, the norm identity
+proved by expanding $\|T(z \pm z')\|^2$ and recovering
+$\langle Tz, z'\rangle$ by polarisation. Choose unit vectors $x_n$ with
+$\langle Tx_n, x_n\rangle \to \mu$.
+
+The key computation is the expansion of the squared norm:
+
+$$
+\|(T - \mu)x_n\|^2 = \|Tx_n\|^2 - 2\mu\langle Tx_n, x_n\rangle + \mu^2
+\leq \mu^2 - 2\mu\langle Tx_n, x_n\rangle + \mu^2 \to \mu^2 - 2\mu^2 +
+\mu^2 = 0,
+$$
+
+using $\|Tx_n\| \leq \|T\| = \mu$ and $\langle Tx_n, x_n\rangle \to \mu$.
+So $(T - \mu)x_n \to 0$ in norm with $\|x_n\| = 1$ throughout.
+
+*Compactness finishes.* $Tx_n$ has a norm-convergent subsequence
+$Tx_{n_k} \to y$ -- the defining property of the compact operator applied to
+the bounded sequence $(x_n)$. Since $Tx_{n_k} - \mu x_{n_k} \to 0$, we get
+$\mu x_{n_k} \to y$, so $x_{n_k} \to y/\mu$ with $\|y/\mu\| = 1$. By
+continuity of $T$, $T(y/\mu) = y$, i.e. $Ty = \mu y$: **$y$ is an eigenvector
+with eigenvalue $\mu$, and $|\mu| = \|T\|$**. $\blacksquare$
+
+The proof's three ingredients are worth separating, because each fails in a
+context where the theorem fails. Self-adjointness makes the Rayleigh quotient
+real and equal to the norm -- a non-self-adjoint operator has no such quotient.
+Attainment of the supremum by a *sequence* needs the unit ball's weak
+compactness machinery, which for reflexive spaces comes from Kakutani. And
+compactness is what turns the weak limit of the images into a norm limit -- the
+step that manufactures the eigenvector. A bounded non-compact self-adjoint
+operator can fail at any of the three, and the multiplication operator on
+$L^2[0,1]$ fails at all of them: its Rayleigh quotients fill an interval and no
+value is attained.
+
+*Step 2: orthogonality.* If $Tx = \lambda x$ and $Ty = \mu y$ with
+$\lambda \neq \mu$, then
+$\lambda\langle x, y\rangle = \langle Tx, y\rangle = \langle x, Ty\rangle = \bar\mu\langle x, y\rangle$, and self-adjointness makes $\mu$ real, so
+$(\lambda - \mu)\langle x, y\rangle = 0$ forces orthogonality. $\blacksquare$
+
+*Step 3: the nonzero spectrum consists of eigenvalues of finite multiplicity,
+accumulating only at zero.* If $|\lambda| \geq \epsilon > 0$ for infinitely many
+orthonormal eigenpairs $(\lambda_n, e_n)$, then $e_n \rightharpoonup 0$
+(Bessel's inequality: every $y$ has $\sum|\langle y, e_n\rangle|^2 < \infty$),
+so compactness gives $\lambda_n e_n = Te_n \to$ norm-limit $0$ — but
+$\|\lambda_n e_n\| = |\lambda_n| \geq \epsilon$, contradiction. So only
+finitely many eigenvalues exceed any $\epsilon$, hence the nonzero eigenvalues
+are countable with $0$ the only accumulation point, and each eigenspace is
+finite-dimensional (an infinite orthonormal set inside one eigenspace would
+violate compactness the same way). $\blacksquare$
+
+*Step 4: the expansion.* Let $\{e_n\}$ be an orthonormal basis of
+$\overline{\operatorname{ran}}(T)$ of eigenvectors, which exists by
+inductively applying Step 1 to the orthogonal complement of the eigenvectors
+found so far — the complement is invariant under $T$ by self-adjointness, and
+the process exhausts the range because otherwise the restriction to the
+remaining complement would be compact self-adjoint with norm equal to its
+largest $|\lambda|$, contradicting the eigenvalue exhaustion. For
+$x \in \overline{\operatorname{ran}}(T)$, write
+$x = \sum_n \langle x, e_n\rangle e_n$; applying $T$ and using continuity of $T$
+plus boundedness of the coefficients,
+
+$$
+Tx = \sum_n \langle x, e_n\rangle\, Te_n = \sum_n \lambda_n \langle x,
+e_n\rangle e_n. \qquad\blacksquare
+$$
+
+**Corollary 5.5** follows: the nonzero eigenvalues are countable (Step 3) with
+$0$ as their only accumulation point, and on an infinite-dimensional space $0$
+must be in the spectrum since a bijective compact $T$ would make
+$T^{-1}$ a bounded inverse of a compact operator — impossible unless the space
+is finite-dimensional, by the compactness of the unit ball it would imply. $\blacksquare$
+
+## 5.3 Spectral Theorem for Normal Operators
 
 A bounded operator $T$ on a Hilbert space $H$ is **normal** if $T^*T = TT^*$, and **unitary** if
 $T^*T = TT^* = I$.
@@ -13248,6 +13356,96 @@ and consistency at $p_0 = 0$ then requires care.
 > **Exercise.** Show the posterior mass outside $(p_0 \pm \varepsilon)$ is
 > bounded by $e^{-c n}$ for some $c > 0$, using Hoeffding's inequality on the
 > likelihood ratio.
+
+### Proofs of the consistency theorems
+
+**Theorem (Doob, proved).** Let the model be identifiable — distinct $\theta$
+give distinct laws of the infinite sequence — and let $\pi(\Theta_0) > 0$. Then
+the posterior is consistent at $\pi$-almost every $\theta$: under the joint law
+$\pi \otimes P_\theta^{\mathbb{N}}$, the posterior of every neighbourhood of
+$\theta_0$ tends to $1$.
+
+*Proof.* Make $\theta$ random with law $\pi$ and generate $X_1, X_2, \dots$
+conditionally i.i.d. given $\theta$. For a measurable $B \subseteq \Theta$,
+consider the posterior probabilities
+
+$$
+M_n = \Pi(\theta \in B \mid X_1, \dots, X_n).
+$$
+
+The tower property of conditional expectation gives
+$\mathbb{E}[M_{n+1} \mid X_1, \dots, X_n] = M_n$: the $M_n$ form a **bounded
+martingale**, values in $[0, 1]$. By Doob's martingale convergence theorem,
+$M_n \to M_\infty$ almost surely, and the limit is the conditional expectation
+of the indicator against the *full* data σ-field:
+
+$$
+M_\infty = \mathbb{E}[\mathbf{1}(\theta \in B) \mid X_1, X_2, \dots].
+$$
+
+Now the tail structure enters. Under identifiability, the exchangeable tail
+σ-field of the joint law is (up to null sets) generated by $\theta$ itself, so
+
+$$
+\mathbb{E}[\mathbf{1}(\theta \in B) \mid \text{tail}]
+=
+\begin{cases}
+1 & \text{on } \{\theta \in B\},\\
+0 & \text{on } \{\theta \notin B\},
+\end{cases}
+$$
+
+up to a $\pi$-null set. Taking $B$ through a countable base of neighbourhoods
+of $\theta_0$ and intersecting the countably many almost-sure events gives
+posterior concentration at $\pi$-almost every $\theta_0$. $\blacksquare$
+
+*The catch, stated.* Doob's theorem speaks under the *joint* law: consistency
+holds for prior-almost every $\theta_0$. But a $\pi$-null set can contain open
+sets when the prior is not equivalent to Lebesgue-type mass on the support —
+Freedman's counterexample below exploits exactly this gap. Closing it needs
+control at *every* $\theta_0$, which is what Schwartz's testing condition
+provides.
+
+**Theorem (Schwartz, proved in structure).** Suppose for a neighbourhood
+$\Theta_0$ of the true $\theta_0$ there are tests $\varphi_n$ of
+$H_0: \theta = \theta_0$ versus $H_1: \theta \notin \Theta_0$ with exponentially
+small errors:
+
+$$
+\mathbb{E}_{\theta_0}\,\varphi_n \leq e^{-n\epsilon},
+\qquad
+\sup_{\theta \notin \Theta_0}\,\mathbb{E}_\theta\,(1 - \varphi_n) \leq e^{-nc},
+$$
+
+and $\pi(\Theta_0) > 0$. Then the posterior of $\Theta_0^c$ decays
+exponentially: $\Pi(\Theta_0^c \mid X^{(n)}) \leq C\,e^{-n c'}$ for some
+$c' > 0$.
+
+*Proof structure.* The two test inequalities bound the likelihood ratio: on
+$\Theta_0^c$, the average likelihood is at most $e^{-nc}$ times what $H_0$
+predicts, and on the event where the test rejects, the same holds pointwise.
+Since $\pi(\Theta_0) > 0$, the marginal likelihood over $\Theta_0$ is at least
+$\pi(\Theta_0)\,p_{\theta_0}(X^{(n)})$, and on the test's *acceptance* event
+the likelihood under any $\theta \in \Theta_0^c$ is at most $e^{-nc}$ times the
+likelihood at $\theta_0$ up to the exponentially small type-I error. Combining:
+
+$$
+\Pi(\Theta_0^c \mid X^{(n)})
+\leq \frac{e^{-nc}}{\pi(\Theta_0)} + \mathbb{E}_{\theta_0}\varphi_n\text{-terms}
+\leq \frac{2\,e^{-n c'}}{\pi(\Theta_0)},
+$$
+
+for $c'$ the smaller of $c$ and $\epsilon$ up to constants — exponential decay
+in $n$. $\blacksquare$
+
+*What the structure teaches.* Every hypothesis of the nonparametric
+contraction theorem above replaces one move of this proof. The exponential
+testing condition is Schwartz's hypothesis verbatim; the sieve is what
+replaces the compact complement $\Theta_0^c$ when entropy is infinite; and the
+prior-mass condition is the Kullback–Leibler property. Each of the three moves
+— exponential testing, entropy control, prior mass — is a hypothesis in the
+modern theorem, and each fails in a way the failure-mode section below
+documents.
 
 ## Posterior contraction rates
 
