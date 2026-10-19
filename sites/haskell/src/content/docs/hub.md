@@ -23,6 +23,15 @@ categories:
 }
 </script>
 
+:::note[New to functional programming? Start here]
+If your background is an imperative language -- Python, Java, C -- read
+**[Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)** first. It
+rebuilds expressions-versus-statements, types as contracts, immutability,
+recursion as the loop, and higher-order functions from the ground up, and ends
+with a self-test so confident readers can skip by assessment.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

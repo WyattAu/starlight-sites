@@ -32,6 +32,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://haskell.wyattau.com/about/)
+- [Before You Begin](https://haskell.wyattau.com/before-you-begin/)
 - [Flashcards Haskell Advanced](https://haskell.wyattau.com/flashcards-haskell-advanced/)
 - [Flashcards Haskell Basics](https://haskell.wyattau.com/flashcards-haskell-basics/)
 - [Glossary](https://haskell.wyattau.com/glossary/)

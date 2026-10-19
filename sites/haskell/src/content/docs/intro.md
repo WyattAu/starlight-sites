@@ -14,6 +14,15 @@ description: "Study notes for Haskell with worked examples, practice problems, a
 }
 </script>
 
+:::note[New to functional programming? Start here]
+If your background is an imperative language -- Python, Java, C -- read
+**[Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)** first. It
+rebuilds expressions-versus-statements, types as contracts, immutability,
+recursion as the loop, and higher-order functions from the ground up, and ends
+with a self-test so confident readers can skip by assessment.
+:::
+
+
 ## Haskell
 
 Welcome to the Haskell notes. Haskell is a purely functional, lazily evaluated language with a strong static type system. Everything is an expression, side effects are managed through monads, and types are inferred unless you annotate them.
