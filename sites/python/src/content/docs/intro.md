@@ -18,6 +18,14 @@ categories:
 }
 </script>
 
+:::note[New to Python, or to NumPy? Start here]
+Read **[Before You Begin: Python for the Courses Here](/before-you-begin/)**
+first. It builds the exact idioms the numerical courses use -- arrays as
+vectors, vectorised operations instead of loops, seeded reproducibility, and
+the plot-as-evidence pattern -- and ends with a self-test.
+:::
+
+
 ## Abstract
 
 This resource is created as an aggregation of best practices in Python. It covers idiomatic Python
