@@ -12,6 +12,18 @@ categories:
 
 ## Complete AP Course Guide, All Subjects
 
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
+
 The Advanced Placement program, administered by the College Board, offers college-level coursework across a wide range of disciplines. Earning a high AP exam score can earn you college credit, strengthen your university application, and give you a head start on university-level study. This hub brings together every AP study resource on Wyatt's Notes into a single page, covering Biology, Chemistry, Computer Science A, Computer Science Principles, English Language and Composition, English Literature, History (US, European, and World), Mathematics (Calculus AB, Calculus BC, and Statistics), and Physics (1, 2, and C).
 
 Whether you are preparing for your first AP exam or refining your technique for a full slate of tests, the guides below give you the content mastery and strategic advantage you need.

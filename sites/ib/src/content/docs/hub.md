@@ -42,6 +42,18 @@ categories:
 
 ## Why This Guide Exists
 
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
+
 The IB Diploma Programme demands breadth and depth across six subject groups, plus the Core (TOK, Extended Essay, and CAS). This hub page is your roadmap to every resource on this site, organised by subject, with study strategies tailored to IB's unique assessment approach.
 
 Whether you are preparing for Paper 1, Paper 2, or the internal assessments, this page connects you to everything you need. Start here, then drill into the subjects that matter most to your exam success.

@@ -43,6 +43,18 @@ categories:
 
 ## Why This Guide Exists
 
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
+
 The Gaokao (高考) is the National College Entrance Examination of China, one of the most important and most gruelling examinations in the world. Every June, approximately 12 million students sit for this exam, and their scores determine which universities they can attend. The Gaokao is not merely a test of knowledge; it is a test of endurance, precision, and strategic thinking under extreme pressure.
 
 This guide exists because preparing for the Gaokao requires more than memorising formulas. It requires understanding the structure of each section, recognising the types of problems that appear year after year, and developing the mental stamina to perform at your best over two gruelling days. The resources below cover every subject in the Gaokao, with topic-by-topic notes, worked examples, and practice problems.

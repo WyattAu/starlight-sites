@@ -42,6 +42,18 @@ categories:
 
 ## Why This Guide Exists
 
+
+:::note[Heading to university next?]
+These notes are calibrated to your exam. University mathematics and physics are
+not: they assume you can read a proof, define a limit from the epsilon-delta
+definition, and work with vectors and set notation. The destination sites have
+free transition pages written exactly for that step -- start with
+**[Before You Begin: From School to University Mathematics](https://mathematics.wyattau.com/before-you-begin/)**
+and continue to
+**[the physics version](https://physics.wyattau.com/before-you-begin/)**.
+Both end with a self-test, so you know which sections to study.
+:::
+
 The DSE (Diploma of Secondary Education) is the standardised examination taken by all Hong Kong students at the end of secondary school. It determines university admissions and shapes career pathways. This hub page links every resource on this site, organised by subject, with study plans and exam strategies to help you prepare efficiently.
 
 Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes. Use this page as your starting point, then drill into the subjects and topics where you need the most work.
