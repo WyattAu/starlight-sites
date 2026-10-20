@@ -18,6 +18,14 @@ categories:
 }
 </script>
 
+:::note[New to networking? Start here]
+Read **[Before You Begin: How the Layers Fit](/before-you-begin/)** first. It
+builds the layered model from the journey of one web page -- what each layer
+promises, what encapsulation is, and why TCP and UDP are two points on a
+guarantee spectrum -- and ends with a self-test.
+:::
+
+
 ## Why Networking Matters
 
 Every system you operate, deploy, or debug depends on networking. A container cannot reach its

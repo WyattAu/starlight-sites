@@ -65,6 +65,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://networking.wyattau.com/about/)
+- [Before You Begin](https://networking.wyattau.com/before-you-begin/)
 - [Bgp And Routing Protocols](https://networking.wyattau.com/bgp-and-routing-protocols/)
 - [Glossary](https://networking.wyattau.com/glossary/)
 - [Hub](https://networking.wyattau.com/hub/)
