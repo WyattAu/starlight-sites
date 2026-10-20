@@ -22,6 +22,14 @@ categories:
 }
 </script>
 
+:::note[Coming from Python or another scripting language? Start here]
+Read **[Before You Begin: Reading the C++ in These Courses](/before-you-begin/)**
+first. It builds compilation, static types, references versus values, and the
+STL from a Python starting point -- the assumptions every C++ listing on the
+numerical courses makes.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
