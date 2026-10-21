@@ -242,6 +242,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Overview](https://mathematics.wyattau.com/overview/)
 - [Practice Linear Algebra](https://mathematics.wyattau.com/practice-linear-algebra/)
 - [Practice Test Mega](https://mathematics.wyattau.com/practice-test-mega/)
+- [Terms Of Art](https://mathematics.wyattau.com/terms-of-art/)
 
 ## Demos
 
