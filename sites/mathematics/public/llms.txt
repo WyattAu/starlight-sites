@@ -236,6 +236,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Before You Begin](https://mathematics.wyattau.com/before-you-begin/)
 - [Glossary](https://mathematics.wyattau.com/glossary/)
 - [How To Use](https://mathematics.wyattau.com/how-to-use/)
+- [How To Use Learning Science](https://mathematics.wyattau.com/how-to-use-learning-science/)
 - [Hub](https://mathematics.wyattau.com/hub/)
 - [Index](https://mathematics.wyattau.com/)
 - [Intro](https://mathematics.wyattau.com/intro/)
