@@ -89,6 +89,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Graduate-Statistics
 
 - [Posterior Asymptotics And Bernstein Von Mises](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)
+- [Posterior Contraction Rates](https://mathematics.wyattau.com/13-graduate-statistics/2_posterior-contraction-rates/)
 
 ## Graduate-Stochastic-Analysis
 
