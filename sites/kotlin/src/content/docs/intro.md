@@ -20,6 +20,14 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+:::note[Coming from Java or another language? Start here]
+Read **[Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)**
+first. It covers null safety, data classes, sealed classes, coroutines, and
+extension functions -- the concepts that make Kotlin different from Java, each
+defined from the ground up with the Java intuition named and upgraded.
+:::
+
+
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
