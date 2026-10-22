@@ -4,7 +4,7 @@ date: 2026-07-23T21:57:32+01:00
 title: "Continuity and Homeomorphisms"
 tags:
   - University Maths
-description: 'Let and be topological spaces. A function is if the preimage of every open set i Comprehensive educational content coverage with definitions and practice proble'
+description: "Continuity via preimages, with all equivalent characterisations proved: closed sets, closures of preimages, and images of closures. The pasting lemma, open versus closed maps, homeomorphisms and topological invariants, and the compact-to-Hausdorff criterion for a continuous bijection to be a homeomorphism."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -28,8 +28,45 @@ Equivalently, $f$ is continuous if the preimage of every closed set is closed.
 
 1. $f$ is continuous.
 2. $f^{-1}(V)$ is closed in $X$ for every closed $V \subseteq Y$.
-3. $f^{-1}(\overline{B}) \subseteq \overline{f^{-1}(B)}$ for every $B \subseteq Y$.
+3. $\overline{f^{-1}(B)} \subseteq f^{-1}(\overline{B})$ for every $B \subseteq Y$.
 4. $f(\overline{A}) \subseteq \overline{f(A)}$ for every $A \subseteq X$.
+
+**Proof.** (1) $\Leftrightarrow$ (2): for any $B \subseteq Y$,
+$f^{-1}(Y \setminus B) = X \setminus f^{-1}(B)$, so preimages of open sets being open is exactly
+preimages of closed sets being closed.
+
+(2) $\Rightarrow$ (3): the closure of $B$ is the intersection of all closed supersets of $B$, and
+preimages preserve intersections, so
+
+$$
+f^{-1}(\overline{B}) = \bigcap \{ f^{-1}(C) : C \text{ closed in } Y, \; B \subseteq C \}.
+$$
+
+By (2) each $f^{-1}(C)$ is closed in $X$, and each contains $f^{-1}(B)$. The closure
+$\overline{f^{-1}(B)}$ is the *smallest* closed set containing $f^{-1}(B)$, so it is contained in
+every member of the family on the right — in particular in their intersection, $f^{-1}(\overline{B})$.
+
+(3) $\Rightarrow$ (2): let $V$ be closed in $Y$ and set $B = V$. Then
+$\overline{f^{-1}(V)} \subseteq f^{-1}(\overline{V}) = f^{-1}(V) \subseteq \overline{f^{-1}(V)}$,
+where the last inclusion is extensivity of closure. So $f^{-1}(V)$ equals its closure and is closed.
+
+(1) $\Rightarrow$ (4): let $x \in \overline{A}$ and let $V$ be any open neighbourhood of $f(x)$.
+By (1), $f^{-1}(V)$ is an open neighbourhood of $x$, and $x \in \overline{A}$, so
+$f^{-1}(V) \cap A \neq \emptyset$. Pick $a$ in the intersection: then $f(a) \in V \cap f(A)$, so
+*every* open neighbourhood of $f(x)$ meets $f(A)$, i.e. $f(x) \in \overline{f(A)}$.
+
+(4) $\Rightarrow$ (1): let $U$ be open in $Y$; we show $f^{-1}(U)$ is open. Set
+$A = X \setminus f^{-1}(U)$. We claim $f^{-1}(U) \subseteq X \setminus \overline{A}$: if $x \in f^{-1}(U)$
+were in $\overline{A}$, then by (4) $f(x) \in \overline{f(A)}$, so the open neighbourhood
+$U$ of $f(x)$ meets $f(A)$ — say $f(a) \in U$ for some $a \in A$. But then $a \in f^{-1}(U) \cap A = \emptyset$,
+a contradiction. Hence $f^{-1}(U) \subseteq X \setminus \overline{A}$. Conversely
+$X \setminus \overline{A} \subseteq X \setminus A = f^{-1}(U)$. So
+$f^{-1}(U) = X \setminus \overline{A}$, which is open. $\blacksquare$
+
+Direction (3) is the one to be careful with: the inclusion runs *from* the closure of the preimage
+*into* the preimage of the closure, and it can be strict. For the constant map
+$f : \mathbb{R} \to \mathbb{R}$, $f \equiv 0$, with $B = (0, 1)$: $\overline{f^{-1}(B)} = \overline{\emptyset} = \emptyset$
+while $f^{-1}(\overline{B}) = f^{-1}([0,1]) = \mathbb{R}$.
 
 **Example 4.1.** Every constant function $f : X \to Y$ is continuous.
 
@@ -42,14 +79,44 @@ $\operatorname{id} : (X, \tau_1) \to (X, \tau_2)$ need not be.
 **Proposition 4.2.** The composition of continuous functions is continuous: if $f : X \to Y$ and
 $g : Y \to Z$ are continuous, then $g \circ f : X \to Z$ is continuous.
 
+**Proof.** For $W$ open in $Z$, $(g \circ f)^{-1}(W) = f^{-1}(g^{-1}(W))$. The set $g^{-1}(W)$ is
+open in $Y$ by continuity of $g$; its preimage under $f$ is open in $X$ by continuity of $f$. $\blacksquare$
+
 **Continuity at a point.** A function $f : X \to Y$ is **continuous at $x_0 \in X$** if for every
 neighbourhood $V$ of $f(x_0)$, there exists a neighbourhood $U$ of $x_0$ such that $f(U) \subseteq V$.
 This local definition coincides with the global definition: $f$ is continuous iff it is continuous at
 every point.
 
+**Proposition 4.2.1.** $f$ is continuous if and only if it is continuous at every point of $X$.
+
+**Proof.** ($\Rightarrow$) Let $V$ be a neighbourhood of $f(x_0)$. It contains an open set
+$V^\circ \ni f(x_0)$. Then $U = f^{-1}(V^\circ)$ is an open neighbourhood of $x_0$ with
+$f(U) \subseteq V$.
+
+($\Leftarrow$) Let $W$ be open in $Y$; show $f^{-1}(W)$ is open. If $x \in f^{-1}(W)$, then $W$ is
+a neighbourhood of $f(x)$, so continuity at $x$ gives a neighbourhood $U_x$ of $x$ with
+$f(U_x) \subseteq W$. Shrinking $U_x$ to its open interior, $x$ is an interior point of
+$f^{-1}(W)$. Every point of $f^{-1}(W)$ is interior, so $f^{-1}(W)$ is open. $\blacksquare$
+
 **Proposition 4.3 (Pasting Lemma).** If $X = A \cup B$ where $A$ and $B$ are closed (or open) in $X$,
 and $f : A \to Y$, $g : B \to Y$ are continuous functions that agree on $A \cap B$, then the
 function $h : X \to Y$ defined by $h|_A = f$ and $h|_B = g$ is continuous.
+
+**Proof.** *Closed case.* Let $V$ be closed in $Y$. Then
+$h^{-1}(V) = (f^{-1}(V) \cup g^{-1}(V))$: indeed $x \in h^{-1}(V)$ means $h(x) \in V$, and $h(x)$
+is either $f(x)$ or $g(x)$. Now $f^{-1}(V)$ is closed in $A$ (continuity of $f$) and $A$ is closed
+in $X$, so $f^{-1}(V)$ is closed in $X$; likewise $g^{-1}(V)$. A finite union of closed sets is
+closed, so $h^{-1}(V)$ is closed, and $h$ is continuous by Proposition 4.1(2).
+
+*Open case.* Dually, let $V$ be open in $Y$. Then $h^{-1}(V) = f^{-1}(V) \cup g^{-1}(V)$ as above,
+each of $f^{-1}(V)$, $g^{-1}(V)$ is open in the open (in $X$) subspace $A$, resp. $B$, hence open in
+$X$, and their union is open. $\blacksquare$
+
+Why the hypotheses matter: if one piece is closed and the other open, the argument breaks down in
+both cases at once — a set closed in a closed subspace is closed in $X$, but a set open in a closed
+subspace need not be. The classic counterexample: $f(x) = 0$ on $(-\infty, 0]$ and $f(x) = 1$ on
+$(0, \infty)$ is continuous on each piece and the pieces agree on their (empty) intersection, but
+one piece is closed while the other is merely open — and $f$ is discontinuous at $0$.
 
 **Example 4.4 (Piecewise functions).** The absolute value function $f(x) = |x|$ is continuous on
 $\mathbb{R}$ by the pasting lemma: on $(-\infty, 0]$ it equals $-x$ (continuous), on $[0, \infty)$ it
@@ -67,6 +134,15 @@ $\mathbb{R}$). The projection $\pi : X \times Y \to X$ is open but not necessari
 
 **Proposition 4.4.** A bijective continuous function is a homeomorphism iff it is open (equivalently,
 closed).
+
+**Proof.** Let $f : X \to Y$ be a continuous bijection. If $f$ is a homeomorphism, then $f^{-1}$
+is continuous, so for open $U \subseteq X$ the set $(f^{-1})^{-1}(U) = f(U)$ is open in $Y$: $f$
+is open. Conversely, if $f$ is open, then for open $U \subseteq X$,
+$(f^{-1})^{-1}(U) = f(U)$ is open in $Y$, which is exactly continuity of $f^{-1}$; so $f$ is a
+homeomorphism.
+
+For the equivalence with closed: given that $f$ is a bijection, $f$ maps complements to complements,
+$f(X \setminus U) = Y \setminus f(U)$, so $f$ is open iff $f$ is closed. $\blacksquare$
 
 ### 4.3 Homeomorphisms
 
@@ -87,6 +163,12 @@ and bending but not tearing or gluing.
 
 **Proposition 4.5.** Homeomorphism is an equivalence relation: reflexive, symmetric, and transitive.
 
+**Proof.** Reflexive: $\operatorname{id}_X$ is a bijection and its own continuous inverse.
+Symmetric: if $f$ is a homeomorphism then $f^{-1}$ is a bijection with $(f^{-1})^{-1} = f$
+continuous, so $f^{-1}$ is a homeomorphism. Transitive: if $f : X \to Y$ and $g : Y \to Z$ are
+homeomorphisms, $g \circ f$ is a bijection with inverse $f^{-1} \circ g^{-1}$, continuous by
+Proposition 4.2 applied to the continuous maps $g^{-1}$ and $f^{-1}$. $\blacksquare$
+
 ### 4.4 Topological Properties
 
 The following are topological invariants (preserved by homeomorphisms):
@@ -99,6 +181,14 @@ The following are topological invariants (preserved by homeomorphisms):
 
 **Proposition 4.6.** "Boundedness" is **not** a topological property: $(0, 1)$ is bounded but is
 homeomorphic to the unbounded $\mathbb{R}$.
+
+**Proof.** The map $f : (0, 1) \to \mathbb{R}$ of Example 4.6,
+$f(x) = \tan(\pi x - \pi/2)$, is a bijection with inverse
+$f^{-1}(t) = \frac{1}{2} + \frac{1}{\pi}\arctan(t)$; both are continuous as compositions of
+continuous functions ($\tan$ and $\arctan$ are continuous on their domains, which the maps avoid
+leaving). So $(0, 1) \cong \mathbb{R}$. If boundedness were a topological property, $\mathbb{R}$
+would be bounded — but $\mathbb{R}$ is not bounded in its standard metric. Hence boundedness is a
+property of the *metric*, not of the *topology* it generates. $\blacksquare$
 
 ### 4.5 Embeddings and Quotient Maps
 
@@ -152,7 +242,7 @@ $\blacksquare$
 
 </details>
 
-### 4.8 Common Mistakes
+### 4.9 Common Mistakes
 
 **Mistake 1: Assuming that a continuous bijection is automatically a homeomorphism.**
 A continuous bijection is not necessarily a homeomorphism. The inverse function must also be continuous. For example, the map $f: [0, 2\pi) \to S^1$ defined by $f(t) = (\cos t, \sin t)$ is a continuous bijection, but its inverse is not continuous at $(1, 0)$. A bijective continuous map is a homeomorphism if and only if it is open (or equivalently, closed).

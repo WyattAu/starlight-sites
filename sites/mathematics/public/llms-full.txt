@@ -41206,11 +41206,27 @@ $X$ is **connected** if it is not disconnected.
 Equivalently, $X$ is connected if and only if the only clopen subsets of $X$ are $\emptyset$ and
 $X$.
 
+**Proof of the equivalence.** If $X = U \cup V$ is a separation, then $U = X \setminus V$ is both
+open and closed, and neither $\emptyset$ nor $X$. Conversely, if $C \subseteq X$ is clopen with
+$C \notin \{\emptyset, X\}$, then $U = C$ and $V = X \setminus C$ are nonempty disjoint open sets
+with $U \cup V = X$ — a separation. $\blacksquare$
+
+Equivalently again, $X$ is connected if and only if every continuous map $h : X \to \{0, 1\}$ into
+the two-point space *with the discrete topology* is constant: preimages of $\{0\}$ and $\{1\}$ are
+clopen in $X$, so a non-constant $h$ is a nontrivial clopen set, and conversely. This formulation —
+connectedness as the statement that there are no non-constant maps into the discrete two-point
+space — is the one that makes the proofs below short.
+
 **Example 6.1.** $[0, 1]$ is connected. $[0, 1) \cup (2, 3]$ is disconnected (with the subspace
 topology from $\mathbb{R}$).
 
 **Example 6.2.** $\mathbb{Q}$ with the subspace topology from $\mathbb{R}$ is totally disconnected:
 the only connected subsets are singletons.
+
+**Proof.** Let $A \subseteq \mathbb{Q}$ be connected. As a subset of $\mathbb{R}$ (same subspace
+topology), $A$ is an interval by Theorem 6.1. If $A$ contained two points $a < b$, it would contain
+every $c$ with $a < c < b$ — including irrational $c$, contradicting $A \subseteq \mathbb{Q}$. So $A$
+is a singleton. $\blacksquare$
 
 ### 6.2 Connected Subsets of $\mathbb{R}$
 
@@ -41220,12 +41236,70 @@ it is an interval.
 (Here an **interval** is any set $I \subseteq \mathbb{R}$ with the property: if $a, b \in I$ and
 $a < c < b$, then $c \in I$.)
 
+**Proof.** *($\Leftarrow$) Intervals are connected.* Let $I$ be an interval and suppose
+$I = U \cup V$ with $U, V$ nonempty, disjoint, and open in $I$. Pick $a \in U$ and $b \in V$;
+swap the names if necessary so that $a < b$. Since $[a, b] \subseteq I$ (interval property), define
+
+$$
+c = \sup \{ x \in [a, b] : [a, x] \subseteq U \}.
+$$
+
+The set is nonempty: $U$ is open in $I$ and contains $a$, so $[a, a + \delta) \subseteq U$ for some
+$\delta > 0$. Hence $a < c \leq b$, and $[a, c) \subseteq U$ by definition of the supremum. Since
+$c \in [a, b] \subseteq I$, the point $c$ lies in $U$ or in $V$.
+
+If $c \in U$: openness of $U$ in $I$ gives $\varepsilon > 0$ with
+$(c - \varepsilon, c + \varepsilon) \cap I \subseteq U$. Then $[a, c + \varepsilon/2] \subseteq U$
+(the segment $[a, c)$ from the supremum, the segment $(c - \varepsilon, c + \varepsilon/2]$ from
+openness, both inside $I$), contradicting $c$ as an upper bound for the set.
+
+So $c \in V$. Openness of $V$ in $I$ gives $\varepsilon > 0$ with
+$(c - \varepsilon, c + \varepsilon) \cap I \subseteq V$. Choose $x$ with
+$\max(a, c - \varepsilon) < x < c$ — possible since $c > a$. Then $x \in [a, c) \subseteq U$ and
+$x \in (c - \varepsilon, c) \subseteq V$, contradicting $U \cap V = \emptyset$.
+
+*($\Rightarrow$) Connected sets are intervals.* Contrapositive: if $I$ is not an interval, there
+are $a < c < b$ with $a, b \in I$ and $c \notin I$. Then
+
+$$
+U = I \cap (-\infty, c), \qquad V = I \cap (c, \infty)
+$$
+
+are open in $I$, nonempty ($a \in U$, $b \in V$), disjoint, and cover $I$ (as $c \notin I$). So $I$
+is disconnected. $\blacksquare$
+
+This theorem is why the intermediate value theorem exists and why $\mathbb{Q}$ is dust: connected
+subsets of $\mathbb{Q}$, being connected subsets of $\mathbb{R}$, are intervals — but an interval
+containing two distinct rationals contains the irrationals between them, which $\mathbb{Q}$ does
+not. So the only connected subsets of $\mathbb{Q}$ are singletons (Example 6.2).
+
 ### 6.3 Path-Connectedness
 
 **Definition.** A space $X$ is **path-connected** if for any two points $x, y \in X$, there exists a
 continuous function $\gamma : [0, 1] \to X$ with $\gamma(0) = x$ and $\gamma(1) = y$.
 
 **Proposition 6.1.** Every path-connected space is connected. The converse is false.
+
+**Proof.** Let $X$ be path-connected and fix a point $x_0 \in X$. For each $x \in X$ choose a path
+$\gamma_x : [0, 1] \to X$ from $x_0$ to $x$. Its image is connected (Proposition 6.4 below, applied
+to the connected interval $[0, 1]$), and all the images contain $x_0$. So
+
+$$
+X = \bigcup_{x \in X} \gamma_x([0, 1])
+$$
+
+is a union of connected sets with a common point — connected by the pencil lemma (Proposition 6.1.1
+below). $\blacksquare$
+
+**Proposition 6.1.1 (Pencil lemma).** If $\{C_\alpha\}$ is a family of connected subsets of $X$
+with $\bigcap_\alpha C_\alpha \neq \emptyset$, then $\bigcup_\alpha C_\alpha$ is connected.
+
+**Proof.** Let $C = \bigcup_\alpha C_\alpha$ and pick $p \in \bigcap_\alpha C_\alpha$. Let
+$h : C \to \{0, 1\}$ be continuous into the discrete two-point space. For each $\alpha$, the sets
+$h^{-1}(0) \cap C_\alpha$ and $h^{-1}(1) \cap C_\alpha$ are disjoint clopen subsets of $C_\alpha$
+covering it; connectedness of $C_\alpha$ forces one of them empty, so $h$ is constant on each
+$C_\alpha$. The constants all agree — each equals $h(p)$. So $h$ is constant on $C$, and $C$ is
+connected by the two-point characterisation. $\blacksquare$
 
 **Example 6.3 (Topologist's sine curve).** Let
 
@@ -41235,15 +41309,80 @@ $$
 
 $S$ is connected but not path-connected.
 
-**Example 6.4.** $\mathbb{R}^n$ is path-connected for all $n \geq 1$. Any convex subset of
-$\mathbb{R}^n$ is path-connected.
+**Proof that $S$ is connected.** Write $A$ for the graph part and $V$ for the vertical segment.
+The set $A$ is the image of the interval $(0, 1]$ — connected by Theorem 6.1 — under the continuous
+map $x \mapsto (x, \sin(1/x))$, so $A$ is connected (Proposition 6.4). We claim
+$\overline{A} = S$, after which Proposition 6.7 (closures of connected sets are connected) finishes
+the proof.
+
+$\overline{A} \subseteq S$: if $(x_n, \sin(1/x_n)) \to (x_0, y_0)$ with $x_n > 0$, then either
+$x_0 > 0$ — in which case continuity of $\sin(1/x)$ at $x_0$ forces
+$y_0 = \sin(1/x_0)$, so the limit is in $A$ — or $x_0 = 0$, in which case $|\sin(1/x_n)| \leq 1$
+forces $y_0 \in [-1, 1]$, so the limit is in $V$.
+
+$S \subseteq \overline{A}$: take $(0, y) \in V$ and any ball $B$ around it of radius
+$\varepsilon$ and $x$-reach $\delta$. Since $1/t$ runs over a full period of $\sin$ as $t$ runs over
+any interval $(0, \delta)$ — choose $t$ with $1/t = \arcsin(y) + 2\pi k$ for a sufficiently large
+integer $k$ — there is $x \in (0, \delta)$ with $\sin(1/x)$ within $\varepsilon$ of $y$. So
+$B \cap A \neq \emptyset$, and $(0, y) \in \overline{A}$.
+
+**Proof that $S$ is not path-connected.** Suppose $\gamma : [0, 1] \to S$ is a continuous path with
+$\gamma(0) \in V$ and $\gamma(1) \in A$; write $\pi_x, \pi_y$ for the coordinate projections, which
+are continuous. The set
+
+$$
+C = \gamma^{-1}(V) = (\pi_x \circ \gamma)^{-1}(\{0\})
+$$
+
+is closed (as $V$ is closed and $\gamma$ continuous) and nonempty ($0 \in C$). Let
+$b = \sup C \in C$; then $\gamma(b) \in V$, say $\gamma(b) = (0, y_b)$, while $\gamma(t) \in A$ for
+all $t > b$.
+
+Take $\delta = 1/3$ and consider the rectangle
+$U = (-\eta, \eta) \times (y_b - \delta, y_b + \delta) \subseteq \mathbb{R}^2$, a neighbourhood of
+$(0, y_b)$. By continuity of $\gamma$ there is $\eta' > 0$ with
+$\gamma((b, b + \eta')) \subseteq U \cap S$. Now $\pi_x \circ \gamma$ is continuous, and the image
+of the connected interval $(b, b + \eta')$ is a connected subset of $\mathbb{R}$ — an interval, by
+Theorem 6.1 — containing positive values (points of $(b, b+\eta')$ map into $A$, whose
+$x$-coordinates are positive) and with infimum $0$ (as $t \to b^+$, $\pi_x(\gamma(t)) \to \pi_x(\gamma(b)) = 0$).
+Hence the image contains all of $(0, x_1]$ for some $x_1 > 0$. So for every $x^* \in (0, x_1]$ there
+is $t^* \in (b, b + \eta')$ with $(\pi_x \circ \gamma)(t^*) = x^*$.
+
+Choose $x^* \in (0, x_1)$ with $\sin(1/x^*) \notin (y_b - \delta, y_b + \delta)$ — possible because
+$1/x$ runs over a full period of $\sin$ on $(1/x_1, \infty)$, so $\sin$ attains values outside any
+interval of length $2\delta = 2/3 < 2$. For the corresponding $t^*$:
+$\gamma(t^*) = (x^*, \sin(1/x^*))$ has $\pi_y(\gamma(t^*)) \notin (y_b - \delta, y_b + \delta)$,
+so $\gamma(t^*) \notin U$ — contradicting $\gamma((b, b+\eta')) \subseteq U$. So no such path
+exists, and $S$ is not path-connected. $\blacksquare$
+
+The moral: connectedness passes to closures (Proposition 6.7), but path-connectedness does not —
+no path can traverse the infinitely many oscillations and still be continuous at the vertical
+segment.
+
+**Example 6.4.** $\mathbb{R}^n$ is path-connected for all $n \geq 1$: any two points are joined by
+the straight-line path $\gamma(t) = (1-t)p + tq$, continuous as each coordinate is polynomial in
+$t$. The same paths work in any convex subset of $\mathbb{R}^n$.
 
 ### 6.4 Components
 
 **Definition.** A **connected component** of $X$ is a maximal connected subset of $X$. The connected
 components of $X$ form a partition of $X$.
 
-**Proposition 6.2.** Connected components are closed (in a Hausdorff space, they are always closed).
+**Proposition 6.2.** Connected components are closed. They need not be open — in a locally
+connected space they are always open.
+
+**Proof.** Let $C$ be a component of $X$ — a maximal connected subset. By Proposition 6.7,
+$\overline{C}$ is connected; it contains $C$, so maximality of $C$ forces $\overline{C} = C$. So
+components are closed — in *every* topological space, no separation axioms required.
+
+For openness: if $X$ is locally connected, let $x \in C$ and let $U$ be any open neighbourhood of
+$x$. Local connectedness gives a connected open neighbourhood $V$ of $x$ with $V \subseteq U$. Now
+$C \cup V$ is connected (pencil lemma: $C$ and $V$ share the point $x$) and contains $C$, so by
+maximality $C \cup V \subseteq C$, i.e. $V \subseteq C$. Thus every neighbourhood $U$ of $x$
+contains a neighbourhood $V$ of $x$ lying in $C$, which makes $C$ open. $\blacksquare$
+
+Without local connectedness, components can fail to be open: the components of $\mathbb{Q}$ are
+singletons (Example 6.2), and no singleton is open in $\mathbb{Q}$.
 
 **Definition.** A **path component** of $X$ is a maximal path-connected subset. Path components also
 partition $X$, and each path component is contained in a connected component.
@@ -41255,7 +41394,38 @@ of $x$, there exists a connected open neighbourhood $V$ of $x$ with $V \subseteq
 
 **Proposition 6.3.** Every open subset of $\mathbb{R}^n$ is locally connected.
 
+**Proof.** Let $U \subseteq \mathbb{R}^n$ be open, $x \in U$, and let $N$ be any neighbourhood of
+$x$ in $U$. Openness gives $\varepsilon > 0$ with $B(x, \varepsilon) \subseteq U$; shrinking along
+the neighbourhood $N$, there is $\delta > 0$ with $B(x, \delta) \subseteq N \cap U$. The open ball
+$B(x, \delta)$ is convex — the straight-line segment between two of its points stays inside it, by
+the triangle inequality $|(1-t)p + tq - x| \leq (1-t)|p - x| + t|q - x| < \delta$ — hence
+path-connected (linear paths), hence connected. So $B(x, \delta)$ is the required connected open
+neighbourhood of $x$ inside $N$. $\blacksquare$
+
 **Example 6.5.** The topologist's sine curve is connected but not locally connected.
+
+**Proof that $S$ is not locally connected.** Let $p = (0, y) \in V$ and consider the basic
+neighbourhood $N = B(p, \varepsilon) \cap S$ with $\varepsilon < 1$. The set of $x$-coordinates of
+graph points in the ball,
+
+$$
+E = \{ x \in (0, 1] : x^2 + (\sin(1/x) - y)^2 < \varepsilon^2 \},
+$$
+
+meets the condition periodically: as $x \to 0^+$, the value $1/x$ sweeps through infinitely many
+full periods of $\sin$, so $E$ has infinitely many connected components accumulating at $0$. Choose
+a boundary point $x_1 \in (0, 1)$ between two components of $E$, with $E$ on both sides: then no
+point of $N$ has $x$-coordinate $x_1$ (graph points at $x_1$ sit on the boundary of the ball, and
+vertical-segment points have $x = 0$). Hence
+
+$$
+N = \bigl(N \cap \{\pi_x < x_1\}\bigr) \cup \bigl(N \cap \{\pi_x > x_1\}\bigr)
+$$
+
+splits $N$ into two nonempty, disjoint, open subsets — the first contains $(0, y) \in V$, the second
+contains the component of $E$ above $x_1$. So $N$ is disconnected. Since every neighbourhood of $p$
+in $S$ contains such an $N$, no neighbourhood of $p$ is connected: $S$ is not locally connected at
+any point of $V$. $\blacksquare$
 
 ### 6.6 Properties of Connected Spaces
 
@@ -41270,13 +41440,52 @@ $X$, contradicting connectedness. $\blacksquare$
 connected, then $f$ attains every value between any two of its values. This generalises the classical
 IVT from $\mathbb{R}$ to any connected space.
 
+**Proof.** $f(X)$ is connected (Proposition 6.4) and is a subset of $\mathbb{R}$, so by Theorem 6.1
+it is an interval. An interval containing two values contains every value between them. The
+classical IVT is the case $X = [a, b]$, connected by Theorem 6.1. $\blacksquare$
+
 **Proposition 6.6 (Products).** The product of connected spaces is connected (with the product
-topology). Finite products follow from Proposition 6.4 by noting $X \times Y$ is homeomorphic to the
-image of the product space under a continuous map; arbitrary products require more care but also hold.
+topology), for finite and even arbitrary index sets.
+
+**Proof.** *Two factors.* Fix $(x_0, y_0) \in X \times Y$. For each $y \in Y$ consider
+
+$$
+T_y = (\{x_0\} \times Y) \cup (X \times \{y\}).
+$$
+
+The two pieces are homeomorphic to $Y$ and $X$ respectively, hence connected, and they share the
+point $(x_0, y)$. By the pencil lemma, $T_y$ is connected. Every $T_y$ contains the common set
+$\{x_0\} \times Y \ni (x_0, y_0)$, and $X \times Y = \bigcup_y T_y$ since $(x, y) \in X \times \{y\} \subseteq T_y$.
+The pencil lemma once more: $X \times Y$ is connected.
+
+*Arbitrary products.* Let $P = \prod_{i \in I} X_i$ with each $X_i$ connected, and fix
+$a = (a_i) \in P$. Let $D$ be the set of points agreeing with $a$ in all but finitely many
+coordinates, and for a finite $F \subseteq I$ let
+
+$$
+D_F = \{ x \in P : x_i = a_i \text{ for } i \notin F \} \cong \prod_{i \in F} X_i,
+$$
+
+which is connected by repeated application of the two-factor case. Each $D_F$ contains $a$, so
+$D = \bigcup_F D_F$ is connected by the pencil lemma. And $D$ is dense in $P$: a basic open set
+$\prod_i U_i$ (with $U_i = X_i$ for all $i$ outside some finite $F$) meets $D_F$ — pick any point of
+$\prod_{i \in F} U_i$ in the restricted coordinates and $a$ elsewhere. So
+$D \subseteq P \subseteq \overline{D}$, and $P$ is connected by Proposition 6.7. $\blacksquare$
+
+Note where the two factors are used: the pencil lemma welds the slices to a common spine, and the
+closure argument promotes finite support to arbitrary support. Neither step needs any separation
+axioms.
 
 **Proposition 6.7 (Closure).** If $A \subseteq X$ is connected, then any set $B$ with
 $A \subseteq B \subseteq \overline{A}$ is connected. In particular, the closure of a connected set is
 connected.
+
+**Proof.** Let $h : B \to \{0, 1\}$ be continuous into the discrete two-point space; by the
+two-point characterisation it suffices to show $h$ is constant. The restriction $h|_A$ is constant
+(say $0$), since $A$ is connected. The set $h^{-1}(0)$ is closed in $B$ (preimage of the closed —
+indeed clopen — subset $\{0\}$ of the discrete space) and contains $A$, so it contains
+$\overline{A} \cap B = B$: every point of $B$ is a limit point of $A$, and $h$ is $0$ on all of
+$A$, so by continuity $h$ is $0$ on all of $B$. Hence $h$ is constant, and $B$ is connected. $\blacksquare$
 
 ### 6.7 Total Disconnectedness and the Cantor Set
 
@@ -41286,6 +41495,51 @@ Examples include $\mathbb{Q}$ (with the subspace topology from $\mathbb{R}$) and
 **Proposition 6.8.** The Cantor set $C$ is totally disconnected, compact, uncountable, and perfect
 (every point is a limit point). It is homeomorphic to $\{0, 1\}^{\mathbb{N}}$ with the product
 topology.
+
+**Proof.** Write $C = \bigcap_{n=0}^{\infty} C_n$, where $C_0 = [0, 1]$ and $C_{n+1}$ deletes the
+open middle third of each interval of $C_n$. Equivalently, $C$ is the set of reals in $[0, 1]$
+admitting a base-3 (ternary) expansion using only the digits $0$ and $2$: surviving stage $n$ means
+the first $n$ ternary digits can be chosen in $\{0, 2\}$, and the nested intersection is exactly
+those $x$ with such an expansion (the ambiguous case, a trailing digit $1$, corresponds to an
+endpoint that also has an all-$\{0,2\}$ expansion, e.g. $1/3 = 0.1_3 = 0.0222\ldots_3$).
+
+*Compact.* Each $C_n$ is a finite union of closed intervals, hence closed, and $C$ is an
+intersection of closed sets, hence closed and bounded in $\mathbb{R}$ — compact by Heine--Borel.
+
+*Perfect.* The endpoints of the deleted middle thirds belong to every $C_n$ — an endpoint of a gap
+at stage $n$ is an endpoint of a retained interval at every later stage — so they lie in $C$. Now
+let $x \in C$ and $\varepsilon > 0$. Choose $n$ with $3^{-n} < \varepsilon$; then $x$ lies in some
+stage-$n$ interval $J$ of length $3^{-n}$. The two endpoints of $J$ are in $C$, and at least one of
+them differs from $x$, giving a point of $C$ within $\varepsilon$ of $x$. So every point of $C$ is
+a limit point of $C$.
+
+*Uncountable.* Define $\varphi : \{0, 1\}^{\mathbb{N}} \to C$ by
+$\varphi((a_n)) = \sum_{n=1}^{\infty} 2 a_n 3^{-n}$. This is the ternary digit map, and it is a
+bijection: *injective*, because if the sequences first differ at index $k$, then
+
+$$
+|\varphi(a) - \varphi(b)| \geq 2 \cdot 3^{-k} - \sum_{n > k} 2 \cdot 3^{-n} = 2 \cdot 3^{-k} - 3^{-k} = 3^{-k} > 0,
+$$
+
+so no two sequences map to the same point (the usual expansion ambiguity never arises for digits
+restricted to $\{0, 2\}$); *surjective*, because every point of $C$ has a ternary expansion with
+digits only $0$ and $2$, and that expansion is the required preimage. So
+$|C| = |\{0, 1\}^{\mathbb{N}}| = |\mathcal{P}(\mathbb{N})|$, uncountable by Cantor's theorem.
+
+*Homeomorphism.* The map $\varphi$ is continuous: if two sequences agree on the first $N$ digits,
+their images differ by at most $\sum_{n > N} 2 \cdot 3^{-n} = 3^{-N}$, which is exactly convergence
+in the product topology (a basic open set restricts finitely many coordinates). A continuous
+bijection from the compact space $\{0,1\}^{\mathbb{N}}$ (a product of finite discrete spaces) to the
+Hausdorff space $C \subseteq \mathbb{R}$ is a homeomorphism — the criterion proved in the compactness
+page. So $C \cong \{0, 1\}^{\mathbb{N}}$.
+
+*Total disconnectedness.* Let $A \subseteq C$ be connected. As a subset of $\mathbb{R}$, $A$ is an
+interval (Theorem 6.1). But $C$ contains no interval of positive length: the total length of $C_n$
+is $(2/3)^n$, which tends to $0$, while $A \subseteq C \subseteq C_n$ for every $n$. An interval of
+positive length cannot fit inside sets of arbitrarily small total length, so $A$ is a single point. $\blacksquare$
+
+The digit map is the structural insight: the Cantor set is *exactly* the countable product of
+two-point spaces, with the middle-thirds construction supplying the embedding into $[0,1]$.
 
 ### 6.8 Worked Example: Proving Disconnectedness
 
@@ -41326,13 +41580,13 @@ $\blacksquare$
 
 </details>
 
-### 6.5 Intuition: What Does Connectedness Mean?
+### 6.10 Intuition: What Does Connectedness Mean?
 
 Connectedness asks whether a space comes in separate pieces. A connected space cannot be split into two non-empty open sets that are disjoint, which means there is no "gap" that separates it. Intuitively, you can travel between any two points without leaving the space. The intermediate value theorem is the most familiar consequence: a continuous function on a connected domain must take every value between its endpoints.
 
 Path-connectedness is a stronger and more intuitive version: a path-connected space has a continuous path between every pair of points. Every path-connected space is connected, but the converse fails for exotic spaces like the topologist's sine curve, which is connected but has no continuous path crossing the oscillating part. In $\mathbb{R}^n$, connected subsets are exactly the intervals and their higher-dimensional analogues. Connectedness is the topological tool for proving that certain configurations are impossible: if you can show a space is disconnected, you have proven that it splits into distinct parts that cannot be continuously deformed into each other.
 
-### 6.6 Common Mistakes
+### 6.11 Common Mistakes
 
 **Mistake 1: Assuming that connected implies path-connected.**
 Every path-connected space is connected, but the converse is false. The topologist's sine curve is a classic example of a connected space that is not path-connected. Do not assume that a space is path-connected just because it is connected.
@@ -41386,8 +41640,45 @@ Equivalently, $f$ is continuous if the preimage of every closed set is closed.
 
 1. $f$ is continuous.
 2. $f^{-1}(V)$ is closed in $X$ for every closed $V \subseteq Y$.
-3. $f^{-1}(\overline{B}) \subseteq \overline{f^{-1}(B)}$ for every $B \subseteq Y$.
+3. $\overline{f^{-1}(B)} \subseteq f^{-1}(\overline{B})$ for every $B \subseteq Y$.
 4. $f(\overline{A}) \subseteq \overline{f(A)}$ for every $A \subseteq X$.
+
+**Proof.** (1) $\Leftrightarrow$ (2): for any $B \subseteq Y$,
+$f^{-1}(Y \setminus B) = X \setminus f^{-1}(B)$, so preimages of open sets being open is exactly
+preimages of closed sets being closed.
+
+(2) $\Rightarrow$ (3): the closure of $B$ is the intersection of all closed supersets of $B$, and
+preimages preserve intersections, so
+
+$$
+f^{-1}(\overline{B}) = \bigcap \{ f^{-1}(C) : C \text{ closed in } Y, \; B \subseteq C \}.
+$$
+
+By (2) each $f^{-1}(C)$ is closed in $X$, and each contains $f^{-1}(B)$. The closure
+$\overline{f^{-1}(B)}$ is the *smallest* closed set containing $f^{-1}(B)$, so it is contained in
+every member of the family on the right — in particular in their intersection, $f^{-1}(\overline{B})$.
+
+(3) $\Rightarrow$ (2): let $V$ be closed in $Y$ and set $B = V$. Then
+$\overline{f^{-1}(V)} \subseteq f^{-1}(\overline{V}) = f^{-1}(V) \subseteq \overline{f^{-1}(V)}$,
+where the last inclusion is extensivity of closure. So $f^{-1}(V)$ equals its closure and is closed.
+
+(1) $\Rightarrow$ (4): let $x \in \overline{A}$ and let $V$ be any open neighbourhood of $f(x)$.
+By (1), $f^{-1}(V)$ is an open neighbourhood of $x$, and $x \in \overline{A}$, so
+$f^{-1}(V) \cap A \neq \emptyset$. Pick $a$ in the intersection: then $f(a) \in V \cap f(A)$, so
+*every* open neighbourhood of $f(x)$ meets $f(A)$, i.e. $f(x) \in \overline{f(A)}$.
+
+(4) $\Rightarrow$ (1): let $U$ be open in $Y$; we show $f^{-1}(U)$ is open. Set
+$A = X \setminus f^{-1}(U)$. We claim $f^{-1}(U) \subseteq X \setminus \overline{A}$: if $x \in f^{-1}(U)$
+were in $\overline{A}$, then by (4) $f(x) \in \overline{f(A)}$, so the open neighbourhood
+$U$ of $f(x)$ meets $f(A)$ — say $f(a) \in U$ for some $a \in A$. But then $a \in f^{-1}(U) \cap A = \emptyset$,
+a contradiction. Hence $f^{-1}(U) \subseteq X \setminus \overline{A}$. Conversely
+$X \setminus \overline{A} \subseteq X \setminus A = f^{-1}(U)$. So
+$f^{-1}(U) = X \setminus \overline{A}$, which is open. $\blacksquare$
+
+Direction (3) is the one to be careful with: the inclusion runs *from* the closure of the preimage
+*into* the preimage of the closure, and it can be strict. For the constant map
+$f : \mathbb{R} \to \mathbb{R}$, $f \equiv 0$, with $B = (0, 1)$: $\overline{f^{-1}(B)} = \overline{\emptyset} = \emptyset$
+while $f^{-1}(\overline{B}) = f^{-1}([0,1]) = \mathbb{R}$.
 
 **Example 4.1.** Every constant function $f : X \to Y$ is continuous.
 
@@ -41400,14 +41691,44 @@ $\operatorname{id} : (X, \tau_1) \to (X, \tau_2)$ need not be.
 **Proposition 4.2.** The composition of continuous functions is continuous: if $f : X \to Y$ and
 $g : Y \to Z$ are continuous, then $g \circ f : X \to Z$ is continuous.
 
+**Proof.** For $W$ open in $Z$, $(g \circ f)^{-1}(W) = f^{-1}(g^{-1}(W))$. The set $g^{-1}(W)$ is
+open in $Y$ by continuity of $g$; its preimage under $f$ is open in $X$ by continuity of $f$. $\blacksquare$
+
 **Continuity at a point.** A function $f : X \to Y$ is **continuous at $x_0 \in X$** if for every
 neighbourhood $V$ of $f(x_0)$, there exists a neighbourhood $U$ of $x_0$ such that $f(U) \subseteq V$.
 This local definition coincides with the global definition: $f$ is continuous iff it is continuous at
 every point.
 
+**Proposition 4.2.1.** $f$ is continuous if and only if it is continuous at every point of $X$.
+
+**Proof.** ($\Rightarrow$) Let $V$ be a neighbourhood of $f(x_0)$. It contains an open set
+$V^\circ \ni f(x_0)$. Then $U = f^{-1}(V^\circ)$ is an open neighbourhood of $x_0$ with
+$f(U) \subseteq V$.
+
+($\Leftarrow$) Let $W$ be open in $Y$; show $f^{-1}(W)$ is open. If $x \in f^{-1}(W)$, then $W$ is
+a neighbourhood of $f(x)$, so continuity at $x$ gives a neighbourhood $U_x$ of $x$ with
+$f(U_x) \subseteq W$. Shrinking $U_x$ to its open interior, $x$ is an interior point of
+$f^{-1}(W)$. Every point of $f^{-1}(W)$ is interior, so $f^{-1}(W)$ is open. $\blacksquare$
+
 **Proposition 4.3 (Pasting Lemma).** If $X = A \cup B$ where $A$ and $B$ are closed (or open) in $X$,
 and $f : A \to Y$, $g : B \to Y$ are continuous functions that agree on $A \cap B$, then the
 function $h : X \to Y$ defined by $h|_A = f$ and $h|_B = g$ is continuous.
+
+**Proof.** *Closed case.* Let $V$ be closed in $Y$. Then
+$h^{-1}(V) = (f^{-1}(V) \cup g^{-1}(V))$: indeed $x \in h^{-1}(V)$ means $h(x) \in V$, and $h(x)$
+is either $f(x)$ or $g(x)$. Now $f^{-1}(V)$ is closed in $A$ (continuity of $f$) and $A$ is closed
+in $X$, so $f^{-1}(V)$ is closed in $X$; likewise $g^{-1}(V)$. A finite union of closed sets is
+closed, so $h^{-1}(V)$ is closed, and $h$ is continuous by Proposition 4.1(2).
+
+*Open case.* Dually, let $V$ be open in $Y$. Then $h^{-1}(V) = f^{-1}(V) \cup g^{-1}(V)$ as above,
+each of $f^{-1}(V)$, $g^{-1}(V)$ is open in the open (in $X$) subspace $A$, resp. $B$, hence open in
+$X$, and their union is open. $\blacksquare$
+
+Why the hypotheses matter: if one piece is closed and the other open, the argument breaks down in
+both cases at once — a set closed in a closed subspace is closed in $X$, but a set open in a closed
+subspace need not be. The classic counterexample: $f(x) = 0$ on $(-\infty, 0]$ and $f(x) = 1$ on
+$(0, \infty)$ is continuous on each piece and the pieces agree on their (empty) intersection, but
+one piece is closed while the other is merely open — and $f$ is discontinuous at $0$.
 
 **Example 4.4 (Piecewise functions).** The absolute value function $f(x) = |x|$ is continuous on
 $\mathbb{R}$ by the pasting lemma: on $(-\infty, 0]$ it equals $-x$ (continuous), on $[0, \infty)$ it
@@ -41425,6 +41746,15 @@ $\mathbb{R}$). The projection $\pi : X \times Y \to X$ is open but not necessari
 
 **Proposition 4.4.** A bijective continuous function is a homeomorphism iff it is open (equivalently,
 closed).
+
+**Proof.** Let $f : X \to Y$ be a continuous bijection. If $f$ is a homeomorphism, then $f^{-1}$
+is continuous, so for open $U \subseteq X$ the set $(f^{-1})^{-1}(U) = f(U)$ is open in $Y$: $f$
+is open. Conversely, if $f$ is open, then for open $U \subseteq X$,
+$(f^{-1})^{-1}(U) = f(U)$ is open in $Y$, which is exactly continuity of $f^{-1}$; so $f$ is a
+homeomorphism.
+
+For the equivalence with closed: given that $f$ is a bijection, $f$ maps complements to complements,
+$f(X \setminus U) = Y \setminus f(U)$, so $f$ is open iff $f$ is closed. $\blacksquare$
 
 ### 4.3 Homeomorphisms
 
@@ -41445,6 +41775,12 @@ and bending but not tearing or gluing.
 
 **Proposition 4.5.** Homeomorphism is an equivalence relation: reflexive, symmetric, and transitive.
 
+**Proof.** Reflexive: $\operatorname{id}_X$ is a bijection and its own continuous inverse.
+Symmetric: if $f$ is a homeomorphism then $f^{-1}$ is a bijection with $(f^{-1})^{-1} = f$
+continuous, so $f^{-1}$ is a homeomorphism. Transitive: if $f : X \to Y$ and $g : Y \to Z$ are
+homeomorphisms, $g \circ f$ is a bijection with inverse $f^{-1} \circ g^{-1}$, continuous by
+Proposition 4.2 applied to the continuous maps $g^{-1}$ and $f^{-1}$. $\blacksquare$
+
 ### 4.4 Topological Properties
 
 The following are topological invariants (preserved by homeomorphisms):
@@ -41457,6 +41793,14 @@ The following are topological invariants (preserved by homeomorphisms):
 
 **Proposition 4.6.** "Boundedness" is **not** a topological property: $(0, 1)$ is bounded but is
 homeomorphic to the unbounded $\mathbb{R}$.
+
+**Proof.** The map $f : (0, 1) \to \mathbb{R}$ of Example 4.6,
+$f(x) = \tan(\pi x - \pi/2)$, is a bijection with inverse
+$f^{-1}(t) = \frac{1}{2} + \frac{1}{\pi}\arctan(t)$; both are continuous as compositions of
+continuous functions ($\tan$ and $\arctan$ are continuous on their domains, which the maps avoid
+leaving). So $(0, 1) \cong \mathbb{R}$. If boundedness were a topological property, $\mathbb{R}$
+would be bounded — but $\mathbb{R}$ is not bounded in its standard metric. Hence boundedness is a
+property of the *metric*, not of the *topology* it generates. $\blacksquare$
 
 ### 4.5 Embeddings and Quotient Maps
 
@@ -41510,7 +41854,7 @@ $\blacksquare$
 
 </details>
 
-### 4.8 Common Mistakes
+### 4.9 Common Mistakes
 
 **Mistake 1: Assuming that a continuous bijection is automatically a homeomorphism.**
 A continuous bijection is not necessarily a homeomorphism. The inverse function must also be continuous. For example, the map $f: [0, 2\pi) \to S^1$ defined by $f(t) = (\cos t, \sin t)$ is a continuous bijection, but its inverse is not continuous at $(1, 0)$. A bijective continuous map is a homeomorphism if and only if it is open (or equivalently, closed).
