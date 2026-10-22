@@ -23,6 +23,14 @@ categories:
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

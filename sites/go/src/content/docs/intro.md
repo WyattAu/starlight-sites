@@ -20,6 +20,14 @@ import Citations from '@components/Citations.astro'
 }
 </script>
 
+:::note[New to Go's concurrency model? Start here]
+Read **[Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)**
+first. It builds goroutines and channels from first principles, explains the
+CSP model that makes race conditions impossible by construction, covers
+interfaces without inheritance, and names the features Go removed by design.
+:::
+
+
 ## Why Go
 
 Go was designed at Google by Rob Pike, Ken Thompson, and Robert Griesemer, first released in 2009.
