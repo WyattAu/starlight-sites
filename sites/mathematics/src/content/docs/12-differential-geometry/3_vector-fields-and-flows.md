@@ -5,7 +5,7 @@ title: "Vector Fields and Flows"
 tags:
   - Mathematics
   - University
-description: "Let be a smooth vector field on . An of through is a smooth curve Comprehensive educational content coverage with definitions and practice problems."
+description: "Vector fields and flows built on the ODE theorems: maximal integral curves, the Lie bracket as a commutator of derivations with the Jacobi identity proved, the flow formula for the bracket, smoothness and the group law of flows, completeness on compact manifolds, and commuting flows."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -26,15 +26,27 @@ $\gamma : I \to M$ such that $\gamma(0) = p$ and $\gamma'(t) = X_{\gamma(t)}$ fo
 integral curve $\gamma_p : I_p \to M$ of $X$ through $p$, defined on a maximal open interval
 $I_p \subseteq \mathbb{R}$ containing $0$.
 
+**Proof.** In local coordinates (§3.7), the integral curve equation is the ODE system
+$\dot{\gamma}^i(t) = X^i(\gamma(t))$ with smooth right-hand side. The Picard--Lindelöf theorem
+gives a unique local solution through $p$, and smooth dependence on initial data. If $\gamma_1$ and
+$\gamma_2$ are integral curves through $p$ on overlapping intervals, they agree on the connected
+component of the overlap containing $0$ — the set $\{t : \gamma_1(t) = \gamma_2(t)\}$ is closed by
+continuity and open because both curves solve the same ODE with the same value at any common point
+(local uniqueness). So they glue to a single integral curve on the union of their intervals. Take
+the union over *all* integral curves through $p$: maximality is built in. $\blacksquare$
+
 ### 3.2 The Lie Bracket
 
 For vector fields $X, Y$ on $M$, the **Lie bracket** $[X, Y]$ is the vector field defined by:
 
 $$
-X, Y = X(Y(f)) - Y(X(f))
+[X, Y]f = X(Y(f)) - Y(X(f))
 $$
 
-for $f \in C^\infty(M)$.
+for $f \in C^\infty(M)$. (First check it *is* a vector field: the right side is a derivation of
+$C^\infty(M)$ — it is linear over $\mathbb{R}$ and satisfies the Leibniz rule
+$[X,Y](fg) = [X,Y](f)g + f[X,Y](g)$, the $ff'$ and $f'f$ cross terms cancelling by antisymmetry —
+and derivations of $C^\infty(M)$ are exactly vector fields.)
 
 **Proposition 3.2 (Properties of the Lie Bracket).**
 
@@ -44,6 +56,25 @@ for $f \in C^\infty(M)$.
 
 The space of all vector fields $\mathfrak{X}(M)$ with the Lie bracket forms a **Lie algebra**.
 
+**Proof.** (1) Immediate from the linearity of $X$ and $Y$ as operators on $C^\infty(M)$.
+
+(2) Expand both brackets on $f$; the terms swap and change sign.
+
+(3) The clean way is to see the bracket as a commutator. Let $D_X$ denote the operator
+$f \mapsto X(f)$ on $C^\infty(M)$. Each $D_X$ is a derivation, and the definition reads
+$[X, Y] = D_XD_Y - D_YD_X$ — the commutator of the two operators. For *any* three operators,
+the commutator identity
+
+$$
+[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0
+$$
+
+holds by pure algebra: expanding each commutator as $UV - VU$, the six terms
+$ABCA$-type products cancel in opposite pairs (the $ABC$ term in the first summand cancels the
+$BCA$ term in the second, and so on). Applying this with $A = D_X$, $B = D_Y$, $C = D_Z$ gives
+$D_{[X,[Y,Z]] + \cdots} = 0$ as an operator; since distinct derivations are distinct vector fields
+(and the zero derivation is the zero field), the Jacobi identity follows. $\blacksquare$
+
 ### 3.3 The Lie Derivative
 
 The **Lie derivative** of a vector field $Y$ along $X$ is $\mathcal{L}_X Y = [X, Y]$. For a function
@@ -51,8 +82,36 @@ $f$, $\mathcal{L}_X f = X(f)$.
 
 The Lie derivative measures the rate of change of a geometric object along the flow of $X$.
 
-**Theorem 3.3 (Flow of the Lie Bracket).** If $\Phi_t$ and $\Psi_s$ are the flows of $X$ and $Y$
-respectively, then $\frac{d}{dt}\big|_{t=0} (\Psi_{-t})_*(\Phi_t)_* Y = [X, Y]$.
+**Theorem 3.3 (Flow of the Lie Bracket).** If $\Phi_t$ is the flow of $X$, then for any vector
+field $Y$:
+
+$$
+\frac{d}{dt}\bigg|_{t=0} (\Phi_{-t})_* Y = [X, Y].
+$$
+
+In words: the Lie bracket measures how $Y$ fails to be invariant under the flow of $X$.
+
+**Proof.** Test both sides on an arbitrary $f \in C^\infty(M)$ at an arbitrary $p$. By definition
+of the pushforward,
+
+$$
+\bigl((\Phi_{-t})_* Y\bigr)_p(f) = Y_{\Phi_t(p)}(f \circ \Phi_{-t}).
+$$
+
+Set $h(t, x) = (f \circ \Phi_{-t})(x)$, so $h(0, \cdot) = f$ and
+$\partial_t h(0, \cdot) = -X(f)$ (differentiating the flow relation
+$f \circ \Phi_{-t}(x) = f(\Phi_{-t}(x))$ at $t = 0$). The right side is $Y_{\Phi_t(p)}(h(t, \cdot))$,
+a function of $t$ through two channels: the test function $h(t, \cdot)$ and the evaluation point
+$\Phi_t(p)$. Differentiating both at $t = 0$:
+
+$$
+\left.\frac{d}{dt}\right|_{t=0} Y_{\Phi_t(p)}(h(t, \cdot))
+= Y_p\bigl(\partial_t h(0, \cdot)\bigr) + X_p\bigl(Y(h(0, \cdot))\bigr)
+= -Y_p(X f) + X_p(Y f),
+$$
+
+using the chain rule along the curve $t \mapsto \Phi_t(p)$, whose velocity at $t = 0$ is $X_p$.
+The total is $[X, Y]_p f$. Since $p$ and $f$ were arbitrary, the vector fields agree. $\blacksquare$
 
 ### 3.4 The Flow of a Vector Field
 
@@ -68,12 +127,40 @@ neighborhood $U$ of $p$ such that:
 3. For each $t$, the map $\Phi_t : U \to M$ defined by $\Phi_t(p) = \Phi(t, p)$ is a diffeomorphism
    onto its image, with inverse $\Phi_{-t}$.
 
+**Proof.** (1) is the initial condition. (2) Fix $p$ and $s$ with both sides defined near
+$t = 0$. The curve $t \mapsto \Phi(t+s, p)$ and the curve $t \mapsto \Phi(t, \Phi(s, p))$ are both
+integral curves of $X$ — the first by the autonomous character of the equation
+$\dot{\gamma} = X_\gamma$ (the right side does not depend on $t$ explicitly), the second by the
+definition of the flow — and they agree at $t = 0$. By uniqueness (Theorem 3.1) they agree wherever
+both are defined; the equality of domains near $t = 0$ propagates by the same argument.
+
+(3) By (2), $\Phi_{-t} \circ \Phi_t = \Phi_{t + (-t)} = \Phi_0 = \operatorname{id}$ wherever the
+compositions are defined, and vice versa. So $\Phi_t$ is a bijection onto its image with inverse
+$\Phi_{-t}$; smoothness of $\Phi$ — which is the smooth-dependence-on-initial-data part of the ODE
+theorem, assembled globally on the open domain $\mathcal{D}$ — makes both maps smooth. $\blacksquare$
+
 **Definition.** A vector field $X$ is **complete** if its flow is defined for all $t \in \mathbb{R}$
 (i.e., $\mathcal{D} = \mathbb{R} \times M$). This happens if the maximal interval $I_p$ is all of
 $\mathbb{R}$ for every $p \in M$.
 
 **Theorem 3.5 (Compactness Implies Completeness).** If $M$ is compact, then every smooth vector
 field on $M$ is complete.
+
+**Proof.** Let $\gamma : [0, T) \to M$ be a maximal integral curve with $T < \infty$; we derive a
+contradiction. Since $M$ is compact and $X$ smooth, the continuous function $\|X\|$ (in any
+Riemannian metric) is bounded: $C = \sup_{q \in M} \|X_q\| < \infty$. Then
+
+$$
+d(\gamma(t_1), \gamma(t_2)) \leq \int_{t_1}^{t_2} \|\gamma'(t)\|\, dt \leq C |t_2 - t_1|,
+$$
+
+so $\gamma$ is Lipschitz on $[0, T)$ and extends continuously to $[0, T]$; let $q = \gamma(T)$.
+Picard--Lindelöf at $q$ produces an integral curve $\delta$ through $q$ on some interval
+$(-\varepsilon, \varepsilon)$. Gluing $\gamma$ to $\delta$ at $T$ extends the integral curve past
+$T$ — the concatenation is smooth (both pieces solve the same ODE and agree to first order at the
+junction, by the ODE) and still satisfies $\dot{\gamma} = X_\gamma$. This contradicts maximality of
+$[0, T)$. The argument for $T = \infty$ backwards in time is identical. So $I_p = \mathbb{R}$ for
+every $p$. $\blacksquare$
 
 **Example 3.1.** On $M = \mathbb{R}$, the vector field $X = \partial/\partial x$ is complete with
 flow $\Phi(t, p) = p + t$. The vector field $X = x^2 \partial/\partial x$ is not complete: the
@@ -89,6 +176,20 @@ that $\Phi_t \circ \Phi_s = \Phi_{t+s}$ and $\Phi_0 = \mathrm{id}_M$.
 groups of diffeomorphisms of $M$. Given a complete vector field $X$, its flow $\Phi_t$ is a
 one-parameter group. Conversely, given a one-parameter group $\Phi_t$, define $X_p = \frac{d}{dt}\big|_{t=0} \Phi_t(p)$.
 
+**Proof.** *Complete field to group.* The flow property (Proposition 3.4(2)) with both sides
+defined for all $t, s$ — which completeness provides — is exactly
+$\Phi_t \circ \Phi_s = \Phi_{t+s}$, and $\Phi_0 = \operatorname{id}$.
+
+*Group to complete field.* Let $X$ be defined by the displayed derivative, and let
+$\gamma_p(t) = \Phi_t(p)$. Then $\gamma_p$ is an integral curve of $X$:
+
+$$
+\gamma_p'(t) = \left.\frac{d}{dh}\right|_{h=0} \Phi_{t+h}(p) = \left.\frac{d}{dh}\right|_{h=0} \Phi_h(\Phi_t(p)) = X_{\Phi_t(p)} = X_{\gamma_p(t)},
+$$
+
+using the group law. So $\Phi$ is *the* flow of $X$ (uniqueness of integral curves), and since $\Phi$
+is defined for all $t$, $X$ is complete. The two constructions are inverse to each other. $\blacksquare$
+
 **Example 3.2.** On $\mathbb{R}^2$, the vector field $X = -y \partial/\partial x + x \partial/\partial y$
 generates rotation: $\Phi_t(x, y) = (x\cos t - y\sin t, x\sin t + y\cos t)$. This is a one-parameter
 group of rotations.
@@ -100,6 +201,34 @@ group of rotations.
 More precisely, $[X, Y] = 0$ if and only if for all sufficiently small $s, t$:
 $\Phi_t^X \circ \Phi_s^Y = \Phi_s^Y \circ \Phi_t^X$, where $\Phi^X$ and $\Phi^Y$ are the flows of
 $X$ and $Y$ respectively.
+
+**Proof.** *($\Rightarrow$, invariance first).* Suppose $[X, Y] = 0$. By Theorem 3.3,
+
+$$
+\frac{d}{ds}\bigg|_{s} (\Phi_{-s}^Y)_* X = (\Phi_{-s}^Y)_*(-[Y, X]) = 0,
+$$
+
+(the differentiation formula applies at any $s$, not just $0$, by translating the flows), so
+$(\Phi_{-s}^Y)_*X = X$ for all $s$: $X$ is invariant under the $Y$-flow. Now fix $p$ and $s$ and
+consider the curve $\beta(t) = \Phi_s^Y(\Phi_t^X(p))$. Its derivative is
+
+$$
+\beta'(t) = d\Phi_s^Y\big|_{\Phi_t^X(p)} (X_{\Phi_t^X(p)}) = \bigl((\Phi_s^Y)_* X\bigr)_{\beta(t)} = X_{\beta(t)},
+$$
+
+by the invariance just established (using $(\Phi_s^Y)_* = (\Phi_{-(-s)}^Y)_*$). So $\beta$ is an
+integral curve of $X$ through $\Phi_s^Y(p)$; by uniqueness it equals $\Phi_t^X(\Phi_s^Y(p))$. So
+the flows commute.
+
+*($\Leftarrow$).* Suppose the flows commute. Test on $f$ and differentiate twice:
+
+$$
+[X, Y]_p f = \left.\frac{\partial^2}{\partial t\, \partial s}\right|_{t=s=0} \Bigl( f\bigl(\Phi_t^X(\Phi_s^Y(p))\bigr) - f\bigl(\Phi_s^Y(\Phi_t^X(p))\bigr) \Bigr) = 0,
+$$
+
+since the two mixed second partials of the *same* function $g(t, s) = f(\Phi_t^X(\Phi_s^Y(p)))$
+agree (Clairaut's theorem — the smoothness of flows is what licenses it), and commutativity makes
+the two arguments equal. $\blacksquare$
 
 **Example 3.3.** On $\mathbb{R}^3$, the vector fields $X = \partial/\partial x$ and
 $Y = \partial/\partial y$ commute: $[X, Y] = 0$. Their flows are translations in the $x$ and $y$
@@ -157,6 +286,8 @@ So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\P
 
 A vector field is like a wind pattern on the Earth's surface, assigning a direction and speed to every point. The flow is what happens when you release a leaf: it traces a path following the local arrows. Gentle winds produce eternal journeys, but violent fields can fling particles to infinity in finite time. The Lie bracket of two vector fields captures how their flows disagree: flowing along one then the other, versus the reverse order, produces different results precisely when the bracket is nonzero. This is the geometric heart of non-commutativity.
 
+A vector field assigns a direction and magnitude to every point of a manifold, like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute, if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming the Lie bracket is commutative**
@@ -167,8 +298,6 @@ A vector field on a non-compact manifold can be complete (e.g., $X = \partial/\p
 
 **Mistake 3: Miscomputing the Lie bracket in coordinates**
 The coordinate formula $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$ requires differentiating the *component functions* of $Y$ along $X$ and vice versa. Students frequently differentiate the wrong components or forget that the partial derivatives act on the coefficients, not on the basis vector fields themselves.
-
-A vector field assigns a direction and magnitude to every point of a manifold, like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute, if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
 
 ### 3.9 Practice Problems
 
