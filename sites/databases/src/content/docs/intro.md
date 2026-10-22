@@ -18,6 +18,14 @@ categories:
 }
 </script>
 
+:::note[New to databases? Start here]
+Read **[Before You Begin: What Databases Assume](/before-you-begin/)** first.
+It builds the relational model from a spreadsheet starting point, covers SQL
+as a declarative language, explains the ACID guarantees and why each exists,
+and introduces normalisation -- the concepts the rest of this track assumes.
+:::
+
+
 ## Why Databases Matter
 
 Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens,

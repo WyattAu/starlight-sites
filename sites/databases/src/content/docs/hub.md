@@ -23,6 +23,14 @@ categories:
 }
 </script>
 
+:::note[New to databases? Start here]
+Read **[Before You Begin: What Databases Assume](/before-you-begin/)** first.
+It builds the relational model from a spreadsheet starting point, covers SQL
+as a declarative language, explains the ACID guarantees and why each exists,
+and introduces normalisation -- the concepts the rest of this track assumes.
+:::
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
