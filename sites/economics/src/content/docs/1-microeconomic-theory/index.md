@@ -34,3 +34,16 @@ are exactly what applied work leans on.
 The mathematics site's real-analysis track (continuity, compactness, Weierstrass) and the
 Langrangian method from multivariable calculus. Convexity is used everywhere and proved where it
 is proved.
+
+## The standard
+
+Every theorem on this site carries its proof or an honestly-labelled sketch with the reference.
+Terms are defined before use, and each page closes with a self-test keyed to its sections. The
+prerequisites and the learning-science rationale are on the [study hub](/hub/).
+
+## The self-test convention
+
+Each page closes with a self-test keyed to its sections, and the harder items ask where a proof
+used which hypothesis — the question applied work keeps asking. The [study hub](/hub/) explains
+the learning-science rationale: recalling an answer beats rereading it, and the recall that
+matters in economics is of assumptions.

@@ -3,3 +3,21 @@
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
 All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Principles
+
+- [Index](https://finance.wyattau.com/1-principles/)
+
+## Portfolio-Theory
+
+- [Index](https://finance.wyattau.com/2-portfolio-theory/)
+
+## Derivatives
+
+- [Index](https://finance.wyattau.com/3-derivatives/)
+
+## Overview
+
+- [About](https://finance.wyattau.com/about/)
+- [Glossary](https://finance.wyattau.com/glossary/)
+- [Hub](https://finance.wyattau.com/hub/)

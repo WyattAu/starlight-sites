@@ -2,3 +2,494 @@
 
 > The complete content of every page on this site, in Markdown, for LLM consumption.
 > Each page is preceded by its canonical URL.
+
+## Principles
+
+---
+
+## Index
+URL: https://finance.wyattau.com/1-principles/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Principles of Finance", "url": "https://finance.wyattau.com/1-principles"}]}
+</script>
+
+Everything static in finance descends from one principle: portfolios with identical payoffs must
+have identical prices. This track states the principle precisely, proves its immediate
+corollaries, and builds the present-value machinery on it.
+
+- **No-arbitrage and the law of one price** — definitions, the proof that arbitrage-free prices
+  satisfy the law of one price, and the bound arguments for instruments without perfect
+  replicas.
+- **Present value and the term structure** — discounting derived from the one-period price of
+  riskless claims; forward rates from the law of one price applied across horizons.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+Arithmetic with fractions and exponents. The discounting algebra is derived from the pricing of
+riskless one-period claims, so nothing is assumed about interest rates beyond their definition.
+
+## What the track is for
+
+Most finance mistakes trace to present-value arithmetic done by formula without the law of one
+price underneath. This track does it the other way: the principle first, the formulas as
+corollaries. When a real instrument has no perfect replica, the corollaries become bounds — and
+knowing which side of the bound a price violates is the practical skill the track leaves you
+with.
+
+## Notation used in the track
+
+Cash flows are dated subscripts: $C_t$ arrives at time $t$, and $r_t$ is the one-period rate for
+horizon $t$. Prices of riskless claims pin the discount function; under certainty every
+multi-period price follows from the one-period prices by the law of one price applied along the
+timeline. The track keeps the certainty case and the risky case in separate sections, because
+mixing them is where the subject's standard confusion (risk premia versus pure discounting)
+comes from.
+
+## What lands next
+
+The track's opening pages land in order: no-arbitrage and the law of one price first, then the
+present-value apparatus, then the bound arguments. Each page closes with a self-test, and the
+harder items ask which portfolio replicates which claim — the reflex the whole subject runs on.
+
+## Portfolio-Theory
+
+---
+
+## Index
+URL: https://finance.wyattau.com/2-portfolio-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Portfolio Theory", "url": "https://finance.wyattau.com/2-portfolio-theory"}]}
+</script>
+
+Portfolio theory turns "diversify" from advice into arithmetic: with correlated returns, portfolio
+variance is a quadratic form, and its minimisation has a closed form. The track proves the
+two-fund separation theorem and derives the CAPM from it.
+
+- **Mean--variance optimisation** — the frontier derived by Lagrangian; why the minimum-variance
+  combination of two risky assets has the closed form it has.
+- **Two-fund separation and the CAPM** — with a risk-free asset, every investor holds a mix of
+  the risk-free asset and one tangency portfolio; market clearing makes the tangency portfolio
+  the market portfolio; the CAPM falls out.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+Expectation, variance, covariance, and the Lagrangian method. The mathematics site's probability
+and multivariable-calculus tracks cover both.
+
+## What the track is for
+
+The mean--variance machinery is usually taught as calculation. Here it is taught as an optimisation
+problem whose Lagrangian has a closed form — and whose solution's structure (two funds, market
+clearing, beta) is read off the algebra rather than asserted. The CAPM's testability, and its
+well-known empirical failures, are econometrics questions; the derivation here is what the tests
+are testing.
+
+## Notation used in the track
+
+Returns are random variables with means $\mu_i$ and covariance matrix $\Sigma$; a portfolio is a
+weight vector $w$ with $\mathbf{1}'w = 1$. Portfolio mean is $w'\mu$, variance $w'\Sigma w$.
+The Lagrangian method does all the work, and the matrix algebra is kept at the level where every
+step can be checked by writing the sums out for two assets.
+
+## Reading the results
+
+Two-fund separation is the theorem to internalise: once it holds, every investor's problem
+reduces to choosing a point on one line, and the market portfolio's role in the CAPM stops being
+mysterious. The derivation is a page; the vocabulary it explains is the rest of the subject.
+
+## Derivatives
+
+---
+
+## Index
+URL: https://finance.wyattau.com/3-derivatives/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Derivatives", "url": "https://finance.wyattau.com/3-derivatives"}]}
+</script>
+
+Derivatives are where no-arbitrage earns its keep: the replication argument prices an option
+without knowing anyone's risk preferences, and the binomial model is the cleanest laboratory for
+it.
+
+- **The binomial model** — one period, two states: the replicating portfolio solved, the
+  risk-neutral probability constructed, and multi-period extension by backward induction.
+- **Put-call parity and bounds** — from no-arbitrage directly, with the bound arguments for
+  American features.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+The [principles track](/1-principles/) — specifically replication and the law of one price — and
+conditional expectation from probability. The continuous-time limit is stated honestly as a
+limit; no stochastic calculus is assumed at this level.
+
+## What the track is for
+
+Replication is the whole subject: an option is worth what the portfolio that copies it costs.
+The binomial model makes that statement checkable by hand — every quantity is visible — and the
+continuous-time models are the same statement in the limit. The track keeps the replication
+logic visible at every step, because that is what transfers when the products get exotic.
+
+## Notation used in the track
+
+The binomial tree is written with up and down factors $u, d$ and the risk-free gross rate $R =
+1 + r$. The replicating portfolio is $(\Delta, B)$: $\Delta$ shares and $B$ in the risk-free
+asset. The risk-neutral probability is constructed, not assumed — the track's central point is
+that $q$ is whatever makes the replicated price match, and that its existence is equivalent to
+the absence of arbitrage.
+
+## What the limit buys
+
+The continuous-time models compress the tree's logic into a differential statement. The track
+stops at the threshold and says what is lost: the binomial argument is complete and checkable,
+and the Black--Scholes formula is its limit once stochastic calculus is on the table.
+
+## Overview
+
+---
+
+## About
+URL: https://finance.wyattau.com/about/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "About", "url": "https://finance.wyattau.com/about"}]
+}
+</script>
+
+This site provides free, university-level finance notes in which the core arguments are proved.
+No-arbitrage arguments are written out completely; optimisation results are derived, not stated;
+and every model says which frictions it ignores.
+
+## The standard
+
+Theorems carry proofs or honestly-labelled sketches. Hypotheses are named where they are used.
+Assumptions famous for being false in practice — frictionless markets, continuous trading,
+common beliefs — are stated as assumptions, with the robustness question, what survives their
+failure, addressed rather than hidden.
+
+## Prerequisites and company
+
+Probability through expectation and variance is the only mathematical prerequisite. The
+[economics site's](https://economics.wyattau.com) econometrics track is the empirical
+continuation, and the [mathematics site](https://mathematics.wyattau.com) covers the
+foundations both assume.
+
+## Not investment advice
+
+The models here are teaching models. Their assumptions are false in the real market, on purpose
+and in instructive ways; nothing on this site is a recommendation, and the gap between model and
+market is where practitioner skill lives — this site teaches the models.
+
+## Corrections
+
+Mistakes in pricing arguments are worse than useless — they teach miscalibration. Anything found
+wrong is fixed and the correction is recorded in the page, because knowing where a document was
+wrong is part of knowing how much to trust it.
+
+## Self-tests
+
+Each page closes with self-test items keyed to its sections, written as retrieval practice. The
+harder ones ask where an argument used no-arbitrage versus where it used a preference assumption
+— the distinction that separates pricing results from equilibrium results, and the one exam
+answers most often blur.
+
+## The writing convention
+
+Definitions inline, arguments broken at their genuine moves, and cross-references that name what
+the referenced page proves. The static results (law of one price, parity, bounds) are separated
+cleanly from the equilibrium results (CAPM) — pricing needs only no-arbitrage; equilibrium needs
+preferences and clearing — and the site keeps that boundary visible, because conflating the two
+is the most common confusion in the subject.
+
+## The writing convention
+
+Definitions inline, arguments broken at their genuine moves, and cross-references that name what
+the referenced page proves. The static results — law of one price, parity, bounds — are kept
+cleanly separate from the equilibrium results — CAPM — because pricing needs only no-arbitrage
+while equilibrium needs preferences and clearing, and conflating the two is the most common
+confusion in the subject.
+
+## The maintenance model
+
+Content is checked by tooling on every change: depth minimums, frontmatter validity, link
+integrity, and LaTeX parseability. The pricing arguments carry proofs precisely so that the
+tooling-checked pages teach checkable things.
+
+## The network
+
+This site is part of a network: exam-board sites for the school-facing treatments, subject sites
+(mathematics, physics, chemistry, computer science, economics, accounting) for the
+discipline-facing layer, and a machine-learning site for the applied layer. Cross-references
+between them are maintained by tooling.
+
+## How to report an error
+
+Anything that looks wrong — a replication step, a bound, a definition — is worth reporting. The
+fix lands with the correction recorded, and a page that needs repeated patches gets a rewrite,
+because repeated patches mean the structure is wrong rather than the sentences.
+
+## The level in one paragraph
+
+The level is the university asset-pricing sequence: present value done properly, mean--variance
+from the Lagrangian, the CAPM from clearing, the binomial model with the replication proof. That
+sequence is the spine of the subject; the pages are its complete arguments, with the empirical
+and institutional layers named as theirs.
+
+## The self-test convention
+
+Self-test items are keyed to sections and written as retrieval practice. The harder items ask
+which assumption an argument used — no-arbitrage, market clearing, or a preference restriction —
+because pricing results and equilibrium results fail differently, and the diagnosis starts with
+knowing which family an argument belongs to.
+
+## What to read first
+
+The study hub's track summaries, then Principles. Everything else is sequenced from there. The
+glossary is the reference layer, not the entry point — terms are defined where they are first
+used, and the glossary collects them for recall.
+
+## The proof standard, restated
+
+A proof on this site means every inequality and every equality is justified at the step where it
+appears, with the justification named: a law, a definition, or a previous theorem. Steps that are
+obvious may be compressed; steps that are merely plausible may not. That is the same standard the
+mathematics site uses, and it is the reason arguments here transfer to exams and to papers
+unchanged.
+
+## The standard, restated
+
+Proved not cited, hypotheses named, assumptions honest, corrections recorded. Four sentences of
+standard; the site is their execution.
+
+---
+
+## Glossary
+URL: https://finance.wyattau.com/glossary/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Glossary", "url": "https://finance.wyattau.com/glossary"}]
+}
+</script>
+
+- **Arbitrage** — a trade with nonnegative payoff in every state, positive payoff in some, and
+  zero initial cost. Its impossibility in equilibrium is the subject's organising principle.
+- **Complete market** — one where every state-contingent payoff can be replicated. Completeness
+  is what makes risk-neutral pricing fully general; incompleteness is why some risks have no
+  unique price.
+- **Diversification** — combining assets whose payoffs are less than perfectly correlated, so
+  portfolio variance falls below the average of the parts. The arithmetic behind the phrase
+  "don't put all your eggs in one basket", and the reason idiosyncratic risk goes unpaid.
+- **Hedge portfolio** — the portfolio constructed to replicate an instrument's payoffs state by
+  state; its cost pins the instrument's price under no-arbitrage.
+- **Law of one price** — two portfolios with identical payoffs in every state must have
+  identical prices. Everything static in this site descends from it.
+- **Market portfolio** — the value-weighted portfolio of all risky assets; the tangency portfolio
+  when markets clear (two-fund separation).
+- **Present value** — the price today of a deterministic future cash flow, discounted at the
+  risk-free rate: $PV = C/(1+r)^t$. Under no-arbitrage this is a definition of consistency, not
+  an opinion about value.
+- **Replication** — constructing a portfolio whose payoffs match a target instrument state by
+  state. Its cost is the instrument's price under the law of one price.
+- **Risk-neutral probability** — the pseudo-probabilities under which every traded asset earns
+  the risk-free rate. Not anyone's beliefs; a pricing device whose existence is equivalent to
+  no-arbitrage.
+- **Sharpe ratio** — excess return per unit of standard deviation; the slope of a line from the
+  risk-free point through a portfolio in mean--standard-deviation space. The tangency portfolio
+  maximises it.
+- **Tangency portfolio** — the mean--variance-efficient portfolio maximising the Sharpe ratio;
+  with a risk-free asset it is the unique efficient risky portfolio, and the CAPM's market
+  portfolio when markets clear.
+
+Missing a term? The page using it defines it; the glossary collects the shared vocabulary.
+
+## Conventions
+
+Time is discrete in this site's core arguments, with the continuous-time limit treated as a
+limit. Rates are annualised unless stated; "return" means net return unless prefixed by gross.
+Payoffs are written state by state, and a "price" always means the cost now of a payoff stream —
+the subject has one verb, discount, and the glossary exists so its objects are named precisely.
+
+## Portfolio and pricing terms
+
+- **Covariance** — the co-movement measure driving portfolio variance:
+  $\operatorname{Var}(w'R) = w'\Sigma w$ where $\Sigma$ is the covariance matrix. Negative
+  covariance is what makes diversification beat the average of the parts.
+- **Efficient frontier** — the set of portfolios with minimum variance for each level of expected
+  return. With a risk-free asset, the frontier collapses to a line through the tangency
+  portfolio.
+- **Beta** — the covariance of an asset with the market portfolio divided by the market's
+  variance: the CAPM's sole priced risk measure, derived from everyone holding the tangency.
+
+## How entries are written
+
+Each entry says what the thing is and what it is for. Entries never cite a page as their
+definition — the pages are the primary source and the glossary is the index. If a glossary entry
+and a page disagree, the page is wrong and gets fixed.
+
+## How entries are ordered
+
+Entries are grouped by the track where they first appear, then alphabetically within the group.
+Shared terms live in a shared section at the end. The grouping is a map of the site: reading the
+glossary's headings in order is reading the dependency chain.
+
+- **Put-call parity** — the no-arbitrage identity linking a call, a put, the underlying, and a
+  risk-free bond at the same strike and maturity. Two portfolios, same payoffs, one price.
+- **Replicating portfolio** — the trading strategy whose payoffs match a derivative at every
+  node. The derivative's price is its cost; finding it is the whole exercise.
+- **Two-fund separation** — the result that every mean--variance investor's optimal portfolio is
+  a mix of the risk-free asset and one common tangency portfolio, regardless of risk appetite.
+
+- **Risk-free asset** — an asset whose payoff is known with certainty; the vertex of every
+  mean--variance frontier and the denominator of every Sharpe ratio.
+- **Short position** — a negative holding: selling what you do not own, with payoffs the mirror
+  of the long position. Replication routinely requires it, which is one reason frictionless
+  shorting is a modelling assumption worth naming.
+- **State** — a complete description of what happens; payoffs are functions of states, and the
+  law of one price is a statement about agreements across states.
+- **Strike price** — the price at which an option's holder may transact; the axis of every
+  payoff diagram in the derivatives track.
+- **Underlying** — the asset a derivative's payoff is written on. The replication portfolio
+  always includes it, which is why the underlying's price process is the model's input.
+- **Variance** — the second moment of a return; the risk measure of mean--variance theory, and
+  the object the covariance matrix assembles for portfolios.
+- **Wealth** — the budget the investor allocates; the constraint that makes portfolio choice an
+  optimisation rather than a wish.
+- **Yield** — return expressed as a rate; the yield curve plots it against maturity, and the
+  principles track derives forward yields from it by the law of one price.
+
+---
+
+## Hub
+URL: https://finance.wyattau.com/hub/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "Study Hub", "url": "https://finance.wyattau.com/hub"}]
+}
+</script>
+
+Finance on this site is built the way it is taught at strong universities: from the no-arbitrage
+principle outward. Nearly every headline result — the law of one price, put-call parity, the
+CAPM, risk-neutral pricing — is either a direct consequence of no-arbitrage or a theorem proved
+from it, and the proofs are short enough to actually learn rather than memorise.
+
+## The tracks
+
+- **[Principles of Finance](/1-principles/)** — present value, the law of one price, and
+  no-arbitrage bounds proved; the time value of money done properly, with the discounting
+  algebra derived rather than asserted.
+- **[Portfolio Theory](/2-portfolio-theory/)** — mean--variance optimisation solved by
+  Lagrangian, the two-fund separation theorem proved, and the CAPM derived from market clearing
+  plus everyone holding the tangency portfolio.
+- **[Derivatives](/3-derivatives/)** — the binomial model as the cleanest laboratory: the
+  replication argument proved, risk-neutral probabilities constructed, put-call parity from
+  no-arbitrage, and the road toward the continuous-time limit.
+
+## What the proofs buy
+
+Finance is unusually kind to the reader: its core arguments are complete in a few lines. Put-call
+parity is two portfolios; the risk-neutral argument is one change of measure justified by
+replication; two-fund separation is a Lagrangian and a market-clearing observation. Learning them
+as proofs — rather than as slogans — is what lets you see which assumption a real market violates
+and what that violation does to the price.
+
+## Prerequisites and reading order
+
+Probability through expectation and variance is the only mathematical prerequisite; the
+[mathematics site](https://mathematics.wyattau.com) covers it. The tracks are sequential:
+[Principles](/1-principles/) before [Portfolio Theory](/2-portfolio-theory/) before
+[Derivatives](/3-derivatives/). The [economics site's](https://economics.wyattau.com)
+econometrics track is the natural continuation for the empirical side — factor models are
+tested, not just derived.
+
+## What the models are not
+
+The models here are teaching models: frictionless, complete where needed, and false in precisely
+the ways that make them illuminating. Their assumptions are stated because the gap between model
+and market is where practitioner skill lives — and this site teaches the models, not the
+execution craft, which does not survive transfer through a page.
+
+## Corrections and error reporting
+
+Pricing arguments are checkable, and checkable arguments should be checked. Errors found by
+readers are fixed and recorded on the page. The same policy covers assumptions: if a result
+silently requires market completeness or continuous trading, and the page did not say so, the
+omission is the error.
+
+## The exam-board connection
+
+School-level business and economics syllabi touch present value and diversification informally;
+the exam-board sites carry those treatments. This site is the layer underneath — the arguments
+the informal versions gesture at — and the cross-references are maintained by tooling.
+
+## The self-test convention
+
+Each page closes with a self-test keyed to its sections, written as retrieval practice. The
+harder items ask where an argument used no-arbitrage versus where it used a preference
+assumption — the distinction that separates pricing results from equilibrium results, and the one
+exam answers most often blur.
+
+## Corrections
+
+Pricing arguments are checkable, and checkable arguments should be checked. Errors found by
+readers are fixed and recorded on the page. The same policy covers assumptions: if a result
+silently requires market completeness or continuous trading and the page did not say so, the
+omission is the error.
+
+## Where the site is going
+
+The principles and portfolio tracks' opening pages land next, then the binomial model, then
+put-call parity and the bounds, then the road to the continuous-time limit. Every addition keeps
+the replication logic visible, because that is what transfers when the products get exotic.
+
+## The self-test standard
+
+Self-test items are execution-first: replicate this payoff, derive this frontier, check this
+bound. The verification habit — every price checked against a replication — is the subject's
+own discipline, and the self-tests are where it gets rehearsed before it matters.
+
+## The teaching order inside a page
+
+Pages open with the claim, then the argument, then the reading — what the result means and where
+its assumptions bind. That order is deliberate: arguments land better when the destination is
+named first, and the reading section is where the assumptions stop being formal and start being
+economic.
+
+## The one-sentence version
+
+Price = cost of the portfolio that copies the payoffs; portfolios that everyone must hold become
+the benchmark everyone is priced against. The tracks prove the first sentence, then the second.
+
+## The line that summarises the site
+
+Price what you can replicate; require a price for what you cannot; know which one you are doing.
+The tracks teach the first sentence as arithmetic, the second as theory, and the distinction as
+judgment — the order matters, and the hub exists to keep it visible.
+
+## The reading discipline
+
+One track at a time, self-tests before the next page, and the replication check after every
+price. The site is short by design; the discipline is what makes the shortness complete rather
+than thin.

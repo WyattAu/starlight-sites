@@ -37,3 +37,9 @@ hypothesis is doing the work is only visible inside the proof.
 Matrix algebra through positive-definite quadratic forms, and probability through conditional
 expectation and the variance decomposition. The [mathematics site](https://mathematics.wyattau.com)
 covers both in its linear algebra and probability tracks.
+
+## The standard
+
+Every guarantee is proved with its hypotheses named at the point of use, because the diagnostic
+question in applied work — why does this regression misbehave — is exactly the question of which
+hypothesis failed. Each page closes with a self-test keyed to its sections.

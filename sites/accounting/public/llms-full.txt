@@ -2,3 +2,427 @@
 
 > The complete content of every page on this site, in Markdown, for LLM consumption.
 > Each page is preceded by its canonical URL.
+
+## Foundations
+
+---
+
+## Index
+URL: https://accounting.wyattau.com/1-foundations/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "accounting", "url": "https://accounting.wyattau.com"}, {"name": "Foundations", "url": "https://accounting.wyattau.com/1-foundations"}]}
+</script>
+
+Foundations states the subject's structural facts and demonstrates each: the accounting equation
+as an invariant, the debit-credit convention as the rule that preserves it transaction by
+transaction, and the trial balance as the check that the invariant survived posting.
+
+- **The accounting equation and double entry** — the invariant, the entry rule, worked
+  transactions showing each preservation.
+- **The trial balance** — striking it, reading it, and what it does and does not verify.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+Arithmetic and the willingness to check that entries balance. Every mechanic is shown on a worked
+example before it is used anywhere else, so nothing must be taken on faith.
+
+## What the track is for
+
+Every later mechanic — adjusting entries, closing entries, statement construction — is an
+application of the structural facts this track establishes. The track is also where the subject's
+vocabulary is defined: debit and credit by their effect on the equation, not by rote; the trial
+balance as an invariant check rather than a ritual.
+
+## What the track is for
+
+Every later mechanic — adjusting entries, closing entries, statement construction — applies the
+structural facts this track establishes. It is also where the vocabulary is defined: debit and
+credit by their effect on the equation's sides rather than by rote, and the trial balance as an
+invariant check with a precise limit — it catches one-sided errors, not misclassified or missing
+ones.
+
+## Reading the worked examples
+
+The examples are numbered transaction by transaction, and each entry shows both sides of the
+equation moving. The recommendation is to cover the entry and predict it: the subject is learned
+by producing entries, not by verifying them.
+
+## The standard
+
+Definitions precede use, every mechanic is demonstrated before it is generalised, and every
+worked example balances — not as a flourish but as the subject's own verification. The pages keep
+the invariant visible at each step rather than burying it under procedure.
+
+## The-Accounting-Cycle
+
+---
+
+## Index
+URL: https://accounting.wyattau.com/2-the-accounting-cycle/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "accounting", "url": "https://accounting.wyattau.com"}, {"name": "The Accounting Cycle", "url": "https://accounting.wyattau.com/2-the-accounting-cycle"}]}
+</script>
+
+The cycle is the subject executed end to end: transactions to journal, journal to ledger, ledger
+to trial balance, adjustments justified by the accrual principle, adjusted trial balance, and the
+four statements built from it — with the interlocks shown (income to retained earnings to balance
+sheet, still balancing).
+
+- **Journalising and posting** — the mechanics, worked on a running example company.
+- **Adjusting entries** — accruals, deferrals, and depreciation, each justified by the accrual
+  principle rather than asserted.
+- **Statement construction** — the four statements built from the adjusted trial balance, with
+  every number traceable.
+
+Opening pages landing next in this track.
+
+## Prerequisites
+
+The [Foundations](/1-foundations/) track: the accounting equation, the entry rule, and the trial
+balance. The cycle is those facts executed on a running company, period after period.
+
+## What the track is for
+
+The cycle is where the subject becomes a skill: a running company, a period, and the full
+sequence from transaction to statements with nothing hidden. The pages use one example company
+throughout, so each step's outputs are the next step's inputs — the way the work is actually
+done.
+
+## The running example
+
+One example company runs the whole cycle: the same transactions flow from journal to ledger to
+trial balance to adjustments to statements, so every step's outputs are the next step's inputs.
+When the statements are built, every number traces back through the chain to a numbered
+transaction — the traceability is the standard, and the pages maintain it.
+
+## What the cycle is not
+
+The cycle is not the hard part of accounting. The hard part is judgement: accrual estimates,
+useful lives, allowance rates. The cycle exists to make the mechanical layer flawless so that the
+judgement layer sits on statements that are internally consistent — and the pages keep the two
+layers named separately.
+
+## Overview
+
+---
+
+## About
+URL: https://accounting.wyattau.com/about/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "accounting", "url": "https://accounting.wyattau.com"}, {"name": "About", "url": "https://accounting.wyattau.com/about"}]
+}
+</script>
+
+This site provides free accounting notes built mechanics-first: the structural facts stated
+precisely, every mechanic demonstrated on a worked example, and every worked example internally
+consistent — the statements balance because the entries were posted correctly, and the pages show
+the checking.
+
+## The standard
+
+Definitions precede use. Each new mechanic is shown on a worked example before it is generalised.
+Adjusting entries are justified by the accrual principle rather than asserted. Where frameworks
+differ (IFRS and US GAAP), the difference is named rather than averaged.
+
+## The discipline framing
+
+Accounting's reputation for tedium comes from being taught procedure-first, with the structure
+revealed (if at all) at the end. These pages run the other way: the structure is page one, and
+every procedure after it is a consequence. On that ordering the subject is short, and the
+shortness is the point.
+
+## Reading order
+
+[Foundations](/1-foundations/) before [The Accounting Cycle](/2-the-accounting-cycle/). The
+cycle pages assume the equation, the entry rule, and the trial balance as established in
+Foundations, and their worked examples run a full period end to end — so reading them first is
+reading the payoff without the setup.
+
+## Frameworks
+
+The pages teach the common core that IFRS and US GAAP share, and name the divergence where the
+frameworks differ. Where a rule is convention rather than derivation, the site says so —
+accounting standards are institutional facts, and the site's honesty about which facts are
+institutional is part of its standard.
+
+## Level
+
+The level is the introductory financial-accounting sequence through the four statements and their
+interlocks — the material of a first accounting course, done with the discipline of a first
+physics course.
+
+## The writing convention
+
+Each mechanic appears three times: stated as a rule, worked on an example, and used in the next
+example's input. The repetition is deliberate — the subject is learned by execution, and the
+pages are structured so that execution is always against the stated rule rather than against a
+remembered layout. Where students typically err (direction of adjustments, which statements a
+closing entry touches), the page names the error at the point it would occur.
+
+## The maintenance model
+
+Content is checked by tooling on every change: depth minimums, frontmatter validity, link
+integrity, and table formatting. The worked examples carry the site's standard — every number
+traceable, every statement balanced — and the tooling enforces the formatting so the examples
+stay readable.
+
+## The network
+
+This site is part of a network: exam-board sites for the school-facing business treatments,
+subject sites (mathematics, physics, chemistry, computer science, economics, finance) for the
+discipline-facing layer. Accounting's neighbours are economics for the transactions' context and
+mathematics for the arithmetic's rigor; the links are maintained by tooling.
+
+## How to report an error
+
+Anything that looks wrong — a misclassified entry, an unbalanced example, a definition used
+before it is stated — is worth reporting. The fix lands with the correction recorded, and a page
+needing repeated patches gets a rewrite, because repeated patches mean the structure is wrong.
+
+## Corrections
+
+Misclassified entries, unbalanced examples, definitions used before they are stated — anything
+found wrong is fixed and the correction recorded. A worked example that teaches a broken
+mechanic is the site's worst failure mode, and the corrections policy exists because that
+failure mode is only detectable by readers doing the work.
+
+## The self-test convention
+
+Self-test items ask for produced artifacts — the entry, the balance, the statement line — not
+recognition of them. Producing is the skill the assessments examine and the job requires, and
+producing is what the worked examples model.
+
+## The glossary convention
+
+Terms are defined at first use on every page — the glossary is recall, not introduction. The
+definitions are written to be self-sufficient, because an accounting definition that requires a
+chapter of context is a definition the reader cannot check at the moment of use, and
+check-at-the-moment is this site's whole method.
+
+## The first-page guarantee
+
+Page one of every track states the invariants the whole track depends on. If a later page seems
+to contradict one, trust the invariant and reread — and if the reread confirms the contradiction,
+that is an error worth reporting under the corrections policy above.
+
+## The corrections standard, restated
+
+Balanced is necessary; correctly classified is sufficient; traceable is the standard. Corrections
+hold all three.
+
+---
+
+## Glossary
+URL: https://accounting.wyattau.com/glossary/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "accounting", "url": "https://accounting.wyattau.com"}, {"name": "Glossary", "url": "https://accounting.wyattau.com/glossary"}]
+}
+</script>
+
+- **Accrual principle** — revenue is recognised when earned and expenses when incurred, whether
+  or not cash has moved. The gap between accrual and cash is why adjusting entries exist.
+- **Accounting equation** — Assets = Liabilities + Equity. An invariant: every properly posted
+  entry preserves it, because each entry's debits equal its credits.
+- **Adjusting entries** — period-end entries recording earned-but-unrecorded revenue and
+  incurred-but-unpaid expense (accruals), and allocated costs (deferrals, depreciation).
+- **Closing entries** — period-end entries transferring revenue and expense balances to equity,
+  resetting the temporary accounts so the next period starts clean.
+- **Credit / Debit** — the two sides of an entry. Debits increase assets and expenses; credits
+  increase liabilities, equity, and revenue. Memorising the rule is easier than deriving it: the
+  sides are defined so that the equation's invariant is preserved.
+- **Double entry** — every transaction posts equal debits and credits across at least two
+  accounts. This is the mechanism that preserves the accounting equation transaction by
+  transaction.
+- **General ledger** — the collection of accounts to which journal entries are posted; the
+  trial balance is struck from its balances.
+- **Retained earnings** — the cumulative equity account absorbing each period's net income less
+  distributions; the bridge from the income statement to the balance sheet.
+- **Revenue recognition** — the rules deciding *when* performance has occurred enough to book
+  revenue; the single most litigated area of the subject, and the reason the accrual principle
+  needs standards rather than a slogan.
+- **Trial balance** — the list of account balances with total debits and total credits. Equal
+  totals verify the invariant held through posting; unequal totals prove an error.
+
+Missing a term? The page using it defines it; the glossary collects the shared vocabulary.
+
+## Conventions
+
+Entries are shown in two-column journal form (debit account and amount, indented credit account
+and amount). Statements appear in the standard order: income statement, statement of changes in
+equity, balance sheet, cash flow statement — and the pages keep that order, because the
+interlocks flow in it. Amounts are in a generic currency unit; nothing in the mechanics depends
+on which.
+
+## Statement terms
+
+- **Balance sheet** — the statement of the accounting equation at a point in time: assets on one
+  side, liabilities and equity on the other, equal by construction when the entries are right.
+- **Income statement** — the period's revenues minus expenses, arriving at net income. Its
+  bottom line flows into retained earnings, which is where it reaches the balance sheet.
+- **Cash flow statement** — the period's cash movements, sorted into operating, investing, and
+  financing. It is the reconciliation between accrual income and actual cash: net income plus
+  the accrual reversals.
+
+## How entries are ordered
+
+Entries are alphabetical within the single list, because accounting's vocabulary is one shared
+system rather than separate tracks. Each entry names the track that owns the term's deepest
+treatment, so the glossary doubles as a subject map.
+
+## The standard, restated
+
+Every entry says what the thing is and what it does to the equation. That pairing — object and
+effect — is the subject in miniature, and the glossary keeps the pairing visible even at
+dictionary length.
+
+- **Ledger account** — the running record of one asset, liability, equity, revenue, or expense
+  category; its balance is what the trial balance reports and the statements consume.
+- **Posting** — transferring a journal entry's amounts into the ledger accounts. Posting
+  correctly preserves the invariant; posting to the wrong account preserves the totals but
+  corrupts the statements — which is why the trial balance alone is not an audit.
+
+- **Source document** — the invoice, receipt, or contract that authorises an entry; the evidence
+  layer that keeps posting honest, and the reason "the books" are trusted in court.
+- **Statement of changes in equity** — the bridge statement: opening equity, plus net income,
+  minus distributions, plus contributions, equals closing equity. It is where the income
+  statement's bottom line is delivered to the balance sheet.
+- **Temporary account** — a revenue or expense account closed to zero at period end; its
+  contents live on in equity, but its identity does not survive the closing entries.
+- **Permanent account** — an asset, liability, or equity account whose balance carries forward.
+  The distinction from temporary accounts is what the closing entries operate on.
+- **Period** — the reporting interval the cycle runs on. The accrual principle allocates
+  economic events to periods; without periods there would be no adjusting entries and no cycle.
+- **Equity** — the owners' residual claim: assets minus liabilities. Not cash, not value — the
+  accounting equation's balancing claim, and the statements' way of keeping score.
+- **Contra account** — an account that subtracts from its parent (accumulated depreciation
+  against equipment). Contras are how the statements show gross amounts and their offsets
+  without losing either.
+
+---
+
+## Hub
+URL: https://accounting.wyattau.com/hub/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "accounting", "url": "https://accounting.wyattau.com"}, {"name": "Study Hub", "url": "https://accounting.wyattau.com/hub"}]
+}
+</script>
+
+Accounting is not a theorem-proof subject, and this site does not pretend otherwise. It is a
+mechanics-first subject: a small set of structural facts — the accounting equation, the
+double-entry rule, the accrual principle — generate everything else, and mastery means executing
+the mechanics without error and knowing *why* each step is forced.
+
+## The tracks
+
+- **[Foundations](/1-foundations/)** — the accounting equation stated as an invariant,
+  double-entry as the rule that preserves it, debits and credits defined by their effect on the
+  equation's sides, and the trial balance as the invariant's check.
+- **[The Accounting Cycle](/2-the-accounting-cycle/)** — journalising, posting, adjusting
+  entries (accruals and deferrals justified by the accrual principle), the adjusted trial
+  balance, and the construction of the four statements — every step worked, every number
+  traceable.
+
+## The worked-example standard
+
+Every page here carries a fully worked example in which every number is traceable: transaction
+to journal entry to ledger to trial balance to statement. The examples are small enough to check
+by hand and complete enough to interlock — the income statement feeds retained earnings, which
+feeds the balance sheet, which must still balance, and the pages show it balancing.
+
+## The through-line
+
+The single structural fact of the subject is that the accounting equation is an invariant, and
+double-entry is the operation that preserves it. Everything else — adjusting entries, closing
+entries, statement construction — is bookkeeping around that core, and pages here keep the
+invariant visible at each step rather than burying it under procedure.
+
+## Prerequisites
+
+Arithmetic and the patience to check that entries balance. The subject's difficulty is
+discipline, not mathematics — and the discipline is easier to keep when the structure explains
+the rules, which is the ordering these pages take.
+
+## Corrections and error reporting
+
+A worked example that does not balance is a defect of the worst kind here — it teaches the
+mechanic broken. If you find one, it is fixed and the correction recorded. The same goes for
+entries that balance but post to the wrong side of the equation: balancing is necessary, not
+sufficient, and the corrections hold both standards.
+
+## The exam-board connection
+
+GCSE, A-Level, and IB business syllabi touch the accounting equation and simple statements; the
+exam-board sites carry those treatments with their assessment framing. This site is the layer
+underneath, where the invariants live, and the cross-references are maintained by tooling.
+
+## The self-test convention
+
+Each page closes with a self-test keyed to its sections. The items are execution-first — predict
+the entry, produce the balance, trace the number — because the subject is learned by doing, and
+the self-tests are where the doing is checked before it counts.
+
+## Corrections
+
+A worked example that does not balance is a defect of the worst kind here — it teaches the
+mechanic broken. If you find one, it is fixed and the correction recorded. The same goes for
+entries that balance but post to the wrong side of the equation: balancing is necessary, not
+sufficient, and the corrections hold both standards.
+
+## Where the site is going
+
+Foundations and the cycle open the site; management accounting (cost behaviour, budgeting,
+variance analysis) is the planned second subject area, built on the same mechanics-first standard
+— every variance computed from a source, every standard justified.
+
+## The reading order
+
+[Foundations](/1-foundations/) first, [The Accounting Cycle](/2-the-accounting-cycle/) second —
+and the cycle read with a pencil, producing each entry before reading it. The pages are written
+so that every produced entry can be checked against the shown one, and the check is where the
+learning happens.
+
+## What the site is not
+
+This is not a standards reference: it teaches the mechanics and names the frameworks, but the
+authoritative texts are the standards themselves. Where a page simplifies a rule for teaching,
+the simplification is flagged — the flag is part of the standard, not an apology for it.
+
+## The one-paragraph version
+
+Assets = Liabilities + Equity always. Every transaction posts equal debits and credits, which is
+why the equation holds after every transaction, not just at the end. The trial balance checks
+it, adjusting entries keep accrual honesty inside it, and the four statements are reports of it.
+That is the subject; the tracks execute it.
+
+## The cycle in one sentence
+
+Journal, post, adjust, check, report, close — and the equation holds at every comma. The tracks
+teach each comma, because students who can say that sentence and mean every part of it can run
+the subject.
+
+## The self-test order
+
+Predict before you read the shown entry; balance before you read the shown total; trace before
+you read the shown statement line. The self-tests are sequenced in exactly that order, and
+working them in that order is the difference between reading accounting and doing it.

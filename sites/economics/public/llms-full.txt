@@ -41,6 +41,19 @@ The mathematics site's real-analysis track (continuity, compactness, Weierstrass
 Langrangian method from multivariable calculus. Convexity is used everywhere and proved where it
 is proved.
 
+## The standard
+
+Every theorem on this site carries its proof or an honestly-labelled sketch with the reference.
+Terms are defined before use, and each page closes with a self-test keyed to its sections. The
+prerequisites and the learning-science rationale are on the [study hub](/hub/).
+
+## The self-test convention
+
+Each page closes with a self-test keyed to its sections, and the harder items ask where a proof
+used which hypothesis — the question applied work keeps asking. The [study hub](/hub/) explains
+the learning-science rationale: recalling an answer beats rereading it, and the recall that
+matters in economics is of assumptions.
+
 ---
 
 ## Preferences And Utility
@@ -308,6 +321,56 @@ of this theorem.
 4. Why is the Marshallian cross-partial matrix not symmetric? (§4 — the income effect terms
    $-x_j \partial x_i/\partial w$ need not mirror.)
 
+## Macroeconomics
+
+---
+
+## Index
+URL: https://economics.wyattau.com/2-macroeconomics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "Macroeconomics", "url": "https://economics.wyattau.com/2-macroeconomics"}]}
+</script>
+
+Macroeconomics on this site is model-first: each page states a model precisely, derives its
+mechanics, and reads the results off the derivation. Where a result is a theorem (convergence in
+Solow, Ricardian equivalence conditions, the term structure of policy effects), it is proved.
+
+## Planned and landing pages
+
+- **The Solow growth model** — the law of motion $\dot{k} = sf(k) - (n + \delta)k$ derived,
+  existence and stability of the steady state proved, the golden rule computed, and convergence
+  dynamics read off the phase diagram.
+- **The Ramsey problem** — the household's Euler equation derived from the utility
+  maximisation, the modified golden rule, and why the discount rate disciplines the steady state.
+- **Fluctuations** — the multiplier derived from the Keynesian cross, then the IS--LM
+  apparatus as comparative statics, then the policy questions the apparatus can and cannot
+  answer.
+
+The microeconomic foundations come from the [micro theory track](/1-microeconomic-theory/):
+macro models here are consistent with the household and firm problems proved there, which is
+exactly the discipline microfoundations is supposed to impose.
+
+## The method of the track
+
+Each model on this site is treated the same way: state the agents and their constraints, derive
+the equilibrium condition, prove the comparative statics. The discipline is microfoundations —
+macro models here are consistent with the household and firm problems proved in the micro track,
+so a reduced-form relation is never doing work the structure forbids.
+
+The growth pages come first because their results are theorems: the Solow steady state exists
+and is stable, convergence follows from diminishing returns, and the golden rule is a computable
+object — all provable with one-variable calculus and a phase diagram. Fluctuations come after
+because their models trade tractability for realism, and the trade is easier to see once the
+clean case is proved.
+
+## What the track is not
+
+This is not a forecast site. Models here make conditional statements — if the assumptions hold,
+the mechanics follow — and the empirical question of whether they hold belongs to the
+[econometrics track](/3-econometrics/), whose theorems exist precisely to police that boundary.
+
 ## Econometrics
 
 ---
@@ -477,6 +540,12 @@ Matrix algebra through positive-definite quadratic forms, and probability throug
 expectation and the variance decomposition. The [mathematics site](https://mathematics.wyattau.com)
 covers both in its linear algebra and probability tracks.
 
+## The standard
+
+Every guarantee is proved with its hypotheses named at the point of use, because the diagnostic
+question in applied work — why does this regression misbehave — is exactly the question of which
+hypothesis failed. Each page closes with a self-test keyed to its sections.
+
 ---
 
 ## Ols Estimator
@@ -635,6 +704,61 @@ hypotheses fail.
 
 ---
 
+## Index
+URL: https://economics.wyattau.com/4-game-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "Game Theory", "url": "https://economics.wyattau.com/4-game-theory"}]}
+</script>
+
+Game theory is the mathematics of strategic interaction, and its central existence result is the
+cleanest fixed-point theorem in economics. This track proves it rather than citing it, because
+the proof's hypotheses — compact convex strategy spaces, nonempty convex values, closed graph —
+are exactly the assumptions whose failure defines the interesting research areas.
+
+- **[Nash Equilibrium](/4-game-theory/1_nash-equilibrium/)** — dominance and iterated
+  elimination (with the statewise argument for why strict dominance survives and weak dominance
+  does not), best responses, the mixed extension, the Cournot worked example, and the Nash
+  existence theorem proved via Kakutani.
+
+## Prerequisites
+
+Probability through expectation (mixed strategies are expectations over opponents' mixtures) and
+comfort with correspondences as set-valued maps. The fixed-point theorem is stated inside the
+proof with its hypotheses verified, so no prior fixed-point theory is required.
+
+## What the track is not
+
+This is not a catalogue of the 2x2 games. The prisoners' dilemma, battle of the sexes, and
+matching pennies appear where they illuminate a concept (dominance, coordination, mixing), and
+each is solved completely rather than named. The payoff of the proof-first approach is that the
+existence theorem's hypotheses tell you *which games need which refinements* — dynamic games,
+incomplete information, and discontinuous payoffs are the chapters this track sets up.
+
+## Where the track goes
+
+Sequential games and subgame perfection, games of incomplete information and the revelation
+principle, and repeated games with the folk theorem — each inherits its machinery from the
+static proof here.
+
+## Notation used in the track
+
+Strategies are $s_i$, profiles $s$, and mixtures $\sigma_i$ living in the simplex $\Delta(S_i)$.
+Payoff functions carry the player index: $u_i$ is what player $i$ maximises, and only player
+$i$'s arguments are highlighted as $(s_i, s_{-i})$ when the point is unilateral deviation. Mixed
+payoffs are always expectations under the product distribution — independence of randomisation is
+assumed, and relaxation of it is its own literature.
+
+## Reading the self-tests
+
+The self-test items are keyed to sections. The best preparation for the exam-style questions is
+to re-solve the Cournot example with different demand slopes, then re-derive the best-response
+intercepts from scratch — the algebra is short enough to check and long enough to reveal a
+misremembered step.
+
+---
+
 ## Nash Equilibrium
 URL: https://economics.wyattau.com/4-game-theory/1_nash-equilibrium/
 
@@ -753,3 +877,340 @@ $(1/2, 1/2)$ each — the unique equilibrium, and necessarily mixed.
 4. What breaks in step 4 (closed graph) if payoffs are discontinuous? (The limit inequality need
    not pass — which is exactly why games with auctions/discontinuous payoffs need the
    Reny-style refinements.)
+
+## Overview
+
+---
+
+## About
+URL: https://economics.wyattau.com/about/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "About", "url": "https://economics.wyattau.com/about"}]
+}
+</script>
+
+This site provides free, university-level economics notes with the central theorems proved in
+full. It exists because the gap between exam-board economics and graduate economics is usually
+crossed with hand-waving, and the hand-waving is where students lose the subject: the moment a
+result is cited without its hypotheses, the reader has no way to know why it fails in the paper
+they are reading.
+
+## The standard
+
+Every stated theorem carries its proof, or a proof sketch labelled honestly as a sketch with the
+complete argument referenced. Hypotheses are named at the point of use, and the proofs locate
+where each hypothesis enters — because that is what tells you what breaks in applied work when a
+result misbehaves. Terms are defined before they are used, and the
+[glossary](/glossary/) collects the cross-track vocabulary. Each page closes with a self-test
+keyed to its sections, written as retrieval practice.
+
+## Sources and level
+
+The level is the standard university sequence — the material of Varian for micro, Romer for
+growth, Angrist and Pischke for econometrics, and Osborne for game theory — distilled to what is
+load-bearing. Proofs follow the canonical arguments: Debreu's construction for representation,
+the square-completion for Gauss--Markov, Kakutani for Nash — with the steps made explicit rather
+than compressed.
+
+## How the site relates to the exam-board sites
+
+The A-Level and IB economics sites carry the exam-facing treatment: diagrams, evaluation
+structures, and board-specific wording. This site carries the university layer underneath them.
+The connection is deliberate — supply and demand is the exam-board treatment of what the micro
+track proves as constrained optimisation meeting market clearing — and cross-references run in
+both directions where the same object appears at both levels.
+
+## The self-test convention
+
+The harder self-test items deliberately ask where a proof used a hypothesis rather than what the
+theorem says. That is the question applied work keeps asking — a wage regression misbehaves, and
+the diagnostic question is which assumption of the estimator failed — so the self-tests train the
+motion early.
+
+## Corrections
+
+Errors are real and readers find them. If something is wrong, it gets fixed and the fix is
+recorded, because knowing where a document was wrong is part of knowing how much to trust it.
+
+## The writing convention
+
+Pages are written to be read once with attention, not twice with a highlighter. That means
+definitions inline rather than footnoted, proofs broken at their genuine moves rather than
+paragraph-length, and cross-references that name what the referenced page proves rather than
+gesturing. Where a result is used three pages before it is proved, the forward reference says so
+and states the result precisely at first use.
+
+## The network
+
+This site is part of a network: exam-board sites (A-Level, IB, AP, DSE and others) for the
+school-facing treatment, subject sites (mathematics, physics, chemistry, computer science,
+finance, accounting) for the discipline-facing treatment, and a machine-learning site for the
+applied layer. The economics content on exam-board sites is the school version of this site's
+tracks; the links between them are maintained and checked by tooling, not by hope.
+
+## The writing convention
+
+Pages are written to be read once with attention, not twice with a highlighter. Definitions are
+inline rather than footnoted, proofs are broken at their genuine moves rather than compressed
+into paragraphs, and cross-references name what the referenced page proves rather than gesturing.
+Where a result is used three pages before it is proved, the forward reference says so and states
+the result precisely at first use.
+
+## The maintenance model
+
+Content is checked by tooling on every change: proof-terminator counts against theorem counts
+(the survey method that found this site's founding gaps), depth minimums, frontmatter validity,
+link integrity, and LaTeX parseability. The tooling is why the site can grow without the
+mechanical defects creeping back — the standards are enforced, not remembered.
+
+## How to report an error
+
+Anything that looks wrong — a proof step, a hypothesis, a definition, a broken link — is worth
+reporting. The fix lands with the correction recorded, and repeated reports on the same spot get
+a rewrite rather than a patch, because a page that needs repeated patches is a page that is
+structured wrong.
+
+## Reading order
+
+The study hub names the dependency chain: micro theory before game theory, the consumer problem
+before the welfare theorems, the OLS decomposition before Gauss--Markov. The tracks are written
+so that reading in order means every term is already defined — and reading out of order means the
+forward references say precisely what is being assumed.
+
+## The exam interface
+
+University treatments are examined differently from school treatments: problem sets, not essays;
+proofs, not evaluations. The self-tests follow the problem-set convention, and the worked items
+show full arguments because partial arguments are exactly what the format penalises.
+
+---
+
+## Glossary
+URL: https://economics.wyattau.com/glossary/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "Glossary", "url": "https://economics.wyattau.com/glossary"}]
+}
+</script>
+
+Terms are defined here once and used consistently. Each entry says what the thing is and what it
+is for.
+
+## Micro theory
+
+- **Best response** — a strategy maximising a player's payoff given the others' strategies. The
+  fixed points of the joint best-response correspondence are Nash equilibria.
+- **Budget set** — the bundles a consumer can afford: $\{x : p \cdot x \leq w\}$. Compact when
+  $p \gg 0$, which is what makes demand existence go through.
+- **Expenditure function** — the minimum cost of reaching utility level $u$ at prices $p$. Its
+  convexity in prices is what makes compensated demands well behaved (Shephard's lemma).
+- **Hicksian (compensated) demand** — the expenditure-minimising bundle $h(p, u)$. Answers: what
+  does consumption look like when income is adjusted to hold utility constant?
+- **Indirect utility** — the achieved utility $v(p, w)$ of the consumer problem. Its derivatives
+  are the envelope results (Roy's identity, Shephard's lemma).
+- **Marshallian (uncompensated) demand** — the utility-maximising bundle $x(p, w)$. Holds income
+  fixed, so price changes carry both substitution and income effects.
+- **Slutsky decomposition** — the identity splitting a price effect into substitution
+  (compensated) and income terms. Its substitution matrix is symmetric and negative
+  semidefinite: the testable footprint of maximisation.
+- **Utility representation** — a function $u$ with $x \succsim y \iff u(x) \geq u(y)$. Ordinal:
+  unique only up to strictly increasing transformation.
+
+## Econometrics
+
+- **OLS estimator** — $\hat{\beta} = (X'X)^{-1}X'y$: the projection of $y$ on the regressor
+  space, equivalently the minimiser of residual sum of squares.
+- **Strict exogeneity** — $E[u \mid X] = 0$: the error is mean-independent of all regressors at
+  all observations. Buys unbiasedness; its failure is endogeneity.
+- **Spherical errors** — $\operatorname{Var}(u \mid X) = \sigma^2 I_n$: homoskedastic and
+  uncorrelated. Buys the variance formula and Gauss--Markov efficiency.
+- **BLUE** — best linear unbiased estimator: smallest variance in the matrix sense among linear
+  unbiased estimators. Gauss--Markov's conclusion for OLS under spherical errors.
+
+## Game theory
+
+- **Nash equilibrium** — a strategy profile where every player's strategy is a best response to
+  the others'. No unilateral deviation pays.
+- **Mixed extension** — the game where each player randomises over strategies, payoffs being
+  expected payoffs. Its strategy spaces are simplices: compact and convex, which is what the
+  existence proof consumes.
+- **Strict dominance** — a strategy worse than another for *every* opponents' profile. Strictly
+  dominated strategies are played with probability zero in every equilibrium, and the property
+  survives iterated elimination.
+
+## Shared
+
+- **Tâtonnement** — the price-adjustment story behind equilibrium existence arguments: prices
+  move in the direction of excess demand. A fiction, but the one the theorems are written in.
+
+Missing a term you met on a page? The page that uses it is the page responsible for defining it;
+the glossary collects the cross-track vocabulary.
+
+## Conventions
+
+Notation is consistent across tracks: $\succsim$ for preferences, $v(p, w)$ for indirect
+utility, $\sigma$ for mixed strategies, $\hat{\beta}$ for estimators. Proofs terminate with a
+black square; honestly-labelled sketches say so in their header and cite the complete argument.
+Vectors are column vectors by default; primes denote transposes. When a track needs a divergent
+convention, it says so at first use — the divergences are rare, and knowing where they are is
+part of knowing the subject.
+
+## Welfare and equilibrium
+
+- **Competitive equilibrium** — prices and allocations where every consumer maximises utility,
+  every firm maximises profit, and all markets clear. The first welfare theorem says such
+  equilibria are Pareto efficient under local nonsatiation.
+- **Pareto efficiency** — an allocation where nobody can be made better off without making
+  someone worse off. Weak as a welfare criterion (says nothing about distribution) and strong as
+  a consistency requirement.
+- **General equilibrium** — all markets at once, with prices coordinating. The existence proof is
+  the game-theory fixed-point argument applied to excess demand.
+
+## Econometrics terms met on the micro pages
+
+- **Comparative static** — how an endogenous object (demand, equilibrium price) responds to a
+  parameter (price, wealth). The Slutsky decomposition is the comparative static of demand with
+  respect to prices, split by mechanism.
+- **Envelope theorem** — the derivative of an optimised value with respect to a parameter equals
+  the partial derivative of the objective, because choice adjustments are first-order neutral.
+  Used on this site for Shephard's lemma.
+
+## Conventions
+
+Notation is consistent across tracks: $\succsim$ for preferences, $v(p, w)$ for indirect
+utility, $\sigma$ for mixed strategies, $\hat{\beta}$ for estimators. Proofs terminate with a
+black square; honestly-labelled sketches say so in their header and cite the complete argument.
+Vectors are column vectors by default; primes denote transposes.
+
+## How entries are written
+
+Each entry says what the thing is and what it is for — a definition and a purpose, in two lines.
+Entries never cite a page as their definition; the pages' definitions are the primary source and
+the glossary is the index. If a glossary entry and a page disagree, the page is wrong and gets
+fixed.
+
+---
+
+## Hub
+URL: https://economics.wyattau.com/hub/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "Study Hub", "url": "https://economics.wyattau.com/hub"}]
+}
+</script>
+
+This site treats economics the way [mathematics](https://mathematics.wyattau.com) treats
+mathematics: the central results are proved, the hypotheses are named, and the failures of
+applied work are traced to the hypothesis that failed. Economics is a theorem-first subject at
+university level, and the proofs are where the assumptions become visible — which assumption buys
+unbiasedness, which buys efficiency, which makes an equilibrium exist.
+
+## The tracks
+
+- **[Microeconomic Theory](/1-microeconomic-theory/)** — preferences, the utility representation
+  theorem, the consumer problem, expenditure duality with Shephard's lemma proved, the Slutsky
+  decomposition derived exactly, and the welfare theorems. Start here: the consumer's problem is
+  the load-bearing model for everything downstream, and the duality machinery is reused by every
+  later track.
+- **[Macroeconomics](/2-macroeconomics/)** — growth and fluctuations from models whose mechanics
+  are derived rather than described: the Solow steady state proved to exist and be stable, the
+  Ramsey Euler equation derived from the household problem, and the multiplier read off the
+  Keynesian cross before IS--LM is laid over it.
+- **[Econometrics](/3-econometrics/)** — the OLS estimator from the orthogonality condition up,
+  unbiasedness with the exact location of the exogeneity input located inside the proof, and
+  Gauss--Markov in full by completing the square — including the table of which hypothesis buys
+  which part of the conclusion, because that table is what applied work consults when a result
+  misbehaves.
+- **[Game Theory](/4-game-theory/)** — dominance that survives iterated elimination (and why
+  weak dominance does not), best responses, and Nash existence for finite games proved via
+  Kakutani with all four hypotheses verified. The proof structure — compact convex space,
+  nonempty convex values, closed graph, fixed point — is the template nearly every existence
+  theorem in economics reuses.
+
+## How to read this site
+
+Terms are defined before they are used, every theorem carries its proof or an honestly-labelled
+sketch with the complete argument referenced, and each page closes with a self-test keyed to its
+sections. The self-test items are written as retrieval practice, and the harder ones deliberately
+ask *where a proof used a hypothesis* — because that is the question applied work keeps asking.
+
+## Prerequisites
+
+Micro and game theory need comfort with sets, continuity, and convexity; the Lagrangian method
+appears in the consumer problem and is developed on the mathematics site's multivariable
+calculus track. Econometrics needs matrix algebra through positive-definite quadratic forms and
+probability through conditional expectation. The
+[mathematics site](https://mathematics.wyattau.com) covers both from first principles, and its
+proof standard is the bar this site holds itself to.
+
+## The relationship to exam-board economics
+
+A-Level and IB economics teach institutions, diagrams, and evaluation technique; this site
+teaches the machinery underneath. Supply and demand is the exam-board treatment of what the
+micro track proves as constrained optimisation meeting market clearing; elasticity is a
+comparative static; game theory at IB level is the informal version of the equilibrium existence
+result proved here. The two levels reinforce each other, and the cross-references between them
+are deliberate.
+
+## Corrections and error reporting
+
+Errors in proofs are the worst defects a site like this can ship, and readers find them. Anything
+found wrong is fixed and the correction is recorded on the page. The same policy covers notation:
+if a proof uses a convention (row vectors, preference directions) that differs from your course's,
+the divergence is stated where it occurs.
+
+## The practice-test layer
+
+Track pages carry self-tests inline. A consolidated practice test spanning the tracks exists on
+the exam sites' pattern and is generated from the same question fixtures — the retrieval schedule
+the [learning-science page](https://mathematics.wyattau.com/how-to-use-learning-science/)
+recommends applies unchanged: recall before review, spacing over cramming, and mixing tracks once
+the basics hold.
+
+## The self-test convention
+
+Every page closes with a self-test keyed to its sections. The items are written as retrieval
+practice — recall before review, spacing over cramming — and the harder items ask where a proof
+used which hypothesis, because that is the question applied work keeps asking when an estimator
+misbehaves or a model's comparative static goes the wrong way.
+
+## Corrections
+
+Errors in proofs are the worst defects this site can ship. Anything found wrong is fixed and the
+correction is recorded on the page. The same policy covers notation: if a proof uses a convention
+that differs from your course's, the divergence is stated where it occurs.
+
+## The practice layer
+
+A consolidated practice test spanning the tracks is generated from the same question fixtures the
+exam sites use. The retrieval schedule the
+[learning-science page](https://mathematics.wyattau.com/how-to-use-learning-science/) recommends
+applies unchanged: recall before review, spacing over cramming, and mixing tracks once the basics
+hold.
+
+## Corrections and error reporting
+
+Errors in proofs are the worst defects a site like this can ship, and readers find them. Anything
+found wrong is fixed and the correction is recorded on the page. The same policy covers notation:
+if a proof uses a convention that differs from your course's, the divergence is stated where it
+occurs.
+
+## Where the site is going
+
+The macro track's growth pages land next, then general equilibrium with the welfare theorems
+proved, then the econometrics track's asymptotics and inference pages. The game-theory track
+continues into sequential games and subgame perfection. Each addition follows the site standard:
+proved, hypotheses named, defined before use.

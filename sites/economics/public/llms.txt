@@ -10,6 +10,10 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Preferences And Utility](https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility/)
 - [Utility Maximisation](https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation/)
 
+## Macroeconomics
+
+- [Index](https://economics.wyattau.com/2-macroeconomics/)
+
 ## Econometrics
 
 - [Gauss Markov](https://economics.wyattau.com/3-econometrics/2_gauss-markov/)
@@ -18,4 +22,11 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Game-Theory
 
+- [Index](https://economics.wyattau.com/4-game-theory/)
 - [Nash Equilibrium](https://economics.wyattau.com/4-game-theory/1_nash-equilibrium/)
+
+## Overview
+
+- [About](https://economics.wyattau.com/about/)
+- [Glossary](https://economics.wyattau.com/glossary/)
+- [Hub](https://economics.wyattau.com/hub/)

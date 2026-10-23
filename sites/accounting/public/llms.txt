@@ -3,3 +3,17 @@
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
 All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Foundations
+
+- [Index](https://accounting.wyattau.com/1-foundations/)
+
+## The-Accounting-Cycle
+
+- [Index](https://accounting.wyattau.com/2-the-accounting-cycle/)
+
+## Overview
+
+- [About](https://accounting.wyattau.com/about/)
+- [Glossary](https://accounting.wyattau.com/glossary/)
+- [Hub](https://accounting.wyattau.com/hub/)
