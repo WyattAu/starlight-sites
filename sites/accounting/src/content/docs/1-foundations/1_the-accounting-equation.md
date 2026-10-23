@@ -85,12 +85,16 @@ the invariant held; it does not mean the books are right.
 
 A new consultancy, recording four events:
 
+<div class="table-wrap">
+
 | # | Event | Entry (debit → credit) | Shape | Effect on equation |
 |---|---|---|---|---|
 | 1 | Owners invest \$10,000 cash | Cash \$10,000 → Equity \$10,000 | Case 2 | Both sides +10,000 |
 | 2 | Borrow \$5,000 from the bank | Cash \$5,000 → Loan \$5,000 | Case 2 | Both sides +5,000 |
 | 3 | Buy \$3,000 of equipment with cash | Equipment \$3,000 → Cash \$3,000 | Case 1 | Assets reshuffled |
 | 4 | Pay \$800 cash for this month's rent | Rent (expense) \$800 → Cash \$800 | Case 2, via equity | Both sides −800 |
+
+</div>
 
 Check after each event:
 
