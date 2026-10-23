@@ -251,3 +251,108 @@ describe('Suggestions', () => {
     assert.strictEqual(suggestions.length, 0)
   })
 })
+
+describe('Relevance: word boundaries, stemming, synonyms', () => {
+  const W = () => api.RANKING_VARIANTS.control
+
+  it('does not substring-match: "rate" must not hit "generate" or "accurate"', () => {
+    const idx = {
+      entries: [
+        {
+          title: 'How to generate ideas',
+          url: 'https://x.com/generate/',
+          site: 'x',
+          content: 'accurate generation of ideas',
+        },
+        {
+          title: 'Reaction rate',
+          url: 'https://x.com/rate/',
+          site: 'x',
+          content: 'the rate of reaction',
+        },
+      ],
+    }
+    const results = api.searchIndex('rate', idx, null, W())
+    assert.strictEqual(results.length, 1)
+    assert.match(results[0].url, /rate/)
+  })
+
+  it('stems symmetrically: "derivatives" matches "derivative" content', () => {
+    const idx = {
+      entries: [
+        {
+          title: 'The derivative',
+          url: 'https://x.com/derivative/',
+          site: 'x',
+          content: 'the derivative measures sensitivity to change',
+        },
+      ],
+    }
+    const results = api.searchIndex('derivatives', idx, null, W())
+    assert.strictEqual(results.length, 1)
+  })
+
+  it('stems ies -> y: "studies" matches "study"', () => {
+    const idx = {
+      entries: [
+        {
+          title: 'Case study method',
+          url: 'https://x.com/case-study/',
+          site: 'x',
+          content: 'a study of one case in depth',
+        },
+      ],
+    }
+    const results = api.searchIndex('studies', idx, null, W())
+    assert.strictEqual(results.length, 1)
+  })
+
+  it('stop-word-only queries return nothing instead of everything', () => {
+    const idx = {
+      entries: [
+        {
+          title: 'Vector Spaces',
+          url: 'https://x.com/vector/',
+          site: 'x',
+          content: 'addition and scalar multiplication',
+        },
+      ],
+    }
+    const results = api.searchIndex('what is the', idx, null, W())
+    assert.strictEqual(results.length, 0)
+  })
+
+  it('multi-word queries bonus: entry matching all words outranks partial', () => {
+    const idx = {
+      entries: [
+        {
+          title: 'Gas laws',
+          url: 'https://x.com/gas-laws/',
+          site: 'x',
+          content: 'ideal gas law, boyle, charles, pressure volume temperature',
+        },
+        {
+          title: 'Temperature',
+          url: 'https://x.com/temperature/',
+          site: 'x',
+          content: 'temperature measurement',
+        },
+      ],
+    }
+    const results = api.searchIndex('gas temperature', idx, null, W())
+    assert.ok(results.length >= 1)
+    assert.match(results[0].url, /gas-laws/)
+  })
+
+  it('expandQuery substitutes curated stem synonyms', () => {
+    const alts = api.expandQuery('gradient of x^2')
+    assert.ok(alts.some(q => q.includes('derivative')))
+  })
+
+  it('snippet uses the same stemmed matching as the scorer', () => {
+    const snip = api.generateSnippet('we differentiate the function to find the derivative', [
+      'derivative',
+    ])
+    assert.ok(snip.toLowerCase().includes('derivative'))
+  })
+})

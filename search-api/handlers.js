@@ -6,7 +6,7 @@ import { ASSET_REDIRECTS, RANKING_VARIANTS, SITE_AUTHORITY, SITES } from './conf
 import { renderDashboard } from './dashboard.js'
 import { log } from './log.js'
 import STATIC_INDEX from './merged-index.js'
-import { detectLanguage, hashString, searchIndex } from './ranking.js'
+import { detectLanguage, expandQuery, hashString, searchIndex } from './ranking.js'
 import { checkRateLimit } from './rate-limit.js'
 import { generateSuggestions } from './suggest.js'
 import { validateSearchQuery, validateTrackPayload } from './validate.js'
@@ -110,12 +110,27 @@ async function handleSearch(request, url, env, corsHeaders) {
   // Search and rank with A/B weights
   let results = searchIndex(query, index, site, weights, detectedLang, subject)
 
+  // Zero-result recovery, tier 1: stem-synonym expansion. "gradient of x^2"
+  // finds nothing when the index says "derivative"; one curated substitution
+  // recovers it. Marked in the response so the UI can say "results for ...".
+  let expandedFrom = null
+  if (results.length === 0) {
+    for (const alt of expandQuery(query).slice(0, 3)) {
+      const altResults = searchIndex(alt, index, site, weights, detectedLang, subject)
+      if (altResults.length > 0) {
+        results = altResults
+        expandedFrom = query
+        break
+      }
+    }
+  }
+
   // Apply limit
   results = results.slice(0, limit)
 
-  // Zero-result recovery: surface alternative queries so the user is not
-  // presented with a dead end. Suggestions are derived from trending queries
-  // and a curated common-query list (see generateSuggestions).
+  // Zero-result recovery, tier 2: surface alternative queries so the user is
+  // not presented with a dead end. Suggestions are derived from trending
+  // queries and a curated common-query list (see generateSuggestions).
   let suggestions = []
   if (results.length === 0) {
     const trending = (await env.SEARCH_KV?.get('trending', { type: 'json' })) || []
@@ -124,6 +139,7 @@ async function handleSearch(request, url, env, corsHeaders) {
 
   const response = {
     query,
+    ...(expandedFrom ? { expandedFrom } : {}),
     total: results.length,
     variant: abVariant,
     lang: detectedLang,

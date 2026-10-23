@@ -30,7 +30,14 @@ import {
   handleTrending,
 } from './handlers.js'
 import { log } from './log.js'
-import { detectLanguage, generateSnippet, hashString, searchIndex } from './ranking.js'
+import {
+  detectLanguage,
+  expandQuery,
+  generateSnippet,
+  hashString,
+  searchIndex,
+  stem,
+} from './ranking.js'
 import { generateSuggestions } from './suggest.js'
 
 export default {
@@ -117,6 +124,7 @@ export default {
 export {
   COMMON_QUERIES,
   detectLanguage,
+  expandQuery,
   generateSnippet,
   generateSuggestions,
   hashString,
@@ -125,4 +133,5 @@ export {
   SITE_AUTHORITY,
   SITES,
   searchIndex,
+  stem,
 }
