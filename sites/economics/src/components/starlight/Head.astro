@@ -1,0 +1,213 @@
+---
+import ClientRouter from "astro/components/ClientRouter.astro"
+import ErrorCapture from './ErrorCapture.astro'
+import JsonLd from './JsonLd.astro'
+import ServiceWorker from './ServiceWorker.astro'
+import SiteNavigator from './SiteNavigator.astro'
+
+const { starlightRoute } = Astro.locals;
+const { entry, head, id } = starlightRoute;
+
+const pageTitle = entry?.data?.title || "Untitled";
+const siteTitle = starlightRoute?.siteTitle || "Wyatt's Notes";
+
+const description = entry?.data?.description || 'Free study notes, revision guide, and exam preparation with worked examples for IB, A-Level, GCSE, AP, DSE, and university STEM subjects.';
+const site = 'https://wyattsnotes.wyattau.com';
+const pageUrl = Astro.url.href;
+
+// Get the current date for schema fallback
+const currentDate = new Date().toISOString();
+
+// Use frontmatter dates if available, otherwise fallback to current date.
+// `date`/`datePublished`/`dateModified` are content frontmatter fields not
+// present in Starlight's generated entry type, hence the narrow cast.
+const frontmatterDates = entry?.data as {
+  datePublished?: string
+  dateModified?: string
+  date?: string
+}
+const datePublished = frontmatterDates.datePublished || frontmatterDates.date || currentDate;
+const dateModified = frontmatterDates.dateModified || frontmatterDates.date || currentDate;
+
+// Determine the site name from the URL
+const urlParts = new URL(pageUrl).hostname.split('.');
+const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
+const siteName = subdomain === 'www' || subdomain === 'wyattsnotes' ? "Wyatt's Notes" : `${subdomain.charAt(0).toUpperCase() + subdomain.slice(1)} | Wyatt's Notes`;
+
+// Cross-site canonical: related sites that share content topics
+const relatedSiteGroups: Record<string, string[]> = {
+  'exam-boards': ['dse', 'ib', 'alevel', 'gcse', 'ap', 'highers', 'leaving-cert', 'cbse', 'gaokao', 'hsc', 'sat'],
+  'programming': ['cpp', 'python', 'java', 'rust', 'go', 'kotlin', 'swift', 'typescript', 'dart', 'ruby', 'haskell', 'elixir'],
+  'cs-infrastructure': ['databases', 'networking', 'linux', 'security', 'tools', 'truenas', 'tuning', 'licensing'],
+  'sciences': ['physics', 'chemistry', 'mathematics', 'computer-science', 'machine-learning'],
+};
+
+// Shared topics across exam board sites (top-level paths that exist on multiple boards)
+const sharedExamTopics = [
+  'physics', 'chemistry', 'maths', 'mathematics', 'biology', 'computer-science',
+  'economics', 'english', 'geography', 'history', 'ict',
+];
+// Shared topics across programming sites
+const sharedProgrammingTopics = [
+  'fundamentals', 'concurrency', 'object-oriented', 'standard-library',
+  'data-structures', 'error-handling', 'best-practices', 'async',
+];
+// Shared topics across CS infrastructure sites
+const sharedInfraTopics = ['about'];
+// Shared topics across science sites
+const sharedScienceTopics = ['about'];
+
+// Determine which group this site belongs to and what path segments to cross-link
+function getRelatedSites(subdomain: string, pathSegments: string[]): string[] {
+  const topPath = pathSegments[0] || '';
+
+  for (const [, sites] of Object.entries(relatedSiteGroups)) {
+    if (!sites.includes(subdomain)) continue;
+
+    const peers = sites.filter(s => s !== subdomain);
+    // Link to the top-level subject page on related sites if the path
+    // starts with a topic that's shared across the group
+    const sharedTopics =
+      sites === relatedSiteGroups['exam-boards'] ? sharedExamTopics :
+      sites === relatedSiteGroups.programming ? sharedProgrammingTopics :
+      sites === relatedSiteGroups['cs-infrastructure'] ? sharedInfraTopics :
+      sharedScienceTopics;
+
+    if (topPath && sharedTopics.includes(topPath)) {
+      return peers;
+    }
+  }
+  return [];
+}
+
+const pagePathSegments = id.split('/').filter(Boolean);
+const relatedSites = getRelatedSites(subdomain, pagePathSegments);
+
+// Build breadcrumb trail from the page id (the slug) - matches PageTitle.astro logic
+function buildBreadcrumbs(id: string, siteTitle: string) {
+  const parts = id.split('/').filter(Boolean);
+  const crumbs = [{ name: 'Home', url: 'https://wyattau.com' }];
+
+  // Add site name as second breadcrumb
+  const hostname = Astro.url.hostname;
+  const siteUrl = `https://${hostname}`;
+  crumbs.push({ name: siteTitle, url: siteUrl });
+
+  let path = '';
+  for (let i = 0; i < parts.length; i++) {
+    path += `/${parts[i]}`;
+    const isLast = i === parts.length - 1;
+    // Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
+    const label = parts[i]
+      .replace(/^\d+-/, '')        // Remove leading number prefix
+      .replace(/^\d+_/, '')        // Remove leading number_ prefix
+      .replace(/[-_]/g, ' ')       // Replace hyphens/underscores with spaces
+      .replace(/\b\w/g, c => c.toUpperCase()); // Capitalize words
+
+    if (isLast) {
+      crumbs.push({ name: label, url: pageUrl });
+    } else {
+      crumbs.push({ name: label, url: `${siteUrl}${path}/` });
+    }
+  }
+  return crumbs;
+}
+
+const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
+---
+
+<!-- Page speed: preconnect to external origins -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://search.wyattau.com" crossorigin />
+
+<!-- Page speed: DNS prefetch for external services -->
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
+
+<!-- Page speed: DNS prefetch for subdomains -->
+<link rel="dns-prefetch" href="https://dse.wyattau.com" />
+<link rel="dns-prefetch" href="https://ib.wyattau.com" />
+<link rel="dns-prefetch" href="https://alevel.wyattau.com" />
+<link rel="dns-prefetch" href="https://gcse.wyattau.com" />
+<link rel="dns-prefetch" href="https://ap.wyattau.com" />
+<link rel="dns-prefetch" href="https://cpp.wyattau.com" />
+<link rel="dns-prefetch" href="https://python.wyattau.com" />
+<link rel="dns-prefetch" href="https://rust.wyattau.com" />
+<link rel="dns-prefetch" href="https://mathematics.wyattau.com" />
+<link rel="dns-prefetch" href="https://physics.wyattau.com" />
+
+<!-- Page speed: preload critical assets (only for ES modules) -->
+
+<!-- Theme + reading preferences are applied by the ThemeProvider override
+     (inline in <head>, before first paint, re-applied on astro:after-swap). -->
+
+<!-- SEO Meta Tags -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<!-- Canonical: emitted by Starlight's built-in head (site + pathname).
+     Do NOT add a second canonical here -- duplicate canonical tags are
+     an ambiguous signal for crawlers. -->
+
+<!-- Hreflang for i18n, Starlight generates hreflang tags from the locales
+     config in astro.config.mjs. Do NOT add explicit hreflang tags here;
+     they duplicate Starlight's output and trigger HREF003/ISEO003 warnings. -->
+
+<!-- Cross-site alternate links for related sites (SEO: signals content relationship) -->
+{relatedSites.map(relatedSub => {
+  const relatedPath = `/${pagePathSegments.join('/')}`;
+  const relatedUrl = `https://${relatedSub}.wyattau.com${relatedPath === '/' ? '/' : relatedPath + '/'}`;
+  return <link rel="alternate" href={relatedUrl} data-related-site={relatedSub} />;
+})}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content={pageUrl} />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:image" content={`${new URL(pageUrl).origin}/img/social-card.svg`} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@wyattau" />
+<meta name="twitter:creator" content="@wyattau" />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={`${new URL(pageUrl).origin}/img/social-card.svg`} />
+
+<!-- Additional SEO Meta -->
+<meta name="author" content="Wyatt" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Starlight head items (title, KaTeX CSS, analytics, font preloads, etc.) -->
+{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+
+<ServiceWorker />
+
+<!-- Reading controls (floating settings, focus mode, progress, position memory) -->
+<script src="/reader.js" defer></script>
+
+<!-- Site navigator: inject Sites button into Starlight header -->
+<SiteNavigator />
+
+<!-- Cross-site search: the header (Header.astro) renders the search input
+     and queries search.wyattau.com directly. The legacy injector scripts
+     (cross-site-search.js, page-search.js) are no longer loaded -- they
+     injected a second search bar and modal on top of the header's own input. -->
+
+<!-- Mermaid: load library from CDN, then render diagrams -->
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" integrity="sha384-EOXBFmc3gx5mb+vn0vPvvGqACToJD24hhacX5Yx+8NUUQrHIle/Qi5Bg9o3zKwW2" crossorigin="anonymous"></script>
+<script src="/mermaid-render.js" defer></script>
+
+<JsonLd entry={entry} pageTitle={pageTitle} description={description} pageUrl={pageUrl} datePublished={datePublished} dateModified={dateModified} siteTitle={siteTitle} subdomain={subdomain} breadcrumbItems={breadcrumbItems} />
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
+
+<ErrorCapture />
+
+<ClientRouter />

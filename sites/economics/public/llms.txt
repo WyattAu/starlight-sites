@@ -1,0 +1,21 @@
+# Economics — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Microeconomic-Theory
+
+- [Index](https://economics.wyattau.com/1-microeconomic-theory/)
+- [Preferences And Utility](https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility/)
+- [Utility Maximisation](https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation/)
+
+## Econometrics
+
+- [Gauss Markov](https://economics.wyattau.com/3-econometrics/2_gauss-markov/)
+- [Index](https://economics.wyattau.com/3-econometrics/)
+- [Ols Estimator](https://economics.wyattau.com/3-econometrics/1_ols-estimator/)
+
+## Game-Theory
+
+- [Nash Equilibrium](https://economics.wyattau.com/4-game-theory/1_nash-equilibrium/)

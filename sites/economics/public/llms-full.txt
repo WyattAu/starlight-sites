@@ -1,0 +1,755 @@
+# Economics — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Microeconomic-Theory
+
+---
+
+## Index
+URL: https://economics.wyattau.com/1-microeconomic-theory/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "1 Microeconomic Theory", "url": "https://economics.wyattau.com/1-microeconomic-theory"}, {"name": "Index", "url": "https://economics.wyattau.com/1-microeconomic-theory/index"}]
+}
+</script>
+
+Microeconomic theory is the mathematics of choice under scarcity. Its results are theorems —
+existence of utility representations, existence and structure of demand, duality between what
+consumers maximise and what firms minimise, the welfare theorems — and this track proves them
+rather than asserting them, because the hypotheses (continuity, convexity, local nonsatiation)
+are exactly what applied work leans on.
+
+## The dependency chain
+
+1. [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/) — the axioms,
+   and the theorem that continuous preferences admit a continuous utility representation.
+2. [Utility Maximisation](/1-microeconomic-theory/2_utility-maximisation/) — the consumer problem,
+   Marshallian demand, indirect utility, expenditure function, Shephard's lemma, and the Slutsky
+   decomposition — with proofs.
+3. Production and the firm — profit and cost minimisation, the firm's duality (next in track).
+4. General equilibrium and the welfare theorems (coming).
+
+## Prerequisites
+
+The mathematics site's real-analysis track (continuity, compactness, Weierstrass) and the
+Langrangian method from multivariable calculus. Convexity is used everywhere and proved where it
+is proved.
+
+---
+
+## Preferences And Utility
+URL: https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "1 Microeconomic Theory", "url": "https://economics.wyattau.com/1-microeconomic-theory"}, {"name": "Preferences and Utility", "url": "https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility"}]
+}
+</script>
+
+### 1. Preferences, Not Utility, Are Primitive
+
+The consumer's primitive is a preference relation $\succsim$ on a consumption set
+$X \subseteq \mathbb{R}^n_+$: $x \succsim y$ reads "x is at least as good as y". From it:
+
+- **Strict preference**: $x \succ y$ iff $x \succsim y$ and not $y \succsim x$.
+- **Indifference**: $x \sim y$ iff $x \succsim y$ and $y \succsim x$.
+
+Utility is *derived*, not assumed: $u: X \to \mathbb{R}$ **represents** $\succsim$ if
+$x \succsim y \iff u(x) \geq u(y)$. Utility is ordinal — any strictly increasing transformation
+represents the same preferences — so statements that depend on utility *levels* ("utility rose by
+3") are meaningless; statements about *orderings* are the content.
+
+### 2. The Axioms
+
+**Definition.** $\succsim$ is:
+
+1. **Complete**: for all $x, y \in X$, $x \succsim y$ or $y \succsim x$.
+2. **Transitive**: $x \succsim y$ and $y \succsim z$ imply $x \succsim z$.
+3. **Continuous**: for all $y$, the upper contour set $\{x : x \succsim y\}$ and the lower
+   contour set $\{x : y \succsim x\}$ are closed.
+4. **Locally nonsatiated**: for every $x$ and every $\varepsilon > 0$ there is $x'$ within
+   $\varepsilon$ of $x$ with $x' \succ x$.
+5. **Convex**: if $x \succsim y$ then $tx + (1-t)y \succsim y$ for $t \in [0, 1]$ (weakly
+   convex preferences); **strictly convex** if additionally $x \neq y$ implies strict preference
+   for $t \in (0,1)$.
+
+(1) and (2) make $\succsim$ a rational ordering — without them, "maximisation" has no coherent
+meaning (transitivity failures produce preference cycles: money-pump arguments show an agent with
+cyclic preferences can be exploited). (3) is the technical workhorse: it is what makes
+representation *and* demand existence proofs go through. (4) says more is always weakly better in
+every neighbourhood — it rules out bliss points inside the budget. (5) is the diversification
+postulate and is what makes demand correspondences single-valued and equilibria well-behaved.
+
+### 3. The Representation Theorem
+
+**Theorem 3.1 (Debreu).** If $\succsim$ is complete, transitive, and continuous on a convex,
+closed consumption set $X \subseteq \mathbb{R}^n_+$, then there exists a continuous $u: X \to
+\mathbb{R}$ representing $\succsim$.
+
+**Proof (construction for $n = 1$; the general case via the same counting idea on hyperplanes).**
+For $X = \mathbb{R}_+$ define
+
+$$
+u(x) = \inf \{ r \in \mathbb{Q}_+ : r \succsim x \}
+$$
+
+under the convention of comparing $x$ with rational "reference bundles" through the continuity of
+contour sets. Three claims:
+
+1. *Well defined*: completeness gives every $x$ some rational $r$ with $r \succsim x$, so the set
+   is nonempty; closedness of the lower contour set makes the infimum attained in the closure.
+2. *Representation*: take $x, y$ with $x \succsim y$. Every rational $r$ with $y \succsim r$
+   satisfies $r \precsim x$ by transitivity, so the infimum defining $u(x)$ is at least that
+   defining $u(y)$: $u(x) \geq u(y)$. The reverse inequality is symmetric, with equality iff
+   $x \sim y$.
+3. *Continuity*: continuity of $\succsim$ makes the contour sets closed, so
+   $\{x : u(x) \geq a\}$ and $\{x : u(x) \leq a\}$ are closed for every rational $a$ — subbasis
+   closedness, hence continuity of $u$. $\blacksquare$
+
+The rational reference bundles matter: a *countable* dense family is what makes the infimum a
+real number. Continuity of preferences is exactly the hypothesis that guarantees one; lexicographic
+preferences — which are complete, transitive, and *discontinuous* — admit **no** representation at
+all (any candidate $u$ can be defeated: for every $x$, the jump separating $(x, 1)$ from $(x, 0)$
+in lexicographic order forces uncountably many disjoint open intervals in $\mathbb{R}$).
+
+### 4. Convexity's Work
+
+Convexity of preferences does not affect representation — it affects what *maximisation* returns.
+On the budget set (a simplex, hence convex), maximising a *quasiconcave* utility (weakly convex
+preferences) yields a convex set of optima; strict convexity collapses it to a single point:
+
+**Proposition 4.1.** With strictly convex preferences and a convex budget set $B$, the argmax
+$\arg\max_{x \in B} u(x)$ is a singleton whenever nonempty.
+
+**Proof.** Suppose $x \neq y$ both maximise. Convexity of $B$ gives $m = tx + (1-t)y \in B$ for
+$t \in (0,1)$; strict convexity gives $m \succ x$; so $u(m) > u(x)$ — contradicting maximality of
+$x$. $\blacksquare$
+
+This is why demand *functions* (single-valued) require strict convexity, and why relaxing it gives
+demand *correspondences* — the multivalued objects general-equilibrium theory works with.
+
+### 5. What Is *Not* Assumed
+
+Nothing so far involves money, markets, or rationality-as-intelligence. The axioms are about
+consistency of comparison, and the theorems are silent on where $\succsim$ comes from. Behavioural
+economics is the study of which axioms fail empirically and what replaces them; the theorems above
+are the benchmark whose failures are informative.
+
+### Self-test
+
+1. Why is utility ordinal? (§1 — any strictly increasing transform represents the same
+   preferences; only orderings are pinned down.)
+2. Where does continuity enter the proof of Theorem 3.1? (§3, claims 1 and 3 — closed contour
+   sets.)
+3. Construct the money-pump for cyclic preferences. (§2 — with $a \prec b \prec c \prec a$, an
+   agent pays a fee repeatedly to trade up the cycle.)
+4. Why do lexicographic preferences admit no representation? (§3 — uncountably many jumps.)
+
+---
+
+## Utility Maximisation
+URL: https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "1 Microeconomic Theory", "url": "https://economics.wyattau.com/1-microeconomic-theory"}, {"name": "Utility Maximisation", "url": "https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation"}]
+}
+</script>
+
+### 1. The Consumer Problem
+
+**Definition.** With wealth $w > 0$ and prices $p \gg 0$ (strictly positive), the budget set is
+$B(p, w) = \{x \in \mathbb{R}^n_+ : p \cdot x \leq w\}$ and the consumer solves
+
+$$
+v(p, w) = \max_{x \in B(p,w)} u(x), \qquad x(p, w) \in \arg\max_{x \in B(p,w)} u(x).
+$$
+
+$v$ is the **indirect utility function**; $x(p, w)$ the **Marshallian** (uncompensated) demand.
+
+**Proposition 1.1 (Existence).** If $u$ is continuous and $p \gg 0$, $x(p,w)$ is nonempty.
+
+**Proof.** $B(p, w)$ is closed and bounded — bounded because $p \gg 0$ caps every coordinate at
+$w/p_i$; closed because it is a preimage of $(-\infty, w]$ under the continuous map $p \cdot x$.
+So $B$ is compact, and $u$ continuous attains its maximum on $B$ by Weierstrass. $\blacksquare$
+
+Compactness of the budget set is *the* reason prices must be strictly positive: a zero price makes
+some $x_i$ unbounded, the budget set ceases to be compact, and a satiation-free consumer demands
+infinite amounts of the free good.
+
+### 2. The Expenditure Function and Shephard's Lemma
+
+**Definition.** The expenditure function solves the *dual* problem:
+
+$$
+e(p, u) = \min_{x} p \cdot x \quad \text{s.t.} \quad u(x) \geq u,
+$$
+
+with solution $h(p, u)$, the **Hicksian** (compensated) demand — the cheapest bundle reaching
+utility level $u$ at prices $p$.
+
+**Theorem 2.1 (Shephard's Lemma).** If $h(p, u)$ is single-valued and differentiable at $p$, then
+
+$$
+\frac{\partial e}{\partial p_i}(p, u) = h_i(p, u).
+$$
+
+**Proof.** $e(p, u) = p \cdot h(p, u)$. Differentiate with respect to $p_i$:
+
+$$
+\frac{\partial e}{\partial p_i} = h_i(p, u) + \sum_j p_j \frac{\partial h_j}{\partial p_i}.
+$$
+
+The second term vanishes: at the optimum, the bundle $h(p,u)$ reaches exactly utility $u$
+(local nonsatiation means the constraint binds, $u(h(p,u)) = u$), so perturbing $h$ along
+$\partial h/\partial p_i$ — which keeps utility *constant* to first order — cannot lower
+expenditure; the envelope condition gives $\sum_j p_j \, \partial h_j/\partial p_i = 0$.
+Formally this is the **envelope theorem**: the derivative of the value function with respect to a
+parameter equals the partial derivative of the objective, because the choice-adjustment term is
+orthogonal to the constraint at the optimum. $\blacksquare$
+
+Shephard's lemma is the workhorse of applied micro: consumer surplus, cost-of-living indices, and
+the entire duality method pass through it.
+
+### 3. The Slutsky Decomposition
+
+How does *Marshallian* demand respond to a price change? The answer decomposes into substitution
+and income effects — and the decomposition is a theorem with an exact statement.
+
+**Theorem 3.1 (Slutsky).** With differentiable demands,
+
+$$
+\frac{\partial x_i(p, w)}{\partial p_j}
+= \frac{\partial h_i(p, u)}{\partial p_j}
+- x_j(p, w)\,\frac{\partial x_i(p, w)}{\partial w},
+\qquad u = v(p, w).
+$$
+
+**Proof.** The link between the two demands is the identity defining compensated demand at the
+utility the consumer actually reaches:
+
+$$
+x_i(p, w) = h_i\bigl(p, v(p, w)\bigr).
+$$
+
+Differentiate both sides with respect to $p_j$ (holding $w$ fixed), using the chain rule:
+
+$$
+\frac{\partial x_i}{\partial p_j}
+= \frac{\partial h_i}{\partial p_j}
++ \frac{\partial h_i}{\partial u}\,\frac{\partial v}{\partial p_j}.
+$$
+
+Two substitutions finish it. First, Shephard's lemma in derivative form:
+$\partial v/\partial p_j = -\partial e/\partial p_j$ at $(p, w)$ (raising a price lowers attainable
+utility at exactly the expenditure-compensation rate), so with $e(p, v(p,w)) = w$:
+
+$$
+\frac{\partial h_i}{\partial u}\,\frac{\partial v}{\partial p_j}
+= -\frac{\partial h_i}{\partial u}\, h_j(p, u).
+$$
+
+Second, the **duality identity** $h_i(p, v(p,w)) = x_i(p, w)$ differentiated in $w$:
+$\partial h_i/\partial u \cdot \partial v/\partial w = \partial x_i/\partial w$, and
+$\partial v/\partial w = \lambda > 0$ — the marginal utility of wealth — so
+
+$$
+\frac{\partial h_i}{\partial u}\, h_j = x_j \frac{\partial x_i}{\partial w}
+$$
+
+(the $\lambda$'s cancel). Substitute into the chain-rule expansion:
+
+$$
+\frac{\partial x_i}{\partial p_j}
+= \frac{\partial h_i}{\partial p_j}
+- x_j \frac{\partial x_i}{\partial w}. \qquad \blacksquare
+$$
+
+### 4. Reading the Theorem
+
+- The **substitution effect** $\partial h_i/\partial p_j \leq 0$ for $i = j$ *always*: Hicksian
+  own-price demand never slopes upward, because $h(p, u)$ minimises expenditure — a direct
+  consequence of the convexity of the expenditure-minimising choice (the compensated demand is
+  the gradient map of the convex function $e$). This is proved, not assumed.
+- The **income effect** $-x_j \,\partial x_i/\partial w$ has the sign of
+  $\partial x_i/\partial w$: for normal goods it reinforces the substitution effect; for Giffen
+  goods it overwhelms it — which is why Giffen goods require a large budget share $x_j$ *and*
+  strong inferiority, and why they are vanishingly rare in data.
+- **Symmetry**: since $\partial h_i/\partial p_j = \partial h_j/\partial p_i$ (both equal
+  $\partial^2 e/\partial p_i \partial p_j$ — Young's theorem applied to the convex function $e$),
+  the Slutsky matrix of *substitution terms* is symmetric. The Marshallian cross-partial matrix
+  is generally *not* symmetric — the antisymmetric residue is pure income effect.
+
+The Slutsky matrix's properties (symmetry, negative semidefiniteness) are exactly the restrictions
+that make demand data consistent with maximisation — the tests of revealed preference are tests
+of this theorem.
+
+### 5. Self-test
+
+1. Why does the budget set need $p \gg 0$ for Weierstrass? (§1 — boundedness fails at a zero
+   price.)
+2. Where does the envelope theorem enter Shephard's lemma? (§2 — the choice-adjustment term dies
+   against the binding constraint.)
+3. Derive the sign of the compensated own-price effect. (§4 — $e$ is convex in $p$, so its
+   gradient map's diagonal is nonpositive; or: expenditure minimisation with a fixed utility
+   target cannot slope upward.)
+4. Why is the Marshallian cross-partial matrix not symmetric? (§4 — the income effect terms
+   $-x_j \partial x_i/\partial w$ need not mirror.)
+
+## Econometrics
+
+---
+
+## Gauss Markov
+URL: https://economics.wyattau.com/3-econometrics/2_gauss-markov/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "3 Econometrics", "url": "https://economics.wyattau.com/3-econometrics"}, {"name": "The Gauss--Markov Theorem", "url": "https://economics.wyattau.com/3-econometrics/2_gauss-markov"}]
+}
+</script>
+
+### 1. The Claim
+
+**Theorem (Gauss--Markov).** Under the linear model with strict exogeneity
+$E[u \mid X] = 0$ and spherical errors $\operatorname{Var}(u \mid X) = \sigma^2 I_n$, the OLS
+estimator $\hat{\beta} = (X'X)^{-1}X'y$ is the **best linear unbiased estimator** (BLUE): among
+all estimators of the form $\tilde{\beta} = Cy$ with $C$ any fixed $k \times n$ matrix that is
+unbiased, $\hat{\beta}$ has the smallest variance —
+$\operatorname{Var}(\tilde{\beta} \mid X) - \operatorname{Var}(\hat{\beta} \mid X)$ is positive
+semidefinite for every competitor $\tilde{\beta}$.
+
+Read the claim carefully — three restrictions, each essential:
+
+- **Linear**: $\tilde{\beta} = Cy$ for fixed $C$. Nonlinear estimators are not covered (some beat
+  OLS under normality — the James--Stein phenomenon).
+- **Unbiased**: $E[\tilde{\beta}] = \beta$ for all $\beta$. Biased-but-smaller estimators (ridge)
+  are not covered.
+- **Best**: smallest variance in the matrix sense — every linear combination
+  $a'\tilde{\beta}$ has variance at least $a'\operatorname{Var}(\hat{\beta})a$.
+
+### 2. The Competition
+
+Let $\tilde{\beta} = Cy$ be any linear unbiased estimator. Write $C = (X'X)^{-1}X' + D$ for some
+$k \times n$ matrix $D$ — every $C$ decomposes this way, since $(X'X)^{-1}X'$ is one such matrix
+and $D$ collects the difference.
+
+**Lemma 2.1.** $\tilde{\beta}$ unbiased for all $\beta$ (with $X$ fixed) iff $DX = 0$.
+
+**Proof.** $E[\tilde{\beta}] = C X\beta = \bigl[(X'X)^{-1}X' + D\bigr]X\beta = \beta + DX\beta$.
+For this to equal $\beta$ for *every* $\beta$, we need $DX\beta = 0$ for all $\beta$, i.e.
+$DX = 0$. The converse is immediate. $\blacksquare$
+
+This is the first place a hypothesis earns its keep: unbiasedness *for all $\beta$* is what
+forces $DX = 0$, and $DX = 0$ is what the main computation will exploit. An estimator that is
+unbiased only at some particular $\beta$ escapes the theorem — which is why the theorem is a
+statement about estimator *procedures*, not estimates.
+
+### 3. The Variance Difference
+
+Compute the competitor's variance conditional on $X$. With $\tilde{\beta} = Cy$ and
+$\operatorname{Var}(y \mid X) = \sigma^2 I_n$:
+
+$$
+\operatorname{Var}(\tilde{\beta} \mid X) = \sigma^2 CC' = \sigma^2\bigl[(X'X)^{-1}X' + D\bigr]\bigl[(X'X)^{-1}X' + D\bigr]'.
+$$
+
+Expand the product into four terms and use $DX = 0$ (which also implies
+$X D' = (DX)' = 0$):
+
+- $(X'X)^{-1}X'X(X'X)^{-1} = (X'X)^{-1}$ — the OLS variance, from Theorem 6.1 of the previous
+  page.
+- $(X'X)^{-1}X'D' = (X'X)^{-1}(DX)' = 0$ — killed by unbiasedness.
+- $DX(X'X)^{-1} = 0$ — killed by unbiasedness.
+- $DD'$ — the only surviving new term.
+
+So
+
+$$
+\operatorname{Var}(\tilde{\beta} \mid X) = \sigma^2 (X'X)^{-1} + \sigma^2 DD' = \operatorname{Var}(\hat{\beta} \mid X) + \sigma^2 DD'.
+$$
+
+### 4. Positive Semidefiniteness
+
+**Theorem (Gauss--Markov, conclusion).** For any vector $a \in \mathbb{R}^k$,
+
+$$
+a'\operatorname{Var}(\tilde{\beta} \mid X)a - a'\operatorname{Var}(\hat{\beta} \mid X)a = \sigma^2 a'DD'a = \sigma^2\|D'a\|^2 \geq 0.
+$$
+
+**Proof.** $a'DD'a = (D'a)'(D'a) = \|D'a\|^2$, a squared norm — nonnegative, and zero only when
+$D'a = 0$. Since $\sigma^2 > 0$, the difference is a nonnegative quadratic form. $\blacksquare$
+
+In particular, the variance of any scalar combination $a'\tilde{\beta}$ — a single coefficient
+$a = e_j$, a difference of coefficients, a prediction — is at least as large under the competitor
+as under OLS. Strictness: equality for *all* $a$ forces $D'a = 0$ for all $a$, hence $D = 0$,
+hence $\tilde{\beta} = \hat{\beta}$ — OLS is the *unique* BLUE unless a competitor coincides
+with it.
+
+### 5. Which Hypothesis Bought Which Part
+
+The decomposition of the proof is a menu of what fails when a hypothesis fails:
+
+<div class="table-wrap">
+
+| Hypothesis | Used at | What breaks without it |
+| --- | --- | --- |
+| Linearity of the model ($y = X\beta + u$) | §2, the decomposition | The whole setup |
+| Spherical errors ($\sigma^2 I_n$) | §3, $\operatorname{Var}(y\mid X)$ | The variance comparison is no longer $\sigma^2 CC'$; OLS can be beaten by GLS |
+| Fixed $X$, unbiasedness for all $\beta$ | Lemma 2.1, $DX = 0$ | The cross terms need not vanish; a biased competitor can win |
+| Linear class | Claim §1 | Nonlinear estimators escape the theorem entirely |
+
+</div>
+
+The most economically important row is spherical errors. Cross-sectional data routinely
+exhibit heteroskedasticity — the variance of $u$ differs across units — and then OLS is not
+BLUE: generalised least squares strictly dominates. What survives is consistency and valid
+inference via heteroskedasticity-robust standard errors (later pages), which is why the applied
+default is OLS with robust errors rather than GLS.
+
+### 6. Self-test
+
+1. Why does the proof need unbiasedness *for all $\beta$* rather than at the true value?
+   (Lemma 2.1 — the condition $DX = 0$ is uniform in $\beta$.)
+2. Where would the proof collapse under heteroskedasticity? (§3 —
+   $\operatorname{Var}(y \mid X)$ is no longer $\sigma^2 I_n$, so the cross terms are not
+   forced to zero by $DX = 0$ alone; the surviving matrix is no longer $DD'$.)
+3. Is OLS the best estimator under normality? (No — BLUE is the best *linear unbiased*;
+   under normality the James--Stein estimator dominates in mean square in dimensions $k \geq 3$,
+   trading a little bias for a lot of variance.)
+
+### Where to go next
+
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/) — the decomposition this proof builds on.
+- Consistency and asymptotics — the guarantees that survive weaker exogeneity (next in track).
+
+---
+
+## Index
+URL: https://economics.wyattau.com/3-econometrics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "3 Econometrics", "url": "https://economics.wyattau.com/3-econometrics"}, {"name": "Index", "url": "https://economics.wyattau.com/3-econometrics/index"}]
+}
+</script>
+
+Econometrics is where economic theory meets data, and it is a theorem-first subject: every
+guarantee you use — unbiasedness, smallest variance, consistency, valid standard errors — is a
+theorem with hypotheses, and every failure of an applied study is the failure of one of those
+hypotheses. This track proves the central results rather than citing them, because which
+hypothesis is doing the work is only visible inside the proof.
+
+## The dependency chain
+
+1. [The OLS Estimator](/3-econometrics/1_ols-estimator/) — the linear model, the orthogonality
+   condition, algebraic properties, and unbiasedness under strict exogeneity. Everything else
+   builds on the decomposition proved here.
+2. [Gauss--Markov](/3-econometrics/2_gauss-markov/) — the theorem that OLS is the **best linear
+   unbiased estimator**, proved by completing the square. The proof shows exactly which
+   hypotheses buy which part of the conclusion.
+3. Consistency and asymptotics — what happens when the exogeneity or homoskedasticity assumptions
+   weaken (coming next in this track).
+4. Inference — standard errors, $t$ and $F$ tests, and why heteroskedasticity demands robust
+   variance (coming).
+
+## Prerequisites
+
+Matrix algebra through positive-definite quadratic forms, and probability through conditional
+expectation and the variance decomposition. The [mathematics site](https://mathematics.wyattau.com)
+covers both in its linear algebra and probability tracks.
+
+---
+
+## Ols Estimator
+URL: https://economics.wyattau.com/3-econometrics/1_ols-estimator/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "3 Econometrics", "url": "https://economics.wyattau.com/3-econometrics"}, {"name": "The OLS Estimator", "url": "https://economics.wyattau.com/3-econometrics/1_ols-estimator"}]
+}
+</script>
+
+### 1. The Linear Model
+
+**Definition.** The linear model posits
+
+$$
+y = X\beta + u,
+$$
+
+where $y$ is $n \times 1$, $X$ is $n \times k$ non-stochastic (this pass) with full column rank
+$k < n$, $\beta$ is $k \times 1$, and $u$ is $n \times 1$ unobserved.
+
+### 2. Least Squares as Orthogonality
+
+**Definition.** The OLS estimator $\hat{\beta}$ minimises the residual sum of squares
+$S(\beta) = (y - X\beta)'(y - X\beta)$.
+
+**Proposition 2.1.** $\hat{\beta}$ exists, is unique, and equals $(X'X)^{-1}X'y$.
+
+**Proof.** Expand: $S(\beta) = y'y - 2\beta'X'y + \beta'X'X\beta$. Since $X$ has full column
+rank, $X'X$ is positive definite: for $\beta \neq 0$, $\beta'X'X\beta = \|X\beta\|^2 > 0$ (the
+norm vanishes only if $X\beta = 0$, and full column rank means $X\beta = 0$ forces $\beta = 0$).
+So $S$ is a strictly convex quadratic — its unique stationary point is the global minimum.
+Setting the gradient to zero: $\nabla S = -2X'y + 2X'X\beta = 0$, giving
+$(X'X)\hat{\beta} = X'y$; positive definiteness makes $X'X$ invertible, so
+$\hat{\beta} = (X'X)^{-1}X'y$. $\blacksquare$
+
+**Theorem 2.2 (Orthogonality).** The residuals are orthogonal to the regressors:
+$X'\hat{u} = 0$, where $\hat{u} = y - X\hat{\beta}$.
+
+**Proof.** $X'\hat{u} = X'y - X'X\hat{\beta} = X'y - X'X(X'X)^{-1}X'y = X'y - X'y = 0$.
+$\blacksquare$
+
+This is the defining property, and it is what "least squares" *means* geometrically: the residual
+vector is perpendicular to the column space of $X$, so no direction inside the regressor space
+can further reduce it. Every failure of OLS in practice — endogeneity most famously — is a
+failure of the population analogue of this orthogonality to identify something meaningful.
+
+### 3. Algebraic Consequences
+
+**Proposition 3.1.** If a constant is included in $X$, then $\sum_i \hat{u}_i = 0$ and
+$\bar{y} = \bar{\hat{y}}$.
+
+**Proof.** Orthogonality applied to the constant column $\mathbf{1}$:
+$\mathbf{1}'\hat{u} = \sum_i \hat{u}_i = 0$. Then $\bar{\hat{y}} = \bar{y} - \bar{\hat{u}} = \bar{y}$.
+$\blacksquare$
+
+**Proposition 3.2.** The fitted values and residuals decompose the data exactly:
+$y = \hat{y} + \hat{u}$ with $\hat{y}'\hat{u} = 0$, so $\|y\|^2 = \|\hat{y}\|^2 + \|\hat{u}\|^2$.
+
+**Proof.** $\hat{y} = X\hat{\beta}$ lies in the column space of $X$, and $\hat{u}$ is orthogonal
+to that space (Theorem 2.2), so $\hat{y}'\hat{u} = 0$. The norm identity is Pythagoras.
+$\blacksquare$
+
+$R^2 = 1 - \|\hat{u}\|^2/\|y - \bar{y}\|^2$ follows when a constant is included.
+
+### 4. The Finite-Sample Decomposition
+
+Everything about the estimator's behaviour flows through one identity. Substituting
+$y = X\beta + u$:
+
+$$
+\hat{\beta} = (X'X)^{-1}X'y = (X'X)^{-1}X'(X\beta + u) = \beta + (X'X)^{-1}X'u.
+$$
+
+**Definition.** $\hat{\beta} - \beta = (X'X)^{-1}X'u$ is the **sampling error**.
+
+Two hypotheses convert this identity into guarantees, and it is worth naming which buys which:
+
+- **Strict exogeneity**: $E[u \mid X] = 0$. This buys *unbiasedness*.
+- **Homoskedasticity + no serial correlation**: $\operatorname{Var}(u \mid X) = \sigma^2 I_n$.
+  This buys the *variance formula* and, with the next page's construction, *efficiency*.
+
+### 5. Unbiasedness
+
+**Theorem 5.1.** If $E[u \mid X] = 0$, then $E[\hat{\beta}] = \beta$.
+
+**Proof.** By the decomposition, $E[\hat{\beta} \mid X] = \beta + (X'X)^{-1}X'E[u \mid X] = \beta$
+— conditioning on $X$ makes $(X'X)^{-1}X'$ a fixed matrix, so it pulls through the conditional
+expectation, and strict exogeneity kills the second term. Then the tower law gives
+$E[\hat{\beta}] = E\bigl[E[\hat{\beta} \mid X]\bigr] = \beta$. $\blacksquare$
+
+The proof shows precisely where exogeneity enters: the term $(X'X)^{-1}X'E[u\mid X]$ is the
+source of **omitted-variable bias** when it fails. If an omitted determinant of $y$ is correlated
+with a regressor, $E[u \mid X] \neq 0$, the term is nonzero, and $\hat{\beta}$ is biased *no
+matter how large the sample* — bias is a finite-sample disease that more data does not cure.
+
+### 6. The Variance
+
+**Theorem 6.1.** Under strict exogeneity and spherical errors
+($\operatorname{Var}(u \mid X) = \sigma^2 I_n$):
+
+$$
+\operatorname{Var}(\hat{\beta} \mid X) = \sigma^2 (X'X)^{-1}.
+$$
+
+**Proof.** Condition on $X$ so that only $u$ is random:
+
+$$
+\operatorname{Var}(\hat{\beta} \mid X) = \operatorname{Var}\bigl((X'X)^{-1}X'u \mid X\bigr)
+= (X'X)^{-1}X' \, \sigma^2 I_n \, X (X'X)^{-1} = \sigma^2 (X'X)^{-1},
+$$
+
+using $\operatorname{Var}(Au) = A\,\operatorname{Var}(u)\,A'$ with
+$A = (X'X)^{-1}X'$, and the middle cancels to $(X'X)^{-1}$ since
+$X'X(X'X)^{-1} = I$. $\blacksquare$
+
+Diagonal element $j$: $\operatorname{Var}(\hat{\beta}_j) = \sigma^2 (X'X)^{-1}_{jj}$ — the
+standard errors that every regression table reports (with $\sigma^2$ estimated by
+$s^2 = \hat{u}'\hat{u}/(n-k)$, unbiased as shown next).
+
+**Proposition 6.2.** $s^2 = \hat{u}'\hat{u}/(n-k)$ is unbiased for $\sigma^2$ under spherical
+errors.
+
+**Proof sketch.** $\hat{u} = Mu$ with $M = I - X(X'X)^{-1}X'$ the residual-maker, which is
+symmetric idempotent ($M' = M$, $M^2 = M$ — verify by direct multiplication) with rank $n - k$.
+Then $\hat{u}'\hat{u} = u'Mu$, and
+$E[u'Mu \mid X] = \sigma^2\operatorname{tr}(M) = \sigma^2(n-k)$, using
+$E[u'Au] = \sigma^2\operatorname{tr}(A)$ for spherical $u$ and
+$\operatorname{tr}(M) = n - \operatorname{tr}(X(X'X)^{-1}X') = n - k$ by the trace cyclic identity.
+Divide by $n - k$. $\blacksquare$
+
+### 7. What OLS Does Not Promise
+
+Note what has *not* been proved. Nothing yet says $\hat{\beta}$ is the most accurate unbiased
+estimator, nor that it is consistent under weak assumptions, nor that its standard errors are
+valid under heteroskedasticity. The next page proves the efficiency claim — Gauss--Markov — and
+the proof shows the exact role of each hypothesis. Later pages handle what survives when the
+hypotheses fail.
+
+### Self-test
+
+1. Where does full column rank enter the existence proof? (§2 — strict convexity needs
+   $X'X$ positive definite.)
+2. Which hypothesis buys unbiasedness, and where exactly does the proof use it? (§5 —
+   $E[u \mid X] = 0$, inside the conditional expectation.)
+3. Why does more data not cure omitted-variable bias? (§5 — the bias term
+   $(X'X)^{-1}X'E[u\mid X]$ does not vanish with $n$.)
+4. State the role of $M$'s idempotence in Proposition 6.2. (Trace of an idempotent equals its
+   rank.)
+
+## Game-Theory
+
+---
+
+## Nash Equilibrium
+URL: https://economics.wyattau.com/4-game-theory/1_nash-equilibrium/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "economics", "url": "https://economics.wyattau.com"}, {"name": "4 Game Theory", "url": "https://economics.wyattau.com/4-game-theory"}, {"name": "Nash Equilibrium", "url": "https://economics.wyattau.com/4-game-theory/1_nash-equilibrium"}]
+}
+</script>
+
+### 1. Games and Strategies
+
+**Definition.** A finite $n$-player game is $G = (S_1, \dots, S_n; u_1, \dots, u_n)$: each player
+$i$ has a finite strategy set $S_i$ and payoff $u_i: S_1 \times \cdots \times S_n \to \mathbb{R}$.
+Write $s = (s_i, s_{-i})$ for a profile highlighting player $i$'s choice.
+
+### 2. Dominance and Iterated Elimination
+
+**Definition.** $s_i'$ **strictly dominates** $s_i$ if $u_i(s_i', s_{-i}) > u_i(s_i, s_{-i})$ for
+every $s_{-i}$.
+
+**Proposition 2.1.** A strictly dominated strategy is played with probability zero in every Nash
+equilibrium.
+
+**Proof.** Let $s_i^*$ be strictly dominated by $s_i'$ and suppose $\sigma$ is a Nash equilibrium
+in which $\sigma_i(s_i^*) > 0$. Consider the mixed strategy $\tilde{\sigma}_i$ that shifts all of
+$\sigma_i$'s mass on $s_i^*$ to $s_i'$, holding the rest fixed. Player $i$'s payoff changes by
+exactly $\sigma_i(s_i^*)\bigl[u_i(s_i', s_{-i}^{\sigma}) - u_i(s_i^*, s_{-i}^{\sigma})\bigr] > 0$
+for *every* realisation $s_{-i}^{\sigma}$ of the opponents' play (strict dominance holds
+statewise), hence in expectation — contradicting the equilibrium no-profitable-deviation
+condition. $\blacksquare$
+
+Iterating the elimination is valid because strict dominance survives elimination of strategies:
+if $s_i'$ dominates $s_i$ among *all* opponents' profiles, it dominates among any subset.
+(With *weak* dominance both claims fail — order-dependence is a real phenomenon, not a technicality.)
+
+### 3. Best Responses and Nash Equilibrium
+
+**Definition.** Player $i$'s **best-response correspondence** $BR_i(s_{-i}) = \arg\max_{s_i}
+u_i(s_i, s_{-i})$. A profile $s^*$ is a **Nash equilibrium** if
+$s_i^* \in BR_i(s_{-i}^*)$ for every $i$ — nobody can improve by unilateral deviation.
+
+**Proposition 3.1.** In the Cournot duopoly with linear demand $P(Q) = a - bQ$ and constant
+marginal cost $c < a$, the unique Nash equilibrium is
+$q_1^* = q_2^* = (a - c)/3b$.
+
+**Proof.** Firm $i$ maximises $(a - b(q_i + q_j) - c)q_i$; the first-order condition gives
+$q_i = (a - c - bq_j)/2b$ — the best-response function. Solving the two equations simultaneously:
+substituting gives $q_i = (a - c - b(a-c-bq_j)/2b)/2b$, which with symmetry $q_i = q_j = q$ gives
+$q = (a-c)/3b$. The second-order condition holds (concave quadratic), and the simultaneous
+solution of best responses *is* the definition of Nash equilibrium. $\blacksquare$
+
+### 4. Mixed Strategies and the Existence Theorem
+
+Pure equilibria can fail to exist (matching pennies). The fix: randomise.
+
+**Definition.** The **mixed extension** allows $\sigma_i \in \Delta(S_i)$ (probability
+distributions), with payoffs $u_i(\sigma) = \sum_s \bigl(\prod_j \sigma_j(s_j)\bigr) u_i(s)$. Write
+$\sigma = (\sigma_i, \sigma_{-i})$.
+
+A finite $\Delta(S_i)$ is a simplex: compact and convex. This compactness is what makes the
+existence theorem work.
+
+**Theorem 4.1 (Nash, 1950).** Every finite game has a Nash equilibrium in mixed strategies.
+
+**Proof.** Define the best-response correspondence
+$B: \prod_i \Delta(S_i) \to \prod_i \Delta(S_i)$ by $B(\sigma) = \prod_i BR_i(\sigma_{-i})$.
+A Nash equilibrium is exactly a fixed point of $B$. We verify the hypotheses of Kakutani's
+fixed-point theorem:
+
+1. $\prod_i \Delta(S_i)$ is nonempty, compact, and convex — a finite product of simplices.
+2. $BR_i(\sigma_{-i})$ is nonempty for every $\sigma_{-i}$: it is the argmax of a continuous
+   function ($u_i$ is a polynomial — multilinear — in the mixed strategies) over the compact set
+   $\Delta(S_i)$; Weierstrass delivers the maximum.
+3. $BR_i(\sigma_{-i})$ is convex: $u_i(\cdot, \sigma_{-i})$ is *linear* in $\sigma_i$, so mixing
+   two best responses with any weights is again a best response (the expected payoff of a mixture
+   of maximisers is the mixture of the maxima).
+4. $BR_i$ has a closed graph: take $\sigma_{-i}^k \to \sigma_{-i}$ and $s_i^k \in
+   BR_i(\sigma_{-i}^k)$ with $s_i^k \to s_i$; for any $s_i'$, $u_i(s_i^k, \sigma_{-i}^k) \geq
+   u_i(s_i', \sigma_{-i}^k)$ for every $k$, and continuity lets $k \to \infty$ pass the inequality
+   to the limit — so $s_i \in BR_i(\sigma_{-i})$.
+
+Kakutani's theorem then supplies $\sigma^* \in B(\sigma^*)$ — a profile where each player's
+strategy is a best response to the others', which is the definition of Nash equilibrium.
+$\blacksquare$
+
+The proof is worth memorising *structurally*, because almost every existence theorem in economics
+is this proof with different objects: a compact convex strategy space, a correspondence with
+nonempty convex values and closed graph, a fixed-point theorem. What changes across applications
+is which fixed-point theorem the hypotheses support — Kakutani for games and general equilibrium,
+Brouwer when the correspondence is a function, Tarski when it is monotone (supermodular games).
+
+### 5. Finding Equilibria in Practice
+
+For $2 \times 2$ games, indifference is the solvent: in equilibrium, a player who mixes must be
+*indifferent* between the pure strategies she mixes over — otherwise she would not mix. Setting
+the opponent's mix to equalise your payoffs across your supports gives linear equations whose
+solution *is* the equilibrium (support enumeration).
+
+**Worked example (matching pennies).** Payoffs: matching pays $+1/-1$. Let the column player mix
+Heads with probability $q$. Row's payoff to Heads: $2q - 1$; to Tails: $1 - 2q$. Indifference:
+$2q - 1 = 1 - 2q$, so $q = 1/2$. Symmetrically the row player mixes $1/2$. Equilibrium:
+$(1/2, 1/2)$ each — the unique equilibrium, and necessarily mixed.
+
+### 6. Self-test
+
+1. Why does strict (not weak) dominance survive iterated elimination? (§2 — statewise strictness
+   survives restriction of the opponents' profiles; weak dominance can create *new* dominated
+   strategies depending on elimination order.)
+2. Where is linearity of expected payoff used in the existence proof? (§4, steps 3 and 4 —
+   convex values and closed graph both lean on it.)
+3. Why is the mixed equilibrium of matching pennies unique? (§5 — both players' indifference
+   conditions pin a unique mixture.)
+4. What breaks in step 4 (closed graph) if payoffs are discontinuous? (The limit inequality need
+   not pass — which is exactly why games with auctions/discontinuous payoffs need the
+   Reny-style refinements.)

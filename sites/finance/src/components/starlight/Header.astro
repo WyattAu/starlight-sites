@@ -1,0 +1,375 @@
+---
+import ProgressBadge from '../ProgressBadge.tsx'
+import ReviewQueueHost from '../ReviewQueueHost.tsx'
+import ThemeCreator from '../ThemeCreator.tsx'
+
+const { starlightRoute } = Astro.locals
+const title = starlightRoute?.siteTitle || "Notes"
+---
+
+<div class="sl-flex header-inner">
+    <div class="sl-flex title-wrapper">
+      <a href="/" class="site-title-logo">
+        <img src="/favicon.svg" alt="Site icon" role="presentation" width="22" height="22" class="site-title-icon" loading="eager">
+        <span>{title}</span>
+      </a>
+    </div>
+    <div class="sl-flex header-progress print:hidden">
+      <ProgressBadge client:idle />
+      <ThemeCreator client:idle />
+      <!-- ReviewQueueHost pulls in Kobalte's Dialog, which cannot render on
+           the server (solid ssrSpread throws on function props). It renders
+           nothing until opened, so client-only mounting costs nothing. -->
+      <ReviewQueueHost client:only="solid-js" />
+    </div>
+    <div class="sl-flex print:hidden">
+      <div id="custom-search">
+        <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input class="custom-search-input" type="text" autocomplete="off" id="custom-search-input" placeholder="Search all sites..." spellcheck="false">
+        <div class="search-results" id="custom-search-results"></div>
+      </div>
+      <script type="module">
+        (function(){
+          var api = "https://search.wyattau.com/api";
+          var input = document.getElementById("custom-search-input");
+          var results = document.getElementById("custom-search-results");
+          if (!input || !results) return;
+          var timer = null;
+          input.addEventListener("input", function(){
+            clearTimeout(timer);
+            var q = input.value.trim();
+            if (q.length < 2) { results.classList.remove("active"); return; }
+            timer = setTimeout(function(){
+              results.innerHTML = '<div class="search-footer">Searching...</div>';
+              results.classList.add("active");
+              fetch(api + "/search?q=" + encodeURIComponent(q) + "&limit=8")
+                .then(function(r){ return r.json(); })
+                .then(function(data){
+                  if (!data.results || data.results.length === 0) {
+                    results.innerHTML = '<div class="search-footer">No results</div>';
+                    return;
+                  }
+                  results.innerHTML = data.results.map(function(r){
+                    var u = new URL(r.url);
+                    var path = u.pathname.replace(/\/$/, "") || "/";
+                    return '<a class="search-result" href="' + r.url + '" target="_blank" rel="noopener">' +
+                      '<span class="result-site" style="background:' + r.siteColor + '20;color:' + r.siteColor + '">' + esc(r.siteName) + '</span>' +
+                      '<div class="result-title">' + esc(r.title) + '</div>' +
+                      '<div class="result-url">' + u.hostname + path + '</div></a>';
+                  }).join("");
+                }).catch(function(){
+                  results.innerHTML = '<div class="search-footer">Search unavailable</div>';
+                });
+            }, 300);
+          });
+          input.addEventListener("focus", function(){
+            if (input.value.trim().length >= 2) results.classList.add("active");
+          });
+          document.addEventListener("click", function(e){
+            if (!e.target.closest("#custom-search")) results.classList.remove("active");
+          });
+          input.addEventListener("keydown", function(e){
+            if (e.key === "Escape") results.classList.remove("active");
+          });
+          // Keyboard access: Cmd/Ctrl+K or "/" focuses the search input.
+          document.addEventListener("keydown", function(e){
+            var isK = (e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey);
+            var isSlash = e.key === "/" &&
+              !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
+            if (isK || isSlash) {
+              e.preventDefault();
+              input.focus();
+              input.select();
+            }
+          });
+          function esc(s) {
+            if (!s) return "";
+            var d = document.createElement("div");
+            d.textContent = s;
+            return d.innerHTML;
+          }
+        })();
+      </script>
+    </div>
+    <div class="sl-flex print:hidden md:sl-flex right-group">
+      <button class="site-nav-btn" aria-label="Browse all sites" title="Browse all sites" id="site-nav-trigger">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+        </svg>
+        <span>Sites</span>
+      </button>
+      <slot />
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+(function(){
+  var SITES = {
+    'Exam Boards': [
+      { name: 'DSE', url: 'https://dse.wyattau.com' },
+      { name: 'IB', url: 'https://ib.wyattau.com' },
+      { name: 'A-Level', url: 'https://alevel.wyattau.com' },
+      { name: 'GCSE', url: 'https://gcse.wyattau.com' },
+      { name: 'AP', url: 'https://ap.wyattau.com' },
+      { name: 'Highers', url: 'https://highers.wyattau.com' },
+      { name: 'Leaving Cert', url: 'https://leaving-cert.wyattau.com' },
+      { name: 'CBSE', url: 'https://cbse.wyattau.com' },
+      { name: 'Gaokao', url: 'https://gaokao.wyattau.com' },
+      { name: 'HSC', url: 'https://hsc.wyattau.com' },
+      { name: 'SAT', url: 'https://sat.wyattau.com' },
+    ],
+    'Computer Science': [
+      { name: 'C++', url: 'https://cpp.wyattau.com' },
+      { name: 'Java', url: 'https://java.wyattau.com' },
+      { name: 'Python', url: 'https://python.wyattau.com' },
+      { name: 'Rust', url: 'https://rust.wyattau.com' },
+      { name: 'Go', url: 'https://go.wyattau.com' },
+      { name: 'Kotlin', url: 'https://kotlin.wyattau.com' },
+      { name: 'TypeScript', url: 'https://typescript.wyattau.com' },
+      { name: 'Dart', url: 'https://dart.wyattau.com' },
+      { name: 'Swift', url: 'https://swift.wyattau.com' },
+      { name: 'Ruby', url: 'https://ruby.wyattau.com' },
+      { name: 'Haskell', url: 'https://haskell.wyattau.com' },
+      { name: 'Elixir', url: 'https://elixir.wyattau.com' },
+      { name: 'Languages Hub', url: 'https://languages.wyattau.com' },
+      { name: 'Tools', url: 'https://tools.wyattau.com' },
+    ],
+    'Further Studies': [
+      { name: 'Mathematics', url: 'https://mathematics.wyattau.com' },
+      { name: 'Physics', url: 'https://physics.wyattau.com' },
+      { name: 'Chemistry', url: 'https://chemistry.wyattau.com' },
+      { name: 'CS Theory', url: 'https://computer-science.wyattau.com' },
+      { name: 'Admissions', url: 'https://admissions.wyattau.com' },
+    ],
+    'Infrastructure': [
+      { name: 'Networking', url: 'https://networking.wyattau.com' },
+      { name: 'Linux', url: 'https://linux.wyattau.com' },
+      { name: 'Security', url: 'https://security.wyattau.com' },
+      { name: 'Databases', url: 'https://databases.wyattau.com' },
+      { name: 'TrueNAS', url: 'https://truenas.wyattau.com' },
+      { name: 'Tuning', url: 'https://tuning.wyattau.com' },
+      { name: 'Licensing', url: 'https://licensing.wyattau.com' },
+      { name: 'ML', url: 'https://machine-learning.wyattau.com' },
+    ],
+  };
+  var cats = Object.keys(SITES);
+  var catSvg = {
+    'Exam Boards': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>',
+    'Computer Science': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>',
+    'Further Studies': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>',
+    'Infrastructure': '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></svg>',
+  };
+  var overlay = null;
+  function build() {
+    var el = document.createElement('div');
+    el.id = 'site-nav-overlay';
+    el.setAttribute('aria-hidden', 'true');
+    el.innerHTML = '<div class="site-nav-backdrop"></div><div class="site-nav-panel" role="dialog" aria-label="Site navigator">' +
+      '<div class="site-nav-header"><h2>All Sites</h2><button class="site-nav-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>' +
+      '<div class="site-nav-body">' +
+      cats.map(function(cat) {
+        return '<div class="site-nav-category"><div class="site-nav-cat-header">' + (catSvg[cat]||'') + '<span>' + cat + '</span></div><div class="site-nav-grid">' +
+          SITES[cat].map(function(s) {
+            return '<a href="' + s.url + '" class="site-nav-card" target="_blank" rel="noopener"><strong>' + s.name + '</strong></a>';
+          }).join('') + '</div></div>';
+      }).join('') + '</div></div>';
+    document.body.appendChild(el);
+    return el;
+  }
+  function open() { if (!overlay) overlay = build(); overlay.setAttribute('aria-hidden', 'false'); document.body.classList.add('site-nav-open'); }
+  function close() { if (overlay) overlay.setAttribute('aria-hidden', 'true'); document.body.classList.remove('site-nav-open'); }
+  document.addEventListener('click', function(e) {
+    var trigger = document.getElementById('site-nav-trigger');
+    if (trigger && (e.target === trigger || trigger.contains(e.target))) { e.stopPropagation(); open(); return; }
+    if (overlay && overlay.getAttribute('aria-hidden') === 'false') {
+      if (e.target.closest('.site-nav-close') || e.target.closest('.site-nav-backdrop')) close();
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay && overlay.getAttribute('aria-hidden') === 'false') {
+      close();
+      var t = document.getElementById('site-nav-trigger');
+      if (t) t.focus();
+    }
+  });
+})();
+</script>
+
+<style>
+  .site-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--sl-color-text-accent, var(--sl-color-white));
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: all 140ms ease;
+  }
+  .site-nav-btn:hover {
+    background: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 10%, transparent);
+    border-color: color-mix(in srgb, var(--sl-color-accent, #ff6b35) 20%, transparent);
+  }
+</style>
+
+<style is:global>
+  /*
+   * The header ships with no stylesheet at all: none of the classes below are
+   * defined in any site stylesheet, so the search icon rendered at the SVG
+   * default of 300x150 (a giant magnifying glass across the hero) and the
+   * search input floated unstyled mid-page. These rules are global because the
+   * search results are injected by script at runtime and never receive Astro's
+   * scope attribute.
+   */
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+  .site-title-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--sl-color-white, inherit);
+  }
+  .site-title-logo span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .site-title-icon {
+    width: 22px;
+    height: 22px;
+    flex: none;
+  }
+  .header-progress {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #custom-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  #custom-search .search-icon {
+    width: 15px;
+    height: 15px;
+    flex: none;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+  .custom-search-input {
+    width: 15rem;
+    max-width: 38vw;
+    padding: 0.4rem 0.65rem;
+    font: inherit;
+    font-size: 0.85rem;
+    color: var(--sl-color-white, inherit);
+    background: var(--sl-color-bg-nav, transparent);
+    border: 1px solid var(--sl-color-hairline-shade, #3a3a3a);
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 140ms ease;
+  }
+  .custom-search-input:focus {
+    border-color: var(--sl-color-accent, #ff6b35);
+  }
+  .search-results {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    right: 0;
+    width: 22rem;
+    max-width: 82vw;
+    max-height: 24rem;
+    overflow-y: auto;
+    display: none;
+    background: var(--sl-color-bg, #17150f);
+    border: 1px solid var(--sl-color-hairline-shade, #333);
+    border-radius: 0.6rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+    z-index: 60;
+  }
+  .search-results.active {
+    display: block;
+  }
+  .search-result {
+    display: block;
+    padding: 0.55rem 0.75rem;
+    text-decoration: none;
+    color: var(--sl-color-text, inherit);
+    border-bottom: 1px solid var(--sl-color-hairline-shade, #2a2a2a);
+  }
+  .search-result:last-child {
+    border-bottom: none;
+  }
+  .search-result:hover {
+    background: rgba(255, 255, 255, 0.06);
+  }
+  .result-site {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border-radius: 999px;
+    margin-right: 0.45rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .result-title {
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .search-footer {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+
+  /* On a phone the header holds the site title, the progress widgets, this
+     search field and Starlight's own search trigger in 390px. The field does
+     not fit, and squeezing it produced two overlapping search boxes. The
+     input collapses to an icon-width field that expands on focus, which keeps
+     search reachable without breaking the bar. */
+  @media (max-width: 48rem) {
+    .header-inner {
+      gap: 0.5rem;
+      padding: 0 0.75rem;
+    }
+    .title-wrapper span {
+      display: none; /* the icon alone identifies the site */
+    }
+    /* Starlight supplies its own working search on small screens; rendering
+       this one as well put two overlapping search boxes across a 390px bar. */
+    #custom-search {
+      display: none;
+    }
+  }
+</style>
