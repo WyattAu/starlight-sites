@@ -641,7 +641,7 @@ $$
 
 **(c)** In a class of 40 students: 18 study Mathematics, 15 study Physics, 12 study Chemistry, 7
 study both Mathematics and Physics, 5 study both Mathematics and Chemistry, 4 study both Physics and
-Chemistry, and 2 study all three subjects. A student is chosen at random. Find the probability that
+chemistry, and 2 study all three subjects. A student is chosen at random. Find the probability that
 the student studies exactly one of the three subjects.
 
 **(d)** A student claims that if $\mathrm{P}(A \cup B) = \mathrm{P}(A) + \mathrm{P}(B)$ Then $A$ and

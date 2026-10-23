@@ -20,7 +20,7 @@ categories: [Mathematics]
 ## Hypothesis Testing (Extended Treatment)
 
 This document provides a rigorous treatment of hypothesis testing methodology, including null and
-Alternative hypotheses, significance levels, Type I and II errors, one-tailed and two-tailed tests,
+alternative hypotheses, significance levels, Type I and II errors, one-tailed and two-tailed tests,
 And critical regions.
 
 :::note
@@ -37,7 +37,7 @@ The **null hypothesis** $H_0$ is the default assumption -- a statement of "no ef
 difference." It is assumed to be true unless the evidence is sufficiently compelling to reject It.
 
 The **alternative hypothesis** $H_1$ specifies what we believe might be true instead. It is only
-Accepted if the evidence against $H_0$ is strong enough.
+accepted if the evidence against $H_0$ is strong enough.
 
 ### 1.2 Test statistic
 
@@ -48,7 +48,7 @@ Coefficients.
 ### 1.3 Significance level
 
 The **significance level** $\alpha$ is the maximum probability of rejecting $H_0$ when it is
-Actually true. Common values are $\alpha = 0.05$ (5%), $\alpha = 0.01$ (1%), and $\alpha = 0.10$
+actually true. Common values are $\alpha = 0.05$ (5%), $\alpha = 0.01$ (1%), and $\alpha = 0.10$
 (10%).
 
 ### 1.4 The decision rule
@@ -166,7 +166,7 @@ A **one-tailed test** is used when $H_1$ specifies a direction:
 - $H_1: \mu \lt \mu_0$ (lower-tailed): critical region in the lower tail.
 
 The entire significance level $\alpha$ is in one tail, making it easier to detect an effect in the
-Specified direction.
+specified direction.
 
 ### 3.2 Two-tailed tests
 
@@ -282,7 +282,7 @@ $P(X \geq 6) = 1 - P(X \leq 5) = 1 - 0.9835 = 0.0165 \leq 0.05$
 Critical region: $X \geq 6$. Actual significance level: $1.65\%$.
 
 Since $X = 7 \geq 6$ We **reject** $H_0$. There is sufficient evidence that the call rate has
-Increased.
+increased.
 
 ### 5.4 Worked example: normal critical region
 
@@ -309,7 +309,7 @@ Since $\bar{x} = 248 \gt 247.79$ We do **not** reject $H_0$ at the 1% level.
 ### Problem 1
 
 A die is rolled 30 times and a six appears 9 times. Test at the 5% significance level whether the
-Die is biased towards showing a six.
+die is biased towards showing a six.
 
 <details>
 <summary>Solution</summary>
@@ -357,7 +357,7 @@ hours.
 
 The number of accidents per week at a factory is thought to follow a Poisson distribution with
 mean 3. In a particular week, 8 accidents occur. Test at the 5% level whether the accident rate has
-Increased.
+increased.
 
 <details>
 <summary>Solution</summary>
@@ -379,7 +379,7 @@ increased.
 
 In a hypothesis test with $H_0: p = 0.4$ and $H_1: p \gt 0.4$ based on a sample of size 20, Find:
 (a) the critical region at the 5% level; (b) the actual significance level; (c) the Probability of a
-Type II error if the true $p = 0.6$.
+type II error if the true $p = 0.6$.
 
 <details>
 <summary>Solution</summary>

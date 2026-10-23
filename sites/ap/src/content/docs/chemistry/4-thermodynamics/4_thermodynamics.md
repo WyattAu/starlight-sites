@@ -102,7 +102,7 @@ $\mathrm{C(graphite)$ Not $\mathrm{C(diamond)$.
 ### Hess's Law
 
 The total enthalpy change for a reaction is the same regardless of the pathway. If a reaction can be
-Written as the sum of several steps:
+written as the sum of several steps:
 
 $$
 \Delta H_{\mathrm{total} = \Delta H_1 + \Delta H_2 + \cdots
@@ -245,14 +245,14 @@ High specific heat capacity because hydrogen bonds must be broken to increase it
 ### Coffee-Cup Calorimetry (Constant Pressure)
 
 Measures $\Delta H$ of reactions in solution. The calorimeter is open to the atmosphere, so $P$ is
-Constant.
+constant.
 
 $$
 Q_{\mathrm{rxn} = -q_{\mathrm{solution} = -(m_{\mathrm{solution} \cdot c_{\mathrm{solution} \cdot \Delta T)
 $$
 
 The negative sign ensures that if the solution temperature increases ($\Delta T \gt 0$), the
-Reaction is exothermic ($q_{\mathrm{rxn} \lt 0$).
+reaction is exothermic ($q_{\mathrm{rxn} \lt 0$).
 
 ### Bomb Calorimetry (Constant Volume)
 
@@ -286,7 +286,7 @@ $\Delta U$.
 ### Worked Example: Bomb Calorimetry with $\Delta H$ Conversion
 
 A bomb calorimeter with $C_{\mathrm{cal} = 894 \mathrm{ J/K$ is used to determine the enthalpy of
-Combustion of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$). Burning $1.00 \mathrm{ g$ raises The
+combustion of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$). Burning $1.00 \mathrm{ g$ raises The
 temperature by $3.02 \mathrm{ K$. Calculate $\Delta U$ and $\Delta H$ per mole.
 
 Molar mass of glucose: $180.16 \mathrm{ g/mol$.
@@ -309,7 +309,7 @@ $$
 $$
 
 (Literature value: $-2803 \mathrm{ kJ/mol$. The difference is due to the calorimeter containing a
-Solution rather than pure water.)
+solution rather than pure water.)
 :::
 
 :::note[Example]
@@ -340,7 +340,7 @@ $$
 ### Entropy ($S$)
 
 Entropy is a measure of disorder or randomness at the molecular level. More precisely, it is a
-Measure of the number of microstates available to a system.
+measure of the number of microstates available to a system.
 
 The second law states that the entropy of the universe increases for any spontaneous process:
 
@@ -382,7 +382,7 @@ Entropy because they are not perfect crystals at absolute zero under standard co
 ### The Third Law of Thermodynamics
 
 The entropy of a perfect crystal at absolute zero ($0 \mathrm{ K$) is zero. This provides an
-Absolute reference point for entropy, unlike enthalpy.
+absolute reference point for entropy, unlike enthalpy.
 
 ### Worked Example: Standard Entropy Calculation
 
@@ -445,7 +445,7 @@ $$
 $$
 
 The Gibbs free energy combines enthalpy and entropy into a single criterion for spontaneity. A
-Negative $\Delta G$ means the process is spontaneous at constant temperature and pressure.
+negative $\Delta G$ means the process is spontaneous at constant temperature and pressure.
 
 ### Spontaneity at Constant Temperature and Pressure
 
@@ -484,7 +484,7 @@ Where $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ and $K$ is the equilibrium cons
 </div>
 
 This equation bridges thermodynamics and equilibrium: the equilibrium constant is determined by the
-Standard free energy change.
+standard free energy change.
 
 ### Derivation: Non-Standard Gibbs Free Energy
 
@@ -804,7 +804,7 @@ For the reaction
 $\mathrm{NH_4\mathrm{NO_3(s) \to \mathrm{N_2\mathrm{O(g) + 2\mathrm{H_2\mathrm{O(g)$
 $\Delta H^\circ = -36.0 \mathrm{ kJ/mol$ and $\Delta S^\circ = 347 \mathrm{ J/(mol\cdot K)$.
 Calculate $\Delta G^\circ$ at $298 \mathrm{ K$ and determine the temperature range over which the
-Reaction is spontaneous.
+reaction is spontaneous.
 
 </details>
 
@@ -832,7 +832,7 @@ when $\Delta S$ is positive.
 A $50.0 \mathrm{ g$ sample of an unknown metal is heated to $100.0^\circ\mathrm{C$ and then placed
 in $100.0 \mathrm{ g$ of water at $25.0^\circ\mathrm{C$ in a coffee-cup calorimeter. The final
 Temperature of the mixture is $28.8^\circ\mathrm{C$. Calculate the specific heat capacity of the
-Metal. Assume no heat loss to the calorimeter.
+metal. Assume no heat loss to the calorimeter.
 
 </details>
 
@@ -850,7 +850,7 @@ Setting equal: $1589.9 = 50.0 \times c_{\mathrm{metal} \times 71.2$.
 $c_{\mathrm{metal} = 1589.9 / 3560 = 0.447 \mathrm{ J/(g\cdot^\circ\mathrm{C)}$.
 
 This value is close to that of iron ($0.449 \mathrm{ J/(g\cdot^\circ\mathrm{C)}$), suggesting the
-Unknown metal may be iron.
+unknown metal may be iron.
 
 </details>
 

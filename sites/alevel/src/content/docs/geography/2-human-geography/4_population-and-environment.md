@@ -289,7 +289,7 @@ Four dimensions:
   depletion, soil degradation, pesticide pollution, and loss of crop genetic diversity.
 - **Genetic modification (GM)**: Crops engineered for pest resistance (Bt cotton), herbicide
   tolerance, drought tolerance, and nutritional enhancement (Golden Rice with vitamin A).
-  Controversial, concerns about ecological impacts, corporate control of seed supply, and consumer
+  controversial, concerns about ecological impacts, corporate control of seed supply, and consumer
   safety.
 - **Precision agriculture**: GPS-guided equipment, drone monitoring, and data analytics to optimise
   inputs and yields. Reduces waste and environmental impact.

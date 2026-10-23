@@ -22,7 +22,7 @@ description: "Poetry is the most compressed and technically demanding literary f
 Poetry is the most compressed and technically demanding literary form. Every word, every line break,
 Every sound pattern carries weight in a way that is not true of prose. This density is what makes
 Poetry both rewarding and challenging to analyse: there is always more to discover, but the
-Discoveries must be earned through careful, systematic attention to the text"s formal features.
+discoveries must be earned through careful, systematic attention to the text"s formal features.
 
 ---
 
@@ -40,18 +40,18 @@ Discoveries must be earned through careful, systematic attention to the text"s f
 Poetry is a common text type across all components of the IB English assessment. It appears
 Frequently in Paper 1 (unseen passages), in Part 2 (Detailed Study), and in Part 4 (Critical Study).
 The IB selects poetry because it rewards precisely the kind of close, sustained attention to
-Language that the course is designed to develop.
+language that the course is designed to develop.
 
 Poetry is also the literary form in which the relationship between form and content is most
-Immediately apparent. In prose, form is often invisible -- the reader is carried forward by the
-Narrative and may not notice the syntactic patterns, rhythmic structures, and figurative devices
+immediately apparent. In prose, form is often invisible -- the reader is carried forward by the
+narrative and may not notice the syntactic patterns, rhythmic structures, and figurative devices
 that shape their experience. In poetry, form is foregrounded: the stanza breaks, the rhyme scheme,
 The line breaks, and the sound patterns are impossible to ignore. This foregrounding makes poetry an
-Ideal training ground for the analytical skills that transfer to all other literary forms.
+ideal training ground for the analytical skills that transfer to all other literary forms.
 
 The practical consequence is straightforward: a student who can analyse poetry well can analyse any
-Text. The precision required for poetic analysis -- attention to individual words, sensitivity to
-Sound and rhythm, awareness of structural patterns -- is the same precision that produces excellent
+text. The precision required for poetic analysis -- attention to individual words, sensitivity to
+sound and rhythm, awareness of structural patterns -- is the same precision that produces excellent
 Analysis of prose, drama, and non-literary texts.
 
 ---
@@ -70,8 +70,8 @@ Analysis of prose, drama, and non-literary texts.
 Understanding the formal conventions of poetry is essential because poets write within and against
 those conventions. A sonnet that does not resolve its volta, a villanelle that breaks its refrain
 Pattern, a free verse poem that nevertheless falls into rhythmic regularity -- all of these are
-Interpretively significant, and you can only recognise their significance if you understand the
-Conventions from which they deviate.
+interpretively significant, and you can only recognise their significance if you understand the
+conventions from which they deviate.
 
 ### 2.1 The Sonnet
 
@@ -96,13 +96,13 @@ There are two primary types:
 - The octave presents a problem, question, or situation; the sestet responds to or resolves it
 
 The sonnet form is inherently dramatic: it establishes a tension and then resolves (or fails to
-Resolve) it within a tightly constrained space. The best sonnet analysis traces this dramatic arc
+resolve) it within a tightly constrained space. The best sonnet analysis traces this dramatic arc
 and explains how the formal features (rhyme, meter, line breaks) produce it.
 
 ### 2.2 The Villanelle
 
 The villanelle is a nineteen-line poem with an obsessive, incantatory quality produced by its
-Rigorous repetition pattern:
+rigorous repetition pattern:
 
 - 19 lines: five tercets (3-line stanzas) followed by a final quatrain (4-line stanza)
 - Two refrains: the first and third lines of the first tercet alternate as the final line of each
@@ -112,7 +112,7 @@ Rigorous repetition pattern:
 
 The villanelle's repetition creates a sense of circularity, inevitability, and obsessive return. It
 is particularly effective for poems about loss, memory, and the inability to escape a thought or
-Feeling. Dylan Thomas's "Do not go gentle into that good night" and Sylvia Plath's "Mad Girl's Love
+feeling. Dylan Thomas's "Do not go gentle into that good night" and Sylvia Plath's "Mad Girl's Love
 Song" are canonical examples.
 
 ### 2.3 Free Verse
@@ -134,7 +134,7 @@ the Renaissance to the nineteenth century and is the verse form of Shakespeare's
 _Paradise Lost_, and Wordsworth's _The Prelude_.
 
 Blank verse has a natural, conversational quality that makes it suitable for sustained narrative and
-Dramatic speech. Its metrical regularity provides an underlying rhythm that the poet can accentuate,
+dramatic speech. Its metrical regularity provides an underlying rhythm that the poet can accentuate,
 Vary, or disrupt for effect. Analysis of blank verse should attend to moments where the iambic
 Pattern is broken (trochaic substitutions, spondees, feminine endings) and explain the significance
 of those breaks.
@@ -156,7 +156,7 @@ Compression and directness make them particularly effective for conveying emotio
 ### 2.6 The Ode
 
 The ode is a formal lyric poem that addresses and celebrates a particular subject. There are two
-Main types:
+main types:
 
 - **Pindaric ode:** Three sections (strophe, antistrophe, epode) with complex metrical patterns.
   Named after the Greek poet Pindar, it is grand and ceremonial in tone.
@@ -177,7 +177,7 @@ conventional structure:
 3. Consolation: philosophical or religious reflection on the nature of death and loss
 
 Not all elegies follow this structure rigidly, but the movement from grief to consolation (or the
-Refusal of consolation) is characteristic of the form. Milton's "Lycidas," Shelley's "Adonais," and
+refusal of consolation) is characteristic of the form. Milton's "Lycidas," Shelley's "Adonais," and
 Tennyson's "In Memoriam" are major English elegies.
 
 ### 2.8 The Haiku
@@ -219,14 +219,14 @@ must attend to the specific sensory details and the gap between what is said and
 The following framework provides a systematic approach to analysing any poem. It is not a checklist
 to be completed mechanically but a set of lenses through which to examine the text. Not every lens
 will be equally productive for every poem; the skill lies in identifying which features are most
-Significant for the specific poem you are analysing.
+significant for the specific poem you are analysing.
 
 ### 3.1 Form and Structure
 
 **Stanza.** A stanza is a grouped set of lines, separated from other stanzas by a blank line. The
 Stanza is the basic structural unit of most poetry, and its form carries meaning. Regular stanzas
 Suggest order, control, and resolution. Irregular stanzas suggest disruption, instability, or the
-Refusal of closure. A poem that begins with regular stanzas and becomes irregular enacts a formal
+refusal of closure. A poem that begins with regular stanzas and becomes irregular enacts a formal
 Analogue of its thematic content.
 
 **Meter.** Meter is the pattern of stressed and unstressed syllables in a line of poetry. The most
@@ -264,12 +264,12 @@ Meter is conventionally described by the number of feet per line:
 Iambic pentameter (five iambs per line, ten syllables total) is the most common meter in English
 Poetry. When analysing meter, attend to deviations from the expected pattern: a trochaic
 Substitution in an iambic line, a feminine ending (an extra unstressed syllable), or a caesura (a
-Metrical pause within a line). These deviations are never accidental; they create emphasis,
+metrical pause within a line). These deviations are never accidental; they create emphasis,
 Disruption, or a shift in the poem's rhythmic energy.
 
 **Rhyme Scheme.** The rhyme scheme is the pattern of end-rhymes in a poem, designated by letters
 (AABB, ABAB, ABBA, etc.). Rhyme creates connections between lines, grouping them into pairs or
-Larger units. It also creates expectations: once a rhyme scheme is established, the reader
+larger units. It also creates expectations: once a rhyme scheme is established, the reader
 Anticipates its continuation, and any deviation from that expectation is interpretively significant.
 
 **Enjambment.** Enjambment occurs when a sentence or clause continues from one line to the next
@@ -283,24 +283,24 @@ more rhythmic units. The placement of the caesura affects the line's emphasis an
 
 **Volta.** The volta (Italian for "turn") is a shift in the poem's argument, tone, or perspective.
 In the sonnet, the volta is a prescribed structural feature; in other forms, it may occur at any
-Point. The volta is the moment of maximum dramatic tension in the poem -- the point at which the
-Established pattern is disrupted and a new direction is taken.
+point. The volta is the moment of maximum dramatic tension in the poem -- the point at which the
+established pattern is disrupted and a new direction is taken.
 
 ### 3.2 Sound Devices
 
 Sound in poetry is not decorative; it is a primary carrier of meaning. The sound of a poem -- its
-Rhythm, its consonant and vowel patterns, its silences -- shapes the reader's experience as directly
+rhythm, its consonant and vowel patterns, its silences -- shapes the reader's experience as directly
 as its imagery or argument.
 
 **Alliteration.** The repetition of initial consonant sounds in closely positioned words.
 Alliteration creates sonic cohesion, linking words that share a sound and thereby suggesting a
-Thematic connection. It can also create onomatopoeic effects (the repetition of "s" sounds
+thematic connection. It can also create onomatopoeic effects (the repetition of "s" sounds
 Suggesting snake-like movement or whispering) or emphasis (drawing attention to key words through
-Sonic repetition).
+sonic repetition).
 
 **Assonance.** The repetition of vowel sounds in closely positioned words. Assonance creates a
 Subtle, underlying sonic pattern that links words without the more obvious effect of rhyme. It can
-Create a mood (the repetition of long "o" sounds suggesting melancholy or contemplation) or draw
+create a mood (the repetition of long "o" sounds suggesting melancholy or contemplation) or draw
 Attention to specific words.
 
 **Consonance.** The repetition of consonant sounds, particularly at the ends of words. Consonance is
@@ -308,37 +308,37 @@ Often used in combination with assonance to create complex sound patterns.
 
 **Onomatopoeia.** The use of words that imitate the sounds they describe (e.g., "buzz," "hiss,"
 "crack," "murmur"). Onomatopoeia creates a direct sensory connection between the word and its
-Referent, collapsing the distance between language and the thing it represents.
+referent, collapsing the distance between language and the thing it represents.
 
 **Rhythm.** The overall pattern of stresses and pauses in a poem. Rhythm is produced by the
 Interaction of meter (the expected pattern), variations in stress, enjambment, caesura, and line
 Length. The rhythm of a poem is its most fundamental sonic feature and is felt before it is
-Analysed. When writing about rhythm, describe the effect it produces (urgency, calm, disruption,
+analysed. When writing about rhythm, describe the effect it produces (urgency, calm, disruption,
 Regularity) and connect that effect to the poem's thematic concerns.
 
 ### 3.3 Figurative Language
 
 Figurative language is the primary means by which poetry creates meaning beyond the literal. The
-Following are the most common figures of speech encountered in IB English poetry:
+following are the most common figures of speech encountered in IB English poetry:
 
 **Metaphor.** A direct comparison between two unlike things without using "like" or "as." The
 Metaphor asserts that one thing _is_ another, creating a conceptual fusion that generates new
 Meaning. When analysing a metaphor, identify the tenor (the thing being described), the vehicle (the
-Image used to describe it), and the ground (what the tenor and vehicle have in common).
+image used to describe it), and the ground (what the tenor and vehicle have in common).
 
 **Simile.** A comparison using "like" or "as." Similes are explicit and transparent in a way that
 Metaphors are not; they invite the reader to consider the specific points of similarity between the
-Two things being compared. The choice of simile over metaphor is itself significant: it creates
+two things being compared. The choice of simile over metaphor is itself significant: it creates
 Distance between the compared items, inviting comparison rather than identification.
 
 **Personification.** The attribution of human qualities to non-human entities. Personification
 Animates the inanimate world, creating a sense of intimacy or moral significance. When analysing
 Personification, consider what specific human qualities are attributed and what the effect of that
-Attribution is.
+attribution is.
 
 **Hyperbole.** Deliberate exaggeration for effect. Hyperbole creates emphasis, intensity, or irony.
 It is the opposite of understatement (litotes) and should be analysed in terms of what the
-Exaggeration reveals about the speaker's attitude or emotional state.
+exaggeration reveals about the speaker's attitude or emotional state.
 
 **Litotes.** Deliberate understatement, often using double negation ("not unkind," "no ordinary
 Achievement"). Litotes creates irony, restraint, or a sense that the actual situation exceeds
@@ -350,7 +350,7 @@ the whole, suggesting that the part is representative or essential.
 
 **Metonymy.** A figure of speech in which something is referred to by an associated attribute rather
 Than by its name (e.g., "the Crown" for the monarchy, "the pen" for writing). Metonymy creates a
-Compact, associative connection between the word and its referent.
+compact, associative connection between the word and its referent.
 
 **Paradox.** A statement that appears self-contradictory but contains a deeper truth. Paradox
 Creates intellectual tension, forcing the reader to hold two apparently incompatible ideas in mind
@@ -385,7 +385,7 @@ which senses are invoked and explain why the poet has chosen those particular se
 </div>
 
 The most effective imagery operates on multiple sensory channels simultaneously, creating an
-Immersive experience that engages the reader's body as well as their intellect. When a poem shifts
+immersive experience that engages the reader's body as well as their intellect. When a poem shifts
 from one sensory mode to another, the shift is interpretively significant: it may mark a transition
 in tone, perspective, or thematic focus.
 
@@ -404,8 +404,8 @@ Choices, not stated directly. Common tonal categories include:
 - Colloquial: informal, conversational, everyday
 
 Tone is not fixed across a poem. A poem may shift tone, and these shifts are among the most
-Interpretively significant features of the text. A poem that begins with ironic detachment and
-Concludes with genuine grief enacts a dramatic arc through tonal shift alone.
+interpretively significant features of the text. A poem that begins with ironic detachment and
+concludes with genuine grief enacts a dramatic arc through tonal shift alone.
 
 **Mood** is the emotional atmosphere the poem creates for the reader. Mood is the effect of tone,
 Imagery, rhythm, and sound working together. It is what the poem feels like, as distinct from what
@@ -428,7 +428,7 @@ of identity that the poet has created for specific purposes.
 - What does the speaker want? What are they trying to achieve through the act of speaking?
 
 The **addressee** is the person or entity to whom the poem is directed. The addressee may be
-Explicit (named in the poem) or implicit (suggested by the language and tone). The relationship
+explicit (named in the poem) or implicit (suggested by the language and tone). The relationship
 between speaker and addressee is a primary source of dramatic tension in many poems.
 
 <div class="table-wrap">
@@ -450,12 +450,12 @@ Context in poetry analysis encompasses four dimensions:
 
 **Biographical context.** The poet's life experience and how it may have shaped the poem. This
 Includes the poet's personal relationships, historical circumstances, and psychological state at the
-Time of composition. Biographical context is valuable when it can be shown to shape specific formal
+time of composition. Biographical context is valuable when it can be shown to shape specific formal
 Choices in the poem; it is decorative when it merely provides background.
 
 **Historical context.** The political, social, and cultural conditions in which the poem was
 Written. Historical context illuminates the poem's references, its ideological commitments, and the
-Audience it was written for. Wilfred Owen's war poetry, for example, cannot be fully understood
+audience it was written for. Wilfred Owen's war poetry, for example, cannot be fully understood
 without knowledge of the First World War; Emily Dickinson's poetry cannot be fully understood
 without knowledge of nineteenth-century American Protestant culture.
 
@@ -504,8 +504,8 @@ In the final stanza enacts the speaker's loss of control over grief, suggesting 
 A process that can be contained within formal structures but one that ultimately overwhelms them."
 
 This is strong because it identifies a specific formal feature (the metrical shift), explains its
-Mechanism (the disruption of regular rhythm enacts loss of control), and connects it to a
-Significant interpretive claim (grief overwhelms formal containment).
+mechanism (the disruption of regular rhythm enacts loss of control), and connects it to a
+significant interpretive claim (grief overwhelms formal containment).
 
 ### 4.2 Choosing Evidence
 
@@ -540,11 +540,11 @@ Until the soil gave out'' (lines 14--17)."
 **Analysis.** Explain how the evidence produces the effect identified in the point. This is the core
 Of the paragraph. Analysis must explain the mechanism: how does enjambment, in this specific
 Instance, create the sense of overflow? What is the relationship between the line breaks and the
-Semantic content? Example: "The enjambment between "planted' and 'year after year' forces the reader
+semantic content? Example: "The enjambment between "planted' and 'year after year' forces the reader
 to carry the image of the roses across the line break, creating a forward momentum that mirrors the
-Cumulative, unstoppable passage of time. The line break between 'complaint' and 'until' similarly
+cumulative, unstoppable passage of time. The line break between 'complaint' and 'until' similarly
 Delays the revelation of the soil's exhaustion, structuring the reader's experience of loss as a
-Gradual, then sudden, recognition."
+gradual, then sudden, recognition."
 
 **Link.** Connect the paragraph's finding back to the thesis and to the guiding question (in Paper
 1). Example: "The formal technique of enjambment thus becomes a vehicle for the poem's central
@@ -556,7 +556,7 @@ to articulate it."
 
 The feature-spotting trap is the single greatest danger in poetry analysis. It occurs when a student
 Writes a paragraph for each literary device identified ("In this poem there is metaphor," "In this
-Poem there is alliteration," "In this poem there is enjambment") without establishing an overall
+poem there is alliteration," "In this poem there is enjambment") without establishing an overall
 Argument that connects these observations.
 
 **The solution:** Organise the essay by interpretive claim, not by literary device. Each paragraph
@@ -623,7 +623,7 @@ Framework in action.
 ### 5.2 Form
 
 Sonnet 73 is a Shakespearean sonnet: fourteen lines in iambic pentameter, divided into three
-Quatrains and a final couplet, with the rhyme scheme ABAB CDCD EFEF GG.
+quatrains and a final couplet, with the rhyme scheme ABAB CDCD EFEF GG.
 
 ### 5.3 Analysis
 
@@ -633,22 +633,22 @@ The poem is structured around three central metaphors, each occupying a quatrain
 Year thou mayst in me behold / When yellow leaves, or none, or few, do hang." The progression from
 "yellow leaves" to "none, or few" enacts the process of decay within a single line, creating a sense
 of accelerating loss. The image of "bare ruin'd choirs" is the quatrain's most striking moment. The
-Metaphor compares leafless branches to the ruined choir stalls of a dissolved monastery (a reference
+metaphor compares leafless branches to the ruined choir stalls of a dissolved monastery (a reference
 to Henry VIII's dissolution of the monasteries, which Shakespeare's original audience would have
-Recognised). The comparison introduces a layer of cultural and historical loss beneath the personal
+recognised). The comparison introduces a layer of cultural and historical loss beneath the personal
 Metaphor of aging: the "bare ruin'd choirs" are not merely tree branches but the remnants of a
-Communal, spiritual practice that has been destroyed by political power. The word "late" in "where
-Late the sweet birds sang" carries a double meaning: "recently" and "too late," suggesting both the
-Proximity and the irreversibility of the loss.
+communal, spiritual practice that has been destroyed by political power. The word "late" in "where
+late the sweet birds sang" carries a double meaning: "recently" and "too late," suggesting both the
+proximity and the irreversibility of the loss.
 
 **Quatrain 2 (lines 5--8): The Day.** The speaker compares himself to twilight: "In me thou see'st
 The twilight of such day." The temporal metaphor shifts from the seasonal (a year) to the diurnal (a
-Day), compressing the time scale and intensifying the sense of imminent ending. The progression
+day), compressing the time scale and intensifying the sense of imminent ending. The progression
 "after sunset fadeth in the west, / Which by and by black night doth take away" creates a spatial
 Metaphor for temporal passage: the sun moves from east to west, and darkness advances from the
-Horizon inward. The personification of night as "Death's second self" equates sleep with death, a
-Conventional Renaissance trope, but the phrase "seals up all in rest" suggests finality rather than
-Mere suspension: to be "sealed up" is to be enclosed, contained, and rendered permanent.
+horizon inward. The personification of night as "Death's second self" equates sleep with death, a
+conventional Renaissance trope, but the phrase "seals up all in rest" suggests finality rather than
+mere suspension: to be "sealed up" is to be enclosed, contained, and rendered permanent.
 
 **Quatrain 3 (lines 9--12): The Fire.** The speaker compares himself to a dying fire: "In me thou
 See'st the glowing of such fire / That on the ashes of his youth doth lie." The metaphor shifts from
@@ -656,16 +656,16 @@ the external world (seasons, day) to the internal (fire, the elemental), and the
 of its own fuel creates a paradox of self-destruction. The fire is "consumed with that which it was
 Nourish'd by" -- the very material that sustained it is what destroys it. This is the poem's most
 Philosophically dense image, suggesting that the process of living is simultaneously the process of
-Dying, and that the self is not a stable entity but a process of continuous consumption and
-Transformation.
+dying, and that the self is not a stable entity but a process of continuous consumption and
+transformation.
 
 **Couplet (lines 13--14): The Turn.** The volta occurs at the couplet, where the poem's direction
 Shifts from the speaker's self-description to the addressee's response: "This thou perceiv'st, which
-Makes thy love more strong, / To love that well which thou must leave ere long." The couplet
+makes thy love more strong, / To love that well which thou must leave ere long." The couplet
 Reframes the entire poem: the three metaphors of decay are not merely expressions of the speaker's
 Melancholy but are deliberately presented to the addressee in order to intensify their love. The
-Knowledge of imminent loss makes love "more strong" -- a paradox that the poem does not resolve but
-Asserts. The phrase "ere long" (before long) is deliberately vague, refusing to specify the time
+knowledge of imminent loss makes love "more strong" -- a paradox that the poem does not resolve but
+asserts. The phrase "ere long" (before long) is deliberately vague, refusing to specify the time
 Remaining and thereby maintaining the tension between the immediate and the indefinite.
 
 ### 5.4 Structural Patterns
@@ -683,23 +683,23 @@ The poem's three quatrains follow a pattern of progressive internalisation:
 </div>
 
 This progression moves from the public and observable (the changing of seasons) to the private and
-Subjective (the dying of an inner fire), enacting the speaker's withdrawal from the external world
+subjective (the dying of an inner fire), enacting the speaker's withdrawal from the external world
 into the interior of the self. The couplet then reverses this movement, reaching outward to the
-Addressee and re-establishing the interpersonal connection that the three quatrains have threatened
+addressee and re-establishing the interpersonal connection that the three quatrains have threatened
 to sever.
 
 ### 5.5 Sound and Rhythm
 
 The poem's iambic pentameter is consistently maintained, but Shakespeare creates variation through
-Specific metrical choices. The phrase "bare ruin'd choirs" (line 4) contains a potential spondee on
+specific metrical choices. The phrase "bare ruin'd choirs" (line 4) contains a potential spondee on
 "bare ruin'd," slowing the line and creating a heavy, weighted sound that mirrors the image of
-Collapsed architecture. The repeated use of sibilance ("see'st," "sunset," "west," "seals") in the
-Second quatrain creates a hushed, whispering quality that mimics the fading of light.
+collapsed architecture. The repeated use of sibilance ("see'st," "sunset," "west," "seals") in the
+second quatrain creates a hushed, whispering quality that mimics the fading of light.
 
 The rhyme scheme reinforces the poem's structural logic. The ABAB pattern of each quatrain creates
 Two pairs of rhymed lines, and the movement from one pair to the next enacts the poem's progression
 through its three metaphorical frames. The final couplet (GG) provides the sonic resolution that the
-Volta provides structurally: the closure of the rhyme mirrors the closure of the argument.
+volta provides structurally: the closure of the rhyme mirrors the closure of the argument.
 
 ### 5.6 What This Analysis Demonstrates
 
@@ -745,9 +745,9 @@ How the poem's formal features produce that ambiguity as a deliberate effect.
 ### 6.2 Ignoring Form
 
 Many students focus exclusively on the poem's content (what it says) and neglect its form (how it is
-Constructed). This is a serious error in poetry analysis, where form and content are inseparable. A
-Poem's meaning is produced by the interaction of its formal features -- its stanza structure, its
-Meter, its rhyme scheme, its line breaks -- with its semantic content. To ignore form is to ignore
+constructed). This is a serious error in poetry analysis, where form and content are inseparable. A
+poem's meaning is produced by the interaction of its formal features -- its stanza structure, its
+meter, its rhyme scheme, its line breaks -- with its semantic content. To ignore form is to ignore
 Half the poem.
 
 ### 6.3 Paraphrasing Instead of Analysing
@@ -759,18 +759,18 @@ Followed by a brief evaluative comment ("This is a powerful image") has not perf
 ### 6.4 Over-Interpreting
 
 Over-interpretation occurs when a student attributes significance to features that are not
-Meaningfully significant. Not every word in a poem is a symbol; not every sound pattern is
-Deliberately crafted; not every ambiguity is thematically loaded. The test is always: Can this
-Interpretation be supported by evidence from the text, and is it consistent with the poem's overall
+meaningfully significant. Not every word in a poem is a symbol; not every sound pattern is
+deliberately crafted; not every ambiguity is thematically loaded. The test is always: Can this
+interpretation be supported by evidence from the text, and is it consistent with the poem's overall
 Design?
 
 ### 6.5 Neglecting the Conclusion
 
 The conclusion of a poetry analysis essay should not merely summarise the poem or restate the
-Thesis. It should synthesise the essay's findings into a broader statement about the poem's
+thesis. It should synthesise the essay's findings into a broader statement about the poem's
 Significance. What does the analysis reveal about the poet's purposes, the poem's relationship to
 its context, or the larger themes it engages with? A strong conclusion demonstrates that the
-Analysis has produced insight that goes beyond the individual poem.
+analysis has produced insight that goes beyond the individual poem.
 
 ---
 
@@ -787,7 +787,7 @@ Analysis has produced insight that goes beyond the individual poem.
 
 When analysing a poem, work through the following categories systematically. Not every category will
 be equally productive for every poem, but you should consider each before deciding which are most
-Significant.
+significant.
 
 <div class="table-wrap">
 

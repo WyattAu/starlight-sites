@@ -135,7 +135,7 @@ Your answer.
 
 A star topology is most appropriate. Each computer connects to a central switch via its own cable.
 If one cable fails, only that computer is affected. It is easy to add or remove computers. The
-Switch manages traffic efficiently, avoiding collisions.
+switch manages traffic efficiently, avoiding collisions.
 
 ### 1.5 Network Models in Practice
 
@@ -143,7 +143,7 @@ Switch manages traffic efficiently, avoiding collisions.
 Internet. Draw and describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
-Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
+connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
 through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 ## 2. Network Hardware
@@ -178,7 +178,7 @@ Switch is like a person handing a sealed envelope directly to the intended recip
 **Worked Example.** Computer A sends a message to Computer B on a network with a hub. What happens?
 
 The hub receives the message and broadcasts it to ALL ports. Computers C, D, and E also receive the
-Message, even though it was only intended for Computer B. Each computer checks the destination MAC
+message, even though it was only intended for Computer B. Each computer checks the destination MAC
 Address and discards the message if it does not match. This wastes bandwidth on all devices.
 
 ### 2.3 Router vs Switch
@@ -312,7 +312,7 @@ Packet loss.
 
 **When to use UDP.** UDP is appropriate when speed matters more than reliability. A few lost packets
 In a video stream are barely noticeable (a momentary glitch), but waiting for retransmission would
-Cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
+cause visible lag. Similarly, in online gaming, a stale position update is useless -- the game needs
 the most recent data, not old reliable data.
 
 ### 4.3 Protocol Port Numbers
@@ -411,7 +411,7 @@ Like a National Insurance number (it is permanently assigned to you).
 
 Devices on a home LAN use private IP addresses. The router uses **NAT** (Network Address
 Translation) to map private addresses to a single public IP address when communicating with the
-Internet.
+internet.
 
 **Worked Example.** A home network has devices with IP addresses 192.168.1.2, 192.168.1.3, and
 192.168.1.4. The router's public IP is 203.0.113.5. When device 192.168.1.2 sends a request to a web
@@ -492,7 +492,7 @@ Passwords. Even a small change in input produces a completely different hash.
 Prevents it.
 
 In a MITM attack, an attacker intercepts communication between two parties. Without HTTPS, the
-Attacker can read and modify all data. With HTTPS, the browser verifies the server's digital
+attacker can read and modify all data. With HTTPS, the browser verifies the server's digital
 Certificate against a trusted certificate authority (CA). The attacker cannot forge a valid
 Certificate, so the browser warns the user. The encrypted connection ensures the attacker cannot
 Read or modify the data even if they intercept it.
@@ -597,11 +597,11 @@ Data is broken into small packets for transmission across a network. Each packet
 ### 8.3 Encryption for Data Transmission
 
 All data sent over public networks should be encrypted. HTTPS uses TLS (Transport Layer Security) to
-Encrypt web traffic, preventing interception.
+encrypt web traffic, preventing interception.
 
 **Certificate authorities (CAs).** When you visit an HTTPS site, the server presents a digital
 Certificate issued by a trusted CA. The browser verifies this certificate to ensure it is
-Communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
+communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
 
 ### 1.6 Network Models in Practice
 
@@ -609,7 +609,7 @@ Communicating with the genuine server and not an impostor. This prevents man-in-
 Internet. Describe the network topology.
 
 All devices connect to a central switch (star topology). The switch connects to the router, which
-Connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
+connects to the Internet via the ISP. The printer may be connected directly to the switch or shared
 through one of the computers. This is a LAN with a star topology connected to a WAN (the Internet).
 
 **Worked Example.** A school has two buildings, each with 20 computers connected by switches. The
@@ -617,7 +617,7 @@ two Buildings are connected by a fibre optic cable. Describe the topology.
 
 Each building has a LAN with a star topology. The buildings are connected by the fibre optic cable,
 Forming a WAN. Each building has its own switch, and the switches are connected to a router that
-Manages inter-building traffic.
+manages inter-building traffic.
 
 ## 2. Network Hardware
 
@@ -651,7 +651,7 @@ Switch is like a person handing a sealed envelope directly to the intended recip
 **Worked Example.** Computer A sends a message to Computer B on a network with a hub. What happens?
 
 The hub receives the message and broadcasts it to ALL ports. Computers C, D, and E also receive the
-Message, even though it was only intended for Computer B. Each computer checks the destination MAC
+message, even though it was only intended for Computer B. Each computer checks the destination MAC
 Address and discards the message if it does not match. This wastes bandwidth on all devices.
 
 ### 2.3 Router vs Switch
@@ -677,7 +677,7 @@ on a LAN to share a single public IP address.
 ### 2.4 MAC Addresses in Detail
 
 A MAC address is a 48-bit unique identifier assigned to a NIC by the manufacturer. It is written as
-Six pairs of hexadecimal digits: `00:1A:2B:3C:4D:5E`.
+six pairs of hexadecimal digits: `00:1A:2B:3C:4D:5E`.
 
 The first 24 bits (3 bytes) identify the manufacturer (OUI -- Organisationally Unique Identifier).
 The last 24 bits identify the specific device.
@@ -755,11 +755,11 @@ Number of 1s = 5 (odd). Parity bit = 1 (to make total even). Transmitted: 110110
 ### 8.3 Encryption for Data Transmission
 
 All data sent over public networks should be encrypted. HTTPS uses TLS (Transport Layer Security) to
-Encrypt web traffic, preventing interception.
+encrypt web traffic, preventing interception.
 
 **Certificate authorities (CAs).** When you visit an HTTPS site, the server presents a digital
 Certificate issued by a trusted CA. The browser verifies this certificate to ensure it is
-Communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
+communicating with the genuine server and not an impostor. This prevents man-in-the-middle attacks.
 
 ## Additional Practice Questions
 

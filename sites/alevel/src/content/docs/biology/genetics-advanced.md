@@ -1199,7 +1199,7 @@ on the same chromosome, _cis_) with $ppll$ produces:
 $\text{RF} = \frac{50 + 50}{250 + 250 + 50 + 50} = \frac{100}{600} = 16.7\%$.
 
 The genes are 16.7 cM apart. Without linkage, the expected ratio would be 1:1:1:1 (150:150:150:150).
-The excess of parental types and deficiency of recombinant types indicate linkage.
+the excess of parental types and deficiency of recombinant types indicate linkage.
 
 ## 17. Population Genetics: Advanced Problems
 

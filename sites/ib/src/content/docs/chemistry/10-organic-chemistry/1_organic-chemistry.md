@@ -248,7 +248,7 @@ $$
 ### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon with the greater number of
-Hydrogen atoms (the more substituted carbon gets the halogen).
+hydrogen atoms (the more substituted carbon gets the halogen).
 
 $$
 \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \mathrm{ (major product)}
@@ -672,7 +672,7 @@ Ethanol $\to$ Ethanoic acid: Use acidified K$_2$Cr$_2$O$_7$ (potassium dichromat
 Which compound is the major product when 2-methylpropene reacts with HBr?
 
 By Markovnikov's rule, H adds to the less substituted carbon (C1) and Br adds to the more
-Substituted carbon (C2):
+substituted carbon (C2):
 
 $$
 \mathrm{CH}_2=\mathrm{C}(\mathrm{CH}_3)_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CBr}(\mathrm{CH}_3)_2
@@ -740,7 +740,7 @@ $$
 :::tip[Exam Strategy]
 For naming questions, always identify the longest chain first. For mechanism questions, draw clear
 Curly arrow mechanisms showing electron movement. For comparison questions ($S_N1$ vs $S_N2$), use a
-Table for clarity. For polymer questions, be able to identify the monomer from the polymer and vice
+table for clarity. For polymer questions, be able to identify the monomer from the polymer and vice
 Versa.
 
 ---
@@ -771,7 +771,7 @@ has four different groups attached (a chiral centre).
 ### Racemisation
 
 If a reaction creates a chiral centre but has no stereochemical control, a racemic mixture is
-Produced.
+produced.
 
 ### $R/S$ Nomenclature
 
@@ -987,7 +987,7 @@ When HBr adds to propene (CH$_3$CH=CH$_2$):
 5. Br$^-$ then attacks the carbocation, giving 2-bromopropane as the major product.
 
 Markovnikov's rule states that the hydrogen adds to the carbon with more hydrogen atoms because this
-Pathway proceeds through the more stable carbocation intermediate.
+pathway proceeds through the more stable carbocation intermediate.
 
 ## Practice Problems
 
@@ -1081,7 +1081,7 @@ $$
 
 (c) Inversion of configuration (Walden inversion) occurs at the carbon bearing the leaving group.
 The nucleophile attacks from the back of the C--Br bond, resulting in the product having the
-Opposite configuration.
+opposite configuration.
 
 </details>
 
@@ -1134,7 +1134,7 @@ $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$:
 <summary>Answer</summary>
 
 (a) Primary alcohol: oxidised first to propanal ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$), then
-Further oxidised to propanoic acid ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$). With acidified
+further oxidised to propanoic acid ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$). With acidified
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ under reflux, the final product is **propanoic acid**.
 
 (b) Secondary alcohol: oxidised to propanone (acetone, $\mathrm{CH}_3\mathrm{COCH}_3$). The reaction

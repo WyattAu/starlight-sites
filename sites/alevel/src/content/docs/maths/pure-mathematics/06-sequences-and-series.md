@@ -176,9 +176,9 @@ S_n = \frac{a(1 - r^n)}{1 - r} \quad \blacksquare
 $$
 
 _Intuition (Self-Similarity)._ Multiplying the sum by $r$ shifts every term one position to the
-Right. The original sum and the shifted sum overlap almost completely, the difference is just the
-First term minus the new last term. This "shift and subtract" idea is the same principle behind many
-Iterative algorithms.
+right. The original sum and the shifted sum overlap almost completely, the difference is just the
+first term minus the new last term. This "shift and subtract" idea is the same principle behind many
+iterative algorithms.
 
 ### 3.3 Sum to Infinity
 
@@ -204,7 +204,7 @@ $n \ln|r| \to -\infty$ So $e^{n \ln|r|} \to 0$. $\blacksquare$
 **Theorem.** If $|r| \geq 1$ The geometric series $\sum_{n=1}^{\infty} ar^{n-1}$ diverges.
 
 _Proof._ If $|r| > 1$ Then $|r^n| \to \infty$ So $|a_n| \to \infty$. Since the terms don"t tend to
-Zero, the series diverges by the divergence test.
+zero, the series diverges by the divergence test.
 
 If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).
 
@@ -358,7 +358,7 @@ intermediate terms cancel.
 ### 7.1 Partial Fractions as the Decomposition Tool
 
 The most common technique is to use partial fractions to decompose a rational term into a
-Difference.
+difference.
 
 <details>
 <summary>Example</summary>
@@ -438,7 +438,7 @@ $$
 
 :::tip
 Identify the cancellation pattern before simplifying. Be especially careful when the "gap" in the
-Denominator is larger than 1 (e.g., $k(k+2)$), as not all terms cancel in a simple pairwise fashion.
+denominator is larger than 1 (e.g., $k(k+2)$), as not all terms cancel in a simple pairwise fashion.
 :::
 
 <hr />
@@ -452,7 +452,7 @@ a, \; (a+d)r, \; (a+2d)r^2, \; \ldots
 $$
 
 Each term is the product of a term from an arithmetic progression ($a, a+d, a+2d, \ldots$) and a
-Term from a geometric progression ($1, r, r^2, \ldots$).
+term from a geometric progression ($1, r, r^2, \ldots$).
 
 **Theorem.** The $n$ Th term is:
 
@@ -596,7 +596,7 @@ $$
 $$
 
 This is a remarkable identity: the square of the sum of the first $n$ positive integers equals the
-Sum of the first $n$ cubes.
+sum of the first $n$ cubes.
 
 _Pattern observation._ Check for small values of $n$:
 

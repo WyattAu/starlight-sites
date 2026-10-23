@@ -33,7 +33,7 @@ recognised across the UK and internationally.
 ### National 5
 
 The foundation level, taken in S4 (age 15-16). National 5s prepare students for the demands Of
-Higher study.
+higher study.
 
 ### Higher
 
@@ -48,7 +48,7 @@ assessment differ.
 ### Advanced Higher
 
 studied in S6 (age 17-18). These are more specialised and go deeper into subject content Than
-Highers. They are broadly comparable to first-year university level work.
+highers. They are broadly comparable to first-year university level work.
 
 - Graded A, B, C, D
 - Significant coursework component (often a project or dissertation)

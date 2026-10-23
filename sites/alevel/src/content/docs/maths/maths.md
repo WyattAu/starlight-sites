@@ -25,7 +25,7 @@ categories:
 A Level Mathematics is fundamentally a course in **mathematical reasoning**. The pure mathematics
 Syllabus develops the tools of calculus, algebra, and proof that underpin every quantitative
 Discipline. Statistics teaches you to reason under uncertainty. Mechanics teaches you to model the
-Physical world with mathematics.
+physical world with mathematics.
 
 ### Board Coverage
 

@@ -98,7 +98,7 @@ $$
 
 (c) **Reserve B is more biodiverse** (D = 0.80 vs D = 0.19). Both have the same species richness (5
 species), but Reserve B has much higher **species evenness** (all species equally abundant), while
-Reserve A is dominated by Species 1 (90% of individuals).
+reserve A is dominated by Species 1 (90% of individuals).
 
 A higher Simpson's Diversity Index indicates greater biodiversity. A more biodiverse ecosystem is
 generally **more stable** and **more resilient** to environmental changes (e.g. Disease, climate

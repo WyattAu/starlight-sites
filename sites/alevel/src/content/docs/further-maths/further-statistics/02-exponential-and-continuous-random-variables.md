@@ -28,7 +28,7 @@ categories:
 
 The exponential distribution models the time between events in a Poisson process, while the theory
 of continuous random variables extends probability to quantities that can take any value in an
-Interval.
+interval.
 
 ### Board Coverage
 
@@ -224,8 +224,8 @@ This uses $P(X > x) = 1 - F(x) = e^{-\lambda x}$.
 
 :::note
 Exponentially distributed lifetime has been working for $s$ hours, the remaining lifetime has the
-Same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
-Effect, which is why it is more appropriate for electronic components than mechanical ones.
+same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
+effect, which is why it is more appropriate for electronic components than mechanical ones.
 :::
 
 ### 2.6 Link to Poisson processes
@@ -537,7 +537,7 @@ G(s + t) = G(s)G(t)
 $$
 
 This is Cauchy's functional equation. Since $G$ is non-increasing and $0 \leq G \leq 1$ The only
-Solutions are:
+solutions are:
 
 $$
 G(t) = e^{-\lambda t}
@@ -669,7 +669,7 @@ $$
 
 A **mixture distribution** arises when a random variable is selected from one of several
 Sub-populations. If $X$ comes from distribution 1 with probability $p$ and from distribution 2 with
-Probability $1-p$:
+probability $1-p$:
 
 $$
 f(x) = p\,f_1(x) + (1-p)\,f_2(x)
@@ -737,8 +737,8 @@ Check: a larger $\lambda$ means shorter lifetimes on average (events happen more
 
 If events occur at rate $\lambda = 5$ per hour, then the inter-arrival time is $\mathrm{Exp}(5)$
 Measured in **hours**. If you want the probability of waiting more than 20 minutes, convert to
-Hours: $t = 1/3$ hours. Using $t = 20$ directly would give $P(T > 20) = e^{-100}$ Which is
-Essentially zero and wrong.
+hours: $t = 1/3$ hours. Using $t = 20$ directly would give $P(T > 20) = e^{-100}$ Which is
+essentially zero and wrong.
 
 <hr />
 
@@ -773,7 +773,7 @@ $\dfrac{3}{32}\int_0^m (4x - x^2)\,dx = 0.5 \implies \dfrac{3}{32}\left(2m^2 - \
 $2m^2 - \dfrac{m^3}{3} = \dfrac{16}{3} \implies 6m^2 - m^3 = 16$.
 
 By inspection: $m = 2$ gives $24 - 8 = 16$. So the median is $2$ (equal to the mean, reflecting the
-Symmetry of the PDF about $x = 2$).
+symmetry of the PDF about $x = 2$).
 
 </details>
 
@@ -978,7 +978,7 @@ Let me redo: $E(X) = \dfrac{2}{3} + \dfrac{4}{3} = 2$. But the distribution is s
 $x=1$ So $E(X)$ should be $1$.
 
 Rechecking the second integral: $\int_1^2 2(2-x)x\,dx$. At $x=1$: $2(1)(1) = 2$. At $x=2$: $0$. This
-Integral should give $2/3$ by symmetry.
+integral should give $2/3$ by symmetry.
 
 $\int_1^2 (4x-2x^2)\,dx = [2x^2-\frac{2x^3}{3}]_1^2 = (8-\frac{16}{3})-(2-\frac{2}{3}) = \frac{8}{3}-\frac{4}{3} = \frac{4}{3}$.
 
@@ -1030,7 +1030,7 @@ $E(X) = \int_0^1 x^2\,dx + \int_1^2 x(2-x)\,dx = \frac{1}{3}+\frac{2}{3} = 1$. â
 ### Question 8
 
 Calls arrive at a call centre at a rate of 4 per hour. Find the probability that the time between
-Two consecutive calls exceeds 45 minutes.
+two consecutive calls exceeds 45 minutes.
 
 <details>
 <summary>Solution</summary>
@@ -1056,7 +1056,7 @@ $E(X^2) = \dfrac{3}{4}\displaystyle\int_0^2 (2x^3-x^4)\,dx = \dfrac{3}{4}\!\left
 $\mathrm{Var}(X) = \dfrac{6}{5}-1 = \dfrac{1}{5}$.
 
 Median $m$: $\dfrac{3}{4}\!\left(m^2-\dfrac{m^3}{3}\right) = \dfrac{1}{2}$. By inspection or
-Numerical methods: $m \approx 0.908$.
+numerical methods: $m \approx 0.908$.
 
 </details>
 
@@ -1153,7 +1153,7 @@ Distribution. See
 ### Question 11
 
 The lifetime of a light bulb follows an exponential distribution with mean 500 hours. Find: (a) the
-Probability it lasts more than 600 hours; (b) the probability it lasts between 400 and 600 hours;
+probability it lasts more than 600 hours; (b) the probability it lasts between 400 and 600 hours;
 (c) the median lifetime.
 
 <details>

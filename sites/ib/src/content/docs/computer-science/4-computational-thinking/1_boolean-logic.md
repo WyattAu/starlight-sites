@@ -30,12 +30,12 @@ categories:
 
 Boolean algebra is a branch of mathematics that operates on binary values: 1 (true) and 0 (false).
 It provides the formal foundation for digital circuit design. Every Boolean expression evaluates to
-Exactly one of these two values, and every Boolean function can be expressed, simplified, and
-Implemented using a finite set of operators.
+exactly one of these two values, and every Boolean function can be expressed, simplified, and
+implemented using a finite set of operators.
 
 The three fundamental operators are AND, OR, and NOT. From these three, all other Boolean operators
 can be derived. NAND and NOR are called universal gates because either one alone is sufficient to
-Construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
+construct any Boolean function. XOR and XNOR are useful for parity and comparison operations.
 
 ### Basic Operators
 
@@ -360,7 +360,7 @@ F = \overline{A} + \overline{B} \cdot \overline{C}
 $$
 
 The simplified expression requires 1 NOT, 1 AND, and 1 OR gate (3 gates total), compared to the
-Original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not shared.
+original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not shared.
 
 </details>
 
@@ -432,7 +432,7 @@ F = \overline{A} \cdot (B \odot C) + A \cdot \overline{C}
 $$
 
 This is a valid simplification but not in sum-of-products form. For circuit implementation, we can
-Expand:
+expand:
 
 $$
 F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{C}
@@ -644,7 +644,7 @@ Optimal grouping:
 - $\overline{A}\overline{B}$: covers $m_0, m_1$
 
 But $m_0$ is only covered by $\overline{A}\overline{B}$ So that group is essential. $m_2$ is only
-Covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
+covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
 essential. $m_7$ is only covered by $AB$ So that is essential.
 
 $$
@@ -761,12 +761,12 @@ both. Can we do better with don't cares?
 Set $m_0$ to 1: pair $m_0, m_1$ → $\overline{A}\overline{B}$. Set $m_6$ to 1: $m_6$ is isolated.
 
 Try: $\overline{B}C$ covers $m_1, m_5$. $\overline{A}\overline{B}$ covers $m_0, m_1$. $m_3$ is not
-Covered yet. We need $\overline{A}C$ or $BC$ for $m_3$. $\overline{A}C$ also covers $m_1$.
+covered yet. We need $\overline{A}C$ or $BC$ for $m_3$. $\overline{A}C$ also covers $m_1$.
 
 So: $F = \overline{B}C + \overline{A}\overline{B} + \overline{A}C$
 
 Check coverage: $m_0$ (don't care, covered by $\overline{A}\overline{B}$), $m_1$ (covered by all
-Three), $m_3$ (covered by $\overline{A}C$), $m_5$ (covered by $\overline{B}C$), $m_6$ (don't care,
+three), $m_3$ (covered by $\overline{A}C$), $m_5$ (covered by $\overline{B}C$), $m_6$ (don't care,
 Not covered but that is OK).
 
 Actually, $\overline{A}C$ covers $m_1, m_3$ and $\overline{B}C$ covers $m_1, m_5$. Together they
@@ -872,7 +872,7 @@ Group covering columns 01 and 11 gives $C$. Together: $F = C + A\overline{B}$.
 Check: $F = C + A\overline{B}$. For $A=0, B=0, C=0$: $F = 0 + 0 = 0$ (correct). For $A=0, B=0, C=1$:
 $F = 1 + 0 = 1$ (correct). For $A=1, B=1, C=0$: $F = 0 + 0 = 0$ (correct). The don't care
 ($A=1, B=1, C=1$) gives $F = 1 + 0 = 1$ Which is acceptable since the output is irrelevant for this
-Input.
+input.
 
 The expression $C + A\overline{B}$ (2 terms, 3 literals) is simpler than
 $\overline{A}C + A\overline{B}$ (2 terms, 4 literals).
@@ -925,7 +925,7 @@ the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 ### Half Adder
 
 A half adder adds two single-bit numbers and produces a sum and a carry. It does not accept a
-Carry-in from a previous stage.
+carry-in from a previous stage.
 
 <div class="table-wrap">
 
@@ -1016,14 +1016,14 @@ C_{out} = (A \cdot B) + C_{in} \cdot (A \oplus B)
 $$
 
 This form has significance: it shows that a full adder can be constructed from two half adders. The
-First half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
-Half adder adds the partial sum and $C_{in}$ to get the final sum, and the final carry is the OR of
+first half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
+half adder adds the partial sum and $C_{in}$ to get the final sum, and the final carry is the OR of
 the partial carry and the carry from the second half adder.
 
 ### Worked Example: Building a Circuit from a Truth Table
 
 A voting system has three inputs (A, B, C -- each person votes yes=1 or no=0). The output is 1 if a
-Majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count the gates needed.
+majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count the gates needed.
 
 <details>
 <summary>Solution</summary>
@@ -1078,25 +1078,25 @@ $$
 Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)$$
 
 This uses 1 XOR gate, 2 AND gates, 1 OR gate = **4 gates** (same count, but uses XOR which may be
-Cheaper in some implementations).
+cheaper in some implementations).
 
 </details>
 
 ### Ripple Carry Adder
 
 A ripple carry adder chains multiple full adders to add multi-bit numbers. The carry-out of each
-Stage feeds into the carry-in of the next stage. For an $n$-bit adder, $n$ full adders are required.
+stage feeds into the carry-in of the next stage. For an $n$-bit adder, $n$ full adders are required.
 
 The main disadvantage is propagation delay: the carry must ripple through all stages sequentially.
 The worst-case delay is $n \times t_{carry}$ Where $t_{carry}$ is the carry propagation time of a
-Single full adder.
+single full adder.
 
 ## Common Pitfalls
 
 ### Forgetting to Apply De Morgan's Correctly
 
 The most common error is distributing the NOT incorrectly. De Morgan's Laws invert each variable AND
-Swap the operator. A typical mistake:
+swap the operator. A typical mistake:
 
 $$
 \overline{A \cdot B + C} \neq \overline{A} \cdot \overline{B} + \overline{C}
@@ -1121,7 +1121,7 @@ Expressions. Always check:
 ### Missing Essential Prime Implicants
 
 An essential prime implicant is a group that covers at least one minterm not covered by any other
-Group. If you fail to include all essential prime implicants, the expression will not correctly
+group. If you fail to include all essential prime implicants, the expression will not correctly
 Represent the function. Always identify essential prime implicants first, then cover any remaining
 Uncovered minterms with the largest possible groups.
 
@@ -1129,7 +1129,7 @@ Uncovered minterms with the largest possible groups.
 
 Sum-of-products (SOP) is an OR of ANDs. Product-of-sums (POS) is an AND of ORs. When converting from
 A truth table, SOP is obtained from the 1s and POS from the 0s. Mixing these up produces an
-Incorrect expression.
+incorrect expression.
 
 ### Ignoring Don't Care Conditions
 
@@ -1141,7 +1141,7 @@ Maximizes group sizes.
 ### Incorrect Gate Counting
 
 When implementing a circuit, count the actual number of physical gates required. An XOR gate is a
-Single gate, not two gates (even though it can be expressed as $A\overline{B} + \overline{A}B$). A
+single gate, not two gates (even though it can be expressed as $A\overline{B} + \overline{A}B$). A
 NAND gate is a single gate, not an AND gate followed by a NOT gate. Physical gate count determines
 Circuit cost and delay.
 
@@ -1410,7 +1410,7 @@ are 0. What is the minimized expression?
 </div>
 
 The four 1s are at the four corners: $(00,00), (00,10), (10,00), (10,10)$. The four corners form a
-Valid $2 \times 2$ group because K-maps wrap around both edges.
+valid $2 \times 2$ group because K-maps wrap around both edges.
 
 The four corners have: A varies (0 and 1), C varies (0 and 1), but B=0 and D=0 in all four.
 

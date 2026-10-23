@@ -196,7 +196,7 @@ while True:
 
 :::caution
 Will eventually become False. A common mistake is forgetting to update the loop variable inside the
-Loop body.
+loop body.
 :::
 
 ### Worked Example 1
@@ -484,7 +484,7 @@ END
 ### Trace Tables
 
 A trace table records the values of variables as an algorithm executes, used for testing and
-Debugging.
+debugging.
 
 **Example:** Trace the following algorithm with `n = 5`:
 
@@ -1077,7 +1077,7 @@ Each.
 
 Validation checks that data is reasonable before it is stored (e.g., ensuring an age field is
 between 0 and 120). Verification ensures that data matches the original source (e.g., entering a
-Password twice to confirm it was typed correctly).
+password twice to confirm it was typed correctly).
 
 </details>
 

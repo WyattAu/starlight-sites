@@ -246,7 +246,7 @@ $$
 **Mechanism (SN2):**
 
 The nucleophile ($\mathrm{Br^-$) attacks the electrophilic carbon from the opposite side of the
-Leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
+leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
 
 ## Aldehydes and Ketones (OL/HL)
 
@@ -433,13 +433,13 @@ $$
 $$
 
 Product: 2-bromopropane (major product). The minor product, 1-bromopropane, forms from the less
-Stable primary carbocation.
+stable primary carbocation.
 
 ### Why Markovnikov's Rule Works
 
 The stability of carbocations follows the order: tertiary > secondary > primary > methyl. This is
 because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
-Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
+distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
 Placing the positive charge on the more substituted (more stable) carbon.
 
 ---
@@ -488,7 +488,7 @@ $$
 
 **Distinguishing test:** The products can be distinguished using Tollens' reagent. Propanal gives a
 Silver mirror; propanone does not. Alternatively, Fehling's solution can be used (propanal gives a
-Brick-red precipitate).
+brick-red precipitate).
 
 ### Esterification: Mechanism and Conditions
 
@@ -549,7 +549,7 @@ Centre.
 
 2,4-dinitrophenylhydrazine (2,4-DNP) reacts with both aldehydes and ketones to form orange
 Precipitates (2,4-dNP derivatives). The melting point of the derivative can be used to identify the
-Specific carbonyl compound.
+specific carbonyl compound.
 
 ---
 
@@ -606,7 +606,7 @@ Ethanoate from ethanoic acid).
 ### Physical Properties
 
 Esters are volatile liquids with characteristic fruity odours. They have lower boiling points than
-Carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
+carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
 
 ### Hydrolysis
 
@@ -647,7 +647,7 @@ Acid).
 
 Butan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3$): Carbon-2 has four different groups
 ($\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$$\mathrm{CH_2\mathrm{CH_3$), making it a chiral centre. Two
-Enantiomers exist.
+enantiomers exist.
 
 Butan-1-ol ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$): No carbon has four
 different Groups. Carbon-1 has
@@ -664,7 +664,7 @@ Yes. Each carbon of the double bond has two different groups:
 - Right carbon: $\mathrm{CH_3$ and $\mathrm{H$
 
 (Z)-but-2-ene: both $\mathrm{CH_3$ groups on the same side. (E)-but-2-ene: $\mathrm{CH_3$ groups on
-Opposite sides.
+opposite sides.
 
 But-1-ene does NOT exhibit E/Z isomerism because one carbon of the double bond has two identical
 Groups ($\mathrm{H$ and $\mathrm{H$).
@@ -805,7 +805,7 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 ### Addition Polymers
 
 Formed by joining monomers without eliminating any molecule. The repeating unit is the same as the
-Monomer (with the double bond opened).
+monomer (with the double bond opened).
 
 **Polythene (polyethylene):**
 

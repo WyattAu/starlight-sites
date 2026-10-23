@@ -25,7 +25,7 @@ categories:
 Complex numbers extend the real number system by introducing a solution to the equation
 $x^2 + 1 = 0$. This seemingly abstract idea turns out to be indispensable in pure mathematics,
 Engineering, and physics, providing powerful tools for analysing rotations, oscillations, and
-Polynomial equations.
+polynomial equations.
 
 ### Board Coverage
 
@@ -214,7 +214,7 @@ $$
 ### 3.1 Geometric Interpretation
 
 The $n$-th roots of unity lie on the unit circle $|z| = 1$ in the Argand diagram, equally spaced at
-Angles of $\dfrac{2\pi}{n}$ radians apart. They form the vertices of a regular $n$-gon
+angles of $\dfrac{2\pi}{n}$ radians apart. They form the vertices of a regular $n$-gon
 Inscribed in the unit circle, with one vertex at $z = 1$.
 
 ### 3.2 Sum and Product of Roots
@@ -393,19 +393,19 @@ The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at
 $(0, 2)$.
 
 The second condition: $0 \leq \arg(z) \leq \dfrac{\pi}{2}$ restricts $z$ to the first
-Quadrant (including axes).
+quadrant (including axes).
 
 The disc centre $(0, 2)$ with radius 3 extends from $y = -1$ to $y = 5$ and from $x = -3$ to
 $x = 3$.
 
 **Greatest $|z|$:** The point in the region farthest from the origin is where the boundary of the
 Disc intersects the first quadrant boundary furthest from the origin. The disc intersects the
-Positive $y$-axis at $(0, 5)$ Giving $|z| = 5$.
+positive $y$-axis at $(0, 5)$ Giving $|z| = 5$.
 
 **Least $|z|$:** We need the closest point in the region to the origin. The disc boundary is
 $(x^2 + (y-2)^2) = 9$. The closest point on this circle to the origin lies along the line from the
 Origin through the centre $(0,2)$ Which is the $y$-axis. The point $(0, -1)$ is outside the first
-Quadrant. Within the first quadrant, the closest point is where the circle meets the $x$-axis:
+quadrant. Within the first quadrant, the closest point is where the circle meets the $x$-axis:
 Setting $y = 0$, $x^2 + 4 = 9 \implies x = \sqrt{5}$. So $|z| = \sqrt{5}$.
 
 </details>
@@ -652,7 +652,7 @@ $$
 
 **Problem 5.** Sketch on separate Argand diagrams the loci given by (a) $|z - 1 - i| = |z - 3 + i|$
 And (b) $\arg(z - 2) = \dfrac{\pi}{3}$. Find the complex number(s) satisfying both
-Conditions simultaneously.
+conditions simultaneously.
 
 <details>
 <summary>Hint</summary>
@@ -1530,7 +1530,7 @@ $|z+w|^2 + |z-w|^2 = (z+w)(\bar{z}+\bar{w}) + (z-w)(\bar{z}-\bar{w})$
 $= |z|^2+z\bar{w}+w\bar{z}+|w|^2 + |z|^2-z\bar{w}-w\bar{z}+|w|^2 = 2|z|^2 + 2|w|^2$.
 
 This is the parallelogram law: the sum of squares of the diagonals equals the sum of squares of all
-Four sides. $\blacksquare$
+four sides. $\blacksquare$
 
 </details>
 

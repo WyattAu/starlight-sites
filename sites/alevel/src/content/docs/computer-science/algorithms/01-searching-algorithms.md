@@ -42,8 +42,8 @@ $x$ is not present.
 
 **Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$ It
 Immediately returns $i$ Which is the first occurrence since all earlier elements were checked and
-Found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
-Returned. $\square$
+found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
+returned. $\square$
 
 ### Complexity Analysis
 
@@ -57,7 +57,7 @@ $n$ comparisons. Since each comparison takes $O(1)$ time, the total is $O(n)$. $
 
 **Proof.** Consider an adversary argument. An adversary can answer "not equal" to the first $n-1$
 Comparisons. Only after checking all $n$ elements can the algorithm conclude that $x$ is absent. Any
-Algorithm that does not check all $n$ positions can be fooled: the unchecked position could contain
+algorithm that does not check all $n$ positions can be fooled: the unchecked position could contain
 $x$. Therefore, at least $n$ comparisons are necessary in the worst case. $\square$
 
 <div class="table-wrap">
@@ -334,7 +334,7 @@ Accessing the $k$-th element requires traversing $k$ nodes from the head, which 
 the middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
 
 Alternative: **Jump list / Skip list**, a data structure with multiple levels of linked lists that
-Allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
+allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
 
 </details>
 
@@ -347,7 +347,7 @@ Argument.
 An adversary constructs the worst case dynamically. The adversary maintains that the target $x$ is
 not at any position already examined by the algorithm. After $n - 1$ comparisons, all positions
 except one have been checked. The adversary places $x$ at the remaining unchecked position (or
-Declares it absent). Therefore, any correct algorithm must check all $n$ positions in the worst
+declares it absent). Therefore, any correct algorithm must check all $n$ positions in the worst
 Case, requiring $\Omega(n)$ comparisons. $\square$
 
 </details>
@@ -411,11 +411,11 @@ Floating-point division instead of integer division). What goes wrong?
 <summary>Answer</summary>
 
 In Python, `/` produces a float, and using a float as an array index raises a `TypeError`. In
-Languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
-Positive values but is technically implementation-dependent.
+languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
+positive values but is technically implementation-dependent.
 
 The more serious bug is **integer overflow**: if `low + high > INT_MAX`. The sum overflows. The
-Correct form is `mid = low + (high - low) / 2`. Which cannot overflow since `high - low` is always
+correct form is `mid = low + (high - low) / 2`. Which cannot overflow since `high - low` is always
 non-negative and less than `INT_MAX`.
 
 For revision on sorting, see
@@ -498,7 +498,7 @@ Taken.
 <summary>Hint</summary>
 
 Start with low = 0, high = 9. Calculate mid = (0 + 9) // 2 = 4. Compare A[4] with 42 and adjust the
-Range accordingly.
+range accordingly.
 
 </details>
 
@@ -572,14 +572,14 @@ Searches. Use O(n log n) for sorting and O(log n) for each binary search.
 - Total: O(133,000) + O(14,000) = O(147,000) comparisons
 
 Sort + binary search is approximately **68 times more efficient** in total. The one-time cost of
-Sorting is quickly amortised over multiple queries. The more queries needed, the greater the
-Advantage of sorting first.
+sorting is quickly amortised over multiple queries. The more queries needed, the greater the
+advantage of sorting first.
 
 </details>
 
 **Problem 6.** A database contains 500,000 records sorted by a unique key field. Explain which
 Search algorithm is more efficient and calculate the maximum number of comparisons for each
-Algorithm.
+algorithm.
 
 <details>
 <summary>Hint</summary>
@@ -639,7 +639,7 @@ only 20 comparisons maximum.
 
 **Problem 8.** Write pseudocode for (a) a linear search that returns the index of the first
 Occurrence of a target value in an array, and (b) a binary search on a sorted array that returns the
-Index of the target or -1 if not found.
+index of the target or -1 if not found.
 
 <details>
 <summary>Hint</summary>
@@ -721,8 +721,8 @@ The array has 11 elements (indices 0–10). Start with low = 0, high = 10. The f
 
 **Problem 10.** (Exam-style) A school library system stores 20,000 book records. The librarian needs
 To: (a) search for a book by its ISBN (the catalogue is sorted by ISBN), (b) check whether a
-Specific book ID exists in an unsorted list of 50 recently returned books, (c) find the price of a
-Book given its ISBN in a sorted price catalogue. For each scenario, justify which search algorithm
+specific book ID exists in an unsorted list of 50 recently returned books, (c) find the price of a
+book given its ISBN in a sorted price catalogue. For each scenario, justify which search algorithm
 is most appropriate, stating your assumptions about the data structure and ordering.
 
 <details>
@@ -730,7 +730,7 @@ is most appropriate, stating your assumptions about the data structure and order
 
 Consider three factors for each scenario: (1) Is the data sorted? (2) How large is the dataset? (3)
 How many searches will be performed? The cost of sorting must be weighed against the benefit of
-Binary search.
+binary search.
 
 </details>
 

@@ -311,7 +311,7 @@ cells**:
   defence at the site of re-infection.
 
 Memory T cells enable a faster, stronger **secondary immune response** upon re-exposure to the same
-Pathogen.
+pathogen.
 
 ---
 
@@ -392,7 +392,7 @@ Connected by **disulfide bonds**. Each chain contains:
 - **Constant ($C$) regions**: determine the antibody class (isotype) and effector functions.
 
 Each antibody has **two identical antigen-binding sites** (bivalent), allowing cross-linking of
-Antigens.
+antigens.
 
 **Hinge region**: flexible region between the two Fab arms and the Fc stem, allowing the antibody to
 Bind to antigens at varying distances. The hinge region varies between antibody classes.
@@ -493,7 +493,7 @@ Bind to antigens at varying distances. The hinge region varies between antibody 
 ### Principles
 
 Vaccines expose the immune system to a pathogen antigen (or a weakened/inactivated pathogen) to
-Stimulate a primary response and generate memory cells without causing disease. Upon subsequent
+stimulate a primary response and generate memory cells without causing disease. Upon subsequent
 Exposure, the secondary response provides rapid, effective protection.
 
 ### Types of Vaccines
@@ -865,7 +865,7 @@ A severe, potentially fatal systemic allergic reaction:
 ### Desensitisation Therapy (Allergen Immunotherapy)
 
 Gradual, controlled exposure to increasing doses of allergen over months to years. This shifts the
-Immune response from $\mathrm{T_H}2$ (IgE-mediated) to $\mathrm{T_H}1$ (IgG-mediated), inducing
+immune response from $\mathrm{T_H}2$ (IgE-mediated) to $\mathrm{T_H}1$ (IgG-mediated), inducing
 Tolerance.
 
 ---
@@ -913,7 +913,7 @@ Erythematosus (SLE).
 ### Type IV Hypersensitivity (Delayed-Type, T-Cell Mediated)
 
 Sensitised $\mathrm{CD4}^+$ helper T cells release cytokines (IFN-$\gamma$ TNF-$\alpha$) upon
-Re-exposure to the antigen, activating macrophages and causing inflammation. Onset: $24$--$72$
+re-exposure to the antigen, activating macrophages and causing inflammation. Onset: $24$--$72$
 hours.
 
 **Examples**:
@@ -989,7 +989,7 @@ Positive. Patient A ($0.05$) tests negative (consistent with the negative contro
 (b) The positive control confirms the assay is working correctly (antibody is detected when known to
 be present). The negative control (no antibody) establishes the baseline absorbance and identifies
 any Non-specific background signal. Without controls, false positives or false negatives cannot be
-Identified.
+identified.
 
 (c) Patient C may have a lower antibody titre than Patient B (earlier stage of infection, weaker
 Immune response, or immunosuppression). The absorbance is proportional to the amount of antibody
@@ -1004,7 +1004,7 @@ Phase of seroconversion or have a partially effective immune response.
 A patient is diagnosed with HIV. Their initial $\mathrm{CD4}^+$ T cell count is
 $550\;\mathrm{cells/\mu L}$ and their viral load is $50000\;\mathrm{copies/mL}$. After 6 months of
 Antiretroviral therapy, the $\mathrm{CD4}^+$ count rises to $750\;\mathrm{cells/\mu L}$ and the
-Viral load drops to $< 50\;\mathrm{copies/mL}$. (a) Explain the relationship between viral load And
+viral load drops to $< 50\;\mathrm{copies/mL}$. (a) Explain the relationship between viral load And
 $\mathrm{CD4}^+$ T cell count. (b) Why can the virus not be completely eliminated by ART? (c)
 Explain why the patient is still infectious despite having an undetectable viral load.
 
@@ -1016,13 +1016,13 @@ Explain why the patient is still infectious despite having an undetectable viral
 (a) HIV infects and destroys $\mathrm{CD4}^+$ helper T cells during its replication cycle. A high
 Viral load indicates active replication, which leads to rapid $\mathrm{CD4}^+$ depletion. ART
 Suppresses viral replication, reducing the viral load and allowing $\mathrm{CD4}^+$ T cells to
-Recover (the observed increase from $550$ to $750\;\mathrm{cells/\mu L}$).
+recover (the observed increase from $550$ to $750\;\mathrm{cells/\mu L}$).
 
 (b) ART drugs inhibit active steps in the viral life cycle (reverse transcription, integration,
 Protease processing), but they cannot eliminate cells containing **latent proviral DNA** integrated
 into the host genome. These latently infected cells (in lymph nodes, the gut, and the CNS) do not
-Produce viral particles and are therefore not targeted by ART. If ART is stopped, the provirus can
-Reactivate, leading to viral rebound.
+produce viral particles and are therefore not targeted by ART. If ART is stopped, the provirus can
+reactivate, leading to viral rebound.
 
 (c) "Undetectable" means the viral load is below the assay's detection limit
 ($< 50\;\mathrm{copies/mL}$), Not that the virus is absent. Low levels of virus may still be present
@@ -1039,7 +1039,7 @@ Describe the steps involved in producing monoclonal antibodies using the hybrido
 Explain why HAT medium is essential and why unfused B cells and unfused myeloma cells cannot survive
 in this medium. Calculate the number of hybridoma clones that must be screened if a researcher needs
 to identify one specific clone from a population of $50000$ fused cells, assuming $0.1\%$ of
-Hybridomas produce the desired antibody.
+hybridomas produce the desired antibody.
 
 </details>
 
@@ -1079,7 +1079,7 @@ A kidney transplant patient receives a kidney from a donor with HLA types A3, A1
 DR4. The recipient has HLA types A1, A3, B8, B35, DR1, DR4. (a) How many HLA loci match? (b) Would
 you Expect the risk of rejection to be high or low? Justify your answer. (c) The recipient is given
 Cyclosporin A. Explain the mechanism of action of this drug and the specific immune process it
-Suppresses.
+suppresses.
 
 </details>
 
@@ -1100,7 +1100,7 @@ potentially triggering Both T cell-mediated (acute) and antibody-mediated (chron
 
 (c) Cyclosporin A binds to **cyclophilin** (an immunophilin) in the cytoplasm of T cells. The
 Cyclosporin-cyclophilin complex inhibits **calcineurin**, a phosphatase that normally activates the
-Transcription factor NFAT (nuclear factor of activated T cells). Without NFAT activation,
+transcription factor NFAT (nuclear factor of activated T cells). Without NFAT activation,
 Transcription of **IL-2** and other cytokine genes is blocked. Since IL-2 is essential for T cell
 Clonal expansion and differentiation, cyclosporin A suppresses T cell-mediated immune responses
 against the transplanted organ.
@@ -1112,10 +1112,10 @@ against the transplanted organ.
 
 A student with a severe peanut allergy accidentally consumes a cookie containing peanut flour.
 Within minutes, they develop urticaria, facial swelling, wheezing, and a drop in blood pressure. (a)
-Describe the immunological mechanism responsible for these symptoms, naming the cells, antibodies,
+describe the immunological mechanism responsible for these symptoms, naming the cells, antibodies,
 And chemical mediators involved. (b) Explain why the onset is rapid (minutes) rather than delayed.
 (c) Explain why adrenaline is the first-line treatment, relating its pharmacological effects to each
-Symptom.
+symptom.
 
 </details>
 
@@ -1166,7 +1166,7 @@ antibody Production --- the effector response is pre-armed.
 **Worked Example: Primary vs Secondary Immune Response Kinetics**
 
 A patient receives a tetanus toxoid vaccine (primary immunisation) at Day 0 and a booster dose at
-Day $90$. The IgG antibody titres are measured weekly. At Day $14$ The IgG titre is
+day $90$. The IgG antibody titres are measured weekly. At Day $14$ The IgG titre is
 $50\;\mathrm{AU/mL}$. At Day $21$ (after booster), the IgG titre is $2000\;\mathrm{AU/mL}$.
 Calculate the fold increase in Peak titre and the time to peak after the booster. Explain the
 cellular basis for the accelerated Secondary response.
@@ -1221,7 +1221,7 @@ immunocompromised. Interpret each result.
 **Immunological basis**: the Mantoux test is a **Type IV (delayed-type) hypersensitivity** reaction.
 Memory $\mathrm{T_H}1$ cells recognise PPD antigens and release IFN-$\gamma$ Activating macrophages.
 Macrophages release inflammatory mediators, causing localised oedema and induration. The $48$--$72$
-Hour delay reflects the time required for T cell activation, cytokine secretion, and macrophage
+hour delay reflects the time required for T cell activation, cytokine secretion, and macrophage
 Recruitment.
 
 </details>
@@ -1280,7 +1280,7 @@ Recruitment.
 Compare and contrast innate and adaptive immunity with reference to: (a) specificity, (b) response
 Time, (c) memory, (d) receptors, and (e) the role of phagocytes in each. Explain how innate immunity
 Activates adaptive immunity, describing the process of antigen presentation by dendritic cells to
-Helper T cells.
+helper T cells.
 
 </details>
 
@@ -1288,7 +1288,7 @@ Helper T cells.
 <summary>Problem 2: Data Analysis -- Antibody Titre Curve</summary>
 
 The following data show the IgM and IgG antibody concentrations (in arbitrary units, AU/mL) in a
-Patient's serum after vaccination at Day 0 and a booster at Day 90:
+patient's serum after vaccination at Day 0 and a booster at Day 90:
 
 <div class="table-wrap">
 
@@ -1310,7 +1310,7 @@ Patient's serum after vaccination at Day 0 and a booster at Day 90:
 </div>
 
 (a) Plot both IgM and IgG curves on the same axes. (b) Identify the class switching event and
-Explain its molecular basis. (c) Calculate the fold increase in peak IgG titre between the primary
+explain its molecular basis. (c) Calculate the fold increase in peak IgG titre between the primary
 and secondary responses. (d) Explain why IgM peaks earlier than IgG in the primary response but not
 in the secondary response.
 
@@ -1321,7 +1321,7 @@ in the secondary response.
 
 Describe the HIV life cycle from attachment to budding, naming the viral and host molecules involved
 at each step. For each of the following drug classes, identify the step of the life cycle they
-Target and explain their mechanism: (a) NRTIs, (b) protease inhibitors, (c) CCR5 antagonists, (d)
+target and explain their mechanism: (a) NRTIs, (b) protease inhibitors, (c) CCR5 antagonists, (d)
 integrase inhibitors. Explain why combination therapy (using drugs from multiple classes) is More
 effective than monotherapy, and discuss why HIV can develop resistance to individual drugs.
 
@@ -1345,8 +1345,8 @@ of $0.020\;\mathrm{(AU/mL)}^{-1}$ with a y-intercept of $0.050$.
 
 Rheumatic fever is an autoimmune disease that can develop after infection with _Streptococcus
 Pyogenes_ (Group A Streptococcus). (a) Explain the concept of molecular mimicry and how it could
-Lead to rheumatic fever. (b) Describe the immune mechanisms that damage the heart valves in
-Rheumatic fever, including the specific antibodies and T cells involved. (c) Explain why prompt
+lead to rheumatic fever. (b) Describe the immune mechanisms that damage the heart valves in
+rheumatic fever, including the specific antibodies and T cells involved. (c) Explain why prompt
 Antibiotic treatment of streptococcal pharyngitis reduces the risk of developing rheumatic fever.
 
 </details>
@@ -1410,7 +1410,7 @@ pathogen:
 
 (a) What is the antibody titre? (b) A convalescent sample from the same patient taken 2 weeks later
 Shows a titre of $1:2048$. Calculate the fold increase. (c) Explain the clinical significance of a
-Rising titre. (d) Why is IgM detection preferred for early diagnosis of acute infection?
+rising titre. (d) Why is IgM detection preferred for early diagnosis of acute infection?
 
 <details>
 <summary>Solution</summary>
@@ -1420,7 +1420,7 @@ Rising titre. (d) Why is IgM detection preferred for early diagnosis of acute in
 (b) Fold increase $= 2048 / 64 = 32$-fold increase.
 
 (c) A rising titre (4-fold or greater increase between acute and convalescent samples) indicates a
-Recent or ongoing infection. It demonstrates that the immune system is actively producing antibodies
+recent or ongoing infection. It demonstrates that the immune system is actively producing antibodies
 against the pathogen, confirming acute rather than past infection or prior vaccination. A single
 Positive result cannot distinguish between past and current infection; the rising titre provides
 this temporal information.
@@ -1449,7 +1449,7 @@ why the secondary Response is faster and produces more antibody.
 
 (a) Primary response: $5000$ plasma cells $\times 1000$ antibodies/s $= 5 \times 10^6$ antibodies/s
 from this clone. In practice, multiple B cell clones are activated (polyclonal response), but this
-Illustrates the principle for a single clone.
+illustrates the principle for a single clone.
 
 (b) Secondary response: $200$ memory B cells $\times 10\,000$ plasma cells each $= 2 \times 10^6$
 Plasma cells. Antibody production rate: $2 \times 10^6 \times 1000 = 2 \times 10^9$ antibodies/s.
@@ -1475,7 +1475,7 @@ Plasma cells. Antibody production rate: $2 \times 10^6 \times 1000 = 2 \times 10
 **Worked Example: ELISA Calculation**
 
 A sandwich ELISA is used to measure the concentration of a viral antigen in patient serum. The
-Standard curve is generated using known antigen concentrations:
+standard curve is generated using known antigen concentrations:
 
 <div class="table-wrap">
 
@@ -1491,9 +1491,9 @@ Standard curve is generated using known antigen concentrations:
 </div>
 
 A patient sample gives an absorbance of $0.550$. (a) Plot the standard curve and determine the
-Antigen concentration in the patient sample. (b) The positive threshold (determined from negative
+antigen concentration in the patient sample. (b) The positive threshold (determined from negative
 Controls) is $0.200$. Is the patient positive? (c) Calculate the signal-to-noise ratio if the
-Negative control absorbance is $0.060$. (d) Explain the principle of the sandwich ELISA and why Two
+negative control absorbance is $0.060$. (d) Explain the principle of the sandwich ELISA and why Two
 antibodies are required.
 
 <details>
@@ -1507,7 +1507,7 @@ For the patient sample: $0.550 = 0.020 \times C + 0.050$.
 $C = (0.550 - 0.050) / 0.020 = 0.500 / 0.020 = 25\;\mathrm{ng/mL}$.
 
 (b) Patient absorbance $= 0.550 > 0.200$ (positive threshold). **The patient is positive** for the
-Viral antigen.
+viral antigen.
 
 (c) Signal-to-noise ratio $= \text{patient signal} / \text{negative control} = 0.550 / 0.060 = 9.2$.
 A ratio $> 3$ is generally considered significant; this result is well above that threshold.
@@ -1559,7 +1559,7 @@ Patient has not yet progressed to AIDS but has significant immunosuppression.
    leading to exhaustion and apoptosis of uninfected bystander $\mathrm{CD4}^+$ cells.
 
 (c) Opportunistic infections occur because $\mathrm{CD4}^+$ T helper cells are essential for
-Coordinating both cell-mediated and humoral immune responses:
+coordinating both cell-mediated and humoral immune responses:
 
 - They activate macrophages (via IFN-$\gamma$) to kill intracellular pathogens.
 - They provide help to B cells for antibody production (CD40L-CD40 interaction, cytokine secretion).
@@ -1692,7 +1692,7 @@ diameter) that disrupts the target cell's membrane integrity, causing Osmotic ly
 A mother has blood type A (genotype unknown) and a child has blood type O. (a) What are the possible
 Genotypes of the mother? (b) What blood types are possible for the father? (c) If a man with blood
 Type AB is accused of being the father, can he be excluded? (d) Explain why blood type alone is
-Insufficient for definitive paternity testing.
+insufficient for definitive paternity testing.
 
 </details>
 
@@ -1727,7 +1727,7 @@ Of a blood type O child. He is **excluded**.
 Describe the production of monoclonal antibodies using the hybridoma technique (Kohler and Milstein,
 1975). (a) Explain each step of the process. (b) Explain why myeloma cells and B cells are fused.
 (c) Describe three therapeutic applications of monoclonal antibodies, explaining the mechanism of
-Action for each. (d) Explain the difference between murine, chimeric, humanised, and fully human
+action for each. (d) Explain the difference between murine, chimeric, humanised, and fully human
 Monoclonal antibodies.
 
 </details>
@@ -1875,7 +1875,7 @@ Antibodies; it is mediated by sensitised T cells.
 
 The adaptive immune system must be able to recognise an essentially unlimited number of different
 Antigens (estimated $> 10^{11}$ different specificities). However, the human genome contains only
-Approximately $20\,000$ protein-coding genes. The solution is the generation of antibody diversity
+approximately $20\,000$ protein-coding genes. The solution is the generation of antibody diversity
 through combinatorial and somatic mechanisms during B cell development in the bone marrow.
 
 ### Antibody Structure Recap
@@ -1980,7 +1980,7 @@ $\binom{300}{5} \approx 2.05 \times 10^{10}$
 $2.05 \times 10^{10} \times 243 \approx 5 \times 10^{12}$
 
 So a single B cell clone can generate approximately $5 \times 10^{12}$ variant sequences through
-Somatic hypermutation. In practice, not all variants will be viable (some will introduce stop codons
+somatic hypermutation. In practice, not all variants will be viable (some will introduce stop codons
 or destabilise the protein), but this illustrates the enormous potential for affinity maturation.
 
 </details>
@@ -1988,7 +1988,7 @@ or destabilise the protein), but this illustrates the enormous potential for aff
 ### The Major Histocompatibility Complex (MHC)
 
 The MHC (called HLA in humans -- Human Leukocyte Antigen) is a cluster of genes on chromosome 6 that
-Encode cell-surface proteins responsible for presenting antigens to T cells.
+encode cell-surface proteins responsible for presenting antigens to T cells.
 
 **Class I MHC (HLA-A, -B, -C)**:
 

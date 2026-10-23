@@ -206,7 +206,7 @@ Action potential along the axon and limits the maximum firing frequency.
 ### All-or-Nothing Principle
 
 An action potential either occurs fully (if threshold is reached) or does not occur at all. The
-Amplitude of the action potential is constant (approximately $110\;\mathrm{mV}$ total change) and
+amplitude of the action potential is constant (approximately $110\;\mathrm{mV}$ total change) and
 does not depend on stimulus strength. Stimulus intensity is encoded by the **frequency** of action
 Potentials, not their amplitude.
 
@@ -814,7 +814,7 @@ Current leakage across the internode) and very low membrane capacitance (less ch
 the local current generated at one node travels efficiently to the next node without decay. (2)
 Action potentials are regenerated at each node of Ranvier, maintaining amplitude. In unmyelinated
 Axons, current leaks across the entire membrane, the signal decrements with distance, and the
-Capacitance of the membrane slows the depolarisation rate.
+capacitance of the membrane slows the depolarisation rate.
 
 </details>
 
@@ -856,7 +856,7 @@ membrane is hyperpolarised below resting potential; the motor neuron does not fi
 
 A sarcomere at rest has a length of $2.5\;\mathrm{\mu m}$. The A band is $1.6\;\mathrm{\mu m}$ wide,
 The I band is $0.9\;\mathrm{\mu m}$ wide, and the H zone is $0.5\;\mathrm{\mu m}$ wide. During
-Maximal contraction, the thin filaments overlap completely and the H zone disappears. Calculate The
+maximal contraction, the thin filaments overlap completely and the H zone disappears. Calculate The
 sarcomere length and I band width during maximal contraction. Explain which bands change and Which
 remain constant.
 
@@ -934,7 +934,7 @@ heart Rate by releasing ACh onto muscarinic receptors in the SA node. Atropine b
 rate Increases (tachycardia).
 
 (b) **Pupils dilate (mydriasis)**: parasympathetic stimulation normally constricts the pupil by
-Releasing ACh onto the sphincter pupillae muscle. Atropine blocks this, and the unopposed radial
+releasing ACh onto the sphincter pupillae muscle. Atropine blocks this, and the unopposed radial
 Muscle (sympathetic) dilates the pupil.
 
 (c) **Digestive activity decreases**: parasympathetic stimulation normally increases peristalsis and
@@ -991,7 +991,7 @@ In multiple sclerosis, oligodendrocytes are destroyed, removing the myelin sheat
 previously myelinated axon with a diameter of $10\;\mathrm{\mu m}$ had a conduction velocity of
 $80\;\mathrm{m/s}$ and nodes spaced $1.5\;\mathrm{mm}$ apart. After demyelination, the same axon
 Conducts at $2\;\mathrm{m/s}$. Calculate the time for a signal to travel $0.5\;\mathrm{m}$ in both
-Cases and explain the functional consequences.
+cases and explain the functional consequences.
 
 <details>
 <summary>Solution</summary>
@@ -1065,7 +1065,7 @@ Episodic neurological deficits.
 
 Describe the sequence of events involved in synaptic transmission at a cholinergic synapse in the
 CNS, from the arrival of an action potential at the presynaptic terminal to the generation of a
-Postsynaptic potential. Explain how temporal and spatial summation determine whether an action
+postsynaptic potential. Explain how temporal and spatial summation determine whether an action
 Potential is fired in the postsynaptic neuron. Discuss how drugs that inhibit acetylcholinesterase
 (e.g., organophosphates) would affect this process.
 
@@ -1075,7 +1075,7 @@ Potential is fired in the postsynaptic neuron. Discuss how drugs that inhibit ac
 <summary>Problem 2: Data Analysis -- Action Potential Recording</summary>
 
 A researcher records the membrane potential of a neuron using an intracellular microelectrode. The
-Following data are obtained after applying stimuli of increasing intensity:
+following data are obtained after applying stimuli of increasing intensity:
 
 <div class="table-wrap">
 
@@ -1092,8 +1092,8 @@ Following data are obtained after applying stimuli of increasing intensity:
 </div>
 
 (a) Plot the data. Identify the threshold stimulus intensity. (b) Explain why increasing the
-Stimulus from 8 to 12 $\mathrm{\mu A}$ does not change the peak potential. (c) Explain how the
-Nervous system encodes stimulus intensity given this all-or-nothing behaviour.
+stimulus from 8 to 12 $\mathrm{\mu A}$ does not change the peak potential. (c) Explain how the
+nervous system encodes stimulus intensity given this all-or-nothing behaviour.
 
 </details>
 
@@ -1343,7 +1343,7 @@ $I = Q/t = 2.4 \times 10^{-9} / 10^{-3} = 2.4\;\mathrm{\mu A}$.
 **Worked Example: Reflex Arc and Neural Pathway Analysis**
 
 A reflex arc involves the following sequence: pain receptor (in finger) $\to$ sensory neuron $\to$
-Interneuron in spinal cord $\to$ motor neuron $\to$ effector muscle (biceps, causing withdrawal).
+interneuron in spinal cord $\to$ motor neuron $\to$ effector muscle (biceps, causing withdrawal).
 (a) Name the type of reflex and explain its adaptive significance. (b) Calculate the minimum
 response time If the path length is $0.8\;\mathrm{m}$ (finger to spinal cord to biceps) and the
 slowest conduction Velocity is $50\;\mathrm{m/s}$ (including synaptic delay of $0.5\;\mathrm{ms}$
@@ -1511,7 +1511,7 @@ synapse:
 </div>
 
 For each drug: (a) identify the likely molecular target, (b) name a specific drug that produces this
-Effect, (c) explain the mechanism, and (d) explain the clinical or experimental significance.
+effect, (c) explain the mechanism, and (d) explain the clinical or experimental significance.
 
 </details>
 
@@ -1627,7 +1627,7 @@ a Point current injection would produce a larger local depolarisation that decay
 distance.
 
 (c) An action potential fires when the local depolarisation reaches threshold ($-55\;\mathrm{mV}$ Or
-Approximately $15\;\mathrm{mV}$ above rest). At threshold, voltage-gated $\mathrm{Na}^+$ channels
+approximately $15\;\mathrm{mV}$ above rest). At threshold, voltage-gated $\mathrm{Na}^+$ channels
 open, Allowing rapid $\mathrm{Na}^+$ influx that further depolarises the membrane (positive
 feedback). This Regenerative cycle produces the all-or-none action potential, which is independent
 of the stimulus Strength (once threshold is reached).
@@ -1770,7 +1770,7 @@ Z-lines (Z-discs).
 8. The cycle repeats as long as $\mathrm{Ca}^{2+}$ and ATP are available.
 
 The result: thin filaments slide past thick filaments, the Z-lines move closer together, and the
-Sarcomere shortens. The muscle fibre shortens (contraction).
+sarcomere shortens. The muscle fibre shortens (contraction).
 
 **Evidence for the sliding filament theory**:
 
@@ -1802,7 +1802,7 @@ The sequence of events linking the action potential to muscle contraction:
 ### Motor Unit Recruitment
 
 A **motor unit** consists of a single motor neuron and all the muscle fibres it innervates. The
-Number of fibres per motor unit varies:
+number of fibres per motor unit varies:
 
 - **Small motor units** (1--10 fibres): fine, precise movements (eye muscles, fingers).
 - **Large motor units** (1000+ fibres): powerful, coarse movements (leg muscles, postural muscles).
@@ -1831,9 +1831,9 @@ Number of fibres per motor unit varies:
 ### Worked Example: Muscle Force and Cross-Bridge Cycling
 
 A muscle fibre has $10^5$ sarcomeres in series along its length and $10^3$ thick filaments per
-Sarcomere cross-section. Each thick filament has approximately 300 myosin heads, and each myosin
+sarcomere cross-section. Each thick filament has approximately 300 myosin heads, and each myosin
 Head generates a force of $4\;\mathrm{pN}$ ($4 \times 10^{-12}\;\mathrm{N}$). (a) Calculate the
-Maximum force per sarcomere cross-section. (b) Calculate the maximum force of the entire fibre. (c)
+maximum force per sarcomere cross-section. (b) Calculate the maximum force of the entire fibre. (c)
 If each power stroke moves the thin filament by $5\;\mathrm{nm}$ Calculate the work done by One
 cross-bridge per cycle. (d) Calculate the total work per contraction cycle if $50\%$ of Myosin heads
 are attached simultaneously.
@@ -1850,14 +1850,14 @@ not summed). So the maximum force of the fibre is the same as the force per cros
 $1.2\;\mathrm{\mu N}$.
 
 Note: this is the isometric force (no shortening). In practice, muscle fibres contain thousands of
-Myofibrils in parallel, so the total force is multiplied by the number of myofibrils.
+myofibrils in parallel, so the total force is multiplied by the number of myofibrils.
 
 (c) Work per cross-bridge per cycle
 $= \text{force} \times \text{distance} = 4 \times 10^{-12}\;\mathrm{N}
 \times 5 \times 10^{-9}\;\mathrm{m} = 2 \times 10^{-20}\;\mathrm{J}$.
 
 (d) If $50\%$ of heads are attached: $0.50 \times 300\,000 = 150\,000$ attached heads per
-Cross-section. Total work per cross-section per cycle
+cross-section. Total work per cross-section per cycle
 $= 150\,000 \times 2 \times 10^{-20} = 3 \times 10^{-15}\;\mathrm{J}$.
 
 </details>
@@ -1898,8 +1898,8 @@ processing Visual information such as edges, orientation, motion, and colour).
 
 **Motor and sensory homunculi**: the primary motor cortex and somatosensory cortex are organised as
 "maps" of the body (homunculi). The area of cortex devoted to each body part is proportional to the
-Complexity of movement (motor) or density of sensory innervation (sensory), not to the size of the
-Body part. The hands, face, and lips have disproportionately large cortical representations.
+complexity of movement (motor) or density of sensory innervation (sensory), not to the size of the
+body part. The hands, face, and lips have disproportionately large cortical representations.
 
 ### The Limbic System
 
@@ -1977,7 +1977,7 @@ the motor speech Planning area (Broca's area) is damaged.
 
 (d) The second patient has **Wernicke's aphasia** (receptive aphasia, fluent aphasia). The lesion is
 in **Wernicke's area** in the left temporal lobe. Speech is fluent (rate and rhythm are normal) but
-Contains incorrect words, neologisms (made-up words), and meaningless phrases ("word salad").
+contains incorrect words, neologisms (made-up words), and meaningless phrases ("word salad").
 Comprehension is severely impaired because the area responsible for language comprehension is
 damaged. The patient is often unaware of their deficits (anosognosia), unlike patients with Broca's
 aphasia, Who are aware of and frustrated by their difficulty.

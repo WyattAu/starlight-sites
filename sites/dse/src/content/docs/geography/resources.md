@@ -66,7 +66,7 @@ of its annual water demand from local sources.
 ### Dongjiang Water Supply
 
 The Dongjiang-Shenzhen water supply scheme has been Hong Kong's primary water source since 1960.
-Fresh water is pumped from the Dongjiang River in Guangdong Province through a network of treatment
+fresh water is pumped from the Dongjiang River in Guangdong Province through a network of treatment
 plants and pipelines to Hong Kong.
 
 Key features:
@@ -88,7 +88,7 @@ The tiered water tariff ranges from approximately HKD 4.16 per m$^3$ for the fir
 four months to HKD 9.05 per m$^3$ for consumption exceeding 31 m$^3$. Leak reduction efforts
 address distribution losses historically exceeding 20% of total supply. A reverse osmosis
 desalination plant at Tseung Kwan O (135,000 m$^3$ per day capacity) was commissioned in 2023.
-Recycled water use for non-potable purposes remains less extensively developed than in comparison
+recycled water use for non-potable purposes remains less extensively developed than in comparison
 cities such as Singapore.
 
 ## Energy Resources

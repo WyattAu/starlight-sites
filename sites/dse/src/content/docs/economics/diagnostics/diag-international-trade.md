@@ -32,7 +32,7 @@ tableOfContents: false
 </div>
 
 (a) Which country has an absolute advantage in each good? (b) Calculate the opportunity cost of 1
-Unit of electronics in each country. (c) Which country has a comparative advantage in which good?
+unit of electronics in each country. (c) Which country has a comparative advantage in which good?
 (d) If they specialise and trade at a rate of 1 electronics $=$ 2 garments, show that both countries
 Gain compared to autarky (assuming each has 100 workers and splits them equally without trade).
 
@@ -62,7 +62,7 @@ $800 - 300 = 500$ electronics and 600 garments (gains: 100 electronics, 400 garm
 Consumes 300 electronics and $600 - 600 = 0$ garments -- that leaves Vietnam with nothing.
 
 At the 1:2 exchange rate, both countries gain. For example, if Hong Kong exports 120 electronics and
-Receives 240 garments: Hong Kong consumes 680 electronics and 240 garments (gains: 280 electronics,
+receives 240 garments: Hong Kong consumes 680 electronics and 240 garments (gains: 280 electronics,
 40 Garments compared to autarky). Vietnam consumes 120 electronics and 360 garments (gains: 20
 Electronics, 60 garments compared to autarky). Both are better off, confirming that trade at this
 rate Is mutually beneficial.
@@ -73,18 +73,18 @@ rate Is mutually beneficial.
 USD in the US and $\$5200$ HKD in Hong Kong. (a) Calculate the Hong Kong price of the US phone in
 HKD. (b) Is the smartphone cheaper in the US or Hong Kong? (c) If the HKD appreciates to 1 USD $=$
 7.0 HKD, recalculate and explain the effect on Hong Kong's exports. (d) Explain the concept of
-Purchasing power parity (PPP).
+purchasing power parity (PPP).
 
 **Solution:**
 
 (a) US price in HKD: $600 \times 7.8 = HK\$4680$.
 
 (b) In Hong Kong: HK\$5200. The US phone costs HK\$4680, which is cheaper than HK\$5200. The
-Smartphone is cheaper in the US.
+smartphone is cheaper in the US.
 
 (c) New US price in HKD: $600 \times 7.0 = HK\$4200$. The US phone is now even cheaper in HKD terms
 (HK\$4200 vs HK\$5200). HKD appreciation makes imports cheaper and exports more expensive. This
-Reduces Hong Kong's export competitiveness -- foreign buyers need fewer USD to buy HKD, but Hong
+reduces Hong Kong's export competitiveness -- foreign buyers need fewer USD to buy HKD, but Hong
 Kong's goods become more expensive in foreign currency. For example, a HK\$5200 phone now costs
 $5200/7.0 = \$743$ USD (vs $5200/7.8 = \$667$ USD before). Hong Kong's exports become 11% more
 Expensive.
@@ -100,8 +100,8 @@ Predicts the HKD should depreciate to equalise prices.
 **Question:** A country imports shoes. World price $= \$40$ per pair. Domestic demand:
 $Q_d = 200 - 2P$. Domestic supply: $Q_s = 2P - 40$. (a) Calculate the quantity of imports before any
 Tariff. (b) The government imposes a 25% tariff. Calculate the new domestic price, quantity of
-Imports, tariff revenue, and deadweight loss. (c) Calculate the change in consumer surplus and
-Producer surplus.
+imports, tariff revenue, and deadweight loss. (c) Calculate the change in consumer surplus and
+producer surplus.
 
 **Solution:**
 
@@ -148,14 +148,14 @@ must sell USD 5 billion from reserves to defend the peg, given a money multiplie
 **Solution:**
 
 (a) To maintain the peg, the central bank must buy LC (using its USD reserves) or sell USD. This
-Reduces the domestic money supply as LC is taken out of circulation. The reduced money supply raises
+reduces the domestic money supply as LC is taken out of circulation. The reduced money supply raises
 Domestic interest rates, which should attract capital inflows and stabilise the exchange rate.
 
 (b) The **impossible trinity** (trilemma) states a country cannot simultaneously have: (1) a fixed
 Exchange rate, (2) free capital mobility, and (3) independent monetary policy. To reduce
 Unemployment, the central bank would want to lower interest rates (expansionary monetary policy),
 But this would cause capital outflow and put downward pressure on the exchange rate, threatening the
-Peg. The central bank must choose between maintaining the peg or pursuing independent monetary
+peg. The central bank must choose between maintaining the peg or pursuing independent monetary
 Policy.
 
 (c) Selling USD 5 billion and buying LC removes LC 5 billion from circulation. With a money
@@ -167,9 +167,9 @@ Illustrating the trilemma constraint.
 
 **Question:** Country A imposes a quota of 30 units on imported steel. World price $= \$100$.
 Without the quota, domestic demand is $Q_d = 150 - 0.5P$ and supply is $Q_s = 0.5P - 25$. (a)
-Calculate the free trade imports and domestic price with the quota. (b) Calculate the change in
-Consumer surplus, producer surplus, and deadweight loss compared to free trade. (c) Who gains the
-Quota rent? How does this differ from a tariff? (d) If the steel industry generates positive
+calculate the free trade imports and domestic price with the quota. (b) Calculate the change in
+consumer surplus, producer surplus, and deadweight loss compared to free trade. (c) Who gains the
+quota rent? How does this differ from a tariff? (d) If the steel industry generates positive
 Externalities (strategic industry for defence), explain how this affects the welfare analysis.
 
 **Solution:**
@@ -194,9 +194,9 @@ Licenses).
 $DWL = |\Delta CS - \Delta PS - quota rent| = |{-3993.75} - 1631.25 - 1350| = |{-3993.75} + 1631.25 + 1350| = |-1012.5| = \$1012.5$.
 
 (c) Quota rent goes to **import licence holders** (foreign exporters if they hold the licences, or
-Domestic importers if allocated by the government). With a tariff, the equivalent revenue goes to
+domestic importers if allocated by the government). With a tariff, the equivalent revenue goes to
 the **domestic government**. This is a key difference: tariffs generate government revenue while
-Quotas create quota rents that may benefit foreign producers.
+quotas create quota rents that may benefit foreign producers.
 
 (d) If steel has positive externalities (e.g., national security, technology spillovers), the free
 Market underprovides it. The protection (quota) moves production closer to the socially optimal
@@ -228,7 +228,7 @@ $= 0$. $-80 + 0 + 80 + 0 = 0$. The identity holds.
 
 A current account deficit $(X \lt M)$ means the country is spending more on imports than it earns
 from exports. This must be financed by: (1) foreign borrowing (financial account surplus), or (2)
-Running down foreign reserves. Equivalently, $S - I \lt 0$ Meaning domestic investment exceeds
+running down foreign reserves. Equivalently, $S - I \lt 0$ Meaning domestic investment exceeds
 Domestic saving. The country is importing capital to finance investment that exceeds domestic
 Savings. This is sustainable if the borrowed funds are invested productively (generating future
 Export capacity), but unsustainable if used for consumption.
@@ -386,7 +386,7 @@ Comprehensive Economic Partnership). (a) Explain the difference between trade cr
 diversion. (b) Suppose RCEP eliminates tariffs on electronics between member countries but maintains
 a 10% tariff on electronics from non-member countries. Before RCEP, Country X (a non-member) was the
 lowest-cost producer of electronics at $\$100$ per unit. Country Y (a member) produces at $\$105$.
-Calculate the trade creation and trade diversion effects if Hong Kong switches from importing from X
+calculate the trade creation and trade diversion effects if Hong Kong switches from importing from X
 to importing from Y. (c) Explain how CEPA benefits Hong Kong's economy. (d) Evaluate the argument
 that free trade agreements undermine the multilateral trading system.
 

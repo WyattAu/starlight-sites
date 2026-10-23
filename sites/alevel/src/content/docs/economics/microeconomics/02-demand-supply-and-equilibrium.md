@@ -25,17 +25,17 @@ categories:
 ### 1.1 Definition
 
 We define **demand** as the quantity of a good or service that consumers are _willing and able_ to
-Purchase at each possible price during a given time period, _ceteris paribus_.
+purchase at each possible price during a given time period, _ceteris paribus_.
 
 $$
 Q_d = f(P, Y, P_s, P_c, T, E, N)
 $$
 
 Where $P$ = price of the good, $Y$ = income, $P_s$ = price of substitutes, $P_c$ = price of
-Complements, $T$ = tastes, $E$ = expectations, $N$ = population.
+complements, $T$ = tastes, $E$ = expectations, $N$ = population.
 
 The **law of demand** states that, ceteris paribus, as price rises, quantity demanded falls. This
-Follows from:
+follows from:
 
 1. **Income effect**: a higher price reduces real purchasing power
 2. **Substitution effect**: a higher price makes substitutes relatively more attractive
@@ -43,7 +43,7 @@ Follows from:
 ### 1.2 Deriving Individual Demand from Utility Maximisation
 
 Consider a consumer with utility function $U(x, y)$ facing prices $P_x$, $P_y$ and income $M$. The
-Consumer solves:
+consumer solves:
 
 $$
 \begin{aligned}
@@ -120,7 +120,7 @@ Different. Examiners penalise imprecise language.
 ### 2.1 Definition
 
 We define **supply** as the quantity of a good or service that producers are _willing and able_ to
-Offer for sale at each possible price during a given time period, _ceteris paribus_.
+offer for sale at each possible price during a given time period, _ceteris paribus_.
 
 $$
 Q_s = g(P, C, T, S, E, n)
@@ -130,7 +130,7 @@ Where $C$ = costs of production, $T$ = technology, $S$ = subsidies/taxes, $E$ = 
 Number of firms.
 
 The **law of supply** states that, ceteris paribus, as price rises, quantity supplied rises. This
-Follows from profit maximisation.
+follows from profit maximisation.
 
 ### 2.2 Deriving Supply from Profit Maximisation
 
@@ -194,7 +194,7 @@ Rises and quantity supplied falls until equilibrium is restored.
 
 Suppose price $P_2 \lt P^*$. Then $Q_D(P_2) \gt Q_S(P_2)$, there is excess demand (a shortage).
 Consumers bid up prices. As price rises, quantity supplied rises and quantity demanded falls until
-Equilibrium is restored.
+equilibrium is restored.
 
 Therefore, the equilibrium is **stable**: any deviation sets in motion forces that restore
 Equilibrium. $\blacksquare$

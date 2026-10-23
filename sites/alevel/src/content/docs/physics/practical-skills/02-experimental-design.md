@@ -36,7 +36,7 @@ Changes in the independent variable.
 
 **Definition.** A control variable is a variable that is kept constant throughout an experiment to
 Ensure that any observed changes in the dependent variable are due only to changes in the
-Independent variable.
+independent variable.
 
 - **Independent variable**: the variable you deliberately change (e.g., length of wire)
 - **Dependent variable**: the variable you measure (e.g., resistance)
@@ -125,7 +125,7 @@ Accuracy but not precision.
 
 **Definition.** A random error is an unpredictable variation in measured values caused by
 Limitations of measurement or environmental fluctuations. It affects precision but not accuracy on
-Average.
+average.
 
 **Definition.** Uncertainty is an estimate of the range within which the true value of a measured
 Quantity is likely to lie, expressed as an absolute value $\pm \Delta x$ or as a percentage.
@@ -151,7 +151,7 @@ Quantity is likely to lie, expressed as an absolute value $\pm \Delta x$ or as a
 ### Reliability in Depth
 
 Reliability is fundamentally about **repeatability** and **reproducibility**. An experiment is
-Reliable if:
+reliable if:
 
 - **Repeatability:** the same person, using the same equipment, under the same conditions, obtains
   the same results on repeated trials.
@@ -164,7 +164,7 @@ The **range** (maximum − minimum) is often used as a simpler indicator.
 
 **Example.** A student measures the period of a pendulum five times: 1.98 s, 2.01 s, 2.00 s, 1.99 s,
 2.00 s. The mean is 2.00 s and the range is 0.03 s, giving a spread of $\pm 0.015$ s. This is
-Reliable, the variation is less than 1% of the mean.
+reliable, the variation is less than 1% of the mean.
 
 ### Validity in Depth
 
@@ -256,7 +256,7 @@ When asked to design an experiment, address:
 
 **Uncertainty:** The dominant uncertainty is the timing measurement. The absolute uncertainty in $T$
 Is $\pm 0.2$ s / 20 $= \pm 0.01$ s. The length measurement has uncertainty $\pm 0.005$ m from the
-Metre rule resolution.
+metre rule resolution.
 
 **Analysis:** Since $T = 2\pi\sqrt{L/g}$ Plotting $T^2$ vs $L$ gives a straight line through the
 Origin with gradient $4\pi^2/g$. Calculate $g$ from the gradient and compare with the accepted value
@@ -309,7 +309,7 @@ is critical:
 ### Choosing the Right Instrument
 
 The choice of instrument depends on the quantity being measured, the required precision, and the
-Context of the experiment:
+context of the experiment:
 
 - **Lengths &gt; 10 cm:** metre rule (resolution 1 mm)
 - **Lengths 1–10 cm:** vernier calipers (resolution 0.01 mm)
@@ -422,7 +422,7 @@ When evaluating, you must distinguish between the two types of error:
 
 **Example.** In a resistivity experiment, a student plots $R$ vs $L$ and finds the line of best fit
 Has a non-zero y-intercept. This indicates a systematic error, likely contact resistance at the
-Crocodile clips. The intercept represents this fixed resistance.
+crocodile clips. The intercept represents this fixed resistance.
 
 ### Evaluating Graphs
 
@@ -489,7 +489,7 @@ When a graph is plotted, check:
 
 :::tip
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the
-Wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
+wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
 :::
 
 :::danger
@@ -540,7 +540,7 @@ Measure diameter at multiple positions.
 <details>
 <summary>Problem 2</summary>
 In an experiment to determine $g$ using a simple pendulum, a student measures the time for 20
-Oscillations. Explain why this improves the reliability compared to timing a single oscillation.
+oscillations. Explain why this improves the reliability compared to timing a single oscillation.
 
 **Answer.** The uncertainty in timing a single oscillation is dominated by human reaction time
 ($\sim 0.2$ s). For a period of $\sim 1$ s, this gives a percentage uncertainty of $\sim 20\%$.
@@ -555,7 +555,7 @@ Period uncertainty is reduced by a factor of 20.
 <details>
 <summary>Problem 3</summary>
 Identify the independent, dependent, and control variables in an experiment to investigate how the
-Resistance of a thermistor varies with temperature.
+resistance of a thermistor varies with temperature.
 
 **Answer.** **Independent variable:** temperature $T$ (varied using a water bath). **Dependent
 Variable:** resistance $R$ (measured with an ohmmeter). **Control variables:** type of thermistor,
@@ -602,9 +602,9 @@ the speed of sound in air using echo timing.
 **Answer.** **Reliability:** repeating the experiment gives consistent values of the speed of sound.
 This is ensured by using the same apparatus, same distance, same temperature control, and taking
 Multiple readings. **Validity:** the method actually measures the speed of sound, not some other
-Quantity. This requires that the distance to the reflecting surface is accurately known, the time
+quantity. This requires that the distance to the reflecting surface is accurately known, the time
 Measured is truly the echo time (not other reflections), and temperature is controlled (since the
-Speed of sound depends on temperature).
+speed of sound depends on temperature).
 
 <b>If you get this wrong, revise:</b>
 [Reliability, Validity, and Accuracy](#reliability-validity-and-accuracy)
@@ -617,11 +617,11 @@ A student investigates how the resistance of a length of constantan wire changes
 The wire is heated in a water bath and its resistance is measured at regular temperature intervals.
 The student"s data shows that the resistance increases linearly with temperature, but the gradient
 is significantly different from the accepted value. Identify two possible systematic errors in this
-Experiment.
+experiment.
 
 **Answer.** (1) **Contact resistance:** The crocodile clips may add a fixed resistance that is not
 Accounted for. This shifts the entire line up, changing the apparent gradient. Solution: measure the
-Resistance at 0°C (ice-water mixture) and subtract this intercept, or use a four-wire (Kelvin)
+resistance at 0°C (ice-water mixture) and subtract this intercept, or use a four-wire (Kelvin)
 Connection. (2) **Temperature lag:** The wire may not be at the same temperature as the water bath
 (thermal equilibrium not reached). If the wire lags behind the water temperature, the measured
 Resistance corresponds to a lower temperature than recorded, distorting the gradient. Solution:
@@ -667,7 +667,7 @@ Measurement uncertainty. The internal resistance $r = 1.25 \Omega$. The graph pa
 through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
 does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
 To improve accuracy: use a more precise voltmeter, ensure the battery does not heat up (which would
-Change $r$ during the experiment), and take readings quickly to minimise changes in the battery's
+change $r$ during the experiment), and take readings quickly to minimise changes in the battery's
 Internal state.
 
 <b>If you get this wrong, revise:</b> [Evaluating Graphs](#evaluating-graphs)
@@ -677,8 +677,8 @@ Internal state.
 <details>
 <summary>Problem 10</summary>
 Design an experiment to determine the Young modulus of a copper wire. In your answer, identify all
-Variables, describe the method, and explain how you would ensure the experiment is both reliable and
-Valid.
+variables, describe the method, and explain how you would ensure the experiment is both reliable and
+valid.
 
 **Answer.**
 
@@ -717,8 +717,8 @@ the wire obeys Hooke's law throughout the range used.
 <summary>Problem 11</summary>
 In an experiment to determine the speed of sound in air, a student claps once and measures the time
 for the echo to return from a wall 50 m away. The student repeats the measurement 5 times and
-Obtains the following times: 0.294 s, 0.301 s, 0.288 s, 0.310 s, 0.295 s. The accepted speed of
-Sound at 20°C is 343 m s$^{-1}$.
+obtains the following times: 0.294 s, 0.301 s, 0.288 s, 0.310 s, 0.295 s. The accepted speed of
+sound at 20°C is 343 m s$^{-1}$.
 
 (a) Calculate the mean time and the percentage uncertainty in the time measurement. (b) Calculate
 the speed of sound from the mean time and compare with the accepted value. (c) Identify the largest

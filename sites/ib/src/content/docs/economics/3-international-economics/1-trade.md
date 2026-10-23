@@ -52,7 +52,7 @@ $2\;\mathrm{m}$). Country B has a comparative advantage in cloth (lower opportun
 Bottles vs. $2$ bottles).
 
 Both countries gain from specialising in the good in which they have a comparative advantage and
-Trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
+trading at a mutually beneficial terms of trade between the two opportunity cost ratios (e.g., 1
 wine for 0.75 cloth -- between A"s cost of 0.5 and B's cost of 2).
 
 **Gains from trade with numerical example:**
@@ -209,7 +209,7 @@ Unlike tariffs, the revenue from the higher price may accrue to:
 ### Subsidies
 
 A production subsidy to domestic producers lowers their costs, enabling them to compete more
-Effectively against imports. Unlike tariffs, subsidies do not directly raise consumer prices, but
+effectively against imports. Unlike tariffs, subsidies do not directly raise consumer prices, but
 they impose a fiscal cost on the government and may provoke retaliation under WTO rules.
 
 ### Administrative Barriers
@@ -224,7 +224,7 @@ Non-tariff barriers include:
   treatment)
 
 While often justified on legitimate grounds (consumer safety, public health), these can act as
-Disguised protectionism by imposing additional costs on foreign suppliers.
+disguised protectionism by imposing additional costs on foreign suppliers.
 
 ### Arguments for Protection
 
@@ -284,7 +284,7 @@ Resources more efficiently.
 
 **Trade diversion**: removal of trade barriers leads to the replacement of lower-cost imports from a
 Non-member country with higher-cost imports from a member country. This reduces welfare because
-Resources are allocated to a less efficient producer.
+resources are allocated to a less efficient producer.
 
 The net welfare effect depends on the relative sizes of trade creation and trade diversion:
 
@@ -324,8 +324,8 @@ Intra-African trade, which is currently low (approximately 15% of total African 
 ### Definition and Dimensions
 
 Globalisation is the process of increasing economic, social, and cultural interconnection between
-Countries. In economics, it refers primarily to the liberalisation of trade and capital flows, the
-Growth of multinational corporations, and the integration of financial markets.
+countries. In economics, it refers primarily to the liberalisation of trade and capital flows, the
+growth of multinational corporations, and the integration of financial markets.
 
 **Dimensions:**
 
@@ -444,7 +444,7 @@ The WTO is the international body that oversees the rules of global trade. Estab
 <summary>Problem 1: Comparative Advantage with Gains from Trade</summary>
 
 Country X can produce 10 tonnes of wheat or 5 tonnes of steel per worker per day. Country Y can
-Produce 6 tonnes of wheat or 6 tonnes of steel per worker per day.
+produce 6 tonnes of wheat or 6 tonnes of steel per worker per day.
 
 (a) Determine which country should specialise in which good.
 
@@ -459,7 +459,7 @@ Specialisation.
 - Country Y: 1 wheat costs $6/6 = 1$ steel; 1 steel costs $6/6 = 1$ wheat
 
 Country X has a comparative advantage in wheat ($0.5 < 1$). Country Y has a comparative advantage in
-Steel ($1 < 2$).
+steel ($1 < 2$).
 
 (b) Before specialisation (assuming 50 workers in each industry):
 
@@ -558,7 +558,7 @@ Depreciates by $15\%$.
 The Marshall-Lerner condition is NOT satisfied. The depreciation will worsen the current account In
 the short run because demand for both exports and imports is inelastic. The increase in export
 Revenue from more units sold is outweighed by the decrease in revenue per unit, and the decrease in
-Import expenditure from fewer units bought is outweighed by the increase in price per unit.
+import expenditure from fewer units bought is outweighed by the increase in price per unit.
 
 (b) The J-curve describes the short-run deterioration followed by long-run improvement. Immediately
 after depreciation:
@@ -628,7 +628,7 @@ $= \frac{1}{2} \times 10 \times (100 - 80) + \frac{1}{2} \times 10 \times (80 - 
 
 (c) Consumers bear the entire burden of the tariff in the form of higher prices ($+ \$10$ per unit)
 And reduced consumption (from 100 to 80 units). Domestic producers gain from higher prices and
-Increased output. Since the tariff is prohibitive, there are no imports and no government revenue.
+increased output. Since the tariff is prohibitive, there are no imports and no government revenue.
 
 </details>
 
@@ -713,7 +713,7 @@ However, this is **trade diversion**: production shifts from the more efficient 
 unit Difference between B's cost and C's cost, on the diverted volume (100 units) $=$ `USD 200`.
 
 Net welfare effect $= 100 - 200 = -\$100$. The customs union reduces welfare in this case because
-Trade diversion exceeds trade creation.
+trade diversion exceeds trade creation.
 
 </details>
 
@@ -722,8 +722,8 @@ Trade diversion exceeds trade creation.
 ### Opportunity Cost Ratios and Specialisation
 
 The principle of comparative advantage states that countries should specialise in the production of
-Goods for which they have the lowest opportunity cost. The gains from trade arise from the
-Difference between the autarky (no-trade) opportunity cost ratios and the terms of trade.
+goods for which they have the lowest opportunity cost. The gains from trade arise from the
+difference between the autarky (no-trade) opportunity cost ratios and the terms of trade.
 
 **Formal framework:**
 
@@ -763,7 +763,7 @@ Workers, Japan = 100 workers.
 - Japan: 1 wine costs $10/2 = 5$ electronics; 1 electronic costs $2/10 = 0.2$ wine
 
 France has a comparative advantage in wine (0.5 < 5). Japan has a comparative advantage in
-Electronics (0.2 < 2).
+electronics (0.2 < 2).
 
 **Autarky (50 workers in each industry):**
 
@@ -1003,7 +1003,7 @@ trading partners.
 ### Harrod-Domar Model
 
 The Harrod-Domar model (1939, 1946) was one of the first formal models of economic growth. It
-Relates the growth rate to the savings rate and the capital-output ratio:
+relates the growth rate to the savings rate and the capital-output ratio:
 
 $$
 g = \frac{s}{v}
@@ -1041,7 +1041,7 @@ $$
 ### Lewis Dual-Sector Model
 
 Arthur Lewis (1954) proposed a model of structural change in developing economies based on the
-Coexistence of two sectors:
+coexistence of two sectors:
 
 1. **Traditional (subsistence) sector**: characterised by surplus labour (low marginal productivity
    of labour, near-zero), low wages at subsistence level, and informal production
@@ -1082,7 +1082,7 @@ Coexistence of two sectors:
 
 **Chenery's patterns of development:** as countries develop, the share of agriculture in GDP and
 Employment falls, while the shares of manufacturing and services rise. This structural change is
-Driven by:
+driven by:
 
 1. **Engel's Law**: as incomes rise, the share of spending on food falls (reducing agriculture's
    share)
@@ -1237,7 +1237,7 @@ $92.9 \times 90/100 = 83.6$
 
 (c) The purchasing power of exports (income ToT) was highest in 2020 (100.0). Despite the ToT
 Improving in 2021, the decline in export volume more than offset the price improvement. By 2022,
-Both the ToT and export volumes had deteriorated, significantly reducing the country's capacity To
+both the ToT and export volumes had deteriorated, significantly reducing the country's capacity To
 import.
 
 </details>
@@ -1306,7 +1306,7 @@ opportunity.
 <summary>Problem 9: Harrod-Domar and Lewis Model Application</summary>
 
 Country Z has a savings rate of 15%, an incremental capital-output ratio (ICOR) of 4, and a
-Population growth rate of 2% per year.
+population growth rate of 2% per year.
 
 (a) Using the Harrod-Domar model, calculate the required savings rate to achieve 7% GDP growth.
 
@@ -1323,7 +1323,7 @@ Current savings rate is 15%, which yields $g = 0.15/4 = 3.75\%$. With population
 per capita grows at only $3.75\% - 2\% = 1.75\%$.
 
 To achieve 7% growth, the country needs to nearly double its savings rate to 28%. This could be
-Achieved through:
+achieved through:
 
 - Increasing domestic saving (tax incentives, financial development)
 - Attracting foreign saving (FDI, external borrowing, aid)
@@ -1407,7 +1407,7 @@ A small open economy has the following data for 2025 (in billions of USD):
 **Current account:** $-70 + 30 - 35 + 20 = -55$ billion USD (deficit)
 
 The main driver is the goods trade deficit (-70), partially offset by services surplus (+30) and
-Secondary income (+20).
+secondary income (+20).
 
 (b) **Financial account:**
 
@@ -1585,7 +1585,7 @@ An optimum currency area (OCA) is a region where the benefits of sharing a commo
 the costs of losing monetary independence.
 
 Mundell identified the key criterion: **labour mobility**. If workers can move freely between
-Regions, asymmetric shocks (a recession in one region) can be addressed through migration Rather
+regions, asymmetric shocks (a recession in one region) can be addressed through migration Rather
 than monetary policy.
 
 **Other OCA criteria:**
@@ -1824,7 +1824,7 @@ create opportunities for evasion (capital flight through informal channels).
 **Evaluation:** devaluation is more market-friendly but may not address the underlying inflation
 Problem. Capital controls restore monetary autonomy but damage financial integration. The best
 Option depends on Country M's specific circumstances: the credibility of its institutions, the
-Elasticity of its exports, and the duration of the inflation problem.
+elasticity of its exports, and the duration of the inflation problem.
 
 </details>
 
@@ -2194,10 +2194,10 @@ what would cost 4.5 hours domestically. This is a loss.
 
 The issue is that at $P_w/P_c = 0.75$1 wine buys only 0.75 cloth. Country B's autarky Exchange rate
 is 1:1 (6 hours each). For trade to benefit Country B, the terms of trade Must be at least 1:1 in
-Country B's favour.
+country B's favour.
 
 Let me reconsider. The terms of trade must satisfy: Country A gains from exporting cloth, And
-Country B gains from exporting wine.
+country B gains from exporting wine.
 
 For Country A to gain from exporting cloth: the world price of cloth (in wine) must exceed Country
 A's opportunity cost of cloth: $P_c/P_w > 0.5$ I.e., $P_w/P_c < 2$.
@@ -2350,7 +2350,7 @@ imports. B produces widgets at $8; outside country C produces at $6.
 
 Before union: A imports from C at $6 + 20\% = \$7.20$. After union: A imports from B at $8$ (no
 tariff within union). Trade diversion: A now buys from less efficient producer B at $8 > \$7.20$.
-The $0.80$ per unit extra cost is a welfare loss, unless the increased trade volume generates
+the $0.80$ per unit extra cost is a welfare loss, unless the increased trade volume generates
 sufficient consumer surplus gains to offset it.
 
 ## Summary

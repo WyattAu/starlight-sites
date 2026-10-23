@@ -37,19 +37,19 @@ $120^\circ$. The C=C bond length ($134\,\mathrm{pm}$) is shorter than the C--C s
 
 The $\pi$ bond restricts rotation about the C=C axis, which has two critical consequences: E/Z
 Isomerism (discussed in the [introduction](/chemistry/organic-chemistry/)) and the existence of a
-Substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
+substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
 
 ### Physical Properties
 
 Alkenes are non-polar, insoluble in water, and have boiling points slightly lower than the
-Corresponding alkanes (the $\pi$ electrons do not significantly enhance London forces). Boiling
+corresponding alkanes (the $\pi$ electrons do not significantly enhance London forces). Boiling
 Points increase with chain length and decrease with branching, as with alkanes.
 
 ## Electrophilic Addition
 
 The $\pi$ bond is a region of high electron density above and below the plane of the molecule. It
-Acts as a nucleophile, attacking electrophilic species. This is the defining reaction class of
-Alkenes: **electrophilic addition**.
+acts as a nucleophile, attacking electrophilic species. This is the defining reaction class of
+alkenes: **electrophilic addition**.
 
 ### General Mechanism
 
@@ -134,7 +134,7 @@ Catalyst at $300^\circ\mathrm{C}$ and high pressure.
 ### Addition of Halogens
 
 Alkenes decolourise bromine water (orange to colourless) and chlorine water. This is used as the
-Standard test for unsaturation.
+standard test for unsaturation.
 
 **Addition of Br$_2$:**
 
@@ -149,7 +149,7 @@ Giving anti addition (stereospecific trans addition).
 
 The bromonium ion mechanism explains the observed stereospecificity. For cyclic alkenes, this means
 the two bromine atoms end up on opposite faces of the ring (anti addition), which would not be the
-Case with a free carbocation intermediate.
+case with a free carbocation intermediate.
 
 ## Addition Polymerisation
 
@@ -408,7 +408,7 @@ Ethene is the most important organic chemical in industry:
 <summary>Problem 1</summary>
 
 Predict the major organic product(s) when 2-methylbut-2-ene reacts with HBr. Show the mechanism and
-Explain the regiochemistry.
+explain the regiochemistry.
 
 **Solution:**
 
@@ -444,7 +444,7 @@ M_{\mathrm{polymer}} = n \times M_{\mathrm{monomer}} = 5000 \times 42.08 = 210,4
 $$
 
 Each repeating unit has the same molar mass as the monomer (the double bond opens but no atoms are
-Lost or gained in addition polymerisation).
+lost or gained in addition polymerisation).
 
 </details>
 

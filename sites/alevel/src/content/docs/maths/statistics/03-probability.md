@@ -50,7 +50,7 @@ and draw a diagram before calculating.
    $P\!\left(\bigcup_{i}A_i\right) = \sum_i P(A_i)$.
 
 These three axioms are the foundation of all probability theory. Every theorem in probability can be
-Derived from them.
+derived from them.
 
 <hr />
 
@@ -257,7 +257,7 @@ Venn diagrams represent events as regions. Useful for visualising:
 
 Tree diagrams are useful for sequential experiments. Each branch represents a possible outcome with
 its probability. The probability along any path is the product of the probabilities along its
-Branches (multiplication rule). The probability of any event is found by adding the probabilities of
+branches (multiplication rule). The probability of any event is found by adding the probabilities of
 all paths leading to it (addition rule for mutually exclusive paths).
 
 **Example.** A bag contains 3 red and 2 blue balls. Two balls are drawn without replacement.
@@ -348,7 +348,7 @@ the exterior). The fundamental approach is:
 
 **Example.** In a class of 40 students, 18 study Maths, 15 study Physics, and 12 study Chemistry. 5
 Study all three, 8 study Maths and Physics, 6 study Maths and Chemistry, and 7 study Physics and
-Chemistry.
+chemistry.
 
 The region for "Maths only" is: $18 - 8 - 6 + 5 = 9$ (subtract overlaps, add back the triple
 Overlap).
@@ -471,7 +471,7 @@ Function $p(x) = P(X = x)$ Defined for all $x \in \mathbb{R}$.
 
 **Proof.** Property 1 follows from non-negativity of probability. Property 2 follows because the
 Events $\\{X = x\\}$ for all possible values of $x$ form a partition of $\Omega$ So their
-Probabilities sum to 1 by the normalisation axiom. $\blacksquare$
+probabilities sum to 1 by the normalisation axiom. $\blacksquare$
 
 ### 10.3 Cumulative distribution function (CDF)
 
@@ -587,7 +587,7 @@ By Bayes' theorem:
 $P(D|T^+) = \dfrac{P(T^+|D)P(D)}{P(T^+)} = \dfrac{0.0099}{0.0198} = 0.5$.
 
 Even with a 99% accurate test, a positive result means only a 50% chance of actually having the
-Disease, because the disease is so rare.
+disease, because the disease is so rare.
 
 **If you get this wrong, revise:** [Bayes' Theorem](#4-bayes-theorem), Section 4.
 

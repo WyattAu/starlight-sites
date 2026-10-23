@@ -105,7 +105,7 @@ DNS translates human-readable domain names (e.g., `example.com`) to IP addresses
 
 **Why caching matters.** Without caching, every DNS lookup would require multiple queries across the
 Internet. Caching at the browser, OS, and resolver levels means most lookups are resolved locally in
-Milliseconds.
+milliseconds.
 
 **DNS records:**
 
@@ -148,8 +148,8 @@ Handshake would leave the server unsure whether the client received its response
 
 **TCP flow control.** TCP uses a sliding window mechanism. The receiver advertises a window size
 (how much data it can accept). The sender transmits data up to the window size without waiting for
-Acknowledgements. This allows efficient pipelining while preventing the receiver from being
-Overwhelmed.
+acknowledgements. This allows efficient pipelining while preventing the receiver from being
+overwhelmed.
 
 **TCP vs UDP decision guide:**
 
@@ -243,7 +243,7 @@ Include session management (login state), personalisation (preferences), and tra
 
 **Encapsulation.** As data moves down the layers, each layer adds its own header. At the link layer,
 Data becomes a frame. At the network layer, it becomes a packet. At the transport layer, it is a
-Segment (TCP) or datagram (UDP). The receiving end strips headers as data moves up.
+segment (TCP) or datagram (UDP). The receiving end strips headers as data moves up.
 
 **Encapsulation walkthrough:**
 
@@ -310,7 +310,7 @@ Using IP addresses. A home "router" is actually a router + switch + wireless acc
 
 **Analogy.** Bandwidth is the width of a motorway (how many lanes). Latency is the travel time for a
 Single car. Throughput is the actual number of cars passing a point per hour (affected by
-Congestion, speed limits, and road conditions).
+congestion, speed limits, and road conditions).
 
 **Worked Example.** A link has a bandwidth of 100 Mbps but due to congestion, the actual throughput
 Is 65 Mbps. A 50 MB file needs to be transferred. How long does it take?
@@ -365,7 +365,7 @@ Data encryption.
 
 **Asymmetric encryption:** Each party has a public key (shared openly) and a private key (kept
 Secret). Data encrypted with the public key can only be decrypted with the private key. RSA is the
-Standard. Slower, used for key exchange.
+standard. Slower, used for key exchange.
 
 **How HTTPS combines both:**
 
@@ -376,7 +376,7 @@ Standard. Slower, used for key exchange.
 5. Both sides use the session key for symmetric (AES) encryption of all subsequent data.
 
 This hybrid approach gives the security of asymmetric encryption for key exchange with the speed of
-Symmetric encryption for data transfer.
+symmetric encryption for data transfer.
 
 **Digital signatures.** A sender encrypts a hash of a message with their private key. The receiver
 Verifies it with the sender's public key. This proves the message was sent by the claimed sender
@@ -550,7 +550,7 @@ lease Before it expires.
 ### NAT (Network Address Translation)
 
 NAT allows multiple devices on a LAN to share a single public IP address. The router maintains a
-Translation table that maps private IP addresses to the public IP address and port numbers.
+translation table that maps private IP addresses to the public IP address and port numbers.
 
 **Why NAT is necessary.** IPv4 has a limited number of addresses (4.3 billion). NAT allows a single
 Public IP to serve many private devices, conserving the address space.
@@ -728,7 +728,7 @@ Multiple internal devices.
 network Test shows latency of 80 ms and jitter of 50 ms. Is the network suitable?
 
 Latency is fine (80 ms < 150 ms) but jitter is too high (50 ms > 30 ms). The VoIP quality may be
-Poor due to inconsistent packet arrival times.
+poor due to inconsistent packet arrival times.
 
 ## Wireless Security in Detail
 
@@ -742,7 +742,7 @@ Poor due to inconsistent packet arrival times.
 ### KRACK Attack on WPA2
 
 The Key Reinstallation Attack (KRACK) exploits a vulnerability in the 4-way handshake. By
-Manipulating and replaying handshake messages, an attacker can force the reuse of a nonce, allowing
+manipulating and replaying handshake messages, an attacker can force the reuse of a nonce, allowing
 them to decrypt packets and inject data.
 
 **Mitigation:** Upgrade to WPA3, which uses Simultaneous Authentication of Equals (SAE) and is
@@ -772,7 +772,7 @@ A VLAN logically segments a physical network into separate broadcast domains.
 Explain How VLANs improve security.
 
 Creating separate VLANs for students and staff means broadcast traffic from student devices does not
-Reach staff computers. Access rules can restrict student VLAN access to sensitive resources like
+reach staff computers. Access rules can restrict student VLAN access to sensitive resources like
 Grade databases.
 
 ## Cloud Computing

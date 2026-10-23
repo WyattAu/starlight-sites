@@ -120,8 +120,8 @@ Jim Crow operated across multiple dimensions:
 World War II was a catalyst for civil rights activism. Over one million African Americans served in
 the armed forces during a war fought against racist ideologies abroad. The "Double V" campaign --
 Victory abroad against fascism, victory at home against racism -- captured this contradiction. The
-Migration of African Americans to northern and western industrial cities during the war (the Second
-Great Migration) increased black political power and created new constituencies for civil rights
+migration of African Americans to northern and western industrial cities during the war (the Second
+great Migration) increased black political power and created new constituencies for civil rights
 Legislation. Executive Order 8802 (1941), issued by President Roosevelt under pressure from A.
 Philip Randolph's threatened March on Washington, banned racial discrimination in the defence
 industry And established the Fair Employment Practices Committee.
@@ -134,7 +134,7 @@ The Supreme Court's unanimous decision declared racial segregation in public sch
 Unconstitutional, overturning Plessy v. Ferguson. Chief Justice Earl Warren held that "separate
 Educational facilities are inherently unequal" and that segregation violated the Equal Protection
 Clause of the Fourteenth Amendment. The decision drew on psychological evidence demonstrating that
-Segregation generated a "feeling of inferiority" in African American children.
+segregation generated a "feeling of inferiority" in African American children.
 
 **Brown II (1955)** ordered desegregation "with all deliberate speed" -- a phrase Southern school
 Boards interpreted as an invitation to delay. Ten years after Brown, fewer than 2% of African
@@ -153,7 +153,7 @@ Browder v. Gayle, ruling bus segregation unconstitutional.
 Governor Orval Faubus ordered the Arkansas National Guard to block nine African American students
 from entering Little Rock Central High School. President Eisenhower federalised the National Guard
 and sent the 101st Airborne Division to enforce the court order. The students endured a year of
-Daily harassment and violence. The crisis demonstrated that federal enforcement of Brown would face
+daily harassment and violence. The crisis demonstrated that federal enforcement of Brown would face
 Sustained white resistance.
 
 #### Sit-ins (1960)
@@ -161,14 +161,14 @@ Sustained white resistance.
 On 1 February 1960, four students sat at a "whites only" lunch counter in Greensboro, North
 Carolina, sparking a wave of sit-ins across the South. By the end of 1960, approximately 70,000
 People had participated in sit-ins in more than 100 cities. The sit-ins led to the formation of the
-Student Nonviolent Coordinating Committee (SNCC) in April 1960.
+student Nonviolent Coordinating Committee (SNCC) in April 1960.
 
 #### Freedom Rides (1961)
 
 Organised by CORE and SNCC to test enforcement of Boynton v. Virginia (1960), which outlawed
 Segregation in interstate bus facilities. Riders were met with extreme violence in Alabama -- buses
 were firebombed, riders beaten. The Kennedy administration intervened, sending federal marshals. The
-Interstate Commerce Commission issued regulations prohibiting segregation in interstate travel.
+interstate Commerce Commission issued regulations prohibiting segregation in interstate travel.
 
 #### Birmingham Campaign (April--May 1963)
 
@@ -180,26 +180,26 @@ Facilities and hire African American workers.
 
 During the campaign, King wrote **"Letter from Birmingham Jail"** (16 April 1963), a foundational
 Text of the philosophy of nonviolent resistance responding to white clergy who criticised the
-Campaign as untimely.
+campaign as untimely.
 
 #### March on Washington (28 August 1963)
 
 Approximately 250,000 people gathered at the Lincoln Memorial. King delivered the "I Have a Dream"
 Speech, articulating a vision of racial equality rooted in the American democratic tradition. The
-March generated enormous public sympathy and created political momentum for federal legislation.
+march generated enormous public sympathy and created political momentum for federal legislation.
 
 #### Freedom Summer (1964)
 
 A voter registration drive in Mississippi organised by a coalition of civil rights groups. Three
-Workers -- James Chaney, Andrew Goodman, and Michael Schwerner -- were murdered by the Ku Klux Klan.
+workers -- James Chaney, Andrew Goodman, and Michael Schwerner -- were murdered by the Ku Klux Klan.
 The murders generated national outrage and contributed to the passage of the Civil Rights Act.
 Approximately 1,600 volunteers participated, but only 1,200 new voters were registered out of 17,000
-Attempts -- a testament to the depth of Mississippi's resistance.
+attempts -- a testament to the depth of Mississippi's resistance.
 
 #### Selma (1965)
 
 The Selma to Montgomery marches were organised to protest barriers to black voter registration. On 7
-March 1965 ("Bloody Sunday"), state troopers attacked peaceful marchers on the Edmund Pettus Bridge.
+march 1965 ("Bloody Sunday"), state troopers attacked peaceful marchers on the Edmund Pettus Bridge.
 Television coverage of the attack generated nationwide outrage. President Johnson responded By
 introducing the Voting Rights Act. The march was successfully completed on 25 March with Federal
 protection.
@@ -322,7 +322,7 @@ of racial segregation to protect white supremacy and Afrikaner cultural dominanc
 
 All black South Africans were required to carry a passbook ("dompas") containing photograph,
 Fingerprints, employment record, and permission to be in a particular area. Failure to produce a
-Valid pass was a criminal offence. By the 1960s, approximately 250,000 people were arrested annually
+valid pass was a criminal offence. By the 1960s, approximately 250,000 people were arrested annually
 for pass law violations.
 
 ### 3.2 Resistance and Key Events
@@ -346,7 +346,7 @@ South Africa and influenced the 1996 constitution.
 
 Approximately 5,000 to 7,000 people gathered at Sharpeville police station to protest pass laws.
 Police opened fire on the unarmed crowd without warning: 69 killed, approximately 180 wounded. The
-Consequences were transformative:
+consequences were transformative:
 
 - The ANC and PAC were banned (8 April 1960).
 - Approximately 18,000 were detained under the state of emergency.
@@ -378,8 +378,8 @@ old.
 #### Soweto Uprising (16 June 1976)
 
 A spontaneous rebellion by schoolchildren against the imposition of Afrikaans as the medium of
-Instruction. Police opened fire on unarmed students, killing 13-year-old Hector Pieterson. The
-Uprising spread across townships; approximately 575 were killed (official figures). Television
+instruction. Police opened fire on unarmed students, killing 13-year-old Hector Pieterson. The
+uprising spread across townships; approximately 575 were killed (official figures). Television
 Coverage was broadcast worldwide, generating unprecedented international sympathy and contributing
 to the imposition of economic sanctions.
 
@@ -404,7 +404,7 @@ to the imposition of economic sanctions.
   humanity.
 - **Economic sanctions:** Oil embargo forced South Africa to develop synthetic fuel (Sasol).
   Financial sanctions were devastating: Chase Manhattan Bank refused to roll over loans in 1985,
-  Triggering withdrawal of approximately $10 billion. The US Comprehensive Anti-Apartheid Act (1986)
+  triggering withdrawal of approximately $10 billion. The US Comprehensive Anti-Apartheid Act (1986)
   Imposed sanctions over President Reagan's veto.
 - **Sports and cultural boycotts:** International isolation of South African cricket, rugby, and
   athletics teams was deeply resented by white South Africans and contributed to awareness of their
@@ -439,11 +439,11 @@ elections were remarkably peaceful given decades of violent conflict.
 The Truth and Reconciliation Commission (1995--2002), chaired by Desmond Tutu, investigated human
 Rights violations under apartheid. It operated on the principle of restorative justice: perpetrators
 Who testified fully and demonstrated remorse could receive amnesty. The TRC heard testimony from
-Approximately 21,000 victims and 7,000 amnesty applicants. Critics argued it allowed perpetrators To
+approximately 21,000 victims and 7,000 amnesty applicants. Critics argued it allowed perpetrators To
 escape justice; supporters argued it enabled peaceful transition and gave victims a platform.
 
 Economic inequality remained the most persistent post-apartheid challenge: land redistribution was
-Largely unresolved, and the racial wealth gap persisted.
+largely unresolved, and the racial wealth gap persisted.
 
 ### Common Pitfalls: Apartheid South Africa
 
@@ -516,7 +516,7 @@ but developed in distinct political and legal contexts.
 - **Residential Schools (Canada):** Over 150,000 Indigenous children were forcibly removed from
   Their families and placed in government-funded, church-run schools between the 1870s and the
   1990s. The Truth and Reconciliation Commission (2008--2015) documented widespread physical and
-  Sexual abuse and cultural genocide. Prime Minister Stephen Harper delivered an official apology
+  sexual abuse and cultural genocide. Prime Minister Stephen Harper delivered an official apology
   in 2008.
 
 ### 4.4 Comparative Themes
@@ -549,7 +549,7 @@ All three Indigenous rights movements share key characteristics:
 
 The most significant historiographical debate in the study of rights and protest concerns whether
 Change was driven primarily by national leaders and federal action or by grassroots movements and
-Local activism.
+local activism.
 
 - **Traditional (top-down) historiography:** Emphasises the role of national leaders -- King in the
   US, Mandela in South Africa -- and the importance of legislative change and legal victories.
@@ -565,8 +565,8 @@ of the specific question.
 ### 5.2 Role of Leadership vs Mass Movements
 
 Related to the top-down/bottom-up debate, historians disagree about the relative importance of
-Individual leaders and mass movements. Was the civil rights movement driven by King's charisma and
-Strategic brilliance, or was it the product of mass mobilisation that would have occurred with Or
+individual leaders and mass movements. Was the civil rights movement driven by King's charisma and
+strategic brilliance, or was it the product of mass mobilisation that would have occurred with Or
 without King? The answer, most historians now agree, is both: leadership and mass movements Were
 mutually reinforcing.
 

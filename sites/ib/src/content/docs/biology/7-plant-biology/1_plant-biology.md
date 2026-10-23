@@ -73,7 +73,7 @@ New cells for plant growth.
 ### Stomata and Guard Cells
 
 Each stoma is a pore bounded by two **guard cells**. Guard cells regulate the opening and closing of
-Stomata:
+stomata:
 
 - **Open**: when guard cells are turgid (water enters by osmosis), they bend outward due to unevenly
   thickened cell walls (thicker on the inner side), opening the stomatal pore. This occurs in light
@@ -138,7 +138,7 @@ Uptake.
 
 **Root pressure** contributes minimally: active transport of ions into the xylem lowers the water
 Potential, causing water to enter by osmosis, pushing water upward. This is significant only at
-Night (low transpiration) or in small plants.
+night (low transpiration) or in small plants.
 
 ### Factors Affecting Transpiration Rate
 
@@ -255,7 +255,7 @@ down the style toward the ovule. The pollen tube carries two male gametes.
 ### Fruit Development
 
 After fertilisation, the ovule develops into the seed and the ovary develops into the fruit. The
-Fruit protects the seeds and aids in their dispersal.
+fruit protects the seeds and aids in their dispersal.
 
 **Seed dispersal mechanisms**:
 
@@ -318,7 +318,7 @@ Some seeds also require specific conditions such as:
 ### Plant Hormones
 
 Plant hormones (phytohormones) are chemical messengers that regulate growth, development, and
-Responses to stimuli.
+responses to stimuli.
 
 <div class="table-wrap">
 
@@ -349,7 +349,7 @@ Responses to stimuli.
 
 **Evidence**: Darwin's experiments with coleoptiles (1880) demonstrated that the tip of the
 Coleoptile is sensitive to light; Went (1928) extracted the chemical messenger (auxin) from
-Coleoptile tips.
+coleoptile tips.
 
 ### Gravitropism
 
@@ -460,7 +460,7 @@ the roots to maintain turgor. If water loss exceeds uptake, the plant may wilt.
 <summary>Question 2: Pressure Flow Hypothesis</summary>
 
 Explain why sucrose must be actively loaded into the phloem at the source, and describe the
-Consequence if active loading were inhibited (e.g., by a metabolic poison that blocks ATP
+consequence if active loading were inhibited (e.g., by a metabolic poison that blocks ATP
 Production).
 
 </details>
@@ -476,8 +476,8 @@ Pressure at the source that drives mass flow.
 
 If ATP production is blocked (e.g., by a metabolic poison), active loading of sucrose cannot occur.
 Sucrose concentration in the sieve tube remains low, so water does not enter by osmosis, and no
-Pressure gradient is established. Translocation would stop, and sugars would accumulate in the
-Source tissues (leaves). This would also inhibit photosynthesis (product accumulation causes
+pressure gradient is established. Translocation would stop, and sugars would accumulate in the
+source tissues (leaves). This would also inhibit photosynthesis (product accumulation causes
 Feedback inhibition) and starve sink tissues (growing tips, roots, fruits) of carbohydrates.
 
 </details>
@@ -486,7 +486,7 @@ Feedback inhibition) and starve sink tissues (growing tips, roots, fruits) of ca
 <summary>Question 3: Double Fertilisation</summary>
 
 A flowering plant has a diploid chromosome number of $2n = 24$. State the chromosome number of: (a)
-The egg cell, (b) the polar nuclei (each), (c) the zygote, and (d) the endosperm.
+the egg cell, (b) the polar nuclei (each), (c) the zygote, and (d) the endosperm.
 
 </details>
 
@@ -496,7 +496,7 @@ The egg cell, (b) the polar nuclei (each), (c) the zygote, and (d) the endosperm
 The haploid number is $n = 12$.
 
 (a) Egg cell: $n = 12$ (produced by meiosis). (b) Each polar nucleus: $n = 12$ (produced by
-Meiosis). (c) Zygote: $2n = 24$ (fusion of egg $n = 12$ + male gamete $n = 12$). (d) Endosperm:
+meiosis). (c) Zygote: $2n = 24$ (fusion of egg $n = 12$ + male gamete $n = 12$). (d) Endosperm:
 $3n = 36$ (fusion of two polar nuclei $n + n = 24$ + male gamete $n = 12$).
 
 </details>
@@ -529,8 +529,8 @@ Bend more, as auxin is trapped on the shaded side).
 
 A batch of lettuce seeds is exposed to a brief pulse of red light ($660\;\mathrm{nm}$), followed
 Immediately by a brief pulse of far-red light ($730\;\mathrm{nm}$). The seeds are then placed in
-Darkness. Predict whether the seeds will germinate, and explain the role of phytochrome in this
-Response.
+darkness. Predict whether the seeds will germinate, and explain the role of phytochrome in this
+response.
 
 </details>
 
@@ -546,15 +546,15 @@ Phytochrome exists in two interconvertible forms:
 - Far-red light converts $\mathrm{P}_{\mathrm{fr}}$ back to $\mathrm{P}_{\mathrm{r}}$.
 
 The red light pulse converts phytochrome to the active $\mathrm{P}_{\mathrm{fr}}$ form, which would
-Promote germination. However, the subsequent far-red pulse immediately reconverts
+promote germination. However, the subsequent far-red pulse immediately reconverts
 $\mathrm{P}_{\mathrm{fr}}$ back to $\mathrm{P}_{\mathrm{r}}$. Since the final exposure is far-red
 Light, the seeds are left predominantly in the $\mathrm{P}_{\mathrm{r}}$ (inactive) state. In
-Darkness, $\mathrm{P}_{\mathrm{fr}}$ slowly reverts to $\mathrm{P}_{\mathrm{r}}$ anyway. With
-Insufficient $\mathrm{P}_{\mathrm{fr}}$ The biochemical pathways triggering germination (e.g.,
+darkness, $\mathrm{P}_{\mathrm{fr}}$ slowly reverts to $\mathrm{P}_{\mathrm{r}}$ anyway. With
+insufficient $\mathrm{P}_{\mathrm{fr}}$ The biochemical pathways triggering germination (e.g.,
 Amylase production) are not activated.
 
 This demonstrates that the **last light exposure** determines the phytochrome state and hence the
-Germination response --- a property known as phytochrome reversibility.
+germination response --- a property known as phytochrome reversibility.
 
 </details>
 
@@ -652,7 +652,7 @@ Gain as sucrose via phloem translocation.
 **Worked Example: Seed Germination and Enzyme Activity**
 
 Seeds of barley ($2n = 14$) are germinated in the presence and absence of gibberellin. The amount of
-Maltose released from the endosperm is measured over time:
+maltose released from the endosperm is measured over time:
 
 <div class="table-wrap">
 
@@ -744,7 +744,7 @@ Gibberellin-dependent.
 <summary>Problem 1: Data Analysis -- Potometer Experiment</summary>
 
 A student uses a potometer to investigate the effect of wind speed on transpiration rate. The
-Following data are collected at constant temperature ($25^\circ\mathrm{C}$) and humidity ($50\%$):
+following data are collected at constant temperature ($25^\circ\mathrm{C}$) and humidity ($50\%$):
 
 <div class="table-wrap">
 
@@ -780,10 +780,10 @@ of water in the environment.
 <summary>Problem 3: Quantitative -- Seed Germination and Chi-Squared Test</summary>
 
 A researcher tests the effect of different pre-treatments on seed germination. $100$ seeds are
-Divided into four groups of $25$: Group A (control, water only), Group B (scarified), Group C
+divided into four groups of $25$: Group A (control, water only), Group B (scarified), Group C
 (stratified at $4^\circ\mathrm{C}$ for $2$ weeks), Group D (gibberellin solution). After $7$ days,
 The number of germinated seeds in each group is: A = 8, B = 18, C = 20, D = 23. (a) Calculate the
-Germination percentage for each group. (b) If the expected germination under the null hypothesis is
+germination percentage for each group. (b) If the expected germination under the null hypothesis is
 $50\%$ for all groups, perform a chi-squared test to determine whether the treatments significantly
 Affect germination ($p = 0.05$ Critical value $= 7.82$ for $3$ degrees of freedom).
 
@@ -818,7 +818,7 @@ despite The bark removal.
 <summary>Problem 6: Extended Response -- Phytochrome and Flowering</summary>
 
 A long-day plant (e.g., spinach) and a short-day plant (e.g., chrysanthemum) are grown under
-Identical conditions with a $16$-hour photoperiod. (a) Predict which plant will flower and explain
+identical conditions with a $16$-hour photoperiod. (a) Predict which plant will flower and explain
 Why, referring to the role of phytochrome and critical night length. (b) If a flash of red light
 ($660\;\mathrm{nm}$) is given in the middle of the dark period, predict the effect on each species
 and explain the mechanism. (c) If the red light flash is immediately followed by a far-red flash
@@ -830,7 +830,7 @@ and explain the mechanism. (c) If the red light flash is immediately followed by
 <summary>Problem 7: Extended Response -- Abscisic Acid and Stomatal Regulation</summary>
 
 During a period of drought, a plant closes its stomata to reduce water loss. (a) Describe the
-Biochemical pathway by which abscisic acid (ABA) causes stomatal closure, including the role of
+biochemical pathway by which abscisic acid (ABA) causes stomatal closure, including the role of
 guard Cell ion channels, water potential, and turgor pressure. (b) Explain the trade-off between
 reducing Transpiration and maintaining $\mathrm{CO}_2$ uptake for photosynthesis. (c) Discuss why
 this Trade-off may limit plant growth more in hot, arid environments than in cool, humid
@@ -898,13 +898,13 @@ growing tips) Within hours. This confirms bidirectional transport.
 
 **Ringing experiments**: removing a ring of bark (including phloem) from a tree trunk causes sugar
 Accumulation above the ring (swelling) and stunted growth below it, confirming that phloem is
-Responsible for sugar transport.
+responsible for sugar transport.
 
 ### Loading Mechanism at the Source
 
 Sucrose is actively loaded into companion cells via **sucrose-proton symport**: the companion cell
 Uses a $\mathrm{H}^+$-ATPase to pump $\mathrm{H}^+$ into the apoplast (cell wall space), creating a
-Proton gradient. Sucrose enters the companion cell via a sucrose-$\mathrm{H}^+$ co-transporter (SUT1
+proton gradient. Sucrose enters the companion cell via a sucrose-$\mathrm{H}^+$ co-transporter (SUT1
 or SUT2), moving against its concentration gradient using the energy of the proton gradient.
 
 Sucrose then passes to the sieve tube element through **plasmodesmata**.
@@ -1192,7 +1192,7 @@ This demonstrated that the **last light exposure** determines the phytochrome st
 
 Describe the cohesion-tension theory of water transport in xylem, explaining how transpiration pull,
 Cohesion, and adhesion contribute to the upward movement of water. Use Fick's law to explain why the
-Rate of transpiration increases with wind speed. Explain why very tall trees (e.g., coast redwoods,
+rate of transpiration increases with wind speed. Explain why very tall trees (e.g., coast redwoods,
 $>100\;\mathrm{m}$) Pose a challenge to the cohesion-tension theory and discuss how root pressure
 and capillary Action contribute. Calculate whether capillary action alone can account for water
 transport in a $100\;\mathrm{m}$ tall tree given a xylem vessel radius of
@@ -1204,7 +1204,7 @@ $25\;\mathrm{\mu m}$ Surface tension $0.073\;\mathrm{N/m}$ And contact angle $0^
 <summary>Problem 10: Data Analysis -- Plant Hormone Experiment</summary>
 
 A researcher treats coleoptile sections with different concentrations of IAA and measures the
-Increase in length after 24 hours in darkness:
+increase in length after 24 hours in darkness:
 
 <div class="table-wrap">
 
@@ -1220,7 +1220,7 @@ Increase in length after 24 hours in darkness:
 </div>
 
 (a) Plot the data and describe the relationship. (b) Explain the biological basis for the plateau at
-High IAA concentrations. (c) If the same experiment is repeated in the presence of an auxin
+high IAA concentrations. (c) If the same experiment is repeated in the presence of an auxin
 Transport inhibitor, predict the result and explain why.
 
 </details>
@@ -1316,7 +1316,7 @@ Gradient for mass flow.
 within the same sieve tube) can transport sap in different directions simultaneously. A leaf can be
 A source (exporting sucrose to roots) and a sink (importing sucrose for its own growth) at different
 Times or for different compounds. Xylem transport is always unidirectional (upward, from roots to
-Leaves) because it is driven by transpiration pull (a negative pressure) and root pressure, both of
+leaves) because it is driven by transpiration pull (a negative pressure) and root pressure, both of
 which only operate in one direction.
 
 </details>
@@ -1341,7 +1341,7 @@ $= +85.9\;\mathrm{mV}$
 
 (c) The negative driving force means the electrochemical gradient favours $\mathrm{NO}_3^-$ uptake
 (into the cell, against the concentration gradient but aided by the membrane potential). Wait -- the
-Concentration gradient favours efflux ($50$ inside vs $2$ outside), but the electrical gradient
+concentration gradient favours efflux ($50$ inside vs $2$ outside), but the electrical gradient
 (attracting the negative $\mathrm{NO}_3^-$ into the negatively charged cell) is very strong.
 
 Let me recalculate: the net electrochemical potential for $\mathrm{NO}_3^-$ inside the cell is
@@ -1386,7 +1386,7 @@ light ($730\;\mathrm{nm}$), will it flower?
 - LDP: night $= 15\;\mathrm{h} > 10\;\mathrm{h}$. **No flowering.**
 
 (c) The red flash in the middle of the dark period converts $\mathrm{P_{fr}}$ (the active form of
-Phytochrome) from $\mathrm{P_r}$. This interrupts the dark period -- the plant perceives the
+phytochrome) from $\mathrm{P_r}$. This interrupts the dark period -- the plant perceives the
 $15$-hour Night as two shorter nights ($7.5\;\mathrm{h}$ each), both below the critical dark period.
 **No flowering** in the SDP.
 
@@ -1402,8 +1402,8 @@ Hendricks (1952), which demonstrated that phytochrome is the photoreceptor for p
 **Worked Example: Translocation of Auxin and Apical Dominance**
 
 A researcher applies radioactive IAA ($^{14}\mathrm{C}$-labelled auxin) to the tip of a shoot and
-Measures its distribution after $24$ hours. The results show that most of the radioactivity is
-Concentrated in the stem below the apex, with very little in the lateral buds. (a) Explain the Polar
+measures its distribution after $24$ hours. The results show that most of the radioactivity is
+concentrated in the stem below the apex, with very little in the lateral buds. (a) Explain the Polar
 (basipetal) transport of auxin. (b) Explain the mechanism of apical dominance. (c) If the Apical bud
 is removed, predict the effect on lateral bud growth. (d) If IAA is applied to the Decapitated
 stump, predict the effect.
@@ -1537,7 +1537,7 @@ rate.
 
 Describe the structure of xylem vessels and explain how their structure is adapted for long-distance
 Water transport. Include: (a) the role of lignin, (b) the importance of vessel diameter, (c) the
-Formation of bordered pits, (d) the role of capillary action, and (e) why the cohesion-tension
+formation of bordered pits, (d) the role of capillary action, and (e) why the cohesion-tension
 theory Is the accepted explanation for water movement in plants.
 
 </details>
@@ -1555,7 +1555,7 @@ Phenolic compounds). Lignin provides:
 - Protection against pathogens and decay (lignin is resistant to enzymatic degradation).
 
 (b) **Vessel diameter**: wider vessels offer less resistance to flow (Poiseuille's law: flow rate is
-Proportional to $r^4$). However, wider vessels are more vulnerable to cavitation (air bubble
+proportional to $r^4$). However, wider vessels are more vulnerable to cavitation (air bubble
 formation) And collapse. Plants balance efficiency (wide vessels) and safety (narrow vessels,
 tracheids). Vessels In tropical vines can be $>500\;\mathrm{\mu m}$ wide; in cold climates, vessels
 are narrower to reduce Freezing-induced cavitation.
@@ -1626,7 +1626,7 @@ proteins that Are broken down) and transports it to younger leaves. Hence older 
 
 **Magnesium**: magnesium is the central atom of the chlorophyll molecule (essential for chlorophyll
 Structure and function). Deficiency reduces chlorophyll production, causing chlorosis. Magnesium is
-Mobile in the plant and is redistributed from older to younger leaves.
+mobile in the plant and is redistributed from older to younger leaves.
 
 **Iron**: iron is required for chlorophyll synthesis (as a cofactor for enzymes in the chlorophyll
 Biosynthetic pathway), though it is not part of the chlorophyll molecule itself. Iron is immobile in
@@ -1907,7 +1907,7 @@ Plant hormones rarely act in isolation; their effects are modulated by interacti
 
 A plant is decapitated (apical bud removed). In one treatment, cytokinin is applied to the cut
 Surface; in another, auxin is applied. In a third, both are applied. (a) Predict the effect on
-Lateral bud growth in each treatment. (b) Explain the mechanism.
+lateral bud growth in each treatment. (b) Explain the mechanism.
 
 <details>
 <summary>Solution</summary>

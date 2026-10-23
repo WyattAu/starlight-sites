@@ -241,7 +241,7 @@ Two photons are required (not one) to conserve both energy and momentum.
 ### Dirac's Prediction
 
 Dirac (1928) combined quantum mechanics with special relativity, obtaining an equation that
-Predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray
+predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray
 Photographs, confirming Dirac's prediction.
 
 ## 7. Feynman Diagrams
@@ -284,7 +284,7 @@ emerge.
 ### Key Vertices
 
 Each vertex in a Feynman diagram represents a fundamental interaction and must conserve all
-Applicable quantum numbers:
+applicable quantum numbers:
 
 1. **QED vertex:** A fermion line, an antifermion line, and a photon line meet. Charge is conserved.
 2. **Weak vertex:** A fermion line changes flavour (e.g., $d \to u$), connected by a $W$ or $Z$
@@ -509,7 +509,7 @@ $W^+$ then decays to $e^+ + \nu_e$.
 <details>
 <summary>Problem 6</summary>
 Calculate the de Broglie wavelength of a neutron with kinetic energy 0.025 eV (thermal neutron at
-Room temperature).
+room temperature).
 
 **Answer.** $E_k = 0.025 \times 1.60 \times 10^{-19} = 4.0 \times 10^{-21}$ J.
 $v = \sqrt{2E_k/m_n} = \sqrt{2 \times 4.0 \times 10^{-21}/1.67 \times 10^{-27}} = 2189$ m s$^{-1}$.
@@ -517,7 +517,7 @@ $\lambda = h/(m_n v) = 6.63 \times 10^{-34}/(1.67 \times 10^{-27} \times 2189) =
 m $= 0.182$ nm.
 
 This wavelength is comparable to interatomic spacing, which is why thermal neutrons are used for
-Neutron diffraction studies of crystal structures.
+neutron diffraction studies of crystal structures.
 
 </details>
 

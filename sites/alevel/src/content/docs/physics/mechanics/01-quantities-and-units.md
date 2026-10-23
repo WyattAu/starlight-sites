@@ -30,7 +30,7 @@ We begin with the most fundamental question in physics: **how do we measure thin
 
 A **physical quantity** is a property of a phenomenon that can be quantified, assigned a numerical
 Value and compared with other instances of the same quantity. Physical quantities come in two
-Varieties:
+varieties:
 
 - **Base quantities** are irreducible; they cannot be expressed in terms of other quantities. The SI
   system defines seven base quantities.
@@ -94,7 +94,7 @@ Some derived units have special names:
 Every term on each side has the same dimensions.
 
 This is a necessary condition for any physically meaningful equation. If the dimensions do not
-Balance, the equation is certainly wrong. If they do balance, the equation may still be wrong
+balance, the equation is certainly wrong. If they do balance, the equation may still be wrong
 (dimensional analysis cannot reveal dimensionless constants), but it is at least plausible.
 
 ### Checking the SUVAT Equation
@@ -111,7 +111,7 @@ Homogeneous. $\square$
 ### Determining the Form of an Equation
 
 Suppose we wish to find how the period $T$ of a simple pendulum depends on its length $l$ and the
-Gravitational field strength $g$. We assume:
+gravitational field strength $g$. We assume:
 
 $$
 T = k \cdot l^a \cdot g^b
@@ -307,7 +307,7 @@ And the uncertainty should be quoted to at most 2 significant figures.
 
 **Example.** If a length is measured as $12.3 \pm 0.4$ cm, we quote two significant figures
 (matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm, the
-Trailing zero implies precision we do not have.
+trailing zero implies precision we do not have.
 
 :::tip
 S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what examiners expect.
@@ -477,8 +477,8 @@ Explain the difference between a systematic error and a random error, giving one
 
 **Answer.** A systematic error is a consistent offset from the true value. Example: the bob is not
 Perfectly point-like, effectively increasing the pendulum length. A random error causes scatter in
-Repeated readings. Example: human reaction time when timing oscillations with a stopwatch, it
-Varies unpredictably from trial to trial.
+repeated readings. Example: human reaction time when timing oscillations with a stopwatch, it
+varies unpredictably from trial to trial.
 
 <b>If you get this wrong, revise:</b> [Types of Error](#types-of-error)
 
@@ -518,7 +518,7 @@ $\Delta Q = 16.0 \times 0.150 = 2.4$. Result: $Q = 16.0 \pm 2.4$ (15%).
 ## 8. SI Base Units in Detail
 
 Understanding how each SI base unit is defined is essential for experimental physics and for
-Interpreting measurements correctly.
+interpreting measurements correctly.
 
 <div class="table-wrap">
 
@@ -620,7 +620,7 @@ Timed interval will be overestimated. Correction: apply a proportional correctio
 
 **Example: Methodological Error.** In a pendulum experiment, measuring from the top of the bob
 Rather than its centre of mass introduces a consistent offset in the effective length, shifting all
-Calculated values of $g$ in the same direction.
+calculated values of $g$ in the same direction.
 
 ## 11. Uncertainty Propagation: Extended Worked Examples
 

@@ -23,7 +23,7 @@ categories:
 ## Sequences (CED BC Unit 10)
 
 A **sequence** is an ordered list of numbers: $a_1, a_2, a_3, \ldots$. Formally, a sequence is a
-Function from the positive integers (or a subset thereof) to the real numbers:
+function from the positive integers (or a subset thereof) to the real numbers:
 $a \colon \mathbb{N} \to \mathbb{R}$ Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
 
 A sequence $\{a_n\}$ **converges** to a limit $L$ if:
@@ -48,7 +48,7 @@ If no such limit exists, the sequence **diverges**.
 
 **Monotone Convergence Theorem.** Every bounded monotone sequence converges. This is one of the most
 Powerful existence theorems in analysis: it guarantees convergence without requiring you to find the
-Limit explicitly.
+limit explicitly.
 
 **Corollary:** A monotone increasing sequence that is not bounded above diverges to $+\infty$. A
 Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
@@ -89,7 +89,7 @@ By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
 ### Proof: $\frac{\ln n}{n} \to 0$
 
 Since $\ln n$ grows slower than any positive power of $n$ We have $\ln n \lt \sqrt{n}$ for
-Sufficiently large $n$. Therefore
+sufficiently large $n$. Therefore
 $0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$ And $\frac{1}{\sqrt{n}} \to 0$ So
 by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
 
@@ -104,7 +104,7 @@ $$
 ### Partial Sums
 
 The $n$ Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
-Sequence of partial sums $\{S_n\}$ converges:
+sequence of partial sums $\{S_n\}$ converges:
 
 $$
 \sum_{n=1}^{\infty} a_n = L \iff \lim_{n \to \infty} S_n = L
@@ -279,7 +279,7 @@ This follows directly from the integral test: $\int_1^{\infty} \frac{dx}{x^p}$ c
 if $p \gt 1$.
 
 The $p$-series with $p = 1$ is the harmonic series, which diverges. This is the "boundary case" that
-Separates convergence from divergence.
+separates convergence from divergence.
 
 ## Comparison Tests (CED BC Unit 10.5)
 
@@ -347,7 +347,7 @@ $$
 - If $L = 1$: the test is **inconclusive**.
 
 The ratio test is especially useful when the terms involve factorials or exponentials, because the
-Ratio tends to simplify dramatically.
+ratio tends to simplify dramatically.
 
 **Why it connects to geometric series.** If $\left|\frac{a_{n+1}}{a_n}\right| \to L \lt 1$ Then for
 Large $n$ the terms behave like a geometric series with ratio $L$ And geometric series converge When
@@ -386,7 +386,7 @@ Then the alternating series $\displaystyle\sum_{n=1}^{\infty} (-1)^{n-1} a_n$ co
 **Intuition:** The partial sums oscillate, but the oscillations shrink because the terms decrease.
 The odd-indexed partial sums $S_1, S_3, S_5, \ldots$ form a decreasing sequence bounded below, and
 the even-indexed partial sums $S_2, S_4, S_6, \ldots$ form an increasing sequence bounded above.
-Both converge to the same limit.
+both converge to the same limit.
 
 ### Alternating Series Estimation Theorem
 
@@ -425,7 +425,7 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 
 **Riemann rearrangement theorem.** A conditionally convergent series can be rearranged to converge
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
-Invariant under rearrangement.
+invariant under rearrangement.
 :::
 
 :::note[Example]
@@ -452,7 +452,7 @@ Series is: for which values of $x$ does it converge?
 ### Interval and Radius of Convergence
 
 Every power series converges in an interval $(a - R, a + R)$ where $R$ is the **radius of
-Convergence**:
+convergence**:
 
 - Use the ratio test to find $R$: $\displaystyle R = \frac{1}{\lim_{n \to \infty} |c_{n+1}/c_n|}$.
 - Check the endpoints separately (the ratio test is inconclusive when $L = 1$).
@@ -478,7 +478,7 @@ L = \lim_{n \to \infty} \left|\frac{(x-2)^{n+1}/(n+1)!}{(x-2)^n/n!}\right| = \li
 $$
 
 Since $L = 0 \lt 1$ for all $x$ The series converges for all real numbers. The interval of
-Convergence is $(-\infty, \infty)$ with $R = \infty$.
+convergence is $(-\infty, \infty)$ with $R = \infty$.
 :::
 
 :::note[Example]
@@ -510,7 +510,7 @@ $$
 $$
 
 Differentiation and integration of power series do not change the radius of convergence (though the
-Behaviour at the endpoints may change).
+behaviour at the endpoints may change).
 
 ## Taylor and Maclaurin Series (CED BC Unit 10.11)
 

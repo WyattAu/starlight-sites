@@ -23,7 +23,7 @@ categories:
 ## Cell Biology
 
 Cell biology is the study of the structure and function of cells, the basic units of life. This
-Topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
+topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
 Processes of photosynthesis and respiration.
 
 ## Cell Theory (OL/HL)
@@ -160,7 +160,7 @@ cell Wall prevents bursting by exerting inward pressure (turgor pressure) that o
 Entry.
 
 (b) $\psi_{\mathrm{solution} = -700$ kPa (isotonic): No net water movement. The cell is in
-Equilibrium with the solution.
+equilibrium with the solution.
 
 (c) $\psi_{\mathrm{solution} = -1000$ kPa (hypertonic): Water leaves the cell. The cell membrane
 Pulls away from the cell wall (plasmolysis). The cell becomes flaccid.
@@ -217,7 +217,7 @@ A cell with 46 chromosomes (diploid, $2n = 46$):
 After mitosis: two daughter cells, each with 46 chromosomes. All cells are genetically identical.
 
 After meiosis: four daughter cells, each with 23 chromosomes (haploid, $n = 23$). All four cells are
-Genetically different.
+genetically different.
 
 The key differences:
 
@@ -312,14 +312,14 @@ $$
 **Worked Example: Limiting factors in photosynthesis.**
 
 At low light intensity, light is the limiting factor. Increasing light increases the rate. At a
-Certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
-Low, increasing light further will have no effect.
+certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
+low, increasing light further will have no effect.
 
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
 This is an application of Blackman's law of limiting factors: at any given time, only one factor is
-Limiting.
+limiting.
 
 ## Cellular Respiration (OL/HL)
 
@@ -433,7 +433,7 @@ Respiration only partially breaks down glucose, so most of the energy remains lo
 ## Review: Cell Division -- Mitosis in Detail
 
 Mitosis produces two genetically identical daughter cells and is essential for growth, repair, and
-Asexual reproduction.
+asexual reproduction.
 
 **Prophase:** Chromosomes condense (become visible as two sister chromatids joined at the
 Centromere). The nuclear envelope breaks down. Centrioles move to opposite poles and the spindle
@@ -468,17 +468,17 @@ Occurs.
 
 **Induced-fit model:** The active site is flexible and changes shape slightly when the substrate
 Binds. This conformational change puts strain on the substrate, weakening bonds and lowering the
-Activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
-Catalyse reactions with a range of similar substrates (broad specificity) and why the
-Enzyme-substrate complex is more stable than the enzyme alone.
+activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
+catalyse reactions with a range of similar substrates (broad specificity) and why the
+enzyme-substrate complex is more stable than the enzyme alone.
 
 **Worked Example: Explaining enzyme specificity.**
 
 Maltase catalyses the hydrolysis of maltose into glucose but does not catalyse the hydrolysis of
-Sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
-Complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
+sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
+complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
 not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
-Demonstrates the specificity of enzyme action.
+demonstrates the specificity of enzyme action.
 
 ## Review: Osmosis -- Worked Examples
 
@@ -489,7 +489,7 @@ A red blood cell with an internal solute concentration of 0.9% is placed in a 0.
 The external solution (0.3%) is hypotonic (lower solute concentration) relative to the cell (0.9%).
 Water moves into the cell by osmosis. Since animal cells have no rigid cell wall, the cell swells
 and eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
-Prevent red blood cells from being damaged.
+prevent red blood cells from being damaged.
 
 **Worked Example 2: Plant cells.**
 
@@ -498,8 +498,8 @@ A plant cell with a water potential of -600 kPa is placed in a solution with a w
 
 Water moves from the solution (-200 kPa, higher water potential) into the cell (-600 kPa, lower
 Water potential) by osmosis. The cell becomes turgid as the vacuole expands and presses against the
-Cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
-Osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
+cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
+osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
 
 If the same cell were placed in a solution with a water potential of -1000 kPa, water would move out
 of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
@@ -508,7 +508,7 @@ of the cell. The vacuole would shrink and the cell membrane would pull away from
 ## Review: Photosynthesis -- The Light-Independent Reactions (Calvin Cycle)
 
 The Calvin cycle takes place in the stroma of the chloroplast and uses the products of the
-Light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
+light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
 
 **Three phases:**
 
@@ -555,7 +555,7 @@ It does not require oxygen.
 ## Review: The Electron Transport Chain and Oxidative Phosphorylation
 
 The electron transport chain (ETC) is the final stage of aerobic respiration and produces the
-Majority of ATP.
+majority of ATP.
 
 **Location:** Inner mitochondrial membrane.
 
@@ -599,8 +599,8 @@ Due to proton leak across the inner membrane and the energy cost of transporting
 ## Review: Factors Affecting the Rate of Photosynthesis
 
 Photosynthesis is affected by three main factors: light intensity, $\mathrm{CO_2$ concentration, and
-Temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
-Shortest supply (Blackman's law of limiting factors).
+temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
+shortest supply (Blackman's law of limiting factors).
 
 **Light intensity:**
 
@@ -641,7 +641,7 @@ Becomes limiting depends on the availability of the other factors.
 **The Calvin cycle in detail:**
 
 The Calvin cycle (light-independent reactions) occurs in the stroma of the chloroplast and uses the
-Products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
+products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
 Molecules.
 
 **Stage 1 -- Carbon fixation:**
@@ -696,7 +696,7 @@ $$
 **Leaf structure and its role in photosynthesis:**
 
 The leaf is the main photosynthetic organ. Its structure is adapted to maximise light absorption and
-Gas exchange:
+gas exchange:
 
 <div class="table-wrap">
 
@@ -722,8 +722,8 @@ Path.
 
 The opening and closing of stomata is controlled by guard cells. When guard cells are turgid (full
 of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
-Compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
-Transpiration.
+compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
+transpiration.
 
 **Limiting factors in a glasshouse context:**
 
@@ -737,7 +737,7 @@ Commercial growers manipulate environmental conditions to maximise crop yields:
   and increase the daily light integral.
 
 By ensuring that no single factor is limiting, growers can achieve photosynthesis rates that are
-Significantly higher than would occur , resulting in faster growth and higher yields.
+significantly higher than would occur , resulting in faster growth and higher yields.
 
 **Investigating the effect of light intensity on photosynthesis:**
 

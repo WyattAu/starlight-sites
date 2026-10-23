@@ -25,14 +25,14 @@ categories:
 ### 1.1 Scarcity
 
 We define **scarcity** as the condition in which human wants exceed the resources available to
-Satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
+satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
 the set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
 $\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition, it is a permanent feature
 of human existence, because wants are effectively unlimited while resources (land, labour, capital,
 Entrepreneurship) are finite.
 
 Scarcity is the fundamental constraint that makes economics a discipline. Without scarcity, every
-Want could be satisfied simultaneously and there would be no need to choose, allocate, or optimise.
+want could be satisfied simultaneously and there would be no need to choose, allocate, or optimise.
 
 :::note
 The start of the syllabus. CIE (9708) Paper 1 frequently opens with MCQs testing precise definitions
@@ -98,12 +98,12 @@ Horizons.
 
 The concept of opportunity cost, while fundamental, has limitations. In practice, measuring the
 "value" of the next-best alternative is often subjective and difficult to quantify. How does one
-Compare the utility of three years of travel against three years of work experience? The assumption
+compare the utility of three years of travel against three years of work experience? The assumption
 that individuals can identify and rank all alternatives is itself questionable, behavioural
 Economics shows that people suffer from _choice overload_ and often fail to consider relevant
 Alternatives (Simon, 1955). Furthermore, in macroeconomic policy, the "next-best alternative" is
-Itself contested: economists disagree on what the government _would have done_ with resources not
-Spent on a particular programme, making opportunity cost estimates inherently debatable.
+itself contested: economists disagree on what the government _would have done_ with resources not
+spent on a particular programme, making opportunity cost estimates inherently debatable.
 
 ### 1.4 Rational Decision Making
 
@@ -120,7 +120,7 @@ $$
 $$
 
 This constrained optimisation problem is the foundation of consumer theory. The solution, the
-Consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
+consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
 
 **Satisficing** is an alternative model (Simon, 1955): agents choose the first option that meets a
 Minimum acceptable threshold, rather than optimising. This accounts for bounded rationality,
@@ -138,7 +138,7 @@ Questions.
 ### 2.1 Derivation
 
 Consider an economy that produces two goods, $X$ and $Y$ Using a fixed quantity of resources. We
-Define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
+define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
 and $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
 $$
@@ -233,7 +233,7 @@ Where $x$ = guns, $y$ = butter (both in thousands of units).
 - At $x = 10$: $y = 0$ (all resources to guns)
 
 The opportunity cost of increasing guns from 5 to 6 is $100 - 36 - 75 = -11$ thousand butter. The
-Opportunity cost of increasing guns from 0 to 1 is $100 - 1 - 100 = -1$ thousand butter. Opportunity
+opportunity cost of increasing guns from 0 to 1 is $100 - 1 - 100 = -1$ thousand butter. Opportunity
 Cost rises as gun production increases.
 
 </details>
@@ -242,13 +242,13 @@ Cost rises as gun production increases.
 
 **Productive inefficiency** is widespread during economic downturns. The UK during the 2008
 Financial crisis is a clear example: GDP fell by over 6% from peak to trough, representing a
-Movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
+movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
 even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
 Businesses to close.
 
 **Allocative inefficiency** can occur even when an economy is on its PPF. Consider an economy at
 Full employment that devotes the majority of output to military spending rather than healthcare or
-Education. It is productively efficient (on the frontier) but allocatively inefficient if society
+education. It is productively efficient (on the frontier) but allocatively inefficient if society
 would prefer more civilian goods. The Soviet Union in the 1970s and 1980s exemplified this: high
 Military output alongside chronic shortages of consumer goods.
 
@@ -273,10 +273,10 @@ The PPF can shift due to:
 Not all PPF shifts are equally beneficial. An outward shift driven by capital accumulation may come
 at the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
 Heavily in capital goods today sacrifices current living standards for future growth, but if the
-Investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
+investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
 Similarly, resource discovery (such as North Sea oil in the 1970s) can shift the PPF outward but may
 also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
-Deindustrialisation. The net effect on welfare depends on how the additional output is distributed
+deindustrialisation. The net effect on welfare depends on how the additional output is distributed
 and whether it satisfies society's most pressing needs.
 
 ### 2.5 Economic Systems
@@ -322,12 +322,12 @@ Correct market failures and promote equity.
 
 The comparison between economic systems is more nuanced than the textbook model suggests. Pure
 Command and pure market economies are theoretical extremes, no real economy operates at either
-Pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
-Vigorous private enterprise in consumer goods and technology. The "information problem" identified
+pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
+vigorous private enterprise in consumer goods and technology. The "information problem" identified
 by Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
 Planning: no planner can possess the dispersed, tacit knowledge held by millions of individuals.
 However, market economies also suffer from information problems, asymmetric information between
-Buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
+buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
 Intervention remains one of the central debates in economics and depends on the specific context:
 The effectiveness of institutions, the nature of the goods being produced, and societal values
 regarding equity and freedom.
@@ -335,7 +335,7 @@ regarding equity and freedom.
 :::note
 Economic systems together, often asking 9-mark questions comparing market and command economies.
 Edexcel (Theme 1, 1.1.4) emphasises the role of the price mechanism in allocating resources and
-Expects students to evaluate when government intervention improves outcomes. OCR (H460) expects
+expects students to evaluate when government intervention improves outcomes. OCR (H460) expects
 Students to apply economic systems to contemporary issues such as climate change. CIE (9708) Paper 2
 Essay questions frequently ask students to assess the relative merits of different economic systems.
 :::
@@ -389,13 +389,13 @@ Classify each statement:
 #### Evaluation of the Positive-Normative Distinction
 
 While the positive-normative distinction is a useful analytical tool, it is not always clear-cut in
-Practice. Some statements blend positive and normative elements. For example, "The government should
-Raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
+practice. Some statements blend positive and normative elements. For example, "The government should
+raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
 Embedded within a positive claim ("reduces poverty"). The effectiveness of the positive claim does
 not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
 against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
-Research agenda itself) is shaped by normative concerns. Economists who prioritise research into
-Inequality are making a value judgement about what matters. The positive-normative distinction is
+research agenda itself) is shaped by normative concerns. Economists who prioritise research into
+inequality are making a value judgement about what matters. The positive-normative distinction is
 therefore best understood as a continuum rather than a binary classification.
 
 :::note
@@ -427,8 +427,8 @@ because it involves decision-making under uncertainty.
 Rewards explicitly in the specification and frequently asks students to identify which factor is
 being described in a given scenario. AQA (4.1.1.1) covers factors of production within the broader
 Topic of scarcity and choice. CIE (9708) expects students to distinguish between factor rewards and
-Understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
-Quantity or quality of a factor of production affect the PPF.
+understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
+quantity or quality of a factor of production affect the PPF.
 :::
 
 ## 5. Specialisation and Division of Labour
@@ -472,9 +472,9 @@ Changes. The decline of manufacturing employment in the UK (from over 25% of the
 to under 8% today) illustrates this: workers with highly specific skills struggled to find new
 Employment when factories closed. Moreover, extreme division of labour can lead to **alienation**,
 A concept developed by Karl Marx, where workers lose connection to the final product and find their
-Work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
+work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
 High worker turnover until he introduced the USD 5/day wage in 1914. The gig economy represents a
-Partial reversal: platforms like Uber allow flexible, multi-task work but sacrifice the productivity
+partial reversal: platforms like Uber allow flexible, multi-task work but sacrifice the productivity
 Gains of deep specialisation. On balance, the benefits of specialisation outweigh the Costs, but the
 distribution of those benefits is uneven and requires policy attention (retraining Programmes,
 education systems, social safety nets).
@@ -482,7 +482,7 @@ education systems, social safety nets).
 :::note
 Division of labour, with AQA placing more emphasis on the link to international trade and Edexcel
 Focusing on the efficiency gains within firms. CIE (9708) Paper 2 may ask students to evaluate the
-Effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
+effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
 about globalisation and its discontents.
 :::
 
@@ -504,8 +504,8 @@ about globalisation and its discontents.
 
 :::note
 E.g., "Using a PPF diagram, explain how a country might reallocate resources from consumer goods to
-Capital goods and evaluate the consequences." Focus on the trade-off between current consumption and
-Future growth.
+capital goods and evaluate the consequences." Focus on the trade-off between current consumption and
+future growth.
 :::
 
 #### Additional Evaluation Points
@@ -581,8 +581,8 @@ Better education improves human capital $\Rightarrow$ resources become more prod
 
 **Problem 7.** A student has 6 hours to revise for two exams: Economics and Mathematics. Her
 Expected marks are $E_E = 20\sqrt{t_E}$ and $E_M = 15\sqrt{t_M}$ Where $t_E + t_M = 6$. Find the
-Allocation that maximises her total mark. What is the opportunity cost of the last hour spent on
-Economics?
+allocation that maximises her total mark. What is the opportunity cost of the last hour spent on
+economics?
 
 <details>
 <summary>Hint</summary>
@@ -599,7 +599,7 @@ While technology shifts the PPF outward, it cannot eliminate scarcity because hu
 
 **Problem 9.** A command economy decides to allocate all resources to military production during a
 War. Using PPF analysis, explain: (a) The short-run trade-off (b) The long-run consequences when the
-War ends (c) Why a market economy might make different choices
+war ends (c) Why a market economy might make different choices
 
 <details>
 <summary>Hint</summary>
@@ -618,7 +618,7 @@ Even a "free" school meal costs resources that could have been used elsewhere (t
 $C = 400 - K^2$. The economy currently produces at $K = 10, C = 300$. (a) Is this point on, inside,
 Or outside the PPF? (b) If the government wants to increase capital goods production to $K = 15$
 what is the opportunity cost in terms of consumer goods? (c) Evaluate whether this trade-off is
-Justified for a developing economy seeking long-term growth.
+justified for a developing economy seeking long-term growth.
 
 <details>
 <summary>Hint</summary>
@@ -655,7 +655,7 @@ With its available resources:
 
 (a) Plot the PPF and explain its shape. (b) Calculate the opportunity cost of producing 1 additional
 Car when 50 cars are being produced. (c) If a new technology doubles wheat productivity but has no
-Effect on car production, explain how the PPF changes.
+effect on car production, explain how the PPF changes.
 
 <details>
 <summary>Hint</summary>

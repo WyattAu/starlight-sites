@@ -69,7 +69,7 @@ Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
 out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
 all confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
-Archaea, which have pseudopeptidoglycan or other cell wall compositions).
+archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
 ### Cell Ultrastructure
 
@@ -164,13 +164,13 @@ Becomes turgid in plant cells).
 **Worked Example: Calculating water potential and predicting osmosis.**
 
 A plant cell has a solute potential of $-500$ kPa and a pressure potential of $200$ kPa. The cell is
-Placed in a solution with a water potential of $-400$ kPa.
+placed in a solution with a water potential of $-400$ kPa.
 
 Cell water potential: $\psi = -500 + 200 = -300$ kPa.
 
 Since the cell water potential ($-300$ kPa) is higher than the solution water potential ($-400$
 KPa), water will move from the cell into the solution (from higher to lower water potential). The
-Cell will lose water and may become plasmolysed.
+cell will lose water and may become plasmolysed.
 
 **Worked Example: Determining solute potential from molarity.**
 
@@ -203,7 +203,7 @@ $\psi_s = -(1)(0.2)(0.0083)(293) = -0.486$ kPa.
 ### Mitosis
 
 Mitosis produces two genetically identical daughter cells with the same chromosome number as the
-Parent cell. It is used for growth, repair, and asexual reproduction.
+parent cell. It is used for growth, repair, and asexual reproduction.
 
 **Stages:**
 
@@ -269,7 +269,7 @@ Meiosis produces four genetically distinct daughter cells, each with half the ch
 A cell in the G2 phase of the cell cycle has 46 chromosomes (diploid, human cell).
 
 After mitosis: each daughter cell has 46 chromosomes (same as parent). The two daughter cells are
-Genetically identical.
+genetically identical.
 
 After meiosis: each of the four daughter cells has 23 chromosomes (haploid). The four daughter cells
 are genetically different (due to crossing over and independent assortment).
@@ -477,14 +477,14 @@ Functions can be studied.
 
 A student wants to isolate mitochondria from liver cells. They homogenise liver tissue in cold,
 Isotonic, buffered sucrose solution. They centrifuge at 600 g for 10 minutes and collect the
-Supernatant. They then centrifuge the supernatant at 10,000 g for 15 minutes. The pellet at this
-Stage contains the mitochondria. The student resuspends the mitochondrial pellet and can now study
+supernatant. They then centrifuge the supernatant at 10,000 g for 15 minutes. The pellet at this
+stage contains the mitochondria. The student resuspends the mitochondrial pellet and can now study
 Mitochondrial function (e.g., measuring the rate of aerobic respiration).
 
 **Why sucrose solution is used instead of water:** A sucrose solution is used because it provides an
 Isotonic medium. If water were used, the organelles would absorb water by osmosis and burst,
 Destroying their structure and function. The sucrose solution has the same water potential as the
-Cytoplasm, preventing osmotic damage.
+cytoplasm, preventing osmotic damage.
 
 ## Review: Prokaryotic Cell Division -- Binary Fission
 
@@ -527,12 +527,12 @@ Intracellular transport, and enables cell movement and division.
 
 **Microtubules (25 nm):** Hollow tubes made of tubulin. They radiate from the centrosome and form
 The mitotic spindle during cell division. Motor proteins (kinesin and dynein) move along
-Microtubules to transport vesicles and organelles. Kinesin moves towards the plus end (away from the
-Centrosome); dynein moves towards the minus end (towards the centrosome).
+microtubules to transport vesicles and organelles. Kinesin moves towards the plus end (away from the
+centrosome); dynein moves towards the minus end (towards the centrosome).
 
 **Microfilaments (7 nm):** Solid rods made of actin. They form a meshwork beneath the cell membrane
 (cortical actin) that provides mechanical support. In muscle cells, actin filaments interact with
-Myosin filaments to generate contraction. During cytokinesis, a contractile ring of actin and myosin
+myosin filaments to generate contraction. During cytokinesis, a contractile ring of actin and myosin
 Pinches the cell in two.
 
 **Intermediate filaments (10 nm):** Rope-like fibres made of various proteins (e.g., keratin,
@@ -546,7 +546,7 @@ Membrane. The vesicle is attached to a motor protein (kinesin) that walks along 
 towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
 Molecule. The motor protein moves in a hand-over-hand fashion, taking steps of approximately 8 nm
 per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
-Cell.
+cell.
 
 ## Review: Summary Comparison of Transport Mechanisms
 
@@ -588,7 +588,7 @@ Supporting the endosymbiotic theory.
 ## Review: Endosymbiotic Theory
 
 The endosymbiotic theory proposes that certain organelles, particularly mitochondria and
-Chloroplasts, originated as free-living prokaryotes that were engulfed by ancestral eukaryotic
+chloroplasts, originated as free-living prokaryotes that were engulfed by ancestral eukaryotic
 Cells.
 
 **Evidence supporting endosymbiotic theory:**
@@ -608,12 +608,12 @@ Cells.
 **Sequence of events (proposed):**
 
 An ancestral eukaryotic cell (which already had a nucleus and endomembrane system) engulfed an
-Aerobic prokaryote. Instead of digesting it, the host cell formed a symbiotic relationship: the
-Prokaryote provided ATP through aerobic respiration, and the host provided protection and nutrients.
+aerobic prokaryote. Instead of digesting it, the host cell formed a symbiotic relationship: the
+prokaryote provided ATP through aerobic respiration, and the host provided protection and nutrients.
 Over millions of years, the prokaryote lost many of its genes (some were transferred to the host
 Nucleus) and became the mitochondrion. A similar event occurred later when a photosynthetic
 Prokaryote (cyanobacterium) was engulfed, giving rise to chloroplasts in the lineage that led to
-Plants and algae.
+plants and algae.
 
 ## Review: Cell Surface Receptors and Cell Signalling
 
@@ -638,7 +638,7 @@ Change that activates an intracellular signalling pathway.
 
 **Signal transduction pathways:** The process by which an extracellular signal is converted into an
 Intracellular response. Key features include amplification (one activated enzyme can activate many
-Downstream molecules) and regulation (the signal can be modulated at multiple steps).
+downstream molecules) and regulation (the signal can be modulated at multiple steps).
 
 **Worked Example: The adrenaline signalling pathway.**
 
@@ -654,7 +654,7 @@ When adrenaline binds to a GPCR on a liver cell:
    levels.
 
 This pathway demonstrates signal amplification: one molecule of adrenaline can lead to the
-Activation of thousands of glycogen phosphorylase molecules through the cascade.
+activation of thousands of glycogen phosphorylase molecules through the cascade.
 
 ## Review: The Endomembrane System
 
@@ -680,7 +680,7 @@ Golgi apparatus, vesicles, lysosomes, and the plasma membrane.
 
 In I-cell disease (mucolipidosis II), the enzyme that adds the mannose-6-phosphate tag to lysosomal
 Enzymes in the Golgi is deficient. Without this tag, the lysosomal enzymes are secreted outside the
-Cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
+cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
 and cannot break down waste materials. Substances accumulate inside the cell, causing severe
 Developmental problems and early death.
 
@@ -719,8 +719,8 @@ When the skin is wounded, the ECM plays several critical roles. Collagen fibres 
 for cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
 New ECM components. Growth factors bound to the ECM are released and stimulate cell proliferation.
 As healing progresses, the ECM is remodelled: initially disorganised collagen is replaced by more
-Organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
-Remodelling process is dysregulated, it can lead to excessive scarring (fibrosis) or delayed wound
+organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
+remodelling process is dysregulated, it can lead to excessive scarring (fibrosis) or delayed wound
 Healing.
 
 ## Review: Stem Cells and Cell Specialisation
@@ -743,7 +743,7 @@ Specialised cell types.
 
 **Cell specialisation:** All cells in an organism contain the same genetic information, but
 Different genes are expressed in different cell types. This differential gene expression is
-Controlled by transcription factors and epigenetic modifications (DNA methylation, histone
+controlled by transcription factors and epigenetic modifications (DNA methylation, histone
 Modification).
 
 **Worked Example: Specialisation of red blood cells.**
@@ -763,7 +763,7 @@ Proteins because they have no nucleus.
 ## Review: Apoptosis -- Programmed Cell Death
 
 Apoptosis is a highly regulated process of programmed cell death that occurs as a normal part of
-Development and tissue homeostasis. Unlike necrosis (accidental cell death), apoptosis is an orderly
+development and tissue homeostasis. Unlike necrosis (accidental cell death), apoptosis is an orderly
 Process that does not cause inflammation.
 
 **Process of apoptosis:**
@@ -789,7 +789,7 @@ Process that does not cause inflammation.
 Cancer cells often evade apoptosis, allowing them to divide uncontrollably. One mechanism is the
 Overexpression of Bcl-2, a protein that inhibits apoptosis by preventing the release of cytochrome c
 from mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
-Blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
+blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
 Therapies aim to restore the apoptotic pathway by inhibiting Bcl-2 or activating pro-apoptotic
 Proteins.
 

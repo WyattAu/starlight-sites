@@ -24,7 +24,7 @@ categories:
 
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Finding patterns, abstracting details, and designing step-by-step solutions. It is not about
-Thinking like a computer -- it is about expressing problems in a way that a computer can solve.
+thinking like a computer -- it is about expressing problems in a way that a computer can solve.
 
 ### Four Pillars
 
@@ -36,7 +36,7 @@ Thinking like a computer -- it is about expressing problems in a way that a comp
 **Why these four matter together.** Decomposition tells you _what_ the subproblems are. Pattern
 Recognition tells you _which_ subproblems are instances of problems you already know how to solve.
 Abstraction tells you _which details matter_ for each subproblem. Algorithm design turns the
-Abstracted subproblems into _precise, executable steps_.
+abstracted subproblems into _precise, executable steps_.
 
 **Worked Example.** Design a program to manage a school library.
 
@@ -111,7 +111,7 @@ Quick sort, or heap sort -- only that it sorts correctly.
 </div>
 
 Moving down the ladder reveals more detail. Moving up hides detail behind simpler interfaces. The
-Key insight of abstraction is that you rarely need to go all the way down -- you work at the level
+key insight of abstraction is that you rarely need to go all the way down -- you work at the level
 Appropriate to the problem.
 
 ### Procedural Abstraction
@@ -127,7 +127,7 @@ only needs to know what the procedure does (its specification), not how it does 
 
 **Formal notion: preconditions and postconditions.** A procedure's contract specifies what must be
 True before it is called (precondition) and what it guarantees after it returns (postcondition). The
-Implementation can change as long as it satisfies this contract.
+implementation can change as long as it satisfies this contract.
 
 ### Data Abstraction
 
@@ -159,8 +159,8 @@ public class Rectangle {
 ```
 
 The caller uses `getArea()` and `getPerimeter()` without knowing that `width` and `height` are
-Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
-Corners) without affecting any code that uses this class.
+stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
+corners) without affecting any code that uses this class.
 :::
 
 ### Information Hiding
@@ -454,7 +454,7 @@ Level 3 (under Add student): Validate name, validate ID, check for duplicates, s
 ### Stepwise Refinement
 
 Gradually add detail to a high-level design. Start with pseudocode, then refine each step into more
-Specific instructions.
+specific instructions.
 
 **Example:**
 
@@ -551,7 +551,7 @@ By induction, `factorial(n) = n!` for all $n \ge 0$. $\blacksquare$
 ### Abstract Data Types
 
 An Abstract Data Type (ADT) defines a data type by its behavior (operations) rather than its
-Implementation. The user interacts with the ADT through a well-defined interface.
+implementation. The user interacts with the ADT through a well-defined interface.
 
 **Stack ADT:**
 
@@ -561,7 +561,7 @@ Implementation. The user interacts with the ADT through a well-defined interface
 - `isEmpty()`: Return true if the stack is empty.
 
 The user does not need to know whether the stack is implemented using an array, a linked list, or
-Something else.
+something else.
 
 **Queue ADT:**
 
@@ -838,7 +838,7 @@ Result: index 5. Correct.
     are anagrams of each other. What is the time complexity?
 
 21. Explain how information hiding reduces coupling between modules. Give a concrete example from
-    Java programming.
+    java programming.
 
 22. Write pseudocode for a procedure that determines whether a list contains any duplicate values.
     What is the most efficient approach?

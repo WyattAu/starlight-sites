@@ -39,7 +39,7 @@ Memory but decayed before they could be reported.
 **Short-term memory (STM)** has a limited capacity of approximately $7 \pm 2$ items (Miller, 1956)
 And a limited duration of approximately 18--30 seconds without rehearsal (Peterson and Peterson,
 1959). Information is maintained in STM through maintenance rehearsal -- the passive repetition of
-Information without necessarily processing its meaning. The capacity of STM can be effectively
+information without necessarily processing its meaning. The capacity of STM can be effectively
 Increased through chunking, the process of grouping individual items into larger meaningful units
 (e.g., the sequence 1-9-8-4 is more remembered as the single chunk "1984").
 
@@ -95,7 +95,7 @@ Store but comprises several distinct types:
 ### Baddeley and Hitch (1974)
 
 Baddeley and Hitch proposed the working memory model as a more detailed and accurate description of
-Short-term memory. Rather than a single passive store, working memory is conceptualised as an active
+short-term memory. Rather than a single passive store, working memory is conceptualised as an active
 Processing system consisting of multiple components.
 
 #### Components of the Working Memory Model
@@ -103,7 +103,7 @@ Processing system consisting of multiple components.
 **The central executive** is the attentional control system that coordinates the activities of the
 Other components. It allocates processing resources, suppresses irrelevant information, switches
 between tasks, and integrates information from different sources. It has limited capacity but is not
-Itself a storage system. Baddeley acknowledged that the central executive is the least
+itself a storage system. Baddeley acknowledged that the central executive is the least
 Well-specified component of the model.
 
 **The phonological loop** processes auditory and verbal information and consists of two
@@ -129,13 +129,13 @@ Information from different modalities is integrated. The episodic buffer is a li
 Temporary storage system that integrates information from the phonological loop, visuospatial
 Sketchpad, and LTM into a coherent, multi-dimensional episodic representation. This component
 Explains how participants can recall integrated scenes (e.g., "the red car was parked next to the
-Tree") that require combining visual and verbal information.
+tree") that require combining visual and verbal information.
 
 #### Baddeley et al. (1975)
 
 Baddeley, Grant, Wight, and Thomson investigated the dual-task interference predicted by the working
 Memory model. Participants performed a verbal reasoning task (judging whether sentences such as "A
-Follows B" were true or false given the letter sequence "BA") while simultaneously performing either
+follows B" were true or false given the letter sequence "BA") while simultaneously performing either
 A verbal secondary task (reciting digits) or a visual secondary task (tracking a moving light).
 
 Results: Performance on the reasoning task was impaired more by the concurrent verbal task than by
@@ -156,7 +156,7 @@ As predicted by the working memory model.
 ### Craik and Lockhart (1972)
 
 Craik and Lockhart proposed the levels of processing (LOP) framework as an alternative to the
-Structural models of memory (the MSM and working memory model). The key claim is that memory is not
+structural models of memory (the MSM and working memory model). The key claim is that memory is not
 A function of the store in which information is held or the amount of rehearsal it receives, but
 rather of the depth of processing applied to the information at encoding.
 
@@ -174,7 +174,7 @@ rather of the depth of processing applied to the information at encoding.
 
 Craik and Tulving provided the seminal evidence for the LOP effect. Participants were shown words
 one at a time and asked questions requiring structural, phonological, or semantic processing. In a
-Surprise recall test, participants recalled significantly more words that had been processed
+surprise recall test, participants recalled significantly more words that had been processed
 Semantically than those processed phonologically or structurally.
 
 **Evaluation of the levels of processing framework:**
@@ -196,8 +196,8 @@ Semantically than those processed phonologically or structurally.
 
 Frederick Bartlett argued that memory is not a passive recording of experience but an active,
 Reconstructive process. In his most famous experiment, Bartlett asked British participants to read a
-Native American folktale, "War of the Ghosts," and then recall it at increasing intervals (from
-Immediately to several months later).
+native American folktale, "War of the Ghosts," and then recall it at increasing intervals (from
+immediately to several months later).
 
 **Key findings:**
 
@@ -227,10 +227,10 @@ Serve several functions in memory:
 #### Brewer and Treyens (1981)
 
 Participants were taken individually into an office and asked to wait for 30 seconds. They were then
-Unexpectedly asked to recall everything in the office. Results showed that participants recalled
+unexpectedly asked to recall everything in the office. Results showed that participants recalled
 Schema-consistent items (desk, chair, books) highly accurately, recalled some items that were not
-Present but were schema-consistent (books, which were in the office, but also items like a pad of
-Paper that were not), and often failed to recall schema-inconsistent items (a skull and a pair of
+present but were schema-consistent (books, which were in the office, but also items like a pad of
+paper that were not), and often failed to recall schema-inconsistent items (a skull and a pair of
 Skis that had been placed in the office).
 
 **Evaluation of schema theory:**
@@ -248,7 +248,7 @@ Skis that had been placed in the office).
 
 Elizabeth Loftus's research on eyewitness testimony has had a profound influence on both cognitive
 Psychology and the legal system. Her work demonstrates that memory is highly malleable and can be
-Distorted by the way questions are asked.
+distorted by the way questions are asked.
 
 In their most famous experiment, Loftus and Palmer showed participants films of car accidents and
 then asked them to estimate the speed of the cars. The critical manipulation was the verb used in
@@ -274,7 +274,7 @@ Of the event. Loftus proposed two explanations:
    representation, overwriting or merging with the original memory.
 
 Subsequent research has supported the memory impairment explanation, particularly when the
-Misleading information is introduced after a delay (when the original memory has begun to fade).
+misleading information is introduced after a delay (when the original memory has begun to fade).
 
 **Evaluation:**
 

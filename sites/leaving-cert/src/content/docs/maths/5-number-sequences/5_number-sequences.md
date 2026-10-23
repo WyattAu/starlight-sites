@@ -23,7 +23,7 @@ categories:
 ## Number Sets and Sequences
 
 This topic covers number systems, set theory, sequences, series, and financial mathematics. These
-Concepts underpin much of the algebra and calculus in the Leaving Certificate course.
+concepts underpin much of the algebra and calculus in the Leaving Certificate course.
 
 ## Number Systems
 
@@ -165,7 +165,7 @@ Neither: $30 - 25 = 5$.
 
 **Example (HL):** In a survey of 100 people, 60 like tea, 45 like coffee, 35 like juice, 20 like
 Both tea and coffee, 15 like both tea and juice, 10 like both coffee and juice, and 5 like all
-Three. How many like none of the three?
+three. How many like none of the three?
 
 By inclusion-exclusion for three sets:
 
@@ -263,7 +263,7 @@ Subtracting: $7d = 21$ So $d = 3$. Then $a = 17 - 12 = 5$.
 ### Arithmetic Mean (HL)
 
 The arithmetic mean of two numbers $a$ and $b$ is $\frac{a+b}{2}$. In an arithmetic sequence, each
-Term is the arithmetic mean of its neighbours:
+term is the arithmetic mean of its neighbours:
 
 $$
 T_n = \frac{T_{n-1} + T_{n+1}}{2}
@@ -303,7 +303,7 @@ $$
 ### Geometric Mean (HL)
 
 The geometric mean of two positive numbers $a$ and $b$ is $\sqrt{ab}$. In a geometric sequence, each
-Term is the geometric mean of its neighbours (when all terms are positive):
+term is the geometric mean of its neighbours (when all terms are positive):
 
 $$
 T_n = \sqrt{T_{n-1} \cdot T_{n+1}}
@@ -598,7 +598,7 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
 Since $L = \frac{b}{1-a}$ We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
-Geometric sequence with ratio $a$.
+geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
 
@@ -617,12 +617,12 @@ T_n = 1 + (1 - 1) \cdot 4^{n-1} = 1
 $$
 
 Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$ Etc. The sequence is constant at 1, which is the
-Fixed point.
+fixed point.
 
 ### Second Order Recurrence Relations (HL - awareness)
 
 A second-order linear recurrence $T_{n+2} = aT_{n+1} + bT_n$ with constant coefficients is solved by
-Finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
+finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
 
 **Example:** The Fibonacci sequence $F_1 = 1$$F_2 = 1$$F_{n+2} = F_{n+1} + F_n$.
 
@@ -749,7 +749,7 @@ This confirms that the $n$ Th term can always be recovered from the sum.
 #### Geometric Series Derivation (Alternative)
 
 An alternative derivation of $S_n = \frac{a(1-r^n)}{1-r}$ uses the formula for the sum of a
-Geometric progression by recognising:
+geometric progression by recognising:
 
 $$
 (1-r)S_n = (1-r)(a + ar + ar^2 + \cdots + ar^{n-1})

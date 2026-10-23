@@ -189,7 +189,7 @@ Show that a single threshold value cannot achieve both simultaneously with the g
 
 **(d)** The doctor increases the sample size to 4 independent blood tests and uses the mean
 biomarker level $\bar{B}$ as the test statistic. Find the threshold value $c$ such that both the
-Type I and Type II error rates are at most 5%. If this is not possible, find the threshold that
+type I and Type II error rates are at most 5%. If this is not possible, find the threshold that
 minimises the sum of the two error rates.
 
 [Difficulty: hard. Tests precise calculation of both types of error and the trade-off between them.]

@@ -205,12 +205,12 @@ The electrochemical series ranks species by their tendency to be reduced. Some k
 
 **Definition.** A more positive $E^\circ$ value indicates a greater tendency for the species to be
 Reduced (stronger oxidizing agent). A more negative $E^\circ$ indicates a greater tendency for the
-Species to be oxidized (stronger reducing agent).
+species to be oxidized (stronger reducing agent).
 
 ### Measuring Standard Electrode Potential
 
 To measure the standard electrode potential of a half-cell, connect it to the SHE and measure the
-Cell potential using a high-resistance voltmeter (so negligible current flows).
+cell potential using a high-resistance voltmeter (so negligible current flows).
 
 - If the half-cell is the cathode (reduction occurs):
   $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}} = E^\circ_{\mathrm{half-cell}} - 0.00$
@@ -226,7 +226,7 @@ E^\circ_{\mathrm{cell}} \gt 0
 $$
 
 This means the reduction half-reaction (cathode) must have a more positive $E^\circ$ than the
-Oxidation half-reaction (anode).
+oxidation half-reaction (anode).
 
 **Definition.** A spontaneous redox reaction will occur when a species with a more positive
 Reduction potential is paired with a species with a more negative reduction potential.
@@ -235,7 +235,7 @@ Reduction potential is paired with a species with a more negative reduction pote
 :::caution[Common Mistake]
 $E^\circ$ values are intensive properties. They are NOT multiplied by stoichiometric coefficients
 when calculating $E^\circ_{\mathrm{cell}}$. Do not multiply $E^\circ$ values by the number of
-Electrons transferred.
+electrons transferred.
 
 ---
 
@@ -358,7 +358,7 @@ In a galvanic cell:
 
 :::caution[Common Mistake]
 Do not confuse the sign of the electrode in galvanic vs. Electrolytic cells. In galvanic cells, the
-Anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
+anode is negative. In electrolytic cells, the anode is positive (connected to the positive terminal
 of the external power supply).
 :::
 
@@ -407,7 +407,7 @@ Direction to what would occur spontaneously.
 ### Electrolysis of Molten Compounds
 
 When a molten ionic compound is electrolyzed, the cation is reduced at the cathode and the anion is
-Oxidized at the anode.
+oxidized at the anode.
 
 **Example:** Electrolysis of molten $\mathrm{NaCl}$:
 
@@ -423,7 +423,7 @@ Oxidized at the anode.
 ### Electrolysis of Aqueous Solutions
 
 In aqueous solutions, both the cation and $\mathrm{H}^+$ can be reduced at the cathode. Both the
-Anion and $\mathrm{H}_2\mathrm{O}$ can be oxidized at the anode. The species that is discharged
+anion and $\mathrm{H}_2\mathrm{O}$ can be oxidized at the anode. The species that is discharged
 Depends on the **relative ease of discharge** (electrode potential and overpotential).
 
 #### Discharge at the Cathode (Reduction)
@@ -820,7 +820,7 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 
 :::caution[Common Mistake]
 When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$ Ensure $n$ is the number of moles of
-Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
+electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
 $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$ Not $n = 1$.
 
 ---
@@ -1120,7 +1120,7 @@ $\mathrm{Fe(OH)}_3$ dehydrates to form $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm
 #### 1. Barrier Coatings
 
 Paint, oil, grease, plastic, or enamel coatings prevent contact between the iron surface and
-Water/oxygen. This is effective only as long as the coating remains intact. If scratched, rusting
+water/oxygen. This is effective only as long as the coating remains intact. If scratched, rusting
 Occurs at the defect.
 
 #### 2. Galvanizing
@@ -1148,7 +1148,7 @@ Applications: ship hulls, underground pipelines, water heaters, offshore oil pla
 #### 4. Alloying
 
 Stainless steel contains chromium (minimum 10.5%) which forms a thin, adherent layer of
-Chromium(III) oxide ($\mathrm{Cr}_2\mathrm{O}_3$) on the surface. This oxide layer is self-healing
+chromium(III) oxide ($\mathrm{Cr}_2\mathrm{O}_3$) on the surface. This oxide layer is self-healing
 and prevents further corrosion.
 
 #### 5. Cathodic Protection (Impressed Current)
@@ -1174,7 +1174,7 @@ Surface, preventing its oxidation. Used for large structures like pipelines and 
 :::note[IB Exam Tip]
 When explaining why zinc protects iron in galvanizing, reference the electrochemical series: zinc
 has a more negative $E^\circ$ than iron, so zinc is preferentially oxidized. This is the same
-Principle as sacrificial anodes.
+principle as sacrificial anodes.
 
 ---
 
@@ -1193,7 +1193,7 @@ Principle as sacrificial anodes.
 
 **Definition.** A **concentration cell** is an electrochemical cell where both half-cells contain
 The same species but at different concentrations. The cell potential arises solely from the
-Concentration difference.
+concentration difference.
 
 **Example:**
 $\mathrm{Cu}(s) \mid \mathrm{Cu}^{2+}(0.10\mathrm{ M}) \parallel \mathrm{Cu}^{2+}(1.0\mathrm{ M}) \mid \mathrm{Cu}(s)$
@@ -1210,14 +1210,14 @@ E_{\mathrm{cell}} = 0 - \frac{0.0592}{2}\log_{10}\frac{0.10}{1.0} = -\frac{0.059
 $$
 
 The half-cell with the lower concentration undergoes oxidation (anode), and the half-cell with the
-Higher concentration undergoes reduction (cathode). The cell operates until the concentrations
+higher concentration undergoes reduction (cathode). The cell operates until the concentrations
 Equalize.
 
 ### Lead-Acid Batteries
 
 **Definition.** A **lead-acid battery** is a rechargeable battery commonly used in automobiles. It
 Consists of lead dioxide ($\mathrm{PbO}_2$) as the cathode, lead ($\mathrm{Pb}$) as the anode, and
-Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) as the electrolyte.
+sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) as the electrolyte.
 
 **Discharging:**
 
@@ -1287,8 +1287,8 @@ Key features:
 
 :::note[IB Exam Tip]
 Know the half-reactions for the lead-acid battery. The key insight is that during discharge, both
-Electrodes are converted to $\mathrm{PbSO}_4$ And during charging, the reaction is reversed. This
-Reversibility is what makes the battery rechargeable.
+electrodes are converted to $\mathrm{PbSO}_4$ And during charging, the reaction is reversed. This
+reversibility is what makes the battery rechargeable.
 
 ---
 
@@ -1553,7 +1553,7 @@ in moist soil.
 
 **(c)** Since magnesium is more reactive than iron, it is preferentially oxidized (corrodes instead
 of iron). Electrons flow from magnesium to iron, making the iron surface electron-rich and
-Preventing the oxidation of iron. This is called sacrificial (cathodic) protection. The magnesium
+preventing the oxidation of iron. This is called sacrificial (cathodic) protection. The magnesium
 Block must be replaced periodically as it is consumed.
 
 ---
@@ -1686,7 +1686,7 @@ An aqueous solution of $\mathrm{CuSO}_4$ is electrolysed using inert graphite el
 <summary>Answer</summary>
 
 (a) Copper(II) ions are below aluminium in the reactivity series, so $\mathrm{Cu}^{2+}$ is
-Preferentially discharged over $\mathrm{H}_2\mathrm{O}$:
+preferentially discharged over $\mathrm{H}_2\mathrm{O}$:
 
 $$
 \mathrm{Cu}^{2+}(aq) + 2e^- \to \mathrm{Cu}(s)

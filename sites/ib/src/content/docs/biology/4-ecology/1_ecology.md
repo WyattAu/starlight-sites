@@ -66,7 +66,7 @@ Relationships in an ecosystem.
 
 **Definition.** A **niche** is the role and position a species has in its environment: how it meets
 Its needs for food and shelter, how it survives, and how it reproduces. It includes all biotic and
-Abiotic interactions.
+abiotic interactions.
 
 The **competitive exclusion principle** (Gause's principle) states that two species cannot coexist
 Permanently in the same niche: one will outcompete the other. Species that coexist must occupy
@@ -463,8 +463,8 @@ Check: $0.36 + 0.48 + 0.16 = 1.00$.
 <summary>Question 3: Natural Selection and Antibiotic Resistance</summary>
 
 A population of $10000$ bacteria is treated with an antibiotic that kills $99\%$ of them. The
-Surviving $100$ bacteria carry a resistance gene. After $5$ generations (binary fission), the
-Population recovers to $3200$. Explain this in terms of natural selection.
+surviving $100$ bacteria carry a resistance gene. After $5$ generations (binary fission), the
+population recovers to $3200$. Explain this in terms of natural selection.
 
 </details>
 
@@ -474,7 +474,7 @@ Population recovers to $3200$. Explain this in terms of natural selection.
 The initial population contained genetic variation: a small fraction carried the resistance allele.
 The antibiotic acted as a strong selective pressure, killing susceptible bacteria (differential
 Survival). The resistant bacteria survived and reproduced, passing the resistance allele to all
-Offspring (heritability). After $5$ generations of binary fission ($2^5 = 32$-fold increase from
+offspring (heritability). After $5$ generations of binary fission ($2^5 = 32$-fold increase from
 $100$), the population recovered to $3200$ All carrying the resistance gene. This demonstrates
 Natural selection: the allele frequency of the resistance gene increased from $\approx 1\%$ to
 $\approx 100\%$ in five generations.
@@ -486,7 +486,7 @@ $\approx 100\%$ in five generations.
 
 An area of tropical rainforest has an NPP of $2200\;\mathrm{g\;C/m^2/year}$. If deforestation
 Removes $50\%$ of the trees, and assuming NPP is proportional to biomass, estimate the reduction in
-Annual carbon uptake. Express your answer in tonnes of $\mathrm{CO}_2$ per $\mathrm{km}^2$ per year.
+annual carbon uptake. Express your answer in tonnes of $\mathrm{CO}_2$ per $\mathrm{km}^2$ per year.
 
 </details>
 
@@ -514,7 +514,7 @@ Reduction: $4037 \times 10^6\;\mathrm{g/km^2/year} = 4037\;\mathrm{t\;CO_2/km^2/
 <summary>Question 5: Classification Using a Dichotomous Key</summary>
 
 An organism is unicellular, eukaryotic, photosynthetic, and has cellulose cell walls. Using the
-Three-domain system and additional classification, determine its most likely kingdom and explain
+three-domain system and additional classification, determine its most likely kingdom and explain
 your reasoning.
 
 </details>
@@ -556,7 +556,7 @@ Convention, unicellular photosynthetic eukaryotes are classified as protists.
 **Worked Example: Hardy-Weinberg Equilibrium with Selection**
 
 In a population of $5000$ peppered moths, the allele for dark colouration ($D$) is dominant over the
-Light allele ($d$). The current genotype frequencies are: $DD = 0.36$$Dd = 0.48$$dd = 0.16$.
+light allele ($d$). The current genotype frequencies are: $DD = 0.36$$Dd = 0.48$$dd = 0.16$.
 Industrial pollution darkens tree bark, giving dark moths a survival advantage. The relative fitness
 Values are: $w_{DD} = 1.0$$w_{Dd} = 1.0$$w_{dd} = 0.5$. Calculate the allele frequencies after One
 generation of selection.
@@ -579,7 +579,7 @@ $f(dd) = \frac{q^2 w_{dd}}{\bar{w}} = \frac{0.08}{0.92} \approx 0.087$
 $q' = 0.087 + \frac{1}{2}(0.522) = 0.087 + 0.261 = 0.348$
 
 The frequency of the dark allele ($D$) increased from $0.60$ to $0.652$ in one generation due to
-Directional selection favouring the dark phenotype. The light allele ($d$) is declining but has not
+directional selection favouring the dark phenotype. The light allele ($d$) is declining but has not
 been eliminated because heterozygotes also carry and protect it.
 
 </details>
@@ -613,7 +613,7 @@ Herbivores preferentially consuming white flowers, or pollinator preference for 
 **Worked Example: Calculating Ecological Footprint from NPP Data**
 
 A $10\;\mathrm{km}^2$ nature reserve has an average NPP of $1500\;\mathrm{g\;C/m^2/year}$. The
-Reserve supports a population of $200$ deer, each consuming an average of $3.5\;\mathrm{kg}$ of
+reserve supports a population of $200$ deer, each consuming an average of $3.5\;\mathrm{kg}$ of
 plant Biomass per day (dry weight, assume $50\%$ carbon by mass). Calculate the fraction of annual
 NPP Consumed by the deer population.
 
@@ -658,13 +658,13 @@ $10$-year Period in a $500\;\mathrm{km}^2$ boreal forest:
 </div>
 
 Describe the relationship between the two populations and explain the likely mechanism causing the
-Oscillations.
+oscillations.
 
 <details>
 <summary>Solution</summary>
 
 The populations show **cyclic oscillations** with the predator population peaking slightly after the
-Prey population. This lag is the signature feature of a Lotka-Volterra predator-prey dynamic.
+prey population. This lag is the signature feature of a Lotka-Volterra predator-prey dynamic.
 
 **Mechanism**:
 
@@ -735,7 +735,7 @@ cycles independently of predation.
 A tropical rainforest has an average above-ground biomass of $200\;\mathrm{t\;C/ha}$ and an NPP of
 $1800\;\mathrm{g\;C/m^2/year}$. A logging company clears $500\;\mathrm{ha}$ of forest. Assume $60\%$
 of the above-ground carbon is released as $\mathrm{CO}_2$ immediately (through burning and
-Decomposition), and the remaining $40\%$ is stored in timber products. (a) Calculate the immediate
+decomposition), and the remaining $40\%$ is stored in timber products. (a) Calculate the immediate
 $\mathrm{CO}_2$ release in tonnes. (b) Calculate the annual loss of $\mathrm{CO}_2$ uptake capacity.
 (c) Discuss two long-term consequences for the local carbon cycle.
 
@@ -745,7 +745,7 @@ $\mathrm{CO}_2$ release in tonnes. (b) Calculate the annual loss of $\mathrm{CO}
 <summary>Problem 2: Extended Response -- Speciation Mechanisms</summary>
 
 A river changes course over geological time, splitting a population of $50000$ beetles into two
-Isolated populations. The western population lives in a dry grassland; the eastern population
+isolated populations. The western population lives in a dry grassland; the eastern population
 Inhabits a moist forest. Over $50000$ generations, the populations diverge. Describe the likely
 Mechanisms (natural selection, genetic drift, mutation) driving divergence in each habitat. Explain
 what additional evidence would be needed to confirm that the two populations are now separate
@@ -768,10 +768,10 @@ Indefinitely and describe the shape of the resulting logistic growth curve.
 
 A lake receives agricultural runoff containing $50\;\mathrm{tonnes/year}$ of nitrogen (as nitrate).
 The lake has a surface area of $10\;\mathrm{km}^2$ and an average depth of $5\;\mathrm{m}$. The
-Natural nitrogen input from rainfall is $0.5\;\mathrm{tonnes/year}$. (a) Calculate the nitrogen
+natural nitrogen input from rainfall is $0.5\;\mathrm{tonnes/year}$. (a) Calculate the nitrogen
 Loading per unit area with and without agricultural runoff. (b) Explain the sequence of ecological
 Events (algal bloom, oxygen depletion, fish kill) that would likely follow. (c) Describe two
-Management strategies to reduce nitrogen loading.
+management strategies to reduce nitrogen loading.
 
 </details>
 
@@ -780,8 +780,8 @@ Management strategies to reduce nitrogen loading.
 
 Using specific named examples, evaluate the relative strength of evidence from the fossil record,
 Comparative anatomy, molecular biology, and biogeography in supporting the theory of evolution by
-Natural selection. Discuss limitations of each evidence type and explain how multiple lines of
-Evidence provide a more robust argument than any single type alone.
+natural selection. Discuss limitations of each evidence type and explain how multiple lines of
+evidence provide a more robust argument than any single type alone.
 
 </details>
 
@@ -803,7 +803,7 @@ to genotype).
 Describe the mechanism by which increasing atmospheric $\mathrm{CO}_2$ causes ocean acidification.
 Explain the impact of decreasing ocean pH on marine organisms that build calcium carbonate shells
 (e.g., corals, pteropods, bivalves), including the relevant chemical equilibrium. Discuss one
-Cascading ecological consequence for the broader marine food web.
+cascading ecological consequence for the broader marine food web.
 
 </details>
 
@@ -937,7 +937,7 @@ some organisms persist.
 ### Keystone Species
 
 A **keystone species** has a disproportionately large effect on its ecosystem relative to its
-Abundance. Its removal causes significant changes in community structure.
+abundance. Its removal causes significant changes in community structure.
 
 **Examples:**
 
@@ -978,7 +978,7 @@ feeding Times, different food sizes, different vertical stratification) to reduc
 ### The Phosphorus Cycle
 
 Unlike carbon and nitrogen, phosphorus has **no significant gaseous phase**. The cycle is
-Sedimentary:
+sedimentary:
 
 1. **Weathering**: phosphate minerals in rocks are slowly released by weathering
    ($\mathrm{PO}_4^{3-}$).
@@ -1085,8 +1085,8 @@ sizes at $t = 20\;\mathrm{h}$.
 <summary>Problem 10: Data Analysis -- Shannon-Wiener Diversity Index</summary>
 
 Two woodland communities are surveyed for butterfly species. Community A has 4 species with
-Abundances: 80, 15, 3, 2. Community B has 5 species with abundances: 30, 28, 22, 12, 8. (a)
-Calculate The Shannon-Wiener diversity index ($H'$) for each community. (b) Calculate Simpson's
+abundances: 80, 15, 3, 2. Community B has 5 species with abundances: 30, 28, 22, 12, 8. (a)
+calculate The Shannon-Wiener diversity index ($H'$) for each community. (b) Calculate Simpson's
 diversity Index ($D$) for each community. (c) Which community is more diverse? Justify your answer
 with Reference to both richness and evenness.
 
@@ -1096,9 +1096,9 @@ with Reference to both richness and evenness.
 <summary>Problem 11: Extended Response -- Succession and Conservation</summary>
 
 A volcanic island is formed by a submarine eruption. Over 500 years, the island is colonised by
-Living organisms. (a) Describe the expected sequence of primary succession on the island, naming
+living organisms. (a) Describe the expected sequence of primary succession on the island, naming
 Specific types of organisms at each stage and explaining how they modify the environment for the
-Next stage. (b) Explain why the climax community on this island may differ from the climax community
+next stage. (b) Explain why the climax community on this island may differ from the climax community
 on a nearby mainland island. (c) If the island is later colonised by an invasive rat species,
 predict The impact on the native fauna and describe a conservation strategy to protect native
 species.
@@ -1289,11 +1289,11 @@ $95\%\;\mathrm{CI} = (299, 701)$
 **Worked Example: Nitrogen Cycle and Fertiliser Application**
 
 A farmer applies $150\;\mathrm{kg/ha}$ of ammonium nitrate fertiliser ($\mathrm{NH}_4\mathrm{NO}_3$
-Molar mass $= 80\;\mathrm{g/mol}$) to a wheat field. (a) Calculate the mass of nitrogen applied per
-Hectare. (b) If only $50\%$ of the nitrogen is taken up by the wheat crop, calculate the mass of
-Nitrogen lost to the environment. (c) Explain the environmental consequences of nitrogen runoff into
-Aquatic ecosystems. (d) Describe the process of denitrification and explain its importance in the
-Nitrogen cycle.
+molar mass $= 80\;\mathrm{g/mol}$) to a wheat field. (a) Calculate the mass of nitrogen applied per
+hectare. (b) If only $50\%$ of the nitrogen is taken up by the wheat crop, calculate the mass of
+nitrogen lost to the environment. (c) Explain the environmental consequences of nitrogen runoff into
+aquatic ecosystems. (d) Describe the process of denitrification and explain its importance in the
+nitrogen cycle.
 
 <details>
 <summary>Solution</summary>
@@ -1449,7 +1449,7 @@ $= \frac{25}{80} + \frac{225}{70} + \frac{100}{30} + 0$ $= 0.313 + 3.214 + 3.333
 
 (c) $\chi^2 = 6.860 < 7.815$. We fail to reject $H_0$ at $p = 0.05$. The difference between observed
 and expected habitat use is not statistically significant at the $5\%$ level. However, the result is
-Close to significant, suggesting a trend toward habitat preference that might be detected with a
+close to significant, suggesting a trend toward habitat preference that might be detected with a
 larger Sample size.
 
 (d) Despite failing to reach significance:
@@ -1640,7 +1640,7 @@ and Slow microbial activity.
 
 **Adaptations**: low-growing cushion plants (avoid wind damage, benefit from insulating snow layer);
 Hairy leaves (trap warm air); dark pigments (absorb more heat); shallow root systems (confined to
-Active layer above permafrost); clonal reproduction (asexual reproduction is more reliable than
+active layer above permafrost); clonal reproduction (asexual reproduction is more reliable than
 sexual Reproduction in harsh conditions); antifreeze compounds in cells.
 
 ### Grassland/Savanna
@@ -1670,7 +1670,7 @@ Penetration (euphotic zone) and nutrient availability. Thermal stratification in
 
 **Marine**: oceans cover $71\%$ of Earth's surface. Productivity concentrated in coastal upwelling
 Zones and continental shelves (nutrient-rich). Open ocean is nutrient-poor but vast (low NPP per
-Area but high total NPP). Coral reefs: highest marine biodiversity, built by calcium carbonate
+area but high total NPP). Coral reefs: highest marine biodiversity, built by calcium carbonate
 Secretion by coral polyps (symbiosis with zooxanthellae).
 
 ### Biome Map Summary
@@ -1694,7 +1694,7 @@ Lost at least $70\%$ of their original vegetation. There are $36$ recognised hot
 Amazon, Madagascar, Sundaland, the Mediterranean Basin, and the Caribbean. These hotspots contain
 Approximately $50\%$ of the world's plant species and $42\%$ of terrestrial vertebrate species on
 only $2.5\%$ of the Earth's land surface. Conservation resources are concentrated in hotspots for
-Maximum impact.
+maximum impact.
 
 **Island biogeography and conservation design**: the theory of island biogeography (MacArthur and
 Wilson, 1967) predicts that larger habitat patches and patches closer to other patches support More
@@ -1710,7 +1710,7 @@ Species. Small, narrow reserves have proportionally more edge than interior.
 **The SLOSS debate** (Single Large Or Several Small): whether one large reserve or several small
 Reserves of the same total area preserves more species. The answer depends on the species
 Composition: a single large reserve protects interior species but risks losing everything to a
-Single catastrophe; several small reserves spread risk but have more edge. Most conservation
+single catastrophe; several small reserves spread risk but have more edge. Most conservation
 Biologists now advocate for a network approach: a few large reserves connected by corridors,
 Supplemented by smaller patches.
 

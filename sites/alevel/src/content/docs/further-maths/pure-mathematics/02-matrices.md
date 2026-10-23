@@ -24,7 +24,7 @@ categories:
 
 Matrices provide a compact algebraic framework for representing and manipulating systems of linear
 Equations, geometric transformations, and, at a more advanced level, quantum mechanical states and
-Data structures. This topic develops the algebra of matrices and their interpretation as linear
+data structures. This topic develops the algebra of matrices and their interpretation as linear
 Transformations of the plane and space.
 
 ### Board Coverage
@@ -63,7 +63,7 @@ $$
 $$
 
 Matrix addition is commutative ($\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$) and
-Associative.
+associative.
 
 ### 1.2 Matrix Multiplication
 
@@ -353,7 +353,7 @@ $\mathbf{R}_{\mathrm{rot}} \times \mathbf{R}_{\mathrm{ref}}$.
 <summary>Worked Example: Combined transformation</summary>
 
 Find the matrix representing a rotation of $90^\circ$ anticlockwise about the origin followed by a
-Reflection in the line $y = x$.
+reflection in the line $y = x$.
 
 Rotation by $90^\circ$: $\mathbf{R} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$
 
@@ -718,7 +718,7 @@ Both give the same result:
 $\begin{pmatrix} 0 & -2 \\ 2 & 0 \end{pmatrix} = 2\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$.
 
 This is a rotation by $90^\circ$ combined with an enlargement by factor 2, and the order is
-Irrelevant because scalar multiples of the identity commute with all matrices.
+irrelevant because scalar multiples of the identity commute with all matrices.
 
 </details>
 
@@ -1020,7 +1020,7 @@ $\mathbf{A}^{-1} = \dfrac{1}{-1}\begin{pmatrix}1&2&-2\\-1&-2&1\\-1&-1&1\end{pmat
 ### Question 8
 
 Find the eigenvalues and eigenvectors of $\mathbf{A} = \begin{pmatrix}4&-1\\2&1\end{pmatrix}$. Hence
-Write down $\mathbf{P}$ and $\mathbf{D}$ such that
+write down $\mathbf{P}$ and $\mathbf{D}$ such that
 $\mathbf{P}^{-1}\mathbf{A}\mathbf{P} = \mathbf{D}$.
 
 <details>
@@ -1147,7 +1147,7 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 ### Question 11
 
 Find the matrix representing a stretch of scale factor 3 parallel to the $y$-axis followed by a
-Reflection in the $x$-axis.
+reflection in the $x$-axis.
 
 <details>
 <summary>Solution</summary>

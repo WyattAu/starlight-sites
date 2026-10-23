@@ -252,7 +252,7 @@ Amortised cost per operation: $O(3) = O(1)$. $\square$
 ### Space-Time Tradeoffs
 
 Sometimes we can reduce time complexity by using more memory, or reduce space by accepting more
-Time.
+time.
 
 <div class="table-wrap">
 
@@ -510,7 +510,7 @@ Total iterations = $0 + 1 + 2 + \cdots + (n-1) = \frac{n(n-1)}{2} = \frac{n^2 - 
 The dominant term is $\frac{n^2}{2}$ So the time complexity is $O(n^2)$.
 
 The $\frac{1}{2}$ constant and the $-n$ term are dropped because Big-O ignores constant factors and
-Lower-order terms.
+lower-order terms.
 
 </details>
 
@@ -579,7 +579,7 @@ Testing values:
 Algorithm A becomes faster at approximately **$n = 60$**.
 
 This demonstrates that Big-O notation only describes asymptotic behaviour. For small inputs, the
-Algorithm with the better Big-O complexity can be slower due to larger constant factors.
+algorithm with the better Big-O complexity can be slower due to larger constant factors.
 
 </details>
 
@@ -648,7 +648,7 @@ Each integer occupies $O(1)$ space, and the list overhead is also $O(1)$ per ele
 
 The dominant factor is the total number of stored values ($2n^2$). The variable `i`. The `row`
 Reference, and the loop overhead all use $O(1)$ additional space and are negligible compared to the
-Matrix itself.
+matrix itself.
 
 </details>
 
@@ -665,7 +665,7 @@ def sum_recursive(arr, n):
 <summary>Hint</summary>
 
 Recursive functions use stack space proportional to their recursion depth. How deep does the
-Recursion go, and how much space does each stack frame use?
+recursion go, and how much space does each stack frame use?
 
 </details>
 
@@ -713,7 +713,7 @@ the pivot is the median element, a random element, and the minimum or maximum el
 
 **Mitigation:** Randomised quicksort (choosing a random pivot) or median-of-three pivot selection
 Makes the worst case extremely unlikely in practice, giving expected $O(n \log n)$ regardless of
-Input.
+input.
 
 </details>
 
@@ -838,14 +838,14 @@ def algorithm_p(arr):
 **Algorithm Q** uses a modified merge sort that counts inversions during the merge step.
 
 (a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$ Estimate the number of
-Operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
+operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
 your reasoning.
 
 <details>
 <summary>Hint</summary>
 
 For Algorithm P, count the number of iterations of the nested loops. For Algorithm Q, recall that
-Merge sort is $O(n \log n)$ and the modification to count inversions doesn't change the asymptotic
+merge sort is $O(n \log n)$ and the modification to count inversions doesn't change the asymptotic
 Complexity.
 
 </details>
@@ -864,7 +864,7 @@ Total iterations: $\sum_{i=0}^{n-1}(n - 1 - i) = (n-1) + (n-2) + \cdots + 1 + 0 
 
 **Algorithm Q:** Modified merge sort follows the same divide-and-conquer structure as standard merge
 Sort. Each level processes all $n$ elements during merging, and there are $\log n$ levels. The
-Inversion count is accumulated during the merge step without changing the merge complexity.
+inversion count is accumulated during the merge step without changing the merge complexity.
 
 **Time complexity of Q: $O(n \log n)$.**
 

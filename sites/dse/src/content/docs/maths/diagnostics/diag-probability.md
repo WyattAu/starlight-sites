@@ -286,7 +286,7 @@ $0 < p < 1$.
 A factory has two machines producing items. Machine $A$ produces $60\%$ of the items and has a
 defect rate of $3\%$. Machine $B$ produces $40\%$ of the items and has a defect rate of $5\%$. An
 item is randomly selected and found to be defective. Find the probability that it was produced by
-Machine $B$.
+machine $B$.
 
 **Solution:**
 

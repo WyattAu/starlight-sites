@@ -43,7 +43,7 @@ A common definition is living below $60\%$ of the median household income.
 
 A poverty trap is a self-reinforcing mechanism that perpetuates poverty. Low income leads to low
 Savings, which limits investment in human and physical capital, which in turn keeps productivity and
-Income low. Breaking the trap requires a "big push", a large, coordinated investment in health,
+income low. Breaking the trap requires a "big push", a large, coordinated investment in health,
 Education, and infrastructure.
 
 ## Debt
@@ -53,7 +53,7 @@ Education, and infrastructure.
 Many developing countries carry high levels of external debt, debt owed to foreign creditors
 (governments, multilateral institutions, commercial banks). Servicing this debt (interest payments
 and principal repayment) diverts scarce government resources away from health, education, and
-Infrastructure.
+infrastructure.
 
 **Indicators of debt sustainability:**
 
@@ -94,7 +94,7 @@ Borrowing countries to implement structural adjustment policies:
 - Flexible exchange rates
 
 Criticism: SAPs often exacerbated poverty by cutting social spending, weakened public services, and
-Prioritised debt repayment over development.
+prioritised debt repayment over development.
 
 ## Harrod-Domar and Lewis Models (HL Extension)
 
@@ -154,7 +154,7 @@ Policies.
 ### The Lewis Dual-Sector Model
 
 Arthur Lewis (1954) described the process of development as the transfer of labour from a
-Low-productivity traditional sector to a high-productivity modern sector.
+low-productivity traditional sector to a high-productivity modern sector.
 
 **Model assumptions:**
 
@@ -215,7 +215,7 @@ Singapore, Hong Kong) from the 1960s onward:
 ### The Harris-Todaro Model
 
 Harris and Todaro (1970) extended Lewis by explaining why urban unemployment coexists with
-Rural-urban migration:
+rural-urban migration:
 
 $$
 \frac{Y_u}{Y_r} = \frac{P_u \cdot w_u}{w_r}
@@ -648,7 +648,7 @@ A solar panel manufacturer in Country Z has current costs of USD 0.50/W. World p
 Without protection, the firm cannot compete.
 
 With a 67% tariff (raising the domestic price of imports to USD 0.50/W), the firm can sell and
-Accumulate production. The learning rate is $\alpha = 0.20$.
+accumulate production. The learning rate is $\alpha = 0.20$.
 
 After producing 1 GW of panels: $\text{AC} = 0.50 \times (1)^{-0.20} = 0.50$ After producing 10 GW:
 $\text{AC} = 0.50 \times (10)^{-0.20} = 0.50 \times 0.631 = 0.316$ After producing 100 GW:
@@ -740,7 +740,7 @@ Financial development contributes to economic growth through several channels:
 ### Threshold Effects
 
 The relationship between financial development and growth may be non-linear. Above a certain
-Threshold of institutional quality, financial development promotes growth. Below this Threshold,
+threshold of institutional quality, financial development promotes growth. Below this Threshold,
 financial development may lead to crises (as in the 2008 financial crisis).
 
 **Numerical example:**

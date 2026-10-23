@@ -30,7 +30,7 @@ students aged 16 to 19 after two years of study in the Senior Cycle.
 
 The Leaving Certificate serves as the principal matriculation qualification for entry to higher
 Education institutions in Ireland, including universities, institutes of technology, and colleges of
-Education. It is also widely recognised internationally.
+education. It is also widely recognised internationally.
 
 ### Levels
 
@@ -90,7 +90,7 @@ project components that are assessed separately.
 
 For CAO (Central Applications Office) entry, Leaving Certificate results are converted to points.
 The highest six subjects are counted. Higher Level Mathematics attracts a bonus of 25 points for
-Grades H6 and above.
+grades H6 and above.
 
 <div class="table-wrap">
 

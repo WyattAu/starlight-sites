@@ -102,7 +102,7 @@ fertilisers and pesticides, and mechanisation including tractors and combine har
 ### Consequences of the Green Revolution
 
 The Green Revolution produced dramatic increases in rice production and reduced food insecurity in
-South and Southeast Asia. However, it also generated increased inequality (larger farmers could
+south and Southeast Asia. However, it also generated increased inequality (larger farmers could
 afford HYV inputs while smaller farmers could not), environmental degradation (chemical runoff,
 soil degradation, biodiversity loss), displacement of traditional rice varieties, and
 groundwater depletion from water-intensive systems.

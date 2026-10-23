@@ -46,7 +46,7 @@ MAX_SCORE = 100
 
 **Why use constants?** If a value like the VAT rate (20%) appears in many places in your code, using
 A constant `VAT_RATE = 0.20` means you only need to change it in one place if the rate changes. This
-Reduces errors and makes the code easier to maintain.
+reduces errors and makes the code easier to maintain.
 
 **Data types:**
 
@@ -314,7 +314,7 @@ Records are useful because they group related data. Instead of having separate v
 ### 3.1 Procedures and Functions
 
 A **procedure** performs a task but does not return a value. A **function** performs a task and
-Returns a value.
+returns a value.
 
 ```python
 # Procedure
@@ -392,7 +392,7 @@ print(total)  # 10
 
 **Scope rules:** A variable created inside a function is **local** to that function and cannot be
 Accessed from outside. A variable created outside any function is **global** and can be read by any
-Function, but can only be modified with the `global` keyword.
+function, but can only be modified with the `global` keyword.
 
 **Best practice:** Use local variables wherever possible to avoid unintended side effects. Global
 Variables make code harder to debug because any function can modify them.
@@ -424,7 +424,7 @@ Returns. If there is no base case, the stack grows until memory is exhausted, ca
 **When to use recursion vs iteration:** Any recursive function can be rewritten as an iterative
 Version (using a loop). Iteration is generally more memory-efficient because it does not add frames
 to the call stack. Recursion is more natural for problems with a self-similar structure, such as
-Tree traversal or divide-and-conquer algorithms.
+tree traversal or divide-and-conquer algorithms.
 
 ## 4. String Manipulation
 
@@ -540,7 +540,7 @@ file.close()
 ### 5.3 The `with` Statement
 
 The `with` statement automatically closes the file, even if an exception occurs. This is the
-Recommended approach.
+recommended approach.
 
 ```python
 with open("data.txt", "r") as file:

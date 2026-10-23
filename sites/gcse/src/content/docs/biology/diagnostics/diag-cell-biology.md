@@ -138,7 +138,7 @@ are black and white.
 **Question:** An experiment is set up with three potato cylinders placed in different solutions:
 distilled water, 0.5 mol/dm$^3$ sucrose, and 1.0 mol/dm$^3$ sucrose. The initial mass of each
 cylinder is 5.0 g. After 30 minutes, the masses are 5.8 g, 4.9 g, and 4.2 g respectively. (a)
-Explain the results using the concept of water potential. (b) Calculate the percentage change in
+explain the results using the concept of water potential. (b) Calculate the percentage change in
 mass for each cylinder. (c) Estimate the concentration of the potato cell sap. (d) Explain why this
 experiment is an example of osmosis, not diffusion.
 

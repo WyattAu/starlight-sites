@@ -40,7 +40,7 @@ Area available for exchange of gases, nutrients, and heat becomes proportionally
 the metabolic demand (proportional to volume).
 
 For single-celled organisms, diffusion alone is sufficient because the SA:V ratio is large and
-Diffusion distances are short. Larger, multicellular organisms require specialised exchange surfaces
+diffusion distances are short. Larger, multicellular organisms require specialised exchange surfaces
 and mass transport systems.
 
 ### 1.2 Adaptations for Efficient Exchange
@@ -72,7 +72,7 @@ $\to$ trachea $\to$ bronchi $\to$ bronchioles $\to$ alveoli.
 The **trachea** and **bronchi** are supported by C-shaped rings of cartilage that keep the airway
 Open while allowing flexibility. The walls contain ciliated epithelium and goblet cells that produce
 Mucus to trap dust and pathogens. The cilia beat upwards, moving mucus towards the pharynx (the
-Mucus escalator).
+mucus escalator).
 
 **Bronchioles** lack cartilage but have smooth muscle in their walls that can constrict (reducing
 Airflow) or dilate (increasing airflow), regulated by the autonomic nervous system and local
@@ -132,11 +132,11 @@ Insects do not use blood for gas transport. Instead, they have a system of branc
 That deliver air directly to tissues.
 
 Air enters through **spiracles** (valved openings on the thorax and abdomen) $\to$ tracheae $\to$
-Tracheoles (finer branches, diameter $\approx 1\ \mu\mathrm{m}$) that penetrate individual cells.
+tracheoles (finer branches, diameter $\approx 1\ \mu\mathrm{m}$) that penetrate individual cells.
 
 Gas exchange occurs at the tips of tracheoles, where they are filled with fluid. During activity,
 Lactic acid builds up in tissues, lowering the water potential; water is drawn out of tracheoles by
-Osmosis, exposing more tracheole surface to air and increasing gas exchange.
+osmosis, exposing more tracheole surface to air and increasing gas exchange.
 
 **Ventilation**: larger insects use rhythmic abdominal movements to pump air through the tracheal
 System. The limits of diffusion in tracheae constrain insect body size.
@@ -144,7 +144,7 @@ System. The limits of diffusion in tracheae constrain insect body size.
 ### 3.2 Fish: Gills
 
 Fish use **gills** for gas exchange. Water enters through the mouth, passes over the gills, and
-Exits through opercula (bony flaps on each side).
+exits through opercula (bony flaps on each side).
 
 Each gill consists of many **gill filaments** (primary lamellae), covered in **gill plates**
 (secondary lamellae) that provide a large surface area. Blood flows through the gill plates in the
@@ -152,7 +152,7 @@ Each gill consists of many **gill filaments** (primary lamellae), covered in **g
 
 **Countercurrent flow**: blood and water flow in opposite directions. This maintains a concentration
 Gradient along the entire length of the gill plate, maximising oxygen uptake. Approximately 80% of
-Dissolved oxygen is extracted from water (compared to approximately 25% in mammalian lungs).
+dissolved oxygen is extracted from water (compared to approximately 25% in mammalian lungs).
 
 <div class="table-wrap">
 
@@ -193,7 +193,7 @@ Plants must balance $\mathrm{CO_2}$ uptake for photosynthesis against transpirat
 
 Xylem transports water and mineral ions from roots to leaves. Xylem vessels are dead, hollow tubes
 Formed from columns of cells whose end walls and cytoplasm have broken down. Their walls are
-Reinforced with **lignin**, which:
+reinforced with **lignin**, which:
 
 - Provides mechanical strength to resist the negative pressure (tension) of transpiration.
 - Prevents the walls from collapsing inward.
@@ -202,8 +202,8 @@ Reinforced with **lignin**, which:
 **Cohesion-tension theory**: water is pulled up the xylem by transpiration pull. Water molecules
 Form hydrogen bonds with each other (cohesion) and with the walls of the xylem (adhesion). As water
 Evaporates from mesophyll cell walls in the leaves, the continuous water column is placed under
-Tension, pulling water upward from the roots. This is a passive process driven by the energy of
-Evaporation.
+tension, pulling water upward from the roots. This is a passive process driven by the energy of
+evaporation.
 
 **Root pressure**: active transport of mineral ions into the xylem lowers its water potential,
 Causing water to enter by osmosis. This creates a positive pressure that can push water upward (root
@@ -326,7 +326,7 @@ $70\ \mathrm{cm^3}$ at rest). Heart rate is approximately $72\ \mathrm{beats\ mi
 Resting cardiac output is therefore approximately $70 \times 72 = 5040\ \mathrm{cm^3\ min^{-1}}$.
 
 During exercise, cardiac output can increase to approximately $25\ \mathrm{dm^3\ min^{-1}}$ through
-Increases in both stroke volume and heart rate.
+increases in both stroke volume and heart rate.
 
 ### 5.5 Tissue Fluid and Lymph
 
@@ -341,7 +341,7 @@ At the arterial end of capillaries:
    via the subclavian veins.
 
 Tissue fluid is similar to blood plasma but has no plasma proteins and fewer blood cells. It
-Exchanges substances with cells by diffusion.
+exchanges substances with cells by diffusion.
 
 ## 6. Blood
 
@@ -380,7 +380,7 @@ Increasing the affinity of the remaining haem groups for $\mathrm{O_2}$.
 - Higher concentration of 2,3-BPG (2,3-bisphosphoglycerate)
 
 These conditions occur in actively respiring tissues, facilitating $\mathrm{O_2}$ unloading. In the
-Lungs, the reverse conditions (high $p\mathrm{O_2}$ Low $p\mathrm{CO_2}$ Lower temperature) shift The
+lungs, the reverse conditions (high $p\mathrm{O_2}$ Low $p\mathrm{CO_2}$ Lower temperature) shift The
 curve left, facilitating $\mathrm{O_2}$ loading.
 
 **Fetal haemoglobin (HbF)** has a higher affinity for $\mathrm{O_2}$ than adult haemoglobin (the
@@ -444,7 +444,7 @@ and in deoxygenated blood $p\mathrm{O_2} = 5.3\ \mathrm{kPa}$. Estimate the rate
 Diffusion across this alveolus.
 
 Using Henry's law, $\mathrm{O_2}$ concentration in water is proportional to partial pressure. The
-Solubility of $\mathrm{O_2}$ in water at $37\ ^\circ\mathrm{C}$ is approximately
+solubility of $\mathrm{O_2}$ in water at $37\ ^\circ\mathrm{C}$ is approximately
 $\alpha = 1.3 \times 10^{-3}\ \mathrm{mol\ m^{-3}\ kPa^{-1}}$.
 
 $$
@@ -471,7 +471,7 @@ $$
 $$
 
 The alveolar barrier is 10 times more efficient at gas exchange because it is 10 times thinner. This
-Quantifies the critical importance of a thin diffusion barrier.
+quantifies the critical importance of a thin diffusion barrier.
 
 ### 7.3 Diffusion Coefficients: A Note on Medium
 
@@ -685,7 +685,7 @@ $\mathrm{Cl^-}$ ions Entering from the plasma. This is the **chloride shift** (H
 mediated by the anion Exchanger protein (Band 3) in the red blood cell membrane.
 
 The exchange is 1:1: for every $\mathrm{HCO_3^-}$ that leaves, one $\mathrm{Cl^-}$ enters. This
-Maintains electrochemical neutrality inside the cell.
+maintains electrochemical neutrality inside the cell.
 
 The $\mathrm{H^+}$ ions are buffered by haemoglobin:
 
@@ -719,11 +719,11 @@ than parallel flow. Use a numerical example.
 
 **Answer.** In countercurrent flow, water and blood flow in opposite directions. At every point
 Along the gill plate, the $p\mathrm{O_2}$ in water exceeds that in blood, so there is always a
-Diffusion gradient driving $\mathrm{O_2}$ from water into blood. If water enters with
+diffusion gradient driving $\mathrm{O_2}$ from water into blood. If water enters with
 $p\mathrm{O_2}
 = 15\ \mathrm{kPa}$ and blood enters with $P\mathrm{O_2} = 5\ \mathrm{kPa}$, by the
-Time water exits its $p\mathrm{O_2}$ may be $7\ \mathrm{kPa}$ But blood at that point has risen to
-Nearly $15\ \mathrm{kPa}$. In parallel flow, water and blood flow in the same direction; equilibrium
+time water exits its $p\mathrm{O_2}$ may be $7\ \mathrm{kPa}$ But blood at that point has risen to
+nearly $15\ \mathrm{kPa}$. In parallel flow, water and blood flow in the same direction; equilibrium
 is reached partway along the gill, and no further $\mathrm{O_2}$ transfer occurs. The countercurrent
 System achieves approximately 80% oxygen extraction versus approximately 50% for parallel flow.
 
@@ -759,8 +759,8 @@ Tissues.
 Presence of increased $p\mathrm{CO_2}$ and decreased pH. In actively respiring tissues, cells
 Produce $\mathrm{CO_2}$ Which is converted to $\mathrm{H^+}$ and $\mathrm{HCO_3^-}$ by carbonic
 Anhydrase in red blood cells. The increased $\mathrm{H^+}$ concentration lowers pH, which causes a
-Conformational change in haemoglobin that reduces its affinity for $\mathrm{O_2}$. This shifts the
-Oxygen dissociation curve to the right, meaning that at any given $p\mathrm{O_2}$ More $\mathrm{O_2}$
+conformational change in haemoglobin that reduces its affinity for $\mathrm{O_2}$. This shifts the
+oxygen dissociation curve to the right, meaning that at any given $p\mathrm{O_2}$ More $\mathrm{O_2}$
 is unloaded from haemoglobin. The significance is that tissues with the highest Metabolic rate (and
 therefore highest $\mathrm{CO_2}$ production) receive the most $\mathrm{O_2}$ Delivery. In the
 lungs, the reverse conditions (low $p\mathrm{CO_2}$ Higher pH) shift the curve Left, increasing
@@ -778,11 +778,11 @@ Fluid has a different composition from blood plasma.
 
 **Answer.** Tissue fluid is formed by ultrafiltration at the arterial end of capillaries. The
 Hydrostatic pressure of the blood (generated by cardiac contraction) forces fluid out through the
-Capillary walls, which are permeable to water and small solutes but not to large plasma proteins.
+capillary walls, which are permeable to water and small solutes but not to large plasma proteins.
 This filtrate (tissue fluid) bathes the cells. At the venous end, hydrostatic pressure has fallen
 but oncotic pressure (due to plasma proteins remaining in the capillary) is unchanged. The oncotic
 Pressure draws fluid back in. Approximately 90% returns this way; the remaining 10% enters the
-Lymphatic system and drains back into the subclavian veins. Tissue fluid differs from blood plasma
+lymphatic system and drains back into the subclavian veins. Tissue fluid differs from blood plasma
 in that it contains no plasma proteins (too large to leave capillaries) and very few blood cells
 (too large to leave). It contains water, glucose, amino acids, ions, and other small dissolved
 Molecules at similar concentrations to plasma.
@@ -804,7 +804,7 @@ Providing a very short diffusion pathway; and in larger insects, rhythmic abdomi
 Ventilate the system (mass flow rather than relying on diffusion alone). The system limits body size
 because gas transport within tracheae relies on diffusion for the final stages, and diffusion is
 only effective over very short distances (a few hundred micrometres). As body size increases, the
-Distance from spiracles to the deepest tissues increases, and diffusion becomes insufficient to meet
+distance from spiracles to the deepest tissues increases, and diffusion becomes insufficient to meet
 Metabolic demands. This is why giant insects existed in the Carboniferous period when atmospheric
 $\mathrm{O_2}$ was higher (approximately 35% vs. 21% today), increasing the diffusion gradient.
 
@@ -845,7 +845,7 @@ Rate at $40\ ^\circ\mathrm{C}$: $\frac{5.1}{20} = 0.255\ \mathrm{mm\ min^{-1}}$.
 $Q_{10} = \left(\frac{v_{40}}{v_{20}}\right)^{\frac{10}{40-20}} = \left(\frac{0.255}{0.16}\right)^{0.5} = (1.594)^{0.5} = 1.26$.
 
 The rate of diffusion increases by approximately 26% for each $10\ ^\circ\mathrm{C}$ increase in
-Temperature.
+temperature.
 
 (c) Increasing temperature increases the kinetic energy of dye molecules, causing them to move
 faster. According to the kinetic theory, the average kinetic energy of molecules is proportional to
@@ -863,7 +863,7 @@ Enzyme rates so temperature-sensitive.
 <details>
 <summary>Problem 8</summary>
 Describe and explain the mechanism of mass flow in the phloem. Include reference to the role of
-Active transport, water potential, and hydrostatic pressure. Why is the mass flow hypothesis
+active transport, water potential, and hydrostatic pressure. Why is the mass flow hypothesis
 Considered incomplete?
 
 **Answer.** At the source (photosynthesising leaves), sucrose is actively loaded into sieve tube
@@ -879,7 +879,7 @@ The mass flow hypothesis is considered incomplete because: (1) it does not expla
 transport (sucrose moving in opposite directions in different sieve tubes simultaneously); (2) the
 calculated flow rates are sometimes lower than observed translocation rates; (3) sieve plates Would
 be expected to impede flow, yet translocation is rapid. Current models supplement mass flow with
-Cytoplasmic streaming and active transport along sieve tubes.
+cytoplasmic streaming and active transport along sieve tubes.
 
 <b>If you get this wrong, revise:</b> [Phloem](#42-phloem)
 
@@ -889,8 +889,8 @@ Cytoplasmic streaming and active transport along sieve tubes.
 <summary>Problem 9</summary>
 A spirometer trace from a student shows the following measurements: tidal volume $= 450\ \mathrm{cm^3}$
 Vital capacity $= 4200\ \mathrm{cm^3}$ Breathing rate $= 16\ \mathrm{breaths\ min^{-1}}$ And
-Respiratory minute ventilation $= 7.2\ \mathrm{dm^3\ min^{-1}}$. After 5 minutes of exercise, the
-Breathing rate increases to $28\ \mathrm{breaths\ min^{-1}}$ and tidal volume to $750\ \mathrm{cm^3}$.
+respiratory minute ventilation $= 7.2\ \mathrm{dm^3\ min^{-1}}$. After 5 minutes of exercise, the
+breathing rate increases to $28\ \mathrm{breaths\ min^{-1}}$ and tidal volume to $750\ \mathrm{cm^3}$.
 (a) Verify the resting respiratory minute ventilation. (b) Calculate the respiratory minute ventilation
 during exercise. (c) Calculate the volume of air that ventilates the anatomical dead space per minute
 at rest and during exercise, given a dead space volume of $150\ \mathrm{cm^3}$.

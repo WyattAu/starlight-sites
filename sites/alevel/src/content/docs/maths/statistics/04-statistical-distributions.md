@@ -36,7 +36,7 @@ categories:
 
 :::note
 Distributions, and the normal distribution function. You must know when to use each distribution and
-How to find probabilities.
+how to find probabilities.
 :::
 
 <hr />
@@ -67,7 +67,7 @@ $$
 ### 2.1 Derivation from Bernoulli trials
 
 A **Bernoulli trial** is an experiment with exactly two outcomes: success (probability $p$) and
-Failure (probability $1-p$).
+failure (probability $1-p$).
 
 If we perform $n$ independent Bernoulli trials, the number of successes $X$ follows a **Binomial
 Distribution**: $X \sim B(n, p)$.
@@ -171,7 +171,7 @@ $$
 
 The **Central Limit Theorem (CLT)** states that the sum (or mean) of a large number of independent,
 Identically distributed random variables is approximately normally distributed, regardless of the
-Original distribution.
+original distribution.
 
 This is why the normal distribution appears so widely in nature: any quantity that is the sum of
 many small independent effects (height, measurement error, etc.) will be approximately normal.
@@ -317,7 +317,7 @@ $\mathrm{Po}(\lambda)$ where $\lambda = np$.
 
 **Justification.** The theoretical result in Section 4.2 shows that as $n \to \infty$ and $p \to 0$
 With $np = \lambda$ held constant, the binomial PMF converges pointwise to the Poisson PMF. The
-Conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
+conditions $n \gt 50$ and $p \lt 0.1$ are practical thresholds that ensure:
 
 1. **$n$ is large enough** that the discrete binomial is well-approximated by a limit distribution.
 2. **$p$ is small enough** that the "rare event" assumption of the Poisson model is satisfied.

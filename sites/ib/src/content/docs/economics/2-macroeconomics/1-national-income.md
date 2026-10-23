@@ -73,7 +73,7 @@ $$
 
 Net factor income from abroad includes wages, profits, and rent earned by domestic residents from
 their foreign investments, minus the corresponding income earned by foreign residents within the
-Domestic economy.
+domestic economy.
 
 **Gross National Income (GNI)** is the preferred modern measure and is conceptually equivalent to
 GNP. It includes net primary income from abroad (compensation of employees, investment income):
@@ -167,7 +167,7 @@ $\mathrm{Real\ GDP} = \frac{\mathrm{Nominal\ GDP}}{\mathrm{GDP\ Deflator}} \time
 <summary>Problem 2: Inflation Rate and Real Values</summary>
 
 The CPI basket costs `USD 240` in year 1 and `USD 252` in year 2. A worker earned `USD 50,000` in
-Year 1 and `USD 52,000` in year 2.
+year 1 and `USD 52,000` in year 2.
 
 (a) Calculate the inflation rate between year 1 and year 2.
 
@@ -209,8 +209,8 @@ $$
 (b) $\Delta Y = k \times \Delta G = 1.818 \times 50 = \$90.9 \text{ billion}$
 
 (c) The multiplier is smaller than the simple multiplier ($\frac{1}{0.25} = 4$) because taxes and
-Imports are leakages from the circular flow. At each round of the multiplier process, some income is
-Taxed (reducing disposable income) and some spending leaks abroad (on imports), reducing the amount
+imports are leakages from the circular flow. At each round of the multiplier process, some income is
+taxed (reducing disposable income) and some spending leaks abroad (on imports), reducing the amount
 Re-spent in the domestic economy.
 
 </details>
@@ -236,8 +236,8 @@ prices Causes a negative supply shock.
 This combination of rising inflation and rising unemployment is called **stagflation**.
 
 (b) In the long run, the recessionary gap puts downward pressure on wages and other input prices (as
-Unemployment is high, workers have less bargaining power). Lower input costs shift SRAS back to the
-Right, eventually restoring output to potential GDP and returning the price level to its original
+unemployment is high, workers have less bargaining power). Lower input costs shift SRAS back to the
+right, eventually restoring output to potential GDP and returning the price level to its original
 Level. However, this adjustment process may be slow and painful.
 
 (c) Expansionary fiscal or monetary policy could shift AD rightward to restore output more quickly,
@@ -253,10 +253,10 @@ for Addressing the underlying cause.
 <summary>Problem 5: Phillips Curve Analysis</summary>
 
 An economy has a natural rate of unemployment of $5\%$. The current unemployment rate is $3\%$ And
-Inflation is $4\%$. The expected inflation rate is $2\%$.
+inflation is $4\%$. The expected inflation rate is $2\%$.
 
 (a) Using the expectations-augmented Phillips curve, explain whether inflation is likely to
-Accelerate.
+accelerate.
 
 (b) What would happen if the central bank attempted to maintain unemployment at $3\%$ permanently?
 
@@ -270,18 +270,18 @@ $$
 $$
 
 Since $u < u_n$ Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
-Inflation is higher than expected and will revise their expectations upward in the next period. As
+inflation is higher than expected and will revise their expectations upward in the next period. As
 $\pi^e$ rises, the SRPC shifts upward, and at the same unemployment rate ($3\%$), inflation will be
 Higher. This process continues -- inflation accelerates.
 
 (b) To maintain unemployment at $3\%$ permanently, the central bank would need to accept
 Ever-accelerating inflation, as each period of over-stimulation raises expected inflation and shifts
 the SRPC upward. This is unsustainable. In the long run, the economy returns to $u_n = 5\%$ with
-Higher inflation.
+higher inflation.
 
 (c) A negative supply shock (rising oil prices) shifts the SRPC upward and to the right. At any
 given unemployment rate, inflation is higher because of the cost-push effect. This creates a
-Dilemma: the central bank must choose between accepting higher inflation (accommodating the shock)
+dilemma: the central bank must choose between accepting higher inflation (accommodating the shock)
 Or accepting higher unemployment (tightening policy to prevent inflation from rising).
 
 </details>
@@ -315,7 +315,7 @@ Maximum increase in money supply $= \$200 \text{ million} \times 10 = \$2\,000 \
 <summary>Problem 7: Supply-Side Policy Evaluation</summary>
 
 A government is considering two supply-side policies to promote long-run growth: (a) reducing the
-Corporate tax rate from $30\%$ to $20\%$ And (b) increasing public spending on vocational training By
+corporate tax rate from $30\%$ to $20\%$ And (b) increasing public spending on vocational training By
 `USD 10` billion per year.
 
 Evaluate both policies using economic theory.

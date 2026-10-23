@@ -58,7 +58,7 @@ Rather than perpendicular to it, leading to consistently higher or lower reading
 ### Random Errors
 
 A **random error** is an unpredictable fluctuation in measured values, caused by limitations in
-Measurement or environmental variability.
+measurement or environmental variability.
 
 **Characteristics:**
 
@@ -182,7 +182,7 @@ $$
 
 **Definition.** Resolution is the smallest change in the measured quantity that an instrument can
 Detect or display, equal to the smallest division on an analogue scale or the last digit on a
-Digital display.
+digital display.
 
 For a single reading with an instrument, the uncertainty is :
 
@@ -247,7 +247,7 @@ Many physical relationships can be linearised by choosing appropriate variables:
 
 :::tip
 Gradient, first find the gradient uncertainty using the worst line method, then divide by the
-Best-fit gradient and multiply by 100%.
+best-fit gradient and multiply by 100%.
 :::
 
 ## Problem Set
@@ -299,7 +299,7 @@ $\pm 0.01$ V.
 <details>
 <summary>Problem 4</summary>
 The period of a pendulum is given by $T = 2\pi\sqrt{L/g}$. A student plots $T^2$ against $L$ and
-Obtains a gradient of $4.05$ s$^2$ m$^{-1}$ with an uncertainty of $\pm 0.10$ s$^2$ m$^{-1}$.
+obtains a gradient of $4.05$ s$^2$ m$^{-1}$ with an uncertainty of $\pm 0.10$ s$^2$ m$^{-1}$.
 Calculate $g$ and its uncertainty.
 
 **Answer.** $g = 4\pi^2/\mathrm{gradient} = 39.48/4.05 = 9.75$ m s$^{-2}$.
@@ -334,7 +334,7 @@ Result: $y = 54 \pm 11$ (20%).
 <details>
 <summary>Problem 6</summary>
 Distinguish between systematic and random errors, giving one example of each from measuring the
-Acceleration of free fall using a simple pendulum.
+acceleration of free fall using a simple pendulum.
 
 **Answer.** **Systematic error:** The string is not perfectly inextensible, so the effective length
 Is greater than measured, leading to a consistently overestimated $T$ and hence underestimated $g$.
@@ -401,7 +401,7 @@ And graphical analysis.
 ### 4.1 The Experiment
 
 A student measures the period $T$ of a simple pendulum for five different lengths $L$. The
-Relationship is:
+relationship is:
 
 $$
 T = 2\pi\sqrt{\frac{L}{g}} \implies T^2 = \frac{4\pi^2}{g}L
@@ -503,7 +503,7 @@ Control environmental conditions (temperature, vibrations).
 ## 6. Systematic Error Identification Techniques
 
 Identifying systematic errors is critical because they cannot be reduced by averaging. Several
-Techniques are available:
+techniques are available:
 
 1. **Comparison with an accepted value.** If the mean of repeated measurements differs significantly
    from the accepted value (considering the random uncertainty), a systematic error is likely
@@ -656,7 +656,7 @@ For three repeated readings: mean $= (22.7 + 22.8 + 22.7)/3 = 22.73$ °C. Range 
 Half-range $= 0.05$ °C.
 
 Since the half-range ($0.05$ °C) is smaller than the instrument resolution ($0.1$ °C), the
-Uncertainty is dominated by the instrument resolution. The best estimate is $22.7 \pm 0.1$ °C.
+uncertainty is dominated by the instrument resolution. The best estimate is $22.7 \pm 0.1$ °C.
 
 <b>If you get this wrong, revise:</b>
 [Uncertainty from a Single Reading](#uncertainty-from-a-single-reading)

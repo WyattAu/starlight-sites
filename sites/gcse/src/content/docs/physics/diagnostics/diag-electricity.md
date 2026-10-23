@@ -129,7 +129,7 @@ in 12 $\Omega$: $V^2/R = 36/12 = 3$ W. Total power $= 9 + 6 + 3 = 18$ W.
 
 **Question:** A kitchen has the following appliances connected to a ring circuit with a 30 A fuse:
 kettle (2.2 kW), oven (3.5 kW), microwave (0.8 kW), toaster (0.9 kW), and fridge (0.15 kW). (a)
-Calculate the current drawn by each appliance at 230 V. (b) Can all appliances be switched on
+calculate the current drawn by each appliance at 230 V. (b) Can all appliances be switched on
 simultaneously? Justify. (c) Explain why a fuse or circuit breaker is necessary. (d) Calculate the
 cost of running the kettle for 10 minutes per day for a year at 28p/kWh.
 

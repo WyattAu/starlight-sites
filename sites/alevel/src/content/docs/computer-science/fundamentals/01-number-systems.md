@@ -123,7 +123,7 @@ Reading bottom to top: $156_{10} = 10011100_2$
 #### Binary to Hexadecimal (and vice versa)
 
 Since $16 = 2^4$ Each hex digit corresponds to exactly 4 binary digits. Group binary digits from
-Right to left in groups of 4, then convert each group.
+right to left in groups of 4, then convert each group.
 
 <details>
 <summary>Example: Convert $10111011011_2$ to hex</summary>
@@ -152,7 +152,7 @@ Result: $001111110111_2 = 11111110111_2$
 #### Octal Conversions
 
 Since $8 = 2^3$ Each octal digit maps to exactly 3 binary digits. Convert by grouping in 3s (or
-Multiplying/dividing by 8).
+multiplying/dividing by 8).
 
 <hr />
 
@@ -210,7 +210,7 @@ Binary subtraction can be performed using two's complement (see below).
 ### Motivation
 
 We need a way to represent both positive and negative integers in binary, using a fixed number of
-Bits.
+bits.
 
 ### Definition
 
@@ -258,7 +258,7 @@ x + (\bar{x} + 1) = x + 2^n - x = 2^n
 $$
 
 In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$ Which is
-Discarded. Hence the result is $0$. $\square$
+discarded. Hence the result is $0$. $\square$
 
 ### Two's Complement Addition and Overflow
 
@@ -481,7 +481,7 @@ Result: `11100010 10000010 10101100` = `E2 82 AC` in hex.
 ### Sign and Magnitude
 
 The MSB represents the sign (0 = positive, 1 = negative), and the remaining bits represent the
-Magnitude.
+magnitude.
 
 - Range for $n$ bits: $[-(2^{n-1} - 1),\ 2^{n-1} - 1]$
 - Two representations of zero: $+0 = 000\ldots0$ and $-0 = 100\ldots0$
@@ -669,7 +669,7 @@ Value: $- (2^4 - 13) = -(16 - 13) = -3$. ✓
 
 The second student is interpreting it as an unsigned number: $8 + 4 + 1 = 13$. This is also valid,
 The bit pattern is the same, but the interpretation differs. Context determines which encoding is
-Used.
+used.
 
 </details>
 

@@ -60,7 +60,7 @@ Domain: Eukarya Kingdom: Animalia Phylum: Chordata Class: Mammalia Order: Carniv
 Genus: Felis Species: Felis catus
 
 The domestic cat and the lion (Panthera leo) share the same kingdom, phylum, class, and order, but
-Differ at the family level. This tells us they are related but diverged evolutionarily at the family
+differ at the family level. This tells us they are related but diverged evolutionarily at the family
 Level.
 
 ### Biodiversity
@@ -78,7 +78,7 @@ D = 1 - \sum \frac{n(n-1)}{N(N-1)}
 $$
 
 Where $n$ is the number of individuals of a particular species and $N$ is the total number of
-Individuals.
+individuals.
 
 **Worked Example 1.** A habitat has three species with 10, 20, and 30 individuals respectively.
 
@@ -344,7 +344,7 @@ See the examples integrated throughout the sections above.
 ## Practice Questions
 
 1. Calculate Simpson's Diversity Index for a habitat with the following species: Species A (40),
-   Species B (30), Species C (20), Species D (10).
+   species B (30), Species C (20), Species D (10).
 
 2. Describe the evidence for evolution from (a) the fossil record and (b) comparative anatomy.
 
@@ -393,7 +393,7 @@ See the examples integrated throughout the sections above.
     potential problems with releasing captive-bred animals into the wild.
 
 20. A forest has Simpson's Diversity Index of 0.85. After deforestation, the index drops to 0.35.
-    Explain what this means and describe the likely consequences for the ecosystem.
+    explain what this means and describe the likely consequences for the ecosystem.
 
 21. Explain the role of mycorrhizae in plant nutrition and describe how this is an example of
     mutualism.
@@ -430,11 +430,11 @@ Selection causes changes in allele frequencies in a population over time.
 Before industrialisation in England, the majority of peppered moths (Biston betularia) were light-
 Coloured (typica morph), well camouflaged against lichen-covered trees. A rare dark morph
 (carbonaria) was occasionally seen. During the Industrial Revolution, soot darkened tree bark and
-Killed the lichen. The light morph became conspicuous to bird predators, while the dark morph became
+killed the lichen. The light morph became conspicuous to bird predators, while the dark morph became
 Better camouflaged. The frequency of the dark allele increased dramatically through natural
 Selection. After clean-air legislation reduced pollution, tree bark lightened again, and the
-Frequency of the light morph began to increase. This demonstrates that natural selection is not
-Directional in a fixed sense but responds to changes in the environment.
+frequency of the light morph began to increase. This demonstrates that natural selection is not
+directional in a fixed sense but responds to changes in the environment.
 
 ## Review: Evidence for Evolution
 
@@ -459,7 +459,7 @@ and a tail are present in all vertebrate embryos early in development.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that more closely related species
 Have more similar sequences. The universality of the genetic code (the same codons code for the same
-Amino acids in almost all organisms) is powerful evidence for common ancestry.
+amino acids in almost all organisms) is powerful evidence for common ancestry.
 
 ## Review: Speciation
 
@@ -470,7 +470,7 @@ Offspring.
 
 **Sympatric speciation:** Speciation occurs without geographical separation. This can happen through
 Polyploidy (common in plants, where a mistake in meiosis produces offspring with extra sets of
-Chromosomes, making them reproductively isolated from the parent population).
+chromosomes, making them reproductively isolated from the parent population).
 
 **Reproductive isolation mechanisms:**
 
@@ -500,7 +500,7 @@ Gradient (e.g., from dry land into a pond).
 **Worked Example: Using the Lincoln index.**
 
 40 snails are captured, marked, and released. One week later, 50 snails are captured, 8 of which are
-Marked.
+marked.
 
 Estimated population $= (40 \times 50) / 8 = 250$ snails.
 
@@ -539,10 +539,10 @@ Ice caps), more frequent extreme weather events, and shifts in species distribut
 
 DDT is a pesticide that was widely used in the mid-20th century. It is persistent in the environment
 and accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
-Zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
+zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
 Ppm). The concentration increases by a factor of over 8,000 from phytoplankton to osprey. Top
 Predators are most affected because they are at the highest trophic level and consume many
-Contaminated organisms.
+contaminated organisms.
 
 ## Review: Ecological Relationships
 
@@ -566,12 +566,12 @@ Coexist by resource partitioning.
 
 **Primary succession:** Colonisation of a previously lifeless area (e.g., bare rock after a volcanic
 Eruption or glacial retreat). Pioneer species (lichens, mosses) are the first to colonise. They
-Break down rock and contribute organic matter to the soil, allowing grasses and then shrubs to
-Establish. Over time, trees colonise, and a climax community is reached.
+break down rock and contribute organic matter to the soil, allowing grasses and then shrubs to
+establish. Over time, trees colonise, and a climax community is reached.
 
 **Secondary succession:** Recovery of an area where an existing community has been disturbed (e.g.,
 After a forest fire or abandoned farmland). The soil is already present, so succession proceeds more
-Rapidly than primary succession.
+rapidly than primary succession.
 
 **Worked Example: Succession on a sand dune.**
 
@@ -599,8 +599,8 @@ Organisms are classified into three domains:
 
 **Why the three-domain system replaced the five-kingdom system:** Molecular evidence (particularly
 RRNA sequencing) revealed that the differences between bacteria and archaea are as great as the
-Differences between either prokaryotic group and eukaryotes. The old five-kingdom system grouped all
-Prokaryotes together in one kingdom (Prokaryotae), which did not reflect their evolutionary
+differences between either prokaryotic group and eukaryotes. The old five-kingdom system grouped all
+prokaryotes together in one kingdom (Prokaryotae), which did not reflect their evolutionary
 Divergence.
 
 ### Phylogenetic Trees
@@ -627,7 +627,7 @@ the tree (approximately 15-20 million years ago).
 ## Review: The Carbon Cycle in Detail
 
 The carbon cycle describes the movement of carbon between the atmosphere, biosphere, oceans, and
-Geosphere.
+geosphere.
 
 **Key processes and the carbon reservoirs they connect:**
 
@@ -698,7 +698,7 @@ After a forest fire:
 5. Over decades to centuries, the climax community is re-established.
 
 Secondary succession is faster than primary succession because the soil is already present, and
-Seeds and root systems survive the disturbance.
+seeds and root systems survive the disturbance.
 
 **Factors affecting the rate of succession:**
 

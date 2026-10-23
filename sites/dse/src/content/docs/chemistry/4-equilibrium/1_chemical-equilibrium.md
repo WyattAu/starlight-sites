@@ -58,7 +58,7 @@ Dynamic equilibrium is established when:
 ### Statement
 
 If a system at equilibrium is subjected to a change in concentration, temperature, or pressure, the
-System will adjust to oppose the change and restore a new equilibrium.
+system will adjust to oppose the change and restore a new equilibrium.
 
 ### Effect of Changes on Equilibrium
 
@@ -83,7 +83,7 @@ $\mathrm{N}_2$ is added?
 <summary>Answer</summary>
 
 The system opposes the increase in $\mathrm{N}_2$ by consuming some of it. The forward reaction is
-Favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
+favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
 $\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$ Higher
 $[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibrium.
 
@@ -92,7 +92,7 @@ $[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibriu
 #### Change in Pressure (for gaseous systems)
 
 Pressure affects equilibrium only when the number of moles of gas differs between reactants and
-Products.
+products.
 
 <div class="table-wrap">
 
@@ -146,7 +146,7 @@ $\mathrm{NH}_3$. Decreasing temperature increases the yield but slows the rate.
 #### Effect of a Catalyst
 
 A catalyst increases both the forward and reverse rates equally. It has **no effect** on the
-Position of equilibrium or the equilibrium yield. It only helps the system reach equilibrium faster.
+position of equilibrium or the equilibrium yield. It only helps the system reach equilibrium faster.
 
 <div class="table-wrap">
 
@@ -509,7 +509,7 @@ $$
 
 :::note
 And would produce a corrosive mist of $\mathrm{H}_2\mathrm{SO}_4$ droplets that is difficult to
-Condense.
+condense.
 :::
 
 ### Le Chatelier's Principle in the Contact Process
@@ -625,7 +625,7 @@ x = 0.159
 $$
 
 Check approximation: $0.500 - 0.159 = 0.341$ (68% of 0.500 -- the approximation is poor). Need to
-Solve the full equation. Using the quadratic approximation with substitution:
+solve the full equation. Using the quadratic approximation with substitution:
 
 Actually, let us set $y = 3x$ so that $[\mathrm{H}_2] = 1.50 - y$ and
 $[\mathrm{N}_2] = 0.500 - y/3$:
@@ -675,7 +675,7 @@ $K_c = (0.0581)^2 / (0.471 \times 1.413^3) = 0.00338 / (0.471 \times 2.821) = 0.
 
 Still off. This illustrates why the 5% rule is important. For better accuracy, iterate or use
 Successive approximation. In DSE exams, the values are chosen so that the approximation is
-Reasonable.
+reasonable.
 
 Let us use a cleaner example with smaller $K_c = 1.00 \times 10^{-3}$:
 
@@ -925,7 +925,7 @@ of the following changes on (i) the equilibrium position, (ii) the value of $K_c
 of attainment of equilibrium:
 
 (a) Increasing temperature (b) Adding more $\mathrm{A}$ (c) Adding a catalyst (d) Decreasing the
-Volume of the container
+volume of the container
 
 <details>
 <summary>Answer</summary>
@@ -938,7 +938,7 @@ Products at equilibrium). (iii) Rate of attainment increases (higher temperature
 **(b) Adding more A:**
 
 (i) Shifts right (system consumes excess A). (ii) $K_c$ unchanged (temperature constant). (iii) No
-Direct effect on rate of attainment; equilibrium re-establishes.
+direct effect on rate of attainment; equilibrium re-establishes.
 
 **(c) Adding a catalyst:**
 
@@ -1013,10 +1013,10 @@ Even though a lower temperature would give a higher equilibrium yield of ammonia
 
 Although a lower temperature favours the equilibrium position (the forward reaction is exothermic),
 The rate of reaction at room temperature is impractically slow. Even with an iron catalyst, the
-Reaction would take far too long to reach equilibrium.
+reaction would take far too long to reach equilibrium.
 
 At 450$^\circ$C, the rate is fast enough to reach equilibrium in a reasonable time. Although the
-Equilibrium yield is lower at this temperature, the trade-off is acceptable because:
+equilibrium yield is lower at this temperature, the trade-off is acceptable because:
 
 1. The unreacted $\mathrm{N}_2$ and $\mathrm{H}_2$ are continuously recycled, so the overall yield
    is high (~98%).
@@ -1024,7 +1024,7 @@ Equilibrium yield is lower at this temperature, the trade-off is acceptable beca
 3. The iron catalyst only functions effectively at elevated temperatures.
 
 This is a classic example of the compromise between thermodynamic yield and kinetic rate in
-Industrial chemistry.
+industrial chemistry.
 
 </details>
 
@@ -1033,7 +1033,7 @@ Industrial chemistry.
 For the reaction $\mathrm{N}_2\mathrm{O}_{4(g)} \rightleftharpoons 2\mathrm{NO}_{2(g)}$
 $K_c = 0.361 \mathrm{ mol/dm}^3$ at 373 K. If 0.500 mol of $\mathrm{N}_2\mathrm{O}_4$ is placed in a
 2.00 dm$^3$ flask at 373 K, calculate the equilibrium concentrations and the total pressure of the
-Gas mixture at equilibrium.
+gas mixture at equilibrium.
 
 <details>
 <summary>Answer</summary>
@@ -1084,22 +1084,22 @@ $P = \dfrac{nRT}{V} = \dfrac{0.724 \times 0.0821 \times 373}{2.00} = \dfrac{22.1
 For the reaction $2\mathrm{SO}_{2(g)} + \mathrm{O}_{2(g)} \rightleftharpoons 2\mathrm{SO}_{3(g)}$ at
 500$^\circ$C, $K_c = 2.50 \times 10^{10} \mathrm{ (mol/dm}^3)^{-1}$. Explain why this very large
 Value of $K_c$ does NOT mean that $\mathrm{SO}_2$ and $\mathrm{O}_2$ cannot be present at
-Equilibrium.
+equilibrium.
 
 <details>
 <summary>Answer</summary>
 
 A very large $K_c$ means the equilibrium position lies far to the right, favouring products. At
-Equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $\mathrm{SO}_2$ and
+equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $\mathrm{SO}_2$ and
 $\mathrm{O}_2$. However, $K_c \neq \infty$ Which means the reaction does not go to completion.
 
 The equilibrium is dynamic: both forward and reverse reactions continue. The very large $K_c$ means
 the reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
-Zero. Tiny amounts of $\mathrm{SO}_2$ and $\mathrm{O}_2$ must always be present at equilibrium to
-Sustain the reverse reaction.
+zero. Tiny amounts of $\mathrm{SO}_2$ and $\mathrm{O}_2$ must always be present at equilibrium to
+sustain the reverse reaction.
 
 Only when $K_c$ is truly infinite (a theoretical limit) would the reaction go to completion. In
-Practice, all real equilibria have non-zero concentrations of all species.
+practice, all real equilibria have non-zero concentrations of all species.
 
 </details>
 
@@ -1119,7 +1119,7 @@ Practice, all real equilibria have non-zero concentrations of all species.
 ### Approximate Calculation
 
 When a disturbance is applied to an equilibrium system, the system shifts to partially oppose the
-Change. The new equilibrium can be estimated using $K_c$.
+change. The new equilibrium can be estimated using $K_c$.
 
 **Worked example 9:** For
 $\mathrm{H}_{2(g)} + \mathrm{I}_{2(g)} \rightleftharpoons 2\mathrm{HI}_{(g)}$, $K_c = 49.0$ at a
@@ -1175,7 +1175,7 @@ $[\mathrm{I}_2] = 0.100 + 0.0222 = 0.122 \mathrm{ mol/dm}^3$
 $[\mathrm{HI}] = 0.900 - 0.0444 = 0.856 \mathrm{ mol/dm}^3$
 
 Note: The new $[\mathrm{HI}]$ (0.856) is higher than the original (0.700) but lower than the
-Disturbed value (0.900). This demonstrates that the system opposes the change without fully
+disturbed value (0.900). This demonstrates that the system opposes the change without fully
 Reversing it.
 
 </details>

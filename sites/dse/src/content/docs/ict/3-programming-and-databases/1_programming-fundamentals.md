@@ -315,7 +315,7 @@ END
 </div>
 
 In many exam-style pseudocode languages, parameters are passed by value by default. To pass by
-Reference (allowing the procedure to modify the original), some notations use `BYREF`.
+reference (allowing the procedure to modify the original), some notations use `BYREF`.
 
 <details>
 <summary>Worked Example: Pass by Value vs Reference</summary>
@@ -335,7 +335,7 @@ END
 Because `salary` is passed BYREF, the original variable `pay` is modified. Output: `35000`.
 
 If `salary` were passed by value (default), `pay` would remain `30000` because the procedure would
-Modify only a local copy.
+modify only a local copy.
 
 </details>
 
@@ -429,7 +429,7 @@ END FUNCTION
 ```
 
 Note: In pseudocode, string indexing often starts at 1 (unlike Python which starts at 0). Check the
-Specific convention used in your exam.
+specific convention used in your exam.
 
 </details>
 
@@ -582,7 +582,7 @@ END
 ### Linear Search
 
 Linear search checks each element in sequence until the target is found or all elements have been
-Checked.
+checked.
 
 <div class="table-wrap">
 
@@ -982,7 +982,7 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
 <summary>Question 1: Algorithm Design with Trace Table</summary>
 
 Write pseudocode for a program that reads N integers and counts how many are positive, how many are
-Negative, and how many are zero. Trace the algorithm with input: `N = 5`Values: `3, -2, 0, 7, -1`.
+negative, and how many are zero. Trace the algorithm with input: `N = 5`Values: `3, -2, 0, 7, -1`.
 
 Answer:
 
@@ -1028,7 +1028,7 @@ Output: `positive = 2, negative = 2, zero = 1`
 <summary>Question 2: String Processing</summary>
 
 Write a function in pseudocode that takes a string and returns the number of words in the string. A
-Word is defined as a sequence of characters separated by spaces.
+word is defined as a sequence of characters separated by spaces.
 
 (a) Write the pseudocode.
 
@@ -1096,7 +1096,7 @@ search.
 Answer:
 
 (a) Binary search works by comparing the target with the middle element and discarding half of the
-Remaining elements each time. This strategy only works correctly if the elements are in a known
+remaining elements each time. This strategy only works correctly if the elements are in a known
 order (sorted ascending). If the array is unsorted, discarding half the elements based on a
 comparison with The middle element could eliminate the target, making the algorithm fail.
 

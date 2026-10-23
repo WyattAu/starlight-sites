@@ -183,7 +183,7 @@ The angle $\angle NAB = 70^{\circ}$ and $\angle NBC = 150^{\circ}$.
 The angle between $AB$ and north at $B$ is $180^{\circ} - 70^{\circ} = 110^{\circ}$ (back bearing).
 
 The angle $\angle ABC = 110^{\circ} + 150^{\circ} = 260^{\circ}$... This is the external angle. The
-Internal angle is $360^{\circ} - 260^{\circ} = 100^{\circ}$.
+internal angle is $360^{\circ} - 260^{\circ} = 100^{\circ}$.
 
 Using the cosine rule on $\triangle ABC$:
 
@@ -562,7 +562,7 @@ Total: $147\pi \approx 461.8 \mathrm{ cm^2$.
 
 **Worked Example (Higher Tier).** A frustum is formed by removing a small cone of height 4 cm from
 The top of a cone of height 12 cm. Both cones have the same base radius 5 cm. Find the volume of the
-Frustum.
+frustum.
 
 The large cone has volume $\frac{1}{3}\pi \times 25 \times 12 = 100\pi$.
 
@@ -659,7 +659,7 @@ Produce two different triangles.
 ### 6.2 Similar Triangles
 
 Triangles are **similar** if they have the same shape but different sizes. Corresponding angles are
-Equal, and corresponding sides are in the same ratio.
+equal, and corresponding sides are in the same ratio.
 
 **Area scale factor** = (length scale factor)$^2$.
 

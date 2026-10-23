@@ -290,7 +290,7 @@ Plates, closer spacing, and lower acceleration voltage.
 
 :::caution
 (which determines beam speed) with the deflection voltage $V_d$ (which determines deflection). The
-Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
+deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
 :::
 
 ## 7. Electric Fields of Extended Charge Distributions
@@ -298,7 +298,7 @@ Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{ac
 ### Field on the Axis of a Charged Ring
 
 A ring of radius $a$ carrying total charge $Q$. The field at distance $x$ from the centre along the
-Axis:
+axis:
 
 $$
 \boxed{E = \frac{Qx}{4\pi\varepsilon_0(x^2 + a^2)^{3/2}}}
@@ -386,7 +386,7 @@ $$
 <details>
 <summary>Problem 1</summary>
 Two point charges, $q_1 = +3.0\,\mu$ C and $q_2 = -5.0\,\mu$ C, are separated by 0.20 m. Calculate the
-Force between them.
+force between them.
 
 **Answer.**
 $F = \frac{k|q_1||q_2|}{r^2} = \frac{8.99 \times 10^9 \times 3.0 \times 10^{-6} \times 5.0 \times 10^{-6}}{0.040} = 3.37$
@@ -451,8 +451,8 @@ m s$^{-1}$.
 <details>
 <summary>Problem 7</summary>
 In a Millikan-type experiment, an oil drop of mass $1.2 \times 10^{-14}$ kg is suspended between
-Parallel plates with field $E = 4.8 \times 10^4$ V m$^{-1}$. Calculate the charge on the drop and
-Determine how many elementary charges it carries.
+parallel plates with field $E = 4.8 \times 10^4$ V m$^{-1}$. Calculate the charge on the drop and
+determine how many elementary charges it carries.
 
 **Answer.** $q = mg/E = 1.2 \times 10^{-14} \times 9.81 / (4.8 \times 10^4) = 2.45 \times 10^{-18}$
 C.
@@ -460,7 +460,7 @@ C.
 $n = q/e = 2.45 \times 10^{-18} / 1.60 \times 10^{-19} = 15.3$.
 
 Since $n$ must be an integer, the drop carries 15 elementary charges (the discrepancy is within
-Experimental uncertainty).
+experimental uncertainty).
 
 </details>
 
@@ -474,7 +474,7 @@ Zero-potential surface at infinity. The field lines radiate outward from each ch
 from Each other.
 
 At the midpoint, the fields due to each charge are equal in magnitude ($kq/(d/2)^2$) and opposite in
-Direction (each points away from its own charge). By symmetry, $\mathbf{E}_1 + \mathbf{E}_2 = 0$.
+direction (each points away from its own charge). By symmetry, $\mathbf{E}_1 + \mathbf{E}_2 = 0$.
 This is an unstable equilibrium point.
 
 </details>

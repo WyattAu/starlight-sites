@@ -122,7 +122,7 @@ $$
 $$
 
 Set $x = -1$: $1 = A(1)$, so $A = 1$.
-Set $x = -2$: $-1 = B(-1)$, so $B = 1$.
+set $x = -2$: $-1 = B(-1)$, so $B = 1$.
 
 $$
 \int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C

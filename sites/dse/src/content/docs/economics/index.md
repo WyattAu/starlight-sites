@@ -113,7 +113,7 @@ Each topic page contains:
 ## DSE Exam Tips
 
 1. **Time management:** The DSE Economics paper is 2.5 hours. Allocate approximately 45 minutes for
-   Section A (multiple choice, 30 questions), 45 minutes for Section B (short answer, 3 questions),
+   section A (multiple choice, 30 questions), 45 minutes for Section B (short answer, 3 questions),
    and 60 minutes for Section C (extended response, 1 question from a choice of 3).
 
 2. **Calculator use:** Bring an approved calculator. Practice calculations with it before the exam

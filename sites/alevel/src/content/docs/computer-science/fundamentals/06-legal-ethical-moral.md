@@ -37,11 +37,11 @@ are codified, publicly available, and apply universally within a jurisdiction.
 **Definition.** **Ethics** is the branch of philosophy concerned with systematising, defending, and
 Recommending concepts of right and wrong conduct. Ethical frameworks provide structured approaches
 to evaluating the moral dimensions of actions. Professional bodies publish codes of ethics that
-Members are expected to follow.
+members are expected to follow.
 
 **Definition.** **Morals** are personal or cultural beliefs about right and wrong. They are not
 Necessarily codified or enforced by any institution. Morals may differ between individuals and
-Cultures, whereas laws aim for consistency within a jurisdiction.
+cultures, whereas laws aim for consistency within a jurisdiction.
 
 ### Key Distinctions
 
@@ -124,7 +124,7 @@ Act 2015.
 
 :::caution
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
-Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
+sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
 :::
 
 ### 2.2 Data Protection Act 2018 and UK GDPR
@@ -135,7 +135,7 @@ Tested piece of legislation across all boards.
 
 **Definition.** The **Data Protection Act 2018** (DPA 2018) is the UK's implementation of the EU
 General Data Protection Regulation (GDPR). Following Brexit, the UK operates under "UK GDPR" which
-Mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
+mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
 Protection framework, overseen by the Information Commissioner's Office (ICO).
 
 #### Key Terminology
@@ -227,7 +227,7 @@ The ICO can impose:
 
 :::caution
 Processor. The controller decides _why_ and _how_ data is processed; the processor carries out the
-Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
+processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
 :::
 
@@ -259,7 +259,7 @@ Works from the moment of creation, without requiring registration.
 #### Infringement
 
 Copyright is infringed when a person, without the licence of the copyright owner, does any of the
-Following restricted acts:
+following restricted acts:
 
 - Copies the work (direct copying or substantial part copying)
 - Issues copies to the public
@@ -296,8 +296,8 @@ UK law provides limited exceptions under the "fair dealing" framework:
   broadcast (excluding photographs)
 
 Fair dealing is a defence, not a right. Whether a particular use qualifies as "fair" depends on
-Factors including the purpose of use, the amount copied, and the effect on the market for the
-Original work.
+factors including the purpose of use, the amount copied, and the effect on the market for the
+original work.
 
 #### Duration
 
@@ -308,7 +308,7 @@ Years from the end of the calendar year of the author's death.
 
 **Definition.** The **Regulation of Investigatory Powers Act 2000** (RIPA) regulates the powers of
 Public bodies to carry out surveillance and investigation, and covers the interception of
-Communications. It was substantially replaced by the **Investigatory Powers Act 2016** (IPA),
+communications. It was substantially replaced by the **Investigatory Powers Act 2016** (IPA),
 Sometimes called the "Snooper's Charter."
 
 #### Key Provisions of the IPA 2016
@@ -345,7 +345,7 @@ Ality of surveillance capabilities.
 
 **Definition.** The **Freedom of Information Act 2000** (FOIA) gives the public a general right of
 Access to information held by public authorities. It promotes transparency and accountability in
-Government.
+government.
 
 #### Key Provisions
 
@@ -429,7 +429,7 @@ Insurance pricing), the Equality Act applies. Key concerns:
 
 **Case study:** Amazon scrapped an AI recruiting tool in 2018 after discovering it systematically
 Downgraded CVs containing the word "women's" (e.g., "women's chess club captain") because the
-Training data was dominated by male engineers' CVs.
+training data was dominated by male engineers' CVs.
 
 ### 2.7 Online Safety Act 2023
 
@@ -462,12 +462,12 @@ Failures.
 
 **Definition.** The **Telecommunications (Lawful Business Interception) Regulations 2000** permit
 Organisations to intercept communications on their own telecommunications systems without consent in
-Specified circumstances.
+specified circumstances.
 
 #### Permitted Interceptions
 
 An organisation may intercept communications without the consent of the sender or recipient for the
-Following purposes:
+following purposes:
 
 <div class="table-wrap">
 
@@ -493,7 +493,7 @@ Following purposes:
 #### Relevance
 
 This legislation allows employers to monitor employee emails, internet usage, and phone calls on
-Company systems. It is frequently examined in scenarios involving workplace surveillance.
+company systems. It is frequently examined in scenarios involving workplace surveillance.
 
 ### 2.9 Consumer Rights Act 2015
 
@@ -697,8 +697,8 @@ For a disclosure to be protected, the worker must:
 #### Disclosure Channels
 
 Workers are encouraged to disclose internally first (to their employer). External disclosures (to
-Regulators, the media) may still be protected if the worker reasonably believes they will be
-Subjected to detriment for internal disclosure, or if the evidence would be destroyed.
+regulators, the media) may still be protected if the worker reasonably believes they will be
+subjected to detriment for internal disclosure, or if the evidence would be destroyed.
 
 #### Case Studies
 
@@ -811,7 +811,7 @@ Profiling raises concerns about:
 :::caution
 Generally impossible to satisfy multiple fairness definitions simultaneously when base rates differ
 between groups. This means that choosing a fairness definition is itself an ethical decision, not a
-Purely technical one.
+purely technical one.
 :::
 
 #### Mitigation Strategies
@@ -981,7 +981,7 @@ Key issues:
 
 Freedom of expression is a fundamental human right (Article 10 of the European Convention on Human
 Rights, Article 19 of the Universal Declaration of Human Rights). However, this right is not
-Absolute and may be restricted for legitimate reasons:
+absolute and may be restricted for legitimate reasons:
 
 - **Public safety:** Content that incites violence or terrorism
 - **Protection of minors:** Content that is harmful to children
@@ -1055,7 +1055,7 @@ Speech through their content moderation policies. Key questions:
 #### The Classic Trolley Problem
 
 A runaway trolley is heading toward five people who will be killed if it continues. You can pull a
-Lever to divert the trolley onto a side track, where it will kill one person instead. Do you pull
+lever to divert the trolley onto a side track, where it will kill one person instead. Do you pull
 the lever?
 
 #### Applied to Autonomous Vehicles
@@ -1118,7 +1118,7 @@ Apple refused, arguing that:
 5. The All Writs Act of 1789, cited by the FBI, does not grant such sweeping authority
 
 The FBI ultimately withdrew the request after paying a third party to unlock the phone using an
-Alternative method.
+alternative method.
 
 #### Ethical Analysis
 
@@ -1180,7 +1180,7 @@ Social media platforms host billions of pieces of user-generated content daily. 
 #### The Technology
 
 Facial recognition systems use cameras to capture images of faces, extract biometric features, and
-Match them against a database of known faces. Uses include:
+match them against a database of known faces. Uses include:
 
 - Law enforcement: identifying suspects in crowds, at borders, or from CCTV footage
 - Retail: identifying known shoplifters or VIP customers
@@ -1258,7 +1258,7 @@ And when crimes are likely to occur, or to identify individuals who are likely t
 
 :::note
 Edexcel, and CIE examination papers. AQA and OCR favour structured questions with specific marks for
-Specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
+specific points. Edexcel and CIE favour extended discussion questions requiring evaluation.
 
 ### Question 1 (AQA-style, 6 marks)
 
@@ -1307,7 +1307,7 @@ Protection. In this scenario, the ICO would:
 
 A software developer discovers that the company she works for has been collecting and storing
 Customer passwords in plain text. The database has been accessible to all employees. When she
-Reports this to her manager, she is told to ignore it.
+reports this to her manager, she is told to ignore it.
 
 Discuss the legal, ethical, and professional implications of this situation.
 
@@ -1452,17 +1452,17 @@ Discuss the ethical and legal issues arising from this proposal.
 
 The proposal raises serious legal and ethical concerns. For it to be lawful, the council would need
 A clear legal basis, a DPIA, explicit safeguards for special category data, and compliance with the
-Equality Act. Ethically, the proposal should be subject to rigorous independent review, with
-Evidence that the system is accurate, effective, and that less intrusive alternatives have been
-Considered.
+equality Act. Ethically, the proposal should be subject to rigorous independent review, with
+evidence that the system is accurate, effective, and that less intrusive alternatives have been
+considered.
 
 </details>
 
 ### Question 5 (AQA-style, 9 marks)
 
 Explain the difference between the Computer Misuse Act 1990 and the Data Protection Act 2018 in
-Relation to a scenario where an employee of a company accesses a customer database without
-Authorisation and copies the personal data of 50,000 customers, selling it to a competitor.
+relation to a scenario where an employee of a company accesses a customer database without
+authorisation and copies the personal data of 50,000 customers, selling it to a competitor.
 
 <details>
 <summary>Answer</summary>
@@ -1470,12 +1470,12 @@ Authorisation and copies the personal data of 50,000 customers, selling it to a 
 **Computer Misuse Act 1990:**
 
 The employee has committed an offence under Section 1 (unauthorised access to computer material) by
-Accessing the customer database without permission. This carries a maximum penalty of 2 years
+accessing the customer database without permission. This carries a maximum penalty of 2 years
 Imprisonment.
 
 The employee has also committed an offence under Section 2 (unauthorised access with intent to
-Commit further offence) because they intended to commit fraud (selling the data to a competitor for
-Financial gain). This carries a maximum penalty of 5 years imprisonment.
+commit further offence) because they intended to commit fraud (selling the data to a competitor for
+financial gain). This carries a maximum penalty of 5 years imprisonment.
 
 **Data Protection Act 2018/UK GDPR:**
 
@@ -1496,8 +1496,8 @@ Recklessly obtaining or disclosing personal data without the consent of the data
 
 The CMA criminalises the _unauthorised access_ to the computer system itself. The DPA 2018 regulates
 the _processing of personal data_ and imposes obligations on data controllers to protect it. Both
-Apply simultaneously: the access is a CMA offence, and the data theft is a DPA 2018 offence. The
-Employee can be prosecuted under both Acts.
+apply simultaneously: the access is a CMA offence, and the data theft is a DPA 2018 offence. The
+employee can be prosecuted under both Acts.
 
 </details>
 

@@ -29,12 +29,12 @@ categories:
 ## Computer Network
 
 A computer network is a set of two or more computer systems that is able to exchange data by a
-Connection.
+connection.
 
 ### Server
 
 A server is a broad term for a computer system or software that provide a service, this can be a
-Single computer system to a large cluster with many computer systems.
+single computer system to a large cluster with many computer systems.
 
 ### Client
 
@@ -46,20 +46,20 @@ A hub is a connection point that directly copies transmitted data and send to ev
 Connected. When a device sends transmit data to the hub, the hub copies the data and sends towards
 all devices connected. The device awaiting the data will receive the data, while all other device
 Ignores the signal. Therefore the hub itself is does not account for any MAC address, and is
-Consider a Physical Layer device in the OSI model.
+consider a Physical Layer device in the OSI model.
 
 ### Switch
 
 A switch is a connection point that can identify the device connection to each port and transmit
 Data to the corresponding device using a MAC address. This means only the device awaiting for the
-Data will receive data while all other devices connected will not. The switch is consider a data
+data will receive data while all other devices connected will not. The switch is consider a data
 Link layer in the OSI model as a flow control is present.
 
 ### Router
 
 A router is a connection point that connect multiple networks, where MAC address is use to transmit
 Information within the local network, and IP is used when transmitting information outside of the
-Local network. The router is a network layer in the OSI model as it involves inter-network
+local network. The router is a network layer in the OSI model as it involves inter-network
 Connections.
 
 ### Modem
@@ -109,7 +109,7 @@ A WAP is a connection point that acts as a hub with wireless connection
 
 The OSI model is a networking standard established by the International Organization for
 Standardization (ISO) to formalize communication across multiple devices. OSI is established by 7
-Layers which specifies standards for physical communication and virtual communication, this include:
+layers which specifies standards for physical communication and virtual communication, this include:
 
 - Physical communication
 - Physical layer
@@ -391,7 +391,7 @@ DHCP automatically assigns IP addresses to devices on a network.
 ## Encryption
 
 Encryption is the process of converting plaintext into ciphertext using an algorithm and a key. Only
-Authorised parties with the correct key can decrypt the data.
+authorised parties with the correct key can decrypt the data.
 
 ### Symmetric Encryption
 
@@ -488,7 +488,7 @@ at the destination using sequence numbers.
 ## TCP/IP Protocol Stack Detail
 
 The TCP/IP model is a four-layer model that predates and influenced the OSI model. It is the
-Practical framework used on the internet today.
+practical framework used on the internet today.
 
 <div class="table-wrap">
 
@@ -565,7 +565,7 @@ the host. It is written as a series of 1s followed by 0s:
 
 **Problem:** A company has been allocated the network `192.168.1.0/24`. They need 6 subnets.
 Determine the subnet mask, number of usable hosts per subnet, and the range of the first three
-Subnets.
+subnets.
 
 **Solution:**
 
@@ -663,7 +663,7 @@ Network = `192.168.10.0`. First usable = `192.168.10.1`Broadcast = `192.168.10.1
 <summary>Question 2</summary>
 
 Explain why TCP is described as a "reliable" protocol but UDP is not. In your answer, describe the
-Mechanisms TCP uses to ensure reliability and explain why these mechanisms are not always desirable.
+mechanisms TCP uses to ensure reliability and explain why these mechanisms are not always desirable.
 
 </details>
 
@@ -680,7 +680,7 @@ Allow the receiver to reassemble packets in the correct order and detect missing
 UDP does not use any of these mechanisms, making it unreliable but faster and with lower overhead.
 UDP is preferred for real-time applications (streaming, VoIP, online gaming) where speed matters
 more than perfect delivery, and for DNS queries where the small request/response size makes the
-Overhead of a TCP connection wasteful.
+overhead of a TCP connection wasteful.
 
 </details>
 
@@ -723,7 +723,7 @@ Groups cannot communicate with each other.
 
 A) What network technology would you recommend to achieve this without adding physical switches? b)
 Explain how this technology works at the Data Link layer. C) Discuss one advantage and one
-Disadvantage of this approach compared to using three separate physical switches.
+disadvantage of this approach compared to using three separate physical switches.
 
 </details>
 
@@ -733,8 +733,8 @@ Disadvantage of this approach compared to using three separate physical switches
 A) VLAN (Virtual Local Area Network). B) A VLAN works at the Data Link layer by tagging Ethernet
 Frames with a VLAN ID (using IEEE 802.1Q standard). The switch is configured so that ports assigned
 to VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
-Switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
-Different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
+switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
+different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
 with access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
 Flexible, devices can be moved between VLANs through software configuration without recabling.
 **Disadvantage:** All VLANs share the same physical switch, so a hardware failure of the switch
@@ -759,7 +759,7 @@ Compare and contrast symmetric and asymmetric encryption. Your answer should add
 
 **Symmetric encryption** uses a single shared key for both encryption and decryption. Both the
 Sender and receiver must possess the same key. The main challenge is **key distribution**: how to
-Securely share the key without it being intercepted. Symmetric encryption is computationally
+securely share the key without it being intercepted. Symmetric encryption is computationally
 **fast**, making it suitable for encrypting large volumes of data (e.g., AES).
 
 **Asymmetric encryption** uses a key pair: a public key (freely shared) and a private key (kept

@@ -29,7 +29,7 @@ tags:
 ### Reversible Reactions
 
 Many reactions are reversible: reactants form products, and products can re-form reactants. This is
-Represented with a double arrow:
+represented with a double arrow:
 
 $$
 \mathrm{A} + \mathrm{B} \rightleftharpoons \mathrm{C} + \mathrm{D}
@@ -191,7 +191,7 @@ Pressures of reacting gases are unchanged).
 
 :::caution[Exam Tip]
 Le Chatelier's principle does NOT apply to the equilibrium constant. The equilibrium constant only
-Changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
+changes with temperature. Changes in concentration, pressure, or adding a catalyst do NOT change
 $K$.
 
 ### Effect of a Catalyst
@@ -446,7 +446,7 @@ $$
 ### Definition
 
 A **buffer solution** resists changes in pH when small amounts of acid or base are added. It
-Consists of:
+consists of:
 
 - A weak acid and its conjugate base, OR
 - A weak base and its conjugate acid.
@@ -686,7 +686,7 @@ A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($ K_{sp} = 5.0 \times 10^{-13}
 
 **Answer: D**, BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
 The same stoichiometry (1:1). For a fair comparison of solubility, convert to molar solubility. All
-Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
+four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
 
 ---
 
@@ -719,7 +719,7 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
 about what changes and what stays the same (only $K$ changes with temperature). For acid-base
 Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$ Check the
-Stoichiometry carefully.
+stoichiometry carefully.
 
 ---
 
@@ -892,9 +892,9 @@ $\Delta H = -198\mathrm{ kJ/mol}$.
 **(a)** Explain the effect of increasing temperature on the equilibrium yield of SO$_3$.
 
 Since the forward reaction is exothermic ($\Delta H \lt 0$), increasing temperature shifts the
-Equilibrium to the left (endothermic direction) by Le Chatelier's principle. This decreases the
-Yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$ Increasing $T$ for an
-Exothermic reaction reduces $K$).
+equilibrium to the left (endothermic direction) by Le Chatelier's principle. This decreases the
+yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$ Increasing $T$ for an
+exothermic reaction reduces $K$).
 
 **(b)** Explain the effect of increasing pressure on the equilibrium yield of SO$_3$.
 
@@ -1026,13 +1026,13 @@ Effect of each change on the equilibrium yield of $\mathrm{NH}_3$:
 <summary>Answer</summary>
 
 (a) There are 4 moles of gas on the left and 2 on the right. Increasing pressure shifts the
-Equilibrium to the right (fewer moles of gas), **increasing** the yield of $\mathrm{NH}_3$.
+equilibrium to the right (fewer moles of gas), **increasing** the yield of $\mathrm{NH}_3$.
 
 (b) The forward reaction is exothermic ($\Delta H \lt 0$). Increasing temperature shifts the
-Equilibrium to the left (endothermic direction), **decreasing** the yield of $\mathrm{NH}_3$.
+equilibrium to the left (endothermic direction), **decreasing** the yield of $\mathrm{NH}_3$.
 
 (c) A catalyst increases the rate of both forward and reverse reactions equally. It does **not**
-Change the equilibrium position or the yield of $\mathrm{NH}_3$. It only helps the system reach
+change the equilibrium position or the yield of $\mathrm{NH}_3$. It only helps the system reach
 Equilibrium faster.
 
 </details>

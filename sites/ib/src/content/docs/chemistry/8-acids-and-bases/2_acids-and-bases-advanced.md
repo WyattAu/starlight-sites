@@ -85,7 +85,7 @@ X = \sqrt{1.8 \times 10^{-5} \times 0.010} = \sqrt{1.8 \times 10^{-7}} = 4.24 \t
 $$
 
 Check: $\dfrac{4.24 \times 10^{-4}}{0.010} \times 100\% = 4.24\% \lt 5\%$. The approximation is
-Valid.
+valid.
 
 $$
 \mathrm{pH} = -\log(4.24 \times 10^{-4}) = 3.37
@@ -232,7 +232,7 @@ would give $\mathrm{pH} = 2.00$.
 ### How Indicators Work
 
 Acid-base indicators are weak acids ($\mathrm{HIn}$) where the acid and conjugate base forms have
-Different colours:
+different colours:
 
 $$
 \mathrm{HIn} \rightleftharpoons \mathrm{H}^+ + \mathrm{In}^- \qquad K_{\mathrm{In}} = \frac{[\mathrm{H}^+][\mathrm{In}^-]}{[\mathrm{HIn}]}
@@ -954,7 +954,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 7. A student prepares a buffer by mixing $100\mathrm{ mL}$ of $0.200\mathrm{ M}$
    $\mathrm{CH}_3\mathrm{COOH}$ with $100\mathrm{ mL}$ of $0.100\mathrm{ M}$ $\mathrm{NaOH}$. (a)
-   Calculate the buffer $\mathrm{pH}$. (b) Determine the maximum volume of $0.100\mathrm{ M}$
+   calculate the buffer $\mathrm{pH}$. (b) Determine the maximum volume of $0.100\mathrm{ M}$
    $\mathrm{HCl}$ that can be added before the $\mathrm{pH}$ drops below $4.00$. (c) Comment on
    whether this buffer would be effective at $\mathrm{pH} = 4.00$ given the $\mathrm{p}K_a$ of
    ethanoic acid. **[Hard]**

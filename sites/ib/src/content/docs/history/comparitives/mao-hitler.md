@@ -267,7 +267,7 @@ Germany. Key stages:
 Planned the Holocaust from the beginning. The functionalist/structuralist view (Mommsen, Broszat)
 Argues it emerged incrementally from the radicalization of Nazi policy. Ian Kershaw's "working
 towards the Führer" thesis suggests that Hitler set broad goals and subordinates interpreted and
-Escalated them.
+escalated them.
 
 ### Land Reform and Class Struggle in China
 
@@ -353,7 +353,7 @@ The CCP's treatment of class enemies was central to Mao's revolutionary strategy
 - **China today**: Mao remains a complex figure in Chinese historical memory. Officially, the CCP's
   1981 Resolution on Party History declared Mao "70% good, 30% bad", crediting him with founding
   the PRC and achieving national unity while criticizing the mistakes of the Great Leap Forward and
-  Cultural Revolution.
+  cultural Revolution.
 - **Economic transformation**: Deng Xiaoping's reforms (1978 onward) abandoned many of Mao's
   policies, introducing market reforms that transformed China into the world's second-largest
   economy. However, the CCP retains Mao as a foundational symbol of its legitimacy.
@@ -451,7 +451,7 @@ women wore the same military-style clothing as men and were encouraged to enter 
 
 Both regimes instrumentalised women as tools of state policy. Mao's regime claimed to liberate women
 through legal reform and economic participation, but failed to dismantle patriarchal structures in
-Practice. Hitler's regime explicitly rejected gender equality, confining women to reproductive roles
+practice. Hitler's regime explicitly rejected gender equality, confining women to reproductive roles
 while selectively relaxing restrictions when economic or military necessity demanded. The key
 Difference lies in ideological justification: Maoism claimed to support equality as a matter of
 Marxist principle, whereas Nazism explicitly opposed it as contrary to "natural" gender roles.
@@ -505,7 +505,7 @@ Spectators but expected to be active participants in revolutionary ritual. Hitle
 Relied more on theatrical spectacle and sophisticated media technology, creating a sense of passive
 Awe. Historian Timothy Brook argues that Maoist propaganda was more invasive in daily life because
 it demanded continuous ideological performance, whereas Nazi propaganda operated more through
-Periodic mass events and media consumption. However, Nazi propaganda was arguably more
+periodic mass events and media consumption. However, Nazi propaganda was arguably more
 Technologically sophisticated, leveraging film, radio, and architectural spectacle to an extent that
 Mao's China never matched.
 
@@ -551,10 +551,10 @@ Mao's China never matched.
 
 Resistance was significantly more dangerous under Hitler than under Mao for several reasons. The
 Nazi state maintained a comprehensive surveillance apparatus (Gestapo, SS, informer networks) that
-Made organised opposition extraordinarily risky. Mao's regime, by contrast, relied more on mass
+made organised opposition extraordinarily risky. Mao's regime, by contrast, relied more on mass
 Mobilisation and periodic campaigns than on continuous surveillance, creating windows of relative
 Openness between purges. Additionally, resistance in Nazi Germany targeted the state itself and its
-Foundational ideology (anti-Semitism, racial hierarchy), whereas resistance in Mao's China Targeted
+foundational ideology (anti-Semitism, racial hierarchy), whereas resistance in Mao's China Targeted
 specific policies rather than the regime's legitimacy. The Catholic and Protestant churches Provided
 institutional infrastructure for resistance in Germany; no comparable independent Institutions
 existed in Mao's China. However, it should be noted that resistance in both regimes was Marginal and

@@ -41,7 +41,7 @@ is better described as a continuum rather than a discrete set of categories.
 ### Ionic Bonding
 
 Ionic compounds consist of cations and anions held together by electrostatic attraction in a
-Three-dimensional lattice.
+three-dimensional lattice.
 
 **Lattice energy** ($U$): the energy released when gaseous ions form one mole of solid ionic
 Compound:
@@ -51,7 +51,7 @@ U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
 $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
-Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
+direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
 the charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
@@ -79,7 +79,7 @@ lattice.
 ### Covalent Bonding
 
 A covalent bond forms when atoms share one or more pairs of electrons. The shared electrons are
-Attracted to both nuclei simultaneously, which lowers the potential energy and holds the atoms
+attracted to both nuclei simultaneously, which lowers the potential energy and holds the atoms
 Together.
 
 - **Single bond:** 1 shared pair ($\sigma$ bond)
@@ -128,8 +128,8 @@ Where $V$ = valence electrons of the free atom, $N$ = nonbonding electrons on th
 Bonding electrons shared by the atom.
 
 The best Lewis structure minimises formal charges and places negative formal charges on more
-Electronegative atoms. If formal charges must be non-zero, adjacent atoms should not carry the same
-Sign charge.
+electronegative atoms. If formal charges must be non-zero, adjacent atoms should not carry the same
+sign charge.
 
 :::note[Example]
 Draw the Lewis structure for $\mathrm{SO_4^{2-}$ with formal charges.
@@ -248,9 +248,9 @@ therefore more compressed.
 ### Axial vs. Equatorial Positions in Trigonal Bipyramidal
 
 In a trigonal bipyramidal geometry, there are two types of positions: axial (90$^\circ$ from three
-Equatorial atoms) and equatorial (120$^\circ$ from two equatorial atoms, 90$^\circ$ from two axial
+equatorial atoms) and equatorial (120$^\circ$ from two equatorial atoms, 90$^\circ$ from two axial
 Atoms). Lone pairs preferentially occupy equatorial positions because this minimises repulsion (only
-Two 90$^\circ$ interactions instead of three).
+two 90$^\circ$ interactions instead of three).
 
 **Worked Example.** Determine the molecular geometry of $\mathrm{SF_4$.
 
@@ -272,7 +272,7 @@ $$
 $$
 
 Where $q$ is the partial charge and $d$ is the distance between charges. The dipole moment is a
-Vector quantity; the overall molecular dipole is the vector sum of all bond dipoles.
+vector quantity; the overall molecular dipole is the vector sum of all bond dipoles.
 
 ### Examples
 
@@ -425,7 +425,7 @@ The six C--C bonds are equivalent, each with bond order 1.5.
 ## Bonding Continuum and Partial Ionic Character
 
 The distinction between ionic and covalent bonding is not absolute. Bonds exist on a continuum from
-Pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
+pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
 
 Percent ionic character can be estimated from the electronegativity difference:
 
@@ -447,7 +447,7 @@ $$
 </div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
-Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
+sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
 
 ## Worked Example: Formal Charge Calculations
 
@@ -528,7 +528,7 @@ nonpolar.
 
 Hydrogen bonds are directional because they require a specific geometry: the hydrogen must be
 Colinear with the two electronegative atoms (donor-H...acceptor angle close to 180 degrees). This
-Maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
+maximises the electrostatic attraction between the partial positive hydrogen and the lone pair on
 the acceptor. Deviation from linearity weakens the hydrogen bond significantly.
 
 This directionality explains many of water's unique properties. In ice, each water molecule forms
@@ -538,7 +538,7 @@ Density than liquid water.
 ## Bonding Continuum and Partial Ionic Character
 
 The distinction between ionic and covalent bonding is not absolute. Bonds exist on a continuum from
-Pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
+pure covalent (zero electronegativity difference) to ionic (large electronegativity difference).
 
 Percent ionic character can be estimated from the electronegativity difference:
 
@@ -560,7 +560,7 @@ $$
 </div>
 
 Even a bond like Na-Cl has some covalent character because the chloride ion is polarizable and the
-Sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
+sodium cation distorts the electron cloud. Conversely, even H-Cl has some ionic character.
 
 ### Worked Example: Bond Type Prediction
 
@@ -767,7 +767,7 @@ Why this structure is preferred over alternative arrangements. Calculate the ave
 
 The best Lewis structure has sulfur as the central atom with four equivalent resonance structures.
 Each S-O bond is shown as a single bond in the skeleton, with sulfur making double bonds to two
-Oxygens and single bonds to the other two (with formal charges). The actual structure is a resonance
+oxygens and single bonds to the other two (with formal charges). The actual structure is a resonance
 Hybrid.
 
 Formal charge calculation: $\mathrm{FC = V - N - B/2$.
@@ -782,7 +782,7 @@ Net charge: $+1 + 0 + 0 + (-1) + (-1) = -2$. Correct for $\mathrm{SO_4^{2-}$.
 
 The four resonance structures delocalise the double bonds, making all S-O bonds equivalent. Average
 Bond order = $(2 + 2 + 1 + 1) / 4 = 6/4 = 1.5$. This minimises formal charge and maximises the
-Number of bonds, which is energetically favourable.
+number of bonds, which is energetically favourable.
 
 </details>
 
@@ -845,8 +845,8 @@ with only dipole-dipole or London forces.
 <summary>Question 4: Hybridization and bond angles</summary>
 
 The molecule $\mathrm{SF_4$ has a see-saw molecular geometry. Identify the hybridization of the
-Central sulfur atom, draw its shape, and predict the bond angles. Explain why the axial and
-Equatorial bond lengths differ.
+central sulfur atom, draw its shape, and predict the bond angles. Explain why the axial and
+equatorial bond lengths differ.
 
 </details>
 

@@ -268,7 +268,7 @@ A special, strong dipole-dipole force between:
 $\mathrm{H_2\mathrm{S$ boils At $-60^\circ\mathrm{C$ despite having a similar molecular mass.
 
 Water forms hydrogen bonds (O is highly electronegative), which require significant energy to
-Overcome. $\mathrm{H_2\mathrm{S$ cannot form hydrogen bonds (S is not electronegative enough), so
+overcome. $\mathrm{H_2\mathrm{S$ cannot form hydrogen bonds (S is not electronegative enough), so
 only Weak van der Waals forces act between molecules.
 
 **Worked Example 6 (HL):** Explain why the boiling point of $\mathrm{HF$ ($20°C$) is much higher
@@ -301,7 +301,7 @@ that can conduct electricity. The **conduction band** overlaps with the valence 
 Allowing free movement of electrons.
 
 In insulators, there is a large energy gap between the valence and conduction bands. In
-Semiconductors, the gap is small enough that thermal energy can promote some electrons.
+semiconductors, the gap is small enough that thermal energy can promote some electrons.
 
 ### Comparison: Conductors, Semiconductors, Insulators
 
@@ -412,7 +412,7 @@ See the examples integrated throughout the sections above.
 ### Polarising Power
 
 Small, highly charged cations have high polarising power. Large, highly charged anions are
-Polarised. When a cation distorts the electron cloud of an anion, the bond acquires covalent
+polarised. When a cation distorts the electron cloud of an anion, the bond acquires covalent
 Character.
 
 ### Fajans' Rules
@@ -445,7 +445,7 @@ Character.
 ### Concept
 
 Some molecules cannot be represented by a single Lewis structure. Resonance describes the
-Delocalisation of electrons over two or more equivalent structures.
+delocalisation of electrons over two or more equivalent structures.
 
 **Example:** The carbonate ion, $\mathrm{CO_3^{2-}$:
 
@@ -513,7 +513,7 @@ For $\mathrm{O_2$: $\mathrm{BO = (8 - 4)/2 = 2$.
 ### MO Diagram for $\mathrm{N_2$
 
 For $\mathrm{N_2$ (and lighter diatomic molecules), the $\sigma_{2p}$ and $\pi_{2p}$ ordering is
-Reversed: $\pi_{2p} < \sigma_{2p}$.
+reversed: $\pi_{2p} < \sigma_{2p}$.
 
 $\mathrm{N_2$ has 10 valence electrons: $\mathrm{BO = (8 - 2)/2 = 3$ (triple bond), consistent with
 the Lewis structure $\mathrm{N\equiv\mathrm{N$.
@@ -751,7 +751,7 @@ Pairs + lone pairs):
 
 The delocalised electrons in the "sea" are free to move when a potential difference is applied.
 These mobile charge carriers explain why metals are good conductors. Conductivity decreases with
-Temperature because increased atomic vibrations impede electron flow.
+temperature because increased atomic vibrations impede electron flow.
 
 ### Why Metals Are Malleable
 
@@ -792,7 +792,7 @@ Consider the hydrides of Group 14-17:
 </div>
 
 Water has the highest boiling point because each molecule can form up to four hydrogen bonds (two as
-Donor, two as acceptor), creating an extensive three-dimensional network.
+donor, two as acceptor), creating an extensive three-dimensional network.
 
 ### Solubility: "Like Dissolves Like"
 
@@ -865,7 +865,7 @@ $$
 $$
 
 The best Lewis structure minimises formal charges and places negative formal charge on the most
-Electronegative atoms.
+electronegative atoms.
 
 **Worked Example 8 (HL):** Draw the Lewis structure of $\mathrm{SO_4^{2-}$ and calculate the formal
 Charge on each atom.

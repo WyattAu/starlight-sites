@@ -30,7 +30,7 @@ each.
 covalent bond.
 
 (c) Explain the term "electronegativity" and describe the trend in electronegativity across
-Period 2.
+period 2.
 
 (d) A molecule has a permanent dipole moment. Explain what this means and describe the type of
 intermolecular force that results between such molecules.

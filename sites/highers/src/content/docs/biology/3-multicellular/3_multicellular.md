@@ -67,8 +67,8 @@ but may be less versatile.
 In 2006, Shinya Yamanaka discovered that adult somatic cells could be reprogrammed to become
 Pluripotent by introducing four transcription factors (Oct4, Sox2, Klf4, c-Myc) -- the "Yamanaka
 Factors." iPSCs behave like embryonic stem cells and can differentiate into any cell type. This has
-Enormous potential for regenerative medicine because it avoids the ethical issues associated with
-Embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
+enormous potential for regenerative medicine because it avoids the ethical issues associated with
+embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
 
 ### Tissues, Organs, and Systems
 
@@ -126,14 +126,14 @@ Stimulated again. This ensures one-way transmission.
 **Worked Example: Saltatory conduction.**
 
 In a myelinated axon, the action potential "jumps" from one node of Ranvier to the next, rather than
-Propagating along the entire length of the axon membrane. This speeds up transmission because:
+propagating along the entire length of the axon membrane. This speeds up transmission because:
 
 1. Less membrane needs to be depolarised (only at the nodes, not along the entire internode).
 2. The local currents between nodes are larger because the myelin insulates the internode,
    preventing current leakage.
 
 The speed of conduction in a myelinated axon can be up to 100 m/s, compared to about 1 m/s in an
-Unmyelinated axon of the same diameter.
+unmyelinated axon of the same diameter.
 
 ### Synapses
 
@@ -163,7 +163,7 @@ depolarisation reaches threshold, an action potential is generated in the Postsy
 ### The Endocrine System
 
 The endocrine system uses chemical messengers (hormones) secreted by endocrine glands into the
-Bloodstream.
+bloodstream.
 
 **Key differences from the nervous system:**
 
@@ -303,7 +303,7 @@ $$
 
 **Absorption:** The small intestine is adapted for absorption with villi and microvilli, which
 Increase surface area. Each villus has a dense capillary network (for amino acids and glucose) and a
-Lacteal (for fatty acids and glycerol).
+lacteal (for fatty acids and glycerol).
 
 ---
 
@@ -509,7 +509,7 @@ The kidney plays a central role in maintaining water and ion balance in the body
 
 **Ultrafiltration:** In the glomerulus, high blood pressure forces water, glucose, amino acids,
 Urea, and ions out of the blood and into the Bowman's capsule. Large proteins and blood cells are
-Too large to pass through the basement membrane and remain in the blood.
+too large to pass through the basement membrane and remain in the blood.
 
 **Selective reabsorption:** As the filtrate passes through the proximal convoluted tubule, all
 Glucose, all amino acids, and most water and ions are reabsorbed into the blood by active transport
@@ -523,7 +523,7 @@ multiplier Mechanism allows the kidney to produce concentrated urine.
 
 **ADH (antidiuretic hormone):** Released by the posterior pituitary gland in response to increased
 Blood osmolarity (detected by osmoreceptors in the hypothalamus). ADH makes the collecting duct more
-Permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
+permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
 more concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
 is reabsorbed, and dilute urine is produced.
 
@@ -532,9 +532,9 @@ is reabsorbed, and dilute urine is produced.
 In a healthy person, all glucose is reabsorbed in the proximal convoluted tubule by active
 Transport. The transporters have a maximum capacity (transport maximum, Tm) of approximately 375
 Mg/min. If blood glucose levels are normal (approximately 5 mmol/L), the filtered load of glucose is
-Well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
+well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
 Levels can exceed 10 mmol/L, and the filtered load exceeds Tm. The excess glucose cannot be
-Reabsorbed and appears in the urine (glycosuria).
+reabsorbed and appears in the urine (glycosuria).
 
 ## Review: Summary Table of Hormones
 
@@ -573,7 +573,7 @@ The male reproductive system produces and delivers sperm.
 **Spermatogenesis:** The process of sperm production in the seminiferous tubules. Spermatogonia
 (diploid) undergo mitosis to produce more spermatogonia and primary spermatocytes. Primary
 Spermatocytes undergo meiosis I to produce secondary spermatocytes, which undergo meiosis II to
-Produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
+produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
 Spermiogenesis.
 
 ### Female Reproductive System
@@ -670,7 +670,7 @@ Calcium ions ($\mathrm{Ca^{2+}$) are essential cofactors at multiple steps in th
 Without calcium ions, thromboplastin cannot convert prothrombin to thrombin, and thrombin cannot
 Convert fibrinogen to fibrin. This is why calcium chelators (substances that bind and remove calcium
 Ions) such as EDTA are used as anticoagulants in blood collection tubes. Similarly, the
-Anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
+anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
 Thrombin, preventing fibrin formation.
 
 ## Review: Lymphatic System
@@ -692,13 +692,13 @@ System.
 
 **Lymph circulation:** Lymph moves through lymphatic vessels by contraction of surrounding skeletal
 Muscles and by breathing. Valves in the lymphatic vessels prevent backflow. Lymph is returned to the
-Bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
+bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
 Lymphatic duct (drains the right side of the body) into the subclavian veins.
 
 **Worked Example: Oedema and the lymphatic system.**
 
 Oedema (swelling) occurs when excess fluid accumulates in the tissues. This can happen if the
-Lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
+lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
 by filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
 Interstitial fluid cannot be returned to the bloodstream, and the tissue swells. This demonstrates
 the critical role of the lymphatic system in maintaining fluid balance.
@@ -736,7 +736,7 @@ The human body contains three types of muscle tissue:
 **Worked Example: The sliding filament mechanism of muscle contraction.**
 
 When a muscle contracts, the actin (thin) and myosin (thick) filaments slide past each other,
-Shortening the sarcomere. The process:
+shortening the sarcomere. The process:
 
 1. An action potential arrives at the neuromuscular junction, releasing acetylcholine.
 2. The action potential spreads along the muscle fibre membrane and into T-tubules.

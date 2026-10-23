@@ -346,7 +346,7 @@ initially raises import prices, but over time, a weaker currency can boost expor
   exchange reserves during periods of currency strength.
 
 (d) **Hong Kong's LERS:** Hong Kong's Currency Board is the opposite of the recommendation for
-Country X because Hong Kong's fundamentals are entirely different. Hong Kong has: (i) massive
+country X because Hong Kong's fundamentals are entirely different. Hong Kong has: (i) massive
 foreign exchange reserves (US$180+ billion, equivalent to over 40% of GDP), (ii) fiscal reserves of
 HK$800+ billion, (iii) low inflation (anchored by the USD peg), (iv) a persistent current account
 surplus. The Currency Board works for Hong Kong because: the fiscal position is strong (no

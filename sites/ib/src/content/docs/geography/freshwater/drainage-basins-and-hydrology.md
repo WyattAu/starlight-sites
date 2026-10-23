@@ -43,7 +43,7 @@ basin is an open system: energy and matter enter, are transformed within the sys
 
 The hydrological cycle operates at the drainage basin scale through a series of interconnected
 Flows. Precipitation falling on the basin is intercepted by vegetation (interception store) or
-Reaches the ground surface. Water on the surface may infiltrate into the soil (soil moisture store)
+reaches the ground surface. Water on the surface may infiltrate into the soil (soil moisture store)
 Or flow over the surface as overland flow. Infiltrated water moves through the soil as throughflow
 or percolates downward to recharge groundwater (groundwater store). Groundwater moves slowly toward
 the river channel as baseflow. Water is returned to the atmosphere through evaporation from open
@@ -70,8 +70,8 @@ P = Q + E
 $$
 
 This identity states that all precipitation is ultimately partitioned between runoff and
-Evapotranspiration. The ratio $Q/P$ is the runoff coefficient, which indicates the proportion of
-Precipitation that becomes streamflow. In arid regions, $E/P$ approaches 1 (almost all precipitation
+evapotranspiration. The ratio $Q/P$ is the runoff coefficient, which indicates the proportion of
+precipitation that becomes streamflow. In arid regions, $E/P$ approaches 1 (almost all precipitation
 Returns to the atmosphere). In humid regions with impermeable geology, $Q/P$ may exceed 0.6.
 
 ## Storm Hydrograph Interpretation
@@ -101,14 +101,14 @@ The shape of the storm hydrograph reflects the relative contributions of differe
 **flashy hydrograph** has a short lag time, steep rising limb, high narrow peak, and rapid
 Recession, indicating that overland flow dominates. A **damped hydrograph** has a long lag time,
 Gentle rising limb, broader and lower peak, and extended recession, indicating that throughflow and
-Baseflow dominate.
+baseflow dominate.
 
 The **unit hydrograph** technique, developed by Sherman (1932), is a standard method for predicting
 the hydrograph response of a drainage basin to a given rainfall input. The unit hydrograph is the
-Hydrograph resulting from 1 unit (e.g., 1 cm) of effective rainfall (rainfall that contributes to
-Runoff, after accounting for losses to infiltration and interception) falling uniformly over the
-Basin within a specified duration. The principle of superposition allows the unit hydrograph to be
-Scaled and combined to predict the hydrograph for any storm.
+hydrograph resulting from 1 unit (e.g., 1 cm) of effective rainfall (rainfall that contributes to
+runoff, after accounting for losses to infiltration and interception) falling uniformly over the
+basin within a specified duration. The principle of superposition allows the unit hydrograph to be
+scaled and combined to predict the hydrograph for any storm.
 
 ## Factors Affecting Storm Hydrographs
 
@@ -142,8 +142,8 @@ Compared to equivalent rural basins.
 
 **Deforestation.** Removing trees reduces interception (which can account for 10--40% of gross
 Rainfall in dense forests), decreases transpiration, and reduces root-mediated soil structure and
-Infiltration capacity. Research in the Himalayas and Amazon basin has demonstrated that
-Deforestation increases overland flow, reduces baseflow, and makes streamflow more seasonal (higher
+infiltration capacity. Research in the Himalayas and Amazon basin has demonstrated that
+deforestation increases overland flow, reduces baseflow, and makes streamflow more seasonal (higher
 Peaks in the wet season, lower flows in the dry season).
 
 **Agricultural drainage.** Land drainage (under-drainage with perforated pipes, open ditches) is
@@ -157,7 +157,7 @@ Reaching the channel, resulting in a shorter lag time and higher peak discharge.
 Two distinct mechanisms generate overland flow, and confusing them is a frequent error. **Hortonian
 Overland flow** occurs when rainfall intensity exceeds the infiltration capacity of the soil,
 Generating surface runoff regardless of how much water the soil can hold in total. This is common in
-Arid and semi-arid environments, urban areas, and compacted soils. **Saturation overland flow**
+arid and semi-arid environments, urban areas, and compacted soils. **Saturation overland flow**
 (also called the Dunne mechanism) occurs when the soil profile becomes saturated from below (e.g.,
 By rising groundwater or throughflow convergence at the base of slopes), and any additional rainfall
 cannot infiltrate and flows over the surface. This is common in humid environments with shallow
@@ -169,19 +169,19 @@ Hortonian overland flow. Always specify which mechanism you are describing.
 ## Case Study: The River Severn, UK
 
 The River Severn (approximately 354 km) is the longest river in the UK, draining a basin of
-Approximately 11 400 km$^2$ in mid-Wales and western England. The hydrology of the Severn
+approximately 11 400 km$^2$ in mid-Wales and western England. The hydrology of the Severn
 Illustrates the interaction of physical factors across a heterogeneous basin.
 
 **Upper Severn (Plynlimon).** The headwaters rise on the Ordovician and Silurian shales of the
 Cambrian Mountains at elevations above 600 m. The steep slopes, impermeable geology, and high
 Rainfall (approximately 2500 mm per year) produce a flashy hydrological response. The Institute of
-Hydrology operated experimental catchments at Plynlimon from the 1960s to the 1980s, comparing the
-Hydrology of the afforested Severn catchment (conifer plantation) with the adjacent grassland Wye
+hydrology operated experimental catchments at Plynlimon from the 1960s to the 1980s, comparing the
+hydrology of the afforested Severn catchment (conifer plantation) with the adjacent grassland Wye
 Catchment. Key findings included: the forested catchment had higher interception losses
 (approximately 30% of gross rainfall, compared to approximately 10% for grassland), lower annual
 Runoff, and more moderated peak flows during moderate storms. However, during extreme storms, the
 Forested catchment produced similar peak discharges because the canopy became saturated and
-Interception capacity was exhausted.
+interception capacity was exhausted.
 
 **Middle and Lower Severn.** As the river crosses the lowlands of the Severn Valley, the geology
 Becomes more varied (Permo-Triassic sandstones, which are highly permeable and store large volumes
@@ -200,7 +200,7 @@ Climate variability and large-scale physical processes.
 **Seasonal hydrology.** The GBM basin has a strongly seasonal hydrological regime driven by the
 South Asian monsoon. Approximately 80% of annual rainfall occurs during the monsoon season
 (June--September). Discharge on the Ganges at Farakka (the downstream gauging station before it
-Enters Bangladesh) varies from approximately 500 m$^3$/s in the dry season (March--May) to over 70
+enters Bangladesh) varies from approximately 500 m$^3$/s in the dry season (March--May) to over 70
 000 m$^3$/s during the monsoon peak. The Brahmaputra at Bahadurabad shows even greater variation,
 From approximately 3000 m$^3$/s to over 100 000 m$^3$/s.
 
@@ -214,7 +214,7 @@ Gangetic Plain.
 Rainfall and Himalayan snowmelt, produces catastrophic flooding almost annually. The 1998 flood
 Inundated approximately 100 000 km$^2$ of Bangladesh (approximately 70% of the country), affecting
 over 30 million people, destroying approximately 500 000 homes, and causing estimated damage of
-Approximately USD 2 billion. The 2022 floods affected approximately 7.2 million people in
+approximately USD 2 billion. The 2022 floods affected approximately 7.2 million people in
 Bangladesh's northeastern Sylhet region.
 
 ## Hydrological Fieldwork and Skills
@@ -228,7 +228,7 @@ Q = w \times \bar{d} \times \bar{v}
 $$
 
 Where $w$ is channel width, $\bar{d}$ is mean depth, and $\bar{v}$ is mean velocity. Velocity is
-Measured using a flow meter (impeller or electromagnetic) at multiple points across the channel ( at
+measured using a flow meter (impeller or electromagnetic) at multiple points across the channel ( at
 0.6 of the depth from the surface, or as the average of measurements at 0.2 and 0.8 of The depth for
 deeper channels). The velocity-area method integrates velocity measurements across the Channel
 cross-section.
@@ -252,12 +252,12 @@ Key analytical skills for IB Geography include:
 
 Examination questions frequently ask students to explain the shape of a given hydrograph. A common
 Error is to attribute the hydrograph shape to a single factor (e.g., "the basin is urban, so the
-Hydrograph is flashy"). In reality, the hydrograph shape results from the interaction of multiple
+hydrograph is flashy"). In reality, the hydrograph shape results from the interaction of multiple
 Factors. A strong answer will identify the dominant factor and then explain how other factors modify
 its effect. For example, "The short lag time is primarily due to the impermeable clay geology, which
-Limits infiltration. However, the mature forest cover partially offsets this by intercepting
+limits infiltration. However, the mature forest cover partially offsets this by intercepting
 Rainfall and increasing infiltration through root action, which explains why the peak discharge is
-Lower than would be expected for bare clay."
+lower than would be expected for bare clay."
 
 </details>
 

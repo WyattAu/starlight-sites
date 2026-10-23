@@ -22,16 +22,16 @@ Money is anything that is generally accepted as a medium of exchange. It serves 
 ### 1. Medium of Exchange
 
 Money eliminates the need for double coincidence of wants that exists in a barter system. In a
-Barter economy, for trade to occur, both parties must want what the other has. Money serves as an
-Intermediary that is universally accepted, making transactions far more efficient.
+barter economy, for trade to occur, both parties must want what the other has. Money serves as an
+intermediary that is universally accepted, making transactions far more efficient.
 
 Example: Instead of a baker needing to find a shoemaker who wants bread, the baker sells bread for
-Money and uses the money to buy shoes.
+money and uses the money to buy shoes.
 
 ### 2. Unit of Account (Measure of Value)
 
 Money provides a common measure of the value of all goods and services. It allows us to compare the
-Value of different goods and to keep financial records.
+value of different goods and to keep financial records.
 
 Example: A laptop costs HKD 8,000 and a meal costs HKD 100. Money allows us to express both values
 in the same unit and compare them (the laptop is worth 80 meals).
@@ -47,7 +47,7 @@ Decreases as prices rise. Other stores of value include gold, property, stocks, 
 ### 4. Standard of Deferred Payment
 
 Money allows debts to be contracted and repaid in the future. Borrowing and lending would be
-Extremely difficult in a barter system because the value of goods changes over time.
+extremely difficult in a barter system because the value of goods changes over time.
 
 Example: A bank lends HKD 500,000 to be repaid with interest over 20 years. Both parties agree on
 the value of the debt because it is denominated in money.
@@ -135,7 +135,7 @@ The evolution of money reflects the increasing complexity of economies:
 ### Commercial Banks
 
 Commercial banks are profit-making institutions that provide banking services to the public and
-Businesses.
+businesses.
 
 **Functions of commercial banks:**
 
@@ -153,7 +153,7 @@ Businesses.
 ### Central Bank
 
 The central bank is the government's bank and the banker's bank. It is responsible for managing the
-Country's money supply, interest rates, and financial stability.
+country's money supply, interest rates, and financial stability.
 
 In Hong Kong, the de facto central bank is the **Hong Kong Monetary Authority (HKMA)**.
 
@@ -205,7 +205,7 @@ In Hong Kong, the de facto central bank is the **Hong Kong Monetary Authority (H
 
 Commercial banks create money through the process of **credit creation** (also called **deposit
 Creation**). When a bank receives a deposit, it keeps only a fraction as reserves and lends out the
-Rest. The lent money eventually returns to the banking system as a new deposit, and the process
+rest. The lent money eventually returns to the banking system as a new deposit, and the process
 Repeats.
 
 ### The Money Multiplier
@@ -324,7 +324,7 @@ The money multiplier falls from 10 to 3.33 due to cash leakages.
 ### Definition
 
 The money supply is the total amount of money in circulation in an economy at a given time. It
-Includes both cash (currency) and bank deposits.
+includes both cash (currency) and bank deposits.
 
 ### Measures of Money Supply
 
@@ -388,7 +388,7 @@ M1 contains the most liquid assets; M2 includes less liquid assets as well.
 
 Monetary policy refers to the central bank's actions to control the money supply and interest rates
 in order to achieve macroeconomic objectives such as price stability, full employment, and
-Sustainable economic growth.
+sustainable economic growth.
 
 ### Tools of Monetary Policy
 
@@ -418,7 +418,7 @@ Banks.
 #### 2. Reserve Ratio (Required Reserve Ratio)
 
 The reserve ratio is the fraction of customer deposits that commercial banks are required to hold as
-Reserves (not lend out).
+reserves (not lend out).
 
 **Mechanism:**
 
@@ -524,7 +524,7 @@ the open market.
 
 Hong Kong operates a Linked Exchange Rate System, pegging the Hong Kong dollar (HKD) to the US
 Dollar (USD) at a rate of approximately **7.8 HKD = 1 USD** (more precisely, the HKD trades within a
-Convertibility zone of 7.75 to 7.85).
+convertibility zone of 7.75 to 7.85).
 
 ### How the LERS Works
 
@@ -574,7 +574,7 @@ The HKMA maintains the peg through:
 ### What Are Interest Rates?
 
 Interest is the price of borrowing money. The interest rate is the percentage of the principal (the
-Borrowed amount) that must be paid as interest per period ( per year).
+borrowed amount) that must be paid as interest per period ( per year).
 
 ### Types of Interest Rates
 
@@ -813,7 +813,7 @@ Assume the required reserve ratio is 12.5%. A customer deposits HKD 8,000 into B
 
 (a) Calculate the maximum possible increase in the total money supply. (b) Calculate the maximum
 Total amount of new loans created in the entire banking system. (c) If the public holds 10% of any
-Increase in deposits as cash (currency drain ratio = 0.1), calculate the revised money multiplier
+increase in deposits as cash (currency drain ratio = 0.1), calculate the revised money multiplier
 and the new maximum increase in the money supply.
 
 (a) Money multiplier = $1 / 0.125 = 8$
@@ -823,7 +823,7 @@ Maximum increase in money supply = $8,000 \times 8 = 64,000$
 (b) Maximum new loans = Maximum deposits - Initial deposit - Total reserves
 
 Total new deposits = 64,000 Initial deposit = 8,000 Total reserves = 8,000 (the initial deposit is
-Fully retained as reserves across the system)
+fully retained as reserves across the system)
 
 Maximum new loans = 64,000 - 8,000 = 56,000
 
@@ -843,7 +843,7 @@ Supply falls from HKD 64,000 to approximately HKD 35,556.
 <summary>Question 2: Open Market Operations</summary>
 
 The central bank sells HKD 500 million worth of government bonds to commercial banks. Assume the
-Required reserve ratio is 10% and there are no cash leakages.
+required reserve ratio is 10% and there are no cash leakages.
 
 (a) Calculate the change in bank reserves. (b) Calculate the maximum change in the money supply. (c)
 Is this an expansionary or contractionary policy? Explain.
@@ -869,11 +869,11 @@ Interest rates rise, and aggregate demand decreases. This policy would be used t
 <summary>Question 3: Reserve Ratio Change</summary>
 
 The central bank lowers the required reserve ratio from 20% to 10%. Currently, total deposits in the
-Banking system are HKD 100 billion and banks hold exactly the required reserves (no excess
+banking system are HKD 100 billion and banks hold exactly the required reserves (no excess
 Reserves). Assume no cash leakages.
 
 (a) Calculate the money multiplier before and after the change. (b) Calculate the change in the
-Maximum possible money supply. (c) Explain why the central bank might make this change.
+maximum possible money supply. (c) Explain why the central bank might make this change.
 
 (a)
 
@@ -897,7 +897,7 @@ So the maximum money supply increases by HKD 100 billion.
 
 (c) The central bank would lower the reserve ratio to implement expansionary monetary policy. This
 would be appropriate during a recession or when economic growth is sluggish. By allowing banks to
-Lend more from their existing reserves, the money supply expands, interest rates fall, and aggregate
+lend more from their existing reserves, the money supply expands, interest rates fall, and aggregate
 Demand increases, stimulating economic activity and employment.
 
 </details>
@@ -928,7 +928,7 @@ $$
 Approximate real rate = $6\% - 8\% = -2\%$
 
 The real interest rate becomes negative (-2%). This means savers are losing purchasing power despite
-Earning 6% nominal interest.
+earning 6% nominal interest.
 
 **Borrowers benefit:** They are repaying loans in money that is worth less than when they borrowed
 It (the real value of their debt decreases).
@@ -975,7 +975,7 @@ Hong Kong's economy is in a downturn.
 <summary>Question 6: Functions of Money Applied</summary>
 
 For each of the four functions of money, explain whether Bitcoin performs that function well or
-Poorly, with reasons.
+poorly, with reasons.
 
 **Medium of exchange:** Bitcoin performs POORLY as a medium of exchange. It is not widely accepted
 By shops and businesses for everyday transactions. Only a limited number of merchants accept
@@ -990,13 +990,13 @@ much.
 **Store of value:** Bitcoin performs POORLY as a reliable store of value due to its extreme price
 Volatility. An asset whose value can halve or double within months is not a good store of value.
 While some investors hold Bitcoin as a speculative asset, its volatility makes it unreliable for
-Storing purchasing power over time. However, proponents argue its fixed supply (21 million cap)
+storing purchasing power over time. However, proponents argue its fixed supply (21 million cap)
 Could make it a long-term store of value.
 
 **Standard of deferred payment:** Bitcoin performs POORLY as a standard of deferred payment. Because
 Its value is highly volatile, neither borrowers nor lenders would want to denominate long-term
 Contracts in Bitcoin. A loan denominated in Bitcoin could become far more or far less expensive in
-Real terms due to price fluctuations, creating unacceptable risk for both parties.
+real terms due to price fluctuations, creating unacceptable risk for both parties.
 
 </details>
 
@@ -1018,7 +1018,7 @@ Liabilities:
 The required reserve ratio is 15%.
 
 (a) Does Bank A have excess reserves? If so, how much? (b) What is the maximum amount Bank A can
-Lend out? (c) If Bank A lends out its maximum, calculate the maximum total increase in the money
+lend out? (c) If Bank A lends out its maximum, calculate the maximum total increase in the money
 Supply for the entire banking system.
 
 (a) Required reserves = $1,000 \times 0.15 = 150$ million
@@ -1032,7 +1032,7 @@ Yes, Bank A has 50 million in excess reserves.
 (b) Bank A can lend out its excess reserves of 50 million.
 
 (c) When Bank A lends out 50 million, this creates a new deposit of 50 million in another bank. That
-Bank must keep 15% in reserves and can lend out 85%. This process continues.
+bank must keep 15% in reserves and can lend out 85%. This process continues.
 
 Maximum increase in money supply = $50 \times \frac{1}{0.15} = 50 \times 6.67 = 333.33$ million
 
@@ -1040,7 +1040,7 @@ So the maximum total increase in the money supply is approximately HKD 333.33 mi
 
 Note: The initial 50 million is already part of the money supply (it was created as a new deposit
 when the loan was made). The total increase in deposits throughout the banking system is 333.33
-Million, of which 50 million is the initial new loan/deposit and 283.33 million is the subsequent
+million, of which 50 million is the initial new loan/deposit and 283.33 million is the subsequent
 Credit creation.
 
 </details>
@@ -1071,7 +1071,7 @@ r = -0.01905 = -1.905\%
 $$
 
 (c) The saver has LOST purchasing power. Although the nominal amount increased by HKD 3,000, the
-Purchasing power of HKD 103,000 after inflation is:
+purchasing power of HKD 103,000 after inflation is:
 
 $$
 \mathrm{Real value} = \frac{103,000}{1.05} = 98,095.24
@@ -1079,7 +1079,7 @@ $$
 
 The saver's real purchasing power has fallen from HKD 100,000 to approximately HKD 98,095 -- a loss
 of about HKD 1,905. The negative real interest rate means inflation has eroded the value of the
-Savings.
+savings.
 
 </details>
 
@@ -1153,7 +1153,7 @@ above full employment with rising inflation.
 
 Since the economy was operating above full employment with rising inflation, this contractionary
 Monetary policy is appropriate. It cools down an overheating economy and brings inflation under
-Control.
+control.
 
 </details>
 
@@ -1198,7 +1198,7 @@ The central bank buys HKD 300 million worth of government bonds from commercial 
 Reserve ratio is 5%.
 
 (a) What happens to bank reserves? (b) Calculate the maximum change in the money supply. (c) Is this
-Expansionary or contractionary?
+expansionary or contractionary?
 
 <details>
 <summary>Solution</summary>
@@ -1231,7 +1231,7 @@ of the Loan?
 Exact: `(1 + r) = 1.04/1.06 = 0.9811`. So `r = -1.89\%`.
 
 (b) **Borrowers benefit.** They repay loans in money that is worth less than when they borrowed. The
-Real value of their debt falls.
+real value of their debt falls.
 
 (c) The real cost of the loan is `-1.89\%`. The borrower effectively pays back less in real terms
 than They received. This is a transfer of purchasing power from savers to borrowers.
@@ -1258,7 +1258,7 @@ maximum Total increase in the money supply for the whole system?
 (b) Maximum new loan = 42 million.
 
 (c) The 42 million becomes a new deposit in Bank Y. Bank Y must keep `42 \times 0.12 = 5.04` and can
-Lend `36.96`. This process continues with multiplier `1/0.12 = 8.33`.
+lend `36.96`. This process continues with multiplier `1/0.12 = 8.33`.
 
 Maximum total increase = `42 \times 8.33 = 350` million.
 
@@ -1426,7 +1426,7 @@ liquidity to solvent but illiquid banks (like Bank A), preventing fire sales of 
 prices; (ii) by lending to Bank A, the HKMA prevents the contagion from spreading to Bank B and the
 wider banking system; (iii) the mere existence of a LOLR reduces the likelihood of bank runs because
 depositors know the central bank stands behind the system. In Hong Kong, the HKMA operates a
-Discount Window for this purpose, and the Deposit Protection Scheme (covering up to HK$500,000 per
+discount Window for this purpose, and the Deposit Protection Scheme (covering up to HK$500,000 per
 depositor) provides additional confidence.
 
 </details>
@@ -1735,7 +1735,7 @@ _Inflation targeting (hypothetical):_
 
 **Conclusion:** For Hong Kong, the benefits of exchange rate stability (critical for an
 international financial centre and trade hub) outweigh the benefits of monetary independence. The
-Currency Board should be maintained, with fiscal policy and macroprudential tools used for domestic
+currency Board should be maintained, with fiscal policy and macroprudential tools used for domestic
 stabilisation.
 
 </details>
@@ -1750,7 +1750,7 @@ private sector. Country Z has a developed financial system: 90% bank account cov
 capitalisation of 120% of GDP, and active venture capital and corporate bond markets.
 
 (a) Explain four channels through which financial development promotes economic growth. (b) If
-Country Y's savings rate is 15% of GDP and Country Z's is 30%, and both have the same production
+country Y's savings rate is 15% of GDP and Country Z's is 30%, and both have the same production
 function $Y = K^{0.3}L^{0.7}$ Calculate the steady-state GDP per capita ratio. (c) Explain why
 financial development may have diminishing returns at very high levels (financialisation risks). (d)
 Suggest three specific policies Country Y should implement to develop its financial system.

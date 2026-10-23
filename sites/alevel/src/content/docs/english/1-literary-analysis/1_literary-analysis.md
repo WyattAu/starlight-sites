@@ -289,7 +289,7 @@ A feminist reading of _The Great Gatsby_ might argue that the novel's women are 
 in relation to men, denied interiority, and ultimately punished for their sexuality. Daisy Buchanan
 is perhaps the most striking example. Despite being the object of Gatsby's obsession, she is given
 remarkably little direct speech and is described primarily through Gatsby's idealised vision of her.
-Her famous line "I hope she'll be a fool, that's the best thing a girl can be in this world, a
+her famous line "I hope she'll be a fool, that's the best thing a girl can be in this world, a
 beautiful little fool" is a rare moment of self-awareness, yet even this is undercut by the
 narrative's refusal to develop her perspective further.
 

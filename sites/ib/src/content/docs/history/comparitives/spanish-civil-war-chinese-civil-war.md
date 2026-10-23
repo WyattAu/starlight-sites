@@ -21,7 +21,7 @@ description: "After the collapse of Qing Dynasty (1912), there were a period of 
 ### Chinese Civil War
 
 After the collapse of Qing Dynasty (1912), there were a period of warlordism, during which
-Nationalist Kuomintang (KMT) under Chiang Kai-shek took control of most of China. Communist Party of
+nationalist Kuomintang (KMT) under Chiang Kai-shek took control of most of China. Communist Party of
 China (CCP) established in 1921 had conflicting ideologies with KMT and led to a the Chinese Civil
 War. This conflict had two major phases, first from 1927 to 1937, second being 1946 to 1949, with
 the second Sino-Japanese War in between.
@@ -188,7 +188,7 @@ Structural tensions and short-term triggers.
 ## Guerrilla Warfare
 
 Guerrilla warfare was a decisive factor in both wars, but played a far more central role in the
-Chinese Civil War.
+chinese Civil War.
 
 ### Spanish Civil War
 
@@ -608,10 +608,10 @@ the CCP a mass base that the KMT could not match.
 In **Spain**, the Catholic Church was a central pillar of the Nationalist cause. Franco presented
 the war as a crusade against "godless communism." The Church's active support for the Nationalists,
 And the Republican anti-clerical violence (church burnings, murder of priests), gave the war a
-Powerful religious dimension that extended beyond politics.
+powerful religious dimension that extended beyond politics.
 
 In **China**, religion played a much smaller direct role. Confucian values of social hierarchy and
-Obedience indirectly supported KMT authority, while the CCP's Marxist atheism was a minor factor
+obedience indirectly supported KMT authority, while the CCP's Marxist atheism was a minor factor
 Compared to its economic and social appeal to peasants. The ideological divide was primarily
 Economic (landlord vs peasant) rather than religious.
 

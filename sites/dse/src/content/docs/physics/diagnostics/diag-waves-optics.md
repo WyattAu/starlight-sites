@@ -161,7 +161,7 @@ Since $36.87° \lt 44.43°$ The 3rd-order violet spectrum overlaps with the 2nd-
 Light is incident from air ($n = 1$) onto a glass surface ($n = 1.5$). (a) Calculate Brewster's
 angle. (b) If unpolarized light is incident at Brewster's angle, describe the polarization state of
 the reflected and refracted rays. (c) A second glass surface is placed parallel to the first.
-Explain what happens to the reflected and refracted beams after both surfaces.
+explain what happens to the reflected and refracted beams after both surfaces.
 
 **Solution:**
 

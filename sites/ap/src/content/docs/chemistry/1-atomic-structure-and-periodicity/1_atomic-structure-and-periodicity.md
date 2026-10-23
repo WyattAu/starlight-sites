@@ -41,7 +41,7 @@ categories:
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
 not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
-Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
+unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
 for electrons rather than definite orbits.
 
@@ -59,7 +59,7 @@ d = \frac{k \cdot Z_1 Z_2 e^2}{K}
 $$
 
 Where $K$ is the kinetic energy of the alpha particle. For $5.5 \mathrm{ MeV$ alpha particles on
-Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$ Which is much smaller than the atomic radius of About
+gold, $d \approx 3 \times 10^{-14} \mathrm{ m$ Which is much smaller than the atomic radius of About
 $10^{-10} \mathrm{ m$. This confirms that the nucleus is extremely small compared to the Atom.
 
 ### Subatomic Particles
@@ -141,7 +141,7 @@ Each electron also has $m_s = \pm\frac{1}{2}$.
 ### Constraints
 
 The Pauli exclusion principle limits how many electrons can share the same quantum numbers: no two
-Electrons in an atom can have the same set of four quantum numbers. Since an orbital is defined by
+electrons in an atom can have the same set of four quantum numbers. Since an orbital is defined by
 $n$, $\ell$ And $m_\ell$ It can hold at most two electrons (differing in $m_s$).
 
 ### Example: Valid vs. Invalid Quantum Number Sets
@@ -174,7 +174,7 @@ $$
 
 The apparent anomaly ($4s$ before $3d$) arises because the 4s orbital has lower energy when empty,
 But once electrons occupy the 3d subshell, the energy levels shift and 3d drops below 4s. This has
-Important consequences for the formation of transition metal ions.
+important consequences for the formation of transition metal ions.
 
 ### Derivation: Why 4s Fills Before 3d
 
@@ -192,7 +192,7 @@ most two electrons with opposite spins.
 ### Hund's Rule
 
 Electrons occupy degenerate orbitals singly first, with parallel spins, before pairing up. This
-Minimises electron-electron repulsion and maximises total spin, which is energetically favourable.
+minimises electron-electron repulsion and maximises total spin, which is energetically favourable.
 
 ### Writing Electron Configurations
 
@@ -212,7 +212,7 @@ Similar exceptions occur for Mo ($4d^5$) and $\mathrm{Ag$ ($4d^{10}$).
 
 The stability of half-filled and fully filled d subshells arises from exchange energy: electrons
 with parallel spins in different orbitals are slightly lower in energy than paired electrons. A
-Half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
+half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
 
 :::note[Example]
 Write the electron configuration for Fe ($Z = 26$).
@@ -235,7 +235,7 @@ The 4s electrons fill first but are written after 3d by convention.
 ### Electron Configuration of Ions
 
 When forming cations, **remove $4s$ electrons before $3d$ electrons**, even though $4s$ fills first.
-This is because once the 3d subshell is occupied, its energy drops below that of 4s.
+this is because once the 3d subshell is occupied, its energy drops below that of 4s.
 
 **Example:** $\mathrm{Fe^{2+}$: $[\mathrm{Ar]\,3d^6$ (remove the two 4s electrons)
 
@@ -298,7 +298,7 @@ E_n = -\frac{mk^2e^4}{2n^2\hbar^2} = -\frac{13.6 \mathrm{ eV}{n^2}
 $$
 
 This derivation shows that the quantised energy levels arise directly from the quantisation of
-Angular momentum.
+angular momentum.
 
 ### The Rydberg Equation
 
@@ -353,7 +353,7 @@ $$
 ### Atomic Spectra as Evidence for Quantized Energy Levels
 
 The observation of discrete lines in atomic emission spectra (rather than a continuous spectrum) is
-Direct evidence that electrons in atoms can only occupy specific, quantized energy levels. Each line
+direct evidence that electrons in atoms can only occupy specific, quantized energy levels. Each line
 Corresponds to a transition between two specific energy levels.
 
 ## Photoelectric Effect
@@ -371,7 +371,7 @@ The threshold frequency: $\nu_0 = \frac{\phi}{h}$.
 If $\nu \lt \nu_0$ No electrons are emitted regardless of intensity.
 
 The photoelectric effect demonstrates the particle nature of light. Increasing the intensity of
-Light below the threshold frequency does not eject electrons because no single photon has enough
+light below the threshold frequency does not eject electrons because no single photon has enough
 Energy. Above the threshold, increasing intensity increases the number of ejected electrons (because
 more photons arrive per unit time) but not their maximum kinetic energy.
 
@@ -403,7 +403,7 @@ shielding offsets more protons).
 The concept of $Z_{\mathrm{eff}$ is the key to understanding all periodic trends. Across a period,
 $Z$ increases by one per element but the shielding increases very little (electrons in the same
 Shell do not shield each other effectively), so $Z_{\mathrm{eff}$ increases significantly. Down a
-Group, $Z$ increases but the additional inner shells provide substantial shielding, so
+group, $Z$ increases but the additional inner shells provide substantial shielding, so
 $Z_{\mathrm{eff}$ remains approximately constant.
 
 ### Key Periodic Trends
@@ -423,7 +423,7 @@ $Z_{\mathrm{eff}$ remains approximately constant.
 ### Ionization Energy
 
 The first ionization energy ($IE_1$) is the energy required to remove the outermost electron from a
-Gaseous atom:
+gaseous atom:
 
 $$
 \mathrm{X(g) \to \mathrm{X^+(g) + e^- \quad \Delta H = IE_1
@@ -441,7 +441,7 @@ less shielded).
 14842 kJ/mol. Identify the group.
 
 The large jump occurs between the third and fourth ionization energies (2745 to 11578 kJ/mol). This
-Means the fourth electron is being removed from a new, inner shell. The element has three valence
+means the fourth electron is being removed from a new, inner shell. The element has three valence
 Electrons, so it is in Group 13 (e.g., aluminium).
 
 ### Atomic Radius
@@ -453,10 +453,10 @@ Metallic radius: half the distance between nuclei of adjacent atoms in a metalli
 ### Electronegativity
 
 The ability of an atom to attract bonding electrons. Pauling scale: F (3.98) is the most
-Electronegative element. Cs (0.79) is the least.
+electronegative element. Cs (0.79) is the least.
 
 Electronegativity determines bond type. Large electronegativity differences ($\gt 1.7$) lead to
-Ionic bonding; small differences ($\lt 0.4$) lead to nonpolar covalent bonding.
+ionic bonding; small differences ($\lt 0.4$) lead to nonpolar covalent bonding.
 
 ### Electron Affinity
 
@@ -467,8 +467,8 @@ $$
 $$
 
 More negative EA = greater attraction for the added electron. Group 17 elements have the most
-Negative EA (most favourable to add an electron). Group 18 elements have approximately zero EA (the
-Closed shell provides no energetic incentive to add an electron).
+negative EA (most favourable to add an electron). Group 18 elements have approximately zero EA (the
+closed shell provides no energetic incentive to add an electron).
 
 ### Ionic Radius
 
@@ -505,11 +505,11 @@ This confirms aluminium has three valence electrons (Group 13).
 ### Shielding and Penetration
 
 Electrons in inner shells shield outer electrons from the full nuclear charge. However, not all
-Subshells shield equally. The penetration order is $s \gt p \gt d \gt f$ Meaning s electrons
+subshells shield equally. The penetration order is $s \gt p \gt d \gt f$ Meaning s electrons
 Penetrate closer to the nucleus and experience less shielding than p electrons in the same shell.
 
 This explains why the 4s orbital fills before the 3d orbital: 4s electrons penetrate the core more
-Effectively than 3d electrons, giving them a lower energy when both subshells are empty.
+effectively than 3d electrons, giving them a lower energy when both subshells are empty.
 
 ### Summary Table: Period 3 Trends
 
@@ -567,7 +567,7 @@ electrons.
 ### Valence Electrons for Transition Metals
 
 For main group elements, valence electrons are those in the outermost s and p subshells. For
-Transition metals, the valence electrons include the outermost s electrons and the d electrons of
+transition metals, the valence electrons include the outermost s electrons and the d electrons of
 the highest occupied d subshell.
 
 <div class="table-wrap">
@@ -631,7 +631,7 @@ The decrease from Group 2 to Group 13 occurs because the Group 13 electron enter
 Which is higher in energy and more effectively shielded than the s subshell of Group 2.
 
 The decrease from Group 15 to Group 16 occurs because the Group 16 electron pairs with another
-Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
+electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
 the increase in $Z_{\mathrm{eff}$.
 
 ## Summary Table: Periodic Trends Explained
@@ -766,7 +766,7 @@ the increase in $Z_{\mathrm{eff}$.
 
 Element X has the electron configuration $[\mathrm{Ar]4s^2 3d^{10} 4p^3$. Identify the element,
 State its period and group, and predict whether its atomic radius is larger or smaller than that of
-Arsenic. Explain the trend.
+arsenic. Explain the trend.
 
 </details>
 
@@ -774,13 +774,13 @@ Arsenic. Explain the trend.
 <summary>Answer</summary>
 
 Element X has 33 electrons: $2 + 8 + 8 + 2 + 10 + 3 = 33$. This is arsenic (As), in period 4 and
-Group 15.
+group 15.
 
 Arsenic's atomic radius should be compared with itself -- the question asks relative to arsenic.
 Since element X IS arsenic, the radii are equal. However, if comparing with neighbours: arsenic is
-Larger than selenium (Se, to its right) because atomic radius decreases across a period (increasing
+larger than selenium (Se, to its right) because atomic radius decreases across a period (increasing
 Effective nuclear charge pulls electrons closer). Arsenic is smaller than germanium (Ge, to its
-Left) for the same reason in reverse.
+left) for the same reason in reverse.
 
 The 3d electrons provide poor shielding, causing the 4p electrons to experience a higher effective
 Nuclear charge than expected. This is why Ga has a similar radius to Al (the d-block contraction).
@@ -791,8 +791,8 @@ Nuclear charge than expected. This is why Ga has a similar radius to Al (the d-b
 <summary>Question 2: Photoelectric effect and photon energy</summary>
 
 Light with a wavelength of $200 \mathrm{ nm$ is shone on a metal surface. The work function of the
-Metal is $4.0 \mathrm{ eV$. Calculate the kinetic energy of the ejected electrons in joules. If no
-Electrons are ejected, explain why.
+metal is $4.0 \mathrm{ eV$. Calculate the kinetic energy of the ejected electrons in joules. If no
+electrons are ejected, explain why.
 
 </details>
 
@@ -822,7 +822,7 @@ Electrons are ejected because the photon energy ($6.20 \mathrm{ eV$) exceeds the
 <summary>Question 3: Ionization energy trends and exceptions</summary>
 
 Explain why the first ionization energy of oxygen ($1314 \mathrm{ kJ/mol$) is lower than that of
-Nitrogen ($1402 \mathrm{ kJ/mol$), even though oxygen has a higher nuclear charge. Use electron
+nitrogen ($1402 \mathrm{ kJ/mol$), even though oxygen has a higher nuclear charge. Use electron
 Configurations in your explanation.
 
 </details>
@@ -837,10 +837,10 @@ Repulsion.
 Oxygen has the configuration $1s^2 2s^2 2p^4$. The fourth $2p$ electron must pair with an existing
 Electron in one of the $2p$ orbitals. The paired electrons experience additional electron-electron
 Repulsion, which makes it easier to remove one of them. This repulsion effect outweighs the
-Increased nuclear charge in oxygen.
+increased nuclear charge in oxygen.
 
 This is a general trend: atoms with half-filled or fully-filled subshells (like N with $2p^3$) have
-Higher ionization energies than their neighbours because these configurations are particularly
+higher ionization energies than their neighbours because these configurations are particularly
 Stable.
 
 </details>
@@ -860,7 +860,7 @@ Why $m_l = 4$ is not a valid quantum number for this electron.
 The quantum number $l = 2$ corresponds to a d orbital. The subshell is $4d$.
 
 The maximum number of electrons in a d subshell is 10 (5 orbitals $\times$ 2 electrons each). The
-Five orbitals have $m_l$ values of $-2, -1, 0, +1, +2$.
+five orbitals have $m_l$ values of $-2, -1, 0, +1, +2$.
 
 The value $m_l = 4$ is not valid because $m_l$ must be an integer in the range from $-l$ to $+l$.
 Since $l = 2$ The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceeds this range.
@@ -871,7 +871,7 @@ Since $l = 2$ The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceed
 <summary>Question 5: Effective nuclear charge calculation</summary>
 
 Calculate the effective nuclear charge ($Z_{\mathrm{eff}$) experienced by a valence electron in
-Potassium ($Z = 19$) using Slater's rules. Compare this with the $Z_{\mathrm{eff}$ for a valence
+potassium ($Z = 19$) using Slater's rules. Compare this with the $Z_{\mathrm{eff}$ for a valence
 Electron in sodium ($Z = 11$) and explain the trend in atomic radius.
 
 </details>

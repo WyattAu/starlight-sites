@@ -29,7 +29,7 @@ categories:
 **Mean:** $\bar{x} = \dfrac{\sum x_i}{n}$
 
 The mean is the balance point of the data. It is sensitive to outliers: a single extreme value can
-Shift the mean significantly.
+shift the mean significantly.
 
 **Median:** The middle value when data is sorted. For $n$ data points, if $n$ is odd, the median is
 The $\frac{n+1}{2}$ Th value. If $n$ is even, it is the average of the $\frac{n}{2}$ Th and
@@ -271,7 +271,7 @@ This is most evaluated using a calculator or statistical tables.
 ### Normal Distribution
 
 A continuous random variable $X$ has a normal distribution $X \sim N(\mu, \sigma^2)$ if its
-Probability density function is:
+probability density function is:
 
 $$
 F(x) = \frac{1}{\sigma\sqrt{2\pi}} \, e^{-\frac{(x - \mu)^2}{2\sigma^2}}
@@ -486,7 +486,7 @@ $$
 ### The Geometric Distribution
 
 The geometric distribution models the number of trials until the first success in a sequence of
-Independent Bernoulli trials with success probability $p$.
+independent Bernoulli trials with success probability $p$.
 
 $$
 P(X = k) = (1-p)^{k-1} p, \quad k = 1, 2, 3, \ldots
@@ -656,7 +656,7 @@ $t = \dfrac{498 - 500}{4/\sqrt{20}} = \dfrac{-2}{0.894} = -2.236$.
 Critical value for $t$-distribution with 19 df at 5% (one-tailed): approximately $-1.729$.
 
 Since $-2.236 < -1.729$ We reject $H_0$. There is sufficient evidence that the machine is
-Underfilling.
+underfilling.
 
 Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$ And
 $|-2.236| = 2.236 > 2.093$ So we would still reject $H_0$ in this case. However, the one-tailed Test
@@ -665,7 +665,7 @@ has a lower threshold, making it easier to detect a difference in the specified 
 ### Coefficient of Determination
 
 The coefficient of determination $r^2$ represents the proportion of the variance in $y$ that is
-Explained by the linear relationship with $x$.
+explained by the linear relationship with $x$.
 
 $$
 R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}

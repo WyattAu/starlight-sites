@@ -101,7 +101,7 @@ Consider $N = p_1 p_2 \cdots p_n + 1$.
   is impossible since $p_i \geq 2$.
 
 So $N$ is either prime itself or divisible by a prime not in our list. Either way, there exists a
-Prime not among $p_1, \ldots, p_n$. This contradicts our assumption that the list was complete.
+prime not among $p_1, \ldots, p_n$. This contradicts our assumption that the list was complete.
 $\blacksquare$
 
 ### 2.3 $\sqrt{2}$ is irrational

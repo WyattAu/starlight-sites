@@ -44,7 +44,7 @@ description: "Study notes for Assessment | IB - Wyatt's Notes with worked exampl
 ## Paper 1, Written Response
 
 Paper 1 is a **2-hour** examination (SL) or **2 hours 15 minutes** (HL) that tests knowledge and
-Understanding of the core syllabus.
+understanding of the core syllabus.
 
 ### Structure
 
@@ -350,7 +350,7 @@ GDPR in the EU) restrict where data can be stored and processed.
 
 **Explanation**: Organizations must carefully evaluate their cloud provider's compliance with
 Relevant regulations and implement additional security measures (encryption, access controls). The
-Shared responsibility model means that while the provider secures the infrastructure, the customer
+shared responsibility model means that while the provider secures the infrastructure, the customer
 is responsible for securing their data.
 
 **Link**: Therefore, while cloud computing offers clear advantages in cost and scalability,

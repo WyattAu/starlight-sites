@@ -20,7 +20,7 @@ description: "Attachment refers to the strong, enduring emotional bond that form
 Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary
 Caregiver ( the mother). Attachment theory, originally developed by John Bowlby and later Expanded
 by Mary Ainsworth, has become one of the most influential and well-researched theories in
-Developmental psychology. It explains how early relationships shape emotional development, social
+developmental psychology. It explains how early relationships shape emotional development, social
 Competence, and mental health across the lifespan.
 
 ## Bowlby's Evolutionary Theory of Attachment
@@ -28,7 +28,7 @@ Competence, and mental health across the lifespan.
 ### Key Principles
 
 John Bowlby (1969) proposed that attachment is an innate behavioural system that has evolved through
-Natural selection because it enhances the infant's chances of survival. The key principles of
+natural selection because it enhances the infant's chances of survival. The key principles of
 Bowlby's theory are:
 
 1. **Attachment is adaptive:** Infants are born with a repertoire of attachment behaviours (crying,
@@ -62,12 +62,12 @@ Bowlby's theory are:
 ### Harlow (1958): Infant Rhesus Monkeys
 
 Harry Harlow's research with infant rhesus monkeys provided powerful evidence for the importance of
-Contact comfort in attachment, challenging the prevailing behaviourist view that attachment was
-Based solely on feeding.
+contact comfort in attachment, challenging the prevailing behaviourist view that attachment was
+based solely on feeding.
 
 **Methodology:** Infant monkeys were separated from their biological mothers shortly after birth and
 Raised in isolation with two surrogate "mothers": one made of wire mesh that provided milk, and one
-Covered in soft terry cloth that provided no milk but contact comfort.
+covered in soft terry cloth that provided no milk but contact comfort.
 
 **Key findings:**
 
@@ -100,7 +100,7 @@ Covered in soft terry cloth that provided no milk but contact comfort.
 Mary Ainsworth (1978) developed the Strange Situation procedure to systematically assess the quality
 of attachment between infants and their caregivers. The procedure involves a series of eight
 3-minute episodes in a laboratory room, designed to activate the infant's attachment system by
-Introducing mild stressors (separation from the caregiver, the presence of a stranger).
+introducing mild stressors (separation from the caregiver, the presence of a stranger).
 
 **Episodes:**
 
@@ -223,8 +223,8 @@ the Netherlands), encompassing over 2,000 infant-caregiver dyads.
 ### Hazan and Shaver (1987): Adult Attachment
 
 Hazan and Shaver extended attachment theory to adult romantic relationships, proposing that the
-Internal working models established in infancy continue to influence relationship patterns in
-Adulthood. They identified three adult attachment styles corresponding to Ainsworth's infant
+internal working models established in infancy continue to influence relationship patterns in
+adulthood. They identified three adult attachment styles corresponding to Ainsworth's infant
 Attachment types:
 
 - **Secure adults:** Find it easy to get close to others, are comfortable with intimacy and

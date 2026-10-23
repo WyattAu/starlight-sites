@@ -160,7 +160,7 @@ $$
 ### Limiting Factors of Photosynthesis
 
 A limiting factor is the factor that is closest to its minimum and therefore limits the rate of the
-Process at any given time. The rate of photosynthesis is determined by the slowest of these factors.
+process at any given time. The rate of photosynthesis is determined by the slowest of these factors.
 
 <div class="table-wrap">
 
@@ -204,7 +204,7 @@ Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespi
 ### Stomata
 
 Stomata are microscopic pores found mainly on the lower surface of leaves (in most plants). Each
-Stoma is surrounded by two guard cells that control the opening and closing of the pore.
+stoma is surrounded by two guard cells that control the opening and closing of the pore.
 
 **Structure of guard cells:**
 
@@ -369,8 +369,8 @@ same open stomata.
 **Measurement of transpiration:**
 
 A **potometer** measures the rate of water uptake by a plant shoot. Since most water taken up is
-Lost through transpiration (approximately 98%), the rate of water uptake approximates the rate of
-Transpiration.
+lost through transpiration (approximately 98%), the rate of water uptake approximates the rate of
+transpiration.
 
 **Limitations of potometers:**
 
@@ -439,7 +439,7 @@ Water moves up the xylem against gravity through three contributing mechanisms:
 :::caution
 Transport in tall trees. Root pressure alone can only push water a few metres. The cohesion-tension
 Theory is the dominant mechanism in tall plants. Root pressure is supplementary and is only
-Significant in small plants or under conditions of low transpiration.
+significant in small plants or under conditions of low transpiration.
 :::
 
 ### Phloem Structure and Function
@@ -729,7 +729,7 @@ Steps:
 6. Acclimatisation and transfer to soil
 
 Advantages: large numbers of identical plants in a small space; disease-free plants; conservation of
-Rare species; year-round production.
+rare species; year-round production.
 
 ---
 
@@ -747,7 +747,7 @@ Rare species; year-round production.
 ### Plant Hormones (Phytohormones)
 
 Plant hormones are organic substances produced in small quantities in one part of the plant and
-Transported to other parts, where they control growth, development, and responses to stimuli.
+transported to other parts, where they control growth, development, and responses to stimuli.
 
 <div class="table-wrap">
 
@@ -844,7 +844,7 @@ Growth can be towards (positive tropism) or away from (negative tropism) the sti
 
 :::caution
 Shoots versus roots. In shoots, auxin promotes elongation (high concentration side grows more). In
-Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
+roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
 towards light but roots bend away from it when auxin redistributes.
 :::
 
@@ -1177,7 +1177,7 @@ availability -- drought causes closure via ABA.
 asexual reproduction (vegetative propagation).
 
 If you get this wrong, revise: Plant Reproduction -- Sexual Reproduction; Asexual Reproduction in
-Plants
+plants
 
 <details>
 <summary>Solution</summary>

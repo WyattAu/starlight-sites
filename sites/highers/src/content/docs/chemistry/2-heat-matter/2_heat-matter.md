@@ -233,8 +233,8 @@ $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3 \quad \Delta H = -9
 $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
 The forward reaction produces 2 moles of gas from 1 mole. Increasing pressure favours the side with
-Fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
-Mixture becomes paler (less brown $\mathrm{NO_2$ gas).
+fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
+mixture becomes paler (less brown $\mathrm{NO_2$ gas).
 
 ### Equilibrium Constant ($K_c$)
 
@@ -324,7 +324,7 @@ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvi
 **Derivation:**
 
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
-Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
+reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
 
 $$
 0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
@@ -370,7 +370,7 @@ $$
 $$
 
 Assuming $\Delta H^\circ$ and $\Delta S^\circ$ are temperature-independent over the range of
-Interest, differentiating with respect to $T$:
+interest, differentiating with respect to $T$:
 
 $$
 \frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}
@@ -419,7 +419,7 @@ Doubles the rate.
 
 **Effect of a catalyst:** A catalyst provides an alternative reaction pathway with a lower
 Activation energy. It does not change the distribution of molecular energies but lowers the
-Threshold, meaning more molecules have sufficient energy to react.
+threshold, meaning more molecules have sufficient energy to react.
 
 ### Factors Affecting Rate
 
@@ -511,9 +511,9 @@ A plot of $\ln k$ vs. $1/T$ gives a straight line with gradient $-E_a/R$ and y-i
 **Derivation of the Arrhenius equation:**
 
 The Arrhenius equation arises from the observation that the rate constant depends exponentially on
-Temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
-The pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
-Orientation factor.
+temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
+the pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
+orientation factor.
 
 **Worked Example 13:** The rate constant of a reaction at $300 \mathrm{ K$ is
 $2.5 \times 10^{-3} \mathrm{ s^{-1}$ and at $350 \mathrm{ K$ is
@@ -785,7 +785,7 @@ $$
 ### Bomb Calorimetry
 
 Used for combustion reactions. The sample is ignited in a sealed container (bomb) surrounded by
-Water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
+water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
 $\Delta U$ (internal energy change), not $\Delta H$. The correction is:
 
 $$
@@ -871,7 +871,7 @@ The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
 This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
 though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
-Rate order cannot be predicted from the stoichiometry.
+rate order cannot be predicted from the stoichiometry.
 
 ---
 

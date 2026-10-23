@@ -34,7 +34,7 @@ With new combinations of alleles.
 
 Crossing over is the only mechanism that produces new allele combinations **within** a single
 Chromosome (the others --- independent assortment and random fertilisation --- operate at the
-Chromosome or organism level).
+chromosome or organism level).
 
 ### Independent Assortment
 
@@ -131,7 +131,7 @@ This ratio arises from independent assortment: the two genes segregate independe
 ### Incomplete Dominance
 
 The heterozygous phenotype is intermediate between the two homozygous phenotypes. Neither allele is
-Fully dominant.
+fully dominant.
 
 **Example**: In snapdragons, $RR$ = red, $rr$ = white, $Rr$ = pink.
 
@@ -164,7 +164,7 @@ A gene may have more than two alleles in the population, though any individual c
 ### Sex-Linked Inheritance
 
 Genes located on the **X chromosome** (X-linked) show different inheritance patterns in males and
-Females, since males have only one X chromosome ($XY$).
+females, since males have only one X chromosome ($XY$).
 
 - Males express X-linked recessive alleles with only one copy (hemizygous).
 - Females must be homozygous recessive to express the trait.
@@ -181,7 +181,7 @@ $\dfrac{\mathrm{number of recombinant offspring}}{\mathrm{total offspring}} \tim
 
 A recombination frequency of $1\%$ corresponds to a map distance of $1$ centimorgan ($\mathrm{cM}$).
 Genes with a recombination frequency of $50\%$ or greater assort independently (they are either on
-Different chromosomes or very far apart on the same chromosome).
+different chromosomes or very far apart on the same chromosome).
 
 ### Epistasis
 
@@ -282,8 +282,8 @@ Agents that increase the mutation rate:
 ### Consequences
 
 Most mutations are neutral or harmful. Occasionally, a mutation confers a selective advantage and
-Contributes to evolution. Mutations in somatic cells are not inherited; mutations in germ cells are
-Passed to offspring.
+contributes to evolution. Mutations in somatic cells are not inherited; mutations in germ cells are
+passed to offspring.
 
 ---
 
@@ -456,8 +456,8 @@ The introduction of a functional gene into a patient's cells to correct a geneti
 <summary>Question 1: Dihybrid Cross with Independent Assortment</summary>
 
 In guinea pigs, black coat ($B$) is dominant over brown ($b$), and short hair ($S$) is dominant over
-Long hair ($s$). Two double heterozygotes ($BbSs$) are crossed. Calculate the probability of
-Producing a guinea pig that is homozygous recessive for both traits ($bbss$).
+long hair ($s$). Two double heterozygotes ($BbSs$) are crossed. Calculate the probability of
+producing a guinea pig that is homozygous recessive for both traits ($bbss$).
 
 </details>
 
@@ -511,7 +511,7 @@ The probability that a son has haemophilia is $\dfrac{1}{2}$ (or $50\%$).
 <summary>Question 3: PCR Amplification</summary>
 
 A forensic scientist starts with $10$ copies of a DNA fragment. After $30$ cycles of PCR, how many
-Copies will be present? If each double-stranded copy is $300\;\mathrm{bp}$ and the total amount of
+copies will be present? If each double-stranded copy is $300\;\mathrm{bp}$ and the total amount of
 DNA produced is $54\;\mathrm{ng}$ Calculate the approximate mass of one copy.
 ($1\;\mathrm{bp} \approx 660\;\mathrm{Da}$; $1\;\mathrm{Da} = 1.66 \times 10^{-24}\;\mathrm{g}$.)
 
@@ -539,7 +539,7 @@ Template).
 <summary>Question 4: Epistasis</summary>
 
 In summer squash, colour is controlled by two genes. Gene $W$ determines whether any colour is
-Produced ($W$ = colour, $w$ = white, epistatic). Gene $Y$ determines whether the colour is yellow
+produced ($W$ = colour, $w$ = white, epistatic). Gene $Y$ determines whether the colour is yellow
 ($Y$) or green ($y$). A dihybrid cross ($WwYy \times WwYy$) is performed. Predict the phenotypic
 Ratio.
 
@@ -566,7 +566,7 @@ Collapsed by epistasis into a $12:3:1$ ratio).
 <summary>Question 5: Frameshift Mutation</summary>
 
 A DNA coding strand has the sequence: $5'$-ATG GCA TAC GAT-3'. A single nucleotide insertion of an
-Adenine (A) occurs between the third and fourth nucleotides. Write the original and mutated mRNA
+adenine (A) occurs between the third and fourth nucleotides. Write the original and mutated mRNA
 Sequences, and the original and mutated amino acid sequences.
 
 </details>
@@ -583,7 +583,7 @@ Amino acids: Met -- Ser -- Ile -- Asp
 
 The frameshift altered all amino acids downstream of the insertion site (except the first Met, which
 was unaffected). This illustrates the severe impact of frameshift mutations on protein structure and
-Function.
+function.
 
 </details>
 
@@ -807,11 +807,11 @@ cross with complete dominance.
 <summary>Problem 2: Data Analysis -- Gel Electrophoresis and PCR</summary>
 
 A PCR reaction amplifies a $1500\;\mathrm{bp}$ region of the human amelogenin gene, which has
-Different length alleles on the X and Y chromosomes ($1064\;\mathrm{bp}$ on X, $789\;\mathrm{bp}$ On
+different length alleles on the X and Y chromosomes ($1064\;\mathrm{bp}$ on X, $789\;\mathrm{bp}$ On
 Y). Three DNA samples are analysed by gel electrophoresis alongside a DNA ladder. (a) Describe The
 expected banding pattern for a male, a female, and a male with Klinefelter syndrome (XXY). (b)
 Explain how this test could be used in forensic sex determination. (c) Why would a DNA ladder with
-Bands at known sizes be essential for this analysis?
+bands at known sizes be essential for this analysis?
 
 </details>
 
@@ -832,7 +832,7 @@ concept Of metabolic pathways and how mutations in different enzymes can produce
 
 A researcher extracts DNA from a crime scene sample and uses quantitative PCR (qPCR) to determine
 the copy number of a specific STR locus. After $25$ cycles of qPCR, the fluorescence threshold is
-Reached at cycle $18$ for the standard ($1000$ copies) and at cycle $21$ for the crime scene sample.
+reached at cycle $18$ for the standard ($1000$ copies) and at cycle $21$ for the crime scene sample.
 Given that DNA quantity doubles each cycle, calculate the approximate number of copies in the crime
 Scene sample.
 
@@ -855,10 +855,10 @@ continuing gene therapy trials for SCID given the risk of leukaemia.
 
 A karyotype analysis reveals that a patient has $47$ chromosomes, with an extra copy of chromosome
 21 (trisomy 21, Down syndrome). (a) Explain the chromosomal nondisjunction event that produced this
-Karyotype, identifying the specific meiotic stage where it could have occurred. (b) The patient's
+karyotype, identifying the specific meiotic stage where it could have occurred. (b) The patient's
 Mother is $38$ years old. Explain the statistical relationship between maternal age and the risk of
-Trisomy 21. (c) Describe how non-invasive prenatal testing (NIPT) using cell-free fetal DNA in
-Maternal blood can detect this condition.
+trisomy 21. (c) Describe how non-invasive prenatal testing (NIPT) using cell-free fetal DNA in
+maternal blood can detect this condition.
 
 </details>
 
@@ -866,8 +866,8 @@ Maternal blood can detect this condition.
 <summary>Problem 7: Extended Response -- Genetic Modification and Biodiversity</summary>
 
 _Bt_ cotton has been genetically modified to express the _Bacillus thuringiensis_ toxin gene, which
-Produces a protein toxic to lepidopteran pests (cotton bollworm). (a) Describe the steps used to
-Create _Bt_ cotton using recombinant DNA technology. (b) Explain the concern that widespread
+produces a protein toxic to lepidopteran pests (cotton bollworm). (a) Describe the steps used to
+create _Bt_ cotton using recombinant DNA technology. (b) Explain the concern that widespread
 Planting of _Bt_ cotton could accelerate the evolution of pesticide-resistant insects, and propose A
 strategy to delay this. (c) Evaluate one ecological benefit and one ecological risk of _Bt_ cotton
 Compared with conventional pesticide application.
@@ -881,7 +881,7 @@ A student claims that a new variety of pea plant shows a 9:3:3:1 ratio for seed 
 They count $1600$ seeds and observe: $920$ round yellow, $290$ round green, $310$ wrinkled yellow,
 $80$ wrinkled green. (a) Perform a chi-squared test to evaluate this claim. (b) Identify the most
 Deviant phenotype class and propose a biological explanation for the deviation. (c) Explain how the
-Student could modify the experiment to increase confidence in their conclusion.
+student could modify the experiment to increase confidence in their conclusion.
 
 </details>
 
@@ -1141,11 +1141,11 @@ European Populations):
 <summary>Problem 9: Extended Response -- Genetic Counselling</summary>
 
 A couple has a family history of cystic fibrosis (CF). The husband's sister has CF. The wife has no
-Family history of CF. The population carrier frequency is $1$ in $25$. (a) Calculate the probability
+family history of CF. The population carrier frequency is $1$ in $25$. (a) Calculate the probability
 that the husband is a carrier. (b) Calculate the probability that their first child will have CF.
 (c) Explain why genetic counselling would recommend carrier testing for both individuals before
-Providing risk estimates. (d) Describe two prenatal diagnostic techniques that could be used if the
-Couple is at risk.
+providing risk estimates. (d) Describe two prenatal diagnostic techniques that could be used if the
+couple is at risk.
 
 </details>
 
@@ -1153,8 +1153,8 @@ Couple is at risk.
 <summary>Problem 10: Quantitative -- Hardy-Weinberg with Migration</summary>
 
 Island A has an allele frequency of $p = 0.8$ for a dominant trait. Island B has $p = 0.3$. Each
-Generation, $10\%$ of the population of Island A migrates to Island B, replacing $10\%$ of the
-Island B population (which dies or emigrates). Calculate the new allele frequency on Island B after
+generation, $10\%$ of the population of Island A migrates to Island B, replacing $10\%$ of the
+island B population (which dies or emigrates). Calculate the new allele frequency on Island B after
 one Generation of migration. Predict the allele frequency on Island B after many generations of
 continued Migration at this rate.
 
@@ -1164,7 +1164,7 @@ continued Migration at this rate.
 <summary>Problem 11: Extended Response -- Non-Disjunction and Karyotype Analysis</summary>
 
 A karyotype shows $47,XX,+13$ (Patau syndrome). (a) Explain the meiotic error that produced this
-Karyotype, identifying whether non-disjunction occurred in Meiosis I or Meiosis II. (b) Explain why
+karyotype, identifying whether non-disjunction occurred in Meiosis I or Meiosis II. (b) Explain why
 the mother's age is a significant risk factor for trisomy. (c) Compare and contrast the clinical
 Features of trisomy 13, trisomy 18, and trisomy 21. (d) Explain why Patau and Edwards syndromes Have
 much poorer prognoses than Down syndrome.
@@ -1175,10 +1175,10 @@ much poorer prognoses than Down syndrome.
 <summary>Problem 12: Data Analysis -- Epistasis and Biochemical Pathway</summary>
 
 In summer squash, fruit colour is controlled by two genes. Gene $W$ determines whether pigment is
-Produced ($W$ = pigment, $w$ = no pigment, white epistatic). Gene $Y$ determines colour when $W$ is
-Present ($Y$ = yellow, $y$ = green). A dihybrid cross ($WwYy \times WwYy$) produces: white = $412$
+produced ($W$ = pigment, $w$ = no pigment, white epistatic). Gene $Y$ determines colour when $W$ is
+present ($Y$ = yellow, $y$ = green). A dihybrid cross ($WwYy \times WwYy$) produces: white = $412$
 Yellow = $298$ Green = $96$ Total = $806$. (a) Perform a chi-squared test to determine whether the
-Data fit the expected $12:3:1$ epistatic ratio ($p = 0.05$ Critical value $= 5.99$ for $2$ df). (b)
+data fit the expected $12:3:1$ epistatic ratio ($p = 0.05$ Critical value $= 5.99$ for $2$ df). (b)
 Identify the most deviant phenotype class and propose an explanation. (c) Explain how this Epistatic
 interaction reflects the underlying biochemical pathway.
 
@@ -1209,7 +1209,7 @@ If Their first child is a daughter with haemophilia, what does this imply about 
 <summary>Solution</summary>
 
 (a) The woman's father had haemophilia ($X^hY$). He passed his $X^h$ chromosome to his daughter. The
-Woman is therefore $X^HX^h$ (carrier). She is phenotypically normal because the normal allele
+woman is therefore $X^HX^h$ (carrier). She is phenotypically normal because the normal allele
 ($X^H$) is dominant.
 
 (b) The woman ($X^HX^h$) $\times$ normal man ($X^HY$). Punnett square: | | $X^H$ | $Y$ |
@@ -1257,7 +1257,7 @@ Genotypic ratio: $1\;RR : 2\;Rr : 1\;rr$. Phenotypic ratio: $1$ red : $2$ pink :
 (c) Expected pink plants: $\frac{2}{4} \times 200 = 100$.
 
 (d) **Incomplete dominance**: the heterozygote has an intermediate phenotype (blend of the two
-Homozygous phenotypes). Example: snapdragon flower colour ($RR$ = red, $Rr$ = pink, $rr$ = white);
+homozygous phenotypes). Example: snapdragon flower colour ($RR$ = red, $Rr$ = pink, $rr$ = white);
 Human hair texture (curly $\times$ straight $=$ wavy).
 
 **Codominance**: the heterozygote expresses both alleles fully and simultaneously (both phenotypes
@@ -1272,7 +1272,7 @@ are Present in red blood cells, visible on electrophoresis as two bands).
 In pea plants, tall ($T$) is dominant over dwarf ($t$). A tall plant of unknown genotype is crossed
 with a dwarf plant. The cross produces $48$ tall and $52$ dwarf offspring. (a) What was the genotype
 of the tall parent? (b) Perform a chi-squared test to confirm that the observed ratio fits the
-Expected ratio ($p = 0.05$ Critical value $= 3.84$ for $1$ df). (c) Explain why a test cross is Used
+expected ratio ($p = 0.05$ Critical value $= 3.84$ for $1$ df). (c) Explain why a test cross is Used
 to determine unknown genotypes. (d) If the tall parent were homozygous ($TT$), what offspring Ratio
 would you expect?
 
@@ -1287,20 +1287,20 @@ $\chi^2 = \frac{(48 - 50)^2}{50} + \frac{(52 - 50)^2}{50} = \frac{4}{50} + \frac
 $\chi^2 = 0.16 < 3.84$. We fail to reject $H_0$. The data fit the expected $1:1$ ratio.
 
 (c) A test cross (crossing with a homozygous recessive individual, $tt$) reveals the genotype of the
-Unknown parent because the recessive parent can only contribute the recessive allele ($t$). If the
-Unknown parent is $TT$ All offspring are $Tt$ (tall). If the unknown parent is $Tt$ Approximately Half
+unknown parent because the recessive parent can only contribute the recessive allele ($t$). If the
+unknown parent is $TT$ All offspring are $Tt$ (tall). If the unknown parent is $Tt$ Approximately Half
 the offspring are $Tt$ (tall) and half are $tt$ (dwarf). The phenotype of the offspring directly
 Reveals the alleles contributed by the unknown parent.
 
 (d) If the tall parent were $TT$: $TT \times tt \to 100\%\;Tt$ (all tall). All offspring would be
-Phenotypically tall.
+phenotypically tall.
 
 </details>
 
 **Worked Example: Dihybrid Cross with Independent Assortment**
 
 In guinea pigs, black coat ($B$) is dominant over white ($b$), and short hair ($S$) is dominant over
-Long hair ($s$). Two double heterozygotes ($BbSs \times BbSs$) are crossed. (a) Give the expected
+long hair ($s$). Two double heterozygotes ($BbSs \times BbSs$) are crossed. (a) Give the expected
 Phenotypic ratio. (b) Calculate the probability of a black, short-haired guinea pig. (c) Calculate
 the probability of a black, long-haired guinea pig. (d) If $160$ offspring are produced, how many Of
 each phenotype are expected?
@@ -1331,9 +1331,9 @@ each phenotype are expected?
 **Worked Example: Meiosis and Gamete Diversity**
 
 A diploid organism has $2n = 8$ (4 pairs of homologous chromosomes). (a) Calculate the number of
-Possible gamete genotypes from independent assortment alone. (b) If crossing over occurs once in
+possible gamete genotypes from independent assortment alone. (b) If crossing over occurs once in
 each chromosome pair during prophase I, how does this affect genetic diversity? (c) Calculate the
-Number of possible combinations in a zygote formed from the fusion of two gametes. (d) Explain Why
+number of possible combinations in a zygote formed from the fusion of two gametes. (d) Explain Why
 meiosis is important for sexual reproduction.
 
 <details>
@@ -1353,7 +1353,7 @@ crossing over).
 
 (c) Number of zygote combinations: if one parent can produce $16$ gamete types (without crossing
 over) And the other can produce $16$ The number of possible zygotes is $16 \times 16 = 256$. With
-Crossing over, this number increases enormously.
+crossing over, this number increases enormously.
 
 (d) Meiosis is important for sexual reproduction because:
 
@@ -1498,7 +1498,7 @@ $= \frac{2}{3} \times \frac{1}{25} \times \frac{1}{4}$
 $= \frac{2}{300} = \frac{1}{150} \approx 0.67\%$
 
 (d) If the wife is confirmed NOT a carrier ($cc$ is ruled out), she cannot pass a $c$ allele to her
-Child. Even if the husband is a carrier, the child can be at most $Cc$ (carrier), not $cc$
+child. Even if the husband is a carrier, the child can be at most $Cc$ (carrier), not $cc$
 (affected). $P(\text{child affected}) = 0$.
 
 (There is a small residual risk if the wife carries a rare CF mutation not detected by the genetic
@@ -1513,7 +1513,7 @@ Genetically modified (GM) crops are widely cultivated in many countries but face
 in Others. (a) Describe the process of creating a herbicide-resistant GM soybean plant. (b) Discuss
 Three potential benefits of GM crops for food security. (c) Discuss three ecological concerns about
 GM crop cultivation. (d) Evaluate the argument that GM crops should be labelled, considering both
-Consumer rights and practical implications.
+consumer rights and practical implications.
 
 </details>
 
@@ -1660,8 +1660,8 @@ risk of Non-disjunction increases with maternal age.
 ### Metaphase I
 
 Bivalents align on the metaphase plate. Unlike mitosis (where individual chromosomes align), in
-Meiosis I, **bivalents align** with one homologue on each side of the plate. The orientation of each
-Bivalent is random with respect to which homologue faces which pole -- this is the basis of
+meiosis I, **bivalents align** with one homologue on each side of the plate. The orientation of each
+bivalent is random with respect to which homologue faces which pole -- this is the basis of
 **independent assortment**.
 
 ### Anaphase I
@@ -1674,8 +1674,8 @@ identical Due to crossing over.
 ### Telophase I and Cytokinesis
 
 Chromosomes arrive at the poles. In many organisms, the nuclear envelope reforms briefly before
-Meiosis II. Cytokinesis divides the cell into two haploid cells (each with $n$ chromosomes, but each
-Chromosome still has two chromatids).
+meiosis II. Cytokinesis divides the cell into two haploid cells (each with $n$ chromosomes, but each
+chromosome still has two chromatids).
 
 ### Meiosis II -- Similar to Mitosis
 
@@ -1731,9 +1731,9 @@ II) To separate properly. This produces gametes with an abnormal chromosome numb
   syndrome (XO), which is viable.
 
 Non-disjunction in Meiosis I vs Meiosis II can be distinguished by analysing the genotypes of the
-Parents and affected offspring (using linked markers or STR analysis). In Meiosis I non-disjunction,
+parents and affected offspring (using linked markers or STR analysis). In Meiosis I non-disjunction,
 The homologous chromosomes fail to separate, producing gametes with both homologues or neither. In
-Meiosis II non-disjunction, sister chromatids fail to separate, producing gametes with two identical
+meiosis II non-disjunction, sister chromatids fail to separate, producing gametes with two identical
 Copies or none.
 
 ### Worked Example: Non-Disjunction Probability
@@ -1747,8 +1747,8 @@ syndrome given That she has already had one affected child.
 <summary>Solution</summary>
 
 (a) Trisomy 21 results from non-disjunction of chromosome 21, producing an egg with two copies of
-Chromosome 21. When fertilised by a normal sperm (one copy of chromosome 21), the zygote has three
-Copies ($47,XX,+21$ or $47,XY,+21$). This can occur in either Meiosis I or Meiosis II of oogenesis
+chromosome 21. When fertilised by a normal sperm (one copy of chromosome 21), the zygote has three
+copies ($47,XX,+21$ or $47,XY,+21$). This can occur in either Meiosis I or Meiosis II of oogenesis
 (approximately $75\%$ of cases are Meiosis I errors).
 
 (b) The risk increases with maternal age because human oocytes begin meiosis during fetal
@@ -1791,7 +1791,7 @@ genetic predisposition To non-disjunction.
 ### Genetic Recombination Frequency and Mapping
 
 When two genes are on the same chromosome (linked), their recombination frequency reflects their
-Physical distance apart. This is the basis for genetic mapping:
+physical distance apart. This is the basis for genetic mapping:
 
 $$
 \text{Map distance (cM)} = \text{Recombination frequency (\%)}
@@ -1813,7 +1813,7 @@ $$
 ### Worked Example: Three-Point Cross Mapping
 
 Three genes (A, B, C) are on the same chromosome. A test cross between a triple heterozygote and a
-Triple recessive produces:
+triple recessive produces:
 
 <div class="table-wrap">
 
@@ -1873,7 +1873,7 @@ CoC $= 10 / 14.875 = 0.672$.
 
 Interference of $0.328$ means that approximately $33\%$ of expected double crossovers did not occur
 (crossover interference: a crossover in one interval reduces the probability of a crossover in the
-Adjacent interval).
+adjacent interval).
 
 </details>
 

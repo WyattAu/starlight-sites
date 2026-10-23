@@ -84,7 +84,7 @@ $\pm 3.403 \times 10^{38}$.
 ### Precision
 
 With 23 explicit mantissa bits plus 1 implicit bit, the significand has 24 bits of precision. This
-Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of precision.
+gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of precision.
 
 ### Special Values
 
@@ -396,7 +396,7 @@ Write $0.2$ as a fraction in lowest terms. Apply the same argument used for $0.1
 $0.2 = \frac{2}{10} = \frac{1}{5}$
 
 For a finite binary expansion, the denominator must divide a power of 2 when the fraction is in
-Lowest terms. Since $5$ is prime and does not divide any power of $2$$1/5$ has no finite binary
+lowest terms. Since $5$ is prime and does not divide any power of $2$$1/5$ has no finite binary
 Representation. $\square$
 
 </details>
@@ -442,7 +442,7 @@ Use implicit leading 0 and fixed exponent $-126$.
 
 Without denormalised numbers, there would be a sudden jump from the smallest normalised number
 ($\approx 1.18 \times 10^{-38}$) to zero. Any computation producing a result smaller than this
-Threshold would "flush to zero," losing all precision. Denormalised numbers provide a gradual
+threshold would "flush to zero," losing all precision. Denormalised numbers provide a gradual
 Transition, maintaining relative precision longer.
 
 </details>
@@ -747,15 +747,15 @@ Are the results different?
 <summary>Answer</summary>
 
 `1.0 / 0.0` produces $+\infty$. This represents mathematical division where a non-zero quantity is
-Divided by zero, the result tends to infinity.
+divided by zero, the result tends to infinity.
 
 `0.0 / 0.0` produces NaN. This represents an indeterminate form: the limit depends on how both
-Numerator and denominator approach zero (e.g., $\lim_{x \to 0} x/x = 1$ but
+numerator and denominator approach zero (e.g., $\lim_{x \to 0} x/x = 1$ but
 $\lim_{x \to 0} 2x/x = 2$). Since the result is not uniquely determined, IEEE 754 returns NaN.
 
 The distinction is important because $+\infty$ can participate meaningfully in further arithmetic
 (e.g., $1 / \infty = 0$), while NaN propagates through all operations, signalling that the result is
-Invalid.
+invalid.
 
 </details>
 

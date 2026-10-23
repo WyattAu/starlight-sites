@@ -302,7 +302,7 @@ Sentinel.
 ## 6. Sentinel Nodes
 
 A **sentinel node** (dummy node) is a node placed at the head or tail of the list that does not
-Contain meaningful data. It eliminates edge cases (empty list, single element).
+contain meaningful data. It eliminates edge cases (empty list, single element).
 
 ```python
 def insert_sorted_with_sentinel(sentinel, value):
@@ -355,7 +355,7 @@ def reverse(head):
 **Correctness proof (invariant):** At the start of each iteration, `prev` points to the reversed
 Portion of the list, and `current` points to the remaining unprocessed portion. The loop processes
 each node exactly once, redirecting its `next` to point to the previously processed node. After
-Processing all $n$ nodes, `prev` points to the head of the fully reversed list. $\square$
+processing all $n$ nodes, `prev` points to the head of the fully reversed list. $\square$
 
 </details>
 
@@ -370,7 +370,7 @@ In a singly linked list, to delete the last node you need to modify the `next` p
 Which takes $O(n)$.
 
 In a doubly linked list with a tail pointer, the last node has a `prev` pointer directly to the
-Second-to-last node. You can access it in $O(1)$ and update both pointers.
+second-to-last node. You can access it in $O(1)$ and update both pointers.
 
 </details>
 
@@ -447,7 +447,7 @@ def has_cycle(head):
 
 **Floyd's Tortoise and Hare algorithm.** `slow` advances by 1, `fast` by 2. If a cycle exists, both
 Pointers eventually enter the cycle, and `fast` gains on `slow` by 1 per step. Since the cycle has
-Finite length, `fast` must eventually equal `slow`. Time: $O(n)$ Space: $O(1)$.
+finite length, `fast` must eventually equal `slow`. Time: $O(n)$ Space: $O(1)$.
 
 </details>
 
@@ -463,7 +463,7 @@ A sentinel node eliminates special-case handling for:
 - Edge cases in sorted insertion
 
 Without a sentinel, every insertion and deletion function must check if the list is empty or if the
-Operation affects the head. The sentinel ensures that the "node before" always exists, simplifying
+operation affects the head. The sentinel ensures that the "node before" always exists, simplifying
 the code and reducing bug potential.
 
 </details>
@@ -633,7 +633,7 @@ Final list: 15, 10, 30.
 
 **Problem 4.** Given the singly linked list `head → [5|•] → [12|•] → [3|•] → [8|•] → None`Trace The
 `search` function looking for the value 3. How many nodes are visited? Repeat for searching for
-Value 9.
+value 9.
 
 <details>
 <summary>Hint</summary>
@@ -652,7 +652,7 @@ The search function starts at the head and visits each node sequentially, compar
 - Visit node 3: data = 3, 3 = 3 → found at index 2
 
 Nodes visited: **3**. Best case would be 1 (value at head), worst case is 4 (value at tail or
-Absent).
+absent).
 
 **Searching for 9:**
 
@@ -693,7 +693,7 @@ whether you can go backwards in a singly linked list.
 </div>
 
 Where $d$ is data size and $p$ is pointer size. The doubly linked list uses more memory per node (an
-Extra pointer) but provides $O(1)$ insertion before and deletion of a known node.
+extra pointer) but provides $O(1)$ insertion before and deletion of a known node.
 
 </details>
 
@@ -715,8 +715,8 @@ Efficiently.
 A **doubly linked list** is the better choice.
 
 The "skip backward" operation requires moving from the current song to the previous song. In a
-Singly linked list, there is no `prev` pointer, so going backward would require traversing from the
-Head, $O(n)$ per backward skip. In a doubly linked list, `current.prev` gives the previous song in
+singly linked list, there is no `prev` pointer, so going backward would require traversing from the
+head, $O(n)$ per backward skip. In a doubly linked list, `current.prev` gives the previous song in
 $O(1)$.
 
 Other operations:
@@ -732,7 +732,7 @@ would make backward skipping $O(n)$.
 
 **Problem 7.** Each node in a singly linked list contains a 4-byte integer and one pointer (8 bytes
 On a 64-bit system). What is the total memory used by a list of 50 nodes? What percentage of the
-Memory is used for data versus pointers? Compare this to a static array of 50 integers.
+memory is used for data versus pointers? Compare this to a static array of 50 integers.
 
 <details>
 <summary>Hint</summary>
@@ -775,12 +775,12 @@ many insertions and deletions.
 
 Each linked list node is allocated individually on the heap using `malloc`/`new`. The memory
 Allocator places each node wherever free space is available, which may be scattered throughout the
-Heap. After many insertions and deletions, the heap becomes fragmented: small blocks of free memory
+heap. After many insertions and deletions, the heap becomes fragmented: small blocks of free memory
 are interspersed with allocated blocks. Even if total free memory is sufficient, no single
 Contiguous block may be large enough for a new allocation.
 
 Arrays, by contrast, are stored in a single contiguous block. A static array is allocated once and
-Stays in place. A dynamic array allocates a new contiguous block when resizing and frees the old
+stays in place. A dynamic array allocates a new contiguous block when resizing and frees the old
 one. This means array access benefits from spatial locality (cache-friendly), while linked list
 Access causes cache misses because nodes are scattered.
 
@@ -829,7 +829,7 @@ Time complexity: $O(1)$, no traversal needed because the tail pointer is availab
 
 **Problem 10.** (Exam-style) A hospital's A&E department needs a data structure to manage patient
 Records. Patients arrive and are added to the end of the queue. Patients are seen by a doctor and
-Removed from the front. Occasionally, a patient's condition deteriorates and they must be moved to
+removed from the front. Occasionally, a patient's condition deteriorates and they must be moved to
 the front of the queue immediately. Evaluate whether a singly linked list or a dynamic array would
 be more appropriate. Discuss the time complexity of each required operation for both data
 Structures.
@@ -838,7 +838,7 @@ Structures.
 <summary>Hint</summary>
 
 Focus on the three key operations: add to end, remove from front, and move to front. Consider which
-Data structure supports each operation most efficiently.
+data structure supports each operation most efficiently.
 
 </details>
 

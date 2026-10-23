@@ -20,7 +20,7 @@ categories: [DSE, Biology]
 ### Balanced Diet
 
 A balanced diet provides all essential nutrients in the correct proportions to maintain health. The
-Seven classes of food are:
+seven classes of food are:
 
 <div class="table-wrap">
 
@@ -300,7 +300,7 @@ Area.
 ### Egestion
 
 Faeces consist of undigested food (mainly dietary fibre), dead cells, bacteria, bile pigments, and
-Water.
+water.
 
 ---
 
@@ -488,7 +488,7 @@ Valves open and close due to pressure differences. They ensure one-way blood flo
 
 The left ventricle pumps blood to the entire body (systemic circulation) against high resistance, so
 it needs to generate much higher pressure than the right ventricle, which only pumps blood to the
-Nearby lungs (pulmonary circulation).
+nearby lungs (pulmonary circulation).
 
 ### Cardiac Cycle
 
@@ -617,7 +617,7 @@ Oxygen dissociates from haemoglobin (unloading).
 ### The Oxygen Dissociation Curve
 
 The oxygen dissociation curve is an S-shaped (sigmoid) curve showing the relationship between the
-Partial pressure of oxygen ($pO_2$) and the percentage saturation of haemoglobin.
+partial pressure of oxygen ($pO_2$) and the percentage saturation of haemoglobin.
 
 $$
 \mathrm{Percentage saturation of Hb vs } pO_2
@@ -869,7 +869,7 @@ the permeability of the membrane to K$^+$.
 
 **Propagation:** The action potential travels along the axon. In myelinated neurons, it jumps
 Between Nodes of Ranvier (saltatory conduction), which is faster than continuous conduction in
-Unmyelinated neurons.
+unmyelinated neurons.
 
 ### Synapses
 
@@ -1059,7 +1059,7 @@ The skin contains various sensory receptors:
 ### The Endocrine System
 
 The endocrine system consists of endocrine glands that secrete **hormones** directly into the
-Bloodstream. Hormones are chemical messengers that travel in the blood to target organs.
+bloodstream. Hormones are chemical messengers that travel in the blood to target organs.
 
 ### Comparison: Nervous vs Hormonal Coordination
 

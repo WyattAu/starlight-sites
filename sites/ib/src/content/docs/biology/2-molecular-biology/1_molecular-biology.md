@@ -34,7 +34,7 @@ is approximately $104.5^\circ$.
 
 The polarity gives rise to **hydrogen bonding** between water molecules: the $\delta+$ hydrogen of
 one molecule is attracted to the $\delta-$ oxygen of another. Each water molecule can form up to
-Four hydrogen bonds.
+four hydrogen bonds.
 
 ### Properties Arising from Hydrogen Bonding
 
@@ -86,7 +86,7 @@ The simplest carbohydrates; single sugar units. Examples: glucose
 ### Disaccharides
 
 Formed by a **condensation reaction** (dehydration synthesis): two monosaccharides join with the
-Release of $\mathrm{H}_2\mathrm{O}$. Broken by **hydrolysis**.
+release of $\mathrm{H}_2\mathrm{O}$. Broken by **hydrolysis**.
 
 <div class="table-wrap">
 
@@ -234,7 +234,7 @@ Energy** ($E_a$) of a reaction without being consumed.
 Transition state and form products.
 
 Enzymes are specific: each enzyme catalyses a specific reaction or set of reactions due to the
-Complementary shape of its **active site** to its **substrate**.
+complementary shape of its **active site** to its **substrate**.
 
 ### Lock-and-Key vs Induced Fit Model
 
@@ -338,7 +338,7 @@ Molecule consists of one original ("parental") strand and one newly synthesised 
 ### The Replication Process
 
 Replication occurs during the **S phase** of the cell cycle. It is **semi-discontinuous**: the
-Leading strand is synthesised continuously; the lagging strand is synthesised in short fragments
+leading strand is synthesised continuously; the lagging strand is synthesised in short fragments
 (**Okazaki fragments**).
 
 1. **Helicase** unwinds and separates the double helix at the **origin of replication**, forming a
@@ -416,7 +416,7 @@ The primary transcript (**pre-mRNA**) undergoes processing:
 ### Overview
 
 Translation is the synthesis of a polypeptide chain from mRNA at the **ribosome**. It occurs in the
-Cytoplasm (or on the RER for secreted proteins).
+cytoplasm (or on the RER for secreted proteins).
 
 ### The Genetic Code
 
@@ -490,7 +490,7 @@ A single mRNA can be translated simultaneously by multiple ribosomes, forming a 
 
 A student tests a solution containing sucrose with Benedict's reagent. The solution remains blue.
 The student then boils the sucrose solution with dilute hydrochloric acid, neutralises it, and
-Repeats the test. The solution turns brick-red. Explain these observations.
+repeats the test. The solution turns brick-red. Explain these observations.
 
 </details>
 
@@ -511,7 +511,7 @@ Benedict's reagent, producing a brick-red precipitate of $\mathrm{Cu}_2\mathrm{O
 <summary>Question 2: Enzyme Kinetics Graph</summary>
 
 An enzyme has $V_{\max} = 40\;\mathrm{\mu mol\;min^{-1}}$ and $K_m = 5\;\mathrm{mM}$. Calculate the
-Reaction rate when the substrate concentration is $15\;\mathrm{mM}$.
+reaction rate when the substrate concentration is $15\;\mathrm{mM}$.
 
 </details>
 
@@ -614,7 +614,7 @@ A student measures the absorbance of a DNA solution at $260\;\mathrm{nm}$ using 
 and obtains a reading of $0.40$. Using the relationship that an absorbance of $1.0$ corresponds to
 $50\;\mathrm{\mu g/mL}$ of double-stranded DNA, calculate the DNA concentration and the total mass
 of DNA in a $500\;\mathrm{\mu L}$ sample. Also, the absorbance at $280\;\mathrm{nm}$ is $0.22$.
-Calculate the $A_{260}/A_{280}$ ratio and assess the purity.
+calculate the $A_{260}/A_{280}$ ratio and assess the purity.
 
 <details>
 <summary>Solution</summary>
@@ -636,7 +636,7 @@ $260\;\mathrm{nm}$). This sample is within the acceptable range.
 **Worked Example: Michaelis-Menten Kinetics and Competitive Inhibition**
 
 An enzyme has $V_{\max} = 50\;\mathrm{\mu mol/min}$ and $K_m = 10\;\mathrm{mM}$ in the absence of
-Inhibitor. A competitive inhibitor is added at a concentration that doubles the apparent $K_m$.
+inhibitor. A competitive inhibitor is added at a concentration that doubles the apparent $K_m$.
 Calculate the reaction velocity at $[S] = 10\;\mathrm{mM}$ with and without the inhibitor. At what
 Substrate concentration does the inhibited reaction reach $90\%$ of $V_{\max}$?
 
@@ -657,8 +657,8 @@ $0.9(K_m^{\mathrm{app}} + [S]) = [S]$ $0.9 K_m^{\mathrm{app}} + 0.9[S] = [S]$
 $0.1[S] = 0.9 K_m^{\mathrm{app}}$ $[S] = 9 K_m^{\mathrm{app}} = 9 \times 20 = 180\;\mathrm{mM}$
 
 At very high substrate concentrations ($[S] \gg K_m^{\mathrm{app}}$), the competitive inhibitor is
-Outcompeted and the enzyme reaches the same $V_{\max}$ as the uninhibited reaction. This is the
-Defining characteristic of competitive inhibition.
+outcompeted and the enzyme reaches the same $V_{\max}$ as the uninhibited reaction. This is the
+defining characteristic of competitive inhibition.
 
 </details>
 
@@ -687,7 +687,7 @@ Could form: (a) a disulfide bridge, (b) an ionic bond, (c) a hydrogen bond with 
 
 (a) **Disulfide bridge**: Cys (cysteine). Two cysteine residues can form a covalent disulfide bond
 ($-\mathrm{S}-\mathrm{S}-$) through oxidation of their thiol groups, stabilising tertiary and
-Quaternary structure.
+quaternary structure.
 
 (b) **Ionic bond**: Glu and Lys. The carboxylate group of Glu ($-\mathrm{COO}^-$) and the amino
 Group of Lys ($-\mathrm{NH}_3^+$) can form an electrostatic (ionic) interaction at physiological pH.
@@ -701,7 +701,7 @@ Residues (Val, Ala, Pro, Phe) tend to be buried in the protein interior, away fr
 **Worked Example: Transcription and Translation -- Determining Gene Length**
 
 A protein consists of $400$ amino acids. The coding region of the gene includes $5$ exons and $4$
-Introns. The average intron length is $800\;\mathrm{bp}$ and the average exon length is
+introns. The average intron length is $800\;\mathrm{bp}$ and the average exon length is
 $300\;\mathrm{bp}$. Calculate the length of the mature mRNA (excluding $5'$ cap and $3'$ poly-A
 tail) And the total length of the pre-mRNA.
 
@@ -717,7 +717,7 @@ Sequence. The additional $300\;\mathrm{bp}$ in the exons are the $5'$ and $3'$ u
 **Pre-mRNA length** (exons + introns): $1500 + (4 \times 800) = 1500 + 3200 = 4700\;\mathrm{bp}$
 
 The introns constitute $\frac{3200}{4700} \approx 68\%$ of the pre-mRNA. This is typical of
-Eukaryotic genes, which often have more intronic DNA than coding DNA. In humans, the average gene
+eukaryotic genes, which often have more intronic DNA than coding DNA. In humans, the average gene
 Spans approximately $27000\;\mathrm{bp}$ but the average coding sequence is only about
 $1400\;\mathrm{bp}$.
 
@@ -791,7 +791,7 @@ $\mathrm{\mu mol/min}$) at different temperatures:
 </div>
 
 (a) Plot the data and identify the optimum temperature. (b) Explain the molecular basis for the
-Increase in rate from $10$ to $37^\circ\mathrm{C}$ and the decrease from $37$ to
+increase in rate from $10$ to $37^\circ\mathrm{C}$ and the decrease from $37$ to
 $65^\circ\mathrm{C}$. (c) A student claims that catalase from a thermophilic bacterium would show
 the same optimum Temperature. Evaluate this claim.
 
@@ -802,7 +802,7 @@ the same optimum Temperature. Evaluate this claim.
 
 DNA polymerase has a .../1-number-and-algebra/3_proof-and-logicreading ($3' \to 5'$ exonuclease)
 activity that reduces the error rate to Approximately $10^{-9}$ per base pair per replication. (a)
-Explain how .../1-number-and-algebra/3_proof-and-logicreading works at the Molecular level. (b)
+explain how .../1-number-and-algebra/3_proof-and-logicreading works at the Molecular level. (b)
 Calculate the expected number of errors per replication of the human genome
 ($3.2 \times 10^9\;\mathrm{bp}$) with and without .../1-number-and-algebra/3_proof-and-logicreading
 (error rate without .../1-number-and-algebra/3_proof-and-logicreading $\approx 10^{-5}$). (c)
@@ -815,7 +815,7 @@ Describe the role of mismatch repair enzymes in correcting errors that Escape
 <summary>Problem 3: Quantitative -- Carbohydrate Identification Tests</summary>
 
 A student performs biochemical tests on four unknown solutions (W, X, Y, Z) and records the
-Following results: (i) Benedict's test: W = brick-red, X = blue, Y = blue (after acid hydrolysis:
+following results: (i) Benedict's test: W = brick-red, X = blue, Y = blue (after acid hydrolysis:
 Brick-red), Z = blue; (ii) Iodine test: W = blue-black, X = yellow-brown, Y = orange-brown, Z =
 Blue-black; (iii) Biuret test: all negative. Identify the most likely carbohydrate in each solution
 and explain your reasoning.
@@ -838,11 +838,11 @@ is often irreversible.
 <summary>Problem 5: Extended Response -- Central Dogma and One Gene-One Polypeptide</summary>
 
 The central dogma of molecular biology states: DNA $\to$ RNA $\to$ Protein. (a) Describe the
-Processes of transcription and translation, indicating where each occurs in a eukaryotic cell. (b)
+processes of transcription and translation, indicating where each occurs in a eukaryotic cell. (b)
 Evaluate the "one gene -- one polypeptide" hypothesis in light of alternative splicing and
-Post-translational modifications. Provide a specific example of how one gene can produce multiple
+post-translational modifications. Provide a specific example of how one gene can produce multiple
 Protein products. (c) Identify two exceptions to the central dogma (e.g., reverse transcription) and
-Name the enzymes involved.
+name the enzymes involved.
 
 </details>
 
@@ -863,7 +863,7 @@ Four DNA samples from different species are analysed for base composition:
 </div>
 
 (a) Verify Chargaff's rules for the first three species. (b) Identify the anomaly in Sample X and
-Explain what this suggests about the DNA in this sample. (c) Explain why the GC content varies
+explain what this suggests about the DNA in this sample. (c) Explain why the GC content varies
 between species and discuss its relevance to DNA melting temperature.
 
 </details>
@@ -872,7 +872,7 @@ between species and discuss its relevance to DNA melting temperature.
 <summary>Problem 7: Extended Response -- Enzyme Inhibition and Drug Design</summary>
 
 Statins are drugs that competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in
-Cholesterol biosynthesis. (a) Explain the mechanism of competitive inhibition and predict the effect
+cholesterol biosynthesis. (a) Explain the mechanism of competitive inhibition and predict the effect
 of increasing dietary cholesterol on the efficacy of statins. (b) Describe how structural
 Similarities between the statin molecule and the enzyme's natural substrate enable competitive
 Inhibition. (c) Explain why statins are taken at night, relating this to the diurnal Rhythm of
@@ -886,7 +886,7 @@ cholesterol synthesis.
 The specific heat capacity of water is $4.18\;\mathrm{J/(g \cdot ^\circ C)}$. A $75\;\mathrm{kg}$
 Runner produces heat at a rate of $1200\;\mathrm{W}$ during exercise. Assuming $80\%$ of this heat
 is removed by sweating (latent heat of vaporisation of water $= 2260\;\mathrm{J/g}$) and the
-Remaining $20\%$ is absorbed by body tissues (specific heat capacity of body tissue $\approx$
+remaining $20\%$ is absorbed by body tissues (specific heat capacity of body tissue $\approx$
 $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporated per minute, and
 (b) the rate of body temperature increase if sweating were completely prevented.
 
@@ -931,8 +931,8 @@ $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporat
 ### Water as a Temperature Buffer
 
 The high specific heat capacity of water ($4.18\;\mathrm{J\;g^{-1}\;^\circ C^{-1}}$) is due to
-Hydrogen bonding: energy input must overcome hydrogen bonds before the kinetic energy (and thus
-Temperature) of water molecules can increase.
+hydrogen bonding: energy input must overcome hydrogen bonds before the kinetic energy (and thus
+temperature) of water molecules can increase.
 
 **Biological significance:**
 
@@ -963,7 +963,7 @@ than in liquid water.
 
 **Significance:** ice floats on water, insulating the liquid below and allowing aquatic organisms to
 Survive beneath frozen surfaces in winter. If ice sank, lakes and oceans would freeze from the
-Bottom up, killing most aquatic life.
+bottom up, killing most aquatic life.
 
 ### Osmotic Quantitative Problems
 
@@ -1201,7 +1201,7 @@ in bacterial peptidoglycan. (a) Explain how the tertiary and quaternary structur
 Contributes to its function, referring to the roles of specific amino acid residues in the active
 Site. (b) Explain why lysozyme is effective against Gram-positive bacteria but less so against
 Gram-negative bacteria. (c) If the pH of a solution containing lysozyme is raised from 5.0 to 8.0,
-Predict the effect on enzyme activity and explain the molecular basis for this change.
+predict the effect on enzyme activity and explain the molecular basis for this change.
 
 </details>
 
@@ -1265,8 +1265,8 @@ A protein has the following amino acid sequence at its N-terminus:
 Met-Ala-Glu-Lys-Leu-Val-Pro-Phe-Arg-Ser-Cys
 
 (a) Identify the amino acids that are: hydrophobic, hydrophilic, acidic, basic, and those that can
-Form disulphide bonds. (b) At pH 7.4, which amino acids will be positively charged and which will be
-Negatively charged? (c) Predict the likely secondary structure of the sequence Ala-Leu-Val-Pro-Phe.
+form disulphide bonds. (b) At pH 7.4, which amino acids will be positively charged and which will be
+negatively charged? (c) Predict the likely secondary structure of the sequence Ala-Leu-Val-Pro-Phe.
 (d) Explain how the sequence Glu-Lys might affect protein folding through Ionic interactions.
 
 <details>
@@ -1338,9 +1338,9 @@ times). This is because the uncatalysed reaction also speeds up with temperature
 dependence on $T$), Partially closing the gap.
 
 (c) The rate enhancement is a ratio because it represents how many times faster the enzyme makes the
-Reaction compared to no enzyme, at the same temperature. It is dimensionless and independent of the
-Absolute reaction rate, the enzyme concentration, and the substrate concentration (as long as the
-Enzyme is operating under $V_{max}$ conditions).
+reaction compared to no enzyme, at the same temperature. It is dimensionless and independent of the
+absolute reaction rate, the enzyme concentration, and the substrate concentration (as long as the
+enzyme is operating under $V_{max}$ conditions).
 
 (d) The enzyme lowers the activation energy by:
 
@@ -1361,9 +1361,9 @@ Enzyme is operating under $V_{max}$ conditions).
 **Worked Example: DNA and RNA Comparison**
 
 (a) A double-stranded DNA molecule has $2400$ base pairs and is $42\%$ GC. Calculate the number of
-Hydrogen bonds and the length of the DNA molecule. (b) If this DNA is transcribed into mRNA and the
+hydrogen bonds and the length of the DNA molecule. (b) If this DNA is transcribed into mRNA and the
 MRNA is $2100$ nucleotides long, how many introns were present and what was the total length of the
-Introns? (c) The mRNA is translated. How many amino acids are in the resulting protein (excluding
+introns? (c) The mRNA is translated. How many amino acids are in the resulting protein (excluding
 the stop codon)? (d) Explain why RNA is less stable than DNA and how this affects its biological
 Function.
 
@@ -1420,7 +1420,7 @@ Inhibitor at $2.0\;\mathrm{mM}$ gives $K_m^{app} = 15.0\;\mathrm{mM}$, $V_{max}^
 non-competitive inhibitor at $5.0\;\mathrm{mM}$ gives $K_m^{app} = 5.0\;\mathrm{mM}$
 $V_{max}^{app} = 50$. (a) Sketch the Michaelis-Menten curves for all three conditions. (b) Calculate
 the initial velocity ($v$) at $[S] = 5.0\;\mathrm{mM}$ for each condition. (c) Calculate the
-Substrate concentration needed to reach $50\%$ of $V_{max}$ in each condition.
+substrate concentration needed to reach $50\%$ of $V_{max}$ in each condition.
 
 <details>
 <summary>Solution</summary>
@@ -1462,7 +1462,7 @@ inhibition can be overcome by Increasing $[S]$ But non-competitive cannot.
 **Worked Example: Water Properties and Biological Significance**
 
 (a) Explain why water has a high specific heat capacity ($4.18\;\mathrm{J/(g \cdot ^\circ C)}$) and
-Why this is important for organisms. (b) Calculate the energy required to raise the temperature of
+why this is important for organisms. (b) Calculate the energy required to raise the temperature of
 $70\;\mathrm{kg}$ of water (human body) by $1^\circ\mathrm{C}$. (c) Explain why ice floats on water
 and why this is ecologically significant. (d) Explain the role of water as a solvent for biological
 Molecules, distinguishing between hydrophilic and hydrophobic substances.
@@ -1471,10 +1471,10 @@ Molecules, distinguishing between hydrophilic and hydrophobic substances.
 <summary>Solution</summary>
 
 (a) Water has a high specific heat capacity because of **hydrogen bonding**: energy input must first
-Break hydrogen bonds between water molecules before the kinetic energy (temperature) of individual
+break hydrogen bonds between water molecules before the kinetic energy (temperature) of individual
 Molecules can increase. This means water absorbs a large amount of heat energy with only a small
 Temperature change. Biological significance: water buffers temperature changes in organisms and
-Environments (oceans, large lakes), providing thermal stability for biochemical reactions.
+environments (oceans, large lakes), providing thermal stability for biochemical reactions.
 
 (b)
 $Q = mc\Delta T = 70000\;\mathrm{g} \times 4.18\;\mathrm{J/(g \cdot ^\circ C)} \times 1^\circ\mathrm{C} = 292\,600\;\mathrm{J} = 292.6\;\mathrm{kJ}$.
@@ -1593,7 +1593,7 @@ Refold correctly because: (1) the denatured state has many possible conformation
 one may not be found within a reasonable time (kinetic trapping); (2) disulphide bonds may form
 Incorrectly; (3) aggregation may occur (exposed hydrophobic groups of multiple unfolded proteins
 Stick together irreversibly); (4) chaperone proteins (normally present in the cell) are absent in
-Vitro.
+vitro.
 
 (d) Denaturation disrupts the secondary, tertiary, and quaternary structure of the enzyme,
 destroying The precise 3D arrangement of the active site. Without the correct active site geometry,
@@ -1670,7 +1670,7 @@ helical Structure with bonds accessible to the enzyme active site.
 
 Humans do not produce **cellulase** or **chitinase**, the enzymes needed to hydrolyse $\beta$-1,4
 Glycosidic bonds. The $\beta$ configuration creates linear, tightly packed chains (in cellulose) or
-Chains with bulky N-acetyl groups (in chitin) that are inaccessible to human digestive enzymes.
+chains with bulky N-acetyl groups (in chitin) that are inaccessible to human digestive enzymes.
 Cellulose and chitin pass through the digestive system as dietary fibre (insoluble fibre).
 
 Ruminants (cows, sheep) and termites can digest cellulose because they harbour symbiotic
@@ -1835,7 +1835,7 @@ $1500$). Disease allele: single fragment of $3001\;\mathrm{bp}$ (3000 bp gene + 
 - If the patient is heterozygous: 3 bands at $3001$$1500$ And $1500\;\mathrm{bp}$.
 
 This is a simple form of RFLP analysis. In practice, PCR amplification of the region followed by
-Restriction digestion (PCR-RFLP) is more commonly used for diagnostic testing, as it requires less
+restriction digestion (PCR-RFLP) is more commonly used for diagnostic testing, as it requires less
 DNA and is faster.
 
 </details>

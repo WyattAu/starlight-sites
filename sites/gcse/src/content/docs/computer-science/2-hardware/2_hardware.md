@@ -45,13 +45,13 @@ Instructions.
 
 **The ALU in detail.** The ALU is the part of the CPU that performs actual computation. Given two
 Binary inputs and an operation code (from the control unit), it produces a result and a set of
-Status flags (zero, negative, carry, overflow). For example, given inputs 0110 and 0011 with an
+status flags (zero, negative, carry, overflow). For example, given inputs 0110 and 0011 with an
 "add" operation, the ALU outputs 1001 with a zero flag of 0 (result is non-zero).
 
 **The Control Unit in detail.** The CU does not perform computation itself. Instead, it sends
 Control signals to other components: it tells the memory which address to read or write, tells the
 ALU which operation to perform, and tells the registers when to load or store values. It is the
-Conductor of the CPU orchestra.
+conductor of the CPU orchestra.
 
 ### 1.2 Registers
 
@@ -121,7 +121,7 @@ The **Von Neumann architecture** is the standard model for most computers:
 **The stored program concept.** Before Von Neumann, computers were rewired for each new program. Von
 Neumann's key insight was that programs and data could both be stored in the same memory, and the
 CPU could read instructions from memory just as it reads data. This means you can change what a
-Computer does by changing the contents of its memory -- no rewiring required.
+computer does by changing the contents of its memory -- no rewiring required.
 
 **Von Neumann bottleneck.** Because instructions and data share the same bus, the CPU cannot fetch
 An instruction and read/write data simultaneously. This limits performance. Modern processors
@@ -196,7 +196,7 @@ so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
-Operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
+operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
 
 **Dynamic RAM (DRAM) vs Static RAM (SRAM):**
 
@@ -232,7 +232,7 @@ That relies heavily on virtual memory will run noticeably slower.
 
 **Page fault:** Occurs when the CPU tries to access data that has been moved from RAM to virtual
 Memory (the hard drive). The OS must swap the required page back into RAM, which takes thousands of
-Times longer than a RAM access.
+times longer than a RAM access.
 
 **Worked Example.** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
 Operating system allocates 8 GB to RAM and uses 4 GB of virtual memory on the SSD. When a program
@@ -241,7 +241,7 @@ into RAM, potentially moving a less-used page from RAM to the SSD.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
-Solution is to close some programs or add more physical RAM.
+solution is to close some programs or add more physical RAM.
 
 ### 2.4 Cache Memory
 
@@ -266,7 +266,7 @@ Used instructions and data so the CPU does not have to wait for slower RAM acces
 
 **Why caching works:** Programs tend to access the same data repeatedly (temporal locality) and
 Access data near recently accessed data (spatial locality). Caching exploits these patterns to
-Dramatically reduce average memory access time.
+dramatically reduce average memory access time.
 
 **Worked Example.** If a CPU has a 90% cache hit rate, L1 cache access time is 1 ns, and RAM access
 Time is 100 ns, what is the average memory access time?
@@ -378,7 +378,7 @@ OS frees that memory. The OS also handles virtual memory by swapping pages betwe
 
 **Processor scheduling.** When multiple programs are running, the OS allocates CPU time to each
 Program using a scheduling algorithm (round-robin, priority-based, etc.). This gives the illusion of
-Multitasking even on a single-core CPU.
+multitasking even on a single-core CPU.
 
 **Common scheduling algorithms:**
 
@@ -463,7 +463,7 @@ it can actually reduce their lifespan.
 ## 5. Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -500,12 +500,12 @@ Specific function.
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ### 1.6 Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -528,7 +528,7 @@ Specific function.
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ### 1.7 Instruction Set and Machine Code (Higher Tier)
 
@@ -614,7 +614,7 @@ so it persists after power off.
 
 **ROM (Read Only Memory):** ROM contains the BIOS (Basic Input/Output System), which is the first
 Code the CPU executes when the computer is powered on. The BIOS initialises hardware and loads the
-Operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
+operating system from disk into RAM. ROM is non-volatile so the computer can always start up.
 
 **Dynamic RAM (DRAM) vs Static RAM (SRAM):**
 
@@ -634,11 +634,11 @@ When RAM is full, the operating system uses a section of the hard drive as addit
 
 **Page fault:** Occurs when the CPU tries to access data that has been moved from RAM to virtual
 Memory (the hard drive). The OS must swap the required page back into RAM, which takes thousands of
-Times longer than a RAM access.
+times longer than a RAM access.
 
 **Thrashing.** If too many programs are running and the system spends more time swapping pages than
 Executing instructions, the system becomes extremely slow. This condition is called thrashing. The
-Solution is to close some programs or add more physical RAM.
+solution is to close some programs or add more physical RAM.
 
 ### 2.4 Flash Memory
 
@@ -653,7 +653,7 @@ This is tens of thousands of cycles, far exceeding normal use).
 ## 5. Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:**
 
@@ -690,7 +690,7 @@ Specific function.
 **Worked Example.** A traffic light controller is an embedded system. It runs a fixed program stored
 In ROM that cycles through red, amber, and green at set intervals. It has no screen or keyboard --
 Its only output is the lights themselves. It must respond within strict time limits (real-time) for
-Safety.
+safety.
 
 ## 6. The Systems Life Cycle
 

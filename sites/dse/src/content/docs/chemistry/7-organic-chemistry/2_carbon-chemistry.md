@@ -42,7 +42,7 @@ $$
 $$
 
 Alkanes are **saturated hydrocarbons**: all carbon-carbon bonds are single bonds. They contain the
-Maximum possible number of hydrogen atoms per carbon atom.
+maximum possible number of hydrogen atoms per carbon atom.
 
 ### Naming (IUPAC)
 
@@ -527,7 +527,7 @@ $\mathrm{CH_3COOC_2H_5}$: ethyl ethanoate
 ### Addition Polymers
 
 Formed by the addition of many monomer units, each containing a $\mathrm{C = C}$ double bond. The
-Double bond opens to form single bonds linking the monomers together.
+double bond opens to form single bonds linking the monomers together.
 
 **Example: Poly(ethene)**
 
@@ -642,7 +642,7 @@ Explain why starch is digestible by humans but cellulose is not.
 
 Both starch and cellulose are polymers of glucose. In starch, the glucose units are joined by
 Alpha-glycosidic bonds, which can be broken by human digestive enzymes (amylase). In cellulose, the
-Glucose units are joined by beta-glycosidic bonds, which humans cannot break down because they lack
+glucose units are joined by beta-glycosidic bonds, which humans cannot break down because they lack
 the appropriate enzyme (cellulase). Therefore, cellulose passes through the human digestive system
 Undigested and acts as dietary fibre.
 
@@ -848,7 +848,7 @@ by microorganisms into harmless products ($\mathrm{CO_2}$ and water) under the r
 
 **Problem 9:** A compound has the molecular formula $\mathrm{C_4H_8O_2}$. It dissolves in water to
 Give a solution of pH 3 and reacts with sodium to produce hydrogen gas. Identify the compound and
-Explain your reasoning.
+explain your reasoning.
 
 _If you get this wrong, revise: Functional Groups and Carboxylic Acid Properties_
 
@@ -874,7 +874,7 @@ _If you get this wrong, revise: Alcohols, Properties and Intermolecular Forces_
 
 Propan-1-ol molecules can form hydrogen bonds between the $-\mathrm{OH}$ group of one molecule and
 the lone pairs on the oxygen of another. Hydrogen bonding is a strong intermolecular force that
-Requires significant energy to overcome.
+requires significant energy to overcome.
 
 Propane molecules are non-polar and can only form weak van der Waals forces between molecules. These
 are much weaker than hydrogen bonds, so propane has a much lower boiling point despite Having a

@@ -25,7 +25,7 @@ categories:
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
 the mechanical properties of materials, how they deform, stretch, compress, and break, are central
 to engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
-Level board.
+level board.
 
 ## 1. Hooke's Law
 
@@ -37,7 +37,7 @@ $$
 $$
 
 Where $F$ is the applied force, $k$ is the **spring constant** (N m$^{-1}$), and $\Delta x$ is the
-Extension from the natural length.
+extension from the natural length.
 
 **Definition.** The **spring constant** $k$ is the force per unit extension required to stretch an
 Elastic object. A stiff spring has a large $k$; a soft spring has a small $k$.
@@ -163,7 +163,7 @@ Alternatively, plot stress against strain, the gradient is $E$ directly.
 <details>
 <summary>Worked Example</summary>
 A steel wire of diameter $0.50$ mm and length $2.0$ m extends by $1.2$ mm when a $50$ N force is
-Applied. Calculate Young's modulus.
+applied. Calculate Young's modulus.
 
 **Answer.** $A = \pi(0.50 \times 10^{-3}/2)^2 = 1.96 \times 10^{-7}$ m$^2$.
 
@@ -175,7 +175,7 @@ $E = \sigma/\varepsilon = 2.55 \times 10^8 / 6.0 \times 10^{-4} = 4.25 \times 10
 GPa.
 
 (This is somewhat high for steel; typical values are 180–210 GPa, the discrepancy may indicate the
-Wire has exceeded its limit of proportionality.)
+wire has exceeded its limit of proportionality.)
 
 </details>
 
@@ -205,7 +205,7 @@ constant of the material, it does not depend on the dimensions of the sample. $\
 ## 4. Stress-Strain Graphs
 
 The stress-strain graph is the most important tool for characterising the mechanical behaviour of a
-Material.
+material.
 
 ### Regions of the Graph
 
@@ -349,7 +349,7 @@ Lattice) to move under stress. This is the basis of plastic deformation in metal
 </div>
 
 Polymers consist of long-chain molecules. In rubber, the chains are tangled and uncoiled when
-Stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
+stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
 The chains can slide past each other, leading to plastic deformation.
 
 ### Ceramics
@@ -426,7 +426,7 @@ the hysteresis loop, this is why a stretched rubber band feels warm when release
 
 **Fatigue** is the progressive and localised structural damage that occurs when a material is
 Subjected to cyclic loading. Even stresses well below the yield stress can cause failure after
-Millions of cycles. This is critical in aircraft wings, bridges, and engine components.
+millions of cycles. This is critical in aircraft wings, bridges, and engine components.
 
 **Creep** is the slow, time-dependent deformation of a material under a constant load, especially at
 Elevated temperatures. It is important in power station components, turbine blades, and lead
@@ -455,7 +455,7 @@ Applied, (b) the elastic potential energy stored.
 <details>
 <summary>Problem 2</summary>
 A copper wire of diameter $1.0$ mm and length $3.0$ m supports a load of $80$ N. Calculate the
-Stress and the strain, given that Young's modulus for copper is $1.3 \times 10^{11}$ Pa.
+stress and the strain, given that Young's modulus for copper is $1.3 \times 10^{11}$ Pa.
 
 **Answer.** $A = \pi(0.50 \times 10^{-3})^2 = 7.85 \times 10^{-7}$ m$^2$.
 
@@ -507,7 +507,7 @@ The rubber cord extends $40,000$ times more than the steel wire under the same l
 <details>
 <summary>Problem 5</summary>
 A material has a Young's modulus of $5.0$ GPa and a breaking stress of $50$ MPa. Calculate the
-Breaking strain.
+breaking strain.
 
 **Answer.** $\varepsilon = \sigma/E = 50 \times 10^6 / 5.0 \times 10^9 = 0.010 = 1.0\%$.
 
@@ -538,11 +538,11 @@ Estimate would account for the non-linear region, but this is a reasonable appro
 <details>
 <summary>Problem 7</summary>
 Explain why concrete is reinforced with steel bars. Refer to the stress-strain behaviour of each
-Material.
+material.
 
 **Answer.** Concrete is strong in compression but weak in tension (UTS $\approx 3$–$5$ MPa in
 Tension). Steel is strong in both tension and compression (UTS $\approx 400$–$2000$ MPa) and is
-Ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
+ductile. In reinforced concrete, the steel bars carry the tensile loads while the concrete carries
 the compressive loads. The steel's ductility also means the composite structure deforms gradually
 rather than failing suddenly, giving warning before collapse.
 
@@ -554,7 +554,7 @@ rather than failing suddenly, giving warning before collapse.
 <details>
 <summary>Problem 8</summary>
 A steel wire of length $2.5$ m and diameter $0.80$ mm is stretched by $3.0$ mm. Calculate the
-Elastic potential energy stored. ($E_{\mathrm{steel}} = 2.0 \times 10^{11}$ Pa)
+elastic potential energy stored. ($E_{\mathrm{steel}} = 2.0 \times 10^{11}$ Pa)
 
 **Answer.** $A = \pi(0.40 \times 10^{-3})^2 = 5.03 \times 10^{-7}$ m$^2$.
 $V = AL = 5.03 \times 10^{-7} \times 2.5 = 1.26 \times 10^{-6}$ m$^3$.
@@ -580,7 +580,7 @@ Linear region, breaking point. No plastic region, no yield point.
 
 (b) Ductile: straight line from origin (linear region), then yield point, then curve rises to a peak
 (UTS), then declines as necking occurs, finally fracture at high strain (10–40%). Label: limit of
-Proportionality, elastic limit, yield point, UTS, necking, fracture.
+proportionality, elastic limit, yield point, UTS, necking, fracture.
 
 <b>If you get this wrong, revise:</b> [Stress-Strain Graphs](#4-stress-strain-graphs)
 

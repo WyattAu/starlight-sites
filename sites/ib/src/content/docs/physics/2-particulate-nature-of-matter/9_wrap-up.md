@@ -59,8 +59,8 @@ categories:
 - $t = \frac{222750 \mathrm{ J}}{144 \mathrm{ W}} = 1547$ s (or about 25.8 minutes).
 
 <b>If you get this wrong, you should focus on:</b> Applying the energy balance principle for
-Radiation, breaking down a phase change problem into its distinct heating and melting stages, and
-Understanding the relationship between power and energy transfer over time ($P=E/t$).
+radiation, breaking down a phase change problem into its distinct heating and melting stages, and
+understanding the relationship between power and energy transfer over time ($P=E/t$).
 
 1. **Question:** A sealed vertical cylinder with a frictionless piston contains 0.10 moles of a
    monatomic ideal gas. The piston has a mass of 5.0 kg and an area of 0.010 m². The system is in a
@@ -124,13 +124,13 @@ Process (isobaric), remembering to calculate both the change in internal energy 
 - The refrigerator can remove 1000 J of heat from the cold reservoir per cycle.
 
 <b>If you get this wrong, you should focus on:</b> The distinction between a heat engine and a
-Refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
+refrigerator, the correct formulas for Carnot efficiency and Carnot COP, and how the work output of
 an engine serves as the work input for another device.
 
 1. **Question (HL Only):** 1.0 mole of a monatomic ideal gas is initially at state A (300 K,
    $1.0 \times 10^5$ Pa). It is adiabatically compressed to half its original volume, reaching state
    B. It is then cooled at constant volume back to its original temperature, reaching state C. A)
-   Calculate the temperature and pressure at state B. B) Calculate the change in entropy of the gas
+   calculate the temperature and pressure at state B. B) Calculate the change in entropy of the gas
    during the process B -> C.
 
 </details>
@@ -163,7 +163,7 @@ an engine serves as the work input for another device.
 
 <b>If you get this wrong, you should focus on:</b> The specific gas law relations for an adiabatic
 Process ($PV^\gamma=\mathrm{const.}$, $TV^{\gamma-1}=\mathrm{const.}$). Also, the formula for
-Calculating entropy change during a process with a changing temperature, which requires integration
+calculating entropy change during a process with a changing temperature, which requires integration
 or the logarithmic form.
 
 1. **Question:** A circuit is constructed with a 12.0 V battery with an internal resistance of 0.50
@@ -233,7 +233,7 @@ $P_{\mathrm{atm}} \approx 1.01 \times 10^5$ Pa).
 
 **Pascal's principle:** A change in pressure applied to an enclosed fluid is transmitted
 Undiminished to every portion of the fluid and the walls of the container. This is the basis of
-Hydraulic systems:
+hydraulic systems:
 
 $$
 \frac{F_1}{A_1} = \frac{F_2}{A_2}
@@ -290,7 +290,7 @@ $$
 ### Worked Example: Floating Block
 
 A wooden block of density $600 \mathrm{ kg m}^{-3}$ and volume $0.0050 \mathrm{ m}^3$ floats in
-Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
+water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 
 - **Fraction submerged:** $\frac{600}{1000} = 0.60$ (60% underwater)
 - **Volume submerged:** $0.60 \times 0.0050 = 0.0030 \mathrm{ m}^3$
@@ -404,12 +404,12 @@ PV = nRT
 $$
 
 Where $R = 8.31 \mathrm{ J mol}^{-1}\mathrm{K}^{-1}$ is the universal gas constant and $T$ is the
-Absolute temperature in Kelvin.
+absolute temperature in Kelvin.
 
 ### Microscopic Basis: Pressure from Molecular Collisions
 
 From kinetic theory, the pressure of an ideal gas arises from molecular collisions with the
-Container walls:
+container walls:
 
 $$
 P = \frac{1}{3}\frac{N}{V} m \langle c^2 \rangle
@@ -523,7 +523,7 @@ Therefore:
 ### Worked Example: Phase Change Energy
 
 Calculate the total energy required to convert $2.0$ kg of ice at $-20$ degrees C to steam at $120$
-Degrees C. (Data: $c_{\mathrm{ice}} = 2100$ J kg$^{-1}$ K$^{-1}$, $c_{\mathrm{water}} = 4200$ J
+degrees C. (Data: $c_{\mathrm{ice}} = 2100$ J kg$^{-1}$ K$^{-1}$, $c_{\mathrm{water}} = 4200$ J
 Kg$^{-1}$ K$^{-1}$$c_{\mathrm{steam}} = 2000$ J kg$^{-1}$ K$^{-1}$$L_f = 3.34 \times 10^5$ J
 Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 

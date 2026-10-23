@@ -61,7 +61,7 @@ of evolution is the population; the unit of selection is the individual (or, the
 :::note
 That environmental factors can influence gene expression across generations without changing the DNA
 Sequence itself. This is sometimes mistakenly conflated with Lamarckism, but epigenetic changes are
-Reversible and do not create new alleles.
+reversible and do not create new alleles.
 :::
 
 ---
@@ -121,7 +121,7 @@ For natural selection to operate, four conditions must be met:
 
 Before the Industrial Revolution in England, the light-coloured form was common on lichen-covered
 Trees. During industrialisation, soot darkened tree bark, making light moths more visible to
-Predators. The dark (melanic) form increased in frequency. After clean-air legislation reduced
+predators. The dark (melanic) form increased in frequency. After clean-air legislation reduced
 Pollution, the light form rebounded. This demonstrates directional selection driven by changing
 Environmental conditions.
 
@@ -137,7 +137,7 @@ Public health concern.
 The sickle cell allele (HbS) is recessive. Homozygous HbS/HbS individuals suffer sickle cell
 Disease. Homozygous HbA/HbA individuals are normal. Heterozygous HbA/HbS individuals have sickle
 Cell trait with mild or no symptoms and are resistant to malaria. In regions where malaria is
-Endemic, the heterozygote has a selective advantage -- this is **heterozygote advantage** (balanced
+endemic, the heterozygote has a selective advantage -- this is **heterozygote advantage** (balanced
 Polymorphism). The allele is maintained in the population at higher frequency than would be expected
 if it were purely deleterious.
 
@@ -191,8 +191,8 @@ For allele frequencies to remain constant, all of the following must hold:
 5. **No gene flow** -- no migration into or out of the population
 
 In reality, no natural population satisfies all five conditions. HWE serves as a null model: if
-Observed genotype frequencies deviate from HWE predictions, one or more evolutionary forces are at
-Work.
+observed genotype frequencies deviate from HWE predictions, one or more evolutionary forces are at
+work.
 
 ### Allele Frequency Calculations
 
@@ -286,7 +286,7 @@ Isolation between populations.
 **Allopatric speciation (geographic isolation):**
 
 Populations are physically separated by a geographic barrier (mountain range, river, ocean). Each
-Population evolves independently through natural selection, genetic drift, and mutation. Over time,
+population evolves independently through natural selection, genetic drift, and mutation. Over time,
 Reproductive isolation mechanisms accumulate. This is the most common mode of speciation.
 
 **Sympatric speciation (same geographic area):**
@@ -302,7 +302,7 @@ New species arise without geographic separation. Common mechanisms include:
 
 :::note
 Approximately 30-70% of flowering plant species are polyploid. In the DSE, questions about
-Speciation focus on allopatric speciation, but you should be able to explain polyploidy as A
+speciation focus on allopatric speciation, but you should be able to explain polyploidy as A
 mechanism of sympatric speciation in plants.
 :::
 
@@ -466,7 +466,7 @@ Key evidence:
 ### Mitochondrial Eve
 
 Mitochondrial DNA (mtDNA) is inherited exclusively through the maternal line (no recombination). By
-Comparing mtDNA sequences from diverse human populations, researchers estimated that the most recent
+comparing mtDNA sequences from diverse human populations, researchers estimated that the most recent
 Common maternal ancestor of all living humans lived approximately 150,000-200,000 years ago in
 Africa. This individual is called "Mitochondrial Eve" -- not the only woman alive at the time, but
 the only one whose matrilineal line has survived unbroken to the present day.
@@ -571,7 +571,7 @@ $$
 Where $N$ = population size, $r$ = intrinsic growth rate, $t$ = time.
 
 Characteristics: rapid, accelerating growth; population doubles at regular intervals; not
-Sustainable long-term.
+sustainable long-term.
 
 **Logistic growth (S-shaped curve):**
 
@@ -644,7 +644,7 @@ Three idealised types:
 
 :::caution
 Intermediate patterns. When interpreting DSE exam questions, look for the general shape rather than
-Trying to force a perfect classification.
+trying to force a perfect classification.
 :::
 
 ---
@@ -677,7 +677,7 @@ Trying to force a perfect classification.
 ### Predation
 
 Predation is a major selective force that drives adaptations in both predators and prey through
-Coevolution:
+coevolution:
 
 - **Predator adaptations:** Speed, camouflage (ambush), claws, teeth, venom, pack hunting, enhanced
   senses
@@ -700,7 +700,7 @@ Coevolution:
   competing for prey)
 
 The outcome of interspecific competition depends on resource overlap and competitive ability. Over
-Time, natural selection favours traits that reduce competition (character displacement).
+time, natural selection favours traits that reduce competition (character displacement).
 
 ### Ecological Succession
 
@@ -743,11 +743,11 @@ Examples:
 
 **Definition.** A trophic cascade is an indirect ecological effect where changes in the abundance of
 Predators at the top of a food chain cause ripple effects through lower trophic levels, altering the
-Entire ecosystem structure.
+entire ecosystem structure.
 
 Classic example: In Yellowstone National Park, the removal of wolves led to overpopulation of elk,
 Which overgrazed willow and aspen, degrading riparian habitats and reducing beaver populations. The
-Reintroduction of wolves in 1995 reduced elk numbers, allowed vegetation to recover, and restored
+reintroduction of wolves in 1995 reduced elk numbers, allowed vegetation to recover, and restored
 Beaver populations and the wetland habitats they create.
 
 ---
@@ -823,7 +823,7 @@ otherwise.
 ### Nutrient Cycles
 
 Nutrients cycle between biotic and abiotic components of ecosystems. Unlike energy, nutrients are
-Recycled.
+recycled.
 
 **Carbon cycle:**
 
@@ -885,7 +885,7 @@ $$
 $$
 
 NPP represents the energy available to consumers (herbivores and decomposers). NPP is a measure of
-How much biomass is available for the rest of the food chain.
+how much biomass is available for the rest of the food chain.
 
 $$
 \mathrm{NPP} = \mathrm{energy stored in plant biomass}
@@ -1160,8 +1160,8 @@ $$
 $$
 
 Where $O$ = observed frequency and $E$ = expected frequency. Compare the calculated value to the
-Critical value at the appropriate degrees of freedom ($df = \mathrm{number of categories} - 1$) and
-Significance level ( $p = 0.05$).
+critical value at the appropriate degrees of freedom ($df = \mathrm{number of categories} - 1$) and
+significance level ( $p = 0.05$).
 :::
 
 ---

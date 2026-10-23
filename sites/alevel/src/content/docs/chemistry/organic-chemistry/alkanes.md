@@ -33,7 +33,7 @@ $109.5^\circ$). The C--C bond length is approximately $154\,\mathrm{pm}$ And the
 approximately $109\,\mathrm{pm}$.
 
 Free rotation about C--C $\sigma$ bonds produces an infinite set of molecular conformations. The
-Three staggered conformations of ethane (gauche and anti) are energy minima, while the eclipsed
+three staggered conformations of ethane (gauche and anti) are energy minima, while the eclipsed
 Conformations are energy maxima. The rotational energy barrier in ethane is approximately
 $12\,\mathrm{kJ/mol}$.
 
@@ -43,7 +43,7 @@ $12\,\mathrm{kJ/mol}$.
 
 The state depends on chain length. Methane to butane ($\mathrm{C}_1$--$\mathrm{C}_4$) are gases,
 Pentane to hexadecane ($\mathrm{C}_5$--$\mathrm{C}_{16}$) are liquids, and heptadecane and above are
-Waxy solids.
+waxy solids.
 
 ### Boiling Points
 
@@ -59,7 +59,7 @@ $28^\circ\mathrm{C}$).
 ### Solubility
 
 Alkanes are non-polar and are insoluble in water. They dissolve in non-polar organic solvents (the
-General principle of "like dissolves like"). Their density is less than that of water.
+general principle of "like dissolves like"). Their density is less than that of water.
 
 ## Free Radical Substitution
 
@@ -128,16 +128,16 @@ Encounters probable.
 ### Energetics of the Chain Reaction
 
 The overall reaction is exothermic: $\Delta H \approx -104\,\mathrm{kJ/mol}$. However, the
-Initiation step requires significant energy input ($242\,\mathrm{kJ/mol}$). The propagation steps
+initiation step requires significant energy input ($242\,\mathrm{kJ/mol}$). The propagation steps
 Provide the driving force: the first propagation step is slightly endothermic, and the second is
-Strongly exothermic.
+strongly exothermic.
 
 ### Multiple Substitution
 
 The chloromethane product can itself undergo further substitution, producing dichloromethane
 ($\mathrm{CH}_2\mathrm{Cl}_2$), trichloromethane/chloroform ($\mathrm{CHCl}_3$), and
-Tetrachloromethane/carbon tetrachloride ($\mathrm{CCl}_4$). The product mixture is statistical, not
-Selective, which limits the synthetic utility of radical chlorination.
+tetrachloromethane/carbon tetrachloride ($\mathrm{CCl}_4$). The product mixture is statistical, not
+selective, which limits the synthetic utility of radical chlorination.
 
 The relative rates of substitution at different hydrogen positions follow the order:
 
@@ -164,7 +164,7 @@ The product ratio is 4:3 in favour of 2-chloropropane.
 
 Bromine radicals are less reactive but more selective than chlorine radicals. The H--Br bond formed
 ($366\,\mathrm{kJ/mol}$) is weaker than the H--Cl bond ($431\,\mathrm{kJ/mol}$), making the first
-Propagation step more endothermic. By the Hammond postulate, the transition state for hydrogen
+propagation step more endothermic. By the Hammond postulate, the transition state for hydrogen
 Abstraction by $\mathrm{Br}^\bullet$ resembles the products (radical character is more developed),
 So the stability of the radical product has a larger effect on the activation energy.
 
@@ -211,7 +211,7 @@ $$
 
 This uses mean bond enthalpies and introduces systematic error because the actual bond enthalpies in
 the specific molecules differ from the mean values. For precise work, experimental enthalpies (from
-Calorimetry) must be used.
+calorimetry) must be used.
 
 **Worked Example.** Estimate $\Delta H_c$ for methane using mean bond enthalpies: C--H =
 $413\,\mathrm{kJ/mol}$ O=O = $498\,\mathrm{kJ/mol}$ C=O (in $\mathrm{CO}_2$) =
@@ -235,7 +235,7 @@ Environment. Note: the bond enthalpy calculation above is per mole of methane as
 ### Fossil Fuels and the Carbon Cycle
 
 Alkanes are the primary components of fossil fuels: natural gas (mostly methane), petroleum (mix of
-Liquid alkanes $\mathrm{C}_5$--$\mathrm{C}_{12}$), and coal (complex hydrocarbon structures).
+liquid alkanes $\mathrm{C}_5$--$\mathrm{C}_{12}$), and coal (complex hydrocarbon structures).
 
 Combustion of fossil fuels releases $\mathrm{CO}_2$ Which contributes to the enhanced greenhouse
 Effect. The atmospheric concentration of $\mathrm{CO}_2$ has increased from approximately
@@ -246,7 +246,7 @@ $280\,\mathrm{ppm}$ in pre-industrial times to over $420\,\mathrm{ppm}$ as of 20
 Methane is a far more potent greenhouse gas than $\mathrm{CO}_2$ on a per-molecule basis. Its global
 Warming potential (GWP) over 100 years is approximately 28--36 times that of $\mathrm{CO}_2$. Major
 Anthropogenic sources include natural gas leaks, livestock (enteric fermentation), rice paddies, and
-Landfill decomposition.
+landfill decomposition.
 
 ### Photochemical Smog
 
@@ -435,7 +435,7 @@ $$
 Overall: $\Delta H = +54 + (-92) = -38\,\mathrm{kJ/mol}$ (exothermic).
 
 The endothermic first propagation step ($+54\,\mathrm{kJ/mol}$) is much less favourable than for
-Chlorination ($+4\,\mathrm{kJ/mol}$), which is why bromination is slower but more selective.
+chlorination ($+4\,\mathrm{kJ/mol}$), which is why bromination is slower but more selective.
 
 </details>
 
@@ -456,11 +456,11 @@ $$
 $$
 
 In practice, the tertiary product predominates even more than this ratio predicts because the
-Statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
+statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
 are two different primary environments ($-\mathrm{CH}_3$ on C-1 vs $-\mathrm{CH}_3$ on C-3). The
-Tertiary radical $(\mathrm{CH}_3)_3\mathrm{C}^\bullet$ is stabilised by hyperconjugation from the
-Nine neighbouring C--H bonds and the inductive effect of three methyl groups, making it
-Significantly lower in energy than the primary radical
+tertiary radical $(\mathrm{CH}_3)_3\mathrm{C}^\bullet$ is stabilised by hyperconjugation from the
+nine neighbouring C--H bonds and the inductive effect of three methyl groups, making it
+significantly lower in energy than the primary radical
 $\mathrm{CH}_3\mathrm{CH}^\bullet(\mathrm{CH}_3)\mathrm{CH}_3$.
 
 </details>

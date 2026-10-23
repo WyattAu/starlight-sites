@@ -67,7 +67,7 @@ $$
 Directed vertically downward, where $g \approx 9.8\;\mathrm{m\,s^{-2}}$.
 
 The **normal reaction** $R$ is the force exerted by a surface on a body, always perpendicular to the
-Surface.
+surface.
 
 ### 1.3 Worked example: lift problem
 
@@ -277,7 +277,7 @@ $$
 
 **Problem.** A block of mass $10\;\mathrm{kg}$ rests on a rough plane inclined at $25^\circ$ to the
 Horizontal. The coefficient of friction is $\mu = 0.3$. A horizontal force of $P\;\mathrm{N}$ is
-Applied to the block. Find the range of values of $P$ for which the block remains in equilibrium.
+applied to the block. Find the range of values of $P$ for which the block remains in equilibrium.
 
 Resolving perpendicular to the plane (upward from plane positive):
 
@@ -470,7 +470,7 @@ Newton's third law pairs must satisfy:
 **Common error:** The weight of a book on a table and the normal reaction are **not** a Newton's
 Third law pair. The weight is the gravitational pull of the Earth on the book; the normal reaction
 is the contact force of the table on the book. The correct pair for the book's weight is the
-Gravitational pull of the book on the Earth.
+gravitational pull of the book on the Earth.
 
 ### 6.2 Worked example: book on a table in a lift
 
@@ -556,8 +556,8 @@ $$
 
 A particle of mass $4\;\mathrm{kg}$ is on a rough plane inclined at $30^\circ$ to the horizontal,
 Connected by a string over a pulley to a particle of mass $6\;\mathrm{kg}$ hanging vertically. The
-Coefficient of friction between the $4\;\mathrm{kg}$ mass and the plane is $0.2$. Find the
-Acceleration of the system.
+coefficient of friction between the $4\;\mathrm{kg}$ mass and the plane is $0.2$. Find the
+acceleration of the system.
 
 <details>
 <summary>Solution</summary>
@@ -588,7 +588,7 @@ Since $a \gt 0$ The assumption is correct.
 ### Problem 4
 
 A ball of mass $0.15\;\mathrm{kg}$ is struck by a bat. Immediately before the impact, the ball is
-Moving at $20\;\mathrm{m\,s^{-1}}$ towards the bat. Immediately after, it moves at
+moving at $20\;\mathrm{m\,s^{-1}}$ towards the bat. Immediately after, it moves at
 $30\;\mathrm{m\,s^{-1}}$ Away from the bat. The impact lasts $0.01\;\mathrm{s}$. Find the magnitude
 of the force exerted by The bat on the ball.
 

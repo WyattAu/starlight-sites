@@ -284,7 +284,7 @@ $$
 ### Worked Example 2
 
 In a DSE Paper 1B question, a student is asked to write the ionic equation for the reaction between
-Aqueous calcium chloride and aqueous sodium carbonate. Write the full balanced equation and the net
+aqueous calcium chloride and aqueous sodium carbonate. Write the full balanced equation and the net
 Ionic equation.
 
 <details>
@@ -308,7 +308,7 @@ $$
 
 A student sets up an electrochemical cell with a $\mathrm{Zn}$ electrode in $\mathrm{ZnSO_4}(aq)$
 and a $\mathrm{Cu}$ electrode in $\mathrm{CuSO_4}(aq)$. Identify the anode, cathode, and the
-Direction of electron flow.
+direction of electron flow.
 
 <details>
 <summary>Solution</summary>
@@ -359,7 +359,7 @@ _If you get this wrong, revise: Examination Tips, Colours of Common Ions_
 A **brown precipitate** of $\mathrm{Fe(OH)_3}$ is formed.
 
 For reference: $\mathrm{Cu^{2+}}$ gives blue, $\mathrm{Fe^{2+}}$ gives green (turning brown on
-Standing), $\mathrm{Zn^{2+}}$ gives white.
+standing), $\mathrm{Zn^{2+}}$ gives white.
 
 </details>
 
@@ -510,7 +510,7 @@ $$
 
 **Problem 9:** In the electrolysis of concentrated aqueous sodium chloride, explain why hydrogen is
 Produced at the cathode rather than sodium, and why chlorine is produced at the anode rather than
-Oxygen.
+oxygen.
 
 _If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis (Aqueous)_
 
@@ -523,7 +523,7 @@ Discharge potential. The reaction is: $2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 
 
 **Anode:** $\mathrm{Cl^-}$ and $\mathrm{OH^-}$ (from water) are both present. In concentrated
 Solution, $\mathrm{Cl^-}$ is preferentially discharged over $\mathrm{OH^-}$ because the
-Overpotential of chlorine is lower at high chloride concentrations. The reaction is:
+overpotential of chlorine is lower at high chloride concentrations. The reaction is:
 $2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-$.
 
 </details>
@@ -556,7 +556,7 @@ c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/
 $$
 
 Ethanoic acid is a **weak acid**, it only partially dissociates in aqueous solution, producing a
-Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.
+lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.
 
 </details>
 

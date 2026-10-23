@@ -199,7 +199,7 @@ far do you agree?
 
 **Introduction**: The English Reformation was driven primarily by Henry VIII's dynastic and
 political needs, his desire to annul his marriage and assert royal supremacy. However, the
-Reformation also had genuine theological dimensions: Protestant doctrine developed under Thomas
+reformation also had genuine theological dimensions: Protestant doctrine developed under Thomas
 Cranmer, the Book of Common Prayer was established, and evangelical preaching ensured the break
 with Rome produced lasting religious change. On balance, the initial break was political, but the
 subsequent development was increasingly theological.
@@ -211,7 +211,7 @@ do you agree?
 
 **Conclusion**: The alliance system was the most significant structural cause because it created
 the framework for a regional crisis to become a general conflict. Without the Triple Alliance and
-Triple Entente, Austria's dispute with Serbia might have remained localised. However, the system
+triple Entente, Austria's dispute with Serbia might have remained localised. However, the system
 was not inherently war-making, it became dangerous because of imperial rivalry, nationalist
 agitation, the arms race, and specific leaders' decisions. The most accurate interpretation is
 that the alliance system was the most significant enabling condition, but the war resulted from

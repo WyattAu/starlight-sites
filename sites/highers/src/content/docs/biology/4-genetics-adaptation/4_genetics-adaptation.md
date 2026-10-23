@@ -236,7 +236,7 @@ Degrees of freedom: $2 - 1 = 1$.
 Critical value at 5% for 1 df: 3.841.
 
 Since $0.48 \lt 3.841$ The results are consistent with a 3:1 ratio. The difference is not
-Statistically significant.
+statistically significant.
 
 **Worked Example: Chi-squared for a dihybrid cross.**
 
@@ -547,10 +547,10 @@ Fidelity.
 **Leading vs lagging strand:**
 
 DNA polymerase can only add nucleotides in the 5' to 3' direction. Since the two strands of DNA are
-Antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
+antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
 of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
 in short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
-Later removed and replaced with DNA, and the fragments are joined by DNA ligase.
+later removed and replaced with DNA, and the fragments are joined by DNA ligase.
 
 **Proofreading:** DNA polymerase III has 3' to 5' exonuclease activity, meaning it can detect and
 Remove a mismatched nucleotide and replace it with the correct one. This proofreading mechanism,
@@ -628,7 +628,7 @@ Used to insert a gene of interest into a plasmid vector.
 **Gel electrophoresis:** Separates DNA fragments by size. Smaller fragments move faster through the
 Agarose gel and travel further. DNA fragments can be visualised using a fluorescent dye that binds
 to DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
-Success of restriction enzyme digestion.
+success of restriction enzyme digestion.
 
 **Worked Example: Designing a genetic engineering experiment.**
 
@@ -702,7 +702,7 @@ DNA fingerprinting uses gel electrophoresis to compare DNA samples from differen
 **Worked Example: Interpreting a DNA fingerprint.**
 
 A crime scene sample and three suspects are analysed using DNA fingerprinting at three STR loci. The
-Banding pattern at each locus is compared:
+banding pattern at each locus is compared:
 
 - Locus 1: Crime scene has bands at 8 and 12 repeat units. Suspect A matches; Suspect B has bands at
   6 and 10; Suspect C has bands at 8 and 12 (matches).
@@ -712,13 +712,13 @@ Banding pattern at each locus is compared:
 
 Only Suspect A matches at all three loci, providing strong evidence that the DNA at the crime scene
 Came from Suspect A. The probability of a random match at all three loci is the product of the
-Individual match probabilities, which is less than 1 in a billion.
+individual match probabilities, which is less than 1 in a billion.
 
 ## Review: The trp Operon -- A Repressible Operon
 
 The trp operon in E. Coli controls the synthesis of tryptophan and is an example of a repressible
 Operon. Unlike the lac operon (inducible), the trp operon is normally ON and is switched OFF when
-Tryptophan is abundant.
+tryptophan is abundant.
 
 **Components:**
 
@@ -826,7 +826,7 @@ q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0
 $$
 
 The frequency of the recessive allele has decreased from 0.4 to 0.348 after one generation of
-Selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
+selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
 Who are not affected by selection.
 
 **Heterozygote advantage:** When heterozygotes have higher fitness than either homozygote, both
@@ -839,7 +839,7 @@ Alleles are maintained in the population. This is also called balanced polymorph
 - $H^SH^S$ (sickle cell disease): severe anaemia (fitness greatly reduced).
 
 The heterozygote advantage maintains both the normal and sickle cell alleles in the population. This
-Explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
+explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
 A severe genetic disorder.
 
 ## Summary

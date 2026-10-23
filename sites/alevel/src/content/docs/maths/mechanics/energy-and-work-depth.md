@@ -20,7 +20,7 @@ categories: [Mathematics]
 ## Energy and Work (Extended Treatment)
 
 This document provides a thorough treatment of the work-energy principle, power, conservation of
-Energy, and elastic potential energy with proofs and applications.
+energy, and elastic potential energy with proofs and applications.
 
 :::note
 approach Requires solving differential equations, an energy approach may give the answer in a single
@@ -182,7 +182,7 @@ $$
 ### 4.1 Statement
 
 The **work-energy principle** states that the work done by the resultant force on a body equals the
-Change in its kinetic energy:
+change in its kinetic energy:
 
 $$
 W_{\mathrm{net}} = \Delta\mathrm{KE}
@@ -287,7 +287,7 @@ $$
 $$
 
 Since $250v^2$ cannot be negative, the car **cannot** reach point $C$. It comes to rest before
-Reaching $C$.
+reaching $C$.
 
 Let us find how far along the track it travels before stopping (let this be $d$ metres from $A$ At
 height $h$):
@@ -380,7 +380,7 @@ $$
 ### 7.1 Hooke's Law
 
 For an elastic spring (or string) that obeys **Hooke's Law**, the tension (or thrust) is
-Proportional to the extension:
+proportional to the extension:
 
 $$
 T = kx
@@ -465,7 +465,7 @@ $$
 **Problem.** A particle of mass $3\;\mathrm{kg}$ is attached to two elastic strings. One string has
 Natural length $0.8\;\mathrm{m}$ and modulus $40\;\mathrm{N}$ And is fixed at a point $A$. The other
 has natural length $1.0\;\mathrm{m}$ and modulus $50\;\mathrm{N}$ And is fixed at a point $B$. The
-Distance $AB$ is $3\;\mathrm{m}$. The particle hangs in equilibrium. Find the distance of the
+distance $AB$ is $3\;\mathrm{m}$. The particle hangs in equilibrium. Find the distance of the
 particle From $A$.
 
 Let the particle be at distance $d$ from $A$ (and $3 - d$ from $B$).
@@ -498,7 +498,7 @@ $$
 $$
 
 This is a contradiction, which means the particle does not hang directly below the line $AB$ in a
-Simple 1D configuration, or one of the strings is slack. If string $A$ is slack, then $d \leq 0.8$:
+simple 1D configuration, or one of the strings is slack. If string $A$ is slack, then $d \leq 0.8$:
 
 $$
 T_B = 3g \implies \frac{50(2 - d)}{1.0} = 29.4 \implies 2 - d = 0.588 \implies d = 1.412
@@ -525,7 +525,7 @@ extensions at each stage.
 
 A crate of mass $50\;\mathrm{kg}$ is pushed $12\;\mathrm{m}$ up a rough ramp inclined at $15^\circ$
 to the horizontal by a force of $300\;\mathrm{N}$ acting parallel to the ramp. The coefficient of
-Friction is $0.25$. Find the speed of the crate at the top if it starts from rest.
+friction is $0.25$. Find the speed of the crate at the top if it starts from rest.
 
 <details>
 <summary>Solution</summary>
@@ -601,7 +601,7 @@ Energy conservation: $26.67 = \frac{1}{2}(4)v^2 + 39.2$.
 $\frac{1}{2}(4)v^2 = 26.67 - 39.2 = -12.53$.
 
 Since this is negative, the string **never becomes slack** -- the particle oscillates without the
-String going slack. Let us verify: for the string to go slack, EPE $\gt$ GPE gain at natural length.
+string going slack. Let us verify: for the string to go slack, EPE $\gt$ GPE gain at natural length.
 
 $26.67 \lt 39.2$ So indeed the string remains taut.
 
@@ -620,7 +620,7 @@ $26.67x^2 + 42.4x = 0 \implies x(26.67x + 42.4) = 0$
 $x = 0$ (the initial position) or $x = -1.59$ (not physically meaningful for extension).
 
 This confirms the particle returns to its starting point. The motion is simple harmonic about the
-Equilibrium position.
+equilibrium position.
 
 </details>
 

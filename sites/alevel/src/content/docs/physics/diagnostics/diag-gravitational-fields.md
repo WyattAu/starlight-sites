@@ -207,8 +207,8 @@ Total potential:
 $V_{\text{total}} = V_M + V_E = -1.634 \times 10^4 - 4.740 \times 10^6 = -4.756 \times 10^6\,\text{J}\,\text{kg}^{-1}$
 
 The total potential at the point near the Moon is more negative than the surface potential of the
-Moon alone. This means more energy is required to escape from this point to infinity than from the
-Moon's surface alone, because the Earth's gravitational well also contributes.
+moon alone. This means more energy is required to escape from this point to infinity than from the
+moon's surface alone, because the Earth's gravitational well also contributes.
 
 (b)
 $v_{\text{esc}} = \sqrt{\frac{2GM_M}{R_M}} = \sqrt{\frac{2 \times 4.902 \times 10^{12}}{1.74 \times 10^6}} = \sqrt{5.635 \times 10^6} = 2374\,\text{m}\,\text{s}^{-1}$
@@ -437,7 +437,7 @@ Maximum speed relative to Sun
 $= v_{\text{Jupiter}} + v_{\infty} = 1.31 \times 10^4 + 8.0 \times 10^3 = 2.11 \times 10^4\,\text{m}\,\text{s}^{-1}$
 
 The spacecraft gains $\Delta v = 2v_{\infty} = 1.6 \times 10^4\,\text{m}\,\text{s}^{-1}$ in the
-Sun's frame.
+sun's frame.
 
 (c) The spacecraft gains kinetic energy in the Sun's frame because it transfers kinetic energy from
 Jupiter's orbital motion. Jupiter's orbit slows imperceptibly (by an amount proportional to the

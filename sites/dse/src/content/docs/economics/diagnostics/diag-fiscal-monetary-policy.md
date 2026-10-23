@@ -232,7 +232,7 @@ pocket the savings without investing, the benefits may not trickle down.
 **Question:** An economy has GDP $= HK\$3\,000$ billion, government revenue $= HK\$600$ billion,
 government expenditure $= HK\$750$ billion, and outstanding national debt $= HK\$1\,800$ billion.
 The average interest rate on government debt is $3\%$ and the GDP growth rate is $4\%$. (a)
-Calculate the budget deficit as a percentage of GDP. (b) Calculate the debt-to-GDP ratio. (c) Using
+calculate the budget deficit as a percentage of GDP. (b) Calculate the debt-to-GDP ratio. (c) Using
 the debt dynamics equation $\Delta d = (r - g) \cdot d_0 + p$ Where $p$ is the primary deficit-to-GDP
 ratio, determine whether the debt ratio is rising or falling. (d) If the government wants to
 stabilise the debt ratio at its current level, what primary balance (as a percentage of GDP) must it
@@ -266,7 +266,7 @@ revenue by $(3.2\% - 0.6\%) \times 3000 = HK\$78$ billion.
 **Question:** An economy is in long-run equilibrium at price level $P = 100$ and real output
 $Y = HK\$2\,000$ billion. Potential output is $Y^* = HK\$2\,000$ billion. The government increases
 spending by $HK\$80$ billion. The MPC $= 0.75$, the tax rate $T = 0.2$, and the MPM $= 0.15$. (a)
-Calculate the full fiscal multiplier. (b) Calculate the change in equilibrium output. (c) If the
+calculate the full fiscal multiplier. (b) Calculate the change in equilibrium output. (c) If the
 SRAS is upward-sloping with a price sensitivity such that the price level rises by 5% when output
 rises by 10%, estimate the new equilibrium price level and output, accounting for the crowding out
 effect through rising prices. (d) Evaluate the effectiveness of this fiscal expansion.

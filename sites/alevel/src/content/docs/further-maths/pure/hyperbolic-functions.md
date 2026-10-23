@@ -24,7 +24,7 @@ categories: [Mathematics]
 ## Hyperbolic Functions (Extended Treatment)
 
 This document provides a rigorous treatment of hyperbolic functions, their identities, inverses, and
-Calculus.
+calculus.
 
 :::note
 Rather than circles. They arise in many areas including differential equations, special Relativity,

@@ -28,7 +28,7 @@ categories:
 
 The Poisson and geometric distributions model discrete random variables arising from counting
 Processes. The Poisson distribution counts the number of rare events in a fixed interval, while the
-Geometric distribution counts the number of trials until the first success.
+geometric distribution counts the number of trials until the first success.
 
 ### Board Coverage
 
@@ -45,7 +45,7 @@ Geometric distribution counts the number of trials until the first success.
 
 :::note
 And how to carry out hypothesis testing with discrete distributions. The geometric distribution has
-Two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
+two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
 $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
 :::
 
@@ -1079,7 +1079,7 @@ $P(X > 3) = 0.75^3 = \boxed{0.4219}$.
 ### 11.1 Poisson process and exponential distribution
 
 The inter-arrival times of a Poisson process follow the exponential distribution. If events occur at
-Rate $\lambda$ per unit time, the time between consecutive events is $\mathrm{Exp}(\lambda)$. See
+rate $\lambda$ per unit time, the time between consecutive events is $\mathrm{Exp}(\lambda)$. See
 Exponential and Continuous Random Variables.
 
 ### 11.2 Poisson and binomial
@@ -1194,7 +1194,7 @@ the total event process is Poisson with rate $\lambda_A + \lambda_B$.
 ### 14.2 Poisson distribution and the Poisson point process
 
 A Poisson point process in 2D with rate $\lambda$ per unit area has the property that the number of
-Points in a region of area $A$ follows $\mathrm{Po}(\lambda A)$.
+points in a region of area $A$ follows $\mathrm{Po}(\lambda A)$.
 
 ### 14.3 The geometric distribution as a special case of the negative binomial
 
@@ -1287,7 +1287,7 @@ P(X = k \mid X + Y = n) = \binom{n}{k}\!\left(\frac{\lambda_1}{\lambda_1+\lambda
 $$
 
 This is $\mathrm{Bin}(n, \lambda_1/(\lambda_1+\lambda_2))$, the conditional distribution is
-Binomial!
+binomial!
 
 ### 16.3 The negative binomial distribution
 

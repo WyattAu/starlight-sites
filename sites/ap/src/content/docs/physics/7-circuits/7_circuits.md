@@ -107,7 +107,7 @@ The current is the same through all resistors. The voltage divides proportionall
 **Parallel:** $\dfrac{1}{R_{\text{eq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \cdots + \dfrac{1}{R_n}$
 
 The voltage is the same across all resistors. The current divides inversely proportionally to
-Resistance.
+resistance.
 
 ### Kirchhoff's Laws
 
@@ -172,7 +172,7 @@ $$
 ## RC Circuits
 
 An RC circuit contains a resistor and a capacitor. The behavior is governed by a first-order ODE and
-Exhibits exponential charging and discharging.
+exhibits exponential charging and discharging.
 
 ### Charging a Capacitor
 
@@ -341,7 +341,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    $-IR$; against gives $+IR$.
 3. **Misidentifying series and parallel elements.** Two elements are in series only if the same
    current flows through both. Two elements are in parallel only if the same voltage is across both.
-   When in doubt, redraw the circuit.
+   when in doubt, redraw the circuit.
 4. **Forgetting that the time constant determines the rate, not the final values.** $\tau = RC$
    controls how fast the capacitor charges or discharges. The final charge $Q_{\max} = C\mathcal{E}$
    depends only on $C$ and $\mathcal{E}$ Not on $R$.
@@ -398,7 +398,7 @@ $R_1$.
 <summary>Answer</summary>
 
 (a) At $t = 0$ The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
-Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
+parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 
 $$
@@ -436,7 +436,7 @@ $$
 <summary>Question 8: AP Exam-Style -- Energy analysis in an RC circuit</summary>
 
 A $50\,\mu\text{F$ capacitor is charged through a $100\,\Omega$ resistor by a $10$ V battery. (a)
-Find The total energy delivered by the battery. (b) Find the total energy dissipated in the
+find The total energy delivered by the battery. (b) Find the total energy dissipated in the
 resistor. (c) Find The energy stored in the capacitor at steady state. Verify that energy is
 conserved.
 
@@ -462,7 +462,7 @@ $$
 (c) $U_{\text{cap} = \frac{1}{2}CV^2 = \frac{1}{2}(50 \times 10^{-6})(10)^2 = 2.5\,\text{mJ$
 
 Verification: $W_{\text{battery} = W_R + U_{\text{cap} = 2.5 + 2.5 = 5.0\,\text{mJ$. Energy is
-Conserved.
+conserved.
 
 </details>
 

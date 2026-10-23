@@ -31,7 +31,7 @@ categories:
 ### Computer System
 
 A computer system is a broad term given to a system including the hardware, software, users, and the
-Immediate environment.
+immediate environment.
 
 ### System Life Cycle
 
@@ -61,7 +61,7 @@ Planning a system is an attempt to anticipate potential organizational issues:
 ### Feasibility Report
 
 Feasibility reports are the results of a feasibility study where the evaluation and analysis of a
-Project and its potential is carried out based on:
+project and its potential is carried out based on:
 
 - Technical feasibility
 - Determining whether current technology sufficient to implement the system
@@ -150,7 +150,7 @@ Employee positions, replacing hardware equipment, etc.
 ### Incompatibility
 
 System may include critical points built with legacy systems, where the new system is unable to
-Replace by change, examples being:
+replace by change, examples being:
 
 - Lack of ability to translate legacy format to new format.
 - User needs, where a lack of user training or the new system does not completely replace the
@@ -344,7 +344,7 @@ On-premises software are software operate locally on an organization's own infra
 #### SaaS
 
 Software-as-a-Service (SaaS) are software provided by cloud service, where data and the software is
-Operating in a remote datacenter.
+operating in a remote datacenter.
 
 ### Installation Process
 
@@ -353,7 +353,7 @@ The installation process is the deployment of a new system on a premise.
 #### Changeover Method
 
 When replacing the system currently used, strategies employed should consider the cost overhead and
-Risk, common strategies include:
+risk, common strategies include:
 
 - Parallel changeover
 - Operating both systems in redundancy for the duration of replacement.
@@ -498,7 +498,7 @@ A traceability matrix maps requirements to test cases to ensure complete test co
 </div>
 
 If any test case fails or a requirement has no corresponding test case, the matrix highlights the
-Gap.
+gap.
 
 ### Data Validation
 
@@ -512,7 +512,7 @@ Verification is the process of evaluating the consistency of the input sequence 
 
 **System specification**: A login system accepts a username (6 to 20 alphanumeric characters) and a
 Password (8 to 128 characters, must include at least one uppercase letter and one digit). After 3
-Failed attempts, the account is locked for 15 minutes.
+failed attempts, the account is locked for 15 minutes.
 
 **Test cases using equivalence partitioning and boundary value analysis**:
 
@@ -553,7 +553,7 @@ are allowed, some methods of providing the user documentation include:
 ## User Training
 
 In order to equip the workforce with a new system, user training is required to ensure the system is
-Used for its full capacity, some methods include:
+used for its full capacity, some methods include:
 
 - Self-study
 - Formal classes
@@ -612,7 +612,7 @@ RAID (Redundant Array of Independent Disks) provides data redundancy and perform
 ### Disaster Recovery Plan
 
 A disaster recovery plan (DRP) documents the procedures for restoring IT systems after a
-Catastrophic event. Key components include:
+catastrophic event. Key components include:
 
 1. **Recovery objectives**:
 
@@ -703,7 +703,7 @@ Stable state:
 ### Feature Flags
 
 Feature flags (also called feature toggles) allow developers to enable or disable features without
-Deploying new code:
+deploying new code:
 
 - **Use cases**:
 - Deploying code to production but keeping a new feature hidden until it is ready to launch
@@ -721,7 +721,7 @@ A hospital is planning to replace its paper-based patient records system with an
 Record (EHR) system.
 
 (a) Describe two feasibility types the hospital should assess before proceeding, providing a
-Specific example for each. [4 marks]
+specific example for each. [4 marks]
 
 (b) Explain why the hospital should conduct a training needs analysis before deploying the new
 System. [3 marks]
@@ -737,16 +737,16 @@ the required bandwidth and security protocols.
 
 **Operational feasibility**: The hospital must determine whether the new system can be maintained by
 Its IT staff. For example, the EHR system may require a dedicated database administrator and 24/7
-Support, which the hospital's current IT team of two staff members may not be able to provide
+support, which the hospital's current IT team of two staff members may not be able to provide
 without additional hiring.
 
 (b)
 
 A training needs analysis identifies the gap between staff's current skills and the skills required
 by the new EHR system. Without this analysis, the hospital risks deploying a system that doctors and
-Nurses cannot use effectively, which could lead to incorrect data entry, workflow disruptions, or
+nurses cannot use effectively, which could lead to incorrect data entry, workflow disruptions, or
 even patient safety incidents. The analysis ensures that training is targeted, efficient, and
-Appropriately resourced, covering only the skills that staff actually lack.
+appropriately resourced, covering only the skills that staff actually lack.
 
 </details>
 
@@ -758,7 +758,7 @@ over the summer break. The IT coordinator has proposed a direct changeover on th
 (a) Evaluate this changeover strategy. [4 marks]
 
 (b) Describe an alternative changeover strategy that would reduce risk, and explain why it is more
-Appropriate in this context. [4 marks]
+appropriate in this context. [4 marks]
 
 <details>
 
@@ -769,7 +769,7 @@ and the new system must work flawlessly from day one. If the cloud-based system 
 Downtime, has a data migration error, or if staff encounter usability issues, there is no fallback.
 In a school context, this could mean that attendance cannot be recorded, grades cannot be entered,
 And parent communications are disrupted, directly affecting educational operations. The only
-Advantage is that it avoids the cost and complexity of running two systems simultaneously.
+advantage is that it avoids the cost and complexity of running two systems simultaneously.
 
 (b)
 
@@ -810,7 +810,7 @@ Data cleansing ensures the quality of the merged dataset. A specific example is 
 The same customer may exist in both databases with slight variations, such as "Jonathan Smith" in
 AlphaTech and "Jon Smith" in BetaCorp with the same email address. Data cleansing would identify
 these as the same person and merge them into a single record, preventing duplicate mailings and
-Confusion in customer service.
+confusion in customer service.
 
 (c)
 
@@ -862,7 +862,7 @@ Format. Validation is performed by the system (e.g., the form rejects an age of 
 **Verification** checks whether the data entered matches the true source data. In this context,
 Verification ensures that the age the user entered is actually their real age. For example, a user
 might enter "25" when they are actually 17. The system cannot verify this automatically; it may
-Require supporting documentation (e.g., a government ID) to be manually checked against the entered
+require supporting documentation (e.g., a government ID) to be manually checked against the entered
 Value.
 
 </details>
@@ -875,7 +875,7 @@ A software company uses semantic versioning for its product. The current version
 the new version number be? Justify your answer. [2 marks]
 
 (b) The team then adds a new feature allowing users to export reports as PDF files. What should the
-Version number be now? Justify your answer. [2 marks]
+version number be now? Justify your answer. [2 marks]
 
 (c) The team then restructures the entire database schema, making it incompatible with version 2.x.
 What should the version number be? Justify your answer. [2 marks]
@@ -899,18 +899,18 @@ Has been added without breaking existing functionality.
 
 **3.0.0** -- the major version is incremented because the database schema change is a breaking
 Change that is incompatible with version 2.x. Clients using version 2.x will not be able to use the
-New version without migration.
+new version without migration.
 
 (d)
 
 **Blue-green deployment**: The company maintains two identical production environments. The new
 Version is deployed to the inactive environment and thoroughly tested before traffic is switched. If
 the critical failure is detected after the switch, traffic is immediately routed back to the
-Original environment, providing near-instant recovery.
+original environment, providing near-instant recovery.
 
 **Feature flags**: If the failure is caused by a specific feature, the feature flag controlling that
 Feature can be set to `false` without requiring a full rollback or redeployment. This disables the
-Problematic feature while keeping the rest of the system operational.
+problematic feature while keeping the rest of the system operational.
 
 </details>
 
@@ -959,12 +959,12 @@ Survives.
 
 **RPO (Recovery Point Objective)**: The maximum acceptable amount of data loss, measured in time.
 For this logistics company, an RPO of 30 minutes would be appropriate, meaning at most 30 minutes of
-Shipment tracking updates could be lost in a disaster. This requires data to be backed up or
-Replicated at least every 30 minutes.
+shipment tracking updates could be lost in a disaster. This requires data to be backed up or
+replicated at least every 30 minutes.
 
 **RTO (Recovery Time Objective)**: The maximum acceptable downtime before the system must be
 Restored. For a logistics company that needs continuous shipment tracking, an RTO of 1 hour would be
-Appropriate, meaning the system must be back online within 1 hour of a failure. Achieving this RTO
+appropriate, meaning the system must be back online within 1 hour of a failure. Achieving this RTO
 would likely require a hot standby configuration.
 
 </details>

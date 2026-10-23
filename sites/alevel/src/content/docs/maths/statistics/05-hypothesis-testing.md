@@ -78,7 +78,7 @@ The **critical value** is the boundary between the acceptance and rejection regi
 ### 2.3 Critical region
 
 The **critical region** (rejection region) is the set of values of the test statistic that lead to
-Rejection of $H_0$.
+rejection of $H_0$.
 
 ### 2.4 Actual significance level
 
@@ -139,7 +139,7 @@ Reduces Type I errors but increases Type II errors. You cannot eliminate both si
 ### 4.2 Using $p$-values
 
 Alternatively: 1–3. Same as above. 4. Calculate the **$p$-value**: the probability of obtaining a
-Result at least as extreme as the observed value, assuming $H_0$ is true. 5. If $p$-value
+result at least as extreme as the observed value, assuming $H_0$ is true. 5. If $p$-value
 $\lt \alpha$ Reject $H_0$. Otherwise, do not reject $H_0$. 6. Conclude in context.
 
 <hr />
@@ -245,7 +245,7 @@ This means the two-tailed test has a **higher bar** for each individual tail.
 - Two-tailed ($H_1: \mu \neq \mu_0$): reject if $z \gt 1.960$ or $z \lt -1.960$.
 
 An observed $z = 1.80$ is significant for the one-tailed test ($1.80 \gt 1.645$) but not for the
-Two-tailed test ($|1.80| \lt 1.960$).
+two-tailed test ($|1.80| \lt 1.960$).
 
 :::note
 Test at the same $\alpha$ Because the significance "budget" is split between two tails. A Two-tailed
@@ -255,7 +255,7 @@ test at $\alpha = 0.05$ corresponds roughly to two one-tailed tests each at $\al
 ### 8.3 Effect on power
 
 For the same $\alpha$ A one-tailed test has **greater power** than a two-tailed test against an
-Alternative in the predicted direction, because the critical value is closer to the null value.
+alternative in the predicted direction, because the critical value is closer to the null value.
 However, a one-tailed test has **zero power** to detect an effect in the opposite direction.
 
 <hr />
@@ -331,7 +331,7 @@ Intervals would contain the true value of $\theta$.
 
 :::caution
 In the interval. The parameter $\theta$ is fixed; it either is or is not in the interval. The 95%
-Refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
+refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
 :::
 
 ### 10.2 95% confidence interval for a population proportion
@@ -387,7 +387,7 @@ p\mathrm{-value} = P(\mathrm{test statistic} \geq \mathrm{observed} \mid H_0 \ma
 $$
 
 For a two-tailed test, "at least as extreme" means at least as far from the null value in either
-Direction, so the $p$-value is doubled.
+direction, so the $p$-value is doubled.
 
 ### 11.2 Decision rule
 
@@ -666,11 +666,11 @@ A researcher tests whether a new drug changes recovery time. She uses a two-tail
 (a) Two-tailed test: critical values $\pm 1.96$. $|1.85| = 1.85 \lt 1.96$ So **do not reject** $H_0$. There is insufficient evidence that recovery time has changed.
 
 (b) One-tailed test: critical value $1.645$. Since $1.85 \gt 1.645$ We **reject** $H_0$. There is
-Sufficient evidence that recovery time has increased.
+sufficient evidence that recovery time has increased.
 
 The conclusion changes because a one-tailed test allocates the entire 5% significance level to one
-Tail, making the critical value less extreme. This illustrates why the choice between one-tailed and
-Two-tailed must be made **before** seeing the data.
+tail, making the critical value less extreme. This illustrates why the choice between one-tailed and
+two-tailed must be made **before** seeing the data.
 
 **If you get this wrong, revise:**
 [One-Tailed vs Two-Tailed Tests in Depth](#8-one-tailed-vs-two-tailed-tests-in-depth), Section 8.

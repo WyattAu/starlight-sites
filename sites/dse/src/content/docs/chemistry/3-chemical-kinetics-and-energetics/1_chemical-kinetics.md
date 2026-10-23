@@ -90,7 +90,7 @@ For reactants: concentration decreases over time (negative gradient).
 For products: concentration increases over time (positive gradient).
 
 The gradient at any point gives the instantaneous rate. The gradient decreases over time as
-Reactants are consumed and rate slows down.
+reactants are consumed and rate slows down.
 
 ### Initial Rate
 
@@ -113,7 +113,7 @@ a concentration-time graph. It is the fastest rate in the reaction.
 ### Concentration (or Pressure for Gases)
 
 Increasing concentration increases the frequency of collisions between particles, increasing the
-Rate of reaction.
+rate of reaction.
 
 For gaseous reactants, increasing pressure has the same effect as increasing concentration.
 
@@ -133,7 +133,7 @@ Exposed for collision, increasing the rate.
 ### Catalyst
 
 A catalyst provides an alternative reaction pathway with a lower activation energy. It increases the
-Rate without being consumed. It does not affect the position of equilibrium or the equilibrium
+rate without being consumed. It does not affect the position of equilibrium or the equilibrium
 Yield.
 
 <div class="table-wrap">
@@ -233,7 +233,7 @@ $$
 ### Effect of a Catalyst
 
 The $E_a$ line shifts to the left on the Maxwell-Boltzmann distribution. More particles now have
-Energy $\geq E_a$ (the new, lower activation energy), so the rate increases.
+energy $\geq E_a$ (the new, lower activation energy), so the rate increases.
 
 :::note
 Shape remains the same at the same temperature.
@@ -458,8 +458,8 @@ $$
 Run experiments with different initial concentrations and measure the initial rate.
 
 If doubling [A] doubles the rate: first order with respect to A. If doubling [A] quadruples the
-Rate: second order with respect to A. If doubling [A] has no effect on the rate: zero order with
-Respect to A.
+rate: second order with respect to A. If doubling [A] has no effect on the rate: zero order with
+respect to A.
 
 **Worked example 1:** For the reaction $\mathrm{A} + \mathrm{B} \to \mathrm{C}$:
 
@@ -678,7 +678,7 @@ $$
 $$
 
 Once all the thiosulfate is consumed, free iodine accumulates and reacts with starch to produce a
-Blue-black colour.
+blue-black colour.
 
 ### Determining the Rate
 
@@ -794,7 +794,7 @@ Determine the rate equation, the rate constant, and the overall order.
 <summary>Answer</summary>
 
 Exp 1 vs 2: [NO] doubles, rate quadruples ($1.2 \times 10^{-5} \to 4.8 \times 10^{-5}$). Second
-Order in NO.
+order in NO.
 
 Exp 1 vs 3: $[\mathrm{H}_2]$ doubles, rate doubles. First order in $\mathrm{H}_2$.
 
@@ -891,20 +891,20 @@ Both curves start at the origin, never touch the x-axis, and enclose the same to
 ### Problem 5
 
 Explain, with reference to collision theory and the Maxwell-Boltzmann distribution, why adding a
-Catalyst increases the rate of a reaction but does not increase the yield of products at
-Equilibrium.
+catalyst increases the rate of a reaction but does not increase the yield of products at
+equilibrium.
 
 <details>
 <summary>Answer</summary>
 
 A catalyst provides an alternative reaction pathway with a lower activation energy ($E_a$). On the
 Maxwell-Boltzmann distribution, the $E_a$ threshold moves to the left. A larger fraction of
-Particles now has energy $\geq E_a$ So the proportion of successful collisions increases, and the
-Rate increases.
+particles now has energy $\geq E_a$ So the proportion of successful collisions increases, and the
+rate increases.
 
 The catalyst lowers $E_a$ equally for both the forward and reverse reactions. Therefore, both the
-Forward and reverse rates increase by the same factor. The ratio of forward to reverse rates (the
-Equilibrium constant $K$) remains unchanged. Since $K$ is unchanged, the position of equilibrium and
+forward and reverse rates increase by the same factor. The ratio of forward to reverse rates (the
+equilibrium constant $K$) remains unchanged. Since $K$ is unchanged, the position of equilibrium and
 the equilibrium yield of products remain the same.
 
 </details>
@@ -912,13 +912,13 @@ the equilibrium yield of products remain the same.
 ### Problem 6
 
 A reaction has the rate equation $\mathrm{Rate} = k[\mathrm{P}]^2[\mathrm{Q}]$. At a certain
-Temperature, when $[\mathrm{P}] = 0.30 \mathrm{ mol/dm}^3$ and
+temperature, when $[\mathrm{P}] = 0.30 \mathrm{ mol/dm}^3$ and
 $[\mathrm{Q}] = 0.20 \mathrm{ mol/dm}^3$ The rate is
 $1.08 \times 10^{-2} \mathrm{ mol dm}^{-3} \mathrm{ s}^{-1}$. Calculate the rate constant and its
 Units.
 
 If the concentration of P is tripled and the concentration of Q is doubled, by what factor does the
-Rate increase?
+rate increase?
 
 <details>
 <summary>Answer</summary>
@@ -952,7 +952,7 @@ Temperature increase dramatically increases the fraction of molecules exceeding 
 
 On the Maxwell-Boltzmann distribution, the area under the curve beyond $E_a$ increases
 Disproportionately as temperature rises. This is the dominant factor in the rate increase, not the
-Collision frequency.
+collision frequency.
 
 </details>
 
@@ -1046,7 +1046,7 @@ t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}
 $$
 
 The half-life is **independent** of the initial concentration. This is a defining characteristic of
-First-order reactions.
+first-order reactions.
 
 Radioactive decay is a first-order process.
 
@@ -1185,7 +1185,7 @@ $k = 0.0116 \mathrm{ s}^{-1}$
 ### Refrigeration and Food Preservation
 
 Lowering temperature slows the rate of biochemical reactions (enzyme-catalysed decomposition) that
-Cause food spoilage. Each $10^\circ$ C reduction approximately halves the rate.
+cause food spoilage. Each $10^\circ$ C reduction approximately halves the rate.
 
 ### Pressure Cookers
 

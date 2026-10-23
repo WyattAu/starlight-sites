@@ -19,7 +19,7 @@ description: "This section contains notes and study materials for IB Physics, ba
 IB Physics is structured like a building with five floors, each floor depending on the one below. Theme A (mechanics) is the foundation: if you do not understand forces and energy, the upper floors will wobble. Theme B explores what matter is made of at the molecular level, revealing that temperature is just atoms jiggling. Theme C shows that waves are disturbances that carry energy without carrying matter, like a Mexican wave in a stadium. Theme D introduces fields, which are nature's way of exerting force at a distance. Theme E pushes into the quantum world, where particles behave like waves and certainty dissolves into probability.
 
 This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The
-Course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering
+course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering
 Additional material in greater depth.
 
 ---
@@ -91,8 +91,8 @@ Depends.
 ### Worked Example: Projectile Motion (A.1)
 
 A ball is thrown from the edge of a cliff 45.0 m high with an initial velocity of 25.0 m/s at an
-Angle of 35.0 degrees above the horizontal. Find: (a) the time it takes to hit the ground, (b) the
-Horizontal range, and (c) the speed of the ball just before impact.
+angle of 35.0 degrees above the horizontal. Find: (a) the time it takes to hit the ground, (b) the
+horizontal range, and (c) the speed of the ball just before impact.
 
 <details>
 <summary>Solution</summary>
@@ -150,7 +150,7 @@ The tension provides the centripetal force:
 - **Period:** $T = \dfrac{2\pi r}{v} = \dfrac{2\pi(0.80)}{4.0} = 1.26$ s
 
 Note: In a true horizontal circle, gravity would cause the string to angle downward. This
-Calculation assumes the circular path is horizontal and gravity is balanced by another force.
+calculation assumes the circular path is horizontal and gravity is balanced by another force.
 
 </details>
 
@@ -175,7 +175,7 @@ The remaining 35% of the input power is wasted as heat and sound.
 ### Worked Example: Conservation of Energy (A.3)
 
 A 2.00 kg block is released from rest at the top of a smooth curved ramp of height 3.50 m. At the
-Bottom it slides across a rough horizontal surface ($\mu_k = 0.30$) before hitting a spring with
+bottom it slides across a rough horizontal surface ($\mu_k = 0.30$) before hitting a spring with
 spring Constant $k = 500$ N/m. Find the maximum compression of the spring.
 
 <details>
@@ -202,7 +202,7 @@ spring Constant $k = 500$ N/m. Find the maximum compression of the spring.
 
 A spacecraft travels at $0.85c$ relative to Earth. A clock on the spacecraft measures a time
 Interval of $2.0 \times 10^6$ s between two events. What time interval is measured by an observer on
-Earth?
+earth?
 
 <details>
 <summary>Solution</summary>
@@ -231,7 +231,7 @@ The Earth observer measures a longer time interval of $3.8 \times 10^6$ s.
 ## Theme B: The Particulate Nature of Matter
 
 This theme examines matter at the microscopic scale, covering thermal physics, the behaviour of
-Gases, and the structure of matter.
+gases, and the structure of matter.
 
 **SL content includes:**
 
@@ -297,7 +297,7 @@ $R = 8.31$ J/(mol K) and the molar mass of the gas as $0.0290$ kg/mol.
 ### Worked Example: Isothermal Compression (B.3)
 
 A cylinder contains $0.20$ mol of an ideal gas at $300$ K and $1.5 \times 10^5$ Pa. The gas is
-Compressed isothermally to half its original volume. Calculate the final pressure and the work Done
+compressed isothermally to half its original volume. Calculate the final pressure and the work Done
 on the gas.
 
 <details>
@@ -321,7 +321,7 @@ The work done **on** the gas is $345$ J (positive, since volume decreases).
 A 12.0 V battery with negligible internal resistance is connected to two resistors: $R_1 = 4.0$ ohms
 in series with a parallel combination of $R_2 = 6.0$ ohms and $R_3 = 3.0$ ohms. Find (a) the total
 Resistance, (b) the current from the battery, (c) the potential difference across $R_1$ And (d) the
-Current through $R_2$.
+current through $R_2$.
 
 <details>
 <summary>Solution</summary>
@@ -477,7 +477,7 @@ The period of a simple pendulum is independent of mass -- a key result to rememb
 
 A pipe of length $0.85$ m is open at both ends. The speed of sound in air is $340$ m/s. Determine
 the fundamental frequency and the frequency of the second harmonic. Repeat for a pipe of the same
-Length that is closed at one end.
+length that is closed at one end.
 
 <details>
 <summary>Solution</summary>
@@ -576,7 +576,7 @@ $G = 6.67 \times 10^{-11}$ N m$^2$/kg$^2$.
 ### Worked Example: Orbital Speed and Period (D.1)
 
 A $500$ kg satellite orbits Earth at an altitude of $300$ km. Calculate the orbital speed and the
-Orbital period.
+orbital period.
 
 <details>
 <summary>Solution</summary>
@@ -594,7 +594,7 @@ Orbital period.
 ### Worked Example: Electric Field and Potential (D.2)
 
 Two point charges, $q_1 = +3.0$ nC and $q_2 = -5.0$ nC, are separated by $0.20$ m. Determine the
-Electric field strength and the electric potential at the midpoint between the charges.
+electric field strength and the electric potential at the midpoint between the charges.
 
 <details>
 <summary>Solution</summary>
@@ -736,7 +736,7 @@ eV. Use $h = 6.63 \times 10^{-34}$ J s, $c = 3.00 \times 10^8$ m/s, $e = 1.60 \t
 ### Worked Example: Radioactive Half-Life (E.3)
 
 A sample of iodine-131 has an initial activity of $6400$ Bq. The half-life of iodine-131 is $8.04$
-Days. Calculate (a) the activity after $32.2$ days, and (b) the time for the activity to fall to
+days. Calculate (a) the activity after $32.2$ days, and (b) the time for the activity to fall to
 $200$ Bq.
 
 <details>
@@ -781,7 +781,7 @@ This is a typical energy release per fission event of uranium-235.
 
 An electron is accelerated from rest through a potential difference of $500$ V. Calculate the final
 Speed of the electron and the electric field strength if the acceleration takes place over a
-Distance of $0.050$ m.
+distance of $0.050$ m.
 
 <details>
 <summary>Solution</summary>
@@ -861,7 +861,7 @@ The key differences between SL and HL are:
 ### Most-Tested Topics (by Exam Frequency)
 
 Based on analysis of past IB Physics examinations, the following topics appear most frequently and
-Carry significant marks:
+carry significant marks:
 
 1. **Mechanics (A.1--A.3):** Projectile motion, conservation of energy, momentum collisions,
    circular motion. Expect at least one major question in Paper 2.
@@ -1212,7 +1212,7 @@ The physics data booklet is your most important tool in the exam. To use it effe
 - $s = 15.0 - 44.1 = -29.1$ m (29.1 m below release point)
 
 If you get this wrong, revise: Kinematics -- SUVAT equations and sign conventions for
-Upward/downward motion (Theme A.1).
+upward/downward motion (Theme A.1).
 
 </details>
 

@@ -24,7 +24,7 @@ categories:
 
 Arenes are hydrocarbons containing one or more benzene rings. Benzene ($\mathrm{C}_6\mathrm{H}_6$)
 Is the archetypal aromatic compound. Its structure and reactivity differ fundamentally from those of
-Alkenes, despite both containing $\pi$ electrons. The key distinction is that benzene"s $\pi$
+alkenes, despite both containing $\pi$ electrons. The key distinction is that benzene"s $\pi$
 Electrons are **delocalised** over the entire ring, forming an aromatic system with exceptional
 Thermodynamic stability.
 
@@ -33,7 +33,7 @@ Thermodynamic stability.
 ### Molecular Formula and Degree of Unsaturation
 
 Benzene has the molecular formula $\mathrm{C}_6\mathrm{H}_6$ Corresponding to four degrees of
-Unsaturation. This immediately rules out an acyclic structure and indicates significant multiple
+unsaturation. This immediately rules out an acyclic structure and indicates significant multiple
 Bonding or ring formation.
 
 ### The Kekule Structure
@@ -51,17 +51,17 @@ is intermediate between single and double, consistent with bond order of 1.5.
 
 **2. No isomers of 1,2-disubstituted benzene.** The Kekule structure predicts two distinct isomers
 of 1,2-dibromobenzene (bromines on a "single" bond vs on a "double" bond). Only one compound is
-Observed.
+observed.
 
 **3. Thermochemical evidence.** The experimental enthalpy of hydrogenation of benzene
 ($-208\,\mathrm{kJ/mol}$) is significantly less exothermic than the theoretical value for three
-Isolated double bonds ($3 \times -120 = -360\,\mathrm{kJ/mol}$). The difference of approximately
+isolated double bonds ($3 \times -120 = -360\,\mathrm{kJ/mol}$). The difference of approximately
 $152\,\mathrm{kJ/mol}$ is the **delocalisation energy** (also called resonance energy or aromatic
 Stabilisation energy).
 
 **4. Resistance to addition reactions.** Unlike alkenes, benzene does not readily undergo addition
 Reactions that would destroy the aromatic $\pi$ system. It favours substitution, which preserves the
-Delocalised ring.
+delocalised ring.
 
 ### The Delocalised Model
 
@@ -98,7 +98,7 @@ Two steps:
    is exothermic.
 
 The overall reaction is thermodynamically favourable because the aromatic system is regenerated. The
-Rate-determining step is the initial electrophilic attack.
+rate-determining step is the initial electrophilic attack.
 
 ### Nitration
 
@@ -206,7 +206,7 @@ The tribromo derivative precipitates because it is much less soluble in water th
 Phenol is a weak acid ($\mathrm{p}K_a \approx 10$) compared with carboxylic acids
 ($\mathrm{p}K_a \approx 4\mathrm{--}5$) but is more acidic than alcohols
 ($\mathrm{p}K_a \approx 16$). The phenoxide ion ($\mathrm{C}_6\mathrm{H}_5\mathrm{O}^-$) is
-Stabilised by delocalisation of the negative charge over the aromatic ring:
+stabilised by delocalisation of the negative charge over the aromatic ring:
 
 $$
 \mathrm{C}_6\mathrm{H}_5\mathrm{OH} \rightleftharpoons \mathrm{C}_6\mathrm{H}_5\mathrm{O}^- + \mathrm{H}^+
@@ -487,7 +487,7 @@ Calculate the delocalisation energy of benzene using the following hydrogenation
 **Solution:**
 
 Benzene has 6 C--C bonds (effectively bond order 1.5), 6 C--H bonds, and we break 3 H--H bonds. We
-Form cyclohexane with 6 C--C bonds (single) and 12 C--H bonds.
+form cyclohexane with 6 C--C bonds (single) and 12 C--H bonds.
 
 Expected $\Delta H$ if benzene had 3 isolated C=C bonds:
 
@@ -514,9 +514,9 @@ Proceeds readily.
 **Solution:**
 
 The $-\mathrm{NO}_2$ group is strongly electron-withdrawing through both the inductive effect (the
-Nitrogen is electron-deficient) and resonance (the $\pi$ electrons of the ring are delocalised onto
+nitrogen is electron-deficient) and resonance (the $\pi$ electrons of the ring are delocalised onto
 the oxygen atoms of the nitro group). This deactivates the ring toward electrophilic attack by
-Reducing the electron density in the $\pi$ system. Additionally, the $-\mathrm{NO}_2$ group makes
+reducing the electron density in the $\pi$ system. Additionally, the $-\mathrm{NO}_2$ group makes
 the ring less nucleophilic, so the electrophilic attack step (already the rate-determining step)
 Becomes prohibitively slow.
 

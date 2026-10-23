@@ -122,7 +122,7 @@ covered, including the cession of Hong Kong Island (1842), the Kowloon Peninsula
 Territories (1898), the Japanese occupation (1941-1945), post-war economic development, the 1967
 riots, the Sino-British Joint Declaration (1984), the handover (1997), and subsequent political
 developments. Students should understand Hong Kong's unique position as a bridge between East and
-West, its economic transformation, and the tensions between its colonial legacy and Chinese
+west, its economic transformation, and the tensions between its colonial legacy and Chinese
 sovereignty.
 
 ## Assessment Structure

@@ -21,7 +21,7 @@ categories:
 </script>
 
 This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a
-Specific concept, requires 2–5 steps, and includes a revision redirect to the relevant topic.
+specific concept, requires 2–5 steps, and includes a revision redirect to the relevant topic.
 
 <hr />
 
@@ -166,7 +166,7 @@ Market power?
 And is a monopsonist in the labour market. The labour supply is $w = 10 + 2L$ and the marginal
 Product of labour is $MP_L = 30 - L$. Calculate (a) the profit-maximising employment and wage, and
 (b) the employment and wage if the labour market were perfectly competitive. (c) Calculate the
-Deadweight loss.
+deadweight loss.
 
 <details>
 <summary>Answer</summary>
@@ -192,7 +192,7 @@ Backwards?
 
 **Q14.** A country has five income groups with annual incomes: £15,000, £25,000, £35,000, £60,000,
 £165,000. (a) Calculate the Gini coefficient. (b) If the government introduces a 20% flat tax and
-Redistributes it equally, what happens to the Gini coefficient?
+redistributes it equally, what happens to the Gini coefficient?
 
 <details>
 <summary>Answer</summary>
@@ -240,7 +240,7 @@ Conclusion: monopoly is statically inefficient but may be dynamically efficient 
 
 **Q18.** A negative externality in production leads to overproduction. Explain why a Pigouvian tax
 Can achieve the socially optimal output, while a tradable permit scheme can achieve the same
-Outcome. Compare the two approaches.
+outcome. Compare the two approaches.
 
 <details>
 <summary>Answer</summary>
@@ -296,8 +296,8 @@ The optimal level of pollution is where **marginal social cost of pollution = ma
 
 **Q23.** An economy produces two goods: tea and biscuits. Base year (2020): tea 50 units at £2,
 Biscuits 100 units at £1. Current year (2024): tea 60 units at £3, biscuits 90 units at £2.
-Calculate (a) nominal GDP in both years, (b) real GDP in 2024, (c) the GDP deflator, and (d) the
-Inflation rate.
+calculate (a) nominal GDP in both years, (b) real GDP in 2024, (c) the GDP deflator, and (d) the
+inflation rate.
 
 <details>
 <summary>Answer</summary>
@@ -324,7 +324,7 @@ Frictional unemployment is not market failure because: (1) It is productive, wor
 
 **Q25.** An economy has MPC = 0.6, MPT = 0.2, MPM = 0.15. The government increases spending by £80
 Billion. Calculate (a) the complex multiplier, (b) the total change in GDP, and (c) the change in
-Imports induced by the spending increase.
+imports induced by the spending increase.
 
 <details>
 <summary>Answer</summary>
@@ -475,7 +475,7 @@ The Lucas critique argues that policy evaluation using models with parameters es
 
 **Q38.** An economy is at full employment. The government increases spending on infrastructure by
 £100 billion. Analyse the short-run and long-run effects on output, prices, interest rates, and
-Private investment. Under what conditions might this policy be beneficial?
+private investment. Under what conditions might this policy be beneficial?
 
 <details>
 <summary>Answer</summary>

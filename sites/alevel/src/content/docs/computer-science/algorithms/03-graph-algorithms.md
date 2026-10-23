@@ -23,7 +23,7 @@ categories:
 ## 1. Dijkstra's Algorithm (Revisited)
 
 See [Graphs](/computer-science/data-structures/05-graphs/) for the full treatment. Here we
-Provide additional detail on the priority queue implementation and A\* extension.
+provide additional detail on the priority queue implementation and A\* extension.
 
 ### Priority Queue Optimisation
 
@@ -42,7 +42,7 @@ Frontiers meet. This can reduce the search space significantly in practice.
 ### Motivation
 
 Dijkstra's algorithm explores in all directions equally. For pathfinding with a known target, we can
-Use a **heuristic** to guide the search toward the goal.
+use a **heuristic** to guide the search toward the goal.
 
 ### Algorithm
 
@@ -404,7 +404,7 @@ $V \times O((V + E)\log V) = V \times O(V \log V) = O(V^2 \log V)$.
 Floyd-Warshall: $O(V^3)$.
 
 For sparse graphs: $V^2 \log V \ll V^3$ for large $V$. So running Dijkstra from every vertex is more
-Efficient for sparse graphs.
+efficient for sparse graphs.
 
 For dense graphs ($E = O(V^2)$): Dijkstra from every vertex = $O(V^2 \log V + V^3 \log V)$... Wait:
 $V \times O((V + V^2)\log V) = V \times O(V^2 \log V) = O(V^3 \log V)$. Floyd-Warshall = $O(V^3)$.
@@ -431,7 +431,7 @@ Start: A. Current = A.
 
 Nearest unvisited from A: B (10). Path: A→B, cost: 10. Nearest unvisited from B: D (25). Path:
 A→B→D, cost: 35. Nearest unvisited from D: C (30). Path: A→B→D→C, cost: 65. Return to A: C→A (15).
-Total: 80.
+total: 80.
 
 Path: A→B→D→C→A, total cost: 80.
 
@@ -444,7 +444,7 @@ Optimal solution?
 <summary>Answer</summary>
 
 2-opt removes two edges from the current tour and reconnects the two resulting paths in the other
-Possible way. If the new total distance is shorter, the swap is accepted. This corrects "crossing"
+possible way. If the new total distance is shorter, the swap is accepted. This corrects "crossing"
 Edges, which are always suboptimal in metric TSP.
 
 2-opt does **not** always find the optimal solution. It can get stuck in local optima,
@@ -465,7 +465,7 @@ $\mathrm{dist}[i][i] \lt 0$ for any vertex $i$ There exists a negative cycle thr
 **Proof.** $\mathrm{dist}[i][i]$ represents the shortest path from $i$ back to $i$. If this is
 Negative, there exists a cycle with total weight $\lt 0$ through vertex $i$. This cycle can be
 Traversed repeatedly to make the shortest path arbitrarily negative, meaning shortest paths are
-Undefined. $\square$
+undefined. $\square$
 
 </details>
 
@@ -526,7 +526,7 @@ D–E(2). Show a step-by-step trace table.
 <summary>Hint</summary>
 
 Use a table with columns: Visited, A, B, C, D, E. At each step, visit the unvisited vertex with the
-Smallest known distance, then update distances to its unvisited neighbours.
+smallest known distance, then update distances to its unvisited neighbours.
 
 </details>
 
@@ -694,7 +694,7 @@ Vertices `{A, B, C, D, E, F}` and edges: (A,B,6), (A,C,1), (A,D,5), (B,C,5), (B,
 <summary>Hint</summary>
 
 Maintain a set of vertices in the MST and a priority queue of crossing edges. At each step, add the
-Minimum-weight edge that connects a vertex in the MST to a vertex outside it.
+minimum-weight edge that connects a vertex in the MST to a vertex outside it.
 
 </details>
 
@@ -726,7 +726,7 @@ Show each step with the candidate edges and the vertex added.
 <summary>Hint</summary>
 
 Start with MST = `{S}`. The crossing edges are those from S to non-MST vertices. Always pick the
-Minimum-weight crossing edge.
+minimum-weight crossing edge.
 
 </details>
 
@@ -752,7 +752,7 @@ Minimum-weight crossing edge.
 **Problem 7.** For an unweighted graph with vertices `{A, B, C, D, E, F}` and edges
 `{A–B, A–C, B–D, C–D, D–E, D–F, E–F}`Compare the process of finding the shortest path from A to F
 Using Dijkstra's algorithm versus BFS. Explain why BFS is sufficient and more efficient for
-Unweighted graphs.
+unweighted graphs.
 
 <details>
 <summary>Hint</summary>
@@ -824,7 +824,7 @@ Degenerate into something simpler?
 **Correctness equivalence:** When all edge weights are 1, the cumulative distance to a vertex equals
 The number of edges traversed to reach it. Dijkstra's always extracts the vertex with the minimum
 Distance first, which is exactly the vertex closest (fewest edges) from the source. This is the same
-Order BFS explores vertices (level by level). Therefore, both algorithms find identical shortest
+order BFS explores vertices (level by level). Therefore, both algorithms find identical shortest
 Paths.
 
 **Complexity comparison:**
@@ -855,7 +855,7 @@ Complexity. Dijkstra's is only necessary when edge weights vary.
 **Problem 9.** A company needs to connect all 8 of its office buildings with fibre optic cables.
 Explain whether they should use a minimum spanning tree algorithm or a shortest path algorithm. What
 if they only need to connect the headquarters to every other office (but offices don't need to
-Connect to each other)?
+connect to each other)?
 
 <details>
 <summary>Hint</summary>
@@ -870,13 +870,13 @@ Finding optimal paths from one source to all other vertices (shortest path tree)
 
 **Scenario 1, Connect all offices to each other:** Use a **minimum spanning tree (MST)** algorithm
 (Kruskal's or Prim's). The MST connects all vertices with the minimum total edge weight. Since the
-Company wants every office reachable from every other office with the least total cabling cost, the
+company wants every office reachable from every other office with the least total cabling cost, the
 MST is the optimal solution. Any other connected graph would have equal or greater total weight.
 
 **Scenario 2, Connect headquarters to every office (star topology):** Use **Dijkstra's shortest
 Path algorithm** from the headquarters. This finds the shortest path from the headquarters to each
-Individual office. The result is a **shortest path tree**, which may differ from the MST, it
-Minimises the path from headquarters to each office, not the total cabling cost.
+individual office. The result is a **shortest path tree**, which may differ from the MST, it
+minimises the path from headquarters to each office, not the total cabling cost.
 
 **Key difference:**
 
@@ -891,7 +891,7 @@ Minimises the path from headquarters to each office, not the total cabling cost.
 
 The shortest path tree from HQ may use more total cable than the MST. Conversely, the MST may route
 Traffic between some offices through longer paths than necessary. The choice depends on whether the
-Priority is minimising infrastructure cost (MST) or minimising communication latency (shortest
+priority is minimising infrastructure cost (MST) or minimising communication latency (shortest
 Paths).
 
 </details>
@@ -902,13 +902,13 @@ A–B(7), A–D(5), B–C(8), B–D(9), B–E(7), C–E(5), D–E(15).
 (a) Use Dijkstra's algorithm to find the shortest path from A to E. Show all working. (b) Use Prim's
 Algorithm starting from A to find the minimum spanning tree. Show all working. (c) State the total
 Weight of the shortest path from A to E and the total weight of the MST. (d) Explain why the
-Shortest path from A to E is not necessarily part of the MST.
+shortest path from A to E is not necessarily part of the MST.
 
 <details>
 <summary>Hint</summary>
 
 For part (a), maintain a table of distances as you visit each vertex. For part (b), track which
-Edges cross the MST boundary at each step. For part (d), think about the different optimisation
+edges cross the MST boundary at each step. For part (d), think about the different optimisation
 Objectives of each algorithm.
 
 </details>

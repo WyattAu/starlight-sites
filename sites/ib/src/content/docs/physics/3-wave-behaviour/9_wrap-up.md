@@ -72,18 +72,18 @@ Determine the period of these small radial oscillations.
   exactly the same as the orbital period (Kepler's Third Law).
 
 <b>If you get this wrong, you should focus on:</b> The concept of effective potential energy in
-Orbital mechanics, using calculus to find stable equilibrium points ($U'(r)=0$) and the effective
+orbital mechanics, using calculus to find stable equilibrium points ($U'(r)=0$) and the effective
 Spring constant ($k=U''(r)$), and the fundamental connection between the restoring force and the
-Conditions for SHM.
+conditions for SHM.
 
 </details>
 
 1. **Question (C.3 & C.4):** Two coherent point sources, S1 and S2, emit sound waves of wavelength
 0.50 m in phase. They are separated by a distance of 1.2 m. A microphone is moved along a line
 Parallel to the line connecting S1 and S2, at a large distance D = 10 m away. At the same time, a
-Reflective wall is placed 0.75 m behind the sources, creating standing waves between the sources and
+reflective wall is placed 0.75 m behind the sources, creating standing waves between the sources and
 the wall. A) Calculate the number of destructive interference nodes located between S1 and S2 on the
-Line connecting them. B) Calculate the separation between the central maximum and the first-order
+line connecting them. B) Calculate the separation between the central maximum and the first-order
 Maximum on the distant screen. C) Now consider the wall. Will the point midway between S1 and S2 on
 the connecting line be a displacement node or antinode for the standing wave? Justify.
 
@@ -120,18 +120,18 @@ the connecting line be a displacement node or antinode for the standing wave? Ju
   a **displacement node**.
 
 <b>If you get this wrong, you should focus on:</b> Distinguishing between interference conditions in
-The near-field (between sources) and far-field (screen), the small angle approximation, and the
-Conditions for nodes/antinodes in standing waves relative to a fixed boundary.
+the near-field (between sources) and far-field (screen), the small angle approximation, and the
+conditions for nodes/antinodes in standing waves relative to a fixed boundary.
 
 </details>
 
 1. **Question (HL Only):** A single slit of width _b_ = 1.2 μm is illuminated by light of wavelength
 600 nm. The diffraction pattern is projected onto a screen. Immediately behind the first slit, a
-Double slit with separation _d_ = 3.6 μm is placed. A) At what angle is the third minimum of the
-Single-slit diffraction pattern located? b) How many bright interference fringes from the double
+double slit with separation _d_ = 3.6 μm is placed. A) At what angle is the third minimum of the
+single-slit diffraction pattern located? b) How many bright interference fringes from the double
 Slit appear within the central maximum of the single-slit diffraction pattern? c) If the amplitude
 of the wave from the center of the single slit is $A_0$ What is the approximate intensity of the
-First-order double-slit fringe relative to the central double-slit fringe?
+first-order double-slit fringe relative to the central double-slit fringe?
 
 <details>
 <summary>Answer</summary>
@@ -182,7 +182,7 @@ First-order double-slit fringe relative to the central double-slit fringe?
 <b>If you get this wrong, you should focus on:</b> The concept of a diffraction envelope modulating
 An interference pattern, correctly applying the conditions for minima (single-slit) and maxima
 (double-slit), and understanding how to find the number of fringes within the central envelope. The
-Intensity calculation is a very high-level synthesis step.
+intensity calculation is a very high-level synthesis step.
 
 </details>
 
@@ -227,7 +227,7 @@ to the star.
 ### Fundamental Wave Properties
 
 A **wave** is a disturbance that transfers energy through a medium (or vacuum, for EM waves) without
-Transferring matter.
+transferring matter.
 
 ### Key Wave Quantities
 
@@ -311,7 +311,7 @@ n_1 \sin\theta_1 = n_2 \sin\theta_2
 $$
 
 Where $n = \frac{c}{v}$ is the **refractive index** of a medium, $c$ is the speed of light in
-Vacuum, and $v$ is the speed of light in the medium.
+vacuum, and $v$ is the speed of light in the medium.
 
 **Total internal reflection (TIR)** occurs when light travels from a denser medium ($n_1$) to a less
 Dense medium ($n_2$) and the angle of incidence exceeds the **critical angle** $\theta_c$:
@@ -373,7 +373,7 @@ The **central maximum** is twice as wide as the secondary maxima, and is the bri
 ### Resolution (Rayleigh Criterion)
 
 Two sources are just resolved when the central maximum of one diffraction pattern coincides with the
-First minimum of the other. The Rayleigh criterion states:
+first minimum of the other. The Rayleigh criterion states:
 
 $$
 \theta = \frac{1.22\lambda}{b}
@@ -393,7 +393,7 @@ Where $D$ is the diameter of the aperture.
 ### Worked Example: Resolving Power
 
 A telescope with a mirror of diameter $0.10$ m observes light of wavelength $550$ nm. What is the
-Minimum angular separation it can resolve?
+minimum angular separation it can resolve?
 
 $$
 \theta = \frac{1.22 \times 550 \times 10^{-9}}{0.10} = 6.71 \times 10^{-6} \mathrm{ rad} \approx 0.00038^\circ
@@ -523,7 +523,7 @@ $$
 ### Worked Example: Guitar String
 
 A guitar string of length $0.65$ m has a fundamental frequency of $330$ Hz. What is the speed of
-Waves on the string?
+waves on the string?
 
 $$
 v = f_1 \times 2L = (330)(1.30) = 429 \mathrm{ m s}^{-1}
@@ -554,7 +554,7 @@ $$
 ## The Doppler Effect
 
 The **Doppler effect** is the change in observed frequency (and wavelength) of a wave when there is
-Relative motion between the source and the observer.
+relative motion between the source and the observer.
 
 ### General Formula
 

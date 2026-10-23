@@ -415,7 +415,7 @@ instead.
    resort for sovereign governments
 
 (c) **Austerity**: fiscal consolidation deepened Greece's recession. GDP fell by 25% (2008--2016).
-Unemployment rose to 27.5%. Social spending cuts reduced health and education outcomes. The fiscal
+unemployment rose to 27.5%. Social spending cuts reduced health and education outcomes. The fiscal
 multiplier in a depressed economy is high, so austerity was particularly self-defeating
 
 **ECB intervention (OMT, 2012)**: Mario Draghi's commitment to "do whatever it takes" and the OMT
@@ -435,7 +435,7 @@ Mechanism, Capital Markets Union) address some gaps but progress is incomplete.
 <summary>Problem 13: Terms of Trade and Development Policy</summary>
 
 Country X is a copper exporter. The following data show its terms of trade and income terms of
-Trade:
+trade:
 
 <div class="table-wrap">
 

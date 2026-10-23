@@ -57,7 +57,7 @@ $$
 $\mathrm{HSO_4^-/\mathrm{SO_4^{2-}$ (acid/conjugate base) and
 $\mathrm{H_2\mathrm{O/\mathrm{H_3\mathrm{O^+$ (base/conjugate acid). Note that $\mathrm{HSO_4^-$ is
 Acting as an acid (donating a proton) and $\mathrm{H_2\mathrm{O$ is acting as a base (accepting a
-Proton).
+proton).
 
 ### Strong and Weak Acids
 
@@ -269,7 +269,7 @@ $$
 ### What is a Buffer?
 
 A **buffer solution** resists changes in pH when small amounts of acid or base are added. It
-Consists of a weak acid and its conjugate base (or a weak base and its conjugate acid).
+consists of a weak acid and its conjugate base (or a weak base and its conjugate acid).
 
 **Acidic buffer:** Weak acid ($\mathrm{HA$) + salt of weak acid ($\mathrm{A^-$).
 
@@ -422,7 +422,7 @@ Equivalence point at pH > 7 (alkaline).
 
 **Worked Example 13:** $25.0 \mathrm{ cm^3$ of $0.10 \mathrm{ M$ $\mathrm{CH_3\mathrm{COOH$
 ($K_a = 1.74 \times 10^{-5}$) is titrated with $0.10 \mathrm{ M$ $\mathrm{NaOH$. Find the pH at the
-Equivalence point.
+equivalence point.
 
 Moles of $\mathrm{CH_3\mathrm{COO^-$ formed = $0.00250 \mathrm{ mol$.
 
@@ -456,7 +456,7 @@ $$
 
 **Worked Example 14:** $20.0 \mathrm{ cm^3$ of $0.15 \mathrm{ M$ $\mathrm{NH_3$
 ($K_b = 1.78 \times 10^{-5}$) is titrated with $0.10 \mathrm{ M$ $\mathrm{HCl$. Find the pH after
-Adding $15.0 \mathrm{ cm^3$ of $\mathrm{HCl$.
+adding $15.0 \mathrm{ cm^3$ of $\mathrm{HCl$.
 
 Moles of $\mathrm{NH_3 = 0.15 \times 0.0200 = 0.00300 \mathrm{ mol$ Moles of $\mathrm{HCl$ added
 $= 0.10 \times 0.0150 = 0.00150 \mathrm{ mol$
@@ -512,7 +512,7 @@ Point.
 
 :::caution
 For a strong acid-weak base titration" -- this is incorrect. Phenolphthalein (pH 8.3-10.0) is
-Suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
+suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
 Acid-weak base titrations (equivalence pH below 7), methyl orange is the correct choice.
 
 ---
@@ -669,7 +669,7 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 ## Salt Hydrolysis
 
 When a salt dissolves in water, its ions may react with water (hydrolyse), affecting the pH of the
-Solution.
+solution.
 
 ### Salts from Strong Acid + Strong Base
 
@@ -811,7 +811,7 @@ $\mathrm{H^+$ than the weak acid.
 
 **Weak acid-strong base:** The initial pH is higher than for a strong acid at the same
 Concentration. There is a buffering region in the middle of the curve (where the weak acid and its
-Conjugate base coexist). The equivalence point is at pH > 7.
+conjugate base coexist). The equivalence point is at pH > 7.
 
 **Strong acid-weak base:** The equivalence point is at pH < 7.
 

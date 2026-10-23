@@ -86,7 +86,7 @@ $N_A = 6.02 \times 10^{23} \mathrm{ mol}^{-1}$.
 ### Molar Mass ($M$)
 
 The molar mass is the mass of one mole of a substance, numerically equal to $A_r$ or $M_r$ but with
-Unit g/mol.
+unit g/mol.
 
 $$
 n = \frac{m}{M}
@@ -379,7 +379,7 @@ Check: Fe: 2 = 2, O: 3 + 3 = 6 = 6, C: 3 = 3.
 ### Molar Ratios in Equations
 
 The stoichiometric coefficients in a balanced equation give the molar ratio of reactants and
-Products.
+products.
 
 $$
 \mathrm{N}_2 + 3\mathrm{H}_2 \to 2\mathrm{NH}_3
@@ -418,7 +418,7 @@ Mass of $\mathrm{NH}_3 = 2.00 \times 17.0 = 34.0 \mathrm{ g}$
 ## Limiting Reagent
 
 The limiting reagent is the reactant that is completely consumed first and thus determines the
-Maximum amount of product that can be formed.
+maximum amount of product that can be formed.
 
 ### Procedure
 
@@ -589,7 +589,7 @@ Volume at RTP = $0.250 \times 24.0 = 6.00 \mathrm{ dm}^3$
 ## Volumetric Analysis (Titration)
 
 Volumetric analysis is a quantitative technique for determining the concentration of a solution by
-Reaction with a standard solution of known concentration.
+reaction with a standard solution of known concentration.
 
 ### Key Apparatus
 
@@ -680,15 +680,15 @@ $\%\mathrm{ purity} = \dfrac{0.795}{1.00} \times 100\% = 79.5\%$
 ### Back Titration
 
 Back titration is used when the substance being analysed reacts too slowly, is insoluble, or the
-Endpoint is hard to detect directly.
+endpoint is hard to detect directly.
 
 1. React the analyte with excess standard reagent.
 2. Titrate the remaining excess reagent with another standard solution.
 
 **Worked example 16:** 2.00 g of impure $\mathrm{CaCO}_3$ is reacted with 50.0 cm$^3$ of 1.00
 Mol/dm$^3$ $\mathrm{HCl}$ (excess). The remaining $\mathrm{HCl}$ requires 30.0 cm$^3$ of 0.500
-Mol/dm$^3$ $\mathrm{NaOH}$ for neutralisation. Calculate the percentage of $\mathrm{CaCO}_3$ in the
-Sample.
+mol/dm$^3$ $\mathrm{NaOH}$ for neutralisation. Calculate the percentage of $\mathrm{CaCO}_3$ in the
+sample.
 
 $$
 \mathrm{CaCO}_3 + 2\mathrm{HCl} \to \mathrm{CaCl}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{CO}_2
@@ -943,7 +943,7 @@ Formula = $\mathrm{Na}_2\mathrm{CO}_3 \cdot 10\mathrm{H}_2\mathrm{O}$ (washing s
 ### Problem 4
 
 2.43 g of magnesium is added to 100 cm$^3$ of 2.00 mol/dm$^3$ hydrochloric acid. Calculate the
-Volume of hydrogen gas produced at RTP and identify the limiting reagent.
+volume of hydrogen gas produced at RTP and identify the limiting reagent.
 
 $$
 \mathrm{Mg} + 2\mathrm{HCl} \to \mathrm{MgCl}_2 + \mathrm{H}_2
@@ -969,7 +969,7 @@ Volume at RTP = $0.100 \times 24.0 = 2.40 \mathrm{ dm}^3$
 ### Problem 5
 
 In a back titration, 0.500 g of limestone ($\mathrm{CaCO}_3$) is reacted with 40.0 cm$^3$ of 0.500
-Mol/dm$^3$ $\mathrm{HCl}$. The excess $\mathrm{HCl}$ requires 28.0 cm$^3$ of 0.200 mol/dm$^3$
+mol/dm$^3$ $\mathrm{HCl}$. The excess $\mathrm{HCl}$ requires 28.0 cm$^3$ of 0.200 mol/dm$^3$
 $\mathrm{NaOH}$ for neutralisation. Calculate the percentage of $\mathrm{CaCO}_3$ in the limestone.
 
 <details>
@@ -990,7 +990,7 @@ Mass of $\mathrm{CaCO}_3$ = $0.00720 \times 100.1 = 0.721 \mathrm{ g}$
 $\%\mathrm{ CaCO}_3 = \dfrac{0.721}{0.500} \times 100\% = 144\%$
 
 This is impossible. The issue is that with only 0.500 g of limestone, 40 cm$^3$ of 0.500 M HCl is
-Far more than needed. Let me use more appropriate values.
+far more than needed. Let me use more appropriate values.
 
 Revised: 0.500 g limestone + 50.0 cm$^3$ of 0.200 mol/dm$^3$ HCl, excess requires 20.0 cm$^3$ of
 0.100 mol/dm$^3$ NaOH.

@@ -26,7 +26,7 @@ Variables: fertility, mortality, and migration. This page focuses on fertility-r
 Policy.
 
 Population policies are shaped by the prevailing demographic theory and political ideology of their
-Time. In the mid-20th century, concerns about rapid population growth in developing countries
+time. In the mid-20th century, concerns about rapid population growth in developing countries
 (informed by Malthusian thinking) drove anti-natalist policies. In the early 21st century, concerns
 about population ageing and decline in developed countries drive pro-natalist policies.
 
@@ -34,7 +34,7 @@ about population ageing and decline in developed countries drive pro-natalist po
 
 Anti-natalist policies aim to reduce fertility rates, in response to rapid population Growth that
 strains resources, infrastructure, and public services. They may employ a combination of
-Information, incentive, and coercion.
+information, incentive, and coercion.
 
 ### China's One-Child Policy (1979--2015)
 
@@ -51,13 +51,13 @@ Fewer" campaign (1970s) had already reduced TFR from approximately 5.8 (1970) to
 Minorities, rural families whose first child was female, and parents who were both only children).
 Enforcement mechanisms included "social maintenance fees" (fines for exceeding the quota, which
 could be several times annual income), coerced sterilisation and abortion, loss of employment, and
-Denial of social services for unregistered children. Local officials faced career penalties for
-Exceeding population targets, creating strong incentives for enforcement.
+denial of social services for unregistered children. Local officials faced career penalties for
+exceeding population targets, creating strong incentives for enforcement.
 
 **Demographic outcomes.** The policy reduced China's TFR from approximately 2.7 (1979) to
 Approximately 1.6 (2010), and prevented an estimated 300--400 million births. However, the speed of
 the fertility decline was already established by the pre-existing voluntary programme, and it is
-Debated how much additional reduction the one-child policy achieved beyond what would have occurred
+debated how much additional reduction the one-child policy achieved beyond what would have occurred
 through socio-economic development alone.
 
 **Unintended consequences:**
@@ -79,8 +79,8 @@ through socio-economic development alone.
 **Policy reversal.** China replaced the one-child policy with a two-child policy in 2016 and a
 Three-child policy in 2021, accompanied by financial incentives for larger families. However,
 Fertility has not rebounded significantly (TFR approximately 1.09 in 2023, one of the lowest in the
-World), demonstrating that once cultural norms shift toward small families, financial incentives are
-Insufficient to reverse the trend.
+world), demonstrating that once cultural norms shift toward small families, financial incentives are
+insufficient to reverse the trend.
 
 ### Iran's Family Planning Programme (1989--2012)
 
@@ -90,18 +90,18 @@ through voluntary, not coercive, means.
 **Context.** Following the 1979 Islamic Revolution, Iran initially pursued a pro-natalist policy
 (Ayatollah Khomeini described population growth as a "blessing"), and TFR rose from approximately
 6.2 (1976) to approximately 7.0 (1984) during the Iran-Iraq War. After the war ended in 1988, the
-Government recognised that rapid population growth was undermining economic reconstruction.
+government recognised that rapid population growth was undermining economic reconstruction.
 
 **Implementation.** The government launched a comprehensive family planning programme in 1989 that
 Included: free contraceptive provision (pills, condoms, IUDs, sterilisation) through a national
 Primary healthcare network; education campaigns through mosques, schools, and media; female health
 Workers (behvarz) in rural areas providing counselling and contraception; and the inclusion of
-Family planning in the national curriculum.
+family planning in the national curriculum.
 
 **Outcomes.** TFR fell from approximately 7.0 (1984) to approximately 2.0 (2000) -- one of the
 Steepest fertility declines ever recorded. The decline was driven by the combination of accessible
 Contraception, female education (female literacy rose from approximately 35% in 1976 to
-Approximately 97% in 2023), and the rising cost of raising children in an urbanising economy.
+approximately 97% in 2023), and the rising cost of raising children in an urbanising economy.
 
 **Reversal.** In 2012, the government reversed course and introduced pro-natalist policies,
 Restricting access to contraception and promoting larger families in response to concerns about
@@ -113,10 +113,10 @@ Health experts and has had limited demographic impact.
 
 China's one-child policy is the most well-known anti-natalist policy, but it is atypical in its use
 of coercion. Most successful fertility reduction programmes have been voluntary, relying on the
-Combination of accessible family planning services, female education, and economic development.
+combination of accessible family planning services, female education, and economic development.
 Iran, Bangladesh, Thailand, and Indonesia all achieved rapid fertility decline without coercion.
 When evaluating anti-natalist policies, distinguish between voluntary and coercive approaches and
-Assess their effectiveness and ethical implications separately.
+assess their effectiveness and ethical implications separately.
 
 </details>
 
@@ -168,11 +168,11 @@ Singapore's experience illustrates both the limits of anti-natalist and pro-nata
 In 1966), the government launched the "Stop at Two" campaign, which included: sterilisation
 Incentives (priority for public housing allocation for sterilised couples); tax penalties for third
 and subsequent children; and public messaging discouraging large families. TFR fell from
-Approximately 4.9 (1966) to approximately 1.6 (1985) -- well below replacement.
+approximately 4.9 (1966) to approximately 1.6 (1985) -- well below replacement.
 
 **Pro-natalist phase (1987--present).** Recognising that fertility had fallen too far, the
 Government reversed course. The "Have Three or More" campaign and subsequent policies include: the
-Baby Bonus (cash gifts of SGD 8000 for the first two children, SGD 10 000 for the third and fourth);
+baby Bonus (cash gifts of SGD 8000 for the first two children, SGD 10 000 for the third and fourth);
 Tax rebates; subsidised childcare; matched savings accounts for children (Child Development
 Account); and paternity leave (2 weeks of government-paid paternity leave since 2017).
 
@@ -190,7 +190,7 @@ the 1990s.
 
 **Demographic context.** Japan's TFR has been below replacement since 1975 and fell to approximately
 1.20 in 2023. The population peaked at approximately 128 million in 2010 and has since declined to
-Approximately 124 million (2023). The proportion aged 65 and over is approximately 29%, the highest
+approximately 124 million (2023). The proportion aged 65 and over is approximately 29%, the highest
 in the world.
 
 **Policy measures.** The Angel Plan (1994) and subsequent iterations (New Angel Plan 2000, Plus One
@@ -203,39 +203,39 @@ Financial incentives (child allowances of approximately JPY 10 000--15 000 per m
 Barriers include: rigid corporate culture and long working hours (approximately 20% of employees
 Work more than 49 hours per week); a strong cultural norm of maternal caregiving (the "good mother"
 Ideology); the high cost of education (private juku cram schools are almost universal); and the
-Persistent gender wage gap (women earn approximately 23% less than men).
+persistent gender wage gap (women earn approximately 23% less than men).
 
 ## Gender Equality and Fertility
 
 ### The Relationship
 
 The relationship between gender equality and fertility is complex and non-linear. At low levels of
-Development, gender equality is associated with lower fertility (as women gain education and
-Employment opportunities, they have fewer children). At high levels of development, however, the
-Relationship reverses: countries with greater gender equality tend to have higher fertility than
-Countries with lower gender equality among developed nations.
+development, gender equality is associated with lower fertility (as women gain education and
+employment opportunities, they have fewer children). At high levels of development, however, the
+relationship reverses: countries with greater gender equality tend to have higher fertility than
+countries with lower gender equality among developed nations.
 
 This U-shaped relationship is explained by the **gender equity framework** (McDonald, 2000). In
-Societies where gender equality is high in the public sphere (education, employment) but low in the
-Private sphere (domestic work, childcare), women face an "incompatibility" between their public and
-Private roles. The opportunity cost of childbearing is high because women are expected to work
+societies where gender equality is high in the public sphere (education, employment) but low in the
+private sphere (domestic work, childcare), women face an "incompatibility" between their public and
+private roles. The opportunity cost of childbearing is high because women are expected to work
 outside the home while also bearing primary responsibility for domestic work and childcare. This
-Double burden suppresses fertility. In societies where gender equality is high in both spheres --
+double burden suppresses fertility. In societies where gender equality is high in both spheres --
 Where fathers share domestic responsibilities and state institutions provide childcare -- the
-Opportunity cost of childbearing is lower, and fertility is higher.
+opportunity cost of childbearing is lower, and fertility is higher.
 
 **Evidence.** Nordic countries (Sweden, Norway, Denmark, Iceland) combine relatively high gender
 Equality (with active fathers' quotas in parental leave, subsidised universal childcare, and
-Cultural norms supporting shared parenting) with relatively high fertility (TFR 1.5--1.7, compared
+cultural norms supporting shared parenting) with relatively high fertility (TFR 1.5--1.7, compared
 to 1.2--1.4 in Southern and Eastern Europe, where gender roles are more traditional). France, with
-Strong institutional support for working mothers, achieves the highest fertility in the EU (TFR
+strong institutional support for working mothers, achieves the highest fertility in the EU (TFR
 Approximately 1.7).
 
 <details>
 <summary>Common Pitfalls: Evaluating Population Policies Based on Fertility Outcomes Alone</summary>
 
 A common error is to evaluate population policies solely by whether they changed the TFR. This is
-Insufficient because: (1) fertility is influenced by many factors beyond government policy (economic
+insufficient because: (1) fertility is influenced by many factors beyond government policy (economic
 Conditions, cultural norms, housing costs, labour market conditions), making it difficult to isolate
 the policy effect; (2) policies may have important non-demographic outcomes (e.g., improving gender
 Equality, reducing child poverty, supporting working parents) even if they do not significantly
@@ -243,7 +243,7 @@ Change fertility; (3) the ethical dimensions of policy (coercion, reproductive a
 Equality) are as important as demographic outcomes. When evaluating population policies, consider
 Effectiveness (did the policy achieve its demographic goal?), cost-efficiency (was the policy
 Cost-effective relative to alternatives?), equity (who benefited and who bore the costs?), and
-Ethics (were reproductive rights respected?).
+ethics (were reproductive rights respected?).
 
 </details>
 

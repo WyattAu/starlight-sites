@@ -18,9 +18,9 @@ description: "Cognitive development refers to the progressive changes in thinkin
 ## Introduction
 
 Cognitive development refers to the progressive changes in thinking, reasoning, problem solving, and
-Understanding that occur from infancy through adulthood. The two most influential theories of
-Cognitive development are Jean Piaget's stage theory and Lev Vygotsky's sociocultural theory, which
-Offer fundamentally different accounts of the mechanisms and processes underlying cognitive change.
+understanding that occur from infancy through adulthood. The two most influential theories of
+cognitive development are Jean Piaget's stage theory and Lev Vygotsky's sociocultural theory, which
+offer fundamentally different accounts of the mechanisms and processes underlying cognitive change.
 
 ## Piaget's Theory of Cognitive Development
 
@@ -28,7 +28,7 @@ Offer fundamentally different accounts of the mechanisms and processes underlyin
 
 Jean Piaget proposed that cognitive development proceeds through four invariant, qualitatively
 Distinct stages. Each stage represents a fundamentally different way of understanding and
-Interacting with the world. Development is driven by the interaction between biological maturation
+interacting with the world. Development is driven by the interaction between biological maturation
 and environmental experience, through the processes of assimilation and accommodation.
 
 **Key concepts:**
@@ -194,14 +194,14 @@ more knowledgeable members of the culture.
 Theory of mind (ToM) refers to the ability to attribute mental states (beliefs, desires, intentions,
 Emotions) to oneself and to others, and to understand that others' mental states may differ from
 one's own. Theory of mind is a critical component of social cognition and is essential for
-Successful social interaction.
+successful social interaction.
 
 ### The Sally-Anne Test (Baron-Cohen, Leslie, and Frith, 1985)
 
 The Sally-Anne task is the classic test of theory of mind. A child is shown two dolls, Sally and
 Anne. Sally has a basket, and Anne has a box. Sally puts a marble in her basket and leaves the room.
 While Sally is away, Anne moves the marble from Sally's basket to her own box. Sally returns. The
-Child is asked: "Where will Sally look for her marble?"
+child is asked: "Where will Sally look for her marble?"
 
 **Findings:**
 
@@ -230,7 +230,7 @@ This is a crucial milestone in social-cognitive development.
 ### Kohlberg's Theory of Moral Development (1969)
 
 Lawrence Kohlberg proposed that moral reasoning develops through three levels, each containing two
-Stages, for a total of six stages. Kohlberg's theory is based on Piaget's cognitive-developmental
+stages, for a total of six stages. Kohlberg's theory is based on Piaget's cognitive-developmental
 Framework and focuses on the reasoning behind moral judgments rather than the judgments themselves.
 
 **Level 1: Pre-conventional morality (approximately ages 4--10)**

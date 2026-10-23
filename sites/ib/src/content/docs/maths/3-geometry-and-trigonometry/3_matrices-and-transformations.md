@@ -67,7 +67,7 @@ $$
 $$
 
 These operations satisfy the following axioms (making $\mathcal{M}_{m \times n}(\mathbb{R})$ a
-Vector space over $\mathbb{R}$):
+vector space over $\mathbb{R}$):
 
 - $A + B = B + A$ (commutativity)
 - $(A + B) + C = A + (B + C)$ (associativity)
@@ -213,7 +213,7 @@ A = \begin`\{pmatrix}` a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a
 $$
 
 The determinant can be computed by **cofactor expansion** along any row or column. Expanding along
-Row 1:
+row 1:
 
 $$
 \det(A) = a_{11} C_{11} + a_{12} C_{12} + a_{13} C_{13}
@@ -230,7 +230,7 @@ $$
 
 **Rule of Sarrus** (mnemonic for $3 \times 3$ only): Copy the first two columns to the right of the
 Matrix. Sum the products of the three downward diagonals, then subtract the products of the three
-Upward diagonals. This is NOT valid for matrices larger than $3 \times 3$.
+upward diagonals. This is NOT valid for matrices larger than $3 \times 3$.
 
 ### Properties of Determinants
 
@@ -448,7 +448,7 @@ of $M$.
 ### Reflections
 
 A reflection maps every point to its mirror image across a specified line. The determinant of any
-Reflection matrix is $-1$ (orientation is reversed).
+reflection matrix is $-1$ (orientation is reversed).
 
 **Reflection in the $x$-axis:**
 
@@ -616,12 +616,12 @@ the null space of $M - I$.
 For any $2 \times 2$ transformation matrix, the origin is always invariant.
 
 An **invariant line** is a line that is mapped onto itself (though individual points on the line may
-Move along it). A line through the origin with direction vector $\mathbf{d}$ is invariant if
+move along it). A line through the origin with direction vector $\mathbf{d}$ is invariant if
 $M\mathbf{d} = \lambda \mathbf{d}$ for some scalar $\lambda$ Which means $\mathbf{d}$ is an
 Eigenvector of $M$.
 
 A line is **point-wise invariant** (every point is fixed) if and only if every point on it is an
-Invariant point, meaning the line lies entirely in the null space of $M - I$.
+invariant point, meaning the line lies entirely in the null space of $M - I$.
 
 **Not all invariant lines are point-wise invariant.** For example, a stretch parallel to the
 $x$-axis $\begin{pmatrix} k & 0 \\ 0 & 1 \end{pmatrix}$ leaves the $x$-axis point-wise invariant and
@@ -630,7 +630,7 @@ every line parallel to the $x$-axis invariant as a line (points slide along it),
 
 For a reflection, the mirror line is point-wise invariant and the line perpendicular to it through
 the origin is invariant as a set (points are reflected across the mirror line but remain on the
-Perpendicular line).
+perpendicular line).
 
 ### Area Scale Factor
 
@@ -660,8 +660,8 @@ This extends to $3 \times 3$ matrices where $|\det(M)|$ is the volume scale fact
 ### Motivation
 
 When a linear transformation acts on a vector, the vector is generally rotated and scaled. Certain
-Special vectors, called **eigenvectors**, are only scaled (stretched or compressed) by the
-Transformation, not rotated. The factor by which an eigenvector is scaled is the corresponding
+special vectors, called **eigenvectors**, are only scaled (stretched or compressed) by the
+transformation, not rotated. The factor by which an eigenvector is scaled is the corresponding
 **eigenvalue**.
 
 ### Formal Definition
@@ -709,7 +709,7 @@ $$
 $$
 
 Where $S$ is the sum of the principal $2 \times 2$ minors (the sum of the determinants of the
-Matrices obtained by deleting each row and the corresponding column).
+matrices obtained by deleting each row and the corresponding column).
 
 **Fundamental properties of eigenvalues:**
 
@@ -729,7 +729,7 @@ $$
 $$
 
 This is a homogeneous system. Since $\det(A - \lambda I) = 0$ The rows of $A - \lambda I$ are
-Linearly dependent, and the system has infinitely many solutions forming a one-dimensional subspace
+linearly dependent, and the system has infinitely many solutions forming a one-dimensional subspace
 (a line through the origin) for each distinct eigenvalue.
 
 **Important:** Eigenvectors are determined only up to a non-zero scalar multiple. Any non-zero
@@ -760,8 +760,8 @@ For a $2 \times 2$ matrix with a repeated eigenvalue $\lambda$:
 
 For a $3 \times 3$ matrix, the characteristic equation is a cubic polynomial in $\lambda$. The cubic
 can have three distinct real roots, one repeated and one distinct real root, or one real root and
-Two complex conjugate roots. Since the IB course works over $\mathbb{R}$ Only real eigenvalues and
-Eigenvectors are considered.
+two complex conjugate roots. Since the IB course works over $\mathbb{R}$ Only real eigenvalues and
+eigenvectors are considered.
 :::
 
 :::note[Examples]
@@ -798,7 +798,7 @@ $v_2 + v_3 = 0$$v_3 = -v_2$ And $v_1$ is free. Two linearly independent eigenvec
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix}$.
 
 Since the geometric multiplicity of $\lambda_2 = 2$ equals its algebraic multiplicity (both $= 2$),
-The matrix is diagonalisable. The total number of linearly independent eigenvectors is $3$.
+the matrix is diagonalisable. The total number of linearly independent eigenvectors is $3$.
 
 $P = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 1 \\ 0 & 0 & -1 \end{pmatrix}, \quad D = \begin{pmatrix} 3 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 2 \end{pmatrix}$
 
@@ -835,7 +835,7 @@ $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 ### Diagonalisation
 
 An $n \times n$ matrix $A$ is **diagonalisable** if there exists an invertible matrix $P$ and a
-Diagonal matrix $D$ such that:
+diagonal matrix $D$ such that:
 
 $$
 A = PDP^{-1}
@@ -913,7 +913,7 @@ $= \begin{pmatrix} \frac{6282}{3} & \frac{3093}{3} \\ \frac{6186}{3} & \frac{318
 ### Gaussian Elimination
 
 Gaussian elimination is a systematic method for solving systems of linear equations by reducing the
-Augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
+augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
 
 **Elementary row operations:**
 
@@ -985,12 +985,12 @@ Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}
 
 :::caution
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
-Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
+frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
 
 ### Hill Cipher
 
 The Hill cipher is a classical polygraphic substitution cipher that uses matrix multiplication to
-Encrypt blocks of text. It demonstrates a direct application of matrices in cryptography.
+encrypt blocks of text. It demonstrates a direct application of matrices in cryptography.
 
 **Encryption procedure:**
 
@@ -1043,7 +1043,7 @@ Matrices are fundamental to 2D and 3D computer graphics. Every transformation of
 
 **Homogeneous coordinates.** To represent translations (which are not linear transformations) as
 Matrix multiplications, 2D points $(x, y)$ are extended to homogeneous coordinates $(x, y, 1)$. A
-Translation by $(t_x, t_y)$ is then:
+translation by $(t_x, t_y)$ is then:
 
 $$
 T = \begin`\{pmatrix}` 1 & 0 & t_x \\ 0 & 1 & t_y \\ 0 & 0 & 1 \end`\{pmatrix}`
@@ -1059,7 +1059,7 @@ Multiplication.
 
 **Composition advantage.** Instead of applying $n$ separate transformations to each of $m$ vertices,
 The transformations are composed into a single matrix $M = T_n \cdots T_2 T_1$ And each vertex is
-Transformed with a single multiplication $M\mathbf{v}$. This reduces the cost from $O(nm)$ to
+transformed with a single multiplication $M\mathbf{v}$. This reduces the cost from $O(nm)$ to
 $O(n^3 + m)$ matrix operations.
 
 ### Markov Chains
@@ -1087,7 +1087,7 @@ is a left eigenvector of $P$ with eigenvalue $1$.
 
 For a regular Markov chain (one where some power of $P$ has all positive entries), the steady-state
 Distribution exists, is unique, and is independent of the initial state. The eigenvalue $1$ is
-Always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
+always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
 :::
 
 :::note[Examples]
@@ -1176,8 +1176,8 @@ In particular, $|Q\mathbf{v}| = |\mathbf{v}|$ and the angle between vectors is p
 
 **Orthogonal diagonalisation (spectral theorem).** A real symmetric matrix $A$ can always be
 Orthogonally diagonalised: $A = QDQ^T$ where $Q$ is orthogonal and $D$ is diagonal. This is a
-Stronger form of diagonalisation that is guaranteed for all symmetric matrices (even those with
-Repeated eigenvalues), since symmetric matrices always have $n$ linearly independent eigenvectors
+stronger form of diagonalisation that is guaranteed for all symmetric matrices (even those with
+repeated eigenvalues), since symmetric matrices always have $n$ linearly independent eigenvectors
 that can be chosen orthonormal.
 
 ---
@@ -1339,7 +1339,7 @@ $$
 ### Problem 4
 
 Find the matrix representing an anticlockwise rotation by $60^\circ$ about the origin, and use it to
-Find the image of the point $(1, \sqrt{3})$.
+find the image of the point $(1, \sqrt{3})$.
 
 <details>
 <summary>Solution</summary>

@@ -271,7 +271,7 @@ $$
 
 **Definition.** A **hydrogen bond** is a strong dipole-dipole attraction between a hydrogen atom
 Covalently bonded to a highly electronegative atom (N, O, or F) and a lone pair on another
-Electronegative atom.
+electronegative atom.
 
 Requirements:
 
@@ -340,6 +340,24 @@ Key features:
 
 </div>
 
+The six phase changes form three opposing pairs — each change has a reverse:
+
+```mermaid
+stateDiagram-v2
+    s1 : Solid
+    l1 : Liquid
+    g1 : Gas
+    s1 --> l1 : Melting (heat in)
+    l1 --> s1 : Freezing (heat out)
+    l1 --> g1 : Vaporisation (heat in)
+    g1 --> l1 : Condensation (heat out)
+    s1 --> g1 : Sublimation (heat in)
+    g1 --> s1 : Deposition (heat out)
+```
+
+Energy flows **in** for solid → liquid → gas and flows **out** for the reverse — the direction of
+each arrow's heat label is examinable.
+
 ### Water's Phase Diagram
 
 The solid--liquid boundary for water has a **negative slope** (unlike most substances). This is
@@ -402,7 +420,7 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence t
 <summary>Problem 1</summary>
 
 Explain why the boiling point of propan-1-ol ($97\degree\mathrm{C}$) is much higher than that of
-Butane ($-1\degree\mathrm{C}$), even though butane has a larger molar mass.
+butane ($-1\degree\mathrm{C}$), even though butane has a larger molar mass.
 
 **Solution:**
 
@@ -444,7 +462,7 @@ Is higher than that of $\mathrm{NH}_3$ despite both having hydrogen bonding.
 
 $\mathrm{NH}_3$ vs $\mathrm{PH}_3$: $\mathrm{NH}_3$ forms hydrogen bonds (H bonded to N), which are
 much stronger than the dipole-dipole and dispersion forces in $\mathrm{PH}_3$ (P is not
-Electronegative enough for H-bonding).
+electronegative enough for H-bonding).
 
 $\mathrm{H}_2\mathrm{O}$ vs $\mathrm{NH}_3$: Each water molecule can form up to **two** hydrogen
 Bonds (two O--H donors and two lone pair acceptors), whereas each $\mathrm{NH}_3$ molecule can form
@@ -989,7 +1007,7 @@ explain how the phase transition temperature limits their use.
 <summary>Problem 13: Data Analysis -- Compressibility Factor</summary>
 
 A gas has a compressibility factor $Z = 0.87$ at $200\;\mathrm{K}$ and $10\;\mathrm{atm}$. (a)
-Calculate the actual molar volume of the gas and compare it with the ideal gas prediction. (b)
+calculate the actual molar volume of the gas and compare it with the ideal gas prediction. (b)
 Explain whether intermolecular attractions or molecular volume effects dominate at these conditions.
 (c) Predict qualitatively whether $Z$ would be greater than, less than, or equal to $1$ at
 $500\;\mathrm{K}$ and $100\;\mathrm{atm}$ for the same gas.

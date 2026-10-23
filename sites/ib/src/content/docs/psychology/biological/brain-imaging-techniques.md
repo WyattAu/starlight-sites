@@ -58,7 +58,7 @@ Of lesions or tumours, and grey matter/white matter differentiation.
 ### CT (Computed Tomography)
 
 CT scanning uses X-rays to create cross-sectional images of the brain. Multiple X-ray beams are
-Passed through the brain from different angles, and a computer reconstructs a three-dimensional
+passed through the brain from different angles, and a computer reconstructs a three-dimensional
 Image from the resulting data.
 
 **What it measures:** Brain structure, particularly useful for detecting bleeding, tumours, and
@@ -78,7 +78,7 @@ FMRI measures brain activity by detecting changes in blood oxygenation and blood
 Blood-oxygen-level-dependent, or BOLD, signal). When a brain region becomes more active, it consumes
 more oxygen, leading to an increase in local blood flow (a phenomenon known as the haemodynamic
 Response). Because the increase in blood flow exceeds the increase in oxygen consumption, the
-Concentration of oxygenated haemoglobin increases relative to deoxygenated haemoglobin. FMRI detects
+concentration of oxygenated haemoglobin increases relative to deoxygenated haemoglobin. FMRI detects
 this difference, as oxygenated and deoxygenated haemoglobin have different magnetic properties.
 
 **What it measures:** Changes in neural activity (indirectly, through the BOLD signal).
@@ -110,8 +110,8 @@ Response).
 #### Haxby et al. (2001): Distributed Neural Representation of Faces and Objects
 
 Haxby and colleagues used fMRI to investigate how the brain represents different categories of
-Visual objects. Participants viewed images of faces, cats, houses, chairs, scissors, shoes, and
-Bottles while undergoing fMRI scanning.
+visual objects. Participants viewed images of faces, cats, houses, chairs, scissors, shoes, and
+bottles while undergoing fMRI scanning.
 
 **Key findings:**
 
@@ -140,7 +140,7 @@ Bottles while undergoing fMRI scanning.
 PET involves injecting a radioactive tracer (a positron-emitting isotope attached to a biologically
 Active molecule, most commonly fluorodeoxyglucose, or FDG) into the bloodstream. The tracer
 Accumulates in active brain regions (because active neurons consume more glucose). As the
-Radioactive tracer decays, it emits positrons, which collide with electrons, producing gamma rays
+radioactive tracer decays, it emits positrons, which collide with electrons, producing gamma rays
 that are detected by the PET scanner. A computer reconstructs a three-dimensional image of brain
 Activity from the gamma ray data.
 
@@ -172,7 +172,7 @@ Receptor binding (depending on the tracer used).
 
 Hariri and colleagues used fMRI to investigate the relationship between a common genetic
 Polymorphism in the serotonin transporter gene (5-HTTLPR) and amygdala activation in response to
-Fearful faces.
+fearful faces.
 
 **Key findings:**
 
@@ -229,12 +229,12 @@ Activity).
 ### TMS (Transcranial Magnetic Stimulation)
 
 TMS uses a rapidly changing magnetic field to induce electrical currents in a specific region of the
-Cortex, either stimulating or temporarily disrupting neural activity in that region. A coil is
-Placed over the scalp, and brief magnetic pulses are delivered.
+cortex, either stimulating or temporarily disrupting neural activity in that region. A coil is
+placed over the scalp, and brief magnetic pulses are delivered.
 
 **What it measures:** Not primarily a measurement technique; rather, TMS is a method for causally
 Manipulating brain activity. By temporarily disrupting activity in a specific brain region and
-Observing the behavioural consequences, researchers can determine whether that region is necessary
+observing the behavioural consequences, researchers can determine whether that region is necessary
 for a particular cognitive function.
 
 **Strengths:**

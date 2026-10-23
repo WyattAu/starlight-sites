@@ -33,7 +33,7 @@ Transformations, and many applications in science and engineering.
 ### 1.1 Definitions
 
 An $m \times n$ **matrix** $A$ is a rectangular array of numbers with $m$ rows and $n$ columns. The
-Entry in row $i$ Column $j$ is written $a_{ij}$.
+entry in row $i$ Column $j$ is written $a_{ij}$.
 
 **Addition.** If $A$ and $B$ are both $m \times n$ Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
 
@@ -247,7 +247,7 @@ Check: this is equivalent to a reflection in the line $y = -x$.
 An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$ I.e. $(A - I)\mathbf{x} = \mathbf{0}$.
 
 An **invariant line** is a line that is mapped to itself (points on the line may move along the
-Line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
+line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
 some scalar $\lambda$.
 
 <hr />
@@ -328,7 +328,7 @@ A = PDP^{-1}
 $$
 
 Where $P$ has the eigenvectors as columns and $D$ is a diagonal matrix with the eigenvalues on the
-Diagonal.
+diagonal.
 
 **Worked example.** For the matrix above:
 
@@ -799,7 +799,7 @@ $$
 This can be derived as $R_\theta \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} R_{-\theta}$.
 
 For $m = 1$ ($\theta = \pi/4$): $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ Which is
-Reflection in $y = x$ (consistent with the standard table).
+reflection in $y = x$ (consistent with the standard table).
 
 ### Example 10.4: Successive transformations and invariant lines
 
@@ -918,7 +918,7 @@ Solution: $x = 0$, $y = 1$, $z = 2$.
 
 Complex numbers $a + bi$ can be represented as $\begin{pmatrix}a & -b\\b & a\end{pmatrix}$.
 Multiplication of complex numbers corresponds to matrix multiplication, and $|z|^2 = \det$ of this
-Matrix. See [Complex Numbers](/further-maths/pure/complex-numbers/).
+matrix. See [Complex Numbers](/further-maths/pure/complex-numbers/).
 
 ### 11.2 Matrices and vectors
 
@@ -995,7 +995,7 @@ Homogeneous coordinates.
 <summary>Solution</summary>
 
 In homogeneous coordinates, this is the composite of translate by $(-1, -2)$ Enlarge by $3$ And
-Translate back by $(1, 2)$:
+translate back by $(1, 2)$:
 
 $$
 M = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 3 & 0 & 0 \\ 0 & 3 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -2 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 3 & 0 & -2 \\ 0 & 3 & -4 \\ 0 & 0 & 1 \end{pmatrix}
@@ -1056,7 +1056,7 @@ $\lambda = 5$: $\begin{pmatrix}-1&2\\2&-4\end{pmatrix}\mathbf{v}=\mathbf{0} \imp
 Eigenvector: $(2,1)$ Normalised: $\dfrac{1}{\sqrt{5}}(2,1)$.
 
 Orthogonality check: $(1)(2)+(-2)(1) = 0$. ✓ The eigenvectors are orthogonal (as expected for a
-Symmetric matrix).
+symmetric matrix).
 
 ### Example 13.2: Using diagonalisation to compute a matrix power
 
@@ -1114,7 +1114,7 @@ $(S-I)\mathbf{v} = \begin{pmatrix}0&k\\0&0\end{pmatrix}\mathbf{v} = \mathbf{0} \
 Only one eigenvector: $(1,0)$.
 
 The $x$-axis ($y=0$) is the only invariant line through the origin. All lines $y = c$ (for any
-Constant $c$) are invariant (but not through the origin, except $y=0$).
+constant $c$) are invariant (but not through the origin, except $y=0$).
 
 ### Example 13.6: Matrix equation $AX = B$
 
@@ -1222,7 +1222,7 @@ Properties:
 - Orthogonal transformations preserve lengths and angles
 
 Every $2\times 2$ orthogonal matrix with $\det = 1$ is a rotation; with $\det = -1$ it is a
-Reflection.
+reflection.
 
 ### 16.2 Diagonalisation revisited
 

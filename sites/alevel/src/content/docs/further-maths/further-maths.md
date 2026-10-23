@@ -25,7 +25,7 @@ categories:
 
 A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful
 Settings, introduces advanced statistical methods, and deepens the study of mechanics. It is the
-Natural next step for students who intend to study mathematics, physics, engineering, or computer
+natural next step for students who intend to study mathematics, physics, engineering, or computer
 Science at university.
 
 ### Board Coverage
@@ -135,7 +135,7 @@ Master the pure core first, complex numbers and matrices are prerequisites for t
 Practise full exam papers under timed conditions; Further Maths questions require chaining 3--4
 techniques in a single problem. Focus on proof questions: they carry high marks and require you to
 justify every step. Use the Further Pure modules as the backbone, then branch into Statistics or
-Mechanics based on your module route.
+mechanics based on your module route.
 
 ### Key Formulae
 

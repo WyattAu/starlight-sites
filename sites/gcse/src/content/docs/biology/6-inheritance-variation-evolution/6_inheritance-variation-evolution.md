@@ -29,7 +29,7 @@ categories:
 ### 1.1 DNA Structure
 
 DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the
-Nucleus of cells and is organised into structures called **chromosomes**.
+nucleus of cells and is organised into structures called **chromosomes**.
 
 **Structure of DNA:**
 
@@ -54,7 +54,7 @@ with its complementary partner, ensuring that the genetic information is copied 
 3. A nitrogenous base -- attached to the 1' carbon of the sugar.
 
 Nucleotides are joined together by phosphodiester bonds between the phosphate group of one
-Nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
+nucleotide and the sugar of the next, forming a sugar-phosphate backbone. The bases project inwards
 from the backbone and pair with complementary bases on the opposite strand.
 
 ### 1.2 Genes and Chromosomes
@@ -94,8 +94,8 @@ The genetic code in DNA is used to make proteins through a two-stage process:
    peptide bonds to form a polypeptide chain. The chain folds into its functional protein shape.
 
 The sequence of bases in a gene determines the sequence of amino acids in a protein, which
-Determines the protein's shape and function. A change in the DNA sequence (mutation) can change the
-Amino acid sequence, potentially altering the protein's shape and function.
+determines the protein's shape and function. A change in the DNA sequence (mutation) can change the
+amino acid sequence, potentially altering the protein's shape and function.
 
 **Summary of protein synthesis steps.**
 
@@ -311,13 +311,13 @@ Probability of a child with cystic fibrosis: 25%
 
 **Understanding why carriers do not show the disease.** A carrier (Ff) has one dominant allele (F)
 That produces enough functional protein to maintain normal health. The recessive allele (f) does not
-Produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
+produce functional protein, but one copy of the dominant allele is sufficient. This is the principle
 of **dominance**: the dominant allele masks the effect of the recessive allele in the heterozygote.
 
 **Worked Example 3: A two-generation cross.**
 
 In guinea pigs, black fur (B) is dominant over white fur (b). A homozygous black guinea pig is
-Crossed with a white guinea pig.
+crossed with a white guinea pig.
 
 F0 cross: BB $\times$ bb
 
@@ -378,7 +378,7 @@ Y chromosome, while the mother always contributes an X chromosome.
 
 **Why recessive disorders are more common than dominant disorders.** A recessive disorder can be
 "hidden" in carriers (heterozygotes) who do not show the disease. These carriers can pass the
-Recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
+recessive allele to their children without knowing it. A dominant disorder cannot be hidden: anyone
 with the allele shows the disease. Dominant disorders are therefore more likely to be selected
 against (affected individuals may have reduced fitness and fewer children), while recessive
 Disorders can persist in the population for many generations through carriers.
@@ -404,7 +404,7 @@ Disorders can persist in the population for many generations through carriers.
 
 Some genes are located on the X chromosome. Because males have only one X chromosome (XY), a single
 Recessive allele on the X chromosome will be expressed in males. Females (XX) need two copies of the
-Recessive allele to show the condition.
+recessive allele to show the condition.
 
 **Example:** Red-green colour blindness is caused by a recessive allele on the X chromosome ($X^n$).
 A carrier female ($X^NX^n$) crossed with a normal male ($X^NY$):
@@ -490,7 +490,7 @@ Classify each characteristic as genetic (G), environmental (E), or both (B):
 
 **Key insight:** Natural selection does not act on genes directly; it acts on phenotypes (observable
 Characteristics). The phenotype that confers a survival or reproductive advantage is selected for,
-But the alleles that produce that phenotype are what are passed to the next generation.
+but the alleles that produce that phenotype are what are passed to the next generation.
 
 **Example:** Peppered moths during the Industrial Revolution.
 
@@ -502,7 +502,7 @@ But the alleles that produce that phenotype are what are passed to the next gene
   began to increase.
 
 This example demonstrates that natural selection is not directional in a fixed sense; it responds to
-Changes in the environment.
+changes in the environment.
 
 ### 4.3 Evidence for Evolution
 
@@ -589,7 +589,7 @@ The **binomial naming system** (Carl Linnaeus) gives each species a two-part Lat
 ### 5.1 Selective Breeding
 
 Selective breeding (artificial selection) is the process by which humans choose organisms with
-Desirable characteristics to be parents of the next generation.
+desirable characteristics to be parents of the next generation.
 
 **Examples:**
 
@@ -609,7 +609,7 @@ Desirable characteristics to be parents of the next generation.
 
 **Disadvantages:** Reduces genetic variation (all individuals become genetically similar, making the
 Population vulnerable to disease). Can cause health problems in animals (e.g., hip dysplasia in some
-Dog breeds, breathing difficulties in pugs).
+dog breeds, breathing difficulties in pugs).
 
 ### 5.2 Genetic Engineering
 
@@ -740,12 +740,12 @@ Growth hormone, clotting factors).
 ## 6. Higher Tier: Codominance and Incomplete Dominance
 
 Not all inheritance follows simple dominant/recessive patterns. Two important exceptions are
-Codominance and incomplete dominance.
+codominance and incomplete dominance.
 
 ### 6.1 Codominance
 
 In codominance, both alleles are expressed fully in the heterozygote. Neither allele is dominant or
-Recessive. The heterozygote shows both phenotypes simultaneously.
+recessive. The heterozygote shows both phenotypes simultaneously.
 
 **Example: Blood groups.** Human ABO blood groups are determined by three alleles: $I^A$, $I^B$ And
 $i$. $I^A$ and $I^B$ are codominant to each other, and both are dominant over $i$.
@@ -784,7 +784,7 @@ Possible blood groups: A, B, AB, and O (all four groups are possible, each with 
 ### 6.2 Incomplete Dominance
 
 In incomplete dominance, the heterozygote shows an intermediate phenotype between the two
-Homozygotes. The alleles blend rather than showing both fully.
+homozygotes. The alleles blend rather than showing both fully.
 
 **Example:** In snapdragons, the allele for red flowers (R) is incompletely dominant over the allele
 For white flowers (W). The heterozygote (RW) has pink flowers.
@@ -807,15 +807,15 @@ Phenotypic ratio: 1 red : 2 pink : 1 white.
 ### 6.3 Multiple Alleles
 
 Some genes have more than two alleles in the population, although any individual can only carry two
-Alleles (one on each chromosome). The ABO blood group system is an example: there are three alleles
+alleles (one on each chromosome). The ABO blood group system is an example: there are three alleles
 ($I^A$, $I^B$ And $i$), but each person carries only two of them.
 
 ## 7. Higher Tier: Pedigree Charts
 
 A pedigree chart is a diagram showing the inheritance of a particular trait through several
-Generations of a family. Pedigree charts are used by genetic counsellors to determine the pattern of
-Inheritance of a genetic disorder and to calculate the probability of future offspring being
-Affected.
+generations of a family. Pedigree charts are used by genetic counsellors to determine the pattern of
+inheritance of a genetic disorder and to calculate the probability of future offspring being
+affected.
 
 **Conventions:**
 
@@ -858,7 +858,7 @@ of one another during gamete formation (provided the genes are on different chro
 **Worked Example: Dihybrid cross in pea plants.**
 
 In pea plants, round seeds (R) are dominant over wrinkled seeds (r), and yellow seeds (Y) are
-Dominant over green seeds (y). Both genes are on different chromosomes. Cross two double
+dominant over green seeds (y). Both genes are on different chromosomes. Cross two double
 Heterozygotes: RrYy $\times$ RrYy.
 
 Each parent can produce four types of gamete: RY, Ry, rY, ry (in equal proportions).

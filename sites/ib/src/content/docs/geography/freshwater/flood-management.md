@@ -20,7 +20,7 @@ description: "Flooding occurs when water overtops the channel banks and inundate
 ## Causes of Flooding
 
 Flooding occurs when water overtops the channel banks and inundates adjacent land. Floods are
-Produced by the interaction of meteorological, hydrological, and human factors.
+produced by the interaction of meteorological, hydrological, and human factors.
 
 ### Physical Causes
 
@@ -33,7 +33,7 @@ Approximately 33 million people and submerging approximately one-third of the co
 
 **Snowmelt.** Rapid warming in spring can cause large volumes of snow to melt over a short period,
 Generating runoff that overwhelms river channels. The combination of snowmelt and rainfall is
-Particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
+particularly dangerous, as rain falling on snow accelerates melting. The Red River in North Dakota
 (USA) experiences severe spring flooding almost annually due to snowmelt, exacerbated by the river"s
 Northward flow (the southern, upstream portion thaws first, sending meltwater into still-frozen
 Downstream reaches).
@@ -78,7 +78,7 @@ areas.
 
 Dams store floodwater during high-flow periods and release it gradually during low-flow periods,
 Attenuating the flood peak downstream. The dam can be operated specifically for flood control (the
-Reservoir is kept partially empty as a flood buffer) or for multiple purposes (flood control, water
+reservoir is kept partially empty as a flood buffer) or for multiple purposes (flood control, water
 Supply, hydropower, recreation).
 
 **Effectiveness:** dams can significantly reduce peak discharge downstream. The Aswan High Dam on
@@ -103,7 +103,7 @@ USD 150 billion in property.
 **Limitations:** levees increase the velocity and depth of flow within the channel (constricting the
 River), which can increase erosion at the base of the levee and increase the risk of catastrophic
 Failure. Levee failure during Hurricane Katrina (2005) caused approximately 80% of New Orleans to
-Flood, killing over 1500 people. Levees also transfer flood risk downstream by preventing natural
+flood, killing over 1500 people. Levees also transfer flood risk downstream by preventing natural
 Floodplain storage.
 
 ### Channelisation
@@ -115,14 +115,14 @@ River channels to increase their conveyance capacity.
 
 **Limitations:** increases flood risk downstream (floodwater arrives faster and with greater
 Volume); destroys aquatic and riparian habitat; can accelerate bank erosion; is expensive to
-Maintain (channels require regular dredging to prevent sediment accumulation).
+maintain (channels require regular dredging to prevent sediment accumulation).
 
 ### Flood Walls and Barriers
 
 Flood walls are vertical concrete or steel barriers designed to protect specific areas of high value
 from floodwater. Movable storm surge barriers (e.g., the Thames Barrier, the Maeslantkering in the
 Netherlands) can be closed during flood events and opened at other times to allow navigation and
-Tidal flow.
+tidal flow.
 
 **Effectiveness:** highly effective for protecting critical infrastructure and densely populated
 Areas when properly maintained and operated.
@@ -145,27 +145,27 @@ Grazed pasture to native woodland can reduce peak discharge by 15--40% for moder
 
 **Limitations:** trees take decades to mature and achieve full hydrological effect; the
 Effectiveness of afforestation varies with soil type and storm intensity (during extreme storms, the
-Soil becomes saturated regardless of vegetation cover); there may be conflicts with agricultural
+soil becomes saturated regardless of vegetation cover); there may be conflicts with agricultural
 Land use.
 
 ### Floodplain Zoning
 
 Floodplain zoning involves restricting or regulating development on floodplains through planning
 Legislation. Zones are defined based on flood risk (probability of flooding), with the most
-Restrictive controls in areas of highest risk.
+restrictive controls in areas of highest risk.
 
 **Effectiveness:** prevents future increases in flood risk and exposure; allows floodplains to
 Perform their natural functions (flood storage, water quality improvement, habitat provision).
 
 **Limitations:** politically difficult to enforce, particularly in areas with high housing demand;
 Does not address existing development on floodplains; can be undermined by inadequate enforcement or
-Political pressure to grant planning permission.
+political pressure to grant planning permission.
 
 ### River Restoration
 
 River restoration involves returning modified rivers to more natural morphological and ecological
 Conditions. This can include remeandering (recreating meanders that were previously cut off),
-Removing artificial channel straightening, reinstating natural bank materials, and reconnecting
+removing artificial channel straightening, reinstating natural bank materials, and reconnecting
 Rivers to their floodplains.
 
 **Effectiveness:** restoring channel roughness and floodplain connectivity increases the channel's
@@ -195,7 +195,7 @@ Wetland infilling and sedimentation.
 Integrated flood management (IFM) combines hard and soft engineering approaches with land-use
 Planning, early warning systems, community preparedness, and ecosystem management to reduce flood
 Risk holistically. The concept is promoted by the World Meteorological Organisation (WMO) and the
-International Flood Management Initiative.
+international Flood Management Initiative.
 
 ### Key Principles
 
@@ -251,7 +251,7 @@ Has one of the world's most sophisticated flood management systems.
 
 **Room for the River (2006--2015).** This landmark programme represented a paradigm shift from hard
 Engineering (fighting water) to working with natural processes. It involved 30 projects along the
-Major rivers (Rhine, Meuse, Waal), including:
+major rivers (Rhine, Meuse, Waal), including:
 
 - Widening and deepening river channels
 - Lowering floodplains by removing topsoil
@@ -260,7 +260,7 @@ Major rivers (Rhine, Meuse, Waal), including:
 - Removing obstacles (quays, groynes) that constricted the channel
 
 The programme cost approximately EUR 2.3 billion and increased the channel's conveyance capacity by
-Approximately 18%, reducing flood risk for approximately 4 million people.
+approximately 18%, reducing flood risk for approximately 4 million people.
 
 **Delta Programme (2010--2050).** This long-term programme addresses flood risk from both rivers and
 The sea, with a budget of over EUR 20 billion. Key elements include:
@@ -276,13 +276,13 @@ The sea, with a budget of over EUR 20 billion. Key elements include:
 
 Examination questions often ask students to evaluate flood management strategies. A common error is
 to present hard and soft engineering as mutually exclusive alternatives, arguing that one is
-Inherently superior to the other. In practice, most modern flood management strategies combine
+inherently superior to the other. In practice, most modern flood management strategies combine
 Elements of both. The Netherlands, for example, uses both hard engineering (the Maeslantkering
 Barrier, reinforced dikes) and soft engineering (Room for the River, floodplain restoration). The
-Appropriate mix depends on context: the level of flood risk, the value of assets at risk, available
+appropriate mix depends on context: the level of flood risk, the value of assets at risk, available
 Finance, environmental considerations, and social preferences. A strong answer will evaluate the
-Specific combination of strategies used in a given case study and assess its appropriateness to the
-Local context.
+specific combination of strategies used in a given case study and assess its appropriateness to the
+local context.
 
 </details>
 

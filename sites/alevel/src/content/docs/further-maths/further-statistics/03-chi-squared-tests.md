@@ -41,7 +41,7 @@ Deviates significantly from expected values. It has two main applications: testi
 
 :::note
 On percentages or proportions. Always check the conditions (expected frequency $\geq 5$) before
-Applying the test. The formula booklet provides the chi-squared distribution table.
+applying the test. The formula booklet provides the chi-squared distribution table.
 :::
 
 <hr />
@@ -117,7 +117,7 @@ For the chi-squared approximation to be valid:
 ### 2.5 Yates" correction (continuity correction)
 
 For a $2 \times 2$ contingency table with small expected frequencies, Yates' correction adjusts the
-Test statistic:
+test statistic:
 
 $$
 \chi^2_{\mathrm{Yates}} = \sum\frac{(|O_i - E_i| - 0.5)^2}{E_i}
@@ -354,7 +354,7 @@ Explain why the chi-squared test statistic uses $(O_i - E_i)^2 / E_i$ rather tha
 <summary>Solution 3</summary>
 The sum $\sum(O_i - E_i) = 0$ always, since $\sum O_i = \sum E_i = n$ (both sum to the total
 Number of observations). This provides no information about the discrepancy between observed and
-Expected.
+expected.
 
 Squaring removes the sign, and dividing by $E_i$ standardises the contribution of each category.
 Categories with larger expected frequencies have larger absolute deviations, so dividing By $E_i$
@@ -711,7 +711,7 @@ $$
 ### 7.3 Intuition for degrees of freedom
 
 The degrees of freedom represent the number of independent pieces of information in the data, after
-Accounting for constraints. In a contingency table:
+accounting for constraints. In a contingency table:
 
 - Each row total is fixed, so each row has one fewer free value
 - Each column total is fixed, so each column has one fewer free value
@@ -731,7 +731,7 @@ When we reject $H_0$ at the 5% level, we are saying:
 Statistic at least as extreme as the one observed."
 
 This is **not** the same as saying $H_0$ is false with 95% probability. It is a statement about the
-Probability of the data given the hypothesis, not the probability of the hypothesis given the data.
+probability of the data given the hypothesis, not the probability of the hypothesis given the data.
 
 ### 8.2 Common misinterpretations
 
@@ -749,8 +749,8 @@ Probability of the data given the hypothesis, not the probability of the hypothe
 ### 8.3 Context matters
 
 A significant chi-squared test tells you the observed data is unlikely under $H_0$ But it does not
-Tell you **how** the data differs or whether the difference is meaningful. Always inspect the
-Observed vs expected frequencies to understand the nature of any discrepancy.
+tell you **how** the data differs or whether the difference is meaningful. Always inspect the
+observed vs expected frequencies to understand the nature of any discrepancy.
 
 <hr />
 
@@ -792,14 +792,14 @@ This approximation is useful when chi-squared tables do not list the required $\
 ### Using percentages instead of frequencies
 
 The chi-squared test requires raw count data. If you are given percentages, you must convert back to
-Frequencies using the sample size. Using percentages directly produces a test statistic that is off
+frequencies using the sample size. Using percentages directly produces a test statistic that is off
 by a factor of $n/100$ and gives completely wrong $p$-values.
 
 ### Wrong degrees of freedom
 
 For goodness of fit, forgetting to subtract the number of estimated parameters is the most common
 Error. For independence tests, using $r \times c$ instead of $(r-1)(c-1)$ will overestimate the
-Degrees of freedom and make the test too liberal.
+degrees of freedom and make the test too liberal.
 
 ### Small expected values
 
@@ -1088,7 +1088,7 @@ $5.18 > 3.84$: **reject** $H_0$. Significant difference in recovery rates.
 
 **Problem.** Data is tested against a normal distribution with mean and variance estimated from the
 Data. The data is grouped into 8 classes. One class has expected frequency 3 and is merged with an
-Adjacent class. State the degrees of freedom.
+adjacent class. State the degrees of freedom.
 
 **Solution.** Original classes: 8. After merging: 7 classes.
 
@@ -1216,7 +1216,7 @@ $10.87 > 3.84$: **reject** $H_0$. Significant association between region and tea
 ### Question 8
 
 A tetrahedral die is rolled 200 times. The observed frequencies for faces 1--4 are 38, 62, 55, 45.
-Test at the 10% level whether the die is fair.
+test at the 10% level whether the die is fair.
 
 <details>
 <summary>Solution</summary>
@@ -1253,7 +1253,7 @@ In these cases, Fisher's exact test or exact multinomial methods should be used 
 ### Question 10
 
 In a test of independence on a 4×3 contingency table, the calculated $\chi^2$ statistic is 18.7.
-Determine whether to reject $H_0$ at the 5% significance level.
+determine whether to reject $H_0$ at the 5% significance level.
 
 <details>
 <summary>Solution</summary>

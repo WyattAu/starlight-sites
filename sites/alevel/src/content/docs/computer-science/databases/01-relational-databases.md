@@ -240,7 +240,7 @@ A transitive dependency: $A \to B \to C$ (where $A$ is a key, $B$ and $C$ are no
 Key: student_id.
 
 Transitive dependency: student_id → department → dept_location. (dept_location depends on
-Department, not directly on student_id.)
+department, not directly on student_id.)
 
 **3NF solution:** Split:
 
@@ -264,7 +264,7 @@ Keys: (student, course) and (student, teacher).
 
 In 3NF: teacher → course is a transitive dependency through (student, teacher) → course. Wait,
 Teacher is not a non-prime attribute in 3NF's definition (it's part of a candidate key). So this
-Relation is in 3NF.
+relation is in 3NF.
 
 But: teacher → course, and teacher is NOT a superkey. So this violates BCNF.
 
@@ -497,7 +497,7 @@ WHERE salary > (
 ```
 
 For each employee, the subquery computes the average salary of that employee's department. If the
-Employee's salary exceeds this average, the row is included.
+employee's salary exceeds this average, the row is included.
 
 </details>
 
@@ -575,7 +575,7 @@ R(A, B, C) with functional dependencies: AB → C, C → B
 
 **Step 1: Find candidate keys.** By the closure of AB: AB⁺ = \{A, B, C\}, so AB is a candidate key.
 By the closure of AC: AC → C → B (by C → B and augmentation), so AC → ABC, making AC also a
-Candidate key.
+candidate key.
 
 **Step 2: Identify BCNF violations.** BCNF requires that for every non-trivial FD X → Y, X must be a
 Superkey. The FD C → B is non-trivial, but C is not a superkey (C does not determine A). Therefore R
@@ -650,7 +650,7 @@ Result:
 </div>
 
 The WHERE clause filters rows where both conditions are true simultaneously: the employee must be in
-Sales AND earn more than 45000. Carol is excluded because her salary (42000) is not > 45000. Bob and
+sales AND earn more than 45000. Carol is excluded because her salary (42000) is not > 45000. Bob and
 Eve are excluded because they are in IT.
 
 </details>
@@ -728,7 +728,7 @@ Result:
 </div>
 
 Carol does not appear because she has no enrolments, and INNER JOIN excludes unmatched rows. If we
-Wanted Carol to appear with NULL values, we would use LEFT JOIN starting from Students.
+wanted Carol to appear with NULL values, we would use LEFT JOIN starting from Students.
 
 </details>
 
@@ -749,7 +749,7 @@ Functional dependencies and normalise the table to 2NF.
 <summary>Hint</summary>
 
 First identify the candidate key(s). Then check for partial dependencies, non-key attributes that
-Depend on only part of a composite key.
+depend on only part of a composite key.
 
 </details>
 
@@ -845,7 +845,7 @@ Dependency. ✓
 In Students: key is student_id, only non-key attribute is student_name. No transitive dependency. ✓
 
 In Modules: key is module_code, non-key attributes are module_title, credits, lecturer. No
-Transitive dependency (all depend directly on module_code). ✓
+transitive dependency (all depend directly on module_code). ✓
 
 All three tables are in 3NF.
 
@@ -952,7 +952,7 @@ Mean the "Many" side (Booking) holds the foreign keys.
   made the booking.
 - The Room-to-Booking relationship is 1:Many because one room can be booked multiple times (on
   different dates), but each booking is for exactly one room. The foreign key `room_number` in
-  Booking records which room is booked.
+  booking records which room is booked.
 
 **Primary keys:**
 
@@ -1067,7 +1067,7 @@ WHERE borrow_date < '2025-01-01';
 ```
 
 This updates all borrow records where the borrow date is before 1st January 2025 and sets their
-Status to 'overdue'. This is a bulk update, multiple rows may be affected.
+status to 'overdue'. This is a bulk update, multiple rows may be affected.
 
 **(c) Delete a specific borrow record:**
 
@@ -1149,13 +1149,13 @@ Operations. The business has:
 (a) Design a normalised schema (at least 3NF) for this system. State each table, its columns,
 Primary keys, and foreign keys. (b) Write SQL to create the Employees table with appropriate
 Constraints. (c) Write an SQL query to find the names of all employees who work on projects with a
-Budget greater than 50000. (d) Write an SQL query to find the total salary bill for each department.
+budget greater than 50000. (d) Write an SQL query to find the total salary bill for each department.
 
 <details>
 <summary>Hint</summary>
 
 For (a), you need a junction table for the Many-to-Many employee-project relationship. For (c), you
-Need to join three tables. For (d), use GROUP BY with SUM.
+need to join three tables. For (d), use GROUP BY with SUM.
 
 </details>
 

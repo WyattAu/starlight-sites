@@ -35,14 +35,14 @@ Where $G = 6.67 \times 10^{-11}$ N m$^2$ kg$^{-2}$ is the gravitational constant
 ### Geometric Origin of the Inverse Square Law
 
 Consider a point mass emitting gravitational flux uniformly in all directions. The flux through a
-Sphere of radius $r$ is constant (by Gauss's law for gravity):
+sphere of radius $r$ is constant (by Gauss's law for gravity):
 
 $$
 \oint \mathbf{g} \cdot d\mathbf{A} = -4\pi G M_{\mathrm{enc}}
 $$
 
 Since the surface area is $4\pi r^2$ The flux density (field strength) must be $g = GM/r^2$. The
-Force on a test mass $m$ is then $F = mg = GMm/r^2$. This inverse square law is a direct geometric
+force on a test mass $m$ is then $F = mg = GMm/r^2$. This inverse square law is a direct geometric
 Consequence of flux conservation in three-dimensional space.
 
 ### Properties of the Gravitational Force
@@ -123,7 +123,7 @@ This is identical to the field of a point mass $M$ at the centre. $\square$
 
 **Proof (internal, $r \lt R$).** The same integral with $r \lt R$ evaluates to zero. Physically, for
 Every mass element pulling the test mass in one direction, there is a compensating element on the
-Opposite side. The nearer element pulls more strongly (shorter distance) but is subtended by a
+opposite side. The nearer element pulls more strongly (shorter distance) but is subtended by a
 smaller Solid angle, and these two effects cancel exactly. $\square$
 
 :::caution
@@ -439,8 +439,8 @@ circular. GPS satellites are Neither, they use medium Earth orbits at 20,200 km 
 </div>
 
 Both fields obey inverse square force laws, possess $1/r$ potentials, and satisfy a Gauss's law. The
-Structural parallel is exact, differing only in the source property (mass vs. Charge) and the
-Existence of negative charge enabling screening and repulsion.
+structural parallel is exact, differing only in the source property (mass vs. Charge) and the
+existence of negative charge enabling screening and repulsion.
 
 ## Problem Set
 
@@ -471,7 +471,7 @@ $T = 9.94 \times 10^6$ s $= 115$ days.
 <details>
 <summary>Problem 3</summary>
 Show that for a satellite in circular orbit, the ratio of kinetic energy to the magnitude of
-Potential energy is exactly $1:2$.
+potential energy is exactly $1:2$.
 
 **Answer.** $E_k = GMm/(2r)$$|E_p| = GMm/r$. Therefore $E_k / |E_p| = 1/2$. This follows from the
 Virial theorem: $2E_k + E_p = 0$. $\square$
@@ -553,7 +553,7 @@ J.
 <details>
 <summary>Problem 10</summary>
 Use the vis-viva equation to find the speed of a satellite at perigee ($r_p = 7.0 \times 10^6$ m) of an
-Elliptical orbit with apogee $r_a = 4.2 \times 10^7$ m.
+elliptical orbit with apogee $r_a = 4.2 \times 10^7$ m.
 
 **Answer.** Semi-major axis: $a = (r_p + r_a)/2 = (7.0 + 42.0) \times 10^6 / 2 = 2.45 \times 10^7$
 m.

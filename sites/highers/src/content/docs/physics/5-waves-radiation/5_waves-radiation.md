@@ -37,7 +37,7 @@ Water waves).
 
 Only transverse waves can be polarised (the oscillations restricted to a single plane). Sound cannot
 be polarised because it is longitudinal. This fact was historically important in establishing that
-Light is a transverse wave.
+light is a transverse wave.
 
 **Key Wave Quantities:**
 
@@ -104,7 +104,7 @@ $$
 The rate at which wavefronts arrive at the boundary must equal the rate at which they leave.
 Otherwise, wavefronts would pile up or gaps would appear. Therefore the frequency is unchanged.
 Since $v = f\lambda$ and $f$ is constant, a decrease in speed produces a proportional decrease in
-Wavelength.
+wavelength.
 
 **Total Internal Reflection:** Occurs when light travels from a denser to a less dense medium and
 The angle of incidence exceeds the critical angle.
@@ -132,7 +132,7 @@ Maximum diffraction occurs when the gap width is approximately equal to the wave
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
 is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
-Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
+edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
 from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Interference
@@ -153,7 +153,7 @@ A path difference of $\lambda$ corresponds to a phase difference of $2\pi$ (one 
 ### Double Slit Experiment
 
 For light of wavelength $\lambda$ passing through two slits separated by distance $d$ Observed on a
-Screen at distance $L$:
+screen at distance $L$:
 
 **Fringe spacing:** $w = \dfrac{\lambda L}{d}$
 
@@ -232,7 +232,7 @@ $$
 
 The human ear can detect sounds over a range of intensities spanning $10^{12}$ (from the threshold
 of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
-Require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
+require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
 0--120 dB, which is far more manageable.
 
 ---
@@ -308,7 +308,7 @@ Or more : after 3 half-lives, $A = 800 / 2^3 = 100 \mathrm{ Bq$.
 ### Why Radioactive Decay Is Random
 
 Each nucleus decays independently with a fixed probability per unit time. It is impossible to
-Predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
+predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
 _average_ behaviour of a large number of nuclei, not the behaviour of any individual nucleus. This
 is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
 the statistical distribution of many throws.
@@ -346,9 +346,9 @@ $$
 
 As nuclei get larger, the binding energy per nucleon increases (because the strong nuclear force
 Binds neighbouring nucleons). However, the strong force has a very short range, so nucleons on
-Opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
+opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
 between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
-Adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
+adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
 than iron can release energy through fission, and nuclei lighter than iron can release energy
 through fusion.
 
@@ -447,7 +447,7 @@ Background radiation comes from:
 ## 11. Worked Example: Single Slit Diffraction Intensity
 
 Light of wavelength $550 \mathrm{ nm$ passes through a slit of width $0.02 \mathrm{ mm$. Find the
-Angular width of the central maximum and the intensity of the first secondary maximum relative to
+angular width of the central maximum and the intensity of the first secondary maximum relative to
 the central maximum.
 
 **Central maximum half-width:**
@@ -513,7 +513,7 @@ $$
 $$
 
 After 100 years, about 9% of the original strontium-90 remains. This is why strontium-90 is so
-Hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
+hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
 enough to deliver significant radiation dose.
 
 ### Activity and Mass Relationship
@@ -566,7 +566,7 @@ $$
 
 Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
 do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
-Source of equal intensity adds 3 dB.
+source of equal intensity adds 3 dB.
 
 ## 15. Summary Table: Wave and Radiation Formulas
 
@@ -664,7 +664,7 @@ in the central maximum.
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
-Carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
+carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
 
 **Step 1: Use the decay law**
 
@@ -746,7 +746,7 @@ the light traverses the film twice (reflection from top and bottom surfaces).
 
 Ionising power: alpha &gt; beta &gt; gamma. Penetrating power is the reverse: gamma &gt; beta &gt;
 Alpha. A common exam question asks you to explain this inverse relationship: alpha particles are
-Large and slow with double charge, so they interact strongly (high ionisation, low penetration).
+large and slow with double charge, so they interact strongly (high ionisation, low penetration).
 Gamma rays have no charge or mass, so they pass through matter (low ionisation, high Penetration).
 
 ## Additional Practice Problems
@@ -878,7 +878,7 @@ $$
 $$
 
 At high activities, the GM tube undercounts because some particles arrive during the dead time. The
-True count rate is related to the observed count rate by:
+true count rate is related to the observed count rate by:
 
 $$
 R_{\mathrm{true} = \frac{R_{\mathrm{obs}}{1 - R_{\mathrm{obs} \times \tau}

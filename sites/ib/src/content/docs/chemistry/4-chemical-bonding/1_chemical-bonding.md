@@ -69,7 +69,7 @@ Type of bond is broken in the gaseous phase, measured in kJ/mol.
 ### Mechanism
 
 Ionic bonding results from the electrostatic attraction between cations and anions formed by
-Complete electron transfer from a metal atom to a non-metal atom.
+complete electron transfer from a metal atom to a non-metal atom.
 
 The driving force is the attainment of noble gas electron configurations:
 
@@ -128,7 +128,7 @@ you can measure experimentally.
 
 **Definition.** The **Born-Haber cycle** is a thermochemical cycle that decomposes the formation of
 An ionic solid into a series of sequential steps, allowing calculation of lattice energy from
-Measurable quantities.
+measurable quantities.
 
 For NaCl:
 
@@ -303,7 +303,7 @@ Properties.
 ### Dipole Moments
 
 A **bond dipole** is represented by an arrow pointing towards the more electronegative atom, with a
-Cross at the less electronegative end.
+cross at the less electronegative end.
 
 The **molecular dipole moment** ($\mu$) is the vector sum of all individual bond dipoles. A molecule
 can have polar bonds but be non-polar overall if the bond dipoles cancel by symmetry.
@@ -395,7 +395,7 @@ Is a metal.
 </div>
 
 Steel is an interstitial alloy of iron with carbon. Brass is a substitutional alloy of copper and
-Zinc.
+zinc.
 
 ---
 
@@ -411,7 +411,7 @@ Zinc.
 ## Intermolecular Forces
 
 Intermolecular forces (IMFs) are the attractions between molecules. They are much weaker than
-Intramolecular bonds ( 2--50 kJ/mol vs 150--1000 kJ/mol for covalent bonds).
+intramolecular bonds ( 2--50 kJ/mol vs 150--1000 kJ/mol for covalent bonds).
 
 ### Types of Intermolecular Forces
 
@@ -459,7 +459,7 @@ Of one polar molecule and the negative end of another.
 
 **Definition.** **Hydrogen bonding** is a particularly strong dipole-dipole interaction that occurs
 When a hydrogen atom is covalently bonded to a highly electronegative atom (N, O, or F) and is
-Simultaneously attracted to a lone pair on another N, O, or F atom.
+simultaneously attracted to a lone pair on another N, O, or F atom.
 
 Requirements:
 
@@ -739,7 +739,7 @@ Count the number of electron domains (bonding pairs + lone pairs) around the cen
 
 In a double bond, one bond is sigma (hybrid orbital overlap) and one is pi (unhybridized p-orbital
 Overlap). The hybridization of the central atom is determined by the total number of domains (not
-Bonds).
+bonds).
 
 <div class="table-wrap">
 
@@ -788,7 +788,7 @@ Bond (127.8 pm vs 121 pm for O=O and 148 pm for O-O).
 ### Carbonate Ion (CO$_3^{2-}$)
 
 Three equivalent resonance structures, each with one C=O double bond and two C-O single bonds. The
-Actual bond order is 1.33 for each C-O bond.
+actual bond order is 1.33 for each C-O bond.
 
 $$
 \mathrm{Bond length measured: } 136\mathrm{ pm (between } 123\mathrm{ pm for C=O and } 143\mathrm{ pm for C-O)}
@@ -807,9 +807,9 @@ has:
 
 :::note[IB Exam Tip]
 The enthalpy of hydrogenation of benzene (-208 kJ/mol, for 3 moles of H$_2$) is less exothermic than
-Expected from three isolated C=C bonds (-360 kJ/mol). The difference (152 kJ/mol) is the **resonance
+expected from three isolated C=C bonds (-360 kJ/mol). The difference (152 kJ/mol) is the **resonance
 Energy** (or delocalisation energy), which is a direct measure of the extra stability gained from
-Electron delocalisation.
+electron delocalisation.
 
 ---
 
@@ -828,7 +828,7 @@ Electron delocalisation.
 
 **Definition.** **Formal charge** is the charge assigned to an atom in a Lewis structure, calculated
 By comparing the number of valence electrons in the free atom with the number assigned to it in the
-Structure.
+structure.
 
 $$
 \mathrm{Formal charge} = V - N_B - \frac{N_L}{2}
@@ -984,7 +984,7 @@ K. The **conduction band** is the next higher band, which is empty at 0 K.
 </div>
 
 In metals, the valence and conduction bands overlap, so electrons are always available for
-Conduction. In semiconductors, thermal energy can promote electrons across the band gap, creating
+conduction. In semiconductors, thermal energy can promote electrons across the band gap, creating
 Charge carriers.
 
 #### Intrinsic vs Extrinsic Semiconductors
@@ -1007,7 +1007,7 @@ Temperature as more electrons are promoted across the band gap.
 :::caution[Common Mistake]
 The "n" in n-type stands for "negative" (electron carriers), not the element nitrogen. The "p" in
 P-type stands for "positive" (hole carriers). Doping does not make the material charged -- the
-Overall crystal remains electrically neutral.
+overall crystal remains electrically neutral.
 
 ---
 
@@ -1304,7 +1304,7 @@ The following substances have the boiling points shown:
 - SiH$_4$ has more electrons than CH$_4$ So London dispersion forces are stronger (1 mark).
 
 (b) Explain why H$_2$O has a much higher boiling point than H$_2$S, but NH$_3$ and PH$_3$ show the
-Expected trend. (3 marks)
+expected trend. (3 marks)
 
 **Markscheme:**
 
@@ -1507,7 +1507,7 @@ $$
 <summary>Question 5: Hybridization and Bonding in Ethene</summary>
 
 Describe the bonding in ethene ($\mathrm{C}_2\mathrm{H}_4$), including the hybridization of each
-Carbon atom, the types of bonds formed, and the molecular geometry.
+carbon atom, the types of bonds formed, and the molecular geometry.
 
 </details>
 

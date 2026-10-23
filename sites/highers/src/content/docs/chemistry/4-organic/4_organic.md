@@ -268,7 +268,7 @@ $$
 $$
 
 Product: propanoic acid. Under reflux, the aldehyde intermediate is further oxidised to the
-Carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
+carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
 
 **Dehydration:** Alcohols can be dehydrated to form alkenes using concentrated
 $\mathrm{H_2\mathrm{SO_4$ or $\mathrm{Al_2\mathrm{O_3$ at high temperature.
@@ -355,7 +355,7 @@ $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$.
 **Carbocation stability:** tertiary > secondary > primary > methyl.
 
 This is because alkyl groups donate electron density by induction (+I effect), stabilising the
-Positive charge.
+positive charge.
 
 **Nucleophilic Substitution ($S_N1$ and $S_N2$):**
 
@@ -377,9 +377,9 @@ Positive charge.
 1-bromopropane.
 
 2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$ The rate-determining step is
-Formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
+formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
 by Three methyl groups (+I effect), making it relatively easy to form. 1-bromopropane would form a
-Primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
+primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
 Therefore, 2-bromo-2-methylpropane reacts faster via $S_N1$.
 
 ### Comparison of $S_N1$ and $S_N2$
@@ -448,7 +448,7 @@ Nylon and Kevlar are examples of polyamides.
 ### Optical Activity
 
 A molecule is **optically active** if it is chiral (has a non-superimposable mirror image). This
-Requires a chiral centre (carbon with four different groups attached).
+requires a chiral centre (carbon with four different groups attached).
 
 - A **racemic mixture** is a 50:50 mixture of enantiomers (optically inactive)
 - Enantiomers have identical physical properties except for their effect on plane-polarised light
@@ -772,7 +772,7 @@ For $\mathrm{C_3\mathrm{H_6\mathrm{O$ ($M_r = 58$):
 
 There is only one type of proton environment (the six protons are in two equivalent $\mathrm{CH_3$
 Groups). The spectrum shows a single peak (singlet) at approximately $\delta = 2.1$ ppm with
-Integration 6.
+integration 6.
 
 **Worked Example 20:** Predict the $^1\mathrm{H$ NMR spectrum of ethanol
 ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
@@ -832,7 +832,7 @@ E and Z isomers have different physical properties:
 </div>
 
 The Z isomer has a dipole moment (both C-Cl bonds on the same side), while the E isomer has
-Cancelling dipoles.
+cancelling dipoles.
 
 ---
 
@@ -896,7 +896,7 @@ $$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
 has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
-Carboxylic acid, providing a route to chain-elongated compounds.
+carboxylic acid, providing a route to chain-elongated compounds.
 
 ---
 

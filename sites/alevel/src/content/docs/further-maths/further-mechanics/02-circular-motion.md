@@ -187,7 +187,7 @@ If $v < v_{\mathrm{opt}}$ Friction acts up the slope.
 ### 3.3 Motion on the inside of a hollow sphere
 
 A particle moves in a horizontal circle on the smooth inner surface of a sphere of radius $r$ at
-Height $h$ below the centre.
+height $h$ below the centre.
 
 The radius of the circle is $a = \sqrt{r^2 - h^2}$.
 
@@ -536,12 +536,12 @@ Energy: $\dfrac{1}{2}(0.1)v^2 = \dfrac{1}{2}(0.1)(16) - 0.1(9.8)(0.5) = 0.8 - 0.
 $v = \sqrt{6.2} \approx 2.49\,\mathrm{m s}^{-1}$.
 
 At the midpoint (horizontal), the reaction $R$ acts horizontally (towards the centre) since the
-Weight acts vertically:
+weight acts vertically:
 
 $R = \dfrac{mv^2}{r} = \dfrac{0.1 \times 6.2}{0.5} = 1.24\,\mathrm{N}$.
 
 Note: the weight is perpendicular to the radius at this point, so it does not contribute to the
-Centripetal force.
+centripetal force.
 
 **If you get this wrong, revise:** [Motion in Vertical Circles](#4-motion-in-vertical-circles),
 Section 4.
@@ -623,7 +623,7 @@ $v_{\mathrm{top}} = \sqrt{gr}$.
 ### 7.1 Derivation with friction
 
 A car of mass $m$ travels on a banked curve of radius $r$ and angle $\theta$ With coefficient of
-Friction $\mu$.
+friction $\mu$.
 
 When the car travels faster than the optimum speed, friction acts **down the slope** to provide
 Additional centripetal force.
@@ -686,7 +686,7 @@ which lies between $v_{\min}$ and $v_{\max}$ as expected.
 ### Proof
 
 A mass $m$ is attached to a string of length $L$ and moves in a horizontal circle of radius $r$ at
-Constant speed $v$. The string makes a constant angle $\alpha$ with the vertical.
+constant speed $v$. The string makes a constant angle $\alpha$ with the vertical.
 
 **Forces on the mass:**
 
@@ -736,7 +736,7 @@ Key observations:
 **Example.** A motorcyclist rides around a vertical circular track of radius $8\,\mathrm{m}$. The
 Motorcycle and rider have combined mass $200\,\mathrm{kg}$. Find the minimum speed at the lowest
 Point to complete the loop, the normal reaction at the top and bottom at this minimum speed, and the
-Speed and reaction at a point $90^\circ$ from the bottom.
+speed and reaction at a point $90^\circ$ from the bottom.
 
 **Minimum speed at the bottom:**
 $v_{\min} = \sqrt{5gr} = \sqrt{5 \times 9.8 \times 8} = \sqrt{392} \approx 19.8\,\mathrm{m s}^{-1}$.
@@ -769,7 +769,7 @@ $mg - R = \dfrac{mv^2}{r} \implies R = mg - \dfrac{200 \times 235.2}{8} = 1960 -
 $R = -3920\,\mathrm{N}$.
 
 The negative sign confirms the track pushes **inward** (downward at this point) to maintain the
-Circular path. This is expected: at this speed, the motorcyclist would fly off without the track
+circular path. This is expected: at this speed, the motorcyclist would fly off without the track
 Pushing them inward.
 
 <hr />
@@ -780,7 +780,7 @@ Pushing them inward.
 
 Centripetal force is **not a force in its own right**. It is the **resultant** of the real forces
 (tension, normal reaction, weight, friction) directed towards the centre of the circle. The most
-Common mistake is to draw "centripetal force" as an additional arrow on a free body diagram
+common mistake is to draw "centripetal force" as an additional arrow on a free body diagram
 Alongside tension, weight, etc. This double-counts and produces incorrect equations.
 
 Correct approach: draw only the physical forces, then apply Newton's second law towards the centre:
@@ -882,7 +882,7 @@ $R = \dfrac{m(u^2 - 4gr)}{r} - mg = \dfrac{mu^2}{r} - 4mg - mg = \dfrac{mu^2}{r}
 If $u = 2\sqrt{gr}$ Then $R = \dfrac{m \times 4gr}{r} - 5mg = 4mg - 5mg = -mg$.
 
 The negative sign means the wire pushes the bead **upward** (away from centre) to prevent it from
-Falling through, since the bead has zero speed at the top.
+falling through, since the bead has zero speed at the top.
 
 </details>
 
@@ -1117,7 +1117,7 @@ $$
 ### Question 9
 
 A bead of mass $m$ slides on a smooth circular wire of radius $a$ in a vertical plane. It is
-Projected from the lowest point with speed $\sqrt{6ga}$. Find the speed and reaction at $60°$ above
+projected from the lowest point with speed $\sqrt{6ga}$. Find the speed and reaction at $60°$ above
 the lowest point.
 
 <details>
@@ -1146,7 +1146,7 @@ At the top, measuring $\theta$ from the upward vertical: $T + mg\cos\theta = \df
 At the top ($\theta = 0$): $T = \dfrac{mv^2}{r} - mg$.
 
 The string goes slack when $T = 0$: $v^2 = gr$. If $v^2 < gr$ at any point approaching the top, the
-Particle leaves the circular path. $\blacksquare$
+particle leaves the circular path. $\blacksquare$
 
 </details>
 
@@ -1335,7 +1335,7 @@ $u_{\min} = \sqrt{5gr}$.
 ### Question 13
 
 A particle of mass $0.1\,\mathrm{kg}$ is attached to a string of length $0.8\,\mathrm{m}$ and
-Whirled in a horizontal circle at $3\,\mathrm{rad\,s^{-1}}$. The string makes an angle of $30°$ with
+whirled in a horizontal circle at $3\,\mathrm{rad\,s^{-1}}$. The string makes an angle of $30°$ with
 the vertical. Find the tension.
 
 <details>
@@ -1352,7 +1352,7 @@ $T\sin 30° = 1.132 \times 0.5 = 0.566\,\mathrm{N}$.
 $m\omega^2 r = 0.1 \times 9 \times 0.4 = 0.36\,\mathrm{N}$.
 
 These don't match, which means the given angle is inconsistent with the given angular speed. The
-Correct angle satisfies:
+correct angle satisfies:
 
 $\cos\theta = \dfrac{g}{\omega^2 l} = \dfrac{9.8}{9 \times 0.8} = 1.361 > 1$.
 
@@ -1400,7 +1400,7 @@ The particle leaves the sphere at $\theta = \arccos(2/3) \approx 48.2°$ from th
 ### 16.1 Motion on the inside of a vertical circle
 
 For a particle sliding on the inside of a smooth vertical sphere of radius $r$ The condition for
-Maintaining contact is:
+maintaining contact is:
 
 $$
 v^2 \leq gr\cos\theta
@@ -1425,7 +1425,7 @@ $$
 $$
 
 Where $\alpha$ is the banking angle. This means for a given speed $v$ and radius $r$ There is an
-Ideal banking angle that requires no friction at all.
+ideal banking angle that requires no friction at all.
 
 ### 16.3 Angular impulse and momentum
 

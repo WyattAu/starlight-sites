@@ -83,7 +83,7 @@ So $\mathbf{p}_A + \mathbf{p}_B = \mathrm{constant}$. $\blacksquare$
 
 **Intuition.** Momentum conservation is a direct consequence of Newton's Third Law (every action has
 An equal and opposite reaction). If two bodies collide, the momentum gained by one equals the
-Momentum lost by the other.
+momentum lost by the other.
 
 <hr />
 
@@ -381,7 +381,7 @@ Consequences:
 ### 8.3 Worked example
 
 Two smooth spheres $A$ (mass $3\,\mathrm{kg}$) and $B$ (mass $2\,\mathrm{kg}$) collide. Before
-Collision, $A$ moves with velocity $5\,\mathrm{m/s}$ and $B$ is stationary. The line of centres
+collision, $A$ moves with velocity $5\,\mathrm{m/s}$ and $B$ is stationary. The line of centres
 Makes an angle of $30^\circ$ with the direction of motion of $A$. Given $e = 0.6$ Find the speed And
 direction of each sphere after collision.
 
@@ -442,7 +442,7 @@ the line of centres only).
 ### 9.1 Principle
 
 When a smooth particle strikes a smooth fixed surface at an angle of incidence $\alpha$ to the
-Normal:
+normal:
 
 - The **normal component** of velocity is reversed and scaled by $e$.
 - The **tangential component** of velocity is unchanged (no friction).
@@ -488,7 +488,7 @@ Special cases:
 ### 9.4 Successive bounces
 
 When a particle bounces repeatedly on a horizontal surface, the vertical component of velocity is
-Multiplied by $e$ at each bounce while the horizontal component is unchanged.
+multiplied by $e$ at each bounce while the horizontal component is unchanged.
 
 After $n$ bounces:
 
@@ -710,7 +710,7 @@ $v_1 = 3u - 2v_2 \gt 0 \implies v_2 \lt 1.5u$.
 $e = (u - v_2)/u$. Max when $v_2 \to 0$: $e \to 1$. Min when $v_2 \to 1.5u$: $e \to -0.5$.
 
 Hmm, the question likely assumes a specific convention. The answer $e \leq 1/3$ arises when we
-Require $v_1 \lt v_2$ (so the $m$ body doesn't overtake the $2m$ body):
+require $v_1 \lt v_2$ (so the $m$ body doesn't overtake the $2m$ body):
 
 $v_1 \lt v_2 \implies 3u - 2v_2 \lt v_2 \implies v_2 \gt 1.5u$... But then $v_1 = 3u - 2v_2 \lt 0$.
 
@@ -809,7 +809,7 @@ Two smooth spheres $A$ and $B$ have masses $2\,\mathrm{kg}$ and $3\,\mathrm{kg}$
 <details>
 <summary>Solution 13</summary>
 Line of centres is parallel to $A$'s motion (horizontal). So we resolve parallel (horizontal) and
-Perpendicular (vertical).
+perpendicular (vertical).
 
 **Before collision:**
 
@@ -962,14 +962,14 @@ Actually, the angle between $\mathbf{v}_A$ and the line of centres is $\alpha$ w
 $\tan\alpha = \frac{v_{A,\perp}}{v_{A,\parallel}} = \frac{u\sin\theta}{\frac{(1-e)}{2}\,u\cos\theta} = \frac{2\tan\theta}{1-e}$.
 
 The angle between $\mathbf{v}_B$ and the line of centres is $0$ (it moves along the line of
-Centres).
+centres).
 
 So the angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is $\alpha$. For them to be perpendicular, we
-Need $\alpha = 90^\circ$ But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
+need $\alpha = 90^\circ$ But $\tan\alpha$ is finite for $0 \lt e \lt 1$.
 
 The claim that the spheres move at right angles is only true for $e = 1$ (perfectly elastic
 Collision). In that case $v_{A,\parallel} = 0$ and $\mathbf{v}_A = u\sin\theta$ (perpendicular to
-Line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so they are indeed
+line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so they are indeed
 Perpendicular.
 
 For general $e$ The spheres do **not** move at right angles. The problem as stated is only correct

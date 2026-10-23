@@ -22,7 +22,7 @@ categories: [ib-economics]
 
 Game theory is the study of strategic decision-making among interdependent agents. Each agent's
 Payoff depends not only on their own actions but also on the actions of others. The framework was
-Formalised by John von Neumann and Oskar Morgenstern (1944) and extended by John Nash.
+formalised by John von Neumann and Oskar Morgenstern (1944) and extended by John Nash.
 
 A **game** consists of:
 
@@ -58,7 +58,7 @@ one opponent strategy.
 ### Nash Equilibrium
 
 A **Nash equilibrium** is a set of strategies where no player can improve their payoff by
-Unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
+unilaterally changing their strategy, given the strategies chosen by all other players. Formally,
 For each player $i$ with strategy $s_i^*$:
 
 $$
@@ -66,7 +66,7 @@ u_i(s_i^*, s_{-i}^*) \geq u_i(s_i, s_{-i}^*) \quad \forall \; s_i
 $$
 
 Where $u_i$ is player $i$'s payoff function and $s_{-i}^*$ represents the strategies of all other
-Players.
+players.
 
 Key properties:
 
@@ -79,10 +79,10 @@ Key properties:
 ### Mixed Strategies
 
 A **pure strategy** is a deterministic choice of one action. A **mixed strategy** assigns a
-Probability distribution over the available pure strategies.
+probability distribution over the available pure strategies.
 
 In a mixed strategy Nash equilibrium, each player randomises over their strategies such that no
-Player can gain by changing their probabilities. The equilibrium is reached when each player is
+player can gain by changing their probabilities. The equilibrium is reached when each player is
 **indifferent** between their pure strategies given the other player's mixed strategy.
 
 ## The Prisoner's Dilemma
@@ -114,7 +114,7 @@ Or **Defect** (betray the other). The payoff matrix (years in prison, so lower i
 
 The prisoner's dilemma demonstrates that individually rational behaviour can lead to collectively
 Suboptimal outcomes. The Nash equilibrium is not Pareto efficient, both players would be better off
-Cooperating, but neither has the incentive to do so unilaterally.
+cooperating, but neither has the incentive to do so unilaterally.
 
 ### Applications in Economics
 
@@ -146,7 +146,7 @@ Rational payoff can be sustained as a Nash equilibrium, provided the discount fa
 Placed on future payoffs) is sufficiently high.
 
 In **finitely repeated** games with a known endpoint, backward induction leads to defection in every
-Round (the unraveling argument). However, if the number of rounds is uncertain or players use
+round (the unraveling argument). However, if the number of rounds is uncertain or players use
 Bounded rationality, cooperation may still emerge.
 
 ## Other Key Games
@@ -154,7 +154,7 @@ Bounded rationality, cooperation may still emerge.
 ### Battle of the Sexes
 
 Two players prefer to coordinate on the same activity but disagree on which activity. There are two
-Pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
+pure strategy Nash equilibria and one mixed strategy equilibrium. This game illustrates coordination
 Problems.
 
 <div class="table-wrap">
@@ -176,7 +176,7 @@ Relations and competitive business strategies.
 
 Two hunters can cooperate to catch a stag (high payoff for both) or hunt hare individually (moderate
 Payoff, certain). The stag hunt has two Nash equilibria: both cooperate (Pareto efficient) and both
-Defect (risk-dominant). It illustrates the tension between safety and social cooperation.
+defect (risk-dominant). It illustrates the tension between safety and social cooperation.
 
 ## Behavioural Economics
 
@@ -185,7 +185,7 @@ Defect (risk-dominant). It illustrates the tension between safety and social coo
 Traditional (neoclassical) economics assumes that agents are **Homo economicus**: fully rational,
 Self-interested utility maximisers with perfect information, consistent preferences, and unlimited
 Cognitive capacity. Behavioural economics relaxes these assumptions, drawing on psychology and
-Empirical evidence to model how people actually make decisions.
+empirical evidence to model how people actually make decisions.
 
 ### Bounded Rationality
 
@@ -214,7 +214,7 @@ A gain.
 
 **Overconfidence bias**: individuals systematically overestimate their own knowledge, ability, and
 The precision of their predictions. This affects investment decisions, entrepreneurial activity, and
-Risk assessment.
+risk assessment.
 
 **Confirmation bias**: people seek, interpret, and remember information that confirms their existing
 Beliefs while ignoring or discounting contradictory evidence.
@@ -254,7 +254,7 @@ $$
 Where $\delta$ is a constant discount factor.
 
 Behavioural evidence supports **hyperbolic discounting**, where the discount rate declines over
-Time:
+time:
 
 $$
 U = \sum_{t=0}^{T} \frac{1}{(1 + k \cdot t)^b} \cdot u(c_t)
@@ -263,7 +263,7 @@ $$
 Where $k > 0$ governs impatience and $b > 0$ governs the degree of hyperbolic discounting.
 
 This produces **present bias**: individuals disproportionately prefer immediate gratification over
-Future rewards, even when they know the long-term consequences are worse. This explains
+future rewards, even when they know the long-term consequences are worse. This explains
 Procrastination, undersaving for retirement, and difficulty maintaining diets.
 
 ### Social Preferences
@@ -279,7 +279,7 @@ Procrastination, undersaving for retirement, and difficulty maintaining diets.
 ### Nudge Theory
 
 Richard Thaler and Cass Sunstein (2008) proposed that choice architecture, the way options are
-Presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
+presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
 of that architecture that alters behaviour predictably without forbidding options or significantly
 Changing economic incentives.
 
@@ -297,7 +297,7 @@ Changing economic incentives.
 
 **Libertarian paternalism**: the philosophical foundation of nudge theory. It holds that it is both
 Legitimate and desirable for institutions to influence choices in ways that make people better off,
-While preserving their freedom to choose otherwise.
+while preserving their freedom to choose otherwise.
 
 ### Criticisms of Behavioural Economics
 
@@ -331,7 +331,7 @@ While preserving their freedom to choose otherwise.
 <summary>Problem 1: Finding Nash Equilibria</summary>
 
 Two firms, Alpha and Beta, are deciding whether to advertise (Ad) or not advertise (No Ad). The
-Payoff matrix shows profits in millions:
+payoff matrix shows profits in millions:
 
 <div class="table-wrap">
 
@@ -377,7 +377,7 @@ Shows Player 1's payoff (Player 2's payoff is the negative):
 Find the mixed strategy Nash equilibrium.
 
 Let Player 1 play Up with probability $p$ and Down with probability $1 - p$. For Player 2 to be
-Indifferent between Left and Right:
+indifferent between Left and Right:
 
 $$
 \mathrm{Expected payoff (Left)} = p(-3) + (1-p)(2)
@@ -391,7 +391,7 @@ Setting them equal:
 $$-3p + 2 - 2p = p - 4 + 4p$$ $$2 - 5p = 5p - 4$$ $$6 = 10p$$ $$p = 0.6$$
 
 Let Player 2 play Left with probability $q$ and Right with probability $1 - q$. For Player 1 to be
-Indifferent:
+indifferent:
 
 $$3q - 1(1-q) = -2q + 4(1-q)$$ $$3q - 1 + q = -2q + 4 - 4q$$ $$4q - 1 = -6q + 4$$ $$10q = 5$$
 $$
@@ -399,7 +399,7 @@ q = 0.5
 $$
 
 The mixed strategy Nash equilibrium is: Player 1 plays Up with probability $0.6$ and Down with
-Probability $0.4$; Player 2 plays Left with probability $0.5$ and Right with probability $0.5$.
+probability $0.4$; Player 2 plays Left with probability $0.5$ and Right with probability $0.5$.
 
 <summary>Problem 3: Behavioural Biases in Decision-Making</summary>
 
@@ -415,9 +415,9 @@ Equivalent (a 70% chance of gaining is the same as a 30% chance of losing).
 
 This is an example of **framing bias**: the way information is presented (framed as a gain vs.
 Framed as a loss) affects decisions. Prospect theory predicts that people are risk-averse in the
-Domain of gains and risk-seeking in the domain of losses. The positive frame ("gaining value")
+domain of gains and risk-seeking in the domain of losses. The positive frame ("gaining value")
 Triggers a more favourable evaluation than the negative frame ("losing value"), even though the
-Underlying probabilities are identical.
+underlying probabilities are identical.
 
 Loss aversion also plays a role: the word "losing" activates a stronger emotional response than
 "gaining," making Product B seem less attractive despite its mathematical equivalence.
@@ -429,7 +429,7 @@ A person is offered a choice: `USD 100` today or `USD 120` in one month. Most pe
 choose `USD 120` in 13 months. Explain this inconsistency using behavioural economics.
 
 This pattern is explained by **present bias** (or hyperbolic discounting). When the reward is
-Immediate, the person heavily discounts the future one-month delay, preferring `USD 100` now. But
+immediate, the person heavily discounts the future one-month delay, preferring `USD 100` now. But
 when Both options are in the future, the one-month difference feels much less significant, and the
 person Is more patient.
 
@@ -443,7 +443,7 @@ This has important implications for savings behaviour, health decisions, and com
 <summary>Problem 5: Nudge Theory Application</summary>
 
 A government wants to increase organ donation rates. Currently, citizens must actively opt in to
-Become donors, and the participation rate is $25\%$. Design a nudge-based intervention and evaluate
+become donors, and the participation rate is $25\%$. Design a nudge-based intervention and evaluate
 its potential effectiveness and ethical considerations.
 
 **Intervention: Change the default from opt-in to opt-out.** Under an opt-out (presumed consent)
@@ -556,7 +556,7 @@ collusion is sustainable. This requires:
 
 The dramatic difference between Cournot and Bertrand outcomes (oligopoly power vs. Perfect
 Competition) highlights the importance of the strategic variable (quantity vs. Price) and the
-Assumption about product differentiation.
+assumption about product differentiation.
 
 ### Stackelberg as a Sequential Game
 
@@ -687,7 +687,7 @@ reversals.
 <summary>Problem 6: Sequential Game with Credible Threats</summary>
 
 Amazon is considering entering the market for online groceries in a country where FreshCo is the
-Dominant player. Amazon first decides whether to enter. If Amazon enters, FreshCo decides whether To
+dominant player. Amazon first decides whether to enter. If Amazon enters, FreshCo decides whether To
 accommodate (share the market) or fight (price war).
 
 Payoffs (Amazon, FreshCo):
@@ -752,7 +752,7 @@ Two airlines, Alpha and Beta, compete on a route. Each can set a High or Low far
 </div>
 
 The game is repeated weekly. Both airlines use a grim trigger strategy: cooperate (High fare) as
-Long as the other cooperates; if either defects (Low fare), play the Nash equilibrium (Low fare)
+long as the other cooperates; if either defects (Low fare), play the Nash equilibrium (Low fare)
 Forever.
 
 (a) What is the Nash equilibrium of the one-shot game?
@@ -806,7 +806,7 @@ Effectiveness and potential drawbacks.
 **Behavioural principles applied:**
 
 1. **Status quo bias / inertia**: workers are automatically enrolled and must actively opt out.
-   Evidence from the UK (2006) and the US shows automatic enrolment increases participation to over
+   evidence from the UK (2006) and the US shows automatic enrolment increases participation to over
    90%
 
 2. **Default effect**: the default contribution rate of 6% anchors expectations. Research shows that
@@ -989,7 +989,7 @@ to public goods (free riding). Experimental evidence consistently contradicts th
 ### Fairness and the Ultimatum Game
 
 In the ultimatum game, Player 1 proposes a split of a fixed sum (e.g., `USD 10`). Player 2 can
-Accept (both receive the proposed split) or reject (both receive nothing).
+accept (both receive the proposed split) or reject (both receive nothing).
 
 **Standard prediction:** Player 1 offers the minimum possible (e.g., `USD 0.01`); Player 2 Accepts
 because something is better than nothing.
@@ -1127,7 +1127,7 @@ free-riding is possible.
 
 In the games discussed so far, all players know the payoffs of all other players. In reality,
 Players often have private information that others do not know. A **Bayesian game** (or **game of
-Incomplete information**) models this situation using probability distributions.
+incomplete information**) models this situation using probability distributions.
 
 **Harsanyi's transformation (1967):** any game of incomplete information can be represented as A
 Bayesian game by introducing **types** and **beliefs**:
@@ -1169,14 +1169,14 @@ believes each is equally likely ($p = 0.5$).
 **Analysis:**
 
 For the **strong** incumbent: if the entrant enters, compare Accommodate (5) vs. Fight (3). The
-Strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
+strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
 Accommodates). Wait -- let me re-examine. With payoffs as stated:
 
 For the **strong** incumbent: Accommodate $= 5$ Fight $= 3$. Since $5 > 3$ The strong Incumbent
 accommodates.
 
 For the **weak** incumbent: Accommodate $= 5$ Fight $= -3$. Since $5 > -3$ The weak incumbent also
-Accommodates.
+accommodates.
 
 In this case, the entrant knows the incumbent will always accommodate, so the entrant always Enters.
 This is not very interesting. Let me adjust the payoffs to create a meaningful Incomplete
@@ -1831,7 +1831,7 @@ incomplete monitoring:
 ### Behavioural Economics in Practice: UK Behavioural Insights Team
 
 The UK's Behavioural Insights Team ("Nudge Unit"), established in 2010, was the world's first
-Government unit dedicated to applying behavioural economics to policy:
+government unit dedicated to applying behavioural economics to policy:
 
 1. **Tax compliance:** sending letters informing taxpayers that "9 out of 10 people in your town pay
    their tax on time" increased on-time payments by 15 percentage points
@@ -1916,7 +1916,7 @@ a one-shot prisoner's dilemma.
 ### Spatial Games and Cooperation
 
 When players interact with neighbours rather than randomly, cooperation can persist because
-Cooperators cluster together and benefit from mutual cooperation, while defectors at the Boundary of
+cooperators cluster together and benefit from mutual cooperation, while defectors at the Boundary of
 cooperator clusters are outcompeted.
 
 **Spatial prisoner's dilemma:** if each cell in a grid plays the prisoner's dilemma with its Four
@@ -1971,7 +1971,7 @@ $p = 4/(4+6) = 0.4$.
 The ESS is: play Hawk with probability 0.4, Dove with probability 0.6.
 
 In a population at equilibrium, 40% play Hawk and 60% play Dove. The average payoff for both
-Strategies is equal:
+strategies is equal:
 
 Hawk payoff $= 0.4 \times (-1) + 0.6 \times 4 = -0.4 + 2.4 = 2.0$
 
@@ -2163,7 +2163,7 @@ intended use, treating money differently depending on the account.
 <summary>Question 4: Present Bias and Savings Behaviour (10 marks)</summary>
 
 A worker earns USD 50,000 per year and can save either USD 5,000 or USD 2,000 per year for
-Retirement. At age 25, the worker plans to save USD 5,000 per year for 40 years.
+retirement. At age 25, the worker plans to save USD 5,000 per year for 40 years.
 
 With $\beta = 0.7$ and $\delta = 0.95$ The present bias makes the worker save only USD 2,000 per
 year.
@@ -2209,12 +2209,12 @@ Evidence: SEED (Save, Earn, Enjoy Deposit) accounts in the Philippines increased
 percentage points among participants.
 
 Both policies work by changing the choice architecture or adding commitment mechanisms that
-Counteract present bias.
+counteract present bias.
 
 <summary>Question 5: Evolutionary Game Theory and International Cooperation (10 marks)</summary>
 
 Two countries are negotiating a climate agreement. Each can either Abide (reduce emissions) Or
-Defect (continue business as usual). The payoff matrix (welfare in USD billion) is:
+defect (continue business as usual). The payoff matrix (welfare in USD billion) is:
 
 <div class="table-wrap">
 
@@ -2302,7 +2302,7 @@ $\max_w (100 - w - 20)(w - 10) = (80 - w)(w - 10)$
 FOC: $80 - w - (w - 10) = 90 - 2w = 0 \implies w = 45$.
 
 The union's stronger threat point (strike pay of 10 vs. 0) raises the negotiated wage from 15 To 45.
-This illustrates a key insight: **bargaining power depends on the threat point.**
+this illustrates a key insight: **bargaining power depends on the threat point.**
 
 ### The Ultimatum Game
 
@@ -2396,7 +2396,7 @@ With the agreement, total welfare increases to 250. The surplus (70) must be div
 (a) Calculate the Nash bargaining solution. [3 marks]
 
 (b) If Country B's threat point improves to 90 (e.g., by signing an alternative agreement with
-Country C), what is the new Nash solution? [3 marks]
+country C), what is the new Nash solution? [3 marks]
 
 (c) Evaluate the Nash bargaining solution as a model of international negotiations. [4 marks]
 
@@ -2796,7 +2796,7 @@ probability 0.4.
 Two Nash equilibria: (Stag, Stag) with payoff (4, 4) and (Hare, Hare) with payoff (2, 2).
 
 The Stag equilibrium is Pareto-superior but risk-dominant only if players trust each other. If
-Player 1 is unsure whether Player 2 will cooperate, playing Hare is safer (guaranteed 2 Vs. Risky 0
+player 1 is unsure whether Player 2 will cooperate, playing Hare is safer (guaranteed 2 Vs. Risky 0
 or 4).
 
 **Application to international cooperation:** the Stag Hunt models climate agreements. Full
@@ -2813,7 +2813,7 @@ structure.
 **Examples:**
 
 1. Two people must meet in New York City on a given day but cannot communicate. Many coordinate on
-   Grand Central Station at noon (the most prominent meeting point)
+   grand Central Station at noon (the most prominent meeting point)
 2. Two people must name a positive number. If they name the same number, they both win a prize. Many
    coordinate on "1" (the simplest number)
 3. In the Stag Hunt, shared norms, communication, or institutional frameworks can serve as focal

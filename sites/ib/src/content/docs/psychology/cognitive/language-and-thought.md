@@ -21,7 +21,7 @@ The relationship between language and thought is one of the most fundamental que
 Psychology and linguistics. The central question is whether language shapes thought (the linguistic
 Relativity hypothesis) or whether thought is independent of language (the universalist position).
 This debate has implications for understanding cultural differences in cognition, the nature of
-Concepts, and the relationship between language and perception.
+concepts, and the relationship between language and perception.
 
 ## The Sapir-Whorf Hypothesis
 
@@ -29,11 +29,11 @@ Concepts, and the relationship between language and perception.
 
 The Sapir-Whorf hypothesis, named after the linguists Edward Sapir and Benjamin Lee Whorf, proposes
 that the structure of a language influences how its speakers perceive and think about the world. The
-Hypothesis exists in two versions:
+hypothesis exists in two versions:
 
 **Strong version (linguistic determinism):** Language determines thought. Speakers of different
 Languages necessarily perceive and think about the world in fundamentally different ways because the
-Categories available in their language constrain what they can think. According to this strong
+categories available in their language constrain what they can think. According to this strong
 Version, it is impossible to think thoughts that cannot be expressed in one"s language.
 
 **Weak version (linguistic relativity):** Language influences thought. The structure and vocabulary
@@ -42,18 +42,18 @@ Determine or constrain what can be thought. The weak version allows for universa
 Processes that transcend linguistic differences.
 
 The strong version has been largely discredited by empirical evidence. People are capable of
-Thinking about concepts for which their language lacks specific words, and translation between
-Languages is possible (albeit sometimes imperfectly). The weak version, however, has received
+thinking about concepts for which their language lacks specific words, and translation between
+languages is possible (albeit sometimes imperfectly). The weak version, however, has received
 Considerable empirical support and is the focus of contemporary research on linguistic relativity.
 
 ### Whorf (1956): Hopi Time Concepts
 
 Whorf studied the Hopi language and argued that it reflected a fundamentally different conception of
-Time compared to English and other European languages. He claimed that Hopi does not have words,
+time compared to English and other European languages. He claimed that Hopi does not have words,
 Grammatical constructions, or metaphors that treat time as a spatial quantity (as in English, where
 we speak of "long" and "short" durations, or "looking forward" and "looking back" in time). Instead,
 Whorf argued, Hopi speakers conceptualise time in terms of duration and intensity rather than
-Spatial extension.
+spatial extension.
 
 **Evaluation:**
 
@@ -89,13 +89,13 @@ Speakers (an Australian Aboriginal language).
 
 Colour perception has been a major focus of linguistic relativity research because colour categories
 Vary across languages, providing a natural experiment for testing the influence of language on
-Perception.
+perception.
 
 **Winawer et al. (2007):** Russian has separate basic colour terms for light blue ("goluboy") and
 Dark blue ("siniy"), whereas English uses a single term ("blue"). Russian speakers were faster at
-Discriminating between two shades of blue that fall into different Russian colour categories (one
-Goluboy, one siniy) than between two shades that fall into the same category (both goluboy or both
-Siniy). English speakers showed no such category effect.
+discriminating between two shades of blue that fall into different Russian colour categories (one
+goluboy, one siniy) than between two shades that fall into the same category (both goluboy or both
+siniy). English speakers showed no such category effect.
 
 **Evaluation:**
 
@@ -135,7 +135,7 @@ the language impairs the ability to represent exact quantities.
 ### The Bilingual Advantage Hypothesis
 
 Research on bilingualism has examined whether speaking two languages affects cognitive function. The
-Bilingual advantage hypothesis proposes that the constant need to manage two active language systems
+bilingual advantage hypothesis proposes that the constant need to manage two active language systems
 Enhances executive functions, particularly inhibitory control (the ability to suppress irrelevant
 Information).
 
@@ -147,7 +147,7 @@ Executive functions.
 
 Bialystok and colleagues compared monolingual and bilingual children and adults on tasks requiring
 Executive control (e.g., the Simon task, in which participants must respond to the colour of a
-Stimulus while ignoring its spatial position).
+stimulus while ignoring its spatial position).
 
 **Key findings:**
 
@@ -178,9 +178,9 @@ Stimulus while ignoring its spatial position).
 
 B.F. Skinner proposed that language is acquired through operant conditioning. Children learn
 Language through reinforcement: when a child produces a sound or word that is praised or that
-Successfully communicates a need (leading to a desired outcome), the behaviour is reinforced and
+successfully communicates a need (leading to a desired outcome), the behaviour is reinforced and
 more likely to be repeated. Errors are corrected through negative feedback (punishment or lack of
-Reinforcement).
+reinforcement).
 
 **Strengths:**
 
@@ -203,11 +203,11 @@ Reinforcement).
 ### Chomsky's Nativist Theory (1957, 1965)
 
 Noam Chomsky proposed that humans possess an innate language acquisition device (LAD) -- a
-Specialised neural module that contains universal grammatical principles common to all languages.
+specialised neural module that contains universal grammatical principles common to all languages.
 According to Chomsky, children are born with knowledge of universal grammar (UG), a set of
-Structural rules and constraints that define the space of possible human languages. Language
+structural rules and constraints that define the space of possible human languages. Language
 Acquisition involves setting the parameters of UG based on exposure to a specific language, not
-Learning grammar from scratch.
+learning grammar from scratch.
 
 **Evidence for the nativist position:**
 
@@ -240,7 +240,7 @@ Learning grammar from scratch.
 Vygotsky (1962) and Bruner (1983) emphasised the role of social interaction in language acquisition.
 Bruner proposed the concept of the Language Acquisition Support System (LASS) -- the social
 Environment that supports language learning through interaction, scaffolding, and the provision of a
-Structured context for communication.
+structured context for communication.
 
 **Key concepts:**
 

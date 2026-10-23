@@ -59,7 +59,7 @@ r \approx i - \pi^e
 $$
 
 If the nominal interest rate is $5\%$ and expected inflation is $2\%$ The real interest rate is
-Approximately $3\%$.
+approximately $3\%$.
 
 **Implications:**
 
@@ -98,7 +98,7 @@ FV = PV \times (1 + r)^n
 $$
 
 Where $FV$ is the future value, $PV$ is the present value (principal), $r$ is the interest rate per
-Period, and $n$ is the number of periods.
+period, and $n$ is the number of periods.
 
 For multiple compounding periods per year:
 
@@ -142,7 +142,7 @@ This is the inverse of compounding. A higher discount rate implies a lower prese
 ### Present Value of an Annuity
 
 An annuity is a series of equal payments received at regular intervals. The present value of an
-Annuity of $A$ per period for $n$ periods at discount rate $r$:
+annuity of $A$ per period for $n$ periods at discount rate $r$:
 
 $$
 PV = A \times \frac{1 - (1 + r)^{-n}}{r}
@@ -157,7 +157,7 @@ $$
 ### Net Present Value (NPV)
 
 NPV is the sum of the present values of all cash flows (positive and negative) associated with a
-Project:
+project:
 
 $$
 \text{NPV} = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}
@@ -204,7 +204,7 @@ r = \delta + \eta \times g
 $$
 
 Where $\delta$ is the pure rate of time preference, $\eta$ is the elasticity of marginal utility of
-Consumption, and $g$ is the growth rate of per capita consumption.
+consumption, and $g$ is the growth rate of per capita consumption.
 
 ### Benefit-Cost Ratio (BCR)
 
@@ -306,7 +306,7 @@ $$
 $$
 
 Limitation: it does not capture the depth or severity of poverty -- a small transfer that lifts one
-Person above the line reduces the headcount ratio, even if millions remain in deep poverty.
+person above the line reduces the headcount ratio, even if millions remain in deep poverty.
 
 ### Poverty Gap
 
@@ -355,7 +355,7 @@ $$
 $$
 
 Where $H$ is the proportion of the population that is multidimensionally poor, and $A$ is the
-Average proportion of weighted indicators in which poor households are deprived.
+average proportion of weighted indicators in which poor households are deprived.
 
 ## Human Development Index (HDI) Calculation
 
@@ -410,7 +410,7 @@ $$
 ### Worked Example
 
 A country has: life expectancy $= 75$ years, mean years of schooling $= 10$ Expected years of
-Schooling $= 14$ GNI per capita (PPP) $= \text{USD }15000$.
+schooling $= 14$ GNI per capita (PPP) $= \text{USD }15000$.
 
 Health index $= \frac{75 - 20}{85 - 20} = \frac{55}{65} = 0.846$
 
@@ -761,7 +761,7 @@ At this point, both the goods market and the money market are in equilibrium sim
 
 **Expansionary fiscal policy** ($G \uparrow$): shifts IS rightward. Output and the interest rate
 Both rise. The higher interest rate partially crowds out private investment, so the increase in
-Output is smaller than the simple multiplier predicts.
+output is smaller than the simple multiplier predicts.
 
 The extent of crowding out depends on the slope of the LM curve:
 
@@ -954,7 +954,7 @@ G = 1 - [3 + 8 + 13 + 20 + 32] / 100 = 1 - 0.76 = 0.24
 $$
 
 The Gini coefficient falls from $0.40$ to $0.24$ A significant reduction in inequality. This
-Demonstrates the powerful redistributive potential of targeted transfers.
+demonstrates the powerful redistributive potential of targeted transfers.
 
 </details>
 
@@ -1008,15 +1008,15 @@ New $Y^* = 2300 + 166.7 = \$2466.7$ billion
 <summary>Problem 5: HDI Calculation</summary>
 
 Country P has a life expectancy of 68 years, mean years of schooling of 8.5 years, expected years of
-Schooling of 13 years, and GNI per capita (PPP) of `USD 8000`.
+schooling of 13 years, and GNI per capita (PPP) of `USD 8000`.
 
 Country Q has a life expectancy of 80 years, mean years of schooling of 12 years, expected years of
-Schooling of 16 years, and GNI per capita (PPP) of `USD 40000`.
+schooling of 16 years, and GNI per capita (PPP) of `USD 40000`.
 
 (a) Calculate the HDI for both countries.
 
 (b) Explain why Country P's HDI might be higher relative to Country Q than its GNI per capita would
-Suggest.
+suggest.
 
 (a) Country P:
 
@@ -1098,7 +1098,7 @@ $Y = 1200 - 50(6.67) = 1200 - 333.3 = 866.7$
 Output increased from $811.1$ to $866.7$ (an increase of $55.6$). The interest rate fell from
 $7.78\%$ to $6.67\%$ Stimulating investment. Monetary policy is effective but less powerful than
 Fiscal policy in this case (output increase of $55.6$ vs. $88.9$), because the LM curve is
-Relatively flat (responsive to output).
+relatively flat (responsive to output).
 
 </details>
 
@@ -1220,7 +1220,7 @@ $$
 $$
 
 The IRR cannot be solved algebraically for $T > 2$; it requires numerical methods. The project is
-Acceptable if IRR $>$ the required rate of return (cost of capital).
+acceptable if IRR $>$ the required rate of return (cost of capital).
 
 **Limitations of IRR:**
 
@@ -1421,7 +1421,7 @@ $$
 $$
 
 An increase in the proportional tax rate reduces equilibrium income. The effect is proportional to
-Current income $Y$ Making it path-dependent.
+current income $Y$ Making it path-dependent.
 
 ### Complete Worked Example
 
@@ -2105,7 +2105,7 @@ $P_1 = \frac{1}{5}\left(\frac{1000-800}{1000} + \frac{1000-500}{1000} + \frac{10
 $P_2 = \frac{1}{5}(0.2^2 + 0.5^2 + 0.8^2) = \frac{1}{5}(0.04 + 0.25 + 0.64) = \frac{0.93}{5} = 0.186$
 
 The poverty gap of 0.30 means the average shortfall from the poverty line, as a fraction of the
-Poverty line, averaged over the entire population, is 30%. The squared gap of 0.186 indicates That
+poverty line, averaged over the entire population, is 30%. The squared gap of 0.186 indicates That
 poverty is concentrated among the deeply poor (the person earning $200 has a much larger Squared gap
 contribution than the person earning $800).
 
@@ -2150,7 +2150,7 @@ Real GDP growth 2018--2021: $(923.1 - 869.6)/869.6 \times 100 = 6.2\%$
 Inflation 2018--2021: $(130 - 115)/115 \times 100 = 13.0\%$
 
 (c) Real GDP per capita rose from $20,000 to $20,705 (2015--2018) then fell to $20,513 (2018--2021).
-The net change from 2015 to 2021 is an increase of $513, or 2.6%. Living Standards improved
+the net change from 2015 to 2021 is an increase of $513, or 2.6%. Living Standards improved
 slightly, but the improvement was modest and partially reversed. The Population grew faster than
 real GDP in the later period, reducing per capita gains.
 
@@ -2353,7 +2353,7 @@ The project is most sensitive to the project life assumption.
 ### Scenario Analysis
 
 Scenario analysis changes multiple variables simultaneously to reflect coherent "stories" about the
-Future:
+future:
 
 <div class="table-wrap">
 

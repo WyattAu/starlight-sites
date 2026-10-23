@@ -542,7 +542,7 @@ $$
 2. **Check dimensions and units at every step.** If your answer has units of kg·m/s when you expect
    joules, there is an error. Dimensional analysis catches many mistakes quickly.
 3. **Define your coordinate system.** State which direction is positive and where the origin is.
-   This prevents sign errors and makes your reasoning clear to the grader.
+   this prevents sign errors and makes your reasoning clear to the grader.
 4. **Distinguish between vector and scalar quantities.** Displacement is not distance; velocity is
    not speed. The AP exam frequently tests this distinction.
 5. **Apply conservation laws first.** Before writing out Newton's second law for every object, check

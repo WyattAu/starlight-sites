@@ -23,8 +23,8 @@ categories:
 ## Born-Haber Cycles
 
 Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a
-Series of well-defined energetic steps. They allow the calculation of lattice enthalpy from
-Experimental data and, by comparison with theoretical values, reveal the degree of covalent
+series of well-defined energetic steps. They allow the calculation of lattice enthalpy from
+experimental data and, by comparison with theoretical values, reveal the degree of covalent
 Character in nominally ionic bonds.
 
 ## Lattice Enthalpy
@@ -33,8 +33,8 @@ Character in nominally ionic bonds.
 
 **Lattice enthalpy of formation** ($\Delta H_\mathrm{lat}^\circ$): The enthalpy change when one mole
 Of an ionic solid is formed from its constituent gaseous ions under standard conditions. This is
-Always exothermic ($\Delta H_\mathrm{lat}^\circ \lt 0$) because the electrostatic attraction between
-Oppositely charged ions releases energy.
+always exothermic ($\Delta H_\mathrm{lat}^\circ \lt 0$) because the electrostatic attraction between
+oppositely charged ions releases energy.
 
 **Lattice dissociation enthalpy:** The reverse process -- the enthalpy change when one mole of an
 Ionic solid is separated into its gaseous ions. This is always endothermic and equal in magnitude
@@ -111,7 +111,7 @@ Given data:
 - $\mathrm{EA}_2(\mathrm{O}) = +798\,\mathrm{kJ/mol}$
 
 Note: The second electron affinity of oxygen is endothermic because adding an electron to a
-Negatively charged ion requires energy to overcome electrostatic repulsion.
+negatively charged ion requires energy to overcome electrostatic repulsion.
 
 $$
 \Delta H_\mathrm{lat}^\circ = -602 - 148 - 248 - 738 - 1451 - (-141) - 798
@@ -129,7 +129,7 @@ $\mathrm{Cl}^-$). The electrostatic attraction is proportional to the product of
 ## Enthalpy of Solution
 
 The enthalpy of solution ($\Delta H_\mathrm{sol}^\circ$) is the enthalpy change when one mole of
-Solute dissolves in a solvent ( water) to form an infinitely dilute solution:
+solute dissolves in a solvent ( water) to form an infinitely dilute solution:
 
 $$
 \mathrm{MX}(s) \to \mathrm{M}^+(aq) + \mathrm{X}^-(aq)
@@ -151,7 +151,7 @@ $$
 ### Hydration Enthalpy
 
 The hydration enthalpy is the enthalpy change when one mole of gaseous ions is dissolved in water to
-Form an infinitely dilute solution:
+form an infinitely dilute solution:
 
 $$
 \mathrm{M}^+(g) \to \mathrm{M}^+(aq)
@@ -246,7 +246,7 @@ for NaCl, confirming the predominantly ionic character of the bond.
 ## The Kapustinskii Equation
 
 For compounds where the crystal structure is unknown, the Kapustinskii equation provides an
-Empirical estimate of the lattice enthalpy:
+empirical estimate of the lattice enthalpy:
 
 $$
 \Delta H_\mathrm{lat}^\circ \approx -\frac{120.2 \times 10^{-6} \nu |z^+||z^-|}{r_+ + r_-}\left(1 - \frac{34.5 \times 10^{-12}}{r_+ + r_-}\right)
@@ -269,7 +269,7 @@ $$
 $$
 
 The Coulombic energy is proportional to $z^+ z^-$ So doubling the charge roughly quadruples the
-Lattice enthalpy.
+lattice enthalpy.
 
 ### Effect of Ion Size
 
@@ -366,7 +366,7 @@ most compounds where covalent character is present, the experimental value is le
 However, for $\mathrm{Ag}^+$ The $d^{10}$ electronic configuration leads to additional effects: the
 $d$ electrons provide a degree of covalent bonding that actually strengthens the lattice relative to
 the purely ionic model. The polarisation of $\mathrm{Cl}^-$ by $\mathrm{Ag}^+$ introduces some
-Covalent character, but the covalent contribution to the bond energy (which is not captured by the
+covalent character, but the covalent contribution to the bond energy (which is not captured by the
 Born-Lande equation) means the actual bond is stronger than predicted by the purely electrostatic
 Model.
 

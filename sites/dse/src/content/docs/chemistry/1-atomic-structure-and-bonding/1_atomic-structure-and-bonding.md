@@ -41,7 +41,7 @@ Where $N$ is the number of neutrons.
 ### Isotopes
 
 Isotopes are atoms of the same element with the same number of protons but different numbers of
-Neutrons. They have identical chemical properties but different physical properties (e.g., different
+neutrons. They have identical chemical properties but different physical properties (e.g., different
 Masses).
 
 Examples of isotopes:
@@ -53,7 +53,7 @@ Examples of isotopes:
 ### Worked Example 1
 
 Chlorine has two isotopes: Cl-35 (75.8% abundance) and Cl-37 (24.2% abundance). Calculate the
-Relative atomic mass of chlorine.
+relative atomic mass of chlorine.
 
 $$
 A_r = \frac{35 \times 75.8 + 37 \times 24.2}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.48
@@ -234,7 +234,7 @@ Bond.
 ### Formation of Ions
 
 Ionic bonds form between **metals** (which lose electrons to form cations) and **non-metals** (which
-Gain electrons to form anions).
+gain electrons to form anions).
 
 ### Lattice Structure
 
@@ -301,7 +301,7 @@ The ammonium ion $\mathrm{NH}_4^+$
 ### Bond Polarity
 
 When two atoms with different electronegativities form a covalent bond, the bonding electrons are
-Pulled towards the more electronegative atom, creating a **polar bond** with a dipole.
+pulled towards the more electronegative atom, creating a **polar bond** with a dipole.
 
 - Non-polar covalent: $\Delta\mathrm{EN} \lt 0.5$ (e.g., H-H, Cl-Cl)
 - Polar covalent: $0.5 \leqslant \Delta\mathrm{EN} \lt 1.7$ (e.g., H-Cl, H-O)
@@ -333,8 +333,8 @@ $\mathrm{K^+}$ and $\mathrm{Br^-}$.
 ### Shapes of Molecules (VSEPR Theory)
 
 The Valence Shell Electron Pair Repulsion theory predicts molecular shapes based on the idea that
-Electron pairs around a central atom repel each other and arrange themselves as far apart as
-Possible.
+electron pairs around a central atom repel each other and arrange themselves as far apart as
+possible.
 
 <div class="table-wrap">
 
@@ -597,7 +597,7 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 Identify the group of this element.
 
 The large jump between the 3rd and 4th ionisation energies indicates that the fourth electron is
-Removed from a new, inner shell. This means the element has 3 valence electrons, placing it in
+removed from a new, inner shell. This means the element has 3 valence electrons, placing it in
 **Group 13** (it is aluminium).
 
 **Question 2:** Draw the shape of $\mathrm{PCl}_3$ and state its bond angle.
@@ -611,14 +611,14 @@ Shape: **trigonal pyramidal**, bond angle approximately $107^\circ$.
 **Question 3:** Explain why the boiling point of neon is lower than that of argon.
 
 Both are noble gases with only van der Waals forces. Argon has more electrons than neon, so it has
-Stronger van der Waals forces. More energy is required to overcome these forces, giving argon a
-Higher boiling point.
+stronger van der Waals forces. More energy is required to overcome these forces, giving argon a
+higher boiling point.
 
 **Question 4:** Draw the dot-and-cross diagram for $\mathrm{NH}_3$ and predict its shape.
 
 Nitrogen has 5 valence electrons. Three electrons form covalent bonds with three hydrogen atoms (3
 Shared pairs), and one lone pair remains. The shape is trigonal pyramidal with a bond angle of
-Approximately $107^\circ$.
+approximately $107^\circ$.
 
 **Question 5:** Explain why $\mathrm{SiO}_2$ has a very high melting point.
 
@@ -645,7 +645,7 @@ of energy, hence the very high melting point.
 ### Bond Enthalpy
 
 Bond enthalpy (bond energy) is the average energy required to break one mole of a particular type of
-Bond in the gaseous state.
+bond in the gaseous state.
 
 <div class="table-wrap">
 
@@ -737,8 +737,8 @@ The physical properties of ionic compounds can be explained by their giant ionic
 **High melting and boiling points:**
 
 The electrostatic attraction between oppositely charged ions acts throughout the entire lattice. A
-Large amount of energy is required to overcome these strong forces, resulting in high melting and
-Boiling points.
+large amount of energy is required to overcome these strong forces, resulting in high melting and
+boiling points.
 
 **Electrical conductivity:**
 
@@ -755,7 +755,7 @@ Cations. If the hydration energy exceeds the lattice energy, the ionic compound 
 **Brittleness:**
 
 When a force is applied, layers of ions shift. Ions of the same charge come adjacent to each other,
-And the repulsive forces cause the crystal to fracture along a cleavage plane.
+and the repulsive forces cause the crystal to fracture along a cleavage plane.
 
 ### Lattice Energy
 
@@ -828,7 +828,7 @@ $\mathrm{Fe}^{3+}$: Remove 3 electrons. Since $4s$ electrons are lost before $3d
 $\mathrm{Fe}^{3+}$: $1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^6\, 3d^5$
 
 Note that $\mathrm{Fe}^{3+}$ has a half-filled $3d$ subshell ($3d^5$), which contributes to its
-Relative stability compared to $\mathrm{Fe}^{2+}$ ($3d^6$).
+relative stability compared to $\mathrm{Fe}^{2+}$ ($3d^6$).
 
 ---
 
@@ -981,7 +981,7 @@ $\mathrm{NaCl}$.
 
 Both have giant ionic lattices, but $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ have higher charges
 than $\mathrm{Na}^+$ and $\mathrm{Cl}^-$. The electrostatic attraction is proportional to the
-Product of the charges: $\mathrm{MgO}$ has $2 \times 2 = 4$ while $\mathrm{NaCl}$ has
+product of the charges: $\mathrm{MgO}$ has $2 \times 2 = 4$ while $\mathrm{NaCl}$ has
 $1 \times 1 = 1$. Additionally, $\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$ are smaller ions, allowing
 them to get closer together. Both factors result in stronger ionic bonds and a higher melting point
 for $\mathrm{MgO}$.
@@ -990,7 +990,7 @@ for $\mathrm{MgO}$.
 Molecule.
 
 Carbon has 4 valence electrons and forms two double bonds with oxygen atoms (each oxygen has 6
-Valence electrons). The molecule has no lone pairs on the central carbon atom. With two bonding
+valence electrons). The molecule has no lone pairs on the central carbon atom. With two bonding
 Pairs, the electron pair geometry and molecular shape are both **linear** with a bond angle of
 $180^\circ$.
 
@@ -999,7 +999,7 @@ Having a lower molecular mass.
 
 $\mathrm{HF}$ can form hydrogen bonds between molecules because hydrogen is bonded to fluorine
 (highly electronegative). $\mathrm{HCl}$ cannot form hydrogen bonds because chlorine is not
-Electronegative enough. Hydrogen bonding in $\mathrm{HF}$ is much stronger than the van der Waals
+electronegative enough. Hydrogen bonding in $\mathrm{HF}$ is much stronger than the van der Waals
 Forces and dipole- dipole interactions in $\mathrm{HCl}$ Resulting in a higher boiling point for
 $\mathrm{HF}$.
 
@@ -1007,15 +1007,15 @@ $\mathrm{HF}$.
 
 In diamond, each carbon atom is covalently bonded to four other carbon atoms in a tetrahedral
 Arrangement. All four valence electrons are used in sigma bonds, leaving no delocalised electrons to
-Carry charge. In graphite, each carbon atom is bonded to three others in a planar hexagonal
+carry charge. In graphite, each carbon atom is bonded to three others in a planar hexagonal
 Structure. The fourth electron from each carbon is delocalised and free to move throughout the
-Layers, allowing graphite to conduct electricity.
+layers, allowing graphite to conduct electricity.
 
 **Question 11:** Explain the trend in first ionisation energy across Period 3 (Na to Ar).
 
 Ionisation energy generally increases across the period because nuclear charge increases (more
-Protons) while the shielding effect remains similar (same number of inner electron shells). This
-Pulls the outer electrons closer to the nucleus, making them harder to remove. The dip at aluminium
+protons) while the shielding effect remains similar (same number of inner electron shells). This
+pulls the outer electrons closer to the nucleus, making them harder to remove. The dip at aluminium
 is because the electron is removed from the higher-energy $3p$ subshell. The dip at sulfur is
 because the electron is removed from a paired $3p$ orbital where electron-electron repulsion makes
 it easier to remove.
@@ -1029,7 +1029,7 @@ $\mathrm{Cu}^+$: $[\mathrm{Ar}]\, 3d^{10}$ (removing the $4s$ electron first)
 
 $\mathrm{Cu}^+$ has a completely filled $3d$ subshell, which is particularly stable due to the
 Symmetrical distribution of electrons. However, $\mathrm{Cu}^{2+}$ ($3d^9$) is more common in
-Aqueous chemistry because of the high hydration energy that compensates for the loss of the stable
+aqueous chemistry because of the high hydration energy that compensates for the loss of the stable
 $3d^{10}$ configuration.
 
 </details>
@@ -1050,7 +1050,7 @@ $3d^{10}$ configuration.
 ### Hybridisation
 
 Hybridisation is the concept of mixing atomic orbitals to form new hybrid orbitals that are
-Equivalent in energy and suitable for bonding.
+equivalent in energy and suitable for bonding.
 
 <div class="table-wrap">
 
@@ -1072,7 +1072,7 @@ Sulphur has 6 valence electrons. In $\mathrm{SF}_4$ Four are used for bonding wi
 one lone pair. Total electron pairs = 5 (4 bonding + 1 lone pair).
 
 Hybridisation: $sp^3d$ (trigonal bipyramidal electron pair geometry, with the lone pair in an
-Equatorial position, giving a "see-saw" molecular shape).
+equatorial position, giving a "see-saw" molecular shape).
 
 ### Molecular Orbital Theory (Brief Overview)
 
@@ -1139,7 +1139,7 @@ The strength of intermolecular forces directly affects physical properties:
 
 HF has the highest boiling point due to hydrogen bonding. For HCl, HBr, and HI, boiling points
 Increase with molecular mass (more electrons = stronger van der Waals forces), despite the
-Decreasing dipole moment.
+decreasing dipole moment.
 
 ### Worked Example 11
 
@@ -1147,7 +1147,7 @@ Explain why $\mathrm{C}_2\mathrm{H}_5\mathrm{OH}$ (ethanol) is soluble in water 
 $\mathrm{C}_6\mathrm{H}_{12}$ (hexane) is not.
 
 Ethanol has a hydroxyl group (-OH) that can form hydrogen bonds with water molecules, making it
-Miscible. Hexane is a non-polar hydrocarbon with only weak van der Waals forces. The energy released
+miscible. Hexane is a non-polar hydrocarbon with only weak van der Waals forces. The energy released
 from forming hexane-water interactions is insufficient to overcome the hydrogen bonds between water
 Molecules and the van der Waals forces between hexane molecules. This follows the principle "like
 Dissolves like."
@@ -1172,7 +1172,7 @@ Explain why graphite is soft and slippery while diamond is hard.
 
 In graphite, the carbon atoms are arranged in flat hexagonal layers. Within each layer, strong
 Covalent bonds hold atoms together. Between layers, only weak van der Waals forces act, allowing the
-Layers to slide over each other . This makes graphite soft and a good lubricant. In diamond, All
+layers to slide over each other . This makes graphite soft and a good lubricant. In diamond, All
 carbon atoms are covalently bonded in a rigid 3D tetrahedral network with no weak planes, making It
 extremely hard.
 

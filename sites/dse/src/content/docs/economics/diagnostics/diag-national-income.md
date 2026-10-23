@@ -246,7 +246,7 @@ capacity on restoring the status quo rather than improving living standards.
 employees $= 600$, Gross operating surplus $= 350$, Gross mixed income $= 100$, Taxes on production
 and imports $= 80$, Subsidies $= 30$. (a) Calculate GDP by the income approach. (b) If depreciation
 is HK$120 billion and net factor income from abroad is $-$ HK$15 billion, calculate GNP, NNP, and
-National Income. (c) Explain why the expenditure, income, and output approaches to GDP should yield
+national Income. (c) Explain why the expenditure, income, and output approaches to GDP should yield
 the same result. (d) If a domestic company earns HK$50 billion from its subsidiary in Vietnam, how
 does this affect the calculation?
 

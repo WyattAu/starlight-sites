@@ -57,8 +57,8 @@ Newly synthesised strand.
 
 At a replication fork, the two strands of DNA are separated. DNA polymerase can only synthesise in
 the 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
-Lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
-Move along the template in one direction.
+lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
+move along the template in one direction.
 
 The lagging strand is synthesised in short fragments called Okazaki fragments, each initiated by an
 RNA primer. DNA ligase then joins these fragments together.
@@ -240,7 +240,7 @@ Where:
 ### Example (HL)
 
 In a population, 16% of individuals show the recessive phenotype (attached earlobes). Find the
-Allele frequencies and genotype frequencies.
+allele frequencies and genotype frequencies.
 
 $$
 Q^2 = 0.16 \implies q = 0.4
@@ -383,7 +383,7 @@ See the examples integrated throughout the sections above.
 
 **The double helix:** DNA consists of two antiparallel strands wound into a double helix. The
 Sugar-phosphate backbone is on the outside, and the nitrogenous bases project inward. The two
-Strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
+strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
 Hydrogen bonds) and G pairs with C (3 hydrogen bonds).
 
 **Chargaff's rules:** In any sample of DNA, the amount of adenine equals the amount of thymine
@@ -494,18 +494,18 @@ Contain simpler organisms; younger layers contain more complex organisms. Transi
 Pentadactyl limb) suggest common ancestry. Analogous structures (different structure, similar
 Function, e.g., wings of birds and insects) suggest convergent evolution. Vestigial structures
 (e.g., human appendix, pelvic bones in whales) are remnants of structures that were functional in
-Ancestors.
+ancestors.
 
 **Comparative embryology:** Early embryos of all vertebrates are remarkably similar, with features
 Such as pharyngeal pouches and a post-anal tail. This suggests a common ancestry.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that closely related species have
 More similar sequences. The genetic code is nearly universal (the same codons code for the same
-Amino acids in almost all organisms), which is strong evidence for a common origin of all life.
+amino acids in almost all organisms), which is strong evidence for a common origin of all life.
 
 **Biogeography:** The distribution of species around the world reflects evolutionary history. Island
 Species are often similar to those on the nearest mainland but have evolved differences due to
-Isolation (e.g., Darwin's finches on the Galapagos Islands).
+isolation (e.g., Darwin's finches on the Galapagos Islands).
 
 ## Review: Genetic Engineering -- Applications and Ethics
 
@@ -524,7 +524,7 @@ Risk of transmitting animal diseases (unlike pig insulin, which was previously u
 ### Gene Therapy
 
 Gene therapy involves inserting a functional copy of a gene into a patient's cells to treat a
-Genetic disorder.
+genetic disorder.
 
 **Somatic gene therapy:** Targets body cells (not germ cells). Changes are not inherited.
 
@@ -533,7 +533,7 @@ More controversial because it affects future generations.
 
 **Example:** Cystic fibrosis is caused by a mutation in the CFTR gene. Gene therapy involves
 Delivering a normal copy of the CFTR gene to the patient's lung cells using a viral vector (a
-Modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
+modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
 Fibrosis.
 
 ### Ethical Concerns of Genetic Engineering
@@ -557,8 +557,8 @@ Favours one extreme of the phenotype distribution, shifting the mean in that dir
 **Example:** The peppered moth (Biston betularia) in industrial England. Before industrialisation,
 The light-coloured form was well camouflaged against lichen-covered bark. During industrialisation,
 Soot darkened tree bark, and the dark-coloured form became better camouflaged. The frequency of the
-Dark allele increased through natural selection. After clean-air legislation, the frequency of the
-Light form increased again as bark lightened.
+dark allele increased through natural selection. After clean-air legislation, the frequency of the
+light form increased again as bark lightened.
 
 ### Stabilising Selection
 
@@ -572,7 +572,7 @@ is stabilising selection maintaining the average birth weight.
 ### Disruptive Selection
 
 Favours both extremes and selects against the intermediate. This can lead to the formation of two
-Distinct phenotypes in the population.
+distinct phenotypes in the population.
 
 **Example:** In African seedcracker finches, birds with very large or very small beaks are favoured
 Because the available seeds are either very large or very small. Birds with intermediate beaks are
@@ -619,7 +619,7 @@ $q = \frac{2(160) + 480}{2(1000)} = \frac{800}{2000} = 0.4$
 Expected (under H-W): $p^2 = 0.36$ (AA = 360), $2pq = 0.48$ (Aa = 480), $q^2 = 0.16$ (aa = 160).
 
 The observed frequencies exactly match the expected Hardy-Weinberg frequencies. The population is in
-Equilibrium.
+equilibrium.
 
 **Worked Example 2: Cystic fibrosis carrier frequency.**
 
@@ -649,7 +649,7 @@ Expected (under H-W): $p^2 = 0.25$ (AA = 250), $2pq = 0.50$ (Aa = 500), $q^2 = 0
 Observed: AA = 400, Aa = 200, aa = 400.
 
 The observed frequencies do not match the expected Hardy-Weinberg frequencies. There is a
-Significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
+significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
 non-random mating, such as inbreeding or positive assortative mating (individuals with similar
 Genotypes preferentially mate with each other).
 
@@ -685,7 +685,7 @@ Weights have higher mortality, so the intermediate range is favoured.
 **3. Disruptive selection:**
 
 Favours individuals at both extremes and selects against the intermediate phenotype. Can lead to
-Speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
+speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
 -- birds with either large or small beaks have higher survival (feeding on large or small seeds
 Respectively), while birds with intermediate beak sizes are less efficient at both.
 
@@ -704,7 +704,7 @@ Generations.
 **Speciation:**
 
 Speciation is the formation of new species. The biological species concept defines a species as a
-Group of organisms that can interbreed to produce fertile offspring. Speciation requires
+group of organisms that can interbreed to produce fertile offspring. Speciation requires
 Reproductive isolation, which can occur through:
 
 - **Geographic (allopatric) speciation:** Populations are physically separated by a geographic
@@ -720,7 +720,7 @@ Reproductive isolation, which can occur through:
 **Evidence for evolution:**
 
 In addition to molecular evidence, there are several lines of evidence supporting the theory of
-Evolution by natural selection:
+evolution by natural selection:
 
 **1. The fossil record:**
 
@@ -745,7 +745,7 @@ Fossils provide a record of organisms that lived in the past. The fossil record 
 
 Homologous structures (structures with a common evolutionary origin) provide evidence for common
 Descent. The pentadactyl limb (five-digit limb) is found in mammals, birds, reptiles, and
-Amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
+amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
 Phalanges) adapted for different functions (grasping, swimming, flying, running).
 
 **3. Biogeography:**
@@ -758,8 +758,8 @@ the mainland and then diverging through natural selection.
 **4. Embryology:**
 
 Early embryonic stages of vertebrates are remarkably similar, suggesting a common ancestry. For
-Example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
-Parts of the ear and throat in mammals) and a post-anal tail.
+example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
+parts of the ear and throat in mammals) and a post-anal tail.
 
 ## Summary
 

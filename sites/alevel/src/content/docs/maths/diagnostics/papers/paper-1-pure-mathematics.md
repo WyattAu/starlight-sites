@@ -168,7 +168,7 @@ $\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
 ### Q13 [5 marks], Proof
 
 For each of the following, state whether the condition is necessary, sufficient, both, or neither.
-Justify each answer.
+justify each answer.
 
 **(a)** "$x \gt 2$" as a condition for "$x^2 \gt 4$".
 

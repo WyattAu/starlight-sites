@@ -18,8 +18,8 @@ description: "Prejudice and discrimination are among the most consequential soci
 ## Introduction
 
 Prejudice and discrimination are among the most consequential social phenomena studied by
-Psychologists. Prejudice refers to a negative attitude toward a social group or its members, while
-Discrimination refers to negative behaviour directed toward a social group or its members.
+psychologists. Prejudice refers to a negative attitude toward a social group or its members, while
+discrimination refers to negative behaviour directed toward a social group or its members.
 Understanding the origins, maintenance, and reduction of prejudice and discrimination is central to
 the sociocultural level of analysis.
 
@@ -54,7 +54,7 @@ even arbitrary group categorisation is sufficient to produce intergroup bias.
 
 Sherif's (1966) realistic conflict theory explains prejudice as a rational response to competition
 over scarce resources. When groups compete for resources such as jobs, land, political power, or
-Social status, intergroup hostility increases as each group seeks to protect its interests.
+social status, intergroup hostility increases as each group seeks to protect its interests.
 Prejudice serves to justify the in-group's position and legitimise discrimination against the
 out-group.
 
@@ -66,13 +66,13 @@ Downturns, when competition for employment intensifies.
 ### Scapegoat Theory
 
 Scapegoat theory, rooted in frustration-aggression theory (Dollard et al., 1939), proposes that
-Prejudice arises when individuals experience frustration (from any source) and displace their
-Aggressive impulses onto a convenient target group. The scapegoat is a group that is Powerless,
+prejudice arises when individuals experience frustration (from any source) and displace their
+aggressive impulses onto a convenient target group. The scapegoat is a group that is Powerless,
 visible, and culturally distinct -- making it a safe target for displaced aggression.
 
 **Historical examples:** The persecution of Jewish communities in medieval Europe (blamed for plague
 And economic hardship), the internment of Japanese Americans during World War II, and the
-Scapegoating of minority groups during economic crises.
+scapegoating of minority groups during economic crises.
 
 **Evaluation:**
 
@@ -85,7 +85,7 @@ Scapegoating of minority groups during economic crises.
 
 Bandura's (1977) social learning theory proposes that prejudice is learned through observation,
 Imitation, and reinforcement. Children acquire prejudiced attitudes by observing the behaviour of
-Parents, peers, media figures, and other socialisation agents.
+parents, peers, media figures, and other socialisation agents.
 
 **Evidence:** Children's racial attitudes closely resemble those of their parents (Aboud, 1988).
 Media representations of stereotyped groups influence children's attitudes toward those groups.
@@ -103,7 +103,7 @@ Media representations of stereotyped groups influence children's attitudes towar
 
 Stereotyping is a natural consequence of the cognitive need to categorise and simplify complex
 Social information. The human brain has limited processing capacity, and categorisation is an
-Efficient strategy for reducing cognitive load. However, the efficiency gains of stereotyping come
+efficient strategy for reducing cognitive load. However, the efficiency gains of stereotyping come
 at the cost of accuracy and fairness.
 
 **Key cognitive mechanisms:**
@@ -128,7 +128,7 @@ at the cost of accuracy and fairness.
 Claude Steele and Joshua Aronson introduced the concept of stereotype threat: the psychological
 State in which individuals are at risk of confirming a negative stereotype about their social group.
 Stereotype threat impairs performance by creating anxiety, reducing working memory capacity, and
-Triggering self-monitoring processes that divert cognitive resources from the task.
+triggering self-monitoring processes that divert cognitive resources from the task.
 
 **Original study:**
 
@@ -169,7 +169,7 @@ Triggering self-monitoring processes that divert cognitive resources from the ta
 
 Following the assassination of Martin Luther King Jr., Jane Elliott, a schoolteacher in Riceville,
 Iowa, conducted a classroom exercise to teach her third-grade students about the effects of
-Discrimination.
+discrimination.
 
 **Methodology:**
 

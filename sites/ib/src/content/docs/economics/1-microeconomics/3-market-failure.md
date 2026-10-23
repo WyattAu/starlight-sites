@@ -27,7 +27,7 @@ categories: [ib-economics]
 ## Market Failure
 
 Market failure occurs when the free market fails to allocate resources efficiently, resulting in a
-Loss of social welfare. The condition for allocative efficiency is:
+loss of social welfare. The condition for allocative efficiency is:
 
 $$
 \mathrm{MSB} = \mathrm{MSC}
@@ -39,7 +39,7 @@ the socially optimal quantity.
 ### Externalities
 
 An externality is a spill-over effect of production or consumption on third parties who are not
-Involved in the transaction.
+involved in the transaction.
 
 **Negative production externalities** (e.g., factory pollution):
 
@@ -76,7 +76,7 @@ pollution):
 For a negative production externality, the MSC curve lies above the MPC curve. The free market
 Equilibrium is at the intersection of MPC and MPB (demand). The socially optimal equilibrium is at
 the intersection of MSC and MSB. The difference in quantity between the two represents the
-Overproduction, and the triangle between MSC, MSB, and the two quantities is the deadweight loss.
+overproduction, and the triangle between MSC, MSB, and the two quantities is the deadweight loss.
 
 For a positive consumption externality, the MSB curve lies above the MPB (demand) curve. The free
 Market underproduces relative to the social optimum. The deadweight loss is the triangle between
@@ -114,7 +114,7 @@ Leading to the tragedy of the commons).
 
 Common resources are non-excludable but rivalrous. Since no individual has property rights, each
 user Has an incentive to consume the resource before others do, leading to **overexploitation and
-Depletion**. Examples include overfishing, deforestation of unowned land, and groundwater depletion.
+depletion**. Examples include overfishing, deforestation of unowned land, and groundwater depletion.
 
 Solutions include:
 
@@ -231,7 +231,7 @@ $$
 ### Regulation
 
 Governments can directly regulate markets by setting standards, banning certain activities, or
-Requiring permits. Examples include:
+requiring permits. Examples include:
 
 - Pollution emission limits (command-and-control regulation)
 - Minimum quality standards (food safety, building codes)
@@ -239,12 +239,12 @@ Requiring permits. Examples include:
 - Mandatory labelling requirements
 
 Regulation has the advantage of certainty (firms know exactly what is required) but may be
-Inflexible and costly to enforce.
+inflexible and costly to enforce.
 
 ### Tradable Pollution Permits
 
 A market-based approach to correcting negative externalities. The government sets a total cap on
-Emissions and issues permits that firms can trade among themselves. Firms with low abatement costs
+emissions and issues permits that firms can trade among themselves. Firms with low abatement costs
 Reduce emissions and sell their surplus permits; firms with high abatement costs buy permits instead
 of reducing emissions.
 
@@ -373,7 +373,7 @@ $$
 $$
 
 The first triangle is the loss from inefficiently low production. The second is the loss from
-Foregone mutually beneficial transactions.
+foregone mutually beneficial transactions.
 
 ### Welfare Analysis of a Price Floor
 
@@ -502,7 +502,7 @@ Information (the "anchor") when making decisions, even when the anchor is irrele
 
 **Mechanism:** individuals start from the anchor and adjust insufficiently to reach their final
 Estimate. The adjustment process is cognitively effortful, so people tend to "stick" close to the
-Anchor.
+anchor.
 
 ### Experimental Evidence
 

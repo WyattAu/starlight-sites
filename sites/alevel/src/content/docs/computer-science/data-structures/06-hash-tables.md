@@ -169,7 +169,7 @@ $n \cdot (1/m) = n/m$. $\square$
 ### Method
 
 All key-value pairs are stored in the table itself (no linked lists). When a collision occurs, the
-Algorithm **probes** for the next available slot.
+algorithm **probes** for the next available slot.
 
 ### Linear Probing
 
@@ -222,10 +222,10 @@ Faster.
 
 **Proof of clustering.** Consider a cluster of length $L$. The probability that the next insertion
 Lands in this cluster is $(L + 1)/m$ (one more than the cluster length, since the slot after the
-Cluster also triggers probing into the cluster). When an insertion lands in the cluster, the cluster
+cluster also triggers probing into the cluster). When an insertion lands in the cluster, the cluster
 Grows by at least 1. This positive feedback means large clusters grow disproportionately, leading to
-Degraded performance. The expected number of probes for an unsuccessful search grows rapidly as the
-Load factor approaches 1 (vs $O(1)$ for uniform hashing).
+degraded performance. The expected number of probes for an unsuccessful search grows rapidly as the
+load factor approaches 1 (vs $O(1)$ for uniform hashing).
 
 More formally, after inserting $n$ keys into a table of size $m$ with linear probing, the expected
 Number of probes for an unsuccessful search is approximately:
@@ -508,7 +508,7 @@ Value for each of the following keys: 26, 42, 93, 17, 77, 31, 55, 20.
 <summary>Hint</summary>
 
 Apply $h(k) = k \bmod 13$ to each key. Remember that the modulo operation gives the remainder after
-Division.
+division.
 
 </details>
 
@@ -575,7 +575,7 @@ Probing with $h(k) = k \bmod 7$. Show the state of the table after each insertio
 <summary>Hint</summary>
 
 For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$ Etc., wrapping around
-Using modulo 7.
+using modulo 7.
 
 </details>
 
@@ -601,9 +601,9 @@ $h(k) = k \bmod 7$
 Step-by-step table states:
 
 After inserting 44: `[-, -, 44, -, -, -, -]` After inserting 17: `[-, -, 44, 17, -, -, -]` After
-Inserting 31: `[-, -, 44, 17, 31, -, -]` After inserting 88: `[-, -, 44, 17, 31, 88, -]` After
-Inserting 61: `[-, -, 44, 17, 31, 88, 61]` After inserting 5: `[5, -, 44, 17, 31, 88, 61]` After
-Inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
+inserting 31: `[-, -, 44, 17, 31, -, -]` After inserting 88: `[-, -, 44, 17, 31, 88, -]` After
+inserting 61: `[-, -, 44, 17, 31, 88, 61]` After inserting 5: `[5, -, 44, 17, 31, 88, 61]` After
+inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
 
 Final table:
 
@@ -642,8 +642,8 @@ Probe sequence:
 The key 61 was found at index 6 after 2 probes.
 
 Note: This illustrates a drawback of linear probing, even though $h(61) = 5$ The key is stored at
-Index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
-Key or an empty slot.
+index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
+key or an empty slot.
 
 </details>
 
@@ -701,7 +701,7 @@ And show the final table using linear probing.
 <summary>Hint</summary>
 
 First check if rehashing is needed. If so, double the table size (to a prime), then reinsert every
-Key into the new table using the new modulo.
+key into the new table using the new modulo.
 
 </details>
 
@@ -749,7 +749,7 @@ New load factor: $\alpha = 6/17 \approx 0.353 < 0.7$ ✓
 **Problem 7.** A hash table using chaining has 500 buckets and currently stores 350 key-value pairs.
 Calculate the load factor. If the table is resized to 1001 buckets (a prime), what is the new load
 Factor? What is the expected number of comparisons for an unsuccessful search before and after
-Resizing?
+resizing?
 
 <details>
 <summary>Hint</summary>
@@ -775,7 +775,7 @@ Load factor $\alpha = n/m$. For chaining with unsuccessful search, expected comp
 $1 + \alpha/2 = 1 + 0.35 = 1.35$ And after resizing is $1 + 0.175 = 1.175$.
 
 Resizing roughly halves the expected search time, demonstrating why maintaining a low load factor is
-Important for performance.
+important for performance.
 
 </details>
 
@@ -821,7 +821,7 @@ Worked examples for at least three ISBNs.
 <summary>Hint</summary>
 
 Consider using the division method or a digit-selection technique. Think about what properties the
-Hash function should have (uniform distribution, efficiency, minimal collisions).
+hash function should have (uniform distribution, efficiency, minimal collisions).
 
 </details>
 
@@ -858,7 +858,7 @@ $$
 </div>
 
 This gives good distribution across the table. With $m = 10007$ and a load factor target of 0.7, the
-Table can hold approximately 7000 books before needing resizing.
+table can hold approximately 7000 books before needing resizing.
 
 </details>
 
@@ -868,7 +868,7 @@ Order: 47, 25, 63, 14, 80, 36, 52.
 
 (a) Show the probe sequence for each key and the final state of the hash table. (b) What is the load
 Factor of the final table? (c) Trace the search for key 80 in the final table. How many probes are
-Needed? (d) If key 25 is deleted, explain why lazy deletion (tombstone marking) is necessary in open
+needed? (d) If key 25 is deleted, explain why lazy deletion (tombstone marking) is necessary in open
 Addressing, and show what happens if a search for key 47 is performed after deletion without
 Tombstones.
 
@@ -942,12 +942,12 @@ Searching for key 80 if index 0 were emptied: $h_1(80) = 3$ Probing goes to inde
 the problem arises with keys that were inserted after the deleted key and probed past it.
 
 Consider searching for a hypothetical key that hashed to index 0 and was placed further along due to
-Probing. If index 0 is emptied, the search would stop prematurely at the empty slot, Incorrectly
+probing. If index 0 is emptied, the search would stop prematurely at the empty slot, Incorrectly
 concluding the key is not in the table.
 
 **Solution:** Use lazy deletion (tombstone). Mark index 0 as DELETED (not EMPTY). During search,
 Treat DELETED slots as occupied (continue probing past them). During insert, treat DELETED slots as
-Available for insertion.
+available for insertion.
 
 </details>
 

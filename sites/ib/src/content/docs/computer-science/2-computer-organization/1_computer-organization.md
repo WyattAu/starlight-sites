@@ -57,7 +57,7 @@ Register that stores the current instruction
 #### Static RAM (SRAM)
 
 SRAM are volatile semiconductor memory that uses flip flops to store each bit of data. This is
-Characterized by fast access times and used in cache memory.
+characterized by fast access times and used in cache memory.
 
 #### Dynamic RAM (DRAM)
 
@@ -82,7 +82,7 @@ Modules).
 ## Von Neumann Architecture
 
 The Von Neumann architecture is the dominant design for most general-purpose computers. It is
-Characterized by:
+characterized by:
 
 1. **Single memory space**: Both data and instructions are stored in the same memory.
 2. **Single bus**: Data and instructions share the same pathway between memory and the CPU.
@@ -494,7 +494,7 @@ Resources (cache, memory bus) can create bottlenecks; increased complexity in OS
 ### Device Drivers
 
 A device driver is specialized software that allows the operating system to communicate with a
-Hardware device. Without the correct driver, the OS cannot use the device.
+hardware device. Without the correct driver, the OS cannot use the device.
 
 **Example**: When you connect a new printer, the OS needs the printer's driver to understand how to
 Send print jobs, manage paper trays, and handle print settings.
@@ -587,7 +587,7 @@ Frequently accessed data and instructions to reduce the average time to access m
 
 **Problem:** A CPU makes 10,000 memory accesses. The cache has a hit time of 2 ns and the main
 Memory has an access time of 50 ns. Out of the 10,000 accesses, 8,500 are cache hits and 1,500 are
-Cache misses. Calculate: a) The hit rate. B) The average memory access time (AMAT). C) The total
+cache misses. Calculate: a) The hit rate. B) The average memory access time (AMAT). C) The total
 Time for all 10,000 accesses if there were no cache.
 
 **Solution:**
@@ -638,8 +638,8 @@ The cache reduces total access time by approximately 82%.
 ## Pipelining
 
 Pipelining is a technique where multiple instructions are overlapped in execution, similar to an
-Assembly line in a factory. Instead of waiting for one instruction to complete all stages before
-Starting the next, each stage processes a different instruction simultaneously.
+assembly line in a factory. Instead of waiting for one instruction to complete all stages before
+starting the next, each stage processes a different instruction simultaneously.
 
 ### The Three-Stage Pipeline
 
@@ -700,7 +700,7 @@ the branch will be taken. Branch prediction attempts to guess the outcome:
   Modern CPUs achieve prediction accuracy above 95%.
 
 If the prediction is wrong, the pipeline must be flushed (partially completed instructions are
-Discarded), which incurs a performance penalty.
+discarded), which incurs a performance penalty.
 
 ---
 
@@ -789,7 +789,7 @@ Discarded), which incurs a performance penalty.
 <summary>Question 1</summary>
 
 A CPU uses a three-stage pipeline (Fetch, Decode, Execute). Each stage takes 1 clock cycle. How many
-Clock cycles are required to execute: a) 1 instruction? b) 10 instructions? c) 100 instructions?
+clock cycles are required to execute: a) 1 instruction? b) 10 instructions? c) 100 instructions?
 
 </details>
 
@@ -856,7 +856,7 @@ Simultaneously, creating the **Von Neumann bottleneck**, the bus becomes a perfo
 because it can only transfer one item at a time.
 
 The Harvard architecture uses **separate memory spaces** for data and instructions, each with its
-Own bus. This allows the CPU to fetch the next instruction and read/write data at the same time,
+own bus. This allows the CPU to fetch the next instruction and read/write data at the same time,
 Eliminating the bottleneck. The trade-off is increased hardware complexity and cost. Harvard
 Architecture is commonly used in DSPs and embedded systems where performance is critical.
 

@@ -1018,7 +1018,7 @@ recognised across the UK and internationally.
 ### National 5
 
 The foundation level, taken in S4 (age 15-16). National 5s prepare students for the demands Of
-Higher study.
+higher study.
 
 ### Higher
 
@@ -1033,7 +1033,7 @@ assessment differ.
 ### Advanced Higher
 
 studied in S6 (age 17-18). These are more specialised and go deeper into subject content Than
-Highers. They are broadly comparable to first-year university level work.
+highers. They are broadly comparable to first-year university level work.
 
 - Graded A, B, C, D
 - Significant coursework component (often a project or dissertation)
@@ -1207,7 +1207,7 @@ Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
 out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
 all confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
-Archaea, which have pseudopeptidoglycan or other cell wall compositions).
+archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
 ### Cell Ultrastructure
 
@@ -1302,13 +1302,13 @@ Becomes turgid in plant cells).
 **Worked Example: Calculating water potential and predicting osmosis.**
 
 A plant cell has a solute potential of $-500$ kPa and a pressure potential of $200$ kPa. The cell is
-Placed in a solution with a water potential of $-400$ kPa.
+placed in a solution with a water potential of $-400$ kPa.
 
 Cell water potential: $\psi = -500 + 200 = -300$ kPa.
 
 Since the cell water potential ($-300$ kPa) is higher than the solution water potential ($-400$
 KPa), water will move from the cell into the solution (from higher to lower water potential). The
-Cell will lose water and may become plasmolysed.
+cell will lose water and may become plasmolysed.
 
 **Worked Example: Determining solute potential from molarity.**
 
@@ -1341,7 +1341,7 @@ $\psi_s = -(1)(0.2)(0.0083)(293) = -0.486$ kPa.
 ### Mitosis
 
 Mitosis produces two genetically identical daughter cells with the same chromosome number as the
-Parent cell. It is used for growth, repair, and asexual reproduction.
+parent cell. It is used for growth, repair, and asexual reproduction.
 
 **Stages:**
 
@@ -1407,7 +1407,7 @@ Meiosis produces four genetically distinct daughter cells, each with half the ch
 A cell in the G2 phase of the cell cycle has 46 chromosomes (diploid, human cell).
 
 After mitosis: each daughter cell has 46 chromosomes (same as parent). The two daughter cells are
-Genetically identical.
+genetically identical.
 
 After meiosis: each of the four daughter cells has 23 chromosomes (haploid). The four daughter cells
 are genetically different (due to crossing over and independent assortment).
@@ -1615,14 +1615,14 @@ Functions can be studied.
 
 A student wants to isolate mitochondria from liver cells. They homogenise liver tissue in cold,
 Isotonic, buffered sucrose solution. They centrifuge at 600 g for 10 minutes and collect the
-Supernatant. They then centrifuge the supernatant at 10,000 g for 15 minutes. The pellet at this
-Stage contains the mitochondria. The student resuspends the mitochondrial pellet and can now study
+supernatant. They then centrifuge the supernatant at 10,000 g for 15 minutes. The pellet at this
+stage contains the mitochondria. The student resuspends the mitochondrial pellet and can now study
 Mitochondrial function (e.g., measuring the rate of aerobic respiration).
 
 **Why sucrose solution is used instead of water:** A sucrose solution is used because it provides an
 Isotonic medium. If water were used, the organelles would absorb water by osmosis and burst,
 Destroying their structure and function. The sucrose solution has the same water potential as the
-Cytoplasm, preventing osmotic damage.
+cytoplasm, preventing osmotic damage.
 
 ## Review: Prokaryotic Cell Division -- Binary Fission
 
@@ -1665,12 +1665,12 @@ Intracellular transport, and enables cell movement and division.
 
 **Microtubules (25 nm):** Hollow tubes made of tubulin. They radiate from the centrosome and form
 The mitotic spindle during cell division. Motor proteins (kinesin and dynein) move along
-Microtubules to transport vesicles and organelles. Kinesin moves towards the plus end (away from the
-Centrosome); dynein moves towards the minus end (towards the centrosome).
+microtubules to transport vesicles and organelles. Kinesin moves towards the plus end (away from the
+centrosome); dynein moves towards the minus end (towards the centrosome).
 
 **Microfilaments (7 nm):** Solid rods made of actin. They form a meshwork beneath the cell membrane
 (cortical actin) that provides mechanical support. In muscle cells, actin filaments interact with
-Myosin filaments to generate contraction. During cytokinesis, a contractile ring of actin and myosin
+myosin filaments to generate contraction. During cytokinesis, a contractile ring of actin and myosin
 Pinches the cell in two.
 
 **Intermediate filaments (10 nm):** Rope-like fibres made of various proteins (e.g., keratin,
@@ -1684,7 +1684,7 @@ Membrane. The vesicle is attached to a motor protein (kinesin) that walks along 
 towards the plus end (the cell periphery). Each step of kinesin requires the hydrolysis of one ATP
 Molecule. The motor protein moves in a hand-over-hand fashion, taking steps of approximately 8 nm
 per ATP hydrolysed. This process allows directed, ATP-dependent transport of materials within the
-Cell.
+cell.
 
 ## Review: Summary Comparison of Transport Mechanisms
 
@@ -1726,7 +1726,7 @@ Supporting the endosymbiotic theory.
 ## Review: Endosymbiotic Theory
 
 The endosymbiotic theory proposes that certain organelles, particularly mitochondria and
-Chloroplasts, originated as free-living prokaryotes that were engulfed by ancestral eukaryotic
+chloroplasts, originated as free-living prokaryotes that were engulfed by ancestral eukaryotic
 Cells.
 
 **Evidence supporting endosymbiotic theory:**
@@ -1746,12 +1746,12 @@ Cells.
 **Sequence of events (proposed):**
 
 An ancestral eukaryotic cell (which already had a nucleus and endomembrane system) engulfed an
-Aerobic prokaryote. Instead of digesting it, the host cell formed a symbiotic relationship: the
-Prokaryote provided ATP through aerobic respiration, and the host provided protection and nutrients.
+aerobic prokaryote. Instead of digesting it, the host cell formed a symbiotic relationship: the
+prokaryote provided ATP through aerobic respiration, and the host provided protection and nutrients.
 Over millions of years, the prokaryote lost many of its genes (some were transferred to the host
 Nucleus) and became the mitochondrion. A similar event occurred later when a photosynthetic
 Prokaryote (cyanobacterium) was engulfed, giving rise to chloroplasts in the lineage that led to
-Plants and algae.
+plants and algae.
 
 ## Review: Cell Surface Receptors and Cell Signalling
 
@@ -1776,7 +1776,7 @@ Change that activates an intracellular signalling pathway.
 
 **Signal transduction pathways:** The process by which an extracellular signal is converted into an
 Intracellular response. Key features include amplification (one activated enzyme can activate many
-Downstream molecules) and regulation (the signal can be modulated at multiple steps).
+downstream molecules) and regulation (the signal can be modulated at multiple steps).
 
 **Worked Example: The adrenaline signalling pathway.**
 
@@ -1792,7 +1792,7 @@ When adrenaline binds to a GPCR on a liver cell:
    levels.
 
 This pathway demonstrates signal amplification: one molecule of adrenaline can lead to the
-Activation of thousands of glycogen phosphorylase molecules through the cascade.
+activation of thousands of glycogen phosphorylase molecules through the cascade.
 
 ## Review: The Endomembrane System
 
@@ -1818,7 +1818,7 @@ Golgi apparatus, vesicles, lysosomes, and the plasma membrane.
 
 In I-cell disease (mucolipidosis II), the enzyme that adds the mannose-6-phosphate tag to lysosomal
 Enzymes in the Golgi is deficient. Without this tag, the lysosomal enzymes are secreted outside the
-Cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
+cell instead of being directed to lysosomes. The lysosomes therefore lack their digestive enzymes
 and cannot break down waste materials. Substances accumulate inside the cell, causing severe
 Developmental problems and early death.
 
@@ -1857,8 +1857,8 @@ When the skin is wounded, the ECM plays several critical roles. Collagen fibres 
 for cell migration into the wound. Fibronectin guides the migration of fibroblasts, which synthesise
 New ECM components. Growth factors bound to the ECM are released and stimulate cell proliferation.
 As healing progresses, the ECM is remodelled: initially disorganised collagen is replaced by more
-Organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
-Remodelling process is dysregulated, it can lead to excessive scarring (fibrosis) or delayed wound
+organised fibres, and excess ECM is broken down by matrix metalloproteinases (MMPs). If this
+remodelling process is dysregulated, it can lead to excessive scarring (fibrosis) or delayed wound
 Healing.
 
 ## Review: Stem Cells and Cell Specialisation
@@ -1881,7 +1881,7 @@ Specialised cell types.
 
 **Cell specialisation:** All cells in an organism contain the same genetic information, but
 Different genes are expressed in different cell types. This differential gene expression is
-Controlled by transcription factors and epigenetic modifications (DNA methylation, histone
+controlled by transcription factors and epigenetic modifications (DNA methylation, histone
 Modification).
 
 **Worked Example: Specialisation of red blood cells.**
@@ -1901,7 +1901,7 @@ Proteins because they have no nucleus.
 ## Review: Apoptosis -- Programmed Cell Death
 
 Apoptosis is a highly regulated process of programmed cell death that occurs as a normal part of
-Development and tissue homeostasis. Unlike necrosis (accidental cell death), apoptosis is an orderly
+development and tissue homeostasis. Unlike necrosis (accidental cell death), apoptosis is an orderly
 Process that does not cause inflammation.
 
 **Process of apoptosis:**
@@ -1927,7 +1927,7 @@ Process that does not cause inflammation.
 Cancer cells often evade apoptosis, allowing them to divide uncontrollably. One mechanism is the
 Overexpression of Bcl-2, a protein that inhibits apoptosis by preventing the release of cytochrome c
 from mitochondria. Normally, cytochrome c release activates caspases and triggers apoptosis. By
-Blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
+blocking this pathway, cancer cells survive and proliferate despite having DNA damage. Some cancer
 Therapies aim to restore the apoptotic pathway by inhibiting Bcl-2 or activating pro-apoptotic
 Proteins.
 
@@ -2408,7 +2408,7 @@ Domain: Eukarya Kingdom: Animalia Phylum: Chordata Class: Mammalia Order: Carniv
 Genus: Felis Species: Felis catus
 
 The domestic cat and the lion (Panthera leo) share the same kingdom, phylum, class, and order, but
-Differ at the family level. This tells us they are related but diverged evolutionarily at the family
+differ at the family level. This tells us they are related but diverged evolutionarily at the family
 Level.
 
 ### Biodiversity
@@ -2426,7 +2426,7 @@ D = 1 - \sum \frac{n(n-1)}{N(N-1)}
 $$
 
 Where $n$ is the number of individuals of a particular species and $N$ is the total number of
-Individuals.
+individuals.
 
 **Worked Example 1.** A habitat has three species with 10, 20, and 30 individuals respectively.
 
@@ -2692,7 +2692,7 @@ See the examples integrated throughout the sections above.
 ## Practice Questions
 
 1. Calculate Simpson's Diversity Index for a habitat with the following species: Species A (40),
-   Species B (30), Species C (20), Species D (10).
+   species B (30), Species C (20), Species D (10).
 
 2. Describe the evidence for evolution from (a) the fossil record and (b) comparative anatomy.
 
@@ -2741,7 +2741,7 @@ See the examples integrated throughout the sections above.
     potential problems with releasing captive-bred animals into the wild.
 
 20. A forest has Simpson's Diversity Index of 0.85. After deforestation, the index drops to 0.35.
-    Explain what this means and describe the likely consequences for the ecosystem.
+    explain what this means and describe the likely consequences for the ecosystem.
 
 21. Explain the role of mycorrhizae in plant nutrition and describe how this is an example of
     mutualism.
@@ -2778,11 +2778,11 @@ Selection causes changes in allele frequencies in a population over time.
 Before industrialisation in England, the majority of peppered moths (Biston betularia) were light-
 Coloured (typica morph), well camouflaged against lichen-covered trees. A rare dark morph
 (carbonaria) was occasionally seen. During the Industrial Revolution, soot darkened tree bark and
-Killed the lichen. The light morph became conspicuous to bird predators, while the dark morph became
+killed the lichen. The light morph became conspicuous to bird predators, while the dark morph became
 Better camouflaged. The frequency of the dark allele increased dramatically through natural
 Selection. After clean-air legislation reduced pollution, tree bark lightened again, and the
-Frequency of the light morph began to increase. This demonstrates that natural selection is not
-Directional in a fixed sense but responds to changes in the environment.
+frequency of the light morph began to increase. This demonstrates that natural selection is not
+directional in a fixed sense but responds to changes in the environment.
 
 ## Review: Evidence for Evolution
 
@@ -2807,7 +2807,7 @@ and a tail are present in all vertebrate embryos early in development.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that more closely related species
 Have more similar sequences. The universality of the genetic code (the same codons code for the same
-Amino acids in almost all organisms) is powerful evidence for common ancestry.
+amino acids in almost all organisms) is powerful evidence for common ancestry.
 
 ## Review: Speciation
 
@@ -2818,7 +2818,7 @@ Offspring.
 
 **Sympatric speciation:** Speciation occurs without geographical separation. This can happen through
 Polyploidy (common in plants, where a mistake in meiosis produces offspring with extra sets of
-Chromosomes, making them reproductively isolated from the parent population).
+chromosomes, making them reproductively isolated from the parent population).
 
 **Reproductive isolation mechanisms:**
 
@@ -2848,7 +2848,7 @@ Gradient (e.g., from dry land into a pond).
 **Worked Example: Using the Lincoln index.**
 
 40 snails are captured, marked, and released. One week later, 50 snails are captured, 8 of which are
-Marked.
+marked.
 
 Estimated population $= (40 \times 50) / 8 = 250$ snails.
 
@@ -2887,10 +2887,10 @@ Ice caps), more frequent extreme weather events, and shifts in species distribut
 
 DDT is a pesticide that was widely used in the mid-20th century. It is persistent in the environment
 and accumulates in fatty tissue. In an aquatic food chain: phytoplankton (0.003 ppm DDT) $\to$
-Zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
+zooplankton (0.04 ppm) $\to$ small fish (0.5 ppm) $\to$ large fish (2.0 ppm) $\to$ osprey (25.0
 Ppm). The concentration increases by a factor of over 8,000 from phytoplankton to osprey. Top
 Predators are most affected because they are at the highest trophic level and consume many
-Contaminated organisms.
+contaminated organisms.
 
 ## Review: Ecological Relationships
 
@@ -2914,12 +2914,12 @@ Coexist by resource partitioning.
 
 **Primary succession:** Colonisation of a previously lifeless area (e.g., bare rock after a volcanic
 Eruption or glacial retreat). Pioneer species (lichens, mosses) are the first to colonise. They
-Break down rock and contribute organic matter to the soil, allowing grasses and then shrubs to
-Establish. Over time, trees colonise, and a climax community is reached.
+break down rock and contribute organic matter to the soil, allowing grasses and then shrubs to
+establish. Over time, trees colonise, and a climax community is reached.
 
 **Secondary succession:** Recovery of an area where an existing community has been disturbed (e.g.,
 After a forest fire or abandoned farmland). The soil is already present, so succession proceeds more
-Rapidly than primary succession.
+rapidly than primary succession.
 
 **Worked Example: Succession on a sand dune.**
 
@@ -2947,8 +2947,8 @@ Organisms are classified into three domains:
 
 **Why the three-domain system replaced the five-kingdom system:** Molecular evidence (particularly
 RRNA sequencing) revealed that the differences between bacteria and archaea are as great as the
-Differences between either prokaryotic group and eukaryotes. The old five-kingdom system grouped all
-Prokaryotes together in one kingdom (Prokaryotae), which did not reflect their evolutionary
+differences between either prokaryotic group and eukaryotes. The old five-kingdom system grouped all
+prokaryotes together in one kingdom (Prokaryotae), which did not reflect their evolutionary
 Divergence.
 
 ### Phylogenetic Trees
@@ -2975,7 +2975,7 @@ the tree (approximately 15-20 million years ago).
 ## Review: The Carbon Cycle in Detail
 
 The carbon cycle describes the movement of carbon between the atmosphere, biosphere, oceans, and
-Geosphere.
+geosphere.
 
 **Key processes and the carbon reservoirs they connect:**
 
@@ -3046,7 +3046,7 @@ After a forest fire:
 5. Over decades to centuries, the climax community is re-established.
 
 Secondary succession is faster than primary succession because the soil is already present, and
-Seeds and root systems survive the disturbance.
+seeds and root systems survive the disturbance.
 
 **Factors affecting the rate of succession:**
 
@@ -3387,7 +3387,7 @@ Degrees of freedom: $2 - 1 = 1$.
 Critical value at 5% for 1 df: 3.841.
 
 Since $0.48 \lt 3.841$ The results are consistent with a 3:1 ratio. The difference is not
-Statistically significant.
+statistically significant.
 
 **Worked Example: Chi-squared for a dihybrid cross.**
 
@@ -3698,10 +3698,10 @@ Fidelity.
 **Leading vs lagging strand:**
 
 DNA polymerase can only add nucleotides in the 5' to 3' direction. Since the two strands of DNA are
-Antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
+antiparallel, only one strand (the leading strand) can be synthesised continuously in the direction
 of the replication fork. The other strand (the lagging strand) must be synthesised discontinuously
 in short fragments called Okazaki fragments, each initiated by an RNA primer. The RNA primers are
-Later removed and replaced with DNA, and the fragments are joined by DNA ligase.
+later removed and replaced with DNA, and the fragments are joined by DNA ligase.
 
 **Proofreading:** DNA polymerase III has 3' to 5' exonuclease activity, meaning it can detect and
 Remove a mismatched nucleotide and replace it with the correct one. This proofreading mechanism,
@@ -3779,7 +3779,7 @@ Used to insert a gene of interest into a plasmid vector.
 **Gel electrophoresis:** Separates DNA fragments by size. Smaller fragments move faster through the
 Agarose gel and travel further. DNA fragments can be visualised using a fluorescent dye that binds
 to DNA. This technique is used in DNA fingerprinting, analysing PCR products, and checking the
-Success of restriction enzyme digestion.
+success of restriction enzyme digestion.
 
 **Worked Example: Designing a genetic engineering experiment.**
 
@@ -3853,7 +3853,7 @@ DNA fingerprinting uses gel electrophoresis to compare DNA samples from differen
 **Worked Example: Interpreting a DNA fingerprint.**
 
 A crime scene sample and three suspects are analysed using DNA fingerprinting at three STR loci. The
-Banding pattern at each locus is compared:
+banding pattern at each locus is compared:
 
 - Locus 1: Crime scene has bands at 8 and 12 repeat units. Suspect A matches; Suspect B has bands at
   6 and 10; Suspect C has bands at 8 and 12 (matches).
@@ -3863,13 +3863,13 @@ Banding pattern at each locus is compared:
 
 Only Suspect A matches at all three loci, providing strong evidence that the DNA at the crime scene
 Came from Suspect A. The probability of a random match at all three loci is the product of the
-Individual match probabilities, which is less than 1 in a billion.
+individual match probabilities, which is less than 1 in a billion.
 
 ## Review: The trp Operon -- A Repressible Operon
 
 The trp operon in E. Coli controls the synthesis of tryptophan and is an example of a repressible
 Operon. Unlike the lac operon (inducible), the trp operon is normally ON and is switched OFF when
-Tryptophan is abundant.
+tryptophan is abundant.
 
 **Components:**
 
@@ -3977,7 +3977,7 @@ q' = \frac{(0.4)^2(0.5) + (0.6)(0.4)}{0.92} = \frac{0.08 + 0.24}{0.92} = \frac{0
 $$
 
 The frequency of the recessive allele has decreased from 0.4 to 0.348 after one generation of
-Selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
+selection. The recessive allele decreases slowly because it is "hidden" in heterozygous individuals,
 Who are not affected by selection.
 
 **Heterozygote advantage:** When heterozygotes have higher fitness than either homozygote, both
@@ -3990,7 +3990,7 @@ Alleles are maintained in the population. This is also called balanced polymorph
 - $H^SH^S$ (sickle cell disease): severe anaemia (fitness greatly reduced).
 
 The heterozygote advantage maintains both the normal and sickle cell alleles in the population. This
-Explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
+explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
 A severe genetic disorder.
 
 ## Summary
@@ -4589,7 +4589,7 @@ URL: https://highers.wyattau.com/biology/2-metabolism/2_metabolism/
 
 **Enzymes** are biological catalysts that speed up biochemical reactions by lowering the activation
 Energy. They are globular proteins with a specific active site complementary in shape to the
-Substrate.
+substrate.
 
 **Lock and Key model:** The substrate fits exactly into the active site like a key in a lock. Rigid
 And specific.
@@ -5003,7 +5003,7 @@ Inner mitochondrial membrane. Two shuttle systems transport the electrons:
   $\mathrm{FADH_2$ (yields 1.5 ATP per $\mathrm{FADH_2$). This is less efficient.
 
 The choice of shuttle system affects the total ATP yield. Using the malate-aspartate shuttle gives a
-Total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 ATP.
+total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 ATP.
 
 ## Review: Photosynthesis -- Light-Dependent Reactions in Detail
 
@@ -5029,7 +5029,7 @@ Total of 32 ATP; using the glycerol-3-phosphate shuttle gives approximately 30 A
 
 The proton gradient across the thylakoid membrane (higher $\mathrm{H^+$ concentration in the lumen)
 Drives ATP synthesis by ATP synthase. This is called photophosphorylation. The proton gradient is
-Generated by: (1) splitting of water (releases $\mathrm{H^+$ into the lumen), (2) pumping of
+generated by: (1) splitting of water (releases $\mathrm{H^+$ into the lumen), (2) pumping of
 $\mathrm{H^+$ by the cytochrome b6f complex, and (3) removal of $\mathrm{H^+$ from the stroma by
 $\mathrm{NADP^+$ reductase.
 
@@ -5074,7 +5074,7 @@ High ATP inhibits several enzymes in the pathway:
 - Isocitrate dehydrogenase (Krebs cycle) is inhibited by ATP and NADH.
 
 This coordinated inhibition prevents unnecessary energy production when the cell already has
-Sufficient ATP.
+sufficient ATP.
 
 ## Review: The Immune Response -- Vaccination
 
@@ -5087,8 +5087,8 @@ Producing large quantities of antibodies before the pathogen can cause illness.
 
 **Herd immunity:** When a high proportion of a population is immune to a disease (through
 Vaccination or previous infection), the spread of the disease is limited because there are too few
-Susceptible individuals for the pathogen to infect. This protects even those who cannot be
-Vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
+susceptible individuals for the pathogen to infect. This protects even those who cannot be
+vaccinated (e.g., newborns, immunocompromised individuals). The threshold for herd immunity varies
 by disease: measles requires approximately 95% immunity; polio requires approximately 80%.
 
 **Types of vaccines:**
@@ -5192,7 +5192,7 @@ Nephrons.
 Shivering involves rapid, involuntary contractions of skeletal muscles. Muscle contraction requires
 ATP, which is produced by cellular respiration. Respiration is only about 40% efficient, meaning
 that 60% of the energy from glucose is released as heat. During shivering, the increased rate of
-Respiration in muscles generates significantly more heat than normal, raising the core body
+respiration in muscles generates significantly more heat than normal, raising the core body
 Temperature.
 
 ## Review: Enzyme Kinetics -- Worked Examples
@@ -5200,7 +5200,7 @@ Temperature.
 **Worked Example: Effect of a competitive inhibitor.**
 
 An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A competitive inhibitor is added at a
-Concentration that doubles the apparent $K_m$.
+concentration that doubles the apparent $K_m$.
 
 With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$ Mol/min.
 
@@ -5290,7 +5290,7 @@ $$
 Pyruvate is reduced to lactate by the enzyme lactate dehydrogenase (LDH), which regenerates
 $\mathrm{NAD^+$ from NADH. This allows glycolysis to continue producing ATP even in the absence of
 Oxygen. However, the net yield is only 2 ATP per glucose (compared to approximately 30-32 ATP for
-Aerobic respiration).
+aerobic respiration).
 
 **The oxygen debt:** After exercise, the accumulated lactate must be metabolised. Lactate is
 Transported to the liver, where it is converted back to pyruvate. Some pyruvate enters the Krebs
@@ -5418,8 +5418,8 @@ but may be less versatile.
 In 2006, Shinya Yamanaka discovered that adult somatic cells could be reprogrammed to become
 Pluripotent by introducing four transcription factors (Oct4, Sox2, Klf4, c-Myc) -- the "Yamanaka
 Factors." iPSCs behave like embryonic stem cells and can differentiate into any cell type. This has
-Enormous potential for regenerative medicine because it avoids the ethical issues associated with
-Embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
+enormous potential for regenerative medicine because it avoids the ethical issues associated with
+embryonic stem cells and allows patient-specific therapies (using the patient's own cells).
 
 ### Tissues, Organs, and Systems
 
@@ -5477,14 +5477,14 @@ Stimulated again. This ensures one-way transmission.
 **Worked Example: Saltatory conduction.**
 
 In a myelinated axon, the action potential "jumps" from one node of Ranvier to the next, rather than
-Propagating along the entire length of the axon membrane. This speeds up transmission because:
+propagating along the entire length of the axon membrane. This speeds up transmission because:
 
 1. Less membrane needs to be depolarised (only at the nodes, not along the entire internode).
 2. The local currents between nodes are larger because the myelin insulates the internode,
    preventing current leakage.
 
 The speed of conduction in a myelinated axon can be up to 100 m/s, compared to about 1 m/s in an
-Unmyelinated axon of the same diameter.
+unmyelinated axon of the same diameter.
 
 ### Synapses
 
@@ -5514,7 +5514,7 @@ depolarisation reaches threshold, an action potential is generated in the Postsy
 ### The Endocrine System
 
 The endocrine system uses chemical messengers (hormones) secreted by endocrine glands into the
-Bloodstream.
+bloodstream.
 
 **Key differences from the nervous system:**
 
@@ -5654,7 +5654,7 @@ $$
 
 **Absorption:** The small intestine is adapted for absorption with villi and microvilli, which
 Increase surface area. Each villus has a dense capillary network (for amino acids and glucose) and a
-Lacteal (for fatty acids and glycerol).
+lacteal (for fatty acids and glycerol).
 
 ---
 
@@ -5860,7 +5860,7 @@ The kidney plays a central role in maintaining water and ion balance in the body
 
 **Ultrafiltration:** In the glomerulus, high blood pressure forces water, glucose, amino acids,
 Urea, and ions out of the blood and into the Bowman's capsule. Large proteins and blood cells are
-Too large to pass through the basement membrane and remain in the blood.
+too large to pass through the basement membrane and remain in the blood.
 
 **Selective reabsorption:** As the filtrate passes through the proximal convoluted tubule, all
 Glucose, all amino acids, and most water and ions are reabsorbed into the blood by active transport
@@ -5874,7 +5874,7 @@ multiplier Mechanism allows the kidney to produce concentrated urine.
 
 **ADH (antidiuretic hormone):** Released by the posterior pituitary gland in response to increased
 Blood osmolarity (detected by osmoreceptors in the hypothalamus). ADH makes the collecting duct more
-Permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
+permeable to water by inserting aquaporin channels into the membrane. More water is reabsorbed, and
 more concentrated urine is produced. When water intake is high, ADH secretion is reduced, less water
 is reabsorbed, and dilute urine is produced.
 
@@ -5883,9 +5883,9 @@ is reabsorbed, and dilute urine is produced.
 In a healthy person, all glucose is reabsorbed in the proximal convoluted tubule by active
 Transport. The transporters have a maximum capacity (transport maximum, Tm) of approximately 375
 Mg/min. If blood glucose levels are normal (approximately 5 mmol/L), the filtered load of glucose is
-Well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
+well below Tm, and all glucose is reabsorbed. In a person with uncontrolled diabetes, blood glucose
 Levels can exceed 10 mmol/L, and the filtered load exceeds Tm. The excess glucose cannot be
-Reabsorbed and appears in the urine (glycosuria).
+reabsorbed and appears in the urine (glycosuria).
 
 ## Review: Summary Table of Hormones
 
@@ -5924,7 +5924,7 @@ The male reproductive system produces and delivers sperm.
 **Spermatogenesis:** The process of sperm production in the seminiferous tubules. Spermatogonia
 (diploid) undergo mitosis to produce more spermatogonia and primary spermatocytes. Primary
 Spermatocytes undergo meiosis I to produce secondary spermatocytes, which undergo meiosis II to
-Produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
+produce spermatids. Spermatids mature into spermatozoa (sperm) through a process called
 Spermiogenesis.
 
 ### Female Reproductive System
@@ -6021,7 +6021,7 @@ Calcium ions ($\mathrm{Ca^{2+}$) are essential cofactors at multiple steps in th
 Without calcium ions, thromboplastin cannot convert prothrombin to thrombin, and thrombin cannot
 Convert fibrinogen to fibrin. This is why calcium chelators (substances that bind and remove calcium
 Ions) such as EDTA are used as anticoagulants in blood collection tubes. Similarly, the
-Anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
+anticoagulant drug heparin works by enhancing the activity of antithrombin, which inactivates
 Thrombin, preventing fibrin formation.
 
 ## Review: Lymphatic System
@@ -6043,13 +6043,13 @@ System.
 
 **Lymph circulation:** Lymph moves through lymphatic vessels by contraction of surrounding skeletal
 Muscles and by breathing. Valves in the lymphatic vessels prevent backflow. Lymph is returned to the
-Bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
+bloodstream via the thoracic duct (drains the left side of the body and both legs) and the right
 Lymphatic duct (drains the right side of the body) into the subclavian veins.
 
 **Worked Example: Oedema and the lymphatic system.**
 
 Oedema (swelling) occurs when excess fluid accumulates in the tissues. This can happen if the
-Lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
+lymphatic system is blocked (e.g., by a parasitic infection such as elephantiasis, which is caused
 by filarial worms blocking lymphatic vessels). If lymphatic drainage is impaired, the excess
 Interstitial fluid cannot be returned to the bloodstream, and the tissue swells. This demonstrates
 the critical role of the lymphatic system in maintaining fluid balance.
@@ -6087,7 +6087,7 @@ The human body contains three types of muscle tissue:
 **Worked Example: The sliding filament mechanism of muscle contraction.**
 
 When a muscle contracts, the actin (thin) and myosin (thick) filaments slide past each other,
-Shortening the sarcomere. The process:
+shortening the sarcomere. The process:
 
 1. An action potential arrives at the neuromuscular junction, releasing acetylcholine.
 2. The action potential spreads along the muscle fibre membrane and into T-tubules.
@@ -6288,7 +6288,7 @@ $$
 $\mathrm{HSO_4^-/\mathrm{SO_4^{2-}$ (acid/conjugate base) and
 $\mathrm{H_2\mathrm{O/\mathrm{H_3\mathrm{O^+$ (base/conjugate acid). Note that $\mathrm{HSO_4^-$ is
 Acting as an acid (donating a proton) and $\mathrm{H_2\mathrm{O$ is acting as a base (accepting a
-Proton).
+proton).
 
 ### Strong and Weak Acids
 
@@ -6500,7 +6500,7 @@ $$
 ### What is a Buffer?
 
 A **buffer solution** resists changes in pH when small amounts of acid or base are added. It
-Consists of a weak acid and its conjugate base (or a weak base and its conjugate acid).
+consists of a weak acid and its conjugate base (or a weak base and its conjugate acid).
 
 **Acidic buffer:** Weak acid ($\mathrm{HA$) + salt of weak acid ($\mathrm{A^-$).
 
@@ -6653,7 +6653,7 @@ Equivalence point at pH > 7 (alkaline).
 
 **Worked Example 13:** $25.0 \mathrm{ cm^3$ of $0.10 \mathrm{ M$ $\mathrm{CH_3\mathrm{COOH$
 ($K_a = 1.74 \times 10^{-5}$) is titrated with $0.10 \mathrm{ M$ $\mathrm{NaOH$. Find the pH at the
-Equivalence point.
+equivalence point.
 
 Moles of $\mathrm{CH_3\mathrm{COO^-$ formed = $0.00250 \mathrm{ mol$.
 
@@ -6687,7 +6687,7 @@ $$
 
 **Worked Example 14:** $20.0 \mathrm{ cm^3$ of $0.15 \mathrm{ M$ $\mathrm{NH_3$
 ($K_b = 1.78 \times 10^{-5}$) is titrated with $0.10 \mathrm{ M$ $\mathrm{HCl$. Find the pH after
-Adding $15.0 \mathrm{ cm^3$ of $\mathrm{HCl$.
+adding $15.0 \mathrm{ cm^3$ of $\mathrm{HCl$.
 
 Moles of $\mathrm{NH_3 = 0.15 \times 0.0200 = 0.00300 \mathrm{ mol$ Moles of $\mathrm{HCl$ added
 $= 0.10 \times 0.0150 = 0.00150 \mathrm{ mol$
@@ -6743,7 +6743,7 @@ Point.
 
 :::caution
 For a strong acid-weak base titration" -- this is incorrect. Phenolphthalein (pH 8.3-10.0) is
-Suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
+suitable for weak acid-strong base titrations where the equivalence pH is above 7. For strong
 Acid-weak base titrations (equivalence pH below 7), methyl orange is the correct choice.
 
 ---
@@ -6900,7 +6900,7 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 ## Salt Hydrolysis
 
 When a salt dissolves in water, its ions may react with water (hydrolyse), affecting the pH of the
-Solution.
+solution.
 
 ### Salts from Strong Acid + Strong Base
 
@@ -7042,7 +7042,7 @@ $\mathrm{H^+$ than the weak acid.
 
 **Weak acid-strong base:** The initial pH is higher than for a strong acid at the same
 Concentration. There is a buffering region in the middle of the curve (where the weak acid and its
-Conjugate base coexist). The equivalence point is at pH > 7.
+conjugate base coexist). The equivalence point is at pH > 7.
 
 **Strong acid-weak base:** The equivalence point is at pH < 7.
 
@@ -7335,7 +7335,7 @@ $2500-3300 \mathrm{ cm^{-1}$. Identify the compound.
 
 The strong absorption at $1715 \mathrm{ cm^{-1}$ indicates a $\mathrm{C=\mathrm{O$ group. The very
 Broad absorption at $2500-3300 \mathrm{ cm^{-1}$ is characteristic of the $\mathrm{O-\mathrm{H$ in a
-Carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
+carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
 
 **Worked Example 2:** An IR spectrum shows strong absorptions at $3300 \mathrm{ cm^{-1}$ (broad) and
 $1050 \mathrm{ cm^{-1}$. Identify the functional groups present.
@@ -7407,7 +7407,7 @@ Prominent peak at $m/z = 43$. Suggest a structure.
 $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r = 58$).
 
 The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$ Formed by alpha cleavage of
-Propanone.
+propanone.
 
 $$
 \mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet
@@ -7478,13 +7478,13 @@ $\mathrm{CH_3$ groups (6H, doublet split by 1H) and one $\mathrm{CH$ proton (1H,
 6H).
 
 Wait, $(\mathrm{CH_3)_3\mathrm{COH$ has a quaternary carbon with OH, so the H on oxygen would be a
-Singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
+singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
 us Re-analyse.
 
 A septet from 1 proton split by 6 equivalent protons, and a doublet from 6 protons split by 1
-Proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
-Chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
-Propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
+proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
+chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
+propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
 
 #### $^{13}\mathrm{C$ NMR
 
@@ -7517,7 +7517,7 @@ A = \varepsilon c l
 $$
 
 Where $A$ is absorbance, $\varepsilon$ is the molar absorptivity (L mol$^{-1}$ cm$^{-1}$), $c$ is
-Concentration (mol/L), and $l$ is the path length (cm).
+concentration (mol/L), and $l$ is the path length (cm).
 
 **Derivation:**
 
@@ -7613,7 +7613,7 @@ $$R_f(\mathrm{A) = \frac{2.5}{8.0} = 0.31$$ $$R_f(\mathrm{B) = \frac{4.0}{8.0} =
 
 Substance A has a lower $R_f$ value, meaning it travels less far. On silica gel (a polar stationary
 Phase), more polar substances are more strongly attracted to the stationary phase and travel less
-Far. Therefore, substance A is more polar than substance B.
+far. Therefore, substance A is more polar than substance B.
 
 ---
 
@@ -7798,7 +7798,7 @@ Coupling constants provide information about the spatial relationship between co
 ### DEPT $^{13}\mathrm{C$ NMR
 
 DEPT (Distortionless Enhancement by Polarization Transfer) is a technique that distinguishes between
-Different types of carbon atoms:
+different types of carbon atoms:
 
 <div class="table-wrap">
 
@@ -7836,7 +7836,7 @@ Carbons. The pattern is consistent with butanoic acid
 ### Combustion Analysis
 
 When an organic compound containing C, H, and possibly other elements is burned completely, the
-Products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
+products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
 
 **Worked Example 14:** A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Find its empirical
 Formula.
@@ -7897,7 +7897,7 @@ Checking with molecular mass information).
 ### Flame Emission Spectroscopy
 
 Used for determination of metal ions. A sample is atomised in a flame, and the emitted light at
-Characteristic wavelengths is measured.
+characteristic wavelengths is measured.
 
 - **Sodium:** intense yellow (589 nm)
 - **Potassium:** lilac (766 nm)
@@ -7907,7 +7907,7 @@ Characteristic wavelengths is measured.
 ### Atomic Absorption Spectroscopy (AAS)
 
 Measures the absorption of light by ground-state atoms. A hollow cathode lamp provides light at the
-Specific wavelength of the element being analysed.
+specific wavelength of the element being analysed.
 
 **Applications:** Determining trace metal concentrations in water, soil, biological samples.
 
@@ -7991,7 +7991,7 @@ $$
 ### Significant Figures
 
 Results should be quoted to an appropriate number of significant figures, consistent with the
-Precision of the measurements used.
+precision of the measurements used.
 
 ---
 
@@ -8221,7 +8221,7 @@ each.
 covalent bond.
 
 (c) Explain the term "electronegativity" and describe the trend in electronegativity across
-Period 2.
+period 2.
 
 (d) A molecule has a permanent dipole moment. Explain what this means and describe the type of
 intermolecular force that results between such molecules.
@@ -8804,8 +8804,8 @@ $\mathrm{N_2 + 3\mathrm{H_2 \rightleftharpoons 2\mathrm{NH_3 \quad \Delta H = -9
 $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
 The forward reaction produces 2 moles of gas from 1 mole. Increasing pressure favours the side with
-Fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
-Mixture becomes paler (less brown $\mathrm{NO_2$ gas).
+fewer gas moles, so the equilibrium shifts to the left, favouring $\mathrm{N_2\mathrm{O_4$. The
+mixture becomes paler (less brown $\mathrm{NO_2$ gas).
 
 ### Equilibrium Constant ($K_c$)
 
@@ -8895,7 +8895,7 @@ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvi
 **Derivation:**
 
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
-Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
+reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
 
 $$
 0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
@@ -8941,7 +8941,7 @@ $$
 $$
 
 Assuming $\Delta H^\circ$ and $\Delta S^\circ$ are temperature-independent over the range of
-Interest, differentiating with respect to $T$:
+interest, differentiating with respect to $T$:
 
 $$
 \frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}
@@ -8990,7 +8990,7 @@ Doubles the rate.
 
 **Effect of a catalyst:** A catalyst provides an alternative reaction pathway with a lower
 Activation energy. It does not change the distribution of molecular energies but lowers the
-Threshold, meaning more molecules have sufficient energy to react.
+threshold, meaning more molecules have sufficient energy to react.
 
 ### Factors Affecting Rate
 
@@ -9082,9 +9082,9 @@ A plot of $\ln k$ vs. $1/T$ gives a straight line with gradient $-E_a/R$ and y-i
 **Derivation of the Arrhenius equation:**
 
 The Arrhenius equation arises from the observation that the rate constant depends exponentially on
-Temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
-The pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
-Orientation factor.
+temperature. The factor $e^{-E_a/RT}$ represents the fraction of collisions with energy $\geq E_a$.
+the pre-exponential factor $A$ (frequency factor) accounts for the frequency of collisions and the
+orientation factor.
 
 **Worked Example 13:** The rate constant of a reaction at $300 \mathrm{ K$ is
 $2.5 \times 10^{-3} \mathrm{ s^{-1}$ and at $350 \mathrm{ K$ is
@@ -9356,7 +9356,7 @@ $$
 ### Bomb Calorimetry
 
 Used for combustion reactions. The sample is ignited in a sealed container (bomb) surrounded by
-Water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
+water. The bomb calorimeter is designed to operate at constant volume, so the heat measured is
 $\Delta U$ (internal energy change), not $\Delta H$. The correction is:
 
 $$
@@ -9442,7 +9442,7 @@ The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
 This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
 though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
-Rate order cannot be predicted from the stoichiometry.
+rate order cannot be predicted from the stoichiometry.
 
 ---
 
@@ -10427,7 +10427,7 @@ $$
 $$
 
 Product: propanoic acid. Under reflux, the aldehyde intermediate is further oxidised to the
-Carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
+carboxylic acid. To stop at the aldehyde, distillation would be used instead of reflux.
 
 **Dehydration:** Alcohols can be dehydrated to form alkenes using concentrated
 $\mathrm{H_2\mathrm{SO_4$ or $\mathrm{Al_2\mathrm{O_3$ at high temperature.
@@ -10514,7 +10514,7 @@ $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$.
 **Carbocation stability:** tertiary > secondary > primary > methyl.
 
 This is because alkyl groups donate electron density by induction (+I effect), stabilising the
-Positive charge.
+positive charge.
 
 **Nucleophilic Substitution ($S_N1$ and $S_N2$):**
 
@@ -10536,9 +10536,9 @@ Positive charge.
 1-bromopropane.
 
 2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$ The rate-determining step is
-Formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
+formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
 by Three methyl groups (+I effect), making it relatively easy to form. 1-bromopropane would form a
-Primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
+primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
 Therefore, 2-bromo-2-methylpropane reacts faster via $S_N1$.
 
 ### Comparison of $S_N1$ and $S_N2$
@@ -10607,7 +10607,7 @@ Nylon and Kevlar are examples of polyamides.
 ### Optical Activity
 
 A molecule is **optically active** if it is chiral (has a non-superimposable mirror image). This
-Requires a chiral centre (carbon with four different groups attached).
+requires a chiral centre (carbon with four different groups attached).
 
 - A **racemic mixture** is a 50:50 mixture of enantiomers (optically inactive)
 - Enantiomers have identical physical properties except for their effect on plane-polarised light
@@ -10931,7 +10931,7 @@ For $\mathrm{C_3\mathrm{H_6\mathrm{O$ ($M_r = 58$):
 
 There is only one type of proton environment (the six protons are in two equivalent $\mathrm{CH_3$
 Groups). The spectrum shows a single peak (singlet) at approximately $\delta = 2.1$ ppm with
-Integration 6.
+integration 6.
 
 **Worked Example 20:** Predict the $^1\mathrm{H$ NMR spectrum of ethanol
 ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
@@ -10991,7 +10991,7 @@ E and Z isomers have different physical properties:
 </div>
 
 The Z isomer has a dipole moment (both C-Cl bonds on the same side), while the E isomer has
-Cancelling dipoles.
+cancelling dipoles.
 
 ---
 
@@ -11055,7 +11055,7 @@ $$
 
 This is an $S_N2$ reaction. The product is butanenitrile. The importance is that the carbon chain
 has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently be hydrolysed to a
-Carboxylic acid, providing a route to chain-elongated compounds.
+carboxylic acid, providing a route to chain-elongated compounds.
 
 ---
 
@@ -11387,7 +11387,7 @@ Calcium ($Z = 20$) has electron configuration $2, 8, 8, 2$. It loses two electro
 $\mathrm{Ca^{2+}$ ($2, 8, 8$). Each fluorine ($Z = 9$) has electron configuration $2, 7$ and gains
 one electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
 Transferred from calcium (crosses) to one electron each accepted by two fluorine atoms (dots). The
-Resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
+resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
 in a giant ionic lattice.
 
 **Covalent Bonding:**
@@ -11405,7 +11405,7 @@ A shared pair of electrons between two atoms. Covalent bonds can be single, doub
 
 Sulfur ($Z = 16$) has electron configuration $2, 8, 6$. It needs two electrons to complete its outer
 Shell. Each hydrogen ($Z = 1$) contributes one electron. Two single covalent bonds form, each
-Consisting of one shared pair. The shape predicted by VSEPR is bent (two bonding pairs and two lone
+consisting of one shared pair. The shape predicted by VSEPR is bent (two bonding pairs and two lone
 Pairs on sulfur).
 
 **Metallic Bonding:**
@@ -11501,7 +11501,7 @@ Pair repulsion.
 **Derivation of bond angles using VSEPR:**
 
 The electron pairs around a central atom repel each other to positions that maximise separation. For
-Four electron pairs (tetrahedral), the angle that maximises separation in three dimensions is
+four electron pairs (tetrahedral), the angle that maximises separation in three dimensions is
 $\arccos(-1/3) \approx 109.5^\circ$. When lone pairs replace bonding pairs, the lone pair--bond pair
 Repulsion is greater than bond pair--bond pair repulsion, compressing the remaining bond angles.
 This explains why $\mathrm{NH_3$ has bond angles of $107^\circ$ and $\mathrm{H_2\mathrm{O$ has
@@ -11512,8 +11512,8 @@ $104.5^\circ$.
 Sulfur in $\mathrm{SF_4$ has 6 valence electrons. Four are used in S-F bonds, leaving one lone pair.
 Total electron domains = 5 (4 bonding + 1 lone pair). This corresponds to a trigonal bipyramidal
 Electron geometry. The lone pair occupies an equatorial position to minimise repulsion (two 90°
-Interactions rather than three). The molecular shape is **see-saw** with bond angles of
-Approximately $102^\circ$ (equatorial) and $173^\circ$ (axial-equatorial).
+interactions rather than three). The molecular shape is **see-saw** with bond angles of
+approximately $102^\circ$ (equatorial) and $173^\circ$ (axial-equatorial).
 
 ### Intermolecular Forces
 
@@ -11623,7 +11623,7 @@ $$
 Average bond enthalpies are mean values taken from many different compounds. The actual C-H bond
 Enthalpy in methane differs from that in ethane because the electronic environment is different.
 Therefore, using average values introduces systematic error. The true $\Delta H$ for the
-Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
+hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
 ($-124 \mathrm{ kJ/mol$) is approximate.
 
 ---
@@ -11933,7 +11933,7 @@ $$
 ### Polarising Power and Covalent Character
 
 Small, highly charged cations have high polarising power. Large, highly charged anions are
-Polarised. When polarisation is significant, the ionic bond acquires covalent character.
+polarised. When polarisation is significant, the ionic bond acquires covalent character.
 
 **Fajans' Rules:**
 
@@ -11982,7 +11982,7 @@ $\mathrm{KF$(b) $\mathrm{CCl_4$(c) $\mathrm{Cu$(d) $\mathrm{AlCl_3$.
 
 **(a) $\mathrm{KF$:** Potassium is a Group 1 metal and fluorine is a Group 17 non-metal. The
 Electronegativity difference is $3.98 - 0.82 = 3.16$ Which is greater than 1.7, so this is
-Predominantly **ionic bonding**.
+predominantly **ionic bonding**.
 
 **(b) $\mathrm{CCl_4$:** Both carbon and chlorine are non-metals. The electronegativity difference
 is $3.16 - 2.55 = 0.61$ Which is in the polar covalent range. The molecule is tetrahedral and the
@@ -12017,7 +12017,7 @@ Both $\mathrm{H_2\mathrm{O$ and $\mathrm{CO_2$ contain three atoms, yet they hav
 **$\mathrm{CO_2$:** Carbon has 4 valence electrons. Each double bond counts as one electron domain.
 With two electron domains (two double bonds), the electron geometry is linear ($180^\circ$). Since
 there Are no lone pairs, the molecular shape is also linear. The two C=O bond dipoles are equal in
-Magnitude and opposite in direction, so they cancel: $\mathrm{CO_2$ is non-polar.
+magnitude and opposite in direction, so they cancel: $\mathrm{CO_2$ is non-polar.
 
 **$\mathrm{H_2\mathrm{O$:** Oxygen has 6 valence electrons. Two are used in O-H bonds, and four
 remain As two lone pairs. With four electron domains (two bonding pairs + two lone pairs), the
@@ -12111,7 +12111,7 @@ the entire layer.
 ### Silicon Dioxide ($\mathrm{SiO_2$)
 
 Each silicon atom is covalently bonded to four oxygen atoms, and each oxygen atom is bonded to two
-Silicon atoms, forming a giant covalent network similar to diamond.
+silicon atoms, forming a giant covalent network similar to diamond.
 
 - Very high melting point ($\sim 1700^\circ$ C)
 - Hard and insoluble
@@ -12374,7 +12374,7 @@ Size grows.
 ### Bubble Sort
 
 Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the
-Wrong order.
+wrong order.
 
 **Pseudocode:**
 
@@ -12441,7 +12441,7 @@ END PROCEDURE
 ### Merge Sort
 
 A divide-and-conquer algorithm that divides the array in half, recursively sorts each half, then
-Merges the sorted halves.
+merges the sorted halves.
 
 **Pseudocode:**
 
@@ -12505,7 +12505,7 @@ def merge(left, right):
 ### Quick Sort
 
 A divide-and-conquer algorithm that selects a pivot, partitions the array around the pivot, and
-Recursively sorts the partitions.
+recursively sorts the partitions.
 
 **Complexity:** Time: $O(n \log n)$ average, $O(n^2)$ worst (poor pivot choice). Space: $O(\log n)$
 Average.
@@ -13338,7 +13338,7 @@ Referential integrity ensures that relationships between tables remain consisten
 
 **Worked Example.** If we try to delete StudentID = 1 from the Student table, but there are
 Enrolment records with StudentID = 1, the DBMS should reject the deletion (or cascade it to also
-Delete the enrolments).
+delete the enrolments).
 
 ### Data Types in SQL
 
@@ -14692,7 +14692,7 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 Lossy compression is used for photographs.
 
 Executable files and documents must be reconstructed exactly -- a single changed bit could make a
-Program crash or change the meaning of a legal document. Photographs can tolerate some data loss
+program crash or change the meaning of a legal document. Photographs can tolerate some data loss
 because the human eye cannot perceive small differences in colour or detail.
 
 ---
@@ -15038,7 +15038,7 @@ into RAM.
 ### Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:** Washing machines, microwaves, cars (engine management, ABS), traffic lights,
 Pacemakers, smart thermostats.
@@ -16883,7 +16883,7 @@ Within 2 seconds").
 Requirements.
 
 Functional: (1) The system shall allow librarians to add new books. (2) The system shall track which
-Books are currently on loan. (3) The system shall generate overdue reports.
+books are currently on loan. (3) The system shall generate overdue reports.
 
 Non-functional: (1) The system shall respond to search queries within 1 second. (2) The system shall
 Support at least 50 concurrent users. (3) The system shall be available 99.5% of the time.
@@ -18510,7 +18510,7 @@ URL: https://highers.wyattau.com/maths/3-calculus/3_calculus/
 ### Implicit Differentiation
 
 When a function is defined implicitly (e.g., $x^2 + y^2 = 25$), differentiate both sides with
-Respect to $x$ Treating $y$ as a function of $x$.
+respect to $x$ Treating $y$ as a function of $x$.
 
 $$
 \frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}
@@ -19908,7 +19908,7 @@ URL: https://highers.wyattau.com/maths/5-statistics/5_statistics/
 **Mean:** $\bar{x} = \dfrac{\sum x_i}{n}$
 
 The mean is the balance point of the data. It is sensitive to outliers: a single extreme value can
-Shift the mean significantly.
+shift the mean significantly.
 
 **Median:** The middle value when data is sorted. For $n$ data points, if $n$ is odd, the median is
 The $\frac{n+1}{2}$ Th value. If $n$ is even, it is the average of the $\frac{n}{2}$ Th and
@@ -20150,7 +20150,7 @@ This is most evaluated using a calculator or statistical tables.
 ### Normal Distribution
 
 A continuous random variable $X$ has a normal distribution $X \sim N(\mu, \sigma^2)$ if its
-Probability density function is:
+probability density function is:
 
 $$
 F(x) = \frac{1}{\sigma\sqrt{2\pi}} \, e^{-\frac{(x - \mu)^2}{2\sigma^2}}
@@ -20365,7 +20365,7 @@ $$
 ### The Geometric Distribution
 
 The geometric distribution models the number of trials until the first success in a sequence of
-Independent Bernoulli trials with success probability $p$.
+independent Bernoulli trials with success probability $p$.
 
 $$
 P(X = k) = (1-p)^{k-1} p, \quad k = 1, 2, 3, \ldots
@@ -20535,7 +20535,7 @@ $t = \dfrac{498 - 500}{4/\sqrt{20}} = \dfrac{-2}{0.894} = -2.236$.
 Critical value for $t$-distribution with 19 df at 5% (one-tailed): approximately $-1.729$.
 
 Since $-2.236 < -1.729$ We reject $H_0$. There is sufficient evidence that the machine is
-Underfilling.
+underfilling.
 
 Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$ And
 $|-2.236| = 2.236 > 2.093$ So we would still reject $H_0$ in this case. However, the one-tailed Test
@@ -20544,7 +20544,7 @@ has a lower threshold, making it easier to detect a difference in the specified 
 ### Coefficient of Determination
 
 The coefficient of determination $r^2$ represents the proportion of the variance in $y$ that is
-Explained by the linear relationship with $x$.
+explained by the linear relationship with $x$.
 
 $$
 R^2 = 1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}
@@ -20735,7 +20735,7 @@ $$
 $$
 
 On the unit circle (radius 1), the point at angle $\theta$ from the positive $x$-axis has
-Coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
+coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
 Angles, not just those in $[0, \pi/2]$.
 
 **Key Identity:**
@@ -20922,7 +20922,7 @@ $\blacksquare$
 ### Solving Trigonometric Equations
 
 When solving trig equations in a given interval, always check for all solutions. The periodicity of
-Trig functions means there are multiple solutions.
+trig functions means there are multiple solutions.
 
 :::caution
 Function equals zero separately. Dividing by $\cos x$ loses the solutions where $\cos x = 0$.
@@ -21264,7 +21264,7 @@ from this point to the circle. The point must lie **on** the circle for a tangen
 ### Intersection of Line and Circle
 
 Substitute the line equation into the circle equation and solve the resulting quadratic. The
-Discriminant of the resulting quadratic tells you:
+discriminant of the resulting quadratic tells you:
 
 - $\Delta > 0$: two intersection points (secant)
 - $\Delta = 0$: one intersection point (tangent)
@@ -21593,7 +21593,7 @@ URL: https://highers.wyattau.com/maths/4-vectors/4_vectors/
 A vector has both **magnitude** and **direction**. A scalar has only magnitude.
 
 A vector in 2D can be written as $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ or as the
-Column vector $(a_1, a_2)$. In 3D: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$.
+column vector $(a_1, a_2)$. In 3D: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$.
 
 **Magnitude (Modulus):**
 
@@ -21862,7 +21862,7 @@ $$
 ### Solving Systems of Linear Equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has solution $\mathbf{x} = A^{-1}\mathbf{b}$ (provided $A$ is
-Invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
+invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
 
 **Example:** Solve the system:
 
@@ -21912,7 +21912,7 @@ The image is $(-4, -1)$.
 Transformation.
 
 This is an enlargement by scale factor 3 centred at the origin. The determinant is $9 > 0$
-Confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
+confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
 
 The relationship with the identity matrix $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ is that
 this matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
@@ -22130,7 +22130,7 @@ $$
 Where $\mathrm{adj(A)$ is the adjugate (transpose of the cofactor matrix).
 
 The cofactor $C_{ij}$ is $(-1)^{i+j}$ times the determinant of the $2 \times 2$ matrix obtained by
-Deleting row $i$ and column $j$.
+deleting row $i$ and column $j$.
 
 **Example:** Find the inverse of
 $A = \begin{pmatrix} 1 & 0 & 2 \\ -1 & 3 & 1 \\ 2 & 1 & 0 \end{pmatrix}$.
@@ -26166,7 +26166,7 @@ Not its frequency. A sufficiently intense low-frequency light should eventually 
 This does not happen. Einstein's explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
-Intensity. This was one of the key experiments that led to quantum mechanics.
+intensity. This was one of the key experiments that led to quantum mechanics.
 
 **Einstein's Photoelectric Equation:**
 
@@ -26268,7 +26268,7 @@ Where $\hbar = \dfrac{h}{2\pi}$.
 ### Why the Uncertainty Principle Is Not About Measurement Error
 
 The uncertainty principle is not a statement about the limitations of our instruments. It is a
-Fundamental property of nature: a particle does not have simultaneously well-defined position And
+fundamental property of nature: a particle does not have simultaneously well-defined position And
 momentum. This has profound consequences: it explains why electrons cannot spiral into the Nucleus
 (confinement to a small volume requires large momentum, preventing collapse), and it sets a Limit on
 the precision of any physical theory.
@@ -26339,7 +26339,7 @@ The Standard Model classifies fundamental particles into:
 ### Why Quarks Are Never Found in Isolation
 
 The strong force between quarks increases with distance (unlike gravity and electromagnetism, which
-Decrease with distance). This phenomenon, called **colour confinement**, means that separating
+decrease with distance). This phenomenon, called **colour confinement**, means that separating
 Quarks requires more and more energy, until it becomes energetically favourable to create new
 Quark-antiquark pairs. The result is that quarks are always found in colour-neutral combinations:
 Baryons (three quarks) and mesons (quark-antiquark pair).
@@ -26403,7 +26403,7 @@ Point is the sum of the individual displacements.
 ### Stationary Waves
 
 A stationary (standing) wave is formed by the superposition of two progressive waves of the same
-Frequency travelling in opposite directions.
+frequency travelling in opposite directions.
 
 **Nodes:** Points of zero amplitude.
 
@@ -26444,7 +26444,7 @@ $$
 
 At the closed end, there must be a displacement node (the air cannot move). At the open end, there
 is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
-Harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
+harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
 Continues with only odd multiples of the fundamental.
 
 ### Doppler Effect
@@ -26577,7 +26577,7 @@ Threshold wavelength:
 $\lambda_0 = \frac{c}{f_0} = \frac{3 \times 10^8}{5.09 \times 10^{14}} = 5.89 \times 10^{-7} \mathrm{ m = 589 \mathrm{ nm$
 
 This is in the yellow part of the visible spectrum, so sodium only emits photoelectrons when
-Illuminated with blue, violet, or UV light.
+illuminated with blue, violet, or UV light.
 
 ### Worked Example: Photoelectric Current
 
@@ -26609,8 +26609,8 @@ $I = ne = 2.16 \times 10^{15} \times 1.6 \times 10^{-19} = 3.45 \times 10^{-4} \
 ### Worked Example: Electron Diffraction
 
 Electrons are accelerated through a potential difference of $500 \mathrm{ V$. They pass through a
-Thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
-Angle of $1.8^{\circ}$. Calculate the atomic spacing.
+thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
+angle of $1.8^{\circ}$. Calculate the atomic spacing.
 
 $$
 E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J
@@ -27065,7 +27065,7 @@ Water waves).
 
 Only transverse waves can be polarised (the oscillations restricted to a single plane). Sound cannot
 be polarised because it is longitudinal. This fact was historically important in establishing that
-Light is a transverse wave.
+light is a transverse wave.
 
 **Key Wave Quantities:**
 
@@ -27132,7 +27132,7 @@ $$
 The rate at which wavefronts arrive at the boundary must equal the rate at which they leave.
 Otherwise, wavefronts would pile up or gaps would appear. Therefore the frequency is unchanged.
 Since $v = f\lambda$ and $f$ is constant, a decrease in speed produces a proportional decrease in
-Wavelength.
+wavelength.
 
 **Total Internal Reflection:** Occurs when light travels from a denser to a less dense medium and
 The angle of incidence exceeds the critical angle.
@@ -27160,7 +27160,7 @@ Maximum diffraction occurs when the gap width is approximately equal to the wave
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
 is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
-Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
+edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
 from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Interference
@@ -27181,7 +27181,7 @@ A path difference of $\lambda$ corresponds to a phase difference of $2\pi$ (one 
 ### Double Slit Experiment
 
 For light of wavelength $\lambda$ passing through two slits separated by distance $d$ Observed on a
-Screen at distance $L$:
+screen at distance $L$:
 
 **Fringe spacing:** $w = \dfrac{\lambda L}{d}$
 
@@ -27260,7 +27260,7 @@ $$
 
 The human ear can detect sounds over a range of intensities spanning $10^{12}$ (from the threshold
 of hearing at $10^{-12}$ W/m$^2$ to the threshold of pain at $1$ W/m$^2$). A linear scale would
-Require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
+require numbers ranging from 1 to a trillion. The logarithmic decibel scale compresses this range to
 0--120 dB, which is far more manageable.
 
 ---
@@ -27336,7 +27336,7 @@ Or more : after 3 half-lives, $A = 800 / 2^3 = 100 \mathrm{ Bq$.
 ### Why Radioactive Decay Is Random
 
 Each nucleus decays independently with a fixed probability per unit time. It is impossible to
-Predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
+predict when a specific nucleus will decay. The decay law $N = N_0 e^{-\lambda t}$ describes the
 _average_ behaviour of a large number of nuclei, not the behaviour of any individual nucleus. This
 is analogous to throwing dice: you cannot predict the outcome of a single throw, but you can predict
 the statistical distribution of many throws.
@@ -27374,9 +27374,9 @@ $$
 
 As nuclei get larger, the binding energy per nucleon increases (because the strong nuclear force
 Binds neighbouring nucleons). However, the strong force has a very short range, so nucleons on
-Opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
+opposite sides of a large nucleus do not attract each other, while the repulsive Coulomb force
 between protons acts over the entire nucleus. Beyond iron-56, the Coulomb repulsion dominates, and
-Adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
+adding more nucleons actually decreases the binding energy per nucleon. This is why nuclei heavier
 than iron can release energy through fission, and nuclei lighter than iron can release energy
 through fusion.
 
@@ -27475,7 +27475,7 @@ Background radiation comes from:
 ## 11. Worked Example: Single Slit Diffraction Intensity
 
 Light of wavelength $550 \mathrm{ nm$ passes through a slit of width $0.02 \mathrm{ mm$. Find the
-Angular width of the central maximum and the intensity of the first secondary maximum relative to
+angular width of the central maximum and the intensity of the first secondary maximum relative to
 the central maximum.
 
 **Central maximum half-width:**
@@ -27541,7 +27541,7 @@ $$
 $$
 
 After 100 years, about 9% of the original strontium-90 remains. This is why strontium-90 is so
-Hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
+hazardous in nuclear fallout: it has a long enough half-life to persist for decades, yet decays fast
 enough to deliver significant radiation dose.
 
 ### Activity and Mass Relationship
@@ -27594,7 +27594,7 @@ $$
 
 Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
 do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
-Source of equal intensity adds 3 dB.
+source of equal intensity adds 3 dB.
 
 ## 15. Summary Table: Wave and Radiation Formulas
 
@@ -27692,7 +27692,7 @@ in the central maximum.
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
-Carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
+carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
 
 **Step 1: Use the decay law**
 
@@ -27774,7 +27774,7 @@ the light traverses the film twice (reflection from top and bottom surfaces).
 
 Ionising power: alpha &gt; beta &gt; gamma. Penetrating power is the reverse: gamma &gt; beta &gt;
 Alpha. A common exam question asks you to explain this inverse relationship: alpha particles are
-Large and slow with double charge, so they interact strongly (high ionisation, low penetration).
+large and slow with double charge, so they interact strongly (high ionisation, low penetration).
 Gamma rays have no charge or mass, so they pass through matter (low ionisation, high Penetration).
 
 ## Additional Practice Problems
@@ -27906,7 +27906,7 @@ $$
 $$
 
 At high activities, the GM tube undercounts because some particles arrive during the dead time. The
-True count rate is related to the observed count rate by:
+true count rate is related to the observed count rate by:
 
 $$
 R_{\mathrm{true} = \frac{R_{\mathrm{obs}}{1 - R_{\mathrm{obs} \times \tau}

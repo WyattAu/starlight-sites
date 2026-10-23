@@ -178,7 +178,7 @@ Now $(\bar{A} \cdot \bar{B}) \cdot (A + B) = \bar{A}\bar{B}A + \bar{A}\bar{B}B =
 And $(\bar{A} \cdot \bar{B}) + (A + B) = (\bar{A} + A + B)(\bar{B} + A + B) = 1 \cdot 1 = 1$
 
 Since both $f$ and $\bar{A}\cdot\bar{B}$ have the same complement relationship with $A+B$ By
-Uniqueness of complement, $f = \bar{A}\cdot\bar{B}$. $\square$
+uniqueness of complement, $f = \bar{A}\cdot\bar{B}$. $\square$
 
 ### XNOR Identity
 
@@ -206,7 +206,7 @@ $\square$
 A Karnaugh map is a graphical method for simplifying Boolean expressions. The key insight is that
 **adjacent cells in the K-map correspond to minterms that differ in exactly one variable**. By the
 Combining theorem $AB + A\bar{B} = A(B + \bar{B}) = A$ Grouping adjacent cells eliminates the
-Variable that differs.
+variable that differs.
 
 ### 2-Variable K-Map
 
@@ -467,7 +467,7 @@ Adders (carry-lookahead, carry-select) reduce this to $O(\log n)$.
 ## 6. D-Type Flip-Flop
 
 A **D-type flip-flop** (D-FF) stores one bit of data. On the rising edge of the clock signal, the
-Output $Q$ takes the value of the input $D$.
+output $Q$ takes the value of the input $D$.
 
 <div class="table-wrap">
 
@@ -758,7 +758,7 @@ On each rising clock edge, $Q$ toggles: if $Q = 0$ Then $Q_{next} = 1$; if $Q = 
 $Q_{next} = 0$.
 
 This creates a **toggle flip-flop** (T-flip-flop), which divides the clock frequency by 2. It is the
-Basis of binary counters.
+basis of binary counters.
 
 </details>
 

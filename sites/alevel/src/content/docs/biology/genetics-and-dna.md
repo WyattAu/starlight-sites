@@ -29,7 +29,7 @@ categories:
 ### 1.1 The Structure of DNA
 
 Deoxyribonucleic acid (DNA) is a double-stranded polymer whose monomers are **nucleotides**. Each
-Nucleotide consists of:
+nucleotide consists of:
 
 1. **Deoxyribose**: a pentose sugar with hydrogen at the $2"$ position (distinguishing it from
    ribose, which has a hydroxyl group at $2'$).
@@ -40,7 +40,7 @@ Nucleotides are joined by **phosphodiester bonds** between the $3'$ carbon of on
 Carbon of the next, forming a sugar-phosphate backbone with directionality: $5' \to 3'$.
 
 The two strands are antiparallel: one runs $5' \to 3'$ while the other runs $3' \to 5'$. They are
-Held together by **hydrogen bonds** between complementary base pairs: A pairs with T (2 hydrogen
+held together by **hydrogen bonds** between complementary base pairs: A pairs with T (2 hydrogen
 Bonds), C pairs with G (3 hydrogen bonds). The double helix twists with approximately 10 base pairs
 per turn.
 
@@ -70,12 +70,12 @@ Strand and one newly synthesised strand. This was demonstrated by the Meselson-S
 
 **Proofreading**: DNA polymerase III has $3' \to 5'$ exonuclease activity that can remove
 Incorrectly paired nucleotides immediately after they are added, reducing the error rate to
-Approximately $10^{-9}$ per base per replication.
+approximately $10^{-9}$ per base per replication.
 
 :::caution
 Strand. It cannot initiate synthesis de novo -- it requires a pre-existing $3'-\mathrm{OH}$ group,
 Which is provided by the RNA primer. Students often forget to mention primase and primers when
-Describing replication.
+describing replication.
 :::
 
 ## 2. Protein Synthesis
@@ -83,7 +83,7 @@ Describing replication.
 ### 2.1 Transcription
 
 Transcription is the synthesis of mRNA from a DNA template. It occurs in the nucleus (in
-Eukaryotes).
+eukaryotes).
 
 1. **Initiation**: RNA polymerase binds to the **promoter region** upstream of the gene. In
    eukaryotes, transcription factors and the TATA box are required for binding.
@@ -133,7 +133,7 @@ Ribosomes have two subunits: the **small subunit** (40S in eukaryotes) binds to 
 ### 2.3 The Genetic Code
 
 The genetic code is a **triplet code**: each codon (three consecutive nucleotides) specifies one
-Amino acid. With 4 bases and codons of length 3, there are $4^3 = 64$ possible codons.
+amino acid. With 4 bases and codons of length 3, there are $4^3 = 64$ possible codons.
 
 Properties of the genetic code:
 
@@ -173,7 +173,7 @@ completely non-functional protein.
 :::caution
 Are neutral (silent mutations, mutations in non-coding DNA). Some are harmful (cause genetic
 Disorders), and a few are beneficial (provide the variation upon which natural selection acts). The
-Harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
+harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
 :::
 
 ## 4. Meiosis
@@ -182,7 +182,7 @@ Harmful mutations are eliminated by selection; beneficial ones may increase in f
 
 Meiosis is a form of cell division that produces four genetically distinct **haploid** ($n$) cells
 from one diploid ($2n$) parent cell. It is essential for sexual reproduction: it halves the
-Chromosome number so that fertilisation restores the diploid number.
+chromosome number so that fertilisation restores the diploid number.
 
 Meiosis consists of two divisions:
 
@@ -211,7 +211,7 @@ Chromatids).
 ### 4.3 Meiosis II
 
 Prophase II, Metaphase II, Anaphase II, and Telophase II proceed similarly to mitosis but with
-Haploid cells. Sister chromatids separate at Anaphase II. Four haploid daughter cells are produced.
+haploid cells. Sister chromatids separate at Anaphase II. Four haploid daughter cells are produced.
 
 ### 4.4 Sources of Genetic Variation in Meiosis
 
@@ -268,7 +268,7 @@ This ratio arises from the **product rule**: each gene segregates independently
 ### 5.3 Sex-Linked Inheritance
 
 Genes carried on the X chromosome show sex-linked inheritance patterns. Males (XY) have only one
-Copy of X-linked genes and are **hemizygous** -- a single recessive allele on the X chromosome will
+copy of X-linked genes and are **hemizygous** -- a single recessive allele on the X chromosome will
 be expressed.
 
 **Example.** Red-green colour blindness is X-linked recessive ($X^c$). A carrier female ($X^CX^c$)
@@ -303,7 +303,7 @@ but reduced production of red pigment.
 
 :::caution
 Co-dominance, both alleles produce their full product (both A and B antigens are present). In
-Incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
+incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
 Phenotype). The genetic ratios for both are 1:2:1, but the phenotypic expression differs.
 :::
 
@@ -352,7 +352,7 @@ Epigenetic modifications alter the accessibility of DNA to transcription machine
   **Histone deacetylation** has the opposite effect.
 
 Epigenetic modifications are **heritable** during cell division and can be influenced by
-Environmental factors (diet, stress, toxins). This is a mechanism by which environmental experiences
+environmental factors (diet, stress, toxins). This is a mechanism by which environmental experiences
 can have long-term effects on gene expression without altering the DNA sequence.
 
 **Example.** The agouti mouse model: maternal diet rich in methyl donors (folic acid, vitamin
@@ -362,7 +362,7 @@ Offspring with brown coats and normal weight. A methyl-poor diet produces yellow
 :::caution
 Epigenetic changes are reversible modifications to gene expression that do not alter the DNA
 Sequence itself. Mutations are permanent changes to the nucleotide sequence. Epigenetic marks can be
-Passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
+passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
 changes.
 :::
 
@@ -485,7 +485,7 @@ $E$ Masks the effect of gene $B$.
 ### 8.2 Autosomal Linkage
 
 When two genes are located on the same chromosome, they do not assort independently (Mendel's second
-Law is violated). The closer the genes are on the chromosome, the less likely they are to be
+law is violated). The closer the genes are on the chromosome, the less likely they are to be
 separated by Crossing over.
 
 **Worked Example.** Two genes, $A$ and $B$ Are linked on the same chromosome. A test cross is
@@ -648,19 +648,19 @@ patenting life Forms; long-term ecological effects that are difficult to predict
 <summary>Problem 1</summary>
 A couple, both with normal vision, have a colour-blind son. The woman's father was colour-blind.
 Determine the genotypes of the parents and the probability that their next child will be a
-Colour-blind daughter.
+colour-blind daughter.
 
 **Answer.** Colour blindness is X-linked recessive ($X^c$). The son is $X^cY$ Having inherited $X^c$
 from his mother. The mother must therefore be a carrier: $X^CX^c$. The woman's father was $X^cY$ So
 she inherited $X^c$ from him. The father has normal vision and is $X^CY$ (since he is not
-Colour-blind). The cross is $X^CX^c \times X^CY$.
+colour-blind). The cross is $X^CX^c \times X^CY$.
 
 Possible offspring: $X^CX^C$ (25%, normal female), $X^CX^c$ (25%, carrier female), $X^CY$ (25%,
 Normal male), $X^cY$ (25%, colour-blind male).
 
 A colour-blind daughter requires genotype $X^cX^c$ Which requires the father to contribute $X^c$ --
 But the father is $X^CY$ and cannot pass $X^c$ to any child. Therefore, the probability of a
-Colour-blind daughter is **zero**.
+colour-blind daughter is **zero**.
 
 <b>If you get this wrong, revise:</b> [Sex-Linked Inheritance](#53-sex-linked-inheritance)
 
@@ -670,13 +670,13 @@ Colour-blind daughter is **zero**.
 <summary>Problem 2</summary>
 Explain how the Meselson-Stahl experiment provided evidence for the semi-conservative model of
 DNA replication. Describe the expected results for conservative, semi-conservative, and
-Dispersive models after one and two generations.
+dispersive models after one and two generations.
 
 **Answer.** Meselson and Stahl grew _E. Coli_ in a medium containing heavy nitrogen
 ($^{15}\mathrm{N}$), so all DNA was "heavy." They then transferred the bacteria to a medium with
-Light nitrogen ($^{14}\mathrm{N}$) and allowed one round of replication. After extraction and
-Density gradient centrifugation, all DNA formed a single band at intermediate density. After a
-Second round of replication, two bands appeared: one at intermediate density and one at light
+light nitrogen ($^{14}\mathrm{N}$) and allowed one round of replication. After extraction and
+density gradient centrifugation, all DNA formed a single band at intermediate density. After a
+second round of replication, two bands appeared: one at intermediate density and one at light
 Density.
 
 Semi-conservative model predicts: Generation 1 -- all intermediate (one heavy + one light strand).
@@ -697,12 +697,12 @@ Only the semi-conservative model is consistent with the experimental results.
 <details>
 <summary>Problem 3</summary>
 In cats, the gene for coat colour is X-linked. Black ($X^B$) is dominant over orange ($X^O$). A
-Calico cat has patches of black and orange fur. Explain the genetic basis of calico coat colour
+calico cat has patches of black and orange fur. Explain the genetic basis of calico coat colour
 and why calico cats are almost always female.
 
 **Answer.** A calico cat has genotype $X^BX^O$ -- it is heterozygous for the coat colour gene,
 Carrying one black allele and one orange allele. In female mammals, one X chromosome in each cell is
-Randomly inactivated during early embryonic development (X-inactivation, or the Lyon hypothesis).
+randomly inactivated during early embryonic development (X-inactivation, or the Lyon hypothesis).
 The inactivated X condenses into a **Barr body** and its genes are not expressed. Because
 X-inactivation is random, some cells express $X^B$ (producing black fur) and others express $X^O$
 (producing orange fur). The random pattern of inactivation creates patches of black and orange.
@@ -751,14 +751,14 @@ Sequence. Use histone acetylation and DNA methylation as examples.
 Polymerase. Histone acetylation involves the addition of acetyl groups to lysine residues on histone
 Tails by histone acetyltransferases (HATs). Acetylation neutralises the positive charge on histones,
 Reducing their electrostatic attraction to the negatively charged DNA backbone. This loosens the
-Chromatin structure (euchromatin), allowing transcription factors and RNA polymerase to access the
+chromatin structure (euchromatin), allowing transcription factors and RNA polymerase to access the
 DNA, thereby **increasing** gene expression. Deacetylation by histone deacetylases (HDACs) has the
-Opposite effect: chromatin becomes more condensed (heterochromatin), and transcription is repressed.
+opposite effect: chromatin becomes more condensed (heterochromatin), and transcription is repressed.
 DNA methylation involves the addition of methyl groups to cytosine bases at CpG islands near gene
 Promoters by DNA methyltransferases. Methylation physically blocks the binding of transcription
 Factors and recruits repressive proteins that further condense chromatin, thereby **reducing** gene
 Expression. Both modifications are reversible and can be inherited during cell division, providing a
-Mechanism for environmental influences on gene expression.
+mechanism for environmental influences on gene expression.
 
 <b>If you get this wrong, revise:</b> [Epigenetics](#62-epigenetics)
 
@@ -775,7 +775,7 @@ the $3'$ end of a growing strand, catalysing phosphodiester bond formation. It c
 in the $5' \to 3'$ direction. Primase synthesises short RNA primers complementary to the DNA
 Template, providing the $3'-\mathrm{OH}$ group that DNA polymerase requires to initiate synthesis.
 DNA ligase joins Okazaki fragments on the lagging strand by forming phosphodiester bonds between
-Adjacent fragments. DNA polymerase cannot synthesise the lagging strand continuously because it can
+adjacent fragments. DNA polymerase cannot synthesise the lagging strand continuously because it can
 only add nucleotides in the $5' \to 3'$ direction, but the lagging strand template is oriented
 $3' \to 5'$ relative to the replication fork. As the fork opens, new template is exposed in the
 $5' \to 3'$ direction (away from the fork), so synthesis must proceed back towards the fork in
@@ -803,7 +803,7 @@ $AaBb \times aabb$. The offspring are:
 </div>
 
 (a) Are the genes linked? Justify your answer with a chi-squared test. (b) If linked, calculate the
-Recombination frequency and the map distance between the genes.
+recombination frequency and the map distance between the genes.
 
 **Answer.** (a) If the genes assorted independently, the expected ratio would be 1:1:1:1, with 250
 in Each category (total $= 1000$).
@@ -817,7 +817,7 @@ $= 211.6 + 211.6 + 207.9 + 207.9 = 839.0$
 Degrees of freedom $= 3$. Critical value at $p = 0.05$ is $7.82$.
 
 Since $\chi^2 = 839 \gg 7.82$ The deviation from independent assortment is highly significant. The
-Genes are linked.
+genes are linked.
 
 (b) Parental (non-recombinant) phenotypes: Normal grey (480) + Vestigial ebony (478) $= 958$.
 Recombinant phenotypes: Vestigial grey (20) + Normal ebony (22) $= 42$.
@@ -836,7 +836,7 @@ Linked and crossing over between them is rare.
 <details>
 <summary>Problem 8</summary>
 A PCR reaction starts with 10 copies of a target DNA sequence. After 30 cycles, how many copies are
-Produced? If each cycle takes 90 seconds, how long does the entire PCR process take? State two reasons
+produced? If each cycle takes 90 seconds, how long does the entire PCR process take? State two reasons
 Why the actual number of copies may be lower than the theoretical maximum.
 
 **Answer.** Theoretical copies after $n$ cycles
@@ -1237,7 +1237,7 @@ change the amino acid sequence of the protein:
 - A mutation from CUU to CCU changes leucine to proline (missense mutation).
 
 Degeneracy is not random: the first two bases of a codon are more important than the third.
-Mutations at the third position (wobble position) are more likely to be silent.
+mutations at the third position (wobble position) are more likely to be silent.
 
 ### 16.3 Calculating the Number of Possible Codons
 

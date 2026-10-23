@@ -39,7 +39,7 @@ to the CPU, and sequential execution of instructions.
 
 Both instructions and data reside in the same memory. The CPU fetches instructions from memory,
 Decodes them, and executes them. This is the **stored program concept**, the machine can modify its
-Own instructions (though modern systems prevent this for security).
+own instructions (though modern systems prevent this for security).
 
 <hr />
 
@@ -84,7 +84,7 @@ The ALU performs:
 - **Bitwise operations:** shift, rotate
 
 The ALU is a combinational circuit, it has no internal state. It takes inputs from registers and
-Produces outputs that are written back to registers.
+produces outputs that are written back to registers.
 
 ### Control Unit (CU)
 
@@ -171,7 +171,7 @@ After execution, the cycle repeats from step 1.
 
 Each step involves register transfers and bus operations. A typical fetch takes 3–4 clock cycles
 (one per bus operation), decode takes 1–2 cycles, and execute takes 1–5 cycles depending on the
-Instruction.
+instruction.
 
 <details>
 <summary>Example: Trace the fetch-decode-execute cycle for ADD #5 (add immediate 5 to ACC)</summary>
@@ -204,7 +204,7 @@ Instruction.
 ### Definition
 
 A **bus** is a set of parallel wires that carries data, addresses, or control signals between
-Components.
+components.
 
 ### Types
 
@@ -231,7 +231,7 @@ Components.
 ### Motivation
 
 CPU speeds have increased much faster than memory speeds. **Cache memory** bridges this gap by
-Storing frequently accessed data in fast memory close to the CPU.
+storing frequently accessed data in fast memory close to the CPU.
 
 ### Locality of Reference
 
@@ -277,7 +277,7 @@ A memory block can be placed in **any** cache line.
 #### Set-Associative Mapping
 
 The cache is divided into $s$ **sets**, each containing $k$ **ways** (lines). A block maps to a
-Specific set, but can be placed in any line within that set.
+specific set, but can be placed in any line within that set.
 
 $$
 \mathrm{Set} = \mathrm{Block address} \bmod s
@@ -527,7 +527,7 @@ After the pipeline fills, one instruction completes per cycle.
 <summary>Answer</summary>
 
 The first instruction takes 5 cycles to pass through all stages (pipeline fill). After that, one
-Instruction completes per cycle. The last instruction finishes at cycle $5 + 99 = 104$.
+instruction completes per cycle. The last instruction finishes at cycle $5 + 99 = 104$.
 
 Total: $5 + (100 - 1) = 104$ cycles, compared to $100 \times 5 = 500$ without pipelining.
 
@@ -636,7 +636,7 @@ A page fault is orders of magnitude more expensive than a TLB miss.
 
 **Problem 10.** A RISC processor has 32 registers, each 32 bits wide. How many bits are needed to
 Encode a register operand? What is the maximum number of 3-operand instructions possible if the
-Opcode field is 8 bits?
+opcode field is 8 bits?
 
 <details>
 <summary>Hint</summary>

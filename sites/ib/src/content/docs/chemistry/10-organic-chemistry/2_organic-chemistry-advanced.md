@@ -242,7 +242,7 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 ### Mechanism
 
 Addition polymers form from alkene monomers via free-radical addition. The double bond opens and
-Monomers link together in a chain.
+monomers link together in a chain.
 
 **Initiation**: A peroxide or other radical initiator generates free radicals.
 
@@ -275,7 +275,7 @@ $$
 ### Biodegradability
 
 Most addition polymers are non-biodegradable because the strong C--C backbone resists chemical and
-Biological breakdown. Disposal by landfill or incineration creates environmental problems.
+biological breakdown. Disposal by landfill or incineration creates environmental problems.
 
 ### Common Pitfalls
 
@@ -559,7 +559,7 @@ Total protons: $3 + 2 + 3 + 2 = 10 = \mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$. Con
 **Worked Example: Predicting the major organic product of a substitution reaction**
 
 Predict the major product when $(CH_3)_3CBr$ is heated with $\mathrm{KOH}$ in ethanol. State the
-Mechanism, draw the transition state or intermediate, and explain the regiochemistry.
+mechanism, draw the transition state or intermediate, and explain the regiochemistry.
 
 <details>
 <summary>Solution</summary>
@@ -582,7 +582,7 @@ $$
 $$
 
 This is the **Hofmann product** (less substituted). The Zaitsev product would require removing a
-Proton from a methyl group:
+proton from a methyl group:
 
 $$
 \mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}

@@ -20,8 +20,8 @@ description: "This document provides a comprehensive guide to the IB History Int
 ## Historical Investigation and Methodology
 
 This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the
-Methodological foundations underlying all historical inquiry. It covers the structure and
-Requirements of the IA, source evaluation techniques (OPVL), research methods, historiographical
+methodological foundations underlying all historical inquiry. It covers the structure and
+requirements of the IA, source evaluation techniques (OPVL), research methods, historiographical
 Approaches, essay writing, and citation practices.
 
 For an overview of the IA structure within the broader IB History course, see [History](/history/history/).
@@ -44,7 +44,7 @@ For an overview of the IA structure within the broader IB History course, see [H
 The Historical Investigation is an independent research project worth 20% of the IB History grade at
 both Standard Level (SL) and Higher Level (HL). It requires students to formulate a research
 Question, identify and evaluate sources, conduct a substantive investigation, and reflect on the
-Process. The total word limit is 2,200 words, distributed across three sections.
+process. The total word limit is 2,200 words, distributed across three sections.
 
 ### 1.2 Structure and Word Limits
 
@@ -113,7 +113,7 @@ A strong research question meets four criteria:
   point in Hitler's foreign policy?" is appropriately focused.
 - **Analytical rather than descriptive:** The question should invite analysis, evaluation, and
   debate, not merely description. "What happened at the Bay of Pigs?" is descriptive. "Why did the
-  Bay of Pigs invasion fail?" is analytical. "To what extent was the failure of the Bay of Pigs
+  bay of Pigs invasion fail?" is analytical. "To what extent was the failure of the Bay of Pigs
   invasion due to poor CIA planning rather than Castro's military response?" is analytical and
   focused.
 - **Allows for debate:** The question should be genuinely contestable -- there should be reasonable
@@ -196,14 +196,14 @@ Critically.
 
 **Official documents:** Government records, diplomatic correspondence, legislation, treaties,
 Military orders, intelligence reports, census data. Official documents have the authority of the
-State behind them but reflect the interests, biases, and purposes of the institution that produced
+state behind them but reflect the interests, biases, and purposes of the institution that produced
 them. The Zimmermann Telegram (1917) is a primary source that reveals German diplomatic intentions;
 The Reichstag Fire Decree (1933) is a primary source that reveals the legal mechanisms the Nazis
 Used to dismantle democracy.
 
 **Speeches and public statements:** Speeches by political leaders, public declarations, party
 Manifestos. Speeches are valuable for understanding the stated intentions and public arguments of
-Historical actors, but they are performative and may not reflect private beliefs or actual
+historical actors, but they are performative and may not reflect private beliefs or actual
 Intentions. Churchill's speeches during World War II are primary sources that reveal his rhetorical
 Strategy and the image he sought to project; Hitler's speeches reveal his ideological commitments
 and his methods of mass mobilisation.
@@ -224,13 +224,13 @@ that limit their representativeness.
 
 **Oral histories:** Interviews with participants in historical events, recorded after the fact. Oral
 Histories provide access to the experiences and perspectives of individuals who might otherwise be
-Absent from the historical record, particularly marginalised groups. However, memory is fallible:
+absent from the historical record, particularly marginalised groups. However, memory is fallible:
 Recollections may be distorted by the passage of time, by subsequent events, by the interview
 Context, and by the interviewee's desire to present themselves in a particular light.
 
 **Artifacts:** Physical objects from the past -- weapons, tools, clothing, architecture, coins.
 Artifacts provide direct evidence of material culture and technological capability. They are
-Particularly valuable for periods and societies that left few written records.
+particularly valuable for periods and societies that left few written records.
 
 #### Evaluating Primary Sources
 
@@ -267,7 +267,7 @@ They are the most important venue for historiographical debate.
 
 **Textbooks:** Synthesised accounts of a broad topic designed for educational purposes. Textbooks
 Are useful for overview and context but do not engage deeply with primary sources or
-Historiographical debates.
+historiographical debates.
 
 **Documentaries:** Film or television treatments of historical topics. Documentaries vary enormously
 In quality and rigour. The best (e.g., "The World at War," "The Cold War") are based on extensive
@@ -305,7 +305,7 @@ each of the four dimensions.
 **Why it matters:** The origin of a source determines its perspective and its relationship to the
 Events it describes. A source produced by a participant in an event has the authority of direct
 Experience but may lack perspective; a source produced by a historian writing decades later has
-Analytical distance but may lack the immediacy of a contemporary account.
+analytical distance but may lack the immediacy of a contemporary account.
 
 **Example:** The Reichstag Fire Decree (28 February 1933) was issued by President Hindenburg on the
 Recommendation of Chancellor Hitler. Its origin as a government document gives it formal authority,
@@ -319,7 +319,7 @@ A tool of that seizure.
 **Why it matters:** The purpose of a source shapes its content, tone, and reliability. A source
 Created for propaganda purposes will present a deliberately distorted picture of events; a source
 Created for internal administrative purposes may be more candid but will reflect the priorities and
-Assumptions of the institution that produced it.
+assumptions of the institution that produced it.
 
 **Example:** Stalin's speech to industrial managers in 1931 ("We are fifty or a hundred years behind
 The advanced countries. We must make good this distance in ten years.") was designed to motivate
@@ -338,7 +338,7 @@ Perspective as explicit statements.
 
 **Example:** Churchill's "Iron Curtain" speech at Fulton, Missouri (5 March 1946) provides direct
 Evidence of Churchill's assessment of the post-war Soviet threat. However, it does not address the
-Extent to which Western actions (the atomic bomb, the delay in opening the Second Front) contributed
+extent to which Western actions (the atomic bomb, the delay in opening the Second Front) contributed
 to Soviet insecurity -- a significant omission that reflects Churchill's perspective.
 
 #### Value
@@ -353,7 +353,7 @@ Source's origin, purpose, and content.
 Communication between the German Foreign Secretary and the German ambassador in Mexico, written in
 January 1917. As a primary source produced by a senior German official at the time of the decision,
 It provides direct evidence of German intentions regarding the United States and Mexico during the
-First World War."
+first World War."
 
 #### Limitation
 
@@ -366,8 +366,8 @@ Tied to the source's origin, purpose, and content.
 **Example:** "However, the Zimmermann Telegram is limited because it represents only the German
 Perspective on the proposed alliance with Mexico. It does not reveal whether the Mexican government
 would have been willing to accept the German proposal, nor does it provide evidence of how the
-Proposal was received in Mexico. Additionally, as a diplomatic communication, it reflects the
-Strategic calculations of German policymakers rather than the full range of factors influencing
+proposal was received in Mexico. Additionally, as a diplomatic communication, it reflects the
+strategic calculations of German policymakers rather than the full range of factors influencing
 German decision-making."
 
 ### Common Pitfalls: Source Evaluation
@@ -412,7 +412,7 @@ Historical research employs both quantitative and qualitative methods, often in 
 - Cliometrics (the application of econometric methods to historical questions).
 
 Quantitative methods are valuable for identifying patterns, trends, and correlations that may not be
-Apparent from qualitative evidence alone. For example, quantitative analysis of Nazi election
+apparent from qualitative evidence alone. For example, quantitative analysis of Nazi election
 Results by region and occupation can reveal the social bases of Nazi support.
 
 However, quantitative methods have limitations:
@@ -424,7 +424,7 @@ However, quantitative methods have limitations:
 
 **Qualitative methods** involve the analysis of non-numerical evidence: texts, images, oral
 Testimony, artifacts. Qualitative methods are the dominant mode of historical research and are
-Essential for understanding meaning, motivation, and context.
+essential for understanding meaning, motivation, and context.
 
 Qualitative methods include:
 
@@ -458,7 +458,7 @@ of two or more cases along defined dimensions:
 A longitudinal approach examines change over time within a single case. This is particularly useful
 for questions about causation, turning points, and the pace and direction of change. A longitudinal
 Study of the Cold War, for example, might trace the evolution of superpower relations from
-Confrontation through detente to renewed tension and eventual resolution, identifying the factors
+confrontation through detente to renewed tension and eventual resolution, identifying the factors
 that drove each phase.
 
 ### Common Pitfalls: Research Methods
@@ -491,7 +491,7 @@ that drove each phase.
 ### 5.1 What Is Historiography?
 
 Historiography is the study of how history has been written -- how interpretations of events have
-Changed over time, why they have changed, and what those changes reveal about the relationship
+changed over time, why they have changed, and what those changes reveal about the relationship
 between the past and the present.
 
 Understanding historiography is essential for IB History for several reasons:
@@ -542,7 +542,7 @@ Historical interpretations change for several reasons:
 ### 5.4 Case Study: The Evolution of Cold War Historiography
 
 The historiography of the Cold War provides a clear illustration of how interpretations change over
-Time:
+time:
 
 **Orthodox period (late 1940s--1950s):** The Cold War was caused by Soviet expansionism. The United
 States responded defensively to an aggressive, ideologically driven Soviet Union. Key proponents:
@@ -551,20 +551,20 @@ Arthur Schlesinger Jr., Herbert Feis, Thomas Bailey.
 **Revisionist period (1960s--1970s):** The United States bore significant responsibility for the
 Cold War. American economic imperialism (the "open door" thesis) and political inflexibility
 Provoked a Soviet reaction that was essentially defensive. The Vietnam War disillusioned many
-Historians with the orthodox narrative. Key proponents: William Appleman Williams, Gabriel Kolko,
+historians with the orthodox narrative. Key proponents: William Appleman Williams, Gabriel Kolko,
 Gar Alperovitz.
 
 **Post-Revisionist period (late 1970s--present):** Both superpowers bore responsibility. The Cold
 War was the product of mutual misunderstanding, ideological differences, security dilemmas, and
-Structural factors, not the fault of one side alone. Key proponents: John Lewis Gaddis ("The United
+structural factors, not the fault of one side alone. Key proponents: John Lewis Gaddis ("The United
 States and the Origins of the Cold War," 1972; "We Now Know," 1997), Melvyn Leffler ("A
 Preponderance of Power," 1992).
 
 The opening of Soviet archives after 1991 enabled a more nuanced understanding. Gaddis's "We Now
 Know" (1997) drew on newly available Soviet documents to argue that Stalin's personal role and the
-Ideological nature of the Soviet regime were more central to the Cold War's origins than
+ideological nature of the Soviet regime were more central to the Cold War's origins than
 Post-revisionists had acknowledged -- a partial return to the orthodox position, but informed by the
-Revisionist and post-revisionist critiques.
+revisionist and post-revisionist critiques.
 
 ### Common Pitfalls: Historiography
 
@@ -592,7 +592,7 @@ Revisionist and post-revisionist critiques.
 ### 6.1 The Thesis Statement
 
 Every history essay must open with a clear, focused thesis statement that directly addresses the
-Question. The thesis should:
+question. The thesis should:
 
 - **Answer the question.** The examiner should be able to read only your introduction and conclusion
   and understand your argument.

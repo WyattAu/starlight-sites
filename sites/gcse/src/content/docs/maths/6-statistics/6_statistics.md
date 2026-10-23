@@ -412,7 +412,7 @@ This is the **addition rule** and holds for all events (not just mutually exclus
 
 **Worked Example.** The probability that it rains is 0.3. The probability that a student arrives
 Late is 0.1. The probability that it rains AND the student arrives late is 0.05. Find the
-Probability that it rains OR the student arrives late.
+probability that it rains OR the student arrives late.
 
 $$
 P(R \cup L) = 0.3 + 0.1 - 0.05 = 0.35
@@ -482,7 +482,7 @@ $$
 
 **Worked Example (Higher Tier).** A factory produces items in three shifts. Shift A produces 40% of
 Items with 2% defective, shift B produces 35% with 3% defective, and shift C produces 25% with 1%
-Defective. An item is found to be defective. What is the probability it came from shift B?
+defective. An item is found to be defective. What is the probability it came from shift B?
 
 This is Bayes" theorem. Let $D$ be the event "defective" and $B$ be "from shift B".
 
@@ -595,8 +595,8 @@ When comparing two box plots:
 $Q_1 = 45$, $Q_3 = 70$.
 
 Class A has a higher median (65 vs 60), so on average they scored better. Class A also has a
-Narrower IQR ($75 - 50 = 25$ vs $70 - 45 = 25$), so both classes have the same spread by this
-Measure.
+narrower IQR ($75 - 50 = 25$ vs $70 - 45 = 25$), so both classes have the same spread by this
+measure.
 
 ### 7.2 Using Histograms
 
@@ -622,14 +622,14 @@ And the overall spread.
 ### 9.1 Independence vs. Mutual Exclusivity
 
 A very common confusion is between independent events and mutually exclusive events. These are
-Different concepts:
+different concepts:
 
 - **Independent events:** The occurrence of one does not affect the probability of the other.
   $P(A \cap B) = P(A) \times P(B)$.
 - **Mutually exclusive events:** They cannot occur at the same time. $P(A \cap B) = 0$.
 
 In fact, if two events have positive probability and are mutually exclusive, they cannot be
-Independent (because $P(A \cap B) = 0 \neq P(A) \times P(B)$ when both are positive).
+independent (because $P(A \cap B) = 0 \neq P(A) \times P(B)$ when both are positive).
 
 **Example.** A card is drawn from a standard 52-card deck. Let $A$ be "the card is a heart" and $B$
 Be "the card is a king". These events are NOT mutually exclusive (the king of hearts is both), but
@@ -639,7 +639,7 @@ $P(A \cap B) = 1/52 = (1/4)(1/13)$.
 ### 9.2 Why the Standard Deviation Uses Squared Differences
 
 The standard deviation uses squared differences from the mean rather than absolute differences for
-Two key reasons:
+two key reasons:
 
 1. **Mathematical convenience.** Squared differences are differentiable everywhere, enabling the use
    of calculus. Absolute values have a "corner" at zero.
@@ -707,7 +707,7 @@ $$
 ### 9.6 Scatter Graphs and Lines of Best Fit
 
 A **scatter graph** plots pairs of data values to investigate the relationship between two
-Variables.
+variables.
 
 **Types of correlation:**
 
@@ -722,7 +722,7 @@ Variables.
 </div>
 
 The **line of best fit** is drawn by eye so that it passes through the middle of the data, with
-Roughly equal numbers of points on each side. It can be used to make predictions:
+roughly equal numbers of points on each side. It can be used to make predictions:
 
 - **Interpolation:** Predicting within the range of the data (reliable).
 - **Extrapolation:** Predicting outside the range of the data (unreliable).
@@ -734,14 +734,14 @@ Observed values.
 ### 9.7 Frequency Polygons
 
 A frequency polygon is created by plotting the class midpoint against the frequency density (for
-Grouped data) or frequency (for ungrouped data), and joining the points with straight lines.
+grouped data) or frequency (for ungrouped data), and joining the points with straight lines.
 
 The area under a frequency polygon equals the total frequency (just like a histogram).
 
 ## Practice Questions
 
 1. The mean of six numbers is 12. When one number is removed, the mean of the remaining five is 10.
-   Find the removed number.
+   find the removed number.
 
 2. A grouped frequency table has classes $0 \leq x \lt 20$$20 \leq x \lt 40$$40 \leq x \lt 60$
    $60 \leq x \lt 80$. Explain why an estimated mean calculated from this table is only an

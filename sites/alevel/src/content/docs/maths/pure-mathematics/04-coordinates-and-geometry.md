@@ -86,13 +86,13 @@ $$
 
 _Proof._ Consider a third point $C(x_3, y_3)$ on the same line. By similar triangles (see intuition
 below), $\frac{y_2 - y_1}{x_2 - x_1} = \frac{y_3 - y_1}{x_3 - x_1}$. Since any two points on the
-Line define the same ratio, the gradient is a property of the line itself, not the chosen points.
+line define the same ratio, the gradient is a property of the line itself, not the chosen points.
 $\blacksquare$
 
 _Intuition (Similar Triangles)._ Imagine two right triangles formed by dropping perpendiculars from
 any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
 Makes with the horizontal. By AA similarity, the triangles are similar, so the ratio of vertical to
-Horizontal sides is constant, this ratio is the gradient.
+horizontal sides is constant, this ratio is the gradient.
 
 ### 2.2 Equation of a Line
 
@@ -261,7 +261,7 @@ This quadratic has:
 - **No real roots** ($\Delta < 0$): the line does not intersect the circle. $\blacksquare$
 
 _Intuition._ A tangent touches the circle at exactly one point. Algebraically, "one point" means the
-Quadratic has a repeated root, the two intersection points have coalesced into one.
+quadratic has a repeated root, the two intersection points have coalesced into one.
 
 ### 4.2 Equation of a Tangent to a Circle
 
@@ -274,7 +274,7 @@ $$
 
 _Proof (for circle centred at origin)._ The circle $x^2 + y^2 = r^2$ has centre $(0, 0)$. The radius
 at $(x_1, y_1)$ has gradient $\frac{y_1}{x_1}$ (from origin to the point). The tangent is
-Perpendicular to this radius, so the tangent's gradient is $m = -\frac{x_1}{y_1}$ (using
+perpendicular to this radius, so the tangent's gradient is $m = -\frac{x_1}{y_1}$ (using
 $m_1 m_2 = -1$).
 
 The tangent passes through $(x_1, y_1)$:
@@ -566,7 +566,7 @@ $$
 $$
 
 Since $\cos^2\theta + \sin^2\theta = 1$ for all $\theta$ Every value of the parameter produces a
-Point on the circle.
+point on the circle.
 
 ### 9.1 Applications
 
@@ -663,7 +663,7 @@ Wait, that gives two intersection points. Let me check: actually $2x^2 + 2x = 0$
 $x = -1$ Which are two points $(0, 1)$ and $(-1, 0)$.
 
 So $y = x + 1$ is **not** tangent to $x^2 + y^2 = 1$. Let me reconsider the problem. Actually, this
-Line passes through two points on the circle, it is a secant, not a tangent.
+line passes through two points on the circle, it is a secant, not a tangent.
 
 If the problem instead asked about $y = x + c$ being tangent:
 
@@ -913,7 +913,7 @@ d_1 = \frac{|3(-1) + 6(4) - 8|}{\sqrt{9+36}} = \frac{|-3 + 24 - 8|}{\sqrt{45}} =
 $$
 
 By Pythagoras' theorem in the right triangle formed by the centre, the midpoint of the chord, and an
-Endpoint:
+endpoint:
 
 $$
 \left(\frac{PQ}{2}\right)^2 = r_1^2 - d_1^2 = 9 - \frac{169}{45} = \frac{405 - 169}{45} = \frac{236}{45}

@@ -24,7 +24,7 @@ categories:
 
 This chapter extends the study of vectors from A Level Mathematics into three dimensions,
 Introducing the vector (cross) product, equations of planes, and the scalar triple product. These
-Tools are essential for geometry, mechanics, and physics at university level.
+tools are essential for geometry, mechanics, and physics at university level.
 
 ### Board Coverage
 
@@ -41,7 +41,7 @@ Tools are essential for geometry, mechanics, and physics at university level.
 
 :::note
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
-Planes.
+planes.
 :::
 
 <hr />
@@ -49,7 +49,7 @@ Planes.
 ## 1. Review of A Level Vectors
 
 A vector has magnitude and direction. In 2D, $\mathbf{a} = \begin{pmatrix}a_1\\a_2\end{pmatrix}$ has
-Magnitude $|\mathbf{a}| = \sqrt{a_1^2 + a_2^2}$.
+magnitude $|\mathbf{a}| = \sqrt{a_1^2 + a_2^2}$.
 
 Key results from A Level:
 
@@ -357,14 +357,14 @@ Let the plane have equation $\mathbf{r}\cdot\hat{\mathbf{n}} = p$ where $\hat{\m
 Normal and $p$ is the perpendicular distance from the origin to the plane.
 
 For any point $P$ with position vector $\mathbf{p}$ The distance from $P$ to the plane is the
-Magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$ Minus $p$:
+magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$ Minus $p$:
 
 $$
 D = |\mathbf{p}\cdot\hat{\mathbf{n}} - p|
 $$
 
 If the plane is given as $\mathbf{r}\cdot\mathbf{n} = d$ (where $\mathbf{n}$ is not necessarily a
-Unit vector), then $\hat{\mathbf{n}} = \mathbf{n}/|\mathbf{n}|$ and $p = d/|\mathbf{n}|$:
+unit vector), then $\hat{\mathbf{n}} = \mathbf{n}/|\mathbf{n}|$ and $p = d/|\mathbf{n}|$:
 
 $$
 D = \left|\mathbf{p}\cdot\frac{\mathbf{n}}{|\mathbf{n}|} - \frac{d}{|\mathbf{n}|}\right| = \frac{|\mathbf{p}\cdot\mathbf{n} - d|}{|\mathbf{n}|}
@@ -812,7 +812,7 @@ $\mathbf{d}_1 \times \mathbf{d}_2 = (1\cdot 1 - 0\cdot 1, 0\cdot 0 - 1\cdot 1, 1
 Check intersection: $1+\lambda = 0$ and $1+\lambda = 1+\mu$ and $\lambda = \mu$.
 
 From the first: $\lambda = -1$. From the second: $0 = 1 + (-1) = 0$. From the third: $-1 = -1$.
-Consistent! The lines intersect, so the shortest distance is $0$.
+consistent! The lines intersect, so the shortest distance is $0$.
 
 ### Example 11.5: Finding the equation of a plane from three points
 
@@ -905,7 +905,7 @@ The cross product $\mathbf{a}\times\mathbf{b}$ can be computed as a $3 \times 3$
 ### 12.2 Vectors and mechanics
 
 Vector methods are essential in mechanics for resolving forces, moments, and angular momentum. The
-Moment of a force $\mathbf{F}$ about point $O$ is $\mathbf{r}\times\mathbf{F}$. See
+moment of a force $\mathbf{F}$ about point $O$ is $\mathbf{r}\times\mathbf{F}$. See
 [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/).
 
 ### 12.3 Planes and coordinate geometry
@@ -997,8 +997,8 @@ $$
 $$
 
 This is the equation of a plane with normal $\mathbf{b} - \mathbf{a}$ (perpendicular to $AB$), which
-Passes through the midpoint $\dfrac{\mathbf{a}+\mathbf{b}}{2}$. This is the
-Perpendicular bisector. $\blacksquare$
+passes through the midpoint $\dfrac{\mathbf{a}+\mathbf{b}}{2}$. This is the
+perpendicular bisector. $\blacksquare$
 
 </details>
 
@@ -1045,7 +1045,7 @@ $$
 $$
 
 Each equality follows from the fact that swapping two rows of a determinant changes its sign, and
-Two swaps return to the original sign. $\blacksquare$
+two swaps return to the original sign. $\blacksquare$
 
 </details>
 
@@ -1124,7 +1124,7 @@ Representations of curves.
 ### Question 16
 
 Find the equation of the plane that passes through the points $A(1,0,0)$$B(0,1,0)$$C(0,0,1)$ and
-Verify that $D(1/3, 1/3, 1/3)$ lies on it.
+verify that $D(1/3, 1/3, 1/3)$ lies on it.
 
 <details>
 <summary>Solution</summary>
@@ -1220,7 +1220,7 @@ The equation of a plane can be written in three equivalent forms:
 ### 17.2 The shortest distance between two skew lines, alternative derivation
 
 The shortest distance between skew lines equals the perpendicular distance from any point on one
-Line to the parallel plane containing the other line.
+line to the parallel plane containing the other line.
 
 ### 17.3 Triple vector product identity
 

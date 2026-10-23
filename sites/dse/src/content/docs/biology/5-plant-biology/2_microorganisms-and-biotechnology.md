@@ -336,7 +336,7 @@ bacterial-specific structures and processes that viruses do not possess.
 ### Pathogens
 
 A pathogen is any microorganism that causes disease. Pathogenic microorganisms include certain
-Bacteria, fungi, and viruses.
+bacteria, fungi, and viruses.
 
 ### Transmission of Pathogens
 

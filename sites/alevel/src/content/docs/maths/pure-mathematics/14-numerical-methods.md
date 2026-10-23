@@ -105,7 +105,7 @@ $$
 $$
 
 If $|g'(\alpha)| \lt 1$ Then $|x_{n+1} - \alpha| \lt |x_n - \alpha|$: the error shrinks, so the
-Iteration converges. If $|g'(\alpha)| \gt 1$ The error grows and the iteration diverges.
+iteration converges. If $|g'(\alpha)| \gt 1$ The error grows and the iteration diverges.
 $\blacksquare$
 
 ### 2.3 Rearrangement choices
@@ -195,8 +195,8 @@ $\blacksquare$
 
 **Intuition.** Quadratic convergence means the number of correct decimal places roughly **doubles**
 With each iteration. If you have 2 correct digits, the next iteration gives about 4, then 8,
-Then 16. This is dramatically faster than the linear convergence of fixed-point iteration (which
-Adds roughly a fixed number of correct digits per step).
+then 16. This is dramatically faster than the linear convergence of fixed-point iteration (which
+adds roughly a fixed number of correct digits per step).
 
 ### 3.3 Failures
 
@@ -211,7 +211,7 @@ Newton-Raphson fails when:
 ### 3.4 Horizontal tangent failure
 
 When $f'(x_n) = 0$ at some iterate, the Newton-Raphson formula requires division by zero and the
-Method breaks down entirely. Even when $f'(x_n)$ is merely small, the step
+method breaks down entirely. Even when $f'(x_n)$ is merely small, the step
 $x_{n+1} = x_n - f(x_n)/f'(x_n)$ becomes very large, sending the iterate far from the root.
 
 **Example.** Let $f(x) = x^3 - 3x + 3$. Then $f'(x) = 3x^2 - 3$ So $f'(1) = 0$. Starting at
@@ -273,7 +273,7 @@ $$
 $$
 
 So $|x_{n+1} - \alpha| \to \frac{1}{2}|x_n - \alpha|$ as $x_n \to \alpha$: the error is halved each
-Step (linear convergence with rate $1/2$), not squared. $\blacksquare$
+step (linear convergence with rate $1/2$), not squared. $\blacksquare$
 
 **Example.** $f(x) = (x-1)^3$ has a root at $x = 1$ where $f'(1) = 0$. The Newton-Raphson iteration
 Becomes:
@@ -353,7 +353,7 @@ E_i = \frac{h}{2}\left[f(x_i) + f(x_{i+1})\right] - \int_{x_i}^{x_{i+1}} f(x)\,d
 $$
 
 Summing over all $n$ strips and applying the Intermediate Value Theorem to $f''$ (which is
-Continuous), there exists $\eta \in (a, b)$ such that:
+continuous), there exists $\eta \in (a, b)$ such that:
 
 $$
 E_T = \sum_{i=0}^{n-1} E_i = \frac{h^3}{12}\sum_{i=0}^{n-1} f''(m_i) + O(n \cdot h^4) = \frac{h^3}{12}\cdot\frac{n\, f''(\eta)}{1} + O(h^4 \cdot n)
@@ -416,7 +416,7 @@ The coefficients follow the pattern: $1, 4, 2, 4, 2, \ldots, 4, 1$.
 ### 5.2 Derivation
 
 Simpson's rule approximates $f$ by quadratic arcs over pairs of strips. Over $[x_{2k}, x_{2k+2}]$ A
-Unique quadratic passes through $(x_{2k}, y_{2k})$$(x_{2k+1}, y_{2k+1})$$(x_{2k+2}, y_{2k+2})$.
+unique quadratic passes through $(x_{2k}, y_{2k})$$(x_{2k+1}, y_{2k+1})$$(x_{2k+2}, y_{2k+2})$.
 Integrating this quadratic gives the area $\dfrac{h}{3}(y_{2k} + 4y_{2k+1} + y_{2k+2})$.
 
 ### 5.3 Error bound
@@ -429,7 +429,7 @@ Where $|f^{(4)}(x)| \leq M$ on $[a,b]$.
 
 **Intuition.** Simpson's rule has error $O(1/n^4)$ compared to $O(1/n^2)$ for the trapezium rule.
 Doubling the number of strips reduces the error by a factor of 16 for Simpson's rule vs. 4 for the
-Trapezium rule. This is because quadratic approximations match the curvature of the function much
+trapezium rule. This is because quadratic approximations match the curvature of the function much
 Better than linear ones.
 
 :::tip
@@ -461,7 +461,7 @@ Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$
 
 **Sign change (bisection):** Use when you need a guaranteed, robust result and have a sign change.
 Always converges but slowly (halving the interval each step). No derivative needed. Excellent for
-Initial bracketing before switching to a faster method.
+initial bracketing before switching to a faster method.
 
 **Fixed-point iteration:** Use when the equation is rearranged into $x = g(x)$ and
 $|g'(\alpha)| \lt 1$ can be verified. Simple to implement but may converge slowly or diverge
@@ -470,7 +470,7 @@ Radically different convergence behaviour.
 
 **Newton-Raphson:** Use when $f'(x)$ is easy to compute and a good starting estimate is available.
 Extremely fast (quadratic convergence) when it works, but can fail catastrophically if $f'(x_n)$ is
-Small, if the starting point is poor, or if the root is at an inflection point.
+small, if the starting point is poor, or if the root is at an inflection point.
 
 ### 7.2 Practical strategy
 
@@ -500,7 +500,7 @@ Bisection is the reliable fallback when nothing else is guaranteed to work.
 
 Newton-Raphson requires both $f$ and $f'$ per step (two evaluations), but its quadratic convergence
 Means it needs far fewer steps in total. For high accuracy requirements, Newton-Raphson is
-Overwhelmingly more efficient despite the higher per-step cost.
+overwhelmingly more efficient despite the higher per-step cost.
 
 <hr />
 
@@ -754,7 +754,7 @@ $x = 2$ where it equals $6(4) - 2 = 22$. The denominator $(1+x^2)^3$ is minimise
 it equals 1. We need to maximise $|f''(x)|$.
 
 Checking critical points: $f'''(x) = 0$ gives potential extrema of $f''$. Alternatively, evaluate at
-Endpoints and critical points. $f''(0) = -2$$f''(1) = 4/8 = 0.5$$f''(2) = 22/125 = 0.176$.
+endpoints and critical points. $f''(0) = -2$$f''(1) = 4/8 = 0.5$$f''(2) = 22/125 = 0.176$.
 
 So $M = 2$ (taking $|f''(x)| \leq 2$).
 
@@ -803,7 +803,7 @@ Both rearrangements solve the same equation, but only $x_{n+1} = e^{-x_n}$ conve
 <summary>Problem 14</summary>
 Newton-Raphson is applied to $f(x) = x^3 - 3x + 2$ (which has a double root at $x = 1$ and a single
 Root at $x = -2$). Starting from $x_0 = 0.5$ Compute $x_1$ and $x_2$ And comment on the rate of
-Convergence towards $x = 1$.
+convergence towards $x = 1$.
 </details>
 
 <details>
@@ -899,7 +899,7 @@ A student uses Newton-Raphson to solve $f(x) = \tan x - 1 = 0$ starting from $x_
 (a) Compute $x_1$.
 
 (b) The root is $\alpha = \pi/4 \approx 0.7854$. Explain why starting at $x_0 = 1.3$ may not be
-Ideal, and identify a value of $x_0$ between $0$ and $\pi/2$ where Newton-Raphson would fail
+ideal, and identify a value of $x_0$ between $0$ and $\pi/2$ where Newton-Raphson would fail
 Entirely.
 
 </details>

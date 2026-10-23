@@ -429,7 +429,7 @@ $n$ and the $y$-intercept is $\ln a$.
 <summary>Q41. When measuring the diameter of a wire with a micrometer, why should you take readings at several positions along the wire?</summary>
 **Answer.** The wire may not have a perfectly uniform diameter. Taking readings at several positions
 And averaging reduces the effect of any local variations, giving a more representative value for the
-Cross-sectional area.
+cross-sectional area.
 
 <b>If you get this wrong, revise:</b>
 [Experimental Design](/physics/practical-skills/02-experimental-design/)
@@ -440,9 +440,9 @@ Cross-sectional area.
 <summary>Q42. Explain why timing 20 oscillations of a pendulum gives a more precise result than timing one oscillation.</summary>
 **Answer.** Human reaction time ($\sim 0.2$ s) is a constant uncertainty regardless of the total
 Time measured. For one oscillation ($\sim 2$ s), the percentage uncertainty is $\sim 20\%$. For 20
-Oscillations ($\sim 40$ s), the uncertainty in the total time is $\sim 0.4$ s (start and stop),
+oscillations ($\sim 40$ s), the uncertainty in the total time is $\sim 0.4$ s (start and stop),
 Giving $\sim 1\%$ uncertainty in the total time, which translates to $\sim 1\%$ uncertainty in the
-Period.
+period.
 
 <b>If you get this wrong, revise:</b>
 [Experimental Design](/physics/practical-skills/02-experimental-design/)

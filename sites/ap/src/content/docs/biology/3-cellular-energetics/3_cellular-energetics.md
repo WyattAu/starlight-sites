@@ -77,16 +77,16 @@ Acetaldehyde to ethanol.
 **Worked Example: Why hexokinase and PFK are different.**
 
 Hexokinase catalyses the first step of glycolysis (glucose $\to$ glucose-6-phosphate). It is not the
-Committed step because glucose-6-phosphate can also enter the pentose phosphate pathway (for NADPH
+committed step because glucose-6-phosphate can also enter the pentose phosphate pathway (for NADPH
 Production). PFK catalyses the committed step (fructose-6-phosphate $\to$
-Fructose-1,6-bisphosphate). Once fructose-1,6-bisphosphate is formed, the molecule is committed to
-Glycolysis. This is why PFK is the key regulatory enzyme -- it controls the rate at which glucose
+fructose-1,6-bisphosphate). Once fructose-1,6-bisphosphate is formed, the molecule is committed to
+glycolysis. This is why PFK is the key regulatory enzyme -- it controls the rate at which glucose
 Enters glycolysis.
 
 ### Pyruvate Oxidation (Link Reaction)
 
 Each pyruvate ($\mathrm{C_3$) is transported into the mitochondrial matrix and converted to
-Acetyl-CoA ($\mathrm{C_2$):
+acetyl-CoA ($\mathrm{C_2$):
 
 $$
 \mathrm{Pyruvate + \mathrm{CoA + \mathrm{NAD^+ \to \mathrm{Acetyl-CoA + \mathrm{CO_2 + \mathrm{NADH
@@ -101,7 +101,7 @@ is why thiamine deficiency (beriberi) impairs energy metabolism.
 ### Citric Acid Cycle (Krebs Cycle)
 
 Each acetyl-CoA ($\mathrm{C_2$) enters the cycle and combines with oxaloacetate ($\mathrm{C_4$) to
-Form citrate ($\mathrm{C_6$). Through a series of redox and decarboxylation reactions:
+form citrate ($\mathrm{C_6$). Through a series of redox and decarboxylation reactions:
 
 Per acetyl-CoA:
 
@@ -120,9 +120,9 @@ Per glucose (2 turns):
 **Worked Example: Tracking carbon atoms through the Krebs cycle.**
 
 The two carbon atoms from one acetyl-CoA enter the cycle as part of citrate. Over the course of one
-Turn, both carbons are released as $\mathrm{CO_2$. However, neither $\mathrm{CO_2$ molecule comes
+turn, both carbons are released as $\mathrm{CO_2$. However, neither $\mathrm{CO_2$ molecule comes
 Directly from the acetyl-CoA -- the carbon atoms are scrambled by the symmetrical nature of some
-Intermediates (succinate and fumarate). This was demonstrated by Melvin Calvin using radioactive
+intermediates (succinate and fumarate). This was demonstrated by Melvin Calvin using radioactive
 $^{14}\mathrm{C$-labelled acetyl-CoA. Despite the scrambling, the net result is that the two Carbons
 from acetyl-CoA are released as $\mathrm{CO_2$ by the end of one turn.
 
@@ -215,16 +215,16 @@ During glycolysis, NAD+ is reduced to NADH. Without a way to regenerate NAD+, gl
 after a few seconds because there would be no NAD+ to accept electrons.
 
 In the presence of oxygen, NADH donates its electrons to the ETC, regenerating NAD+. But without
-Oxygen, the ETC cannot function. Fermentation solves this problem by using NADH to reduce pyruvate
+oxygen, the ETC cannot function. Fermentation solves this problem by using NADH to reduce pyruvate
 (to lactate or ethanol), regenerating NAD+ so glycolysis can continue producing its 2 ATP per
-Glucose.
+glucose.
 
 **Worked Example: Why alcoholic fermentation is important in industry.**
 
 Yeast (Saccharomyces cerevisiae) carries out alcoholic fermentation in anaerobic conditions. This is
-Exploited in brewing (beer), winemaking, and bread-making. In bread-making, the $\mathrm{CO_2$
+exploited in brewing (beer), winemaking, and bread-making. In bread-making, the $\mathrm{CO_2$
 Produced by fermentation causes the dough to rise, while the ethanol evaporates during baking. In
-Brewing, ethanol is the desired product, and the $\mathrm{CO_2$ provides carbonation. The yeast
+brewing, ethanol is the desired product, and the $\mathrm{CO_2$ provides carbonation. The yeast
 Consumes the sugars in the wort or grape juice and produces ethanol and $\mathrm{CO_2$ as waste
 Products.
 
@@ -266,7 +266,7 @@ $$
 
 **Why water is the source of electrons:** The electrons from water replace those lost by P680.
 Without water, the photosystems would run out of electrons and photosynthesis would stop. This was
-Demonstrated using $^{18}\mathrm{O$-labelled water: the labelled oxygen appeared in $\mathrm{O_2$
+demonstrated using $^{18}\mathrm{O$-labelled water: the labelled oxygen appeared in $\mathrm{O_2$
 Gas, not in glucose, confirming that water (not $\mathrm{CO_2$) is the source of oxygen released
 during photosynthesis.
 
@@ -468,8 +468,8 @@ Exam.
 </div>
 
 The two processes are essentially reverse reactions in terms of overall chemical equation, but they
-Differ fundamentally in their mechanisms: respiration catabolises glucose to harvest energy, while
-Photosynthesis uses light energy to build glucose.
+differ fundamentally in their mechanisms: respiration catabolises glucose to harvest energy, while
+photosynthesis uses light energy to build glucose.
 
 ## Review: Factors Affecting the Rate of Photosynthesis
 
@@ -547,7 +547,7 @@ through ATP synthase. The ETC continues to operate (electrons are still passed t
 And oxygen consumption increases as the cell tries to maintain the gradient, but no ATP is produced.
 All the energy from electron transfer is released as heat. This is the mechanism behind brown fat
 Thermogenesis in newborns and hibernating animals, where uncoupling proteins (UCP1) perform a
-Similar function. DNP was used as a weight-loss drug in the 1930s (it "burned" calories as heat) but
+similar function. DNP was used as a weight-loss drug in the 1930s (it "burned" calories as heat) but
 was banned due to dangerous side effects including fatal hyperthermia.
 
 ## Review: The Compensation Point
@@ -609,7 +609,7 @@ Demands.
 
 **Phosphofructokinase (PFK):** The most important regulatory enzyme of glycolysis. It catalyses the
 Phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate (the committed step of
-Glycolysis).
+glycolysis).
 
 - **Inhibited by:** ATP (high energy signal -- when ATP is abundant, glycolysis should slow down),
   citrate (intermediate of the Krebs cycle -- signals that the cell already has sufficient
@@ -623,7 +623,7 @@ Levels of ATP, NADH, and acetyl-CoA. Activated by high levels of ADP and pyruvat
 
 **Isocitrate dehydrogenase and $\alpha$-ketoglutarate dehydrogenase (Krebs cycle):** Both are
 Inhibited by ATP, NADH, and succinyl-CoA. Both are activated by ADP and $\mathrm{Ca^{2+}$ (which
-Signals increased energy demand in muscle cells).
+signals increased energy demand in muscle cells).
 
 **Worked Example: How a sprinter's cells regulate respiration.**
 
@@ -637,7 +637,7 @@ the oxygen debt builds up.
 ## Review: Anaerobic Respiration in Various Organisms
 
 While most eukaryotic organisms use lactic acid fermentation or alcoholic fermentation, some
-Prokaryotes carry out anaerobic respiration using electron acceptors other than oxygen.
+prokaryotes carry out anaerobic respiration using electron acceptors other than oxygen.
 
 **Nitrate respiration:** Some bacteria use nitrate ($\mathrm{NO_3^-$) as the final electron Acceptor
 instead of oxygen. This is denitrification, which converts nitrate to nitrogen gas ($\mathrm{N_2$).
@@ -674,11 +674,11 @@ Levels are high (e.g., on hot, dry days when stomata close to conserve water), R
 $\mathrm{O_2$ instead of $\mathrm{CO_2$. This produces one molecule of 3-PGA (3 carbons) and one
 Molecule of 2-phosphoglycolate (2 carbons). The 2-phosphoglycolate enters a salvage pathway in the
 Peroxisome and mitochondrion, ultimately releasing $\mathrm{CO_2$ and consuming ATP without
-Producing any sugar.
+producing any sugar.
 
 **Impact:** Photorespiration can reduce the efficiency of photosynthesis by 25--50% in C3 plants
 Under hot, dry conditions. It is estimated to consume approximately 25% of the carbon fixed by
-Photosynthesis globally.
+photosynthesis globally.
 
 **Why RuBisCO is not more specific:** RuBisCO evolved in an atmosphere with very little
 $\mathrm{O_2$ (and abundant $\mathrm{CO_2$). As photosynthesis produced $\mathrm{O_2$ over Billions
@@ -688,7 +688,7 @@ increases specificity also decreases catalytic rate.
 
 **C4 and CAM adaptations:** C4 and CAM plants have evolved mechanisms to concentrate $\mathrm{CO_2$
 At the site of RuBisCO, reducing photorespiration. C4 plants use a spatial separation (mesophyll and
-Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2$ at night).
+bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2$ at night).
 
 ## Review: Summary Comparison Table
 
@@ -711,7 +711,7 @@ Bundle-sheath cells); CAM plants use a temporal separation (fixing $\mathrm{CO_2
 
 Brown adipose tissue (brown fat) is specialised for thermogenesis (heat production). It contains
 Mitochondria with uncoupling protein 1 (UCP1, also called thermogenin), which forms a channel in the
-Inner mitochondrial membrane that allows protons to flow back into the matrix without passing
+inner mitochondrial membrane that allows protons to flow back into the matrix without passing
 through ATP synthase.
 
 **Mechanism:**
@@ -725,7 +725,7 @@ through ATP synthase.
 **Physiological significance:** Brown fat is abundant in newborns (who have a large surface
 Area-to-volume ratio and cannot shiver effectively) and in hibernating animals. It helps maintain
 Body temperature. Adults also have small amounts of brown fat, and there is research interest in
-Activating brown fat as a treatment for obesity (burning calories as heat).
+activating brown fat as a treatment for obesity (burning calories as heat).
 
 ## Review: The Role of Alternative Oxidases
 
@@ -761,7 +761,7 @@ because glycolysis cannot proceed past the PFK step.
 A researcher adds rotenone, which blocks Complex I of the electron transport chain, to isolated
 Mitochondria. Pyruvate and ADP are supplied. Calculate the maximum ATP yield per glucose molecule
 under these conditions, assuming 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$. Explain which
-Electrons can still reach the ETC.
+electrons can still reach the ETC.
 
 </details>
 
@@ -852,7 +852,7 @@ Time: $0.5 \mathrm{ min$.
 Total lactate: $0.5 \times 10^{-3} \times 25,000 \times 0.5 = 6.25 \mathrm{ mol$.
 
 Each glucose produces 2 lactate molecules (via fermentation: 1 glucose $\to$ 2 pyruvate $\to$ 2
-Lactate).
+lactate).
 
 Moles of glucose consumed: $6.25 / 2 = 3.125 \mathrm{ mol$.
 
@@ -884,7 +884,7 @@ Photorespiration reactions: $0.2R = 0.2 \times 1250 = 250$.
 
 For every photorespiration event, approximately 0.5 molecules of $\mathrm{CO_2$ are released
 (2-phosphoglycolate is partially salvaged, with a net loss of about 0.5 $\mathrm{CO_2$ per
-Oxygenation event).
+oxygenation event).
 
 $\mathrm{CO_2$ released by photorespiration: $250 \times 0.5 = 125$ molecules per minute.
 

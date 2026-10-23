@@ -20,7 +20,7 @@ categories: "- DSE - Economics"
 ## What Is Market Failure?
 
 Market failure occurs when the free market, operating without government intervention, fails to
-Allocate resources in a way that maximises economic welfare. The result is a loss of total surplus
+allocate resources in a way that maximises economic welfare. The result is a loss of total surplus
 (deadweight loss): society could be made better off by reallocating resources.
 
 This file assumes familiarity with supply and demand analysis from
@@ -59,13 +59,13 @@ and the basic market failure overview in
 ### Definition
 
 A negative externality (external cost) exists when the social cost of an activity exceeds the
-Private cost borne by the decision-maker. The cost is imposed on third parties who did not consent
+private cost borne by the decision-maker. The cost is imposed on third parties who did not consent
 to bear it.
 
 ### Negative Externality of Production
 
 This occurs when the production of a good imposes costs on society that are not reflected in the
-Producer's private costs.
+producer's private costs.
 
 $$
 \mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}
@@ -79,8 +79,8 @@ Where:
 
 **Example:** A factory produces chemicals and discharges waste into a river. The factory bears the
 Private cost of production (labour, raw materials, energy). But the pollution damages the health of
-Downstream residents and harms fisheries. This external cost is not borne by the factory, so its
-Supply curve reflects only MPC, not MSC.
+downstream residents and harms fisheries. This external cost is not borne by the factory, so its
+supply curve reflects only MPC, not MSC.
 
 **Result:** The market produces where `MPB = MPC` (market equilibrium). The socially optimal output
 Is where `MSB = MSC`. Since `MSC \gt MPC`. The market equilibrium output is greater than the Socially
@@ -144,7 +144,7 @@ Does not account for the external cost imposed on others.
 ### Definition
 
 A positive externality (external benefit) exists when the social benefit of an activity exceeds the
-Private benefit received by the decision-maker. The benefit accrues to third parties who did not pay
+private benefit received by the decision-maker. The benefit accrues to third parties who did not pay
 for it.
 
 ### Positive Externality of Production
@@ -207,14 +207,14 @@ Rationale for government provision or subsidisation of education.
 ### Mechanism
 
 A Pigouvian tax is a tax levied on each unit of a good that generates a negative externality. The
-Tax is set equal to the marginal external cost at the socially optimal output.
+tax is set equal to the marginal external cost at the socially optimal output.
 
 $$
 \mathrm{Pigouvian tax per unit} = \mathrm{MEC} \mathrm{ at } Q_{\mathrm{opt}}
 $$
 
 By internalising the externality, the tax shifts the private cost curve upward to coincide with the
-Social cost curve:
+social cost curve:
 
 $$
 \mathrm{MPC} + \mathrm{Tax} = \mathrm{MSC}
@@ -419,8 +419,8 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 ### The Free-Rider Problem
 
 Because public goods are non-excludable, individuals have an incentive to free-ride: to enjoy the
-Benefit of the good without paying for it. If everyone free-rides, no one pays, and the good is not
-Provided (even though society would be better off with provision).
+benefit of the good without paying for it. If everyone free-rides, no one pays, and the good is not
+provided (even though society would be better off with provision).
 
 **Rational free-riding:** A single individual's contribution has a negligible effect on whether the
 Good is provided. The individual's dominant strategy is to not contribute and free-ride on others'
@@ -431,7 +431,7 @@ all.
 
 Quasi-public goods (club goods) are excludable but non-rivalrous up to a point. They can be provided
 by the market (since exclusion is possible), but the market may under-provide them because the
-Marginal cost of additional users is near zero (making the efficient price zero or very low).
+marginal cost of additional users is near zero (making the efficient price zero or very low).
 
 Examples: roads (non-rivalrous until congestion sets in), public parks, museums, education,
 Healthcare. These goods are often provided or subsidised by the government because the market would
@@ -518,12 +518,12 @@ other. This leads to two key problems:
 
 Adverse selection occurs **before** a transaction, when the buyer or seller has private information
 that the other party does not know. The party with better information self-selects into the
-Transaction in a way that harms the less-informed party.
+transaction in a way that harms the less-informed party.
 
 **Example 1 (market for lemons):** In the used car market, the seller knows whether the car is a
 "lemon" (defective) or a "peach" (good quality), but the buyer does not. The buyer, knowing that
 some cars are lemons, offers a price that reflects the average quality. This price is acceptable to
-Sellers of lemons (who get more than their car is worth) but not to sellers of peaches (who get less
+sellers of lemons (who get more than their car is worth) but not to sellers of peaches (who get less
 than their car is worth). Peach sellers exit the market, leaving only lemons. The market collapses.
 
 **Example 2 (insurance):** People who know they are high-risk are more likely to buy insurance. If
@@ -534,7 +534,7 @@ Customers and must raise premiums further, driving more low-risk customers away.
 ### Moral Hazard
 
 Moral hazard occurs **after** a transaction, when one party changes their behaviour because they are
-Insulated from the consequences of their actions.
+insulated from the consequences of their actions.
 
 **Example 1 (insurance):** After buying health insurance, a person may take more health risks
 (smoking, extreme sports) because the insurer bears the cost of medical treatment. The insured
@@ -542,7 +542,7 @@ Person exercises less care because they are protected from the financial consequ
 
 **Example 2 (banking):** Deposit insurance protects depositors from bank failures. Banks may take
 Excessive risks (lending to risky borrowers, high leverage) because they know depositors will not
-Withdraw funds (they are protected by insurance). The bank's shareholders benefit from risky
+withdraw funds (they are protected by insurance). The bank's shareholders benefit from risky
 Behaviour during good times, while the insurer (government) bears the cost of failure.
 
 ### Solutions to Information Asymmetry
@@ -633,8 +633,8 @@ Occurs when government intervention reduces welfare rather than increasing it.
 ### Regulatory Capture: Detailed Analysis
 
 Regulatory capture is one of the most significant forms of government failure. Industries have a
-Strong incentive to influence regulators because regulation directly affects their profits. The
-Public, in contrast, is diffuse and has weak incentives to monitor regulatory agencies.
+strong incentive to influence regulators because regulation directly affects their profits. The
+public, in contrast, is diffuse and has weak incentives to monitor regulatory agencies.
 
 **Mechanism of capture:**
 
@@ -758,7 +758,7 @@ The demand for flu vaccinations is `P = 40 - 0.2Q` (MPB). The marginal external 
 `MEB = 10`. The supply (MPC = MSC) is `P = 5 + 0.1Q`.
 
 (a) Find the market equilibrium output. (b) Find the socially optimal output. (c) Calculate the
-Deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
+deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
 
 (a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q`, `0.3Q = 35`, `Q = 116.67`.
 
@@ -790,23 +790,23 @@ Cost, it is efficient to build the park. NPV = `200,000 - 120,000 = 80,000 \gt 0
 is a public good (non-excludable, non-rivalrous). Each resident can enjoy the park even if they do
 not contribute. Each individual's contribution has a negligible effect on whether the park is built
 (it requires contributions from many people). The dominant strategy for each resident is to
-Free-ride on others' contributions. Since everyone reasons this way, total contributions are
-Insufficient to build the park.
+free-ride on others' contributions. Since everyone reasons this way, total contributions are
+insufficient to build the park.
 
 Even if each resident were asked to contribute their valuation (USD 200), they have an incentive to
-Understate their valuation (say they value it at USD 50) to pay less while still enjoying the park.
+understate their valuation (say they value it at USD 50) to pay less while still enjoying the park.
 
 (c) The government can build the park and finance it through compulsory taxation. Since the total
 Cost (USD 120,000) is less than the total benefit (USD 200,000), the park should be built. Each
-Resident can be taxed USD 120 (120,000 / 1,000), which is less than their valuation (USD 200), so
-Everyone is better off.
+resident can be taxed USD 120 (120,000 / 1,000), which is less than their valuation (USD 200), so
+everyone is better off.
 
 </details>
 <details>
 <summary>Question 4: Information Asymmetry</summary>
 
 In a health insurance market, there are two types of customers: healthy (60% of the population) and
-Unhealthy (40%). Healthy customers have expected annual medical costs of USD 2,000. Unhealthy
+unhealthy (40%). Healthy customers have expected annual medical costs of USD 2,000. Unhealthy
 Customers have expected annual medical costs of USD 8,000. The insurer cannot distinguish between
 the two types.
 
@@ -819,12 +819,12 @@ the two types.
 The insurer must charge at least USD 4,400 per customer to break even.
 
 (b) Healthy customers have expected costs of USD 2,000 but face a premium of USD 4,400. They are
-Paying USD 2,400 more than their expected costs. Many healthy customers will choose not to buy
+paying USD 2,400 more than their expected costs. Many healthy customers will choose not to buy
 Insurance (they can self-insure by saving USD 2,000 per year instead).
 
 (c) If healthy customers exit the market, the remaining pool consists only of unhealthy customers.
 The insurer must now charge USD 8,000 to break even. This even higher premium may drive out
-Unhealthy customers with lower-than-average costs. The market may collapse entirely (the "adverse
+unhealthy customers with lower-than-average costs. The market may collapse entirely (the "adverse
 Selection death spiral").
 
 (d) Solutions to adverse selection:
@@ -852,7 +852,7 @@ Plant `A`: `MAC_A = 20 + 2Q_A`
 Plant `B`: `MAC_B = 10 + 4Q_B`
 
 Where `Q` is the quantity of pollution abated (reduced). The government wants total abatement of 30
-Units.
+units.
 
 (a) If the government mandates each plant to abate 15 units, what is the total abatement cost? (b)
 If instead the government issues 30 permits (each allowing 1 unit of pollution) and lets the plants
@@ -882,8 +882,8 @@ Cost to `B`: `10(11.67) + 4(11.67^2)/2 = 116.7 + 272.2 = 388.9`.
 Total cost = `702.7 + 388.9 = 1,091.6`.
 
 (d) The tradable permit approach costs less (1,091.6 vs 1,125). This is because trading allows the
-Plants to equalise their marginal abatement costs, achieving the total abatement target at the
-Lowest total cost. Plant `A` (with lower MAC) does more abatement, and Plant `B` (with higher MAC)
+plants to equalise their marginal abatement costs, achieving the total abatement target at the
+lowest total cost. Plant `A` (with lower MAC) does more abatement, and Plant `B` (with higher MAC)
 Does less. This is the equimarginal principle: cost is minimised when the marginal cost of abatement
 is equal across all firms.
 
@@ -944,27 +944,27 @@ A complete ban is a blunt instrument that may cause more harm than good. Targete
 <summary>Question 7: Coase Theorem Application</summary>
 
 A factory emits pollution that causes USD 5,000 of damage per year to a neighbouring farmer. The
-Factory could install a scrubber at a cost of USD 3,000 per year to eliminate the pollution.
+factory could install a scrubber at a cost of USD 3,000 per year to eliminate the pollution.
 
 (a) What is the efficient outcome? (b) If the factory has the right to pollute (no legal
 Restriction), will the farmer pay the factory to install the scrubber? Explain. (c) If the farmer
 has the right to clean air (the factory must compensate the farmer for any damage), what will
-Happen? (d) What conditions must hold for the Coase theorem to apply?
+happen? (d) What conditions must hold for the Coase theorem to apply?
 
 (a) The efficient outcome is for the factory to install the scrubber. The scrubber costs USD 3,000
 and prevents USD 5,000 of damage. Net social benefit = 5,000 - 3,000 = USD 2,000. Installing the
-Scrubber is the lower-cost solution.
+scrubber is the lower-cost solution.
 
 (b) If the factory has the right to pollute, the farmer can offer to pay the factory to install the
-Scrubber. The farmer would be willing to pay up to USD 5,000 (the damage avoided). The factory would
-Accept any payment above USD 3,000 (the cost of the scrubber). If they negotiate a payment between
+scrubber. The farmer would be willing to pay up to USD 5,000 (the damage avoided). The factory would
+accept any payment above USD 3,000 (the cost of the scrubber). If they negotiate a payment between
 USD 3,000 and USD 5,000, both parties are better off. The efficient outcome is achieved through
-Private bargaining.
+private bargaining.
 
 (c) If the farmer has the right to clean air, the factory must either stop polluting (install the
-Scrubber at USD 3,000) or compensate the farmer USD 5,000 per year. The factory will choose to
-Install the scrubber (USD 3,000 is cheaper than USD 5,000 in compensation). The efficient outcome is
-Achieved.
+scrubber at USD 3,000) or compensate the farmer USD 5,000 per year. The factory will choose to
+install the scrubber (USD 3,000 is cheaper than USD 5,000 in compensation). The efficient outcome is
+achieved.
 
 (d) The Coase theorem states that if property rights are well-defined and transaction costs are low,
 Private bargaining will lead to an efficient outcome regardless of the initial allocation of rights.
@@ -987,7 +987,7 @@ many affected parties (making bargaining impractical). In these cases, governmen
 ### Merit Goods: Education and Healthcare as Examples
 
 Education and healthcare are the two most commonly cited merit goods. They share several
-Characteristics that justify government intervention:
+characteristics that justify government intervention:
 
 **Education:**
 
@@ -1018,8 +1018,8 @@ Characteristics that justify government intervention:
 ### The Coase Theorem
 
 The Coase theorem (Ronald Coase, 1960) states that if property rights are well-defined and
-Transaction costs are zero (or sufficiently low), private bargaining between affected parties will
-Lead to an efficient outcome regardless of the initial allocation of property rights.
+transaction costs are zero (or sufficiently low), private bargaining between affected parties will
+lead to an efficient outcome regardless of the initial allocation of property rights.
 
 **Implications:**
 
@@ -1083,24 +1083,24 @@ If you get this wrong, revise:
 <summary>Problem 2: Public Goods Provision</summary>
 
 A village of 500 residents is considering building a street lighting system costing USD 25,000. Each
-Resident values the lighting at USD 60.
+resident values the lighting at USD 60.
 
 (a) Is it efficient to build the system? (b) Will the private market provide it? (c) How should the
-Village fund it?
+village fund it?
 
 </details>
 <details>
 <summary>Solution</summary>
 
 (a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`. It IS
-Efficient (NPV = 5,000 \gt 0).
+efficient (NPV = 5,000 \gt 0).
 
 (b) No -- street lighting is a **public good** (non-excludable, non-rivalrous). The free-rider
 problem Means each resident hopes others will pay while they enjoy the benefit for free. Private
 provision will Under-provide or not provide at all.
 
 (c) The village government should build the system and fund it through compulsory taxation. Each
-Resident can be taxed `25,000/500 = 50`. Which is less than their valuation (60). Everyone is better
+resident can be taxed `25,000/500 = 50`. Which is less than their valuation (60). Everyone is better
 off.
 
 If you get this wrong, revise: [Public Goods](#public-goods)
@@ -1111,7 +1111,7 @@ If you get this wrong, revise: [Public Goods](#public-goods)
 <summary>Problem 3: Adverse Selection in Insurance</summary>
 
 An insurance market has two groups: low-risk (70% of population, expected claims USD 1,000/year) and
-High-risk (30%, expected claims USD 5,000/year). The insurer cannot distinguish between them.
+high-risk (30%, expected claims USD 5,000/year). The insurer cannot distinguish between them.
 
 (a) What single premium must the insurer charge to break even? (b) Will low-risk customers buy at
 this Premium? (c) What happens to the market over time?
@@ -1127,7 +1127,7 @@ least USD 2,200.
 (they can self-insure by saving USD 1,000/year). They are overpaying by USD 1,200.
 
 (c) Low-risk customers exit. Remaining pool has more high-risk customers. The insurer must raise the
-Premium further. This "death spiral" may collapse the market entirely, leaving only high-risk
+premium further. This "death spiral" may collapse the market entirely, leaving only high-risk
 Customers at very high premiums.
 
 If you get this wrong, revise: [Adverse Selection](#adverse-selection)
@@ -1237,7 +1237,7 @@ If you get this wrong, revise: [Government Failure](#government-failure)
 <summary>Problem 7: Coase Theorem Application</summary>
 
 A nightclub generates noise that causes USD 8,000 of damage per year to a neighbouring hotel. The
-Nightclub could install sound.../1-number-and-algebra/3_proof-and-logicing at a cost of USD 3,000
+nightclub could install sound.../1-number-and-algebra/3_proof-and-logicing at a cost of USD 3,000
 per year to eliminate the noise.
 
 (a) What is the efficient outcome? (b) If the nightclub has the right to make noise, will the hotel
@@ -1257,7 +1257,7 @@ payment Above USD 3,000 (cost of sound.../1-number-and-algebra/3_proof-and-logic
 between 3,000 and 8,000 makes both parties Better off.
 
 (c) Well-defined property rights, low transaction costs, small number of affected parties, no
-Significant income effects.
+significant income effects.
 
 (d) In practice: many affected parties (collective action problems), high legal costs, uncertainty
 about damages, difficulty enforcing agreements, income effects.
@@ -1459,7 +1459,7 @@ externality (each fisher now faces the full social cost of their fishing on othe
 quotas allow the most efficient fishers to buy additional quota, maximising the value of the
 fishery; (iii) fishers have an incentive to conserve the stock because the quota represents a
 valuable asset whose future value depends on sustainability. Hong Kong's Agriculture, Fisheries and
-Conservation Department has explored ITQ systems as part of its fisheries management strategy.
+conservation Department has explored ITQ systems as part of its fisheries management strategy.
 
 </details>
 

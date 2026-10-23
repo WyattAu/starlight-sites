@@ -38,8 +38,8 @@ The syllabus is organised into four parts, each with a distinct focus:
 ### Part 1: Works in Translation
 
 This part examines works originally written in a language other than English and studied in
-Translation. The central concern is the relationship between culture, language, and meaning, and the
-Degree to which a text"s significance is altered or preserved through translation. Students consider
+translation. The central concern is the relationship between culture, language, and meaning, and the
+degree to which a text"s significance is altered or preserved through translation. Students consider
 How translation choices shape interpretation and what is gained or lost when a text crosses
 Linguistic boundaries.
 
@@ -55,12 +55,12 @@ And figurative language -- and the way these elements accumulate to produce larg
 This part situates literary works within their historical, cultural, and social contexts. Students
 Examine how a text both reflects and interrogates the conditions of its production. Assessment
 Requires students to connect formal features of a text to the circumstances under which it was
-Written and received, considering issues of audience, ideology, and power.
+written and received, considering issues of audience, ideology, and power.
 
 ### Part 4: Literature -- Critical Study
 
 Part 4 focuses on developing students' ability to articulate sustained, critical interpretations of
-Literary texts. This part is assessed orally and demands fluency in literary terminology, confidence
+literary texts. This part is assessed orally and demands fluency in literary terminology, confidence
 in argumentation, and the ability to respond to questions about a text's broader significance.
 
 ## Assessment Components
@@ -98,8 +98,8 @@ in argumentation, and the ability to respond to questions about a text's broader
 The Extended Essay in English A provides an opportunity for independent research on a literary topic
 of the student's choosing. It is a 4,000-word essay that requires a focused research question,
 Sustained argument, and engagement with secondary critical material. While not formally part of the
-English A assessment, it is strongly recommended that students pursuing the Extended Essay in
-English draw on texts studied in class.
+english A assessment, it is strongly recommended that students pursuing the Extended Essay in
+english draw on texts studied in class.
 
 A successful Extended Essay in English demonstrates the following qualities:
 
@@ -130,7 +130,7 @@ Effective IOC preparation requires:
 ### The Written Task
 
 The Written Task assesses students' ability to produce writing that demonstrates understanding of
-Course content. Students may write in a range of modes -- an editorial, a diary entry, a speech, a
+course content. Students may write in a range of modes -- an editorial, a diary entry, a speech, a
 Pastiche, a critical essay -- provided that the piece is grounded in a specific text or topic from
 the syllabus and accompanied by a rationale that explains the choices made.
 
@@ -146,9 +146,9 @@ The rationale should address:
 ### Chronicle of a Death Foretold -- Gabriel Garcia Marquez
 
 Garcia Marquez's novella employs a fragmented, non-linear narrative structure to reconstruct the
-Murder of Santiago Nasar in a small Colombian town. Written in a style that blends journalism with
-Magical realism, the text interrogates collective responsibility, the fragility of memory, and the
-Destructive power of honour codes embedded in patriarchal Latin American society. The first-person
+murder of Santiago Nasar in a small Colombian town. Written in a style that blends journalism with
+magical realism, the text interrogates collective responsibility, the fragility of memory, and the
+destructive power of honour codes embedded in patriarchal Latin American society. The first-person
 Narrator compiles testimony decades after the event, exposing the complicity of an entire community
 in a death that was simultaneously public and inevitable.
 
@@ -159,7 +159,7 @@ in a death that was simultaneously public and inevitable.
 Williams' Pulitzer Prize-winning play dramatises the collision between the decaying aristocratic
 World of the Old South and the raw, industrial energy of post-war urban America. Through the figure
 of Blanche DuBois -- a woman unravelled by loss, desire, and delusion -- the play explores the
-Construction and destruction of identity, the violence embedded in gender and class relations, and
+construction and destruction of identity, the violence embedded in gender and class relations, and
 the thin line between sanity and madness. Williams' technique of "plastic theatre" integrates music,
 Lighting, and stagecraft into the dramatic language itself.
 
@@ -168,11 +168,11 @@ Lighting, and stagecraft into the dramatic language itself.
 ### Chronicle of a Death Foretold and A Streetcar Named Desire -- Comparative Study
 
 A comparative reading of these two texts reveals productive intersections. Both works examine the
-Consequences of rigid social codes -- honour in the Colombian town, respectability and sexual
+consequences of rigid social codes -- honour in the Colombian town, respectability and sexual
 Propriety in New Orleans -- and both expose the violence that underpins seemingly stable social
 Orders. Both employ unreliable narration or subjective perspective to destabilise the reader's
 Access to truth. Gender, power, and the policing of female sexuality are central concerns in each
-Text.
+text.
 
 > See the full comparative analysis: [Chronicle / Streetcar](/english/comparitives/chronicle-streetcar/)
 
@@ -192,13 +192,13 @@ in the text, how is that power maintained, and what economic forces determine th
 In application to the works studied, Marxist criticism illuminates the class conflict between
 Blanche and Stanley (the displaced aristocracy versus the industrial working class) and the way
 Honour codes in Chronicle function to preserve property relations and patriarchal control over
-Women's bodies.
+women's bodies.
 
 ### Feminist Criticism
 
 Feminist criticism analyses the representation of women, the construction of gender, and the
-Operation of patriarchal power within literary texts. It examines how texts either reproduce or
-Challenge assumptions about femininity and masculinity, and how female characters are positioned
+operation of patriarchal power within literary texts. It examines how texts either reproduce or
+challenge assumptions about femininity and masculinity, and how female characters are positioned
 within systems of male authority. Intersectional feminism further considers how gender interacts
 with race, class, and other axes of identity.
 
@@ -225,7 +225,7 @@ Existentialist criticism engages with the philosophical traditions of Sartre, Ca
 Kierkegaard, emphasising themes of freedom, absurdity, alienation, and the construction of meaning
 in a world without inherent purpose. An existentialist reading asks how characters confront (or fail
 to confront) the absence of pre-determined meaning, and how they exercise or surrender their
-Freedom.
+freedom.
 
 Both Chronicle and Streetcar present characters caught between the weight of social determinism and
 the possibility -- however constrained -- of individual agency. Santiago's fate and Blanche's
@@ -236,7 +236,7 @@ them.
 
 Postcolonial criticism examines literature produced in or about cultures that have experienced
 Colonisation, focusing on the legacies of imperial power, cultural hybridity, and the politics of
-Representation. Drawing on the work of Edward Said, Homi Bhabha, and Gayatri Spivak, this approach
+representation. Drawing on the work of Edward Said, Homi Bhabha, and Gayatri Spivak, this approach
 Interrogates how colonial discourses construct the "Other" and how postcolonial texts negotiate
 between dominant and marginalised cultural forms.
 
@@ -249,17 +249,17 @@ Realism.
 ### Reader-Response Criticism
 
 Reader-response criticism shifts critical attention from the text as a fixed object to the act of
-Reading as a dynamic, contingent process. Drawing on the work of Wolfgang Iser, Stanley Fish, and
+reading as a dynamic, contingent process. Drawing on the work of Wolfgang Iser, Stanley Fish, and
 Louise Rosenblatt, this approach argues that meaning is not located exclusively in the text but is
-Produced through the interaction between reader and text. Different readers, with different cultural
+produced through the interaction between reader and text. Different readers, with different cultural
 Backgrounds, experiences, and expectations, will produce different interpretations of the same
-Passage.
+passage.
 
 Reader-response criticism is particularly relevant to Chronicle of a Death Foretold, where Garcia
 Marquez constructs the narrative as a series of testimonies that the reader must actively assemble.
 The narrator's refusal to provide a definitive account forces the reader into the role of
-Investigator, constructing meaning from partial, contradictory, and unreliable evidence. In
-Streetcar, the audience's interpretation of Blanche is constantly shaped and reshaped by Williams'
+investigator, constructing meaning from partial, contradictory, and unreliable evidence. In
+streetcar, the audience's interpretation of Blanche is constantly shaped and reshaped by Williams'
 Strategic use of dramatic irony -- we often know more or less than the characters on stage, and our
 Judgment of Blanche shifts as information is revealed.
 
@@ -273,8 +273,8 @@ their time. Literary texts do not merely reflect history; they help to produce i
 
 New historicist readings of the set texts would situate Streetcar within the specific social
 Conditions of post-war America -- the GI Bill, the suburbanisation of the American middle class, the
-Cold War anxiety about conformity -- and would examine how the play both reflects and contests the
-Gender and class ideologies of its moment. A new historicist reading of Chronicle would attend to
+cold War anxiety about conformity -- and would examine how the play both reflects and contests the
+gender and class ideologies of its moment. A new historicist reading of Chronicle would attend to
 the specific conditions of Colombian society in the 1950s, including the influence of the Catholic
 Church, the legacy of colonial legal systems, and the tension between rural tradition and urban
 Modernity.
@@ -284,7 +284,7 @@ Modernity.
 Structuralist criticism, rooted in the linguistics of Ferdinand de Saussure, analyses literary texts
 as systems of signs governed by underlying codes and conventions. A structuralist reading identifies
 the binary oppositions (nature/culture, male/female, reality/illusion) that organise a text and
-Examines how these oppositions generate meaning. Deconstructive criticism, developed by Jacques
+examines how these oppositions generate meaning. Deconstructive criticism, developed by Jacques
 Derrida, takes this further by showing how binary oppositions inevitably collapse -- how the term
 that is privileged (reality over illusion, male over female) depends upon the term it excludes.
 
@@ -292,7 +292,7 @@ In application to the set texts, structuralist and deconstructive approaches rev
 Instabilities at the heart of apparently fixed categories. In Streetcar, the reality/illusion binary
 Collapses because Stanley's "reality" is itself a kind of performance, and Blanche's "illusions"
 Contain truths that Stanley's empiricism cannot access. In Chronicle, the fact/fiction binary is
-Destabilised by the narrator's hybrid status as both journalist and participant.
+destabilised by the narrator's hybrid status as both journalist and participant.
 
 ## General Study Notes
 
@@ -316,16 +316,16 @@ to:
 
 When constructing a comparative essay (Paper 2), students should move beyond listing similarities
 and differences. A strong comparative argument identifies a shared concern or theme, traces how each
-Text approaches that concern through different formal or contextual means, and evaluates the
-Implications of those differences. The thesis should establish a clear relationship between the
-Texts -- one of contrast, development, complication, or convergence -- rather than treating them as
-Parallel but disconnected case studies.
+text approaches that concern through different formal or contextual means, and evaluates the
+implications of those differences. The thesis should establish a clear relationship between the
+texts -- one of contrast, development, complication, or convergence -- rather than treating them as
+parallel but disconnected case studies.
 
 ### Paper 1 Strategy
 
 Paper 1 requires students to perform a guided textual analysis of one or more unseen passages. The
-Guiding question directs attention to a specific feature of the text (e.g., the use of imagery, the
-Construction of the speaker, the relationship between form and content), and students are expected
+guiding question directs attention to a specific feature of the text (e.g., the use of imagery, the
+construction of the speaker, the relationship between form and content), and students are expected
 to develop a coherent analytical argument in response.
 
 Effective Paper 1 preparation involves:
@@ -342,10 +342,10 @@ Effective Paper 1 preparation involves:
 
 Context is a required element of IB English analysis, but it must be handled with precision.
 Contextual information -- biographical, historical, cultural -- is valuable only insofar as it
-Illuminates specific features of the text. A common weakness in student essays is the inclusion of
-Biographical or historical detail that floats free of textual analysis, functioning as background
+illuminates specific features of the text. A common weakness in student essays is the inclusion of
+biographical or historical detail that floats free of textual analysis, functioning as background
 rather than as evidence. The most effective use of context occurs when a specific historical fact or
-Biographical detail is shown to shape a specific formal choice: when, for example, Williams'
+biographical detail is shown to shape a specific formal choice: when, for example, Williams'
 Experience of his sister's institutionalisation is connected to the specific mechanisms by which
 Blanche's madness is represented on stage.
 

@@ -31,7 +31,7 @@ categories: [ib-economics]
 ### Determinants of Floating Exchange Rates
 
 The exchange rate is the price of one currency in terms of another. In a floating system, it is
-Determined by supply and demand in the foreign exchange market.
+determined by supply and demand in the foreign exchange market.
 
 **Factors that cause a currency to appreciate:**
 
@@ -85,7 +85,7 @@ $$
 **Intuition:** if demand for both exports and imports is elastic, the depreciation increases export
 Revenue (more units sold at a lower price per unit) and reduces import expenditure (fewer units
 Bought at a higher price per unit), improving the trade balance. If demand is inelastic, the
-Opposite occurs.
+opposite occurs.
 
 **The J-curve effect:** in the short run, demand tends to be inelastic because consumers and firms
 Have existing contracts and cannot quickly adjust. After a depreciation:
@@ -100,7 +100,7 @@ The path traces a J-shape when plotted over time.
 ### Purchasing Power Parity (PPP)
 
 The theory of purchasing power parity states that exchange rates should adjust to equalise the
-Purchasing power of different currencies:
+purchasing power of different currencies:
 
 **Absolute PPP**: the exchange rate should equal the ratio of price levels between two countries:
 
@@ -120,7 +120,7 @@ Inflation exceeds foreign inflation, the domestic currency should depreciate.
 
 PPP is a long-run theory and is a poor predictor of short-run exchange rate movements. In the short
 Run, exchange rates are influenced by interest rate differentials, capital flows, speculation, and
-Risk sentiment.
+risk sentiment.
 
 ### Fixed Exchange Rate Management
 
@@ -212,7 +212,7 @@ Where $S$ is the domestic currency price of foreign currency (an increase in $S$
 Depreciation).
 
 For a depreciation to improve the trade balance, the derivative of TB with respect to $S$ must be
-Positive. This condition simplifies to:
+positive. This condition simplifies to:
 
 $$
 |\mathrm{PED}_X| + |\mathrm{PED}_M| > 1

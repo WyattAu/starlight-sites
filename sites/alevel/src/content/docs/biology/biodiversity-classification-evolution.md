@@ -55,7 +55,7 @@ but low evenness (where one or a few species dominate).
 ### 1.3 Simpson's Index of Diversity
 
 Simpson's Diversity Index ($D$) quantifies species diversity by accounting for both richness and
-Evenness:
+evenness:
 
 $$
 D = 1 - \sum_{i=1}^{S} \frac{n_i(n_i - 1)}{N(N - 1)}
@@ -76,7 +76,7 @@ Community B:
 $D = 1 - \left(\frac{91 \times 90}{100 \times 99} + 9 \times \frac{1 \times 0}{100 \times 99}\right) = 1 - 0.8273 = 0.173$.
 
 Community A has much higher diversity despite having the same species richness, because evenness is
-Higher.
+higher.
 
 ### 1.4 Measuring Genetic Diversity
 
@@ -89,7 +89,7 @@ Genetic diversity within a population can be measured by:
   pool.
 
 Modern molecular techniques allow direct measurement: DNA sequencing, gel electrophoresis of
-Proteins, and PCR-based methods to quantify allele variation.
+proteins, and PCR-based methods to quantify allele variation.
 
 :::caution
 giving a more accurate Measure of diversity. A community dominated by one species with many rare
@@ -133,14 +133,14 @@ $$
 $$
 
 A **species** is defined by the **biological species concept** (Mayr, 1942): a group of
-Interbreeding organisms that are reproductively isolated from other such groups, producing fertile
+interbreeding organisms that are reproductively isolated from other such groups, producing fertile
 Offspring. Organisms are identified by **binomial nomenclature**: genus name (capitalised) +
 Specific epithet (lowercase), both in italics or underlined. For example, _Homo sapiens_.
 
 ### 2.2 The Three-Domain System
 
 Carl Woese (1990) proposed the three-domain system based on ribosomal RNA (rRNA) sequences, which
-Revealed fundamental molecular differences between groups previously lumped together:
+revealed fundamental molecular differences between groups previously lumped together:
 
 <div class="table-wrap">
 
@@ -180,7 +180,7 @@ is preferred.
 Structures** share a common evolutionary origin (e.g., the pentadactyl limb in mammals, birds,
 Reptiles, and amphibians). **Analogous structures** perform a similar function but have different
 Evolutionary origins (e.g., the wings of insects and birds). Only homologous structures are
-Informative for cladistics.
+informative for cladistics.
 :::
 
 ## 3. Evolution
@@ -289,7 +289,7 @@ The total number of possible genotypic combinations from meiosis and random fert
 ### 4.2 The Hardy-Weinberg Principle
 
 The Hardy-Weinberg equilibrium describes a theoretical population in which allele frequencies do not
-Change from generation to generation. For a gene with two alleles, $A$ and $a$ With frequencies $p$
+change from generation to generation. For a gene with two alleles, $A$ and $a$ With frequencies $p$
 and $q$:
 
 $$
@@ -301,7 +301,7 @@ p^2 + 2pq + q^2 = 1
 $$
 
 Where $p^2$ = frequency of genotype $AA$$2pq$ = frequency of genotype $Aa$$q^2$ = frequency of
-Genotype $aa$.
+genotype $aa$.
 
 **Conditions for Hardy-Weinberg equilibrium:**
 
@@ -312,7 +312,7 @@ Genotype $aa$.
 - Very large population size (no genetic drift)
 
 Real populations rarely meet all these conditions. The principle is useful as a null model: if
-Observed genotype frequencies deviate from H-W predictions, one of the conditions is violated,
+observed genotype frequencies deviate from H-W predictions, one of the conditions is violated,
 Suggesting that evolution is occurring.
 
 **Example.** In a population of 500 individuals, 320 are homozygous dominant ($AA$), 160 are
@@ -379,7 +379,7 @@ barrier), populations Diverge and may eventually become separate species.
 :::caution
 "progress." Natural Selection produces adaptations to the current environment, not to some absolute
 standard of fitness. What is advantageous in one environment may be disadvantageous in another.
-Genetic drift produces Changes without regard to fitness at all.
+genetic drift produces Changes without regard to fitness at all.
 :::
 
 ## 6. Molecular Clocks and Phylogenetics
@@ -405,7 +405,7 @@ independently Since divergence.
 ### 6.2 Worked Example: Estimating Divergence Time
 
 The cytochrome c gene differs by 12 nucleotide substitutions between species X and species Y. The
-Accepted mutation rate for this gene is $\mu = 2.5 \times 10^{-9}$ substitutions per site per year.
+accepted mutation rate for this gene is $\mu = 2.5 \times 10^{-9}$ substitutions per site per year.
 The gene is 330 base pairs long.
 
 Number of substitutions per site $= \frac{12}{330} = 0.0364$.
@@ -513,7 +513,7 @@ Degrees of freedom $= 1$. Critical value at $p = 0.05$ for 1 df is $3.84$.
 
 Since $\chi^2 = 22.84 \gg 3.84$ We reject the null hypothesis. The population is **not** in
 Hardy-Weinberg equilibrium. Possible explanations include non-random mating, selection against one
-Genotype, or population substructure (Wahlund effect).
+genotype, or population substructure (Wahlund effect).
 
 :::caution
 Hardy-Weinberg data, Students often incorrectly use $\mathrm{df} = n - 1$ (where $n$ is the number
@@ -558,7 +558,7 @@ of the Blue-footed booby; the specific song patterns of crickets and birds; chem
 signals in Moths.
 
 Courtship behaviours evolve through sexual selection and can drive speciation: if a population is
-Divided and courtship rituals diverge (e.g., through mutation or cultural drift), the two
+divided and courtship rituals diverge (e.g., through mutation or cultural drift), the two
 subpopulations May become reproductively isolated even without geographic separation (sympatric
 speciation by Behavioural isolation).
 
@@ -579,7 +579,7 @@ $= 1 - (0.2000 + 0.0879 + 0.0212 + 0.0006 + 0.0002)$
 $= 1 - 0.3099 = 0.690$.
 
 The index value of $0.69$ indicates moderate diversity. The community is dominated by Species A,
-Which reduces the evenness component.
+which reduces the evenness component.
 
 <b>If you get this wrong, revise:</b>
 [Simpson's Index of Diversity](#13-simpsons-index-of-diversity)
@@ -589,7 +589,7 @@ Which reduces the evenness component.
 <details>
 <summary>Problem 2</summary>
 In a population of snapdragons, the allele for red flowers ($R$) is incompletely dominant over the
-Allele for white flowers ($W$). Heterozygotes ($RW$) are pink. In a population of 1000 plants, 640
+allele for white flowers ($W$). Heterozygotes ($RW$) are pink. In a population of 1000 plants, 640
 are red, 200 are pink, and 160 are white. Use the Hardy-Weinberg principle to calculate the allele
 Frequencies and determine whether the population is in equilibrium.
 
@@ -623,8 +623,8 @@ Diverge until they are reproductively isolated. Example: the Kaibab squirrel and
 were separated by the Grand Canyon and have evolved into distinct species. Sympatric speciation
 Occurs without geographic separation. Example: polyploidy in plants -- a mutation causes chromosome
 Duplication, producing an individual with four sets of chromosomes. This individual can
-Self-fertilise or reproduce with other polyploid individuals, but cannot interbreed with the
-Original diploid population, creating instant reproductive isolation and a new species.
+self-fertilise or reproduce with other polyploid individuals, but cannot interbreed with the
+original diploid population, creating instant reproductive isolation and a new species.
 
 <b>If you get this wrong, revise:</b> [Speciation](#33-speciation)
 
@@ -633,7 +633,7 @@ Original diploid population, creating instant reproductive isolation and a new s
 <details>
 <summary>Problem 4</summary>
 A researcher studying a population of 200 beetles finds that 18 are homozygous recessive for a
-Gene causing striped wings ($aa$). Calculate the frequency of the recessive allele, the dominant
+gene causing striped wings ($aa$). Calculate the frequency of the recessive allele, the dominant
 Allele, and the number of heterozygous beetles.
 
 **Answer.** $q^2 = 18/200 = 0.09$ So $q = \sqrt{0.09} = 0.3$.
@@ -659,12 +659,12 @@ Use the concepts of variation, selection, and inheritance in your answer.
 
 **Answer.** Within any bacterial population, random mutations generate genetic variation. A small
 Number of bacteria may carry mutations that confer resistance to a particular antibiotic. When the
-Antibiotic is applied, susceptible bacteria are killed (strong selective pressure), but resistant
+antibiotic is applied, susceptible bacteria are killed (strong selective pressure), but resistant
 Bacteria survive and reproduce. Because bacteria reproduce asexually by binary fission, the
-Resistance allele is passed to all offspring. The resistant population grows rapidly, and the
-Antibiotic becomes ineffective. The overuse of antibiotics (e.g., prescribing them for viral
+resistance allele is passed to all offspring. The resistant population grows rapidly, and the
+antibiotic becomes ineffective. The overuse of antibiotics (e.g., prescribing them for viral
 Infections, incomplete courses, use in livestock) increases the selective pressure, accelerating the
-Evolution of resistance. This is directional selection: the phenotype for resistance is strongly
+evolution of resistance. This is directional selection: the phenotype for resistance is strongly
 Favoured, shifting the allele frequency in the population.
 
 <b>If you get this wrong, revise:</b> [Natural Selection](#31-natural-selection)
@@ -674,19 +674,19 @@ Favoured, shifting the allele frequency in the population.
 <details>
 <summary>Problem 6</summary>
 Explain why cladistics is considered a more scientifically rigorous classification system than
-Traditional Linnaean taxonomy.
+traditional Linnaean taxonomy.
 
 **Answer.** Traditional Linnaean taxonomy classifies organisms based on overall morphological
 Similarity, which can be misleading because convergent evolution can produce analogous structures
 (similar function, different origin). Cladistics is based purely on shared derived characteristics
 (homologous traits) that indicate common ancestry, identified through molecular and morphological
 Analysis. Cladistic classification produces monophyletic groups (clades) where every member shares a
-Common ancestor not shared with any member outside the group. This is objective, testable, and
-Consistent with the theory of evolution. Linnaean taxonomy sometimes produces paraphyletic groups
+common ancestor not shared with any member outside the group. This is objective, testable, and
+consistent with the theory of evolution. Linnaean taxonomy sometimes produces paraphyletic groups
 (groups that include a common ancestor but not all descendants), which are not evolutionarily
 Meaningful. The use of molecular data (DNA/RNA sequences) in cladistics provides quantitative
 Measures of evolutionary distance, allowing precise estimation of divergence times and
-Relationships.
+relationships.
 
 <b>If you get this wrong, revise:</b> [Phylogeny and Cladistics](#23-phylogeny-and-cladistics)
 
@@ -695,7 +695,7 @@ Relationships.
 <details>
 <summary>Problem 7</summary>
 A population of 1000 individuals of a flowering plant has the following genotype frequencies for a
-Gene with two alleles ($F$ and $f$): $FF = 490$$Ff = 420$$ff = 90$. (a) Calculate the allele
+gene with two alleles ($F$ and $f$): $FF = 490$$Ff = 420$$ff = 90$. (a) Calculate the allele
 Frequencies. (b) Use the chi-squared test to determine whether the population is in Hardy-Weinberg
 Equilibrium. (c) Suggest a possible biological explanation if the population is not in equilibrium.
 
@@ -735,10 +735,10 @@ Size. Explain why this hybrid is likely to have reduced fitness.
 **Answer.** (a) The two species exploit different food resources (resource partitioning), reducing
 Direct competition. Species A specialises in hard seeds (which Species B cannot crack), and Species
 B Specialises in small seeds and insects (which Species A handles inefficiently). This allows both
-Species to occupy the same habitat without violating the competitive exclusion principle.
+species to occupy the same habitat without violating the competitive exclusion principle.
 
 (b) The drought eliminates the food source of Species B (small seeds and possibly the insects that
-Depend on small-seed plants). Species B will decline due to starvation (strong directional selection
+depend on small-seed plants). Species B will decline due to starvation (strong directional selection
 against its small-beaked phenotype). Species A, which feeds on hard seeds, is unaffected by the loss
 of small seeds and may increase as competition from Species B is reduced.
 
@@ -759,11 +759,11 @@ Answer, describe the role of homologous genes, molecular clocks, and the princip
 
 **Answer.** To construct a phylogenetic tree from DNA sequences, homologous genes (genes shared by
 Common descent, such as cytochrome c or ribosomal RNA genes) are sequenced from each species of
-Interest. The sequences are aligned, and the number of nucleotide differences between each pair of
-Species is counted. Species with fewer differences are more closely related (they diverged more
-Recently). A molecular clock can be used to estimate the actual time of divergence if the mutation
+interest. The sequences are aligned, and the number of nucleotide differences between each pair of
+species is counted. Species with fewer differences are more closely related (they diverged more
+recently). A molecular clock can be used to estimate the actual time of divergence if the mutation
 Rate for the gene is known and has been calibrated against the fossil record. The tree is then
-Constructed using the principle of parsimony: the tree requiring the fewest evolutionary changes
+constructed using the principle of parsimony: the tree requiring the fewest evolutionary changes
 (the Simplest explanation) is preferred. Alternatively, maximum likelihood or Bayesian methods may
 be used For more sophisticated analysis. The resulting tree shows the evolutionary relationships as
 a branching Diagram, where each node represents a common ancestor and branch lengths are
@@ -1089,7 +1089,7 @@ p_i' = (1 - m) \times p_i + m \times p_m = 0.90 \times 0.20 + 0.10 \times 0.80 =
 $$
 
 After one generation of migration, the island allele frequency has changed from 0.20 to 0.26.
-Continued migration will gradually shift the island population towards the mainland allele
+continued migration will gradually shift the island population towards the mainland allele
 frequency.
 
 ## 14. Adaptations: Detailed Examples

@@ -199,7 +199,7 @@ Paper 3 draws exclusively from AHL content across all five themes:
 ## Internal Assessment (IA)
 
 The Internal Assessment is an individual scientific investigation carried out by each student. It is
-Internally marked by the teacher and externally moderated by the IB.
+internally marked by the teacher and externally moderated by the IB.
 
 <div class="table-wrap">
 
@@ -215,7 +215,7 @@ Internally marked by the teacher and externally moderated by the IB.
 **Assessment criteria:**
 
 The IA is assessed against four criteria, each carrying equal weighting (maximum 6 marks per
-Criterion, 24 marks total):
+criterion, 24 marks total):
 
 1. **Personal Engagement (6 marks):** Evidence of personal input, initiative, and independent
    thinking. The student should demonstrate genuine curiosity and ownership of the research
@@ -263,7 +263,7 @@ Criterion, 24 marks total):
 ## Grade Boundaries
 
 IB Physics uses the standard IB 1--7 grading scale. Grade boundaries are determined after each
-Examination session and vary from session to session depending on the difficulty of the papers.
+examination session and vary from session to session depending on the difficulty of the papers.
 
 <div class="table-wrap">
 

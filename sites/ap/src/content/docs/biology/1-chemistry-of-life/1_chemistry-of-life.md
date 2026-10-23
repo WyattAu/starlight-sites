@@ -44,7 +44,7 @@ Trace elements (required in small amounts): Fe, Cu, Zn, Mn, I, Mo.
 **Worked Example: Why specific trace elements matter.** Iron (Fe) is a component of haemoglobin, the
 Oxygen-carrying protein in red blood cells. Without iron, haemoglobin cannot be synthesised, leading
 to iron-deficiency anaemia. Iodine (I) is required for the synthesis of thyroxine, a hormone that
-Regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
+regulates metabolism. Iodine deficiency causes goitre (enlarged thyroid gland).
 
 ### Bonding in Biological Molecules
 
@@ -184,7 +184,7 @@ In cellulose, glucose monomers are joined by $\beta$-1,4-glycosidic bonds. The g
 the $\beta$ configuration (OH group above the ring at C1). Every other glucose is flipped 180
 Degrees, producing straight chains that form hydrogen bonds with neighbouring chains, creating
 Strong, rigid fibres. Human amylase cannot hydrolyse $\beta$-glycosidic bonds, so cellulose is
-Indigestible by humans.
+indigestible by humans.
 
 ### Lipids
 
@@ -214,7 +214,7 @@ The bilayer of cell membranes.
 **Worked Example: Structure of a triglyceride.**
 
 A triglyceride consists of one glycerol molecule (a 3-carbon alcohol with three OH groups) joined to
-Three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
+three fatty acid molecules (long hydrocarbon chains with a carboxyl group at one end) by three ester
 Bonds. Each ester bond is formed by a condensation reaction, releasing one water molecule.
 
 $$
@@ -351,7 +351,7 @@ At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 At $v = V_{\max}/2 = 10$[S] = 5 $\mu$ M, so $K_m = 5$ $\mu$ M.
 
 This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$ M. A
-Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
+lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
 
@@ -371,10 +371,10 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 A competitive inhibitor binds to the active site, competing directly with the substrate. At low
 Substrate concentration, the inhibitor effectively blocks many active sites, reducing the reaction
 Rate. To achieve half $V_{\max}$ A higher substrate concentration is needed (to outcompete the
-Inhibitor), so the apparent $K_m$ increases.
+inhibitor), so the apparent $K_m$ increases.
 
 However, at very high substrate concentrations, the substrate outcompetes the inhibitor for all
-Active sites, and the enzyme reaches the same $V_{\max}$ as without the inhibitor. Therefore,
+active sites, and the enzyme reaches the same $V_{\max}$ as without the inhibitor. Therefore,
 $V_{\max}$ is unchanged.
 
 A noncompetitive inhibitor binds to an allosteric site (not the active site), changing the enzyme's
@@ -427,7 +427,7 @@ $$
 $$
 
 The overall reaction is now exergonic (spontaneous), so the cell can phosphorylate glucose using the
-Energy from ATP hydrolysis.
+energy from ATP hydrolysis.
 
 ## Common Pitfalls
 
@@ -539,7 +539,7 @@ Solution Y produces a blue colour (no change).
 
 **Interpretation:** Solution X contains a reducing sugar (e.g., glucose, maltose, or fructose). The
 Brick-red precipitate is copper(I) oxide, formed when copper(II) ions in Benedict's solution are
-Reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
+reduced by the sugar. Solution Y does not contain reducing sugars (it may contain a non-reducing
 Sugar such as sucrose, or no sugar at all). To test for non-reducing sugars, the sample would first
 be hydrolysed with dilute acid, neutralised, and then tested with Benedict's solution.
 
@@ -551,11 +551,11 @@ Disruption of each level affects function.
 **Primary structure:** The specific sequence of amino acids, determined by the nucleotide sequence
 Of the gene. Even a single amino acid substitution (point mutation) can alter protein function.
 Example: sickle cell disease results from a single substitution of glutamic acid with valine at
-Position 6 of the beta-globin chain.
+position 6 of the beta-globin chain.
 
 **Secondary structure:** Local folding into $\alpha$-helices and $\beta$-pleated sheets, stabilised
 By hydrogen bonds between the backbone amino and carboxyl groups (not the R groups). These
-Structures are common in fibrous proteins (e.g., keratin in hair contains many $\alpha$-helices).
+structures are common in fibrous proteins (e.g., keratin in hair contains many $\alpha$-helices).
 
 **Tertiary structure:** The overall three-dimensional shape of a single polypeptide, stabilised by
 Interactions between R groups: hydrogen bonds, ionic bonds (salt bridges), hydrophobic interactions
@@ -571,7 +571,7 @@ its own tertiary structure, and the subunits interact to form the quaternary str
 Pepsin (a digestive enzyme in the stomach) has an optimum pH of approximately 2. If pepsin is placed
 in a neutral solution (pH 7), its activity decreases dramatically. This is because the change in pH
 Alters the ionisation of amino acid side chains (R groups). Ionic bonds and hydrogen bonds that
-Depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
+depend on specific charges are disrupted, causing the protein to unfold (denature). The active site
 Loses its specific shape, and the enzyme can no longer bind its substrate.
 
 ## Review: Properties of Carbon
@@ -622,7 +622,7 @@ confirming the semiconservative model.
 **Phospholipid structure:** Each phospholipid molecule has a hydrophilic (water-loving) phosphate
 Head and two hydrophobic (water-fearing) fatty acid tails. In aqueous solution, phospholipids
 Spontaneously form bilayers, with the hydrophilic heads facing outward towards water and the
-Hydrophobic tails facing inward, away from water. This self-assembly is driven by the hydrophobic
+hydrophobic tails facing inward, away from water. This self-assembly is driven by the hydrophobic
 Effect.
 
 **Saturated vs unsaturated fatty acids:**
@@ -646,7 +646,7 @@ Interior of the phospholipid bilayer. It acts as a fluidity buffer:
 **Worked Example: Why phospholipids form bilayers but not micelles in cell membranes.**
 
 Phospholipids with two fatty acid tails (as found in cell membranes) are cylindrical in shape. These
-Cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
+cylindrical molecules pack together most efficiently in a bilayer arrangement. Phospholipids with
 one fatty acid tail (lysophospholipids) are cone-shaped and form micelles (small spherical
 Structures) instead. The bilayer arrangement creates a stable, flexible membrane with two distinct
 Layers, which is essential for the function of cell membranes.
@@ -676,8 +676,8 @@ $\alpha$-glucose forms starch (digestible) and glycogen, while $\beta$-glucose f
 **Why lactose intolerance occurs:** Lactase, the enzyme that hydrolyses lactose into glucose and
 Galactose, is produced in the small intestine of infants. In many populations, lactase production
 Decreases after weaning. Without lactase, lactose passes undigested into the large intestine, where
-Bacteria ferment it, producing gas and causing bloating, cramps, and diarrhoea. This condition is
-Called lactose intolerance and is particularly common in East Asian, African, and Native American
+bacteria ferment it, producing gas and causing bloating, cramps, and diarrhoea. This condition is
+called lactose intolerance and is particularly common in East Asian, African, and Native American
 Populations.
 
 **Worked Example: Benedict's test for reducing and non-reducing sugars.**
@@ -685,7 +685,7 @@ Populations.
 A student tests two solutions with Benedict's reagent. Solution A produces a brick-red precipitate
 when heated. Solution B shows no change. The student then boils Solution B with dilute hydrochloric
 Acid, neutralises it, and tests again with Benedict's reagent. This time, Solution B produces a
-Brick-red precipitate.
+brick-red precipitate.
 
 **Explanation:** Solution A contains a reducing sugar (e.g., glucose, maltose) that can directly
 Reduce copper(II) ions in Benedict's reagent to copper(I) oxide. Solution B contains a non-reducing
@@ -710,7 +710,7 @@ Dipeptide is formed from two amino acids; a polypeptide is a chain of many amino
 **Protein diversity:** With 20 different amino acids, the number of possible polypeptides of length
 $n$ is $20^n$. For a protein of 100 amino acids, there are $20^{100}$ possible sequences (an
 Astronomically large number). This explains how a relatively small set of building blocks can
-Generate the enormous diversity of proteins found in living organisms.
+generate the enormous diversity of proteins found in living organisms.
 
 ## Review: Enzyme Regulation and Allosteric Regulation
 
@@ -729,7 +729,7 @@ for subsequent $\mathrm{O_2$ molecules.
 **Feedback inhibition:** A common form of metabolic regulation where the end product of a pathway
 Inhibits an enzyme early in the pathway. This prevents wasteful overproduction of the end product.
 For example, in the pathway for isoleucine synthesis, isoleucine acts as an allosteric inhibitor of
-Threonine deaminase, the first enzyme in the pathway.
+threonine deaminase, the first enzyme in the pathway.
 
 ## Review: Experimental Design for Enzyme Investigations
 
@@ -765,8 +765,8 @@ Consequences:
 
 **Worked Example:** A person running on a hot day produces approximately 500 mL of sweat per hour.
 To evaporate 500 mL of water requires approximately $500 \times 2260 = 1,130,000$ J (1130 kJ) of
-Energy. This energy is drawn from the body as heat, significantly reducing body temperature and
-Preventing overheating.
+energy. This energy is drawn from the body as heat, significantly reducing body temperature and
+preventing overheating.
 
 ## Review: The Importance of Functional Groups in Biological Molecules
 
@@ -789,9 +789,9 @@ of the molecule and how it reacts.
 **Worked Example:** The role of functional groups in amino acid behaviour.
 
 Amino acids contain both an amino group (-NH$_2$Basic) and a carboxyl group (-COOH, acidic). In
-Aqueous solution at physiological pH, the amino group accepts a proton (becoming -NH$_3^+$) and the
-Carboxyl group donates a proton (becoming -COO$^-$), forming a zwitterion with both a positive and a
-Negative charge. The R group (side chain) determines the specific properties of each amino acid:
+aqueous solution at physiological pH, the amino group accepts a proton (becoming -NH$_3^+$) and the
+carboxyl group donates a proton (becoming -COO$^-$), forming a zwitterion with both a positive and a
+negative charge. The R group (side chain) determines the specific properties of each amino acid:
 Nonpolar R groups are hydrophobic, while polar and charged R groups are hydrophilic. Cysteine
 Contains a sulfhydryl group (-SH) that can form disulfide bridges with another cysteine, creating
 Covalent cross-links that stabilise protein structure.
@@ -803,7 +803,7 @@ Covalent cross-links that stabilise protein structure.
 
 A double-stranded DNA molecule is found to be $18\%$ adenine. Calculate the percentage of each of
 the other three bases. If the DNA contains $10,000$ base pairs, how many hydrogen bonds hold the two
-Strands together?
+strands together?
 
 </details>
 
@@ -906,7 +906,7 @@ Overall $\Delta G = +16.7 + (-30.5) = -13.8 \mathrm{ kJ/mol$.
 
 Since $\Delta G \lt 0$ The overall coupled reaction is spontaneous. The energy released by ATP
 Hydrolysis ($-30.5 \mathrm{ kJ/mol$) more than compensates for the energy required for the
-Phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
+phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
 of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as heat.
 
 </details>
@@ -928,7 +928,7 @@ At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The second
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
 the protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
-Protein to refold into its native, functional conformation.
+protein to refold into its native, functional conformation.
 
 At $70^\circ\mathrm{C$ The denaturation is irreversible. At this higher temperature, the protein May
 aggregate (unfolded proteins expose hydrophobic regions that stick together), or disulfide Bridges

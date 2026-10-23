@@ -170,7 +170,7 @@ Referential integrity ensures that relationships between tables remain consisten
 
 **Worked Example.** If we try to delete StudentID = 1 from the Student table, but there are
 Enrolment records with StudentID = 1, the DBMS should reject the deletion (or cascade it to also
-Delete the enrolments).
+delete the enrolments).
 
 ### Data Types in SQL
 

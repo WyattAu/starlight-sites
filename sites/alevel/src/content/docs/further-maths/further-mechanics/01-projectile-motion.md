@@ -28,8 +28,8 @@ categories:
 
 Projectile motion is the motion of a body launched into the air and subject only to the acceleration
 Due to gravity. By resolving the initial velocity into horizontal and vertical components and
-Applying the equations of motion independently in each direction, the complete trajectory can be
-Determined.
+applying the equations of motion independently in each direction, the complete trajectory can be
+determined.
 
 ### Board Coverage
 
@@ -211,7 +211,7 @@ $$
 ### 4.2 Down the plane
 
 When a projectile is launched from the top of a plane inclined at angle $\alpha$ below the
-Horizontal at angle $\theta$ above the horizontal, the landing condition is $y = -x\tan\alpha$:
+horizontal at angle $\theta$ above the horizontal, the landing condition is $y = -x\tan\alpha$:
 
 $$
 -x\tan\alpha = x\tan\theta - \frac{gx^2}{2V^2\cos^2\theta}
@@ -242,7 +242,7 @@ For down the plane: $\theta = 45° - \dfrac{\alpha}{2}$. $\blacksquare$
 ### 4.4 Using rotated coordinates
 
 An alternative approach is to take axes parallel and perpendicular to the plane. With $s$ along the
-Plane and $n$ perpendicular:
+plane and $n$ perpendicular:
 
 - Component of gravity along the plane: $g\sin\alpha$ (down the plane)
 - Component of gravity perpendicular to the plane: $g\cos\alpha$ (into the plane)
@@ -683,19 +683,19 @@ $$
 ### Sign conventions
 
 The most common error in projectile motion is inconsistent sign conventions. If you define upward as
-Positive, then:
+positive, then:
 
 - $g$ appears as $-g$ in the acceleration, giving $y = V\sin\theta\cdot t - \frac{1}{2}gt^2$
 - A projectile landing **below** the launch point has $y = -h$ at impact, **not** $y = h$
 - The final vertical velocity is **negative** when the projectile is moving downward
 
 If you define downward as positive, then $g$ is positive but $V\sin\theta$ becomes negative for
-Upward projection. Pick one convention and stick with it throughout the entire problem.
+upward projection. Pick one convention and stick with it throughout the entire problem.
 
 ### Inclined plane angle confusion
 
 When working with inclined planes, the angle $\alpha$ is the angle of the **plane** to the
-Horizontal, not the angle of projection. Common mistakes:
+horizontal, not the angle of projection. Common mistakes:
 
 - Confusing $\theta$ (projection angle) with $\alpha$ (plane angle)
 - Using $\theta - \alpha$ for the down-the-plane case (should be $\theta + \alpha$)
@@ -705,14 +705,14 @@ Horizontal, not the angle of projection. Common mistakes:
 ### Complementary angles trap
 
 Two angles $\theta$ and $90° - \theta$ give the **same range** but **different trajectories**. The
-Steeper angle:
+steeper angle:
 
 - Reaches a greater maximum height
 - Has a longer time of flight
 - Has a smaller horizontal component of velocity at every point
 
 If an exam question asks about the trajectory (height, time, speed at a specific point), the
-Complementary angle will give a different answer even though the range is the same.
+complementary angle will give a different answer even though the range is the same.
 
 ### Forgetting to check physical constraints
 
@@ -765,7 +765,7 @@ $\theta = \arctan\!\left(\dfrac{20}{\sqrt{400 + 196}}\right) = \arctan\!\left(\d
 
 This is less than $45^\circ$ because the projectile benefits from the extra "free" height gained
 from the elevated launch point, so a flatter trajectory maximises the horizontal component of
-Velocity.
+velocity.
 
 </details>
 
@@ -1024,7 +1024,7 @@ $\blacksquare$
 ### Question 8
 
 A cricketer hits a ball from ground level with speed $25\,\mathrm{m\,s^{-1}}$ at $35°$ to the
-Horizontal. The ball just clears a wall $5\,\mathrm{m}$ high. Find the distance from the batsman to
+horizontal. The ball just clears a wall $5\,\mathrm{m}$ high. Find the distance from the batsman to
 the wall.
 
 <details>
@@ -1073,7 +1073,7 @@ $T = \dfrac{2u\sin(\theta+\alpha)}{g\cos\alpha}$. $\blacksquare$
 
 A particle is projected from a point $A$ on a cliff $40\,\mathrm{m}$ above sea level. It lands in
 the sea at a horizontal distance of $100\,\mathrm{m}$ from the foot of the cliff. If the angle of
-Projection is $30°$ above the horizontal, find the initial speed.
+projection is $30°$ above the horizontal, find the initial speed.
 
 <details>
 <summary>Solution</summary>
@@ -1115,13 +1115,13 @@ Both topics involve resolving forces and using Newton's second law in 2D. See
 ### 11.2 Projectile equations and calculus
 
 The trajectory equation is derived by eliminating the parameter $t$ from the parametric equations, a
-Standard calculus technique. See
+standard calculus technique. See
 [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/).
 
 ### 11.3 Energy methods in projectiles
 
 Conservation of energy provides an alternative to resolving forces, connecting projectiles to the
-Work-energy principle.
+work-energy principle.
 
 ---
 
@@ -1166,7 +1166,7 @@ Work-energy principle.
 ### Question 11
 
 A ball is thrown from a height of $1.5\,\mathrm{m}$ at $10\,\mathrm{m\,s^{-1}}$ at $30°$ above the
-Horizontal. Find: (a) the time to reach maximum height; (b) the maximum height above the ground; (c)
+horizontal. Find: (a) the time to reach maximum height; (b) the maximum height above the ground; (c)
 The horizontal range (distance from launch to landing).
 
 <details>
@@ -1233,7 +1233,7 @@ $v_t = -g/k$.
 
 On a rotating Earth, the Coriolis force deflects projectiles to the right in the Northern Hemisphere
 and to the left in the Southern Hemisphere. This is significant for long-range artillery but
-Negligible for short-range projectiles.
+negligible for short-range projectiles.
 
 ### 14.3 Optimal launch angle for maximum range on a slope
 
@@ -1284,7 +1284,7 @@ $\blacksquare$
 ### Question 14
 
 A ball is dropped from a height $H$. At the same instant, a second ball is projected upward from the
-Ground with speed $u$. Find the condition for the balls to collide.
+ground with speed $u$. Find the condition for the balls to collide.
 
 <details>
 <summary>Solution</summary>
@@ -1327,7 +1327,7 @@ This is not a simple circle . However, the directrix envelope of all trajectorie
 $\theta$ but fixed $u$) is a parabola $y = \dfrac{u^2}{2g}$.
 
 The **envelope of safety** (the parabolic boundary) is $y = \dfrac{u^2}{2g} - \dfrac{gx^2}{2u^2}$ as
-Derived in Example 8.6.
+derived in Example 8.6.
 
 </details>
 
@@ -1358,7 +1358,7 @@ For a projectile at latitude $\phi$:
 ### 16.2 Projectile motion in a resistive medium
 
 With quadratic drag ($F = kv^2$), the equations of motion become coupled nonlinear ODEs with no
-Closed-form solution. Numerical methods (Euler, Runge-Kutta) are required.
+closed-form solution. Numerical methods (Euler, Runge-Kutta) are required.
 
 ### 16.3 Multi-stage projectiles
 
@@ -1397,7 +1397,7 @@ Find the horizontal distance travelled before it hits the ground.
 <summary>Solution</summary>
 
 Taking downward as positive for the vertical: $y = h + u\sin\theta\,t + \dfrac{1}{2}gt^2$ (since the
-Particle is projected downward).
+particle is projected downward).
 
 Wait, let me set up coordinates properly. Upward positive:
 

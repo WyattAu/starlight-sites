@@ -89,7 +89,7 @@ Predicted inflation rate: **12%**.
 
 **Question:** The demand for money (liquidity preference) is $L = 500 - 20i + 0.5Y$ Where $i$ is the
 interest rate (in %) and $Y$ is real income. The money supply is fixed at $\$600$ billion. (a)
-Calculate the equilibrium interest rate when $Y = 1000$. (b) If the central bank increases the money
+calculate the equilibrium interest rate when $Y = 1000$. (b) If the central bank increases the money
 supply to $\$700$ B, calculate the new equilibrium interest rate. (c) If real income rises to
 $Y = 1200$ with the original money supply, what happens to the interest rate? Explain the mechanism.
 
@@ -563,7 +563,7 @@ programmes).
 **Real-world example -- Zimbabwe 2008:** The government printed money to finance land redistribution
 and military spending. Inflation reached an estimated 79.6 billion percent month-on-month in
 November 2008. The government abandoned the Zimbabwe dollar in 2009 in favour of the US dollar and
-South African rand, which immediately stabilised prices.
+south African rand, which immediately stabilised prices.
 
 ## Common Pitfalls
 

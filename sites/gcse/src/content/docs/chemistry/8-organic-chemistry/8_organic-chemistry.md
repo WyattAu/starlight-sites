@@ -30,13 +30,13 @@ categories:
 
 **Organic chemistry** is the study of carbon compounds. Carbon is unique because each carbon atom
 Can form four covalent bonds and can bond with other carbon atoms to form chains and rings of
-Virtually unlimited length. This property, called **catenation**, gives rise to millions of known
+virtually unlimited length. This property, called **catenation**, gives rise to millions of known
 Organic compounds.
 
 Carbon forms four covalent bonds because it has four electrons in its outer shell and needs four
 more to achieve a stable configuration. The strength and versatility of the C-C bond (about 348
 KJ/mol) makes long chains stable, while the C-H bond (about 412 kJ/mol) provides a convenient way to
-Satisfy the remaining valences.
+satisfy the remaining valences.
 
 ### 1.2 Hydrocarbons
 
@@ -144,7 +144,7 @@ because CO is produced without any visible or olfactory warning.
 
 Incomplete combustion occurs when the oxygen supply is insufficient. The extent of incompleteness
 Depends on the oxygen-to-fuel ratio. With very limited oxygen, solid carbon (soot) is produced; with
-Moderately limited oxygen, carbon monoxide is produced.
+moderately limited oxygen, carbon monoxide is produced.
 
 ### 2.3 Halogenation of Alkanes
 
@@ -196,7 +196,7 @@ $$
 $$
 
 The propagation step is self-sustaining: each time a chlorine radical is consumed, another is
-Produced. This is why UV light is needed only to start the reaction, not to sustain it.
+produced. This is why UV light is needed only to start the reaction, not to sustain it.
 
 ### 2.5 Worked Examples on Alkane Reactions
 
@@ -239,7 +239,7 @@ $$
 
 The double bond consists of one sigma bond and one pi bond. The pi bond is formed by the sideways
 Overlap of p orbitals above and below the plane of the molecule. This pi bond is weaker than the
-Sigma bond and is what makes alkenes more reactive than alkanes.
+sigma bond and is what makes alkenes more reactive than alkanes.
 
 ### 3.2 Test for Unsaturation
 
@@ -255,7 +255,7 @@ Alkanes do NOT decolourise bromine water (no double bond to react with).
 ### 3.3 Addition Reactions
 
 Alkenes undergo **addition reactions** because the double bond can open up, allowing new atoms to
-Bond to the carbon atoms.
+bond to the carbon atoms.
 
 **Hydrogenation:** $\mathrm{C_2\mathrm{H_4 + \mathrm{H_2 \to \mathrm{C_2\mathrm{H_6$ (with nickel
 Catalyst)
@@ -387,7 +387,7 @@ $$
 $$
 
 This reaction is similar to the reaction of sodium with water but is less vigorous. It confirms that
-Alcohols contain the -OH group.
+alcohols contain the -OH group.
 
 ### 4.3 Uses of Alcohols
 
@@ -488,7 +488,7 @@ Esters are formed when a carboxylic acid reacts with an alcohol (esterification)
 **condensation reaction** (water is eliminated).
 
 The reaction is catalysed by a strong acid (e.g. Concentrated sulfuric acid). The reaction is
-Reversible, so the yield can be improved by using an excess of one reactant or by removing the water
+reversible, so the yield can be improved by using an excess of one reactant or by removing the water
 as it forms.
 
 Esters have distinctive sweet/fruity smells and are used in:
@@ -503,7 +503,7 @@ Esters have distinctive sweet/fruity smells and are used in:
 
 Crude oil is formed from the remains of microscopic marine organisms that died millions of years
 Ago. Under high pressure and temperature, these remains were converted into a mixture of
-Hydrocarbons. This process takes millions of years, making crude oil a non-renewable resource.
+hydrocarbons. This process takes millions of years, making crude oil a non-renewable resource.
 
 ### 6.2 Fractional Distillation
 
@@ -537,7 +537,7 @@ Crude oil is a mixture of hydrocarbons with different chain lengths. These are s
 
 The trend in properties down the fractionating column: shorter chains are more volatile, have lower
 Boiling points, are less viscous, and burn more cleanly. Longer chains are less volatile, have
-Higher boiling points, are more viscous, and burn with more soot.
+higher boiling points, are more viscous, and burn with more soot.
 
 ### 6.3 Cracking
 
@@ -560,14 +560,14 @@ $$
 
 Cracking is a thermal decomposition reaction. The C-C bonds in long-chain alkanes break when heated,
 Producing shorter fragments. Some of these fragments contain a C=C double bond (alkenes), which is
-Why cracking is a useful source of alkenes for the chemical industry.
+why cracking is a useful source of alkenes for the chemical industry.
 
 **Worked Example.** A hydrocarbon with formula C$_{12}$H$_{26}$ undergoes cracking to produce
 C$_8$H$_{18}$ and another product. Identify the other product.
 
 The atoms must balance: 12 C and 26 H on the left. The known product has 8 C and 18 H, so the other
-Product has $12 - 8 = 4$ C and $26 - 18 = 8$ H. The formula is C$_4$H$_8$Which is butene (an
-Alkene).
+product has $12 - 8 = 4$ C and $26 - 18 = 8$ H. The formula is C$_4$H$_8$Which is butene (an
+alkene).
 
 $$
 \mathrm{C_{12}\mathrm{H_{26} \to \mathrm{C_8\mathrm{H_{18} + \mathrm{C_4\mathrm{H_8
@@ -594,7 +594,7 @@ of a small molecule ( water).
 ### 7.2 Biodegradable Polymers
 
 Polymers made from renewable resources (e.g. Corn starch, sugar cane) that can be broken down by
-Microorganisms. Examples include PLA (polylactic acid) and PHA (polyhydroxyalkanoates).
+microorganisms. Examples include PLA (polylactic acid) and PHA (polyhydroxyalkanoates).
 
 **Advantages:** Reduce landfill waste, made from renewable resources, lower carbon footprint.
 
@@ -782,7 +782,7 @@ The polymer is poly(but-2-ene), also called polybutene.
 
 The demand for shorter-chain hydrocarbons (for petrol, alkenes for polymers) is much greater than
 the supply from fractional distillation. Cracking converts less useful long-chain alkanes into more
-Valuable shorter-chain alkanes and alkenes.
+valuable shorter-chain alkanes and alkenes.
 
 ### 11.2 Types of Cracking
 
@@ -801,7 +801,7 @@ Valuable shorter-chain alkanes and alkenes.
 Identify the other product.
 
 Atom balance: C: $14 - 8 = 6$ H: $30 - 18 = 12$. The other product is C$_6$H$_{12}$Which is
-Cyclohexane.
+cyclohexane.
 
 $$
 \mathrm{C_{14}\mathrm{H_{30} \to \mathrm{C_8\mathrm{H_{18} + \mathrm{C_6\mathrm{H_{12}
@@ -811,8 +811,8 @@ $$
 
 In thermal cracking, the C-C bonds break randomly. When a bond breaks and the resulting fragments
 Rearrange, at least one fragment will have an unsaturated (double) bond because there are too few
-Hydrogen atoms to fully saturate all the carbon atoms. This is a consequence of the fact that
-Alkanes have a general formula of C$_n$H$_{2n+2}$ -- splitting a chain necessarily creates fragments
+hydrogen atoms to fully saturate all the carbon atoms. This is a consequence of the fact that
+alkanes have a general formula of C$_n$H$_{2n+2}$ -- splitting a chain necessarily creates fragments
 with fewer hydrogen atoms relative to their carbon atoms.
 
 ## 12. Additional Practice Questions

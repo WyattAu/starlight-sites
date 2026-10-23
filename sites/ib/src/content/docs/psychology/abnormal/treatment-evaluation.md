@@ -19,8 +19,8 @@ description: "Evaluating psychological treatments requires careful consideration
 
 Evaluating psychological treatments requires careful consideration of multiple dimensions, including
 Effectiveness, ethical implications, cultural appropriateness, and the long-term consequences of
-Treatment choices. This section provides a framework for evaluating treatments and examines the
-Comparative merits of biological and psychological approaches.
+treatment choices. This section provides a framework for evaluating treatments and examines the
+comparative merits of biological and psychological approaches.
 
 ## Framework for Evaluating Treatments
 
@@ -29,7 +29,7 @@ Comparative merits of biological and psychological approaches.
 **Efficacy** refers to how well a treatment works under ideal, controlled conditions (randomised
 Controlled trials, or RCTs). **Effectiveness** refers to how well a treatment works in real-world
 Clinical settings, where patients may have comorbid conditions, variable adherence, and less
-Structured treatment delivery.
+structured treatment delivery.
 
 **Evidence hierarchy:**
 
@@ -78,11 +78,11 @@ the potential benefits against the potential harms.
 
 **Informed consent:** Patients must be fully informed about the nature of the treatment, its
 Potential benefits and risks, and any alternative treatments available. This requires that the
-Information be presented in a way the patient can understand.
+information be presented in a way the patient can understand.
 
 **Right to refuse treatment:** Competent adults have the right to refuse treatment, even if
 Treatment would be beneficial. Exceptions may be made when the individual poses a serious risk to
-Themselves or others.
+themselves or others.
 
 **Non-maleficence:** The principle of "first, do no harm" requires that treatments do not cause
 Unnecessary harm. The potential benefits of treatment must outweigh the risks.
@@ -95,12 +95,12 @@ When there is a risk of harm to the patient or others).
 
 **Deception in research:** Some psychological research on treatments involves deception (e.g.,
 Placebo conditions in drug trials). Deception must be justified by the scientific value of the
-Research, and participants must be fully debriefed afterward.
+research, and participants must be fully debriefed afterward.
 
 ### 4. Cultural Considerations
 
 Treatments developed and validated in one cultural context may not be equally effective or
-Appropriate in other cultural contexts. Cultural factors that influence treatment evaluation
+appropriate in other cultural contexts. Cultural factors that influence treatment evaluation
 Include:
 
 - **Explanatory models of illness:** Different cultures have different beliefs about the causes of
@@ -169,7 +169,7 @@ Discontinuation.
 
 **Interpretation:** CBT teaches patients skills and strategies for managing depressive symptoms that
 Persist after treatment ends. Pharmacotherapy suppresses symptoms while the medication is being
-Taken, but symptoms return when the medication is discontinued. This finding has important
+taken, but symptoms return when the medication is discontinued. This finding has important
 Implications for the long-term management of depression.
 
 ### Strengths and Limitations of Drug Therapy
@@ -218,7 +218,7 @@ Implications for the long-term management of depression.
 ## Combination Therapy
 
 For many disorders, the combination of drug therapy and psychotherapy is more effective than either
-Treatment alone. Combination therapy is particularly recommended for:
+treatment alone. Combination therapy is particularly recommended for:
 
 - **Severe depression:** Combination therapy produces higher response rates and faster improvement
   than either treatment alone.
@@ -230,8 +230,8 @@ Treatment alone. Combination therapy is particularly recommended for:
 ### The Role of Diagnosis
 
 The choice of treatment depends critically on accurate diagnosis. Misdiagnosis can lead to
-Inappropriate treatment, wasted time and resources, and potentially harmful outcomes. However, the
-Reliability and validity of psychiatric diagnoses have been questioned:
+inappropriate treatment, wasted time and resources, and potentially harmful outcomes. However, the
+reliability and validity of psychiatric diagnoses have been questioned:
 
 - **Reliability:** The degree to which different clinicians agree on a diagnosis. Inter-rater
   reliability for most DSM-5 disorders is moderate (kappa values of approximately 0.40--0.70),

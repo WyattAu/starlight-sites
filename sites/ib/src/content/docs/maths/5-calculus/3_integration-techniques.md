@@ -125,7 +125,7 @@ $$
 
 :::caution[Exam Tip]
 Always check if a function is odd or even before integrating over a symmetric interval. This can
-Save significant computation time.
+save significant computation time.
 :::
 
 :::note[Example]
@@ -298,7 +298,7 @@ $$
 ### Cyclic Integration by Parts
 
 Integrals like $\displaystyle\int e^x \sin x\,dx$ require applying integration by parts twice and
-Solving algebraically.
+solving algebraically.
 :::
 
 :::note[Example]
@@ -344,7 +344,7 @@ $$
 ## Partial Fractions
 
 When the integrand is a rational function with a denominator that can be factorised, decompose into
-Partial fractions.
+partial fractions.
 
 ### Types of Decomposition
 

@@ -957,7 +957,7 @@ students aged 16 to 19 after two years of study in the Senior Cycle.
 
 The Leaving Certificate serves as the principal matriculation qualification for entry to higher
 Education institutions in Ireland, including universities, institutes of technology, and colleges of
-Education. It is also widely recognised internationally.
+education. It is also widely recognised internationally.
 
 ### Levels
 
@@ -1017,7 +1017,7 @@ project components that are assessed separately.
 
 For CAO (Central Applications Office) entry, Leaving Certificate results are converted to points.
 The highest six subjects are counted. Higher Level Mathematics attracts a bonus of 25 points for
-Grades H6 and above.
+grades H6 and above.
 
 <div class="table-wrap">
 
@@ -1106,7 +1106,7 @@ URL: https://leaving-cert.wyattau.com/biology/1-cell/1_cell/
 ## Cell Biology
 
 Cell biology is the study of the structure and function of cells, the basic units of life. This
-Topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
+topic covers cell structure, organelles, membrane transport, cell division, and the biochemical
 Processes of photosynthesis and respiration.
 
 ## Cell Theory (OL/HL)
@@ -1243,7 +1243,7 @@ cell Wall prevents bursting by exerting inward pressure (turgor pressure) that o
 Entry.
 
 (b) $\psi_{\mathrm{solution} = -700$ kPa (isotonic): No net water movement. The cell is in
-Equilibrium with the solution.
+equilibrium with the solution.
 
 (c) $\psi_{\mathrm{solution} = -1000$ kPa (hypertonic): Water leaves the cell. The cell membrane
 Pulls away from the cell wall (plasmolysis). The cell becomes flaccid.
@@ -1300,7 +1300,7 @@ A cell with 46 chromosomes (diploid, $2n = 46$):
 After mitosis: two daughter cells, each with 46 chromosomes. All cells are genetically identical.
 
 After meiosis: four daughter cells, each with 23 chromosomes (haploid, $n = 23$). All four cells are
-Genetically different.
+genetically different.
 
 The key differences:
 
@@ -1395,14 +1395,14 @@ $$
 **Worked Example: Limiting factors in photosynthesis.**
 
 At low light intensity, light is the limiting factor. Increasing light increases the rate. At a
-Certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
-Low, increasing light further will have no effect.
+certain point, light is no longer limiting (another factor is). If $\mathrm{CO_2$ concentration is
+low, increasing light further will have no effect.
 
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
 This is an application of Blackman's law of limiting factors: at any given time, only one factor is
-Limiting.
+limiting.
 
 ## Cellular Respiration (OL/HL)
 
@@ -1516,7 +1516,7 @@ Respiration only partially breaks down glucose, so most of the energy remains lo
 ## Review: Cell Division -- Mitosis in Detail
 
 Mitosis produces two genetically identical daughter cells and is essential for growth, repair, and
-Asexual reproduction.
+asexual reproduction.
 
 **Prophase:** Chromosomes condense (become visible as two sister chromatids joined at the
 Centromere). The nuclear envelope breaks down. Centrioles move to opposite poles and the spindle
@@ -1551,17 +1551,17 @@ Occurs.
 
 **Induced-fit model:** The active site is flexible and changes shape slightly when the substrate
 Binds. This conformational change puts strain on the substrate, weakening bonds and lowering the
-Activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
-Catalyse reactions with a range of similar substrates (broad specificity) and why the
-Enzyme-substrate complex is more stable than the enzyme alone.
+activation energy. The induced-fit model is more widely accepted because it explains why enzymes can
+catalyse reactions with a range of similar substrates (broad specificity) and why the
+enzyme-substrate complex is more stable than the enzyme alone.
 
 **Worked Example: Explaining enzyme specificity.**
 
 Maltase catalyses the hydrolysis of maltose into glucose but does not catalyse the hydrolysis of
-Sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
-Complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
+sucrose. Both are disaccharides, but they have different structures. The active site of maltase is
+complementary to the specific shape and arrangement of functional groups in maltose. Sucrose does
 not fit into the active site, so no enzyme-substrate complex forms and no reaction occurs. This
-Demonstrates the specificity of enzyme action.
+demonstrates the specificity of enzyme action.
 
 ## Review: Osmosis -- Worked Examples
 
@@ -1572,7 +1572,7 @@ A red blood cell with an internal solute concentration of 0.9% is placed in a 0.
 The external solution (0.3%) is hypotonic (lower solute concentration) relative to the cell (0.9%).
 Water moves into the cell by osmosis. Since animal cells have no rigid cell wall, the cell swells
 and eventually bursts (lysis). This is why intravenous drips must use isotonic saline (0.9% NaCl) to
-Prevent red blood cells from being damaged.
+prevent red blood cells from being damaged.
 
 **Worked Example 2: Plant cells.**
 
@@ -1581,8 +1581,8 @@ A plant cell with a water potential of -600 kPa is placed in a solution with a w
 
 Water moves from the solution (-200 kPa, higher water potential) into the cell (-600 kPa, lower
 Water potential) by osmosis. The cell becomes turgid as the vacuole expands and presses against the
-Cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
-Osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
+cell wall. The cell wall exerts an inward pressure (wall pressure) that eventually balances the
+osmotic pressure, and no further net water movement occurs. The cell is now fully turgid.
 
 If the same cell were placed in a solution with a water potential of -1000 kPa, water would move out
 of the cell. The vacuole would shrink and the cell membrane would pull away from the cell wall
@@ -1591,7 +1591,7 @@ of the cell. The vacuole would shrink and the cell membrane would pull away from
 ## Review: Photosynthesis -- The Light-Independent Reactions (Calvin Cycle)
 
 The Calvin cycle takes place in the stroma of the chloroplast and uses the products of the
-Light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
+light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic molecules.
 
 **Three phases:**
 
@@ -1638,7 +1638,7 @@ It does not require oxygen.
 ## Review: The Electron Transport Chain and Oxidative Phosphorylation
 
 The electron transport chain (ETC) is the final stage of aerobic respiration and produces the
-Majority of ATP.
+majority of ATP.
 
 **Location:** Inner mitochondrial membrane.
 
@@ -1682,8 +1682,8 @@ Due to proton leak across the inner membrane and the energy cost of transporting
 ## Review: Factors Affecting the Rate of Photosynthesis
 
 Photosynthesis is affected by three main factors: light intensity, $\mathrm{CO_2$ concentration, and
-Temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
-Shortest supply (Blackman's law of limiting factors).
+temperature. At any given time, the rate of photosynthesis is limited by whichever factor is in
+shortest supply (Blackman's law of limiting factors).
 
 **Light intensity:**
 
@@ -1724,7 +1724,7 @@ Becomes limiting depends on the availability of the other factors.
 **The Calvin cycle in detail:**
 
 The Calvin cycle (light-independent reactions) occurs in the stroma of the chloroplast and uses the
-Products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
+products of the light-dependent reactions (ATP and NADPH) to fix $\mathrm{CO_2$ into organic
 Molecules.
 
 **Stage 1 -- Carbon fixation:**
@@ -1779,7 +1779,7 @@ $$
 **Leaf structure and its role in photosynthesis:**
 
 The leaf is the main photosynthetic organ. Its structure is adapted to maximise light absorption and
-Gas exchange:
+gas exchange:
 
 <div class="table-wrap">
 
@@ -1805,8 +1805,8 @@ Path.
 
 The opening and closing of stomata is controlled by guard cells. When guard cells are turgid (full
 of water), the stomata open; when they are flaccid (low water), the stomata close. This is a
-Compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
-Transpiration.
+compromise: open stomata allow gas exchange for photosynthesis but also allow water loss by
+transpiration.
 
 **Limiting factors in a glasshouse context:**
 
@@ -1820,7 +1820,7 @@ Commercial growers manipulate environmental conditions to maximise crop yields:
   and increase the daily light integral.
 
 By ensuring that no single factor is limiting, growers can achieve photosynthesis rates that are
-Significantly higher than would occur , resulting in faster growth and higher yields.
+significantly higher than would occur , resulting in faster growth and higher yields.
 
 **Investigating the effect of light intensity on photosynthesis:**
 
@@ -2299,7 +2299,7 @@ URL: https://leaving-cert.wyattau.com/biology/2-ecology/2_ecology/
 
 Ecology is the study of the relationships between living organisms and their environment. This topic
 Covers ecosystems, food chains, nutrient cycles, population dynamics, and human impact on the
-Environment.
+environment.
 
 ## Ecosystems
 
@@ -2525,7 +2525,7 @@ Strategies for conservation include:
 **Quadrat sampling:** for plants and slow-moving animals in a uniform habitat.
 
 Place a quadrat ( $1\mathrm{ m \times 1\mathrm{ m$) randomly and count organisms. Repeat and
-Calculate mean density.
+calculate mean density.
 
 **Transect sampling:** study changes along an environmental gradient (e.g., from sea shore inland).
 
@@ -2611,7 +2611,7 @@ See the examples integrated throughout the sections above.
 ## Review: Ecological Relationships
 
 Organisms within a community interact with each other in various ways. Understanding these
-Relationships is important for the Irish Leaving Certificate.
+relationships is important for the Irish Leaving Certificate.
 
 **Symbiosis:** A close, long-term interaction between two different species.
 
@@ -2635,12 +2635,12 @@ identical niche requirements.
 **Competitive exclusion principle:** Two species cannot occupy exactly the same ecological niche
 Indefinitely. One will eventually outcompete the other, leading to the exclusion of the weaker
 Competitor. In practice, species with similar niches coexist by resource partitioning (dividing the
-Resource to reduce direct competition).
+resource to reduce direct competition).
 
 **Worked Example: Resource partitioning.**
 
 Two species of warbler (birds) live in the same tree. Species A feeds on insects near the top of the
-Tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
+tree canopy, while species B feeds on insects near the trunk. Although both species eat insects from
 the same tree, they partition the resource spatially (different parts of the tree). This reduces
 Direct competition and allows both species to coexist.
 
@@ -2650,11 +2650,11 @@ Direct competition and allows both species to coexist.
 
 Ireland has a significant proportion of Europe's remaining peat bogs. Peat bogs are important carbon
 Stores (they contain more carbon per hectare than forests) and provide unique habitats for
-Specialist species (sphagnum moss, insectivorous plants such as sundews).
+specialist species (sphagnum moss, insectivorous plants such as sundews).
 
 **Threats:** Peat has been harvested for fuel and horticulture for centuries. Drainage for
 Agriculture destroys the waterlogged conditions needed for peat formation. When peat bogs are
-Drained, the stored carbon is released as $\mathrm{CO_2$ Contributing to climate change.
+drained, the stored carbon is released as $\mathrm{CO_2$ Contributing to climate change.
 
 **Conservation:** Raised bogs and blanket bogs are protected under EU law (Habitats Directive).
 Rewetting drained bogs can restore their function as carbon stores. Bord na Mona (the Irish peat
@@ -2719,14 +2719,14 @@ Rapidly at first (exponential phase), then the growth rate slows as nutrients ar
 Products accumulate (deceleration phase). Eventually, the population stabilises (stationary phase)
 As the birth rate equals the death rate. The population size at this point is the carrying capacity
 for the flask. If the nutrients are not replenished, the population will decline (death phase) as
-Waste products become toxic.
+waste products become toxic.
 
 ## Review: Ecological Succession
 
 ### Primary Succession
 
 Primary succession occurs on previously bare, lifeless surfaces such as bare rock, sand dunes, or
-Volcanic lava.
+volcanic lava.
 
 **Stages:**
 
@@ -2763,7 +2763,7 @@ more rapidly than primary succession.
 
 A biome is a large geographical area with a characteristic climate and distinctive plant and animal
 Communities. Climate (particularly temperature and rainfall) is the primary factor determining the
-Type of biome.
+type of biome.
 
 **Major biomes:**
 
@@ -2785,7 +2785,7 @@ Type of biome.
 Ireland's temperate maritime climate (mild winters, cool summers, high rainfall) supports temperate
 Deciduous woodland as the natural climax community. However, much of Ireland's original woodland has
 been cleared for agriculture, and grassland is now the dominant vegetation type. Raised bogs and
-Blanket bogs are significant Irish ecosystems that are rare internationally.
+blanket bogs are significant Irish ecosystems that are rare internationally.
 
 **Worked Example: Adaptations of plants to different biomes.**
 
@@ -2800,7 +2800,7 @@ Blanket bogs are significant Irish ecosystems that are rare internationally.
 ## Review: The Phosphorus Cycle
 
 The phosphorus cycle differs from the carbon and nitrogen cycles in that phosphorus has no
-Significant gaseous phase. It cycles mainly between the land and water.
+significant gaseous phase. It cycles mainly between the land and water.
 
 **Key processes:**
 
@@ -2816,15 +2816,15 @@ Significant gaseous phase. It cycles mainly between the land and water.
 **Human impact on the phosphorus cycle:** Mining of phosphate rock for fertiliser has greatly
 Accelerated the rate at which phosphorus enters the ecosystem. Excess phosphate in water bodies
 Contributes to eutrophication. Phosphate is a non-renewable resource on human timescales, and
-Reserves are being depleted.
+reserves are being depleted.
 
 **Worked Example: Phosphorus and aquatic ecosystems.**
 
 Phosphorus is often the limiting nutrient in freshwater ecosystems. When excess phosphate enters a
-Lake from fertiliser runoff or sewage, it stimulates rapid algal growth (algal bloom). The algae
+lake from fertiliser runoff or sewage, it stimulates rapid algal growth (algal bloom). The algae
 Block light, killing aquatic plants. Dead algae and plants are decomposed by bacteria, which use up
-Dissolved oxygen. Fish and other aquatic organisms die due to oxygen depletion. This is another
-Pathway to eutrophication, alongside nitrogen enrichment.
+dissolved oxygen. Fish and other aquatic organisms die due to oxygen depletion. This is another
+pathway to eutrophication, alongside nitrogen enrichment.
 
 ## Review: Indicator Species and Pollution Monitoring
 
@@ -2864,7 +2864,7 @@ A student samples macroinvertebrates from two sites on a river:
   polluted water, low dissolved oxygen.
 
 The absence of sensitive species and the presence of tolerant species at Site B indicate that the
-Water quality has deteriorated downstream of the sewage outfall.
+water quality has deteriorated downstream of the sewage outfall.
 
 ## Review: Conservation Strategies in Ireland
 
@@ -2899,14 +2899,14 @@ EU law. These areas protect important habitats and species.
 **Worked Example: Evaluating a conservation strategy.**
 
 A proposed wind farm development would be located on an area of blanket bog that is designated as a
-Special Area of Conservation. The wind farm would generate renewable energy (reducing $\mathrm{CO_2$
+special Area of Conservation. The wind farm would generate renewable energy (reducing $\mathrm{CO_2$
 Emissions and helping to combat climate change) but would destroy the bog habitat and fragment the
-Populations of specialist bog species.
+populations of specialist bog species.
 
 This is an example of a conflict between two conservation goals: reducing carbon emissions and
-Protecting biodiversity. An environmental impact assessment would be required to evaluate the
-Trade-offs and propose mitigation measures (e.g., routing turbine access roads to avoid the most
-Sensitive areas, creating compensatory habitat elsewhere).
+protecting biodiversity. An environmental impact assessment would be required to evaluate the
+trade-offs and propose mitigation measures (e.g., routing turbine access roads to avoid the most
+sensitive areas, creating compensatory habitat elsewhere).
 
 **Census techniques for estimating population size:**
 
@@ -2946,7 +2946,7 @@ second sample, $R$ = number of marked individuals recaptured.
 **Worked Example: Estimating a population using the Lincoln index.**
 
 A biologist captures and marks 80 woodlice. The next day, she captures 100 woodlice, of which 20 are
-Marked. What is the estimated population size?
+marked. What is the estimated population size?
 
 $$
 N = \frac{80 \times 100}{20} = \frac{8000}{20} = 400
@@ -2957,14 +2957,14 @@ The estimated population is 400 woodlice.
 **Ecological niche and competitive exclusion:**
 
 Each species occupies a unique ecological niche -- its role in the ecosystem, including the
-Resources it uses, its interactions with other species, and the environmental conditions it
-Requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
+resources it uses, its interactions with other species, and the environmental conditions it
+requires. The competitive exclusion principle states that two species cannot coexist indefinitely if
 they occupy exactly the same niche. One species will outcompete the other, leading to competitive
 Exclusion.
 
 In practice, closely related species often coexist because they have slightly different niches
 (resource partitioning). For example, different species of warblers in a forest may feed at
-Different heights in the canopy, reducing direct competition.
+different heights in the canopy, reducing direct competition.
 
 **The carbon cycle:**
 
@@ -2992,12 +2992,12 @@ between the atmosphere, biosphere, oceans, and geosphere.
 
 Since the Industrial Revolution, the burning of fossil fuels and deforestation have significantly
 Increased atmospheric $\mathrm{CO_2$ concentration from approximately 280 ppm to over 420 ppm. This
-Enhanced greenhouse effect is the primary driver of current climate change.
+enhanced greenhouse effect is the primary driver of current climate change.
 
 **Deforestation and the carbon cycle:**
 
 Trees store large amounts of carbon in their biomass (trunks, branches, roots). When forests are
-Cleared:
+cleared:
 
 - The stored carbon is released as $\mathrm{CO_2$ if the wood is burned or left to rot.
 - The loss of trees reduces the rate of photosynthesis, decreasing the rate at which $\mathrm{CO_2$
@@ -3007,7 +3007,7 @@ Cleared:
 **Worked Example: Calculating net carbon flux.**
 
 A forest absorbs 5000 tonnes of $\mathrm{CO_2$ per year through photosynthesis. The plants and
-Animals in the forest release 3000 tonnes of $\mathrm{CO_2$ per year through respiration.
+animals in the forest release 3000 tonnes of $\mathrm{CO_2$ per year through respiration.
 Decomposers Release 800 tonnes per year. What is the net carbon flux?
 
 $$
@@ -3022,7 +3022,7 @@ The forest is a net carbon sink, absorbing 1200 tonnes of $\mathrm{CO_2$ per yea
 **Eutrophication:**
 
 Eutrophication is the over-enrichment of water bodies with nutrients (particularly nitrates and
-Phosphates), leading to excessive growth of algae and subsequent oxygen depletion.
+phosphates), leading to excessive growth of algae and subsequent oxygen depletion.
 
 **Stages of eutrophication:**
 
@@ -3124,8 +3124,8 @@ Newly synthesised strand.
 
 At a replication fork, the two strands of DNA are separated. DNA polymerase can only synthesise in
 the 5' to 3' direction. On the leading strand (oriented 3' to 5'), synthesis is continuous. On the
-Lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
-Move along the template in one direction.
+lagging strand (oriented 5' to 3'), synthesis must be discontinuous because DNA polymerase can only
+move along the template in one direction.
 
 The lagging strand is synthesised in short fragments called Okazaki fragments, each initiated by an
 RNA primer. DNA ligase then joins these fragments together.
@@ -3307,7 +3307,7 @@ Where:
 ### Example (HL)
 
 In a population, 16% of individuals show the recessive phenotype (attached earlobes). Find the
-Allele frequencies and genotype frequencies.
+allele frequencies and genotype frequencies.
 
 $$
 Q^2 = 0.16 \implies q = 0.4
@@ -3450,7 +3450,7 @@ See the examples integrated throughout the sections above.
 
 **The double helix:** DNA consists of two antiparallel strands wound into a double helix. The
 Sugar-phosphate backbone is on the outside, and the nitrogenous bases project inward. The two
-Strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
+strands are held together by hydrogen bonds between complementary base pairs: A pairs with T (2
 Hydrogen bonds) and G pairs with C (3 hydrogen bonds).
 
 **Chargaff's rules:** In any sample of DNA, the amount of adenine equals the amount of thymine
@@ -3561,18 +3561,18 @@ Contain simpler organisms; younger layers contain more complex organisms. Transi
 Pentadactyl limb) suggest common ancestry. Analogous structures (different structure, similar
 Function, e.g., wings of birds and insects) suggest convergent evolution. Vestigial structures
 (e.g., human appendix, pelvic bones in whales) are remnants of structures that were functional in
-Ancestors.
+ancestors.
 
 **Comparative embryology:** Early embryos of all vertebrates are remarkably similar, with features
 Such as pharyngeal pouches and a post-anal tail. This suggests a common ancestry.
 
 **Molecular evidence:** DNA and protein sequence comparisons show that closely related species have
 More similar sequences. The genetic code is nearly universal (the same codons code for the same
-Amino acids in almost all organisms), which is strong evidence for a common origin of all life.
+amino acids in almost all organisms), which is strong evidence for a common origin of all life.
 
 **Biogeography:** The distribution of species around the world reflects evolutionary history. Island
 Species are often similar to those on the nearest mainland but have evolved differences due to
-Isolation (e.g., Darwin's finches on the Galapagos Islands).
+isolation (e.g., Darwin's finches on the Galapagos Islands).
 
 ## Review: Genetic Engineering -- Applications and Ethics
 
@@ -3591,7 +3591,7 @@ Risk of transmitting animal diseases (unlike pig insulin, which was previously u
 ### Gene Therapy
 
 Gene therapy involves inserting a functional copy of a gene into a patient's cells to treat a
-Genetic disorder.
+genetic disorder.
 
 **Somatic gene therapy:** Targets body cells (not germ cells). Changes are not inherited.
 
@@ -3600,7 +3600,7 @@ More controversial because it affects future generations.
 
 **Example:** Cystic fibrosis is caused by a mutation in the CFTR gene. Gene therapy involves
 Delivering a normal copy of the CFTR gene to the patient's lung cells using a viral vector (a
-Modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
+modified virus that carries the gene). This can potentially cure or alleviate the symptoms of cystic
 Fibrosis.
 
 ### Ethical Concerns of Genetic Engineering
@@ -3624,8 +3624,8 @@ Favours one extreme of the phenotype distribution, shifting the mean in that dir
 **Example:** The peppered moth (Biston betularia) in industrial England. Before industrialisation,
 The light-coloured form was well camouflaged against lichen-covered bark. During industrialisation,
 Soot darkened tree bark, and the dark-coloured form became better camouflaged. The frequency of the
-Dark allele increased through natural selection. After clean-air legislation, the frequency of the
-Light form increased again as bark lightened.
+dark allele increased through natural selection. After clean-air legislation, the frequency of the
+light form increased again as bark lightened.
 
 ### Stabilising Selection
 
@@ -3639,7 +3639,7 @@ is stabilising selection maintaining the average birth weight.
 ### Disruptive Selection
 
 Favours both extremes and selects against the intermediate. This can lead to the formation of two
-Distinct phenotypes in the population.
+distinct phenotypes in the population.
 
 **Example:** In African seedcracker finches, birds with very large or very small beaks are favoured
 Because the available seeds are either very large or very small. Birds with intermediate beaks are
@@ -3686,7 +3686,7 @@ $q = \frac{2(160) + 480}{2(1000)} = \frac{800}{2000} = 0.4$
 Expected (under H-W): $p^2 = 0.36$ (AA = 360), $2pq = 0.48$ (Aa = 480), $q^2 = 0.16$ (aa = 160).
 
 The observed frequencies exactly match the expected Hardy-Weinberg frequencies. The population is in
-Equilibrium.
+equilibrium.
 
 **Worked Example 2: Cystic fibrosis carrier frequency.**
 
@@ -3716,7 +3716,7 @@ Expected (under H-W): $p^2 = 0.25$ (AA = 250), $2pq = 0.50$ (Aa = 500), $q^2 = 0
 Observed: AA = 400, Aa = 200, aa = 400.
 
 The observed frequencies do not match the expected Hardy-Weinberg frequencies. There is a
-Significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
+significant excess of homozygotes (AA and aa) and a deficit of heterozygotes. This pattern suggests
 non-random mating, such as inbreeding or positive assortative mating (individuals with similar
 Genotypes preferentially mate with each other).
 
@@ -3752,7 +3752,7 @@ Weights have higher mortality, so the intermediate range is favoured.
 **3. Disruptive selection:**
 
 Favours individuals at both extremes and selects against the intermediate phenotype. Can lead to
-Speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
+speciation if the two extremes become reproductively isolated. Example: African seedcracker finches
 -- birds with either large or small beaks have higher survival (feeding on large or small seeds
 Respectively), while birds with intermediate beak sizes are less efficient at both.
 
@@ -3771,7 +3771,7 @@ Generations.
 **Speciation:**
 
 Speciation is the formation of new species. The biological species concept defines a species as a
-Group of organisms that can interbreed to produce fertile offspring. Speciation requires
+group of organisms that can interbreed to produce fertile offspring. Speciation requires
 Reproductive isolation, which can occur through:
 
 - **Geographic (allopatric) speciation:** Populations are physically separated by a geographic
@@ -3787,7 +3787,7 @@ Reproductive isolation, which can occur through:
 **Evidence for evolution:**
 
 In addition to molecular evidence, there are several lines of evidence supporting the theory of
-Evolution by natural selection:
+evolution by natural selection:
 
 **1. The fossil record:**
 
@@ -3812,7 +3812,7 @@ Fossils provide a record of organisms that lived in the past. The fossil record 
 
 Homologous structures (structures with a common evolutionary origin) provide evidence for common
 Descent. The pentadactyl limb (five-digit limb) is found in mammals, birds, reptiles, and
-Amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
+amphibians, with the same basic bone arrangement (humerus, radius, ulna, carpals, metacarpals,
 Phalanges) adapted for different functions (grasping, swimming, flying, running).
 
 **3. Biogeography:**
@@ -3825,8 +3825,8 @@ the mainland and then diverging through natural selection.
 **4. Embryology:**
 
 Early embryonic stages of vertebrates are remarkably similar, suggesting a common ancestry. For
-Example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
-Parts of the ear and throat in mammals) and a post-anal tail.
+example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
+parts of the ear and throat in mammals) and a post-anal tail.
 
 ## Summary
 
@@ -3904,7 +3904,7 @@ The heart has four chambers:
 
 Deoxygenated blood enters the right atrium from the vena cava. The tricuspid valve opens and blood
 Flows into the right ventricle. The right ventricle contracts, the tricuspid valve closes, and the
-Semilunar valve in the pulmonary artery opens. Blood flows to the lungs.
+semilunar valve in the pulmonary artery opens. Blood flows to the lungs.
 
 Oxygenated blood returns from the lungs via the pulmonary vein into the left atrium. The bicuspid
 Valve opens and blood flows into the left ventricle. The left ventricle contracts, the bicuspid
@@ -4303,7 +4303,7 @@ Nephrons.
 A patient produces very large volumes of dilute urine and is constantly thirsty. This is a symptom
 of diabetes insipidus, which is caused by a lack of ADH (or by the kidneys not responding to ADH).
 Without ADH, the collecting ducts remain impermeable to water, so water is not reabsorbed. The
-Result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
+result is large volumes of dilute urine (polyuria) and excessive thirst (polydipsia) as the body
 Tries to replace the lost water.
 
 ## Review: The Nervous System -- Neurones and Synapses
@@ -4375,18 +4375,18 @@ to normal, then the corrective response is switched off.
 
 After a meal, blood glucose rises above the normal range (approximately 4--6 mmol/L). The pancreas
 Detects this and secretes insulin. Insulin stimulates cells (especially liver and muscle cells) to
-Take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
+take up glucose from the blood and convert it to glycogen (glycogenesis). Blood glucose falls back
 to normal, and insulin secretion decreases.
 
 During fasting or exercise, blood glucose falls below normal. The pancreas secretes glucagon.
 Glucagon stimulates the liver to break down glycogen into glucose (glycogenolysis) and, if
-Necessary, to convert amino acids and lipids into glucose (gluconeogenesis). Blood glucose rises
+necessary, to convert amino acids and lipids into glucose (gluconeogenesis). Blood glucose rises
 Back to normal, and glucagon secretion decreases.
 
 **Thermoregulation:**
 
 The body maintains its core temperature at approximately 37$\degree$C. This is controlled by the
-Hypothalamus, which acts as the body's thermostat.
+hypothalamus, which acts as the body's thermostat.
 
 **Heat gain mechanisms (when body temperature drops):**
 
@@ -4432,13 +4432,13 @@ The skin is the largest organ in the body and plays a central role in thermoregu
 When the core temperature rises above 37$\degree$C, thermoreceptors in the skin and hypothalamus
 Detect the change. The hypothalamus sends signals via the autonomic nervous system to activate
 Cooling mechanisms (vasodilation, sweating). As the temperature returns to 37$\degree$C, the
-Thermoreceptors send fewer signals, and the cooling mechanisms are gradually switched off. This is
-Negative feedback in action.
+thermoreceptors send fewer signals, and the cooling mechanisms are gradually switched off. This is
+negative feedback in action.
 
 **Osmoregulation:**
 
 The body must maintain the water potential of the blood within narrow limits. The kidneys are the
-Main organs of osmoregulation.
+main organs of osmoregulation.
 
 **How the kidneys regulate water balance:**
 
@@ -4455,19 +4455,19 @@ Main organs of osmoregulation.
 ADH is released from the posterior pituitary gland when the blood water potential is too low (blood
 is too concentrated). ADH increases the permeability of the collecting duct to water by causing
 Aquaporin channels to be inserted into the cell membranes. More water is reabsorbed from the
-Filtrate into the blood, producing a smaller volume of more concentrated urine.
+filtrate into the blood, producing a smaller volume of more concentrated urine.
 
 When the blood water potential is too high (blood is too dilute), less ADH is released. The
-Collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
+collecting duct becomes less permeable to water, less water is reabsorbed, and a larger volume of
 more dilute urine is produced.
 
 **Worked Example: Explaining osmoregulation after drinking a large volume of water.**
 
 After drinking 1 litre of water, the water is absorbed into the blood from the small intestine. This
-Lowers the solute concentration (increases the water potential) of the blood. Osmoreceptors in the
-Hypothalamus detect the change and send fewer nerve impulses to the posterior pituitary gland. Less
+lowers the solute concentration (increases the water potential) of the blood. Osmoreceptors in the
+hypothalamus detect the change and send fewer nerve impulses to the posterior pituitary gland. Less
 ADH is released into the bloodstream. The collecting ducts in the kidneys become less permeable to
-Water. Less water is reabsorbed from the filtrate, so a larger volume of dilute urine is produced.
+water. Less water is reabsorbed from the filtrate, so a larger volume of dilute urine is produced.
 This restores the blood water potential to normal.
 
 **Worked Example: Diabetes insipidus.**
@@ -4522,8 +4522,8 @@ out and 2 potassium ions in for each ATP hydrolysed.
 
 When a stimulus depolarises the membrane to the threshold level (approximately -55 mV),
 Voltage-gated sodium channels open. Sodium ions rush in, causing further depolarisation. This is the
-Action potential (approximately +40 mV). The action potential travels along the axon as a wave of
-Depolarisation.
+action potential (approximately +40 mV). The action potential travels along the axon as a wave of
+depolarisation.
 
 After the action potential passes, voltage-gated potassium channels open and potassium ions flow
 out, repolarising the membrane. The sodium-potassium pump restores the resting potential (refractory
@@ -4547,7 +4547,7 @@ Potential arrives at the presynaptic membrane:
 **The reflex arc:**
 
 A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary response (a
-Reflex). Reflexes are fast and protect the body from harm. The pathway is:
+reflex). Reflexes are fast and protect the body from harm. The pathway is:
 
 **Receptor -- sensory neuron -- relay neuron -- motor neuron -- effector**
 
@@ -4564,7 +4564,7 @@ If you touch a hot object:
    after the reflex has already occurred.
 
 This reflex is protective because it does not require conscious processing by the brain, making the
-Response faster.
+response faster.
 
 **Comparison of nervous and endocrine systems:**
 
@@ -5205,8 +5205,8 @@ URL: https://leaving-cert.wyattau.com/biology/4-plant-biology/4_plant-biology/
 ## Plant Biology
 
 This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to
-Stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
-Underpins understanding of ecosystems, agriculture, and human physiology.
+stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
+underpins understanding of ecosystems, agriculture, and human physiology.
 
 ## Plant Structure
 
@@ -5219,12 +5219,12 @@ Support, and gas exchange.
 **Dermal tissue (epidermis):** outer protective layer. May have a waxy cuticle to reduce water loss.
 Root hair cells are specialised epidermal cells for absorption. The cuticle is made of cutin, a waxy
 Lipid polymer secreted by epidermal cells, which is impermeable to water. This adaptation is
-Particularly important in terrestrial plants that face the constant risk of desiccation.
+particularly important in terrestrial plants that face the constant risk of desiccation.
 
 **Ground tissue (parenchyma):** fills the interior of the plant. Involved in photosynthesis,
 Storage, and support. Parenchyma cells are thin-walled, living cells that remain capable of cell
 Division. In leaves, parenchyma cells in the mesophyll contain chloroplasts for photosynthesis. In
-Roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
+roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
 Tissue include collenchyma (unevenly thickened cell walls for flexible support in young stems) and
 Sclerenchyma (thick lignified walls for rigid support in mature tissues).
 
@@ -5268,8 +5268,8 @@ Throughout the plant.
 
 :::note
 Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium ions enter the
-Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
-Opening the stomata.
+guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
+opening the stomata.
 :::
 
 ### Root Structure (OL/HL)
@@ -5280,7 +5280,7 @@ Carrots and turnips).
 **Root hair cells:** increase surface area for absorption. Each root hair is a tubular extension of
 An epidermal cell. The large surface area-to-volume ratio maximises the rate of water and mineral
 Ion uptake by osmosis and active transport respectively. Root hair cells have many mitochondria to
-Provide ATP for active transport of mineral ions against their concentration gradient.
+provide ATP for active transport of mineral ions against their concentration gradient.
 
 **Root tip zones:**
 
@@ -5397,7 +5397,7 @@ Simultaneously:
 
 The transport of organic substances (mainly sucrose) in the phloem. Unlike xylem transport, which is
 A passive process driven by physical forces, translocation requires energy (active transport at the
-Source).
+source).
 
 **Mass flow hypothesis (pressure flow hypothesis):**
 
@@ -5472,7 +5472,7 @@ Not require a pollinator. Disadvantages: no genetic variation, inbreeding depres
 
 **Cross-pollination:** pollen from a different plant of the same species. Advantages: genetic
 Variation, potentially stronger offspring. Disadvantages: requires a pollination agent, less
-Reliable.
+reliable.
 
 **Agents of pollination:**
 
@@ -5490,7 +5490,7 @@ Reliable.
 :::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
-Pollinators.
+pollinators.
 :::
 
 ### Fertilisation (OL/HL)
@@ -5505,7 +5505,7 @@ Pollinators.
 - The other male gamete fuses with two polar nuclei $\to$ endosperm (3n), a nutritive tissue.
 
 Double fertilisation is unique to flowering plants (angiosperms) and ensures that the endosperm only
-Develops if fertilisation has occurred, avoiding waste of resources.
+develops if fertilisation has occurred, avoiding waste of resources.
 
 ### Seed and Fruit Development (OL/HL)
 
@@ -5589,7 +5589,7 @@ Environmental changes), can lead to overcrowding and competition for resources.
 **Question:** A student sets up four test tubes, each containing 10 cress seeds on moist cotton
 Wool. Tube A is kept at $20\degree C$. Tube B is kept at $20\degree C$ but the cotton wool is dry.
 Tube C is kept at $4\degree C$. Tube D is kept at $20\degree C$ with no oxygen. After 5 days, only
-Tube A shows germination. Explain the results.
+tube A shows germination. Explain the results.
 
 **Answer:**
 
@@ -5621,7 +5621,7 @@ Conditions for germination.
 
 Plant hormones (phytohormones) are chemical messengers produced in small quantities that regulate
 Growth, development, and responses to stimuli. Unlike animal hormones, plant hormones can act on the
-Cells that produce them (autocrine) as well as on distant cells.
+cells that produce them (autocrine) as well as on distant cells.
 
 <div class="table-wrap">
 
@@ -5638,7 +5638,7 @@ Cells that produce them (autocrine) as well as on distant cells.
 ### Apical Dominance (HL)
 
 Auxin produced by the apical bud inhibits the growth of lateral buds. The mechanism works as
-Follows:
+follows:
 
 1. Auxin is synthesised in the apical bud and transported downwards through the stem.
 2. High auxin concentrations in the lateral buds prevent them from growing.
@@ -5679,7 +5679,7 @@ that promotes growth in shoots inhibits growth in roots.
 
 **Question:** A potted plant is placed near a window so that light comes from one side only. After
 Several days, the stem bends towards the window. Explain the mechanism responsible for this
-Response.
+response.
 
 **Answer:** The bending is due to **positive phototropism**, mediated by the plant hormone auxin
 (IAA):
@@ -5692,7 +5692,7 @@ Response.
 4. This differential growth causes the stem to bend towards the light source.
 
 If a light-proof cap is placed over the tip of the shoot, no bending occurs, demonstrating that the
-Tip is the site of auxin production and light perception.
+tip is the site of auxin production and light perception.
 
 ### Worked Example: Geotropism in Roots (HL)
 
@@ -5778,17 +5778,17 @@ Directions in response to the same gravitational stimulus.
 ### Agriculture and Plant Hormones
 
 Plant hormones have significant applications in agriculture and horticulture. Understanding these
-Applications is important for the Leaving Certificate.
+applications is important for the Leaving Certificate.
 
 **Synthetic auxins (e.g., 2,4-D):** used as selective weedkillers. Broad-leaved plants (dicots) are
 More sensitive to auxins than narrow-leaved plants (monocots like grasses and cereals). Spraying a
-Field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
+field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
 Uncontrolled, unsustainable growth in susceptible plants, effectively killing them.
 
 **Ethylene and fruit ripening:** Ethylene gas is used commercially to control fruit ripening.
 Bananas are harvested while green and unripe, shipped to reduce damage and spoilage, then exposed to
-Ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
-Using ethylene absorbers) delays ripening and extends shelf life.
+ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
+using ethylene absorbers) delays ripening and extends shelf life.
 
 **Gibberellins in brewing:** Gibberellic acid ($GA_3$) is sprayed on barley grains during the
 Malting process. It stimulates the production of amylase enzymes in the aleurone layer of the seed,
@@ -5914,7 +5914,7 @@ Has a water potential of $-100$ kPa. In which direction will water move? Explain
 **Answer:** Water will move **from the soil into the root hair cell**. This is because the soil
 Solution has a higher (less negative) water potential ($-100$ kPa) compared to the root hair cell
 Cytoplasm ($-700$ kPa). Water always moves from a region of higher water potential to a region of
-Lower water potential by osmosis across the selectively permeable cell membrane.
+lower water potential by osmosis across the selectively permeable cell membrane.
 
 ### Xylem and Phloem: Detailed Comparison (HL)
 
@@ -6103,7 +6103,7 @@ $\mathrm{NH_3/\mathrm{NH_4^+$ and $\mathrm{H_2\mathrm{O/\mathrm{OH^-$.
 ### Strong Acids
 
 Completely dissociate in water: $\mathrm{HCl$$\mathrm{HNO_3$$\mathrm{H_2\mathrm{SO_4$ (first
-Dissociation).
+dissociation).
 
 $$
 \mathrm{HCl + \mathrm{H_2\mathrm{O \to \mathrm{H_3\mathrm{O^+ + \mathrm{Cl^-
@@ -6285,7 +6285,7 @@ $$
 1. **Acid + Insoluble Base (titration method):**
 
 Add the acid to the insoluble base (e.g., $\mathrm{CuO$) until no more dissolves. Filter and
-Evaporate.
+evaporate.
 
 1. **Precipitation (mixing two solutions):**
 
@@ -6822,7 +6822,7 @@ A common error is to confuse strength with concentration.
 $\mathrm{CH_3\mathrm{COOH$ (weak) has $[\mathrm{H^+] \approx 0.0013$ M, pH = 2.9.
 
 Despite the weak acid being 10 times more concentrated, its pH is higher because it is only
-Partially dissociated.
+partially dissociated.
 
 ### Dilution Effect on pH
 
@@ -6939,14 +6939,14 @@ $$
 $$
 
 Although the blood pH of 7.4 is outside the optimal range ($pK_a \pm 1 = 5.37$ to $7.37$), the
-System works because:
+system works because:
 
 1. The body constantly removes $\mathrm{CO_2$ through respiration
 2. The kidneys regulate $\mathrm{HCO_3^-$ levels
 3. Haemoglobin acts as an additional buffer
 
 The phosphate buffer system ($\mathrm{H_2\mathrm{PO_4^-/\mathrm{HPO_4^{2-}$, $pK_{a2} = 7.21$) is
-Important intracellularly.
+important intracellularly.
 
 ---
 
@@ -7199,7 +7199,7 @@ Three unpaired electrons with parallel spins.
 ### Pauli Exclusion Principle (HL)
 
 No two electrons in an atom can have the same set of four quantum numbers. An orbital holds at most
-Two electrons with opposite spins.
+two electrons with opposite spins.
 
 ## Quantum Numbers (HL)
 
@@ -7247,7 +7247,7 @@ E_n = -\frac{13.6}{n^2} \mathrm{ eV
 $$
 
 This is derived from the Bohr model, which postulates that the angular momentum of the electron is
-Quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
+quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
 
 **Example (HL):** Find the wavelength of the photon emitted when an electron in hydrogen drops from
 $n = 4$ to $n = 2$.
@@ -7326,7 +7326,7 @@ Magnesium.
 
 Magnesium has the electron configuration $[\mathrm{Ne]\,3s^2$ -- a filled $3s$ subshell. Aluminium
 has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
-Shielded by the $3s$ electrons, so it is easier to remove.
+shielded by the $3s$ electrons, so it is easier to remove.
 
 **Worked Example 8 (HL):** Explain why the first ionisation energy of sulfur is lower than that of
 Phosphorus.
@@ -7334,7 +7334,7 @@ Phosphorus.
 Phosphorus: $[\mathrm{Ne]\,3s^2 3p^3$ -- each $3p$ orbital has one electron (half-filled subshell,
 Stable). Sulfur: $[\mathrm{Ne]\,3s^2 3p^4$ -- one $3p$ orbital has two electrons. The pairing energy
 in sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
-Phosphorus's third $3p$ electron.
+phosphorus's third $3p$ electron.
 
 ### Electronegativity (OL/HL)
 
@@ -7539,7 +7539,7 @@ $$
 Where $h$ is Planck's constant, $m$ is mass, and $v$ is velocity.
 
 For an electron in an orbital, the standing wave condition requires that an integer number of
-Wavelengths fit around the orbit: $n\lambda = 2\pi r$.
+wavelengths fit around the orbit: $n\lambda = 2\pi r$.
 
 This explains why only certain energy levels are allowed: only orbits that satisfy the standing wave
 Condition are stable.
@@ -7583,7 +7583,7 @@ Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the pro
 The radial distribution function shows the probability of finding an electron at a given distance
 from the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
 ($a_0 = 52.9 \mathrm{ pm$). For the $2s$ orbital, there is a node (zero probability) at a certain
-Distance.
+distance.
 
 ---
 
@@ -7763,14 +7763,14 @@ Radius.
 ## X-ray Spectra and Moseley's Law (HL)
 
 Henry Moseley discovered that the frequency of characteristic X-rays emitted by an element is
-Related to its atomic number:
+related to its atomic number:
 
 $$
 \sqrt{f} = a(Z - b)
 $$
 
 Where $a$ and $b$ are constants. This established that atomic number (not atomic mass) is the
-Fundamental property that determines an element's identity, leading to the modern periodic table.
+fundamental property that determines an element's identity, leading to the modern periodic table.
 
 ---
 
@@ -7789,7 +7789,7 @@ Fundamental property that determines an element's identity, leading to the moder
 
 Lasers rely on stimulated emission: an excited electron is stimulated to drop to a lower energy
 Level by an incoming photon of exactly the right energy, emitting a second photon with the same
-Wavelength, phase, and direction.
+wavelength, phase, and direction.
 
 Conditions for laser action:
 
@@ -7800,7 +7800,7 @@ Conditions for laser action:
 ### Fluorescence
 
 When atoms or molecules absorb UV light, electrons are excited to higher energy levels. They then
-Return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
+return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
 Lamps and biological staining.
 
 ### Electron Microscopy
@@ -7916,7 +7916,7 @@ and some bounced back. This led to the conclusion that:
 
 Before Rutherford, Thomson proposed that the atom was a sphere of positive charge with electrons
 Embedded in it (like plums in a pudding). The gold foil experiment disproved this model because the
-Large-angle deflections could not be explained by a diffuse positive charge.
+large-angle deflections could not be explained by a diffuse positive charge.
 
 ### Limitations of the Bohr Model
 
@@ -8217,7 +8217,7 @@ A special, strong dipole-dipole force between:
 $\mathrm{H_2\mathrm{S$ boils At $-60^\circ\mathrm{C$ despite having a similar molecular mass.
 
 Water forms hydrogen bonds (O is highly electronegative), which require significant energy to
-Overcome. $\mathrm{H_2\mathrm{S$ cannot form hydrogen bonds (S is not electronegative enough), so
+overcome. $\mathrm{H_2\mathrm{S$ cannot form hydrogen bonds (S is not electronegative enough), so
 only Weak van der Waals forces act between molecules.
 
 **Worked Example 6 (HL):** Explain why the boiling point of $\mathrm{HF$ ($20°C$) is much higher
@@ -8250,7 +8250,7 @@ that can conduct electricity. The **conduction band** overlaps with the valence 
 Allowing free movement of electrons.
 
 In insulators, there is a large energy gap between the valence and conduction bands. In
-Semiconductors, the gap is small enough that thermal energy can promote some electrons.
+semiconductors, the gap is small enough that thermal energy can promote some electrons.
 
 ### Comparison: Conductors, Semiconductors, Insulators
 
@@ -8361,7 +8361,7 @@ See the examples integrated throughout the sections above.
 ### Polarising Power
 
 Small, highly charged cations have high polarising power. Large, highly charged anions are
-Polarised. When a cation distorts the electron cloud of an anion, the bond acquires covalent
+polarised. When a cation distorts the electron cloud of an anion, the bond acquires covalent
 Character.
 
 ### Fajans' Rules
@@ -8394,7 +8394,7 @@ Character.
 ### Concept
 
 Some molecules cannot be represented by a single Lewis structure. Resonance describes the
-Delocalisation of electrons over two or more equivalent structures.
+delocalisation of electrons over two or more equivalent structures.
 
 **Example:** The carbonate ion, $\mathrm{CO_3^{2-}$:
 
@@ -8462,7 +8462,7 @@ For $\mathrm{O_2$: $\mathrm{BO = (8 - 4)/2 = 2$.
 ### MO Diagram for $\mathrm{N_2$
 
 For $\mathrm{N_2$ (and lighter diatomic molecules), the $\sigma_{2p}$ and $\pi_{2p}$ ordering is
-Reversed: $\pi_{2p} < \sigma_{2p}$.
+reversed: $\pi_{2p} < \sigma_{2p}$.
 
 $\mathrm{N_2$ has 10 valence electrons: $\mathrm{BO = (8 - 2)/2 = 3$ (triple bond), consistent with
 the Lewis structure $\mathrm{N\equiv\mathrm{N$.
@@ -8700,7 +8700,7 @@ Pairs + lone pairs):
 
 The delocalised electrons in the "sea" are free to move when a potential difference is applied.
 These mobile charge carriers explain why metals are good conductors. Conductivity decreases with
-Temperature because increased atomic vibrations impede electron flow.
+temperature because increased atomic vibrations impede electron flow.
 
 ### Why Metals Are Malleable
 
@@ -8741,7 +8741,7 @@ Consider the hydrides of Group 14-17:
 </div>
 
 Water has the highest boiling point because each molecule can form up to four hydrogen bonds (two as
-Donor, two as acceptor), creating an extensive three-dimensional network.
+donor, two as acceptor), creating an extensive three-dimensional network.
 
 ### Solubility: "Like Dissolves Like"
 
@@ -8814,7 +8814,7 @@ $$
 $$
 
 The best Lewis structure minimises formal charges and places negative formal charge on the most
-Electronegative atoms.
+electronegative atoms.
 
 **Worked Example 8 (HL):** Draw the Lewis structure of $\mathrm{SO_4^{2-}$ and calculate the formal
 Charge on each atom.
@@ -9225,7 +9225,7 @@ nuclear charge because the inner shells provide substantial shielding. Therefore
 larger atomic radius than argon.
 
 (b) The bond length increases from HF to HI because the halogen atom increases in size down
-Group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
+group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
 length is determined largely by the size of the halogen atom (hydrogen is very small and contributes
 little to the bond length). Fluorine is the smallest halogen, so HF has the shortest bond; iodine is
 the largest, so HI has the longest bond.
@@ -10059,7 +10059,7 @@ $$
 **Mechanism (SN2):**
 
 The nucleophile ($\mathrm{Br^-$) attacks the electrophilic carbon from the opposite side of the
-Leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
+leaving group ($\mathrm{OH_2^+$), resulting in inversion of configuration.
 
 ## Aldehydes and Ketones (OL/HL)
 
@@ -10246,13 +10246,13 @@ $$
 $$
 
 Product: 2-bromopropane (major product). The minor product, 1-bromopropane, forms from the less
-Stable primary carbocation.
+stable primary carbocation.
 
 ### Why Markovnikov's Rule Works
 
 The stability of carbocations follows the order: tertiary > secondary > primary > methyl. This is
 because alkyl groups are electron-donating (+I effect), stabilising the positive charge by
-Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
+distributing it. In Markovnikov addition, the hydrogen adds to the carbon with more hydrogens,
 Placing the positive charge on the more substituted (more stable) carbon.
 
 ---
@@ -10301,7 +10301,7 @@ $$
 
 **Distinguishing test:** The products can be distinguished using Tollens' reagent. Propanal gives a
 Silver mirror; propanone does not. Alternatively, Fehling's solution can be used (propanal gives a
-Brick-red precipitate).
+brick-red precipitate).
 
 ### Esterification: Mechanism and Conditions
 
@@ -10362,7 +10362,7 @@ Centre.
 
 2,4-dinitrophenylhydrazine (2,4-DNP) reacts with both aldehydes and ketones to form orange
 Precipitates (2,4-dNP derivatives). The melting point of the derivative can be used to identify the
-Specific carbonyl compound.
+specific carbonyl compound.
 
 ---
 
@@ -10419,7 +10419,7 @@ Ethanoate from ethanoic acid).
 ### Physical Properties
 
 Esters are volatile liquids with characteristic fruity odours. They have lower boiling points than
-Carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
+carboxylic acids of similar molecular mass because they cannot form hydrogen bonds with each other.
 
 ### Hydrolysis
 
@@ -10460,7 +10460,7 @@ Acid).
 
 Butan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_2\mathrm{CH_3$): Carbon-2 has four different groups
 ($\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$$\mathrm{CH_2\mathrm{CH_3$), making it a chiral centre. Two
-Enantiomers exist.
+enantiomers exist.
 
 Butan-1-ol ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$): No carbon has four
 different Groups. Carbon-1 has
@@ -10477,7 +10477,7 @@ Yes. Each carbon of the double bond has two different groups:
 - Right carbon: $\mathrm{CH_3$ and $\mathrm{H$
 
 (Z)-but-2-ene: both $\mathrm{CH_3$ groups on the same side. (E)-but-2-ene: $\mathrm{CH_3$ groups on
-Opposite sides.
+opposite sides.
 
 But-1-ene does NOT exhibit E/Z isomerism because one carbon of the double bond has two identical
 Groups ($\mathrm{H$ and $\mathrm{H$).
@@ -10618,7 +10618,7 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 ### Addition Polymers
 
 Formed by joining monomers without eliminating any molecule. The repeating unit is the same as the
-Monomer (with the double bond opened).
+monomer (with the double bond opened).
 
 **Polythene (polyethylene):**
 
@@ -11299,14 +11299,14 @@ M(\mathrm{CaCO_3) = 0.0205 \times 100 = 2.05\mathrm{ g
 $$
 
 Since the sample was only 2.00 g, there is an error in our assumptions. Let us recalculate -- the
-Answer should be:
+answer should be:
 
 $$
 \%\mathrm{ CaCO_3 = \frac{2.05}{2.00} \times 100 = 102.5\%
 $$
 
 This indicates experimental error or impurity. In practice, the value should be close to but not
-Exceeding 100%.
+exceeding 100%.
 
 ## Water of Crystallisation (HL)
 
@@ -11975,7 +11975,7 @@ URL: https://leaving-cert.wyattau.com/computer-science/5-algorithms/5_algorithms
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Identifying patterns, abstracting details, and designing algorithms. This topic covers
 Decomposition, pattern recognition, abstraction, algorithm design, finite state machines, and
-Regular expressions.
+regular expressions.
 
 ## Four Pillars of Computational Thinking
 
@@ -12239,7 +12239,7 @@ print(re.match(pattern, "01-2345678"))   # No match
 ### Stepwise Refinement
 
 Break down the problem into sub-problems, then refine each sub-problem further until each step is
-Simple enough to implement.
+simple enough to implement.
 
 **Example (HL):** Calculate the average of a list of numbers, excluding the highest and lowest.
 
@@ -12464,7 +12464,7 @@ print(merge_sort(numbers))
 
 Split: [5, 2, 8] and [1, 9, 3]. Split [5, 2, 8]: [5] and [2, 8]. Split [2, 8]: [2] and [8]. Merge:
 [2, 8]. Merge [5] and [2, 8]: [2, 5, 8]. Split [1, 9, 3]: [1] and [9, 3]. Split [9, 3]: [9] and [3].
-Merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
+merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
 
 ## Greedy Algorithms in Detail (HL)
 
@@ -12946,14 +12946,14 @@ ZIP).
 MPEG).
 
 Run-Length Encoding (RLE) is a simple lossless method: replace repeated values with the value and
-Count.
+count.
 
 **Example (OL):** AAABBCCCC becomes 3A2B4C.
 
 **Worked Example (OL).** Compress WWWWWWBBBBWWWWW using RLE.
 
 W6 B4 W5 = 6 runs. Original: 15 bytes. Compressed: 12 bytes (assuming 1 byte per count, 1 byte per
-Value).
+value).
 
 **When RLE is ineffective.** For data with no repeats, e.g., ABCDEFGH, RLE produces A1B1C1D1E1F1G1H1
 = 16 bytes, which is larger than the original 8 bytes.
@@ -13021,7 +13021,7 @@ Data integrity, easier maintenance.
 **Worked Example (OL).** In a Student table, which field would be the best primary key?
 
 StudentID is the best choice because it is unique and never changes. Name is not unique (two
-Students can share a name). Date of Birth is not unique.
+students can share a name). Date of Birth is not unique.
 
 ### Entity-Relationship Diagrams (HL)
 
@@ -13558,8 +13558,8 @@ DELETE FROM Results WHERE StudentID = 42;
 Pseudonymisation might be preferred over anonymisation.
 
 Pseudonymisation allows the hospital to re-link data to patients if needed (e.g., for follow-up
-Studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
-Small re-identification risk.
+studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
+small re-identification risk.
 
 ## Additional Practice Questions
 
@@ -13784,7 +13784,7 @@ the program runs more slowly because translation happens during execution.
 as a shorthand notation for binary?
 
 (c) A computer stores text using 8-bit ASCII. The ASCII code for 'A' is $65$ and for 'a' is $97$.
-Convert the word "Cat" to its binary representation using ASCII codes.
+convert the word "Cat" to its binary representation using ASCII codes.
 
 (d) Explain the difference between lossy and lossless compression. Give one example of a file format
 that uses each type.
@@ -14257,7 +14257,7 @@ Solution is to close programs or add more RAM.
 **Worked Example (HL).** A computer has 4 GB RAM. Programs require 7 GB total. Explain what happens.
 
 The OS uses 3 GB of virtual memory on the SSD. When a program accesses data in virtual memory, a
-Page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
+page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
 if too many programs are running.
 
 **Worked Example (HL).** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
@@ -14326,7 +14326,7 @@ The average access time is dramatically reduced compared to using only RAM.
 ### I/O Controllers
 
 I/O devices are connected to the CPU through I/O controllers, which manage data transfer between the
-Device and the CPU/memory.
+device and the CPU/memory.
 
 ### Interrupts (HL)
 
@@ -14761,7 +14761,7 @@ thermostats.
 
 **Worked Example (HL).** A traffic light controller is an embedded system. It runs a fixed program
 Stored in ROM that cycles through red, amber, and green at set intervals. It has no screen or
-Keyboard -- its only output is the lights themselves. It must respond within strict time limits
+keyboard -- its only output is the lights themselves. It must respond within strict time limits
 (real-time) for safety.
 
 ### The Systems Life Cycle (OL/HL)
@@ -14928,7 +14928,7 @@ See the examples integrated throughout the sections above.
 
 1. Explain how cache memory improves CPU performance.
 2. A program has $2 \times 10^9$ instructions. The CPU runs at 2.5 GHz with an average CPI of 3.
-   Calculate the execution time.
+   calculate the execution time.
 3. Represent $-20$ in 8-bit two's complement and add it to $15$ in two's complement.
 4. Design a logic circuit for a half adder and provide the truth table.
 
@@ -15598,7 +15598,7 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 **Worked Example (HL).** A school has 30 computers in a lab. Recommend a topology.
 
 Star topology is recommended. Each computer connects to a central switch via its own cable. If one
-Cable fails, only that computer is affected. The switch directs traffic efficiently.
+cable fails, only that computer is affected. The switch directs traffic efficiently.
 
 ## Network Models (HL)
 
@@ -16456,7 +16456,7 @@ URL: https://leaving-cert.wyattau.com/computer-science/2-programming/2_programmi
 ## Algorithms and Programming
 
 This topic covers algorithm design, programming constructs, searching and sorting algorithms, and
-Computational problem solving.
+computational problem solving.
 
 ## What is an Algorithm? (OL/HL)
 
@@ -16948,7 +16948,7 @@ print(gcd(48, 18))  # 6
 
 **Proof of termination.** At each recursive call, `b` becomes `a % b`. Which is strictly less than
 `b`. Since `b` is a non-negative integer that decreases, it must eventually reach 0, triggering the
-Base case. $lacksquare$
+base case. $lacksquare$
 
 **Towers of Hanoi:**
 
@@ -17273,7 +17273,7 @@ URL: https://leaving-cert.wyattau.com/maths/1-algebra/1_algebra/
 ## Algebra
 
 Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both
-Paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex
+paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex
 Numbers, matrices, and sequences.
 
 ## Algebraic Expressions
@@ -17914,7 +17914,7 @@ Sign chart:
 Solution: $x < -2$ or $x > 1$ I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 
 Note that $x = -1$ is not a solution (the product equals zero, not positive). And $x = 1$ is not a
-Solution despite being a root, because the factor is squared.
+solution despite being a root, because the factor is squared.
 
 ## Intuition
 
@@ -19113,7 +19113,7 @@ $\pounds 20000$. In which year will the profits first exceed $\pounds 100000$?
 $640\,\text{mg}$, calculate the amount remaining after 40 days.
 
 (c) A geometric sequence has first term 3 and common ratio $r$. The sum of the first 4 terms is 255.
-Find the value of $r$.
+find the value of $r$.
 
 (d) The equation $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$. Express the following in terms
 of $p$ and $q$: (i) $\alpha^2 + \beta^2$, (ii) $\frac{1}{\alpha} + \frac{1}{\beta}$.
@@ -19855,7 +19855,7 @@ $\cos\theta = \frac{-3}{\sqrt{14}\sqrt{6}} = \frac{-3}{2\sqrt{21}}$.
 ### Scalar Triple Product (HL)
 
 The scalar triple product $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ gives the volume of the
-Parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
+parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
 
 $$
 \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}
@@ -19919,7 +19919,7 @@ $$
 ### Theorem: Angle at the Centre
 
 The angle at the centre of a circle is twice the angle at the circumference subtended by the same
-Arc.
+arc.
 
 **Proof.** Let $O$ be the centre and $A, B$ points on the circumference. Join $OA$ and $OB$. If $C$
 Is on the circumference on the same side of $AB$ as $O$ Then $\triangle OAC$ is isosceles with
@@ -20231,7 +20231,7 @@ URL: https://leaving-cert.wyattau.com/maths/5-number-sequences/5_number-sequence
 ## Number Sets and Sequences
 
 This topic covers number systems, set theory, sequences, series, and financial mathematics. These
-Concepts underpin much of the algebra and calculus in the Leaving Certificate course.
+concepts underpin much of the algebra and calculus in the Leaving Certificate course.
 
 ## Number Systems
 
@@ -20373,7 +20373,7 @@ Neither: $30 - 25 = 5$.
 
 **Example (HL):** In a survey of 100 people, 60 like tea, 45 like coffee, 35 like juice, 20 like
 Both tea and coffee, 15 like both tea and juice, 10 like both coffee and juice, and 5 like all
-Three. How many like none of the three?
+three. How many like none of the three?
 
 By inclusion-exclusion for three sets:
 
@@ -20471,7 +20471,7 @@ Subtracting: $7d = 21$ So $d = 3$. Then $a = 17 - 12 = 5$.
 ### Arithmetic Mean (HL)
 
 The arithmetic mean of two numbers $a$ and $b$ is $\frac{a+b}{2}$. In an arithmetic sequence, each
-Term is the arithmetic mean of its neighbours:
+term is the arithmetic mean of its neighbours:
 
 $$
 T_n = \frac{T_{n-1} + T_{n+1}}{2}
@@ -20511,7 +20511,7 @@ $$
 ### Geometric Mean (HL)
 
 The geometric mean of two positive numbers $a$ and $b$ is $\sqrt{ab}$. In a geometric sequence, each
-Term is the geometric mean of its neighbours (when all terms are positive):
+term is the geometric mean of its neighbours (when all terms are positive):
 
 $$
 T_n = \sqrt{T_{n-1} \cdot T_{n+1}}
@@ -20806,7 +20806,7 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
 Since $L = \frac{b}{1-a}$ We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
-Geometric sequence with ratio $a$.
+geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
 
@@ -20825,12 +20825,12 @@ T_n = 1 + (1 - 1) \cdot 4^{n-1} = 1
 $$
 
 Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$ Etc. The sequence is constant at 1, which is the
-Fixed point.
+fixed point.
 
 ### Second Order Recurrence Relations (HL - awareness)
 
 A second-order linear recurrence $T_{n+2} = aT_{n+1} + bT_n$ with constant coefficients is solved by
-Finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
+finding the roots of the characteristic equation $\lambda^2 - a\lambda - b = 0$.
 
 **Example:** The Fibonacci sequence $F_1 = 1$$F_2 = 1$$F_{n+2} = F_{n+1} + F_n$.
 
@@ -20957,7 +20957,7 @@ This confirms that the $n$ Th term can always be recovered from the sum.
 #### Geometric Series Derivation (Alternative)
 
 An alternative derivation of $S_n = \frac{a(1-r^n)}{1-r}$ uses the formula for the sum of a
-Geometric progression by recognising:
+geometric progression by recognising:
 
 $$
 (1-r)S_n = (1-r)(a + ar + ar^2 + \cdots + ar^{n-1})
@@ -21085,7 +21085,7 @@ URL: https://leaving-cert.wyattau.com/maths/4-probability-statistics/4_probabili
 
 Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination.
 This topic covers counting principles, probability rules, distributions, hypothesis testing, and
-Statistical measures.
+statistical measures.
 
 ## Counting Principles
 
@@ -21213,7 +21213,7 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 Two events are **independent** if and only if $P(A \cap B) = P(A)P(B)$. This is not the same as
-Mutually exclusive (which means $P(A \cap B) = 0$).
+mutually exclusive (which means $P(A \cap B) = 0$).
 
 **Conditional probability:**
 
@@ -21264,7 +21264,7 @@ Only about 32.4% of positive tests are true positives. This is the "base rate fa
 **Example (HL) -- Extended Bayes':** A factory has three machines producing bolts. Machine A
 Produces 50% of bolts with 2% defect rate, Machine B produces 30% with 3% defect rate, Machine C
 Produces 20% with 1% defect rate. A randomly selected bolt is defective. What is the probability it
-Came from Machine B?
+came from Machine B?
 
 $$
 P(B|\mathrm{def) = \frac{P(\mathrm{def|B)P(B)}{P(\mathrm{def|A)P(A) + P(\mathrm{def|B)P(B) + P(\mathrm{def|C)P(C)}
@@ -21460,7 +21460,7 @@ $P(X \le k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 
 **Why continuity correction is needed.** The binomial is discrete (defined on integers) while the
 Normal is continuous. Without the correction, we would compute $P(X \le 5) = P(X \lt 6)$ But the
-Normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
+normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
 
 ### Bernoulli Trials (HL)
 
@@ -21594,7 +21594,7 @@ T = \frac{23.4 - 25}{2.1/\sqrt{8}} = \frac{-1.6}{0.7423} \approx -2.156
 $$
 
 Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (two-tailed, 7 df) is
-Approximately $\pm 2.365$.
+approximately $\pm 2.365$.
 
 Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
 the population mean differs from 25.
@@ -21649,7 +21649,7 @@ Correlation (but there may be a non-linear relationship).
 ### Coefficient of Determination (HL)
 
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
-Linear relationship with $x$.
+linear relationship with $x$.
 
 If $r = 0.8$ Then $r^2 = 0.64$ Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.
@@ -23132,7 +23132,7 @@ URL: https://leaving-cert.wyattau.com/physics/4-heat/4_heat/
 ## Heat and Thermodynamics
 
 This topic covers temperature, heat transfer, specific heat capacity, latent heat, gas laws, and the
-Laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic
+laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic
 Theory) to the macroscopic properties we can measure (pressure, volume, temperature), bridging
 Classical mechanics and statistical physics.
 
@@ -23168,13 +23168,13 @@ $$
 ### Why Kelvin Is the Natural Scale for Physics
 
 The Kelvin scale is an absolute thermodynamic temperature scale. Zero kelvin (absolute zero) is the
-Lowest possible temperature, at which all classical thermal motion ceases. This is not just a
-Convention -- it follows from the ideal gas law extrapolation and the third law of thermodynamics.
+lowest possible temperature, at which all classical thermal motion ceases. This is not just a
+convention -- it follows from the ideal gas law extrapolation and the third law of thermodynamics.
 
 All physical laws involving temperature (gas laws, kinetic theory, thermodynamic relations) require
 Temperature in kelvin. Using Celsius in the ideal gas law, for example, would give nonsensical
 Results because the zero point of the Celsius scale is arbitrary (the freezing point of water), not
-Fundamental.
+fundamental.
 
 ### Heat vs Temperature (OL/HL)
 
@@ -23191,14 +23191,14 @@ has more energy to give.
 ### Thermal Equilibrium
 
 When two objects at different temperatures are placed in contact, heat flows from the hotter to the
-Colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
+colder until they reach the same temperature. At this point they are in **thermal equilibrium**, and
 no net heat transfer occurs. The zeroth law of thermodynamics formalises this: if A is in thermal
 Equilibrium with B, and B with C, then A is in thermal equilibrium with C.
 
 ## Specific Heat Capacity (OL/HL)
 
 The specific heat capacity $c$ is the energy required to raise the temperature of 1 kg of a
-Substance by 1 K (or $1^\circ\mathrm{C$ -- the size of the degree is the same on both scales):
+substance by 1 K (or $1^\circ\mathrm{C$ -- the size of the degree is the same on both scales):
 
 $$
 Q = mc\Delta T
@@ -23223,18 +23223,18 @@ because a change of 1 K equals a change of 1 $^\circ\mathrm{C$.
 </div>
 
 Water has an unusually high specific heat capacity, which is why it is effective as a coolant and
-Why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
+why coastal climates are more moderate than inland climates (oceans absorb and release large amounts
 of energy with relatively small temperature changes).
 
 ### Why Different Substances Have Different Specific Heat Capacities
 
 Specific heat capacity depends on the number of degrees of freedom available to the particles. In a
-Monatomic ideal gas, energy is stored only as translational kinetic energy (3 degrees of freedom).
+monatomic ideal gas, energy is stored only as translational kinetic energy (3 degrees of freedom).
 In water, energy can be stored in translational, rotational, and vibrational modes, as well as in
-Hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
+hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
 
 For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$ Where $M$ is the
-Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
+molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
 
 ### Water's High Specific Heat Capacity
 
@@ -23295,7 +23295,7 @@ much lower specific heat Capacity of copper.
 
 The method of mixtures is a standard experimental technique for determining specific heat capacity.
 A known mass of a substance at a known temperature is mixed with a known mass of water at a
-Different temperature. By measuring the final equilibrium temperature, the unknown specific heat
+different temperature. By measuring the final equilibrium temperature, the unknown specific heat
 Capacity can be calculated.
 
 **Example (HL):** A $0.2\mathrm{ kg$ metal block is heated to $150^\circ\mathrm{C$ and placed in
@@ -23325,15 +23325,15 @@ any change in temperature. This energy is called **latent heat** (from the Latin
 ### Why Temperature Does Not Change During Phase Transitions
 
 During melting or boiling, the energy supplied does not increase the average kinetic energy of the
-Particles (which would raise the temperature). Instead, it increases the potential energy by
-Overcoming the intermolecular forces that hold the particles in their current arrangement. In
-Melting, bonds between molecules in the solid lattice are broken; in vaporisation, molecules are
-Completely separated from each other.
+particles (which would raise the temperature). Instead, it increases the potential energy by
+overcoming the intermolecular forces that hold the particles in their current arrangement. In
+melting, bonds between molecules in the solid lattice are broken; in vaporisation, molecules are
+completely separated from each other.
 
 ### Specific Latent Heat of Fusion
 
 The specific latent heat of fusion $L_f$ is the energy required to change 1 kg of a substance from
-Solid to liquid at its melting point:
+solid to liquid at its melting point:
 
 $$
 Q = mL_f
@@ -23362,7 +23362,7 @@ $$
 
 Note that $L_v$ is generally much larger than $L_f$ because completely separating molecules
 (boiling) requires overcoming all intermolecular forces, whereas melting only needs to disrupt the
-Ordered lattice while keeping molecules close together.
+ordered lattice while keeping molecules close together.
 
 **Example (OL):** How much energy is needed to convert 0.2 kg of ice at $0^\circ\mathrm{C$ to water
 at $0^\circ\mathrm{C$?
@@ -23374,7 +23374,7 @@ $$
 ### Multi-Stage Heating Problems (HL)
 
 When heating a substance through multiple phases, the total energy is the sum of the energy for each
-Stage:
+stage:
 
 1. Heating the solid to its melting point: $Q_1 = mc_{\mathrm{solid}\Delta T_1$
 2. Melting at the melting point: $Q_2 = mL_f$
@@ -23401,7 +23401,7 @@ Q_{\mathrm{total} = 2100 + 33400 + 41800 + 226000 = 303300\mathrm{ J \approx 303
 $$
 
 Notice that the latent heat of vaporisation ($226\mathrm{ kJ$) dominates the total energy. This is
-Why steam burns are so much more dangerous than water burns at the same temperature: steam at
+why steam burns are so much more dangerous than water burns at the same temperature: steam at
 $100^\circ\mathrm{C$ contains an additional $2260\mathrm{ kJ/kg$ of energy compared to water at
 $100^\circ\mathrm{C$ And this Energy is released when the steam condenses on the skin.
 
@@ -23413,7 +23413,7 @@ can be derived from kinetic theory.
 ### Boyle's Law (OL/HL)
 
 At constant temperature, the pressure of a fixed mass of gas is inversely proportional to its
-Volume:
+volume:
 
 $$
 PV = \mathrm{constant \implies p_1 V_1 = p_2 V_2
@@ -23421,7 +23421,7 @@ $$
 
 **Microscopic explanation:** At constant temperature, the average speed of the molecules is
 Constant. Compressing the gas into a smaller volume increases the number of molecular collisions per
-Unit area per unit time on the walls, increasing the pressure.
+unit area per unit time on the walls, increasing the pressure.
 
 A $pV$ graph at constant temperature is a hyperbola. Plotting $p$ versus $1/V$ yields a straight
 Line through the origin.
@@ -23437,7 +23437,7 @@ $$
 
 **Microscopic explanation:** At constant pressure, increasing the temperature increases the average
 Speed of the molecules. To maintain the same pressure (same force per unit area on the walls), the
-Gas must expand so that fewer molecules hit each unit area per unit time.
+gas must expand so that fewer molecules hit each unit area per unit time.
 
 Extrapolating Charles's law to $V = 0$ gives $T = 0\mathrm{ K$ (absolute zero). This is how absolute
 Zero was first estimated experimentally.
@@ -23453,7 +23453,7 @@ $$
 
 **Microscopic explanation:** At constant volume, increasing the temperature increases the average
 Speed of the molecules. Faster molecules hit the walls harder and more frequently, increasing the
-Pressure.
+pressure.
 
 ### Combined Gas Law (HL)
 
@@ -23475,7 +23475,7 @@ $$
 ## Ideal Gas Law (HL)
 
 The ideal gas law combines the gas laws with Avogadro's law (equal volumes of gases at the same
-Temperature and pressure contain equal numbers of molecules):
+temperature and pressure contain equal numbers of molecules):
 
 $$
 PV = nRT
@@ -23493,7 +23493,7 @@ An ideal gas is a theoretical gas in which:
 
 Real gases approximate ideal behaviour at low pressures and high temperatures, when the molecules
 are far apart and moving fast. At high pressures and low temperatures, deviations occur due to
-Intermolecular forces and the finite size of molecules.
+intermolecular forces and the finite size of molecules.
 
 ### Alternative Forms
 
@@ -23513,7 +23513,7 @@ PV_m = RT
 $$
 
 At STP (standard temperature and pressure: $273.15\mathrm{ K$, $1.013 \times 10^5\mathrm{ Pa$), one
-Mole of ideal gas occupies $22.4\mathrm{ L$.
+mole of ideal gas occupies $22.4\mathrm{ L$.
 
 **Example (HL):** Find the volume occupied by 2 mol of gas at $300\mathrm{ K$ and
 $1.01 \times 10^5\mathrm{ Pa$.
@@ -23650,14 +23650,14 @@ Atmospheric escape).
 ### Internal Energy of an Ideal Gas
 
 For a monatomic ideal gas (e.g., helium, neon, argon), the internal energy consists solely of
-Translational kinetic energy:
+translational kinetic energy:
 
 $$
 U = \frac{3}{2}Nk_BT = \frac{3}{2}nRT
 $$
 
 For a diatomic ideal gas (e.g., $\mathrm{N_2$, $\mathrm{O_2$), rotational kinetic energy adds two more
-Degrees of freedom:
+degrees of freedom:
 
 $$
 U = \frac{5}{2}nRT
@@ -23706,7 +23706,7 @@ W = 0 \implies \Delta U = Q
 $$
 
 All heat added goes into increasing the internal energy. No work is done because the gas does not
-Expand.
+expand.
 
 **Isobaric process** ($\Delta p = 0$): The pressure remains constant.
 
@@ -23723,14 +23723,14 @@ $$
 $$
 
 Work done by the system comes entirely from its internal energy, so the temperature decreases during
-Expansion and increases during compression. For an ideal gas:
+expansion and increases during compression. For an ideal gas:
 
 $$
 PV^\gamma = \mathrm{constant
 $$
 
 Where $\gamma = C_p/C_v$ is the ratio of specific heat capacities ($5/3$ for monatomic, $7/5$ for
-Diatomic gases).
+diatomic gases).
 
 ### Work Done by a Gas
 
@@ -23741,7 +23741,7 @@ W = \int_{V_1}^{V_2} p \, dV
 $$
 
 For an isobaric process, this simplifies to $W = p(V_2 - V_1)$. For an isothermal process of an
-Ideal gas, $W = nRT\ln(V_2/V_1)$.
+ideal gas, $W = nRT\ln(V_2/V_1)$.
 
 ### Cyclic Processes and the First Law
 
@@ -23770,7 +23770,7 @@ Engines) are impossible, even though they do not violate the first law.
 ### Carnot Cycle and Efficiency
 
 The Carnot cycle is the most efficient possible heat engine operating between two temperatures. It
-Consists of four reversible processes:
+consists of four reversible processes:
 
 1. Isothermal expansion at $T_H$ (absorbing heat $Q_H$ from the hot reservoir).
 2. Adiabatic expansion (temperature drops from $T_H$ to $T_C$).
@@ -23784,7 +23784,7 @@ $$
 $$
 
 Where $T_H$ is the hot reservoir temperature and $T_C$ is the cold reservoir temperature (both in
-Kelvin).
+kelvin).
 
 No real engine can exceed this efficiency. The Carnot efficiency depends only on the temperatures of
 the two reservoirs, not on the working substance.
@@ -23874,7 +23874,7 @@ $$
 $$
 
 Where $k$ is the thermal conductivity (W/(m K)), $A$ is the cross-sectional area, and $dT/dx$ is the
-Temperature gradient. The negative sign indicates heat flows from hot to cold.
+temperature gradient. The negative sign indicates heat flows from hot to cold.
 
 For a uniform slab of thickness $d$ with temperatures $T_1$ (hot face) and $T_2$ (cold face):
 
@@ -23953,7 +23953,7 @@ $$
 ### Wien's Displacement Law (HL)
 
 The wavelength at which a black body emits maximum radiation is inversely proportional to its
-Absolute temperature:
+absolute temperature:
 
 $$
 \lambda_{\max} T = 2.898 \times 10^{-3}\mathrm{ m K
@@ -23978,7 +23978,7 @@ P_{\mathrm{net} = \varepsilon \sigma A (T^4 - T_0^4)
 $$
 
 This explains why bodies cool down (lose more radiation than they absorb) when hotter than their
-Surroundings, and heat up when colder.
+surroundings, and heat up when colder.
 
 ## Worked Examples
 
@@ -25552,7 +25552,7 @@ Nature of energy, matter, and determinism.
 
 The two pillars of modern physics are quantum mechanics and relativity. This chapter focuses
 Primarily on the quantum side: the experimental evidence that classical wave theory could not
-Explain, and the theoretical framework that replaced it.
+explain, and the theoretical framework that replaced it.
 
 ## The Photoelectric Effect (HL)
 
@@ -25560,11 +25560,11 @@ Explain, and the theoretical framework that replaced it.
 
 When light of sufficiently high frequency is incident on a metal surface, electrons are emitted.
 This is the photoelectric effect, first observed by Heinrich Hertz in 1887 and later studied in
-Detail by Philipp Lenard.
+detail by Philipp Lenard.
 
 The emitted electrons are called **photoelectrons**. The setup consists of an evacuated Tube
 containing a metal plate (the cathode) and a collector plate (the anode). Light shines on the
-Cathode, and any emitted electrons travel to the anode, producing a measurable current.
+cathode, and any emitted electrons travel to the anode, producing a measurable current.
 
 ### Key Observations
 
@@ -25603,7 +25603,7 @@ $$
 Where $h = 6.63 \times 10^{-34}\mathrm{ J s$ (Planck's constant) and $f$ is the frequency.
 
 When a photon strikes the metal surface, it transfers all its energy to a single electron. The
-Electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
+electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
 the rest as kinetic energy.
 
 Einstein's photoelectric equation:
@@ -25646,8 +25646,8 @@ Property (momentum) in a single equation.
 ### Stopping Voltage
 
 The stopping voltage $V_s$ is the voltage needed to stop the most energetic photoelectrons. By
-Applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
-Zero:
+applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
+zero:
 
 $$
 EV_s = E_{k(\max)} = hf - \phi
@@ -25714,7 +25714,7 @@ I = N_{\mathrm{photon} \times hf
 $$
 
 Where $N_{\mathrm{photon}$ is the number of photons per unit area per unit time. Doubling the
-Intensity doubles the number of photons, which doubles the photocurrent, but each photon still
+intensity doubles the number of photons, which doubles the photocurrent, but each photon still
 Carries the same energy $hf$.
 
 ## Atomic Models
@@ -25723,7 +25723,7 @@ Carries the same energy $hf$.
 
 J.J. Thomson, who discovered the electron in 1897, proposed that atoms consist of a positively
 Charged sphere with negatively charged electrons embedded in it, like plums in a pudding. The
-Positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
+positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
 Neutral overall.
 
 This model was consistent with the known fact that atoms are electrically neutral and contain
@@ -25735,7 +25735,7 @@ Arrangements.
 In 1911, Ernest Rutherford, Hans Geiger, and Ernest Marsden fired alpha particles (helium nuclei,
 $+2e$ charge) at a thin gold foil. The experimental setup used a radioactive source of alpha
 Particles, a thin gold foil target, and a zinc sulphide screen that produced a flash of light when
-Struck by an alpha particle.
+struck by an alpha particle.
 
 **Observations:**
 
@@ -25985,12 +25985,12 @@ $$
 
 This is about 20 orders of magnitude smaller than an atomic nucleus. No experiment can detect wave
 Effects at this scale. But for electrons, the wavelength is comparable to atomic spacing, which is
-Precisely why electron diffraction is observable.
+precisely why electron diffraction is observable.
 
 ### Davisson-Germer Experiment (1927)
 
 Clinton Davisson and Lester Germer directed a beam of electrons at a nickel crystal and observed a
-Diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
+diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
 Broglie's equation, providing direct experimental confirmation of wave-particle duality for matter.
 
 This was analogous to X-ray diffraction from crystals: if electrons behave as waves with wavelength
@@ -26018,7 +26018,7 @@ Mvr = \frac{nh}{2\pi}
 $$
 
 This is exactly Bohr's quantisation condition. The Bohr orbits are the standing wave modes of the
-Electron. This is a deep insight: quantisation arises from wave behaviour.
+electron. This is a deep insight: quantisation arises from wave behaviour.
 
 **Example (HL):** Find the de Broglie wavelength of an electron accelerated through a potential
 Difference of 100 V.
@@ -26104,7 +26104,7 @@ Coulomb repulsion grows relative to the strong force, making them less stable.
 ### Nuclear Binding Energy (HL)
 
 The **mass defect** $\Delta m$ is the difference between the mass of the nucleus and the sum of the
-Masses of its individual nucleons:
+masses of its individual nucleons:
 
 $$
 \Delta m = Zm_p + (A - Z)m_n - m_{\mathrm{nucleus}
@@ -26129,9 +26129,9 @@ E_b = \Delta m \cdot c^2
 $$
 
 The binding energy per nucleon, $E_b/A$ Indicates nuclear stability. A plot of $E_b/A$ versus $A$
-Shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
+shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
 Nuclei with lower $A$ can gain stability by fusing (moving right on the curve), while nuclei with
-Higher $A$ can gain stability by fissioning (moving left).
+higher $A$ can gain stability by fissioning (moving left).
 
 **Example (HL):** The atomic mass of helium-4 is $4.0026\mathrm{ u$. Find the binding energy per
 Nucleon. ($m(\mathrm{^1H}) = 1.0078\mathrm{ u$$m_n = 1.0087\mathrm{ u$
@@ -26182,7 +26182,7 @@ Lower energy state. The nucleus remains the same isotope; only its energy change
 In beta-minus decay, the emitted electron has a continuous spectrum of kinetic energies, from zero
 up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
 Conservation would require the electron to have a fixed energy. The continuous spectrum implies a
-Third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
+third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
 the neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
 
 ### Nuclear Equations and Conservation Laws
@@ -26195,14 +26195,14 @@ All nuclear reactions conserve:
 4. **Momentum**
 
 When writing nuclear equations, always check that the total $Z$ and total $A$ are the same on both
-Sides.
+sides.
 
 ### Half-Life (OL/HL)
 
 The half-life $t_{1/2}$ is the time for half of the radioactive nuclei in a sample to decay. It is a
-Statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
+statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
 Each nucleus has a fixed probability of decaying per unit time, and the half-life emerges from the
-Statistics of large numbers.
+statistics of large numbers.
 
 $$
 N = N_0 \left(\frac{1}{2}\right)^{t/t_{1/2}}
@@ -26226,7 +26226,7 @@ Activity is measured in becquerels (Bq), where $1\mathrm{ Bq = 1\mathrm{ decay/s
 ### Derivation of the Exponential Decay Law
 
 Starting from the definition of the decay constant: each nucleus has probability $\lambda \, dt$ of
-Decaying in a short time interval $dt$. For $N$ nuclei:
+decaying in a short time interval $dt$. For $N$ nuclei:
 
 $$
 DN = -\lambda N \, dt
@@ -26283,8 +26283,8 @@ $$
 
 **Fission:** A heavy nucleus splits into lighter nuclei, releasing energy because the products have
 Higher binding energy per nucleon. Fission is triggered when a heavy nucleus absorbs a neutron. The
-Products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
-Chain reaction), and energy.
+products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
+chain reaction), and energy.
 
 $$
 ^{235}_{92}\mathrm{U + ^1_0\mathrm{n \to ^{141}_{56}\mathrm{Ba + ^{92}_{36}\mathrm{Kr + 3^1_0\mathrm{n + \mathrm{energy
@@ -26306,7 +26306,7 @@ $$
 $$
 
 Fusion is the process that powers stars. In the Sun, the proton-proton chain converts hydrogen to
-Helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
+helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
 Fusion on Earth remains an active area of research (e.g., tokamak reactors and laser fusion).
 
 ### Energy Released in Fission
@@ -26537,8 +26537,8 @@ Physics syllabus.
 ### Why the Distinction Matters
 
 Only transverse waves can be polarised. Sound cannot be polarised because it is longitudinal. The
-Fact that light can be polarised (by Polaroid filters) was historically important evidence that
-Light is a transverse wave, not a longitudinal one as Newton had believed.
+fact that light can be polarised (by Polaroid filters) was historically important evidence that
+light is a transverse wave, not a longitudinal one as Newton had believed.
 
 ### Wave Terminology (OL/HL)
 
@@ -26634,13 +26634,13 @@ $$
 ### Optical Fibres (HL)
 
 Optical fibres use total internal reflection to transmit light signals. Light enters the fibre and
-Reflects off the walls, travelling along the fibre with minimal loss. Applications include
+reflects off the walls, travelling along the fibre with minimal loss. Applications include
 Telecommunications (high bandwidth, low signal loss over long distances) and medicine (endoscopes).
 
 ### Why Total Internal Reflection Only Occurs Denser to Less Dense
 
 The refracted ray bends away from the normal as the wave speeds up. At the critical angle, the
-Refracted ray travels along the boundary ($\theta_2 = 90^\circ$). Beyond this angle, there is
+refracted ray travels along the boundary ($\theta_2 = 90^\circ$). Beyond this angle, there is
 nowhere for The refracted ray to go, so all the light is reflected. When going from less dense to
 more dense, The refracted ray always bends toward the normal and there is no critical angle.
 
@@ -26655,7 +26655,7 @@ Diffraction is the spreading of waves when they pass through a gap or around an 
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
 is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
-Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
+edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
 from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Single Slit Diffraction (HL)
@@ -26780,7 +26780,7 @@ All EM waves travel at $c = 3 \times 10^8\mathrm{ m/s$ in a vacuum.
 The energy of a photon is $E = hf$. Higher frequency means higher energy per photon. This is why
 Gamma rays (very high frequency) are extremely dangerous: each photon carries enough energy to break
 Chemical bonds and damage DNA. Radio photons have such low energy that they are harmless to
-Biological tissue.
+biological tissue.
 
 ## Sound Waves
 
@@ -26828,7 +26828,7 @@ $$
 
 The human ear can detect intensities spanning $10^{12}$. A linear scale would require numbers from 1
 to a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
-Manageable. A 3 dB increase corresponds to a doubling of intensity.
+manageable. A 3 dB increase corresponds to a doubling of intensity.
 
 ## Doppler Effect (HL)
 
@@ -26925,7 +26925,7 @@ $$
 ## 11. Worked Example: Single Slit Diffraction and Intensity (HL)
 
 Light of wavelength $500 \mathrm{ nm$ passes through a slit of width $0.05 \mathrm{ mm$. Find the
-Angular width of the central maximum and the angles of the first two minima.
+angular width of the central maximum and the angles of the first two minima.
 
 **Central maximum half-width:**
 
@@ -26985,7 +26985,7 @@ $$
 $$
 
 Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$ Not $163 \mathrm{ dB$. If two
-Sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
+sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
 
 ### Worked Example: Inverse Square Law for Sound
 
@@ -27004,7 +27004,7 @@ $$
 ### Worked Example: Refraction Through a Glass Block (HL)
 
 A ray of light enters a rectangular glass block at $40^{\circ}$ to the normal. The glass has
-Refractive index $1.5$. The block is $6 \mathrm{ cm$ thick. Find the lateral displacement of the
+refractive index $1.5$. The block is $6 \mathrm{ cm$ thick. Find the lateral displacement of the
 ray.
 
 **At entry:**
@@ -27043,7 +27043,7 @@ $$
 ### Worked Example: Frequency Shift for Radar
 
 A police radar gun operates at $24.15 \mathrm{ GHz$. A car approaches at $30 \mathrm{ m/s$. The
-Reflected wave is Doppler-shifted twice.
+reflected wave is Doppler-shifted twice.
 
 The frequency received by the car:
 
@@ -27107,7 +27107,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
     of light.
 
 9. An optical fibre has a core refractive index of $1.48$ and cladding refractive index of $1.42$.
-    Calculate the critical angle and explain why this fibre can transmit signals around bends.
+    calculate the critical angle and explain why this fibre can transmit signals around bends.
 
 10. Explain the difference between coherent and incoherent sources. Why are two independent light
     bulbs unable to produce a stable interference pattern?
@@ -27208,7 +27208,7 @@ f' = 440 \times \frac{343}{343 - 25} = 440 \times \frac{343}{318} = 440 \times 1
 $$
 
 The frequency shift is slightly different for a moving source vs a moving observer at the same
-Speed. This asymmetry is a key feature of the classical Doppler effect.
+speed. This asymmetry is a key feature of the classical Doppler effect.
 
 ### Example 23: Refraction Through a Prism
 
@@ -27275,7 +27275,7 @@ Or using the formula: $D = i + e - A = 45° + 52.48° - 60° = 37.48^\circ$.
 ### Pitfall 6: Forgetting That Light Slows Down in Denser Media
 
 The speed of light in a medium is $v = c/n$. Many students incorrectly believe light speeds up in
-Glass. Higher refractive index means slower speed and shorter wavelength (frequency stays constant).
+glass. Higher refractive index means slower speed and shorter wavelength (frequency stays constant).
 
 ### Pitfall 7: Incorrect Application of Snell's Law at Curved Surfaces
 
@@ -27286,9 +27286,9 @@ Use the lens maker's equation or the thin lens formula.
 ### Pitfall 8: Confusing Diffraction and Refraction
 
 Diffraction is the spreading of waves around obstacles or through gaps. Refraction is the bending of
-Waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
+waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
 the gap size is comparable to the wavelength; refraction occurs at boundaries between media of
-Different densities.
+different densities.
 
 ## Additional Practice Problems
 

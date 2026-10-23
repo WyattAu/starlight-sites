@@ -43,7 +43,7 @@ $$
 ### Instantaneous Rate
 
 The instantaneous rate is the gradient of the concentration-time graph at a specific point (the
-Tangent to the curve).
+tangent to the curve).
 
 ### Stoichiometric Relationship
 
@@ -93,7 +93,7 @@ For a reaction to occur, reactant particles must:
 ### Activation Energy ($E_a$)
 
 The minimum energy required for a successful collision. It is the energy barrier that must be
-Overcome for the reaction to proceed.
+overcome for the reaction to proceed.
 
 ### Maxwell-Boltzmann Distribution
 
@@ -416,7 +416,7 @@ The molecularity of an elementary step is the number of molecules/ions that coll
 ### Rate-Determining Step
 
 The **slowest step** in the mechanism determines the overall rate of reaction. The rate equation is
-Determined by the rate-determining step.
+determined by the rate-determining step.
 
 ### Steady-State Approximation
 
@@ -509,7 +509,7 @@ Catalysts provide an alternative pathway with lower activation energy:
 ### Question 1 (Paper 1 style)
 
 For the rate equation $\mathrm{Rate} = k[\mathrm{A}]^2[\mathrm{B}]$ What are the units of $k$ when
-Concentrations are in mol/L and time in seconds?
+concentrations are in mol/L and time in seconds?
 
 $$
 \mathrm{Units of } k = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{(\mathrm{mol/L})^2 \times (\mathrm{mol/L})} = \frac{\mathrm{mol/(L}\cdot\mathrm{s)}}{\mathrm{mol}^3/\mathrm{L}^3} = \mathrm{L}^2/(\mathrm{mol}^2\cdot\mathrm{s})
@@ -550,7 +550,7 @@ $$
 **(d)** Explain why changing [B] does not affect the rate.
 
 B may be involved in a fast step after the rate-determining step, or B does not appear in the
-Rate-determining step of the mechanism.
+rate-determining step of the mechanism.
 
 ### Question 3 (Paper 2 style)
 
@@ -598,7 +598,7 @@ $$
 Which statement about catalysts is correct?
 
 A. They increase the activation energy. B. They are consumed in the reaction. C. They provide an
-Alternative reaction pathway with lower activation energy. D. They change the equilibrium constant.
+alternative reaction pathway with lower activation energy. D. They change the equilibrium constant.
 
 **Answer: C.**
 
@@ -632,7 +632,7 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 :::tip[Exam Strategy]
 For rate equation questions, always use the initial rates method systematically. For Arrhenius
 Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechanism questions, the
-Rate equation is determined by the slow step, check if intermediates need to be substituted using
+rate equation is determined by the slow step, check if intermediates need to be substituted using
 Equilibrium approximations.
 
 ---
@@ -1236,7 +1236,7 @@ $$
 <summary>Question 4: Reaction Mechanism Analysis</summary>
 
 The overall reaction $2\mathrm{NO}_2(g) + \mathrm{F}_2(g) \to 2\mathrm{NO}_2\mathrm{F}(g)$ has the
-Proposed mechanism:
+proposed mechanism:
 
 Step 1 (slow): $\mathrm{NO}_2 + \mathrm{F}_2 \to \mathrm{NO}_2\mathrm{F} + \mathrm{F}$
 
@@ -1270,7 +1270,7 @@ in step 2. It does not appear in the overall reaction or the rate equation.
 <summary>Question 5: Effect of Temperature on Rate</summary>
 
 A reaction at $300\mathrm{ K}$ has a rate constant of $2.0 \times 10^{-3}\mathrm{ s}^{-1}$. The
-Activation energy is $50.0\mathrm{ kJ/mol}$. Calculate the rate constant at $320\mathrm{ K}$.
+activation energy is $50.0\mathrm{ kJ/mol}$. Calculate the rate constant at $320\mathrm{ K}$.
 
 </details>
 

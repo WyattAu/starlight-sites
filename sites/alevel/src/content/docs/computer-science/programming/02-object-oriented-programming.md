@@ -165,7 +165,7 @@ class Circle(Shape):
 ### Method Overriding
 
 A subclass can **override** a method inherited from the superclass by defining a method with the
-Same name.
+same name.
 
 ```python
 class Animal:
@@ -206,7 +206,7 @@ Arguments or type checking.
 #### Run-Time (Dynamic) Polymorphism
 
 Achieved through **method overriding** and **duck typing**. The actual method called depends on the
-Object's type at runtime.
+object's type at runtime.
 
 ```python
 def make_speak(animal):
@@ -227,7 +227,7 @@ Some sound
 
 **Theorem (Liskov Substitution Principle).** If $S$ is a subtype of $T$ Then objects of type $T$ May
 be replaced with objects of type $S$ without altering any of the desirable properties of the
-Program.
+program.
 
 This means: wherever a superclass object is expected, a subclass object should work correctly.
 
@@ -245,7 +245,7 @@ Covers OOP with pseudocode; emphasises encapsulation and data hiding.
 ### Abstract Classes
 
 An **abstract class** cannot be instantiated and may contain **abstract methods** (methods without
-Implementation that must be implemented by subclasses).
+implementation that must be implemented by subclasses).
 
 ```python
 from abc import ABC, abstractmethod
@@ -268,7 +268,7 @@ class Vehicle(ABC):
 ### Interfaces
 
 An **interface** is a contract specifying methods a class must implement, without providing any
-Implementation. In Python, interfaces are simulated using abstract classes with only Abstract
+implementation. In Python, interfaces are simulated using abstract classes with only Abstract
 methods.
 
 <hr />
@@ -474,7 +474,7 @@ r.set_width(10)  # If Rectangle has this, width = 10, height = 5
 ```
 
 A `Square` used as a `Rectangle` can be put into an invalid state. This means `Square` is not a
-Proper subtype of `Rectangle` if `Rectangle` allows mutation of width and height independently.
+proper subtype of `Rectangle` if `Rectangle` allows mutation of width and height independently.
 
 **Solution:** Use composition instead (Square has-a Rectangle), or make Rectangle immutable, or use
 An interface-based approach.
@@ -488,11 +488,11 @@ An interface-based approach.
 
 **Aggregation (weak "has-a"):** The part can exist independently of the whole. Example: A
 `Department` has `Teacher` objects. If the department is dissolved, the teachers still exist and can
-Join another department.
+join another department.
 
 **Composition (strong "has-a"):** The part cannot exist independently of the whole. Example: A `Car`
 Has `Engine` and `Wheel` objects. If the car is destroyed, its specific engine and wheels are also
-Destroyed (they don't make sense independently in this context).
+destroyed (they don't make sense independently in this context).
 
 In code: Aggregation passes in existing objects. Composition creates objects internally.
 
@@ -617,7 +617,7 @@ B
 ```
 
 Python uses **C3 Linearization** (MRO, Method Resolution Order) to determine the order in which
-Base classes are searched for methods. For `D(B, C)`:
+base classes are searched for methods. For `D(B, C)`:
 
 1. `D` itself → no `greet`
 2. `B` → has `greet`Returns "B"
@@ -633,7 +633,7 @@ Resolves it.
 <summary>Answer</summary>
 
 The **diamond problem** occurs when a class inherits from two classes that both inherit from the
-Same base class:
+same base class:
 
 ```
     A

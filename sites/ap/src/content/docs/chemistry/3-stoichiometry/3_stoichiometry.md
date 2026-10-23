@@ -58,8 +58,8 @@ $$
 $$
 
 These two equations are the foundation of all stoichiometric calculations. Always start by
-Converting the given information to moles, then use the balanced equation to relate moles of
-Different substances.
+converting the given information to moles, then use the balanced equation to relate moles of
+different substances.
 
 ### Percent Composition
 
@@ -79,7 +79,7 @@ $$
 $$
 
 Percent composition is useful for verifying empirical formulas and for determining the formula of an
-Unknown compound from experimental data.
+unknown compound from experimental data.
 
 ### Worked Example: Percent Composition Verification
 
@@ -159,7 +159,7 @@ of oxygen.
 ### Worked Example: Combustion Analysis
 
 A 0.250 g sample of a compound containing C, H, and O produces 0.366 g CO$_2$ and 0.150 g H$_2$O on
-Combustion. Find the empirical formula.
+combustion. Find the empirical formula.
 
 $$
 \mathrm{mol C = \frac{0.366}{44.01} = 0.00832 \mathrm{ mol
@@ -192,7 +192,7 @@ Empirical formula: $\mathrm{CH_2\mathrm{O$.
 ### Worked Example: Molecular Formula from Empirical Formula
 
 A compound has the empirical formula $\mathrm{C_3\mathrm{H_4\mathrm{O_3$ and a molecular mass of
-Approximately $176 \mathrm{ g/mol$. Find the molecular formula.
+approximately $176 \mathrm{ g/mol$. Find the molecular formula.
 
 Empirical formula mass:
 $3(12.01) + 4(1.008) + 3(16.00) = 36.03 + 4.032 + 48.00 = 88.06 \mathrm{ g/mol$.
@@ -301,7 +301,7 @@ $$
 ### Limiting Reactant
 
 The **limiting reactant** is the reactant that is completely consumed first and determines the
-Maximum amount of product formed.
+maximum amount of product formed.
 
 **Steps:**
 
@@ -310,7 +310,7 @@ Maximum amount of product formed.
 3. The smallest value corresponds to the limiting reactant.
 
 This method works because dividing by the coefficient gives the "number of reaction batches" each
-Reactant could support. The limiting reactant supports the fewest batches.
+reactant could support. The limiting reactant supports the fewest batches.
 
 ### Percent Yield
 
@@ -320,7 +320,7 @@ $$
 
 Theoretical yield is calculated from the limiting reactant. Actual yield is measured experimentally.
 Yield is always less than 100% due to side reactions, incomplete reactions, and product loss during
-Purification.
+purification.
 :::
 
 :::note[Example]
@@ -362,7 +362,7 @@ $$
 
 The limiting reactant method divides moles by the stoichiometric coefficient because the coefficient
 Represents the number of moles of each reactant consumed per "batch" of reaction. Dividing gives the
-Number of complete batches each reactant could support. The reactant that supports the fewest
+number of complete batches each reactant could support. The reactant that supports the fewest
 Batches limits the overall reaction, since the excess reactant will be left over after the limiting
 Reactant is exhausted.
 
@@ -385,7 +385,7 @@ M_1 V_1 = M_2 V_2
 $$
 
 This equation holds because dilution changes the volume but not the number of moles of solute. It is
-Valid for any concentration unit that is moles per volume.
+valid for any concentration unit that is moles per volume.
 
 ### Solution Stoichiometry
 
@@ -913,7 +913,7 @@ $\mathrm{pH = 14 - 1.74 = 12.26$.
 <summary>Question 5: Solution dilution and concentration</summary>
 
 How many millilitres of $12.0 \mathrm{ M$ $\mathrm{HCl$ must be diluted to $500.0 \mathrm{ mL$ to
-Prepare a $0.500 \mathrm{ M$ solution? Calculate the mass of $\mathrm{NaOH$ required to completely
+prepare a $0.500 \mathrm{ M$ solution? Calculate the mass of $\mathrm{NaOH$ required to completely
 Neutralise $25.0 \mathrm{ mL$ of the diluted solution.
 
 </details>

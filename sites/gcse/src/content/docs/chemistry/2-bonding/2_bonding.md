@@ -24,6 +24,21 @@ categories:
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C2 | WJEC C2
 >
+
+Which type of bond forms depends on what is bonding with what:
+
+```mermaid
+flowchart TD
+    S{What is bonding with what?} --> M[metal + nonmetal]
+    S --> N[nonmetal + nonmetal]
+    S --> A[metal + metal]
+    M --> I[Ionic bond<br>electrons transferred,<br>ions attract in a lattice]
+    N --> C[Covalent bond<br>electrons shared<br>between atoms]
+    A --> Me[Metallic bonding<br>electrons delocalised<br>in a sea of ions]
+```
+
+The next three sections take each type in turn.
+
 ## 1. Ionic Bonding
 
 ### 1.1 Formation of Ions
@@ -33,7 +48,7 @@ Ions (cations), and non-metal atoms gain electrons to form negative ions (anions
 Charged ions are attracted to each other by strong **electrostatic forces**.
 
 The driving force is the achievement of a full outer shell. A metal atom in Group 1 loses one
-Electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
+electron to attain the electron configuration of the previous noble gas. A non-metal atom in Group 7
 Gains one electron to attain the configuration of the next noble gas. Both species achieve a lower
 Energy state, and the energy released when the ions come together (the lattice energy) is what holds
 the ionic compound together.
@@ -51,11 +66,11 @@ Gains one electron to achieve a full outer shell (like argon).
 ### 1.2 Ionic Lattice Structure
 
 Ionic compounds form **giant ionic lattices** in which positive and negative ions are arranged in a
-Regular, repeating pattern. The electrostatic attraction between all the ions acts in all
-Directions, giving ionic compounds high melting and boiling points.
+regular, repeating pattern. The electrostatic attraction between all the ions acts in all
+directions, giving ionic compounds high melting and boiling points.
 
 In sodium chloride, each Na$^+$ ion is surrounded by six Cl$^-$ ions, and each Cl$^-$ ion is
-Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends in three dimensions
+surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends in three dimensions
 -- it is not a collection of discrete NaCl molecules.
 
 **Properties of ionic compounds:**
@@ -73,7 +88,7 @@ Surrounded by six Na$^+$ ions. This is a 6:6 coordination. The lattice extends i
 </div>
 
 The brittleness of ionic compounds has a clear structural explanation. When a force is applied, one
-Layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
+layer of ions shifts relative to another. Ions of the same charge are brought into proximity, and
 the resulting electrostatic repulsion causes the crystal to shatter. This is fundamentally different
 from the response of metals, where layers can slide past each other without breaking bonds.
 
@@ -104,7 +119,7 @@ $$
 **Example: Sodium oxide (Na$_2$O)**
 
 Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two sodium atoms are
-Needed.
+needed.
 
 $$
 2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}
@@ -113,8 +128,8 @@ $$
 **Example: Aluminium oxide (Al$_2$O$_3$)**
 
 Each aluminium ($2, 8, 3$) loses 3 electrons to form Al$^{3+}$. Each oxygen gains 2 electrons to
-Form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
-Oxygen atoms.
+form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two aluminium atoms and three
+oxygen atoms.
 
 $$
 2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}
@@ -154,7 +169,7 @@ The formula of an ionic compound is determined by balancing the charges:
 </div>
 
 The method is: write the ions with their charges, then find the smallest whole number ratio that
-Makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
+makes the total charge zero. For Al$_2$O$_3$: $2 \times (+3) + 3 \times (-2) = 0$.
 
 **Worked Example.** Determine the formula of the compound formed between magnesium ions and oxide
 Ions.
@@ -191,12 +206,12 @@ Some ions consist of more than one atom bonded covalently but carrying an overal
 </div>
 
 When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
-Needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
+needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
 
 ### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
 
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
-Ions, given by Coulomb's law:
+ions, given by Coulomb's law:
 
 $$
 F \propto \frac{q_1 \cdot q_2}{r^2}
@@ -247,7 +262,7 @@ $$
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
 
 Oxygen forms two single covalent bonds, one with each hydrogen. The two lone pairs on oxygen are not
-Shared.
+shared.
 
 **Carbon dioxide (CO$_2$):** Carbon has 4 outer electrons and needs 4 more. Each oxygen has 6 outer
 Electrons and needs 2 more. Each oxygen forms a double bond with carbon.
@@ -272,14 +287,14 @@ Two lone pairs. The structure is analogous to water.
 
 **Worked Example.** Draw the dot and cross diagram for nitrogen (N$_2$).
 
-Nitrogen is in group 7 with 5 outer electrons. Each nitrogen atom needs 3 more to complete its
-Octet. They share three pairs of electrons, forming a triple bond. Each nitrogen retains one lone
+Nitrogen is in group 5 with 5 outer electrons. Each nitrogen atom needs 3 more to complete its
+octet. They share three pairs of electrons, forming a triple bond. Each nitrogen retains one lone
 Pair.
 
 **Worked Example.** Draw the dot and cross diagram for phosphorus trichloride (PCl$_3$).
 
 Phosphorus is in group 5 with 5 outer electrons. It needs 3 more to complete its octet. Each
-Chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
+chlorine has 7 outer electrons and needs 1 more. Phosphorus forms three single covalent bonds, one
 with each chlorine, and retains one lone pair. The structure is analogous to ammonia.
 
 ### 2.3 Properties of Simple Covalent Molecules
@@ -297,11 +312,11 @@ with each chlorine, and retains one lone pair. The structure is analogous to amm
 :::caution
 Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are strong, but there
 are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
-Atoms -- this does not happen during melting or boiling.
+atoms -- this does not happen during melting or boiling.
 :::
 
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
-Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
+molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
 much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
 $100^{\circ}\mathrm{C$.
@@ -328,7 +343,7 @@ Layers of hexagonal rings. The fourth electron of each carbon is delocalised (fr
 - Used as a lubricant and in pencils
 
 Graphite and diamond are both composed entirely of carbon atoms, yet their properties are
-Dramatically different. This illustrates a fundamental principle: the properties of a substance
+dramatically different. This illustrates a fundamental principle: the properties of a substance
 Depend not only on what atoms it contains but on how those atoms are bonded and arranged.
 
 **Silicon dioxide (SiO$_2$):** Each silicon atom bonds to four oxygen atoms, and each oxygen bonds
@@ -371,7 +386,7 @@ one atom than the other (because of different electronegativities).
 - If the electrons are pulled towards one atom, the bond is **polar** (e.g. H-Cl)
 
 In H-Cl, the chlorine is more electronegative, so it has a slight negative charge ($\delta^-$) and
-Hydrogen has a slight positive charge ($\delta^+$). The bond has a dipole.
+hydrogen has a slight positive charge ($\delta^+$). The bond has a dipole.
 
 ### 2.7 Bond Energy
 
@@ -392,8 +407,8 @@ State.
 </div>
 
 Multiple bonds are stronger than single bonds because there are more shared electrons holding the
-Atoms together: C=C (612 kJ/mol) is stronger than C-C (348 kJ/mol), and C$\equiv$C (839 kJ/mol) is
-Stronger still.
+atoms together: C=C (612 kJ/mol) is stronger than C-C (348 kJ/mol), and C$\equiv$C (839 kJ/mol) is
+stronger still.
 
 ### 2.8 Derivation: Why Multiple Bonds Are Stronger
 
@@ -423,7 +438,7 @@ the metallic structure. This creates a "sea" of delocalised electrons surroundin
 Ions.
 
 The metallic bond is the strong electrostatic attraction between the positive metal ions and the
-Delocalised electrons. This model accounts for the key properties of metals and distinguishes them
+delocalised electrons. This model accounts for the key properties of metals and distinguishes them
 from both ionic and covalent substances.
 
 ### 3.2 Properties of Metals
@@ -442,8 +457,8 @@ from both ionic and covalent substances.
 </div>
 
 The malleability and ductility of metals are consequences of the non-directional nature of the
-Metallic bond. When a force is applied, layers of metal ions can slide past each other. The
-Delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
+metallic bond. When a force is applied, layers of metal ions can slide past each other. The
+delocalised electrons adjust their positions to maintain the electrostatic attraction, so the metal
 does not shatter. This is in stark contrast to ionic solids, where displacement of layers brings
 like charges together and causes fracture.
 
@@ -467,14 +482,14 @@ alloys harder than pure metals.
 </div>
 
 The mechanism of hardening in alloys is straightforward. In a pure metal, all atoms are the same
-Size, so layers can slide over each other . In an alloy, the atoms of the added element are a
-Different size and disrupt the regular arrangement. This creates "roughness" in the lattice that
+size, so layers can slide over each other . In an alloy, the atoms of the added element are a
+different size and disrupt the regular arrangement. This creates "roughness" in the lattice that
 Impedes the sliding of layers, making the material harder and less ductile.
 
 **Worked Example.** Explain why gold is often alloyed with other metals to make jewellery.
 
 Pure gold (24 carat) is too soft for everyday wear. Alloying gold with copper or silver distorts the
-Lattice, making the metal harder and more durable. 18 carat gold is 75% gold, 25% other metals.
+lattice, making the metal harder and more durable. 18 carat gold is 75% gold, 25% other metals.
 
 **Worked Example.** Explain why steel is used for construction but pure iron is not.
 
@@ -488,7 +503,7 @@ and stronger.
 Some materials, when cooled below a critical temperature, lose all electrical resistance and become
 **superconductors**. Metals and metallic alloys can be superconductors. Superconductors have
 Applications in MRI scanners, maglev trains, and power transmission (because no energy is lost as
-Heat).
+heat).
 
 ## 4. Types of Bonding and Properties
 
@@ -600,7 +615,7 @@ Given the type of bonding, you should be able to predict:
 
 :::note
 Formed, and the process is reversible. The identity of the substance does not change; only the
-Arrangement and energy of its particles.
+arrangement and energy of its particles.
 :::
 
 ### 5.3 Heating and Cooling Curves
@@ -614,21 +629,21 @@ A heating curve for a pure substance shows:
 
 The plateau occurs because the energy supplied is used to overcome the forces between particles
 (rather than increase their kinetic energy). The temperature remains constant until all the
-Substance has changed state.
+substance has changed state.
 
 **Worked Example.** Explain why the temperature stays constant during the boiling of water.
 
 During boiling, the energy supplied is used to break the hydrogen bonds and other intermolecular
 Forces between water molecules, converting liquid water to water vapour. This energy does not
-Increase the kinetic energy of the molecules, so the temperature remains constant at
+increase the kinetic energy of the molecules, so the temperature remains constant at
 $100^{\circ}\mathrm{C$ until all the water has boiled.
 
 **Worked Example.** Explain the shape of a cooling curve for a pure substance.
 
 As the substance cools, its temperature decreases steadily. When the freezing point is reached, a
-Plateau appears because energy is released as particles form bonds and arrange into a solid lattice.
+plateau appears because energy is released as particles form bonds and arrange into a solid lattice.
 The temperature remains constant until all the substance has solidified. The temperature then
-Decreases again as the solid continues to cool.
+decreases again as the solid continues to cool.
 
 ### 5.4 The Kinetic Theory and States of Matter
 
@@ -638,7 +653,7 @@ Positions and slide past each other.
 
 In a liquid, particles can move freely but remain in close contact. As temperature increases
 Further, the particles gain more kinetic energy. At the boiling point, they have enough energy to
-Escape the liquid entirely and become a gas.
+escape the liquid entirely and become a gas.
 
 ### 5.5 Derivation: Kinetic Energy and Temperature
 
@@ -649,8 +664,8 @@ E_k = \frac{3}{2}k_BT
 $$
 
 Where $k_B$ is the Boltzmann constant and $T$ is the absolute temperature in Kelvin. This
-Relationship explains why increasing temperature causes particles to move faster, collide more
-Frequently, and exert greater pressure.
+relationship explains why increasing temperature causes particles to move faster, collide more
+frequently, and exert greater pressure.
 
 ## 6. Intermolecular Forces
 
@@ -676,7 +691,7 @@ Charge (a permanent dipole). These are stronger than London forces but weaker th
 
 **Hydrogen bonds** are the strongest type of intermolecular force. They occur when hydrogen is
 Covalently bonded to a highly electronegative atom (N, O, or F), creating a large dipole. The
-Partially positive hydrogen can then interact with a lone pair on a neighbouring N, O, or F atom.
+partially positive hydrogen can then interact with a lone pair on a neighbouring N, O, or F atom.
 
 ### 6.2 Predicting Boiling Points
 
@@ -689,7 +704,7 @@ than the dipole-dipole forces in H$_2$S.
 **Example:** Explain why the boiling point increases from F$_2$ to Cl$_2$ to Br$_2$ to I$_2$.
 
 All four are simple covalent molecules with only London dispersion forces between them. As the
-Number of electrons increases down the group, the electron cloud becomes more polarizable, London
+number of electrons increases down the group, the electron cloud becomes more polarizable, London
 Forces become stronger, and more energy is needed to separate the molecules. Hence the boiling point
 Increases.
 
@@ -703,7 +718,7 @@ Bonding is much stronger than London forces, so more energy is required to boil 
 Reasoning: F$_2$Cl$_2$Br$_2$.
 
 F$_2$ &lt; Cl$_2$ &lt; Br$_2$. All three have only London dispersion forces. As the number of
-Electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
+electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
 more energy to overcome. Hence the boiling point increases.
 
 **Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C$) has a
@@ -711,9 +726,9 @@ Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{
 Despite both having the molecular formula C$_2$H$_6$O.
 
 Both molecules have the same number of electrons, so London forces are similar. However, ethanol can
-Form hydrogen bonds (it has an O-H group), while dimethyl ether cannot (it has no O-H group; the
-Oxygen is bonded to two carbons). The hydrogen bonds in ethanol require much more energy to
-Overcome, giving it a significantly higher boiling point.
+form hydrogen bonds (it has an O-H group), while dimethyl ether cannot (it has no O-H group; the
+oxygen is bonded to two carbons). The hydrogen bonds in ethanol require much more energy to
+overcome, giving it a significantly higher boiling point.
 
 ### 6.3 Nanoparticles
 

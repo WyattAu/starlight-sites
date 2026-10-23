@@ -244,7 +244,7 @@ $\pounds 20000$. In which year will the profits first exceed $\pounds 100000$?
 $640\,\text{mg}$, calculate the amount remaining after 40 days.
 
 (c) A geometric sequence has first term 3 and common ratio $r$. The sum of the first 4 terms is 255.
-Find the value of $r$.
+find the value of $r$.
 
 (d) The equation $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$. Express the following in terms
 of $p$ and $q$: (i) $\alpha^2 + \beta^2$, (ii) $\frac{1}{\alpha} + \frac{1}{\beta}$.

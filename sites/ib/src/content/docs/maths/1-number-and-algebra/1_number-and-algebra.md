@@ -21,7 +21,7 @@ categories:
 ## Sets
 
 A set is a collection of distinct elements, written by listing its members inside curly braces or by
-Specifying a property that its members satisfy.
+specifying a property that its members satisfy.
 
 ### Notation
 
@@ -270,7 +270,7 @@ a_1 \cdot a_2 = b_1 \cdot b_2 \times 10^{k_1 + k_2}
 $$
 
 If $|b_1 \cdot b_2| \ge 10$ or $|b_1 \cdot b_2| \lt 1$ Adjust the mantissa back into $[1, 10)$ by
-Absorbing a factor of $10$ into the exponent.
+absorbing a factor of $10$ into the exponent.
 
 ### Significant Figures
 
@@ -560,7 +560,7 @@ $\log_b(a^y) = \log_b x$. By the power rule, $y\log_b a = \log_b x$ So
 $y = \frac{\log_b x}{\log_b a}$. $\blacksquare$
 
 This is particularly useful for computing logarithms in bases other than $10$ or $e$ using a
-Calculator.
+calculator.
 
 ### Solving Exponential Equations
 
@@ -741,7 +741,7 @@ $$
 ### Pascal's Triangle
 
 The binomial coefficients can be generated recursively via **Pascal's triangle**. Each entry is the
-Sum of the two entries above it:
+sum of the two entries above it:
 
 $$
 \binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}
@@ -833,7 +833,7 @@ $1$. Meanwhile, $\{1\} \subseteq \{1, 2, 3\}$ is true, but $\{1\} \in \{1, 2, 3\
 
 When finding inverse functions, always check that the original function is bijective on the given
 Domain. A common error is to write $f^{-1}(x) = \sqrt{x}$ for $f(x) = x^2$ without restricting the
-Domain to $ contains the hardest questions
+domain to $ contains the hardest questions
 within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Number and

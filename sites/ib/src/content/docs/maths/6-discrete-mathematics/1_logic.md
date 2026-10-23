@@ -40,7 +40,7 @@ A truth value is whether the statement is true or false. For instance:
 ### Logically equivalent
 
 Two statements being logically equivalent means that they have the same truth values in the same
-Circumstances. For example:
+circumstances. For example:
 
 - Today is Tuesday; True
 - Today is the day after Monday; Also True.
@@ -169,7 +169,7 @@ Statement: All the students are short Negation: At least one student is not shor
 Rule 3: Don't claim too much
 
 Statement: None of the teachers are interesting Equivalent to: All of the teachers are not
-Interesting Negation: Some of the teachers are interesting At least one teacher is interesting
+interesting Negation: Some of the teachers are interesting At least one teacher is interesting
 
 Statement: All A are B Negation: Some A are not B At least one A is not B
 
@@ -277,11 +277,11 @@ The truth table for implication is often the least intuitive:
 </div>
 
 An implication is **false only when the hypothesis is true and the conclusion is false**. This
-Captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
+captures the logical reading: if you promise "if $P$ then $Q$", you have only broken your promise
 when $P$ happens and $Q$ does not.
 
 The last two rows often feel surprising. Consider the statement "If it is raining, then I carry an
-Umbrella." If it is not raining (rows 3 and 4), the statement places no restriction on my behaviour
+umbrella." If it is not raining (rows 3 and 4), the statement places no restriction on my behaviour
 -- it remains true regardless of whether I carry an umbrella.
 
 ### Contrapositive has the same truth table
@@ -302,7 +302,7 @@ Table:
 
 The column for $\neg Q \Rightarrow \neg P$ is identical to the column for $P \Rightarrow Q$ (T, F,
 T, T). This is why a statement and its contrapositive are **logically equivalent**: proving one
-Proves the other.
+proves the other.
 
 ### The converse does NOT have the same truth table
 
@@ -320,10 +320,10 @@ The converse of $P \Rightarrow Q$ is $Q \Rightarrow P$:
 </div>
 
 The truth values differ in rows 2 and 3. This is why the converse of a true statement need not be
-True. For instance, "If a number is prime then it is odd" ($P = \mathrm{prime}$, $Q = \mathrm{odd}$)
+true. For instance, "If a number is prime then it is odd" ($P = \mathrm{prime}$, $Q = \mathrm{odd}$)
 Is false (witness $2$), but its converse "If a number is odd then it is prime" is also false
 (witness $9$). In contrast, "If a number is a square then it is a rectangle" is true, but its
-Converse "If a number is a rectangle then it is a square" is false.
+converse "If a number is a rectangle then it is a square" is false.
 
 ## Quantifiers
 
@@ -479,7 +479,7 @@ therefore $a + b$ is even. $\square$
 
 **Remark.** The key move was substituting the definition of evenness ($a = 2k$), performing algebra,
 And then reversing the definition. This pattern -- unpack a definition, manipulate, repack -- is the
-Backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
+backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
 
 ### Proof by contradiction
 
@@ -548,7 +548,7 @@ n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
 $$
 
 Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$ Which means $n^2$ is odd. We have
-Shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
+shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
 $\square$
 
 ### Proof by cases
@@ -653,7 +653,7 @@ to show that "if $P$ then $Q$" is false, you must exhibit a case where $P$ is tr
 
 In mathematics, "or" means **at least one** holds, possibly both. "A or B" is false only when both
 are false. This differs from everyday English, where "or" is sometimes exclusive (e.g. "tea or
-Coffee").
+coffee").
 
 ### Pitfall 4: Treating the converse as equivalent
 
@@ -711,7 +711,7 @@ $$
 $$
 
 So $a^2$ is a multiple of 3, which means $a$ is a multiple of 3 (if 3 divides $a^2$ Then 3 must
-Divide $a$). Write $a = 3k$. Substituting:
+divide $a$). Write $a = 3k$. Substituting:
 
 $$
 9k^2 = 3b^2 \quad \Rightarrow \quad b^2 = 3k^2
@@ -730,7 +730,7 @@ Negate: "For all integers $n$ If $n$ is prime then $n$ is odd or $n = 2$."
 <summary>Solution</summary>
 
 Step 1: Negate the universal quantifier. "There exists an integer $n$ such that it is **not** the
-Case that (if $n$ is prime then $n$ is odd or $n = 2$)."
+case that (if $n$ is prime then $n$ is odd or $n = 2$)."
 
 Step 2: Negate the implication. "$P \Rightarrow Q$" negates to "$P$ and $\neg Q$". So: "$n$ is prime
 and $\neg(n \mathrm{ is odd or } n = 2)$."
@@ -741,14 +741,14 @@ $n \neq 2$."
 Full negation: "There exists an integer $n$ such that $n$ is prime and $n$ is even and $n \neq 2$."
 
 Since no such integer exists (the only even prime is 2), the negation is false, confirming the
-Original statement is true.
+original statement is true.
 
 </details>
 
 ### Problem 4
 
 Let $f(x) = x^2 - 5x + 6$. A student claims: "For all real $x$, $f(x) \ge 0$." Disprove by
-Counterexample.
+counterexample.
 
 <details>
 <summary>Solution</summary>
@@ -828,7 +828,7 @@ $$
 $$
 
 Since $3k + 1$ is an integer, $3n + 2$ is even. By contrapositive, if $3n + 2$ is odd then $n$ is
-Odd. $\square$
+odd. $\square$
 
 </details>
 
@@ -888,7 +888,7 @@ $Q$ are true." Show that this is logically equivalent to "At least one of $P$, $
 By De Morgan's law: $\neg(P \land Q) \equiv (\neg P) \lor (\neg Q)$.
 
 "At least one of $P$, $Q$ is false" means either $P$ is false or $Q$ is false (or both), which is
-Precisely $\neg P \lor \neg Q$.
+precisely $\neg P \lor \neg Q$.
 
 Therefore the two statements are logically equivalent. This can also be verified by truth table:
 

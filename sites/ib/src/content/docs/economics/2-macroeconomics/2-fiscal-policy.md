@@ -171,7 +171,7 @@ booms (restraining demand).
 
 **Full crowding out:** in a classical (full-employment) economy, increased government spending
 Raises demand for loanable funds, increasing the interest rate and reducing private investment by
-Exactly the amount of the fiscal expansion. $\Delta G$ is fully offset by $\Delta I$.
+exactly the amount of the fiscal expansion. $\Delta G$ is fully offset by $\Delta I$.
 
 $$
 \Delta Y = 0 \text{ (in the classical case)}
@@ -179,7 +179,7 @@ $$
 
 **Partial crowding out:** in a Keynesian framework with idle resources, the interest rate rise
 Reduces some investment but not all. The net increase in output is positive but smaller than the
-Simple multiplier predicts.
+simple multiplier predicts.
 
 $$
 0 < \Delta Y < k \cdot \Delta G
@@ -235,7 +235,7 @@ $$
 
 Empirical evidence overwhelmingly rejects Ricardian equivalence. Tax cuts do stimulate consumption,
 Particularly for liquidity-constrained households, but the multiplier is smaller than predicted by
-Simple Keynesian models.
+simple Keynesian models.
 
 ### Common Pitfalls in Fiscal Policy
 
@@ -298,7 +298,7 @@ The Stability and Growth Pact (SGP) has evolved through several iterations:
 
 Crowding out occurs when increased government borrowing raises interest rates, reducing private
 Investment. The extent of crowding out depends on the source of financing and the state of the
-Economy.
+economy.
 
 **In the loanable funds market:**
 

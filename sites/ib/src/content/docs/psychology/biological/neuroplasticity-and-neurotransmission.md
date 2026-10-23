@@ -18,7 +18,7 @@ description: "Synaptic transmission is the process by which neurons communicate 
 ## Synaptic Transmission
 
 Synaptic transmission is the process by which neurons communicate with one another. It is the
-Fundamental mechanism underlying all neural activity, from simple reflexes to complex cognitive
+fundamental mechanism underlying all neural activity, from simple reflexes to complex cognitive
 Processes. Understanding synaptic transmission is essential for understanding how biological
 Structures give rise to behaviour.
 
@@ -65,14 +65,14 @@ Synaptic transmission can have either an excitatory or inhibitory effect on the 
   neurotransmitters are GABA and glycine.
 
 The postsynaptic neuron integrates all incoming EPSPs and IPSPs (spatial and temporal summation) to
-Determine whether or not to fire an action potential.
+determine whether or not to fire an action potential.
 
 ## Key Neurotransmitters
 
 ### Dopamine
 
 Dopamine is a monoamine neurotransmitter produced in several key brain regions, including the
-Substantia nigra, the ventral tegmental area (VTA), and the hypothalamus. Dopamine is involved in:
+substantia nigra, the ventral tegmental area (VTA), and the hypothalamus. Dopamine is involved in:
 
 - **Reward and motivation:** Dopamine release in the nucleus accumbens is associated with the
   experience of pleasure and reinforcement. This mesolimbic pathway is critically involved in
@@ -103,7 +103,7 @@ Substantia nigra, the ventral tegmental area (VTA), and the hypothalamus. Dopami
 ### Serotonin (5-Hydroxytryptamine, 5-HT)
 
 Serotonin is produced in the raphe nuclei of the brainstem and is involved in a wide range of
-Functions:
+functions:
 
 - **Mood regulation:** Low serotonin activity is associated with depression. Most antidepressant
   medications (SSRIs) work by increasing serotonin availability in the synaptic cleft.
@@ -117,7 +117,7 @@ Functions:
 
 Acetylcholine is produced in the basal forebrain and the brainstem. It is the primary
 Neurotransmitter at the neuromuscular junction (where neurons communicate with muscles) and is also
-Widely distributed in the brain. ACh is involved in:
+widely distributed in the brain. ACh is involved in:
 
 - **Memory and learning:** ACh is critical for memory formation, particularly in the hippocampus.
   Alzheimer's disease is characterised by degeneration of cholinergic neurons in the basal
@@ -130,7 +130,7 @@ Widely distributed in the brain. ACh is involved in:
 
 GABA is the primary inhibitory neurotransmitter in the central nervous system. Approximately
 one-third of all synapses in the brain use GABA. GABA functions by opening chloride channels in the
-Postsynaptic membrane, causing hyperpolarisation and reducing the likelihood of action potential
+postsynaptic membrane, causing hyperpolarisation and reducing the likelihood of action potential
 Firing.
 
 - **Anxiety reduction:** Benzodiazepines (e.g., diazepam) enhance GABA activity, producing their
@@ -161,7 +161,7 @@ or by altering the synthesis, release, or breakdown of neurotransmitters.
 ### Agonists
 
 An agonist is a substance that binds to a receptor and activates it, mimicking the effect of the
-Natural neurotransmitter. Agonists can be direct (binding directly to the receptor) or indirect
+natural neurotransmitter. Agonists can be direct (binding directly to the receptor) or indirect
 (increasing the amount of neurotransmitter available).
 
 <div class="table-wrap">
@@ -191,8 +191,8 @@ Neurotransmitter from binding. Antagonists reduce or block the effect of the neu
 Understanding agonists and antagonists is essential for understanding the mechanisms of psychoactive
 Drugs and their therapeutic applications. For example, the effectiveness of antipsychotic medication
 in treating schizophrenia is attributed to its dopamine antagonist properties, while the
-Effectiveness of antidepressant medication is attributed to its serotonin agonist properties (via
-Reuptake inhibition).
+effectiveness of antidepressant medication is attributed to its serotonin agonist properties (via
+reuptake inhibition).
 
 <details>
 <summary>Common Pitfalls: Agonists and Antagonists</summary>
@@ -214,13 +214,13 @@ Reuptake inhibition).
 
 Neuroplasticity refers to the brain's capacity to reorganise its structure and function in response
 to experience, learning, environmental change, or injury. It is not a single mechanism but a
-Collection of processes that operate at different levels, from molecular changes at individual
+collection of processes that operate at different levels, from molecular changes at individual
 Synapses to large-scale cortical reorganisation.
 
 ### Synaptic Plasticity
 
 Synaptic plasticity is the ability of synapses to strengthen or weaken over time in response to
-Changes in activity. It is the primary cellular mechanism underlying learning and memory.
+changes in activity. It is the primary cellular mechanism underlying learning and memory.
 
 **Long-term potentiation (LTP):** LTP is a persistent strengthening of synaptic connections
 Following high-frequency stimulation. When a presynaptic neuron repeatedly and persistently
@@ -244,13 +244,13 @@ Accepted as the primary mechanism of memory formation.
 **Long-term depression (LTD):** LTD is the opposite of LTP: a persistent weakening of synaptic
 Connections following low-frequency stimulation. LTD is important for forgetting, for refining
 Neural representations, and for preventing synaptic saturation. Without LTD, neural circuits would
-Become saturated with strengthened connections, impairing the ability to form new memories.
+become saturated with strengthened connections, impairing the ability to form new memories.
 
 ### Synaptic Pruning
 
 Synaptic pruning is the process by which unused or weakly activated synaptic connections are
-Eliminated during development and learning. This process refines neural circuits, improving their
-Efficiency and specificity.
+eliminated during development and learning. This process refines neural circuits, improving their
+efficiency and specificity.
 
 - At birth, the human brain contains approximately 100 billion neurons, each forming thousands of
   synaptic connections. The total number of synapses peaks at approximately age 3--4, at a level far
@@ -267,14 +267,14 @@ Efficiency and specificity.
 Dendritic branching refers to the growth of new dendritic spines (small protrusions on dendrites
 that receive synaptic input) in response to learning and environmental enrichment. Increased
 Dendritic branching increases the number of potential synaptic connections, enhancing the
-Computational capacity of neural circuits.
+computational capacity of neural circuits.
 
 ## Key Studies
 
 ### Rosenzweig and Bennett (1972)
 
 Rosenzweig, Bennett, and Diamond conducted a landmark series of experiments on the effects of
-Environmental enrichment on brain structure in rats. Rats were assigned to one of three conditions:
+environmental enrichment on brain structure in rats. Rats were assigned to one of three conditions:
 
 1. **Enriched condition (EC):** Large cage with 10--12 rats, toys, tunnels, and running wheels, with
    toys rotated regularly.

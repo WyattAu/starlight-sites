@@ -62,7 +62,7 @@ $$
 For constant force: $W = F(s_2 - s_1) = Fs$.
 
 If the force makes angle $\theta$ with the displacement, only the component $F\cos\theta$ in the
-Direction of motion does work: $W = Fs\cos\theta$. $\blacksquare$
+direction of motion does work: $W = Fs\cos\theta$. $\blacksquare$
 
 The SI unit of work is the joule (J) = newton-metre (Nm).
 
@@ -188,14 +188,14 @@ $$
 ### 4.4 Work-energy principle for systems
 
 When multiple bodies interact (e.g., two blocks connected by a string over a pulley), apply the
-Work-energy principle to the **system as a whole**:
+work-energy principle to the **system as a whole**:
 
 $$
 W_{\mathrm{external}} = \Delta\mathrm{KE}_{\mathrm{system}} + \Delta\mathrm{GPE}_{\mathrm{system}} + W_{\mathrm{friction}}
 $$
 
 Internal forces (such as tension in a connecting string) do equal and opposite work on the two
-Masses and cancel out. Only external forces and changes in GPE need be considered.
+masses and cancel out. Only external forces and changes in GPE need be considered.
 
 **Example.** Two particles of masses $3\,\mathrm{kg}$ and $5\,\mathrm{kg}$ are connected by a light
 Inextensible string over a smooth pulley. Released from rest, find the speed when the
@@ -306,7 +306,7 @@ $v$ while force remains constant. For constant power $P$ The average power equal
 ### 6.1 Hooke's law
 
 Hooke's law states that the tension in an elastic spring (or string) is proportional to its
-Extension from the natural length:
+extension from the natural length:
 
 $$
 T = kx
@@ -353,14 +353,14 @@ $$
 
 A bungee cord behaves like a spring. As a jumper falls, GPE converts to KE until the cord becomes
 Taut. Once taut, the cord stretches and stores EPE. Energy oscillates between GPE, KE, and EPE until
-Damping dissipates it.
+damping dissipates it.
 
 **Example.** A jumper of mass $75\,\mathrm{kg}$ leaps from a platform $50\,\mathrm{m}$ above a
 River. The cord has natural length $25\,\mathrm{m}$ and stiffness $200\,\mathrm{N/m}$. Find the
-Lowest point reached ($g = 9.8\,\mathrm{m/s}^2$).
+lowest point reached ($g = 9.8\,\mathrm{m/s}^2$).
 
 At the lowest point, speed $= 0$. If the total distance fallen is $d$ (where $d \gt 25$ since the
-Cord must be stretched):
+cord must be stretched):
 
 $$
 mgd = \frac{1}{2}k(d - 25)^2
@@ -381,7 +381,7 @@ The lowest point is $50 - 42.72 = 7.28\,\mathrm{m}$ above the river. The jumper 
 ### 6.5 Real-world application: spring-mass systems
 
 A mass $m$ on a spring of stiffness $k$ (smooth surface) forms a simple harmonic oscillator. At the
-Natural length, all energy is kinetic. At maximum extension $A$ (the amplitude), all energy is EPE:
+natural length, all energy is kinetic. At maximum extension $A$ (the amplitude), all energy is EPE:
 
 $$
 E_{\mathrm{total}} = \frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2
@@ -558,7 +558,7 @@ $v = \dfrac{-250 + \sqrt{62500 + 400000}}{2} = \dfrac{-250 + \sqrt{462500}}{2} =
 <summary>Problem 11</summary>
 A particle of mass $0.5\,\mathrm{kg}$ is attached to one end of a light elastic spring of natural
 Length $1.0\,\mathrm{m}$ and stiffness $200\,\mathrm{N/m}$. The other end is fixed. The particle is
-Held at rest where the extension is $0.3\,\mathrm{m}$ and released on a smooth horizontal surface.
+held at rest where the extension is $0.3\,\mathrm{m}$ and released on a smooth horizontal surface.
 Find the speed when the spring returns to its natural length.
 </details>
 
@@ -600,7 +600,7 @@ $s = \frac{2}{3}\sqrt{\frac{2(5000)}{500}} \times 5^{3/2} = \frac{2}{3}\sqrt{20}
 <summary>Problem 13</summary>
 A block of mass $2\,\mathrm{kg}$ is projected up a rough slope inclined at $45^\circ$ to the horizontal
 with speed $12\,\mathrm{m/s}$. The coefficient of friction is $0.3$. Using energy methods, find the
-Distance travelled before the block comes to rest, and the speed when it returns to its starting
+distance travelled before the block comes to rest, and the speed when it returns to its starting
 Point.
 </details>
 
@@ -673,7 +673,7 @@ Section 6.
 <details>
 <summary>Problem 16</summary>
 A vehicle of mass $1500\,\mathrm{kg}$ travels up a slope inclined at $\sin^{-1}(0.08)$ to the
-Horizontal. The engine works at constant power $30\,\mathrm{kW}$. The resistance to motion (excluding
+horizontal. The engine works at constant power $30\,\mathrm{kW}$. The resistance to motion (excluding
 Gravity) is constant at $500\,\mathrm{N}$. Find the maximum speed and the acceleration when the speed
 is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
 </details>

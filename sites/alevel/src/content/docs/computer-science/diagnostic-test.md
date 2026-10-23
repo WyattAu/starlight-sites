@@ -24,7 +24,7 @@ categories:
 
 This diagnostic test covers the full A Level Computer Science syllabus. There are **45 questions**
 Across all topics. Attempt each question, then check your answers. Each question links to the
-Relevant revision page for further study.
+relevant revision page for further study.
 
 **Recommended time:** 90 minutes.
 
@@ -148,7 +148,7 @@ $2^3 = 8$ nodes.
 <summary>Answer</summary>
 
 BFS (Breadth-First Search). BFS explores vertices level by level, so the first time a vertex is
-Discovered, the path to it is the shortest.
+discovered, the path to it is the shortest.
 
 **Revision:** [Graphs](/computer-science/data-structures/05-graphs/)
 
@@ -286,7 +286,7 @@ $O(\phi^n)$ where $\phi = (1+\sqrt{5})/2 \approx 1.618$ (exponential).
 <summary>Answer</summary>
 
 Encapsulation is the bundling of data and methods within a class, and restricting direct access to
-Internal state through access modifiers (public, private, protected).
+internal state through access modifiers (public, private, protected).
 
 **Revision:** [OOP](/computer-science/programming/02-object-oriented-programming/)
 
@@ -298,7 +298,7 @@ Internal state through access modifiers (public, private, protected).
 <summary>Answer</summary>
 
 Objects of a superclass shall be replaceable with objects of a subclass without breaking the
-Program.
+program.
 
 **Revision:** [OOP](/computer-science/programming/02-object-oriented-programming/)
 
@@ -486,7 +486,7 @@ With), **A**vailability (data accessible when needed).
 <summary>Answer</summary>
 
 A **primary key** uniquely identifies each row in its table. A **foreign key** references the
-Primary key of another table, establishing a relationship.
+primary key of another table, establishing a relationship.
 
 **Revision:** [Relational Databases](/computer-science/databases/01-relational-databases/)
 
@@ -551,7 +551,7 @@ HAVING AVG(score) > 80;
 <summary>Answer</summary>
 
 A **DFA** has exactly one transition per state per input symbol. An **NFA** can have zero, one, or
-Multiple transitions per state per input symbol, and accepts if ANY path leads to an accepting
+multiple transitions per state per input symbol, and accepts if ANY path leads to an accepting
 State.
 
 **Revision:**
@@ -565,7 +565,7 @@ State.
 <summary>Answer</summary>
 
 No. Proved using the Pumping Lemma: choose $s = a^p b^p$; the pumped substring $y$ lies within the
-First $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and $b$'s, which is not
+first $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and $b$'s, which is not
 in $L$.
 
 **Revision:**
@@ -606,7 +606,7 @@ In polynomial time. P ⊆ NP. Whether P = NP is an open question.
 <summary>Answer</summary>
 
 Every effectively computable function is computable by a Turing machine. It is a thesis (not a
-Theorem) because "effectively computable" is an informal concept.
+theorem) because "effectively computable" is an informal concept.
 
 **Revision:**
 [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)

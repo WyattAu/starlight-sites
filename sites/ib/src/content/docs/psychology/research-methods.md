@@ -19,7 +19,7 @@ description: "Psychology is a science because it uses empirical methods to inves
 
 Psychology is a science because it uses empirical methods to investigate questions about behaviour
 and mental processes. The scientific method in psychology involves a systematic cycle of
-Observation, theory development, hypothesis formulation, data collection, analysis, and theory
+observation, theory development, hypothesis formulation, data collection, analysis, and theory
 Revision.
 
 **Key characteristics of the scientific approach:**
@@ -57,7 +57,7 @@ Revision.
 Experiments are research designs in which the researcher manipulates one variable (the independent
 Variable) while measuring its effect on another variable (the dependent variable), while controlling
 for the influence of extraneous variables. Experiments are the only research design that can
-Establish cause-and-effect relationships.
+establish cause-and-effect relationships.
 
 <div class="table-wrap">
 
@@ -125,11 +125,11 @@ therefore cannot establish causation with the same confidence.
 ### Operationalisation
 
 Operationalisation is the process of defining a variable in terms of the specific procedures used to
-Measure or manipulate it. A good operational definition is precise, measurable, and replicable. For
-Example, "aggression" could be operationalised as "the number of aggressive acts observed in a
+measure or manipulate it. A good operational definition is precise, measurable, and replicable. For
+example, "aggression" could be operationalised as "the number of aggressive acts observed in a
 10-minute play session," or as "scores on the Buss-Perry Aggression Questionnaire." Different
 Operationalisations may capture different aspects of the same construct, which can affect the
-Results and their interpretation.
+results and their interpretation.
 
 ## Sampling Methods
 
@@ -246,7 +246,7 @@ the specific conditions of the study.
 ## Ethical Considerations
 
 Ethical principles in psychological research are designed to protect the rights, dignity, and
-Welfare of research participants. The following guidelines are based on the codes of ethics
+welfare of research participants. The following guidelines are based on the codes of ethics
 Published by major psychological associations (APA, BPS) and are directly relevant to the IB
 Psychology Internal Assessment.
 
@@ -289,7 +289,7 @@ Research involving non-human animals is subject to additional ethical guidelines
 ### Institutional Review
 
 All psychological research must be reviewed and approved by an institutional ethics committee (or
-Institutional review board, IRB) before it is conducted. The ethics committee evaluates the study's
+institutional review board, IRB) before it is conducted. The ethics committee evaluates the study's
 Risk-benefit ratio, the adequacy of informed consent procedures, and the plans for data protection
 and debriefing.
 
@@ -327,7 +327,7 @@ Descriptive statistics summarise and describe the main features of a dataset.
 
 Inferential statistics allow researchers to draw conclusions about a population based on data
 Collected from a sample. They are used to test hypotheses and determine whether observed effects are
-Statistically significant (i.e., unlikely to have occurred by chance alone).
+statistically significant (i.e., unlikely to have occurred by chance alone).
 
 **Significance levels and p-values:**
 
@@ -351,8 +351,8 @@ Statistically significant (i.e., unlikely to have occurred by chance alone).
 </div>
 
 The probability of a Type I error is equal to the significance level (alpha). The probability of a
-Type II error is denoted beta ($\beta$). The **statistical power** of a test is the probability of
-Correctly rejecting a false null hypothesis (power $= 1 - \beta$). Power is influenced by sample
+type II error is denoted beta ($\beta$). The **statistical power** of a test is the probability of
+correctly rejecting a false null hypothesis (power $= 1 - \beta$). Power is influenced by sample
 Size, effect size, and significance level.
 
 ### Choosing the Right Statistical Test
@@ -401,9 +401,9 @@ Significance).
 ### Descriptive vs. Inferential Statistics
 
 Descriptive statistics summarise the data that have been collected. Inferential statistics allow the
-Researcher to generalise from the sample to the population. Both are essential: descriptive
+researcher to generalise from the sample to the population. Both are essential: descriptive
 Statistics provide an overview of the data, while inferential statistics allow the researcher to
-Test hypotheses and draw conclusions.
+test hypotheses and draw conclusions.
 
 ## Reporting Conventions (APA Format)
 

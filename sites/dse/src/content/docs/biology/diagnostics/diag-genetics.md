@@ -539,7 +539,7 @@ population than the dominant allele ($D$). If the father were $DD$ Both of his p
 carry or have the $D$ allele. Since the disorder is rare, it is far more likely that the father is
 **heterozygous ($Dd$)**, having inherited the $D$ allele from one parent (who may have been
 affected) and the $d$ allele from the other (unaffected parent). This is confirmed by the fact that
-Son 1 is unaffected ($dd$), which is only possible if the father contributed a $d$ allele, proving
+son 1 is unaffected ($dd$), which is only possible if the father contributed a $d$ allele, proving
 the father is $Dd$.
 
 (b) Daughter 1 is affected. Her father is $Dd$ and her mother is $dd$.

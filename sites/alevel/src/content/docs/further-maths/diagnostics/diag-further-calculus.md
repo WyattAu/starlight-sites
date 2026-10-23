@@ -138,7 +138,7 @@ $\frac{P}{1000-P} = \frac{e^t}{9}$. $P = \frac{1000e^t}{9 + e^t}$.
 (c) $P(5) = \frac{1000e^5}{9 + e^5} = \frac{1000(148.4)}{157.4} = 942.8$.
 
 (d) As $t \to \infty$: $P \to 1000$. The population approaches the **carrying capacity** of 1000.
-The growth is initially approximately exponential when $P$ is small, but slows as $P$
+the growth is initially approximately exponential when $P$ is small, but slows as $P$
 approaches 1000.
 
 ### IT-2: Integration Techniques (with Maclaurin Series)

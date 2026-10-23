@@ -402,7 +402,7 @@ escaped the worst effects of colonialism while China was heavily exploited by fo
    Southeast Asian economies, contributing to the broader Asian economic miracle.
 
 4. **Security architecture**: Japan's wartime defeat and the subsequent US-Japan alliance shaped the
-   Cold War security structure in East Asia, with Japan serving as the anchor of American power in
+   cold War security structure in East Asia, with Japan serving as the anchor of American power in
    the region.
 
 ---

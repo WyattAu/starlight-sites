@@ -19,7 +19,7 @@ description: "Social identity theory (SIT), developed by Henri Tajfel and John T
 
 Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the
 most influential theories in social psychology. It explains how individuals derive part of their
-Self-concept from their membership in social groups, and how this social identity drives intergroup
+self-concept from their membership in social groups, and how this social identity drives intergroup
 Behaviour, including prejudice, discrimination, and cooperation.
 
 ## Core Concepts of Social Identity Theory
@@ -37,14 +37,14 @@ Tajfel and Turner distinguished between two levels of identity:
 
 People possess multiple social identities simultaneously (e.g., nationality, gender, ethnicity,
 Profession, religion), and the salience of a particular social identity varies depending on the
-Social context.
+social context.
 
 ### The Three Processes of SIT
 
 **1. Social categorisation:** The cognitive process of dividing the social world into discrete
 Categories (e.g., "us" versus "them," "British" versus "French," "students" versus "teachers").
 Categorisation simplifies the social environment by reducing its complexity, allowing individuals to
-Perceive themselves and others as members of groups rather than as unique individuals. Once
+perceive themselves and others as members of groups rather than as unique individuals. Once
 Categories are established, people tend to perceive members of the same category as more similar to
 each other (in-group homogeneity) and more different from members of other categories (out-group
 Differentiation) than is actually the case.
@@ -53,7 +53,7 @@ Differentiation) than is actually the case.
 Belongs. Individuals internalise the norms, values, beliefs, and behaviours associated with their
 in-group, and their self-concept becomes intertwined with the group's identity. The individual's
 Behaviour begins to conform to group norms, and the individual may act in ways that benefit the
-Group even at personal cost.
+group even at personal cost.
 
 **3. Social comparison:** The process of comparing one's in-group with relevant out-groups. People
 have a fundamental need for positive self-esteem (which they seek to satisfy through their social
@@ -70,12 +70,12 @@ their in-group. This leads to:
 ### Positive Distinctiveness
 
 The need for positive distinctiveness drives intergroup behaviour. Positive distinctiveness is
-Achieved when the in-group is perceived as positively different from relevant out-groups on
-Dimensions that are important to the in-group. The dimensions of comparison are not fixed; groups
+achieved when the in-group is perceived as positively different from relevant out-groups on
+dimensions that are important to the in-group. The dimensions of comparison are not fixed; groups
 Select comparison dimensions that favour their in-group (this is known as the strategy of "social
 Creativity"). For example, a group that is lower in socioeconomic status may compare itself with
 out-groups on dimensions such as morality, community spirit, or cultural richness, where it can
-Claim superiority.
+claim superiority.
 
 ## Key Studies
 
@@ -83,8 +83,8 @@ Claim superiority.
 
 The minimal group paradigm is the most important experimental evidence for social identity theory.
 Tajfel and colleagues demonstrated that the mere act of categorising people into groups is
-Sufficient to produce in-group favouritism and discriminatory behaviour, even in the absence of any
-Conflict of interest, prior acquaintance, or meaningful differences between the groups.
+sufficient to produce in-group favouritism and discriminatory behaviour, even in the absence of any
+conflict of interest, prior acquaintance, or meaningful differences between the groups.
 
 **Methodology:**
 
@@ -134,12 +134,12 @@ Identity, with names, flags, and group norms.
 **Phase 2 -- Intergroup conflict:** The two groups were brought into contact through a series of
 Competitive activities (tug-of-war, baseball, treasure hunts) with prizes for the winning group.
 Intergroup conflict rapidly escalated: name-calling, raids on each other's cabins, food fights, and
-Physical aggression. Each group developed negative stereotypes of the other group.
+physical aggression. Each group developed negative stereotypes of the other group.
 
 **Phase 3 -- Conflict reduction:** Sherif introduced superordinate goals -- goals that could only be
 Achieved through the cooperation of both groups working together. Examples included fixing a broken
 Water tank (the camp's only water supply), pooling money to rent a movie, and pushing a broken-down
-Truck to start it. Through cooperation on superordinate goals, intergroup hostility decreased and
+truck to start it. Through cooperation on superordinate goals, intergroup hostility decreased and
 Cross-group friendships formed.
 
 **Evaluation:**
@@ -157,14 +157,14 @@ Cross-group friendships formed.
 ## Realistic Conflict Theory
 
 Realistic conflict theory, proposed by Sherif (1966), explains intergroup conflict as a result of
-Competition over scarce resources (such as money, land, political power, or social status).
+competition over scarce resources (such as money, land, political power, or social status).
 According to this theory, prejudice and discrimination are rational responses to realistic threats
 to the in-group's interests, not merely the product of cognitive categorisation processes.
 
 ### Relationship between SIT and Realistic Conflict Theory
 
 SIT and realistic conflict theory are complementary rather than contradictory. SIT explains the
-Cognitive processes that give rise to in-group favouritism and out-group bias in the absence of real
+cognitive processes that give rise to in-group favouritism and out-group bias in the absence of real
 Conflict (as demonstrated by the minimal group paradigm). Realistic conflict theory explains how
 Real conflicts of interest amplify these biases into open hostility and discrimination.
 
@@ -176,9 +176,9 @@ Real conflicts of interest amplify these biases into open hostility and discrimi
 ### Cialdini et al. (1976): Basking in Reflected Glory
 
 Cialdini and colleagues investigated how people use their social identity to enhance their
-Self-esteem. They observed that university students were significantly more likely to wear
+self-esteem. They observed that university students were significantly more likely to wear
 University-branded clothing on Mondays following a football victory than on Mondays following a
-Defeat. The researchers interpreted this as "basking in reflected glory" (BIRG) -- associating
+defeat. The researchers interpreted this as "basking in reflected glory" (BIRG) -- associating
 Oneself with a successful group to enhance one's own self-esteem.
 
 **Key findings:**

@@ -263,7 +263,7 @@ Solution is to close programs or add more RAM.
 **Worked Example (HL).** A computer has 4 GB RAM. Programs require 7 GB total. Explain what happens.
 
 The OS uses 3 GB of virtual memory on the SSD. When a program accesses data in virtual memory, a
-Page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
+page fault occurs, causing a delay of milliseconds (vs nanoseconds for RAM). The system may thrash
 if too many programs are running.
 
 **Worked Example (HL).** A computer has 8 GB of RAM and runs programs that require 12 GB total. The
@@ -332,7 +332,7 @@ The average access time is dramatically reduced compared to using only RAM.
 ### I/O Controllers
 
 I/O devices are connected to the CPU through I/O controllers, which manage data transfer between the
-Device and the CPU/memory.
+device and the CPU/memory.
 
 ### Interrupts (HL)
 
@@ -767,7 +767,7 @@ thermostats.
 
 **Worked Example (HL).** A traffic light controller is an embedded system. It runs a fixed program
 Stored in ROM that cycles through red, amber, and green at set intervals. It has no screen or
-Keyboard -- its only output is the lights themselves. It must respond within strict time limits
+keyboard -- its only output is the lights themselves. It must respond within strict time limits
 (real-time) for safety.
 
 ### The Systems Life Cycle (OL/HL)
@@ -934,7 +934,7 @@ See the examples integrated throughout the sections above.
 
 1. Explain how cache memory improves CPU performance.
 2. A program has $2 \times 10^9$ instructions. The CPU runs at 2.5 GHz with an average CPI of 3.
-   Calculate the execution time.
+   calculate the execution time.
 3. Represent $-20$ in 8-bit two's complement and add it to $15$ in two's complement.
 4. Design a logic circuit for a half adder and provide the truth table.
 

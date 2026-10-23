@@ -23,7 +23,7 @@ categories:
 ## Instructions
 
 This diagnostic test contains **45 questions** spanning all A Level Mathematics topics. Each
-Question tests a specific concept and requires 2-5 steps. Attempt all questions before checking
+question tests a specific concept and requires 2-5 steps. Attempt all questions before checking
 Solutions.
 
 - **Time:** Allow approximately 90 minutes.

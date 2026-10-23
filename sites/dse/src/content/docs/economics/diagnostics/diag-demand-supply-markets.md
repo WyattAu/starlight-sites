@@ -102,7 +102,7 @@ $= \frac{1}{2} \times (150 - 100) \times (6000 - 4000) = \frac{1}{2} \times 50 \
 $P$ is in HKD. (a) Calculate the PES when price rises from $\$50$ to $\$70$. (b) At what price does
 the restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
 Nearby and the supply shifts to $Q_s = -20 + 7P$ Compare the new PES over the same price range and
-Explain the change.
+explain the change.
 
 **Solution:**
 
@@ -113,8 +113,8 @@ $PES = \frac{\Delta Q / \bar{Q}}{\Delta P / \bar{P}} = \frac{100/280}{20/60} = \
 $PES \approx 1.07 \gt 1$: Supply is **unit elastic / slightly elastic**.
 
 (b) The restaurant starts supplying when $Q_s = 0$: $-20 + 5P = 0$, $P = 4$. The restaurant needs a
-Minimum price of $\$4$ to cover its variable costs before it begins supplying. Below this price, the
-Restaurant would shut down in the short run.
+minimum price of $\$4$ to cover its variable costs before it begins supplying. Below this price, the
+restaurant would shut down in the short run.
 
 (c) New supply at $P = 50$: $Q_s = -20 + 7(50) = 330$. At $P = 70$: $Q_s = -20 + 7(70) = 470$.
 
@@ -162,10 +162,10 @@ Revenue $= 10 \times 90 = \$900$.
 (d) Cigarette consumption creates negative externalities: second-hand smoke harms non-smokers'
 Health, smoking-related illnesses increase public healthcare costs, and productivity losses affect
 the economy. In an unregulated market, consumers overconsume cigarettes because they do not bear the
-Full social cost. The tax internalises the externality by raising the price closer to the social
+full social cost. The tax internalises the externality by raising the price closer to the social
 Cost. If the tax equals the marginal external cost, the deadweight loss from overconsumption is
-Eliminated, and the remaining deadweight loss from reduced trade is offset by the gain from
-Correcting the externality. This is an example of a Pigouvian tax.
+eliminated, and the remaining deadweight loss from reduced trade is offset by the gain from
+correcting the externality. This is an example of a Pigouvian tax.
 
 ### IT-2: Market Equilibrium Shifts (with Basic Economic Concepts)
 
@@ -185,7 +185,7 @@ Schedules:
 </div>
 
 (a) Determine equilibrium price and quantity. (b) If the MTR extends a new line, causing supply to
-Increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
+increase by 100 thousand rides at every price, calculate the new equilibrium. (c) Calculate PED
 between the original and new equilibrium for consumers. (d) Explain how this relates to the concept
 of opportunity cost for commuters who switch from taxis to MTR.
 
@@ -219,10 +219,10 @@ Increase in quantity demanded.
 
 (d) When the MTR expands, the opportunity cost of using public transport decreases (the same trip
 Now takes less time or is more convenient). Commuters who previously used taxis face a trade-off:
-The taxi saves time but costs more. The lower MTR price and improved convenience shift the
-Opportunity cost balance in favour of MTR. This demonstrates opportunity cost in action -- choosing
+the taxi saves time but costs more. The lower MTR price and improved convenience shift the
+opportunity cost balance in favour of MTR. This demonstrates opportunity cost in action -- choosing
 MTR means forgoing the speed of a taxi, but the benefit of saving money now outweighs the cost of
-Slightly longer travel time for many commuters.
+slightly longer travel time for many commuters.
 
 ### IT-3: Subsidy and Surplus Analysis (with Market Structure)
 
@@ -255,8 +255,8 @@ Increases the price they receive per unit from $\$35$ to $\$39$. In the short ru
 Increases output along their MC curve until MC $= \$39$ (rather than MC $= \$35$). In the long run,
 The higher price attracts new farmers to enter the market (since economic profit is now positive),
 Shifting supply further to the right. This continues until economic profit returns to zero. The
-Subsidy ultimately benefits consumers (lower prices) and farmers (higher effective prices), but at a
-Cost to taxpayers and with a deadweight loss from overproduction.
+subsidy ultimately benefits consumers (lower prices) and farmers (higher effective prices), but at a
+cost to taxpayers and with a deadweight loss from overproduction.
 
 ## Additional DSE Exam-Style Questions
 

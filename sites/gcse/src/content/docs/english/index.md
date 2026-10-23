@@ -51,16 +51,16 @@ sources:
 ## GCSE English Literature
 
 GCSE English Literature is a compulsory qualification across all major examination boards in
-England, Wales, and Northern Ireland. The course requires students to study a substantial body of
-Literary texts spanning from the late sixteenth century to the present day, and to demonstrate the
-Ability to read critically, analyse language and form, and construct sustained, well-evidenced
+england, Wales, and Northern Ireland. The course requires students to study a substantial body of
+literary texts spanning from the late sixteenth century to the present day, and to demonstrate the
+ability to read critically, analyse language and form, and construct sustained, well-evidenced
 Arguments in written prose.
 
 The subject is assessed entirely through terminal written examinations. There is no coursework
 Component on any of the four main boards, although some legacy specifications retain controlled
 Assessment in Wales. All examinations are closed-book on AQA and Edexcel, meaning students must
-Memorise quotations; OCR and WJEC/Eduqas permit the use of clean copies of the texts in the
-Examination hall.
+memorise quotations; OCR and WJEC/Eduqas permit the use of clean copies of the texts in the
+examination hall.
 
 ## Board Coverage
 
@@ -77,7 +77,7 @@ Examination hall.
 
 :::note
 Is common to all boards. Differences lie in the arrangement of texts across papers, the presence or
-Absence of an anthology, and whether texts may be taken into the examination.
+absence of an anthology, and whether texts may be taken into the examination.
 
 ## Assessment Objectives
 
@@ -87,12 +87,12 @@ any examination response.
 
 **AO1 -- Read, understand, and respond to texts.** This objective rewards clear, accurate
 Comprehension of the text and the ability to maintain a coherent, relevant argument throughout a
-Response. It also assesses the quality of written expression: spelling, punctuation, grammar, and
+response. It also assesses the quality of written expression: spelling, punctuation, grammar, and
 the use of appropriate literary terminology.
 
 **AO2 -- Analyse the language, form, and structure used by a writer to create meanings and
 Effects.** This is the core analytical objective. It requires students to engage with how a text is
-Constructed -- the specific word choices (diction), sentence structures (syntax), figurative
+constructed -- the specific word choices (diction), sentence structures (syntax), figurative
 Language, narrative perspective, dramatic devices, and structural patterns that produce meaning.
 
 **AO3 -- Show understanding of the relationships between texts and the contexts in which they were
@@ -102,7 +102,7 @@ The contextual point must be linked to a specific moment in the text.
 
 **AO4 -- Use a range of vocabulary and sentence structures for clarity, purpose, and effect, with
 Accurate spelling and punctuation.** On some boards this is integrated into AO1; on others it is
-Assessed separately. In all cases, the quality of written communication affects the overall mark.
+assessed separately. In all cases, the quality of written communication affects the overall mark.
 
 The weighting of these objectives varies by board and by question. For detailed breakdowns, consult
 the individual board specification documents.
@@ -110,7 +110,7 @@ the individual board specification documents.
 ## Paper 1: Shakespeare and the 19th-Century Novel
 
 This paper (or its equivalent across boards) tests students on two literary heritage texts. The
-Shakespeare component requires an essay on either a whole play or a specified extract plus The play
+shakespeare component requires an essay on either a whole play or a specified extract plus The play
 as a whole. The 19th-century novel component follows a similar pattern: an extract-based Question or
 a whole-text question, depending on the board.
 
@@ -123,14 +123,14 @@ components.
 ## Paper 2: Modern Texts and Poetry
 
 This paper covers post-1914 drama or prose, an examined poetry anthology (where applicable), and
-Unseen poetry. The unseen poetry component is a distinctive feature of GCSE English Literature: it
-Requires students to apply their analytical skills to a poem they have not studied, demonstrating
+unseen poetry. The unseen poetry component is a distinctive feature of GCSE English Literature: it
+requires students to apply their analytical skills to a poem they have not studied, demonstrating
 that their critical abilities are transferable rather than rote-learned.
 
 The poetry anthology varies by board. AQA requires study of 15 poems from the "Power and Conflict"
 Or "Love and Relationships" clusters. Edexcel specifies a collection organised by theme. OCR
 Prescribes a pre-1900 poetry anthology studied alongside Shakespeare in Paper 1. WJEC/Eduqas has its
-Own anthology of Welsh and English-language poetry.
+own anthology of Welsh and English-language poetry.
 
 See the guide on [Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/) for
 full coverage.
@@ -155,14 +155,14 @@ provides Comprehensive frameworks for structuring and writing examination essays
 
 Comparison is assessed on every board, most commonly in the poetry section. Effective comparison
 Requires students to identify points of similarity and difference between texts, and to evaluate the
-Significance of those connections. It is not sufficient to write about one text and then the other;
-Comparative points must be integrated throughout the response.
+significance of those connections. It is not sufficient to write about one text and then the other;
+comparative points must be integrated throughout the response.
 
 ### Context
 
 Contextual knowledge must be specific, relevant, and integrated into analysis. Students should avoid
 Undifferentiated "context dumps" -- long paragraphs of historical information unconnected to the
-Text. The strongest responses weave contextual understanding into the fabric of their argument,
+text. The strongest responses weave contextual understanding into the fabric of their argument,
 Showing how a writer"s historical circumstances shaped specific literary choices.
 
 ## Examination Structure Summary

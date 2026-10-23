@@ -262,7 +262,7 @@ Coefficient: $\binom{7}{3} \cdot 2^3 = 35 \times 8 = 280$.
 ### Selection Problems
 
 When a problem involves selecting from distinct groups, multiply the number of choices for each
-Group.
+group.
 
 ### Worked Example 8
 

@@ -28,10 +28,10 @@ description: "Development is a multidimensional concept encompassing economic pr
 ## The Challenge of Measurement
 
 Development is a multidimensional concept encompassing economic progress, social well-being,
-Environmental sustainability, political freedom, and quality of life. No single indicator captures
+environmental sustainability, political freedom, and quality of life. No single indicator captures
 all dimensions, and the choice of indicator shapes both our understanding of development and the
-Policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
-Measure captures, what it omits, and how it can be misinterpreted.
+policy prescriptions that follow. Selecting appropriate indicators requires awareness of what each
+measure captures, what it omits, and how it can be misinterpreted.
 
 ## Single Economic Indicators
 
@@ -39,10 +39,10 @@ Measure captures, what it omits, and how it can be misinterpreted.
 
 **GDP** measures the total monetary value of all final goods and services produced within a
 Country's borders in a given year. **GNI** adjusts GDP by adding income earned by residents from
-Abroad and subtracting income earned by foreigners domestically.
+abroad and subtracting income earned by foreigners domestically.
 
 Per capita figures (GDP per capita, GNI per capita) are standardised by population and are the most
-Widely used indicators for comparing economic development across countries.
+widely used indicators for comparing economic development across countries.
 
 <div class="table-wrap">
 
@@ -96,8 +96,8 @@ Thresholds):
 GDP per capita is the most commonly cited development indicator in examination responses, but it is
 also the most commonly misused. When using GDP per capita, always acknowledge its limitations
 (distribution, non-market activities, sustainability) and complement it with other indicators. A
-Strong answer will use multiple indicators to construct a nuanced picture of development. For
-Example, "Nigeria has a GDP per capita of approximately USD 2100 (World Bank, 2023), classifying it
+strong answer will use multiple indicators to construct a nuanced picture of development. For
+example, "Nigeria has a GDP per capita of approximately USD 2100 (World Bank, 2023), classifying it
 as lower-middle income. However, this average conceals extreme inequality (Gini coefficient
 Approximately 35), and Nigeria's HDI of 0.535 places it in the medium human development category.
 The Multidimensional Poverty Index shows that approximately 47% of Nigerians experience overlapping
@@ -110,14 +110,14 @@ Deprivations in health, education, and living standards."
 ### Human Development Index (HDI)
 
 The HDI, created by the UN Development Programme (UNDP) in 1990, combines three dimensions into a
-Single index ranging from 0 to 1:
+single index ranging from 0 to 1:
 
 $$
 \mathrm{HDI} = \frac{I_{\mathrm{health}} + I_{\mathrm{education}} + I_{\mathrm{income}}}{3}
 $$
 
 Where $I_{\mathrm{health}}$ is measured by life expectancy at birth, $I_{\mathrm{education}}$ is the
-Geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
+geometric mean of mean years of schooling and expected years of schooling, and $I_{\mathrm{income}}$
 is measured by GNI per capita (PPP).
 
 <div class="table-wrap">
@@ -157,14 +157,14 @@ of development.
 
 **Gender Inequality Index (GII).** Measures gender-based inequality across three dimensions:
 Reproductive health (maternal mortality ratio, adolescent birth rate), empowerment (seats in
-Parliament, secondary and higher education attainment), and labour market participation. GII values
+parliament, secondary and higher education attainment), and labour market participation. GII values
 Range from 0 (no inequality) to 1 (maximum inequality). As of 2023, the lowest GII values (least
 Inequality) are found in Denmark (0.039), Switzerland (0.038), and the Netherlands (0.040); the
-Highest (most inequality) in Yemen (0.835), Afghanistan (0.738), and Chad (0.707).
+highest (most inequality) in Yemen (0.835), Afghanistan (0.738), and Chad (0.707).
 
 **Gender Development Index (GDI).** Compares female and male HDI values. A GDI of 1.00 indicates
 Full gender parity in human development. Globally, the female HDI is approximately 5% lower than the
-Male HDI.
+male HDI.
 
 ### Multidimensional Poverty Index (MPI)
 
@@ -200,7 +200,7 @@ Population) live in multidimensional poverty. The highest rates are in Sub-Sahar
 Gross National Happiness, developed by Bhutan, is a holistic measure of development that encompasses
 Nine domains: psychological well-being, health, education, time use, cultural resilience, good
 Governance, community vitality, ecological diversity, and living standards. Bhutan uses GNH as a
-Guide for policy-making, screening all new government policies through a GNH impact assessment.
+guide for policy-making, screening all new government policies through a GNH impact assessment.
 
 **Strengths:** broadens the concept of development beyond economic metrics; integrates environmental
 Sustainability and cultural values.
@@ -218,7 +218,7 @@ $$
 $$
 
 The HPI measures the ecological efficiency with which countries achieve well-being. Countries with
-High well-being and long life expectancy but low ecological footprints score highest.
+high well-being and long life expectancy but low ecological footprints score highest.
 
 **Results:** Costa Rica consistently ranks first (high life expectancy of approximately 80 years,
 High reported well-being, and a relatively low ecological footprint). High-income countries score
@@ -248,7 +248,7 @@ Indices without understanding these methodological differences can lead to misle
 For example, a country may rank high on the HDI (because it has high income) but low on the HPI
 (because its ecological footprint is large), or high on the HDI but low on the IHDI (because income
 is highly unequal). When using composite indices in examination responses, briefly explain what the
-Index measures and how it is constructed, and use the index that is most relevant to the specific
+index measures and how it is constructed, and use the index that is most relevant to the specific
 Aspect of development being discussed.
 
 </details>

@@ -405,7 +405,7 @@ Set-Cookie: session_id=abc123; HttpOnly; Secure; SameSite=Strict
 </div>
 
 A **session** is server-side state. The server stores the session and sends the session ID as a
-Cookie. On subsequent requests, the cookie identifies the session.
+cookie. On subsequent requests, the cookie identifies the session.
 
 <hr />
 
@@ -589,8 +589,8 @@ Check). **Server-side** runs after submission against backend resources (e.g., c
 
 Server-side validation is always necessary because: (1) JavaScript can be disabled; (2) attackers
 can send crafted HTTP requests directly, bypassing the browser entirely; (3) only the server can
-Verify business rules (sufficient funds, item in stock). Client-side validation is UX only, not
-Security.
+verify business rules (sufficient funds, item in stock). Client-side validation is UX only, not
+security.
 
 </details>
 
@@ -619,7 +619,7 @@ Displayed.
 
 **Stored XSS:** Attacker submits malicious script via an input field; server stores it uns
 Sanitised. Every user who views the page executes the script. **Prevent:** sanitise and encode all
-User input; use CSP headers.
+user input; use CSP headers.
 
 **Reflected XSS:** Attacker crafts a URL with script in a parameter; server reflects it without
 Encoding. Victim must click the link. **Prevent:** encode all user-supplied data in responses.

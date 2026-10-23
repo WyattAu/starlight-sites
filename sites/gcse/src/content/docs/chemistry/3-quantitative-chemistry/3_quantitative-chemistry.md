@@ -29,7 +29,7 @@ categories:
 ### 1.1 Calculating Relative Formula Mass
 
 The **relative formula mass** ($M_r$) of a compound is the sum of the relative atomic masses of all
-Atoms in the formula. For a molecule, this is also called the relative molecular mass.
+atoms in the formula. For a molecule, this is also called the relative molecular mass.
 
 **Worked Example.** Calculate $M_r$ for CaCO$_3$.
 
@@ -45,7 +45,7 @@ $$
 
 :::caution
 The formula, including atoms inside brackets. The subscript outside the bracket applies to every
-Atom inside.
+atom inside.
 
 **Worked Example.** Calculate $M_r$ for Cu(NO$_3$)$_2$.
 
@@ -98,7 +98,7 @@ are atoms in 12 g of carbon-12.
 ### 2.2 Why the Mole Is Useful
 
 Without the mole, chemists would have to work with individual atoms -- far too small to weigh. The
-Mole provides a convenient scale: instead of saying "react $6.02 \times 10^{23}$ molecules", we say
+mole provides a convenient scale: instead of saying "react $6.02 \times 10^{23}$ molecules", we say
 "react 1 mole". The balanced equation then directly gives the mole ratio, making calculations
 Straightforward.
 
@@ -224,7 +224,7 @@ $$
 
 Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain
 Equal numbers of molecules. This arises because gas molecules are very far apart compared to their
-Size, so the volume depends on the number of molecules, not on their identity. At RTP, one mole of
+size, so the volume depends on the number of molecules, not on their identity. At RTP, one mole of
 any ideal gas occupies 24 dm$^3$.
 
 ## 3. Conservation of Mass and Balanced Equations
@@ -420,11 +420,11 @@ To convert dm$^3$ to cm$^3$: multiply by 1000.
 ### 5.1 Limiting Reactant
 
 The **limiting reactant** is the reactant that is completely used up first. It determines the
-Maximum amount of product that can be formed. The other reactant is **in excess**.
+maximum amount of product that can be formed. The other reactant is **in excess**.
 
 To identify the limiting reactant: convert all reactant masses to moles, then compare the actual
 Mole ratio with the stoichiometric ratio. The reactant that has fewer moles relative to its
-Coefficient in the balanced equation is the limiting reactant.
+coefficient in the balanced equation is the limiting reactant.
 
 **Systematic method:** Divide the number of moles of each reactant by its stoichiometric
 Coefficient. The smallest result is the limiting reactant.
@@ -444,7 +444,7 @@ n(\mathrm{O_2) = \frac{32}{32} = 1 \mathrm{ mol
 $$
 
 Divide by coefficients: H$_2$: $4/2 = 2$ O$_2$: $1/1 = 1$. O$_2$ gives the smaller value, so it is
-Limiting.
+limiting.
 
 From the equation: 1 mol O$_2$ produces 2 mol H$_2$O.
 
@@ -487,7 +487,7 @@ n(\mathrm{HCl) = 2.0 \times 0.100 = 0.200 \mathrm{ mol
 $$
 
 Divide by coefficients: CaCO$_3$: $0.0999/1 = 0.0999$ HCl: $0.200/2 = 0.100$. CaCO$_3$ gives the
-Smaller value, so it is the limiting reactant.
+smaller value, so it is the limiting reactant.
 
 ### 5.2 Percentage Yield
 
@@ -767,7 +767,7 @@ $$
 $n(\mathrm{HCl) = 1.0 \times 0.150 = 0.150 \mathrm{ mol$
 
 Stoichiometry requires $2 \times 0.200 = 0.400$ mol HCl, but only 0.150 mol is available. HCl is the
-Limiting reactant.
+limiting reactant.
 
 $n(\mathrm{CaCl_2) = n(\mathrm{HCl)/2 = 0.0750 \mathrm{ mol$
 
@@ -909,7 +909,7 @@ $$
 $$
 
 Since this exceeds 100%, there must be experimental error (perhaps the gas was not perfectly dry, or
-Measurements were slightly off).
+measurements were slightly off).
 
 ### 9.3 Converting Between Units
 

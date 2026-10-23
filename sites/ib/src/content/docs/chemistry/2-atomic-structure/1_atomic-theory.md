@@ -42,7 +42,7 @@ could not explain the existence of isotopes or subatomic particles.
 ### Thomson's Plum Pudding Model (1897)
 
 J.J. Thomson discovered the electron using cathode ray experiments. He proposed that atoms are
-Spheres of positive charge with embedded electrons (like plums in pudding).
+spheres of positive charge with embedded electrons (like plums in pudding).
 
 Key evidence: cathode rays were deflected by electric and magnetic fields, had a fixed
 Charge-to-mass ratio, and were independent of the cathode material.
@@ -50,7 +50,7 @@ Charge-to-mass ratio, and were independent of the cathode material.
 ### Rutherford's Nuclear Model (1911)
 
 Ernest Rutherford directed alpha particles at a thin gold foil. Most passed through, but some were
-Deflected at large angles, and a few rebounded directly.
+deflected at large angles, and a few rebounded directly.
 
 **Observations:**
 
@@ -111,7 +111,7 @@ $$
 $$
 
 This means electrons cannot be described as orbiting in fixed paths. Instead, we describe regions of
-Probability.
+probability.
 
 ### Schrodinger Wave Equation (1926)
 
@@ -122,7 +122,7 @@ $$
 $$
 
 Where $\hat{H}$ is the Hamiltonian operator. The square of the wave function, $|\Psi|^2$ Gives the
-Probability density of finding the electron at a given position.
+probability density of finding the electron at a given position.
 
 This is the basis of the **quantum mechanical model** of the atom.
 
@@ -187,7 +187,7 @@ Holds a maximum of two electrons with opposite spins.
 ### Hund's Rule
 
 Within a degenerate set of orbitals, electrons occupy separate orbitals with parallel spins before
-Pairing.
+pairing.
 
 ### Writing Configurations
 
@@ -505,7 +505,7 @@ Z_{\mathrm{eff}}(4s) = 26 - 22.25 = 3.75
 $$
 
 Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$ Which suggests $4s$ is higher in
-Energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
+energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
 Subshell is occupied, however, the $3d$ electrons shield the $4s$ electrons, raising $4s$ above $3d$
 in energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
 
@@ -521,7 +521,7 @@ $11577$$14842$. Identify the element and explain your reasoning.
 
 The large jump occurs between $IE_3$ and $IE_4$ (from $2745$ to $11577\mathrm{ kJ/mol}$), indicating
 that the first three electrons are valence electrons and the fourth is from an inner shell. This
-Corresponds to a Group 13 element with three valence electrons.
+corresponds to a Group 13 element with three valence electrons.
 
 $IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
 $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
@@ -532,7 +532,7 @@ $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 <summary>Problem 3</summary>
 
 Explain why the second ionization energy of sodium ($4562\mathrm{ kJ/mol}$) is much larger than the
-First ($496\mathrm{ kJ/mol}$), while the second ionization energy of magnesium
+first ($496\mathrm{ kJ/mol}$), while the second ionization energy of magnesium
 ($1451\mathrm{ kJ/mol}$) is less than twice the first ($738\mathrm{ kJ/mol}$).
 
 **Solution:**
@@ -542,8 +542,8 @@ Shell, which is much closer to the nucleus and experiences far greater $Z_{\math
 less shielding. This accounts for the nearly tenfold increase.
 
 For magnesium: both $IE_1$ and $IE_2$ remove $3s$ electrons from the same valence shell. The
-Increase from $IE_1$ to $IE_2$ is due to reduced electron-electron repulsion after the first
-Electron is removed, increasing $Z_{\mathrm{eff}}$ on the remaining electron. But both are still
+increase from $IE_1$ to $IE_2$ is due to reduced electron-electron repulsion after the first
+electron is removed, increasing $Z_{\mathrm{eff}}$ on the remaining electron. But both are still
 Valence electrons, so the jump is modest.
 
 </details>
@@ -618,7 +618,7 @@ $11577$$14842$. Identify the element and justify your reasoning.
 **Step 1: Locate the large jump.**
 
 The jump between $IE_3$ ($2745\mathrm{ kJ/mol}$) and $IE_4$ ($11577\mathrm{ kJ/mol}$) is
-Approximately a factor of 4. This is the largest discontinuity in the series.
+approximately a factor of 4. This is the largest discontinuity in the series.
 
 **Step 2: Interpret the jump.**
 
@@ -635,7 +635,7 @@ $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 
 $IE_1$ removes a $3p$ electron. $IE_2$ removes a $3s$ electron. $IE_3$ removes the second $3s$
 Electron. $IE_4$ would remove a $2p$ electron from the $n = 2$ shell, which is much closer to the
-Nucleus with far greater $Z_{\mathrm{eff}}$.
+nucleus with far greater $Z_{\mathrm{eff}}$.
 
 </details>
 

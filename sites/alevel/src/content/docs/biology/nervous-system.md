@@ -111,7 +111,7 @@ This creates two concentration gradients:
 The resting membrane is much more permeable to $\mathrm{K^+}$ than to $\mathrm{Na^+}$ (due to more
 $\mathrm{K^+}$ leak channels). $\mathrm{K^+}$ diffuses out of the cell down its concentration
 gradient, carrying positive charge with it. This makes the inside negative relative to the outside.
-The resting potential is close to the equilibrium potential for $\mathrm{K^+}$ (approximately
+the resting potential is close to the equilibrium potential for $\mathrm{K^+}$ (approximately
 $-90\ \mathrm{mV}$), but is slightly less negative (around $-70\ \mathrm{mV}$) because of a small
 inward leak of $\mathrm{Na^+}$.
 

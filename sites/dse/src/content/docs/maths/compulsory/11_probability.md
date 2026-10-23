@@ -23,7 +23,7 @@ DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial 
 Conditional probability, and independence. This page connects to
 [Permutations and Combinations](/maths/compulsory/13_permutations-and-combinations/)
 For counting techniques and [Dispersion](/maths/compulsory/12_dispersion/) for the statistical interpretation of
-Probability distributions.
+probability distributions.
 
 ## Notations
 
@@ -92,7 +92,7 @@ $$
 
 In practice, $\frac{n_A}{n}$ is used as an estimate of $P(A)$ for large $n$. The frequentist
 Interpretation motivates the axioms: long-run relative frequencies behave consistently with the
-Rules below.
+rules below.
 
 ### Axioms of Probability (Kolmogorov)
 
@@ -110,7 +110,7 @@ $$
 $$
 
 These three axioms are the foundation of all probability theory. Every theorem and formula on this
-Page derives from them.
+page derives from them.
 
 ### Fundamental Theorems
 
@@ -197,7 +197,7 @@ $$
 $$
 
 The subtraction of $P(A \cap B)$ corrects for double-counting: outcomes in both $A$ and $B$ are
-Counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
+counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
 
 ### Mutually Exclusive Events
 
@@ -253,7 +253,7 @@ $$
 Substituting back and rearranging yields the stated result. $\square$
 
 The pattern continues: for $n$ events, you alternate adding and subtracting terms of each
-Intersection size. This is the probability analogue of the inclusion-exclusion principle.
+intersection size. This is the probability analogue of the inclusion-exclusion principle.
 
 ### Inclusion-Exclusion Principle
 
@@ -266,14 +266,14 @@ $$
 $$
 
 When outcomes are equally likely, dividing both sides by $|S|$ yields the general addition rule. The
-Full inclusion-exclusion principle extends to $n$ sets and is covered in
+full inclusion-exclusion principle extends to $n$ sets and is covered in
 [../compulsory/13_permutations-and-combinations](/maths/compulsory/13_permutations-and-combinations/)).
 
 </details>
 <summary>DSE-style Example</summary>
 
 In a class of 40 students, 25 study Physics, 20 study Chemistry, and 8 study both. A student is
-Chosen at random. Find the probability that the student studies at least one of the two subjects.
+chosen at random. Find the probability that the student studies at least one of the two subjects.
 
 Let $P$ = studies Physics, $C$ = studies Chemistry.
 
@@ -312,7 +312,7 @@ $$
 ### Intuition: Shrinking the Sample Space
 
 Conditioning on $B$ means we restrict our universe to outcomes where $B$ has already occurred. The
-Sample space effectively shrinks from $S$ to $B$. Within this restricted space, the probability of
+sample space effectively shrinks from $S$ to $B$. Within this restricted space, the probability of
 $A$ is the proportion of $B$ that also belongs to $A$:
 
 $$
@@ -354,7 +354,7 @@ $$
 Therefore $P(A \mid B) = 1 - P(A' \mid B)$. $\square$
 
 This is the conditional analogue of Theorem 2: the conditional probabilities of an event and its
-Complement must sum to 1 within the conditioned space.
+complement must sum to 1 within the conditioned space.
 
 ### Multiplication Rule
 
@@ -480,8 +480,8 @@ Now $A'$ = "first coin is tails" and $B'$ = "second coin is heads":
 $B$ are **not** independent.
 
 _Proof._ If $A \cap B = \emptyset$ Then $P(A \cap B) = 0$. But $P(A) \cdot P(B) \gt 0$ since both
-Factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B$ are not
-Independent. $\square$
+factors are positive. Therefore $P(A \cap B) \neq P(A) \cdot P(B)$ So $A$ and $B$ are not
+independent. $\square$
 
 Intuition: mutually exclusive events carry strong negative information about each other -- knowing
 one occurred guarantees the other did not. Independence means no information transfer at all. These
@@ -494,7 +494,7 @@ least one event has probability zero.
 <summary>DSE-style Example</summary>
 
 A fair coin is tossed 3 times. Let $A$ = "all three tosses are heads" and $B$ = "the first toss is
-Tails".
+tails".
 
 - $P(A) = \frac{1}{8}$$P(B) = \frac{1}{2}$.
 - $A \cap B = \emptyset$ (cannot have all heads if the first is tails), so $P(A \cap B) = 0$.
@@ -509,7 +509,7 @@ Independent.
 
 :::note
 Separately and compare. Do not assume independence from the problem description -- it must be
-Verified or explicitly stated.
+verified or explicitly stated.
 :::
 
 ## Bayes' Theorem
@@ -536,7 +536,7 @@ $$
 $$
 
 Bayes' theorem "reverses" the conditioning: it expresses $P(A \mid B)$ in terms of $P(B \mid A)$.
-This is the mathematical foundation of statistical inference -- updating beliefs given evidence.
+this is the mathematical foundation of statistical inference -- updating beliefs given evidence.
 
 ### Law of Total Probability
 
@@ -550,7 +550,7 @@ $$
 $$
 
 _Proof._ Since the $B_i$ partition $S$ The events $A \cap B_1, A \cap B_2, \ldots, A \cap B_n$ are
-Pairwise mutually exclusive and their union equals $A$. By Axiom 3:
+pairwise mutually exclusive and their union equals $A$. By Axiom 3:
 
 $$
 \begin{aligned}
@@ -596,7 +596,7 @@ $$
 $$
 
 Despite a 95% accurate test, a positive result only means about 32.4% chance of disease. This
-Counterintuitive result occurs because the disease is rare -- false positives vastly outnumber true
+counterintuitive result occurs because the disease is rare -- false positives vastly outnumber true
 Positives in absolute terms.
 
 </details>
@@ -626,7 +626,7 @@ because it produces the smallest share of total output.
 
 A probability tree is a directed graph that decomposes a multi-stage experiment into sequential
 Branches. Each level of the tree represents a stage, each branch represents an outcome at that
-Stage, and each branch is labelled with its probability.
+stage, and each branch is labelled with its probability.
 
 **Rules:**
 
@@ -770,7 +770,7 @@ $$
 $$
 
 1. **Question:** A bag contains 4 white and 6 black balls. Two balls are drawn at random without
-Replacement. Find the probability that they are of different colours.
+replacement. Find the probability that they are of different colours.
 
 <details>
 <summary>Answer</summary>
@@ -825,7 +825,7 @@ $P(A' \cap B')$.
 <summary>Answer</summary>
 
 By the complement independence theorem, since $A$ and $B$ are independent, $A'$ and $B'$ are also
-Independent:
+independent:
 
 $$
 \begin{aligned}
@@ -863,7 +863,7 @@ $P(A) \cdot P(B) = \frac{1}{3} \times \frac{1}{4} = \frac{1}{12} \neq \frac{1}{6
 Since $P(A \cap B) \neq P(A) \cdot P(B)$ The events are **not** independent.
 
 1. **Question:** A box contains 5 red, 3 green, and 2 blue marbles. Three marbles are drawn without
-Replacement. Find the probability that all three are the same colour.
+replacement. Find the probability that all three are the same colour.
 
 <details>
 <summary>Answer</summary>
@@ -885,8 +885,8 @@ $$
 $$
 
 1. **Question:** In a certain school, 60% of students take Mathematics, 40% take Physics, and 30%
-Take both. A student is selected at random. Given that the student takes Mathematics, what is the
-Probability that they also take Physics?
+take both. A student is selected at random. Given that the student takes Mathematics, what is the
+probability that they also take Physics?
 
 </details>
 <summary>Answer</summary>
@@ -900,7 +900,7 @@ $$
 Half of Mathematics students also take Physics.
 
 1. **Question:** A factory produces items using Machine $X$ (60% of output) and Machine $Y$ (40% of
-Output). The defect rates are 3% for $X$ and 7% for $Y$. An item is found to be defective. Use
+output). The defect rates are 3% for $X$ and 7% for $Y$. An item is found to be defective. Use
 Bayes' theorem to find the probability it was produced by Machine $X$.
 
 <details>
@@ -963,7 +963,7 @@ $$
 $$
 
 1. **Question:** A test for a condition has a sensitivity of 90% and a specificity of 95%. The
-Condition prevalence in the population is 1%. Find the positive predictive value
+condition prevalence in the population is 1%. Find the positive predictive value
 $P(\mathrm{condition} \mid \mathrm{positive})$.
 
 </details>

@@ -52,7 +52,7 @@ Calcium ($Z = 20$) has electron configuration $2, 8, 8, 2$. It loses two electro
 $\mathrm{Ca^{2+}$ ($2, 8, 8$). Each fluorine ($Z = 9$) has electron configuration $2, 7$ and gains
 one electron to form $\mathrm{F^-$ ($2, 8$). The dot-and-cross diagram shows two electrons
 Transferred from calcium (crosses) to one electron each accepted by two fluorine atoms (dots). The
-Resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
+resulting $\mathrm{Ca^{2+}$ and two $\mathrm{F^-$ ions are held together by electrostatic attraction
 in a giant ionic lattice.
 
 **Covalent Bonding:**
@@ -70,7 +70,7 @@ A shared pair of electrons between two atoms. Covalent bonds can be single, doub
 
 Sulfur ($Z = 16$) has electron configuration $2, 8, 6$. It needs two electrons to complete its outer
 Shell. Each hydrogen ($Z = 1$) contributes one electron. Two single covalent bonds form, each
-Consisting of one shared pair. The shape predicted by VSEPR is bent (two bonding pairs and two lone
+consisting of one shared pair. The shape predicted by VSEPR is bent (two bonding pairs and two lone
 Pairs on sulfur).
 
 **Metallic Bonding:**
@@ -166,7 +166,7 @@ Pair repulsion.
 **Derivation of bond angles using VSEPR:**
 
 The electron pairs around a central atom repel each other to positions that maximise separation. For
-Four electron pairs (tetrahedral), the angle that maximises separation in three dimensions is
+four electron pairs (tetrahedral), the angle that maximises separation in three dimensions is
 $\arccos(-1/3) \approx 109.5^\circ$. When lone pairs replace bonding pairs, the lone pair--bond pair
 Repulsion is greater than bond pair--bond pair repulsion, compressing the remaining bond angles.
 This explains why $\mathrm{NH_3$ has bond angles of $107^\circ$ and $\mathrm{H_2\mathrm{O$ has
@@ -177,8 +177,8 @@ $104.5^\circ$.
 Sulfur in $\mathrm{SF_4$ has 6 valence electrons. Four are used in S-F bonds, leaving one lone pair.
 Total electron domains = 5 (4 bonding + 1 lone pair). This corresponds to a trigonal bipyramidal
 Electron geometry. The lone pair occupies an equatorial position to minimise repulsion (two 90°
-Interactions rather than three). The molecular shape is **see-saw** with bond angles of
-Approximately $102^\circ$ (equatorial) and $173^\circ$ (axial-equatorial).
+interactions rather than three). The molecular shape is **see-saw** with bond angles of
+approximately $102^\circ$ (equatorial) and $173^\circ$ (axial-equatorial).
 
 ### Intermolecular Forces
 
@@ -288,7 +288,7 @@ $$
 Average bond enthalpies are mean values taken from many different compounds. The actual C-H bond
 Enthalpy in methane differs from that in ethane because the electronic environment is different.
 Therefore, using average values introduces systematic error. The true $\Delta H$ for the
-Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
+hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
 ($-124 \mathrm{ kJ/mol$) is approximate.
 
 ---
@@ -598,7 +598,7 @@ $$
 ### Polarising Power and Covalent Character
 
 Small, highly charged cations have high polarising power. Large, highly charged anions are
-Polarised. When polarisation is significant, the ionic bond acquires covalent character.
+polarised. When polarisation is significant, the ionic bond acquires covalent character.
 
 **Fajans' Rules:**
 
@@ -647,7 +647,7 @@ $\mathrm{KF$(b) $\mathrm{CCl_4$(c) $\mathrm{Cu$(d) $\mathrm{AlCl_3$.
 
 **(a) $\mathrm{KF$:** Potassium is a Group 1 metal and fluorine is a Group 17 non-metal. The
 Electronegativity difference is $3.98 - 0.82 = 3.16$ Which is greater than 1.7, so this is
-Predominantly **ionic bonding**.
+predominantly **ionic bonding**.
 
 **(b) $\mathrm{CCl_4$:** Both carbon and chlorine are non-metals. The electronegativity difference
 is $3.16 - 2.55 = 0.61$ Which is in the polar covalent range. The molecule is tetrahedral and the
@@ -682,7 +682,7 @@ Both $\mathrm{H_2\mathrm{O$ and $\mathrm{CO_2$ contain three atoms, yet they hav
 **$\mathrm{CO_2$:** Carbon has 4 valence electrons. Each double bond counts as one electron domain.
 With two electron domains (two double bonds), the electron geometry is linear ($180^\circ$). Since
 there Are no lone pairs, the molecular shape is also linear. The two C=O bond dipoles are equal in
-Magnitude and opposite in direction, so they cancel: $\mathrm{CO_2$ is non-polar.
+magnitude and opposite in direction, so they cancel: $\mathrm{CO_2$ is non-polar.
 
 **$\mathrm{H_2\mathrm{O$:** Oxygen has 6 valence electrons. Two are used in O-H bonds, and four
 remain As two lone pairs. With four electron domains (two bonding pairs + two lone pairs), the
@@ -776,7 +776,7 @@ the entire layer.
 ### Silicon Dioxide ($\mathrm{SiO_2$)
 
 Each silicon atom is covalently bonded to four oxygen atoms, and each oxygen atom is bonded to two
-Silicon atoms, forming a giant covalent network similar to diamond.
+silicon atoms, forming a giant covalent network similar to diamond.
 
 - Very high melting point ($\sim 1700^\circ$ C)
 - Hard and insoluble

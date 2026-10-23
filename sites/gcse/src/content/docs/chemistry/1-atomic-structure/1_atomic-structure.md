@@ -52,7 +52,7 @@ Consists of three subatomic particles:
 The mass of an atom is concentrated almost entirely in the nucleus. The nucleus occupies a tiny
 Fraction of the atomic volume -- roughly one part in $10^{12}$ to $10^{15}$ of the total volume.
 This means that atoms are overwhelmingly empty space, a fact with profound consequences for how we
-Understand scattering experiments and the behaviour of matter.
+understand scattering experiments and the behaviour of matter.
 
 **Key relationships:**
 
@@ -67,7 +67,7 @@ $$
 $$
 
 These three equations are foundational. The atomic number uniquely identifies an element: no two
-Elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
+elements share the same value of $Z$. The mass number, by contrast, can vary within a single element
 because the number of neutrons is not fixed. This is the basis of isotopes.
 
 **Notation:** An atom of element X with mass number $A$ and atomic number $Z$ is written as
@@ -89,7 +89,7 @@ Neutral fluorine atom.
 Its charge.
 
 The element with 8 protons is oxygen ($Z = 8$). There are 10 electrons but only 8 protons, so the
-Ion carries a charge of $10 - 8 = 2-$. This is the oxide ion, $\mathrm{O^{2-}$. The mass number is
+ion carries a charge of $10 - 8 = 2-$. This is the oxide ion, $\mathrm{O^{2-}$. The mass number is
 $A = 8 + 8 = 16$.
 
 ### 1.2 History of the Atom
@@ -108,15 +108,15 @@ $A = 8 + 8 = 16$.
 
 Each model superseded its predecessor because new experimental evidence forced a revision. Dalton's
 Model could not explain cathode rays (Thomson). Thomson's plum pudding model could not explain the
-Gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
-Charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by
+gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
+charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by
 Postulating quantised orbits, although his model was itself superseded by the full quantum
 Mechanical treatment (beyond GCSE scope).
 
 ### 1.3 The Rutherford Scattering Experiment
 
 Rutherford directed alpha particles at a thin gold foil. Most passed straight through, but some were
-Deflected at large angles, and a few bounced back.
+deflected at large angles, and a few bounced back.
 
 **Conclusions:**
 
@@ -127,7 +127,7 @@ Deflected at large angles, and a few bounced back.
 The reasoning is worth stating carefully. Alpha particles carry a $+2$ charge and are relatively
 Heavy (helium nuclei). If the positive charge of the atom were spread diffusely (as in the plum
 Pudding model), the alpha particle would experience only a weak net repulsion and would not be
-Deflected through large angles. The observation that some alpha particles bounced straight back
+deflected through large angles. The observation that some alpha particles bounced straight back
 Implies a concentrated, massive, positively charged core -- the nucleus.
 
 <details>
@@ -173,7 +173,7 @@ Isotopes of the same element have:
 
 **Radioactive isotopes** have unstable nuclei and decay over time, emitting radiation. Radioactive
 Decay is a nuclear process, not a chemical one, so it is unaffected by temperature, pressure, or
-Chemical state.
+chemical state.
 
 ### 2.3 Uses of Radioactive Isotopes
 
@@ -196,7 +196,7 @@ Carbon-14 dating works precisely because 5730 years is on a comparable timescale
 ### 2.4 Half-Life
 
 The **half-life** ($t_{1/2}$) is the time taken for half of the radioactive nuclei in a sample to
-Decay. It is a constant for a given isotope and is independent of the amount of sample.
+decay. It is a constant for a given isotope and is independent of the amount of sample.
 
 $$
 \mathrm{After  n \mathrm{ half-lives:  \frac{1}{2^n} \mathrm{ of the original remains
@@ -263,13 +263,13 @@ Constant (rapid decay) corresponds to a short half-life.
 ### 3.1 Energy Levels
 
 Electrons occupy **shells** (energy levels) around the nucleus. The first shell can hold up to 2
-Electrons, the second up to 8, and the third up to 8 (at GCSE level; in reality the third can hold
+electrons, the second up to 8, and the third up to 8 (at GCSE level; in reality the third can hold
 18).
 
 **Maximum electrons per shell:** $2n^2$ where $n$ is the shell number.
 
 This formula gives the maximum occupancy: shell 1 holds 2, shell 2 holds 8, shell 3 holds 18, and
-Shell 4 holds 32. At GCSE, the convention is to stop at 8 for the third shell because the 3d
+shell 4 holds 32. At GCSE, the convention is to stop at 8 for the third shell because the 3d
 Subshell fills after the 4s subshell, and this detail is not required.
 
 **Proof of $2n^2$:** Each shell $n$ has $n$ subshells (labelled s, p, d, f, ...), and each subshell
@@ -296,7 +296,7 @@ $$
 $$
 
 Calcium has 20 electrons. The first three shells hold $2 + 8 + 8 = 18$ electrons, leaving 2 in the
-Fourth shell. This places calcium in group 2 (two outer electrons) and period 4 (four occupied
+fourth shell. This places calcium in group 2 (two outer electrons) and period 4 (four occupied
 Shells).
 
 **Worked Example.** Write the electron configuration of phosphorus ($Z = 15$).
@@ -312,7 +312,7 @@ $$
 $$
 
 Sulfur is two electrons short of a full outer shell, which explains why it readily gains two
-Electrons to form S$^{2-}$Achieving the stable configuration of argon.
+electrons to form S$^{2-}$Achieving the stable configuration of argon.
 
 **Worked Example.** Write the electron configuration of argon ($Z = 18$).
 
@@ -329,7 +329,7 @@ $$
 $$
 
 Potassium starts a new shell rather than filling the third shell to 18, because the fourth shell is
-Lower in energy once the third shell has 8 electrons.
+lower in energy once the third shell has 8 electrons.
 
 ### 3.3 Electron Configuration and the Periodic Table
 
@@ -345,7 +345,7 @@ One outer electron.
 Shells, seven outer electrons.
 
 This connection between electron configuration and position in the periodic table is not a
-Coincidence. The periodic table was originally constructed by arranging elements in order of atomic
+coincidence. The periodic table was originally constructed by arranging elements in order of atomic
 Number; the pattern of properties repeats because the electron configuration repeats in a regular
 Way.
 
@@ -360,7 +360,7 @@ $$
 $$
 
 The sodium ion has the same electron configuration as neon. This is why sodium forms a $1+$ ion: by
-Losing one electron, it achieves a full outer shell.
+losing one electron, it achieves a full outer shell.
 
 **Example:** Oxide ion (O$^{2-}$)
 
@@ -394,14 +394,14 @@ And group 7 non-metals readily gain one electron (high electron affinity, high r
 ### 4.1 Definition
 
 The **relative atomic mass** ($A_r$) of an element is the weighted mean mass of an atom of the
-Element relative to 1/12 the mass of a carbon-12 atom.
+element relative to 1/12 the mass of a carbon-12 atom.
 
 $$
 A_r = \frac{\sum (\mathrm{isotope mass \times \mathrm{abundance)}{\sum \mathrm{abundance}
 $$
 
 The word "weighted" is crucial. Relative atomic mass is not a simple average; it accounts for the
-Fact that some isotopes are much more abundant than others. A rare but heavy isotope contributes
+fact that some isotopes are much more abundant than others. A rare but heavy isotope contributes
 less to the average than a common but lighter one.
 
 ### 4.2 Calculating Relative Atomic Mass
@@ -514,7 +514,7 @@ Helps to explain why transition metals have variable oxidation states.
 **Why does reactivity increase down Group 1?**
 
 As you descend the group, the outer electron is in a shell further from the nucleus. Even though the
-Nuclear charge increases, the extra inner shells provide significant shielding. The net effect is
+nuclear charge increases, the extra inner shells provide significant shielding. The net effect is
 that the outer electron is less strongly held and is more lost. Since Group 1 metals react by Losing
 their outer electron, lower ionisation energy means greater reactivity.
 
@@ -566,7 +566,7 @@ $$
 **Why does reactivity decrease down Group 7?**
 
 Reactivity for halogens involves gaining an electron. As you descend the group, the outer shell is
-Further from the nucleus. The incoming electron is less strongly attracted, so electron affinity
+further from the nucleus. The incoming electron is less strongly attracted, so electron affinity
 Decreases. This makes the halogen less eager to accept an electron, hence less reactive.
 
 **Displacement reactions:** A more reactive halogen displaces a less reactive halogen from its
@@ -595,7 +595,7 @@ The solution would turn brown as iodine is formed.
 Solution.
 
 Chlorine is more reactive than fluorine is false -- fluorine is the most reactive halogen. So
-Chlorine cannot displace fluorine: $\mathrm{Cl_2 + 2\mathrm{KF \to$ no reaction.
+chlorine cannot displace fluorine: $\mathrm{Cl_2 + 2\mathrm{KF \to$ no reaction.
 
 ### 5.5 Group 0: The Noble Gases
 
@@ -608,7 +608,7 @@ Uses: helium in balloons, neon in advertising signs, argon in light bulbs (provi
 Atmosphere).
 
 The increasing boiling point down Group 0 is explained by increasing London dispersion forces as the
-Number of electrons increases. Helium ($A_r = 4$) has very weak intermolecular forces and boils at
+number of electrons increases. Helium ($A_r = 4$) has very weak intermolecular forces and boils at
 $-269^{\circ}\mathrm{C$ Whereas xenon ($A_r = 131$) boils at $-108^{\circ}\mathrm{C$.
 
 ### 5.6 Transition Metals
@@ -648,7 +648,7 @@ and one 3d electron to form Fe$^{3+}$.
 Charge of its ion.
 
 Period 3 means 3 shells. Group 2 means 2 outer electrons. Electron configuration: 2, 8, 2. It will
-Lose 2 electrons to form a $2+$ ion, achieving the configuration of argon (2, 8, 8).
+lose 2 electrons to form a $2+$ ion, achieving the configuration of argon (2, 8, 8).
 
 **Worked Example.** Element Y is in period 4, group 7. Predict its electron configuration and the
 Charge of its ion.
@@ -711,7 +711,7 @@ The charge of an ion is determined by its group number:
 </div>
 
 The pattern is clear: elements in groups 1--3 tend to lose electrons (forming positive ions whose
-Charge equals the group number), while elements in groups 5--7 tend to gain electrons (forming
+charge equals the group number), while elements in groups 5--7 tend to gain electrons (forming
 Negative ions whose charge equals $8 - \mathrm{group number$).
 
 **Derivation of the charge rule:** For groups 1--3, the atom loses all of its outer electrons to
@@ -724,7 +724,7 @@ Shell. The charge is the negative of this number: $-(8 - \mathrm{group number)$.
 ### 7.1 Ionisation Energy
 
 The **first ionisation energy** is the energy required to remove one electron from each atom in a
-Mole of gaseous atoms.
+mole of gaseous atoms.
 
 $$
 \mathrm{X(g) \to \mathrm{X^+(g) + e^-
@@ -755,14 +755,14 @@ from a new, inner shell.
 14842 kJ/mol. Identify the group.
 
 The large jump occurs between the third and fourth ionisation energies. This means the first three
-Electrons are in the outer shell, and the fourth electron is in a new inner shell. The element is in
-Group 3 (three outer electrons).
+electrons are in the outer shell, and the fourth electron is in a new inner shell. The element is in
+group 3 (three outer electrons).
 
 ### 7.3 Using Mass Spectrometry to Determine $A_r$
 
 Mass spectrometry can measure the relative abundances and masses of isotopes directly. The resulting
 Spectrum shows peaks at different mass-to-charge ratios ($m/z$), and the height of each peak is
-Proportional to the abundance of that isotope.
+proportional to the abundance of that isotope.
 
 This is a more precise method than simple calculation from percentage abundances, and it is the way
 that relative atomic masses are measured in practice.

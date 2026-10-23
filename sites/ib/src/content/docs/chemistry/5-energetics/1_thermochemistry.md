@@ -31,7 +31,7 @@ tags:
 **Enthalpy** ($H$) is the heat content of a system at constant pressure.
 
 An **enthalpy change** ($\Delta H$) is the heat energy exchanged with the surroundings during a
-Reaction at constant pressure.
+reaction at constant pressure.
 
 ### Sign Convention
 
@@ -156,7 +156,7 @@ $$
 ### Bomb Calorimetry
 
 Used for combustion reactions. The calorimeter constant $C$ accounts for the heat absorbed by the
-Calorimeter:
+calorimeter:
 
 $$
 Q_{\mathrm{reaction}} = -(mc\Delta T + C\Delta T)
@@ -286,7 +286,7 @@ $$
 :::caution[Exam Tip]
 Bond enthalpy calculations give approximate values because average bond enthalpies are used. Values
 from Hess's law with formation data are more accurate. Bond enthalpy calculations only apply to
-Gases.
+gases.
 
 ---
 
@@ -657,7 +657,7 @@ NaCl ($-788\mathrm{ kJ/mol}$).
 
 MgO has Mg$^{2+}$ and O$^{2-}$ ions (both doubly charged), while NaCl has Na$^+$ and Cl$^-$ ions
 (singly charged). The electrostatic attraction between ions is proportional to the product of their
-Charges, so the doubly charged ions in MgO have much stronger attraction (four times stronger by
+charges, so the doubly charged ions in MgO have much stronger attraction (four times stronger by
 Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing lattice energy.
 
 ---
@@ -794,7 +794,7 @@ $$
 **(c)** Explain two sources of error.
 
 Heat loss to the surroundings; incomplete combustion of methanol; not all heat transferred to the
-Water; the calorimeter absorbs some heat.
+water; the calorimeter absorbs some heat.
 
 ### Question 6 (Paper 1 style)
 
@@ -855,7 +855,7 @@ $$
 ### Enthalpy of Atomisation of Elements
 
 The enthalpy of atomisation is the enthalpy change to form one mole of gaseous atoms from the
-Element in its standard state under standard conditions.
+element in its standard state under standard conditions.
 
 <div class="table-wrap">
 
@@ -908,7 +908,7 @@ A new shell.
 The first four ionisation energies of aluminium are (in kJ/mol): 578, 1817, 2745, 11578.
 
 The large jump between the 3rd and 4th IE indicates that the 4th electron is being removed from a
-New (inner) shell. This confirms Al has 3 valence electrons.
+new (inner) shell. This confirms Al has 3 valence electrons.
 
 ### Calculating Enthalpy Changes from Calorimetry Data
 
@@ -1150,7 +1150,7 @@ Predict the sign of $\Delta S$ for each of the following processes and explain:
 Disorder.
 
 (b) **Negative** $\Delta S$: Three moles of gas produce two moles of gas, decreasing the number of
-Gaseous particles and thus disorder.
+gaseous particles and thus disorder.
 
 (c) **Positive** $\Delta S$: An ordered solid lattice breaks apart into freely moving hydrated ions
 in solution, increasing disorder.

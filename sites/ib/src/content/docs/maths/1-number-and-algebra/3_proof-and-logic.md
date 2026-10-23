@@ -105,7 +105,7 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 
 The implication $P \implies Q$ is only false when a true premise leads to a false conclusion. This
 is the single most misunderstood truth table entry in all of mathematics. When $P$ is false, the
-Implication is **vacuously true**, there is no counterexample to "whenever P holds, Q holds."
+implication is **vacuously true**, there is no counterexample to "whenever P holds, Q holds."
 
 **Biconditional:**
 
@@ -157,7 +157,7 @@ Each part and switch to "and."
 Negate: "The function $f$ is continuous and differentiable."
 
 Let $C$: "$f$ is continuous." Let $D$: "$f$ is differentiable." The statement is $C \wedge D$. Its
-Negation is $\neg C \vee \neg D$ I.e., "$f$ is either not continuous or not differentiable."
+negation is $\neg C \vee \neg D$ I.e., "$f$ is either not continuous or not differentiable."
 
 :::note
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable", that
@@ -205,7 +205,7 @@ A **tautology** is a compound proposition that is true for every possible truth 
 **Another key tautology, Modus Ponens:** $((P \implies Q) \wedge P) \implies Q$
 
 This says: if you know $P \implies Q$ and you know $P$ Then you can conclude $Q$. This is the
-Fundamental rule of direct .../1-number-and-algebra/3_proof-and-logic.
+fundamental rule of direct .../1-number-and-algebra/3_proof-and-logic.
 
 **Modus Tollens:** $((P \implies Q) \wedge \neg Q) \implies \neg P$
 
@@ -298,7 +298,7 @@ is false (there are infinitely many primes), so the original statement is true.
 **Strategy:** To prove $P \implies Q$ Assume $P$ is true and use logical deduction to arrive at $Q$.
 
 This is the most straightforward method. You chain together known results, definitions, and
-Algebraic manipulations.
+algebraic manipulations.
 
 **Template:**
 
@@ -393,7 +393,7 @@ $3 \mid b^2$ So $3 \mid b$. Both $a$ and $b$ are divisible by 3, contradicting l
 
 The supporting lemma "if $p \mid a^2$ for prime $p$ Then $p \mid a$" follows from the Fundamental
 Theorem of Arithmetic: if $p$ appears in the prime factorization of $a^2$ It must appear in the
-Factorization of $a$.
+factorization of $a$.
 
 </details>
 
@@ -439,7 +439,7 @@ Assume $n$ is even, so $n = 2k$ for some $k \in \mathbb{Z}$.
 $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$
 
 Since $3k + 1 \in \mathbb{Z}$, $3n + 2$ is even. By contrapositive, if $3n + 2$ is odd, then $n$ is
-Odd.
+odd.
 
 </details>
 
@@ -632,7 +632,7 @@ $n = 0$: $0 + 0 + 17 = 17$ (prime) $n = 1$: $1 + 1 + 17 = 19$ (prime) $n = 2$: $
 (prime) $n = 3$: $9 + 3 + 17 = 29$ (prime) $n = 4$: $16 + 4 + 17 = 37$ (prime)
 
 All five cases verified. (Note: this polynomial produces primes for $n = 0$ through $n = 15$ But
-Fails at $n = 16$ since $16^2 + 16 + 17 = 289 = 17^2$.)
+fails at $n = 16$ since $16^2 + 16 + 17 = 289 = 17^2$.)
 
 ### 2.6 Counterexamples
 
@@ -688,12 +688,12 @@ Assume $\sqrt{2} \in \mathbb{Q}$. Then there exist coprime integers $a, b$ with 
 $\sqrt{2} = \frac{a}{b}$.
 
 The requirement that $\gcd(a, b) = 1$ is without loss of generality: any rational number can be
-Expressed as a fraction in lowest terms.
+expressed as a fraction in lowest terms.
 
 Squaring: $2 = \frac{a^2}{b^2}$ So $a^2 = 2b^2$. Equation (1).
 
 From (1): $a^2$ is divisible by 2, so $a^2$ is even. By the contrapositive of "odd implies square is
-Odd," $a$ is even.
+odd," $a$ is even.
 
 Since $a$ is even, write $a = 2m$ for some integer $m$. Substituting into (1):
 
@@ -754,7 +754,7 @@ Since $q \ge 1$$3^q$ is a power of 3. Its only prime factor is 3.
 
 By the Fundamental Theorem of Arithmetic, prime factorizations are unique. The number $2^p = 3^q$
 would need to have prime factorization consisting of only 2's AND only 3's simultaneously. This is
-Impossible unless $p = q = 0$ But $p \ge 1$.
+impossible unless $p = q = 0$ But $p \ge 1$.
 
 Contradiction. Hence $\log_2{3}$ is irrational. $\blacksquare$
 
@@ -899,7 +899,7 @@ $c = z^3$ with $x, y, z \ge 0$. We need $\frac{x^3 + y^3 + z^3}{3} \ge xyz$.
 Consider $x^3 + y^3 + z^3 - 3xyz = \frac{1}{2}(x+y+z)[(x-y)^2 + (y-z)^2 + (z-x)^2] \ge 0$.
 
 Since $x+y+z \ge 0$ and squares are non-negative, $x^3 + y^3 + z^3 \ge 3xyz$. Dividing by 3 and
-Substituting back gives the result.
+substituting back gives the result.
 
 </details>
 
@@ -1025,7 +1025,7 @@ a^{p-1} \cdot (p-1)! \equiv (p-1)! \pmod{p}
 $$
 
 Since $p \nmid (p-1)!$ (Wilson's theorem tells us $(p-1)! \equiv -1 \pmod{p}$), we can divide both
-Sides by $(p-1)!$ modulo $p$:
+sides by $(p-1)!$ modulo $p$:
 
 $$
 a^{p-1} \equiv 1 \pmod{p} \quad \blacksquare
@@ -1074,7 +1074,7 @@ Where all $p_i, q_j$ are primes. Since $p_1 \mid n = q_1 q_2 \cdots q_s$ By Eucl
 ($p \mid ab$ and $p$ prime implies $p \mid a$ or $p \mid b$), $p_1$ divides some $q_j$.
 
 Since $q_j$ is prime and $p_1$ is prime with $p_1 \mid q_j$ We must have $p_1 = q_j$. Cancel this
-Factor and repeat. By induction, the factorizations are identical. $\blacksquare$
+factor and repeat. By induction, the factorizations are identical. $\blacksquare$
 
 ### 4.5 GCD and LCM Properties
 
@@ -1207,7 +1207,7 @@ the conclusion as an unstated Assumption.
 ### 5.2 Assuming the Conclusion
 
 Related to circular reasoning, this occurs when you "work backwards" from the conclusion without
-Checking reversibility.
+checking reversibility.
 
 **Example:**
 
@@ -1352,7 +1352,7 @@ Showing $P$ is false does NOT disprove the implication.
 :::danger
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
 there exists y" is "there exists x such that for every y", quantifiers flip but their order is
-Preserved.
+preserved.
 :::
 
 ---

@@ -85,7 +85,7 @@ Functions:
 ### Mitochondria
 
 Mitochondria are the sites of aerobic respiration, producing ATP through the Krebs cycle and
-Oxidative phosphorylation.
+oxidative phosphorylation.
 
 Structure:
 
@@ -114,7 +114,7 @@ $$
 ### Golgi Apparatus
 
 A stack of flattened membrane-bound sacs (cisternae) that modifies, sorts, and packages proteins and
-Lipids.
+lipids.
 
 Functions:
 
@@ -266,7 +266,7 @@ The cell membrane engulfs material to bring it into the cell.
 #### Exocytosis
 
 Vesicles fuse with the cell membrane to release contents outside the cell (e.g., secretion of
-Hormones, neurotransmitters).
+hormones, neurotransmitters).
 
 ---
 
@@ -411,7 +411,7 @@ Lipids are organic molecules that are insoluble in water but soluble in organic 
 ### Definition
 
 Enzymes are biological catalysts produced by living cells. They are globular proteins that speed up
-Biochemical reactions without being consumed.
+biochemical reactions without being consumed.
 
 ### Properties of Enzymes
 
@@ -424,12 +424,12 @@ Biochemical reactions without being consumed.
 ### Lock and Key Hypothesis
 
 The substrate (reactant) fits into the active site of the enzyme like a key fits into a lock. The
-Active site has a specific complementary shape to the substrate.
+active site has a specific complementary shape to the substrate.
 
 ### Induced Fit Hypothesis
 
 A more refined model: the active site changes shape slightly when the substrate binds, improving the
-Fit. This lowers the activation energy of the reaction.
+fit. This lowers the activation energy of the reaction.
 
 ### Factors Affecting Enzyme Activity
 
@@ -591,7 +591,7 @@ Products: ATP, NADPH, $\mathrm{O}_2$
 5. Most TP is used to regenerate RuBP (uses ATP)
 
 For every 3 $\mathrm{CO}_2$ molecules fixed: 1 molecule of triose phosphate (3C) is produced. It
-Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
+takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ### Limiting Factors in Photosynthesis
 
@@ -697,8 +697,8 @@ squeezing through capillaries).
 Its function.
 
 The cell membrane is a phospholipid bilayer with embedded proteins (fluid mosaic model). The
-Hydrophobic tails face inward and hydrophilic heads face outward, making the membrane a barrier to
-Water-soluble substances. Channel and carrier proteins allow selective transport. Cholesterol
+hydrophobic tails face inward and hydrophilic heads face outward, making the membrane a barrier to
+water-soluble substances. Channel and carrier proteins allow selective transport. Cholesterol
 Maintains fluidity. Glycoproteins on the surface enable cell recognition. The fluid nature allows
 Vesicle formation (endocytosis/exocytosis).
 
@@ -707,7 +707,7 @@ $0^\circ\mathrm{C}$ to $60^\circ\mathrm{C}$.
 
 From $0^\circ\mathrm{C}$ to the optimum (approximately $37-40^\circ\mathrm{C}$): increasing
 Temperature increases kinetic energy, leading to more frequent collisions between enzyme and
-Substrate molecules, increasing the rate of reaction. Beyond the optimum temperature, the increased
+substrate molecules, increasing the rate of reaction. Beyond the optimum temperature, the increased
 Kinetic energy breaks the bonds maintaining the tertiary structure of the enzyme, causing the active
 Site to change shape (denaturation). The substrate can no longer fit, and the reaction rate
 Decreases sharply.
@@ -719,7 +719,7 @@ Similarities: Both begin with glycolysis; both produce ATP.
 Differences: Aerobic respiration requires oxygen and occurs in the mitochondria, producing
 Approximately 36-38 ATP per glucose with $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$ as
 by-products. Anaerobic respiration occurs without oxygen, only in the cytoplasm, producing 2 ATP per
-Glucose. In animals, it produces lactate; in yeast, it produces ethanol and $\mathrm{CO}_2$.
+glucose. In animals, it produces lactate; in yeast, it produces ethanol and $\mathrm{CO}_2$.
 
 </details>
 
@@ -769,7 +769,7 @@ will be present in each daughter cell after mitosis?
 After mitosis: each daughter cell has **46 chromosomes** (each consisting of one chromatid).
 
 During S phase (before mitosis), each chromosome replicates to form two sister chromatids. So at the
-Start of mitosis, there are 46 chromosomes (92 chromatids). After anaphase, the chromatids separate,
+start of mitosis, there are 46 chromosomes (92 chromatids). After anaphase, the chromatids separate,
 And each daughter cell receives 46 single-chromatid chromosomes.
 
 ### Meiosis
@@ -886,7 +886,7 @@ Cancer is a disease caused by uncontrolled cell division, resulting in the forma
 ### Semi-Conservative Replication
 
 DNA replication is semi-conservative: each new DNA molecule consists of one original strand and one
-Newly synthesised strand.
+newly synthesised strand.
 
 ### Process
 
@@ -973,8 +973,8 @@ Translation is the process of synthesising a polypeptide chain from the mRNA tem
 **Question 4:** Describe the role of the Golgi apparatus in protein processing and transport.
 
 The Golgi apparatus receives proteins from the rough ER in transport vesicles. It modifies these
-Proteins by adding carbohydrate groups (glycosylation) to form glycoproteins. It sorts proteins and
-Packages them into secretory vesicles for export from the cell (exocytosis), or into lysosomes. The
+proteins by adding carbohydrate groups (glycosylation) to form glycoproteins. It sorts proteins and
+packages them into secretory vesicles for export from the cell (exocytosis), or into lysosomes. The
 Golgi acts as a processing and distribution centre, ensuring proteins reach their correct
 Destinations.
 
@@ -982,7 +982,7 @@ Destinations.
 Respiration.
 
 The mitochondrion has a double membrane. The inner membrane is folded into cristae, providing a
-Large surface area for the electron transport chain and ATP synthase. The matrix contains enzymes
+large surface area for the electron transport chain and ATP synthase. The matrix contains enzymes
 for the Krebs cycle and its own DNA and ribosomes, allowing it to produce some of its own proteins.
 The small intermembrane space allows the accumulation of protons for the chemiosmotic gradient.
 These structural features maximise the rate of ATP production.
@@ -999,7 +999,7 @@ Genetic information from the nucleus to the ribosomes for protein synthesis (tra
 
 **Prophase:** Chromosomes condense (become visible), the nuclear envelope breaks down, spindle
 Fibres form, and centrioles move to opposite poles. This prepares the cell for division by
-Organising the genetic material.
+organising the genetic material.
 
 **Metaphase:** Chromosomes align at the metaphase plate (cell equator) with spindle fibres attached
 To centromeres. This ensures equal distribution of chromosomes to daughter cells.
@@ -1016,7 +1016,7 @@ Fibres break down. This reverses the changes of prophase and re-establishes the 
 At the end of S phase, during metaphase of mitosis, and after cytokinesis?
 
 End of S phase: 20 chromosomes, 40 DNA molecules (each chromosome has been replicated into two
-Sister chromatids).
+sister chromatids).
 
 Metaphase of mitosis: 20 chromosomes (each with 2 chromatids), 40 DNA molecules.
 
@@ -1171,7 +1171,7 @@ An antibody (immunoglobulin) is a Y-shaped protein with:
 Explain how vaccination provides immunity against a disease.
 
 A vaccine contains a weakened or dead form of the pathogen (or parts of it like antigens). When
-Introduced into the body, it triggers a primary immune response without causing the disease. B cells
+introduced into the body, it triggers a primary immune response without causing the disease. B cells
 Produce antibodies and memory B cells are formed. If the person is later exposed to the actual
 Pathogen, the memory B cells quickly produce large quantities of antibodies in a secondary response,
 Destroying the pathogen before symptoms develop. This provides active artificial immunity.

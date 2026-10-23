@@ -158,7 +158,7 @@ $$
 ### Geometric Mean
 
 The geometric mean of positive numbers $a$ and $b$ is $\sqrt{ab}$. In a geometric sequence with
-Positive terms, each term is the geometric mean of its neighbours.
+positive terms, each term is the geometric mean of its neighbours.
 
 ---
 

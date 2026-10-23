@@ -328,13 +328,13 @@ across the inner membrane.
    the Krebs cycle) and passes them to ubiquinone. Does not pump protons.
 
 3. **Ubiquinone (coenzyme Q)**: a lipid-soluble mobile electron carrier that shuttles electrons from
-   Complexes I and II to Complex III.
+   complexes I and II to Complex III.
 
 4. **Complex III (cytochrome $bc_1$)**: receives electrons from ubiquinone and passes them to
    cytochrome c. Pumps $4\ \mathrm{H^+}$.
 
 5. **Cytochrome c**: a small peripheral membrane protein that shuttles electrons from Complex III to
-   Complex IV.
+   complex IV.
 
 6. **Complex IV (cytochrome c oxidase)**: receives electrons from cytochrome c and transfers them to
    molecular oxygen ($\mathrm{O_2}$), the final electron acceptor. Oxygen combines with electrons
@@ -1469,7 +1469,7 @@ carrying electrons from Complex I and Complex II to Complex III.
 ### 19.5 Cytochrome $c$
 
 A small protein that diffuses along the surface of the inner membrane, carrying electrons from
-Complex III to Complex IV.
+complex III to Complex IV.
 
 ### 19.6 Complex IV (Cytochrome c Oxidase)
 
@@ -1495,7 +1495,7 @@ Complex III to Complex IV.
 </div>
 
 Actually, a simpler calculation: per NADH, 10 $\mathrm{H^+}$ are pumped (4 at Complex I + 4 at
-Complex III + 2 at Complex IV). Per $\mathrm{FADH_2}$6 $\mathrm{H^+}$ are pumped (0 at Complex II +
+complex III + 2 at Complex IV). Per $\mathrm{FADH_2}$6 $\mathrm{H^+}$ are pumped (0 at Complex II +
 4 at Complex III + 2 at Complex IV).
 
 Total $\mathrm{H^+}$ pumped $= 10 \times 10 + 2 \times 6 = 112$.

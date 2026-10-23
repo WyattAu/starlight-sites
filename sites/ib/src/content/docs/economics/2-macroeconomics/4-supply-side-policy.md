@@ -60,7 +60,7 @@ AD shifts leftward when the reverse occurs.
 ### Short-Run Aggregate Supply (SRAS)
 
 The SRAS curve slopes upward because, in the short run, some input prices (particularly wages) are
-Sticky. As the price level rises, firms find it profitable to increase output since revenues rise
+sticky. As the price level rises, firms find it profitable to increase output since revenues rise
 Faster than costs.
 
 SRAS shifts rightward when:
@@ -78,7 +78,7 @@ Geopolitical disruption of energy supplies).
 ### Long-Run Aggregate Supply (LRAS)
 
 The LRAS curve is vertical at the **full employment level of output** (potential GDP, $Y^*$). In the
-Long run, all input prices are flexible, and output is determined by the economy"s productive
+long run, all input prices are flexible, and output is determined by the economy"s productive
 Capacity (factors of production and technology). Changes in the price level do not affect long-run
 Output.
 
@@ -110,8 +110,8 @@ potential Output. An inflationary gap causes wages and prices to rise, shifting 
 the Economy returns to potential output.
 
 Keynesians argue that wages are "sticky downward" (workers resist nominal wage cuts), so the
-Self-correction mechanism may be slow and incomplete. This justifies active demand-side policy to
-Close output gaps.
+self-correction mechanism may be slow and incomplete. This justifies active demand-side policy to
+close output gaps.
 
 ## Economic Growth
 
@@ -119,7 +119,7 @@ Close output gaps.
 
 **Short-run growth** is an increase in real GDP caused by shifts in AD or SRAS, moving the economy
 Along its LRAS curve. It is associated with reductions in cyclical unemployment and utilisation of
-Spare capacity. Short-run growth is not sustainable once the economy reaches full employment.
+spare capacity. Short-run growth is not sustainable once the economy reaches full employment.
 
 **Long-run growth** is an increase in the economy's productive capacity, represented by a rightward
 Shift of the LRAS curve. It is the only sustainable source of rising living standards.
@@ -202,13 +202,13 @@ Ones and eventually catch up, since they have more scope for capital accumulatio
 Returns set in later).
 
 The **conditional convergence** hypothesis holds that convergence only occurs among countries with
-Similar savings rates, population growth, institutional quality, and human capital. Empirical
+similar savings rates, population growth, institutional quality, and human capital. Empirical
 Evidence broadly supports conditional convergence.
 
 ## Supply-Side Policies
 
 Supply-side policies aim to increase the economy's productive capacity (shift LRAS rightward) by
-Improving the quantity, quality, and efficiency of factors of production.
+improving the quantity, quality, and efficiency of factors of production.
 
 ### Market-Oriented Supply-Side Policies
 
@@ -298,7 +298,7 @@ The business cycle refers to fluctuations in economic activity around the long-r
 A school of thought that attributes business cycles primarily to real (technology) shocks rather
 than monetary or demand-side factors. Proponents argue that fluctuations in GDP represent optimal
 Responses to changes in productivity, and that government intervention to stabilise the cycle is
-Unnecessary and potentially harmful.
+unnecessary and potentially harmful.
 
 ## AD/AS Model: Comprehensive Shifting Factors (HL Extension)
 
@@ -410,7 +410,7 @@ $$
 
 The tax multiplier is always smaller in absolute value than the spending multiplier because a tax
 Change affects only disposable income, not spending directly. Some of the tax change is absorbed by
-Reduced saving.
+reduced saving.
 
 **Relationship:**
 
@@ -619,7 +619,7 @@ An economy has the following characteristics:
 (b) Calculate the spending multiplier, tax multiplier, and balanced budget multiplier.
 
 (c) If the government wants to close a recessionary gap of `USD 80` billion, by how much should it
-Increase government spending? By how much should it cut taxes to achieve the same result?
+increase government spending? By how much should it cut taxes to achieve the same result?
 
 (a)
 $k = \frac{1}{\mathrm{MPS} + t \cdot \mathrm{MPC} + \mathrm{MPM}} = \frac{1}{0.25 + 0.2 \times 0.75 + 0.15} = \frac{1}{0.25 + 0.15 + 0.15} = \frac{1}{0.55} = 1.818$
@@ -718,10 +718,10 @@ Period 5: $\pi_5^e = 6\%$. $\pi_5 = 6 - 0.5(-2) = 7\%$
 Inflation accelerates by 1 percentage point per period: 2%, 3%, 4%, 5%, 6%, 7%.
 
 (b) The SRPC shifts upward by 1 percentage point each period as expectations adjust. Each SRPC is
-Parallel to the previous one but shifted upward by the change in expected inflation.
+parallel to the previous one but shifted upward by the change in expected inflation.
 
 (c) Zero. The permanent output gain is zero because in the long run, unemployment returns to the
-Natural rate ($5\%$) and output returns to potential. The only permanent effect is higher inflation.
+natural rate ($5\%$) and output returns to potential. The only permanent effect is higher inflation.
 The government cannot permanently reduce unemployment below the NAIRU through demand-side policies
 Alone.
 
@@ -806,14 +806,14 @@ growing populations may experience lower growth in output per capita.
 
 An economy is in a deep recession with output 15% below potential. The central bank has already cut
 Interest rates to near zero (the zero lower bound). Evaluate the effectiveness of monetary and
-Fiscal policy in this situation, using IS-LM analysis.
+fiscal policy in this situation, using IS-LM analysis.
 
 **Monetary policy at the ZLB:**
 
 With interest rates at or near zero, conventional monetary policy is exhausted. The LM curve is
-Horizontal at the ZLB (liquidity trap). Further increases in the money supply do not lower interest
+horizontal at the ZLB (liquidity trap). Further increases in the money supply do not lower interest
 Rates because the opportunity cost of holding money is already negligible. Monetary policy is
-Ineffective in stimulating output.
+ineffective in stimulating output.
 
 Options:
 
@@ -994,7 +994,7 @@ Country Z has a fixed exchange rate pegged to the US dollar. Capital flows are f
 (a) If the US Federal Reserve raises interest rates, what must Country Z's central bank do?
 
 (b) If Country Z wants to reduce unemployment through monetary stimulus, what trade-off does it
-Face?
+face?
 
 (c) Evaluate the options available to Country Z.
 
@@ -1219,7 +1219,7 @@ complying with the fiscal rule.
 New actual GDP $= 950 + 40 = 990$. New output gap $= (990 - 1000)/1000 = -1\%$.
 
 New tax revenue (assuming tax elasticity 1.0, proportional tax): tax revenue rises by 1%
-Proportionally. Approximate new tax revenue $= 255 \times (990/950) = 255 \times 1.0421 = 265.7$
+proportionally. Approximate new tax revenue $= 255 \times (990/950) = 255 \times 1.0421 = 265.7$
 billion.
 
 New actual deficit $= 265.7 - 300 = -34.3$ billion.
@@ -1229,7 +1229,7 @@ Cyclical component $= 1\% \times 265.7 = 2.66$ billion.
 Structural deficit $= 34.3 - 2.66 = 31.64$ billion $= 3.16\%$ of potential GDP.
 
 The spending increase worsens the structural deficit from 1.23% to 3.16%, further violating the
-Fiscal rule.
+fiscal rule.
 
 </details>
 
@@ -1295,7 +1295,7 @@ GDP was USD 1 trillion, the permanent loss is USD 38.6 billion per year.
 ### The BP Curve
 
 The BP (balance of payments) curve shows combinations of $Y$ and $r$ that maintain balance of
-Payments equilibrium:
+payments equilibrium:
 
 $$
 \text{Current account} + \text{Capital account} = 0
@@ -1349,7 +1349,7 @@ At $Y = 1167$ The economy is above the BP curve ($Y > Y_{BP}$), indicating a bal
 surplus (capital inflows exceed the current account deficit).
 
 (b) **Fixed exchange rates:** The BoP surplus causes the central bank to buy foreign currency and
-Sell domestic currency, increasing the money supply. The LM shifts right until the three curves
+sell domestic currency, increasing the money supply. The LM shifts right until the three curves
 Intersect.
 
 New IS: $Y = 1500 - 50r$.
@@ -1371,7 +1371,7 @@ $Y = 400 + 50(11) = 950$.
 The equilibrium moves to $r = 11\%$, $Y = 950$.
 
 Fiscal expansion is **effective** under fixed rates: output increases from 1167 to... Wait, this
-Seems wrong. Let me re-examine.
+seems wrong. Let me re-examine.
 
 Actually, at the initial equilibrium $Y = 1167 > Y_{BP} = 633$ So the economy has a BoP Surplus.
 Under fixed rates, the money supply increases, shifting LM right, which lowers $r$ and Raises $Y$
@@ -1389,7 +1389,7 @@ $Y > Y_{BP}$ means the current account deficit is smaller than the capital accou
 surplus). The central bank buys USD, sells domestic currency, expanding M.
 
 LM shifts right $\implies r$ falls, $Y$ rises. As $Y$ rises, the current account worsens (more
-Imports). As $r$ falls, capital inflows decrease. The BoP surplus shrinks.
+imports). As $r$ falls, capital inflows decrease. The BoP surplus shrinks.
 
 New IS after $G$ increase: $Y = 1500 - 50r$.
 
@@ -1600,7 +1600,7 @@ The economy is operating 3.5% below potential output.
 If potential GDP is USD 1 trillion, the output gap is USD 35 billion.
 
 The "sacrifice" of the recession: $35 billion in lost output and 0.75 percentage points of
-Additional unemployment.
+additional unemployment.
 
 ## The Taylor Rule (HL Extension)
 

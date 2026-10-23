@@ -241,7 +241,7 @@ The Von Neumann architecture defines a computer system with:
 </div>
 
 The Von Neumann **bottleneck** arises because the CPU and memory share a single bus. The CPU is
-Often much faster than memory, so it spends time waiting for instructions and data to be fetched.
+often much faster than memory, so it spends time waiting for instructions and data to be fetched.
 This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of the bottleneck.
 
 **Cache memory** is a small, fast memory between the CPU registers and main memory (RAM):
@@ -258,14 +258,14 @@ This is why modern CPUs use cache memory (L1, L2, L3) to reduce the impact of th
 </div>
 
 When the CPU needs data, it checks L1 first, then L2, then L3, then RAM. If the data is found in
-Cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
+cache, it is a **cache hit**; otherwise it is a **cache miss** and the CPU must wait for the slower
 Memory.
 
 :::caution
 Exam Tip The DSE syllabus focuses on Von Neumann. Know why it has a bottleneck (CPU
 Waits for memory) and how Harvard architecture addresses this. Most modern CPUs use a modified
 Harvard architecture internally (separate L1 caches for instructions and data) while presenting a
-Von Neumann model externally.
+von Neumann model externally.
 :::
 
 ---
@@ -418,7 +418,7 @@ Software designed for end-users to perform specific tasks.
 ### Virtual Memory
 
 Virtual memory is a memory management technique that uses secondary storage (hard disk/SSD) as an
-Extension of RAM. When physical RAM is full, the operating system moves less frequently used pages
+extension of RAM. When physical RAM is full, the operating system moves less frequently used pages
 (data blocks, 4 KB) from RAM to a designated area on disk called the **swap space** or **page
 file**. When those pages are needed again, they are swapped back into RAM.
 
@@ -504,7 +504,7 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is
 `1111`. But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
-Decimal digit must be preserved exactly.
+decimal digit must be preserved exactly.
 :::
 
 ### Conversions
@@ -795,7 +795,7 @@ Answer:
 (a) $500 \mathrm{ GB} = 0.5 \mathrm{ TB}$. One 1 TB HDD is sufficient.
 
 (b) **Advantages of SSD:** Faster read/write speeds, no moving parts (more durable, less prone to
-Mechanical failure), quieter operation, lower power consumption.
+mechanical failure), quieter operation, lower power consumption.
 
 **Disadvantages of SSD:** Higher cost per GB, limited write cycles (though modern SSDs mitigate this
 With wear levelling).
@@ -985,7 +985,7 @@ Essential for applications serving users who speak different languages or need s
 Answer:
 
 (a) **Memory management** allocates and deallocates RAM among running programs, ensuring each
-Process has sufficient memory and that processes do not interfere with each other's memory space.
+process has sufficient memory and that processes do not interfere with each other's memory space.
 **Process management** schedules CPU time among processes, handles creation/termination of
 Processes, and enables multitasking.
 
@@ -994,7 +994,7 @@ Moves less frequently used data (pages) from RAM to disk (swapping/paging). This
 to run more programs than would fit in physical RAM, at the cost of slower access to swapped data.
 
 (c) **Disk defragmenter:** Rearranges fragmented file data on an HDD so that related data blocks are
-Stored contiguously. This improves read/write performance by reducing disk head movement. (Note:
+stored contiguously. This improves read/write performance by reducing disk head movement. (Note:
 Defragmentation is not needed for SSDs.)
 
 </details>
@@ -1012,13 +1012,13 @@ Answer:
 (a) **Application software** -- it is a general-purpose word processor designed for end-user tasks.
 
 (b) **System software (utility program)** -- it is an antivirus utility that protects the system by
-Detecting and removing malware. It performs a maintenance/security task for the system.
+detecting and removing malware. It performs a maintenance/security task for the system.
 
 (c) **System software (operating system)** -- it manages all hardware resources, provides
 Memory/process/file management, and serves as a platform for other software.
 
 (d) **Application software** -- it is a special-purpose image editing program designed for
-End-users.
+end-users.
 
 </details>
 
@@ -1063,10 +1063,10 @@ $$
 <summary>Question 10: Input/Output Devices -- Scenario</summary>
 
 A library wants to automate its book checkout system. For each scenario, recommend the most
-Appropriate input or output device and justify your choice.
+appropriate input or output device and justify your choice.
 
 (a) Identifying a book when it is checked out. (b) Identifying a library member. (c) Printing a
-Receipt for the member. (d) Displaying the library catalogue to members on a self-service kiosk.
+receipt for the member. (d) Displaying the library catalogue to members on a self-service kiosk.
 
 Answer:
 
@@ -1096,7 +1096,7 @@ Volume.
 Answer:
 
 (a) The CU coordinates and controls all operations during the fetch-decode-execute cycle. During the
-Fetch phase, it sends control signals to copy the PC value to the MAR and trigger a memory read.
+fetch phase, it sends control signals to copy the PC value to the MAR and trigger a memory read.
 During decode, it interprets the instruction in the IR and determines which operation to perform.
 During execute, it sends the appropriate control signals to the ALU, registers, or memory to carry
 out the instruction.
@@ -1104,7 +1104,7 @@ out the instruction.
 (b) The ALU performs all arithmetic calculations (addition, subtraction, multiplication, division)
 And logical operations (AND, OR, NOT, XOR, comparisons). It receives operands from registers,
 Performs the operation as directed by the CU, and stores the result in the accumulator or a
-Specified register.
+specified register.
 
 (c) Registers are necessary because they provide the fastest possible storage access (1 clock
 Cycle), whereas RAM access takes many clock cycles (100+ cycles for L3 cache, even more for RAM). If
@@ -1119,12 +1119,12 @@ Intermediate results) immediately accessible, maximising throughput.
 
 A student claims that a computer with a faster CPU clock speed will always perform better than one
 with a slower clock speed. Evaluate this claim by considering at least three other factors that
-Affect system performance.
+affect system performance.
 
 Answer:
 
 The claim is **not always correct**. While CPU clock speed is one factor affecting performance, the
-Following factors are also critical:
+following factors are also critical:
 
 1. **Number of CPU cores:** A 2.0 GHz quad-core processor can outperform a 3.0 GHz dual-core
    processor for multitasking and parallel workloads, since it can execute more instructions

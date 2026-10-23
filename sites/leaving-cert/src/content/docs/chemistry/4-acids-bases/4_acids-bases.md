@@ -67,7 +67,7 @@ $\mathrm{NH_3/\mathrm{NH_4^+$ and $\mathrm{H_2\mathrm{O/\mathrm{OH^-$.
 ### Strong Acids
 
 Completely dissociate in water: $\mathrm{HCl$$\mathrm{HNO_3$$\mathrm{H_2\mathrm{SO_4$ (first
-Dissociation).
+dissociation).
 
 $$
 \mathrm{HCl + \mathrm{H_2\mathrm{O \to \mathrm{H_3\mathrm{O^+ + \mathrm{Cl^-
@@ -249,7 +249,7 @@ $$
 1. **Acid + Insoluble Base (titration method):**
 
 Add the acid to the insoluble base (e.g., $\mathrm{CuO$) until no more dissolves. Filter and
-Evaporate.
+evaporate.
 
 1. **Precipitation (mixing two solutions):**
 
@@ -786,7 +786,7 @@ A common error is to confuse strength with concentration.
 $\mathrm{CH_3\mathrm{COOH$ (weak) has $[\mathrm{H^+] \approx 0.0013$ M, pH = 2.9.
 
 Despite the weak acid being 10 times more concentrated, its pH is higher because it is only
-Partially dissociated.
+partially dissociated.
 
 ### Dilution Effect on pH
 
@@ -903,14 +903,14 @@ $$
 $$
 
 Although the blood pH of 7.4 is outside the optimal range ($pK_a \pm 1 = 5.37$ to $7.37$), the
-System works because:
+system works because:
 
 1. The body constantly removes $\mathrm{CO_2$ through respiration
 2. The kidneys regulate $\mathrm{HCO_3^-$ levels
 3. Haemoglobin acts as an additional buffer
 
 The phosphate buffer system ($\mathrm{H_2\mathrm{PO_4^-/\mathrm{HPO_4^{2-}$, $pK_{a2} = 7.21$) is
-Important intracellularly.
+important intracellularly.
 
 ---
 

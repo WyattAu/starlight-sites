@@ -25,7 +25,7 @@ categories:
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Identifying patterns, abstracting details, and designing algorithms. This topic covers
 Decomposition, pattern recognition, abstraction, algorithm design, finite state machines, and
-Regular expressions.
+regular expressions.
 
 ## Four Pillars of Computational Thinking
 
@@ -289,7 +289,7 @@ print(re.match(pattern, "01-2345678"))   # No match
 ### Stepwise Refinement
 
 Break down the problem into sub-problems, then refine each sub-problem further until each step is
-Simple enough to implement.
+simple enough to implement.
 
 **Example (HL):** Calculate the average of a list of numbers, excluding the highest and lowest.
 
@@ -514,7 +514,7 @@ print(merge_sort(numbers))
 
 Split: [5, 2, 8] and [1, 9, 3]. Split [5, 2, 8]: [5] and [2, 8]. Split [2, 8]: [2] and [8]. Merge:
 [2, 8]. Merge [5] and [2, 8]: [2, 5, 8]. Split [1, 9, 3]: [1] and [9, 3]. Split [9, 3]: [9] and [3].
-Merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
+merge: [3, 9]. Merge [1] and [3, 9]: [1, 3, 9]. Merge [2, 5, 8] and [1, 3, 9]: [1, 2, 3, 5, 8, 9].
 
 ## Greedy Algorithms in Detail (HL)
 

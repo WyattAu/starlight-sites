@@ -89,7 +89,7 @@ linearity breaks down.
 **Psychology:** Study hours and exam scores often show moderate positive correlation
 ($r \approx 0.4$ to $0.7$). The PMCC captures the linear trend, but individual variation means
 Prediction is imprecise, a student studying 10 hours could score anywhere on a wide range. This
-Illustrates that even a moderate $r$ does not guarantee accurate individual predictions.
+illustrates that even a moderate $r$ does not guarantee accurate individual predictions.
 
 <hr />
 
@@ -136,8 +136,8 @@ if outliers are present, Spearman's is more appropriate.
 
 **Example.** Consider judge rankings in a competition. The data is inherently ordinal, so Spearman's
 Rank is the natural choice regardless of whether PMCC could technically be computed. Similarly, in a
-Psychology study measuring agreement between two raters on a Likert scale, Spearman's is the
-Standard choice.
+psychology study measuring agreement between two raters on a Likert scale, Spearman's is the
+standard choice.
 
 <hr />
 
@@ -224,7 +224,7 @@ Properties:
 
 :::caution
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
-Linear relationship may not hold.
+linear relationship may not hold.
 :::
 
 ### 5.3 Regression of $y$ on $x$ vs. $x$ on $y$
@@ -248,8 +248,8 @@ $x_i$).
   predictions are less reliable at extremes.
 
 Residual plots are a diagnostic tool, they reveal whether the assumptions of linear regression are
-Met. In A Level exams, you may be asked to comment on a residual plot to assess whether the
-Regression line is a good model.
+met. In A Level exams, you may be asked to comment on a residual plot to assess whether the
+regression line is a good model.
 
 ### 5.5 Outliers and Influential Points
 
@@ -303,7 +303,7 @@ Transformation including linear coding.
 
 **Effect on regression:** Coding changes the gradient and intercept of the regression line, as shown
 In Section 6, but the underlying relationship between the variables is unchanged. The coefficient of
-Determination $r^2$ is also invariant under coding.
+determination $r^2$ is also invariant under coding.
 
 ### 6.2 Worked Example: Coding with Economic Data
 
@@ -483,7 +483,7 @@ A residual plot shows a clear U-shaped pattern. What does this suggest about the
 A U-shaped residual plot indicates the relationship between the variables is **non-linear** (likely
 Quadratic). The linear regression model is inappropriate because it fails to capture the curvature.
 A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$ Or to apply a
-Transformation (e.g., taking logarithms) to linearise the relationship.
+transformation (e.g., taking logarithms) to linearise the relationship.
 
 **If you get this wrong, revise:** [Residual Plots](#54-residual-plots), Section 5.4.
 
@@ -501,7 +501,7 @@ With a larger sample size, the PMCC is estimated more precisely (smaller standar
 $n = 10$ The PMCC must exceed approximately 0.632 to be significant at the 5% level (two-tailed). For
 $n = 100$ The threshold is approximately 0.197. While both datasets show the same correlation,
 Dataset B provides far stronger statistical evidence because random fluctuations are much less
-Likely to produce $r = 0.85$ with 100 observations.
+likely to produce $r = 0.85$ with 100 observations.
 
 **If you get this wrong, revise:** [Properties](#12-properties), Section 1.2.
 
@@ -556,7 +556,7 @@ Consistent assessment standards.
 A medical researcher collects data on blood pressure ($x$ mmHg) and cholesterol level ($y$ mg/dL) for 12 patients. She finds $\bar{x} = 132$$\bar{y} = 218$$S_{xx} = 3600$$S_{yy} = 28900$$S_{xy} = 8100$.
 
 (a) Calculate the PMCC and interpret it. (b) Find the regression line of $y$ on $x$. (c) Predict the
-Cholesterol level for a patient with blood pressure of 150 mmHg. Comment on the reliability.
+cholesterol level for a patient with blood pressure of 150 mmHg. Comment on the reliability.
 
 </details>
 
@@ -645,7 +645,7 @@ predicted $y$-value from the current line would be $\hat{y} = 5 + 2(25) = 55$ Bu
 $70$. The residual is $70 - 55 = 15$ Which is positive and large.
 
 (a) Since the point lies above the regression line and has high leverage, it will **increase** the
-Gradient (pull the line upward at the right side).
+gradient (pull the line upward at the right side).
 
 (b) Since the point lies close to the general positive trend (above the line in the same direction
 as the overall slope), it will likely **increase** the PMCC slightly. However, if the point were

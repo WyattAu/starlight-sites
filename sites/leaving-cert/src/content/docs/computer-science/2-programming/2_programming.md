@@ -23,7 +23,7 @@ categories:
 ## Algorithms and Programming
 
 This topic covers algorithm design, programming constructs, searching and sorting algorithms, and
-Computational problem solving.
+computational problem solving.
 
 ## What is an Algorithm? (OL/HL)
 
@@ -515,7 +515,7 @@ print(gcd(48, 18))  # 6
 
 **Proof of termination.** At each recursive call, `b` becomes `a % b`. Which is strictly less than
 `b`. Since `b` is a non-negative integer that decreases, it must eventually reach 0, triggering the
-Base case. $lacksquare$
+base case. $lacksquare$
 
 **Towers of Hanoi:**
 

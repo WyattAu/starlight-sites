@@ -23,8 +23,8 @@ categories:
 ## Plant Biology
 
 This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to
-Stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
-Underpins understanding of ecosystems, agriculture, and human physiology.
+stimuli. Plant biology is a core area of the Irish Leaving Certificate Biology syllabus and
+underpins understanding of ecosystems, agriculture, and human physiology.
 
 ## Plant Structure
 
@@ -37,12 +37,12 @@ Support, and gas exchange.
 **Dermal tissue (epidermis):** outer protective layer. May have a waxy cuticle to reduce water loss.
 Root hair cells are specialised epidermal cells for absorption. The cuticle is made of cutin, a waxy
 Lipid polymer secreted by epidermal cells, which is impermeable to water. This adaptation is
-Particularly important in terrestrial plants that face the constant risk of desiccation.
+particularly important in terrestrial plants that face the constant risk of desiccation.
 
 **Ground tissue (parenchyma):** fills the interior of the plant. Involved in photosynthesis,
 Storage, and support. Parenchyma cells are thin-walled, living cells that remain capable of cell
 Division. In leaves, parenchyma cells in the mesophyll contain chloroplasts for photosynthesis. In
-Roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
+roots and stems, parenchyma cells store starch, oils, or water. Two specialised forms of ground
 Tissue include collenchyma (unevenly thickened cell walls for flexible support in young stems) and
 Sclerenchyma (thick lignified walls for rigid support in mature tissues).
 
@@ -86,8 +86,8 @@ Throughout the plant.
 
 :::note
 Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium ions enter the
-Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
-Opening the stomata.
+guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
+opening the stomata.
 :::
 
 ### Root Structure (OL/HL)
@@ -98,7 +98,7 @@ Carrots and turnips).
 **Root hair cells:** increase surface area for absorption. Each root hair is a tubular extension of
 An epidermal cell. The large surface area-to-volume ratio maximises the rate of water and mineral
 Ion uptake by osmosis and active transport respectively. Root hair cells have many mitochondria to
-Provide ATP for active transport of mineral ions against their concentration gradient.
+provide ATP for active transport of mineral ions against their concentration gradient.
 
 **Root tip zones:**
 
@@ -215,7 +215,7 @@ Simultaneously:
 
 The transport of organic substances (mainly sucrose) in the phloem. Unlike xylem transport, which is
 A passive process driven by physical forces, translocation requires energy (active transport at the
-Source).
+source).
 
 **Mass flow hypothesis (pressure flow hypothesis):**
 
@@ -290,7 +290,7 @@ Not require a pollinator. Disadvantages: no genetic variation, inbreeding depres
 
 **Cross-pollination:** pollen from a different plant of the same species. Advantages: genetic
 Variation, potentially stronger offspring. Disadvantages: requires a pollination agent, less
-Reliable.
+reliable.
 
 **Agents of pollination:**
 
@@ -308,7 +308,7 @@ Reliable.
 :::note
 Only a tiny fraction reaches a stigma, but the sheer volume ensures successful reproduction.
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
-Pollinators.
+pollinators.
 :::
 
 ### Fertilisation (OL/HL)
@@ -323,7 +323,7 @@ Pollinators.
 - The other male gamete fuses with two polar nuclei $\to$ endosperm (3n), a nutritive tissue.
 
 Double fertilisation is unique to flowering plants (angiosperms) and ensures that the endosperm only
-Develops if fertilisation has occurred, avoiding waste of resources.
+develops if fertilisation has occurred, avoiding waste of resources.
 
 ### Seed and Fruit Development (OL/HL)
 
@@ -407,7 +407,7 @@ Environmental changes), can lead to overcrowding and competition for resources.
 **Question:** A student sets up four test tubes, each containing 10 cress seeds on moist cotton
 Wool. Tube A is kept at $20\degree C$. Tube B is kept at $20\degree C$ but the cotton wool is dry.
 Tube C is kept at $4\degree C$. Tube D is kept at $20\degree C$ with no oxygen. After 5 days, only
-Tube A shows germination. Explain the results.
+tube A shows germination. Explain the results.
 
 **Answer:**
 
@@ -439,7 +439,7 @@ Conditions for germination.
 
 Plant hormones (phytohormones) are chemical messengers produced in small quantities that regulate
 Growth, development, and responses to stimuli. Unlike animal hormones, plant hormones can act on the
-Cells that produce them (autocrine) as well as on distant cells.
+cells that produce them (autocrine) as well as on distant cells.
 
 <div class="table-wrap">
 
@@ -456,7 +456,7 @@ Cells that produce them (autocrine) as well as on distant cells.
 ### Apical Dominance (HL)
 
 Auxin produced by the apical bud inhibits the growth of lateral buds. The mechanism works as
-Follows:
+follows:
 
 1. Auxin is synthesised in the apical bud and transported downwards through the stem.
 2. High auxin concentrations in the lateral buds prevent them from growing.
@@ -497,7 +497,7 @@ that promotes growth in shoots inhibits growth in roots.
 
 **Question:** A potted plant is placed near a window so that light comes from one side only. After
 Several days, the stem bends towards the window. Explain the mechanism responsible for this
-Response.
+response.
 
 **Answer:** The bending is due to **positive phototropism**, mediated by the plant hormone auxin
 (IAA):
@@ -510,7 +510,7 @@ Response.
 4. This differential growth causes the stem to bend towards the light source.
 
 If a light-proof cap is placed over the tip of the shoot, no bending occurs, demonstrating that the
-Tip is the site of auxin production and light perception.
+tip is the site of auxin production and light perception.
 
 ### Worked Example: Geotropism in Roots (HL)
 
@@ -596,17 +596,17 @@ Directions in response to the same gravitational stimulus.
 ### Agriculture and Plant Hormones
 
 Plant hormones have significant applications in agriculture and horticulture. Understanding these
-Applications is important for the Leaving Certificate.
+applications is important for the Leaving Certificate.
 
 **Synthetic auxins (e.g., 2,4-D):** used as selective weedkillers. Broad-leaved plants (dicots) are
 More sensitive to auxins than narrow-leaved plants (monocots like grasses and cereals). Spraying a
-Field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
+field of wheat with 2,4-D kills dicot weeds without harming the crop. Synthetic auxins cause
 Uncontrolled, unsustainable growth in susceptible plants, effectively killing them.
 
 **Ethylene and fruit ripening:** Ethylene gas is used commercially to control fruit ripening.
 Bananas are harvested while green and unripe, shipped to reduce damage and spoilage, then exposed to
-Ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
-Using ethylene absorbers) delays ripening and extends shelf life.
+ethylene gas upon arrival to trigger uniform ripening. Removing ethylene (e.g., by ventilation or
+using ethylene absorbers) delays ripening and extends shelf life.
 
 **Gibberellins in brewing:** Gibberellic acid ($GA_3$) is sprayed on barley grains during the
 Malting process. It stimulates the production of amylase enzymes in the aleurone layer of the seed,
@@ -732,7 +732,7 @@ Has a water potential of $-100$ kPa. In which direction will water move? Explain
 **Answer:** Water will move **from the soil into the root hair cell**. This is because the soil
 Solution has a higher (less negative) water potential ($-100$ kPa) compared to the root hair cell
 Cytoplasm ($-700$ kPa). Water always moves from a region of higher water potential to a region of
-Lower water potential by osmosis across the selectively permeable cell membrane.
+lower water potential by osmosis across the selectively permeable cell membrane.
 
 ### Xylem and Phloem: Detailed Comparison (HL)
 

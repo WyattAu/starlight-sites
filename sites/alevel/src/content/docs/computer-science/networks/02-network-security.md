@@ -60,7 +60,7 @@ C = E_K(M), \quad M = D_K(C)
 $$
 
 Where $M$ is the plaintext, $C$ is the ciphertext, $E$ is the encryption function, $D$ is the
-Decryption function, and $K$ is the shared secret key.
+decryption function, and $K$ is the shared secret key.
 
 ### AES (Advanced Encryption Standard)
 
@@ -81,7 +81,7 @@ AES is the most widely used symmetric encryption algorithm.
 
 Symmetric encryption requires both parties to share the same secret key. Distributing this key
 Securely is a fundamental challenge, if the key is intercepted during exchange, the encryption is
-Compromised.
+compromised.
 
 <hr />
 
@@ -177,12 +177,12 @@ A **digital signature** provides:
 **Signing:** $S = D_{\mathrm{priv}}(H(M))$
 
 Where $H$ is a hash function. The sender hashes the message and "decrypts" the hash with their
-Private key.
+private key.
 
 **Verification:** $H(M) \stackrel{?}{=} E_{\mathrm{pub}}(S)$
 
 The receiver encrypts the signature with the sender's public key and compares it to the hash of the
-Received message.
+received message.
 
 **Correctness:** Since only the sender knows the private key, only they could have produced $S$. If
 The message was altered, $H(M)$ would differ, and verification would fail.
@@ -194,7 +194,7 @@ The message was altered, $H(M)$ would differ, and verification would fail.
 ### Definition
 
 A **cryptographic hash function** $H: \{0,1\}^* \to \{0,1\}^n$ maps arbitrary-length input to a
-Fixed-length output (hash/digest).
+fixed-length output (hash/digest).
 
 ### Properties
 
@@ -413,7 +413,7 @@ Attackers. Named after the Trojan Horse of Greek mythology.
 <summary>Answer</summary>
 
 A **Certificate Authority (CA)** is a trusted entity that issues **digital certificates** binding a
-Public key to an identity (domain name, organisation, person).
+public key to an identity (domain name, organisation, person).
 
 **Process:**
 
@@ -513,7 +513,7 @@ A company web server (IP `203.0.113.10`) needs the following access:
 </div>
 
 Rule 4 is the **default deny** rule, it blocks everything not explicitly allowed. Rules are
-Processed top-to-bottom, so the specific rules (1-3) are evaluated before the catch-all deny.
+processed top-to-bottom, so the specific rules (1-3) are evaluated before the catch-all deny.
 
 ### Worked Example: Symmetric vs Asymmetric Encryption in HTTPS
 
@@ -534,13 +534,13 @@ WPA2-Personal (PSK) uses a pre-shared key:
 1. **4-way handshake:** The access point and client prove they both know the PSK without
    transmitting it
 2. **Key derivation:** The PSK is combined with the network name (SSID) using PBKDF2 to derive a
-   Pairwise Master Key (PMK)
+   pairwise Master Key (PMK)
 3. **Session key:** The PMK is used to generate a unique Pairwise Transient Key (PTK) for each
    session
 4. **Encryption:** Data is encrypted with AES-CCMP using the PTK
 
 The PSK is never transmitted over the air. An attacker capturing the handshake can attempt an
-Offline brute-force attack against the PSK.
+offline brute-force attack against the PSK.
 
 <hr />
 
@@ -685,7 +685,7 @@ Salt, which is computationally infeasible.
 
 **Attack 2: Dictionary attack.** The attacker hashes a list of common passwords and compares each
 Hash to the stored values. Identical passwords produce identical hashes, so cracking one reveals all
-Users with the same password.
+users with the same password.
 
 **How salting prevents it:** With unique salts, identical passwords produce different hashes. The
 Attacker must crack each hash independently, even if multiple users have the same password.
@@ -699,13 +699,13 @@ The internet, and describe how asymmetric encryption solves this problem.
 <summary>Answer</summary>
 
 Symmetric encryption requires both parties to share the same secret key. Sending this key over the
-Internet exposes it to interception, a chicken-and-egg problem: you need a secure channel to
-Establish the key, but you need the key to create a secure channel.
+internet exposes it to interception, a chicken-and-egg problem: you need a secure channel to
+establish the key, but you need the key to create a secure channel.
 
 Asymmetric encryption solves this because the public key can be transmitted openly. The sender
 Encrypts the symmetric session key with the receiver's public key. Only the receiver's private key
 can decrypt it. This is how TLS works: the asymmetric handshake establishes a shared secret, and all
-Subsequent data uses fast symmetric encryption.
+subsequent data uses fast symmetric encryption.
 
 Without asymmetric encryption, there would be no practical way to establish secure communication
 between parties who have never met in person.
@@ -728,7 +728,7 @@ Network security.
    application's database account should have SELECT and INSERT permissions but not DROP TABLE.
 
 3. **Fail-safe defaults:** Systems should default to the most secure configuration. If a rule or
-Configuration is missing, the system should deny access rather than allow it. Example: a firewall's
+configuration is missing, the system should deny access rather than allow it. Example: a firewall's
 Final rule should be "deny all", anything not explicitly permitted is blocked.
 
 </details>

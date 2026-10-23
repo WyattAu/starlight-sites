@@ -23,7 +23,7 @@ The Gaussian distribution was first derived by Abraham de Moivre (1733) as an ap
 ## Statistical Distributions (Extended Treatment)
 
 This document provides rigorous coverage of the binomial, normal, and Poisson distributions, their
-Approximations, and hypothesis testing applications.
+approximations, and hypothesis testing applications.
 
 :::note
 Calculating probabilities. For example: "$X \sim B(20, 0.3)$".
@@ -336,8 +336,8 @@ exceeded by only 5% of men?
 ### Problem 3
 
 The number of emails received per hour follows a Poisson distribution with mean 6. Find the
-Probability that: (a) exactly 4 emails are received in an hour; (b) more than 10 emails in two
-Hours.
+probability that: (a) exactly 4 emails are received in an hour; (b) more than 10 emails in two
+hours.
 
 <details>
 <summary>Solution</summary>
@@ -354,7 +354,7 @@ $P(Y \gt 10) = 1 - P(Y \leq 10) \approx 1 - 0.6528 = 0.3472$.
 ### Problem 4
 
 A die is rolled 60 times. Use a suitable approximation to find the probability that the number of
-Sixes is between 8 and 14 inclusive.
+sixes is between 8 and 14 inclusive.
 
 <details>
 <summary>Solution</summary>

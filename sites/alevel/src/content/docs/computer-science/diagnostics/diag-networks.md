@@ -174,7 +174,7 @@ man-in-the-middle attacks where an attacker substitutes their own public key for
 
 **Question:** A web application allows users to search for books by title, author, or ISBN. The
 frontend is an HTML page with a form that sends a GET request to `/search?q=query`. The backend is a
-Python Flask application that queries a PostgreSQL database. (a) Describe the full request-response
+python Flask application that queries a PostgreSQL database. (a) Describe the full request-response
 cycle from the user submitting the form to the results being displayed. (b) Explain three security
 vulnerabilities in this setup and how to mitigate each. (c) Explain how a CDN could improve
 performance.

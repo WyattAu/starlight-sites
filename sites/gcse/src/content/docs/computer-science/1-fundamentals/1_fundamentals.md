@@ -51,7 +51,7 @@ A group of 8 bits is called a **byte**.
 
 **Why binary?** Digital circuits are built from transistors, which have two states: on (high
 Voltage) and off (low voltage). These two states map to 1 and 0. Binary arithmetic can be
-Implemented with simple logic gates (AND, OR, NOT), making hardware design tractable.
+implemented with simple logic gates (AND, OR, NOT), making hardware design tractable.
 
 ### 1.2 Converting Between Binary and Denary
 
@@ -104,7 +104,7 @@ Reading bottom to top: 11010110.
 
 :::caution
 Manufacturers often use 1000 for marketing purposes. A "500 GB" hard drive advertised by the
-Manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
+manufacturer is actually about 465 GiB when measured in binary. The IEC prefixes KiB, MiB, GiB refer
 Specifically to powers of 1024.
 
 ### 1.4 Binary Addition
@@ -148,7 +148,7 @@ Binary addition follows the same rules as denary addition, but with only two dig
 
 The result (11000) requires 5 bits, but we are working with 4-bit numbers. The leftmost 1 is lost,
 Giving an incorrect result of 1000. This is called **overflow** and occurs when the result of an
-Operation exceeds the number of bits available.
+operation exceeds the number of bits available.
 
 ### 1.5 Binary Subtraction Using Two's Complement (Higher Tier)
 
@@ -190,7 +190,7 @@ Discard the overflow bit: $00111 = 7$. Correct.
 $0 \lt x \lt 2^{n-1}$ Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
 Compute $x + y = x +
 (2^n - x) = 2^n$. In $N$-bit arithmetic, the leading 1 overflows and is
-Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
+discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
 
 ### 1.6 Logical Binary Shifts (Higher Tier)
 
@@ -317,7 +317,7 @@ $3 \times 16 + 12 = 48 + 12 = 60$.
 ### 3.1 Character Sets
 
 A **character set** is a collection of characters that a computer can recognise. Each character is
-Assigned a unique binary code.
+assigned a unique binary code.
 
 <div class="table-wrap">
 
@@ -391,7 +391,7 @@ English text is stored efficiently in UTF-8, while still supporting the full ran
 ### 4.1 Bitmap Images
 
 A **bitmap image** is made up of tiny squares called **pixels** (picture elements). Each pixel is
-Assigned a binary value that represents its colour.
+assigned a binary value that represents its colour.
 
 **Image resolution:** The number of pixels in the image (width $\times$ height).
 
@@ -448,7 +448,7 @@ $\mathrm{Colour depth = \frac{3 \times 1048576 \times 8}{4000000} = \frac{251658
 Bits.
 
 This is not an exact number, which suggests the file may include a header or metadata. Without
-Metadata, a 4-megapixel image at 24-bit colour depth would be: $4000000 \times 24 / 8 = 12000000$
+metadata, a 4-megapixel image at 24-bit colour depth would be: $4000000 \times 24 / 8 = 12000000$
 Bytes $\approx 11.44$ MB.
 
 ### 4.3 The Effect of Resolution and Colour Depth
@@ -513,8 +513,8 @@ This process is called **analogue to digital conversion (ADC)**.
 
 **Intuition.** Imagine drawing a smooth curve on graph paper by only plotting points at regular
 Intervals along the x-axis. The more points you plot (higher sample rate) and the more precisely you
-Measure each y-value (higher bit depth), the more accurately your plotted points will match the
-Original curve.
+measure each y-value (higher bit depth), the more accurately your plotted points will match the
+original curve.
 
 ### 5.2 Key Terms
 
@@ -593,7 +593,7 @@ Without compression, a 2-hour HD film could require hundreds of gigabytes.
 ### 6.2 Lossy Compression
 
 Lossy compression permanently removes some data to reduce file size. The original file cannot be
-Perfectly reconstructed.
+perfectly reconstructed.
 
 **Examples:** JPEG (images), MP3 (audio), MP4 (video)
 
@@ -718,7 +718,7 @@ Lowest-frequency nodes:
 5. Combine DEA(9) and BC(11) to form the root
 
 The left branch gets 0 and the right branch gets 1 at each merge. This gives the codes shown in the
-Table above.
+table above.
 
 ## 7. Additional Worked Examples (Higher Tier)
 

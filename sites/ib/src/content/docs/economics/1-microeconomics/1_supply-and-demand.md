@@ -62,15 +62,15 @@ Opportunity cost applies at every level:
 - **Economic profit** $= \text{Total Revenue} - \text{Explicit Costs} - \text{Implicit Costs}$
 
 Implicit costs include the opportunity cost of the owner"s time and capital. A firm may earn a
-Positive accounting profit but a negative economic profit if it could earn more by deploying its
-Resources elsewhere.
+positive accounting profit but a negative economic profit if it could earn more by deploying its
+resources elsewhere.
 
 ## Production Possibilities Frontier (PPF)
 
 ### Definition and Interpretation
 
 The PPF is a curve showing the maximum possible combinations of two goods or services an economy can
-Produce when all resources are fully and efficiently employed, given the current state of
+produce when all resources are fully and efficiently employed, given the current state of
 technology.
 
 Assume an economy produces two goods, capital goods ($K$) and consumer goods ($C$). The PPF curves
@@ -105,14 +105,14 @@ Improvement or resource increase is specific to one industry.
 ### PPF and Opportunity Cost
 
 The slope of the PPF at any point represents the **marginal opportunity cost** of producing one more
-Unit of the good on the x-axis, measured in terms of the good on the y-axis:
+unit of the good on the x-axis, measured in terms of the good on the y-axis:
 
 $$
 \text{Slope of PPF} = -\frac{\Delta C}{\Delta K}
 $$
 
 A linear PPF implies **constant opportunity costs** (resources are equally suited to producing both
-Goods). A concave PPF implies **increasing opportunity costs** (resources are not perfectly
+goods). A concave PPF implies **increasing opportunity costs** (resources are not perfectly
 Transferable between uses).
 
 ## Supply and Demand
@@ -121,7 +121,7 @@ Transferable between uses).
 
 The law of demand states that, _ceteris paribus_, as the price of a good rises, the quantity
 Demanded falls. The relationship is captured by a downward-sloping demand curve. A movement _along_
-The curve reflects a change in price (change in quantity demanded). A _shift_ of the curve reflects
+the curve reflects a change in price (change in quantity demanded). A _shift_ of the curve reflects
 A change in a non-price determinant of demand.
 
 **Non-price determinants of demand:**
@@ -134,12 +134,12 @@ A change in a non-price determinant of demand.
 
 A **substitute** has a positive cross-price elasticity of demand: if the price of coffee rises,
 Demand for tea shifts rightward. A **complement** has a negative cross-price elasticity: if the
-Price of petrol rises, demand for cars shifts leftward.
+price of petrol rises, demand for cars shifts leftward.
 
 ### The Law of Supply
 
 The law of supply states that, _ceteris paribus_, as price rises, quantity supplied increases. The
-Supply curve slopes upward because higher prices increase the profitability of production,
+supply curve slopes upward because higher prices increase the profitability of production,
 Incentivising firms to expand output.
 
 **Non-price determinants of supply:**
@@ -154,7 +154,7 @@ Incentivising firms to expand output.
 ### Market Equilibrium
 
 Equilibrium occurs where quantity demanded equals quantity supplied. The equilibrium price $P^*$ and
-Quantity $Q^*$ are found at the intersection of the demand and supply curves.
+quantity $Q^*$ are found at the intersection of the demand and supply curves.
 
 If the market price is above $P^*$ A **surplus** (excess supply) exists, placing downward pressure On
 price. If the market price is below $P^*$ A **shortage** (excess demand) exists, placing upward
@@ -168,7 +168,7 @@ Producers.
 
 **Consumer surplus** is the difference between the maximum price a consumer is willing to pay and
 The actual market price. Graphically, it is the area below the demand curve and above the
-Equilibrium price.
+equilibrium price.
 
 $$
 \mathrm{CS} = \int_{0}^{Q^*} D(Q) \, dQ - P^* \cdot Q^*
@@ -182,7 +182,7 @@ $$
 
 **Producer surplus** is the difference between the actual market price and the minimum price a
 Producer is willing to accept. Graphically, it is the area above the supply curve and below the
-Equilibrium price.
+equilibrium price.
 
 $$
 \mathrm{PS} = P^* \cdot Q^* - \int_{0}^{Q^*} S(Q) \, dQ
@@ -195,7 +195,7 @@ $$
 $$
 
 At equilibrium, total welfare (consumer surplus + producer surplus) is maximised. Any deviation from
-Equilibrium creates a **deadweight loss** (DWL):
+equilibrium creates a **deadweight loss** (DWL):
 
 $$
 \mathrm{DWL} = \frac{1}{2} \times (\text{change in quantity}) \times (\text{difference in marginal
@@ -289,7 +289,7 @@ The opportunity cost of each additional 10 units of $K$ increases as more $K$ is
 confirming Increasing opportunity costs (a concave PPF).
 
 (c) Point D is on the PPF (30 $K$70 $C$), so yes, the economy can produce this combination if all
-Resources are fully and efficiently employed. However, to move from point B to point D, the economy
+resources are fully and efficiently employed. However, to move from point B to point D, the economy
 must reallocate resources from consumer goods to capital goods, which requires time and adjustment.
 
 </details>
@@ -441,7 +441,7 @@ Imposes a specific tax of `USD 15` per unit.
 $$120 - P = 2P - 40 \implies 3P = 160 \implies P_0 = 53.33$$ $$Q_0 = 120 - 53.33 = 66.67$$
 
 (b) With a specific tax of $t = 15$ The supply curve shifts upward. The new supply (price received by
-Producers) is $P_s = P_d - 15$. Setting $Q_d = Q_s$:
+producers) is $P_s = P_d - 15$. Setting $Q_d = Q_s$:
 
 $$120 - P_d = 2(P_d - 15) - 40 = 2P_d - 70$$ $$190 = 3P_d \implies P_d = 63.33$$
 $$P_s = 63.33 - 15 = 48.33$$ $$Q_t = 120 - 63.33 = 56.67$$
@@ -514,7 +514,7 @@ produces less than The socially optimal quantity.
 <summary>Problem 7: Subsidy Welfare Analysis</summary>
 
 The government provides a `USD 5` per unit subsidy on solar panels. Before the subsidy, the
-Equilibrium price was `USD 100` and the equilibrium quantity was $10000$ units. After the subsidy,
+equilibrium price was `USD 100` and the equilibrium quantity was $10000$ units. After the subsidy,
 the Quantity increases to $14000$ units. Calculate the total cost of the subsidy to the government
 and Discuss potential government failures.
 
@@ -538,7 +538,7 @@ Potential government failures include:
 ### Budget Constraints
 
 A consumer's budget constraint represents all combinations of two goods they can afford given their
-Income and the prices of the goods. If a consumer has income $M$ The price of good $X$ is $P_X$ And
+income and the prices of the goods. If a consumer has income $M$ The price of good $X$ is $P_X$ And
 the price of good $Y$ is $P_Y$:
 
 $$
@@ -558,7 +558,7 @@ the other good.
 ### Indifference Curves
 
 An indifference curve shows all combinations of two goods that give the consumer the same level of
-Utility (satisfaction). The consumer is indifferent between any two points on the same curve.
+utility (satisfaction). The consumer is indifferent between any two points on the same curve.
 
 **Properties of indifference curves:**
 
@@ -573,14 +573,14 @@ Utility (satisfaction). The consumer is indifferent between any two points on th
 ### Marginal Rate of Substitution (MRS)
 
 The MRS measures the rate at which a consumer is willing to trade one good for another while
-Maintaining the same utility level:
+maintaining the same utility level:
 
 $$
 \mathrm{MRS}_{XY} = -\frac{\Delta Y}{\Delta X}
 $$
 
 At any point on the indifference curve, the MRS equals the absolute value of the slope of the
-Indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
+indifference curve. As the consumer moves down along the curve, the MRS diminishes: the more of $X$
 and the less of $Y$ consumed, the less $Y$ the consumer is willing to give up for an additional unit
 of $X$.
 

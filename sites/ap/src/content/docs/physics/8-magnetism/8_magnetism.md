@@ -29,7 +29,7 @@ $$
 $$
 
 The magnitude is $F = qvB\sin\theta$ Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
-Direction is given by the right-hand rule.
+direction is given by the right-hand rule.
 
 ### Key Properties
 
@@ -374,7 +374,7 @@ V_L = L\frac{dI}{dt} = \mathcal{E} e^{-t/\tau_L}
 $$
 
 At $t = 0$ All the voltage is across the inductor. At $t \to \infty$ All the voltage is across the
-Resistor.
+resistor.
 
 ### LC Circuits
 
@@ -611,7 +611,7 @@ $$
 <summary>Question 8: AP Exam-Style -- Faraday's law with a falling loop</summary>
 
 A rectangular conducting loop of width $w = 0.1$ m and height $h = 0.2$ m falls vertically into a
-Region of uniform magnetic field $B = 0.5$ T directed into the page. The field region extends from
+region of uniform magnetic field $B = 0.5$ T directed into the page. The field region extends from
 $y = 0$ to $y = 0.3$ m. The loop has mass $m = 0.01$ kg and resistance $R = 0.5\,\Omega$. Find the
 Terminal velocity of the loop as it enters the field.
 
@@ -628,7 +628,7 @@ The motional EMF: $\mathcal{E} = Bwv$.
 The induced current: $I = \mathcal{E}/R = Bwv/R$.
 
 By Lenz's law, the induced current creates a force opposing the motion (upward). The force on the
-Bottom wire is:
+bottom wire is:
 
 $$
 F_B = BIw = \frac{B^2 w^2 v}{R}

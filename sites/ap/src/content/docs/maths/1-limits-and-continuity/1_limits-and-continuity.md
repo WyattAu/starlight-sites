@@ -89,7 +89,7 @@ Argument applies from the left. $\blacksquare$
 Consider a unit circle sector with angle $x$. The area of triangle $OAP$ (with altitude $\sin x$) is
 $\frac{1}{2}\sin x$ The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
 Altitude $\tan x$) is $\frac{1}{2}\tan x$. Since the sector contains the first triangle and is
-Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$ Hence
+contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$ Hence
 $\sin x \lt x \lt \tan x$. $\blacksquare$
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x} = 1$.**
@@ -126,7 +126,7 @@ Then $\displaystyle\lim_{x \to a} f(x) = L$.
 
 **Intuition:** If $f$ is sandwiched between two functions that both approach $L$ Then $f$ must also
 Approach $L$. The squeeze theorem is particularly useful when $f$ oscillates or is otherwise hard to
-Evaluate directly.
+evaluate directly.
 :::
 
 :::note[Example]
@@ -471,7 +471,7 @@ Continuous on its domain.
 $g(a)$ Then $f \circ g$ is continuous at $a$.
 
 This theorem justifies statements like "$\sqrt{x^2 + 1}$ is continuous everywhere" -- $x^2 + 1$ is a
-Polynomial (continuous everywhere) and $\sqrt{x}$ is continuous at all positive values (and
+polynomial (continuous everywhere) and $\sqrt{x}$ is continuous at all positive values (and
 $x^2 + 1 \ge 1 \gt 0$).
 
 ### Types of Discontinuities
@@ -521,7 +521,7 @@ At least one zero in $(a, b)$.
 ### Extreme Value Theorem
 
 If $f$ is continuous on a closed interval $[a, b]$ Then $f$ attains both an absolute maximum and an
-Absolute minimum on $[a, b]$.
+absolute minimum on $[a, b]$.
 
 :::caution
 On $(0, 1)$ has no maximum, despite being continuous.
@@ -603,7 +603,7 @@ Forms. Using it on a determinate form (e.g., $\frac{3}{5}$) is an error.
 
 **When L'Hopital's Rule fails.** If the limit $\displaystyle\lim_{x \to a} \frac{f'(x)}{g'(x)}$ does
 Not exist, this does NOT mean the original limit does not exist. L'Hopital's Rule only gives a
-Conclusion when the right-hand limit exists (or is $\pm\infty$).
+conclusion when the right-hand limit exists (or is $\pm\infty$).
 :::
 
 :::note[Example]
@@ -841,7 +841,7 @@ Check three conditions:
 3. $\lim_{x \to 1} f(x) = 2 \ne f(1) = 4$.
 
 Since the limit does not equal the function value, $f$ is NOT continuous at $x = 1$. To make it
-Continuous, $f(1)$ should be redefined as $2$.
+continuous, $f(1)$ should be redefined as $2$.
 
 </details>
 

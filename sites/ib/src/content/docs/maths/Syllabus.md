@@ -210,7 +210,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 
 An arithmetic sequence has first term 5 and common difference 3. A geometric sequence has first term
 2 and common ratio 2. Find the smallest value of $n$ such that the sum of the first $n$ terms of the
-Geometric sequence exceeds the sum of the first $n$ terms of the arithmetic sequence.
+geometric sequence exceeds the sum of the first $n$ terms of the arithmetic sequence.
 
 <details>
 <summary>Solution</summary>
@@ -361,7 +361,7 @@ $x = 2$.
 ### Worked Example: Volume of Revolution (Topic 5, HL)
 
 Find the volume generated when the region bounded by $y = \sqrt{x}$ The $x$-axis, and $x = 4$ is
-Rotated $360$ degrees about the $x$-axis.
+rotated $360$ degrees about the $x$-axis.
 
 <details>
 <summary>Solution</summary>
@@ -386,16 +386,16 @@ Rotated $360$ degrees about the $x$-axis.
 #### Standard Level (SL)
 
 The SL course covers Topics 1-5 at a foundational level. Students are expected to understand and
-Apply core concepts in number and algebra, functions, geometry and trigonometry, statistics and
-Probability, and calculus. Internal assessment (IA) counts for 20% of the final grade, and the
-Remaining 80% is assessed through two written examination papers (Paper 1: non-calculator, Paper 2:
+apply core concepts in number and algebra, functions, geometry and trigonometry, statistics and
+probability, and calculus. Internal assessment (IA) counts for 20% of the final grade, and the
+remaining 80% is assessed through two written examination papers (Paper 1: non-calculator, Paper 2:
 Calculator).
 
 #### Higher Level (HL)
 
 The HL course extends the SL content with additional subtopics in all five areas. HL students sit
 Two additional papers (Paper 3: problem-solving with extended response questions) and cover more
-Advanced techniques including complex numbers, matrices, further calculus, and hypothesis testing.
+advanced techniques including complex numbers, matrices, further calculus, and hypothesis testing.
 The HL course demands deeper conceptual understanding and greater fluency with algebraic
 Manipulation.
 

@@ -403,7 +403,7 @@ Issues and debates relate to methodology in several ways:
    "nurture" in isolation.
 2. **Confusing alpha bias and beta bias:** Alpha bias exaggerates differences (making them seem
    larger than they are). Beta bias minimises differences (making them seem smaller than they are).
-   Remember: Alpha = Amplifies; Beta = Blurs.
+   remember: Alpha = Amplifies; Beta = Blurs.
 3. **Confusing emic and etic:** Emic = from within a culture (insider perspective). Etic = from
    outside a culture (outsider perspective). An imposed etic is when an outsider perspective is
    wrongly assumed to be universal.

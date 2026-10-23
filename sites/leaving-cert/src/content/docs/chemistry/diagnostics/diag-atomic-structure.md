@@ -332,7 +332,7 @@ nuclear charge because the inner shells provide substantial shielding. Therefore
 larger atomic radius than argon.
 
 (b) The bond length increases from HF to HI because the halogen atom increases in size down
-Group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
+group 17. Each successive halogen has one more electron shell, making the atom larger. The H--X bond
 length is determined largely by the size of the halogen atom (hydrogen is very small and contributes
 little to the bond length). Fluorine is the smallest halogen, so HF has the shortest bond; iodine is
 the largest, so HI has the longest bond.

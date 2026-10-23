@@ -22,7 +22,7 @@ categories: "- DSE - Biology"
 ### Why Classify Organisms?
 
 Classification (taxonomy) is the science of grouping organisms based on shared characteristics. The
-Purposes of classification include:
+purposes of classification include:
 
 - Organising the vast diversity of life into manageable groups
 - Identifying and naming organisms universally (using a standardised system)
@@ -49,7 +49,7 @@ Proposed by Robert Whittaker (1969), this system classifies organisms into five 
 ### The Three-Domain System
 
 Proposed by Carl Woese (1990) based on ribosomal RNA (rRNA) sequencing. This system recognises three
-Domains above the kingdom level:
+domains above the kingdom level:
 
 <div class="table-wrap">
 
@@ -262,7 +262,7 @@ which lowers its diversity index despite having the same richness.
 ### The Fossil Record
 
 Fossils are the preserved remains or traces of organisms that lived in the past. They form when
-Organisms are buried rapidly under sediment, preventing decomposition and scavenging.
+organisms are buried rapidly under sediment, preventing decomposition and scavenging.
 
 **Types of fossils:**
 
@@ -561,8 +561,8 @@ Increasing global temperatures.
 ### In Situ Conservation
 
 In situ conservation means protecting species in their natural habitats. This is generally the
-Preferred approach because it preserves the entire ecosystem, including ecological interactions and
-Evolutionary processes.
+preferred approach because it preserves the entire ecosystem, including ecological interactions and
+evolutionary processes.
 
 <div class="table-wrap">
 
@@ -587,7 +587,7 @@ Evolutionary processes.
 
 Ex situ conservation means protecting species outside their natural habitats. Used when in situ
 Conservation is not possible (e.g., species is critically endangered in the wild, habitat is
-Destroyed).
+destroyed).
 
 <div class="table-wrap">
 
@@ -768,8 +768,8 @@ of carbon between the atmosphere, biosphere, oceans, and geosphere.
 ### The Nitrogen Cycle
 
 Nitrogen is essential for amino acids, proteins, nucleic acids, and ATP. The atmosphere is
-Approximately 78% $\mathrm{N}_2$ gas, but this form is unavailable to most organisms because the
-Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to break.
+approximately 78% $\mathrm{N}_2$ gas, but this form is unavailable to most organisms because the
+triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to break.
 
 **Key processes:**
 

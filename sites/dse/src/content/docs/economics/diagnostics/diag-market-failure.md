@@ -47,7 +47,7 @@ $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(
 **Question:** A coastal community of 100 residents is considering building a lighthouse. Each
 Resident's individual demand for the lighthouse is $P_i = 10 - 0.1Q$ Where $Q$ is the quality level
 (0 to 100). The total cost of providing quality level $Q$ is $TC = 200 + 5Q$. (a) Explain why a
-Lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
+lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
 Demand (marginal social benefit) curve. (c) Calculate the socially optimal quality level. (d)
 Explain why the private market would underprovide the lighthouse.
 
@@ -61,7 +61,7 @@ Explain why the private market would underprovide the lighthouse.
    other ships.
 
 These characteristics create a free rider problem -- individual residents have an incentive not to
-Pay, hoping others will fund it while they still benefit.
+pay, hoping others will fund it while they still benefit.
 
 (b) For a public good, the market demand (MSB) is the **vertical summation** of individual demands,
 Since all residents consume the same quantity simultaneously.
@@ -86,7 +86,7 @@ Means many residents would not contribute at all, expecting others to pay.
 **Question:** In the market for used cars, sellers know the true quality of their cars but buyers do
 Not. There are two types of cars: good cars worth $\$80,000$ and bad cars (lemons) worth $\$40,000$.
 Buyers value good cars at $\$100,000$ and bad cars at $\$50,000$. Half of all cars on the market are
-Good and half are bad. (a) What price would a risk-neutral buyer be willing to pay if they cannot
+good and half are bad. (a) What price would a risk-neutral buyer be willing to pay if they cannot
 Distinguish between good and bad cars? (b) What happens to the market if the price from part (a)
 Prevails? (c) Explain the concept of adverse selection in this context.
 
@@ -97,15 +97,15 @@ Prevails? (c) Explain the concept of adverse selection in this context.
 A risk-neutral buyer would pay up to $\$75,000$.
 
 (b) At a price of $\$75,000$: Sellers of good cars (value $\$80,000$) would not sell because the
-Price is below their valuation. Only sellers of bad cars (value $\$40,000$) would sell. This means
+price is below their valuation. Only sellers of bad cars (value $\$40,000$) would sell. This means
 only lemons remain in the market.
 
 (c) **Adverse selection** occurs when asymmetric information leads to the withdrawal of high-quality
 Products from the market. Since buyers cannot distinguish good from bad cars, they offer a price
 Based on the average quality. This price drives out the good cars (whose owners won't sell at that
-Price), leaving only lemons. Buyers then realise only lemons remain and lower their offer price
+price), leaving only lemons. Buyers then realise only lemons remain and lower their offer price
 Further. In the extreme, the market can collapse entirely -- a result known as the "market for
-Lemons" (Akerlof, 1970). Solutions include: warranties/s guarantees (signalling), third-party
+lemons" (Akerlof, 1970). Solutions include: warranties/s guarantees (signalling), third-party
 Inspections, certification programmes, and reputation systems.
 
 ---
@@ -125,8 +125,8 @@ Inspections, certification programmes, and reputation systems.
 
 **Question:** The market for electricity has demand $P = 200 - Q$ and supply $P = 40 + Q$ (in cents
 Per kWh). Electricity generation produces pollution with marginal external cost $MEC = 20$. (a)
-Calculate the free market equilibrium. (b) Calculate the socially optimal quantity. (c) If the
-Government imposes a Pigouvian tax, calculate: the tax per unit, the new equilibrium, tax revenue,
+calculate the free market equilibrium. (b) Calculate the socially optimal quantity. (c) If the
+government imposes a Pigouvian tax, calculate: the tax per unit, the new equilibrium, tax revenue,
 Deadweight loss reduction, and the tax incidence on consumers vs producers. (d) If demand becomes
 more inelastic (shifts to $P = 200 - 0.5Q$), how does this change the tax incidence?
 
@@ -143,7 +143,7 @@ $Q = 70$$P_b = \$1.30$, $P_s = \$1.10$.
 Tax revenue $= 20 \times 70 = 1400$ cents $= \$14$.
 
 DWL without tax $= \frac{1}{2} \times 20 \times (80 - 70) = \$100$ cents. With the tax, DWL from
-Externality is eliminated. Total DWL $= 0$ (the tax perfectly corrects the externality).
+externality is eliminated. Total DWL $= 0$ (the tax perfectly corrects the externality).
 
 Tax incidence: Consumer burden $= 130 - 120 = 10$ cents (50%). Producer burden $= 120 - 110 = 10$
 Cents (50%).
@@ -156,15 +156,15 @@ Post-tax: $200 - 0.5Q = 60 + Q$$1.5Q = 140$$Q_t = 93.33$$P_b = 153.33$$P_s = 133
 Consumer burden $= 153.33 - 146.67 = 6.67$ (33%). Producer burden $= 146.67 - 133.33 = 13.33$ (67%).
 
 With more inelastic demand, producers bear a larger share of the tax burden. This is because
-Consumers are less responsive to price changes, so producers cannot pass the full tax onto them.
+consumers are less responsive to price changes, so producers cannot pass the full tax onto them.
 
 ### IT-2: Government Regulation and Market Failure (with Market Structure)
 
 **Question:** A monopoly water company has $TC = 200 + 5Q$ and faces demand $P = 50 - 0.5Q$. The
 Government is considering three regulatory options: (a) marginal cost pricing, (b) average cost
 Pricing, or (c) a price cap. (a) Calculate the profit-maximising monopoly outcome. (b) Calculate the
-Outcome under each regulatory option. (c) Which option eliminates deadweight loss? Which ensures the
-Firm breaks even? (d) What problem might arise with marginal cost pricing in practice?
+outcome under each regulatory option. (c) Which option eliminates deadweight loss? Which ensures the
+firm breaks even? (d) What problem might arise with marginal cost pricing in practice?
 
 **Solution:**
 
@@ -185,7 +185,7 @@ Producing $Q = 80$.
 
 (c) Marginal cost pricing eliminates DWL (achieves allocative efficiency). Average cost pricing
 Ensures the firm breaks even (zero economic profit). Price caps can achieve something in between
-Depending on the cap level.
+depending on the cap level.
 
 (d) With marginal cost pricing, the firm makes a loss equal to its fixed costs (\$200). In the long
 Run, the firm would exit the market unless subsidised. This creates a dependency on government
@@ -448,7 +448,7 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
    environmental benefit (reduced road traffic) must be weighed against the construction impact.
    Tunnelling may affect groundwater and heritage sites.
 3. **Strategic planning:** The line may unlock development potential in new areas (e.g., the
-   Northern Metropolis), generating agglomeration economies and land value capture. These dynamic
+   northern Metropolis), generating agglomeration economies and land value capture. These dynamic
    effects are difficult to quantify but may be substantial.
 4. **Contingent liabilities:** Cost overruns are common in large infrastructure projects (Hong
    Kong's Express Rail Link exceeded its budget significantly). The government must account for the

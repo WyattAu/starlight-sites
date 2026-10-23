@@ -41,7 +41,7 @@ After winning a brutal Civil War (1918-1921), the Bolsheviks established the Sov
 death in 1924 triggered a succession struggle won by Stalin, who pursued forced industrialisation,
 agricultural collectivisation, and political purges at staggering human cost. The Soviet victory in
 the "Great Patriotic War" (1941-1945) established the USSR as a superpower and set the stage for the
-Cold War.
+cold War.
 
 ### Chronological Overview
 

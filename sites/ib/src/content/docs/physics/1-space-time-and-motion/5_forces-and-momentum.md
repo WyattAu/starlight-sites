@@ -50,7 +50,7 @@ $$
 #### Acceleration
 
 The acceleration ($a$) is a vector quantity representing the change in [velocity](#velocity) with
-Time:
+time:
 
 $$
 \begin`\{aligned}`
@@ -78,7 +78,7 @@ $$
 ### Centripetal acceleration
 
 The centripetal acceleration ($a$) is the [acceleration](#acceleration) directed radially to the
-Center ($-\bm{\hat{r}}$), keeping the body in circular motion:
+center ($-\bm{\hat{r}}$), keeping the body in circular motion:
 
 $$
 \begin`\{aligned}`
@@ -137,7 +137,7 @@ $$
 
 The angular velocity ($\omega$) is the change of
 [angular displacement $\Delta \theta$](#angular-displacement) of a [rigid body](#rigid-body) with
-Time:
+time:
 
 $$
 \begin`\{aligned}`
@@ -162,7 +162,7 @@ The measure of a solid body's resistance to [angular acceleration](#angular-acce
 
 :::caution
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
-Closed-form expressions.
+closed-form expressions.
 :::
 
 ### Angular Momentum
@@ -234,8 +234,8 @@ Distance covered during the 10.0 s of acceleration?
 
 **Problem 2.** A 2.0 kg firework is launched vertically from rest. Its rocket motor provides a
 Constant upward thrust of 50.0 N for 3.0 s before running out of fuel. Ignore air resistance. A)
-Calculate the maximum height the firework reaches. B) What is the total time the firework is in the
-Air (from launch until it returns to the ground)?
+calculate the maximum height the firework reaches. B) What is the total time the firework is in the
+air (from launch until it returns to the ground)?
 
 <details>
 <summary>Answer</summary>
@@ -271,8 +271,8 @@ Air (from launch until it returns to the ground)?
 
 **Problem 3.** A 5.0 kg object is suspended by a rope. A horizontal force is applied, pulling the
 Object to the side until the rope makes an angle of 35° with the vertical. The object is held in
-Static equilibrium. A) Draw a free-body diagram for the object. B) Calculate the magnitude of the
-Applied horizontal force and the tension in the rope.
+static equilibrium. A) Draw a free-body diagram for the object. B) Calculate the magnitude of the
+applied horizontal force and the tension in the rope.
 
 <details>
 <summary>Answer</summary>
@@ -372,9 +372,9 @@ any reliance on friction?
 
 **Problem 6.** **Question (HL Only):** A thin hoop of mass M and radius R ($I=MR^2$) rolls without
 Slipping down an incline of angle $\theta$. A) Draw a free-body diagram for the hoop, including the
-Force of static friction. B) By considering both linear and rotational dynamics, derive an
-Expression for the linear acceleration, $a$ Of the hoop's center of mass. C) How does this
-Acceleration compare to that of a block sliding down the same incline without friction?
+force of static friction. B) By considering both linear and rotational dynamics, derive an
+expression for the linear acceleration, $a$ Of the hoop's center of mass. C) How does this
+acceleration compare to that of a block sliding down the same incline without friction?
 
 <details>
 <summary>Answer</summary>
@@ -402,13 +402,13 @@ Half of this. This is because some of the initial potential energy must be conve
 Kinetic energy, leaving less for translational kinetic energy, resulting in a smaller linear
 Acceleration. **If you get this wrong, you should focus on:** Applying both linear and rotational
 Forms of Newton's second law, correctly identifying static friction as the source of torque for
-Rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the two equations.
+rolling objects, and using the no-slip condition ($a=\alpha R$) to connect the two equations.
 
 </details>
 
 **Problem 7.** **Question (HL Only):** An ice skater is spinning at an angular speed of 10.0 rad/s
 With her arms outstretched. In this position, her moment of inertia is 4.0 kg m². She then pulls her
-Arms in, reducing her moment of inertia to 1.5 kg m². A) What is her new angular speed? b) Calculate
+arms in, reducing her moment of inertia to 1.5 kg m². A) What is her new angular speed? b) Calculate
 the change in her rotational kinetic energy. C) Where does this change in energy come from?
 
 <details>
@@ -427,7 +427,7 @@ the change in her rotational kinetic energy. C) Where does this change in energy
 - **c) Source of Energy:** The kinetic energy increased. This increase comes from the **work done by
 The skater** using her muscles to pull her arms inward. She is doing work on her own system, which
 is not an isolated system in terms of energy (though it is for angular momentum, as the forces are
-Internal). **If you get this wrong, you should focus on:** The law of conservation of angular
+internal). **If you get this wrong, you should focus on:** The law of conservation of angular
 Momentum and when it applies (no net external torque). Also, understanding that rotational kinetic
 Energy is _not_ necessarily conserved when the moment of inertia changes, and that work must be done
 to change the configuration of a rotating system.
@@ -436,8 +436,8 @@ to change the configuration of a rotating system.
 
 **Problem 8.** **Question (HL Only):** From the perspective of an observer in a laboratory, a muon
 Is created by a cosmic ray at an altitude of 10.0 km. It travels downwards at a speed of 0.995c. The
-Proper half-life of a muon at rest is 1.56 μs. A) From the lab observer's perspective, what is the
-Muon's half-life? b) Will the muon reach the ground before decaying, according to the lab observer?
+proper half-life of a muon at rest is 1.56 μs. A) From the lab observer's perspective, what is the
+muon's half-life? b) Will the muon reach the ground before decaying, according to the lab observer?
 Justify with a calculation. C) Now, analyze the situation from the muon's reference frame. How does
 the muon "explain" its ability to reach the ground?
 
@@ -494,13 +494,13 @@ the muon "explain" its ability to reach the ground?
 
 **Problem:** Two blocks, $m_1 = 3.0$ kg and $m_2 = 5.0$ kg, are connected by a light inextensible
 String. Block $m_1$ rests on a frictionless horizontal table, and the string passes over a
-Frictionless pulley at the edge so that $m_2$ hangs vertically. The system is released from rest. A)
-Find the acceleration of the system. B) Find the tension in the string.
+frictionless pulley at the edge so that $m_2$ hangs vertically. The system is released from rest. A)
+find the acceleration of the system. B) Find the tension in the string.
 
 **Solution:**
 
 For $m_2$ (hanging): $m_2 g - T = m_2 a$ (Eq. 1) For $m_1$ (on table): $T = m_1 a$ (Eq. 2, since no
-Friction)
+friction)
 
 Substitute Eq. 2 into Eq. 1: $m_2 g - m_1 a = m_2 a$ $m_2 g = (m_1 + m_2) a$
 $a = \frac{m_2 g}{m_1 + m_2} = \frac{(5.0)(9.8)}{3.0 + 5.0} = \frac{49}{8.0} = 6.13$ m/s$^2$
@@ -523,7 +523,7 @@ Tension: $T = m_1 a = (3.0)(6.13) = 18.4$ N.
 **Problem:** A 4.0 kg block is placed on a $30^\circ$ incline. The coefficient of static friction is
 $\mu_s = 0.40$ and the coefficient of kinetic friction is $\mu_k = 0.30$. A) Will the block slide?
 Justify with a calculation. B) If a horizontal force of 20 N is applied pushing the block up the
-Incline, find the acceleration.
+incline, find the acceleration.
 
 **Solution:**
 
@@ -596,7 +596,7 @@ $R_{\mathrm{pivot}} + 212.3 = 98 + 147 = 245$ $R_{\mathrm{pivot}} = 32.7$ N (upw
 ## Angular Momentum Conservation: Extended Analysis
 
 The law of conservation of angular momentum states that when no net external torque acts on a
-System, the total angular momentum remains constant:
+system, the total angular momentum remains constant:
 
 $$
 L_{\mathrm{initial}} = L_{\mathrm{final}} \implies I_i \omega_i = I_f \omega_f
@@ -666,7 +666,7 @@ where $E_k$ increased).
 <summary>Question 1</summary>
 
 A 2.0 kg block slides down a frictionless incline of angle $35^\circ$ from a height of 1.5 m. A)
-Find the speed of the block at the bottom of the incline. B) The block then slides across a rough
+find the speed of the block at the bottom of the incline. B) The block then slides across a rough
 Horizontal surface with $\mu_k = 0.30$. How far does it travel before stopping?
 
 </details>
@@ -710,7 +710,7 @@ M/s.
 <summary>Question 3</summary>
 
 A disc of mass 0.50 kg and radius 0.20 m ($I = \frac{1}{2}mr^2$) is rotating at 300 rpm. A
-Frictional torque of 0.030 N m is applied to bring it to rest. A) Calculate the initial angular
+frictional torque of 0.030 N m is applied to bring it to rest. A) Calculate the initial angular
 Momentum. B) How long does it take for the disc to stop?
 
 </details>
@@ -732,7 +732,7 @@ S.
 
 A 60 kg person stands at the edge of a rotating platform of mass 100 kg and radius 2.0 m, modeled as
 A uniform disc ($I = \frac{1}{2}mr^2$). The system rotates at 1.5 rad/s. The person walks to the
-Center of the platform. What is the new angular speed?
+center of the platform. What is the new angular speed?
 
 </details>
 
@@ -755,7 +755,7 @@ $\omega_f = \frac{660}{200} = 3.3$ rad/s.
 
 A 3.0 kg block on a frictionless table is connected by a string over a pulley to a 2.0 kg block
 Hanging vertically. The pulley has mass 0.50 kg and radius 0.10 m ($I = \frac{1}{2}mr^2$ for the
-Pulley). A) Derive an expression for the acceleration of the system. B) Calculate the tension on
+pulley). A) Derive an expression for the acceleration of the system. B) Calculate the tension on
 each side of the pulley.
 
 </details>
@@ -782,7 +782,7 @@ N.
 <summary>Question 6</summary>
 
 A solid sphere of mass $M$ and radius $R$ ($I = \frac{2}{5}MR^2$) rolls without slipping down an
-Incline of angle $\theta$. Derive an expression for the linear acceleration of the sphere in terms
+incline of angle $\theta$. Derive an expression for the linear acceleration of the sphere in terms
 of $g$ and $\theta$.
 
 </details>

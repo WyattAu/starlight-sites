@@ -331,7 +331,7 @@ vice versa. Use the appropriate regression line for the direction of prediction.
 ### 5.1 Definition
 
 A **residual** for the $i$-th data point is the difference between the observed value and the
-Predicted value:
+predicted value:
 
 $$
 e_i = y_i - \hat{y}_i = y_i - (a + bx_i)

@@ -254,7 +254,7 @@ This theme introduces the quantum nature of matter and energy.
 
 **Paper 1** consists of multiple-choice questions (Section A) followed by structured/data-based
 Questions (Section B). No calculator is permitted for Section A; a calculator is permitted for
-Section B.
+section B.
 
 **Paper 2** contains short-response and extended-response questions covering the full syllabus. A
 Calculator is required.
@@ -282,7 +282,7 @@ Both SL and HL.
 
 Theme A (Space, Time and Motion) underpins almost everything else. If your mechanics is weak,
 Fields, waves, and thermodynamics will all be harder. Master SUVA equations, free-body diagrams, and
-Energy conservation before moving on.
+energy conservation before moving on.
 
 ### 2. Practise Derivations (HL)
 

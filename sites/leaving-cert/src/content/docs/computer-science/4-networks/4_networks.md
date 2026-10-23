@@ -88,7 +88,7 @@ Server, cost-effective for small networks. Disadvantages: security, difficult to
 **Worked Example (HL).** A school has 30 computers in a lab. Recommend a topology.
 
 Star topology is recommended. Each computer connects to a central switch via its own cable. If one
-Cable fails, only that computer is affected. The switch directs traffic efficiently.
+cable fails, only that computer is affected. The switch directs traffic efficiently.
 
 ## Network Models (HL)
 

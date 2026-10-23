@@ -58,7 +58,7 @@ globally.
 ### Burgess Concentric Zone Model (1925)
 
 Ernest Burgess proposed that cities grow in a series of concentric rings radiating outward from the
-Central Business District (CBD). The five zones are:
+central Business District (CBD). The five zones are:
 
 1. **CBD:** Central business and commercial activities, highest land values, densest development.
 2. **Zone of transition:** Mixed use, including light industry and older residential accommodation.

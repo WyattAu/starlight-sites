@@ -20,7 +20,7 @@ description: "15 exam-style questions with full mark schemes, aligned to the IB 
 ## IB Mathematics AA, Question Bank
 
 15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and
-Approaches syllabus (SL/HL). Each question is presented in table format for compact study, with
+approaches syllabus (SL/HL). Each question is presented in table format for compact study, with
 worked solutions below.
 
 ---

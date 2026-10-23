@@ -74,7 +74,7 @@ $$
 Step 1: Graph the constraints.
 
 For $x + y = 4$: intercepts at $(4, 0)$ and $(0, 4)$.
-For $x + 2y = 6$: intercepts at $(6, 0)$ and $(0, 3)$.
+for $x + 2y = 6$: intercepts at $(6, 0)$ and $(0, 3)$.
 
 Step 2: Find the corner points of the feasible region:
 

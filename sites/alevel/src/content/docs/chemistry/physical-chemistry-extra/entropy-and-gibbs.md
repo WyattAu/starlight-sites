@@ -23,23 +23,23 @@ categories:
 ## Entropy and Gibbs Free Energy
 
 Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The
-Dissolution of ammonium nitrate in water is endothermic yet proceeds spontaneously. The
-Decomposition of calcium carbonate requires continuous heating. To resolve these cases, we need a
-Second state function: entropy, and its combination with enthalpy in the Gibbs free energy.
+dissolution of ammonium nitrate in water is endothermic yet proceeds spontaneously. The
+decomposition of calcium carbonate requires continuous heating. To resolve these cases, we need a
+second state function: entropy, and its combination with enthalpy in the Gibbs free energy.
 
 ## Entropy ($S$)
 
 ### Statistical Definition
 
 Entropy is a measure of the number of microstates ($W$) accessible to a system -- that is, the
-Number of ways the energy of the system can be distributed among its particles:
+number of ways the energy of the system can be distributed among its particles:
 
 $$
 S = k_B \ln W
 $$
 
 Where $k_B = 1.381 \times 10^{-23}\,\mathrm{J/K}$ is the Boltzmann constant. A system with more
-Accessible microstates has higher entropy. This is the Boltzmann equation, engraved on his
+accessible microstates has higher entropy. This is the Boltzmann equation, engraved on his
 Tombstone.
 
 ### Thermodynamic Definition
@@ -57,7 +57,7 @@ $$
 $$
 
 This shows that entropy is heat divided by temperature. Transferring a given amount of heat at a
-Lower temperature produces a larger entropy change than at a higher temperature.
+lower temperature produces a larger entropy change than at a higher temperature.
 
 ### Factors Affecting Entropy
 
@@ -98,7 +98,7 @@ Typical values ($\mathrm{J\,mol^{-1}\,K^{-1}}$):
 </div>
 
 Gases have much higher standard entropies than liquids and solids. Diamond has a lower entropy than
-Graphite due to its more rigid, ordered structure.
+graphite due to its more rigid, ordered structure.
 
 ### Standard Entropy Change
 
@@ -131,14 +131,14 @@ At equilibrium: $\Delta S_\mathrm{universe} = 0$.
 ### Entropy Change of the Surroundings
 
 The surroundings gain or lose heat as a result of the reaction. The entropy change of the
-Surroundings is:
+surroundings is:
 
 $$
 \Delta S_\mathrm{surroundings} = -\frac{\Delta H_\mathrm{system}}{T}
 $$
 
 The negative sign arises because when the system releases heat (exothermic, $\Delta H \lt 0$), the
-Surroundings gain that heat and their entropy increases. When the system absorbs heat (endothermic,
+surroundings gain that heat and their entropy increases. When the system absorbs heat (endothermic,
 $\Delta H \gt 0$), the surroundings lose heat and their entropy decreases.
 
 Combining with the second law:
@@ -186,7 +186,7 @@ Contributions into a single quantity that determines spontaneity.
 
 A spontaneous process is one that proceeds without external intervention once initiated.
 "Spontaneous" does not mean "fast" -- kinetics determines the rate; thermodynamics determines the
-Direction.
+direction.
 
 ### Standard Gibbs Free Energy Change
 
@@ -206,7 +206,7 @@ Where $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$, $T$ is in Kelvin, and $K$ is th
 Constant (dimensionless, using activities).
 
 This equation is one of the most powerful in chemistry because it connects thermodynamic data to
-Measurable equilibrium constants.
+measurable equilibrium constants.
 
 <div class="table-wrap">
 
@@ -295,7 +295,7 @@ $= \Delta H^\circ$ (at $T = 0$).
 
 **Important caveat:** This linear extrapolation assumes that $\Delta H^\circ$ and $\Delta S^\circ$
 Are independent of temperature (Kirchhoff's approximation). This is a reasonable approximation over
-Small temperature ranges but fails over large ranges where heat capacities change significantly.
+small temperature ranges but fails over large ranges where heat capacities change significantly.
 
 ### Non-Standard Conditions: $\Delta G$ vs $\Delta G^\circ$
 
@@ -433,7 +433,7 @@ T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{6010}{22.0} = 273\,\mathrm{K} 
 $$
 
 (b) Although $\Delta H^\circ \gt 0$ (endothermic), $\Delta S^\circ \gt 0$ (entropy increases). At
-Temperatures above $273\,\mathrm{K}$ The $T\Delta S$ term exceeds $\Delta H$ Making $\Delta G \lt 0$.
+temperatures above $273\,\mathrm{K}$ The $T\Delta S$ term exceeds $\Delta H$ Making $\Delta G \lt 0$.
 The entropy gain from the increased disorder of the liquid phase more than Compensates for the
 enthalpy cost of breaking the hydrogen-bonded lattice.
 

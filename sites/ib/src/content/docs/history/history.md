@@ -62,7 +62,7 @@ The IB History assessment consists of the following components:
 ## Topics Studied
 
 The following comparative topics form the core of this course. Each topic is examined through a
-Comparative lens, analysing the causes, course, and consequences of major historical events.
+comparative lens, analysing the causes, course, and consequences of major historical events.
 
 ### Mao's China and Hitler's Germany
 
@@ -83,7 +83,7 @@ Regimes. Key areas of focus include:
 ### The Spanish Civil War and the Chinese Civil War
 
 This comparative study analyses two major civil conflicts of the twentieth century, examining their
-Origins, the nature of the fighting, and their international dimensions. Key areas of focus include:
+origins, the nature of the fighting, and their international dimensions. Key areas of focus include:
 
 - **Causes of conflict:** Long-term structural tensions (class conflict, regionalism, ideological
   polarisation) and short-term triggers (military uprising, the breakdown of the Second United
@@ -113,8 +113,8 @@ Origins, the nature of the fighting, and their international dimensions. Key are
 ## Historical Methodology
 
 A thorough understanding of historical methodology is essential for success in IB History. The
-Following concepts underpin all aspects of the course, from source analysis in Paper 1 to the
-Independent investigation in the IA.
+following concepts underpin all aspects of the course, from source analysis in Paper 1 to the
+independent investigation in the IA.
 
 ### Primary vs Secondary Sources
 
@@ -127,12 +127,12 @@ Independent investigation in the IA.
 
 The distinction between primary and secondary sources is not always clear-cut. A source's
 Classification depends on the question being asked: a history textbook is a primary source for
-Studying historiographical trends, but a secondary source for studying the events it describes.
+studying historiographical trends, but a secondary source for studying the events it describes.
 
 ### Bias and Perspective
 
 All sources reflect the perspective of their creator. Understanding bias is not about dismissing a
-Source, but about contextualising it. Consider:
+source, but about contextualising it. Consider:
 
 - The author's background, nationality, political affiliation, and social position.
 - The intended audience and purpose of the source (e.g. Propaganda, personal reflection, official
@@ -167,7 +167,7 @@ Criteria for significance include:
 ### Change and Continuity
 
 Historical analysis requires identifying not only what changed, but also what remained the same.
-Continuities often reveal as much about a period as the more visible changes. When analysing change,
+continuities often reveal as much about a period as the more visible changes. When analysing change,
 Consider the pace (gradual vs sudden), the direction (progressive vs regressive), and the extent
 (universal vs limited to particular groups or regions).
 
@@ -506,7 +506,7 @@ Paper 3 questions require greater depth and specificity than Paper 2. Key differ
 ## The Internal Assessment (IA)
 
 The IA is an independent historical investigation worth 20% at both SL and HL. It consists of a
-Research project of up to 2,200 words.
+research project of up to 2,200 words.
 
 ### Structure
 
@@ -562,7 +562,7 @@ When evaluating sources, go beyond surface-level observations. Consider:
 ## Historiographical Schools of Thought
 
 Understanding historiographical traditions helps you engage with different interpretations in
-Essays.
+essays.
 
 ### Intentionalist vs Structuralist
 

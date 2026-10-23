@@ -343,7 +343,7 @@ Which is larger than the original 10 bytes. RLE increases file size in this case
 Lossy compression is used for photographs.
 
 Executable files and documents must be reconstructed exactly -- a single changed bit could make a
-Program crash or change the meaning of a legal document. Photographs can tolerate some data loss
+program crash or change the meaning of a legal document. Photographs can tolerate some data loss
 because the human eye cannot perceive small differences in colour or detail.
 
 ---
@@ -689,7 +689,7 @@ into RAM.
 ### Embedded Systems
 
 An **embedded system** is a computer system built into a larger device, designed to perform a
-Specific function.
+specific function.
 
 **Examples:** Washing machines, microwaves, cars (engine management, ABS), traffic lights,
 Pacemakers, smart thermostats.

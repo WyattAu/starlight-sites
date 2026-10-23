@@ -84,7 +84,7 @@ Because `$B$1` is absolute:
 The tax rate reference stays fixed at `B1`.
 
 Mixed reference example: `$A2` keeps column `A` fixed when copied horizontally but allows the row to
-Change when copied vertically. `A$2` allows the column to change horizontally but keeps row 2 fixed
+change when copied vertically. `A$2` allows the column to change horizontally but keeps row 2 fixed
 Vertically.
 
 </details>
@@ -264,7 +264,7 @@ Result: 75.
 ### Conditional Formatting
 
 Conditional formatting applies formatting (colours, icons, data bars) to cells based on their
-Values, making patterns and outliers visually apparent.
+values, making patterns and outliers visually apparent.
 
 <div class="table-wrap">
 
@@ -311,7 +311,7 @@ Errors.
 ### Pivot Tables
 
 A pivot table summarises large datasets by grouping, counting, summing, and averaging data across
-Different dimensions.
+different dimensions.
 
 **Key components:**
 
@@ -340,7 +340,7 @@ Using a pivot table, you can quickly answer:
   5).
 
 The pivot table performs the grouping and aggregation automatically without requiring formulas or
-Manual sorting.
+manual sorting.
 
 </details>
 
@@ -509,7 +509,7 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 ### Desktop Publishing (DTP)
 
 DTP software (e.g., Adobe InDesign, Microsoft Publisher) provides advanced layout control for
-Professional publications such as brochures, newsletters, magazines, and books.
+professional publications such as brochures, newsletters, magazines, and books.
 
 <div class="table-wrap">
 
@@ -668,7 +668,7 @@ Object Linking and Embedding (OLE) allows data from one application to be includ
 
 **Example:** Embedding an Excel chart into a Word document means the chart data is stored inside the
 Word file. Linking means the Word document references the Excel file; if the Excel data changes, the
-Chart in Word updates automatically.
+chart in Word updates automatically.
 
 ### Copy and Paste Between Applications
 
@@ -712,12 +712,12 @@ Chart in Word updates automatically.
 ### What Is a Macro?
 
 A macro is a recorded sequence of actions (keystrokes, mouse clicks, menu selections) that can be
-Played back automatically. Macros automate repetitive tasks, saving time and reducing human error.
+played back automatically. Macros automate repetitive tasks, saving time and reducing human error.
 
 ### Recording a Macro
 
 Most office applications provide a macro recorder that captures user actions and converts them into
-Code.
+code.
 
 **General steps:**
 
@@ -730,7 +730,7 @@ Code.
 <summary>Worked Example: Recording a Macro in a Spreadsheet</summary>
 
 Task: Format a sales report header -- make row 1 bold, set background to blue, set font colour to
-White, centre-align, and set column widths.
+white, centre-align, and set column widths.
 
 Steps:
 
@@ -777,7 +777,7 @@ End Sub
 ```
 
 This macro iterates through rows 2 to 100, column 3, and colours any cell with a value below 50 in
-Red.
+red.
 
 ### Macro Security Considerations
 
@@ -792,7 +792,7 @@ Red.
 </div>
 
 Modern office applications default to disabling macros from the internet and prompt the user before
-Enabling macros in downloaded documents.
+enabling macros in downloaded documents.
 
 ---
 
@@ -917,7 +917,7 @@ A product table is in cells `H1:I6`:
 </div>
 
 In column `A` (rows 2--20), a list of product codes is entered. Column `B` should display the
-Corresponding prices.
+corresponding prices.
 
 (a) Write the VLOOKUP formula for cell `B2`.
 
@@ -935,7 +935,7 @@ when copied down). `2` specifies the second column (Price). `FALSE` requires an 
 
 (b) If the code is not found, VLOOKUP returns `#N/A` (Not Available). To handle this gracefully, use
 `=IFERROR(VLOOKUP(A2, $H$2:$I$6, 2, FALSE), "Not Found")` to display a custom message instead of an
-Error.
+error.
 
 (c) Select the range `B2:B20`. Go to Conditional Formatting &gt; Highlight Cells Rules &gt; Greater
 than. Enter `100` and select red formatting. This applies red fill to any cell in the range where
@@ -967,7 +967,7 @@ all students in class 5A who scored above 80 in ICT. Queries can also perform ca
 Average score per class).
 
 (c) **Form:** Provides a user-friendly interface for data entry and editing. For example, a
-Registration form where office staff enter new student details. Forms can include validation (e.g.,
+registration form where office staff enter new student details. Forms can include validation (e.g.,
 Restricting the Class field to valid class codes) and dropdown lists for consistent data entry.
 
 (d) **Report:** Presents formatted data for printing or distribution. For example, an end-of-year
@@ -1004,7 +1004,7 @@ The template file remains smaller with linking. Embedding would create a static 
 not update when the source data changes.
 
 (c) Two advantages: (1) **Consistency:** A macro can apply the exact same formatting, layout, and
-Calculations to every salary slip, eliminating variations caused by manual operations. (2) **Time
+calculations to every salary slip, eliminating variations caused by manual operations. (2) **Time
 Saving:** Instead of manually configuring mail merge, formatting, and printing for each run, a macro
 Executes all steps with a single command, significantly reducing processing time and human error for
 200 employees.
@@ -1043,7 +1043,7 @@ This counts how many cells in column `B` (rows 2--31) contain "A".
 
 (d) Select the range `G2:G31`. Go to Conditional Formatting &gt; Highlight Cells Rules &gt; Less
 than. Enter `80` and select red formatting. Any cell in column `G` with a value below 80 will be
-Highlighted in red. Note: the formula in `G` must calculate a percentage (not just a count) for this
+highlighted in red. Note: the formula in `G` must calculate a percentage (not just a count) for this
 to work correctly.
 
 </details>

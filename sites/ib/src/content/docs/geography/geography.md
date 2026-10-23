@@ -31,8 +31,8 @@ IB Geography is a two-year course that examines the relationships between indivi
 and the physical environment at a range of scales, from local to global. The course integrates
 physical and human geography, requiring students to analyse spatial patterns, evaluate competing
 theories, and apply geographic methodologies to real-world problems. Both Standard Level (SL) and
-Higher Level (HL) students study the same core themes, but HL students additionally complete the
-Global Interactions extension and an extra examination paper.
+higher Level (HL) students study the same core themes, but HL students additionally complete the
+global Interactions extension and an extra examination paper.
 
 The course is distinctive in its emphasis on geographic skills, fieldwork, and the synthesis of
 quantitative and qualitative data. Students are expected to engage with case studies drawn from a
@@ -153,7 +153,7 @@ structure:
 
 These modules cover the most commonly selected optional themes and the compulsory core extension.
 Students should consult their teacher to confirm which optional themes their school has selected for
-Paper 1.
+paper 1.
 
 ## Common Pitfalls
 

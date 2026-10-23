@@ -37,27 +37,27 @@ First assessment 2025. The course is organized into five core themes studied at 
 System design focuses on how computing systems are planned, analyzed, and constructed to meet
 Specified requirements. Students learn to identify all relevant stakeholders, gather both functional
 and non-functional requirements, and evaluate the feasibility of proposed solutions across
-Technical, economic, and operational dimensions. Project management methodologies such as Gantt
+technical, economic, and operational dimensions. Project management methodologies such as Gantt
 Charts, PERT charts, and agile/waterfall models are used to plan and coordinate system development
 Timelines. Visual modeling tools including data flow diagrams (DFDs), system flowcharts, use case
 Diagrams, and process flowcharts are employed to communicate design decisions .
 
 At HL, system design extends to include human-computer interaction (HCI) principles, covering
 Usability heuristics, accessibility standards, and user experience design. Students consider the
-Challenges of system integration, particularly when incorporating legacy systems, and evaluate
+challenges of system integration, particularly when incorporating legacy systems, and evaluate
 Social and ethical considerations such as privacy, intellectual property, digital divide, and the
-Environmental impact of computing systems.
+environmental impact of computing systems.
 
 Computer architecture covers the internal structure of processors and the fetch-decode-execute
 Cycle. Students examine the von Neumann and Harvard architectures in depth, understand the role of
 the arithmetic logic unit (ALU), control unit (CU), registers (PC, MAR, MDR, CIR, accumulator), and
-System buses (data, address, control). The memory hierarchy from registers and cache (L1, L2, L3) to
+system buses (data, address, control). The memory hierarchy from registers and cache (L1, L2, L3) to
 RAM, ROM, and secondary storage devices (HDD, SSD, optical) is explored. Embedded systems and the
-Principles of parallel processing (multi-core, GPU computing) are also considered.
+principles of parallel processing (multi-core, GPU computing) are also considered.
 
 Boolean logic provides the mathematical foundation for digital circuits. Students construct truth
 Tables for expressions with up to four variables, apply Boolean identities and De Morgan's laws to
-Simplify expressions, and use Karnaugh maps for systematic optimization. Understanding of AND, OR,
+simplify expressions, and use Karnaugh maps for systematic optimization. Understanding of AND, OR,
 NOT, NAND, NOR, XOR, and XNOR gates is essential for analyzing and designing combinatorial logic
 Circuits.
 
@@ -85,15 +85,15 @@ Flowcharts, pseudocode, and Nassi-Shneiderman diagrams are the standard notation
 Algorithms. Students must be able to trace through algorithms with test data and predict outputs.
 
 The algorithms topic covers fundamental searching and sorting algorithms. Students learn to
-Implement and trace linear search (O(n)) and binary search (O(log n)), as well as bubble sort
+implement and trace linear search (O(n)) and binary search (O(log n)), as well as bubble sort
 (O(n^2)), selection sort (O(n^2)), and insertion sort (O(n^2)). Algorithm efficiency is analyzed
 Using Big-O notation, distinguishing between best-case, average-case, and worst-case performance for
-Time and space complexity. Recursive algorithms and their base cases are introduced alongside
+time and space complexity. Recursive algorithms and their base cases are introduced alongside
 Iterative alternatives, with students expected to understand the call stack and how recursion is
-Resolved.
+resolved.
 
 Data structures at the SL/HL level include static structures such as one-dimensional and
-Two-dimensional arrays, records (structs), and sets, as well as dynamic structures including singly
+two-dimensional arrays, records (structs), and sets, as well as dynamic structures including singly
 and doubly linked lists, stacks (LIFO), queues (FIFO), binary search trees, and hash tables.
 Students evaluate the trade-offs between different structures in terms of access time, insertion,
 Deletion, searching, and memory usage, and must justify their choice of data structure for a given
@@ -124,18 +124,18 @@ Students should understand the differences between programming paradigms includi
 Object-oriented, and functional approaches.
 
 Abstraction is explored as a strategy for managing complexity in software systems. Conceptual and
-Physical models are contrasted, and students learn how data abstraction and procedural abstraction
+physical models are contrasted, and students learn how data abstraction and procedural abstraction
 Reduce coupling between components. Classes serve as abstractions that encapsulate state
 (attributes) and behavior (methods). Application programming interfaces (APIs) and information
 Hiding demonstrate how specification is separated from implementation. Top-down design and stepwise
 Refinement are applied as structured approaches to program development.
 
 Data management introduces relational database design using entity-relationship diagrams (ERDs) to
-Model entities, attributes, relationships (one-to-one, one-to-many, many-to-many), and cardinality.
+model entities, attributes, relationships (one-to-one, one-to-many, many-to-many), and cardinality.
 Normalization to 1NF, 2NF, and 3NF eliminates redundancy and dependency anomalies. Students write
 SQL statements for DDL (CREATE, ALTER, DROP) and DML (INSERT, UPDATE, DELETE, SELECT with JOIN,
 GROUP BY, HAVING, ORDER BY, and subqueries). Transaction management, ACID properties, indexing, and
-Data dictionaries are covered alongside an introduction to big data concepts (volume, velocity,
+data dictionaries are covered alongside an introduction to big data concepts (volume, velocity,
 Variety, veracity).
 
 ### Theme 4: Networks
@@ -152,7 +152,7 @@ Variety, veracity).
 
 Networks introduces the architecture, operation, and security of computer networks. Students study
 LAN, WAN, and WLAN configurations, compare network topologies (star, bus, ring, mesh, hybrid), and
-Distinguish between client-server and peer-to-peer models. The OSI seven-layer model (Physical, Data
+distinguish between client-server and peer-to-peer models. The OSI seven-layer model (Physical, Data
 Link, Network, Transport, Session, Presentation, Application) and the four-layer TCP/IP model
 Provide frameworks for understanding protocol stacks and the process of encapsulation.
 
@@ -190,7 +190,7 @@ Data transmission covers the physical characteristics of signal transmission:
 </div>
 
 Number systems covers binary, denary (decimal), hexadecimal, and octal representations and
-Conversions between them. Students perform binary arithmetic including addition, subtraction using
+conversions between them. Students perform binary arithmetic including addition, subtraction using
 Two's complement, and multiplication. Integer representation methods (signed magnitude, one's
 Complement, two's complement) and floating-point representation following the IEEE 754 standard
 (sign bit, exponent, mantissa) are studied. Character encoding standards including ASCII (7-bit,
@@ -232,7 +232,7 @@ Queues, heaps (min-heap, max-heap), and graphs. Graph algorithms including Dijks
 Algorithm and minimum spanning tree algorithms (Prim's, Kruskal's) are studied, with students
 Expected to trace through these algorithms step by step. Both adjacency matrix and adjacency list
 Representations are used. Students must justify the selection of data structures based on the
-Specific requirements of a problem.
+specific requirements of a problem.
 
 **Resource management** focuses on operating system responsibilities for managing hardware
 Resources:
@@ -256,7 +256,7 @@ Observer, singleton) and SOLID principles illustrate advanced OOP design strateg
 ### Paper 1
 
 A theory paper assessing knowledge and understanding of the syllabus content. Contains a mix of
-Short-answer and extended-response questions covering all five themes. Questions may require
+short-answer and extended-response questions covering all five themes. Questions may require
 Students to explain concepts, compare methodologies, analyze scenarios, and evaluate solutions. HL
 Students answer additional questions on the HL Extension topics. Calculators are not permitted.
 
@@ -275,7 +275,7 @@ Students answer additional questions on the HL Extension topics. Calculators are
 A paper focused on problem-solving and programming. Includes questions requiring algorithm design,
 Pseudocode or flowchart construction, and program tracing. Students may be asked to complete
 Pseudocode, trace through algorithms with given test data and input values, predict outputs, and
-Suggest modifications to existing solutions. HL students encounter more complex algorithmic
+suggest modifications to existing solutions. HL students encounter more complex algorithmic
 Problems. Calculators are not permitted.
 
 <div class="table-wrap">
@@ -291,11 +291,11 @@ Problems. Calculators are not permitted.
 ### Paper 3 (HL only)
 
 An HL-specific paper based on a previously issued case study published by the IB at the start of the
-Examination session (approximately 6 months before the exam). The case study describes a real-world
+examination session (approximately 6 months before the exam). The case study describes a real-world
 Computational scenario in detail, and students are expected to research and prepare extensively
 before the exam. The paper assesses the application of syllabus content to this scenario, requiring
 Extended analysis, evaluation, and synthesis of information. Students must demonstrate depth of
-Understanding by connecting multiple topics from across the syllabus to the case study context.
+understanding by connecting multiple topics from across the syllabus to the case study context.
 
 <div class="table-wrap">
 
@@ -311,7 +311,7 @@ Understanding by connecting multiple topics from across the syllabus to the case
 
 A computational solution project where students identify a problem for a specified client, design,
 Develop, test, and evaluate a software solution. Students must produce a functioning program and
-Supporting documentation covering the entire software development lifecycle:
+supporting documentation covering the entire software development lifecycle:
 
 1. **Planning** -- identifying the problem and client, feasibility assessment
 2. **Design** -- algorithm design, data structure selection, UI mockups

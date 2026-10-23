@@ -99,7 +99,7 @@ $$
 ### Definition
 
 Supply is the willingness and ability of producers to offer goods and services for sale at various
-Prices during a given period of time, **ceteris paribus**.
+prices during a given period of time, **ceteris paribus**.
 
 ### The Law of Supply
 
@@ -159,7 +159,7 @@ $$
 ### Definition
 
 Market equilibrium occurs where quantity demanded equals quantity supplied ($Q_D = Q_S$). At this
-Point, the market clears and there is no tendency for the price to change.
+point, the market clears and there is no tendency for the price to change.
 
 The equilibrium price is also called the **market-clearing price**.
 
@@ -441,7 +441,7 @@ $$
 ### Definition
 
 XED measures the responsiveness of quantity demanded of one good to a change in the price of another
-Good:
+good:
 
 $$
 \mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \mathrm{change in price of good B}}
@@ -491,7 +491,7 @@ The larger the absolute value of XED, the stronger the relationship between the 
 ### Worked Example 5
 
 Given $Q_D = 200 - 4P$ and $Q_S = 40 + 2P$ The government sets a price ceiling at USD 20. Find the
-Resulting shortage.
+resulting shortage.
 
 At $P = 20$:
 
@@ -516,7 +516,7 @@ A tax shifts the supply curve upward (leftward) by the amount of the tax.
 ### Tax Incidence (Burden)
 
 The burden of a tax is shared between consumers and producers. The distribution depends on
-Elasticity:
+elasticity:
 
 - If demand is **inelastic** relative to supply: consumers bear most of the tax burden
 - If supply is **inelastic** relative to demand: producers bear most of the tax burden
@@ -589,7 +589,7 @@ $$
 ### Definition
 
 Market failure occurs when the free market fails to allocate resources efficiently, resulting in a
-Loss of economic welfare (deadweight loss).
+loss of economic welfare (deadweight loss).
 
 ### Types of Market Failure
 
@@ -735,8 +735,8 @@ Since XED is negative, goods `A` and `B` are **complements**.
 Arise?
 
 A price ceiling makes housing more affordable for low-income households. However, it creates a
-Shortage (excess demand), may reduce the quality and maintenance of rental properties, and could
-Lead to black market activities. Landlords may convert properties to other uses, reducing long-run
+shortage (excess demand), may reduce the quality and maintenance of rental properties, and could
+lead to black market activities. Landlords may convert properties to other uses, reducing long-run
 Supply.
 
 ---
@@ -948,7 +948,7 @@ lower total Revenue.
 
 - **Assuming equilibrium price is always "fair":** Market equilibrium is where quantity demanded
   equals quantity supplied. This is a positive (descriptive) outcome, not a normative (ethical) one.
-  The equilibrium price may be too high for poor consumers to afford essential goods, which is why
+  the equilibrium price may be too high for poor consumers to afford essential goods, which is why
   governments may intervene with price controls or subsidies.
 
 - **Misidentifying the effects of taxes and subsidies on equilibrium:** A tax on producers shifts
@@ -1165,7 +1165,7 @@ $\mathrm{DWL} = \frac{1}{2} \times 8 \times (40 - 29.33) = \frac{1}{2} \times 8 
 A monopoly produces where MR = MC. Since the monopoly's MR curve lies below the demand curve (AR),
 The price charged is greater than MC (P \gt MC). This means the value consumers place on the last
 Unit (P) exceeds the cost of producing it (MC). Society would benefit from more output, but the
-Monopoly restricts output to maximise profit, creating a deadweight loss. In perfect competition, P
+monopoly restricts output to maximise profit, creating a deadweight loss. In perfect competition, P
 = MC, which is allocatively efficient.
 
 ---
@@ -1200,7 +1200,7 @@ Price rises from 36 to 48; quantity rises from 42 to 66.
 (c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30`, `180 = 5P`, `P = 36`. `Q = 210 - 108 = 102`.
 
 Quantity rises (42 to 102), but price returns to 36. When both curves shift right by the same
-Amount, price is unchanged and quantity increases.
+amount, price is unchanged and quantity increases.
 
 If you get this wrong, revise: [Changes in Equilibrium](#changes-in-equilibrium)
 
@@ -1231,7 +1231,7 @@ When the price of coffee rises by 10%, the quantity demanded of tea rises by 6%.
 milk Rises by 15%, the quantity demanded of coffee falls by 3%.
 
 (a) What is the relationship between coffee and tea? (b) What is the relationship between coffee and
-Milk? (c) If the price of coffee is expected to rise, what should a tea producer do?
+milk? (c) If the price of coffee is expected to rise, what should a tea producer do?
 
 <summary>Solution</summary>
 
@@ -1248,7 +1248,7 @@ If you get this wrong, revise: [Cross Elasticity of Demand (XED)](#cross-elastic
 <summary>Problem 4: Price Ceiling</summary>
 
 The market for rental housing has demand $Q_D = 500 - 2P$ and supply $Q_S = 100 + 3P$ (quantity in
-Units, price in USD hundred).
+units, price in USD hundred).
 
 (a) Find the equilibrium rent and quantity. (b) The government imposes a rent ceiling of USD 40
 (hundred). Find the resulting shortage. (c) What problems might arise?
@@ -1261,7 +1261,7 @@ Units, price in USD hundred).
 units.
 
 (c) Problems: black market (landlords sublet at above-ceiling prices), reduced quality and
-Maintenance (landlords cut costs), reduced supply in the long run (landlords convert properties),
+maintenance (landlords cut costs), reduced supply in the long run (landlords convert properties),
 Inefficient allocation (units not rented to those who value them most).
 
 If you get this wrong, revise: [Price Controls](#price-controls)
@@ -1269,10 +1269,10 @@ If you get this wrong, revise: [Price Controls](#price-controls)
 <summary>Problem 5: Tax Incidence</summary>
 
 Demand: $Q_D = 300 - 5P$. Supply: $Q_S = 4P - 60$. A specific tax of USD 6 per unit is imposed on
-Producers.
+producers.
 
 (a) Find the original equilibrium. (b) Find the new equilibrium after the tax. (c) Calculate the
-Burden on consumers and producers. (d) Who bears more of the tax burden and why?
+burden on consumers and producers. (d) Who bears more of the tax burden and why?
 
 <summary>Solution</summary>
 
@@ -1306,7 +1306,7 @@ businesses?
 taxis To buses). Demand for restaurant meals **decreases** (people cut back on luxuries).
 
 (c) Businesses need to anticipate how demand changes with the business cycle. Bus operators should
-Prepare for higher demand during recessions; restaurants should plan for lower demand and may need
+prepare for higher demand during recessions; restaurants should plan for lower demand and may need
 to Adjust pricing or offer promotions.
 
 If you get this wrong, revise: [Income Elasticity of Demand (YED)](#income-elasticity-of-demand-yed)

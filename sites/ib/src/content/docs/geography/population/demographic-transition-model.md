@@ -21,7 +21,7 @@ description: "The demographic transition model (DTM) describes the shift from hi
 
 The demographic transition model (DTM) describes the shift from high birth rates and high death
 Rates to low birth rates and low death rates as a country develops economically. The model was
-Developed by Warren Thompson (1929) and Frank Notestein (1945), based on the historical experience
+developed by Warren Thompson (1929) and Frank Notestein (1945), based on the historical experience
 of Western Europe and North America.
 
 ### The Five Stages
@@ -55,8 +55,8 @@ improvements in public health that precede economic modernisation:
 Crucially, birth rates remain high during this transition because the social and economic conditions
 that sustain high fertility (value of children as agricultural labour, high infant mortality
 Requiring compensatory births, cultural norms favouring large families, limited access to
-Contraception) persist even as death rates fall. This gap between declining death rates and
-Persistently high birth rates produces rapid population growth.
+contraception) persist even as death rates fall. This gap between declining death rates and
+persistently high birth rates produces rapid population growth.
 
 **Stage 2 to Stage 3 (fertility decline).** Birth rates begin to decline as the social and economic
 Conditions sustaining high fertility erode:
@@ -112,8 +112,8 @@ that all societies will follow the same path. This assumption is problematic bec
 
 The DTM considers only natural increase (births minus deaths) and does not account for migration,
 Which can significantly alter population size and composition. Germany's population would be
-Declining more rapidly without immigration; the USA's population growth is substantially driven by
-Immigration.
+declining more rapidly without immigration; the USA's population growth is substantially driven by
+immigration.
 
 ### Assumes Linear Progression
 
@@ -136,7 +136,7 @@ can be non-linear:
 Not all demographers accept the existence of a Stage 5 characterised by sustained below-replacement
 Fertility and population decline. Some argue that the current very low fertility in Japan, Germany,
 And Italy is a temporary phenomenon caused by the postponement of childbearing during periods of
-Economic uncertainty, and that fertility will eventually return toward replacement level. Others
+economic uncertainty, and that fertility will eventually return toward replacement level. Others
 Argue that below-replacement fertility may be a permanent feature of highly developed
 Post-industrial societies, in which case population decline is inevitable without substantial
 Immigration.
@@ -145,11 +145,11 @@ Immigration.
 <summary>Common Pitfalls: Assuming the DTM Predicts the Future</summary>
 
 The DTM is a descriptive model based on past experience, not a predictive law. It describes a
-Pattern that has been observed in many (but not all) countries. Using the DTM to predict when a
-Specific country will reach a particular stage is inappropriate because the speed and path of the
-Transition depend on country-specific factors (policy, culture, governance, economic structure).
+pattern that has been observed in many (but not all) countries. Using the DTM to predict when a
+specific country will reach a particular stage is inappropriate because the speed and path of the
+transition depend on country-specific factors (policy, culture, governance, economic structure).
 Always frame the DTM as an explanatory framework, not a forecasting tool, and evaluate its
-Applicability to each case study on its own terms.
+applicability to each case study on its own terms.
 
 </details>
 
@@ -165,12 +165,12 @@ Years.
 
 **Stationary pyramids** (roughly rectangular) are characteristic of Stage 4 populations with low
 Birth rates and low death rates. Age cohorts are approximately equal in size from birth to
-Approximately age 60, with tapering above that due to old-age mortality. Australia (2023)
+approximately age 60, with tapering above that due to old-age mortality. Australia (2023)
 Approximates this pattern, with a median age of approximately 38 years.
 
 **Constrictive pyramids** (narrow base, bulge in middle and upper age groups) are characteristic of
 Stage 5 populations with very low birth rates and ageing populations. Japan (2023) exemplifies this:
-The median age is 49 years, and approximately 29% of the population is aged 65 or over.
+the median age is 49 years, and approximately 29% of the population is aged 65 or over.
 
 ### Constructing and Interpreting Pyramids
 
@@ -201,7 +201,7 @@ $P_{0\mathrm{--}14}$ in the numerator; the elderly dependency ratio uses only $P
 The demographic dividend (or demographic bonus) is the accelerated economic growth that can result
 from a favourable age structure, specifically when the working-age population (15--64) grows faster
 than the dependent population (0--14 and 65+), producing a low total dependency ratio. During this
-Window, a larger proportion of the population is available for productive employment, potentially
+window, a larger proportion of the population is available for productive employment, potentially
 Driving higher per capita income growth.
 
 ### Mechanism
@@ -233,22 +233,22 @@ is productively employed, which requires:
 
 East Asia experienced the most dramatic demographic dividend in modern history. Between 1965 and
 1990, the working-age population in East Asia grew by approximately 2--3% per year while the
-Dependent population grew more slowly, producing a decline in the dependency ratio from
-Approximately 80% to approximately 55%. David Bloom and David Canning (2004) estimated that the
-Demographic dividend accounted for approximately one-third of the "East Asian economic miracle" --
+dependent population grew more slowly, producing a decline in the dependency ratio from
+approximately 80% to approximately 55%. David Bloom and David Canning (2004) estimated that the
+demographic dividend accounted for approximately one-third of the "East Asian economic miracle" --
 The rapid economic growth achieved by South Korea, Taiwan, Singapore, Hong Kong, and later China.
 
 South Korea's experience illustrates the mechanism. Its TFR fell from 6.0 (1960) to 2.1 (1983) --
-One of the fastest fertility declines in history -- driven by strong government family planning
+one of the fastest fertility declines in history -- driven by strong government family planning
 Programmes, rapid female education (female secondary enrolment reached 95% by 1990), and
-Industrialisation creating non-agricultural employment. The dependency ratio fell from approximately
+industrialisation creating non-agricultural employment. The dependency ratio fell from approximately
 85% (1965) to approximately 40% (2010), and GDP per capita grew from approximately USD 100 (1960) to
 over USD 30 000 (2023).
 
 **The dividend closes.** South Korea's TFR has since fallen to 0.72 (2023), the lowest in the world,
 And its population is ageing rapidly. The demographic dividend has given way to a demographic
 Burden, as the elderly dependency ratio rises and the working-age population shrinks. This
-Illustrates that the demographic dividend is a time-limited window, not a permanent condition.
+illustrates that the demographic dividend is a time-limited window, not a permanent condition.
 
 For related topics, see [./migration-theories-and-patterns](/geography/population/migration-theories-and-patterns/) and
 [./population-policies](/geography/population/population-policies/). The parent topic page is at

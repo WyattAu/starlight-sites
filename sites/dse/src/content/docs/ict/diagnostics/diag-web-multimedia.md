@@ -248,7 +248,7 @@ $5000 \times 2 \text{ MB} = 10,000 \text{ MB} \approx 10$ GB. For 3 years: $30$ 
 
 **Question:** A school website needs to include: a welcome video (2 minutes, 720p), a campus photo
 gallery (50 photos, 4000 $\times$ 3000 pixels each), and background music on the homepage. (a)
-Calculate the total uncompressed size of all media assets. (b) Recommend appropriate compressed
+calculate the total uncompressed size of all media assets. (b) Recommend appropriate compressed
 formats and estimate the compressed sizes. (c) Explain how lazy loading improves page load
 performance for the photo gallery. (d) Describe how adaptive bitrate streaming (e.g., HLS) works for
 the video.

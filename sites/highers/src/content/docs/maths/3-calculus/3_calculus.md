@@ -26,7 +26,7 @@ categories:
 ### Implicit Differentiation
 
 When a function is defined implicitly (e.g., $x^2 + y^2 = 25$), differentiate both sides with
-Respect to $x$ Treating $y$ as a function of $x$.
+respect to $x$ Treating $y$ as a function of $x$.
 
 $$
 \frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}

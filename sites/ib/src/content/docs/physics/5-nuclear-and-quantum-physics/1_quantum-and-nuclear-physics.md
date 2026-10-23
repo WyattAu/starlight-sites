@@ -238,7 +238,7 @@ Broglie wavelength is far too small to detect.
 ### Bohr Model
 
 Niels Bohr proposed that electrons in atoms occupy discrete **energy levels** (orbitals). An
-Electron can transition between levels by absorbing or emitting a photon of energy exactly equal to
+electron can transition between levels by absorbing or emitting a photon of energy exactly equal to
 the energy difference:
 
 $$
@@ -465,7 +465,7 @@ $$
 ### Nuclear Fusion
 
 Light nuclei combine to form a heavier nucleus, releasing energy. Fusion powers stars and is the
-Basis of the proton-proton chain:
+basis of the proton-proton chain:
 
 $$
 ^1_1\mathrm{H} + ^1_1\mathrm{H} \to ^2_1\mathrm{H} + e^+ + \nu_e
@@ -514,14 +514,14 @@ This mass defect represents the energy released when the nucleus was formed.
 ### Binding Energy
 
 The **binding energy** of a nucleus is the energy required to completely separate it into its
-Constituent nucleons:
+constituent nucleons:
 
 $$
 E_b = \Delta m \cdot c^2
 $$
 
 The **binding energy per nucleon** $E_b/A$ is a measure of nuclear stability. It peaks around
-Iron-56 ($\sim 8.8\,\mathrm{MeV/nucleon}$), which is the most stable nucleus.
+iron-56 ($\sim 8.8\,\mathrm{MeV/nucleon}$), which is the most stable nucleus.
 
 <div class="table-wrap">
 
@@ -605,7 +605,7 @@ $$
 $$
 
 This is lower than the binding energy per nucleon of helium-4 ($7.07\,\mathrm{MeV/nucleon}$), which
-Reflects the exceptional stability of the helium nucleus (an "alpha particle" with a filled shell
+reflects the exceptional stability of the helium nucleus (an "alpha particle" with a filled shell
 Structure).
 
 </details>
@@ -636,7 +636,7 @@ Where $\hbar = \dfrac{h}{2\pi} = 1.055 \times 10^{-34}\,\mathrm{J\,s}$.
 
 This is not a limitation of measurement technology but a fundamental property of nature. It arises
 Directly from the wave nature of matter: a well-defined wavelength (precise momentum) requires an
-Extended wave (uncertain position).
+extended wave (uncertain position).
 
 ### Energy-Time Uncertainty
 
@@ -699,7 +699,7 @@ Momentum. Pair production cannot occur in empty space.
 ### Pair Annihilation
 
 When a particle meets its antiparticle, they annihilate, converting their combined rest mass into
-Photon energy. For an electron-positron pair at rest:
+photon energy. For an electron-positron pair at rest:
 
 $$
 2m_e c^2 = 2(0.511\,\mathrm{MeV}) = 1.022\,\mathrm{MeV}
@@ -880,7 +880,7 @@ Quantum tunneling is responsible for alpha decay, tunnel diodes, and scanning tu
 ### Purpose
 
 Feynman diagrams are pictorial representations of particle interactions. Each diagram represents a
-Term in a perturbation expansion of the quantum field theory amplitude.
+term in a perturbation expansion of the quantum field theory amplitude.
 
 ### Conventions
 
@@ -894,7 +894,7 @@ Term in a perturbation expansion of the quantum field theory amplitude.
 
 $e^- + e^+ \to \gamma + \gamma$: The electron and positron annihilate into a virtual photon, which
 Produces two real photons. The diagram has two incoming fermion lines, one internal photon line, and
-Two outgoing photon lines.
+two outgoing photon lines.
 
 :::caution
 The binding energy curve shows a peak at iron-56, but the curve is relatively flat around this peak.
@@ -1068,7 +1068,7 @@ Conserving atomic number: $90 = 91 + Z \implies Z = -1$
 The emitted particle has $A = 0$ and $Z = -1$ Which is an electron: $e^{-}$ (or $\beta^{-}$).
 
 This is **beta-minus decay**, in which a neutron converts to a proton, emitting an electron and an
-Antineutrino:
+antineutrino:
 
 $$
 ^{234}_{90}\mathrm{Th} \to ^{234}_{91}\mathrm{Pa} + e^{-} + \bar{\nu}_e
@@ -1108,7 +1108,7 @@ $$
 ### Problem 7
 
 Find the minimum energy a photon must have to produce an electron-positron pair. If the photon has
-Exactly this energy, can pair production occur? Explain.
+exactly this energy, can pair production occur? Explain.
 
 <details>
 <summary>Solution</summary>
@@ -1122,7 +1122,7 @@ $$
 If the photon has exactly $1.022\,\mathrm{MeV}$ Pair production **cannot** occur in free space
 because momentum cannot be conserved. The photon has momentum $p = E/c$ But the electron-positron
 Pair at rest has zero momentum. A nearby nucleus must be present to absorb the recoil momentum. The
-Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production to actually occur.
+photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production to actually occur.
 
 **If you get this wrong, revise:** Pair Production section.
 
@@ -1132,7 +1132,7 @@ Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production
 
 An electron is confined in a one-dimensional box of length $L = 0.50\,\mathrm{nm}$. Find the energy
 of the ground state and the first excited state. What is the wavelength of a photon emitted when the
-Electron transitions from $n = 2$ to $n = 1$?
+electron transitions from $n = 2$ to $n = 1$?
 
 <details>
 <summary>Solution</summary>
@@ -1174,7 +1174,7 @@ This is in the ultraviolet region.
 ### Problem 9
 
 A sample of wood from an archaeological site has $^{14}\mathrm{C}$ activity that is $35\%$ of the
-Activity of a living sample. Estimate the age of the wood. ($t_{1/2}$ of
+activity of a living sample. Estimate the age of the wood. ($t_{1/2}$ of
 $^{14}\mathrm{C} = 5730\,\mathrm{years}$)
 
 <details>
@@ -1202,7 +1202,7 @@ The wood is approximately $8700\,\mathrm{years}$ old.
 
 In a Compton scattering experiment, a photon is scattered at $180^\circ$ (backscattered) by a free
 Electron. If the incident photon has wavelength $0.0100\,\mathrm{nm}$ Find the wavelength of the
-Scattered photon and the kinetic energy transferred to the electron.
+scattered photon and the kinetic energy transferred to the electron.
 
 <details>
 <summary>Solution</summary>

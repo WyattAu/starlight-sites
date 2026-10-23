@@ -42,7 +42,7 @@ HL, with additional material at HL level.
 
 This foundational topic covers the properties of number systems, algebraic manipulation, sequences
 and series, and the binomial theorem. It provides the algebraic tools required across all other
-Topics.
+topics.
 
 - **SL content:** Arithmetic and geometric sequences and series, sigma notation, the binomial
   theorem for positive integer exponents, logarithms (laws and solving equations), and proof by
@@ -165,7 +165,7 @@ Completely.
 ### 3. Geometry and Trigonometry
 
 This topic covers Euclidean geometry in two and three dimensions, trigonometric functions and
-Identities, and an introduction to vector geometry.
+identities, and an introduction to vector geometry.
 
 - **SL content:** Right-angled triangle trigonometry, the sine and cosine rules, area of a triangle
   using trigonometry, the unit circle and radian measure, trigonometric identities (Pythagorean,
@@ -273,7 +273,7 @@ g. Find the probability that a randomly selected bag has mass greater than $515$
 ### Worked Example: Conditional Probability (SL)
 
 In a class of 40 students, 25 play football, 18 play basketball, and 10 play both. A student is
-Chosen at random. Given that they play basketball, find the probability they also play football.
+chosen at random. Given that they play basketball, find the probability they also play football.
 
 <details>
 <summary>Solution</summary>
@@ -288,7 +288,7 @@ Chosen at random. Given that they play basketball, find the probability they als
 ### 5. Calculus
 
 This topic introduces the fundamental concepts of differential and integral calculus. It is the most
-Heavily weighted topic in the examination and forms the basis for much of the HL extension work.
+heavily weighted topic in the examination and forms the basis for much of the HL extension work.
 
 - **SL content:** Limits and continuity (informal), differentiation of polynomial, exponential,
   logarithmic, and trigonometric functions, the chain, product, and quotient rules, applications of
@@ -367,7 +367,7 @@ Evaluate $\displaystyle\int x e^{2x}\,dx$.
 ### Discrete Mathematics (HL Extension)
 
 This additional topic is studied at HL level only. It covers logic, set theory, graph theory, and
-Algorithms.
+algorithms.
 
 - **Content:** Propositional and predicate logic, truth tables, logical equivalence, implications
   and contrapositives, set operations, Venn and Euler diagrams, and an introduction to graph theory
@@ -708,7 +708,7 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 ## Internal Assessment (IA) Tips
 
 The mathematical exploration is worth 20% of your final grade. It is an opportunity to explore a
-Topic of personal interest in depth.
+topic of personal interest in depth.
 
 ### Choosing a Topic
 

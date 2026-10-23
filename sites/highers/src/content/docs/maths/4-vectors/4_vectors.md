@@ -29,7 +29,7 @@ categories:
 A vector has both **magnitude** and **direction**. A scalar has only magnitude.
 
 A vector in 2D can be written as $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ or as the
-Column vector $(a_1, a_2)$. In 3D: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$.
+column vector $(a_1, a_2)$. In 3D: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$.
 
 **Magnitude (Modulus):**
 
@@ -298,7 +298,7 @@ $$
 ### Solving Systems of Linear Equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has solution $\mathbf{x} = A^{-1}\mathbf{b}$ (provided $A$ is
-Invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
+invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
 
 **Example:** Solve the system:
 
@@ -348,7 +348,7 @@ The image is $(-4, -1)$.
 Transformation.
 
 This is an enlargement by scale factor 3 centred at the origin. The determinant is $9 > 0$
-Confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
+confirming it is a pure enlargement (no reflection). Every point $(x, y)$ maps to $(3x, 3y)$.
 
 The relationship with the identity matrix $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$ is that
 this matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
@@ -566,7 +566,7 @@ $$
 Where $\mathrm{adj(A)$ is the adjugate (transpose of the cofactor matrix).
 
 The cofactor $C_{ij}$ is $(-1)^{i+j}$ times the determinant of the $2 \times 2$ matrix obtained by
-Deleting row $i$ and column $j$.
+deleting row $i$ and column $j$.
 
 **Example:** Find the inverse of
 $A = \begin{pmatrix} 1 & 0 & 2 \\ -1 & 3 & 1 \\ 2 & 1 & 0 \end{pmatrix}$.

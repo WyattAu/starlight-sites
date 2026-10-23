@@ -75,9 +75,9 @@ $$
 $$
 
 Depreciation (capital consumption allowance) is the wear and tear on capital stock during the
-Production process. NDP measures the net output available after maintaining the existing capital
+production process. NDP measures the net output available after maintaining the existing capital
 Stock. NDP is a better measure of sustainable production than GDP because it accounts for the
-Capital consumed in the production process.
+capital consumed in the production process.
 
 ### Personal Income and Disposable Income
 
@@ -108,7 +108,7 @@ after paying taxes. It is the most relevant measure for analysing household beha
 ### Nominal GDP
 
 Nominal GDP is GDP measured at current market prices. It changes when either output quantities or
-Prices change (or both).
+prices change (or both).
 
 $$
 \mathrm{Nominal GDP} = \sum_{i=1}^{n} P_{i,t} \times Q_{i,t}
@@ -127,14 +127,14 @@ $$
 ### GDP Deflator
 
 The GDP deflator is a broad measure of the price level that captures the prices of all goods and
-Services included in GDP.
+services included in GDP.
 
 $$
 \mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100
 $$
 
 The GDP deflator measures the change in prices of all domestically produced final goods and
-Services. Unlike the Consumer Price Index (CPI), which covers a basket of consumer goods, the GDP
+services. Unlike the Consumer Price Index (CPI), which covers a basket of consumer goods, the GDP
 Deflator covers investment goods, government services, and exports, but excludes imports.
 
 **Inflation rate from the GDP deflator:**
@@ -237,7 +237,7 @@ $$
 
 **Why add indirect taxes and subtract subsidies?** GDP is measured at market prices, which include
 Indirect taxes but exclude subsidies. Factor incomes (wages, rent, interest, profit) are measured at
-Factor cost (before indirect taxes, after subsidies). To convert from factor cost to market prices:
+factor cost (before indirect taxes, after subsidies). To convert from factor cost to market prices:
 Add indirect taxes and subtract subsidies.
 
 ### 3. Output (Value-Added) Approach
@@ -249,7 +249,7 @@ $$
 $$
 
 This method avoids double counting by only counting the additional value created at each stage of
-Production.
+production.
 
 **Example: Bread production chain**
 
@@ -265,12 +265,12 @@ Production.
 </div>
 
 GDP = sum of value added = `100 + 50 + 100 = 250`. The value of final output (bread) = `250`. Both
-Methods give the same result, confirming that the value-added approach avoids double counting.
+methods give the same result, confirming that the value-added approach avoids double counting.
 
 ### Equivalence of the Three Approaches
 
 All three approaches yield the same GDP figure because every unit of output is either purchased by
-Someone (expenditure approach), generates income for someone (income approach), or represents value
+someone (expenditure approach), generates income for someone (income approach), or represents value
 Created at some stage of production (value-added approach).
 
 <details>
@@ -338,7 +338,7 @@ However, GDP per capita is an average and can be misleading:
 ## Limitations of GDP as a Welfare Measure
 
 GDP is a measure of economic activity, not a direct measure of welfare or well-being. Its
-Limitations are significant and systematic:
+limitations are significant and systematic:
 
 ### 1. Non-Market Activities Excluded
 
@@ -355,25 +355,25 @@ Actual economic activity.
 
 GDP does not subtract the costs of negative externalities (pollution, congestion, resource
 Depletion). A factory that produces USD 1 million of output while causing USD 500,000 in
-Environmental damage contributes USD 1 million to GDP, not USD 500,000. GDP can grow while
-Environmental quality deteriorates.
+environmental damage contributes USD 1 million to GDP, not USD 500,000. GDP can grow while
+environmental quality deteriorates.
 
 ### 3. Income Distribution Ignored
 
 GDP per capita is a mean. If income is highly concentrated, the median income may be far below the
-Mean. Two countries with identical GDP per capita can have vastly different distributions of
-Well-being.
+mean. Two countries with identical GDP per capita can have vastly different distributions of
+well-being.
 
 ### 4. Leisure Time Not Valued
 
 If a country's workforce reduces its working hours from 50 to 40 hours per week (with the same
-Output per hour), GDP falls, but well-being may increase because people have more leisure time. GDP
+output per hour), GDP falls, but well-being may increase because people have more leisure time. GDP
 Treats all time not spent producing marketed output as having zero value.
 
 ### 5. Quality Changes Not Captured
 
 GDP measures the value of output, not its quality. A smartphone that costs USD 500 today is far more
-Capable than a USD 500 phone from ten years ago, but GDP does not fully capture this quality
+capable than a USD 500 phone from ten years ago, but GDP does not fully capture this quality
 Improvement.
 
 ### 6. Sustainable vs Unsustainable Growth Not Distinguished
@@ -446,7 +446,7 @@ Indicates a healthy, flexible labour market.
 **Structural unemployment** is more serious because it reflects a fundamental mismatch in the
 Economy. Technological change (automation replacing labour) and globalisation (manufacturing moving
 to lower-cost countries) are major drivers. Structural unemployment tends to be long-term and
-Requires retraining or relocation, which is costly and time-consuming.
+requires retraining or relocation, which is costly and time-consuming.
 
 **Cyclical unemployment** rises during recessions and falls during expansions. It is directly linked
 To the business cycle and is the primary target of macroeconomic stabilisation policy.
@@ -604,7 +604,7 @@ Savers to spenders. This redistribution is not based on merit or need.
 
 **Hyperinflation:** Extremely high inflation (often defined as exceeding 50% per month) destroys the
 Functions of money as a store of value and medium of exchange. People abandon the currency and
-Resort to barter or foreign currencies. Historical examples: Germany (1923), Zimbabwe (2008),
+resort to barter or foreign currencies. Historical examples: Germany (1923), Zimbabwe (2008),
 Venezuela (2018).
 
 ---
@@ -623,13 +623,13 @@ Venezuela (2018).
 ### Short-Run Phillips Curve
 
 The Phillips curve describes an inverse relationship between the rate of inflation and the rate of
-Unemployment in the short run. Lower unemployment is associated with higher inflation, and vice
+unemployment in the short run. Lower unemployment is associated with higher inflation, and vice
 Versa.
 
 This trade-off arises because lower unemployment means tighter labour markets, which push up wages.
 Higher wages increase production costs, which firms pass on to consumers as higher prices.
 Conversely, higher unemployment means slack in the labour market, which restrains wage growth and
-Inflation.
+inflation.
 
 ### Long-Run Phillips Curve
 
@@ -658,7 +658,7 @@ Moves up along the long-run vertical Phillips curve.
 ```
 
 The LRPC is a vertical line at `NRU`. Each SRPC shows the short-run trade-off. Starting at the
-Intersection of `SRPC_1` and `LRPC`Expansionary policy moves the economy left along `SRPC_1` (lower
+intersection of `SRPC_1` and `LRPC`Expansionary policy moves the economy left along `SRPC_1` (lower
 unemployment, higher inflation). Once expectations adjust, `SRPC_1` shifts up to `SRPC_2` And
 unemployment returns to `NRU` at a higher inflation rate.
 
@@ -682,7 +682,7 @@ The next. Measured by the real GDP growth rate.
 
 **Potential economic growth:** An increase in the economy's productive capacity (the maximum output
 The economy can produce when all resources are fully and efficiently employed). Represented by an
-Outward shift of the production possibility curve or a rightward shift of the LRAS curve.
+outward shift of the production possibility curve or a rightward shift of the LRAS curve.
 
 $$
 \mathrm{GDP gap} = \mathrm{Potential GDP} - \mathrm{Actual GDP}
@@ -720,7 +720,7 @@ $$
 $$
 
 TFP captures the portion of output growth not explained by increases in capital and labour. It
-Reflects technological progress, organisational improvements, and better resource allocation.
+reflects technological progress, organisational improvements, and better resource allocation.
 
 Sustained increases in living standards require productivity growth, not just increases in factor
 Inputs. An economy that relies solely on adding more labour and capital faces diminishing returns;
@@ -743,7 +743,7 @@ Only technological progress and productivity improvements can drive long-run per
 
 The business cycle (economic cycle or trade cycle) refers to the fluctuations in economic activity
 around its long-term trend. Real GDP does not grow at a constant rate; it experiences periods of
-Expansion and contraction.
+expansion and contraction.
 
 ### Phases of the Business Cycle
 
@@ -774,7 +774,7 @@ A **recession** is commonly defined as two consecutive quarters of declining rea
 </div>
 
 The **yield curve inversion** (short-term interest rates exceed long-term rates) is one of the most
-Reliable leading indicators of a recession, historically preceding most US recessions.
+reliable leading indicators of a recession, historically preceding most US recessions.
 
 ### Diagram Description: The Business Cycle
 
@@ -842,7 +842,7 @@ The primary sources of government revenue are:
 
 **Progressive tax:** The average tax rate rises with income. Higher-income earners pay a larger
 Proportion of their income in tax. Example: Hong Kong's salaries tax (maximum rate of 15% after
-Deductions, with a progressive rate structure from 2% to 17% before standard rate cap).
+deductions, with a progressive rate structure from 2% to 17% before standard rate cap).
 
 **Regressive tax:** The average tax rate falls with income. Lower-income earners pay a larger
 Proportion of their income in tax. Example: flat-rate indirect taxes (GST/VAT on basic goods).
@@ -865,7 +865,7 @@ $$
 $$
 
 This ratio indicates the government's ability to service its debt relative to the size of the
-Economy. A higher ratio signals greater fiscal risk.
+economy. A higher ratio signals greater fiscal risk.
 
 ### Automatic Stabilisers
 
@@ -977,7 +977,7 @@ An economy has the following data (all values in USD billion):
 - Subsidies: 30
 
 (a) Calculate GDP using the expenditure approach. (b) Calculate net exports. (c) Which of the above
-Items would NOT be included in GDP? Explain.
+items would NOT be included in GDP? Explain.
 
 (a) GDP = C + I + G + (X - M)
 
@@ -994,7 +994,7 @@ GDP = 800 + 170 + 200 + 50 = 1220 (USD billion)
 (b) Net exports = X - M = 300 - 250 = 50 (USD billion)
 
 (c) Transfer payments (100) and wages (600), indirect taxes (80), and subsidies (30) are NOT
-Included directly in the expenditure approach.
+included directly in the expenditure approach.
 
 Transfer payments are excluded because they are not payments for current production. They are
 Redistributions of existing income.
@@ -1080,8 +1080,8 @@ CPI = (4300 / 3800) x 100 = 113.16
 (b) Inflation rate = (113.16 - 100) / 100 x 100% = 13.16%
 
 (c) **Substitution bias:** The CPI uses a fixed basket, assuming the household buys the same
-Quantities regardless of price changes. In reality, if pork becomes more expensive (25 vs 20), the
-Household may substitute toward chicken or fish. The CPI overstates inflation by not accounting for
+quantities regardless of price changes. In reality, if pork becomes more expensive (25 vs 20), the
+household may substitute toward chicken or fish. The CPI overstates inflation by not accounting for
 this substitution toward relatively cheaper goods.
 
 </details>
@@ -1091,7 +1091,7 @@ this substitution toward relatively cheaper goods.
 
 An economy has a working-age population of 10 million. Of these: 6 million are employed, 0.4 million
 are unemployed and actively seeking work, 1.5 million are full-time students, 1.8 million are
-Retirees, and 0.3 million are discouraged workers (want to work but have stopped looking).
+retirees, and 0.3 million are discouraged workers (want to work but have stopped looking).
 
 (a) Calculate the labour force. (b) Calculate the unemployment rate. (c) Calculate the labour force
 Participation rate. (d) If 0.1 million discouraged workers start actively seeking work, what happens
@@ -1157,7 +1157,7 @@ Calculation in (a). (c) In which years did the economy experience an inflationar
 Estimated GDP gap = 2 x 4.0% x 1,200 = 96
 
 Actual GDP gap = 120. The estimates differ because Okun's law is an empirical approximation, not a
-Precise relationship. The coefficient may differ across countries and time periods.
+precise relationship. The coefficient may differ across countries and time periods.
 
 (c) Only 2024 had an inflationary gap (actual GDP exceeded potential GDP).
 
@@ -1167,7 +1167,7 @@ Precise relationship. The coefficient may differ across countries and time perio
 <summary>Question 6: Progressive, Regressive, and Proportional Taxes</summary>
 
 Three taxpayers earn USD 20,000, USD 50,000, and USD 100,000 respectively. The tax system is
-Structured as follows:
+structured as follows:
 
 - First USD 30,000: 10%
 - Next USD 30,000: 20%
@@ -1354,7 +1354,7 @@ a recession.
 bank Tellers. The worker's skills do not match the available jobs. Retraining would be needed.
 
 (c) **Frictional** -- the graduate is moving between jobs (from education to employment). This is a
-Normal part of a dynamic labour market and is short-term.
+normal part of a dynamic labour market and is short-term.
 
 (d) **Cyclical** -- the layoff is due to insufficient aggregate demand during a recession. The
 worker May be rehired when the economy recovers.
@@ -1421,7 +1421,7 @@ inflation rate. The economy moves up along the vertical LRPC. The long-run trade
 (c) Starting at the intersection of SRPC1 and LRPC (5% unemployment, 2% inflation), the policy moves
 the economy left along SRPC1 to (3%, higher inflation). Over time, expectations adjust and SRPC1
 Shifts up to SRPC2. The economy returns to 5% unemployment but at a higher inflation rate. This
-Demonstrates the accelerationist hypothesis.
+demonstrates the accelerationist hypothesis.
 
 </details>
 

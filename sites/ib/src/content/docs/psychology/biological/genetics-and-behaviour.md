@@ -31,7 +31,7 @@ Twin studies compare the similarity of monozygotic (MZ, identical) twins, who sh
 100% of their genes, with dizygotic (DZ, fraternal) twins, who share approximately 50% of their
 Segregating genes on average. The logic is straightforward: if MZ twins are more similar than DZ
 Twins on a given trait, this greater similarity can be attributed to genetic factors, because both
-Types of twins share the same family environment (assuming equal environments assumption holds).
+types of twins share the same family environment (assuming equal environments assumption holds).
 
 **Heritability estimates** are calculated by doubling the difference between the MZ and DZ
 Correlations:
@@ -64,7 +64,7 @@ is the correlation for DZ twins.
 
 Adoption studies compare adopted children with their biological parents (with whom they share genes
 but not environment) and with their adoptive parents (with whom they share environment but not
-Genes). This design allows researchers to separate genetic and environmental influences more cleanly
+genes). This design allows researchers to separate genetic and environmental influences more cleanly
 than twin studies.
 
 **Strengths of adoption studies:**
@@ -91,8 +91,8 @@ than twin studies.
 ### Heritability
 
 Heritability ($h^2$) is a statistical measure of the proportion of phenotypic variance in a
-Population that can be attributed to genetic variance. It ranges from 0 to 1, where 0 indicates no
-Genetic contribution and 1 indicates that all variance is genetic.
+population that can be attributed to genetic variance. It ranges from 0 to 1, where 0 indicates no
+genetic contribution and 1 indicates that all variance is genetic.
 
 **Critical points about heritability that are frequently misunderstood:**
 
@@ -131,7 +131,7 @@ Genetic contribution and 1 indicates that all variance is genetic.
 
 Gene-environment interaction (GxE) occurs when the effect of genetic predispositions on behaviour
 Depends on the environment, or conversely, when the effect of environmental factors depends on
-Genetic makeup. GxE means that genetic and environmental factors do not add together; they Combine
+genetic makeup. GxE means that genetic and environmental factors do not add together; they Combine
 in non-additive ways.
 
 ### Caspi et al. (2003): 5-HTTLPR and Stress
@@ -139,7 +139,7 @@ in non-additive ways.
 One of the most influential studies of gene-environment interaction was conducted by Caspi, Sugden,
 Moffitt, and colleagues. They investigated whether a functional polymorphism in the promoter region
 of the serotonin transporter gene (5-HTTLPR) moderates the effect of stressful life events on
-Depression.
+depression.
 
 **Methodology:**
 
@@ -254,8 +254,8 @@ Responses.
 
 Thomas Bouchard and colleagues at the University of Minnesota conducted the most comprehensive study
 of reared-apart twins, recruiting 100 pairs of MZ twins who had been separated early in life and
-Raised in different environments. The study included extensive psychological, physiological, and
-Medical assessments.
+raised in different environments. The study included extensive psychological, physiological, and
+medical assessments.
 
 **Key findings:**
 

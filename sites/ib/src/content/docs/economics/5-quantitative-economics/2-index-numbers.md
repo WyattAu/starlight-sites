@@ -175,7 +175,7 @@ does not account for consumer substitution toward goods whose relative prices ha
 
 When constructing index numbers over long periods, the fixed-base approach (using a single base
 Year) becomes increasingly inaccurate because the basket of goods and relative prices change over
-Time. **Chain-linking** addresses this by calculating the index as the product of period-to-period
+time. **Chain-linking** addresses this by calculating the index as the product of period-to-period
 Changes.
 
 **Fixed-base index:**
@@ -305,7 +305,7 @@ At 7%: $\text{AF} = \frac{1 - 1.07^{-30}}{0.07} = \frac{1 - 0.1314}{0.07} = 12.4
 $\text{NPV} = -50 + 3 \times 12.41 = -50 + 37.2 = -12.8$ billion
 
 The NPV ranges from +8.8 billion (3%) to -12.8 billion (7%). The project is very sensitive to the
-Discount rate.
+discount rate.
 
 (c) At USD 2 billion: $\text{NPV} = -50 + 2 \times 15.37 = -50 + 30.7 = -19.3$ billion
 
@@ -387,8 +387,8 @@ $R^2 = 1 - 0.267/14.80 = 0.982$
 $R^2 = 0.982$: the unemployment rate explains 98.2% of the variation in inflation.
 
 (c) The negative coefficient (-0.706) confirms the inverse relationship between unemployment and
-Inflation predicted by the Phillips curve. A 1 percentage point increase in unemployment is
-Associated with a 0.7 percentage point decrease in inflation.
+inflation predicted by the Phillips curve. A 1 percentage point increase in unemployment is
+associated with a 0.7 percentage point decrease in inflation.
 
 **Potential omitted variable:** expected inflation ($\pi^e$). The expectations-augmented Phillips
 Curve is:
@@ -398,7 +398,7 @@ $$
 $$
 
 Omitting $\pi^e$ biases the coefficient on $u$ if expected inflation is correlated with
-Unemployment. During the 1970s, rising expected inflation shifted the Phillips curve upward,
+unemployment. During the 1970s, rising expected inflation shifted the Phillips curve upward,
 Creating stagflation (high inflation and high unemployment simultaneously), which the simple
 Phillips curve cannot explain.
 
@@ -470,7 +470,7 @@ production that affects chocolate consumption but not Nobel prizes directly) or 
 <summary>Problem 12: Social Discount Rate and Climate Policy</summary>
 
 A climate policy reduces carbon emissions at a cost of USD 2 trillion today. The benefits are
-Avoided climate damages of USD 100 billion per year, starting in 20 years and continuing forever.
+avoided climate damages of USD 100 billion per year, starting in 20 years and continuing forever.
 
 (a) Calculate the NPV using discount rates of 1.4% (Stern), 3.5% (UK Treasury), and 5% (Nordhaus).
 

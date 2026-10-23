@@ -29,7 +29,7 @@ WJEC/Eduqas Paper 2 Section A
 
 The nineteenth century is the great age of the English novel. Between the publication of Jane
 Austen's _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
-Dominant literary form in Britain, displacing poetry from the central position it had occupied since
+dominant literary form in Britain, displacing poetry from the central position it had occupied since
 the Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
 The novel expanded from the comic realism of Austen to encompass social protest, psychological
 Depth, Gothic horror, and imperial adventure.
@@ -44,7 +44,7 @@ the social, political, and intellectual upheavals of the age.
 The dominant mode of the Victorian novel is **realism**: the attempt to represent the world as it
 is, with fidelity to the details of ordinary life. Realist novelists -- Dickens, Eliot, Gaskell,
 Bronte -- create densely imagined social worlds populated by characters whose motivations are
-Psychologically plausible and whose circumstances reflect the conditions of contemporary society.
+psychologically plausible and whose circumstances reflect the conditions of contemporary society.
 
 Realism, however, is never pure. Even the most committed realist novelists incorporated elements of
 Gothic horror, romance, allegory, and symbolism. Stevenson's _Strange Case of Dr Jekyll and Mr Hyde_
@@ -56,13 +56,13 @@ and other modes is one of the defining features of 19th-century fiction.
 ### 1.2 Romanticism vs Realism
 
 The early nineteenth century was dominated by Romanticism, a literary and intellectual movement that
-Privileged emotion, imagination, the sublime, and the individual's relationship with nature.
+privileged emotion, imagination, the sublime, and the individual's relationship with nature.
 Romanticism influenced the novel in several ways: the emphasis on intense feeling (the Brontes), the
-Fascination with the supernatural (Shelley), and the critique of industrial society and its
-Dehumanising effects.
+fascination with the supernatural (Shelley), and the critique of industrial society and its
+dehumanising effects.
 
 By the mid-nineteenth century, realism had become the dominant mode. The realist novel focused on
-Social institutions -- marriage, the family, the class system, the law -- and on the ordinary lives
+social institutions -- marriage, the family, the class system, the law -- and on the ordinary lives
 of people within those institutions. The transition from Romanticism to realism is not a clean
 Break; most 19th-century novels contain elements of both.
 
@@ -86,7 +86,7 @@ Break; most 19th-century novels contain elements of both.
 The Industrial Revolution (c. 1760--1840) transformed Britain from a predominantly rural,
 Agricultural society into the world's first industrial nation. The consequences were immense:
 Urbanisation on an unprecedented scale, the growth of a factory-based working class, the
-Concentration of wealth in the hands of industrial capitalists, and the creation of living
+concentration of wealth in the hands of industrial capitalists, and the creation of living
 Conditions that were, by any standard, appalling.
 
 The industrial cities -- Manchester, Birmingham, Leeds, Sheffield -- grew at a rate that outstripped
@@ -108,22 +108,22 @@ The Victorian class system was rigidly stratified and acutely felt. The major di
 
 Class mobility was possible but difficult. Education was the primary vehicle, and the expansion of
 State-funded schooling from the 1870 Education Act onward was a direct response to the demand for
-Social mobility. Dickens's _Great Expectations_ (1860--61) is the archetypal novel of class ambition
+social mobility. Dickens's _Great Expectations_ (1860--61) is the archetypal novel of class ambition
 and its moral costs.
 
 ### 2.3 Poverty and Social Responsibility
 
 The Poor Law Amendment Act of 1834 established workhouses as the primary means of relieving poverty.
 The workhouse system was designed to be so unpleasant that only the truly desperate would enter it.
-Conditions were deliberately harsh: families were separated, inmates were fed meagre rations, and
+conditions were deliberately harsh: families were separated, inmates were fed meagre rations, and
 the regime was punitive. Dickens's portrayal of the workhouse in _Oliver Twist_ contributed to
-Public outrage and eventual reform.
+public outrage and eventual reform.
 
 The tension between individualism and social responsibility is a central preoccupation of the
 19th-century novel. Should the poor be helped, or does charity encourage dependency? Is poverty the
-Fault of the individual or the system? These questions animate the fiction of Dickens, Gaskell, and
+fault of the individual or the system? These questions animate the fiction of Dickens, Gaskell, and
 Eliot, and they remain relevant to the study of Priestley's _An Inspector Calls_ (1945), which is
-Set on the GCSE Edexcel specification as a 20th-century text but which engages directly with the
+set on the GCSE Edexcel specification as a 20th-century text but which engages directly with the
 Victorian legacy of class inequality.
 
 ### 2.4 Education
@@ -131,8 +131,8 @@ Victorian legacy of class inequality.
 Before the 1870 Education Act, schooling in Britain was patchy, inconsistent, and largely dependent
 on charitable provision. The Act established school boards with the power to build and maintain
 Elementary schools, funded by local rates. Universal compulsory education was introduced in 1880.
-The expansion of literacy was one of the most significant social changes of the century, and it had
-Direct consequences for the novel: as the reading public grew, so did the market for fiction, and
+the expansion of literacy was one of the most significant social changes of the century, and it had
+direct consequences for the novel: as the reading public grew, so did the market for fiction, and
 Novelists began to write for a broader audience.
 
 ### 2.5 Empire
@@ -153,7 +153,7 @@ Shelley's _Frankenstein_ (1818) anticipates this crisis: Victor Frankenstein's s
 Leads him to usurp the creative power of God, with catastrophic consequences. The novel's
 Exploration of the ethics of scientific inquiry, the responsibility of the creator for the created,
 And the consequences of transgressing natural boundaries speaks directly to the anxieties of the
-Industrial Age.
+industrial Age.
 
 ## 3. Key Texts by Board
 
@@ -163,18 +163,18 @@ Industrial Age.
 
 A novella narrated from the perspective of Mr Utterson, a London lawyer who investigates the strange
 Relationship between the respectable Dr Henry Jekyll and the violent Edward Hyde. The narrative is
-Constructed from multiple documents -- letters, accounts, a final confession -- creating a
-Fragmented, layered text that gradually reveals the truth.
+constructed from multiple documents -- letters, accounts, a final confession -- creating a
+fragmented, layered text that gradually reveals the truth.
 
 **Key themes:** Duality of human nature; the repression of desire; the hypocrisy of Victorian
 Respectability; the limits of scientific inquiry; the relationship between civilisation and
-Savagery.
+savagery.
 
 **A Christmas Carol** by Charles Dickens (1843)
 
 A short novel structured as a journey of moral transformation. The miserly Ebenezer Scrooge is
-Visited by the Ghosts of Christmas Past, Present, and Yet to Come, and is transformed into a
-Generous, compassionate figure. The novella combines realist social critique with supernatural
+visited by the Ghosts of Christmas Past, Present, and Yet to Come, and is transformed into a
+generous, compassionate figure. The novella combines realist social critique with supernatural
 Allegory.
 
 **Key themes:** Greed and generosity; social responsibility; redemption and the possibility of
@@ -185,8 +185,8 @@ Change; the Christmas spirit as social ideal; the critique of Malthusian economi
 An epistolary novel framed by the Arctic expedition of Captain Walton, who encounters Victor
 Frankenstein pursuing his Creature across the ice. Victor's narrative, embedded within Walton's
 Letters, tells the story of his ambition to create life and the catastrophic consequences of that
-Ambition. The Creature's own narrative, embedded within Victor's, provides a powerful perspective on
-Isolation, rejection, and the desire for companionship.
+ambition. The Creature's own narrative, embedded within Victor's, provides a powerful perspective on
+isolation, rejection, and the desire for companionship.
 
 **Key themes:** Ambition and its consequences; the ethics of science; responsibility and neglect;
 Nature versus nurture; isolation and the need for connection; monstrosity and humanity.
@@ -196,10 +196,10 @@ Nature versus nurture; isolation and the need for connection; monstrosity and hu
 **An Inspector Calls** by J.B. Priestley (1945)
 
 Though written and set in the twentieth century, Priestley's play is a direct engagement with the
-Class structures and social attitudes of the Edwardian period (1901--1914) and their consequences.
+class structures and social attitudes of the Edwardian period (1901--1914) and their consequences.
 Set in 1912, the play depicts the Birling family's complacent self-satisfaction and their gradual
 Exposure to the consequences of their social and moral irresponsibility through the interrogation of
-Inspector Goole.
+inspector Goole.
 
 **Key themes:** Social responsibility; class inequality; generational conflict; the abuse of power;
 The consequences of selfishness; the tension between individualism and collective duty.
@@ -208,9 +208,9 @@ The consequences of selfishness; the tension between individualism and collectiv
 
 A Bildungsroman (novel of development) tracing the life of Jane Eyre from her abusive childhood at
 Gateshead and Lowood School, through her position as governess at Thornfield Hall and her
-Relationship with the brooding Mr Rochester, to her eventual marriage and independence. The novel is
-Notable for its first-person narrative voice, its passionate intensity, and its exploration of
-Gender, class, and autonomy.
+relationship with the brooding Mr Rochester, to her eventual marriage and independence. The novel is
+notable for its first-person narrative voice, its passionate intensity, and its exploration of
+gender, class, and autonomy.
 
 **Key themes:** Independence and self-respect; love versus autonomy; social class and constraint;
 Gender roles; religion and morality; madness and confinement; the Gothic.
@@ -218,10 +218,10 @@ Gender roles; religion and morality; madness and confinement; the Gothic.
 **Great Expectations** by Charles Dickens (1860--61)
 
 The story of Pip, an orphan who rises from humble origins to the status of a gentleman through the
-Anonymous generosity of Magwitch, a convict he helped as a child. The novel traces Pip's moral
+anonymous generosity of Magwitch, a convict he helped as a child. The novel traces Pip's moral
 Education: his initial snobbery and rejection of his origins, his disillusionment with wealth and
-Gentility, and his eventual recognition that true worth lies in loyalty and compassion rather than
-Social status.
+gentility, and his eventual recognition that true worth lies in loyalty and compassion rather than
+social status.
 
 **Key themes:** Social class and ambition; guilt and redemption; loyalty and betrayal; the moral
 Consequences of wealth; self-deception and self-knowledge; crime and punishment.
@@ -237,14 +237,14 @@ the Indian Mutiny of 1857.
 
 **Key themes:** Empire and colonialism; justice and revenge; reason versus emotion; the drug-like
 Nature of obsession; the relationship between Holmes and Watson; racial stereotyping and its
-Critique.
+critique.
 
 **Silas Marner** by George Eliot (1861)
 
 The story of Silas Marner, a weaver who is falsely accused of theft in his rural community and flees
 to the isolated village of Raveloe. There, he becomes a miser, hoarding gold until it is stolen and
-Replaced by the golden-haired child Eppie, who restores him to human connection and community. The
-Novel is a study of alienation and redemption, individualism and community, materialism and love.
+replaced by the golden-haired child Eppie, who restores him to human connection and community. The
+novel is a study of alienation and redemption, individualism and community, materialism and love.
 
 **Key themes:** Isolation and community; materialism and human connection; the redemptive power of
 Love; the contrast between rural and industrial life; faith and its loss and recovery; social class
@@ -268,7 +268,7 @@ Betrayal; the consequences of social division; the relationship between educatio
 An allegorical novella in which farm animals overthrow their human owner and establish a collective
 Society, only to see it corrupted by the pigs, who assume the role of the former oppressors. Though
 Published in 1945, the novella is set on the 19th-century novel paper because of its engagement with
-Power, class, and social structures.
+power, class, and social structures.
 
 **Key themes:** Power and corruption; propaganda and manipulation; class hierarchy; the betrayal of
 Revolutionary ideals; the relationship between language and power; equality and its impossibility.
@@ -329,7 +329,7 @@ Return as his secret benefactor.
 ### 4.4 Dramatic Irony
 
 Dramatic irony occurs when the reader or audience knows something that a character does not. In _An
-Inspector Calls_, the audience knows that the Titanic will sink and that there will be two world
+inspector Calls_, the audience knows that the Titanic will sink and that there will be two world
 Wars, creating dramatic irony with Birling's complacent pronouncements about peace and prosperity.
 This irony exposes Birling's foolishness and underscores Priestley's political message.
 
@@ -344,7 +344,7 @@ Mirrors the moral obscurity of the narrative.
 ### 4.6 Stream of Consciousness
 
 Stream of consciousness is a narrative technique that attempts to represent the continuous flow of a
-Character's thoughts, perceptions, and associations. It is more characteristic of 20th-century
+character's thoughts, perceptions, and associations. It is more characteristic of 20th-century
 Modernism (Woolf, Joyce) than of Victorian fiction, but the technique has 19th-century precursors in
 the interior monologues of Eliot and the psychological depth of the Brontes. Jane Eyre's
 First-person narration frequently approaches stream of consciousness in its intensity and immediacy.
@@ -397,23 +397,23 @@ what the contrast reveals about both characters.
 ## 6. Setting as Character
 
 In 19th-century fiction, setting is never merely backdrop. It is a site of meaning, a reflection of
-Theme, and often a force that shapes character and plot.
+theme, and often a force that shapes character and plot.
 
 ### 6.1 Weather and Atmosphere
 
 The weather in a 19th-century novel is rarely neutral. Storms, fog, darkness, and extreme cold are
-Deployed to create atmosphere, to reflect character states, and to signal thematic concerns. In
+deployed to create atmosphere, to reflect character states, and to signal thematic concerns. In
 _Frankenstein_, the storm that accompanies Victor's creation of the Creature reflects the disruption
 of the natural order. In _Jekyll and Hyde_, the fog of London is both a literal description of the
-City's pollution and a metaphor for moral obscurity.
+city's pollution and a metaphor for moral obscurity.
 
 ### 6.2 Landscape
 
 The contrast between different landscapes often carries symbolic weight. In _Jane Eyre_, the
-Contrast between the oppressive, enclosed spaces of Gateshead and Lowood and the freedom of the
-Moors reflects Jane's struggle for autonomy. In _Silas Marner_, the contrast between the industrial
+contrast between the oppressive, enclosed spaces of Gateshead and Lowood and the freedom of the
+moors reflects Jane's struggle for autonomy. In _Silas Marner_, the contrast between the industrial
 Lantern Yard (where Silas is betrayed) and the rural Raveloe (where he is redeemed) embodies the
-Novel's critique of industrialism and its idealisation of rural community.
+novel's critique of industrialism and its idealisation of rural community.
 
 ### 6.3 Houses and Domestic Spaces
 
@@ -426,8 +426,8 @@ Back door used by Hyde -- physically embodying the duality that the novella expl
 ### 6.4 Social Environment
 
 The social world in which characters move -- the class structures, economic systems, and
-Institutional frameworks of their society -- functions as a form of setting that exerts pressure on
-Individual lives. In _An Inspector Calls_, the Birlings' comfortable dining room is both a literal
+institutional frameworks of their society -- functions as a form of setting that exerts pressure on
+individual lives. In _An Inspector Calls_, the Birlings' comfortable dining room is both a literal
 Space and a symbol of bourgeois complacency, shattered by the Inspector's intrusion. In _Great
 Expectations_, Satis House, frozen in time since Miss Havisham was jilted, is a physical
 Manifestation of her psychological stagnation.
@@ -440,24 +440,24 @@ Class is arguably the dominant thematic concern of the 19th-century novel. The r
 of Victorian society and the growing awareness of its injustices produced fiction that is deeply
 Engaged with questions of social mobility, economic inequality, and the relationship between wealth
 and moral worth. _Great Expectations_ explores class through Pip's aspiration to gentility and his
-Gradual recognition that social status does not confer moral superiority. _An Inspector Calls_ uses
+gradual recognition that social status does not confer moral superiority. _An Inspector Calls_ uses
 the Birling family to expose the callousness of the Edwardian upper middle class.
 
 ### 7.2 Power
 
 Power -- who holds it, how it is exercised, and what it does to those who wield it -- is a central
 Concern. In _Jekyll and Hyde_, power manifests as the struggle between the rational self and the
-Repressed desires that Hyde embodies. In _Animal Farm_, the corruption of revolutionary ideals into
-Authoritarian tyranny is an allegory of how power corrupts. In _The Sign of Four_, the legacy of
-Colonial power structures the entire narrative.
+repressed desires that Hyde embodies. In _Animal Farm_, the corruption of revolutionary ideals into
+authoritarian tyranny is an allegory of how power corrupts. In _The Sign of Four_, the legacy of
+colonial power structures the entire narrative.
 
 ### 7.3 Gender
 
 The 19th century was a period of intense debate about the role and rights of women. The Married
 Women's Property Acts (1870, 1882) gradually gave women control over their own finances; the
-Suffrage movement gained momentum from the 1860s onward. _Jane Eyre_ is a key text for the study of
-Gender: Jane's insistence on her own intellectual and emotional equality with Rochester, and her
-Refusal to compromise her autonomy for love, make her one of the most radical heroines in Victorian
+suffrage movement gained momentum from the 1860s onward. _Jane Eyre_ is a key text for the study of
+gender: Jane's insistence on her own intellectual and emotional equality with Rochester, and her
+refusal to compromise her autonomy for love, make her one of the most radical heroines in Victorian
 Fiction.
 
 ### 7.4 Responsibility
@@ -472,8 +472,8 @@ for the created.
 
 Isolation -- physical, emotional, social, or moral -- is a recurring theme. Frankenstein's Creature
 is isolated by his appearance and his lack of social connection. Silas Marner is isolated by
-Betrayal and loss. Jekyll is isolated by his secret. These characters' isolation drives the plot and
-Shapes the reader's sympathies.
+betrayal and loss. Jekyll is isolated by his secret. These characters' isolation drives the plot and
+shapes the reader's sympathies.
 
 ### 7.6 Identity
 
@@ -481,8 +481,8 @@ The question of what constitutes identity -- whether it is fixed or fluid, innat
 Constructed, singular or divided -- is central to _Jekyll and Hyde_, _Frankenstein_, and _Jane
 Eyre_. Stevenson's novella literalises the division of identity through the Jekyll/Hyde split.
 Shelley's Creature asks whether identity is determined by nature (his creation) or nurture (his
-Rejection by society). Jane Eyre constructs her identity through resistance to the roles that
-Society assigns to her.
+rejection by society). Jane Eyre constructs her identity through resistance to the roles that
+society assigns to her.
 
 ## 8. Essay Writing Techniques
 
@@ -512,8 +512,8 @@ Weather chill him." **T:** Dickens uses a **list of participles** ("squeezing, w
 Scraping, clutching, covetous") to create a relentless, rhythmic accumulation of Scrooge's greedy
 Actions, and employs **hyperbole** in the paradox "No warmth could warm." **A:** The participial
 List suggests that Scrooge's miserliness is not a single vice but a compulsion that defines every
-Interaction, reducing him to a mechanical sequence of grasping actions. The hyperbolic claim that no
-Warmth could warm him associates him with death -- he is beyond the reach of ordinary human
+interaction, reducing him to a mechanical sequence of grasping actions. The hyperbolic claim that no
+warmth could warm him associates him with death -- he is beyond the reach of ordinary human
 Influence. **L:** This dehumanising presentation establishes Scrooge as a figure of moral death,
 Making his subsequent transformation all the more significant.
 

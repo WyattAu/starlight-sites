@@ -43,15 +43,15 @@ Commercial banks perform four key functions:
 #### Deeper Analysis: Financial Intermediation
 
 Financial intermediation is critical because it solves the **dual problem** that savers and
-Borrowers face. Savers want safety, liquidity, and a return. Borrowers want large sums, long
+borrowers face. Savers want safety, liquidity, and a return. Borrowers want large sums, long
 Maturities, and lower interest rates. No individual transaction between a saver and a borrower can
-Satisfy both parties simultaneously.
+satisfy both parties simultaneously.
 
 **Real-world example:** Suppose a household wishes to save £200 per month from their salary. They
 Cannot lend directly to a property developer who needs GBP 50 million over 25 years. A commercial
 Bank aggregates thousands of small deposits, transforms the maturity (short deposits into a
-Long-term mortgage), and assumes the credit risk. The saver gets instant-access deposits; the
-Developer gets a 25-year loan. Both parties are better off than without intermediation.
+long-term mortgage), and assumes the credit risk. The saver gets instant-access deposits; the
+developer gets a 25-year loan. Both parties are better off than without intermediation.
 
 **Types of intermediation:**
 
@@ -69,7 +69,7 @@ Developer gets a 25-year loan. Both parties are better off than without intermed
 The problem of **asymmetric information** is central to financial intermediation. Borrowers know
 more about their own risk than lenders do. This leads to **adverse selection** (risky borrowers are
 most eager to borrow) and **moral hazard** (borrowers may take excessive risks after receiving a
-Loan). Banks mitigate both through screening, monitoring, and collateral requirements.
+loan). Banks mitigate both through screening, monitoring, and collateral requirements.
 
 ### 1.2 Central Banks
 
@@ -128,7 +128,7 @@ Money serves three functions: medium of exchange, store of value, unit of accoun
 
 :::note
 M2, M4. Edexcel emphasises M0 and M4. AQA focuses on broad vs narrow money. Always use the
-Definitions in your specification.
+definitions in your specification.
 :::
 
 ### 2.2 Money Creation: The Money Multiplier
@@ -187,15 +187,15 @@ Central bank creates reserves, banks lend, money supply expands. The endogenous 
 this: banks lend first (creating deposits), then obtain reserves as needed from the interbank market
 or central bank. In the UK, Canada, and many other modern banking systems, there are no binding
 Reserve requirements, lending is capital-constrained rather than reserve-constrained, and the
-Central bank sets the price of reserves (the interest rate) rather than the quantity. This supports
+central bank sets the price of reserves (the interest rate) rather than the quantity. This supports
 the endogenous money view. However, for exam purposes, the money multiplier remains the standard
 Model on most A Level specifications.
 
 :::note
 Has recently moved towards acknowledging endogenous money but still primarily examines the
-Multiplier approach. OCR tends to focus on the practical implications (why QE did not cause
+multiplier approach. OCR tends to focus on the practical implications (why QE did not cause
 Hyperinflation) rather than the theoretical debate. When answering, use the multiplier model but
-Acknowledge its limitations for evaluation marks.
+acknowledge its limitations for evaluation marks.
 :::
 
 **Credit creation process (step-by-step balance sheets):**
@@ -270,9 +270,9 @@ The **yield curve** plots interest rates against the maturity of bonds.
 **Real-world example, the inverted yield curve:** In August 2019, the US 2-year Treasury yield
 Exceeded the 10-year yield (an inverted yield curve), which has historically preceded every US
 Recession since WWII. The inversion reflected market expectations that the Federal Reserve would
-Need to cut rates to combat an impending downturn. The 2020 COVID recession followed, though the
-Causality is debated (the curve may have anticipated COVID-related disruptions). In the UK, the
-Yield curve also inverted briefly in 2019, signalling expectations of BoE rate cuts.
+need to cut rates to combat an impending downturn. The 2020 COVID recession followed, though the
+causality is debated (the curve may have anticipated COVID-related disruptions). In the UK, the
+yield curve also inverted briefly in 2019, signalling expectations of BoE rate cuts.
 
 :::note
 As a predictor. Edexcel may link the yield curve to business investment decisions (firms use
@@ -339,9 +339,9 @@ investment is more responsive to rate changes when firms are highly leveraged an
 :::note
 Diagrams. Edexcel requires a clear chain of reasoning from the interest rate change to the final
 Impact on AD, inflation, and employment. OCR is particularly interested in the _limitations_ of
-Monetary policy transmission, time lags, interest elasticity, and the liquidity trap. CIE expects a
+monetary policy transmission, time lags, interest elasticity, and the liquidity trap. CIE expects a
 more formal diagrammatic analysis using the IS-LM framework (though not all centres teach IS-LM, so
-Check with your teacher).
+check with your teacher).
 :::
 
 **Evaluation, how effective is monetary policy?**
@@ -408,20 +408,20 @@ Evidence from the UK: the BoE's own estimates suggest that the GBP 895 billion o
 between 2009 and 2022 boosted GDP by around 1.5-2% and raised inflation by 0.75-1.5 percentage
 Points. However, the distributional effects were significant: the Bank of England estimated in 2012
 that its QE programme had increased the wealth of the top 5% of households by up to 40%, while the
-Bottom 50% saw minimal benefit. This is because the top 5% hold the majority of financial assets
+bottom 50% saw minimal benefit. This is because the top 5% hold the majority of financial assets
 whose prices were inflated by QE.
 
 **Real-world example, QE and the COVID-19 recovery:** Between March 2020 and late 2021, the BoE
 Purchased an additional GBP 450 billion of government bonds. Despite this massive expansion of the
-Money supply, CPI inflation remained below the 2% target until mid-2021, when supply chain
+money supply, CPI inflation remained below the 2% target until mid-2021, when supply chain
 Disruptions and energy price shocks drove inflation higher. This illustrates that QE alone does not
-Cause high inflation, the broader macroeconomic context matters.
+cause high inflation, the broader macroeconomic context matters.
 
 :::note
 Frequently includes questions on unconventional monetary policy. Key evaluation points: QE is less
-Effective when banks are unwilling to lend (liquidity trap), the impact on the real economy is
-Uncertain and hard to measure, and the exit strategy (quantitative tightening) is politically and
-Economically risky. OCR may also ask about the interaction between QE and fiscal policy (monetary
+effective when banks are unwilling to lend (liquidity trap), the impact on the real economy is
+uncertain and hard to measure, and the exit strategy (quantitative tightening) is politically and
+economically risky. OCR may also ask about the interaction between QE and fiscal policy (monetary
 Financing).
 :::
 
@@ -451,7 +451,7 @@ Current price.
 ### 5.2 Shares (Equities)
 
 A **share** represents ownership in a company. Shareholders receive dividends and may benefit from
-Capital gains.
+capital gains.
 
 **Share price valuation** (simplified dividend discount model):
 
@@ -460,7 +460,7 @@ P_0 = \frac{D_1}{r - g}
 $$
 
 Where $D_1$ = expected dividend next year, $r$ = required return, $g$ = expected growth rate of
-Dividends.
+dividends.
 
 #### The Role of Financial Markets in the Economy
 
@@ -484,9 +484,9 @@ Financial markets perform crucial functions beyond matching buyers and sellers:
 
 **Real-world example, the 2021 GameStop short squeeze:** In January 2021, retail investors
 Coordinated through Reddit to buy shares in GameStop, driving the price from USD 18 to USD 483 in
-Weeks. This forced hedge funds that had shorted the stock to buy shares to cover their positions,
+weeks. This forced hedge funds that had shorted the stock to buy shares to cover their positions,
 Amplifying the price rise. The episode illustrates both the power of market sentiment (prices can
-Deviate far from fundamentals) and the role of financial market regulation (trading was temporarily
+deviate far from fundamentals) and the role of financial market regulation (trading was temporarily
 Restricted by brokerages, raising questions about market fairness).
 
 ## 6. Critical Evaluation
@@ -516,13 +516,13 @@ Financial markets. Key lessons:
 
 On one hand, the UK banking system is significantly more resilient than in 2008. The Common Equity
 Tier 1 (CET1) capital ratio of major UK banks rose from around 4-5% pre-crisis to over 15% by 2023.
-The 2023 banking turmoil (Silicon Valley Bank, Credit Suisse) did not spread to the UK, suggesting
+the 2023 banking turmoil (Silicon Valley Bank, Credit Suisse) did not spread to the UK, suggesting
 Reforms worked.
 
 On the other hand, risks have shifted rather than disappeared. The growth of **shadow banking**
 (non-bank financial intermediaries such as money market funds, hedge funds, and private equity) now
 Accounts for nearly 50% of global financial intermediation. These entities are less regulated than
-Banks, less transparent, and can be sources of systemic risk (as the 2022 UK Gilt Crisis, triggered
+banks, less transparent, and can be sources of systemic risk (as the 2022 UK Gilt Crisis, triggered
 by liability-driven investments in pension funds, demonstrated). The Bank of England's intervention
 in the gilt market during the mini-budget crisis showed that systemic risk now originates outside
 the traditional banking sector.
@@ -530,11 +530,11 @@ the traditional banking sector.
 Furthermore, moral hazard persists. The implicit guarantee that governments will bail out large
 Financial institutions ("too big to fail") has not been fully resolved. The failure of Credit Suisse
 in 2023 was resolved through a government-brokered takeover by UBS, reinforcing the perception that
-Large banks will always be rescued.
+large banks will always be rescued.
 
 :::tip
 Mechanism_ (how the policy affects the economy) and the _effectiveness_ (how well it works in
-Practice). Consider time lags, the interest elasticity of investment, and the shape of the liquidity
+practice). Consider time lags, the interest elasticity of investment, and the shape of the liquidity
 Preference curve.
 :::
 
@@ -575,7 +575,7 @@ Current yield $= 4/95 \times 100 = 4.21\%$. The yield exceeds the coupon rate (4
 
 **Problem 4.** Using the liquidity preference framework, explain what happens to the interest rate
 When (a) the central bank increases the money supply, and (b) national income increases. Use a
-Diagram in your explanation.
+diagram in your explanation.
 
 <details>
 <summary>Hint</summary>
@@ -652,7 +652,7 @@ For: fractional reserve banking creates credit booms and busts (Minsky cycle), b
 
 **Problem 13.** In 2022, UK CPI inflation reached 11.1% while the Bank of England's Bank Rate was
 Raised from 0.25% to 3.0%. (a) Calculate the real interest rate at the start and end of this
-Tightening cycle, assuming inflation of 5.4% at the start. (b) Explain why the BoE was criticised
+tightening cycle, assuming inflation of 5.4% at the start. (b) Explain why the BoE was criticised
 for being "behind the curve." (c) Evaluate the argument that the BoE should have raised rates
 Earlier.
 
@@ -684,7 +684,7 @@ For the statement: (1) Shadow banking entities (hedge funds, money market funds,
 Increase it by GBP 200 billion through open market operations. If the current reserve ratio is 5%
 but banks choose to hold 3% excess reserves and the public holds 10% of any new deposits as cash,
 Calculate (a) the effective money multiplier and (b) the value of bonds the central bank must
-Purchase to achieve its target.
+purchase to achieve its target.
 
 <details>
 <summary>Hint</summary>
@@ -1021,7 +1021,7 @@ have received 7.69m. With the hedge, they receive 8.0m. The hedge "saved" 0.31m.
 of $1.25/\pounds$). Premium: 0.5% of the notional amount = USD 50,000.
 
 If spot > 1.25 (sterling appreciated): the exporter exercises the put option, selling at 1.25.
-Receives: 8.0m - 0.05m (premium) = 7.95m.
+receives: 8.0m - 0.05m (premium) = 7.95m.
 
 If spot < 1.25 (sterling depreciated): the exporter lets the option expire and sells at the spot
 rate. Receives: $10/\text{spot} - 0.05$ M. For example, at 1.20: 8.33 - 0.05 = 8.28m.

@@ -117,7 +117,7 @@ as societies become wealthier, invest in cleaner technology, and demand stronger
 Regulation.
 
 This pattern does not hold universally, carbon dioxide emissions and some pollutants have not
-Declined in many wealthy countries without deliberate policy intervention.
+declined in many wealthy countries without deliberate policy intervention.
 
 ## Market-Oriented vs. Interventionist Approaches (HL Extension)
 
@@ -575,7 +575,7 @@ resources from tradables to non-tradables.
 
 **Evaluation:** each policy has trade-offs. Sterilised intervention is inflationary; saving aid
 Delays its benefits; export subsidies are trade-distorting. The best approach depends on the
-Country's specific circumstances.
+country's specific circumstances.
 
 </details>
 

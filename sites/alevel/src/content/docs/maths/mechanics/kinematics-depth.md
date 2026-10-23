@@ -142,7 +142,7 @@ multi-stage kinematics Problems.
 ### 2.1 The acceleration due to gravity
 
 Near the Earth's surface, all objects in free fall (neglecting air resistance) experience the same
-Acceleration $g$. The standard value is:
+acceleration $g$. The standard value is:
 
 $$
 g \approx 9.8\;\mathrm{m\,s^{-2}} \quad (\mathrm{or}\ 9.81\;\mathrm{m\,s^{-2}}\ \mathrm{for\ greater\ precision})
@@ -242,7 +242,7 @@ $$
 $$
 
 This is the equation of a **parabola**, confirming that the trajectory of a projectile (under
-Constant gravity with no air resistance) is parabolic.
+constant gravity with no air resistance) is parabolic.
 
 ### 3.4 Key results
 
@@ -383,7 +383,7 @@ s = \int v\,dt, \qquad v = \int a\,dt
 $$
 
 The chain rule form $a = v\,\dfrac{dv}{ds}$ is particularly useful when acceleration is given as a
-Function of displacement rather than time.
+function of displacement rather than time.
 
 ### 5.2 Derivation of $a = v\,\dfrac{dv}{ds}$
 
@@ -517,7 +517,7 @@ $$
 ### Problem 3
 
 A particle moves with acceleration $a = 12t\;\mathrm{m\,s^{-2}}$. At $t = 0$ It is at rest at the
-Origin. Find its displacement when $t = 3\;\mathrm{s}$.
+origin. Find its displacement when $t = 3\;\mathrm{s}$.
 
 <details>
 <summary>Solution</summary>

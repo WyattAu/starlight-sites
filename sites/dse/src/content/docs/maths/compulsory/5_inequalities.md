@@ -78,7 +78,7 @@ $$
 
 A linear inequality has the form $ax + b > c$ or $ax + b < c$ Where $a \neq 0$. The solution
 Procedure mirrors that of linear equations, with one critical exception: when multiplying or
-Dividing by a negative number, the inequality sign must be reversed.
+dividing by a negative number, the inequality sign must be reversed.
 
 **General method:**
 
@@ -89,7 +89,7 @@ Dividing by a negative number, the inequality sign must be reversed.
 ### Number Line Representation
 
 The solution of a linear inequality in one variable is an interval, which can be represented on a
-Number line:
+number line:
 
 - An **open circle** ($\circ$) indicates a strict inequality ($<$ or $>$).
 - A **closed circle** ($\bullet$) indicates an inclusive inequality ($\leq$ or $\geq$).
@@ -132,7 +132,7 @@ The solution set is $7, \infty)$.
 
 A quadratic inequality has the form $ax^2 + bx + c > 0$, $ax^2 + bx + c < 0$ Or their non-strict
 Variants, where $a \neq 0$. Solving quadratic inequalities relies on understanding the graph of the
-Corresponding [quadratic function $f(x) = ax^2 + bx + c$.
+corresponding [quadratic function $f(x) = ax^2 + bx + c$.
 
 ### Graphical Interpretation
 
@@ -141,7 +141,7 @@ $x$-values where the parabola lies **above** the $x$-axis, and $f(x) < 0$ corres
 Parabola lies **below** the $x$-axis.
 
 The discriminant $\Delta = b^2 - 4ac$ determines the number of
-Intersections with the $x$-axis:
+intersections with the $x$-axis:
 
 <div class="table-wrap">
 
@@ -334,7 +334,7 @@ Solution: $\varnothing$.
 
 A system of inequalities requires finding the set of values that satisfy **all** inequalities
 Simultaneously. The solution set of the system is the **intersection** of the solution sets of the
-Individual inequalities.
+individual inequalities.
 
 ### Method for Systems of Linear Inequalities
 
@@ -345,7 +345,7 @@ Individual inequalities.
 ### Systems Involving Quadratic and Absolute Value Inequalities
 
 The same principle applies: solve each inequality independently, then take the intersection of all
-Solution sets.
+solution sets.
 
 <details>
 <summary>Examples</summary>
@@ -423,7 +423,7 @@ Solution: $\left(-\infty, \dfrac{22}{5}\right]$.
 Factorize: $(x - 3)^2 \geq 0$.
 
 Since $(x - 3)^2 \geq 0$ for all real $x$ (a square is always non-negative), the solution is all
-Real numbers.
+real numbers.
 
 Solution: $\mathbb{R}$.
 
@@ -484,12 +484,12 @@ $$
 $$
 
 Discriminant: $\Delta = 4 - 20 = -16 < 0$. Since $a = 1 > 0$ The expression is always positive. No
-Solution in this case.
+solution in this case.
 
 Solution: $[1 - \sqrt{2},\; 1 + \sqrt{2}]$.
 
 1. **Question:** For what values of $k$ does the quadratic equation $x^2 + 2kx + k + 6 = 0$ have two
-Distinct real roots?
+distinct real roots?
 
 <details>
 <summary>Answer</summary>
@@ -583,7 +583,7 @@ $$
 The expression is $\geq 0$ when $-2 \leq x < 1$ or $x \geq 2$.
 
 (Note: $x = -2$ is included because the numerator is zero there; $x = 1$ is excluded; $x = 2$ is
-Included.)
+included.)
 
 Solution: $ contains the hardest questions
 within the DSE specification for this topic, each with a full worked solution.

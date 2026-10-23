@@ -69,7 +69,7 @@ PROCEDURE selectionSort(list)
 
 **Intuition.** Imagine picking cards from a shuffled deck one at a time. You scan all remaining
 Cards, find the smallest, and place it next in your sorted hand. After $n$ passes, your hand is
-Fully sorted.
+fully sorted.
 
 **Why selection sort is $O(n^2)$.** The outer loop runs $n-1$ times. For each outer iteration, the
 Inner loop scans the remaining unsorted portion. The total number of comparisons is
@@ -233,7 +233,7 @@ Of each iteration.
 
 **Termination:** The loop terminates when `low > high`. Meaning the search space is empty. Since the
 Invariant guarantees the target would be in `[low, high]` if it existed, the target is not in the
-Array.
+array.
 
 $\blacksquare$
 
@@ -407,14 +407,14 @@ Total comparisons: $1 + 1 + 3 + 1 = 6$.
 Split: [38, 27] and [43, 3].
 
 Sort [38, 27]: split into [38] and [27], merge to [27, 38]. Sort [43, 3]: split into [43] and [3],
-Merge to [3, 43].
+merge to [3, 43].
 
 Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 
 ### Quick Sort Worst Case
 
 Quick sort has $O(n^2)$ worst case when the pivot is always the smallest or largest element. This
-Happens when the array is already sorted (or reverse sorted) and the first or last element is used
+happens when the array is already sorted (or reverse sorted) and the first or last element is used
 as the pivot.
 
 **Mitigation:** Choose the middle element or a random element as the pivot.
@@ -470,7 +470,7 @@ public static long fibMemo(int n) {
 Split: [38, 27] and [43, 3].
 
 Sort [38, 27]: split into [38] and [27], merge to [27, 38]. Sort [43, 3]: split into [43] and [3],
-Merge to [3, 43].
+merge to [3, 43].
 
 Merge [27, 38] and [3, 43]: [3, 27, 38, 43].
 

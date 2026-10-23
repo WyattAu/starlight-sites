@@ -212,7 +212,7 @@ public static String reverse(String s) {
 ```
 
 Time complexity: $O(n^2)$ because string concatenation creates a new object each time. A more
-Efficient approach uses `StringBuilder` for $O(n)$.
+efficient approach uses `StringBuilder` for $O(n)$.
 
 ```java
 public static String reverseEfficient(String s) {

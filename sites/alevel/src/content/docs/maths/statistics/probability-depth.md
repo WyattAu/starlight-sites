@@ -125,14 +125,14 @@ P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B \mid A)\,P(A)}{P(B)}
 $$
 
 The first step is the definition of conditional probability. The second step applies the
-Multiplication rule to the numerator. $\blacksquare$
+multiplication rule to the numerator. $\blacksquare$
 
 ### 2.3 Worked example
 
 **Problem.** A disease affects 1% of a population. A test for the disease has a 95% true positive
 Rate ($P(\mathrm{positive} \mid \mathrm{disease}) = 0.95$) and a 10% false positive rate
 ($P(\mathrm{positive} \mid \mathrm{no\ disease}) = 0.10$). If a person tests positive, what is the
-Probability they actually have the disease?
+probability they actually have the disease?
 
 Let $D$ = "has disease", $T^+$ = "tests positive".
 
@@ -192,7 +192,7 @@ For two events $A$ and $B$ The Venn diagram has four regions:
 
 **Problem.** In a group of 100 students, 45 study Maths, 30 study Physics, and 15 study both. A
 Student is chosen at random. Find: (a) the probability they study at least one subject; (b) the
-Probability they study Maths given they study Physics.
+probability they study Maths given they study Physics.
 
 $$
 P(M) = 0.45, \quad P(P) = 0.30, \quad P(M \cap P) = 0.15
@@ -231,7 +231,7 @@ $$
 ### 4.1 Structure
 
 A tree diagram represents a sequence of events. Each branch represents a possible outcome with its
-Probability. The probability of any path through the tree is the product of the probabilities along
+probability. The probability of any path through the tree is the product of the probabilities along
 that path.
 
 ### 4.2 Rules

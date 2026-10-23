@@ -608,7 +608,7 @@ $\cos\theta = \frac{-3}{\sqrt{14}\sqrt{6}} = \frac{-3}{2\sqrt{21}}$.
 ### Scalar Triple Product (HL)
 
 The scalar triple product $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ gives the volume of the
-Parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
+parallelepiped spanned by $\mathbf{a}$$\mathbf{b}$ And $\mathbf{c}$.
 
 $$
 \mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}
@@ -672,7 +672,7 @@ $$
 ### Theorem: Angle at the Centre
 
 The angle at the centre of a circle is twice the angle at the circumference subtended by the same
-Arc.
+arc.
 
 **Proof.** Let $O$ be the centre and $A, B$ points on the circumference. Join $OA$ and $OB$. If $C$
 Is on the circumference on the same side of $AB$ as $O$ Then $\triangle OAC$ is isosceles with

@@ -259,7 +259,7 @@ For each G3P (multiply by 2 for the full glucose molecule):
 ### Pyruvate Oxidation (Link Reaction)
 
 Pyruvate is transported from the cytoplasm into the mitochondrial matrix, where it is converted to
-Acetyl-CoA:
+acetyl-CoA:
 
 $$
 \mathrm{Pyruvate} + \mathrm{CoA} + \mathrm{NAD}^+ \to \mathrm{Acetyl\text{-}CoA} + \mathrm{CO}_2 + \mathrm{NADH}
@@ -321,7 +321,7 @@ glucose: 2 turns).
 ### The Electron Transport Chain (ETC)
 
 Located in the **inner mitochondrial membrane**. NADH and $\mathrm{FADH}_2$ donate electrons to a
-Series of protein complexes and mobile carriers:
+series of protein complexes and mobile carriers:
 
 <div class="table-wrap">
 
@@ -438,12 +438,12 @@ Occur in the **thylakoid membranes**. Light energy is captured and used to gener
 
 Photosystems are pigment-protein complexes containing **chlorophyll a**, accessory pigments
 (chlorophyll b, carotenoids), and electron carriers. Accessory pigments absorb wavelengths not
-Absorbed by chlorophyll a and transfer the energy to chlorophyll a via resonance energy transfer
+absorbed by chlorophyll a and transfer the energy to chlorophyll a via resonance energy transfer
 (antenna effect).
 
 **Absorption spectrum**: chlorophyll a absorbs blue ($\approx 430\;\mathrm{nm}$) and red
 ($\approx 660\;\mathrm{nm}$) light most strongly; green light is reflected (giving leaves their
-Green colour). Carotenoids absorb blue-green light ($\approx 450$--$500\;\mathrm{nm}$).
+green colour). Carotenoids absorb blue-green light ($\approx 450$--$500\;\mathrm{nm}$).
 
 **Action spectrum**: the rate of photosynthesis as a function of wavelength; closely matches the
 Absorption spectrum, confirming that absorbed light drives photosynthesis.
@@ -559,7 +559,7 @@ $\mathrm{CO}_2$ is released for the Calvin cycle.
 ### Lactic Acid Fermentation
 
 In the absence of oxygen (or when the ETC cannot keep up with demand), pyruvate is converted to
-Lactate by **lactate dehydrogenase**, oxidising NADH to $\mathrm{NAD}^+$:
+lactate by **lactate dehydrogenase**, oxidising NADH to $\mathrm{NAD}^+$:
 
 $$
 \text{Pyruvate} + \mathrm{NADH} \to \text{Lactate} + \mathrm{NAD}^+
@@ -602,7 +602,7 @@ Some prokaryotes use electron acceptors other than $\mathrm{O}_2$ in the ETC:
 </div>
 
 Anaerobic respiration produces more ATP than fermentation (the ETC still operates) but less than
-Aerobic respiration (alternative acceptors have lower reduction potentials than $\mathrm{O}_2$).
+aerobic respiration (alternative acceptors have lower reduction potentials than $\mathrm{O}_2$).
 
 ---
 
@@ -692,7 +692,7 @@ regulation**:
 <summary>Question 1: Michaelis-Menten Calculation</summary>
 
 An enzyme has $V_{\max} = 60\;\mathrm{\mu mol/min}$ and $K_m = 8\;\mathrm{mM}$. Calculate the
-Reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$ And $20\;\mathrm{mM}$. A Competitive
+reaction velocity at $[S] = 4\;\mathrm{mM}$, $8\;\mathrm{mM}$ And $20\;\mathrm{mM}$. A Competitive
 inhibitor is added that increases the apparent $K_m$ to $24\;\mathrm{mM}$. Calculate the velocity at
 $[S] = 20\;\mathrm{mM}$ with the inhibitor. At what substrate Concentration does the inhibited
 reaction reach $90\%$ of $V_{\max}$?
@@ -749,7 +749,7 @@ $\mathrm{CO}_2$ concentration becomes the limiting factor. At $0.04\%$ $\mathrm{
 Saturated with its substrates at a lower rate, so the curve plateaus earlier and at a lower
 Photosynthetic rate. At $0.10\%$ $\mathrm{CO}_2$ More $\mathrm{CO}_2$ is available for Rubisco,
 Allowing a higher maximum rate before the curve plateaus. This demonstrates the principle of
-Limiting factors: the rate is determined by the factor in shortest supply.
+limiting factors: the rate is determined by the factor in shortest supply.
 
 </details>
 
@@ -786,7 +786,7 @@ $6 \times 22.4 = 134.4\;\mathrm{L}$.
 <summary>Question 4: Inhibition Type Identification</summary>
 
 An experiment measures enzyme activity at varying substrate concentrations with and without an
-Unknown inhibitor. The results are:
+unknown inhibitor. The results are:
 
 <div class="table-wrap">
 
@@ -814,7 +814,7 @@ At low $[S]$ ($2\;\mathrm{mM}$), the velocity with inhibitor ($7.5$) is substant
 without ($12.0$), indicating a higher apparent $K_m$.
 
 Since $V_{\max}$ is unchanged and $K_m$ is increased, the inhibition is **competitive**. The
-Inhibitor competes with the substrate for the active site but can be overcome by increasing
+inhibitor competes with the substrate for the active site but can be overcome by increasing
 Substrate concentration.
 
 </details>
@@ -879,7 +879,7 @@ Concentration, (d) the proton gradient. Explain the mechanism.
 
 (a) **$\mathrm{O}_2$ consumption decreases to zero**. Oligomycin blocks ATP synthase, so protons
 cannot flow back into the matrix. The proton gradient builds up until the PMF is so large that the
-Electron transport chain cannot pump more protons against it. Electron transport stops, and
+electron transport chain cannot pump more protons against it. Electron transport stops, and
 $\mathrm{O}_2$ Is no longer reduced.
 
 (b) **ATP production drops to zero** (no oxidative phosphorylation) and only the 2 ATP from
@@ -1025,7 +1025,7 @@ RQ can change during Prolonged fasting.
 hyperthermia. (a) Explain the mechanism by which DNP uncouples oxidative phosphorylation. (b)
 Predict the effect of DNP on: (i) $\mathrm{O}_2$ consumption, (ii) ATP production, (iii) body
 Temperature, (iv) blood glucose levels. (c) Explain why DNP causes rapid weight loss but is
-Extremely dangerous.
+extremely dangerous.
 
 </details>
 
@@ -1056,9 +1056,9 @@ light:
 </div>
 
 (a) Plot the action spectrum. (b) Superimpose the expected absorption spectra of chlorophyll a,
-Chlorophyll b, and carotenoids. (c) Explain why the action spectrum has two peaks and why the Green
+chlorophyll b, and carotenoids. (c) Explain why the action spectrum has two peaks and why the Green
 region ($500$--$600\;\mathrm{nm}$) has a low rate. (d) Explain why the action spectrum and
-Absorption spectrum are similar but not identical.
+absorption spectrum are similar but not identical.
 
 </details>
 
@@ -1169,7 +1169,7 @@ approximately $20\text{--}22\;\mathrm{kcal/L\;O}_2$).
 **Worked Example: Inhibitor Type Determination from Lineweaver-Burk Plot**
 
 An enzyme has a $V_{max}$ of $120\;\mathrm{\mu mol/min}$ and a $K_m$ of $4.0\;\mathrm{mM}$. In the
-Presence of an inhibitor, the apparent $V_{max}$ is $120\;\mathrm{\mu mol/min}$ and the apparent
+presence of an inhibitor, the apparent $V_{max}$ is $120\;\mathrm{\mu mol/min}$ and the apparent
 $K_m$ Is $12.0\;\mathrm{mM}$. (a) Identify the type of inhibitor. (b) Calculate the inhibitor
 constant $K_i$ If the inhibitor concentration is $2.0\;\mathrm{mM}$. (c) Sketch the expected
 Lineweaver-Burk plot Showing both the uninhibited and inhibited reactions. (d) At a substrate
@@ -1509,8 +1509,8 @@ $\mathrm{O}_2$ To bind (lowering haemoglobin's affinity for $\mathrm{O}_2$). Thi
 dissociation curve To the right, facilitating $\mathrm{O}_2$ unloading in tissues.
 
 (d) At high altitude, $\mathrm{pO}_2$ is lower, so less $\mathrm{O}_2$ loads onto haemoglobin in the
-Lungs. The body compensates by increasing 2,3-BPG production (via the Rapoport-Luebering shunt in
-Glycolysis), which shifts the curve to the right. This reduces haemoglobin's affinity for
+lungs. The body compensates by increasing 2,3-BPG production (via the Rapoport-Luebering shunt in
+glycolysis), which shifts the curve to the right. This reduces haemoglobin's affinity for
 $\mathrm{O}_2$ So more $\mathrm{O}_2$ is unloaded in tissues, partially compensating for the reduced
 loading. However, The shift also reduces loading in the lungs, so the net effect is a compromise.
 
@@ -1523,7 +1523,7 @@ loading. However, The shift also reduces loading in the lungs, so the net effect
 to Protons. (a) Explain the effect of DNP on oxidative phosphorylation. (b) Predict what happens to
 $\mathrm{O}_2$ consumption, $\mathrm{CO}_2$ production, and heat production in the presence of DNP.
 (c) Explain the role of uncoupling protein 1 (UCP1, thermogenin) in brown adipose tissue (BAT) and
-How it relates to DNP's mechanism. (d) Explain why DNP was used as a weight-loss drug in the 1930s
+how it relates to DNP's mechanism. (d) Explain why DNP was used as a weight-loss drug in the 1930s
 and why it is extremely dangerous.
 
 </details>
@@ -1671,7 +1671,7 @@ $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
 (LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+$$
 
 This regenerates $\mathrm{NAD}^+$ Allowing glycolysis to continue. The lactate is transported to the
-Liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
+liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
 lactate).
 
 **Anaerobic conditions** (in yeast): pyruvate is decarboxylated to acetaldehyde (by pyruvate
@@ -1762,7 +1762,7 @@ ATP synthesis
 ### Worked Example: Complete ATP Accounting
 
 A student runs a $100\;\mathrm{m}$ sprint (anaerobic, $10$ seconds). (a) How many ATP molecules are
-Available from phosphocreatine and anaerobic glycolysis? (b) The student then jogs for $30$ minutes
+available from phosphocreatine and anaerobic glycolysis? (b) The student then jogs for $30$ minutes
 (aerobic). How many ATP molecules are produced from the complete oxidation of $5$ molecules of
 glucose? (c) Explain why the sprinter experiences muscle fatigue after the race.
 

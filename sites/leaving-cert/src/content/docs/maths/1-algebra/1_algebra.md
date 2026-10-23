@@ -23,7 +23,7 @@ categories:
 ## Algebra
 
 Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both
-Paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex
+paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex
 Numbers, matrices, and sequences.
 
 ## Algebraic Expressions
@@ -664,7 +664,7 @@ Sign chart:
 Solution: $x < -2$ or $x > 1$ I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 
 Note that $x = -1$ is not a solution (the product equals zero, not positive). And $x = 1$ is not a
-Solution despite being a root, because the factor is squared.
+solution despite being a root, because the factor is squared.
 
 ## Intuition
 

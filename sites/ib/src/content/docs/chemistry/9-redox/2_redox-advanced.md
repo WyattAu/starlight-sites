@@ -282,7 +282,7 @@ $$
 :::note
 Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes
 Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$ More positive than
-Water's $-0.83\mathrm{ V}$)
+water's $-0.83\mathrm{ V}$)
 
 Anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$ (sulfate is not oxidised;
 Water is oxidised instead)
@@ -466,7 +466,7 @@ $$
 $$
 
 The electrons flow to the iron, which becomes the cathode where oxygen reduction occurs. Since the
-Iron is not oxidised, it does not corrode. The zinc is the "sacrificial anode" and is periodically
+iron is not oxidised, it does not corrode. The zinc is the "sacrificial anode" and is periodically
 Replaced.
 
 </details>

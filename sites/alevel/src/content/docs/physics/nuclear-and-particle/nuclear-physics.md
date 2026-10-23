@@ -42,7 +42,7 @@ and Is repelled by the Coulomb force.
 ### Closest Approach Distance
 
 For a head-on collision, the alpha particle momentarily stops (all kinetic energy converted to
-Electric potential energy):
+electric potential energy):
 
 $$
 \frac{1}{2}m_\alpha v^2 = \frac{Z_{\mathrm{Au}} \cdot 2e^2}{4\pi\varepsilon_0 d}
@@ -92,7 +92,7 @@ Identical chemical properties but different nuclear properties (stability, half-
 ### Mass Defect
 
 The mass of a nucleus is **less** than the sum of the masses of its constituent nucleons. The
-Difference is the **mass defect**:
+difference is the **mass defect**:
 
 $$
 \boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}
@@ -106,7 +106,7 @@ $$
 
 The mass defect corresponds to the binding energy, the energy released when the nucleus was formed
 from its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
-Individual nucleons.
+individual nucleons.
 
 $$
 \boxed{E_b = \Delta m\,c^2}
@@ -123,7 +123,7 @@ $$
 <details>
 <summary>Worked Example: Binding Energy of Helium-4</summary>
 Calculate the binding energy per nucleon of $\prescript{4}{2}\mathrm{He}$.
-Given: $m_p = 1.00728$ u, $m_n = 1.00867$ u, $m_{\mathrm{He}} = 4.00151$ u,
+given: $m_p = 1.00728$ u, $m_n = 1.00867$ u, $m_{\mathrm{He}} = 4.00151$ u,
 $1\ \mathrm{u} = 931.5$ MeV/c$^2$.
 
 **Answer.**
@@ -163,7 +163,7 @@ the Increasing Coulomb repulsion between protons.
 
 **Why not all-neutron nuclei?** The Pauli exclusion principle forces neutrons into progressively
 Higher energy states. Adding protons allows nucleons to occupy lower-energy states, reducing the
-Total energy. For light nuclei, the balance favours $N \approx Z$.
+total energy. For light nuclei, the balance favours $N \approx Z$.
 
 ### Decay Modes and Stability
 
@@ -184,8 +184,8 @@ Stable (high binding energy per nucleon of 7.08 MeV), making it energetically fa
 ### Magic Numbers
 
 Nuclei with $Z$ or $N$ equal to 2, 8, 20, 28, 50, 82, or 126 are unusually stable, analogous to
-Noble gas electron configurations. These "magic numbers" arise from the shell structure of the
-Nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
+noble gas electron configurations. These "magic numbers" arise from the shell structure of the
+nucleus, predicted by the nuclear shell model (Mayer and Jensen, 1949).
 
 ## 5. Radioactive Decay
 
@@ -209,7 +209,7 @@ $$
 
 **Conservation:** $A$ unchanged, $Z$ increases by 1. The antineutrino was postulated (Pauli, 1930;
 Fermi, 1934) to conserve energy and momentum, the continuous electron energy spectrum requires a
-Third particle to carry away the remaining energy.
+third particle to carry away the remaining energy.
 
 ### Beta-Plus Decay
 
@@ -220,7 +220,7 @@ $$
 $$
 
 This requires $m_{\mathrm{parent}} \gt m_{\mathrm{daughter}} + 2m_e$ (the positron mass must be
-Created).
+created).
 
 ### Gamma Decay
 
@@ -421,7 +421,7 @@ Check: $A$: $14 = 14 + 0 + 0$. $Z$: $6 = 7 + (-1) + 0$. Both conserved.
 <details>
 <summary>Problem 4</summary>
 A sample has activity 400 Bq and half-life 5.0 hours. Calculate the activity after 20 hours and the
-Number of nuclei present initially.
+number of nuclei present initially.
 
 **Answer.** After 20 hours: $n = 20/5 = 4$ half-lives. $A = 400/2^4 = 25$ Bq.
 
@@ -465,7 +465,7 @@ within the Range of the strong nuclear force ($\sim 10^{-15}$ m).
 
 A moderator slows neutrons down, which is needed for fission (thermal neutrons have larger fission
 Cross-sections). In fusion, the reactants are positively charged nuclei, not neutrons, and the
-Reaction requires them to be fast (high energy), not slow. A moderator would be counterproductive.
+reaction requires them to be fast (high energy), not slow. A moderator would be counterproductive.
 
 </details>
 

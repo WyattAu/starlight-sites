@@ -19,7 +19,7 @@ categories:
 </script>
 
 Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and
-Interpretation of data. In the DSE compulsory syllabus, we focus on **descriptive
+interpretation of data. In the DSE compulsory syllabus, we focus on **descriptive
 ./4-statistics-and-probability/2_statistics** -- Summarising a dataset through measures of central
 tendency and measures of dispersion. This page Also covers grouped data techniques and graphical
 representations such as box-and-whisker plots. These tools are frequently combined with
@@ -67,7 +67,7 @@ The median is robust to outliers since only on the position of data points, not 
 ### Mode
 
 The **mode** is the value that occurs most frequently in a dataset. A dataset may be unimodal (one
-Mode), bimodal (two modes), multimodal, or have no mode at all.
+mode), bimodal (two modes), multimodal, or have no mode at all.
 
 The mode is the only measure of central tendency applicable to nominal (categorical) data.
 
@@ -92,7 +92,7 @@ The mode is the only measure of central tendency applicable to nominal (categori
 ## Measures of Dispersion
 
 Measures of dispersion (spread) quantify how far individual data values deviate from the centre. Two
-Datasets can share the same mean yet have very different spreads.
+datasets can share the same mean yet have very different spreads.
 
 ### Range
 
@@ -103,7 +103,7 @@ $$
 $$
 
 The range is simple to compute but uses only two data points, making it highly sensitive to
-Outliers.
+outliers.
 
 </details>
 <summary>Examples</summary>
@@ -191,7 +191,7 @@ $$
 $$
 
 Since the standard deviation is in the same units as the data, it is more interpretable than the
-Variance for comparing spread.
+variance for comparing spread.
 
 <details>
 <summary>Examples</summary>
@@ -306,7 +306,7 @@ $$
 $$
 
 Adding a constant $b$ shifts all values equally and does not affect spread. Multiplying by $a$
-Scales the spread by $|a|$.
+scales the spread by $|a|$.
 
 For the mean: $\overline{aX+b} = a\bar{x} + b$.
 
@@ -318,7 +318,7 @@ For the mean: $\overline{aX+b} = a\bar{x} + b$.
 ### Combined Variance
 
 Given two datasets $X$ and $Y$ with sizes $n_1$ and $n_2$ Means $\bar{x}_1$ and $\bar{x}_2$ And
-Variances $\sigma_1^2$ and $\sigma_2^2$ The **combined variance** of the pooled dataset is:
+variances $\sigma_1^2$ and $\sigma_2^2$ The **combined variance** of the pooled dataset is:
 
 $$
 \begin{aligned}
@@ -356,7 +356,7 @@ $$
 ### Coefficient of Variation
 
 The **coefficient of variation (CV)** allows comparison of variability between datasets measured in
-Different units or with vastly different means:
+different units or with vastly different means:
 
 $$
 \begin{aligned}
@@ -427,7 +427,7 @@ While not computed algebraically in the compulsory syllabus, students should rec
 - Mode: none (all values are distinct).
 
 1. **Question:** A dataset has mean $20$ and variance $36$. Find the mean and variance of the
-Transformed dataset $Y = \dfrac{X - 20}{6}$.
+transformed dataset $Y = \dfrac{X - 20}{6}$.
 
 </details>
 <summary>Answer</summary>
@@ -519,7 +519,7 @@ $a^2 + b^2 + c^2$.
 - $\frac{a^2+b^2+c^2}{3} - 100 = 8 \implies a^2+b^2+c^2 = 324$.
 
 1. **Question:** A set of $20$ numbers has mean $15$ and standard deviation $3$. If each number is
-Multiplied by $2$ and then $5$ is added, find the new mean and new standard deviation.
+multiplied by $2$ and then $5$ is added, find the new mean and new standard deviation.
 
 </details>
 <summary>Answer</summary>
@@ -589,7 +589,7 @@ computational formula.
 1. **Question:** The weekly wages (in dollars) of $8$ workers in a small factory are
 $3200, 3500, 3800, 4200, 4500, 4800, 5200, 12000$. The factory owner claims the average wage is
 `USD 5150`. Is this claim misleading? Explain using an appropriate measure of central tendency and
-Dispersion.
+dispersion.
 
 <details>
 <summary>Answer</summary>
@@ -604,7 +604,7 @@ Dispersion.
   Significant skewness, confirming the mean is a poor choice of summary statistic.
 
 1. **Question:** A set of data has variance $25$ and mean $0$. A new set is formed by removing the
-Value $10$ from the original set. If the original set had $n = 6$ values, find the new mean and new
+value $10$ from the original set. If the original set had $n = 6$ values, find the new mean and new
 Variance.
 
 </details>

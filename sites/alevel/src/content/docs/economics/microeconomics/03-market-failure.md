@@ -24,7 +24,7 @@ categories:
 
 We define **market failure** as the condition in which the free market allocation of resources is
 _allocatively inefficient_, that is, the market fails to produce the Pareto-optimal quantity of
-Goods and services.
+goods and services.
 
 Formally, market failure occurs when the price mechanism does not equate marginal social benefit
 with marginal social cost:
@@ -53,7 +53,7 @@ Outcomes.
 ### 2.1 Externalities
 
 We define an **externality** as a cost or benefit arising from production or consumption that
-Affects a third party who is not part of the transaction.
+affects a third party who is not part of the transaction.
 
 **Negative externality**: the social cost exceeds the private cost.
 
@@ -87,7 +87,7 @@ $$
 $$
 
 Since $MSC > MPC$ (there is an external cost), the social optimum quantity $Q^*$ is _less than_ the
-Market quantity $Q_{mkt}$. The free market **over-produces** the good.
+market quantity $Q_{mkt}$. The free market **over-produces** the good.
 
 The deadweight welfare loss (DWL) is:
 
@@ -168,7 +168,7 @@ under-provide them.
 ### 2.3 Information Asymmetry
 
 We define **information asymmetry** as a situation in which one party to a transaction has more or
-Better information than the other.
+better information than the other.
 
 #### Adverse Selection (Akerlof's Lemons Model)
 
@@ -180,14 +180,14 @@ not. There are two types of cars:
 
 If buyers can distinguish quality, both types trade at mutually beneficial prices. But if buyers
 cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a
-Buyer of a random car is:
+buyer of a random car is:
 
 $$
 E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000
 $$
 
 Buyers are willing to pay at most £8,000. But at this price, sellers of peaches (£8,000 value to
-Seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
+seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
 Downward to £6,000. Now _only_ lemons trade. **The market for high-quality cars collapses**, this
 is adverse selection: asymmetric information drives high-quality products out of the market.
 
@@ -218,13 +218,13 @@ qualifications.
 or information gaps.
 
 Both types of immobility prevent the market from clearing, leading to structural unemployment and
-Inefficient allocation of labour.
+inefficient allocation of labour.
 
 ### 2.6 Inequality
 
 Markets reward factors of production according to marginal productivity. Those who own scarce,
 Highly productive factors (skilled labour, capital, land) receive higher incomes. Without
-Redistribution, this can lead to extreme inequality, which many consider a form of market failure
+redistribution, this can lead to extreme inequality, which many consider a form of market failure
 because:
 
 1. Unequal incomes $\Rightarrow$ unequal access to education, healthcare, opportunities
@@ -236,11 +236,11 @@ because:
 ### 3.1 Lorenz Curve
 
 The **Lorenz curve** plots the cumulative share of income received by the cumulative share of the
-Population, ordered from poorest to richest.
+population, ordered from poorest to richest.
 
 If income were perfectly equally distributed, the Lorenz curve would be the 45° line (line of
-Perfect equality). The greater the deviation (bow) of the Lorenz curve from the 45° line, the
-Greater the inequality.
+perfect equality). The greater the deviation (bow) of the Lorenz curve from the 45° line, the
+greater the inequality.
 
 ### 3.2 Gini Coefficient
 
@@ -275,16 +275,16 @@ $$
 
 :::note
 Tradable permits with evaluation of each. **Edexcel** expects diagrammatic analysis showing the
-Effect of Pigouvian taxes and subsidies on equilibrium. **CIE (9708)** covers government
+effect of Pigouvian taxes and subsidies on equilibrium. **CIE (9708)** covers government
 Intervention alongside cost-benefit analysis and requires understanding of when intervention may
-Fail. **OCR (A)** emphasises the link between market failure and government failure, requiring
+fail. **OCR (A)** emphasises the link between market failure and government failure, requiring
 Students to evaluate whether intervention worsens outcomes.
 :::
 
 ### 4.1 Pigouvian Taxation
 
 For a negative externality, the optimal **Pigouvian tax** equals the marginal external cost at the
-Socially optimal quantity:
+socially optimal quantity:
 
 $$
 t^* = MEC(Q^*)
@@ -314,7 +314,7 @@ $100 - Q = 28 + Q \Rightarrow Q = 36$ ✓
 ### 4.2 Subsidies
 
 For positive externalities, a **Pigouvian subsidy** equal to the marginal external benefit can
-Internalise the externality and increase output to the social optimum.
+internalise the externality and increase output to the social optimum.
 
 **Limitation**: subsidies require government revenue (from taxation), which may itself create
 Distortions.
@@ -361,7 +361,7 @@ Government can reduce information asymmetry by:
 ## 5. Government Failure
 
 We define **government failure** as the situation in which government intervention to correct a
-Market failure worsens the outcome.
+market failure worsens the outcome.
 
 ### 5.1 Types of Government Failure
 

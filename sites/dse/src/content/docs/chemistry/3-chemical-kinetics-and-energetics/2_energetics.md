@@ -105,7 +105,7 @@ For strong acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is appro
 $-57.3 \mathrm{ kJ/mol}$ because the net ionic equation is always the same.
 
 For weak acid-strong base reactions, $\Delta H_{\mathrm{neut}}^\circ$ is less exothermic (less
-Negative) because energy is absorbed to dissociate the weak acid.
+negative) because energy is absorbed to dissociate the weak acid.
 
 ### Standard Enthalpy of Atomisation ($\Delta H_{\mathrm{at}}^\circ$)
 
@@ -285,7 +285,7 @@ $-103.8 \mathrm{ kJ/mol}$.
 ### Definition
 
 The **mean bond enthalpy** is the average enthalpy change when 1 mole of a specified type of bond is
-Broken in the gaseous state, averaged over a range of compounds.
+broken in the gaseous state, averaged over a range of compounds.
 
 Bond breaking is always endothermic ($\Delta H \gt 0$). Bond forming is always exothermic
 ($\Delta H \lt 0$).
@@ -344,7 +344,7 @@ Total bonds formed = $1610 + 1856 = 3466 \mathrm{ kJ/mol}$
 $\Delta H = 2648 - 3466 = -818 \mathrm{ kJ/mol}$
 
 Note: the accepted value is $-890.3 \mathrm{ kJ/mol}$ (for $\mathrm{H}_2\mathrm{O}_{(l)}$). The
-Discrepancy arises because bond enthalpies are averages and we used $\mathrm{H}_2\mathrm{O}_{(g)}$
+discrepancy arises because bond enthalpies are averages and we used $\mathrm{H}_2\mathrm{O}_{(g)}$
 rather than $\mathrm{H}_2\mathrm{O}_{(l)}$.
 
 </details>
@@ -395,7 +395,7 @@ $\Delta H = 2 \times (-46.0) = -92.0 \mathrm{ kJ/mol}$. The estimate is close.
 ### Principle
 
 Calorimetry measures the heat exchanged during a reaction by observing the temperature change of a
-Known mass of water (or solution).
+known mass of water (or solution).
 
 $$
 q = mc\Delta T
@@ -457,7 +457,7 @@ of a known mass of water is measured.
 
 **Worked example 7:** 1.50 g of ethanol is burned in a spirit burner. The heat produced raises the
 Temperature of 200 g of water from $20.0^\circ\mathrm{C}$ to $45.5^\circ\mathrm{C}$. Calculate the
-Enthalpy of combustion of ethanol.
+enthalpy of combustion of ethanol.
 
 <details>
 <summary>Answer</summary>
@@ -1039,7 +1039,7 @@ $\Delta H = -965.1 + 726.0 = -239.1 \mathrm{ kJ/mol}$
 ### Dissolution Enthalpies
 
 The enthalpy of solution is the enthalpy change when 1 mole of solute dissolves in a large excess of
-Solvent to form an infinitely dilute solution.
+solvent to form an infinitely dilute solution.
 
 $$
 \mathrm{NaCl}_{(s)} \to \mathrm{Na}^+_{(aq)} + \mathrm{Cl}^-_{(aq)} \quad \Delta H_{\mathrm{sol}}^\circ = +3.9 \mathrm{ kJ/mol}

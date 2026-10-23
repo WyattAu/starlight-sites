@@ -24,7 +24,7 @@ categories:
 
 Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination.
 This topic covers counting principles, probability rules, distributions, hypothesis testing, and
-Statistical measures.
+statistical measures.
 
 ## Counting Principles
 
@@ -152,7 +152,7 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 Two events are **independent** if and only if $P(A \cap B) = P(A)P(B)$. This is not the same as
-Mutually exclusive (which means $P(A \cap B) = 0$).
+mutually exclusive (which means $P(A \cap B) = 0$).
 
 **Conditional probability:**
 
@@ -203,7 +203,7 @@ Only about 32.4% of positive tests are true positives. This is the "base rate fa
 **Example (HL) -- Extended Bayes':** A factory has three machines producing bolts. Machine A
 Produces 50% of bolts with 2% defect rate, Machine B produces 30% with 3% defect rate, Machine C
 Produces 20% with 1% defect rate. A randomly selected bolt is defective. What is the probability it
-Came from Machine B?
+came from Machine B?
 
 $$
 P(B|\mathrm{def) = \frac{P(\mathrm{def|B)P(B)}{P(\mathrm{def|A)P(A) + P(\mathrm{def|B)P(B) + P(\mathrm{def|C)P(C)}
@@ -399,7 +399,7 @@ $P(X \le k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 
 **Why continuity correction is needed.** The binomial is discrete (defined on integers) while the
 Normal is continuous. Without the correction, we would compute $P(X \le 5) = P(X \lt 6)$ But the
-Normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
+normal approximation for $P(X \lt 5)$ would miss the entire bar at $X = 5$.
 
 ### Bernoulli Trials (HL)
 
@@ -533,7 +533,7 @@ T = \frac{23.4 - 25}{2.1/\sqrt{8}} = \frac{-1.6}{0.7423} \approx -2.156
 $$
 
 Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (two-tailed, 7 df) is
-Approximately $\pm 2.365$.
+approximately $\pm 2.365$.
 
 Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
 the population mean differs from 25.
@@ -588,7 +588,7 @@ Correlation (but there may be a non-linear relationship).
 ### Coefficient of Determination (HL)
 
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
-Linear relationship with $x$.
+linear relationship with $x$.
 
 If $r = 0.8$ Then $r^2 = 0.64$ Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.

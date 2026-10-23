@@ -45,11 +45,11 @@ categories:
 **Worked Example: Distinguishing prokaryotic and eukaryotic features.**
 
 A student examines a cell under a microscope and observes: no visible nucleus, a cell wall, and
-Ribosomes. The cell is approximately 2 $\mu$ M in diameter.
+ribosomes. The cell is approximately 2 $\mu$ M in diameter.
 
 Since there is no membrane-bound nucleus, this is a prokaryotic cell. Both prokaryotes and
-Eukaryotes can have cell walls (plant cell walls are made of cellulose; bacterial cell walls are
-Made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$ M)
+eukaryotes can have cell walls (plant cell walls are made of cellulose; bacterial cell walls are
+made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$ M)
 Is consistent with a prokaryotic cell (prokaryotes are 0.1--5 $\mu$ M, while eukaryotes are 10--100
 $\mu$ M).
 
@@ -271,7 +271,7 @@ which produces many cAMP molecules, each of which activates many PKA enzymes.
 ### Receptor Tyrosine Kinases (RTKs)
 
 RTKs are another major class of cell-surface receptors that play important roles in growth and
-Division signaling.
+division signaling.
 
 1. A signaling molecule (e.g., a growth factor) binds to the extracellular domain of the RTK.
 2. Two RTKs dimerize (come together in pairs).
@@ -287,7 +287,7 @@ Cancers. The drug Herceptin (trastuzumab) targets HER2.
 ### Intracellular Receptors
 
 Steroid hormones (e.g., cortisol, estrogen, testosterone) and thyroid hormones are small and
-Hydrophobic enough to diffuse directly through the plasma membrane. They bind to intracellular
+hydrophobic enough to diffuse directly through the plasma membrane. They bind to intracellular
 Receptors in the cytoplasm or nucleus.
 
 1. The hormone diffuses through the plasma membrane.
@@ -414,7 +414,7 @@ temperature, and the surface area of the membrane. No energy or transport protei
 $\mathrm{K^+$) cannot cross the hydrophobic interior of the bilayer and require transport proteins.
 Channel proteins form hydrophilic pores; carrier proteins undergo conformational changes to shuttle
 Molecules across. Like simple diffusion, facilitated diffusion is passive (no energy required) and
-Moves substances down their concentration gradient.
+moves substances down their concentration gradient.
 
 **Osmosis:** The diffusion of water across a selectively permeable membrane. Water moves from a
 Region of higher water potential (lower solute concentration) to a region of lower water potential
@@ -425,13 +425,13 @@ Osmosis in cells that need to regulate water movement quickly (e.g., kidney cell
 ATP hydrolysis. The $\mathrm{Na^+/\mathrm{K^+$ pump is the classic example: it uses one ATP to Pump
 3 $\mathrm{Na^+$ out and 2 $\mathrm{K^+$ in against their gradients. This pump is essential For
 maintaining the resting membrane potential, which is critical for nerve impulse transmission and
-Muscle contraction.
+muscle contraction.
 
 **Cotransport (secondary active transport):** Uses the energy stored in an ion gradient (established
 By primary active transport) to transport another substance against its gradient. For example, the
 $\mathrm{Na^+$-glucose cotransporter in the small intestine uses the $\mathrm{Na^+$ gradient
 (maintained by the $\mathrm{Na^+/\mathrm{K^+$ pump) to transport glucose into the cell against its
-Concentration gradient.
+concentration gradient.
 
 **Bulk transport:** Large molecules or particles are transported via vesicles. Endocytosis brings
 Materials into the cell (phagocytosis for solid particles, pinocytosis for liquids,
@@ -452,7 +452,7 @@ Gradient). No energy is required.
 If the cell needs to accumulate amino acids to a concentration higher than 5 mM (e.g., for protein
 Synthesis), it must use active transport (or a cotransporter that uses the $\mathrm{Na^+$ gradient)
 To move amino acids against their concentration gradient. This requires ATP (directly or
-Indirectly).
+indirectly).
 
 ## Review: Prokaryotic Cell Structures in Detail
 
@@ -478,8 +478,8 @@ The eukaryotic nucleus, it is not surrounded by a membrane.
 
 A bacterium carries a plasmid with a gene for beta-lactamase, an enzyme that breaks down penicillin.
 When penicillin is present, the bacterium survives because it produces beta-lactamase. Through
-Conjugation, the plasmid can be transferred to other bacteria, spreading resistance even without
-Exposure to the antibiotic. This is why overuse of antibiotics accelerates the spread of resistance.
+conjugation, the plasmid can be transferred to other bacteria, spreading resistance even without
+exposure to the antibiotic. This is why overuse of antibiotics accelerates the spread of resistance.
 The plasmid is replicated independently of the main chromosome, so even a single copy confers
 Resistance.
 
@@ -490,21 +490,21 @@ Membrane pulls away from the cell wall, a process called **plasmolysis**. The ce
 
 When a plant cell is placed in a hypotonic solution, water enters by osmosis. The cytoplasm swells
 and presses against the rigid cell wall, creating **turgor pressure**. The cell is described as
-Turgid. Turgor pressure provides structural support to non-woody plant tissues. When plants lose
+turgid. Turgor pressure provides structural support to non-woody plant tissues. When plants lose
 Turgor (e.g., during drought), they wilt.
 
 **Worked Example: Why plant cells do not burst in hypotonic solutions.**
 
 When an animal cell is placed in a hypotonic solution, it swells and may burst (lyse) because there
 is no cell wall to constrain expansion. A plant cell, however, has a rigid cellulose cell wall that
-Exerts an inward pressure (wall pressure) as the cell expands. Water continues to enter until the
-Turgor pressure equals the osmotic pressure, at which point there is no net water movement. The cell
+exerts an inward pressure (wall pressure) as the cell expands. Water continues to enter until the
+turgor pressure equals the osmotic pressure, at which point there is no net water movement. The cell
 is turgid but intact. This is why plants rely on turgor pressure for support.
 
 **Worked Example: Calculating water potential and predicting osmosis.**
 
 A plant cell has a solute potential of $-600$ kPa and a pressure potential of $300$ kPa. The cell is
-Placed in a solution with a water potential of $-200$ kPa.
+placed in a solution with a water potential of $-200$ kPa.
 
 Cell water potential: $\psi = \psi_s + \psi_p = -600 + 300 = -300$ kPa.
 
@@ -526,14 +526,14 @@ Package, and transport proteins and lipids. It includes:
 6. **Lysosomes:** Digestion and recycling of cellular components.
 
 The endomembrane system does not include mitochondria, chloroplasts, or peroxisomes, which are
-Considered semi-autonomous organelles (they have their own DNA and replicate independently).
+considered semi-autonomous organelles (they have their own DNA and replicate independently).
 
 **Worked Example: Tracing a lysosomal enzyme.**
 
 A lysosomal enzyme (a hydrolytic enzyme) is synthesised in the same way as a secretory protein, but
 instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
 This marker is recognised by receptors on the Golgi membrane, and the enzyme is packaged into
-Vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
+vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
 the cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
 
 ## Review: Junctions Between Cells
@@ -552,7 +552,7 @@ In multicellular organisms, cells are connected by specialised junctions:
 
 Tight junctions prevent substances from passing between cells (forcing them through the cells
 Themselves, which can regulate transport). Desmosomes provide mechanical strength to tissues under
-Stress. Gap junctions allow ions and small molecules to pass directly between cells, enabling rapid
+stress. Gap junctions allow ions and small molecules to pass directly between cells, enabling rapid
 Coordination (e.g., synchronous contraction of heart muscle cells).
 
 **Worked Example: Why gap junctions are essential in cardiac muscle.**
@@ -586,7 +586,7 @@ Molecules between cells, facilitating communication and coordination.
 Mature plant cells. It is surrounded by a membrane called the tonoplast. Functions include storage
 of water, ions, nutrients, and waste products; maintaining turgor pressure; contributing to cell
 Growth; storing pigments (anthocyanins in flowers); and storing defensive compounds (toxins that
-Deter herbivores).
+deter herbivores).
 
 **Chloroplasts:** The site of photosynthesis. Chloroplasts have a double membrane, with an internal
 System of thylakoid membranes stacked into grana, surrounded by stroma. Like mitochondria,
@@ -658,7 +658,7 @@ Secretion. Water follows by osmosis, producing severe watery diarrhoea.
 
 LDL (low-density lipoprotein) particles carry cholesterol in the blood. LDL receptors on the cell
 Surface bind LDL particles. The receptor-LDL complex clusters in coated pits and is internalised by
-Receptor-mediated endocytosis. Inside the cell, the vesicle fuses with an endosome, where the LDL
+receptor-mediated endocytosis. Inside the cell, the vesicle fuses with an endosome, where the LDL
 Dissociates from the receptor. The LDL is delivered to lysosomes, where the cholesterol is released.
 The receptors are recycled back to the cell surface. Mutations in the LDL receptor gene cause
 Familial hypercholesterolemia, where LDL cannot be taken up efficiently, leading to very high blood
@@ -668,7 +668,7 @@ Cholesterol and early heart disease.
 
 **Actin and myosin:** In muscle cells, actin and myosin filaments interact to produce contraction.
 In non-muscle cells, they are involved in cytokinesis (contractile ring), cell crawling, and
-Phagocytosis.
+phagocytosis.
 
 **Microtubule-based transport:** Kinesin moves towards the plus end (cell periphery); dynein moves
 Towards the minus end (centrosome). Both use ATP to power movement, taking steps of approximately 8
@@ -685,16 +685,16 @@ Side effects.
 
 Colchicine is another drug that affects microtubules, but in the opposite way to taxol. Colchicine
 Binds to tubulin and prevents microtubule polymerisation. Without functional microtubules, the
-Mitotic spindle cannot form, and cells are arrested in prometaphase. Colchicine has been used to
-Treat gout (by inhibiting neutrophil motility) and in cancer research (to arrest cells at metaphase
+mitotic spindle cannot form, and cells are arrested in prometaphase. Colchicine has been used to
+treat gout (by inhibiting neutrophil motility) and in cancer research (to arrest cells at metaphase
 for chromosome analysis -- karyotyping).
 
 ## Review: Viral Structure and Replication
 
 Viruses are not considered living organisms because they cannot reproduce independently, do not
-Carry out metabolic processes, and have no cellular structure. However, they have genetic material
+carry out metabolic processes, and have no cellular structure. However, they have genetic material
 (DNA or RNA) enclosed in a protein coat (capsid), and some have a lipid envelope derived from the
-Host cell membrane.
+host cell membrane.
 
 **Viral replication cycle (lytic):**
 
@@ -775,7 +775,7 @@ Multiple drugs to prevent resistance.
 
 A researcher adds brefeldin A to pancreatic cells. This drug blocks the transport of vesicles from
 the ER to the Golgi apparatus. Describe the effect on insulin production and explain which
-Organelles would accumulate the insulin.
+organelles would accumulate the insulin.
 
 </details>
 
@@ -786,8 +786,8 @@ Insulin would be synthesised on ribosomes bound to the rough ER and enter the ER
 would begin to fold. However, transport vesicles could not carry insulin from the ER to the Golgi
 Apparatus. The insulin would accumulate inside the rough ER, causing it to dilate. The Golgi
 Apparatus would not receive the protein, so no secretory vesicles would form and no insulin would be
-Exported from the cell. The cell would still produce mRNA and translate the protein, but the
-Secretory pathway would be blocked at the ER-to-Golgi transport step.
+exported from the cell. The cell would still produce mRNA and translate the protein, but the
+secretory pathway would be blocked at the ER-to-Golgi transport step.
 
 </details>
 
@@ -805,8 +805,8 @@ and (b) the $\mathrm{Na^+/\mathrm{K^+$ pump, and explain your reasoning.
 <summary>Answer</summary>
 
 (a) Through a $\mathrm{K^+$ leak channel (passive transport): $\mathrm{K^+$ would move out of the
-Cell. The concentration gradient favours outward movement (140 mM inside vs 5 mM outside). The
-Electrical gradient also favours outward movement because the inside of the cell is negative,
+cell. The concentration gradient favours outward movement (140 mM inside vs 5 mM outside). The
+electrical gradient also favours outward movement because the inside of the cell is negative,
 Repelling the positive $\mathrm{K^+$ ions. Both gradients drive $\mathrm{K^+$ out of the cell.
 
 (b) Through the $\mathrm{Na^+/\mathrm{K^+$ pump (active transport): The pump moves $\mathrm{K^+$
@@ -820,8 +820,8 @@ the resting membrane potential and the concentration gradients.
 <summary>Question 3: Endosymbiotic theory and antibiotic evidence</summary>
 
 Explain how the observation that the antibiotic streptomycin inhibits protein synthesis in both
-Bacteria and mitochondria, but not in the cytoplasm of eukaryotic cells, provides evidence for the
-Endosymbiotic theory.
+bacteria and mitochondria, but not in the cytoplasm of eukaryotic cells, provides evidence for the
+endosymbiotic theory.
 
 </details>
 
@@ -831,8 +831,8 @@ Endosymbiotic theory.
 Streptomycin targets the 70S ribosomes found in prokaryotes. Mitochondria also have 70S ribosomes,
 While eukaryotic cytoplasmic ribosomes are 80S. The fact that streptomycin inhibits mitochondrial
 Protein synthesis but not cytoplasmic protein synthesis in eukaryotic cells demonstrates that
-Mitochondrial ribosomes are prokaryotic in nature. This supports the endosymbiotic theory, which
-Proposes that mitochondria evolved from free-living prokaryotes that were engulfed by an ancestral
+mitochondrial ribosomes are prokaryotic in nature. This supports the endosymbiotic theory, which
+proposes that mitochondria evolved from free-living prokaryotes that were engulfed by an ancestral
 Eukaryotic cell. The prokaryotic ribosomes were retained, along with circular DNA, binary fission,
 And a double membrane.
 
@@ -851,7 +851,7 @@ Effects on the cAMP pathway in intestinal cells and why this leads to severe dia
 
 Normally, a G-protein is activated when it binds GTP and is inactivated when it hydrolyses GTP to
 GDP. Cholera toxin prevents GTP hydrolysis, locking the G-protein in its active state. The
-Constitutively active G-protein continuously activates adenylyl cyclase, which produces excessive
+constitutively active G-protein continuously activates adenylyl cyclase, which produces excessive
 CAMP. Elevated cAMP activates protein kinase A (PKA), which phosphorylates and opens CFTR chloride
 Channels. Massive amounts of $\mathrm{Cl^-$ are secreted into the intestinal lumen. $\mathrm{Na^+$
 and water follow by osmosis, producing large volumes of watery diarrhoea. This demonstrates how
@@ -877,7 +877,7 @@ Cell water potential: $\psi = \psi_s + \psi_p = -800 + 400 = -400 \mathrm{ kPa$.
 The cell water potential ($-400 \mathrm{ kPa$) is higher (less negative) than the solution water
 Potential ($-500 \mathrm{ kPa$). Water moves from higher water potential to lower water potential,
 So water will move from the cell into the surrounding solution. The cell will lose water, the
-Pressure potential will decrease, and the cell may become plasmolysed if enough water is lost.
+pressure potential will decrease, and the cell may become plasmolysed if enough water is lost.
 
 </details>
 

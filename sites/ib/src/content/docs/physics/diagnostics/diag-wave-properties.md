@@ -147,7 +147,7 @@ a glass block of refractive index $n = 1.50$.
 (a) Calculate the speed, wavelength, and frequency of the light inside the glass.
 
 (b) A student states that "the frequency decreases inside the glass because the wave slows down."
-Explain why this statement is wrong.
+explain why this statement is wrong.
 
 (c) The light exits the glass back into vacuum. A second student claims "the wavelength is
 permanently changed by passing through the glass." Explain why this is also wrong.

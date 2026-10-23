@@ -37,7 +37,7 @@ categories:
 ## 1. Linear Simultaneous Equations
 
 We consider systems of two equations in two unknowns. The standard methods are substitution and
-Elimination.
+elimination.
 
 **Theorem.** The system
 
@@ -177,7 +177,7 @@ See [Quadratics](/maths/pure-mathematics/02-quadratics/), Section 6.
 ### 3.3 Inequalities Involving Fractions
 
 When an inequality involves fractions, multiply through by the square of the denominator (which is
-Always non-negative, so the inequality direction is preserved) or use a sign chart.
+always non-negative, so the inequality direction is preserved) or use a sign chart.
 
 <details>
 <summary>Example</summary>
@@ -380,10 +380,10 @@ For a system of three equations in three unknowns, the elimination method extend
 
 This process is known as **Gaussian elimination**. It can be systematised using augmented matrices
 and three elementary row operations: swapping rows, multiplying a row by a non-zero constant, and
-Adding a multiple of one row to another.
+adding a multiple of one row to another.
 
 A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
-Determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
+determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
 
 ### 7.2 Cramer's Rule for 3x3 Systems
 
@@ -410,7 +410,7 @@ x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}
 $$
 
 Where $D_x$ is formed by replacing the first column of $D$ with $(d_1, d_2, d_3)^T$$D_y$ by
-Replacing the second column, and $D_z$ by replacing the third.
+replacing the second column, and $D_z$ by replacing the third.
 
 ### 7.3 3x3 Determinant Expansion
 

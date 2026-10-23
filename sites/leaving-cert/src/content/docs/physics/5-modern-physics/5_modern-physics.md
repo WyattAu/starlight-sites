@@ -29,7 +29,7 @@ Nature of energy, matter, and determinism.
 
 The two pillars of modern physics are quantum mechanics and relativity. This chapter focuses
 Primarily on the quantum side: the experimental evidence that classical wave theory could not
-Explain, and the theoretical framework that replaced it.
+explain, and the theoretical framework that replaced it.
 
 ## The Photoelectric Effect (HL)
 
@@ -37,11 +37,11 @@ Explain, and the theoretical framework that replaced it.
 
 When light of sufficiently high frequency is incident on a metal surface, electrons are emitted.
 This is the photoelectric effect, first observed by Heinrich Hertz in 1887 and later studied in
-Detail by Philipp Lenard.
+detail by Philipp Lenard.
 
 The emitted electrons are called **photoelectrons**. The setup consists of an evacuated Tube
 containing a metal plate (the cathode) and a collector plate (the anode). Light shines on the
-Cathode, and any emitted electrons travel to the anode, producing a measurable current.
+cathode, and any emitted electrons travel to the anode, producing a measurable current.
 
 ### Key Observations
 
@@ -80,7 +80,7 @@ $$
 Where $h = 6.63 \times 10^{-34}\mathrm{ J s$ (Planck's constant) and $f$ is the frequency.
 
 When a photon strikes the metal surface, it transfers all its energy to a single electron. The
-Electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
+electron uses some of this energy to escape the metal (overcoming the binding energy) and retains
 the rest as kinetic energy.
 
 Einstein's photoelectric equation:
@@ -123,8 +123,8 @@ Property (momentum) in a single equation.
 ### Stopping Voltage
 
 The stopping voltage $V_s$ is the voltage needed to stop the most energetic photoelectrons. By
-Applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
-Zero:
+applying a reverse potential between the anode and cathode, even the fastest electrons are slowed to
+zero:
 
 $$
 EV_s = E_{k(\max)} = hf - \phi
@@ -191,7 +191,7 @@ I = N_{\mathrm{photon} \times hf
 $$
 
 Where $N_{\mathrm{photon}$ is the number of photons per unit area per unit time. Doubling the
-Intensity doubles the number of photons, which doubles the photocurrent, but each photon still
+intensity doubles the number of photons, which doubles the photocurrent, but each photon still
 Carries the same energy $hf$.
 
 ## Atomic Models
@@ -200,7 +200,7 @@ Carries the same energy $hf$.
 
 J.J. Thomson, who discovered the electron in 1897, proposed that atoms consist of a positively
 Charged sphere with negatively charged electrons embedded in it, like plums in a pudding. The
-Positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
+positive charge was spread uniformly, and the electrons were arranged to make the atom electrically
 Neutral overall.
 
 This model was consistent with the known fact that atoms are electrically neutral and contain
@@ -212,7 +212,7 @@ Arrangements.
 In 1911, Ernest Rutherford, Hans Geiger, and Ernest Marsden fired alpha particles (helium nuclei,
 $+2e$ charge) at a thin gold foil. The experimental setup used a radioactive source of alpha
 Particles, a thin gold foil target, and a zinc sulphide screen that produced a flash of light when
-Struck by an alpha particle.
+struck by an alpha particle.
 
 **Observations:**
 
@@ -462,12 +462,12 @@ $$
 
 This is about 20 orders of magnitude smaller than an atomic nucleus. No experiment can detect wave
 Effects at this scale. But for electrons, the wavelength is comparable to atomic spacing, which is
-Precisely why electron diffraction is observable.
+precisely why electron diffraction is observable.
 
 ### Davisson-Germer Experiment (1927)
 
 Clinton Davisson and Lester Germer directed a beam of electrons at a nickel crystal and observed a
-Diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
+diffraction pattern. The angles at which the electrons were diffracted matched the predictions of de
 Broglie's equation, providing direct experimental confirmation of wave-particle duality for matter.
 
 This was analogous to X-ray diffraction from crystals: if electrons behave as waves with wavelength
@@ -495,7 +495,7 @@ Mvr = \frac{nh}{2\pi}
 $$
 
 This is exactly Bohr's quantisation condition. The Bohr orbits are the standing wave modes of the
-Electron. This is a deep insight: quantisation arises from wave behaviour.
+electron. This is a deep insight: quantisation arises from wave behaviour.
 
 **Example (HL):** Find the de Broglie wavelength of an electron accelerated through a potential
 Difference of 100 V.
@@ -581,7 +581,7 @@ Coulomb repulsion grows relative to the strong force, making them less stable.
 ### Nuclear Binding Energy (HL)
 
 The **mass defect** $\Delta m$ is the difference between the mass of the nucleus and the sum of the
-Masses of its individual nucleons:
+masses of its individual nucleons:
 
 $$
 \Delta m = Zm_p + (A - Z)m_n - m_{\mathrm{nucleus}
@@ -606,9 +606,9 @@ E_b = \Delta m \cdot c^2
 $$
 
 The binding energy per nucleon, $E_b/A$ Indicates nuclear stability. A plot of $E_b/A$ versus $A$
-Shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
+shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
 Nuclei with lower $A$ can gain stability by fusing (moving right on the curve), while nuclei with
-Higher $A$ can gain stability by fissioning (moving left).
+higher $A$ can gain stability by fissioning (moving left).
 
 **Example (HL):** The atomic mass of helium-4 is $4.0026\mathrm{ u$. Find the binding energy per
 Nucleon. ($m(\mathrm{^1H}) = 1.0078\mathrm{ u$$m_n = 1.0087\mathrm{ u$
@@ -659,7 +659,7 @@ Lower energy state. The nucleus remains the same isotope; only its energy change
 In beta-minus decay, the emitted electron has a continuous spectrum of kinetic energies, from zero
 up to a maximum value. If only the electron and daughter nucleus were produced, energy and momentum
 Conservation would require the electron to have a fixed energy. The continuous spectrum implies a
-Third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
+third particle carrying away the remaining energy and momentum: the **antineutrino**. Pauli proposed
 the neutrino in 1930, and it was experimentally confirmed in 1956 by Cowan and Reines.
 
 ### Nuclear Equations and Conservation Laws
@@ -672,14 +672,14 @@ All nuclear reactions conserve:
 4. **Momentum**
 
 When writing nuclear equations, always check that the total $Z$ and total $A$ are the same on both
-Sides.
+sides.
 
 ### Half-Life (OL/HL)
 
 The half-life $t_{1/2}$ is the time for half of the radioactive nuclei in a sample to decay. It is a
-Statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
+statistical property: it does not mean that individual nuclei "wait" for $t_{1/2}$ before decaying.
 Each nucleus has a fixed probability of decaying per unit time, and the half-life emerges from the
-Statistics of large numbers.
+statistics of large numbers.
 
 $$
 N = N_0 \left(\frac{1}{2}\right)^{t/t_{1/2}}
@@ -703,7 +703,7 @@ Activity is measured in becquerels (Bq), where $1\mathrm{ Bq = 1\mathrm{ decay/s
 ### Derivation of the Exponential Decay Law
 
 Starting from the definition of the decay constant: each nucleus has probability $\lambda \, dt$ of
-Decaying in a short time interval $dt$. For $N$ nuclei:
+decaying in a short time interval $dt$. For $N$ nuclei:
 
 $$
 DN = -\lambda N \, dt
@@ -760,8 +760,8 @@ $$
 
 **Fission:** A heavy nucleus splits into lighter nuclei, releasing energy because the products have
 Higher binding energy per nucleon. Fission is triggered when a heavy nucleus absorbs a neutron. The
-Products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
-Chain reaction), and energy.
+products include two (or sometimes three) lighter nuclei, additional neutrons (which can sustain a
+chain reaction), and energy.
 
 $$
 ^{235}_{92}\mathrm{U + ^1_0\mathrm{n \to ^{141}_{56}\mathrm{Ba + ^{92}_{36}\mathrm{Kr + 3^1_0\mathrm{n + \mathrm{energy
@@ -783,7 +783,7 @@ $$
 $$
 
 Fusion is the process that powers stars. In the Sun, the proton-proton chain converts hydrogen to
-Helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
+helium, releasing approximately $26.7\mathrm{ MeV$ per helium-4 nucleus formed. Achieving controlled
 Fusion on Earth remains an active area of research (e.g., tokamak reactors and laser fusion).
 
 ### Energy Released in Fission

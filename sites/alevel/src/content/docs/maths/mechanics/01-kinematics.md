@@ -189,20 +189,20 @@ Tells you the direction of motion, and the **steepness** tells you the speed.
 - **Concave-down curve** ($\frac{d^2s}{dt^2} \lt 0$): acceleration is negative.
 
 A common mistake is assuming a particle is at rest only when $s = 0$. In fact, the particle is at
-Rest whenever the **gradient** is zero, regardless of the displacement value.
+rest whenever the **gradient** is zero, regardless of the displacement value.
 
 ### 3.5 Interpreting velocity-time graphs in detail
 
 The area between the $v$-$t$ curve and the $t$-axis gives the **displacement** (with sign). To find
 the total **distance** travelled, you must take the absolute value of velocity in each region before
-Integrating, or equivalently add the magnitudes of the areas above and below the axis.
+integrating, or equivalently add the magnitudes of the areas above and below the axis.
 
 - **Area above the $t$-axis**: displacement in the positive direction.
 - **Area below the $t$-axis**: displacement in the negative direction.
 - **Total distance** = (area above) + |area below|.
 
 The **gradient** of the tangent to a $v$-$t$ curve gives the instantaneous acceleration. For a
-Straight-line $v$-$t$ graph, the acceleration is constant and equals the gradient of that line.
+straight-line $v$-$t$ graph, the acceleration is constant and equals the gradient of that line.
 
 :::caution
 $10\,\mathrm{m}$ backwards, its displacement is $0$ but its total distance is $20\,\mathrm{m}$. On a
@@ -322,7 +322,7 @@ $v\cos\theta$.
 
 On landing ($t = 2v\sin\theta / g$), the vertical component is $-v\sin\theta$ So the speed equals The
 initial speed $v$. The landing angle with the horizontal equals the launch angle $\theta$ (by
-Symmetry).
+symmetry).
 
 ### 4.8 Time to reach a given height
 

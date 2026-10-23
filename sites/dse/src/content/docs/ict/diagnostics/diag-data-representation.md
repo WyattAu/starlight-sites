@@ -54,7 +54,7 @@ efficient use of all bit patterns.
 
 **Question:** (a) Explain the difference between ASCII and Unicode. (b) The string "Hi!" is stored
 in UTF-8 encoding. Calculate the number of bytes required. (c) A file contains 500 characters of
-English text. Calculate the file size in bytes if stored in: ASCII, UTF-8, and UTF-16. (d) Explain
+english text. Calculate the file size in bytes if stored in: ASCII, UTF-8, and UTF-16. (d) Explain
 why UTF-8 is the dominant encoding on the web.
 
 **Solution:**
@@ -81,7 +81,7 @@ Multilingual Plane).
 
 (d) UTF-8 is dominant because: (1) It is backward compatible with ASCII -- any valid ASCII file is
 also valid UTF-8. (2) It is variable-length: common ASCII characters use 1 byte (efficient for
-English), while less common characters use 2--4 bytes. (3) It handles the full Unicode character
+english), while less common characters use 2--4 bytes. (3) It handles the full Unicode character
 set. (4) It is self-synchronising: any byte can identify whether it is a single-byte character, the
 start of a multi-byte character, or a continuation byte, enabling robust error recovery.
 

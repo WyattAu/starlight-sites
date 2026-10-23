@@ -27,7 +27,7 @@ description: "A-Level English Shakespeare notes covering key definitions, core c
 Shakespeare is a compulsory component of most A-Level English Literature specifications. His plays
 are studied not merely as literary texts but as works that have shaped the English language,
 theatrical tradition, and cultural imagination. At A-Level, you are expected to engage with
-Shakespeare's language in detail, situate his plays within their historical and theatrical contexts,
+shakespeare's language in detail, situate his plays within their historical and theatrical contexts,
 and explore a range of critical interpretations.
 
 This section covers Shakespeare's language, major themes, historical and theatrical context, and
@@ -291,7 +291,7 @@ replace analysis of it.
 **Analysis:**
 
 This soliloquy, delivered after Lady Macbeth's death, is one of the most famous passages in
-Shakespeare. It marks Macbeth's complete descent into nihilism. The repetition of "tomorrow" at the
+shakespeare. It marks Macbeth's complete descent into nihilism. The repetition of "tomorrow" at the
 opening creates a mechanical, numbing rhythm, three identical beats that suggest the endless,
 meaningless repetition of time. The iambic pentameter is regular and unrelenting, mirroring the
 inevitability of passing time that Macbeth describes.

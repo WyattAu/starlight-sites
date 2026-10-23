@@ -75,7 +75,7 @@ Size grows.
 ### Bubble Sort
 
 Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the
-Wrong order.
+wrong order.
 
 **Pseudocode:**
 
@@ -142,7 +142,7 @@ END PROCEDURE
 ### Merge Sort
 
 A divide-and-conquer algorithm that divides the array in half, recursively sorts each half, then
-Merges the sorted halves.
+merges the sorted halves.
 
 **Pseudocode:**
 
@@ -206,7 +206,7 @@ def merge(left, right):
 ### Quick Sort
 
 A divide-and-conquer algorithm that selects a pivot, partitions the array around the pivot, and
-Recursively sorts the partitions.
+recursively sorts the partitions.
 
 **Complexity:** Time: $O(n \log n)$ average, $O(n^2)$ worst (poor pivot choice). Space: $O(\log n)$
 Average.

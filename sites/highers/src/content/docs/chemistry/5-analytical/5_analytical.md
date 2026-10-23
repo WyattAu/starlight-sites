@@ -82,7 +82,7 @@ $2500-3300 \mathrm{ cm^{-1}$. Identify the compound.
 
 The strong absorption at $1715 \mathrm{ cm^{-1}$ indicates a $\mathrm{C=\mathrm{O$ group. The very
 Broad absorption at $2500-3300 \mathrm{ cm^{-1}$ is characteristic of the $\mathrm{O-\mathrm{H$ in a
-Carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
+carboxylic acid. The compound is propanoic acid ($\mathrm{CH_3\mathrm{CH_2\mathrm{COOH$).
 
 **Worked Example 2:** An IR spectrum shows strong absorptions at $3300 \mathrm{ cm^{-1}$ (broad) and
 $1050 \mathrm{ cm^{-1}$. Identify the functional groups present.
@@ -154,7 +154,7 @@ Prominent peak at $m/z = 43$. Suggest a structure.
 $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r = 58$).
 
 The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$ Formed by alpha cleavage of
-Propanone.
+propanone.
 
 $$
 \mathrm{CH_3\mathrm{COCH_3 \to \mathrm{CH_3\mathrm{CO^+ + \mathrm{CH_3^\bullet
@@ -225,13 +225,13 @@ $\mathrm{CH_3$ groups (6H, doublet split by 1H) and one $\mathrm{CH$ proton (1H,
 6H).
 
 Wait, $(\mathrm{CH_3)_3\mathrm{COH$ has a quaternary carbon with OH, so the H on oxygen would be a
-Singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
+singlet. The compound is better described as $(\mathrm{CH_3)_2\mathrm{CHCH_2\mathrm{OH$... No. Let
 us Re-analyse.
 
 A septet from 1 proton split by 6 equivalent protons, and a doublet from 6 protons split by 1
-Proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
-Chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
-Propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
+proton. This pattern is characteristic of an isopropyl group: $(\mathrm{CH_3)_2\mathrm{CH-$. The
+chemical shift of the CH proton at $\delta = 3.9$ suggests it is attached to oxygen. The compound is
+propan-2-ol ($\mathrm{CH_3\mathrm{CH(OH)CH_3$).
 
 #### $^{13}\mathrm{C$ NMR
 
@@ -264,7 +264,7 @@ A = \varepsilon c l
 $$
 
 Where $A$ is absorbance, $\varepsilon$ is the molar absorptivity (L mol$^{-1}$ cm$^{-1}$), $c$ is
-Concentration (mol/L), and $l$ is the path length (cm).
+concentration (mol/L), and $l$ is the path length (cm).
 
 **Derivation:**
 
@@ -360,7 +360,7 @@ $$R_f(\mathrm{A) = \frac{2.5}{8.0} = 0.31$$ $$R_f(\mathrm{B) = \frac{4.0}{8.0} =
 
 Substance A has a lower $R_f$ value, meaning it travels less far. On silica gel (a polar stationary
 Phase), more polar substances are more strongly attracted to the stationary phase and travel less
-Far. Therefore, substance A is more polar than substance B.
+far. Therefore, substance A is more polar than substance B.
 
 ---
 
@@ -545,7 +545,7 @@ Coupling constants provide information about the spatial relationship between co
 ### DEPT $^{13}\mathrm{C$ NMR
 
 DEPT (Distortionless Enhancement by Polarization Transfer) is a technique that distinguishes between
-Different types of carbon atoms:
+different types of carbon atoms:
 
 <div class="table-wrap">
 
@@ -583,7 +583,7 @@ Carbons. The pattern is consistent with butanoic acid
 ### Combustion Analysis
 
 When an organic compound containing C, H, and possibly other elements is burned completely, the
-Products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
+products are $\mathrm{CO_2$, $\mathrm{H_2\mathrm{O$ And other oxides.
 
 **Worked Example 14:** A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Find its empirical
 Formula.
@@ -644,7 +644,7 @@ Checking with molecular mass information).
 ### Flame Emission Spectroscopy
 
 Used for determination of metal ions. A sample is atomised in a flame, and the emitted light at
-Characteristic wavelengths is measured.
+characteristic wavelengths is measured.
 
 - **Sodium:** intense yellow (589 nm)
 - **Potassium:** lilac (766 nm)
@@ -654,7 +654,7 @@ Characteristic wavelengths is measured.
 ### Atomic Absorption Spectroscopy (AAS)
 
 Measures the absorption of light by ground-state atoms. A hollow cathode lamp provides light at the
-Specific wavelength of the element being analysed.
+specific wavelength of the element being analysed.
 
 **Applications:** Determining trace metal concentrations in water, soil, biological samples.
 
@@ -738,7 +738,7 @@ $$
 ### Significant Figures
 
 Results should be quoted to an appropriate number of significant figures, consistent with the
-Precision of the measurements used.
+precision of the measurements used.
 
 ---
 

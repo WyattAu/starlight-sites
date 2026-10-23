@@ -232,7 +232,7 @@ First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$ Not $[\mathrm{Ar}]\, 4s^2\, 
 ### Exceptions to the Aufbau Principle
 
 Half-filled and fully-filled $d$-subshells are more stable due to symmetry and exchange energy. This
-Causes exceptions in chromium, copper, molybdenum, silver, and gold:
+causes exceptions in chromium, copper, molybdenum, silver, and gold:
 
 <div class="table-wrap">
 
@@ -279,7 +279,7 @@ All three $2p$ electrons are unpaired with parallel spins, following Hund's rule
 ### Structure
 
 The periodic table arranges elements in order of increasing atomic number. The layout reflects the
-Electron configurations of the elements.
+electron configurations of the elements.
 
 <div class="table-wrap">
 
@@ -349,7 +349,7 @@ Where $Z$ is the actual nuclear charge and $S$ is the shielding constant.
 
 **Shielding** is the reduction in the attractive force between the nucleus and an electron due to
 Repulsion by other electrons. Inner-shell electrons shield outer-shell electrons far more
-Effectively than electrons in the same shell.
+effectively than electrons in the same shell.
 
 ### Atomic Radius
 
@@ -366,7 +366,7 @@ Effectively than electrons in the same shell.
 Same element.
 
 For noble gases, atomic radius is taken as the van der Waals radius (half the distance between
-Nuclei of adjacent atoms in the solid or liquid), which is significantly larger than covalent radii.
+nuclei of adjacent atoms in the solid or liquid), which is significantly larger than covalent radii.
 
 ### Ionic Radius
 
@@ -497,7 +497,7 @@ Electrons in a covalent bond. The Pauling scale is the most common.
 
 Metallic character correlates with low ionization energy, low electronegativity, and large atomic
 Radius. Non-metallic character correlates with high ionization energy, high electronegativity, and
-Small atomic radius.
+small atomic radius.
 
 ### Summary Table of Periodic Trends
 
@@ -777,7 +777,7 @@ Chemically inert under standard conditions. They exist as monatomic gases.
 ### Boiling Point Trend
 
 Boiling points increase down the group because the number of electrons increases, leading to
-Stronger London dispersion forces between atoms. The only intermolecular force in noble gases is
+stronger London dispersion forces between atoms. The only intermolecular force in noble gases is
 London dispersion.
 
 ### Reactivity
@@ -1011,7 +1011,7 @@ Where $n$ is the number of unpaired electrons.
 
 When atoms absorb energy (e.g., from heat or electricity), electrons are excited to higher energy
 Levels. When they fall back to lower levels, they emit photons with energies corresponding to the
-Energy differences:
+energy differences:
 
 $$
 \Delta E = E_{\mathrm{higher}} - E_{\mathrm{lower}} = h\nu = \frac`\{hc}`{\lambda}
@@ -1031,7 +1031,7 @@ Wavelengths. This is the basis of flame tests and spectroscopic analysis.
 
 When white light passes through a cool gas, the gas absorbs photons at wavelengths corresponding to
 the energy differences between its electron levels. The transmitted light shows dark lines at these
-Wavelengths on a continuous spectrum.
+wavelengths on a continuous spectrum.
 
 ### Hydrogen Spectral Series
 
@@ -1071,7 +1071,7 @@ For the Balmer series (transitions to $n = 2$), the first four lines correspond 
 ### Convergence
 
 Lines in each series converge at the series limit (the ionization energy). As $n$ increases, the
-Energy levels get closer together and transitions approach a continuum:
+energy levels get closer together and transitions approach a continuum:
 
 $$
 E_{\infty} = 0\mathrm{ J} \quad (\mathrm{ionization threshold})
@@ -1080,7 +1080,7 @@ $$
 ### Significance
 
 The existence of discrete spectral lines is direct evidence that electron energy is quantised. The
-Classical model predicted a continuous spectrum, which is never observed for individual atoms.
+classical model predicted a continuous spectrum, which is never observed for individual atoms.
 
 ---
 
@@ -1172,7 +1172,7 @@ For molecules containing chlorine or bromine, the isotope patterns are distincti
 </div>
 
 A molecule with one chlorine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $3:1$ ratio. A
-Molecule with one bromine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $1:1$ ratio.
+molecule with one bromine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $1:1$ ratio.
 :::
 :::note[Example, Chlorobenzene]
 Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
@@ -1184,7 +1184,7 @@ Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
 ### High-Resolution Mass Spectrometry
 
 High-resolution MS can determine exact masses to several decimal places, distinguishing between
-Molecules with the same nominal mass but different molecular formulas:
+molecules with the same nominal mass but different molecular formulas:
 
 <div class="table-wrap">
 
@@ -1277,7 +1277,7 @@ The $4s$ electron experiences a higher effective nuclear charge.
 ### Successive Ionization Energy Graphs and Electron Configuration
 
 Plotting $\log(IE)$ against ionization number reveals jumps that correspond to the removal of
-Electrons from inner shells.
+electrons from inner shells.
 
 For aluminium ($Z = 13$):
 
@@ -1384,7 +1384,7 @@ atomic mass of boron is $10.81$. Calculate the percentage abundance of $\mathrm{
 **Markscheme:**
 
 (a) The weighted mean mass of an atom of an element relative to $1/12$ the mass of an atom of
-Carbon-12, based on the abundance of isotopes in a occurring sample. (2 marks)
+carbon-12, based on the abundance of isotopes in a occurring sample. (2 marks)
 
 (b) Let $x$ = fractional abundance of $\mathrm{B}$-10, so $(1 - x)$ = fractional abundance of
 $\mathrm{B}$-11.
@@ -1421,7 +1421,7 @@ Percentage abundance of $\mathrm{B}$-10 = $19\%$. (1 mark for setup, 1 mark for 
 ### Question 2 (SL, 3 marks)
 
 Explain why the first ionization energy of sodium is lower than that of magnesium, but the first
-Ionization energy of magnesium is lower than that of aluminium.
+ionization energy of magnesium is lower than that of aluminium.
 
 **Markscheme:**
 
@@ -1429,7 +1429,7 @@ Na ($1s^2\, 2s^2\, 2p^6\, 3s^1$) to Mg ($1s^2\, 2s^2\, 2p^6\, 3s^2$): $Z_{\mathr
 across the period, so the $3s$ electrons in Mg are held more tightly. (1 mark)
 
 Mg ($3s^2$) to Al ($3s^2\, 3p^1$): the electron removed from Al is a $3p$ electron, which is at a
-Higher energy level than the $3s$ electrons of Mg and is partially shielded by the $3s$ electrons.
+higher energy level than the $3s$ electrons of Mg and is partially shielded by the $3s$ electrons.
 (1 mark)
 
 Also: Mg has a stable filled $3s$ subshell configuration. (1 mark)
@@ -1462,7 +1462,7 @@ Across a period, the nuclear charge ($Z$) increases by one proton per element, b
 Electrons enter the same shell and provide only partial shielding. (1 mark)
 
 Therefore $Z_{\mathrm{eff}}$ increases across the period, pulling the electron cloud closer to the
-Nucleus and decreasing the atomic radius. (1 mark)
+nucleus and decreasing the atomic radius. (1 mark)
 
 ---
 
@@ -1545,7 +1545,7 @@ Marks)
 $[\mathrm{Co}(\mathrm{H}_2\mathrm{O})_6]^{3+}$ is blue. Explain this difference. (2 marks)
 
 (c) Explain why transition metals often show catalytic activity, using the Haber process as an
-Example. (2 marks)
+example. (2 marks)
 
 **Markscheme:**
 
@@ -1591,13 +1591,13 @@ $IE_1 = 577$$IE_2 = 1816$$IE_3 = 2744$$IE_4 = 11577$$IE_5 = 14842$$IE_6 = 18376$
 
 (a) The element is aluminium. (1 mark) There is a large jump between $IE_3$ and $IE_4$ Indicating
 that the first three electrons are removed from the valence shell and the fourth electron is from an
-Inner shell. This is consistent with Group 13, and aluminium is the element in Period 3, Group 13.
+inner shell. This is consistent with Group 13, and aluminium is the element in Period 3, Group 13.
 (1 mark)
 
 (b) $[\mathrm{Ne}]\, 3s^1$ (1 mark; removing two electrons from the $3s^2\, 3p^1$ configuration)
 
 (c) $IE_4$ removes an electron from the $n = 2$ shell, which is closer to the nucleus and
-Experiences much less shielding. The effective nuclear charge on inner-shell electrons is much
+experiences much less shielding. The effective nuclear charge on inner-shell electrons is much
 Higher. (1 mark)
 
 ---
@@ -1633,7 +1633,7 @@ $$
 (2 marks for correct substitution and calculation)
 
 This is part of the Balmer series (transitions to $n = 2$) and falls in the visible region of the
-Electromagnetic spectrum (blue-violet). (2 marks)
+electromagnetic spectrum (blue-violet). (2 marks)
 
 ---
 
@@ -1658,7 +1658,7 @@ $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$ Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
 :::
 :::caution[Common Mistake]
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
-Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
+isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
 $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a larger atomic radius
 than $\mathrm{F}$.
 :::
@@ -1741,7 +1741,7 @@ $$
 <summary>Question 3: Periodic Trends</summary>
 
 Explain why the first ionization energy of aluminium is lower than that of magnesium, but the first
-Ionization energy of sulfur is lower than that of phosphorus.
+ionization energy of sulfur is lower than that of phosphorus.
 
 </details>
 
@@ -1751,11 +1751,11 @@ Ionization energy of sulfur is lower than that of phosphorus.
 **Aluminium vs Magnesium:** Mg has the electron configuration $[\mathrm{Ne}]\, 3s^2$ with a stable,
 Filled $3s$ subshell. Al has $[\mathrm{Ne}]\, 3s^2\, 3p^1$. The $3p$ electron in Al is at a higher
 Energy level than the $3s$ electrons of Mg and is partially shielded by the $3s$ electrons, so it
-Requires less energy to remove.
+requires less energy to remove.
 
 **Sulfur vs Phosphorus:** P has the configuration $[\mathrm{Ne}]\, 3s^2\, 3p^3$ with a stable
 Half-filled $3p$ subshell. S has $[\mathrm{Ne}]\, 3s^2\, 3p^4$ Where the fourth $3p$ electron is
-Paired with another electron in the same orbital. The paired electrons experience mutual repulsion,
+paired with another electron in the same orbital. The paired electrons experience mutual repulsion,
 Making the paired electron easier to remove.
 
 </details>

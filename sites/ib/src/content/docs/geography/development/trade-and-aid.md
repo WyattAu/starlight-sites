@@ -29,16 +29,16 @@ description: "Study notes for Trade and Aid with worked examples, practice probl
 ### The Structure of Global Trade
 
 Global trade in goods and services exceeded USD 32 trillion in 2022. The structure of trade is
-Characterised by several patterns:
+characterised by several patterns:
 
 **North-South trade.** Historically, developing countries (the "South") exported primary commodities
 (agricultural products, minerals, fossil fuels) to developed countries (the "North") and imported
 Manufactured goods and services in return. This pattern reflects colonial trading relationships and
-Comparative advantage based on natural resource endowments.
+comparative advantage based on natural resource endowments.
 
 **South-South trade.** Trade between developing countries has grown rapidly, now accounting for
 Approximately 25% of global trade. China's economic rise has been a major driver: China is the
-Largest trading partner for over 120 countries, including many in Africa, Latin America, and
+largest trading partner for over 120 countries, including many in Africa, Latin America, and
 Southeast Asia.
 
 **Intra-industry trade.** A growing proportion of trade occurs between countries at similar levels
@@ -48,13 +48,13 @@ Differentiation and economies of scale.
 
 **Global value chains (GVCs).** Modern trade is increasingly organised through GVCs, in which the
 Production of a single good is fragmented across multiple countries. An iPhone, for example, is
-Designed in California, uses components from South Korea, Japan, Taiwan, and Europe, and is
-Assembled in China or India. GVCs account for approximately 70% of global trade.
+designed in California, uses components from South Korea, Japan, Taiwan, and Europe, and is
+assembled in China or India. GVCs account for approximately 70% of global trade.
 
 ### Trading Blocs
 
 A trading bloc is a group of countries that agree to reduce or eliminate trade barriers among
-Themselves. Trading blocs vary in the degree of integration:
+themselves. Trading blocs vary in the degree of integration:
 
 <div class="table-wrap">
 
@@ -203,11 +203,11 @@ Economic reforms and poverty reduction strategies.
 **Results.** As of 2023, 36 countries have received debt relief under HIPC and the subsequent
 Multilateral Debt Relief Initiative (MDRI, 2005), with approximately USD 76 billion in debt
 Cancelled. Debt-to-export ratios in HIPC countries fell from an average of approximately 270% to
-Approximately 60%.
+approximately 60%.
 
 **Limitations:** debt relief was insufficient to prevent a new wave of debt distress: as of 2023,
 Approximately 60% of low-income countries are at high risk of or already in debt distress, driven by
-Borrowing (much of it from China and private creditors, outside the HIPC framework), COVID-19
+borrowing (much of it from China and private creditors, outside the HIPC framework), COVID-19
 Spending, and rising interest rates. Zambia defaulted on its sovereign debt in 2020; Sri Lanka
 Defaulted in 2022; Ghana and Ethiopia have sought debt restructuring.
 

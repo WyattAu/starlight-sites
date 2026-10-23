@@ -158,7 +158,7 @@ $$
 $$
 
 Terms of trade deteriorated by 8%. The country needs to export 8.7% more (115/105 = 1.087) just to
-Buy the same quantity of imports as in 2020.
+buy the same quantity of imports as in 2020.
 
 </details>
 
@@ -287,7 +287,7 @@ Non-traded goods, price stickiness, and speculation.
 ### 4.1 Derivation
 
 The Marshall-Lerner condition determines whether a currency depreciation improves or worsens the
-Current account.
+current account.
 
 **Proposition: A depreciation improves the current account if and only if the sum of the price
 Elasticities of demand for exports and imports (in absolute value) exceeds unity.**
@@ -311,8 +311,8 @@ Where $X$ = export volume, $M$ = import volume, $P_X$ = domestic currency price 
 = foreign currency price of imports, $e$ = exchange rate.
 
 A depreciation ($e$ rises) makes exports cheaper for foreigners ($P_X/e$ falls) and imports more
-Expensive for domestic consumers ($e \cdot P_M^*$ rises). The effect on $CA$ depends on whether the
-Volume responses are large enough to outweigh the price changes:
+expensive for domestic consumers ($e \cdot P_M^*$ rises). The effect on $CA$ depends on whether the
+volume responses are large enough to outweigh the price changes:
 
 $$
 \Delta CA \approx \left(\frac{E_X \cdot P_X \cdot X}{P_X \cdot X + e \cdot P_M^* \cdot M}\right) \times \left(|E_X| + |E_M| - 1\right) \times \frac{\Delta e}{e}
@@ -320,12 +320,12 @@ $$
 
 If $|E_X| + |E_M| \gt 1$: the volume effect dominates → $CA$ improves. If $|E_X| + |E_M| \lt 1$: The
 price effect dominates → $CA$ worsens (the country spends more on imports because they are more
-Expensive, without selling enough extra exports). $\blacksquare$
+expensive, without selling enough extra exports). $\blacksquare$
 
 ### 4.2 The J-Curve Effect
 
 In the short run, $|E_X|$ and $|E_M|$ are low because contracts are fixed, consumers are slow to
-Change habits, and production takes time to adjust. So $|E_X| + |E_M| \lt 1$ initially → the Current
+change habits, and production takes time to adjust. So $|E_X| + |E_M| \lt 1$ initially → the Current
 account **worsens** after a depreciation.
 
 Over time (6–18 months), elasticities increase as consumers find substitutes and firms adjust
@@ -513,7 +513,7 @@ $$
 **Problem 1.** Country A can produce 10 cars or 5 trucks per worker per month. Country B can produce
 6 cars or 6 trucks per worker per month. (a) Which country has an absolute advantage in each good?
 (b) Calculate opportunity costs. (c) Which country should specialise in which good? (d) Show that
-Trade can benefit both countries.
+trade can benefit both countries.
 
 <details>
 <summary>Hint</summary>
@@ -522,7 +522,7 @@ Trade can benefit both countries.
 
 **Problem 2.** A country's export price index rises from 120 to 132, while its import price index
 Rises from 100 to 120. (a) Calculate the initial and new terms of trade. (b) Has the ToT improved or
-Deteriorated? (c) Explain why this may not be entirely beneficial.
+deteriorated? (c) Explain why this may not be entirely beneficial.
 
 <details>
 <summary>Hint</summary>
@@ -1141,7 +1141,7 @@ though volumes did not change.
 **With volume effects (elasticity):** If $PED_X = -0.3$ and $PED_M = -0.5$:
 
 2021: Export prices up 20%. Export volumes fall by $0.3 \times 20 = 6\%$ to 94. Import prices up 5%.
-Import volumes fall by $0.5 \times 5 = 2.5\%$ to 78.
+import volumes fall by $0.5 \times 5 = 2.5\%$ to 78.
 
 Export revenue $= 120 \times 94 = 11\,280$. Import cost $= 105 \times 78 = 8\,190$. Trade surplus
 $= 3\,090$.

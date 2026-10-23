@@ -63,7 +63,7 @@ A computer system.
 **Virus vs Worm -- the critical distinction:**
 
 A virus attaches itself to a legitimate file and requires user action (opening a file, running a
-Program, booting from an infected disk) to execute and spread. A worm is a standalone program that
+program, booting from an infected disk) to execute and spread. A worm is a standalone program that
 Self-replicates over network connections without requiring any user action or host file.
 
 <div class="table-wrap">
@@ -112,7 +112,7 @@ trick victims into revealing sensitive information or installing malware.
 ### Denial of Service (DoS) and Distributed DoS (DDoS)
 
 A DoS attack overwhelms a target system with traffic or requests, making it unavailable to
-Legitimate users.
+legitimate users.
 
 <div class="table-wrap">
 
@@ -199,12 +199,12 @@ Basic firewall concepts are in
 **Key exchange problem:** Symmetric encryption is fast but requires secure key distribution.
 Asymmetric encryption solves distribution but is slow. The practical solution is **hybrid
 Encryption**: use asymmetric encryption to securely exchange a symmetric session key, then use the
-Symmetric key for bulk data encryption.
+symmetric key for bulk data encryption.
 
 ### Digital Signatures
 
 A digital signature provides authentication, integrity, and non-repudiation for digital messages or
-Documents.
+documents.
 
 **Process:**
 
@@ -241,7 +241,7 @@ Documents.
 </div>
 
 2FA mitigates password compromise: even if an attacker obtains the password, they still need the
-Second factor (e.g., a time-based one-time password from a phone app) to gain access.
+second factor (e.g., a time-based one-time password from a phone app) to gain access.
 
 ### Intrusion Detection Systems (IDS)
 
@@ -290,7 +290,7 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 ### Hong Kong: Personal Data Privacy Ordinance (PDPO)
 
 The PDPO (Cap. 486) is Hong Kong's primary data protection legislation. It is enforced by the
-Privacy Commissioner for Personal Data.
+privacy Commissioner for Personal Data.
 
 **Six Data Protection Principles (DPPs):**
 
@@ -318,7 +318,7 @@ Privacy Commissioner for Personal Data.
 ### General Data Protection Regulation (GDPR) -- EU
 
 GDPR applies to any organisation processing personal data of EU residents, regardless of where the
-Organisation is located.
+organisation is located.
 
 <div class="table-wrap">
 
@@ -439,7 +439,7 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 ### Repetitive Strain Injury (RSI)
 
 RSI is an umbrella term for conditions caused by repetitive movements, forceful exertions, and
-Sustained or awkward postures.
+sustained or awkward postures.
 
 <div class="table-wrap">
 
@@ -463,7 +463,7 @@ Sustained or awkward postures.
 ### Eye Strain (Computer Vision Syndrome)
 
 Extended screen use causes eye strain, characterised by dry eyes, blurred vision, headaches, and
-Difficulty focusing.
+difficulty focusing.
 
 **The 20-20-20 rule:** Every 20 minutes, look at something 20 feet (approximately 6 metres) away for
 20 seconds. This allows the eye muscles to relax.
@@ -480,7 +480,7 @@ Difficulty focusing.
 ### Ergonomics
 
 Ergonomics is the science of designing the workplace to fit the worker, reducing physical strain and
-Improving productivity.
+improving productivity.
 
 <div class="table-wrap">
 
@@ -766,10 +766,10 @@ A computing professional confronted with an ethical dilemma should:
 For each scenario, identify the type of malware most likely involved and explain your reasoning.
 
 (a) A user opens an email attachment disguised as an invoice. Their files become encrypted, and a
-Message demands payment in cryptocurrency.
+message demands payment in cryptocurrency.
 
 (b) A program replicates itself across a corporate network, consuming increasing bandwidth until the
-Network becomes unusable.
+network becomes unusable.
 
 (c) A user downloads free software from an unofficial website. Unwanted advertisements appear
 Frequently in their web browser.
@@ -781,7 +781,7 @@ Answer:
 
 (a) **Ransomware.** The files are encrypted and a ransom is demanded, which is the defining
 Characteristic of ransomware. The email attachment is the delivery vector (a trojan containing the
-Ransomware payload).
+ransomware payload).
 
 (b) **Worm.** The program self-replicates across the network without requiring user action or a host
 File, which is the defining characteristic of a worm. The bandwidth consumption is a common effect
@@ -791,7 +791,7 @@ of worm propagation.
 Website is likely bundled with adware, a common distribution method.
 
 (d) **Keylogger (spyware).** The systematic recording of keystrokes to capture login credentials is
-Characteristic of a keylogger. Keyloggers are a type of spyware designed to covertly collect
+characteristic of a keylogger. Keyloggers are a type of spyware designed to covertly collect
 Sensitive information such as passwords, credit card numbers, and personal messages.
 
 </details>
@@ -811,12 +811,12 @@ Answer:
 
 (a) **Digital signature for authentication:** Alice hashes her message and encrypts the hash with
 her **private key**. Bob decrypts the hash with Alice's **public key** and verifies it matches his
-Own hash of the received message. This proves the message came from Alice (authentication) and was
+own hash of the received message. This proves the message came from Alice (authentication) and was
 not modified (integrity).
 
 **Encryption for confidentiality:** Alice encrypts the message with Bob's **public key**. Only Bob
 Can decrypt it using his **private key**. This ensures only the intended recipient can read the
-Message.
+message.
 
 (b) Steps for a confidential, authenticated message:
 
@@ -830,10 +830,10 @@ Message.
 8. Bob decrypts the signature with Alice's public key and verifies the hash.
 
 (c) Hybrid encryption combines the strengths of both approaches. Asymmetric encryption solves the
-Key distribution problem (public keys can be freely shared) but is computationally slow. Symmetric
+key distribution problem (public keys can be freely shared) but is computationally slow. Symmetric
 Encryption is fast but requires secure key exchange. By using asymmetric encryption only to exchange
 A short session key, and then using that session key for symmetric encryption of the bulk data, the
-System achieves both security and performance.
+system achieves both security and performance.
 
 </details>
 
@@ -841,7 +841,7 @@ System achieves both security and performance.
 <summary>Question 3: Data Protection Law</summary>
 
 (a) A Hong Kong online retailer collects customer email addresses during account registration. The
-Retailer later uses these addresses to send promotional emails without obtaining consent. Under the
+retailer later uses these addresses to send promotional emails without obtaining consent. Under the
 PDPO, has the retailer violated any data protection principle? Explain.
 
 (b) A social media company headquartered in Hong Kong processes data from users in both Hong Kong
@@ -854,7 +854,7 @@ Answer:
 
 (a) Yes, the retailer has likely violated DPP 3 (Use limitation). Personal data was collected for
 the purpose of account registration, but then used for direct marketing (promotional emails) without
-Obtaining the data subject's opt-in consent. Under the PDPO, using personal data for direct
+obtaining the data subject's opt-in consent. Under the PDPO, using personal data for direct
 Marketing requires the data subject's explicit consent (opt-in), and the data subject must be given
 the opportunity to opt out.
 
@@ -887,20 +887,20 @@ The company must comply with both frameworks for the respective data subjects.
 for it. Explain two legal and two ethical issues with this action.
 
 (b) A company modifies an open-source program licensed under GPL v3 and distributes it as part of a
-Commercial product. What are their obligations under the GPL?
+commercial product. What are their obligations under the GPL?
 
 (c) Explain the difference between copyleft (GPL) and permissive (MIT) open source licenses.
 
 Answer:
 
 (a) **Legal issues:** (1) Copyright infringement -- the software is protected by copyright law, and
-Unauthorised copying and distribution is illegal. (2) Software piracy carries potential civil
+unauthorised copying and distribution is illegal. (2) Software piracy carries potential civil
 Penalties (fines, damages) and, in some jurisdictions, criminal penalties.
 
 **Ethical issues:** (1) The developer invested time and resources in creating the software and
 Deserves fair compensation. Using it without paying deprives the developer of rightful income. (2)
 Software piracy undermines the viability of the software industry, potentially reducing the
-Incentive to develop new products.
+incentive to develop new products.
 
 (b) Under GPL v3, the company must: (1) make the complete source code of the modified program
 Available to all recipients, including their modifications. (2) License the entire combined work
@@ -909,7 +909,7 @@ Changes were made to the original code.
 
 (c) **Copyleft (GPL):** Any derivative work must be distributed under the same copyleft license.
 This creates a "viral" effect where the freedom to use, modify, and redistribute is preserved in all
-Derivatives. Commercial use is allowed, but modifications must remain open source.
+derivatives. Commercial use is allowed, but modifications must remain open source.
 
 **Permissive (MIT):** The author grants broad permission to use, copy, modify, and distribute the
 Software, with minimal restrictions (primarily, retaining the copyright notice). Derivative works
@@ -925,13 +925,13 @@ A hospital implements an electronic health record (EHR) system that stores patie
 Digitally.
 
 (a) Identify three security threats to the EHR system and for each, describe a security measure to
-Mitigate it.
+mitigate it.
 
 (b) Under the PDPO, explain how the hospital should handle a patient's request to access their own
 Medical records.
 
 (c) A doctor accesses the medical records of a celebrity patient out of curiosity, without any
-Medical reason. Discuss the ethical and legal implications.
+medical reason. Discuss the ethical and legal implications.
 
 Answer:
 
@@ -952,16 +952,16 @@ Answer:
 
 (b) Under DPP 6 (Access), the patient has the right to request access to their personal data held by
 the hospital. The hospital must comply with the request within 40 days. The hospital may charge a
-Reasonable fee. If the hospital refuses the request, it must provide written reasons. The hospital
+reasonable fee. If the hospital refuses the request, it must provide written reasons. The hospital
 should verify the identity of the requester before releasing the records.
 
 (c) **Ethical implications:** This violates the ACM principle of "Respect privacy" -- accessing
 Patient data without a legitimate medical need is a breach of patient confidentiality. It also
-Violates the principle of "Avoid harm" by potentially causing emotional distress to the patient.
+violates the principle of "Avoid harm" by potentially causing emotional distress to the patient.
 
 **Legal implications:** Under the PDPO, accessing personal data without authorisation and for a
 Purpose unrelated to the data collection purpose constitutes a data access offence. This is a
-Criminal offence under Section 18 of the PDPO, carrying penalties including a fine and imprisonment.
+criminal offence under Section 18 of the PDPO, carrying penalties including a fine and imprisonment.
 The doctor could also face disciplinary action from the medical regulatory body.
 
 </details>

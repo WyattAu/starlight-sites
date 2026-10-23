@@ -22,7 +22,7 @@ description: "This document provides a rigorous, technically precise guide to ev
 This document provides a rigorous, technically precise guide to every assessed component of IB
 English A: Language and Literature, and to the analytical techniques that underpin success in each.
 It is written for students who want to understand not just _what_ the IB requires, but _why_ each
-Requirement exists and how to execute it with maximum precision.
+requirement exists and how to execute it with maximum precision.
 
 ---
 
@@ -41,7 +41,7 @@ Requirement exists and how to execute it with maximum precision.
 
 Paper 1 is the only component of the IB English assessment that deals with unseen texts. Students
 are presented with one or more passages they have not encountered before and must produce an
-Analytical essay in response to a guiding question. The passage may be literary (a poem, an excerpt
+analytical essay in response to a guiding question. The passage may be literary (a poem, an excerpt
 from a novel or play) or non-literary (an advertisement, an editorial, a speech, a visual text).
 
 The guiding question directs attention to a specific feature of the text. Common guiding question
@@ -76,14 +76,14 @@ Tested by Paper 1.
 </div>
 
 At SL, students write on one passage. At HL, students write on two passages and must produce a
-Comparative analysis. The time differential reflects the additional complexity of the HL task, not a
-Requirement for longer essays. HL essays should be proportionally longer but must maintain the same
-Density of analysis.
+comparative analysis. The time differential reflects the additional complexity of the HL task, not a
+requirement for longer essays. HL essays should be proportionally longer but must maintain the same
+density of analysis.
 
 Time management is a structural problem, not a willpower problem. The most reliable strategy is to
-Divide the available time into fixed blocks and to practice writing within those blocks until the
-Rhythm becomes automatic. A student who regularly produces a complete essay in 55 minutes under
-Timed conditions will not run out of time in the examination.
+divide the available time into fixed blocks and to practice writing within those blocks until the
+rhythm becomes automatic. A student who regularly produces a complete essay in 55 minutes under
+timed conditions will not run out of time in the examination.
 
 ### 1.3 Approaching Unseen Passages
 
@@ -92,7 +92,7 @@ Thesis formation, and drafting.
 
 **Stage 1: Orientation (2--3 minutes).** Read the passage once, without a pen in hand, to establish
 A preliminary sense of its content, tone, and overall effect. Note the genre, the source (if
-Provided), and any contextual information that accompanies the passage. Ask: What is this text
+provided), and any contextual information that accompanies the passage. Ask: What is this text
 Doing? What is it about? How does it make me feel? These first impressions are not analysis, but
 they provide the raw material from which analysis will be constructed.
 
@@ -116,8 +116,8 @@ Categories in order:
 
 **Stage 3: Thesis Formation (3--5 minutes).** Review the annotations and the guiding question.
 Formulate a thesis statement that answers the guiding question with specificity. The thesis must be
-Arguable (not a statement of fact), specific (not vague), and comprehensive (it must account for the
-Passage as a whole, not just a single feature).
+arguable (not a statement of fact), specific (not vague), and comprehensive (it must account for the
+passage as a whole, not just a single feature).
 
 A strong thesis for Paper 1 has the following structure: "The author uses [feature 1] and [feature
 2] to [effect], suggesting that [interpretive claim]." The interpretive claim is the Essential
@@ -140,7 +140,7 @@ The introduction must accomplish three things:
 3. Indicate the analytical trajectory of the essay (the features that will be discussed).
 
 Avoid generalisations about literature, human nature, or society. The introduction should be
-Specific to the passage under analysis.
+specific to the passage under analysis.
 
 **Body Paragraphs (3--4 paragraphs, approximately 150--200 words each).**
 
@@ -161,7 +161,7 @@ Each body paragraph should follow a PEAL structure:
 
 The conclusion should do more than restate the thesis. It should synthesise the essay's findings
 into a broader statement about the passage's significance. What does the analysis reveal about the
-Author's purpose, the text's relationship to its context, or the larger themes it engages with?
+author's purpose, the text's relationship to its context, or the larger themes it engages with?
 
 ### 1.5 Common Pitfalls in Paper 1
 
@@ -220,15 +220,15 @@ Studied.
 
 The distinction between SL and HL is significant. At SL, the essay is a straightforward comparison
 of two works. At HL, the essay must demonstrate a broader understanding of the Part 3 corpus by
-Integrating contextual discussion of a third work. This third work is not discussed in the same
-Depth as the primary two, but it must be more than a passing reference. The third work should be
-Used to complicate, extend, or challenge the argument developed through the primary comparison.
+integrating contextual discussion of a third work. This third work is not discussed in the same
+depth as the primary two, but it must be more than a passing reference. The third work should be
+used to complicate, extend, or challenge the argument developed through the primary comparison.
 
 ### 2.2 Essay Structure and Thesis Development
 
 The comparative essay demands a thesis that establishes a clear relationship between the texts. The
-Weakest thesis merely states that the texts share a theme ("Both texts explore the theme of
-Honour"). A stronger thesis identifies how each text approaches that theme and what the implications
+weakest thesis merely states that the texts share a theme ("Both texts explore the theme of
+honour"). A stronger thesis identifies how each text approaches that theme and what the implications
 of that difference are.
 
 **Thesis progression:**
@@ -244,7 +244,7 @@ of that difference are.
 </div>
 
 The strongest thesis does not merely compare but evaluates: it makes a claim about what the
-Comparison reveals that analysis of either text alone could not.
+comparison reveals that analysis of either text alone could not.
 
 **Body paragraph structure for Paper 2:**
 
@@ -273,7 +273,7 @@ from becoming two separate essays stitched together.
 
 At HL, the contextual discussion of the third work must serve the argument, not the other way
 around. Contextual information is not decoration; it is evidence. The third work should be
-Introduced at a point in the argument where it can advance, complicate, or challenge the claims
+introduced at a point in the argument where it can advance, complicate, or challenge the claims
 being made about the primary two works.
 
 Effective contextual integration follows the same principle as all effective use of context in IB
@@ -281,7 +281,7 @@ English: it must be shown to shape a specific formal or thematic feature of the 
 like "Marquez was influenced by magical realism" is background, not analysis. A statement like "The
 Deadpan tone with which Garcia Marquez describes Santiago's wounds -- 'it looked like the stigma of
 Christ' -- exemplifies the magical realist technique of presenting the extraordinary as mundane, a
-Technique that reflects the Latin American literary tradition's resistance to European realist
+technique that reflects the Latin American literary tradition's resistance to European realist
 Conventions" is analysis grounded in context.
 
 ### 2.4 Common Pitfalls in Paper 2
@@ -318,7 +318,7 @@ Conventions" is analysis grounded in context.
 
 The HL Essay is a 1,200--1,500 word piece of independent literary criticism written on a single work
 Studied in Part 1 (Works in Translation), Part 2 (Detailed Study), or Part 4 (Critical Study). It is
-Assessed internally by the teacher and moderated externally by the IB.
+assessed internally by the teacher and moderated externally by the IB.
 
 The HL Essay tests the student's ability to:
 
@@ -328,8 +328,8 @@ The HL Essay tests the student's ability to:
 - Organise a sustained argument over 1,200--1,500 words
 
 The HL Essay is not a book report, a plot summary, or a personal reflection. It is a piece of
-Literary criticism that must demonstrate the same rigour and precision expected of a
-University-level essay.
+literary criticism that must demonstrate the same rigour and precision expected of a
+university-level essay.
 
 ### 3.2 Choosing a Topic
 
@@ -400,7 +400,7 @@ The HL Essay is assessed against four criteria, each carrying equal weighting:
 **Criterion A: Knowledge and Understanding (10 marks).**
 
 This criterion assesses the depth and precision of the student's knowledge of the text and its
-Context. A top-band response demonstrates:
+context. A top-band response demonstrates:
 
 - Precise, detailed knowledge of the text, including specific passages and their significance
 - Understanding of the text's contextual background (biographical, historical, cultural) and the
@@ -462,14 +462,14 @@ Demonstrates:
 ### 4.1 The Nature of Translated Literature
 
 Part 1 of the IB English A syllabus requires students to study works originally written in a
-Language other than English and read in translation. This requirement is not merely logistical; it
-Reflects a fundamental principle of the course: that literature is not the exclusive property of any
-Single linguistic tradition and that the act of reading across linguistic boundaries is itself a
-Critical act.
+language other than English and read in translation. This requirement is not merely logistical; it
+reflects a fundamental principle of the course: that literature is not the exclusive property of any
+single linguistic tradition and that the act of reading across linguistic boundaries is itself a
+critical act.
 
 When you read a translated text, you are not reading the author's words. You are reading a
-Translator's interpretation of the author's words. Every translation involves a series of
-Interpretive decisions: which register to use, how to handle idioms and cultural references, whether
+translator's interpretation of the author's words. Every translation involves a series of
+interpretive decisions: which register to use, how to handle idioms and cultural references, whether
 to prioritise literal accuracy or literary effect. These decisions shape the reader's experience of
 the text in ways that are invisible but consequential.
 
@@ -479,7 +479,7 @@ Rabassa's translation was better than the original. But Rabassa's translation ne
 Choices that the Spanish original does not: he must render Garcia Marquez's specific Spanish
 Diction, rhythm, and connotative patterns into English equivalents that carry different resonances.
 The English "honour" does not map precisely onto the Spanish "honra"; the English "death" does not
-Carry exactly the same cultural freight as the Spanish "muerte."
+carry exactly the same cultural freight as the Spanish "muerte."
 
 ### 4.2 Cultural Context and Interpretation
 
@@ -491,20 +491,20 @@ have direct equivalents in the reader's own cultural framework.
 In _Chronicle of a Death Foretold_, the honour code that drives the plot is not an abstract literary
 Device but a specific feature of Latin American (and more broadly Mediterranean) culture with deep
 Historical roots. Understanding this cultural context is essential for interpreting the text: it
-Explains why the Vicario brothers feel compelled to kill Santiago, why the community tolerates (and
+explains why the Vicario brothers feel compelled to kill Santiago, why the community tolerates (and
 even supports) their actions, and why Angela's loss of virginity is treated as a crime against her
-Family rather than a private matter.
+family rather than a private matter.
 
 Similarly, the Catholic imagery that pervades the novel -- the bishop, the confession, the stigmata
 -- cannot be fully understood without recognising the central role of Catholicism in Colombian
 Social and political life. The tension between the religious values the community professes and the
-Violent actions it condones is one of the novel's most important critical points, and this tension
+violent actions it condones is one of the novel's most important critical points, and this tension
 is amplified by the reader's awareness of the specific cultural context.
 
 ### 4.3 Challenges of Reading in Translation
 
 The following are the primary challenges of reading translated literature and strategies for
-Addressing them:
+addressing them:
 
 <div class="table-wrap">
 
@@ -545,14 +545,14 @@ Addressing them:
 
 Close reading is the foundational analytical skill of the IB English course. Every assessed
 Component -- Paper 1, Paper 2, the HL Essay, the IOC, the Written Task -- depends on the ability to
-Analyse specific textual features with precision and to connect those features to larger questions
+analyse specific textual features with precision and to connect those features to larger questions
 of meaning, effect, and significance.
 
 ### 5.1 Narrative Voice and Perspective
 
 The narrative voice is the single most important determinant of how a text communicates. Before
-Analysing any other feature, establish who is speaking, from what position, and with what degree of
-Reliability.
+analysing any other feature, establish who is speaking, from what position, and with what degree of
+reliability.
 
 **Key questions:**
 
@@ -568,7 +568,7 @@ Reliability.
 
 **Worked example:** In _Chronicle of a Death Foretold_, the narrator is a first-person investigator
 Who reconstructs events from testimony and memory. His narrative voice is hybrid: it combines the
-Precision of journalism ("according to the testimony of...") with the subjectivity of personal
+precision of journalism ("according to the testimony of...") with the subjectivity of personal
 Memory ("I was there"). This hybridity is essential to the novel's effect: it creates a narrator who
 is simultaneously authoritative and uncertain, compelling the reader to evaluate the reliability of
 every claim.
@@ -576,9 +576,9 @@ every claim.
 ### 5.2 Symbolism and Motif Tracking
 
 A symbol is a concrete object, image, or action that represents an abstract idea. A motif is a
-Recurring element -- an image, a phrase, a structural pattern -- that accumulates significance
+recurring element -- an image, a phrase, a structural pattern -- that accumulates significance
 through repetition. The distinction is important: a symbol may appear once and carry meaning through
-Convention or context; a motif derives its power from recurrence.
+convention or context; a motif derives its power from recurrence.
 
 **System for motif tracking:**
 
@@ -593,16 +593,16 @@ Convention or context; a motif derives its power from recurrence.
 **Worked example:** In _A Streetcar Named Desire_, the motif of light recurs across the play in
 Multiple forms: the bare lightbulb, the paper lantern, the Varsouviana polka (an auditory
 Equivalent), Blanche's avoidance of bright light, and the "merciless glare" she fears. Tracking this
-Motif across its occurrences reveals a consistent pattern: light is associated with exposure, truth,
+motif across its occurrences reveals a consistent pattern: light is associated with exposure, truth,
 And the destruction of Blanche's protective illusions. Each recurrence of the motif intensifies this
-Association until the climactic moment when Stanley tears the paper lantern from the bulb -- the
-Moment at which the motif's symbolic logic is fully enacted.
+association until the climactic moment when Stanley tears the paper lantern from the bulb -- the
+moment at which the motif's symbolic logic is fully enacted.
 
 ### 5.3 Structural Analysis
 
 Structural analysis examines how a text is organised and how that organisation produces meaning.
 Structure is not merely the order in which events happen; it is the architecture of the text, the
-Pattern of emphasis, delay, repetition, and variation that shapes the reader's experience.
+pattern of emphasis, delay, repetition, and variation that shapes the reader's experience.
 
 **Key structural concepts:**
 
@@ -621,44 +621,44 @@ Pattern of emphasis, delay, repetition, and variation that shapes the reader's e
 
 **Worked example:** The circular structure of _Chronicle of a Death Foretold_ -- the narrative
 Returns to the narrator's investigation at both the beginning and the end -- produces several
-Effects simultaneously. It creates a sense of inevitability (the story is contained within its own
+effects simultaneously. It creates a sense of inevitability (the story is contained within its own
 Ending). It implicates the narrator (the act of telling is itself a form of complicity). And it
-Mirrors the novel's thematic concern with the impossibility of arriving at a single, definitive
+mirrors the novel's thematic concern with the impossibility of arriving at a single, definitive
 Account of the past.
 
 ### 5.4 Language Analysis
 
 Language analysis is the most granular level of close reading. It examines the specific words,
 Phrases, and sentence patterns a writer uses and explains how those choices produce meaning and
-Effect.
+effect.
 
 **Diction.** Word choice is never neutral. Every word carries connotations, and the specific words a
 Writer chooses reveal their attitude toward the subject matter. Analyse diction by asking: Why this
-Word and not another? What does this word suggest that a synonym would not? What register does this
-Word belong to (formal, colloquial, technical, archaic)?
+word and not another? What does this word suggest that a synonym would not? What register does this
+word belong to (formal, colloquial, technical, archaic)?
 
 **Syntax.** Sentence structure shapes meaning at the level of rhythm and emphasis. Short sentences
 Create urgency, finality, or emphasis. Long, complex sentences create flowing, digressive, or
 Accumulative effects. Fragments create a sense of interruption, incompleteness, or shock. Analyse
 Syntax by asking: Why is this sentence structured in this way? How would the effect change if the
-Syntax were different?
+syntax were different?
 
 **Figurative language.** Metaphor, simile, personification, and other figures of speech are not
 Decorative; they are cognitive instruments that shape how the reader understands the subject. When
-Analysing a figure of speech, identify both the vehicle (the image used) and the tenor (the thing
+analysing a figure of speech, identify both the vehicle (the image used) and the tenor (the thing
 being described), and explain what the comparison reveals that literal description would not.
 
 **Imagery.** Imagery is descriptive language that appeals to the senses. Analyse imagery by
 Identifying which senses are invoked and explaining why. Visual imagery is the most common, but
-Auditory, tactile, olfactory, and gustatory imagery can be equally powerful. The choice of sensory
+auditory, tactile, olfactory, and gustatory imagery can be equally powerful. The choice of sensory
 Mode is never arbitrary; it reflects the writer's thematic and emotional priorities.
 
 **Worked example:** Consider the opening sentence of _Chronicle of a Death Foretold_: "On the day
 They were going to kill him, Santiago Nasar got up at five-thirty in the morning to wait for the
-Boat the bishop was coming on." The diction is deliberately flat and matter-of-fact: "got up,"
+boat the bishop was coming on." The diction is deliberately flat and matter-of-fact: "got up,"
 "five-thirty," "wait for the boat." The syntax is a single, continuous sentence that links the
-Mundane (waking up, waiting for a boat) with the horrific (being killed) without any shift in
-Register or emphasis. The effect is one of devastating understatement: the most momentous event in
+mundane (waking up, waiting for a boat) with the horrific (being killed) without any shift in
+register or emphasis. The effect is one of devastating understatement: the most momentous event in
 Santiago's life is presented with the same tonal weight as a domestic routine. This understatement
 is itself a form of irony, and it establishes the narrative voice that will sustain the entire
 Novel.
@@ -690,15 +690,15 @@ Narrative registers. Williams presents her through dialogue (her own poetic, eva
 Through stage directions (the detailed descriptions of her appearance and behaviour), and through
 other characters' perceptions (Stanley's hostility, Stella's ambivalence, Mitch's idealisation).
 These multiple registers create a character who is simultaneously knowable and mysterious: the
-Reader has access to more information about Blanche than any single character in the play, yet the
-Contradictions between these perspectives prevent any final, stable interpretation. This narrative
+reader has access to more information about Blanche than any single character in the play, yet the
+contradictions between these perspectives prevent any final, stable interpretation. This narrative
 Construction mirrors Blanche's own condition: she is a woman whose identity is constantly being
-Interpreted, judged, and dismantled by those around her.
+interpreted, judged, and dismantled by those around her.
 
 ### 5.6 Thematic Analysis
 
 Thematic analysis identifies the central concerns of a text and traces how those concerns are
-Developed through specific formal features. A theme is not a topic (e.g., "death") but an argument
+developed through specific formal features. A theme is not a topic (e.g., "death") but an argument
 or proposition that the text advances about that topic (e.g., "death is inevitable but socially
 Constructed; it is the community, not fate, that kills Santiago Nasar").
 
@@ -751,8 +751,8 @@ this sentence, the identification is not worth including.
 ### 6.2 The Plot-Summary Error
 
 Plot summary occurs when a student recounts what happens in the text instead of analysing how the
-Text works. This error is particularly common in Paper 2 and in the HL Essay, where the student is
-Expected to discuss a text the examiner already knows.
+text works. This error is particularly common in Paper 2 and in the HL Essay, where the student is
+expected to discuss a text the examiner already knows.
 
 **Why it is an error:** The examiner knows the plot. Recounting it demonstrates familiarity with the
 Text but not analytical skill. Every sentence in an IB English essay must contribute to an argument;
@@ -760,12 +760,12 @@ A sentence that merely describes an event without interpreting it is wasted spac
 
 **How to avoid it:** Before writing any sentence about the text, ask: "Does this sentence advance my
 Argument?" If the sentence merely describes what happens, revise it so that it explains the
-Significance of what happens.
+significance of what happens.
 
 ### 6.3 The Context-Without-Connection Error
 
 This error occurs when a student provides biographical, historical, or cultural information without
-Showing how it connects to specific features of the text. The information floats free of analysis,
+showing how it connects to specific features of the text. The information floats free of analysis,
 Functioning as background rather than as evidence.
 
 **Why it is an error:** Context is valuable only insofar as it illuminates the text. A paragraph
@@ -782,7 +782,7 @@ Evidence. Assertions without evidence are opinions, not arguments.
 
 **Why it is an error:** In literary analysis, claims must be supported by evidence. An assertion
 Like "Blanche is a tragic character" is not self-evidently true; it must be demonstrated through
-Analysis of specific passages.
+analysis of specific passages.
 
 **How to avoid it:** Every analytical claim must be accompanied by a quotation or a precise
 Reference to the text. The quotation should be brief, specific, and analytically productive.
@@ -875,7 +875,7 @@ of every IB English student's active vocabulary:
 ### 7.5 The Argumentative Essay as Engineering
 
 Think of an analytical essay as an engineered structure. Every component has a function, and the
-Integrity of the whole depends on the precision of each part. A weak thesis is like a cracked
+integrity of the whole depends on the precision of each part. A weak thesis is like a cracked
 Foundation; unsupported claims are like unsupported beams; vague transitions are like missing
 Joints. The essay must bear load -- the load of argument -- and every sentence must contribute to
 that load-bearing function.

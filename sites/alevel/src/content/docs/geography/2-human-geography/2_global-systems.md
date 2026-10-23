@@ -383,7 +383,7 @@ war) and supply chain disruptions (COVID-19), expanding production in India and 
 ### Case Study 2: The Syrian Refugee Crisis and European Migration
 
 The Syrian Civil War, beginning in 2011, created one of the largest refugee crises since the Second
-World War. By 2023, approximately 6.8 million Syrians were registered as refugees, primarily in
+world War. By 2023, approximately 6.8 million Syrians were registered as refugees, primarily in
 Turkey (approximately 3.6 million), Lebanon (approximately 830,000), and Jordan (approximately
 660,000). Approximately 6.9 million were internally displaced within Syria.
 

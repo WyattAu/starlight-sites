@@ -375,7 +375,7 @@ Buffer, network packet buffer).
 ### Definition
 
 A **priority queue** is a queue where each element has an associated priority, and elements are
-Dequeued in priority order (highest first, or lowest first).
+dequeued in priority order (highest first, or lowest first).
 
 ### Implementation Options
 
@@ -517,8 +517,8 @@ the stack (otherwise the prefix would have more `)` than `(`Contradicting balanc
 `(` have been matched, so the stack is empty.
 
 (_Only if_) Suppose the algorithm returns "balanced" (stack empty at end, no underflow). No
-Underflow means every `)` matched a previous `(`. Empty stack means every `(` was matched. Hence the
-String is balanced. $\square$
+underflow means every `)` matched a previous `(`. Empty stack means every `(` was matched. Hence the
+string is balanced. $\square$
 
 Time: $O(n)$, one pass through the string. Space: $O(n)$, stack depth.
 
@@ -627,13 +627,13 @@ Evaluates to exactly one value (the stack has exactly one element at the end).
 **Proof by induction on $n$ (number of operands).**
 
 _Base case._ $n = 1$: The expression is a single operand. After processing, the stack has one
-Element. ✓
+element. ✓
 
 _Inductive step._ Assume the claim holds for all expressions with $k$ operands ($k \geq 1$).
 Consider an expression with $k + 1$ operands. In a valid RPN expression, there exists a first
-Operator $\oplus$ that, when processed, reduces the stack by one (pops 2, pushes 1). Before this
-Operator, some prefix of the expression has evaluated to a stack with at least 2 elements. The
-Prefix before $\oplus$ is a valid sub-expression with $m$ operands and $m - 1$ operators (for some
+operator $\oplus$ that, when processed, reduces the stack by one (pops 2, pushes 1). Before this
+operator, some prefix of the expression has evaluated to a stack with at least 2 elements. The
+prefix before $\oplus$ is a valid sub-expression with $m$ operands and $m - 1$ operators (for some
 $m \geq 2$), and by the inductive hypothesis evaluates to exactly $m$ values, but we need exactly 2
 Values before $\oplus$.
 
@@ -778,7 +778,7 @@ when `size == capacity`.
 
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
 `rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`. But the queue is not
-Empty, we use the `size` variable to distinguish full from empty.
+empty, we use the `size` variable to distinguish full from empty.
 
 </details>
 
@@ -820,7 +820,7 @@ Pre-allocate a large array, and no risk of stack overflow from a fixed capacity.
 
 **Problem 6.** A queue is implemented using a simple (non-circular) array where `enqueue` adds at
 `rear` and `dequeue` removes from `front`Shifting all remaining elements left by one. What is the
-Time complexity of `enqueue` and `dequeue`? Explain why this implementation is inefficient for large
+time complexity of `enqueue` and `dequeue`? Explain why this implementation is inefficient for large
 Queues.
 
 <details>
@@ -839,7 +839,7 @@ Consider how many elements need to be moved when dequeuing from the front of a n
 
 **Why inefficient:** After dequeuing, every remaining element must be shifted. For a queue of $n$
 Elements, dequeue performs $n-1$ assignments. If $n$ is large (e.g., a print queue with 10,000
-Jobs), each dequeue is expensive. Over $m$ operations, the total cost is $O(m \cdot n)$ in the worst
+jobs), each dequeue is expensive. Over $m$ operations, the total cost is $O(m \cdot n)$ in the worst
 Case.
 
 A circular array eliminates this by using modular arithmetic: `front = (front + 1) % capacity`
@@ -888,7 +888,7 @@ Verification: $(6 \times (2 + 3)) - 4 = 30 - 4 = 26$. ✓
 <summary>Hint</summary>
 
 Push opening brackets onto the stack. For each closing bracket, pop and check that it matches the
-Corresponding opening bracket.
+corresponding opening bracket.
 
 </details>
 
@@ -973,10 +973,10 @@ ENDFUNCTION
 **Problem 10.** (Exam-style) A software company is building two features: (A) a web browser's
 Back/forward navigation system, and (B) a customer support ticket system where tickets are answered
 in the order they are received. For each feature, recommend whether a stack or a queue is the most
-Appropriate data structure. Justify your answer by explaining why the chosen structure's ordering
+appropriate data structure. Justify your answer by explaining why the chosen structure's ordering
 Principle matches the feature's requirements, and explain why the alternative structure would be
-Incorrect. Include a discussion of how each structure would be implemented (array-based or
-Linked-list-based) and justify your choice.
+incorrect. Include a discussion of how each structure would be implemented (array-based or
+linked-list-based) and justify your choice.
 
 <details>
 <summary>Hint</summary>
@@ -996,12 +996,12 @@ is LIFO behaviour, a stack.
 
 Implementation: **Linked-list-based stack**. The number of pages visited is unpredictable and could
 be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
-Overflow. Push (visit a page) and pop (go back) are both $O(1)$. Two stacks are used: one for the
-Back history and one for the forward history.
+overflow. Push (visit a page) and pop (go back) are both $O(1)$. Two stacks are used: one for the
+back history and one for the forward history.
 
 Why a queue would be wrong: A queue would return the user to the **first** page visited, not the
 most recent. This would make the back button navigate to the homepage every time, which is
-Incorrect.
+incorrect.
 
 **(B) Customer support tickets, Queue**
 
@@ -1011,11 +1011,11 @@ Behaviour, a queue.
 Implementation: **Circular array queue**. The volume of support tickets can be estimated (allowing
 Capacity planning), and the contiguous memory gives better performance. Both enqueue (new ticket)
 And dequeue (next ticket to answer) are $O(1)$. If the volume is highly variable, a
-Linked-list-based queue would be more flexible.
+linked-list-based queue would be more flexible.
 
 Why a stack would be wrong: A stack would process the **most recently submitted** ticket first. This
-Means a customer who submitted a ticket hours ago would wait indefinitely while new tickets are
-Handled, unfair and violating the FIFO service guarantee.
+means a customer who submitted a ticket hours ago would wait indefinitely while new tickets are
+handled, unfair and violating the FIFO service guarantee.
 
 </details>
 

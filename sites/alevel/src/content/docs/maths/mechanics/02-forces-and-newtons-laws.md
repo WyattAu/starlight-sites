@@ -91,7 +91,7 @@ through the centre of mass.
 ### 2.2 Normal reaction
 
 The normal reaction $R$ (or $N$) is the perpendicular contact force exerted by a surface. Its
-Direction is always perpendicular to the surface.
+direction is always perpendicular to the surface.
 
 ### 2.3 Tension
 
@@ -158,7 +158,7 @@ In A Level, we assume $\mu_s = \mu_k = \mu$.
 ### 4.3 Angle of friction
 
 The angle of friction $\lambda$ satisfies $\tan\lambda = \mu$. This is the steepest angle at which a
-Body can rest on an inclined plane without sliding.
+body can rest on an inclined plane without sliding.
 
 **Proof.** On an inclined plane at angle $\alpha$:
 
@@ -317,7 +317,7 @@ Friction.
 ### 8.3 Connected particles on rough surfaces
 
 When two particles are connected by a string and one or both surfaces are rough, friction must be
-Included in the equations of motion for each particle.
+included in the equations of motion for each particle.
 
 **Method:**
 
@@ -328,7 +328,7 @@ Included in the equations of motion for each particle.
 
 **Example.** A particle of mass $4\,\mathrm{kg}$ on a rough horizontal table ($\mu = 0.3$) is
 Connected by a light inextensible string over a smooth pulley at the table edge to a particle of
-Mass $3\,\mathrm{kg}$ hanging vertically. Find the acceleration.
+mass $3\,\mathrm{kg}$ hanging vertically. Find the acceleration.
 
 For the $3\,\mathrm{kg}$ mass (assumed descending): $3g - T = 3a$.
 
@@ -440,7 +440,7 @@ $$
 ### 10.1 Resolving forces on a rough inclined plane
 
 For a block of mass $m$ on a plane inclined at angle $\alpha$ to the horizontal, with coefficient of
-Friction $\mu$:
+friction $\mu$:
 
 **Perpendicular to the plane (equilibrium):**
 
@@ -559,7 +559,7 @@ $$
 $$
 
 Where $O$ is any convenient point (often where an unknown force acts, to eliminate it from the
-Moment equation).
+moment equation).
 
 ### 11.2 Coplanar forces -- three-force principle
 
@@ -572,7 +572,7 @@ If a body in equilibrium is acted upon by exactly three coplanar forces, then:
 ### 11.3 Lami's theorem
 
 If three coplanar forces $F_1$, $F_2$, $F_3$ act on a body in equilibrium, and $\theta_1$ is the
-Angle between $F_2$ and $F_3$, $\theta_2$ is the angle between $F_1$ and $F_3$ And $\theta_3$ is The
+angle between $F_2$ and $F_3$, $\theta_2$ is the angle between $F_1$ and $F_3$ And $\theta_3$ is The
 angle between $F_1$ and $F_2$ Then:
 
 $$
@@ -584,7 +584,7 @@ Angle of $30^\circ$ with the vertical and the other makes an angle of $60^\circ$
 Find the tensions.
 
 The three forces are: $T_1$ (at $30^\circ$ from vertical), $T_2$ (at $60^\circ$ from vertical), and
-Weight $W = 10g$ (vertically downward).
+weight $W = 10g$ (vertically downward).
 
 Angles between the forces: the angle between $T_1$ and $T_2$ is $30° + 60° = 90^\circ$.
 
@@ -606,14 +606,14 @@ $$
 
 When three coplanar forces maintain a body in equilibrium, the forces can be drawn as a triangle
 with the forces as sides. The triangle is closed (the head of the last vector meets the tail of the
-First).
+first).
 
 This is equivalent to Lami's theorem and follows from the sine rule applied to the force triangle.
 
 ### 11.5 Worked example -- beam in equilibrium
 
 A uniform beam $AB$ of length $4\,\mathrm{m}$ and mass $20\,\mathrm{kg}$ is hinged at $A$ and
-Supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. A particle of mass
+supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. A particle of mass
 $30\,\mathrm{kg}$ hangs from the beam at a point $1.5\,\mathrm{m}$ from $A$. Find the tension in the
 Wire and the reaction at the hinge.
 
@@ -1018,7 +1018,7 @@ $43.3 - 19.6 - 35.37 = 4a$
 $-11.67 = 4a$
 
 Since $a \lt 0$ The block does not move up the slope with this force. The applied force is
-Insufficient to overcome both gravity and friction.
+insufficient to overcome both gravity and friction.
 
 **If you get this wrong, revise:**
 [Block on an inclined plane with a horizontal applied force](#104-block-on-an-inclined-plane-with-a-horizontal-applied-force)
@@ -1101,7 +1101,7 @@ $29.4 - 3a - 41.49 = 5a$
 $-12.09 = 8a \implies a = -1.51\,\mathrm{m/s}^2$
 
 Since $a$ is still negative, the system does not move at all. The hanging mass is too light to
-Overcome friction plus the component of weight down the slope.
+overcome friction plus the component of weight down the slope.
 
 Check: the force trying to pull the $5\,\mathrm{kg}$ block up the slope is $3g = 29.4\,\mathrm{N}$.
 The force opposing this is $5g\sin 30° + \mu(5g\cos 30°) = 24.5 + 16.99 = 41.49\,\mathrm{N}$.

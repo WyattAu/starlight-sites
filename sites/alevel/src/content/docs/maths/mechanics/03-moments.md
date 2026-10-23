@@ -62,7 +62,7 @@ Friend balance you.
 **Crane counterweight.** Tower cranes have a heavy concrete counterweight on the short arm behind
 The tower. When a load is lifted on the long arm, the counterweight generates a restoring
 (anticlockwise) moment about the base to prevent the crane from tipping. The counterweight must
-Satisfy
+satisfy
 $W_{\mathrm{load}} \times d_{\mathrm{long}} \lt W_{\mathrm{counter}} \times d_{\mathrm{short}}$.
 
 **Spanner and bolt.** A spanner of length $0.2\,\mathrm{m}$ applies a force of $50\,\mathrm{N}$
@@ -121,7 +121,7 @@ $R_{\mathrm{left}}$ decreases, the bridge load redistributes continuously.
 
 :::caution
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
-Unknown from the moment equation.
+unknown from the moment equation.
 :::
 
 <hr />
@@ -168,7 +168,7 @@ M_O = F \times d_A - F \times d_B = F(d_A - d_B) = F \times d
 $$
 
 Where $d_A$ and $d_B$ are the perpendicular distances from $O$ to the lines of action. The result is
-Independent of $O$. $\blacksquare$
+independent of $O$. $\blacksquare$
 
 ### 3.1.3 Real-world examples of couples
 
@@ -180,21 +180,21 @@ Independent of $O$. $\blacksquare$
 ### 3.1.4 Torque as a vector
 
 In two dimensions, torque (moment) can be treated as a scalar with a sign indicating direction. In
-Three dimensions, torque is a vector:
+three dimensions, torque is a vector:
 
 $$
 \boldsymbol{\tau} = \mathbf{r} \times \mathbf{F}
 $$
 
 The direction of $\boldsymbol{\tau}$ is given by the right-hand rule and is perpendicular to the
-Plane containing $\mathbf{r}$ and $\mathbf{F}$.
+plane containing $\mathbf{r}$ and $\mathbf{F}$.
 
 > **Info:** Info Anticlockwise are the only two directions you need to consider.
 >
 ### 3.1.5 Equilibrium of couples
 
 If a body is acted on by several couples, the body is in rotational equilibrium if and only if the
-Total torque is zero:
+total torque is zero:
 
 $$
 \sum \tau_i = 0
@@ -208,7 +208,7 @@ Zero net force.
 ## 3.2 Ladders Against Walls
 
 Ladder problems are a classic application of moments that combine friction, normal reactions, and
-Weight resolution. They test all three equilibrium conditions simultaneously.
+weight resolution. They test all three equilibrium conditions simultaneously.
 
 ### 3.2.1 Standard ladder setup
 
@@ -268,7 +268,7 @@ high and the ladder slips.
 ## 3.3 Non-Uniform Beams
 
 Non-uniform beams have their centre of mass away from the geometric centre. The position of the
-Centre of mass must be determined from the information given.
+centre of mass must be determined from the information given.
 
 ### 3.3.1 Finding the centre of mass of a non-uniform beam
 
@@ -295,7 +295,7 @@ So the centre of mass is $d_B = \dfrac{R_A L}{W}$ from end $B$.
 
 A framework (or truss) is a structure made of rods joined at points called **joints** or **nodes**.
 Each rod is assumed to be light and either in tension (being stretched) or compression (being
-Squeezed).
+squeezed).
 
 ### 3.4.1 Assumptions
 
@@ -413,7 +413,7 @@ $\bar{y} = \dfrac{168 + 32\sqrt{3}}{72 + 12\sqrt{3}} \approx 2.30\,\mathrm{cm}$.
 ### 4.3.2 Subtraction method
 
 When a shape has a hole or cut-out, treat it as a **negative mass**. If a rectangle of area $A_2$ is
-Removed from a larger rectangle of area $A_1$:
+removed from a larger rectangle of area $A_1$:
 
 $$
 \bar{x} = \frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}
@@ -442,7 +442,7 @@ This is extremely useful for L-shapes, T-shapes, and shapes with circular or tri
 ### 5.1 Tilting
 
 A body on a surface will **tilt** (start to rotate) when the moment of the applied force about the
-Point of tilting exceeds the restoring moment.
+point of tilting exceeds the restoring moment.
 
 ### 5.2 Condition for toppling vs. Sliding
 
@@ -722,8 +722,8 @@ $2500 = 300x + 800$.
 $300x = 1700 \implies x = \dfrac{1700}{300} = \dfrac{17}{3} \approx 5.67\,\mathrm{m}$.
 
 Since $x > 5\,\mathrm{m}$ (the length of the beam), the centre of mass lies **beyond** end $B$. This
-Makes sense, the tension at $B$ is large relative to the load, suggesting the beam is heavier near
-End $B$.
+makes sense, the tension at $B$ is large relative to the load, suggesting the beam is heavier near
+end $B$.
 
 Wait, let us check: if the beam is $5\,\mathrm{m}$ long, the centre of mass must lie on the beam.
 Let us re-examine.
@@ -731,7 +731,7 @@ Let us re-examine.
 $2500 = 300x + 800 \implies x = \dfrac{1700}{300} = 5.67\,\mathrm{m}$.
 
 This is impossible for a $5\,\mathrm{m}$ beam. The given data is inconsistent, there must be an
-Error in the problem statement. In an exam, you would state that no valid position exists.
+error in the problem statement. In an exam, you would state that no valid position exists.
 
 **If you get this wrong, revise:** [Non-Uniform Beams](#33-non-uniform-beams), Section 3.3.
 
@@ -787,7 +787,7 @@ For sliding to occur before toppling: $P_{\mathrm{slide}} \lt P_{\mathrm{topple}
 $120 \lt \dfrac{100}{h} \implies h \lt \dfrac{100}{120} = \dfrac{5}{6} \approx 0.833\,\mathrm{m}$.
 
 So the block will slide before it topples if $h \lt \dfrac{5}{6}\,\mathrm{m}$ (i.e., the force is
-Applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
+applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
 
 For $h > \dfrac{5}{6}\,\mathrm{m}$ The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
 and toppling occur simultaneously.

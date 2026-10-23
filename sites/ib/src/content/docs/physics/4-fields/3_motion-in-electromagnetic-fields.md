@@ -29,7 +29,7 @@ except for the charge.
 ## Lorentz Force Law
 
 [Coulomb's Law](/physics/4-fields/2_electric-and-magnetic-fields/#coulombs-law) is only valid for electrostatics, as
-Magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
+magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
 ($q$) can be governed by Lorentz force law:
 
 $$
@@ -60,8 +60,8 @@ $$
 
 The total force ($\bm{F}$) on a current ($ I$) is determined by the combine force on the total number
 ($N$) of moving charges ($q$) in the current. As the dimensions of a electron is negligible when
-Comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
-Continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
+comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
+continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
 since the electric field have a negligible effect, only the force applied by magnetic field
 ($\bm{B}$ is accounted):
 
@@ -91,7 +91,7 @@ $$
 $$
 
 Since IB considers the direction separately by the use of right hand rule (Motor effect), the
-Magnitude of the force is expressed as:
+magnitude of the force is expressed as:
 
 $$
 \begin`\{aligned}`
@@ -104,7 +104,7 @@ This is expressed in the formula booklet $D.3$.
 #### Motion Between Currents
 
 According to Ampere's Law, current ($I_1$) generates a magnetic field ($\bm{B_1}$), due to
-Rotational symmetry around the direction of current, the magnetic field can be express using
+rotational symmetry around the direction of current, the magnetic field can be express using
 Cylindrical coordinates ($\hat{\phi}$) shows:
 
 $$
@@ -165,7 +165,7 @@ Key points:
 ## Force on a Moving Charge in a Magnetic Field
 
 When a charge $q$ moves with velocity $\bm{v}$ through a magnetic field $\bm{B}$ It experiences the
-Magnetic component of the Lorentz force:
+magnetic component of the Lorentz force:
 
 $$
 \bm{F_B} = q(\bm{v} \times \bm{B})
@@ -184,7 +184,7 @@ Key points:
 
 Point your fingers in the direction of $\bm{v}$ (for a positive charge), curl them towards $\bm{B}$
 and your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. An electron), the
-Force is in the **opposite** direction.
+force is in the **opposite** direction.
 
 ---
 
@@ -200,7 +200,7 @@ Force is in the **opposite** direction.
 ## Circular Motion of a Charged Particle in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field ($\bm{v} \perp \bm{B}$), the
-Magnetic force provides the centripetal force, causing the particle to move in a circular path.
+magnetic force provides the centripetal force, causing the particle to move in a circular path.
 
 ### Derivation of the Radius
 
@@ -262,7 +262,7 @@ $$
 
 **Exam tip:** When dealing with electrons, remember that the charge is negative. Use the magnitude
 Of the charge in the radius/period formulae, and apply the right-hand rule in reverse to find the
-Direction of the force.
+direction of the force.
 
 ---
 
@@ -279,7 +279,7 @@ Direction of the force.
 
 When a charged particle enters a magnetic field at an angle $\theta$ (not $90^\circ$) to the field,
 The velocity component parallel to $\bm{B}$ ($v_\parallel = v \cos\theta$) is unaffected by the
-Magnetic force. Only the perpendicular component ($v_\perp = v \sin\theta$) causes circular motion.
+magnetic force. Only the perpendicular component ($v_\perp = v \sin\theta$) causes circular motion.
 The result is a **helical** (spiral) path.
 
 - The radius of the helix: $r = \frac{mv_\perp}{qB} = \frac{mv \sin\theta}{qB}$
@@ -305,7 +305,7 @@ A specific velocity.
 ### Principle
 
 A particle of charge $q$ and velocity $v$ enters a region where an electric field $\bm{E}$ and a
-Magnetic field $\bm{B}$ are perpendicular to each other and to the direction of motion.
+magnetic field $\bm{B}$ are perpendicular to each other and to the direction of motion.
 
 The electric force and magnetic force act in opposite directions:
 
@@ -327,7 +327,7 @@ V = \frac{E}{B}
 $$
 
 Only particles with this exact velocity pass through. Particles with $v \gt E/B$ are deflected one
-Way; particles with $v \lt E/B$ are deflected the other way.
+way; particles with $v \lt E/B$ are deflected the other way.
 
 ### Worked Example: Velocity Selector
 
@@ -357,7 +357,7 @@ $E$ and $B$. This means it selects a velocity, not a specific particle type.
 ## The Mass Spectrometer
 
 A mass spectrometer is a device that separates ions by their mass-to-charge ratio. It is used in
-Chemistry, forensics, environmental science, and many other fields.
+chemistry, forensics, environmental science, and many other fields.
 
 ### How It Works
 
@@ -405,8 +405,8 @@ $$
 
 **Question:** In a mass spectrometer, singly charged ions ($q = +e = 1.60 \times 10^{-19}$ C) are
 Accelerated through $V = 5000$ V and enter a magnetic field of $B = 0.20$ T. Two isotopes are
-Detected at radii of $r_1 = 10.2$ cm and $r_2 = 10.8$ cm. Calculate the mass of each isotope in
-Atomic mass units (u), where $1 \mathrm{ u} = 1.66 \times 10^{-27}$ kg.
+detected at radii of $r_1 = 10.2$ cm and $r_2 = 10.8$ cm. Calculate the mass of each isotope in
+atomic mass units (u), where $1 \mathrm{ u} = 1.66 \times 10^{-27}$ kg.
 
 **Solution:**
 
@@ -572,7 +572,7 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 **Question:** A cyclotron is used to accelerate protons ($m_p = 1.67 \times 10^{-27}$ kg,
 $q = +1.60 \times 10^{-19}$ C) to a maximum speed of $2.0 \times 10^7$ m/s. The magnetic field
 Strength is $B = 1.2$ T. A) What is the radius of the cyclotron at maximum speed? b) What is the
-Cyclotron frequency? c) What is the maximum kinetic energy of the protons in electron-volts?
+cyclotron frequency? c) What is the maximum kinetic energy of the protons in electron-volts?
 
 **Solution:**
 
@@ -653,7 +653,7 @@ M_2 = \frac{3.33 \times 10^{-26}}{1.66 \times 10^{-27}} = 20.1 \mathrm{ u}
 $$
 
 These correspond to neon-20 (20.2 u) and neon-22 (21.9 u), the slight discrepancy is due to
-Simplified values.
+simplified values.
 
 ---
 
@@ -710,7 +710,7 @@ Simplified values.
 An alpha particle ($m = 6.64 \times 10^{-27}$ kg, $q = +3.20 \times 10^{-19}$ C) moves with speed
 $5.0 \times 10^6$ m/s perpendicular to a uniform magnetic field of $B = 0.80$ T. Calculate: a) The
 Magnetic force on the alpha particle. B) The radius of its circular path. C) The period of its
-Orbit.
+orbit.
 
 </details>
 
@@ -734,9 +734,9 @@ S.
 
 A velocity selector is designed to select ions with velocity $4.0 \times 10^5$ m/s. The magnetic
 Field is $B = 0.30$ T. A) What electric field strength is required? b) An ion with charge $+2e$ and
-Mass $6.68 \times 10^{-26}$ kg passes through the selector undeflected. It then enters a region of
-Uniform magnetic field ($B = 0.50$ T) perpendicular to its velocity. Calculate the radius of the
-Resulting circular path.
+mass $6.68 \times 10^{-26}$ kg passes through the selector undeflected. It then enters a region of
+uniform magnetic field ($B = 0.50$ T) perpendicular to its velocity. Calculate the radius of the
+resulting circular path.
 
 </details>
 
@@ -780,7 +780,7 @@ $= 0.269$ mm.
 <summary>Question 4</summary>
 
 Two long straight parallel wires carry currents of $I_1 = 8.0$ A and $I_2 = 5.0$ A in the same
-Direction. The wires are separated by $d = 0.10$ m. Calculate: a) The magnetic force per unit length
+direction. The wires are separated by $d = 0.10$ m. Calculate: a) The magnetic force per unit length
 between the wires. B) State whether the force is attractive or repulsive. Justify your answer.
 
 </details>
@@ -803,7 +803,7 @@ from the right-hand rule and the Lorentz force law.
 
 Explain why a magnetic field cannot be used to increase the speed of a charged particle. In your
 Answer, refer to the work-energy theorem and the direction of the magnetic force relative to the
-Velocity.
+velocity.
 
 </details>
 
@@ -824,7 +824,7 @@ circular or helical motion, but never the speed.
 
 A proton is accelerated from rest through a potential difference of 2000 V and then enters a region
 of uniform magnetic field ($B = 0.10$ T) perpendicular to its velocity. Calculate the radius of the
-Circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
+circular path. ($m_p = 1.67 \times 10^{-27}$ kg, $q = 1.60 \times 10^{-19}$ C)
 
 </details>
 

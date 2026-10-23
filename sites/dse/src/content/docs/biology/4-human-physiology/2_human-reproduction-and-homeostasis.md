@@ -91,7 +91,7 @@ categories:
 ### Spermatogenesis
 
 Spermatogenesis is the production of sperm in the seminiferous tubules of the testes. It begins at
-Puberty and continues throughout life.
+puberty and continues throughout life.
 
 **Process:**
 
@@ -124,7 +124,7 @@ Puberty and continues throughout life.
 ### Oogenesis
 
 Oogenesis is the production of ova (eggs) in the ovaries. It begins during foetal development and is
-Completed at fertilisation.
+completed at fertilisation.
 
 **Process:**
 
@@ -209,7 +209,7 @@ many functional gametes are produced in total? Explain the difference in outcome
 ### Overview
 
 The menstrual cycle is approximately 28 days and involves coordinated changes in the ovaries and the
-Uterus, controlled by four hormones.
+uterus, controlled by four hormones.
 
 ### The Four Key Hormones
 
@@ -415,7 +415,7 @@ Tissues. It is the interface for exchange of substances between maternal and foe
 
 :::caution
 Foetus to the placenta) and the umbilical VEIN carries oxygenated blood (from the placenta to the
-Foetus). This is the OPPOSITE of the naming convention in the systemic circulation, where arteries
+foetus). This is the OPPOSITE of the naming convention in the systemic circulation, where arteries
 Carry oxygenated blood. The naming is based on direction of flow relative to the heart: arteries
 Carry blood away from the heart, veins carry blood towards it. The umbilical arteries carry blood
 Away from the foetal heart.
@@ -470,8 +470,8 @@ foetal hormonal responses.
 ### Definition
 
 Homeostasis is the maintenance of a constant internal environment within narrow limits, despite
-Changes in the external environment. It is essential for the proper functioning of enzymes and
-Cellular processes.
+changes in the external environment. It is essential for the proper functioning of enzymes and
+cellular processes.
 
 **Key conditions regulated by homeostasis:**
 
@@ -486,7 +486,7 @@ Cellular processes.
 
 Negative feedback is the primary mechanism of homeostasis. When a parameter deviates from its set
 Point, the body initiates a response that reverses the deviation and restores the parameter to its
-Normal range.
+normal range.
 
 **General pattern:**
 
@@ -625,7 +625,7 @@ heat stroke (body temperature exceeds 40 degrees C, which is a medical emergency
 ### Normal Blood Glucose Level
 
 Blood glucose is maintained at approximately **90 mg/100 cm cubed** (approximately 5 mmol/L). This
-Concentration must be tightly regulated because:
+concentration must be tightly regulated because:
 
 - The brain relies almost exclusively on glucose as its energy source
 - Excessively high blood glucose (hyperglycaemia) damages blood vessels, nerves, and kidneys
@@ -698,7 +698,7 @@ Concentration must be tightly regulated because:
 Liver can release free glucose into the blood. Muscle glycogenolysis produces glucose-6-phosphate,
 Which is used directly by the muscle for respiration. Muscle lacks the enzyme glucose-6-phosphatase,
 Which is required to convert glucose-6-phosphate to free glucose. The DSE often tests this
-Distinction.
+distinction.
 :::
 
 **Worked Example**
@@ -812,7 +812,7 @@ Large proteins (e.g., albumin), red blood cells, white blood cells, platelets.
 
 **Glomerular filtration rate (GFR):** Approximately 125 cm cubed/min, or approximately 180 litres
 Per day. Since the average daily urine output is approximately 1.5 litres, approximately 99% of the
-Filtrate is reabsorbed.
+filtrate is reabsorbed.
 
 ### Selective Reabsorption
 
@@ -834,7 +834,7 @@ The PCT reabsorbs approximately 85% of the glomerular filtrate.
 </div>
 
 The PCT has numerous microvilli (increasing surface area) and many mitochondria (providing ATP for
-Active transport).
+active transport).
 
 **Loop of Henle:**
 
@@ -953,7 +953,7 @@ dehydrated, and (c) after the race when they drink a large volume of water.
 ### Definition
 
 Excretion is the removal of metabolic waste products from the body. These are substances produced by
-Metabolic reactions that, if allowed to accumulate, would be toxic or harmful.
+metabolic reactions that, if allowed to accumulate, would be toxic or harmful.
 
 **Key distinction:** Excretion is NOT the same as egestion. Egestion (defaecation) is the removal of
 Undigested food (faeces) from the body. Faeces have never been part of the body's metabolism, so

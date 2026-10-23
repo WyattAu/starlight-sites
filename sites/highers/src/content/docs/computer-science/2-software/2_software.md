@@ -87,7 +87,7 @@ Within 2 seconds").
 Requirements.
 
 Functional: (1) The system shall allow librarians to add new books. (2) The system shall track which
-Books are currently on loan. (3) The system shall generate overdue reports.
+books are currently on loan. (3) The system shall generate overdue reports.
 
 Non-functional: (1) The system shall respond to search queries within 1 second. (2) The system shall
 Support at least 50 concurrent users. (3) The system shall be available 99.5% of the time.

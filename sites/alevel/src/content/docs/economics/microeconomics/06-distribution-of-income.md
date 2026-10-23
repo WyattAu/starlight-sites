@@ -134,7 +134,7 @@ $r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$ Suggesting growing
 
 Global inequality (inequality between all individuals worldwide) has _declined_ since the 1980s,
 Primarily due to rapid growth in China and India. However, inequality _within_ most countries has
-Increased.
+increased.
 
 ## 3. Poverty
 
@@ -304,7 +304,7 @@ Failure and government intervention.
 ### 7.1 Derivation of the Gini Coefficient from the Lorenz Curve
 
 Let $L(p)$ be the Lorenz function, mapping the cumulative population proportion $p \in [0,1]$ to the
-Cumulative income proportion. The line of perfect equality is $L(p) = p$.
+cumulative income proportion. The line of perfect equality is $L(p) = p$.
 
 The area between the line of equality and the Lorenz curve is:
 
@@ -382,7 +382,7 @@ Cumulative shares: (0.2, 0.05), (0.4, 0.15), (0.6, 0.30), (0.8, 0.55), (1.0, 1.0
 
 **Problem 2.** A flat tax of 20% is proposed to replace the current progressive system. Explain why
 A flat tax is regressive when measured against _spending_ rather than income, even though it is
-Proportional against income.
+proportional against income.
 
 <details>
 <summary>Hint</summary>
@@ -391,7 +391,7 @@ Low-income households spend a larger proportion of their income (sometimes more 
 
 **Problem 3.** The median household income in a country is £30,000. The relative poverty line is 60%
 Of median income. A household has income of £16,000. Is this household in relative poverty? If the
-Median income rises to £35,000 but the household's income stays at £16,000, what happens?
+median income rises to £35,000 but the household's income stays at £16,000, what happens?
 
 <details>
 <summary>Hint</summary>
@@ -496,8 +496,8 @@ Substantial inequality. The bottom half of the population earns only 22% of tota
 ### 9.2 Comparing Two Lorenz Curves
 
 If country A's Lorenz curve is everywhere closer to the 45-degree line than country B's, then
-Country A has unambiguously lower inequality. If the curves cross, the comparison is ambiguous: one
-Country may have less inequality at the bottom of the distribution but more at the top.
+country A has unambiguously lower inequality. If the curves cross, the comparison is ambiguous: one
+country may have less inequality at the bottom of the distribution but more at the top.
 
 ## 10. Gini Coefficient: Extended Calculation
 
@@ -588,9 +588,9 @@ measured inequality.
 ### 12.1 The Poverty Trap Mechanism
 
 A **poverty trap** occurs when the effective marginal tax rate (EMTR) on additional income is so
-High that work does not significantly increase net income. When means-tested benefits are withdrawn
+high that work does not significantly increase net income. When means-tested benefits are withdrawn
 as earnings rise, the combined effect of income tax, National Insurance, and benefit withdrawal can
-Create EMTRs exceeding 80%.
+create EMTRs exceeding 80%.
 
 **Example.** A single parent earning $£15\,000$ receives $£8\,000$ in means-tested benefits. For
 Every extra $£1$ earned:
@@ -630,8 +630,8 @@ Creates high EMTRs when combined with income tax and National Insurance.
 ### 13.2 Evaluating Effectiveness
 
 The most effective redistribution strategies combine **predistribution** (reducing inequality before
-Tax, through education, minimum wages, and competition policy) with **redistribution** (taxing and
-Transferring after market incomes are determined). Over-reliance on either alone is less effective:
+tax, through education, minimum wages, and competition policy) with **redistribution** (taxing and
+transferring after market incomes are determined). Over-reliance on either alone is less effective:
 
 - Pure predistribution without redistribution leaves those unable to work (disabled, retired,
   unemployed) without support

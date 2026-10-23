@@ -45,7 +45,7 @@ nationally-standardised examination a CBSE student sits.
 ### Classes 11-12 (Senior Secondary Stage)
 
 Students choose a stream (Science, Commerce, or Humanities) and study specialised subjects. The
-Class 12 board exam is the final school-leaving examination and the primary criterion for
+class 12 board exam is the final school-leaving examination and the primary criterion for
 undergraduate admissions in India.
 
 ## Subject Areas Covered

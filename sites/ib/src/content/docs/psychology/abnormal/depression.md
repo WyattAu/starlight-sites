@@ -30,7 +30,7 @@ Suicidal ideation. Depression is one of the most common mental disorders, affect
 Family, twin, and adoption studies consistently demonstrate that depression has a heritable
 Component. The heritability of major depression is estimated at approximately 0.37 (Sullivan, Neale,
 And Kendler, 2000), indicating that genetic factors account for approximately 37% of the variance in
-Liability to depression, with the remaining variance attributable to environmental factors.
+liability to depression, with the remaining variance attributable to environmental factors.
 
 **Twin studies:** MZ twins show a concordance rate for depression of approximately 40--50%, compared
 To approximately 20--25% for DZ twins. The difference in concordance rates between MZ and DZ twins
@@ -47,7 +47,7 @@ Depression is a polygenic disorder influenced by many genes, each with a small e
 **The monoamine hypothesis:** The monoamine hypothesis of depression proposes that depression is
 Caused by a deficiency in monoamine neurotransmitters, particularly serotonin (5-HT), norepinephrine
 (NE), and dopamine (DA). This hypothesis was initially based on the observation that drugs that
-Deplete monoamines (e.g., reserpine) can cause depressive symptoms, while drugs that increase
+deplete monoamines (e.g., reserpine) can cause depressive symptoms, while drugs that increase
 Monoamine availability (e.g., MAO inhibitors, tricyclic antidepressants) have antidepressant
 Effects.
 
@@ -72,22 +72,22 @@ Inhibitors) in treating depression, which increase serotonin availability in the
 ### The HPA Axis and Neuroendocrine Factors
 
 The hypothalamic-pituitary-adrenal (HPA) axis is the body"s primary stress response system. In
-Response to stress, the hypothalamus releases corticotropin-releasing hormone (CRH), which
-Stimulates the pituitary gland to release adrenocorticotropic hormone (ACTH), which in turn
+response to stress, the hypothalamus releases corticotropin-releasing hormone (CRH), which
+stimulates the pituitary gland to release adrenocorticotropic hormone (ACTH), which in turn
 Stimulates the adrenal cortex to release cortisol.
 
 **HPA axis hyperactivity in depression:** Many individuals with depression show elevated cortisol
 Levels (hypercortisolism), enlarged adrenal glands, and impaired negative feedback regulation of the
 HPA axis. The dexamethasone suppression test (DST) demonstrates that approximately 50% of
-Individuals with major depression fail to suppress cortisol production in response to dexamethasone
+individuals with major depression fail to suppress cortisol production in response to dexamethasone
 (a synthetic glucocorticoid), indicating HPA axis dysregulation.
 
 **Mechanism:** Chronic stress leads to sustained activation of the HPA axis, resulting in elevated
 Cortisol levels. Chronic cortisol elevation damages hippocampal neurons (through excitotoxicity and
-Reduced BDNF expression), impairing the hippocampus's ability to regulate the HPA axis through
-Negative feedback. This creates a vicious cycle: stress causes HPA axis activation, cortisol damages
+reduced BDNF expression), impairing the hippocampus's ability to regulate the HPA axis through
+negative feedback. This creates a vicious cycle: stress causes HPA axis activation, cortisol damages
 the hippocampus, impaired hippocampal function further impairs HPA axis regulation, leading to more
-Cortisol release.
+cortisol release.
 
 ## Cognitive Explanations
 
@@ -95,7 +95,7 @@ Cortisol release.
 
 Aaron Beck proposed that depression is caused by systematic negative patterns of thinking. The core
 of Beck's theory is the **cognitive triad**: three types of negative beliefs about the self, the
-World, and the future.
+world, and the future.
 
 1. **Negative views about the self:** "I am worthless," "I am a failure," "I am unlovable." The
    individual believes they are fundamentally deficient.
@@ -123,7 +123,7 @@ Cognitive triad:
 
 - The theory has strong empirical support. Depressed individuals do show more negative automatic
   thoughts and cognitive distortions than non-depressed individuals, as measured by the
-  Dysfunctional Attitudes Scale and the Automatic Thoughts Questionnaire.
+  dysfunctional Attitudes Scale and the Automatic Thoughts Questionnaire.
 - The theory forms the basis of cognitive-behavioural therapy (CBT), which is one of the most
   effective treatments for depression.
 - However, the direction of causality is debated. Do negative cognitions cause depression, or does
@@ -136,7 +136,7 @@ Cognitive triad:
 
 **Seligman (1975):** Martin Seligman developed the learned helplessness model based on experiments
 With dogs. Dogs subjected to inescapable electric shocks (in which no response could terminate the
-Shock) later failed to escape from shocks in a situation where escape was possible. Seligman argued
+shock) later failed to escape from shocks in a situation where escape was possible. Seligman argued
 that the dogs had "learned" that their actions had no effect on outcomes, and this learned
 Helplessness generalised to new situations.
 
@@ -151,7 +151,7 @@ Experience negative events, they make causal attributions along three dimensions
 
 A **pessimistic attributional style** (attributing negative events to internal, stable, and global
 Causes: "I failed because I am incompetent, and I will always be incompetent at everything") is
-Associated with vulnerability to depression. An optimistic attributional style (attributing negative
+associated with vulnerability to depression. An optimistic attributional style (attributing negative
 Events to external, unstable, and specific causes) is protective.
 
 **Evaluation:**
@@ -179,7 +179,7 @@ Entrapment) were significantly more likely to develop depression.
 Depression is more prevalent among individuals of lower socioeconomic status (SES). Poverty,
 Unemployment, inadequate housing, food insecurity, and lack of access to healthcare all contribute
 to chronic stress, which increases vulnerability to depression. The relationship between SES and
-Depression is bidirectional: low SES increases the risk of depression, and depression impairs
+depression is bidirectional: low SES increases the risk of depression, and depression impairs
 Educational and occupational functioning, potentially perpetuating low SES.
 
 ### Gender Differences
@@ -211,12 +211,12 @@ than placebo, but the effect sizes are modest (approximately 0.3 standard deviat
 **Kirsch et al. (2008):** Analysed data from 35 clinical trials submitted to the FDA and found that
 The difference between SSRI and placebo was not significant for patients with mild or moderate
 Depression (effect size less than 0.2). For severe depression, the drug-placebo difference was
-Larger but still modest. This finding suggests that a significant proportion of the SSRI's
+larger but still modest. This finding suggests that a significant proportion of the SSRI's
 Therapeutic effect may be attributable to placebo effects.
 
 **Side effects:** SSRIs can cause nausea, insomnia, sexual dysfunction, weight gain, and emotional
 Blunting. SSRIs carry an FDA "black box" warning for increased risk of suicidal ideation in
-Children, adolescents, and young adults (under age 25).
+children, adolescents, and young adults (under age 25).
 
 ### Psychological Treatment: Cognitive-Behavioural Therapy (CBT)
 
@@ -232,7 +232,7 @@ Cognitive distortions, and core beliefs that maintain the cognitive triad. CBT i
 **Effectiveness:** CBT is at least as effective as pharmacotherapy for mild to moderate depression
 (Hollon et al., 2005) and may be more effective than pharmacotherapy in preventing relapse.
 Combination therapy (CBT plus antidepressants) may be more effective than either treatment alone for
-Severe depression.
+severe depression.
 
 ### Combination Therapy
 
@@ -240,7 +240,7 @@ For severe depression, the combination of pharmacotherapy and psychotherapy is o
 Elkin et al. (1989) conducted the NIMH Treatment of Depression Collaborative Research Program,
 Comparing CBT, interpersonal therapy (IPT), imipramine (a tricyclic antidepressant), and placebo.
 For severely depressed patients, both CBT and imipramine were more effective than placebo, and
-Combination approaches showed the greatest improvement.
+combination approaches showed the greatest improvement.
 
 <details>
 <summary>Common Pitfalls: Depression</summary>

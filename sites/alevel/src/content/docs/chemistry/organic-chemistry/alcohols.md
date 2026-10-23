@@ -64,7 +64,7 @@ Creating an extensive intermolecular network.
 
 Short-chain alcohols (methanol, ethanol, propan-1-ol) are miscible with water in all proportions.
 The $-\mathrm{OH}$ group forms hydrogen bonds with water, overcoming the hydrophobic effect of the
-Alkyl chain. As chain length increases, the hydrophobic character dominates and solubility decreases
+alkyl chain. As chain length increases, the hydrophobic character dominates and solubility decreases
 Sharply.
 
 ## Oxidation of Alcohols
@@ -77,7 +77,7 @@ Depend on the class of alcohol and the reaction conditions.
 Acidified potassium dichromate(VI)
 ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7 / \mathrm{H}_2\mathrm{SO}_4$) is the standard oxidising
 Agent. It is orange and is reduced to $\mathrm{Cr}^{3+}$ (green). The colour change from orange to
-Green provides a visual indication that oxidation has occurred.
+green provides a visual indication that oxidation has occurred.
 
 ### Primary Alcohols
 
@@ -115,7 +115,7 @@ $$
 $$
 
 Ketones resist further oxidation under these conditions because there is no hydrogen atom on the
-Carbonyl carbon that can be removed (C--C bond cleavage requires much harsher conditions).
+carbonyl carbon that can be removed (C--C bond cleavage requires much harsher conditions).
 
 $$
 \mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3 \xrightarrow{[\mathrm{O}]} \mathrm{CH}_3\mathrm{COCH}_3
@@ -484,7 +484,7 @@ Using acidified potassium dichromate(VI).
 <summary>Problem 2</summary>
 
 Ethanol can be converted to bromoethane by three different methods. Write equations for each and
-Identify the mechanism.
+identify the mechanism.
 
 **Solution:**
 

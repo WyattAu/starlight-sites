@@ -23,7 +23,7 @@ categories:
 ## Halogenoalkanes
 
 Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an
-Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$ Where $\mathrm{X}$
+alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$ Where $\mathrm{X}$
 is F, Cl, Br, or I. The C--X bond is polar (halogens are more electronegative than Carbon), making
 the carbon electrophilic and susceptible to attack by nucleophiles.
 
@@ -40,7 +40,7 @@ Halogenoalkanes are classified by the carbon bearing the halogen:
 
 Nucleophilic substitution is the replacement of the halogen (the leaving group) by a nucleophile.
 Two distinct mechanisms operate depending on the substrate structure, nucleophile strength, and
-Solvent.
+solvent.
 
 ### The SN2 Mechanism
 
@@ -50,7 +50,7 @@ Mechanism in which bond-making and bond-breaking occur simultaneously.
 **Rate equation:** Rate $= k[\mathrm{R-X}][\mathrm{Nu}^-]$
 
 The rate depends on the concentration of both the halogenoalkane and the nucleophile. This is
-Confirmed experimentally by observing that doubling either concentration doubles the rate.
+confirmed experimentally by observing that doubling either concentration doubles the rate.
 
 **Mechanism for the reaction of bromoethane with hydroxide:**
 
@@ -66,7 +66,7 @@ $$
 
 **Stereochemistry:** Inversion of configuration at the carbon centre (Walden inversion). If the
 Carbon is chiral, the product has the opposite absolute configuration to the reactant. The
-Transition state has trigonal bipyramidal geometry.
+transition state has trigonal bipyramidal geometry.
 
 **Favouring factors:**
 
@@ -140,7 +140,7 @@ Reactivity in nucleophilic substitution:
 $\mathrm{RI} \gt \mathrm{RBr} \gt \mathrm{RCl} \gg \mathrm{RF}$.
 
 The C--I bond is weakest and iodine is the best leaving group (least basic, largest, most
-Polarisable). Fluorine forms an extremely strong bond and is a very poor leaving group
+polarisable). Fluorine forms an extremely strong bond and is a very poor leaving group
 ($\mathrm{F}^-$ is a strong base).
 
 ### Effect of Substrate Structure (SN2)
@@ -157,7 +157,7 @@ Unstable to form under normal conditions, so primary halogenoalkanes do not unde
 ## Elimination Reactions
 
 When a strong, bulky base (e.g. $\mathrm{OH}^-$ in ethanol, $\mathrm{KOH}$ in ethanol) reacts with a
-Halogenoalkane at elevated temperature, elimination competes with substitution:
+halogenoalkane at elevated temperature, elimination competes with substitution:
 
 $$
 \mathrm{CH}_3\mathrm{CHBrCH}_3 + \mathrm{OH}^- \to \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} + \mathrm{Br}^-
@@ -178,7 +178,7 @@ $$
 
 When multiple elimination products are possible, the major product is the more substituted alkene
 (the alkene with the greater number of alkyl groups on the C=C double bond). This is because more
-Substituted alkenes are thermodynamically more stable (hyperconjugation).
+substituted alkenes are thermodynamically more stable (hyperconjugation).
 
 For 2-bromobutane: elimination gives a mixture of but-1-ene (minor) and but-2-ene (major).
 
@@ -191,7 +191,7 @@ refrigerants, propellants, and blowing agents. Their advantages (non-toxic, non-
 Chemically inert in the troposphere) led to massive global production.
 
 The chemical inertness that makes CFCs useful also makes them environmentally persistent. They
-Survive in the troposphere for decades and eventually diffuse to the stratosphere, where they are
+survive in the troposphere for decades and eventually diffuse to the stratosphere, where they are
 Photolysed by UV radiation of wavelength $\lt 315\,\mathrm{nm}$.
 
 ### The Ozone Depletion Mechanism
@@ -221,10 +221,10 @@ can destroy up to $100,000$ ozone molecules before being removed from the cataly
 
 Stratospheric ozone absorbs harmful UV-B radiation ($280$--$315\,\mathrm{nm}$). Ozone depletion
 Increases UV-B flux at the Earth's surface, causing increased rates of skin cancer, cataracts, and
-Damage to marine phytoplankton (the base of the oceanic food chain).
+damage to marine phytoplankton (the base of the oceanic food chain).
 
 The Antarctic ozone hole (first detected in 1985) forms during the Antarctic spring due to
-Heterogeneous reactions on polar stratospheric cloud (PSC) surfaces that convert inactive chlorine
+heterogeneous reactions on polar stratospheric cloud (PSC) surfaces that convert inactive chlorine
 Reservoirs ($\mathrm{HCl}$$\mathrm{ClONO}_2$) into active $\mathrm{Cl}_2$ and $\mathrm{HOCl}$.
 
 ### Montreal Protocol
@@ -414,7 +414,7 @@ favours elimination.
 <summary>Problem 1</summary>
 
 For each of the following reactions, identify the mechanism (SN1, SN2, E1, or E2) and predict the
-Major organic product:
+major organic product:
 
 (a) $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}$ with $\mathrm{NaOH}$ in aqueous solution at
 $25^\circ\mathrm{C}$.
@@ -455,7 +455,7 @@ Energy for cleavage, giving a slower reaction rate.
 
 Additionally, $\mathrm{Cl}^-$ is a poorer leaving group than $\mathrm{I}^-$ because $\mathrm{Cl}^-$
 is a stronger base (more willing to accept a proton, less willing to depart with its lone pair). The
-Larger, more polarisable $\mathrm{I}^-$ stabilises the departing negative charge more effectively.
+larger, more polarisable $\mathrm{I}^-$ stabilises the departing negative charge more effectively.
 
 </details>
 

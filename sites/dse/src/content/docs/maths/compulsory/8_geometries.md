@@ -305,7 +305,7 @@ in $x$ (or $y$). The discriminant $\Delta = b^2 - 4ac$ determines the nature of 
 ### Tangent to a Circle
 
 A tangent to a circle at a point $P(x_1, y_1)$ on the circle $(x-a)^2 + (y-b)^2 = r^2$ is
-Perpendicular to the radius at $P$. The gradient of the radius $CP$ (where $C$ is the centre) is:
+perpendicular to the radius at $P$. The gradient of the radius $CP$ (where $C$ is the centre) is:
 
 $$
 \begin{aligned}
@@ -322,7 +322,7 @@ $$
 $$
 
 The equation of the tangent at $P(x_1, y_1)$ on the circle $x^2 + y^2 + Dx + Ey + F = 0$ can be
-Obtained by replacing:
+obtained by replacing:
 
 $$
 \begin{aligned}
@@ -429,7 +429,7 @@ $$
 ### The 3D Coordinate System
 
 In three-dimensional space, each point is identified by an ordered triple $(x, y, z)$. The three
-Coordinate axes --- $x$-axis, $y$-axis, and $z$-axis --- are mutually perpendicular and intersect at
+coordinate axes --- $x$-axis, $y$-axis, and $z$-axis --- are mutually perpendicular and intersect at
 the origin $O(0, 0, 0)$. The three planes $xy$-plane, $yz$-plane, and $zx$-plane divide the space
 into eight octants.
 
@@ -467,7 +467,7 @@ $$
 $$
 
 Where the vector $\mathbf{n} = (A, B, C)$ is a normal vector to the plane. The plane can also be
-Described in several forms:
+described in several forms:
 
 - **Point-normal form**: Given a point $P_0(x_0, y_0, z_0)$ on the plane and normal
   $\mathbf{n} = (A, B, C)$:
@@ -492,7 +492,7 @@ $$
 #### Angle Between a Line and a Plane
 
 The angle $\phi$ between a line with direction vector $\mathbf{d} = (l, m, n)$ and a plane with
-Normal $\mathbf{n} = (A, B, C)$ is defined as the complement of the angle between $\mathbf{d}$ and
+normal $\mathbf{n} = (A, B, C)$ is defined as the complement of the angle between $\mathbf{d}$ and
 $\mathbf{n}$:
 
 $$
@@ -622,7 +622,7 @@ $x + y + z = 1$.
 - The line is parallel to the plane (perpendicular to the normal).
 
 1. **Question:** Points $A(1, 2)$$B(4, 6)$ And $C(7, 4)$ are vertices of a triangle. Find the
-Equation of the altitude from $A$ to $BC$ The area of triangle $ABC$ And the length of the Altitude
+equation of the altitude from $A$ to $BC$ The area of triangle $ABC$ And the length of the Altitude
 from $A$.
 
 <details>
@@ -693,7 +693,7 @@ Chord $AB$ and the coordinates of $A$ and $B$.
 - The circles touch at $\left(\frac{1}{5}, \frac{7}{5}\right)$.
 
 1. **Question:** A rectangle $ABCD$ has vertices $A(1, 1)$$B(5, 1)$ And $C(5, 4)$. Find the
-Coordinates of $D$ and the area of the rectangle.
+coordinates of $D$ and the area of the rectangle.
 
 <details>
 <summary>Answer</summary>

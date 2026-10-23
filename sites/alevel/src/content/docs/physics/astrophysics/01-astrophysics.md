@@ -60,7 +60,7 @@ $$
 ### Stellar Parallax
 
 As Earth orbits the Sun, nearby stars appear to shift position against the background of more
-Distant stars. This apparent angular displacement is called **stellar parallax**.
+distant stars. This apparent angular displacement is called **stellar parallax**.
 
 ### Proof of the Parallax Formula
 
@@ -122,8 +122,8 @@ The cosmic distance ladder uses overlapping methods to measure distances across 
 
 Cepheid variables are pulsating stars whose luminosity is directly related to their pulsation
 Period. The **period--luminosity relation** (discovered by Henrietta Leavitt, 1912) states that
-Brighter Cepheids have longer periods. By measuring the period of variability, astronomers can
-Determine the absolute luminosity and hence the distance.
+brighter Cepheids have longer periods. By measuring the period of variability, astronomers can
+determine the absolute luminosity and hence the distance.
 
 ### Type Ia Supernovae
 
@@ -190,7 +190,7 @@ This is why giants and supergiants occupy the upper-right region of the H-R diag
 ### Wien's Displacement Law
 
 The wavelength at which a black body emits maximum radiation is inversely proportional to its
-Temperature:
+temperature:
 
 $$
 \boxed{\lambda_{\max} T = 2.898 \times 10^{-3}\;\mathrm{m K}}
@@ -235,7 +235,7 @@ until hydrogen fusion ignites --- a star is born.
 ### The Hertzsprung--Russell (H-R) Diagram
 
 The H-R diagram plots stars according to their **luminosity** (or absolute magnitude) on the
-Vertical axis against their **surface temperature** (or spectral class) on the horizontal axis.
+vertical axis against their **surface temperature** (or spectral class) on the horizontal axis.
 Temperature **decreases** from left to right.
 
 Key regions:
@@ -249,12 +249,12 @@ Key regions:
 ### Main Sequence Stars
 
 Main sequence stars are in **hydrostatic equilibrium**: gravitational collapse is balanced by the
-Radiation pressure from nuclear fusion in the core.
+radiation pressure from nuclear fusion in the core.
 
 Two fusion processes convert hydrogen to helium:
 
 1. **Proton--proton (pp) chain** --- dominant in stars with $T \lt 1.5 \times 10^7$ K (like the
-   Sun):
+   sun):
 
    $$
    4\,^{1}\mathrm{H} \rightarrow ^{4}\mathrm{He} + 2e^+ + 2\nu_e + 2\gamma
@@ -375,7 +375,7 @@ the Sun compressed into a sphere smaller than a small city.
 Is the night sky dark?
 
 In an infinite, static universe with uniformly distributed stars, every line of sight should
-Eventually intersect the surface of a star, making the entire night sky as bright as the surface of
+eventually intersect the surface of a star, making the entire night sky as bright as the surface of
 A typical star. The resolution of the paradox relies on three key facts:
 
 1. The universe has a **finite age** ($\sim 13.8$ billion years), so we can only observe light from
@@ -395,7 +395,7 @@ $$
 $$
 
 Where $\Delta \lambda = \lambda_{\mathrm{obs}} - \lambda_{\mathrm{emit}}$ is the change in
-Wavelength.
+wavelength.
 
 - **Redshift** ($\Delta \lambda \gt 0$): source receding from the observer
 - **Blueshift** ($\Delta \lambda \lt 0$): source approaching the observer
@@ -418,7 +418,7 @@ $$
 $$
 
 Where $H_0 \approx 70$ km s$^{-1}$ Mpc$^{-1}$ is the **Hubble constant**. This law implies that the
-Universe is expanding uniformly --- more distant galaxies recede faster because there is more space
+universe is expanding uniformly --- more distant galaxies recede faster because there is more space
 between them to expand.
 
 ### Proof of the Hubble Time
@@ -484,12 +484,12 @@ $$
 $$
 
 This confirms the microwave nature of the CMB, which was initially detected as excess noise at a
-Wavelength of 7.35 cm by Penzias and Wilson.
+wavelength of 7.35 cm by Penzias and Wilson.
 
 ### Expansion of the Universe
 
 The expansion of the universe is not galaxies moving through space, but rather the expansion of
-Space itself. This is described by the **scale factor** $a(t)$ Where $a = 1$ today. As the universe
+space itself. This is described by the **scale factor** $a(t)$ Where $a = 1$ today. As the universe
 Expands, photon wavelengths are stretched, producing cosmological redshift:
 
 $$
@@ -582,7 +582,7 @@ $$
 $$
 
 Where $\theta$ is the minimum angular resolution (in radians), $\lambda$ is the wavelength of the
-Observed radiation, and $D$ is the diameter of the aperture.
+observed radiation, and $D$ is the diameter of the aperture.
 
 ### Proof of the Rayleigh Criterion
 
@@ -843,7 +843,7 @@ $$
 $$
 
 Star A is four times smaller in radius than Star B, despite being twice as hot. Both emit the same
-Total power --- Star B compensates for its lower temperature with a much larger surface area.
+total power --- Star B compensates for its lower temperature with a much larger surface area.
 
 </details>
 

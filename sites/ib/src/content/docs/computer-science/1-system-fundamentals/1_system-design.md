@@ -48,7 +48,7 @@ Ergonomics.
 #### Accessibility
 
 Accessibility is the range of audience the system is able to be used by, this include lowering the
-Access barrier for disabled individuals with assistance technology.
+access barrier for disabled individuals with assistance technology.
 
 #### Ergonomics
 
@@ -58,7 +58,7 @@ Split keyboard, etc.
 ## System Development Life Cycle (SDLC)
 
 The SDLC is a structured methodology for developing information systems. The IB syllabus focuses on
-Understanding the stages and their purposes.
+understanding the stages and their purposes.
 
 ### Stages of the SDLC
 
@@ -542,7 +542,7 @@ Three-tier architecture separates a system into three logical layers:
 
 **Example**: In an online store, the presentation tier renders the product page, the application
 Tier calculates pricing and handles checkout logic, and the data tier stores product inventory and
-Order records.
+order records.
 
 > **Exam tip**: Three-tier architecture is a common exam topic. Be able to name the three tiers and
 > explain the advantage of separating concerns.
@@ -628,7 +628,7 @@ And `edit_grades` permissions, while a Student role has only `view_own_grades`.
 </div>
 
 Both should be used together. Encryption at rest prevents unauthorized access if storage is
-Compromised; encryption in transit prevents man-in-the-middle attacks.
+compromised; encryption in transit prevents man-in-the-middle attacks.
 
 ### Input Validation and SQL Injection Prevention
 
@@ -661,7 +661,7 @@ for a specified client, documented through five assessment criteria.
 
 Identify a specific, solvable problem for a real client. Describe the problem with context, identify
 Stakeholders, provide evidence of consultation (interview transcript, questionnaire), justify the
-Proposed solution, and outline measurable success criteria.
+proposed solution, and outline measurable success criteria.
 
 **Common mistake**: Choosing a problem that is too broad or too simple.
 
@@ -691,7 +691,7 @@ Provide a testing table with test cases, input, expected output, and actual outp
 ### Criterion E: Evaluation (6 marks)
 
 Evaluate effectiveness against success criteria. Discuss limitations, recommend improvements with
-Justification, and reflect on the development process.
+justification, and reflect on the development process.
 
 **Common mistake**: Being vague. Reference specific criteria with measurable evidence.
 
@@ -734,7 +734,7 @@ not accommodate changes to earlier phases once completed.
 ### Question 2: Data Flow Diagrams
 
 A doctor's surgery uses a patient records system. Patients can book appointments, and doctors can
-View and update patient records.
+view and update patient records.
 
 (a) Identify two external entities, two processes, and one data store for this system.
 
@@ -845,15 +845,15 @@ from Librarian to Member indicating generalization.
 <details>
 
 The System Administrator's responsibilities (managing accounts, viewing logs) are unrelated to
-Library operations. Inheritance implies an "is-a" relationship, a System Administrator is not a
-Specialized Librarian. Both should be separate actors with distinct use cases.
+library operations. Inheritance implies an "is-a" relationship, a System Administrator is not a
+specialized Librarian. Both should be separate actors with distinct use cases.
 
 </details>
 
 ### Question 5: Architecture and Security
 
 A university is building an online learning platform for 10,000 students. Student grades and
-Personal data must be protected.
+personal data must be protected.
 
 (a) Recommend an architecture and justify your choice.
 
@@ -861,13 +861,13 @@ Personal data must be protected.
 
 Three-tier client-server on cloud infrastructure (IaaS/PaaS). The presentation tier delivers the web
 Interface, the application tier handles business logic (grading, submissions, streaming), and the
-Data tier stores records. Each tier scales independently, the application tier can scale
+data tier stores records. Each tier scales independently, the application tier can scale
 Horizontally during peak usage. Cloud hosting avoids large upfront costs.
 
 </details>
 
 (b) Describe two authentication and two authorization measures the university should implement, and
-Explain how input validation protects against SQL injection.
+explain how input validation protects against SQL injection.
 
 <details>
 

@@ -33,7 +33,7 @@ $$
 $$
 
 On the unit circle (radius 1), the point at angle $\theta$ from the positive $x$-axis has
-Coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
+coordinates $(\cos\theta, \sin\theta)$. This definition extends the trig functions to all real
 Angles, not just those in $[0, \pi/2]$.
 
 **Key Identity:**
@@ -220,7 +220,7 @@ $\blacksquare$
 ### Solving Trigonometric Equations
 
 When solving trig equations in a given interval, always check for all solutions. The periodicity of
-Trig functions means there are multiple solutions.
+trig functions means there are multiple solutions.
 
 :::caution
 Function equals zero separately. Dividing by $\cos x$ loses the solutions where $\cos x = 0$.
@@ -562,7 +562,7 @@ from this point to the circle. The point must lie **on** the circle for a tangen
 ### Intersection of Line and Circle
 
 Substitute the line equation into the circle equation and solve the resulting quadratic. The
-Discriminant of the resulting quadratic tells you:
+discriminant of the resulting quadratic tells you:
 
 - $\Delta > 0$: two intersection points (secant)
 - $\Delta = 0$: one intersection point (tangent)

@@ -29,7 +29,7 @@ tags:
 ### Postulates of Cell Theory
 
 Cell theory, formulated by Schleiden and Schwann (1838--1839) and later refined by Virchow, rests on
-Three principles:
+three principles:
 
 1. All living organisms are composed of one or more cells.
 2. The cell is the smallest unit of life.
@@ -134,7 +134,7 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 ### The Fluid Mosaic Model
 
 The cell membrane is described by the **fluid mosaic model** (Singer and Nicolson, 1972). The
-Membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins are embedded
+membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins are embedded
 ("mosaic").
 
 **Structure:**
@@ -155,7 +155,7 @@ Membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins 
 #### Simple Diffusion
 
 Passive movement of molecules from a region of higher concentration to lower concentration, down the
-Concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$ Steroid
+concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$ Steroid
 Hormones) diffuse directly through the bilayer.
 
 **Fick's Law:**
@@ -167,7 +167,7 @@ $$
 #### Facilitated Diffusion
 
 Polar or charged molecules (glucose, ions, amino acids) require transmembrane proteins. No ATP is
-Consumed; transport is passive and specific.
+consumed; transport is passive and specific.
 
 - **Channel proteins**: form hydrophilic pores (e.g., aquaporins for water).
 - **Carrier proteins**: undergo conformational change to shuttle substances across.
@@ -254,7 +254,7 @@ Site of **aerobic respiration** (oxidative phosphorylation), producing ATP.
 ### Golgi Apparatus
 
 A stack of flattened, membrane-bound cisternae that modifies, sorts, and packages proteins and
-Lipids received from the ER.
+lipids received from the ER.
 
 - **Cis face** (receiving side): accepts vesicles from the ER.
 - **Trans face** (shipping side): releases vesicles to the plasma membrane, lysosomes, or for
@@ -298,7 +298,7 @@ Provides structural support and prevents osmotic lysis.
 ### Mitosis
 
 Mitosis produces two genetically identical **diploid** ($2n$) daughter cells, maintaining the
-Chromosome number. It is the basis of growth, repair, and asexual reproduction.
+chromosome number. It is the basis of growth, repair, and asexual reproduction.
 
 **Definition.** A **diploid** cell contains two complete sets of chromosomes ($2n$). A **haploid**
 Cell contains one set ($n$).
@@ -467,7 +467,7 @@ Structural difference allows selective toxicity against bacterial cells.
 <summary>Question 2: Surface Area to Volume Ratio</summary>
 
 A spherical cell has a radius of $5\;\mathrm{\mu m}$. Calculate its surface area, volume, and
-Surface-area-to-volume ratio. Explain why cells are generally small.
+surface-area-to-volume ratio. Explain why cells are generally small.
 
 </details>
 
@@ -484,7 +484,7 @@ $\frac{A}{V} = \frac{3}{r} = \frac{3}{5} = 0.6\;\mathrm{\mu m}^{-1}$
 
 Cells are small because the surface-area-to-volume ratio decreases as cell size increases. A lower
 Ratio means insufficient surface area for nutrient uptake and waste removal relative to the
-Metabolic demands of the cell volume.
+metabolic demands of the cell volume.
 
 </details>
 
@@ -493,7 +493,7 @@ Metabolic demands of the cell volume.
 
 An animal cell with a water potential of $-700\;\mathrm{kPa}$ is placed in a solution with a water
 Potential of $-400\;\mathrm{kPa}$. Predict the net movement of water and describe the effect on the
-Cell.
+cell.
 
 </details>
 
@@ -503,7 +503,7 @@ Cell.
 Water moves from higher water potential ($-400\;\mathrm{kPa}$) to lower water potential
 ($-700\;\mathrm{kPa}$). The net movement of water is into the cell by osmosis. The cell will swell
 as water enters, and if the volume increase is sufficient, the cell may undergo lysis (burst), since
-Animal cells lack a rigid cell wall.
+animal cells lack a rigid cell wall.
 
 </details>
 
@@ -532,7 +532,7 @@ A single crossover between non-sister chromatids of one homologous pair affects 
 
 An electron micrograph shows a double-membrane organelle with inner folds and a dense matrix
 Containing DNA. Identify the organelle and explain two features visible in the micrograph that
-Support its function.
+support its function.
 
 </details>
 
@@ -587,7 +587,7 @@ volume.
 **Worked Example: Magnification Calculation from a Micrograph**
 
 An electron micrograph of a chloroplast shows a granum that measures $4.2\;\mathrm{cm}$ across the
-Image. The scale bar indicates that $1\;\mathrm{cm}$ on the image represents $0.5\;\mathrm{\mu m}$
+image. The scale bar indicates that $1\;\mathrm{cm}$ on the image represents $0.5\;\mathrm{\mu m}$
 in Reality. Calculate the actual width of the granum and the magnification of the micrograph.
 
 <details>
@@ -656,7 +656,7 @@ $\frac{1050\;\mathrm{cells}}{10^{-4}\;\mathrm{mL}} = 1.05 \times 10^7\;\mathrm{c
 
 This technique is essential in microbiology for determining cell density in culture, monitoring
 Growth curves, and standardising inocula for experiments. A dilution factor must be applied if the
-Suspension was diluted before loading.
+suspension was diluted before loading.
 
 </details>
 
@@ -738,7 +738,7 @@ $35^\circ\mathrm{C}$.
 <summary>Problem 2: Extended Response -- Endosymbiotic Theory</summary>
 
 Mitochondria possess their own circular DNA, $70\mathrm{S}$ ribosomes, a double membrane, and the
-Ability to replicate independently by binary fission. Evaluate the extent to which these features
+ability to replicate independently by binary fission. Evaluate the extent to which these features
 Support the endosymbiotic theory. In your response, address at least two alternative explanations
 and discuss additional evidence (e.g., molecular phylogenetics) that strengthens the argument.
 
@@ -773,8 +773,8 @@ from the expected. State your null hypothesis.
 
 An electron micrograph shows a cell approximately $2\;\mathrm{\mu m}$ in diameter with no internal
 Membrane-bound organelles. Visible structures include a dense nucleoid region, free ribosomes, a
-Capsule, and several pili. (a) Identify this cell as prokaryotic or eukaryotic and justify with
-Three structural observations. (b) The cell is found in an environment with high antibiotic
+capsule, and several pili. (a) Identify this cell as prokaryotic or eukaryotic and justify with
+three structural observations. (b) The cell is found in an environment with high antibiotic
 Concentration. Explain why penicillin would be ineffective against this organism if it is an
 Archaeon rather than a bacterium.
 
@@ -784,7 +784,7 @@ Archaeon rather than a bacterium.
 <summary>Problem 5: Extended Response -- Membrane Fluidity</summary>
 
 Cholesterol modulates cell membrane fluidity. Describe and explain the dual role of cholesterol in
-Membrane fluidity at both low and high temperatures. Discuss how this relates to the observation
+membrane fluidity at both low and high temperatures. Discuss how this relates to the observation
 that cold-water fish species have a higher proportion of unsaturated fatty acids in their membrane
 Phospholipids compared with warm-water species.
 
@@ -808,7 +808,7 @@ Surface area is approximately $70\;\mathrm{m}^2$ and the diffusion distance (alv
 Capillary wall) is approximately $1.5\;\mathrm{\mu m}$. The $\mathrm{O}_2$ partial pressure
 Difference is approximately $8\;\mathrm{kPa}$. (a) Calculate the relative rate of $\mathrm{O}_2$
 Diffusion under these conditions. (b) Explain how emphysema, which destroys alveolar walls and
-Reduces total surface area to $35\;\mathrm{m}^2$ Would affect this rate.
+reduces total surface area to $35\;\mathrm{m}^2$ Would affect this rate.
 
 </details>
 
@@ -1124,7 +1124,7 @@ d = \frac{0.61\lambda}{n \sin\theta}
 $$
 
 Where $\lambda$ is the wavelength, $n$ is the refractive index of the medium, and $\theta$ is the
-Half-angle of the cone of light entering the objective.
+half-angle of the cone of light entering the objective.
 
 ---
 
@@ -1143,7 +1143,7 @@ Half-angle of the cone of light entering the objective.
 <summary>Problem 9: Extended Response -- Stem Cells and Ethics</summary>
 
 Compare and contrast embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs) with
-Regard to: (a) their origin and method of production, (b) their potency, (c) their therapeutic
+regard to: (a) their origin and method of production, (b) their potency, (c) their therapeutic
 Potential, and (d) the ethical issues associated with each. Discuss the significance of the Yamanaka
 Factors in the development of iPSC technology.
 
@@ -1156,8 +1156,8 @@ A researcher counts the number of cells in each stage of mitosis in a sample of 
 cells. The results are: interphase = 800, prophase = 60, metaphase = 30, anaphase = 10, telophase
 = 10. Total cells counted = 910. (a) Calculate the mitotic index (percentage of cells undergoing
 mitosis). (b) Estimate the duration of mitosis if the cell cycle takes 20 hours. (c) Explain why the
-Majority of cells are in interphase. (d) If colchicine (which disrupts spindle fibre formation) is
-Applied to the root tip, predict the effect on the mitotic index and explain why.
+majority of cells are in interphase. (d) If colchicine (which disrupts spindle fibre formation) is
+applied to the root tip, predict the effect on the mitotic index and explain why.
 
 </details>
 
@@ -1165,7 +1165,7 @@ Applied to the root tip, predict the effect on the mitotic index and explain why
 <summary>Problem 11: Extended Response -- Cancer Biology</summary>
 
 BRCA1 is a tumour suppressor gene involved in DNA repair. Inherited mutations in BRCA1 increase the
-Risk of breast and ovarian cancer. (a) Explain the normal function of BRCA1 in the cell cycle. (b)
+risk of breast and ovarian cancer. (a) Explain the normal function of BRCA1 in the cell cycle. (b)
 Using Knudson's two-hit hypothesis, explain why individuals with one inherited BRCA1 mutation have A
 higher cancer risk than the general population. (c) Explain why a double mastectomy reduces cancer
 Risk in BRCA1 carriers. (d) Discuss the ethical considerations of genetic testing for BRCA1
@@ -1178,7 +1178,7 @@ mutations.
 
 A spherical human egg cell has a diameter of $120\;\mathrm{\mu m}$. (a) Calculate its surface area
 and volume. (b) After fertilisation, the zygote undergoes 6 rounds of cleavage (mitosis without
-Growth) to form a morula of $64$ cells. Assuming the morula is roughly spherical with the same Total
+growth) to form a morula of $64$ cells. Assuming the morula is roughly spherical with the same Total
 volume as the original zygote, calculate the surface-area-to-volume ratio of each cell in The morula
 (assuming equal cell sizes). (c) Explain the biological significance of the change in SA:V ratio
 during early embryonic development.
@@ -1238,7 +1238,7 @@ lysosomes for waste processing), and membrane Transport proteins for selective u
 
 A plant cell with a water potential of $-400\;\mathrm{kPa}$ is placed in a solution with water
 potential Of $-200\;\mathrm{kPa}$. The pressure potential of the cell is $+100\;\mathrm{kPa}$. (a)
-Calculate the Solute potential of the cell. (b) Predict the direction of water movement. (c)
+calculate the Solute potential of the cell. (b) Predict the direction of water movement. (c)
 Describe what happens to The cell over time (include changes in turgor pressure, volume, and water
 potential). (d) Repeat the Analysis if the external solution has a water potential of
 $-800\;\mathrm{kPa}$.
@@ -1528,7 +1528,7 @@ plated. Concentration $= \frac{72}{0.1\;\mathrm{mL}} \times 10^6 = 7.2 \times 10
 (c) Percentage viable $= \frac{7.2 \times 10^8}{9.6 \times 10^8} \times 100 = 75\%$.
 
 (d) The OD600 counts all cells (both viable and dead) because it measures light scattering by all
-Particles in suspension. The plate count only measures viable (living) cells that can form colonies.
+particles in suspension. The plate count only measures viable (living) cells that can form colonies.
 The $25\%$ difference represents dead or non-viable cells in the culture, which may have been killed
 by nutrient depletion, toxin accumulation, or being in a dormant (non-culturable) state.
 
@@ -1557,7 +1557,7 @@ from The inner cell mass of the blastocyst.
 
 **Multipotent**: can differentiate into a limited range of cell types within a particular lineage.
 Example: haematopoietic stem cells (bone marrow) can produce all blood cell types but not nerve or
-Muscle cells; mesenchymal stem cells can produce bone, cartilage, and fat cells.
+muscle cells; mesenchymal stem cells can produce bone, cartilage, and fat cells.
 
 (b) Cell differentiation is the process by which unspecialised stem cells become specialised cell
 types With specific structures and functions. The fundamental mechanism is **differential gene

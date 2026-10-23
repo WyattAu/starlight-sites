@@ -480,7 +480,7 @@ The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$ Which 
 ### Choosing an Indicator for a Titration
 
 An indicator is suitable when its transition range overlaps with the **equivalence point** of the
-Titration (where pH changes most steeply).
+titration (where pH changes most steeply).
 
 <div class="table-wrap">
 
@@ -554,7 +554,7 @@ Example: HCl + NH$_3$
 ### Composition
 
 A buffer solution **resists changes in pH** when small amounts of acid or base are added. It
-Consists of:
+consists of:
 
 1. A weak acid and its conjugate base, **or**
 2. A weak base and its conjugate acid.
@@ -802,7 +802,7 @@ $$
 <summary>Worked Example 10: pH at Half-Equivalence Point</summary>
 
 Using the titration from Worked Example 9, calculate the pH when $12.5\mathrm{ mL}$ of NaOH has been
-Added (half-equivalence point).
+added (half-equivalence point).
 
 At half-equivalence point, half the acid has been neutralised:
 
@@ -984,7 +984,7 @@ K_a(\mathrm{NH}_4^+) = \frac{K_w}{K_b(\mathrm{NH}_3)} = \frac{1.0 \times 10^{-14
 $$
 
 (b) NH$_4^+$ is the conjugate acid of the weak base NH$_3$. Since NH$_3$ is a weak base, its
-Conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
+conjugate acid NH$_4^+$ will donate protons in water, making the solution acidic. This is confirmed
 by the relatively large $K_a$ value ($5.56 \times 10^{-10} \gg K_b$ of NH$_4^+$ which would be
 $K_w/K_a = 1.8 \times 10^{-5}$ But wait -- we already have $K_a$ for NH$_4^+$ So we can see it is An
 acid). A $0.1\mathrm{ mol/L}$ NH$_4$Cl solution would have pH \lt 7.
@@ -1108,7 +1108,7 @@ $$
 $$
 
 Since $K_{a1}$ is not very small compared to $c$ The approximation $c - x \approx c$ may not be
-Valid. Check: $K_{a1}/c = 7.5 \times 10^{-3}/0.100 = 0.075 \gt 0.05$. The $5\%$ rule fails.
+valid. Check: $K_{a1}/c = 7.5 \times 10^{-3}/0.100 = 0.075 \gt 0.05$. The $5\%$ rule fails.
 
 Solve the quadratic: $x^2 + K_a x - K_a \cdot c = 0$
 

@@ -23,13 +23,13 @@ categories:
 ### Definition
 
 A **discrete random variable** $X$ is a function that assigns a numerical value to each outcome in a
-Countable sample space. The set of possible values is finite or countably infinite: for example,
+countable sample space. The set of possible values is finite or countably infinite: for example,
 $\{0, 1, 2, \ldots, n\}$ or $\{0, 1, 2, \ldots\}$.
 
 ### Probability Mass Function (PMF)
 
 The **probability mass function** of $X$ is $p(x) = P(X = x)$ Assigning a probability to each
-Possible value. It must satisfy:
+possible value. It must satisfy:
 
 1. $p(x) \ge 0$ for all $x$
 2. $\displaystyle\sum_{\mathrm{all } x} p(x) = 1$
@@ -41,7 +41,7 @@ F(x) = P(X \le x) = \sum_{t \le x} p(t)
 $$
 
 The CDF is non-decreasing and right-continuous, with $F(-\infty) = 0$ and $F(\infty) = 1$. For a
-Discrete variable it is a step function with jumps at each value in the range of $X$. The size of
+discrete variable it is a step function with jumps at each value in the range of $X$. The size of
 each jump at $x = a$ equals $P(X = a)$.
 
 ### Expected Value
@@ -74,7 +74,7 @@ $$
 $$
 
 The **standard deviation** is $\sigma = \sqrt{\mathrm{Var}(X)}$. It has the same units as $X$ and
-Measures the typical distance of values from the mean.
+measures the typical distance of values from the mean.
 
 ### Properties of Expectation and Variance
 
@@ -245,7 +245,7 @@ $$
 
 :::note[Example]
 A factory produces bulbs with 3% defect rate. $X \sim B(20, 0.03)$ is the number of defects in a
-Sample of 20.
+sample of 20.
 
 $P(X = 2) = \binom{20}{2}(0.03)^2(0.97)^{18} = 190 \times 0.0009 \times 0.5781 \approx 0.0988$
 
@@ -273,7 +273,7 @@ $P(X \ge 7) \approx 0.0181$ and $P(X \ge 8) \approx 0.0042$ So the minimum pass 
 <summary>Worked Example: Binomial Probability with Normal Approximation</summary>
 
 A company manufactures light bulbs. On average, 8% are defective. A random sample of 100 bulbs is
-Selected. Find the probability that more than 12 are defective.
+selected. Find the probability that more than 12 are defective.
 
 Let $X \sim B(100, 0.08)$.
 
@@ -507,7 +507,7 @@ Normal, $z = \Phi^{-1}(p)$. For a general normal: $x = \mu + z\sigma$.
 ### Finding Unknown Parameters
 
 When $\mu$ or $\sigma$ is unknown, use standardisation with a known probability to set up
-Simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
+simultaneous equations. Each known probability gives one equation in two unknowns; two probabilities
 are needed.
 :::
 
@@ -589,7 +589,7 @@ F(x) = \frac{1}{b - a}, \quad a \le x \le b
 $$
 
 And $f(x) = 0$ otherwise. The PDF is constant over $[a, b]$ Meaning all values in the interval are
-Equally likely.
+equally likely.
 
 ### Mean and Variance
 
@@ -652,7 +652,7 @@ P(X = x) = (1-p)^{x-1} p, \quad x = 1, 2, 3, \ldots
 $$
 
 The first $x-1$ trials must be failures, and trial $x$ must succeed. This is the probability of
-Exactly $x-1$ consecutive failures followed by one success.
+exactly $x-1$ consecutive failures followed by one success.
 
 ### Mean and Variance
 
@@ -801,7 +801,7 @@ $$
 $$
 
 As $n$ increases, the standard error decreases: larger samples give more precise estimates of the
-Population mean.
+population mean.
 :::
 
 :::note[Example]
@@ -834,8 +834,8 @@ $P\!\left(Z \gt \dfrac{10}{\sqrt{800/3}}\right) = P(Z \gt 0.612) \approx 0.2704$
 
 A $C\%$ confidence interval gives a range of plausible values for an unknown population parameter.
 If the sampling process were repeated many times, approximately $C\%$ of constructed intervals would
-Contain the true parameter. The confidence level does not mean there is a $C\%$ probability that the
-Parameter lies in any particular interval.
+contain the true parameter. The confidence level does not mean there is a $C\%$ probability that the
+parameter lies in any particular interval.
 
 ### Confidence Interval for the Mean ($\sigma$ known)
 
@@ -1167,7 +1167,7 @@ Probability distributions are recipes for uncertainty. The binomial distribution
 
 :::tip[Exam Strategy]
 Always define your random variable and state the distribution with parameters at the start. For
-Normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
+normal problems, sketch the bell curve and shade the relevant area. When combining variables, state
 whether independence is assumed. For confidence intervals, state the level and Interpret in context.
 :::
 
@@ -1299,7 +1299,7 @@ A score of approximately 75.3 is exceeded by only 10% of students.
 
 The waiting time for a train is uniformly distributed between 0 and 12 minutes. Find the probability
 that the waiting time is (a) less than 5 minutes, (b) between 7 and 10 minutes, (c) more than 8
-Minutes given that it has already been 3 minutes.
+minutes given that it has already been 3 minutes.
 
 <details>
 <summary>Solution</summary>
@@ -1434,7 +1434,7 @@ Verify:
 $E = z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} = 1.960 \times \frac{0.4}{\sqrt{50}} = 1.960 \times 0.0566 = 0.1109$
 
 The calculated margin of error ($0.1109$) exceeds the stated margin ($0.08$). This suggests the
-Confidence interval was constructed with a different confidence level or the stated $\sigma$ does
+confidence interval was constructed with a different confidence level or the stated $\sigma$ does
 not match the data. If we solve for the confidence level that gives $E = 0.08$:
 
 $$
@@ -1548,7 +1548,7 @@ Exact binomial:
 $P(X \le 2) = \binom{60}{0}(5/6)^{60} + \binom{60}{1}(1/6)(5/6)^{59} + \binom{60}{2}(1/6)^2(5/6)^{58}$
 
 This gives approximately $P(X \le 2) \approx 0.00268$ So $P(X \ge 3) \approx 0.9973$. The
-Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moderate.
+approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moderate.
 
 **If you get this wrong, revise:** Poisson as a Limit of the Binomial section.
 

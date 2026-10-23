@@ -125,7 +125,7 @@ $$
 $$
 
 The centre of mass lies on the axis of symmetry, a distance $\dfrac{4r}{3\pi}$ from the
-Diameter.
+diameter.
 
 ### 2.3 Circular sector
 
@@ -169,7 +169,7 @@ For a composite body, _negative masses_ can be used for holes or removed section
 <summary>Worked Example: Composite lamina</summary>
 
 A uniform lamina consists of a square of side $4a$ with a semicircle of radius $2a$ removed from one
-Edge. Find the centre of mass of the remaining lamina.
+edge. Find the centre of mass of the remaining lamina.
 
 The square has area $(4a)^2 = 16a^2$ and centre of mass at $(2a, 2a)$.
 
@@ -200,7 +200,7 @@ $$
 ### 4.1 Uniform wire frameworks
 
 A framework is made of uniform wires (rods). Each rod has its centre of mass at its midpoint. The
-Total mass is proportional to the total length.
+total mass is proportional to the total length.
 
 $$
 \boxed{\bar{x} = \frac{\displaystyle\sum m_i x_i}{\displaystyle\sum m_i} = \frac{\displaystyle\sum \ell_i x_i}{\displaystyle\sum \ell_i}}
@@ -211,7 +211,7 @@ Where $\ell_i$ is the length of the $i$-th rod and $x_i$ is the $x$-coordinate o
 ### 4.2 Hanging bodies
 
 When a lamina is freely suspended from a point, it hangs with its centre of mass directly below the
-Point of suspension. This means:
+point of suspension. This means:
 
 - The line of action of the weight passes through the point of suspension.
 - The lamina is in equilibrium when the point of suspension is vertically above the centre of mass.
@@ -219,8 +219,8 @@ Point of suspension. This means:
 ### 4.3 Equilibrium of a suspended body
 
 For a body suspended from a point $P$ to hang in equilibrium, the centre of mass $G$ must be
-Directly below $P$. If suspended from a second point $Q$, $G$ must be directly below $Q$. The
-Intersection of the two vertical lines through $P$ and $Q$ gives $G$.
+directly below $P$. If suspended from a second point $Q$, $G$ must be directly below $Q$. The
+intersection of the two vertical lines through $P$ and $Q$ gives $G$.
 
 <hr />
 
@@ -245,7 +245,7 @@ $$
 $$
 
 Where $u_1, u_2$ are the velocities before collision and $v_1, v_2$ are the velocities after
-Collision, with all velocities measured in the same direction.
+collision, with all velocities measured in the same direction.
 
 - $e = 1$: perfectly elastic collision (kinetic energy conserved)
 - $e = 0$: perfectly inelastic collision (bodies coalesce)
@@ -281,8 +281,8 @@ $$
 <summary>Worked Example: Direct elastic collision</summary>
 
 A particle of mass $2\,\mathrm{kg}$ moving at $5\,\mathrm{m s}^{-1}$ collides directly with a
-Stationary particle of mass $3\,\mathrm{kg}$. The coefficient of restitution is $e = 0.6$. Find the
-Velocities after collision.
+stationary particle of mass $3\,\mathrm{kg}$. The coefficient of restitution is $e = 0.6$. Find the
+velocities after collision.
 
 Momentum: $2(5) + 3(0) = 2v_1 + 3v_2 \implies 2v_1 + 3v_2 = 10$ ... (i)
 
@@ -304,7 +304,7 @@ $v_2 = 0.2 + 3 = 3.2\,\mathrm{m s}^{-1}$.
 ### Proof of the elastic energy loss formula
 
 Consider two particles of masses $m_1$ and $m_2$ with velocities $u_1$ and $u_2$ colliding with
-Coefficient of restitution $e$.
+coefficient of restitution $e$.
 
 The loss in kinetic energy is:
 
@@ -333,8 +333,8 @@ $\square$
 ### 7.1 Sphere hitting a smooth wall
 
 When a smooth sphere hits a smooth wall, the component of velocity parallel to the wall is
-Unchanged, and the component perpendicular to the wall is reversed and reduced by the coefficient of
-Restitution.
+unchanged, and the component perpendicular to the wall is reversed and reduced by the coefficient of
+restitution.
 
 If the wall is along the $y$-axis and the sphere approaches with velocity $(u_x, u_y)$:
 
@@ -349,7 +349,7 @@ $$
 $$
 
 Since $e \leq 1$ We have $\tan\beta \geq \tan\alpha$ So the angle of reflection is greater than or
-Equal to the angle of incidence.
+equal to the angle of incidence.
 
 ### 7.2 Two spheres in oblique collision
 
@@ -370,7 +370,7 @@ the line of centres) and the tangential direction (perpendicular to the line of 
 <summary>Worked Example: Oblique collision with a wall</summary>
 
 A sphere hits a smooth vertical wall with velocity $(6, -4)\,\mathrm{m s}^{-1}$. The coefficient of
-Restitution is $e = 0.5$. Find the velocity after impact and the angle of reflection.
+restitution is $e = 0.5$. Find the velocity after impact and the angle of reflection.
 
 The wall is vertical (along the $y$-axis), so the $x$-component is normal to the wall.
 
@@ -741,7 +741,7 @@ $$
 **Problem.** A ball is projected from point $O$ with speed $u$ at angle $\alpha$ to the horizontal
 Towards a smooth vertical wall at horizontal distance $d$. The coefficient of restitution between
 the ball and the wall is $e$. Show that the horizontal distance from the wall to the point where the
-Ball next hits the ground is $ed$.
+ball next hits the ground is $ed$.
 
 **Solution.** Time to reach the wall: $t_1 = d/(u\cos\alpha)$.
 
@@ -775,7 +775,7 @@ The centre of mass is at distance $\dfrac{3h}{4}$ from the vertex (or $\dfrac{h}
 
 **Problem.** Three identical particles $A$$B$$C$ of mass $m$ are at rest in a straight line on a
 Smooth surface with equal spacing $d$. Particle $A$ is given velocity $u$ towards $B$. If all
-Collisions are perfectly elastic ($e = 1$), describe the subsequent motion.
+collisions are perfectly elastic ($e = 1$), describe the subsequent motion.
 
 **Solution.** **Collision 1 ($A$ hits $B$):** By symmetry of equal masses with $e = 1$$A$ stops And
 $B$ moves with velocity $u$ towards $C$.
@@ -789,7 +789,7 @@ Occur.
 
 **Problem.** A uniform rectangular lamina $ABCD$ with $AB = 8$ cm and $BC = 6$ cm is freely
 Suspended from vertex $A$ and hangs in equilibrium. Find the angle that diagonal $AC$ makes with the
-Vertical.
+vertical.
 
 **Solution.** Centre of mass $G$ is at the centre of the rectangle. With $A$ at the origin and $B$
 Along the positive $x$-axis, $G = (4, 3)$.
@@ -825,7 +825,7 @@ Substitution, integration by parts, and definite integrals. See
 ### 10.2 Collisions and energy
 
 The kinetic energy loss formula $\Delta KE = \frac{1}{2}\mu(u_1 - u_2)^2(1-e^2)$ connects to the
-Work-energy principle and conservation of momentum. See
+work-energy principle and conservation of momentum. See
 [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/).
 
 ### 10.3 Oblique impacts and vectors
@@ -849,7 +849,7 @@ Resolving velocities in oblique collisions requires vector decomposition and dot
 ### Question 11
 
 A uniform lamina is in the shape of a semicircle of radius $a$ with a circle of radius $a/2$
-Removed. The centre of the removed circle lies on the diameter of the semicircle, at distance $a/2$
+removed. The centre of the removed circle lies on the diameter of the semicircle, at distance $a/2$
 from the centre of the semicircle. Find the centre of mass of the remaining lamina.
 
 <details>
@@ -877,7 +877,7 @@ Centre of mass: $\left(-\dfrac{a}{2}, \dfrac{8a}{3\pi}\right)$.
 
 A particle of mass $2$ kg moving at $6$ m/s collides directly with a stationary particle of mass $m$
 Kg. After collision, the 2 kg particle rebounds with speed $1$ m/s and the coefficient of
-Restitution is $e = 2/3$. Find $m$.
+restitution is $e = 2/3$. Find $m$.
 
 <details>
 <summary>Solution</summary>
@@ -919,7 +919,7 @@ $$
 
 A uniform solid hemisphere of radius $r$ and a uniform solid cone of base radius $r$ and height $h$
 are joined base-to-base. Both are made of the same material. For what value of $h$ does the
-Composite body have its centre of mass exactly at the join?
+composite body have its centre of mass exactly at the join?
 
 <details>
 <summary>Solution</summary>
@@ -980,7 +980,7 @@ $$
 
 **Problem.** A particle of mass $m$ moving at $4\,\mathrm{m\,s^{-1}}$ collides elastically with a
 Stationary particle of mass $2m$. After the collision, the first particle moves at $60°$ to its
-Original direction. Find the speeds after collision.
+original direction. Find the speeds after collision.
 
 **Solution.** Conservation of momentum (along original direction):
 $m \times 4 = mv_1\cos 60° + 2mv_2\cos\theta$.
@@ -1017,7 +1017,7 @@ $v_2 = \dfrac{2\sqrt{10}}{3}\,\mathrm{m\,s^{-1}}$.
 
 **Problem.** A uniform solid cylinder of radius $r$ and mass $m$ is placed on a rough inclined plane
 At angle $\alpha$. The coefficient of friction is $\mu$. Determine whether the cylinder slides or
-Rolls.
+rolls.
 
 **Solution.** For sliding: $mg\sin\alpha > \mu mg\cos\alpha \implies \tan\alpha > \mu$.
 
@@ -1032,7 +1032,7 @@ $mg\sin\alpha - F = ma \implies mg\sin\alpha = \dfrac{3ma}{2} \implies a = \dfra
 $F = \dfrac{mg\sin\alpha}{3} \leq \mu mg\cos\alpha \implies \tan\alpha \leq 3\mu$.
 
 If $\mu < \tan\alpha \leq 3\mu$: rolls without slipping. If $\tan\alpha > 3\mu$: slides with
-Slipping.
+slipping.
 
 ### Example 8.4: Centre of mass of a non-uniform rod
 
@@ -1126,7 +1126,7 @@ Since the hole is at the centroid, the remaining lamina has its centre of mass a
 the triangle.
 
 Wait, the centre of mass of the remaining lamina is the weighted average of the triangle and the
-Hole (with negative mass for the hole):
+hole (with negative mass for the hole):
 
 $$
 \bar{x} = \frac{\sqrt{3}a^2 \cdot 0 - \frac{\pi a^2}{4} \cdot 0}{\sqrt{3}a^2 - \frac{\pi a^2}{4}} = 0
@@ -1404,20 +1404,20 @@ $$
 ### 16.1 Centre of mass of a solid hemisphere
 
 A uniform solid hemisphere of radius $a$ has its centre of mass at distance $\dfrac{3a}{8}$ from the
-Flat face (or $\dfrac{3a}{8}$ from the centre of the sphere).
+flat face (or $\dfrac{3a}{8}$ from the centre of the sphere).
 
 ### 16.2 Centre of mass of a thin hemispherical shell
 
 A thin hemispherical shell of radius $a$ has its centre of mass at distance $\dfrac{a}{2}$ from the
-Flat face.
+flat face.
 
 Note the difference: $\dfrac{3a}{8} < \dfrac{a}{2}$, the solid hemisphere's centre of mass is
-Closer to the base.
+closer to the base.
 
 ### 16.3 Pappus' centroid theorem (second theorem)
 
 The volume generated by rotating a plane area about an external axis equals the area times the
-Distance travelled by its centroid:
+distance travelled by its centroid:
 
 $$
 V = 2\pi \bar{d} \cdot A

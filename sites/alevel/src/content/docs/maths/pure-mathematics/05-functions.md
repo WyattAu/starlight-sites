@@ -111,7 +111,7 @@ _Proof._
 
 ($\Rightarrow$) If $f^{-1}$ exists, then $f$ must be injective (otherwise $f^{-1}$ would be
 Multiply-defined) and surjective (otherwise $f^{-1}$ would be undefined for elements not in the
-Range).
+range).
 
 ($\Leftarrow$) If $f$ is bijective, then for each $b \in B$ there exists exactly one $a \in A$ with
 $f(a) = b$. Define $f^{-1}(b) = a$. This is well-defined and satisfies $f^{-1}(f(a)) = a$ and
@@ -119,7 +119,7 @@ $f(f^{-1}(b)) = b$. $\blacksquare$
 
 _Intuition._ An inverse function "undoes" the original function. For this to work, the original
 Function must pair each input with a unique output (injectivity) and must cover every element of the
-Codomain (surjectivity).
+codomain (surjectivity).
 
 ### 3.1 Finding Inverse Functions
 
@@ -245,7 +245,7 @@ $(x_0, y_0)$ on $g$ corresponds to the point $(x_0 - a, y_0)$ on $f$, a shift ri
 $\blacksquare$
 
 _Intuition._ Replacing $x$ with $x - a$ means "to get the same output, I need to input $a$ more."
-The graph shifts right to compensate.
+the graph shifts right to compensate.
 
 Similarly, $y = f(x) + b$ translates up by $b$.
 
@@ -307,7 +307,7 @@ $f$ is **odd** if $f(-x) = -f(x)$ for all $x$ in its domain.
 Function has rotational symmetry of order 2 about the origin.
 
 _Proof._ For even $f$: the point $(-x, f(-x)) = (-x, f(x))$ is on the graph whenever $(x, f(x))$ is.
-These two points are reflections of each other across the $y$-axis. $\blacksquare$
+these two points are reflections of each other across the $y$-axis. $\blacksquare$
 
 For odd $f$: the point $(-x, f(-x)) = (-x, -f(x))$ is on the graph whenever $(x, f(x))$ is. Rotating
 $(x, f(x))$ by $180^\circ$ about the origin gives $(-x, -f(x))$. $\blacksquare$
@@ -387,7 +387,7 @@ the domain of $f$.
 **Theorem.** If $f$ is self-inverse, then $f$ is bijective and $f = f^{-1}$.
 
 _Proof._ If $f(f(x)) = x$ for all $x$ Then $f$ has an inverse (namely $f$ itself), so $f$ is
-Bijective. And by definition of inverse, $f^{-1} = f$. $\blacksquare$
+bijective. And by definition of inverse, $f^{-1} = f$. $\blacksquare$
 
 **Common self-inverse functions:**
 
@@ -414,7 +414,7 @@ To solve inequalities involving the modulus function:
 This is equivalent to the compound inequality $-g(x) \lt f(x) \lt g(x)$.
 
 _Proof._ $|f(x)| \lt g(x) \iff -g(x) \lt f(x) \lt g(x)$ follows directly from the definition of
-Modulus. $\blacksquare$
+modulus. $\blacksquare$
 
 **Type 2:** $|f(x)| \gt g(x)$.
 
@@ -455,7 +455,7 @@ Solution: $x \leq -1/3$ or $x \geq 3$ I.e., $x \in (-\infty, -1/3] \cup [3, \inf
 ## 10. Transformation Order, Why It Matters
 
 When multiple transformations are applied to $y = f(x)$ The order matters because horizontal and
-Vertical transformations interact differently.
+vertical transformations interact differently.
 
 **Rule.** For $y = af(bx + c) + d$:
 
@@ -601,7 +601,7 @@ $f'(x) = 0$ at $x = \pm 1$. $f'(x) < 0$ for $-1 < x < 1$ (decreasing), and $f'(x
 or $x > 1$ (increasing).
 
 Since $f$ is decreasing on $(-1, 1)$ and increasing on $(-\infty, -1)$ and $(1, \infty)$ It is not
-Injective on all of $\mathbb{R}$. For example, $f(-2) = -8 + 6 + 1 = -1$ and $f(0) = 1$ and
+injective on all of $\mathbb{R}$. For example, $f(-2) = -8 + 6 + 1 = -1$ and $f(0) = 1$ and
 $f(1) = -1$. So $f(-2) = f(1) = -1$ with $-2 \neq 1$.
 
 The largest interval containing $0$ on which $f$ is strictly monotonic (hence injective) is

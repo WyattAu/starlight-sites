@@ -341,7 +341,7 @@ memory interacts with LTM.
 
 A major strength of the WMM is its strong empirical support from dual-task studies. Baddeley et al.
 (1975) found that two visual tasks impaired each other, but a visual task and a verbal task did not.
-This provides direct evidence for separate slave systems processing different types of information.
+this provides direct evidence for separate slave systems processing different types of information.
 The model's predictions have been consistently replicated, giving it high reliability.
 
 Clinical evidence also supports the WMM. Patient KF (Shallice and Warrington, 1970) suffered brain

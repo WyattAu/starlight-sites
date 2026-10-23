@@ -52,7 +52,7 @@ categories:
 1. **Question (E.1 & A.5 - HL Only):** A hydrogen atom in the n=3 excited state is moving away from
    an observer at a relativistic speed. The atom de-excites, emitting a photon that an observer at
    rest with the atom would measure as a Balmer-alpha transition (n=3 to n=2). The observer on
-   Earth, however, measures the wavelength of this photon to be 700 nm. A) What is the wavelength of
+   earth, however, measures the wavelength of this photon to be 700 nm. A) What is the wavelength of
    the Balmer-alpha photon in its rest frame? b) What is the speed of the hydrogen atom relative to
    the Earth observer? c) From the Earth observer's perspective, what is the lifetime of the n=3
    excited state, if its proper lifetime is 10.0 ns?
@@ -132,7 +132,7 @@ categories:
    temperature as the Sun (5800 K) but is 100 times more luminous. A) Determine the radius of this
    star in terms of the Sun's radius ($R_\odot$). B) Assuming the star has a mass 4 times that of
    the Sun ($M_\odot$), what is the escape velocity from the surface of this star compared to the
-   Sun's? c) A planet orbits this star at a distance equal to the Earth's orbital radius (1 AU).
+   sun's? c) A planet orbits this star at a distance equal to the Earth's orbital radius (1 AU).
    Would you expect this planet to be habitable? Justify your answer with a calculation involving
    the star's radiation intensity.
 
@@ -231,7 +231,7 @@ $$
 ### Half-Life ($T_{1/2}$)
 
 The half-life is the time required for half of the radioactive nuclei in a sample to decay. It is a
-Constant for a particular isotope and is independent of the initial quantity.
+constant for a particular isotope and is independent of the initial quantity.
 
 After $n$ half-lives, the fraction remaining is:
 
@@ -323,7 +323,7 @@ $$
 ### Mass Defect
 
 The mass defect ($\Delta m$) is the difference between the mass of a nucleus and the sum of the
-Masses of its constituent nucleons (protons and neutrons):
+masses of its constituent nucleons (protons and neutrons):
 
 $$
 \Delta m = Zm_p + (A-Z)m_n - m_{\mathrm{nucleus}}
@@ -335,7 +335,7 @@ The mass defect arises because energy is released when nucleons bind together. B
 ### Binding Energy
 
 The binding energy ($E_b$) is the energy required to completely separate a nucleus into its
-Constituent protons and neutrons:
+constituent protons and neutrons:
 
 $$
 E_b = \Delta m \cdot c^2
@@ -451,7 +451,7 @@ Explain:
 - The independence of $E_{k,\mathrm{max}}$ from intensity.
 
 Einstein's explanation: Light consists of discrete packets of energy called **photons**, each with
-Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$ No emission occurs
+energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$ No emission occurs
 regardless of intensity.
 
 ---
@@ -470,7 +470,7 @@ regardless of intensity.
 ### Bohr Model of Hydrogen
 
 Niels Bohr proposed that electrons in hydrogen atoms occupy discrete energy levels (orbits) with
-Quantised energies:
+quantised energies:
 
 $$
 E_n = -\frac{13.6}{n^2} \mathrm{ eV}

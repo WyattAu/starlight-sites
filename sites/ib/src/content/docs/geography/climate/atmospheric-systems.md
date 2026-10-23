@@ -30,8 +30,8 @@ description: "Study notes for Atmospheric Systems with worked examples, practice
 
 The global atmospheric circulation is driven by differential heating of Earth's surface. The equator
 Receives more solar radiation per unit area than the poles (because solar radiation strikes the
-Equator more directly, spreading over a smaller area). This energy imbalance drives a system of
-Atmospheric convection that redistributes heat from the equator toward the poles.
+equator more directly, spreading over a smaller area). This energy imbalance drives a system of
+atmospheric convection that redistributes heat from the equator toward the poles.
 
 The simplified three-cell model of atmospheric circulation identifies three circulation cells in
 each hemisphere:
@@ -41,7 +41,7 @@ Warm, expand, and rise (convection). The rising air cools adiabatically, produci
 Clouds, and heavy rainfall. At the tropopause (approximately 12--15 km altitude), the air diverges
 Poleward. Coriolis deflection causes this poleward-moving air to be deflected eastward, creating the
 Upper-level westerlies. By approximately 30$^\circ$ latitude, the air has cooled sufficiently to
-Descend, creating zones of subsidence and high atmospheric pressure. The descending air warms
+descend, creating zones of subsidence and high atmospheric pressure. The descending air warms
 Adiabatically, suppressing cloud formation and producing the world's major desert belts (the Sahara,
 Arabian, Thar, Kalahari, and Australian deserts lie within these subtropical high-pressure belts).
 At the surface, air flows back toward the equator, completing the cell. Coriolis deflection turns
@@ -50,12 +50,12 @@ this equatorward surface flow to the west, creating the north-east and south-eas
 **The Ferrel Cell (30$^\circ$--60$^\circ$).** The Ferrel cell is a thermally indirect cell (driven
 Not by local heating but by the motions of the Hadley and Polar cells that flank it). Surface winds
 at 30$^\circ$ flow poleward, deflected eastward by Coriolis to become the prevailing westerlies. At
-Approximately 60$^\circ$ latitude, the westerlies encounter cold polar air flowing equatorward,
+approximately 60$^\circ$ latitude, the westerlies encounter cold polar air flowing equatorward,
 Creating the polar front zone of convergence, uplift, and cyclonic activity.
 
 **The Polar Cell (60$^\circ$--90$^\circ$).** Cold, dense air descends at the poles and flows
 Equatorward at the surface, deflected westward by Coriolis to become the polar easterlies. At
-Approximately 60$^\circ$ latitude, this cold equatorward-flowing air meets the warm poleward-flowing
+approximately 60$^\circ$ latitude, this cold equatorward-flowing air meets the warm poleward-flowing
 Air of the Ferrel cell, rising at the polar front.
 
 ### Pressure and Wind Belts
@@ -143,13 +143,13 @@ Cell.
 **Relationship to weather.** The polar front jet stream steers mid-latitude weather systems
 (depressions and anticyclones) from west to east. Regions north of the jet stream tend to be under
 the influence of cold polar air masses; regions south of the jet stream tend to be under the
-Influence of warmer subtropical air. The position and strength of the jet stream determine the track
+influence of warmer subtropical air. The position and strength of the jet stream determine the track
 and intensity of storm systems.
 
 **Climate change and the jet stream.** Arctic amplification (the Arctic is warming 2--4 times faster
 Than the global average) is reducing the temperature gradient between the Arctic and mid-latitudes.
 Since the strength of the polar front jet stream is proportional to this temperature gradient, some
-Research suggests that the jet stream is weakening and becoming more wavy, increasing the frequency
+research suggests that the jet stream is weakening and becoming more wavy, increasing the frequency
 and persistence of extreme weather events (heat waves, cold spells, prolonged rainfall). However,
 This hypothesis remains an area of active research, and confidence in the specific mechanisms is not
 yet high.
@@ -182,7 +182,7 @@ in the Southern Hemisphere.
 
 Thermohaline circulation is the large-scale ocean circulation driven by differences in water
 Density, which is determined by temperature (thermo-) and salinity (-haline). Cold, salty water is
-Denser and sinks; warm, fresh water is less dense and rises.
+denser and sinks; warm, fresh water is less dense and rises.
 
 **The Atlantic Meridional Overturning Circulation (AMOC)** is the component of the THC most relevant
 To climate. Warm, salty surface water flows northward from the tropics in the Gulf Stream and North
@@ -193,13 +193,13 @@ Southward at depth, eventually reaching the Southern Ocean and beyond.
 
 The AMOC transports approximately 1.3 petawatts (1.3 x 10$^{15}$ watts) of heat northward,
 Equivalent to approximately 25 times the total energy consumption of human civilisation. It is a
-Major contributor to the relatively mild climate of north-western Europe.
+major contributor to the relatively mild climate of north-western Europe.
 
 **AMOC and climate change.** Climate change is weakening the AMOC by reducing the density of North
 Atlantic surface water through warming (less dense) and freshwater input (from melting Greenland
 Ice, increased precipitation, and river discharge). Observations from the RAPID array (a system of
 Moored instruments across the Atlantic at 26$^\circ$N) indicate that the AMOC has weakened by
-Approximately 15% since the mid-20th century. The IPCC projects further weakening under all emission
+approximately 15% since the mid-20th century. The IPCC projects further weakening under all emission
 Scenarios, with a risk of collapse under high-emission scenarios, though the threshold for collapse
 is uncertain.
 
@@ -214,7 +214,7 @@ Rise along the Atlantic coast of North America.
 
 Under normal conditions, the trade winds blow westward across the tropical Pacific, pushing warm
 Surface water toward the western Pacific (Indonesia, Philippines). This creates a warm pool in the
-West (sea surface temperatures exceeding 28$^\circ$C) and a cool tongue in the east (off the coast
+west (sea surface temperatures exceeding 28$^\circ$C) and a cool tongue in the east (off the coast
 of Peru and Ecuador, where cold water upwells from depth). The temperature gradient drives
 Atmospheric convection over the warm pool, producing heavy rainfall in the western Pacific and dry
 Conditions in the eastern Pacific.
@@ -251,7 +251,7 @@ Temperatures in the central and eastern Pacific fall below average.
 **Global impacts of La Nina:** broadly opposite to El Nino: increased rainfall and flooding in
 Southeast Asia and Australia; drought in South America (particularly north-east Brazil); drought in
 the southern USA; and enhanced Atlantic hurricane activity (La Nina reduces wind shear over the
-Tropical Atlantic, allowing more hurricanes to form).
+tropical Atlantic, allowing more hurricanes to form).
 
 ### The 2015--2016 El Nino
 
@@ -260,15 +260,15 @@ The 2015--2016 El Nino was one of the strongest on record (comparable to the eve
 The warmest year on record at the time. Impacts included: severe drought in southern Africa
 (approximately 36 million people required food assistance); drought in Ethiopia (10 million people
 Food-insecure); severe flooding in Paraguay, Argentina, and Uruguay; and coral bleaching across the
-Great Barrier Reef and tropical Pacific (the longest global coral bleaching event on record).
+great Barrier Reef and tropical Pacific (the longest global coral bleaching event on record).
 
 <details>
 <summary>Common Pitfalls: Confusing Weather and Climate When Discussing ENSO</summary>
 
 El Nino and La Nina are climate phenomena (they represent persistent shifts in the state of the
-Coupled ocean-atmosphere system over months to years), not individual weather events. However, they
-Modify the probability of specific weather events occurring. El Nino increases the probability of
-Drought in Australia but does not guarantee it; La Nina increases the probability of flooding in
+coupled ocean-atmosphere system over months to years), not individual weather events. However, they
+modify the probability of specific weather events occurring. El Nino increases the probability of
+drought in Australia but does not guarantee it; La Nina increases the probability of flooding in
 Southeast Asia but does not guarantee it. When discussing ENSO impacts, use probabilistic language
 ("increases the likelihood of," "is associated with") rather than deterministic language ("causes"),
 And provide specific case studies with data.

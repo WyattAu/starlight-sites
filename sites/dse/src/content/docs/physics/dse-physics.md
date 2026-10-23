@@ -243,7 +243,7 @@ Candidates are expected to demonstrate the ability to:
 ### Worked Example 1 -- Mechanics (SUVAT)
 
 A car accelerates uniformly from rest to $20 \mathrm{ m/s}$ in $5 \mathrm{ s}$. Find the
-Acceleration and the distance travelled.
+acceleration and the distance travelled.
 
 <details>
 <summary>Solution</summary>

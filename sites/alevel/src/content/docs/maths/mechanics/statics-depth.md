@@ -20,11 +20,11 @@ categories: [Mathematics]
 ## Statics (Extended Treatment)
 
 This document covers moments, equilibrium conditions, centres of mass, ladder problems, and
-Frameworks with a rigorous, proof-based approach.
+frameworks with a rigorous, proof-based approach.
 
 :::note
 Approach -- drawing the diagram, listing forces, choosing a pivot -- is more reliable than
-Intuition.
+intuition.
 :::
 
 <hr />
@@ -258,7 +258,7 @@ negative contributions from The removed part.
 ### 4.1 General approach
 
 Ladder problems involve a uniform ladder leaning against a rough vertical wall and resting on a
-Rough horizontal ground. The key forces are:
+rough horizontal ground. The key forces are:
 
 - Weight $W$ of the ladder, acting at the centre.
 - Normal reaction $R_g$ from the ground (vertical).
@@ -270,8 +270,8 @@ Rough horizontal ground. The key forces are:
 
 **Problem.** A uniform ladder of length $5\;\mathrm{m}$ and mass $20\;\mathrm{kg}$ rests with its
 Foot on rough horizontal ground and its top against a smooth vertical wall. The ladder makes an
-Angle of $65^\circ$ with the horizontal. The coefficient of friction between the ladder and the
-Ground is $0.4$. Will the ladder slip?
+angle of $65^\circ$ with the horizontal. The coefficient of friction between the ladder and the
+ground is $0.4$. Will the ladder slip?
 
 Resolving horizontally: $F_g = R_w$.
 
@@ -395,7 +395,7 @@ through the framework, and equilibrium of one of the resulting sections is analy
 ### Problem 1
 
 A uniform beam $AB$ of length $5\;\mathrm{m}$ and weight $200\;\mathrm{N}$ is hinged at $A$ and
-Supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. Find the tension In
+supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. Find the tension In
 the wire and the reaction at the hinge.
 
 <details>
@@ -420,7 +420,7 @@ Vertical reaction $V = 200 - T\sin 30^\circ = 200 - 100 = 100\;\mathrm{N}$.
 ### Problem 2
 
 A uniform lamina is formed from a square of side $10\;\mathrm{cm}$ with a right-angled triangle of
-Base $10\;\mathrm{cm}$ and height $6\;\mathrm{cm}$ attached to one side. Find the centre of mass of
+base $10\;\mathrm{cm}$ and height $6\;\mathrm{cm}$ attached to one side. Find the centre of mass of
 the composite lamina.
 
 <details>
@@ -482,7 +482,7 @@ slip** at the ground.
 
 A uniform rod $AB$ of length $3\;\mathrm{m}$ and weight $80\;\mathrm{N}$ is freely hinged at $A$ to
 A vertical wall. The rod is held horizontal by a string attached to $B$ and to a point $C$ on the
-Wall $2\;\mathrm{m}$ above $A$. A load of $120\;\mathrm{N}$ is hung from $B$. Find the tension in
+wall $2\;\mathrm{m}$ above $A$. A load of $120\;\mathrm{N}$ is hung from $B$. Find the tension in
 the string.
 
 <details>

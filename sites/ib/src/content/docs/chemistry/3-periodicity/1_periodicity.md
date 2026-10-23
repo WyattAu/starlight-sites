@@ -162,7 +162,7 @@ $\mathrm{O}_2^-$).
 </div>
 
 Group 2 metals are harder and have higher melting points than Group 1 metals due to the release of
-Two delocalised electrons per atom, producing stronger metallic bonding.
+two delocalised electrons per atom, producing stronger metallic bonding.
 
 ### Chemical Properties
 
@@ -192,7 +192,7 @@ $$
 $$
 
 Thermal stability increases down the group. This is because the larger $\mathrm{M}^{2+}$ ion has
-Lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
+lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
 
 <div class="table-wrap">
 
@@ -368,7 +368,7 @@ $$
 </div>
 
 The trend of increasing highest oxidation state across the period reflects the increasing number of
-Valence electrons available for bonding.
+valence electrons available for bonding.
 
 ### Chlorides of Period 3
 
@@ -461,7 +461,7 @@ $$
 ### Catalytic Properties
 
 Transition metals are effective catalysts because of variable oxidation states and the ability to
-Form intermediate complexes.
+form intermediate complexes.
 
 <div class="table-wrap">
 
@@ -498,7 +498,7 @@ Explain why the thermal decomposition temperature of Group 2 carbonates increase
 **Solution:**
 
 As the size of the $\mathrm{M}^{2+}$ ion increases down the group, its charge density decreases. The
-Larger cation has lower polarising power, meaning it distorts the electron cloud of the
+larger cation has lower polarising power, meaning it distorts the electron cloud of the
 $\mathrm{CO}_3^{2-}$ anion less. A less distorted carbonate ion is more stable and requires more
 Thermal energy to decompose into $\mathrm{MO}$ and $\mathrm{CO}_2$.
 
@@ -515,7 +515,7 @@ $\mathrm{Al}^{3+}$ has a high charge density (small ion, $+3$ charge), which pol
 Bonds in water molecules coordinated to it, facilitating proton release. This gives aluminium oxide
 Acidic character in addition to its basic character. $\mathrm{Mg}^{2+}$ has a lower charge density,
 So it acts only as a Lewis acid in accepting oxide ions but does not polarise water sufficiently to
-Release protons. Therefore $\mathrm{MgO}$ is purely basic.
+release protons. Therefore $\mathrm{MgO}$ is purely basic.
 
 </details>
 
@@ -551,7 +551,7 @@ between molecules, so it is a liquid at room temperature (bp $136\degree\mathrm{
 $\mathrm{TiO}_2$ has a giant ionic lattice structure. The strong electrostatic forces between
 $\mathrm{Ti}^{4+}$ and $\mathrm{O}^{2-}$ ions require a large amount of energy to overcome,
 Resulting in a very high melting point. The high charges on both ions ($+4$ and $-2$) produce a
-Particularly large lattice energy.
+particularly large lattice energy.
 
 </details>
 

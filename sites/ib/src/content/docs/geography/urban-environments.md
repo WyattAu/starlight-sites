@@ -104,7 +104,7 @@ specific district, slum formation on the urban fringe).
   inner-city areas.
 - **In-formal economy** -- economic activities that are not regulated, taxed, or protected by the
   state, including street vending, waste picking, and unregistered construction. In cities of the
-  Global South, the informal economy can account for over 50% of employment. Ignoring the informal
+  global South, the informal economy can account for over 50% of employment. Ignoring the informal
   economy when applying urban models (e.g., Burgess, Hoyt) is a significant limitation.
 - **Gentrification** -- the transformation of a low-income urban neighbourhood through the influx of
   wealthier residents, investment in property and services, and consequent displacement of original

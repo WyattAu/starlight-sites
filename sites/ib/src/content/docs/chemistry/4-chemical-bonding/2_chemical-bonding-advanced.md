@@ -283,7 +283,7 @@ $$
 
 In a metal, the valence electrons are delocalised over the entire lattice of positive metal ions.
 These delocalised electrons form an "electron sea" that holds the metal cations together through
-Electrostatic attraction.
+electrostatic attraction.
 
 ### Properties Explained by Metallic Bonding
 
@@ -359,7 +359,7 @@ Broaden into **energy bands** due to orbital overlap.
 ### Semiconductor Behaviour
 
 In an intrinsic semiconductor at $0\mathrm{ K}$ The valence band is full and the conduction band is
-Empty. As temperature increases:
+empty. As temperature increases:
 
 1. Some electrons gain enough energy to cross the band gap.
 2. These electrons enter the conduction band and carry charge.
@@ -440,16 +440,16 @@ This is confirmed experimentally: liquid oxygen is attracted to a magnet.
 <summary>Problem 3</summary>
 
 Explain why the melting point of aluminium ($660\degree\mathrm{C}$) is much higher than that of
-Sodium ($98\degree\mathrm{C}$).
+sodium ($98\degree\mathrm{C}$).
 
 **Solution:**
 
 Aluminium has the electron configuration $[\mathrm{Ne}]\, 3s^2\, 3p^1$ and contributes **three**
-Delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
+delocalised electrons to the metallic bond. Sodium has $[\mathrm{Ne}]\, 3s^1$ and contributes only
 **one**. More delocalised electrons produce stronger electrostatic attraction between the cations
 and the electron sea. Additionally, $\mathrm{Al}^{3+}$ is smaller than $\mathrm{Na}^+$ So the Charge
 density is higher and the ions are closer together. Both factors increase the strength of the
-Metallic bond and therefore the melting point.
+metallic bond and therefore the melting point.
 
 </details>
 
@@ -457,7 +457,7 @@ Metallic bond and therefore the melting point.
 <summary>Problem 4</summary>
 
 Silicon has a band gap of $1.1\mathrm{ eV}$. Calculate the minimum wavelength of light required to
-Excite an electron from the valence band to the conduction band.
+excite an electron from the valence band to the conduction band.
 
 **Solution:**
 
@@ -517,8 +517,8 @@ Electron pair geometry: tetrahedral. Molecular shape: tetrahedral. Hybridization
 **Step 4: Bond angles.**
 
 All $\mathrm{O\!-\!S\!-\!O}$ bond angles are approximately $109.5\degree$ (ideal tetrahedral). The
-Double bonds repel slightly more than single bonds, so angles may deviate by a few degrees, but the
-Overall geometry remains tetrahedral.
+double bonds repel slightly more than single bonds, so angles may deviate by a few degrees, but the
+overall geometry remains tetrahedral.
 
 **Step 5: Polarity.**
 
@@ -530,13 +530,13 @@ The $\mathrm{S\!-\!O}$ bond dipoles are symmetrically arranged and cancel. $\mat
 **Worked Example: MO theory for a heteronuclear diatomic**
 
 Use MO theory to determine the bond order and magnetic properties of NO. Compare the bond order and
-Bond length of NO with those of $\mathrm{NO}^+$.
+bond length of NO with those of $\mathrm{NO}^+$.
 
 <details>
 <summary>Solution</summary>
 
 NO has 11 valence electrons (5 from N, 6 from O). Since oxygen is to the right of nitrogen in the
-Periodic table, the $\mathrm{O}_2$/$\mathrm{F}_2$ energy ordering applies:
+periodic table, the $\mathrm{O}_2$/$\mathrm{F}_2$ energy ordering applies:
 
 $$
 \sigma_{2s}^2\, (\sigma_{2s}^*)^2\, \sigma_{2p_z}^2\, \pi_{2p_x}^2\, \pi_{2p_y}^2\, (\pi_{2p_x}^*)^1
@@ -618,9 +618,9 @@ Total: $8\sigma$ bonds, $3\pi$ bonds.
 **Worked Example: Band gap and semiconductor classification**
 
 Diamond has a band gap of $5.5\mathrm{ eV}$ and silicon has a band gap of $1.1\mathrm{ eV}$. (a)
-Calculate the minimum wavelength of light required to excite an electron across the band gap in each
-Material. (b) Classify each material. (c) Explain why diamond is transparent to visible light but
-Silicon is not.
+calculate the minimum wavelength of light required to excite an electron across the band gap in each
+material. (b) Classify each material. (c) Explain why diamond is transparent to visible light but
+silicon is not.
 
 <details>
 <summary>Solution</summary>

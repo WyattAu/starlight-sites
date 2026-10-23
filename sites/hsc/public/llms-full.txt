@@ -741,7 +741,7 @@ scores with exam performance.
 
 **HSC:** Most HSC courses include a written external examination set and marked by NESA. These exams
 are in most cases held in October–November. Some courses (e.g., Visual Arts, Music, Design and
-Technology) also include a major work or performance submitted externally.
+technology) also include a major work or performance submitted externally.
 
 **VCE:** Written examinations are set by VCAA and held in October–November. Performance and oral
 exams are conducted earlier (in most cases June for LOTE and October for performance-based studies).

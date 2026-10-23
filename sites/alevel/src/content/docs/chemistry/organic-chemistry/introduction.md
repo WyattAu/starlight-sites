@@ -29,7 +29,7 @@ Configurations ($sp^3$, $sp^2$, $sp$) produces a combinatorial space of molecule
 other branches of chemistry combined.
 
 This module serves as the conceptual foundation for every subsequent organic topic. It defines the
-Systematic rules for naming, classifying, and reasoning about organic molecules.
+systematic rules for naming, classifying, and reasoning about organic molecules.
 
 ## IUPAC Nomenclature
 
@@ -82,8 +82,8 @@ Complex substituents are named as branched alkyl groups and enclosed in parenthe
 ## Homologous Series
 
 A homologous series is a family of organic compounds with the same functional group, the same
-General formula, and successive members differing by $-\mathrm{CH}_2-$. Each member exhibits a
-Gradual, predictable change in physical properties.
+general formula, and successive members differing by $-\mathrm{CH}_2-$. Each member exhibits a
+gradual, predictable change in physical properties.
 
 <div class="table-wrap">
 
@@ -116,14 +116,14 @@ For compounds of similar molecular mass:
 Alkanes $\lt$ Ethers $\lt$ Aldehydes/Ketones $\lt$ Alcohols $\lt$ Carboxylic Acids
 
 This ordering reflects the increasing strength of intermolecular forces: London forces only $\to$
-Permanent dipole-dipole $\to$ hydrogen bonding $\to$ dimeric hydrogen bonding (carboxylic acids form
+permanent dipole-dipole $\to$ hydrogen bonding $\to$ dimeric hydrogen bonding (carboxylic acids form
 Dimers in the liquid phase).
 
 ## Functional Group Classification
 
 Functional groups are specific groups of atoms within molecules that are responsible for the
-Characteristic chemical reactions of those molecules. The reactivity of an organic compound is
-Determined almost entirely by its functional group(s).
+characteristic chemical reactions of those molecules. The reactivity of an organic compound is
+determined almost entirely by its functional group(s).
 
 Electron-rich groups (nucleophilic sites): $-\mathrm{OH}$, $-\mathrm{NH}_2$ C=C, benzene ring.
 
@@ -133,12 +133,12 @@ $-\mathrm{COOH}$.
 A compound may contain multiple functional groups. In such cases, the most senior group (see
 Priority order above) takes the suffix, and all others are named as prefixes. For example,
 2-hydroxypropanoic acid contains both an alcohol and a carboxylic acid; the carboxylic acid is
-Senior.
+senior.
 
 ## Isomerism
 
 Isomers are compounds with the same molecular formula but different structural arrangements of
-Atoms. Isomerism is divided into two broad categories: structural isomerism and stereoisomerism.
+atoms. Isomerism is divided into two broad categories: structural isomerism and stereoisomerism.
 
 ### Structural Isomerism
 
@@ -146,7 +146,7 @@ Structural isomers differ in the connectivity of their atoms. There are three su
 
 **Chain isomerism:** Different carbon skeletons. For $\mathrm{C}_4\mathrm{H}_{10}$: butane (straight
 Chain) vs 2-methylpropane (branched). Branched isomers have slightly lower boiling points due to
-Reduced surface area for London forces.
+reduced surface area for London forces.
 
 **Positional isomerism:** The functional group occupies a different position on the same carbon
 Chain. For $\mathrm{C}_3\mathrm{H}_8\mathrm{O}$: propan-1-ol vs propan-2-ol. These have different
@@ -160,7 +160,7 @@ $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$: propanal (aldehyde), propanone (ketone), m
 ### Stereoisomerism
 
 Stereoisomers have the same structural formula and the same atom connectivity but differ in the
-Spatial arrangement of atoms.
+spatial arrangement of atoms.
 
 #### E/Z Isomerism (Geometric Isomerism)
 
@@ -203,7 +203,7 @@ A chiral centre (stereocentre) is a carbon atom bonded to four different groups.
 Exist as two non-superimposable mirror images called **enantiomers**.
 
 The property of existing in non-superimposable mirror-image forms is called **chirality**. The most
-Common cause of chirality in organic molecules is a tetrahedral carbon with four different
+common cause of chirality in organic molecules is a tetrahedral carbon with four different
 Substituents.
 
 **Properties of enantiomers:**
@@ -279,7 +279,7 @@ $\pi$ bond acts as a nucleophile. The mechanism proceeds via a carbocation inter
 
 **Electrophilic aromatic substitution ($\mathrm{SE}_Ar$):** An electrophile substitutes a hydrogen
 On an aromatic ring. The aromatic system is temporarily disrupted (arenium ion intermediate) but
-Restored by loss of a proton. Covered in [arenes](/chemistry/organic-chemistry/arenes/).
+restored by loss of a proton. Covered in [arenes](/chemistry/organic-chemistry/arenes/).
 
 **Nucleophilic addition ($\mathrm{Ad}_N$):** A nucleophile adds to the carbonyl carbon of an
 Aldehyde or ketone. The C=O $\pi$ bond is broken. Covered in
@@ -305,7 +305,7 @@ are strict:
 ### Reaction Coordinate Diagrams
 
 A reaction coordinate diagram plots the potential energy of the system against the progress of the
-Reaction. Key features:
+reaction. Key features:
 
 - **Reactants:** Starting energy level.
 - **Transition state:** The highest-energy point on the reaction pathway. Denoted with a double
@@ -333,8 +333,8 @@ $\mathrm{NH}_2^-$$\mathrm{CH}_3^-$.
 
 The trend follows basicity (weaker base = better leaving group) and the stability of the conjugate
 Acid. Water ($\mathrm{H}_2\mathrm{O}$) is a much better leaving group than $-\mathrm{OH}$ Which is
-Why acid catalysis is often used to protonate $-\mathrm{OH}$ groups before substitution or
-Elimination.
+why acid catalysis is often used to protonate $-\mathrm{OH}$ groups before substitution or
+elimination.
 
 ## Common Pitfalls
 

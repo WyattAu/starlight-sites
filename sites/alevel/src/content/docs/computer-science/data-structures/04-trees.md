@@ -513,15 +513,15 @@ $h - 1 = 5$ There are $2^5 = 32$ nodes. Nodes at depth 5 that are not leaves hav
 Let me recalculate.
 
 Actually: nodes at depths 0 through 5 = $2^6 - 1 = 63$. Nodes at depth 6 = $100 - 63 = 37$. The 37
-Nodes at depth 6 are all leaves. Of the 32 nodes at depth 5, those that have children at depth 6 are
-Internal (37 of them, but we only have 32). Actually all 32 nodes at depth 5 are internal (they each
+nodes at depth 6 are all leaves. Of the 32 nodes at depth 5, those that have children at depth 6 are
+internal (37 of them, but we only have 32). Actually all 32 nodes at depth 5 are internal (they each
 have children at depth 6, filling left to right). Wait, 37 nodes at depth 6 and 32 at depth 5 means
 each of the 32 nodes at depth 5 has at least one child. The first 5 have two children
 ($5 \times 2 = 10$), the remaining 27 have one child each. So $32 - 37$... That doesn't work.
 
 Let me reconsider: 32 nodes at depth 5 can have up to 64 children. We have 37 children at depth 6.
 So $37 - 32 = 5$ nodes have two children, and $32 - 5 = 27$ nodes have exactly one child. The
-Remaining nodes at depths 0–4 that have no children are internal (by definition they have children
+remaining nodes at depths 0–4 that have no children are internal (by definition they have children
 since they're not at the bottom). So leaves = nodes at depth 6 that have no children = 37. Wait,
 Nodes at depth 6 are always leaves in a complete binary tree. So leaves = 37. Internal nodes =
 $100 - 37 = 63$.
@@ -536,9 +536,9 @@ at level 5 have at least one child (since we fill left to right and have 37 chil
 = 37.
 
 Wait, I need to reconsider. The 32 nodes at level 5 need 37 children. The first $37$ "slots" at
-Level 6 are filled. Each node at level 5 has 2 child slots. So the first $\lfloor 37/2 \rfloor = 18$
+level 6 are filled. Each node at level 5 has 2 child slots. So the first $\lfloor 37/2 \rfloor = 18$
 Nodes have 2 children each, and the 19th node has 1 child. The remaining $32 - 19 = 13$ nodes at
-Level 5 have **no children** and are therefore leaves.
+level 5 have **no children** and are therefore leaves.
 
 Total leaves = 37 (level 6) + 13 (level 5) = 50 = $\lceil 100/2 \rceil$. ✓
 
@@ -548,7 +548,7 @@ Where stability is violated.
 <summary>Answer</summary>
 
 Heap sort is not stable because the `heapify` operation swaps elements that may be far apart in the
-Array, changing the relative order of equal elements.
+array, changing the relative order of equal elements.
 
 Example: Array `[(3, a), (3, b), (2, c)]` (pairs with key and identity).
 
@@ -597,8 +597,8 @@ def tree_height(node):
 
 **Correctness.** By structural induction. Base case: empty tree has height $-1$ (convention).
 Inductive step: if the left subtree has height $h_L$ and right subtree has height $h_R$ (by
-Inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$ Which is the
-Length of the longest root-to-leaf path. $\square$
+inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$ Which is the
+length of the longest root-to-leaf path. $\square$
 
 **Problem 12.** Given an array representation of a min-heap `[1, 3, 2, 7, 5, 4, 8]`What are the
 Children of node 3? What is the parent of node 5?
@@ -733,7 +733,7 @@ Subtree) and replace 25 with it, then delete the successor node.
 <summary>Answer</summary>
 
 Node 25 has two children. The in-order successor is the smallest node in the right subtree of 25,
-Which is 30 (leftmost node in the subtree rooted at 35).
+which is 30 (leftmost node in the subtree rooted at 35).
 
 Replace 25 with 30, then delete the original node 30 (which is a leaf).
 
@@ -798,7 +798,7 @@ Extract-max operation (remove the root) and show the resulting array after each 
 <summary>Hint</summary>
 
 Extract-max: swap root with last element, remove last element, then sift the new root down by
-Swapping with the larger child while the root is smaller than that child.
+swapping with the larger child while the root is smaller than that child.
 
 <summary>Answer</summary>
 
@@ -844,7 +844,7 @@ Tree.
 <summary>Hint</summary>
 
 Depth is the number of edges from the root to the node (root has depth 0). Height of the tree is the
-Maximum depth of any node.
+maximum depth of any node.
 
 <summary>Answer</summary>
 
@@ -935,7 +935,7 @@ for a key that exists in both trees, expressing your answers in terms of $n$.
 
 In a BST, each comparison eliminates one subtree. In the worst case, the number of comparisons
 Equals the height of the tree. For a successful search, the expected number of comparisons is
-Approximately half the height.
+approximately half the height.
 
 <summary>Answer</summary>
 

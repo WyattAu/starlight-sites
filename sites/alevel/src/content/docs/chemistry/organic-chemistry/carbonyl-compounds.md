@@ -23,10 +23,10 @@ categories:
 ## Carbonyl Compounds
 
 Carbonyl compounds contain the C=O functional group. The carbonyl carbon is $sp^2$ hybridised with
-Trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond
+trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond
 ($\mathrm{C}^{\delta+}=\mathrm{O}^{\delta-}$). The $\delta^+$ carbon is electrophilic and
-Susceptible to nucleophilic attack, while the $\delta^-$ oxygen can act as a weak base or
-Nucleophile.
+susceptible to nucleophilic attack, while the $\delta^-$ oxygen can act as a weak base or
+nucleophile.
 
 ## Aldehydes vs Ketones
 
@@ -88,7 +88,7 @@ Attack from either face of the planar carbonyl group with equal probability.
 ### Reduction with NaBH$_4$
 
 Sodium tetrahydridoborate (sodium borohydride) reduces the C=O group by nucleophilic addition of
-Hydride ($\mathrm{H}^-$):
+hydride ($\mathrm{H}^-$):
 
 $$
 \mathrm{RCHO} \xrightarrow{\mathrm{NaBH}_4} \mathrm{RCH}_2\mathrm{OH} \quad \mathrm{(primary alcohol)}
@@ -133,7 +133,7 @@ $$
 
 **Fehling's solution:** A mixture of Fehling's A (copper(II) sulphate in aqueous solution) and
 Fehling's B (alkaline potassium sodium tartrate, which complexes the copper(II) to keep it in
-Solution).
+solution).
 
 **Reaction with aldehydes:** The aldehyde is oxidised, and the blue copper(II) complex is reduced to
 A brick-red precipitate of copper(I) oxide:
@@ -152,7 +152,7 @@ Brick-red precipitate with aldehydes.
 2,4-dinitrophenylhydrazine (Brady's reagent) reacts with both aldehydes and ketones to form
 Orange-yellow precipitates (2,4-dinitrophenylhydrazones). This confirms the presence of a carbonyl
 Group. The melting point of the derivative can be compared with database values to identify the
-Specific carbonyl compound.
+specific carbonyl compound.
 
 $$
 \mathrm{RCOR}' + \mathrm{H}_2\mathrm{NNHCOC}_6\mathrm{H}_3(\mathrm{NO}_2)_2 \to \mathrm{RR'}\mathrm{C}=\mathrm{NNHCOC}_6\mathrm{H}_3(\mathrm{NO}_2)_2 + \mathrm{H}_2\mathrm{O}
@@ -170,7 +170,7 @@ $$
 
 The $\mathrm{p}K_a$ of typical aliphatic carboxylic acids is approximately 4--5. They are stronger
 Acids than alcohols ($\mathrm{p}K_a \approx 16$) because the carboxylate anion is stabilised by
-Resonance delocalisation of the negative charge over both oxygen atoms:
+resonance delocalisation of the negative charge over both oxygen atoms:
 
 $$
 \mathrm{RCOO}^- \leftrightarrow \mathrm{R}-\mathrm{C}(\mathrm{O}^-)=\mathrm{O} \leftrightarrow \mathrm{R}-\mathrm{C}=\mathrm{O}^-
@@ -197,7 +197,7 @@ $$
 
 Acyl chlorides (acid chlorides) are the most reactive carboxylic acid derivatives. The chlorine atom
 is an excellent leaving group, making the carbonyl carbon extremely electrophilic. No catalyst is
-Required for any of the following reactions.
+required for any of the following reactions.
 
 ### Hydrolysis
 
@@ -256,20 +256,20 @@ $$
 $$
 
 Heated under reflux with aqueous sodium hydroxide. The carboxylate ion cannot be protonated under
-Basic conditions, so the reaction is irreversible. Acidification of the product mixture yields the
-Free carboxylic acid.
+basic conditions, so the reaction is irreversible. Acidification of the product mixture yields the
+free carboxylic acid.
 
 ## Amides
 
 Amides contain the $-\mathrm{CONH}_2$ group. They are formed by the reaction of acyl chlorides with
-Ammonia or by the reaction of carboxylic acids with ammonia at high temperature.
+ammonia or by the reaction of carboxylic acids with ammonia at high temperature.
 
 $$
 \mathrm{RCOCl} + 2\mathrm{NH}_3 \to \mathrm{RCONH}_2 + \mathrm{NH}_4\mathrm{Cl}
 $$
 
 Amides are relatively unreactive compared with acyl chlorides and esters. The lone pair on the
-Nitrogen is delocalised into the carbonyl group, reducing the electrophilicity of the carbonyl
+nitrogen is delocalised into the carbonyl group, reducing the electrophilicity of the carbonyl
 Carbon.
 
 ### Hydrolysis of Amides
@@ -492,7 +492,7 @@ compound. This is a standard qualitative organic analysis technique.
 A compound $\mathrm{A}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}$) gives a silver mirror with Tollens'
 Reagent and reacts with $\mathrm{NaBH}_4$ to give compound $\mathrm{B}$. Compound $\mathrm{B}$ can
 be oxidised to compound $\mathrm{C}$ ($\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$), which reacts with
-Sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
+sodium carbonate to produce $\mathrm{CO}_2$. Identify $\mathrm{A}$, $\mathrm{B}$ And $\mathrm{C}$.
 
 **Solution:**
 
@@ -514,7 +514,7 @@ $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ but would not give a positive Tollens' test
 <summary>Problem 2</summary>
 
 Write equations for the reactions of ethanoyl chloride ($\mathrm{CH}_3\mathrm{COCl}$) with: (a)
-Water, (b) ethanol, (c) ammonia, (d) methylamine. State the observations for each reaction.
+water, (b) ethanol, (c) ammonia, (d) methylamine. State the observations for each reaction.
 
 **Solution:**
 

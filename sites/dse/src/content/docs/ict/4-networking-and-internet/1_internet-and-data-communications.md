@@ -116,7 +116,7 @@ Every device is connected to every other device (full mesh) or to multiple devic
 
 :::caution
 Exam Tip In exam questions, always discuss both advantages AND disadvantages of each
-Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
+topology. Star is the most common in modern LANs due to ease of management and fault isolation.
 :::
 
 ---
@@ -501,7 +501,7 @@ To register a domain:
 
 :::caution
 Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the
-Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
+highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 :::
 
@@ -715,8 +715,8 @@ Rules.
 ### Digital Certificate
 
 A digital certificate is an electronic document issued by a **Certificate Authority (CA)** that
-Binds a public key to an identity (e.g., a website domain). It verifies the authenticity of a
-Website, enabling HTTPS secure connections.
+binds a public key to an identity (e.g., a website domain). It verifies the authenticity of a
+website, enabling HTTPS secure connections.
 
 ### VPN (Virtual Private Network)
 
@@ -804,7 +804,7 @@ Ethical principles guiding computer use:
 ### Digital Divide
 
 The gap between those who have access to information and communication technology (ICT) and those
-Who do not.
+who do not.
 
 **Causes:** Economic inequality, geographical location (rural vs urban), age, education level,
 Physical disability, government policy.
@@ -891,7 +891,7 @@ Practices to reduce the environmental impact of computing:
 <summary>Question 1: Network Topology Analysis</summary>
 
 A small office with 6 computers needs to set up a LAN. The office manager asks you to recommend a
-Topology.
+topology.
 
 (a) Recommend the most suitable topology and justify your answer.
 
@@ -903,7 +903,7 @@ Answer:
 
 (a) **Star topology** using a central switch. It is the most suitable because it is easy to manage,
 Fault-tolerant for individual device failures, and allows easy addition/removal of devices without
-Disrupting the network.
+disrupting the network.
 
 (b) A **switch** (or hub, but a switch is preferred for its intelligence and dedicated bandwidth).
 
@@ -959,7 +959,7 @@ Answer:
 of host bits is 6 (the number of 0s).
 
 (b) Number of usable hosts = $2^6 - 2 = 64 - 2 = 62$. (Subtract 2 for the network address and
-Broadcast address.)
+broadcast address.)
 
 (c) The block size is $256 - 192 = 64$. Subnet network addresses:
 
@@ -1084,18 +1084,18 @@ It is fast but requires a secure method to share the key between parties.
 
 **Asymmetric encryption** uses a pair of keys: a public key for encryption and a private key for
 Decryption (e.g., RSA). The public key can be freely distributed; only the private key holder can
-Decrypt. It is slower but solves the key distribution problem.
+decrypt. It is slower but solves the key distribution problem.
 
 (b) A digital certificate, issued by a trusted Certificate Authority (CA), binds a public key to the
-Identity of a website. When a browser connects to an HTTPS site, the server presents its
-Certificate. The browser verifies the certificate against trusted CAs and checks that the domain
+identity of a website. When a browser connects to an HTTPS site, the server presents its
+certificate. The browser verifies the certificate against trusted CAs and checks that the domain
 Matches. This ensures the website is authentic and that the public key belongs to the correct
 Server, enabling secure encrypted communication.
 
 (c) A firewall monitors and controls network traffic based on predefined security rules. It can
-Block unauthorised incoming connections (e.g., blocking traffic from suspicious IP addresses),
+block unauthorised incoming connections (e.g., blocking traffic from suspicious IP addresses),
 Prevent access to certain ports, and filter packets based on protocol type. This protects the
-Internal network from external threats and unauthorised access.
+internal network from external threats and unauthorised access.
 
 </details>
 
@@ -1106,7 +1106,7 @@ A school is upgrading its network cabling. They are considering twisted pair (Ca
 Optic.
 
 (a) Compare the two media in terms of speed, maximum distance, cost, and susceptibility to
-Interference.
+interference.
 
 (b) Recommend which type of cable should be used for: (i) Connecting computers in a classroom (ii)
 Connecting two buildings on the campus
@@ -1154,8 +1154,8 @@ Users (organisations) collect, hold, process, and use personal data, ensuring th
 Lawfully, accurately, and with the consent of the data subject.
 
 (b) Under the PDPO, the customer has the **right of access** to their personal data held by the
-Company and can request **correction** or **deletion** of their data. The company is obliged to
-Comply with the request; if the company refuses, it must provide reasons.
+company and can request **correction** or **deletion** of their data. The company is obliged to
+comply with the request; if the company refuses, it must provide reasons.
 
 (c) Two measures:
 
@@ -1173,7 +1173,7 @@ Comply with the request; if the company refuses, it must provide reasons.
 <summary>Question 9: Protocol Analysis</summary>
 
 (a) A user is watching a live video stream. State which protocol (TCP or UDP) is more suitable and
-Explain why.
+explain why.
 
 (b) Explain why HTTPS is used instead of HTTP for online banking.
 
@@ -1183,7 +1183,7 @@ Answer:
 
 (a) **UDP** is more suitable. Live video streaming prioritises timely delivery over reliability. If
 A packet is lost, it is better to skip it and continue playing the next frames than to wait for
-Retransmission (which would cause buffering/delays). UDP's lower overhead also helps maintain
+retransmission (which would cause buffering/delays). UDP's lower overhead also helps maintain
 Real-time performance.
 
 (b) HTTPS encrypts all data transmitted between the browser and the server using TLS/SSL. For online
@@ -1199,7 +1199,7 @@ HTTP transmits data in plaintext, which is completely insecure.
 3. **ACK:** The client sends an ACK (acknowledge) packet to confirm the connection is established.
 
 After this exchange, both parties have agreed on sequence numbers and the connection is open for
-Data transfer.
+data transfer.
 
 </details>
 

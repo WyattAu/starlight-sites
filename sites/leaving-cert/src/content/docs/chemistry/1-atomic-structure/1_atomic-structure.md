@@ -172,7 +172,7 @@ Three unpaired electrons with parallel spins.
 ### Pauli Exclusion Principle (HL)
 
 No two electrons in an atom can have the same set of four quantum numbers. An orbital holds at most
-Two electrons with opposite spins.
+two electrons with opposite spins.
 
 ## Quantum Numbers (HL)
 
@@ -220,7 +220,7 @@ E_n = -\frac{13.6}{n^2} \mathrm{ eV
 $$
 
 This is derived from the Bohr model, which postulates that the angular momentum of the electron is
-Quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
+quantised: $mvr = n\hbar$. Solving for the allowed radii and energies gives the above formula.
 
 **Example (HL):** Find the wavelength of the photon emitted when an electron in hydrogen drops from
 $n = 4$ to $n = 2$.
@@ -299,7 +299,7 @@ Magnesium.
 
 Magnesium has the electron configuration $[\mathrm{Ne]\,3s^2$ -- a filled $3s$ subshell. Aluminium
 has $[\mathrm{Ne]\,3s^2 3p^1$. The $3p$ electron in aluminium is at a higher energy level and is
-Shielded by the $3s$ electrons, so it is easier to remove.
+shielded by the $3s$ electrons, so it is easier to remove.
 
 **Worked Example 8 (HL):** Explain why the first ionisation energy of sulfur is lower than that of
 Phosphorus.
@@ -307,7 +307,7 @@ Phosphorus.
 Phosphorus: $[\mathrm{Ne]\,3s^2 3p^3$ -- each $3p$ orbital has one electron (half-filled subshell,
 Stable). Sulfur: $[\mathrm{Ne]\,3s^2 3p^4$ -- one $3p$ orbital has two electrons. The pairing energy
 in sulfur's $3p^4$ configuration makes the fourth electron slightly easier to remove than
-Phosphorus's third $3p$ electron.
+phosphorus's third $3p$ electron.
 
 ### Electronegativity (OL/HL)
 
@@ -512,7 +512,7 @@ $$
 Where $h$ is Planck's constant, $m$ is mass, and $v$ is velocity.
 
 For an electron in an orbital, the standing wave condition requires that an integer number of
-Wavelengths fit around the orbit: $n\lambda = 2\pi r$.
+wavelengths fit around the orbit: $n\lambda = 2\pi r$.
 
 This explains why only certain energy levels are allowed: only orbits that satisfy the standing wave
 Condition are stable.
@@ -556,7 +556,7 @@ Each orbital is described by a wave function $\psi$ And $|\psi|^2$ gives the pro
 The radial distribution function shows the probability of finding an electron at a given distance
 from the nucleus. For the $1s$ orbital, the most probable distance equals the Bohr radius
 ($a_0 = 52.9 \mathrm{ pm$). For the $2s$ orbital, there is a node (zero probability) at a certain
-Distance.
+distance.
 
 ---
 
@@ -736,14 +736,14 @@ Radius.
 ## X-ray Spectra and Moseley's Law (HL)
 
 Henry Moseley discovered that the frequency of characteristic X-rays emitted by an element is
-Related to its atomic number:
+related to its atomic number:
 
 $$
 \sqrt{f} = a(Z - b)
 $$
 
 Where $a$ and $b$ are constants. This established that atomic number (not atomic mass) is the
-Fundamental property that determines an element's identity, leading to the modern periodic table.
+fundamental property that determines an element's identity, leading to the modern periodic table.
 
 ---
 
@@ -762,7 +762,7 @@ Fundamental property that determines an element's identity, leading to the moder
 
 Lasers rely on stimulated emission: an excited electron is stimulated to drop to a lower energy
 Level by an incoming photon of exactly the right energy, emitting a second photon with the same
-Wavelength, phase, and direction.
+wavelength, phase, and direction.
 
 Conditions for laser action:
 
@@ -773,7 +773,7 @@ Conditions for laser action:
 ### Fluorescence
 
 When atoms or molecules absorb UV light, electrons are excited to higher energy levels. They then
-Return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
+return to lower levels in steps, emitting visible light. This is the principle behind fluorescent
 Lamps and biological staining.
 
 ### Electron Microscopy
@@ -889,7 +889,7 @@ and some bounced back. This led to the conclusion that:
 
 Before Rutherford, Thomson proposed that the atom was a sphere of positive charge with electrons
 Embedded in it (like plums in a pudding). The gold foil experiment disproved this model because the
-Large-angle deflections could not be explained by a diffuse positive charge.
+large-angle deflections could not be explained by a diffuse positive charge.
 
 ### Limitations of the Bohr Model
 

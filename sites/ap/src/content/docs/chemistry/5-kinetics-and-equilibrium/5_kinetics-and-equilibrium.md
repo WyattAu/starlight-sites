@@ -52,7 +52,7 @@ $$
 ### Determining the Rate Law from Initial Rate Data
 
 Compare experiments where only one concentration changes. If doubling [A] doubles the rate, the
-Reaction is first order in A. If doubling [A] quadruples the rate, it is second order in A.
+reaction is first order in A. If doubling [A] quadruples the rate, it is second order in A.
 
 :::note[Example]
 Determine the rate law from the following data for $2\mathrm{A + \mathrm{B \to \mathrm{C$:
@@ -231,7 +231,7 @@ Step 1 (slow): $\mathrm{NO_2 + \mathrm{F_2 \to \mathrm{NO_2\mathrm{F + \mathrm{F
 Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 
 The rate law from the slow step: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$. This matches the
-Experimental rate law, so the mechanism is plausible.
+experimental rate law, so the mechanism is plausible.
 
 Sum: $2\mathrm{NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$.
 
@@ -309,7 +309,7 @@ $$
 ### Worked Example: Effect of a Catalyst
 
 A reaction has $E_a = 75 \mathrm{ kJ/mol$ without a catalyst and $E_a = 50 \mathrm{ kJ/mol$ with a
-Catalyst. Calculate the ratio of rate constants at $298 \mathrm{ K$.
+catalyst. Calculate the ratio of rate constants at $298 \mathrm{ K$.
 
 $$
 \frac{k_{\mathrm{cat}}{k_{\mathrm{uncat}} = \frac{A e^{-50000/(8.314 \times 298)}}{A e^{-75000/(8.314 \times 298)}} = e^{(75000 - 50000)/(8.314 \times 298)}
@@ -326,7 +326,7 @@ The catalyst increases the rate constant by a factor of about 24,000 at room tem
 ### Dynamic Equilibrium
 
 At equilibrium, the forward and reverse reaction rates are equal. Concentrations of reactants and
-Products remain constant (but not necessarily equal).
+products remain constant (but not necessarily equal).
 
 ### The Equilibrium Constant ($K$)
 
@@ -429,7 +429,7 @@ For $\mathrm{H_2(g) + \mathrm{I_2(g) \rightleftharpoons 2\mathrm{HI(g)$ with $K_
 $448^\circ\mathrm{C$:
 
 If $1.00 \mathrm{ M  \mathrm{H_2$ and $1.00 \mathrm{ M  \mathrm{I_2$ are mixed, find [HI] at
-Equilibrium.
+equilibrium.
 
 <div class="table-wrap">
 
@@ -780,7 +780,7 @@ Determine the rate law and rate constant.
 <summary>Question 1: Reaction order determination from initial rates</summary>
 
 For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ The following initial rate data were
-Collected:
+collected:
 
 <div class="table-wrap">
 
@@ -861,7 +861,7 @@ Percentage dissociation: $\frac{1.018}{2.00} \times 100 = 50.9\%$.
 For the exothermic reaction
 $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$ Predict the effect on the
 Equilibrium yield of $\mathrm{NH_3$ when (a) total pressure is increased, (b) temperature is
-Increased, (c) a catalyst is added, and (d) $\mathrm{Ar(g)$ is added at constant volume.
+increased, (c) a catalyst is added, and (d) $\mathrm{Ar(g)$ is added at constant volume.
 
 </details>
 
@@ -875,12 +875,12 @@ Increased, (c) a catalyst is added, and (d) $\mathrm{Ar(g)$ is added at constant
 Increasing temperature shifts equilibrium left, decreasing $\mathrm{NH_3$ yield.
 
 (c) Adding a catalyst increases the rate of both forward and reverse reactions equally. It does not
-Shift the equilibrium position or change the yield. It only helps the system reach equilibrium
+shift the equilibrium position or change the yield. It only helps the system reach equilibrium
 Faster.
 
 (d) Adding $\mathrm{Ar$ at constant volume increases the total pressure but does not change the
-Partial pressures of the reactants or products (since volume is constant and no new moles of
-Reactant/product are added). There is no shift in equilibrium.
+partial pressures of the reactants or products (since volume is constant and no new moles of
+reactant/product are added). There is no shift in equilibrium.
 
 </details>
 
@@ -934,7 +934,7 @@ $$
 <summary>Question 5: Solubility product and common ion effect</summary>
 
 The $K_{sp}$ of $\mathrm{PbCl_2$ is $1.7 \times 10^{-5}$ at $25^\circ\mathrm{C$. Calculate (a) the
-Molar solubility of $\mathrm{PbCl_2$ in pure water, and (b) the molar solubility in a
+molar solubility of $\mathrm{PbCl_2$ in pure water, and (b) the molar solubility in a
 $0.10 \mathrm{ M$ $\mathrm{NaCl$ solution.
 
 </details>

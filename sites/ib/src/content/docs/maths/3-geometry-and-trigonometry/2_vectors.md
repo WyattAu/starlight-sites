@@ -24,7 +24,7 @@ categories:
 
 A vector line ($r$) in parametric form takes a scalar parameter ($\gamma$) to produce each point on
 the line. The line ($\bm{r}(\gamma)$) is a sum of a point on a line ($\bm{a}$ or $\bm{r_0}$) and a
-Direction vector ($\bm{b}$) scaled by the parameter $\gamma$:
+direction vector ($\bm{b}$) scaled by the parameter $\gamma$:
 
 $$
 \begin`\{aligned}`
@@ -81,7 +81,7 @@ $$
 ### Point-normal Form
 
 A vector plane ($\bm{r}$) defined in point-normal form is defined by the dot product between the
-Normal ($\hat{n}$) and the direction vectors ($\bm{r}-\bm{r_0}$ or $\gamma \bm{b} + \mu \bm{c}$):
+normal ($\hat{n}$) and the direction vectors ($\bm{r}-\bm{r_0}$ or $\gamma \bm{b} + \mu \bm{c}$):
 
 $$
 \begin`\{aligned}`
@@ -93,7 +93,7 @@ $$
 ### Cartesian Form
 
 A vector plane ($\bm{r}$) defined in cartesian form is extended from the point-normal form by
-Expressing normal vector as its individual axis ($x,y,z$):
+expressing normal vector as its individual axis ($x,y,z$):
 
 $$
 \begin`\{aligned}`
@@ -115,7 +115,7 @@ $$
 $$
 
 Since $ax_0 + by_0 + cz_0$ produce a constant, the formula booklet uses a single constant $d$ to
-Represent it:
+represent it:
 
 $$
 \begin`\{aligned}`

@@ -114,14 +114,14 @@ ZIP).
 MPEG).
 
 Run-Length Encoding (RLE) is a simple lossless method: replace repeated values with the value and
-Count.
+count.
 
 **Example (OL):** AAABBCCCC becomes 3A2B4C.
 
 **Worked Example (OL).** Compress WWWWWWBBBBWWWWW using RLE.
 
 W6 B4 W5 = 6 runs. Original: 15 bytes. Compressed: 12 bytes (assuming 1 byte per count, 1 byte per
-Value).
+value).
 
 **When RLE is ineffective.** For data with no repeats, e.g., ABCDEFGH, RLE produces A1B1C1D1E1F1G1H1
 = 16 bytes, which is larger than the original 8 bytes.
@@ -189,7 +189,7 @@ Data integrity, easier maintenance.
 **Worked Example (OL).** In a Student table, which field would be the best primary key?
 
 StudentID is the best choice because it is unique and never changes. Name is not unique (two
-Students can share a name). Date of Birth is not unique.
+students can share a name). Date of Birth is not unique.
 
 ### Entity-Relationship Diagrams (HL)
 
@@ -726,8 +726,8 @@ DELETE FROM Results WHERE StudentID = 42;
 Pseudonymisation might be preferred over anonymisation.
 
 Pseudonymisation allows the hospital to re-link data to patients if needed (e.g., for follow-up
-Studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
-Small re-identification risk.
+studies). Anonymisation would make this impossible. However, pseudonymised data still carries a
+small re-identification risk.
 
 ## Additional Practice Questions
 

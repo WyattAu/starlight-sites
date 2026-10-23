@@ -45,9 +45,17 @@ Involved in developing software, from initial conception through to deployment a
 A **sequential**, linear approach where each phase must be completed before the next begins.
 Developed by Winston Royce in 1970.
 
+```mermaid
+flowchart LR
+    A[Analysis] --> B[Design]
+    B --> C[Implementation]
+    C --> D[Testing]
+    D --> E[Deployment]
+    E --> F[Maintenance]
 ```
-Analysis → Design → Implementation → Testing → Deployment → Maintenance
-```
+
+Each phase feeds the next in one direction — there is no looping back in the pure model, which is
+exactly its weakness when requirements change late.
 
 ### Characteristics
 
@@ -84,13 +92,13 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 ### Description
 
 An **iterative, incremental** approach that emphasises flexibility, customer collaboration, and
-Delivering working software in short cycles.
+delivering working software in short cycles.
 
 ### The Agile Manifesto (2001)
 
 Individuals and interactions over processes and tools Working software over comprehensive
 Documentation Customer collaboration over contract negotiation Responding to change over following a
-Plan
+plan
 
 ### Scrum Framework
 
@@ -137,7 +145,7 @@ A specific Agile methodology with defined roles, events, and artefacts.
 ### Description
 
 Combines elements of waterfall and iterative development. Each iteration (spiral) passes through
-Four quadrants:
+four quadrants:
 
 1. **Determine objectives**. Identify goals, constraints, alternatives
 2. **Identify and resolve risks**. Risk analysis and mitigation
@@ -183,7 +191,7 @@ Objectives          Development
 ### Description
 
 RAD emphasises **rapid prototyping** and iterative development, with minimal planning in favour of
-Speed. Uses workshops, focus groups, and iterative user testing.
+speed. Uses workshops, focus groups, and iterative user testing.
 
 ### Phases
 
@@ -391,7 +399,7 @@ The Scrum Master is a **facilitator** (not a manager) who:
 6. Acts as a buffer between the development team and external stakeholders
 
 This role is important because without it, teams often revert to ad-hoc practices, lose focus on
-Sprint goals, or fail to identify and address process issues.
+sprint goals, or fail to identify and address process issues.
 
 </details>
 
@@ -439,7 +447,7 @@ Needed to solve the primary problem.
 - The MVP validates assumptions before investing in full development
 
 Example: A ride-sharing app MVP might have only driver-rider matching and payment, no ratings, no
-Scheduling, no advanced features.
+scheduling, no advanced features.
 
 </details>
 
@@ -703,7 +711,7 @@ Resolution steps:
 
 RAD expects requirements to evolve through user feedback. Rejecting all changes defeats the purpose.
 However, uncontrolled changes lead to scope creep, so a structured change management process is
-Needed.
+needed.
 
 </details>
 
@@ -735,7 +743,7 @@ Manifesto valuing "working software over comprehensive documentation."
 <summary>Answer</summary>
 
 The Agile Manifesto says "working software over comprehensive documentation", it does not say "no
-Documentation." The word "comprehensive" is key: Agile rejects voluminous documentation that nobody
+documentation." The word "comprehensive" is key: Agile rejects voluminous documentation that nobody
 Reads, not documentation itself.
 
 Essential documentation in Agile includes:
@@ -754,7 +762,7 @@ Documentation serves purposes that working software cannot:
 - **Communication:** Written specs reduce ambiguity in distributed teams
 
 The Agile principle is: produce the minimum documentation that provides value, and keep it up to
-Date.
+date.
 
 </details>
 

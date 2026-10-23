@@ -472,7 +472,7 @@ phylogenetic trees with molecular clock dating. DNA hybridisation is a coarser, 
 **Question:**
 
 A conservation organisation wants to compare the biodiversity of two nature reserves (Reserve X and
-Reserve Y) to determine which should receive priority for funding. Reserve X is a managed meadow,
+reserve Y) to determine which should receive priority for funding. Reserve X is a managed meadow,
 and Reserve Y is an ancient woodland.
 
 (a) Explain the difference between **species richness** and **species evenness**, and explain why

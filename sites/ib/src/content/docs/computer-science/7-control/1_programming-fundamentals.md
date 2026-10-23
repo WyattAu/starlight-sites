@@ -23,7 +23,7 @@ categories:
 ### Variables
 
 A variable is a named storage location in memory whose value can change during program execution. A
-Variable has a name (identifier), a data type (which determines the kind of data it can hold and how
+variable has a name (identifier), a data type (which determines the kind of data it can hold and how
 much memory it occupies), and a value (the data currently stored).
 
 **Declaration** allocates memory for the variable and associates a name with that location.
@@ -69,7 +69,7 @@ In many languages, a STRING is an array of CHARs with a null terminator or a len
 
 **BOOLEAN:** Named after George Boole. Only two values: TRUE and FALSE. Used as the condition in
 Selection and iteration constructs, and as the return type of functions that perform checks or
-Comparisons.
+comparisons.
 
 ### Worked Example: Choosing Data Types
 
@@ -127,7 +127,7 @@ Contexts). `/` produces a floating-point result. For `7 / 3`DIV gives 2 and `/` 
 
 **MOD:** Returns the remainder after integer division. `7 MOD 3 = 1` because `7 = 3 * 2 + 1`. MOD is
 Commonly used to test divisibility (e.g., `n MOD 2 = 0` tests if `n` is even), to wrap indices in
-Circular data structures, and to extract digits.
+circular data structures, and to extract digits.
 
 ### Worked Example: DIV and MOD to Extract Digits
 
@@ -195,7 +195,7 @@ Intent explicit.
 ### Assignment Operator
 
 In IB pseudocode, the assignment operator is the left arrow `←`. It evaluates the expression on the
-Right and stores the result in the variable on the left. Assignment is not equality:
+right and stores the result in the variable on the left. Assignment is not equality:
 `count ← count + 1` means "take the current value of `count`Add 1, and store the result back in
 `count`."
 
@@ -216,7 +216,7 @@ Right and stores the result in the variable on the left. Assignment is not equal
 
 Bitwise operators operate on the binary representation of integers. Each bit position is treated
 Independently. Bitwise AND is used for masking (extracting specific bits), bitwise OR is used for
-Setting bits, and bitwise XOR is used for toggling bits.
+setting bits, and bitwise XOR is used for toggling bits.
 
 ### Common Pitfalls: Operators
 
@@ -238,7 +238,7 @@ Setting bits, and bitwise XOR is used for toggling bits.
 ### Sequence
 
 Sequence is the default control structure: statements execute one after another in the order they
-Appear. Every program is ultimately a sequence of operations, possibly interspersed with selections
+appear. Every program is ultimately a sequence of operations, possibly interspersed with selections
 and iterations.
 
 ### Selection
@@ -332,7 +332,7 @@ OUTPUT grade
 Output: **C**
 
 Key insight: Nested IF-ELSE IF evaluates conditions top-down. Once a TRUE condition is found, the
-Corresponding branch executes and all remaining branches are skipped. The order of conditions
+corresponding branch executes and all remaining branches are skipped. The order of conditions
 matters: If they were reversed (checking `$\ge$` 60 first), every score of 60 or above would get
 "D".
 
@@ -411,7 +411,7 @@ END FOR
 ```
 
 The inner loop executes 5 times for each of the 5 iterations of the outer loop, giving a total of 25
-Iterations. For nested loops with outer loop size $m$ and inner loop size $n$ The total iterations
+iterations. For nested loops with outer loop size $m$ and inner loop size $n$ The total iterations
 are $m \times n$.
 
 ### Common Loop Patterns
@@ -518,8 +518,8 @@ have a return value.
 
 A side effect occurs when a function or procedure modifies state outside its local scope. Side
 Effects include modifying global variables, performing I/O, and mutating arguments passed by
-Reference. Pure functions have no side effects: they depend only on their inputs and produce only a
-Return value.
+reference. Pure functions have no side effects: they depend only on their inputs and produce only a
+return value.
 
 Side effects make code harder to reason about, test, and debug because the behavior of a function
 Depends on the state of the entire program, not just its inputs.
@@ -566,7 +566,7 @@ To convert in the opposite direction, use $C = (F - 32) \times \frac{5}{9}$.
 ### By Value (Pass by Value)
 
 A copy of the argument's value is passed to the parameter. Modifications to the parameter inside the
-Function do not affect the original argument.
+function do not affect the original argument.
 
 ```python
 PROCEDURE increment(x)
@@ -691,7 +691,7 @@ the same problem. Every recursive solution has two essential components:
 
 **Base case:** The condition under which the function returns directly without making a recursive
 Call. Without a base case, the recursion never terminates (infinite recursion), eventually causing a
-Stack overflow.
+stack overflow.
 
 **Recursive case:** The condition under which the function calls itself with a modified argument
 That moves closer to the base case.
@@ -734,7 +734,7 @@ END FUNCTION
 This naive recursive Fibonacci has exponential time complexity $O(2^n)$ because each call spawns two
 Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`. There are over
 300 million calls. This demonstrates why recursion must be used carefully -- memoization or an
-Iterative approach is required for practical Fibonacci computation.
+iterative approach is required for practical Fibonacci computation.
 
 ### Worked Example: Sum of Array
 
@@ -819,8 +819,8 @@ the call stack.
 ### Procedural Programming
 
 Programs are structured as a sequence of instructions that operate on data. Data and functions are
-Separate. The focus is on "what to do" step by step. Variables are shared globally or passed between
-Procedures.
+separate. The focus is on "what to do" step by step. Variables are shared globally or passed between
+procedures.
 
 **Characteristics:** Top-down design, stepwise refinement, procedures and functions, global and
 Local scope, sequential execution.
@@ -852,7 +852,7 @@ Overkill for simple programs.
 
 Programs are structured as a composition of pure functions. Data is immutable -- once created, it
 cannot be changed. Functions are first-class citizens (they can be passed as arguments, returned as
-Values, and stored in data structures).
+values, and stored in data structures).
 
 **Characteristics:** Pure functions, immutability, higher-order functions, recursion instead of
 Loops, function composition.
@@ -977,7 +977,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 Nassi-Shneiderman diagrams (also called structorgrams) are a structured alternative to traditional
 Flowcharts. They eliminate the need for flow lines (arrows) by using nested rectangular blocks. This
-Enforces structured programming -- there is no way to represent a GOTO or unstructured branching.
+enforces structured programming -- there is no way to represent a GOTO or unstructured branching.
 
 The diagram uses three fundamental structures:
 
@@ -992,7 +992,7 @@ The diagram uses three fundamental structures:
 Nassi-Shneiderman diagrams are particularly useful for illustrating structured algorithms because
 they make the nesting of control structures visually explicit. They cannot represent unstructured
 Jumps, which is both a strength (enforcing good practice) and a limitation (cannot represent certain
-Low-level algorithms).
+low-level algorithms).
 
 ### Worked Example: Converting a Problem Description to IB Pseudocode
 
@@ -1088,7 +1088,7 @@ The function returns 14, which is $1^2 + 2^2 + 3^2 = 14$. It computes the sum of
 
 A function `getLetterGrade(score)` accepts an integer score from 0 to 100 and returns a letter grade
 (A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: 0-59). Identify appropriate test data for each
-Category.
+category.
 
 <details>
 <summary>Solution</summary>
@@ -1220,7 +1220,7 @@ occurrences.
 ## Exception Handling
 
 Exception handling is a mechanism for managing runtime errors gracefully without crashing the
-Program. When an exceptional condition occurs (e.g., division by zero, file not found, invalid
+program. When an exceptional condition occurs (e.g., division by zero, file not found, invalid
 Input), an exception object is created and "thrown." The program can "catch" the exception and take
 Corrective action.
 
@@ -1238,7 +1238,7 @@ END TRY
 ```
 
 The `TRY` block contains the code that might throw an exception. The `CATCH` block handles the
-Exception if one occurs. The `FINALLY` block executes regardless of whether an exception occurred --
+exception if one occurs. The `FINALLY` block executes regardless of whether an exception occurred --
 It is used for cleanup operations like closing files or releasing resources.
 
 ### Worked Example: Exception Handling in Practice
@@ -1360,7 +1360,7 @@ result ← (17 DIV 4) + (17 MOD 4) * 2 ^ 3 - 1
 <summary>Solution</summary>
 
 Following operator precedence (parentheses first, then exponentiation, then multiplication, then
-Addition/subtraction):
+addition/subtraction):
 
 <div class="table-wrap">
 
@@ -1728,7 +1728,7 @@ OUTPUT a, b, c
 Final values: **a = 8, b = 3, c = 18**
 
 `x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`. So
-Changes to `y` do not affect `b`.
+changes to `y` do not affect `b`.
 
 **Revision:** Parameter Passing, By Value, By Reference
 

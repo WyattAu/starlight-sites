@@ -281,7 +281,7 @@ experiences him through layers of rumour, gossip, and Nick's own idealised visio
 directly. This structural choice creates a sense of mystery and allows Fitzgerald to explore the gap
 between Gatsby's public persona and private self. Nick's description of Gatsby's smile as having "a
 quality of eternal reassurance in it" reveals more about Nick's need to believe in Gatsby than about
-Gatsby himself.
+gatsby himself.
 
 The use of free indirect discourse blurs the boundary between Nick's voice and the characters'
 thoughts. When describing Daisy's voice as "full of money," it is unclear whether this is Nick's

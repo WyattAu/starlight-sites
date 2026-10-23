@@ -35,7 +35,7 @@ Characteristics:
 ### WAN (Wide Area Network)
 
 A network spanning large geographical areas (cities, countries, continents). The internet is the
-Largest WAN. Characteristics:
+largest WAN. Characteristics:
 
 - Lower speed than LAN
 - Higher latency
@@ -357,10 +357,10 @@ Subnet addresses (increment by 32):
 
 **Why two-way is insufficient:** A two-way handshake cannot prevent **stale duplicate SYNs** from
 Establishing spurious connections. If a client sends a SYN that is delayed by the network, and the
-Client times out and sends another SYN, the first SYN may arrive later. With a two-way handshake,
+client times out and sends another SYN, the first SYN may arrive later. With a two-way handshake,
 Both SYNs would create separate connections. The third ACK in the three-way handshake allows the
-Server to identify and discard stale connections: if the server receives an ACK for a connection it
-Didn't establish, it rejects it.
+server to identify and discard stale connections: if the server receives an ACK for a connection it
+didn't establish, it rejects it.
 
 </details>
 
@@ -422,7 +422,7 @@ Which would you recommend for a hospital network? Justify.
 
 **Recommendation for a hospital:** A **partial mesh** or **redundant star** topology. Hospital
 Networks require high reliability (life-critical systems cannot have downtime), but a full mesh is
-Prohibitively expensive. A practical approach: multiple star networks connected by redundant links
+prohibitively expensive. A practical approach: multiple star networks connected by redundant links
 (partial mesh at the backbone level). Critical systems (ICU monitors) may have redundant
 Connections.
 
@@ -499,7 +499,7 @@ For internet access. This:
 (Session):** A session is established with the mail server. **Layer 4 (Transport):** Data is
 Segmented and wrapped in a TCP segment with port 25. TCP ensures reliable delivery. **Layer 3
 (Network):** IP header is added with source and destination IP addresses. Routing determines the
-Path. **Layer 2 (Data Link):** Ethernet frame is created with MAC addresses of the next hop. **Layer
+path. **Layer 2 (Data Link):** Ethernet frame is created with MAC addresses of the next hop. **Layer
 1 (Physical):** Bits are transmitted as electrical/optical signals over the network cable.
 
 At the receiving end, each layer removes its header in reverse order (Layers 1→7).
@@ -578,7 +578,7 @@ range.
 Step 1: Subnet mask in binary for the third and fourth octets:
 
 `/20` means the first 20 bits are network. The third octet contributes 4 bits (since 16 bits from
-First two octets).
+first two octets).
 
 Third octet mask: `11110000` = `240`
 
@@ -639,7 +639,7 @@ Different network addresses, different subnets.
 
 SSH establishes an encrypted tunnel before any data is transmitted. The key exchange uses
 Diffie-Hellman to establish a shared secret without transmitting it. All subsequent data is
-Encrypted with this shared secret using AES.
+encrypted with this shared secret using AES.
 
 ### FTP (File Transfer Protocol)
 
@@ -688,7 +688,7 @@ A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as 
 </div>
 
 SMTP is a push protocol, the sender pushes the message to the receiver's mail server. For
-Receiving, POP3 or IMAP is used.
+receiving, POP3 or IMAP is used.
 
 <hr />
 

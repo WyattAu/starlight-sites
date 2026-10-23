@@ -172,7 +172,7 @@ When approaching a play extract or whole-text question, work through these layer
 </div>
 
 This is useful when analysing characters who are trying to persuade others, Iago in _Othello_, the
-Inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
+inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
 
 ## Key Terminology
 

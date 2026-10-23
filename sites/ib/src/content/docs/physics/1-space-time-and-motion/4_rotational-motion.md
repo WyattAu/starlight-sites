@@ -54,7 +54,7 @@ $$
 
 :::note[Example]
 A CD rotates at $200\mathrm{ rpm}$. Find the angular velocity in rad/s and the linear speed of a
-Point $5\mathrm{ cm}$ from the centre.
+point $5\mathrm{ cm}$ from the centre.
 
 $$
 \omega = 200 \times \frac{2\pi}{60} = \frac{400\pi}{60} = 20.9\mathrm{ rad/s}
@@ -101,7 +101,7 @@ Always directed toward the centre of the circular path (radially inward).
 :::caution[Exam Tip]
 Centripetal force is NOT a new force, it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
-Separate force on a free-body diagram.
+separate force on a free-body diagram.
 
 ---
 
@@ -440,14 +440,14 @@ $$
 ### Parallel Axis Theorem
 
 For a body of mass $M$ with moment of inertia $I_{\mathrm{cm}}$ about an axis through its centre of
-Mass:
+mass:
 
 $$
 I = I_{\mathrm{cm}} + Md^2
 $$
 
 Where $d$ is the distance between the original axis and the parallel axis through the centre of
-Mass.
+mass.
 
 ---
 
@@ -564,7 +564,7 @@ $$
 
 :::note[Example]
 Compare the speeds of a solid sphere, a hollow sphere, and a solid cylinder rolling down the same
-Incline from the same height.
+incline from the same height.
 
 - Solid sphere: $I = \dfrac{2}{5}Mr^2 \implies v = \sqrt{\dfrac{10gh}{7}}$
 - Hollow sphere: $I = \dfrac{2}{3}Mr^2 \implies v = \sqrt{\dfrac{6gh}{5}}$
@@ -658,7 +658,7 @@ $$
 ### Question 3 (Paper 2 style)
 
 A $0.2\mathrm{ kg}$ ball is attached to a string of length $0.8\mathrm{ m}$ and whirled in a
-Vertical circle.
+vertical circle.
 
 **(a)** Find the minimum speed at the top of the circle for the ball to maintain contact.
 
@@ -695,7 +695,7 @@ $$
 ### Question 4 (Paper 1 style)
 
 A disc of mass $2\mathrm{ kg}$ and radius $0.3\mathrm{ m}$ rotates at $10\mathrm{ rad/s}$. Find its
-Rotational kinetic energy.
+rotational kinetic energy.
 
 $$
 I = \frac{1}{2}MR^2 = \frac{1}{2}(2)(0.09) = 0.09\mathrm{ kg}\cdot\mathrm{m}^2
@@ -767,7 +767,7 @@ Rotational motion is linear motion wearing a disguise. Every linear equation has
 :::tip[Exam Strategy]
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 the centripetal force. For vertical circle problems, use energy conservation to relate speeds at
-Different points. For torque problems, identify the pivot and calculate the moment arm.
+different points. For torque problems, identify the pivot and calculate the moment arm.
 
 ---
 
@@ -929,7 +929,7 @@ $$
 ### Question 6 (Paper 2 style)
 
 A disc of mass $5\mathrm{ kg}$ and radius $0.2\mathrm{ m}$ rotates about its central axis. A
-Constant torque of $0.5\mathrm{ N}\cdot\mathrm{m}$ is applied for $4\mathrm{ s}$ Starting from Rest.
+constant torque of $0.5\mathrm{ N}\cdot\mathrm{m}$ is applied for $4\mathrm{ s}$ Starting from Rest.
 
 **(a)** Find the angular acceleration.
 

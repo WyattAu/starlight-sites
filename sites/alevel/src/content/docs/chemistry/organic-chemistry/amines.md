@@ -26,7 +26,7 @@ Amines are organic derivatives of ammonia ($\mathrm{NH}_3$) in which one or more
 been replaced by alkyl or aryl groups. They are classified as primary ($1^\circ$), secondary
 ($2^\circ$), or tertiary ($3^\circ$) based on the number of carbon groups attached to the nitrogen.
 Amines containing four organic groups (quaternary ammonium ions, $\mathrm{R}_4\mathrm{N}^+$) are
-Positively charged.
+positively charged.
 
 ## Classification and Nomenclature
 
@@ -106,13 +106,13 @@ than ammonia ($\mathrm{p}K_b = 4.75$).
 
 The alkyl group is electron-donating through the inductive effect, increasing the electron density
 on the nitrogen and making it more willing to accept a proton. The ammonium ion is stabilised by the
-Inductive donation from the alkyl group.
+inductive donation from the alkyl group.
 
 ### Aromatic Amines Are Weaker Bases
 
 Phenylamine ($\mathrm{p}K_b = 9.38$) is a much weaker base than aliphatic amines. This is because
 the nitrogen lone pair is delocalised into the benzene ring through resonance, making it less
-Available for protonation:
+available for protonation:
 
 $$
 \mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2 \leftrightarrow \mathrm{C}_6\mathrm{H}_5^-\mathrm{NH}_2^+ \leftrightarrow \dots
@@ -143,7 +143,7 @@ $$
 $$
 
 The primary amine can further react with more halogenoalkane to give a secondary amine, then
-Tertiary, and finally a quaternary ammonium salt. This lack of selectivity limits the synthetic
+tertiary, and finally a quaternary ammonium salt. This lack of selectivity limits the synthetic
 Utility of this route.
 
 ## Amide Formation
@@ -211,8 +211,8 @@ $$
 $$
 
 The azo group ($-\mathrm{N}=\mathrm{N}-$) is a chromophore that absorbs visible light due to its
-Extended $\pi$ system. The colour depends on the extent of conjugation and the nature of the
-Substituents on both aromatic rings.
+extended $\pi$ system. The colour depends on the extent of conjugation and the nature of the
+substituents on both aromatic rings.
 
 **Coupling with phenylamine** (in acidic conditions):
 
@@ -400,7 +400,7 @@ $$
 <summary>Problem 1</summary>
 
 Starting from benzene, outline a synthesis of methyl orange, an azo dye. Identify all reagents and
-Conditions.
+conditions.
 
 **Solution:**
 
@@ -439,15 +439,15 @@ Explain why phenylamine is a weaker base than ethylamine, even though both are p
 
 In ethylamine ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_2$), the ethyl group donates electron density
 to the nitrogen through the inductive effect, increasing the electron density on the lone pair and
-Making it more available for protonation. The resulting ethylammonium ion is stabilised by the
-Inductive effect of the alkyl group.
+making it more available for protonation. The resulting ethylammonium ion is stabilised by the
+inductive effect of the alkyl group.
 
 In phenylamine ($\mathrm{C}_6\mathrm{H}_5\mathrm{NH}_2$), the nitrogen lone pair is partially
 Delocalised into the benzene ring through resonance. The lone pair overlaps with the $\pi$ system of
 the ring, distributing the electron density over a larger volume. This reduces the electron density
 on the nitrogen, making it less available to accept a proton. The resonance stabilisation of the
-Free amine is greater than that of the protonated form (in the anilinium ion, the lone pair is no
-Longer available for delocalisation), so the equilibrium favours the unprotonated form.
+free amine is greater than that of the protonated form (in the anilinium ion, the lone pair is no
+longer available for delocalisation), so the equilibrium favours the unprotonated form.
 
 Quantitatively: $\mathrm{p}K_b(\mathrm{ethylamine}) = 3.37$
 $\mathrm{p}K_b(\mathrm{phenylamine}) = 9.38$.

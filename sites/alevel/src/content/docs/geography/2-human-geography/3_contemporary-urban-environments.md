@@ -270,7 +270,7 @@ Urban air pollution is a major health concern:
   rain.
 
 The London smog of December 1952 killed approximately 4,000–12,000 people and led directly to the
-Clean Air Act 1956, introducing smokeless zones and taller chimneys.
+clean Air Act 1956, introducing smokeless zones and taller chimneys.
 
 ---
 

@@ -418,7 +418,7 @@ increase but not the output decline.
 **IT-4 (Extension): Fiscal Policy and Debt Dynamics.** A country has GDP = $\pounds 2000$ Bn,
 government debt = $\pounds 1800$ Bn (90% of GDP), budget deficit = $\pounds 100$ Bn (5% of GDP), and
 the interest rate on government debt = 4%. GDP grows at 2% per year and inflation is 3%. (a)
-Calculate the primary deficit. (b) Calculate the debt-stabilising primary balance. (c) If the
+calculate the primary deficit. (b) Calculate the debt-stabilising primary balance. (c) If the
 government maintains the current primary deficit, calculate the debt-to-GDP ratio after 5 years
 (using the approximation $b_{t+1} \approx (1 + r - g - \pi)b_t - p$). (d) What primary surplus is
 needed to reduce the debt ratio to 60% of GDP within 10 years?

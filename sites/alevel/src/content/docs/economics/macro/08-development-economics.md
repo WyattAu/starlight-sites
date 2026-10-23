@@ -24,7 +24,7 @@ categories:
 
 > **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
 Development economics studies how nations transform from low-income, less-productive economies into
-High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
+high-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
 with institutional failure, poverty traps, and structural transformation, problems that are largely
 Absent in advanced economies.
 
@@ -32,11 +32,11 @@ Absent in advanced economies.
 
 **Definition.** **Economic development** is the process by which a nation improves the economic,
 Political, and social well-being of its people. It encompasses not just growth in income but also
-Improvements in health, education, living standards, and political freedom.
+improvements in health, education, living standards, and political freedom.
 
 **Definition.** **Economic growth** is an increase in a country"s real GDP or real GDP per capita.
 Growth is a **necessary but not sufficient** condition for development, a country can grow without
-Developing if the gains accrue to a small elite.
+developing if the gains accrue to a small elite.
 
 **Key distinction:**
 
@@ -115,7 +115,7 @@ $0$ (perfect equality, everyone has the same income) to $1$ (perfect inequality,
 all the income).
 
 The Gini coefficient is derived from the **Lorenz curve**, which plots the cumulative share of
-Income received by the cumulative share of the population (ordered from poorest to richest).
+income received by the cumulative share of the population (ordered from poorest to richest).
 
 $$
 \mathrm{Gini} = \frac{A}{A + B}
@@ -153,7 +153,7 @@ under the Lorenz curve.
 :::note
 Different development indicators, including the HDI and Gini coefficient. **Edexcel** focuses on GDP
 per capita and HDI as measures of living standards, and may ask you to compare indicators across
-Countries.
+countries.
 :::
 
 ## 3. Causes of Economic Growth
@@ -253,8 +253,8 @@ Africa needs $93$ billion per year in infrastructure investment.
 ### 4.4 Demographic Challenges
 
 High population growth can outpace economic growth, leading to falling GDP per capita. Many
-Developing countries have a **youth bulge**, a large proportion of young people, which can be a
-Demographic dividend (if jobs are created) or a source of instability (if not).
+developing countries have a **youth bulge**, a large proportion of young people, which can be a
+demographic dividend (if jobs are created) or a source of instability (if not).
 
 ### 4.5 Other Barriers
 
@@ -393,10 +393,10 @@ In their terms of trade, making it harder to earn foreign exchange and finance d
 
 **Definition.** **Fair trade** is a trading partnership that aims to achieve sustainable development
 For excluded and disadvantaged producers by offering better trading conditions and campaigning for
-Change.
+change.
 
 Fair trade organisations pay a minimum price floor (above market price) to producers and provide a
-Social premium for community development projects (schools, healthcare, clean water).
+social premium for community development projects (schools, healthcare, clean water).
 
 ### 6.4 International Trade Agreements
 

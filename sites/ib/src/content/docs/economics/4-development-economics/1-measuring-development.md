@@ -61,7 +61,7 @@ HDI scores range from 0 to 1. Countries are classified as very high ($\geq 0.800
 ### The Lorenz Curve
 
 The Lorenz curve plots the cumulative share of income received by the cumulative share of the
-Population, ordered from poorest to richest. The further the Lorenz curve deviates from the
+population, ordered from poorest to richest. The further the Lorenz curve deviates from the
 45-degree line of perfect equality, the greater the inequality.
 
 $$
@@ -87,7 +87,7 @@ the Lorenz curve.
 Simon Kuznets hypothesised an inverted-U relationship between economic development and income
 Inequality: inequality first rises during early industrialisation as a rural-urban divide emerges,
 Then falls as industrialisation matures, the labour share of income rises, and social policies are
-Introduced.
+introduced.
 
 Empirical evidence is mixed. Many developing countries have not followed the predicted pattern, and
 some advanced economies have experienced rising inequality since the 1980s.
@@ -121,7 +121,7 @@ some advanced economies have experienced rising inequality since the 1980s.
 <summary>Problem 1: Gini Coefficient Interpretation</summary>
 
 Country A has a Gini coefficient of 0.25. Country B has a Gini coefficient of 0.55. Compare the
-Income distributions and discuss the implications for development.
+income distributions and discuss the implications for development.
 
 Country A has a relatively equal income distribution (Gini $= 0.25$), while Country B has a highly
 Unequal distribution (Gini $= 0.55$).
@@ -172,7 +172,7 @@ share of export revenue is being diverted to debt repayment, leaving less for es
 investment.
 
 The country may benefit from debt restructuring (extending maturities, lowering interest rates) or
-Seeking additional concessional financing to reduce the debt service burden.
+seeking additional concessional financing to reduce the debt service burden.
 
 </details>
 
@@ -316,7 +316,7 @@ of 4%. The government wants to achieve 7% growth.
 (a) Calculate the current ICOR and savings rate.
 
 (b) Using the Harrod-Domar model, what savings rate is required to achieve 7% growth with the
-Current ICOR?
+current ICOR?
 
 (c) Alternatively, what ICOR would be needed with the current savings rate?
 
@@ -343,7 +343,7 @@ painful austerity measures.
 (c) Required $v = s / g = 0.20 / 0.07 = 2.86$
 
 The ICOR needs to fall from 5 to 2.86, meaning each unit of additional output requires 43% less
-Capital. This requires significantly more efficient investment -- investing in projects with Higher
+capital. This requires significantly more efficient investment -- investing in projects with Higher
 productivity, better technology, and stronger institutional frameworks.
 
 (d) Both options face significant challenges:
@@ -397,7 +397,7 @@ Growth rate of capital $= 96 / 900 = 10.7\%$
 Lewis turning point: $80 / 5 = 16$ years.
 
 After 16 years, all surplus labour is absorbed, and the industrial sector has $20 + 80 = 100$
-Million workers.
+million workers.
 
 (c) After the Lewis turning point:
 
@@ -442,7 +442,7 @@ Indicators.
 Deprivation intensity of 48%.
 
 (b) The government invests in water and sanitation infrastructure, eliminating deprivation in
-Drinking water and reducing sanitation deprivation to 20%. Estimate the impact on the MPI.
+drinking water and reducing sanitation deprivation to 20%. Estimate the impact on the MPI.
 
 (c) Evaluate the effectiveness of this investment compared to a cash transfer programme that Reduces
 the poverty headcount to 18%.
@@ -483,15 +483,15 @@ However, Country A has strong institutions (rule of law index = 1.5, control of 
 -1.1).
 
 (a) Explain how institutional quality is likely to affect the development trajectories of the two
-Countries over the next 20 years.
+countries over the next 20 years.
 
 (b) What policies could Country B implement to improve its institutional quality?
 
 (a) Country A is likely to attract more FDI, achieve higher domestic investment, experience more
-Innovation, have more effective government spending, and achieve more inclusive growth.
+innovation, have more effective government spending, and achieve more inclusive growth.
 
 Country B is likely to experience slower growth due to capital flight, low investment, and
-Misallocation of resources, suffer from rent-seeking and corruption, face greater difficulty
+misallocation of resources, suffer from rent-seeking and corruption, face greater difficulty
 Implementing reforms, and experience higher inequality.
 
 Over 20 years, even small annual growth rate differences (e.g., 3% vs. 1.5%) lead to Dramatically
@@ -815,7 +815,7 @@ but ambiguous or negative macro-level impacts (aid does not correlate with growt
 ### The Hypothesis
 
 The **Environmental Kuznets Curve (EKC)** hypothesises an inverted-U relationship between
-Environmental degradation and income per capita:
+environmental degradation and income per capita:
 
 $$
 \text{Pollution} = \alpha + \beta_1 Y + \beta_2 Y^2 + \epsilon

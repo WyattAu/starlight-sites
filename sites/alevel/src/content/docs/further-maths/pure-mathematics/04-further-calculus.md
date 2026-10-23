@@ -657,7 +657,7 @@ the $y$-axis.
 <details>
 <summary>Hint 5</summary>
 Express $x$ in terms of $y$ ($x = \sqrt{y}$) and integrate with respect to $y$ from $0$ to $4$ Or use the
-Shell method: $V = 2\pi\int_0^2 x\cdot x^2\,dx$.
+shell method: $V = 2\pi\int_0^2 x\cdot x^2\,dx$.
 </details>
 
 <details>
@@ -724,7 +724,7 @@ $\displaystyle\int_0^{\infty}\frac{1}{4+x^2}\,dx = \left[\frac{1}{2}\arctan\frac
 <details>
 <summary>Problem 9</summary>
 The curve $x = t^2$$y = t^3$ for $0 \leq t \leq 2$ is rotated about the $x$-axis. Find the volume of
-Revolution.
+revolution.
 </details>
 
 <details>

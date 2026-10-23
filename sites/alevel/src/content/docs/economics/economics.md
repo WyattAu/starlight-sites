@@ -24,7 +24,7 @@ categories:
 
 A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous
 Analytical framework for understanding markets, firms, governments, and the global economy. The
-Course requires both mathematical fluency and the ability to construct clear, logical arguments.
+course requires both mathematical fluency and the ability to construct clear, logical arguments.
 
 ### Board Coverage
 

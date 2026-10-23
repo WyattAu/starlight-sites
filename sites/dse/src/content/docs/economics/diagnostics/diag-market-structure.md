@@ -22,7 +22,7 @@ tableOfContents: false
 
 **Question:** A perfectly competitive firm has total cost $TC = 200 + 10Q + 0.5Q^2$ and faces a
 Market price of $\$50$. (a) Calculate the profit-maximising output. (b) Calculate the profit at this
-Output. (c) Determine whether the firm is in the short run or long run equilibrium. (d) Calculate
+output. (c) Determine whether the firm is in the short run or long run equilibrium. (d) Calculate
 the shutdown price.
 
 **Solution:**
@@ -34,11 +34,11 @@ $10 + Q = 50$ So $Q^* = 40$.
 $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 2000 - 1400 = \$600$.
 
 (c) Since profit $\gt 0$ The firm is **not** in long-run equilibrium. In long-run equilibrium under
-Perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
+perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
 
 (d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$ So $AVC = 10 + 0.5Q$. Minimum AVC occurs
 where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$ Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
-Shutdown price is $\$10$. If price falls below $\$10$ The firm shuts down because it cannot even
+shutdown price is $\$10$. If price falls below $\$10$ The firm shuts down because it cannot even
 Cover its variable costs.
 
 ### UT-2: Monopoly Pricing and Deadweight Loss
@@ -46,7 +46,7 @@ Cover its variable costs.
 **Question:** A monopolist faces demand $P = 100 - 2Q$ and has total cost $TC = 50 + 10Q + Q^2$. (a)
 Calculate the profit-maximising price and quantity. (b) Calculate the monopolist"s profit. (c) What
 would the price and quantity be under perfect competition? (d) Calculate the deadweight loss of
-Monopoly.
+monopoly.
 
 **Solution:**
 
@@ -70,7 +70,7 @@ and raising price above the competitive level.
 **Question:** A monopolistically competitive firm faces demand $P = 80 - Q$ and has total cost
 $TC = 100 + 20Q + 0.5Q^2$. (a) Calculate the short-run profit-maximising output, price, and profit.
 (b) In the long run, new firms enter. What condition defines long-run equilibrium? (c) If in
-Long-run equilibrium the demand shifts to $P = a - Q$ and costs remain the same, calculate the value
+long-run equilibrium the demand shifts to $P = a - Q$ and costs remain the same, calculate the value
 of $a$ where economic profit is zero.
 
 **Solution:**
@@ -132,9 +132,9 @@ $a \approx 44.49$.
 Adult tickets is $P_A = 40 - 0.5Q_A$ and for student tickets is $P_S = 20 - 0.5Q_S$. The cinema's
 Marginal cost is constant at $\$4$ per ticket with no fixed costs. (a) If the cinema cannot price
 Discriminate, calculate the profit-maximising price and quantity (combined demand). (b) If the
-Cinema practises third-degree price discrimination, calculate the price and quantity for each group.
+cinema practises third-degree price discrimination, calculate the price and quantity for each group.
 (c) Calculate the deadweight loss under each scenario. (d) The government considers regulating the
-Cinema. Which form of regulation would maximise social welfare?
+cinema. Which form of regulation would maximise social welfare?
 
 **Solution:**
 
@@ -176,7 +176,7 @@ Costs, the government might use average cost pricing instead.
 
 **Question:** Two firms, A and B, are duopolists in the market for bottled water. Each can choose a
 High price ($P_H = \$10$) or a low price ($P_L = \$6$). The payoff matrix (monthly profit in
-Thousands of HKD) is:
+thousands of HKD) is:
 
 <div class="table-wrap">
 
@@ -189,7 +189,7 @@ Thousands of HKD) is:
 
 (a) Identify the Nash equilibrium. (b) Is this a prisoner's dilemma? Explain. (c) If the firms
 Collude and split the market equally, what happens to their profits? Why might collusion be
-Unstable? (d) The market demand is $P = 20 - 0.2Q$ and each firm has $MC = 4$. Calculate the Cournot
+unstable? (d) The market demand is $P = 20 - 0.2Q$ and each firm has $MC = 4$. Calculate the Cournot
 Equilibrium and compare with the collusive outcome.
 
 **Solution:**
@@ -200,7 +200,7 @@ Equilibrium: (Low, Low)** with profits (50, 50).
 
 (b) Yes, this is a prisoner's dilemma. Both firms would be better off at (High, High) with profits
 (80, 80) each, but the dominant strategy of Low leads to (Low, Low) with only (50, 50) each. The
-Individual incentive to deviate from cooperation leads to a worse outcome for both.
+individual incentive to deviate from cooperation leads to a worse outcome for both.
 
 (c) If they collude at (High, High), each earns 80 -- more than the Nash equilibrium of 50. However,
 Collusion is unstable because each firm has an incentive to secretly cut price to Low, earning 100
@@ -231,7 +231,7 @@ their quota.
 
 **Question:** Compare a perfectly competitive market and a monopoly market with the same cost
 Structure: $TC = 100 + 2Q + 0.1Q^2$. The competitive market price is $\$12$. (a) Calculate the
-Competitive market output and the monopoly output. (b) Calculate consumer surplus, producer surplus,
+competitive market output and the monopoly output. (b) Calculate consumer surplus, producer surplus,
 And total surplus under each market structure. (c) Calculate the deadweight loss of monopoly. (d)
 Explain why a monopoly is allocatively inefficient, relating to the concept of marginal benefit
 Equals marginal cost.
@@ -265,11 +265,11 @@ $MC = 2 + 0.2(33.33) = 8.67$. At $Q_c = 50$: $P_c = MC = 12$.
 $DWL = \frac{1}{2}(P_m - MC_m)(Q_c - Q_m) = \frac{1}{2}(15.33 - 8.67)(50 - 33.33) = \frac{1}{2}(6.67)(16.67) = \$55.6$.
 
 (d) Allocative efficiency requires $P = MC$ Meaning marginal benefit (reflected in willingness to
-Pay) equals marginal cost. In perfect competition, firms produce where $P = MC$ Maximising total
+pay) equals marginal cost. In perfect competition, firms produce where $P = MC$ Maximising total
 Surplus. The monopoly restricts output to $Q_m \lt Q_c$ So for the units between $Q_m$ and $Q_c$
 Consumers' marginal benefit exceeds the marginal cost of production. These mutually beneficial
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
-Total social surplus, leading to an underallocation of resources to this good.
+total social surplus, leading to an underallocation of resources to this good.
 
 ## Intuition
 
@@ -402,7 +402,7 @@ in the market because they are earning exactly what they could earn in their nex
 **Question:** An oligopolistic firm faces a kinked demand curve. At the current price of $\$50$, the
 firm sells 100 units. For price increases, demand is elastic with $PED = -3$. For price decreases,
 demand is inelastic with $PED = -0.5$. The firm's marginal cost is $\$30$ at current output. (a)
-Calculate the price and quantity ranges over which the demand curve is elastic and inelastic. (b)
+calculate the price and quantity ranges over which the demand curve is elastic and inelastic. (b)
 Calculate the marginal revenue for the elastic and inelastic segments at the current price. (c)
 Explain why the kinked demand curve model predicts price rigidity. (d) Calculate the range of
 marginal cost over which the firm would not change its price.

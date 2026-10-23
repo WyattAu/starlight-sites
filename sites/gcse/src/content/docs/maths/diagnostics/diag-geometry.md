@@ -157,7 +157,7 @@ mapped such that $(x', y') = (2x + 1, 2y)$ Which corresponds to an enlargement b
 centre $(-1, 0)$.
 
 Verification: Centre $(-1, 0)$. A $(1, 2)$: distance from centre is $(2, 2)$. Scaled by 2: $(4, 4)$.
-New position: $(-1+4, 0+4) = (3, 4) \checkmark$.
+new position: $(-1+4, 0+4) = (3, 4) \checkmark$.
 
 This is an **enlargement with scale factor 2 about centre $(-1, 0)$**.
 

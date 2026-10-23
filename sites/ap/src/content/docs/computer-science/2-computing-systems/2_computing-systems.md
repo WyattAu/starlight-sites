@@ -342,7 +342,7 @@ $$
 
 **Why full adders matter.** A full adder can be chained to add multi-bit numbers. To add two 8-bit
 Numbers, chain 8 full adders: the carry-out of each stage becomes the carry-in of the next. The
-Final carry-out is the 9th bit of the result.
+final carry-out is the 9th bit of the result.
 
 **Worked Example.** Add 0110 and 0011 using half adders and full adders.
 
@@ -514,7 +514,7 @@ char upper = (char) ('a' - 32);  // 'A'
 </div>
 
 IOPS (Input/Output Operations Per Second) measures how many read/write operations a drive can
-Perform per second. SSDs excel here due to having no moving parts.
+perform per second. SSDs excel here due to having no moving parts.
 
 ### BIOS vs UEFI
 

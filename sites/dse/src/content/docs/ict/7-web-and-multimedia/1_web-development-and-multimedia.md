@@ -599,7 +599,7 @@ while (count > 0) {
 ### DOM Manipulation
 
 The Document Object Model (DOM) represents the HTML document as a tree of objects. JavaScript can
-Traverse and modify this tree to change page content, structure, and style dynamically.
+traverse and modify this tree to change page content, structure, and style dynamically.
 
 **Selecting elements:**
 
@@ -636,7 +636,7 @@ document.getElementById('container').appendChild(newParagraph);
 ### Event Handling
 
 Events are actions or occurrences (click, hover, key press, form submission) that JavaScript can
-Respond to.
+respond to.
 
 ```javascript
 // Using addEventListener (recommended)
@@ -1074,14 +1074,14 @@ Answer:
 (b) `GET` sends form data as URL parameters (appended to the `action` URL after `?`). It is visible
 in the browser address bar, has a length limit (approximately 2048 characters), and should be used
 for idempotent requests (search, filter). `POST` sends form data in the HTTP request body, is not
-Visible in the URL, has no practical length limit, and should be used for data that changes state on
+visible in the URL, has no practical length limit, and should be used for data that changes state on
 the server (login, registration, payment).
 
 (c) The `<label>` element associates a text description with a form control via the `for` attribute
 (matching the input's `id`). It is important because: (1) clicking the label focuses the associated
 Input, increasing the clickable area for mouse/touch users. (2) Screen readers announce the label
 Text when the input receives focus, improving accessibility for visually impaired users. (3) It
-Creates a semantic association between the description and the input field.
+creates a semantic association between the description and the input field.
 
 </details>
 
@@ -1092,7 +1092,7 @@ Creates a semantic association between the description and the input field.
 Area that fills the remaining space.
 
 (b) Write a media query that changes the layout to a single column (sidebar on top, content below)
-When the screen width is less than 768 pixels.
+when the screen width is less than 768 pixels.
 
 (c) Explain what `box-sizing: border-box` does and why it is commonly recommended.
 
@@ -1132,7 +1132,7 @@ Answer:
 (c) `box-sizing: border-box` makes the `width` and `height` properties include the content area,
 Padding, and border. Without it (the default `content-box`), `width` applies only to the content,
 And padding and border are added on top, making the total element wider than specified. This
-Commonly causes layout issues when elements exceed their container. With `border-box`. If you set
+commonly causes layout issues when elements exceed their container. With `border-box`. If you set
 `width: 250px`. The total rendered width including padding and border will be exactly 250px, making
 Layout calculations predictable. Many developers apply `* { box-sizing: border-box; }` globally.
 
@@ -1143,10 +1143,10 @@ Layout calculations predictable. Many developers apply `* { box-sizing: border-b
 
 (a) Write JavaScript code that: (i) finds an element with id `counter`(ii) adds a click event
 Listener that increments a counter variable and updates the element's text content to show the
-Current count.
+current count.
 
 (b) Write JavaScript to validate a form with id `loginForm`. If the password field (id `pass`) has
-Fewer than 8 characters, prevent form submission and display an alert.
+fewer than 8 characters, prevent form submission and display an alert.
 
 (c) Explain the difference between `textContent` and `innerHTML`.
 
@@ -1188,7 +1188,7 @@ Intentionally want to insert HTML elements.
 <summary>Question 4: Client-Side vs Server-Side</summary>
 
 An e-commerce website needs to implement the following features. For each, state whether the
-Processing should be client-side, server-side, or both, and justify your answer.
+processing should be client-side, server-side, or both, and justify your answer.
 
 (a) Displaying a product image gallery with thumbnail navigation.
 
@@ -1204,7 +1204,7 @@ Answer:
 
 (a) **Client-side.** Image gallery navigation (switching between images, zoom, pan) requires
 Immediate responsiveness and does not need server involvement. JavaScript handles this in the
-Browser for the best user experience.
+browser for the best user experience.
 
 (b) **Both.** Client-side validation provides immediate feedback (format check, Luhn algorithm)
 Before the form is submitted, improving UX. Server-side validation is essential for security --
@@ -1218,11 +1218,11 @@ Insecure and unreliable).
 (d) **Client-side.** Updating the cart counter is a UI operation that should happen instantly when
 the user clicks "Add to cart." JavaScript can update the DOM without a server round-trip. The actual
 Cart data should be synced with the server (via an AJAX request), but the visual update is
-Client-side.
+client-side.
 
 (e) **Server-side.** Searching a database requires server-side processing (SQL query). The client
 cannot directly access the database. The client sends the search query, and the server returns the
-Results. Client-side filtering (narrowing already-loaded results) could supplement this.
+results. Client-side filtering (narrowing already-loaded results) could supplement this.
 
 </details>
 
@@ -1246,11 +1246,11 @@ Page (standard convention). Move the search bar to the header area where it is i
 
 **Icon-only navigation:** Violates the recognition rather than recall and accessibility principles.
 Icons alone are ambiguous -- users must guess what each icon means. Text labels provide clarity and
-Help screen readers. Add text labels below or beside each icon.
+help screen readers. Add text labels below or beside each icon.
 
 **"Error 404" messages:** Violates the "help users recognise, diagnose, and recover from errors"
 Heuristic. Technical error codes are meaningless to most users. Replace with plain language: "The
-Page you requested could not be found. Here are some suggestions..." with links to common pages.
+page you requested could not be found. Here are some suggestions..." with links to common pages.
 
 **Light grey text on white background:** Violates visibility and accessibility principles. The
 Contrast ratio is insufficient, making text hard to read, especially for users with visual

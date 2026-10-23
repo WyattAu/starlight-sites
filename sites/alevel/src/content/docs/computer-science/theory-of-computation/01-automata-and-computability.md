@@ -68,7 +68,7 @@ Trace for "1001": S → S → A → S → A →... Wait, let me retrace.
 - All other components are the same as a DFA
 
 An NFA **accepts** a string if there exists at least one path through the machine that ends in an
-Accepting state.
+accepting state.
 
 ### NFA with Epsilon Transitions (ε-NFA)
 
@@ -227,7 +227,7 @@ Equivalently: any reasonable model of computation (lambda calculus, μ-recursive
 Programming languages) can compute exactly the same set of functions as a Turing machine.
 
 This is a **thesis**, not a theorem, it cannot be proven because "effectively computable" is an
-Informal concept. However, no counterexample has ever been found.
+informal concept. However, no counterexample has ever been found.
 
 <hr />
 
@@ -299,7 +299,7 @@ $$
 $$
 
 Every problem in P is also in NP (if you can solve it in polynomial time, you can certainly verify a
-Solution in polynomial time).
+solution in polynomial time).
 
 **The P vs NP question:** Is $\mathrm{P} = \mathrm{NP}$? This is one of the seven Millennium Prize
 Problems. Most computer scientists believe $\mathrm{P} \neq \mathrm{NP}$.
@@ -577,7 +577,7 @@ the answer).
 
 The halting problem is semi-decidable (run the TM and accept when it halts). If its complement were
 also semi-decidable, the halting problem would be decidable, but we proved it's not. Therefore, the
-Complement of the halting problem is not semi-decidable. $\square$
+complement of the halting problem is not semi-decidable. $\square$
 
 </details>
 
@@ -588,7 +588,7 @@ Length ≤ k?") is in NP.
 <summary>Answer</summary>
 
 The TSP decision problem is in NP because a proposed solution (a tour) can be **verified** in
-Polynomial time:
+polynomial time:
 
 **Certificate:** A permutation of the $n$ cities (the proposed tour).
 

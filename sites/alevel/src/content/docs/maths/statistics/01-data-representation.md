@@ -84,7 +84,7 @@ The **median** is the middle value when data are arranged in order. For $n$ valu
 ### 1.4 Mode
 
 The **mode** is the most frequently occurring value. A dataset can be unimodal, bimodal, or have no
-Mode.
+mode.
 
 ### 1.5 Comparing measures
 
@@ -268,7 +268,7 @@ For a unimodal distribution:
 - **Negatively skewed**: mean $\lt$ median $\lt$ mode.
 
 The mean is pulled in the direction of the longer tail, while the mode remains at the peak and the
-Median lies between them.
+median lies between them.
 
 <hr />
 
@@ -638,7 +638,7 @@ A dataset $\{x_i\}$ has mean 10 and standard deviation 4. A new dataset is forme
 <details>
 <summary>Solution 9</summary>
 Adding 5 shifts mean by 5: mean becomes 15. SD unchanged at 4.
-Multiplying by 3 scales mean by 3: mean becomes 45. SD scales by 3: SD becomes 12.
+multiplying by 3 scales mean by 3: mean becomes 45. SD scales by 3: SD becomes 12.
 
 New mean = 45, new SD = 12.
 
@@ -802,7 +802,7 @@ $\mathrm{IQR} = Q_3 - Q_1 = 40 - 24.67 = 15.33$.
 <details>
 <summary>Problem 15</summary>
 The ordered dataset $\{4, 6, 8, 10, 12, 13, 15, 16, 48\}$ has median 12 and MAD = 4. Use the
-Modified z-score method to determine whether the value 48 is an outlier.
+modified z-score method to determine whether the value 48 is an outlier.
 </details>
 
 <details>
@@ -824,7 +824,7 @@ Since $|M| = 6.07 \gt 3.5$ The value 48 is classified as an outlier by the modif
 <summary>Problem 16</summary>
 A grouped frequency distribution has class $50 \lt w \le 60$ with frequency 14. The cumulative
 Frequency below this class is 32, and the total frequency is 80. Use linear interpolation to
-Estimate $Q_3$.
+estimate $Q_3$.
 </details>
 
 <details>
@@ -847,7 +847,7 @@ $$
 <details>
 <summary>Problem 17</summary>
 For the dataset $\{3, 5, 6, 7, 8, 9, 10, 12, 45\}$ Compute both Pearson's first and second
-Coefficients of skewness. Do they agree on the direction of skewness?
+coefficients of skewness. Do they agree on the direction of skewness?
 </details>
 
 <details>
@@ -875,7 +875,7 @@ $$
 
 Both coefficients are positive, so they agree on positive skew. However, $S_1$ is much larger
 because the mean (11.67) is strongly pulled by the outlier 45, whereas $S_2$ depends only on the
-Quartiles, which are less affected by that extreme value.
+quartiles, which are less affected by that extreme value.
 
 **If you get this wrong, revise:** [Skewness](#6-skewness), Section 6.
 

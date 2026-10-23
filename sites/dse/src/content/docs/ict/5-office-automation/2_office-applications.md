@@ -75,7 +75,7 @@ A product catalogue in `E1:H20` with columns: ProductCode (E), ProductName (F), 
 (H).
 
 In cell `A1`. The user enters a product code. In `B1`Display the product name. In `C1`Display the
-Price.
+price.
 
 ```python
 B1: =VLOOKUP(A1, $E$1:$H$20, 2, FALSE)
@@ -455,7 +455,7 @@ In addition to built-in rules, conditional formatting can use custom formulas fo
 4. Choose formatting (e.g., yellow fill).
 
 The `$D` locks the column reference so that the condition always checks column D, even when the
-Formatting is applied to columns A through F. The row number `2` is relative, so each row is checked
+formatting is applied to columns A through F. The row number `2` is relative, so each row is checked
 Independently.
 
 **Scenario 2:** Highlight alternate rows (zebra striping).
@@ -663,7 +663,7 @@ below the data with bold labels.
 ### Table Relationships
 
 Relational databases use relationships to link tables together. Understanding relationships is
-Essential for designing and querying databases.
+essential for designing and querying databases.
 
 <div class="table-wrap">
 
@@ -899,7 +899,7 @@ to The audience.
 ### Presentation Design for Exams
 
 In the DSE ICT practical exam, students may be required to create a presentation. Key skills to
-Demonstrate:
+demonstrate:
 
 1. **Apply a consistent theme** using the slide master.
 2. **Use appropriate slide layouts** (title slide, content slide, two-content slide).
@@ -1077,7 +1077,7 @@ The table is `A2:E5`. Column 3 (C) contains the price. Result: 2500.
 ```
 
 INDEX/MATCH is more flexible because: (1) the search column (A) and return column (E) can be in any
-Position -- they do not need to be adjacent. (2) Inserting or deleting columns does not break the
+position -- they do not need to be adjacent. (2) Inserting or deleting columns does not break the
 formula because it references column ranges directly, not a column number. (3) It can perform
 lookups to the left, which VLOOKUP cannot do.
 
@@ -1088,7 +1088,7 @@ lookups to the left, which VLOOKUP cannot do.
 ```
 
 VLOOKUP cannot do this because the search column (C, Price) is to the right of the return column (A,
-Product). INDEX/MATCH handles it by searching C and returning from A.
+product). INDEX/MATCH handles it by searching C and returning from A.
 
 </details>
 
@@ -1111,14 +1111,14 @@ Describe how to create each of the following pivot table views:
 Answer:
 
 (a) Create a pivot table from the data. Drag **Region** to the Rows area. Drag **Revenue** to the
-Values area. Ensure the summarisation is set to SUM (default for numerical values).
+values area. Ensure the summarisation is set to SUM (default for numerical values).
 
 (b) Create a pivot table. Drag **Salesperson** to Rows. Drag **Revenue** to Values, set
 summarisation To AVERAGE. Click the Row Labels drop-down > Sort > Sort Smallest to Largest (or click
 on a value And sort descending).
 
 (c) Create a pivot table. Drag **Region** to Rows. Drag **Product** to Columns. Drag **Revenue** to
-Values (SUM). Subtotals are generated automatically for each row group (region totals) and each
+values (SUM). Subtotals are generated automatically for each row group (region totals) and each
 column Group (product totals), plus a grand total.
 
 (d) Create a pivot table. Drag **Date** to the Filters area. After creating the pivot table, click
@@ -1213,7 +1213,7 @@ Error alert" and set an appropriate error message.
 (c) Select the entire data range `A2:E50`. Go to Conditional Formatting > New Rule > Use a formula.
 Enter: `=E2>=PERCENTILE.INC($E$2:$E$50,0.9)`. This formula checks whether each row's average Value
 is at or above the 90th percentile (top 10%). The `$E$2:$E$50` reference is absolute to ensure the
-Percentile is calculated from the entire column.
+percentile is calculated from the entire column.
 
 (d) Data validation can be bypassed by: (1) Pasting data from another source (paste special or
 Drag-and-drop bypasses validation). (2) Using macros or programmatic data entry. (3) Editing the
@@ -1262,10 +1262,10 @@ animation type Per slide. Reserve motion paths or more complex animations for on
 (e.g., a Process diagram).
 
 (d) **Serif fonts** (e.g., Times New Roman, Georgia) have small decorative strokes at the ends of
-Characters. They are generally considered more readable in printed text at smaller sizes because the
+characters. They are generally considered more readable in printed text at smaller sizes because the
 Serifs guide the eye along lines of text. **Sans-serif fonts** (e.g., Arial, Helvetica, Calibri)
 lack These strokes and appear cleaner on screens. (i) **Printed brochure:** Serif fonts are more
-Appropriate for body text. (ii) **On-screen presentation:** Sans-serif fonts are more appropriate
+appropriate for body text. (ii) **On-screen presentation:** Sans-serif fonts are more appropriate
 because they render more on projectors and screens, especially at larger sizes and from a Distance.
 
 </details>

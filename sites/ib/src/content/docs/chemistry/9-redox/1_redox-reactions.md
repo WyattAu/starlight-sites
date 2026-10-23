@@ -390,7 +390,7 @@ All electrode potentials are tabulated as **reduction potentials**:
 ### Calculating Cell EMF
 
 The standard cell potential ($E^\circ_{\mathrm{cell}}$) is the difference between the cathode and
-Anode reduction potentials:
+anode reduction potentials:
 
 $$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}
@@ -501,7 +501,7 @@ Electrolysis uses electrical energy to drive a non-spontaneous redox reaction.
 ### Electrolysis of Aqueous Solutions
 
 When water is present, both the cation and water compete for reduction at the cathode, and both the
-Anion and water compete for oxidation at the anode.
+anion and water compete for oxidation at the anode.
 
 **Cathode (reduction):**
 
@@ -547,7 +547,7 @@ $$
 
 **Faraday's Second Law:** When the same quantity of charge is passed through different electrolytes,
 The masses of substances produced are proportional to their equivalent masses (molar mass divided by
-Number of electrons transferred).
+number of electrons transferred).
 
 **Where:**
 
@@ -703,7 +703,7 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 
 :::caution
 Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and
-Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
+sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 
 ---
@@ -929,7 +929,7 @@ Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$ Ni will spontaneously r
 <summary>Question 4: Electrolysis Quantitative</summary>
 
 A $3.00\mathrm{ A}$ current is passed through aqueous CuSO$_4$ using copper electrodes for 1.50
-Hours.
+hours.
 
 (a) Calculate the mass of copper deposited at the cathode.
 
@@ -951,8 +951,8 @@ M(\mathrm{Cu}) = \frac{Q \times M}{n \times F} = \frac{16200 \times 63.5}{2 \tim
 $$
 
 (b) In electrolysis of CuSO$_4$ with copper electrodes (electrorefining), the anode is made of
-Impure copper. At the anode, copper oxidises: $\mathrm{Cu}(s) \to \mathrm{Cu}^{2+}(aq) + 2e^-$. This
-Means the anode loses mass as copper atoms dissolve into solution. The Cu$^{2+}$ ions then travel to
+impure copper. At the anode, copper oxidises: $\mathrm{Cu}(s) \to \mathrm{Cu}^{2+}(aq) + 2e^-$. This
+means the anode loses mass as copper atoms dissolve into solution. The Cu$^{2+}$ ions then travel to
 the cathode where they are deposited as pure copper.
 
 Note: With **inert** electrodes (e.g., graphite), oxygen is produced at the anode from water
@@ -1114,7 +1114,7 @@ Cl$^-$ is a halide and is discharged in preference to OH$^-$/water.
 $\mathrm{Cl}_2 + 2\mathrm{OH}^- \to \mathrm{Cl}^- + \mathrm{ClO}^- + \mathrm{H}_2\mathrm{O}$
 
 However, if Cl$_2$ escapes (which it tends to do), the remaining solution contains OH$^-$ and
-Unreacted Na$^+$Making it basic, not acidic. The question implies that Cl$_2$ reacts with water:
+unreacted Na$^+$Making it basic, not acidic. The question implies that Cl$_2$ reacts with water:
 
 $\mathrm{Cl}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{HCl} + \mathrm{HClO}$
 

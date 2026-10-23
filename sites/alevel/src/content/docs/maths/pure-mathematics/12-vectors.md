@@ -208,7 +208,7 @@ And $\mathbf{b}$ point in the same direction. It equals the product of the magni
 and the **projection** of $\mathbf{b}$ onto $\mathbf{a}$:
 $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}| \cdot (\mathrm{shadow of }\mathbf{b}\mathrm{ on }\mathbf{a})$.
 If they are perpendicular, the shadow is zero. If they point the same way, the dot product is
-Positive; if opposite, negative.
+positive; if opposite, negative.
 
 <hr />
 
@@ -246,7 +246,7 @@ question.
 ### 5.4 Vector equation of a line in 3D
 
 The vector equation of a line in 3D has the same form as in 2D, but now operates in three
-Dimensions. Given a point $A(x_0, y_0, z_0)$ on the line and a direction vector
+dimensions. Given a point $A(x_0, y_0, z_0)$ on the line and a direction vector
 $\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$:
 
 $$
@@ -389,7 +389,7 @@ $$
 **Proof.** The vector $\mathbf{b}\times\mathbf{c}$ has magnitude
 $|\mathbf{b}||\mathbf{c}|\sin\theta$ equal to the area of the parallelogram with sides $\mathbf{b}$
 and $\mathbf{c}$ And direction perpendicular to both. The height of the parallelepiped is the
-Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$ Which is $|\mathbf{a}|\cos\phi$ where
+projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$ Which is $|\mathbf{a}|\cos\phi$ where
 $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 
 $$

@@ -21,13 +21,13 @@ description: "An urban microclimate refers to the distinctive climatic condition
 
 An urban microclimate refers to the distinctive climatic conditions within and immediately
 Surrounding an urban area, which differ from the climate of the surrounding rural landscape. These
-Differences arise from modifications to the surface energy balance, hydrological cycle, and
-Atmospheric composition caused by urbanisation.
+differences arise from modifications to the surface energy balance, hydrological cycle, and
+atmospheric composition caused by urbanisation.
 
 ### The Urban Heat Island Effect
 
 The urban heat island (UHI) effect is the phenomenon whereby urban areas experience higher air and
-Surface temperatures than surrounding rural areas. The magnitude of the UHI varies with city size,
+surface temperatures than surrounding rural areas. The magnitude of the UHI varies with city size,
 Population density, building materials, vegetation cover, and weather conditions.
 
 **Causes of the UHI:**
@@ -79,7 +79,7 @@ Angeles, Mexico City, Santiago, Tehran).
 
 **Precipitation anomalies.** Urban areas can modify local precipitation patterns. The UHI creates
 Thermal instability, enhancing convective uplift and potentially increasing rainfall downwind of the
-City. Aerosols and particulate matter released by urban activities can act as cloud condensation
+city. Aerosols and particulate matter released by urban activities can act as cloud condensation
 Nuclei, potentially increasing rainfall frequency. Research has shown that cities can receive
 10--30% more rainfall than surrounding rural areas, and that rainfall events may be more intense
 (with higher hourly rainfall rates). However, the overall evidence is mixed, and the effect varies
@@ -250,12 +250,12 @@ While housing demand is strongest in regions with limited brownfield supply (sou
 
 Urban environmental quality varies enormously within cities. Air pollution, temperature, noise,
 Access to green space, and exposure to environmental hazards are all spatially uneven, and these
-Disparities frequently correlate with socioeconomic status. Low-income and minority communities are
-Disproportionately exposed to pollution (situated near industrial areas, highways, and waste
+disparities frequently correlate with socioeconomic status. Low-income and minority communities are
+disproportionately exposed to pollution (situated near industrial areas, highways, and waste
 Facilities) and have less access to environmental amenities (parks, clean water, adequate housing).
 This environmental injustice is a critical dimension of urban environmental quality that should be
-Addressed in any evaluation. Avoid generalising about "urban environmental quality" as if it were
-Uniform; always consider spatial variation and its social distribution.
+addressed in any evaluation. Avoid generalising about "urban environmental quality" as if it were
+uniform; always consider spatial variation and its social distribution.
 
 </details>
 

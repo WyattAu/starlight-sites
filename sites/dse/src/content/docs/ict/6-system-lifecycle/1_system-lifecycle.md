@@ -180,7 +180,7 @@ of feasibility.
 
 **Recommendation:** Proceed with the project, starting at the beginning of the summer break to allow
 Sufficient time for data entry. Negotiate software cost or consider open-source alternatives to
-Improve economic feasibility.
+improve economic feasibility.
 
 </details>
 
@@ -470,7 +470,7 @@ A system accepts student scores (0--100) and calculates grades.
 ### Phase 6: Evaluation Purpose
 
 Evaluation assesses whether the system meets its original objectives and identifies areas for
-Improvement.
+improvement.
 
 ### Evaluation Criteria
 
@@ -745,7 +745,7 @@ Answer:
 
 (a) **Interviews with teachers:** Teachers currently take manual attendance. Interviews would reveal
 their current workflow, pain points (e.g., time wasted, inaccurate records), and what features they
-Need in the new system.
+need in the new system.
 
 **Observation:** Observe the morning registration process to understand exactly how attendance is
 Currently recorded, how long it takes, and what problems arise (e.g., students forgetting to report,
@@ -796,7 +796,7 @@ Estimated savings: HKD 3,000--5,000/year. **Assessment: Feasible. Payback period
 
 **Operational feasibility:** With only 3 employees, training is minimal (1--2 days). The POS system
 Simplifies their work (no manual price lookup, automatic inventory updates). Risk of resistance is
-Low if employees see the time savings. **Assessment: Feasible.**
+low if employees see the time savings. **Assessment: Feasible.**
 
 (b) Three stakeholders:
 

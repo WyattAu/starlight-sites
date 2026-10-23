@@ -310,14 +310,14 @@ M(\mathrm{CaCO_3) = 0.0205 \times 100 = 2.05\mathrm{ g
 $$
 
 Since the sample was only 2.00 g, there is an error in our assumptions. Let us recalculate -- the
-Answer should be:
+answer should be:
 
 $$
 \%\mathrm{ CaCO_3 = \frac{2.05}{2.00} \times 100 = 102.5\%
 $$
 
 This indicates experimental error or impurity. In practice, the value should be close to but not
-Exceeding 100%.
+exceeding 100%.
 
 ## Water of Crystallisation (HL)
 

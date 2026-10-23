@@ -55,7 +55,7 @@ Y-shaped Region where the two parental strands are separated.
 ### Leading and Lagging Strands
 
 DNA polymerase can only synthesise in the $5' \to 3'$ direction. Since the two template strands are
-Antiparallel, synthesis proceeds differently on each:
+antiparallel, synthesis proceeds differently on each:
 
 - **Leading strand**: synthesised continuously in the $5' \to 3'$ direction, toward the replication
   fork. Only one RNA primer is needed.
@@ -102,7 +102,7 @@ resynthesised. MMR further reduces the error rate to approximately $10^{-9}$.
 ### The End Replication Problem
 
 In eukaryotes, the leading strand can be synthesised to the very end of the chromosome, but the
-Lagging strand cannot complete the terminal Okazaki fragment (there is no upstream primer to
+lagging strand cannot complete the terminal Okazaki fragment (there is no upstream primer to
 replace). This results in a progressive shortening of chromosomes with each round of replication
 ($\approx 50$--$200\;\mathrm{bp}$ Per division in somatic cells).
 
@@ -235,7 +235,7 @@ base-pairing Rules ("wobble"):
 </div>
 
 Wobble explains why the $61$ sense codons are read by fewer than $61$ tRNAs (humans have
-Approximately $45$ tRNA species).
+approximately $45$ tRNA species).
 
 ### Ribosome Structure
 
@@ -347,7 +347,7 @@ The **lac operon** in _E. Coli_ is subject to dual regulation:
 ### The Trp Operon (Repressible Operon)
 
 The **trp operon** in _E. Coli_ regulates tryptophan biosynthesis. It is normally ON (tryptophan is
-Needed) and is turned OFF when tryptophan is abundant.
+needed) and is turned OFF when tryptophan is abundant.
 
 - **Repressor protein** (product of $trpR$) is inactive alone.
 - When **tryptophan** (corepressor) binds to the repressor, the complex binds to the operator,
@@ -423,7 +423,7 @@ cut both strands at specific positions within or near the recognition site.
 
 **Sticky ends** (cohesive ends): single-stranded overhangs that can base-pair with complementary
 Sticky ends from another DNA fragment cut with the same enzyme. This facilitates the formation of
-Recombinant DNA molecules.
+recombinant DNA molecules.
 
 ### Recombinant DNA Technology Steps
 
@@ -595,7 +595,7 @@ fragment). Plus the initial primer on the leading strand.
 <summary>Question 2: Operon Regulation Prediction</summary>
 
 An _E. Coli_ culture is growing in a medium containing lactose but no glucose. Predict whether the
-Lac operon is ON or OFF. The culture is then supplemented with a high concentration of glucose.
+lac operon is ON or OFF. The culture is then supplemented with a high concentration of glucose.
 Predict the new state of the lac operon and explain the molecular mechanism, including the roles Of
 allolactose, cAMP, CAP, and the lac repressor.
 
@@ -703,13 +703,13 @@ silenced.
 (b) Inhibiting DNA methyltransferases would prevent the maintenance of methylation patterns during
 DNA replication. Over successive cell divisions, the promoter would become progressively
 Hypomethylated. The chromatin would relax (become euchromatin), and transcription factors would
-Regain access to the promoter. Gene expression would increase (or be reactivated). This is the Basis
+regain access to the promoter. Gene expression would increase (or be reactivated). This is the Basis
 for **epigenetic therapy** in certain cancers (e.g., azacitidine for myelodysplastic syndromes).
 
 (c) Identical twins have the same genome but accumulate different epigenetic modifications over
 their lifetimes due to: different environmental exposures (diet, toxins, stress, physical activity),
 Different stochastic (random) epigenetic changes, and different in utero environments. These
-Epigenetic differences alter gene expression patterns, contributing to discordant disease
+epigenetic differences alter gene expression patterns, contributing to discordant disease
 Susceptibility (e.g., one twin develops autoimmune disease or cancer while the other does not).
 
 </details>
@@ -744,10 +744,10 @@ and the opened plasmid.
 ($42^\circ\mathrm{C}$ for $90\;\mathrm{s}$) or electroporation. Allow recovery in rich medium.
 
 (e) **Selection**: plate cells on agar containing ampicillin. Only cells that have taken up the
-Plasmid (with amp$^R$) will grow. To distinguish recombinant from non-recombinant colonies, use
+plasmid (with amp$^R$) will grow. To distinguish recombinant from non-recombinant colonies, use
 Blue-white screening: the plasmid carries the lacZ gene in the MCS; insertion of the HGH gene
 Disrupts lacZ, so colonies containing the recombinant plasmid are white (X-gal + IPTG in the
-Medium).
+medium).
 
 (f) **Inducing expression**: grow the recombinant _E. Coli_ in culture, then add IPTG (isopropyl
 $\beta$-D-1-thiogalactopyranoside) to induce the lac promoter. The _E. Coli_ transcribes and
@@ -799,8 +799,8 @@ Reflecting the staggered activation of origins and other cellular processes.
 A protein has a molecular weight of $55\;\mathrm{kDa}$ and an average amino acid molecular weight of
 $110\;\mathrm{Da}$. The gene has $4$ introns with an average length of $1200\;\mathrm{bp}$ and $5$
 Exons. (a) Calculate the number of amino acids and the minimum coding sequence length. (b) If the
-Mature mRNA is $1800\;\mathrm{bp}$ long, what proportion is coding sequence? (c) Calculate the
-Pre-mRNA length.
+mature mRNA is $1800\;\mathrm{bp}$ long, what proportion is coding sequence? (c) Calculate the
+pre-mRNA length.
 
 <details>
 <summary>Solution</summary>
@@ -870,9 +870,9 @@ Explain how the cell repairs UV-induced damage through nucleotide excision repai
 <summary>Problem 2: Quantitative -- PCR and qPCR</summary>
 
 A researcher uses qPCR to quantify the expression of gene $X$ in two tissue samples. For sample A,
-The threshold is reached at cycle 22; for sample B, at cycle 28. The standard curve (using known
+the threshold is reached at cycle 22; for sample B, at cycle 28. The standard curve (using known
 Copy numbers) shows that 1 log$_{10}$ difference in copy number corresponds to 3.32 cycles. (a)
-Calculate the fold difference in gene $X$ expression between samples A and B. (b) Explain Why qPCR
+calculate the fold difference in gene $X$ expression between samples A and B. (b) Explain Why qPCR
 uses a fluorescent DNA-binding dye or probe rather than measuring the final product by Gel
 electrophoresis. (c) What is the role of the reference (housekeeping) gene in qPCR analysis?
 
@@ -882,7 +882,7 @@ electrophoresis. (c) What is the role of the reference (housekeeping) gene in qP
 <summary>Problem 3: Extended Response -- Operon Regulation Comparison</summary>
 
 Compare and contrast the lac operon and trp operon in _E. Coli_, addressing: (a) whether each is
-Inducible or repressible, (b) the role of the effector molecule, (c) the mechanism of regulation At
+inducible or repressible, (b) the role of the effector molecule, (c) the mechanism of regulation At
 the operator, and (d) any additional regulatory mechanism (catabolite repression for lac;
 Attenuation for trp). Explain the adaptive advantage of each regulatory strategy.
 
@@ -1042,7 +1042,7 @@ So BamHI cuts within the $3000\;\mathrm{bp}$ EcoRI fragment, splitting it into $
 
 Now: the $1500\;\mathrm{bp}$ BamHI fragment is not cut by EcoRI (it appears intact in the double
 digest). The $3500\;\mathrm{bp}$ BamHI fragment is cut by EcoRI into $500 + 1000 + 2000 = 3500$.
-That gives 3 fragments from one region, but we only have $500$ and $1000$ and $1500$ and $2000$ in
+that gives 3 fragments from one region, but we only have $500$ and $1000$ and $1500$ and $2000$ in
 the double digest.
 
 Let me reconsider: the $3500\;\mathrm{bp}$ BamHI fragment is cut by EcoRI. Since the
@@ -1059,7 +1059,7 @@ BamHI -- $1500$ -- (back to start).
 
 Verification: EcoRI to EcoRI $= 1000\;\mathrm{bp}$ (short fragment), and the other EcoRI to EcoRI
 (going the other way around) $= 500 + 1500 + 2000 = 4000$. But EcoRI alone gave $2000$ and $3000$.
-This does not match.
+this does not match.
 
 Let me redo this more carefully. Label the four sites in order around the circle: let us place them
 as positions on a linear map $0$ to $5000$.
@@ -1168,7 +1168,7 @@ $P(\text{normal for both}) = \frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$
 $P(AaCc) = P(Aa) \times P(Cc) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$
 
 (Note: this assumes the two genes are on different chromosomes. If linked, the calculation would
-Differ depending on the recombination frequency.)
+differ depending on the recombination frequency.)
 
 </details>
 
@@ -1182,7 +1182,7 @@ A family shows the following pattern for a rare disorder:
   unaffected son.
 
 (a) Determine the mode of inheritance. (b) State the genotypes of all individuals. (c) Calculate the
-Probability that II-1 and II-2's next child will be affected.
+probability that II-1 and II-2's next child will be affected.
 
 <details>
 <summary>Solution</summary>
@@ -1292,7 +1292,7 @@ suppressor genes (e.g., p53) or proto-oncogenes can lead to uncontrolled cell di
 cancer. XP patients are Extremely sensitive to UV light and develop skin cancers at a young age.
 
 (d) NER removes bulky, helix-distorting lesions (thymine dimers, chemical adducts) by excising a
-Segment of approximately $30$ nucleotides. BER removes small, non-helix-distorting base
+segment of approximately $30$ nucleotides. BER removes small, non-helix-distorting base
 modifications (deaminated bases, oxidised bases like 8-oxoguanine, alkylated bases) by excising a
 single damaged base: A specific DNA glycosylase recognises and removes the damaged base, AP
 endonuclease cuts the backbone, DNA polymerase $\beta$ fills the single-nucleotide gap, and DNA
@@ -1328,7 +1328,7 @@ $N = 10^4 \times 3.17 \times 10^8 = 3.17 \times 10^{12}$ copies.
 (c) Concentration: $\frac{3.17 \times 10^{12}}{100} = 3.17 \times 10^{10}$ copies/$\mu\mathrm{L}$.
 
 (d) PCR efficiency is less than $100\%$ because: primers may anneal imperfectly, DNA polymerase may
-Dissociate from the template, secondary structures in the DNA may block polymerase progression,
+dissociate from the template, secondary structures in the DNA may block polymerase progression,
 Reagents become limiting in later cycles, and the denaturation temperature may not fully separate
 all DNA strands.
 
@@ -1369,7 +1369,7 @@ expressed earlier in Development.
 
 (c) Hox genes encode transcription factors that regulate the expression of many downstream genes
 Involved in segment identity. A mutation in a Hox gene changes the spatial expression pattern of the
-Transcription factor, causing the wrong set of downstream genes to be activated in a given body
+transcription factor, causing the wrong set of downstream genes to be activated in a given body
 segment. For example, in _Drosophila_, the _Antennapedia_ mutation causes the Antennapedia protein
 (normally Expressed in thoracic segments) to be expressed in the head, activating leg-development
 genes instead Of antenna-development genes. This illustrates the concept of a **master regulatory
@@ -1405,7 +1405,7 @@ genome And the corresponding tRNA gene copy number:
 </div>
 
 (a) Explain the correlation between codon usage and tRNA gene copy number. (b) A synthetic gene for
-Human insulin is to be expressed in this bacterium. The human insulin gene uses the following
+human insulin is to be expressed in this bacterium. The human insulin gene uses the following
 leucine Codons: CUG ($40\%$), UUA ($20\%$), CUU ($15\%$), CUA ($15\%$), UUG ($10\%$). Suggest how
 the gene Could be optimised for expression in this bacterium. (c) Explain why codon optimisation
 increases Protein yield.
@@ -1457,7 +1457,7 @@ they might be Minimised. (e) Evaluate the ethical implications of germline gene 
 <summary>Answer 10</summary>
 
 (a) CRISPR-Cas is an adaptive immune system in bacteria and archaea. When a bacterium survives a
-Bacteriophage infection, it incorporates fragments of the phage DNA (spacers) into the CRISPR array
+bacteriophage infection, it incorporates fragments of the phage DNA (spacers) into the CRISPR array
 in Its genome. Upon subsequent infection by the same phage, the CRISPR array is transcribed and
 processed Into CRISPR RNAs (crRNAs). These crRNAs guide Cas proteins to the matching phage DNA,
 where Cas cleaves The DNA, destroying the phage genome and protecting the bacterium.

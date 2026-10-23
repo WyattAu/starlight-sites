@@ -28,7 +28,7 @@ This note assumes the reader is already familiar with:
 These topics are covered in the introductory [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
 
 This note extends the treatment of functions covered in [Functions](/maths/compulsory/1_functions/), focusing on
-Domain restrictions, composite and inverse functions with non-trivial domains, and graphical
+domain restrictions, composite and inverse functions with non-trivial domains, and graphical
 Transformations.
 
 ## Domain and Range
@@ -131,7 +131,7 @@ $\mathrm{dom} = \mathbb{R} \setminus \{0\}$.
 ### Existence Condition
 
 A function $f$ has an inverse $f^{-1}$ if and only if $f$ is bijective (one-to-one and onto). If the
-Natural domain of $f$ does not yield injectivity, restrict the domain.
+natural domain of $f$ does not yield injectivity, restrict the domain.
 
 ### Procedure to Find $f^{-1}$
 
@@ -330,7 +330,7 @@ $f^{-1}(0) = 2 + \sqrt{0 + 1} = 2 + 1 = 3$.
 Verification: $f(3) = 9 - 12 + 3 = 0$. Confirmed.
 
 1. **Question:** The graph of $y = f(x)$ has a minimum at $(1, -2)$ and passes through $(0, 3)$.
-   Find the corresponding points on $y = 3f(2x) + 1$.
+   find the corresponding points on $y = 3f(2x) + 1$.
 
 $(1, -2) \to$ set $2x = 1 \implies x = 0.5$$y = 3(-2) + 1 = -5$. Point: $(0.5, -5)$.
 

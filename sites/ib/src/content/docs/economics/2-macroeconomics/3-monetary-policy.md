@@ -76,7 +76,7 @@ Prices while reducing output. Causes include:
 
 **Built-in inflation** (wage-price spiral): workers demand higher wages to keep up with rising
 Prices, and firms pass these higher labour costs onto consumers as higher prices, creating a
-Self-reinforcing cycle.
+self-reinforcing cycle.
 
 ### The Quantity Theory of Money
 
@@ -97,7 +97,7 @@ $$
 $$
 
 Monetarists, particularly Milton Friedman, argued that "inflation is always and everywhere a
-Monetary phenomenon" -- sustained inflation cannot occur without excessive growth in the money
+monetary phenomenon" -- sustained inflation cannot occur without excessive growth in the money
 supply.
 
 ### Consequences of Inflation
@@ -154,15 +154,15 @@ $$
 
 The **expectations-augmented Phillips curve** (Friedman, Phelps): if the government tries to reduce
 Unemployment below $u_n$ Initial gains in employment are offset as workers demand higher wages in
-Anticipation of higher inflation. The SRPC shifts upward, and unemployment returns to $u_n$ at a
-Higher inflation rate.
+anticipation of higher inflation. The SRPC shifts upward, and unemployment returns to $u_n$ at a
+higher inflation rate.
 
 ## Unemployment
 
 ### Measuring Unemployment
 
 The **unemployment rate** is the percentage of the labour force that is actively seeking work but
-Unable to find it:
+unable to find it:
 
 $$
 \mathrm{Unemployment\ rate} = \frac{\mathrm{Number\ unemployed}}{\mathrm{Labour\ force}} \times 100
@@ -193,8 +193,8 @@ Investment, geographical mobility incentives, and labour market reforms.
 **Frictional unemployment** is short-term unemployment that occurs when workers are between jobs,
 Entering the labour force for the first time, or searching for better opportunities. It is always
 Present in a dynamic economy and reflects normal turnover. Frictional unemployment is not
-Necessarily undesirable -- it indicates that workers are searching for the best match for their
-Skills.
+necessarily undesirable -- it indicates that workers are searching for the best match for their
+skills.
 
 **Cyclical (demand-deficient) unemployment** is caused by a deficiency in aggregate demand during a
 Recession. Output falls below potential GDP, and firms lay off workers. It is addressed by
@@ -205,7 +205,7 @@ Recession. Output falls below potential GDP, and firms lay off workers. It is ad
 
 **Real-wage unemployment** is caused by wages being set above the equilibrium level (e.g., through
 Minimum wage laws or strong trade unions), leading to an excess supply of labour. The quantity of
-Labour supplied exceeds the quantity demanded at the artificially high wage.
+labour supplied exceeds the quantity demanded at the artificially high wage.
 
 ### The Natural Rate of Unemployment
 
@@ -260,7 +260,7 @@ Rates to influence economic activity.
   rates are already near zero (zero lower bound)
 
 Lower interest rates reduce the cost of borrowing, encouraging consumption and investment. They also
-Reduce the incentive to save and may depreciate the exchange rate, boosting net exports.
+reduce the incentive to save and may depreciate the exchange rate, boosting net exports.
 
 ### Contractionary Monetary Policy
 
@@ -295,7 +295,7 @@ $$
 $$
 
 If the reserve ratio is $r = 0.1$ A deposit of `USD 1000` can ultimately support `USD 10000` in
-Deposits through successive rounds of lending and re-depositing.
+deposits through successive rounds of lending and re-depositing.
 
 In practice, the money multiplier is less predictable because:
 
@@ -307,7 +307,7 @@ In practice, the money multiplier is less predictable because:
 ### Inflation Targeting
 
 Many central banks (e.g., the Bank of England, ECB, RBA) use inflation targeting: setting an
-Explicit target for the inflation rate ( 2%) and adjusting monetary policy to achieve it.
+explicit target for the inflation rate ( 2%) and adjusting monetary policy to achieve it.
 
 Advantages:
 
@@ -395,7 +395,7 @@ $$
 $$
 
 Typical estimates for advanced economies range from 1.5 to 3. A sacrifice ratio of 2 means that
-Reducing inflation by 1 percentage point requires a cumulative output loss equal to 2% of annual
+reducing inflation by 1 percentage point requires a cumulative output loss equal to 2% of annual
 GDP.
 
 ### The NAIRU and Hysteresis
@@ -488,7 +488,7 @@ Central bank communication about the expected future path of policy rates shapes
 5. AD falls
 
 The credit channel amplifies the interest rate channel and is particularly important during
-Financial crises when banks are reluctant to lend.
+financial crises when banks are reluctant to lend.
 
 ### Limitations of Monetary Policy
 
@@ -555,7 +555,7 @@ If deflation of 3% occurs instead:
 Actual real rate $= 5\% - (-3\%) = 8\%$.
 
 The real debt burden is nearly triple the expected level, potentially pushing the firm into
-Bankruptcy.
+bankruptcy.
 
 ### Historical Examples
 
@@ -586,7 +586,7 @@ The deflation spiral was amplified by bank failures (over 9,000 US banks failed 
 ### How QE Works
 
 When the policy rate is at or near zero, the central bank cannot stimulate further through
-Conventional interest rate cuts. QE involves the central bank purchasing financial assets (
+conventional interest rate cuts. QE involves the central bank purchasing financial assets (
 government bonds and, corporate bonds and mortgage-backed securities) From the private sector.
 
 **Mechanism:**

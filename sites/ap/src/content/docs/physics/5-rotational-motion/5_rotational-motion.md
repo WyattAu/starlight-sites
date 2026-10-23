@@ -79,7 +79,7 @@ a one-dimensional motion in the angular coordinate. The mathematics is identical
 
 :::note[Example]
 A wheel starts from rest and accelerates at $2.0 \mathrm{ rad/s^2$ for $5.0 \mathrm{ s$. Find the
-Angular velocity, total angle rotated, and the tangential speed of a point 0.3 m from the center.
+angular velocity, total angle rotated, and the tangential speed of a point 0.3 m from the center.
 
 $$
 \omega = 0 + (2.0)(5.0) = 10 \mathrm{ rad/s
@@ -96,7 +96,7 @@ $$
 ## Moment of Inertia (CED Unit 7)
 
 The moment of inertia is the rotational analog of mass. It measures an object"s resistance to
-Angular acceleration:
+angular acceleration:
 
 $$
 I = \sum m_i r_i^2
@@ -113,7 +113,7 @@ $$
 Mass is a scalar, but moment of inertia depends on how the mass is distributed _relative to the axis
 of rotation_. A rod rotated about its center has $I = \frac{1}{12}ML^2$ But the same rod rotated
 about one end has $I = \frac{1}{3}ML^2$ -- four times larger. The same physical object can have
-Different moments of inertia depending on the axis. This has no linear analogue: mass is mass,
+different moments of inertia depending on the axis. This has no linear analogue: mass is mass,
 Regardless of the direction of motion.
 
 ### Common Moments of Inertia
@@ -174,7 +174,7 @@ $\blacksquare$
 
 :::note[Example]
 Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about an axis tangent to its
-Surface.
+surface.
 
 $$
 I = I_{\mathrm{cm} + Md^2 = \frac{2}{5}MR^2 + MR^2 = \frac{7}{5}MR^2
@@ -195,7 +195,7 @@ $$
 $$
 
 Where $d = r\sin\theta$ is the **moment arm** (perpendicular distance from the axis to the line of
-Action of the force).
+action of the force).
 
 ### Sign Convention
 
@@ -259,7 +259,7 @@ $K = \frac{1}{2}Mv^2 +
 to rotation. A solid cylinder has $I = \frac{1}{2}MR^2$ So
 $K = \frac{1}{2}Mv^2 + \frac{1}{4}Mv^2 =
 \frac{3}{4}Mv^2$. More energy goes to translation, so the
-Solid cylinder moves faster.
+solid cylinder moves faster.
 :::
 
 :::note[Example]
@@ -328,7 +328,7 @@ $$
 ### Why Angular Momentum Is a Vector
 
 Angular momentum is a vector pointing along the axis of rotation, with direction given by the
-Right-hand rule. Conservation of angular momentum applies to each component separately. This is why
+right-hand rule. Conservation of angular momentum applies to each component separately. This is why
 A spinning top precesses: gravity exerts a torque that changes the direction (but not the magnitude)
 Of the angular momentum vector.
 
@@ -360,7 +360,7 @@ An object is in static equilibrium when:
 ### Choosing the Pivot Point
 
 The choice of pivot point is arbitrary when the system is in equilibrium. Choosing the pivot at an
-Unknown force eliminates that force from the torque equation.
+unknown force eliminates that force from the torque equation.
 :::
 
 :::note[Example]
@@ -456,7 +456,7 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
 ### Derivation: Solid Sphere About Its Diameter
 
 Divide a solid sphere of mass $M$ and radius $R$ into thin disks of radius $r$ and thickness $dz$ at
-Height $z$ from the centre.
+height $z$ from the centre.
 
 $$
 r^2 = R^2 - z^2
@@ -541,7 +541,7 @@ $$
 ### Worked Example: Angular Momentum of a Collision
 
 A $0.05 \mathrm{ kg$ ball moving at $8 \mathrm{ m/s$ strikes a rod of mass $2 \mathrm{ kg$ and
-Length $1 \mathrm{ m$ that is free to rotate about one end. The ball strikes the rod at its free
+length $1 \mathrm{ m$ that is free to rotate about one end. The ball strikes the rod at its free
 End, perpendicular to the rod. Find the angular velocity of the rod after the collision.
 
 **Conservation of angular momentum** about the pivot (the external forces at the pivot produce no
@@ -592,7 +592,7 @@ $$
 $$
 
 The angular speed nearly doubles. This is the same principle behind figure skaters pulling in their
-Arms to spin faster.
+arms to spin faster.
 
 ## 14. Static Equilibrium: Extended Examples
 
@@ -676,7 +676,7 @@ Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not s
 ### Example 16: Gyroscopic Precession
 
 A spinning bicycle wheel of mass $2 \mathrm{ kg$ and radius $0.35 \mathrm{ m$ is supported on one
-End of its axle. The wheel spins at $50 \mathrm{ rad/s$ and the axle is horizontal. The distance
+end of its axle. The wheel spins at $50 \mathrm{ rad/s$ and the axle is horizontal. The distance
 from the support to the wheel centre is $0.15 \mathrm{ m$. Calculate the precession angular
 Velocity.
 
@@ -767,7 +767,7 @@ $$
 
 This still does not match. Let me recalculate $I_b$ more carefully. The point mass is at the _end_
 Of the rod, which is $1 \mathrm{ m$ from the centre of the rod. So $I_b = 1 + 2 \times 1^2 = 3$ is
-Correct.
+correct.
 
 And $I_a$ directly: rod about its far end (away from point mass): use parallel axis from centre,
 $I_{\mathrm{rod, end} = \frac{1}{12}(3)(4) + 3(1)^2 = 1 + 3 = 4$. Point mass at distance
@@ -776,10 +776,10 @@ $r = 0$ Giving $I_a = 4 + 0 = 4$.
 
 The parallel axis check failed because I was not careful. The correct check: $I_{\mathrm{cm} = 3$
 about the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
-But direct calculation gives $4$.
+but direct calculation gives $4$.
 
 Let me recheck $I_b$: the point mass is at one end of the rod, which is $1 \mathrm{ m$ from the
-Rod's centre. $I_{\mathrm{pm} = 2 \times 1^2 = 2$. $I_{\mathrm{rod, centre} = 1$. $I_b = 3$.
+rod's centre. $I_{\mathrm{pm} = 2 \times 1^2 = 2$. $I_{\mathrm{rod, centre} = 1$. $I_b = 3$.
 Correct.
 
 The discrepancy means $I_{\mathrm{cm} \ne I_b$. The centre of mass of the system is at
@@ -847,7 +847,7 @@ the contact point (instantaneously at rest).
 
 Moment of inertia has units of $\mathrm{kg\cdot\mathrm{m^2$. A common error is to use centimetres
 instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
-Always convert to SI units before calculating.
+always convert to SI units before calculating.
 
 ## Additional Practice Problems
 
@@ -919,7 +919,7 @@ KE ratio:
 $\frac{KE_2}{KE_1} = \frac{\frac{1}{2}I_2\omega_2^2}{\frac{1}{2}I_1\omega_1^2} = \frac{1.5 \times 36}{4.5 \times 4} = \frac{54}{18} = 3$.
 
 The kinetic energy triples. The extra energy comes from the work done by the skater in pulling her
-Arms inward against the centrifugal tendency.
+arms inward against the centrifugal tendency.
 
 </details>
 
@@ -928,8 +928,8 @@ Arms inward against the centrifugal tendency.
 
 A uniform beam of length $4 \mathrm{ m$ and mass $20 \mathrm{ kg$ is supported at its left end by A
 hinge and at a point $1 \mathrm{ m$ from the right end by a cable making $30^\circ$ with the
-Horizontal. A $50 \mathrm{ kg$ mass hangs from the right end. Find the tension in the cable and the
-Force exerted by the hinge.
+horizontal. A $50 \mathrm{ kg$ mass hangs from the right end. Find the tension in the cable and the
+force exerted by the hinge.
 
 </details>
 

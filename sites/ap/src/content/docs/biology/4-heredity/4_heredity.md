@@ -92,7 +92,7 @@ Daughter cells form.
 **Worked Example: Calculating the number of possible gamete combinations.**
 
 An organism has $n = 4$ (haploid number). The number of possible gamete combinations from
-Independent assortment alone is $2^4 = 16$.
+independent assortment alone is $2^4 = 16$.
 
 If we also consider crossing over (which can occur at many points along each chromosome), the actual
 Number of genetically unique gametes is much larger. For humans ($n = 23$), independent assortment
@@ -102,14 +102,14 @@ Gametes is effectively infinite.
 **Worked Example: The role of crossing over in producing new allele combinations.**
 
 Consider two genes on the same chromosome: gene A (alleles A and a) and gene B (alleles B and b). A
-Parent has the genotype AB/ab (A and B on one chromosome, a and b on the homologous chromosome).
+parent has the genotype AB/ab (A and B on one chromosome, a and b on the homologous chromosome).
 
 Without crossing over, this parent can only produce two types of gametes: AB and ab (parental
 Types).
 
 With crossing over between genes A and B, two additional gamete types are possible: Ab and aB
 (recombinant types). The frequency of recombinant gametes depends on the distance between the two
-Genes: the farther apart they are, the more likely crossing over is to occur between them.
+genes: the farther apart they are, the more likely crossing over is to occur between them.
 
 If the recombination frequency between A and B is 20%, then 20% of the gametes will be recombinant
 (10% Ab and 10% aB) and 80% will be parental (40% AB and 40% ab).
@@ -147,7 +147,7 @@ A plant has purple flowers (dominant phenotype). To determine its genotype (PP o
 A white-flowered plant (pp).
 
 If the plant is PP: all offspring will be Pp (purple). If the plant is Pp: approximately half the
-Offspring will be Pp (purple) and half pp (white).
+offspring will be Pp (purple) and half pp (white).
 
 If any white-flowered offspring are produced, the parent must be heterozygous (Pp).
 
@@ -161,7 +161,7 @@ Dominant/second recessive : first recessive/second dominant : both recessive).
 **Worked Example: A complete dihybrid cross.**
 
 In peas, round seeds (R) are dominant over wrinkled (r), and yellow seeds (Y) are dominant over
-Green (y). Cross RrYy $\times$ RrYy.
+green (y). Cross RrYy $\times$ RrYy.
 
 Parental genotypes: RrYy $\times$ RrYy
 
@@ -198,7 +198,7 @@ Antigens.
 ### Multiple Alleles
 
 More than two alleles exist for a gene in the population. Example: ABO blood group has three
-Alleles: $I^A$, $I^B$ And $i$.
+alleles: $I^A$, $I^B$ And $i$.
 
 <div class="table-wrap">
 
@@ -430,7 +430,7 @@ with abnormal chromosome numbers.
 ## Review: Chromosomal Theory of Inheritance and Linked Genes
 
 The chromosomal theory of inheritance states that genes are located on chromosomes and that the
-Behaviour of chromosomes during meiosis accounts for inheritance patterns.
+behaviour of chromosomes during meiosis accounts for inheritance patterns.
 
 **Linked genes:** Genes located on the same chromosome tend to be inherited together because they
 Are physically connected. This violates Mendel's law of independent assortment, which only applies
@@ -455,7 +455,7 @@ $$
 **Worked Example: Three-point cross and gene mapping.**
 
 A three-point cross involves three linked genes and provides more accurate gene mapping than a
-Two-point cross because it can detect double crossovers.
+two-point cross because it can detect double crossovers.
 
 Genes A, B, and C are linked in the order A--B--C. The parental gametes are ABC and abc. A test
 Cross produces the following offspring:
@@ -501,7 +501,7 @@ $$
 
 But the actual distance is $9.1 + 5.5 = 14.6$ cM. The double crossovers make the A-C distance appear
 Shorter than it really is because they swap the alleles back to the parental arrangement. The
-Three-point cross corrects for this by counting the double crossovers twice.
+three-point cross corrects for this by counting the double crossovers twice.
 
 ## Review: Sex Determination and Sex-Linked Traits in Detail
 
@@ -514,7 +514,7 @@ Balance gene expression, one X chromosome in each female cell is randomly inacti
 Embryonic development, forming a Barr body (a condensed, transcriptionally inactive X chromosome).
 
 X-inactivation was discovered by Mary Lyon (1961) and is called the Lyon hypothesis. Because
-Inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
+inactivation is random, female mammals are mosaics: different cells express different X chromosomes.
 This is visible in calico cats (where coat colour is X-linked): only females can be calico because
 they have two X chromosomes with different colour alleles, and random X-inactivation produces
 Patches of different colours.
@@ -536,7 +536,7 @@ Punnett square:
 
 Each daughter has a 50% chance of being a carrier. Each son has a 50% chance of having haemophilia.
 Historically, several of Queen Victoria's male descendants were affected by haemophilia, which
-Spread through the royal families of Europe.
+spread through the royal families of Europe.
 
 **Y-linked inheritance:** Genes on the Y chromosome are passed only from father to son. Examples
 Include the SRY gene (sex determination) and some genes involved in male fertility. Y-linked traits
@@ -553,11 +553,11 @@ Certain diseases (e.g., type 2 diabetes, heart disease).
 **Worked Example: Skin colour as a polygenic trait.**
 
 Skin colour in humans is influenced by at least 3 genes, each with two alleles (contributing dark or
-Light pigmentation). If a person is homozygous for all dark alleles (AABBCC), they have very dark
+light pigmentation). If a person is homozygous for all dark alleles (AABBCC), they have very dark
 Skin. If homozygous for all light alleles (aabbcc), they have very light skin. Most people have
-Intermediate genotypes, producing a range of skin colours. When two people with intermediate skin
+intermediate genotypes, producing a range of skin colours. When two people with intermediate skin
 Colour have children, the offspring show a continuous range of skin colours centred around the
-Parental average, following a normal distribution.
+parental average, following a normal distribution.
 
 **Environmental influence on polygenic traits:** Even strongly genetic traits are influenced by the
 Environment. Height, for example, is approximately 80% heritable, but nutrition during childhood has
@@ -568,7 +568,7 @@ not reach their full genetic potential height.
 
 Epigenetics refers to heritable changes in gene expression that do not involve changes to the DNA
 Sequence. Epigenetic modifications can be influenced by environmental factors and can sometimes be
-Passed to offspring.
+passed to offspring.
 
 **DNA methylation:** Methyl groups ($-\mathrm{CH_3$) are added to cytosine bases, in CpG Islands
 near gene promoters. Methylation generally silences gene expression by preventing Transcription
@@ -581,11 +581,11 @@ Deacetylation (by histone deacetylases, HDACs) condenses chromatin and represses
 **Worked Example: Epigenetic effects of diet on gene expression.**
 
 The Agouti mouse model demonstrates how maternal diet can affect offspring phenotype through
-Epigenetic changes. Pregnant mice fed a diet rich in methyl donors (folic acid, vitamin B12,
+epigenetic changes. Pregnant mice fed a diet rich in methyl donors (folic acid, vitamin B12,
 Choline) produce offspring with brown coats and healthy weight. Mice fed a methyl-deficient diet
 Produce offspring with yellow coats, obesity, and increased cancer risk. The methyl-rich diet
 Increases DNA methylation at the Agouti gene locus, silencing the gene. This demonstrates that
-Environmental factors (diet) can alter epigenetic marks and affect phenotype.
+environmental factors (diet) can alter epigenetic marks and affect phenotype.
 
 ## Review: Mitochondrial Inheritance
 
@@ -597,8 +597,8 @@ Mitochondria are inherited almost exclusively from the mother. This is because:
 
 **Implications:** Mitochondrial disorders (e.g., Leber hereditary optic neuropathy, mitochondrial
 Myopathy) are always maternally inherited. An affected mother passes the disorder to all of her
-Children, but an affected father does not pass it to any of his children. Mitochondrial DNA is also
-Used in tracing maternal ancestry (mitochondrial Eve).
+children, but an affected father does not pass it to any of his children. Mitochondrial DNA is also
+used in tracing maternal ancestry (mitochondrial Eve).
 
 ## Review: Summary Table of Inheritance Patterns
 
@@ -641,7 +641,7 @@ The child inherits a normal maternal chromosome 15 and a normal paternal chromos
 will be unaffected because the paternal UBE3A allele is active in the relevant brain regions.
 
 However, if the same woman's brother (who has Prader-Willi syndrome due to the same deletion on his
-Paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
+paternal chromosome 15) has a child with a normal woman, the child will also be unaffected because
 it inherits a normal paternal chromosome 15 from the father.
 
 ## Review: Variations in Inheritance -- Lethal Alleles
@@ -701,8 +701,8 @@ Abnormalities (severe expression). Rarely, an individual with the mutation shows
 ## Review: Uniparental Disomy
 
 Uniparental disomy (UPD) occurs when an individual receives two copies of a chromosome (or part of a
-Chromosome) from one parent and no copy from the other parent. This can result in the expression of
-Recessive disorders or imprinting disorders.
+chromosome) from one parent and no copy from the other parent. This can result in the expression of
+recessive disorders or imprinting disorders.
 
 **Types of UPD:**
 
@@ -741,7 +741,7 @@ Therapy.
 A skin cell divides 30 times. Each division shortens the telomere by approximately 50-200 base
 Pairs. After 30 divisions, the telomere has shortened by approximately 1500-6000 base pairs. When
 the telomere becomes too short, the cell enters senescence and can no longer divide. This limits the
-Regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
+regenerative capacity of tissues and contributes to ageing. In contrast, stem cells in the basal
 Layer of the epidermis express telomerase, maintaining their telomere length and allowing continuous
 Skin renewal throughout life.
 
@@ -770,11 +770,11 @@ Chromosomal abnormalities. Techniques include:
 
 A patient has suspected chronic myelogenous leukaemia (CML), which is caused by a translocation
 between chromosomes 9 and 22 (the Philadelphia chromosome). A FISH probe specific to the BCR gene on
-Chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
+chromosome 22 (labelled red) and a probe specific to the ABL gene on chromosome 9 (labelled green)
 Are applied. In a normal cell, the red and green signals appear on separate chromosomes. In a CML
 Cell, a fused yellow signal appears on the Philadelphia chromosome, confirming the t(9;22)(q34;q11)
 Translocation. This test is both sensitive and specific, and results can be obtained within 24-48
-Hours.
+hours.
 
 ## Practice Problems
 
@@ -830,7 +830,7 @@ Markers. Using corrected distance: D-F = $22.0 + 2 \times 4.0 = 26.0$ cM.
 
 In a population, cystic fibrosis (autosomal recessive) has an incidence of 1 in 2500. If individuals
 with cystic fibrosis have a fitness of 0 (they do not reproduce), what will the frequency of the
-Cystic fibrosis allele be after one generation of selection?
+cystic fibrosis allele be after one generation of selection?
 
 </details>
 
@@ -860,7 +860,7 @@ Eliminated, removing two copies of the allele per affected individual.
 <summary>Question 3: Epistasis dihybrid cross</summary>
 
 In summer squash, white colour (W) is dominant over yellow (w), and disc-shaped fruit (D) is
-Dominant over sphere-shaped (d). When a white disc plant is crossed with a yellow sphere plant, all
+dominant over sphere-shaped (d). When a white disc plant is crossed with a yellow sphere plant, all
 F1 offspring are white disc. The F2 generation shows a ratio of 12 white : 3 yellow disc : 1 yellow
 Sphere. Explain the genetic basis for this ratio and determine the genotypes of the F2 phenotypes.
 
@@ -870,7 +870,7 @@ Sphere. Explain the genetic basis for this ratio and determine the genotypes of 
 <summary>Answer</summary>
 
 This is an example of dominant epistasis, where the dominant allele at one gene (W) masks the
-Expression of alleles at the other gene (D/d).
+expression of alleles at the other gene (D/d).
 
 The 12:3:1 ratio arises because:
 
@@ -895,7 +895,7 @@ Alleles.
 <summary>Question 4: Nondisjunction in meiosis I vs meiosis II</summary>
 
 A woman with normal karyotype (46, XX) has a child with Klinefelter syndrome (47, XXY). Explain two
-Different mechanisms by which this could occur: (a) nondisjunction in meiosis I of oogenesis and (b)
+different mechanisms by which this could occur: (a) nondisjunction in meiosis I of oogenesis and (b)
 Nondisjunction in meiosis II. In each case, show the gametes produced and the resulting zygote.
 
 </details>
@@ -917,7 +917,7 @@ X each. In meiosis II, sister chromatids fail to separate in one cell, producing
 one O gamete from that cell. When fertilised by a normal Y sperm, the XX gamete produces XXY.
 
 Meiosis I: X and X (normal). Meiosis II: one X cell divides normally (X and X), the other has
-Nondisjunction (XX and O). Gametes: X, X, XX, O.
+nondisjunction (XX and O). Gametes: X, X, XX, O.
 
 Zygote: XX (egg) + Y (sperm) = XXY.
 
@@ -927,8 +927,8 @@ Zygote: XX (egg) + Y (sperm) = XXY.
 <summary>Question 5: Sex-linked cross with probability</summary>
 
 A woman who is a carrier for haemophilia ($X^HX^h$) and a man with normal clotting ($X^HY$) have two
-Children. What is the probability that both children are sons, both are colourblind, and both are
-Unaffected by haemophilia?
+children. What is the probability that both children are sons, both are colourblind, and both are
+unaffected by haemophilia?
 
 </details>
 

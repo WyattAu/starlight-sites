@@ -143,7 +143,7 @@ $$
 
 _Intuition._ Each term in the expansion corresponds to a way of choosing $a$'s and $b$'s: from $n$
 Factors of $(a + b)$ Choosing $r$ of them to contribute a $b$ (and the remaining $n - r$ to
-Contribute an $a$) gives the term $\binom{n}{r} a^{n-r} b^r$.
+contribute an $a$) gives the term $\binom{n}{r} a^{n-r} b^r$.
 
 <details>
 <summary>Example</summary>
@@ -322,7 +322,7 @@ Coefficient of $x^3$: $\frac{135}{16}$.
 ### 6.1 Using Partial Sums for Approximation
 
 When $(1 + x)^n$ is expanded as an infinite series, taking only the first $k + 1$ terms gives an
-Approximation. The accuracy depends on how many terms are taken and how small $|x|$ is.
+approximation. The accuracy depends on how many terms are taken and how small $|x|$ is.
 
 For small $|x|$ The series converges rapidly, so few terms are needed for high accuracy.
 
@@ -330,7 +330,7 @@ For small $|x|$ The series converges rapidly, so few terms are needed for high a
 
 **Theorem (Error bound for alternating decreasing series).** If the terms of $(1+x)^n$ are
 Alternating in sign and decreasing in magnitude, then the error when truncating after $k$ terms is
-Bounded by the magnitude of the next (first omitted) term:
+bounded by the magnitude of the next (first omitted) term:
 
 $$
 \left|(1+x)^n - S_k\right| \leq |T_{k+1}|
@@ -370,7 +370,7 @@ $$
 $$
 
 So the error in the expansion of $(1 + 1/27)^{1/3}$ is at most $\approx 6.2 \times 10^{-7}$ And the
-Error in $\sqrt[3]{28}$ is at most $3 \times 6.2 \times 10^{-7} \approx 1.9 \times 10^{-6}$.
+error in $\sqrt[3]{28}$ is at most $3 \times 6.2 \times 10^{-7} \approx 1.9 \times 10^{-6}$.
 
 </details>
 
@@ -498,7 +498,7 @@ $$
 $$
 
 The combined expansion is valid only where **both** individual expansions are valid. This means the
-Overall validity is the **intersection** of the two ranges, which is always the **more restrictive**
+overall validity is the **intersection** of the two ranges, which is always the **more restrictive**
 Condition:
 
 $$
@@ -827,7 +827,7 @@ $0^n = 0$ for $n \geq 1$. $\blacksquare$
 
 _Intuition._ This counts the difference between subsets of even size and subsets of odd size, which
 is zero by a parity argument (there's a bijection between even-sized and odd-sized subsets: add or
-Remove one element).
+remove one element).
 
 </details>
 <b>If you get this wrong, revise:</b> [Binomial coefficients](#2-binomial-coefficients)
@@ -1013,7 +1013,7 @@ n = \frac{6 \pm \sqrt{36 + 144}}{8} = \frac{6 \pm \sqrt{180}}{8} = \frac{6 \pm 6
 $$
 
 Since $n$ must be a positive integer, there is no integer solution. The ratio $11 : 1$ cannot be
-Achieved for any positive integer $n$ with $(2+3x)^{2n}$.
+achieved for any positive integer $n$ with $(2+3x)^{2n}$.
 
 (The closest integer value is $n = 4$ giving ratio $\approx 15.75$ And $n = 3$ giving $7.5$.)
 

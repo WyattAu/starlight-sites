@@ -35,10 +35,10 @@ $$
 $$
 
 Since the demand curve slopes downward, PED is negative, but it is conventionally expressed as an
-Absolute value.
+absolute value.
 
 For precise calculations, the **midpoint (arc) formula** avoids the ambiguity of which price and
-Quantity to use as the base:
+quantity to use as the base:
 
 $$
 \mathrm{PED} = \frac{\frac{Q_2 - Q_1}{(Q_1 + Q_2)/2}}{\frac{P_2 - P_1}{(P_1 + P_2)/2}}

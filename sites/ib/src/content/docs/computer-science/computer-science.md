@@ -107,7 +107,7 @@ def validate_url(url):
 ```
 
 Both functions follow the same pattern: check for a separator, split into parts, validate the
-Structure.
+structure.
 
 ### Worked Example: Applying Computational Thinking
 
@@ -161,7 +161,7 @@ to create models that capture what is important while ignoring irrelevant comple
 
 **Example**: When using a `list` in Python, you do not need to know how memory is allocated, how
 Pointers work, or how the data is stored physically. The abstraction hides these details and
-Provides a simple interface: `append()`, `remove()`, `sort()`.
+provides a simple interface: `append()`, `remove()`, `sort()`.
 
 ### Algorithm Design
 
@@ -205,7 +205,7 @@ def binary_search(data, target):
 ### Efficiency
 
 Algorithm efficiency is measured in terms of **time complexity** (how the running time grows with
-Input size) and **space complexity** (how the memory usage grows with input size).
+input size) and **space complexity** (how the memory usage grows with input size).
 
 **Big-O notation** describes the upper bound of an algorithm"s growth rate:
 
@@ -362,7 +362,7 @@ Occur in a pass.
 ### Worked Example: Comparing Search Algorithms
 
 An array contains 1,000,000 sorted integers. How many comparisons does binary search make in the
-Worst case to determine that a target value is not present?
+worst case to determine that a target value is not present?
 
 <details>
 <summary>Solution</summary>
@@ -424,7 +424,7 @@ Given `data = [3, 7, 1, 9, 4]`Trace the following operations:
 
 Key insight: access and replacement are O(1) because arrays use contiguous memory with direct
 Indexing. Insertion and deletion are O(n) because elements must be shifted. This is why arrays are
-Efficient for lookup but inefficient for frequent insertions/deletions.
+efficient for lookup but inefficient for frequent insertions/deletions.
 
 </details>
 
@@ -756,8 +756,8 @@ Time complexity: $O(n^2)$.
 For $n = 100$: $100^2 = 10000$ operations.
 
 This is characteristic of nested loops where the inner loop depends on the outer loop. A more
-Efficient approach would use a hash set: insert each element into the set (O(1) per insertion) and
-Check for duplicates as you go, giving $O(n)$ total time.
+efficient approach would use a hash set: insert each element into the set (O(1) per insertion) and
+check for duplicates as you go, giving $O(n)$ total time.
 
 </details>
 
@@ -972,7 +972,7 @@ New node with value 25 is inserted between 20 and 30.
 Result: `10 → 20 → 25 → 30 → 40`
 
 Only two pointer assignments are needed (steps 3 and 4). No elements need to be shifted, unlike an
-Array. This is why linked list insertion at a known position is O(1) (after the position is found),
+array. This is why linked list insertion at a known position is O(1) (after the position is found),
 While array insertion is O(n).
 
 </details>
@@ -1006,7 +1006,7 @@ AI Grades.
 and Potentially sensitive information. Storing and processing this data raises privacy concerns. Who
 owns The essays? Can the data be used to train future AI models? **Mitigation:** Obtain informed
 consent From students and parents. Anonymize data before processing. Allow students to opt out.
-Comply with Data protection regulations (GDPR, CCPA).
+comply with Data protection regulations (GDPR, CCPA).
 
 Other valid concerns: transparency of grading criteria, impact on teacher-student relationships,
 Over-reliance on technology, access inequality (schools that cannot afford the system).
@@ -1090,7 +1090,7 @@ Output: **15**
 Time complexity: $O(n^2)$ (the dominant term is $n^2/2$ Constants are dropped in Big-O).
 
 The nested loop pattern where the inner loop bound depends on the outer loop variable produces the
-Triangular number series. This is a common pattern in IB exam questions.
+triangular number series. This is a common pattern in IB exam questions.
 
 </details>
 

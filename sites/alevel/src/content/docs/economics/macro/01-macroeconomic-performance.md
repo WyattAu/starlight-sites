@@ -25,7 +25,7 @@ categories:
 ### 1.1 Definition
 
 We define **Gross Domestic Product (GDP)** as the total monetary value of all final goods and
-Services produced within a country's borders during a given time period.
+services produced within a country's borders during a given time period.
 
 "Final" goods and services are those purchased for final consumption or investment, intermediate
 Goods are excluded to avoid double counting.
@@ -115,7 +115,7 @@ National Happiness (GNH).
 ### 1.6 Real-World Application: China's GDP Growth
 
 China's rapid economic growth is one of the most significant macroeconomic stories of the past four
-Decades. Between 1980 and 2023, China's annual real GDP growth averaged approximately 9-10%, lifting
+decades. Between 1980 and 2023, China's annual real GDP growth averaged approximately 9-10%, lifting
 over 800 million people out of extreme poverty. However, growth has decelerated in recent years,
 Falling to around 5% in 2023 and below 5% in 2024, driven by:
 
@@ -127,7 +127,7 @@ Falling to around 5% in 2023 and below 5% in 2024, driven by:
 This illustrates that rapid GDP growth is not indefinite, and structural factors (demographics,
 Debt, productivity) eventually constrain growth. It also highlights a limitation of GDP: China's
 Growth came with severe environmental costs, massive income inequality (urban-rural divide), and
-Significant debt accumulation.
+significant debt accumulation.
 
 :::note
 economies. OCR Requires understanding of the difference between **GDP** (output within borders) and
@@ -198,7 +198,7 @@ Council tax). RPI tends to give a higher inflation rate than CPI.
 ### 2.2a Deeper Analysis: CPI vs RPI
 
 Understanding the differences between CPI and RPI is essential for A Level Economics. While both
-Measure inflation, they differ in methodology and coverage:
+measure inflation, they differ in methodology and coverage:
 
 <div class="table-wrap">
 
@@ -215,7 +215,7 @@ Measure inflation, they differ in methodology and coverage:
 
 **Why RPI gives a higher figure**: The RPI's use of the Carli (arithmetic mean) formula is the key
 Technical reason. When some prices in a category rise and others fall, the arithmetic mean gives a
-Higher result than the geometric mean. This is a known upward bias. The RPI also includes mortgage
+higher result than the geometric mean. This is a known upward bias. The RPI also includes mortgage
 Interest payments, which means that when the Bank of England raises interest rates to fight
 Inflation, RPI tends to rise further (because mortgage costs increase), creating a perverse feedback
 Loop.
@@ -363,7 +363,7 @@ When $u = u^*$ The economy is at full employment (no cyclical unemployment).
 **Cyclical (demand-deficient) unemployment** is the most policy-relevant type. It fluctuates with
 The business cycle and is directly linked to the output gap. During the 2008-09 Global Financial
 Crisis, UK unemployment rose from 5.2% to 8.5% as GDP fell by over 6%. The Keynesian response is to
-Use expansionary fiscal and monetary policy to boost AD and close the output gap.
+use expansionary fiscal and monetary policy to boost AD and close the output gap.
 
 **Structural unemployment** is often the most persistent and difficult to solve. It arises from:
 
@@ -376,7 +376,7 @@ Use expansionary fiscal and monetary policy to boost AD and close the output gap
 
 **Frictional unemployment** is the least concerning type and may even be economically desirable, it
 Reflects workers searching for the best job match, which improves allocative efficiency in the
-Labour market. The internet and job platforms (Indeed, LinkedIn) have reduced search costs,
+labour market. The internet and job platforms (Indeed, LinkedIn) have reduced search costs,
 Potentially lowering frictional unemployment.
 
 **Real-wage (classical) unemployment** occurs when wages are pushed above the market-clearing level.
@@ -415,7 +415,7 @@ Where $\beta \approx 2$.
 ### 3.4 Real-World Application: UK Unemployment During COVID-19
 
 The COVID-19 pandemic (2020-2021) provides a compelling case study of unemployment dynamics and
-Policy response:
+policy response:
 
 - **The shock**: UK GDP fell by 9.7% in 2020, the largest annual decline in over 300 years.
   Unemployment would have been expected to rise dramatically.
@@ -435,7 +435,7 @@ Policy response:
 :::note
 Data-response questions. CIE (9708) may ask students to evaluate the effectiveness of government
 Intervention in the labour market. OCR has examined the distinction between unemployment and
-Economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
+economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
 Employed, not unemployed or inactive).
 :::
 
@@ -458,14 +458,14 @@ When interpreting unemployment data, be aware of several issues:
 
 **Exam conclusion**: The headline unemployment rate is a useful but incomplete indicator of labour
 Market health. It should always be interpreted alongside employment rates, inactivity rates, and
-Measures of underemployment and job quality.
+measures of underemployment and job quality.
 
 ## 4. Balance of Payments
 
 ### 4.1 Structure
 
 The **balance of payments (BoP)** records all transactions between residents of a country and the
-Rest of the world.
+rest of the world.
 
 $$
 \mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
@@ -494,7 +494,7 @@ $$
 
 A **current account deficit** means a country is spending more on imports, investment income
 Payments, and transfers than it receives. It must be financed by a surplus on the capital and
-Financial accounts (borrowing from abroad or selling assets).
+financial accounts (borrowing from abroad or selling assets).
 
 **Is a current account deficit bad?** Not necessarily:
 
@@ -552,7 +552,7 @@ Capital inflows.
 ### 5.1 Short-Run Phillips Curve
 
 The **Phillips curve** (Phillips, 1958) shows an inverse relationship between inflation and
-Unemployment:
+unemployment:
 
 $$
 \pi = \pi^e - \beta(u - u^*) + \varepsilon
@@ -568,11 +568,11 @@ $\Rightarrow$ demand-pull inflation.
 **Proposition: In the long run, there is no trade-off between inflation and unemployment.**
 
 Friedman (1968) and Phelps (1967) argued that the Phillips curve is vertical in the long run at the
-Natural rate of unemployment.
+natural rate of unemployment.
 
 _Proof._ If the government tries to maintain $u \lt u^*$ through expansionary policy, inflation
 Rises. Initially, workers suffer from **money illusion**, they accept nominal wage increases not
-Realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
+realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
 their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
 Wages return to their original level, and employment falls back to $u^*$. The economy moves up along
 the short-run Phillips curve to a point with higher inflation but the same unemployment rate.
@@ -637,7 +637,7 @@ When evaluating the Phillips curve as a policy tool:
 
 **Exam conclusion**: The Phillips curve remains a useful theoretical framework, but its practical
 Value for policymakers is limited by the instability of the relationship and the difficulty of
-Estimating the natural rate. Modern central banking focuses on anchoring inflation expectations
+estimating the natural rate. Modern central banking focuses on anchoring inflation expectations
 through credible commitment to a target, rather than exploiting any perceived short-run trade-off.
 
 ## 6. Critical Evaluation
@@ -696,8 +696,8 @@ boards reward The use of real-world data and counterarguments.
 **Problem 1.** An economy produces three goods: apples, bread, and computers. In the base year
 (2020), quantities and prices are: apples (100 units, £1), bread (50 units, £2), computers (10
 Units, £500). In 2024: apples (120, £1.50), bread (55, £2.50), computers (15, £600). Calculate (a)
-Nominal GDP in both years, (b) real GDP in 2024 using base-year prices, (c) the GDP deflator and
-Inflation rate.
+nominal GDP in both years, (b) real GDP in 2024 using base-year prices, (c) the GDP deflator and
+inflation rate.
 
 <details>
 <summary>Hint</summary>
@@ -715,7 +715,7 @@ Inflation $= 0.30(5\%) + 0.35(3\%) + 0.20(-2\%) + 0.15(8\%) = 1.5\% + 1.05\% - 0
 
 **Problem 3.** An economy has a labour force of 35 million, employment of 31.5 million, and a
 Population of 55 million. Calculate (a) the unemployment rate, (b) the employment rate, and (c) the
-Economic inactivity rate.
+economic inactivity rate.
 
 <details>
 <summary>Hint</summary>
@@ -809,8 +809,8 @@ Old inflation $= 0.083(12\%) + 0.917(3\%) = 0.996\% + 2.751\% = 3.75\%$. New inf
 
 **Problem 14.** A country has a labour force of 33 million. The natural rate of unemployment is
 Estimated at 4.5%. The current unemployment rate is 7.2%. Using Okun's Law with $\beta = 2.2$ and a
-Potential GDP of GBP 3.1 trillion, calculate (a) the output gap, (b) the estimated GDP loss from
-Cyclical unemployment, and (c) explain two reasons why $\beta$ might differ across countries.
+potential GDP of GBP 3.1 trillion, calculate (a) the output gap, (b) the estimated GDP loss from
+cyclical unemployment, and (c) explain two reasons why $\beta$ might differ across countries.
 
 <details>
 <summary>Hint</summary>
@@ -828,7 +828,7 @@ A fall in sterling makes UK exports cheaper abroad and imports dearer at home, w
 
 **Problem 16.** The UK inflation rate was 0.9% in 2020, 2.6% in 2021, 9.1% in 2022, and 7.3%
 In 2023. Using the concept of the expectations-augmented Phillips curve, explain why the Bank of
-England was concerned about inflation becoming "entrenched" in 2022, and evaluate the effectiveness
+england was concerned about inflation becoming "entrenched" in 2022, and evaluate the effectiveness
 of raising interest rates as a response.
 
 <details>

@@ -23,7 +23,7 @@ categories:
 ## Introduction to Differential Equations (CED Unit 7)
 
 A **differential equation** (DE) is an equation that relates a function to one or more of its
-Derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
+derivatives. The **order** of a DE is the highest derivative that appears. A first-order DE involves
 only $\frac{dy}{dx}$; a second-order DE involves $\frac{d^2y}{dx^2}$.
 
 A **solution** to a DE is a function that satisfies the equation. A **general solution** contains
@@ -155,9 +155,9 @@ Where $k$ is a constant.
 
 The equation $\frac{dy}{dt} = ky$ says: "the rate of change is proportional to the current
 Quantity." This is the simplest possible feedback loop. If you have a population of bacteria, each
-Bacterium divides independently, so the total growth rate is proportional to how many bacteria
+bacterium divides independently, so the total growth rate is proportional to how many bacteria
 Exist. If you have a radioactive sample, each atom decays independently, so the total decay rate is
-Proportional to how many atoms remain. This single assumption generates the exponential.
+proportional to how many atoms remain. This single assumption generates the exponential.
 
 ### Solution
 
@@ -276,7 +276,7 @@ $$
 
 :::note[Example]
 A population of bacteria grows logistically with carrying capacity 1000. Initially, there are 100
-Bacteria, and after 1 hour there are 200. Find the population after 3 hours.
+bacteria, and after 1 hour there are 200. Find the population after 3 hours.
 
 $$
 Y(t) = \frac{1000}{1 + Ae^{-kt}}
@@ -340,7 +340,7 @@ The solution curves are hyperbolas $y^2 - x^2 = C$ Consistent with our earlier a
 ## Euler's Method (CED Unit 7.6)
 
 Euler's method approximates the solution to $\frac{dy}{dx} = f(x, y)$ with $y(x_0) = y_0$ using a
-Simple iterative scheme:
+simple iterative scheme:
 
 $$
 Y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x
@@ -455,7 +455,7 @@ $$
 ### Mixing Problems
 
 A tank contains $V$ liters of water with $Q_0$ kg of dissolved substance. Solution with
-Concentration $c_i$ kg/L flows in at rate $r_i$ L/min, and the mixture flows out at rate $r_o$
+concentration $c_i$ kg/L flows in at rate $r_i$ L/min, and the mixture flows out at rate $r_o$
 L/min.
 
 The rate of change of the amount $Q$ of dissolved substance is:
@@ -497,7 +497,7 @@ $$
 ### Worked Example: Mixing with Variable Volume
 
 A tank initially contains 200 L of pure water. Brine with 0.3 kg/L salt flows in at 4 L/min, and the
-Mixture flows out at 3 L/min. Find the salt content after 60 minutes.
+mixture flows out at 3 L/min. Find the salt content after 60 minutes.
 
 Since $r_i \neq r_o$ The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
 
@@ -625,7 +625,7 @@ Transitions from having no equilibria to having two.
 ## Numerical Methods: Beyond Euler
 
 Euler's method is the simplest numerical ODE solver, but it is rarely used in practice because
-Higher-order methods achieve the same accuracy with far fewer steps.
+higher-order methods achieve the same accuracy with far fewer steps.
 
 ### Improved Euler's Method (Heun's Method)
 

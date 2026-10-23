@@ -44,7 +44,7 @@ For grouped data, use linear interpolation within the median class.
 ### Mode
 
 The **mode** is the most frequently occurring value. A data set can be unimodal, bimodal, or have no
-Mode.
+mode.
 
 ### Comparing Measures
 
@@ -887,7 +887,7 @@ A scientist investigates the relationship between temperature ($x$ In $\degree$ 
 **(a)** Explain why a linear regression model may not be appropriate.
 
 The data appears to show exponential growth, as temperature increases, the rate increases by an
-Increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
+increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
 
 **(b)** By plotting $\ln y$ against $x$ Determine whether the relationship is of the form
 $y = ae^{bx}$.

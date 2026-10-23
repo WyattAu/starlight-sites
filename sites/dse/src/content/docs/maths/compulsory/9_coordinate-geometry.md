@@ -399,7 +399,7 @@ $x^2 + (x + 1)^2 = 2 \implies x^2 + x^2 + 2x + 1 - 2 = 0 \implies 2x^2 + 2x - 1 
 
 $\Delta = 4 + 8 = 12 \gt 0$. This is not a tangent -- there are two intersection points. Let me
 Re-check. Actually $\Delta = 4 - 4(2)(-1) = 4 + 8 = 12 \neq 0$ So the line is not a tangent to this
-Circle. Let me try the circle $x^2 + y^2 = 1$ instead:
+circle. Let me try the circle $x^2 + y^2 = 1$ instead:
 
 $x^2 + (x+1)^2 = 1 \implies 2x^2 + 2x = 0 \implies 2x(x + 1) = 0$. $\Delta = 4 - 0 = 4 \gt 0$. Still
 not tangent.

@@ -285,7 +285,7 @@ The useful range for organic analysis is approximately $400$--$4000\mathrm{ cm}^
 ### Fingerprint Region
 
 The region below $1500\mathrm{ cm}^{-1}$ contains complex absorptions unique to each molecule. It is
-Used to confirm identity by comparison with a reference spectrum.
+used to confirm identity by comparison with a reference spectrum.
 
 ### Identifying Functional Groups
 
@@ -334,7 +334,7 @@ Spectrum plots relative abundance against $m/z$.
 ### Nitrogen Rule
 
 If the molecular ion has an **odd** nominal mass, the compound likely contains an **odd** number of
-Nitrogen atoms. If **even**, it likely contains an **even** number (including zero) of nitrogen
+nitrogen atoms. If **even**, it likely contains an **even** number (including zero) of nitrogen
 Atoms.
 
 ### Fragmentation Patterns
@@ -376,7 +376,7 @@ Atoms.
 
 Nuclei with non-zero spin ($I = 1/2$ for $\mathrm{^1H}$ and $\mathrm{^{13}C}$) align with or against
 an external magnetic field. Radiofrequency radiation causes transitions between spin states. The
-Resonance frequency depends on the electronic environment.
+resonance frequency depends on the electronic environment.
 
 ### Chemical Shift
 
@@ -718,7 +718,7 @@ $$
 
 The dominant source of uncertainty is the $\mathrm{NaOH}$ concentration, contributing approximately
 51% of the total uncertainty. Improving the accuracy of the standard solution preparation would most
-Effectively reduce the overall uncertainty.
+effectively reduce the overall uncertainty.
 
 </details>
 
@@ -759,7 +759,7 @@ $$
 $$
 
 A DBE of 4 is characteristic of an aromatic ring (one ring + three double bonds), consistent with
-Benzene.
+benzene.
 
 **Step 5: Confirm the M+2 peak.**
 
@@ -831,7 +831,7 @@ $$
 $$
 
 The mantissa of the $\mathrm{pH}$ (4.35) has two decimal places, so $[\mathrm{H}^+]$ has two
-Significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
+significant figures: $4.5 \times 10^{-5}\mathrm{ M}$.
 
 **Step 2: Calculate $K_a$.**
 
@@ -987,7 +987,7 @@ $$
 
 4. A student performs an experiment to determine $K_c$ for a reaction and obtains the following
    values in three trials: $4.2 \times 10^{-2}$$3.8 \times 10^{-2}$$4.5 \times 10^{-2}$. (a)
-   Calculate the mean and standard deviation. (b) Express the result as mean $\pm$ uncertainty. (c)
+   calculate the mean and standard deviation. (b) Express the result as mean $\pm$ uncertainty. (c)
    Is the spread of results consistent with random error only? **[Medium]**
 
 5. The mass spectrum of a compound shows the molecular ion at $m/z\ 94$ (base peak) and a prominent

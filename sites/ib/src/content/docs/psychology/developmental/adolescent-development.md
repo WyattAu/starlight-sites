@@ -27,7 +27,7 @@ implications for mental health, educational attainment, and long-term life outco
 ### Puberty
 
 Puberty is the process of physical maturation that leads to sexual maturity. It is triggered by the
-Activation of the hypothalamic-pituitary-gonadal (HPG) axis, which begins producing increasing
+activation of the hypothalamic-pituitary-gonadal (HPG) axis, which begins producing increasing
 Levels of sex hormones (testosterone in males, oestrogen and progesterone in females).
 
 **The timing of puberty has significant psychological consequences:**
@@ -57,21 +57,21 @@ Undergoes significant remodelling. The two key processes are:
 These processes have important implications for adolescent behaviour. The prefrontal cortex,
 Responsible for executive functions (planning, decision making, impulse control, and social
 Cognition), is the last brain region to fully mature. This creates a temporal gap between the
-Development of the limbic system (which matures early and is highly responsive to rewards and
-Emotional stimuli) and the prefrontal cortex (which matures later and provides regulatory control).
+development of the limbic system (which matures early and is highly responsive to rewards and
+emotional stimuli) and the prefrontal cortex (which matures later and provides regulatory control).
 
 ## Identity Formation
 
 ### Erikson's Theory of Psychosocial Development (1968)
 
 Erik Erikson proposed that personality develops through eight psychosocial stages, each
-Characterised by a central conflict that must be resolved. The fifth stage, **identity versus role
+characterised by a central conflict that must be resolved. The fifth stage, **identity versus role
 Confusion** (approximately ages 12--18), is the central crisis of adolescence.
 
 **Identity formation:** According to Erikson, the primary task of adolescence is to develop a
 Coherent sense of identity -- a clear understanding of who one is, what one values, and where one is
-Going in life. Identity is formed through the exploration of different roles, values, beliefs, and
-Ideologies.
+going in life. Identity is formed through the exploration of different roles, values, beliefs, and
+ideologies.
 
 **Role confusion:** If the adolescent fails to establish a coherent identity, they experience role
 Confusion -- an uncertain, fragmented sense of self that can lead to difficulties in forming close
@@ -79,7 +79,7 @@ Relationships and making life decisions.
 
 **Identity crisis:** Erikson argued that a period of identity crisis (exploration and questioning)
 Is a normal and necessary part of adolescent development. However, not all adolescents experience a
-Crisis; some commit to an identity without extensive exploration.
+crisis; some commit to an identity without extensive exploration.
 
 **Psychosocial moratorium:** Erikson used the term "psychosocial moratorium" to describe the period
 Of delay between childhood and adulthood during which society allows adolescents to explore
@@ -152,7 +152,7 @@ Include:
 ### Family Relationships
 
 While peer influence increases during adolescence, family relationships remain important. The
-Quality of parent-adolescent relationships is a significant predictor of adolescent mental health,
+quality of parent-adolescent relationships is a significant predictor of adolescent mental health,
 Academic achievement, and risk behaviour. Key factors include:
 
 - **Parental warmth and support:** Adolescents who perceive their parents as warm, supportive, and
@@ -171,7 +171,7 @@ Academic achievement, and risk behaviour. Key factors include:
 ### The Dual-Systems Model
 
 Laurence Steinberg (2008) proposed the dual-systems model to explain why adolescents are
-Disproportionately prone to risk-taking. The model posits two interacting brain systems:
+disproportionately prone to risk-taking. The model posits two interacting brain systems:
 
 1. **The socioemotional system:** Including the limbic system (particularly the amygdala and ventral
    striatum), this system matures early in adolescence and is highly responsive to rewards, social
@@ -183,7 +183,7 @@ Disproportionately prone to risk-taking. The model posits two interacting brain 
    long-term consequences.
 
 The temporal gap between the maturation of the socioemotional system (early adolescence) and the
-Cognitive control system (mid-20s) creates a period of heightened vulnerability to risk-taking,
+cognitive control system (mid-20s) creates a period of heightened vulnerability to risk-taking,
 Particularly in contexts that activate the socioemotional system (e.g., the presence of peers,
 Emotionally charged situations).
 
@@ -192,7 +192,7 @@ Emotionally charged situations).
 Casey and colleagues provided neuroimaging evidence for the imbalance model. Using fMRI, they found
 that adolescents showed heightened activation in the ventral striatum (a reward-sensitive region)
 During risk-taking tasks, while adults showed greater activation in the prefrontal cortex (a
-Regulatory region). This pattern supports the dual-systems account: adolescents are more sensitive
+regulatory region). This pattern supports the dual-systems account: adolescents are more sensitive
 to rewards and less capable of regulating their responses.
 
 ### Peer Influence on Risk-Taking
@@ -200,7 +200,7 @@ to rewards and less capable of regulating their responses.
 **Chein et al. (2011):** Used fMRI to investigate the neural mechanisms of peer influence on
 Adolescent risk-taking. Adolescents and adults performed a simulated driving task (the Stoplight
 Task, in which participants decided whether to run a yellow light) either alone or while being
-Observed by two same-age peers.
+observed by two same-age peers.
 
 **Key findings:**
 
@@ -228,22 +228,22 @@ Age (e.g., through initiation ceremonies, marriage, or entry into the workforce)
 **2. Autonomy and independence:** Western cultures emphasise individual autonomy and independence as
 Developmental goals. Adolescents are expected to develop a distinct personal identity separate from
 their family. In collectivistic cultures, interdependence and family obligation are emphasised. The
-Developmental task is not to separate from the family but to find one's place within it.
+developmental task is not to separate from the family but to find one's place within it.
 
 **3. Parent-adolescent conflict:** Research consistently shows that parent-adolescent conflict is
 more frequent and intense in Western cultures than in non-Western cultures. In collectivistic
 Cultures, the expectation of family obligation and respect for authority reduces the likelihood of
-Open conflict.
+open conflict.
 
 **4. Risk-taking:** Rates of adolescent risk-taking (substance use, delinquency, unprotected sex)
 Vary significantly across cultures. Cross-cultural differences are attributable to differences in
-Social norms, legal restrictions, peer culture, family structure, and access to substances.
+social norms, legal restrictions, peer culture, family structure, and access to substances.
 
 ### Steinberg et al. (2018): A Cross-Cultural Study of Adolescent Risk-Taking
 
 Steinberg and colleagues conducted a study comparing risk-taking behaviour across 11 countries,
 Using a standardised risk-taking task (the Columbia Card Task) and self-report measures of
-Real-world risk behaviour.
+real-world risk behaviour.
 
 **Key findings:**
 

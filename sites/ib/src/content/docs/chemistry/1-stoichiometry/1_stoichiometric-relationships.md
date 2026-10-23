@@ -119,7 +119,7 @@ Where $n$ is an integer.
 
 :::note[Example]
 A compound contains $40.0\%$ carbon, $6.7\%$ hydrogen, and $53.3\%$ oxygen by mass. Find its
-Empirical formula.
+empirical formula.
 
 <div class="table-wrap">
 
@@ -190,7 +190,7 @@ Formula: CuSO$_4$, $\cdot$5H$\_2$O.
 ### Balancing Equations
 
 Chemical equations must be balanced: the number of atoms of each element must be the same on both
-Sides (conservation of mass).
+sides (conservation of mass).
 
 ### Steps
 
@@ -480,7 +480,7 @@ A standard solution is one of accurately known concentration. To prepare:
 ### Titration Calculations
 
 Titration is used to determine the concentration of an unknown solution by reacting it with a
-Standard solution.
+standard solution.
 :::
 
 :::note[Example]
@@ -517,7 +517,7 @@ $$
 ### Question 1 (Paper 1 style)
 
 What is the empirical formula of a compound that is $36.5\%$ sodium, $25.4\%$ sulfur, and $38.1\%$
-Oxygen?
+oxygen?
 
 <div class="table-wrap">
 
@@ -559,7 +559,7 @@ $$
 ### Question 3 (Paper 1 style)
 
 A gas at $300\mathrm{ K}$ and $1.5\mathrm{ atm}$ occupies $4.0\mathrm{ L}$. What volume does it
-Occupy at $350\mathrm{ K}$ and $2.0\mathrm{ atm}$?
+occupy at $350\mathrm{ K}$ and $2.0\mathrm{ atm}$?
 
 $$
 \frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}
@@ -627,7 +627,7 @@ $$
 
 :::tip[Exam Strategy]
 Always show your working with units. For gas calculations, ensure temperature is in Kelvin. For
-Titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
+titration calculations, identify the mole ratio from the balanced equation. Remember that Molar
 volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
 
 ---
@@ -662,7 +662,7 @@ Where $x_i$ is the mole fraction of gas $i$.
 ### Graham's Law of Diffusion
 
 The rate of diffusion (or effusion) of a gas is inversely proportional to the square root of its
-Molar mass:
+molar mass:
 
 $$
 \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
@@ -736,7 +736,7 @@ Properties that depend on the number of solute particles (not their identity):
 3. **Osmotic pressure**: $\Pi = icRT$
 
 Where $i$ is the van't Hoff factor (number of particles per formula unit), $K_b$ and $K_f$ are
-Constants, and $m$ is molality.
+constants, and $m$ is molality.
 
 <div class="table-wrap">
 
@@ -937,7 +937,7 @@ Gravimetric analysis determines the amount of an analyte by measuring mass.
 
 :::note[Example]
 A solution contains sulfate ions. BaCl$_2$ is added to precipitate BaSO$_4$. The precipitate is
-Filtered, dried, and weighed at $0.582\mathrm{ g}$.
+filtered, dried, and weighed at $0.582\mathrm{ g}$.
 
 $$
 N(\mathrm{BaSO}_4) = \frac{0.582}{233.39} = 0.00249\mathrm{ mol}
@@ -1118,7 +1118,7 @@ $$
 <summary>Question 3: Ideal Gas Law</summary>
 
 A gas occupies $3.00\mathrm{ L}$ at $350\mathrm{ K}$ and $150\mathrm{ kPa}$. What volume does it
-Occupy at STP ($273\mathrm{ K}$, $100\mathrm{ kPa}$)?
+occupy at STP ($273\mathrm{ K}$, $100\mathrm{ kPa}$)?
 
 </details>
 
@@ -1140,7 +1140,7 @@ $$
 
 $25.0\mathrm{ cm}^3$ of sulfuric acid is titrated with $0.200\mathrm{ M}$ $\mathrm{NaOH}$. The
 Endpoint is reached at $30.0\mathrm{ cm}^3$ of $\mathrm{NaOH}$. Calculate the concentration of the
-Sulfuric acid.
+sulfuric acid.
 
 </details>
 

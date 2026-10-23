@@ -48,7 +48,7 @@ Since $MC = \frac{dw}{dQ} = \frac{w}{MP_L}$ (where $w$ is the wage rate), dimini
 Returns ($MP_L$ falling) implies $MC$ is eventually rising.
 
 In the **long run**, all factors are variable. The firm chooses the cost-minimising combination of
-Inputs:
+inputs:
 
 $$
 \begin{aligned}
@@ -127,8 +127,8 @@ $$
 **Proposition: For a downward-sloping demand curve, $MR < AR$ (i.e., $MR < P$).**
 
 _Proof._ $MR = a - 2bQ < a - bQ = P$ for all $Q > 0$. The MR curve has the same intercept as the
-Demand curve but twice the slope. Intuition: to sell an additional unit, the firm must lower the
-Price on _all_ units sold, not just the marginal unit. The revenue loss on inframarginal units means
+demand curve but twice the slope. Intuition: to sell an additional unit, the firm must lower the
+price on _all_ units sold, not just the marginal unit. The revenue loss on inframarginal units means
 $MR < P$. $\blacksquare$
 
 For a perfectly competitive firm (price taker), demand is perfectly elastic: $P$ is constant, so
@@ -158,7 +158,7 @@ $$
 
 **Normal profit** is the minimum profit necessary to keep a firm in the industry (included in total
 Cost as _opportunity cost_ of capital). **Economic profit** (supernormal profit) is profit above
-Normal profit.
+normal profit.
 
 ## 4. Market Structures
 
@@ -258,7 +258,7 @@ Where $Q_c$ is the competitive output ($P = MC$).
 **First-degree (perfect) price discrimination**: the firm charges each consumer their maximum
 Willingness to pay. The firm captures all consumer surplus. Output increases to the competitive
 Level (MR = MC = P at each unit), so allocative efficiency is achieved, but all surplus goes to the
-Producer.
+producer.
 
 **Second-degree price discrimination**: the firm charges different prices for different _quantities_
 (e.g., bulk discounts, block pricing). Consumers self-select into different quantity brackets.
@@ -278,7 +278,7 @@ A cinema charges £12 for adults and £6 for students. Adult demand: $P_A = 20 -
 $P_S = 14 - Q_S$, $MC = 2$.
 
 Adult MR: $MR_A = 20 - 2Q_A$. Set $MR_A = MC$: $20 - 2Q_A = 2 \Rightarrow Q_A = 9$, $P_A = 11$.
-Student MR: $MR_S = 14 - 2Q_S$. Set $MR_S = MC$: $14 - 2Q_S = 2 \Rightarrow Q_S = 6$, $P_S = 8$.
+student MR: $MR_S = 14 - 2Q_S$. Set $MR_S = MC$: $14 - 2Q_S = 2 \Rightarrow Q_S = 6$, $P_S = 8$.
 
 Without discrimination (single price, aggregate demand): total demand
 $Q = Q_A + Q_S = (20 - P) + (14 - P) = 34 - 2P$ So $P = 17 - Q/2$. $MR = 17 - Q$. Set
@@ -307,9 +307,9 @@ $9.50 \times 15 = 142.50$. Discrimination increases profit.
 **Evaluation of price discrimination**: The welfare effects depend on the type. First-degree
 Discrimination eliminates consumer surplus entirely but achieves allocative efficiency (output
 Equals the competitive level). Third-degree discrimination _may_ increase total output compared to
-Single-price monopoly, but it also redistributes surplus from consumers with inelastic demand to the
-Firm. A strong evaluation point: price discrimination can be **pro-competitive** if it enables a
-Firm to enter a market that would otherwise be unprofitable (e.g., cross-subsidy between market
+single-price monopoly, but it also redistributes surplus from consumers with inelastic demand to the
+firm. A strong evaluation point: price discrimination can be **pro-competitive** if it enables a
+firm to enter a market that would otherwise be unprofitable (e.g., cross-subsidy between market
 Segments). However, it raises equity concerns, poorer consumers ( more price-elastic) may Benefit
 from lower prices, while less elastic groups face higher prices.
 
@@ -317,7 +317,7 @@ from lower prices, while less elastic groups face higher prices.
 Always reduces consumer welfare, the key is to recognise that _some_ consumers (the elastic group)
 May face lower prices. CIE (9708) requires calculation of profit under single-price vs
 Discriminatory pricing. AQA Paper 2 frequently features questions on the ethics and fairness of
-Price discrimination. OCR (A) may ask about the conditions necessary for each type of price
+price discrimination. OCR (A) may ask about the conditions necessary for each type of price
 Discrimination to be feasible.
 :::
 
@@ -340,7 +340,7 @@ Ownership.
 regulation Can create **X-inefficiency**, the monopoly has no incentive to minimise costs if the
 regulator allows cost-plus pricing. CIE (9708) often asks students to compare **public ownership vs
 Regulation** using efficiency criteria. OCR (A) focuses on the principal-agent problem between
-Regulator and firm (information asymmetry).
+regulator and firm (information asymmetry).
 :::
 
 **Real-world example: UK water industry.** Thames Water and other regional water companies are
@@ -348,14 +348,14 @@ Natural monopolies covering specific geographic areas, it would be deeply ineffi
 Multiple pipe networks through the same streets. Ofwat regulates prices using the RPI-X formula
 (prices can rise by RPI inflation minus an efficiency factor X). However, the 2023-2024 crisis at
 Thames Water (debt of GBP 14 billion, sewage discharge failures) illustrates the limits of
-Regulatory oversight when firms are privately owned but provide essential public services.
+regulatory oversight when firms are privately owned but provide essential public services.
 
 **Real-world example: Tech monopolies.** Google controls approximately 92% of the UK search engine
 Market, and Apple's App Store charges a 30% commission on digital sales, both cases where **network
 Effects** create enormous barriers to entry. The European Commission's Digital Markets Act (2024)
 Designates such firms as "gatekeepers" and mandates interoperability with third-party app stores.
 This raises the evaluation point: does regulation of tech monopolies promote competition, or does it
-Reduce the incentive to invest in platform quality?
+reduce the incentive to invest in platform quality?
 
 **Evaluation of monopoly**: On balance, monopolies are most harmful when they arise from
 **anti-competitive conduct** rather than superior efficiency. A monopoly achieved through genuine
@@ -383,7 +383,7 @@ $$\pi = 0 \implies P = AC$$ $$MR = MC \implies P > MC \mathrm{ (since } MR < P\m
 
 **Excess capacity**: the firm produces at an output below the output that minimises AC. The gap
 Between actual output and the minimum efficient scale output is excess capacity, a measure of
-Inefficiency.
+inefficiency.
 
 $$
 Q_{MC} < Q_{MES} \quad \mathrm{where } Q_{MES} \mathrm{ minimises AC}
@@ -393,12 +393,12 @@ $$
 Inefficiency ($P > MC$), it has important strengths that are often underemphasised in exam answers.
 Product differentiation generates **consumer choice and variety**, the value of having multiple
 Restaurants, coffee shops, or clothing brands may exceed the deadweight loss from pricing above
-Marginal cost. Additionally, the competitive pressure of free entry drives firms to innovate in
-Product quality and branding (dynamic efficiency). The advertising expenditure that characterises
+marginal cost. Additionally, the competitive pressure of free entry drives firms to innovate in
+product quality and branding (dynamic efficiency). The advertising expenditure that characterises
 Monopolistic competition can be seen as wasteful (persuasive advertising shifts demand rather than
-Informs), but it can also be informative (reducing search costs for consumers). A balanced exam
+informs), but it can also be informative (reducing search costs for consumers). A balanced exam
 Answer should conclude that monopolistic competition is a realistic model that captures the
-Trade-off between efficiency and variety.
+trade-off between efficiency and variety.
 
 ### 4.4 Oligopoly
 
@@ -442,7 +442,7 @@ Difficulty sustaining collusion without enforcement mechanisms.
 
 The static prisoner's dilemma predicts that collusion always fails. However, in the **real world**,
 Oligopolists interact repeatedly over many years. In an infinitely repeated game (or one with an
-Uncertain end date), the **threat of future punishment** can sustain cooperation.
+uncertain end date), the **threat of future punishment** can sustain cooperation.
 
 Consider the discount factor $\delta \in (0, 1)$ Which represents how much firms value future Profits
 relative to current profits. If both firms play **tit-for-tat** (cooperate in the first Round, then
@@ -459,14 +459,14 @@ Periods of effective output restriction despite the incentive to cheat.
 **Real-world application: supermarket pricing in the UK.** Tesco, Sainsbury's, Asda, and Morrisons
 Operate in a tight oligopoly with a combined market share of approximately 68%. The rise of Aldi and
 Lidl (which grew from approximately 5% to over 17% market share between 2010 and 2024) has
-Intensified competitive pressure. The incumbent supermarkets must balance cooperation (avoiding a
-Destructive price war that destroys margins for all) against competition (matching Aldi's lower
+intensified competitive pressure. The incumbent supermarkets must balance cooperation (avoiding a
+destructive price war that destroys margins for all) against competition (matching Aldi's lower
 Prices to retain customers). This is a repeated game where the "punishment" for not matching prices
 is loss of market share to discounters.
 
 :::note
 Differs from a one-shot game in sustaining collusion. CIE (9708) may ask students to construct a
-Payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
+payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
 the prisoner's dilemma applies to real-world oligopolies where firms can communicate, a key
 Evaluation point.
 :::
@@ -500,30 +500,30 @@ This makes the model overly rigid in its assumptions.
 
 **Why cartels are unstable**: each member has an incentive to secretly increase output above the
 Agreed quota (cheating), because the cartel price exceeds each firm's marginal cost. The more
-Members cheat, the lower the price falls, and the cartel collapses.
+members cheat, the lower the price falls, and the cartel collapses.
 
 OPEC is a well-known example: member countries frequently exceed production quotas, causing oil
 Prices to fluctuate.
 
 **Real-world example: the UK energy market.** The "Big Six" energy suppliers (British Gas, EDF,
 E.ON, Npower, Scottish Power, SSE, now reduced through mergers to the "Big Five") operated as an
-Effective oligopoly in UK residential energy supply for decades. Despite apparent competition, price
+effective oligopoly in UK residential energy supply for decades. Despite apparent competition, price
 Changes were highly correlated, when one firm raised prices, others followed within weeks (tacit
 Collusion rather than explicit agreement). The entry of smaller challenger suppliers (Octopus
 Energy, Bulb before its collapse) increased contestability. However, the 2021-2022 energy crisis
 Exposed the vulnerability of smaller firms, 29 UK energy suppliers collapsed between September 2021
 and November 2022 because they could not hedge against the wholesale gas price spike. This
-Illustrates a critical evaluation point: **barriers to entry in oligopoly are not always obvious**,
+illustrates a critical evaluation point: **barriers to entry in oligopoly are not always obvious**,
 The need for working capital and hedging capacity acts as a significant barrier even where
-Regulation nominally encourages entry.
+regulation nominally encourages entry.
 
 **Evaluation of collusion**: Tacit collusion is extremely difficult to prove legally because firms
 Independently arrive at similar pricing strategies without any formal agreement. The Competition and
-Markets Authority (CMA) can prosecute explicit cartel agreements under the Competition Act 1998
+markets Authority (CMA) can prosecute explicit cartel agreements under the Competition Act 1998
 (fines of up to 10% of global turnover) and the Enterprise Act 2002 (criminal penalties including
 Imprisonment for individuals). However, the effectiveness of competition policy depends on the
-Regulator's resources and information, asymmetric information between the CMA and firms is a
-Persistent problem.
+regulator's resources and information, asymmetric information between the CMA and firms is a
+persistent problem.
 
 #### Contestable Markets
 
@@ -546,7 +546,7 @@ Economic profit), because any supernormal profit would attract entry.
 **Evaluation of contestable market theory**: The theory provides a powerful critique of the
 Traditional structure-conduct-performance paradigm, it suggests that market _conduct_ (and threat
 of entry) matters more than the number of firms. However, the assumption of zero sunk costs is
-Extremely restrictive. In practice, most industries involve significant sunk costs: a new airline
+extremely restrictive. In practice, most industries involve significant sunk costs: a new airline
 Needs aircraft, airport slots, and brand recognition; a new energy supplier needs regulatory
 Approval and IT systems. The theory is therefore most applicable to markets with relatively low
 Capital requirements, such as **taxi services** (before Uber, local taxi licensing created barriers;
@@ -555,7 +555,7 @@ Uber's platform model dramatically increased contestability by reducing sunk cos
 
 **Example**: The UK bus market after deregulation (1985 Transport Act) was intended to be highly
 Contestable, new operators could enter any route. In practice, the incumbent operator often had
-Advantages (depots, driver knowledge, existing contracts), and many routes remained de facto
+advantages (depots, driver knowledge, existing contracts), and many routes remained de facto
 Monopolies. This illustrates the gap between theoretical contestability and real-world outcomes.
 
 :::note
@@ -587,10 +587,10 @@ Understanding of sunk costs as the key barrier to contestability.
 
 :::note
 Focuses on the link between market structure and **economic efficiency**, often asking students to
-Evaluate which structure is most efficient. Edexcel (A) requires analysis of how market structures
+evaluate which structure is most efficient. Edexcel (A) requires analysis of how market structures
 Affect **consumer and producer surplus**. CIE (9708) expects students to draw diagrams for each
-Structure and annotate efficiency losses. OCR (A) frequently asks about **real-world markets that
-Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
+structure and annotate efficiency losses. OCR (A) frequently asks about **real-world markets that
+fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
 :::
 
 ## 6. Critical Evaluation
@@ -636,9 +636,9 @@ Innovate because:
 
 **Exam technique**: When evaluating market structures, always consider both static and dynamic
 Efficiency. A strong conclusion might be: "Perfect competition maximises static efficiency but may
-Underprovide dynamic efficiency; monopoly does the reverse. The optimal market structure depends on
+underprovide dynamic efficiency; monopoly does the reverse. The optimal market structure depends on
 whether the industry is characterised by rapid technological change (where dynamic efficiency is
-Paramount) or stable technology (where static efficiency dominates)."
+paramount) or stable technology (where static efficiency dominates)."
 
 ### The Role of Behavioural Economics
 
@@ -659,7 +659,7 @@ Traditional theory of the firm assumes profit maximisation. Behavioural economic
 Debate whether firms really maximise profit, behavioural objections are high-scoring evaluation
 Points. CIE (9708) does not formally require behavioural economics but rewards students who mention
 Satisficing as an alternative objective. Edexcel includes the principal-agent problem in its
-Specification for market failure topics.
+specification for market failure topics.
 :::
 
 :::note
@@ -681,7 +681,7 @@ The output at which average total cost is minimised.
 
 **Problem 2.** A perfectly competitive industry has market demand $Q_D = 500 - 10P$ and each firm
 Has cost function $TC = 50 + 2Q + Q^2$. In the long run, how many firms will there be? What is the
-Market price?
+market price?
 
 <details>
 <summary>Hint</summary>
@@ -690,7 +690,7 @@ LR equilibrium: $P = MC = AC_{min}$. $MC = 2 + 2Q$$AC = 50/Q + 2 + Q$. Set $MC =
 
 **Problem 3.** A monopolist faces demand $P = 100 - 2Q$ and has total cost $TC = 50 + 10Q + Q^2$.
 Find the profit-maximising price and quantity. Calculate the deadweight loss compared with the
-Competitive outcome.
+competitive outcome.
 
 <details>
 <summary>Hint</summary>
@@ -726,7 +726,7 @@ Firm A's reaction function: $\pi_A = (100 - Q_A - Q_B)Q_A - 10Q_A$. FOC: $100 - 
 
 **Problem 7.** A natural monopoly has total cost $TC = 200 + 20Q$ and faces demand $P = 100 - Q$.
 (a) Find the profit-maximising outcome. (b) Find the allocatively efficient outcome. (c) Find the
-Outcome under average cost pricing. (d) Evaluate the trade-offs.
+outcome under average cost pricing. (d) Evaluate the trade-offs.
 
 <details>
 <summary>Hint</summary>
@@ -743,7 +743,7 @@ Reference to (a) natural monopolies, (b) innovation incentives, and (c) price di
 
 **Problem 9.** Explain why the kinked demand curve model predicts price rigidity but cannot explain
 How the initial price is determined. How does game theory provide a more complete analysis of
-Oligopoly pricing?
+oligopoly pricing?
 
 <details>
 <summary>Hint</summary>
@@ -787,7 +787,7 @@ This is an example of third-degree price discrimination combined with **network 
 
 **Problem 14.** Two firms in a duopoly can choose to invest in R&D or not. The payoffs (profit in
 Millions of GBP) are shown below. Identify the Nash equilibrium and discuss why the outcome may
-Differ in a repeated game.
+differ in a repeated game.
 
 <div class="table-wrap">
 
@@ -805,7 +805,7 @@ Nash equilibrium: (Invest, Invest), this is the **only** Nash equilibrium. If A 
 
 **Problem 15.** The UK supermarket industry has seen significant merger activity. The CMA blocked
 The proposed merger between Sainsbury's and Asda in 2019. Using game theory and the concept of
-Contestable markets, evaluate the CMA's decision.
+contestable markets, evaluate the CMA's decision.
 
 <details>
 <summary>Hint</summary>
@@ -1003,7 +1003,7 @@ profit under discrimination and compare with single-price profit.
 <summary>Full Mark Scheme</summary>
 **(a) Discriminatory pricing (6 marks).**
 Adults: $MR_A = 20 - 2Q_A = 2 \Rightarrow Q_A = 9$$P_A = 11$.
-Students: $MR_S = 12 - 2Q_S = 2 \Rightarrow Q_S = 5$$P_S = 7$.
+students: $MR_S = 12 - 2Q_S = 2 \Rightarrow Q_S = 5$$P_S = 7$.
 Profit from adults: $11 \times 9 - 2 \times 9 = 99 - 18 = 81$.
 Profit from students: $7 \times 5 - 2 \times 5 = 35 - 10 = 25$.
 Total profit with discrimination: $81 + 25 = \pounds 106$.

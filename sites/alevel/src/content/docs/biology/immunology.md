@@ -968,7 +968,7 @@ The human immune system can produce approximately $10^{11}$ different antibody s
 limited number of genes through several mechanisms:
 
 1. **V(D)J recombination**: during B cell development in the bone marrow, random combinations of
-   Variable (V), Diversity (D), and Joining (J) gene segments are assembled to form the variable
+   variable (V), Diversity (D), and Joining (J) gene segments are assembled to form the variable
    region of the heavy and light chains.
 2. **Somatic hypermutation**: after antigen activation, B cells in the germinal centres of lymph
    nodes accumulate mutations in the variable region at a rate approximately $10^6$ times higher

@@ -29,7 +29,7 @@ tags:
 ### Overview
 
 Digestion is the mechanical and chemical breakdown of food into small, soluble molecules that can be
-Absorbed across the intestinal wall into the blood or lymph.
+absorbed across the intestinal wall into the blood or lymph.
 
 ### Mechanical Digestion
 
@@ -58,7 +58,7 @@ Maltose.
 #### Small Intestine
 
 The majority of digestion occurs here. **Pancreatic juice** and **bile** are released into the
-Duodenum.
+duodenum.
 
 <div class="table-wrap">
 
@@ -75,7 +75,7 @@ Duodenum.
 
 **Bile** (produced in the liver, stored in the gallbladder) emulsifies fats: bile salts break large
 Fat globules into smaller droplets, increasing the surface area for lipase action. Bile is not an
-Enzyme.
+enzyme.
 
 #### Large Intestine
 
@@ -251,7 +251,7 @@ Antibodies are Y-shaped proteins produced by plasma cells. Each antibody has:
 
 Vaccines introduce a weakened, inactivated, or subunit form of a pathogen (or its antigen),
 Stimulating the adaptive immune system to produce memory cells without causing disease. Upon
-Subsequent exposure, memory cells mount a faster and stronger secondary immune response.
+subsequent exposure, memory cells mount a faster and stronger secondary immune response.
 
 ---
 
@@ -269,7 +269,7 @@ Subsequent exposure, memory cells mount a faster and stronger secondary immune r
 ### Alveolar Structure and Adaptations
 
 The lungs contain millions of **alveoli** (air sacs), the sites of gas exchange between air and
-Blood.
+blood.
 
 <div class="table-wrap">
 
@@ -350,7 +350,7 @@ A rapid reversal and restoration of the membrane potential.
 
 **Propagation**: the action potential travels along the axon. In myelinated axons, the action
 Potential "jumps" between nodes of Ranvier (**saltatory conduction**), which is much faster than
-Continuous propagation in unmyelinated axons.
+continuous propagation in unmyelinated axons.
 
 ### Synapses
 
@@ -552,7 +552,7 @@ Effect), and temperature rises. These factors reduce haemoglobin's affinity for 
 Shifting the dissociation curve to the right. At any given $\mathrm{pO}_2$ A lower percentage of
 $\mathrm{Hb}$ is saturated with $\mathrm{O}_2$ Meaning more $\mathrm{O}_2$ is unloaded from
 Haemoglobin into the tissues. This ensures that active muscles receive a greater supply of oxygen to
-Sustain aerobic respiration.
+sustain aerobic respiration.
 
 </details>
 
@@ -560,7 +560,7 @@ Sustain aerobic respiration.
 <summary>Question 2: Action Potential Calculation</summary>
 
 The resting membrane potential of a neurone is $-70\;\mathrm{mV}$. During an action potential, the
-Membrane potential reaches $+40\;\mathrm{mV}$. Calculate the magnitude of the change in membrane
+membrane potential reaches $+40\;\mathrm{mV}$. Calculate the magnitude of the change in membrane
 Potential during depolarisation.
 
 </details>
@@ -578,8 +578,8 @@ The membrane potential changes by $110\;\mathrm{mV}$ during depolarisation.
 <summary>Question 3: Immune Response Pathway</summary>
 
 A person is bitten by a mosquito carrying the malaria parasite (_Plasmodium_), which enters their
-Liver cells. Describe how cell-mediated immunity would respond to this infection, naming the
-Specific cells and molecules involved.
+liver cells. Describe how cell-mediated immunity would respond to this infection, naming the
+specific cells and molecules involved.
 
 </details>
 
@@ -604,8 +604,8 @@ Specific cells and molecules involved.
 <summary>Question 4: Hormonal Feedback</summary>
 
 A tumour on the anterior pituitary causes excessive secretion of TSH. Predict the effect on the
-Thyroid gland and on blood levels of thyroxine ($\mathrm{T}_4$). Explain whether this is positive or
-Negative feedback.
+thyroid gland and on blood levels of thyroxine ($\mathrm{T}_4$). Explain whether this is positive or
+negative feedback.
 
 </details>
 
@@ -613,8 +613,8 @@ Negative feedback.
 <summary>Answer</summary>
 
 Excessive TSH (thyroid-stimulating hormone) would overstimulate the thyroid gland, causing it to
-Enlarge (goitre) and secrete excess thyroxine ($\mathrm{T}_4$). Blood thyroxine levels would be
-Elevated (hyperthyroidism), leading to increased metabolic rate, weight loss, rapid heart rate, and
+enlarge (goitre) and secrete excess thyroxine ($\mathrm{T}_4$). Blood thyroxine levels would be
+elevated (hyperthyroidism), leading to increased metabolic rate, weight loss, rapid heart rate, and
 other symptoms.
 
 Normally, thyroxine exerts **negative feedback** on both the hypothalamus (reducing TRH secretion)
@@ -641,7 +641,7 @@ Monoglycerides and free fatty acids. Although bile salts still emulsify the fat 
 Droplets, the large triglyceride molecules cannot be absorbed across the intestinal epithelium (they
 are too large and hydrophobic). The undigested fat passes into the large intestine and is excreted
 in the faeces. The faeces would be pale, bulky, greasy, and difficult to flush (steatorrhoea). The
-Patient would also experience fat-soluble vitamin (A, D, E, K) deficiencies due to malabsorption,
+patient would also experience fat-soluble vitamin (A, D, E, K) deficiencies due to malabsorption,
 Since these vitamins require dietary fat for absorption.
 
 </details>
@@ -666,7 +666,7 @@ $70\;\mathrm{mL}$. During maximal exercise, her heart rate increases to $190\;\m
 Stroke volume increases to $120\;\mathrm{mL}$. Her arterial $\mathrm{O}_2$ content is
 $200\;\mathrm{mL\;O_2/L}$ blood and her venous $\mathrm{O}_2$ content is $150\;\mathrm{mL\;O_2/L}$
 at rest, decreasing to $50\;\mathrm{mL\;O_2/L}$ during exercise. Calculate the cardiac output and
-Oxygen consumption at rest and during maximal exercise.
+oxygen consumption at rest and during maximal exercise.
 
 <details>
 <summary>Solution</summary>
@@ -683,7 +683,7 @@ $\mathrm{Cardiac\;output} = 120\;\mathrm{mL} \times 190\;\mathrm{bpm} = 22800\;\
 $\mathrm{O_2\;consumption} = 22.8\;\mathrm{L/min} \times (200 - 50)\;\mathrm{mL\;O_2/L} = 22.8 \times 150 = 3420\;\mathrm{mL\;O_2/min}$
 
 The athlete's cardiac output increases $5.4$-fold and oxygen consumption increases $16.3$-fold from
-Rest to maximal exercise. The larger increase in $\mathrm{O}_2$ consumption relative to cardiac
+rest to maximal exercise. The larger increase in $\mathrm{O}_2$ consumption relative to cardiac
 output Is explained by the increased oxygen extraction (a-v difference doubles from $50$ to
 $150\;\mathrm{mL\;O_2/L}$), demonstrating that both increased blood flow and increased tissue oxygen
 Extraction contribute to meeting exercise demands.
@@ -723,8 +723,8 @@ draws water Into the urine, causing polyuria (excessive urination).
 **Worked Example: Neurone Conduction Velocity**
 
 A myelinated motor neurone has nodes of Ranvier spaced $1.5\;\mathrm{mm}$ apart. The time for an
-Action potential to travel between two adjacent nodes is $0.02\;\mathrm{ms}$. Calculate the
-Conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$ Calculate the total
+action potential to travel between two adjacent nodes is $0.02\;\mathrm{ms}$. Calculate the
+conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$ Calculate the total
 Transmission time and compare this with an unmyelinated axon of the same diameter with a conduction
 Velocity of $2\;\mathrm{m/s}$.
 
@@ -826,7 +826,7 @@ Increase in peak titre and the time to peak, and explain the cellular basis for 
 <summary>Problem 1: Data Analysis -- Oxygen Dissociation Curves</summary>
 
 The following data show the percentage saturation of haemoglobin at different partial pressures of
-Oxygen:
+oxygen:
 
 <div class="table-wrap">
 
@@ -856,7 +856,7 @@ Pepsin is secreted as inactive pepsinogen by chief cells in the stomach lining a
 $\mathrm{HCl}$. (a) Explain why pepsin is secreted in an inactive form, relating this to the
 Structure of the stomach wall. (b) Describe the role of enterokinase (enteropeptidase) in activating
 Pancreatic enzymes in the small intestine. (c) Compare and contrast the activation mechanisms of
-Pepsinogen and trypsinogen, explaining how these prevent autodigestion of the digestive tract.
+pepsinogen and trypsinogen, explaining how these prevent autodigestion of the digestive tract.
 
 </details>
 
@@ -875,9 +875,9 @@ physiologically relevant than minute ventilation.
 <summary>Problem 4: Extended Response -- Synaptic Transmission and Neuropharmacology</summary>
 
 Organophosphate pesticides inhibit acetylcholinesterase. (a) Describe the normal role of
-Acetylcholinesterase at a cholinergic synapse. (b) Explain the effect of organophosphate poisoning
+acetylcholinesterase at a cholinergic synapse. (b) Explain the effect of organophosphate poisoning
 on synaptic transmission, including the effect on postsynaptic membrane potential. (c) Describe two
-Symptoms that would be expected and explain the physiological basis for each. (d) Explain how
+symptoms that would be expected and explain the physiological basis for each. (d) Explain how
 Atropine (a muscarinic acetylcholine receptor antagonist) can be used as an antidote.
 
 </details>
@@ -913,7 +913,7 @@ would happen to the cycle if progesterone secretion were artificially maintained
 
 Compare and contrast the aetiology (cause), pathophysiology, and treatment of Type 1 and Type 2
 Diabetes mellitus. In your response, include the role of beta cells, insulin receptors, and the
-Concept of insulin resistance. Explain why a patient with Type 2 diabetes may not require insulin
+concept of insulin resistance. Explain why a patient with Type 2 diabetes may not require insulin
 Therapy initially, while a Type 1 patient always requires exogenous insulin.
 
 </details>
@@ -922,7 +922,7 @@ Therapy initially, while a Type 1 patient always requires exogenous insulin.
 <summary>Problem 7: Extended Response -- Ventilation Mechanics</summary>
 
 A patient with emphysema has lost alveolar elasticity, reducing the elastic recoil of the lungs. (a)
-Explain how this affects the pressure gradients driving expiration. (b) Describe the consequence For
+explain how this affects the pressure gradients driving expiration. (b) Describe the consequence For
 residual volume and vital capacity. (c) Explain why this patient would have an elevated Respiratory
 rate at rest compared with a healthy individual, relating your answer to alveolar Ventilation and
 gas exchange efficiency.
@@ -933,7 +933,7 @@ gas exchange efficiency.
 <summary>Problem 8: Extended Response -- Kidney Function and Osmoregulation</summary>
 
 The loop of Henle creates a concentration gradient in the medulla of the kidney. Describe how the
-Countercurrent multiplier mechanism in the descending and ascending limbs of the loop of Henle
+countercurrent multiplier mechanism in the descending and ascending limbs of the loop of Henle
 Establishes this gradient. Explain the role of antidiuretic hormone (ADH) in regulating water
 Reabsorption in the collecting duct, and predict the appearance of urine (volume and concentration)
 In a person who has been drinking large volumes of water versus a person who is dehydrated.
@@ -1301,7 +1301,7 @@ disease (e.g., pulmonary fibrosis).
 **Worked Example: Cardiac Output and Blood Pressure**
 
 A patient has a heart rate of $72\;\mathrm{bpm}$ and a stroke volume of $70\;\mathrm{mL}$. (a)
-Calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$ Calculate the
+calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$ Calculate the
 total Peripheral resistance (TPR). (c) During exercise, heart rate increases to $150\;\mathrm{bpm}$
 and stroke Volume increases to $120\;\mathrm{mL}$. Calculate the new cardiac output and the
 percentage increase. (d) Explain how the baroreceptor reflex responds to a sudden drop in blood
@@ -1403,7 +1403,7 @@ $120$--$130\;\mathrm{mL/min}$; $110$ is Slightly reduced but within or near norm
 
 This is much lower than GFR ($110\;\mathrm{mL/min}$), indicating that glucose is almost completely
 Reabsorbed in the proximal convoluted tubule. Normally, glucose clearance is approximately $0$ (all
-Filtered glucose is reabsorbed). A clearance of $2.0\;\mathrm{mL/min}$ suggests some glucose is
+filtered glucose is reabsorbed). A clearance of $2.0\;\mathrm{mL/min}$ suggests some glucose is
 spilling Into the urine, which occurs when plasma glucose exceeds the renal threshold (approximately
 $180\;\mathrm{mg/dL} = 1.8\;\mathrm{g/L}$). This patient's plasma glucose ($1.0\;\mathrm{g/L}$) is
 below The threshold, so the small clearance may reflect tubular dysfunction or incomplete
@@ -1420,7 +1420,7 @@ This matches normal urine output ($1$--$2\;\mathrm{L/day}$).
 **Worked Example: Hormonal Control of Blood Glucose**
 
 After a carbohydrate-rich meal, blood glucose rises from $5.0$ to $8.5\;\mathrm{mmol/L}$. (a)
-Describe The hormonal response. (b) Calculate the total mass of glucose in the blood if blood volume
+describe The hormonal response. (b) Calculate the total mass of glucose in the blood if blood volume
 is $5\;\mathrm{L}$ (molar mass of glucose $= 180\;\mathrm{g/mol}$). (c) Explain how insulin promotes
 glucose uptake into Muscle and adipose cells. (d) A type 1 diabetic patient has a fasting blood
 glucose of $15\;\mathrm{mmol/L}$. Explain why glucose appears in the urine.
@@ -1812,7 +1812,7 @@ Hormones are classified by their chemical structure, which determines their mech
 ### Peptide Hormones: Insulin Signalling Pathway (Detailed)
 
 Insulin is a peptide hormone (51 amino acids, two chains linked by disulphide bonds) produced by
-Beta cells of the pancreatic islets of Langerhans.
+beta cells of the pancreatic islets of Langerhans.
 
 **Synthesis and secretion**:
 
@@ -1874,7 +1874,7 @@ Lipophilic and diffuses directly through the plasma membrane.
 ### The Hypothalamic-Pituitary Axis
 
 The hypothalamus controls the anterior pituitary via releasing and inhibiting hormones, which are
-Transported through the hypophyseal portal system:
+transported through the hypophyseal portal system:
 
 <div class="table-wrap">
 
@@ -1903,7 +1903,7 @@ Example (thyroid axis):
 ### Worked Example: Hormone Dosage and Half-Life
 
 A drug containing cortisol is administered intravenously at a dose of $200\;\mathrm{mg}$. The
-Elimination half-life of cortisol is $90\;\mathrm{minutes}$. (a) Calculate the plasma concentration
+elimination half-life of cortisol is $90\;\mathrm{minutes}$. (a) Calculate the plasma concentration
 after $6$ hours if the volume of distribution is $10\;\mathrm{L}$. (b) How long until the plasma
 Concentration falls below $5\;\mathrm{mg/L}$? (c) Explain why cortisol must be administered More
 frequently than aldosterone (half-life $\approx 20\;\mathrm{minutes}$).
@@ -1923,7 +1923,7 @@ Time $= 2 \times 90 = 180\;\mathrm{minutes} = 3\;\mathrm{hours}$.
 aldosterone must be administered more frequently or by continuous infusion to maintain therapeutic
 Levels. The shorter half-life means aldosterone is cleared from the blood more rapidly. However,
 Aldosterone is also produced locally in some tissues (paracrine action), and its effects are
-Mediated by mineralocorticoid receptors that have high affinity (requiring lower concentrations). In
+mediated by mineralocorticoid receptors that have high affinity (requiring lower concentrations). In
 practice, aldosterone is replaced by fludrocortisone (a synthetic mineralocorticoid with a Longer
 half-life) in patients with adrenal insufficiency.
 

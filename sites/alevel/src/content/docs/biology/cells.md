@@ -143,8 +143,8 @@ Animals, plants, fungi, and protists.
 
 :::caution
 Measure sedimentation rate during centrifugation -- not molecular weight. Svedberg units are not
-Additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
-Molecular masses.
+additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
+molecular masses.
 :::
 
 ### 2.2 Prokaryotic Cell Structure
@@ -187,7 +187,7 @@ The nucleus contains:
 ### 3.2 Mitochondria
 
 Mitochondria ($d \approx 1$--$10\ \mu\mathrm{m}$ Length up to $7\ \mu\mathrm{m}$) are the site of
-Aerobic respiration, specifically the Krebs cycle (matrix) and oxidative phosphorylation (inner
+aerobic respiration, specifically the Krebs cycle (matrix) and oxidative phosphorylation (inner
 Membrane/cristae). They have:
 
 - **Outer membrane**: permeable to small molecules.
@@ -213,7 +213,7 @@ Continuous with the nuclear envelope.
 ### 3.4 Golgi Apparatus
 
 The Golgi apparatus consists of stacked, flattened cisternae with vesicles at the periphery. It
-Receives proteins from the RER via transport vesicles, then modifies, sorts, and packages them:
+receives proteins from the RER via transport vesicles, then modifies, sorts, and packages them:
 
 1. **Cis face** (receiving side): vesicles fuse with the Golgi, releasing their contents.
 2. **Modification**: proteins may be glycosylated (sugar groups added), phosphorylated, or cleaved.
@@ -231,7 +231,7 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 
 :::caution
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
-Distinct structure with different functions (turgor, storage, waste isolation).
+distinct structure with different functions (turgor, storage, waste isolation).
 :::
 
 ### 3.6 Other Organelles
@@ -273,7 +273,7 @@ Membranes. A virion (virus particle) consists of:
 ### 4.2 Replication
 
 Viruses are **obligate intracellular parasites** -- they cannot replicate independently. They must
-Invade a host cell and hijack its metabolic machinery. The basic stages are:
+invade a host cell and hijack its metabolic machinery. The basic stages are:
 
 1. **Attachment**: the virus binds to specific receptor proteins on the host cell surface.
 2. **Injection/entry**: the viral genome enters the host cell (by endocytosis or fusion).
@@ -334,7 +334,7 @@ $$
 $$
 
 Where $\Psi$ is water potential, $\Psi_s$ is solute potential (always negative), and $\Psi_p$ is
-Pressure potential.
+pressure potential.
 
 **Active transport**: the movement of molecules against their concentration gradient, requiring
 Energy from ATP hydrolysis. Carried out by **carrier proteins** that act as pumps (e.g., the
@@ -388,7 +388,7 @@ The cell cycle consists of:
 - **Cytokinesis**: cytoplasmic division.
 
 Regulation is by **cyclins** and **cyclin-dependent kinases (CDKs)**. Cyclin concentration rises and
-Falls cyclically; when cyclin binds to CDK, the complex triggers the next stage of the cell cycle.
+falls cyclically; when cyclin binds to CDK, the complex triggers the next stage of the cell cycle.
 Mutations in genes regulating the cell cycle (proto-oncogenes and tumour suppressor genes) can lead
 to uncontrolled division (cancer).
 
@@ -460,7 +460,7 @@ $$
 $$
 
 This is consistent with the expected diameter of a ribosome ($\approx 20\ \mathrm{nm}$) only if the
-Measurement is of a sub-component. If the full ribosome is being measured, the student should
+measurement is of a sub-component. If the full ribosome is being measured, the student should
 recheck The image measurement. This highlights the importance of sanity-checking answers against
 known biological Dimensions.
 
@@ -475,8 +475,8 @@ conversion explicitly to avoid losing Marks.
 ### 8.1 Mechanism of Endocytosis
 
 Endocytosis is the process by which cells engulf substances by folding the membrane inward to form a
-Vesicle. It is an active process requiring ATP. Two main types are distinguished by the size of the
-Vesicle formed:
+vesicle. It is an active process requiring ATP. Two main types are distinguished by the size of the
+vesicle formed:
 
 **Phagocytosis ("cell eating")**: the cell membrane extends pseudopodia around a solid particle
 (e.g., A bacterium or dead cell), enclosing it in a large phagocytic vacuole
@@ -521,7 +521,7 @@ passive movement of Individual molecules through the bilayer.
 ### 9.1 Quantifying Water Potential
 
 Water potential ($\Psi$) is measured in pressure units (kilopascals, $\mathrm{kPa}$). Pure water at
-Standard temperature and pressure has a water potential of $0\ \mathrm{kPa}$. The addition of
+standard temperature and pressure has a water potential of $0\ \mathrm{kPa}$. The addition of
 solutes Lowers water potential (makes it more negative):
 
 $$
@@ -594,7 +594,7 @@ solutions.
 ### 10.1 Checkpoint Control
 
 The cell cycle has three major checkpoints where the progression is assessed before the cycle is
-Allowed to proceed:
+allowed to proceed:
 
 <div class="table-wrap">
 
@@ -639,8 +639,8 @@ to divide.
 
 **Tumour suppressor genes** code for proteins that inhibit cell division or promote apoptosis. The
 Most well-known is _TP53_ (p53), which halts the cell cycle at $\mathrm{G_1}$ when DNA damage is
-Detected, allowing repair. If damage is irreparable, p53 triggers apoptosis. Mutations in _TP53_ are
-Found in approximately 50% of all human cancers.
+detected, allowing repair. If damage is irreparable, p53 triggers apoptosis. Mutations in _TP53_ are
+found in approximately 50% of all human cancers.
 
 Cancer requires mutations in multiple genes: activation of one or more oncogenes plus Inactivation
 of two or more tumour suppressor genes (Knudson's two-hit hypothesis).
@@ -736,17 +736,17 @@ are totipotent.
 <details>
 <summary>Problem 1</summary>
 Describe the process of cell fractionation and explain why each step must be carried out under
-Specific conditions (cold, buffered, isotonic).
+specific conditions (cold, buffered, isotonic).
 
 **Answer.** Cell fractionation involves three steps. (1) Homogenisation: cells are placed in a cold,
 Buffered, isotonic solution and broken open (e.g., with a blender or ultrasonication). The solution
 must be cold to reduce the activity of enzymes that would degrade organelles; buffered to maintain a
-Constant pH, since enzyme activity is pH-dependent; and isotonic to prevent osmotic lysis (in a
-Hypotonic solution) or shrinkage (in a hypertonic solution) of organelles. (2) Filtration: the
-Homogenate is passed through a gauze to remove unbroken cells and large debris. (3) Differential
+constant pH, since enzyme activity is pH-dependent; and isotonic to prevent osmotic lysis (in a
+hypotonic solution) or shrinkage (in a hypertonic solution) of organelles. (2) Filtration: the
+homogenate is passed through a gauze to remove unbroken cells and large debris. (3) Differential
 Centrifugation: the filtrate is centrifuged at progressively higher speeds. At each speed, the
-Densest remaining organelles sediment into a pellet, which is removed. The supernatant is then
-Centrifuged at a higher speed to pellet the next densest organelles, and so on. This separates
+densest remaining organelles sediment into a pellet, which is removed. The supernatant is then
+centrifuged at a higher speed to pellet the next densest organelles, and so on. This separates
 Organelles by size and density.
 
 <b>If you get this wrong, revise:</b> [Cell Fractionation](#13-cell-fractionation)
@@ -761,9 +761,9 @@ Respiration.
 **Answer.** (1) The inner membrane is folded into cristae, greatly increasing the surface area
 Available for the electron transport chain and ATP synthase enzymes, maximising ATP production. (2)
 The matrix contains the enzymes for the Krebs cycle and the link reaction, concentrating the
-Reactants and products of these pathways to increase reaction rates. (3) The outer membrane is
-Permeable to small molecules (pyruvate, $\mathrm{NADH}$), allowing substrates from the cytoplasm to
-Enter the mitochondrion. Additionally, the presence of circular DNA and $70\mathrm{S}$ ribosomes
+reactants and products of these pathways to increase reaction rates. (3) The outer membrane is
+permeable to small molecules (pyruvate, $\mathrm{NADH}$), allowing substrates from the cytoplasm to
+enter the mitochondrion. Additionally, the presence of circular DNA and $70\mathrm{S}$ ribosomes
 Supports the endosymbiotic theory, explaining how mitochondria retained their own genetic machinery.
 
 <b>If you get this wrong, revise:</b> [Mitochondria](#32-mitochondria)
@@ -777,8 +777,8 @@ Ribosomes, and cell walls.
 
 **Answer.** Prokaryotic cells are smaller ($1$--$5\ \mu\mathrm{m}$) than eukaryotic cells
 ($10$--$100\ \mu\mathrm{m}$). Prokaryotic DNA is a single circular molecule located free in the
-Cytoplasm (nucleoid), not associated with histone proteins. Eukaryotic DNA is linear, organised into
-Chromosomes within a membrane-bound nucleus, and associated with histone proteins. Prokaryotic
+cytoplasm (nucleoid), not associated with histone proteins. Eukaryotic DNA is linear, organised into
+chromosomes within a membrane-bound nucleus, and associated with histone proteins. Prokaryotic
 Ribosomes are $70\mathrm{S}$ (composed of $50\mathrm{S}$ and $30\mathrm{S}$ subunits), whereas
 Eukaryotic ribosomes are $80\mathrm{S}$ (composed of $60\mathrm{S}$ and $40\mathrm{S}$ subunits).
 Prokaryotic cell walls contain peptidoglycan; eukaryotic cell walls (in plants) contain cellulose,
@@ -793,15 +793,15 @@ But only eukaryotes possess membrane-bound organelles (mitochondria, ER, Golgi).
 <details>
 <summary>Problem 4</summary>
 Describe the roles of the Golgi apparatus in protein processing and transport. Why would a cell that
-Secretes large amounts of protein (e.g., a pancreatic acinar cell) have an exceptionally large
+secretes large amounts of protein (e.g., a pancreatic acinar cell) have an exceptionally large
 Golgi apparatus?
 
 **Answer.** The Golgi apparatus receives transport vesicles from the RER containing newly
 Synthesised proteins. It modifies these proteins by adding carbohydrate groups (glycosylation),
 Phosphate groups, or lipid groups, and may cleave the protein into its active form. It then sorts
 the modified proteins and packages them into secretory vesicles, which bud from the trans face and
-Move to the plasma membrane for exocytosis. A pancreatic acinar cell secretes large quantities of
-Digestive enzymes, so it requires an extensive RER for protein synthesis and a correspondingly large
+move to the plasma membrane for exocytosis. A pancreatic acinar cell secretes large quantities of
+digestive enzymes, so it requires an extensive RER for protein synthesis and a correspondingly large
 Golgi apparatus for the modification, sorting, and packaging of these proteins into secretory
 Vesicles. The size of an organelle generally reflects the cell's functional demands.
 
@@ -812,16 +812,16 @@ Vesicles. The size of an organelle generally reflects the cell's functional dema
 <details>
 <summary>Problem 5</summary>
 Explain the fluid mosaic model of cell membranes. How does cholesterol affect membrane fluidity at
-High and low temperatures?
+high and low temperatures?
 
 **Answer.** The fluid mosaic model describes the cell membrane as a bilayer of phospholipid
 Molecules in which proteins are embedded (intrinsic/transmembrane proteins) or attached to the
-Surface (extrinsic/peripheral proteins). The bilayer is "fluid" because individual phospholipid
+surface (extrinsic/peripheral proteins). The bilayer is "fluid" because individual phospholipid
 Molecules can move laterally within their own monolayer by diffusion, and "mosaic" because the
-Various components create a heterogeneous pattern. Cholesterol is a small, hydrophobic molecule
+various components create a heterogeneous pattern. Cholesterol is a small, hydrophobic molecule
 Interspersed between phospholipid tails. At high temperatures, it restricts the movement of
-Phospholipids, reducing fluidity and making the membrane less permeable. At low temperatures, it
-Prevents phospholipid tails from packing too closely and crystallising, maintaining some fluidity.
+phospholipids, reducing fluidity and making the membrane less permeable. At low temperatures, it
+prevents phospholipid tails from packing too closely and crystallising, maintaining some fluidity.
 Cholesterol therefore buffers membrane fluidity, keeping it within an optimal range.
 
 <b>If you get this wrong, revise:</b> [The Fluid Mosaic Model](#51-the-fluid-mosaic-model)
@@ -835,11 +835,11 @@ the structure and behaviour of viruses.
 
 **Answer.** Viruses are not considered living organisms. They possess genetic material (DNA or RNA)
 And can evolve through mutation and natural selection, but they lack the other characteristics of
-Life. They do not carry out respiration, nutrition, or excretion independently. They have no
-Metabolism of their own and cannot synthesise proteins or generate ATP without a host cell. They do
+life. They do not carry out respiration, nutrition, or excretion independently. They have no
+metabolism of their own and cannot synthesise proteins or generate ATP without a host cell. They do
 not grow or develop. They cannot reproduce independently -- they require a host cell's ribosomes,
 Enzymes, and nucleotides to replicate. Their acellular structure (no cytoplasm, no cell membrane, no
-Ribosomes) further distinguishes them from cells. While they are obligate intracellular parasites
+ribosomes) further distinguishes them from cells. While they are obligate intracellular parasites
 that can cause disease, they are more accurately described as infectious agents rather than living
 Organisms.
 
@@ -850,8 +850,8 @@ Organisms.
 <details>
 <summary>Problem 7</summary>
 An electron micrograph shows a mitochondrion. The scale bar indicates that $1\ \mathrm{mm}$ on the
-Image represents $0.2\ \mu\mathrm{m}$ in reality. The mitochondrion measures $6.5\ \mathrm{mm}$ in
-Length on the image. (a) Calculate the actual length. (b) If the magnification of the micrograph was
+image represents $0.2\ \mu\mathrm{m}$ in reality. The mitochondrion measures $6.5\ \mathrm{mm}$ in
+length on the image. (a) Calculate the actual length. (b) If the magnification of the micrograph was
 $\times 25000$ What is the expected image length, and does it match?
 
 **Answer.** (a) Actual length
@@ -882,8 +882,8 @@ hydrolyses One ATP to move $3\ \mathrm{Na^+}$ out and $2\ \mathrm{K^+}$ in again
 The energy From ATP is used to induce the conformational change in the pump protein.
 
 (b) **Exocytosis**: vesicles are transported along microtubules by motor proteins (kinesin) that
-Hydrolyse ATP to "walk" along the microtubule. ATP is also required for SNARE-mediated fusion of the
-Vesicle with the plasma membrane. The energy drives the mechanical movement and the membrane
+hydrolyse ATP to "walk" along the microtubule. ATP is also required for SNARE-mediated fusion of the
+vesicle with the plasma membrane. The energy drives the mechanical movement and the membrane
 Rearrangement.
 
 (c) **DNA replication**: helicase unwinds the double helix by breaking hydrogen bonds
@@ -1113,7 +1113,7 @@ Bacterial cell walls are made of **peptidoglycan** (murein), a polymer consistin
 
 **Gram-positive bacteria** (e.g., _Staphylococcus aureus_) have a thick peptidoglycan layer
 ($20$--$80\ \mathrm{nm}$) containing teichoic acids. They retain the crystal violet stain in the
-Gram stain.
+gram stain.
 
 **Gram-negative bacteria** (e.g., _Escherichia coli_) have a thin peptidoglycan layer
 ($2$--$10\ \mathrm{nm}$) between the inner and outer membranes. The outer membrane contains

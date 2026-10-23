@@ -76,7 +76,7 @@ $$
 
 :::note[Example]
 In a class of 40 students, 25 play football, 18 play basketball, and 8 play both. Find the
-Probability that a randomly selected student plays at least one sport.
+probability that a randomly selected student plays at least one sport.
 
 $$
 P(F \cup B) = P(F) + P(B) - P(F \cap B) = \frac{25}{40} + \frac{18}{40} - \frac{8}{40} = \frac{35}{40} = \frac{7}{8}
@@ -155,7 +155,7 @@ $$
 
 :::note[Example]
 A bag contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. Find the
-Probability that both are red.
+probability that both are red.
 
 $$
 P(\mathrm{both red}) = P(\mathrm{first red}) \cdot P(\mathrm{second red} | \mathrm{first red}) = \frac{5}{8} \cdot \frac{4}{7} = \frac{20}{56} = \frac{5}{14}
@@ -261,7 +261,7 @@ Carefully rather than relying on intuition for conditional probability questions
 ### Definition
 
 A **discrete random variable** $X$ takes a countable set of values $x_1, x_2, \ldots$ with
-Probabilities $P(X = x_i) = p_i$.
+probabilities $P(X = x_i) = p_i$.
 
 ### Probability Distribution
 
@@ -874,7 +874,7 @@ Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 ### Question 6 (Paper 2 style)
 
 A bag contains 4 red and 6 blue marbles. Marbles are drawn one at a time without replacement until a
-Red marble is drawn.
+red marble is drawn.
 
 **(a)** Find the probability that exactly 3 draws are needed.
 
@@ -927,7 +927,7 @@ $$
 ### Question 8 (Paper 2 style)
 
 The heights of Year 12 students follow a normal distribution with mean $165\mathrm{ cm}$ and
-Standard deviation $8\mathrm{ cm}$.
+standard deviation $8\mathrm{ cm}$.
 
 **(a)** What percentage of students are taller than $180\mathrm{ cm}$?
 

@@ -21,7 +21,7 @@ tags:
 ### Fossil Evidence
 
 The **fossil record** provides direct evidence of organisms from past geological eras, preserved in
-Sedimentary rock.
+sedimentary rock.
 
 **Key observations:**
 
@@ -87,7 +87,7 @@ Development. Result from **convergent evolution** (see Section 5).
 ### Molecular Evidence
 
 Comparing DNA, RNA, and protein sequences between species provides quantitative evidence for
-Evolutionary relationships.
+evolutionary relationships.
 
 **Cytochrome c comparisons**: cytochrome c is a highly conserved protein involved in the electron
 Transport chain. The amino acid sequence differs by a known number of residues between species:
@@ -403,9 +403,9 @@ Environmental pressures.
 
 **Distinguishing homology from convergence**: homologous structures share the same underlying
 Anatomical plan and embryological origin despite different functions; analogous structures have
-Different anatomical origins but similar functions. Molecular evidence can distinguish them:
+different anatomical origins but similar functions. Molecular evidence can distinguish them:
 Homologous traits often share similar developmental genes (e.g., Pax6 for eye development in both
-Vertebrates and cephalopods); convergent traits arise from different genetic mechanisms.
+vertebrates and cephalopods); convergent traits arise from different genetic mechanisms.
 
 ---
 
@@ -444,7 +444,7 @@ Well-defined species with little gradual transition between them.
 
 **Current synthesis**: both patterns occur. Gradual change is well-documented in some lineages;
 Punctuated equilibrium explains the apparent gaps in the fossil record. The two models are not
-Mutually exclusive.
+mutually exclusive.
 
 ---
 
@@ -567,7 +567,7 @@ $$
 $$
 
 For a completely recessive deleterious allele ($s$ against $aa$), the allele is sheltered in
-Heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).
+heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).
 
 ---
 
@@ -771,8 +771,8 @@ Time since divergence: $t = \frac{d}{2r} = \frac{44}{2 \times (1/20)} = \frac{44
 million years.
 
 The estimated divergence time is $\approx 440$ Mya. This is consistent with the fossil and
-Phylogenetic evidence that animals and fungi diverged approximately $400$--$600$ Mya. The
-Approximation is reasonable given the simplifying assumptions (constant rate, no back-mutations, No
+phylogenetic evidence that animals and fungi diverged approximately $400$--$600$ Mya. The
+approximation is reasonable given the simplifying assumptions (constant rate, no back-mutations, No
 saturation effects).
 
 </details>
@@ -838,7 +838,7 @@ $1000 \times 2^n = 0.999 \times 10^8 = 9.99 \times 10^7$. $2^n = 99900$
 $n = \frac{\ln(99900)}{\ln(2)} = \frac{11.513}{0.693} \approx 16.6$ So $17$ generations.
 
 After $17$ generations, $\approx 1000 \times 2^{17} = 1.31 \times 10^8$ bacteria, virtually all
-Carrying the resistance gene. This demonstrates how quickly resistance can spread under antibiotic
+carrying the resistance gene. This demonstrates how quickly resistance can spread under antibiotic
 Selection.
 
 </details>
@@ -847,10 +847,10 @@ Selection.
 <summary>Question 5: Phylogenetic Tree Interpretation</summary>
 
 A molecular phylogenetic tree of four species (A, B, C, D) based on a conserved gene shows the
-Following topology: ((A, B), C), D; where D is the outgroup. The branch lengths (number of
-Substitutions per site) are: A--B common ancestor = $0.02$ A--B split to present = $0.01$ each,
+following topology: ((A, B), C), D; where D is the outgroup. The branch lengths (number of
+substitutions per site) are: A--B common ancestor = $0.02$ A--B split to present = $0.01$ each,
 A--B/C common ancestor to C = $0.05$ A--B/C/D common ancestor to A--B/C common ancestor = $0.03$. (a)
-Which two species are most closely related? (b) Calculate the total evolutionary distance Between A
+which two species are most closely related? (b) Calculate the total evolutionary distance Between A
 and C. (c) Explain why D is used as an outgroup.
 
 </details>
@@ -917,7 +917,7 @@ approaches $1$.
 **Worked Example: Selection Against a Recessive Lethal Allele**
 
 Cystic fibrosis (CF) is caused by a recessive lethal allele ($c$). The disease incidence in a
-Population is $1$ in $2500$ ($q^2 = 1/2500$). If modern medicine allows CF patients to survive To
+population is $1$ in $2500$ ($q^2 = 1/2500$). If modern medicine allows CF patients to survive To
 reproductive age (changing fitness from $w_{cc} = 0$ to $w_{cc} = 0.5$), predict the new Equilibrium
 frequency of the $c$ allele after many generations.
 
@@ -947,7 +947,7 @@ equilibrium condition for a deleterious recessive:
 $\hat{q} \approx \sqrt{\frac{\mu}{s}} = \sqrt{\frac{10^{-6}}{0.5}} = \sqrt{2 \times 10^{-6}} \approx 0.0014$
 
 Wait --- this gives a lower frequency, which is incorrect. The issue is that $\mu/s$ applies when
-Mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
+mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
 and reducing selection from $s = 1$ to $s = 0.5$ The frequency will actually increase because Fewer
 $cc$ individuals are being removed.
 
@@ -1016,7 +1016,7 @@ provide a more robust argument for evolution than any single type alone.
 
 In a population of $2000$ snails, shell colour is controlled by two alleles: $B$ (brown, Dominant)
 and $b$ (yellow, recessive). The observed numbers are: $B B = 720$$Bb = 960$$bb = 320$. (a)
-Calculate the allele frequencies. (b) Test whether the population is in Hardy-Weinberg Equilibrium
+calculate the allele frequencies. (b) Test whether the population is in Hardy-Weinberg Equilibrium
 using the chi-squared test ($p = 0.05$ Critical value for $1$ df $= 3.84$). (c) If thrushes
 selectively prey on yellow snails ($bb$) with $40\%$ mortality while brown snails Are unaffected,
 calculate the new allele frequencies after one generation of selection.
@@ -1040,7 +1040,7 @@ these species if a land bridge connected the island to the mainland.
 <summary>Problem 4: Extended Response -- Antibiotic Resistance as Evolution</summary>
 
 _Methicillin-resistant Staphylococcus aureus_ (MRSA) is a major hospital-acquired infection. (a)
-Describe the genetic and biochemical mechanisms by which MRSA resists methicillin and related
+describe the genetic and biochemical mechanisms by which MRSA resists methicillin and related
 $\beta$-lactam antibiotics. (b) Explain how the overuse of antibiotics in hospitals and agriculture
 has contributed to the spread of resistance. (c) Evaluate two strategies for controlling the Spread
 of antibiotic resistance, discussing the evolutionary principles behind each.
@@ -1096,11 +1096,11 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
 **Worked Example: Hardy-Weinberg with Selection**
 
 In a population of moths, the allele for dark colour ($D$) is dominant over light colour ($d$). The
-Initial allele frequencies are $p = 0.2$ and $q = 0.8$. Light-coloured moths have a survival rate of
+initial allele frequencies are $p = 0.2$ and $q = 0.8$. Light-coloured moths have a survival rate of
 $60\%$ (selection coefficient $s = 0.4$ against the recessive phenotype). (a) Calculate the genotype
 Frequencies before selection. (b) Calculate the relative fitness of each genotype. (c) Calculate the
-Allele frequencies after one generation of selection. (d) How many generations would it take for the
-Frequency of $d$ to drop below $0.5$?
+allele frequencies after one generation of selection. (d) How many generations would it take for the
+frequency of $d$ to drop below $0.5$?
 
 <details>
 <summary>Solution</summary>
@@ -1260,8 +1260,8 @@ requiring the fewest Total character state changes.
 A diploid plant species has $2n = 14$ ($n = 7$). (a) An individual undergoes autopolyploidy. What is
 the chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
 Isolated from the diploid parent. (c) If the diploid parent produces gametes with $n = 7$ and the
-Tetraploid produces gametes with $n = 14$ What chromosome number would a triploid hybrid have, and
-Why would it be sterile?
+tetraploid produces gametes with $n = 14$ What chromosome number would a triploid hybrid have, and
+why would it be sterile?
 
 <details>
 <summary>Solution</summary>
@@ -1278,7 +1278,7 @@ Why would it be sterile?
 - This is **post-zygotic reproductive isolation** (hybrid sterility).
 
 (c) Triploid hybrid: $3n = 21$. During meiosis, the 3 homologous chromosomes attempt to pair, but
-Synapsis is irregular. Some chromosomes may form trivalents (3 chromosomes paired), others may form
+synapsis is irregular. Some chromosomes may form trivalents (3 chromosomes paired), others may form
 Bivalent + univalent (2 paired + 1 unpaired). This leads to gametes with random numbers of
 chromosomes (7, 8, 9, etc.), most of which are non-viable. The triploid is therefore sterile.
 
@@ -1292,7 +1292,7 @@ in Their evolutionary history.
 
 A population of $10\,000$ individuals is reduced to $50$ individuals by a natural disaster
 (population Bottleneck). Before the bottleneck, the frequency of a neutral allele $B$ is $0.3$. (a)
-What is the Probability that allele $B$ is lost from the population during the bottleneck? (b) After
+what is the Probability that allele $B$ is lost from the population during the bottleneck? (b) After
 the bottleneck, The population recovers to $10\,000$ individuals. Explain why the genetic diversity
 of the recovered Population is lower than the original. (c) The bottleneck population has a higher
 frequency of a rare Genetic disease (autosomal recessive, allele $d$). Explain this observation.
@@ -1305,7 +1305,7 @@ binomial Sampling of $2N_e = 100$ gene copies (from the $50$ surviving individua
 that zero Copies of $B$ are sampled is $(1 - 0.3)^{100} = 0.7^{100} \approx 3.2 \times 10^{-16}$.
 
 However, this calculation assumes the bottleneck survivors are a perfectly random sample, which is
-Unlikely. In practice, the founder effect during bottlenecks can dramatically change allele
+unlikely. In practice, the founder effect during bottlenecks can dramatically change allele
 frequencies Or eliminate alleles. The key point is that rare alleles (low frequency) are much more
 likely to be lost Than common alleles. If $B$ had frequency
 $0.01$$P(\text{loss}) = 0.99^{100} \approx 0.366$ ($37\%$).
@@ -1493,7 +1493,7 @@ susceptible to malaria; $HbS$ homozygotes: sickle-cell anaemia).
 <summary>Problem 8: Extended Response -- Reproductive Isolation Mechanisms</summary>
 
 Two populations of salamanders live on opposite sides of a mountain range. Describe the types of
-Reproductive isolation that could prevent them from interbreeding, classifying each as pre-zygotic
+reproductive isolation that could prevent them from interbreeding, classifying each as pre-zygotic
 or Post-zygotic and providing a specific example for each type.
 
 </details>
@@ -1504,7 +1504,7 @@ or Post-zygotic and providing a specific example for each type.
 **Pre-zygotic barriers** (prevent mating or fertilisation):
 
 1. **Habitat isolation**: the populations occupy different habitats and do not encounter each other.
-   Example: one population lives in fast-flowing streams, the other in still ponds.
+   example: one population lives in fast-flowing streams, the other in still ponds.
 
 2. **Temporal isolation**: the populations breed at different times. Example: one population breeds
    in spring, the other in autumn.
@@ -1533,7 +1533,7 @@ or Post-zygotic and providing a specific example for each type.
 
 The mountain range could initially cause **allopatric speciation** by creating geographic isolation.
 Over time, genetic drift and natural selection (different environments on each side) would lead to
-Divergence, potentially creating multiple pre-zygotic and post-zygotic barriers. If the populations
+divergence, potentially creating multiple pre-zygotic and post-zygotic barriers. If the populations
 were to come into secondary contact, these barriers would maintain them as separate species.
 
 </details>
@@ -1638,9 +1638,9 @@ mammalian Limb -- the same basic pentadactyl structure has been modified into th
 wing, whale Flipper, and human hand.
 
 (b) Convergent evolution is common when: (1) physical laws constrain the solutions available to
-Organisms (e.g., only certain shapes are aerodynamically efficient); (2) similar ecological niches
+organisms (e.g., only certain shapes are aerodynamically efficient); (2) similar ecological niches
 Exist in different geographic regions (e.g., desert environments favour succulent plants and
-Nocturnal animals regardless of continent); (3) there are a limited number of optimal solutions to A
+nocturnal animals regardless of continent); (3) there are a limited number of optimal solutions to A
 given problem (e.g., camera-type eyes are highly effective for image formation, so they evolved
 Independently in vertebrates, cephalopods, and some cnidarians).
 
@@ -1735,7 +1735,7 @@ used to estimate the time since they shared a common ancestor.
 
 **Calibration**: the clock must be calibrated using known divergence times from the fossil record.
 For example, if two species diverged $10\;\mathrm{Ma}$ and differ by $5\%$ in a given gene, the
-Substitution rate is $0.5\%$ per million years.
+substitution rate is $0.5\%$ per million years.
 
 ### Types of Molecular Markers
 
@@ -1869,7 +1869,7 @@ $4.5\;\mathrm{Ma}$; Gene B: $3.5\;\mathrm{Ma}$). This discrepancy is due to:
   Gene B.
 
 Using multiple loci and methods that account for rate variation (relaxed molecular clock models) can
-Provide more accurate estimates.
+provide more accurate estimates.
 
 </details>
 

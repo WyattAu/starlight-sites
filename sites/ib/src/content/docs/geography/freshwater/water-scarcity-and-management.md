@@ -21,7 +21,7 @@ description: "Study notes for Water Scarcity and Management with worked examples
 ### Physical vs Economic Scarcity
 
 Water scarcity exists when the demand for freshwater exceeds the available supply. It is critical to
-Distinguish between two fundamentally different types:
+distinguish between two fundamentally different types:
 
 **Physical water scarcity** occurs when annual renewable freshwater resources fall below a defined
 Threshold relative to population. The most widely used threshold is the Falkenmark indicator:
@@ -35,7 +35,7 @@ Inaccessible due to inadequate infrastructure (lack of dams, treatment plants, p
 Financial constraints (communities cannot afford to develop or access water), institutional failures
 (weak governance, corruption, absence of property rights), or conflict. The International Water
 Management Institute (IWMI) estimated in 2007 that approximately 1.6 billion people live in areas of
-Economic water scarcity, predominantly in Sub-Saharan Africa and parts of South and Southeast Asia.
+economic water scarcity, predominantly in Sub-Saharan Africa and parts of South and Southeast Asia.
 
 ### Water Stress Indices
 
@@ -53,8 +53,8 @@ Several composite indices measure water stress at national and subnational scale
 </div>
 
 The WRI Aqueduct tool classifies water stress into five categories: extremely high ($\gt{80}\%$ of
-Available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
-Low ($\lt{10}\%$). As of 2023, 17 countries extract more than 80% of their available renewable
+available supply withdrawn), high (40--80%), medium to high (20--40%), low to medium (10--20%), and
+low ($\lt{10}\%$). As of 2023, 17 countries extract more than 80% of their available renewable
 Freshwater annually, including Saudi Arabia, Egypt, United Arab Emirates, and Pakistan.
 
 ## Scale of the Global Water Crisis
@@ -75,14 +75,14 @@ The United Nations World Water Development Report (2023) documents the scale of 
 ## Supply-Side Management Strategies
 
 Supply-side strategies increase the quantity of freshwater available for use. They are essential in
-Regions of physical water scarcity but often involve high capital costs, significant environmental
+regions of physical water scarcity but often involve high capital costs, significant environmental
 Impacts, and long lead times.
 
 ### Dams and Reservoirs
 
 Dams create reservoirs that store water during wet periods for release during dry periods, providing
 A more reliable and constant supply. The world has over 57 000 large dams (exceeding 15 m in
-Height).
+height).
 
 **Advantages:** reliable year-round supply, flood control downstream, hydroelectric power
 Generation, recreational amenities, irrigation for agriculture.
@@ -110,7 +110,7 @@ M$^3$/day).
 
 **Costs and limitations:** energy-intensive (approximately 3--4 kWh per m$^3$ by RO, higher for
 Thermal methods); brine disposal contaminates marine environments (global brine production is
-Approximately 142 million m$^3$/day, with ecological impacts including increased salinity,
+approximately 142 million m$^3$/day, with ecological impacts including increased salinity,
 Temperature, and heavy metal concentrations); high capital cost (approximately USD 0.5--1.5 per
 M$^3$ for RO, depending on scale and energy costs).
 
@@ -165,7 +165,7 @@ Metering, public education) can achieve water security even in a water-scarce co
 ## Case Study: The Colorado River, USA/Mexico
 
 The Colorado River basin illustrates the consequences of over-allocation and the challenges of
-Managing a transboundary water resource under increasing scarcity.
+managing a transboundary water resource under increasing scarcity.
 
 **Over-allocation.** The Colorado Compact of 1922 allocated 7.5 million acre-feet (approximately
 9.25 billion m$^3$) per year to each of the upper and lower basin states, plus 1.5 million acre-feet
@@ -182,7 +182,7 @@ other contaminants.
 
 **Management response.** The 2023 post-2026 operating guidelines commit the lower basin states to
 Reducing consumption by approximately 3 million acre-feet by 2026, with federal compensation for
-Water conservation. Longer-term strategies include water recycling (the Metropolitan Water District
+water conservation. Longer-term strategies include water recycling (the Metropolitan Water District
 of Southern California is constructing a recycling facility that will produce approximately 570 000
 M$^3$/day of purified water by 2028), agricultural efficiency improvements, and potentially
 Desalination.
@@ -190,7 +190,7 @@ Desalination.
 ## Case Study: Singapore NEWater
 
 Singapore (population approximately 5.9 million) has limited natural freshwater resources and no
-Significant aquifers. Despite this, it has achieved near-universal access to clean water through the
+significant aquifers. Despite this, it has achieved near-universal access to clean water through the
 "Four National Taps" strategy:
 
 1. **Local catchment:** approximately 17 reservoirs capture rainfall from approximately two-thirds
@@ -206,7 +206,7 @@ Singapore's governance model is distinctive: the Public Utilities Board (PUB) ma
 Water cycle in an integrated manner. Water is priced at full cost recovery with a conservation
 Tariff that increases with consumption volume, creating strong incentives for conservation. Domestic
 Water consumption has declined from approximately 165 litres per person per day in 2003 to
-Approximately 141 litres per person per day in 2023.
+approximately 141 litres per person per day in 2023.
 
 ## Case Study: China South-North Water Transfer Project
 
@@ -236,7 +236,7 @@ Depletion: the aquifer beneath the plain has declined by over 50 m in some areas
 
 **Impacts.** The Central Route now supplies approximately 70% of Beijing's municipal water. However,
 The project has been criticised for its enormous cost (estimated at over USD 62 billion), the
-Displacement of communities, reduced flows in the lower Yangtze and Han rivers (with ecological
+displacement of communities, reduced flows in the lower Yangtze and Han rivers (with ecological
 Consequences including reduced fish habitat and increased saltwater intrusion in the Yangtze
 Estuary), and the perpetuation of unsustainable water consumption patterns in northern China.
 

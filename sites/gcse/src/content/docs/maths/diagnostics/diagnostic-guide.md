@@ -108,7 +108,7 @@ Geometry (area, perimeter)
 5. If you score FAIL on a topic, review the source file and practise additional problems before
    retrying.
 6. Integration Tests combine skills from multiple topics -- these are essential for Paper 2 and
-   Paper 3 preparation.
+   paper 3 preparation.
 7. Common pitfalls to watch: percentage change vs percentage of, confusing median and mean,
    forgetting units in compound measures.
 

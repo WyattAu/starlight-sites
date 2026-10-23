@@ -37,8 +37,8 @@ Physics syllabus.
 ### Why the Distinction Matters
 
 Only transverse waves can be polarised. Sound cannot be polarised because it is longitudinal. The
-Fact that light can be polarised (by Polaroid filters) was historically important evidence that
-Light is a transverse wave, not a longitudinal one as Newton had believed.
+fact that light can be polarised (by Polaroid filters) was historically important evidence that
+light is a transverse wave, not a longitudinal one as Newton had believed.
 
 ### Wave Terminology (OL/HL)
 
@@ -134,13 +134,13 @@ $$
 ### Optical Fibres (HL)
 
 Optical fibres use total internal reflection to transmit light signals. Light enters the fibre and
-Reflects off the walls, travelling along the fibre with minimal loss. Applications include
+reflects off the walls, travelling along the fibre with minimal loss. Applications include
 Telecommunications (high bandwidth, low signal loss over long distances) and medicine (endoscopes).
 
 ### Why Total Internal Reflection Only Occurs Denser to Less Dense
 
 The refracted ray bends away from the normal as the wave speeds up. At the critical angle, the
-Refracted ray travels along the boundary ($\theta_2 = 90^\circ$). Beyond this angle, there is
+refracted ray travels along the boundary ($\theta_2 = 90^\circ$). Beyond this angle, there is
 nowhere for The refracted ray to go, so all the light is reflected. When going from less dense to
 more dense, The refracted ray always bends toward the normal and there is no critical angle.
 
@@ -155,7 +155,7 @@ Diffraction is the spreading of waves when they pass through a gap or around an 
 
 By Huygens' principle, every point on a wavefront acts as a source of secondary wavelets. If the gap
 is much wider than the wavelength, most of the wavefront passes through undisturbed, and only the
-Edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
+edges show significant spreading. If the gap is comparable to the wavelength, the secondary wavelets
 from all parts of the gap overlap significantly, producing broad spreading.
 
 ### Single Slit Diffraction (HL)
@@ -280,7 +280,7 @@ All EM waves travel at $c = 3 \times 10^8\mathrm{ m/s$ in a vacuum.
 The energy of a photon is $E = hf$. Higher frequency means higher energy per photon. This is why
 Gamma rays (very high frequency) are extremely dangerous: each photon carries enough energy to break
 Chemical bonds and damage DNA. Radio photons have such low energy that they are harmless to
-Biological tissue.
+biological tissue.
 
 ## Sound Waves
 
@@ -328,7 +328,7 @@ $$
 
 The human ear can detect intensities spanning $10^{12}$. A linear scale would require numbers from 1
 to a trillion. The logarithmic decibel scale compresses this range to 0--120 dB, which is far more
-Manageable. A 3 dB increase corresponds to a doubling of intensity.
+manageable. A 3 dB increase corresponds to a doubling of intensity.
 
 ## Doppler Effect (HL)
 
@@ -425,7 +425,7 @@ $$
 ## 11. Worked Example: Single Slit Diffraction and Intensity (HL)
 
 Light of wavelength $500 \mathrm{ nm$ passes through a slit of width $0.05 \mathrm{ mm$. Find the
-Angular width of the central maximum and the angles of the first two minima.
+angular width of the central maximum and the angles of the first two minima.
 
 **Central maximum half-width:**
 
@@ -485,7 +485,7 @@ $$
 $$
 
 Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$ Not $163 \mathrm{ dB$. If two
-Sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
+sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
 
 ### Worked Example: Inverse Square Law for Sound
 
@@ -504,7 +504,7 @@ $$
 ### Worked Example: Refraction Through a Glass Block (HL)
 
 A ray of light enters a rectangular glass block at $40^{\circ}$ to the normal. The glass has
-Refractive index $1.5$. The block is $6 \mathrm{ cm$ thick. Find the lateral displacement of the
+refractive index $1.5$. The block is $6 \mathrm{ cm$ thick. Find the lateral displacement of the
 ray.
 
 **At entry:**
@@ -543,7 +543,7 @@ $$
 ### Worked Example: Frequency Shift for Radar
 
 A police radar gun operates at $24.15 \mathrm{ GHz$. A car approaches at $30 \mathrm{ m/s$. The
-Reflected wave is Doppler-shifted twice.
+reflected wave is Doppler-shifted twice.
 
 The frequency received by the car:
 
@@ -607,7 +607,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
     of light.
 
 9. An optical fibre has a core refractive index of $1.48$ and cladding refractive index of $1.42$.
-    Calculate the critical angle and explain why this fibre can transmit signals around bends.
+    calculate the critical angle and explain why this fibre can transmit signals around bends.
 
 10. Explain the difference between coherent and incoherent sources. Why are two independent light
     bulbs unable to produce a stable interference pattern?
@@ -708,7 +708,7 @@ f' = 440 \times \frac{343}{343 - 25} = 440 \times \frac{343}{318} = 440 \times 1
 $$
 
 The frequency shift is slightly different for a moving source vs a moving observer at the same
-Speed. This asymmetry is a key feature of the classical Doppler effect.
+speed. This asymmetry is a key feature of the classical Doppler effect.
 
 ### Example 23: Refraction Through a Prism
 
@@ -775,7 +775,7 @@ Or using the formula: $D = i + e - A = 45° + 52.48° - 60° = 37.48^\circ$.
 ### Pitfall 6: Forgetting That Light Slows Down in Denser Media
 
 The speed of light in a medium is $v = c/n$. Many students incorrectly believe light speeds up in
-Glass. Higher refractive index means slower speed and shorter wavelength (frequency stays constant).
+glass. Higher refractive index means slower speed and shorter wavelength (frequency stays constant).
 
 ### Pitfall 7: Incorrect Application of Snell's Law at Curved Surfaces
 
@@ -786,9 +786,9 @@ Use the lens maker's equation or the thin lens formula.
 ### Pitfall 8: Confusing Diffraction and Refraction
 
 Diffraction is the spreading of waves around obstacles or through gaps. Refraction is the bending of
-Waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
+waves due to a change in speed. They are different phenomena. Diffraction is most pronounced when
 the gap size is comparable to the wavelength; refraction occurs at boundaries between media of
-Different densities.
+different densities.
 
 ## Additional Practice Problems
 

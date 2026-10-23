@@ -328,7 +328,7 @@ Bounds checking.
 ## 6. Arrays of Records
 
 An array of records combines both structures: each element of the array is a record. This is
-Extremely common in practice.
+extremely common in practice.
 
 ```python
 students = [
@@ -397,7 +397,7 @@ $O(n)$ time.
 <summary>Answer</summary>
 
 All $n$ existing elements must be shifted one position to the right to make room at index 0. Each
-Shift is a constant-time assignment, so the total cost is $n$ assignments = $O(n)$.
+shift is a constant-time assignment, so the total cost is $n$ assignments = $O(n)$.
 
 </details>
 
@@ -522,7 +522,7 @@ the offset of each field and the total size of the record.
 <summary>Hint</summary>
 
 Place each field at an offset that is a multiple of its alignment requirement. Pad between fields if
-Needed, and pad at the end to make the total a multiple of the largest alignment.
+needed, and pad at the end to make the total a multiple of the largest alignment.
 
 </details>
 
@@ -548,7 +548,7 @@ Total size: 56 bytes.
 The `title` field occupies offsets 0–29. Offset 30 is not a multiple of 8 (required for `price`), so
 2 bytes of padding are added. After `pages` at offset 32 (4 bytes), offset 36 is not a multiple of
 8, so 4 more bytes of padding. After `available` at offset 48 (1 byte), 7 bytes of padding bring the
-Total to 56 (a multiple of 8).
+total to 56 (a multiple of 8).
 
 </details>
 
@@ -593,7 +593,7 @@ Used by `S` and `D`. Which uses more memory and why?
 <summary>Hint</summary>
 
 The static array allocates exactly 100 slots. The dynamic array doubles at powers of 2, what is the
-Capacity after 100 insertions?
+capacity after 100 insertions?
 
 </details>
 
@@ -606,7 +606,7 @@ Dynamic array `D`: After 100 insertions, capacity is 128 (next power of 2 ≥ 10
 Sequence is 1, 2, 4, 8, 16, 32, 64, 128). Memory used: $128 \times 4 = 512$ bytes.
 
 The dynamic array uses **112 more bytes** (28% more) because it pre-allocates extra capacity to
-Achieve $O(1)$ amortised append. However, the static array cannot grow beyond 100 elements, while
+achieve $O(1)$ amortised append. However, the static array cannot grow beyond 100 elements, while
 the dynamic array can continue to accept more.
 
 </details>
@@ -618,7 +618,7 @@ Arrays. Your answer should reference memory allocation and performance.
 <summary>Hint</summary>
 
 Consider where each type is stored (stack vs heap), whether the size can change, and the
-Implications for performance and memory efficiency.
+implications for performance and memory efficiency.
 
 </details>
 
@@ -637,7 +637,7 @@ Implications for performance and memory efficiency.
 1. **Fixed size:** Cannot grow or shrink. If you need more elements, you must create a new array and
    copy (or pick a larger size upfront, wasting memory).
 2. **Stack overflow risk:** Large static arrays stored on the stack can cause stack overflow. The
-Stack is limited (e.g., 1–8 MB), while the heap is much larger.
+stack is limited (e.g., 1–8 MB), while the heap is much larger.
 
 </details>
 
@@ -650,7 +650,7 @@ M = [[5, 12, 3, 8],
 ```
 
 Write pseudocode to calculate the sum of all elements in row 1, and the sum of all elements in
-Column 2.
+column 2.
 
 <details>
 <summary>Hint</summary>
@@ -703,7 +703,7 @@ What is the address of `A[2][1]`? What value is stored there?
 <summary>Hint</summary>
 
 Use the row-major formula: $\mathrm{addr}(A[i][j]) = b + (i \cdot n + j) \cdot s$ where $n$ is the
-Number of columns.
+number of columns.
 
 </details>
 
@@ -724,7 +724,7 @@ Verification of all addresses:
 
 **Problem 9.** Write pseudocode to insert the value 25 at index 2 of the array
 `A = {10, 20, 30, 40, 50}`. The array has capacity for 6 elements and currently holds 5. Show the
-State of the array after the insertion.
+state of the array after the insertion.
 
 <details>
 <summary>Hint</summary>
@@ -761,7 +761,7 @@ This takes $O(n)$ time because $n - 2 = 3$ elements were shifted.
 
 **Problem 10.** (Exam-style) A school needs to store data about 500 students. For each student, they
 Need: name (string), age (integer), and a list of up to 10 exam grades (integers). The system must
-Support: (a) looking up any student by their position in a class list, (b) calculating the average
+support: (a) looking up any student by their position in a class list, (b) calculating the average
 Grade for a student, (c) adding a new student to the end of the list when they enrol. Evaluate
 whether a static array, a dynamic array, or an array of records is the most appropriate data
 Structure. Justify your choice with reference to the operations required and their time

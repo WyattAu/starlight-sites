@@ -18,7 +18,7 @@ description: "Culture refers to the shared values, beliefs, norms, customs, and 
 ## Introduction
 
 Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a
-Social group. Cultural norms are the unwritten rules that govern behaviour within a particular
+social group. Cultural norms are the unwritten rules that govern behaviour within a particular
 Cultural context. Understanding cultural norms and how they shape attitudes and behaviour is central
 to the sociocultural level of analysis, because culture is one of the most powerful environmental
 Influences on human behaviour.
@@ -29,7 +29,7 @@ Influences on human behaviour.
 
 Geert Hofstede conducted one of the most comprehensive cross-cultural studies of work-related
 Values, surveying over 100,000 IBM employees across more than 50 countries between 1967 and 1973.
-From this data, Hofstede identified several dimensions along which national cultures vary.
+from this data, Hofstede identified several dimensions along which national cultures vary.
 
 **1. Individualism versus Collectivism**
 
@@ -57,7 +57,7 @@ that power is distributed unequally.
 **3. Uncertainty Avoidance**
 
 Uncertainty avoidance refers to the extent to which members of a culture feel threatened by
-Ambiguous or unknown situations.
+ambiguous or unknown situations.
 
 - **High uncertainty avoidance cultures** (e.g., Japan, Greece, Portugal) have strict laws, formal
   rules, and procedures to reduce uncertainty. They are less tolerant of deviant behaviour and
@@ -140,12 +140,12 @@ Autonomy and independent judgment are valued, and deviation from the group is mo
 ### Berry (1967): Conformity in Two Cultures
 
 Berry studied conformity and independence in two very different cultures: the Temne (a
-Collectivistic, agricultural society in Sierra Leone) and the Inuit (an individualistic,
+collectivistic, agricultural society in Sierra Leone) and the Inuit (an individualistic,
 Hunter-gatherer society in the Canadian Arctic).
 
 **Methodology:** Berry adapted the Asch paradigm using lines of different lengths, but the task was
 Made ecologically valid for each culture. Participants were shown a standard line and asked to
-Identify which of several comparison lines matched it.
+identify which of several comparison lines matched it.
 
 **Key findings:**
 
@@ -183,16 +183,16 @@ through:
 ### Acculturation
 
 Acculturation is the process of psychological and cultural change that occurs when two or more
-Cultural groups come into sustained contact. Acculturation is particularly relevant for immigrants,
+cultural groups come into sustained contact. Acculturation is particularly relevant for immigrants,
 Refugees, and members of ethnic minority groups who must navigate between their heritage culture and
 the dominant culture of the host society.
 
 ### Berry's Model of Acculturation Strategies
 
 John Berry (1997) proposed a model of acculturation based on two dimensions: (1) the extent to which
-Individuals wish to maintain their heritage culture, and (2) the extent to which individuals wish to
-Participate in the dominant culture. The intersection of these two dimensions produces four
-Acculturation strategies:
+individuals wish to maintain their heritage culture, and (2) the extent to which individuals wish to
+participate in the dominant culture. The intersection of these two dimensions produces four
+acculturation strategies:
 
 <div class="table-wrap">
 
@@ -218,7 +218,7 @@ Acculturation strategies:
 
 Heine and colleagues investigated whether the self-enhancement motive (the tendency to view oneself
 Positively) is universal or culturally variable. In individualistic cultures, self-enhancement is
-Normative and associated with psychological well-being. In collectivistic cultures, self-criticism
+normative and associated with psychological well-being. In collectivistic cultures, self-criticism
 may be more adaptive.
 
 **Key findings:**
@@ -232,7 +232,7 @@ may be more adaptive.
 
 **Interpretation:** The self-enhancement motive is not universal. In collectivistic cultures,
 Maintaining group harmony is more important than promoting one's own positive self-image, and
-Self-criticism serves as a mechanism for identifying areas where self-improvement is needed.
+self-criticism serves as a mechanism for identifying areas where self-improvement is needed.
 
 <details>
 <summary>Common Pitfalls: Cultural Norms and Attitudes</summary>

@@ -161,7 +161,7 @@ questions on Paper 2 and Paper 3.
 
 - **Economic development:** The demographic dividend -- a period when the working-age population is
   large relative to dependents -- is a key driver of economic growth in transitioning economies. The
-  East Asian Tigers (South Korea, Taiwan, Singapore) exploited this window in the late twentieth
+  east Asian Tigers (South Korea, Taiwan, Singapore) exploited this window in the late twentieth
   century; sub-Saharan African countries are approaching it now. Conversely, ageing populations in
   Japan and Western Europe create labour shortages and increased dependency costs that constrain
   fiscal policy and require immigration to sustain economic output.

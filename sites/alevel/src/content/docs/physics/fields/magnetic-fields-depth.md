@@ -53,7 +53,7 @@ $$
 
 **Derivation from the wire force.** Current in a wire: $I = nqvA$ where $n$ is the number density of
 Charge carriers, $q$ is the charge per carrier, $v$ is the drift velocity, and $A$ is the
-Cross-sectional area. The number of carriers in length $L$ is $nAL$. The force is:
+cross-sectional area. The number of carriers in length $L$ is $nAL$. The force is:
 
 $$
 F = BIL\sin\theta = B(nqvA)L\sin\theta = (nAL) \cdot Bqv\sin\theta
@@ -115,7 +115,7 @@ $$
 <details>
 <summary>Worked Example: Proton and Alpha Particle</summary>
 A proton and an alpha particle enter a magnetic field with the same speed. The alpha particle has
-Charge $+2e$ and mass $4m_p$. Compare their radii of curvature.
+charge $+2e$ and mass $4m_p$. Compare their radii of curvature.
 
 **Answer.** $r = mv/(Bq)$.
 
@@ -196,7 +196,7 @@ $$
 
 **Energy conservation argument.** If the induced current reinforced the flux change rather than
 Opposing it, a self-amplifying cycle would create energy from nothing. The opposition ensures that
-Work must be done to maintain the flux change, and this work appears as electrical energy.
+work must be done to maintain the flux change, and this work appears as electrical energy.
 
 :::tip
 rule to find The induced current direction.
@@ -289,7 +289,7 @@ Modern transformers achieve efficiencies exceeding 95% for power distribution ap
 <summary>Worked Example: Step-Down Transformer</summary>
 A transformer with 2400 turns on the primary and 120 turns on the secondary is connected to 240 V AC.
 The secondary delivers 8.0 A to a load. Assuming ideal behaviour, find the secondary voltage and
-Primary current.
+primary current.
 
 **Answer.** $V_s = V_p \times N_s/N_p = 240 \times 120/2400 = 12$ V.
 
@@ -329,7 +329,7 @@ $$
 $\square$
 
 This is the magnetic analogue of $\frac{1}{2}CV^2$ for capacitors. The energy is stored in the
-Magnetic field, with energy density $u = B^2/(2\mu_0)$.
+magnetic field, with energy density $u = B^2/(2\mu_0)$.
 
 ## 10. Force Between Parallel Current-Carrying Wires
 
@@ -375,7 +375,7 @@ N.
 <details>
 <summary>Problem 2</summary>
 An electron moves at $2.0 \times 10^6$ m s$^{-1}$ perpendicular to a 0.80 T field. Calculate the
-Radius of its circular path.
+radius of its circular path.
 
 **Answer.**
 $r = \frac{m_e v}{Be} = \frac{9.11 \times 10^{-31} \times 2.0 \times 10^6}{0.80 \times 1.60 \times 10^{-19}} = 1.42 \times 10^{-5}$

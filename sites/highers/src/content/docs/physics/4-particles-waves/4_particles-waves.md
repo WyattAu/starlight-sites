@@ -45,7 +45,7 @@ Not its frequency. A sufficiently intense low-frequency light should eventually 
 This does not happen. Einstein's explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
-Intensity. This was one of the key experiments that led to quantum mechanics.
+intensity. This was one of the key experiments that led to quantum mechanics.
 
 **Einstein's Photoelectric Equation:**
 
@@ -147,7 +147,7 @@ Where $\hbar = \dfrac{h}{2\pi}$.
 ### Why the Uncertainty Principle Is Not About Measurement Error
 
 The uncertainty principle is not a statement about the limitations of our instruments. It is a
-Fundamental property of nature: a particle does not have simultaneously well-defined position And
+fundamental property of nature: a particle does not have simultaneously well-defined position And
 momentum. This has profound consequences: it explains why electrons cannot spiral into the Nucleus
 (confinement to a small volume requires large momentum, preventing collapse), and it sets a Limit on
 the precision of any physical theory.
@@ -218,7 +218,7 @@ The Standard Model classifies fundamental particles into:
 ### Why Quarks Are Never Found in Isolation
 
 The strong force between quarks increases with distance (unlike gravity and electromagnetism, which
-Decrease with distance). This phenomenon, called **colour confinement**, means that separating
+decrease with distance). This phenomenon, called **colour confinement**, means that separating
 Quarks requires more and more energy, until it becomes energetically favourable to create new
 Quark-antiquark pairs. The result is that quarks are always found in colour-neutral combinations:
 Baryons (three quarks) and mesons (quark-antiquark pair).
@@ -282,7 +282,7 @@ Point is the sum of the individual displacements.
 ### Stationary Waves
 
 A stationary (standing) wave is formed by the superposition of two progressive waves of the same
-Frequency travelling in opposite directions.
+frequency travelling in opposite directions.
 
 **Nodes:** Points of zero amplitude.
 
@@ -323,7 +323,7 @@ $$
 
 At the closed end, there must be a displacement node (the air cannot move). At the open end, there
 is a displacement antinode. The fundamental has a quarter wavelength fitting in the pipe. The second
-Harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
+harmonic would require three-quarters of a wavelength, which gives the frequency $3f_1$. The pattern
 Continues with only odd multiples of the fundamental.
 
 ### Doppler Effect
@@ -456,7 +456,7 @@ Threshold wavelength:
 $\lambda_0 = \frac{c}{f_0} = \frac{3 \times 10^8}{5.09 \times 10^{14}} = 5.89 \times 10^{-7} \mathrm{ m = 589 \mathrm{ nm$
 
 This is in the yellow part of the visible spectrum, so sodium only emits photoelectrons when
-Illuminated with blue, violet, or UV light.
+illuminated with blue, violet, or UV light.
 
 ### Worked Example: Photoelectric Current
 
@@ -488,8 +488,8 @@ $I = ne = 2.16 \times 10^{15} \times 1.6 \times 10^{-19} = 3.45 \times 10^{-4} \
 ### Worked Example: Electron Diffraction
 
 Electrons are accelerated through a potential difference of $500 \mathrm{ V$. They pass through a
-Thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
-Angle of $1.8^{\circ}$. Calculate the atomic spacing.
+thin crystal and produce a diffraction pattern. The first diffraction maximum is observed at an
+angle of $1.8^{\circ}$. Calculate the atomic spacing.
 
 $$
 E_k = eV = 500 \mathrm{ eV = 8.0 \times 10^{-17} \mathrm{ J

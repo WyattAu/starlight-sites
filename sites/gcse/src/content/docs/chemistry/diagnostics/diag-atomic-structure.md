@@ -255,7 +255,7 @@ Calculate the percentage abundance of each isotope. Show your working.
 original postulates needed to be changed.
 
 (d) A scientist determines that an element has an $A_r$ of 28.1. Which element is this likely to be?
-Using your knowledge of the periodic table, give its group number, period, and electron
+using your knowledge of the periodic table, give its group number, period, and electron
 configuration.
 
 **Solution:**

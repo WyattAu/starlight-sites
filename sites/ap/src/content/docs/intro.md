@@ -52,7 +52,7 @@ Each AP exam consists of two sections:
 
 The FRQ section requires detailed written responses showing all work, reasoning, and justification.
 These notes emphasize the conceptual understanding and problem-solving skills needed for both
-Sections.
+sections.
 
 ## How to Use These Notes
 

@@ -73,7 +73,7 @@ $$
 
 Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on goods and services.
 Transfer payments are not directly part of $G$, they affect $AD$ indirectly through their effect on
-Disposable income and hence consumption ($C$).
+disposable income and hence consumption ($C$).
 
 :::caution
 They affect $C$ Not $G$ directly. However, exam questions sometimes use "government spending" loosely
@@ -171,7 +171,7 @@ _Proportional tax_ (10% flat tax on all income):
 ATR constant. ✓
 
 _Regressive tax_ (VAT at 20% on all consumption, assuming lower earners spend a larger share of
-Income):
+income):
 
 - £10,000 earner spends £9,500, pays £1,900 in VAT → ATR = 19.0%
 - £30,000 earner spends £22,000, pays £4,400 in VAT → ATR = 14.7%
@@ -209,7 +209,7 @@ $$
 $$
 
 The key debate is **where** $t^*$ lies. Supply-side economists (e.g., Arthur Laffer) argue that many
-Economies are already to the right of $t^*$ So cutting rates would increase revenue. Empirical
+economies are already to the right of $t^*$ So cutting rates would increase revenue. Empirical
 Evidence is mixed.
 
 ## 4. Budget Deficit and National Debt
@@ -254,12 +254,12 @@ Where $r$ is the average interest rate on government debt and $g$ is the GDP gro
 
 **Key insight**: If $g > r$ The debt-to-GDP ratio can fall even with a primary deficit (before
 Interest payments), because GDP is growing faster than the debt stock. If $r > g$ Debt dynamics are
-Unstable, the debt ratio grows unless offset by primary surpluses.
+unstable, the debt ratio grows unless offset by primary surpluses.
 
 ### 4.3 Sustainability
 
 A government's debt is sustainable if it can continue to service it without default. Indicators of
-Concern:
+concern:
 
 - Debt-to-GDP ratio above 90% (Reinhart & Rogoff threshold, though contested)
 - Interest payments exceeding 10% of tax revenue
@@ -360,7 +360,7 @@ $$
 
 **Resource crowding out**: if the economy is at full employment, government spending uses resources
 That would otherwise be employed by the private sector. The increase in $G$ bids up wages and
-Prices, reducing private sector profitability.
+prices, reducing private sector profitability.
 
 **Full vs partial crowding out**:
 
@@ -434,7 +434,7 @@ $$
 
 Where $Y^*$ is potential output. During a recession ($Y < Y^*$), $BB_{cyclical} < 0$ (the deficit
 Widens automatically). During a boom ($Y > Y^*$), $BB_{cyclical} > 0$ (the deficit narrows or a
-Surplus emerges).
+surplus emerges).
 
 ### 7.4 Discretionary vs Automatic Fiscal Policy
 
@@ -503,7 +503,7 @@ On AD.**
 
 _Argument._ Rational, forward-looking households anticipate that current government borrowing
 Implies future tax increases to repay the debt. They increase saving by exactly the amount of the
-Deficit to pay the expected future taxes:
+deficit to pay the expected future taxes:
 
 $$
 \Delta G \mathrm{ (deficit-financed)} \Rightarrow \Delta S_{private} = \Delta G \Rightarrow \Delta C = 0
@@ -533,7 +533,7 @@ In response to the Global Financial Crisis, the UK government introduced:
 - Increased public spending (infrastructure, education)
 
 The budget deficit rose from 2.7% of GDP (2007–08) to 10.2% (2009–10). The OBR estimated the
-Multiplier for the VAT cut at approximately 0.3–0.5 (small, due to the open economy and temporary
+multiplier for the VAT cut at approximately 0.3–0.5 (small, due to the open economy and temporary
 Nature).
 
 ### 9.2 Austerity (2010–2018)
@@ -545,7 +545,7 @@ The Coalition government (2010) implemented austerity measures:
 - VAT increase from 17.5% to 20% (January 2011)
 
 This was contractionary fiscal policy aimed at reducing the deficit. Critics argue it prolonged the
-Recovery; supporters argue it was necessary for market confidence and debt sustainability.
+recovery; supporters argue it was necessary for market confidence and debt sustainability.
 
 ### 9.3 COVID-19 Response (2020–2021)
 
@@ -563,8 +563,8 @@ Large (1.0–1.5) because the economy was in a deep recession with the zero lowe
 
 **Problem 1.** An economy has MPC = 0.8, MPT = 0.2, MPM = 0.15. The government increases spending by
 £50 billion. (a) Calculate the multiplier. (b) Calculate the total change in GDP. (c) If the
-Government had instead cut taxes by £50 billion, what would the change in GDP be? (d) Compare the
-Two approaches.
+government had instead cut taxes by £50 billion, what would the change in GDP be? (d) Compare the
+two approaches.
 
 <details>
 <summary>Hint</summary>
@@ -609,7 +609,7 @@ Arguments for: (1) No time lags, operate immediately as the cycle turns. (2) No 
 
 **Problem 6.** The national debt is £2.7 trillion and GDP is £3.0 trillion. Interest payments on the
 Debt are £110 billion. GDP growth is 2.5% per year. (a) Calculate the debt-to-GDP ratio. (b) If the
-Primary deficit is £50 billion, will the debt-to-GDP ratio rise or fall next year? (c) Explain your
+primary deficit is £50 billion, will the debt-to-GDP ratio rise or fall next year? (c) Explain your
 Reasoning.
 
 <details>

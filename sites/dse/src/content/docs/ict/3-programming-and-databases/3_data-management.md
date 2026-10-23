@@ -407,7 +407,7 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 ### Hong Kong: Personal Data Privacy Ordinance (PDPO)
 
 The PDPO (Cap. 486) is Hong Kong's primary data protection law, enforced by the Office of the
-Privacy Commissioner for Personal Data (PCPD).
+privacy Commissioner for Personal Data (PCPD).
 
 **Six Data Protection Principles (DPPs):**
 
@@ -775,7 +775,7 @@ Answer:
 <summary>Question 2: Database Models Comparison</summary>
 
 A school needs to manage student records, including personal details, enrolment in subjects, and
-Term grades.
+term grades.
 
 (a) Explain why a relational database is more suitable than a flat-file database for this purpose.
 
@@ -792,13 +792,13 @@ Subject-term combination, causing data redundancy. (2) If a student's class chan
 Requires updating every row for that student, risking inconsistency. A relational database stores
 the Student details once in a Student table and references them via foreign keys. (3) The relational
 model Supports complex queries (e.g., "find all students who scored above 80 in both Maths and
-English") That would be extremely difficult with a flat file.
+english") That would be extremely difficult with a flat file.
 
 (b) **Advantages over hierarchical:** (1) Relational databases support many-to-many relationships
 (e.g., students to subjects), while hierarchical databases only support one-to-many. (2) Relational
 Databases use SQL for flexible querying; hierarchical databases require navigation through the tree
 Structure. **Disadvantage:** Relational databases are more complex to design, requiring knowledge of
-Normalisation and SQL, while hierarchical databases have a simpler tree structure that is intuitive
+normalisation and SQL, while hierarchical databases have a simpler tree structure that is intuitive
 for hierarchical data.
 
 (c) **Tables and keys:**
@@ -833,7 +833,7 @@ informing members. Analyse whether this violates the PDPO.
 Answer:
 
 (a) **DPP 1 (Purpose and collection):** The fitness centre must inform members at the time of
-Collection that their data will be used for promotional emails. The purpose must be lawful and
+collection that their data will be used for promotional emails. The purpose must be lawful and
 specific. **DPP 3 (Use):** The data should only be used for the stated purpose (promotional emails
 about the Fitness centre's own services). Using it for other purposes requires additional consent.
 **DPP 4 (Security):** The fitness centre must implement appropriate security measures (encryption,
@@ -848,7 +848,7 @@ depends on Whether the data is still needed for the stated purpose. If the membe
 their membership And the data is no longer needed, DPP 2 (retention) suggests it should be deleted.
 
 (c) Yes, this likely violates DPP 1 (purpose and collection) and DPP 3 (use). Members provided their
-Email addresses for the fitness centre's own promotional purposes. Sharing with a third-party
+email addresses for the fitness centre's own promotional purposes. Sharing with a third-party
 Supplement company is a different purpose that was not stated at collection. Under DPP 3, personal
 data Must only be used for the purpose stated at collection or a directly related purpose. Selling
 or sharing Email addresses with an unrelated third party without consent violates this principle.
@@ -926,11 +926,11 @@ revenue By enabling precisely targeted marketing.
 
 (b) **Ethical concern 1: Informed consent and transparency.** Users may not fully understand how
 their Data is being collected, analysed, and used for profiling. Privacy policies are often long and
-Complex, and users may not realise the extent of profiling.
+complex, and users may not realise the extent of profiling.
 
 **Ethical concern 2: Discrimination and manipulation.** Targeted advertising based on detailed
 Profiles can be used to manipulate behaviour (e.g., showing job ads only to certain demographics) or
-Exploit vulnerable users (e.g., targeting gambling ads at individuals with behavioural patterns
+exploit vulnerable users (e.g., targeting gambling ads at individuals with behavioural patterns
 Suggesting addiction).
 
 (c) **Measure 1:** Provide clear, concise privacy notices that explain in plain language what data

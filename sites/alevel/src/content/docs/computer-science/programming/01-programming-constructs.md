@@ -25,7 +25,7 @@ categories:
 ### Variables
 
 A **variable** is a named storage location in memory that holds a value which can change during
-Program execution.
+program execution.
 
 ### Primitive Data Types
 
@@ -81,7 +81,7 @@ else:
 ### Nested Selection
 
 Selection statements can be nested, but excessive nesting reduces readability. Use guard clauses or
-Early returns where possible.
+early returns where possible.
 
 ```python
 def classify_grade(score):
@@ -165,7 +165,7 @@ while True:
 
 :::note
 And `WHILE ... ENDWHILE`. **CIE (9618)** uses its own pseudocode format; requires procedure and
-Function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
+function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode format; requires
 Local and global variable scope understanding. **Edexcel** uses pseudocode similar to Python-style;
 Requires subroutines with parameters.
 :::
@@ -213,7 +213,7 @@ $$
 **Proof.** Define a **variant function** $V(n) = n$. Each recursive call decreases $V$ by 1:
 $V(n-1) = n - 1 \lt n = V(n)$. $V$ is a non-negative integer that strictly decreases. By the
 Well-ordering principle, $V$ must eventually reach a base case ($V = 0$ or $V = 1$). Therefore, the
-Recursion terminates. $\square$
+recursion terminates. $\square$
 
 ### Example: Fibonacci
 
@@ -326,7 +326,7 @@ Base case ($d = 1$): $n \lt 10$ Returns $n$. Sum of digits = $n$. ✓
 Inductive step: Assume correct for all numbers with $\leq d$ digits. For a $(d+1)$-digit number $n$:
 $n \bmod 10$ gives the last digit, and $n // 10$ gives the remaining $d$ digits. By the inductive
 Hypothesis, `sum_digits(n // 10)` correctly sums those $d$ digits. Adding the last digit gives the
-Total sum. ✓
+total sum. ✓
 
 **Termination:** Variant function $V(n) = n$. Each call: $V(n // 10) = \lfloor n/10 \rfloor \lt n$
 For $n \geq 10$. ✓
@@ -394,7 +394,7 @@ Over the other?
 </div>
 
 Prefer iteration when: the problem has a natural loop structure, memory is constrained, or
-Performance is critical.
+performance is critical.
 
 Prefer recursion when: the problem has a natural recursive structure (trees, divide-and-conquer),
 The depth is bounded (e.g., $\log n$), or readability is paramount.
@@ -553,7 +553,7 @@ for i in range(1, 4):
 ### Worked Example: Input Validation Loop
 
 Write a function that repeatedly asks the user for an integer between 1 and 100 (inclusive) until
-Valid input is provided.
+valid input is provided.
 
 ```python
 def get_valid_score():

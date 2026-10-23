@@ -24,8 +24,8 @@ categories:
 
 Further algebra builds on the polynomial and algebraic techniques from A Level mathematics,
 Extending to partial fractions with irreducible quadratics, the relationships between roots and
-Coefficients of polynomial equations, and systematic summation of series using the method of
-Differences.
+coefficients of polynomial equations, and systematic summation of series using the method of
+differences.
 
 ### Board Coverage
 
@@ -85,7 +85,7 @@ This follows directly from the remainder theorem: if the remainder is zero, the 
 ### 1.3 Finding unknown coefficients
 
 When a polynomial has unknown coefficients, use the factor theorem by substituting known roots, or
-Use the remainder theorem by evaluating at specified points.
+use the remainder theorem by evaluating at specified points.
 
 <details>
 <summary>Worked Example: Finding unknown coefficients</summary>
@@ -110,7 +110,7 @@ $P(x) = x^3 + 2x^2 + 3x - 6$.
 ## 2. Partial Fractions with Irreducible Quadratics
 
 In A Level, partial fractions involved only linear factors. In further mathematics, denominators may
-Contain irreducible quadratic factors, requiring a different decomposition.
+contain irreducible quadratic factors, requiring a different decomposition.
 
 **Definition.** A quadratic $x^2 + cx + d$ is _irreducible_ if it has no real roots, i.e.
 $\Delta = c^2 - 4d < 0$.
@@ -359,7 +359,7 @@ $\displaystyle\sum_{r=1}^{n} \binom{r+k}{k+1} = \binom{n+k+1}{k+2}$.
 ### 5.1 Using partial fractions for summation
 
 When the general term of a series can be decomposed into partial fractions, the method of
-Differences often applies.
+differences often applies.
 
 <details>
 <summary>Worked Example: Sum using method of differences</summary>
@@ -1102,7 +1102,7 @@ The roots of unity and De Moivre's theorem connect algebra to complex numbers. S
 ### 11.2 Algebra and matrices
 
 Vieta's formulae are closely related to the characteristic equation of a matrix: the sum of
-Eigenvalues equals the trace, and the product equals the determinant. See
+eigenvalues equals the trace, and the product equals the determinant. See
 [Matrices](/further-maths/pure-mathematics/02-matrices/).
 
 ### 11.3 Series and calculus

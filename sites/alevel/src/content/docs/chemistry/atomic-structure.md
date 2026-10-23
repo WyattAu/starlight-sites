@@ -53,7 +53,7 @@ $$
 ## Isotopes
 
 Isotopes are atoms of the same element (same $Z$) with different neutron numbers (different $A$).
-Chemical properties are virtually identical because they share the same electron configuration.
+chemical properties are virtually identical because they share the same electron configuration.
 Physical properties (melting point, density, reaction rate) differ slightly due to mass effects.
 
 ### Relative Atomic Mass ($A_r$)
@@ -592,7 +592,7 @@ $578$$1817$$2745$$11578$$14842$.
 
 The large jump between $\mathrm{IE}_3$ and $\mathrm{IE}_4$ indicates that the first three electrons
 are removed from the outer shell, and the fourth is removed from an inner shell. The element is in
-Group 13 (three valence electrons). This is aluminium.
+group 13 (three valence electrons). This is aluminium.
 
 ### Using Ionisation Energy Data to Identify Elements
 

@@ -34,11 +34,11 @@ Living organisms (the **biotic** component) with their non-living physical and c
 
 **Definition.** A **habitat** is the place where an organism lives. A **niche** describes the role
 And position of a species within its ecosystem: how it obtains food, its interactions with other
-Species, and its abiotic requirements.
+species, and its abiotic requirements.
 
 The **competitive exclusion principle** (Gause, 1934) states that two species cannot occupy exactly
 the same niche in the same habitat indefinitely. If they do, one will outcompete the other. In
-Practice, species with similar niches coexist through **resource partitioning**: they exploit
+practice, species with similar niches coexist through **resource partitioning**: they exploit
 Slightly different resources or are active at different times.
 
 ### 1.2 Trophic Levels
@@ -59,7 +59,7 @@ Energy flows through ecosystems in a unidirectional manner from producers to con
 
 **Food chains** show a single pathway of energy transfer. **Food webs** show the complex,
 Interconnected network of feeding relationships in an ecosystem, reflecting the reality that most
-Organisms eat (and are eaten by) multiple species.
+organisms eat (and are eaten by) multiple species.
 
 ### 1.3 Ecological Productivity
 
@@ -80,7 +80,7 @@ $$
 Where $R$ is the energy lost through plant respiration.
 
 NPP is the fundamental measure of ecosystem productivity and determines the maximum biomass of
-Consumers that can be supported. Tropical rainforests and coral reefs have the highest NPP; deserts
+consumers that can be supported. Tropical rainforests and coral reefs have the highest NPP; deserts
 and tundra have the lowest.
 
 ### 1.4 Energy Transfer and Ecological Efficiency
@@ -116,7 +116,7 @@ loss is substantial and cumulative, which is why food chains are short. The lost
 ### 2.1 Population Growth
 
 A **population** is a group of organisms of the same species occupying a particular space at a
-Particular time. Population size is determined by four factors:
+particular time. Population size is determined by four factors:
 
 $$
 \frac{dN}{dt} = B - D + I - E
@@ -194,7 +194,7 @@ Key processes:
 ### 3.2 The Nitrogen Cycle
 
 Nitrogen is essential for amino acids, proteins, nucleic acids, and ATP. Despite being 78% of the
-Atmosphere, atmospheric $\mathrm{N_2}$ is unreactive and cannot be used directly by most organisms.
+atmosphere, atmospheric $\mathrm{N_2}$ is unreactive and cannot be used directly by most organisms.
 
 **Key stages:**
 
@@ -290,8 +290,8 @@ Exist. The stages are similar but start from an intermediate point.
 
 **Deflected succession** occurs when succession is prevented from reaching the natural climax by
 Human activity or other factors. Examples: regular mowing of grassland prevents succession to
-Woodland; grazing by livestock maintains heathland; managed farmland is maintained at a
-Plagioclimax.
+woodland; grazing by livestock maintains heathland; managed farmland is maintained at a
+plagioclimax.
 
 ## 5. Human Impacts on Ecosystems
 
@@ -365,8 +365,8 @@ Concentrations are intensifying the warming effect.
 </div>
 
 Sources: $\mathrm{CO_2}$ from fossil fuel combustion and deforestation; $\mathrm{CH_4}$ from
-Agriculture (rice paddies, cattle), landfill, and fossil fuel extraction; $\mathrm{N_2O}$ from
-Agricultural fertilisers and industrial processes.
+agriculture (rice paddies, cattle), landfill, and fossil fuel extraction; $\mathrm{N_2O}$ from
+agricultural fertilisers and industrial processes.
 
 ### 6.2 Consequences of Global Warming
 
@@ -504,7 +504,7 @@ $5.0\ \mathrm{gha}$ and the country's biocapacity is $3.2\ \mathrm{gha}$ per per
 Ecological deficit $= 5.0 - 3.2 = 1.8\ \mathrm{gha}$ per person.
 
 This means the country is consuming resources faster than they can be regenerated, running an
-Ecological deficit. It is meeting the shortfall by importing resources, depleting its own natural
+ecological deficit. It is meeting the shortfall by importing resources, depleting its own natural
 Capital, or emitting waste that cannot be absorbed (e.g., $\mathrm{CO_2}$ exceeding absorption
 capacity).
 
@@ -713,7 +713,7 @@ Describe the process of eutrophication and explain its ecological consequences.
 
 **Answer.** Nitrates and phosphates enter the lake, providing excess nutrients. This stimulates
 Rapid growth of algae, forming a dense algal bloom on the surface. The algal layer blocks light from
-Reaching submerged plants, which can no longer photosynthesise and die. Dead algae and dead plants
+reaching submerged plants, which can no longer photosynthesise and die. Dead algae and dead plants
 are decomposed by aerobic bacteria, whose populations increase dramatically. These bacteria consume
 Dissolved oxygen from the water through respiration, causing dissolved oxygen levels to fall
 (hypoxia). When oxygen levels drop too low, fish and other aerobic organisms die. Anaerobic bacteria
@@ -741,7 +741,7 @@ Secondary consumer: $1500 \times 0.15 = 225\ \mathrm{J}$.
 Tertiary consumer: $225 \times 0.15 = 33.75\ \mathrm{J}$.
 
 The remaining 85% at each level is lost through respiration, excretion, egestion, and heat. After
-Four trophic levels, only 0.34% of the original energy remains available, illustrating why long food
+four trophic levels, only 0.34% of the original energy remains available, illustrating why long food
 Chains are rare and why top predators are always relatively few in number.
 
 <b>If you get this wrong, revise:</b>
@@ -764,7 +764,7 @@ $\mathrm{NO_3^-}$ back to $\mathrm{N_2}$ gas under anaerobic conditions (waterlo
 Returning nitrogen to the atmosphere. Decomposers break down proteins and urea in dead organic
 Matter and excretory waste, releasing $\mathrm{NH_4^+}$ through ammonification. These microbial
 Processes collectively maintain the nitrogen cycle, ensuring continuous availability of nitrogen for
-Living organisms despite constant losses through denitrification.
+living organisms despite constant losses through denitrification.
 
 <b>If you get this wrong, revise:</b> [The Nitrogen Cycle](#32-the-nitrogen-cycle)
 
@@ -778,12 +778,12 @@ does secondary succession generally proceed faster?
 **Answer.** Primary succession occurs on bare, lifeless substrate where no soil exists (e.g.,
 Volcanic lava, glacial moraine, sand dunes). It begins with the colonisation by pioneer species
 (lichens, salt-tolerant grasses) that can tolerate harsh conditions and begin the slow process of
-Soil formation through the accumulation of organic matter from dead organisms. Example: succession
+soil formation through the accumulation of organic matter from dead organisms. Example: succession
 on sand dunes beginning with _Lyme grass_ and progressing through marram grass, herbs, shrubs, and
-Eventually woodland. Secondary succession occurs on previously colonised land where the existing
+eventually woodland. Secondary succession occurs on previously colonised land where the existing
 Community has been removed but soil remains (e.g., after a forest fire, abandoned farmland, or
-Clearance). It proceeds faster because soil (with its nutrients, seed bank, and microorganisms) is
-Already present, so the pioneer stage is bypassed and colonisation by higher-order species can begin
+clearance). It proceeds faster because soil (with its nutrients, seed bank, and microorganisms) is
+already present, so the pioneer stage is bypassed and colonisation by higher-order species can begin
 Immediately. Example: regeneration of forest after a wildfire, where grasses and shrubs colonise
 Quickly, followed by tree seedlings.
 
@@ -798,15 +798,15 @@ Strategies for maintaining biodiversity.
 
 **Answer.** In situ conservation (protecting species in their natural habitat) preserves the entire
 Ecosystem, including ecological interactions (food webs, pollination, competition), which cannot be
-Replicated in captivity. It allows natural evolutionary processes (adaptation, selection) to
-Continue. National parks and reserves can also provide economic benefits through ecotourism.
+replicated in captivity. It allows natural evolutionary processes (adaptation, selection) to
+continue. National parks and reserves can also provide economic benefits through ecotourism.
 However, in situ conservation is vulnerable to habitat destruction, climate change, and political
 Instability, and requires large areas of land. Ex situ conservation (zoos, seed banks, botanical
 Gardens) provides a safety net for species whose habitat has been destroyed or whose wild population
 is critically low. Seed banks are cost-effective and can store genetic diversity for centuries.
 Captive breeding can prevent imminent extinction. However, ex situ conservation cannot replicate
 Natural selection pressures, may lead to loss of behaviours learned in the wild, suffers from
-Reduced genetic diversity in small captive populations (inbreeding depression), and is extremely
+reduced genetic diversity in small captive populations (inbreeding depression), and is extremely
 Expensive for large animals. The most effective approach combines both: in situ as the primary
 Strategy, with ex situ as a backup.
 
@@ -824,7 +824,7 @@ $\mathrm{N_2O}$ Water vapour) in the atmosphere absorb infrared radiation re-emi
 Surface and re-radiate it in all directions, including back towards the surface, warming the planet.
 The enhanced greenhouse effect refers to the additional warming caused by increased atmospheric
 Concentrations of these gases due to human activities. Evidence: (1) Atmospheric $\mathrm{CO_2}$ has
-Risen from approximately $280\ \mathrm{ppm}$ (pre-industrial) to over $420\ \mathrm{ppm}$ (2024),
+risen from approximately $280\ \mathrm{ppm}$ (pre-industrial) to over $420\ \mathrm{ppm}$ (2024),
 Directly correlated with fossil fuel combustion (ice core data show current levels are unprecedented
 in the last 800,000 years). (2) Global average temperature has risen by approximately
 $1.1\ ^\circ\mathrm{C}$ since 1850, with the rate of increase accelerating. (3) Isotopic analysis of
@@ -832,7 +832,7 @@ Atmospheric $\mathrm{CO_2}$ shows an increasing proportion of $^{13}\mathrm{C}$-
 Consistent with fossil fuel combustion (fossil fuels are depleted in $^{13}\mathrm{C}$). (4) Ocean
 Acidification (pH has decreased by approximately 0.1 units since pre-industrial times) is consistent
 with increased $\mathrm{CO_2}$ absorption. (5) Atmospheric $\mathrm{CH_4}$ and $\mathrm{N_2O}$ have
-Risen in parallel with agricultural and industrial expansion. These lines of evidence together
+risen in parallel with agricultural and industrial expansion. These lines of evidence together
 Establish a causal link between human activities and global warming.
 
 <b>If you get this wrong, revise:</b> [The Greenhouse Effect](#61-the-greenhouse-effect)
@@ -842,11 +842,11 @@ Establish a causal link between human activities and global warming.
 <details>
 <summary>Problem 7</summary>
 A student uses the capture-mark-recapture method to estimate the population size of woodlice in a
-Garden. In the first sample, she captures 50 woodlice, marks them, and releases them. In the second
-Sample (one week later), she captures 40 woodlice, of which 8 are marked. (a) Calculate the estimated
+garden. In the first sample, she captures 50 woodlice, marks them, and releases them. In the second
+sample (one week later), she captures 40 woodlice, of which 8 are marked. (a) Calculate the estimated
 Population size. (b) List three assumptions of this method and explain how a violation of each would
-Affect the estimate. (c) The student repeats the study with a larger sample size. Explain why this
-Improves the reliability of the estimate.
+affect the estimate. (c) The student repeats the study with a larger sample size. Explain why this
+improves the reliability of the estimate.
 
 **Answer.** (a)
 $N = \frac{n_1 \times n_2}{n_3} = \frac{50 \times 40}{8} = 250$ woodlice.

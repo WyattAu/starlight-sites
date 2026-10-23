@@ -188,7 +188,7 @@ f = mg\sin 35^\circ - P\cos 35^\circ = 49.05 \times 0.5736 - 45 \times 0.8192 = 
 $$
 
 The negative sign means friction acts down the slope (preventing the block from being pushed up).
-The magnitude $8.72\,\text{N}$ is less than $F_{\max}$ Confirming the block does not move.
+the magnitude $8.72\,\text{N}$ is less than $F_{\max}$ Confirming the block does not move.
 
 ---
 

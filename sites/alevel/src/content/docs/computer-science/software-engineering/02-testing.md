@@ -135,7 +135,7 @@ Implementation. Tests are based on requirements and specifications.
 ### Equivalence Partitioning
 
 Divide input data into **equivalence classes**, groups of inputs that the system should treat the
-Same way. Test one representative from each class.
+same way. Test one representative from each class.
 
 **Example:** A function accepts ages 0-120.
 
@@ -260,9 +260,16 @@ But only 50% branch coverage (the false branch of the if-statement is never take
 **Traceability** links requirements to test cases, ensuring every requirement is tested and every
 Test case maps to a requirement.
 
+```mermaid
+flowchart LR
+    R[Requirement] --> D[Design]
+    D --> C[Code]
+    C --> T[Test Case]
+    T --> V[Test Result]
 ```
-Requirement → Design → Code → Test Case → Test Result
-```
+
+Every stage leaves an artefact that the next stage can check against — if a test result cannot be
+traced back to a requirement, either the test or the requirement is missing.
 
 A **traceability matrix** maps each requirement to the test cases that verify it.
 
@@ -322,7 +329,7 @@ A **stub** is a simple replacement for a dependency that returns predefined resp
 Canned answers to calls.
 
 A **mock** is a more sophisticated replacement that **verifies** how it was called, it records the
-Calls and can assert that specific methods were called with specific arguments.
+calls and can assert that specific methods were called with specific arguments.
 
 <div class="table-wrap">
 
@@ -420,7 +427,7 @@ Example.
 <summary>Answer</summary>
 
 100% statement coverage means every line of code has been executed at least once, but it does not
-Guarantee:
+guarantee:
 
 1. All combinations of conditions are tested
 2. All data flows are tested
@@ -494,7 +501,7 @@ Modules may be found late
 </div>
 
 Rules 3, 4, 5 could potentially be merged (locked or invalid user always shows an error), but for
-Completeness, they're listed separately.
+completeness, they're listed separately.
 
 </details>
 
@@ -613,9 +620,17 @@ A stack has a maximum capacity of 5 elements. Operations: `push(item)`, `pop()`,
 
 ### Detailed TDD Cycle
 
+```mermaid
+flowchart LR
+    W[Write failing test] --> F[See it fail — Red]
+    F --> M[Write minimum code]
+    M --> P[See it pass — Green]
+    P --> R[Refactor]
+    R --> W
 ```
-Write failing test → See it fail (Red) → Write minimum code → See it pass (Green) → Refactor → Repeat
-```
+
+The loop is the point: each cycle adds one small, verified behaviour, and the tests accumulated
+from previous cycles guard against regressions while you refactor.
 
 ### Worked Example: TDD for an `is_prime` Function
 
@@ -740,7 +755,7 @@ For each boundary, test the value, and the values immediately above and below:
 </div>
 
 To produce these BMIs from weight and height, choose fixed height (e.g., 1.7m) and calculate the
-Corresponding weights.
+corresponding weights.
 
 For height = 1.7m: BMI = weight / (1.7 \* 1.7) = weight / 2.89
 
@@ -910,7 +925,7 @@ which tests to run.
    security-related tests. If the change is to the UI, prioritise UI tests.
 
 The most practical approach: run smoke tests on every commit, run affected module tests on every
-Pull request, and run the full suite nightly.
+pull request, and run the full suite nightly.
 
 </details>
 

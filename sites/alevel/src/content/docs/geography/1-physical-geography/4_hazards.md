@@ -338,7 +338,7 @@ depending on their vulnerability and capacity.
 **Physical event**: A magnitude 7.0 earthquake struck approximately 25 km west of Port-au-Prince,
 Haiti, at a depth of only 13 km. The shallow depth amplified surface shaking. The
 Enriquillo-Plantain Garden fault zone, a conservative (transform) boundary between the Caribbean and
-North American plates, was responsible.
+north American plates, was responsible.
 
 **Impacts**: The Haitian government estimated approximately 230,000 deaths, 300,000 injuries, and
 1.5 million people displaced. Approximately 250,000 homes and 30,000 commercial buildings collapsed.
@@ -531,7 +531,7 @@ formation in regions with strong upper-level winds.
 
 These conditions are met in the Atlantic Ocean (hurricanes), the western Pacific (typhoons), the
 Indian Ocean (cyclones), and occasionally the South Pacific. Tropical storms do not form in the
-South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool Humboldt Current).
+south Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool Humboldt Current).
 
 ---
 

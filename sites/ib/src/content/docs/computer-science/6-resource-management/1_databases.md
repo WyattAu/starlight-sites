@@ -31,12 +31,12 @@ categories:
 ### Flat File vs Relational Database
 
 A **flat file** stores data in a single table (e.g., a spreadsheet or CSV file). Each row is a
-Record and each column is a field. Flat files are simple and suitable for small, single-user
+record and each column is a field. Flat files are simple and suitable for small, single-user
 Applications, but they suffer from data redundancy, inconsistency, and limited querying capability.
 
 A **relational database** organizes data into multiple related tables. Each table has a fixed
 Structure (defined number of columns with specific data types), and relationships between tables are
-Maintained through primary keys and foreign keys. Relational databases enforce data integrity,
+maintained through primary keys and foreign keys. Relational databases enforce data integrity,
 Minimize redundancy, and support complex queries through SQL.
 
 <div class="table-wrap">
@@ -56,7 +56,7 @@ Minimize redundancy, and support complex queries through SQL.
 ### Why Use a Database?
 
 Data independence: the structure of data can be changed without modifying applications that use it.
-Data integrity: constraints prevent invalid data from being stored. Concurrent access: multiple
+data integrity: constraints prevent invalid data from being stored. Concurrent access: multiple
 Users can read and write simultaneously without corrupting data. Security: access can be controlled
 at a granular level. Backup and recovery: databases provide transaction logging and point-in-time
 Recovery.
@@ -91,7 +91,7 @@ switch:
 ## Entity-Relationship Diagrams (ERDs)
 
 An ERD is a visual representation of the data model. It shows entities (things of interest), their
-Attributes, and the relationships between them.
+attributes, and the relationships between them.
 
 ### Entities and Attributes
 
@@ -110,7 +110,7 @@ An **attribute** is a property of an entity (e.g., Student has studentID, name, 
 ### Relationships
 
 Relationships describe how entities are associated with each other. They have a **degree** (the
-Number of entities involved) and a **cardinality** (the number of instances on each side).
+number of entities involved) and a **cardinality** (the number of instances on each side).
 
 **One-to-One (1:1):** Each instance of entity A is associated with exactly one instance of entity B,
 And vice versa. Example: Person and Passport. A person has at most one passport; a passport belongs
@@ -118,13 +118,13 @@ to exactly one person. In a relational database, the foreign key can be placed i
 
 **One-to-Many (1:M):** Each instance of entity A can be associated with many instances of entity B,
 But each instance of B is associated with exactly one instance of A. Example: Teacher and Class. A
-Teacher can teach many classes, but each class has one teacher. The foreign key goes in the "many"
-Table (Class table contains teacherID).
+teacher can teach many classes, but each class has one teacher. The foreign key goes in the "many"
+table (Class table contains teacherID).
 
 **Many-to-Many (M:N):** Each instance of entity A can be associated with many instances of entity B,
 And vice versa. Example: Student and Course. A student can enroll in many courses, and a course can
 have many students. This cannot be directly represented in a relational database and requires a
-Junction (link/associative) table.
+junction (link/associative) table.
 
 ### Worked Example: School Database ERD
 
@@ -244,7 +244,7 @@ The referenced table. This enforces referential integrity.
 ### Worked Example: Identifying Keys
 
 For the following Book table, identify all superkeys, candidate keys, the primary key, and any
-Alternate keys.
+alternate keys.
 
 <div class="table-wrap">
 
@@ -364,8 +364,8 @@ Primary key: `{OrderID, Item}`
 ### Second Normal Form (2NF)
 
 A table is in 2NF if it is in 1NF and has no partial dependencies. Every non-key attribute must
-Depend on the entire primary key, not just part of it. This is only relevant when the primary key is
-Composite.
+depend on the entire primary key, not just part of it. This is only relevant when the primary key is
+composite.
 
 **Violation example (unnormalized table):**
 
@@ -429,7 +429,7 @@ Key (studentID alone).
 ### Third Normal Form (3NF)
 
 A table is in 3NF if it is in 2NF and has no transitive dependencies. Every non-key attribute must
-Depend directly on the primary key, not through another non-key attribute.
+depend directly on the primary key, not through another non-key attribute.
 
 **Violation example:**
 
@@ -450,7 +450,7 @@ Transitive dependency: courseID $\rightarrow$ teacherName $\rightarrow$ teacherE
 TeacherEmail depends on teacherName, not directly on courseID. If Mr. Smith teaches a new course, we
 must update his email in every row where he appears (update anomaly). If Mr. Smith has no courses,
 We cannot store his email (insertion anomaly). If we delete all of Mr. Smith's courses, we lose his
-Email (deletion anomaly).
+email (deletion anomaly).
 
 **3NF conversion:** Decompose Course into two tables:
 
@@ -550,7 +550,7 @@ on patientID, and doctorName depends only on doctorID.
 **Step 3: 3NF.** Check for transitive dependencies in Doctor. DoctorID $\rightarrow$ doctorName,
 DoctorID $\rightarrow$ department. There is no non-key attribute depending on another non-key
 Attribute here, so Doctor is already in 3NF. Check Appointment: no non-key attributes besides the
-Foreign keys, which depend on the full primary key. Check Patient: patientName depends on patientID
+foreign keys, which depend on the full primary key. Check Patient: patientName depends on patientID
 (the only key). All tables are in 3NF.
 
 ### Worked Example: Normalize a Video Rental Table
@@ -1114,7 +1114,7 @@ This finds students whose GPA exceeds the average GPA of their own department.
 ### Worked Example: Subquery vs JOIN
 
 Find the names of all students who have received a grade of 'A' in at least one course. Write this
-Using (a) a subquery with IN, and (b) a JOIN.
+using (a) a subquery with IN, and (b) a JOIN.
 
 Given:
 
@@ -1157,7 +1157,7 @@ it avoids executing the subquery separately.
 ### Views
 
 A view is a virtual table based on the result of a SELECT query. It does not store data itself; it
-Presents data from underlying tables.
+presents data from underlying tables.
 
 ```sql
 CREATE VIEW HonorRoll AS
@@ -1169,7 +1169,7 @@ ORDER BY gpa DESC;
 
 **Updatable views:** A view is updatable if it meets certain conditions: it is based on a single
 Table, it does not contain DISTINCT, GROUP BY, HAVING, or aggregate functions, and it includes the
-Primary key of the underlying table.
+primary key of the underlying table.
 
 **Non-updatable views:** Views that involve joins, aggregations, DISTINCT, or GROUP BY are
 Read-only. To modify the data, you must update the underlying tables directly.
@@ -1224,7 +1224,7 @@ ROLLBACK;
 ### Worked Example: Transaction with ROLLBACK
 
 A bank transfer deducts $100 from account A and adds $100 to account B. Trace what happens if the
-Second UPDATE fails.
+second UPDATE fails.
 
 ```sql
 BEGIN TRANSACTION;
@@ -1260,7 +1260,7 @@ After ROLLBACK:
 
 The ACID property **Atomicity** guarantees that the database returns to its original state. Without
 ROLLBACK, account A would have lost $100 with no corresponding gain anywhere -- the money would
-Disappear.
+disappear.
 
 If both statements had succeeded:
 
@@ -1289,7 +1289,7 @@ Every foreign key value must either be null or match a primary key value in the 
 ### Cascading Operations
 
 When a referenced row is deleted or updated, the database can automatically propagate the change to
-Related rows:
+related rows:
 
 <div class="table-wrap">
 
@@ -1314,7 +1314,7 @@ CREATE TABLE Enrollment (
 ```
 
 Deleting a student cascades to delete their enrollment records. Deleting a course that has
-Enrollments is restricted (blocked).
+enrollments is restricted (blocked).
 
 ### Worked Example: Cascading Deletes
 
@@ -1324,7 +1324,7 @@ Given the following tables with the Enrollment table defined as above:
 **Enrollment**: (1, 101), (1, 102), (2, 101)
 
 What happens when you execute `DELETE FROM Student WHERE studentID = 1`? What happens if you then
-Try `DELETE FROM Course WHERE courseID = 101`?
+try `DELETE FROM Course WHERE courseID = 101`?
 
 <details>
 <summary>Solution</summary>
@@ -1337,7 +1337,7 @@ Key, deleting Alice also deletes all her enrollment records. After this operatio
 
 **`DELETE FROM Course WHERE courseID = 101`:** This is **blocked** due to `ON DELETE RESTRICT` on
 the courseID foreign key. Bob still has an enrollment in course 101, so the database refuses to
-Delete the course. The DELETE statement fails with a referential integrity error.
+delete the course. The DELETE statement fails with a referential integrity error.
 
 To delete the course, you must first delete (or reassign) all enrollments that reference it:
 
@@ -1352,7 +1352,7 @@ DELETE FROM Course WHERE courseID = 101;
 
 A data dictionary (also called a system catalog) is a database about the database. It stores
 Metadata: definitions of tables, columns, data types, constraints, indexes, relationships, and
-Users. Every relational database management system (RDBMS) maintains a data dictionary
+users. Every relational database management system (RDBMS) maintains a data dictionary
 Automatically.
 
 **Contents of a data dictionary:**
@@ -1405,7 +1405,7 @@ CREATE TABLE Employee (
 ## Big Data
 
 Big data refers to datasets that are too large, too complex, or generated too rapidly to be
-Processed by traditional database systems. The IB syllabus identifies four characteristics known as
+processed by traditional database systems. The IB syllabus identifies four characteristics known as
 the four Vs.
 
 ### The Four Vs
@@ -1461,7 +1461,7 @@ Performance-critical read-heavy applications.
 
 **Missing foreign key constraints:** Without foreign key constraints, the database cannot enforce
 Referential integrity. Orphaned records (enrollment records pointing to non-existent students) can
-Accumulate.
+accumulate.
 
 **Poor primary key design:** Using natural keys (e.g., email addresses) as primary keys can cause
 Problems if the key value changes. Surrogate keys (auto-incremented integers) are generally
@@ -1553,7 +1553,7 @@ key is `{orderID, productID}`:
   `customerID` $\rightarrow$ `customerName`.
 
 Partial dependencies are specifically about non-key attributes depending on a **proper subset of the
-Primary key**.
+primary key**.
 
 </details>
 
@@ -1882,8 +1882,8 @@ UPDATE Student SET gpa = 4.0 WHERE studentID = 3;
 ```
 
 Always double-check UPDATE and DELETE statements for a WHERE clause before executing them. In
-Production systems, you can wrap destructive operations in a transaction and use SELECT first to
-Verify which rows will be affected.
+production systems, you can wrap destructive operations in a transaction and use SELECT first to
+verify which rows will be affected.
 
 </details>
 
@@ -1991,7 +1991,7 @@ If Student has 5 rows and Course has 3 rows, how many rows are in the result?
 <summary>Solution</summary>
 
 A CROSS JOIN (cartesian product) combines every row from Student with every row from Course. With 5
-Students and 3 courses, the result has $5 \times 3 = 15$ rows.
+students and 3 courses, the result has $5 \times 3 = 15$ rows.
 
 Each student appears paired with every course, regardless of whether they are enrolled. This is
 rarely Useful in practice and indicates a missing ON clause. A missing ON clause in an INNER JOIN or
@@ -2174,7 +2174,7 @@ If teacherID 3 is deleted from the Teacher table, what happens to any clubs wher
 
 **(a)** If a teacher is deleted, the `teacherID` column in any Club that referenced that teacher is
 set To NULL. The club itself is NOT deleted; it no longer has a supervising teacher. This allows a
-Club to continue existing after its teacher leaves.
+club to continue existing after its teacher leaves.
 
 **(b)**
 

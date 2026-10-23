@@ -39,7 +39,7 @@ The proton donor and proton acceptor in acid-base reactions.
 ### Conjugate Acid-Base Pairs
 
 When an acid donates a proton, the remaining species is its conjugate base. When a base accepts a
-Proton, the resulting species is its conjugate acid.
+proton, the resulting species is its conjugate acid.
 
 $$
 \mathrm{HA} + \mathrm{B} \rightleftharpoons \mathrm{A}^- + \mathrm{BH}^+
@@ -233,7 +233,7 @@ Each unit change in pH represents a **tenfold** change in $[\mathrm{H}^+]$.
 ## Acid-Base Titrations
 
 A titration is a technique for determining the concentration of a solution by reacting it with a
-Solution of known concentration.
+solution of known concentration.
 
 ### Titration Procedure
 
@@ -504,7 +504,7 @@ At the anode (+): $2\mathrm{Br}^- \to \mathrm{Br}_2 + 2e^-$ (orange-brown gas)
 ### Electrolysis of Aqueous Solutions
 
 When an aqueous solution is electrolysed, both the dissolved ions and water molecules can be
-Discharged. The **discharge series** determines which species is preferentially discharged:
+discharged. The **discharge series** determines which species is preferentially discharged:
 
 **At the cathode (less reactive metal is discharged):**
 
@@ -545,7 +545,7 @@ $$
 $$
 
 At the anode: Concentrated $\mathrm{Cl}^-$ is discharged (halides above $\mathrm{OH}^-$ in
-Concentrated solution):
+concentrated solution):
 
 $$
 2\mathrm{Cl}^- \to \mathrm{Cl}_2 + 2e^-
@@ -586,7 +586,7 @@ Where:
 ### Second Law
 
 When the same quantity of electricity is passed through different electrolytes, the masses of
-Different substances liberated are proportional to their equivalent masses ($M/n$).
+different substances liberated are proportional to their equivalent masses ($M/n$).
 
 ### Worked Example 10
 
@@ -608,7 +608,7 @@ $$
 ### Worked Example 11
 
 What volume of oxygen (at r.t.p.) is produced when a current of $3.0 \mathrm{ A}$ is passed through
-Dilute $\mathrm{H}_2\mathrm{SO}_4$ for 20 minutes?
+dilute $\mathrm{H}_2\mathrm{SO}_4$ for 20 minutes?
 
 $$
 Q = 3.0 \times 20 \times 60 = 3600 \mathrm{ C}
@@ -829,7 +829,7 @@ $2\mathrm{MnO}_4^- + 5\mathrm{C}_2\mathrm{O}_4^{2-} + 16\mathrm{H}^+ \to 2\mathr
 
 **Question 5:** A cell is made from $\mathrm{Zn}^{2+}/\mathrm{Zn}$ ($E^\circ = -0.76 \mathrm{ V}$)
 And $\mathrm{Ag}^+/\mathrm{Ag}$ ($E^\circ = +0.80 \mathrm{ V}$). Write the overall equation and
-Calculate the cell potential.
+calculate the cell potential.
 
 Silver has the more positive $E^\circ$ So it is the cathode.
 
@@ -1172,7 +1172,7 @@ $\mathrm{pH} = 9.26 + \log_{10}\left(\frac{0.0500}{0.0500}\right) = 9.26 + 0 = 9
 Copper.
 
 Copper is less reactive than iron. When in contact, iron acts as the anode and copper as the
-Cathode. The iron oxidises more rapidly, accelerating the rusting process. This is an example of
+cathode. The iron oxidises more rapidly, accelerating the rusting process. This is an example of
 **electrochemical corrosion** where the less reactive metal provides a surface for the reduction
 Reaction.
 

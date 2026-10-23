@@ -19,7 +19,7 @@ categories: [Mathematics]
 ## Complex Numbers (Extended Treatment)
 
 This document provides a rigorous treatment of modulus-argument form, De Moivre's theorem, roots of
-Complex numbers, loci in the Argand diagram, and Euler's formula.
+complex numbers, loci in the Argand diagram, and Euler's formula.
 
 :::note
 Difficult to prove in real analysis become straightforward when extended to the complex plane.
@@ -167,7 +167,7 @@ $$
 ### 2.2 Geometric interpretation
 
 The $n$ roots of $w$ lie on a circle of radius $R^{1/n}$ centred at the origin, equally spaced at
-Angles of $\dfrac{2\pi}{n}$ apart.
+angles of $\dfrac{2\pi}{n}$ apart.
 
 ### 2.3 Sum of roots
 
@@ -617,7 +617,7 @@ The four roots are:
 **(b)** Consecutive roots $z_0 = \sqrt{2} + i\sqrt{2}$ and $z_1 = -\sqrt{2} + i\sqrt{2}$.
 
 The midpoint is $(0, \sqrt{2})$ and the segment is horizontal, so the perpendicular bisector is the
-Vertical line $x = 0$ (the imaginary axis).
+vertical line $x = 0$ (the imaginary axis).
 
 </details>
 
@@ -651,7 +651,7 @@ Centre: $(0, -2)$ Radius: $\sqrt{29/3}$.
 Distance from origin to centre: $\sqrt{0^2 + (-2)^2} = 2$.
 
 Minimum $|z| = 2 - \sqrt{29/3}$. Since $\sqrt{29/3} \approx 3.11 > 2$ This is negative, so the
-Minimum is $|\text{radius} - d| = \sqrt{29/3} - 2$.
+minimum is $|\text{radius} - d| = \sqrt{29/3} - 2$.
 
 Maximum $|z| = 2 + \sqrt{29/3}$.
 
@@ -812,7 +812,7 @@ $\overrightarrow{BC} = z_C - z_B = 2 - 3i$$|\overrightarrow{BC}| = \sqrt{4 + 9} 
 $\overrightarrow{AC} = z_C - z_A = 4 + i$$|\overrightarrow{AC}| = \sqrt{16 + 1} = \sqrt{17}$.
 
 All three sides have different lengths, so the triangle is **scalene**, not isosceles. (If the
-Question intended different points, the same method applies.)
+question intended different points, the same method applies.)
 
 The area is $\dfrac{1}{2}|\mathrm{Im}(\overline{z_{AB}} \cdot z_{AC})|$:
 
@@ -978,7 +978,7 @@ This is the sum of the $n$-th roots of $-1$ (not unity).
 **Base case ($n = 1$):** Sum $= e^{i\pi} = -1 \neq 0$.
 
 Let us reconsider: $\displaystyle\sum_{k=0}^{n-1}e^{i(2k+1)\pi/n}$ is a geometric series with first
-Term $e^{i\pi/n}$ and ratio $e^{i2\pi/n}$.
+term $e^{i\pi/n}$ and ratio $e^{i2\pi/n}$.
 
 $$
 \sum_{k=0}^{n-1}e^{i(2k+1)\pi/n} = e^{i\pi/n}\cdot\frac{1 - e^{i2\pi}}{1 - e^{i2\pi/n}} = e^{i\pi/n}\cdot\frac{1 - 1}{1 - e^{i2\pi/n}} = 0 \quad \blacksquare

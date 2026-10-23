@@ -182,7 +182,7 @@ $$
 ## Displacement Reactions
 
 A displacement reaction occurs when a more reactive metal displaces a less reactive metal from its
-Compound.
+compound.
 
 ### Reactivity Series
 
@@ -273,7 +273,7 @@ Carbon monoxide (from the partial combustion of coke) is the reducing agent.
 ### Rusting of Iron
 
 Rust is hydrated iron(III) oxide ($\mathrm{Fe_2O_3 \cdot xH_2O}$). Rusting requires both water and
-Oxygen. It is an electrochemical process:
+oxygen. It is an electrochemical process:
 
 - At the anode (iron surface): $\mathrm{Fe} \to \mathrm{Fe^{2+}} + 2e^-$
 - At the cathode: $\mathrm{O_2} + 2\mathrm{H_2O} + 4e^- \to 4\mathrm{OH^-}$
@@ -298,7 +298,7 @@ Oxygen. It is an electrochemical process:
 Explain why galvanising protects iron even if the zinc coating is scratched.
 
 Zinc is more reactive than iron and is higher in the reactivity series. When the zinc coating is
-Scratched, both zinc and iron are exposed to water and oxygen. Zinc acts as a sacrificial anode And
+scratched, both zinc and iron are exposed to water and oxygen. Zinc acts as a sacrificial anode And
 undergoes oxidation in preference to iron. Zinc loses electrons and corrodes, protecting the Iron
 beneath.
 
@@ -316,7 +316,7 @@ beneath.
 ## Electrochemical Cells
 
 An electrochemical cell converts chemical energy into electrical energy. It consists of two
-Half-cells connected by a wire (external circuit) and a salt bridge (internal circuit).
+half-cells connected by a wire (external circuit) and a salt bridge (internal circuit).
 
 ### Example: Daniell Cell
 
@@ -331,7 +331,7 @@ Half-cells connected by a wire (external circuit) and a salt bridge (internal ci
 - Overall: $\mathrm{Zn} + \mathrm{Cu^{2+}} \to \mathrm{Zn^{2+}} + \mathrm{Cu}$
 
 Electrons flow from the zinc electrode (anode) to the copper electrode (cathode) through the
-External wire.
+external wire.
 
 ### Cell Voltage
 
@@ -387,7 +387,7 @@ At the anode: non-metal anions lose electrons (oxidised to non-metal).
 ### Electrolysis of Aqueous Solutions
 
 When an aqueous solution is electrolysed, both the dissolved ions and water molecules can be
-Discharged. The product at each electrode depends on the relative reactivity of the ions.
+discharged. The product at each electrode depends on the relative reactivity of the ions.
 
 **At the cathode (reduction):**
 
@@ -453,7 +453,7 @@ Where $z$ is the number of electrons transferred per ion and $M$ is the molar ma
 ### Worked Example 8
 
 Calculate the mass of copper deposited when a current of $2.50 \mathrm{ A}$ is passed through
-Copper(II) sulphate solution for $30.0 \mathrm{ minutes}$.
+copper(II) sulphate solution for $30.0 \mathrm{ minutes}$.
 
 $$
 \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu} \quad (z = 2)
@@ -741,7 +741,7 @@ $$
 The pipeline from rusting.
 
 Magnesium is more reactive than iron. When attached to the iron pipeline, magnesium acts as a
-Sacrificial anode. It undergoes oxidation preferentially
+sacrificial anode. It undergoes oxidation preferentially
 ($\mathrm{Mg} \to \mathrm{Mg^{2+}} + 2e^-$), Supplying electrons to the iron and preventing iron
 from losing electrons. As long as magnesium Remains, the iron is protected from corrosion.
 

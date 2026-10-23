@@ -32,13 +32,13 @@ A word equation describes a chemical reaction using the names of the reactants a
 **Example:** magnesium + hydrochloric acid $\to$ magnesium chloride + hydrogen
 
 Word equations are useful as a first step but they lack precision. Different compounds can share the
-Same name in different contexts, and word equations convey no information about the stoichiometry of
+same name in different contexts, and word equations convey no information about the stoichiometry of
 the reaction.
 
 ### 1.2 Symbol Equations
 
 A symbol equation uses chemical formulae. It must be **balanced** -- the same number of each type of
-Atom must appear on both sides (conservation of mass).
+atom must appear on both sides (conservation of mass).
 
 The conservation of mass is a consequence of the fact that atoms are neither created nor destroyed
 in a chemical reaction. The atoms are rearranged into different molecules. This is one of the Most
@@ -194,8 +194,8 @@ Barrier that must be surmounted for the reaction to proceed.
 <summary>Why do exothermic reactions need activation energy?</summary>
 
 An exothermic reaction releases energy overall, but bonds must still be broken before new bonds can
-Form. Breaking bonds always requires an energy input. The activation energy is the energy needed to
-Break the initial bonds. Once the reaction has started, the energy released from forming new bonds
+form. Breaking bonds always requires an energy input. The activation energy is the energy needed to
+break the initial bonds. Once the reaction has started, the energy released from forming new bonds
 more than compensates for the initial input.
 
 Consider a ball rolling down a hill. The ball releases energy (potential energy converts to kinetic
@@ -238,7 +238,7 @@ $$
 $$
 
 If $\Delta H$ is negative, the reaction is exothermic. If $\Delta H$ is positive, the reaction is
-Endothermic.
+endothermic.
 
 This is a consequence of energy conservation. If more energy is released by forming new bonds than
 is absorbed by breaking old bonds, the excess is released to the surroundings (exothermic).
@@ -324,11 +324,11 @@ For a reaction to occur, particles must:
 3. **Collide with the correct orientation**
 
 The **rate of reaction** is the speed at which reactants are converted into products. It can be
-Measured by monitoring the change in concentration of a reactant or product over time.
+measured by monitoring the change in concentration of a reactant or product over time.
 
 Collision theory provides a microscopic explanation for the macroscopic factors that affect rate.
 Any change that increases the frequency of successful collisions (those with sufficient energy and
-Correct orientation) will increase the rate.
+correct orientation) will increase the rate.
 
 ### 3.2 Factors Affecting Rate of Reaction
 
@@ -346,7 +346,7 @@ Correct orientation) will increase the rate.
 
 **Temperature** has a particularly strong effect because it changes the distribution of molecular
 Energies. A small increase in temperature shifts a much larger fraction of molecules above the
-Activation energy threshold. The rate approximately doubles for every $10^{\circ}\mathrm{C$ increase
+activation energy threshold. The rate approximately doubles for every $10^{\circ}\mathrm{C$ increase
 in temperature.
 
 **Surface area** matters for solid reactants. A lump of calcium carbonate has a small surface area,
@@ -406,7 +406,7 @@ The **gradient** at any point gives the rate at that time. The steepest gradient
 
 **Comparing rate graphs:** When comparing two experiments on the same graph, the curve with the
 Steeper initial gradient corresponds to the faster reaction. Both curves should level off at the
-Same maximum if the same total amount of reactant is used (assuming complete reaction).
+same maximum if the same total amount of reactant is used (assuming complete reaction).
 
 ### 3.6 Higher Tier: Calculating Rate from a Graph
 
@@ -431,7 +431,7 @@ $$
 ### 4.1 Reversible Reactions
 
 A **reversible reaction** is one that can proceed in both directions. It is written with a
-Reversible arrow ($\rightleftharpoons$).
+reversible arrow ($\rightleftharpoons$).
 
 **Example:** Ammonium chloride decomposes on heating and reforms on cooling.
 
@@ -443,12 +443,12 @@ $$
 
 When a reversible reaction takes place in a **closed system**, the forward and reverse reactions
 both occur. Eventually, the rates of the forward and reverse reactions become equal, and the
-Concentrations of reactants and products remain constant. This state is called **dynamic
+concentrations of reactants and products remain constant. This state is called **dynamic
 Equilibrium**.
 
 The word "dynamic" is important: at equilibrium, both reactions are still occurring, but at the same
-Rate. The concentrations do not change because the forward and reverse rates are balanced. If the
-System is not closed (e.g., a gas escapes), equilibrium cannot be established.
+rate. The concentrations do not change because the forward and reverse rates are balanced. If the
+system is not closed (e.g., a gas escapes), equilibrium cannot be established.
 
 **Conditions for equilibrium:**
 
@@ -495,14 +495,14 @@ $$
 
 The conditions chosen represent an economic compromise. The theoretically optimal conditions (low
 Temperature, very high pressure) are not practical because the reaction would be too slow or the
-Equipment too expensive. The chosen conditions give a reasonable yield at an acceptable rate and
-Cost.
+equipment too expensive. The chosen conditions give a reasonable yield at an acceptable rate and
+cost.
 
 **Worked Example.** Explain the effect of increasing temperature on the Haber process equilibrium.
 
 The forward reaction is exothermic ($\Delta H = -92$ kJ/mol). Increasing temperature favours the
-Endothermic (reverse) reaction, so the equilibrium shifts to the left, producing more nitrogen and
-Hydrogen and less ammonia. The yield of ammonia decreases, but the rate of reaction increases.
+endothermic (reverse) reaction, so the equilibrium shifts to the left, producing more nitrogen and
+hydrogen and less ammonia. The yield of ammonia decreases, but the rate of reaction increases.
 
 ### 4.5 The Contact Process
 
@@ -600,7 +600,7 @@ Desired salt.
 ### 5.5 Titrations
 
 A **titration** is used to find the exact volume of acid needed to neutralise a known volume of
-Alkali.
+alkali.
 
 **Method:**
 
@@ -665,7 +665,7 @@ Anode (positive): $2\mathrm{Br^- \to \mathrm{Br_2 + 2e^-$ (bromine gas)
 ### 6.3 Electrolysis of Aqueous Solutions
 
 When an aqueous solution is electrolysed, water can also be electrolysed, producing hydrogen and/or
-Oxygen.
+oxygen.
 
 **At the cathode (negative):** Metal ions or hydrogen are discharged (reduced).
 
@@ -675,7 +675,7 @@ Discharged) are discharged (oxidised).
 **Rules for discharge at electrodes:**
 
 Cathode: If the metal is more reactive than hydrogen, hydrogen is produced. If less reactive, the
-Metal is produced.
+metal is produced.
 
 Anode (aqueous): Halides produce the halogen. Otherwise, oxygen is produced from hydroxide ions.
 

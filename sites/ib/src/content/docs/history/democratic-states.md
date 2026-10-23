@@ -22,7 +22,7 @@ description: "This document covers the IB History topic on Democratic States for
 
 This document covers the IB History topic on Democratic States for Paper 2. It examines three case
 studies of democratic states facing severe challenges, Weimar Germany, the United States during the
-Great Depression, and the Spanish Second Republic, and analyses the conditions that enabled
+great Depression, and the Spanish Second Republic, and analyses the conditions that enabled
 democratic systems to survive or collapse. Comparative analysis and historiographical perspectives
 are integrated throughout.
 

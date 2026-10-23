@@ -22,7 +22,7 @@ categories:
 ## Java Examination Tool Sebset (JETS)
 
 The IB does not expect a specific standard of Java to be taught but a subset of Java called JETS for
-Students to present OOP concepts
+students to present OOP concepts
 
 ## Intuition
 
@@ -153,7 +153,7 @@ JETS is designed to demonstrate these core principles.
 ### Encapsulation
 
 Encapsulation is the bundling of data (attributes) and methods that operate on that data within a
-Single unit (class), while restricting direct access to some of the object's components.
+single unit (class), while restricting direct access to some of the object's components.
 
 - **Private attributes** can only be accessed through public methods (getters and setters).
 - This protects the internal state of an object from unauthorised or accidental modification.
@@ -241,7 +241,7 @@ class Dog extends Animal {
 ### Polymorphism
 
 Polymorphism means "many forms." It allows objects of different classes to be treated through a
-Common interface.
+common interface.
 
 **Method overriding:** A subclass provides a specific implementation of a method already defined in
 Its superclass.
@@ -597,7 +597,7 @@ int binarySearch(int[] arr, int target) {
 ### Bubble Sort
 
 Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the
-Wrong order.
+wrong order.
 
 ```java
 void bubbleSort(int[] arr) {

@@ -129,7 +129,7 @@ For a cube with side length $s$:
 - SA:V ratio = $6/s$
 
 If $s$ doubles from 1 to 2: SA:V decreases from 6 to 3. Larger organisms lose proportionally less
-Heat.
+heat.
 
 ## 2. Feeding Relationships
 
@@ -203,7 +203,7 @@ Pyramid of biomass:
 ```
 
 The pyramid shape shows that biomass decreases at each trophic level. Only about 10% of biomass is
-Transferred from one level to the next.
+transferred from one level to the next.
 
 ### 2.4 Energy Transfer
 
@@ -251,7 +251,7 @@ Described above.
 A food chain: grass $\to$ rabbit $\to$ fox.
 
 Grass contains 20,000 kJ of energy. 10% is transferred to rabbits. 15% of the rabbit"s energy is
-Transferred to foxes.
+transferred to foxes.
 
 Energy in rabbits: $20,000 \times 0.10 = 2,000$ kJ.
 
@@ -266,7 +266,7 @@ This shows how little energy reaches the top of a food chain.
 ### 3.1 The Carbon Cycle
 
 Carbon is constantly recycled between the atmosphere, organisms, and the Earth. The total amount of
-Carbon on Earth is fixed, but it moves between different stores (reservoirs).
+carbon on Earth is fixed, but it moves between different stores (reservoirs).
 
 **Processes that remove $\mathrm{CO_2$ from the atmosphere:**
 
@@ -317,7 +317,7 @@ Water back down as precipitation).
 ### 3.3 Decomposition
 
 Decomposers (bacteria and fungi) break down dead organic matter, recycling nutrients back into the
-Soil. This process is essential because without decomposition, nutrients would remain locked in dead
+soil. This process is essential because without decomposition, nutrients would remain locked in dead
 Organisms and would be unavailable for producers.
 
 **Factors affecting the rate of decomposition:**
@@ -336,7 +336,7 @@ Organisms and would be unavailable for producers.
 **Why temperature matters.** Decomposition is carried out by enzymes in bacteria and fungi. Like all
 Enzymes, these work faster at higher temperatures (up to their optimum) because the substrate
 Molecules have more kinetic energy and collide more frequently with the active sites. Above the
-Optimum, the enzymes denature and decomposition slows.
+optimum, the enzymes denature and decomposition slows.
 
 ### 3.4 Required Practical: Investigating Decomposition
 
@@ -358,7 +358,7 @@ Optimum, the enzymes denature and decomposition slows.
 ### 3.5 Higher Tier: The Nitrogen Cycle
 
 The nitrogen cycle describes how nitrogen is converted between different chemical forms and
-Circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
+circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
 And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2$) directly
 because the triple bond between the two nitrogen atoms is very strong.
 
@@ -487,7 +487,7 @@ This is called **bioaccumulation** (build-up within a single organism over its l
 
 **Example:** DDT (a pesticide) accumulates in the fatty tissue of organisms. Top predators (e.g.
 Birds of prey) accumulate the highest concentrations, which can cause thinning of eggshells and
-Population decline. This is why DDT was banned in many countries.
+population decline. This is why DDT was banned in many countries.
 
 **Why biomagnification occurs.** Toxins that are soluble in fat (lipophilic) are not broken Down or
 excreted. When an organism eats many smaller organisms, it accumulates all the toxins from Its food.
@@ -575,7 +575,7 @@ in a habitat.
 ### 5.2 Transects
 
 A **transect** is a line across a habitat. A quadrat is placed at regular intervals along the
-Transect. This is useful for studying how species distribution changes across an environmental
+transect. This is useful for studying how species distribution changes across an environmental
 Gradient (e.g., from the shore of a lake into the surrounding field).
 
 **Types:**
@@ -722,7 +722,7 @@ Conditions).
 
 A food chain consists of grass $\to$ rabbit $\to$ fox. Assume 10% efficiency of energy transfer at
 each trophic level. If the grass fixes 50,000 kJ of carbon (as glucose) per day through
-Photosynthesis:
+photosynthesis:
 
 1. Energy available to rabbits: $50,000 \times 0.10 = 5,000$ kJ/day.
 2. Energy available to foxes: $5,000 \times 0.10 = 500$ kJ/day.
@@ -730,7 +730,7 @@ Photosynthesis:
    kJ.
 
 This means 99% of the energy fixed by photosynthesis is lost before reaching the fox. This
-Illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
+illustrates why food chains are limited to a few trophic levels and why ecosystems can support far
 more herbivores than carnivores.
 
 ## 7. Higher Tier: Peat Bogs and Climate Change
@@ -748,17 +748,17 @@ on the planet.
 **The problem:** When peat bogs are drained for agriculture (e.g., for palm oil plantations in
 Southeast Asia) or harvested for fuel, the peat is exposed to air. Aerobic decomposition resumes,
 And the stored carbon is released as $\mathrm{CO_2$. Drained tropical peatlands are estimated to
-Release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
+release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
 to climate change.
 
 **Conservation:** Protecting and restoring peat bogs is an important strategy for mitigating climate
 Change. Rewetting drained peatlands can stop the release of stored carbon and allow the bogs to
-Begin accumulating carbon again.
+begin accumulating carbon again.
 
 ## 8. Higher Tier: Indicator Species
 
 Indicator species are organisms whose presence, absence, or abundance provides information about the
-Quality of the environment.
+quality of the environment.
 
 **Air quality indicators (lichens):**
 
@@ -776,7 +776,7 @@ Pollution, particularly sulphur dioxide ($\mathrm{SO_2$).
 </div>
 
 If bushy lichens are present, the air is clean. If only crusty lichens are present, the air is
-Polluted. If no lichens are present at all, the air is very heavily polluted.
+polluted. If no lichens are present at all, the air is very heavily polluted.
 
 **Water quality indicators (invertebrates):**
 
@@ -795,7 +795,7 @@ The species of invertebrates found in a river or stream indicate the level of wa
 </div>
 
 If stonefly larvae are found, the water is clean. If only bloodworms and rat-tailed maggots are
-Found, the water is severely polluted with organic waste (e.g., sewage).
+found, the water is severely polluted with organic waste (e.g., sewage).
 
 ## 9. Higher Tier: The Impact of Land Use Change on Ecosystems
 

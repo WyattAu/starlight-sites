@@ -281,15 +281,15 @@ Between the texts. Stronger essays move beyond surface comparisons to explore ho
 ## Truth and Memory
 
 Both texts interrogate the reliability of truth and the way communities construct, suppress, and
-Reconstruct narrative to serve their own interests. Neither Marquez nor Williams presents a single,
+reconstruct narrative to serve their own interests. Neither Marquez nor Williams presents a single,
 Objective account of events; instead, they force the reader or audience to navigate layers of
-Testimony, fabrication, and collective silence.
+testimony, fabrication, and collective silence.
 
 ### Chronicle: Collective Amnesia and Contradictory Testimonies
 
 Marquez structures the novella as a journalistic investigation conducted decades after the murder,
 And the narrator repeatedly encounters contradictory accounts from the same witnesses. This is not
-Accidental, it is the central formal strategy of the text.
+accidental, it is the central formal strategy of the text.
 
 - The narrator interviews townspeople twenty-seven years after the event, and their memories are
   unreliable: "Many people coincided in recalling that it was a radiant morning with a sea breeze
@@ -305,9 +305,9 @@ Accidental, it is the central formal strategy of the text.
   yet no one acted. The town's "truth" is a fiction of collective denial.
 
 The narrative form itself enacts this unreliability. The reader receives the story out of
-Chronological order, through fragments of testimony, and must piece together what actually happened.
+chronological order, through fragments of testimony, and must piece together what actually happened.
 Marquez suggests that truth in a community is not what happened, but what the community agrees to
-Remember.
+remember.
 
 ### Streetcar: Fabrication vs Brutal Honesty
 
@@ -405,9 +405,9 @@ Attempts, however ineffectually, to prevent Santiago's murder.
 
 **Key Comparison:** Both characters illuminate the limits of individual moral agency within
 Oppressive social systems. Eunice's failure is more damning, she actively discourages Stella from
-Holding Stanley accountable. Clotilde's failure is more tragic, she makes genuine efforts but is
-Defeated by the town's collective inertia. Together, they demonstrate that awareness of injustice is
-Insufficient without the structural power to challenge it.
+holding Stanley accountable. Clotilde's failure is more tragic, she makes genuine efforts but is
+defeated by the town's collective inertia. Together, they demonstrate that awareness of injustice is
+insufficient without the structural power to challenge it.
 
 ## Form Comparison Extended
 
@@ -430,7 +430,7 @@ Irony, and symbolic imagery. The novella form allows Marquez to:
 
 **A Streetcar Named Desire** operates as a scripted performance. Williams provides extensive stage
 Directions that function as a second narrative layer, one accessible only to the reader of the
-Script, not the theatre audience. The play form allows Williams to:
+script, not the theatre audience. The play form allows Williams to:
 
 - Use "plastic theatre", the integration of music (the blue piano, the Varsouviana polka), lighting
   (the naked bulb Blanche avoids, the paper lantern), and sound (the locomotive, the street vendors)
@@ -443,11 +443,11 @@ Script, not the theatre audience. The play form allows Williams to:
 ### Non-linear vs Linear Chronology
 
 The temporal structures of the two texts produce fundamentally different experiences of
-Inevitability.
+inevitability.
 
 **Chronicle** is radically non-linear. The first sentence reveals the outcome, and the narrative
 Then moves backward and forward through time, circling the murder from multiple angles. This
-Structure:
+structure:
 
 - Creates a sense of fatalism, the reader knows the ending, so every moment of hope (a warning
   sent, a door locked) is undercut by the certainty of death.
@@ -468,7 +468,7 @@ Williams complicates this linearity through:
 ### New Journalism vs Plastic Theatre
 
 Both authors developed innovative aesthetic approaches that broke from the conventions of their
-Respective forms.
+respective forms.
 
 **New Journalism (Marquez):** Although Marquez predates the New Journalism movement associated with
 Tom Wolfe and Joan Didion, Chronicle employs its techniques, fictional narrative structures applied
@@ -488,13 +488,13 @@ Multi-sensory approach creates meaning that cannot be reduced to language alone.
 **Chronicle** employs a collective, polyphonic narration. The narrator assembles testimony from
 Dozens of townspeople, and the text shifts between their voices without a clear hierarchy. No single
 Witness is privileged as authoritative, even the narrator admits his account is incomplete. This
-Form mirrors the novella's thematic concern with collective responsibility: if the truth is
-Dispersed among many voices, then guilt is also dispersed.
+form mirrors the novella's thematic concern with collective responsibility: if the truth is
+dispersed among many voices, then guilt is also dispersed.
 
 **Streetcar** filters the world almost entirely through Blanche's subjective experience. Even when
 She is not on stage, the plastic theatre elements (music, lighting) reflect her psychological state.
 The audience is positioned to empathise with Blanche, even as they recognise her unreliability. This
-Creates a tension between identification and judgment that is central to the play's moral
+creates a tension between identification and judgment that is central to the play's moral
 Complexity.
 
 ## Sample Comparative Essay
@@ -506,7 +506,7 @@ In both _Chronicle of a Death Foretold_ and _A Streetcar Named Desire_, individu
 with the inflexible demands of social expectation, producing destruction. However, the nature of
 that destruction and the formal means by which each author represents it differ significantly.
 Marquez presents a community in which honour codes suppress individual agency so completely that the
-Murder of Santiago Nasar becomes a collective act, while Williams presents a single consciousness,
+murder of Santiago Nasar becomes a collective act, while Williams presents a single consciousness,
 Blanche DuBois, struggling to sustain desire in a society that punishes non-conformity. Both texts
 Suggest that social expectation is not merely a backdrop but an active, violent force.
 
@@ -515,15 +515,15 @@ Vicario. Angela is forced into an arranged marriage with Bayardo San Roman, a ma
 Her secret desire, for another man whose identity she protects by naming Santiago, is suppressed
 by the patriarchal honour code that treats female virginity as family property. Marquez writes: "The
 only thing I prayed for was the courage to kill myself." Angela's wish for death rather than
-Submission reveals the extremity of the conflict. Her lie about Santiago is an act of individual
+submission reveals the extremity of the conflict. Her lie about Santiago is an act of individual
 Desire, she protects the real perpetrator, but it operates within the logic of the honour code,
 Which demands a name regardless of its truth. The result is Santiago's murder, a violent assertion
 of social expectation over individual life. Marquez's non-linear structure, which reveals the murder
 in the opening line, makes clear that individual desire in this world is always already doomed by
-Communal will.
+communal will.
 
 In _Streetcar_, Blanche DuBois represents individual desire in its most articulate form. She
-Explicitly rejects social expectation: "I don't want realism. I want magic!" Blanche's desire is for
+explicitly rejects social expectation: "I don't want realism. I want magic!" Blanche's desire is for
 A world in which beauty, romance, and gentility persist, a world that the post-war, working- class
 Reality of Elysian Fields has no place for. Her sexual history, her drinking, and her fabrications
 are all attempts to sustain desire in a society that judges women by rigid standards of purity and
@@ -533,16 +533,16 @@ Enforcement, he punishes her non-conformity with the one weapon the patriarchal 
 Prosecute. Williams's plastic theatre intensifies this conflict: the Varsouviana polka, which plays
 whenever Blanche recalls her husband's suicide, represents desire haunted by guilt, and the paper
 Lantern she places over the naked bulb symbolises her attempt to soften a reality that will not
-Soften for her.
+soften for her.
 
 The most significant difference between the texts lies in how they distribute responsibility. In
 _Chronicle_, the entire community is complicit in Santiago's death: "There had never been a death
 more foretold." The narrator's fragmented, journalistic investigation implicates not the Vicario
 Brothers alone but the priest who failed to warn Santiago, the police who confiscated the knives and
-Returned them, and the neighbours who heard the twins' threats and did nothing. Social expectation
+returned them, and the neighbours who heard the twins' threats and did nothing. Social expectation
 in Marquez's world is a collective phenomenon, and guilt is collective. In _Streetcar_,
 Responsibility concentrates in the dynamic between Stanley and Blanche, with Stella's refusal to
-Believe Blanche's rape accusation serving as a more personal, intimate form of complicity. "I
+believe Blanche's rape accusation serving as a more personal, intimate form of complicity. "I
 Couldn't believe her story and go on living with Stanley," Stella admits, a statement that mirrors
 the town's denial in _Chronicle_ but on a domestic scale. Williams's linear, single- perspective
 Structure focuses the audience's empathy on Blanche, making her destruction feel individual rather
@@ -552,7 +552,7 @@ In conclusion, both Marquez and Williams demonstrate that social expectation is 
 it conflicts with individual desire. Marquez does so by distributing guilt across an entire
 Community, using fragmented testimony to show how collective silence enables violence. Williams does
 so by concentrating the conflict in a single, devastating character arc, using plastic theatre to
-Make the audience feel Blanche's destruction from within. Both texts ultimately argue that societies
+make the audience feel Blanche's destruction from within. Both texts ultimately argue that societies
 which prioritise codes over compassion produce tragedies that are, in different ways, foretold.
 
 ## Practice Questions
@@ -636,7 +636,7 @@ Law, family)?"
 ### Question 5
 
 "Compare the significance of the final scenes in both texts. How do they shape the reader's or
-Audience's understanding of the central themes?"
+audience's understanding of the central themes?"
 
 <details>
 

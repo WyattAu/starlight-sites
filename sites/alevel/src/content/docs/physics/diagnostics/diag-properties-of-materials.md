@@ -236,7 +236,7 @@ energy stored in it.
 **Question:**
 
 A steel wire of length $3.0\,\text{m}$ Cross-sectional area $2.0 \times 10^{-6}\,\text{m}^2$ And
-Young's modulus $2.0 \times 10^{11}\,\text{Pa}$ is fixed between two rigid supports. The linear
+young's modulus $2.0 \times 10^{11}\,\text{Pa}$ is fixed between two rigid supports. The linear
 expansivity of steel is $1.2 \times 10^{-5}\,\text{K}^{-1}$.
 
 (a) The temperature increases by $40\,\text{K}$. Calculate the stress that develops in the wire if

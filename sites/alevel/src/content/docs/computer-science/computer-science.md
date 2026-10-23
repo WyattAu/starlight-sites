@@ -23,8 +23,8 @@ categories:
 ## A Level Computer Science, Course Overview
 
 A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It
-Teaches you to think precisely about computation, what can be computed, how efficiently, and how to
-Design systems that are correct, robust, and maintainable.
+teaches you to think precisely about computation, what can be computed, how efficiently, and how to
+design systems that are correct, robust, and maintainable.
 
 ### Board Coverage
 

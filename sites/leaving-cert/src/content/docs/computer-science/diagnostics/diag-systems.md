@@ -157,7 +157,7 @@ the program runs more slowly because translation happens during execution.
 as a shorthand notation for binary?
 
 (c) A computer stores text using 8-bit ASCII. The ASCII code for 'A' is $65$ and for 'a' is $97$.
-Convert the word "Cat" to its binary representation using ASCII codes.
+convert the word "Cat" to its binary representation using ASCII codes.
 
 (d) Explain the difference between lossy and lossless compression. Give one example of a file format
 that uses each type.

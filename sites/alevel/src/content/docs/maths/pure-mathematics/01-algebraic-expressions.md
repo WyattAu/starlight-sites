@@ -106,7 +106,7 @@ Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$ Hence $q^2 = 2k^2$.
 
 By the same argument, $q^2$ is even, so $q$ is even. But this contradicts $\gcd(p, q) = 1$ since
 both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
-Irrational. $\blacksquare$
+irrational. $\blacksquare$
 
 _Lemma._ If $p^2$ is even, then $p$ is even.
 
@@ -214,7 +214,7 @@ Theorem), then dividing by $(x - \alpha)$ to obtain a quadratic, which can then 
 ### 4.1 Long Division
 
 Polynomial long division mirrors integer long division exactly. We demonstrate with an example, then
-State the general theorem.
+state the general theorem.
 
 **Example.** Divide $x^3 + 2x^2 - 5x + 6$ by $x - 1$.
 
@@ -291,7 +291,7 @@ is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$ Meaning $(x - a)$ is a factor. $\b
 
 _Intuition._ The Factor Theorem connects algebra (polynomials) to geometry (roots on the $x$-axis).
 A root $x = a$ means the graph crosses the $x$-axis at $a$ Which means $(x - a)$ must divide the
-Polynomial.
+polynomial.
 
 <details>
 <summary>Example</summary>
@@ -330,7 +330,7 @@ $$
 
 :::caution
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
-Term.
+term.
 :::
 
 ### 6.2 Addition and Subtraction

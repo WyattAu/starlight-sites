@@ -545,7 +545,7 @@ By the Factor Theorem:
 - $f(-1) = -1 + a - b + c = 0 \quad \mathrm{(ii)}$
 
 Since $(x-3)(x+1) = x^2 - 2x - 3$ is a factor, write $f(x) = (x^2 - 2x - 3)(x - d)$ for some
-Constant $d$.
+constant $d$.
 
 Expanding: $f(x) = x^3 - (d+2)x^2 + (2d - 3)x + 3d$.
 
@@ -584,7 +584,7 @@ into (iii): $7 + 2(-d-2) + (2d-3) = 7 - 2d - 4 + 2d - 3 = 0$. Again automaticall
 
 Without additional information, $d$ is undetermined. However, since $(x-3)$ and $(x+1)$ are the
 _only_ stated factors, and the problem asks us to factorize completely, we observe that a cubic with
-Two known linear factors has a third linear factor. By Vieta, $\alpha + \beta + \gamma = -a$ And
+two known linear factors has a third linear factor. By Vieta, $\alpha + \beta + \gamma = -a$ And
 $\alpha\beta\gamma = -c$. With $\alpha = 3, \beta = -1$:
 
 $$
@@ -646,7 +646,7 @@ $$
 $$
 
 1. **Question:** The remainder when $f(x) = x^3 + px^2 + qx + 6$ is divided by $(x-1)$ is $12$. The
-Remainder when $f(x)$ is divided by $(x+1)$ is $18$. Find $p$ and $q$.
+remainder when $f(x)$ is divided by $(x+1)$ is $18$. Find $p$ and $q$.
 
 </details>
 <summary>Answer</summary>

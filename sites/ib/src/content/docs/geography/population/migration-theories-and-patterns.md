@@ -21,7 +21,7 @@ description: "Migration is the movement of people from one place to another with
 
 Migration is the movement of people from one place to another with the intention of settling,
 Permanently or temporarily, in the new location. Migration can be classified along several
-Dimensions:
+dimensions:
 
 <div class="table-wrap">
 
@@ -63,7 +63,7 @@ several "laws" of migration that remain influential:
 ### Lee's Model of Migration (1966)
 
 Everett Lee extended Ravenstein's work by developing a more formal model that identifies four
-Elements in the migration decision:
+elements in the migration decision:
 
 1. **Factors associated with the area of origin (push factors):** conditions that encourage
    departure. These include economic factors (unemployment, low wages, poverty), social factors
@@ -84,8 +84,8 @@ Elements in the migration decision:
 
 Lee's model recognises that the decision to migrate involves an assessment of the perceived costs
 and benefits of moving versus staying, filtered through individual characteristics and mediated by
-Intervening obstacles. It also recognises that not all factors are positive or negative from the
-Perspective of the individual: what is a push factor for one person (e.g., the closure of a local
+intervening obstacles. It also recognises that not all factors are positive or negative from the
+perspective of the individual: what is a push factor for one person (e.g., the closure of a local
 Factory) may be neutral for another.
 
 ### Structuralist Approaches
@@ -117,7 +117,7 @@ the probability of unemployment) and by the aspiration for modern lifestyles and
 **Urban-urban migration** involves movement between cities, often from smaller to larger cities. In
 China, inter-provincial migration flows predominantly toward the coastal megacities (Shanghai,
 Shenzhen, Guangzhou, Beijing), reflecting the concentration of employment opportunities in the
-Eastern seaboard.
+eastern seaboard.
 
 **Forced internal displacement** results from conflict, environmental disasters, or development
 Projects. As of 2023, approximately 62.5 million people were internally displaced worldwide,
@@ -134,12 +134,12 @@ Kuwait, Bahrain, and Oman); Eastern Europe to Western Europe; and Central Americ
 **Forced migration** includes refugees (people who have fled their country due to persecution,
 Conflict, or violence and are protected under the 1951 Refugee Convention) and asylum seekers
 (people who have applied for refugee status but whose claims have not yet been determined). As of
-Mid-2023, the UNHCR estimated 36.4 million refugees and 6.1 million asylum seekers globally.
+mid-2023, the UNHCR estimated 36.4 million refugees and 6.1 million asylum seekers globally.
 
 **Environmental migration** is movement driven by environmental change or environmental disasters.
 The World Bank estimates that up to 216 million people could be internally displaced by climate
 Change by 2050. However, establishing a causal link between environmental change and migration is
-Complex, as environmental factors interact with economic, social, and political drivers.
+complex, as environmental factors interact with economic, social, and political drivers.
 
 ## Impacts of Migration
 
@@ -174,14 +174,14 @@ Mexico-USA migration is one of the most studied international migration flows.
 **Scale and trends.** In 2022, approximately 10.7 million Mexican-born residents lived in the USA,
 Constituting the largest foreign-born population. Net migration from Mexico to the USA has declined
 since 2010, partly due to improved economic conditions in Mexico (GDP growth averaging 2--3% per
-Year), tighter border enforcement (the USA has spent over USD 300 billion on border security since
+year), tighter border enforcement (the USA has spent over USD 300 billion on border security since
 2003), and demographic changes (Mexico's fertility decline has reduced the pool of potential
 Migrants).
 
 **Remittances.** Remittances from the USA to Mexico exceeded USD 60 billion in 2023, representing
 Approximately 4% of Mexico's GDP. Remittances are the largest source of foreign exchange after
-Manufacturing exports and petroleum. They are disproportionately important for rural communities in
-Southern Mexico (Oaxaca, Chiapas, Guerrero), where they support household consumption, education,
+manufacturing exports and petroleum. They are disproportionately important for rural communities in
+southern Mexico (Oaxaca, Chiapas, Guerrero), where they support household consumption, education,
 Health, and small business formation.
 
 **Spatial pattern.** Mexican migrants are concentrated in California (approximately 37%), Texas
@@ -192,11 +192,11 @@ Diaspora networks that reduce migration costs and risks.
 
 The Philippines is one of the world's largest labour-exporting countries. Approximately 10 million
 Filipinos (approximately 10% of the population) live and work overseas, collectively known as
-Overseas Filipino Workers (OFWs).
+overseas Filipino Workers (OFWs).
 
 **Drivers.** Structural factors include limited domestic employment opportunities (unemployment and
 Underemployment rates exceed 5% and 15% respectively), low wages in many sectors, and a culture of
-Migration reinforced by decades of overseas employment. The government actively promotes labour
+migration reinforced by decades of overseas employment. The government actively promotes labour
 Export through the Philippine Overseas Employment Administration (POEA), which regulates recruitment
 Agencies and provides pre-departure training.
 
@@ -206,7 +206,7 @@ Million, including permanent migrants), Southeast Asia (Singapore, Hong Kong, Ma
 
 **Remittances.** OFW remittances exceeded USD 36 billion in 2023, representing approximately 9% of
 The Philippines' GDP. Remittances are the largest single source of foreign exchange and have
-Supported macroeconomic stability, household consumption, and educational investment.
+supported macroeconomic stability, household consumption, and educational investment.
 
 **Social costs.** Family separation (OFWs work abroad for 2--5 year contracts, leaving Spouses and
 children behind); vulnerability to exploitation and abuse (particularly among domestic Workers in
@@ -217,13 +217,13 @@ occupations abroad); and the creation of a "migration culture" that normalises f
 <summary>Common Pitfalls: Overgeneralising Migration Impacts</summary>
 
 Migration impacts are not uniformly positive or negative for either origin or destination. The
-Effects depend on the specific context: the type of migration (skilled vs unskilled, permanent vs
+effects depend on the specific context: the type of migration (skilled vs unskilled, permanent vs
 Temporary), the sectors involved, the scale relative to the destination population, the
-Institutional and regulatory framework, and the characteristics of the migrants themselves. For
-Example, brain drain is a concern for small, poor countries that lose a large proportion of their
-Skilled workforce (e.g., Ghana, which has more doctors working in OECD countries than in Ghana
+institutional and regulatory framework, and the characteristics of the migrants themselves. For
+example, brain drain is a concern for small, poor countries that lose a large proportion of their
+skilled workforce (e.g., Ghana, which has more doctors working in OECD countries than in Ghana
 Itself), but is less significant for large countries where emigration is a small fraction of the
-Total skilled workforce. Similarly, the fiscal impact of immigration depends on the age, skill
+total skilled workforce. Similarly, the fiscal impact of immigration depends on the age, skill
 Level, and employment status of migrants. Always evaluate impacts with reference to specific
 Evidence and case studies.
 

@@ -22,8 +22,8 @@ description: "Sustainable urban development seeks to meet the needs of the prese
 ### Defining Urban Sustainability
 
 Sustainable urban development seeks to meet the needs of the present urban population without
-Compromising the ability of future generations to meet their own needs. It integrates three
-Dimensions:
+compromising the ability of future generations to meet their own needs. It integrates three
+dimensions:
 
 - **Environmental sustainability:** minimising resource consumption, reducing pollution and waste,
   preserving biodiversity and ecosystem services, mitigating and adapting to climate change.
@@ -42,7 +42,7 @@ Consumption (environmental cost). Effective urban planning navigates these trade
 ### The Sustainable Development Goals and Cities
 
 SDG 11 ("Make cities and human settlements inclusive, safe, resilient and sustainable") is the
-Dedicated urban SDG, but cities are central to achieving many other goals:
+dedicated urban SDG, but cities are central to achieving many other goals:
 
 - **SDG 3** (Health): urban air quality, access to healthcare, active transport (walking, cycling).
 - **SDG 7** (Clean Energy): renewable energy deployment, energy-efficient buildings.
@@ -81,12 +81,12 @@ Singapore's Autonomous Vehicle Initiative is testing driverless buses and shuttl
 Smart city elements include: real-time bicycle traffic monitoring (Copenhagen has approximately 390
 Km of segregated cycle lanes, and cycling accounts for approximately 49% of all commutes); a smart
 Grid integrating wind energy (Denmark generates approximately 55% of electricity from wind); and
-Data-driven urban planning using digital models of microclimate, wind patterns, and solar exposure
+data-driven urban planning using digital models of microclimate, wind patterns, and solar exposure
 to optimise building design and placement.
 
 **Barcelona.** The "Superblocks" (superilles) programme redesigns street grids to prioritise
 Pedestrians and cyclists over motor vehicles. By restricting through-traffic in designated blocks of
-Nine streets, Barcelona has reclaimed road space for public plazas, green areas, and community
+nine streets, Barcelona has reclaimed road space for public plazas, green areas, and community
 Activities. The programme has reduced traffic by approximately 25% in affected areas, reduced
 $\mathrm{NO_2}$ concentrations by approximately 25%, and increased pedestrian and cycling space.
 
@@ -128,7 +128,7 @@ stations, BRT stations, major bus interchanges). Key principles include:
 
 Curitiba (population approximately 1.9 million; metropolitan area approximately 3.7 million)
 Pioneered bus rapid transit (BRT) in the 1970s and integrated transit-oriented development into its
-Master plan.
+master plan.
 
 - **BRT system (RIT):** the Rede Integrada de Transporte serves approximately 2.3 million passengers
   per day through dedicated bus lanes, tube-like stations with pre-board ticketing, and
@@ -149,7 +149,7 @@ Fuel consumption is approximately 30% lower than comparable Brazilian cities.
 
 **Limitations:** the model benefits the formal city while the metropolitan periphery (approximately
 1.8 million people) experiences inadequate transport, informal housing, and limited access to
-Services. The success depended on strong political leadership (particularly under Mayor Jaime
+services. The success depended on strong political leadership (particularly under Mayor Jaime
 Lerner) that may not be replicable in all contexts.
 
 ## Green Infrastructure
@@ -218,7 +218,7 @@ Cities.
 
 **Overall Freiburg strategy:** approximately 43% of the city area is forest; the city has over 500
 Km of cycling paths; public transport (trams and buses) carries approximately 40% of all trips; the
-City aims to be carbon-neutral by 2050.
+city aims to be carbon-neutral by 2050.
 
 ## Participatory Planning
 
@@ -227,7 +227,7 @@ City aims to be carbon-neutral by 2050.
 Participatory planning involves the active engagement of citizens and communities in the planning
 and design of their neighbourhoods and cities. It moves beyond traditional top-down planning (in
 which decisions are made by planners and politicians with limited public input) toward
-Collaborative, bottom-up processes.
+collaborative, bottom-up processes.
 
 **Methods of participation:**
 
@@ -248,7 +248,7 @@ Collaborative, bottom-up processes.
 Examination questions often ask students to evaluate sustainable urban strategies. A common error is
 to present strategies (e.g., BRT, smart cities, green infrastructure) as universally beneficial,
 Without considering context. A strategy that works in one context may fail in another due to
-Differences in income levels, governance capacity, institutional frameworks, cultural norms,
+differences in income levels, governance capacity, institutional frameworks, cultural norms,
 Climate, or existing urban form. Curitiba's BRT system, for example, was implemented within a strong
 Institutional framework and a culture of planning that may not exist in other developing-country
 Cities. Freiburg's Vauban district was built in a high-income country with strong environmental

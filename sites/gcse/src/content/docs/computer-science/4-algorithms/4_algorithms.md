@@ -75,10 +75,10 @@ The choice of algorithm determines how fast your program runs and how much memor
 You need to be able to read, trace, and write algorithms in pseudocode and flowcharts.
 
 Two different algorithms can solve the same problem but have vastly different performance. For
-Instance, searching through a million sorted records takes at most 20 comparisons with binary search
+instance, searching through a million sorted records takes at most 20 comparisons with binary search
 but could take all 1,000,000 comparisons with linear search. This difference grows faster than
-Intuition suggests because the number of operations scales with the **size of the input**, which is
-Exactly what Big-O notation captures.
+intuition suggests because the number of operations scales with the **size of the input**, which is
+exactly what Big-O notation captures.
 
 ## 2. Searching Algorithms
 
@@ -111,7 +111,7 @@ FUNCTION linear_search(array, target):
 
 **Intuition.** Think of looking for a word in a dictionary by reading every page from the start. If
 The word is on page 500 of a 1000-page dictionary, you check 500 pages. If the word is not in the
-Dictionary at all, you check all 1000. This is exactly what linear search does with an array.
+dictionary at all, you check all 1000. This is exactly what linear search does with an array.
 
 **Python implementation:**
 
@@ -162,7 +162,7 @@ FUNCTION binary_search(array, target):
 
 **Intuition.** Think of looking up a word in a physical dictionary. You open the book somewhere near
 The middle. If the word you want comes alphabetically after the page you opened to, you ignore the
-Entire first half and repeat the process in the second half. Each step halves the remaining pages.
+entire first half and repeat the process in the second half. Each step halves the remaining pages.
 For a 1000-page dictionary, this takes at most $\lceil \log_2 1000 \rceil = 10$ steps.
 
 **Worked Example.** Search for 7 in the sorted array [1, 3, 5, 7, 9, 11, 13].
@@ -227,8 +227,8 @@ even further as $n$ grows.
 Binary search relies on the **monotonic ordering** of the array to eliminate half of the remaining
 Search space at each step. When you compare `array[mid]` with the target, you can only conclude that
 the target must be in the left half or the right half because the array is sorted. If the array were
-Unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
-Discarding either half.
+unsorted, a value greater than `array[mid]` could appear anywhere, and you would have no basis for
+discarding either half.
 
 **Proof sketch.** Let the sorted array be $a_0 \le a_1 \le \cdots \le a_{n-1}$. Suppose the target
 $t$ exists at index $k$. At each step, the algorithm maintains the invariant that
@@ -237,7 +237,7 @@ Element at index $\le \mathrm{mid$ is also $\lt t$ So $k \gt \mathrm{mid$ and we
 $\mathrm{low = \mathrm{mid - 1$. The argument is symmetric for the other case. The loop terminates
 when $\mathrm{low \gt
 \mathrm{high$, meaning the search space is empty and $T$ does not exist in the
-Array.
+array.
 
 ## 3. Sorting Algorithms
 
@@ -262,7 +262,7 @@ FUNCTION bubble_sort(array):
 
 **Intuition.** Imagine you are scanning through a line of students ordered by height. You compare
 Each adjacent pair. If the taller student is on the left, you swap them. After one full pass, the
-Tallest student has "bubbled" to the end of the line. You repeat, and each pass places the next
+tallest student has "bubbled" to the end of the line. You repeat, and each pass places the next
 Tallest in its correct position.
 
 **Worked Example.** Sort [5, 1, 4, 2, 8].
@@ -350,7 +350,7 @@ Shift 5, 4 right. [1, 2, 4, 5, 8] i=4: key=8, no shifting needed. [1, 2, 4, 5, 8
 
 **Why insertion sort can be faster than bubble sort in practice.** Insertion sort only swaps
 Elements that are out of order, whereas bubble sort always scans the entire unsorted portion. For
-Nearly sorted data, insertion sort approaches $O(n)$ because few shifts are needed.
+nearly sorted data, insertion sort approaches $O(n)$ because few shifts are needed.
 
 **Python implementation:**
 
@@ -401,7 +401,7 @@ FUNCTION merge(left, right):
 
 **Intuition.** Think of sorting a stack of exam papers by marking scheme. You split the stack in
 Half and give each half to a colleague. They each split their stack again, and so on, until each
-Person has one paper ( sorted). Then you merge: the two single-paper stacks are merged into A sorted
+person has one paper ( sorted). Then you merge: the two single-paper stacks are merged into A sorted
 pair, pairs into sorted fours, and so on.
 
 **Time complexity:** $O(n \log n)$ in all cases (best, average, worst).
@@ -447,7 +447,7 @@ In-place; merge sort requires a temporary array during merging.
 Interface, scoring system.
 
 Each sub-problem can then be tackled independently. Decomposition makes large problems tractable and
-Allows different team members to work on different parts simultaneously.
+allows different team members to work on different parts simultaneously.
 
 ### 4.2 Abstraction
 
@@ -459,7 +459,7 @@ And which are irrelevant (tree species, building colours).
 
 **Example:** When modelling a car in a racing game, you might represent it by position, velocity,
 And direction while ignoring the brand, colour, and interior design. These irrelevant details would
-Make the model unnecessarily complex without improving the simulation.
+make the model unnecessarily complex without improving the simulation.
 
 ### 4.3 Pattern Recognition
 
@@ -556,7 +556,7 @@ By zero will cause a runtime error. This check is a form of **defensive programm
 ## 6. Trace Tables
 
 A **trace table** is used to record the values of variables as an algorithm executes, to check for
-Correctness.
+correctness.
 
 **Worked Example.** Trace the following algorithm with input: 3, 1, 4, 1, 5.
 

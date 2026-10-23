@@ -27,7 +27,7 @@ $A[0] \leq A[1] \leq \cdots \leq A[n-1]$.
 
 **Stability:** A sort is **stable** if elements with equal keys maintain their relative order from
 The input. Stability matters when sorting by multiple keys (e.g., sort by surname, then by first
-Name).
+name).
 
 **In-place:** A sort is **in-place** if it uses $O(1)$ extra memory (excluding the input array).
 
@@ -122,7 +122,7 @@ otherwise, no change. Either way, $A[0..1]$ is sorted. ✓
 _Inductive step._ Assume $A[0..i-1]$ is sorted. We insert $A[i]$ (stored as `key`) by shifting
 Elements greater than `key` one position right. Since $A[0..i-1]$ is sorted, all elements greater
 than `key` form a contiguous suffix. After shifting, `key` is placed at the first position where the
-Element to its left is $\leq$ `key`. The resulting $A[0..i]$ is sorted. ✓
+element to its left is $\leq$ `key`. The resulting $A[0..i]$ is sorted. ✓
 
 $\square$
 
@@ -322,7 +322,7 @@ Worst case.
 
 **Proof.** A comparison-based sorting algorithm can be modelled as a **decision tree**. Each
 Internal node represents a comparison (e.g., "$A[i] \leq A[j]$?"), and each leaf represents a
-Permutation of the input (a possible output).
+permutation of the input (a possible output).
 
 There are $n!$ possible permutations of $n$ elements, so the decision tree has at least $n!$ leaves.
 
@@ -448,7 +448,7 @@ This possible? Justify using the decision tree model.
 
 A decision tree for sorting 5 elements must have at least $5! = 120$ leaves. A binary tree of height
 7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$ It is
-Theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
+theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
 Balanced decision tree (each comparison splits the remaining possibilities roughly in half), which
 is achievable by an optimal comparison-based sorting algorithm.
 

@@ -24,14 +24,14 @@ categories:
 
 Analytical techniques allow chemists to determine the structure, composition, and purity of organic
 Compounds. No single technique provides complete structural information; instead, a combination of
-Methods is used. This module covers the four principal spectroscopic and chromatographic methods:
+methods is used. This module covers the four principal spectroscopic and chromatographic methods:
 Mass spectrometry, infrared spectroscopy, nuclear magnetic resonance spectroscopy, and
-Chromatography.
+chromatography.
 
 ## Mass Spectrometry (MS)
 
 Mass spectrometry measures the mass-to-charge ratio ($m/z$) of ionised molecules and fragments. It
-Provides information about molecular mass, molecular formula, and structural features.
+provides information about molecular mass, molecular formula, and structural features.
 
 ### Instrument Overview
 
@@ -53,7 +53,7 @@ $$
 ### The Molecular Ion ($\mathrm{M}^{+\bullet}$)
 
 The molecular ion peak corresponds to the $m/z$ of the intact molecule (minus one electron). Its
-Mass gives the relative molecular mass ($M_r$) of the compound. The molecular ion is the heaviest
+mass gives the relative molecular mass ($M_r$) of the compound. The molecular ion is the heaviest
 Significant peak (excluding isotopic peaks).
 
 The molecular ion peak is not always the base peak (the tallest peak). For compounds that fragment
@@ -113,7 +113,7 @@ Derivatives.
 
 IR spectroscopy measures the absorption of infrared radiation by molecular bonds. Bonds absorb
 Radiation at characteristic frequencies corresponding to their vibrational modes (stretching and
-Bending).
+bending).
 
 ### Key Absorptions
 
@@ -137,7 +137,7 @@ Bending).
 
 The region below $1500\,\mathrm{cm}^{-1}$ ($1500$--$400\,\mathrm{cm}^{-1}$) contains a complex
 Pattern of absorptions from bending vibrations and C--C, C--O, C--X single bond stretches. This
-Pattern is unique to each compound (like a fingerprint) and is used for identification by comparison
+pattern is unique to each compound (like a fingerprint) and is used for identification by comparison
 with reference spectra.
 
 ### Interpreting an IR Spectrum
@@ -163,7 +163,7 @@ Chemically distinct hydrogen environment produces a separate signal.
 **Chemical shift ($\delta$):** Measured in parts per million (ppm) relative to tetramethylsilane
 (TMS), which is assigned $\delta = 0$. TMS is used as a reference because it gives a single, sharp
 Signal from 12 equivalent protons at high field, and its silicon is less electronegative than
-Carbon.
+carbon.
 
 The chemical shift reflects the degree of electron shielding around the proton. Electronegative
 Groups deshield nearby protons, moving their signal to higher $\delta$ (downfield).
@@ -187,7 +187,7 @@ Groups deshield nearby protons, moving their signal to higher $\delta$ (downfiel
 
 **Integration:** The area under each signal is proportional to the number of equivalent protons
 Producing that signal. Modern NMR spectrometers display the integration as a step function above the
-Peaks.
+peaks.
 
 **Spin-spin coupling (splitting):** Non-equivalent protons on adjacent carbons ( separated By three
 bonds, $^3J$ coupling) split each other's signals. The splitting pattern follows the $n+1$ rule: a
@@ -415,7 +415,7 @@ The systematic approach to identifying an unknown organic compound:
    ($1000$--$1300\,\mathrm{cm}^{-1}$).
 
 5. **Incorrectly interpreting $R_f$ values.** $R_f$ is dimensionless and always between 0 and 1.
-   Compounds with greater affinity for the mobile phase have higher $R_f$ values.
+   compounds with greater affinity for the mobile phase have higher $R_f$ values.
 
 6. **Forgetting that OH and NH protons can be exchanged.** Adding $\mathrm{D}_2\mathrm{O}$ to the
    sample causes OH and NH signals to disappear (exchange with deuterium) and a new signal for HOD
@@ -615,10 +615,10 @@ Re-examining: The triplet-quartet pair + singlet at 2.0 + singlet at 11.0 is con
 Acetate**? No, the IR shows carboxylic acid.
 
 The compound is **2-oxobutanoic acid**? No. Given $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$: the
-Quartet (2H) at 2.3 and triplet (3H) at 1.2 form an ethyl group. The singlet (3H) at 2.0 is
+quartet (2H) at 2.3 and triplet (3H) at 1.2 form an ethyl group. The singlet (3H) at 2.0 is
 $-\mathrm{COCH}_3$. Combined: $\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3$ is butanone
 ($\mathrm{C}_4\mathrm{H}_8\mathrm{O}$), not $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$. With the
-Carboxylic acid proton, the compound is **butanoic acid** where the $-\mathrm{CH}_2-$ at position 3
+carboxylic acid proton, the compound is **butanoic acid** where the $-\mathrm{CH}_2-$ at position 3
 Appears as a multiplet. The data given may represent a simplified spectrum.
 
 </details>

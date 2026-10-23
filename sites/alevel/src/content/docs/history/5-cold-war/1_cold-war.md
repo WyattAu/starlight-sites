@@ -23,7 +23,7 @@ description: "A-Level History The Cold War 1945-1991 notes covering key definiti
 ## The Cold War 1945-1991
 
 The Cold War defined the second half of the twentieth century. Ideological rivalry between the
-United States and the Soviet Union shaped international relations, triggered proxy wars, and brought
+united States and the Soviet Union shaped international relations, triggered proxy wars, and brought
 the world to the brink of nuclear destruction.
 
 ## Historical Context and Chronology

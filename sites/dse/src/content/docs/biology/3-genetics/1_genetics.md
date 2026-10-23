@@ -22,7 +22,7 @@ categories: "- DSE - Biology"
 ### Terminology
 
 Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the
-Single most common source of lost marks in DSE genetics questions.
+single most common source of lost marks in DSE genetics questions.
 
 <div class="table-wrap">
 
@@ -50,20 +50,20 @@ Mendel's work with pea plants (_Pisum sativum_) established three fundamental la
 
 Each individual possesses two alleles for any given trait. During gamete formation, the two alleles
 Segregate so that each gamete carries only one allele. This is a direct consequence of the
-Separation of homologous chromosomes during meiosis I (anaphase I).
+separation of homologous chromosomes during meiosis I (anaphase I).
 
 **2. Law of Independent Assortment (Second Law):**
 
 Alleles of different genes on different chromosomes assort independently of one another during
-Gamete formation. This occurs because the orientation of one homologous pair on the metaphase plate
+gamete formation. This occurs because the orientation of one homologous pair on the metaphase plate
 during meiosis I is independent of the orientation of other pairs. This law only holds for genes on
-Different chromosomes or genes that are far apart on the same chromosome (linked genes that undergo
+different chromosomes or genes that are far apart on the same chromosome (linked genes that undergo
 Frequent crossing over approximate independent assortment).
 
 **3. Law of Dominance:**
 
 In a heterozygote, one allele may mask the expression of another. The allele that is expressed is
-Dominant; the allele that is masked is recessive.
+dominant; the allele that is masked is recessive.
 
 :::note
 Complete dominance, (c) no gene interaction, and (d) no linkage. Real organisms frequently violate
@@ -172,7 +172,7 @@ All offspring will be Bb (100% dominant phenotype).
 Offspring will be 50% Bb (dominant phenotype) and 50% bb (recessive phenotype).
 
 The appearance of any recessive offspring proves that the parent was heterozygous. The absence of
-Recessive offspring suggests (but does not prove with certainty, especially in small sample sizes)
+recessive offspring suggests (but does not prove with certainty, especially in small sample sizes)
 That the parent is homozygous.
 
 ---
@@ -193,7 +193,7 @@ Mendel's laws assume complete dominance. In reality, dominance relationships are
 ### Incomplete Dominance
 
 In incomplete dominance, the heterozygote has an intermediate phenotype that is distinct from either
-Homozygote. Neither allele is fully dominant.
+homozygote. Neither allele is fully dominant.
 
 **Classic example:** Snapdragon flower colour.
 
@@ -263,7 +263,7 @@ Masks the other.
 ### Multiple Alleles
 
 A gene may have more than two alleles in the population, although any individual can only carry two
-Alleles (one on each homologous chromosome).
+alleles (one on each homologous chromosome).
 
 **Human ABO blood groups:**
 
@@ -374,7 +374,7 @@ Humans have 23 pairs of chromosomes: 22 pairs of autosomes and 1 pair of sex chr
 - Males: XY (heterogametic)
 
 The sex of the offspring is determined by the sperm: if an X-bearing sperm fertilises the egg, the
-Result is XX (female); if a Y-bearing sperm fertilises the egg, the result is XY (male).
+result is XX (female); if a Y-bearing sperm fertilises the egg, the result is XY (male).
 
 $$
 P(\mathrm{female}) = \frac{1}{2}, \quad P(\mathrm{male}) = \frac{1}{2}
@@ -447,10 +447,10 @@ The inheritance pattern is identical to haemophilia. The cross diagrams use X^N 
 A carrier woman (X^N X^n) marries a normal man (X^N Y).
 
 Probability that their son is colour blind: 1/2 (the son receives X^n from the mother with
-Probability 1/2).
+probability 1/2).
 
 Probability that their daughter is colour blind: 0 (the daughter would need to receive X^n from both
-Parents, but the father only has X^N).
+parents, but the father only has X^N).
 
 Probability that their daughter is a carrier: 1/2.
 
@@ -567,7 +567,7 @@ Cross: WwYy x WwYy yields a 12:3:1 ratio (12 white : 3 yellow : 1 green).
 **3. Complementary gene action (9:7 ratio):**
 
 Two genes work together to produce a trait. A dominant allele of each gene is required. If either
-Gene is homozygous recessive, the trait is not expressed.
+gene is homozygous recessive, the trait is not expressed.
 
 **Example:** Flower colour in sweet peas.
 
@@ -579,7 +579,7 @@ Cross: CcPp x CcPp yields 9 purple (C*P*) : 7 white (3 C*pp + 3 ccP* + 1 ccpp).
 **4. Duplicate gene action (15:1 ratio):**
 
 Two dominant alleles at either gene produce the same phenotype. Only the double recessive shows the
-Alternate phenotype.
+alternate phenotype.
 
 **Example:** Seed shape in shepherd's purse.
 
@@ -615,7 +615,7 @@ Cross: AaBb x AaBb yields 15 triangular : 1 oval.
 ## Chromosome Mutations
 
 Chromosome mutations involve changes to the structure or number of whole chromosomes. These are
-Distinct from gene mutations, which affect individual genes.
+distinct from gene mutations, which affect individual genes.
 
 ### Structural Changes
 
@@ -630,7 +630,7 @@ Loss of a segment of a chromosome. The deleted segment may contain one or more g
 **2. Duplication:**
 
 A segment of a chromosome is repeated. The extra copy may be adjacent (tandem duplication) or
-Elsewhere.
+elsewhere.
 
 - Consequences: gene dosage effects; can alter phenotype if the duplicated gene is dosage-sensitive
 - Mechanism: unequal crossing over between misaligned homologous chromosomes during meiosis
@@ -705,7 +705,7 @@ A single nucleotide base is replaced by another.
 **2. Frameshift mutations:**
 
 Insertion or deletion of one or more nucleotides that is NOT a multiple of three. This shifts the
-Reading frame of all codons downstream of the mutation, producing a completely Non-functional
+reading frame of all codons downstream of the mutation, producing a completely Non-functional
 protein.
 
 - **Insertion:** One or more nucleotides are added.
@@ -731,7 +731,7 @@ protein.
 ### Mutation Rate
 
 Spontaneous mutation rates in humans are approximately $1 \times 10^{-8}$ to $1 \times 10^{-6}$ per
-Gene per generation. Mutations can be caused by:
+gene per generation. Mutations can be caused by:
 
 - **Spontaneous:** Errors during DNA replication; spontaneous base changes (e.g., deamination of
   cytosine to uracil)
@@ -754,7 +754,7 @@ Gene per generation. Mutations can be caused by:
 ### Overview
 
 The Human Genome Project (HGP) was an international scientific research project (1990-2003) that
-Mapped and sequenced the entire human genome. The project determined the sequence of approximately 3
+mapped and sequenced the entire human genome. The project determined the sequence of approximately 3
 Billion base pairs of DNA and identified approximately 20,000-25,000 protein-coding genes.
 
 ### Key Findings
@@ -784,7 +784,7 @@ Billion base pairs of DNA and identified approximately 20,000-25,000 protein-cod
 ### Pharmacogenomics
 
 The study of how an individual's genetic makeup affects their response to drugs. This allows for
-Personalised medicine -- tailoring drug choice and dosage to an individual's genotype to maximise
+personalised medicine -- tailoring drug choice and dosage to an individual's genotype to maximise
 Efficacy and minimise adverse effects.
 
 ---
@@ -911,7 +911,7 @@ between individuals.
 
 **Reliability:** The probability of two unrelated individuals having the same DNA profile at 13 or
 More STR loci is less than 1 in a billion. This makes DNA fingerprinting extremely reliable for
-Identification.
+identification.
 
 ---
 

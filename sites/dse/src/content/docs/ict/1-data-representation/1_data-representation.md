@@ -90,7 +90,7 @@ $3 \times 8^2 + 7 \times 8^1 + 2 \times 8^0 = 3 \times 64 + 7 \times 8 + 2 \time
 #### Binary Addition
 
 Binary addition follows the same principles as decimal addition, with carries propagating when the
-Sum of a column exceeds 1.
+sum of a column exceeds 1.
 
 <div class="table-wrap">
 
@@ -141,7 +141,7 @@ Verification: $107 + 93 = 200$ And $11001000_2 = 128 + 64 + 8 = 200$. Correct.
 #### Two's Complement
 
 Two's complement is the standard method for representing signed integers in binary. The most
-Significant bit (MSB) serves as the sign bit: 0 for positive, 1 for negative.
+significant bit (MSB) serves as the sign bit: 0 for positive, 1 for negative.
 
 **Range for n bits:** $-2^{n-1}$ to $2^{n-1} - 1$
 
@@ -205,7 +205,7 @@ $67 - 45 = 22$. Correct.
 ### Floating Point Representation (IEEE 754)
 
 Real numbers (numbers with fractional parts) are stored using IEEE 754 floating point format. The
-Standard defines single precision (32-bit) and double precision (64-bit).
+standard defines single precision (32-bit) and double precision (64-bit).
 
 **Single precision (32-bit) layout:**
 
@@ -226,7 +226,7 @@ $$
 $$
 
 Where `S` is the sign bit, `E` is the exponent (stored as unsigned with bias 127), and `M` is the
-Mantissa (fractional part, with an implicit leading 1).
+mantissa (fractional part, with an implicit leading 1).
 
 <details>
 <summary>Worked Example: Convert -6.625 to IEEE 754 Single Precision</summary>
@@ -343,7 +343,7 @@ UTF-8 is a variable-width encoding that uses 1 to 4 bytes. The encoding rules ar
 </div>
 
 The leading bits of the first byte indicate the total number of bytes in the character. All
-Continuation bytes start with `10`.
+continuation bytes start with `10`.
 
 <details>
 <summary>Worked Example: Encode 'A' (U+0041), euro sign (U+20AC), and a CJK character (U+4E2D) in UTF-8</summary>
@@ -551,7 +551,7 @@ PNG compression pipeline:
 
 GIF uses LZW (Lempel-Ziv-Welch) compression, a dictionary-based lossless algorithm. The colour
 Limitation (256 colours) makes GIF unsuitable for photographs but ideal for simple graphics and
-Animations.
+animations.
 
 #### SVG (Scalable Vector Graphics)
 
@@ -690,7 +690,7 @@ Sound: which note to play, when to play it, how loud, for how long, and which in
 </div>
 
 A MIDI file might contain instructions like: "Play middle C on piano at velocity 80 for 500
-Milliseconds." The actual sound depends entirely on the synthesiser or sound module that plays back
+milliseconds." The actual sound depends entirely on the synthesiser or sound module that plays back
 the MIDI data.
 
 ---
@@ -722,13 +722,13 @@ the MIDI data.
 </div>
 
 A critical constraint: lossy compression is **never** acceptable for text, source code, or
-Executable files because even a single bit error changes meaning. Lossy compression is only
-Acceptable for media where small inaccuracies are perceptually tolerable.
+executable files because even a single bit error changes meaning. Lossy compression is only
+acceptable for media where small inaccuracies are perceptually tolerable.
 
 ### Run-Length Encoding (RLE)
 
 RLE replaces consecutive runs of identical data with a count-value pair. It is most effective on
-Data with long runs of repeated values (e.g., simple graphics, fax transmissions).
+data with long runs of repeated values (e.g., simple graphics, fax transmissions).
 
 **Encoding rule:** For each run of identical bytes, store the count followed by the value.
 
@@ -759,7 +759,7 @@ Result: `AAAAABBBCCCCCCCCA` (17 characters from 8 tokens)
 
 Data with no repeated values (e.g., `ABCDE`) expands rather than compresses under RLE: each byte
 Becomes two bytes (count + value), doubling the size. RLE is only effective when the data has
-Sufficient redundancy in the form of consecutive repeated values.
+sufficient redundancy in the form of consecutive repeated values.
 
 ### Huffman Coding
 
@@ -1031,7 +1031,7 @@ that an error occurred.
 
 Data is arranged in a rectangular grid. Each row has a parity bit, and each column has a parity bit.
 This allows detection of up to 3-bit errors and can correct single-bit errors by identifying the
-Intersection of the row and column where parity fails.
+intersection of the row and column where parity fails.
 
 <details>
 <summary>Worked Example: Two-Dimensional Parity</summary>
@@ -1067,7 +1067,7 @@ an error but cannot pinpoint it with certainty unless both row and column parity
 
 Actually, let me recalculate. If the original CP for C3 was computed as 1 (because 1+1+0+1 = 3, odd,
 So CP = 1 to make even), then after the flip: 1+0+0+1 = 2 (even), CP = 0. The received CP is 1, so
-Column 3 parity also fails. Both row 2 and column 3 fail, pinpointing the error at R2, C3.
+column 3 parity also fails. Both row 2 and column 3 fail, pinpointing the error at R2, C3.
 
 </details>
 
@@ -1114,7 +1114,7 @@ can produce the same checksum, leading to undetected errors.
 ### Hamming Code
 
 Hamming code is an error-correcting code that can detect 2-bit errors and correct 1-bit errors. It
-Adds multiple parity bits at specific positions (powers of 2) within the data.
+adds multiple parity bits at specific positions (powers of 2) within the data.
 
 **For m data bits, the number of parity bits r needed satisfies:**
 
@@ -1176,8 +1176,8 @@ Flip bit 5: 0 1 1 0 **0** 1 1. Corrected data: D3=1, D5=0, D6=1, D7=1 = 1011.
 ### CRC (Cyclic Redundancy Check)
 
 CRC is a more powerful error detection method based on polynomial division. The data is treated as a
-Binary polynomial, divided by a predetermined generator polynomial, and the remainder (the CRC) is
-Appended to the data.
+binary polynomial, divided by a predetermined generator polynomial, and the remainder (the CRC) is
+appended to the data.
 
 **Process:**
 
@@ -1200,7 +1200,7 @@ Appended to the data.
 
 CRC can detect all single-bit errors, all double-bit errors, any odd number of errors, and any burst
 Error of length $\le r$ bits (where `r` is the CRC bit length). CRC-32 can detect 99.997% of all
-Possible error patterns.
+possible error patterns.
 
 ### Error Detection vs Correction Comparison
 
@@ -1249,7 +1249,7 @@ Possible error patterns.
    patterns like `ABABAB`). Always consider the data characteristics before choosing RLE.
 
 7. **Hamming code positions:** Parity bits go at positions that are powers of 2 (1, 2, 4, 8, ...).
-   Data bits fill the remaining positions in order.
+   data bits fill the remaining positions in order.
 
 8. **Parity only detects odd errors:** If two bits flip simultaneously, even parity is preserved and
    the error goes undetected. For more robust detection, use CRC or Hamming codes.
@@ -1337,7 +1337,7 @@ U+00E9 is the character 'e' with acute accent: e-acute.
 determines the character length; (2) continuation bytes always start with `10`. So a reader Can
 identify the start of any character by scanning forward. This means if a byte is corrupted or Lost,
 the decoder can resynchronise at the next valid character boundary, rather than corrupting all
-Subsequent text.
+subsequent text.
 
 </details>
 
@@ -1361,7 +1361,7 @@ Answer:
 Small files. No transparency is needed, so JPEG's lack of alpha channel is not a limitation.
 
 (b) **PNG** with alpha channel. PNG supports full transparency via an alpha channel, allowing the
-Logo to blend smoothly over any background. The lossless compression preserves sharp edges and text
+logo to blend smoothly over any background. The lossless compression preserves sharp edges and text
 Quality, which is critical for logos. SVG would also work if the logo is a vector design.
 
 (c) **GIF**. GIF supports animation with multiple frames and timing control, uses a palette of up to
@@ -1369,7 +1369,7 @@ Quality, which is critical for logos. SVG would also work if the logo is a vecto
 
 (d) **SVG** (Scalable Vector Graphics). SVG uses mathematical descriptions of shapes, so it scales
 to any size without pixelation or quality loss. This is essential for technical diagrams that may be
-Viewed at different zoom levels or printed at different sizes.
+viewed at different zoom levels or printed at different sizes.
 
 </details>
 
@@ -1379,7 +1379,7 @@ Viewed at different zoom levels or printed at different sizes.
 (a) Apply run-length encoding to the data: `AAAAAAABBBCCCCDDDDDDDEEEEE`
 
 (b) Given the following frequency table, construct a Huffman tree and determine the code for each
-Symbol:
+symbol:
 
 <div class="table-wrap">
 
@@ -1469,7 +1469,7 @@ Data bits (positions 3,5,6,7): D3=1, D5=0, D6=1, D7=0. Original data = 1010.
 
 (c) A single parity bit can only indicate that an error occurred (parity mismatch), but it provides
 no information about which bit flipped. Since any of the n+1 bits (n data + 1 parity) could be the
-Error, the receiver cannot determine the error location and therefore cannot correct it. Correction
+error, the receiver cannot determine the error location and therefore cannot correct it. Correction
 Requires additional redundancy that provides positional information, such as the multiple parity
 Bits in Hamming code, each covering different subsets of bit positions.
 
@@ -1479,7 +1479,7 @@ Bits in Hamming code, each covering different subsets of bit positions.
 <summary>Question 6: Floating Point and Sound Calculations</summary>
 
 (a) A 24-bit colour image has dimensions $3840 \times 2160$ (4K resolution). Calculate the
-Uncompressed file size in MB.
+uncompressed file size in MB.
 
 (b) A 5-minute stereo audio recording uses a sampling rate of 48 kHz with 24-bit depth. Calculate
 the file size in MB (uncompressed WAV).

@@ -59,7 +59,7 @@ $$
 $$
 
 So $q^2$ is also even, meaning $q$ is even. But this contradicts the assumption that $p$ and $q$ are
-Coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
+coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
 
 **Theorem.** $\sqrt{3}$ is irrational.
 
@@ -68,13 +68,13 @@ $3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$ Giv
 contradicts coprimality. $\blacksquare$
 
 This technique generalises: for any prime $p$, $\sqrt{p}$ is irrational. The proof structure is
-Identical in every case.
+identical in every case.
 
 **Proposition.** The sum of a rational and an irrational number is irrational.
 
 **Proof.** Let $r \in \mathbb{Q}$ and $s \notin \mathbb{Q}$. Suppose $r + s = q \in \mathbb{Q}$.
 Then $s = q - r \in \mathbb{Q}$ (since rationals are closed under subtraction), contradicting the
-Irrationality of $s$. $\blacksquare$
+irrationality of $s$. $\blacksquare$
 
 **Proposition.** The product of a non-zero rational and an irrational number is irrational.
 
@@ -99,7 +99,7 @@ The prime numbers below 30 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.
 Unique product of prime numbers, up to the order of the factors.
 
 This uniqueness is surprisingly powerful. It underpins the entire theory of divisibility and is the
-Reason prime factorisation is such a central tool.
+reason prime factorisation is such a central tool.
 
 **Example.** Write $1260$ as a product of primes.
 
@@ -119,12 +119,12 @@ $$
 $N = p_1 p_2
 \cdots p_n + 1$. For each prime $P_i$, $N$ leaves remainder 1 when divided by $P_i$, so
 no $p_i$ divides $N$. Either $N$ is prime (contradicting that the list was complete) or $N$ has a
-Prime factor not in the list (also a contradiction). $\blacksquare$
+prime factor not in the list (also a contradiction). $\blacksquare$
 
 ### 1.3 Highest Common Factor and Lowest Common Multiple
 
 Given two integers $a$ and $b$ Their **highest common factor** (HCF) is the largest integer that
-Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
+divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
 that is a multiple of both.
 
 If the prime factorisations are $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots$ and
@@ -474,7 +474,7 @@ This theorem is used frequently in solving equations involving surds.
 ### 3.3 Standard Form
 
 A number in **standard form** is written as $a \times 10^n$ where $1 \leq a \lt 10$ and $n$ is an
-Integer.
+integer.
 
 **Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$ Giving your answer in
 Standard form.
@@ -600,7 +600,7 @@ $$
 $$
 
 Note: the lower bound is inclusive (values of exactly 6.5 round up to 7), but the upper bound is
-Exclusive (values of exactly 7.5 round up to 8).
+exclusive (values of exactly 7.5 round up to 8).
 
 **Worked Example (Higher Tier).** $p = 42.6$ is correct to 3 significant figures. Write down the
 Error interval for $p$.

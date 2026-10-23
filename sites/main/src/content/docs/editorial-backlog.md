@@ -558,3 +558,50 @@ false worklist, which is worse than no note.
 
 The `Proof` / `\blacksquare` convention is established and detected reliably, so
 a page that wants to be counted in this worklist only has to use it.
+
+## Reader-reported quality pass (October 2026)
+
+A reader report flagged: broken search, duplicated search bar, sidebar
+overwhelm, missing diagrams ("some diagrams are just .md"), and weak
+high-school content. The structural items are done (search API 500s,
+the triple search UI, the uncollapsed 266 sidebar groups -- see the
+fix commit and the FORBIDDEN_HEAD parity gate). What remains is
+content work, recorded here with measured scale:
+
+1. **Mid-sentence capitals, residue.** The mechanical pass lowercased
+   6,409 continuation words (corpus-frequency guard, proper nouns
+   preserved) across 452 exam-board files. The residue is the
+   low-frequency tail -- words like "Underground" appearing mid-sentence
+   after "are" -- which the frequency guard could not safely
+   distinguish from proper nouns. A dictionary-based second pass, or a
+   read-through of the exam-board corpus, closes it. Search hint:
+   lines beginning `[A-Z]` whose previous line ends in a
+   non-terminal word.
+
+2. **Pseudo-diagram conversion.** 71 pages mention "diagram" twice or
+   more with no diagram anywhere near (worst: gcse bonding with 12,
+   ib states-of-matter and the Feynman-diagrams page with 11 each).
+   States-of-matter, the SDLC, traceability, TDD, and the bonding
+   decision now have real mermaid diagrams. The rest split into:
+   diagrams mermaid can express (flowcharts, state machines -- convert
+   as encountered), and diagrams it cannot (dot-and-cross electron
+   diagrams, Feynman diagrams, field-line sketches -- these need drawn
+   SVGs, which is a dedicated art pass, not a text pass).
+
+3. **Dot-and-cross diagrams.** The GCSE bonding page says "draw the
+   diagram" in prose for a dozen compounds and shows none. GCSE
+   students are examined ON the diagrams. An SVG set for the core
+   eight (NaCl, MgO, CaF2, Li2O, H2, H2O, CH4, N2) reusable across
+   exam-board sites is the highest-value single visual investment.
+
+4. **Factual slip found and fixed:** "Nitrogen is in group 7" on the
+   GCSE bonding page (group 5). A group-number-versus-outer-electrons
+   sweep found no other instance, but the pattern generalises: any
+   "X is in group N with M outer electrons" claim is mechanically
+   checkable, and belongs in a content gate.
+
+The exam-board corpus is NOT thin -- median depth is 385 body lines
+across 835 pages -- so the quality complaint reduces to (a) visible
+mechanical defects like the capitals, (b) missing visuals, and (c)
+prose that reads like unedited generation. (a) is now mostly fixed and
+gated; (b) is the SVG pass above; (c) has no shortcut except reading.

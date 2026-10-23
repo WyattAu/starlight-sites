@@ -18,16 +18,16 @@ description: "Anxiety disorders are characterised by excessive, persistent fear 
 ## Introduction
 
 Anxiety disorders are characterised by excessive, persistent fear and anxiety that are
-Disproportionate to the actual threat and that significantly impair daily functioning. They are
+disproportionate to the actual threat and that significantly impair daily functioning. They are
 among the most common mental disorders, affecting approximately 15--20% of the population at some
-Point in their lives. This section focuses on two specific anxiety disorders: phobias and
-Obsessive-compulsive disorder (OCD).
+point in their lives. This section focuses on two specific anxiety disorders: phobias and
+obsessive-compulsive disorder (OCD).
 
 ## Phobias
 
 A phobia is an irrational, persistent fear of a specific object, situation, or activity that leads
 to avoidance behaviour and significant distress or impairment. Phobias are classified into three
-Types:
+types:
 
 - **Specific phobias:** Fear of specific objects or situations (e.g., arachnophobia -- fear of
   spiders; acrophobia -- fear of heights; claustrophobia -- fear of enclosed spaces).
@@ -46,7 +46,7 @@ Types:
 **The preparedness hypothesis (Seligman, 1971):** Seligman proposed that humans are biologically
 "prepared" to develop phobias of stimuli that were threats to survival during evolutionary history
 (e.g., snakes, spiders, heights, darkness, enclosed spaces). Prepared fears are acquired more
-Readily, are more resistant to extinction, and are more specific (they do not generalise to Similar
+readily, are more resistant to extinction, and are more specific (they do not generalise to Similar
 stimuli) than non-prepared fears. The preparedness hypothesis explains why phobias are not Randomly
 distributed but cluster around a limited set of stimuli.
 
@@ -59,7 +59,7 @@ Predisposition to learn certain fears more readily than others.
 
 **Classical conditioning (Mowrer, 1947):** Phobias are acquired through classical conditioning. A
 Neutral stimulus (e.g., a dog) is paired with an aversive unconditioned stimulus (e.g., being
-Bitten), resulting in a conditioned fear response to the previously neutral stimulus.
+bitten), resulting in a conditioned fear response to the previously neutral stimulus.
 
 **Stimulus generalisation:** The conditioned fear response may generalise to stimuli similar to the
 Original conditioned stimulus. For example, a fear of one specific dog may generalise to all dogs,
@@ -88,7 +88,7 @@ Phobias.
 
 **Selective attention:** Individuals with phobias selectively attend to threat-related stimuli in
 The environment. For example, individuals with spider phobias detect spiders in visual displays more
-Quickly than non-phobic individuals (Ohman et al., 2001).
+quickly than non-phobic individuals (Ohman et al., 2001).
 
 **Cognitive biases:** Phobic individuals interpret ambiguous stimuli as threatening (e.g.,
 Interpreting a rustling sound as a snake), overestimate the probability of harm, and catastrophise
@@ -102,7 +102,7 @@ Response.
 
 **Systematic desensitisation (Wolpe, 1958):** Developed by Joseph Wolpe, systematic desensitisation
 Is based on the principle of reciprocal inhibition -- the idea that anxiety cannot coexist with a
-State of relaxation. The treatment involves three steps:
+state of relaxation. The treatment involves three steps:
 
 1. **Construction of an anxiety hierarchy:** The client and therapist construct a ranked list of
    fear-provoking situations, from least to most anxiety-provoking.
@@ -113,18 +113,18 @@ State of relaxation. The treatment involves three steps:
 
 **Ost (1989):** Conducted a meta-analysis of studies on systematic desensitisation and found that it
 Was effective for approximately 80--90% of individuals with specific phobias. The treatment was
-Effective across different types of phobias and different delivery methods (in vivo, imaginal, and
-Virtual reality exposure).
+effective across different types of phobias and different delivery methods (in vivo, imaginal, and
+virtual reality exposure).
 
 **Evaluation:** Systematic desensitisation is effective, well-supported by evidence, and relatively
 Non-invasive. However, it requires significant motivation and effort from the client, and some
-Individuals may drop out of treatment before completing the hierarchy.
+individuals may drop out of treatment before completing the hierarchy.
 
 **Flooding:** A more intensive form of exposure therapy in which the client is directly exposed to
 The most feared stimulus (the top of the anxiety hierarchy) without relaxation training. Flooding
 Produces rapid extinction of the fear response through habituation (the client learns through
-Repeated exposure that the feared stimulus is not dangerous). Flooding is effective but can be
-Highly distressing and raises ethical concerns.
+repeated exposure that the feared stimulus is not dangerous). Flooding is effective but can be
+highly distressing and raises ethical concerns.
 
 ## Obsessive-Compulsive Disorder (OCD)
 
@@ -138,7 +138,7 @@ OCD is characterised by:
   counting, arranging objects symmetrically).
 
 OCD is highly distressing and time-consuming, often consuming several hours per day, and
-Significantly impairs social, occupational, and academic functioning.
+significantly impairs social, occupational, and academic functioning.
 
 ### Biological Explanations of OCD
 
@@ -223,7 +223,7 @@ Person and must take action to prevent it").
 
 **Drug therapy:** SSRIs (particularly clomipramine and fluoxetine) are the first-line
 Pharmacological treatment for OCD. They are effective for approximately 60% of patients, but the
-Required doses are higher than those used for depression, and the onset of therapeutic Effects is
+required doses are higher than those used for depression, and the onset of therapeutic Effects is
 slower (10--12 weeks).
 
 **CBT for OCD:** The most effective psychological treatment for OCD is exposure and response
@@ -238,7 +238,7 @@ does not occur (habituation), and the association between the obsession and anxi
 
 **Marks (1981):** Conducted a meta-analysis comparing exposure therapy, antidepressant medication,
 And their combination for OCD. Exposure therapy (particularly ERP) was found to be at least as
-Effective as medication, and the combination of exposure and medication was the most effective
+effective as medication, and the combination of exposure and medication was the most effective
 Treatment. However, relapse rates were higher for medication-only treatment after discontinuation,
 While the gains from exposure therapy were more durable.
 

@@ -40,7 +40,7 @@ American colonies depended on enslaved African labour.
 Imperial competition with France and Spain produced a series of wars, King William's War, Queen
 Anne's War, the War of Jenkins' Ear, and the Seven Years' War, that tested and expanded British
 global reach. By 1763, Britain had emerged as the dominant colonial power, possessing territories in
-North America, the Caribbean, and India.
+north America, the Caribbean, and India.
 
 ### Chronological Overview
 

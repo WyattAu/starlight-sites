@@ -28,7 +28,7 @@ categories:
 ### 1.1 Writing and Simplifying Ratios
 
 A **ratio** compares quantities of the same kind. Ratios are written in their simplest form by
-Dividing all parts by their highest common factor.
+dividing all parts by their highest common factor.
 
 **Worked Example.** Simplify the ratio $24 : 36 : 48$.
 
@@ -208,7 +208,7 @@ M/s for 4 seconds. Draw and interpret the distance-time graph.
 A curve. How would you find the instantaneous speed at $t = 4$ s?
 
 Draw the tangent to the curve at $t = 4$ s and find its gradient. Alternatively, differentiate the
-Distance function if given.
+distance function if given.
 
 ### 3.2 Speed-Time (Velocity-Time) Graphs
 
@@ -659,7 +659,7 @@ Brand B is better value.
 ### 9.6 Exchange Rates
 
 If 1 pound = 1.18 euros, then to convert pounds to euros, multiply by 1.18. To convert euros to
-Pounds, divide by 1.18.
+pounds, divide by 1.18.
 
 **Worked Example.** A meal costs 45 euros. How much is this in pounds?
 
@@ -855,7 +855,7 @@ $$
 $$
 
 The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$ Which equals the average speed for a
-Return journey.
+return journey.
 
 ## Worked Examples
 

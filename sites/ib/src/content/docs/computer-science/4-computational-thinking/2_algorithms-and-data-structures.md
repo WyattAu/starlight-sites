@@ -31,7 +31,7 @@ categories:
 ### The Four Pillars of Computational Thinking
 
 Computational thinking is the process of formulating problems and their solutions so that the
-Solutions are representable as information-processing steps that can be executed by an
+solutions are representable as information-processing steps that can be executed by an
 Information-processing agent. The IB syllabus identifies four foundational pillars: decomposition,
 Pattern recognition, abstraction, and algorithm design.
 
@@ -43,15 +43,15 @@ Simplifies testing, and makes large problems tractable.
 
 **Pattern recognition** involves identifying similarities or recurring themes within or across
 Problems. Once a pattern is identified, the same solution strategy can be reused. In sorting, the
-Recurring sub-problem of placing one element in its correct position relative to already-sorted
+recurring sub-problem of placing one element in its correct position relative to already-sorted
 Elements appears in insertion sort; the same pattern of comparing adjacent elements appears in
-Bubble sort. Recognizing that two problems share a structural pattern allows the transfer of proven
+bubble sort. Recognizing that two problems share a structural pattern allows the transfer of proven
 Techniques.
 
 **Abstraction** is the process of filtering out irrelevant details and focusing on the essential
 Characteristics of a problem. A map abstracts away individual buildings and trees to show roads and
-Boundaries; similarly, an algorithm abstracts away hardware specifics to describe logic. In
-Computational thinking, abstraction means defining what data is needed and how it transforms,
+boundaries; similarly, an algorithm abstracts away hardware specifics to describe logic. In
+computational thinking, abstraction means defining what data is needed and how it transforms,
 Without specifying every low-level operation. This enables the creation of general-purpose
 Solutions.
 
@@ -150,7 +150,7 @@ Flowcharts provide a visual representation of an algorithm. The IB standard defi
 Symbols, each with a specific shape and meaning:
 
 The **terminator** (rounded rectangle or oval) marks the start or end of the algorithm. Every
-Flowchart begins with a "Start" terminator and ends with an "End" terminator.
+flowchart begins with a "Start" terminator and ends with an "End" terminator.
 
 The **process** (rectangle) represents a single computation step or assignment, such as
 `count ← count + 1`.
@@ -159,10 +159,10 @@ The **input/output parallelogram** represents data entering or leaving the algor
 `INPUT x` or `OUTPUT result`.
 
 The **decision** (diamond) represents a conditional branch. It contains a Boolean expression and has
-Two outgoing arrows: one labeled "Yes" (or "True") and one labeled "No" (or "False").
+two outgoing arrows: one labeled "Yes" (or "True") and one labeled "No" (or "False").
 
 The **flow line** (arrow) shows the direction of control flow. Flow lines connect symbols and
-Indicate the sequence of execution.
+indicate the sequence of execution.
 
 The **predefined process** (double-sided rectangle) represents a call to a subroutine or module.
 
@@ -173,8 +173,8 @@ the precision of pseudocode for expressing data structures and detailed computat
 ### Trace Tables
 
 A trace table is a systematic method for verifying the correctness of an algorithm by simulating its
-Execution with specific input values. Each column represents a variable, and each row represents a
-Step of execution.
+execution with specific input values. Each column represents a variable, and each row represents a
+step of execution.
 
 Consider the following algorithm to find the sum of integers from 1 to `n`:
 
@@ -209,7 +209,7 @@ With input `n = 4`. The trace table is:
 
 The final value of `total` is 10, which equals $1 + 2 + 3 + 4 = 10$. The algorithm is correct for
 this input. A trace table does not prove correctness for all inputs, but it builds confidence and
-Helps identify off-by-one errors and infinite loops.
+helps identify off-by-one errors and infinite loops.
 
 **Worked Example: Trace table for finding the maximum value**
 
@@ -323,7 +323,7 @@ Average, $\frac{n}{2}$ comparisons are needed. Therefore, the worst-case time co
 
 **Key properties:** Linear search works on any collection, sorted or unsorted. It requires no
 Preprocessing. However, its performance degrades linearly with input size, making it impractical for
-Large datasets.
+large datasets.
 
 **Worked Example: Counting occurrences with linear search**
 
@@ -494,7 +494,7 @@ iterations and explain why the algorithm correctly determines the element is abs
 After 4 iterations, `low = 4` exceeds `high = 3`. The search interval is empty. At this point, the
 algorithm has eliminated all possible positions for 15. Specifically, element 12 (index 3) is the
 largest element smaller than 15, and element 16 (index 4) is the smallest element larger than 15.
-There is no gap between them for 15 to occupy.
+there is no gap between them for 15 to occupy.
 
 </details>
 
@@ -531,7 +531,7 @@ There is no gap between them for 15 to occupy.
 The choice between linear and binary search depends on the data characteristics. If data is unsorted
 and only searched occasionally, linear search is appropriate. If data is sorted or can be
 Preprocessed by sorting, binary search is vastly superior for repeated queries. For a dataset of one
-Million elements, binary search requires at most 20 comparisons versus up to one million for linear
+million elements, binary search requires at most 20 comparisons versus up to one million for linear
 Search.
 
 ### Hash-Based Search (Brief Overview)
@@ -547,9 +547,9 @@ For string keys, a common approach is to sum the ASCII values of characters and 
 $h(s) = \left(\sum_{i=0}^{n-1} s_i \right) \mod m$
 
 The main challenge is **collision resolution**: two different keys may hash to the same index. Two
-Primary strategies exist: chaining (each table slot holds a linked list of colliding elements) and
-Open addressing (on collision, probe for the next available slot). Hash tables are covered in more
-Detail in the Data Structures section of this document.
+primary strategies exist: chaining (each table slot holds a linked list of colliding elements) and
+open addressing (on collision, probe for the next available slot). Hash tables are covered in more
+detail in the Data Structures section of this document.
 
 ## Sorting Algorithms
 
@@ -557,7 +557,7 @@ Detail in the Data Structures section of this document.
 
 Bubble sort repeatedly steps through the list, compares adjacent elements, and swaps them if they
 are in the wrong order. The pass is repeated until no swaps are needed, indicating that the list is
-Sorted. The algorithm is named because smaller elements "bubble" to the top of the list.
+sorted. The algorithm is named because smaller elements "bubble" to the top of the list.
 
 **IB Pseudocode:**
 
@@ -582,8 +582,8 @@ END PROCEDURE
 ```
 
 The `swapped` flag is an optimization: if a full pass completes without any swaps, the array is
-Sorted and the algorithm terminates early. The variable `n` is decremented each pass because the
-Largest unsorted element is guaranteed to be in its final position after each pass.
+sorted and the algorithm terminates early. The variable `n` is decremented each pass because the
+largest unsorted element is guaranteed to be in its final position after each pass.
 
 **Trace with `arr = [5, 1, 4, 2, 8]`:**
 
@@ -762,7 +762,7 @@ END PROCEDURE
 
 **Time complexity:** Selection sort always performs $\frac{n(n-1)}{2}$ comparisons regardless of
 Input order, giving $O(n^2)$ in all cases. The number of swaps is at most $n - 1$ Which is
-Advantageous when swap operations are expensive.
+advantageous when swap operations are expensive.
 
 **Space complexity:** $O(1)$ In-place sorting.
 
@@ -797,7 +797,7 @@ is not stable.
 ### Insertion Sort
 
 Insertion sort builds the sorted array one element at a time. It takes each element from the
-Unsorted portion and inserts it into its correct position in the sorted portion by shifting larger
+unsorted portion and inserts it into its correct position in the sorted portion by shifting larger
 Elements to the right.
 
 **IB Pseudocode:**
@@ -842,7 +842,7 @@ Strictly greater than the key, so equal elements maintain their relative order.
 
 **Practical advantage:** Insertion sort is highly efficient for small datasets or nearly sorted
 Data. Many hybrid algorithms (such as Timsort, used in Python and Java) switch to insertion sort for
-Small subarrays within a merge sort or quick sort framework.
+small subarrays within a merge sort or quick sort framework.
 
 **Worked Example: Insertion sort on a nearly sorted array**
 
@@ -985,7 +985,7 @@ all $n = 6$ elements in $O(n)$ time.
 ### Quick Sort (HL)
 
 Quick sort is another divide-and-conquer algorithm. It selects a **pivot** element, partitions the
-Array so that all elements less than the pivot come before it and all elements greater come after
+array so that all elements less than the pivot come before it and all elements greater come after
 it, and then recursively sorts the sub-arrays on either side of the pivot.
 
 **IB Pseudocode (Lomuto partition scheme):**
@@ -1021,7 +1021,7 @@ END FUNCTION
 
 **Pivot selection** is critical to performance. The Lomuto scheme above uses the last element. Other
 Strategies include: first element, middle element, random element, and median-of-three (median of
-First, middle, and last elements). Median-of-three provides good protection against already-sorted
+first, middle, and last elements). Median-of-three provides good protection against already-sorted
 or reverse-sorted worst-case inputs.
 
 **Trace with `arr = [10, 80, 30, 90, 40, 50, 70]`Pivot = 70 (last element):**
@@ -1034,7 +1034,7 @@ Recursively sort [10, 30, 40, 50] and [90, 80].
 
 **Time complexity:** The average case is $O(n \log n)$ when the pivot consistently divides the array
 Into roughly equal halves. The worst case is $O(n^2)$ Which occurs when the pivot is always the
-Smallest or largest element (e.g., already-sorted input with last-element pivot). The best case is
+smallest or largest element (e.g., already-sorted input with last-element pivot). The best case is
 $O(n \log n)$ when partitions are perfectly balanced.
 
 **Space complexity:** $O(\log n)$ for the recursive call stack in the average case, $O(n)$ in the
@@ -1130,7 +1130,7 @@ or a random pivot.
 :::note
 Consider the data size, whether the data is nearly sorted, memory constraints, and whether stability
 is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sort is often faster in
-Practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
+practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
 Arrays.
 :::
 
@@ -1150,7 +1150,7 @@ INT arr[10]
 
 **Dynamic arrays** (also called resizable arrays or vectors) can grow or shrink during execution.
 They are implemented by allocating a larger block of memory when the current block is full and
-Copying elements over. The typical strategy is to double the capacity when full, which gives
+copying elements over. The typical strategy is to double the capacity when full, which gives
 Amortized $O(1)$ insertion at the end.
 
 **Operations and their complexities:**
@@ -1343,7 +1343,7 @@ Instead, we set `Head = Head.next`. This is a special case that must be handled 
 
 A **stack** is a linear data structure that follows the Last-In, First-Out (LIFO) principle. The
 most recently added element is the first one to be removed. Think of a stack of plates: you can only
-Add or remove the top plate.
+add or remove the top plate.
 
 **Core operations:**
 
@@ -1475,7 +1475,7 @@ Result: 7. Verification: `5 + (3 * 2) - 4 = 5 + 6 - 4 = 7`. Correct.
 
 A **queue** is a linear data structure that follows the First-In, First-Out (FIFO) principle.
 Elements are added at the rear and removed from the front. Think of a queue at a ticket counter: the
-First person in line is the first person served.
+first person in line is the first person served.
 
 **Core operations:**
 
@@ -1532,7 +1532,7 @@ END CLASS
 ```
 
 The circular array implementation uses the modulo operator to wrap the indices around, avoiding the
-Need to shift elements when the front of the queue advances.
+need to shift elements when the front of the queue advances.
 
 **Applications of queues:**
 
@@ -1606,7 +1606,7 @@ had different priorities.
 
 A **binary tree** is a hierarchical data structure in which each node has at most two children,
 Referred to as the left child and the right child. The topmost node is the root; nodes with no
-Children are leaves.
+children are leaves.
 
 **Node structure:**
 
@@ -1682,7 +1682,7 @@ Post-order: 1, 4, 7, 6, 3, 13, 14, 10, 8
 
 **Binary Search Tree (BST):** A BST is a binary tree with the ordering property: for every node, all
 Values in its left subtree are less than the node's value, and all values in its right subtree are
-Greater. This property enables efficient search, insertion, and deletion.
+greater. This property enables efficient search, insertion, and deletion.
 
 **BST search:**
 
@@ -1843,7 +1843,7 @@ and all elements are rehashed. This keeps the average lookup time low.
 
 **Chaining (separate chaining):** Each bucket in the hash table is a linked list. When a collision
 Occurs, the new key-value pair is appended to the list at that index. To search for a key, hash to
-Find the bucket, then traverse the linked list.
+find the bucket, then traverse the linked list.
 
 Advantages: simple to implement, deletion is straightforward, works well with high load factors.
 
@@ -1980,7 +1980,7 @@ $$
 
 In other words, $g(n)$ is an asymptotic upper bound for $f(n)$. Big-O describes the worst-case
 Growth rate; it says that $f(n)$ grows no faster than $g(n)$ Up to a constant factor, for
-Sufficiently large inputs.
+sufficiently large inputs.
 
 **Related notations:**
 
@@ -2080,7 +2080,7 @@ with $n_0 = 6$ (since $3n^2 + 5n + 7 \leq 4n^2$ for $n \geq 6$).
 ### Time Complexity Classes
 
 The following are the most common complexity classes encountered in the IB syllabus, ordered from
-Fastest to slowest:
+fastest to slowest:
 
 **$O(1)$ -- Constant time:** The operation takes the same time regardless of input size. Examples:
 Array access by index, hash table lookup (average case), stack push and pop.
@@ -2102,7 +2102,7 @@ For $n = 10000$, $n^2 = 100000000$.
 
 **$O(2^n)$ -- Exponential time:** The operation time doubles with each additional input element.
 Examples: brute-force solutions to the traveling salesman problem, recursive Fibonacci without
-Memoization, generating all subsets of a set. These algorithms become infeasible even for moderate
+memoization, generating all subsets of a set. These algorithms become infeasible even for moderate
 Input sizes.
 
 **$O(n!)$ -- Factorial time:** Even faster growth than exponential. Examples: brute-force
@@ -2143,7 +2143,7 @@ Considerations.
 ### Best, Average, and Worst Case Analysis
 
 An algorithm's performance can vary depending on the specific input. Analysis must consider all
-Three cases.
+three cases.
 
 **Best case:** The input that minimizes the running time. For linear search, the best case occurs
 When the target is the first element: $O(1)$. Best-case analysis is rarely useful in practice
@@ -2151,7 +2151,7 @@ because it represents an optimistic scenario that may not occur.
 
 **Worst case:** The input that maximizes the running time. For linear search, the worst case occurs
 When the target is the last element or not present: $O(n)$. Worst-case analysis provides a
-Guarantee: the algorithm will never take longer than this. It is the most commonly cited complexity
+guarantee: the algorithm will never take longer than this. It is the most commonly cited complexity
 in the IB syllabus.
 
 **Average case:** The expected running time over all possible inputs, assuming some probability
@@ -2278,7 +2278,7 @@ Parameters, return types, and preconditions/postconditions.
 Specifying how these properties are achieved.
 
 The implementation is hidden from the user. This separation of interface from implementation is the
-Essence of **encapsulation** and **information hiding**.
+essence of **encapsulation** and **information hiding**.
 
 **Why ADTs matter:**
 
@@ -2287,7 +2287,7 @@ Remains the same. A stack might be implemented with an array, a linked list, or 
 Array, but the `push`, `pop` and `peek` operations remain the same from the caller's perspective.
 
 ADTs reduce complexity by hiding implementation details. A programmer using a stack does not need to
-Know how memory is managed or how pointers are updated.
+know how memory is managed or how pointers are updated.
 
 ADTs promote code reuse and modularity. The same ADT can be used in many different contexts.
 
@@ -2332,7 +2332,7 @@ Postcondition: the queue size decreases by 1.
 
 **Possible implementations:** Array-based with circular indexing, linked-list-based (with head and
 Tail pointers), dynamic array-based. The circular array implementation avoids the wasted space of a
-Linear array when elements are dequeued from the front.
+linear array when elements are dequeued from the front.
 
 ### List ADT
 
@@ -2363,7 +2363,7 @@ A linked-list-based list provides $O(1)$ insertion and deletion at known positio
 by index.
 
 The choice depends on the expected usage pattern: if the application frequently accesses elements by
-Index, an array is preferable. If it frequently inserts and deletes, a linked list is preferable.
+index, an array is preferable. If it frequently inserts and deletes, a linked list is preferable.
 
 ### Encapsulation and Information Hiding
 
@@ -2391,7 +2391,7 @@ Without breaking the interface.
 
 In the IB pseudocode, encapsulation is expressed using `PRIVATE` and `PUBLIC` access modifiers.
 Private attributes and methods can only be accessed within the class; public methods define the
-Interface available to external code.
+interface available to external code.
 
 **Worked Example: Implementing a Stack ADT with a linked list**
 
@@ -2493,7 +2493,7 @@ underlying Data structure (array vs linked list) should be stated and justified.
 ### Problem 1: Linear Search Trace
 
 An array `arr = [18, 7, 42, 33, 15, 28, 51]` is searched using linear search for the value 33. (a)
-How many comparisons are made? (b) What would the result be for target 50?
+how many comparisons are made? (b) What would the result be for target 50?
 
 <details>
 <summary>Solution</summary>
