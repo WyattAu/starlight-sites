@@ -42,21 +42,40 @@ export default defineConfig({
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
         { label: 'Practice Test', slug: 'practice-test-mega' },
-        { label: 'Fundamentals', items: [{ autogenerate: { directory: '01-fundamentals' } }] },
+        {
+          label: 'Fundamentals',
+          items: [{ autogenerate: { directory: '01-fundamentals' } }],
+          collapsed: true,
+        },
         {
           label: 'Ownership Borrowing',
           items: [{ autogenerate: { directory: '02-ownership-borrowing' } }],
+          collapsed: true,
         },
-        { label: 'Structs Enums', items: [{ autogenerate: { directory: '03-structs-enums' } }] },
-        { label: 'Error Handling', items: [{ autogenerate: { directory: '04-error-handling' } }] },
+        {
+          label: 'Structs Enums',
+          items: [{ autogenerate: { directory: '03-structs-enums' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Error Handling',
+          items: [{ autogenerate: { directory: '04-error-handling' } }],
+          collapsed: true,
+        },
         {
           label: 'Traits Generics',
           items: [{ autogenerate: { directory: '05-traits-generics' } }],
+          collapsed: true,
         },
-        { label: 'Concurrency', items: [{ autogenerate: { directory: '06-concurrency' } }] },
+        {
+          label: 'Concurrency',
+          items: [{ autogenerate: { directory: '06-concurrency' } }],
+          collapsed: true,
+        },
         {
           label: 'Cargo Ecosystem',
           items: [{ autogenerate: { directory: '07-cargo-ecosystem' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -101,8 +120,6 @@ export default defineConfig({
             content: 'https://rust.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

@@ -195,9 +195,10 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 <!-- Site navigator: inject Sites button into Starlight header -->
 <SiteNavigator />
 
-<!-- Cross-site search (injected into nav header) -->
-<script src="/cross-site-search.js" defer></script>
-<script src="/page-search.js" defer></script>
+<!-- Cross-site search: the header (Header.astro) renders the search input
+     and queries search.wyattau.com directly. The legacy injector scripts
+     (cross-site-search.js, page-search.js) are no longer loaded -- they
+     injected a second search bar and modal on top of the header's own input. -->
 
 <!-- Mermaid: load library from CDN, then render diagrams -->
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" integrity="sha384-EOXBFmc3gx5mb+vn0vPvvGqACToJD24hhacX5Yx+8NUUQrHIle/Qi5Bg9o3zKwW2" crossorigin="anonymous"></script>

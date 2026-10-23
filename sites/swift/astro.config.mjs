@@ -41,14 +41,19 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }] },
-        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }] },
+        { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }], collapsed: true },
+        { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }], collapsed: true },
         {
           label: 'Functions Closures',
           items: [{ autogenerate: { directory: '02-functions-closures' } }],
+          collapsed: true,
         },
-        { label: 'Oop', items: [{ autogenerate: { directory: '03-oop' } }] },
-        { label: 'Advanced', items: [{ autogenerate: { directory: '04-advanced' } }] },
+        { label: 'Oop', items: [{ autogenerate: { directory: '03-oop' } }], collapsed: true },
+        {
+          label: 'Advanced',
+          items: [{ autogenerate: { directory: '04-advanced' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -92,8 +97,6 @@ export default defineConfig({
             content: 'https://swift.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

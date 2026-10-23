@@ -41,18 +41,37 @@ export default defineConfig({
         {
           label: 'Cli Fundamentals',
           items: [{ autogenerate: { directory: '01-cli-fundamentals' } }],
+          collapsed: true,
         },
-        { label: 'File Systems', items: [{ autogenerate: { directory: '02-file-systems' } }] },
+        {
+          label: 'File Systems',
+          items: [{ autogenerate: { directory: '02-file-systems' } }],
+          collapsed: true,
+        },
         {
           label: 'Process Management',
           items: [{ autogenerate: { directory: '03-process-management' } }],
+          collapsed: true,
         },
-        { label: 'Networking', items: [{ autogenerate: { directory: '04-networking' } }] },
-        { label: 'Systemd', items: [{ autogenerate: { directory: '05-systemd' } }] },
-        { label: 'Security', items: [{ autogenerate: { directory: '06-security' } }] },
+        {
+          label: 'Networking',
+          items: [{ autogenerate: { directory: '04-networking' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Systemd',
+          items: [{ autogenerate: { directory: '05-systemd' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Security',
+          items: [{ autogenerate: { directory: '06-security' } }],
+          collapsed: true,
+        },
         {
           label: 'Package Management',
           items: [{ autogenerate: { directory: '07-package-management' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -97,8 +116,6 @@ export default defineConfig({
             content: 'https://linux.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

@@ -41,9 +41,17 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Advanced', items: [{ autogenerate: { directory: 'advanced' } }] },
-        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }] },
-        { label: 'Intermediate', items: [{ autogenerate: { directory: 'intermediate' } }] },
+        {
+          label: 'Advanced',
+          items: [{ autogenerate: { directory: 'advanced' } }],
+          collapsed: true,
+        },
+        { label: 'Basics', items: [{ autogenerate: { directory: 'basics' } }], collapsed: true },
+        {
+          label: 'Intermediate',
+          items: [{ autogenerate: { directory: 'intermediate' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -87,8 +95,6 @@ export default defineConfig({
             content: 'https://kotlin.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

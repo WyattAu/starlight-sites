@@ -41,6 +41,7 @@ export default defineConfig({
         {
           label: 'Licensing',
           items: [{ label: 'Open Source Licenses', slug: 'osi-licenses' }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -85,8 +86,6 @@ export default defineConfig({
             content: 'https://licensing.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

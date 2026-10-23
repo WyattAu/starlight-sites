@@ -41,6 +41,7 @@ export default defineConfig({
         {
           label: 'Machine Learning',
           items: [{ label: 'advanced topics', slug: 'advanced-topics' }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -85,8 +86,6 @@ export default defineConfig({
             content: 'https://machine-learning.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

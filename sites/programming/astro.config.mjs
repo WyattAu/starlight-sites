@@ -79,6 +79,7 @@ export default defineConfig({
             },
             { label: 'Concurrency', items: [{ autogenerate: { directory: 'concurrency' } }] },
           ],
+          collapsed: true,
         },
         {
           label: 'Other Languages',
@@ -95,6 +96,7 @@ export default defineConfig({
             { label: 'Swift', link: 'https://languages.wyattau.com/swift/' },
             { label: 'TypeScript', link: 'https://languages.wyattau.com/typescript/' },
           ],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -139,8 +141,6 @@ export default defineConfig({
             content: 'https://programming.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

@@ -44,11 +44,23 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Algorithms', items: [{ autogenerate: { directory: 'algorithms' } }] },
-        { label: 'General', items: [{ autogenerate: { directory: 'general' } }] },
-        { label: 'Git', items: [{ autogenerate: { directory: 'git' } }] },
-        { label: 'Licensing', items: [{ autogenerate: { directory: 'licensing' } }] },
-        { label: 'Probabilisticml', items: [{ autogenerate: { directory: 'probabilisticml' } }] },
+        {
+          label: 'Algorithms',
+          items: [{ autogenerate: { directory: 'algorithms' } }],
+          collapsed: true,
+        },
+        { label: 'General', items: [{ autogenerate: { directory: 'general' } }], collapsed: true },
+        { label: 'Git', items: [{ autogenerate: { directory: 'git' } }], collapsed: true },
+        {
+          label: 'Licensing',
+          items: [{ autogenerate: { directory: 'licensing' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Probabilisticml',
+          items: [{ autogenerate: { directory: 'probabilisticml' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -89,8 +101,6 @@ export default defineConfig({
           tag: 'meta',
           attrs: { property: 'og:image', content: 'https://tools.wyattau.com/img/social-card.svg' },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

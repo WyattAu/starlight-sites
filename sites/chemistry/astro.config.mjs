@@ -44,14 +44,17 @@ export default defineConfig({
         {
           label: 'Physical Chemistry',
           items: [{ autogenerate: { directory: '1-physical-chemistry' } }],
+          collapsed: true,
         },
         {
           label: 'Organic Chemistry',
           items: [{ autogenerate: { directory: '2-organic-chemistry' } }],
+          collapsed: true,
         },
         {
           label: 'Inorganic Chemistry',
           items: [{ autogenerate: { directory: '3-inorganic-chemistry' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -96,8 +99,6 @@ export default defineConfig({
             content: 'https://chemistry.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

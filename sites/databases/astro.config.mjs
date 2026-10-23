@@ -41,20 +41,28 @@ export default defineConfig({
         {
           label: 'Relational Theory',
           items: [{ autogenerate: { directory: '01-relational-theory' } }],
+          collapsed: true,
         },
         {
           label: 'Sql Fundamentals',
           items: [{ autogenerate: { directory: '02-sql-fundamentals' } }],
+          collapsed: true,
         },
         {
           label: 'Indexing Optimization',
           items: [{ autogenerate: { directory: '03-indexing-optimization' } }],
+          collapsed: true,
         },
-        { label: 'Transactions', items: [{ autogenerate: { directory: '04-transactions' } }] },
-        { label: 'Nosql', items: [{ autogenerate: { directory: '05-nosql' } }] },
+        {
+          label: 'Transactions',
+          items: [{ autogenerate: { directory: '04-transactions' } }],
+          collapsed: true,
+        },
+        { label: 'Nosql', items: [{ autogenerate: { directory: '05-nosql' } }], collapsed: true },
         {
           label: 'Database Design',
           items: [{ autogenerate: { directory: '06-database-design' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -99,8 +107,6 @@ export default defineConfig({
             content: 'https://databases.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

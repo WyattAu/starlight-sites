@@ -39,29 +39,46 @@ export default defineConfig({
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
         { label: 'Practice Test', slug: 'practice-test-mega' },
-        { label: 'Algorithms', items: [{ autogenerate: { directory: '1-algorithms' } }] },
+        {
+          label: 'Algorithms',
+          items: [{ autogenerate: { directory: '1-algorithms' } }],
+          collapsed: true,
+        },
         {
           label: 'Discrete Mathematics',
           items: [{ autogenerate: { directory: '1-discrete-mathematics' } }],
+          collapsed: true,
         },
         {
           label: 'Algorithms And Data Structures',
           items: [{ autogenerate: { directory: '2-algorithms-and-data-structures' } }],
+          collapsed: true,
         },
-        { label: 'Systems', items: [{ autogenerate: { directory: '2-systems' } }] },
+        {
+          label: 'Systems',
+          items: [{ autogenerate: { directory: '2-systems' } }],
+          collapsed: true,
+        },
         {
           label: 'Computer Networks',
           items: [{ autogenerate: { directory: '3-computer-networks' } }],
+          collapsed: true,
         },
-        { label: 'Theory', items: [{ autogenerate: { directory: '3-theory' } }] },
-        { label: 'Databases', items: [{ autogenerate: { directory: '4-databases' } }] },
+        { label: 'Theory', items: [{ autogenerate: { directory: '3-theory' } }], collapsed: true },
+        {
+          label: 'Databases',
+          items: [{ autogenerate: { directory: '4-databases' } }],
+          collapsed: true,
+        },
         {
           label: 'Operating Systems',
           items: [{ autogenerate: { directory: '5-operating-systems' } }],
+          collapsed: true,
         },
         {
           label: 'Theory Of Computation',
           items: [{ autogenerate: { directory: '6-theory-of-computation' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -106,8 +123,6 @@ export default defineConfig({
             content: 'https://computer-science.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

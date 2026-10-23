@@ -38,15 +38,36 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Cpu Tuning', items: [{ autogenerate: { directory: '01-cpu-tuning' } }] },
-        { label: 'Memory Tuning', items: [{ autogenerate: { directory: '02-memory-tuning' } }] },
-        { label: 'Gpu Tuning', items: [{ autogenerate: { directory: '03-gpu-tuning' } }] },
-        { label: 'Storage Tuning', items: [{ autogenerate: { directory: '04-storage-tuning' } }] },
+        {
+          label: 'Cpu Tuning',
+          items: [{ autogenerate: { directory: '01-cpu-tuning' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Memory Tuning',
+          items: [{ autogenerate: { directory: '02-memory-tuning' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Gpu Tuning',
+          items: [{ autogenerate: { directory: '03-gpu-tuning' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Storage Tuning',
+          items: [{ autogenerate: { directory: '04-storage-tuning' } }],
+          collapsed: true,
+        },
         {
           label: 'Cooling Systems',
           items: [{ autogenerate: { directory: '05-cooling-systems' } }],
+          collapsed: true,
         },
-        { label: 'Stress Testing', items: [{ autogenerate: { directory: '06-stress-testing' } }] },
+        {
+          label: 'Stress Testing',
+          items: [{ autogenerate: { directory: '06-stress-testing' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -90,8 +111,6 @@ export default defineConfig({
             content: 'https://tuning.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

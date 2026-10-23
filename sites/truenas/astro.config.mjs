@@ -38,28 +38,33 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Zfs', items: [{ autogenerate: { directory: '01-zfs' } }] },
+        { label: 'Zfs', items: [{ autogenerate: { directory: '01-zfs' } }], collapsed: true },
         {
           label: 'Sharing And Permissions',
           items: [{ autogenerate: { directory: '02-sharing-and-permissions' } }],
+          collapsed: true,
         },
         {
           label: 'Backup And Replication',
           items: [{ autogenerate: { directory: '03-backup-and-replication' } }],
+          collapsed: true,
         },
         {
           label: 'Apps And Services',
           items: [{ autogenerate: { directory: '04-apps-and-services' } }],
+          collapsed: true,
         },
         {
           label: 'Monitoring And Alerting',
           items: [{ autogenerate: { directory: '05-monitoring-and-alerting' } }],
+          collapsed: true,
         },
         {
           label: 'Performance Tuning',
           items: [{ autogenerate: { directory: '06-performance-tuning' } }],
+          collapsed: true,
         },
-        { label: 'Setup', items: [{ autogenerate: { directory: 'setup' } }] },
+        { label: 'Setup', items: [{ autogenerate: { directory: 'setup' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -103,8 +108,6 @@ export default defineConfig({
             content: 'https://truenas.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

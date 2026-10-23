@@ -74,6 +74,17 @@ const title = starlightRoute?.siteTitle || "Notes"
           input.addEventListener("keydown", function(e){
             if (e.key === "Escape") results.classList.remove("active");
           });
+          // Keyboard access: Cmd/Ctrl+K or "/" focuses the search input.
+          document.addEventListener("keydown", function(e){
+            var isK = (e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey);
+            var isSlash = e.key === "/" &&
+              !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
+            if (isK || isSlash) {
+              e.preventDefault();
+              input.focus();
+              input.select();
+            }
+          });
           function esc(s) {
             if (!s) return "";
             var d = document.createElement("div");

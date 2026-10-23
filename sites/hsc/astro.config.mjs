@@ -48,6 +48,7 @@ export default defineConfig({
               },
             },
           ],
+          collapsed: true,
         },
         {
           label: 'Physics',
@@ -58,6 +59,7 @@ export default defineConfig({
               },
             },
           ],
+          collapsed: true,
         },
         {
           label: 'Chemistry',
@@ -68,6 +70,7 @@ export default defineConfig({
               },
             },
           ],
+          collapsed: true,
         },
         {
           label: 'English',
@@ -78,6 +81,7 @@ export default defineConfig({
               },
             },
           ],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -122,8 +126,6 @@ export default defineConfig({
             content: 'https://hsc.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

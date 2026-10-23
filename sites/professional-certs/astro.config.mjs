@@ -41,12 +41,20 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'AWS Certifications', items: [{ autogenerate: { directory: 'aws' } }] },
-        { label: 'Azure Certifications', items: [{ autogenerate: { directory: 'azure' } }] },
-        { label: 'Google Cloud', items: [{ autogenerate: { directory: 'gcp' } }] },
-        { label: 'CompTIA', items: [{ autogenerate: { directory: 'comptia' } }] },
-        { label: 'Cisco', items: [{ autogenerate: { directory: 'cisco' } }] },
-        { label: 'PMP', items: [{ autogenerate: { directory: 'pmp' } }] },
+        {
+          label: 'AWS Certifications',
+          items: [{ autogenerate: { directory: 'aws' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Azure Certifications',
+          items: [{ autogenerate: { directory: 'azure' } }],
+          collapsed: true,
+        },
+        { label: 'Google Cloud', items: [{ autogenerate: { directory: 'gcp' } }], collapsed: true },
+        { label: 'CompTIA', items: [{ autogenerate: { directory: 'comptia' } }], collapsed: true },
+        { label: 'Cisco', items: [{ autogenerate: { directory: 'cisco' } }], collapsed: true },
+        { label: 'PMP', items: [{ autogenerate: { directory: 'pmp' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -90,7 +98,6 @@ export default defineConfig({
             content: 'https://professional-certs.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
@@ -107,7 +114,6 @@ export default defineConfig({
             },
           }),
         },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: [
         './src/styles/custom.css',

@@ -44,27 +44,37 @@ export default defineConfig({
         {
           label: 'Classical Mechanics',
           items: [{ autogenerate: { directory: '1-classical-mechanics' } }],
+          collapsed: true,
         },
-        { label: 'Thermal Physics', items: [{ autogenerate: { directory: '2-thermal-physics' } }] },
+        {
+          label: 'Thermal Physics',
+          items: [{ autogenerate: { directory: '2-thermal-physics' } }],
+          collapsed: true,
+        },
         {
           label: 'Electromagnetism',
           items: [{ autogenerate: { directory: '3-electromagnetism' } }],
+          collapsed: true,
         },
         {
           label: 'Optics And Waves',
           items: [{ autogenerate: { directory: '4-optics-and-waves' } }],
+          collapsed: true,
         },
         {
           label: 'Quantum Mechanics',
           items: [{ autogenerate: { directory: '5-quantum-mechanics' } }],
+          collapsed: true,
         },
         {
           label: 'Solid State Physics',
           items: [{ autogenerate: { directory: '6-solid-state-physics' } }],
+          collapsed: true,
         },
         {
           label: 'Particle Physics And Cosmology',
           items: [{ autogenerate: { directory: '7-particle-physics-and-cosmology' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -109,8 +119,6 @@ export default defineConfig({
             content: 'https://physics.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

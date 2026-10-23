@@ -42,9 +42,21 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Written Test', items: [{ autogenerate: { directory: 'written-test' } }] },
-        { label: 'Road Test', items: [{ autogenerate: { directory: 'road-test' } }] },
-        { label: 'State Guides', items: [{ autogenerate: { directory: 'state-guides' } }] },
+        {
+          label: 'Written Test',
+          items: [{ autogenerate: { directory: 'written-test' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Road Test',
+          items: [{ autogenerate: { directory: 'road-test' } }],
+          collapsed: true,
+        },
+        {
+          label: 'State Guides',
+          items: [{ autogenerate: { directory: 'state-guides' } }],
+          collapsed: true,
+        },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -88,7 +100,6 @@ export default defineConfig({
             content: 'https://driving-us.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
@@ -105,7 +116,6 @@ export default defineConfig({
             },
           }),
         },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
       customCss: [
         './src/styles/custom.css',

@@ -61,6 +61,7 @@ export default defineConfig({
             { label: 'TypeScript with React', slug: 'typescript-with-react' },
             { label: 'TypeScript -- Course Overview', slug: 'typescript' },
           ],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -105,8 +106,6 @@ export default defineConfig({
             content: 'https://typescript.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

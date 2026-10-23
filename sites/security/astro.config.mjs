@@ -43,23 +43,47 @@ export default defineConfig({
         {
           label: 'Security Fundamentals',
           items: [{ autogenerate: { directory: '01-security-fundamentals' } }],
+          collapsed: true,
         },
-        { label: 'Cryptography', items: [{ autogenerate: { directory: '02-cryptography' } }] },
-        { label: 'Authentication', items: [{ autogenerate: { directory: '03-authentication' } }] },
-        { label: 'Web Security', items: [{ autogenerate: { directory: '04-web-security' } }] },
+        {
+          label: 'Cryptography',
+          items: [{ autogenerate: { directory: '02-cryptography' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Authentication',
+          items: [{ autogenerate: { directory: '03-authentication' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Web Security',
+          items: [{ autogenerate: { directory: '04-web-security' } }],
+          collapsed: true,
+        },
         {
           label: 'Network Security',
           items: [{ autogenerate: { directory: '05-network-security' } }],
+          collapsed: true,
         },
         {
           label: 'Incident Response',
           items: [{ autogenerate: { directory: '06-incident-response' } }],
+          collapsed: true,
         },
-        { label: 'Cloud Security', items: [{ autogenerate: { directory: '07-cloud-security' } }] },
-        { label: 'Os Security', items: [{ autogenerate: { directory: '08-os-security' } }] },
+        {
+          label: 'Cloud Security',
+          items: [{ autogenerate: { directory: '07-cloud-security' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Os Security',
+          items: [{ autogenerate: { directory: '08-os-security' } }],
+          collapsed: true,
+        },
         {
           label: 'Malware Analysis',
           items: [{ autogenerate: { directory: '09-malware-analysis' } }],
+          collapsed: true,
         },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
@@ -104,8 +128,6 @@ export default defineConfig({
             content: 'https://security.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },

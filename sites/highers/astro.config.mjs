@@ -39,11 +39,19 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
-        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }] },
-        { label: 'Chemistry', items: [{ autogenerate: { directory: 'chemistry' } }] },
-        { label: 'Computer Science', items: [{ autogenerate: { directory: 'computer-science' } }] },
-        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }] },
-        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }] },
+        { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }], collapsed: true },
+        {
+          label: 'Chemistry',
+          items: [{ autogenerate: { directory: 'chemistry' } }],
+          collapsed: true,
+        },
+        {
+          label: 'Computer Science',
+          items: [{ autogenerate: { directory: 'computer-science' } }],
+          collapsed: true,
+        },
+        { label: 'Maths', items: [{ autogenerate: { directory: 'maths' } }], collapsed: true },
+        { label: 'Physics', items: [{ autogenerate: { directory: 'physics' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
       ],
@@ -87,8 +95,6 @@ export default defineConfig({
             content: 'https://highers.wyattau.com/img/social-card.svg',
           },
         },
-        { tag: 'script', attrs: { src: '/cross-site-search.js', defer: true } },
-        { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
         {
           tag: 'script',
           attrs: { type: 'application/ld+json' },
