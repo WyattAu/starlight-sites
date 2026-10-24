@@ -80665,6 +80665,16 @@ sources:
 
 ## Intuition
 
+
+:::note[Going further with economics?]
+These pages teach the exam: diagrams, evaluation structure, and the
+institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
+is the university layer underneath — micro theory, econometrics, and game theory
+with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
+and the proofs are where the assumptions behind the exam diagrams become
+visible. Skippable by design: the exam content stands on its own.
+:::
+
 **Economics is the study of choices under scarcity, how individuals, firms, and governments allocate limited resources:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
 
 **Why it matters:** Economic literacy is essential for informed citizenship and navigating an increasingly complex world

@@ -102143,6 +102143,16 @@ URL: https://alevel.wyattau.com/economics/economics/
 
 ## A Level Economics, Course Overview
 
+
+:::note[Going further with economics?]
+These pages teach the exam: diagrams, evaluation structure, and the
+institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
+is the university layer underneath — micro theory, econometrics, and game theory
+with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
+and the proofs are where the assumptions behind the exam diagrams become
+visible. Skippable by design: the exam content stands on its own.
+:::
+
 A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous
 Analytical framework for understanding markets, firms, governments, and the global economy. The
 course requires both mathematical fluency and the ability to construct clear, logical arguments.
