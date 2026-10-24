@@ -21,6 +21,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Consistency And Failure Modes](https://economics.wyattau.com/3-econometrics/3_consistency-and-failure-modes/)
 - [Gauss Markov](https://economics.wyattau.com/3-econometrics/2_gauss-markov/)
 - [Index](https://economics.wyattau.com/3-econometrics/)
+- [Instrumental Variables](https://economics.wyattau.com/3-econometrics/4_instrumental-variables/)
 - [Ols Estimator](https://economics.wyattau.com/3-econometrics/1_ols-estimator/)
 
 ## Game-Theory
