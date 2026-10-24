@@ -13,6 +13,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Macroeconomics
 
 - [Index](https://economics.wyattau.com/2-macroeconomics/)
+- [Ramsey](https://economics.wyattau.com/2-macroeconomics/2_ramsey/)
 - [Solow](https://economics.wyattau.com/2-macroeconomics/1_solow/)
 
 ## Econometrics
