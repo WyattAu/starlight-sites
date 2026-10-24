@@ -30,3 +30,4 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [About](https://economics.wyattau.com/about/)
 - [Glossary](https://economics.wyattau.com/glossary/)
 - [Hub](https://economics.wyattau.com/hub/)
+- [Index](https://economics.wyattau.com/)
