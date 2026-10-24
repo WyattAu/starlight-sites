@@ -9,6 +9,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Index](https://economics.wyattau.com/1-microeconomic-theory/)
 - [Preferences And Utility](https://economics.wyattau.com/1-microeconomic-theory/1_preferences-and-utility/)
 - [Utility Maximisation](https://economics.wyattau.com/1-microeconomic-theory/2_utility-maximisation/)
+- [Welfare Theorems](https://economics.wyattau.com/1-microeconomic-theory/3_welfare-theorems/)
 
 ## Macroeconomics
 
