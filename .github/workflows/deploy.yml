@@ -346,6 +346,41 @@ jobs:
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
           fi
+
+      - name: Ensure DNS record for custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          # Attaching a domain to a Pages project does not create the DNS
+          # record. A brand-new subdomain with no record makes the freshness
+          # probe fail on connection refused (seen for economics/finance on
+          # first deploy). Create a proxied CNAME to the project's pages.dev
+          # host; if it exists or the token lacks DNS write, log and continue.
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          zone_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=wyattau.com" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          zone_id=$(echo "$zone_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+          if [ -z "$zone_id" ]; then
+            echo "Note: could not resolve zone id for wyattau.com; skipping DNS creation."
+            exit 0
+          fi
+          list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"")
+          if [ "$has_record" -gt 0 ]; then
+            echo "DNS record for $domain already exists."
+            exit 0
+          fi
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+          success=$(echo "$resp" | grep -o '"success":true')
+          if [ -n "$success" ]; then
+            echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: DNS creation skipped ($err). If the subdomain does not resolve, create a proxied CNAME in the dashboard."
+          fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -532,6 +567,41 @@ jobs:
           else
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
+          fi
+
+      - name: Ensure DNS record for custom domain (idempotent)
+        continue-on-error: true
+        run: |
+          # Attaching a domain to a Pages project does not create the DNS
+          # record. A brand-new subdomain with no record makes the freshness
+          # probe fail on connection refused (seen for economics/finance on
+          # first deploy). Create a proxied CNAME to the project's pages.dev
+          # host; if it exists or the token lacks DNS write, log and continue.
+          domain=$(echo "${{ matrix.url }}" | sed 's|https://||')
+          zone_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones?name=wyattau.com" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          zone_id=$(echo "$zone_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+          if [ -z "$zone_id" ]; then
+            echo "Note: could not resolve zone id for wyattau.com; skipping DNS creation."
+            exit 0
+          fi
+          list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"")
+          if [ "$has_record" -gt 0 ]; then
+            echo "DNS record for $domain already exists."
+            exit 0
+          fi
+          resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+          success=$(echo "$resp" | grep -o '"success":true')
+          if [ -n "$success" ]; then
+            echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
+          else
+            err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+            echo "Note: DNS creation skipped ($err). If the subdomain does not resolve, create a proxied CNAME in the dashboard."
           fi
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
