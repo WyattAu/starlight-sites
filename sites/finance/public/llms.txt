@@ -12,9 +12,11 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Portfolio-Theory
 
 - [Index](https://finance.wyattau.com/2-portfolio-theory/)
+- [Mean Variance And Capm](https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm/)
 
 ## Derivatives
 
+- [Binomial Model](https://finance.wyattau.com/3-derivatives/1_binomial-model/)
 - [Index](https://finance.wyattau.com/3-derivatives/)
 
 ## Overview

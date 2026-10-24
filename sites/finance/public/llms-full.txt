@@ -200,7 +200,274 @@ Two-fund separation is the theorem to internalise: once it holds, every investor
 reduces to choosing a point on one line, and the market portfolio's role in the CAPM stops being
 mysterious. The derivation is a page; the vocabulary it explains is the rest of the subject.
 
+---
+
+## Mean Variance And Capm
+URL: https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "2 Portfolio Theory", "url": "https://finance.wyattau.com/2-portfolio-theory"}, {"name": "Mean--Variance Optimisation", "url": "https://finance.wyattau.com/2-portfolio-theory/1_mean-variance-and-capm"}]
+}
+</script>
+
+### 1. The Investor's Problem
+
+**Definition.** With $n$ risky assets, expected returns $\mu \in \mathbb{R}^n$, and covariance
+matrix $\Sigma$ (symmetric, positive definite), a portfolio is a weight vector $w$ with
+$\mathbf{1}'w = 1$. Its mean is $w'\mu$ and its variance is $w'\Sigma w$. The investor picks $w$
+to minimise variance for a target mean $\mu_p$:
+
+$$
+\min_w \; \tfrac{1}{2} w'\Sigma w \quad \text{s.t.} \quad \mathbf{1}'w = 1, \;\; \mu'w = \mu_p.
+$$
+
+Positive definiteness of $\Sigma$ is the assumption doing the work: without it, some direction
+reduces variance indefinitely (an arbitrage in disguise), and the minimiser is not unique.
+
+### 2. The Frontier Is Two Funds
+
+**Theorem 2.1 (Two-fund separation, risky case).** Every minimum-variance portfolio is a
+combination of two fixed portfolios.
+
+**Proof.** The Lagrangian is
+
+$$
+\mathcal{L} = \tfrac{1}{2} w'\Sigma w - \lambda\left(\mathbf{1}'w - 1\right) - \gamma\left(\mu'w - \mu_p\right).
+$$
+
+The first-order condition, using $\Sigma' = \Sigma$:
+
+$$
+\Sigma w = \lambda \mathbf{1} + \gamma \mu
+\quad\Longrightarrow\quad
+w = \lambda\, \Sigma^{-1}\mathbf{1} + \gamma\, \Sigma^{-1}\mu,
+$$
+
+dividing by $\lambda + \gamma\mu_p \neq 0$ and defining
+
+$$
+w_g = \frac{\Sigma^{-1}\mathbf{1}}{\mathbf{1}'\Sigma^{-1}\mathbf{1}}, \qquad
+w_d = \frac{\Sigma^{-1}\mu}{\mathbf{1}'\Sigma^{-1}\mu},
+$$
+
+every frontier portfolio is $w = A\, w_g + (1 - A)\, w_d$ for some scalar $A$: a combination of
+the **global minimum-variance portfolio** $w_g$ and any single distinct frontier portfolio $w_d$.
+The two constraint equations pin $\lambda$ and $\gamma$ for each $\mu_p$; the structure above is
+what the theorem asserts. $\blacksquare$
+
+This is why "two funds" — an investor holding any efficient combination needs only those two
+portfolios, regardless of how many assets exist.
+
+### 3. Adding a Risk-Free Asset: The Tangency Portfolio
+
+**Definition.** With a risk-free asset returning $r_f < \min_i \mu_i$, weights extend to
+$w \in \mathbb{R}^n$ with the remainder $1 - \mathbf{1}'w$ in the risk-free asset. The problem
+loses the budget constraint:
+
+$$
+\min_w \; \tfrac{1}{2} w'\Sigma w \quad \text{s.t.} \quad \mu'w + r_f(1 - \mathbf{1}'w) = \mu_p.
+$$
+
+**Theorem 3.1.** Every efficient portfolio holds the risk-free asset and one fixed risky
+portfolio, the **tangency portfolio**:
+
+$$
+w_t = \frac{\Sigma^{-1}(\mu - r_f \mathbf{1})}{\mathbf{1}'\Sigma^{-1}(\mu - r_f \mathbf{1})}.
+$$
+
+**Proof.** The Lagrangian's first-order condition:
+
+$$
+\Sigma w = \gamma(\mu - r_f \mathbf{1})
+\quad\Longrightarrow\quad
+w \propto \Sigma^{-1}(\mu - r_f \mathbf{1}).
+$$
+
+For each target $\mu_p$, the scalar $\gamma$ scales the *same* direction
+$\Sigma^{-1}(\mu - r_f\mathbf{1})$ — only the risk-free allocation $1 - \mathbf{1}'w$ adjusts.
+Normalising the risky weights to sum to one gives $w_t$. Every efficient portfolio is
+$(1 - \alpha) R_f + \alpha\, w_t$: cash plus the tangency. $\blacksquare$
+
+Geometrically: in mean--standard-deviation space, efficient combinations trace the line from
+$(0, r_f)$ tangent to the risky frontier — the line with the maximum Sharpe ratio. The tangency
+point is $w_t$; its slope is $\max$ Sharpe.
+
+### 4. Market Clearing Makes the Tangency the Market
+
+**Theorem 4.1 (CAPM).** If every investor holds the tangency portfolio and markets clear, then
+for every asset $i$:
+
+$$
+\mu_i - r_f = \beta_i (\mu_M - r_f), \qquad
+\beta_i = \frac{\operatorname{Cov}(r_i, r_M)}{\operatorname{Var}(r_M)}.
+$$
+
+**Proof.** Summing every investor's risky holdings: aggregate risky demand is proportional to
+$w_t$ (each investor holds $w_t$ scaled by her wealth and risk appetite). Market clearing says
+aggregate demand equals the aggregate supply of risky assets — the value-weighted **market
+portfolio** $M$. So $M = w_t$: the tangency *is* the market.
+
+Now use the tangency's first-order condition. From $\Sigma w_t = \gamma(\mu - r_f\mathbf{1})$,
+row $i$ reads $\operatorname{Cov}(r_i, r_{w_t}) = \gamma(\mu_i - r_f)$ — since row $i$ of
+$\Sigma w_t$ is exactly $\operatorname{Cov}(r_i, r_{w_t})$. Multiply both sides by $w_t'$ and
+sum: $\operatorname{Var}(r_{w_t}) = \gamma(\mu_{w_t} - r_f)$, so
+$\gamma = \operatorname{Var}(r_M)/(\mu_M - r_f)$. Substituting back with $w_t = M$:
+
+$$
+\mu_i - r_f = \beta_i (\mu_M - r_f). \qquad \blacksquare
+$$
+
+### 5. Reading the Theorem
+
+- **Only one risk is priced.** The CAPM prices covariance with the market; an asset's own
+  variance appears nowhere. Idiosyncratic risk goes unpaid *because* it diversifies away — the
+  arithmetic of Theorem 2.1's covariance structure, not a claim about investor psychology.
+- **Beta is a ratio of covariances.** Estimating it is the econometrics track's regression
+  problem; the theory here says what the population value means.
+- **The assumptions are the content.** Everyone holds the tangency requires same beliefs
+  (common $\mu, \Sigma$), a single horizon, frictionless borrowing at $r_f$, and no taxes.
+  Each failure has a named descendant: Black's zero-beta CAPM (no risk-free asset),
+  intertemporal models (repeated horizons), and factor models (multiple priced risks) — the
+  CAPM is the one-factor special case of the machinery, not the end of it.
+
+### 6. Self-test
+
+1. Where does positive definiteness of $\Sigma$ enter? (§2 — $\Sigma^{-1}$ exists and the
+   minimiser is unique; an indefinite $\Sigma$ means a riskless arbitrage.)
+2. Why does dropping the budget constraint change *two funds* into *one fund*? (§3 — the
+   risk-free asset absorbs the scale decision, so only the risky direction
+   $\Sigma^{-1}(\mu - r_f\mathbf{1})$ matters.)
+3. Which step of the CAPM proof is market clearing, and which is optimisation? (Optimisation:
+   $\Sigma w_t = \gamma(\mu - r_f\mathbf{1})$. Clearing: identifying $w_t$ with $M$. The
+   derivation mixes them only once, and mixing them is where the theorem's assumptions live.)
+4. What does the CAPM predict for a zero-beta asset? (§4 — $\beta_i = 0$ gives
+   $\mu_i = r_f$: only covariance with the market is paid.)
+
 ## Derivatives
+
+---
+
+## Binomial Model
+URL: https://finance.wyattau.com/3-derivatives/1_binomial-model/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "finance", "url": "https://finance.wyattau.com"}, {"name": "3 Derivatives", "url": "https://finance.wyattau.com/3-derivatives"}, {"name": "The Binomial Model", "url": "https://finance.wyattau.com/3-derivatives/1_binomial-model"}]
+}
+</script>
+
+### 1. The One-Period Binomial Market
+
+**Definition.** A stock trades today at $S_0$. Tomorrow it takes one of two values: $u S_0$ (up)
+or $d S_0$ (down), with $d < R < u$ where $R = 1 + r_f$ is the gross risk-free rate. A bond
+costs 1 today and pays $R$. A call option pays $C_u = \max(uS_0 - K, 0)$ or
+$C_d = \max(dS_0 - K, 0)$ tomorrow.
+
+The condition $d < R < u$ is **no-arbitrage on the stock**: if $R \geq u$, borrowing to buy the
+stock dominates (stock cannot beat the bond even in its best state); if $R \leq d$, shorting the
+stock and lending dominates. Both are arbitrages, so both are ruled out — and the same inequality
+is exactly what makes the denominator in the construction below positive.
+
+### 2. Pricing by Replication
+
+**Theorem 2.1.** The call's no-arbitrage price is the cost of the portfolio (Δ shares, $B$ in
+bonds) that replicates its payoffs:
+
+$$
+\Delta = \frac{C_u - C_d}{(u - d)S_0}, \qquad
+B = \frac{C_d - \Delta\, d S_0}{R},
+$$
+
+and the price equals
+
+$$
+C_0 = \Delta S_0 + B = \frac{q\,C_u + (1 - q)\,C_d}{R}, \qquad
+q = \frac{R - d}{u - d}.
+$$
+
+**Proof.** Replication requires the portfolio to match the option state by state:
+
+$$
+\Delta\, u S_0 + R B = C_u, \qquad \Delta\, d S_0 + R B = C_d.
+$$
+
+Subtracting: $\Delta (u - d) S_0 = C_u - C_d$, giving $\Delta$. Substituting back: $B$ as stated.
+The replicating portfolio's cost is its price under the law of one price — any other price for
+the call, and buying the cheap one and selling the expensive copy is an arbitrage (zero cost,
+zero net payoff tomorrow, cash today).
+
+For the $q$ form: substitute $\Delta$ and $B$ into $\Delta S_0 + B$ and collect terms over
+$(u - d) S_0 R$:
+
+$$
+C_0 = \frac{C_u (R - d) + C_d (u - R)}{R (u - d)}.
+$$
+
+Defining $q = \frac{R - d}{u - d}$ makes $1 - q = \frac{u - R}{u - d}$, and the numerator is
+$q C_u + (1 - q) C_d$. Note $0 < q < 1$ precisely because $d < R < u$. $\blacksquare$
+
+### 3. Risk-Neutral Probabilities
+
+The quantity $q$ looks like a probability, and the pricing formula reads "discount the expected
+payoff at the risk-free rate." It is a probability **under which the stock is fairly priced**:
+check $S_0 = \frac{q\, u S_0 + (1 - q)\, d S_0}{R}$ by substituting $q$ — it holds identically.
+
+**Theorem 3.1.** Absence of arbitrage in the binomial market is equivalent to the existence of
+$q \in (0, 1)$ with both the stock and the bond fairly priced under $q$; and under such $q$,
+*every* claim's price is its discounted $q$-expectation.
+
+**Proof.** ($\Leftarrow$) If both assets are fairly priced under $q$, any portfolio with payoff
+$X$ costs $\frac{E_q[X]}{R}$, and zero cost forces $E_q[X] = 0$; a nonnegative-everywhere,
+positive-somewhere payoff has $E_q[X] > 0$ — no arbitrage.
+
+($\Rightarrow$) No-arbitrage forces $d < R < u$ (§1), which makes
+$q = \frac{R - d}{u - d}$ lie in $(0, 1)$. The stock and bond are then fairly priced under $q$
+by direct substitution. Every attainable claim is a portfolio of stock and bond; its price is
+its portfolio cost; linearity of expectation under $q$ makes that cost
+$\frac{E_q[X]}{R}$. $\blacksquare$
+
+The interpretation is the trap to avoid: $q$ is **not** the probability the stock rises. It is
+the pseudo-probability under which risk preferences vanish from pricing — the investor
+risk-aversion lives in the gap between $q$ and the true probability, and pricing never touches
+it. That is why the argument needed no utility, no beliefs, and no risk premium.
+
+### 4. Multi-Period by Backward Induction
+
+**Theorem 4.1.** With $T$ periods, the price is
+$C_0 = \frac{E_q[C_T]}{R^T}$, and dynamic replication achieves it.
+
+**Proof sketch (induction).** At time $T - 1$, each node has a two-state continuation: Theorem
+2.1 prices the remaining option at that node, and Δ can be re-constructed node by node. So
+holding the replicating portfolio at $T-1$ and *re-balancing* it after observing the state
+replicates the $T$-period payoff — the self-financing condition holds because the re-balanced
+portfolio's cost equals the portfolio's value at that node (no outside cash). Inducting down to
+time 0 gives $C_0 = \frac{E_q[C_T]}{R^T}$. $\blacksquare$
+
+The induction hides one genuine idea: **dynamic replication**. Static replication fails after one
+period because the state space grows; but option trading is *sequential*, and at each node the
+next step is again one-period binomial. This is why American features (early exercise) are
+handled by a maximum at each node — $\max(\text{intrinsic}, \text{continuation})$ — in the same
+backward pass.
+
+### 5. Self-test
+
+1. Where does the no-arbitrage condition $d < R < u$ enter the algebra? (§2 — it makes
+   $q \in (0, 1)$; outside that range the "probability" is meaningless and an arbitrage exists.)
+2. Why is the call's price independent of the true probability of an up move? (§3 — pricing uses
+   only $q$, which is pinned by $R, u, d$; the true probability affects who trades, not the
+   price.)
+3. What breaks in a multi-period tree if you never re-balance? (§4 — static replication matches
+   only one date's payoffs; the option's payoff at $T$ requires re-balancing at every node.)
+4. An American put in the same tree: where does early exercise enter the induction? (§4 — at
+   each node take the max of continuation value and intrinsic value before propagating
+   backward.)
 
 ---
 
