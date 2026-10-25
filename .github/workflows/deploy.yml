@@ -339,7 +339,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
           else
@@ -365,8 +365,8 @@ jobs:
           fi
           list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
-          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"")
-          if [ "$has_record" -gt 0 ]; then
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
+          if [ "${has_record:-0}" -gt 0 ]; then
             echo "DNS record for $domain already exists."
             exit 0
           fi
@@ -374,7 +374,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
           else
@@ -561,7 +561,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
           else
@@ -587,8 +587,8 @@ jobs:
           fi
           list_resp=$(curl -s "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records?name=$domain" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
-          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"")
-          if [ "$has_record" -gt 0 ]; then
+          has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
+          if [ "${has_record:-0}" -gt 0 ]; then
             echo "DNS record for $domain already exists."
             exit 0
           fi
@@ -596,7 +596,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
-          success=$(echo "$resp" | grep -o '"success":true')
+          success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Created proxied CNAME $domain -> ${{ matrix.project }}.pages.dev."
           else
