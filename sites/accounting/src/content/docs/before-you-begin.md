@@ -107,3 +107,12 @@ assumption.
 Every number in the tracks traces to a source entry, every entry balances, and every statement
 interlocks. The self-test's role is to move that standard from the pages into your working
 habits: post it, check it, then trust it.
+
+### 8. Why No Mathematics Track Is Required
+
+The [finance](https://finance.wyattau.com/before-you-begin/) and
+[economics](https://economics.wyattau.com/before-you-begin/) siblings require probability and
+calculus prerequisites; accounting requires none, and that is honest rather than diminishing —
+the subject's rigour is structural (does it balance, does it trace, is it classified right), not
+mathematical. Where an accounting standard embeds a calculation (present value in lease
+accounting, for instance), the pages teach the calculation at the point of use.
