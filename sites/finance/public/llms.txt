@@ -22,6 +22,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://finance.wyattau.com/about/)
+- [Before You Begin](https://finance.wyattau.com/before-you-begin/)
 - [Glossary](https://finance.wyattau.com/glossary/)
 - [Hub](https://finance.wyattau.com/hub/)
 - [Index](https://finance.wyattau.com/)

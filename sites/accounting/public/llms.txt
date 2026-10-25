@@ -17,6 +17,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Overview
 
 - [About](https://accounting.wyattau.com/about/)
+- [Before You Begin](https://accounting.wyattau.com/before-you-begin/)
 - [Glossary](https://accounting.wyattau.com/glossary/)
 - [Hub](https://accounting.wyattau.com/hub/)
 - [Index](https://accounting.wyattau.com/)

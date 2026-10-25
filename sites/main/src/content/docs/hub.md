@@ -1,6 +1,6 @@
 ---
 title: "Wyatt's Notes, Complete Study Resource Network"
-description: "The complete network of 46 interconnected study sites covering programming languages, computer science, academic subjects, professional certifications, driving tests, and language proficiency exams. Browse all sites, find your path, and start learning."
+description: "The complete network of 49 interconnected study sites covering programming languages, computer science, academic subjects, professional certifications, driving tests, and language proficiency exams. Browse all sites, find your path, and start learning."
 date: 2026-07-24
 tags:
   - wyatts-notes
@@ -27,7 +27,7 @@ categories:
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Wyatt's Notes",
-  "description": "A network of 46 interconnected study sites covering programming, computer science, academic subjects, professional certifications, and more.",
+  "description": "A network of 49 interconnected study sites covering programming, computer science, academic subjects, professional certifications, and more.",
   "url": "https://wyattsnotes.wyattau.com",
   "publisher": {
     "@type": "Organization",
@@ -41,7 +41,7 @@ categories:
 
 ## Welcome to Wyatt's Notes
 
-Wyatt's Notes is a network of 46 interconnected study sites, each dedicated to a specific subject or domain. Every site offers topic notes, practice questions, flashcards, and diagnostic quizzes. The sites are cross-linked so you can move between related topics seamlessly, and the entire network is free to use.
+Wyatt's Notes is a network of 49 interconnected study sites, each dedicated to a specific subject or domain. Every site offers topic notes, practice questions, flashcards, and diagnostic quizzes. The sites are cross-linked so you can move between related topics seamlessly, and the entire network is free to use.
 
 This hub page is your starting point. It lists every site in the network, organised by category, with brief descriptions of what each site covers and links to its hub page.
 
@@ -117,6 +117,16 @@ Comprehensive study resources for school and university-level examinations.
 - **[CBSE](https://cbse.wyattau.com)** -- the Central Board of Secondary Education (India)
 - **[DSE](https://dse.wyattau.com)** -- the Hong Kong Diploma of Secondary Education
 - **[Gaokao](https://gaokao.wyattau.com)** -- the Chinese national college entrance examination
+
+### University-Level Subjects
+
+Proof-first university tracks - every core theorem proved, prerequisites tailored per subject.
+
+- **[Mathematics](https://mathematics.wyattau.com)** -- discrete math, linear algebra, calculus, and proof-based mathematics
+- **[Physics](https://physics.wyattau.com)** -- classical mechanics, electromagnetism, quantum physics, and thermodynamics
+- **[Economics](https://economics.wyattau.com)** -- micro theory, macro, econometrics, and game theory with the theorems proved
+- **[Finance](https://finance.wyattau.com)** -- no-arbitrage, portfolio theory, the CAPM, and derivatives
+- **[Accounting](https://accounting.wyattau.com)** -- the accounting equation, double entry, and the full cycle worked
 
 ### University Admissions and Planning
 
@@ -197,6 +207,9 @@ Certification preparation for language proficiency and professional IT qualifica
 | 44 | Language Tests | language-tests.wyattau.com | IELTS, TOEFL, and more |
 | 45 | Professional Certs | professional-certs.wyattau.com | IT certifications |
 | 46 | Civics Tests | civics-tests.wyattau.com | US citizenship test |
+| 47 | Economics | economics.wyattau.com | Micro, macro, econometrics, game theory |
+| 48 | Finance | finance.wyattau.com | No-arbitrage, portfolio theory, derivatives |
+| 49 | Accounting | accounting.wyattau.com | Equation, double entry, the cycle worked |
 
 </div>
 
@@ -206,7 +219,7 @@ Certification preparation for language proficiency and professional IT qualifica
 
 ### What is Wyatt's Notes?
 
-Wyatt's Notes is a network of 46 interconnected study sites, each covering a specific subject. Every site offers topic notes, practice questions, flashcards, and diagnostic quizzes. The sites are free to use and cross-linked so you can move between related topics.
+Wyatt's Notes is a network of 49 interconnected study sites, each covering a specific subject. Every site offers topic notes, practice questions, flashcards, and diagnostic quizzes. The sites are free to use and cross-linked so you can move between related topics.
 
 ### How do I find the right site for my goal?
 

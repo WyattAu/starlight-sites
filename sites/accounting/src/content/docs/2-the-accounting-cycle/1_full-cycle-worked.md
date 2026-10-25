@@ -22,6 +22,8 @@ the balance at each step.
 
 ### 1. March's Transactions
 
+<div class="table-wrap">
+
 | # | Date | Event | Analysis |
 |---|---|---|---|
 | 1 | Mar 1 | Owners invest \$20,000 cash | Asset (cash) up; equity up |
@@ -31,6 +33,8 @@ the balance at each step.
 | 5 | Mar 18 | Complete work for \$4,000, **billed**, uncollected | Asset (receivable) up; revenue up |
 | 6 | Mar 25 | Pay \$3,500 cash for March salaries | Expense up; asset (cash) down |
 | 7 | Mar 30 | Pay \$400 cash for **April's** rent (paid early) | Asset swap: prepaid rent up, cash down |
+
+</div>
 
 **Journal entries** (debit first, credit indented):
 
