@@ -375,28 +375,29 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
           has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
           if [ "${has_record:-0}" -gt 0 ]; then
-            # A stale proxied A record (pre-Pages zone IP) 404s on every
-            # request even though the deployment and domain attachment are
-            # fine - accounting.wyattau.com shipped exactly this way. Replace
-            # legacy A records with the CNAME the Pages project needs.
-            is_a=$(echo "$list_resp" | grep -c "\"type\":\"A\"" || true)
-            if [ "${is_a:-0}" -gt 0 ]; then
-              rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
-              del_resp=$(curl -s -X DELETE \
-                "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
-                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
-              add_resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
-                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                -H "Content-Type: application/json" \
-                --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
-              ok=$(echo "$add_resp" | grep -o '"success":true' || true)
-              if [ -n "$ok" ]; then
-                echo "Replaced stale A record on $domain with proxied CNAME -> ${{ matrix.project }}.pages.dev."
-              else
-                echo "Note: A-record replacement failed ($add_resp)."
-              fi
+            # The record must be a proxied CNAME whose target is THIS project's
+            # pages.dev host - that is what Pages custom-domain validation
+            # requires. Anything else (a legacy A record to zone IPs, or a
+            # CNAME to a stale target) leaves validation stuck at pending and
+            # the domain serving 404s: accounting.wyattau.com shipped exactly
+            # this way. Rewrite whichever mismatch exists.
+            target="${{ matrix.project }}.pages.dev"
+            wrong_target=$(echo "$list_resp" | python3 -c "import json,sys; d=json.load(sys.stdin); print(sum(1 for r in d.get('result', []) if r.get('content') != '$target'))")
+            if [ "${wrong_target:-0}" -eq 0 ]; then
+              echo "DNS record for $domain already correct (CNAME -> $target)."
+              exit 0
+            fi
+            rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+            resp=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"$target\",\"proxied\":true}")
+            success=$(echo "$resp" | grep -o '"success":true' || true)
+            if [ -n "$success" ]; then
+              echo "Rewrote $domain CNAME -> $target (was pointing elsewhere; validation was stuck pending)."
             else
-              echo "DNS record for $domain already exists (non-A); leaving it."
+              err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+              echo "Note: DNS rewrite failed ($err). Fix manually: CNAME $domain -> $target, proxied."
             fi
             exit 0
           fi
@@ -627,28 +628,29 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
           has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
           if [ "${has_record:-0}" -gt 0 ]; then
-            # A stale proxied A record (pre-Pages zone IP) 404s on every
-            # request even though the deployment and domain attachment are
-            # fine - accounting.wyattau.com shipped exactly this way. Replace
-            # legacy A records with the CNAME the Pages project needs.
-            is_a=$(echo "$list_resp" | grep -c "\"type\":\"A\"" || true)
-            if [ "${is_a:-0}" -gt 0 ]; then
-              rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
-              del_resp=$(curl -s -X DELETE \
-                "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
-                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
-              add_resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
-                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-                -H "Content-Type: application/json" \
-                --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
-              ok=$(echo "$add_resp" | grep -o '"success":true' || true)
-              if [ -n "$ok" ]; then
-                echo "Replaced stale A record on $domain with proxied CNAME -> ${{ matrix.project }}.pages.dev."
-              else
-                echo "Note: A-record replacement failed ($add_resp)."
-              fi
+            # The record must be a proxied CNAME whose target is THIS project's
+            # pages.dev host - that is what Pages custom-domain validation
+            # requires. Anything else (a legacy A record to zone IPs, or a
+            # CNAME to a stale target) leaves validation stuck at pending and
+            # the domain serving 404s: accounting.wyattau.com shipped exactly
+            # this way. Rewrite whichever mismatch exists.
+            target="${{ matrix.project }}.pages.dev"
+            wrong_target=$(echo "$list_resp" | python3 -c "import json,sys; d=json.load(sys.stdin); print(sum(1 for r in d.get('result', []) if r.get('content') != '$target'))")
+            if [ "${wrong_target:-0}" -eq 0 ]; then
+              echo "DNS record for $domain already correct (CNAME -> $target)."
+              exit 0
+            fi
+            rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+            resp=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"$target\",\"proxied\":true}")
+            success=$(echo "$resp" | grep -o '"success":true' || true)
+            if [ -n "$success" ]; then
+              echo "Rewrote $domain CNAME -> $target (was pointing elsewhere; validation was stuck pending)."
             else
-              echo "DNS record for $domain already exists (non-A); leaving it."
+              err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
+              echo "Note: DNS rewrite failed ($err). Fix manually: CNAME $domain -> $target, proxied."
             fi
             exit 0
           fi
