@@ -809,6 +809,25 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Diagnostic - new Pages projects state (one-off)
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -e
+          for project in wyattsnotes-accounting wyattsnotes-economics wyattsnotes-finance; do
+            echo "===== $project ====="
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" > /tmp/diag-project.json
+            python3 ../../search-api/inspect-project.py /tmp/diag-project.json
+            echo '--- deployments ---'
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project/deployments" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" > /tmp/diag-deployments.json
+            python3 ../../search-api/inspect-deployments.py /tmp/diag-deployments.json
+          done
+
+
       - name: Upload index to KV
         if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
