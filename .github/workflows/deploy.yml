@@ -367,7 +367,29 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
           has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
           if [ "${has_record:-0}" -gt 0 ]; then
-            echo "DNS record for $domain already exists."
+            # A stale proxied A record (pre-Pages zone IP) 404s on every
+            # request even though the deployment and domain attachment are
+            # fine - accounting.wyattau.com shipped exactly this way. Replace
+            # legacy A records with the CNAME the Pages project needs.
+            is_a=$(echo "$list_resp" | grep -c "\"type\":\"A\"" || true)
+            if [ "${is_a:-0}" -gt 0 ]; then
+              rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+              del_resp=$(curl -s -X DELETE \
+                "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+              add_resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                -H "Content-Type: application/json" \
+                --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+              ok=$(echo "$add_resp" | grep -o '"success":true' || true)
+              if [ -n "$ok" ]; then
+                echo "Replaced stale A record on $domain with proxied CNAME -> ${{ matrix.project }}.pages.dev."
+              else
+                echo "Note: A-record replacement failed ($add_resp)."
+              fi
+            else
+              echo "DNS record for $domain already exists (non-A); leaving it."
+            fi
             exit 0
           fi
           resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
@@ -589,7 +611,29 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
           has_record=$(echo "$list_resp" | grep -c "\"name\":\"$domain\"" || true)
           if [ "${has_record:-0}" -gt 0 ]; then
-            echo "DNS record for $domain already exists."
+            # A stale proxied A record (pre-Pages zone IP) 404s on every
+            # request even though the deployment and domain attachment are
+            # fine - accounting.wyattau.com shipped exactly this way. Replace
+            # legacy A records with the CNAME the Pages project needs.
+            is_a=$(echo "$list_resp" | grep -c "\"type\":\"A\"" || true)
+            if [ "${is_a:-0}" -gt 0 ]; then
+              rec_id=$(echo "$list_resp" | grep -o '"id":"[a-f0-9]*"' | head -1 | cut -d'"' -f4)
+              del_resp=$(curl -s -X DELETE \
+                "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records/$rec_id" \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+              add_resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
+                -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+                -H "Content-Type: application/json" \
+                --data "{\"type\":\"CNAME\",\"name\":\"$domain\",\"content\":\"${{ matrix.project }}.pages.dev\",\"proxied\":true}")
+              ok=$(echo "$add_resp" | grep -o '"success":true' || true)
+              if [ -n "$ok" ]; then
+                echo "Replaced stale A record on $domain with proxied CNAME -> ${{ matrix.project }}.pages.dev."
+              else
+                echo "Note: A-record replacement failed ($add_resp)."
+              fi
+            else
+              echo "DNS record for $domain already exists (non-A); leaving it."
+            fi
             exit 0
           fi
           resp=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$zone_id/dns_records" \
