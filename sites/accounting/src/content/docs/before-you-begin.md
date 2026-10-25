@@ -101,3 +101,9 @@ If the running-balance table in §2 took you under a minute and you answered all
 items without looking back, go straight to [Foundations](/1-foundations/) — the track starts
 from zero and you are past it. The self-test exists so that "skip" is an assessment, not an
 assumption.
+
+### 7. The Standard, Restated
+
+Every number in the tracks traces to a source entry, every entry balances, and every statement
+interlocks. The self-test's role is to move that standard from the pages into your working
+habits: post it, check it, then trust it.

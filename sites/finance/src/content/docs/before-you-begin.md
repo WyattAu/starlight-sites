@@ -109,3 +109,9 @@ If you can do §2's worked check cold and §3's reflex without pausing, skip to 
 [Principles track](/1-principles/) — the track re-derives everything here in passing, and
 re-reading what you already own is the least efficient form of study. The self-test exists so
 that "skip" is an assessment, not an assumption.
+
+### 8. The Standard, Restated
+
+Every number in the tracks is either given, derived, or cited — never decorative. The
+self-test's role is to move that standard from the pages into your working habits: derive it,
+check it, then trust it.
