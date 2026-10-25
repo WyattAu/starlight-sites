@@ -352,9 +352,6 @@ jobs:
 
       - name: Ensure DNS record for custom domain (idempotent)
         continue-on-error: true
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           # Attaching a domain to a Pages project does not create the DNS
           # record. A brand-new subdomain with no record makes the freshness
@@ -602,9 +599,6 @@ jobs:
 
       - name: Ensure DNS record for custom domain (idempotent)
         continue-on-error: true
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           # Attaching a domain to a Pages project does not create the DNS
           # record. A brand-new subdomain with no record makes the freshness
