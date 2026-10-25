@@ -342,6 +342,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
+          echo "Attach POST response: ${resp:0:600}"
           success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
@@ -349,6 +350,10 @@ jobs:
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
           fi
+          echo "--- domains state (GET) ---"
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | head -c 1200 || true
+          echo
 
       - name: Ensure DNS record for custom domain (idempotent)
         continue-on-error: true
@@ -589,6 +594,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data "{\"name\": \"$domain\"}")
+          echo "Attach POST response: ${resp:0:600}"
           success=$(echo "$resp" | grep -o '"success":true' || true)
           if [ -n "$success" ]; then
             echo "Domain $domain added to project ${{ matrix.project }}."
@@ -596,6 +602,10 @@ jobs:
             err=$(echo "$resp" | grep -o '"message":"[^"]*"' | head -1)
             echo "Note: Domain add skipped or already configured ($err)"
           fi
+          echo "--- domains state (GET) ---"
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/${{ matrix.project }}/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | head -c 1200 || true
+          echo
 
       - name: Ensure DNS record for custom domain (idempotent)
         continue-on-error: true
