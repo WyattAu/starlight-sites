@@ -1,0 +1,56 @@
+name: Pages Diagnostic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Query Pages projects
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          for project in wyattsnotes-accounting wyattsnotes-economics wyattsnotes-finance; do
+            echo "===== $project ====="
+            echo "--- project ---"
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+if not d.get('success'):
+    print('ERROR:', json.dumps(d.get('errors'))[:400])
+else:
+    r = d['result']
+    print('production_branch:', r.get('production_branch'))
+    print('domains:', r.get('domains'))
+    print('latest_deployment:', json.dumps((r.get('latest_deployment') or {}), default=str)[:600])
+"
+            echo "--- deployments (latest 3) ---"
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project/deployments" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+if not d.get('success'):
+    print('ERROR:', json.dumps(d.get('errors'))[:400])
+else:
+    for dep in d['result'][:3]:
+        print(json.dumps({k: dep.get(k) for k in ['id', 'environment', 'deployment_trigger', 'latest_stage', 'created_on', 'url']}, default=str)[:500])
+"
+            echo "--- domains ---"
+            curl -s "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$project/domains" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+if not d.get('success'):
+    print('ERROR:', json.dumps(d.get('errors'))[:400])
+else:
+    for dom in d['result']:
+        print(json.dumps({k: dom.get(k) for k in ['name', 'status', 'validation_data', 'created_on']}, default=str)[:500])
+"
+          done
