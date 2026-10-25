@@ -3,7 +3,6 @@ import ClientRouter from "astro/components/ClientRouter.astro"
 import ErrorCapture from './ErrorCapture.astro'
 import JsonLd from './JsonLd.astro'
 import ServiceWorker from './ServiceWorker.astro'
-import SiteNavigator from './SiteNavigator.astro'
 
 const { starlightRoute } = Astro.locals;
 const { entry, head, id } = starlightRoute;
@@ -192,8 +191,7 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 <!-- Reading controls (floating settings, focus mode, progress, position memory) -->
 <script src="/reader.js" defer></script>
 
-<!-- Site navigator: inject Sites button into Starlight header -->
-<SiteNavigator />
+<!-- The Sites button is rendered by Header.astro itself (single source; the old SiteNavigator injector duplicated it) -->
 
 <!-- Cross-site search: the header (Header.astro) renders the search input
      and queries search.wyattau.com directly. The legacy injector scripts

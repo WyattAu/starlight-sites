@@ -61,7 +61,6 @@ const SHARED_DIRS = [
 const PUBLIC_FILES = [
   ['search-api/sw.js', 'public/sw.js'],
   ['shared/scripts/reader.js', 'public/reader.js'],
-  ['shared/scripts/site-nav.js', 'public/site-nav.js'],
   ['shared/public/wasm/starlight_widgets.js', 'public/wasm/starlight_widgets.js'],
   ['shared/public/wasm/starlight_widgets_bg.wasm', 'public/wasm/starlight_widgets_bg.wasm'],
   ['shared/public/favicon.svg', 'public/favicon.svg'],
