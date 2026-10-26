@@ -27,10 +27,9 @@ hypothesis is doing the work is only visible inside the proof.
 2. [Gauss--Markov](/3-econometrics/2_gauss-markov/) — the theorem that OLS is the **best linear
    unbiased estimator**, proved by completing the square. The proof shows exactly which
    hypotheses buy which part of the conclusion.
-3. Consistency and asymptotics — what happens when the exogeneity or homoskedasticity assumptions
-   weaken (coming next in this track).
-4. Inference — standard errors, $t$ and $F$ tests, and why heteroskedasticity demands robust
-   variance (coming).
+3. [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/) — what survives when the assumptions weaken: attenuation proved, simultaneity derived.
+4. [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/) — the endogeneity remedy derived.
+5. [Inference](/3-econometrics/5_inference/) — t-tests, the Eicker--White robust variance, and what p-values do and do not mean.
 
 ## Prerequisites
 
