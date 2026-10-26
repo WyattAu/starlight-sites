@@ -25,9 +25,15 @@ function searchIndex(
   // Content words drive matching; stop words only participate via the
   // exact-phrase bonus below. "what is the" should not score every entry
   // that contains "the".
+  // Hyphenated compounds split into their parts: "gauss-markov" must match
+  // entries containing "Gauss" and "Markov" separately (the index stores
+  // em-dashed titles as "Gauss--Markov", and word-boundary matching treats
+  // the dashes as boundaries on the content side — the query side has to
+  // do the same).
   const queryWords = queryLower
     .split(/\s+/)
     .map(w => w.replace(/[^a-z0-9-]/g, ''))
+    .flatMap(w => w.split(/-+/))
     .filter(w => w.length >= 2 && !STOP_WORDS.has(w))
     .map(stem)
   const results = []
