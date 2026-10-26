@@ -363,7 +363,12 @@ describe('Hyphenated compound queries', () => {
   it('splits hyphenated queries into parts that match independently', () => {
     const idx = {
       entries: [
-        { title: 'The Gauss--Markov Theorem', url: 'https://economics.wyattau.com/x/', site: 'economics', content: 'the gauss-markov theorem on normal distributions' },
+        {
+          title: 'The Gauss--Markov Theorem',
+          url: 'https://economics.wyattau.com/x/',
+          site: 'economics',
+          content: 'the gauss-markov theorem on normal distributions',
+        },
       ],
     }
     const results = api.searchIndex('gauss-markov', idx, null, W())
@@ -373,7 +378,12 @@ describe('Hyphenated compound queries', () => {
   it('still matches whole hyphenated tokens when both parts appear joined', () => {
     const idx = {
       entries: [
-        { title: 'Parenting styles', url: 'https://x.com/parenting/', site: 'x', content: 'authoritative and permissive styles compared' },
+        {
+          title: 'Parenting styles',
+          url: 'https://x.com/parenting/',
+          site: 'x',
+          content: 'authoritative and permissive styles compared',
+        },
       ],
     }
     const results = api.searchIndex('authoritative', idx, null, W())
