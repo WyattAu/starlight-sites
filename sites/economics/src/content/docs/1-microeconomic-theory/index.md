@@ -26,7 +26,7 @@ are exactly what applied work leans on.
 2. [Utility Maximisation](/1-microeconomic-theory/2_utility-maximisation/) — the consumer problem,
    Marshallian demand, indirect utility, expenditure function, Shephard's lemma, and the Slutsky
    decomposition — with proofs.
-3. Production and the firm — profit and cost minimisation, the firm's duality (next in track).
+3. [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/) — cost minimisation by Lagrangian, Shephard's lemma proved, Hotelling's lemma, and the duality between production and cost.
 4. General equilibrium and the welfare theorems (coming).
 
 ## Prerequisites
