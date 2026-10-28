@@ -76,11 +76,12 @@ async function fetchSiteIndex(site) {
             const resp = await fetchWithTimeout(url, 8000)
             if (!resp.ok) return null
 
-            // Read first 30KB for metadata + body content
+            // Read up to 150KB: KaTeX-heavy Starlight pages can have 100KB+
+            // of head/preload/script content before the body prose starts.
             const reader = resp.body.getReader()
             const chunks = []
             let totalBytes = 0
-            while (totalBytes < 30000) {
+            while (totalBytes < 150000) {
               const { done, value } = await reader.read()
               if (done) break
               chunks.push(value)
@@ -105,16 +106,27 @@ async function fetchSiteIndex(site) {
             const h1Match = text.match(/<h1[^>]*>([^<]+)<\/h1>/i)
             const heading = h1Match ? h1Match[1].trim() : ''
 
-            // Extract visible body text
+            // Extract visible body text from the main content area.
+            // Prefer <main> or <article> over the full <body> to skip the
+            // header, sidebar, and footer chrome that pads every page.
             let content = ''
+            const mainMatch = text.match(/<main[^>]*>([\s\S]*?)<\/main>/i)
+            const articleMatch = text.match(/<article[^>]*>([\s\S]*?)<\/article>/i)
             const bodyMatch = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
-            if (bodyMatch) {
-              content = bodyMatch[1]
-                .replace(/<\/?[^>]+(>|$)/g, '') // strip HTML tags
+            const source = mainMatch ? mainMatch[0] : articleMatch ? articleMatch[0] : bodyMatch ? bodyMatch[0] : ''
+            if (source) {
+              content = source
+                .replace(/<nav[\s\S]*?<\/nav>/gi, '') // strip nav
+                .replace(/<aside[\s\S]*?<\/aside>/gi, '') // strip sidebar
+                .replace(/<footer[\s\S]*?<\/footer>/gi, '') // strip footer
+                .replace(/<script[\s\S]*?<\/script>/gi, '') // strip scripts
+                .replace(/<style[\s\S]*?<\/style>/gi, '') // strip styles
+                .replace(/<svg[\s\S]*?<\/svg>/gi, ' ') // strip icons
+                .replace(/<\/?[^>]+(>|$)/g, ' ') // strip HTML tags
                 .replace(/&[^;]+;/g, ' ') // decode entities
                 .replace(/\s+/g, ' ') // collapse whitespace
                 .trim()
-                .slice(0, 2000)
+                .slice(0, 3000)
             }
 
             if (title) {
