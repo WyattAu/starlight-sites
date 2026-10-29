@@ -14570,29 +14570,44 @@ the receiving atom.
 
 **Example: Magnesium oxide (MgO)**
 
-<circle cx="290" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
-<text x="290" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
-<circle cx="305.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
-  <circle cx="275.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
-<line x1="315.0" y1="80.0" x2="325.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="325.0" y1="80.0" x2="315.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="306.2" y1="101.2" x2="316.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="316.2" y1="101.2" x2="306.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="285.0" y1="110.0" x2="295.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="295.0" y1="110.0" x2="285.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="263.8" y1="101.2" x2="273.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="273.8" y1="101.2" x2="263.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="255.0" y1="80.0" x2="265.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="265.0" y1="80.0" x2="255.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="306.2" y1="58.8" x2="316.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
-  <line x1="316.2" y1="58.8" x2="306.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
-<path d="M 258,40 L 250,40 L 250,130 L 258,130" stroke="#374151" fill="none" stroke-width="2"/>
-<path d="M 322,40 L 330,40 L 330,130 L 322,130" stroke="#374151" fill="none" stroke-width="2"/>
-<text x="334" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
-<text x="80" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Mg²⁺</text>
-<text x="290" y="155" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
-<text x="185" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
-<text x="185" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">2 e⁻ transfer</text>
+<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <!-- Mg²⁺ ion on the left -->
+  <path d="M 48,40 L 40,40 L 40,140 L 48,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="90" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="90" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Mg</text>
+  <circle cx="90" cy="90" r="14" stroke="#d1d5db" fill="none" stroke-width="1"/>
+  <circle cx="90" cy="78" r="2.5" fill="#6b7280"/>
+  <circle cx="102" cy="90" r="2.5" fill="#6b7280"/>
+  <circle cx="90" cy="102" r="2.5" fill="#6b7280"/>
+  <circle cx="78" cy="90" r="2.5" fill="#6b7280"/>
+  <path d="M 132,40 L 140,40 L 140,140 L 132,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="146" y="55" font-size="16" fill="#dc2626" font-weight="bold">2+</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Mg²⁺</text>
+  <!-- O²⁻ ion on the right -->
+  <path d="M 218,40 L 210,40 L 210,140 L 218,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="260" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="260" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+  <!-- 8 outer electrons: 2 dots (from Mg) + 6 crosses (O's own) -->
+  <circle cx="260" cy="62" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <circle cx="282" cy="70" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <line x1="296" y1="76" x2="306" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306" y1="76" x2="296" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="90" x2="304" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="304" y1="90" x2="294" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286" y1="106" x2="294" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="106" x2="286" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="262" y1="118" x2="270" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="270" y1="118" x2="262" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="238" y1="106" x2="244" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="244" y1="106" x2="238" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="216" y1="76" x2="224" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="224" y1="76" x2="216" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <path d="M 302,40 L 310,40 L 310,140 L 302,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="316" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
+  <text x="260" y="160" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
+  <!-- Arrow -->
+  <text x="170" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
+  <text x="170" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">2 e⁻ transfer</text>
 </svg>
 <p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Magnesium oxide (MgO): magnesium transfers two electrons to oxygen. ● = magnesium&#39;s electrons, ✕ = oxygen&#39;s electrons</p>
 
