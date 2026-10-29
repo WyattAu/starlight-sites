@@ -502,6 +502,88 @@ problems, but the problem Itself might not be in NP (e.g., the halting problem i
 undecidable).
 :::
 
+### 6.9 Ladner's Theorem: NP-Intermediate Problems
+
+If P ≠ NP, are there languages *between* them — in NP but neither in P nor NP-complete? Or does
+every problem in NP sit at one extreme? Ladner's theorem answers: **there are NP-intermediate
+problems, and they can be constructed explicitly.**
+
+**Theorem 6.12 (Ladner, 1975).** If P ≠ NP, then there exists a language
+$L \in \mathrm{NP} \setminus \mathrm{P}$ that is not NP-complete.
+
+**Proof idea.** Construct $L$ by diagonalisation over the polynomial-time deciders. The
+construction "squashes" SAT: $L$ contains exactly the strings in SAT whose length is a perfect
+square — but with the length threshold adjusted so that $L$ is neither trivially easy nor
+NP-complete. The construction alternates between two modes:
+
+- **Mode 1 (make it easy):** On inputs of length $\leq n$, decide $L$ with the $n$-th
+  polynomial-time machine $M_n$. If $M_n$ decides $L$ correctly, $L \notin \mathrm{P}$ is
+  falsified — so switch to Mode 2.
+- **Mode 2 (make it hard):** Ensure $L$ differs from the $n$-th NP-complete language on some
+  input, by padding SAT instances — so if $L$ were NP-complete, SAT would reduce to $L$, which
+  the padding prevents — so switch back to Mode 1.
+
+The alternation is self-limiting: each switch happens later than the last, so $L$ is neither
+in P (Mode 1 always fails eventually) nor NP-complete (Mode 2 always blocks the reduction).
+The formal proof requires the delay trick to ensure the diagonalisation doesn't outpace the
+polynomial bounds. $\blacksquare$
+
+Ladner's theorem tells us that the P vs. NP question is maximally fine-grained: either P = NP,
+or there is a genuine hierarchy of intermediate difficulty. The natural candidates — integer
+factorisation, graph isomorphism — are believed to be NP-intermediate.
+
+### 6.10 Randomised Computation: The Class BPP
+
+**Definition.** $\mathrm{BPP}$ (Bounded-error Probabilistic Polynomial time) is the class of
+languages decidable by a probabilistic polynomial-time TM that, on every input, gives the correct
+answer with probability $\geq 2/3$.
+
+The constant $2/3$ is arbitrary — amplification (repeating the computation $k$ times and taking
+the majority) raises the success probability to $1 - 2^{-ck}$ for a constant $c$ by the Chernoff
+bound, at a multiplicative cost of $O(k)$ in running time.
+
+**Theorem 6.13 (Adleman, 1978).** $\mathrm{BPP} \subseteq \mathrm{P/poly}$.
+
+**Proof.** Let $L \in \mathrm{BPP}$. Amplify the machine to error $\leq 2^{-2n}$ by running it
+$O(n)$ times. For each input $x$ of length $n$, the machine uses $m(n)$ random bits. Call a
+random string $r \in \{0,1\}^{m(n)}$ **bad** if it causes a wrong answer on some input $x$ of
+length $n$. By the union bound, the number of bad strings is $\leq 2^n \cdot 2^{-2n} \cdot
+2^{m(n)} = 2^{m(n) - n}$. So if $m(n) \geq n + 2$, the bad strings are at most a $2^{-2}$
+fraction of $\{0,1\}^{m(n)}$ — most strings are good. Fix a good $r^*$: the deterministic
+machine that runs the randomised machine with $r^*$ hardwired is correct on *every* input of
+length $n$. The circuit family hardwires $r^*$ for each length. $\blacksquare$
+
+This means BPP machines can be *derandomised* at the cost of non-uniform advice — and if
+$\mathrm{P} = \mathrm{BPP}$ (widely believed), the randomisation was never doing real work.
+
+### 6.11 Oracle Separations: Why Relativisation Is Not Enough
+
+**Definition.** An **oracle** $A$ is a set of strings queryable in one step by a Turing
+machine. $\mathrm{P}^A$ and $\mathrm{NP}^A$ are the classes definable with oracle access to $A$.
+
+**Theorem 6.14 (Baker--Gill--Solovay, 1975).** There exists an oracle $A$ such that
+$\mathrm{P}^A = \mathrm{NP}^A$, and there exists an oracle $B$ such that
+$\mathrm{P}^B \neq \mathrm{NP}^B$.
+
+**Proof idea.** For $A$: let $A = \mathrm{TQBF}$ (PSPACE-complete). Then $\mathrm{NP}^A \subseteq
+\mathrm{PSPACE} \subseteq \mathrm{P}^A$ (the oracle answers any PSPACE query). For $B$: define
+$B$ by diagonalisation over all polynomial-time oracle machines, ensuring the constructed oracle
+answers queries to separate $\mathrm{P}^B$ from $\mathrm{NP}^B$. $\blacksquare$
+
+The Baker--Gill--Solovay theorem is a caution: the techniques available to complexity theorists
+(relativising arguments) cannot resolve P vs. NP, because those techniques would apply equally
+well in the oracle worlds where the answer goes both ways. This is why the resolution of P vs.
+NP requires *non-relativising* techniques — which the circuit-complexity approach (circuit lower
+bounds) and the algebraic approach (arithmetisation in IP = PSPACE) exemplify.
+
+### Where to go next
+
+- [Computability](/6-theory-of-computation/4_turing-machines/) — the undecidability results that
+  motivate the complexity classes.
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/) — the concrete
+  algorithms whose running times populate the complexity classes.
+
+
 ## Cross-References
 
 - [Turing Machines](/6-theory-of-computation/4_turing-machines/) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.

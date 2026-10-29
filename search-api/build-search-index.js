@@ -113,7 +113,13 @@ async function fetchSiteIndex(site) {
             const mainMatch = text.match(/<main[^>]*>([\s\S]*?)<\/main>/i)
             const articleMatch = text.match(/<article[^>]*>([\s\S]*?)<\/article>/i)
             const bodyMatch = text.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
-            const source = mainMatch ? mainMatch[0] : articleMatch ? articleMatch[0] : bodyMatch ? bodyMatch[0] : ''
+            const source = mainMatch
+              ? mainMatch[0]
+              : articleMatch
+                ? articleMatch[0]
+                : bodyMatch
+                  ? bodyMatch[0]
+                  : ''
             if (source) {
               content = source
                 .replace(/<nav[\s\S]*?<\/nav>/gi, '') // strip nav

@@ -136,12 +136,16 @@ deepest import from mathematics.
 
 ### 5. What the Hypotheses Buy — and What Their Failure Costs
 
+<div class="table-wrap">
+
 | Hypothesis | Where in the proof | What breaks without it |
 | --- | --- | --- |
 | Continuity of preferences | Closed graph | Fixed point may not exist |
 | Convexity of preferences | Convex values | Kakutani inapplicable; equilibria can fail to exist (Scarf's example) |
 | Local nonsatiation | Budget binds; boundary behaviour | Walras' law weakens; existence can hold but welfare theorems fail |
 | $\bar{\omega} \gg 0$ | Demands bounded; interior | Boundary pathologies; prices may hit zero |
+
+</div>
 
 The hypotheses' economic readings: convexity is diversification (consumers who like mixtures);
 local nonsatiation is "more is always at least weakly better nearby"; $\bar{\omega} \gg 0$ is
