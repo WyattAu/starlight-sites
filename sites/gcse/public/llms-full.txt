@@ -14570,6 +14570,32 @@ the receiving atom.
 
 **Example: Magnesium oxide (MgO)**
 
+<circle cx="290" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="290" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+<circle cx="305.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <circle cx="275.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="315.0" y1="80.0" x2="325.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="325.0" y1="80.0" x2="315.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306.2" y1="101.2" x2="316.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="316.2" y1="101.2" x2="306.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="285.0" y1="110.0" x2="295.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="295.0" y1="110.0" x2="285.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="263.8" y1="101.2" x2="273.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="273.8" y1="101.2" x2="263.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="255.0" y1="80.0" x2="265.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="265.0" y1="80.0" x2="255.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306.2" y1="58.8" x2="316.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="316.2" y1="58.8" x2="306.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<path d="M 258,40 L 250,40 L 250,130 L 258,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 322,40 L 330,40 L 330,130 L 322,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="334" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
+<text x="80" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Mg²⁺</text>
+<text x="290" y="155" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
+<text x="185" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
+<text x="185" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">2 e⁻ transfer</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Magnesium oxide (MgO): magnesium transfers two electrons to oxygen. ● = magnesium&#39;s electrons, ✕ = oxygen&#39;s electrons</p>
+
 Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains 2 electrons to form
 O$^{2-}$.
 
@@ -14607,11 +14633,108 @@ $$
 
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
+<svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="260" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="260" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Ca</text>
+<circle cx="260" cy="85" r="16" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="260.0" cy="101.0" r="3" fill="#6b7280"/>
+<circle cx="260.0" cy="69.0" r="3" fill="#6b7280"/>
+<path d="M 228,40 L 220,40 L 220,130 L 228,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 292,40 L 300,40 L 300,130 L 292,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="304" y="55" font-size="16" fill="#dc2626" font-weight="bold">2+</text>
+<circle cx="100" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="100" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">F</text>
+<line x1="125.0" y1="80.0" x2="135.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="135.0" y1="80.0" x2="125.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="116.2" y1="101.2" x2="126.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="126.2" y1="101.2" x2="116.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="95.0" y1="110.0" x2="105.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="105.0" y1="110.0" x2="95.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="73.8" y1="101.2" x2="83.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="83.8" y1="101.2" x2="73.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="65.0" y1="80.0" x2="75.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="75.0" y1="80.0" x2="65.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="73.8" y1="58.8" x2="83.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="83.8" y1="58.8" x2="73.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="116.2" y1="58.8" x2="126.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="126.2" y1="58.8" x2="116.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="100.0" cy="55.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<path d="M 68,40 L 60,40 L 60,130 L 68,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 132,40 L 140,40 L 140,130 L 132,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="144" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+<circle cx="420" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="420" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">F</text>
+<line x1="445.0" y1="80.0" x2="455.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="455.0" y1="80.0" x2="445.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="436.2" y1="101.2" x2="446.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="446.2" y1="101.2" x2="436.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="415.0" y1="110.0" x2="425.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="425.0" y1="110.0" x2="415.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="393.8" y1="101.2" x2="403.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="403.8" y1="101.2" x2="393.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="385.0" y1="80.0" x2="395.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="395.0" y1="80.0" x2="385.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="393.8" y1="58.8" x2="403.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="403.8" y1="58.8" x2="393.8" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="436.2" y1="58.8" x2="446.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="446.2" y1="58.8" x2="436.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="420.0" cy="55.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<path d="M 388,40 L 380,40 L 380,130 L 388,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 452,40 L 460,40 L 460,130 L 452,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="464" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+<text x="100" y="155" text-anchor="middle" font-size="12" fill="#6b7280">F⁻</text>
+<text x="260" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Ca²⁺</text>
+<text x="420" y="155" text-anchor="middle" font-size="12" fill="#6b7280">F⁻</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Calcium fluoride (CaF₂): calcium transfers one electron to each fluorine atom. ● = calcium&#39;s electron, ✕ = fluorine&#39;s electrons</p>
+
 Calcium ($2, 8, 8, 2$) loses 2 electrons to form Ca$^{2+}$. Each fluorine ($2, 7$) gains 1 electron
 to form F$^-$. Two fluorine atoms are needed to accept the 2 electrons from calcium. The Ca$^{2+}$
 Ion achieves the configuration of argon; each F$^-$ achieves the configuration of neon.
 
 **Worked Example.** Draw the dot and cross diagram for lithium oxide (Li$_2$O).
+
+<svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="260" cy="85" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="260" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+<circle cx="275.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <circle cx="245.0" cy="59.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="285.0" y1="80.0" x2="295.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="295.0" y1="80.0" x2="285.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="276.2" y1="101.2" x2="286.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286.2" y1="101.2" x2="276.2" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="255.0" y1="110.0" x2="265.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="265.0" y1="110.0" x2="255.0" y2="120.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="233.8" y1="101.2" x2="243.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="243.8" y1="101.2" x2="233.8" y2="111.2" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="225.0" y1="80.0" x2="235.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="235.0" y1="80.0" x2="225.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="276.2" y1="58.8" x2="286.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286.2" y1="58.8" x2="276.2" y2="68.8" stroke="#dc2626" stroke-width="2.2"/>
+<path d="M 228,40 L 220,40 L 220,130 L 228,130" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 292,40 L 300,40 L 300,130 L 292,130" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="304" y="55" font-size="16" fill="#2563eb" font-weight="bold">2−</text>
+<circle cx="100" cy="85" r="25" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="100" y="85" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">Li</text>
+<circle cx="100" cy="85" r="12" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="100.0" cy="97.0" r="2.5" fill="#6b7280"/>
+<circle cx="100.0" cy="73.0" r="2.5" fill="#6b7280"/>
+<path d="M 78,45 L 70,45 L 70,125 L 78,125" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 122,45 L 130,45 L 130,125 L 122,125" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="134" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+<circle cx="420" cy="85" r="25" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="420" y="85" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">Li</text>
+<circle cx="420" cy="85" r="12" stroke="#d1d5db" fill="none" stroke-width="1.5"/>
+<circle cx="420.0" cy="97.0" r="2.5" fill="#6b7280"/>
+<circle cx="420.0" cy="73.0" r="2.5" fill="#6b7280"/>
+<path d="M 398,45 L 390,45 L 390,125 L 398,125" stroke="#374151" fill="none" stroke-width="2"/>
+<path d="M 442,45 L 450,45 L 450,125 L 442,125" stroke="#374151" fill="none" stroke-width="2"/>
+<text x="454" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+<text x="100" y="150" text-anchor="middle" font-size="12" fill="#6b7280">Li⁺</text>
+<text x="260" y="155" text-anchor="middle" font-size="12" fill="#6b7280">O²⁻</text>
+<text x="420" y="150" text-anchor="middle" font-size="12" fill="#6b7280">Li⁺</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Lithium oxide (Li₂O): each lithium atom transfers one electron to oxygen. ● = lithium&#39;s electrons, ✕ = oxygen&#39;s electrons</p>
 
 Each lithium ($2, 1$) loses 1 electron to form Li$^+$. Oxygen ($2, 6$) gains 2 electrons to form
 O$^{2-}$. Two lithium atoms are needed.
@@ -14725,11 +14848,43 @@ Together.
 
 **Hydrogen (H$_2$):** Each hydrogen atom has 1 electron. They share one pair.
 
+<svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="95" cy="85" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<circle cx="165" cy="85" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="75" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<text x="185" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="122.0" cy="85.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="133.0" y1="80.0" x2="143.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="143.0" y1="80.0" x2="133.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+<text x="130" y="155" text-anchor="middle" font-size="12" fill="#6b7280">Shared pair of electrons</text>
+</svg>
+
 $$
 \mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H
 $$
 
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
+
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="160" cy="105" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="105" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">O</text>
+<circle cx="85" cy="105" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="65" y="105" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="235" cy="105" r="30" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="255" y="105" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="118.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="127.0" y1="100.0" x2="137.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="137.0" y1="100.0" x2="127.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="202.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="183.0" y1="100.0" x2="193.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="193.0" y1="100.0" x2="183.0" y2="110.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="148.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="172.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="148.0" cy="145.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="172.0" cy="145.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<text x="160" y="35" text-anchor="middle" font-size="12" fill="#6b7280">Lone pairs</text>
+<text x="160" y="195" text-anchor="middle" font-size="12" fill="#6b7280">Two shared pairs (bonds)</text>
+</svg>
 
 Oxygen forms two single covalent bonds, one with each hydrogen. The two lone pairs on oxygen are not
 shared.
@@ -14740,7 +14895,33 @@ Electrons and needs 2 more. Each oxygen forms a double bond with carbon.
 Carbon forms two double bonds, one with each oxygen. Each double bond consists of two shared pairs
 of electrons.
 
-**Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms. Carbon achieves a
+**Methane (CH$_4$):** Carbon forms four single bonds with four hydrogen atoms.
+
+<svg viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="160" cy="130" r="45" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="130" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">C</text>
+<circle cx="160" cy="75" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="75" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="155.0" cy="102.5" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="160.0" y1="97.5" x2="170.0" y2="107.5" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="170.0" y1="97.5" x2="160.0" y2="107.5" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="215" cy="130" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="215" y="130" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="182.5" cy="130.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="187.5" y1="125.0" x2="197.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="197.5" y1="125.0" x2="187.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="160" cy="185" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="160" y="185" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="155.0" cy="157.5" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="160.0" y1="152.5" x2="170.0" y2="162.5" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="170.0" y1="152.5" x2="160.0" y2="162.5" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="105" cy="130" r="22" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="105" y="130" text-anchor="middle" font-size="12" fill="#1f2937" font-weight="bold" dominant-baseline="central">H</text>
+<circle cx="127.5" cy="130.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="132.5" y1="125.0" x2="142.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="142.5" y1="125.0" x2="132.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
+<text x="160" y="245" text-anchor="middle" font-size="12" fill="#6b7280">Four shared pairs (single covalent bonds)</text>
+</svg> Carbon achieves a
 Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
 
 **Ammonia (NH$_3$):** Nitrogen has 5 outer electrons and needs 3 more. Each hydrogen has 1 electron.
@@ -14756,6 +14937,27 @@ Contributes 1 electron. Sulfur forms two single covalent bonds, one with each hy
 Two lone pairs. The structure is analogous to water.
 
 **Worked Example.** Draw the dot and cross diagram for nitrogen (N$_2$).
+
+<svg viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<circle cx="100" cy="85" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<circle cx="180" cy="85" r="50" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+<text x="75" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">N</text>
+<text x="205" y="85" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">N</text>
+<circle cx="132.0" cy="73.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="68.0" x2="153.0" y2="78.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="68.0" x2="143.0" y2="78.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="132.0" cy="85.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="80.0" x2="153.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="80.0" x2="143.0" y2="90.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="132.0" cy="97.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<line x1="143.0" y1="92.0" x2="153.0" y2="102.0" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="153.0" y1="92.0" x2="143.0" y2="102.0" stroke="#dc2626" stroke-width="2.2"/>
+<circle cx="62.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="62.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="218.0" cy="65.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<circle cx="218.0" cy="105.0" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+<text x="140" y="165" text-anchor="middle" font-size="12" fill="#6b7280">Triple bond: three shared pairs</text>
+</svg>
 
 Nitrogen is in group 5 with 5 outer electrons. Each nitrogen atom needs 3 more to complete its
 octet. They share three pairs of electrons, forming a triple bond. Each nitrogen retains one lone
