@@ -80,8 +80,21 @@ async function trackSearchMetrics(query, resultCount, latencyMs, env) {
   metrics.latencyCount++
   if (latencyMs > metrics.latencyMax) metrics.latencyMax = latencyMs
 
+  // Per-day counters: /api/health reports the zero-result SLO over the
+  // trailing 7 days when these cover a week. Lifetime counters accumulate
+  // historical pollution (bot template queries, content since indexed) and
+  // cannot show whether the SLO is being met *now*.
+  const day = new Date().toISOString().slice(0, 10)
+  metrics.daily = metrics.daily || {}
+  metrics.daily[day] = metrics.daily[day] || { searches: 0, zeros: 0 }
+  metrics.daily[day].searches++
+  // Prune to the trailing 14 days.
+  const days = Object.keys(metrics.daily).sort()
+  while (days.length > 14) delete metrics.daily[days.shift()]
+
   if (resultCount === 0) {
     metrics.zeroResults++
+    metrics.daily[day].zeros++
     metrics.zeroResultQueries[query] = (metrics.zeroResultQueries[query] || 0) + 1
     // Keep only the top 50 zero-result queries to bound storage.
     const sorted = Object.entries(metrics.zeroResultQueries)

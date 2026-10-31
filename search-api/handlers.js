@@ -46,6 +46,20 @@ async function handleSearch(request, url, env, corsHeaders) {
   }
   const query = qCheck.value
 
+  // Crawler guard (loop 102, site health): JSON-LD SearchAction targets are
+  // crawled with the literal template placeholder — bots hit
+  // ?q={search_term_string} when they discover the structured-data URL.
+  // Those are not user queries (they were 49% of the recorded zero-result
+  // volume). Serve a well-formed empty response, skip the whole index
+  // pipeline, and exclude them from the quality metrics.
+  const isTemplateQuery = /^\{\s*\w+\s*\}$/.test(query)
+  if (isTemplateQuery) {
+    return jsonResponse(
+      { query, total: 0, results: [], suggestions: [], placeholder: true },
+      corsHeaders,
+    )
+  }
+
   const limit = Math.min(parseInt(url.searchParams.get('limit') || '20', 10), 50)
   const site = url.searchParams.get('site') // optional: filter by site
   const subject = url.searchParams.get('subject') // optional: filter by subject
@@ -186,8 +200,10 @@ async function handleSearch(request, url, env, corsHeaders) {
   // an analytics write must never turn a working search into a 500.
   const latencyMs = Date.now() - startTime
   try {
-    await logSearch(query, results.length, abVariant, env)
-    await trackSearchMetrics(query, results.length, latencyMs, env)
+    if (!isTemplateQuery) {
+      await logSearch(query, results.length, abVariant, env)
+      await trackSearchMetrics(query, results.length, latencyMs, env)
+    }
   } catch {
     // Analytics lost, search preserved.
   }
@@ -217,6 +233,30 @@ function handleSites(corsHeaders) {
   return jsonResponse({ sites }, corsHeaders)
 }
 
+// Zero-result rate over the trailing 7 days when per-day counters cover it;
+// lifetime rate otherwise. Lifetime counters accumulate historical pollution
+// (bot template queries recorded before the crawler guard, content since
+// indexed), so the rolling window is the honest SLO signal.
+function zeroRate7d(metrics) {
+  if (!metrics) return '0%'
+  const daily = metrics.daily || {}
+  const days = Object.keys(daily).sort().slice(-7)
+  const covered = days.length >= 7
+  let searches = 0
+  let zeros = 0
+  for (const d of days) {
+    searches += daily[d].searches || 0
+    zeros += daily[d].zeros || 0
+  }
+  if (covered && searches > 0) {
+    return `${((zeros / searches) * 100).toFixed(1)}% (7d)`
+  }
+  if (metrics.totalSearches > 0) {
+    return `${((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1)}% (lifetime)`
+  }
+  return '0%'
+}
+
 async function handleHealth(env, corsHeaders) {
   const metadata = await env.SEARCH_KV?.get('metadata', { type: 'json' })
   const metrics = await env.SEARCH_KV?.get('search-metrics', { type: 'json' })
@@ -236,10 +276,7 @@ async function handleHealth(env, corsHeaders) {
       search: {
         totalSearches: metrics?.totalSearches || 0,
         zeroResults: metrics?.zeroResults || 0,
-        zeroResultRate:
-          metrics && metrics.totalSearches > 0
-            ? `${((metrics.zeroResults / metrics.totalSearches) * 100).toFixed(1)}%`
-            : '0%',
+        zeroResultRate: zeroRate7d(metrics),
         avgLatencyMs,
         maxLatencyMs: metrics?.latencyMax || 0,
         slo: {
