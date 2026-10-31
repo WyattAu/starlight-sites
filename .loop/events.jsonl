@@ -6,3 +6,4 @@
 {"at":1793284092846,"phase":"prove","iteration":0,"event":"gate-pass","gate":"(none)","detail":"no executable gate for this phase/project"}
 {"at":1793284092847,"phase":"implement","iteration":0,"event":"prompt","text":"[proof-loop] iteration 1/4 — phase IMPLEMENT (this iteration: plan → research → prove ✓)\n\nPHASE: implement. Make the pla"}
 {"at":1793306423561,"phase":"implement","iteration":0,"event":"prompt","text":"[proof-loop] iteration 1/4 — phase IMPLEMENT (this iteration: plan → research → prove ✓)\n\nPHASE: implement. Make the pla"}
+{"at":1793308330257,"phase":"implement","iteration":0,"event":"prompt","text":"[proof-loop] LOOP STOPPING — wall-clock limit (180 min)\n\nWrite a wrap-up (also to `.loop/handoff.md`):\n- state of each p"}
