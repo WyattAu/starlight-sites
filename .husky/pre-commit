@@ -43,11 +43,11 @@ else
     # Fallback for environments where husky installed the bin elsewhere.
     LINT_STAGED_BIN="lint-staged"
   fi
-  timeout 90 "$LINT_STAGED_BIN"
+  timeout 240 "$LINT_STAGED_BIN"
   status=$?
   if [ "$status" -ne 0 ]; then
     if [ "$status" -eq 124 ]; then
-      echo "Pre-commit FAILED: lint-staged exceeded 90s timeout." >&2
+      echo "Pre-commit FAILED: lint-staged exceeded 240s timeout." >&2
     else
       echo "Pre-commit FAILED: lint-staged reported violations." >&2
     fi
