@@ -152,4 +152,3 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 **Confusing the 1967 riots with a pro-democracy movement:** The 1967 riots were pro-Communist, inspired by the Cultural Revolution. They were not about democracy but about workers' rights and colonial governance. Don't conflate them with later pro-democracy movements.
 
 **Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.
-

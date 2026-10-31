@@ -10,7 +10,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,7 +25,6 @@ first. It covers null safety, data classes, sealed classes, coroutines, and
 extension functions -- the concepts that make Kotlin different from Java, each
 defined from the ground up with the Java intuition named and upgraded.
 :::
-
 
 ## Overview
 

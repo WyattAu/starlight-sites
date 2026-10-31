@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for 3_initiali
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 3_initialization_and_lifetime. Revision works best in one direction here: read 3_initialization_and_lifetime, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -34,7 +33,6 @@ This section provides study materials and resources for 3_initialization_and_lif
 
 Use the diagnostic tests to find out whether 3_initialization_and_lifetime needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

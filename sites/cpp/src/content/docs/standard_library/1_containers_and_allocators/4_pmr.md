@@ -529,4 +529,3 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 Polymorphic memory resources are like choosing between buying furniture (global allocator), renting (pool allocator), or borrowing from a friend (arena allocator). The key insight is that the allocator is invisible to the code using the container: you can swap the allocator without changing any of the data structure code, the way you can move furniture between rooms without changing how you use the rooms. Arena allocators are especially useful when you allocate many small objects that all die together, like parsing a JSON document where the entire parse tree can be freed at once.
 
 ## Worked Examples
-

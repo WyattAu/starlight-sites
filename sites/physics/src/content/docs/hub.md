@@ -28,7 +28,6 @@ from first principles, defines every term before it is used, and ends with a
 self-test so confident readers can skip by assessment rather than by trust.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

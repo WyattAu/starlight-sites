@@ -112,4 +112,3 @@ The Chinese Revolution was a decades-long upheaval that transformed one of the w
 - [History](./)
 - [The Cold War](/history/cold-war/)
 - [Decolonisation and the Path to 1997](/history/decolonisation/)
-

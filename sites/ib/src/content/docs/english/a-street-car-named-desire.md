@@ -516,4 +516,3 @@ Blanche can wash but she cannot wash away the past.
    necessarily tight.
 
 ## Worked Examples
-

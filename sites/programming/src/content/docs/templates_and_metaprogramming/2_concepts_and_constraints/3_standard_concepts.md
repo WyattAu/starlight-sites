@@ -623,4 +623,3 @@ practical implementation, and key applications.
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Worked Examples
-

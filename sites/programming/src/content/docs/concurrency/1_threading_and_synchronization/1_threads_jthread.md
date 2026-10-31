@@ -601,4 +601,3 @@ The ability to construct well-supported, analytical arguments using a range of e
 success in history.
 
 ## Worked Examples
-

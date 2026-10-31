@@ -164,4 +164,3 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 - [Us Citizenship](./)
 - [US Citizenship English Test](/us-citizenship/english-test/)
 - [Civics and Citizenship Tests](..)
-

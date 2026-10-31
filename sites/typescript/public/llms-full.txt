@@ -6262,9 +6262,7 @@ Define interfaces for your API responses: `interface ApiResponse<T> { data: T; s
 URL: https://typescript.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 

@@ -202,4 +202,3 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-

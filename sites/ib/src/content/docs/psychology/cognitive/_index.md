@@ -139,4 +139,3 @@ Our minds are prediction machines, constantly building models of the world to gu
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
-

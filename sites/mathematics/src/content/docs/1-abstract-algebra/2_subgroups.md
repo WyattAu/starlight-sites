@@ -178,4 +178,3 @@ A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quoti
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

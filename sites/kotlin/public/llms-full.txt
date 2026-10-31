@@ -618,7 +618,6 @@ extension functions -- the concepts that make Kotlin different from Java, each
 defined from the ground up with the Java intuition named and upgraded.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -865,9 +864,7 @@ Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projec
 URL: https://kotlin.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -947,7 +944,6 @@ URL: https://kotlin.wyattau.com/intro/
 
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -963,7 +959,6 @@ first. It covers null safety, data classes, sealed classes, coroutines, and
 extension functions -- the concepts that make Kotlin different from Java, each
 defined from the ground up with the Java intuition named and upgraded.
 :::
-
 
 ## Overview
 
@@ -6611,8 +6606,7 @@ implementation, and key applications.
 URL: https://kotlin.wyattau.com/intermediate/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for intermediate. The Intermediate section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -6639,7 +6633,6 @@ This section provides study materials and resources for intermediate. The Interm
 
 The Intermediate section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

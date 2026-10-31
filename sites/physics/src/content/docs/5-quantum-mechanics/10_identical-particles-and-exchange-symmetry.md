@@ -323,4 +323,3 @@ Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-

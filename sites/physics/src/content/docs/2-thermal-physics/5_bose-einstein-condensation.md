@@ -203,4 +203,3 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-

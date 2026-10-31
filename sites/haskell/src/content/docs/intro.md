@@ -22,7 +22,6 @@ recursion as the loop, and higher-order functions from the ground up, and ends
 with a self-test so confident readers can skip by assessment.
 :::
 
-
 ## Haskell
 
 Welcome to the Haskell notes. Haskell is a purely functional, lazily evaluated language with a strong static type system. Everything is an expression, side effects are managed through monads, and types are inferred unless you annotate them.

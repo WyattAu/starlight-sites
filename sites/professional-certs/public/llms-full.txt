@@ -578,7 +578,7 @@ Pass marks vary by certification. AWS Associate exams require approximately 72% 
 URL: https://professional-certs.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Professional Certifications
 

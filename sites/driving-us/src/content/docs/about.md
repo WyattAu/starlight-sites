@@ -111,4 +111,3 @@ Consult the recommended textbooks and additional resources.
 - Connect with other driving topics for a complete understanding
 
 ## Summary
-

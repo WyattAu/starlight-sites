@@ -636,4 +636,3 @@ Occurred after the original migration. Always test the rollback path.
 - [Indexing and Optimization](/03-indexing-optimization/indexing/) - Concurrent index creation and its impact on migration safety
 
 ## Worked Examples
-

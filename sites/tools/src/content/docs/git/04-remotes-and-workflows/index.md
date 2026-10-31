@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for remotes an
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for remotes and workflows. Work through Remotes And Workflows alongside the practice problems for Git, then let the diagnostic tests tell you whether it stuck.
 
@@ -34,7 +33,6 @@ This section provides study materials and resources for remotes and workflows. W
 
 If Remotes And Workflows feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

@@ -98,4 +98,3 @@ git stash pop
 
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) - Basic Git commands
 - [Git Branching](/git/03-branching-and-merging/01-branching/) - Branch management
-

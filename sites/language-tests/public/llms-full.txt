@@ -210,7 +210,6 @@ URL: https://language-tests.wyattau.com/glossary/
 - See [Admissions Glossary](/glossary/) for university language requirements
 - See [SAT Glossary](/glossary/) for US college admissions testing
 
-
 ## Framework Terms
 
 **Can-Do Statement**: A descriptor of what a learner can perform at a given CEFR level ("can describe experiences and events" for B1); exam tasks map directly onto them.
@@ -637,7 +636,7 @@ IELTS and TOEFL can be taken as many times as you wish (IELTS has no minimum gap
 URL: https://language-tests.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Language Proficiency Tests
 
@@ -1466,8 +1465,7 @@ Prepare and deliver a 20-minute presentation on an academic topic.
 URL: https://language-tests.wyattau.com/cefr-levels/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language proficiency assessment across CEFR levels. These materials support preparation for standardised language examinations.
 
@@ -1494,7 +1492,6 @@ This section covers language proficiency assessment across CEFR levels. These ma
 
 Work through the Language Tests sections in order, starting with Cefr Levels and Practice and building toward Cefr Levels and Practice, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

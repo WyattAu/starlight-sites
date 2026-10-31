@@ -10,8 +10,8 @@ categories:
   - Computer Science
 ---
 sources:
-  - text: "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to Algorithms (4th ed.). MIT Press."
-  - text: "Sedgewick, R., & Wayne, K. (2011). Algorithms (4th ed.). Addison-Wesley."
+- text: "Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to Algorithms (4th ed.). MIT Press."
+- text: "Sedgewick, R., & Wayne, K. (2011). Algorithms (4th ed.). Addison-Wesley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

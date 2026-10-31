@@ -195,4 +195,3 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

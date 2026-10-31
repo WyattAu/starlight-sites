@@ -271,4 +271,3 @@ Population policies are instruments played on a timescale longer than political 
 ## Summary
 
 ## Worked Examples
-

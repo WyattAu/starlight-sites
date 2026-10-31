@@ -793,4 +793,3 @@ A strong understanding of these principles, combined with regular practice of qu
 and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
-

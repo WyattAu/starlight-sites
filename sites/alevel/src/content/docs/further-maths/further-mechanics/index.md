@@ -8,7 +8,7 @@ title: "Further Mechanics"
 description: 'A-Level Further Maths Further Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

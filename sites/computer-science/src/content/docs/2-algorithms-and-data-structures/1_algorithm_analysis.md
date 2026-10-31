@@ -78,4 +78,3 @@ O(n!). Amortised analysis captures average-case behaviour over a sequence of
 operations. Space-time trade-offs allow choosing between memory and speed.
 Understanding these concepts is essential for selecting the right algorithm
 and data structure for a given problem.
-

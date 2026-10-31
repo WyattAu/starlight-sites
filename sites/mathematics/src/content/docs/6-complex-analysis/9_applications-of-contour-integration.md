@@ -194,4 +194,3 @@ Contour integration exploits the fact that analytic functions have path-independ
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

@@ -158,4 +158,3 @@ tags: [glossary]
 - Failing to connect concepts across topics
 
 ### Further Reading
-

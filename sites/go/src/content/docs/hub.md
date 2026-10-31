@@ -30,7 +30,6 @@ CSP model that makes race conditions impossible by construction, covers
 interfaces without inheritance, and names the features Go removed by design.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

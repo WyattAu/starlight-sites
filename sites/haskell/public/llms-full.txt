@@ -6339,7 +6339,6 @@ recursion as the loop, and higher-order functions from the ground up, and ends
 with a self-test so confident readers can skip by assessment.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -6586,9 +6585,7 @@ If you want to learn pure functional programming concepts, Haskell is the best c
 URL: https://haskell.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -6686,7 +6683,6 @@ rebuilds expressions-versus-statements, types as contracts, immutability,
 recursion as the loop, and higher-order functions from the ground up, and ends
 with a self-test so confident readers can skip by assessment.
 :::
-
 
 ## Haskell
 

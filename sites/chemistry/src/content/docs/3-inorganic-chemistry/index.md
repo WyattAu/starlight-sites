@@ -8,7 +8,7 @@ title: "Inorganic Chemistry"
 description: "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that"
 ---
 sources:
-  - text: Atkins, de Paula - Physical Chemistry
+- text: Atkins, de Paula - Physical Chemistry
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

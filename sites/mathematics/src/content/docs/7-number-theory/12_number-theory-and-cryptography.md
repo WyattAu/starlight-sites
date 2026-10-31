@@ -113,7 +113,6 @@ using $c_1^a = g^{ka} = A^k$. Security rests on the Diffie–Hellman problem.
 - [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
 - [Linear Congruences and the Chinese Remainder Theorem](/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/)
 
-
 $$
 m^{ed} \equiv m \pmod n \quad \text{whenever } ed \equiv 1 \pmod{\varphi(n)}
 $$

@@ -23,7 +23,6 @@ written to be skimmed by confident readers: take the self-test at the end, and
 only study the sections whose answers surprise you.
 :::
 
-
 ## Mathematics
 
 Welcome to the mathematics notes. These notes cover proof-based undergraduate mathematics, from foundational algebraic structures to advanced analysis and geometry.
@@ -124,4 +123,3 @@ The proof techniques themselves are not arbitrary logical exercises. Direct proo
 - Failing to connect concepts across topics
 
 ### Further Reading
-

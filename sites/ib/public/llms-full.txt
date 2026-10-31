@@ -307,7 +307,6 @@ URL: https://ib.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -18622,8 +18621,7 @@ and evaluate experimental evidence critically.
 URL: https://ib.wyattau.com/biology/2-molecular-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Molecular Biology feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -18660,7 +18658,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18686,8 +18683,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/3-genetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Genetics alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -18725,7 +18721,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18747,8 +18742,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/4-ecology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -18785,7 +18779,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18811,8 +18804,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/5-evolution-and-biodiversity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -18849,7 +18841,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18871,8 +18862,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/6-human-physiology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Human Physiology alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -18909,7 +18899,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18935,8 +18924,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/7-plant-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -18973,7 +18961,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -18999,8 +18986,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/8-nervous-system-and-immunology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Use the diagnostic tests to find out whether Nervous System And Immunology needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -19038,7 +19024,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -19060,8 +19045,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -19090,7 +19074,6 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -19112,7 +19095,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -41739,8 +41722,7 @@ Think of stoichiometry as a recipe. The balanced equation is the recipe card tha
 URL: https://ib.wyattau.com/chemistry/1-stoichiometry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -41778,7 +41760,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41800,8 +41781,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/10-organic-chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Organic Chemistry alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -41839,7 +41819,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41861,7 +41840,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Measurement And Data Processing alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -41916,8 +41895,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/chemistry/2-atomic-structure/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Atomic Structure feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -41955,7 +41933,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41977,7 +41954,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/3-periodicity/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Periodicity feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42032,8 +42009,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/chemistry/4-chemical-bonding/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Chemical Bonding feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42071,7 +42047,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -42093,7 +42068,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/5-energetics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Energetics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42148,7 +42123,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/chemistry/6-kinetics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Kinetics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42203,7 +42178,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/chemistry/7-equilibrium/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Equilibrium alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -42258,8 +42233,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/chemistry/8-acids-and-bases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Acids And Bases feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42297,7 +42271,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -42319,8 +42292,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/9-redox/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -42345,7 +42317,6 @@ This section covers fundamental chemical principles, from atomic structure and b
 Use the diagnostic tests to find out whether index needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -42367,8 +42338,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -42399,7 +42369,6 @@ This section covers fundamental chemical principles, from atomic structure and b
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -42421,7 +42390,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -65046,8 +65015,7 @@ Think of a computer as a layered onion. The outermost layer is the software you 
 URL: https://ib.wyattau.com/computer-science/1-system-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -65085,7 +65053,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -65107,7 +65074,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/computer-science/2-computer-organization/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Computer Organization feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -65162,7 +65129,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/3-networks/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -65217,8 +65184,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/4-computational-thinking/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -65256,7 +65222,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -65278,7 +65243,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/computer-science/5-abstract-data-structures/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Abstract Data Structures, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -65333,7 +65298,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/6-resource-management/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -65388,7 +65353,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/7-control/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Control needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -65443,7 +65408,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/8-object-oriented-programming/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Object Oriented Programming, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -65498,7 +65463,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ib.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -80249,8 +80214,7 @@ Nash equilibrium is the "no regrets" outcome: given what everyone else is doing,
 URL: https://ib.wyattau.com/economics/1-microeconomics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80276,7 +80240,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80298,8 +80261,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/2-macroeconomics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80325,7 +80287,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80347,8 +80308,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/3-international-economics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80373,7 +80333,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80395,8 +80354,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/4-development-economics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80421,7 +80379,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80443,8 +80400,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/5-quantitative-economics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80482,7 +80438,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80504,8 +80459,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/6-game-theory/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80542,7 +80496,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80568,8 +80521,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -80606,7 +80558,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -80628,7 +80579,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/economics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -80664,7 +80615,6 @@ sources:
 </script>
 
 ## Intuition
-
 
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
@@ -97625,8 +97575,7 @@ When analysing texts for ib english assessment and analytical techniques, follow
 URL: https://ib.wyattau.com/english/comparitives/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -97663,7 +97612,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -97685,8 +97633,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/english/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -97723,7 +97670,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -97745,7 +97691,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -106822,7 +106768,7 @@ paper 1.
 URL: https://ib.wyattau.com/geography/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for geography. The Geography section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -114687,7 +114633,7 @@ Well-suited topics for IB History independent research include:
 URL: https://ib.wyattau.com/history/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for history. If History feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -120033,7 +119979,6 @@ This introduction provides comprehensive coverage of I18n content for the Ib qua
 
 - [Zh](./)
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -120714,8 +120659,7 @@ A question bank serves as a diagnostic tool. Each question tests a specific skil
 URL: https://ib.wyattau.com/mathematics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -120752,7 +120696,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -129476,8 +129419,7 @@ linked above.
 URL: https://ib.wyattau.com/maths/5-calculus/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for calculus. Use the diagnostic tests to find out whether Calculus needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -129505,7 +129447,6 @@ This section provides study materials and resources for calculus. Use the diagno
 Work through Calculus alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129527,7 +129468,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/maths/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. Work through Diagnostics alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 
@@ -129553,7 +129494,6 @@ This section provides study materials and resources for diagnostics. Work throug
 - [Diag Vectors](/maths/diagnostics/diag-vectors/)
 - [Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129575,7 +129515,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -146327,12 +146267,12 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Reciprocal Function Graphs | HL Only | Sketching `y = 1/f(x)` from the graph of `y = f(x)`; new asymptotes at zeros of `f(x)`. | N/A |
 |                                   | Absolute Value Graphs                        | HL Only | Sketching `y =                                                                                                                  | f(x)                                                                                                                                                                  |`(reflect negative parts above x-axis) and`y = f(  | x                                                                               | )` (reflect right side to left). | N/A                            |                     |     |
 |                                   | Modulus Equations                            | HL Only | Solving equations of the form `| f(x)                                                                                                                                                                  | = g(x)`By considering cases for the sign of`f(x)`. | Split into `f(x) = g(x)` where `f(x) \ge 0` and `-f(x) = g(x)` where `f(x) < 0` |                                  |                                |                     |     |
-|                                   | Modulus Inequalities                         | HL Only | Solving inequalities involving absolute value.                                                                                  | `| x                                                  | < a`Iff`-a < x < a`; `| x                                | > a`Iff`x < -a`Or`x > a`       |                     |     |
+|                                   | Modulus Inequalities                         | HL Only | Solving inequalities involving absolute value.                                                                                  | `| x                                                  | < a`Iff`-a < x < a`;`| x                                | > a`Iff`x < -a`Or`x > a`       |                     |     |
 | **3. Geometry and Trigonometry** | Distance in 3D Space | SL & HL | Calculating the distance between two points in three-dimensional space. | `d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}` |
 |  | Midpoint in 3D Space | SL & HL | Finding the midpoint of a line segment in 3D. | `M = ((x_1+x_2)/2, (y_1+y_2)/2, (z_1+z_2)/2)` |
 |  | Volume and Surface Area | SL & HL | Volume and surface area of cuboid, cylinder, cone, sphere, hemisphere, and composite solids. | `V_{\mathrm{cyl}} = \pi r^2 h`; `V_{\mathrm{cone}} = (1/3)\pi r^2 h`; `V_{\mathrm{sphere}} = (4/3)\pi r^3`; `SA_{\mathrm{sphere}} = 4\pi r^2` |
 |  | Right-Angled Trigonometry | SL & HL | SOH-CAH-TOA; finding unknown sides and angles in right-angled triangles. | `\sin\theta = \mathrm{opp}/\mathrm{hyp}`; `\cos\theta = \mathrm{adj}/\mathrm{hyp}`; `\tan\theta = \mathrm{opp}/\mathrm{adj}` |
-|                                   | Trigonometric Functions and Graphs           | SL & HL | Graphs of sin, cos, tan; period, amplitude, phase shift, and vertical shift.                                                    | `y = a\sin(b(x - c)) + d`; period = `2\pi/                                                                                                                            | b                                                  |`; amplitude = ` | a                                | `; phase shift = `c`           |                     |     |
+|                                   | Trigonometric Functions and Graphs           | SL & HL | Graphs of sin, cos, tan; period, amplitude, phase shift, and vertical shift.                                                    | `y = a\sin(b(x - c)) + d`; period = `2\pi/                                                                                                                            | b                                                  |`; amplitude =` | a                                | `; phase shift =`c`           |                     |     |
 |  | Sine Rule | SL & HL | Finding unknown sides and angles in any triangle. | `a/\sin A = b/\sin B = c/\sin C`; ambiguous case for SSA |
 |  | Cosine Rule | SL & HL | Finding unknown sides and angles; generalised Pythagorean theorem for any triangle. | `a^2 = b^2 + c^2 - 2bc\cos A`; `A = \cos^{-1}((b^2 + c^2 - a^2)/(2bc))` |
 |  | Area of a Triangle | SL & HL | Formula using two sides and the included angle. | `A = (1/2)ab\sin C` |
@@ -146340,7 +146280,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Double Angle Identities | SL & HL | Expressions for `\sin 2\theta``\cos 2\theta`And `\tan 2\theta` in terms of `\sin\theta` and `\cos\theta`. | `\sin 2\theta = 2\sin\theta\cos\theta`; `\cos 2\theta = \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1 = 1 - 2\sin^2\theta` |
 |  | Vectors as Column Vectors | SL & HL | Representing vectors in component form; adding, subtracting, and scalar multiplication. | `\mathbf{v} = \begin`\{pmatrix}`a \\ b \end`\{pmatrix}``; `\mathbf{v} + \mathbf{w} = \begin`\{pmatrix}` a+c \\ b+d \end`\{pmatrix}`` |
 |                                   | Magnitude of a Vector                        | SL & HL | Calculating the length (magnitude) of a vector in 2D and 3D.                                                                    | `| \mathbf{v}                                   | = \sqrt{a^2 + b^2}`(2D);`| \mathbf{v}                 | = \sqrt{a^2 + b^2 + c^2}` (3D) |                     |     |
-|                                   | Unit Vectors                                 | SL & HL | Vectors with magnitude 1; expressing a vector as a scalar multiple of a unit vector.                                            | `\hat{\mathbf{v}} = \mathbf{v}/                                                                                                                           | \mathbf{v}                                   |`; `| \hat{\mathbf{v}}           | = 1`                           |                     |     |
+|                                   | Unit Vectors                                 | SL & HL | Vectors with magnitude 1; expressing a vector as a scalar multiple of a unit vector.                                            | `\hat{\mathbf{v}} = \mathbf{v}/                                                                                                                           | \mathbf{v}                                   |`;`| \hat{\mathbf{v}}           | = 1`                           |                     |     |
 |                                   | Scalar (Dot) Product                         | SL & HL | Definition in terms of components and in terms of magnitudes and angle; geometric interpretation as projection.                 | `\mathbf{v} \cdot \mathbf{w} = a_1 b_1 + a_2 b_2` (+ `a_3 b_3`); `\mathbf{v} \cdot \mathbf{w} =                                               | \mathbf{v}                                   |                                                                                 | \mathbf{w}                 | \cos\theta`                    |                     |     |
 |                                   | Angle Between Two Vectors                    | SL & HL | Using the scalar product to determine the angle between two vectors.                                                            | `\cos\theta = (\mathbf{v} \cdot \mathbf{w}) / (                                                                                                           | \mathbf{v}                                   |                                                                                 | \mathbf{w}                 | )`                             |                     |     |
 |  | Perpendicularity of Vectors | SL & HL | Two vectors are perpendicular if and only if their scalar product is zero. | `\mathbf{v} \perp \mathbf{w}` iff `\mathbf{v} \cdot \mathbf{w} = 0` |
@@ -146358,8 +146298,8 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Reciprocal Trigonometric Functions | HL Only | Definitions and identities for sec, cosec, and cot. | `\sec\theta = 1/\cos\theta`; `\cosec\theta = 1/\sin\theta`; `\cot\theta = \cos\theta/\sin\theta` |
 |  | Matrix Addition and Scalar Multiplication | HL Only | Adding and subtracting matrices of the same order; multiplying a matrix by a scalar. | `(A + B)_`\{ij}`= A_`\{ij}`+ B_`\{ij}``; `(kA)_`\{ij}` = k \cdot A_`\{ij}`` |
 |  | Matrix Multiplication | HL Only | Multiplying matrices; conditions for multiplication; identity matrix. | `(AB)_`\{ij}`= \sum_k A_`\{ik}`B_`\{kj}``; `AI = IA = A`; matrix multiplication is not commutative |
-|  | Determinants (2x2 and 3x3) | HL Only | Calculating determinants; geometric interpretation as area/volume scale factor. | `\det\begin`\{pmatrix}` a & b \\ c & d \end`\{pmatrix}` = ad - bc`; 3x3 by cofactor expansion |
-|  | Inverse of a 2x2 Matrix | HL Only | Formula for the inverse of a 2x2 matrix; verifying by multiplication. | `\begin`\{pmatrix}` a & b \\ c & d \end`\{pmatrix}`^{-1} = \frac{1}{ad-bc}\begin`\{pmatrix}` d & -b \\ -c & a \end`\{pmatrix}`` |
+|  | Determinants (2x2 and 3x3) | HL Only | Calculating determinants; geometric interpretation as area/volume scale factor. | `\det\begin`\{pmatrix}`a & b \\ c & d \end`\{pmatrix}`= ad - bc`; 3x3 by cofactor expansion |
+|  | Inverse of a 2x2 Matrix | HL Only | Formula for the inverse of a 2x2 matrix; verifying by multiplication. | `\begin`\{pmatrix}`a & b \\ c & d \end`\{pmatrix}`^{-1} = \frac{1}{ad-bc}\begin`\{pmatrix}`d & -b \\ -c & a \end`\{pmatrix}`` |
 |  | Inverse of a 3x3 Matrix | HL Only | Finding the inverse using the adjugate (adjoint) matrix method. | `A^{-1} = (1/\det A) \cdot \mathrm{adj}(A)`; `A^{-1}` exists iff `\det A \ne 0` |
 |  | Solving Systems with Inverse Matrices | HL Only | Solving `A\mathbf{x} = \mathbf{b}` by pre-multiplying by `A^{-1}`. | `\mathbf{x} = A^{-1}\mathbf{b}`; requires `\det A \ne 0` (unique solution) |
 |  | Augmented Matrices and Row Reduction | HL Only | Solving systems by Gaussian elimination; row operations on augmented matrices. | Row operations: swap rows, multiply row by scalar, add multiple of one row to another |
@@ -146375,7 +146315,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Box-and-Whisker Plots | SL & HL | Five-number summary (min, Q1, median, Q3, max); identifying outliers and comparing distributions. | Outlier: value `< Q_1 - 1.5 \times IQR` or `> Q_3 + 1.5 \times IQR` |
 |  | Cumulative Frequency Graphs | SL & HL | Constructing ogives; estimating median, quartiles, and percentiles from the graph. | N/A |
 |  | Set Theory and Notation | SL & HL | Universal set, subsets, union, intersection, complement; two-set and three-set Venn diagrams. | `P(A \cup B) = P(A) + P(B) - P(A \cap B)`; `P(A') = 1 - P(A)` |
-|                                   | Conditional Probability                      | SL & HL | The probability of an event given that another event has occurred; restricted sample space.                                     | `P(A                                                                                                                                                                  | B) = P(A \cap B) / P(B)`; `P(A \cap B) = P(A       | B)P(B)`                                                                         |                                  |                                |                     |     |
+|                                   | Conditional Probability                      | SL & HL | The probability of an event given that another event has occurred; restricted sample space.                                     | `P(A                                                                                                                                                                  | B) = P(A \cap B) / P(B)`;`P(A \cap B) = P(A       | B)P(B)`                                                                         |                                  |                                |                     |     |
 |                                   | Independence of Events                       | SL & HL | Two events are independent if the occurrence of one does not affect the probability of the other.                               | `A \perp B` iff `P(A \cap B) = P(A)P(B)` iff `P(A                                                                                                                     | B) = P(A)`                                         |                                                                                 |                                  |                                |                     |     |
 |  | Tree Diagrams and Sample Spaces | SL & HL | Using tree diagrams for sequential events; exhaustive sample spaces for equally likely outcomes. | N/A |
 |  | Discrete Random Variables | SL & HL | Random variables that take countable values; probability mass functions (PMF). | Conditions: `0 \le p(x) \le 1` for all `x`; `\sum p(x) = 1` |
@@ -146386,7 +146326,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Standard Normal Distribution | SL & HL | The standard normal `Z`; using tables or technology to find probabilities. | `P(Z < z)` from tables; `P(a < Z < b) = P(Z < b) - P(Z < a)` |
 |  | Linear Regression: Equation of Line | SL & HL | Equation of the least squares regression line of `y` on `x`; interpreting slope and y-intercept. | `y - \bar{y} = r(s_y/s_x)(x - \bar{x})`; `y = a + bx` where `b = r(s_y/s_x)` |
 |  | Pearson's Correlation Coefficient | SL & HL | Measuring the strength and direction of linear association; interpreting `r` and `r^2`. | `r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i-\bar{x})^2 \sum(y_i-\bar{y})^2}}`; `-1 \le r \le 1` |
-|                                   | Bayes' Theorem                               | HL Only | Reversing conditional probabilities; partitioning the sample space using the law of total probability.                          | `P(A                                                                                                                                                                  | B) = P(B                                           | A)P(A) / P(B)`; `P(B) = \sum_i P(B                                              | A_i)P(A_i)`                      |                                |                     |     |
+|                                   | Bayes' Theorem                               | HL Only | Reversing conditional probabilities; partitioning the sample space using the law of total probability.                          | `P(A                                                                                                                                                                  | B) = P(B                                           | A)P(A) / P(B)`;`P(B) = \sum_i P(B                                              | A_i)P(A_i)`                      |                                |                     |     |
 |  | Poisson Distribution | HL Only | Modelling the number of rare events in a fixed interval; Poisson as a limit of the binomial. | `X \sim Po(\lambda)`; `P(X = x) = e^{-\lambda}\lambda^x / x!`; `E(X) = Var(X) = \lambda` |
 |  | Probability Density Functions | HL Only | Continuous analogue of a PMF; `f(x) \ge 0` and total area under the curve equals 1. | `P(a \le X \le b) = \int_a^b f(x)\,dx`; `\int_{-\infty}^{\infty} f(x)\,dx = 1` |
 |  | Cumulative Distribution Functions | HL Only | `F(x) = P(X \le x)`; the CDF is the integral of the PDF; `F'(x) = f(x)`. | `F(x) = \int_{-\infty}^x f(t)\,dt`; `P(a < X < b) = F(b) - F(a)` |
@@ -146415,13 +146355,13 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Equation of a Normal | SL & HL | The normal is perpendicular to the tangent; gradient is the negative reciprocal. | `y - y_0 = -(1/f'(x_0))(x - x_0)`; condition: `f'(x_0) \ne 0` |
 |  | Points of Inflection | SL & HL | Points where the concavity changes; second derivative changes sign. | `f''(x_0) = 0` and `f''(x)` changes sign at `x_0` |
 |  | Optimisation | SL & HL | Formulating and solving real-world problems involving maxima and minima. | Find `f'(x) = 0`Classify critical points, check endpoints if domain is restricted |
-|                                   | Indefinite Integration                       | SL & HL | Antidifferentiation; the constant of integration `C`.                                                                           | `\int x^n\,dx = x^{n+1}/(n+1) + C` for `n \ne -1`; `\int 1/x\,dx = \ln                                                                                                | x                                                  | + C`; `\int e^x\,dx = e^x + C`                                                  |                                  |                                |                     |     |
+|                                   | Indefinite Integration                       | SL & HL | Antidifferentiation; the constant of integration `C`.                                                                           | `\int x^n\,dx = x^{n+1}/(n+1) + C` for `n \ne -1`; `\int 1/x\,dx = \ln                                                                                                | x                                                  | + C`;`\int e^x\,dx = e^x + C`                                                  |                                  |                                |                     |     |
 |  | Definite Integration | SL & HL | Evaluating the definite integral using the Fundamental Theorem of Calculus. | `\int_a^b f(x)\,dx = [F(x)]_a^b = F(b) - F(a)` |
 |  | Area Under a Curve | SL & HL | Using definite integration to find the area between a curve and the x-axis. | `A = \int_a^b f(x)\,dx` when `f(x) \ge 0`; split at roots where `f(x)` changes sign |
 |  | Area Between Two Curves | SL & HL | Finding the enclosed area between two functions over a given interval. | `A = \int_a^b [f(x) - g(x)]\,dx` where `f(x) \ge g(x)` on `[a, b]` |
 |  | Trapezoidal Rule | SL & HL | Numerical approximation of a definite integral; accuracy increases with more trapezia. | `\int_a^b f(x)\,dx \approx (h/2)[y_0 + 2y_1 + 2y_2 + \cdots + 2y_{n-1} + y_n]` where `h = (b-a)/n` |
 |  | Kinematics: Displacement and Velocity | SL & HL | Displacement, velocity, and acceleration as functions of time. | `v = ds/dt`; `a = dv/dt = d^2s/dt^2`; `s = \int v\,dt`; `v = \int a\,dt` |
-|                                   | Kinematics: Total Distance Travelled         | SL & HL | Finding total distance travelled from a velocity-time graph.                                                                    | Total distance = `\int_a^b                                                                                                                                            | v(t)                                               | \,dt`; split where `v(t)` changes sign                                          |                                  |                                |                     |     |
+|                                   | Kinematics: Total Distance Travelled         | SL & HL | Finding total distance travelled from a velocity-time graph.                                                                    | Total distance = `\int_a^b                                                                                                                                            | v(t)                                               | \,dt`; split where`v(t)` changes sign                                          |                                  |                                |                     |     |
 |  | Implicit Differentiation | HL Only | Differentiating equations where `y` is defined implicitly as a function of `x`. | `d/dx[y^n] = ny^{n-1}\,dy/dx`; `d/dx[xy] = y + x\,dy/dx` |
 |  | Related Rates of Change | HL Only | Connecting the rates of change of related quantities using the chain rule. | `dy/dt = (dy/dx)(dx/dt)`; differentiate both sides of a relation with respect to `t` |
 |  | Integration by Substitution | HL Only | Using a substitution to simplify integrals; changing limits for definite integrals. | `\int f(g(x))g'(x)\,dx = \int f(u)\,du` where `u = g(x)``du = g'(x)\,dx` |
@@ -147043,7 +146983,7 @@ Exam Tip When sketching trig graphs, always label axis intercepts, maximum/minim
 And show at least one full period .
 </Aside>
 
-\{/* prettier-ignore */\}
+\{/*prettier-ignore*/\}
 <DesmosGraph client:only="solid-js" title="Trigonometric Functions: y = A sin(Bx + C) + D" expressions={["A\sin(Bx+C)+D", "A\cos(Bx+C)+D", "A\tan(Bx+C)+D"]} width={800} height={500}  />
 
 Use the sliders to see how changing $a$, $b$, $c$ And $d$ in $y = a\sin(bx + c) + d$ affects the
@@ -162473,8 +162413,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 URL: https://ib.wyattau.com/physics/1-space-time-and-motion/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -162501,7 +162440,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Revision works best in one direction here: read Space Time And Motion, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162523,8 +162461,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/2-particulate-nature-of-matter/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -162550,7 +162487,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Use the diagnostic tests to find out whether Particulate Nature Of Matter needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162572,8 +162508,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/3-wave-behaviour/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -162599,7 +162534,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Use the diagnostic tests to find out whether Wave Behaviour needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162621,8 +162555,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/4-fields/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -162648,7 +162581,6 @@ This section covers key physical principles, from classical mechanics to modern 
 If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162670,8 +162602,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -162709,7 +162640,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162731,7 +162661,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -162755,7 +162685,6 @@ This section covers key physical principles, from classical mechanics to modern 
 - [Diag Wave Properties](/physics/diagnostics/diag-wave-properties/)
 - [Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -162777,7 +162706,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -180516,8 +180445,7 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 URL: https://ib.wyattau.com/psychology/biological/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for biological. If Biological feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -180543,7 +180471,6 @@ This section provides study materials and resources for biological. If Biologica
 The Psychology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -180565,7 +180492,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ib.wyattau.com/psychology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Psychology
 
@@ -180841,8 +180768,7 @@ Keep practising and reviewing to master this topic.
 URL: https://ib.wyattau.com/psychology/sociocultural/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for sociocultural. Revision works best in one direction here: read Sociocultural, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -180867,7 +180793,6 @@ This section provides study materials and resources for sociocultural. Revision 
 
 Use the diagnostic tests to find out whether Sociocultural needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -184579,9 +184504,7 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 URL: https://ib.wyattau.com/zh/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## IB 学习笔记
 
@@ -184652,76 +184575,76 @@ IB 课程还强调国际视野和文化理解。通过学习不同学科，学�
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 *此页面为中文版本。部分内容可能尚未完全翻译。我们持续添加新的中文内容，以满足中文使用者的学习需求。*
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Common Mistakes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Assuming language affects concept difficulty:** Technical concepts are universal. The language of instruction doesn't change the underlying science or mathematics. A triangle is a triangle whether you call it "triangle" or "三角形". The formulas, laws, and principles are the same regardless of the language used to describe them.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Not using both English and Chinese resources:** Some concepts are better explained in one language. Use both to deepen understanding. English resources may have more detailed explanations for some topics, while Chinese resources may provide clearer examples for others. Bilingual study is a strength, not a weakness.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Forgetting that IB exams are in English:** Even if you study in Chinese, practice answering in English to prepare for the actual exam format. This includes learning the technical vocabulary in English for each subject. Start building your English academic vocabulary early.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Neglecting cross-subject connections:** IB rewards students who can connect concepts across subjects. For example, understanding statistical methods (Maths) helps in Psychology research methods; understanding chemical bonding (Chemistry) helps in Biology molecular biology. These connections demonstrate deep understanding.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Not practising with past papers:** Understanding concepts is necessary but not sufficient. IB exams require specific question-answering techniques that can only be developed through practice with actual exam questions. Past papers are the best preparation tool available. Complete at least two full past papers under timed conditions for each subject before the exam.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Over-relying on translation:** While translating concepts can help initial understanding, try to think in English for technical terms. This builds the academic language skills needed for exam success and university study. Start with the most important terms for each subject and gradually expand your vocabulary.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Ignoring command terms:** IB exams use specific command terms (explain, evaluate, discuss, compare) that require different types of answers. Learn what each command term means and structure your answers accordingly. A common mistake is providing description when evaluation is required.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Not managing time effectively:** IB exams are time-pressured. Practice answering questions within the time limits. If a question is worth 10 marks, it should take approximately 15 minutes. Allocate time proportionally and move on if you get stuck.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Cross-References
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **[Biology](../biology/flashcards-cell-biology):** 生物学研究生命体的结构、功能和相互关系
 sources:
   - text: Standard textbook reference

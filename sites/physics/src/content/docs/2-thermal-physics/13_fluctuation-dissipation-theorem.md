@@ -201,4 +201,3 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-

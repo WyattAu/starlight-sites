@@ -115,7 +115,7 @@ e^{-it\sqrt{n}\mu/\sigma}.
 $$
 
 Expanding around zero, $\varphi_X(s) = 1 + i\mu s - \frac{(\sigma^2+\mu^2)s^2}{2}
-+ o(s^2)$, so with $s = t/(\sigma\sqrt n)$,
+- o(s^2)$, so with $s = t/(\sigma\sqrt n)$,
 
 $$
 \varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt n} -

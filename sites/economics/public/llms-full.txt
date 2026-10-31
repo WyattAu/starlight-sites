@@ -1661,7 +1661,7 @@ sets to zero), and the denominator is exactly how much $z$ moves $x$.
 
 ### 3. Consistency of the IV Estimator
 
-**Theorem 3.1.** Under random sampling, relevance, and exclusion ($E[z_i u_i] = 0$), 
+**Theorem 3.1.** Under random sampling, relevance, and exclusion ($E[z_i u_i] = 0$),
 
 $$
 \operatorname{plim}\, \hat{\beta}_{IV} = \beta.

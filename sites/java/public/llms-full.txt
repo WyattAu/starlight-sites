@@ -25919,9 +25919,7 @@ Use Maven or Gradle for dependency management and build automation. Maven uses a
 URL: https://java.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -27832,7 +27830,7 @@ public class Main {
 
 **Correct: B** (index 1)
 
-`reduce(1, (a, b) -> a * b)` computes the product: 1 * 1 * 2 * 3 * 4 * 5 = 120. The identity value is 1 (multiplicative identity). `IntStream.rangeClosed(1, 5)` produces the stream 1, 2, 3, 4, 5.
+`reduce(1, (a, b) -> a * b)` computes the product: 1 *1* 2 *3* 4 * 5 = 120. The identity value is 1 (multiplicative identity). `IntStream.rangeClosed(1, 5)` produces the stream 1, 2, 3, 4, 5.
 
 `easy`1 mark
 

@@ -772,4 +772,3 @@ theory, practical implementation, and key applications.
 - applications in the real world
 
 ## Worked Examples
-

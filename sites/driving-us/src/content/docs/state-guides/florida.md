@@ -88,7 +88,6 @@ From the official Florida Driver License Handbook:
 - Missing that Florida requires helmets for riders under 21 without
   $10,000 medical coverage, a favorite motorcycle-law question.
 
-
 ## FL Fees and Milestones Quick Table
 
 <div class="table-wrap">

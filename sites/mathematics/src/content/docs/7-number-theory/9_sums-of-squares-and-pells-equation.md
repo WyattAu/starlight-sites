@@ -107,7 +107,6 @@ the form $4^a(8b + 7)$.
 - [Quadratic Residues](/7-number-theory/8_quadratic-residues/)
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
 
-
 $$
 x_k + y_k \sqrt{D} = (x_1 + y_1 \sqrt{D})^k
 $$

@@ -253,4 +253,3 @@ Migration is the calculus of human decision-making: individuals weigh gradients 
 ## Summary
 
 ## Worked Examples
-

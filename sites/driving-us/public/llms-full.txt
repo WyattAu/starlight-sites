@@ -722,7 +722,6 @@ URL: https://driving-us.wyattau.com/glossary/
 - See [Driving UK Glossary](/glossary/) for UK Highway Code terms
 - See [Driving EU Glossary](/glossary/) for European driving regulations
 
-
 ## Licensing Process Terms
 
 **Learner's Permit**: The entry-level credential allowing supervised driving; age and supervision rules vary by state.
@@ -1222,7 +1221,7 @@ State-by-state licensing guides cover ages, test formats, GDL restrictions, and 
 URL: https://driving-us.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # US Driving Test
 
@@ -3280,7 +3279,6 @@ is the mile-based system.
 
 </div>
 
-
 ## Guide Sign Catalog
 
 <div class="table-wrap">
@@ -3445,7 +3443,6 @@ round yellow advance-warning sign.
 | Blue curb | Disabled permit parking |
 
 </div>
-
 
 ## Marking Catalog
 
@@ -3698,7 +3695,6 @@ appears in nearly every state exam.
 
 </div>
 
-
 ## Signal Catalog
 
 <div class="table-wrap">
@@ -3826,7 +3822,6 @@ hazard type.
 
 </div>
 
-
 ## Warning Sign Catalog by Shape
 
 <div class="table-wrap">
@@ -3946,7 +3941,6 @@ Based on the official California Driver Handbook:
 - Assuming a red right-turn arrow works like a plain red light (it
   does not, wait for green).
 
-
 ## CA Fees and Milestones Quick Table
 
 <div class="table-wrap">
@@ -3980,7 +3974,6 @@ Based on the official California Driver Handbook:
 | Vision standard | 20/40 |
 
 </div>
-
 
 ## Test-Day Checklist for CA
 
@@ -4076,7 +4069,6 @@ From the official Florida Driver License Handbook:
   posted hours when lights flash.
 - Missing that Florida requires helmets for riders under 21 without
   $10,000 medical coverage, a favorite motorcycle-law question.
-
 
 ## FL Fees and Milestones Quick Table
 
@@ -4251,7 +4243,6 @@ From the official Driver's Manual:
 - Misreading the school-bus rule: on divided highways, traffic
   behind the bus (and oncoming on undivided roads) must stop.
 
-
 ## NY Fees and Milestones Quick Table
 
 <div class="table-wrap">
@@ -4284,7 +4275,6 @@ From the official Driver's Manual:
 | U-turns | Illegal in business districts |
 
 </div>
-
 
 ## Test-Day Checklist for NY
 
@@ -4386,7 +4376,6 @@ From the official Texas Driver Handbook:
 - Assuming turn signals are optional in roundabouts, Texas roundabout
   rules mirror standard yield-to-left practice.
 
-
 ## TX Fees and Milestones Quick Table
 
 <div class="table-wrap">
@@ -4429,8 +4418,7 @@ From the official Texas Driver Handbook:
 URL: https://driving-us.wyattau.com/written-test/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
 
@@ -4466,7 +4454,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

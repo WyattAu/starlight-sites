@@ -826,4 +826,3 @@ the optimal choice.
 ## Summary
 
 ## Worked Examples
-

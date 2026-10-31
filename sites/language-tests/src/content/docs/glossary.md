@@ -147,7 +147,6 @@ tags: [glossary]
 - See [Admissions Glossary](/glossary/) for university language requirements
 - See [SAT Glossary](/glossary/) for US college admissions testing
 
-
 ## Framework Terms
 
 **Can-Do Statement**: A descriptor of what a learner can perform at a given CEFR level ("can describe experiences and events" for B1); exam tasks map directly onto them.

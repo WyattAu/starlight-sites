@@ -10,8 +10,8 @@ categories:
   - Chemistry
 ---
 sources:
-  - text: "Atkins, P., & de Paula, J. (2014). Atkins' Physical Chemistry (10th ed.). Oxford University Press."
-  - text: "Chang, R., & Goldsby, K. A. (2016). Chemistry (12th ed.). McGraw-Hill."
+- text: "Atkins, P., & de Paula, J. (2014). Atkins' Physical Chemistry (10th ed.). Oxford University Press."
+- text: "Chang, R., & Goldsby, K. A. (2016). Chemistry (12th ed.). McGraw-Hill."
 import Citations from '@components/Citations.astro'
 
 <!-- Breadcrumb Schema for SEO -->

@@ -12,7 +12,6 @@ categories:
 
 ## Complete AP Course Guide, All Subjects
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta

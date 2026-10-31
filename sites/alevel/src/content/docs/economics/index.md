@@ -7,8 +7,7 @@ description: "This section covers economics concepts, definitions, and applicati
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -34,7 +33,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

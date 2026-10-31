@@ -585,4 +585,3 @@ lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
    overall charge.
 
 ## Summary
-

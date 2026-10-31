@@ -881,7 +881,6 @@ STL from a Python starting point -- the assumptions every C++ listing on the
 numerical courses makes.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -5018,8 +5017,7 @@ Think of header units as a stepping stone: start with the Global Module Fragment
 URL: https://cpp.wyattau.com/compilation_model/1_translation/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_translation. The Compilation Model section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -5045,7 +5043,6 @@ This section provides study materials and resources for 1_translation. The Compi
 
 Use the diagnostic tests to find out whether 1_translation needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -13062,8 +13059,7 @@ Generators are like vending machines that dispense items one at a time. Instead 
 URL: https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_threading_and_synchronization. Work through 1_threading_and_synchronization alongside the practice problems for Concurrency, then let the diagnostic tests tell you whether it stuck.
 
@@ -13090,7 +13086,6 @@ This section provides study materials and resources for 1_threading_and_synchron
 Revision works best in one direction here: read 1_threading_and_synchronization, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -13112,8 +13107,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_memory_model_and_atomics. Use the diagnostic tests to find out whether 2_memory_model_and_atomics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -13140,7 +13134,6 @@ This section provides study materials and resources for 2_memory_model_and_atomi
 The Concurrency section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -13162,8 +13155,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 3_coroutines_and_async_io. If 3_coroutines_and_async_io feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -13189,7 +13181,6 @@ This section provides study materials and resources for 3_coroutines_and_async_i
 
 Work through 3_coroutines_and_async_io alongside the practice problems for Concurrency, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -24380,8 +24371,7 @@ key principles and practical applications.
 URL: https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_compiler_and_standards. Use the diagnostic tests to find out whether 1_compiler_and_standards needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -24408,7 +24398,6 @@ This section provides study materials and resources for 1_compiler_and_standards
 If 1_compiler_and_standards feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24430,8 +24419,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_build_system. If 2_build_system feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -24459,7 +24447,6 @@ This section provides study materials and resources for 2_build_system. If 2_bui
 Use the diagnostic tests to find out whether 2_build_system needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24481,8 +24468,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/enviroment_and_toolchain/3_dependency_management/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 3_dependency_management. Use the diagnostic tests to find out whether 3_dependency_management needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -24510,7 +24496,6 @@ This section provides study materials and resources for 3_dependency_management.
 If 3_dependency_management feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24532,8 +24517,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 4_development_enviroment_analysis. Revision works best in one direction here: read 4_development_enviroment_analysis, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -24558,7 +24542,6 @@ This section provides study materials and resources for 4_development_enviroment
 
 Use the diagnostic tests to find out whether 4_development_enviroment_analysis needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -36839,8 +36822,7 @@ Error handling is about graceful recovery when things go wrong. Exceptions let y
 URL: https://cpp.wyattau.com/function_architecture/1_function_mechanics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_function_mechanics. If 1_function_mechanics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -36867,7 +36849,6 @@ This section provides study materials and resources for 1_function_mechanics. If
 The Function Architecture section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -36889,8 +36870,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/function_architecture/2_error_handling/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_error_handling. Work through 2_error_handling alongside the practice problems for Function Architecture, then let the diagnostic tests tell you whether it stuck.
 
@@ -36918,7 +36898,6 @@ This section provides study materials and resources for 2_error_handling. Work t
 
 Work through 2_error_handling alongside the practice problems for Function Architecture, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -43184,8 +43163,7 @@ OOP models software as interacting objects that bundle data with behaviour. Inhe
 URL: https://cpp.wyattau.com/object_oriented/1_class_design/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_class_design. Revision works best in one direction here: read 1_class_design, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -43213,7 +43191,6 @@ This section provides study materials and resources for 1_class_design. Revision
 Use the diagnostic tests to find out whether 1_class_design needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -43235,8 +43212,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/object_oriented/2_runtime_polymorphism/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_runtime_polymorphism. Use the diagnostic tests to find out whether 2_runtime_polymorphism needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -43262,7 +43238,6 @@ This section provides study materials and resources for 2_runtime_polymorphism. 
 
 The Object Oriented section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -49843,8 +49818,7 @@ RAII (Resource Acquisition Is Initialization) ties resource lifetime to object l
 URL: https://cpp.wyattau.com/resource_management/1_ownership_and_raii/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_ownership_and_raii. If 1_ownership_and_raii feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -49873,7 +49847,6 @@ This section provides study materials and resources for 1_ownership_and_raii. If
 Work through 1_ownership_and_raii alongside the practice problems for Resource Management, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -49895,8 +49868,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/resource_management/2_value_categories_and_move/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_value_categories_and_move. If 2_value_categories_and_move feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -49922,7 +49894,6 @@ This section provides study materials and resources for 2_value_categories_and_m
 
 The Resource Management section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -59901,8 +59872,7 @@ void atomic_write(const fs::path& target, std::string_view content) {
 URL: https://cpp.wyattau.com/standard_library/1_containers_and_allocators/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_containers_and_allocators. Work through 1_containers_and_allocators alongside the practice problems for Standard Library, then let the diagnostic tests tell you whether it stuck.
 
@@ -59928,7 +59898,6 @@ This section provides study materials and resources for 1_containers_and_allocat
 Revision works best in one direction here: read 1_containers_and_allocators, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59950,8 +59919,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_algorithms_and_ranges. Revision works best in one direction here: read 2_algorithms_and_ranges, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -59977,7 +59945,6 @@ This section provides study materials and resources for 2_algorithms_and_ranges.
 
 Work through 2_algorithms_and_ranges alongside the practice problems for Standard Library, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -75080,8 +75047,7 @@ key: "key'', value: "value'
 URL: https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -75108,7 +75074,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -75130,8 +75095,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -75157,7 +75121,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -75179,8 +75142,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -75206,7 +75168,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -75228,8 +75189,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/templates_and_metaprogramming/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -75265,7 +75225,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -84396,8 +84355,7 @@ and practical applications.
 URL: https://cpp.wyattau.com/types/2_pointers_references_views/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_pointers_references_views. If 2_pointers_references_views feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -84424,7 +84382,6 @@ This section provides study materials and resources for 2_pointers_references_vi
 Use the diagnostic tests to find out whether 2_pointers_references_views needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -84446,8 +84403,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://cpp.wyattau.com/types/3_initialization_and_lifetime/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 3_initialization_and_lifetime. Revision works best in one direction here: read 3_initialization_and_lifetime, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -84473,7 +84429,6 @@ This section provides study materials and resources for 3_initialization_and_lif
 
 Use the diagnostic tests to find out whether 3_initialization_and_lifetime needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

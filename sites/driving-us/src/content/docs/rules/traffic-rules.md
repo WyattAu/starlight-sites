@@ -138,4 +138,3 @@ towed if parked too close.
 - [Right-of-Way](/rules/right-of-way/) - Who goes first
 - [Signs](/signs/regulatory-signs/) - Traffic signs
 - [Safe Driving](/safe-driving/defensive-driving/) - Defensive driving
-

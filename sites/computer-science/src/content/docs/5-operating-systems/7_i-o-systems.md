@@ -153,4 +153,3 @@ I/O systems are the nervous system connecting the CPU to the outside world. Poll
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
-

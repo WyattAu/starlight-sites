@@ -6397,7 +6397,7 @@ SET plan_cache_mode = auto;
 :::
 
 :::note
-Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
+Transactions. Use the `prepared_statements` option or driver-side prepared statement emulation.
 
 ## Auto-Vacuum Tuning
 
@@ -14876,7 +14876,6 @@ as a declarative language, explains the ACID guarantees and why each exists,
 and introduces normalisation -- the concepts the rest of this track assumes.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15211,7 +15210,6 @@ It builds the relational model from a spreadsheet starting point, covers SQL
 as a declarative language, explains the ACID guarantees and why each exists,
 and introduces normalisation -- the concepts the rest of this track assumes.
 :::
-
 
 ## Why Databases Matter
 

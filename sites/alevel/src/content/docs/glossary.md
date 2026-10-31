@@ -101,7 +101,6 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 **Comparative Essay**: AO4/AO5 skill of linking two texts' methods and critical perspectives in a single argument.
 
-
 ## Exam Technique Terms
 
 **Command Word**: The verb dictating response depth, state (one line), describe (no reasons), explain (give reasons), evaluate (weigh evidence and conclude).
@@ -137,7 +136,6 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 **Break-Even Output**: The quantity where total revenue equals total cost; contribution per unit times fixed costs gives the calculation.
 
 **Cash Flow Forecast**: The month-by-month prediction of inflows and outflows; insolvency kills profitable firms, cash is not profit.
-
 
 ## Chemistry Quick Reference
 

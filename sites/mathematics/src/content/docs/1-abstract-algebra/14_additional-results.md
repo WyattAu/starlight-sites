@@ -152,4 +152,3 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Forgetting that the Structure Theorem requires the group to be both finitely generated and abelian.
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
-

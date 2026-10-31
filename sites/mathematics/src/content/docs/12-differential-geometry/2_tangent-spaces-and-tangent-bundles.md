@@ -196,4 +196,3 @@ The tangent space at a point on a manifold is the collection of all possible vel
 3. Show that $d(fg)_p = f(p) dg_p + g(p) df_p$.
 4. Prove that $T(S^1)$ is diffeomorphic to $S^1 \times \mathbb{R}$.
 5. Show that if $M$ is an $n$-dimensional manifold, then $TM$ is a $2n$-dimensional manifold.
-

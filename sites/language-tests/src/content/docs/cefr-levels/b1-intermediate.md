@@ -128,4 +128,3 @@ Write a cover letter for a job application:
 - [Cefr Levels](./)
 - [B2 Upper Intermediate Level](/cefr-levels/b2-upper-intermediate/)
 - [A1 Beginner](/cefr-levels/a1-beginner/)
-

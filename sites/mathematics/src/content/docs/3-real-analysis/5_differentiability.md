@@ -383,7 +383,7 @@ and [Riemann Integration](/3-real-analysis/6_riemann-integration/).
    increasing, and deduce that a function with $f' = 0$ everywhere is constant.
 4. (Taylor.) Show that $\sin x = x - x^3/6 + o(x^4)$ and use it to compute
    $\lim_{x \to 0} \frac{\sin x - x}{x^3}$.
-5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x 
+5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x
 e 0$,
    $f'(0) = 0$ has the intermediate value property but is discontinuous at $0$.
 

@@ -8,7 +8,7 @@ title: "D-Block Elements"
 description: "This section covers d-block elements concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

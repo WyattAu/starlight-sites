@@ -199,4 +199,3 @@ Landau theory is a mathematical framework for understanding how systems choose b
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
-

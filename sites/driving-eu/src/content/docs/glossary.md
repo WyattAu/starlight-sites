@@ -132,7 +132,6 @@ tags: [glossary]
 - See [Driving UK Glossary](https://typescript.wyattau.com/glossary/) for UK Highway Code terms
 - See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
 
-
 ## Convention and Licensing
 
 **Vienna Convention (1968)**: The treaty harmonising road signs, signals, and rules across most European countries; the source of the triangular-warning, circular-prohibition, rectangular-information system.
@@ -156,7 +155,6 @@ tags: [glossary]
 **Radar Trap Warning**: In many countries portable warning signs for automated speed enforcement; fines vary by national scale.
 
 **Toll Systems**: Vignette (time-based sticker, e.g., Austria, Switzerland) versus per-kilometre electronic tolling (e.g., Hungary's e-vignette, Portugal's electronic-only lanes).
-
 
 ## Rules of the Road
 

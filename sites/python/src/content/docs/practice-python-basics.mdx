@@ -6,8 +6,6 @@ date: 2026-09-09
 
 import PracticeProblem from "@components/PracticeProblem"
 
-
-
 <PracticeProblem client:only="solid-js" question={"What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?"} options={["False", "True", "TypeError", "SyntaxError"]} correctAnswer={0} explanation={"`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses."} difficulty="medium" />
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is a mutable built-in type in Python?"} options={["str", "list", "int", "tuple"]} correctAnswer={1} explanation={"Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object."} difficulty="medium" />

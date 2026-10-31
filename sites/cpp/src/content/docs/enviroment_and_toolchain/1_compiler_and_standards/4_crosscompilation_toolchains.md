@@ -789,4 +789,3 @@ practical implementation, and key applications.
 - interrupts and polling
 
 ## Worked Examples
-

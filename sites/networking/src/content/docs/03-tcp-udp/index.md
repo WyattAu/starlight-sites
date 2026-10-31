@@ -7,8 +7,7 @@ description: "This section covers tcp udp concepts, definitions, and application
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -32,7 +31,6 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 Work through the Networking sections in order, starting with Dns and Email And App Protocols and building toward Dns, Email And App Protocols, Http Https, Ip Addressing, Layer2, Network Tools, Osi Model, Tcp Udp, Tls and Wireless, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

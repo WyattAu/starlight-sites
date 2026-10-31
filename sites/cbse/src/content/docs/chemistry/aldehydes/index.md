@@ -8,7 +8,7 @@ title: "Aldehydes, Ketones, and Carboxylic Acids"
 description: "This section covers aldehydes, ketones, and carboxylic acids concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

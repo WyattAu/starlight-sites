@@ -160,4 +160,3 @@ A database is a organised collection of data designed for efficient retrieval. T
 - [Relational Model](/4-databases/2_relational-model/)
 - [SQL](/4-databases/3_sql/)
 - [Normalisation](/4-databases/4_normalisation/)
-

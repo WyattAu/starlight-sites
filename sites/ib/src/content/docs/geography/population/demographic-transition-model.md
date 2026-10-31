@@ -275,4 +275,3 @@ The demographic transition is a society's journey from high birth and death rate
 ## Summary
 
 ## Worked Examples
-

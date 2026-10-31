@@ -194,4 +194,3 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 - [Algebra](/mathematics/algebra/) -- Logical reasoning and structured argumentation in reading mirror algebraic proof techniques.
 - [Mechanics](/physics/mechanics/) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
 - [Intro](/intro/) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
-

@@ -170,4 +170,3 @@ An operating system is the government of a computer: it manages resources (CPU t
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
-

@@ -7,8 +7,7 @@ description: "This section covers metabolism concepts, definitions, and applicat
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Metabolism, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

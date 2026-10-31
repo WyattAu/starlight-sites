@@ -101,4 +101,3 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 **Confusing the Second Sino-Japanese War with WWII in Europe:** China was fighting Japan from 1937, two years before war began in Europe. The two conflicts merged when Japan attacked Pearl Harbor, but they had separate origins.
 
 **Underestimating the significance of the Battle of Hong Kong:** It was one of the earliest Allied defeats, showing that Britain could not defend its Asian colonies. This influenced post-war decolonisation.
-

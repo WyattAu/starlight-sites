@@ -770,4 +770,3 @@ including key theorems, methods, and problem-solving approaches.
 - mathematical induction
 
 ## Worked Examples
-

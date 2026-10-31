@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for 1_containe
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 1_containers_and_allocators. Work through 1_containers_and_allocators alongside the practice problems for Standard Library, then let the diagnostic tests tell you whether it stuck.
 
@@ -33,7 +32,6 @@ This section provides study materials and resources for 1_containers_and_allocat
 
 Revision works best in one direction here: read 1_containers_and_allocators, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

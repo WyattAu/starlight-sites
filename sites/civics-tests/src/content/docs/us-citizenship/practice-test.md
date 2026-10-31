@@ -147,4 +147,3 @@ covers all 100 questions organised by category.
 
 - [Civics Questions](/us-citizenship/civics-questions/) - All 100 questions
 - [US Citizenship Process](/us-citizenship/citizenship-process/) - Overview
-

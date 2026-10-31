@@ -8,7 +8,7 @@ title: "Practical Skills"
 description: 'A-Level Physics Practical Skills notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.'
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

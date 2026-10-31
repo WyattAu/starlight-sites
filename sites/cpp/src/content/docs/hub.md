@@ -29,7 +29,6 @@ STL from a Python starting point -- the assumptions every C++ listing on the
 numerical courses makes.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -188,7 +188,6 @@ the $s \to 1$ edge of that analytic theory.
 
 Estimate $\pi(10^8)$ using $x/\ln x$ and $\mathrm{Li}(x)$: $10^8/\ln 10^8 \approx 5{,}428{,}681$ against the true $\pi(10^8) = 5{,}761{,}455$; $\mathrm{Li}(10^8) \approx 5{,}762{,}209$ is dramatically closer. Comment on why $\mathrm{Li}$ stays closer for every measurable $x$.
 
-
 $$
 \pi(x) \approx \frac{x}{\ln x - 1}
 $$

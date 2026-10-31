@@ -581,4 +581,3 @@ including key theorems, methods, and problem-solving approaches.
 - applications and modelling
 
 ## Worked Examples
-

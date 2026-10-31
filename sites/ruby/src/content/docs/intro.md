@@ -112,4 +112,3 @@ end
 - Failing to connect concepts across topics
 
 ### Further Reading
-

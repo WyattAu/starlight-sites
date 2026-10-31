@@ -8,7 +8,7 @@ description: 'DSE ICT notes covering key definitions, core concepts, worked exam
 tableOfContents: false
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

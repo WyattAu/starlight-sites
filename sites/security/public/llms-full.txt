@@ -11,8 +11,7 @@
 URL: https://security.wyattau.com/01-security-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -48,7 +47,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -1960,8 +1958,7 @@ linked above.
 URL: https://security.wyattau.com/02-cryptography/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -1998,7 +1995,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -3646,8 +3642,7 @@ linked above.
 URL: https://security.wyattau.com/03-authentication/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -3684,7 +3679,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -5015,8 +5009,7 @@ Network security operates like a medieval castle with multiple defensive layers.
 URL: https://security.wyattau.com/04-web-security/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -5040,7 +5033,6 @@ This section covers cybersecurity principles, network security, and defensive st
 
 Work through the Security sections in order, starting with Authentication and Cloud Security and building toward Authentication, Cloud Security, Cryptography, Diagnostics, Incident Response, Malware Analysis, Network Security, Os Security, Security Fundamentals and Web Security, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -6715,8 +6707,7 @@ linked above.
 URL: https://security.wyattau.com/05-network-security/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -6753,7 +6744,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -9032,8 +9022,7 @@ Network security operates like a medieval castle with multiple defensive layers.
 URL: https://security.wyattau.com/06-incident-response/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -9070,7 +9059,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -11021,8 +11009,7 @@ Network security operates like a medieval castle with multiple defensive layers.
 URL: https://security.wyattau.com/07-cloud-security/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -11059,7 +11046,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11089,8 +11075,7 @@ Keep practising and reviewing to master this topic.
 URL: https://security.wyattau.com/08-os-security/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -11126,7 +11111,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -12369,8 +12353,7 @@ Network security operates like a medieval castle with multiple defensive layers.
 URL: https://security.wyattau.com/09-malware-analysis/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -12406,7 +12389,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -14177,7 +14159,7 @@ Yes. Demand for cybersecurity professionals far exceeds supply. The field offers
 URL: https://security.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 ## What This Site Covers
 
@@ -17669,8 +17651,7 @@ URL: https://security.wyattau.com/diagnostics/diag-security/
 URL: https://security.wyattau.com/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -17706,7 +17687,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

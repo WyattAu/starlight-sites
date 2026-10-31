@@ -1200,9 +1200,7 @@ Very. The Desmos calculator is integrated into the test and can graph functions,
 URL: https://sat.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -6653,8 +6651,7 @@ Geometry is the language of shapes and space. Angles are the conversation betwee
 URL: https://sat.wyattau.com/mathematics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -6678,7 +6675,6 @@ This section covers essential mathematical techniques and theories. Use the diag
 
 Work through Mathematics alongside the practice problems for Mathematics, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

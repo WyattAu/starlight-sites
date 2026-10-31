@@ -193,4 +193,3 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

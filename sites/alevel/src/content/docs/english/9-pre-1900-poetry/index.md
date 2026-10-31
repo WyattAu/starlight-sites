@@ -7,7 +7,7 @@ description: "This section covers pre 1900 poetry concepts, definitions, and app
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Pre 1900 Poetry needs another pass before your exam, rather than revising topics you have already mastered.
 

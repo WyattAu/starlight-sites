@@ -97,7 +97,6 @@ Biology at the Leaving Cert level explores life from the cellular level to ecosy
 - **[Practice Biology](/biology/practice-biology/):** Interactive practice problems to test your understanding after reviewing the flashcards.
 - **[Ecology](/biology/2-ecology/2_ecology/):** Covers ecological concepts including food webs and environmental interactions.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -162,7 +161,6 @@ Chemistry explains the composition and behaviour of matter, atoms bond to form m
 - **[Chemical Bonding](/chemistry/2-bonding/2_bonding/):** Covers ionic, covalent, and metallic bonding concepts included in the flashcard deck.
 - **[Practice Chemistry](/chemistry/practice-chemistry/):** Interactive practice problems to reinforce flashcard learning with auto-graded questions.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -218,7 +216,6 @@ Computer science is the study of computation, how to represent information, desi
 - **[Computer Systems](/computer-science/1-hardware/1_hardware/):** Detailed notes on hardware components and system architecture covered by the flashcards.
 - **[Programming](/computer-science/2-programming/2_programming/):** Covers programming concepts and algorithms included in the flashcard deck.
 - **[Practice Computer Science](/computer-science/practice-computer-science/):** Interactive practice problems to test understanding after reviewing the flashcards.
-
 
 ## Detailed Content
 
@@ -276,7 +273,6 @@ Mathematics is the language of patterns and relationships. Algebra provides tool
 - **[Calculus](/maths/2-calculus/2_calculus/):** Covers differentiation and integration concepts included in the flashcard deck.
 - **[Practice Maths](/maths/practice-maths/):** Interactive practice problems to reinforce flashcard learning with auto-graded questions.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -332,7 +328,6 @@ Physics describes the fundamental laws of nature through mathematical equations.
 - **[Mechanics](/physics/1-mechanics/1_mechanics/):** Detailed notes on forces, motion, and energy covered by the flashcards.
 - **[Electricity](/physics/3-electricity/3_electricity/):** Covers electrical circuits and electromagnetic induction included in the flashcard deck.
 - **[Practice Physics](/physics/practice-physics/):** Interactive practice problems to test understanding after reviewing the flashcards.
-
 
 ## Detailed Content
 
@@ -627,7 +622,6 @@ URL: https://leaving-cert.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -872,9 +866,7 @@ Use a study timetable. Allocate specific time blocks to each subject and stick t
 URL: https://leaving-cert.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -4650,8 +4642,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 URL: https://leaving-cert.wyattau.com/biology/1-cell/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -4688,7 +4679,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4710,8 +4700,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/2-ecology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -4748,7 +4737,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4770,8 +4758,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/3-genetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Genetics alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -4808,7 +4795,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4830,8 +4816,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/4-plant-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -4868,7 +4853,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4890,8 +4874,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/5-human-body/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Human Body alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -4928,7 +4911,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4950,8 +4932,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -4988,7 +4969,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -5010,7 +4990,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9281,8 +9261,7 @@ expected properties. The element has not yet been synthesised, so the claim rema
 URL: https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Atomic Structure feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -9319,7 +9298,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9341,8 +9319,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/2-bonding/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -9379,7 +9356,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9401,8 +9377,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -9439,7 +9414,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9461,8 +9435,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/4-acids-bases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Acids Bases alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -9499,7 +9472,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9521,8 +9493,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/5-organic/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Organic, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -9559,7 +9530,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9581,8 +9551,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -9619,7 +9588,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9641,7 +9609,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -14984,8 +14952,7 @@ implementation, and key applications.
 URL: https://leaving-cert.wyattau.com/computer-science/1-hardware/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Hardware feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -15022,7 +14989,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15044,8 +15010,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/2-programming/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -15082,7 +15047,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15104,8 +15068,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/3-databases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Databases, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -15142,7 +15105,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15164,8 +15126,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/4-networks/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -15202,7 +15163,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15224,8 +15184,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/5-algorithms/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Algorithms alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -15262,7 +15221,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15284,8 +15242,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -15322,7 +15279,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15344,7 +15300,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -20039,7 +19995,7 @@ applying these mathematical techniques.
 URL: https://leaving-cert.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -24081,8 +24037,7 @@ and past paper questions, is essential for success in examinations.
 URL: https://leaving-cert.wyattau.com/physics/1-mechanics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Mechanics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -24119,7 +24074,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24141,8 +24095,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/2-waves/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -24179,7 +24132,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24201,8 +24153,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/3-electricity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Electricity, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -24239,7 +24190,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24261,8 +24211,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/4-heat/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -24299,7 +24248,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24321,8 +24269,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/5-modern-physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -24359,7 +24306,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24381,8 +24327,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -24419,7 +24364,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24441,7 +24385,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://leaving-cert.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

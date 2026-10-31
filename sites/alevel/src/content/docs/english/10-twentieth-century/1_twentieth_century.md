@@ -136,4 +136,3 @@ Postcolonial literature examines the cultural, psychological, and political lega
 - **[Poetry Analysis](/english/2-poetry/1_poetry-analysis/):** Modern poetry reflects twentieth-century themes
 - **[Literary Terms](/english/flashcards-literary-terms/):** Literary analysis skills apply to modern texts
 - **[Practice](/english/practice-literary-analysis/):** Analytical practice develops interpretation skills
-

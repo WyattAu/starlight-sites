@@ -136,4 +136,3 @@ prosecuted for DUI based on field sobriety tests and officer observation.
 - [Traffic Rules](/rules/traffic-rules/) - General traffic laws
 - [Right-of-Way](/rules/right-of-way/) - Intersection rules
 - [Safe Driving](/safe-driving/defensive-driving/) - Defensive driving
-

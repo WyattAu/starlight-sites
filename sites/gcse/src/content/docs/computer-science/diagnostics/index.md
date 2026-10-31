@@ -7,7 +7,7 @@ description: "Diagnostic test notes for GCSE Computer Science covering key conce
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics | GCSE Computer Science, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -247,4 +247,3 @@ Boolean logic is the mathematics of true and false values. It underpins all digi
 - Cross-references to related topics
 
 ## Study Tips
-

@@ -978,7 +978,6 @@ URL: https://cbse.wyattau.com/glossary/
 - See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals
 - See [University Admissions Glossary](https://typescript.wyattau.com/glossary/) for university application process
 
-
 ## Practical and Internal Assessment
 
 **Practical Notebook**: The CBSE-required record of laboratory experiments, viva questions, and diagrams, marked internally.
@@ -1034,7 +1033,6 @@ URL: https://cbse.wyattau.com/hub/
 </script>
 
 ## Why This Guide Exists
-
 
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
@@ -1261,9 +1259,7 @@ Practise under timed conditions regularly. Start with untimed practice to build 
 URL: https://cbse.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -2920,8 +2916,6 @@ URL: https://cbse.wyattau.com/practice-physics/
 
 import PracticeProblem from "@components/PracticeProblem"
 
-
-
 **Q1. A circular coil of 100 turns, radius 10 cm, carries a current of 1 A. What is the magnetic field at the centre of the coil? ($\\mu_0 = 4\\pi \\times 10^{-7}$ T m A$^{-1}$)**
 
 A. $6.28 \\times 10^{-4}
@@ -2929,7 +2923,6 @@ A. $6.28 \\times 10^{-4}
 **Answer: A**
 - $B = \\dfrac{\\mu_0 n I}{2R} = \\dfrac{4\\pi \\times 10^{-7} \\times 100 \\times 1}{2 \\times 0.10} = \\dfrac{4\\pi \\times 10^{-5}}{0.2} = 2\\pi \\times 10^{-4} \\approx 6.28 \\times 10^{-4}$ T.
 *Difficulty: medium*
-
 
 **Q2. In Young's double-slit experiment using light of wavelength $\\lambda = 600$ nm, the fringe width is 2 mm. If the distance between the slits is doubled, the new fringe width will be:**
 
@@ -2942,7 +2935,6 @@ D. 1 mm
 - Fringe width $\\beta = \\dfrac{\\lambda D}{d}$, where $D$ is the distance to the screen and $d$ is the slit separation. If $d$ is doubled, $\\beta$ is halved. New fringe width $= \\dfrac{2}{2} = 1$ mm.
 *Difficulty: medium*
 
-
 **Q3. A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 30 cm. What is the power of the combination?**
 
 A. $-1.67$ D
@@ -2953,7 +2945,6 @@ D. $+1.67$ D
 **Answer: D**
 - $P_1 = \\dfrac{1}{f_1} = \\dfrac{1}{0.20} = +5$ D (convex). $P_2 = \\dfrac{1}{f_2} = \\dfrac{1}{-0.30} = -3.33$ D (concave). $P_{\\text{net}} = P_1 + P_2 = 5 - 3.33 = +1.67$ D. The equivalent focal length is $f = 1/P = 1/1.67 \\approx 60$ cm (convex).
 *Difficulty: medium*
-
 
 **Q4. In a single-slit diffraction experiment, the width of the central maximum is found to be 4 mm. If the slit width is halved, the width of the central maximum becomes:**
 
@@ -2966,7 +2957,6 @@ D. 4 mm
 - The width of the central maximum in single-slit diffraction is $2y = \\dfrac{2\\lambda D}{a}$, where $a$ is the slit width. If $a$ is halved, $2y$ doubles. New width $= 2 \\times 4 = 8$ mm. Narrower slit produces broader diffraction pattern.
 *Difficulty: medium*
 
-
 **Q5. The work function of a metal surface is 2 eV. If light of wavelength 400 nm is incident on it, what is the maximum kinetic energy of the emitted photoelectrons? ($h = 6.63 \\times 10^{-34}$ J s, $c = 3 \\times 10^8$ m/s, $1$ eV $= 1.6 \\times 10^{-19}$ J)**
 
 A. $3.105$ eV
@@ -2977,7 +2967,6 @@ D. $2.000$ eV
 **Answer: B**
 - Energy of photon: $E = \\dfrac{hc}{\\lambda} = \\dfrac{6.63 \\times 10^{-34} \\times 3 \\times 10^8}{400 \\times 10^{-9}} = 4.97 \\times 10^{-19}$ J $= \\dfrac{4.97 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 3.105$ eV. By Einstein's equation: $K_{\\max} = E - \\phi = 3.105 - 2.0 = 1.105$ eV.
 *Difficulty: medium*
-
 
 **Q6. The de Broglie wavelength associated with an electron accelerated through a potential difference of 100 V is approximately: ($m_e = 9.1 \\times 10^{-31}$ kg, $e = 1.6 \\times 10^{-19}$ C, $h = 6.63 \\times 10^{-34}$ J s)**
 
@@ -2990,7 +2979,6 @@ D. 12.3 nm
 - $\\lambda = \\dfrac{h}{\\sqrt{2m_e eV}} = \\dfrac{6.63 \\times 10^{-34}}{\\sqrt{2 \\times 9.1 \\times 10^{-31} \\times 1.6 \\times 10^{-19} \\times 100}} = \\dfrac{6.63 \\times 10^{-34}}{\\sqrt{2.912 \\times 10^{-47}}} = \\dfrac{6.63 \\times 10^{-34}}{5.396 \\times 10^{-24}} = 1.228 \\times 10^{-10}$ m $= 0.1228$ nm $\\approx 0.123$ nm.
 *Difficulty: hard*
 
-
 **Q7. In a p-n junction diode, the potential barrier is approximately 0.3 V for Ge and 0.7 V for Si. If a Si diode is forward biased with a voltage of 0.5 V applied, what is the current through the diode?**
 
 A. Moderately high
@@ -3001,7 +2989,6 @@ D. Nearly zero
 **Answer: D**
 - For a forward-biased Si diode, the applied voltage must exceed the knee voltage (barrier potential) of approximately 0.7 V before significant current flows. Since 0.5 V < 0.7 V, the current is negligibly small (nearly zero). The diode is technically forward biased but below the threshold for conduction.
 *Difficulty: hard*
-
 
 **Q8. In a transistor, the current gain $\\beta = 99$. If the base current $I_B = 20$ $\\mu$ A, the collector current $I_C$ is:**
 
@@ -3014,7 +3001,6 @@ D. 0.99 mA
 - $\\beta = \\dfrac{I_C}{I_B}$, so $I_C = \\beta \\cdot I_B = 99 \\times 20 \\times 10^{-6} = 1980 \\times 10^{-6}$ A $= 1.98$ mA. The emitter current $I_E = I_C + I_B = 1.98 + 0.02 = 2.00$ mA.
 *Difficulty: medium*
 
-
 **Q9. In an LED (Light Emitting Diode), the colour of emitted light depends on:**
 
 A. The band gap energy of the semiconductor material
@@ -3025,8 +3011,6 @@ D. The physical size of the diode',
 **Answer: A**
 - The colour of light emitted by an LED is determined by the energy of photons released during electron-hole recombination across the band gap: $E = hc/\\lambda$. A wider band gap produces shorter wavelength (higher energy) light. For example, GaAs ($E_g \\approx 1.43$ eV) emits infrared; GaAsP ($\\approx 1.9$ eV) emits red; GaN ($\\approx 3.4$ eV) emits blue/violet.
 *Difficulty: hard*
-
-
 
 **Q3. A body of mass 2 kg experiences a net force of 10 N. What is its acceleration?**
 
@@ -3452,7 +3436,7 @@ The density formula $\rho = ZM / (N_A a^3)$ requires consistent units. If the ed
 URL: https://cbse.wyattau.com/chemistry/alcohols/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -3698,7 +3682,7 @@ $$
 URL: https://cbse.wyattau.com/chemistry/aldehydes/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -3861,7 +3845,7 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 URL: https://cbse.wyattau.com/chemistry/amines/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4014,7 +3998,7 @@ Amines are found in amino acids, neurotransmitters, pharmaceuticals (ephedrine, 
 URL: https://cbse.wyattau.com/chemistry/biomolecules/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4175,7 +4159,7 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 URL: https://cbse.wyattau.com/chemistry/carboxylic-acids/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4330,7 +4314,7 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 URL: https://cbse.wyattau.com/chemistry/chemical-kinetics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4506,7 +4490,7 @@ Chemical kinetics is about how fast reactions happen and why. Think of activatio
 URL: https://cbse.wyattau.com/chemistry/chemistry-in-everyday/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4675,7 +4659,7 @@ Analgesics relieve pain, antipyretics reduce fever, and anti-inflammatory drugs 
 URL: https://cbse.wyattau.com/chemistry/coordination/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4838,7 +4822,7 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 URL: https://cbse.wyattau.com/chemistry/d-block/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4996,7 +4980,7 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 URL: https://cbse.wyattau.com/chemistry/electrochemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -5228,7 +5212,7 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 URL: https://cbse.wyattau.com/chemistry/f-block/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -5384,7 +5368,7 @@ Lanthanoids are used in magnets (Nd$_2$Fe$_{14}$B), electronics (Ce in catalytic
 URL: https://cbse.wyattau.com/chemistry/haloalkanes/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -5540,7 +5524,7 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 URL: https://cbse.wyattau.com/chemistry/p-block/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -5698,7 +5682,7 @@ P-block elements are essential for life (N, O, S), industry (Cl, P, S), and tech
 URL: https://cbse.wyattau.com/chemistry/polymers/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -5856,7 +5840,7 @@ Polymers are everywhere: clothing, packaging, electronics, medical devices, and 
 URL: https://cbse.wyattau.com/chemistry/solid-state/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6017,7 +6001,7 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 URL: https://cbse.wyattau.com/chemistry/solutions/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6188,7 +6172,7 @@ Solutions are mixtures where solute particles disperse evenly through a solvent.
 URL: https://cbse.wyattau.com/chemistry/surface-chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6368,7 +6352,7 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 URL: https://cbse.wyattau.com/mathematics/-inverse-trig/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6648,7 +6632,7 @@ The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for convertin
 URL: https://cbse.wyattau.com/mathematics/continuity/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6883,7 +6867,7 @@ $$
 URL: https://cbse.wyattau.com/mathematics/derivatives/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -7161,7 +7145,7 @@ A derivative measures how fast something changes at a single instant. Think of i
 URL: https://cbse.wyattau.com/mathematics/determinants/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -7424,7 +7408,7 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 URL: https://cbse.wyattau.com/mathematics/differential-equations/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -7623,7 +7607,7 @@ Differential equations model nearly every physical phenomenon: population growth
 URL: https://cbse.wyattau.com/mathematics/integrals/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -7817,7 +7801,7 @@ Integration is the reverse of differentiation -- if a derivative gives you the r
 URL: https://cbse.wyattau.com/mathematics/linear-programming/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -8015,7 +7999,7 @@ Linear programming is used in logistics, supply chain management, telecommunicat
 URL: https://cbse.wyattau.com/mathematics/matrices/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -8191,7 +8175,7 @@ Matrices are rectangular arrays that compactly represent systems of linear equat
 URL: https://cbse.wyattau.com/mathematics/probability/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -8431,7 +8415,7 @@ Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
 URL: https://cbse.wyattau.com/mathematics/relations-functions/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9385,7 +9369,7 @@ When calculating the net electric field from multiple charges, students often ad
 URL: https://cbse.wyattau.com/physics/atoms-nuclei/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9642,7 +9626,7 @@ The radioactive decay law is $N = N_0 e^{-\lambda t}$ where $\lambda = \ln 2 / t
 URL: https://cbse.wyattau.com/physics/current-electricity/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9928,7 +9912,7 @@ In a balanced Wheatstone bridge, the ratio is $\frac{R_1}{R_2} = \frac{R_3}{R_4}
 URL: https://cbse.wyattau.com/physics/dual-nature/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -10126,7 +10110,7 @@ $$
 URL: https://cbse.wyattau.com/physics/electrostatics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -10415,7 +10399,7 @@ When dielectrics or plate separations change, students often treat capacitors as
 URL: https://cbse.wyattau.com/physics/magnetic-effects/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -10599,7 +10583,7 @@ The magnetic force $\vec{F} = q\vec{v} \times \vec{B}$ is always perpendicular t
 URL: https://cbse.wyattau.com/physics/mechanics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -10779,7 +10763,7 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 URL: https://cbse.wyattau.com/physics/optics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -10970,7 +10954,7 @@ Total internal reflection (TIR) only occurs when light travels from a medium wit
 URL: https://cbse.wyattau.com/physics/semiconductor/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -962,4 +962,3 @@ Using specific case studies and data to support arguments is essential for achie
 marks in geography assessments.
 
 ## Worked Examples
-

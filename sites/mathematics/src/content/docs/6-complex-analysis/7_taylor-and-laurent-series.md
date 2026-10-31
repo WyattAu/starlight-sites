@@ -196,4 +196,3 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

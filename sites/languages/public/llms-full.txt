@@ -198,7 +198,6 @@ Return to the [Languages Hub](/hub/) to compare languages, or jump into a specif
 
 Each language site in the network covers these concepts in depth with worked examples, start from the Languages Hub to navigate.
 
-
 ## Paradigms
 
 **Functional Programming**: Programmes built from pure functions and immutable data; Haskell is pure by default, Elixir is functional on the BEAM, and every mainstream language now borrows its ideas.
@@ -242,7 +241,6 @@ Each language site in the network covers these concepts in depth with worked exa
 **Coroutines**: Suspendable functions generalising async/await; Kotlin's structured concurrency and Python's async generators are coroutine-based.
 
 **Sum Type (Tagged Union)**: A value holding exactly one of several typed variants, Rust's enum, Swift's enum with associated values, Haskell's data declarations.
-
 
 ## Cross-Language Quick Reference
 
@@ -10780,8 +10778,7 @@ Dart is a client-optimised language for building apps on any platform, it compil
 URL: https://languages.wyattau.com/dart/02-setup/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -10819,7 +10816,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -10841,8 +10837,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/03-basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -10880,7 +10875,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -10902,8 +10896,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/04-object-oriented/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -10940,7 +10933,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -10967,8 +10959,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/05-async/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11005,7 +10996,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11032,8 +11022,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/06-collections/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11070,7 +11059,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11092,8 +11080,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/07-dart3-features/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11118,7 +11105,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11140,8 +11126,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/09-flutter-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11179,7 +11164,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11201,8 +11185,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/10-state-management/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11239,7 +11222,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11261,8 +11243,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/11-networking-and-data/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11299,7 +11280,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11321,8 +11301,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/14-testing/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11359,7 +11338,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11385,8 +11363,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/dart/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -11416,7 +11393,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -26108,8 +26084,7 @@ Functions and modules are the organizational backbone of Elixir:
 URL: https://languages.wyattau.com/elixir/00-intro/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26146,7 +26121,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26173,8 +26147,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/elixir/01-basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26211,7 +26184,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26238,8 +26210,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/elixir/02-functions-modules/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26276,7 +26247,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26298,8 +26268,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/elixir/03-concurrency/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26336,7 +26305,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26358,8 +26326,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/elixir/04-advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26397,7 +26364,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26419,8 +26385,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/elixir/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -26457,7 +26422,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -31447,8 +31411,7 @@ practical implementation, and key applications.
 URL: https://languages.wyattau.com/go/advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -31476,7 +31439,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -31498,8 +31460,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/go/basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -31525,7 +31486,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -31547,8 +31507,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/go/concurrency/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -31573,7 +31532,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -31595,8 +31553,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/go/intermediate/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -31621,7 +31578,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -31643,8 +31599,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/go/standard-library/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -31669,7 +31624,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -38915,8 +38869,7 @@ systems where correctness is critical and where concurrent operations are the no
 URL: https://languages.wyattau.com/haskell/00-intro/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -38953,7 +38906,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -38980,8 +38932,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/01-basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39018,7 +38969,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39046,8 +38996,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/02-pattern-matching/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39084,7 +39033,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39111,8 +39059,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/03-type-classes/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39149,7 +39096,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39171,8 +39117,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/04-monads/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39209,7 +39154,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39236,8 +39180,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/05-advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39275,7 +39218,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39297,8 +39239,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/haskell/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -39335,7 +39276,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -55456,8 +55396,7 @@ practical implementation, and key applications.
 URL: https://languages.wyattau.com/java/02-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55482,7 +55421,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55504,8 +55442,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/03-object-oriented/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55543,7 +55480,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55565,8 +55501,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/04-collections/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55604,7 +55539,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55626,8 +55560,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/05-streams/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55664,7 +55597,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55686,8 +55618,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/06-concurrency/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55725,7 +55656,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55747,8 +55677,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/07-best-practices/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55785,7 +55714,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55812,8 +55740,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/08-modern-java/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55851,7 +55778,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55873,8 +55799,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/09-jvm-internals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55899,7 +55824,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55921,8 +55845,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/10-io-nio/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -55960,7 +55883,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -55982,8 +55904,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/11-generics-reflection/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -56021,7 +55942,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -56043,8 +55963,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/12-exceptions/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -56081,7 +56000,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -56103,8 +56021,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/13-build-tools/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -56141,7 +56058,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -56163,8 +56079,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/14-testing/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -56201,7 +56116,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -56223,8 +56137,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/java/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -56250,7 +56163,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -71507,8 +71419,7 @@ implementation, and key applications.
 URL: https://languages.wyattau.com/kotlin/advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -71534,7 +71445,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -71556,8 +71466,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/kotlin/basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -71583,7 +71492,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -71605,8 +71513,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/kotlin/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -71631,7 +71538,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -71660,8 +71566,7 @@ Keep practising and reviewing to master this topic.
 URL: https://languages.wyattau.com/kotlin/intermediate/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -71688,7 +71593,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -93422,8 +93326,7 @@ practical implementation, and key applications.
 URL: https://languages.wyattau.com/python/02-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93451,7 +93354,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93473,8 +93375,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/03-data-structures/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93512,7 +93413,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93534,8 +93434,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/04-object-oriented/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93560,7 +93459,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93582,8 +93480,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/05-standard-library/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93610,7 +93507,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93632,8 +93528,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/06-async/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93670,7 +93565,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93697,8 +93591,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/07-best-practices/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93724,7 +93617,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93746,8 +93638,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/08-advanced-topics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93773,7 +93664,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -93795,8 +93685,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/python/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -93821,7 +93710,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -104972,8 +104860,7 @@ Ruby is a language optimised for developer happiness, everything is an object (i
 URL: https://languages.wyattau.com/ruby/00-intro/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105010,7 +104897,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -105037,8 +104923,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/ruby/01-basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105075,7 +104960,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -105103,8 +104987,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/ruby/02-control-flow/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105141,7 +105024,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -105168,8 +105050,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/ruby/03-methods-blocks/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105206,7 +105087,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -105228,8 +105108,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/ruby/05-advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105267,7 +105146,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -105289,8 +105167,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/ruby/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -105327,7 +105204,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -117984,8 +117860,7 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 URL: https://languages.wyattau.com/rust/01-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118023,7 +117898,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118045,8 +117919,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/02-ownership-borrowing/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118071,7 +117944,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118093,8 +117965,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/03-structs-enums/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118132,7 +118003,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118154,8 +118024,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/04-error-handling/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118193,7 +118062,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118215,8 +118083,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/05-traits-generics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118253,7 +118120,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118275,8 +118141,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/06-concurrency/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118301,7 +118166,6 @@ This section covers language learning, proficiency levels, and assessment framew
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118323,8 +118187,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/07-cargo-ecosystem/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118362,7 +118225,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -118384,8 +118246,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/rust/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -118411,7 +118272,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -130299,8 +130159,7 @@ Swift functions are first-class values that can be assigned to variables, passed
 URL: https://languages.wyattau.com/swift/00-intro/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -130337,7 +130196,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -130365,8 +130223,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/swift/01-basics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -130403,7 +130260,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -130431,8 +130287,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/swift/02-functions-closures/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -130469,7 +130324,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -130495,8 +130349,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/swift/04-advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -130534,7 +130387,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -130556,8 +130408,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://languages.wyattau.com/swift/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -130594,7 +130445,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -137665,7 +137515,7 @@ Generics are TypeScript's way of writing code that works with any type while pre
 URL: https://languages.wyattau.com/typescript/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # TypeScript
 

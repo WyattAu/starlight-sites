@@ -14,7 +14,6 @@ graph TD
     C --> D[Integration]
 ```
 
-
 **Binomial**: An algebraic expression with two terms, such as (a + b). The binomial theorem provides a formula for expanding (a + b)ⁿ.
 
 **Completing the Square**: A method for solving quadratic equations by rewriting ax² + bx + c in the form a(x - h)² + k. Used to derive the quadratic formula.

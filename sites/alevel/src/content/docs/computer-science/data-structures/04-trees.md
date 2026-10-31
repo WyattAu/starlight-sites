@@ -1059,4 +1059,3 @@ Height of the tree = **3**.
 ## Summary
 
 ## Worked Examples
-

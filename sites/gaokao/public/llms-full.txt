@@ -391,7 +391,6 @@ URL: https://gaokao.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -705,9 +704,7 @@ Score thresholds vary by province, year, and university. Generally, 985 universi
 URL: https://gaokao.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -1119,8 +1116,7 @@ import PracticeProblem from "@components/PracticeProblem";
 URL: https://gaokao.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Chemistry feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -1157,7 +1153,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -3052,8 +3047,7 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 URL: https://gaokao.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -3090,7 +3084,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -5127,8 +5120,7 @@ Coordinate geometry is like GPS navigation. The coordinate plane is your map, an
 URL: https://gaokao.wyattau.com/mathematics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -5152,7 +5144,6 @@ This section covers essential mathematical techniques and theories. Use the diag
 
 Work through Mathematics alongside the practice problems for Mathematics, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -5572,8 +5563,7 @@ Circuits are like road networks. Series circuits are single-lane roads where tra
 URL: https://gaokao.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Physics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -5597,7 +5587,6 @@ This section covers key physical principles, from classical mechanics to modern 
 
 Work through Physics alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

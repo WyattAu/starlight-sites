@@ -705,4 +705,3 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
   -- virtual thread memory characteristics
 
 ## Worked Examples
-

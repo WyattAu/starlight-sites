@@ -140,4 +140,3 @@ $ git gc
 # Prune ALL unreachable objects immediately
 $ git gc --prune=now
 ```
-

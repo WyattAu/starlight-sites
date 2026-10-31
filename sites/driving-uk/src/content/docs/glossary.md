@@ -23,7 +23,7 @@ tags: [glossary]
 
 **Conditional Offer**: A fixed penalty offer requiring payment of a fine and acceptance of penalty points within a set period.
 
-** totting-Up**: The process of disqualifying a driver who has accumulated 12 or more penalty points within a three-year period.
+**totting-Up**: The process of disqualifying a driver who has accumulated 12 or more penalty points within a three-year period.
 
 **Driving Ban (Disqualification)**: A court-ordered prohibition from driving for a specified period, imposed for serious offences or totting-up.
 
@@ -49,7 +49,7 @@ tags: [glossary]
 
 **Box Junction**: A criss-cross yellow marking at junctions where you must not enter unless your exit is clear, except when turning right.
 
-** zig-Zag Lines**: White zig-zag lines near pedestrian crossings indicating no overtaking or parking. Approaching zig-zags also prohibit U-turns.
+**zig-Zag Lines**: White zig-zag lines near pedestrian crossings indicating no overtaking or parking. Approaching zig-zags also prohibit U-turns.
 
 **Hatched Road Markings**: Diagonal white lines on the road surface that separate traffic streams or protect turning traffic. Solid borders should not be crossed.
 
@@ -149,7 +149,6 @@ tags: [glossary]
 
 - See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
 - See [Driving EU Glossary](https://typescript.wyattau.com/glossary/) for European driving regulations
-
 
 ## Licensing Terms
 

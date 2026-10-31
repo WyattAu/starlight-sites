@@ -169,4 +169,3 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

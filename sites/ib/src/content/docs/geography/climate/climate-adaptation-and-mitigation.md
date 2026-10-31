@@ -293,4 +293,3 @@ For related topics, see [./atmospheric-systems](/geography/climate/atmospheric-s
 ## Summary
 
 ## Worked Examples
-

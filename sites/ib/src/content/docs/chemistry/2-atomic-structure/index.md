@@ -7,8 +7,7 @@ description: "This section covers atomic structure concepts, definitions, and ap
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Atomic Structure feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -45,7 +44,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

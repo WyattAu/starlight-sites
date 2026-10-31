@@ -883,4 +883,3 @@ theory, practical implementation, and key applications.
 - dynamic programming
 
 ## Worked Examples
-

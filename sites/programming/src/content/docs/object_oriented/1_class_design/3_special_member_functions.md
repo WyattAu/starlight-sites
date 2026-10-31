@@ -697,4 +697,3 @@ generation rules, including key theorems, methods, and problem-solving approache
 - applications and modelling
 
 ## Worked Examples
-

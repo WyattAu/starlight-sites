@@ -14009,9 +14009,7 @@ For most applications, no. Safe Rust provides everything you need. Unsafe Rust i
 URL: https://rust.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 

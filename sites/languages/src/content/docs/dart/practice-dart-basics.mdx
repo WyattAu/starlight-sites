@@ -225,4 +225,3 @@ D. `build`
 **Answer: A**
 - `initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`.
 *Difficulty: hard*
-

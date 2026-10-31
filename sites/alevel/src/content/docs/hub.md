@@ -11,7 +11,6 @@ categories:
 
 ## Complete A-Level Study Guide
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -101,7 +100,6 @@ Confirm your centre's board before using past papers, specification wording and 
 
 **Spaced repetition** beats cramming: revisit each topic at expanding intervals (1 day, 3 days, 1 week). **Interleaving**, mixing topics within a session, builds discrimination between problem types, which is exactly what synoptic papers demand. **Past papers are the curriculum**: examiner reports show the same command words and mark-scheme patterns recur every year; studying them is the highest-yield hour you can spend.
 
-
 ## Assessment Objectives Across Subjects
 
 Every A-Level spec tests three objectives in different proportions: AO1 knowledge, AO2 application, AO3 analysis and evaluation. Sciences weight AO2 (applying knowledge to unfamiliar contexts) most heavily, which is why past-paper practice outperforms note re-reading. Essay subjects weight AO3: examiners reward argued judgement, not balanced summaries that refuse to conclude.
@@ -117,7 +115,6 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 ## Study Timeline
 
 **September-December (Year 1)**: build notes per topic as taught; end each topic with its exam-board past questions. **January-May (Year 1)**: first mock cycle; diagnose gaps from mock papers, not vibes. **June-September**: consolidate Year 1 content (Year 2 papers assume it); read ahead into Year 2 topics. **September-December (Year 2)**: NEA/coursework milestone for subjects that have it; begin weekly timed essays. **January-May (Year 2)**: two full mock cycles plus the final past-paper sprint, every recent paper, timed, marked against the scheme, mistakes logged.
-
 
 ## Quick Subject Index
 

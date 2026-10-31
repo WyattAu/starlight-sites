@@ -139,4 +139,3 @@ materials and practice tests. Focus on questions John finds difficult.
 
 - [Civics Questions](/us-citizenship/civics-questions/) - Practice all 100 questions
 - [Practice Test](/us-citizenship/practice-test/) - Test your knowledge
-

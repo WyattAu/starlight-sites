@@ -126,6 +126,7 @@ arithmetic stand.
 
 > **Exercise 0.4.** Prove the division algorithm for $b < 0$ by reducing to the case $b > 0$.
 > What changes in the inequality $0 \leq r < |b|$?
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 
 > **Exercise 0.5.** Show that for any integer $a$, $a^2 - a$ is divisible by 3.
 > *Hint:* $a \equiv 0, 1, \text{ or } 2 \pmod 3$ — but you can also prove it by factoring
@@ -178,6 +179,7 @@ a gcd — it proves a structural theorem about the integers.
 > **Exercise 0.6.** Find $\gcd(12, 42)$ and Bézout coefficients. Then find *all* solutions to
 > $12x + 42y = 6$.
 > *Answer:* $\gcd = 6$; $12(-3) + 42(1) = 6$; all solutions are $x = -3 + 7t$, $y = 1 - 2t$.
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 
 > **Exercise 0.7.** Show that $\gcd(a, b) = \gcd(a, b - a) = \gcd(a, a + b)$.
 > *Why this matters:* this is the mathematical basis of the subtraction-based Euclidean algorithm

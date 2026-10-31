@@ -194,7 +194,6 @@ URL: https://driving-eu.wyattau.com/glossary/
 - See [Driving UK Glossary](https://typescript.wyattau.com/glossary/) for UK Highway Code terms
 - See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
 
-
 ## Convention and Licensing
 
 **Vienna Convention (1968)**: The treaty harmonising road signs, signals, and rules across most European countries; the source of the triangular-warning, circular-prohibition, rectangular-information system.
@@ -218,7 +217,6 @@ URL: https://driving-eu.wyattau.com/glossary/
 **Radar Trap Warning**: In many countries portable warning signs for automated speed enforcement; fines vary by national scale.
 
 **Toll Systems**: Vignette (time-based sticker, e.g., Austria, Switzerland) versus per-kilometre electronic tolling (e.g., Hungary's e-vignette, Portugal's electronic-only lanes).
-
 
 ## Rules of the Road
 
@@ -812,8 +810,7 @@ intersection. Vehicles on other roads must yield to you.
 URL: https://driving-eu.wyattau.com/theory-test/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
 
@@ -849,7 +846,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

@@ -773,4 +773,3 @@ For performance-critical code where ordered iteration is not needed, consider al
 Associative containers are like dictionaries, but organized by content rather than by position. A `std::set` is a bookshelf where every book is automatically placed in alphabetical order by title, so you can find any book quickly without scanning the whole shelf. A `std::map` is a card catalog where each card has a unique label (the key) and points to information (the value). The trade-off is that insertion is slower than a vector because the container must maintain order, but lookup is logarithmic rather than linear.
 
 ## Worked Examples
-

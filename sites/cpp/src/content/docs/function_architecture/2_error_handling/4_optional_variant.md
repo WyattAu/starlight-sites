@@ -650,4 +650,3 @@ std::optional and std::variant, including key theorems, methods, and problem-sol
 - binomial expansion
 
 ## Worked Examples
-

@@ -1000,4 +1000,3 @@ Introspected).
 ## Summary
 
 ## Worked Examples
-

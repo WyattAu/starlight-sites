@@ -110,7 +110,6 @@ identity $p_3 q_2 - p_2 q_3 = (-1)^3$.
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
 - [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
 
-
 $$
 \left| \alpha - \frac{p_k}{q_k} \right| < \frac{1}{q_k q_{k+1}} \leq \frac{1}{q_k^2}
 $$

@@ -244,4 +244,3 @@ For related topics, see [./measuring-development](/geography/development/measuri
 ## Summary
 
 ## Worked Examples
-

@@ -123,4 +123,3 @@ Write a report on a workplace issue, including:
 - [Cefr Levels](./)
 - [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
 - [A1 Beginner](/cefr-levels/a1-beginner/)
-

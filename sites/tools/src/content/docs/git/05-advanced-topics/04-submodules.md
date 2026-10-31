@@ -100,4 +100,3 @@ $ git clone --recurse-submodules https://github.com/user/project.git
 # Initialize submodules after cloning
 $ git submodule update --init --recursive
 ```
-

@@ -20,7 +20,6 @@ from first principles, defines every term before it is used, and ends with a
 self-test so confident readers can skip by assessment rather than by trust.
 :::
 
-
 Welcome to the Chemistry notes.
 
 Browse the content using the sidebar navigation on the left.
@@ -108,4 +107,3 @@ The practical power of chemistry lies in prediction. If you understand that nucl
 - Failing to connect concepts across topics
 
 ### Further Reading
-

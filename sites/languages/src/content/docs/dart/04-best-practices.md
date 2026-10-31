@@ -158,4 +158,3 @@ categories:
 - **[Classes and Inheritance](https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance/):** Object-oriented design patterns for immutable data classes.
 - **[Async and Futures](https://dart.wyattau.com/05-async/01-async-and-futures/):** Concurrency best practices including async/await and isolate usage.
 - **[Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/):** Dart 3 modifier patterns for API boundary enforcement.
-

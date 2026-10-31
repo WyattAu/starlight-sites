@@ -10046,8 +10046,7 @@ State management is like the nervous system of a Flutter app -- it senses change
 URL: https://dart.wyattau.com/11-networking-and-data/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -10083,7 +10082,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -18960,9 +18958,7 @@ Use `flutter build` to compile for your target platform. For mobile, use `flutte
 URL: https://dart.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -19501,7 +19497,7 @@ D. It compiles successfully',
 **Q2. What is the type of `List&lt;int&gt;? numbers = [1, 2, 3];`?**
 
 A. The variable is of type `List&lt;int&gt;?` and currently holds a non-null `List&lt;int&gt;
-B. It is of type `List&lt;int&gt;` (the ? is ignored)
+B. It is of type`List&lt;int&gt;` (the ? is ignored)
 C. Compilation error: cannot assign List&lt;int&gt; to List&lt;int&gt;?
 D. It is of type `dynamic`',
 

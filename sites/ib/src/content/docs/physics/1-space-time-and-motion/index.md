@@ -7,8 +7,7 @@ description: "This section covers space time and motion concepts, definitions, a
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -34,7 +33,6 @@ This section covers key physical principles, from classical mechanics to modern 
 
 Revision works best in one direction here: read Space Time And Motion, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

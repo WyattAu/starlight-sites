@@ -137,4 +137,3 @@ Geometry is the language of shapes and space. Angles are the conversation betwee
 - [Algebra](/mathematics/algebra/) -- Coordinate geometry combines algebraic equations with geometric shapes to solve problems involving lines and circles.
 - [Data Analysis](/mathematics/data-analysis/) -- Area and volume calculations appear in data interpretation questions involving real-world contexts.
 - [Reading Comprehension](/reading/comprehension/) -- Visual information in passages such as maps and diagrams requires geometric reasoning.
-

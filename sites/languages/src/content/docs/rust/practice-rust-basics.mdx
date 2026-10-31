@@ -73,4 +73,3 @@ an answer, submit, and review the explanation.
 **Confusing `Rc` with `Arc` for threading:** `Rc` is not `Send` or `Sync`it cannot be shared across threads. Use `Arc` for multi-threaded shared ownership and `Rc` for single-threaded scenarios.
 
 **Ignoring cancellation safety in `select!`:** Futures that are not cancellation-safe can leave shared state inconsistent when dropped by `select!`. Always use cancellation-safe operations in select branches.
-

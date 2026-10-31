@@ -818,4 +818,3 @@ This topic covers the essential concepts and techniques related to shared owners
 - evaluation and critical analysis
 
 ## Worked Examples
-

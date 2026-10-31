@@ -8,7 +8,7 @@ title: "Theory of Computation"
 description: 'A-Level Computer Science Theory of Computation notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

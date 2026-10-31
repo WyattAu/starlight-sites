@@ -283,4 +283,3 @@ Cities are thermal machines. Concrete and asphalt absorb solar radiation like a 
 ## Summary
 
 ## Worked Examples
-

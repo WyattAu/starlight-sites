@@ -11,7 +11,7 @@ tags:
   - University
 ---
 sources:
-  - text: Cormen et al - Introduction to Algorithms
+- text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

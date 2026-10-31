@@ -30,7 +30,6 @@ extension functions -- the concepts that make Kotlin different from Java, each
 defined from the ground up with the Java intuition named and upgraded.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

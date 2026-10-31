@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for 2_algorith
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_algorithms_and_ranges. Revision works best in one direction here: read 2_algorithms_and_ranges, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -34,7 +33,6 @@ This section provides study materials and resources for 2_algorithms_and_ranges.
 
 Work through 2_algorithms_and_ranges alongside the practice problems for Standard Library, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

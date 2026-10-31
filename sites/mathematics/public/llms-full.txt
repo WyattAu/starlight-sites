@@ -1915,7 +1915,7 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 URL: https://mathematics.wyattau.com/1-abstract-algebra/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4322,7 +4322,7 @@ The Fubini and Tonelli theorems justify the interchange of the order of integrat
 URL: https://mathematics.wyattau.com/10-measure-theory/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -7571,7 +7571,7 @@ Functional analysis developed from concrete problems in integral equations, quan
 URL: https://mathematics.wyattau.com/11-functional-analysis/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9812,7 +9812,7 @@ convergent sequences.
 **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
-#**Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
+# **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
 ## Proofs
@@ -12018,7 +12018,7 @@ theory is the repair, and it is a genuinely different subject.
 URL: https://mathematics.wyattau.com/12-differential-geometry/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -17342,7 +17342,7 @@ Linear algebra studies vector spaces and linear maps between them. A vector spac
 URL: https://mathematics.wyattau.com/2-linear-algebra/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -21939,7 +21939,7 @@ and [Riemann Integration](/3-real-analysis/6_riemann-integration/).
    increasing, and deduce that a function with $f' = 0$ everywhere is constant.
 4. (Taylor.) Show that $\sin x = x - x^3/6 + o(x^4)$ and use it to compute
    $\lim_{x \to 0} \frac{\sin x - x}{x^3}$.
-5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x 
+5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x
 e 0$,
    $f'(0) = 0$ has the intermediate value property but is discontinuous at $0$.
 
@@ -22083,7 +22083,7 @@ Real analysis is where calculus gets rigorous, every epsilon, every delta, every
 URL: https://mathematics.wyattau.com/3-real-analysis/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -24328,7 +24328,6 @@ URL: https://mathematics.wyattau.com/3-real-analysis/1_the-real-number-system/
 }
 </script>
 
-
 ## Recall prompts
 
 Attempt these from memory *before* reading.
@@ -25112,7 +25111,7 @@ Multivariable calculus extends single-variable calculus to functions of several 
 URL: https://mathematics.wyattau.com/4-multivariable-calculus/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -27553,7 +27552,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
   handled separately.
-- ** connected domains.** The condition $\nabla \times \mathbf{F} = \mathbf{0}$ guarantees that
+- **connected domains.** The condition $\nabla \times \mathbf{F} = \mathbf{0}$ guarantees that
   $\mathbf{F}$ is conservative only on a connected domain. For example,
   $\mathbf{F} = \frac{(-y, x)}{x^2 + y^2}$ has zero curl on $\mathbb{R}^2 \setminus \\{(0,0)\\}$ but
   is not conservative there (the domain is not connected).
@@ -28439,7 +28438,7 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 URL: https://mathematics.wyattau.com/5-ordinary-differential-equations/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -33403,7 +33402,7 @@ Complex analysis studies functions of complex numbers, and the surprise is how m
 URL: https://mathematics.wyattau.com/6-complex-analysis/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -35063,7 +35062,6 @@ Squares mod 4 are 0 and 1, so a sum of two squares is $0, 1$ or $2 \pmod 4$ — 
 
 Residue classes are preserved by polynomial evaluation: if $a \equiv b \pmod n$ then $f(a) \equiv f(b) \pmod n$ for any integer polynomial $f$. Verify for $f(x) = x^2 + x + 1$ with $a = 2$, $b = 5$, $n = 3$ before using it in proofs.
 
-
 $$
 a \equiv b \pmod n, \quad c \equiv d \pmod n \Longrightarrow ac \equiv bd \pmod n
 $$
@@ -35189,7 +35187,6 @@ identity $p_3 q_2 - p_2 q_3 = (-1)^3$.
 - [Pell's Equation and Sums of Squares](/7-number-theory/9_sums-of-squares-and-pells-equation/)
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
 - [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
-
 
 $$
 \left| \alpha - \frac{p_k}{q_k} \right| < \frac{1}{q_k q_{k+1}} \leq \frac{1}{q_k^2}
@@ -35389,7 +35386,6 @@ the $s \to 1$ edge of that analytic theory.
 
 Estimate $\pi(10^8)$ using $x/\ln x$ and $\mathrm{Li}(x)$: $10^8/\ln 10^8 \approx 5{,}428{,}681$ against the true $\pi(10^8) = 5{,}761{,}455$; $\mathrm{Li}(10^8) \approx 5{,}762{,}209$ is dramatically closer. Comment on why $\mathrm{Li}$ stays closer for every measurable $x$.
 
-
 $$
 \pi(x) \approx \frac{x}{\ln x - 1}
 $$
@@ -35528,6 +35524,7 @@ arithmetic stand.
 
 > **Exercise 0.4.** Prove the division algorithm for $b < 0$ by reducing to the case $b > 0$.
 > What changes in the inequality $0 \leq r < |b|$?
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 
 > **Exercise 0.5.** Show that for any integer $a$, $a^2 - a$ is divisible by 3.
 > *Hint:* $a \equiv 0, 1, \text{ or } 2 \pmod 3$ — but you can also prove it by factoring
@@ -35580,6 +35577,7 @@ a gcd — it proves a structural theorem about the integers.
 > **Exercise 0.6.** Find $\gcd(12, 42)$ and Bézout coefficients. Then find *all* solutions to
 > $12x + 42y = 6$.
 > *Answer:* $\gcd = 6$; $12(-3) + 42(1) = 6$; all solutions are $x = -3 + 7t$, $y = 1 - 2t$.
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 
 > **Exercise 0.7.** Show that $\gcd(a, b) = \gcd(a, b - a) = \gcd(a, a + b)$.
 > *Why this matters:* this is the mathematical basis of the subtraction-based Euclidean algorithm
@@ -36050,7 +36048,6 @@ congruence.
 
 Solve $x \equiv 1 \pmod 6$, $x \equiv 7 \pmod{10}$: $\gcd(6, 10) = 2$ and $1 \equiv 7 \equiv 1 \pmod 2$, so solutions exist. Combine into $x \equiv 7 \pmod{\mathrm{lcm}(6,10) = 30}$, i.e. $x = 7, 37, \ldots$
 
-
 $$
 x = a_1 M_1 y_1 + a_2 M_2 y_2, \qquad M_i = M/m_i, \quad M = m_1 m_2
 $$
@@ -36174,7 +36171,6 @@ using $c_1^a = g^{ka} = A^k$. Security rests on the Diffie–Hellman problem.
 - [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
 - [Linear Congruences and the Chinese Remainder Theorem](/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/)
 
-
 $$
 m^{ed} \equiv m \pmod n \quad \text{whenever } ed \equiv 1 \pmod{\varphi(n)}
 $$
@@ -36275,7 +36271,7 @@ is a prime not in the list — contradiction. $\blacksquare$
 
 Note the proof gives **no efficient method** for producing new primes: $p_1 \cdots p_k + 1$ need
 not be prime (the products are called *Euclid numbers*; $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13
-+ 1 = 30031 = 59 \times 509$ is composite).
+- 1 = 30031 = 59 \times 509$ is composite).
 
 ### 2.3 The Fundamental Theorem of Arithmetic
 
@@ -36457,7 +36453,6 @@ $\gcd(k, p-1) = 1$.
 
 Solve $3^x \equiv 5 \pmod 7$ using index tables base 3: $\operatorname{ind}_3(5) = 5$ and $\operatorname{ind}_3(3) = 1$, so $x \equiv 5 \pmod 6$ — the linear-congruence method from the CRT page.
 
-
 $$
 \operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)
 \pmod{\varphi(n)}
@@ -36466,7 +36461,6 @@ $$
 Index arithmetic converts multiplication problems into linear congruences. To compute
 $3^{17} \pmod{7}$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
 $3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
-
 
 $$
 \operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)
@@ -36575,7 +36569,6 @@ Euler: $(-1)^{(p-1)/2} = 1$ iff $p \equiv 1 \pmod 4$.
 
 Mod 11, the QRs are $\{1, 3, 4, 5, 9\}$ — exactly $(11-1)/2 = 5$ classes. Verify by squaring $1, \ldots, 10$ and note the symmetry $x$ and $11 - x$ share a square.
 
-
 $$
 \left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p
 $$
@@ -36583,7 +36576,6 @@ $$
 Euler's criterion doubles as a computation recipe: exponentiate and read the sign. For
 $p = 23$, $a = 5$: $5^{11} \equiv -1 \pmod{23}$, so 5 is a non-residue and $x^2 \equiv 5$ has
 no solution. Pair this with reciprocity for a two-mark derivation.
-
 
 $$
 \left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p
@@ -36700,7 +36692,6 @@ the form $4^a(8b + 7)$.
 - [Congruences](/7-number-theory/3_congruences/)
 - [Quadratic Residues](/7-number-theory/8_quadratic-residues/)
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
-
 
 $$
 x_k + y_k \sqrt{D} = (x_1 + y_1 \sqrt{D})^k
@@ -37241,7 +37232,6 @@ only provides evidence against $H_0$; absence of evidence is not evidence of abs
 distinction is critical in scientific Reasoning.
 :::
 
-
 ## Counterexamples worth knowing by name
 
 <div class="table-wrap">
@@ -37386,7 +37376,7 @@ Probability theory provides the mathematical framework for quantifying uncertain
 URL: https://mathematics.wyattau.com/8-probability-and-statistics/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -37714,7 +37704,7 @@ Theory](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
    of a sum of independent variables.
 3. (Probability.) Show that the bivariate normal with correlation $
 ho$ has
-   conditional mean $\mu_Y + 
+   conditional mean $\mu_Y +
 ho rac{\sigma_Y}{\sigma_X}(x - \mu_X)$, and
    explain why this is the regression line.
 4. (Limit theorems.) Use the CLT and the delta method to find the asymptotic
@@ -37916,7 +37906,7 @@ e^{-it\sqrt{n}\mu/\sigma}.
 $$
 
 Expanding around zero, $\varphi_X(s) = 1 + i\mu s - \frac{(\sigma^2+\mu^2)s^2}{2}
-+ o(s^2)$, so with $s = t/(\sigma\sqrt n)$,
+- o(s^2)$, so with $s = t/(\sigma\sqrt n)$,
 
 $$
 \varphi_n(t) = \left[1 + \frac{i\mu t}{\sigma\sqrt n} -
@@ -41457,7 +41447,6 @@ $t_{0.05, 24} = 1.711$. Since $1.875 > 1.711$, reject $H_0$ at the 5% level.
 
 $\blacksquare$
 
-
 ```mermaid
 flowchart TD
     A[5_Transformations And Convolutions] --> B[Key Definitions]
@@ -42958,7 +42947,7 @@ The pasting lemma requires that the two pieces agree on their intersection and t
 URL: https://mathematics.wyattau.com/9-topology/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -45544,7 +45533,6 @@ graph TD
     C --> D[Integration]
 ```
 
-
 **Binomial**: An algebraic expression with two terms, such as (a + b). The binomial theorem provides a formula for expanding (a + b)ⁿ.
 
 **Completing the Square**: A method for solving quadratic equations by rewriting ax² + bx + c in the form a(x - h)² + k. Used to derive the quadratic formula.
@@ -46136,7 +46124,6 @@ written to be skimmed by confident readers: take the self-test at the end, and
 only study the sections whose answers surprise you.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -46676,7 +46663,6 @@ written to be skimmed by confident readers: take the self-test at the end, and
 only study the sections whose answers surprise you.
 :::
 
-
 ## Mathematics
 
 Welcome to the mathematics notes. These notes cover proof-based undergraduate mathematics, from foundational algebraic structures to advanced analysis and geometry.
@@ -46784,7 +46770,7 @@ The proof techniques themselves are not arbitrary logical exercises. Direct proo
 URL: https://mathematics.wyattau.com/overview/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -48356,7 +48342,7 @@ uncountable (the Cantor set).
 URL: https://mathematics.wyattau.com/demos/
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 This section covers essential mathematical techniques and theories. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -48863,8 +48849,7 @@ URL: https://mathematics.wyattau.com/diagnostics/diag-linear-algebra/
 URL: https://mathematics.wyattau.com/diagnostics/
 
 sources:
-  - text: Spivak - Calculus
-
+- text: Spivak - Calculus
 
 # Diagnostics
 
@@ -48937,9 +48922,7 @@ Hub](/hub/), which also carries the prerequisite map and the rigour ladder.
 URL: https://mathematics.wyattau.com/zh/
 
 sources:
-  - text: Spivak - Calculus
-
-
+- text: Spivak - Calculus
 
 ## 数学学习笔记
 
@@ -48977,22 +48960,22 @@ sources:
 
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 *此页面为中文版本。部分内容可能尚未完全翻译。*
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 ## Cross-References
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 - **[Abstract Algebra](../abstract-algebra)**: 群、环和域是现代数学许多分支的代数基础。
 sources:
   - text: Spivak - Calculus
@@ -49004,25 +48987,25 @@ sources:
   - text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 ## Common Mistakes
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 **Assuming English and Chinese mathematical terminology correspond 1:1:** While most concepts translate directly, some terms differ in scope. For example, "代数" in Chinese can mean both "algebra" (the field) and "algebra" (a structure with operations). Always verify which meaning is intended in context.
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 **Confusing simplified and traditional character forms in mathematical notation:** Some LaTeX commands render differently depending on the font configuration. When mixing Chinese text with mathematical formulas, ensure the encoding is consistent (UTF-8) and test the output in the browser rather than assuming terminal rendering matches.
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 **Neglecting that mathematical proofs are language-independent:** The logical structure of a proof does not change with translation. However, cultural conventions in mathematical writing differ, Chinese mathematical texts often provide more intermediate steps. Adapt your reading strategy to the style rather than assuming the proof structure differs.
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus

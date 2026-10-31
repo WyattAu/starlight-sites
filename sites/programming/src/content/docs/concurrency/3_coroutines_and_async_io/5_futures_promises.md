@@ -618,4 +618,3 @@ Manual `stop_token` integration as shown above is the recommended approach.
    understanding.
 
 ## Worked Examples
-

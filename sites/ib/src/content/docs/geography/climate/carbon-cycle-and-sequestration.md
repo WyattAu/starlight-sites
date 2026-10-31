@@ -278,4 +278,3 @@ At [../climate-change](/geography/climate-change/).
 ## Summary
 
 ## Worked Examples
-

@@ -274,4 +274,3 @@ For related topics, see [./trade-and-aid](/geography/development/trade-and-aid/)
 ## Summary
 
 ## Worked Examples
-

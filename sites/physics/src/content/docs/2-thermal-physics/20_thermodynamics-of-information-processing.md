@@ -185,4 +185,3 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 - [Thermal Physics](./)
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
 - [Phase Transitions](/2-thermal-physics/10_phase-transitions/)
-

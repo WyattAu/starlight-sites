@@ -538,4 +538,3 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 ## Summary
 
 ## Worked Examples
-

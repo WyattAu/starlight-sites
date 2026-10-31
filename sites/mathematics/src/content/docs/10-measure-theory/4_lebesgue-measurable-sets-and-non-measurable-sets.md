@@ -329,4 +329,3 @@ Every Borel set is Lebesgue measurable, but not vice versa. The Cantor set is Bo
 
 **Mistake 3: Assuming outer measure is additive**
 Outer measure $m^*$ is subadditive ($m^*(\bigcup A_n) \leq \sum m^*(A_n)$) but not additive. For disjoint non-measurable sets, outer measure can fail to be additive. Additivity holds only for measurable sets. The Vitali construction exploits this failure: the outer measure of the union of translates of $V$ is bounded, but the sum of outer measures is not.
-

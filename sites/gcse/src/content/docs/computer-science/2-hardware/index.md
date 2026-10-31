@@ -7,7 +7,7 @@ description: "This section covers hardware concepts, definitions, and applicatio
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Hardware feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 

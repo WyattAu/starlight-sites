@@ -8,7 +8,7 @@ description: "DSE Physics notes covering key definitions, core concepts, worked 
 tableOfContents: false
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -7,7 +7,7 @@ description: "Diagnostic test notes for physics Diagnostics covering key concept
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 This section covers key physical principles, from classical mechanics to modern physics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -224,4 +224,3 @@ $\mu_k = \frac{f_k}{N} = \frac{10}{49} \approx 0.204$
 - Cross-references to related topics
 
 ## Study Tips
-

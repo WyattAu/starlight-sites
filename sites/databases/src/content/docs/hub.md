@@ -30,7 +30,6 @@ as a declarative language, explains the ACID guarantees and why each exists,
 and introduces normalisation -- the concepts the rest of this track assumes.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

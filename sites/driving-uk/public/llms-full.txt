@@ -318,7 +318,7 @@ URL: https://driving-uk.wyattau.com/glossary/
 
 **Conditional Offer**: A fixed penalty offer requiring payment of a fine and acceptance of penalty points within a set period.
 
-** totting-Up**: The process of disqualifying a driver who has accumulated 12 or more penalty points within a three-year period.
+**totting-Up**: The process of disqualifying a driver who has accumulated 12 or more penalty points within a three-year period.
 
 **Driving Ban (Disqualification)**: A court-ordered prohibition from driving for a specified period, imposed for serious offences or totting-up.
 
@@ -344,7 +344,7 @@ URL: https://driving-uk.wyattau.com/glossary/
 
 **Box Junction**: A criss-cross yellow marking at junctions where you must not enter unless your exit is clear, except when turning right.
 
-** zig-Zag Lines**: White zig-zag lines near pedestrian crossings indicating no overtaking or parking. Approaching zig-zags also prohibit U-turns.
+**zig-Zag Lines**: White zig-zag lines near pedestrian crossings indicating no overtaking or parking. Approaching zig-zags also prohibit U-turns.
 
 **Hatched Road Markings**: Diagonal white lines on the road surface that separate traffic streams or protect turning traffic. Solid borders should not be crossed.
 
@@ -444,7 +444,6 @@ URL: https://driving-uk.wyattau.com/glossary/
 
 - See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
 - See [Driving EU Glossary](https://typescript.wyattau.com/glossary/) for European driving regulations
-
 
 ## Licensing Terms
 
@@ -1007,7 +1006,7 @@ You can retake the theory test after a waiting period of 3 working days. There i
 URL: https://driving-uk.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # UK Driving Test
 
@@ -2940,8 +2939,7 @@ The practical driving test includes several manoeuvres you must demonstrate. You
 URL: https://driving-uk.wyattau.com/practical-test/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
 
@@ -2977,7 +2975,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -3097,8 +3094,7 @@ A developing hazard is something that:
 URL: https://driving-uk.wyattau.com/theory-test/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
 
@@ -3123,7 +3119,6 @@ This section covers driving theory and practical knowledge required for the driv
 
 Work through the Driving (UK) sections in order, starting with Highway Code and Practical Test and building toward Highway Code, Practical Test, Practice, Road Signs, Theory Test and Vehicle Safety, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

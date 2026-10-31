@@ -209,4 +209,3 @@ Conversely, $\|f\|_p \leq M\,\mu(X)^{1/p}$, so $\limsup_{p\to\infty} \|f\|_p \le
 $\blacksquare$
 
 </details>
-

@@ -162,4 +162,3 @@ Density functional theory replaces the complicated many-body wavefunction with t
 
 - **Hohenberg--Kohn mapping.** The external potential $V_{\text{ext}}(\mathbf{r})$ is a unique functional of the ground-state density $n(\mathbf{r})$ (up to a constant), so all ground-state properties are functionals of $n$ alone.
 - **Kohn--Sham self-consistency.** The effective potential $V_{\text{eff}}[n]$ depends on $n(\mathbf{r})$, which is built from the Kohn--Sham orbitals that are themselves solutions of the equations with $V_{\text{eff}}[n]$. This requires iterative self-consistent solution.
-

@@ -165,4 +165,3 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

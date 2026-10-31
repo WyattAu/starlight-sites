@@ -153,7 +153,6 @@ tags: [glossary]
 - See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals
 - See [University Admissions Glossary](https://typescript.wyattau.com/glossary/) for university application process
 
-
 ## Practical and Internal Assessment
 
 **Practical Notebook**: The CBSE-required record of laboratory experiments, viva questions, and diagrams, marked internally.

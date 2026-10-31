@@ -156,4 +156,3 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 **Adding force magnitudes directly without vector components.** Forces are vectors, when multiple charges act on a charge, you must resolve forces into components and add them vectorially, not just add the magnitudes. F_net ≠ F₁ + F₂ unless the forces are in the same direction.
 
 **Confusing the equilibrium position between two charges.** For two like charges, the equilibrium point is between them, closer to the smaller charge. For two unlike charges, the equilibrium point is outside the charges, on the side of the smaller charge (magnitude). Students often place the equilibrium point at the midpoint regardless of charge magnitudes.
-

@@ -181,4 +181,3 @@ Query optimisation is the difference between a librarian who checks every shelf 
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
-

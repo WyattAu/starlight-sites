@@ -108,4 +108,3 @@ The sociocultural approach explains behaviour in terms of cultural and social in
 - Use the comparison table structure for "compare and contrast" questions
 - Link each approach to a specific research study
 - Evaluate strengths AND weaknesses of each approach
-

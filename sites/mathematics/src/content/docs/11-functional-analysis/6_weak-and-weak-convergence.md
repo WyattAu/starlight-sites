@@ -100,7 +100,7 @@ convergent sequences.
 **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
-#**Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
+# **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
 ## Proofs
@@ -297,4 +297,3 @@ If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness 
 4. Show that $L^\infty([0,1])$ is not reflexive by finding a bounded sequence with no weakly
    convergent subsequence.
 5. Let $T : X \to Y$ be compact. Prove that if $x_n \rightharpoonup 0$, then $T x_n \to 0$.
-

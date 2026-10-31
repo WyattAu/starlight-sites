@@ -265,4 +265,3 @@ Water scarcity is not just about how much rain falls but about whether societies
 ## Summary
 
 ## Worked Examples
-

@@ -154,4 +154,3 @@ with your seatbelt on until help arrives.
 - [Traffic Rules](/rules/traffic-rules/) - Speed and lane rules
 - [Defensive Driving](/safe-driving/defensive-driving/) - Hazard perception
 - [Signs](/signs/regulatory-signs/) - Highway signs
-

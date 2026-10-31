@@ -112,7 +112,6 @@ appears in nearly every state exam.
 
 </div>
 
-
 ## Signal Catalog
 
 <div class="table-wrap">

@@ -22,7 +22,6 @@ categories:
 
 ## A Level Economics, Course Overview
 
-
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**

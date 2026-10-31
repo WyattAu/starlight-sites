@@ -8,7 +8,7 @@ description: "DSE Economics notes covering key definitions, core concepts, worke
 tableOfContents: false
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -44,7 +44,6 @@ sources:
 </script>
 
 ## DSE Economics
-
 
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the

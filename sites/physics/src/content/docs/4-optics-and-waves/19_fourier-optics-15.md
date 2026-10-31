@@ -167,4 +167,3 @@ Fourier optics reveals that every lens is a frequency analyser. When light passe
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and diffraction theory provide the physical foundation for the Fourier transform interpretation of lens systems.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-

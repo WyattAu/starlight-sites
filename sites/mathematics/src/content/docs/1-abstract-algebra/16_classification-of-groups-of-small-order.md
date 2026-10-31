@@ -147,4 +147,3 @@ Beyond order 12, the classification continues to grow in complexity:
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-

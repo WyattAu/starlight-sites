@@ -170,4 +170,3 @@ $\blacksquare$
 - [Optics and Wave Physics](./)
 - [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
 - [Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)
-

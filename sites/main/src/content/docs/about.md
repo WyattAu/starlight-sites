@@ -92,7 +92,6 @@ The full property list spans **academic curriculum** (alevel.wyattau.com, gcse.w
 
 Every content page carries a date and its sources. Corrections and suggestions are welcome, accuracy outranks completeness, and fixes ship quickly.
 
-
 ## Why Subdomains
 
 Each discipline lives on its own subdomain so that navigation, tone, and depth can match its audience, a Hong Kong DSE candidate and a sysadmin tuning ZFS want different things from a study site. Shared infrastructure (search, design system, components) keeps the network consistent; per-site ownership keeps the content honest. Cross-links connect disciplines where the ideas genuinely meet, so following a concept never dead-ends at a site boundary.
@@ -104,7 +103,6 @@ Pages are tiered: index pages orient and link, standard pages teach a topic in f
 ## Technology
 
 The network is a single Astro/Starlight monorepo: one shared component and design library, per-site content collections, staged deployments with automatic rollback, and schema validation on every content file before anything reaches production. Search runs on a Cloudflare Worker indexing the whole network. Performance budgets and accessibility checks gate deploys alongside content quality.
-
 
 ## Site Directory
 

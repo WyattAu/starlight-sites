@@ -180,4 +180,3 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
-

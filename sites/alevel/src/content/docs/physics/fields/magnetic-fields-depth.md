@@ -202,7 +202,7 @@ work must be done to maintain the flux change, and this work appears as electric
 rule to find The induced current direction.
 :::
 
-### Motional e.m.f.
+### Motional e.m.f
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:
 

@@ -840,4 +840,3 @@ int main() {
 ## Summary
 
 ## Worked Examples
-

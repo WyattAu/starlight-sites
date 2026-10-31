@@ -83,4 +83,3 @@ review the explanation.
 **Ignoring exhaustiveness checking in discriminated unions:** Omitting a `never` default case in switch statements means new union members won't trigger compile errors. Always add a `never` assertion to catch missing cases.
 
 **Forgetting that `Readonly` is shallow:** `Readonly<T>` only makes top-level properties readonly. Nested objects remain mutable. Use `ReadonlyDeep` from `type-fest` for deep immutability.
-

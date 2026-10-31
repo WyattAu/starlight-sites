@@ -949,4 +949,3 @@ Mathematics is the science of patterns. Algebra captures relationships between q
 ## Summary
 
 ## Worked Examples
-

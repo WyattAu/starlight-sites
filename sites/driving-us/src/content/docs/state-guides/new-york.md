@@ -86,7 +86,6 @@ From the official Driver's Manual:
 - Misreading the school-bus rule: on divided highways, traffic
   behind the bus (and oncoming on undivided roads) must stop.
 
-
 ## NY Fees and Milestones Quick Table
 
 <div class="table-wrap">
@@ -119,7 +118,6 @@ From the official Driver's Manual:
 | U-turns | Illegal in business districts |
 
 </div>
-
 
 ## Test-Day Checklist for NY
 

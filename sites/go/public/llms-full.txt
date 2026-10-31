@@ -631,7 +631,6 @@ CSP model that makes race conditions impossible by construction, covers
 interfaces without inheritance, and names the features Go removed by design.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -878,9 +877,7 @@ Yes. Go was designed for large codebases with many contributors. Its simplicity,
 URL: https://go.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -967,7 +964,6 @@ URL: https://go.wyattau.com/intro/
 
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -983,7 +979,6 @@ first. It builds goroutines and channels from first principles, explains the
 CSP model that makes race conditions impossible by construction, covers
 interfaces without inheritance, and names the features Go removed by design.
 :::
-
 
 ## Why Go
 
@@ -1462,25 +1457,17 @@ All workers finished
 
 ### Types
 
-
-
 ---
 
 ### Functions
-
-
 
 ---
 
 ### Control Flow
 
-
-
 ---
 
 ### Error Handling
-
-
 
 ## Intuition
 
@@ -2588,8 +2575,7 @@ Go project architecture is about organizing code so it stays maintainable as it 
 URL: https://go.wyattau.com/advanced/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for advanced. Use the diagnostic tests to find out whether Advanced needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -2616,7 +2602,6 @@ This section provides study materials and resources for advanced. Use the diagno
 
 The Advanced section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

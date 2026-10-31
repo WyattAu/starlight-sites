@@ -198,4 +198,3 @@ Precision tests of the Standard Model are like checking a clock against atomic t
 - [Particle Physics and Cosmology](./)
 - [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
 - [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
-

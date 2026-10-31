@@ -128,4 +128,3 @@ development.
 - [Variables and Types](https://dart.wyattau.com/03-basics/02-variables/) - Type system deep dive
 - [Functions](https://dart.wyattau.com/03-basics/03-functions/) - Function syntax and closures
 - [Flutter Fundamentals](https://dart.wyattau.com/09-flutter-fundamentals/01-widgets/) - UI development with Flutter
-

@@ -129,7 +129,6 @@ graph TD
     F --> O[Objects]
 ```
 
-
 **Algorithm**: A finite sequence of well-defined instructions for solving a problem or performing a computation.
 
 **Syntax**: The set of rules defining the structure of valid statements in a programming language.
@@ -5513,8 +5512,7 @@ principles and practical applications.
 URL: https://programming.wyattau.com/compilation_model/1_translation/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -5541,7 +5539,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -5563,8 +5560,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/compilation_model/2_modules/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -5589,7 +5585,6 @@ This section covers programming language concepts, from syntax and type systems 
 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -13849,8 +13844,7 @@ including key principles and practical applications.
 URL: https://programming.wyattau.com/concurrency/1_threading_and_synchronization/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -13877,7 +13871,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -13899,8 +13892,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -13927,7 +13919,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -13949,8 +13940,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -13976,7 +13966,6 @@ This section covers programming language concepts, from syntax and type systems 
 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -26189,8 +26178,7 @@ Dependency management in C++ has historically been fragmented. Package managers 
 URL: https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -26217,7 +26205,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26239,8 +26226,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -26268,7 +26254,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26290,8 +26275,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -26319,7 +26303,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -26341,7 +26324,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/
 
 sources:
-  - text: McConnell - Code Complete
+- text: McConnell - Code Complete
 
 # Development Environment Analysis
 
@@ -39061,8 +39044,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 URL: https://programming.wyattau.com/function_architecture/1_function_mechanics/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -39089,7 +39071,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -39111,8 +39092,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/function_architecture/2_error_handling/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -39140,7 +39120,6 @@ This section covers programming language concepts, from syntax and type systems 
 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -45412,8 +45391,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 URL: https://programming.wyattau.com/object_oriented/1_class_design/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -45441,7 +45419,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -45463,8 +45440,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -45491,7 +45467,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -45513,8 +45488,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/object_oriented/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -45550,7 +45524,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -52156,8 +52129,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 URL: https://programming.wyattau.com/resource_management/1_ownership_and_raii/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -52186,7 +52158,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -52208,8 +52179,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/resource_management/2_value_categories_and_move/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -52236,7 +52206,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -52258,8 +52227,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/resource_management/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -52295,7 +52263,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -62209,8 +62176,7 @@ void atomic_write(const fs::path& target, std::string_view content) {
 URL: https://programming.wyattau.com/standard_library/1_containers_and_allocators/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -62236,7 +62202,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -62258,8 +62223,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -62286,7 +62250,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -62308,8 +62271,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/standard_library/3_input_output_formatting/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -62334,7 +62296,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -62356,8 +62317,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/standard_library/4_system_utilities/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -62382,7 +62342,6 @@ This section covers programming language concepts, from syntax and type systems 
 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -77512,8 +77471,7 @@ key: "key'', value: "value'
 URL: https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -77540,7 +77498,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -77562,8 +77519,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -77589,7 +77545,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -77611,8 +77566,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -77638,7 +77592,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -77660,8 +77613,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/templates_and_metaprogramming/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -77697,7 +77649,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -86774,8 +86725,7 @@ and practical applications.
 URL: https://programming.wyattau.com/types/1_data_layout/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -86802,7 +86752,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -86824,8 +86773,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/types/2_pointers_references_views/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -86852,7 +86800,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -86874,8 +86821,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/types/3_initialization_and_lifetime/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -86902,7 +86848,6 @@ This section covers programming language concepts, from syntax and type systems 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -86924,8 +86869,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://programming.wyattau.com/types/
 
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -86962,7 +86906,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

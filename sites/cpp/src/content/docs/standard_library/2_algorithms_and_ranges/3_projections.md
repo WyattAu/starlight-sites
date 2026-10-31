@@ -587,4 +587,3 @@ theory, practical implementation, and key applications.
 Projections are the "key extractor" in sorting and searching algorithms, telling the algorithm which part of an object to compare. When you sort students by grade, the projection is the function that pulls the grade out of each student record. This separates the comparison logic from the data structure, so you can sort the same collection by different keys without modifying the objects themselves, like rearranging a deck of cards by suit or by number without marking the cards.
 
 ## Worked Examples
-

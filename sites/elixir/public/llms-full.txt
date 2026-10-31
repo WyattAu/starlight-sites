@@ -6027,9 +6027,7 @@ Use Mix releases for deployment. `mix release` builds a self-contained release w
 URL: https://elixir.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 

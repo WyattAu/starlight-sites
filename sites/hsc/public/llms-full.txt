@@ -140,7 +140,6 @@ HSC Physics spans the entire scale of the physical world, from kinematics (how o
 - **[Site Home](../../):** Main landing page for hsc notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -572,7 +571,7 @@ Physics is generally considered a moderately scaling subject, it may be scaled u
 URL: https://hsc.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -985,8 +984,7 @@ import PracticeProblem from "@components/PracticeProblem";
 URL: https://hsc.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Chemistry feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -1023,7 +1021,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -2178,8 +2175,7 @@ URL: https://hsc.wyattau.com/diagnostics/diag-physics/
 URL: https://hsc.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -2216,7 +2212,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -3450,8 +3445,7 @@ $$
 URL: https://hsc.wyattau.com/mathematics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -3489,7 +3483,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -3515,8 +3508,7 @@ Keep practising and reviewing to master this topic.
 URL: https://hsc.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Physics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -3553,7 +3545,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

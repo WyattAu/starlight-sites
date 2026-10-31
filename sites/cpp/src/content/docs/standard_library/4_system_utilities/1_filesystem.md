@@ -633,4 +633,3 @@ void atomic_write(const fs::path& target, std::string_view content) {
 ## Summary
 
 ## Worked Examples
-

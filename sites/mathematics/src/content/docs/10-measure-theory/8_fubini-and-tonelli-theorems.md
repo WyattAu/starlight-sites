@@ -197,4 +197,3 @@ The Fubini and Tonelli theorems justify the interchange of the order of integrat
 
 3. **Non-measurable sections.** If $f$ is not product-measurable, the sections $f(x, \cdot)$ may
    fail to be measurable, making iterated integrals ill-defined.
-

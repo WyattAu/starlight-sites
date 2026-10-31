@@ -137,4 +137,3 @@ The English test has three parts: speaking, reading, and writing. You must demon
 - [Us Citizenship](./)
 - [US Civics Questions](/us-citizenship/civics-questions/)
 - [Civics and Citizenship Tests](..)
-

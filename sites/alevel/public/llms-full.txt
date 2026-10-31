@@ -209,7 +209,6 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 **Comparative Essay**: AO4/AO5 skill of linking two texts' methods and critical perspectives in a single argument.
 
-
 ## Exam Technique Terms
 
 **Command Word**: The verb dictating response depth, state (one line), describe (no reasons), explain (give reasons), evaluate (weigh evidence and conclude).
@@ -245,7 +244,6 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 **Break-Even Output**: The quantity where total revenue equals total cost; contribution per unit times fixed costs gives the calculation.
 
 **Cash Flow Forecast**: The month-by-month prediction of inflows and outflows; insolvency kills profitable firms, cash is not profit.
-
 
 ## Chemistry Quick Reference
 
@@ -296,7 +294,6 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 URL: https://alevel.wyattau.com/hub/
 
 ## Complete A-Level Study Guide
-
 
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
@@ -387,7 +384,6 @@ Confirm your centre's board before using past papers, specification wording and 
 
 **Spaced repetition** beats cramming: revisit each topic at expanding intervals (1 day, 3 days, 1 week). **Interleaving**, mixing topics within a session, builds discrimination between problem types, which is exactly what synoptic papers demand. **Past papers are the curriculum**: examiner reports show the same command words and mark-scheme patterns recur every year; studying them is the highest-yield hour you can spend.
 
-
 ## Assessment Objectives Across Subjects
 
 Every A-Level spec tests three objectives in different proportions: AO1 knowledge, AO2 application, AO3 analysis and evaluation. Sciences weight AO2 (applying knowledge to unfamiliar contexts) most heavily, which is why past-paper practice outperforms note re-reading. Essay subjects weight AO3: examiners reward argued judgement, not balanced summaries that refuse to conclude.
@@ -403,7 +399,6 @@ Keep doors open: two facilitating subjects (maths, sciences, history, geography,
 ## Study Timeline
 
 **September-December (Year 1)**: build notes per topic as taught; end each topic with its exam-board past questions. **January-May (Year 1)**: first mock cycle; diagnose gaps from mock papers, not vibes. **June-September**: consolidate Year 1 content (Year 2 papers assume it); read ahead into Year 2 topics. **September-December (Year 2)**: NEA/coursework milestone for subjects that have it; begin weekly timed essays. **January-May (Year 2)**: two full mock cycles plus the final past-paper sprint, every recent paper, timed, marked against the scheme, mistakes logged.
-
 
 ## Quick Subject Index
 
@@ -27700,7 +27695,7 @@ inactive form.
 URL: https://alevel.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -27755,7 +27750,7 @@ graph TD
 URL: https://alevel.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -59275,7 +59270,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 URL: https://alevel.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -59326,7 +59321,7 @@ graph TD
 URL: https://alevel.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Chemistry feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -59380,7 +59375,7 @@ graph TD
 URL: https://alevel.wyattau.com/chemistry/organic-chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Use the diagnostic tests to find out whether Organic Chemistry needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -59437,7 +59432,7 @@ graph TD
 URL: https://alevel.wyattau.com/chemistry/physical-chemistry-extra/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Physical Chemistry Extra feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -78748,7 +78743,7 @@ available for insertion.
 URL: https://alevel.wyattau.com/computer-science/algorithms/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -78968,7 +78963,7 @@ graph TD
 URL: https://alevel.wyattau.com/computer-science/data-structures/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -79168,7 +79163,7 @@ graph TD
 URL: https://alevel.wyattau.com/computer-science/databases/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -79376,7 +79371,7 @@ graph TD
 URL: https://alevel.wyattau.com/computer-science/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -79431,7 +79426,7 @@ graph TD
 URL: https://alevel.wyattau.com/computer-science/fundamentals/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -79635,7 +79630,7 @@ graph TD
 URL: https://alevel.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -79686,7 +79681,7 @@ Keep practising and reviewing to master this topic.
 URL: https://alevel.wyattau.com/computer-science/networks/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -79878,7 +79873,7 @@ This page includes:
 URL: https://alevel.wyattau.com/computer-science/programming/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -80072,7 +80067,7 @@ This page includes:
 URL: https://alevel.wyattau.com/computer-science/software-engineering/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -80258,7 +80253,7 @@ This page includes:
 URL: https://alevel.wyattau.com/computer-science/theory-of-computation/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -102143,7 +102138,6 @@ URL: https://alevel.wyattau.com/economics/economics/
 
 ## A Level Economics, Course Overview
 
-
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
@@ -103694,8 +103688,7 @@ GDP is like the economy's scorecard. It tells you how much the economy produced.
 URL: https://alevel.wyattau.com/economics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -103722,7 +103715,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -103744,8 +103736,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/economics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -103771,7 +103762,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -103800,7 +103790,7 @@ Keep practising and reviewing to master this topic.
 URL: https://alevel.wyattau.com/economics/macro/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -103993,7 +103983,7 @@ This page includes:
 URL: https://alevel.wyattau.com/economics/microeconomics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -116894,7 +116884,7 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 URL: https://alevel.wyattau.com/english/1-literary-analysis/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Literary Analysis, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -116949,8 +116939,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/10-twentieth-century/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Twentieth Century needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -116987,7 +116976,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117009,8 +116997,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/11-exam-techniques/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -117047,7 +117034,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117069,8 +117055,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/12-coursework/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Coursework needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -117107,7 +117092,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117129,7 +117113,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/2-poetry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -117184,7 +117168,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/3-prose/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -117239,7 +117223,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/4-drama/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -117294,8 +117278,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/5-shakespeare/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -117332,7 +117315,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117354,7 +117336,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/6-comparative-analysis/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If Comparative Analysis feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -117409,8 +117391,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/7-unseen-texts/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Work through Unseen Texts alongside the practice problems for English, then let the diagnostic tests tell you whether it stuck.
 
@@ -117447,7 +117428,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117469,8 +117449,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/8-great-gatsby/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Great Gatsby, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -117507,7 +117486,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117529,7 +117507,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/9-pre-1900-poetry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Pre 1900 Poetry needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -117584,8 +117562,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/english/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -117622,7 +117599,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -117644,7 +117620,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -137791,7 +137767,7 @@ $= 2\sinh x + 2\sinh^3 x + \sinh x + 2\sinh^3 x = \boxed{3\sinh x + 4\sinh^3 x}$
 URL: https://alevel.wyattau.com/further-maths/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -137840,7 +137816,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://alevel.wyattau.com/further-maths/further-mechanics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -138025,7 +138001,7 @@ This page includes:
 URL: https://alevel.wyattau.com/further-maths/further-statistics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -138208,8 +138184,7 @@ Each page in this section includes:
 URL: https://alevel.wyattau.com/further-maths/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for further maths. If Further Maths feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -138238,7 +138213,6 @@ This section provides study materials and resources for further maths. If Furthe
 Use the diagnostic tests to find out whether Further Maths needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -138266,7 +138240,7 @@ Keep practising and reviewing to master this topic.
 URL: https://alevel.wyattau.com/further-maths/pure-mathematics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -152349,8 +152323,7 @@ south Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
 URL: https://alevel.wyattau.com/geography/1-physical-geography/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for physical geography. Work through Physical Geography alongside the practice problems for Geography, then let the diagnostic tests tell you whether it stuck.
 
@@ -152376,7 +152349,6 @@ This section provides study materials and resources for physical geography. Work
 The Geography section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -152398,8 +152370,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/geography/2-human-geography/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for human geography. Use the diagnostic tests to find out whether Human Geography needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -152425,7 +152396,6 @@ This section provides study materials and resources for human geography. Use the
 Work through Human Geography alongside the practice problems for Geography, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -152447,7 +152417,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/geography/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -152551,13 +152521,13 @@ A-Level Geography is assessed through three written papers and a non-examined fi
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -152578,13 +152548,13 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Course Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -152650,43 +152620,43 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 > **Source**: Content aligned with AQA Geography (7037) specification. Case studies drawn from
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 > widely-used textbooks and publicly available data.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 This section provides comprehensive A-Level Geography content for Geography, covering all specification points with detailed explanations, worked examples, and practice questions.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Content Structure
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Each page in this section includes:
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **Definitions**: Clear, precise explanations of key concepts
 sources:
   - text: Standard textbook reference
@@ -152704,37 +152674,37 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## How to Use These Notes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 1. Read the introductory page to understand the topic overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 2. Work through each sub-topic in order
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 3. Attempt the practice questions before checking solutions
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 4. Use the flashcards to revise key terminology
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 5. Complete the diagnostic test to identify remaining gaps
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Key Topics
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - Core definitions and principles
 sources:
   - text: Standard textbook reference
@@ -152749,13 +152719,13 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Revision Strategies
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **Active Recall**: Test yourself regularly rather than re-reading notes
 sources:
   - text: Standard textbook reference
@@ -152770,34 +152740,34 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Exam Preparation
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Intuition
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Geography is the study of how people and places interact. Physical geography examines the natural systems that shape our planet, while human geography explores how societies organize and modify those systems. The subject connects local observations to global patterns: a single flood event in Cumbria reveals the same hydrological principles that govern river systems worldwide. Understanding geography means seeing connections between topics that appear unrelated, such as how climate change affects both coastal erosion and food security.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -155807,7 +155777,7 @@ topic in the specification.
 URL: https://alevel.wyattau.com/history/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -178679,7 +178649,7 @@ Warning Point could still be a maximum, minimum, or inflection. Always use a nat
 (checking the sign Of $f'$ on either side) if the second derivative test is inconclusive.
 </Aside>
 
-\{/* prettier-ignore */\}
+\{/*prettier-ignore*/\}
 <DesmosGraph client:only="solid-js" title="Function, Derivative, and Tangent Line" expressions={["f(x)=x^3-6x^2+9x+1", "f'(x)=3x^2-12x+9"]} width={800} height={500} /> Observe how the Derivative relates to the gradient
 of the tangent line. Move the point along the curve to see how The tangent changes slope, and note
 where the derivative is zero at stationary points. <hr />
@@ -187597,7 +187567,7 @@ Mathematics is the study of structure, quantity, and change. Algebra provides sy
 URL: https://alevel.wyattau.com/maths/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Diagnostics
 
@@ -187647,8 +187617,7 @@ This section provides comprehensive study materials and resources. Work through 
 URL: https://alevel.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for maths. The Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -187677,7 +187646,6 @@ This section provides study materials and resources for maths. The Maths section
 If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -187705,7 +187673,7 @@ Keep practising and reviewing to master this topic.
 URL: https://alevel.wyattau.com/maths/mechanics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -187903,7 +187871,7 @@ Mechanics is the art of predicting what happens next when objects push, pull, an
 URL: https://alevel.wyattau.com/maths/pure-mathematics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -188078,7 +188046,7 @@ the next.
 URL: https://alevel.wyattau.com/maths/statistics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -223954,7 +223922,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 URL: https://alevel.wyattau.com/physics/astrophysics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -224154,7 +224122,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 URL: https://alevel.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Diagnostics
 
@@ -224201,7 +224169,7 @@ This section provides comprehensive study materials and resources. Work through 
 URL: https://alevel.wyattau.com/physics/electricity/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -224379,7 +224347,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 URL: https://alevel.wyattau.com/physics/fields/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -224576,7 +224544,7 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 URL: https://alevel.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Physics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -224627,7 +224595,7 @@ Keep practising and reviewing to master this topic.
 URL: https://alevel.wyattau.com/physics/mechanics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -224804,8 +224772,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 URL: https://alevel.wyattau.com/physics/nuclear-and-particle/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Work through Nuclear And Particle alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 
@@ -224844,7 +224811,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -224866,7 +224832,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://alevel.wyattau.com/physics/nuclear-physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -225041,13 +225007,13 @@ Each page in this section includes:
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -225068,13 +225034,13 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Course Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -225140,25 +225106,25 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Intuition
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Nuclear and quantum physics is about the very small, atoms, nuclei, and subatomic particles. At this scale, the rules of everyday life break down. Particles can behave like waves. Electrons can be in multiple places at once. Radioactive decay is fundamentally random, you can predict how many atoms will decay, but not which ones.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 The binding energy curve is the key to understanding nuclear energy. Iron-56 sits at the peak, it's the most stable nucleus. Splitting heavier nuclei (fission) releases energy because the products are more tightly bound. Combining lighter nuclei (fusion) also releases energy for the same reason. This is why the Sun shines (fusion) and why nuclear power plants work (fission). Einstein's $E = mc^2$ tells you how much energy is released: even a tiny mass defect corresponds to enormous energy because $c^2$ is so large.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 ---
 
@@ -225166,7 +225132,7 @@ sources:
 URL: https://alevel.wyattau.com/physics/practical-skills/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -225330,7 +225296,7 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 URL: https://alevel.wyattau.com/physics/thermal-physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -225493,7 +225459,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 URL: https://alevel.wyattau.com/physics/waves/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -227752,7 +227718,7 @@ work must be done to maintain the flux change, and this work appears as electric
 rule to find The induced current direction.
 :::
 
-### Motional e.m.f.
+### Motional e.m.f
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:
 
@@ -244188,7 +244154,7 @@ The multi-store model is like a series of rooms: you pass through the sensory ro
 URL: https://alevel.wyattau.com/psychology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -246954,10 +246920,7 @@ Our minds are prediction machines, constantly building models of the world to gu
 URL: https://alevel.wyattau.com/zh/
 
 sources:
-  - text: Standard textbook reference
-
-
-
+- text: Standard textbook reference
 
 ## Intuition
 
@@ -246977,46 +246940,46 @@ sources:
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 *此页面为中文版本。部分内容可能尚未完全翻译。*
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Common Mistakes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **只看不做题:** 被动阅读笔记会给你一种理解的错觉，但无法建立回忆能力。主动回忆, 合上书本尝试从记忆中写出或解释主题, 对考试准备更有效。定期使用闪卡和练习题来测试自己。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **跳过例题详解:** A-Level考试考察方法，不仅仅是答案。跳过例题详解的学生即使最终答案正确，也常常因方法丢失分数。逐步跟踪每个例题，然后独立尝试类似题目。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **忽视考试大纲:** AQA、OCR和Edexcel对同一科目有不同的教学大纲。学习不在你考试大纲上的内容会浪费时间，而遗漏特定考试大纲的题目会丢分。始终将笔记与相关考试大纲对照。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Cross-References
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **[Biology](../biology/diagnostics/diag-biological-molecules):** 生物学研究生命体
 sources:
   - text: Standard textbook reference
@@ -247028,28 +246991,28 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 This section provides comprehensive study materials and resources. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Key Topics
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - Core concepts and definitions
 sources:
   - text: Standard textbook reference
@@ -247064,40 +247027,40 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Study Tips
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Study Tips
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference

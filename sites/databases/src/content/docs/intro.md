@@ -25,7 +25,6 @@ as a declarative language, explains the ACID guarantees and why each exists,
 and introduces normalisation -- the concepts the rest of this track assumes.
 :::
 
-
 ## Why Databases Matter
 
 Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens,

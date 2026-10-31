@@ -4323,7 +4323,6 @@ first -- it is the foundation every later page uses -- or browse the
 [curriculum](/1-probabilistic-machine-learning/) for the dependency chain.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -4762,9 +4761,7 @@ Export your trained model (ONNX, TorchScript, SavedModel). Wrap it in an API (Fa
 URL: https://machine-learning.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## What This Site Covers
 

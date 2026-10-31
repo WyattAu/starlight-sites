@@ -180,4 +180,3 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
-

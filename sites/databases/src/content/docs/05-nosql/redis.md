@@ -1042,4 +1042,3 @@ redis-cli MEMORY STATS  # Per-allocator stats
 - [Transactions and Concurrency](/04-transactions/transactions/) - How Redis transactions differ from traditional ACID database transactions
 
 ## Worked Examples
-

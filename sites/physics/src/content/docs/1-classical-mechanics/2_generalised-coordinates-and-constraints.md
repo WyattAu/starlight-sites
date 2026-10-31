@@ -202,4 +202,3 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
-

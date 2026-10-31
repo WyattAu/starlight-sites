@@ -640,4 +640,3 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 ## Summary
 
 ## Worked Examples
-

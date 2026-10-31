@@ -574,4 +574,3 @@ std::formatter, including key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
-

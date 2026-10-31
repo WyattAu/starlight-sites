@@ -150,7 +150,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - [Introduction to Algorithms](../../algorithms/intro)
 - [Introduction to General Notes](/general/intro/)
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.

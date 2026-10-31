@@ -10418,8 +10418,7 @@ Processes are programs in execution, each with its own memory space and priority
 URL: https://linux.wyattau.com/04-networking/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -10443,7 +10442,6 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 Work through the Linux sections in order, starting with Cli Fundamentals and Diagnostics and building toward Cli Fundamentals, Diagnostics, File Systems, Networking, Package Management, Process Management, Security and Systemd, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -13264,8 +13262,7 @@ Processes are programs in execution, each with its own memory space and priority
 URL: https://linux.wyattau.com/06-security/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -13302,7 +13299,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -17403,9 +17399,7 @@ Keep it updated. Minimise installed packages. Use firewall rules. Enable SELinux
 URL: https://linux.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## What This Site Covers
 

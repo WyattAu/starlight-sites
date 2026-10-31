@@ -143,4 +143,3 @@ until the green man appears and the road is clear of pedestrians.
 - [Road Signs](/highway-code/road-signs/) - Sign identification
 - [Theory Test](https://computer-science.wyattau.com/3-theory/practice-theory/) - Practice questions
 - Safe Driving - Driving techniques
-

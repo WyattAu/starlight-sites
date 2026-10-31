@@ -11,7 +11,7 @@ tags:
 description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

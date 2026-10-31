@@ -5650,9 +5650,7 @@ Use Swift Package Manager (SPM), Apple's built-in dependency manager. Add depend
 URL: https://swift.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 

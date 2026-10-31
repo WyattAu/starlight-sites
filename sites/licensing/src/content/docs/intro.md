@@ -148,4 +148,3 @@ Consult the recommended textbooks and additional resources.
 - Connect with other licensing topics for a complete understanding
 
 ## Summary
-

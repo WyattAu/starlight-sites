@@ -7,7 +7,7 @@ description: "Diagnostic test notes for AP Mathematics covering key concepts, wo
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. If Diagnostics | AP Mathematics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -347,4 +347,3 @@ where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair
 - Cross-references to related topics
 
 ## Study Tips
-

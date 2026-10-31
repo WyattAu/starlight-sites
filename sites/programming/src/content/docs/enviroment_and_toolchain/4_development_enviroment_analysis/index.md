@@ -7,7 +7,7 @@ description: "This section covers development environment analysis concepts, def
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: McConnell - Code Complete
+- text: McConnell - Code Complete
 
 # Development Environment Analysis
 
@@ -420,4 +420,3 @@ The four tools discussed in this section are most effective when used together a
 - Cross-references to related topics
 
 ## Study Tips
-

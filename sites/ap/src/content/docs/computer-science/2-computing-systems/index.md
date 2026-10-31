@@ -7,7 +7,7 @@ description: "This section covers computing systems concepts, definitions, and a
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Computing Systems needs another pass before your exam, rather than revising topics you have already mastered.
 

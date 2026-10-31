@@ -10,7 +10,7 @@ categories: [ib-economics]
 date: 2026-05-21
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -46,7 +46,6 @@ sources:
 </script>
 
 ## Intuition
-
 
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the

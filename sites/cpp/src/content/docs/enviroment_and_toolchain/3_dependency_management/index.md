@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for 3_dependen
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 3_dependency_management. Use the diagnostic tests to find out whether 3_dependency_management needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -35,7 +34,6 @@ This section provides study materials and resources for 3_dependency_management.
 
 If 3_dependency_management feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

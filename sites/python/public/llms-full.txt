@@ -3987,8 +3987,7 @@ Generators are lazy factories: they produce values one at a time instead of buil
 URL: https://python.wyattau.com/02-fundamentals/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for fundamentals. Work through Fundamentals alongside the practice problems for Fundamentals, then let the diagnostic tests tell you whether it stuck.
 
@@ -4015,7 +4014,6 @@ This section provides study materials and resources for fundamentals. Work throu
 
 The Fundamentals section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -16668,8 +16666,7 @@ File I/O in Python is about reading from and writing to the outside world. `open
 URL: https://python.wyattau.com/05-standard-library/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for standard library. The Standard Library section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -16695,7 +16692,6 @@ This section provides study materials and resources for standard library. The St
 
 If Standard Library feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -20954,8 +20950,7 @@ Error handling in Python is about being specific and recoverable. `try`/`except`
 URL: https://python.wyattau.com/07-best-practices/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for best practices. Work through Best Practices alongside the practice problems for Best Practices, then let the diagnostic tests tell you whether it stuck.
 
@@ -20980,7 +20975,6 @@ This section provides study materials and resources for best practices. Work thr
 
 The Best Practices section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -26782,8 +26776,7 @@ Data validation ensures that input data conforms to expected shapes and types. P
 URL: https://python.wyattau.com/08-advanced-topics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for advanced topics. If Advanced Topics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -26808,7 +26801,6 @@ This section provides study materials and resources for advanced topics. If Adva
 
 Use the diagnostic tests to find out whether Advanced Topics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -28682,7 +28674,6 @@ vectors, vectorised operations instead of loops, seeded reproducibility, and
 the plot-as-evidence pattern -- and ends with a self-test.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28958,9 +28949,7 @@ Use a virtual environment for each project. Tools like `poetry`, `uv`or `pip-too
 URL: https://python.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -29075,7 +29064,6 @@ first. It builds the exact idioms the numerical courses use -- arrays as
 vectors, vectorised operations instead of loops, seeded reproducibility, and
 the plot-as-evidence pattern -- and ends with a self-test.
 :::
-
 
 ## Abstract
 
@@ -29877,8 +29865,6 @@ D. \<class 'dict'\>
 URL: https://python.wyattau.com/practice-python-basics/
 
 import PracticeProblem from "@components/PracticeProblem"
-
-
 
 <PracticeProblem client:only="solid-js" question={"What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?"} options={["False", "True", "TypeError", "SyntaxError"]} correctAnswer={0} explanation={"`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses."} difficulty="medium" />
 

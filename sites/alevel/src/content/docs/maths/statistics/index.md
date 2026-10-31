@@ -8,7 +8,7 @@ title: "Statistics"
 description: "A-Level Maths Statistics notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision and exam readiness."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

@@ -678,7 +678,6 @@ URL: https://highers.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -923,9 +922,7 @@ Highers and A-levels are both used for university admissions, but they differ in
 URL: https://highers.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -4027,8 +4024,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 URL: https://highers.wyattau.com/biology/1-cell-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Cell Biology feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -4065,7 +4061,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4087,8 +4082,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/2-metabolism/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Metabolism, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -4125,7 +4119,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4147,8 +4140,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/3-multicellular/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Use the diagnostic tests to find out whether Multicellular needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -4185,7 +4177,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4207,8 +4198,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/4-genetics-adaptation/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Genetics Adaptation feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -4245,7 +4235,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4267,8 +4256,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/5-evolution/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -4305,7 +4293,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4327,8 +4314,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -4365,7 +4351,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -4387,7 +4372,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -9626,8 +9611,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 URL: https://highers.wyattau.com/chemistry/1-structure-bonding/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Use the diagnostic tests to find out whether Structure Bonding needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -9664,7 +9648,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9686,8 +9669,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/2-heat-matter/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -9724,7 +9706,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9746,8 +9727,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/3-acids-bases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Acids Bases alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -9784,7 +9764,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9806,8 +9785,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/4-organic/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Organic, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -9844,7 +9822,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9866,8 +9843,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/5-analytical/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Analytical, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -9904,7 +9880,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9926,8 +9901,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -9964,7 +9938,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -9986,7 +9959,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -15251,8 +15224,7 @@ implementation, and key applications.
 URL: https://highers.wyattau.com/computer-science/1-hardware/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Hardware feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -15289,7 +15261,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15311,8 +15282,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/2-software/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Software feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -15349,7 +15319,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15371,8 +15340,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/3-databases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Databases, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -15410,7 +15378,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15432,8 +15399,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/4-algorithms/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Algorithms alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -15470,7 +15436,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15492,8 +15457,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/5-networks/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -15530,7 +15494,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15552,8 +15515,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -15590,7 +15552,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -15612,7 +15573,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -19672,7 +19633,7 @@ $$
 URL: https://highers.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -24699,8 +24660,7 @@ Electromagnetic induction is the reverse of how a motor works: changing magnetic
 URL: https://highers.wyattau.com/physics/1-mechanics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Mechanics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -24737,7 +24697,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24759,8 +24718,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/2-dynamics-space/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -24797,7 +24755,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24819,8 +24776,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/3-electricity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Electricity, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -24857,7 +24813,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24879,8 +24834,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/4-particles-waves/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Work through Particles Waves alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 
@@ -24917,7 +24871,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24939,8 +24892,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/5-waves-radiation/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -24977,7 +24929,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -24999,8 +24950,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -25037,7 +24987,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -25059,7 +25008,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://highers.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

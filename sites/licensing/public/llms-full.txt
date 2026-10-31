@@ -1641,9 +1641,7 @@ Consult the recommended textbooks and additional resources.
 URL: https://licensing.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## What This Site Covers
 

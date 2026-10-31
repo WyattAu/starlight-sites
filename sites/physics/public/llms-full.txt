@@ -253,7 +253,7 @@ The semi-latus rectum $p = l^2/(mk)$ determines the shape of the orbit, while th
 URL: https://physics.wyattau.com/1-classical-mechanics/13_classical-field-theory/
 
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1173,7 +1173,7 @@ The Poisson bracket $\{f, g\}$ is antisymmetric: $\{f, g\} = -\{g, f\}$. A commo
 URL: https://physics.wyattau.com/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/
 
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1414,7 +1414,7 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 URL: https://physics.wyattau.com/1-classical-mechanics/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1549,8 +1549,8 @@ Noether's theorem is perhaps the deepest insight in classical mechanics: every c
 URL: https://physics.wyattau.com/1-classical-mechanics/3_lagrangian-mechanics/
 
 sources:
-  - text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
-  - text: "Landau, L. D., & Lifshitz, E. M. (1976). Mechanics (3rd ed.). Butterworth-Heinemann."
+- text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
+- text: "Landau, L. D., & Lifshitz, E. M. (1976). Mechanics (3rd ed.). Butterworth-Heinemann."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -1999,7 +1999,6 @@ $$
 
 $\blacksquare$
 
-
 The clearest single picture of what the formalism buys is the rotating hoop of
 worked example 3.7, whose equilibria bifurcate as the hoop speeds up.
 
@@ -2108,8 +2107,8 @@ Hamilton's principle states the action is stationary ($\delta S = 0$), not neces
 URL: https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review/
 
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
-  - text: "Serway, R. A., & Jewett, J. W. (2018). Physics for Scientists and Engineers (10th ed.). Cengage Learning."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Serway, R. A., & Jewett, J. W. (2018). Physics for Scientists and Engineers (10th ed.). Cengage Learning."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -2877,7 +2876,7 @@ the symplectic structure page.
 URL: https://physics.wyattau.com/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/
 
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4253,7 +4252,7 @@ The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{
 URL: https://physics.wyattau.com/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/
 
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -6034,7 +6033,7 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 URL: https://physics.wyattau.com/2-thermal-physics/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -14462,7 +14461,7 @@ import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/physics
 URL: https://physics.wyattau.com/3-electromagnetism/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -15703,7 +15702,7 @@ D. 15 micro-T
 <details>
 <summary>Show answer, C</summary>
 
-**Answer: C**, By Ampere's law for a long straight wire: B = mu_0 * I / (2*pi*r) = (4pi x 10^-7 T*m/A *15 A) / (2pi* 0.050 m) = (6pi x 10^-7) / (0.1pi) = 6.0 x 10^-5 T = 60 micro-T. The field circles the wire, falling as 1/r with distance.
+**Answer: C**, By Ampere's law for a long straight wire: B = mu_0 *I / (2*pi*r) = (4pi x 10^-7 T*m/A *15 A) / (2pi* 0.050 m) = (6pi x 10^-7) / (0.1pi) = 6.0 x 10^-5 T = 60 micro-T. The field circles the wire, falling as 1/r with distance.
 
 </details>
 
@@ -20395,7 +20394,7 @@ Total internal reflection occurs only when light travels from a denser medium to
 URL: https://physics.wyattau.com/4-optics-and-waves/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -24396,7 +24395,7 @@ Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-
 URL: https://physics.wyattau.com/5-quantum-mechanics/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -25700,7 +25699,6 @@ matrices via partial trace), open quantum systems, and decoherence.
 - [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
 - [Thermodynamics and Statistical Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/)
 
-
 ## Intuition
 
 The postulates of quantum mechanics are like the rules of a game that nature plays at the smallest scales. The state vector is your scoreboard: it contains everything knowable about the system. Hermitian operators are the measuring instruments, and their real eigenvalues are the only possible outcomes you can read. The Born rule tells you that the square of the amplitude gives the probability, like measuring how much of a wave is present at each point. Time evolution is smooth and deterministic, like a river flowing according to a fixed current. The measurement problem is the deep mystery: the smooth flow of the Schrodinger equation suddenly jerks when you look, collapsing the wave function to a single outcome. This tension between smooth evolution and sudden collapse is still debated. Decoherence explains why we do not see quantum weirdness in everyday life: the environment constantly measures the system, washing out quantum superpositions.
@@ -25715,7 +25713,6 @@ The expectation value $\langle \hat{A} \rangle = \sum_n a_n P(a_n)$ is the avera
 
 **Mistake 3: Forgetting that measurement collapses the state**
 After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rangle$, not to some other state. This collapse is irreversible in the sense that information about the original superposition is lost. Subsequent measurements of $\hat{A}$ will yield $a_n$ with certainty until the system evolves or is disturbed.
-
 
 ## Counterexamples worth knowing by name
 
@@ -31087,7 +31084,7 @@ The effective mass $m^*$ describes how an electron responds to external fields i
 URL: https://physics.wyattau.com/6-solid-state-physics/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -35680,7 +35677,7 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 URL: https://physics.wyattau.com/7-particle-physics-and-cosmology/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -37716,7 +37713,6 @@ from first principles, defines every term before it is used, and ends with a
 self-test so confident readers can skip by assessment rather than by trust.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38207,7 +38203,6 @@ calculus and SPDEs, representation theory, Ricci flow, and posterior asymptotics
 
 **Neglecting dimensional analysis:** Every valid physics equation must be dimensionally consistent. If units don't balance, the equation is wrong or misapplied.
 
-
 ## How to Study Physics
 
 Physics is not read, it is practised. The order that works:
@@ -38249,7 +38244,6 @@ Read **[Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)**
 from first principles, defines every term before it is used, and ends with a
 self-test so confident readers can skip by assessment rather than by trust.
 :::
-
 
 ## Physics
 
@@ -41186,7 +41180,7 @@ URL: https://physics.wyattau.com/diagnostics/diag-mechanics/
 URL: https://physics.wyattau.com/diagnostics/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 This section covers key physical principles, from classical mechanics to modern physics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -41412,9 +41406,7 @@ $\mu_k = \frac{f_k}{N} = \frac{10}{49} \approx 0.204$
 URL: https://physics.wyattau.com/zh/
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
-
-
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 ## 物理学习笔记
 
@@ -41448,22 +41440,22 @@ sources:
 
 ---
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 *此页面为中文版本。部分内容可能尚未完全翻译。*
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 ## Cross-References
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 - **[Classical Mechanics](../1-classical-mechanics/14_flashcards-classical-mechanics)**: 牛顿力学和拉格朗日力学描述宏观物体的运动。
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
@@ -41475,52 +41467,52 @@ sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 ## Common Mistakes
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 **Confusing Chinese and international unit conventions:** Chinese textbooks sometimes use different unit names or conventions. Always verify the unit system before converting between Chinese and English notation.
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 **Assuming direct translation of physics terminology:** Some Chinese physics terms don't have exact English equivalents. Understanding the concept rather than memorising the translation prevents confusion.
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 **Neglecting to check unit consistency across languages:** When translating problems between Chinese and English sources, units may be expressed differently (e.g., 大气压 vs atm). Always confirm they refer to the same quantity.
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 ## Overview
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 This section provides comprehensive study materials and resources. Work through the Physics sections in order, starting with Classical Mechanics and Diagnostics and building toward Classical Mechanics, Diagnostics, Electromagnetism, Optics And Waves, Particle Physics And Cosmology, Quantum Mechanics, Solid State Physics, Thermal Physics and Zh, then check yourself with the practice problems for each topic.
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 ## Key Topics
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 - Core concepts and definitions
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
@@ -41535,13 +41527,13 @@ sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 ## Study Tips
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics

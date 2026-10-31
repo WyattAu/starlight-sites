@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for biological
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for biological. If Biological feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -33,7 +32,6 @@ This section provides study materials and resources for biological. If Biologica
 
 The Psychology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

@@ -2680,7 +2680,6 @@ URL: https://gcse.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -2987,9 +2986,7 @@ Absolutely. These notes are designed to complement classroom teaching, not repla
 URL: https://gcse.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -10886,8 +10883,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 URL: https://gcse.wyattau.com/biology/1-cell-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Cell Biology feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -10924,7 +10920,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -10946,8 +10941,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/2-organisation/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Organisation, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -10984,7 +10978,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11010,8 +11003,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/4-bioenergetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Bioenergetics alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -11048,7 +11040,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11074,8 +11065,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Inheritance Variation Evolution feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -11112,7 +11102,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11138,8 +11127,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/7-ecology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -11176,7 +11164,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11202,8 +11189,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -11231,7 +11217,6 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -11253,7 +11238,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -17448,8 +17433,7 @@ This content is regularly updated to reflect the latest specification changes an
 URL: https://gcse.wyattau.com/chemistry/1-atomic-structure/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Atomic Structure feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -17486,7 +17470,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17512,8 +17495,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/2-bonding/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -17550,7 +17532,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17576,8 +17557,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Quantitative Chemistry alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -17614,7 +17594,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17636,8 +17615,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/4-chemical-changes/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Chemical Changes, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -17674,7 +17652,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17700,8 +17677,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/8-organic-chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Organic Chemistry alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -17738,7 +17714,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17760,8 +17735,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -17799,7 +17773,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -17821,7 +17794,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -23617,7 +23590,7 @@ Computer science is about solving problems through computation. Hardware provide
 URL: https://gcse.wyattau.com/computer-science/1-fundamentals/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Fundamentals, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -23672,7 +23645,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/computer-science/2-hardware/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Hardware feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -23727,7 +23700,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/computer-science/3-networks/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -23782,7 +23755,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/computer-science/4-algorithms/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Algorithms alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -23837,7 +23810,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/computer-science/5-programming/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -23892,7 +23865,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/computer-science/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics | GCSE Computer Science, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -24139,7 +24112,7 @@ Boolean logic is the mathematics of true and false values. It underpins all digi
 URL: https://gcse.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -28540,8 +28513,7 @@ performance in this area.
 URL: https://gcse.wyattau.com/english/1-shakespeare/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -28578,7 +28550,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -28600,8 +28571,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/english/2-19th-century-novel/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -28638,7 +28608,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -28660,8 +28629,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/english/3-modern-texts-and-poetry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If Modern Texts And Poetry feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -28698,7 +28666,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -28720,8 +28687,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/english/4-essay-writing/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If Essay Writing feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -28758,7 +28724,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -28784,8 +28749,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/english/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -28810,7 +28774,6 @@ This section covers literary analysis, language techniques, and critical writing
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -28832,7 +28795,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -33561,8 +33524,7 @@ applying these mathematical techniques.
 URL: https://gcse.wyattau.com/maths/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. Work through Diagnostics alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 
@@ -33590,7 +33552,6 @@ This section provides study materials and resources for diagnostics. Work throug
 If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33612,7 +33573,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -40905,7 +40866,7 @@ unfamiliar contexts.
 URL: https://gcse.wyattau.com/physics/1-energy/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -40960,8 +40921,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/physics/2-electricity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Electricity, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -40998,7 +40958,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41024,7 +40983,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/physics/5-forces/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -41079,7 +41038,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/physics/6-waves/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -41134,8 +41093,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://gcse.wyattau.com/physics/7-magnetism/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Work through Magnetism alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 
@@ -41172,7 +41130,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41198,8 +41155,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -41227,7 +41183,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -41249,7 +41204,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://gcse.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -43727,9 +43682,7 @@ contexts.
 URL: https://gcse.wyattau.com/zh/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## GCSE 学习笔记
 
@@ -43753,82 +43706,82 @@ sources:
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 *此页面为中文版本。部分内容可能尚未完全翻译。*
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## How to Use These Notes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Active recall:** Close the page and try to explain the topic from memory. Use flashcards for key definitions and formulae. The spaced repetition system optimises your review schedule automatically.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Past papers:** Complete past papers under timed conditions. This builds exam stamina and reveals weak areas. Check your answers against official mark schemes.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Cross-referencing:** Use the cross-references at the bottom of each page to explore related topics. Understanding connections between subjects strengthens your overall knowledge.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Common Mistakes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **被动重读笔记而不是做练习题:** 被动重读会创造熟悉感但不会带来理解。限时做往年试卷能揭示你实际知道什么，而不是你以为你知道什么。做完题目后对照评分标准检查答案。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **忽视答题指令词:** "描述"、"解释"、"评估"和"比较"要求不同的回答。描述 means 说明发生了什么；解释 means 说明为什么。误读指令词会导致写出错误类型的答案，即使知识正确也会丢分。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **不复习公式和定义:** GCSE考试要求你从记忆中回忆特定的公式和定义。把这些留到最后会导致知识缺口。创建公式表并定期用闪卡和间隔重复来测试自己。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **忽视时间管理:** GCSE考试时间有限。练习时计时，确保能在规定时间内完成所有题目。如果某些题目花费过多时间，先跳过，完成其他题目后再回来。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **不检查答案:** 做完题目后花时间检查答案，特别是计算题。简单的算术错误会丢失宝贵的分数。养成检查答案的习惯。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Cross-References
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **GCSE Home:** Main landing page for all GCSE subjects.
 sources:
   - text: Standard textbook reference
@@ -43840,28 +43793,28 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 This section provides comprehensive study materials and resources. Work through the GCSE sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, English, Maths, Physics and Zh, then check yourself with the practice problems for each topic.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Key Topics
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - Core concepts and definitions
 sources:
   - text: Standard textbook reference
@@ -43876,13 +43829,13 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Study Tips
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference

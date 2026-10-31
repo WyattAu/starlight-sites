@@ -221,7 +221,7 @@ Theory](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
    of a sum of independent variables.
 3. (Probability.) Show that the bivariate normal with correlation $
 ho$ has
-   conditional mean $\mu_Y + 
+   conditional mean $\mu_Y +
 ho rac{\sigma_Y}{\sigma_X}(x - \mu_X)$, and
    explain why this is the regression line.
 4. (Limit theorems.) Use the CLT and the delta method to find the asymptotic

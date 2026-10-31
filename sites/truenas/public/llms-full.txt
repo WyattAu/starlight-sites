@@ -7756,9 +7756,7 @@ ZFS will automatically repair data during a resilver when you replace a failed d
 URL: https://truenas.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## What This Site Covers
 

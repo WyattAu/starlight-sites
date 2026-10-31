@@ -2359,7 +2359,6 @@ URL: https://ap.wyattau.com/hub/
 
 ## Complete AP Course Guide, All Subjects
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -2561,9 +2560,7 @@ Start preparing early to reduce last-minute pressure. Break your study plan into
 URL: https://ap.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -8685,8 +8682,7 @@ Biology explores how living things work, interact, and evolve. Cells are the bas
 URL: https://ap.wyattau.com/biology/1-chemistry-of-life/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Chemistry Of Life feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -8723,7 +8719,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -8745,8 +8740,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/biology/2-cell-structure-and-function/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Use the diagnostic tests to find out whether Cell Structure And Function needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -8783,7 +8777,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -8805,8 +8798,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/biology/3-cellular-energetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Cellular Energetics alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -8843,7 +8835,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -8865,8 +8856,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/biology/4-heredity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Heredity feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -8903,7 +8893,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -8925,8 +8914,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/biology/5-natural-selection/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Natural Selection, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -8963,7 +8951,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -8985,7 +8972,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/biology/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -12107,8 +12094,7 @@ This content is regularly updated to reflect the latest specification changes an
 URL: https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Atomic Structure And Periodicity, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -12145,7 +12131,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -12167,8 +12152,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Use the diagnostic tests to find out whether Bonding And Intermolecular Forces needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -12205,7 +12189,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -12227,8 +12210,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/chemistry/3-stoichiometry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -12265,7 +12247,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -12287,8 +12268,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/chemistry/4-thermodynamics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Thermodynamics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -12325,7 +12305,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -12347,8 +12326,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Kinetics And Equilibrium, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -12385,7 +12363,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -12407,7 +12384,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -19616,7 +19593,7 @@ This content is regularly updated to reflect the latest specification changes an
 URL: https://ap.wyattau.com/computer-science/1-computational-thinking/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -19671,7 +19648,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ap.wyattau.com/computer-science/2-computing-systems/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Computing Systems needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -19726,7 +19703,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ap.wyattau.com/computer-science/3-algorithms-and-programming/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -19781,7 +19758,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ap.wyattau.com/computer-science/4-data-analysis/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Data Analysis alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -19836,7 +19813,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ap.wyattau.com/computer-science/5-networks-and-the-internet/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -19891,7 +19868,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://ap.wyattau.com/computer-science/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -21695,8 +21672,7 @@ This content is regularly updated to reflect the latest specification changes an
 URL: https://ap.wyattau.com/english/1-rhetorical-analysis/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -21733,7 +21709,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -21755,8 +21730,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/english/2-argument/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Argument needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -21793,7 +21767,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -21815,8 +21788,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/english/3-synthesis/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -21853,7 +21825,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -21875,8 +21846,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/english/4-close-reading/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. If Close Reading feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -21913,7 +21883,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -21935,7 +21904,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/english/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -22096,8 +22065,6 @@ URL: https://ap.wyattau.com/english/practice-english/
 
 import PracticeProblem from "@components/PracticeProblem"
 
-
-
 **Q1. A political speech begins: "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.'' Which rhetorical device is most prominently used in this passage?**
 
 A. Metaphor
@@ -22108,7 +22075,6 @@ D. Hyperbole
 **Answer: B**
 - This passage (from Lincoln's Gettysburg Address) uses parallel structure through its balanced rhythmic phrasing and allusion by referencing the founding of the nation and the Declaration of Independence ('all men are created equal'). The parallelism is evident in the balanced clauses: "brought forth... a new nation,'' "conceived in Liberty,' 'dedicated to the proposition.' The allusion connects the current moment (civil war) to the nation's founding ideals, establishing ethos and framing the war as a test of those founding principles.
 *Difficulty: hard*
-
 
 **Q2. An author writes: "The factory stood silent, its smokestacks cold as the workers'' forgotten dreams." This sentence primarily uses which literary device to create its effect?**
 
@@ -22121,7 +22087,6 @@ D. Antithesis
 - The sentence uses a simile ('cold as the workers' forgotten dreams') to compare the physical state of the factory's smokestacks to the emotional state of the workers' aspirations. The simile connects the industrial setting with human experience, creating a sense of loss and abandonment. The cold smokestacks metaphorically represent the failed promises of industrialisation, while 'forgotten dreams' evokes pathos by emphasising human suffering."
 *Difficulty: hard*
 
-
 **Q3. In a persuasive essay, an author cites statistics from a peer-reviewed study, shares a personal anecdote about her own experience, and quotes a well-known expert in the field. Which three types of rhetorical appeal is the author primarily using?**
 
 A. Ethos, pathos, and logos
@@ -22132,7 +22097,6 @@ D. Logos, logos, and ethos
 **Answer: A**
 - The author uses all three classical rhetorical appeals: logos (appeal to logic) through citing statistical evidence from a peer-reviewed study, pathos (appeal to emotion) through sharing a personal anecdote that engages the reader's empathy, and ethos (appeal to credibility) through quoting a recognised expert. Effective persuasion often combines multiple appeals to strengthen the argument."
 *Difficulty: hard*
-
 
 **Q4. An editorial argues: "We must either invest in renewable energy now or face catastrophic climate consequences. There is no middle ground.'' Which logical fallacy is most apparent in this reasoning?**
 
@@ -22145,7 +22109,6 @@ D. Slippery slope
 - A false dichotomy (or false dilemma) presents only two options as the only possibilities when in fact more alternatives exist. The editorial claims the only choices are investing in renewables now or facing catastrophe, ignoring possibilities such as gradual transition, investment in multiple energy strategies, carbon capture technology, or nuclear energy. This oversimplification weakens the argument by eliminating reasonable middle-ground positions."
 *Difficulty: hard*
 
-
 **Q5. Which of the following is the strongest thesis statement for an argumentative essay about social media's impact on democracy?**
 
 A. Social media has many effects on democracy, both good and bad.
@@ -22156,7 +22119,6 @@ D. Many people use social media to share political opinions.
 **Answer: B**
 - The strongest thesis is specific, arguable, and provides a clear position. Option B acknowledges a counterpoint ('While social media has facilitated...') while presenting a nuanced claim about its negative impact. It is specific (algorithms, echo chambers, outrage over accuracy) and debatable. Option A is vague and non-argumentative. Option C is extreme and lacks nuance. Option D states a fact rather than making an arguable claim."
 *Difficulty: hard*
-
 
 **Q6. According to the Toulmin model of argumentation, which element connects the evidence (data) to the claim?**
 
@@ -22169,7 +22131,6 @@ D. Rebuttal
 - In the Toulmin model, the warrant is the logical bridge (often implicit) that connects the evidence (data) to the claim. It explains why the data supports the claim. For example, if the data is 'This vaccine has a 95% efficacy rate in clinical trials' and the claim is 'You should get this vaccine,' the warrant might be 'Vaccines with high efficacy rates in trials effectively prevent disease in the general population.' Backing supports the warrant, qualifiers limit the claim, and rebuttals address counterarguments."
 *Difficulty: hard*
 
-
 **Q7. A debater argues: "My opponent wants to abolish private property and give everyone the same house regardless of effort.'' The opponent actually argued for increased progressive taxation. Which logical fallacy has the debater committed?**
 
 A. Appeal to authority
@@ -22180,7 +22141,6 @@ D. Bandwagon
 **Answer: B**
 - The debater has committed the straw man fallacy by misrepresenting the opponent's actual position (progressive taxation) as an extreme position that is easier to attack than the real argument (abolishing private property). A straw man is a distorted or oversimplified version of an argument that is easier to attack than the real argument. This fallacy weakens credibility because astute audiences recognise the misrepresentation."
 *Difficulty: hard*
-
 
 **Q8. Which of the following best describes the purpose of a concession in an argumentative essay?**
 
@@ -22194,7 +22154,6 @@ E. To avoid addressing the main counterargument
 - A concession acknowledges a valid aspect of the opposing view before refuting it or qualifying it. This technique strengthens the argument by demonstrating that the writer has considered multiple perspectives (building ethos), addressing the strongest counterarguments before they can be raised by the reader, and creating a more nuanced and persuasive position. Effective concession and refutation show intellectual honesty and critical thinking."
 *Difficulty: hard*
 
-
 **Q9. When synthesising information from multiple sources in an essay, which approach best demonstrates independent thinking?**
 
 A. Summarising each source in a separate paragraph
@@ -22205,7 +22164,6 @@ D. Arranging sources in chronological order
 **Answer: B**
 - Effective synthesis requires the writer to use sources as building blocks for an original argument, not merely to summarise them. The strongest synthesis essays develop a unique thesis informed by multiple sources but going beyond them -- connecting ideas, identifying patterns across sources, filling gaps, or drawing new conclusions. Summarising each source separately does not demonstrate synthesis; integrating evidence from multiple sources to support independent analysis does."
 *Difficulty: hard*
-
 
 **Q10. In a close reading of a passage, an author's word choice of 'meticulous' rather than 'careful' most likely suggests:**
 
@@ -22768,7 +22726,7 @@ This content is regularly updated to reflect the latest specification changes an
 URL: https://ap.wyattau.com/history/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -28318,7 +28276,7 @@ including key theorems, methods, and problem-solving approaches.
 URL: https://ap.wyattau.com/maths/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. If Diagnostics | AP Mathematics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -28665,7 +28623,7 @@ where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair
 URL: https://ap.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -32763,8 +32721,7 @@ linked above.
 URL: https://ap.wyattau.com/physics/1-kinematics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Kinematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -32801,7 +32758,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -32823,8 +32779,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/2-newtons-laws/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Newtons Laws needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -32861,7 +32816,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -32883,8 +32837,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/3-work-energy-power/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -32921,7 +32874,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -32943,8 +32895,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/4-momentum-and-impulse/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. If Momentum And Impulse feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -32981,7 +32932,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33003,8 +32953,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/5-rotational-motion/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Rotational Motion needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -33041,7 +32990,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33063,8 +33011,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/6-electrostatics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Electrostatics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -33101,7 +33048,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33123,8 +33069,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/7-circuits/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Circuits needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -33161,7 +33106,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33183,8 +33127,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/8-magnetism/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Work through Magnetism alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 
@@ -33221,7 +33164,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -33243,7 +33185,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://ap.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -39376,7 +39318,7 @@ Exploring data is about **seeing the story before computing the statistics**. A 
 URL: https://ap.wyattau.com/statistics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -39525,8 +39467,6 @@ URL: https://ap.wyattau.com/statistics/practice-statistics/
 
 import PracticeProblem from "@components/PracticeProblem"
 
-
-
 **Q1. A dataset has a mean of 50 and a standard deviation of 5. According to the empirical rule (68-95-99.7), approximately what percentage of the data falls between 45 and 55?**
 
 A. 95%
@@ -39537,7 +39477,6 @@ D. 50%
 **Answer: C**
 - The empirical rule states that for approximately normal distributions, approximately 68% of the data falls within one standard deviation of the mean. Since 45 and 55 are each one standard deviation (5) from the mean (50), approximately 68% of the data falls in this range. The range 40-60 covers two standard deviations (approximately 95%), and 35-65 covers three (approximately 99.7%)."
 *Difficulty: hard*
-
 
 **Q2. A fair six-sided die is rolled three times. What is the probability of getting at least one 6?**
 
@@ -39550,7 +39489,6 @@ D. 125/216
 - This is best solved using the complement rule. The probability of NOT getting a 6 on one roll is 5/6. The probability of not getting a 6 in three independent rolls is (5/6)^3 = 125/216. Therefore, the probability of getting at least one 6 is 1 - 125/216 = 91/216. The complement approach is much simpler than calculating P(exactly one 6) + P(exactly two 6s) + P(exactly three 6s)."
 *Difficulty: hard*
 
-
 **Q3. Two events A and B are such that P(A) = 0.4, P(B) = 0.5, and P(A and B) = 0.2. Are A and B independent?**
 
 A. Yes, because P(A and B) = P(A) x P(B)
@@ -39562,7 +39500,6 @@ D. Cannot be determined from the given information
 - Two events are independent if and only if P(A and B) = P(A) x P(B). Here, P(A) x P(B) = 0.4 x 0.5 = 0.2, which equals P(A and B) = 0.2. Since the condition is satisfied, A and B are independent. Note that independence is different from mutual exclusivity -- mutually exclusive events cannot be independent (unless one event has probability zero)."
 *Difficulty: hard*
 
-
 **Q4. A 95% confidence interval for a population mean is calculated as (12.3, 18.7). Which of the following is the correct interpretation of this interval?**
 
 A. There is a 95% probability that the population mean is between 12.3 and 18.7
@@ -39573,7 +39510,6 @@ D. If we repeated the sampling many times, 95% of the sample means would fall be
 **Answer: B**
 - The correct interpretation is: "We are 95% confident that the true population mean is between 12.3 and 18.7.'' This means that if we were to take many random samples and construct 95% confidence intervals from each, approximately 95% of those intervals would contain the true population mean. The population mean is a fixed (unknown) value, not a random variable, so we do not say there is a probability that it falls in the interval.
 *Difficulty: hard*
-
 
 **Q5. In a hypothesis test with H0: mu = 100 and Ha: mu > 100, a researcher obtains a p-value of 0.03. Using a significance level of alpha = 0.05, what conclusion should be drawn?**
 
@@ -39596,7 +39532,6 @@ D. Neither A nor B would reduce the margin of error
 - Both decreasing the confidence level and increasing the sample size reduce the margin of error. The margin of error for a proportion is z*(sqrt(p-hat(1-p-hat)/n)), where z* is the critical value. Decreasing the confidence level reduces z* (e.g., from 1.96 to 1.645), and increasing n reduces the fraction under the square root. Both changes produce a narrower interval. The trade-off is that a lower confidence level means less certainty that the interval captures the true parameter."
 *Difficulty: hard*
 
-
 **Q7. A chi-square goodness-of-fit test is conducted with 5 categories. The calculated chi-square test statistic is 9.488. What is the approximate p-value?**
 
 A. p-value > 0.10
@@ -39607,7 +39542,6 @@ D. p-value = 0.05 exactly
 **Answer: B**
 - For a chi-square goodness-of-fit test with k = 5 categories, degrees of freedom = k - 1 = 4. From the chi-square distribution table: the critical value for df = 4 at alpha = 0.05 is 9.488, and at alpha = 0.10 is 7.779. Since the test statistic (9.488) equals the critical value at 0.05 and exceeds the critical value at 0.10, the p-value is approximately 0.05. More precisely, p is between 0.05 and 0.10 (the test statistic falls between the critical values for these two significance levels)."
 *Difficulty: hard*
-
 
 **Q8. A Type I error occurs when a researcher:**
 
@@ -39620,7 +39554,6 @@ D. Rejects a false null hypothesis
 - A Type I error (false positive) occurs when the null hypothesis is true but is rejected by the test. The probability of a Type I error is equal to the significance level alpha. A Type II error (false negative) occurs when the null hypothesis is false but the test fails to reject it. The power of a test is 1 - P(Type II error), representing the probability of correctly rejecting a false null hypothesis."
 *Difficulty: hard*
 
-
 **Q9. A least-squares regression line has the equation y-hat = 3.2 + 1.5x. If x increases by 2 units, by how much does the predicted value of y change?**
 
 A. Increase by 3.0 units
@@ -39631,7 +39564,6 @@ D. Cannot be determined without the data
 **Answer: A**
 - The slope of the regression line (1.5) represents the change in the predicted value of y for each one-unit increase in x. If x increases by 2 units, the predicted y increases by 2 x 1.5 = 3.0 units. The y-intercept (3.2) is the predicted y when x = 0 and does not affect how y changes with x."
 *Difficulty: medium*
-
 
 **Q10. In a regression analysis, the coefficient of determination r-squared = 0.81. Which of the following is the correct interpretation?**
 

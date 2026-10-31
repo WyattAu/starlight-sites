@@ -146,7 +146,7 @@ word after it. The mechanical cases are repaired and gated
 Two shapes were repaired automatically, 3,864 spans across 655 files:
 
 - **Eaten list separators.** A run of code spans written back to back with no
-  `, ` between them collapses into a single span that contains a backtick,
+  `,` between them collapses into a single span that contains a backtick,
   which can only mean several spans were meant. Repaired to a proper
   comma-separated list. Certain, so mechanical.
 - **Eaten sentence boundaries.** A closed code span running straight into a

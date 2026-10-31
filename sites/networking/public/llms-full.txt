@@ -11,8 +11,7 @@
 URL: https://networking.wyattau.com/01-osi-model/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -48,7 +47,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -956,8 +954,7 @@ The OSI model is a conceptual map of network communication: seven layers, each w
 URL: https://networking.wyattau.com/02-ip-addressing/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -994,7 +991,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -2880,8 +2876,7 @@ Subnetting is dividing a network into smaller, manageable pieces. Think of an IP
 URL: https://networking.wyattau.com/03-tcp-udp/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -2905,7 +2900,6 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 Work through the Networking sections in order, starting with Dns and Email And App Protocols and building toward Dns, Email And App Protocols, Http Https, Ip Addressing, Layer2, Network Tools, Osi Model, Tcp Udp, Tls and Wireless, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -7226,8 +7220,7 @@ DNS architecture is like a hierarchical phone directory system. The root server 
 URL: https://networking.wyattau.com/04-dns/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -7264,7 +7257,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -9240,8 +9232,7 @@ HTTP/2 is like upgrading from a single-lane road to a multi-lane highway. HTTP/1
 URL: https://networking.wyattau.com/05-http-https/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -9265,7 +9256,6 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 Work through the Networking sections in order, starting with Dns and Email And App Protocols and building toward Dns, Email And App Protocols, Http Https, Ip Addressing, Layer2, Network Tools, Osi Model, Tcp Udp, Tls and Wireless, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -10149,8 +10139,7 @@ WebSockets are like a phone call versus sending letters. HTTP is like sending le
 URL: https://networking.wyattau.com/06-tls/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -10187,7 +10176,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -12165,8 +12153,7 @@ TLS is like a secure diplomatic pouch system. The handshake is like two ambassad
 URL: https://networking.wyattau.com/07-network-tools/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -12203,7 +12190,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -14219,8 +14205,7 @@ Traffic analysis is like wiretapping a phone system to understand what conversat
 URL: https://networking.wyattau.com/08-layer2/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -14256,7 +14241,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -15371,8 +15355,7 @@ Layer 2 is the neighbourhood delivery service of networking. MAC addresses are l
 URL: https://networking.wyattau.com/09-wireless/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -15408,7 +15391,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -17761,8 +17743,7 @@ Email protocols follow a postal system analogy. SMTP is like dropping a letter a
 URL: https://networking.wyattau.com/10-email-and-app-protocols/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -17798,7 +17779,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 
@@ -19692,7 +19672,6 @@ promises, what encapsulation is, and why TCP and UDP are two points on a
 guarantee spectrum -- and ends with a self-test.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -20025,7 +20004,7 @@ Start with ping, traceroute, and tcpdump. These three tools can diagnose the vas
 URL: https://networking.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 ## What This Site Covers
 
@@ -20100,7 +20079,6 @@ builds the layered model from the journey of one web page -- what each layer
 promises, what encapsulation is, and why TCP and UDP are two points on a
 guarantee spectrum -- and ends with a self-test.
 :::
-
 
 ## Why Networking Matters
 

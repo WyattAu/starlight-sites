@@ -341,7 +341,6 @@ URL: https://dse.wyattau.com/hub/
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta
@@ -23508,8 +23507,7 @@ linked above.
 URL: https://dse.wyattau.com/biology/1-cell-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. If Cell Biology feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -23546,7 +23544,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23568,8 +23565,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/2-ecology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -23607,7 +23603,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23629,8 +23624,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/3-genetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Genetics alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -23667,7 +23661,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23693,8 +23686,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/4-human-physiology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Human Physiology alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -23719,7 +23711,6 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 Use the diagnostic tests to find out whether Human Physiology needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23741,8 +23732,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/5-plant-biology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -23780,7 +23770,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23802,7 +23791,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/6-evolution/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -23857,8 +23846,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/biology/7-nervous-system-and-immunology/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Use the diagnostic tests to find out whether Nervous System And Immunology needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -23896,7 +23884,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -23918,8 +23905,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/biology/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -23949,7 +23935,6 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 
@@ -43817,7 +43802,7 @@ Atomic structure is like a building: the nucleus is the foundation (protons + ne
 URL: https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -43872,8 +43857,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/chemistry/2-stoichiometry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -43910,7 +43894,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -43936,8 +43919,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -43975,7 +43957,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -43997,8 +43978,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/chemistry/4-equilibrium/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Equilibrium alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -44035,7 +44015,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -44061,8 +44040,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/chemistry/5-acids-bases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Acids Bases alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -44099,7 +44077,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -44125,7 +44102,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Redox And Electrochemistry, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -44180,8 +44157,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/chemistry/7-organic-chemistry/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Organic Chemistry alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -44219,7 +44195,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -44241,7 +44216,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/chemistry/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -44291,7 +44266,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/chemistry/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -59047,8 +59022,7 @@ Microeconomics studies individual decision-making: consumers maximising utility,
 URL: https://dse.wyattau.com/economics/1-basic-economic-concepts/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59085,7 +59059,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59111,8 +59084,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/2-demand-supply-markets/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59149,7 +59121,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59175,7 +59146,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/3-market-structure/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59230,7 +59201,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/economics/4-market-failure/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59285,8 +59256,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/economics/5-macroeconomic-indicators/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59323,7 +59293,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59349,7 +59318,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/6-government-policy/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59404,8 +59373,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/economics/7-international-trade/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59442,7 +59410,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59468,8 +59435,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/8-money-and-banking/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59506,7 +59472,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59532,8 +59497,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -59564,7 +59528,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 Work through the DSE sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Economics, Geography, History, Ict, Maths, Physics and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -59586,7 +59549,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/economics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -59622,7 +59585,6 @@ sources:
 </script>
 
 ## DSE Economics
-
 
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
@@ -70680,7 +70642,7 @@ Geography connects people to place. Think of it as understanding why things are 
 URL: https://dse.wyattau.com/geography/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for geography. The Geography section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -72999,7 +72961,7 @@ European imperialism in Asia was like a game of Monopoly where one player keeps 
 URL: https://dse.wyattau.com/history/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for history. If History feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -79501,8 +79463,7 @@ ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to k
 URL: https://dse.wyattau.com/ict/3-programming-and-databases/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for programming and databases. Use the diagnostic tests to find out whether Programming And Databases needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -79527,7 +79488,6 @@ This section provides study materials and resources for programming and database
 If Programming And Databases feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -79549,8 +79509,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/ict/diagnostics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -79580,7 +79539,6 @@ This section provides study materials and resources for diagnostics. If Diagnost
 If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -79602,7 +79560,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/ict/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -105675,7 +105633,7 @@ Mathematical thinking is about abstraction and pattern recognition. Numbers, sha
 URL: https://dse.wyattau.com/maths/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -129585,8 +129543,7 @@ and past paper questions, is essential for success in examinations.
 URL: https://dse.wyattau.com/physics/1-mechanics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Mechanics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -129611,7 +129568,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Use the diagnostic tests to find out whether Mechanics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129633,8 +129589,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/physics/2-waves/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -129659,7 +129614,6 @@ This section covers key physical principles, from classical mechanics to modern 
 The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129681,8 +129635,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/physics/3-electricity-and-magnetism/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. If Electricity And Magnetism feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -129707,7 +129660,6 @@ This section covers key physical principles, from classical mechanics to modern 
 Revision works best in one direction here: read Electricity And Magnetism, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129729,8 +129681,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/physics/4-thermal-physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Thermal Physics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -129767,7 +129718,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129789,8 +129739,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/physics/5-nuclear-physics/
 
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. If Nuclear Physics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -129827,7 +129776,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
@@ -129853,7 +129801,7 @@ Begin with the introductory material before progressing to advanced topics. Use 
 URL: https://dse.wyattau.com/physics/diagnostics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -129903,7 +129851,7 @@ Use the cross-references to link related concepts across subjects where applicab
 URL: https://dse.wyattau.com/physics/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -141113,9 +141061,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 URL: https://dse.wyattau.com/zh/
 
 sources:
-  - text: Standard textbook reference
-
-
+- text: Standard textbook reference
 
 ## DSE 学习笔记
 
@@ -141161,67 +141107,67 @@ sources:
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 *此页面为中文版本。部分内容可能尚未完全翻译。*
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## 学习建议
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 1. **理解优先**：不要死记硬背公式，要理解每个公式的推导过程和应用场景。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 2. **多做练习**：DSE考试注重应用能力，只有通过大量练习才能熟练掌握各种题型。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 3. **建立联系**：各学科之间相互关联，物理需要数学工具，化学需要物理基础，生物需要化学知识。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 4. **注意细节**：考试中常常因为粗心大意而失分，养成仔细审题和检查答案的习惯。
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Common Mistakes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Assuming language affects concept difficulty:** Technical concepts are universal. The language of instruction doesn't change the underlying physics, chemistry, or biology.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Not using both English and Chinese resources:** Some concepts are better explained in one language. Use both to deepen understanding. For example, some mathematical terms are more intuitive in Chinese, while scientific terminology is often standardised in English.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 **Forgetting that DSE exams are in English:** Even if you study in Chinese, practice answering in English to prepare for the actual exam format. Technical vocabulary in English is essential.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Cross-References
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **[Biology](../biology/cell-biology):** 生物学研究生命体的结构和功能
 sources:
   - text: Standard textbook reference

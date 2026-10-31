@@ -640,4 +640,3 @@ key: "key'', value: "value'
 `if constexpr` is a compile-time if statement that tells the compiler to discard the branch that does not apply, the way a choose-your-own-adventure book skips entire chapters based on your choice. At compile time, only the true branch is instantiated, preventing compilation errors in code that would never execute. This replaces the messy template specialization patterns that were previously needed, like having to write separate booklets for each adventure instead of one book with conditional pages.
 
 ## Worked Examples
-

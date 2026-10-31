@@ -7,8 +7,7 @@ description: "This section covers cloud security concepts, definitions, and appl
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

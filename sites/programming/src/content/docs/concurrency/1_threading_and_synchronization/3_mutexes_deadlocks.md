@@ -750,4 +750,3 @@ deadlock prevention, including key principles and practical applications.
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## Worked Examples
-

@@ -89,7 +89,6 @@ Based on the official California Driver Handbook:
 - Assuming a red right-turn arrow works like a plain red light (it
   does not, wait for green).
 
-
 ## CA Fees and Milestones Quick Table
 
 <div class="table-wrap">
@@ -123,7 +122,6 @@ Based on the official California Driver Handbook:
 | Vision standard | 20/40 |
 
 </div>
-
 
 ## Test-Day Checklist for CA
 

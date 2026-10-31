@@ -117,4 +117,3 @@ way is clear.
 - [Traffic Rules](/rules/traffic-rules/) - Right-of-way and traffic laws
 - [Safe Driving Tips](/signs/traffic-signals/) - Defensive driving
 - [Practice Test](/written-test/practice-test/) - Test your knowledge
-
